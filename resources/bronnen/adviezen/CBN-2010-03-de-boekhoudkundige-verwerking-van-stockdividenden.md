@@ -7,45 +7,45 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/boeking-van-bonusaandelen
 nummer: CBN-advies 2010/3
 provenance:
+  generated_at: '2026-05-11T17:48:38Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-stockdividenden
       sha256: c15147cac20fa5f43b85a2ac282cdc0c16a2365199873b4b4135ab42e1634a48
       version:
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
-    status: needs-rework
     confirmed_at: '2026-05-11T17:09:38Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "Ronde-2-verdict TOC-artefact (A3) is verholpen door scraper-fix: geen TOC-fragment meer aanwezig in body. Echter nieuw gevonden: D3: voetnoot [^10] is gedefinieerd (r164: 'In het geval uiteraard roerende voorheffing verschuldigd is') maar heeft geen overeenkomstig anker in de body — orphaned footnote definition. Ook H1-titel (r61) bevat '2010/3 -De' zonder spatie na koppelteken (ETL-formatteerfout). Twee issues."
     layer1:
-      file_size_chars: 7989
-      flags: []
-      heading_count: 3
-      max_section_chars: 4673
-      run_at: '2026-05-11T15:05:50Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:42Z'
+      heading_count: 3
+      max_section_chars: 4672
+      file_size_chars: 7986
+      flags: []
     layer2:
-      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T17:09:38Z'
-      rationale: "Ronde-2-verdict TOC-artefact (A3) is verholpen door scraper-fix: geen TOC-fragment meer aanwezig in body. Echter nieuw gevonden: D3: voetnoot [^10] is gedefinieerd (r164: 'In het geval uiteraard roerende voorheffing verschuldigd is') maar heeft geen overeenkomstig anker in de body — orphaned footnote definition. Ook H1-titel (r61) bevat '2010/3 -De' zonder spatie na koppelteken (ETL-formatteerfout). Twee issues."
       concrete_problemen:
-        - regel: 164
-          categorie: D3
+        - categorie: D3
+          regel: 164
           type: other
           voorbeeld: '[^10]: In het geval uiteraard roerende voorheffing verschuldigd is. — geen anker [^10] in body'
-        - regel: 61
-          categorie: B1
+        - categorie: B1
+          regel: 61
           type: other
           voorbeeld: '# CBN-advies 2010/3 -De boekhoudkundige verwerking... (spatie ontbreekt na koppelteken)'
+      rationale: 'Ronde-2-verdict TOC-artefact (A3) is verholpen door scraper-fix: geen TOC-fragment meer aanwezig in body. Echter nieuw gevonden: D3: voetnoot [^10] is gedefinieerd (r164: ''In het geval uiteraard roerende voorheffing verschuldigd is'') maar heeft geen overeenkomstig anker in de body — orphaned footnote definition. Ook H1-titel (r61) bevat ''2010/3 -De'' zonder spatie na koppelteken (ETL-formatteerfout). Twee issues.'
+      run_at: '2026-05-11T17:09:38Z'
+      status: needs-rework
+    rationale: 'Ronde-2-verdict TOC-artefact (A3) is verholpen door scraper-fix: geen TOC-fragment meer aanwezig in body. Echter nieuw gevonden: D3: voetnoot [^10] is gedefinieerd (r164: ''In het geval uiteraard roerende voorheffing verschuldigd is'') maar heeft geen overeenkomstig anker in de body — orphaned footnote definition. Ook H1-titel (r61) bevat ''2010/3 -De'' zonder spatie na koppelteken (ETL-formatteerfout). Twee issues.'
+    status: needs-rework
 themas:
   - bonusaandelen
   - dividenden
@@ -63,7 +63,6 @@ In dit advies wordt vooreerst het gemeenrechtelijk onderscheid tussen een stockd
 Dit advies is van toepassing op de zogenaamde “keuzedividenden” en bij uitbreiding op (verplichte) “stockdividenden” die voortkomen uit een beslissing tot winstuitkering.
 
 ## Stockdividenden versus bonusaandelen
-
 Wat betreft de toekenning van nieuwe aandelen aan de aandeelhouders moet een onderscheid worden gemaakt tussen twee hypotheses, met name:
 
 - *enerzijds* de toekenning van nieuwe aandelen, op basis van een incorporatie van reserves of winst (buiten een dividenduitkering[^2]) in het kapitaal: bonusaandelen; en 
@@ -78,13 +77,11 @@ Bij de toekenning van een stockdividend is er daarentegen sprake van een reële 
 Indien de algemene vergadering het voorstel tot uitkering van een dividend goedkeurt, ontstaat immers een schuld in hoofde van de vennootschap en een vorderingsrecht ten voordele van de aandeelhouder[^5].
 
 ## Vorderingsrecht in hoofde van de aandeelhouder
-
 Het vorderingsrecht dat de aandeelhouder verkrijgt, is te onderscheiden van de rechten die de aandeelhouder reeds bezat en vormt een vermogensverrijking in zijn hoofde. De schuldvordering betreffende de uitbetaling van dividenden ontstaat in het vermogen van de aandeelhouder op het ogenblik dat de algemene vergadering besluit om het dividend toe te kennen[^6]. Op dat ogenblik wordt het een afdwingbaar individueel recht[^7]. 
 
 Bij een stockdividend doen de aandeelhouders vervolgens een inbreng van dit vorderingsrecht in het kapitaal van de emitterende vennootschap tegen de uitgifte van nieuwe aandelen. Het gaat dan om een kapitaalverhoging door inbreng in natura[^8]. Overeenkomstig CBN-advies 121/3 gebeurt deze mutatie met tegenboeking in een balanspost (omzetting van de schuld wegens uit te keren dividenden in het kapitaal) en beïnvloedt zodoende het totaal eigen vermogen van de emitterende vennootschap[^9].
 
 ## Boekhoudkundige verwerking
-
 Aangezien met de uitreiking van een stockdividend een nieuw vermogensbestanddeel aan de aandeelhouder wordt toegekend dat in eerste instantie uit het maatschappelijk vermogen van de vennootschap verdwijnt, is er sprake van een opbrengst in hoofde van de aandeelhouder. 
 
 De latere aanwending van het vorderingsrecht door de aandeelhouder (al dan niet inbreng van zijn vorderingsrecht in het kapitaal van de dividenddecreterende vennootschap) is irrelevant voor de boekhoudkundige verwerking van het stockdividend. De waarde van dit vorderingsrecht moet in de resultatenrekening van de aandeelhouder worden geboekt als financiële opbrengst.

@@ -3,49 +3,49 @@ bron: https://www.cbn-cnc.be/nl/adviezen/niet-in-de-balans-opgenomen-rechten-en-
 datum: 2017-03-15
 nummer: CBN-advies 2017/07
 provenance:
+  generated_at: '2026-05-11T17:48:39Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/niet-in-de-balans-opgenomen-rechten-en-verplichtingen
       sha256: f6470ed1e68c46c270e00f166224818bc6700a337a8f39ddfb0840dc88b5f528
       version:
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
-    status: needs-rework
     confirmed_at: '2026-05-11T17:13:30Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "A2: regels 61-62 (body) bevatten twee losstaande ', 15' fragmenten direct na de H1 — paginanummer-resten zonder context, typisch dotted-leader artefact. D4: regel 165 (body) bevat 'met *inlichtingen* betreffende' — controleer op spatie voor sluitende asterisk (potentieel ETL-artefact). Omvangrijke inhoud (26370 chars) met 14 headings verder volledig."
     layer1:
-      file_size_chars: 26370
-      flags: []
-      heading_count: 14
-      max_section_chars: 11917
-      run_at: '2026-05-11T15:05:52Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:44Z'
+      heading_count: 14
+      max_section_chars: 11916
+      file_size_chars: 26332
+      flags: []
     layer2:
-      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T17:13:30Z'
-      rationale: "A2: regels 61-62 (body) bevatten twee losstaande ', 15' fragmenten direct na de H1 — paginanummer-resten zonder context, typisch dotted-leader artefact. D4: regel 165 (body) bevat 'met *inlichtingen* betreffende' — controleer op spatie voor sluitende asterisk (potentieel ETL-artefact). Omvangrijke inhoud (26370 chars) met 14 headings verder volledig."
       concrete_problemen:
-        - regel: 61
-          categorie: A2
+        - categorie: A2
+          regel: 61
           type: dotted-leader
           voorbeeld: ', 15'
-        - regel: 62
-          categorie: A2
+        - categorie: A2
+          regel: 62
           type: dotted-leader
           voorbeeld: ', 15'
-        - regel: 165
-          categorie: D4
+        - categorie: D4
+          regel: 165
           type: other
           voorbeeld: met *inlichtingen* betreffende belangrijke hangende geschillen
+      rationale: 'A2: regels 61-62 (body) bevatten twee losstaande '', 15'' fragmenten direct na de H1 — paginanummer-resten zonder context, typisch dotted-leader artefact. D4: regel 165 (body) bevat ''met *inlichtingen* betreffende'' — controleer op spatie voor sluitende asterisk (potentieel ETL-artefact). Omvangrijke inhoud (26370 chars) met 14 headings verder volledig.'
+      run_at: '2026-05-11T17:13:30Z'
+      status: needs-rework
+    rationale: 'A2: regels 61-62 (body) bevatten twee losstaande '', 15'' fragmenten direct na de H1 — paginanummer-resten zonder context, typisch dotted-leader artefact. D4: regel 165 (body) bevat ''met *inlichtingen* betreffende'' — controleer op spatie voor sluitende asterisk (potentieel ETL-artefact). Omvangrijke inhoud (26370 chars) met 14 headings verder volledig.'
+    status: needs-rework
 themas:
   - rechten
   - verplichtingen
@@ -58,12 +58,7 @@ themas:
 
 # CBN-advies 2017/07 - Niet in de balans opgenomen rechten en verplichtingen
 
-, 15
-
-, 15
-
 ## Hypothese en vraag
-
 Het onderhavig advies heeft tot doel advies 3/2 van de Commissie voor boekhoudkundige normen te verduidelijken en aan te vullen voor wat betreft de niet in de balans opgenomen rechten en verplichtingen.
 
 Dit kadert in het verlengde van bepaalde recente wijzigingen van het reglementaire kader[^2] en, in het algemeen, van de toename van het aantal verrichtingen en de verhoogde complexiteit van deze verrichtingen die wellicht zullen moeten worden gespecificeerd in de toelichting van de jaarrekening.
@@ -77,9 +72,7 @@ Hierbij dient er meteen te worden opgemerkt dat deze problematiek zich niet enke
 In dit advies wordt uitsluitend de toepassing van het Belgische boekhoudrecht op de beschouwde verrichtingen behandeld en niet de fiscale aspecten.
 
 ## Wetgevend en reglementair kader
-
 ### Vermelding van rechten en verplichtingen in de toelichting
-
 In artikel 16, 1, d) van de richtlijn 2013/34/EU, waarin de inhoud van de toelichting voor alle ondernemingen wordt gespecificeerd, wordt het volgende bepaald:
 
 “het totaalbedrag van alle financiële verplichtingen, garanties of onvoorziene gebeurtenissen die niet in de balans zijn opgenomen, met opgave van de aard en vorm van alle zakelijke zekerheden die zijn gesteld; verplichtingen inzake pensioenen en verplichtingen jegens verbonden of geassocieerde ondernemingen worden afzonderlijk vermeld;”.
@@ -97,13 +90,11 @@ Onder andere de voormelde artikelen 91 en 94 werden onlangs gewijzigd door het K
 Deze wijzigingen waren ook de aanleiding tot de invoering van een nieuw artikel 94/3 in het KB W.Venn. waarin in het punt III. de niet in de balans opgenomen rechten en verplichtingen worden opgesomd die moeten worden vermeld in de toelichting van de jaarrekening van de microvennootschappen.
 
 ### Rekeningen van de klasse 0
-
 Na de omschrijving van de rechten en verplichtingen die moeten worden opgenomen in de toelichting volgens het schema van de jaarrekening dat van toepassing is op de onderneming, wordt in artikel 97 KB W.Venn. de inhoud van bepaalde verplichte vermeldingen in de toelichting bepaald voor de niet in de balans opgenomen rechten en verplichtingen.
 
 In artikel 97 is een beknopte omschrijving opgenomen van de hierna opgesomde rekeningen 00 tot 07:
 
 ### 00. Zekerheden door derden gesteld voor rekening van de vennootschap
-
  01. Persoonlijke zekerheden gesteld voor rekening van derden 
 
  02. Zakelijke zekerheden gesteld op eigen activa 
@@ -121,11 +112,8 @@ In artikel 97 is een beknopte omschrijving opgenomen van de hierna opgesomde rek
 De volledige lijst van de rekeningen van klasse 0 is vastgesteld door het koninklijk besluit van 12 september 1983[^5] en bevat eveneens een rekening 09 Diverse rechten en verplichtingen alsook een groot aantal subrekeningen waarvan sommige op hun beurt onderverdeeld zijn in een reeks subrekeningen.
 
 ## Beschouwingen
-
 ### Vermelding van rechten en verplichtingen in de toelichting
-
 #### Materialiteitsbeginsel (materiality principle)
-
 Het materialiteitsbeginsel geldt als beslissingscriterium om te oordelen over de noodzaak om rechten en verplichtingen effectief op te nemen in de toelichting.
 
 Dit criterium is bepaald[^6] door verwijzing naar artikel 82, § 3/1, tweede lid van het KB W.Venn. dat luidt als volgt:
@@ -137,7 +125,6 @@ Volgens het Verslag aan de Koning bij het KB van 18 december 2015 bevindt de wet
 De beoordeling van dit criterium blijft subjectief en behoort tot de verantwoordelijkheden van het bestuursorgaan van de onderneming overeenkomstig artikel 28 van het KB W.Venn.
 
 #### Niet-limitativiteit van de bestaande lijsten
-
 De in de voormelde artikelen 91[^8] en 94[^9] van het KB W.Venn. opgesomde rechten en verplichtingen die moeten worden opgenomen in de toelichting van de jaarrekening vormen geen exhaustieve lijst.
 
 Zo dient de onderneming, bovenop de zakelijke zekerheden en de persoonlijke zekerheden die de klassieke voorbeelden zijn van niet in de balans opgenomen rechten en verplichtingen en de in voormelde artikelen opgenomen rechten en verplichtingen, systematisch alle belangrijke niet in de balans opgenomen rechten en verplichtingen op te nemen in de toelichting ingevolge artikel 25, § 3 van het KB W.Venn. zonder zich louter te beperken tot de in het KB W.Venn. opgenomen voorbeelden.
@@ -153,11 +140,9 @@ Het bestuursorgaan is verantwoordelijk voor de waardering van de eventuele recht
 Ten slotte is de Commissie van oordeel dat de duur van de rechten en verplichtingen vaak een bijkomend essentieel onderdeel is voor de beoordeling van de precieze draagwijdte ervan. Deze duur zou bijgevolg systematisch moeten worden opgenomen in de toelichting.[^12] 
 
 #### Subsidiariteit
-
 Enkel de rechten en verplichtingen die nog niet zijn opgenomen in de balans moeten worden vermeld in de toelichting.[^13] 
 
-#### Vermelding van bepaalde wijzigingen van het KB W.Venn. door het KB van 18 december 2015 [^14] , [^15]
-
+#### Vermelding van bepaalde wijzigingen van het KB W.Venn. door het KB van 18 december 2015 ,
 De artikelen 91 en 94 van het KB W.Venn. starten met een verwijzing naar het materialiteitsbeginsel dat hierna wordt omschreven als het beslissende criterium om te beoordelen of rechten en verplichtingen effectief worden opgenomen in de toelichting.
 
 In artikel 91 KB W.Venn. waarin de inhoud van de toelichting bij het volledig schema van de jaarrekening wordt behandeld, brengt het KB van 18 december 2015 de volgende aanpassingen in staat XVII. aan:
@@ -175,7 +160,6 @@ In artikel 94 KB W.Venn. waarin de inhoud van de toelichting bij het verkort sch
 Zoals reeds werd vermeld, heeft het KB van 18 december 2015 ook een nieuw artikel 94/3 ingevoegd in het KB W.Venn. waarin in punt III. de niet in de balans opgenomen rechten en verplichtingen worden opgesomd die moeten worden vermeld in de toelichting bij het microschema van de jaarrekening. Deze informatie is gelijkaardig aan de informatie die op grond van artikel 94 in de toelichting bij het verkort schema van de jaarrekening moet worden opgenomen.
 
 ### Boeking van rechten en verplichtingen onder de rekeningen van de klasse 0
-
 De rekeningen van de klasse 0[^19], met inbegrip van de talrijke subrekeningen die zijn opgenomen in de minimumindeling van het algemeen rekeningenstelsel, bevatten een aanzienlijke lijst van rechten en verplichtingen waarvan de bewoording niet systematisch overeenstemt met de bewoording van de rechten en verplichtingen die zijn opgesomd in de voormelde artikelen 91 of 94 van het KB W.Venn.
 
 In dat opzicht dient het bestaan te worden gemeld van de rekening 09 *Diverse rechten en verplichtingen* als aanvullende categorie waardoor eventuele belangrijke rechten en verplichtingen kunnen worden geboekt die niet vervat zitten in de rekeningen 00 tot 07.
@@ -198,13 +182,11 @@ Mocht de waarschijnlijkheid van het effectief ontstaan van deze rechten en verpl
 Er kunnen zich bijzondere gevallen voordoen die de volgende vragen doen rijzen:
 
 #### Boeking door de onderneming van door een derde gewaarborgde verplichtingen
-
 Het is mogelijk dat de onderneming bepaalde door een derde gewaarborgde verplichtingen heeft.
 
 De Commissie is van mening dat de onderneming de verplichtingen[^25] moet boeken voor het totaalbedrag waartoe de onderneming zich heeft verbonden. De vermelding van het bestaan van een correlatieve waarborg en de mogelijkheid om hierop beroep te kunnen doen, kan worden vermeld in de toelichting.
 
 #### Welk bedrag moet er worden geboekt?
-
 De onderneming kan bijvoorbeeld hoofdelijk aansprakelijk zijn[^26] met de al dan niet verbonden derde partijen.
 
 In dat geval is de Commissie van mening dat de onderneming de verplichtingen[^27] systematisch moet boeken voor het totaalbedrag waarvoor de onderneming aansprakelijk kan worden gesteld en dat verschuldigd is aan de schuldeiser.

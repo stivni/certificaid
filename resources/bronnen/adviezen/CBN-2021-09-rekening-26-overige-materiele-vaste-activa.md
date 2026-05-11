@@ -2,88 +2,74 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/rekening-26-overige-materiele-vaste-activa
 datum: 2021-06-23
 gerelateerde_adviezen:
-- datum: '2016-03-09'
-  titel: Boekhoudkundige verwerking van ontvangen subsidies voor de aankoop van activa
-    die worden ter beschikking gesteld
-  url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-ontvangen-subsidies-voor-de-aankoop-van-activa-die-worden
-- datum: '1991-03-01'
-  titel: Verwerking van verrichtingen voor de verwerving of verkoop van een recht
-    op vruchtgebruik of van naakte eigendom op materiële vaste activa in de boekhouding
-    van de vruchtgebruiker (de erfpachter, de opstalhouder) en van de naakte eigenaar
-    (de grondeigenaa
-  url: https://www.cbn-cnc.be/nl/adviezen/verwerking-van-verrichtingen-voor-de-verwerving-of-verkoop-van-een-recht-op-vruchtgebruik
-- datum: '1991-03-01'
-  titel: Boeking van het verschuldigd bedrag om de optie te lichten of van de restwaarde
-    aan het einde van de overeenkomst
-  url: https://www.cbn-cnc.be/nl/adviezen/boeking-van-het-verschuldigd-bedrag-om-de-optie-te-lichten-of-van-de-restwaarde-aan-het
-- datum: '1989-07-01'
-  titel: Aansluitingskosten en installatiekosten waarbij derden de eigendom van de
-    installatie verwerven of behouden
-  url: https://www.cbn-cnc.be/nl/adviezen/aansluitingskosten-en-installatiekosten-waarbij-derden-de-eigendom-van-de-installatie
+  - datum: '2016-03-09'
+    titel: Boekhoudkundige verwerking van ontvangen subsidies voor de aankoop van activa die worden ter beschikking gesteld
+    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-ontvangen-subsidies-voor-de-aankoop-van-activa-die-worden
+  - datum: '1991-03-01'
+    titel: Verwerking van verrichtingen voor de verwerving of verkoop van een recht op vruchtgebruik of van naakte eigendom op materiële vaste activa in de boekhouding van de vruchtgebruiker (de erfpachter, de opstalhouder) en van de naakte eigenaar (de grondeigenaa
+    url: https://www.cbn-cnc.be/nl/adviezen/verwerking-van-verrichtingen-voor-de-verwerving-of-verkoop-van-een-recht-op-vruchtgebruik
+  - datum: '1991-03-01'
+    titel: Boeking van het verschuldigd bedrag om de optie te lichten of van de restwaarde aan het einde van de overeenkomst
+    url: https://www.cbn-cnc.be/nl/adviezen/boeking-van-het-verschuldigd-bedrag-om-de-optie-te-lichten-of-van-de-restwaarde-aan-het
+  - datum: '1989-07-01'
+    titel: Aansluitingskosten en installatiekosten waarbij derden de eigendom van de installatie verwerven of behouden
+    url: https://www.cbn-cnc.be/nl/adviezen/aansluitingskosten-en-installatiekosten-waarbij-derden-de-eigendom-van-de-installatie
 nummer: CBN-advies 2021/09
 provenance:
-  generated_at: '2026-05-11T15:15:32Z'
+  generated_at: '2026-05-11T17:48:39Z'
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/rekening-26-overige-materiele-vaste-activa
-    sha256: be4ebe2add6f9dadcf20b4514d83355b8ca1e178901f445fb910c8d2c410e956
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/rekening-26-overige-materiele-vaste-activa
+      sha256: be4ebe2add6f9dadcf20b4514d83355b8ca1e178901f445fb910c8d2c410e956
+      version:
   stale: false
-  stale_reason: null
+  stale_reason:
   tooling:
-    model: null
+    model:
     pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    prompt_version: null
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
     confirmed_at: '2026-05-11T12:21:41Z'
     confirmed_by: subagent-sonnet-4-6
     layer1:
-      file_size_chars: 6761
-      flags: []
-      heading_count: 3
-      max_section_chars: 5041
-      run_at: '2026-05-11T15:05:54Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:45Z'
+      heading_count: 3
+      max_section_chars: 5040
+      file_size_chars: 6758
+      flags: []
     layer2:
       agent: subagent-sonnet-4-6
       concrete_problemen: []
-      rationale: Alle drie categorieën (A t/m G) schoon. Drie headings correct genesteld,
-        inhoud volledig (inleiding, rubriek-inhoud, waarderingsregels), 12 voetnootdefinities
-        aanwezig, geen artefacten, geen orphan-footnotes, geen malformed italic. Compacte
-        maar complete bron.
+      rationale: Alle drie categorieën (A t/m G) schoon. Drie headings correct genesteld, inhoud volledig (inleiding, rubriek-inhoud, waarderingsregels), 12 voetnootdefinities aanwezig, geen artefacten, geen orphan-footnotes, geen malformed italic. Compacte maar complete bron.
       run_at: '2026-05-11T12:21:41Z'
       status: trusted
-    rationale: Alle drie categorieën (A t/m G) schoon. Drie headings correct genesteld,
-      inhoud volledig (inleiding, rubriek-inhoud, waarderingsregels), 12 voetnootdefinities
-      aanwezig, geen artefacten, geen orphan-footnotes, geen malformed italic. Compacte
-      maar complete bron.
+    rationale: Alle drie categorieën (A t/m G) schoon. Drie headings correct genesteld, inhoud volledig (inleiding, rubriek-inhoud, waarderingsregels), 12 voetnootdefinities aanwezig, geen artefacten, geen orphan-footnotes, geen malformed italic. Compacte maar complete bron.
     status: trusted
 themas:
-- overige materiële vaste activa
-- onroerende reserve
-- buiten gebruik gestelde materiële vaste activa
-- buiten exploitatie gestelde materiële vaste activa
-- erfpacht
-- opstal
-- Huur
-- handelshuur
-- landpacht
-- kost inrichting gehuurde gebouwen
-- onroerende goederen
-- herverkoop
-- voorraden
-- herwaarderingsmeerwaarde
+  - overige materiële vaste activa
+  - onroerende reserve
+  - buiten gebruik gestelde materiële vaste activa
+  - buiten exploitatie gestelde materiële vaste activa
+  - erfpacht
+  - opstal
+  - Huur
+  - handelshuur
+  - landpacht
+  - kost inrichting gehuurde gebouwen
+  - onroerende goederen
+  - herverkoop
+  - voorraden
+  - herwaarderingsmeerwaarde
 ---
 
 # CBN-advies 2021/09 – Rekening 26 Overige materiële vaste activa
 
 ## Inleiding
-
 In onderhavig advies verduidelijkt de Commissie het gebruik van de rekening 26 *Overige materiële vaste activa*. Deze rekening wordt in de jaarrekening vermeld onder de rubriek III.E. Overige materiële vaste activa. 
 
 ## Inhoud van de rubriek III.E. Overige materiële vaste activa
-
 Het koninklijk besluit tot uitvoering van het Wetboek van vennootschappen en verenigingen (hierna: KB WVV) geeft zelf de volgende duiding over de inhoud van de rubriek III.E. Overige materiële vaste activa:[^2] 
 
 Deze rubriek bevat de volgende activa[^3]:
@@ -99,7 +85,6 @@ Indien de enige, de voornaamste of een belangrijke activiteit erin bestaat om ro
 De onroerende goederen die werden aangekocht of gebouwd met het oog op herverkoop worden evenwel afzonderlijk onder de voorraden vermeld.[^6] 
 
 ## Waarderingsregels, waardeverminderingen en afschrijvingen
-
 Het KB WVV voorziet geen bijzondere, afwijkende waarderingsregels voor de overige materiële activa. Dit wil zeggen dat de overige materiële vaste activa, in principe, gewaardeerd worden tegen aanschaffingswaarde en voor dat bedrag in de balans worden opgenomen, onder aftrek van de desbetreffende afschrijvingen en waardeverminderingen.[^7]
  De Commissie brengt in herinnering dat de vaste activa waarvan de gebruiksduur beperkt is, afgeschreven moeten worden volgens een passend afschrijvingsplan.[^8]
  Dit geldt evenzeer voor de vaste activa met een beperkte gebruiksduur die geboekt staan onder de rubriek *Overige materiële vaste activa*. 

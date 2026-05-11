@@ -3,49 +3,49 @@ bron: https://www.cbn-cnc.be/nl/adviezen/aanbevelingen-inzake-de-gelijkwaardighe
 datum: 2007-01-01
 nummer: CBN-advies NFP
 provenance:
+  generated_at: '2026-05-11T17:48:40Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/aanbevelingen-inzake-de-gelijkwaardigheid-van-boekhoud-en-jaarrekeningregels-opgelegd-door
       sha256: f9afefc503221aa54eb11710768c07d716aacd5e1f5e6c0216584985fb2fca83
       version:
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T15:15:32Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
-    status: needs-rework
     confirmed_at: '2026-05-11T17:13:31Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "B4: sectie A (Inleiding) is als '**A. INLEIDING**' bold-tekst opgemaakt (regel 71) in plaats van als ## heading, terwijl secties B (regel 112), C (regel 129) en D (regel 144) wél als ## heading zijn opgemaakt — inconsistente heading-behandeling is een extractie-artefact. B3: '## Januari 2007' (regel 69) staat onmiddellijk na de H1-titel zonder eigen inhoud — lege sectionering. A6/C2: de genummerde criteria 1-9 in sectie D (regels 150-176) staan elk als een geïsoleerd getal op een eigen regel gevolgd door de tekst in een aparte alinea, in plaats van als '1. tekst' op één regel — PDF-reflow-artefact."
     layer1:
-      file_size_chars: 23501
-      flags: []
-      heading_count: 4
-      max_section_chars: 9127
-      run_at: '2026-05-11T15:05:54Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:45Z'
+      heading_count: 5
+      max_section_chars: 9108
+      file_size_chars: 23494
+      flags: []
     layer2:
-      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T17:13:31Z'
-      rationale: "B4: sectie A (Inleiding) is als '**A. INLEIDING**' bold-tekst opgemaakt (regel 71) in plaats van als ## heading, terwijl secties B (regel 112), C (regel 129) en D (regel 144) wél als ## heading zijn opgemaakt — inconsistente heading-behandeling is een extractie-artefact. B3: '## Januari 2007' (regel 69) staat onmiddellijk na de H1-titel zonder eigen inhoud — lege sectionering. A6/C2: de genummerde criteria 1-9 in sectie D (regels 150-176) staan elk als een geïsoleerd getal op een eigen regel gevolgd door de tekst in een aparte alinea, in plaats van als '1. tekst' op één regel — PDF-reflow-artefact."
       concrete_problemen:
-        - regel: 69
-          categorie: B3
+        - categorie: B3
+          regel: 69
           type: other
           voorbeeld: '## Januari 2007 (lege H2-heading onmiddellijk na H1, geen sectie-inhoud)'
-        - regel: 71
-          categorie: B4
+        - categorie: B4
+          regel: 71
           type: other
           voorbeeld: '**A. INLEIDING** (bold-tekst als sectielabel i.p.v. ## heading; inconsistent met ## B, ## C, ## D)'
-        - regel: 150
-          categorie: A6
+        - categorie: A6
+          regel: 150
           type: other
           voorbeeld: 1. \n\nEen patrimoniale boekhouding voeren... (getal op eigen regel, tekst in aparte alinea — criteria 1-9 allemaal zo)
+      rationale: 'B4: sectie A (Inleiding) is als ''**A. INLEIDING**'' bold-tekst opgemaakt (regel 71) in plaats van als ## heading, terwijl secties B (regel 112), C (regel 129) en D (regel 144) wél als ## heading zijn opgemaakt — inconsistente heading-behandeling is een extractie-artefact. B3: ''## Januari 2007'' (regel 69) staat onmiddellijk na de H1-titel zonder eigen inhoud — lege sectionering. A6/C2: de genummerde criteria 1-9 in sectie D (regels 150-176) staan elk als een geïsoleerd getal op een eigen regel gevolgd door de tekst in een aparte alinea, in plaats van als ''1. tekst'' op één regel — PDF-reflow-artefact.'
+      run_at: '2026-05-11T17:13:31Z'
+      status: needs-rework
+    rationale: 'B4: sectie A (Inleiding) is als ''**A. INLEIDING**'' bold-tekst opgemaakt (regel 71) in plaats van als ## heading, terwijl secties B (regel 112), C (regel 129) en D (regel 144) wél als ## heading zijn opgemaakt — inconsistente heading-behandeling is een extractie-artefact. B3: ''## Januari 2007'' (regel 69) staat onmiddellijk na de H1-titel zonder eigen inhoud — lege sectionering. A6/C2: de genummerde criteria 1-9 in sectie D (regels 150-176) staan elk als een geïsoleerd getal op een eigen regel gevolgd door de tekst in een aparte alinea, in plaats van als ''1. tekst'' op één regel — PDF-reflow-artefact.'
+    status: needs-rework
 themas:
   - gelijkwaardigheid
   - zeer grote verenigingen en stichtingen
@@ -65,11 +65,8 @@ themas:
 ---
 
 # Aanbevelingen inzake de gelijkwaardigheid van boekhoud- en jaarrekeningregels opgelegd door sectorale regelgevingen met de gemeenrechtelijke boekhoud- en jaarrekeningregels voor vzw’s, ivzw’s en stichtingen
-
 ## Januari 2007
-
-**A. INLEIDING**
-
+## A. INLEIDING
 De wet van 27 juni 1921 betreffende de verenigingen zonder winstoogmerk, de internationale verenigingen zonder winstoogmerk en de stichtingen, zoals gewijzigd door de wet van 2 mei 2002, bepaalt in haar artikelen 17, §2, 37, §2 en 53, §2 dat VZW’s, IVZW’s en stichtingen een vereenvoudigde boekhouding moeten voeren die ten minste betrekking heeft op de mutaties in contant geld of op de rekeningen, overeenkomstig een door de Koning vastgesteld model. In uitvoering van deze bepalingen werd een model voor een vereenvoudigde boekhouding uitgewerkt. Het werd uitgevaardigd met het koninklijk besluit van 26 juni 2003 betreffende de vereenvoudigde boekhouding van bepaalde verenigingen zonder winstoogmerk, stichtingen en internationale verenigingen zonder winstoogmerk.
 
 Wanneer dergelijke verenigingen of stichtingen met hun totale ontvangsten andere dan uitzonderlijke ontvangsten[^1], met hun balanstotaal en hun personeelsbestand[^2] bepaalde drempels bereiken, waardoor zij grote of zeer grote verenigingen of stichtingen worden, legt de wet een afwijkende regeling op, namelijk de verplichting om een boekhouding te voeren en een jaarrekening op te stellen overeenkomstig de voorschriften die gelden voor handels- en industriële ondernemingen[^3], maar waarbij de Koning deze voorschriften aanpast aan de bijzondere aard van de werkzaamheden en van het wettelijk statuut van de betrokken verenigingen.
@@ -110,7 +107,6 @@ Een dergelijk harmonisatiebeleid dat reeds is ingezet door de Vlaamse Regering (
 De Commissie dankt de werkgroep "Not-for-profit & public sector accounting" voor zijn uiterst waardevolle bijdrage tot de opstelling van dit advies.
 
 ## B. Voorwaarden en beperkingen van de gelijkwaardigheid van de sectorale boekhoudregels ten aanzien van de gemeenrechtelijke bepalingen inzake de boekhouding en de jaarrekening voor VZW’s, IVZW’s en stichtingen
-
 Vooraleer haar aanbevelingen toe te lichten, wenst de Commissie aan te geven welke voorwaarden en beperkingen aan de gelijkwaardigheid zijn verbonden:
 
 1. Om te kunnen worden ingeroepen is gelijkwaardigheid enkel vereist voor het voeren van de boekhouding en het opstellen van de jaarrekening. Van sectorale regels wordt niet verwacht dat zij ook nog voorschrijven dat de jaarrekening openbaar dient te worden gemaakt en in voorkomend geval gecontroleerd, om als gelijkwaardig te kunnen worden beschouwd. 
@@ -127,7 +123,6 @@ Mocht géén gelijkwaardigheid worden vastgesteld, dan zal de vereniging geconfr
 Ten slotte, mochten verschillende sectorale regelgevingen op een VZW van toepassing zijn als gevolg van de uitgeoefende activiteiten, dan is de Commissie op het eerste gezicht van oordeel dat het gelijkwaardigheidsconcept in zo’n geval niet bruikbaar is aangezien men niet inziet hoe het - partieel – zou kunnen worden georganiseerd ten aanzien van de verschillende activiteiten.
 
 ## C. Aanbevelingen voor kleine verenigingen en stichtingen inzake gelijkwaardigheid
-
 Uit het grondige onderzoek van de sectorale reglementeringen dat de werkgroep "Not-for-profit & public sector accounting" heeft gevoerd, blijkt dat in meer dan 95% van de gevallen een volledige patrimoniale boekhouding (accrual principe) wordt opgelegd, zodat de vraag omtrent gelijkwaardigheid in de praktijk slechts rijst met betrekking tot de voorschriften voor grote en zeer grote verenigingen en stichtingen[^8].
 
 In de veronderstelling echter dat een kleine vereniging of stichting wettelijk gezien, op grond van de sectorale voorschriften, verplicht is een kasboekhouding te voeren, kan die, naar het oordeel van de Commissie, enkel worden beschouwd als gelijkwaardig aan de vereenvoudigde boekhouding zoals geregeld door het koninklijk besluit van 26 juni 2003, wanneer de sectorale reglementering:
@@ -142,7 +137,6 @@ In de veronderstelling echter dat een kleine vereniging of stichting wettelijk g
 Wanneer het gaat om grote of zeer grote verenigingen of stichtingen, zal de kasboekhouding die door een specifieke reglementering wordt opgelegd, nooit gelijkwaardig zijn aan de regeling die het koninklijk besluit van 19 december 2003 oplegt in verband met een volledige patrimoniale boekhouding (accrual principe).
 
 ## D. Aanbevelingen voor grote en zeer grote verenigingen en stichtingen inzake gelijkwaardigheid
-
 De Commissie is van oordeel dat boekhoudkundige verplichtingen die worden opgelegd door een sectorale reglementering, enkel kunnen worden beschouwd als gelijkwaardig aan de regels opgelegd door de wet en het koninklijk besluit van 19 december 2003, voor zover de sectorale reglementering:
 
 - hetzij uitdrukkelijk en zonder voorbehoud verwijst naar de wet van 27 juni 1921 en haar uitvoeringsbesluit van 19 december 2003 inzake het houden van de boekhouding en het opstellen van de jaarrekening 

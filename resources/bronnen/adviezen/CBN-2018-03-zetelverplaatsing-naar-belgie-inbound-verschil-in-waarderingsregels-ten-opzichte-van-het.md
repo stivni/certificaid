@@ -2,64 +2,55 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/zetelverplaatsing-naar-belgie-inbound-verschil-in-waarderingsregels-ten-opzichte-van-het
 datum: 2018-04-18
 gerelateerde_adviezen:
-- datum: '2020-12-16'
-  titel: 'Zetelverplaatsing naar België: model van staat van activa en passiva bij
-    immigrerende vennootschappen'
-  url: https://www.cbn-cnc.be/nl/adviezen/zetelverplaatsing-naar-belgie-model-van-staat-van-activa-en-passiva-bij-immigrerende
-- datum: '2010-12-08'
-  titel: 'Zetelverplaatsing naar België van een vennootschap opgericht naar buitenlands
-    recht: gevolgen voor het voeren van de boekhouding en het opstellen van de jaarrekening'
-  url: https://www.cbn-cnc.be/nl/adviezen/zetelverplaatsing-naar-belgie-van-een-vennootschap-opgericht-naar-buitenlands-recht
+  - datum: '2020-12-16'
+    titel: 'Zetelverplaatsing naar België: model van staat van activa en passiva bij immigrerende vennootschappen'
+    url: https://www.cbn-cnc.be/nl/adviezen/zetelverplaatsing-naar-belgie-model-van-staat-van-activa-en-passiva-bij-immigrerende
+  - datum: '2010-12-08'
+    titel: 'Zetelverplaatsing naar België van een vennootschap opgericht naar buitenlands recht: gevolgen voor het voeren van de boekhouding en het opstellen van de jaarrekening'
+    url: https://www.cbn-cnc.be/nl/adviezen/zetelverplaatsing-naar-belgie-van-een-vennootschap-opgericht-naar-buitenlands-recht
 nummer: CBN-advies 2018/03
 provenance:
-  generated_at: '2026-05-11T15:15:31Z'
+  generated_at: '2026-05-11T17:48:39Z'
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/zetelverplaatsing-naar-belgie-inbound-verschil-in-waarderingsregels-ten-opzichte-van-het
-    sha256: 5cd6c2076ef528eaec67cf364366f3046355af5cc49943164d886f6599fa0018
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/zetelverplaatsing-naar-belgie-inbound-verschil-in-waarderingsregels-ten-opzichte-van-het
+      sha256: 5cd6c2076ef528eaec67cf364366f3046355af5cc49943164d886f6599fa0018
+      version:
   stale: false
-  stale_reason: null
+  stale_reason:
   tooling:
-    model: null
+    model:
     pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    prompt_version: null
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
     confirmed_at: '2026-05-11T12:21:40Z'
     confirmed_by: subagent-sonnet-4-6
     layer1:
-      file_size_chars: 21730
-      flags: []
-      heading_count: 5
-      max_section_chars: 16859
-      run_at: '2026-05-11T15:05:53Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:44Z'
+      heading_count: 5
+      max_section_chars: 16858
+      file_size_chars: 21725
+      flags: []
     layer2:
       agent: subagent-sonnet-4-6
       concrete_problemen: []
-      rationale: 'Geen zichtbare ETL-artefacten. Heading-hiërarchie correct (##, ###),
-        voetnoten [^1] t/m [^24] volledig gedefinieerd en gerefereerd, inhoud compleet
-        (inleiding, juridische continuïteit, boekhoudkundige continuïteit, uitzondering,
-        voorbeeld). Geen TOC-residu, geen malformed italic, geen gebroken zinnen.'
+      rationale: 'Geen zichtbare ETL-artefacten. Heading-hiërarchie correct (##, ###), voetnoten [^1] t/m [^24] volledig gedefinieerd en gerefereerd, inhoud compleet (inleiding, juridische continuïteit, boekhoudkundige continuïteit, uitzondering, voorbeeld). Geen TOC-residu, geen malformed italic, geen gebroken zinnen.'
       run_at: '2026-05-11T12:21:40Z'
       status: trusted
-    rationale: 'Geen zichtbare ETL-artefacten. Heading-hiërarchie correct (##, ###),
-      voetnoten [^1] t/m [^24] volledig gedefinieerd en gerefereerd, inhoud compleet
-      (inleiding, juridische continuïteit, boekhoudkundige continuïteit, uitzondering,
-      voorbeeld). Geen TOC-residu, geen malformed italic, geen gebroken zinnen.'
+    rationale: 'Geen zichtbare ETL-artefacten. Heading-hiërarchie correct (##, ###), voetnoten [^1] t/m [^24] volledig gedefinieerd en gerefereerd, inhoud compleet (inleiding, juridische continuïteit, boekhoudkundige continuïteit, uitzondering, voorbeeld). Geen TOC-residu, geen malformed italic, geen gebroken zinnen.'
     status: trusted
 themas:
-- zetelverplaatsing
-- waarderingsregels
-- boekhoudkundige continuïteit
-- juridische continuiteit
+  - zetelverplaatsing
+  - waarderingsregels
+  - boekhoudkundige continuïteit
+  - juridische continuiteit
 ---
 
 # CBN-advies 2018/03 – Zetelverplaatsing naar België (inbound) – Verschil in waarderingsregels ten opzichte van het boekhoudkundig referentiestelsel van de Staat van herkomst
 
 ## Inleiding
-
 Aan de Commissie voor boekhoudkundige normen werd een vraag gesteld over de gevolgen naar Belgisch boekhoudrecht van een zetelverplaatsing vanuit een andere lidstaat van de Europese Economische Ruimte of een derde Staat naar België[^2] (immigratie - *inbound*).[^3] 
 
 In dit advies wordt in het bijzonder ingegaan op de boekhoudkundige verwerking van eventuele verschillen in waarderingsregels tussen de Staat van herkomst en België.
@@ -69,7 +60,6 @@ De Commissie verwijst voor het overige naar haar advies 2011/2 waarin de gevolge
 Dit advies heeft enkel betrekking op de toepassing van het Belgisch boekhoudrecht op de hierboven bedoelde verrichting en niet op de specifieke fiscaalrechtelijke[^5] of vennootschapsrechtelijke aspecten.
 
 ## Juridische en boekhoudkundige continuïteit van de zetelverplaatsing
-
 Onder bepaalde voorwaarden behoudt een vennootschap opgericht naar buitenlands recht die haar zetel naar België overbrengt, haar rechtspersoonlijkheid.[^6] 
 
 De Commissie heeft in haar voormeld advies 2011/2 nader uitleg gegeven over de boekingsbeginselen van de verrichtingen, in functie van hun aard en van het ogenblik waarop ze zich voordoen ten opzichte van de zetelverplaatsing, namelijk:
@@ -90,13 +80,10 @@ Indien de vennootschap, vóór de zetelverplaatsing, de boekhouding voerde en de
 Om de toepasbare wisselkoers te bepalen, verwijst de Commissie naar haar CBN-advies 172/1[^11] dat enerzijds de monetaire/niet-monetaire methode, en anderzijds de methode van de slotkoers/netto-investeringen beschouwt. In het kader van een zetelverplaatsing, meent de Commissie dat de monetaire/niet-monetaire methode de voorkeur moet genieten.
 
 ## Boekhoudkundige continuïteit en verschil in waarderingsregels tussen de Staat van herkomst en België
-
 ### Voorafgaande opmerking
-
 In dit advies wordt enkel het geval besproken van een waarderingsverschil vóór de zetelverplaatsing als gevolg van een verschil in waarderingsregels tussen de Staat van herkomst en België. Het advies houdt geen rekening met gevolgen van de fiscale behandeling toegepast door de Staat van herkomst naar aanleiding van deze zetelverplaatsing.
 
 ### Het beginsel: de boekhoudkundige continuïteit
-
 Volgens de Commissie is het beginsel van de boekhoudkundige continuïteit toepasbaar op een zetelverplaatsing voltrokken met juridische continuïteit, zelfs indien er zich waarderingsverschillen voordoen die voortvloeien uit een verschil in waarderingsregels tussen de Staat van herkomst en België.
 
 Als de toestand bij de aanvang en de toestand bij de afsluiting van het boekjaar hierdoor eventueel moeilijk vergelijkbaar zijn, moet hiervan melding worden gemaakt in de toelichting bij de jaarrekening.[^12] 

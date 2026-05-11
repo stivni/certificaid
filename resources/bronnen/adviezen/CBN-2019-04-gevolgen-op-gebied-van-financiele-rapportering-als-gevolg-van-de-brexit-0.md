@@ -2,87 +2,79 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/gevolgen-op-gebied-van-financiele-rapportering-als-gevolg-van-de-brexit-0
 datum: 2019-04-12
 gerelateerde_adviezen:
-- datum: '2016-09-07'
-  titel: 'Bestellingen in uitvoering: wijzigingen door het koninklijk besluit van
-    18 december 2015'
-  url: https://www.cbn-cnc.be/nl/adviezen/bestellingen-in-uitvoering-wijzigingen-door-het-koninklijk-besluit-van-18-december-2015
-- datum: '2015-09-30'
-  titel: Boekhoudkundige verwerking van de aankoop van een onroerend goed bestemd
-    voor verkoop
-  url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-aankoop-van-een-onroerend-goed-bestemd-voor-verkoop
-- datum: '2012-10-10'
-  titel: Bestellingen in uitvoering
-  url: https://www.cbn-cnc.be/nl/adviezen/bestellingen-in-uitvoering
-- datum: '2011-07-20'
-  titel: Boekhoudkundige verwerking van “onderzoeksfondsen” in de jaarrekening van
-    grote en zeer grote verenigingen en stichtingen
-  url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-onderzoeksfondsen-in-de-jaarrekening-van-grote-en-zeer
+  - datum: '2016-09-07'
+    titel: 'Bestellingen in uitvoering: wijzigingen door het koninklijk besluit van 18 december 2015'
+    url: https://www.cbn-cnc.be/nl/adviezen/bestellingen-in-uitvoering-wijzigingen-door-het-koninklijk-besluit-van-18-december-2015
+  - datum: '2015-09-30'
+    titel: Boekhoudkundige verwerking van de aankoop van een onroerend goed bestemd voor verkoop
+    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-aankoop-van-een-onroerend-goed-bestemd-voor-verkoop
+  - datum: '2012-10-10'
+    titel: Bestellingen in uitvoering
+    url: https://www.cbn-cnc.be/nl/adviezen/bestellingen-in-uitvoering
+  - datum: '2011-07-20'
+    titel: Boekhoudkundige verwerking van “onderzoeksfondsen” in de jaarrekening van grote en zeer grote verenigingen en stichtingen
+    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-onderzoeksfondsen-in-de-jaarrekening-van-grote-en-zeer
 nummer: CBN-advies 2019/04
 provenance:
-  generated_at: '2026-05-11T15:15:32Z'
+  generated_at: '2026-05-11T17:48:39Z'
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/gevolgen-op-gebied-van-financiele-rapportering-als-gevolg-van-de-brexit-0
-    sha256: e9f17634cbc598797605b0f56cacc635df0c9616fdbdf3b434d87f2d95dd7532
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/gevolgen-op-gebied-van-financiele-rapportering-als-gevolg-van-de-brexit-0
+      sha256: e9f17634cbc598797605b0f56cacc635df0c9616fdbdf3b434d87f2d95dd7532
+      version:
   stale: false
-  stale_reason: null
+  stale_reason:
   tooling:
-    model: null
+    model:
     pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    prompt_version: null
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
     confirmed_at: '2026-05-08T19:02:28Z'
     confirmed_by: subagent-laag2-ronde2
     layer1:
-      file_size_chars: 50743
-      flags: []
-      heading_count: 23
-      max_section_chars: 21952
-      run_at: '2026-05-11T15:05:53Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:44Z'
+      heading_count: 23
+      max_section_chars: 21935
+      file_size_chars: 50720
+      flags: []
     layer2:
       agent: subagent-laag2-ronde2
       concrete_problemen: []
-      rationale: '[Laag-2-R2 2026-05-08] Het advies bevat 21 headings en 52 voetnoten;
-        beide delen (waarderingsregels + rapporteringsverplichtingen) zijn volledig
-        aanwezig. Geen tabelcorruptie.'
+      rationale: '[Laag-2-R2 2026-05-08] Het advies bevat 21 headings en 52 voetnoten; beide delen (waarderingsregels + rapporteringsverplichtingen) zijn volledig aanwezig. Geen tabelcorruptie.'
       run_at: '2026-05-08T19:02:28Z'
       status: trusted
     rationale: Laag-2 trusted door subagent-laag2-ronde2 (zie layer2.rationale)
     status: trusted
 themas:
-- bestellingen in uitvoering
-- betalingen aan overheden
-- bijkantoor
-- brexit
-- dochteronderneming
-- going concern
-- herstructureringskosten
-- jaarverslag
-- non-adjusting event
-- omrekeningsverschil
-- openbaarmakingsformaliteiten
-- oprichtingsformaliteiten
-- verslag betalingen aan overheden
-- voorziening
-- waarderingsregels
-- wisselkoersverschil
+  - bestellingen in uitvoering
+  - betalingen aan overheden
+  - bijkantoor
+  - brexit
+  - dochteronderneming
+  - going concern
+  - herstructureringskosten
+  - jaarverslag
+  - non-adjusting event
+  - omrekeningsverschil
+  - openbaarmakingsformaliteiten
+  - oprichtingsformaliteiten
+  - verslag betalingen aan overheden
+  - voorziening
+  - waarderingsregels
+  - wisselkoersverschil
 ---
 
 # CBN-advies 2019/04 – Gevolgen op gebied van financiële rapportering als gevolg van de brexit
 
 ## Inleiding
-
 De jaarrekeningrechtelijke bepalingen van toepassing op bepaalde boekhoudplichtige ondernemingen gevestigd in de lidstaten van de Europese Unie vinden hun oorsprong in de Europese Boekhoudrichtlijn[^2]. De bepalingen van deze richtlijn werden door de lidstaten van de Europese Unie omgezet in nationaal recht. De verplichtingen die voor dergelijke ondernemingen werden opgenomen in de wetgeving van het Verenigd Koninkrijk vóór de brexit zullen met andere woorden in overeenstemming zijn met deze zoals voorzien in de Boekhoudrichtlijn. De wijze waarop het Verenigd Koninkrijk haar nationale regels inzake financiële rapportering in de toekomst zal wijzigen, is niet gekend. 
 
 In dit advies wordt aandacht geschonken aan de gevolgen die de brexit kan hebben voor Belgische boekhoudplichtige ondernemingen die op een of andere manier zijn gelinkt aan het Verenigd Koninkrijk. De oprichting van een bijkantoor, evenals de oprichting van een dochteronderneming is een van de mogelijkheden waarover vennootschappen momenteel beschikken om hun recht van vestiging in een andere lidstaat uit te oefenen[^3]. In die zin is dit advies dus mogelijks van belang voor Belgische bijkantoren van Britse vennootschappen, Belgische dochtervennootschappen van Britse moedervennootschappen, Belgische ondernemingen die het Verenigd Koninkrijk als voornaamste afzetmarkt hebben, enz. 
 
 ## Deel 1: Toepassing van de waarderingsregels en eventuele vermeldingen in de toelichting
-
 ### Algemeen
-
 De brexit kan en zal ongetwijfeld een negatieve invloed hebben op de performantie van heel wat boekhoudplichtige ondernemingen. We denken hierbij aan nadelige gevolgen in de zin van een toename van bepaalde kosten (bijvoorbeeld wisselkoersen, douaneformaliteiten), een reorganisatie van (een onderdeel van) de onderneming, een afname van de omzet, enzovoort. Voor sommige boekhoudplichtige ondernemingen zal dit mogelijks zelfs het voortbestaan van het bedrijf of een bedrijfsonderdeel in vraag stellen. Wanneer de onderneming nauw betrokken is met en sterk afhankelijk is van verrichtingen met het Verenigd Koninkrijk zal veelal een passende vermelding in de toelichting noodzakelijk zijn om de gebruiker van de jaarrekening voldoende in te lichten over de blootstelling aan de risico’s en kosten voor de onderneming ten gevolge van de brexit. 
 
 Voor het merendeel van de KMO’s, die niet nauw betrokken zijn met of afhankelijk zijn van verrichtingen met het Verenigd Koninkrijk geldt evenwel dat de risico’s en kosten ten gevolge van de brexit behoren tot de algemene macro-economische risico’s die geen specifieke boekhoudkundige of jaarrekeningrechtelijke aandacht vergen. De in de onderneming opgebouwde reserves fungeren als algemene buffer voor de dekking van onzekerheden en risico's van algemene aard waarmee de onderneming wordt geconfronteerd. 
@@ -90,7 +82,6 @@ Voor het merendeel van de KMO’s, die niet nauw betrokken zijn met of afhankeli
 De Commissie brengt hierna een aantal specifieke punten onder de aandacht opdat de jaarrekening van een boekhoudplichtige onderneming die geconfronteerd wordt met de gevolgen van de brexit, een getrouw beeld zou geven.
 
 ### Betrokken boekja(a)r(en
-
 Het proces van de uittreding van het Verenigd Koninkrijk is reeds ingezet in het jaar 2017. Boekhoudplichtige ondernemingen kunnen bij het opstellen van de jaarrekening evenwel niet wachten op de definitieve uittreding om de mogelijke gevolgen van deze brexit te onderkennen. 
 
 Het bestuursorgaan moet aldus ook reeds bij het opstellen van de jaarrekening over een vroeger boekjaar beoordelen of en in welke mate de waarderingsregels moeten worden aangepast en al dan niet aanvullende informatie moet worden opgenomen in de toelichting. Deze beoordeling behoort tot de exclusieve bevoegdheid en verantwoordelijkheid van het bestuursorgaan. De appreciatie door het bestuursorgaan met betrekking tot de inschatting van de risico’s en kosten waaraan de onderneming is blootgesteld, behoort tot de beleidsbeslissingen van het bestuursorgaan. Beleidsbeslissingen uitgedrukt in de goedgekeurde jaarrekening kunnen niet meer worden gecorrigeerd. Volgens vaste rechtspraak van het Hof van Cassatie zijn beslissingen die het bestuursorgaan wettelijk gezien heeft kunnen nemen omdat de toepasselijke boekhoudrechtelijke regels een beoordelingsmarge toelaten, onherroepelijk, ook al blijken zijn achteraf onoordeelkundig en lichtzinnig te zijn geweest.[^4]
@@ -99,13 +90,11 @@ Het bestuursorgaan moet aldus ook reeds bij het opstellen van de jaarrekening ov
 Gelet op de bestuurdersaansprakelijkheid dienaangaande spreekt het voor zich dat het bestuursorgaan de impact van de brexit met de nodige omzichtigheid en ernst moet inschatten. 
 
 ### Non-adjusting event
-
 Zoals toegelicht hiervoor is de Commissie van mening dat bij het opstellen van de jaarrekening rekening moet worden gehouden met alle risico’s, waarschijnlijke verliezen en waarschijnlijke kosten die bestaan op de balansdatum. Voor de inschatting hiervan moet het bestuursorgaan zich plaatsen op de balansdatum.[^5] 
 
 Indien de brexit effectief plaatsvindt en deze brexit wordt voltrokken tussen de balansdatum en de datum van de opstelling van de jaarrekening, is deze voltrekking een gebeurtenis na balansdatum die geen aanleiding geeft tot een aanpassing van de cijfers vermeld in de balans en resultatenrekening. Indien van materieel belang moeten uiteraard wel alle passende vermeldingen in de toelichting worden opgenomen opdat de jaarrekening een getrouw beeld zou geven van het vermogen, de financiële positie en het resultaat van de vennootschap. 
 
 ### Waarderingsregels
-
 Het legistieke raamwerk met betrekking tot de toe te passen waarderingsregels voor de betrokken boekhoudplichtige ondernemingen is opgenomen in Boek II, Titel I, Hoofdstuk II van het KB W.Venn.[^6]
  De Commissie merkt op dat in voorkomend geval aanvullende inlichtingen moeten worden gegeven in de toelichting wanneer de toepassing van voormelde waarderingsregels niet volstaat om met de jaarrekening een getrouw beeld te geven van het vermogen, de financiële positie en het resultaat van de onderneming.[^7] 
 
@@ -117,23 +106,19 @@ Het bestuursorgaan bepaalt de door haar toegepaste waarderingsregels rekening ho
 De Commissie brengt in het bijzonder de volgende waarderingsregels onder de aandacht naar aanleiding van de mogelijke economische gevolgen van de brexit.
 
 ## Wijziging van de waarderingsregels, of de invulling ervan
-
 Ter illustratie geeft de Commissie het volgende voorbeeld waarbij een wijziging van de waarderingsregels, of de invulling ervan, aan de orde kan zijn. Afschrijvingen verdelen de kosten van verwerving van het vast actief over hun waarschijnlijke nuttigheids- of gebruiksduur, of nog de economische levensduur van het actief. Deze levensduur moet dus geschat worden door het bestuursorgaan. De nuttigheids- of gebruiksduur wordt beïnvloed door technische en economische slijtage.[^13]
  Een wijziging van de waarderingsregels kan zich dan bijvoorbeeld opdringen wanneer installaties, machines of uitrusting ingevolge een structurele vermindering van de output, bijvoorbeeld door een structurele afname van de verkoop aan het Verenigd Koninkrijk, minder aan slijtage onderhevig worden waardoor de economische levensduur van deze ingezette installaties, machines of uitrusting verhoogt.
 
 ## Terugname van geboekte afschrijvingen
-
 Wanneer het voorheen toegepaste afschrijvingsplan voor vaste activa geleid heeft tot een te snelle afschrijving gelet op de gewijzigde economische of technologische omstandigheden, kan deze te snelle afschrijving worden teruggenomen. Dergelijke terugname van voorheen geboekte afschrijvingen is geen verplichting en dient met de nodige omzichtigheid toegepast te worden. 
 
 ## Afwaardering van vlottende en vaste activa
-
 Als algemene regel bij de waardering van activa geldt dat elk bestanddeel van het vermogen afzonderlijk moet worden gewaardeerd.[^14]
  In toepassing van artikel 45 KB W.Venn. moeten passende afschrijvingen geboekt worden teneinde de aanschaffingswaarde van de activa met een beperkte gebruiksduur te spreiden over hun waarschijnlijke nuttigheids- of gebruiksduur. Voor de vaste activa met een beperkte gebruiksduur moeten niet-recurrente afschrijvingen worden geboekt wanneer ingevolge hun technische ontwaarding of wegens de wijziging van economische of technologische omstandigheden hun boekhoudkundige waarde groter is dan hun gebruikswaarde voor de vennootschap. Dit kan bijvoorbeeld het gevolg zijn wanneer de afzetmarkt van de onderneming drastisch inkrimpt ten gevolge van de brexit. Geboekte niet-recurrente afschrijvingen moeten verplicht worden teruggenomen ten belope van het surplus ten opzichte van de afschrijvingen die het gevolg zijn van het opgestelde afschrijvingsplan, bijvoorbeeld wanneer nadien blijkt dat de afzetmarkt van onderneming opnieuw groter geworden is. 
 
 Voor vaste activa met een onbeperkte gebruiksduur en voor vlottende activa worden waardeverminderingen geboekt ter correctie van de aanschaffingswaarde om rekening te houden met al dan niet als definitief aan te merken ontwaardingen bij het afsluiten van het boekjaar. Ten gevolge van de brexit kunnen ondernemingen geconfronteerd worden met onvoorziene verliezen op hun activa. Er kan bijvoorbeeld sprake zijn van een groter insolvabiliteitsrisico bij hun debiteuren dat aanleiding geeft tot het boeken van waardecorrecties op de vorderingen op dergelijke debiteuren. De afwaardering van activa die resulteert uit de gevolgen van de brexit kan naar de mening van de Commissie geboekt worden als een niet-recurrent resultaat. 
 
 ## Bestellingen in uitvoering
-
 Voor wat betreft de bestellingen die in uitvoering zijn, moet eveneens een inschatting worden gemaakt van de mogelijke gevolgen ingevolge de brexit. Er moeten waardeverminderingen worden geboekt als de vervaardigingsprijs, verhoogd met het geraamd bedrag van de nog te maken kosten, hoger is dan de in de overeenkomst bedongen prijs. Aanvullende waardeverminderingen worden geboekt om rekening te houden hetzij met de evolutie van hun realisatie- of marktwaarde, hetzij met de risico’s inherent aan de aard van de betrokken producten of van de gevoerde activiteit.
 
 Dergelijke waardeverminderingen kunnen het gevolg zijn van onverwachte stijgingen van de loonkosten, grondstoffen of andere elementen in de kostprijscalculatie. Echter is het evenzeer mogelijk dat waardeverminderingen dienen te worden geboekt als gevolg van een onverwachte gebeurtenis zoals vertragingen in de werkzaamheden of schade waardoor een deel van de werkzaamheden opnieuw dienen plaats te vinden. De inschatting van de gevolgen van een al dan niet harde brexit kan op inventarisdatum beduidend verschillen van de inschatting op datum van de negotiatie van de bestelling. Dit kan aldus aanleiding geven tot het boeken van waardeverminderingen op de bestellingen in uitvoering en dit zowel bij toepassing van de “percentage of completion” methode als de “completed contract” methode.
@@ -141,15 +126,12 @@ Dergelijke waardeverminderingen kunnen het gevolg zijn van onverwachte stijginge
 Indien volgens de meest recente berekeningen zou blijken dat de bestelling zelfs met verlies zal worden afgehandeld, dient de onderneming voor de risico’s en kosten verbonden aan de verdere uitvoering van deze bestellingen voorzieningen aan te leggen, voor zover deze risico’s niet gedekt zijn door voormelde waardeverminderingen. Indien bijgevolg op de balansdatum de vervaardigingsprijs, vermeerderd met het geraamd bedrag van de nog te maken kosten, hoger is dan de netto verkoopprijs moeten waardeverminderingen worden geboekt en indien deze waardeverminderingen ontoereikend zouden zijn, moet bijkomend een voorziening worden geboekt om het hoofd te bieden aan deze kosten.[^15] 
 
 ## Wisselkoersverschillen
-
 Als de transacties van een bedrijf voor een groot gedeelte in Britse ponden verlopen, moet het bestuursorgaan zich afvragen hoe groot de blootstelling aan schommelingen in die valuta is. Sinds de aankondiging van de brexit verzwakte het pond immers al ten opzichte van de euro. De vraag is wat er gebeurt in het geval van een harde brexit. Voor wat betreft de boekhoudkundige verwerking van wisselkoersverschillen en omrekeningsverschillen verwijst de Commissie naar haar voorgaande adviezen.[^16] 
 
 ### Herstructureringskosten
-
 Het bestuursorgaan kan beslissen om zich te reorganiseren naar aanleiding van de brexit. In een heel aantal gevallen kan de onderneming er dan voor kiezen om de kosten die het gevolg zijn van deze reorganisatie te activeren. Artikel 58, tweede lid KB W.Venn. stelt immers dat kosten die worden gemaakt in het kader van een herstructurering onder de activa kunnen worden opgenomen. Daartoe moeten evenwel een aantal strikte voorwaarden vervuld zijn. Het moet gaan om welbepaalde kosten die verband houden met een ingrijpende wijziging in de structuur of de organisatie van de vennootschap en die ertoe strekken een gunstige en duurzame invloed te hebben op de rentabiliteit van de vennootschap. In de toelichting moet bij de waarderingsregels worden verantwoord dat aan deze voorwaarden is voldaan.[^17] 
 
 ### Voorzieningen voor risico’s en kosten
-
 De jaarrekening moet een getrouw beeld geven van het vermogen, de financiële positie en het resultaat van de vennootschap.[^18]
  De jaarrekening moet duidelijk worden opgesteld en stelselmatig weergeven, enerzijds, de aard en het bedrag, op de dag waarop het boekjaar wordt afgesloten, van de bezittingen en rechten van de vennootschap, van haar schulden en verplichtingen evenals van haar eigen middelen, en anderzijds, voor het op die dag afgesloten boekjaar, de aard en het bedrag van haar kosten en opbrengsten.[^19]
  Hierbij moet rekening worden gehouden met alle voorzienbare risico’s, mogelijke verliezen en ontwaardingen ontstaan tijdens het boekjaar waarop de jaarrekening betrekking heeft of tijdens voorgaande boekjaren.[^20]
@@ -162,11 +144,9 @@ Wat betreft de impact van de brexit denkt de Commissie hierbij in het bijzonder 
 Wat betreft de omscholingskosten van het personeel brengt de Commissie in herinnering dat de kosten van opleiding van het personeel voor toekomstige activiteiten in principe niet geboekt kunnen worden als een voorziening.[^22] 
 
 ### Going Concern
-
 Ondernemingen die economisch nauw verbonden zijn met het Verenigd Koninkrijk, moeten bij het opstellen van hun jaarrekening nagaan of de toepassing van de waarderingsregels in een veronderstelling van continuïteit nog gerechtvaardigd is. Dienaangaande verwijst de Commissie naar haar advies 2018/18 – *Going concern* waarin de elementen worden verduidelijkt waarmee rekening moet worden gehouden bij het nagaan of de toepassing van de waarderingsregels in een veronderstelling van continuïteit nog gerechtvaardigd is en waarin wordt toegelicht hoe de onderneming verslag moet uitbrengen over deze beoordeling. Zoals toegelicht in de voorgaande randnummers 9 en 10 is de Commissie van mening dat het bestuursorgaan zich voor deze beoordeling moet plaatsen op de balansdatum. Indien de brexit vervolgens plaatsvindt tussen de balansdatum en de datum van het opstellen van de jaarrekening is dit een non-adjusting event waarvoor in voorkomend geval passende vermeldingen in de toelichting moeten worden opgenomen. 
 
 ### Vermeldingen in de toelichting
-
 Artikel 24 KB W.Venn. bepaalt dat de jaarrekening een getrouw beeld moet geven van het vermogen, de financiële positie en het resultaat van de vennootschap. Wanneer de toepassing van de bepalingen van Boek II, Titel I KB W.Venn. niet volstaat om te voldoen aan dit voorschrift moeten aanvullende inlichtingen worden verstrekt in de toelichting.
 
 Dit algemene principe komt voort uit artikel 4, lid 3, van Richtlijn 2013/34/EU van het Europees Parlement en van de Raad van 26 juni 2013 betreffende de jaarlijkse financiële overzichten, geconsolideerde financiële overzichten en aanverwante verslagen van bepaalde ondernemingsvormen, tot wijziging van Richtlijn 2006/43/EG van het Europees Parlement en de Raad en tot intrekking van Richtlijnen 78/660/EEG en 83/349/EEG van de Raad.
@@ -180,7 +160,6 @@ Grote, kleine en microvennootschappen moeten in de toelichting de impact van de 
 Hoewel de kleine (niet-genoteerde) vennootschappen vrijgesteld zijn van het opstellen van een jaarverslag en van het openbaar maken ervan[^23], is de Commissie van oordeel dat een analyse van potentiële risico’s nuttig en noodzakelijk is en stelt ze voor, ingeval de risico’s van materieel belang zijn, dergelijke analyse op te nemen in de toelichting bij de jaarrekening. 
 
 ### Jaarverslag
-
 Wat het scenario van de uitstap ook zal zijn, de Brexit zal voor vennootschappen een context van economische onzekerheid creëren.
 
 Hoewel het merendeel van de kleine ondernemingen weinig zal voelen van de Brexit – zelfs van een harde Brexit –, behoort het elke onderneming toe die zou kunnen getroffen worden, een analyse uit te voeren van de potentiële risico’s van materieel belang die erbij komen kijken.
@@ -198,7 +177,6 @@ In het geval van een vennootschap die bijzonder kwetsbaar is voor de Brexit, die
 Overeenkomstig artikel 95 W.Venn. moeten de bestuurders of zaakvoerders van grote vennootschappen en kleine genoteerde vennootschappen een verslag opstellen waarin zij rekenschap geven van hun beleid. 
 
 ## Deel 2: Financiële rapporteringsverplichtingen
-
 Belgische bijkantoren van Britse vennootschappen: rapporteringsverplichtingen[^24]
 Bijkantoren zijn onderhevig aan een aantal verplichtingen. De verplichtingen inzake openbaarmaking in de lidstaat waar het bijkantoor is gevestigd, hebben tot doel de rechten van derden te beschermen die via de bijkantoren in zakelijk contact treden met de buitenlandse vennootschappen[^25]. In deze betreft het dus Belgische bijkantoren van Britse vennootschappen.
 
@@ -207,7 +185,6 @@ Zodra het Verenigd Koninkrijk niet langer deel uitmaakt van de Europese Unie wor
 Voor bijkantoren van buitenlandse vennootschappen die niet gevestigd zijn in een lidstaat van de Europese Unie gelden een aantal bijkomende rapporteringsverplichtingen.
 
 #### Openbaarmakingsformaliteiten bij de opening van een Belgisch bijkantoor
-
 De artikelen 81, 82 en 83 van het Wetboek van vennootschappen (hierna: W.Venn.) geven een overzicht van de openbaarmakingsformaliteiten bij de opening van een Belgisch bijkantoor. Elke Britse vennootschap moet naar aanleiding van de opening van een Belgisch bijkantoor een aantal stukken en gegevens neerleggen ter griffie van de ondernemingsrechtbank van het rechtsgebied waarbinnen het bijkantoor zal worden gevestigd (of ingeval verscheidene bijkantoren worden geopend, ter griffie van de ondernemingsrechtbank van het rechtsgebied waarbinnen een bijkantoor zal worden gevestigd, naar keuze van de vennootschap). Artikel 82 W.Venn. geeft een opsomming van de informatie die moet worden neergelegd naar aanleiding van de opening van een Belgisch bijkantoor van een buitenlandse vennootschap die valt onder het recht van een andere Staat dan een lidstaat van de Europese Unie[^26] : 
 
 *Elke buitenlandse vennootschap die valt onder het recht van een andere Staat dan een lidstaat van de Europese Unie en een bijkantoor opricht in België, moet, vóór de opening van het bijkantoor, de hierna opgesomde gegevens en stukken neerleggen: 
@@ -245,7 +222,6 @@ Eens opgericht zijn de Belgische bijkantoren van vennootschappen naar buitenland
 Het Belgisch bijkantoor moet zijn interne jaarrekening opmaken overeenkomstig de Belgische wettelijke schema’s. Net zoals voor de vennootschappen naar Belgisch recht, worden de inhoud en de vorm van hun jaarrekening bepaald op basis van dezelfde criteria inzake personeelsbestand, jaaromzet en balanstotaal als degene die gelden voor de ondernemingen onderworpen aan het W.Venn. Volgens de Commissie worden de groottecriteria inzake personeelsbestand, jaarlijkse omzet en balanstotaal beoordeeld voor de vennootschap naar buitenlands recht in haar geheel, en niet enkel voor het Belgische bijkantoor. De interne jaarrekening van het Belgisch bijkantoor moet evenwel niet worden neergelegd bij de Balanscentrale.[^29] 
 
 #### Andere openbaarmakingsformaliteiten
-
 Behalve de openbaarmaking van bepaalde informatie naar aanleiding van de oprichting van een Belgisch bijkantoor voorziet artikel 83 W.Venn. een aantal bijkomende openbaarmakingsverplichtingen: 
 
 *Elke buitenlandse vennootschap die in België een bijkantoor gevestigd heeft, is gehouden de volgende stukken en gegevens openbaar te maken: 
@@ -283,17 +259,14 @@ Deze neerlegging gebeurt jaarlijks, binnen de maand volgend op de goedkeuring er
 (…)*
 
 #### De vorm waarin de jaarrekening en de geconsolideerde jaarrekening werden opgesteld, gecontroleerd en openbaar gemaakt volgens het recht van het Verenigd Koninkrijk
-
 Britse vennootschappen die in het Verenigd Koninkrijk een jaarrekening en geconsolideerde jaarrekening dienen op te stellen en openbaar te maken, moeten wanneer zij in België een bijkantoor vestigen, deze jaarrekening in België neerleggen in de vorm waarin deze jaarrekening of geconsolideerde jaarrekening werd opgesteld, gecontroleerd en openbaar gemaakt in het Verenigd Koninkrijk. Gezien de in de Boekhoudrichtlijn opgenomen opties voor lidstaten kunnen de boekhoud- en jaarrekeningrechtelijke bepalingen die aan de basis liggen van deze jaarrekening en geconsolideerde jaarrekening afwijken van de Belgische bepalingen. De Britse vennootschappen moeten desondanks geen andere (nieuwe of herwerkte) jaarrekening of aanvullende informatie openbaar maken dan die welke zij in het Verenigd Koninkrijk moeten publiceren. Ze leggen hun jaarrekening en geconsolideerde jaarrekening dus neer bij de Nationale Bank van België in de originele versie, desgevallend uitgedrukt in pond sterling. Ze dienen zich echter wel te houden aan de wettelijke bepalingen inzake het taalgebruik. België heeft geen gebruik gemaakt van de door artikel 38, § 1 van Richtlijn (EU) 2017/1132 geboden mogelijkheid om, wanneer de boekhoudbescheiden niet zouden zijn opgesteld in overeenstemming met Richtlijn 2013/34/EU of op een gelijkwaardige wijze, te eisen dat de boekhoudstukken over de werkzaamheden van het bijkantoor zelf moeten worden opgesteld en openbaar gemaakt.
 
 Wat de openbaarmaking van de jaarrekening en de geconsolideerde jaarrekening van de Britse vennootschap betreft, dient het onderscheid te worden gemaakt tussen Belgische bijkantoren van Britse vennootschappen die, gelet op hun rechtsvorm, wettelijk verplicht zijn hun jaarrekening/geconsolideerde jaarrekening in het Verenigd Koninkrijk openbaar te maken enerzijds en Belgische bijkantoren van Britse vennootschappen die, gelet op hun rechtsvorm, niet verplicht zijn hun jaarrekening/geconsolideerde jaarrekening in het Verenigd Koninkrijk openbaar te maken anderzijds. De Commissie merkt op dat de andere publicatieverplichtingen zoals voorzien in de artikelen 82 en 83 W.Venn. uiteraard van toepassing blijven.
 
 ##### Belgische bijkantoren van Britse vennootschappen die, gelet op hun rechtsvorm, wettelijk verplicht zijn hun jaarrekening/geconsolideerde jaarrekening in het Verenigd Koninkrijk openbaar te maken
-
 Zijn deze Britse vennootschappen in België actief via een Belgisch bijkantoor, dan moeten zij vóór de opening van dit bijkantoor en later elk jaar hun jaarrekening en in voorkomend geval hun geconsolideerde jaarrekening neerleggen bij de Nationale Bank van België. Maakt een Britse vennootschap met een Belgisch bijkantoor in het Verenigd Koninkrijk haar jaarrekening niet openbaar (met overtreding van de wetgeving van het Verenigd Koninkrijk), dan betekent dit niet dat zij wordt vrijgesteld van de verplichting om haar jaarrekening in België openbaar te maken.
 
 ##### Belgische bijkantoren van Britse vennootschappen die, gelet op hun rechtsvorm, wettelijk niet verplicht zijn hun jaarrekening/geconsolideerde jaarrekening in het Verenigd Koninkrijk openbaar te maken
-
 Is de Britse vennootschap op grond van de Britse wetgeving niet verplicht om een jaarrekening of geconsolideerde jaarrekening openbaar te maken, dan is zij krachtens artikel 38 van de Richtlijn 2017/1132 en krachtens de artikelen 82, 83 en 107 W.Venn. wanneer ze in België een bijkantoor opricht of heeft opgericht, eveneens vrijgesteld van publicatie van de jaarrekening van de Britse vennootschap. 
 
 Dus wanneer een Britse moedervennootschap op basis van de Britse nationale wetgeving geen geconsolideerde jaarrekening hoeft openbaar te maken, is zij krachtens artikel 38 van de Richtlijn 2017/1132 en krachtens de artikelen 82, 83 en 107 W.Venn. wanneer ze in België een bijkantoor opricht of heeft opgericht, eveneens vrijgesteld van publicatie van de geconsolideerde jaarrekening van de Britse vennootschap. 
@@ -324,7 +297,6 @@ De verplichting tot opstelling en openbaarmaking van de gecontroleerde jaarreken
 Op grond van art. 107, § 1, vierde lid W.Venn. kan de Koning afwijkende bepalingen vaststellen voor wat betreft de buitenlandse vennootschappen waarvan de financiële instrumenten opgenomen zijn in een Belgische gereglementeerde markt, in de zin van artikel 3, 8°, van de wet van 21 november 2017 over de infrastructuren voor de markten voor financiële instrumenten en houdende omzetting van Richtlijn 2014/65/EU[^45]. De FSMA kan emittenten waarvan de statutaire zetel gelegen is in een derde land ontheffing verlenen van bepaalde verplichtingen mits de wetgeving van het betrokken derde land gelijkwaardige verplichtingen oplegt of de emittent zich houdt aan de wetgeving van een derde land die gelijkwaardige verplichtingen oplegt[^46]. Het Europees gelijkwaardigheidsbeleid[^47] kan ook worden gebruikt door vennootschappen uit derde landen (waaronder het Verenigd Koninkrijk na de brexit) die in Europa genoteerd zijn. 
 
 ### Verslag betalingen aan overheden
-
 Bepaalde vennootschappen[^48] die actief zijn in de winningsindustrie[^49] of de houtkap van oerbossen[^50] dienen elk jaar een verslag van betalingen aan overheden op te stellen waarvan de vorm en de inhoud bepaald worden door de Koning. Het verslag wordt door toedoen van de bestuurders of zaakvoerders tegelijkertijd met de jaarrekening neergelegd bij de Nationale Bank van België.
 
 Deze verplichting is evenwel niet van toepassing op de onder het recht van een lidstaat van de Europese Unie vallende vennootschappen[^51] die een dochtervennootschap of moedervennootschap zijn, indien de onderstaande voorwaarden vervuld zijn:

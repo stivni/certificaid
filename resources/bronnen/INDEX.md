@@ -10,8 +10,8 @@ Auto-gegenereerd door `tools/lib/bronnen_index.py`. **Niet handmatig editen** �
 |---|---|---|---|---|---|---|
 | Wetteksten | 129 | 20 | — | 106 | 2 | 1 |
 | Normen | 19 | 8 | — | 9 | 2 | — |
-| Adviezen | 436 | 267 | — | 168 | 1 | — |
-| **Totaal** | **584** | 295 | — | 283 | 5 | 1 |
+| Adviezen | 436 | 274 | — | 161 | 1 | — |
+| **Totaal** | **584** | 302 | — | 276 | 5 | 1 |
 
 ## Wetteksten (129)
 
@@ -222,7 +222,6 @@ Auto-gegenereerd door `tools/lib/bronnen_index.py`. **Niet handmatig editen** �
 | `CBN-0156-01-attribution-au-fonds-de-solidarite.md` | ⚠️ needs-rework | pass | needs-rework | subagent-sonnet-4-6 | CBN-advies 156/1 |
 | `CBN-0157-01-tijdstip-waarop-de-winst-is-gerealiseerd.md` | ⚠️ needs-rework | pass | needs-rework | subagent-sonnet-4-6 | CBN-advies 157/1 |
 | `CBN-0167-02-boekhoudkundige-verwerking-van-dekkingsverrichtingen-en-gedekte-posities-in-aandelen.md` | ⚠️ needs-rework | pass | needs-rework | subagent-sonnet-4-6 | CBN-advies 167/2 |
-| `CBN-0169-01-verwerking-van-leningen-en-ontleningen-van-effecten-in-de-jaarrekening-van-ondernemingen.md` | ⚠️ needs-rework | pass | needs-rework | subagent-sonnet-4-6 | CBN-advies 169/1 |
 | `CBN-0169-02-verwerking-van-cessie-retrocessieverrichtingen-in-de-jaarrekening-van-ondernemingen.md` | ⚠️ needs-rework | pass | needs-rework | subagent-sonnet-4-6 | CBN-advies 169/2 |
 | `CBN-0171-boekhoudkundige-verwerking-van-afvalstoffen.md` | ⚠️ needs-rework | pass | needs-rework | subagent-sonnet-4-6 | CBN-advies 171 |
 | `CBN-0172-01-opneming-van-de-rekeningen-van-een-buitenlands-bijkantoor.md` | ⚠️ needs-rework | pass | needs-rework | subagent-sonnet-4-6 | CBN-advies 172/1 |
@@ -235,10 +234,8 @@ Auto-gegenereerd door `tools/lib/bronnen_index.py`. **Niet handmatig editen** �
 | `CBN-0179-01-boekhoudkundige-verwerking-van-broeikasgasemissierechten.md` | ⚠️ needs-rework | pass | needs-rework | subagent-sonnet-4-6 | CBN-advies 179/1 |
 | `CBN-2009-03-boekhoudkundige-verwerking-van-kapitaalsubsidies-waarvan-de-toekenning-enof-de-uitbetaling.md` | ⚠️ needs-rework | pass | needs-rework | subagent-sonnet-4-6 | CBN-advies 2009/3 |
 | `CBN-2009-04-model-van-ongesplitst-dagboek-zoals-bedoeld-in-artikel-2-van-het-koninklijk-besluit-van-26.md` | ⚠️ needs-rework | pass | needs-rework | subagent-sonnet-4-6 | CBN-advies 2009/4 |
-| `CBN-2009-10-bepaling-van-de-functionele-valuta-bij-financieringsvennootschappen.md` | ⚠️ needs-rework | pass | needs-rework | subagent-sonnet-4-6 | CBN-advies 2009/10 |
 | `CBN-2009-11-de-boekhoudkundige-verwerking-van-partiele-splitsingen.md` | ⚠️ needs-rework | pass | needs-rework | subagent-sonnet-4-6 | CBN-advies 2009/11 |
 | `CBN-2009-15-de-boekhoudkundige-verwerking-van-de-inbreng-van-een-bedrijfstak-of-van-een-algemeenheid.md` | ⚠️ needs-rework | pass | needs-rework | subagent-sonnet-4-6 | CBN-advies 2009/15 |
-| `CBN-2010-02-de-boekhoudkundige-verwerking-van-het-stelsel-tot-gedeeltelijke-vrijstelling-van-betaling.md` | ⚠️ needs-rework | pass | needs-rework | subagent-sonnet-4-6 | CBN-advies 2010/2 |
 | `CBN-2010-03-de-boekhoudkundige-verwerking-van-stockdividenden.md` | ⚠️ needs-rework | pass | needs-rework | subagent-sonnet-4-6 | CBN-advies 2010/3 |
 | `CBN-2010-04-omrekeningsverschillen-ontstaan-bij-omrekening-van-het-kapitaal-naar-aanleiding-van-het.md` | ⚠️ needs-rework | pass | needs-rework | subagent-sonnet-4-6 | CBN-advies 2010/4 |
 | `CBN-2010-12-de-toepassing-van-de-algemene-boekhoudprincipes-op-afgeleide-financiele-instrumenten.md` | ⚠️ needs-rework | pass | needs-rework | subagent-sonnet-4-6 | CBN-advies 2010/12 |
@@ -271,7 +268,6 @@ Auto-gegenereerd door `tools/lib/bronnen_index.py`. **Niet handmatig editen** �
 | `CBN-2014-06-de-boekhoudkundige-verwerking-van-effecten-aan-toonder-van-rechtswege-omgezet-in-effecten.md` | ⚠️ needs-rework | pass | needs-rework | subagent-sonnet-4-6 | CBN-advies 2014/6 |
 | `CBN-2015-01-boekhoudkundige-verwerking-van-de-tax-shelter-in-hoofde-van-de-investeerder.md` | ⚠️ needs-rework | pass | needs-rework | subagent-sonnet-4-6 | CBN-advies 2015/1 |
 | `CBN-2015-02-boekhoudkundige-verwerking-van-de-liquidatiereserve-programmawet-van-19-december-2014-en.md` | ⚠️ needs-rework | pass | needs-rework | subagent-sonnet-4-6 | CBN-advies 2015/2 |
-| `CBN-2015-03-verplichting-tot-opstelling-en-publicatie-van-de-jaarrekening-door-de-inbrengende.md` | ⚠️ needs-rework | pass | needs-rework | subagent-sonnet-4-6 | CBN-advies 2015/3 |
 | `CBN-2015-04-leasing.md` | ⚠️ needs-rework | pass | needs-rework | subagent-sonnet-4-6 | CBN-advies 2015/4 |
 | `CBN-2015-05-zakelijke-rechten-op-onroerende-goederen-vruchtgebruik-opstalrecht-erfpachtrecht.md` | ⚠️ needs-rework | pass | needs-rework | subagent-sonnet-4-6 | CBN-advies 2015/5 |
 | `CBN-2015-06-boekhoudkundige-verwerking-van-de-liquidatiereserve-bedoeld-in-artikel-541-wib-92.md` | ⚠️ needs-rework | pass | needs-rework | subagent-sonnet-4-6 | CBN-advies 2015/6 |
@@ -284,16 +280,13 @@ Auto-gegenereerd door `tools/lib/bronnen_index.py`. **Niet handmatig editen** �
 | `CBN-2016-13-verenigingen-en-stichtingen-roerende-voorheffing.md` | ⚠️ needs-rework | pass | needs-rework | subagent-sonnet-4-6 | CBN-advies 2016/13 |
 | `CBN-2016-15-vergoedingen-aan-bestuurders-en-werkende-vennoten.md` | ⚠️ needs-rework | pass | needs-rework | subagent-sonnet-4-6 | CBN-advies 2016/15 |
 | `CBN-2016-17-verenigingen-en-stichtingen-certificatie-van-aandelen-van-handelsvennootschappen.md` | ⚠️ needs-rework | pass | needs-rework | subagent-sonnet-4-6 | CBN-advies 2016/17 |
-| `CBN-2016-19-consortium-toepasselijke-rapporteringsstandaard-vrijstelling-van-subconsolidatie-update-0.md` | ⚠️ needs-rework | pass | needs-rework | subagent-sonnet-4-6 | CBN-advies 2016/19 |
 | `CBN-2016-20-leveranciersschulden-en-schulden-aan-de-overheid-in-het-kader-van-boek-xx-insolventie-van.md` | ⚠️ needs-rework | pass | needs-rework | subagent-sonnet-4-6 | CBN-advies 2016/20 – UPDATE |
 | `CBN-2016-21-actualisatie-van-uitgestelde-belastingen-update.md` | ⚠️ needs-rework | pass | needs-rework | subagent-sonnet-4-6 | CBN-advies 2016/21 |
 | `CBN-2016-22-bewaring-van-boeken-en-verantwoordingsstukken-bij-een-geinformatiseerde-boekhouding.md` | ⚠️ needs-rework | pass | needs-rework | subagent-sonnet-4-6 | CBN-advies 2016/22 |
 | `CBN-2016-24-uitzonderlijke-resultaten-wijzigingen-door-het-koninklijk-besluit-van-18-december-2015.md` | ⚠️ needs-rework | pass | needs-rework | subagent-sonnet-4-6 | CBN-advies 2016/24 |
 | `CBN-2016-25-kapitaalvermindering-voor-vorming-van-een-reserve-voor-een-voorzienbaar-verlies.md` | ⚠️ needs-rework | pass | needs-rework | subagent-sonnet-4-6 | CBN-advies 2016/25 |
-| `CBN-2017-02-gezamenlijke-controle-over-een-vennootschap-groottecriteria-update.md` | ⚠️ needs-rework | pass | needs-rework | subagent-sonnet-4-6 | CBN-advies 2017/02 |
 | `CBN-2017-04-gegeven-borgtochten-in-contanten-en-effecten-update.md` | ⚠️ needs-rework | pass | needs-rework | subagent-sonnet-4-6 | CBN-advies 2017/04 |
 | `CBN-2017-07-niet-in-de-balans-opgenomen-rechten-en-verplichtingen.md` | ⚠️ needs-rework | pass | needs-rework | subagent-sonnet-4-6 | CBN-advies 2017/07 |
-| `CBN-2017-08-cijfers-van-het-vorig-boekjaar-bij-opmaak-jaarrekening-volgens-nieuw-model.md` | ⚠️ needs-rework | pass | needs-rework | subagent-sonnet-4-6 | CBN-advies 2017/08 |
 | `CBN-2017-13-boekhoudkundige-verwerking-van-de-vergoeding-voor-een-borg-in-het-kader-van-de.md` | ⚠️ needs-rework | pass | needs-rework | subagent-sonnet-4-6 | CBN-advies 2017/13 |
 | `CBN-2017-14-verenigingen-en-stichtingen-verwerving-door-de-erfpacht-houder-van-het-met-een-erfpacht.md` | ⚠️ needs-rework | pass | needs-rework | subagent-sonnet-4-6 | CBN-advies 2017/14 |
 | `CBN-2017-15-transacties-onder-gemeenschappelijke-leiding-common-control-transactions-update.md` | ⚠️ needs-rework | pass | needs-rework | subagent-sonnet-4-6 | CBN-advies 2017/15 |
@@ -406,7 +399,7 @@ Auto-gegenereerd door `tools/lib/bronnen_index.py`. **Niet handmatig editen** �
 | `CBN-0112-02-ontoereikendheid-van-de-afschrijvingen-geboekt-voor-de-inwerkingtreding-van-het-koninklijk.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | CBN-advies 112/2 |
 | `CBN-0112-progressieve-afschrijvingsmethode.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | CBN-advies 112/5 |
 | `CBN-0113-02-herwaarderingen-verricht-met-toepassing-van-de-wet-van-20-augustus-1947.md` | ✅ trusted | pass | not_run | human | CBN-advies 113/2 |
-| `CBN-0113-05-herwaardering-van-vaste-activa-voor-het-begin-van-het-boekjaar-dat-aanvangt-na-31-december.md` | ✅ trusted | pass | trusted | subagent-laag2-ronde2 | CBN-advies 113/5 |
+| `CBN-0113-05-herwaardering-van-vaste-activa-voor-het-begin-van-het-boekjaar-dat-aanvangt-na-31-december.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | CBN-advies 113/5 |
 | `CBN-0113-06-herwaardering-van-afschrijfbare-activa-intercommunale-verenigingen-en-gemeentebedrijven.md` | ✅ trusted | pass | trusted | subagent-laag2-ronde2 | CBN-advies 113/6 |
 | `CBN-0114-02-bezit-van-maatschappelijke-rechten-in-verbonden-ondernemingen-of-in-ondernemingen-waarmee.md` | ✅ trusted | pass | not_run | human | CBN-advies 114/2 |
 | `CBN-0114-03-resultaten-uit-verrichtingen-met-dochterondernemingen.md` | ✅ trusted | pass | trusted | subagent-laag2-ronde2 | CBN-advies 114/3 |
@@ -484,6 +477,7 @@ Auto-gegenereerd door `tools/lib/bronnen_index.py`. **Niet handmatig editen** �
 | `CBN-0164-passende-boekhoudkundige-verwerking-van-de-tegenwaarde-van-participatiecertificaten-cpcs.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | CBN-advies 164 |
 | `CBN-0166-02-verwerking-in-de-jaarrekening-van-bepaalde-verrichtingen-als-bedoeld-in-artikel-677-van.md` | ✅ trusted | pass | trusted | subagent-laag2-ronde2 | CBN-advies 166/2 |
 | `CBN-0168-01-boekhoudkundige-verwerking-van-deelnemingen-in-vennootschappen-naar-buitenlands-recht-die.md` | ✅ trusted | pass | trusted | subagent-laag2-ronde2 | CBN-advies 168/1 |
+| `CBN-0169-01-verwerking-van-leningen-en-ontleningen-van-effecten-in-de-jaarrekening-van-ondernemingen.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | CBN-advies 169/1 |
 | `CBN-0170-01-boekhoudkundige-verwerking-van-niet-betaalde-schulden-wegens-ontoereikend-actief-bij-het.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | CBN-advies 170/1 |
 | `CBN-0173-01-overschakeling-op-de-euro-boekhoudrechtelijke-aspecten.md` | ✅ trusted | pass | trusted | subagent-laag2-ronde2 | CBN-advies 173/1 |
 | `CBN-0173-02-boekhoudkundige-verwerking-van-de-afrondingen-bij-conversie.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | CBN-advies 173/2 |
@@ -495,12 +489,14 @@ Auto-gegenereerd door `tools/lib/bronnen_index.py`. **Niet handmatig editen** �
 | `CBN-0178-01-advies-met-betrekking-tot-de-jaarrekeningrechtelijke-aspecten-van-de-certificatie-van.md` | ✅ trusted | pass | trusted | subagent-laag2-ronde2 | CBN-advies 178/1 |
 | `CBN-0180-01-verwerking-in-de-jaarrekening-van-de-door-de-vlaamse-regering-gecreeerde-opleidingscheques.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | CBN-advies 180/1 |
 | `CBN-2009-07-de-boekhoudkundige-verwerking-van-grensoverschrijdende-fusies.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | CBN-advies 2009/7 |
-| `CBN-2009-09-boekhoudkundige-gevolgen-van-de-aanvaardingsplicht-inzake-afgedankte-elektrische-en.md` | ✅ trusted | pass | not_run | human | CBN-advies 2009/9 |
+| `CBN-2009-09-boekhoudkundige-gevolgen-van-de-aanvaardingsplicht-inzake-afgedankte-elektrische-en.md` | ✅ trusted | warn | not_run | human | CBN-advies 2009/9 |
+| `CBN-2009-10-bepaling-van-de-functionele-valuta-bij-financieringsvennootschappen.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | CBN-advies 2009/10 |
 | `CBN-2009-12-de-sociale-balans-en-de-statutaire-werknemers.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | CBN-advies 2009/12 |
 | `CBN-2009-13-de-boekhoudkundige-verwerking-van-het-stelsel-tot-gedeeltelijke-vrijstelling-van-0.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | CBN-advies 2009/13 |
 | `CBN-2009-14-boekhoudkundige-verwerking-van-groenestroom-en-warmtekrachtcertificaten.md` | ✅ trusted | warn | not_run | human | CBN-advies 2009/14 |
 | `CBN-2009-16-omrekening-van-kapitaal-bij-grensoverschrijdende-fusies.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | CBN-advies 2009/16 |
 | `CBN-2010-01-de-interpretatie-van-de-openbaarmakingsverplichting-van-transacties-van-enige-betekenis.md` | ✅ trusted | pass | not_run | human | CBN-advies 2010/1 |
+| `CBN-2010-02-de-boekhoudkundige-verwerking-van-het-stelsel-tot-gedeeltelijke-vrijstelling-van-betaling.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | CBN-advies 2010/2 |
 | `CBN-2010-08-financiele-steunverlening.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | CBN-advies 2010/8 |
 | `CBN-2010-09-toepassingsgebied-van-het-koninklijk-besluit-van-10-augustus-2009.md` | ✅ trusted | pass | trusted | subagent-laag2-ronde2 | CBN-advies 2010/9 |
 | `CBN-2010-10-duur-van-het-boekjaar.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | CBN-advies 2010/10 |
@@ -513,7 +509,7 @@ Auto-gegenereerd door `tools/lib/bronnen_index.py`. **Niet handmatig editen** �
 | `CBN-2010-22-boekingswijze-van-een-voorschot-op-de-verdeling-van-het-netto-actief.md` | ✅ trusted | pass | trusted | subagent-laag2-ronde2 | CBN-advies 2010/22 |
 | `CBN-2011-02-zetelverplaatsing-naar-belgie-van-een-vennootschap-opgericht-naar-buitenlands-recht.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | CBN-advies 2011/2 |
 | `CBN-2011-06-boekhoudkundige-verwerking-van-de-aankoop-van-goud-en-kunstwerken.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | CBN-advies 2011/6 |
-| `CBN-2011-10-de-boekhoudkundige-verwerking-van-grensoverschrijdende-splitsingen.md` | ✅ trusted | pass | trusted | subagent-laag2-ronde2 | CBN-advies 2011/10 |
+| `CBN-2011-10-de-boekhoudkundige-verwerking-van-grensoverschrijdende-splitsingen.md` | ✅ trusted | warn | trusted | subagent-laag2-ronde2 | CBN-advies 2011/10 |
 | `CBN-2011-11-de-boekhoudkundige-verwerking-van-grensoverschrijdende-partiele-splitsingen.md` | ✅ trusted | pass | trusted | subagent-laag2-ronde2 | CBN-advies 2011/11 |
 | `CBN-2011-12-afwijking-inzake-functionele-valuta-praktische-implicaties-en-procedure.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | CBN-advies 2011/12 |
 | `CBN-2011-14-herwaarderingsmeerwaarden.md` | ✅ trusted | pass | trusted | subagent-laag2-ronde2 | CBN-advies 2011/14 |
@@ -543,6 +539,7 @@ Auto-gegenereerd door `tools/lib/bronnen_index.py`. **Niet handmatig editen** �
 | `CBN-2014-05-afsluitingsdatum-van-het-boekjaar.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | CBN-advies 2014/5 |
 | `CBN-2014-07-de-boekhoudkundige-verwerking-van-subsidies-waarvan-de-toekenning-niet-gegarandeerd-is.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | CBN-advies 2014/7 |
 | `CBN-2014-08-de-boekhoudkundige-verwerking-van-de-fairness-tax.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | CBN-advies 2014/8 |
+| `CBN-2015-03-verplichting-tot-opstelling-en-publicatie-van-de-jaarrekening-door-de-inbrengende.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | CBN-advies 2015/3 |
 | `CBN-2015-07-boekhoudkundige-verwerking-van-de-tax-shelter-in-hoofde-van-de-productievennootschap.md` | ✅ trusted | pass | trusted | subagent-laag2-ronde2 | CBN-advies 2015/7 |
 | `CBN-2015-10-vrijstelling-van-subconsolidatie-de-maatschap.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | CBN-advies 2015/10 |
 | `CBN-2016-05-waardering-van-voorraden-gezamenlijke-aankoop-en-doorverkoop-per-stuk.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | CBN-advies 2016/5 |
@@ -554,10 +551,13 @@ Auto-gegenereerd door `tools/lib/bronnen_index.py`. **Niet handmatig editen** �
 | `CBN-2016-14-bestellingen-in-uitvoering-wijzigingen-door-het-koninklijk-besluit-van-18-december-2015.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | CBN-advies 2016/14 |
 | `CBN-2016-16-kosten-van-onderzoek-en-ontwikkeling-wijzigingen-door-het-koninklijk-besluit-van-18.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | CBN-advies 2016/16 |
 | `CBN-2016-18-prestaties-geleverd-aan-overheid-verschuldigde-btw.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | CBN-advies 2016/18 |
+| `CBN-2016-19-consortium-toepasselijke-rapporteringsstandaard-vrijstelling-van-subconsolidatie-update-0.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | CBN-advies 2016/19 |
 | `CBN-2016-26-kilometerheffing.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | CBN-advies 2016/26 |
 | `CBN-2016-27-kosten-van-onderzoek-en-ontwikkeling-onderscheid-tussen-onderzoek-en-ontwikkeling.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | CBN-advies 2016/27 |
 | `CBN-2017-01-consortium-lidmaatschapsrechten-artikel-1401-5-bw.md` | ✅ trusted | pass | trusted | subagent-laag2-ronde2 | CBN-advies 2017/01 |
+| `CBN-2017-02-gezamenlijke-controle-over-een-vennootschap-groottecriteria-update.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | CBN-advies 2017/02 |
 | `CBN-2017-03-groottecriteria-boekjaar-korter-of-langer-dan-12-maanden-update.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | CBN-advies 2017/03 |
+| `CBN-2017-08-cijfers-van-het-vorig-boekjaar-bij-opmaak-jaarrekening-volgens-nieuw-model.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | CBN-advies 2017/08 |
 | `CBN-2017-10-groottecriteria-artikel-15-wvenn-verbonden-vennootschappen-verschillende-afsluitingsdata.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | CBN-advies 2017/10 |
 | `CBN-2017-11-opname-van-financiele-vaste-activa-geboekt-tegen-een-hoger-bedrag-dan-hun-reele-waarde-in.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | CBN-advies 2017/11 |
 | `CBN-2017-18-afschrijving-van-materiele-vaste-activa-in-aanbouw-en-vooruitbetalingen-inresultaatname.md` | ✅ trusted | pass | trusted | subagent-laag2-ronde2 | CBN-advies 2017/18 |

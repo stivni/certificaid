@@ -2,59 +2,54 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/aanschaffingsprijs-bijkomende-kosten
 datum: 1980-06-01
 gerelateerde_adviezen:
-- datum: '2025-06-06'
-  titel: 'Aanschaffingsprijs : bijkomende kosten (update) [ONTWERP]'
-  url: https://www.cbn-cnc.be/nl/adviezen/aanschaffingsprijs-bijkomende-kosten-update-ontwerp
-- datum: '2017-02-01'
-  titel: 'Invoer: douanerechten en verlegging van de heffing van de btw'
-  url: https://www.cbn-cnc.be/nl/adviezen/invoer-douanerechten-en-verlegging-van-de-heffing-van-de-btw
-- datum: '2012-10-10'
-  titel: De boekhoudkundige verwerking van immateriële vaste activa
-  url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-immateriele-vaste-activa
-- datum: '2002-05-01'
-  titel: Bepaling van de aanschaffingswaarde van activa verkregen onder bezwarende
-    titel of om niet
-  url: https://www.cbn-cnc.be/nl/adviezen/bepaling-van-de-aanschaffingswaarde-van-activa-verkregen-onder-bezwarende-titel-of-om-niet
+  - datum: '2025-06-06'
+    titel: 'Aanschaffingsprijs : bijkomende kosten (update) [ONTWERP]'
+    url: https://www.cbn-cnc.be/nl/adviezen/aanschaffingsprijs-bijkomende-kosten-update-ontwerp
+  - datum: '2017-02-01'
+    titel: 'Invoer: douanerechten en verlegging van de heffing van de btw'
+    url: https://www.cbn-cnc.be/nl/adviezen/invoer-douanerechten-en-verlegging-van-de-heffing-van-de-btw
+  - datum: '2012-10-10'
+    titel: De boekhoudkundige verwerking van immateriële vaste activa
+    url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-immateriele-vaste-activa
+  - datum: '2002-05-01'
+    titel: Bepaling van de aanschaffingswaarde van activa verkregen onder bezwarende titel of om niet
+    url: https://www.cbn-cnc.be/nl/adviezen/bepaling-van-de-aanschaffingswaarde-van-activa-verkregen-onder-bezwarende-titel-of-om-niet
 nummer: CBN-advies 126/1
 provenance:
-  generated_at: '2026-05-11T15:15:31Z'
+  generated_at: '2026-05-11T17:48:38Z'
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/aanschaffingsprijs-bijkomende-kosten
-    sha256: f91c0913b88b6d736f037df8ae902e7cb5fdc3efc7b1e6a1defa2d57a606f951
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/aanschaffingsprijs-bijkomende-kosten
+      sha256: f91c0913b88b6d736f037df8ae902e7cb5fdc3efc7b1e6a1defa2d57a606f951
+      version:
   stale: false
-  stale_reason: null
+  stale_reason:
   tooling:
-    model: null
+    model:
     pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    prompt_version: null
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
     confirmed_at: '2026-05-11T11:57:45Z'
     confirmed_by: subagent-sonnet-4-6
     layer1:
-      file_size_chars: 2362
-      flags: []
+      status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:41Z'
       heading_count: 0
       max_section_chars: 2362
-      run_at: '2026-05-11T15:05:48Z'
-      run_id: 20260511-150547
-      status: pass
+      file_size_chars: 2362
+      flags: []
     layer2:
       agent: subagent-sonnet-4-6
       concrete_problemen: []
-      rationale: Volledige advies-tekst (2362 tekens) zonder artefacten. Twee voetnoten
-        correct gekoppeld. Juridische redenering intact en coherent. Frontmatter volledig.
-        Laag-1 pass correct.
+      rationale: Volledige advies-tekst (2362 tekens) zonder artefacten. Twee voetnoten correct gekoppeld. Juridische redenering intact en coherent. Frontmatter volledig. Laag-1 pass correct.
       run_at: '2026-05-11T11:57:45Z'
       status: trusted
-    rationale: Volledige advies-tekst (2362 tekens) zonder artefacten. Twee voetnoten
-      correct gekoppeld. Juridische redenering intact en coherent. Frontmatter volledig.
-      Laag-1 pass correct.
+    rationale: Volledige advies-tekst (2362 tekens) zonder artefacten. Twee voetnoten correct gekoppeld. Juridische redenering intact en coherent. Frontmatter volledig. Laag-1 pass correct.
     status: trusted
 themas:
-- aanschaffingsprijs
-- bijkomende kost
+  - aanschaffingsprijs
+  - bijkomende kost
 ---
 
 # CBN-advies 126/1 - Aanschaffingsprijs : bijkomende kosten

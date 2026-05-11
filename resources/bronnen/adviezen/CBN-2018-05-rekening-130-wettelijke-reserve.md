@@ -2,64 +2,56 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/rekening-130-wettelijke-reserve
 datum: 2018-04-18
 gerelateerde_adviezen:
-- datum: '2020-12-09'
-  titel: Overgang van een kapitaalhoudende coöperatieve vennootschap naar een kapitaalloze
-    vennootschap
-  url: https://www.cbn-cnc.be/nl/adviezen/overgang-van-een-kapitaalhoudende-cooperatieve-vennootschap-naar-een-kapitaalloze
-- datum: '2020-01-27'
-  titel: 'Neerlegging van de enkelvoudige jaarrekening bij de Nationale Bank van België:
-    nieuwe modellen van de jaarrekening'
-  url: https://www.cbn-cnc.be/nl/adviezen/neerlegging-van-de-enkelvoudige-jaarrekening-bij-de-nationale-bank-van-belgie-nieuwe
-- datum: '2019-11-13'
-  titel: Van een kapitaalhoudende BVBA naar een kapitaalloze BV
-  url: https://www.cbn-cnc.be/nl/adviezen/van-een-kapitaalhoudende-bvba-naar-een-kapitaalloze-bv
+  - datum: '2020-12-09'
+    titel: Overgang van een kapitaalhoudende coöperatieve vennootschap naar een kapitaalloze vennootschap
+    url: https://www.cbn-cnc.be/nl/adviezen/overgang-van-een-kapitaalhoudende-cooperatieve-vennootschap-naar-een-kapitaalloze
+  - datum: '2020-01-27'
+    titel: 'Neerlegging van de enkelvoudige jaarrekening bij de Nationale Bank van België: nieuwe modellen van de jaarrekening'
+    url: https://www.cbn-cnc.be/nl/adviezen/neerlegging-van-de-enkelvoudige-jaarrekening-bij-de-nationale-bank-van-belgie-nieuwe
+  - datum: '2019-11-13'
+    titel: Van een kapitaalhoudende BVBA naar een kapitaalloze BV
+    url: https://www.cbn-cnc.be/nl/adviezen/van-een-kapitaalhoudende-bvba-naar-een-kapitaalloze-bv
 nummer: CBN-advies 2018/05
 provenance:
-  generated_at: '2026-05-11T15:15:31Z'
+  generated_at: '2026-05-11T17:48:39Z'
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/rekening-130-wettelijke-reserve
-    sha256: c8b2728d90556558c16d9f39b6121f16ab151d0d0a9bb9262e99fc90de4a8f59
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/rekening-130-wettelijke-reserve
+      sha256: c8b2728d90556558c16d9f39b6121f16ab151d0d0a9bb9262e99fc90de4a8f59
+      version:
   stale: false
-  stale_reason: null
+  stale_reason:
   tooling:
-    model: null
+    model:
     pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    prompt_version: null
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
     confirmed_at: '2026-05-11T13:34:11Z'
     confirmed_by: subagent-sonnet-4-6
     layer1:
-      file_size_chars: 5976
-      flags: []
-      heading_count: 6
-      max_section_chars: 1705
-      run_at: '2026-05-11T15:05:53Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:44Z'
+      heading_count: 6
+      max_section_chars: 1704
+      file_size_chars: 5970
+      flags: []
     layer2:
       agent: subagent-sonnet-4-6
       concrete_problemen: []
-      rationale: Volledig schone extractie. Zes headings correct genest, twee pipe-tabellen
-        correct opgebouwd, alle voetnoten [^1]–[^12] aanwezig met definitie. Geen
-        PDF-artefacten, geen onzichtbare unicode, geen spurious line-breaks. Inhoud
-        compact en compleet.
+      rationale: Volledig schone extractie. Zes headings correct genest, twee pipe-tabellen correct opgebouwd, alle voetnoten [^1]–[^12] aanwezig met definitie. Geen PDF-artefacten, geen onzichtbare unicode, geen spurious line-breaks. Inhoud compact en compleet.
       run_at: '2026-05-11T13:34:11Z'
       status: trusted
-    rationale: Volledig schone extractie. Zes headings correct genest, twee pipe-tabellen
-      correct opgebouwd, alle voetnoten [^1]–[^12] aanwezig met definitie. Geen PDF-artefacten,
-      geen onzichtbare unicode, geen spurious line-breaks. Inhoud compact en compleet.
+    rationale: Volledig schone extractie. Zes headings correct genest, twee pipe-tabellen correct opgebouwd, alle voetnoten [^1]–[^12] aanwezig met definitie. Geen PDF-artefacten, geen onzichtbare unicode, geen spurious line-breaks. Inhoud compact en compleet.
     status: trusted
 themas:
-- wettelijke reserve
-- reservefonds
+  - wettelijke reserve
+  - reservefonds
 ---
 
 # CBN-advies 2018/05 – Rekening 130 Wettelijke reserve
 
 ## Algemeen
-
 Met onderhavig advies verduidelijkt de Commissie de inhoud van de rekening 130 *Wettelijke reserve*.
 
 Het Wetboek van vennootschappen bevat een aantal bepalingen waarbij de vorming van een reserve expliciet wordt voorgeschreven. Het Wetboek van vennootschappen (hierna: W.Venn.) verplicht onder meer de vorming van een onbeschikbare reserve wanneer eigen aandelen of winstbewijzen voorkomen op het actief van de balans. Hoewel de naam van de rekening anders zou kunnen doen vermoeden, wordt op de rekening 130 *Wettelijke reserve* echter uitsluitend het reservefonds geboekt zoals bedoeld in de artikelen 319, 319bis, 428 en 616 W.Venn. van respectievelijk een bvba, een S-BVBA[^2], een CVBA en een NV[^3] (hierna: wettelijke reserve) of wanneer de vorming van een wettelijke reserve ten belope van een hoger bedrag dan het wettelijk voorgeschreven minimumbedrag statutair is voorgeschreven of de algemene vergadering daar vrijwillig toe overgaat.
@@ -69,9 +61,7 @@ In de voorbereidende werken van de wet van 1873[^4], die de bron is van de verpl
 Onderhavig advies is niet van toepassing op verenigingen en stichtingen.
 
 ## Vennootschapsrechtelijke bepalingen
-
 ### Vorming van een reservefonds
-
 De algemene vergadering van een bvba, andere dan de S-BVBA, een CVBA en een NV[^6] houden ieder jaar een bedrag in van ten minste een twintigste van de nettowinst voor de vorming van een reservefonds. De nettowinst die in aanmerking moet worden genomen voor de stijving van het reservefonds is de te bestemmen winst van het boekjaar (code 9905 van het neerleggingsformulier van de Nationale Bank van België) verminderd met het overgedragen verlies van de voorgaande boekjaren (code 14P van het neerleggingsformulier van de Nationale Bank van België).
 
 De verplichting tot voorafname van de winst houdt op wanneer de wettelijke reserve een tiende van het maatschappelijk kapitaal heeft bereikt.[^7]
@@ -80,7 +70,6 @@ De verplichting tot voorafname van de winst houdt op wanneer de wettelijke reser
 Ook bij de S-BVBA geldt een reserveringsplicht. De algemene vergadering van een S-BVBA houdt jaarlijks een bedrag in van ten minste een vierde van de nettowinst voor de vorming van een reservefonds. Deze reserveringsplicht is van toepassing totdat het bedrag van de wettelijke reserve, verhoogd met geplaatste kapitaal, het bedrag van het wettelijk minimumkapitaal van een bvba, zijnde 18.550 euro, heeft bereikt. Wanneer de S-BVBA wordt omgevormd tot een gewone bvba is evenwel opnieuw de algemene reserveringsverplichting vermeld in artikel 319 W.Venn. van toepassing.
 
 ### Incorporatie van de wettelijke reserve in het kapitaal
-
 In de rechtsleer bestaat er sedert lang discussie over of de wettelijke reserve van een bvba, CVBA of NV al dan niet mag worden geïncorporeerd in het kapitaal.[^8]
  De Commissie spreekt er zich niet over uit of dergelijke incorporatie al dan niet is toegelaten. Voor de S-BVBA daarentegen heeft de wetgever zelf expliciet voorzien in de mogelijkheid tot opname van de wettelijke reserve in het kapitaal.[^9] 
 
@@ -92,7 +81,6 @@ Boeking van de incorporatie van een wettelijke reserve in het kapitaal[^10]:
 | aan | 100 | Geplaatst kapitaal | | X |
 
 ### Afname van de wettelijke reserve
-
 Wanneer een bvba[^11], CVBA of NV de wettelijke reserve aanwendt voor de aanzuivering van haar verliezen, kan geen rechtstreekse afboeking van deze wettelijke reserve plaatsvinden, doch dient deze aanwending van de wettelijke reserve plaats te vinden via de rekeningen van de resultatenverwerking.[^12] 
 
 Boeking van de aanwending van de wettelijke reserve:
@@ -103,7 +91,6 @@ Boeking van de aanwending van de wettelijke reserve:
 | aan | 792 | Onttrekking aan de reserves | | X |
 
 ### Andere verminderingen van de wettelijke reserve
-
 In de rechtsleer bestaat er geen eensgezindheid over of een vermindering van de wettelijke reserve mogelijk is in andere gevallen dan de incorporatie van de wettelijke reserve in het kapitaal van een S-BVBA of voor de aanzuivering van verliezen zoals het overschot dat rekenkundig ontstaat na een doorgevoerde kapitaalvermindering. De Commissie neemt dan ook geen enkel standpunt in over andere mogelijkheden. In voorkomend geval zijn de bepalingen vermeld in het CBN-Advies 121/3 – *Mutaties binnen het eigen vermogen* van toepassing.
 
 [^1]: Onderhavig advies is tot stand gekomen nadat een ontwerpadvies op 9 januari 2018 ter publieke consultatie werd gepubliceerd op de website van de CBN.

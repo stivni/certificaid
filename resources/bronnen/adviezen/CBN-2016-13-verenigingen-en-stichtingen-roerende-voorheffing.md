@@ -13,45 +13,45 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/schulden-uit-de-resultaatbestemming-dividenduitkering-aan-een-onderneming-die-ten-minste
 nummer: CBN-advies 2016/13
 provenance:
+  generated_at: '2026-05-11T17:48:39Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/verenigingen-en-stichtingen-roerende-voorheffing
       sha256: a429da8d0b7fd51c4e9fb99e3d9b487cf8cd7b50dea8dc8478aea7b801603b16
       version:
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
-    status: needs-rework
     confirmed_at: '2026-05-11T17:09:38Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: 'G3: regel 135 bevat ` [^18][^19][^20][^21]` als alleenstaande alinea direct na de boldtitel op regel 133 — losgeraakte voetnootcluster die in de ankerzin thuishoort maar door de extractor als eigen alinea is ingevoegd. B4: regel 109 gebruikt `**Boeking op 31/03/2013...**` als bold-paragraaf terwijl equivalente boekingen (regels 101, 117, 125) wél `##`-headings zijn — structuurinconsistentie die een heading-extractie-bug aanduidt.'
     layer1:
-      file_size_chars: 9842
-      flags: []
-      heading_count: 9
-      max_section_chars: 4378
-      run_at: '2026-05-11T15:05:52Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:43Z'
+      heading_count: 9
+      max_section_chars: 4377
+      file_size_chars: 9833
+      flags: []
     layer2:
-      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T17:09:38Z'
-      rationale: 'G3: regel 135 bevat ` [^18][^19][^20][^21]` als alleenstaande alinea direct na de boldtitel op regel 133 — losgeraakte voetnootcluster die in de ankerzin thuishoort maar door de extractor als eigen alinea is ingevoegd. B4: regel 109 gebruikt `**Boeking op 31/03/2013...**` als bold-paragraaf terwijl equivalente boekingen (regels 101, 117, 125) wél `##`-headings zijn — structuurinconsistentie die een heading-extractie-bug aanduidt.'
       concrete_problemen:
-        - regel: 135
-          categorie: G3
+        - categorie: G3
+          regel: 135
           type: other
           voorbeeld: ' [^18][^19][^20][^21] (losstaande voetnootcluster als eigen alinea na boldtitel)'
-        - regel: 109
-          categorie: B4
+        - categorie: B4
+          regel: 109
           type: other
           voorbeeld: '**Boeking op 31/03/2013 (tarief roerende voorheffing bedraagt 25[^10] procent)** (bold ipv ## heading)'
+      rationale: 'G3: regel 135 bevat ` [^18][^19][^20][^21]` als alleenstaande alinea direct na de boldtitel op regel 133 — losgeraakte voetnootcluster die in de ankerzin thuishoort maar door de extractor als eigen alinea is ingevoegd. B4: regel 109 gebruikt `**Boeking op 31/03/2013...**` als bold-paragraaf terwijl equivalente boekingen (regels 101, 117, 125) wél `##`-headings zijn — structuurinconsistentie die een heading-extractie-bug aanduidt.'
+      run_at: '2026-05-11T17:09:38Z'
+      status: needs-rework
+    rationale: 'G3: regel 135 bevat ` [^18][^19][^20][^21]` als alleenstaande alinea direct na de boldtitel op regel 133 — losgeraakte voetnootcluster die in de ankerzin thuishoort maar door de extractor als eigen alinea is ingevoegd. B4: regel 109 gebruikt `**Boeking op 31/03/2013...**` als bold-paragraaf terwijl equivalente boekingen (regels 101, 117, 125) wél `##`-headings zijn — structuurinconsistentie die een heading-extractie-bug aanduidt.'
+    status: needs-rework
 themas:
   - roerende voorheffing
   - toerekening van kosten en opbrengsten
@@ -61,45 +61,38 @@ themas:
 # CBN-advies 2016/13 – Verenigingen en Stichtingen: roerende voorheffing
 
 ## Inleiding
-
 Onderhavig advies strekt ertoe te verduidelijken op welke wijze de financiële opbrengsten uit geldbeleggingen (hierna: “roerende inkomsten”) en de ingehouden roerende voorheffing op deze roerende inkomsten moeten worden opgenomen in de boekhouding van een vereniging zonder winstoogmerk, stichting of internationale vereniging zonder winstoogmerk zoals bedoeld in de artikelen 17, § 3, 37, § 3, 53, § 3 van de Wet van 27 juni 1921 betreffende de verenigingen zonder winstoogmerk, de internationale verenigingen zonder winstoogmerk en de stichtingen (hierna: grote vereniging(en) of stichting(en)).
 
 Een grote vereniging of stichting is verplicht[^2] om een boekhouding te voeren en een jaarrekening op te maken overeenkomstig de bepalingen van de Wet van 17 juli 1975 met betrekking tot de boekhouding van de ondernemingen.[^3]
  Een grote vereniging of stichting voert aldus haar boekhouding en maakt een jaarrekening op volgens de regels vermeld in het KB W.Venn. doch mits[^4] de aanpassingen waarin voorzien in het KB van 19 december 2003 betreffende de boekhoudkundige verplichtingen en de openbaarmaking van de jaarrekening van bepaalde verenigingen zonder winstoogmerk, internationale verenigingen zonder winstoogmerk en stichtingen.
 
 ## Boeking van het brutobedrag
-
 Het compensatieverbod vermeld in artikel 25, § 2 KB W.Venn. impliceert dat de roerende inkomsten voor hun brutobedrag in opbrengsten moeten worden genomen. Het voormelde KB van 19 december 2003 bevat geen afwijkende bepalingen met betrekking tot artikel 25, § 2 KB W.Venn. zodat voor een grote vereniging of stichting dit compensatieverbod onverkort van toepassing is. De roerende voorheffing die overeenkomstig de fiscale bepalingen geheven wordt op deze roerende inkomsten, wordt geboekt op de rekening[^5]
  6702 *Roerende voorheffing*.[^6] 
 
 Het is voor een grote vereniging of stichting bijgevolg niet toegelaten om de inkomsten uit een beleggingsproduct slechts in opbrengsten te nemen ten belope van het nettobedrag.
 
 ## Toerekening van kosten en opbrengsten aan het boekjaar waarop zij betrekking hebben
-
 Artikel 33, tweede lid KB W.Venn. verplicht om de kosten en de opbrengsten die op een boekjaar betrekking hebben op te nemen in de jaarrekening en dit ongeacht de dag waarop deze kosten en opbrengsten worden betaald of geïnd.[^7]
  Bijgevolg moeten de vennootschappen voor rentedragende tegoeden de pro rata van gelopen interesten en de toepasselijke roerende voorheffing, die op vervaldag betaalbaar zijn, ten laatste op balansdatum respectievelijk in opbrengsten en in kosten boeken.[^8] 
 
 Dit principe geldt onverkort voor een grote vereniging of stichting aangezien het voormelde KB van 19 december 2003 dienaangaande niet voorziet in een afwijkende regeling.
 
 ## Wijziging van het tarief van de roerende voorheffing
-
 Een particulariteit doet zich voor indien het tarief van de roerende voorheffing wijzigt tijdens de looptijd van een beleggingsproduct waarvan de inkomsten gekapitaliseerd worden. Bij een verhoging (verlaging) van het tarief van de roerende voorheffing tijdens het boekjaar moet, indien het beleggingsproduct nog wordt aangehouden op balansdatum, ten laatste op deze balansdatum rekening worden gehouden met deze hogere (lagere) roerende voorheffing door een aanpassing in min (meer) van de boekwaarde van het beleggingsproduct. Deze correctie vindt in principe plaats door de rekening 6702 *Roerende voorheffing* te debiteren voor een groter (kleiner) bedrag dan het bedrag van de roerende voorheffing die verschuldigd is op het pro rata gedeelte van de bruto-opbrengsten die tijdens het boekjaar in resultaat wordt geboekt.
 
 De Commissie merkt hierbij op dat wanneer de opbrengsten of de kosten in belangrijke mate worden beïnvloed door opbrengsten of kosten die aan een ander boekjaar moeten worden toegerekend, daarvan melding moet worden gemaakt in de toelichting.[^9] 
 
 ## Voorbeeld
-
 Een grote vereniging of stichting die haar jaarrekening afsluit op 31 maart belegt op 1 april 2011 in een kapitalisatiebon op 5 jaar voor een bedrag van 10.000. De toegepaste interestvoet bedraagt 3 procent.
 
 ## Boeking bij verwerving
-
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 520 | Vastrentende effecten | 10.000 | |
 | aan | 5500 | Kredietinstellingen: rekening-courant | | 10.000 |
 
 ## Boeking op 31/03/2012 (tarief roerende voorheffing bedraagt 15 procent)
-
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 520 | Vastrentende effecten | 255 | |
@@ -115,7 +108,6 @@ Een grote vereniging of stichting die haar jaarrekening afsluit op 31 maart bele
 | aan | 751 | Opbrengsten uit vlottende activa | | 309 |
 
 ## Boeking op 31/03/2014 (tarief roerende voorheffing bedraagt 25 procent)
-
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 520 | Vastrentende effecten | 238,70 | |
@@ -123,7 +115,6 @@ Een grote vereniging of stichting die haar jaarrekening afsluit op 31 maart bele
 | aan | 751 | Opbrengsten uit vlottende activa | | 318,27 |
 
 ## Boeking op 31/03/2015 (tarief roerende voorheffing bedraagt 25 procent)
-
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 520 | Vastrentende effecten | 245,89 | |

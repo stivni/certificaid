@@ -16,49 +16,49 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/mogelijkheid-tot-uitstel-van-de-gewone-algemene-vergadering-en-van-de-neerlegging-van-de
 nummer: CBN-advies 2020/11
 provenance:
+  generated_at: '2026-05-11T17:48:39Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/vrijstelling-ter-versterking-van-de-solvabiliteit-en-het-eigen-vermogen-van-de-0
       sha256: a4e4fa6047464374dcdd9f99e415b10e78c57870f32dce88f69b63bcd9375be2
       version:
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T15:15:32Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
-    status: needs-rework
     confirmed_at: '2026-05-11T17:13:30Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "D4: Regel 91 bevat '*enerzijds*' correct maar '*anderzijds *' (spatie vóór sluit-asterisk) en \"'*flat'*\" (smart-quote doorkruist italic span) — malformed italic op dezelfde regel. B5: Regel 109 bevat 'In het boekjaar volgend op datgene waarin de belastbare gereserveerde winst wordt verminderd' als plain-text zonder heading-prefix, waarna regel 110 dezelfde zin herhaalt als inleiding op de inhoudelijke paragraaf — structuurniveau ontbreekt terwijl ### In het boekjaar waarin... op regel 97 wél een heading heeft."
     layer1:
-      file_size_chars: 15122
-      flags: []
-      heading_count: 6
-      max_section_chars: 5775
-      run_at: '2026-05-11T15:05:53Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:44Z'
+      heading_count: 6
+      max_section_chars: 5772
+      file_size_chars: 15116
+      flags: []
     layer2:
-      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T17:13:30Z'
-      rationale: "D4: Regel 91 bevat '*enerzijds*' correct maar '*anderzijds *' (spatie vóór sluit-asterisk) en \"'*flat'*\" (smart-quote doorkruist italic span) — malformed italic op dezelfde regel. B5: Regel 109 bevat 'In het boekjaar volgend op datgene waarin de belastbare gereserveerde winst wordt verminderd' als plain-text zonder heading-prefix, waarna regel 110 dezelfde zin herhaalt als inleiding op de inhoudelijke paragraaf — structuurniveau ontbreekt terwijl ### In het boekjaar waarin... op regel 97 wél een heading heeft."
       concrete_problemen:
-        - regel: 91
-          categorie: D4
+        - categorie: D4
+          regel: 91
           type: other
           voorbeeld: Indien *anderzijds *het effectief gerealiseerde verlies
-        - regel: 91
-          categorie: D4
+        - categorie: D4
+          regel: 91
           type: other
           voorbeeld: onderworpen is aan het '*flat'* tarief
-        - regel: 109
-          categorie: B5
+        - categorie: B5
+          regel: 109
           type: other
           voorbeeld: In het boekjaar volgend op datgene waarin de belastbare gereserveerde winst wordt verminderd (plain text, geen heading)
+      rationale: 'D4: Regel 91 bevat ''*enerzijds*'' correct maar ''*anderzijds *'' (spatie vóór sluit-asterisk) en "''*flat''*" (smart-quote doorkruist italic span) — malformed italic op dezelfde regel. B5: Regel 109 bevat ''In het boekjaar volgend op datgene waarin de belastbare gereserveerde winst wordt verminderd'' als plain-text zonder heading-prefix, waarna regel 110 dezelfde zin herhaalt als inleiding op de inhoudelijke paragraaf — structuurniveau ontbreekt terwijl ### In het boekjaar waarin... op regel 97 wél een heading heeft.'
+      run_at: '2026-05-11T17:13:30Z'
+      status: needs-rework
+    rationale: 'D4: Regel 91 bevat ''*enerzijds*'' correct maar ''*anderzijds *'' (spatie vóór sluit-asterisk) en "''*flat''*" (smart-quote doorkruist italic span) — malformed italic op dezelfde regel. B5: Regel 109 bevat ''In het boekjaar volgend op datgene waarin de belastbare gereserveerde winst wordt verminderd'' als plain-text zonder heading-prefix, waarna regel 110 dezelfde zin herhaalt als inleiding op de inhoudelijke paragraaf — structuurniveau ontbreekt terwijl ### In het boekjaar waarin... op regel 97 wél een heading heeft.'
+    status: needs-rework
 themas:
   - COVID-19
   - tijdelijke vrijstelling
@@ -70,11 +70,9 @@ themas:
 # CBN-advies 2020/11 – Vrijstelling ter versterking van de solvabiliteit en het eigen vermogen van de vennootschappen ten gevolge van de COVID-19-pandemie in de vennootschapsbelasting
 
 ## Inleiding
-
 De wet van 23 juni 2020[^2] houdende fiscale bepalingen ter bevordering van de liquiditeit en solvabiliteit van ondernemingen in het kader van de bestrijding van de economische gevolgen van de COVID-19-pandemie (hierna: de wet van 23 juni 2020), in samenlezing met de wet van 15 juli 2020 houdende diverse dringende bepalingen ten gevolge van de COVID-19-pandemie (Corona III) (hierna: de wet van 15 juli 2020)[^3], laat vennootschappen toe om vroegtijdig fiscale verliezen aan te rekenen op een vorig aanslagjaar door middel van het treffen van een tijdelijke vrijstelling.
 
 ## Beschrijving van de maatregel
-
 De wet van 23 juni 2020, in samenlezing met de wet met van 15 juli 2020, stelt dat voor het aanslagjaar 2019 of 2020 dat verband houdt met een boekjaar dat afgesloten werd tussen 13 maart 2019 tot 31 juli 2020, een vennootschap aanspraak kan maken op een tijdelijke vrijstelling[^4] van het geheel of een deel van het resultaat van het belastbare tijdperk[^5] vanwege eventuele verliezen die worden geleden in de loop van het volgende belastbare tijdperk dat verbonden is met, naar gelang het geval het aanslagjaar 2020 of 2021. Er geldt een maximumbedrag van vrijstelling die kan worden toegepast. De eventuele verliezen kunnen slechts worden vrijgesteld ten belope van maximaal het bedrag van het resultaat van het belastbare tijdperk (ook wel ‘fiscaal resultaat’ genoemd als optelsom van de reservebeweging, de verworpen uitgaven en de uitgekeerde dividenden), vastgesteld alsof de bedoelde vrijstelling niet werd gevraagd, en verminderd met de overeenkomstig art. 202 (Definitief Belast Inkomen) tot 205/1 (aftrek voor innovatie-inkomsten) en 543 (overgangsstelsel aftrek voor octrooi-inkomsten) WIB 1992 bedoelde aftrekbare inkomsten die in de loop van het belastbare tijdperk werden verkregen. De bedoelde vrijstelling wordt verleend door de vorming van een tijdelijke vrijgestelde reserve die in mindering wordt gebracht op het totale bedrag van de belastbare gereserveerde winst van het belastbare tijdperk dat wordt afgesloten in de periode van 13 maart 2019 tot 31 juli 2020. De tijdelijk vrijgestelde reserve mag voor slechts één belastbaar tijdperk dat wordt afgesloten in de periode van 13 maart 2019 tot 31 juli 2020 worden gevormd.[^6] 
 
 Zo kan bij wijze van voorbeeld in geval van een boekjaar dat samenvalt met het kalenderjaar een vennootschap het geraamd fiscaal verlies voor boekjaar 2020 in mindering brengen van de belastbare gereserveerde winst van boekjaar 2019. Nog steeds bij wijze van voorbeeld kan een vennootschap met een eindeboekjaardatum per 30 juni ervoor kiezen het geraamd fiscaal verlies van het boekjaar eindigend op 30 juni 2020 in mindering te brengen van de belastbare gereserveerde winst van het boekjaar eindigend op 30 juni 2019. Maar hier kan dezelfde vennootschap opteren om het geraamd verlies van het boekjaar eindigend op 30 juni 2021 in mindering te brengen van de belastbare gereserveerde winst van het boekjaar eindigend op 30 juni 2020.
@@ -87,11 +85,9 @@ In het boekjaar volgend op het in rekening brengen van het geraamd bedrag moet d
  Indien bij wijze van voorbeeld een vennootschap onderworpen is aan het '*flat'* tarief en de bedoelde tijdelijk vrijgestelde reserve in mindering is gebracht in boekjaar 2019 dat samenvalt met het kalenderjaar zal in daaropvolgende boekjaar 2020 op het bedrag van de tijdelijk vrijgestelde reserve de tariefsprong van 4,58 procent[^9] moeten betaald worden. Indien *anderzijds* het effectief gerealiseerde verlies kleiner uitvalt dan de in rekening gebrachte tijdelijke reserve dient een afzonderlijke aanslag betaald te worden die in een afzonderlijke aanslag voorziet van 2 tot 40 procent afhankelijk van de mate van afwijking.[^10] 
 
 ## Boekhoudrechtelijke analyse
-
 De vraag van boekhoudrechtelijk belang is vooreerst of deze fiscaalrechtelijke tijdelijke reserve[^11] dient geboekt te worden in de met de betrokken boekjaren overeenstemmende jaarrekeningen en bijkomend of in het boekjaar waarin het geraamd verlies in mindering wordt gebracht van de belastbare basis daarmee rekening moet worden gehouden bij de berekening van de belasting die in de regel als kost dient opgenomen te worden in de overeenstemmende jaarrekening.
 
 ### In het boekjaar waarin de belastbare gereserveerde winst wordt verminderd
-
 Het wetgevend kader legt voor deze fiscaal vrijgestelde reserve in het belastbare tijdperk waarin de belastbare gereserveerde winst wordt verminderd geen onaantastbaarheidsvoorwaarde op. Met andere woorden dient de betrokken tijdelijk fiscaal vrijgestelde reserve enkel in min ingevuld te worden in de overeenstemmende aangifte in de vennootschapsbelasting en dient deze niet uitgedrukt te worden binnen het eigen vermogen van de betrokken vennootschap.
 
 Bijkomend dient naar de mening van de Commissie in haar antwoord op 14 mei 2020 gericht aan minister MUYLLE[^12] met deze voorwaardelijke vrijstelling nog geen rekening gehouden te worden bij de belastingberekening over het boekjaar waarin de belastbare gereserveerde winst wordt verminderd met de gekozen fiscaal vrijgestelde reserve. Het boeken van de belastingbesparing in de resultatenrekening is pas mogelijk in het boekjaar waarin het verlies effectief wordt gerealiseerd. Pas eenmaal het volgende belastbare tijdperk is beëindigd, kan de besparing definitief verworven worden omdat pas dan het effectieve verlies zal komen vast te staan met een eventuele correctie indien dat verlies lager zou uitvallen dan aanvankelijk gepland.
@@ -106,7 +102,6 @@ In het boekjaar volgend op datgene waarin de belastbare gereserveerde winst word
 In het boekjaar volgend op datgene waarin de belastbare gereserveerde winst wordt verminderd zal dan de uiteindelijk verschuldigde vennootschapsbelasting dienen geboekt te worden waarbij de bespaarde belasting zal geboekt worden al dan niet samen met de kost van de hoger uiteengezette tariefsprong en de eventueel verschuldigde afzonderlijke aanslag[^13].
 
 ### Voorbeeld 1
-
 Een kleine vennootschap met een boekjaar gelijk aan het kalenderjaar, belast aan het gemene tarief[^14], vrijgesteld van het verrichten van voorafbetalingen[^15] en met voor boekjaar 2019 een belastbare grondslag van 2 mln. EUR, raamt voor het boekjaar 2020 een verlies van 1,2 mln. EUR en brengt dit bedrag ook in mindering van de belastbare gereserveerde winst van aanslagjaar 2020. Het effectief gerealiseerde verlies in boekjaar 2020, aanslagjaar 2021 bedraagt 1 mln. EUR.
 
 Boekjaar 2019 
@@ -136,7 +131,6 @@ Boekjaar 2020
 | | 7711 | Regularisering geraamde Belgische winstbelastingen | 243.283,36 | |
 
 ### Voorbeeld 2
-
 Een kleine vennootschap met een boekjaar gelijk aan het kalenderjaar, belast aan het gemene tarief[^20], vrijgesteld van het verrichten van voorafbetalingen[^21] en met voor boekjaar 2019 een belastbare grondslag van 2 mln. EUR, raamt voor het boekjaar 2020 een verlies van 0,8 mln. EUR en brengt dit bedrag ook in mindering van de belastbare gereserveerde winst van aanslagjaar 2020. Het effectief gerealiseerde verlies in boekjaar 2020, aanslagjaar 2021 bedraagt 1 mln. EUR.
 
 Boekjaar 2019 

@@ -16,49 +16,49 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/verlies-gedragen-door-vennoten-of-derden
 nummer: CBN-advies 121/3
 provenance:
+  generated_at: '2026-05-11T17:48:38Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/mutaties-binnen-het-eigen-vermogen
       sha256: a494a51dc41c670cd4c09f0ab8e895eaf42e573697f0b32ef9126a0f635717da
       version:
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
-    status: needs-rework
     confirmed_at: '2026-05-11T17:05:20Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "A6: regel 138 bevat 'meer. de doctrine is verdeeld' — nieuwe zin begint met lowercase 'd' na punt, typisch mid-sentence merge uit PDF-extractie. Regel 140 heeft 'dient te gebeuren. enerzijds kan' — lowercase 'e' na punt. Regel 156 bevat 'in de resultaat verwerking' — samengesteld woord 'resultaatverwerking' ten onrechte gesplitst."
     layer1:
-      file_size_chars: 13622
-      flags: []
-      heading_count: 11
-      max_section_chars: 6113
-      run_at: '2026-05-11T15:05:48Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:41Z'
+      heading_count: 11
+      max_section_chars: 6106
+      file_size_chars: 13611
+      flags: []
     layer2:
-      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T17:05:20Z'
-      rationale: "A6: regel 138 bevat 'meer. de doctrine is verdeeld' — nieuwe zin begint met lowercase 'd' na punt, typisch mid-sentence merge uit PDF-extractie. Regel 140 heeft 'dient te gebeuren. enerzijds kan' — lowercase 'e' na punt. Regel 156 bevat 'in de resultaat verwerking' — samengesteld woord 'resultaatverwerking' ten onrechte gesplitst."
       concrete_problemen:
-        - regel: 138
-          categorie: A6
+        - categorie: A6
+          regel: 138
           type: other
           voorbeeld: meer. de doctrine is verdeeld — lowercase 'd' na punt, merge-artefact
-        - regel: 140
-          categorie: A6
+        - categorie: A6
+          regel: 140
           type: other
           voorbeeld: dient te gebeuren. enerzijds kan — lowercase 'e' na punt
-        - regel: 156
-          categorie: A6
+        - categorie: A6
+          regel: 156
           type: other
           voorbeeld: in de resultaat verwerking slechts — samengesteld woord gesplitst
+      rationale: 'A6: regel 138 bevat ''meer. de doctrine is verdeeld'' — nieuwe zin begint met lowercase ''d'' na punt, typisch mid-sentence merge uit PDF-extractie. Regel 140 heeft ''dient te gebeuren. enerzijds kan'' — lowercase ''e'' na punt. Regel 156 bevat ''in de resultaat verwerking'' — samengesteld woord ''resultaatverwerking'' ten onrechte gesplitst.'
+      run_at: '2026-05-11T17:05:20Z'
+      status: needs-rework
+    rationale: 'A6: regel 138 bevat ''meer. de doctrine is verdeeld'' — nieuwe zin begint met lowercase ''d'' na punt, typisch mid-sentence merge uit PDF-extractie. Regel 140 heeft ''dient te gebeuren. enerzijds kan'' — lowercase ''e'' na punt. Regel 156 bevat ''in de resultaat verwerking'' — samengesteld woord ''resultaatverwerking'' ten onrechte gesplitst.'
+    status: needs-rework
 themas:
   - verlies
   - aanzuivering overgedragen verlies
@@ -98,7 +98,6 @@ Concreet gezien gaat het hier over de toevoeging van reserves en overgedragen wi
 Het leek de Commissie wenselijk in een advies de problemen verbonden aan die verrichtingen eerst op bevattelijke wijze uiteen te zetten en vervolgens een synthetisch overzicht te geven van de boekhoudkundige verwerking van de belangrijkste verrichtingen met betrekking tot het eigen vermogen.
 
 ## TOEVOEGING VAN RESERVES OF VAN OVERGEDRAGEN WINST AAN HET KAPITAAL EN KAPITAALVERMINDERING TOT AANZUIVERING OVERGEDRAGEN VERLIES
-
 In verband met de toevoeging van reserves of overgedragen winst aan het kapitaal en met de kapitaalvermindering tot aanzuivering van overgedragen verliezen, rijst de vraag of die verrichtingen rechtstreeks van één eigen-vermogenspost naar een andere moeten worden overgeboekt (waarbij de post *Kapitaal*, naar gelang van het geval, rechtstreeks wordt verhoogd of verminderd en tegengeboekt in een andere eigen-vermogenspost) dan wel of de toevoeging of de onttrekking van het kapitaal dient te gebeuren via de rekeningen 69 en 79 van het rekeningenstelsel die overeenstemmen met de betreffende rubrieken van de resultaatverwerking. 
 
 Sommige auteurs opteren voor een rechtstreekse boeking van alle mutaties tussen eigenvermogensposten. Die benadering gaat uit van de overweging dat het totaal eigen vermogen ongewijzigd blijft. Enkel in vennootschapsrechtelijk opzicht worden zij anders gekwalificeerd. Bij deze benadering moet geen onderscheid worden gemaakt tussen een gereserveerde winst en een - positief of negatief - overgedragen resultaat. 
@@ -114,7 +113,6 @@ Diezelfde redenering kan echter niet worden gevolgd voor onttrekkingen aan de re
 Toevoegingen aan die posten moeten weliswaar enkel via de rekeningen verlopen voor zover de betrokken bedragen uit te verwerken resultaten voortkomen. 
 
 ## EIGEN AANDELEN
-
 Wanneer de vennootschap haar eigen aandelen verkrijgt, moet, krachtens artikel 52*bis*, § 2 van de vennootschapswet, een onbeschikbare reserve worden gevormd, gelijk aan de waarde waarvoor de verkregen aandelen in de inventaris zijn ingeschreven. 
 
 De verkrijging is slechts toegestaan voor zover het bedrag uitgetrokken voor die verkrijgingen voor uitkering vatbaar is (artikel 52*bis*, § 1, 2°). Drie uitzonderingen zijn evenwel voorzien bij artikel 52*bis*, § 4, wanneer de aandelen verkregen werden : 
@@ -126,7 +124,6 @@ De verkrijging is slechts toegestaan voor zover het bedrag uitgetrokken voor die
 In de doctrine bestaan verschillende opvattingen over de boekhoudkundige verwerking van de verkrijging, de vervreemding en de vernietiging van eigen aandelen. 
 
 ### Verkrijging
-
 Volgens sommige auteurs moet, bij verkrijging van eigen aandelen, een onbeschikbare reserve worden gevormd via de resultaatverwerking in de mate waarin de eigen aandelen slechts met voor uitkering vatbare bedragen beschikbaar vermogen kunnen worden verkregen. De Commissie is echter van oordeel dat er geen reden is om af te wijken van de voornoemde beginselen, krachtens dewelke de vorming van de onbeschikbare reserve voor eigen aandelen slechts dient te gebeuren via de resultaatverwerking wanneer het overgedragen resultaat of het resultaat van het boekjaar daartoe wordt aangewend. 
 
 Bij vorming van de onbeschikbare reserve uit beschikbare reserves, blijft het totale eigen vermogen onveranderd. Eigen aandelen worden immers door de Vennootschapswet beschouwd als een te gelde te maken actief en hun verwerving wordt niet beschouwd als een uitkering van eigen vermogen aan de aandeelhouders die hun aandelen hebben afgestaan. 
@@ -134,17 +131,14 @@ Bij vorming van de onbeschikbare reserve uit beschikbare reserves, blijft het to
 Wordt een waardevermindering geboekt op de verkregen eigen aandelen, dan wordt de onbeschikbare reserve met een zelfde bedrag rechtstreeks overgebracht naar een beschikbare reserve. Artikel 52bis, § 2 van de Vennootschapswet bepaalt immers dat een onbeschikbare reserve wordt gevormd, gelijk aan de waarde waarvoor de verkregen aandelen in de inventaris zijn ingeschreven. 
 
 ### Vervreemding
-
 Bij vervreemding van de eigen aandelen heeft de onbeschikbare reserve geen bestaansreden meer. de doctrine is verdeeld over de vraag hoe de onbeschikbare reserve moet worden toegewezen aan de vermogensbestanddelen waaruit zij werd gevormd. De éne stelt dat deze toewijziging moet verlopen via de resultaatverwerking, de andere stelt dat dit rechtstreeks kan. 
 
 De Commissie is van oordeel dat de opheffing van de onbeschikbare reserve en de toewijzing ervan aan de vermogensbestanddelen rechtstreeks dient te gebeuren. enerzijds kan de toewijzing aan de beschikbare reserves verlopen in overeenstemming met de hoger uiteengezette beginselen. Anderzijds is er geen reden om een toewijzing aan het overgedragen resultaat te laten gebeuren via de resultaatverwerking omdat er hier geen verband is met het overgedragen resultaat van het vorige boekjaar. 
 
 ### Vernietiging
-
 Worden de eigen aandelen vernietigd, dan is er naar het oordeel van de Commissie geen reden om enig resultaat tot uitdrukking te brengen. De aanwending van de onbeschikbare reserve wordt rechtstreeks tot uitdrukking gebracht door deze reserve te annuleren ten opzichte van de netto-boekwaarde van de vernietigde eigen aandelen. 
 
 ## BIJZONDERE GEVALLEN
-
 Er moet in dit verband worden herinnerd aan twee specifieke gevallen waarin bijzondere aandacht wordt besteed in het besluit van 8 oktober 1976. 
 
 Het betreft in de eerste plaats de overboekingen naar en de onttrekkingen aan de belastingvrije reserves, wanneer die belastingvrije reserves betrekking hebben op gerealiseerde meerwaarden op materiële en immateriële vaste activa waarvoor de belastinguitstelregeling geldt. Krachtens het koninklijk besluit van 8 oktober 1976 moeten de mutaties binnen die belastingvrije reserves verlopen via de desbetreffende post van de resultatenrekening. Een rechtstreekse toerekening of onttrekking aan de belastingvrije reserves via een andere eigen-vermogensregeling is bijgevolg niet mogelijk . 
@@ -152,18 +146,15 @@ Het betreft in de eerste plaats de overboekingen naar en de onttrekkingen aan de
 Vervolgens wordt aandacht besteed aan de aanpassingen van de belastingvrije reserves ingevolge de aanpassing van de daarmee verband houdende belastinglatenties. Artikel 35, § 3 van het koninklijk besluit van 8 oktober 1976 bepaalt dat het gepassiveerde bedrag van de uitgestelde belastingen slechts worden aangepast inzover, ingevolge een wijziging in de fiscale toestand van de onderneming, het effectieve bedrag van de geraamde belasting die in een nabije toekomst op deze subsidies en meerwaarden zal zijn verschuldigd, waarschijnlijk sterk zal verschillen van het bedrag aan passiefzijde. De aanpassing van die belastinglatenties wordt rechtstreeks tegengeboekt onder de belastingvrije reserves[^1] 
 
 ## RESULTAATVERWERKING
-
 Uit het voorgaande volgt dat in de resultaat verwerking slechts tot uitdrukking moet worden gebracht : 
 
 - de verwerking van het resultaat uit het saldo van het overgedragen resultaat en het resultaat van het boekjaar; 
 - de onttrekking aan de eigen-vermogensbestanddelen bestemd voor uitkering of voor de totale of gedeeltelijke (boekhoudkundige) aanzuivering van de verliezen. 
 
 ## SAMENVATTING VAN MUTATIES BINNEN HET EIGEN VERMOGEN
-
 Mutaties tussen verschillende eigen-vermogensposten worden onderscheiden naargelang zij worden tegengeboekt in een balanspost, een resultatenrekening of een post van de resultaatverwerking. 
 
 ## I. MUTATIES BINNEN HET EIGEN VERMOGEN MET TEGENBOEKING IN EEN BALANSPOST
-
 - Kapitaalverhoging of verhoging van de uitgiftepremie via inbreng door de vennoten, via omzetting van schuldvorderingen of ingevolge fusie 
 - Volstorting van het geplaatst kapitaal 
 - Vermindering van het kapitaal, van de uitgiftepremie of van de "reserves voor de aflossing van het kapitaal"[^2] bestemd als terugbetaling aan de vennoten 
@@ -190,12 +181,10 @@ Mutaties tussen verschillende eigen-vermogensposten worden onderscheiden naargel
 - Verkrijging en eventuele terugbetaling van kapitaalsubsidies (opgenomen onder het eigen vermogen). 
 
 ## II. MUTATIES BINNEN HET EIGEN VERMOGEN MET TEGENBOEKING IN EEN RESULTATENREKENING
-
 - Overboeking naar en onttrekking aan de belastingvrije reserves (overboeking naar de belastingvrije reserves) van gerealiseerde meerwaarden die tijdelijk van belastingen zijn vrijgesteld[^7] 
 - Gespreide toerekening aan de resultatenrekening van de kapitaalsubsidies, gelijkmatig met de afschrijving van de investeringen waarop die subsidies betrekking hebben. 
 
 ## III. MUTATIES BINNEN HET EIGEN VERMOGEN MET TEGENBOEKING IN EEN OF MEER POSTEN VAN DE RESULTATENVERWERKING
-
 - bestemming van het overgedragen resultaat van het vorige boekjaar 
 - Verhoging van het kapitaal of van de reserves door bestemming van het resultaat 
 - Onttrekking aan het kapitaal, aan de uitgiftepremies of aan de reserves, tot aanzuivering van een te verwerken verlies 

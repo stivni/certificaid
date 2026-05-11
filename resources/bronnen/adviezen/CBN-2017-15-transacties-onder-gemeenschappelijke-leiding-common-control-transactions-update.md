@@ -3,49 +3,49 @@ bron: https://www.cbn-cnc.be/nl/adviezen/transacties-onder-gemeenschappelijke-le
 datum: 2017-09-13
 nummer: CBN-advies 2017/15
 provenance:
+  generated_at: '2026-05-11T17:48:39Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/transacties-onder-gemeenschappelijke-leiding-common-control-transactions-update
       sha256: e34d71c0b915d2915bedf5f2e0faf1e45742e2108099e419f5bcf364e08f69b4
       version:
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
-    status: needs-rework
     confirmed_at: '2026-05-11T17:13:30Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "A6/G3: regel 59 (body) bevat ', bijgewerkt op 10 september 2025[^2]' als orphan-zin direct na de H1 — scraper-artefact. E1/E2: de drie balans-tabellen (regels 73-76, 82-83, 89-93) zijn malformed — meerdere data-kolommen aaneengeregen in één pipe-rij zonder correcte kolom-scheiding, tabel rendert niet als multi-kolom tabel. D4: regel 104 bevat '*pooling of interest[^5]*  methode' met dubbele spatie na sluitende asterisk."
     layer1:
-      file_size_chars: 8767
-      flags: []
-      heading_count: 3
-      max_section_chars: 4117
-      run_at: '2026-05-11T15:05:53Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:44Z'
+      heading_count: 3
+      max_section_chars: 4116
+      file_size_chars: 8725
+      flags: []
     layer2:
-      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T17:13:30Z'
-      rationale: "A6/G3: regel 59 (body) bevat ', bijgewerkt op 10 september 2025[^2]' als orphan-zin direct na de H1 — scraper-artefact. E1/E2: de drie balans-tabellen (regels 73-76, 82-83, 89-93) zijn malformed — meerdere data-kolommen aaneengeregen in één pipe-rij zonder correcte kolom-scheiding, tabel rendert niet als multi-kolom tabel. D4: regel 104 bevat '*pooling of interest[^5]*  methode' met dubbele spatie na sluitende asterisk."
       concrete_problemen:
-        - regel: 59
-          categorie: A6
+        - categorie: A6
+          regel: 59
           type: other
           voorbeeld: ', bijgewerkt op 10 september 2025[^2]'
-        - regel: 73
-          categorie: E2
+        - categorie: E2
+          regel: 73
           type: other
           voorbeeld: '| Positief consolidatieverschil | | 100 | | Eigen vermogen | | 80 |'
-        - regel: 104
-          categorie: D4
+        - categorie: D4
+          regel: 104
           type: other
           voorbeeld: '*pooling of interest[^5]*  methode te gebruiken bij een bedrijfscombinatie'
+      rationale: 'A6/G3: regel 59 (body) bevat '', bijgewerkt op 10 september 2025[^2]'' als orphan-zin direct na de H1 — scraper-artefact. E1/E2: de drie balans-tabellen (regels 73-76, 82-83, 89-93) zijn malformed — meerdere data-kolommen aaneengeregen in één pipe-rij zonder correcte kolom-scheiding, tabel rendert niet als multi-kolom tabel. D4: regel 104 bevat ''*pooling of interest[^5]*  methode'' met dubbele spatie na sluitende asterisk.'
+      run_at: '2026-05-11T17:13:30Z'
+      status: needs-rework
+    rationale: 'A6/G3: regel 59 (body) bevat '', bijgewerkt op 10 september 2025[^2]'' als orphan-zin direct na de H1 — scraper-artefact. E1/E2: de drie balans-tabellen (regels 73-76, 82-83, 89-93) zijn malformed — meerdere data-kolommen aaneengeregen in één pipe-rij zonder correcte kolom-scheiding, tabel rendert niet als multi-kolom tabel. D4: regel 104 bevat ''*pooling of interest[^5]*  methode'' met dubbele spatie na sluitende asterisk.'
+    status: needs-rework
 themas:
   - bedrijfscombinatie
   - common control transactie
@@ -60,16 +60,12 @@ themas:
 
 # CBN-advies 2017/15 – Transacties onder gemeenschappelijke leiding (Common control transactions) (update)
 
-, bijgewerkt op 10 september 2025[^2]
-
 ## Inleiding
-
 Een “bedrijfscombinatie onder gemeenschappelijke leiding” is een bedrijfscombinatie waarin de uiteindelijke zeggenschap over alle bij de bedrijfscombinatie betrokken entiteiten of bedrijven door dezelfde partij of partijen wordt uitgeoefend, zowel voor als na de bedrijfscombinatie.[^3] 
 
 Een bedrijfscombinatie, of *business combination*, is een transactie of andere gebeurtenis waarin een overnemende partij zeggenschap verkrijgt over een of meer bedrijven. In de Nederlandstalige terminologie spreken we over een overname. 
 
 ## Voorbeeld
-
 De verkorte geconsolideerde balans van Holdco I per 31 december 20X0, in miljoenen EUR is als volgt:
 
 | 31 december 20X0 | 
@@ -111,7 +107,6 @@ Richtlijn 2013/34/EU staat daardoor toe de zogenaamde *pooling of interest[^5]* 
 België heeft er naar aanleiding van de omzetting niet voor geopteerd gebruik te maken van deze lidstaatoptie. 
 
 ## Verband met de berekening van de groottecriteria bij transacties onder gemeenschappelijke leiding
-
 Artikel 1:24 van het Wetboek van vennootschappen en verenigingen (hierna: WVV) definieert op basis van het jaargemiddelde van het aantal werknemers, de jaarlijkse netto-omzet en het balanstotaal kleine vennootschappen. Volgens artikel 1:24, § 1 WVV zijn kleine vennootschappen deze met rechtspersoonlijkheid die op balansdatum van het laatst afgesloten boekjaar niet meer dan één van de volgende criteria overschrijden:
 
 - jaargemiddelde van het aantal werknemers: 50; 

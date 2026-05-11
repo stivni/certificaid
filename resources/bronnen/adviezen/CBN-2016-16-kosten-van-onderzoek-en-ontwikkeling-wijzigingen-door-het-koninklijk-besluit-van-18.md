@@ -2,73 +2,61 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/kosten-van-onderzoek-en-ontwikkeling-wijzigingen-door-het-koninklijk-besluit-van-18
 datum: 2016-09-07
 gerelateerde_adviezen:
-- datum: '2025-07-14'
-  titel: De boekhoudkundige verwerking van immateriële vaste activa (update) [ONTWERP]
-  url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-immateriele-vaste-activa-update-ontwerp
-- datum: '2018-05-30'
-  titel: Tax shelter voor podiumkunsten
-  url: https://www.cbn-cnc.be/nl/adviezen/tax-shelter-voor-podiumkunsten
-- datum: '2018-03-21'
-  titel: Aftrek voor innovatie-inkomsten
-  url: https://www.cbn-cnc.be/nl/adviezen/aftrek-voor-innovatie-inkomsten
-- datum: '2016-12-14'
-  titel: 'Kosten van onderzoek en ontwikkeling: onderscheid tussen onderzoek en ontwikkeling
-    - verduidelijking'
-  url: https://www.cbn-cnc.be/nl/adviezen/kosten-van-onderzoek-en-ontwikkeling-onderscheid-tussen-onderzoek-en-ontwikkeling
+  - datum: '2025-07-14'
+    titel: De boekhoudkundige verwerking van immateriële vaste activa (update) [ONTWERP]
+    url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-immateriele-vaste-activa-update-ontwerp
+  - datum: '2018-05-30'
+    titel: Tax shelter voor podiumkunsten
+    url: https://www.cbn-cnc.be/nl/adviezen/tax-shelter-voor-podiumkunsten
+  - datum: '2018-03-21'
+    titel: Aftrek voor innovatie-inkomsten
+    url: https://www.cbn-cnc.be/nl/adviezen/aftrek-voor-innovatie-inkomsten
+  - datum: '2016-12-14'
+    titel: 'Kosten van onderzoek en ontwikkeling: onderscheid tussen onderzoek en ontwikkeling - verduidelijking'
+    url: https://www.cbn-cnc.be/nl/adviezen/kosten-van-onderzoek-en-ontwikkeling-onderscheid-tussen-onderzoek-en-ontwikkeling
 nummer: CBN-advies 2016/16
 provenance:
-  generated_at: '2026-05-11T15:15:31Z'
+  generated_at: '2026-05-11T17:48:39Z'
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/kosten-van-onderzoek-en-ontwikkeling-wijzigingen-door-het-koninklijk-besluit-van-18
-    sha256: c009b0557cab54eeb87dd8a0583fc25602cfbfeecfbfd754605bcced159abb57
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/kosten-van-onderzoek-en-ontwikkeling-wijzigingen-door-het-koninklijk-besluit-van-18
+      sha256: c009b0557cab54eeb87dd8a0583fc25602cfbfeecfbfd754605bcced159abb57
+      version:
   stale: false
-  stale_reason: null
+  stale_reason:
   tooling:
-    model: null
+    model:
     pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    prompt_version: null
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
     confirmed_at: '2026-05-11T13:30:32Z'
     confirmed_by: subagent-sonnet-4-6
     layer1:
-      file_size_chars: 17046
-      flags: []
-      heading_count: 10
-      max_section_chars: 10103
-      run_at: '2026-05-11T15:05:52Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:43Z'
+      heading_count: 10
+      max_section_chars: 10099
+      file_size_chars: 17036
+      flags: []
     layer2:
       agent: subagent-sonnet-4-6
       concrete_problemen: []
-      rationale: 'Volledig schone markdown: 10 headings correct genest (##/###/####),
-        lijsten consistent met `-` bullets en `(a)/(b)` labels, geen lege of dubbele
-        headings, geen bold/italic-artefacten, geen TOC-residu. Voetnoten [^1]–[^12]
-        volledig aanwezig. Inhoud compleet: inleiding, activeringsvoorwaarden, onderscheid
-        onderzoek/ontwikkeling, toelichting en overgangsbepalingen. Een buitenstaander
-        zou dit voor handgeschreven markdown kunnen aanzien.'
+      rationale: 'Volledig schone markdown: 10 headings correct genest (##/###/####), lijsten consistent met `-` bullets en `(a)/(b)` labels, geen lege of dubbele headings, geen bold/italic-artefacten, geen TOC-residu. Voetnoten [^1]–[^12] volledig aanwezig. Inhoud compleet: inleiding, activeringsvoorwaarden, onderscheid onderzoek/ontwikkeling, toelichting en overgangsbepalingen. Een buitenstaander zou dit voor handgeschreven markdown kunnen aanzien.'
       run_at: '2026-05-11T13:30:32Z'
       status: trusted
-    rationale: 'Volledig schone markdown: 10 headings correct genest (##/###/####),
-      lijsten consistent met `-` bullets en `(a)/(b)` labels, geen lege of dubbele
-      headings, geen bold/italic-artefacten, geen TOC-residu. Voetnoten [^1]–[^12]
-      volledig aanwezig. Inhoud compleet: inleiding, activeringsvoorwaarden, onderscheid
-      onderzoek/ontwikkeling, toelichting en overgangsbepalingen. Een buitenstaander
-      zou dit voor handgeschreven markdown kunnen aanzien.'
+    rationale: 'Volledig schone markdown: 10 headings correct genest (##/###/####), lijsten consistent met `-` bullets en `(a)/(b)` labels, geen lege of dubbele headings, geen bold/italic-artefacten, geen TOC-residu. Voetnoten [^1]–[^12] volledig aanwezig. Inhoud compleet: inleiding, activeringsvoorwaarden, onderscheid onderzoek/ontwikkeling, toelichting en overgangsbepalingen. Een buitenstaander zou dit voor handgeschreven markdown kunnen aanzien.'
     status: trusted
 themas:
-- immateriële vaste activa
-- kosten van onderzoek en ontwikkeling
-- onderzoekskost
-- ontwikkelingskost
+  - immateriële vaste activa
+  - kosten van onderzoek en ontwikkeling
+  - onderzoekskost
+  - ontwikkelingskost
 ---
 
 # CBN-advies 2016/16 – Kosten van onderzoek en ontwikkeling: wijzigingen door het koninklijk besluit van 18 december 2015
 
 ## Inleiding
-
 De Commissie beoogt in dit advies de wijzigingen te verduidelijken met betrekking tot de boekhoudkundige verwerking van kosten van onderzoek en ontwikkeling, wat betreft de boekjaren die aanvangen na 31 december 2015.
 
 In zowel het volledige als het verkorte schema van de jaarrekening wordt op het actief van de balans een post *II. Immateriële vaste activa* voorzien. Onder de immateriële vaste activa moet worden verstaan, de ondernemingsmiddelen van onlichamelijke aard die bestemd zijn om duurzaam voor de bedrijfsactiviteit te worden gebruikt, en waaruit naar verwachting toekomstige economische voordelen naar de onderneming zullen vloeien. De algemene beginselen inzake de immateriële vaste activa en de boekhoudkundige verwerking daarvan worden uitvoerig uiteengezet in CBN-advies 2012/13 – De boekhoudkundige verwerking van immateriële vaste activa.
@@ -82,7 +70,6 @@ De Commissie stelt vast dat het Verslag aan de Koning bij het koninklijk besluit
 Daarnaast voert het voormelde koninklijk besluit een wijziging door met betrekking tot de afschrijvingen van geactiveerde kosten van ontwikkeling.[^7] 
 
 ## Algemene principes inzake activering en waardering van immateriële vaste activa
-
 Kosten van onderzoek en ontwikkeling kwalificeren als immaterieel vast actief indien aan bepaalde voorwaarden is voldaan. De Commissie verduidelijkte in haar advies 2012/13 – De boekhoudkundige verwerking van immateriële vaste activa dat de immateriële vaste activa identificeerbaar dienen te zijn en toekomstige economische voordelen dienen op te leveren. Bovendien dient de betrokken entiteit er de zeggenschap over te hebben. Derhalve zijn het slechts die uitgaven, waarvan het investeringskarakter ondubbelzinnig vaststaat, die voor activering in aanmerking komen. Naar mening van de Commissie moet het bestuursorgaan, voor de activering van de uitgaven, nagaan of volgende criteria cumulatief worden voldaan:
 
 - vooreerst dient het nut van het product of proces voor de onderneming te worden aangetoond, m.a.w. het product of proces moet bijdragen tot het verwezenlijken van het ondernemingsdoel of tot een verbeterde concurrentiepositie; 
@@ -94,9 +81,7 @@ Kosten van onderzoek en ontwikkeling kwalificeren als immaterieel vast actief in
 Wanneer niet aan deze voorwaarden is voldaan, impliceert dit dat het investeringskarakter niet vaststaat en mogen de uitgaven niet worden geactiveerd.
 
 ## Kosten van onderzoek gemaakt tijdens een boekjaar dat aanvangt na 31 december 2015
-
 ### Toepassingsgebied
-
 Voor kosten gemaakt tijdens het boekjaar dat aanvangt op 1 januari 2016 of later moet rekening worden gehouden met de voorwaarde die Richtlijn 2013/34/EU (cfr. *supra*) stelt, namelijk dat kosten van onderzoek niet meer op de balans mogen voorkomen. Het voormelde koninklijk besluit van 18 december 2015 wijzigt dan ook de inhoud van de rubriek* Immateriële vaste activa* in die zin.
 
 Onder “onderzoek” moet worden verstaan, de originele, systematisch uitgevoerde werkzaamheden, in de hoop inzicht te verkrijgen en nieuwe wetenschappelijke of technische kennis te verwerven.[^8] 
@@ -105,7 +90,6 @@ Het voormelde KB van 18 december 2015 heeft daarentegen geen wijzigingen aangebr
  Onder “ontwikkeling” wordt verstaan de concrete uitvoering van ontwerpen of studies voor de productie van nieuwe of aanzienlijk verbeterde materialen, werktuigen, producten, procedés, systemen of diensten door gebruik te maken van ontdekkingen of verworven kennis alvorens een productie te starten die kan worden gecommercialiseerd.
 
 ### Leidraad m.b.t. het onderscheid tussen onderzoek en ontwikkeling
-
 Naast het naleven van de algemene vereisten voor de opname en waardering van een immaterieel vast actief, past een onderneming de hieronder uiteengezette vereisten en leidraden toe op alle intern gegenereerde immateriële activa.[^10] 
 
 Om te beoordelen of een intern gegenereerd immaterieel actief voldoet aan de hierboven geformuleerde criteria voor opname, classificeert een onderneming het genereren van het actief in:
@@ -117,7 +101,6 @@ Om te beoordelen of een intern gegenereerd immaterieel actief voldoet aan de hie
 Als een onderneming bij een intern project dat gericht is op het genereren van een immaterieel actief de onderzoeksfase niet kan onderscheiden van de ontwikkelingsfase, verwerkt zij de uitgaven voor dat project alsof deze alleen werden gedaan in de onderzoeksfase.
 
 #### Onderzoeksfase
-
 Voorbeelden van activiteiten in de onderzoeksfase zijn:
 
 (a) activiteiten gericht op de verwerving van nieuwe kennis; 
@@ -129,7 +112,6 @@ Voorbeelden van activiteiten in de onderzoeksfase zijn:
 (d) het formuleren, ontwerpen, evalueren en het maken van een definitieve keuze uit mogelijke alternatieven voor nieuwe of verbeterde materialen, apparaten, producten, processen, systemen of diensten.
 
 #### Ontwikkelingsfase
-
 Een immaterieel actief kan slechts worden geacht zich in de ontwikkelingsfase te bevinden als en slechts als een onderneming alle navolgende punten kan aantonen:
 
 (a) de technische uitvoerbaarheid om het immaterieel actief te voltooien, zodat het beschikbaar zal zijn voor gebruik of verkoop; 
@@ -161,7 +143,6 @@ De beschikbaarheid van middelen om een immaterieel actief te voltooien, te gebru
 De kostprijs om een immaterieel actief intern te genereren, zoals salarissen en andere uitgaven die worden gedaan ten behoeve van auteursrechten of licenties of de ontwikkeling van software, kan vaak betrouwbaar worden gewaardeerd op basis van de kostenregistratiesystemen van de onderneming.
 
 ### Vermeldingen in de toelichting
-
 In het volledig schema (VOL 6.2.2) moeten ondernemingen een gedetailleerde opgave doen van de kosten van onderzoek en ontwikkeling die worden geactiveerd. Bovendien geldt voor deze vennootschappen de verplichting om in het jaarverslag informatie toe te voegen omtrent de werkzaamheden op het gebied van onderzoek en ontwikkeling (verplichting op basis van artikel 96, § 1, 4° W.Venn. en artikel 100, 6° W.Venn.).
 
 In het verkort schema (VKT 6.1.1) wordt een globaal overzicht gegeven van de immateriële vaste activa die worden geboekt op de rekening 21 *Immateriële vaste activa*. Voor kleine vennootschappen geldt geen verplichting om een verdere opsplitsing mee te delen van de immateriële vaste activa zodat de kosten van onderzoek en ontwikkeling, geboekt op rekening 210* Kosten van onderzoek en ontwikkeling*, niet afzonderlijk terug te vinden zijn in de gepubliceerde jaarrekening. De vennootschappen die een jaarrekening opstellen volgens het verkort schema moeten in de toelichting wel het bedrag vermelden van de onder de immateriële vaste activa opgenomen kosten van onderzoek en ontwikkeling (artikel 60 KB W.Venn.). Met betrekking tot de kosten van onderzoek en ontwikkeling die onmiddellijk in kosten werden genomen, geldt voor kleine vennootschappen geen verplichting gelijkaardig aan de verplichting vermeld in artikel 96, § 1, 4° W.Venn. en artikel 100, 6° W.Venn.
@@ -171,14 +152,12 @@ Indien gebruik wordt gemaakt van de regeling vermeld in het Verslag aan de Konin
 De Commissie wenst tot slot in herinnering te brengen dat desgevallend in de toelichting met betrekking tot de belastingen (VOL 6.13) de nodige bedragen dienen te worden vermeld met betrekking tot de verschillen tussen de boekhoudkundige winst en de belastbare winst alsook de belastinglatenties.
 
 ### Overgangsbepaling
-
 Artikel 57 van het koninklijk besluit van 18 december 2015 bevat een overgangsbepaling, zodat vennootschappen de kosten van onderzoek die zij op de balans hebben geactiveerd en nog niet volledig hebben afgeschreven bij de inwerkingtreding van dit besluit, op de actiefzijde kunnen behouden bij de immateriële vaste activa.[^11]
  Dit impliceert dat voor kosten van onderzoek die werden gemaakt tijdens een boekjaar dat een aanvang heeft genomen vóór 1 januari 2016 het oude regime van toepassing blijft.
 
 Naar de mening van de Commissie laat de nieuwe wettelijke bepaling niet toe om zondermeer de boekwaarde van voorheen geactiveerde kosten van onderzoek in één keer ten laste te nemen in het eerste boekjaar dat onderworpen is aan de nieuwe wettelijke bepaling inzake kosten voor onderzoek om redenen van de wetswijziging. De voorheen door het bestuursorgaan vastgelegde waarderingsregels dienen verder onverkort te worden toegepast.
 
 ## Wijziging afschrijvingsperiode kosten van ontwikkeling
-
 Het voormelde KB van 18 december 2015 heeft eveneens een wijziging aangebracht aan de afschrijvingsregels voor kosten van ontwikkeling. Kosten van ontwikkeling worden, indien hun gebruiksduur niet met zekerheid kan worden geraamd, afgeschreven over een periode van ten hoogste tien jaar.[^12] 
 
 [^1]: Onderhavig advies is tot stand gekomen nadat een ontwerp van het advies op 30 mei 2016 ter publicatie werd gepubliceerd op de website van de CBN.

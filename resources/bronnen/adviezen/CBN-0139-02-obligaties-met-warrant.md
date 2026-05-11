@@ -16,41 +16,41 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/vastrentende-effecten-financiele-vaste-activa-of-geldbeleggingen-criteria
 nummer: CBN-advies 139/2
 provenance:
+  generated_at: '2026-05-11T17:48:38Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/obligaties-met-warrant
       sha256: b62f014465cf143e0fa22c5f4b0c68c37d7e64724a3b959597911a6abe560eeb
       version:
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
-    status: needs-rework
     confirmed_at: '2026-05-11T17:05:21Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "F1 (regel 11): HTML-entity '&#039;' in frontmatter-veld 'gerelateerde_adviezen.titel' staat nog steeds niet gedecodeerd — scraper-artefact ongewijzigd t.o.v. ronde 2. Body volledig schoon: tabel correct, voetnoot correct, geen verdere artefacten."
     layer1:
-      file_size_chars: 3657
-      flags: []
+      status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:41Z'
       heading_count: 0
       max_section_chars: 3657
-      run_at: '2026-05-11T15:05:49Z'
-      run_id: 20260511-150547
-      status: pass
+      file_size_chars: 3657
+      flags: []
     layer2:
-      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T17:05:21Z'
-      rationale: "F1 (regel 11): HTML-entity '&#039;' in frontmatter-veld 'gerelateerde_adviezen.titel' staat nog steeds niet gedecodeerd — scraper-artefact ongewijzigd t.o.v. ronde 2. Body volledig schoon: tabel correct, voetnoot correct, geen verdere artefacten."
       concrete_problemen:
-        - regel: 11
-          categorie: F1
+        - categorie: F1
+          regel: 11
           type: other
           voorbeeld: 'titel: Passende boekhoudkundige verwerking van de tegenwaarde van participatiecertificaten CPC&#039;s'
+      rationale: 'F1 (regel 11): HTML-entity ''&#039;'' in frontmatter-veld ''gerelateerde_adviezen.titel'' staat nog steeds niet gedecodeerd — scraper-artefact ongewijzigd t.o.v. ronde 2. Body volledig schoon: tabel correct, voetnoot correct, geen verdere artefacten.'
+      run_at: '2026-05-11T17:05:21Z'
+      status: needs-rework
+    rationale: 'F1 (regel 11): HTML-entity ''&#039;'' in frontmatter-veld ''gerelateerde_adviezen.titel'' staat nog steeds niet gedecodeerd — scraper-artefact ongewijzigd t.o.v. ronde 2. Body volledig schoon: tabel correct, voetnoot correct, geen verdere artefacten.'
+    status: needs-rework
 themas:
   - obligaties
   - obligaties met warrant

@@ -16,41 +16,41 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/materiele-vaste-activa-onderscheid-met-voorraden
 nummer: CBN-advies 132/5
 provenance:
+  generated_at: '2026-05-11T17:48:38Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/rechten-tot-vertoning-van-films
       sha256: 01839fec25050d00ee08d40374ee0706fef1ac979531ff432708d211921e7e43
       version:
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
-    status: needs-rework
     confirmed_at: '2026-05-11T17:05:21Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "D4 op L85: 'wanneer de uitzendrechten onder* Diensten en diverse goederen* werden geboekt' — openende asterisk staat direct tegen 'onder' geplakt zonder spatie, wat de italic-span niet correct parseert. Eerdere A6-claim over L75 niet bevestigd: [^1] mid-zin is standaard markdown-voetnootnotatie, geen extractie-artefact."
     layer1:
-      file_size_chars: 3015
-      flags: []
+      status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:41Z'
       heading_count: 0
       max_section_chars: 3015
-      run_at: '2026-05-11T15:05:48Z'
-      run_id: 20260511-150547
-      status: pass
+      file_size_chars: 3015
+      flags: []
     layer2:
-      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T17:05:21Z'
-      rationale: "D4 op L85: 'wanneer de uitzendrechten onder* Diensten en diverse goederen* werden geboekt' — openende asterisk staat direct tegen 'onder' geplakt zonder spatie, wat de italic-span niet correct parseert. Eerdere A6-claim over L75 niet bevestigd: [^1] mid-zin is standaard markdown-voetnootnotatie, geen extractie-artefact."
       concrete_problemen:
-        - regel: 85
-          categorie: D4
+        - categorie: D4
+          regel: 85
           type: other
           voorbeeld: wanneer de uitzendrechten onder* Diensten en diverse goederen* werden geboekt (spatie ontbreekt voor *)
+      rationale: 'D4 op L85: ''wanneer de uitzendrechten onder* Diensten en diverse goederen* werden geboekt'' — openende asterisk staat direct tegen ''onder'' geplakt zonder spatie, wat de italic-span niet correct parseert. Eerdere A6-claim over L75 niet bevestigd: [^1] mid-zin is standaard markdown-voetnootnotatie, geen extractie-artefact.'
+      run_at: '2026-05-11T17:05:21Z'
+      status: needs-rework
+    rationale: 'D4 op L85: ''wanneer de uitzendrechten onder* Diensten en diverse goederen* werden geboekt'' — openende asterisk staat direct tegen ''onder'' geplakt zonder spatie, wat de italic-span niet correct parseert. Eerdere A6-claim over L75 niet bevestigd: [^1] mid-zin is standaard markdown-voetnootnotatie, geen extractie-artefact.'
+    status: needs-rework
 themas:
   - diensten en diverse goederen
   - immateriële vaste activa

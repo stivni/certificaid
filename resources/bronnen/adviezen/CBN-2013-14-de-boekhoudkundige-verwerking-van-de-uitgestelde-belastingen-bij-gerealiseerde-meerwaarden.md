@@ -2,71 +2,60 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-uitgestelde-belastingen-bij-gerealiseerde-meerwaarden
 datum: 2013-10-23
 gerelateerde_adviezen:
-- datum: '2016-09-28'
-  titel: Actualisatie van uitgestelde belastingen (update)
-  url: https://www.cbn-cnc.be/nl/adviezen/actualisatie-van-uitgestelde-belastingen-update
-- datum: '2013-10-23'
-  titel: De boekhoudkundige verwerking van de uitgestelde belastingen bij gerealiseerde
-    meerwaarden waarvoor de uitgestelde-belastingregeling geldt en bij kapitaalsubsidies
-  url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-uitgestelde-belastingen-bij-gerealiseerde-0
-- datum: '1992-02-01'
-  titel: Gerealiseerde meerwaarden waarvoor de uitgestelde-belastingregeling geldt.
-    Kapitaalsubsidies
-  url: https://www.cbn-cnc.be/nl/adviezen/gerealiseerde-meerwaarden-waarvoor-de-uitgestelde-belastingregeling-geldt
-- datum: '1979-05-01'
-  titel: Herwaarderingen verricht met toepassing van de Wet van 20 augustus 1947
-  url: https://www.cbn-cnc.be/nl/adviezen/herwaarderingen-verricht-met-toepassing-van-de-wet-van-20-augustus-1947
+  - datum: '2016-09-28'
+    titel: Actualisatie van uitgestelde belastingen (update)
+    url: https://www.cbn-cnc.be/nl/adviezen/actualisatie-van-uitgestelde-belastingen-update
+  - datum: '2013-10-23'
+    titel: De boekhoudkundige verwerking van de uitgestelde belastingen bij gerealiseerde meerwaarden waarvoor de uitgestelde-belastingregeling geldt en bij kapitaalsubsidies
+    url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-uitgestelde-belastingen-bij-gerealiseerde-0
+  - datum: '1992-02-01'
+    titel: Gerealiseerde meerwaarden waarvoor de uitgestelde-belastingregeling geldt. Kapitaalsubsidies
+    url: https://www.cbn-cnc.be/nl/adviezen/gerealiseerde-meerwaarden-waarvoor-de-uitgestelde-belastingregeling-geldt
+  - datum: '1979-05-01'
+    titel: Herwaarderingen verricht met toepassing van de Wet van 20 augustus 1947
+    url: https://www.cbn-cnc.be/nl/adviezen/herwaarderingen-verricht-met-toepassing-van-de-wet-van-20-augustus-1947
 nummer: CBN-advies 2013/14
 provenance:
-  generated_at: '2026-05-11T15:15:31Z'
+  generated_at: '2026-05-11T17:48:39Z'
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-uitgestelde-belastingen-bij-gerealiseerde-meerwaarden
-    sha256: 1797f2099973db21019f401c77a91e8d1096ae56217d8dc0e573e7ac01d20547
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-uitgestelde-belastingen-bij-gerealiseerde-meerwaarden
+      sha256: 1797f2099973db21019f401c77a91e8d1096ae56217d8dc0e573e7ac01d20547
+      version:
   stale: false
-  stale_reason: null
+  stale_reason:
   tooling:
-    model: null
+    model:
     pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    prompt_version: null
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
     confirmed_at: '2026-05-11T13:30:32Z'
     confirmed_by: subagent-sonnet-4-6
     layer1:
-      file_size_chars: 22478
-      flags: []
-      heading_count: 21
-      max_section_chars: 15077
-      run_at: '2026-05-11T15:05:51Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:43Z'
+      heading_count: 21
+      max_section_chars: 15060
+      file_size_chars: 22452
+      flags: []
     layer2:
       agent: subagent-sonnet-4-6
       concrete_problemen: []
-      rationale: Geen extractie-artefacten gevonden. Heading-hiërarchie (##/###/####/#####/######)
-        correct en volledig opgebouwd. Alle journaalboekingstabellen correct pipe-syntax
-        met |---| separator. Beide scenario's (meerwaarde + kapitaalsubsidie) voor
-        alle boekjaren (20X1, 20X2, 20X4) inhoudelijk compleet aanwezig. Voetnoten
-        correct gematcht.
+      rationale: Geen extractie-artefacten gevonden. Heading-hiërarchie (##/###/####/#####/######) correct en volledig opgebouwd. Alle journaalboekingstabellen correct pipe-syntax met |---| separator. Beide scenario's (meerwaarde + kapitaalsubsidie) voor alle boekjaren (20X1, 20X2, 20X4) inhoudelijk compleet aanwezig. Voetnoten correct gematcht.
       run_at: '2026-05-11T13:30:32Z'
       status: trusted
-    rationale: Geen extractie-artefacten gevonden. Heading-hiërarchie (##/###/####/#####/######)
-      correct en volledig opgebouwd. Alle journaalboekingstabellen correct pipe-syntax
-      met |---| separator. Beide scenario's (meerwaarde + kapitaalsubsidie) voor alle
-      boekjaren (20X1, 20X2, 20X4) inhoudelijk compleet aanwezig. Voetnoten correct
-      gematcht.
+    rationale: Geen extractie-artefacten gevonden. Heading-hiërarchie (##/###/####/#####/######) correct en volledig opgebouwd. Alle journaalboekingstabellen correct pipe-syntax met |---| separator. Beide scenario's (meerwaarde + kapitaalsubsidie) voor alle boekjaren (20X1, 20X2, 20X4) inhoudelijk compleet aanwezig. Voetnoten correct gematcht.
     status: trusted
 themas:
-- gerealiseerde meerwaarde
-- kapitaalsubsidie
-- uitgestelde belastingen
+  - gerealiseerde meerwaarde
+  - kapitaalsubsidie
+  - uitgestelde belastingen
 ---
 
 # CBN-advies 2013/14 – De boekhoudkundige verwerking van de uitgestelde belastingen bij gerealiseerde meerwaarden waarvoor de uitgestelde belastingregeling geldt en bij kapitaalsubsidies
 
 ## Inleiding
-
 In het Wetboek van de inkomstenbelastingen 1992 (hierna: WIB 92) heeft de wetgever voorzien in de mogelijkheid voor ondernemingen om de door hen gerealiseerde meerwaarden op materiële en immateriële vaste activa gespreid te laten belasten.[^1]
  Op voorwaarde dat het bij de realisatie verkregen bedrag opnieuw wordt geïnvesteerd[^2] en dat de meerwaarde in het vermogen van de onderneming blijft behouden, mogen de ondernemingen de belasting op de meerwaarde gelijkmatig spreiden volgens het ritme van de fiscaal in aanmerking genomen afschrijvingen van de verworven vaste activa.
 
@@ -81,9 +70,7 @@ Naar aanleiding van de publicatie van voornoemd koninklijk besluit van 30 decemb
 Onderhavig advies van de Commissie vervangt voornoemd advies 165/1. Het uitgewerkte voorbeeld blijft in dit advies behouden in een geactualiseerde vorm. Bovendien bespreekt de Commissie in onderhavig advies op meer uitvoerige wijze de boekhoudkundige verwerking van de balanspost van de *Uitgestelde belastingen*, en dit hoofdzakelijk op grond van artikel 76 van het koninklijk besluit van 30 januari 2001 tot uitvoering van het Wetboek van Vennootschappen (KB W.Venn.)[^6] en het Verslag aan de Koning bij het hierboven vermelde koninklijk besluit van 30 december 1991.
 
 ## Boekhoudkundige verwerking van de uitgestelde belastingen
-
 ### Initiële waardering van de uitgestelde belastingen
-
 Artikel 76, § 1 KB W.Venn. bepaalt dat de uitgestelde belastingen op kapitaalsubsidies en gerealiseerde meerwaarden oorspronkelijk worden gewaardeerd tegen het normale bedrag van de belasting die erop zou zijn geheven indien die subsidies en meerwaarden zouden zijn belast ten laste van het boekjaar waarin zij werden geboekt. Zij worden evenwel gewaardeerd na aftrek van de weerslag van de belastingverminderingen en vrijstellingen waarvan op het ogenblik dat deze subsidies en meerwaarden worden geboekt kan worden vermoed dat zij, in een nabije toekomst, zullen leiden tot een lagere belasting op deze subsidies en meerwaarden. Wanneer de kapitaalsubsidie definitief van belasting wordt vrijgesteld,[^7] worden er geen uitgestelde belastingen op het passief van de balans weerhouden.
 
 Uit het Verslag aan de Koning bij het koninklijk besluit van 30 december 1991 blijkt dat de regering met artikel 76, § 1 KB W.Venn. heeft proberen te vermijden dat er in de praktijk moeilijke problemen zouden ontstaan met betrekking tot de waardering van de uitgestelde belastingen, vooral wanneer de effectieve belasting op de ontvangen kapitaalsubsidies of de gerealiseerde meerwaarden over een bijzonder lange periode zou worden gespreid. 
@@ -93,7 +80,6 @@ Om deze moeilijkheden op te vangen of te vermijden, heeft de regering er destijd
 In de tweede zin van artikel 76, § 1 KB W.Venn. heeft de regering echter een correctie aangebracht op deze basismethode om rekening te houden met de vermoedelijke effectieve belasting op de ontvangen kapitaalsubsidie of de gerealiseerde meerwaarden. Wanneer op het ogenblik dat deze subsidies en meerwaarden worden geboekt, kan worden vermoed dat de effectieve belasting in een nabije toekomst lager zal zijn als gevolg van een belastingvermindering of -vrijstelling (zoals aftrekbare, overgedragen verliezen, aftrek voor risicokapitaal, …) dan moet de uitgestelde belasting worden gewaardeerd na aftrek van de weerslag van deze belastingverminderingen of -vrijstellingen. Het verslag aan de Koning bij het KB van 30 december 1991 vermeldt nog dat dergelijke correctie in de waardering van de uitgestelde belastingen maar hoeft te worden doorgevoerd voor betekenisvolle bedragen, met andere woorden, wanneer het bedrag aan passiefzijde voor uitgestelde belastingen misleidend zou kunnen zijn, mocht het niet worden gecorrigeerd. Het Verslag aan de Koning vermeldt ten slotte ook nog dat de effectieve geraamde belasting slechts met naleving van het voorzichtigheidsbeginsel tegen een geringer bedrag in resultaat[^9] mag worden genomen.[^10] 
 
 ### Geleidelijke inresultaatname van de uitgestelde belastingen
-
 Artikel 76, § 2, eerste lid KB W.Venn. bepaalt dat de uitgestelde belastingen op ontvangen kapitaalsubsidies geleidelijk worden afgeboekt via overboeking naar de post *Onttrekkingen aan de uitgestelde belastingen* van de resultatenrekening, gelijkmatig met de afboeking van de kapitaalsubsidies in passiefpost VI waarop zij betrekking hebben.
 
 Wanneer de kapitaalsubsidie betrekking heeft op een actiefbestanddeel dat niet wordt afgeschreven, blijft het bedrag van de kapitaalsubsidie op het passief van de balans staan, gedeeltelijk op de rekening 15 *Kapitaalsubsidies* en gedeeltelijk op de rekening 1680 *Uitgestelde belastingen op kapitaalsubsidies*, zolang en in zover het betrokken actief behouden blijft op de balans. Wanneer een waardevermindering wordt geboekt op het betrokken actief zullen ook de kapitaalsubsidie en de uitgestelde belastingen evenredig in resultaat worden geboekt. 
@@ -101,17 +87,14 @@ Wanneer de kapitaalsubsidie betrekking heeft op een actiefbestanddeel dat niet w
 De uitgestelde belastingen op gerealiseerde meerwaarden worden eveneens geleidelijk afgeboekt via overboeking naar de post *Onttrekkingen aan de uitgestelde belastingen* van de resultatenrekening en dit gelijkmatig met de opneming van de betrokken meerwaarden in het belastbaar resultaat.[^11] 
 
 ### Latere aanpassingen aan de waardering van de uitgestelde belastingen
-
 Artikel 76, § 3 KB W.Venn. voorziet ten slotte in de mogelijkheid voor de ondernemingen om na de initiële waardering van de uitgestelde belastingen op kapitaalsubsidies of gerealiseerde meerwaarden een aanpassing te doen aan het bedrag ervan. Voornoemd artikel bepaalt immers dat behoudens toepassing van artikel 76, § 2 KB W.Venn. (zie *supra*) het gepassiveerde bedrag van de uitgestelde belastingen slechts mag worden aangepast in zover, ingevolge een wijziging in de fiscale toestand van de onderneming, het effectieve bedrag van de geraamde belasting die in een nabije toekomst op deze subsidies zal zijn verschuldigd, waarschijnlijk sterk zal verschillen van het bedrag aan passiefzijde. 
 
 Het Verslag aan de Koning bij het KB van 30 december 1991 verduidelijkt nog dat de latere aanpassingen van het bedrag van de uitgestelde belastingen op de kapitaalsubsidies rechtstreeks aan de post *Kapitaalsubsidies* zullen worden toegerekend, en dat de latere aanpassingen van het bedrag van de uitgestelde belastingen op gerealiseerde meerwaarden rechtstreeks aan de post *Belastingvrije reserves* zullen worden toegerekend.
 
 Ook voor deze latere aanpassingen aan het bedrag van de uitgestelde belastingen geldt dat deze aanpassingen slechts hoeven te worden doorgevoerd voor betekenisvolle bedragen, met andere woorden, wanneer het bedrag aan passiefzijde voor uitgestelde belastingen misleidend zou kunnen zijn, mocht het niet worden gecorrigeerd. Eveneens geldt ook voor deze latere aanpassingen dat een effectieve geraamde belasting slechts met naleving van het voorzichtigheidsbeginsel tegen een geringer bedrag in resultaat[^12] mag worden genomen.[^13] 
 
-## Voorbeeld[^14]
-
+## Voorbeeld
 ### Gegevens
-
 Op 1 februari 20X1 realiseert vennootschap A een meerwaarde (op een volledig afgeschreven machine met een initiële aanschaffingswaarde van 5.000 EUR) of verkrijgt vennootschap A een kapitaalsubsidie van 1.000 EUR.
 
 Op 1 maart 20X1 wordt de verkoopprijs herbelegd door (of wordt de kapitaalsubsidie aangewend voor) de aanschaffing van een materieel vast actief dat lineair zal worden afgeschreven over een periode van 10 jaar[^15]. Het tarief van de vennootschapsbelasting bedraagt op dat ogenblik 34 % en de uitgestelde belastingen worden door vennootschap A ook aan dit tarief gewaardeerd.
@@ -119,11 +102,8 @@ Op 1 maart 20X1 wordt de verkoopprijs herbelegd door (of wordt de kapitaalsubsid
 In 20X4 wordt het belastingtarief door de wetgever verlaagd naar 29 % per 1 januari 20X5. Deze aanpassing van de belastingvoet is een grondige en blijvende wijziging van de fiscale toestand van de vennootschap waardoor zij de waardering van de post *Uitgestelde belastingen* dient aan te passen conform artikel 76, § 3 KB W.Venn. 
 
 ### Boekingschema
-
 #### Jaar 20X1
-
 ##### Meerwaarde op materieel vast actief
-
 Realisatie van de meerwaarde op 1 februari 20X1:
 
 | | Rekening | Omschrijving | Debet | Credit |
@@ -174,7 +154,6 @@ Op 31 december 20X1 wordt afgeschreven op de herbelegging:
 Elke andere verrichting buiten beschouwing gelaten, zal er op 31 december 20X1 geen belasting verschuldigd zijn, aangezien de belastbare winst voor eenzelfde bedrag wordt verminderd met de afschrijving op de gesubsidieerde investering en verhoogd met de overboeking naar het resultaat.
 
 ##### Kapitaalsubsidie
-
 Verkrijging van de subsidie op 1 februari 20X1:
 
 | | Rekening | Omschrijving | Debet | Credit |
@@ -212,9 +191,7 @@ Eveneens op 31 december 20X1 worden, gelijkmatig met de afschrijving van de gesu
 Elke andere verrichting buiten beschouwing gelaten, zal er op 31 december 20X1 geen belasting verschuldigd zijn, aangezien de belastbare winst voor eenzelfde bedrag wordt verminderd met de afschrijving op de gesubsidieerde investering en verhoogd met de overboeking naar het resultaat. 
 
 ##### Balans op 31 december 20X1
-
 ###### In geval van een meerwaarde
-
 | Actief Balans Passief | 
 |---|
 | Materiële vaste activa | | 1.000 | | Belastingvrije reserve | | 594 | 
@@ -224,7 +201,6 @@ Elke andere verrichting buiten beschouwing gelaten, zal er op 31 december 20X1 g
 | | | 900 | | | | 900 | 
 
 ###### In geval van een kapitaalsubsidie
-
 | Actief Balans Passief | 
 |---|
 | Materiële vaste activa | | 1.000 | | Subsidies | | 594 | 
@@ -234,7 +210,6 @@ Elke andere verrichting buiten beschouwing gelaten, zal er op 31 december 20X1 g
 | | | 900 | | | | 900 | 
 
 ##### Resultatenrekening op 31 december 20X1
-
 | | | | | Ingeval van een meerwaarde | | Ingeval van een kapitaalsubsidie | 
 |---|---|---|---|---|---|---|
 | II. D. | | Afschrijvingen | | -100 | | -100 | 
@@ -252,7 +227,6 @@ Elke andere verrichting buiten beschouwing gelaten, zal er op 31 december 20X1 g
 | XIII. | | Te bestemmen winst | | 0 | | 0 | 
 
 #### Jaar 20X2
-
 Tijdens het jaar 20X2 zullen voor de betrokken verrichtingen dezelfde boekingen plaatsvinden als in het jaar 20X1. 
 
 Wat betreft de meerwaarde zal een afschrijving plaatsvinden van het herbeleggingsactief en tevens zal een overboeking plaatsvinden naar de resultaten vanuit de post *Belastingvrije reserves* en vanuit de post *Uitgestelde belastingen op gerealiseerde meerwaarden op materiële vaste activa.* 
@@ -260,9 +234,7 @@ Wat betreft de meerwaarde zal een afschrijving plaatsvinden van het herbelegging
 Wat betreft de kapitaalsubsidie zal een afschrijving plaatsvinden van het gesubsidieerde actief en tevens zal een overboeking plaatsvinden naar de resultaten vanuit de post *Kapitaalsubsidies* en vanuit de post *Uitgestelde belastingen op kapitaalsubsidies.*
 
 ##### Balans op 31 december 20X2
-
 ###### In geval van een meerwaarde
-
 | Actief Balans Passief | 
 |---|
 | Materiële vaste activa | | 1.000 | | Belastingvrije reserves | | 528 | 
@@ -272,7 +244,6 @@ Wat betreft de kapitaalsubsidie zal een afschrijving plaatsvinden van het gesubs
 | | | 800 | | | | 800 | 
 
 ###### In geval van een kapitaalsubsidie
-
 | Actief Balans Passief | 
 |---|
 | Materiële vaste activa | | 1.000 | | Subsidies | | 528 | 
@@ -282,7 +253,6 @@ Wat betreft de kapitaalsubsidie zal een afschrijving plaatsvinden van het gesubs
 | | | 800 | | | | 800 | 
 
 ##### Resultatenrekening op 31 december 20X2
-
 | | | | | Ingeval van een meerwaarde | | Ingeval van een kapitaalsubsidie | 
 |---|---|---|---|---|---|---|
 | II. D. | | Afschrijvingen | | -100 | | -100 | 
@@ -297,7 +267,6 @@ Wat betreft de kapitaalsubsidie zal een afschrijving plaatsvinden van het gesubs
 | XIII. | | Te bestemmen winst | | 0 | | 0 | 
 
 #### Jaar 20X4
-
 Tijdens het jaar 20X4 zullen voor de betrokken verrichtingen dezelfde boekingen plaatsvinden als in het jaar 20X1, 20X2 en 20X3. 
 
 Eind 20X4 moet evenwel in de jaarrekening de weerslag worden uitgedrukt van de verlaging van het tarief van de vennootschapsbelasting per 1 januari 20X5 op het saldo van de uitgestelde belastingschuld. Deze verlaging van de belastingvoet zal op balansdatum van het boekjaar als volgt worden geboekt: 

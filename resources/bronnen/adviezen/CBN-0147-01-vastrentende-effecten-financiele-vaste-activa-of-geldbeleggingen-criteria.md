@@ -2,52 +2,49 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/vastrentende-effecten-financiele-vaste-activa-of-geldbeleggingen-criteria
 datum: 1984-10-01
 gerelateerde_adviezen:
-- datum: '1980-01-06'
-  titel: Bezit van maatschappelijke rechten in verbonden ondernemingen of in ondernemingen
-    waarmee een deelnemingsverhouding bestaat - Begrip deelneming
-  url: https://www.cbn-cnc.be/nl/adviezen/bezit-van-maatschappelijke-rechten-in-verbonden-ondernemingen-of-in-ondernemingen-waarmee
+  - datum: '1980-01-06'
+    titel: Bezit van maatschappelijke rechten in verbonden ondernemingen of in ondernemingen waarmee een deelnemingsverhouding bestaat - Begrip deelneming
+    url: https://www.cbn-cnc.be/nl/adviezen/bezit-van-maatschappelijke-rechten-in-verbonden-ondernemingen-of-in-ondernemingen-waarmee
 nummer: CBN-advies 147/1
 provenance:
-  generated_at: '2026-05-11T15:15:31Z'
+  generated_at: '2026-05-11T17:48:38Z'
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/vastrentende-effecten-financiele-vaste-activa-of-geldbeleggingen-criteria
-    sha256: fe061a0eb4762f8740523a558aaafc6478ca4ad0d47b65c639685dc9cd3728d3
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/vastrentende-effecten-financiele-vaste-activa-of-geldbeleggingen-criteria
+      sha256: fe061a0eb4762f8740523a558aaafc6478ca4ad0d47b65c639685dc9cd3728d3
+      version:
   stale: false
-  stale_reason: null
+  stale_reason:
   tooling:
-    model: null
+    model:
     pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    prompt_version: null
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
     confirmed_at: '2026-05-11T12:04:41Z'
     confirmed_by: subagent-sonnet-4-6
     layer1:
-      file_size_chars: 2736
-      flags: []
+      status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:41Z'
       heading_count: 0
       max_section_chars: 2736
-      run_at: '2026-05-11T15:05:49Z'
-      run_id: 20260511-150547
-      status: pass
+      file_size_chars: 2736
+      flags: []
     layer2:
       agent: subagent-sonnet-4-6
       concrete_problemen: []
-      rationale: 'Één voetnoot aanwezig en correct. Inhoud volledig: vraagstelling,
-        criterium, twee categorieën, antwoord. Geen artefacten.'
+      rationale: 'Één voetnoot aanwezig en correct. Inhoud volledig: vraagstelling, criterium, twee categorieën, antwoord. Geen artefacten.'
       run_at: '2026-05-11T12:04:41Z'
       status: trusted
-    rationale: 'Één voetnoot aanwezig en correct. Inhoud volledig: vraagstelling,
-      criterium, twee categorieën, antwoord. Geen artefacten.'
+    rationale: 'Één voetnoot aanwezig en correct. Inhoud volledig: vraagstelling, criterium, twee categorieën, antwoord. Geen artefacten.'
     status: trusted
 themas:
-- duurzame band
-- duurzame ondersteuning
-- financiële vaste activa
-- geldbeleggingen
-- obligaties
-- vastrentende effecten
+  - duurzame band
+  - duurzame ondersteuning
+  - financiële vaste activa
+  - geldbeleggingen
+  - obligaties
+  - vastrentende effecten
 ---
 
 # CBN-advies 147/1 - Vastrentende effecten : financiële vaste activa of geldbeleggingen ? Criteria

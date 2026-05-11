@@ -16,53 +16,53 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/toekenning-van-gratis-aandelen-restricted-stock-units-als-bonus
 nummer: CBN-advies 2018/15
 provenance:
+  generated_at: '2026-05-11T17:48:39Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-onder-meer-de-rendementswaarborg-voor-werkgeversbijdragen
       sha256: 64830a3e26e539c0098498821c4e375822e63ee6e3d5f4c5b58cf9c352e75272
       version:
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T15:15:32Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
-    status: needs-rework
     confirmed_at: '2026-05-11T17:13:30Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "D4: regel 146 heeft '*inrichter *' en regel 148 heeft '*pensioeninstelling *' — spatie vóór sluitende asterisk, malformed italic. Regel 217: '***Samenvattend** *kan dus besloten worden' — inconsistent gemengd bold/italic waarbij de sluitende markers in verkeerde volgorde staan. Regel 235: '**Geen externalisering van* alle *risico's **' — inconsistente nesting van bold en italic markers."
     layer1:
-      file_size_chars: 23596
-      flags: []
-      heading_count: 11
-      max_section_chars: 5025
-      run_at: '2026-05-11T15:05:53Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:44Z'
+      heading_count: 11
+      max_section_chars: 5024
+      file_size_chars: 23585
+      flags: []
     layer2:
-      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T17:13:30Z'
-      rationale: "D4: regel 146 heeft '*inrichter *' en regel 148 heeft '*pensioeninstelling *' — spatie vóór sluitende asterisk, malformed italic. Regel 217: '***Samenvattend** *kan dus besloten worden' — inconsistent gemengd bold/italic waarbij de sluitende markers in verkeerde volgorde staan. Regel 235: '**Geen externalisering van* alle *risico's **' — inconsistente nesting van bold en italic markers."
       concrete_problemen:
-        - regel: 146
-          categorie: D4
+        - categorie: D4
+          regel: 146
           type: other
           voorbeeld: de pensioentoezegging die door de *inrichter *wordt gegeven
-        - regel: 148
-          categorie: D4
+        - categorie: D4
+          regel: 148
           type: other
           voorbeeld: Opdat de *pensioeninstelling *ook effectief in staat zou zijn
-        - regel: 217
-          categorie: D4
+        - categorie: D4
+          regel: 217
           type: other
           voorbeeld: '***Samenvattend** *kan dus besloten worden'
-        - regel: 235
-          categorie: D4
+        - categorie: D4
+          regel: 235
           type: other
-          voorbeeld: "**Geen externalisering van* alle *risico's **"
+          voorbeeld: '**Geen externalisering van* alle *risico''s **'
+      rationale: 'D4: regel 146 heeft ''*inrichter *'' en regel 148 heeft ''*pensioeninstelling *'' — spatie vóór sluitende asterisk, malformed italic. Regel 217: ''***Samenvattend** *kan dus besloten worden'' — inconsistent gemengd bold/italic waarbij de sluitende markers in verkeerde volgorde staan. Regel 235: ''**Geen externalisering van* alle *risico''s **'' — inconsistente nesting van bold en italic markers.'
+      run_at: '2026-05-11T17:13:30Z'
+      status: needs-rework
+    rationale: 'D4: regel 146 heeft ''*inrichter *'' en regel 148 heeft ''*pensioeninstelling *'' — spatie vóór sluitende asterisk, malformed italic. Regel 217: ''***Samenvattend** *kan dus besloten worden'' — inconsistent gemengd bold/italic waarbij de sluitende markers in verkeerde volgorde staan. Regel 235: ''**Geen externalisering van* alle *risico''s **'' — inconsistente nesting van bold en italic markers.'
+    status: needs-rework
 themas:
   - voorziening
   - pensioentoezegging
@@ -79,19 +79,16 @@ themas:
 # CBN-advies 2018/15 – Boekhoudkundige verwerking van onder meer de rendementswaarborg voor werkgeversbijdragen in het kader van een aanvullende pensioentoezegging
 
 ## Algemeen
-
 Onderhavig advies verduidelijkt onder meer de boekhoudkundige verwerking van de verplichting uit hoofde van de wettelijke rendementswaarborg die rust op de werkgeversbijdragen die een onderneming betaalt in het kader van een aanvullende pensioentoezegging voor haar werknemers (hierna: werkgever als inrichter van een pensioentoezegging)[^2].
 
 Wat betreft de wettelijke verplichting inzake de naleving van voormelde rendementswaarborg steunt onderhavig advies op het advies van de FSMA[^3] verstrekt op 9 mei 2017 aan de Vice-eersteminister en minister van Werk, Economie en Consumenten, belast met Buitenlandse Handel.
 
 ## Beknopte beschrijving van de verplichtingen van de werkgever als inrichter van een pensioentoezegging – externaliseringsverplichting
-
 De beschrijving van de FSMA is de volgende: 
 
 “**I. De rendementswaarborg van Belgische aanvullende pensioentoezeggingen**
 
 ## I. 1. De wettelijke draagwijdte van de rendementswaarborg
-
 Artikel 24 van de Wet van 28 april 2003 betreffende de aanvullende pensioenen en het belastingstelsel van die pensioenen en van sommige aanvullende voordelen inzake sociale zekerheid (hierna: de WAP), verplicht de inrichter van een aanvullend pensioen om een bepaald rendement te waarborgen op de pensioenbijdragen. Het gaat om een wettelijke garantieverplichting die komt bovenop de contractuele verplichtingen die ontstaan op grond van de aanvullende pensioentoezegging. 
 
 Terwijl de aangeslotene na maximaal één jaar aansluiting bij een pensioentoezegging aanspraak kan maken op verworven reserves overeenkomstig het pensioenreglement, ontstaat het recht op de rendementswaarborg slechts op het ogenblik van uittreding, pensionering of opheffing van de pensioentoezegging. 
@@ -116,7 +113,6 @@ De rendementswaarborg op de werknemersbijdragen onderscheidt zich in een aantal 
   - bedroeg 3.25 % tot 31 december 2015 en bedraagt 1.75 % sinds 1 januari 2016. 
 
 ## I. 2. De “werkelijke” omvang van de rendementswaarborg
-
 Het niveau van de wettelijke rendementswaarborg wordt nominaal vastgesteld door de WAP: vandaag 1.75 % voor de werknemersbijdragen van alle types pensioenplannen en 1.75 % voor de werkgeversbijdragen van pensioenplannen van het type vaste bijdragen en cash balance.
 
 De in de WAP bepaalde regeling bevat echter een aantal “matigings”mechanismen die maken dat het “werkelijke” niveau van de rendementswaarborg in veel gevallen een heel stuk lager ligt dan het nominale niveau en soms zelfs negatief kan zijn. 
@@ -140,9 +136,7 @@ Het minimum rendementsniveau moet evenmin jaarlijks worden gehaald: het betreft 
 6. **0 %-garantie** na uittreding: de rendementswaarborgen - zowel deze op de persoonlijke als op de werkgeversbijdragen - lopen maar tot op het ogenblik van de uittreding. Wanneer de werknemer uittreedt, wordt het bedrag van de waarborg definitief bevroren. Enkel dit bevroren niveau moet vervolgens verder worden gewaarborgd tot het ogenblik van de pensionering of van de overdracht van de reserves na uittreding. Dit betekent dat positieve rendementen die worden verworven nà uittreding kunnen bijdragen tot de dekking van de op het ogenblik van uittreding “gekristalliseerde” rendementsgarantie. Er wordt in dat verband gesproken van een 0 %-waarborg. 
 
 ## I.3. De externalisering en de financiering van de rendementswaarborg
-
 ## 3.1. De externalisering van de contractuele pensioentoezegging
-
 De hoofdbedoeling van de wetgeving op de aanvullende pensioenen bestaat er in om te waarborgen dat de pensioentoezegging die door de *inrichter* wordt gegeven, ook daadwerkelijk wordt nagekomen. Daartoe wordt de inrichter verplicht om de pensioentoezegging te “externaliseren”. Daartoe moeten alle pensioenverplichtingen voldoende gefinancierd worden en de daartoe opgebouwde pensioenreserves worden onttrokken aan het ondernemingsrisico van de inrichter. 
 
 Opdat de *pensioeninstelling* ook effectief in staat zou zijn om de pensioenbelofte van de inrichter uit te voeren moet aan een aantal sequentiële voorwaarden zijn voldaan. Deze voorwaarden kunnen worden beschouwd als de schakels in het externaliseringsproces. Elk van deze schakels moet aanwezig en intact zijn. Wanneer één van de schakels (ont)breekt, komt de nakoming van de pensioentoezegging in het gedrang.
@@ -193,7 +187,6 @@ Een onderfinanciering van de voorzieningen is in strijd met artikel 90 van de WI
 Artikel 48 van het K.B.-Leven eist dat de voorzieningen van de groepsverzekering worden afgedekt door (wiskundige) reserves.
 
 ## 3.2. De externalisering van de wettelijke rendementswaarborg
-
 De onder 3.1. beschreven externaliseringsprincipes moeten worden toegepast binnen het kader van de toepasselijke wetgeving. De vraag over de externalisering en de bijhorende financiering van de rendementswaarborg moet derhalve beantwoord worden aan de hand van de WAP en de WIBP.
 
 De WAP heeft terzake geen expliciete regeling bepaald. In de Memorie van toelichting bij de WAP worden de toepasselijke principes echter wel als volgt verduidelijkt:
@@ -217,9 +210,7 @@ In het voorbereidend document bij het sociaal overleg dat voorafging aan de mees
 ***Samenvattend** *kan dus besloten worden dat enkel de rendementswaarborg op de werknemersbijdragen moet geëxternaliseerd worden.”
 
 ## Boekhoudkundige verwerking van de WAP rendementswaarborg voor werkgeversbijdragen
-
 ## A. Algemeen
-
 4. De jaarrekening moet een getrouw beeld geven van het vermogen, de financiële positie en het resultaat van de vennootschap.[^10]
  Er moet rekening worden gehouden met alle voorzienbare risico's, mogelijke verliezen en ontwaardingen, ontstaan tijdens het boekjaar waarop de jaarrekening betrekking heeft of tijdens voorgaande boekjaren, zelfs indien deze risico's, verliezen of ontwaardingen slechts gekend zijn tussen de balansdatum en het ogenblik waarop de jaarrekening door het bestuursorgaan van de vennootschap wordt opgesteld. 
 
@@ -228,7 +219,6 @@ In het voorbereidend document bij het sociaal overleg dat voorafging aan de mees
 6. In de gevallen waarin, bij gebreke aan objectieve beoordelingscriteria, de waardering van de voorzienbare risico's, de mogelijke verliezen en de ontwaardingen onvermijdelijk aleatoir is, wordt hiervan melding gemaakt in de toelichting, wanneer de betrokken bedragen rekening houdend met de doelstelling van het getrouwe beeld[^12], belangrijk zijn. 
 
 ## B. Voorzieningen voor pensioenplannen
-
 7. Voorzieningen moeten onder meer worden gevormd met het oog op de verplichtingen die op de vennootschap rusten inzake rust- en overlevingspensioenen, werkloosheid met bedrijfstoeslag en andere gelijkaardige pensioenen of renten.[^13]
  De Commissie merkt op dat een werkgever als inrichter van een pensioentoezegging in regel haar verplichtingen die uit deze pensioentoezegging voortvloeien geëxternaliseerd zal hebben. De FSMA merkt op dat er geen externaliseringsverplichting geldt voor alle verplichtingen die voortvloeien uit een wettelijke rendementsgarantie. 
 
@@ -241,7 +231,6 @@ In het voorbereidend document bij het sociaal overleg dat voorafging aan de mees
 9. De Commissie is van mening dat indien de werkgever als inrichter van een pensioentoezegging op basis van een vastgestelde onderfinanciering van de pensioenverplichtingen meent bijkomende stortingen te moeten doen[^14] aan de pensioeninstelling aan wie de pensioentoezegging werd toevertrouwd, de werkgever als inrichter van de pensioentoezegging een voorziening moet boeken indien het bedrag van de bijkomende premiebetaling nog niet is gekend. Indien daarentegen de bijkomende premie gekend is op inventarisdatum, doch nog niet werd betaald, moet een schuld worden uitgedrukt.
 
 ## C. Vermeldingen in de toelichting
-
 10. De toelichting van de jaarrekening moet, indien van materieel belang, onder de Niet in de balans opgenomen rechten en verplichtingen, een beknopte beschrijving bevatten van de bestaande regelingen met betrekking tot de aanvullende rust- of overlevingspensioenen alsmede van de maatregelen die werden getroffen om de daaruit voortvloeiende kosten te dekken.[^15] 
 
 11. De Commissie is van mening dat in het kader van de vereiste van het getrouwe beeld van de jaarrekening, het bestuursorgaan in de toelichting een expliciete vermelding moet opnemen van de wijze waarop en de mate waarin de pensioenverplichtingen worden gefinancierd. Derhalve dient in het geval dat de pensioeninstelling een onderfinanciering heeft vastgesteld en meegedeeld middels de uitgereikte pensioenfiches in de zin van artikel 26 van de WAP, hiervan melding worden gemaakt in de toelichting indien deze onderfinanciering van materieel belang is. In voorkomend geval moet de toelichting de redenen vermelden waarom de door de pensioeninstelling vastgestelde onderfinanciering geen aanleiding heeft gegeven tot de vorming van een voorziening ten belope van de door de pensioeninstelling berekende onderfinanciering.

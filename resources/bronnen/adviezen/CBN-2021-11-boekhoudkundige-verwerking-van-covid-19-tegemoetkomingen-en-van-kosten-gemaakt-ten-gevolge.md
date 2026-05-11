@@ -16,41 +16,41 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/mogelijkheid-tot-uitstel-van-de-gewone-algemene-vergadering-en-van-de-neerlegging-van-de
 nummer: CBN-advies 2021/11
 provenance:
+  generated_at: '2026-05-11T17:48:39Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-covid-19-tegemoetkomingen-en-van-kosten-gemaakt-ten-gevolge
       sha256: 4dbc8abbe69e46fb2249e4292bfe7878344a23222a30d726f5ebd3a59a02c27d
       version:
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T15:15:32Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
-    status: needs-rework
     confirmed_at: '2026-05-11T17:13:30Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "E2: Regel 86 bevat '| | (of 764 tot 768 | Andere niet-recurrente bedrijfsopbrengsten | 2.000 | |' waarbij '(of 764 tot 768' als extra eerste kolom-cel staat — alternatieve boeking correct bedoeld maar zonder geldige markdown-tabelstructuur (extra pipe-cell). Geïsoleerd artefact; overige tabellen correct, inhoud volledig, 6 headings correct, alle 17 voetnootdefinities aanwezig."
     layer1:
-      file_size_chars: 12670
-      flags: []
-      heading_count: 6
-      max_section_chars: 8632
-      run_at: '2026-05-11T15:05:54Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:45Z'
+      heading_count: 6
+      max_section_chars: 8630
+      file_size_chars: 12660
+      flags: []
     layer2:
-      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T17:13:30Z'
-      rationale: "E2: Regel 86 bevat '| | (of 764 tot 768 | Andere niet-recurrente bedrijfsopbrengsten | 2.000 | |' waarbij '(of 764 tot 768' als extra eerste kolom-cel staat — alternatieve boeking correct bedoeld maar zonder geldige markdown-tabelstructuur (extra pipe-cell). Geïsoleerd artefact; overige tabellen correct, inhoud volledig, 6 headings correct, alle 17 voetnootdefinities aanwezig."
       concrete_problemen:
-        - regel: 86
-          categorie: E2
+        - categorie: E2
+          regel: 86
           type: other
           voorbeeld: '| | (of 764 tot 768 | Andere niet-recurrente bedrijfsopbrengsten | 2.000 | |'
+      rationale: 'E2: Regel 86 bevat ''| | (of 764 tot 768 | Andere niet-recurrente bedrijfsopbrengsten | 2.000 | |'' waarbij ''(of 764 tot 768'' als extra eerste kolom-cel staat — alternatieve boeking correct bedoeld maar zonder geldige markdown-tabelstructuur (extra pipe-cell). Geïsoleerd artefact; overige tabellen correct, inhoud volledig, 6 headings correct, alle 17 voetnootdefinities aanwezig.'
+      run_at: '2026-05-11T17:13:30Z'
+      status: needs-rework
+    rationale: 'E2: Regel 86 bevat ''| | (of 764 tot 768 | Andere niet-recurrente bedrijfsopbrengsten | 2.000 | |'' waarbij ''(of 764 tot 768'' als extra eerste kolom-cel staat — alternatieve boeking correct bedoeld maar zonder geldige markdown-tabelstructuur (extra pipe-cell). Geïsoleerd artefact; overige tabellen correct, inhoud volledig, 6 headings correct, alle 17 voetnootdefinities aanwezig.'
+    status: needs-rework
 themas:
   - COVID-19
   - tegemoetkoming
@@ -65,7 +65,6 @@ themas:
 # CBN-advies 2021/11 – Boekhoudkundige verwerking van COVID-19-tegemoetkomingen en van kosten gemaakt ten gevolge van de gezondheidscrisis
 
 ## Inleiding
-
 Om de gezondheidscrisis te boven te komen, kunnen ondernemingen mits naleving van bepaalde voorwaarden tegemoetkomingen ontvangen vanwege de overheid[^2].
 
 Het hervatten van de activiteiten na een verplichte periode van sluiting of het verder werken tijdens een periode van “lockdown” gaat dikwijls gepaard met bepaalde kosten (aankoop van mondmaskers, alcoholgel, plexiglas, herinrichting van vergaderzalen via de aankoop van een camera om vergaderingen vanop afstand te kunnen houden, herinrichting van de werkvloer, enz.) om zo de hygiënemaatregelen te respecteren en de verspreiding van het virus in te perken.
@@ -73,11 +72,9 @@ Het hervatten van de activiteiten na een verplichte periode van sluiting of het 
 In dit advies behandelt de Commissie voor boekhoudkundige normen de boekhoudkundige verwerking van de in het kader van COVID-19 verkregen tegemoetkomingen enerzijds en van de als gevolg van deze gezondheidscrisis gemaakte kosten anderzijds. De Commissie wijst erop dat de algemene Belgische boekhoudbeginselen[^3] te allen tijde van toepassing blijven en herinnert in die zin aan artikel 3:10 van het *koninklijk besluit tot uitvoering van het Wetboek van vennootschappen en verenigingen*: “*De waarderingen moeten voldoen aan de eisen van voorzichtigheid, oprechtheid en goede trouw*”. Onderhavig advies beoogt dan ook uitsluitend de toepassing van deze beginselen in de huidige omstandigheden, zonder hiervan af te wijken.
 
 ## Boekhoudkundige verwerking van COVID-19-tegemoetkomingen
-
 De in het kader van COVID-19 ontvangen vergoedingen worden opgenomen onder de *Diverse bedrijfsopbrengsten* (rekening 743-749) of onder de *Andere niet-recurrente bedrijfsopbrengsten* (rekening 764-768).[^4] 
 
 ### Voorbeeld 1
-
 Een onderneming krijgt van een deelstaat (Vlaams, Brussels of Waals Gewest) een COVID-19-vergoeding van 2.000 euro toegewezen. De verrichting wordt op moment van kennisgeving in de boekhouding van de onderneming als volgt geboekt:
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
@@ -86,7 +83,6 @@ Een onderneming krijgt van een deelstaat (Vlaams, Brussels of Waals Gewest) een 
 | | (of 764 tot 768 | Andere niet-recurrente bedrijfsopbrengsten | 2.000 | |
 
 ## Boekhoudkundige verwerking van kosten gemaakt ten gevolge van de gezondheidscrisis
-
 Om de hygiënematregelen te respecteren en de verspreiding van het coronavirus in te dijken, hebben ondernemingen materiaal aangekocht zoals mondmaskers, alcoholgel, plexiglas, enz.
 
 Deze door de ondernemingen gemaakte kosten worden in principe geboekt op rekening 61 *Diensten en diverse goederen* of op rekening 664 tot 667 *Andere niet-recurrente bedrijfskosten*.[^5] 
@@ -99,8 +95,7 @@ Bepaalde ondernemingen hebben aanzienlijke investeringen verricht om zich aan te
 
 Het bestuursorgaan zal voor de installatie van deze activa vervolgens een afschrijvingsplan opstellen om de aanschaffingskost van dit vast actief te spreiden over de waarschijnlijke nuttigheids- of gebruiksduur[^7].
 
-### Voorbeeld 2[^8]
-
+### Voorbeeld 2
 Een onderneming installeert een camera in haar vergaderzalen om de vergaderingen met klanten en medewerkers vanop afstand te kunnen houden en zo de hygiëne- en veiligheidsmaatregelen te respecteren. Deze investeringen worden gedaan vanuit duurzaamheidsoogpunt. De installatie[^9] kost 6.250 euro en wordt als volgt geboekt:
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
@@ -139,7 +134,6 @@ De verplichte tijdelijke stopzetting van de activiteiten heeft voor bepaalde ond
 Voorts wijst de Commissie erop dat kosten gemaakt in het kader van herstructurering onder de activa mogen worden opgenomen wanneer het gaat om welbepaalde kosten die verband houden met een ingrijpende wijziging in de structuur of de organisatie van een onderneming en die kosten ertoe strekken een gunstige en duurzame invloed te hebben op de rentabiliteit van de onderneming.[^16] 
 
 ## Gevolgen voor indekkingsverrichtingen naar aanleiding van het wegvallen van onderliggende transacties die in vreemde valuta dienden te worden voldaan
-
 Tevens werd aan de Commissie de vraag gesteld naar de boekhoudkundige gevolgen wanneer, naar aanleiding van de huidige gezondheidscrisis, een onderliggende (reële) transactie niet plaatsvindt, waardoor de indekkingsverrichting een speculatieve verrichting wordt (wegens het wegvallen van de onderliggende (reële) verplichting tot betaling in vreemde valuta).
 
 De Commissie verwijst in dergelijk geval naar CBN-advies 2010/12 - *De toepassing van de algemene boekhoudprincipes op afgeleide financiële instrumenten*. Op grond van dit CBN-advies[^17] wordt gesteld dat het boekhoudkundig realisatiebeginsel (voorzichtigheidsbeginsel)* in beginsel* voorrang krijgt op het overeenstemmingsprincipe (matching), behalve in het bijzonder geval van een effectieve dekkingsverrichting (of gesloten positie) die de neutralisatie beoogt van prijsschommelingen en/of financiële stromen.

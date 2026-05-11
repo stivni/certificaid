@@ -2,62 +2,52 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/erkenning-van-opbrengsten-en-kosten
 datum: 2012-11-07
 gerelateerde_adviezen:
-- datum: '2021-04-06'
-  titel: Boekhoudrechtelijke behandeling van kwijtschelding van huur ten gevolge van
-    de COVID-19-pandemie
-  url: https://www.cbn-cnc.be/nl/adviezen/boekhoudrechtelijke-behandeling-van-kwijtschelding-van-huur-ten-gevolge-van-de-covid-19
-- datum: '2013-09-04'
-  titel: Erkenning van de opbrengsten en kosten die overeenstemmen met interesten
-    en royalty&#039;s, evenals de toewijzing van de resultaten in de vorm van dividenden
-    en tantièmes en de opbrengsten die overeenstemmen met dividenden en tantièmes
-  url: https://www.cbn-cnc.be/nl/adviezen/erkenning-van-de-opbrengsten-en-kosten-die-overeenstemmen-met-interesten-en-royaltys
+  - datum: '2021-04-06'
+    titel: Boekhoudrechtelijke behandeling van kwijtschelding van huur ten gevolge van de COVID-19-pandemie
+    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudrechtelijke-behandeling-van-kwijtschelding-van-huur-ten-gevolge-van-de-covid-19
+  - datum: '2013-09-04'
+    titel: Erkenning van de opbrengsten en kosten die overeenstemmen met interesten en royalty&#039;s, evenals de toewijzing van de resultaten in de vorm van dividenden en tantièmes en de opbrengsten die overeenstemmen met dividenden en tantièmes
+    url: https://www.cbn-cnc.be/nl/adviezen/erkenning-van-de-opbrengsten-en-kosten-die-overeenstemmen-met-interesten-en-royaltys
 nummer: CBN-advies 2012/17
 provenance:
-  generated_at: '2026-05-11T15:15:31Z'
+  generated_at: '2026-05-11T17:48:39Z'
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/erkenning-van-opbrengsten-en-kosten
-    sha256: 7aa254cb895d2315323f4ef39d185018e68c7c55911c7f208030a21eb4bd0fed
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/erkenning-van-opbrengsten-en-kosten
+      sha256: 7aa254cb895d2315323f4ef39d185018e68c7c55911c7f208030a21eb4bd0fed
+      version:
   stale: false
-  stale_reason: null
+  stale_reason:
   tooling:
-    model: null
+    model:
     pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    prompt_version: null
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
     confirmed_at: '2026-05-11T12:16:33Z'
     confirmed_by: subagent-sonnet-4-6
     layer1:
-      file_size_chars: 15746
-      flags: []
-      heading_count: 7
-      max_section_chars: 6346
-      run_at: '2026-05-11T15:05:51Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:43Z'
+      heading_count: 7
+      max_section_chars: 6345
+      file_size_chars: 15739
+      flags: []
     layer2:
       agent: subagent-sonnet-4-6
       concrete_problemen: []
-      rationale: 'Geen artefacten gevonden. Heading-hiërarchie klopt (H1 → H2 → H3),
-        alle 9 voetnoten correct gelinkt met [^N]-syntax, proza vloeit als mens-geschreven
-        tekst. Inhoud compleet: onderwerp, analyse met twee subsecties, voorbeelden
-        voor goederen en diensten.'
+      rationale: 'Geen artefacten gevonden. Heading-hiërarchie klopt (H1 → H2 → H3), alle 9 voetnoten correct gelinkt met [^N]-syntax, proza vloeit als mens-geschreven tekst. Inhoud compleet: onderwerp, analyse met twee subsecties, voorbeelden voor goederen en diensten.'
       run_at: '2026-05-11T12:16:33Z'
       status: trusted
-    rationale: 'Geen artefacten gevonden. Heading-hiërarchie klopt (H1 → H2 → H3),
-      alle 9 voetnoten correct gelinkt met [^N]-syntax, proza vloeit als mens-geschreven
-      tekst. Inhoud compleet: onderwerp, analyse met twee subsecties, voorbeelden
-      voor goederen en diensten.'
+    rationale: 'Geen artefacten gevonden. Heading-hiërarchie klopt (H1 → H2 → H3), alle 9 voetnoten correct gelinkt met [^N]-syntax, proza vloeit als mens-geschreven tekst. Inhoud compleet: onderwerp, analyse met twee subsecties, voorbeelden voor goederen en diensten.'
     status: trusted
 themas:
-- opbrengsterkenning
+  - opbrengsterkenning
 ---
 
 # CBN-advies 2012/17 - Erkenning van opbrengsten en kosten
 
 ## Onderwerp van het advies
-
 In het artikel 31, § 1 van de Vierde Europese Richtlijn betreffende de jaarrekening van bepaalde vennootschapsvormen[^1] wordt het volgende bepaald: “c ) het voorzichtigheidsbeginsel moet steeds in acht worden genomen en in het bijzonder geldt het volgende: aa ) winsten mogen slechts worden opgenomen voor zover zij op de balansdatum gerealiseerd zijn” en “d ) lasten en baten betreffende het boekjaar waarop de jaarrekening betrekking heeft, moeten in aanmerking worden genomen, ongeacht het tijdstip van betaling van deze lasten of ontvangst van deze baten”.
 
 In het artikel 33, tweede lid, van het Koninklijk besluit tot uitvoering van het wetboek van vennootschappen (KB W. Venn.) wordt het volgende bepaald: “Er moet rekening worden gehouden met de kosten en de opbrengsten die betrekking hebben op het boekjaar of op voorgaande boekjaren, ongeacht de dag waarop deze kosten en opbrengsten worden betaald of geïnd, behalve indien de effectieve inning van deze opbrengsten onzeker is.”
@@ -69,9 +59,7 @@ Met dit advies beoogt de Commissie voor Boekhoudkundige Normen (CBN) de regels t
 In dit advies worden enkel de opbrengsten en kosten behandeld die voortvloeien uit de vervreemding van goederen of uit de levering van diensten. Bijgevolg wordt hier onder meer niet ingegaan op de opbrengsten en kosten die voortvloeien uit de waardeschommelingen van activa en passiva van de onderneming en de opbrengsten en kosten die overeenstemmen met interesten, evenals de toewijzing van de resultaten in de vorm van dividenden en tantièmes en de opbrengsten die overeenstemmen met dividenden en tantièmes.
 
 ## Analyse
-
 ### Gerealiseerde winsten en lasten en baten betreffende het boekjaar
-
 Het begrip “gerealiseerde winsten” volgt uit het algemene voorzichtigheidsbeginsel (zie voornoemde art. 31, § 1, c, aa, Vierde richtlijn en art. 32, KB W.Venn.). Bijgevolg dient de boeking van een opbrengst steeds in het kader te passen van een voorzichtigheidslogica[^2].
 
 De kosten moeten overigens worden toegerekend aan hetzelfde boekjaar als de opbrengsten met dewelke zij zijn verbonden krachtens het algemene overeenstemmingsprincipe (zie de voornoemde artikelen 31, § 1, d, Vierde richtlijn en 33, al. 2, KB W.Venn.). Dit betekent dat het boeken van de kosten kan worden geanticipeerd of uitgesteld ten opzichte van het moment waarop de kosten effectief worden gemaakt om op die manier deze kosten toe te rekenen aan hetzelfde boekjaar als de opbrengsten die er mee overeenstemmen.
@@ -95,15 +83,12 @@ Wat de overeenkomsten betreft voor het leveren van goederen of voor het leveren 
 In dit advies worden overigens de overeenkomsten met betrekking tot bestellingen in uitvoering niet behandeld, ongeacht het gaat om goederen of diensten. Deze overeenkomsten zullen worden behandeld in een volgend advies van de CBN.
 
 ### Bijzonder geval: onzekere inning van een opbrengst
-
 In het artikel 33, tweede lid van KB W.Venn. wordt bepaald dat “er rekening moet worden gehouden met de kosten en de opbrengsten die betrekking hebben op het boekjaar of op voorgaande boekjaren, ongeacht de dag waarop deze kosten en opbrengsten worden betaald of geïnd, behalve indien de effectieve inning van deze opbrengsten onzeker is” (eigen onderlijning).
 
 Met andere woorden, wanneer - op basis van de criteria van voorzichtigheid, oprechtheid en goede trouw - de effectieve inning van een opbrengst, bij aanvang en integraal, onzeker is, dan staat het de onderneming vrij de opbrengst niet in resultaat te nemen zolang de effectieve inning onzeker blijft. Dezelfde opbrengst mag echter ook als resultaat worden geboekt; in dat geval zal voor de onzekerheid omtrent de inning een waardevermindering worden geboekt ten laste van de resultatenrekening[^4].
 
 ## Voorbeelden
-
 ### Vervreemding van goederen
-
 Een onderneming verkoopt een machine in het jaar X (met bestelbon, d.w.z. een verkoopovereenkomst, ondertekend in het jaar X) die ze zal leveren aan de koper in het jaar X+1. Deze machine behoort in het jaar X tot de voorraad handelsgoederen van de onderneming. De partijen komen overeen dat de eigendom van de machine pas bij de levering zal worden overgedragen aan de koper.
 
 In dit geval meent de CBN dat de opbrengst (de verkoopprijs[^5]) en de kost (een voorraadvermindering[^6]) die voortvloeien uit de verkoop moeten worden geboekt bij de overdracht van de eigendom van de machine, d.w.z. in het jaar X+1. Op dat ogenblik zullen immers de voornaamste risico’s worden overgedragen aan de koper.
@@ -121,7 +106,6 @@ Veronderstel dat een onderneming een machine verkoopt in het jaar X die ze lever
 Naar het oordeel van de CBN moeten de opbrengst (de verkoopprijs) en de kost (de voorraadvermindering) die voortvloeien uit de verkoop worden geboekt in het jaar X want dan worden de voornaamste risico’s van het goed overgedragen aan de koper. Het eigendomsvoorbehoud dient in dit geval enkel als waarborg voor de volledige betaling en heeft in het kader van de verkoopovereenkomst slechts een bijkomstig karakter (zie ook in die zin het CBN-advies Beding van eigendomsvoorbehoud – Uitdrukkelijk beding. Boekhoudkundige verwerking, *Bulletin CBN*, nr. 17, september 1985, p. 13-16).
 
 ### Levering van diensten
-
 Wat de levering van diensten betreft, nemen we het volgende voorbeeld: een onderneming die concerten organiseert, verkoopt in het jaar X plaatsen voor een concert dat doorgaat in het jaar X+1.
 
 Naar het oordeel van de CBN moet de opbrengst die voortvloeit uit de verkoop van deze concertplaatsen worden geboekt in het jaar X en worden overgedragen naar het jaar X+1, wanneer het concert doorgaat, via de overlopende rekening van het passief 493 *Over te dragen opbrengsten.*

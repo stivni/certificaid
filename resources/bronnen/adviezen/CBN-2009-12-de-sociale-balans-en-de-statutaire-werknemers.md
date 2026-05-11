@@ -3,54 +3,47 @@ bron: https://www.cbn-cnc.be/nl/adviezen/de-sociale-balans-en-de-statutaire-werk
 datum: 2009-10-14
 nummer: CBN-advies 2009/12
 provenance:
-  generated_at: '2026-05-11T15:15:31Z'
+  generated_at: '2026-05-11T17:48:38Z'
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/de-sociale-balans-en-de-statutaire-werknemers
-    sha256: 8b84092b1fd2d33b748a4d77317c8d9f60a53215a661f2da5d2d1b780f2b0948
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/de-sociale-balans-en-de-statutaire-werknemers
+      sha256: 8b84092b1fd2d33b748a4d77317c8d9f60a53215a661f2da5d2d1b780f2b0948
+      version:
   stale: false
-  stale_reason: null
+  stale_reason:
   tooling:
-    model: null
+    model:
     pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    prompt_version: null
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
     confirmed_at: '2026-05-11T12:09:17Z'
     confirmed_by: subagent-sonnet-4-6
     layer1:
-      file_size_chars: 7056
-      flags: []
-      heading_count: 4
-      max_section_chars: 3482
-      run_at: '2026-05-11T15:05:50Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:42Z'
+      heading_count: 4
+      max_section_chars: 3481
+      file_size_chars: 7052
+      flags: []
     layer2:
       agent: subagent-sonnet-4-6
       concrete_problemen: []
-      rationale: 'Geen extractie-artefacten gevonden. Vier secties correct hiërarchisch
-        als ## headings opgemaakt, voetnoten [^1]–[^12] volledig gedefinieerd, geen
-        afgekapte zinnen, geen invisible unicode of HTML-entities. Body kort en inhoudelijk
-        compleet.'
+      rationale: 'Geen extractie-artefacten gevonden. Vier secties correct hiërarchisch als ## headings opgemaakt, voetnoten [^1]–[^12] volledig gedefinieerd, geen afgekapte zinnen, geen invisible unicode of HTML-entities. Body kort en inhoudelijk compleet.'
       run_at: '2026-05-11T12:09:17Z'
       status: trusted
-    rationale: 'Geen extractie-artefacten gevonden. Vier secties correct hiërarchisch
-      als ## headings opgemaakt, voetnoten [^1]–[^12] volledig gedefinieerd, geen
-      afgekapte zinnen, geen invisible unicode of HTML-entities. Body kort en inhoudelijk
-      compleet.'
+    rationale: 'Geen extractie-artefacten gevonden. Vier secties correct hiërarchisch als ## headings opgemaakt, voetnoten [^1]–[^12] volledig gedefinieerd, geen afgekapte zinnen, geen invisible unicode of HTML-entities. Body kort en inhoudelijk compleet.'
     status: trusted
 themas:
-- dimona
-- personeelsregister
-- sociale balans
-- statutaire werknemers
+  - dimona
+  - personeelsregister
+  - sociale balans
+  - statutaire werknemers
 ---
 
 # CBN-advies 2009/12 – De sociale balans en de statutaire werknemers
 
 ## Inleiding
-
 Aan de Commissie werd gevraagd of statutaire werknemers dienen opgenomen te worden in de sociale balans van de jaarrekening. 
 
 Deze vraag werd reeds behandeld in het CBN advies S100[^1]. Gezien de evoluties die zich sinds het eind van de jaren ’90 hebben voorgedaan op vlak van wetgeving en reglementering, leek het de Commissie desalniettemin nuttig om op deze vraag terug te komen en zich vooral toe te spitsen op de werknemers waarop de sociale balans betrekking heeft.
@@ -68,7 +61,6 @@ Zoals hierna immers kort wordt verduidelijkt, is het personeelsregister geen soc
 Dit advies heeft tot doel de desbetreffende evoluties inzake wetgeving en reglementering kort te beschrijven en er conclusies uit te trekken voor wat betreft de interpretatie van de bovenbedoelde bepalingen, in afwachting van een aanpassing van het KB W.Venn. Voor het overige verwijst de Commissie naar de relevante sociale wetgeving en reglementering.
 
 ## Wijzigingen aan het KB nr. 5
-
 De wet van 24 januari 2003[^6] heeft het KB nr. 5 als volgt gewijzigd:
 
 - vooreerst werd het personeelsregister afgeschaft en vervangen door het algemeen personeelsregister en het speciaal personeelsregister;[^7] 
@@ -81,11 +73,9 @@ Het toepassingsgebied van de DIMONA-verplichting is zeer ruim en stelt gelijk me
 De werkgever van wie alle werknemers onderworpen zijn aan de DIMONA-verplichting, is vrijgesteld van het bijhouden van een algemeen personeelsregister. Hij moet enkel een speciaal personeelsregister bijhouden wanneer hij werknemers op meerdere plaatsen tewerkstelt.[^12] 
 
 ## Opheffing van het KB nr. 230
-
 De wet van 24 december 1999 ter bevordering van de werkgelegenheid heeft het KB nr. 230 opgeheven. Hierdoor werd de RVA-stageovereenkomst vervangen door de startbaanovereenkomst.
 
 ## Conclusie
-
 Uit de aangebrachte wijzigingen in de sociale wetgeving en regelgeving sinds de introductie van de sociale balans, blijkt dat men voor de toepassing van de bepalingen van het KB W.Venn. onder “de werknemers ingeschreven in het personeelsregister” de werknemers moet verstaan voor wie de vennootschap een DIMONA-verklaring heeft ingediend bij de RSZ of, indien de werkgever uitzonderlijk niet onderworpen is aan de DIMONA-verplichting, de werknemers ingeschreven in het algemeen personeelsregister.
 
 Wat de statutaire werknemers betreft, bevestigt de Commissie de positie die ze had ingenomen in het voornoemde CBN-advies S100. In feite is ze van mening dat de statutaire werknemers in principe niet hernomen moeten worden in de sociale balans. Indien echter een onderneming in de praktijk de statutaire werknemers inschrijft in het algemeen personeelsregister of indien deze het voorwerp uitmaken van een DIMONA-verklaring, moeten ze worden hernomen in de sociale balans in de hoedanigheid van werknemers verbonden door een contract van onbepaalde duur. Van zodra een onderneming zowel statutaire en contractuele werknemers in dienst heeft, moet de onderneming de contractuele werknemers vermelden in de sociale balans.

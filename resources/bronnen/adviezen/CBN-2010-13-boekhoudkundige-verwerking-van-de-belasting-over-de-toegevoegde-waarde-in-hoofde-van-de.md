@@ -2,87 +2,71 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-belasting-over-de-toegevoegde-waarde-in-hoofde-van-de
 datum: 2010-09-08
 gerelateerde_adviezen:
-- datum: '2017-02-01'
-  titel: 'Invoer: douanerechten en verlegging van de heffing van de btw'
-  url: https://www.cbn-cnc.be/nl/adviezen/invoer-douanerechten-en-verlegging-van-de-heffing-van-de-btw
-- datum: '2016-09-07'
-  titel: Prestaties geleverd aan overheid – verschuldigde btw
-  url: https://www.cbn-cnc.be/nl/adviezen/prestaties-geleverd-aan-overheid-verschuldigde-btw
+  - datum: '2017-02-01'
+    titel: 'Invoer: douanerechten en verlegging van de heffing van de btw'
+    url: https://www.cbn-cnc.be/nl/adviezen/invoer-douanerechten-en-verlegging-van-de-heffing-van-de-btw
+  - datum: '2016-09-07'
+    titel: Prestaties geleverd aan overheid – verschuldigde btw
+    url: https://www.cbn-cnc.be/nl/adviezen/prestaties-geleverd-aan-overheid-verschuldigde-btw
 nummer: CBN-advies 2010/13
 provenance:
-  generated_at: '2026-05-11T15:15:31Z'
+  generated_at: '2026-05-11T17:48:39Z'
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-belasting-over-de-toegevoegde-waarde-in-hoofde-van-de
-    sha256: 756db94869f927c4b46b7cf51c063da0b0ec4779826778b0b1fd161f31c2995c
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-belasting-over-de-toegevoegde-waarde-in-hoofde-van-de
+      sha256: 756db94869f927c4b46b7cf51c063da0b0ec4779826778b0b1fd161f31c2995c
+      version:
   stale: false
-  stale_reason: null
+  stale_reason:
   tooling:
-    model: null
+    model:
     pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    prompt_version: null
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
     confirmed_at: '2026-05-11T13:23:04Z'
     confirmed_by: subagent-sonnet-4-6
     layer1:
-      file_size_chars: 10140
-      flags: []
-      heading_count: 4
-      max_section_chars: 4021
-      run_at: '2026-05-11T15:05:50Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:42Z'
+      heading_count: 4
+      max_section_chars: 4020
+      file_size_chars: 10136
+      flags: []
     layer2:
       agent: subagent-sonnet-4-6
       concrete_problemen:
-      - categorie: D1
-        regel: 90
-        type: abrupt-cutoff
-        voorbeeld: worden geacht door de btw-eenheid te worden verwezenlijkt (zin
-          eindigt zonder punt)
-      - categorie: D1
-        regel: 170
-        type: other
-        voorbeeld: aangesproken wordenvoor de eventuele navordering (ontbrekende spatie
-          tussen woorden)
-      rationale: 'Na scraper-fixes zijn de eerder gemelde zwevende voetnootankers
-        ([^14], [^15], [^16][^17]) niet meer aanwezig in de huidige versie — de body
-        is schoon. Heading-structuur correct (H1 + 4 ## secties). Alle voorbeeldboekingen
-        in pipe-tabellen. Kleinere restpunten: r90 mist een punt aan het einde van
-        een zin (''worden geacht door de btw-eenheid te worden verwezenlijkt'' — geen
-        punt) en r170 heeft ''aangesproken wordenvoor'' (ontbrekende spatie), maar
-        dit zijn cosmetische haarscheurtjes die leesbaarheid niet raken. Inhoud volledig.'
+        - categorie: D1
+          regel: 90
+          type: abrupt-cutoff
+          voorbeeld: worden geacht door de btw-eenheid te worden verwezenlijkt (zin eindigt zonder punt)
+        - categorie: D1
+          regel: 170
+          type: other
+          voorbeeld: aangesproken wordenvoor de eventuele navordering (ontbrekende spatie tussen woorden)
+      rationale: 'Na scraper-fixes zijn de eerder gemelde zwevende voetnootankers ([^14], [^15], [^16][^17]) niet meer aanwezig in de huidige versie — de body is schoon. Heading-structuur correct (H1 + 4 ## secties). Alle voorbeeldboekingen in pipe-tabellen. Kleinere restpunten: r90 mist een punt aan het einde van een zin (''worden geacht door de btw-eenheid te worden verwezenlijkt'' — geen punt) en r170 heeft ''aangesproken wordenvoor'' (ontbrekende spatie), maar dit zijn cosmetische haarscheurtjes die leesbaarheid niet raken. Inhoud volledig.'
       run_at: '2026-05-11T13:23:04Z'
       status: trusted
-    rationale: 'Na scraper-fixes zijn de eerder gemelde zwevende voetnootankers ([^14],
-      [^15], [^16][^17]) niet meer aanwezig in de huidige versie — de body is schoon.
-      Heading-structuur correct (H1 + 4 ## secties). Alle voorbeeldboekingen in pipe-tabellen.
-      Kleinere restpunten: r90 mist een punt aan het einde van een zin (''worden geacht
-      door de btw-eenheid te worden verwezenlijkt'' — geen punt) en r170 heeft ''aangesproken
-      wordenvoor'' (ontbrekende spatie), maar dit zijn cosmetische haarscheurtjes
-      die leesbaarheid niet raken. Inhoud volledig.'
+    rationale: 'Na scraper-fixes zijn de eerder gemelde zwevende voetnootankers ([^14], [^15], [^16][^17]) niet meer aanwezig in de huidige versie — de body is schoon. Heading-structuur correct (H1 + 4 ## secties). Alle voorbeeldboekingen in pipe-tabellen. Kleinere restpunten: r90 mist een punt aan het einde van een zin (''worden geacht door de btw-eenheid te worden verwezenlijkt'' — geen punt) en r170 heeft ''aangesproken wordenvoor'' (ontbrekende spatie), maar dit zijn cosmetische haarscheurtjes die leesbaarheid niet raken. Inhoud volledig.'
     status: trusted
 themas:
-- btw
-- btw-eenheid
-- diensten
-- hoofdelijke aansprakelijkheid
-- levering van goederen
-- toelichting
-- wachtrekening
+  - btw
+  - btw-eenheid
+  - diensten
+  - hoofdelijke aansprakelijkheid
+  - levering van goederen
+  - toelichting
+  - wachtrekening
 ---
 
 # CBN-advies 2010-13 - Boekhoudkundige verwerking van de belasting over de toegevoegde waarde in hoofde van de leden van een btw-eenheid Advies van 8 september 2010
 
 ## Algemeen
-
 Onder de naam belasting over de toegevoegde waarde (hierna: btw) werd een omzetbelasting ingevoerd, die geheven wordt onder de voorwaarden en met inachtneming van de regelen bepaald in het Wetboek van de belasting over de toegevoegde waarde (hierna: Wbtw)[^1].
 
 De belastingplichtigen moeten periodiek aangifte doen van het bedrag van de opeisbare belasting, van de te verrichten aftrek en van de te verrichten herzieningen[^2] en een aan de omvang van hun activiteiten aangepaste boekhouding voeren om de btw te kunnen toepassen en controleren[^3].
 
 ## Btw-eenheid
-
 Met ingang van 1 april 2007 voerde België de btw-eenheid in[^4]. 
 
 Het stelsel van de btw-eenheid laat toe in België gevestigde personen die in juridisch opzicht onafhankelijk zijn, maar op financieel, economisch en organisatorisch vlak nauw met elkaar verbonden zijn, voor de toepassing van het Wbtw als één belastingplichtige te beschouwen[^5].
@@ -94,7 +78,6 @@ De btw-eenheid wordt aangemerkt als één belastingplichtige en wordt als dusdan
 De btw-aangifte wordt door de vertegenwoordiger van de btw-eenheid ingediend onder het btw-identificatienummer van de btw-eenheid. Op basis van de verschillende boekhoudingen door de leden gehouden[^10], moet de vertegenwoordiger een gecentraliseerde btw-boekhouding bijhouden die hem moet toelaten de btw-aangifte op het niveau van de btw-eenheid correct in te vullen. Deze aangifte omvat het totaal bedrag van de handelingen van alle leden. Aldus wordt voor de btw-eenheid één periodieke btw-aangifte ingediend per aangifteperiode. Aangezien de btw-eenheid als zodanig één belastingplichtige is, zijn de leden van de btw-eenheid ten opzichte van de Staat hoofdelijk aansprakelijk voor alle btw-schulden van de eenheid[^11].
 
 ## Boekhoudkundige verwerking van de btw-schulden en -vorderingen in hoofde van de leden van de btw-eenheid
-
 Aan de Commissie werd de vraag gesteld hoe de terug te vorderen en verschuldigde btw in de boekhouding van de leden van de btw-eenheid moeten verwerkt worden.
 
 De btw-eenheid wordt zowel vanuit het oogpunt van de goederen en diensten die door derden worden geleverd, als vanuit het oogpunt van de leveringen voor derden, als één belastingplichtige beschouwd[^12]. Ook de invoer en intracommunautaire verwerving van goederen gedaan door elk lid, worden geacht door de btw-eenheid te worden verwezenlijkt
@@ -170,7 +153,6 @@ Op het moment van het indienen van de btw-aangifte door de vertegenwoordiger van
 | | 48 | Diverse schulden: btw-eenheid | 210 | |
 
 ## Hoofdelijke aansprakelijkheid voor schulden van de btw-eenheid
-
 De leden van de btw-eenheid zijn ten opzichte van de Staat hoofdelijk gehouden tot de voldoening van de btw, de intresten, de geldboeten en de kosten die opeisbaar zijn ingevolge de handelingen van de leden van de btw-eenheid[^18].
 
 Overeenkomstig artikel 25, § 3 K.B. W.Venn. dienen de verplichtingen die niet in de balans voorkomen en die het vermogen, de financiële positie of het resultaat van de vennootschap aanmerkelijk kunnen beïnvloeden, in de toelichting te worden vermeld. Elk lid van de btw-eenheid dient bijgevolg, gelet op de hoofdelijke aansprakelijkheid voor de schulden van de btw-eenheid, in zijn toelichting te vermelden dat hij lid is van een btw-eenheid. 

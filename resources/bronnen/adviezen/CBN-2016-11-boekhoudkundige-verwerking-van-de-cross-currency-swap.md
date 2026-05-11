@@ -13,45 +13,45 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/de-toepassing-van-de-algemene-boekhoudprincipes-op-afgeleide-financiele-instrumenten
 nummer: CBN-advies 2016/11
 provenance:
+  generated_at: '2026-05-11T17:48:39Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-cross-currency-swap
       sha256: 45282a2c7d1f6bcf5611098b6a097f274c6b2775b2ffb4aa47162f5f96ad7dec
       version:
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
-    status: needs-rework
     confirmed_at: '2026-05-11T17:09:38Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: 'E2: regel 237–238 bevat een multiline tabelcel waarbij de omschrijving `(Cross currency swap – vlottend)` op een nieuwe regel met tab-inspringing staat — breekt pipe-tabel-rendering. Regel 273: `| aan | 657 | Diverse financiële kosten) |` bevat een overtollige `)` in de cel als ETL-artefact. Inhoud en rekenkundige voorbeelden verder volledig correct.'
     layer1:
-      file_size_chars: 23519
-      flags: []
-      heading_count: 11
-      max_section_chars: 10031
-      run_at: '2026-05-11T15:05:52Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:43Z'
+      heading_count: 11
+      max_section_chars: 10029
+      file_size_chars: 23504
+      flags: []
     layer2:
-      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T17:09:38Z'
-      rationale: 'E2: regel 237–238 bevat een multiline tabelcel waarbij de omschrijving `(Cross currency swap – vlottend)` op een nieuwe regel met tab-inspringing staat — breekt pipe-tabel-rendering. Regel 273: `| aan | 657 | Diverse financiële kosten) |` bevat een overtollige `)` in de cel als ETL-artefact. Inhoud en rekenkundige voorbeelden verder volledig correct.'
       concrete_problemen:
-        - regel: 237
-          categorie: E2
+        - categorie: E2
+          regel: 237
           type: other
           voorbeeld: '| aan | 756 | Diverse financiële opbrengsten\n\t\t\t\t(Cross currency swap – vlottend) | (multiline tabelcel)'
-        - regel: 273
-          categorie: E2
+        - categorie: E2
+          regel: 273
           type: other
           voorbeeld: '| aan | 657 | Diverse financiële kosten) | | 4.375 | (overtollige ) in cel)'
+      rationale: 'E2: regel 237–238 bevat een multiline tabelcel waarbij de omschrijving `(Cross currency swap – vlottend)` op een nieuwe regel met tab-inspringing staat — breekt pipe-tabel-rendering. Regel 273: `| aan | 657 | Diverse financiële kosten) |` bevat een overtollige `)` in de cel als ETL-artefact. Inhoud en rekenkundige voorbeelden verder volledig correct.'
+      run_at: '2026-05-11T17:09:38Z'
+      status: needs-rework
+    rationale: 'E2: regel 237–238 bevat een multiline tabelcel waarbij de omschrijving `(Cross currency swap – vlottend)` op een nieuwe regel met tab-inspringing staat — breekt pipe-tabel-rendering. Regel 273: `| aan | 657 | Diverse financiële kosten) |` bevat een overtollige `)` in de cel als ETL-artefact. Inhoud en rekenkundige voorbeelden verder volledig correct.'
+    status: needs-rework
 themas:
   - afgeleide financiële instrumenten
   - cross currency swap
@@ -70,9 +70,7 @@ themas:
 # CBN-advies 2016/11 - Boekhoudkundige verwerking van de cross currency swap
 
 ## Inleiding
-
 ### Situering van de cross currency swap
-
 In het CBN-advies 2010/12 - De toepassing van de algemene boekhoudprincipes op afgeleide financiële instrumenten,[^2] heeft de Commissie besloten om deze algemene boekhoudprincipes voor afgeleide financiële instrumenten te verduidelijken aan de hand van concrete gevallen. Nadat de boekhoudkundige verwerking van de renteswap reeds werd uiteengezet in CBN-advies 2011/18,[^3] zal in onderhavig advies de boekhoudkundige verwerking van de cross *currency* swap worden behandeld.
 
 D. Shirreff omschrijft de cross currency swap als: *“(…) an exchange of debt into another currency until maturity, when repayment is made in the original currency, often at a pre-agreed exchange rate. When two counter parties are swapping equivalent amounts of different currencies a formula is worked out to take account of the interest rate differential and exchange rate differential over the term of the swap. In a classic case, one counterparty with a good US credit rating but poor access to the Swiss franc market agrees to swap a fixed rate dollars for fixed rate Swiss francs, to benefit from the relatively low Swiss franc interest rates. The counter party with good access to the Swiss market is looking for the cheap dollars that the good US credit can provide. The basis of the simplest currency swap is a spot currency transaction between the two counter parties which is reversed at the end of the swap. Each counter party pays interest on the other’s loan as if it were the borrower. The predicted interest and exchange rate differentials in the two currencies are divided into notional annual or semi-annual payments which are netted out between the two parties, usually with the intermediation of a bank.”[^4] *
@@ -88,10 +86,8 @@ De cross currency swap heeft dan ook enkele gelijkenissen met de renteswap, maar
 
 Conceptueel kan dus worden gesteld dat een cross currency swap niets anders is dan twee parallelle leningen.
 
-### Types van cross currency swaps[^6]
-
+### Types van cross currency swaps
 #### *Fixed-to-fixed* cross currency swap
-
 De *fixed-to-fixed* cross currency swap werd voornamelijk door de Wereldbank[^7] veelvuldig toegepast en is een overeenkomst waarbij twee betalingen in een verschillende vreemde valuta periodiek ten opzichte van elkaar worden uitgewisseld. Deze swap is gebaseerd op de volgende beginselen:
 
 - de kosten voor het mobiliseren van fondsen via een swap zijn lager dan bij een rechtstreekse ontlening op de kapitaalmarkt; 
@@ -101,15 +97,12 @@ De *fixed-to-fixed* cross currency swap werd voornamelijk door de Wereldbank[^7]
 Hetzelfde resultaat als een *fixed-to-fixed* cross currency swap wordt bereikt door termijnovereenkomsten af te sluiten op de wisselmarkt voor vreemde valuta.
 
 #### *Fixed-to-floating* cross currency swap
-
 De *fixed-to-floating* cross currency swap is een combinatie van een *coupon swap* met een fixed-to-fixed cross currency swap. Een van de twee partijen zet de financiering met vaste interest in een bepaalde valuta om in een financiering met vlottende interest in een andere valuta, inclusief de betaling van de hoofdsom op de vervaldag.
 
 #### De *floating-to-floating* cross currency swap
-
 De *floating-to-floating* cross currency swap wordt omschreven als een overeenkomst tussen twee partijen, waarbij de ene partij zich ertoe verbindt om de interest en het hoofdbedrag te betalen van de schuld met vlottende rente, die is aangegaan door de andere partij. De tegenpartij verbindt zich ertoe de rente en de hoofdsom te betalen van de schuld die door de eerste partij is aangegaan.
 
 ## Uitgewerkt voorbeeld
-
 De eerste partij is een Belgische vennootschap A die 50.000.000 USD wenst te lenen voor 5 jaar om een dochteronderneming in de Verenigde Staten te financieren. De kredietvoorwaarden in de Verenigde Staten zijn voor de Belgische vennootschap A niet optimaal: zij kan van een Amerikaanse financiële instelling slechts een rechtstreekse financiering krijgen aan een rentevoet van 10 % voor een lening in USD op 5 jaar. Vennootschap A kan echter wel op de Belgische markt lenen tegen een rentevoet van 8 % voor een lening in EUR op 5 jaar.
 
 De tegenpartij, vennootschap B, is een multinational die aan zeer gunstige voorwaarden kan lenen, ongeacht de geografische locatie. Vennootschap B dient 7,5 % rente betalen voor een lening in EUR op 5 jaar en 9 % voor een lening in USD op 5 jaar. Vennootschap B wenst een lening in EUR op 5 jaar op te nemen.
@@ -134,7 +127,6 @@ Zowel vennootschap A als B heeft door deze verrichting een financiering verkrege
 Vennootschap B betaalt haar financiers 9 % rente. Daarnaast betaalt ze 7,60 % rente uit de swap en ontvangt ook 9,35 % rente uit diezelfde cross currency swap. Dit resulteert in een netto rentelast van 7,25 % (ofwel 9% te betalen + 7,60% te betalen – 9,35% te ontvangen, geeft 7,25%) voor een lening in EUR op 5 jaar, waarvoor ze normaliter 7,50 % rente zou dienen te betalen.
 
 ## Boekhoudkundige behandeling van de cross currency swap
-
 De boekhoudkundige verwerking van de resultaten van de cross currency swap zal verschillen naargelang de reden waarvoor deze overeenkomsten werden afgesloten. De volgende gevallen zijn mogelijk:[^11] 
 
 - specifieke indekkingsverrichting van monetaire activa en passiva; 
@@ -166,7 +158,6 @@ De omrekeningsverschillen die in de overlopende rekeningen werden geboekt, worde
 Het merendeel van de vennootschappen die een cross currency swap transactie afsluiten, zullen ervoor opteren om zowel de positieve als de negatieve omrekeningsverschillen in resultaat te erkennen om de economische compensatie van de omrekeningsverschillen tevens boekhoudkundig te verkrijgen. Vandaar dat de Commissie in het hiernavolgend voorbeeld enkel de tweede mogelijkheid illustreert.
 
 #### Voorbeeld
-
 Op 1 december 2013 krijgt een Belgische vennootschap van haar moedermaatschappij een lening van 1.000.000 USD met vlottende rente (LIBOR op 6 maanden + 0,5 %) en met vervaldag 31 december 2015. Het wisselrisico wordt ingedekt door een cross currency swap af te sluiten met een looptijd van twee jaar waarbij 1.000.000 USD wordt betaald in ruil voor 750.000 EUR.
 
 Op het USD-bedrag ontvangt de vennootschap USD-LIBOR op 6 maanden en betaalt zij een vaste rentevoet van 7 % op het EUR-bedrag.
@@ -183,7 +174,6 @@ De USD/EUR-koers evolueert als volgt:
 Bij afsluiting van de overeenkomst bedraagt de USD-LIBOR op 6 maanden 6%. De vennootschap neemt zowel de positieve als negatieve omrekeningsverschillen in resultaat en maakt geen gebruik van de overlopende rekeningen.
 
 #### Boekhoudkundige verwerking
-
 *Op 1 december 2013*
 
 Op 1 december 2013 wordt de verkregen lening geboekt.
@@ -346,7 +336,6 @@ De volgende boeking betreft de terugbetaling op vervaldag van de lening, die inm
 Als gevolg van de cross currency swap heeft de vennootschap haar wisselresultaat volledig ingedekt.
 
 ### Cross currency swap voor indekkingsverrichting van toekomstige verrichtingen
-
 Een vennootschap kan een prospectieve cross currency swap (*forward-starting* cross currency swap) afsluiten om een toekomstige schuld in vreemde valuta in te dekken (tegen een vaste of variabele rentevoet). Zolang het waarschijnlijk blijft dat de toekomstige schuld zal worden aangegaan, moet er geen voorziening worden geboekt in het geval van een eventuele latente minderwaarde op de cross currency swap. Indien het echter niet meer waarschijnlijk is dat de schuld zal worden aangegaan, dient de cross currency swap te worden verwerkt als een speculatieve verrichting volgens de principes van het CBN-advies 2010/12.
 
 [^1]: Onderhavig advies is tot stand gekomen nadat het ontwerp van dit advies op 21 april 2016 ter publieke consultatie werd gepubliceerd op de website van de CBN.

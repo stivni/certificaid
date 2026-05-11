@@ -3,45 +3,45 @@ bron: https://www.cbn-cnc.be/nl/adviezen/gegeven-borgtochten-in-contanten-en-eff
 datum: 2017-02-01
 nummer: CBN-advies 2017/04
 provenance:
+  generated_at: '2026-05-11T17:48:39Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/gegeven-borgtochten-in-contanten-en-effecten-update
       sha256: 43a9e497b9a01bd3cd9f1045f41cc40ead351e4b7b5c88168b7d0b195b380ac5
       version:
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
-    status: needs-rework
     confirmed_at: '2026-05-11T17:13:30Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "A6/G3: regel 55 (body) bevat ', bijgewerkt op 10 september 2025[^2]' als losstaand fragment direct na H1 — scraper-artefact. D4: regel 67 (body) bevat '750* Opbrengsten uit financiële vaste activa*' waarbij de asterisk direct aan het rekeningsnummer kleeft zonder spatie — broken italic openingsmarkering. Klein advies, inhoud verder volledig."
     layer1:
-      file_size_chars: 2566
-      flags: []
-      heading_count: 2
-      max_section_chars: 1989
-      run_at: '2026-05-11T15:05:52Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:44Z'
+      heading_count: 2
+      max_section_chars: 1988
+      file_size_chars: 2564
+      flags: []
     layer2:
-      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T17:13:30Z'
-      rationale: "A6/G3: regel 55 (body) bevat ', bijgewerkt op 10 september 2025[^2]' als losstaand fragment direct na H1 — scraper-artefact. D4: regel 67 (body) bevat '750* Opbrengsten uit financiële vaste activa*' waarbij de asterisk direct aan het rekeningsnummer kleeft zonder spatie — broken italic openingsmarkering. Klein advies, inhoud verder volledig."
       concrete_problemen:
-        - regel: 55
-          categorie: A6
+        - categorie: A6
+          regel: 55
           type: other
           voorbeeld: ', bijgewerkt op 10 september 2025[^2]'
-        - regel: 67
-          categorie: D4
+        - categorie: D4
+          regel: 67
           type: other
           voorbeeld: De rekeningen 750* Opbrengsten uit financiële vaste activa* en 751
+      rationale: 'A6/G3: regel 55 (body) bevat '', bijgewerkt op 10 september 2025[^2]'' als losstaand fragment direct na H1 — scraper-artefact. D4: regel 67 (body) bevat ''750* Opbrengsten uit financiële vaste activa*'' waarbij de asterisk direct aan het rekeningsnummer kleeft zonder spatie — broken italic openingsmarkering. Klein advies, inhoud verder volledig.'
+      run_at: '2026-05-11T17:13:30Z'
+      status: needs-rework
+    rationale: 'A6/G3: regel 55 (body) bevat '', bijgewerkt op 10 september 2025[^2]'' als losstaand fragment direct na H1 — scraper-artefact. D4: regel 67 (body) bevat ''750* Opbrengsten uit financiële vaste activa*'' waarbij de asterisk direct aan het rekeningsnummer kleeft zonder spatie — broken italic openingsmarkering. Klein advies, inhoud verder volledig.'
+    status: needs-rework
 themas:
   - borgtochten
   - borgtochten in contanten
@@ -55,13 +55,11 @@ themas:
 , bijgewerkt op 10 september 2025[^2]
 
 ## Inleiding
-
 Aan de Commissie werd de vraag gesteld op welke rekening van het algemeen rekeningstelsel een borgverstrekker een gegeven borgtocht in effecten boekhoudkundig dient te registreren.
 
 Daarnaast werd tevens de zienswijze van de Commissie gevraagd omtrent de boekhoudkundige verwerking van interesten[^3] met betrekking tot een geboekte borg op rekening 288 *Borgtochten betaald in contanten* en 418 *Borgtochten betaald in contanten*.
 
 ## Conclusie
-
 In artikel 3:89 van het koninklijk besluit tot uitvoering van het Wetboek van vennootschappen en verenigingen wordt bepaald dat borgtochten dienen te worden opgenomen als deel van de financiële vaste activa indien deze borgtochten worden gestort als doorlopende waarborg. Dit impliceert dat ze duurzaam worden aangehouden.
 
 Daarnaast, indien een borg vervalt binnen de 12 maanden lijkt het aangewezen het op te nemen op de rekening 418 *Borgtochten betaald in contanten*. De rekeningen 750* Opbrengsten uit financiële vaste activa* en 751 *Opbrengsten uit vlottende activa* corresponderen respectievelijk met de rekeningen 288 *Borgtochten betaald in contanten* en 418 *Borgtochten betaald in contanten* voor de verwerking van eventuele financiële opbrengsten (interesten of dividenden).

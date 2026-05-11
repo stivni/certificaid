@@ -3,44 +3,42 @@ bron: https://www.cbn-cnc.be/nl/adviezen/schulden-op-meer-dan-een-jaar-prefinanc
 datum: 1986-03-01
 nummer: CBN-advies 137/3
 provenance:
-  generated_at: '2026-05-11T15:15:31Z'
+  generated_at: '2026-05-11T17:48:38Z'
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/schulden-op-meer-dan-een-jaar-prefinanciering-van-langlopende-leningen
-    sha256: 2cba114a45e58cc130f8caade7b3c1a58ac0efc21f116a912e7eb6e348c481b4
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/schulden-op-meer-dan-een-jaar-prefinanciering-van-langlopende-leningen
+      sha256: 2cba114a45e58cc130f8caade7b3c1a58ac0efc21f116a912e7eb6e348c481b4
+      version:
   stale: false
-  stale_reason: null
+  stale_reason:
   tooling:
-    model: null
+    model:
     pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    prompt_version: null
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
     confirmed_at: '2026-05-11T12:04:41Z'
     confirmed_by: subagent-sonnet-4-6
     layer1:
-      file_size_chars: 1406
-      flags: []
+      status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:41Z'
       heading_count: 0
       max_section_chars: 1406
-      run_at: '2026-05-11T15:05:49Z'
-      run_id: 20260511-150547
-      status: pass
+      file_size_chars: 1406
+      flags: []
     layer2:
       agent: subagent-sonnet-4-6
       concrete_problemen: []
-      rationale: Kort advies (1406 tekens), clean prose, geen artefacten. Inhoud volledig
-        en logisch afgerond.
+      rationale: Kort advies (1406 tekens), clean prose, geen artefacten. Inhoud volledig en logisch afgerond.
       run_at: '2026-05-11T12:04:41Z'
       status: trusted
-    rationale: Kort advies (1406 tekens), clean prose, geen artefacten. Inhoud volledig
-      en logisch afgerond.
+    rationale: Kort advies (1406 tekens), clean prose, geen artefacten. Inhoud volledig en logisch afgerond.
     status: trusted
 themas:
-- overbruggingskrediet
-- prefinanciering van langlopende leningen
-- schulden
-- schulden op meer dan één jaar
+  - overbruggingskrediet
+  - prefinanciering van langlopende leningen
+  - schulden
+  - schulden op meer dan één jaar
 ---
 
 # CBN-advies 137/3 - Schulden op meer dan één jaar - Prefinanciering van langlopende leningen

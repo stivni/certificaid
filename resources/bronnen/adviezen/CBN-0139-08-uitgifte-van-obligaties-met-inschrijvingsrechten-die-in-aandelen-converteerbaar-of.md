@@ -7,57 +7,57 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/verwerking-van-uitgegeven-inschrijvingsrechten-in-de-jaarrekening
 nummer: CBN-advies 139/8
 provenance:
+  generated_at: '2026-05-11T17:48:38Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/uitgifte-van-obligaties-met-inschrijvingsrechten-die-in-aandelen-converteerbaar-of
       sha256: 71f2fc6846b0a42b29c0df5f6db38b2e372ff7c0647f3636876c31b454bb11a9
       version:
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
-    status: needs-rework
     confirmed_at: '2026-05-11T17:05:21Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: 'B1 (regels 119, 125, 130): drie wiskundige formules staan nog steeds als ### headings. B5 (regel 152) en B3 (regel 169): subsecties a) en b) zijn plain tekst terwijl c) een ### heading heeft — inconsistent. B2-probleem (#### zonder ##/###) lijkt gecorrigeerd naar ## in huidige versie. Kernproblemen B1 en B5/B3 blijven aanwezig.'
     layer1:
-      file_size_chars: 22091
-      flags: []
-      heading_count: 10
-      max_section_chars: 11097
-      run_at: '2026-05-11T15:05:49Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:41Z'
+      heading_count: 8
+      max_section_chars: 12280
+      file_size_chars: 22061
+      flags: []
     layer2:
-      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T17:05:21Z'
-      rationale: 'B1 (regels 119, 125, 130): drie wiskundige formules staan nog steeds als ### headings. B5 (regel 152) en B3 (regel 169): subsecties a) en b) zijn plain tekst terwijl c) een ### heading heeft — inconsistent. B2-probleem (#### zonder ##/###) lijkt gecorrigeerd naar ## in huidige versie. Kernproblemen B1 en B5/B3 blijven aanwezig.'
       concrete_problemen:
-        - regel: 119
-          categorie: B1
+        - categorie: B1
+          regel: 119
           type: other
           voorbeeld: '### 1.000.000 = 747.258'
-        - regel: 125
-          categorie: B1
+        - categorie: B1
+          regel: 125
           type: other
           voorbeeld: '### 40.000 + 40.000 + 40.000 + 40.000 + 40.000 = 168.494'
-        - regel: 130
-          categorie: B1
+        - categorie: B1
+          regel: 130
           type: other
           voorbeeld: '### 60.000 + 60.000 + 60.000 + 60.000 + 60.000 = 252.742'
-        - regel: 152
-          categorie: B5
+        - categorie: B5
+          regel: 152
           type: other
           voorbeeld: 'a) Bij de uitgifte van de lening :'
-        - regel: 169
-          categorie: B3
+        - categorie: B3
+          regel: 169
           type: other
           voorbeeld: '### c) Bij de terugbetaling van de lening'
+      rationale: 'B1 (regels 119, 125, 130): drie wiskundige formules staan nog steeds als ### headings. B5 (regel 152) en B3 (regel 169): subsecties a) en b) zijn plain tekst terwijl c) een ### heading heeft — inconsistent. B2-probleem (#### zonder ##/###) lijkt gecorrigeerd naar ## in huidige versie. Kernproblemen B1 en B5/B3 blijven aanwezig.'
+      run_at: '2026-05-11T17:05:21Z'
+      status: needs-rework
+    rationale: 'B1 (regels 119, 125, 130): drie wiskundige formules staan nog steeds als ### headings. B5 (regel 152) en B3 (regel 169): subsecties a) en b) zijn plain tekst terwijl c) een ### heading heeft — inconsistent. B2-probleem (#### zonder ##/###) lijkt gecorrigeerd naar ## in huidige versie. Kernproblemen B1 en B5/B3 blijven aanwezig.'
+    status: needs-rework
 themas:
   - uitgegeven convertereerbare obligaties
   - uitgegeven inschrijvingsrechten
@@ -82,7 +82,6 @@ In haar advies 139/7[^1] heeft de Commissie onderzocht hoe warrants (inschrijvin
 De Commissie heeft beslist een bijkomend onderzoek te wijden aan, enerzijds, de uitgifte van warrants gekoppeld aan de uitgifte van een obligatielening of een aanbod tot inschrijving op nieuwe aandelen, en, anderzijds, de uitgifte van in aandelen converteerbare obligaties. Alle voornoemde gevallen alsook de in aandelen terugbetaalbare obligaties komen in dit advies aan bod. 
 
 ## Uitgifte van obligaties met het recht tot inschrijving op aandelen
-
 Het feit dat, bij een uitgifte van obligaties, een inschrijvingsrecht wordt gekoppeld aan aandelen, weerspiegelt over het algemeen de bezorgdheid om de aan de obligaties te koppelen rente te beperken. Over het algemeen zal aan die obligaties immers een lagere rente kunnen worden gekoppeld dan de op de uitgiftedatum geldende marktrente voor niet-converteerbare leningsbewijzen of leningsbewijzen zonder inschrijvingsrecht met soortgelijke kenmerken. De inschrijvers zijn doorgaans immers bereid een lagere rente te aanvaarden in ruil voor de mogelijkheid om later op de aandelen van de vennootschap te kunnen inschrijven tegen een lagere prijs dan de koers van de betrokken aandelen (op de datum waarop het inschrijvingsrecht wordt uitgeoefend) en zo een speculatieve winst te realiseren op de koersstijging van het aandeel, zonder echter het risico op verlies te lopen bij een koersdaling.
 
 Het voordeel voor de uitgevende vennootschap is dus dat zij zich goedkoper kan financieren (lagere rente dan de marktrente voor gewone obligaties), wat, onder overigens gelijke omstandigheden, zal blijken uit een verbeterd resultaat dat tijdens de hele looptijd van de lening ten goede zal komen aan haar aandeelhouders. 
@@ -117,18 +116,15 @@ Er wordt een obligatielening ten belope van 1 000 000 uitgegeven met een looptij
 	Met andere woorden : 
 
 ### 1.000.000 = 747.258
-
    (1,06)5
 
 - Het deel dat, op het ogenblik van de uitgifte, de geactualiseerde waarde vertegenwoordigt van het renteverschil tussen de effectieve rente van de lening en de marktrente, kan op diverse manieren opnieuw worden samengesteld, waarbij steeds wordt uitgegaan van de actualisering van de «rente»-component van de lening tegen marktrente : 
 
 ### 40.000 + 40.000 + 40.000 + 40.000 + 40.000 = 168.494
-
 (1,06) (1,06)2 (1,06)3 (1,06)4 (1,06)5 
 
 • Als dit bedrag wordt vergeleken met de geactualiseerde waarde van de effectieve rente van de lening, namelijk :
 ### 60.000 + 60.000 + 60.000 + 60.000 + 60.000 = 252.742
-
  (1,06) (1,06)2 (1,06)3 (1,06)4 (1,06)5 
 
 bedraagt het verschil tussen beide bedragen 84.248 (252.742 - 168.494) en stemt het (in geactualiseerde vorm) overeen met het renteverschil.
@@ -167,7 +163,6 @@ b) Boekingen die elk jaar moeten worden verricht :
 | aan | 1711 | [Niet-converteerbare] obligatielening | | 14.945 |
 
 ### c) Bij de terugbetaling van de lening
-
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 1711 | [Niet-converteerbare] obligatielening | 1.000.000 | |
@@ -178,7 +173,6 @@ Er moet worden onderstreept dat de voornoemde 84.248 verder in post 11 «Uitgift
 Onverminderd de fiscale verwerking die voortvloeit uit de door de betrokken onderneming gemaakte keuze, is de Commissie van oordeel dat bij de tweede benadering de financiële realiteit en de bedoelingen van de partijen correcter worden weergegeven. Die benadering verdient als dusdanig dan ook de voorkeur. Niettemin spreekt het voor zich dat ook de eerste benadering coherent en logisch en bijgevolg ook aanvaardbaar is.
 
 ## In aandelen converteerbare obligaties
-
 Aandelen die uitsluitend op de vervaldatum van de lening kunnen worden geconverteerd
 Dezelfde redenering en dezelfde conclusies zijn - mutatis mutandis - van toepassing op de uitgiften van in aandelen converteerbare leningen. Zoals bij de uitgifte van leningen met inschrijvingsrechten blijft het in de post *Uitgiftepremie* geboekte bedrag in die post behouden ongeacht of de obligatie, op terugbetalingsdatum, in aandelen wordt geconverteerd. Die stijging van het eigen vermogen is eigenlijk de "kristallisatie" van de winst die de uitgevende vennootschap boekt door zich te financieren tegen een lager lastenpercentage dan de marktrente voor soortgelijke, niet-converteerbare instrumenten.
 
@@ -192,7 +186,6 @@ Een dergelijk actualiseringsmechanisme impliceert echter dat de inning van de re
 Bijgevolg moet het bedrag van de uitgifteprijs van een dergelijk effect worden geboekt in een passende post bij de leningen op lange termijn[^6].
 
 ## In aandelen terugbetaalbare obligaties
-
 De in aandelen terugbetaalbare obligaties zijn effecten die verplicht en uitsluitend in aandelen worden terugbetaald conform de in de uitgiftevoorwaarden vastgelegde verhouding. Ze verschillen in die zin van converteerbare obligaties dat hun houders, wanneer zij beslissen om geen gebruik te maken van hun recht op conversie, hun obligaties op vervaldatum niet in contanten kunnen doen terugbetalen.
 
 Over hun juridische kwalificatie bestaat - binnen de Franse doctrine toch - een zekere controverse. Bepaalde auteurs[^7] zijn immers van oordeel dat er hier geen sprake is van een obligatielening, hoewel het zo lijkt, omdat de obligaties noodzakelijkerwijs in aandelen worden terugbetaald, en dat de houder van dergelijke obligaties geen aanspraak maakt op een som geld, maar op aandelen. De door de obligatiehouders voorgeschoten middelen worden dus ook niet verstrekt in het kader van een lening, maar als een inschrijving op een uitgestelde kapitaalverhoging. Conform die benadering gaat het hier om een formule waarbij de in aandelen terugbetaalbare obligaties effecten zouden zijn die een vervroegde volstorting van nog uit te geven aandelen vertegenwoordigen, ofwel effecten die toekomstige aandelen vertegenwoordigen die, voor hun uitgifte, vervroegd worden volgestort. 
@@ -209,7 +202,6 @@ Rekening houdend met de specifieke kenmerken van dat soort obligaties dat uitslu
 Bij de terugbetaling in aandelen wordt het bedrag dat is geboekt aan de creditzijde van de ad hoc rekening van de financiële schulden op lange termijn, vereffend en rechtstreeks geboekt in de betrokken rekeningen van het eigen vermogen. Die rechtstreekse boeking sluit aan bij het[^13] advies 121/4, waarin de Commissie heeft gesteld dat kapitaalverhogingen of verhogingen van de uitgiftepremie via inbreng door de vennoten of via omzetting van schuldvorderingen worden tegengeboekt in een balanspost, zonder te worden opgenomen in de resultatenrekening of de resultaatverwerking.
 
 ## Aanbod tot inschrijving op aandelen waaraan het recht is gekoppeld om in te schrijven op later uit te geven aandelen
-
 Het gebeurt ook dat, op het ogenblik waarop nieuwe aandelen worden uitgegeven, warrants worden gecreëerd die de inschrijvers op de nieuwe aandelen het recht geven om later tegen een vastgestelde prijs in te schrijven op nieuw uit te geven aandelen. Krachtens artikel 101*quater* van de vennootschapswet geldt het voorkeurrecht van de vroegere aandeelhouders ook bij de toekenning van die warrants.
 
 Deze techniek heeft tot gevolg dat een bijkomend speculatief voordeel wordt gekoppeld aan de inschrijving op de uitgegeven aandelen, wat de plaatsing bevordert of een verhoging van de uitgifteprijs mogelijk maakt.

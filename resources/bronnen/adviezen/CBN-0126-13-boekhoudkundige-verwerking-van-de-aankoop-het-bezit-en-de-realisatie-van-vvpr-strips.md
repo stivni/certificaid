@@ -16,49 +16,49 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/verrichtingen-met-betrekking-tot-inschrijvingsrechten
 nummer: CBN-advies 126/13
 provenance:
+  generated_at: '2026-05-11T17:48:38Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-aankoop-het-bezit-en-de-realisatie-van-vvpr-strips
       sha256: 0d6a48c52faec16cb2f9a9dfdd10fd5b8637def5f098e159716dd410db165dea
       version:
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
-    status: needs-rework
     confirmed_at: '2026-05-11T17:05:20Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "A5 op L87: heading '## Beschrijving van het mechanisme van de «VVPR-strips' opent een guillemet «  maar sluit die niet — ETL-artefact. B5 op L135: 'Vragen in verband met de vaststelling van de «aanschaffingswaarde» van «VVPR-strips»' staat als plain tekst paragraaf terwijl het in de TOC (L78) als subsectie 3.2 is opgenomen en een ### heading had moeten zijn. Typo 'VVPS-strip' (L74, L113) lijkt source-typo (consistent in TOC en heading)."
     layer1:
-      file_size_chars: 20985
-      flags: []
-      heading_count: 9
-      max_section_chars: 9600
-      run_at: '2026-05-11T15:05:48Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:41Z'
+      heading_count: 8
+      max_section_chars: 8017
+      file_size_chars: 20275
+      flags: []
     layer2:
-      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T17:05:20Z'
-      rationale: "A5 op L87: heading '## Beschrijving van het mechanisme van de «VVPR-strips' opent een guillemet «  maar sluit die niet — ETL-artefact. B5 op L135: 'Vragen in verband met de vaststelling van de «aanschaffingswaarde» van «VVPR-strips»' staat als plain tekst paragraaf terwijl het in de TOC (L78) als subsectie 3.2 is opgenomen en een ### heading had moeten zijn. Typo 'VVPS-strip' (L74, L113) lijkt source-typo (consistent in TOC en heading)."
       concrete_problemen:
-        - regel: 87
-          categorie: A5
+        - categorie: A5
+          regel: 87
           type: other
           voorbeeld: '## Beschrijving van het mechanisme van de «VVPR-strips (openend guillemet niet gesloten)'
-        - regel: 135
-          categorie: B5
+        - categorie: B5
+          regel: 135
           type: other
           voorbeeld: 'Vragen in verband met de vaststelling van de «aanschaffingswaarde» van «VVPR-strips» (plain tekst, geen ### heading)'
-        - regel: 74
-          categorie: B5
+        - categorie: B5
+          regel: 74
           type: source-typo
           voorbeeld: 2. Juridisch statuut van de "VVPS-strip" (VVPS i.p.v. VVPR — vermoedelijk source-typo)
+      rationale: 'A5 op L87: heading ''## Beschrijving van het mechanisme van de «VVPR-strips'' opent een guillemet «  maar sluit die niet — ETL-artefact. B5 op L135: ''Vragen in verband met de vaststelling van de «aanschaffingswaarde» van «VVPR-strips»'' staat als plain tekst paragraaf terwijl het in de TOC (L78) als subsectie 3.2 is opgenomen en een ### heading had moeten zijn. Typo ''VVPS-strip'' (L74, L113) lijkt source-typo (consistent in TOC en heading).'
+      run_at: '2026-05-11T17:05:20Z'
+      status: needs-rework
+    rationale: 'A5 op L87: heading ''## Beschrijving van het mechanisme van de «VVPR-strips'' opent een guillemet «  maar sluit die niet — ETL-artefact. B5 op L135: ''Vragen in verband met de vaststelling van de «aanschaffingswaarde» van «VVPR-strips»'' staat als plain tekst paragraaf terwijl het in de TOC (L78) als subsectie 3.2 is opgenomen en een ### heading had moeten zijn. Typo ''VVPS-strip'' (L74, L113) lijkt source-typo (consistent in TOC en heading).'
+    status: needs-rework
 themas:
   - aandelen
   - aanschaffingswaarde
@@ -74,22 +74,9 @@ themas:
 
 # CBN-advies 126/13 - Boekhoudkundige verwerking van de aankoop, het bezit en de realisatie van «VVPR-strips»
 
-1. Beschrijving van het mechanisme van de «VVPR-strips 
-2. Juridisch statuut van de "VVPS-strip" 
-3. Boekhoudkundige verwerking
-
-  1. Boekhoudrechtelijke kwalificatie van «VVPR-strips» 
-  2. Vragen in verband met de vaststelling van de «aanschaffingswaarde» van «VVPR-strips» 
-    1. Strips afzonderlijk verworven op de secundaire markt 
-    2. Bepaling van de respectieve aanschaffingswaarde van het gewone aandeel en van de strip ontstaan uit de splitsing van een VVPR-aandeel 
-    3. Strips verkregen samen met nieuwe gewone aandelen waarop is ingeschreven ingevolge een openbaar beroep op het spaarderspubliek 
-
-  3. Vragen in verband met de realisatie van "VVPR-strips" 
-
 De Commissie werd om advies gevraagd over diverse aspecten van de boekhoudkundige verwerking van «VVPR-strips», waarvan het mechanisme hieronder wordt toegelicht. 
 
 ## Beschrijving van het mechanisme van de «VVPR-strips
-
 «VVPR»-aandelen (Verlaagde Voorheffing/Précompte Réduit) vallen onder de regeling van artikel 269 W.I.B. 92[^1]. Krachtens deze bijzondere belastingregeling geldt een verlaagde roerende voorheffing (thans 15 %[^2]) o.a. voor : 
 
 - dividenden van genoteerde AFV-aandelen ten aanzien waarvan de emittent heeft afgezien van de AFV-kenmerken; en 
@@ -115,14 +102,11 @@ In de praktijk is het zo dat een houder van gelijk welk (al dan niet ex-VVPR-) a
 Het voordeel van «strippen» is dan ook dat VVPR-aandelen liquider worden omdat alle aandelen van eenzelfde vennootschap (gewone en VVPR-aandelen) onderling vervangbaar zijn en de «VVPR-strips» los van de aandelen kunnen worden verhandeld. 
 
 ## Juridisch statuut van de "VVPS-strip"
-
 Zoals de Commissie voor het Bank- en Financiewezen reeds aanstipte in haar jaarverslag voor 1994/1995, belichaamt de «strip» het recht van zijn eigenaar op een roerende voorheffing van 15 % in plaats van 25 % op de dividenden van de aandelen in zijn bezit. «Hoewel het de vennootschap waarvan de aandelen recht geven op de verlaagde roerende voorheffing, toekomt om, in het belang van haar aandeelhouders, te beslissen gebruik te maken van de in het (voornoemde) bericht van de Administratie van de Thesaurie geboden mogelijkheid en dus te opteren voor de formule van de «VVPR-strips», moet evenwel worden opgemerkt dat de «strip» een recht is dat geldt ten aanzien van de Staat en dat zijn oorsprong vindt in de fiscale wetgeving en dus niet in een beslissing van de vennootschap.[^4]
 » 
 
-## Boekhoudkundige verwerking[^5]
-
+## Boekhoudkundige verwerking
 ### Boekhoudrechtelijke kwalificatie van «VVPR-strips»
-
 Door het strippen van het VVPR-voordeel, wordt het couponblad met de vermelding VVPR-strip ten opzichte van het «onderliggend» aandeel een apart financieel actief dat ook afzonderlijk wordt genoteerd. Het lijkt dan ook volkomen onlogisch de boekhoudrechtelijke kwalificatie van VVPR-strips af te stemmen op die van aandelen (krachtens het beginsel «Accessorium sequitur principale»[^6]). 
 
 Getoetst aan de boekhoudnormen van het I.A.S.C., het zogenaamde «conceptual framework», blijkt duidelijk dat een VVPR-strip voldoet aan alle voorwaarden om als een actief gekwalificeerd te kunnen worden. Voor de onderneming is het immers een inkomst die voortvloeit uit een eerdere beslissing (namelijk om haar aandelen te strippen), met economische voordelen voor de toekomst. Belangrijk in een dergelijke benadering is dat het begrip «economisch voordeel verbonden aan een actief» overeenstemt met het vermogen van dat actief om rechtstreeks of onrechtstreeks bij te dragen tot een stroom van liquide of gelijkwaardige middelen ten bate van de onderneming. Dit is het geval bij een VVPR-strip. Het feit dat de strip kosteloos is verworven, doet overigens niets af aan een dergelijke kwalificatie; het I.A.S.C. onderstreept in dit verband trouwens het volgende : 
@@ -144,13 +128,11 @@ Drie gevallen lijken te moeten worden onderscheiden :
 - strips verkregen samen met nieuwe gewone aandelen waarop is ingeschreven ingevolge een openbaar beroep op het spaarderspubliek. 
 
 #### Strips afzonderlijk verworven op de secundaire markt
-
 Wanneer de strip afzonderlijk is verworven op de secundaire markt, kan de koper de aanschaffingswaarde zonder problemen bepalen. De aanschaffingswaarde is immers gelijk aan de aankoopprijs, verhoogd met de bijkomende kosten, behalve wanneer die kosten onmiddellijk in resultaat worden genomen met toepassing van artikel 29, § 3 van het Koninklijk Besluit van 8 oktober 1976. Bovendien zullen op de aanschaffingswaarde van de strip, in voorkomend geval, waardeverminderingen moeten worden toegepast wanneer de afzonderlijke beurswaarde[^8] van de strip daalt. 
 
 In de overige twee gevallen rijst de vraag hoe de aanschaffingswaarde van het gewone aandeel, enerzijds, en de strip, anderzijds, moet worden bepaald. In beide gevallen hebben beide afzonderlijke stukken immers aanvankelijk een gezamenlijke aanschaffingswaarde.
 
 #### Bepaling van de respectieve aanschaffingswaarde van het gewone aandeel en van de strip ontstaan uit de splitsing van een VVPR-aandeel
-
 Omdat hier één gezamenlijke aanschaffingswaarde over twee stukken wordt uitgesplitst, kan zo'n verrichting noch juridisch, noch financieel als een swap worden beschouwd waarop artikel 21, § 2 van het Koninklijk Besluit van 8 oktober 1976 van toepassing zou zijn. Bij stripping blijft het recht van de houder ongewijzigd, zij het voortaan uitgesplitst over twee afzonderlijke stukken. Hier is dus geen sprake van overdracht of realisatie. Bovendien zijn bij een swap per definitie twee afzonderlijke partijen aanwezig die twee verschillende activa ruilen, wat nooit het geval is bij een VVPR-stripping. 
 
 Om de aan die twee stukken toe te wijzen aanschaffingswaarde te bepalen, lijken twee benaderingen mogelijk : 
@@ -208,13 +190,11 @@ Deze alternatieve methode zou er bijgevolg in bestaan het gewone aandeel te boek
 De Commissie is van oordeel dat beide voornoemde benaderingen op zich coherent zijn. 
 
 #### Strips verkregen samen met nieuwe gewone aandelen waarop is ingeschreven ingevolge een openbaar beroep op het spaarderspubliek
-
 Hier wordt het geval bedoeld waarbij nieuwe aandelen worden uitgegeven via een openbaar beroep op het spaarderspubliek en waarbij de inschrijver tegelijkertijd een «gewoon» aandeel en een strip ontvangt. In dat geval heeft men eigenlijk te maken met een gezamenlijke aankoop waarbij de koper één enkele inschrijvingsprijs betaalt voor twee afzonderlijke stukken. Wanneer de onderneming beslist om tegelijkertijd op beide stukken in te schrijven, zal zij normaliter rekening houden met de inherente realisatiewaarde van de strip. 
 
 De Commissie is van oordeel dat in dit geval de voorkeur moet worden gegeven aan een uitsplitsing, zoals bij de eerste benadering, van de gezamenlijke inschrijvingsprijs tussen het gewone aandeel, enerzijds, en de strip, anderzijds. 
 
 ### Vragen in verband met de realisatie van "VVPR-strips"
-
 In boekhoudrechtelijk opzicht zullen bij een eventuele doorverkoop van dergelijke strips op de secundaire markt in de boekhouding meer- of minderwaarden bij de realisatie van «Geldbeleggingen» moeten worden uitgedrukt.
 
 [^1]: Ingevoegd in het Wetboek bij de Wet van 30 maart 1994.

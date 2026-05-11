@@ -16,37 +16,37 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/duur-van-het-boekjaar-0
 nummer: CBN-advies 2010/10
 provenance:
+  generated_at: '2026-05-11T17:48:39Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/duur-van-het-boekjaar
       sha256: 06050656a1a3287d47038c77e015d2b4d7685e4e667224bca541c077d305380a
       version:
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
-    status: trusted
     confirmed_at: '2026-05-11T17:09:38Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: 'Ronde-2-verdict (B2 geen headings + A4 Unicode HYPHEN) herbeoordeeld op huidige body. Heading_count=0 is correct voor dit korte advies — de CBN-bronpagina bevat geen expliciete sectieopdeling en het document is één vloeiende argumentatieve tekst van ~650 woorden. Geen ETL-artefact. De A4-claim (U+2010 in body) is onjuist: body r74 gebruikt ASCII koppelteken U+002D; U+2010 komt alleen voor in de frontmatter-rationale-tekst van de vorige review. Geen andere ETL-problemen gevonden.'
     layer1:
-      file_size_chars: 4201
-      flags: []
+      status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:42Z'
       heading_count: 0
       max_section_chars: 4201
-      run_at: '2026-05-11T15:05:50Z'
-      run_id: 20260511-150547
-      status: pass
+      file_size_chars: 4201
+      flags: []
     layer2:
-      status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T17:09:38Z'
-      rationale: 'Ronde-2-verdict (B2 geen headings + A4 Unicode HYPHEN) herbeoordeeld op huidige body. Heading_count=0 is correct voor dit korte advies — de CBN-bronpagina bevat geen expliciete sectieopdeling en het document is één vloeiende argumentatieve tekst van ~650 woorden. Geen ETL-artefact. De A4-claim (U+2010 in body) is onjuist: body r74 gebruikt ASCII koppelteken U+002D; U+2010 komt alleen voor in de frontmatter-rationale-tekst van de vorige review. Geen andere ETL-problemen gevonden.'
       concrete_problemen: []
+      rationale: 'Ronde-2-verdict (B2 geen headings + A4 Unicode HYPHEN) herbeoordeeld op huidige body. Heading_count=0 is correct voor dit korte advies — de CBN-bronpagina bevat geen expliciete sectieopdeling en het document is één vloeiende argumentatieve tekst van ~650 woorden. Geen ETL-artefact. De A4-claim (U+2010 in body) is onjuist: body r74 gebruikt ASCII koppelteken U+002D; U+2010 komt alleen voor in de frontmatter-rationale-tekst van de vorige review. Geen andere ETL-problemen gevonden.'
+      run_at: '2026-05-11T17:09:38Z'
+      status: trusted
+    rationale: 'Ronde-2-verdict (B2 geen headings + A4 Unicode HYPHEN) herbeoordeeld op huidige body. Heading_count=0 is correct voor dit korte advies — de CBN-bronpagina bevat geen expliciete sectieopdeling en het document is één vloeiende argumentatieve tekst van ~650 woorden. Geen ETL-artefact. De A4-claim (U+2010 in body) is onjuist: body r74 gebruikt ASCII koppelteken U+002D; U+2010 komt alleen voor in de frontmatter-rationale-tekst van de vorige review. Geen andere ETL-problemen gevonden.'
+    status: trusted
 themas:
   - duur van het boekjaar
   - inventaris

@@ -10,45 +10,45 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-het-stelsel-tot-gedeeltelijke-vrijstelling-van-0
 nummer: CBN-advies 2013/8
 provenance:
+  generated_at: '2026-05-11T17:48:39Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-door-de-waalse-regering-gecreeerde-opleidingscheques
       sha256: e38bfddbd610fc108a5e18a82365dacd18dca9065a2026646c8e146a367dcc71
       version:
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
-    status: needs-rework
     confirmed_at: '2026-05-11T17:09:38Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "A3: regel 59 bevat 'de Waalse regering gecreëerde opleidingscheques' als losstaande plain-text regel direct na de H1-titel — een gedupliceerd titelfragment dat niet werd opgeschoond. E2: de tabelrij op regel 89 ('| | of 623 Andere personeelskosten | | | |') heeft een extra trailing pipe waardoor de rij meer cellen heeft dan de header-rij, wat de tabel malformed maakt."
     layer1:
-      file_size_chars: 3779
-      flags: []
-      heading_count: 2
-      max_section_chars: 2907
-      run_at: '2026-05-11T15:05:51Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:43Z'
+      heading_count: 2
+      max_section_chars: 2906
+      file_size_chars: 3777
+      flags: []
     layer2:
-      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T17:09:38Z'
-      rationale: "A3: regel 59 bevat 'de Waalse regering gecreëerde opleidingscheques' als losstaande plain-text regel direct na de H1-titel — een gedupliceerd titelfragment dat niet werd opgeschoond. E2: de tabelrij op regel 89 ('| | of 623 Andere personeelskosten | | | |') heeft een extra trailing pipe waardoor de rij meer cellen heeft dan de header-rij, wat de tabel malformed maakt."
       concrete_problemen:
-        - regel: 59
-          categorie: A3
+        - categorie: A3
+          regel: 59
           type: other
           voorbeeld: de Waalse regering gecreëerde opleidingscheques
-        - regel: 89
-          categorie: E2
+        - categorie: E2
+          regel: 89
           type: other
           voorbeeld: '| | of 623 Andere personeelskosten | | | |'
+      rationale: 'A3: regel 59 bevat ''de Waalse regering gecreëerde opleidingscheques'' als losstaande plain-text regel direct na de H1-titel — een gedupliceerd titelfragment dat niet werd opgeschoond. E2: de tabelrij op regel 89 (''| | of 623 Andere personeelskosten | | | |'') heeft een extra trailing pipe waardoor de rij meer cellen heeft dan de header-rij, wat de tabel malformed maakt.'
+      run_at: '2026-05-11T17:09:38Z'
+      status: needs-rework
+    rationale: 'A3: regel 59 bevat ''de Waalse regering gecreëerde opleidingscheques'' als losstaande plain-text regel direct na de H1-titel — een gedupliceerd titelfragment dat niet werd opgeschoond. E2: de tabelrij op regel 89 (''| | of 623 Andere personeelskosten | | | |'') heeft een extra trailing pipe waardoor de rij meer cellen heeft dan de header-rij, wat de tabel malformed maakt.'
+    status: needs-rework
 themas:
   - bedrijfssubsidie
   - opleidingscheques
@@ -59,11 +59,9 @@ themas:
 de Waalse regering gecreëerde opleidingscheques
 
 ## Inleiding
-
 Het decreet van 10 april 2003[^1] en het besluit van de Waalse regering van 1 april 2004[^2] creëren in Wallonië het systeem van *opleidingscheques*. Kleine of middelgrote ondernemingen die op basis van de voorwaarden in het decreet voor opleidingscheques in aanmerking komen, kunnen, afhankelijk van het aantal werknemers dat de onderneming heeft ingeschreven bij de R.S.Z., een maximumaantal opleidingscheques met een zichtwaarde van 30 euro per cheque aankopen. Deze cheques worden aangekocht bij de emittent, aangewezen door de Regering op voordracht van de “Office wallon de la Formation professionnelle et de l’Emploi” tegen de prijs van 15 euro per cheque. 
 
 ## Boekhoudkundige verwerking
-
 Naar het oordeel van de Commissie voor Boekhoudkundige Normen dienen deze opleidingscheques als volgt verwerkt te worden in de boekhouding van de onderneming die ze aankoopt. 
 
 Bij aankoop boekt de onderneming de opleidingscheques als een actief in post IX *Liquide middelen* van de activa. De tussenkomst van de Waalse overheid in de aankoopprijs ervan (15 euro) wordt beschouwd als een subsidie, nl. een bedrag dat door een overheid aan een entiteit wordt toegekend om bepaalde exploitatiekosten te compenseren. Deze subsidie wordt als bedrijfsopbrengst geboekt op het ogenblik dat het recht van de onderneming op deze subsidie komt vast te staan, en men het bedrag van de subsidie kent.[^3] 

@@ -16,45 +16,45 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/consolidatiekring-interpretatie-van-de-uitsluitingsgrond-van-artikel-107-4deg-kb-wvenn
 nummer: CBN-advies 2016/17
 provenance:
+  generated_at: '2026-05-11T17:48:39Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/verenigingen-en-stichtingen-certificatie-van-aandelen-van-handelsvennootschappen
       sha256: 72e8ba1e43c6167b2d3a6758e6876c39c537df510ed6b9bd77f5f8351ef3cd4a
       version:
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
-    status: needs-rework
     confirmed_at: '2026-05-11T17:09:39Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: 'B5: regel 90 `Boekhoudkundige verwerking van de opbrengsten en inkomsten van de gecertificeerde aandelen` staat als plain-text-paragraaf zonder `##` of `###` prefix — structuurlabel dat een heading hoort te zijn gezien de parallelstructuur met de heading op regel 79. D4: regel 91 `post* Andere uitgaven*` bevat spatie vóór openende `*` waardoor italic malformed is.'
     layer1:
-      file_size_chars: 9787
-      flags: []
-      heading_count: 4
-      max_section_chars: 4526
-      run_at: '2026-05-11T15:05:52Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:44Z'
+      heading_count: 4
+      max_section_chars: 4525
+      file_size_chars: 9783
+      flags: []
     layer2:
-      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T17:09:39Z'
-      rationale: 'B5: regel 90 `Boekhoudkundige verwerking van de opbrengsten en inkomsten van de gecertificeerde aandelen` staat als plain-text-paragraaf zonder `##` of `###` prefix — structuurlabel dat een heading hoort te zijn gezien de parallelstructuur met de heading op regel 79. D4: regel 91 `post* Andere uitgaven*` bevat spatie vóór openende `*` waardoor italic malformed is.'
       concrete_problemen:
-        - regel: 90
-          categorie: B5
+        - categorie: B5
+          regel: 90
           type: other
           voorbeeld: 'Boekhoudkundige verwerking van de opbrengsten en inkomsten van de gecertificeerde aandelen (plain text zonder ## prefix)'
-        - regel: 91
-          categorie: D4
+        - categorie: D4
+          regel: 91
           type: other
           voorbeeld: post* Andere uitgaven* (spatie vóór openende asterisk — malformed italic)
+      rationale: 'B5: regel 90 `Boekhoudkundige verwerking van de opbrengsten en inkomsten van de gecertificeerde aandelen` staat als plain-text-paragraaf zonder `##` of `###` prefix — structuurlabel dat een heading hoort te zijn gezien de parallelstructuur met de heading op regel 79. D4: regel 91 `post* Andere uitgaven*` bevat spatie vóór openende `*` waardoor italic malformed is.'
+      run_at: '2026-05-11T17:09:39Z'
+      status: needs-rework
+    rationale: 'B5: regel 90 `Boekhoudkundige verwerking van de opbrengsten en inkomsten van de gecertificeerde aandelen` staat als plain-text-paragraaf zonder `##` of `###` prefix — structuurlabel dat een heading hoort te zijn gezien de parallelstructuur met de heading op regel 79. D4: regel 91 `post* Andere uitgaven*` bevat spatie vóór openende `*` waardoor italic malformed is.'
+    status: needs-rework
 themas:
   - aandelen
   - certificatie
@@ -66,18 +66,15 @@ themas:
 # CBN-advies 2016/17 – Verenigingen en stichtingen: certificatie van aandelen van handelsvennootschappen
 
 ## Inleiding
-
 De certificatie van effecten is een techniek die werd geregeld bij de wet van 15 juli 1998 betreffende de certificatie van effecten uitgegeven door handelsvennootschappen. In het kader van de aan Commissie voor boekhoudkundige normen toegekende adviesbevoegdheid met betrekking tot de boekhoudkundige bepalingen van toepassing op ondernemingen[^2], heeft de Commissie op 21 februari 2002 een advies uitgebracht met betrekking tot de jaarrekeningrechtelijke aspecten van de certificatie van aandelen van handelsvennootschappen.[^3]
  Het voormelde advies is *mutatis mutandis* van toepassing op verenigingen zonder winstoogmerk, stichtingen en internationale verenigingen zonder winstoogmerk.[^4] 
 
 Onderhavig advies strekt ertoe een aantal elementen te verduidelijken die specifiek gelden voor verenigingen of stichtingen. Hierbij wordt een onderscheid gemaakt tussen een vereniging zonder winstoogmerk, stichting of internationale vereniging zonder winstoogmerk zoals bedoeld in de artikelen 17, § 3, 37, § 3, 53, § 3 van de Wet van 27 juni 1921 betreffende de verenigingen zonder winstoogmerk, de internationale verenigingen zonder winstoogmerk en de stichtingen (hierna: grote vereniging(en) of stichting(en)) en deze die niet zijn bedoeld in de respectievelijke artikelen 17, § 3, 37, § 3 en 53, § 3 van voormelde wet (hierna: kleine vereniging(en) of stichting(en)).
 
 ## Vereenvoudigde boekhouding
-
 Een kleine vereniging of stichting voert haar boekhouding volgens de bepalingen van het KB van 26 juni 2003 betreffende de vereenvoudigde boekhouding van bepaalde verenigingen zonder winstoogmerk, internationale verenigingen zonder winstoogmerk en stichtingen.[^5] 
 
 ### Boekhoudkundige verwerking van de gecertificeerde aandelen
-
 De gecertificeerde aandelen worden in de boekhouding van de emittent buiten de balans gehouden wanneer de emittent van de certificaten volledig en onherroepelijk afstand heeft gedaan van de economische eigendom van de aandelen ten gunste van de houders van de certificaten.
 
 Het behoort inderdaad tot de essentie van het certificaat dat het in de toekomst economische voordelen aan de houder ervan zal verschaffen aangezien het certificaat de “economische eigendom” van de aandelen vertegenwoordigt. Wat de gecertificeerde aandelen betreft, ook al vertegenwoordigen ze een bepaald economisch belang en ook al kunnen ze een belangrijke invloed hebben op het vermogen, de financiële positie of het resultaat van de onderneming, hun louter aleatoire waardering doet de Commissie besluiten dat ze best buiten balans worden geboekt.[^6]
@@ -93,7 +90,6 @@ Indien de storting van de door de emittent ontvangen bedragen aan de houder van 
 Als echter, zoals in de voormelde wet van 15 juli 1998 wordt toegestaan, de partijen andere betalingsmodaliteiten voor de inkomsten zijn overeengekomen (betaling op lange of middellange termijn, eventuele kapitalisatie, enz.), moet de boekhoudkundige verwerking ervan worden bepaald op basis van een onderzoek van de wil van de partijen zoals deze is vastgelegd in de certificatieovereenkomst.
 
 ## Dubbele boekhouding
-
 Een grote vereniging of stichting is verplicht[^11] om een boekhouding te voeren en een jaarrekening op te maken overeenkomstig de bepalingen van de Wet van 17 juli 1975 met betrekking tot de boekhouding van de ondernemingen.[^12]
  Een grote vereniging of stichting voert aldus haar boekhouding en maakt een jaarrekening op volgens de regels vermeld in het KB W.Venn. doch mits[^13] de aanpassingen waarin voorzien is in het KB van 19 december 2003 betreffende de boekhoudkundige verplichtingen en de openbaarmaking van de jaarrekening van bepaalde verenigingen zonder winstoogmerk, internationale verenigingen zonder winstoogmerk en stichtingen.
 

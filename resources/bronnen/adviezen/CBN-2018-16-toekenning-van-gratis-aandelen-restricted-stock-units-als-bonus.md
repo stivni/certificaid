@@ -3,53 +3,53 @@ bron: https://www.cbn-cnc.be/nl/adviezen/toekenning-van-gratis-aandelen-restrict
 datum: 2018-11-14
 nummer: CBN-advies 2018/16
 provenance:
+  generated_at: '2026-05-11T17:48:39Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/toekenning-van-gratis-aandelen-restricted-stock-units-als-bonus
       sha256: 1a9f3240acadc2fb454cb3eff60fdbf3d4c1a4809610431cba5f163fdc28958b
       version:
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T15:15:32Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
-    status: needs-rework
     confirmed_at: '2026-05-11T17:13:30Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "E1/E2: RSU-tabellen (regels 110–247 methode A, 333–435 methode B) zijn niet als pipe-tabellen gerenderd maar als losse single-cell fragmenten (`| \n\n  | | \n|---|`). B5: methode-koppen op regels 86 en 101 zijn plain-text alinea's zonder heading-prefix. Overige inhoud en journaalpost-tabellen zijn correct."
     layer1:
-      file_size_chars: 20386
-      flags: []
-      heading_count: 4
-      max_section_chars: 7681
-      run_at: '2026-05-11T15:05:53Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:44Z'
+      heading_count: 4
+      max_section_chars: 7679
+      file_size_chars: 20380
+      flags: []
     layer2:
-      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T17:13:30Z'
-      rationale: "E1/E2: RSU-tabellen (regels 110–247 methode A, 333–435 methode B) zijn niet als pipe-tabellen gerenderd maar als losse single-cell fragmenten (`| \n\n  | | \n|---|`). B5: methode-koppen op regels 86 en 101 zijn plain-text alinea's zonder heading-prefix. Overige inhoud en journaalpost-tabellen zijn correct."
       concrete_problemen:
-        - regel: 110
-          categorie: E1
+        - categorie: E1
+          regel: 110
           type: other
           voorbeeld: "| \n\n  | | \n|---|\n\nBeurskoers\n\n  | | \n|---|\n\nVerwachte beurskoers op 1 maart 20x6"
-        - regel: 333
-          categorie: E1
+        - categorie: E1
+          regel: 333
           type: other
           voorbeeld: "| \n\n  | | \n|---|\n\nBeurskoers\n\n  | | \n|---|\n\nVerwachte retentiegraad"
-        - regel: 86
-          categorie: B5
+        - categorie: B5
+          regel: 86
           type: other
           voorbeeld: Erkenning van de kost op basis van de verwachte beurskoers of verwachte reële waarde op de datum van terbeschikkingstelling van de aandelen (methode A)
-        - regel: 101
-          categorie: B5
+        - categorie: B5
+          regel: 101
           type: other
           voorbeeld: Erkenning van de kost op basis van de effectieve beurskoers of reële waarde per balansdatum (methode B)
+      rationale: "E1/E2: RSU-tabellen (regels 110–247 methode A, 333–435 methode B) zijn niet als pipe-tabellen gerenderd maar als losse single-cell fragmenten (`| \n\n  | | \n|---|`). B5: methode-koppen op regels 86 en 101 zijn plain-text alinea's zonder heading-prefix. Overige inhoud en journaalpost-tabellen zijn correct."
+      run_at: '2026-05-11T17:13:30Z'
+      status: needs-rework
+    rationale: "E1/E2: RSU-tabellen (regels 110–247 methode A, 333–435 methode B) zijn niet als pipe-tabellen gerenderd maar als losse single-cell fragmenten (`| \n\n  | | \n|---|`). B5: methode-koppen op regels 86 en 101 zijn plain-text alinea's zonder heading-prefix. Overige inhoud en journaalpost-tabellen zijn correct."
+    status: needs-rework
 themas:
   - restricted stock unit
   - RSU
@@ -62,7 +62,6 @@ themas:
 # CBN-advies 2018/16 – Toekenning van gratis aandelen (Restricted Stock Units) als bonus
 
 ## Inleiding
-
 De Commissie werd gevraagd om advies te geven betreffende de boekhoudkundige verwerking bij een vennootschap die zich ertoe verbindt kosteloos *Restricted Stock Units* (hierna: RSU) aan zijn werknemers te verstrekken als bonus. 
 
 RSU zijn het recht om, aan het einde van een welbepaalde periode, gratis een gewoon aandeel te ontvangen, indien bepaalde voorwaarden zijn vervuld op dat ogenblik[^2]. Het gaat met andere woorden om een belofte van de werkgever om een bepaald aantal aandelen aan de werknemer toe te kennen binnen een bepaalde periode. Deze RSU worden rechtstreeks aan de werknemer toegekend op de datum van de toekenning (*Grant Date*), maar worden pas effectief aan hem ter beschikking gesteld (*Vesting Date*) na afloop van de periode waarin rechten worden verworven (*Vesting Period*).
@@ -70,7 +69,6 @@ RSU zijn het recht om, aan het einde van een welbepaalde periode, gratis een gew
 In dit advies zal de Commissie zich beperken tot het analyseren van de boekhoudkundige verwerking van de toekenning van RSU, zonder zich uit te spreken omtrent de fiscale behandeling.
 
 ## Boekhoudkundige verwerking
-
 De Commissie is van mening dat de boekhoudprincipes in haar advies 2012/3 - *De boekhoudkundige verwerking van aandelenoptieplannen[^3]* eveneens toepasbaar zijn op de RSU, gezien de sterke gelijkenis tussen de twee vergoedingsmethoden. Ter herinnering: een aandelenoptie wordt gedefinieerd als het recht om, gedurende een welbepaalde termijn, een bepaald aantal aandelen aan te kopen, tegen een vastgestelde of een nog vast te stellen prijs[^4]. De opties worden doorgaans ten kosteloze titel toegekend aan de begunstigden.
 
 Wanneer een onderneming beslist RSU aan haar werknemers toe te kennen, zal ze inherent worden blootgesteld aan het toekomstige verschil tussen enerzijds de beurskoers (voor genoteerde aandelen op een gereglementeerde of een niet-gereglementeerde markt) of de reële waarde (voor niet-genoteerde aandelen) van het onderliggend aandeel op de datum van toekenning (*Grant Date*) en anderzijds de koers of de reële waarde van het onderliggend aandeel op het ogenblik van zijn terbeschikkingstelling (*Vesting Date*)[^5].
@@ -102,14 +100,13 @@ Erkenning van de kost op basis van de effectieve beurskoers of reële waarde per
 De toepassing van deze methode bestaat erin de toekenningsprijs te berekenen door middel van de werkelijke beurskoers (voor genoteerde ondernemingen op gereglementeerde of niet-gereglementeerde markten) of de reële waarde (voor niet-genoteerde ondernemingen) van het onderliggend aandeel op balansdatum. Daar deze tweede benadering een vaststaande beurskoers of reële waarde als uitgangspunt heeft, dient elk jaar een aanpassing te worden doorgevoerd naar de actueel geldende koers of reële waarde per balansdatum. 
 
 ## Voorbeeld (methode A)
-
 Op 1 maart 20X1 kent de beursgenoteerde NV XYZ 100 RSU (die overeenstemmen met 100 onderliggende aandelen) toe aan vijf kaderleden (elk 20) als bonus. Het recht tot verwerving van deze aandelen ontstaat indien de kaderleden in dienst blijven voor een periode van vijf opeenvolgende jaren na toekenning van de aandelen.
 
 De verwachte beurskoers van het onderliggende aandeel op 1 maart 20x6 en de verwachte retentiegraad worden als volgt geraamd per respectievelijke balansdatum:
 
 | 
 
-  | | 
+ | | 
 |---|
 
 Beurskoers
@@ -325,14 +322,13 @@ Besteding daartoe aangelegde voorziening
 Bij de effectieve ter beschikking stelling van de aandelen bestaat er bijgevolg een netto-kost voor de onderneming van 228 EUR. Deze ontstaat uit het verschil tussen de aangelegde voorziening met betrekking tot de aandelen (de aangelegde voorziening bedraagt op dat moment 972 voor 60 aandelen) en de minderwaarde bij verkoop van de door de onderneming ingekochte aandelen.
 
 ## Voorbeeld (methode B)
-
 Op 1 maart 20X1 kent de beursgenoteerde NV XYZ 100 RSU (die overeenstemmen met 100 onderliggende aandelen) toe aan vijf kaderleden (elk 20) als bonus. Het recht tot verwerving van deze aandelen ontstaat indien de kaderleden in dienst blijven voor een periode van vijf opeenvolgende jaren na toekenning van de aandelen.
 
 De beurskoers van het onderliggende aandeel en de verwachte retentiegraad worden als volgt geraamd per respectievelijke balansdatum:
 
 | 
 
-  | | 
+ | | 
 |---|
 
 Beurskoers

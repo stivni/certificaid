@@ -10,37 +10,37 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/invloed-van-een-gerechtelijk-akkoord-op-de-schulden-en-vorderingen
 nummer: CBN-advies 137/1
 provenance:
+  generated_at: '2026-05-11T17:48:38Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/klassering-van-de-vorderingen-bij-faillissement-van-de-schuldenaar
       sha256: 7c727a106b42b295f46eb425b96664656442d4af624e28750caf8f604060b13a
       version:
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
-    status: trusted
     confirmed_at: '2026-05-11T15:15:33Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: Geen ETL-artefacten aangetroffen. Kleine compacte tekst (2108 chars) zonder subheadings — passend voor dit korte advies. Titelvorm 'CBN advies 137-1' (ruimte, koppelteken) is consistent met de CBN-website-stijl. Lopende tekst coherent, geen spurious line-breaks of column-bleed.
     layer1:
-      file_size_chars: 2108
-      flags: []
-      heading_count: 0
-      max_section_chars: 2108
-      run_at: '2026-05-11T15:05:49Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:41Z'
+      heading_count: 0
+      max_section_chars: 2107
+      file_size_chars: 2107
+      flags: []
     layer2:
-      status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:15:33Z'
-      rationale: Geen ETL-artefacten aangetroffen. Kleine compacte tekst (2108 chars) zonder subheadings — passend voor dit korte advies. Titelvorm 'CBN advies 137-1' (ruimte, koppelteken) is consistent met de CBN-website-stijl. Lopende tekst coherent, geen spurious line-breaks of column-bleed.
       concrete_problemen: []
+      rationale: Geen ETL-artefacten aangetroffen. Kleine compacte tekst (2108 chars) zonder subheadings — passend voor dit korte advies. Titelvorm 'CBN advies 137-1' (ruimte, koppelteken) is consistent met de CBN-website-stijl. Lopende tekst coherent, geen spurious line-breaks of column-bleed.
+      run_at: '2026-05-11T15:15:33Z'
+      status: trusted
+    rationale: Geen ETL-artefacten aangetroffen. Kleine compacte tekst (2108 chars) zonder subheadings — passend voor dit korte advies. Titelvorm 'CBN advies 137-1' (ruimte, koppelteken) is consistent met de CBN-website-stijl. Lopende tekst coherent, geen spurious line-breaks of column-bleed.
+    status: trusted
 themas:
   - faillissement
   - faillissement van de schuldenaar
@@ -53,7 +53,6 @@ themas:
 ---
 
 # CBN advies 137-1 - Klassering van de vorderingen bij faillissement van de schuldenaar
-
 Overeenkomstig de definities in de bijlage bij het besluit van 8 oktober 1976 geldt als criterium voor de rangschikking van een vordering onder de vorderingen op meer dan één jaar of de vorderingen op ten hoogste één jaar in de eerste plaats de termijn die in de overeenkomst werd voorzien. 
 
 De vraag is nu welke gevolgen het faillissement van een schuldenaar heeft op de klassering in de boekhouding van de schuldeiser van zijn vorderingen op meer dan één jaar op de gefailleerde. 

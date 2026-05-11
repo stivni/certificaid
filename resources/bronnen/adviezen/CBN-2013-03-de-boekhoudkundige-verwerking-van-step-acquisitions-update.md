@@ -16,53 +16,53 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/consolidatie-bij-de-horizontale-groep-consortium
 nummer: CBN-advies 2013/3
 provenance:
+  generated_at: '2026-05-11T17:48:39Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-step-acquisitions-update
       sha256: 416a6e032a3b9e9c52a207133ec7e93ef185e166cd850a9459913c5ebf538e62
       version:
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
-    status: needs-rework
     confirmed_at: '2026-05-11T17:09:38Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "D4: regel 85 bevat 'paragraaf I*I.A.' waarbij een asterisk mid-woord een italic-blok opent dat de sectiereferentie 'II.A.' verminkt. B5: regels 89–90 bevatten twee sectietitels als plain-text zonder ##-prefix ('Verhoging van belang in een geassocieerde onderneming die na de verhoging...'). E2: tabellen op regels 139–165 ontberen correcte |---|---| separator-rij en hebben inconsistent kolomaantal."
     layer1:
-      file_size_chars: 16103
-      flags: []
-      heading_count: 2
-      max_section_chars: 15172
-      run_at: '2026-05-11T15:05:51Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:43Z'
+      heading_count: 4
+      max_section_chars: 6839
+      file_size_chars: 16097
+      flags: []
     layer2:
-      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T17:09:38Z'
-      rationale: "D4: regel 85 bevat 'paragraaf I*I.A.' waarbij een asterisk mid-woord een italic-blok opent dat de sectiereferentie 'II.A.' verminkt. B5: regels 89–90 bevatten twee sectietitels als plain-text zonder ##-prefix ('Verhoging van belang in een geassocieerde onderneming die na de verhoging...'). E2: tabellen op regels 139–165 ontberen correcte |---|---| separator-rij en hebben inconsistent kolomaantal."
       concrete_problemen:
-        - regel: 85
-          categorie: D4
+        - categorie: D4
+          regel: 85
           type: other
           voorbeeld: paragraaf I*I.A. Verhoging van belang in een geassocieerde onderneming*
-        - regel: 89
-          categorie: B5
+        - categorie: B5
+          regel: 89
           type: other
           voorbeeld: Verhoging van belang in een geassocieerde onderneming die na de verhoging nog steeds een geassocieerde onderneming blijft
-        - regel: 139
-          categorie: E2
+        - categorie: E2
+          regel: 139
           type: other
           voorbeeld: '| Overgedragen winst – lopend boekjaar *[Balans]* | | 16 | | |'
-        - regel: 182
-          categorie: B5
+        - categorie: B5
+          regel: 182
           type: other
           voorbeeld: Verhoging van belang in een geassocieerde onderneming, die na de verhoging een integraal geconsolideerde dochteronderneming wordt
+      rationale: 'D4: regel 85 bevat ''paragraaf I*I.A.'' waarbij een asterisk mid-woord een italic-blok opent dat de sectiereferentie ''II.A.'' verminkt. B5: regels 89–90 bevatten twee sectietitels als plain-text zonder ##-prefix (''Verhoging van belang in een geassocieerde onderneming die na de verhoging...''). E2: tabellen op regels 139–165 ontberen correcte |---|---| separator-rij en hebben inconsistent kolomaantal.'
+      run_at: '2026-05-11T17:09:38Z'
+      status: needs-rework
+    rationale: 'D4: regel 85 bevat ''paragraaf I*I.A.'' waarbij een asterisk mid-woord een italic-blok opent dat de sectiereferentie ''II.A.'' verminkt. B5: regels 89–90 bevatten twee sectietitels als plain-text zonder ##-prefix (''Verhoging van belang in een geassocieerde onderneming die na de verhoging...''). E2: tabellen op regels 139–165 ontberen correcte |---|---| separator-rij en hebben inconsistent kolomaantal.'
+    status: needs-rework
 themas:
   - consolidatie
   - stapsgewijze verwerving
@@ -77,7 +77,6 @@ themas:
 # CBN-advies 2013/3 – De boekhoudkundige verwerking van step acquisitions (update)
 
 ## Inleiding
-
 In hetgeen volgt wenst de Commissie aan de hand van praktische voorbeelden te illustreren hoe zogenaamde step acquisitions dienen te worden verwerkt rekening houdend met de Belgische consolidatieprincipes.
 
 Step acquisitions doen zich voor in een context waarbij de invloed van betekenis in een geassocieerde onderneming wordt verhoogd zodat deze ofwel een geassocieerde onderneming blijft, ofwel een integraal geconsolideerde dochteronderneming wordt. 
@@ -85,7 +84,6 @@ Step acquisitions doen zich voor in een context waarbij de invloed van betekenis
 Beide step acquisitions worden respectievelijk uitgewerkt in paragraaf I*I.A. Verhoging van belang in een geassocieerde onderneming* die na de verhoging nog steeds een geassocieerde onderneming blijft en paragraaf *II.B. Verhoging van belang in een geassocieerde onderneming die na de verhoging een integraal geconsolideerde dochteronderneming wordt*.
 
 ## Praktische uitwerking
-
 Verhoging van belang in een geassocieerde onderneming die na de verhoging nog steeds een geassocieerde onderneming blijft
 In de geconsolideerde jaarrekening worden deelnemingen in geassocieerde ondernemingen zoals gedefinieerd in artikel 1:21 van het Wetboek van vennootschappen en verenigingen, gewaardeerd door toepassing van de zogenaamde vermogensmutatiewaarde[^2]. Daarnaast wordt deze methode tevens toegepast voor dochterondernemingen waarover de consoliderende onderneming een controle in feite bezit en de opname als integraal geconsolideerde dochteronderneming zou indruisen tegen het principe van het getrouwe beeld[^3] of omdat het going-concern principe niet meer kan gejustifieerd worden[^4]. 
 
@@ -107,8 +105,7 @@ De Commissie is van oordeel dat de stapsgewijze verwerving van een geassocieerde
 
 In tegenstelling tot de integrale consolidatiemethode, dient conform artikel 3:142, § 3 KB WVV het eerste consolidatieverschil slechts aan de betrokken actief- en passiefbestanddelen van de geassocieerde onderneming te worden toegewezen voor zover dit mogelijk is[^10]. Artikel 3:130, eerste lid van hetzelfde koninklijk besluit, stelt dat bij toepassing van de integrale consolidatiemethode, dit eerste consolidatieverschil zoveel mogelijk moet worden toegewezen aan onderliggende activa- en passivabestanddelen.
 
-**Voorbeeld 1**
-
+## Voorbeeld 1
 In het jaar 20X1 verwerft onderneming ABC een belang van 20 % in onderneming DEF. Op het ogenblik van deze verwerving beoordeelt onderneming ABC dat ze op basis van deze 20 % een invloed van betekenis heeft in onderneming DEF. 
 
 De kostprijs van de initiële verwerving bedraagt 200; de netto-activa van de geassocieerde onderneming DEF bedragen 600. 
@@ -193,8 +190,7 @@ Bij een step acquisition is het derhalve perfect denkbaar dat de consolidatiever
 
 De Commissie is de mening toegedaan dat het mogelijk moet zijn om, in het kader van een step acquisition, het initiële consolidatieverschil te herevalueren om de toewijzing naar onderliggende activa-en passivabestanddelen te harmoniseren met de toewijzingsmethodiek van een latere verwerving die leidt tot integrale consolidatie. Dit zou ertoe kunnen leiden dat een initiële goodwill of badwill door toedoen van de step acquisition moet worden aangepast. De assumpties dewelke op initiële verwervingsdatum werden gemaakt kunnen immers significant verschillen van deze op het ogenblik van de additionele verwerving. De Commissie meent dan ook dat als gevolg van deze gewijzigde omstandigheden de initiële goodwill of badwill van de betrokken entiteit moet worden gecorrigeerd.
 
-**Voorbeeld 2**
-
+## Voorbeeld 2
 De onderneming TTT[^16] verwerft op 1 januari 20X1 een belang van 30 % in de onderneming UUU voor 5.000. De balans van onderneming UUU is op acquisitiedatum als volgt:
 
 | Balans UUU op 1 januari 2011 | 

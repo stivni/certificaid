@@ -3,41 +3,41 @@ bron: https://www.cbn-cnc.be/nl/adviezen/pensioenvoorzieningen
 datum: 1987-11-24
 nummer: CBN-advies 107/12
 provenance:
+  generated_at: '2026-05-11T17:48:38Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/pensioenvoorzieningen
       sha256: 7cae9d96e7c8ebc8a0c451cf51977d4b9534ff2d00cc5a2ddf9057a1c1db7fe3
       version:
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
-    status: trusted
     confirmed_at: '2026-05-11T17:05:20Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "De enige eerder gerapporteerde issue (A5: en-dash '–' in H1-heading) is een source-karakter: analyse van het corpus toont dat 145 CBN-adviezen dezelfde '–' separator gebruiken in de H1-heading — dit is het dominante patroon van de CBN-website, geen ETL-inconsistentie. Body-tekst is volledig clean, inhoud compleet, voetnoot [^1] correct."
     layer1:
-      file_size_chars: 2196
-      flags: []
+      status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:40Z'
       heading_count: 0
       max_section_chars: 2196
-      run_at: '2026-05-11T15:05:48Z'
-      run_id: 20260511-150547
-      status: pass
+      file_size_chars: 2196
+      flags: []
     layer2:
-      status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T17:05:20Z'
-      rationale: "De enige eerder gerapporteerde issue (A5: en-dash '–' in H1-heading) is een source-karakter: analyse van het corpus toont dat 145 CBN-adviezen dezelfde '–' separator gebruiken in de H1-heading — dit is het dominante patroon van de CBN-website, geen ETL-inconsistentie. Body-tekst is volledig clean, inhoud compleet, voetnoot [^1] correct."
       concrete_problemen:
-        - regel: 51
-          categorie: (source)
+        - categorie: (source)
+          regel: 51
           type: source-typo
           voorbeeld: '# CBN-advies 107/12 – Pensioenvoorzieningen — U+2013 EN-DASH is source-karakter (145 andere adviezen gebruiken hetzelfde patroon)'
+      rationale: 'De enige eerder gerapporteerde issue (A5: en-dash ''–'' in H1-heading) is een source-karakter: analyse van het corpus toont dat 145 CBN-adviezen dezelfde ''–'' separator gebruiken in de H1-heading — dit is het dominante patroon van de CBN-website, geen ETL-inconsistentie. Body-tekst is volledig clean, inhoud compleet, voetnoot [^1] correct.'
+      run_at: '2026-05-11T17:05:20Z'
+      status: trusted
+    rationale: 'De enige eerder gerapporteerde issue (A5: en-dash ''–'' in H1-heading) is een source-karakter: analyse van het corpus toont dat 145 CBN-adviezen dezelfde ''–'' separator gebruiken in de H1-heading — dit is het dominante patroon van de CBN-website, geen ETL-inconsistentie. Body-tekst is volledig clean, inhoud compleet, voetnoot [^1] correct.'
+    status: trusted
 themas:
   - aanvullend rust- en overlevingspensioen
   - directieleden

@@ -3,41 +3,41 @@ bron: https://www.cbn-cnc.be/nl/adviezen/boeking-van-uitzettingsvergoedingen-bet
 datum: 1993-02-01
 nummer: CBN-advies 126/12
 provenance:
+  generated_at: '2026-05-11T17:48:38Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/boeking-van-uitzettingsvergoedingen-betaald-door-de-eigenaar-en-van-de-kost-van-werken-ten
       sha256: dee182c834e178d07ddd553ef3a8fc93f6f80ff886fcb9e7c324449e9e02c9d0
       version:
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
-    status: needs-rework
     confirmed_at: '2026-05-11T17:05:20Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "B3: de H1-titel op regel 53 eindigt op 'verkoper1' — het voetnootcijfer '1' is samengesmolten met de titeltekst (ETL-bug, geen markdown superscript). Heading-hiërarchie is correct (H1 → H2 → H2); eerdere B2-claim was onjuist. Tabellen zijn correct als pipe-tables; overige inhoud compleet."
     layer1:
-      file_size_chars: 7872
-      flags: []
-      heading_count: 6
-      max_section_chars: 2587
-      run_at: '2026-05-11T15:05:48Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:41Z'
+      heading_count: 2
+      max_section_chars: 3471
+      file_size_chars: 7833
+      flags: []
     layer2:
-      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T17:05:20Z'
-      rationale: "B3: de H1-titel op regel 53 eindigt op 'verkoper1' — het voetnootcijfer '1' is samengesmolten met de titeltekst (ETL-bug, geen markdown superscript). Heading-hiërarchie is correct (H1 → H2 → H2); eerdere B2-claim was onjuist. Tabellen zijn correct als pipe-tables; overige inhoud compleet."
       concrete_problemen:
-        - regel: 53
-          categorie: B3
+        - categorie: B3
+          regel: 53
           type: other
           voorbeeld: '# CBN-advies 126/12 - ...kost van werken ten laste van de verkoper1'
+      rationale: 'B3: de H1-titel op regel 53 eindigt op ''verkoper1'' — het voetnootcijfer ''1'' is samengesmolten met de titeltekst (ETL-bug, geen markdown superscript). Heading-hiërarchie is correct (H1 → H2 → H2); eerdere B2-claim was onjuist. Tabellen zijn correct als pipe-tables; overige inhoud compleet.'
+      run_at: '2026-05-11T17:05:20Z'
+      status: needs-rework
+    rationale: 'B3: de H1-titel op regel 53 eindigt op ''verkoper1'' — het voetnootcijfer ''1'' is samengesmolten met de titeltekst (ETL-bug, geen markdown superscript). Heading-hiërarchie is correct (H1 → H2 → H2); eerdere B2-claim was onjuist. Tabellen zijn correct als pipe-tables; overige inhoud compleet.'
+    status: needs-rework
 themas:
   - kost van werken ten laste van de verkoper
   - materiële vaste activa
@@ -60,7 +60,6 @@ In de veronderstelling dat de te verwachten financiële opbrengst de economische
 Na onderzoek van alle mogelijke gevallen die in deze problematiek kunnen kaderen, stelt de Commissie evenwel een specifieke boekhoudkundige verwerking voor naargelang het gaat om :
 
 ## DE BETALING VAN EEN UITZETTINGSVERGOEDING DOOR DE EIGENAAR
-
 die hem in staat stelt het goed tegen gunstigere voorwaarden te verhuren. In dit geval gaat zijn eigendom hem meer opbrengen wanneer hij het huurcontract verbreekt. Hier zijn twee boekingsmethoden mogelijk :
 1. ofwel gaat men ervan uit dat de betaalde uitzettingsvergoeding wordt toegevoegd aan de aanschaffingswaarde van het gebouw. De vergoeding wordt dan ten laste genomen via de afschrijvingen die over de vermoedelijke resterende levensduur van het gebouw worden gespreid, op dezelfde wijze als de andere bestanddelen van zijn aanschaffingswaarde. Het nadeel van deze methode is evenwel dat de tenlasteneming van deze vergoeding wordt losgekoppeld van de termijn van het nieuwe, voor de eigenaar voordeliger huurcontract. 
 2. ofwel gaat men er, op grond van het beginsel van de overeenstemming tussen opbrengsten en kosten, van uit dat de tenlasteneming van het bedrag van de uitzettingsvergoeding wordt verrekend met de stijging van de opbrengsten ingevolge het nieuwe huurcontract. In dit geval moet de vergoeding ten laste worden genomen als bedrijfskost voor het aantal boekjaren van de basistermijn van het nieuwe huurcontract en op passende wijze gespreid over deze boekjaren. De betaling van de uitzettingsvergoeding zal dan als volgt worden geboekt : 
@@ -78,8 +77,7 @@ en de gespreide tenlasteneming als volgt :
 | aan | 490 | Over te dragen kosten | | |
 
 die hem in staat stelt het gebouw zelf te betrekken en er het bedrijf van de uitgezette huurder of een soortgelijk bedrijf uit te oefenen. In dit geval staat tegenover die vergoeding een stijging van de waarde van het vermogen van de eigenaar omdat hij aldus een concurrent uitschakelt, met bovendien de zekerheid dat hij -althans ten dele - de cliënteel (handelsfonds) van die concurrent kan overnemen. Hier moet de uitzettingsvergoeding dus bij de immateriële vaste activa worden geboekt[^2].
-## DE TENLASTENEMING VAN BEPAALDE WERKEN DOOR DE VERKOPER[^3]
-
+## DE TENLASTENEMING VAN BEPAALDE WERKEN DOOR DE VERKOPER
 Voor de analyse van dit bijzonder geval moet het volgende onderscheid worden gemaakt:
 
 De werken werden door de eigenaar uitgevoerd voor de opstelling van de verkoopakte

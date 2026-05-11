@@ -7,45 +7,45 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-derdenrekeningen
 nummer: CBN-advies 2018/04
 provenance:
+  generated_at: '2026-05-11T17:48:39Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-derdenrekeningen-0
       sha256: a366f879a7345a1d8665d99dce6b52b517921b7e86c9660a386e51fb72df8ce5
       version:
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
-    status: needs-rework
     confirmed_at: '2026-05-11T17:13:30Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "B5: regel 78 bevat 'Verplichtingen van advocaten, notarissen, gerechtsdeurwaarders en vastgoedmakelaars met betrekking tot het houden van derdenrekeningen' als plain-text zonder ## prefix — het is een subsectie-heading die als aaneengeplakte paragraaf staat. A6: regel 79-81 heeft 'is een rekening waarbij bij de \\n\\ntenaamstelling wordt aangegeven' — spurious line-break midden in een zin met dubbele lege regel ertussen."
     layer1:
-      file_size_chars: 20255
-      flags: []
-      heading_count: 3
-      max_section_chars: 18601
-      run_at: '2026-05-11T15:05:53Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:44Z'
+      heading_count: 3
+      max_section_chars: 18599
+      file_size_chars: 20252
+      flags: []
     layer2:
-      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T17:13:30Z'
-      rationale: "B5: regel 78 bevat 'Verplichtingen van advocaten, notarissen, gerechtsdeurwaarders en vastgoedmakelaars met betrekking tot het houden van derdenrekeningen' als plain-text zonder ## prefix — het is een subsectie-heading die als aaneengeplakte paragraaf staat. A6: regel 79-81 heeft 'is een rekening waarbij bij de \\n\\ntenaamstelling wordt aangegeven' — spurious line-break midden in een zin met dubbele lege regel ertussen."
       concrete_problemen:
-        - regel: 78
-          categorie: B5
+        - categorie: B5
+          regel: 78
           type: other
           voorbeeld: Verplichtingen van advocaten, notarissen, gerechtsdeurwaarders en vastgoedmakelaars met betrekking tot het houden van derdenrekeningen
-        - regel: 79
-          categorie: A6
+        - categorie: A6
+          regel: 79
           type: other
           voorbeeld: "is een rekening waarbij bij de \n\ntenaamstelling wordt aangegeven"
+      rationale: 'B5: regel 78 bevat ''Verplichtingen van advocaten, notarissen, gerechtsdeurwaarders en vastgoedmakelaars met betrekking tot het houden van derdenrekeningen'' als plain-text zonder ## prefix — het is een subsectie-heading die als aaneengeplakte paragraaf staat. A6: regel 79-81 heeft ''is een rekening waarbij bij de \n\ntenaamstelling wordt aangegeven'' — spurious line-break midden in een zin met dubbele lege regel ertussen.'
+      run_at: '2026-05-11T17:13:30Z'
+      status: needs-rework
+    rationale: 'B5: regel 78 bevat ''Verplichtingen van advocaten, notarissen, gerechtsdeurwaarders en vastgoedmakelaars met betrekking tot het houden van derdenrekeningen'' als plain-text zonder ## prefix — het is een subsectie-heading die als aaneengeplakte paragraaf staat. A6: regel 79-81 heeft ''is een rekening waarbij bij de \n\ntenaamstelling wordt aangegeven'' — spurious line-break midden in een zin met dubbele lege regel ertussen.'
+    status: needs-rework
 themas:
   - derdenrekening
   - advocaat
@@ -62,7 +62,6 @@ themas:
 # CBN-advies 2018/04 - De boekhoudkundige verwerking van derdenrekeningen
 
 ## Inleiding
-
 Bepaalde beroepsbeoefenaars ontvangen of beheren gelden van of voor cliënten of derden. Dit is meer bepaald het geval voor advocaten, notarissen, gerechtsdeurwaarders en vastgoedmakelaars.
 
 Op 1 juni 2014[^2] traden nieuwe regels in werking omtrent het beheer van derdenrekeningen van laatstgenoemden, en meer specifiek van de wettelijke verplichting om een onderscheid te maken tussen hun eigen gelden en derdengelden.
@@ -74,7 +73,6 @@ Op het moment dat zij vallen onder de toepassing van Boek III, Titel III, Hoofds
 Zoals verder zal blijken, komt de Commissie tot de conclusie dat deze specifieke bestemming van de derdenrekening impliceert dat deze niet beschouwd moet worden als een actief van de beroepsbeoefenaar of van zijn vennootschap. Hierdoor zal de derdenrekening in de toelichting van de balans moeten worden opgenomen, bij de niet in de balans opgenomen rechten en verplichtingen.
 
 ## Analyse
-
 Verplichtingen van advocaten, notarissen, gerechtsdeurwaarders en vastgoedmakelaars met betrekking tot het houden van derdenrekeningen
 De derdenrekening, ook wel “kwaliteitsrekening” genoemd, is een rekening waarbij bij de 
 
@@ -105,7 +103,6 @@ Een identieke regel kan worden toegepast op de gerechtsdeurwaarders die dus een 
 Voor de vastgoedmakelaars ten slotte, voert de wet van 21 december 2017 (BS 22 januari 2018) tot wijziging van de wet van 11 februari 2013 houdende organisatie van het beroep van vastgoedmakelaar een wettelijke verplichting in tot afscheiding van eigen gelden en derdengelden van de vastgoedmakelaar[^21] (door de vastgoedmakelaars te verplichten om gebruik te maken van kwaliteitsrekeningen), waardoor geldsommen, door klanten aan hem toevertrouwd, beter worden beschermd: zij mogen niet meer worden gebruikt voor andere doeleinden, en bij een eventueel faillissement vallen zij buiten het faillissement.
 
 ### Boekhoudrechtelijke analyse
-
 De jaarrekening moet “*een getrouw beeld geven van het vermogen, de financiële positie en het resultaat van de* [onderneming]”[^22] en moet voldoen aan de beginselen van overeenstemming[^23] en voorzichtigheid[^24].
 
 Het Wetboek van economisch recht[^25] en het KB W.Venn.[^26] leggen op dat in de balans van de onderneming haar bezittingen en rechten van welke aard dan ook dienen voor te komen. Bovendien worden de rechten die niet in de balans voorkomen en die het vermogen, de financiële positie of het resultaat van de vennootschap aanmerkelijk kunnen beïnvloeden, in de toelichting vermeld[^27].

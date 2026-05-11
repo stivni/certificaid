@@ -2,62 +2,58 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/fusie-inbreng-van-een-onderdeel-van-een-onderneming-splitsing
 datum: 1980-06-01
 gerelateerde_adviezen:
-- datum: '2022-09-23'
-  titel: Boekhoudkundige verwerking van fusies tussen verenigingen en stichtingen
-  url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-fusies-tussen-verenigingen-en-stichtingen
-- datum: '2022-02-15'
-  titel: Fusies en splitsingen van vennootschappen met een negatief nettoactief
-  url: https://www.cbn-cnc.be/nl/adviezen/fusies-en-splitsingen-van-vennootschappen-met-een-negatief-nettoactief
-- datum: '2021-11-22'
-  titel: 'Verenigingen en stichtingen: compensatie van negatieve fondsen'
-  url: https://www.cbn-cnc.be/nl/adviezen/verenigingen-en-stichtingen-compensatie-van-negatieve-fondsen
-- datum: '2021-07-02'
-  titel: Boekhoudkundige verwerking van fusies tussen vennootschappen
-  url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-fusies-tussen-vennootschappen
+  - datum: '2022-09-23'
+    titel: Boekhoudkundige verwerking van fusies tussen verenigingen en stichtingen
+    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-fusies-tussen-verenigingen-en-stichtingen
+  - datum: '2022-02-15'
+    titel: Fusies en splitsingen van vennootschappen met een negatief nettoactief
+    url: https://www.cbn-cnc.be/nl/adviezen/fusies-en-splitsingen-van-vennootschappen-met-een-negatief-nettoactief
+  - datum: '2021-11-22'
+    titel: 'Verenigingen en stichtingen: compensatie van negatieve fondsen'
+    url: https://www.cbn-cnc.be/nl/adviezen/verenigingen-en-stichtingen-compensatie-van-negatieve-fondsen
+  - datum: '2021-07-02'
+    titel: Boekhoudkundige verwerking van fusies tussen vennootschappen
+    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-fusies-tussen-vennootschappen
 nummer: CBN-advies 124/1
 provenance:
-  generated_at: '2026-05-11T15:15:31Z'
+  generated_at: '2026-05-11T17:48:38Z'
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/fusie-inbreng-van-een-onderdeel-van-een-onderneming-splitsing
-    sha256: ff450fde1a444049df31cd0ee8d45c1d670d7eac5d26fc8b0f5121b40ec457b0
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/fusie-inbreng-van-een-onderdeel-van-een-onderneming-splitsing
+      sha256: ff450fde1a444049df31cd0ee8d45c1d670d7eac5d26fc8b0f5121b40ec457b0
+      version:
   stale: false
-  stale_reason: null
+  stale_reason:
   tooling:
-    model: null
+    model:
     pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    prompt_version: null
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
     confirmed_at: '2026-05-11T11:57:45Z'
     confirmed_by: subagent-sonnet-4-6
     layer1:
-      file_size_chars: 2090
-      flags: []
+      status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:41Z'
       heading_count: 0
       max_section_chars: 2090
-      run_at: '2026-05-11T15:05:48Z'
-      run_id: 20260511-150547
-      status: pass
+      file_size_chars: 2090
+      flags: []
     layer2:
       agent: subagent-sonnet-4-6
       concrete_problemen: []
-      rationale: Korte advies-tekst (2090 tekens), volledig en zonder artefacten.
-        Geen headings nodig (één doorlopende redenering). Frontmatter consistent.
-        Laag-1 pass correct.
+      rationale: Korte advies-tekst (2090 tekens), volledig en zonder artefacten. Geen headings nodig (één doorlopende redenering). Frontmatter consistent. Laag-1 pass correct.
       run_at: '2026-05-11T11:57:45Z'
       status: trusted
-    rationale: Korte advies-tekst (2090 tekens), volledig en zonder artefacten. Geen
-      headings nodig (één doorlopende redenering). Frontmatter consistent. Laag-1
-      pass correct.
+    rationale: Korte advies-tekst (2090 tekens), volledig en zonder artefacten. Geen headings nodig (één doorlopende redenering). Frontmatter consistent. Laag-1 pass correct.
     status: trusted
 themas:
-- fusie
-- fusie door opslorping
-- inbreng
-- inbreng van een onderdeel van een onderneming
-- splitsing
-- vergelijkende cijfers
+  - fusie
+  - fusie door opslorping
+  - inbreng
+  - inbreng van een onderdeel van een onderneming
+  - splitsing
+  - vergelijkende cijfers
 ---
 
 # CBN-advies 124/1 - Fusie, inbreng van een onderdeel van een onderneming, splitsing

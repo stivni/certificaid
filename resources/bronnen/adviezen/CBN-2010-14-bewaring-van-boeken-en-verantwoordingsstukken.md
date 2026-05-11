@@ -2,73 +2,65 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/bewaring-van-boeken-en-verantwoordingsstukken
 datum: 2010-09-24
 gerelateerde_adviezen:
-- datum: '2016-09-28'
-  titel: Bewaring van boeken en verantwoordingsstukken bij een geïnformatiseerde boekhouding
-  url: https://www.cbn-cnc.be/nl/adviezen/bewaring-van-boeken-en-verantwoordingsstukken-bij-een-geinformatiseerde-boekhouding
-- datum: '1981-04-10'
-  titel: Bewaring van de verantwoordingsstukken
-  url: https://www.cbn-cnc.be/nl/adviezen/bewaring-van-de-verantwoordingsstukken
+  - datum: '2016-09-28'
+    titel: Bewaring van boeken en verantwoordingsstukken bij een geïnformatiseerde boekhouding
+    url: https://www.cbn-cnc.be/nl/adviezen/bewaring-van-boeken-en-verantwoordingsstukken-bij-een-geinformatiseerde-boekhouding
+  - datum: '1981-04-10'
+    titel: Bewaring van de verantwoordingsstukken
+    url: https://www.cbn-cnc.be/nl/adviezen/bewaring-van-de-verantwoordingsstukken
 nummer: CBN-advies 2010/14
 provenance:
-  generated_at: '2026-05-11T15:15:31Z'
+  generated_at: '2026-05-11T17:48:39Z'
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/bewaring-van-boeken-en-verantwoordingsstukken
-    sha256: cc3dc16756036705ba3ff4dc69f8573d60aeb6ad8fa0314939d527bac08266d0
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/bewaring-van-boeken-en-verantwoordingsstukken
+      sha256: cc3dc16756036705ba3ff4dc69f8573d60aeb6ad8fa0314939d527bac08266d0
+      version:
   stale: false
-  stale_reason: null
+  stale_reason:
   tooling:
-    model: null
+    model:
     pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    prompt_version: null
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
     confirmed_at: '2026-05-11T12:09:17Z'
     confirmed_by: subagent-sonnet-4-6
     layer1:
-      file_size_chars: 10529
-      flags: []
-      heading_count: 7
-      max_section_chars: 5184
-      run_at: '2026-05-11T15:05:50Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:42Z'
+      heading_count: 7
+      max_section_chars: 5179
+      file_size_chars: 10522
+      flags: []
     layer2:
       agent: subagent-sonnet-4-6
       concrete_problemen: []
-      rationale: 'Geen zichtbare extractie-artefacten. Zeven ## en ### headings correct
-        hiërarchisch. Voetnoten 1–18 volledig. Zinnen lopen door zonder spurious line-breaks.
-        Tabellen ontbreken (dit advies heeft geen voorbeeldboekingen) — dat is inhoudelijk
-        juist, geen artefact.'
+      rationale: 'Geen zichtbare extractie-artefacten. Zeven ## en ### headings correct hiërarchisch. Voetnoten 1–18 volledig. Zinnen lopen door zonder spurious line-breaks. Tabellen ontbreken (dit advies heeft geen voorbeeldboekingen) — dat is inhoudelijk juist, geen artefact.'
       run_at: '2026-05-11T12:09:17Z'
       status: trusted
-    rationale: 'Geen zichtbare extractie-artefacten. Zeven ## en ### headings correct
-      hiërarchisch. Voetnoten 1–18 volledig. Zinnen lopen door zonder spurious line-breaks.
-      Tabellen ontbreken (dit advies heeft geen voorbeeldboekingen) — dat is inhoudelijk
-      juist, geen artefact.'
+    rationale: 'Geen zichtbare extractie-artefacten. Zeven ## en ### headings correct hiërarchisch. Voetnoten 1–18 volledig. Zinnen lopen door zonder spurious line-breaks. Tabellen ontbreken (dit advies heeft geen voorbeeldboekingen) — dat is inhoudelijk juist, geen artefact.'
     status: trusted
 themas:
-- bewaring
-- bewaring van verantwoordingsstukken
-- boeken
-- computersysteem
-- elektronische boekhouding
-- elektronische facturering
-- plaats van bewaring
-- verantwoordingsstuk
+  - bewaring
+  - bewaring van verantwoordingsstukken
+  - boeken
+  - computersysteem
+  - elektronische boekhouding
+  - elektronische facturering
+  - plaats van bewaring
+  - verantwoordingsstuk
 ---
 
 # CBN-advies 2010/14 - Bewaring van boeken en verantwoordingsstukken
 
 ## Inleiding
-
 Belgische ondernemingen moeten hun boeken bewaren gedurende zeven jaar, te rekenen van de eerste januari van het jaar dat op de afsluiting volgt.[^1]
  Ook de verantwoordingsstukken worden methodisch opgeborgen en zeven jaar bewaard, in origineel of in afschrift. De stukken die niet strekken tot bewijs jegens derden, worden drie jaar bewaard.[^2] 
 
 Verscheidene Belgische ondernemingen centraliseren de boekhouding van over verschillende landen gespreide zetels op één computersysteem. Aan de Commissie werd in dit verband gevraagd of een Belgische onderneming haar boeken en verantwoordingsstukken in elektronische vorm ook in het buitenland mag bewaren. 
 
 ## Elektronische boekhouding
-
 Met ingang van 2005 is het houden van een elektronische boekhouding wettelijk erkend in de Boekhoudwet. Artikel 2 van het koninklijk besluit van 25 januari 2005[^3] stelt namelijk als beginsel dat alle wettelijk voorgeschreven boeken ofwel op een papieren drager, ofwel door middel van een geïnformatiseerd systeem mogen worden bijgehouden. De elektronisch gevoerde boekhouding dient uiteraard te voldoen aan de voorwaarden en vereisten gesteld door de Boekhoudwet. 
 
 Specifiek betreffende de verplichting tot waarborging van de materiële continuïteit, regelmatigheid en onveranderlijkheid (artikel 7, § 2 Boekhoudwet), bepaalt artikel 5, § 2 van het koninklijk besluit van 12 september 1983 dat de informaticasystemen die worden gebruikt (vb. boekhoudprogramma’s) er steeds moeten voor zorgen dat de onderneming haar boekhouding kan voeren in overeenstemming met de wettelijke en reglementaire bepalingen ter zake.[^4] 
@@ -76,7 +68,6 @@ Specifiek betreffende de verplichting tot waarborging van de materiële continu�
 Het komt aan de Commissie voor Boekhoudkundige Normen toe, in overeenstemming met haar wettelijke opdracht – en in het bijzonder met haar rol inzake het bepalen van de beginselen van een regelmatige boekhouding – om deze minimumvereiste te expliciteren en te preciseren, middels adviezen en aanbevelingen, en om deze vereiste te situeren in het breder kader van de organisatie van de boekhouding binnen de onderneming.[^5] 
 
 ## Elektronische facturering
-
 Artikel 6, eerste lid van de Boekhoudwet bepaalt dat elke boeking geschiedt aan de hand van een gedagtekend verantwoordingsstuk, waarnaar zij moet verwijzen.[^6]
  In boekhoudrechtelijk opzicht vormt de factuur, eens gecontroleerd en aanvaard, het verantwoordingsstuk bij uitstek voor de inkoop- en verkoopverrichtingen en de levering van diensten.[^7] 
 
@@ -88,7 +79,6 @@ De Belgische factureringsregels zijn slechts van toepassing op handelingen die i
  Tegen uiterlijk 1 januari 2013 dienen de 27 lidstaten hun wetgeving aangepast te hebben.
 
 ## Archivering
-
 Artikel 9, lid 2 van het koninklijk besluit van 12 september 1983 vermeldt inzake bewaring van boekhoudstukken uitdrukkelijk dat de gekozen drager zowel de onveranderlijkheid als de toegankelijkheid van de gegevens moet garanderen gedurende de bewaartermijn. 
 
 Wordt de boekhouding elektronisch gevoerd, dan houdt dit in dat de onderneming niet alleen de bestanden met de boeken en de verantwoordingsstukken moet bijhouden, maar ook de programma’s en systemen waarmee deze bestanden kunnen gelezen worden, en dit gedurende deze minimale bewaartermijn. Elke boekhoudstaat moet immers gedurende de minimale bewaartermijn kunnen worden voorgelegd en herafgedrukt.[^13] 
@@ -99,14 +89,11 @@ Verantwoordingsstukken worden bewaard in origineel of in afschrift.[^14]
 Zowel voor de elektronische als voor de papieren facturen, geldt op fiscaal vlak dat bedrijven moeten kunnen aantonen dat gedurende de archiveringstermijn niet is geraakt aan de authenticiteit[^15] en integriteit[^16] van de verzonden of ontvangen facturen.[^17] 
 
 ## Plaats van bewaring
-
 ### Ondernemingen naar buitenlands recht: CBN-advies 1/2
-
 Luidens artikel 1, tweede lid van de Boekhoudwet dienen de boeken, rekeningen en verantwoordingsstukken met betrekking tot de bijkantoren en centra van werkzaamheden in België van buitenlandse ondernemingen in België te worden bewaard. Deze verplichting verzet er zich echter niet tegen dat de boekhouding van over verscheidene landen gespreide zetels van buitenlandse ondernemingen wordt gevoerd op een computer in het buitenland.[^18]
  Naar de mening van de Commissie heeft de wetgever namelijk niet de verplichting willen opleggen dat de materiële verrichtingen voor het inschrijven en verwerken van de gegevens in België geschieden, maar wel dat de boeken, rekeningen en verantwoordingsstukken van de centra van werkzaamheden en bijkantoren in België van de buitenlandse ondernemingen in België rechtstreeks toegankelijk zijn en er dus worden bewaard hetzij in origineel, hetzij in afschrift. 
 
 ### Belgische ondernemingen
-
 De Boekhoudwet omvat geen specifieke verwijzing naar de plaats van bewaring van de boeken en verantwoordingsstukken. De Commissie is evenwel van mening dat hierdoor geen bezwaar kan bestaan tegen het centraliseren van de boekhouding op één computer in het buitenland. De Boekhoudwet schrijft immers nergens expliciet voor dat de materiële verrichtingen voor het inschrijven en verwerken van de gegevens in België plaats moeten vinden. 
 
 De Commissie is bovendien van mening dat Belgische ondernemingen hun boeken, rekeningen en verantwoordingsstukken kunnen bewaren in het buitenland, op voorwaarde dat gebruik wordt gemaakt van een archiveringsmethode die volledige on-line toegang op de bedrijfszetel in België voorziet. Op die manier voldoet de onderneming aan de eerder door de Commissie vooropgestelde principes van rechtstreekse toegankelijkheid en leesbaarheid gedurende de bewaringstermijn. 

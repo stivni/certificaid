@@ -3,49 +3,47 @@ bron: https://www.cbn-cnc.be/nl/adviezen/risicos-en-verliezen-waarvan-de-waarder
 datum: 1988-01-01
 nummer: CBN-advies 107/7
 provenance:
-  generated_at: '2026-05-11T15:15:31Z'
+  generated_at: '2026-05-11T17:48:38Z'
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/risicos-en-verliezen-waarvan-de-waardering-aleatoir-is
-    sha256: 1af9677f73da4bfeca988d20212ee89f19fa6e3dd247e6c4aa1da377b9667a7c
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/risicos-en-verliezen-waarvan-de-waardering-aleatoir-is
+      sha256: 1af9677f73da4bfeca988d20212ee89f19fa6e3dd247e6c4aa1da377b9667a7c
+      version:
   stale: false
-  stale_reason: null
+  stale_reason:
   tooling:
-    model: null
+    model:
     pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    prompt_version: null
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
     confirmed_at: '2026-05-08T19:02:29Z'
     confirmed_by: subagent-laag2-ronde2
     layer1:
-      file_size_chars: 7056
-      flags: []
-      heading_count: 0
-      max_section_chars: 7056
-      run_at: '2026-05-11T15:05:48Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:40Z'
+      heading_count: 0
+      max_section_chars: 7055
+      file_size_chars: 7055
+      flags: []
     layer2:
       agent: subagent-laag2-ronde2
       concrete_problemen: []
-      rationale: '[Laag-2-R2 2026-05-08] Volledig met twee interpretaties, gemotiveerde
-        keuze met IAS 10 en praktijksituatie (range van bedragen).'
+      rationale: '[Laag-2-R2 2026-05-08] Volledig met twee interpretaties, gemotiveerde keuze met IAS 10 en praktijksituatie (range van bedragen).'
       run_at: '2026-05-08T19:02:29Z'
       status: trusted
     rationale: Laag-2 trusted door subagent-laag2-ronde2 (zie layer2.rationale)
     status: trusted
 themas:
-- aleatoir
-- onvermijdelijk aleatoir
-- toelichting
-- voorziening
-- voorzieningen voor risico&#039;s en kosten
-- waardering
+  - aleatoir
+  - onvermijdelijk aleatoir
+  - toelichting
+  - voorziening
+  - voorzieningen voor risico&#039;s en kosten
+  - waardering
 ---
 
 # CBN advies 107-7 - Risico's en verliezen waarvan de waardering aleatoir is
-
 Artikel 13 van het jaarrekeningbesluit bepaalt dat de voorzieningen voor risico's en kosten naar hun aard duidelijk omschreven verliezen of kosten beogen te dekken die op de balansdatum waarschijnlijk of zeker zijn, doch waarvan het bedrag niet vaststaat i.e. waarvan de omvang onzeker is en slechts door schatting bepaalbaar is.
 
 Deze bepaling moet onder meer worden samengelezen met artikel 19 van het besluit waarvan het derde lid bepaalt dat de ondernemingen rekening dienen te houden met alle voorzienbare risico's, mogelijke verliezen en ontwaardingen, ontstaan tijdens het boekjaar waarop de jaarrekening betrekking heeft of tijdens voorgaande boekjaren, zelfs indien deze risico's, verliezen of ontwaardingen slechts gekend zijn tussen de balansdatum en het ogenblik waarop de jaarrekening door het beheersorgaan van de ondernemingen wordt opgesteld. Anderzijds bepaalt de laatste volzin van ditzelfde derde lid het volgende : «In de gevallen waarin, bij gebreke aan objectieve beoordelingscriteria de waardering van de voorzienbare risico's, de mogelijke verliezen en de ontwaardingen onvermijdelijk aleatoir is, wordt hiervan melding gemaakt in de toelichting, wanneer de betrokken bedragen rekening houdend met de doelstelling van artikel 3 belangrijk zijn».

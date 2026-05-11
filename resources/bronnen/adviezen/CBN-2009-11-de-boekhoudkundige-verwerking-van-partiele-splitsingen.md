@@ -10,45 +10,45 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/overdracht-van-eigen-vermogen-in-het-kader-van-een-fusie-splitsing-of-partiele-splitsing
 nummer: CBN-advies 2009/11
 provenance:
+  generated_at: '2026-05-11T17:48:38Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-partiele-splitsingen
       sha256: 6bed029a7b84487dfafe91c768ee462d42a9123ae5f14f16a1bddabc7c1fad22
       version:
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
-    status: needs-rework
     confirmed_at: '2026-05-11T17:09:38Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "E2/A6: tabel 'B na partiële splitsing' in Voorbeeld 3 (r311-316) heeft een gebroken rij — cel '9.500' staat op r313 als standalone tekstregel buiten de tabel-pipes, gevolgd door een gedeeltelijke piprij op r315. ETL tabel-rendering-bug identiek aan eerdere bevindingen. Overige tabellen, 6 headings en 14 voetnoten zijn correct."
     layer1:
-      file_size_chars: 26932
-      flags: []
-      heading_count: 6
-      max_section_chars: 8558
-      run_at: '2026-05-11T15:05:50Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:42Z'
+      heading_count: 6
+      max_section_chars: 8557
+      file_size_chars: 26926
+      flags: []
     layer2:
-      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T17:09:38Z'
-      rationale: "E2/A6: tabel 'B na partiële splitsing' in Voorbeeld 3 (r311-316) heeft een gebroken rij — cel '9.500' staat op r313 als standalone tekstregel buiten de tabel-pipes, gevolgd door een gedeeltelijke piprij op r315. ETL tabel-rendering-bug identiek aan eerdere bevindingen. Overige tabellen, 6 headings en 14 voetnoten zijn correct."
       concrete_problemen:
-        - regel: 311
-          categorie: E2
+        - categorie: E2
+          regel: 311
           type: other
-          voorbeeld: "| | | \\n(cel breekt naar losse regel 313: '9.500')"
-        - regel: 313
-          categorie: A6
+          voorbeeld: '| | | \n(cel breekt naar losse regel 313: ''9.500'')'
+        - categorie: A6
+          regel: 313
           type: other
           voorbeeld: '9.500'
+      rationale: 'E2/A6: tabel ''B na partiële splitsing'' in Voorbeeld 3 (r311-316) heeft een gebroken rij — cel ''9.500'' staat op r313 als standalone tekstregel buiten de tabel-pipes, gevolgd door een gedeeltelijke piprij op r315. ETL tabel-rendering-bug identiek aan eerdere bevindingen. Overige tabellen, 6 headings en 14 voetnoten zijn correct.'
+      run_at: '2026-05-11T17:09:38Z'
+      status: needs-rework
+    rationale: 'E2/A6: tabel ''B na partiële splitsing'' in Voorbeeld 3 (r311-316) heeft een gebroken rij — cel ''9.500'' staat op r313 als standalone tekstregel buiten de tabel-pipes, gevolgd door een gedeeltelijke piprij op r315. ETL tabel-rendering-bug identiek aan eerdere bevindingen. Overige tabellen, 6 headings en 14 voetnoten zijn correct.'
+    status: needs-rework
 themas:
   - partiële splitsing
 ---
@@ -56,7 +56,6 @@ themas:
 # CBN-advies 2009/11 - De boekhoudkundige verwerking van partiële splitsingen Advies van 16 september 2009
 
 ## INLEIDING
-
 Met een partiële splitsing wordt bedoeld “de verrichting waarbij een deel van het maatschappelijk vermogen van een vennootschap A op een andere vennootschap B overgaat, en waarbij de aandeelhouders van vennootschap A, benevens het behoud van hun aandelen A, ook nieuwe aandelen B ontvangen. De vennootschap A die aldus slechts een deel van haar maatschappelijk vermogen heeft overgedragen blijft dus voortbestaan: zij ondergaat evenwel een vermogensvermindering die gelijk is aan het deel van haar maatschappelijk vermogen dat werd overgedragen aan vennootschap B”[^1]. Deze verrichting wordt in artikel 677 van het Wetboek van Vennootschappen (W.Venn.) omschreven als een met splitsing gelijkgestelde verrichting.
 
 In het CBN-advies 166/2 stelt de Commissie voor Boekhoudkundige Normen[^2] het volgende : *“Met artikel 677 van het Wetboek van Vennootschappen heeft de wetgever dergelijke verrichtingen immers duidelijk een specifiek karakter, sui generis, willen geven en de ter zake geldende wettelijke regeling willen afstemmen op die voor splitsingen.”* Hiermee geeft de Commissie aan dat dergelijke verrichting bij voorkeur moet worden beschouwd als een splitsing met specifieke kenmerken.
@@ -83,9 +82,7 @@ Zoals in het geval van een gewone splitsing, is het aangewezen dat hierbij de bo
 Het is de bovenstaande methodologie die in de uitgewerkte voorbeelden wordt aangehouden.
 
 ## BOEKHOUDKUNDIGE VERWERKING
-
 ## Voorbeeld 1 - Basisvoorbeeld
-
 De algemene principes die hierboven werden beschreven, kunnen worden geïllustreerd aan de hand van volgend basisvoorbeeld.
 
 Veronderstel dat onderstaande vennootschap A (belastingneutraal) partieel wordt gesplitst waarbij 8.500 activa en 2.500 schulden aan een nieuw op te richten vennootschap B worden overgedragen; A behoudt 5.500 activa en 1.500 schulden.
@@ -171,7 +168,6 @@ Naar aanleiding van de partiële splitsing wordt bij D het volgende geboekt:
 In hoofde van D bedraagt de boekwaarde van de participatie A na de partiële splitsing 3.375.
 
 ## Voorbeeld 2 – Gespreid te belasten meerwaarden of kapitaalsubsidies
-
 Veronderstel dat onderstaande vennootschap A (belastingneutraal) partieel wordt gesplitst waarbij een gedeelte van haar vermogen wordt overgedragen aan een nieuw op te richten vennootschap B.
 
 | A | 
@@ -241,7 +237,6 @@ Na de partiële splitsing zullen A en B er dan als volgt uitzien:
 | | | 8.500 | | | | 8.500 | 
 
 ## Voorbeeld 3 - Herwaarderingsmeerwaarde
-
 Veronderstel dat onderstaande vennootschap A (belastingneutraal) partieel wordt gesplitst waarbij een gedeelte van haar vermogen wordt overgedragen aan een nieuw op te richten vennootschap B.
 
 | A | 
@@ -316,7 +311,6 @@ Na de partiële splitsing zullen A en B er dan als volgt uitzien:
 |---|---|---|---|
 
 ## Voorbeeld 4 – Partiële splitsing waarbij de verkrijgende vennootschap aandeelhouder is van de partieel te splitsen vennootschap
-
 Onderstaande vennootschap A wordt (belastingneutraal) partieel gesplitst, waarbij het afgesplitst vermogen wordt overgedragen aan een bestaande vennootschap B, welke 80% van de aandelen van A bezit.
 
 | A | 

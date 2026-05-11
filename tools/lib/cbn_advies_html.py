@@ -84,6 +84,10 @@ class _CBNAdviceParser(HTMLParser):
 
         self._in_indented_p: bool = False
         self._pending_link_href: str | None = None
+        # Index in self.result waar de huidige <p> begint — voor
+        # post-detect-fix waarbij we een bold-only <p> achteraf promoveren
+        # naar een ## heading.
+        self._p_start_idx: int | None = None
 
     # ── helpers ──────────────────────────────────────────────────────────────
 
@@ -119,6 +123,16 @@ class _CBNAdviceParser(HTMLParser):
             return
 
         cls = attr_dict.get('class', '')
+
+        # ─── TOC-div skip: <div class="toc..."> / <form class="toc..."> ────
+        # CBN-adviezen renderen de inhoudstafel in een <div class="toc toc-
+        # responsive"> + een <form class="toc-mobile"> + bevatten een
+        # <ol class="toc-level-root">. Block-level skip houdt nested
+        # children automatisch buiten de body-output. De skip_stack-logica
+        # in handle_endtag haalt de markering weer op bij sluit-tag.
+        if tag in ('div', 'form', 'ol', 'ul') and ('toc' in cls.lower()):
+            self.skip_stack.append(tag)
+            return
 
         if tag == 'a' and 'see-footnote' in cls:
             href = attr_dict.get('href', '')
@@ -174,6 +188,12 @@ class _CBNAdviceParser(HTMLParser):
                 self._flush('### ')
             else:
                 self._ensure_nl(2)
+                # Markeer paragraph-start zodat we bij </p> kunnen
+                # detecteren of de content bold-only is (→ heading).
+                # _flush eerst zodat \n's al in result zitten, dan
+                # nemen we positie nadien op.
+                self._flush('')  # forceer pending_nl-flush
+                self._p_start_idx = len(self.result)
 
         elif tag in ('strong', 'b'):
             if not self._in_indented_p:
@@ -273,6 +293,27 @@ class _CBNAdviceParser(HTMLParser):
             self._ensure_nl(2)
         elif tag == 'p':
             self._in_indented_p = False
+            # Bold-only detection: als de hele inhoud van deze <p>
+            # bestaat uit een enkele **...** span (met ev. trailing
+            # whitespace), is dit een sectie-heading die de CBN-redacteur
+            # in plaats van <h2> als bold-tekst heeft opgemaakt. Promoot
+            # naar ## heading (max 150 chars titel).
+            if self._p_start_idx is not None:
+                end = len(self.result)
+                p_content = ''.join(self.result[self._p_start_idx:end]).strip()
+                m = re.fullmatch(
+                    r'\*\*([^*\n]{2,150}?)\*\*\s*[\.\,\:]?\s*',
+                    p_content,
+                )
+                if m:
+                    title = m.group(1).strip()
+                    # Strip footnote-marker uit titel (verstoort heading)
+                    title = re.sub(r'\s*\[\^\d+\]\s*', '', title).strip()
+                    if title and not title.endswith(('.', ';', ':')):
+                        # Vervang de p-content door een H2-heading.
+                        del self.result[self._p_start_idx:end]
+                        self.result.append(f'## {title}')
+                self._p_start_idx = None
             self._ensure_nl(2)
         elif tag in ('strong', 'b'):
             if not self._in_indented_p:
@@ -935,6 +976,24 @@ def _cleanup_markdown(md: str) -> str:
             return body
         return m.group(0)
     md = re.sub(r'^###\s+(.+?)\s*$', _demote_sentence_h3, md, flags=re.MULTILINE)
+
+    # ─── 8c. Strip footnote-markers uit heading-regels ─────────────────────
+    # `## Kleine[^3] vereniging` → `## Kleine vereniging` — voetnoot-markers
+    # in headings worden door veel markdown-renderers niet goed weergegeven
+    # en verstoren de heading-tekst voor RAG-retrieval. De voetnoot-definitie
+    # blijft onderaan staan (alleen de inline-ref wordt gestript).
+    def _strip_footnote_from_heading(m: re.Match) -> str:
+        prefix = m.group(1)
+        text = m.group(2)
+        cleaned = re.sub(r'\[\^\d+\]', '', text)
+        cleaned = re.sub(r'\s+', ' ', cleaned).strip()
+        return f'{prefix} {cleaned}'
+    md = re.sub(
+        r'^(#{1,6})\s+(.+?)\s*$',
+        _strip_footnote_from_heading,
+        md,
+        flags=re.MULTILINE,
+    )
 
     # ─── 9. Duplicate top-level H1 wegwerken (B3) ────────────────────────────
     # Als er twee opeenvolgende `# Title`-regels staan met identieke tekst,

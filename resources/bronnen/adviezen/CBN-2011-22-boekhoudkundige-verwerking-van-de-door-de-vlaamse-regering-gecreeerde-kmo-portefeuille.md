@@ -3,41 +3,43 @@ bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-door-
 datum: 2011-10-05
 nummer: CBN-advies 2011/22
 provenance:
+  generated_at: '2026-05-11T17:48:39Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-door-de-vlaamse-regering-gecreeerde-kmo-portefeuille
       sha256: 6e925ea83ee592735035416d840b6c46af53b964cc33ac88a183f6826f4242ba
       version:
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
-    status: needs-rework
     confirmed_at: '2026-05-11T17:09:38Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "E2: regel 136 toont '| | of 623 Andere personeelskosten | | | |' als een losstaande tabelrij — een parenthetisch alternatief '(of 623)' uit de brondocument-tabel is als aparte rij geëxtraheerd in plaats van in dezelfde cel als rekening 61. Verder is het document (10392 chars, 6 headings) inhoudelijk volledig."
     layer1:
-      file_size_chars: 10392
-      flags: []
-      heading_count: 6
-      max_section_chars: 4621
-      run_at: '2026-05-11T15:05:50Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:43Z'
+      heading_count: 6
+      max_section_chars: 4620
+      file_size_chars: 10212
+      flags: []
     layer2:
-      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T17:09:38Z'
-      rationale: "E2: regel 136 toont '| | of 623 Andere personeelskosten | | | |' als een losstaande tabelrij — een parenthetisch alternatief '(of 623)' uit de brondocument-tabel is als aparte rij geëxtraheerd in plaats van in dezelfde cel als rekening 61. Verder is het document (10392 chars, 6 headings) inhoudelijk volledig."
       concrete_problemen:
-        - regel: 136
-          categorie: E2
+        - categorie: E2
+          regel: 136
           type: pseudo-table
-          voorbeeld: "| | 61 | Diensten en diverse goederen | 160 | |\n| | of 623 Andere personeelskosten | | | |"
+          voorbeeld: '| | 61 | Diensten en diverse goederen | 160 | |
+
+            | | of 623 Andere personeelskosten | | | |'
+      rationale: 'E2: regel 136 toont ''| | of 623 Andere personeelskosten | | | |'' als een losstaande tabelrij — een parenthetisch alternatief ''(of 623)'' uit de brondocument-tabel is als aparte rij geëxtraheerd in plaats van in dezelfde cel als rekening 61. Verder is het document (10392 chars, 6 headings) inhoudelijk volledig.'
+      run_at: '2026-05-11T17:09:38Z'
+      status: needs-rework
+    rationale: 'E2: regel 136 toont ''| | of 623 Andere personeelskosten | | | |'' als een losstaande tabelrij — een parenthetisch alternatief ''(of 623)'' uit de brondocument-tabel is als aparte rij geëxtraheerd in plaats van in dezelfde cel als rekening 61. Verder is het document (10392 chars, 6 headings) inhoudelijk volledig.'
+    status: needs-rework
 themas:
   - kmo-portefeuille
   - ondernemerschapsportefeuille
@@ -46,14 +48,7 @@ themas:
 
 # CBN-advies 2011/22 – Boekhoudkundige verwerking van de door de Vlaamse Regering gecreëerde kmo-portefeuille
 
-1. Procedure 
-2. Boekhoudkundige verwerking 
-3. Eigen bijdrage van de onderneming 
-4. Subsidiëring door de Vlaamse overheid 
-5. Betaling via de elektronische portefeuille 
-
 ## Inleiding
-
 De kmo-portefeuille of ondernemerschapsportefeuille betreft een steunmaatregel van de Vlaamse overheid, hoofdzakelijk gericht op het verbeteren van de huidige of toekomstige bedrijfsvoering bij kmo’s.[^1] 
 
 Door middel van deze steunmaatregel kunnen kmo’s aanspraak maken op subsidies binnen verschillende domeinen waaronder opleiding[^2], advies over ondernemen[^3], advies over internationaliseren[^4] en advies over innoveren[^5], telkens verstrekt door een erkende dienstverlener[^6]. Voor elk van deze domeinen gelden specifieke steunpercentages en – plafonds.[^7] 
@@ -61,18 +56,15 @@ Door middel van deze steunmaatregel kunnen kmo’s aanspraak maken op subsidies 
 Zowel de aanvraag als de verwerking, de toekenning en het beheer van de subsidie gebeuren via de elektronische ondernemerschapsportefeuille of kmo-portefeuille. 
 
 ### Procedure
-
 Na het afsluiten van een overeenkomst met een erkende dienstverlener of na de inschrijving bij een erkende dienstverlener, dient de onderneming via de webapplicatie een subsidieaanvraag in.[^8]
  Bij een eerste subsidieaanvraag wordt via deze webapplicatie een ondernemerschapsportefeuille op naam van de onderneming aangemaakt.[^9] 
 
 Als de onderneming voldoet aan de voorwaarden vermeld in het decreet van 31 januari 2003, het Besluit van de Vlaamse Regering van 19 december 2008 en de uitvoeringsbesluiten, wordt de subsidie toegekend aan de onderneming door de toekenning van een projectbedrag in de ondernemerschapsportefeuille op naam van de onderneming, waarvan, naargelang het steunpercentage, respectievelijk 50 % of 75 % wordt betaald door het Vlaamse Gewest en 50 % of 25 % door de onderneming. [^10] 
 
 ### Boekhoudkundige verwerking
-
 Naar het oordeel van de Commissie voor Boekhoudkundige Normen dient de subsidieverlening in het kader van de kmo-portefeuille als volgt verwerkt te worden in de boekhouding van de onderneming. 
 
 ### Eigen bijdrage van de onderneming
-
 De eigen bijdrage van de onderneming moet binnen de dertig dagen na het akkoord over de subsidieaanvraag ontvangen zijn door de externe beheerder van de kmo-portefeuille.[^11]
  Dit gebeurt door storting in de kmo-portefeuille.[^12]
  De onderneming brengt dit in haar boekhouding tot uitdrukking door haar eigen bijdrage op een subrekening van de liquide middelen (bijvoorbeeld van de MAR-rekening 57 *Kassen*), te boeken.
@@ -87,7 +79,6 @@ De eigen bijdrage van de onderneming moet binnen de dertig dagen na het akkoord 
 | aan | 550 | Kredietinstellingen: rekening-courant | | 80 |
 
 ### Subsidiëring door de Vlaamse overheid
-
 Nadat de onderneming haar eigen bijdrage gestort heeft, vult de overheid de elektronische portefeuille aan. 
 
 De door de overheid verstrekte steun in het kader van de kmo-portefeuille betreft geenszins een subsidie die werd verkregen voor investeringen in vaste activa. Het betreft een bedrag dat door de overheid aan een entiteit wordt toegekend om bepaalde exploitatiekosten te compenseren. 
@@ -122,7 +113,6 @@ Indien de effectieve toekenning van de exploitatiesubsidie niet samenvalt met de
 De Commissie brengt tevens in herinnering dat het totaal bedrag van de subsidies (andere dan investeringssubsidies) in de toelichting bij de jaarrekening dient vermeld te worden.[^17] 
 
 ### Betaling via de elektronische portefeuille
-
 Bij ontvangst van de factuur van de dienstverlener wordt de door de dienstverlener aangerekende prijs door de onderneming ten laste genomen. De subsidie wordt afgeboekt wanneer de dienstverlener via de kmo-portefeuille wordt betaald.[^18]
  De btw en niet-aanvaarde kosten worden rechtstreeks door de onderneming aan de dienstverlener betaald.[^19] 
 

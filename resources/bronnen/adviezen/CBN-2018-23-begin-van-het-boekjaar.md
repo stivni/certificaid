@@ -16,37 +16,37 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/verslaggeving-bij-ontbinding-en-vereffening-van-bv-cv-nv-se-en-sce
 nummer: CBN-advies 2018/23
 provenance:
+  generated_at: '2026-05-11T17:48:39Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/begin-van-het-boekjaar
       sha256: b442dbac8ff7b7731072ff57be43236eeeae2d8e535166126b18c96d96018a75
       version:
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T15:15:32Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
-    status: trusted
     confirmed_at: '2026-05-11T15:23:43Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: Na re-scrape met scraper-fixes is het TOC-artefact (A3) dat in de vorige ronde aanwezig was verdwenen. De body begint direct met de titel-heading gevolgd door de inhoudssecties zonder enig plain-text TOC-blok. Structuur correct, tabellen in pipe-format, voetnoten [^1]–[^40] volledig aanwezig. Geen nieuwe ETL-artefacten gevonden in categorieën A–G.
     layer1:
-      file_size_chars: 27737
-      flags: []
-      heading_count: 7
-      max_section_chars: 12515
-      run_at: '2026-05-11T15:05:53Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:44Z'
+      heading_count: 11
+      max_section_chars: 12512
+      file_size_chars: 27717
+      flags: []
     layer2:
-      status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:23:43Z'
-      rationale: Na re-scrape met scraper-fixes is het TOC-artefact (A3) dat in de vorige ronde aanwezig was verdwenen. De body begint direct met de titel-heading gevolgd door de inhoudssecties zonder enig plain-text TOC-blok. Structuur correct, tabellen in pipe-format, voetnoten [^1]–[^40] volledig aanwezig. Geen nieuwe ETL-artefacten gevonden in categorieën A–G.
       concrete_problemen: []
+      rationale: Na re-scrape met scraper-fixes is het TOC-artefact (A3) dat in de vorige ronde aanwezig was verdwenen. De body begint direct met de titel-heading gevolgd door de inhoudssecties zonder enig plain-text TOC-blok. Structuur correct, tabellen in pipe-format, voetnoten [^1]–[^40] volledig aanwezig. Geen nieuwe ETL-artefacten gevonden in categorieën A–G.
+      run_at: '2026-05-11T15:23:43Z'
+      status: trusted
+    rationale: Na re-scrape met scraper-fixes is het TOC-artefact (A3) dat in de vorige ronde aanwezig was verdwenen. De body begint direct met de titel-heading gevolgd door de inhoudssecties zonder enig plain-text TOC-blok. Structuur correct, tabellen in pipe-format, voetnoten [^1]–[^40] volledig aanwezig. Geen nieuwe ETL-artefacten gevonden in categorieën A–G.
+    status: trusted
 themas:
   - boekjaar
   - begin van het boekjaar
@@ -65,13 +65,11 @@ themas:
 # CBN-advies 2018/23 - Begin van het boekjaar
 
 ## Inleiding
-
 De Commissie voor Boekhoudkundige Normen kreeg herhaaldelijk vragen voorgelegd over de aanvangsdatum van het boekjaar van een nieuwe vennootschap opgericht al dan niet naar aanleiding van een fusie of splitsing.
 
 Onderhavig advies bepaalt vooreerst de aanvangsdatum van het boekjaar ingeval van de oprichting van een nieuwe vennootschap. Het onderzoekt vervolgens de impact van de overname van de verbintenissen aangegaan namens een vennootschap die op die datum in oprichting is. Het analyseert ten slotte de aanvangsdatum van het boekjaar van nieuwe vennootschappen opgericht naar aanleiding van een fusie, een splitsing, een inbreng van een algemeenheid of een bedrijfstak.
 
 ## Het principe: het boekjaar start op de datum waarop de vennootschap rechtspersoonlijkheid verwerft
-
 Naar mening van de Commissie start het boekjaar van een vennootschap op de datum waarop ze haar rechtspersoonlijkheid verwerft.
 
 Vennootschappen verkrijgen hun rechtspersoonlijkheid vanaf de dag dat ze het uittreksel van hun oprichtingsakte neerleggen ter griffie van de rechtbank van koophandel van het rechtsgebied waarbinnen de vennootschap haar zetel heeft.[^2] ,[^3] 
@@ -87,7 +85,6 @@ De Commissie herinnert eraan dat de nieuwe vennootschap, die haar jaarrekening v
 De Commissie herinnert er eveneens aan dat het boekjaar, krachtens het periodiciteitsbeginsel[^8], normaal gezien een duur van twaalf maanden moet hebben. Uitzonderlijk kan een boekjaar een duur van minder of meer dan twaalf maanden hebben, waarbij deze duur nooit langer kan zijn dan vierentwintig maanden min één kalenderdag.[^9] 
 
 ## Impact van de overname van de verbintenissen aangegaan namens een vennootschap in oprichting
-
 Volgens artikel 60 van het W.Venn. zijn, tenzij anders is overeengekomen, de promotoren die zich verbinden in naam van de vennootschap in oprichting, persoonlijk en hoofdelijk aansprakelijk, behalve wanneer de vennootschap binnen twee jaar na het ontstaan van de verbintenis het uittreksel uit haar oprichtingsakte ter griffie neerlegt en zij bovendien die verbintenis binnen twee maanden na deze neerlegging overneemt. Indien deze twee cumulatieve voorwaarden vervuld zijn, “*wordt de verbintenis geacht van het begin af door de vennootschap te zijn aangegaan*”.
 
 In dat opzicht, heeft het Hof van Cassatie voor recht verklaard dat “*de overname ten aanzien van de promotor geldt als een ontbindende voorwaarde waardoor hij wordt bevrijd van de aangegane verbintenissen en wordt geacht nooit eigenaar te zijn geweest van de in naam van de vennootschap in oprichting verworven goederen*”[^10].
@@ -137,9 +134,7 @@ Bij de nieuwe vennootschap, vertaalt de overname zich als volgt:
 De boekingen worden als volgt verricht[^22]:
 
 ### In hoofde van de promotor
-
-**20X0**
-
+## 20X0
 Afsluiting van de banklening
 
 | | Rekening | Omschrijving | Debet | Credit |
@@ -183,8 +178,7 @@ Afschrijving van het onroerend goed tijdens vier maanden
 | | 6302/666 | Toevoegingen aan afschrijvingen/niet-recurrente | 1.010,10 | |
 | aan | 2229/269 | Bebouwde terreinen/Overige mat. vaste activa | | 1.010,10 |
 
-**20X1**
-
+## 20X1
 Maandelijkse termijnen van de lening, betaald tijdens acht maanden
 
 | | Rekening | Omschrijving | Debet | Credit |
@@ -207,8 +201,7 @@ Afschrijving van het onroerend goed tijdens acht maanden
 | | 6302/666 | Toevoegingen aan afschrijvingen/niet-recurrente | 2.020,20 | |
 | aan | 2229/269 | Bebouwde terreinen/Overige mat. vaste activa | | 2.020,20 |
 
-**Overname**
-
+## Overname
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 1730 | Kredietinstellingen – Schulden in rekening | 93.333,33 | |
@@ -221,9 +214,7 @@ Afschrijving van het onroerend goed tijdens acht maanden
 | | 743/764 | Diverse bedrijfsopbrengsten/Niet-recurrente | 1.310,10 | |
 
 ### In hoofde van de nieuwe vennootschap
-
-**20X1 – Overname**
-
+## 20X1 – Overname
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 2220/260 | Bebouwde terreinen/Overige mat. vaste activa | 100.000 | |
@@ -236,9 +227,7 @@ Afschrijving van het onroerend goed tijdens acht maanden
 | | 744/765 | Diverse bedrijfsopbrengsten/Niet-rec.: huurgelden | 2.400 | |
 
 ## Uitzondering: de boekhoudkundige retroactiviteit van bepaalde herstructurerings-verrichtingen van vennootschappen
-
-### Fusie en splitsing door oprichting van nieuwe vennootschap(pen)[^25]
-
+### Fusie en splitsing door oprichting van nieuwe vennootschap(pen)
 De fusie door oprichting van een nieuwe vennootschap en de splitsing door oprichting van nieuwe vennootschappen zijn respectievelijk voltrokken zodra de nieuwe vennootschap is opgericht[^26] en zodra de nieuwe vennootschappen zijn opgericht[^27].
 
 Boekhoudkundig worden de fusie en splitsing echter van kracht op de datum, respectievelijk vermeld in het fusievoorstel “*vanaf welke de handelingen van de te ontbinden vennootschappen boekhoudkundig geacht worden te zijn verricht voor rekening van de nieuwe vennootschap*”[^28] en in het splitsingsvoorstel “*vanaf welke de handelingen van de te splitsen vennootschap boekhoudkundig geacht worden te zijn verricht voor rekening van een van de nieuwe vennootschappen*”[^29].

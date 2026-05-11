@@ -2,61 +2,55 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-subsidies-waarvan-de-toekenning-niet-gegarandeerd-is
 datum: 2014-05-14
 gerelateerde_adviezen:
-- datum: '2014-03-12'
-  titel: De boekhoudkundige verwerking van ontvangen overheidssteun in de vorm van
-    een terugvorderbaar voorschot
-  url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-ontvangen-overheidssteun-in-de-vorm-van-een
-- datum: '2011-05-04'
-  titel: Overheidssubsidies
-  url: https://www.cbn-cnc.be/nl/adviezen/overheidssubsidies
+  - datum: '2014-03-12'
+    titel: De boekhoudkundige verwerking van ontvangen overheidssteun in de vorm van een terugvorderbaar voorschot
+    url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-ontvangen-overheidssteun-in-de-vorm-van-een
+  - datum: '2011-05-04'
+    titel: Overheidssubsidies
+    url: https://www.cbn-cnc.be/nl/adviezen/overheidssubsidies
 nummer: CBN-advies 2014/7
 provenance:
-  generated_at: '2026-05-11T15:15:31Z'
+  generated_at: '2026-05-11T17:48:39Z'
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-subsidies-waarvan-de-toekenning-niet-gegarandeerd-is
-    sha256: 129dce5ffd8bae1274c5c90703f3a21c45b14d1e92c28e39261279fbedb589d9
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-subsidies-waarvan-de-toekenning-niet-gegarandeerd-is
+      sha256: 129dce5ffd8bae1274c5c90703f3a21c45b14d1e92c28e39261279fbedb589d9
+      version:
   stale: false
-  stale_reason: null
+  stale_reason:
   tooling:
-    model: null
+    model:
     pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    prompt_version: null
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
     confirmed_at: '2026-05-11T12:16:34Z'
     confirmed_by: subagent-sonnet-4-6
     layer1:
-      file_size_chars: 7753
-      flags: []
-      heading_count: 2
-      max_section_chars: 4325
-      run_at: '2026-05-11T15:05:51Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:43Z'
+      heading_count: 2
+      max_section_chars: 4324
+      file_size_chars: 7751
+      flags: []
     layer2:
       agent: subagent-sonnet-4-6
       concrete_problemen: []
-      rationale: 2 H2-secties, geen extractie-artefacten, footnotes correct gedefinieerd,
-        tekst leest als mens-geschreven markdown. Inhoudelijk volledig advies met
-        correcte verwijzingen naar andere CBN-adviezen.
+      rationale: 2 H2-secties, geen extractie-artefacten, footnotes correct gedefinieerd, tekst leest als mens-geschreven markdown. Inhoudelijk volledig advies met correcte verwijzingen naar andere CBN-adviezen.
       run_at: '2026-05-11T12:16:34Z'
       status: trusted
-    rationale: 2 H2-secties, geen extractie-artefacten, footnotes correct gedefinieerd,
-      tekst leest als mens-geschreven markdown. Inhoudelijk volledig advies met correcte
-      verwijzingen naar andere CBN-adviezen.
+    rationale: 2 H2-secties, geen extractie-artefacten, footnotes correct gedefinieerd, tekst leest als mens-geschreven markdown. Inhoudelijk volledig advies met correcte verwijzingen naar andere CBN-adviezen.
     status: trusted
 themas:
-- overheidssteun
-- eventuele rechten
-- subsidies
-- overheidssubsidies
+  - overheidssteun
+  - eventuele rechten
+  - subsidies
+  - overheidssubsidies
 ---
 
 # CBN-advies 2014/7 – De boekhoudkundige verwerking van subsidies waarvan de toekenning niet gegarandeerd is (eventuele rechten)
 
 ## Inleiding en onderwerp van het advies
-
 De Commissie voor Boekhoudkundige Normen werd om advies gevraagd over de boekhoudkundige verwerking van subsidies waarvan de toekenning door de subsidiërende overheid niet gegarandeerd is maar die van dag tot dag worden toegekend.
 
 In het geval dat werd voorgelegd aan de Commissie is de gesubsidieerde vereniging een zorgcentrum en de subsidiërende overheid[^2] het RIZIV: volgens de raamovereenkomst kent het RIZIV een subsidie toe aan het centrum per opgevangen dag of verpleegdag.
@@ -78,7 +72,6 @@ Aan de Commissie werd de vraag gesteld hoe het gedeelte van de subsidie moet wor
 Het is meer bepaald de vraag of het bedrag van de subsidie (dat overeenstemt met de interesten) die kan worden ontvangen tijdens de volledige duur van de lening, kan worden gespreid (d.w.z., in het onderhavige geval, geanticipeerd) via de overlopende rekeningen, om zo elk jaar exact overeen te stemmen met het interestbedrag dat het centrum verschuldigd is voor het betrokken jaar volgens het aflossingsplan van de lening.
 
 ## Analyse
-
 In het CBN-advies 2012/17 betreffende de erkenning van opbrengsten en kosten[^3], heeft de CBN verduidelijkt dat wat de opbrengsten betreft, de toepassing van het boekhoudkundig realisatiebeginsel primeert op de toepassing van het boekhoudkundig principe van overeenstemming tussen de opbrengsten en de kosten. Daaruit volgt dat een opbrengst niet eerder kan worden geboekt dan het ogenblik waarop dit mogelijk is volgens het voorzichtigheidsbeginsel en, in het bijzonder, een opbrengst niet kan worden geanticipeerd om de opbrengst te laten overeenstemmen met de bijhorende kosten.
 
 In het CBN-advies 2011/13 over overheidssubsidies[^4] wordt bovendien bepaald dat een subsidie niet op datum van de effectieve uitbetaling ervan moet worden ingeschreven, doch wel op het ogenblik waarop het recht van de onderneming op deze subsidie komt vast te staan en de subsidie redelijkerwijze gewaardeerd kan worden. Pas na onderzoek van de aard van de verbintenis van de subsidiërende overheid zal men kunnen uitmaken of het recht op een subsidie al dan niet vaststaat.

@@ -16,41 +16,41 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/going-concern-waarderingsregels-bij-de-stopzetting-of-gedeeltelijke-stopzetting-van-het
 nummer: CBN-advies 2022/05
 provenance:
+  generated_at: '2026-05-11T17:48:39Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/verslaggeving-bij-ontbinding-en-vereffening-van-een-vzw-of-ivzw
       sha256: 8cd05b05f7a5bb251084598b2bde8a816f7753a58592dd89cc82f1ac4b3a8a3b
       version:
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T15:15:32Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
-    status: needs-rework
     confirmed_at: '2026-05-11T17:13:31Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "D2: regel 200 kondigt 'Schematisch kunnen de volgende termijnen worden onderscheiden:' aan maar het schema ontbreekt — identiek patroon als in CBN-2022-04. Ronde-3 herlezing: het eerder gemelde A3 TOC-fragment is niet aanwezig; de bullet-lijst op regels 101-107 is correcte document-inhoud (ontbindingsvormen), geen TOC-duplicaat."
     layer1:
-      file_size_chars: 33400
-      flags: []
-      heading_count: 14
-      max_section_chars: 19924
-      run_at: '2026-05-11T15:05:54Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:45Z'
+      heading_count: 14
+      max_section_chars: 19921
+      file_size_chars: 33381
+      flags: []
     layer2:
-      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T17:13:31Z'
-      rationale: "D2: regel 200 kondigt 'Schematisch kunnen de volgende termijnen worden onderscheiden:' aan maar het schema ontbreekt — identiek patroon als in CBN-2022-04. Ronde-3 herlezing: het eerder gemelde A3 TOC-fragment is niet aanwezig; de bullet-lijst op regels 101-107 is correcte document-inhoud (ontbindingsvormen), geen TOC-duplicaat."
       concrete_problemen:
-        - regel: 200
-          categorie: D2
+        - categorie: D2
+          regel: 200
           type: missing-section
           voorbeeld: 'Schematisch kunnen de volgende termijnen worden onderscheiden: [tijdslijn-schema ontbreekt]'
+      rationale: 'D2: regel 200 kondigt ''Schematisch kunnen de volgende termijnen worden onderscheiden:'' aan maar het schema ontbreekt — identiek patroon als in CBN-2022-04. Ronde-3 herlezing: het eerder gemelde A3 TOC-fragment is niet aanwezig; de bullet-lijst op regels 101-107 is correcte document-inhoud (ontbindingsvormen), geen TOC-duplicaat.'
+      run_at: '2026-05-11T17:13:31Z'
+      status: needs-rework
+    rationale: 'D2: regel 200 kondigt ''Schematisch kunnen de volgende termijnen worden onderscheiden:'' aan maar het schema ontbreekt — identiek patroon als in CBN-2022-04. Ronde-3 herlezing: het eerder gemelde A3 TOC-fragment is niet aanwezig; de bullet-lijst op regels 101-107 is correcte document-inhoud (ontbindingsvormen), geen TOC-duplicaat.'
+    status: needs-rework
 themas:
   - verslaggeving
   - ontbinding
@@ -89,7 +89,6 @@ themas:
 Aan de Commissie werd de vraag gesteld welke verslaggevingsverplichtingen moeten worden nageleefd bij de ontbinding, gedurende de vereffening en bij de sluiting van de vereffening van VZW’s en IVZW’s onder het Wetboek van Vennootschappen en Verenigingen[^2] (hierna: het WVV). In dit advies wordt bijgevolg de ontbinding van VZW’s en IVZW’s behandeld die gevolgd wordt door een daadwerkelijke vereffeningsperiode. De ontbinding en vereffening van VZW’s en IVZW’s in één akte maakt het voorwerp uit van een afzonderlijk advies van de Commissie[^3].
 
 ## Ontbinding
-
 Het WVV bepaalt dat de VZW en de IVZW ontbonden wordt[^4]:
 
 - door een besluit van de algemene vergadering van de VZW of van het door de statuten aangewezen orgaan van de IVZW (dit wordt als een “vrijwillige ontbinding” aanzien, zie punt I.A. hierna); 
@@ -99,7 +98,6 @@ Het WVV bepaalt dat de VZW en de IVZW ontbonden wordt[^4]:
 In wat volgt bespreekt de Commissie welke verslaggevingsplichten gekoppeld worden aan deze ontbindingsvormen onder het WVV.
 
 ### Vrijwillige ontbinding
-
 De beslissing tot ontbinding van een VZW kan vrijwillig zijn en op elk ogenblik worden genomen door een besluit van de algemene vergadering, onder dezelfde voorwaarden als voor de wijziging van het voorwerp of van het belangeloos doel van de VZW[^5]. 
 
 Een IVZW kan op elk ogenblik worden ontbonden overeenkomstig de voorwaarden bepaald in de statuten[^6].
@@ -119,7 +117,6 @@ Onder het WVV geldt voortaan als regel dat de ontbinding bij de VZW’s en IVZW�
 Naar het oordeel van de Commissie kan de jaarrekening van zowel het laatste afgesloten boekjaar, als van het boekjaar dat eindigt door de ontbinding van de VZW of IVZW ook ná de ontbinding maar vóór de sluiting van de vereffening, in voorkomend geval, ter goedkeuring worden voorgelegd aan de algemene vergadering van de VZW of aan het door de statuten aangewezen orgaan[^18] van de IVZW[^19]. De termijn van art. 3:47, § 1, lid 2 WVV is daarbij van toepassing, wat tot gevolg heeft dat de jaarrekening binnen zes maanden na de afsluitingsdatum van het boekjaar ter goedkeuring moet worden voorgelegd aan de algemene vergadering. 
 
 ### Ontbinding van rechtswege
-
 De VZW’s en IVZW’s worden, overeenkomstig art. 2:111 WVV, van rechtswege ontbonden door het verstrijken van de duur waarvoor zij werden aangegaan[^20] of door de verwezenlijking van een uitdrukkelijk ontbindende voorwaarde waaraan de statuten de VZW of IVZW hebben onderworpen. 
 
 Deze ontbindingsvorm impliceert aldus dat de ontbinding van de VZW of IVZW reeds intreedt van zodra een bepaalde gebeurtenis heeft plaatsgevonden, zonder dat hiervoor een beslissing van de leden of van de rechtbank vereist is. De VZW’s of IVZW’s die van rechtswege worden ontbonden, treden bijgevolg onmiddellijk in de vereffening[^21].
@@ -127,7 +124,6 @@ Deze ontbindingsvorm impliceert aldus dat de ontbinding van de VZW of IVZW reeds
 Ook de ontbinding van rechtswege heeft de afsluiting van het boekjaar tot gevolg[^22], wat in concreto betekent dat het bestuursorgaan, in voorkomend geval, gehouden zal zijn om een jaarrekening op te stellen voor het boekjaar dat met de datum van de ontbinding van rechtswege van de VZW of IVZW eindigt. Deze jaarrekening wordt, net zoals bij de vrijwillige ontbinding[^23], ter goedkeuring aan de algemene vergadering van de VZW of aan het door de statuten aangewezen orgaan van de IVZW voorgelegd om vervolgens openbaar te worden gemaakt. Het is door toedoen van het bestuursorgaan van de VZW of IVZW dat de openbaarmakingsverplichtingen, zoals opgenomen in art. 3:47 WVV, in acht moeten worden genomen[^24].
 
 ### Gerechtelijke ontbinding
-
 Een VZW of IVZW kan, overeenkomstig het WVV[^25], op verzoek van een lid, van een belanghebbende derde of van het openbaar ministerie door de rechtbank gerechtelijk worden ontbonden indien[^26]:
 
 - zij niet in staat is haar verbintenissen na te komen; 
@@ -141,9 +137,7 @@ De rechtbank die de ontbinding uitspreekt, kan hetzij tot de onmiddellijke sluit
 Ook de gerechtelijke ontbinding heeft de afsluiting van het boekjaar tot gevolg[^31], wat in concreto betekent dat het bestuursorgaan, in voorkomend geval, gehouden zal zijn om een jaarrekening op te stellen voor het boekjaar dat met de datum van de gerechtelijke ontbinding van de VZW of IVZW eindigt. Het is door toedoen van het bestuursorgaan van de VZW of IVZW dat de openbaarmakingsverplichtingen, zoals opgenomen in art. 3:47 WVV, in acht moeten worden genomen[^32].
 
 ## Vereffening
-
 ### Vereffening na vrijwillige ontbinding
-
 In de VZW’s en de IVZW’s die overeenkomstig art. 3:47, § 6 WVV één of meer commissarissen moeten aanstellen, zenden de vereffenaars[^33] in de zevende en de dertiende maand na de invereffeningstelling een omstandige staat van de toestand van de vereffening[^34], opgesteld aan het einde van de zesde en de twaalfde maand van het eerste vereffeningsjaar, over aan de griffie van de ondernemingsrechtbank van het rechtsgebied waar de VZW of de IVZW haar zetel heeft[^35]. Die omstandige staat die onder meer de ontvangsten en de uitgaven vermeldt en wat nog moet worden vereffend aangeeft, wordt bij het in art. 2:7 WVV bedoelde verenigingsdossier gevoegd[^36]. Vanaf het tweede jaar van de vereffening wordt die omstandige staat slechts om het jaar aan de griffie overgezonden en bij het verenigingsdossier gevoegd[^37].
 
 De vereffenaar moet daarnaast ook jaarlijks een jaarrekening opstellen en deze jaarrekening voorleggen aan de algemene vergadering van de VZW of aan het in de statuten aangewezen orgaan van de IVZW met vermelding van de redenen waarom de vereffening niet kon worden voltooid[^38]. Deze jaarlijkse verslaggeving wordt opgelegd teneinde te vermijden dat de vereffeningsverrichtingen al te zeer zouden aanslepen en is louter informatief. Deze jaarrekening moet niet worden openbaar gemaakt[^39]. De algemene vergadering wordt immers niet bijeengeroepen om de jaarrekening goed of af te keuren of op grond ervan kwijting te verlenen aan de vereffenaars[^40]. Het is pas na afloop van de vereffening dat de algemene vergadering van de VZW en het in de statuten aangewezen orgaan van de IVZW in de regel beslist over de goedkeuring van de rekeningen en, bij afzonderlijke stemming, over de kwijting aan de vereffenaars en, in voorkomend geval, aan de commissaris en over de sluiting van de vereffening[^41].
@@ -155,38 +149,31 @@ Tot slot merkt de Commissie op dat de VZW’s en IVZW’s vereffend worden door 
 Behoudens in geval van gerechtelijke ontbinding en tenzij de statuten anders bepalen, worden in de VZW de vereffenaars benoemd door de algemene vergadering, die beslist bij gewone meerderheid[^45]. Behoudens in geval van gerechtelijke ontbinding worden in de IVZW de vereffenaars benoemd overeenkomstig de statuten[^46]. 
 
 ### Vereffening na ontbinding van rechtswege
-
 Voor de regels van de vereffening na ontbinding van rechtswege verwijst de Commissie naar hetgeen *supra*, bij punt I.B en II.A, wordt vermeld.
 
 ### Vereffening na gerechtelijke ontbinding
-
 Vooreerst wijst de Commissie erop dat de rechtbank, bij een gerechtelijke ontbinding van een VZW of IVZW, over de mogelijkheid beschikt om geen vereffenaar aan te wijzen. In dat geval beslist de rechtbank tot de onmiddellijke sluiting van de vereffening[^47].
 
 Ingeval de rechtbank wel een vereffenaar aanstelt, bepaalt de rechtbank de bevoegdheden van de vereffenaars en de vereffeningswijze[^48]. 
 
 Voor de regels van de vereffening na gerechtelijke ontbinding verwijst de Commissie naar hetgeen *supra*, bij punt I.C en II.A, wordt vermeld, inzonderheid art. 2:125-2:126 WVV.
 
-## Sluiting van de vereffening[^49]
-
+## Sluiting van de vereffening
 ### Sluiting vereffening na vrijwillige ontbinding
-
 Bij de beëindiging van de vereffening, als gevolg van vrijwillige ontbinding, en ten minste één maand voor de algemene vergadering van de VZW resp. voor de vergadering van het in de statuten van de IVZW aangewezen orgaan, legt de vereffenaar op de zetel van de VZW of IVZW een cijfermatig verslag over de vereffening neer, houdende de vereffeningsrekeningen[^50] samen met de stukken tot staving[^51]. Uit de vereffeningsrekeningen blijkt onder meer hoe de belangen van de schuldeisers werden gerespecteerd. De Commissie is van mening dat deze vereffeningsrekeningen derhalve minstens de historiek van de betalingen bevatten alsook de gevolgde rangregeling. Deze documenten worden in voorkomend geval gecontroleerd door de commissaris. Bij ontstentenis van een commissaris, beschikken de leden over een individueel onderzoeksrecht, waarbij zij zich kunnen laten bijstaan door een bedrijfsrevisor of een gecertificeerd[^52] accountant.
 
 De sluiting van de vereffening wordt bekendgemaakt in de Bijlagen bij het Belgisch Staatsblad[^53]. Art. 2:137 WVV schrijft voor dat er, voor elke vereffening, in het dossier van de rechtspersoon[^54] een aantal stukken dienen te worden neergelegd, waarvan elke belanghebbende[^55]
  – kosteloos – inzage kan nemen.
 
 ### Sluiting vereffening na ontbinding van rechtswege
-
 Voor de regels van de sluiting van vereffening na ontbinding van rechtswege verwijst de Commissie naar hetgeen supra, bij punt III.A, wordt vermeld.
 
 ### Sluiting vereffening na gerechtelijke ontbinding
-
 Bij de beëindiging van de vereffening, als gevolg van gerechtelijke ontbinding, brengt de vereffenaar een verslag uit aan de rechtbank. In dit verslag wordt aan de rechtbank een overzicht voorgelegd van de waarden van de VZW of IVZW en van het gebruik ervan[^56]. De rechtbank spreekt vervolgens de sluiting van de vereffening uit[^57].
 
 De sluiting van de vereffening wordt bekendgemaakt in de Bijlagen bij het Belgisch Staatsblad[^58].
 
 ## Voorbeeld
-
 Een vereniging zonder winstoogmerk Z (hierna: VZW Z) voert haar boekhouding per kalenderjaar. Deze VZW is overeenkomstig art. 3:47, § 6 WVV verplicht om een commissaris aan te stellen. De jaarlijkse algemene vergadering vindt plaats op 30 mei. Op 30 april 20N1 wordt deze VZW vrijwillig ontbonden door een besluit van de algemene vergadering. De algemene vergadering benoemt daarbij tevens een vereffenaar. Vervolgens wordt op 20 april 20N2 de vereffening van deze VZW afgesloten. 
 
 Schematisch kunnen de volgende termijnen worden onderscheiden:
@@ -201,7 +188,6 @@ De Commissie licht hierna toe welke verslaggevingsplichten gepaard gaan met de v
 - Periode 01/01/20N2 – 20/04/20N2: aangezien de datum van de sluiting van de vereffening (*in casu* 20/04/20N2) de datum van de jaarlijkse algemene vergadering (*in casu* 30/05/20N2) voorafgaat, zal de vereffenaar de jaarrekening voor de periode 01/05/20N1 – 31/12/20N1 aan de algemene vergadering op 20/04/20N2 moeten voorleggen. De sluiting van de vereffening wordt in de Bijlagen bij het Belgisch Staatsblad bekendgemaakt[^68]. 
 
 ## Afwijkend standpunt van de heer Michel De Wolf, lid van de Commissie op voordracht van de Minister van Middenstand, gekozen op dubbele lijsten voorgesteld door de representatieve organisaties van de Middenstand
-
 Artikel 7/1, lid 3 van het koninklijk besluit van 21 oktober 1975 houdende oprichting van de Commissie voor Boekhoudkundige Normen luidt als volgt: 
 
 “Als een ontwerpadvies of advies wordt goedgekeurd bij meerderheidsstemming, wordt het met redenen omkleed afwijkend standpunt van het betrokken lid of de betrokken leden, met vermelding van zijn of hun naam, opgenomen in het ontwerpadvies of advies en mee gepubliceerd”.

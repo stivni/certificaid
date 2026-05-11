@@ -16,45 +16,45 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-factoringovereenkomsten
 nummer: CBN-advies 137/6
 provenance:
+  generated_at: '2026-05-11T17:48:38Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/overdracht-van-schuldvordering-nominale-waarde-waardevermindering
       sha256: 25fd1bb0d0ab515b3701d5cd67f1da2fb53847742ea2754c819febb7703658ab
       version:
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
-    status: needs-rework
     confirmed_at: '2026-05-11T17:05:21Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "E2 (regel 108): voetnootlabel '1' lekt nog steeds in de tabelcel — '6331 | Handelsvorderingen op meer dan 1 jaar -terugneming van waardeverminderingen 1 | 10 |' — ETL-bug ongewijzigd t.o.v. ronde 2. Heading '### Op de vervandag' (regel 99) blijft een source-typo (telt niet als needs-rework-grond). Geen nieuwe problemen gevonden."
     layer1:
-      file_size_chars: 3515
-      flags: []
-      heading_count: 2
-      max_section_chars: 1418
-      run_at: '2026-05-11T15:05:49Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:41Z'
+      heading_count: 3
+      max_section_chars: 1158
+      file_size_chars: 3514
+      flags: []
     layer2:
-      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T17:05:21Z'
-      rationale: "E2 (regel 108): voetnootlabel '1' lekt nog steeds in de tabelcel — '6331 | Handelsvorderingen op meer dan 1 jaar -terugneming van waardeverminderingen 1 | 10 |' — ETL-bug ongewijzigd t.o.v. ronde 2. Heading '### Op de vervandag' (regel 99) blijft een source-typo (telt niet als needs-rework-grond). Geen nieuwe problemen gevonden."
       concrete_problemen:
-        - regel: 108
-          categorie: E2
+        - categorie: E2
+          regel: 108
           type: other
           voorbeeld: 6331 | Handelsvorderingen op meer dan 1 jaar -terugneming van waardeverminderingen 1 | 10 | |
-        - regel: 99
-          categorie: (source)
+        - categorie: (source)
+          regel: 99
           type: source-typo
-          voorbeeld: "### Op de vervandag  (vermoedelijk 'vervaldag' in bronpagina)"
+          voorbeeld: '### Op de vervandag  (vermoedelijk ''vervaldag'' in bronpagina)'
+      rationale: 'E2 (regel 108): voetnootlabel ''1'' lekt nog steeds in de tabelcel — ''6331 | Handelsvorderingen op meer dan 1 jaar -terugneming van waardeverminderingen 1 | 10 |'' — ETL-bug ongewijzigd t.o.v. ronde 2. Heading ''### Op de vervandag'' (regel 99) blijft een source-typo (telt niet als needs-rework-grond). Geen nieuwe problemen gevonden.'
+      run_at: '2026-05-11T17:05:21Z'
+      status: needs-rework
+    rationale: 'E2 (regel 108): voetnootlabel ''1'' lekt nog steeds in de tabelcel — ''6331 | Handelsvorderingen op meer dan 1 jaar -terugneming van waardeverminderingen 1 | 10 |'' — ETL-bug ongewijzigd t.o.v. ronde 2. Heading ''### Op de vervandag'' (regel 99) blijft een source-typo (telt niet als needs-rework-grond). Geen nieuwe problemen gevonden.'
+    status: needs-rework
 themas:
   - Waardevermindering
   - waardevermindering op vorderingen
@@ -74,7 +74,6 @@ Onderneming Y draagt aan onderneming X een vordering op Z over. Nominaal bedraag
 Naar het oordeel van de Commissie leidt de toepassing van artikel 27*bis*, § 1 voor X in casu tot de volgende boekhoudkundige verwerking.
 
 ## Bij de aankoop van de vordering
-
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 2907 | Handelsvorderingen (op meer dan 1 jaar) dubieuze debiteuren | 100 | |
@@ -88,7 +87,6 @@ De sub 2909 geboekte "waardevermindering" stemt overeen met het bedrag waarvoor 
 Deze "waardevermindering" werd niet ten laste genomen door de resultatenrekening van X, maar tesamen met de betrokken vordering van Y "verworven". 
 
 ## Ingeval van de verbetering van de solvabiliteit van Z : de vordering word op 60 geschat.
-
 (toepassing van artikel 19, zesde lid K.B. van 8 oktober 1976) 
 
 | | Rekening | Omschrijving | Debet | Credit |
@@ -97,7 +95,6 @@ Deze "waardevermindering" werd niet ten laste genomen door de resultatenrekening
 | aan | 6331 | Handelsvorderingen op meer dan 1 jaar - terugneming van waardeverminderingen | | 20 |
 
 ## Op de vervandag
-
 (Z betaalt uiteindelijk 70) 
 
 | | Rekening | Omschrijving | Debet | Credit |

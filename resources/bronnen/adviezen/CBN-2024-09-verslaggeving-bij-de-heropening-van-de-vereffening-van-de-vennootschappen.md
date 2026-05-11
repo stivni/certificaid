@@ -2,81 +2,72 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/verslaggeving-bij-de-heropening-van-de-vereffening-van-de-vennootschappen
 datum: 2024-11-13
 gerelateerde_adviezen:
-- datum: '2024-11-14'
-  titel: Verslaggeving bij de heropening van de vereffening van (i)vzw’s die een dubbele
-    boekhouding voeren
-  url: https://www.cbn-cnc.be/nl/adviezen/verslaggeving-bij-de-heropening-van-de-vereffening-van-ivzws-die-een-dubbele-boekhouding
-- datum: '2024-06-10'
-  titel: Openbaarmakingsverplichtingen in hoofde van de vennootschap onder firma en
-    de commanditaire vennootschap bij onmiddellijke sluiting van de vereffening
-  url: https://www.cbn-cnc.be/nl/adviezen/openbaarmakingsverplichtingen-in-hoofde-van-de-vennootschap-onder-firma-en-de
-- datum: '2022-06-10'
-  titel: Verslaggeving bij onmiddellijke sluiting van de vereffening van een VZW of
-    IVZW
-  url: https://www.cbn-cnc.be/nl/adviezen/verslaggeving-bij-onmiddellijke-sluiting-van-de-vereffening-van-een-vzw-of-ivzw
-- datum: '2022-06-07'
-  titel: Verslaggeving bij onmiddellijke sluiting van de vereffening van een vennootschap
-  url: https://www.cbn-cnc.be/nl/adviezen/verslaggeving-bij-onmiddellijke-sluiting-van-de-vereffening-van-een-vennootschap
+  - datum: '2024-11-14'
+    titel: Verslaggeving bij de heropening van de vereffening van (i)vzw’s die een dubbele boekhouding voeren
+    url: https://www.cbn-cnc.be/nl/adviezen/verslaggeving-bij-de-heropening-van-de-vereffening-van-ivzws-die-een-dubbele-boekhouding
+  - datum: '2024-06-10'
+    titel: Openbaarmakingsverplichtingen in hoofde van de vennootschap onder firma en de commanditaire vennootschap bij onmiddellijke sluiting van de vereffening
+    url: https://www.cbn-cnc.be/nl/adviezen/openbaarmakingsverplichtingen-in-hoofde-van-de-vennootschap-onder-firma-en-de
+  - datum: '2022-06-10'
+    titel: Verslaggeving bij onmiddellijke sluiting van de vereffening van een VZW of IVZW
+    url: https://www.cbn-cnc.be/nl/adviezen/verslaggeving-bij-onmiddellijke-sluiting-van-de-vereffening-van-een-vzw-of-ivzw
+  - datum: '2022-06-07'
+    titel: Verslaggeving bij onmiddellijke sluiting van de vereffening van een vennootschap
+    url: https://www.cbn-cnc.be/nl/adviezen/verslaggeving-bij-onmiddellijke-sluiting-van-de-vereffening-van-een-vennootschap
 nummer: CBN-advies 2024/09
 provenance:
-  generated_at: '2026-05-11T15:15:32Z'
+  generated_at: '2026-05-11T17:48:40Z'
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/verslaggeving-bij-de-heropening-van-de-vereffening-van-de-vennootschappen
-    sha256: e5d77e7af0f0c308f6472d1556d1d8acc3050b5396ef38ed23f623d8a5ecd410
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/verslaggeving-bij-de-heropening-van-de-vereffening-van-de-vennootschappen
+      sha256: e5d77e7af0f0c308f6472d1556d1d8acc3050b5396ef38ed23f623d8a5ecd410
+      version:
   stale: false
-  stale_reason: null
+  stale_reason:
   tooling:
-    model: null
+    model:
     pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    prompt_version: null
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
     confirmed_at: '2026-05-08T19:02:28Z'
     confirmed_by: subagent-laag2-ronde2
     layer1:
-      file_size_chars: 29372
-      flags: []
-      heading_count: 5
-      max_section_chars: 20688
-      run_at: '2026-05-11T15:05:54Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:45Z'
+      heading_count: 7
+      max_section_chars: 20685
+      file_size_chars: 29363
+      flags: []
     layer2:
       agent: subagent-laag2-ronde2
       concrete_problemen: []
-      rationale: '[Laag-2-R2 2026-05-08] 5 headings voor inhoudelijk volledig advies.
-        Minderheidsstandpunt correct en volledig opgenomen. Journaalposten correct
-        als Markdown-tabellen. Wat boven de drempel valt is inherent aan de rijke
-        inhoud.'
+      rationale: '[Laag-2-R2 2026-05-08] 5 headings voor inhoudelijk volledig advies. Minderheidsstandpunt correct en volledig opgenomen. Journaalposten correct als Markdown-tabellen. Wat boven de drempel valt is inherent aan de rijke inhoud.'
       run_at: '2026-05-08T19:02:28Z'
       status: trusted
     rationale: Laag-2 trusted door subagent-laag2-ronde2 (zie layer2.rationale)
     status: trusted
 themas:
-- vereffening
-- heropening vereffening
-- verslaggeving
-- vergeten actief
-- jaarrekening
-- openbaarmaking
-- publicatie
-- neerlegging van de jaarrekening
-- vereffeningsperiode
+  - vereffening
+  - heropening vereffening
+  - verslaggeving
+  - vergeten actief
+  - jaarrekening
+  - openbaarmaking
+  - publicatie
+  - neerlegging van de jaarrekening
+  - vereffeningsperiode
 ---
 
 # CBN-advies 2024/09 – Verslaggeving bij de heropening van de vereffening van de vennootschappen
 
 ## Inleiding
-
 Met de inwerkingtreding van het Wetboek van vennootschappen en verenigingen (hierna: WVV) wordt de heropening van de vereffening van een vennootschap geregeld met de invoering van het nieuwe art. 2:105 WVV[^2], waarin wordt bepaald onder welke voorwaarden het vergeten actiefbestanddeel kan leiden tot de toepassing van deze procedure. Deze bepaling dient te worden samengelezen met de algemene regel van het – ook nieuwe – art. 2:104 WVV, waarin wordt bepaald aan wie de vermogensbestanddelen van de vereffende vennootschap toekomen. 
 
 In navolging van de CBN-adviezen[^3] inzake de verslaggeving bij de ontbinding en vereffening van de vennootschappen, acht de Commissie het nuttig om eveneens stil te staan bij de verslaggevingsverplichtingen die gepaard gaan met de heropening van de vereffening overeenkomstig art. 2:105 WVV.
 
 ## Heropening van de vereffening
-
 ### Algemeen
-
 Als algemene regel stelt art. 2:104, § 1, lid 1 WVV dat de vennoten of aandeelhouders, na de sluiting van de vereffening, van rechtswege onverdeelde eigenaars worden, elk voor hun deel, van alle actieve vermogensbestanddelen van de vennootschap, ook al zijn deze op het ogenblik van de sluiting van de vereffening niet gekend. De schuldeisers van desbetreffende vennootschap dienen zich, overeenkomstig art. 2:104, § 2-3 WVV[^4], in beginsel tot de aandeelhouders te richten ingeval er na de sluiting van de vereffening nieuwe actiefbestanddelen opduiken. Op jaarrekeningrechtelijk vlak gaan hier geen verslaggevingsverplichtingen mee gepaard, aangezien de vennootschap in kwestie niet langer bestaat.
 
 Naast de algemene regel van art. 2:104 WVV voorziet het WVV in een bijzondere regeling van de heropening van de vereffening. Deze nieuwe regeling houdt concreet in dat de rechtbank de vereffening heropent, waardoor de vennootschap opnieuw rechtspersoonlijkheid verkrijgt[^5] en van rechtswege eigenaar wordt van één of meerdere vergeten actieve vermogensbestanddelen. 
@@ -98,7 +89,6 @@ Dat uittreksel vermeldt:
 
 § 5. Alle bepalingen van dit hoofdstuk zijn van toepassing op de aldus heropende vereffening”.
 ### Enkele aandachtspunten
-
 Rekening houdend met het feit dat de heropening van de vereffening slechts beperkt blijft tot de actiefbestanddelen die bij de sluiting van de vereffening niet gekend waren, is de Commissie van oordeel dat de toepassing van art. 2:105 WVV m.b.t. de klassieke ontbinding niet resulteert in de aanpassing van de stukken die bij de sluiting van de oorspronkelijke vereffening werden opgemaakt. Zo zal het cijfermatig verslag, houdende de vereffeningsrekeningen en de stavingstukken, dat bij de sluiting van de vereffening in het kader van art. 2:100 WVV door de vereffenaar werd opgesteld, niet worden aangepast[^7] als gevolg van de heropening van de vereffening. 
 
 De heropening van de vereffening met een vergeten actief heeft niet noodzakelijkerwijs tot gevolg dat de reeds neergelegde jaarrekening moet worden gecorrigeerd[^8].
@@ -107,8 +97,7 @@ De Commissie is van oordeel dat, eenmaal de vereffening wordt heropend, er in ho
 
 De Commissie is van oordeel dat de waardering van de opgedoken activa in de zin van art. 2:105 WVV moet voldoen aan de eisen van voorzichtigheid, oprechtheid en goede trouw[^11]. Evenwel zal dit vergeten actief in hoofde van betrokken vennootschap – die opnieuw rechtspersoonlijkheid heeft verkregen – geboekt worden conform de toepasselijke regels wat inhoudt dat dit in beginsel dient te gebeuren aan de aanschaffingswaarde met de vereiste correcties zoals voorzien in het KB WVV. De, voorafgaand aan de vereffening van de vennootschap, gebruikte waarderingsregels zullen in beginsel terug van toepassing zijn. Tevens zullen de schulden moeten geboekt worden. Naar het oordeel van de Commissie zijn deze schulden niet beperkt tot de schulden van de schuldeiser die, overeenkomstig art. 2:105 WVV, de heropening van de vereffening heeft gevorderd en bekomen. Vervolgens zal de toebedeling geboekt dienen te worden tegen in beginsel de werkelijke waarde[^12] met inachtneming van alle fiscale verplichtingen[^13].
 
-**Voorbeeld 1**
-
+## Voorbeeld 1
 Veronderstel dat er na de sluiting van de vereffening van een vennootschap een vergeten actief opduikt met een boekwaarde van 100. Er is een onbetaalde schuldeiser met een schuldvordering van 80, die de heropening[^14] van de vennootschap vordert en bekomt[^15]. De vereffenaar die laatst in functie was, wordt door de rechtbank opnieuw benoemd. Dit vergeten actief wordt vervolgens gerealiseerd voor 120.
 
 In een dergelijk geval zullen de boekingen in hoofde van desbetreffende vennootschap er als volgt uitzien:
@@ -164,7 +153,6 @@ In een dergelijk geval zullen de boekingen in hoofde van desbetreffende vennoots
 | aan | 473 | Andere rechthebbenden | | 35 |
 
 ### Verslaggevingsplichten
-
 Zoals hierboven reeds aangegeven, bepaalt art. 2:105, § 5 WVV dat alle bepalingen van het hoofdstuk[^16] over de ontbinding en vereffening van de vennootschappen van toepassing zijn op de heropende vereffening. Naar het oordeel van de Commissie is dit ook het geval inzake de verslaggeving die gepaard gaat met de heropening van de vereffening van de reeds voorheen ontbonden vennootschap.
 
 Voor de verslaggevings- en publicatieverplichtingen naar aanleiding van de heropening van de vereffening verwijst de Commissie naar de verplichtingen zoals uiteengezet in het CBN-advies 2022/04 – Verslaggeving bij ontbinding en vereffening van BV, CV, NV, SE en SCE met betrekking tot de klassieke vereffening[^17]:
@@ -175,8 +163,7 @@ Voor de verslaggevings- en publicatieverplichtingen naar aanleiding van de herop
 
 Indien de onmiddellijke sluiting van de vereffening[^24] in de zin van art. 2:80 WVV wordt heropend, verwijst de Commissie, voor wat de verslaggevings- en publicatieverplichtingen betreft, naar hetgeen *supra* in randnr. 9 wordt vermeld met betrekking tot de klassieke vereffening.
 
-**Voorbeeld 2**
-
+## Voorbeeld 2
 Een besloten vennootschap Z (hierna: de BV Z) voerde haar boekhouding per kalenderjaar. De jaarlijkse algemene vergadering vond plaats op 30 mei. Op 30 april 20N1 werd deze vennootschap vrijwillig ontbonden en werd er een vereffenaar aangesteld. Op 20 april 20N2 werd de vereffening van deze besloten vennootschap afgesloten. 
 
 Vervolgens wordt door een schuldeiser de heropening van de vereffening van de BV Z gevorderd omwille van een opgedoken vergeten actiefbestanddeel. Op 30 september 20N2 beveelt de rechtbank de heropening van de vereffening overeenkomstig art. 2:105, § 1, lid 3 WVV en verkrijgt de vereffenaar die laatst in functie was opnieuw zijn hoedanigheid[^25]. Op 5 oktober 20N2 wordt deze rechterlijke beslissing bekendgemaakt overeenkomstig de artikelen 2:7 en 2:13 WVV. Op 1 maart 20N3 wordt de vereffening afgesloten. 

@@ -3,44 +3,42 @@ bron: https://www.cbn-cnc.be/nl/adviezen/voorzieningen-voor-prijsschommelingen-v
 datum: 1979-05-05
 nummer: CBN-advies 107/2
 provenance:
-  generated_at: '2026-05-11T15:15:31Z'
+  generated_at: '2026-05-11T17:48:38Z'
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/voorzieningen-voor-prijsschommelingen-voorzieningen-met-een-algemeen-karakter
-    sha256: 9f3ada3b7be31f21eaf5d9b4331e2ae9c898993acf2800646ac72f816dbcaca9
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/voorzieningen-voor-prijsschommelingen-voorzieningen-met-een-algemeen-karakter
+      sha256: 9f3ada3b7be31f21eaf5d9b4331e2ae9c898993acf2800646ac72f816dbcaca9
+      version:
   stale: false
-  stale_reason: null
+  stale_reason:
   tooling:
-    model: null
+    model:
     pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    prompt_version: null
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
     confirmed_at: '2026-05-08T19:02:30Z'
     confirmed_by: subagent-laag2-ronde2
     layer1:
-      file_size_chars: 5081
-      flags: []
+      status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:40Z'
       heading_count: 0
       max_section_chars: 5081
-      run_at: '2026-05-11T15:05:47Z'
-      run_id: 20260511-150547
-      status: pass
+      file_size_chars: 5081
+      flags: []
     layer2:
       agent: subagent-laag2-ronde2
       concrete_problemen: []
-      rationale: '[Laag-2-R2 2026-05-08] Volledig met helder onderscheid geïndividualiseerde
-        risico''s (toegelaten) vs. algemene marktrisico''s (niet toegelaten), grondige
-        motivering.'
+      rationale: '[Laag-2-R2 2026-05-08] Volledig met helder onderscheid geïndividualiseerde risico''s (toegelaten) vs. algemene marktrisico''s (niet toegelaten), grondige motivering.'
       run_at: '2026-05-08T19:02:30Z'
       status: trusted
     rationale: Laag-2 trusted door subagent-laag2-ronde2 (zie layer2.rationale)
     status: trusted
 themas:
-- prijsschommelingen
-- voorziening
-- voorzieningen met een algemeen karakter
-- voorzieningen voor prijsschommelingen
+  - prijsschommelingen
+  - voorziening
+  - voorzieningen met een algemeen karakter
+  - voorzieningen voor prijsschommelingen
 ---
 
 # CBN-advies 107/2 - Voorzieningen voor prijsschommelingen - Voorzieningen met een algemeen karakter

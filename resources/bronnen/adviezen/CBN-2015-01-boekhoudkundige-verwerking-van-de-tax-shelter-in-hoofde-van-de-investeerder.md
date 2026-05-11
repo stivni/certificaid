@@ -10,49 +10,49 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/verwerking-in-de-boekhouding-en-de-jaarrekening-van-de-belastingbesparing-ingevoerd-door
 nummer: CBN-advies 2015/1
 provenance:
+  generated_at: '2026-05-11T17:48:39Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-tax-shelter-in-hoofde-van-de-investeerder
       sha256: 67fafb8ab12a60b28c7bae3b215010737b1e7a8d288a71d0da5ef8114d159e0d
       version:
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
-    status: needs-rework
     confirmed_at: '2026-05-11T17:09:38Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "B3 bevestigd: regel 65 '# COMMISSIE VOOR BOEKHOUDKUNDIGE NORMEN' is een extra scrape-artefact H1 bovenaan de body — de eigenlijke adviestitel staat als ## op regel 67. D4 bevestigd: regel 90 'de* productievennootschap*' heeft asterisk die direct na 'de' kleeft zonder spatie, waardoor de italic-markup breekt. A6: regel 93 begint een nieuwe zin op een nieuwe regel direct na de vorige zin zonder alinea-break. Alle ETL-artefacten, geen source-typo."
     layer1:
-      file_size_chars: 24458
-      flags: []
-      heading_count: 13
-      max_section_chars: 7500
-      run_at: '2026-05-11T15:05:51Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:43Z'
+      heading_count: 10
+      max_section_chars: 6262
+      file_size_chars: 24363
+      flags: []
     layer2:
-      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T17:09:38Z'
-      rationale: "B3 bevestigd: regel 65 '# COMMISSIE VOOR BOEKHOUDKUNDIGE NORMEN' is een extra scrape-artefact H1 bovenaan de body — de eigenlijke adviestitel staat als ## op regel 67. D4 bevestigd: regel 90 'de* productievennootschap*' heeft asterisk die direct na 'de' kleeft zonder spatie, waardoor de italic-markup breekt. A6: regel 93 begint een nieuwe zin op een nieuwe regel direct na de vorige zin zonder alinea-break. Alle ETL-artefacten, geen source-typo."
       concrete_problemen:
-        - regel: 65
-          categorie: B3
+        - categorie: B3
+          regel: 65
           type: other
           voorbeeld: '# COMMISSIE VOOR BOEKHOUDKUNDIGE NORMEN — extra H1 scrape-artefact boven werkelijke adviestitel'
-        - regel: 90
-          categorie: D4
+        - categorie: D4
+          regel: 90
           type: other
           voorbeeld: de* productievennootschap* — asterisk kleeft direct aan 'de' zonder spatie (malformed italic)
-        - regel: 93
-          categorie: A6
+        - categorie: A6
+          regel: 93
           type: other
           voorbeeld: ' Het bedrag dat kan worden vrijgesteld is... — spurious line break na voetnootreferentie [^9]'
+      rationale: 'B3 bevestigd: regel 65 ''# COMMISSIE VOOR BOEKHOUDKUNDIGE NORMEN'' is een extra scrape-artefact H1 bovenaan de body — de eigenlijke adviestitel staat als ## op regel 67. D4 bevestigd: regel 90 ''de* productievennootschap*'' heeft asterisk die direct na ''de'' kleeft zonder spatie, waardoor de italic-markup breekt. A6: regel 93 begint een nieuwe zin op een nieuwe regel direct na de vorige zin zonder alinea-break. Alle ETL-artefacten, geen source-typo.'
+      run_at: '2026-05-11T17:09:38Z'
+      status: needs-rework
+    rationale: 'B3 bevestigd: regel 65 ''# COMMISSIE VOOR BOEKHOUDKUNDIGE NORMEN'' is een extra scrape-artefact H1 bovenaan de body — de eigenlijke adviestitel staat als ## op regel 67. D4 bevestigd: regel 90 ''de* productievennootschap*'' heeft asterisk die direct na ''de'' kleeft zonder spatie, waardoor de italic-markup breekt. A6: regel 93 begint een nieuwe zin op een nieuwe regel direct na de vorige zin zonder alinea-break. Alle ETL-artefacten, geen source-typo.'
+    status: needs-rework
 themas:
   - belastingbesparing
   - belastingvoordeel
@@ -62,14 +62,9 @@ themas:
   - tax shelter
 ---
 
-# COMMISSIE VOOR BOEKHOUDKUNDIGE NORMEN
-
-## CBN-advies 2015/1 - Boekhoudkundige verwerking van de tax shelter in hoofde van de investeerder (raamovereenkomsten gesloten vanaf 1 januari 2015)
-
-## Advies van 13 mei 2015[^1]
+# CBN-advies 2015/1 - Boekhoudkundige verwerking van de tax shelter in hoofde van de investeerder (raamovereenkomsten gesloten vanaf 1 januari 2015)
 
 ## Inleiding
-
 De *tax shelter* is een fiscale stimulans die in 2002 werd ingevoerd om de productie van audiovisuele werken aan te moedigen. In dit advies wordt de boekhoudkundige verwerking behandeld in hoofde van de investeerder voor raamovereenkomsten gesloten vanaf 1 januari 2015[^2]. Voor raamovereenkomsten die zijn afgesloten vóór 1 januari 2015 wordt verwezen naar het CBN-advies 2012/7 De boekhoudkundige verwerking van de tax shelter in hoofde van de investeerder.
 
 De regeling bestaat er in dat een fiscale vrijstelling wordt toegekend aan vennootschappen die financieel bijdragen aan de productie van een audiovisueel werk. In artikel 194ter van het Wetboek van de Inkomstenbelastingen 1992 (hierna: WIB 92) worden de voorwaarden, beperkingen en voorschriften van deze fiscale vrijstelling bepaald.
@@ -86,7 +81,6 @@ De wet van 12 mei 2014 heeft eveneens:
 Voor een volledig overzicht van de wijzigingen die door deze wet werden aangebracht in de fiscale regeling met betrekking tot de tax shelter wordt er verwezen naar de Memorie van toelichting bij de wet van 12 mei 2014.[^6] 
 
 ## Kort overzicht van het tax shelter-stelsel
-
 De *investerende vennootschap*[^7] (hierna: de investeerder) en de* productievennootschap*[^8] (hierna: de producent) sluiten een raamovereenkomst waarin de investeerder zich verbindt een bepaalde som te storten met het oog op het verkrijgen van een tax shelter-attest dat de producent belooft te verstrekken aan de investeerder. De producent meldt deze overeenkomst aan de FOD Financiën binnen de maand na de ondertekening ervan.
 
 De investeerder verkrijgt een voorlopige fiscale vrijstelling vanaf het belastbaar tijdperk waarin de raamovereenkomst wordt ondertekend, ten belope van 310 % van de sommen waartoe hij zich heeft verbonden.[^9]
@@ -107,14 +101,12 @@ Wanneer het audiovisuele werk[^15] is beëindigd, vraagt de producent aan de FOD
 De vrijstelling wordt definitief wanneer de investeerder een exemplaar van het verkregen tax shelter-attest voegt bij de aangifte van de vennootschapsbelasting of van de belasting niet-inwoners/vennootschappen. Het eventuele overschot wordt fiscaal beschouwd als een winst van het belastbaar tijdperk waarin het tax shelter-attest wordt afgeleverd.
 
 ## Boekhoudkundige verwerking in hoofde van de investerende vennootschap
-
 De boekhoudkundige verwerking in hoofde van de investeerder wordt geïllustreerd aan de hand van de volgende situatie:
 
 - de investeerder verbindt zich ertoe om het bedrag van 100 te betalen; en 
 - de producent zal aan de investeerder een bedrag betalen dat overeenstemt met de volgens de voorschriften van artikel 194*ter*, § 6 WIB 92 bepaalde vergoeding voor de prefinanciering. 
 
 ### Boekhoudkundige kwalificatie van de tax shelter-investering
-
 Wanneer een investeerder zich in een raamovereenkomst verbindt tot de betaling van een bepaalde geldsom die bestemd is voor de productie van het audiovisuele werk, verwerft deze investeerder geen rechten over de productie maar enkel de mogelijkheid om een belastingvermindering te genieten. De investeerder kan dit belastingvoordeel voorlopig verkrijgen vanaf het boekjaar waarin hij een overeengekomen bedrag stort of er zich toe verbindt dit te storten. De investeerder kan dit belastingvoordeel definitief krijgen vanaf het boekjaar waarin de producent het tax shelter-attest heeft bezorgd aan de investeerder.
 
 De producent verwerft definitief het bedrag dat aan hem werd gestort en dient aan de investeerder het in artikel 194*ter*, § 6 WIB 92 bedoelde bedrag te betalen indien dit in de raamovereenkomst wordt bepaald. Deze waarborg die de producent eventueel toekent heeft betrekking op de verkrijging van het belastingvoordeel (voltooiing van het werk en verkrijging van het tax shelter-attest).
@@ -122,7 +114,6 @@ De producent verwerft definitief het bedrag dat aan hem werd gestort en dient aa
 De boekhoudkundige verwerking in hoofde van de investeerder wordt hieronder geïllustreerd.
 
 ### Ondertekening van de raamovereenkomst
-
 Door de raamovereenkomst te ondertekenen, verbindt de investeerder zich er onherroepelijk toe om aan de producent het overeengekomen investeringsbedrag (100) over te maken. Vanaf de ondertekening wordt deze verplichting als een schuld geboekt.
 
 Indien de raamovereenkomst ten gunste van de investeerder een waarborg tot voltooiing van het werk en verkrijging van het tax shelter-attest bevat, boekt de investeerder deze waarborg onder de rechten en verplichtingen buiten balans (09 *Diverse rechten en verplichtingen*) en vermeldt hij de waarborg in de toelichting bij de jaarrekening onder de niet in de balans opgenomen rechten en verplichtingen, voor zover deze waarborg het vermogen, de financiële positie of het resultaat van de vennootschap aanmerkelijk kan beïnvloeden.[^17] 
@@ -185,7 +176,6 @@ Als de investeerder verwacht dat het resterende saldo van het belastingvoordeel 
 | aan | 499 | Wachtrekening | | X |
 
 ### Betaling van het bedrag
-
 Op het moment van de storting van het bedrag wordt het volgende geboekt:
 
 | | Rekening | Omschrijving | Debet | Credit |
@@ -194,7 +184,6 @@ Op het moment van de storting van het bedrag wordt het volgende geboekt:
 | aan | 5500 | Kredietinstellingen: rekening-courant | | 100 |
 
 ### Voorlopige en voorwaardelijke vrijstelling van de winst
-
 Van zodra de investeerder zich door de ondertekening van de raamovereenkomst onherroepelijk verbindt tegenover de producent van audiovisuele werken om de overeengekomen investering over te maken, kan hij een voorlopige vrijstelling krijgen van de vennootschapsbelasting ten belope van 310 % van het bedrag waartoe hij zich heeft verbonden, voor zover het bedrag werkelijk wordt gestort binnen de drie maanden na de ondertekening van de raamovereenkomst.[^24] 
 
 Deze vrijstelling is echter onderworpen aan bepaalde beperkingen. De vrijgestelde winst mag immers per belastbaar tijdperk niet hoger zijn dan 50 % (beperkt tot 750.000 EUR) van de belastbare gereserveerde winst van de investeerder van het desbetreffende boekjaar die is vastgesteld vooraleer de vrijgestelde tax shelter-reserve werd aangelegd.
@@ -217,7 +206,6 @@ Deze boeking vindt plaats ongeacht of er uiteindelijk geen of onvoldoende winst 
 In het jaar waarin de raamovereenkomst wordt ondertekend, wordt het totale bedrag van de eventuele vrijstelling bovendien opgenomen in de toelichting bij de actieve belastinglatenties. Dit bedrag wordt overeenkomstig verminderd wanneer de winsten van de investeerder effectief worden vrijgesteld.
 
 ### Ontvangst van de vergoeding voor de prefinanciering
-
 Indien de investeerder een vergoeding ontvangt voor de prefinanciering, wordt het volgende geboekt:
 
 | | Rekening | Omschrijving | Debet | Credit |
@@ -245,7 +233,6 @@ Vervolgens wordt de resultaatbestemming geboekt, bijvoorbeeld[^29] een toevoegin
 | aan | 133 | Beschikbare reserves | | 310 |
 
 ### Geen tax shelter-attest binnen de termijn
-
 Indien de investeerder op 31 december van het vierde jaar na de ondertekening van de raamovereenkomst het tax shelter-attest nog niet heeft ontvangen, wordt de voorlopig vrijgestelde winst aangemerkt als een belastbare winst van het belastbaar tijdperk waarin het attest ten laatste geldig had kunnen zijn afgeleverd.
 
 Op het moment van het verlies van de vrijstelling, wordt het volgende geboekt[^30]:
@@ -256,7 +243,6 @@ Op het moment van het verlies van de vrijstelling, wordt het volgende geboekt[^3
 | aan | 789 | Onttrekkingen aan de belastingvrije reserves | | 310 |
 
 ### Ontvangst van de (eventueel) door de producent gewaarborgde bedragen
-
 Indien de producent aan de investeerder de voltooiing van het werk en de aflevering van het tax shelter-attest heeft gewaarborgd, dient hij aan de investeerder een bedrag te storten wanneer het tax shelter-attest niet wordt verkregen of voor een lager bedrag dan het in de raamovereenkomst vermelde bedrag. Dit bedrag is maximaal gelijk aan het maximum van de overeenkomstig artikel 194*ter*, § 11, eerste lid WIB 92 verschuldigde belastingen en moratoire interesten.
 
 | | Rekening | Omschrijving | Debet | Credit |

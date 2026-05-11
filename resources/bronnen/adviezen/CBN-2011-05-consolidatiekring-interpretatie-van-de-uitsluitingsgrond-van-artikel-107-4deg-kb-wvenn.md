@@ -22,36 +22,32 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
+    pipeline_version: 11f9196
     model:
     prompt_version:
-  generated_at: '2026-05-11T15:15:31Z'
+  generated_at: '2026-05-11T17:48:39Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T17:09:38Z'
+    confirmed_at: '2026-05-11T17:51:53Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "B5 bevestigd op twee plaatsen: r77 'artikel 107, 4° KB W.Venn.' staat als geïsoleerde plain-text regel direct na de H1-titel (zweefzin die noch heading noch inleiding-alinea is — extractie-artefact van ondertitel); r108 'Aandelen die krachtens een beslissing van de vennootschap bestemd zijn om binnen het jaar te worden vervreemd' staat als plain-text sectietitel direct vóór een alinea zonder ###-prefix, terwijl r100 wel een ### heading heeft voor de parallelle sectie. Overige inhoud correct."
+    rationale: "B5: regel 94 bevat de sub-sectie-titel 'Aandelen die krachtens een beslissing van de vennootschap bestemd zijn om binnen het jaar te worden vervreemd' als plain-text alinea zonder heading-prefix, terwijl de vorige sub-sectie op regel 87 wel als ### heading staat ('### Aandelen waarop is ingeschreven met het oog op wederafstand ervan'). Dit is een gemiste heading in de extractie — het document heeft structureel twee parallelle sub-secties."
     layer1:
-      file_size_chars: 5734
-      flags: []
-      heading_count: 4
-      max_section_chars: 3637
-      run_at: '2026-05-11T15:05:50Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:42Z'
+      heading_count: 4
+      max_section_chars: 3635
+      file_size_chars: 5702
+      flags: []
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T17:09:38Z'
-      rationale: "B5 bevestigd op twee plaatsen: r77 'artikel 107, 4° KB W.Venn.' staat als geïsoleerde plain-text regel direct na de H1-titel (zweefzin die noch heading noch inleiding-alinea is — extractie-artefact van ondertitel); r108 'Aandelen die krachtens een beslissing van de vennootschap bestemd zijn om binnen het jaar te worden vervreemd' staat als plain-text sectietitel direct vóór een alinea zonder ###-prefix, terwijl r100 wel een ### heading heeft voor de parallelle sectie. Overige inhoud correct."
+      run_at: '2026-05-11T17:51:53Z'
+      rationale: "B5: regel 94 bevat de sub-sectie-titel 'Aandelen die krachtens een beslissing van de vennootschap bestemd zijn om binnen het jaar te worden vervreemd' als plain-text alinea zonder heading-prefix, terwijl de vorige sub-sectie op regel 87 wel als ### heading staat ('### Aandelen waarop is ingeschreven met het oog op wederafstand ervan'). Dit is een gemiste heading in de extractie — het document heeft structureel twee parallelle sub-secties."
       concrete_problemen:
-        - regel: 77
-          categorie: B5
-          type: other
-          voorbeeld: artikel 107, 4° KB W.Venn.
-        - regel: 108
+        - regel: 94
           categorie: B5
           type: other
           voorbeeld: Aandelen die krachtens een beslissing van de vennootschap bestemd zijn om binnen het jaar te worden vervreemd
@@ -74,16 +70,12 @@ themas:
 
 # CBN-advies 2011/5 - Consolidatiekring: interpretatie van de uitsluitingsgrond van artikel 107, 4° KB W.Venn.
 
-artikel 107, 4° KB W.Venn.
-
 ## Inleiding
-
 Artikel 107, 4° van het koninklijk besluit ter uitvoering van het Wetboek van Vennootschappen (hierna KB W.Venn.) bepaalt dat een dochter buiten de consolidatie mag worden gelaten indien haar aandelen uitsluitend met het oog op latere vervreemding worden gehouden. 
 
 Aan de Commissie werd gevraagd de draagwijdte van deze uitsluitingsgrond voor niet beurs-genoteerde Belgische vennootschappen te verduidelijken. 
 
 ## Consolidatieplicht en bepaling van de consolidatiekring
-
 Artikel 110 van het Wetboek van Vennootschappen schrijft voor dat elke moedervennootschap een geconsolideerde jaarrekening en een jaarverslag over de geconsolideerde jaarrekening moet opstellen indien zij, alleen of gezamenlijk, één of meer dochterondernemingen controleert. 
 
 Als criterium wordt het controlebegrip uit het Wetboek van Vennootschappen gehanteerd.[^1]
@@ -92,13 +84,11 @@ Als criterium wordt het controlebegrip uit het Wetboek van Vennootschappen gehan
 Artikel 107, 4° KB W.Venn. laat evenwel toe dat een dochteronderneming buiten de consolidatie wordt gelaten indien haar aandelen uitsluitend met het oog op latere vervreemding worden gehouden. Specifiek met betrekking tot deze uitzondering, bepaalt het Verslag aan de Koning bij het koninklijk besluit van 6 maart 1990 op de geconsolideerde jaarrekening van de ondernemingen[^2] uitdrukkelijk dat zij slechts strikt kan geïnterpreteerd worden. De uitzonderingsgevallen mogen namelijk niet worden ingeroepen om het beeld van het groepsgeheel te beïnvloeden dat de geconsolideerde jaarrekening oplevert. 
 
 ## Interpretatie van de uitsluitingsgrond
-
 De Commissie herinnert er vooreerst aan dat uit artikel 95, § 1, VIII.B. KB W.Venn. kan worden besloten dat aandelen in verbonden ondernemingen of in ondernemingen waarmee een deelnemingsverhouding bestaat, en die zijn verkregen of waarop is ingeschreven met het oog op de wederafstand ervan, of die krachtens een beslissing van de vennootschap bestemd zijn om binnen twaalf maanden te worden gerealiseerd, wel mogen, maar daarom niet moeten worden opgenomen onder de rubriek geldbeleggingen.[^3] 
 
 Als gevolg van de strikte interpretatie van de uitsluitingsgrond, is de Commissie van mening dat slechts onder bepaalde voorwaarden de opname van een dochteronderneming onder de financiële vaste activa gepaard kan gaan met de toepassing van artikel 107, 4° KB W.Venn. 
 
 ### Aandelen waarop is ingeschreven met het oog op wederafstand ervan
-
 Met betrekking tot de aandelen waarop is ingeschreven met het oog op de wederafstand ervan, is de Commissie van mening dat deze participaties slechts buiten de consolidatie mogen worden gelaten, wanneer aan de volgende voorwaarden is voldaan. 
 
 1. Vooreerst moet het een participatie betreffen die *uitsluitend* is verworven en wordt aangehouden met het oog op vervreemding. Dit impliceert dat de beslissing of verplichting tot vervreemding reeds vaststaat bij het verwerven van de participatie, en dat het bevoegde orgaan een operationeel plan heeft opgestart om een koper te vinden. 

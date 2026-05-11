@@ -2,62 +2,59 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/kilometerheffing
 datum: 2016-10-26
 gerelateerde_adviezen:
-- datum: '1988-01-21'
-  titel: Werkende vennoten
-  url: https://www.cbn-cnc.be/nl/adviezen/werkende-vennoten
-- datum: '1988-12-01'
-  titel: Boeking van commissies
-  url: https://www.cbn-cnc.be/nl/adviezen/boeking-van-commissies
-- datum: '1986-01-01'
-  titel: Materiële vaste activa - Onderscheid met voorraden
-  url: https://www.cbn-cnc.be/nl/adviezen/materiele-vaste-activa-onderscheid-met-voorraden
-- datum: '1991-03-01'
-  titel: Rechten tot vertoning van films
-  url: https://www.cbn-cnc.be/nl/adviezen/rechten-tot-vertoning-van-films
+  - datum: '1988-01-21'
+    titel: Werkende vennoten
+    url: https://www.cbn-cnc.be/nl/adviezen/werkende-vennoten
+  - datum: '1988-12-01'
+    titel: Boeking van commissies
+    url: https://www.cbn-cnc.be/nl/adviezen/boeking-van-commissies
+  - datum: '1986-01-01'
+    titel: Materiële vaste activa - Onderscheid met voorraden
+    url: https://www.cbn-cnc.be/nl/adviezen/materiele-vaste-activa-onderscheid-met-voorraden
+  - datum: '1991-03-01'
+    titel: Rechten tot vertoning van films
+    url: https://www.cbn-cnc.be/nl/adviezen/rechten-tot-vertoning-van-films
 nummer: CBN-advies 2016/26
 provenance:
-  generated_at: '2026-05-11T15:15:31Z'
+  generated_at: '2026-05-11T17:48:39Z'
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/kilometerheffing
-    sha256: 8c35c5e1d99a47d6f1ece5d1ac3706232fa829b1aa58e1e2eb74712bdf2d5f93
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/kilometerheffing
+      sha256: 8c35c5e1d99a47d6f1ece5d1ac3706232fa829b1aa58e1e2eb74712bdf2d5f93
+      version:
   stale: false
-  stale_reason: null
+  stale_reason:
   tooling:
-    model: null
+    model:
     pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    prompt_version: null
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
     confirmed_at: '2026-05-11T12:16:34Z'
     confirmed_by: subagent-sonnet-4-6
     layer1:
-      file_size_chars: 4728
-      flags: []
-      heading_count: 2
-      max_section_chars: 3159
-      run_at: '2026-05-11T15:05:52Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:44Z'
+      heading_count: 2
+      max_section_chars: 3158
+      file_size_chars: 4726
+      flags: []
     layer2:
       agent: subagent-sonnet-4-6
       concrete_problemen: []
-      rationale: 'Kort, schoon advies zonder zichtbare artefacten. Twee ##-headings
-        correct; vijf voetnoten volledig gedefinieerd; geen broken opmaak of extractiesporen.'
+      rationale: 'Kort, schoon advies zonder zichtbare artefacten. Twee ##-headings correct; vijf voetnoten volledig gedefinieerd; geen broken opmaak of extractiesporen.'
       run_at: '2026-05-11T12:16:34Z'
       status: trusted
-    rationale: 'Kort, schoon advies zonder zichtbare artefacten. Twee ##-headings
-      correct; vijf voetnoten volledig gedefinieerd; geen broken opmaak of extractiesporen.'
+    rationale: 'Kort, schoon advies zonder zichtbare artefacten. Twee ##-headings correct; vijf voetnoten volledig gedefinieerd; geen broken opmaak of extractiesporen.'
     status: trusted
 themas:
-- diensten en diverse goederen
-- kilometerheffing
+  - diensten en diverse goederen
+  - kilometerheffing
 ---
 
 # COMMISSIE VOOR BOEKHOUDKUNDIGE NORMEN
 
 ## Algemeen
-
 Het Brussels Hoofdstedelijk Gewest, het Vlaamse Gewest en het Waalse Gewest hebben een systeem van kilometerheffing ingevoerd voor vrachtvervoer op het Belgische grondgebied. De kilometerheffing is een heffing die wordt opgelegd voor het gebruik van zware voertuigen voor het vervoer van goederen over de weg in functie van het aantal gereden kilometers over de aan de heffing onderhevige wegen. De kilometerheffing werd ingevoerd met respectievelijk (i) de ordonnantie van het Brussels Hoofdstedelijk Gewest van 29 juli 2015 tot invoering van een kilometerheffing in het Brussels Hoofdstedelijk Gewest voor zware voertuigen bedoeld of gebruikt voor het vervoer van goederen over de weg, ter vervanging van het Eurovignet, (ii) het decreet van het Vlaams Gewest van 3 juli 2015 tot invoering van de kilometerheffing en stopzetting van de heffing van het eurovignet en tot wijziging van de Vlaamse Codex Fiscaliteit van 13 december 2013 in dat verband en (iii) het decreet van het Waals Gewest van 16 juli 2015 tot invoering van een kilometerheffing voor het wegengebruik door zware vrachtwagens.
 
 De kilometerheffing wordt in het Brussels Hoofdstedelijk Gewest en in het Vlaamse Gewest aangemerkt als een gewestelijke belasting. In het Waalse Gewest wordt deze heffing door een private partner geïnd als een retributie.
@@ -65,7 +62,6 @@ De kilometerheffing wordt in het Brussels Hoofdstedelijk Gewest en in het Vlaams
 Aan de Commissie werd de vraag gesteld of de kilometerheffing moet worden geboekt op de post *Diensten en diverse goederen* of op de post *Andere bedrijfskosten*.
 
 ## Boekhoudkundige verwerking
-
 Onder de post *Diensten en diverse goederen* worden onder meer de volgende kosten opgenomen: na aftrek van de in de handel toegestane kortingen en van de belasting over de toegevoegde waarde, voor zover deze aftrekbaar is, de kosten verbonden met de dienstverlening of de levering van goederen door derden in het kader van de bedrijfsuitoefening, tenzij deze kosten onder rubrieken *Handelsgoederen, grond- en hulpstoffen* of *Bezoldigingen, sociale lasten of pensioenen* moeten worden geboekt[^2].
 
 Onder de post *Andere bedrijfskosten* worden onder meer de aan derden betaalde of verschuldigde met de bedrijfsuitoefening verbonden kosten opgenomen, die:

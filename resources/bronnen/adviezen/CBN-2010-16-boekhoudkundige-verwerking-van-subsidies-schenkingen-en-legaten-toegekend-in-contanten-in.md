@@ -3,41 +3,41 @@ bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-subsidie
 datum: 2010-11-10
 nummer: CBN-advies 2010/16
 provenance:
+  generated_at: '2026-05-11T17:48:39Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-subsidies-schenkingen-en-legaten-toegekend-in-contanten-in
       sha256: b66cf497d0127797f6e2ad5f488d4a6171e035dbf5fe77f441d95017d0a9090c
       version:
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
-    status: needs-rework
     confirmed_at: '2026-05-11T17:09:38Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "D4 bevestigd: r106 '(1)** oorzaak:**' heeft bold-marker direct na de haakjes zonder spatie, inconsistent met r108 '(2) **vorm:**' en r110 '(3) **doel:**' — gebroken bold-opmaakartefact. De eerder gerapporteerde A3 (r72-79 inhoudsopgave) is niet bevestigd: de betrokken regels zijn gewone inleidingstekst, geen TOC. Overige inhoud (8 voorbeelden met pipe-tabellen, voetnoten 1-23 volledig) correct."
     layer1:
-      file_size_chars: 27033
-      flags: []
-      heading_count: 14
-      max_section_chars: 10558
-      run_at: '2026-05-11T15:05:50Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:42Z'
+      heading_count: 14
+      max_section_chars: 10553
+      file_size_chars: 27019
+      flags: []
     layer2:
-      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T17:09:38Z'
-      rationale: "D4 bevestigd: r106 '(1)** oorzaak:**' heeft bold-marker direct na de haakjes zonder spatie, inconsistent met r108 '(2) **vorm:**' en r110 '(3) **doel:**' — gebroken bold-opmaakartefact. De eerder gerapporteerde A3 (r72-79 inhoudsopgave) is niet bevestigd: de betrokken regels zijn gewone inleidingstekst, geen TOC. Overige inhoud (8 voorbeelden met pipe-tabellen, voetnoten 1-23 volledig) correct."
       concrete_problemen:
-        - regel: 106
-          categorie: D4
+        - categorie: D4
+          regel: 106
           type: other
           voorbeeld: (1)** oorzaak:** het gaat om de reden
+      rationale: 'D4 bevestigd: r106 ''(1)** oorzaak:**'' heeft bold-marker direct na de haakjes zonder spatie, inconsistent met r108 ''(2) **vorm:**'' en r110 ''(3) **doel:**'' — gebroken bold-opmaakartefact. De eerder gerapporteerde A3 (r72-79 inhoudsopgave) is niet bevestigd: de betrokken regels zijn gewone inleidingstekst, geen TOC. Overige inhoud (8 voorbeelden met pipe-tabellen, voetnoten 1-23 volledig) correct.'
+      run_at: '2026-05-11T17:09:38Z'
+      status: needs-rework
+    rationale: 'D4 bevestigd: r106 ''(1)** oorzaak:**'' heeft bold-marker direct na de haakjes zonder spatie, inconsistent met r108 ''(2) **vorm:**'' en r110 ''(3) **doel:**'' — gebroken bold-opmaakartefact. De eerder gerapporteerde A3 (r72-79 inhoudsopgave) is niet bevestigd: de betrokken regels zijn gewone inleidingstekst, geen TOC. Overige inhoud (8 voorbeelden met pipe-tabellen, voetnoten 1-23 volledig) correct.'
+    status: needs-rework
 themas:
   - compenserende bedragen ter vermindering van de loonkost
   - exploitatiesubsidie
@@ -58,7 +58,6 @@ themas:
 # CBN-advies 2010/16 - Boekhoudkundige verwerking van subsidies, schenkingen en legaten, toegekend in contanten, in de jaarrekening van begunstigde grote en zeer grote verenigingen en stichtingen
 
 ## Inleiding
-
 Grote[^1] en zeer grote[^2] verenigingen en stichtingen zijn gehouden hun boekhouding te voeren en hun jaarrekening op te stellen overeenkomstig de bepalingen van toepassing op handels- en industriële vennootschappen, meer bepaald overeenkomstig de wet van 17 juli 1975 met betrekking tot de boekhouding van de ondernemingen en haar uitvoeringsbesluiten, evenals het koninklijk besluit van 30 januari 2001 tot uitvoering van het Wetboek van Vennootschappen (hierna KB W.Venn.). Deze bepalingen werden aangepast aan de bijzondere aard van hun werkzaamheden en hun wettelijk statuut door het koninklijk besluit van 19 december 2003 betreffende de boekhoudkundige verplichtingen en de openbaarmaking van de jaarrekening van bepaalde verenigingen zonder winstoogmerk, internationale verenigingen zonder winstoogmerk en stichtingen (hierna KB van 19 december 2003)[^3].
 
 Verenigingen en stichtingen verkrijgen dikwijls geldmiddelen en goederen om niet met het oog op het realiseren van bepaalde vormen van dienstverlening of het uitvoeren van bepaalde programma’s. Het kan bijvoorbeeld gaan om:
@@ -92,7 +91,6 @@ Er dient opgemerkt te worden dat de principes die opgenomen zijn in de adviezen 
 De Commissie wenst in het bijzonder te verwijzen naar advies 2009/3 dat handelt over investeringssubsidies waarvan de toekenning en/of betaling gespreid wordt over meerdere jaren, zoals de VIPA-subsidiëring[^10].
 
 ## Basisbeginselen
-
 Elke subsidie, schenking of legaat wordt gekenmerkt door drie elementen:
 
 (1)** oorzaak:** het gaat om de reden, de motivering achter de toekenning van de subsidie, de schenking of het legaat; 
@@ -108,7 +106,6 @@ De gepaste boekhoudkundige verwerking wordt bepaald op basis van een zorgvuldig 
 In dit opzicht wenst de Commissie in het bijzonder de verantwoordelijkheid van het bestuursorgaan met betrekking tot deze materie in herinnering te brengen. Er dienen regels bepaald te worden die, overeenkomstig de bepalingen van het KB van 19 december 2003, maar rekening houdend met hun eigen kenmerken, ten grondslag liggen aan de waarderingen in de inventaris voorzien in artikel 9, § 1 van de wet van 17 juli 1975 betreffende de boekhouding van de ondernemingen[^11].
 
 ## Soorten subsidies
-
 Subsidies, schenkingen en legaten in contanten bestemd voor de duurzame ondersteuning van de activiteit van de vereniging of stichting
 Indien de subsidies, schenkingen of legaten voorzien in de permanente financiering ter duurzame ondersteuning van de activiteit van de vereniging of stichting, dan dienen deze geboekt te worden in de passiefpost I. *Fondsen van de vereniging*. Deze permanente bron van vermogen wordt niet gespreid in resultaat genomen.
 
@@ -133,7 +130,6 @@ Niets wijst erop dat de rekening 1011 bijvoorbeeld niet als volgt opgesplitst ma
 Er dient opgemerkt te worden dat er in de beweegreden van de kwijtschelding van schulden gezocht zal moeten worden naar de rechtvaardiging van de boeking van deze subsidie als permanente financiering.
 
 ## Voorbeeld 1
-
 Een sportvereniging heeft, met het oog op uitbreiding, bij een kredietinstelling zware schulden gemaakt op lange termijn. De bijkomende en recurrente kosten werden echter onderschat, wat een verstoring van de financiële situatie met zich meebrengt, evenals een structureel negatieve kas. De gemeentelijke overheid besluit om de financiële situatie van de vereniging te herstellen door haar een subsidie van 250.000 euro toe te kennen teneinde haar toe te laten haar lening terug te betalen. Deze subsidie wijzigt op een duurzame manier de financiële structuur van de vereniging.
 
 | | Rekening | Omschrijving | Debet | Credit |
@@ -142,7 +138,6 @@ Een sportvereniging heeft, met het oog op uitbreiding, bij een kredietinstelling
 | aan | 1011 | Permanente financiering ontvangen in contanten | | 250.000 |
 
 ## Voorbeeld 2
-
 Een vereniging actief in de jeugdzorg wenst een nieuwe onthaalmogelijkheid te ontwikkelen voor de organisatie van vakantiestages voor kansarme kinderen. Een verbonden entiteit voorziet de vereniging van extra financiële middelen (500.000 euro) met het oog op deze ontwikkeling. Wanneer het recht op de verkrijging van de subsidie vaststaat[^13], vindt de volgende boeking plaats :
 
 | | Rekening | Omschrijving | Debet | Credit |
@@ -151,7 +146,6 @@ Een vereniging actief in de jeugdzorg wenst een nieuwe onthaalmogelijkheid te on
 | aan | 1011 | Permanente financiering ontvangen in contanten | | 500.000 |
 
 ### Subsidies in contanten verkregen voor investeringen in vaste activa
-
 Artikel 19, § 2, 3° van het KB van 19 december 2003 voorziet in een aanpassing van de omschrijving van de post *Kapitaalsubsidies* zoals opgenomen in artikel 95, § 2 KB W.Venn. Het aangepast artikel 95 KB W.Venn., zoals van toepassing op verenigingen en stichtingen, luidt als volgt: 
 
 *Post VI Kapitaalsubsidies*
@@ -167,7 +161,6 @@ Investeert de vereniging of stichting in vaste activa waarvan de gebruiksduur ni
 De kapitaalsubsidies die worden aangewend voor investeringen in vaste activa die worden afgeschreven, worden gespreid in resultaat genomen.
 
 ## Voorbeeld 3
-
 Een vereniging die cursussen diepzeeduiken organiseert, ontvangt een subsidie van 15.000 euro ter financiering van de aankoop van nieuw materiaal (duikflessen en duikpakken). Dit materiaal wordt afgeschreven op drie jaar[^16].
 
 Wanneer het recht op de verkrijging van de subsidie zeker is[^17], vindt de volgende boeking plaats :
@@ -187,7 +180,6 @@ De inresultaatneming van de subsidie, volgens het ritme van de afschrijving van 
 Wanneer de subsidie komt vast te staan nadat de afschrijving van de gesubsidieerde investering reeds is aangevangen of nadat het actief reeds volledig is afgeschreven, moet de resultatenrekening van het boekjaar waarin de subsidie definitief verworven blijkt, het gedeelte van de subsidie vermelden dat overeenstemt met de reeds verrichte afschrijvingen[^18]. 
 
 ## Voorbeeld 4
-
 Een vereniging koopt een gebouw (300.000 euro) aan vóór het recht van de vereniging op de overheidssubsidie komt vast te staan. Het gebouw is afschrijfbaar over 30 jaar. De vereniging heeft het gebouw reeds 2 jaar afgeschreven, waneer het recht op de subsidie (90.000 euro) definitief komt vast te staan. Wanneer het recht op de verkrijging van de subsidie zeker is[^19], vinden de volgende boekingen plaats :
 
 | | Rekening | Omschrijving | Debet | Credit |
@@ -237,7 +229,6 @@ In deze rekening zouden subsidies worden opgenomen die de vorm aannemen van een 
 Er dient opgemerkt te worden dat de subsidies die zijn toegekend met het oog op het dekken van bepaalde kosten verwerkt worden als kapitaalsubsidies vanaf het ogenblik dat de desbetreffende kosten het voorwerp uitmaken van een activering in de hoedanigheid van bijvoorbeeld kosten voor onderzoek en ontwikkeling (advies 138/1[^21]).
 
 ## Voorbeeld 5
-
 Krachtens artikel 275/3 WIB 92 geniet een vereniging van vrijstelling van betaling van een gedeelte van de bedrijfsvoorheffing dat ze afhoudt van het loon van bepaalde werknemers ter stimulatie van het onderzoek. De vrijstelling bedraagt 22.000 euro. Dit bedrag wordt geboekt op de creditzijde van een rekening onder de opbrengsten, conform het niet-compensatiebeginsel[^22]. 
 
 | | Rekening | Omschrijving | Debet | Credit |
@@ -246,7 +237,6 @@ Krachtens artikel 275/3 WIB 92 geniet een vereniging van vrijstelling van betali
 | aan | 738 | Compenserende bedragen ter vermindering van de loonkost | | 22.000 |
 
 ## Voorbeeld 6
-
 Een kinderdagverblijf ontvangt een schenking van 2.000 euro.
 
 | | Rekening | Omschrijving | Debet | Credit |
@@ -255,7 +245,6 @@ Een kinderdagverblijf ontvangt een schenking van 2.000 euro.
 | aan | 732 | Schenkingen zonder terugnemingsrecht | | 2.000 |
 
 ## Voorbeeld 7
-
 De notaris verantwoordelijk voor een successie informeert een hulpvereniging voor weeskinderen dat haar een som van 10.000 euro toekomt in de vorm van legaten, en dit zonder bijzondere toewijzing. Deze som wordt op de rekening gestort van de vereniging.
 
 | | Rekening | Omschrijving | Debet | Credit |
@@ -264,7 +253,6 @@ De notaris verantwoordelijk voor een successie informeert een hulpvereniging voo
 | aan | 734 | Legaten zonder terugnemingsrecht | | 10.000 |
 
 ### Interestsubsidies
-
 In artikel 96 KB W.Venn. wordt, voor de toepassing door verenigingen en stichtingen, punt “2° de als opbrengst geboekte kapitaal-en interestsubsidies” weggelaten uit de definitie van de post IV.C. *Overige financiële opbrengsten[^23]* . 
 
 De kapitaal- en interestsubsidies die in resultaat worden genomen door verenigingen of stichtingen worden, met andere woorden, niet opgenomen in deze post.
@@ -272,7 +260,6 @@ De kapitaal- en interestsubsidies die in resultaat worden genomen door verenigin
 In het minimum algemeen rekeningenstelsel in bijlage bij het KB van 19 december 2003 wordt een specifieke rekening voorzien voor de opname van kapitaal- en interestsubsidies in de resultatenrekening. Het betreft de rekening 736 *Kapitaal- en interestsubsidie*.
 
 ## Voorbeeld 8
-
 Een vereniging ontleent een som van 60.000 euro over 5 jaar. De maandelijkse aflossing van de hoofdsom blijft constant. De jaarlijkse rentevoet is gelijk aan 8 %. De Vlaamse regering komt tussen in de interestkosten ten belope van 4 %. De tussenkomst wordt jaarlijks, op 31 december, gestort. 
 
 | | Rekening | Omschrijving | Debet | Credit |
@@ -329,7 +316,6 @@ Inning van de interestsubsidie op 31 december jaar x :
 | aan | 416 | Diverse vorderingen : te ontvangen subsidies | | 2.180 |
 
 ## Te verschaffen informatie in de toelichting van de jaarrekening
-
 De Commissie is de mening toegedaan dat een samenvattende staat met alle subsidies waarvan de desbetreffende vereniging of stichting geniet, opgenomen moet worden in de toelichting van de opgemaakte jaarrekening, zowel volgens het volledig als het verkort schema. 
 
 [^1]: Artikelen 17, § 3; 37, § 3 en 53, § 3 wet van 27 juni 1921 betreffende de verenigingen zonder winstoogmerk, de internationale verenigingen zonder winstoogmerk en de stichtingen.

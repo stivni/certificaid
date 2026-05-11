@@ -16,37 +16,37 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-vennootschappen-naar-buitenlands-recht-eigen-boekhoudkundige-0
 nummer: CBN-advies 2011/12
 provenance:
+  generated_at: '2026-05-11T17:48:39Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/afwijking-inzake-functionele-valuta-praktische-implicaties-en-procedure
       sha256: c2257273e04e873a3695a27be7117365919032c17a63a1102ff1ae3817652f12
       version:
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
-    status: trusted
     confirmed_at: '2026-05-11T17:09:38Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: 'Geen ETL-artefacten bevestigd. De eerder gerapporteerde A3 (r70-72 TOC) is niet bevestigd: de body bevat geen plain-text inhoudsopgave; de vier ## headings (Inleiding, Omrekening..., Afwijkingsaanvragen..., Aanvragen tot verlenging...) volgen direct zonder tussenliggend TOC-blok. Voetnoten 1-9 zijn volledig gedefinieerd en gerefereerd. Geen tabellen, geen OCR-problemen, geen broken markup.'
     layer1:
-      file_size_chars: 8490
-      flags: []
-      heading_count: 4
-      max_section_chars: 3161
-      run_at: '2026-05-11T15:05:50Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:43Z'
+      heading_count: 4
+      max_section_chars: 3160
+      file_size_chars: 8487
+      flags: []
     layer2:
-      status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T17:09:38Z'
-      rationale: 'Geen ETL-artefacten bevestigd. De eerder gerapporteerde A3 (r70-72 TOC) is niet bevestigd: de body bevat geen plain-text inhoudsopgave; de vier ## headings (Inleiding, Omrekening..., Afwijkingsaanvragen..., Aanvragen tot verlenging...) volgen direct zonder tussenliggend TOC-blok. Voetnoten 1-9 zijn volledig gedefinieerd en gerefereerd. Geen tabellen, geen OCR-problemen, geen broken markup.'
       concrete_problemen: []
+      rationale: 'Geen ETL-artefacten bevestigd. De eerder gerapporteerde A3 (r70-72 TOC) is niet bevestigd: de body bevat geen plain-text inhoudsopgave; de vier ## headings (Inleiding, Omrekening..., Afwijkingsaanvragen..., Aanvragen tot verlenging...) volgen direct zonder tussenliggend TOC-blok. Voetnoten 1-9 zijn volledig gedefinieerd en gerefereerd. Geen tabellen, geen OCR-problemen, geen broken markup.'
+      run_at: '2026-05-11T17:09:38Z'
+      status: trusted
+    rationale: 'Geen ETL-artefacten bevestigd. De eerder gerapporteerde A3 (r70-72 TOC) is niet bevestigd: de body bevat geen plain-text inhoudsopgave; de vier ## headings (Inleiding, Omrekening..., Afwijkingsaanvragen..., Aanvragen tot verlenging...) volgen direct zonder tussenliggend TOC-blok. Voetnoten 1-9 zijn volledig gedefinieerd en gerefereerd. Geen tabellen, geen OCR-problemen, geen broken markup.'
+    status: trusted
 themas:
   - afwijking
   - afwijkingsaanvraag
@@ -68,17 +68,15 @@ themas:
 # CBN-advies 2011/12 - Afwijking inzake functionele valuta: praktische implicaties en procedure
 
 ## Inleiding
-
 De procedure voor het vragen van afwijkingen wordt vastgelegd in artikel 14 van de Boekhoudwet van 17 juli 1975 en in artikel 125, § 1 van het Wetboek van Vennootschappen. 
 
 In uitzonderlijke gevallen is het opstellen van een jaarrekening in euro niet aangewezen omdat dit, als gevolg van de hierdoor ontstane wisselkoers- of omrekeningsverschillen, een vertekend beeld zou geven van de economische werkelijkheid.[^1]
  In advies 117/3 *Voeren van de boekhouding en opstellen van de jaarrekening in een andere munt dan de euro* heeft de Commissie de voorwaarden van dergelijke vragen tot afwijking gekaderd.[^2]
  Dit advies werd aangevuld met advies 2009/10 voor wat de bepaling van de functionele valuta bij financieringsvennootschappen betreft. 
 
-Het lijkt de Commissie evenwel raadzaam om enige aanvullende verduidelijking te verschaffen.[^3]
+Het lijkt de Commissie evenwel raadzaam om enige aanvullende verduidelijking te verschaffen.[^3] 
 
 ## Omrekening van activa, passiva, kosten en opbrengsten naar aanleiding van het verkrijgen van de afwijking inzake functionele valuta tijdens het boekjaar
-
 In de loop van 2010 werd een advies gepubliceerd omtrent de verwerking van de omrekeningsverschillen ontstaan bij de omrekening van het kapitaal naar aanleiding van het verkrijgen van de afwijking inzake functionele valuta.[^4] 
 
 De Commissie wees er in dit advies reeds op dat ondernemingen waaraan de afwijking inzake functionele valuta wordt verleend *enerzijds* hun boekhouding kunnen voeren in de functionele valuta vanaf de datum van de omzetting van het maatschappelijk kapitaal in deze munteenheid. De omrekening van zowel het kapitaal alsook van de overige op dat moment aanwezige elementen van de balans en de resultatenrekening gebeurt in dat geval op hetzelfde tijdstip en aan de koers op die datum. 
@@ -94,13 +92,11 @@ De Commissie staat toe dat de omzetting gebeurt op datum van de openingsbalans e
 Voor de verrichtingen die in het lopende boekjaar, maar vóór het verkrijgen van de afwijking, reeds plaatsvonden in de nieuwe functionele valuta, dient geen omzetting meer gedaan te worden. Zij worden opgenomen in de rekeningen aan de oorspronkelijke waarde, aangezien door de Commissie wordt aangenomen dat de boekhouding vanaf de eerste dag van het boekjaar, waarvoor de afwijking werd verkregen, wordt gevoerd in de nieuwe functionele valuta. De overige verrichtingen die tijdens het boekjaar werden uitgevoerd in euro worden geconverteerd tegen de wisselkoers op datum van de transactie.[^8] 
 
 ## Afwijkingsaanvragen ingediend door vennootschappen die nog geen jaarrekening neergelegd hebben
-
 Voor afwijkingsaanvragen die worden ingediend door vennootschappen die nog geen jaarrekening hebben neergelegd op het moment waarop zij hun aanvraag tot het voeren van de boekhouding en het opstellen van de jaarrekening in een andere munt dan de euro indienen, zal de Commissie aan de Minister adviseren om, indien is voldaan aan de voorwaarden, de afwijking slechts toe te kennen voor één boekjaar. 
 
 In het bijzonder ontvangt de Commissie regelmatig aanvragen vanwege vennootschappen in oprichting die hun boekhouding wensen te voeren en hun jaarrekening wensen op te stellen in een andere munt dan de euro. Het advies van de Commissie zal in dit geval slechts worden gegeven voor het eerste boekjaar van de vennootschap. Bovendien geldt in dergelijk geval als bijkomende voorwaarde dat de vennootschap in oprichting samen met haar aanvraag tot afwijking een kopie van het ontwerp van haar oprichtingsakte overmaakt. 
 
 ## Aanvragen tot verlenging van de afwijking inzake functionele valuta
-
 Wenst de vennootschap voor latere boekjaren een verlenging van de haar verleende afwijking te bekomen, dan dient de vennootschap bij haar verzoek, gericht tot de bevoegde Minister, de gegevens te verstrekken die toelaten te beoordelen of de voorwaarden die ten grondslag liggen aan de voorheen verleende afwijking, nog steeds vervuld zijn. 
 
 In dit verband wenst de Commissie het belang te benadrukken van de verwijzing in de toelichting bij de jaarrekening naar de afwijking die de vennootschap reeds eerder werd verleend door de betrokken Minister. Bij deze verwijzing in de toelichting dient door het bestuursorgaan van de vennootschap bevestigd te worden dat de redenen waarom de afwijking werd verleend, onverkort van toepassing zijn op de betrokken jaarrekening.[^9]

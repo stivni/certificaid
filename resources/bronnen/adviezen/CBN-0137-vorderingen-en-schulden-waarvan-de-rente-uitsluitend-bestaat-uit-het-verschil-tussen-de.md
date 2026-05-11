@@ -2,66 +2,57 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/vorderingen-en-schulden-waarvan-de-rente-uitsluitend-bestaat-uit-het-verschil-tussen-de
 datum: 1986-09-01
 gerelateerde_adviezen:
-- datum: '2021-07-02'
-  titel: Boekhoudkundige verwerking van fusies tussen vennootschappen
-  url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-fusies-tussen-vennootschappen
-- datum: '2016-07-06'
-  titel: 'Schulden en vorderingen: gevolgen van de wijzigingen aan artikel 67 KB W.Venn.
-    door het koninklijk besluit van 18 december 2015'
-  url: https://www.cbn-cnc.be/nl/adviezen/schulden-en-vorderingen-gevolgen-van-de-wijzigingen-aan-artikel-67-kb-wvenn-door-het
-- datum: '2009-04-01'
-  titel: De boekhoudkundige verwerking van fusies
-  url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-fusies
-- datum: '1988-12-01'
-  titel: Schulden op meer dan één jaar waarvoor geen of slechts een abnormaal lage
-    rente verschuldigd is - Fiscale impact
-  url: https://www.cbn-cnc.be/nl/adviezen/schulden-op-meer-dan-een-jaar-waarvoor-geen-of-slechts-een-abnormaal-lage-rente
+  - datum: '2021-07-02'
+    titel: Boekhoudkundige verwerking van fusies tussen vennootschappen
+    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-fusies-tussen-vennootschappen
+  - datum: '2016-07-06'
+    titel: 'Schulden en vorderingen: gevolgen van de wijzigingen aan artikel 67 KB W.Venn. door het koninklijk besluit van 18 december 2015'
+    url: https://www.cbn-cnc.be/nl/adviezen/schulden-en-vorderingen-gevolgen-van-de-wijzigingen-aan-artikel-67-kb-wvenn-door-het
+  - datum: '2009-04-01'
+    titel: De boekhoudkundige verwerking van fusies
+    url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-fusies
+  - datum: '1988-12-01'
+    titel: Schulden op meer dan één jaar waarvoor geen of slechts een abnormaal lage rente verschuldigd is - Fiscale impact
+    url: https://www.cbn-cnc.be/nl/adviezen/schulden-op-meer-dan-een-jaar-waarvoor-geen-of-slechts-een-abnormaal-lage-rente
 nummer: CBN-advies 137/5
 provenance:
-  generated_at: '2026-05-11T15:15:31Z'
+  generated_at: '2026-05-11T17:48:38Z'
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/vorderingen-en-schulden-waarvan-de-rente-uitsluitend-bestaat-uit-het-verschil-tussen-de
-    sha256: 9bc74326dd3c0b83505ac7e0ed2677f8405c30dc5d4a5da2356828a4245f91f0
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/vorderingen-en-schulden-waarvan-de-rente-uitsluitend-bestaat-uit-het-verschil-tussen-de
+      sha256: 9bc74326dd3c0b83505ac7e0ed2677f8405c30dc5d4a5da2356828a4245f91f0
+      version:
   stale: false
-  stale_reason: null
+  stale_reason:
   tooling:
-    model: null
+    model:
     pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    prompt_version: null
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
     confirmed_at: '2026-05-11T13:23:03Z'
     confirmed_by: subagent-sonnet-4-6
     layer1:
-      file_size_chars: 3879
-      flags: []
-      heading_count: 0
-      max_section_chars: 3879
-      run_at: '2026-05-11T15:05:49Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:41Z'
+      heading_count: 0
+      max_section_chars: 3878
+      file_size_chars: 3878
+      flags: []
     layer2:
       agent: subagent-sonnet-4-6
       concrete_problemen: []
-      rationale: 'Vorige verdict (B3 duplicate) was onjuist: de body bevat slechts
-        één H1 (regel 63) en daarna aaneengesloten proza zonder verdere headings.
-        Geen ETL-artefacten, geen afgekapte zinnen, italics correct (*bis*, *cf*).
-        Inhoud volledig voor dit advies uit 1986 dat geen voetnoten bevat.'
+      rationale: 'Vorige verdict (B3 duplicate) was onjuist: de body bevat slechts één H1 (regel 63) en daarna aaneengesloten proza zonder verdere headings. Geen ETL-artefacten, geen afgekapte zinnen, italics correct (*bis*, *cf*). Inhoud volledig voor dit advies uit 1986 dat geen voetnoten bevat.'
       run_at: '2026-05-11T13:23:03Z'
       status: trusted
-    rationale: 'Vorige verdict (B3 duplicate) was onjuist: de body bevat slechts één
-      H1 (regel 63) en daarna aaneengesloten proza zonder verdere headings. Geen ETL-artefacten,
-      geen afgekapte zinnen, italics correct (*bis*, *cf*). Inhoud volledig voor dit
-      advies uit 1986 dat geen voetnoten bevat.'
+    rationale: 'Vorige verdict (B3 duplicate) was onjuist: de body bevat slechts één H1 (regel 63) en daarna aaneengesloten proza zonder verdere headings. Geen ETL-artefacten, geen afgekapte zinnen, italics correct (*bis*, *cf*). Inhoud volledig voor dit advies uit 1986 dat geen voetnoten bevat.'
     status: trusted
 themas:
-- nominale waarde
-- vordering
+  - nominale waarde
+  - vordering
 ---
 
 # CBN advies 137/5 - Vorderingen (en schulden) waarvan de rente uitsluitend bestaat uit het verschil tussen de nominale waarde (of terugbetalingsprijs) en de uitgifteprijs
-
 Artikel 27*bis* van het koninklijk besluit van 8 oktober 1976 bepaalt dat bij de boeking van een vordering in de balans voor haar nominale waarde in voorkomend geval in de overlopende rekeningen van het passief worden geboekt en pro rata temporis in resultaat worden genomen : 
 
 1. de rente die op basis van de overeenkomst tussen partijen in de nominale waarde van de vordering is begrepen; 

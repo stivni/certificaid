@@ -10,41 +10,41 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/verwerking-in-de-jaarrekening-van-de-door-de-vlaamse-regering-gecreeerde-opleidingscheques
 nummer: CBN-advies 2013/6
 provenance:
+  generated_at: '2026-05-11T17:48:39Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-afzonderlijke-aanslag-op-interne
       sha256: b4049ba8b65296af7fe55261e3f7301d271578a23683196b0b39b803b32f232b
       version:
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
-    status: needs-rework
     confirmed_at: '2026-05-11T17:09:38Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "B4: 'Boeking eerste jaar' op regel 66 staat als **bold** inline-tekst in plaats van ##/###-heading, terwijl 'Boeking in het jaar waarin wordt uitgedrukt...' op regel 73 wél correct als ## heading is opgemaakt. Deze inconsistente heading-behandeling binnen één document is een ETL-artefact — een mens zou beide als heading schrijven."
     layer1:
-      file_size_chars: 3432
-      flags: []
-      heading_count: 1
-      max_section_chars: 3432
-      run_at: '2026-05-11T15:05:51Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:43Z'
+      heading_count: 1
+      max_section_chars: 3431
+      file_size_chars: 3431
+      flags: []
     layer2:
-      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T17:09:38Z'
-      rationale: "B4: 'Boeking eerste jaar' op regel 66 staat als **bold** inline-tekst in plaats van ##/###-heading, terwijl 'Boeking in het jaar waarin wordt uitgedrukt...' op regel 73 wél correct als ## heading is opgemaakt. Deze inconsistente heading-behandeling binnen één document is een ETL-artefact — een mens zou beide als heading schrijven."
       concrete_problemen:
-        - regel: 66
-          categorie: B4
+        - categorie: B4
+          regel: 66
           type: other
           voorbeeld: '**Boeking eerste jaar**'
+      rationale: 'B4: ''Boeking eerste jaar'' op regel 66 staat als **bold** inline-tekst in plaats van ##/###-heading, terwijl ''Boeking in het jaar waarin wordt uitgedrukt...'' op regel 73 wél correct als ## heading is opgemaakt. Deze inconsistente heading-behandeling binnen één document is een ETL-artefact — een mens zou beide als heading schrijven.'
+      run_at: '2026-05-11T17:09:38Z'
+      status: needs-rework
+    rationale: 'B4: ''Boeking eerste jaar'' op regel 66 staat als **bold** inline-tekst in plaats van ##/###-heading, terwijl ''Boeking in het jaar waarin wordt uitgedrukt...'' op regel 73 wél correct als ## heading is opgemaakt. Deze inconsistente heading-behandeling binnen één document is een ETL-artefact — een mens zou beide als heading schrijven.'
+    status: needs-rework
 themas:
   - bedrijfsbelastingen
   - interne pensioenvoorziening
@@ -71,7 +71,6 @@ In het Belgische boekhoudrecht wordt het schema van de resultatenrekening opgest
 | aan | 452 | Te betalen belastingen en taksen | | 1,75 |
 
 ## Boeking in het jaar waarin wordt uitgedrukt om de afzonderlijke aanslag te spreiden over drie aanslagjaren
-
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 640 | Bedrijfsbelastingen | 0,05 | |

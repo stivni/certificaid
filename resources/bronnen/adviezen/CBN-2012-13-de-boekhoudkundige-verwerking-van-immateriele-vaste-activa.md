@@ -16,41 +16,41 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/boeking-en-waardering-van-voorraden
 nummer: CBN-advies 2012/13
 provenance:
+  generated_at: '2026-05-11T17:48:39Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-immateriele-vaste-activa
       sha256: 67a3d88a28e5f96ab6003fd3e7c83b626e8511afd470d5ff4def5332c7710318
       version:
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
-    status: needs-rework
     confirmed_at: '2026-05-11T17:09:38Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "D3: regel 216 toont '[^13][^14][^15][^16]' als een losstaande regel zonder omringende tekst — vier voetnootmarkers zijn door ETL uit hun inline-context gerukt en als een aparte blokregel geplaatst, vlak voor de boeking. De voetnootdefinities staan correct op regels 339-345, maar de markers hangen hier in het niets. Verder is het document (30261 chars, 26 headings) inhoudelijk volledig."
     layer1:
-      file_size_chars: 30261
-      flags: []
-      heading_count: 26
-      max_section_chars: 18886
-      run_at: '2026-05-11T15:05:50Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:43Z'
+      heading_count: 26
+      max_section_chars: 18870
+      file_size_chars: 30231
+      flags: []
     layer2:
-      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T17:09:38Z'
-      rationale: "D3: regel 216 toont '[^13][^14][^15][^16]' als een losstaande regel zonder omringende tekst — vier voetnootmarkers zijn door ETL uit hun inline-context gerukt en als een aparte blokregel geplaatst, vlak voor de boeking. De voetnootdefinities staan correct op regels 339-345, maar de markers hangen hier in het niets. Verder is het document (30261 chars, 26 headings) inhoudelijk volledig."
       concrete_problemen:
-        - regel: 216
-          categorie: D3
+        - categorie: D3
+          regel: 216
           type: other
           voorbeeld: '[^13][^14][^15][^16]'
+      rationale: 'D3: regel 216 toont ''[^13][^14][^15][^16]'' als een losstaande regel zonder omringende tekst — vier voetnootmarkers zijn door ETL uit hun inline-context gerukt en als een aparte blokregel geplaatst, vlak voor de boeking. De voetnootdefinities staan correct op regels 339-345, maar de markers hangen hier in het niets. Verder is het document (30261 chars, 26 headings) inhoudelijk volledig.'
+      run_at: '2026-05-11T17:09:38Z'
+      status: needs-rework
+    rationale: 'D3: regel 216 toont ''[^13][^14][^15][^16]'' als een losstaande regel zonder omringende tekst — vier voetnootmarkers zijn door ETL uit hun inline-context gerukt en als een aparte blokregel geplaatst, vlak voor de boeking. De voetnootdefinities staan correct op regels 339-345, maar de markers hangen hier in het niets. Verder is het document (30261 chars, 26 headings) inhoudelijk volledig.'
+    status: needs-rework
 themas:
   - aanschaffingsprijs
   - aanschaffingswaarde
@@ -73,7 +73,6 @@ themas:
 # CBN-advies 2012/13 – De boekhoudkundige verwerking van immateriële vaste activa
 
 ## Inleiding
-
 Zowel in het volledige, als in het verkorte schema van de jaarrekening wordt op het actief van de balans een post II. Immateriële vaste activa voorzien.
 
 Onder de immateriële vaste activa moet worden verstaan, de ondernemingsmiddelen van onlichamelijke aard die bestemd zijn om duurzaam voor de bedrijfsactiviteit te worden gebruikt, en waaruit naar verwachting toekomstige economische voordelen naar de onderneming zullen vloeien. 
@@ -88,11 +87,8 @@ De rubriek immateriële vaste activa wordt overeenkomstig artikel 95 van het kon
 In dit advies wordt de boekhoudkundige verwerking van de immateriële vaste activa toegelicht[^2]. Hierbij zal in de eerste plaats worden ingegaan op de voorwaarden om bepaalde door de vennootschap gedragen kosten onder de rubriek van de immateriële activa op de balans te activeren. Vervolgens zal ook de nodige aandacht worden besteed aan de waardering van deze activa in de jaarrekening en aan hun eventuele waarde-correcties. Ten slotte zal ook nader worden ingegaan op elk van de subrubrieken van de rubriek immateriële vaste activa.
 
 ## Activering en waardering van immateriële vaste activa
-
-### Aanschaffingswaarde: aanschaffings- en vervaardigingsprijs en inbrengwaarde[^3]
-
+### Aanschaffingswaarde: aanschaffings- en vervaardigingsprijs en inbrengwaarde
 #### Aanschaffingsprijs
-
 Immateriële vaste activa die door de onderneming worden aangekocht bij derden worden overeenkomstig artikel 36, lid 1 van het KB W.Venn. in de jaarrekening gewaardeerd tegen aanschaffingsprijs. Die omvat naast de aankoopprijs ook de bijkomende kosten zoals de niet-terugbetaalbare belastingen en de vervoerskosten. 
 
 Indien het immaterieel vast actief wordt verkregen naar aanleiding van een ruil, dan zal de aanschaffingsprijs van dit actief gelijk zijn aan de marktwaarde van de in ruil voor dit actief overgedragen actiefbestanddelen. Is deze waarde moeilijk vast te stellen, dan is de aanschaffingsprijs de marktwaarde van het door de ruil verkregen actiefbestanddeel. Deze waarden worden geschat op datum van de ruil (artikel 36, lid 2 KB W.Venn.).
@@ -100,7 +96,6 @@ Indien het immaterieel vast actief wordt verkregen naar aanleiding van een ruil,
  Artikel 38 van het KB W.Venn. laat ten slotte ook nog toe dat bij de verwerving van immateriële vaste activa van derden, de rente op het vreemd vermogen dat wordt gebruikt voor de financiering van deze activa aan de aanschaffingswaarde van de immateriële vaste activa kan worden toegevoegd. Dit is evenwel slechts toegestaan voor zover deze financiering betrekking heeft op de periode welke de bedrijfsklaarheid van deze activa voorafgaat. De keuze van de onderneming om de rente op vreemd vermogen op te nemen in de aanschaffingswaarde van het immaterieel vast actief moet bij de waarderingsregels in de toelichting worden vermeld[^4].
 
 #### Vervaardigingsprijs
-
 Wanneer de onderneming het immaterieel vast actief zelf tot stand heeft gebracht dan dient het betrokken actief overeenkomstig artikel 37 van het KB W.Venn. te worden gewaardeerd tegen de vervaardigingsprijs die, naast de aanschaffingskosten van grondstoffen, verbruiksgoederen en hulpstoffen, ook de productiekosten omvat die rechtstreeks aan het individuele product of aan de productengroep toerekenbaar zijn evenals het evenredig deel van de productiekosten die slechts onrechtstreeks aan het individuele product of aan de productengroep toerekenbaar zijn, voor zover deze kosten op de normale productieperiode betrekking hebben. Het staat de vennootschappen echter vrij deze onrechtstreekse productiekosten niet geheel of gedeeltelijk in de vervaardigingsprijs op te nemen; in geval van deze mogelijkheid gebruik wordt gemaakt, wordt zulks in de toelichting vermeld. 
 
 Artikel 60 van het KB W.Venn. bepaalt dat andere dan van derden verworven immateriële vaste activa (bijvoorbeeld een intern ontworpen prototype) slechts tegen vervaardigingsprijs op het actief worden geboekt voor zover deze vervaardigingsprijs niet hoger is dan een voorzichtige raming van de gebruikswaarde of van het toekomstig rendement van dit actief voor de betrokken onderneming.
@@ -124,19 +119,14 @@ Artikel 60 KB W.Venn. preciseert bovendien dat de geactiveerde vervaardigingspri
 Eens het intern vervaardigd immaterieel vast actief is afgewerkt en geactiveerd, worden de uitgaven na voltooiing van het actief enkel nog geactiveerd onder de immateriële vaste activa wanneer zij leiden tot een fundamentele wijziging of verbetering van het betrokken immaterieel vast actief (bijvoorbeeld kosten voor fundamentele verbetering van een ontwikkeld prototype). Kosten die enkel tot doel hebben het immaterieel vast actief te onderhouden of aan te passen zonder de aard van het actief te wijzigen, kunnen niet geactiveerd worden en moeten als kost van het boekjaar ten laste worden genomen (bijvoorbeeld de kosten van onderhoud van een ontwikkeld prototype). Deze laatste kosten hebben immers geen investeringskarakter.
 
 #### Inbrengwaarde
-
 Bij verwerving van een immaterieel vast actief door inbreng, moet het actief worden gewaardeerd aan inbrengwaarde die overeenkomstig artikel 39 KB W.Venn. overeenstemt met de bedongen waarde van de inbreng.
 
 ### Afschrijvingen en waardeverminderingen
-
 #### Inleiding: immateriële vaste activa met beperkte en met onbeperkte levensduur
-
 Het boekhoudrecht bepaalt op geen enkele wijze welke immateriële vaste activa een beperkte dan wel onbeperkte levensduur hebben. Het is bijgevolg aan het bestuursorgaan om te oordelen of een immaterieel vast actief een beperkte dan wel onbeperkte levensduur heeft.
 
 #### Immateriële vaste activa met beperkte levensduur
-
 ##### Algemeen
-
 Artikel 61, § 1, lid 1 KB W.Venn. bepaalt dat voor immateriële vaste activa met een beperkte gebruiksduur wordt overgegaan tot afschrijvingen volgens een overeenkomstig artikel 28, § 1 KB W.Venn. opgesteld afschrijvingsplan. Noch de wet, noch het KB W.Venn. legt voor de immateriële vaste activa verplichte afschrijvingstermijnen op. Overeenkomstig artikel 45, § 1 KB W.Venn. wordt het afschrijvingsplan bijgevolg zo opgesteld dat de aanschaffingskosten van de immateriële vaste activa worden gespreid over hun waarschijnlijke nuttigheids- of gebruiksduur. Wanneer deze activa evenwel een juridische grondslag hebben die in de tijd beperkt is (bv. octrooien, concessies) dan kan, voor het berekenen van de afschrijvingen, de economische levensduur van dit actief in geen geval de juridische levensduur van het actief overstijgen.
 
 De onderneming die de afschrijvingen van kosten voor onderzoek en ontwikkeling of van goodwill in uitzonderlijke gevallen over meer dan vijf jaar wil spreiden, moet hiervoor een verantwoording verstrekken in de toelichting bij de jaarrekening (art. 61, § 1, lid 4 KB W.Venn.)[^6].
@@ -154,7 +144,6 @@ De aanvullende of uitzonderlijke afschrijvingen die niet langer verantwoord blij
 Voor een uitvoerige bespreking van de verschillende afschrijvingsmethoden kan verwezen worden naar het CBN-advies 2010/15[^7].
 
 ##### Bijzonder toepassingsgeval: afschrijvingen op immateriële vaste activa die zijn verworven voor een prijs die een variabel gedeelte omvat dat afhankelijk is van de toekomstige winst van de koper
-
 Immateriële vaste activa worden vaak verworven voor een prijs die een variabel gedeelte omvat dat wordt bepaald door een toekomstige en onzekere gebeurtenis (bv. een bepaald percentage van de door de koper gemaakt bedrijfswinst van het boekjaar). Hierbij rijst de vraag hoe de betaling van dit variabel gedeelte van de prijs moeten worden verwerkt, en of deze variabele gedeelten van de prijs al dan niet geactiveerd moeten worden. 
 
 Bovenstaande problematiek wordt door de Commissie uitvoerig behandeld in het haar CBN-advies 2012/9[^8]. Samenvattend kan worden gesteld dat de Commissie van oordeel is dat de variabele gedeelten van de prijs die worden betaald naar aanleiding van de verwerving van een immaterieel vast actief, en die een investeringskarakter hebben, geactiveerd moeten worden en afgeschreven over de resterende afschrijvingstermijn van het verworven immaterieel vast actief. 
@@ -162,7 +151,6 @@ Bovenstaande problematiek wordt door de Commissie uitvoerig behandeld in het haa
 Wanneer de variabele gedeelten van de prijs daarentegen onmiddellijk gerelateerd zijn aan opbrengsten die betrekking hebben op één enkel boekjaar, dan dienen deze variabele gedeelten van de prijs rechtstreeks ten laste van de resultatenrekening van dit boekjaar te worden gelegd.
 
 #### Immateriële vaste activa met een onbeperkte levensduur
-
 Immateriële vaste activa met een onbeperkte levensduur zijn die activa waarvan de levensduur zowel juridisch als economisch onbeperkt is. Naar mening van de Commissie zullen immateriële vaste activa slechts in uitzonderlijke omstandigheden als activa met een onbeperkte levensduur kunnen worden aangemerkt (bv. verwerving van een merk met wereldwijde bekendheid). 
 
 De Commissie is tevens van mening dat de kwalificatie van een immaterieel vast actief als actief met onbeperkte levensduur niet definitief is. Wanneer een onderneming vaststelt dat het betreffende immaterieel vast actief niet langer een onbeperkte levensduur heeft, zal de onderneming het actief alsnog moeten afschrijven over de geschatte nog resterende levensduur van het actief. 
@@ -172,7 +160,6 @@ Voor de immateriële vaste activa met onbeperkte levensduur wordt slechts tot wa
 De jaarlijkse weerkerende kosten van reclame en marketing ter ondersteuning en versterking van de immateriële vaste activa met een onbeperkte levensduur (bv. een merk) worden steeds ten laste genomen van het boekjaar waarop zij betrekking hebben en kunnen bijgevolg niet geactiveerd worden.
 
 ### Herwaarderingen
-
 De immateriële vaste activa komen niet in aanmerking voor herwaardering. 
 
 Tot vóór de inwerkingtreding van het koninklijk besluit van 12 september 1983 tot wijziging van het koninklijk besluit van 8 oktober 1976 met betrekking tot de jaarrekening van de ondernemingen[^9], hadden ondernemingen de mogelijkheid om de immateriële vaste activa te herwaarderen. Deze mogelijkheid tot herwaardering werd evenwel afgeschaft door voornoemd koninklijk besluit van 12 september 1983. Artikel 42 van het koninklijk besluit van 12 september 1983 laat echter toe dat dat de ondernemingen die meerwaarden op immateriële vaste activa hebben geboekt tijdens een boekjaar dat vooraf gaat aan het boekjaar dat ingaat na 31 december 1983, deze meerwaarden op het passief van de balans mogen behouden onder de rubriek *III herwaarderingsmeerwaarden[^10]* .
@@ -180,9 +167,7 @@ Tot vóór de inwerkingtreding van het koninklijk besluit van 12 september 1983 
 Ten slotte moet nog worden opgemerkt dat onder post III van de passiefzijde “Herwaarderingsmeerwaarden” de terugnemingen mogen worden geboekt van waardeverminderingen geboekt op immateriële vaste activa zonder beperkte gebruiksduur (art. 100 KB W.Venn.).
 
 ## Kosten van onderzoek en ontwikkeling
-
 ### Inleiding en begrippen
-
 Artikel 95, § 1, II, lid 2 KB W.Venn. bepaalt dat onder kosten van onderzoek en ontwikkeling moet worden verstaan de kosten van onderzoek, vervaardiging en ontwikkeling van prototypes en van producten, uitvindingen en knowhow, die nuttig zijn voor de ontwikkeling van de toekomstige activiteiten van de vennootschap. 
 
 Onder ‘onderzoek’ in de zin van het KB W.Venn. moet worden verstaan, de originele, systematisch uitgevoerde werkzaamheden, in de hoop inzicht te verkrijgen en nieuwe wetenschappelijke of technische kennis te verwerven.
@@ -192,9 +177,7 @@ Onder ‘onderzoek’ in de zin van het KB W.Venn. moet worden verstaan, de orig
 Het Belgische boekhoudrecht maakt voor wat de boekhoudkundige verwerking van deze categorie van de immateriële vaste activa betreft geen onderscheid tussen enerzijds kosten van onderzoek en anderzijds kosten van ontwikkeling. Dat beide begrippen in onderhavig advies afzonderlijk worden gedefinieerd, heeft dan ook slechts tot doel het toepassingsgebied van de rubriek van kosten van onderzoek en ontwikkeling duidelijk af te bakenen.
 
 ### Boekhoudkundige verwerking
-
 #### Activering van kosten van onderzoek en ontwikkeling
-
 Hierboven onder randnummer 8 werd door de Commissie op uitvoerige wijze uiteengezet aan welke cumulatieve voorwaarden moet zijn voldaan om over te gaan tot activatie van intern ontwikkelde immateriële vast activa. Ook voor kosten van onderzoek en ontwikkeling geldt dat deze worden geactiveerd wanneer de voorwaarden hiertoe zijn vervuld.
 
 De kosten van onderzoek en ontwikkeling worden evenwel slechts op het actief van de balans geboekt voor zover hun kostprijs niet hoger is dan een voorzichtige raming van hun gebruikswaarde of hun toekomstig rendement voor de onderneming (artikel 60, eerste lid KB W.Venn.)[^11]. 
@@ -204,7 +187,6 @@ Een onderneming die kosten maakt in het kader van door haar verricht onderzoek m
 Anderzijds worden de in het kader van dit onderzoek verworven materiële vaste activa (gebouwen, laboratoria, materiaal, enz.), veelal met een beperkte gebruiksduur, volgens de normale regels rechtstreeks op de desbetreffende actiefpost van de materiële vaste activa geboekt en wordt hun kostprijs ten laste genomen via afschrijvingen. 
 
 #### Afschrijving van kosten van onderzoek en ontwikkeling
-
 Geactiveerde kosten van onderzoek en ontwikkeling moeten worden afgeschreven volgens de normale regels (artikel 61, § 1, eerste en tweede lid KB W.Venn.).
 
 *Voorbeeld[^12]* 
@@ -226,7 +208,6 @@ Een onderneming maakt tijdens het boekjaar 20X0 voor 91.200 euro aan kosten van 
 | | 454 | Rijksdienst voor Sociale Zekerheid | 27.000 | |
 
 ### Einde boekjaar 20X0
-
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 210 | Kosten van O&O 20X0 | 91.200 | |
@@ -240,7 +221,6 @@ Een onderneming maakt tijdens het boekjaar 20X0 voor 91.200 euro aan kosten van 
 In jaar 20X1 zet de onderneming haar onderzoek en ontwikkeling voort en wordt voor 160.000 euro aan kosten van onderzoek en ontwikkeling gespendeerd: voor 30.000 euro leveringen aan de onderneming, voor 105.000 euro personeelskosten en voor 25.000 euro aan diensten en diverse goederen. De onderneming beslist opnieuw om deze kosten van onderzoek en ontwikkeling af te schrijven over een periode van 5 jaar[^17].
 
 ### Op het ogenblik van het onderzoek en ontwikkeling jaar 20X1
-
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 61X | Leveringen aan de onderneming | 30.000 | |
@@ -271,11 +251,9 @@ In 20X2, 20X3 en 20X4 zullen de kosten van onderzoek en ontwikkeling, gemaakt in
 Een afschrijving over meer dan vijf jaar moet in de toelichting worden verantwoord (artikel 61, § 1, vierde lid KB W.Venn.). 
 
 ### Subsidiëring
-
 Voor wat de boekhoudkundige verwerking van de subsidiëring van kosten en ontwikkeling door de overheid betreft verwijst de Commissie naar haar advies 2011/13 inzake overheidssubsidies, en meer in het bijzonder naar hoofdstuk V van het advies.
 
 ### Vermelding van de kosten van onderzoek en ontwikkeling in het jaarverslag
-
 Overeenkomstig artikel 95 van het W.Venn. moeten de bestuurders jaarlijks een verslag opstellen waarin zij rekenschap geven van hun beleid. Artikel 96 W.Venn. bepaalt dat het jaarverslag een getrouw overzicht bevat van de ontwikkeling en de resultaten van de vennootschap; alsmede een beschrijving van de voornaamste risico’s en onzekerheden waarmee de onderneming wordt geconfronteerd. De wet vermeldt hierbij uitdrukkelijk onder artikel 96, § 1, 4° W.Venn. dat het jaarverslag informatie moet bevatten omtrent de werkzaamheden van de onderneming op het gebied van onderzoek en ontwikkeling. 
 
 In verband hiermee is de vraag gerezen wat in dit verslag moet worden opgenomen met betrekking tot onderzoek en ontwikkeling. Noch de parlementaire voorbereiding van de wet van 5 december 1984 die deze bepaling heeft ingevoerd in de Vennootschapswet (huidig artikel 95 W.Venn.), noch de vierde richtlijn van de Raad betreffende de jaarrekening waarop deze bepaling rechtstreeks is geïnspireerd, bevatten enige verduidelijking ter zake. 
@@ -289,7 +267,6 @@ Aangezien deze informatieverstrekking evenwel deel uitmaakt van de verslaggeving
 De informatie die in het jaarverslag moet worden verstrekt is niet beperkt tot een commentaar bij de bedragen die in de balans zijn opgenomen onder de immateriële vaste activa als kosten van onderzoek en ontwikkeling en die afzonderlijk worden vermeld in de toelichting (zie de artikelen 91, A, II en 60, lid 2 KB W.Venn.). Onder deze posten komen immers enkel de kosten van onderzoek en ontwikkeling voor die overeenkomstig artikel 60, lid 1 KB W.Venn. aan de actiefzijde van de balans werden geboekt. 
 
 ## De concessies, octrooien, licenties, know-how, merken en andere gelijkaardige rechten
-
 Artikel 95 § 1, II, lid 3 KB W.Venn. bepaalt dat onder concessies, octrooien, licenties, merken en andere gelijkaardige rechten, moet worden verstaan enerzijds de octrooien, licenties, knowhow, merken en andere gelijkaardige rechten waarvan de onderneming eigenaar is, en anderzijds de rechten tot exploitatie van onroerende goederen, octrooien, licenties, merken en andere gelijkaardige rechten die eigendom zijn van derden, evenals de aanschaffingswaarde van het recht van de onderneming om van derden dienstverleningen van knowhow te verkrijgen, wanneer die rechten door de vennootschap ten bezwarende titel werden verkregen.
 
 Wanneer de concessies, octrooien, licenties, know-how, merken en de andere gelijkaardige rechten intern worden ontwikkeld en geproduceerd, dan worden zij op dezelfde wijze geactiveerd onder de immateriële vaste activa als bij kosten van onderzoek en ontwikkeling. 
@@ -299,13 +276,10 @@ Wanneer de concessies, octrooien, licenties, know-how, merken en de andere gelij
 Wanneer voornoemde activa tenslotte ten titel van inbreng aan het actief van de onderneming worden toegevoegd dan wordt de verwerving van het actief tegengeboekt door creditering van de balanspost Kapitaal.
 
 ## Goodwill
-
 ### Inleiding en begrippen
-
 Artikel 95, § 1, II, lid 4 KB W.Venn. bepaalt dat onder goodwill moet worden verstaan, de prijs die wordt betaald voor de verwerving van een onderneming of van een bedrijfsafdeling voor zover die hoger is dan de netto-waarde van de actief minus passiefbestanddelen van de verworven onderneming of branche. 
 
 ### Afschrijvingen op goodwill
-
 Goodwill moet worden afgeschreven volgens een overeenkomstig artikel 28, § 1 KB W.Venn. opgesteld plan (art. 61, § 1, lid 1 KB. W.Venn.). Wanneer goodwill in uitzonderlijke gevallen zou worden afgeschreven over een periode van meer dan vijf jaar, dan moet de betrokken onderneming dit in de toelichting bij de jaarrekening verantwoorden (art. 61, § 1, lid 4 KB W.Venn.). 
 
 Wanneer de prijs bij overname van een onderneming of een bedrijfsafdeling afhangt van de toekomstige omzet van deze bedrijfsafdeling zal elk van de tranches van de prijs worden afgeschreven over de resterende afschrijvingstermijn van de verworven goodwill (zie* supra* onder hfdst. I.B.2.2.). 

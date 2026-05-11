@@ -2,65 +2,55 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/openbaarmaking-van-de-jaarrekening-van-vennootschappen-die-niet-aan-het-kb-van-8-oktober
 datum: 1978-12-01
 gerelateerde_adviezen:
-- datum: '2024-11-14'
-  titel: Verslaggeving bij de heropening van de vereffening van (i)vzw’s die een dubbele
-    boekhouding voeren
-  url: https://www.cbn-cnc.be/nl/adviezen/verslaggeving-bij-de-heropening-van-de-vereffening-van-ivzws-die-een-dubbele-boekhouding
-- datum: '2024-11-13'
-  titel: Verslaggeving bij de heropening van de vereffening van de vennootschappen
-  url: https://www.cbn-cnc.be/nl/adviezen/verslaggeving-bij-de-heropening-van-de-vereffening-van-de-vennootschappen
-- datum: '2024-06-10'
-  titel: Openbaarmakingsverplichtingen in hoofde van de vennootschap onder firma en
-    de commanditaire vennootschap bij onmiddellijke sluiting van de vereffening
-  url: https://www.cbn-cnc.be/nl/adviezen/openbaarmakingsverplichtingen-in-hoofde-van-de-vennootschap-onder-firma-en-de
-- datum: '2024-02-08'
-  titel: 'Belgische bijkantoren van buitenlandse verenigingen en stichtingen: toepassing
-    van het Belgisch boekhoudrecht – begrip ‘bijkantoor’ – publicatieplicht – eigen
-    boekhoudkundige verplichtingen'
-  url: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-buitenlandse-verenigingen-en-stichtingen-toepassing-van-het-0
+  - datum: '2024-11-14'
+    titel: Verslaggeving bij de heropening van de vereffening van (i)vzw’s die een dubbele boekhouding voeren
+    url: https://www.cbn-cnc.be/nl/adviezen/verslaggeving-bij-de-heropening-van-de-vereffening-van-ivzws-die-een-dubbele-boekhouding
+  - datum: '2024-11-13'
+    titel: Verslaggeving bij de heropening van de vereffening van de vennootschappen
+    url: https://www.cbn-cnc.be/nl/adviezen/verslaggeving-bij-de-heropening-van-de-vereffening-van-de-vennootschappen
+  - datum: '2024-06-10'
+    titel: Openbaarmakingsverplichtingen in hoofde van de vennootschap onder firma en de commanditaire vennootschap bij onmiddellijke sluiting van de vereffening
+    url: https://www.cbn-cnc.be/nl/adviezen/openbaarmakingsverplichtingen-in-hoofde-van-de-vennootschap-onder-firma-en-de
+  - datum: '2024-02-08'
+    titel: 'Belgische bijkantoren van buitenlandse verenigingen en stichtingen: toepassing van het Belgisch boekhoudrecht – begrip ‘bijkantoor’ – publicatieplicht – eigen boekhoudkundige verplichtingen'
+    url: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-buitenlandse-verenigingen-en-stichtingen-toepassing-van-het-0
 nummer: CBN-advies 110/3
 provenance:
-  generated_at: '2026-05-11T15:15:31Z'
+  generated_at: '2026-05-11T17:48:38Z'
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/openbaarmaking-van-de-jaarrekening-van-vennootschappen-die-niet-aan-het-kb-van-8-oktober
-    sha256: 04c3efcf26b53359a937e4cc47321b07d2c2efb6885af5bc79b805678053142c
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/openbaarmaking-van-de-jaarrekening-van-vennootschappen-die-niet-aan-het-kb-van-8-oktober
+      sha256: 04c3efcf26b53359a937e4cc47321b07d2c2efb6885af5bc79b805678053142c
+      version:
   stale: false
-  stale_reason: null
+  stale_reason:
   tooling:
-    model: null
+    model:
     pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    prompt_version: null
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
     confirmed_at: '2026-05-11T11:57:45Z'
     confirmed_by: subagent-sonnet-4-6
     layer1:
-      file_size_chars: 4598
-      flags: []
+      status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:40Z'
       heading_count: 0
       max_section_chars: 4598
-      run_at: '2026-05-11T15:05:48Z'
-      run_id: 20260511-150547
-      status: pass
+      file_size_chars: 4598
+      flags: []
     layer2:
       agent: subagent-sonnet-4-6
       concrete_problemen: []
-      rationale: Advies in vraag-antwoord formaat (parlementaire vraag + Ministerantwoord).
-        Geen headings — correct voor dit formaat. Twee voetnoten aanwezig en gedefineerd.
-        Geen artefacten, geen spurious breaks. Cursivering van 'Antwoord van de Minister
-        van Economische Zaken' op regel 71 correct als aanduiding van het citaat-kader.
+      rationale: Advies in vraag-antwoord formaat (parlementaire vraag + Ministerantwoord). Geen headings — correct voor dit formaat. Twee voetnoten aanwezig en gedefineerd. Geen artefacten, geen spurious breaks. Cursivering van 'Antwoord van de Minister van Economische Zaken' op regel 71 correct als aanduiding van het citaat-kader.
       run_at: '2026-05-11T11:57:45Z'
       status: trusted
-    rationale: Advies in vraag-antwoord formaat (parlementaire vraag + Ministerantwoord).
-      Geen headings — correct voor dit formaat. Twee voetnoten aanwezig en gedefineerd.
-      Geen artefacten, geen spurious breaks. Cursivering van 'Antwoord van de Minister
-      van Economische Zaken' op regel 71 correct als aanduiding van het citaat-kader.
+    rationale: Advies in vraag-antwoord formaat (parlementaire vraag + Ministerantwoord). Geen headings — correct voor dit formaat. Twee voetnoten aanwezig en gedefineerd. Geen artefacten, geen spurious breaks. Cursivering van 'Antwoord van de Minister van Economische Zaken' op regel 71 correct als aanduiding van het citaat-kader.
     status: trusted
 themas:
-- openbaarmaking
-- publicatie
-- toelichting
+  - openbaarmaking
+  - publicatie
+  - toelichting
 ---
 
 # CBN-advies 110/3 - Openbaarmaking van de jaarrekening van vennootschappen die niet aan het K.B. van 8 oktober 1976 onderworpen zijn

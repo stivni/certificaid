@@ -7,53 +7,53 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/actuarieel-rendement-op-vastrentende-effecten-aanpassing-van-de-adviezen-1375-en-1484
 nummer: CBN-advies 148/4
 provenance:
+  generated_at: '2026-05-11T17:48:38Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/boeking-van-de-prorata-van-gelopen-interest-op-obligaties-en-kasbons
       sha256: 271cb09439663de1bf18f686e3ae538c62fcc7f80f360d78bad5764e2d849ceb
       version:
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
-    status: needs-rework
     confirmed_at: '2026-05-11T17:05:21Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "Vier ETL-bugs ongewijzigd t.o.v. ronde 2: E2 (regel 234) 'aan' als losse cel breekt tabelstructuur; A9 (regel 280) 'Kreditinstellingen' i.p.v. 'Kredietinstellingen'; D3 (regels 292-294) voetnoten [^3] en [^4] zonder inline-referentie in body; B1 (regel 189) heading bevat enkel datum en bedrag zonder omschrijving."
     layer1:
-      file_size_chars: 11425
-      flags: []
-      heading_count: 4
-      max_section_chars: 7390
-      run_at: '2026-05-11T15:05:49Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:41Z'
+      heading_count: 5
+      max_section_chars: 4644
+      file_size_chars: 11414
+      flags: []
     layer2:
-      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T17:05:21Z'
-      rationale: "Vier ETL-bugs ongewijzigd t.o.v. ronde 2: E2 (regel 234) 'aan' als losse cel breekt tabelstructuur; A9 (regel 280) 'Kreditinstellingen' i.p.v. 'Kredietinstellingen'; D3 (regels 292-294) voetnoten [^3] en [^4] zonder inline-referentie in body; B1 (regel 189) heading bevat enkel datum en bedrag zonder omschrijving."
       concrete_problemen:
-        - regel: 234
-          categorie: E2
+        - categorie: E2
+          regel: 234
           type: other
           voorbeeld: '| aan | | 52 | Vastrentende effecten | 1.000.000 |'
-        - regel: 280
-          categorie: A9
+        - categorie: A9
+          regel: 280
           type: ocr-confusion
           voorbeeld: '| | 55 | Kreditinstellingen | 1.351.975 | |'
-        - regel: 292
-          categorie: D3
+        - categorie: D3
+          regel: 292
           type: other
           voorbeeld: '[^3]: Roerende voorheffing van 25 %.  (geen inline-referentie in body)'
-        - regel: 189
-          categorie: B1
+        - categorie: B1
+          regel: 189
           type: other
           voorbeeld: '## 31.12.1987 : 80 000'
+      rationale: 'Vier ETL-bugs ongewijzigd t.o.v. ronde 2: E2 (regel 234) ''aan'' als losse cel breekt tabelstructuur; A9 (regel 280) ''Kreditinstellingen'' i.p.v. ''Kredietinstellingen''; D3 (regels 292-294) voetnoten [^3] en [^4] zonder inline-referentie in body; B1 (regel 189) heading bevat enkel datum en bedrag zonder omschrijving.'
+      run_at: '2026-05-11T17:05:21Z'
+      status: needs-rework
+    rationale: 'Vier ETL-bugs ongewijzigd t.o.v. ronde 2: E2 (regel 234) ''aan'' als losse cel breekt tabelstructuur; A9 (regel 280) ''Kreditinstellingen'' i.p.v. ''Kredietinstellingen''; D3 (regels 292-294) voetnoten [^3] en [^4] zonder inline-referentie in body; B1 (regel 189) heading bevat enkel datum en bedrag zonder omschrijving.'
+    status: needs-rework
 themas:
   - kapitalisatiebon
   - kasbon
@@ -71,13 +71,11 @@ themas:
 ---
 
 # CBN advies 148-4 - Boeking van de prorata van gelopen interest op obligaties en kasbons
-
 Krachtens de boekhoudwetgeving moeten de kosten en opbrengsten steeds worden toegerekend aan het boekjaar waarop zij betrekking hebben. Artikel 19, vierde lid van het koninklijk besluit van 8 oktober 1976 bepaalt immers dat "er rekening moet worden gehouden met de kosten en de opbrengsten die betrekking hebben op het boekjaar of op voorgaande boekjaren, ongeacht de dag waarop deze kosten en opbrengsten worden betaald of geïnd, ...". 
 
 Dit beginsel krijgt in het algemeen rekeningenstelsel gestalte met volgende overlopende rekeningen : 
 
 ## 490 Over te dragen kosten
-
 491 Verkregen opbrengsten 
 
 492 Toe te rekenen kosten 
@@ -137,8 +135,7 @@ Overdracht/verwerving van obligaties met een nominale waarde van 1 000 000, met 
 | | 751 | Opbrengsten uit vlottende activa | 40.000 | |
 | | 752 | Meerwaarden op de realisatie van vlottende activa | 20.000 | |
 
-**Voor de koper** 
-
+## Voor de koper
 1. Bij de verwerving (30.09.1990)
 
 | | Rekening | Omschrijving | Debet | Credit |
@@ -187,7 +184,6 @@ Hypothese : Een kapitalisatiebon wordt uitgegeven en er wordt aanvankelijk op in
 Op grond hiervan wordt de prorata van de gekapitaliseerde rente op :
 
 ## 31.12.1987 : 80 000
-
 31.12.1988 : 166 400 
 
 1.12.1989 : 259 700 
@@ -199,7 +195,6 @@ Op grond hiervan wordt de prorata van de gekapitaliseerde rente op :
 De kapitalisatiebon wordt op 31 december 1989 aan een andere vennootschap overgedragen voor een totaalprijs van 1 205 000 F. 
 
 ## BOEKINGEN BIJ DE OORSPRONKELIJKE INSCHRIJVER
-
 1. Bij de verwerving 
 
 | | Rekening | Omschrijving | Debet | Credit |
@@ -236,7 +231,6 @@ De kapitalisatiebon wordt op 31 december 1989 aan een andere vennootschap overge
 | | 752 | Meerwaarden op de realisatie van vlottende activa | 10.225 | |
 
 ## BOEKINGEN BIJ DE KOPER
-
 1. Bij de verwerving :
 
 | | Rekening | Omschrijving | Debet | Credit |

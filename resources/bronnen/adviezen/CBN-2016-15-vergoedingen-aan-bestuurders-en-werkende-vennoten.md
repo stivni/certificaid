@@ -3,49 +3,49 @@ bron: https://www.cbn-cnc.be/nl/adviezen/vergoedingen-aan-bestuurders-en-werkend
 datum: 2016-09-07
 nummer: CBN-advies 2016/15
 provenance:
+  generated_at: '2026-05-11T17:48:39Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/vergoedingen-aan-bestuurders-en-werkende-vennoten
       sha256: 286a7bf84cdb376aac13f0f8a43abd19fb274ead9a2b49c4902b4536eec9f532
       version:
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
-    status: needs-rework
     confirmed_at: '2026-05-11T17:09:39Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: 'E2: regels 128–130 bevatten een multiline tabelcel voor rekeningomschrijving 618 met tab-inspringing — breekt pipe-tabel-rendering. D4: regel 79 `diensten en diverse goederen[^7]* .` heeft een spatie vóór de afsluitende `*` in inline italic — broken italic-markering. B5: regel 74 bevat `618 Bezoldigingen, premies...` als plain-text-paragraaf zonder `##`/`###` prefix — sectielabel dat een heading hoort te zijn.'
     layer1:
-      file_size_chars: 17653
-      flags: []
-      heading_count: 11
-      max_section_chars: 8256
-      run_at: '2026-05-11T15:05:52Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:43Z'
+      heading_count: 11
+      max_section_chars: 8251
+      file_size_chars: 17642
+      flags: []
     layer2:
-      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T17:09:39Z'
-      rationale: 'E2: regels 128–130 bevatten een multiline tabelcel voor rekeningomschrijving 618 met tab-inspringing — breekt pipe-tabel-rendering. D4: regel 79 `diensten en diverse goederen[^7]* .` heeft een spatie vóór de afsluitende `*` in inline italic — broken italic-markering. B5: regel 74 bevat `618 Bezoldigingen, premies...` als plain-text-paragraaf zonder `##`/`###` prefix — sectielabel dat een heading hoort te zijn.'
       concrete_problemen:
-        - regel: 128
-          categorie: E2
+        - categorie: E2
+          regel: 128
           type: other
           voorbeeld: '| | 618 | Bezoldigingen, premies voor buitenwettelijke \n\t\t\t\tverzekeringen... (multiline tabelcel)'
-        - regel: 79
-          categorie: D4
+        - categorie: D4
+          regel: 79
           type: other
           voorbeeld: diensten en diverse goederen[^7]* . (spatie vóór afsluitende asterisk in italic)
-        - regel: 74
-          categorie: B5
+        - categorie: B5
+          regel: 74
           type: other
           voorbeeld: '618 Bezoldigingen, premies voor buitenwettelijke verzekeringen... (plain text zonder ## prefix)'
+      rationale: 'E2: regels 128–130 bevatten een multiline tabelcel voor rekeningomschrijving 618 met tab-inspringing — breekt pipe-tabel-rendering. D4: regel 79 `diensten en diverse goederen[^7]* .` heeft een spatie vóór de afsluitende `*` in inline italic — broken italic-markering. B5: regel 74 bevat `618 Bezoldigingen, premies...` als plain-text-paragraaf zonder `##`/`###` prefix — sectielabel dat een heading hoort te zijn.'
+      run_at: '2026-05-11T17:09:39Z'
+      status: needs-rework
+    rationale: 'E2: regels 128–130 bevatten een multiline tabelcel voor rekeningomschrijving 618 met tab-inspringing — breekt pipe-tabel-rendering. D4: regel 79 `diensten en diverse goederen[^7]* .` heeft een spatie vóór de afsluitende `*` in inline italic — broken italic-markering. B5: regel 74 bevat `618 Bezoldigingen, premies...` als plain-text-paragraaf zonder `##`/`###` prefix — sectielabel dat een heading hoort te zijn.'
+    status: needs-rework
 themas:
   - arbeidsovereenkomst
   - bestuurder
@@ -60,7 +60,6 @@ themas:
 # CBN-advies 2016/15 – Vergoedingen aan bestuurders en werkende vennoten
 
 ## Algemeen
-
 In onderhavig advies wordt de boekhoudkundige verwerking behandeld van de vergoedingen ontvangen door een bestuurder, zaakvoerder of werkend vennoot. 
 
 Hoewel de functie van vennootschapsbestuurder niet in het kader van een arbeidsovereenkomst kan worden uitgeoefend staat het de bestuurder niettemin vrij[^2] een arbeidsovereenkomst met de vennootschap aan te gaan mits twee cumulatieve voorwaarden zijn voldaan. Ten eerste is vereist dat hij naast zijn functie als bestuurder nog een andere functie in de vennootschap uitoefent die activiteiten behelst die duidelijk onderscheiden zijn van de bestuursfunctie. De arbeidsovereenkomst wordt dan voor die activiteiten aangegaan en dus niet voor de bestuursactiviteiten. Ten tweede dient hij onder gezag te staan voor de taken waarvoor de arbeidsovereenkomst is aangegaan.[^3]
@@ -70,7 +69,6 @@ In het Wetboek van vennootschappen (hierna: W.Venn.) wordt expliciet de mogelijk
  Dit neemt echter niet weg dat bepaalde wettelijke bepalingen kunnen verhinderen dat een bestuurdersmandaat wordt uitgeoefend door een rechtspersoon of dat bezoldigingen worden uitbetaald via zogenaamde managementvennootschappen.[^5] 
 
 ## Boekhoudkundige verwerking
-
 618 Bezoldigingen, premies voor buitenwettelijke verzekeringen, ouderdoms- en overlevingspensioenen van bestuurders, zaakvoerders en werkende vennoten, die niet worden toegekend uit hoofde van een arbeidsovereenkomst
 De post 618[^6] *Bezoldigingen, premies voor buitenwettelijke verzekeringen, ouderdoms- en overlevingspensioenen van bestuurders, zaakvoerders en werkende vennoten, die niet worden toegekend uit hoofde van een arbeidsovereenkomst* omvat de rechtstreekse en onrechtstreekse bezoldigingen en pensioenen van bestuurders, zaakvoerders en werkende vennoten, die niet worden toegekend uit hoofde van een arbeidsovereenkomst.
 
@@ -83,7 +81,6 @@ Deze boekhoudkundige verwerking is van toepassing ongeacht het mandaat van bestu
 Voormelde regels zijn op overeenkomstige wijze van toepassing op grote verenigingen en stichtingen. Het KB van 19 december 2003 betreffende de boekhoudkundige verplichtingen en de openbaarmaking van de jaarrekening van bepaalde verenigingen zonder winstoogmerk, internationale verenigingen zonder winstoogmerk en stichtingen voorziet voor het gebruik van de rekening 618 *Bezoldigingen, premies voor buitenwettelijke verzekeringen, ouderdoms- en overlevingspensioenen van bestuurders, zaakvoerders en werkende vennoten, die niet worden toegekend uit hoofde van een arbeidsovereenkomst* immers niet in een afwijkende regeling.
 
 ### 6201 Directiepersoneel
-
 De vergoedingen die een bestuurder, zaakvoerder of werkend vennoot ontvangt ingevolge de arbeidsovereenkomst die werd afgesloten met de vennootschap, worden in principe geboekt op de rekening 6201[^8] *Directiepersoneel*. 
 
 Op de rekening 6201 *Directiepersoneel* worden de bezoldigingen geboekt van de werknemers met een arbeidsovereenkomst die voldoen aan de beschrijving van leidinggevende zoals bedoeld in artikel 4, 4° van de wet van 4 december 2007 betreffende de sociale verkiezingen. Deze wet definieert leidinggevenden als “de personen belast met het dagelijks bestuur van de onderneming, die gemachtigd zijn om de werkgever te vertegenwoordigen en te verbinden, alsmede de personeelsleden, onmiddellijk ondergeschikt aan die personen, wanneer zij eveneens opdrachten van dagelijks bestuur vervullen”. Deze verwijzing naar de wet van 4 december 2007 betreffende de sociale verkiezingen strekt er uitsluitend toe te verduidelijken welke kosten op de rekening 6201 *Directiepersoneel* worden geboekt. De Commissie merkt op dat het gebruik van de rekening 6201 *Directiepersoneel* geldt ongeacht de vennootschap sociale verkiezingen organiseert of moet organiseren ingevolge deze wet.
@@ -93,7 +90,6 @@ Een rechtspersoon kan nooit verbonden zijn aan een andere rechtspersoon door een
 Voormelde regels zijn op overeenkomstige wijze van toepassing op grote verenigingen en stichtingen. Het KB van 19 december 2003 betreffende de boekhoudkundige verplichtingen en de openbaarmaking van de jaarrekening van bepaalde verenigingen zonder winstoogmerk, internationale verenigingen zonder winstoogmerk en stichtingen voorziet voor het gebruik van de rekening 6201 *Directiepersoneel* immers niet in een afwijkende regeling.
 
 ### 695 Bestuurders of zaakvoerders
-
 De rekening 695 *Bestuurders of zaakvoerders* wordt gebruikt voor vergoedingen toegekend aan bestuurders of zaakvoerders bij wijze van verdeling van de winst. Dergelijke toekenningen worden door het W.Venn. in het kader van het behoud van het kapitaal begrensd tot de uitkeerbare winsten.[^9]
  Vergoedingen die aan de leden van het bestuursorgaan worden uitgekeerd in functie van de nettowinst worden ook tantièmes genoemd.[^10] ,[^11] 
 
@@ -105,13 +101,11 @@ De rekening 695 *Bestuurders of zaakvoerders* wordt gebruikt ongeacht of de verg
 In het KB van 19 december 2003 betreffende de boekhoudkundige verplichtingen en de openbaarmaking van de jaarrekening van bepaalde verenigingen zonder winstoogmerk, internationale verenigingen zonder winstoogmerk en stichtingen is de rekening 695 *Bestuurders of zaakvoerders* niet opgenomen. Het toekennen van een aandeel in de winst aan een bestuurder van een vereniging zonder winstoogmerk of een stichting strookt immers niet met de eigenheid van een dergelijke entiteit.
 
 ### Vermeldingen in de toelichting
-
 In de toelichting van het volledig schema van de jaarrekening moet het bedrag van de rechtstreekse en de onrechtstreekse bezoldigingen aan de bestuurders en zaakvoerders worden opgenomen voor zover deze vermelding niet uitsluitend of hoofdzakelijk betrekking heeft op de toestand van een enkel identificeerbaar persoon.[^14] 
 
 Voormelde regels zijn op overeenkomstige wijze van toepassing voor wat betreft de bestuurders van een grote vereniging of stichting.[^15] 
 
 ## Voorbeeld
-
 Een naamloze vennootschap wordt bestuurd door twee natuurlijke personen en een rechtspersoon.
 
 Aan een bestuurdersmandaat is een jaarlijkse vergoeding verbonden van 2.000 euro exclusief btw.[^16]
@@ -120,9 +114,7 @@ Aan een bestuurdersmandaat is een jaarlijkse vergoeding verbonden van 2.000 euro
 Bij de resultaatsbestemming wordt aan ieder van de bestuurders nog een tantième toegekend van 2.500 euro exclusief btw. 
 
 ### Boekingen bij de toekennende vennootschap
-
 ## Boekingen tijdens het boekjaar
-
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 618 | Bezoldigingen, premies voor buitenwettelijke 
@@ -142,14 +134,12 @@ Bij de resultaatsbestemming wordt aan ieder van de bestuurders nog een tantième
 | | 455 | Bezoldigingen | 32.367 | |
 
 ## Boekingen bij de resultaatververwerking
-
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 695 | Bestuurders of zaakvoerders | 7.500 | |
 | aan | 472 | Tantièmes over het boekjaar | | 7.500 |
 
 ## Boekingen bij de algemene vergadering – ontvangst factuur - Uitbetaling tantième (volgend boekjaar)
-
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 472 | Tantièmes over het boekjaar | 7.500 | |
@@ -159,7 +149,6 @@ Bij de resultaatsbestemming wordt aan ieder van de bestuurders nog een tantième
 
 Boeking van de tantième bij de ontvangende bestuurder-rechtspersoon indien deze een dubbele boekhouding voert
 ## Boekingen bij de toekenning (in principe tijdens algemene vergadering) (uitreiken factuur)
-
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 416 | Diverse vorderingen | 3.025 | |

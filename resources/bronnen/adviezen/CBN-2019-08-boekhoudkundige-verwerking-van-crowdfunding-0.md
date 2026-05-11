@@ -3,49 +3,49 @@ bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-crowdfun
 datum: 2019-07-31
 nummer: CBN-advies 2019/08
 provenance:
+  generated_at: '2026-05-11T17:48:39Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-crowdfunding-0
       sha256: 0619330477c4da91affa08f9ceff354dc4e9271cd86cf439ef6f1cc76ec4454e
       version:
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T15:15:32Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
-    status: needs-rework
     confirmed_at: '2026-05-11T17:13:30Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: 'B2: `## In hoofde van de begunstigde (artiest)` op regel 409 staat op ##-niveau terwijl alle omliggende sub-items van Voorbeeld 2 plain-text zijn — inconsistente hiërarchie. E2: tabelcel op regel 500 is afgekapt: `Kredietinstellingen – Rekening-couran` (ontbrekende `t`). A5: H1-titel regel 61 mist spatie na em-dash: `2019/08 –Boekhoudkundige`.'
     layer1:
-      file_size_chars: 30428
-      flags: []
-      heading_count: 19
-      max_section_chars: 19981
-      run_at: '2026-05-11T15:05:53Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:44Z'
+      heading_count: 24
+      max_section_chars: 9167
+      file_size_chars: 30388
+      flags: []
     layer2:
-      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T17:13:30Z'
-      rationale: 'B2: `## In hoofde van de begunstigde (artiest)` op regel 409 staat op ##-niveau terwijl alle omliggende sub-items van Voorbeeld 2 plain-text zijn — inconsistente hiërarchie. E2: tabelcel op regel 500 is afgekapt: `Kredietinstellingen – Rekening-couran` (ontbrekende `t`). A5: H1-titel regel 61 mist spatie na em-dash: `2019/08 –Boekhoudkundige`.'
       concrete_problemen:
-        - regel: 61
-          categorie: A5
+        - categorie: A5
+          regel: 61
           type: other
           voorbeeld: '# CBN-advies 2019/08 –Boekhoudkundige verwerking van crowdfunding'
-        - regel: 409
-          categorie: B2
+        - categorie: B2
+          regel: 409
           type: other
           voorbeeld: '## In hoofde van de begunstigde (artiest)'
-        - regel: 500
-          categorie: E2
+        - categorie: E2
+          regel: 500
           type: abrupt-cutoff
           voorbeeld: '| | 5500 | Kredietinstellingen – Rekening-couran | 7.000 | |'
+      rationale: 'B2: `## In hoofde van de begunstigde (artiest)` op regel 409 staat op ##-niveau terwijl alle omliggende sub-items van Voorbeeld 2 plain-text zijn — inconsistente hiërarchie. E2: tabelcel op regel 500 is afgekapt: `Kredietinstellingen – Rekening-couran` (ontbrekende `t`). A5: H1-titel regel 61 mist spatie na em-dash: `2019/08 –Boekhoudkundige`.'
+      run_at: '2026-05-11T17:13:30Z'
+      status: needs-rework
+    rationale: 'B2: `## In hoofde van de begunstigde (artiest)` op regel 409 staat op ##-niveau terwijl alle omliggende sub-items van Voorbeeld 2 plain-text zijn — inconsistente hiërarchie. E2: tabelcel op regel 500 is afgekapt: `Kredietinstellingen – Rekening-couran` (ontbrekende `t`). A5: H1-titel regel 61 mist spatie na em-dash: `2019/08 –Boekhoudkundige`.'
+    status: needs-rework
 themas:
   - crowdfunding
   - publieksfinanciering
@@ -61,7 +61,6 @@ themas:
 # CBN-advies 2019/08 –Boekhoudkundige verwerking van crowdfunding
 
 ## Inleiding
-
 Crowdfunding[^2] (ook wel “publieksfinanciering” of “participatieve financiering” genoemd) bestaat erin een beroep te doen op het grote publiek (een investeerdersgemeenschap), via een interactieve website (een platform)[^3] en het gebruik van sociale media, teneinde (1) gelden in te zamelen voor de financiering van specifieke projecten rond filantropie, kunst of cultuur, in het kader van een vereniging[^4] of een onderneming[^5], (2) startende ondernemingen te financieren of (3) bij te dragen tot het ontwikkelen van innovaties of groeiende ondernemingen[^6].
 
 Er kunnen verschillende soorten crowdfunding worden onderscheiden: donatie, lening en investering.
@@ -76,14 +75,11 @@ Indien het streefdoel van de financiering niet wordt bereikt (dit is het minimum
 
 Bovendien is de onderneming het platform in dat geval geen commissie (gelijk aan een percentage van het geïnvesteerde bedrag) verschuldigd. In regel is deze commissie slechts verschuldigd indien het minimumbedrag van de financiering bereikt wordt.
 
-## De verschillende types crowdfunding en de boekhoudkundige verwerking ervan[^9]
-
+## De verschillende types crowdfunding en de boekhoudkundige verwerking ervan
 ### Donatie
-
 Historisch gezien vertegenwoordigt donatie de eerste vorm van crowdfunding. Het kan gaan om een zuivere gift, zonder tegenprestatie. De meest voorkomende vorm is echter de donatie met een niet-financiële tegenprestatie. 
 
 #### Donatie zonder tegenprestatie – Donation-based crowdfunding
-
 Een zuivere donatie is een financiering waarvoor geen tegenprestatie wordt ontvangen, dan wel een geringe of symbolische tegenprestatie, of een tegenprestatie zonder verband met het gegeven bedrag, zoals reclame of imago (sponsoring). Deze vorm van crowdfunding kan als "crowd sponsoring" worden aangeduid. De donaties dienen als volgt te worden geboekt:
 
 In hoofde van de begunstigde
@@ -101,7 +97,6 @@ In hoofde van de investeerder
 | aan | 5500 | Kredietinstellingen – Rekening-courant | | 10.000 |
 
 #### Donatie met tegenprestatie – Reward-based/Pre-sales crowdfunding
-
 Bij dit type financiering bestaat de tegenprestatie dikwijls uit een product of dienst die werd of zal worden ontwikkeld dankzij de opgehaalde gelden. Ondernemers hebben op die manier de mogelijkheid om hun product te voorfinancieren door het te verkopen vooraleer het op de markt wordt gebracht. 
 
 Hetzelfde principe kan worden toegepast in de artistieke en culturele sector, waar de investeerder als tegenprestatie plaatsen voor voorstellingen ontvangt, of een exemplaar van het gerealiseerde kunstwerk[^10]. 
@@ -165,7 +160,6 @@ In hoofde van de investeerder/koper
 | aan | 490 | Over te dragen kosten | | 10.000 |
 
 ### Financiële lening – Lending-based crowdfunding
-
 Crowd lending is een alternatief voor bankfinanciering. Met deze vorm van crowdfunding worden investeerders uitgenodigd om een geldsom uit te lenen aan een onderneming of een particulier. Hierbij wordt een leningsovereenkomst opgesteld (al dan niet vergoed door interest), meestal volgens hetzelfde model voor alle investeerders[^11]. 
 
 Over het algemeen wordt een crowdfundingcampagne gecoördineerd door een platform: van de inzameling van geld tot de (eventuele) betaling van de interesten en de terugbetaling van het geleende kapitaal (door tussenkomst van een financiële instelling)[^12]. 
@@ -219,9 +213,7 @@ In hoofde van de investeerder
 | | 759 | Andere financiële opbrengsten | 100 | |
 
 ### Financiële belegging
-
 #### Invoice trading
-
 Het gaat hier om verrichtingen waarbij investeerders handelsvorderingen kopen van een onderneming die haar liquide middelen wil verhogen. Dit is een vorm van factoring waarbij een onderneming een deel of het geheel van haar handelsvorderingen aan investeerders (factor) afstaat. Deze vordering is een individueel effect (met name wat betreft de debiteur en het bedrag) en niet gestandaardiseerd.
 
 Er valt op te merken dat, in tegenstelling tot wat er gebeurt bij een klassiek factoringcontract, de factor geen enkele mogelijkheid heeft om de factuur terug te sturen naar de begunstigde onderneming in geval van niet-betaling door de debiteur.
@@ -249,7 +241,6 @@ In hoofde van de begunstigde
 Voor het overige wordt er verwezen naar CBN-advies 2011/23 betreffende de boekhoudkundige verwerking van factoringovereenkomsten[^13].
 
 #### Profit-sharing-based crowdfunding / Royalty crowdfunding
-
 De Commissie is van oordeel dat via dit type financiering de investeerder tegen de betaling van een bepaalde prijs, de investeerder een onlichamelijk roerend goed kan verwerven. De opbrengst van dat onlichamelijk roerend goed bestaat uit een deel van de toekomstige winst die het gefinancierde project zal opleveren. Deze vorm van crowdfunding wordt over het algemeen gebruikt bij artistieke projecten. De artiest draagt dan de vermogensrechten op het gefinancierde kunstwerk over aan de investeerders.
 
 De Commissie wenst te benadrukken dat de boekhoudkundige verwerking in hoofde van de investeerder afhankelijk is van de specifieke aard van het project (of het nu gaat om een artistiek- of een bedrijfsproject). De betaalde bedragen zullen voor artistieke werken op rekening 21 *Immateriële vaste activa* worden geboekt en voor bedrijfsprojecten op rekening 28 *Financiële vaste activa*.
@@ -259,9 +250,7 @@ Er valt op te merken dat de *Immateriële vaste activa[^14]*  het voorwerp uitma
 De ontvangen bedragen worden in hoofde van de begunstigde aan de passiefzijde geboekt op rekening *11 Inbreng buiten kapitaal*[^16], ongeacht de aard van het project.
 
 ## Voorbeeld 1 (contract waarin de overdracht van vermogensrechten geregeld wordt voor 5 jaar)
-
-**2019-2023**
-
+## 2019-2023
 1. Betaling van de prijs
 
 In hoofde van de begunstigde (artiest)
@@ -304,9 +293,7 @@ In hoofde van de investeerder
 | aan | 2109 | Immateriële vaste activa – Geboekte afschrijvingen | | 2.000 |
 
 ## Voorbeeld 2 (contract waarin de overdracht van vermogensrechten geregeld wordt voor onbepaalde duur)
-
-**2019**
-
+## 2019
 1. Betaling van de prijs
 
 In hoofde van de begunstigde (artiest)
@@ -348,8 +335,7 @@ In hoofde van de investeerder
 | | 6301 | Afschrijvingen op immateriële vaste activa | 2.000 | |
 | aan | 2109 | Immateriële vaste activa – Geboekte afschrijvingen | | 2.000 |
 
-**2020**
-
+## 2020
 1. Betaling van de opbrengst gecreëerd door het werk
 
 In hoofde van de begunstigde (artiest)
@@ -375,8 +361,7 @@ In hoofde van de investeerder
 | | 6301 | Afschrijvingen op immateriële vaste activa | 2.000 | |
 | aan | 2109 | Immateriële vaste activa – Geboekte afschrijvingen | | 2.000 |
 
-**2021**
-
+## 2021
 1. Betaling van de opbrengst gecreëerd door het werk
 
 In hoofde van de begunstigde (artiest)
@@ -402,12 +387,10 @@ In hoofde van de investeerder
 | | 6301 | Afschrijvingen op immateriële vaste activa | 2.000 | |
 | aan | 2109 | Immateriële vaste activa – Geboekte afschrijvingen | | 2.000 |
 
-**2022**
-
+## 2022
 1. Betaling van de opbrengst gecreëerd door het werk
 
 ## In hoofde van de begunstigde (artiest)
-
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 61 | Diensten en diverse goederen | 1.500 | |
@@ -430,7 +413,6 @@ In hoofde van de investeerder
 | aan | 2109 | Immateriële vaste activa – Geboekte afschrijvingen | | 2.000 |
 
 ### Investment crowdfunding (Equity-based / Security-based crowdfunding)
-
 Hiermee worden de verrichtingen bedoeld waarbij het publiek investeert in een onderneming in ruil voor aandelen[^19], winstbewijzen of obligaties. Dit model is vrijwel uitsluitend van toepassing op bedrijfsfinanciering, naar aanleiding van de oprichting van een onderneming of een latere kapitaalverhoging.
 
 Deze vorm van crowdfunding verloopt via de tussenkomst van een platform en wordt geregeld door de Crowdfundingwet[^20]. Dit zijn, volgens de bewoordingen van de wetgever, de “financiële platformen die het mogelijk maken in te schrijven op beleggingsinstrumenten (effecten met een aandelenkarakter of schuldinstrumenten) die worden uitgegeven door ondernemingen (ondernemers-emittenten)”.
@@ -440,7 +422,6 @@ De aldus ingezamelde gelden dienen in de jaarrekening als kapitaal (met of zonde
 Het onderstaande voorbeeld betreft een kapitaalvennootschap. In het geval van een kapitaalloze vennootschap moeten de rekeningen 110 en 111 Beschikbare/onbeschikbare inbreng buiten kapitaal worden gebruikt in plaats van rekening 100 Geplaatst kapitaal.
 
 #### Uitgifte van aandelen a pari
-
 *Volstorting* 
 In hoofde van de begunstigde
 
@@ -473,8 +454,7 @@ In hoofde van de investeerder
 | aan | 511 | Aandelen – Niet-opgevraagde bedragen | | 4.000 |
 | | 5500 | Kredietinstellingen – Rekening-courant | 6.000 | |
 
-#### Uitgifte van aandelen boven pari[^21]
-
+#### Uitgifte van aandelen boven pari
 *Volstorting* 
 In hoofde van de begunstigde
 
@@ -510,7 +490,6 @@ In hoofde van de investeerder
 | | 5500 | Kredietinstellingen – Rekening-courant | 7.000 | |
 
 #### Uitgifte van obligaties
-
 In hoofde van de begunstigde
 
 | | Rekening | Omschrijving | Debet | Credit |
@@ -526,7 +505,6 @@ In hoofde van de investeerder
 | aan | 5500 | Kredietinstellingen – Rekening-courant | | 10.000 |
 
 ### Participatory notes
-
 Met dit type financiering investeert het publiek in een onderneming door middel van kapitaal[^22] (in ruil voor aandelen) of door op onrechtstreekse wijze op obligaties in te schrijven, via een crowdfundingplatform. Het platform biedt een dienst aan waarbij investeerders in contact worden gebracht met ondernemingen die op zoek zijn naar middelen.
 
 Participatory notes zijn schuldbewijzen die door het platform worden uitgegeven. Deze financiële instrumenten sui generis leveren een rendement op dat in de buurt ligt van het rendement van onderliggende aandelen.
@@ -570,7 +548,6 @@ In hoofde van de investeerder
 | aan | 5500 | Kredietinstellingen – Rekening-courant | | 10.000 |
 
 ## Voorbeeld 2 (obligaties)
-
 Om haar activiteiten te kunnen opstarten heeft een onderneming 200.000 EUR nodig om haar kosten tijdens de eerste 6 maanden te kunnen dekken. De onderneming neemt contact op met een bank om een lening te verkrijgen, maar aangezien de onderneming niet voldoende garanties op tafel kan leggen, wordt de lening haar geweigerd. Ze beslist dan om financiering te zoeken via een crowdfundingplatform. De transactie verloopt via de uitgifte van obligaties.
 
 - Nominale waarde van € 100, met maximaal € 5.000 per investeerder 

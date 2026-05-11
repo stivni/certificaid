@@ -3,37 +3,37 @@ bron: https://www.cbn-cnc.be/nl/adviezen/stukken-die-tegelijk-met-de-jaarrekenin
 datum: 1978-12-01
 nummer: CBN-advies 110/2
 provenance:
+  generated_at: '2026-05-11T17:48:38Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/stukken-die-tegelijk-met-de-jaarrekening-dienen-neergelegd-te-worden-artikel-80-venn-w
       sha256: a859f50e1d95639cecf3850a874ab41a26e0173bc95ecf7d0a8f404af3224c6c
       version:
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
-    status: trusted
     confirmed_at: '2026-05-11T15:15:32Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: Geen artefacten aangetroffen in categorieën A-G. Body is volledig proza zonder headings (correct voor dit korte advies), genummerde lijsten gebruikt correct '1.', '2.', '3.' formaat, voetnoten [^1]–[^3] correct gedefinieerd. Frontmatter themas clean zonder HTML-entiteiten.
     layer1:
-      file_size_chars: 5979
-      flags: []
+      status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:40Z'
       heading_count: 0
       max_section_chars: 5979
-      run_at: '2026-05-11T15:05:48Z'
-      run_id: 20260511-150547
-      status: pass
+      file_size_chars: 5979
+      flags: []
     layer2:
-      status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:15:32Z'
-      rationale: Geen artefacten aangetroffen in categorieën A-G. Body is volledig proza zonder headings (correct voor dit korte advies), genummerde lijsten gebruikt correct '1.', '2.', '3.' formaat, voetnoten [^1]–[^3] correct gedefinieerd. Frontmatter themas clean zonder HTML-entiteiten.
       concrete_problemen: []
+      rationale: Geen artefacten aangetroffen in categorieën A-G. Body is volledig proza zonder headings (correct voor dit korte advies), genummerde lijsten gebruikt correct '1.', '2.', '3.' formaat, voetnoten [^1]–[^3] correct gedefinieerd. Frontmatter themas clean zonder HTML-entiteiten.
+      run_at: '2026-05-11T15:15:32Z'
+      status: trusted
+    rationale: Geen artefacten aangetroffen in categorieën A-G. Body is volledig proza zonder headings (correct voor dit korte advies), genummerde lijsten gebruikt correct '1.', '2.', '3.' formaat, voetnoten [^1]–[^3] correct gedefinieerd. Frontmatter themas clean zonder HTML-entiteiten.
+    status: trusted
 themas:
   - achterstallig
   - bijkantoor

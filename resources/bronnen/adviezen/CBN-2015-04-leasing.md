@@ -10,57 +10,57 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/roerende-leasing-definitie
 nummer: CBN-advies 2015/4
 provenance:
+  generated_at: '2026-05-11T17:48:39Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/leasing
       sha256: 994069d2d9c8d9a586845e90715415891f988cd32d291df3cee47605596eb26c
       version:
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
-    status: needs-rework
     confirmed_at: '2026-05-11T17:09:38Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "Meerdere categorieën bevestigd: B3 (regel 76 '# COMMISSIE VOOR BOEKHOUDKUNDIGE NORMEN' als extra H1), B5 (regel 108 'Overeenkomsten die kwalificeren als leasing...' en regel 239 'Overeenkomsten die niet kwalificeren...' als plain tekst zonder heading-prefix), B2 (regel 109 '#### Algemene principes' direct na plain tekst op regel 108 zonder ## of ### tussenniveau), D4 (regel 129 en 188 met malformed italic '* ... *.'). Allen ETL-artefacten."
     layer1:
-      file_size_chars: 77124
-      flags: []
-      heading_count: 39
-      max_section_chars: 13429
-      run_at: '2026-05-11T15:05:51Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:43Z'
+      heading_count: 38
+      max_section_chars: 11336
+      file_size_chars: 73858
+      flags: []
     layer2:
-      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T17:09:38Z'
-      rationale: "Meerdere categorieën bevestigd: B3 (regel 76 '# COMMISSIE VOOR BOEKHOUDKUNDIGE NORMEN' als extra H1), B5 (regel 108 'Overeenkomsten die kwalificeren als leasing...' en regel 239 'Overeenkomsten die niet kwalificeren...' als plain tekst zonder heading-prefix), B2 (regel 109 '#### Algemene principes' direct na plain tekst op regel 108 zonder ## of ### tussenniveau), D4 (regel 129 en 188 met malformed italic '* ... *.'). Allen ETL-artefacten."
       concrete_problemen:
-        - regel: 76
-          categorie: B3
+        - categorie: B3
+          regel: 76
           type: other
           voorbeeld: '# COMMISSIE VOOR BOEKHOUDKUNDIGE NORMEN — extra H1 scrape-artefact'
-        - regel: 108
-          categorie: B5
+        - categorie: B5
+          regel: 108
           type: other
           voorbeeld: Overeenkomsten die kwalificeren als leasing volgens artikel 95 KB W.Venn. — plain tekst, geen heading
-        - regel: 109
-          categorie: B2
+        - categorie: B2
+          regel: 109
           type: other
           voorbeeld: '#### Algemene principes — sprongt van plain tekst naar ####, geen ## of ### tussenlaag'
-        - regel: 129
-          categorie: D4
+        - categorie: D4
+          regel: 129
           type: other
           voorbeeld: zie punt* B. Overeenkomsten die niet kwalificeren als leasing...).* — spatie voor asterisk
-        - regel: 239
-          categorie: B5
+        - categorie: B5
+          regel: 239
           type: other
           voorbeeld: Overeenkomsten die niet kwalificeren als leasing volgens artikel 95 KB W.Venn. — plain tekst
+      rationale: 'Meerdere categorieën bevestigd: B3 (regel 76 ''# COMMISSIE VOOR BOEKHOUDKUNDIGE NORMEN'' als extra H1), B5 (regel 108 ''Overeenkomsten die kwalificeren als leasing...'' en regel 239 ''Overeenkomsten die niet kwalificeren...'' als plain tekst zonder heading-prefix), B2 (regel 109 ''#### Algemene principes'' direct na plain tekst op regel 108 zonder ## of ### tussenniveau), D4 (regel 129 en 188 met malformed italic ''* ... *.''). Allen ETL-artefacten.'
+      run_at: '2026-05-11T17:09:38Z'
+      status: needs-rework
+    rationale: 'Meerdere categorieën bevestigd: B3 (regel 76 ''# COMMISSIE VOOR BOEKHOUDKUNDIGE NORMEN'' als extra H1), B5 (regel 108 ''Overeenkomsten die kwalificeren als leasing...'' en regel 239 ''Overeenkomsten die niet kwalificeren...'' als plain tekst zonder heading-prefix), B2 (regel 109 ''#### Algemene principes'' direct na plain tekst op regel 108 zonder ## of ### tussenniveau), D4 (regel 129 en 188 met malformed italic ''* ... *.''). Allen ETL-artefacten.'
+    status: needs-rework
 themas:
   - aankoopoptie
   - financiële leasing
@@ -75,41 +75,15 @@ themas:
 
 # COMMISSIE VOOR BOEKHOUDKUNDIGE NORMEN
 
-| 
-
-## Samenvatting
-
-Het doorslaggevende criterium om een leasing op boekhoudrechtelijk vlak te onderscheiden van gewone verhuring, is de integrale wedersamenstelling van het door de leasinggever geïnvesteerde kapitaal via de door de leasingnemer contractueel te storten termijnen, verhoogd met de daarmee gelijkgestelde verplichtingen. Het geïnvesteerde kapitaal zal, afhankelijk van de situatie, bepaald worden door de aanschaffingswaarde van het betrokken goed dan wel de marktwaarde van het betrokken goed. Naargelang de overeenkomst betrekking heeft op een roerend goed of op een onroerend goed, worden verschillende elementen in aanmerking genomen om na te gaan of er integrale wedersamenstelling is van het door de leasinggever geïnvesteerde kapitaal. Ook de rente en de kosten van de verrichting dienen in ieder geval gedekt te zijn door middel van de termijnen. 
-
-			Indien de overeenkomst beantwoordt aan de boekhoudkundige definitie van leasing, wordt de verrichting boekhoudkundig verwerkt volgens de specifiek hiervoor bepaalde regels. 
-
-- 
-
-De leasingnemer neemt de hem toegekende gebruiksrechten op aan de actiefzijde van de balans, en boekt de nog verschuldigde kapitaalbetalingen aan de passiefzijde onder de schulden. Aangezien het lichten van de aankoopoptie geen verplichting uitmaakt voor de leasingnemer, vertegenwoordigt het bedrag van de aankoopoptie geen schuld aan de passiefzijde van zijn balans. Het bedrag van de eventuele aankoopoptie wordt bijgevolg ook niet opgenomen in de aanschaffingswaarde van het actief, maar moet door de leasingnemer worden opgenomen onder de niet in de balans opgenomen rechten en verplichtingen. Het geleasede goed wordt door de leasingnemer afgeschreven volgens de regels die gelden voor het onderliggend actiefbestanddeel.
-- 
-
-De leasinggever krijgt door het afsluiten van het leasingcontract een vordering op de leasingnemer ten belope van de uitstaande kapitaalbetalingen verschuldigd door de leasingnemer. De winst die voortvloeit uit de overdracht van het gebruiksrecht wordt onmiddellijk en integraal als opbrengst geboekt. Indien er een aankoopoptie is, en er kan redelijkerwijze worden aangenomen dat de leasinggever aan het einde van de overeenkomst het verschuldigde bedrag tot lichting van de optie zal verkrijgen, dan blijft het bedrag van de aankoopoptie bij de leasinggever geboekt staan onder de overige materiële vaste activa.
-Indien de huurovereenkomst niet beantwoordt aan de boekhoudkundige definitie van leasing, spreekt men over huur of renting, operationele leasing, of “non full-payout lease”. Het in huur gegeven materieel vast actief verschijnt in deze gevallen niet op het actief van de balans van de huurder, maar blijft op het actief van de balans van de verhuurder staan. De boeking van de huurvergoedingen verloopt rechtstreeks via het resultaat. In het specifieke geval waarin contractueel is vastgelegd dat er een grote eerste betaling is of een verhoogde eerste huur, vindt de inresultaatname plaats in de periode waarop deze betaling betrekking heeft. 
-
-De kosten of opbrengsten die voortvloeien uit sale and lease back verrichtingen worden boekhoudkundig verwerkt via de overlopende rekeningen. 
-
- | 
-
-**Inhoudsopgave**
-
 ## Inleiding
-
 In dit advies wordt de boekhoudkundige verwerking behandeld van gebruiksrechten op roerende en onroerende goederen, zowel vanuit het standpunt van de houder van het recht als vanuit het standpunt van de gever van het gebruiksrecht. 
 
 De boekhoudrechtelijke kwalificatie van de overeenkomst (Deel II van dit advies) steunt op artikel 95 KB W.Venn. en is van belang om te bepalen welke boekhoudkundige verwerking (Deel III van dit advies) moet worden toegepast. Op boekhoudkundig vlak verschijnt (financiële) leasing immers aan de actiefzijde van de balans van de leasingnemer, als aan de voorwaarden van artikel 95 KB W.Venn. is voldaan (zie Deel II.A en Deel III.A). Alle andere transacties (huur, renting, operationele leasing), die dus niet aan deze voorwaarden voldoen, worden boekhoudkundig als huur behandeld, en komen dus niet voor in de balans van de huurder (zie Deel II.B en Deel III.B). Tot slot wordt in dit advies de boekhoudkundige verwerking van *sale and lease back*-overeenkomsten (Deel III.C) besproken. 
 
 ## Boekhoudrechtelijke kwalificatie van de overeenkomst
-
 Overeenkomsten die kwalificeren als leasing volgens artikel 95 KB W.Venn.
 #### Algemene principes
-
 ##### Artikel 95 KB W.Venn.
-
 Artikel 95 KB W.Venn. definieert wat op boekhoudkundig vlak onder “gebruiksrechten waarover de vennootschap beschikt op grond van leasing” moet worden verstaan:
 
 “III. D. Leasing en soortgelijke rechten.
@@ -135,7 +109,6 @@ De Commissie wenst vooraf te benadrukken dat de omschrijving in artikel 95 KB W.
 Als belangrijkste principe geldt dat de verrichting, in economisch opzicht, als een in hoofdzaak financiële verrichting moet worden beschouwd, en dat er wordt geacht een substantiële overdracht te hebben plaatsgevonden van alle aan het goed verbonden risico’s en voordelen als de verrichting voldoet aan de voorwaarden van artikel 95 KB W.Venn. 
 
 #### Begrip “geïnvesteerd kapitaal” bij roerende en onroerende leasing
-
 Het doorslaggevende criterium om een leasing op boekhoudrechtelijk vlak te onderscheiden van gewone verhuring, is de integrale wedersamenstelling van het door de leasinggever geïnvesteerde kapitaal via de door de leasingnemer contractueel te storten termijnen, verhoogd met de daarmee gelijkgestelde verplichtingen. De Commissie onderstreept dat de integrale wedersamenstelling van het kapitaal voorzichtig, oprecht en te goeder trouw moet worden beoordeeld conform art. 32 KB W.Venn., rekening houdend met de normale marktomstandigheden. Zodoende zal een overeenkomst met wedersamenstelling van het kapitaal ten belope van 90 % maar tegen een hogere rentevoet dan de gangbare marktrente op dat tijdstip voor dergelijke verrichtingen (hogere rentevoet die het verschil zou dekken) in feite neerkomen op een integrale wedersamenstelling van het kapitaal.[^4]
  Met andere woorden: de gebruikte interestvoet moet marktconform zijn en kan niet artificieel worden verhoogd teneinde de kwalificatie als financiële leasing te vermijden. De Commissie is van mening dat de gebruikte interestvoet dient overeen te stemmen met de interestvoet die zou vastgelegd zijn indien dezelfde overeenkomst was afgesloten met een externe partij, rekening houdend met de omstandigheden waarin de leasingnemer zich bevindt op het moment van afsluiten van het contract. 
 
@@ -158,7 +131,6 @@ Wanneer de leasinggever** een oud goed (bijv. een gebouw of een machine) heeft a
 In de gevallen waarin de **leasinggever een korting (hoeveelheidskorting, eindejaarskorting, …) heeft verkregen van zijn leverancier,** moet voor de bepaling van het geïnvesteerde kapitaal rekening worden gehouden met deze korting, op voorwaarde dat het precieze bedrag van deze korting gekend is bij aanvang van het leasingcontract. Deze situatie zal zich eerder voordoen bij leasing van roerende goederen dan bij leasing van onroerende goederen.
 
 #### Integrale wedersamenstelling van het kapitaal bij roerende leasing
-
 Krachtens artikel 95 KB W.Venn. worden onder de post III.D. Leasing en soortgelijke rechten opgenomen: 
 
 “ 2° de gebruiksrechten op **roerende goederen** waarover de vennootschap beschikt op grond van leasing of soortgelijke overeenkomsten, wanneer de contractueel te storten termijnen, verhoogd met het bedrag dat moet worden betaald bij optielichting indien de nemer een koopoptie bezit, naast de rente en de kosten van de verrichting ook de integrale wedersamenstelling dekken van het kapitaal dat de gever in het goed heeft geïnvesteerd. Het bedrag dat moet worden betaald om een koopoptie te lichten, komt evenwel enkel in aanmerking als het ten hoogste vijftien procent vertegenwoordigt van het kapitaal dat de gever in het goed heeft geïnvesteerd. 
@@ -181,7 +153,6 @@ Opdat een verrichting als roerende leasing kan worden aangemerkt, moeten de cont
 De Commissie is tevens van mening dat voor de bepaling van de wedersamenstelling van het geïnvesteerde kapitaal het geheel van de gedurende de eerste niet-opzegbare periode van het contract verschuldigde termijnen in aanmerking moet worden genomen. Dit impliceert dat, ingeval er contractueel is vastgelegd dat de voortijdige beëindiging aanleiding geeft tot betaling van een schadevergoeding die overeenstemt met de resterende termijnen, deze vergoeding wordt meegeteld voor de bepaling van de wedersamenstelling van het geïnvesteerde kapitaal.
 
 ### Aankoopoptie in hoofde van de leasingnemer
-
 Een *koopoptie* of een eigendomsoverdracht bij het verstrijken van de overeenkomst die in een financiële leasing wordt bedongen[^6], kan als een normaal bestanddeel van deze overeenkomst worden beschouwd, gezien de wedersamenstelling van het geïnvesteerde kapitaal en de waarschijnlijkheid dat er na afloop een effectieve gebruikswaarde overblijft voor de leasingnemer. Het feit zelf dat dergelijke koopoptie of automatische eigendomsoverdracht hierin voorkomt, wordt niet beschouwd als bepalend voor de boekhoudkundige kwalificatie van de verrichting.[^7]
  Ook indien geen koopoptie of automatische eigendomsoverdracht in de overeenkomst is opgenomen, kan de overeenkomst kwalificeren als een leasing.
 
@@ -190,17 +161,14 @@ Wanneer in de overeenkomst een koopoptie ten gunste van de nemer voorkomt, dan w
  Deze regel houdt volgens de Commissie in dat als het kapitaal, naast de rente en de kosten, reeds wedersamengesteld is zonder rekening te houden met deze koopoptie, de overeenkomst zal kwalificeren als een leasingovereenkomst in de zin van artikel 95 KB W.Venn.
 
 ### Verlengingsoptie in hoofde van de leasingnemer
-
 Eventueel kan bedongen worden dat de leasingnemer het recht heeft om het contract te verlengen.[^10]
  Het betreft hier een optie in hoofde van de leasingnemer, waardoor die kan beslissen om de overeenkomst tegen een lagere vergoeding voort te zetten.[^11]
  In de gevallen waarin de roerende leasing door de leasingnemer kan verlengd worden door middel van betaling van bijkomende periodieke betalingen, wordt het kapitaalgedeelte van deze bijkomende betalingen in aanmerking genomen worden om vast te stellen of het geïnvesteerde kapitaal integraal wordt wedersamengesteld, als deze in totaal ten hoogste 15% van het geïnvesteerde kapitaal bedragen op het moment van het afsluiten van het contract. Voor de wedersamenstelling van het kapitaal wordt evenwel in principe geen rekening gehouden met de bijkomende periodieke betalingen indien het kapitaalgedeelte (“de kapitaalfractie van de contractueel bedongen vergoeding”) van deze bijkomende betalingen in totaal meer bedraagt dan 15% van het geïnvesteerde kapitaal. 
 
 ### Verkoopoptie in hoofde van de leasinggever
-
 Ingeval de leasinggever zich een *verkoopoptie* voorbehoudt op het betrokken goed, hetzij tegenover de leasingnemer[^12], hetzij tegenover een derde[^13], meestal de leverancier van het goed, of ingeval dat de leasinggever van de leasingnemer of van een derde een *verbintenis tot aankoop* van het betrokken goed bedingt, worden de belangrijkste aan het goed verbonden risico’s en voordelen overgedragen. Het is dan ook normaal dat de prijs voor het lichten van de verkoopoptie of de krachtens de verkoopverbintenis te betalen prijs in aanmerking wordt genomen voor de bepaling van de integrale wedersamenstelling van het kapitaal ten aanzien van de gever, zonder dat daarom rekening moet worden gehouden met voornoemde beperking van 15%. De prijs die de leasinggever moet krijgen bij het lichten van de verkoopoptie of de uitvoering van de koopverbintenis, wordt evenwel enkel in aanmerking genomen wanneer die bepaald is en wanneer de verbintenis is aangegaan bij het afsluiten van de leasingverrichting.[^14] 
 
 #### Integrale wedersamenstelling van het kapitaal bij onroerende leasing
-
 Krachtens artikel 95 van het KB W.Venn. worden onder de post III.D. Leasing en soortgelijke rechten opgenomen: 
 
 “ **1° de gebruiksrechten op lange termijn op bebouwde onroerende goederen** waarover de vennootschap beschikt op grond van erfpacht, opstal, leasing of soortgelijke overeenkomsten, wanneer de contractueel te storten termijnen, naast de rente en de kosten van de verrichting, ook de integrale wedersamenstelling dekken van het kapitaal dat de gever in het gebouw heeft geïnvesteerd;
@@ -240,14 +208,11 @@ Overeenkomsten die niet kwalificeren als leasing volgens artikel 95 KB W.Venn.
 Indien de huurovereenkomst niet beantwoordt aan de definitie van leasing zoals geformuleerd in artikel 95 KB W.Venn., spreekt men over een huur of *renting*, een operationele leasing, of een* “non full-payout lease”.* Het in huur gegeven materieel vast actief verschijnt in deze gevallen niet op het actief van de balans van de leasingnemer.
 
 ## Boekhoudkundige verwerking
-
 Indien de leasingovereenkomst beantwoordt aan de hierboven besproken definitie van leasing, dient de verrichting verwerkt te worden volgens de specifiek hiervoor bepaalde boekhoudkundige regels. 
 
 Overeenkomsten die kwalificeren als leasing volgens artikel 95 KB W.Venn.
 #### In hoofde van de leasingnemer
-
 #### Boekingen bij het afsluiten van het leasingcontract
-
 Krachtens artikel 62, eerste lid KB W.Venn. worden de gebruiksrechten betreffende materiële vaste activa waarover de onderneming beschikt op grond van leasing of soortgelijke contracten onder de activa opgenomen voor het gedeelte van de volgens de overeenkomst te storten termijnen, dat strekt tot de wedersamenstelling van de *kapitaalwaarde* van het goed waarop de overeenkomst betrekking heeft. 
 
 Aangezien in artikel 62 enkel “het gedeelte van de volgens de overeenkomst te storten termijnen” wordt vermeld, is de Commissie van mening dat zowel het bedrag van de aankoopoptie als het bedrag van de verkoopoptie *niet* wordt geboekt onder de materiële vaste activa. Voor het bepalen van de aanschaffingswaarde van het geleasede actief kunnen deze bedragen immers niet gelijkgesteld worden met een termijn. 
@@ -264,7 +229,6 @@ Tezelfdertijd met de opname op het actief, boekt de leasingnemer aan de passiefz
 Aangezien het lichten van de aankoopoptie geen verplichting uitmaakt voor de leasingnemer, vertegenwoordigt het bedrag van de aankoopoptie geen schuld aan de passiefzijde van zijn balans. Het bedrag van de eventuele aankoopoptie wordt bijgevolg ook niet opgenomen in de aanschaffingswaarde van het actief, maar moet door de leasingnemer worden opgenomen onder de niet in de balans opgenomen rechten en verplichtingen, meer bepaald onder de 09-rekeningen *(Diverse rechten en verplichtingen).*
 
 #### Boekingen tijdens de looptijd van het leasingcontract
-
 *1.2.1 Jaarlijks terugkerende boekingen (betaling annuïteit[^27], afschrijvingen, overboeking naar schulden op korte termijn, pro rata interestkost)*
 Op de vervaldag betaalt de leasingnemer de annuïteit. In de boekhouding van de leasingnemer wordt deze leasingvergoeding uitgesplitst per periode in een kapitaalbestanddeel ter aflossing van het in het goed geïnvesteerde kapitaal en een rentebestanddeel ter vergoeding van de financiering en andere kosten. Bij iedere leasingbetaling wordt het kapitaalbestanddeel inbegrepen in de periodieke leasingvergoeding door de leasingnemer in mindering gebracht van de nog uitstaande leasingschuld en wordt het kostenbestanddeel als financiële kost geboekt.[^28] 
 
@@ -286,21 +250,17 @@ Het gedeelte van de schuld dat in de loop van het volgende boekjaar zal vervalle
 Indien de vervaldag van de leasingsom niet samenvalt met de inventarisdatum, moet overeenkomstig artikel 95 KB W.Venn. bij het afsluiten van het boekjaar het pro rata van de (intrest)kost geboekt worden. Bij het begin van het daaropvolgende boekjaar wordt deze kost tegengeboekt. 
 
 ### 1.2.2 Herwaarderingsmeerwaarden
-
 Tijdens de duur van het contract is het niet uitgesloten dat de leasingnemer het geleasede goed gaat herwaarderen, als aan de voorwaarden voor herwaardering voldaan is.[^35] 
 
 De Commissie wenst te benadrukken dat grote voorzichtigheid geboden is bij het herwaarderen in het algemeen en dat zeer omzichtig te werk moet worden gegaan met het omzetten van herwaarderingsmeerwaarden in kapitaal. De Commissie beveelt aan om in geen geval een herwaarderingsmeerwaarde op een tijdelijk recht om te zetten in kapitaal.
 
 ### 1.2.3 Voorzieningen voor herstellingen aan het geleasede goed
-
  Als in de leasingovereenkomst is opgenomen dat de leasingnemer het geleasede goed op het einde van de overeenkomst in zijn oorspronkelijke staat moet herstellen, dan dient de leasingnemer hiervoor desgevallend tijdens de looptijd van het contract een voorziening aan te leggen voor de uit te voeren herstellingen. 
 
 ### 1.2.4 Verbeterings- of verbouwingswerken
-
 De Commissie is van mening dat verbeterings- of verbouwingswerken die worden uitgevoerd aan de geleasede goederen, moeten geboekt worden op de rekening 26 Andere materiële vaste activa. 
 
 #### Boekingen bij het einde van het leasingcontract
-
 Op het einde van het contract, bij het verstrijken van de contractueel overeengekomen termijn, kunnen zich de volgende situaties voordoen. 
 
 1) Is er een aankoopoptie, dan kan de leasingnemer de optie lichten en de optieprijs betalen. Het aankooprecht in het kader van de optie verdwijnt door de uitoefening ervan, zodat ook de desbetreffende buitenbalansrekeningen worden tegengeboekt. De leasingnemer boekt zowel de de aanschaffingswaarde als de reeds geboekte afschrijvingen over van de 25-rekeningen naar de desbetreffende rubriek van de materiële vaste activa *(Terreinen en gebouwen; Installaties, machines en uitrusting; Meubilair en rollend materieel).* 
@@ -313,11 +273,9 @@ Naar aanleiding van het lichten van de optie zal de aanschaffingswaarde van het 
 2) Indien de leasingnemer niet overgaat tot verwerving van het goed, omdat hij de optie niet licht of omdat contractueel is bepaald dat het goed bij afloop van het contract terugkeert naar de leasinggever, moet alleen het einde van het contract aangeduid worden. De activarekeningen met betrekking tot het geleasede goed worden tegengeboekt, er wordt een uitzonderlijke afschrijving geboekt voor het eventuele resterende deel (in de gevallen waarin de afschrijvingsperiode langer was dan de duur van de leasingovereenkomst). Indien de leasingovereenkomst een aankoopoptie bevatte, wordt in de buitenbalansrekeningen aangeduid dat de optie uitdooft. 
 
 #### Overdracht van het leasingcontract
-
 Wanneer de leasingnemer zijn rechten vóór het verstrijken van de initieel voorziene duur van de leasingovereenkomst overdraagt aan een derde partij, zal deze verrichting in voorkomend geval in hoofde van de overnemer moeten worden geboekt overeenkomstig de algemeen geldende principes inzake de boekhoudkundige verwerking van leasingcontracten. Gezien de zeer diverse mogelijke omstandigheden, vindt de Commissie het niet opportuun een algemene boekhoudkundige verwerking voor te stellen. 
 
 #### Informatieverschaffing in de toelichting bij de jaarrekening
-
 Volgende informatie met betrekking tot de leasingovereenkomst dient door de leasingnemer opgenomen te worden in de toelichting: 
 
 - III.D., een staat van de materiële vaste activa die opgenomen zijn onder de rubriek leasing en soortgelijke rechten, met vermelding van de aanschaffingswaarde (per einde van het vorige boekjaar, de mutaties ervan tijdens het boekjaar, en het bedrag ervan per einde van het boekjaar), eventuele meerwaarden, afschrijvingen en het bedrag van de nettoboekwaarde per einde van het boekjaar, waarbij een uitsplitsing wordt gemaakt in terreinen en gebouwen, installaties, machines en uitrusting, meubilair en rollend materieel; 
@@ -333,11 +291,8 @@ Verder beveelt de Commissie aan om in de toelichting een algemene beschrijving t
 3. beperkingen die voorvloeien uit de leasingovereenkomsten, zoals met betrekking tot dividenduitkeringen, aanvullende financiering en het sluiten van andere leasingovereenkomsten. 
 
 #### In hoofde van de leasinggever
-
 #### Boekingen bij het afsluiten van het leasingcontract
-
 ### 2.1.1 Boeking van de leasingvordering
-
 Door het afsluiten van het leasingcontract verkrijgt de leasinggever een vordering op de leasingnemer: de uitstaande kapitaalbetalingen verschuldigd door de leasingnemer worden in de boekhouding van de leasinggever aan de actiefzijde onder de vorderingen geboekt (V.B. en VII.B.). [^36]
  Het betreft een vordering op termijn, die bestaat uit de gecumuleerde kapitaalbestanddelen van de door de leasingnemer te betalen leasingsommen. 
 
@@ -346,7 +301,6 @@ Afhankelijk van de termijn valt de vordering onder de vorderingen op langer dan 
 Indien leasing de normale ondernemingsactiviteit uitmaakt, zal de vordering worden geboekt onder de handelsvorderingen (MAR 2900 en 400). Indien leasing echter slechts een toevallige ondernemingsactiviteit is, wordt de vordering geboekt onder de overige vorderingen (MAR 2910 en 416). 
 
 ### 2.1.2 Boeking van de winst uit de overdracht van het gebruiksrecht
-
 Wat ingeval bij het afsluiten van een leasingovereenkomst blijkt dat het bedrag van de leasingvordering die de leasinggever t.a.v. de leasingnemer verwerft, het bedrag van de aanschaffingsprijs[^37] van het geleasede goed overtreft? 
 
 Naar het oordeel van de Commissie moet het verschil tussen de aanschaffingsprijs van een goed bestemd om in leasing te worden gegeven en het bedrag van de vordering op de leasingnemer, onmiddellijk en integraal in de resultatenrekening onder de opbrengsten worden geboekt. Door het sluiten van een leasingovereenkomst waarna het goed aan de leasingnemer wordt geleverd en dus het gebruiksrecht op het goed aan de leasingnemer wordt overgedragen, heeft de leasinggever zich immers van zijn hoofdverbintenis bevrijd, aangezien de leasingovereenkomst voor hem geen gespreide of opeenvolgende prestaties impliceert. Met toepassing van artikel 33, tweede lid van het KB W.Venn., krachtens hetwelk rekening moet worden gehouden met de kosten en de opbrengsten die betrekking hebben op het boekjaar of op voorgaande boekjaren, ongeacht de dag waarop de kosten en opbrengsten worden betaald of geïnd, moet de winst uit deze verrichting dan ook onmiddellijk in resultaat worden genomen. Hierbij moet uiteraard worden bedacht dat de leasingvordering die de leasinggever als gevolg van het afsluiten van de leasingovereenkomst activeert, overeenstemt met de kapitaalwaarde van het goed waarop de overeenkomst betrekking heeft. Dit vloeit* a contrario* voort uit hetgeen in artikel 62 KB W.Venn. is bepaald met betrekking tot de boekhoudkundige verwerking bij de leasingnemer. Het gedeelte van de periodieke leasingvergoedingen dat overeenstemt met een interestvergoeding wordt daarentegen niet geactiveerd door de leasinggever, maar a rato van de periodieke betalingen in resultaat genomen. Het is dus fout om uit de regel dat het verschil tussen de aanschaffingsprijs van het goed en de vordering op de leasingnemer onmiddellijk in resultaat moet worden genomen, af te leiden dat het verschil tussen enerzijds, de som van de kapitaalwaarde van het geleasede goed en de gekapitaliseerde interestbetalingen begrepen in de periodieke leasingvergoedingen, en anderzijds, de aanschaffingsprijs voor het geleasede goed betaald door de leasinggever, onmiddellijk en integraal als een gerealiseerde winst zou moeten of mogen geboekt worden.
@@ -376,7 +330,6 @@ Voor wat betreft leasingovereenkomsten die een aankoopoptie bevatten, gelden vol
 De aankoopoptie kan door de leasinggever, indien hij dit relevant acht[^39], geboekt worden onder de niet in balans opgenomen rechten en verplichtingen. Deze koopoptie kan worden beschouwd als een verkoopverbintenis met als waarde deze van de resterende som, en wordt geboekt op de rekeningen 052* Debiteuren wegens verplichtingen tot verkoop *en 053* Verplichtingen tot verkoop.* 
 
 ### 2.1.4 Voorbeelden
-
 Een vennootschap heeft een goed in haar bezit met een aanschaffingswaarde van 5.000, waarop reeds 4.200 afschrijvingen werden geboekt. Het goed heeft dus een boekwaarde van 800. Dit goed wordt in leasing gegeven voor een waarde van 1.000. De leasingovereenkomst vermeldt een te wedersamenstellen kapitaalwaarde van 900 en een aankoopoptie van 100. Er kan redelijkerwijze aangenomen worden dat de optie zal worden gelicht bij het einde van het contract.
 
 Boeking bij overdracht gebruiksrecht
@@ -415,13 +368,11 @@ Boeking bij overdracht gebruiksrecht
 | | Of 763 | (uitz. opbrengst) | | |
 
 #### Boekingen tijdens de looptijd van het leasingcontract
-
 Zodra de overdracht van het gebruiksrecht heeft plaatsgevonden, kunnen door de leasinggever geen afschrijvingen meer worden geboekt. De leasinggever dient waardeverminderingen op vorderingen te boeken ingeval de hij eraan twijfelt dat de leasingnemer zijn verplichtingen nog kan nakomen. 
 
 De jaarlijks ontvangen leasingvergoeding wordt in de boekhouding van de leasinggever opgesplitst in een kapitaalbestanddeel en een interestbestanddeel. Het kapitaalgedeelte wordt telkens in mindering gebracht van de nog uitstaande vordering. Het rentebestanddeel is de periodieke vergoeding die de leasinggever ontvangt voor zijn tussenkomst in de financiering van het geleasede goed. De jaarlijkse opgebrachte rente wordt als opbrengst in zijn resultatenrekening geboekt* (IV.B. Opbrengsten uit vlottende activa *of I.D.* Andere bedrijfsopbrengsten). *
 
 #### Boekingen bij het einde van het leasingcontract
-
 Op het einde van de leasingovereenkomst kunnen zich twee verschillende situaties voordoen:
 
 - De leasingnemer oefent zijn koopoptie niet uit, en draagt het geleasede goed terug over aan de leasinggever. In de rechten en verplichtingen buiten balans wordt door de leasinggever aangeduid dat de optie uitdooft. Is het goed nog voor exploitatie bruikbaar, dan wordt het bedrag van de aankoopoptie dat geboekt stond onder de overige materiële vaste activa, overgeboekt naar de materiële vaste activa afgeschreven over de vermoedelijke nuttigheidsduur. Is het goed niet meer voor exploitatie bruikbaar, dan blijft het bedrag van de aankoopoptie geboekt onder de overige materiële vaste activa. Het goed kan ook worden verkocht door de leasinggever. 
@@ -431,7 +382,6 @@ Op het einde van de leasingovereenkomst kunnen zich twee verschillende situaties
   - Indien de leasinggever de waarde van de optie bij aanvang van de overeenkomst niet als overige materiële vaste activa heeft geboekt omdat het lichten van de optie onzeker was[^40], neemt hij de volledige vergoeding bij afloop van het contract in resultaat. 
 
 #### Informatieverschaffing in de toelichting bij de jaarrekening
-
 Volgende informatie met betrekking tot de leasingovereenkomst dient te worden opgenomen in de toelichting:
 
 - III.E., een staat van de overige materiële vaste activa met vermelding van de aanschaffingswaarde, eventuele uitzonderlijke afschrijvingen en het bedrag van de nettoboekwaarde per einde van het boekjaar; 
@@ -441,15 +391,12 @@ Verder beveelt de Commissie aan om in de toelichting een algemene beschrijving t
 
 Overeenkomsten die niet kwalificeren als leasing onder artikel 95 KB W.Venn.
 #### In hoofde van de huurder
-
 #### Boekingen bij het afsluiten van het huurcontract
-
 Aangezien de verhuurder en niet de huurder als investeerder wordt beschouwd, wordt het gehuurde goed niet opgenomen in de balans van de huurder. Om diezelfde reden worden ook de nog te betalen huurgelden, waartoe de huurder zich verbonden heeft, niet opgenomen als schulden in de balans. 
 
 De Commissie is van mening dat in klasse 0 van het rekeningenstelsel (rekening 070) en onder de niet in de balans opgenomen rechten en verplichtingen de waarde van het gebruiksrecht moet worden geboekt, i.e. het niet-geactualiseerde bedrag van de te betalen huurgelden die op latere boekjaren betrekking hebben. Deze waarde dient dus jaarlijks te worden aangepast in functie van de nog lopende verplichtingen. De aankoopoptie moet worden geboekt op de rekening 090 van de klasse 0. 
 
 #### Boekingen tijdens de looptijd van het huurcontract
-
 De volledige huurvergoeding wordt door de huurder als kost geboekt.
 
 In artikel 33, tweede lid van KB W.Venn. wordt vereist dat er rekening wordt gehouden met de kosten en de opbrengsten die betrekking hebben op het boekjaar of op voorgaande boekjaren, ongeacht de dag waarop deze kosten en opbrengsten worden betaald of geïnd, behalve indien de effectieve inning van deze opbrengsten onzeker is. De toepassing van dit principe in hoofde van de huurder geeft aanleiding tot volgende boekhoudkundige gevolgen: 
@@ -468,21 +415,17 @@ Wanneer de huurder de beslissing neemt om het gehuurde actief (tijdelijk) niet m
  Als in de huurovereenkomst is opgenomen dat de huurder het gehuurde goed op het einde van de overeenkomst in zijn oorspronkelijke staat moet herstellen, dan dient de huurder hiervoor desgevallend tijdens de looptijd van het contract een voorziening aan te leggen voor de uit te voeren herstellingen. 
 
 #### Informatieverschaffing in de toelichting
-
 In voorkomend geval zal met toepassing van artikel 25, §3, eerste lid KB W.Venn. een passende vermelding moeten worden opgenomen in de toelichting wanneer het gaat om een recht dat het vermogen, de financiële positie of het resultaat van de onderneming aanmerkelijk kan beïnvloeden. 
 
 Daarenboven dient de huurder in de toelichting bij de jaarrekening (staat XVII*bis* *Aard en zakelijk doel van buitenbalans regelingen* van het volledig schema van de jaarrekening en staat VIII*bis Aard en zakelijk doel van buitenbalans regelingen* van het verkorte schema) passende informatie op te nemen over de risico’s van enige betekenis en voordelen van operationele leasingregelingen, mits de risico’s of voordelen die uit dergelijke regelingen voortvloeien van enige betekenis zijn en voor zover de openbaarmaking van dergelijke risico’s of voordelen noodzakelijk is voor de beoordeling van de financiële positie van de vennootschap.[^43] 
 
 #### In hoofde van de verhuurder
-
 #### Boekingen bij het afsluiten van het huurcontract
-
 Het in huur gegeven actiefbestanddeel blijft op de balans van de verhuurder, onder de overige materiële vaste activa[^44], die het actiefbestanddeel afschrijft.
 
 De Commissie is van mening dat de verhuurder de waarde van het verleende gebruiksrecht moet boeken in klasse 0 van het rekeningenstelsel en onder de niet in de balans opgenomen rechten en verplichtingen. De boeking geschiedt ten belope van het niet-geactualiseerde bedrag van de te ontvangen huurgelden die op latere boekjaren betrekking hebben. Deze waarde dient dus jaarlijks te worden aangepast in functie van de nog te ontvangen tegoeden. 
 
 #### Boekingen tijdens de looptijd van het huurcontract
-
 In hoofde van de verhuurder vormen de ontvangen huurbetalingen een opbrengst. De huurvergoeding wordt geboekt onder de diverse bedrijfsopbrengsten. Op het einde van het boekjaar dienen de overlopende posten met betrekking tot de huurovereenkomst te worden verwerkt, met name als verworven huuropbrengsten of als over te dragen huuropbrengsten). 
 
 Ingeval de huurovereenkomst een bepaling bevat op basis waarvan de huurder bepaalde voordelen geniet bij afsluiting of verlenging van de huurovereenkomst, dient de verhuurder de totale kost verbonden aan de voordelen gedurende de huurperiode in beginsel lineair in resultaat op te nemen als een vermindering van de huuropbrengsten. Aangezien de huuropbrengsten en de toegekende voordelen hun oorsprong vinden in dezelfde overeenkomst, moeten ze vanuit boekhoudkundig standpunt samen verwerkt worden.[^45] 
@@ -490,20 +433,17 @@ Ingeval de huurovereenkomst een bepaling bevat op basis waarvan de huurder bepaa
 In het specifieke geval waarin contractueel is vastgelegd dat er een grote eerste betaling is of een verhoogde eerste huur, worden de opbrengsten geboekt in de periode waarop deze betrekking hebben: in principe zullen deze opbrengsten dus worden gespreid via overlopende rekeningen over de overeengekomen (gebruiks)duur van de overeenkomst, maar de raad van bestuur kan op basis van technische of economische redenen een andere wijze van inresultaatname motiveren. 
 
 #### Informatieverschaffing in de toelichting
-
 De aankoopoptie moet als een verplichting worden geboekt in klasse 0. In voorkomend geval zal met toepassing van artikel 25, §3, eerste lid KB W.Venn. een passende vermelding moeten worden opgenomen in de toelichting wanneer het gaat om een verplichting die het vermogen, de financiële positie of het resultaat van de onderneming aanmerkelijk kan beïnvloeden.
 
 Daarenboven dient de verhuurder in de toelichting bij de jaarrekening (staat XVII*bis Aard en zakelijk doel van buitenbalans regelingen* van het volledig schema van de jaarrekening en staat VIII*bis Aard en zakelijk doel van buitenbalans regelingen* van het verkorte schema) passende informatie op te nemen over de risico’s van enige betekenis en voordelen van operationele leasingregelingen, mits de risico’s of voordelen die uit dergelijke regelingen voortvloeien van enige betekenis zijn en voor zover de openbaarmaking van dergelijke risico’s of voordelen noodzakelijk is voor de beoordeling van de financiële positie van de vennootschap.[^46] 
 
 ### Sale and lease back-overeenkomsten
-
 Onder een "sale and lease back" overeenkomst wordt de verrichting verstaan waarbij een onderneming een materieel vast actief waarvan zij eigenaar is, verkoopt aan een derde onderneming en tegelijkertijd het gebruik ervan terugkrijgt door een leasingcontract af te sluiten
 
 Dit soort verrichting moet als één geheel worden beschouwd. Het zou immers artificieel zijn om te stellen dat er twee van elkaar losstaande overeenkomsten zijn terwijl er in werkelijkheid één enkele overeenkomst is en de prijs die de koper heeft betaald normaal gezien zal worden wedersamengesteld door de kapitaalfractie die in de leasingtermijnen is begrepen.[^47]
  In dit geval moet men ervan uitgaan dat tegenover de aan de overdracht verbonden meerwaarde een kost staat die in de loop van de latere boekjaren toeneemt en dat er bijgevolg in werkelijkheid geen gerealiseerde meerwaarde is. Artikel 63 KB W.Venn. stelt dan ook dat, in dit geval, de bij de overdracht vastgestelde meerwaarde aan de passiefzijde in de overlopende rekeningen wordt geboekt en elk jaar in resultaat genomen naar verhouding van de afschrijving van het geleasede goed. Dezelfde benadering geldt voor minderwaarden.[^48] 
 
 ## Dit advies vervangt de adviezen 144/1, 144/2, 144/2bis, 144/3, 144/5
-
 [^1]: Onderhavig advies is tot stand gekomen nadat een ontwerp van het advies op 25 juni 2014 ter consultatie werd gepubliceerd op de website van de CBN.
 
 [^2]: Artikel 95, §1, III.D, lid 1, 1° KB W.Venn.

@@ -2,70 +2,60 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/individualisering-van-de-aanschaffingsprijs
 datum: 1988-12-01
 gerelateerde_adviezen:
-- datum: '2025-06-06'
-  titel: 'Aanschaffingsprijs : bijkomende kosten (update) [ONTWERP]'
-  url: https://www.cbn-cnc.be/nl/adviezen/aanschaffingsprijs-bijkomende-kosten-update-ontwerp
-- datum: '2017-02-01'
-  titel: 'Invoer: douanerechten en verlegging van de heffing van de btw'
-  url: https://www.cbn-cnc.be/nl/adviezen/invoer-douanerechten-en-verlegging-van-de-heffing-van-de-btw
-- datum: '2012-10-10'
-  titel: De boekhoudkundige verwerking van immateriële vaste activa
-  url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-immateriele-vaste-activa
-- datum: '2002-05-01'
-  titel: Bepaling van de aanschaffingswaarde van activa verkregen onder bezwarende
-    titel of om niet
-  url: https://www.cbn-cnc.be/nl/adviezen/bepaling-van-de-aanschaffingswaarde-van-activa-verkregen-onder-bezwarende-titel-of-om-niet
+  - datum: '2025-06-06'
+    titel: 'Aanschaffingsprijs : bijkomende kosten (update) [ONTWERP]'
+    url: https://www.cbn-cnc.be/nl/adviezen/aanschaffingsprijs-bijkomende-kosten-update-ontwerp
+  - datum: '2017-02-01'
+    titel: 'Invoer: douanerechten en verlegging van de heffing van de btw'
+    url: https://www.cbn-cnc.be/nl/adviezen/invoer-douanerechten-en-verlegging-van-de-heffing-van-de-btw
+  - datum: '2012-10-10'
+    titel: De boekhoudkundige verwerking van immateriële vaste activa
+    url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-immateriele-vaste-activa
+  - datum: '2002-05-01'
+    titel: Bepaling van de aanschaffingswaarde van activa verkregen onder bezwarende titel of om niet
+    url: https://www.cbn-cnc.be/nl/adviezen/bepaling-van-de-aanschaffingswaarde-van-activa-verkregen-onder-bezwarende-titel-of-om-niet
 nummer: CBN-advies 126/6
 provenance:
-  generated_at: '2026-05-11T15:15:31Z'
+  generated_at: '2026-05-11T17:48:38Z'
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/individualisering-van-de-aanschaffingsprijs
-    sha256: 6e700565eb112f2c86e015c9db3299cb25a551c4e7743f73c7274ecbba23ba17
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/individualisering-van-de-aanschaffingsprijs
+      sha256: 6e700565eb112f2c86e015c9db3299cb25a551c4e7743f73c7274ecbba23ba17
+      version:
   stale: false
-  stale_reason: null
+  stale_reason:
   tooling:
-    model: null
+    model:
     pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    prompt_version: null
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
     confirmed_at: '2026-05-11T13:16:02Z'
     confirmed_by: subagent-sonnet-4-6
     layer1:
-      file_size_chars: 3053
-      flags: []
-      heading_count: 0
-      max_section_chars: 3053
-      run_at: '2026-05-11T15:05:48Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:41Z'
+      heading_count: 0
+      max_section_chars: 3052
+      file_size_chars: 3052
+      flags: []
     layer2:
       agent: subagent-sonnet-4-6
       concrete_problemen: []
-      rationale: Vorige Laag-2-ronde flagde B3 (duplicate heading op L58+60), maar
-        bij her-lezing staat de enkelvoudige H1-heading correct op L62 in de body.
-        De verwarring ontstond doordat de thema-entries in de frontmatter lijken op
-        een titelherhaling, maar dat zijn metadata-velden. Geen duplicaat in de body.
-        Inhoud volledig afgesloten met complete redenering.
+      rationale: Vorige Laag-2-ronde flagde B3 (duplicate heading op L58+60), maar bij her-lezing staat de enkelvoudige H1-heading correct op L62 in de body. De verwarring ontstond doordat de thema-entries in de frontmatter lijken op een titelherhaling, maar dat zijn metadata-velden. Geen duplicaat in de body. Inhoud volledig afgesloten met complete redenering.
       run_at: '2026-05-11T13:16:02Z'
       status: trusted
-    rationale: Vorige Laag-2-ronde flagde B3 (duplicate heading op L58+60), maar bij
-      her-lezing staat de enkelvoudige H1-heading correct op L62 in de body. De verwarring
-      ontstond doordat de thema-entries in de frontmatter lijken op een titelherhaling,
-      maar dat zijn metadata-velden. Geen duplicaat in de body. Inhoud volledig afgesloten
-      met complete redenering.
+    rationale: Vorige Laag-2-ronde flagde B3 (duplicate heading op L58+60), maar bij her-lezing staat de enkelvoudige H1-heading correct op L62 in de body. De verwarring ontstond doordat de thema-entries in de frontmatter lijken op een titelherhaling, maar dat zijn metadata-velden. Geen duplicaat in de body. Inhoud volledig afgesloten met complete redenering.
     status: trusted
 themas:
-- aanschaffingsprijs
-- individualisering van de aanschaffingsprijs
-- voorraden
-- waardering
-- waardering van voorraden
+  - aanschaffingsprijs
+  - individualisering van de aanschaffingsprijs
+  - voorraden
+  - waardering
+  - waardering van voorraden
 ---
 
 # CBN advies 126-6 - Individualisering van de aanschaffingsprijs
-
 Krachtens artikel 18 van het koninklijk besluit van 8 oktober 1976 moet elk vermogensbestanddeel afzonderlijk worden gewaardeerd. 
 
 De Commissie werd om advies gevraagd in verband met het geval waarin, voor een totaalprijs, een partij gebruikt materieel en gebruikte reserve-onderdelen wordt aangekocht die, mits bewerking of herstelling, opnieuw zouden worden gecommercialiseerd. 

@@ -16,45 +16,45 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/gebeurtenissen-na-afsluitingsdatum-van-het-boekjaar
 nummer: CBN-advies R101/1
 provenance:
+  generated_at: '2026-05-11T17:48:38Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/zakelijke-waarborgen-gesteld-voor-rekening-van-derden
       sha256: dd346a1d84ea751247cf3d70d6316785147f7a5e680b36ea1ceb22e549ac5e51
       version:
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
-    status: needs-rework
     confirmed_at: '2026-05-11T17:05:20Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "E2: twee markdown-tabellen (regels 74-82) zijn structureel incorrect — subrekening-rijen (014, 015, 022, 023) bevatten 5 cellen ('| | | 014 | | Omschrijving |') terwijl de header slechts 3 kolommen ('| 01 | | Omschrijving |') definieert. Dit is een ETL-artefact: de originele hiërarchische rekeningstructuur is niet correct naar pipe-markdown vertaald. Body-tekst en voetnoten zijn clean."
     layer1:
-      file_size_chars: 3553
-      flags: []
+      status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:40Z'
       heading_count: 0
       max_section_chars: 3553
-      run_at: '2026-05-11T15:05:47Z'
-      run_id: 20260511-150547
-      status: pass
+      file_size_chars: 3553
+      flags: []
     layer2:
-      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T17:05:20Z'
-      rationale: "E2: twee markdown-tabellen (regels 74-82) zijn structureel incorrect — subrekening-rijen (014, 015, 022, 023) bevatten 5 cellen ('| | | 014 | | Omschrijving |') terwijl de header slechts 3 kolommen ('| 01 | | Omschrijving |') definieert. Dit is een ETL-artefact: de originele hiërarchische rekeningstructuur is niet correct naar pipe-markdown vertaald. Body-tekst en voetnoten zijn clean."
       concrete_problemen:
-        - regel: 74
-          categorie: E2
+        - categorie: E2
+          regel: 74
           type: pseudo-table
           voorbeeld: '| 01 | | Waarborgen gesteld voor rekening van derden | — 3-koloms header'
-        - regel: 76
-          categorie: E2
+        - categorie: E2
+          regel: 76
           type: pseudo-table
           voorbeeld: '| | | 014 | | Debiteuren wegens zakelijke zekerheden | — 5 kolommen, mismatcht 3-koloms header'
+      rationale: 'E2: twee markdown-tabellen (regels 74-82) zijn structureel incorrect — subrekening-rijen (014, 015, 022, 023) bevatten 5 cellen (''| | | 014 | | Omschrijving |'') terwijl de header slechts 3 kolommen (''| 01 | | Omschrijving |'') definieert. Dit is een ETL-artefact: de originele hiërarchische rekeningstructuur is niet correct naar pipe-markdown vertaald. Body-tekst en voetnoten zijn clean.'
+      run_at: '2026-05-11T17:05:20Z'
+      status: needs-rework
+    rationale: 'E2: twee markdown-tabellen (regels 74-82) zijn structureel incorrect — subrekening-rijen (014, 015, 022, 023) bevatten 5 cellen (''| | | 014 | | Omschrijving |'') terwijl de header slechts 3 kolommen (''| 01 | | Omschrijving |'') definieert. Dit is een ETL-artefact: de originele hiërarchische rekeningstructuur is niet correct naar pipe-markdown vertaald. Body-tekst en voetnoten zijn clean.'
+    status: needs-rework
 themas:
   - niet in de balans opgenomen rechten en verplichtingen
   - rekeningenstelsel

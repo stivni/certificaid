@@ -3,41 +3,41 @@ bron: https://www.cbn-cnc.be/nl/adviezen/aanvragen-tot-afwijking-overzicht
 datum: 1978-12-01
 nummer: CBN-advies 108/2
 provenance:
+  generated_at: '2026-05-11T17:48:38Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/aanvragen-tot-afwijking-overzicht
       sha256: ba3a343ddfa87e81faaa7171277264e63ed339d662ec9109a0ca6d56e85ac63b
       version:
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
-    status: needs-rework
     confirmed_at: '2026-05-11T17:05:20Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "De eerder gerapporteerde B2-bug (heading-hiërarchie #### zonder ##) is OPGELOST — regels 69, 91 en 126 zijn nu correct ## headings. Echter: A6 op regels 112-114: zin 'Ze werd echter afhankelijk gemaakt ... met het oog op de statistische verwerking, van' (r112) eindigt midden in een bijzin, gevolgd door een lege regel, waarna 'het bedrag der verschillende samengevoegde rubrieken.' (r114) de zin afsluit als aparte paragraaf — een pagina-breuk-artefact uit de originele drukversie die als lege alinea-scheiding is gerenderd."
     layer1:
-      file_size_chars: 12815
-      flags: []
-      heading_count: 3
-      max_section_chars: 6783
-      run_at: '2026-05-11T15:05:48Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:40Z'
+      heading_count: 3
+      max_section_chars: 6782
+      file_size_chars: 12806
+      flags: []
     layer2:
-      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T17:05:20Z'
-      rationale: "De eerder gerapporteerde B2-bug (heading-hiërarchie #### zonder ##) is OPGELOST — regels 69, 91 en 126 zijn nu correct ## headings. Echter: A6 op regels 112-114: zin 'Ze werd echter afhankelijk gemaakt ... met het oog op de statistische verwerking, van' (r112) eindigt midden in een bijzin, gevolgd door een lege regel, waarna 'het bedrag der verschillende samengevoegde rubrieken.' (r114) de zin afsluit als aparte paragraaf — een pagina-breuk-artefact uit de originele drukversie die als lege alinea-scheiding is gerenderd."
       concrete_problemen:
-        - regel: 112
-          categorie: A6
+        - categorie: A6
+          regel: 112
           type: other
           voorbeeld: '...met het oog op de statistische verwerking, van [lege regel] het bedrag der verschillende samengevoegde rubrieken. — zin gesplitst over twee paragrafen'
+      rationale: 'De eerder gerapporteerde B2-bug (heading-hiërarchie #### zonder ##) is OPGELOST — regels 69, 91 en 126 zijn nu correct ## headings. Echter: A6 op regels 112-114: zin ''Ze werd echter afhankelijk gemaakt ... met het oog op de statistische verwerking, van'' (r112) eindigt midden in een bijzin, gevolgd door een lege regel, waarna ''het bedrag der verschillende samengevoegde rubrieken.'' (r114) de zin afsluit als aparte paragraaf — een pagina-breuk-artefact uit de originele drukversie die als lege alinea-scheiding is gerenderd.'
+      run_at: '2026-05-11T17:05:20Z'
+      status: needs-rework
+    rationale: 'De eerder gerapporteerde B2-bug (heading-hiërarchie #### zonder ##) is OPGELOST — regels 69, 91 en 126 zijn nu correct ## headings. Echter: A6 op regels 112-114: zin ''Ze werd echter afhankelijk gemaakt ... met het oog op de statistische verwerking, van'' (r112) eindigt midden in een bijzin, gevolgd door een lege regel, waarna ''het bedrag der verschillende samengevoegde rubrieken.'' (r114) de zin afsluit als aparte paragraaf — een pagina-breuk-artefact uit de originele drukversie die als lege alinea-scheiding is gerenderd.'
+    status: needs-rework
 themas:
   - aanpassing schema van de jaarrekening
   - aanvragen tot afwijking
@@ -59,7 +59,6 @@ Voor het eerste boekjaar waarop het koninklijk besluit van 8 oktober 1976 van to
 De aanvragen tot afwijking kunnen als volgt worden onderverdeeld :
 
 ## AANVRAGEN TOT AFWIJKING DIE EEN AANPASSING BEOGEN VAN HET SCHEMA GEHECHT AAN HET K.B. VAN 8 OKTOBER 1976
-
 In deze eerste groep worden de afwijkingen vermeld die er niet toe strekken minder informatie te verschaffen dan door het koninklijk besluit van oktober 1976 wordt opgelegd, doch wel de jaarrekening voor te stellen onder een vorm die beter aangepast is aan de aard of aan de eigen kenmerken van de economische activiteit die de onderneming uitoefent.
 
 Vier steenkoolmijnen in werking werden toegelaten hun balans en resultatenrekening te blijven voorstellen overeenkomstig het schema dat ingesteld werd door een beslissing van het Kolendirectorium, bekrachtigd bij Ministerieel besluit.
@@ -81,7 +80,6 @@ Een bepaald aantal ondernemingen heeft de toelating gekregen om in hun resultate
 Twee ondernemingen, ten slotte, hebben gevraagd om in hun resultatenrekening, en dit onder een aparte rubriek, slechts hun aandeel in de netto-resultaten van een vereniging in deelneming op te nemen, maar waarbij in de toelichting bij hun jaarrekening de exploitatieresultaten van de in vereniging gevoerde activiteiten zouden aangeduid worden.
 
 ## EIGENLIJKE AFWIJKINGEN VAN HET K.B. VAN 8 OKTOBER 1976
-
 Volgens de bewoordingen van het Verslag aan de Koning dat het besluit van 8 oktober 1976 voorafgaat, kan een afwijking bekomen worden «zo het publiceren van inlichtingen, voorgeschreven door het besluit, een vaststaande schade aan de onderneming of aan derden zou kunnen veroorzaken. Dit zou onder meer het geval zijn voor het publiceren van het omzetcijfer van een onderneming die slechts één enkel homogeen produkt vervaardigt en die in concurrentie staat met ondernemingen met een gediversifieerde productie».
 
 Het grootste gedeelte van de eigenlijke aanvragen tot afwijking die de Commissie diende te onderzoeken, was gesteund op deze passage uit het Verslag aan de Koning en gemotiveerd door de schade die zou voortvloeien uit het publiceren van bepaalde gegevens. Op een totaal van 60 eigenlijke aanvragen tot afwijking hadden er 57 betrekking op de vermelding in de resultatenrekening van de bestanddelen van de exploitatierekening of van bepaalde bestanddelen hiervan, meer in het bijzonder het omzetcijfer; drie aanvragen hadden betrekking op de vermelding in de toelichting, van participaties aangehouden in andere vennootschappen of van betrekkingen met verbonden ondernemingen.
@@ -116,7 +114,6 @@ Aan 24 steenkoolmijnen in vereffening, ten slotte, - ondernemingen waarvan de ve
 Een zeker aantal aanvragen werd als niet-ontvankelijk beschouwd daar ze betrekking hadden op het principe zelf van de opstelling van een jaarrekening of op de toepassing van de schema's gevoegd bij het koninklijk besluit van 8 oktober 1976.
 
 ## PROCEDURE
-
 Wat de procedure betreft, wil de Commissie twee opmerkingen formuleren : een eerste met betrekking tot de motivering van de aanvragen, een tweede met betrekking tot de termijn van indiening van deze aanvragen.
 
 Talrijke aanvragen tot afwijking waren slechts summier gemotiveerd; verschillende ervan bevatten geen enkele informatie die het mogelijk maakte de gegrondheid van de aanvraag te beoordelen. In al deze gevallen dienden bijkomende inlichtingen gevraagd te worden, wat dan ook gebeurd is. Naast de verzwaring van het administratief werk die hieruit voortvloeide, mag er ook op gewezen worden dat beslissingen tot weigering zich vaak opdrongen gelet op de ontoereikendheid of het ontbreken van motivering.

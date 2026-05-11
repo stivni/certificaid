@@ -7,41 +7,41 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/het-begrip-financiele-instelling
 nummer: CBN-advies 120/2
 provenance:
+  generated_at: '2026-05-11T17:48:38Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/in-aanmerking-te-nemen-termijn-contractuele-termijn-of-nog-te-lopen-termijn
       sha256: 250bb526c3f37563d22490c4933153d5dccd5798ededcbf5ec312e8160465477
       version:
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
-    status: needs-rework
     confirmed_at: '2026-05-11T17:05:20Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "F1: frontmatter regel 6 bevat ongedecodeerde HTML-entity '&quot;' in het veld gerelateerde_adviezen.titel ('Het begrip &quot;financiële instelling&quot;') — ETL-bug (scraper decoded niet). Body (één paragraaf) is volledig schoon en inhoudelijk compleet."
     layer1:
-      file_size_chars: 1126
-      flags: []
+      status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:41Z'
       heading_count: 0
       max_section_chars: 1126
-      run_at: '2026-05-11T15:05:48Z'
-      run_id: 20260511-150547
-      status: pass
+      file_size_chars: 1126
+      flags: []
     layer2:
-      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T17:05:20Z'
-      rationale: "F1: frontmatter regel 6 bevat ongedecodeerde HTML-entity '&quot;' in het veld gerelateerde_adviezen.titel ('Het begrip &quot;financiële instelling&quot;') — ETL-bug (scraper decoded niet). Body (één paragraaf) is volledig schoon en inhoudelijk compleet."
       concrete_problemen:
-        - regel: 6
-          categorie: F1
+        - categorie: F1
+          regel: 6
           type: other
           voorbeeld: 'titel: Het begrip &quot;financiële instelling&quot;'
+      rationale: 'F1: frontmatter regel 6 bevat ongedecodeerde HTML-entity ''&quot;'' in het veld gerelateerde_adviezen.titel (''Het begrip &quot;financiële instelling&quot;'') — ETL-bug (scraper decoded niet). Body (één paragraaf) is volledig schoon en inhoudelijk compleet.'
+      run_at: '2026-05-11T17:05:20Z'
+      status: needs-rework
+    rationale: 'F1: frontmatter regel 6 bevat ongedecodeerde HTML-entity ''&quot;'' in het veld gerelateerde_adviezen.titel (''Het begrip &quot;financiële instelling&quot;'') — ETL-bug (scraper decoded niet). Body (één paragraaf) is volledig schoon en inhoudelijk compleet.'
+    status: needs-rework
 themas:
   - beschikbare waarden
   - contractuele termijn

@@ -22,35 +22,31 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
+    pipeline_version: 11f9196
     model:
     prompt_version:
-  generated_at: '2026-05-11T15:15:31Z'
+  generated_at: '2026-05-11T17:48:39Z'
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T17:09:39Z'
+    status: trusted
+    confirmed_at: '2026-05-11T17:51:53Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: 'G3/A6: regel 66 `, bijgewerkt op 10 september 2025 [^2]` staat als alleenstaande body-alinea direct na de H1-titel — bijwerkingsannotatie die door de CBN-scraper als body-tekst is ingevoegd in plaats van als frontmatter-veld. Dit is een systematisch ETL-artefact (zelfde patroon als 2016/21). Verdere inhoud volledig correct: 4 headings, voetnoten [^1]–[^7] aanwezig.'
+    rationale: 'Kort advies (5k chars), volledig schoon. Vier ##-secties correct benoemd, voetnoten [^1]–[^7] volledig gekoppeld, geen artefacten in categorie A t/m G. Inhoud compleet (inleiding, vraagstelling, toepasselijke standaard, vrijstelling).'
     layer1:
-      file_size_chars: 5053
-      flags: []
-      heading_count: 4
-      max_section_chars: 2104
-      run_at: '2026-05-11T15:05:52Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:44Z'
+      heading_count: 4
+      max_section_chars: 2103
+      file_size_chars: 5009
+      flags: []
     layer2:
-      status: needs-rework
+      status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T17:09:39Z'
-      rationale: 'G3/A6: regel 66 `, bijgewerkt op 10 september 2025 [^2]` staat als alleenstaande body-alinea direct na de H1-titel — bijwerkingsannotatie die door de CBN-scraper als body-tekst is ingevoegd in plaats van als frontmatter-veld. Dit is een systematisch ETL-artefact (zelfde patroon als 2016/21). Verdere inhoud volledig correct: 4 headings, voetnoten [^1]–[^7] aanwezig.'
-      concrete_problemen:
-        - regel: 66
-          categorie: G3
-          type: other
-          voorbeeld: ', bijgewerkt op 10 september 2025 [^2] (bijwerkingsannotatie als body-tekst i.p.v. frontmatter)'
+      run_at: '2026-05-11T17:51:53Z'
+      rationale: 'Kort advies (5k chars), volledig schoon. Vier ##-secties correct benoemd, voetnoten [^1]–[^7] volledig gekoppeld, geen artefacten in categorie A t/m G. Inhoud compleet (inleiding, vraagstelling, toepasselijke standaard, vrijstelling).'
+      concrete_problemen: []
 themas:
   - consolidatie
   - subconsolidatie
@@ -63,20 +59,15 @@ themas:
 
 # CBN-advies 2016/19 – Consortium: toepasselijke rapporteringsstandaard – vrijstelling van subconsolidatie (update)
 
-, bijgewerkt op 10 september 2025 [^2]
-
 ## Inleiding
-
 De NV XYZ en NV ABC staan onder centrale leiding en de NV XYZ stelt een geconsolideerde jaarrekening op in overeenstemming met het Belgisch boekhoudrecht, terwijl de NV ABC een geconsolideerde jaarrekening opstelt volgens de IFRS-normen.
 
 ## Vraagstelling
-
 De vennootschappen die samen een consortium uitmaken, overschrijden op geconsolideerde basis meer dan één van de criteria van artikel 1:26 van het Wetboek van vennootschappen en verenigingen (hierna: WVV). NV 456, een dochtervennootschap van NV ABC stelt reeds een geconsolideerde jaarrekening op volgens de IFRS-normen daar deze vennootschap kwalificeert als moedervennootschap en beursgenoteerd is op een gereglementeerde markt[^3]. Een geconsolideerde jaarrekening in hoofde van het consortium dient te worden opgesteld en de vraag stelt zich welke rapporteringsstandaard dient te worden toegepast: de IFRS-normen of het Belgisch boekhoudrecht.
 
 Daarnaast wordt de vraag gesteld of de opmaak van een geconsolideerde jaarrekening in hoofde van het consortium de leden van het consortium ontslaat om een sub-geconsolideerde jaarrekening van de NV XYZ en de NV ABC op te stellen.
 
 ## Toepasselijke rapporteringsstandaard
-
 Artikel 3:104, § 1 van het koninklijk besluit tot uitvoering van het Wetboek van vennootschappen en verenigingen (hierna: KB WVV) stelt dat de geconsolideerde jaarrekening moet worden opgesteld overeenkomstig de Belgische consolidatiebeginselen. Het bestuursorgaan kan echter de beslissing nemen om de geconsolideerde jaarrekening op te stellen met toepassing van de IFRS-normen.[^4]
  Indien de geconsolideerde jaarrekening wordt opgesteld overeenkomstig de IFRS-normen is dergelijke keuze onherroepbaar. Dit impliceert dat een vennootschap die bij de opmaak van een geconsolideerde jaarrekening kiest voor de IFRS-normen niet kan terugkeren naar de Belgische consolidatiebeginselen.[^5] 
 
@@ -87,7 +78,6 @@ De Commissie wenst de nadruk te vestigen op artikel 3:115 KB WVV hetgeen explici
 In het geval dat NV ABC een genoteerde vennootschap zou zijn op een gereglementeerde markt en haar geconsolideerde jaarrekening opstelt in overeenstemming met de IFRS-normen is de Commissie van oordeel dat de geconsolideerde jaarrekening van het consortium enkel kan worden opgesteld door gebruik te maken van de IFRS-normen. De Commissie wenst er op te wijzen dat een vermoeden van centrale leiding tevens een invloed kan hebben op de bepaling van de consolidatiekring onder IFRS 10 in hoofde van de NV ABC.
 
 ## Vrijstelling van subconsolidatie
-
 De vrijstelling van subconsolidatie is voorzien in artikel 3:24 WVV.
 
 Overeenkomstig artikel 3:24 WVV[^7] wordt elk lid van het consortium aanzien als een consoliderende vennootschap. Van zodra het consortium een geconsolideerde jaarrekening opstelt, is de Commissie van oordeel dat ieder lid van het consortium de vrijstelling van subconsolidatie kan inroepen op voorwaarde dat artikel 3:26, § 2 WVV wordt nageleefd.

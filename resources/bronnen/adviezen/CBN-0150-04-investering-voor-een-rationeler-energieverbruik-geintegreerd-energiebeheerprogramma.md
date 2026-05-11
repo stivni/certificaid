@@ -3,41 +3,41 @@ bron: https://www.cbn-cnc.be/nl/adviezen/investering-voor-een-rationeler-energie
 datum: 1988-06-01
 nummer: CBN-advies 150/4
 provenance:
+  generated_at: '2026-05-11T17:48:38Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/investering-voor-een-rationeler-energieverbruik-geintegreerd-energiebeheerprogramma
       sha256: 1fc7b7bd9e51b597389bca924c94891da92c68a7424020649eeecab3bd0a68d9
       version:
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
-    status: needs-rework
     confirmed_at: '2026-05-11T17:05:21Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "A6 (regel 60): afbreekstreepje 'energie- aankopen' staat nog steeds met een spatie na het koppelteken — PDF-afbreekstreepje niet samengevoegd door ETL, ongewijzigd t.o.v. ronde 2. Enige bug in dit korte document; inhoud verder volledig."
     layer1:
-      file_size_chars: 2951
-      flags: []
+      status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:41Z'
       heading_count: 0
       max_section_chars: 2951
-      run_at: '2026-05-11T15:05:49Z'
-      run_id: 20260511-150547
-      status: pass
+      file_size_chars: 2951
+      flags: []
     layer2:
-      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T17:05:21Z'
-      rationale: "A6 (regel 60): afbreekstreepje 'energie- aankopen' staat nog steeds met een spatie na het koppelteken — PDF-afbreekstreepje niet samengevoegd door ETL, ongewijzigd t.o.v. ronde 2. Enige bug in dit korte document; inhoud verder volledig."
       concrete_problemen:
-        - regel: 60
-          categorie: A6
+        - categorie: A6
+          regel: 60
           type: other
           voorbeeld: de werkelijke kost van de energie- aankopen is bestemd voor de verkoper
+      rationale: 'A6 (regel 60): afbreekstreepje ''energie- aankopen'' staat nog steeds met een spatie na het koppelteken — PDF-afbreekstreepje niet samengevoegd door ETL, ongewijzigd t.o.v. ronde 2. Enige bug in dit korte document; inhoud verder volledig.'
+      run_at: '2026-05-11T17:05:21Z'
+      status: needs-rework
+    rationale: 'A6 (regel 60): afbreekstreepje ''energie- aankopen'' staat nog steeds met een spatie na het koppelteken — PDF-afbreekstreepje niet samengevoegd door ETL, ongewijzigd t.o.v. ronde 2. Enige bug in dit korte document; inhoud verder volledig.'
+    status: needs-rework
 themas:
   - energiebesparende investeringen
   - geïntegreerd energiebeheerprogramma

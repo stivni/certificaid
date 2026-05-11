@@ -7,37 +7,37 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/overboeking-van-winsten-naar-de-belastingvrije-reserves-verwerking-in-de-jaarrekening-van
 nummer: CBN-advies 128/5
 provenance:
+  generated_at: '2026-05-11T17:48:38Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/vrijstelling-investeringsreserves-controle-op-de-toepassing-van-het-boekhoudrecht
       sha256: 1f6cbbb2dc9091c13e3acd7ca6db923a1d5098e683b5a6f341ec91c68ac30ab7
       version:
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
-    status: trusted
     confirmed_at: '2026-05-11T15:15:33Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: Geen ETL-artefacten aangetroffen. Genummerde paragrafen (1, 2, 3) zijn inhoudelijk correct gestructureerd. Voetnoten [^1] en [^2] zijn aanwezig en correct geankerd. Herhaling van de titel op L49 na de H1 is een scraper-eigenaardigheid maar niet leesbaarheidsschadelijk en waarschijnlijk afkomstig van de bronpagina.
     layer1:
-      file_size_chars: 3913
-      flags: []
-      heading_count: 1
-      max_section_chars: 3913
-      run_at: '2026-05-11T15:05:48Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:41Z'
+      heading_count: 1
+      max_section_chars: 3912
+      file_size_chars: 3912
+      flags: []
     layer2:
-      status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:15:33Z'
-      rationale: Geen ETL-artefacten aangetroffen. Genummerde paragrafen (1, 2, 3) zijn inhoudelijk correct gestructureerd. Voetnoten [^1] en [^2] zijn aanwezig en correct geankerd. Herhaling van de titel op L49 na de H1 is een scraper-eigenaardigheid maar niet leesbaarheidsschadelijk en waarschijnlijk afkomstig van de bronpagina.
       concrete_problemen: []
+      rationale: Geen ETL-artefacten aangetroffen. Genummerde paragrafen (1, 2, 3) zijn inhoudelijk correct gestructureerd. Voetnoten [^1] en [^2] zijn aanwezig en correct geankerd. Herhaling van de titel op L49 na de H1 is een scraper-eigenaardigheid maar niet leesbaarheidsschadelijk en waarschijnlijk afkomstig van de bronpagina.
+      run_at: '2026-05-11T15:15:33Z'
+      status: trusted
+    rationale: Geen ETL-artefacten aangetroffen. Genummerde paragrafen (1, 2, 3) zijn inhoudelijk correct gestructureerd. Voetnoten [^1] en [^2] zijn aanwezig en correct geankerd. Herhaling van de titel op L49 na de H1 is een scraper-eigenaardigheid maar niet leesbaarheidsschadelijk en waarschijnlijk afkomstig van de bronpagina.
+    status: trusted
 themas:
   - investeringreserve
   - leasing
@@ -59,7 +59,6 @@ In concreto denk ik aan de verkeerde toepassing van bijvoorbeeld hetgeen voorzie
 Zal in deze gevallen de vrijstelling van de investeringsreserve afgewezen worden? 
 
 ## Antwoord van de Minister van Economische Zaken
-
 Ter aanvulling van het antwoord van de Vice-Eerste Minister en Minister van Financiën en Buitenlandse Handel op de vraag van het geachte Lid en na het advies van de Commissie voor Boekhoudkundige Normen te hebben ingewonnen, wil ik het volgende verduidelijken : 
 
 1. De bepalingen van de wet van 17 juli 1975 op de boekhouding en de jaarrekening van de ondernemingen en van haar uitvoeringsbesluiten zijn van dwingende aard en niet louter suppletief : zulks blijkt ten overvloede uit de strafrechtelijke sanctie waarmee niet-naleving van deze bepalingen wordt beteugeld. 

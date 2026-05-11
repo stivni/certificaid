@@ -2,73 +2,56 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/waardering-van-voorraden-gezamenlijke-aankoop-en-doorverkoop-per-stuk
 datum: 2016-05-04
 gerelateerde_adviezen:
-- datum: '1989-09-01'
-  titel: Waardering van de aanschaffingsprijs van de voorraden op grond van de verkoopprijs
-  url: https://www.cbn-cnc.be/nl/adviezen/waardering-van-de-aanschaffingsprijs-van-de-voorraden-op-grond-van-de-verkoopprijs
+  - datum: '1989-09-01'
+    titel: Waardering van de aanschaffingsprijs van de voorraden op grond van de verkoopprijs
+    url: https://www.cbn-cnc.be/nl/adviezen/waardering-van-de-aanschaffingsprijs-van-de-voorraden-op-grond-van-de-verkoopprijs
 nummer: CBN-advies 2016/5
 provenance:
-  generated_at: '2026-05-11T15:15:31Z'
+  generated_at: '2026-05-11T17:48:39Z'
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/waardering-van-voorraden-gezamenlijke-aankoop-en-doorverkoop-per-stuk
-    sha256: e3615402540f4ab313f289d0f842228b7e8e816f54c662f9fd08dc0a74bd34b0
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/waardering-van-voorraden-gezamenlijke-aankoop-en-doorverkoop-per-stuk
+      sha256: e3615402540f4ab313f289d0f842228b7e8e816f54c662f9fd08dc0a74bd34b0
+      version:
   stale: false
-  stale_reason: null
+  stale_reason:
   tooling:
-    model: null
+    model:
     pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    prompt_version: null
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
     confirmed_at: '2026-05-11T12:16:34Z'
     confirmed_by: subagent-sonnet-4-6
     layer1:
-      file_size_chars: 10065
-      flags: []
-      heading_count: 3
-      max_section_chars: 7245
-      run_at: '2026-05-11T15:05:52Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:43Z'
+      heading_count: 3
+      max_section_chars: 7244
+      file_size_chars: 10062
+      flags: []
     layer2:
       agent: subagent-sonnet-4-6
       concrete_problemen:
-      - categorie: A6
-        regel: 82
-        type: other
-        voorbeeld: om de aanschaffingswaarde van een voorraad te bepalen waarbij van
-          de detailverkoopprijs van deze voorraden, de marge wordt afgetrokken waarmee
-          de aanschaffingsprijs werd verhoogd om de verkoopprijs vast te stellen.
-      rationale: 'Geen extractie-artefacten aangetroffen. Tekst is doorlopend en vlot
-        leesbaar, headings correct genummerd (3 stuks), voetnoten [^1]–[^12] volledig
-        gedefinieerd en gesloten. Enige kleine onregelmatigheid op regel 82–84: zin
-        loopt door over twee regels met een harde regelbreuk middenin (''om de aanschaffingswaarde
-        van een voorraad te bepalen waarbij van de detailverkoopprijs van deze voorraden,
-        de marge wordt afgetrokken… / grond van de verkoopprijs''), maar dit stamt
-        vermoedelijk uit de bronparagraaf en is niet ernstig genoeg om needs-rework
-        te rechtvaardigen. Alle inhoudelijke secties aanwezig.'
+        - categorie: A6
+          regel: 82
+          type: other
+          voorbeeld: om de aanschaffingswaarde van een voorraad te bepalen waarbij van de detailverkoopprijs van deze voorraden, de marge wordt afgetrokken waarmee de aanschaffingsprijs werd verhoogd om de verkoopprijs vast te stellen.
+      rationale: 'Geen extractie-artefacten aangetroffen. Tekst is doorlopend en vlot leesbaar, headings correct genummerd (3 stuks), voetnoten [^1]–[^12] volledig gedefinieerd en gesloten. Enige kleine onregelmatigheid op regel 82–84: zin loopt door over twee regels met een harde regelbreuk middenin (''om de aanschaffingswaarde van een voorraad te bepalen waarbij van de detailverkoopprijs van deze voorraden, de marge wordt afgetrokken… / grond van de verkoopprijs''), maar dit stamt vermoedelijk uit de bronparagraaf en is niet ernstig genoeg om needs-rework te rechtvaardigen. Alle inhoudelijke secties aanwezig.'
       run_at: '2026-05-11T12:16:34Z'
       status: trusted
-    rationale: 'Geen extractie-artefacten aangetroffen. Tekst is doorlopend en vlot
-      leesbaar, headings correct genummerd (3 stuks), voetnoten [^1]–[^12] volledig
-      gedefinieerd en gesloten. Enige kleine onregelmatigheid op regel 82–84: zin
-      loopt door over twee regels met een harde regelbreuk middenin (''om de aanschaffingswaarde
-      van een voorraad te bepalen waarbij van de detailverkoopprijs van deze voorraden,
-      de marge wordt afgetrokken… / grond van de verkoopprijs''), maar dit stamt vermoedelijk
-      uit de bronparagraaf en is niet ernstig genoeg om needs-rework te rechtvaardigen.
-      Alle inhoudelijke secties aanwezig.'
+    rationale: 'Geen extractie-artefacten aangetroffen. Tekst is doorlopend en vlot leesbaar, headings correct genummerd (3 stuks), voetnoten [^1]–[^12] volledig gedefinieerd en gesloten. Enige kleine onregelmatigheid op regel 82–84: zin loopt door over twee regels met een harde regelbreuk middenin (''om de aanschaffingswaarde van een voorraad te bepalen waarbij van de detailverkoopprijs van deze voorraden, de marge wordt afgetrokken… / grond van de verkoopprijs''), maar dit stamt vermoedelijk uit de bronparagraaf en is niet ernstig genoeg om needs-rework te rechtvaardigen. Alle inhoudelijke secties aanwezig.'
     status: trusted
 themas:
-- aftrekmethode
-- handelsgoederen
-- individuele waardering
-- voorraad
+  - aftrekmethode
+  - handelsgoederen
+  - individuele waardering
+  - voorraad
 ---
 
 # CBN-advies 2016/5 - Waardering van voorraden: gezamenlijke aankoop en doorverkoop per stuk
 
 ## Inleiding
-
 In onderhavig advies wordt onderzocht hoe de voorraad moet worden gewaardeerd van een vennootschap die in bulk vooraf aangekochte goederen per stuk verkoopt.
 
 De individuele waardering bij doorverkoop per stuk in huidige staat en in onveranderde vorm is afhankelijk van de criteria die de verkoper kent zoals, onder andere, het specifieke karakter en de zeldzaamheid van het stuk en kan bijgevolg sterk verschillen van stuk tot stuk.
@@ -76,7 +59,6 @@ De individuele waardering bij doorverkoop per stuk in huidige staat en in onvera
 Bijgevolg dient in het voorliggende geval een waarderingsmethode voor de voorraad te worden bepaald die overeenstemt met het boekhoudrecht.
 
 ## Geldige principes
-
 De Commissie voor boekhoudkundige normen heeft meerdere adviezen gepubliceerd met betrekking tot de boeking en waardering van voorraden[^2] waarin onder meer de afzonderlijke waardering van voorraden en materiële vaste activa[^3] alsook de waardering van de aanschaffingsprijs van de voorraden op grond van de verkoopprijs[^4] worden behandeld.
 
 Wat de afzonderlijke waardering van stukken van eenzelfde partij betreft, wordt er verwezen naar CBN-advies 126/6 met betrekking tot de aankoop voor een totaalprijs van een partij gebruikt materieel en gebruikte reserveonderdelen die mits bewerking of herstelling opnieuw worden gecommercialiseerd.
@@ -92,7 +74,6 @@ Slechts bij gebrek aan dergelijke criteria kan de boeking van de partij tegen de
 In het kader van de waardering van de overblijvende voorraad wordt in CBN-advies 126/6 ook de eventuele toepassing behandeld van de “lagere marktwaarde” ingeval van verlenging van de opslagtermijn.[^6] 
 
 ## Specifieke toepasbaarheid
-
 In het geval dat wordt behandeld in onderhavig advies komt het er bijgevolg op neer om de aanschaffingsprijs te verdelen over elk element van de partij aan de hand van objectieve criteria.
 
 Een gelijke verdeling van de aanschaffingsprijs van de partij over de verschillende bestanddelen zou in onderhavig geval niet beantwoorden aan de voorwaarde van verdeling volgens objectieve criteria gezien de mogelijke verscheidenheid van de stukken van elke partij.

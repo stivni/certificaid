@@ -2,59 +2,52 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/omzet-van-expediteurs
 datum: 1988-06-01
 gerelateerde_adviezen:
-- datum: '1977-08-01'
-  titel: Omzet - Tussenpersonen
-  url: https://www.cbn-cnc.be/nl/adviezen/omzet-tussenpersonen
+  - datum: '1977-08-01'
+    titel: Omzet - Tussenpersonen
+    url: https://www.cbn-cnc.be/nl/adviezen/omzet-tussenpersonen
 nummer: CBN-advies 103/2
 provenance:
-  generated_at: '2026-05-11T15:15:31Z'
+  generated_at: '2026-05-11T17:48:38Z'
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/omzet-van-expediteurs
-    sha256: 0fcedc7f243f950032bc4e7d023cbbc343cbbdbd46b67fc118a0782b048bf7c0
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/omzet-van-expediteurs
+      sha256: 0fcedc7f243f950032bc4e7d023cbbc343cbbdbd46b67fc118a0782b048bf7c0
+      version:
   stale: false
-  stale_reason: null
+  stale_reason:
   tooling:
-    model: null
+    model:
     pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    prompt_version: null
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
     confirmed_at: '2026-05-11T13:16:02Z'
     confirmed_by: subagent-sonnet-4-6
     layer1:
-      file_size_chars: 3952
-      flags: []
-      heading_count: 0
-      max_section_chars: 3952
-      run_at: '2026-05-11T15:05:47Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:40Z'
+      heading_count: 0
+      max_section_chars: 3951
+      file_size_chars: 3951
+      flags: []
     layer2:
       agent: subagent-sonnet-4-6
       concrete_problemen: []
-      rationale: 'Bugs B3 (duplicate heading) en D4 (gebroken italic ''*Bulletin *'')
-        zijn beide opgelost: body bevat één heading op regel 58 en ''*Bulletin*''
-        is correct gesloten op regel 60. Inhoud is volledig met voetnoten en antwoord
-        van de Minister. Ziet eruit als mens-geschreven.'
+      rationale: 'Bugs B3 (duplicate heading) en D4 (gebroken italic ''*Bulletin *'') zijn beide opgelost: body bevat één heading op regel 58 en ''*Bulletin*'' is correct gesloten op regel 60. Inhoud is volledig met voetnoten en antwoord van de Minister. Ziet eruit als mens-geschreven.'
       run_at: '2026-05-11T13:16:02Z'
       status: trusted
-    rationale: 'Bugs B3 (duplicate heading) en D4 (gebroken italic ''*Bulletin *'')
-      zijn beide opgelost: body bevat één heading op regel 58 en ''*Bulletin*'' is
-      correct gesloten op regel 60. Inhoud is volledig met voetnoten en antwoord van
-      de Minister. Ziet eruit als mens-geschreven.'
+    rationale: 'Bugs B3 (duplicate heading) en D4 (gebroken italic ''*Bulletin *'') zijn beide opgelost: body bevat één heading op regel 58 en ''*Bulletin*'' is correct gesloten op regel 60. Inhoud is volledig met voetnoten en antwoord van de Minister. Ziet eruit als mens-geschreven.'
     status: trusted
 themas:
-- commissionair
-- expediteur
-- makelaar
-- omzet
-- mandataris
-- tussenpersoon
+  - commissionair
+  - expediteur
+  - makelaar
+  - omzet
+  - mandataris
+  - tussenpersoon
 ---
 
 # CBN advies 103/2 - Omzet van expediteurs
-
 In het *Bulletin* van de Commissie voor Boekhoudkundige Normen nr. 1 van augustus 1977, blz. 12 tot en met 14, heeft hoger vermeld orgaan zich uitgesproken over het op te geven omzetcijfer door tussenpersonen. 
 
 Volgens deze omschrijving, alinea 2, moet onderscheid gemaakt worden tussen omzet, kosten en opbrengsten van respectievelijk de makelaar en de andere ondernemingen. 

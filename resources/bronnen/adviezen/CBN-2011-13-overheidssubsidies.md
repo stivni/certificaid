@@ -3,57 +3,57 @@ bron: https://www.cbn-cnc.be/nl/adviezen/overheidssubsidies
 datum: 2011-05-04
 nummer: CBN-advies 2011/13
 provenance:
+  generated_at: '2026-05-11T17:48:39Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/overheidssubsidies
       sha256: f994ee22711e985d88df6a643db5ad06c0f9102fb6dcbdaeb8dfcd2296467fab
       version:
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
-    status: needs-rework
     confirmed_at: '2026-05-11T17:09:38Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "Meerdere ETL-problemen bevestigd: B1 op r119 '### *Tijdstip waarop de subsidie moet geboekt worden*' en r303 '### *Interestsubidies*' — italic-markup binnenin heading-label (ETL-artefact); D4 op r180 'post* Kapitaalsubsidies*' — italic-marker midden in woord 'post'; A6 op r366 '-Inventarisboeking' — ontbrekende spatie na koppelteken (geen geldige bullet/inline-marker). Schrijffout 'Interestsubidies' op r303 is een source-typo (markeert als (source), telt niet als grond voor needs-rework). De eerder gerapporteerde A3 (r62-88 TOC) is niet bevestigd in de body."
     layer1:
-      file_size_chars: 40793
-      flags: []
-      heading_count: 25
-      max_section_chars: 13810
-      run_at: '2026-05-11T15:05:50Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:43Z'
+      heading_count: 25
+      max_section_chars: 13806
+      file_size_chars: 40767
+      flags: []
     layer2:
-      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T17:09:38Z'
-      rationale: "Meerdere ETL-problemen bevestigd: B1 op r119 '### *Tijdstip waarop de subsidie moet geboekt worden*' en r303 '### *Interestsubidies*' — italic-markup binnenin heading-label (ETL-artefact); D4 op r180 'post* Kapitaalsubsidies*' — italic-marker midden in woord 'post'; A6 op r366 '-Inventarisboeking' — ontbrekende spatie na koppelteken (geen geldige bullet/inline-marker). Schrijffout 'Interestsubidies' op r303 is een source-typo (markeert als (source), telt niet als grond voor needs-rework). De eerder gerapporteerde A3 (r62-88 TOC) is niet bevestigd in de body."
       concrete_problemen:
-        - regel: 119
-          categorie: B1
+        - categorie: B1
+          regel: 119
           type: other
           voorbeeld: '### *Tijdstip waarop de subsidie moet geboekt worden*'
-        - regel: 303
-          categorie: B1
+        - categorie: B1
+          regel: 303
           type: other
           voorbeeld: '### *Interestsubidies*'
-        - regel: 303
-          categorie: (source)
+        - categorie: (source)
+          regel: 303
           type: source-typo
-          voorbeeld: "Interestsubidies (source-typo: 'Interestsubidies' i.p.v. 'Interestsubsidies')"
-        - regel: 180
-          categorie: D4
+          voorbeeld: 'Interestsubidies (source-typo: ''Interestsubidies'' i.p.v. ''Interestsubsidies'')'
+        - categorie: D4
+          regel: 180
           type: other
           voorbeeld: post* Kapitaalsubsidies* opgenomen onder
-        - regel: 366
-          categorie: A6
+        - categorie: A6
+          regel: 366
           type: other
           voorbeeld: -Inventarisboeking
+      rationale: 'Meerdere ETL-problemen bevestigd: B1 op r119 ''### *Tijdstip waarop de subsidie moet geboekt worden*'' en r303 ''### *Interestsubidies*'' — italic-markup binnenin heading-label (ETL-artefact); D4 op r180 ''post* Kapitaalsubsidies*'' — italic-marker midden in woord ''post''; A6 op r366 ''-Inventarisboeking'' — ontbrekende spatie na koppelteken (geen geldige bullet/inline-marker). Schrijffout ''Interestsubidies'' op r303 is een source-typo (markeert als (source), telt niet als grond voor needs-rework). De eerder gerapporteerde A3 (r62-88 TOC) is niet bevestigd in de body.'
+      run_at: '2026-05-11T17:09:38Z'
+      status: needs-rework
+    rationale: 'Meerdere ETL-problemen bevestigd: B1 op r119 ''### *Tijdstip waarop de subsidie moet geboekt worden*'' en r303 ''### *Interestsubidies*'' — italic-markup binnenin heading-label (ETL-artefact); D4 op r180 ''post* Kapitaalsubsidies*'' — italic-marker midden in woord ''post''; A6 op r366 ''-Inventarisboeking'' — ontbrekende spatie na koppelteken (geen geldige bullet/inline-marker). Schrijffout ''Interestsubidies'' op r303 is een source-typo (markeert als (source), telt niet als grond voor needs-rework). De eerder gerapporteerde A3 (r62-88 TOC) is niet bevestigd in de body.'
+    status: needs-rework
 themas:
   - administratieve overheid
   - exploitatiesubsidie
@@ -80,7 +80,6 @@ themas:
 # CBN-advies 2011/13 – Overheidssubsidies
 
 ## Inleiding
-
 Subsidiëring door de overheid kan uit verschillende reglementeringen voortspruiten en uiteenlopende doelstellingen nastreven. Overheden kunnen, onder vooraf vastgestelde voorwaarden, subsidies verstrekken die aanzetten tot investeren of rechtstreeks het exploitatieresultaat beïnvloeden.
 
 In onderhavig advies wordt de boekhoudkundige verwerking van overheidssubsidies in hoofde van vennootschappen toegelicht[^1].
@@ -90,7 +89,6 @@ Onder de term “subsidie” verstaat de Commissie, in het kader van dit advies,
 De door de overheid aan een vennootschap toegekende sommen, goederen of diensten kunnen de vorm aannemen van een kapitaalsubsidie, een interestsubsidie of een exploitatiesubsidie.
 
 ## Toepassingsgebied
-
 Het begrip overheidssubsidies verwijst naar steun door een overheid aan een onderneming indien de onderneming aan bepaalde voorwaarden voldoet.
 
 Overheidssubsidies omvatten geen vormen van overheidssteun die niet redelijkerwijze kunnen worden gewaardeerd, en omvatten evenmin transacties met een overheid die niet kunnen worden onderscheiden van de normale handelstransacties van de onderneming.
@@ -111,9 +109,7 @@ Zich deels baserend op de rechtspraak van de Raad van State en het Hof van Cassa
 Het begrip “overheid” slaat tevens op de internationale en supranationale publiekrechtelijke instellingen, indien deze, *mutatis mutandis*, aan dezelfde vereisten voldoen om als openbare instelling te kwalificeren.
 
 ## Algemeen
-
 ### *Tijdstip waarop de subsidie moet geboekt worden*
-
 Een subsidie moet niet op datum van de effectieve uitbetaling ervan worden ingeschreven, doch wel op het ogenblik waarop het recht van de onderneming op deze subsidie komt vast te staan en de subsidie redelijkerwijze gewaardeerd kan worden. 
 
 Het koninklijk besluit van 30 januari 2001 tot uitvoering van het Wetboek van Vennootschappen (hierna KB W.Venn.) bepaalt immers in artikel 33 dat er rekening moet worden gehouden met de kosten en opbrengsten die betrekking hebben op het boekjaar of op voorgaande boekjaren, ongeacht de dag waarop deze kosten en opbrengsten worden betaald of geïnd.
@@ -129,7 +125,6 @@ Daarenboven moet het bedrag van de subsidie redelijkerwijze gewaardeerd kunnen w
 In het uitzonderlijke geval dat voorschotten werden verkregen vooraleer de subsidie als vaststaand en redelijkerwijze waardeerbaar kan worden beschouwd, worden zij op het passief (onder de schulden op ten hoogste één jaar) als ontvangen vooruitbetalingen geboekt. 
 
 ## Voorbeeld 1
-
 Een onderneming ontvangt op 1 juni van jaar N een brief waarin de overheid haar meedeelt dat zij per nieuw aangeworven werknemer in jaar N een subsidie van 25% van het brutomaandloon van de werknemer in kwestie zal ontvangen. De subsidie zal teruggestort moeten worden indien de betrokken werknemer geen twee jaar in dienst blijft. 
 
 Op 1 juni van jaar N heeft de onderneming reeds 1 nieuwe werknemer aangenomen. De betrokken werknemer verdient 2.800 euro bruto per maand. De onderneming is ook van plan om nog een nieuwe werknemer aan te werven. Hiertoe is de sollicitatieprocedure reeds geopend.
@@ -137,7 +132,6 @@ Op 1 juni van jaar N heeft de onderneming reeds 1 nieuwe werknemer aangenomen. D
 De onderneming dient op 1 juni van het jaar N een subsidie van 700 euro in haar boeken op te nemen. Het feit dat deze subsidie gebonden is aan de ontbindende voorwaarde dat de werknemer twee jaar in dienst blijft, moet in de toelichting vermeld worden. Aangezien de andere werknemer nog niet is aangeworven, kan daarvoor, gelet op de opschortende voorwaarde van indienstneming, nog geen subsidie geboekt worden op 1 juni van het jaar N. 
 
 ## Voorbeeld 2
-
 Een onderneming dient in april van het jaar N bij de overheid een aanvraag in voor subsidiëring, gelet op een geplande investering in een luchtzuiveringsinstallatie in augustus van het jaar N. Op 1 oktober van het jaar N ontvangt de onderneming een brief van de overheid waarin gestipuleerd wordt dat zij een subsidie van 50.000 euro zal ontvangen, indien de installatie aan bepaalde normen beantwoordt (opschortende voorwaarde). De investering (reeds gedaan in augustus) voldoet aan deze normen. In februari van het jaar N+1 ontvangt de onderneming de betaling van de subsidie. De onderneming dient de kapitaalsubsidie op 1 oktober van het jaar N te boeken.
 
 Stel dat de onderneming de investering pas na ontvangst van de brief doet, dan zal de kapitaalsubsidie dienen geboekt te worden van zodra de opschortende voorwaarde vervuld is. 
@@ -147,7 +141,6 @@ Indien de opschortende voorwaarde met zekerheid niet vervuld is voor het einde v
 De Commissie wenst eraan te herinneren dat de beoordeling van het al dan niet onzeker karakter van de vervulling van de voorwaarde, in eerste instantie tot de bevoegdheid van het bestuursorgaan behoort. Een antwoord *in abstracto* kan niet gegeven worden[^9].
 
 ### *Subsidies in natura*
-
 De subsidies die verkregen worden onder de vorm van goederen, dienen gewaardeerd te worden tegen "werkelijke waarde", zijnde het bedrag waarvoor een actief kan worden verhandeld of een verplichting kan worden afgewikkeld tussen ter zake goed geïnformeerde, onafhankelijke partijen die uit vrije wil een transactie afsluiten. 
 
 De subsidies die verkregen worden onder de vorm van diensten, dienen in beginsel gewaardeerd te worden tegen hun waarschijnlijke realisatiewaarde[^10]. Indien de verkregen diensten niet redelijkerwijze waardeerbaar zijn, dienen deze naar het oordeel van de Commissie niet geboekt te worden. Het verkrijgen van de diensten valt meestal samen met het onmiddellijke verbruik ervan, wat sowieso tot een resultatencompenserend effect leidt.
@@ -155,7 +148,6 @@ De subsidies die verkregen worden onder de vorm van diensten, dienen in beginsel
 De subsidies in natura kunnen de vorm aannemen van een investeringssubsidie of een exploitatiesubsidie. De subsidies die worden verkregen onder de vorm van vaste activa, dienen evenwel als kapitaalsubsidies geboekt te worden[^11].
 
 ## Investeringssubsidies
-
 Investeringssubsidies zijn overheidssubsidies met als voornaamste voorwaarde dat een entiteit die hiervoor in aanmerking komt vaste activa moet kopen, bouwen of anderszins verwerven[^12].
 
 Naargelang van de financieringswijze van de investering komt de overheid tussen:
@@ -166,9 +158,7 @@ Naargelang van de financieringswijze van de investering komt de overheid tussen:
 Het bedrag van de geboekte kapitaal- en interestsubsidies door de overheid toegekend en aangerekend op het resultaat van het boekjaar, dient in de toelichting vermeld te worden.
 
 ### *Kapitaalsubsidies*
-
 #### Begrip en voorstelling in de jaarrekening (artikel 95 KB W.Venn.)
-
 Het KB W.Venn. definieert het begrip kapitaalsubsidie niet. Artikel 95 KB W.Venn. bepaalt enkel dat de passiefpost VI. *Kapitaalsubsidies* de kapitaalsubsidies omvat die van overheidswege[^13] werden verkregen voor investeringen in vaste activa, na aftrek van de uitgestelde belastingen op deze subsidies. Deze uitgestelde belastingen worden, voor zover van toepassing[^14], opgenomen in de passiefpost VII.B. *Uitgestelde belastingen*.
 
 Met subsidies die “van overheidswege” worden verkregen, doelde de Regering destijds hoofdzakelijk op de subsidies verstrekt in het kader van de wetgeving op de economische expansie. Het is evenwel evident dat in de boekhouding het begrip kapitaalsubsidie niet mag worden beperkt tot het domein van de economische expansiewetgeving. 
@@ -182,7 +172,6 @@ De eventuele uitgestelde belastingen op deze kapitaalsubsidies worden oorspronke
 De uitgestelde belastingen op de *kapitaalsubsidies* worden eveneens geleidelijk afgeboekt, gelijkmatig met de *kapitaalsubsidies* waarop ze betrekking hebben. Dit gebeurt via overboeking naar de post *Onttrekkingen aan de uitgestelde belastingen van de resultatenrekening*[^17]. 
 
 #### Toerekening van de subsidie aan de resultatenrekening
-
 *Afschrijfbare activa*
 
 Het tempo van de inresultaatname van de kapitaalsubsidies moet parallel lopen met het tempo van de afschrijvingen van de vaste activa voor de verwerving waarvan de subsidie werd bekomen. 
@@ -228,7 +217,6 @@ Boeking bij toerekening van de subsidie aan de resultatenrekening:
 | | [780 | Onttrekkingen aan de uitgestelde belastingen] | | |
 
 #### Terugbetaling
-
 Indien de onderneming (een deel van) de kapitaalsubsidie dient terug te betalen (bijvoorbeeld omdat de voorwaarden niet langer worden nageleefd), zal dit in de boekhouding tot uitdrukking moeten worden gebracht.
 
 Het terug te betalen percentage van de kapitaalsubsidies die nog niet in resultaat werden genomen, dient afgeboekt te worden. Het terug te betalen percentage van de kapitaalsubsidies die reeds in het resultaat werden opgenomen, dient geboekt te worden als *Diverse* *financiële kosten* (rekening 657), tenzij het om bijzondere redenen[^21] verantwoord zou zijn ze als *Andere uitzonderlijke kosten* (rekening 664) te boeken. De terug te betalen subsidies mogen in geen geval in mindering worden gebracht van de subsidies ontvangen tijdens of toegerekend tot het boekjaar, aangezien artikel 25, §2 KB W.Venn. elke vorm van compensatie uitsluit, ook al wordt ze in de toelichting uitgesplitst.
@@ -285,7 +273,6 @@ Boeking op het ogenblik van de terugbetaling van de helft van de kapitaalsubsidi
 | aan | 55 | Kredietinstellingen | | 2.500 |
 
 #### Particulariteiten
-
 *Fusies en (partiële) splitsingen*
 
 Voor de boekhoudkundige verwerking van kapitaalsubsidies bij fusies en (partiële) splitsingen, zie adviezen 2009/6[^22], 2009/8[^23] en 2009/11[^24].
@@ -297,9 +284,7 @@ Artikel 81 KB W.Venn. bepaalt dat bij inbreng van een bedrijfsafdeling of een al
 Indien een gesubsidieerd actief deel uitmaakt van een inbreng van een bedrijfsafdeling of van een algemeenheid van goederen, dient de kapitaalsubsidie bijgevolg uitgeboekt te worden bij de inbrengende vennootschap en voor hetzelfde bedrag terug te worden aangelegd bij de vennootschap waarin de inbreng gebeurt[^27].
 Deze kapitaalsubsidie dient in resultaat genomen te worden bij de verkrijgende vennootschap pro rata de afschrijvingen van het gesubsidieerde actief.
 ### *Interestsubidies*
-
 #### Begrip en voorstelling in de jaarrekening
-
 De overheid kan, in het kader van haar politiek ter bevordering van de investeringen, tussenkomen in de lasten van financiering van de investering. Zij betaalt derhalve een deel van de interestlast terug aan de onderneming.
 
 In toepassing van het beginsel van niet-compensatie mogen interestsubsidies niet in mindering worden gebracht van de betaalde intresten, maar dienen ze overeenkomstig artikel 96 KB W.Venn. in de resultatenrekening onder de post IV.C. *Andere financiële opbrengsten te worden opgenomen*[^28].
@@ -307,7 +292,6 @@ In toepassing van het beginsel van niet-compensatie mogen interestsubsidies niet
 Als een interestsubsidie ineens wordt uitbetaald, maar betrekking heeft op een over meerdere jaren gespreide investering, dan moet de interestsubsidie – gelet op het ‘matching principe’ en het beginsel van het getrouw beeld – gespreid in resultaat worden genomen parallel met de intresten waarop ze betrekking heeft.
 
 #### Boekhoudkundige verwerking
-
 - Boeking op het ogenblik dat het recht op de interestsubsidie komt vast te staan: 
 
 | | Rekening | Omschrijving | Debet | Credit |
@@ -332,9 +316,7 @@ Indien de geboekte interestsubsidie gedeeltelijk betrekking heeft op volgende bo
 | aan | 493 | Over te dragen opbrengsten | | |
 
 ## Exploitatiesubsidies
-
-### *Begrip en voorstelling in de jaarrekening* 
-
+### *Begrip en voorstelling in de jaarrekening*
 Exploitatiesubsidies zijn subsidies die niet afhankelijk zijn van een investering in vaste activa. Het betreft bedragen die door de overheid aan een entiteit worden toegekend om bepaalde exploitatiekosten te compenseren of te dekken. Artikel 95 KB W.Venn. bepaalt dat de kapitaalsubsidies die niet afhankelijk zijn van een investering in vaste activa worden geboekt als bedrijfsopbrengsten of financiële opbrengsten in de resultatenrekening. 
 
 Overeenkomstig artikel 96 KB W.Venn. worden de tegemoetkomingen van de overheid in het kader van een tariferingspolitiek als compensatie voor lagere ontvangsten onder de post I.A. *Omzet* geboekt, en worden exploitatiesubsidies onder de post I.D. *Andere bedrijfsopbrengsten* in de resultatenrekening opgenomen. Een exploitatiesubsidie dient geboekt te worden op het ogenblik waarop het recht van de onderneming op deze subsidie komt vast te staan en de subsidie redelijkerwijze gewaardeerd kan worden. 
@@ -344,7 +326,6 @@ Indien de effectieve toekenning van de exploitatiesubsidie niet samenvalt met de
 Het totaal bedrag van de subsidies (andere dan investeringssubsidies) dient in de toelichting vermeld te worden.
 
 ### *Boekhoudkundige verwerking*
-
 - Boeking op het ogenblik dat het recht op de exploitatiesubsidie komt vast te staan: 
 
 | | Rekening | Omschrijving | Debet | Credit |
@@ -369,19 +350,15 @@ Indien de geboekte exploitatiesubsidie gedeeltelijk betrekking heeft op volgende
 | aan | 493 | Over te dragen opbrengsten | | |
 
 ### Toepassingen
-
 #### Gedeeltelijke vrijstelling betaling bedrijfsvoorheffing
-
 De Commissie is van oordeel dat de gedeeltelijke vrijstelling van betaling van de bedrijfsvoorheffing, in de vorm van het wegvallen van een schuldvordering, als een exploitatiesubsidie moet worden beschouwd[^29]. 
 
 #### Particulariteit: overheidssubsidies ter financiering van het bedrijfskapitaal
-
 Overheidssubsidies die worden toegekend ter ondersteuning van bedrijven die als gevolg van een sterke omzetstijging een bijkomende behoefte aan nettobedrijfskapitaal hebben, dienen te worden toegerekend aan de boekjaren waarop zij krachtens de subsidiëringsbeslissing betrekking hebben[^30]. Indien de betrokken boekjaren reeds afgesloten zijn dan dient, luidens artikel 33, tweede lid KB W.Venn., daarvan in de toelichting melding te worden gemaakt. 
 
 Naar het oordeel van de Commissie vertoont zo’n subsidie het kenmerk van een financiële opbrengst. Het is immers de bedoeling van de subsidiërende overheid om via een financiële tegemoetkoming bij te dragen tot de financiering van de voorraden en vorderingen (i.e. van het bedrijfskapitaal) van de onderneming. Een boeking onder de rubriek IV.C. *Andere financiële opbrengsten* is derhalve aangewezen met een uitdrukkelijke vermelding in de toelichting (*cf.* Staat XIII, A van het volledig schema).
 
 ## Subsidies voor kosten van onderzoek en ontwikkeling
-
 Overeenkomstig artikel 95 KB W.Venn. kunnen als kosten van onderzoek en ontwikkeling onder de immateriële vaste activa worden geboekt de kosten van onderzoek, vervaardiging en ontwikkeling van prototypes en van producten, uitvindingen en knowhow, die nuttig zijn voor de ontwikkeling van de toekomstige activiteiten van de onderneming. 
 
 Deze kosten van onderzoek en ontwikkeling worden tegen vervaardigingsprijs op het actief geboekt voor zover die niet hoger is dan een voorzichtige raming van hun gebruikswaarde of van het toekomstig rendement voor de onderneming van deze vaste activa (artikel 60, eerste lid KB W.Venn.). 
@@ -395,7 +372,6 @@ Wanneer voor alle of sommige van deze kosten de in het besluit bepaalde voorwaar
 Anderzijds worden de in het kader van dit onderzoek verworven materiële vaste activa (gebouwen, laboratoria, materiaal, enz.) volgens de normale regels rechtstreeks op de desbetreffende actiefpost van de materiële vaste activa geboekt en wordt hun kostprijs geleidelijk ten laste genomen via afschrijvingen. 
 
 ### *Toekenning subsidies voor kosten van onderzoek en ontwikkeling*
-
 Vaak worden de kosten voor onderzoek en ontwikkeling gesubsidieerd door de overheid[^31]. De voorwaarden voor het toekennen van deze subsidies kunnen verschillen en hangen af van het wettelijk kader waarbinnen de subsidie werd toegekend en van diverse bijzondere bepalingen. Bij het tot uiting brengen van deze subsidies in de boekhouding zal derhalve rekening moeten worden gehouden met de aard van de subsidie en met de toekenningsvoorwaarden. 
 
 In beginsel loopt de boeking van subsidies parallel met de boeking van de kosten of de goederen waarvoor de subsidie werd toegekend. Hieruit volgt dat in de mate waarin de kosten van onderzoek en ontwikkeling als bedrijfskosten worden geboekt tijdens het boekjaar waarin deze kosten werden gemaakt, de subsidies die daarop betrekking hebben in hetzelfde boekjaar als bedrijfsopbrengsten in de resultatenrekening moeten worden geboekt onder de post I.D. *Andere bedrijfsopbrengsten* (*cf*. omschrijving van deze post in artikel 96 KB W.Venn.). 
@@ -409,7 +385,6 @@ De wijze waarop de kosten van onderzoek en ontwikkeling worden geactiveerd (name
 De toerekening van de kapitaalsubsidie aan de resultatenrekening moet bovendien gelijkmatig geschieden met de tenlasteneming van de kosten van onderzoek en ontwikkeling. 
 
 ### *Terugbetaling subsidies voor kosten van onderzoek en ontwikkeling*
-
 Soms moet een subsidie geheel of gedeeltelijk of zelfs ten belope van het dubbel van het ontvangen bedrag worden terugbetaald zodra de kosten van onderzoek en ontwikkeling hebben geleid tot de realisatie van een bepaalde omzet of winst. 
 
 Vermits deze bedragen slechts verschuldigd zijn zodra een opschortende voorwaarde is vervuld, moet er worden vanuit gegaan dat, zolang deze voorwaarde niet is vervuld, er geen aanleiding bestaat tot het boeken van een schuld of een voorziening op het passief. Wel moet met toepassing van artikel 25, § 3 KB W.Venn. in de toelichting een passende vermelding worden opgenomen[^33]. Is daarentegen de voorwaarde vervuld, dan moet de daardoor ontstane kost ook als zodanig worden geboekt. 

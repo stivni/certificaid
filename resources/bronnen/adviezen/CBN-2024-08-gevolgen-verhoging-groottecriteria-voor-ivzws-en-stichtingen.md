@@ -16,49 +16,49 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/consolidatie-bij-de-horizontale-groep-consortium-0
 nummer: CBN-advies 2024/08
 provenance:
+  generated_at: '2026-05-11T17:48:40Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/gevolgen-verhoging-groottecriteria-voor-ivzws-en-stichtingen
       sha256: 6de1272699f26002e279dc23b8980b5366bd9173ebd3e64b7c543a252fb2a982
       version:
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T15:15:32Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
-    status: needs-rework
     confirmed_at: '2026-05-11T17:13:31Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "E2: de Voorbeeld 4-tabel (regel 215) heeft 35 kolommen met afwisselende lege ghost-kolommen (bv. '| **Einde 31.12** | | | | **31.12.2021** | | | | | |...') — de PDF-lay-out van de meerkolommentabel is niet genormaliseerd naar een compacte pipe-tabel; dit schaadt de leesbaarheid. D3: voetnoot [^1] staat in het voetnoetenblok (regel 232) maar heeft geen corresponderend [^1]-anker in de bodytekst. A6: regel 212 begint met '22. Veronderstel...' — een losstaand randnummer dat als gevolg van PDF-extractie voor de alinea staat in plaats van inline als opsomming."
     layer1:
-      file_size_chars: 16629
-      flags: []
-      heading_count: 8
-      max_section_chars: 4941
-      run_at: '2026-05-11T15:05:54Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:45Z'
+      heading_count: 8
+      max_section_chars: 4940
+      file_size_chars: 16621
+      flags: []
     layer2:
-      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T17:13:31Z'
-      rationale: "E2: de Voorbeeld 4-tabel (regel 215) heeft 35 kolommen met afwisselende lege ghost-kolommen (bv. '| **Einde 31.12** | | | | **31.12.2021** | | | | | |...') — de PDF-lay-out van de meerkolommentabel is niet genormaliseerd naar een compacte pipe-tabel; dit schaadt de leesbaarheid. D3: voetnoot [^1] staat in het voetnoetenblok (regel 232) maar heeft geen corresponderend [^1]-anker in de bodytekst. A6: regel 212 begint met '22. Veronderstel...' — een losstaand randnummer dat als gevolg van PDF-extractie voor de alinea staat in plaats van inline als opsomming."
       concrete_problemen:
-        - regel: 215
-          categorie: E2
+        - categorie: E2
+          regel: 215
           type: pseudo-table
           voorbeeld: '| **Einde 31.12** | | | | **31.12.2021** | | | | | | **31.12.2022** | ... (35 kolommen met lege ghost-kolommen)'
-        - regel: 232
-          categorie: D3
+        - categorie: D3
+          regel: 232
           type: other
           voorbeeld: '[^1]: Onderhavig advies is tot stand gekomen... (geen [^1]-anker in bodytekst)'
-        - regel: 212
-          categorie: A6
+        - categorie: A6
+          regel: 212
           type: other
           voorbeeld: 22. Veronderstel een stichting... (randnummer als losstaand prefix voor de alinea)
+      rationale: 'E2: de Voorbeeld 4-tabel (regel 215) heeft 35 kolommen met afwisselende lege ghost-kolommen (bv. ''| **Einde 31.12** | | | | **31.12.2021** | | | | | |...'') — de PDF-lay-out van de meerkolommentabel is niet genormaliseerd naar een compacte pipe-tabel; dit schaadt de leesbaarheid. D3: voetnoot [^1] staat in het voetnoetenblok (regel 232) maar heeft geen corresponderend [^1]-anker in de bodytekst. A6: regel 212 begint met ''22. Veronderstel...'' — een losstaand randnummer dat als gevolg van PDF-extractie voor de alinea staat in plaats van inline als opsomming.'
+      run_at: '2026-05-11T17:13:31Z'
+      status: needs-rework
+    rationale: 'E2: de Voorbeeld 4-tabel (regel 215) heeft 35 kolommen met afwisselende lege ghost-kolommen (bv. ''| **Einde 31.12** | | | | **31.12.2021** | | | | | |...'') — de PDF-lay-out van de meerkolommentabel is niet genormaliseerd naar een compacte pipe-tabel; dit schaadt de leesbaarheid. D3: voetnoot [^1] staat in het voetnoetenblok (regel 232) maar heeft geen corresponderend [^1]-anker in de bodytekst. A6: regel 212 begint met ''22. Veronderstel...'' — een losstaand randnummer dat als gevolg van PDF-extractie voor de alinea staat in plaats van inline als opsomming.'
+    status: needs-rework
 themas:
   - groottecriteria
   - verenigingen en stichtingen
@@ -77,7 +77,6 @@ themas:
 # CBN-advies 2024/08 – Gevolgen verhoging groottecriteria voor (I)VZW’s en stichtingen
 
 ## Inleiding
-
 De Europese Commissie verhoogde eind 2023 de drempelwaarden van de groottecriteria voor ondernemingen en groepen. Hiertoe nam ze de Gedelegeerde Richtlijn 2023/2775 van 17 oktober 2023 aan tot wijziging van Richtlijn 2013/34/EU van het Europees Parlement en de Raad wat betreft de aanpassingen van de groottecriteria voor micro-ondernemingen, kleine, middelgrote en grote ondernemingen of groepen[^2]. Deze verhoging werd doorgevoerd om rekening te houden met de hoge inflatiecijfers van de afgelopen jaren.[^3] 
 
 De Gedelegeerde Richtlijn 2023/2775 werd in België in eerste instantie omgezet door de Wet van 28 maart 2024 houdende bepalingen inzake digitalisering van justitie en diverse bepalingen Ibis[^4]. Deze wet behandelt enkel de verhoging van de drempelwaarden in de artikelen 1:24, § 1, 1:25, § 1, en 1:26, § 1, van het Wetboek van vennootschappen en verenigingen (hierna: WVV), en betreft dus enkel de groottecriteria bij de vennootschappen en de groepen van beperkte omvang. De wet verhoogt daarnaast ook de drempelwaarden omvat in de artikelen 3:47 en 3:51 WVV die betrekking hebben op de mogelijkheid van verenigingen en stichtingen om een jaarrekening op te stellen naar een vereenvoudigd model. De Wet van 28 maart 2024 werd geamendeerd door de Wet van 15 mei 2024 houdende bepalingen inzake digitalisering van justitie en diverse bepalingen II[^5], waarbij er een overgangsregeling werd toegevoegd aan de inwerkingtreding van de verhoogde criteria. De verhoging van de groottecriteria bij vennootschappen wordt in een afzonderlijk advies behandeld.
@@ -85,7 +84,6 @@ De Gedelegeerde Richtlijn 2023/2775 werd in België in eerste instantie omgezet 
 De Belgische regelgever besliste ook om de groottecriteria voor de verenigingen en stichtingen te verhogen. De drempelwaarden voor de verenigingen en stichtingen werden verhoogd door het koninklijk besluit van 25 mei 2024 tot wijziging van het Wetboek van vennootschappen en verenigingen wat betreft de groottecriteria voor micro- en kleine verenigingen en stichtingen[^6].
 
 ## Verhoging drempelwaarden
-
 Bij de drempelwaarden met betrekking tot de kleine (I)VZW’s (art. 1:28 WVV) en de kleine stichtingen (art. 1:30 WVV) wordt het bedrag van de jaaromzet exclusief btw verhoogd van 9.000.000 euro naar **11.250.000** euro en het bedrag van het balanstotaal van 4.500.000 euro naar **6.000.000** euro.[^7] 
 
 Bij de drempelwaarden met betrekking tot de micro-(I)VZW’s (art. 1:29 WVV) en de microstichtingen (art. 1:31 WVV) wordt het bedrag van de jaaromzet exclusief btw verhoogd van 700.000 euro naar **900.000** euro en het bedrag van het balanstotaal van 350.000 euro naar **450.000** euro.[^8] 
@@ -96,7 +94,6 @@ Naast de drempelwaarden met betrekking tot de groottecriteria in boek 1 van het 
  Ook bij deze wetsbepalingen wordt de drempelwaarde met betrekking tot het jaargemiddelde van het aantal werknemers niet aangepast.
 
 ## Inwerkingtreding
-
 Het KB van 25 mei 2024 stelt:
 
 “Dit besluit is van toepassing op de boekjaren die een aanvang nemen na 31 december 2023, waarbij de regels die zijn opgenomen in de artikelen 1:28, § 2, 1:29, § 2, 1:30, § 2, en 1:31, § 2, van het Wetboek van vennootschappen en verenigingen, voor één keer niet van toepassing zijn op eerste boekjaar dat een aanvang neemt na 31 december 2023.”[^10] 
@@ -106,9 +103,7 @@ Om te bepalen of een vereniging of stichting[^11] in een boekjaar dat is aangeva
 Ook de verhoogde drempelwaarden in art. 3:47, § 2 WVV en art. 3:51, § 2 WVV zijn “*van toepassing op de boekjaren die een aanvang nemen na 31 december 2023*”.[^13] 
 
 ## Voorbeelden
-
 ### Voorbeeld 1 : boekjaar loopt gelijk met kalenderjaar
-
 Een VZW voert een boekhouding per kalenderjaar. Voor de boekjaren 2021, 2022 en 2023 werd de VZW aangemerkt als een kleine vereniging. De vereniging heeft de volgende kencijfers[^14]:
 
 | | | 31/12/2023 | | 31/12/2024 | | 31/12/2025 | 
@@ -146,7 +141,6 @@ Op balansdatum 31 december 2025 heeft de vereniging geen enkele van de criteria 
 De vereniging blijft een micro-VZW in het boekjaar dat aanvangt op 1 januari 2026.
 
 ### Voorbeeld 2: vereenvoudigde boekhouding
-
 Naast de criteria van artikel 1:28 WVV en artikel 1:29 WVV kunnen de bestuurders van de VZW ook rekening houden met de drempelwaarden van artikel 3:47, § 2 WVV.
 
 Veronderstel een VZW die op balansdatum van 31 december 2023 375.000 euro aan andere dan niet-recurrente ontvangsten (exclusief btw) heeft, 1.325.000 euro aan schulden en 1.425.000 euro aan bezittingen heeft, en een jaargemiddelde van 8 voltijdse werknemers heeft. Op die balansdatum worden dus drie van de vier van de oude criteria van artikel 3:47, § 2 WVV overschreden:
@@ -166,7 +160,6 @@ De VZW kan echter voor het boekjaar dat aanvangt op 1 januari 2024 de verhoogde 
 Aangezien bij de toetsing aan deze drempelwaarden geen consistentiebeginsel staat ingeschreven in de wet, kan de VZW in boekjaar 2024 meteen een vereenvoudigde boekhouding voeren, en een overeenkomstige vereenvoudigde jaarrekening opstellen en neerleggen.
 
 ### Voorbeeld 3: gebroken boekjaar
-
 Een VZW hanteert gebroken boekjaren waarbij het boekjaar eindigt op 30 juni. Voor de boekjaren die werden aangevat in 2022 en 2023 werd de VZW aangemerkt als een “grote” VZW. De VZW heeft de volgende kencijfers[^16]:
 
 | | | 30/06/2024 | | 30/06/2025 | | 30/06/2026 | 
@@ -204,7 +197,6 @@ Op balansdatum 30 juni 2026 heeft de VZW alle criteria overschreden:
 Op balansdatum 30 juni 2026 werd opnieuw meer dan één van de criteria overschreden. Bijgevolg wordt de VZW terug een “grote” VZW voor het boekjaar dat aanvangt op 1 juli 2026. 
 
 ### Voorbeeld 4: impact van de verhoging van de criteria op langere termijn
-
 22. Veronderstel een stichting met een einde boekjaardatum van 31 december. De cijfers in het rood geven aan wanneer de criteria[^17] werden overschreden.[^18]
  Om de grootte van de stichting te bepalen in boekjaren die aanvatten na 31 december 2023 moet men de verhoogde drempelwaarden gebruiken. 
 

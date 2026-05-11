@@ -3,53 +3,53 @@ bron: https://www.cbn-cnc.be/nl/adviezen/vermogensmutatiemethode
 datum: 2022-09-09
 nummer: CBN-advies 2022/11
 provenance:
+  generated_at: '2026-05-11T17:48:40Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/vermogensmutatiemethode
       sha256: 00703b083c62932ad00a467870a3bc5061468db96a297ded9921ed568509a7ad
       version:
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T15:15:32Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
-    status: needs-rework
     confirmed_at: '2026-05-11T17:13:31Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "E1: de resultatenrekening-tabellen ('Invloed van de vermogensmutatiemethode') zijn geen echte markdown-pipe-tabellen — labels en getallen staan elk op een aparte regel, omringd door losse |---| fragmenten (bv. regels 214-239, 285-300), een typisch PDF-extractie-artefact. B2: de heading '## Herberekening van het bedrag van de deelneming...' verschijnt meerdere keren als H2 (bv. regel 267) binnen Hypothese-subblokken die structureel op ### of ####-niveau zitten — hiërarchiesprong zonder aanleiding. Layer-1 max_section_size warn (33861 chars) bevestigt de grote onbewerkte sectie."
     layer1:
-      file_size_chars: 67184
-      flags:
-        - detail: 'langste sectie op ###-niveau: 33861 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
-          name: max_section_size
-          samples: []
-          status: warn
-      heading_count: 19
-      max_section_chars: 33861
-      run_at: '2026-05-11T15:05:54Z'
-      run_id: 20260511-150547
       status: warn
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:45Z'
+      heading_count: 19
+      max_section_chars: 33856
+      file_size_chars: 67144
+      flags:
+        - name: max_section_size
+          status: warn
+          detail: 'langste sectie op ###-niveau: 33856 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
+          samples: []
     layer2:
-      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T17:13:31Z'
-      rationale: "E1: de resultatenrekening-tabellen ('Invloed van de vermogensmutatiemethode') zijn geen echte markdown-pipe-tabellen — labels en getallen staan elk op een aparte regel, omringd door losse |---| fragmenten (bv. regels 214-239, 285-300), een typisch PDF-extractie-artefact. B2: de heading '## Herberekening van het bedrag van de deelneming...' verschijnt meerdere keren als H2 (bv. regel 267) binnen Hypothese-subblokken die structureel op ### of ####-niveau zitten — hiërarchiesprong zonder aanleiding. Layer-1 max_section_size warn (33861 chars) bevestigt de grote onbewerkte sectie."
       concrete_problemen:
-        - regel: 214
-          categorie: E1
+        - categorie: E1
+          regel: 214
           type: pseudo-table
           voorbeeld: '| \n\nKosten\n\n  | | \n|---|\n\nOpbrengsten\n\n  | (resultatenrekening als losse regelblokken)'
-        - regel: 285
-          categorie: E1
+        - categorie: E1
+          regel: 285
           type: pseudo-table
           voorbeeld: Financiële kosten – Afschrijving 'Consolidatieverschillen'\n\n  | | \n|---|\n\n280 (getal los van tabelrij)
-        - regel: 267
-          categorie: B2
+        - categorie: B2
+          regel: 267
           type: other
           voorbeeld: '## Herberekening van het bedrag van de deelneming... (H2 binnen Hypothese-subblok; herhaald op regels 330 en 415)'
+      rationale: 'E1: de resultatenrekening-tabellen (''Invloed van de vermogensmutatiemethode'') zijn geen echte markdown-pipe-tabellen — labels en getallen staan elk op een aparte regel, omringd door losse |---| fragmenten (bv. regels 214-239, 285-300), een typisch PDF-extractie-artefact. B2: de heading ''## Herberekening van het bedrag van de deelneming...'' verschijnt meerdere keren als H2 (bv. regel 267) binnen Hypothese-subblokken die structureel op ### of ####-niveau zitten — hiërarchiesprong zonder aanleiding. Layer-1 max_section_size warn (33861 chars) bevestigt de grote onbewerkte sectie.'
+      run_at: '2026-05-11T17:13:31Z'
+      status: needs-rework
+    rationale: 'E1: de resultatenrekening-tabellen (''Invloed van de vermogensmutatiemethode'') zijn geen echte markdown-pipe-tabellen — labels en getallen staan elk op een aparte regel, omringd door losse |---| fragmenten (bv. regels 214-239, 285-300), een typisch PDF-extractie-artefact. B2: de heading ''## Herberekening van het bedrag van de deelneming...'' verschijnt meerdere keren als H2 (bv. regel 267) binnen Hypothese-subblokken die structureel op ### of ####-niveau zitten — hiërarchiesprong zonder aanleiding. Layer-1 max_section_size warn (33861 chars) bevestigt de grote onbewerkte sectie.'
+    status: needs-rework
 themas:
   - vermogensmutatie
   - vermogensmutatiemethode
@@ -69,7 +69,6 @@ themas:
 # CBN-advies 2022/11 – Vermogensmutatiemethode
 
 ## Toepassingsgebied
-
 Elke moedervennootschap die onderworpen is aan de bepalingen van het gemeen recht inzake consolidatie, moet een geconsolideerde jaarrekening en een jaarverslag over de geconsolideerde jaarrekening opstellen, laten controleren en bekendmaken indien zij, alleen of gezamenlijk, één of meer dochterondernemingen controleert[^2]. 
 
 Een vennootschap wordt vrijgesteld van de verplichting om een geconsolideerde jaarrekening en een jaarverslag over de geconsolideerde jaarrekening op te stellen wanneer ze deel uitmaakt van een groep van beperkte omvang.[^3]
@@ -97,12 +96,10 @@ Zoals benadrukt in randnummer 1 moet een vennootschap een geconsolideerde jaarre
 
 De vermogensmutatiemethode hoeft niet te worden toegepast wanneer de toepassing ervan slechts van te verwaarlozen betekenis zou zijn.[^15] 
 
-## Toepassing van de vermogensmutatiemethode[^16]
-
+## Toepassing van de vermogensmutatiemethode
 De Commissie wenst te benadrukken dat de toepassing van de vermogensmutatiemethode geen aanleiding geeft tot een vrijstelling van subconsolidatie. Anders gezegd, geeft de opname van een vennootschap via de vermogensmutatiemethode geen vrijstelling aan een groep, die dus nog steeds verplicht is om te consolideren.[^17] 
 
 ### Eerste consolidatie
-
 Volgens de vermogensmutatiemethode worden de door de moedervennootschap aangehouden deelnemingen naar aanleiding van de opstelling van de geconsolideerde jaarrekening opnieuw gewaardeerd: de historische aanschaffingswaarde van de deelnemingen wordt hierdoor telkens vervangen door het bedrag dat overeenkomt met het deel van het eigen vermogen van de betrokken vennootschap, inclusief het resultaat over het boekjaar, dat deze deelneming belichaamt[^18]. Het eigen vermogen van de betrokken vennootschap bestaat uit het verschil tussen de boekwaarde van de activa en de boekwaarde van de voorzieningen[^19] en schulden van deze vennootschap. Dit eigen vermogen omvat het resultaat van het boekjaar op datum van verwerving, behalve in zoverre hierop vóór de verwerving een interimdividend is toegekend.[^20]
  Dit laatste geldt praktisch ook bij de toekenning van een tussentijds dividend vóór de verwerving.
 
@@ -115,7 +112,6 @@ Voor zover het verschil tussen de boekwaarde van de deelneming en de hiermee ove
 Het resterende, niet-toerekenbare verschil wordt opgenomen onder de post “Consolidatieverschillen” in de geconsolideerde balans, aan de actiefzijde bij een positief consolidatieverschil, aan de passiefzijde in geval van een negatief consolidatieverschil. Deze consolidatieverschillen mogen niet worden gecompenseerd, behalve indien zij betrekking hebben op eenzelfde geassocieerde vennootschap. In dit laatste geval is compensatie verplicht.[^22] 
 
 ### Voorbeeld
-
 Stel dat de boekwaarde van de deelneming in de geassocieerde vennootschap 100 bedraagt en dat de fractie van het eigen vermogen van de geassocieerde vennootschap 80 is. Het verschil tussen de boekwaarde van de deelneming (100) en de hiermee overeenstemmende fractie van het eigen vermogen (80) bedraagt dus 20 (100 – 80).
 Dit verschil (20) kan voor een gedeelte (5) worden toegerekend aan terreinen die in werkelijkheid een grotere waarde hebben dan de boekwaarde waartegen ze in de balans van de geassocieerde vennootschap worden uitgedrukt. Desgevallend wordt de deelneming in de geassocieerde vennootschap in de geconsolideerde jaarrekening opgenomen onder de rubriek "Vennootschappen waarop vermogensmutatie is toegepast" onder de "Financiële vaste activa" voor een bedrag van 80 + 5 = 85. Het resterend verschil (20 - 5 = 15) is dan het positief consolidatieverschil.
 Positieve consolidatieverschillen worden afgeschreven ten laste van de geconsolideerde resultatenrekening. Worden ze afgeschreven over meer dan vijf jaar, dan moet zulks worden gemotiveerd in de toelichting. Op deze verschillen worden aanvullende of niet-recurrente afschrijvingen toegepast wanneer het, ingevolge wijzigingen in de economische omstandigheden, niet langer economisch verantwoord is ze tegen die waarde te handhaven in de geconsolideerde balans. De afschrijvingen worden in de resultatenrekening geboekt in een afzonderlijke post van de bedrijfskosten of van de financiële kosten.[^23] 
@@ -126,7 +122,6 @@ Negatieve consolidatieverschillen worden in beginsel niet in de geconsolideerde 
 De deelneming in vennootschappen waarop de vermogensmutatiemethode is toegepast, wordt in de geconsolideerde balans opgenomen onder een afzonderlijke post van de financiële vaste activa, genoemd “Vennootschappen waarop vermogensmutatie is toegepast”.[^26] 
 
 ### Latere consolidaties
-
 De waarde waartegen de deelneming in de geconsolideerde jaarrekening, overeenkomstig artikel 3:142, § 1 en 2 KB WVV, is opgenomen, wordt vervolgens, naar gelang van het geval, verhoogd of verminderd met het bedrag van de tijdens het boekjaar of het gedeelte van het boekjaar opgetreden verandering in het deel van het eigen vermogen van de betrokken vennootschap dat deze deelneming belichaamt. Dit eigen vermogen omvat, naast het resultaat van het boekjaar, met uitsluiting evenwel van het gedeelte hiervan dat bij bestemming anderszins dan als dividend wordt toegekend, tevens de uitdrukking van een herwaarderingsmeerwaarde, de verkrijging van een kapitaalsubsidie, de overboeking van een gerealiseerde meerwaarde naar de belastingvrije reserves en de boeking van een uitgiftepremie naar aanleiding van de uitgifte van een converteerbare obligatielening.[^27] 
 
 De vermogensmutatiemethode wordt vaak omschreven als een *one-line consolidation[^28]* , daar slechts één bedrag, op één lijn gerapporteerd wordt in de geconsolideerde balans van de consoliderende vennootschap. Ook voor het resultaat van de vennootschap waarop de vermogensmutatiemethode wordt toegepast, wordt slechts één bedrag, op één lijn, gerapporteerd in de resultatenrekening.
@@ -134,7 +129,6 @@ De vermogensmutatiemethode wordt vaak omschreven als een *one-line consolidation
 Er moet worden opgemerkt dat er in de toelichting melding zal worden gemaakt van de informatie zoals vereist door artikel 3:15, I, IV, X, XI en XII KB WVV.
 
 ### Voorbeeld 1: waardering volgens de vermogensmutatiemethode
-
 Neem bijvoorbeeld vennootschappen X en Y waarvan de balansen op 31.12.20X0 als volgt worden voorgesteld:
 
 *Vennootschap X – Enkelvoudige balans op 31.12.20X0*
@@ -233,10 +227,10 @@ Financiële kosten – Afschrijving “Consolidatieverschillen”
   | | 
 |---|
 
-  | | 
+ | | 
 |---|
 
-  | 
+ | 
 
 Latere consolidaties
 
@@ -265,7 +259,6 @@ Hypothese 1: vennootschap Y maakt in het volgende boekjaar (20X2) 1.500 euro win
 | **Totaal** | | **18.500** | | **Totaal** | | **18.500** | 
 
 ## Herberekening van het bedrag van de deelneming waarop de vermogensmutatiemethode wordt toegepast:
-
 Aandeel in de winst van het boekjaar van geassocieerde vennootschap Y: 20 % van 1.500 = 300
 
 *Balans opgesteld door vennootschap X op 31.12.20X2, na toepassing van de vermogensmutatiemethode en vóór consolidatie van de vennootschap Z*
@@ -338,7 +331,6 @@ Hypothese 2: vennootschap Y maakt tijdens het volgende boekjaar een verlies van 
 | **Totaal** | | **15.500** | | **Totaal** | | **15.500** | 
 
 ## Herberekening van het bedrag van de deelneming waarop de vermogensmutatiemethode wordt toegepast:
-
 Aandeel in het verlies van het boekjaar van geassocieerde vennootschap Y: 20 % van (1.500) = -300
 
 *Balans opgesteld door vennootschap X op 31.12.20X2, na toepassing van de vermogensmutatiemethode en vóór consolidatie van de vennootschap Z*
@@ -377,10 +369,10 @@ Aandeel in het verlies van de vennootschappen waarop vermogensmutatie is toegepa
   | | 
 |---|
 
-  | | 
+ | | 
 |---|
 
-  | 
+ | 
 | 
 
 Financiële kosten – Afschrijving “Consolidatieverschillen”
@@ -393,10 +385,10 @@ Financiële kosten – Afschrijving “Consolidatieverschillen”
   | | 
 |---|
 
-  | | 
+ | | 
 |---|
 
-  | 
+ | 
 
 Hypothese 3: gedurende het boekjaar dat volgt, lijdt vennootschap Y een verlies van 15.000 euro.
 
@@ -423,7 +415,6 @@ Hypothese 3: gedurende het boekjaar dat volgt, lijdt vennootschap Y een verlies 
 | **Totaal** | | **2.000** | | **Totaal** | | **2.000** | 
 
 ## Herberekening van het bedrag van de deelneming waarop de vermogensmutatiemethode wordt toegepast:
-
 Aandeel in het verlies van het boekjaar van geassocieerde vennootschap Y: 20 % van (15.000) = -3.000.
 
 Het aandeel kan slechts worden opgenomen ten belope van maximaal 2.600 euro, zijnde de waarde waarvoor de deelneming in de geassocieerde vennootschap Y bij eerste consolidatie werd opgenomen. De waarde van een actiefbestanddeel kan op de balans immers nooit worden opgenomen voor een bedrag kleiner dan 0.[^50] 
@@ -464,10 +455,10 @@ Aandeel in het verlies van de vennootschappen waarop vermogensmutatie is toegepa
   | | 
 |---|
 
-  | | 
+ | | 
 |---|
 
-  | 
+ | 
 | 
 
 Financiële kosten – Afschrijving “Consolidatieverschillen”
@@ -480,13 +471,12 @@ Financiële kosten – Afschrijving “Consolidatieverschillen”
   | | 
 |---|
 
-  | | 
+ | | 
 |---|
 
-  | 
+ | 
 
 ### Voorbeeld 2: verkoop van de deelnemingen waarop vermogensmutatie is toegepast
-
 Veronderstel dat vennootschap M op 1 maart 20X0 4.000 euro investeert om 20 % van de aandelen van de op te richten vennootschap F te verwerven. 
 
 *Vennootschap M – Enkelvoudige balans op 31.12.20X0*
@@ -535,10 +525,10 @@ Opbrengsten
   | 
 | 
 
-  | | 
+ | | 
 |---|
 
-  | | 
+ | | 
 |---|
 
 Aandeel in de winst van de vennootschappen waarop vermogensmutatiemethode is toegepast
@@ -598,10 +588,10 @@ Opbrengsten
   | 
 | 
 
-  | | 
+ | | 
 |---|
 
-  | | 
+ | | 
 |---|
 
 Aandeel in de winst van de vennootschappen waarop de vermogensmutatiemethode is toegepast
@@ -666,10 +656,10 @@ Opbrengsten
   | 
 | 
 
-  | | 
+ | | 
 |---|
 
-  | | 
+ | | 
 |---|
 
 Geconsolideerd resultaat 
@@ -682,9 +672,7 @@ Geconsolideerd resultaat
   | 
 
 ## Boekhoudkundige verwerking van directe mutaties binnen het eigen vermogen van de geassocieerde vennootschap en van intra-groepstransacties (verkopen en dividenden)
-
 ### Directe mutaties binnen het eigen vermogen van de geassocieerde vennootschap
-
 In een vorige versie liet artikel 3:143 KB WVV (vroeger artikel 153 KB W.Venn.) vermoeden dat enkel het resultaat van het boekjaar van de vennootschap waarop de vermogensmutatiemethode is toegepast, een mutatie binnen het eigen vermogen van die vennootschap met zich kon meebrengen. Naar aanleiding van de publicatie van CBN-advies 2014/3 – *De boekhoudkundige verwerking van mutaties binnen het eigen vermogen van een geassocieerde onderneming* werd de tekst van het koninklijk besluit aangepast om rekening te houden met de *direct-to-equity* mutaties (dit zijn mutaties die onmiddellijk worden overgedragen naar het eigen vermogen). Artikel 3:143 KB WVV bepaalt het volgende:
 
 “Dit eigen vermogen omvat, naast het resultaat van het boekjaar, met uitsluiting evenwel van het gedeelte hiervan dat bij bestemming anderszins dan als dividend wordt toegekend, tevens de uitdrukking van een herwaarderingsmeerwaarde, de verkrijging van een kapitaalsubsidie, de overboeking van een gerealiseerde meerwaarde naar de belastingvrije reserves en de boeking van een uitgiftepremie naar aanleiding van de uitgifte van een converteerbare obligatielening.”
@@ -692,19 +680,16 @@ In dit geval staat de verhoging van de post “Vennootschappen waarop vermogensm
 
 “Het aandeel in de herwaarderingsmeerwaarde, de verkrijging van een kapitaalsubsidie, de overboeking van een gerealiseerde meerwaarde naar de belastingvrije reserves en de boeking van een uitgiftepremie naar aanleiding van de uitgifte van een converteerbare obligatielening van de [consoliderende] vennootschap dat aan deze deelneming kan worden toegerekend, wordt vermeld in de geconsolideerde balans onder de rubriek “Reserves”.”
 ### Intra-groepsverkopen (upstream & downstream sales)
-
 Het aandeel in het resultaat van de betrokken vennootschap dat aan deze deelneming kan worden toegerekend, wordt opgenomen in de geconsolideerde resultatenrekening onder een afzonderlijke post “Aandeel in het resultaat van de vennootschappen waarop vermogensmutatie is toegepast”.[^68] 
 
 De resultaten van verrichtingen tussen de consoliderende vennootschap of één van haar dochtervennootschappen en de vennootschappen waarop de vermogensmutatiemethode wordt toegepast en die begrepen zijn in de boekwaarde van de activa van de consoliderende vennootschap (of één van haar dochtervennootschappen) of van een vennootschap waarop de vermogensmutatiemethode wordt toegepast, worden voor zover de daartoe noodzakelijke gegevens bekend of toegankelijk zijn, uit de geconsolideerde resultaten weggelaten.[^69] 
 
 ### Intra-groepsdividenden
-
 De waarde [van de vennootschap waarop de vermogensmutatiemethode wordt toegepast] wordt eveneens verminderd met het bedrag van de dividenden met betrekking tot deze deelneming.[^70] 
 
 Uit de samenlezing van artikelen 3:136, 4° en 3:145, § 2, tweede lid KB WVV blijkt dat uit de geconsolideerde jaarrekening worden weggelaten: “*de dividenden toegekend door de consoliderende vennootschap of door in de consolidatie opgenomen dochterondernemingen aan de consoliderende vennootschap of aan in de consolidatie opgenomen dochterondernemingen*”.
 
 ### Voorbeeld 3
-
 In onderstaand voorbeeld wordt verondersteld dat vennootschap A nog andere deelnemingen heeft dewelke zij integraal dient te consolideren en derhalve verplicht is een geconsolideerde jaarrekening op te stellen.
 
 Op 1 december 20X1 verwerft vennootschap A 20 % van de aandelen van vennootschap B voor een bedrag van 500.
@@ -812,7 +797,6 @@ Aandeel in het resultaat van de vennootschap waarop vermogensmutatie is toegepas
   | 
 
 #### Upstream sales
-
 Stel dat vennootschap A in de loop van 20X2 een terrein koopt van vennootschap B voor een bedrag van 1.000. Dankzij deze verkoop realiseert B een meerwaarde van 200. In de loop van 20X2 realiseren vennootschappen A & B allebei een winst van 500. 
 
 Vennootschap A – Enkelvoudige balans op 31.12.20X2
@@ -885,7 +869,6 @@ Aandeel in het resultaat van de vennootschap waarop vermogensmutatie is toegepas
   | 
 
 #### Downstream sales
-
 Stel dat vennootschap A in 20X2 een terrein (met boekwaarde 150) verkoopt aan vennootschap B voor een bedrag van 200. Dankzij de verkoop realiseert vennootschap A een meerwaarde van 50. Vennootschappen A en B maken een winst van respectievelijk 550 en 500.
 
 *Vennootschap A – Enkelvoudige balans op 31.12.20X2*
@@ -968,7 +951,6 @@ Aandeel in het resultaat van de vennootschap waarop vermogensmutatie is toegepas
   | 
 
 #### Intra-groepsdividenden
-
 Om didactische redenen wordt de situatie waarin een tussentijds dividend wordt toegekend, onderscheiden van de situatie waarin een dividend wordt toegekend dat voortkomt uit de bestemming van het resultaat.
 
 Hypothese 1: tussentijdse dividenden
@@ -1208,7 +1190,6 @@ Aandeel in het resultaat van de vennootschap waarop vermogensmutatie is toegepas
   | 
 
 #### Aandeel in een ‘*direct-to-equity*’ mutatie
-
 Stel dat het bestuursorgaan van B het bestuursorgaan van A er in 20X2 van op de hoogte brengt dat een herwaarderingsmeerwaarde van 200 in de enkelvoudige cijfers werd geboekt. Vennootschappen A en B maken respectievelijk een winst van 700 euro en van 500 euro.
 
 *Vennootschap A – Enkelvoudige balans op 31.12.20X2*

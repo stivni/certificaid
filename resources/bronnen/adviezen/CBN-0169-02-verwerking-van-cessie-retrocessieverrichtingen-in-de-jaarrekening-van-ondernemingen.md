@@ -3,45 +3,45 @@ bron: https://www.cbn-cnc.be/nl/adviezen/verwerking-van-cessie-retrocessieverric
 datum: 1995-02-01
 nummer: CBN-advies 169/2
 provenance:
+  generated_at: '2026-05-11T17:48:38Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/verwerking-van-cessie-retrocessieverrichtingen-in-de-jaarrekening-van-ondernemingen
       sha256: 7bdd2ddf62dc20d396997a39b3d2ba81e680484b21ead22a1e47bc44248fb977
       version:
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
-    status: needs-rework
     confirmed_at: '2026-05-11T17:05:21Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "Vorig verdict bevestigd. A9 r.145: '## (Oordpronkelijke) cedent van het aandeel' — 'Oordpronkelijke' is een scrambled-words ETL-artefact (corruptie van 'Oorspronkelijke'). A9 r.208: '## (Ooorspronkelijke) cessionaris van het aandeel' — extra 'o'. Rest van het document inhoudelijk volledig en structureel correct."
     layer1:
-      file_size_chars: 29738
-      flags: []
-      heading_count: 19
-      max_section_chars: 18084
-      run_at: '2026-05-11T15:05:49Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:42Z'
+      heading_count: 19
+      max_section_chars: 18069
+      file_size_chars: 29719
+      flags: []
     layer2:
-      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T17:05:21Z'
-      rationale: "Vorig verdict bevestigd. A9 r.145: '## (Oordpronkelijke) cedent van het aandeel' — 'Oordpronkelijke' is een scrambled-words ETL-artefact (corruptie van 'Oorspronkelijke'). A9 r.208: '## (Ooorspronkelijke) cessionaris van het aandeel' — extra 'o'. Rest van het document inhoudelijk volledig en structureel correct."
       concrete_problemen:
-        - regel: 145
-          categorie: A9
+        - categorie: A9
+          regel: 145
           type: ocr-confusion
           voorbeeld: '## (Oordpronkelijke) cedent van het aandeel'
-        - regel: 208
-          categorie: A9
+        - categorie: A9
+          regel: 208
           type: ocr-confusion
           voorbeeld: '## (Ooorspronkelijke) cessionaris van het aandeel'
+      rationale: 'Vorig verdict bevestigd. A9 r.145: ''## (Oordpronkelijke) cedent van het aandeel'' — ''Oordpronkelijke'' is een scrambled-words ETL-artefact (corruptie van ''Oorspronkelijke''). A9 r.208: ''## (Ooorspronkelijke) cessionaris van het aandeel'' — extra ''o''. Rest van het document inhoudelijk volledig en structureel correct.'
+      run_at: '2026-05-11T17:05:21Z'
+      status: needs-rework
+    rationale: 'Vorig verdict bevestigd. A9 r.145: ''## (Oordpronkelijke) cedent van het aandeel'' — ''Oordpronkelijke'' is een scrambled-words ETL-artefact (corruptie van ''Oorspronkelijke''). A9 r.208: ''## (Ooorspronkelijke) cessionaris van het aandeel'' — extra ''o''. Rest van het document inhoudelijk volledig en structureel correct.'
+    status: needs-rework
 themas:
   - cessie-retrocessieverrichtingen
   - effecten
@@ -52,7 +52,6 @@ themas:
 # CBN-advies 169/2 - Verwerking van cessie-retrocessieverrichtingen in de jaarrekening van ondernemingen
 
 ## Inleiding : de cessie-retrocessieverrichting
-
 Er is sprake van een cessie-retrocessieverrichting wanneer tussen dezelfde partijen wederzijds twee verrichtingen plaatsvinden voor de vaste aankoop en verkoop van dezelfde actiefbestanddelen of actiefbestanddelen met identieke kenmerken, de ene contant, de andere op termijn, en die beide een geldschuld doen ontstaan die overeenstemt met de afgesproken cessieprijs. Wat de hoofdsom betreft, geven zij aanleiding tot een geldoverdracht, als tegenprestatie voor de overdracht van de eigendom van het betrokken actief, bijvoorbeeld effecten[^1]. 
 
 Met een cessie-retrocessieverrichting moet elke verrichting worden gelijkgesteld waarbij één partij welbepaalde activa, bijvoorbeeld effecten, koopt van een andere partij of die activa in eigen naam verwerft voor rekening of ten bate en voor risico van die andere partij, met een terugkoopoptie voor de oorspronkelijke cedent of een doorverkoop- of verkoopoptie voor de oorspronkelijke cessionaris of de koper, wanneer, rekening houdend met de omstandigheden en de bedoelingen van de partijen, vaststaat dat de retrocessie zal plaatsvinden. Dat zal meestal het geval zijn bij een wederzijdse terugkoopoptie voor de oorspronkelijke cedent (call) en een wederzijdse verkoop- of doorverkoopoptie voor de oorspronkelijke koper (put). Dat zal eveneens het geval zijn bij een eenvoudige optie waarbij de bedongen voorwaarden van die aard zijn dat de retrocessie van bij de aanvang vaststaat. 
@@ -70,7 +69,6 @@ Cessies-retrocessies kunnen evenwel betrekking hebben op andere activa dan effec
 Bijgevolg kunnen zij interessant zijn voor, en worden toegepast door tal van ondernemingen buiten de sector van de financiële bemiddelaars. 
 
 ## Korte juridische en financiële analyse van de cessie-retrocessieverrichting
-
 Juridisch gezien komt de verrichting neer op een dubbele verkoop, met dubbele betaling van de afgesproken prijs, enerzijds voor de cessie en anderzijds voor de retrocessie. Het gaat evenwel om een eenmalige overeenkomst tussen dezelfde partijen met betrekking tot twee opeenvolgende onderling onlosmakelijk verbonden cessie in omgekeerde zin. De cessie en retrocessie kunnen derhalve niet gescheiden en afzonderlijk worden beschouwd; bij de analyse van de oorspronkelijke cessie moet rekening worden gehouden met de retrocessie waarmee zij onlosmakelijk is verbonden, in het kader van een specifiek, onbenoemd rechtsverband. 
 
 Tijdens de parlementaire voorbereiding van voornoemde wet van 2 januari 1991 betreffende de markt van de effecten van de overheidsschuld en het monetair beleidsinstrumentarium werd onderstreept dat, uit economisch oogpunt, de cessie-retrocessieovereenkomst meer verwantschap vertoont met een lening op onderpand, waarbij een partij aan een andere een som geld leent tegen afgifte van de beleende effecten, die op de overeengekomen vervaldag worden teruggegeven tegen terugbetaling van de lening in hoofdsom en rente, maar dat dergelijke verrichting juridisch niet als een gedekte lening kan worden aangemerkt, want de koper a contant wordt werkelijk eigenaar van de effecten die hij in ontvangst neemt, met alle aan deze hoedanigheid verbonden consequenties. In diezelfde parlementaire voorbereiding werd duidelijk onderstreept dat hier een fiduciaire eigendomsoverdracht als zekerheidsstelling betreft, die hoofdzakelijk tot doel heeft de terugbetaling van de overeengekomen tegenwaarde van de betrokken effecten te garanderen. In de rechtsleer wordt deze verrichting uitgelegd als een toepassing van de fiduciaire eigendomsoverdracht als zekerheidsstelling[^2]. 
@@ -87,11 +85,9 @@ Een bijzondere aandacht gaat naar een specifiek, in de praktijk blijkbaar vaak v
 In dat geval is de toestand helemaal anders. De cessionaris bezit de effecten niet meer als zekerheidsstelling voor de terugbetaling van de tegenwaarde van de betrokken effecten, maar beschikt hierover door cessie aan een derde in volle eigendom. De overdracht van het effect aan een derde resulteert over het algemeen in een baissepositie en bijgevolg in een koersrisico voor de oorspronkelijke cessionaris; indien een coupon wordt geïnd vóór de afwikkeling van de verrichting, is de oorspronkelijke cessionaris voor de ontbrekende coupon een vergoeding verschuldigd aan de oorspronkelijke cedent. 
 
 ## Boekhoudkundige verwerking van cessie-retrocessieverrichtingen
-
 Bij de aanvang van deze analyse lijken twee benaderingen mogelijk, afhankelijk of de nadruk meer wordt gelegd op de dubbele geldoverdracht dan wel op de cessie-retrocessie van de betrokken actiefbestanddelen. 
 
 ### Eerste benadering
-
 In de eerste benadering wordt de verrichting beschouwd als een financierings- of herfinancieringsverrichting, als een lening met interest gekoppeld aan een fiduciaire overdracht van de eigendom van de betrokken actiefbestanddelen. Deze benadering wordt, voor de kredietinstellingen, bevestigd door het koninklijk besluit van 23 september 1992[^3] dat ter zake is gebaseerd op de regel vastgelegd in de richtlijn van de Raad van de EG betreffende de jaarrekening van de kredietinstellingen. Zij ligt eveneens aan de basis van de door voornoemde wet van 2 januari 1991 ingevoerde regeling. 
 
 In deze optiek en wat de boekhoudkundige verwerking betreft, worden de betrokken activa, aangezien er wordt van uitgegaan dat de overdracht gewoon fiduciair gebeurt, geacht de eigendom te blijven van de oorspronkelijke cedent en worden zij bijgevolg verder door hem als eigen activa geboekt, waarop de bepalingen van het gemeen boekhoudrecht van toepassing zijn. De door hem ontvangen bedragen worden daarentegen als ontleende bedragen beschouwd. De cessie-retrocessieverrichting zal bijgevolg in de jaarrekening van de oorspronkelijke cedent, zoals ook in de jaarrekening van de oorspronkelijke cessionaris, worden verwerkt op dezelfde wijze als een lening met interest die door de betrokken actiefbestanddelen is gewaarborgd. 
@@ -101,7 +97,6 @@ Het verschil tussen de retrocessie- en de cessieprijs wordt als interest beschou
 Bij deze eerste benadering die het beginsel huldigt van de fiduciaire overdracht, stelt de toerekening van de door de overgedragen activa verwezenlijkte opbrengsten in beginsel geen probleem. Die opbrengsten (coupons, dividenden, huurgelden, termijnbetalingen, enz.) komen toe aan de oorspronkelijke cedent in zijn hoedanigheid van eigenaar. Zij worden normaliter geïnd door de fiduciaire bezitter van de betrokken activa of door zijn lasthebber, maar in naam en voor rekening van de oorspronkelijke cedent. Indien met betrekking tot het fiduciair ontvangen effect, de oorspronkelijke cessionaris een cessie, retrocessie of lening aangaat tegenover een derde, moet, wat hem betreft en vooraleer de verrichting plaatsheeft, naast de lening in contanten en de overeenstemmende vordering ook de verwerving van de eigendom van het betrokken effect worden geboekt, met als tegenboeking een effectenschuld ten belope van hetzelfde bedrag. Over het algemeen zal daaruit een baissepositie voortvloeien met een koersrisico tot gevolg, dat in resultaat moet worden genomen in geval van potentieel verlies en overgedragen in geval van potentiële winst. Indien een coupon vervalt tijdens de duur van de verrichting, zal een vergoeding voor ontbrekende coupon verschuldigd zijn. Voor de boekhoudkundige verwerking van die aspecten, wordt verwezen naar het advies nr.169/1 hierboven inzake leningen en ontleningen van effecten. 
 
 ### Tweede benadering
-
 In de tweede benadering wordt de nadruk gelegd op de dubbele effectieve overdracht in volle eigendom van de betrokken activa, enerzijds bij de cessie, anderzijds bij de retrocessie. Maar, aangezien de retrocessie van bij de aanvang nauw is verbonden met de cessie, moet ervan worden uitgegaan dat beide verrichtingen, in termen van resultaat, één enkele verrichting vormen. 
 
 Voor de toepassing van het boekhoudrecht en met toepassing van artikel 31, § 1, c), aa) van de vierde richtlijn, op grond waarvan «Winsten slechts mogen worden opgenomen voor zover zij op de balansdatum zijn gerealiseerd», mag het positieve of negatieve verschil tussen de oorspronkelijke cessieprijs en de boekwaarde voor de oorspronkelijke cedent, van de overgedragen activa bijgevolg niet als een gerealiseerd resultaat worden beschouwd. Het zal bijgevolg bij de cedent op een wachtrekening worden geboekt, aan actief- of aan passiefzijde. Bij de retrocessie zal deze wachtrekening worden tegengeboekt. Enkel het verschil tussen de cessieprijs en de retrocessieprijs zou, onder voorbehoud van de verwerking van de door de betrokken activa verwezenlijkte opbrengsten, een resultaat opleveren voor de oorspronkelijke cedent.
@@ -117,7 +112,6 @@ Voor de tweede benadering pleit de zorg om de coherentie met de in het advies 16
 Omwille van de coherentie meent de Commissie voor de eerste benadering te moeten opteren. De boekhoudkundige kwalificatie van de cessie- retrocessieverrichting als een lenings-/ ontleningsverrichting met fiduciaire overdracht van de eigendom van het betrokken effect, vereist volgens haar dat een reglementaire bepaling wordt getroffen. Die visie kan inderdaad als zodanig niet uit de bestaande teksten worden afgeleid. Het bewijs daarvan wordt trouwens geleverd door het feit dat deze kwestie voor de kredietinstellingen uitdrukkelijk is geregeld. Bij de invoering van de markt voor de lineaire obligaties en de schatkistcertificaten, bleek het bovendien noodzakelijk hiervoor een wettelijke regeling te treffen. De Commissie zal de Regering dan ook voorstellen ter zake een bepaling in te voeren in het koninklijk besluit van 8 oktober 1976 bij een volgende wijziging daarvan. 
 
 ## Diverse vragen
-
 De vraag werd gesteld hoe de cessie-retrocessieverrichting in de jaarrekening van de ondernemingen moet worden verwerkt wanneer, tussen de cessie en de retrocessie : 
 
 - zich een feit voordoet dat de retrocessie onmogelijk maakt van een identiek goed als het goed waarop de oorspronkelijke cessie betrekking heeft, of 
@@ -127,7 +121,6 @@ De vraag werd gesteld hoe de cessie-retrocessieverrichting in de jaarrekening va
 Ter zake wordt verwezen naar het advies nr. 169/1 hierboven inzake leningen en ontleningen van effecten. 
 
 ## Voorbeeld : schema voor de boekhoudkundige verwerking van een cessie-retrocessieverrichting
-
 *Voorbeeld*
 
 Een handelsonderneming A bezit, als geldbelegging, aandelen Y met aanschaffingsprijs 1.000.000. 
@@ -143,14 +136,12 @@ Op 30 januari 199x+1 koopt de vennootschap B de terug te geven aandelen voor 1.5
 1. Boekingen in hoofde van lener en ontlener vóór het afsluiten van de cessie/retrocessieverrichting 
 
 ## (Oordpronkelijke) cedent van het aandeel
-
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 510 | Aandelen (aandelen Y) | 1.000.000 | |
 | aan | 4... | Diverse passiva | | 1.000.000 |
 
 ## (Oorspronkelijke) cessionaris van het aandeel
-
 /
 
 2. Afsluiten van de cessie/retrocessieverrichting op de aandelen Y op 30 november 199x 
@@ -164,7 +155,6 @@ In de jaarrekening van de oorspronkelijke cessionaris, impliceert het afsluiten 
 - een overdracht van het (fiduciair ontleende) aandeel aan een derde, die voor de cessionaris resulteert in een baissepositie. 
 
 ## (Oorspronkelijke) cedent van het aandeel
-
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 55 | Kredietinstellingen | 1.500.000 | |
@@ -181,7 +171,6 @@ In de jaarrekening van de oorspronkelijke cessionaris, impliceert het afsluiten 
 | aan | 021 | Zakelijke zekerheden gesteld voor eigen rekening | | 1.000.000 |
 
 ## (Oorspronkelijke) cessionaris van het aandeel
-
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 416 | Diverse vorderingen | 1.500.000 | |
@@ -202,11 +191,9 @@ In dit voorbeeld echter waarin de fiduciair ontvangen aandeel Y wordt overgedrag
 - tegelijkertijd de overdracht van de betrokken aandelen aan een derde (voor hetzelfde bedrag van 1.602.000), in de boekhouding tot uitdrukking word gebracht.
 
 ## (Oorspronkelijke) cedent van het aandeel
-
 /
 
 ## (Ooorspronkelijke) cessionaris van het aandeel
-
 *Voorafgaande opneming van de aandelen Y in de portefeuille[^7]* 
 
 | | Rekening | Omschrijving | Debet | Credit |
@@ -234,14 +221,12 @@ Bij de jaarafsluiting moet bijgevolg een prorata van die vergoeding worden geboe
 - komen de inkomsten uit het aandeel Y toe aan de oorspronkelijke cedent als eigenaar en worden zij normaliter geïnd door de fiduciaire eigenaar van de betrokken activa of door zijn lasthebber, maar in naam en voor rekening van de oorspronkelijke cedent[^8].
 
 ## (Oorspronkelijke) cedent van het aandeel
-
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 650 | Kosten van de schulden | 15.000 | |
 | aan | 492 | Toe te rekenen kosten | | 15.000 |
 
 ## (Oorspronkelijke) cessionaris van het aandeel
-
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 491 | Verkregen opbrengsten | 15.000 | |
@@ -254,11 +239,9 @@ De overdracht (boeking sub punt 3 in dit voorbeeld) van de aandelen aan een derd
 Zodra de aandelen zijn teruggekocht, wordt ervan uitgegaan dat het resultaat, economisch gezien, is gerealiseerd en bijgevolg in resultaat zal worden genomen. Deze baissepositie zal in het voorbeeld tot uiting komen in een winst die voortvloeit uit het verschil tussen de cessieprijs (1.602.000) en het bedrag van 1.540.000 dat op 30 januari 199x+1 wordt betaald door de cessionaris om zich in te dekken in het vooruitzicht van de afwikkeling van de cessie-retrocessieverrichting (die, in dit voorbeeld, zal plaatsvinden een dag na de dekkingsverrichting). 
 
 ## (Oorspronkelijke) cedent van het aandeel
-
 /
 
 ## (Oorspronkelijke) cessionaris van het aandeel
-
 *Aanschaffing van de aandelen*
 
 | | Rekening | Omschrijving | Debet | Credit |
@@ -294,7 +277,6 @@ Indien de aandelen (zoals in dit voorbeeld) aan een derde werden overgedragen vo
 - anderzijds, op de aandelenschuld waarvan het bedrag werd geherwaardeerd ingevolge de inresultaatneming van het verschil dat is ontstaan bij het afsluiten van de dekkingsverrichting zoals geboekt in punt 5 van het schema (1 540 000, d.i. 1 602 000 - 62 000). 
 
 ## (Oorspronkelijke) cedent van het aandeel
-
 *Terugbetaling van de lening*
 
 | | Rekening | Omschrijving | Debet | Credit |
@@ -325,7 +307,6 @@ Indien de aandelen (zoals in dit voorbeeld) aan een derde werden overgedragen vo
 | aan | 020 | Crediteuren van de onderneming, houders van zakelijke zekerheden | | 1.000.000 |
 
 ## (Oorspronkelijke) cessionaris van het aandeel
-
 *Terugbetaling van de lening*
 
 | | Rekening | Omschrijving | Debet | Credit |

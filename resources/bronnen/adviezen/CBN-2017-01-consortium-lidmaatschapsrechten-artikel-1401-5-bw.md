@@ -2,57 +2,56 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/consortium-lidmaatschapsrechten-artikel-1401-5-bw
 datum: 2017-01-11
 gerelateerde_adviezen:
-- datum: '2022-07-27'
-  titel: Consolidatie bij de horizontale groep (consortium)
-  url: https://www.cbn-cnc.be/nl/adviezen/consolidatie-bij-de-horizontale-groep-consortium-0
-- datum: '2017-03-15'
-  titel: Consolidatie bij de horizontale groep (consortium)
-  url: https://www.cbn-cnc.be/nl/adviezen/consolidatie-bij-de-horizontale-groep-consortium
-- datum: '2017-05-31'
-  titel: Definiëring van EBIT / EBITDA na omzetting van de accountingrichtlijn 2013/34/EU
-  url: https://www.cbn-cnc.be/nl/adviezen/definiering-van-ebit-ebitda-na-omzetting-van-de-accountingrichtlijn-201334eu
-- datum: '2008-10-29'
-  titel: Advies horizontale consolidatie in combinatie met administratiekantoren
-  url: https://www.cbn-cnc.be/nl/adviezen/advies-horizontale-consolidatie-in-combinatie-met-administratiekantoren
+  - datum: '2022-07-27'
+    titel: Consolidatie bij de horizontale groep (consortium)
+    url: https://www.cbn-cnc.be/nl/adviezen/consolidatie-bij-de-horizontale-groep-consortium-0
+  - datum: '2017-03-15'
+    titel: Consolidatie bij de horizontale groep (consortium)
+    url: https://www.cbn-cnc.be/nl/adviezen/consolidatie-bij-de-horizontale-groep-consortium
+  - datum: '2017-05-31'
+    titel: Definiëring van EBIT / EBITDA na omzetting van de accountingrichtlijn 2013/34/EU
+    url: https://www.cbn-cnc.be/nl/adviezen/definiering-van-ebit-ebitda-na-omzetting-van-de-accountingrichtlijn-201334eu
+  - datum: '2008-10-29'
+    titel: Advies horizontale consolidatie in combinatie met administratiekantoren
+    url: https://www.cbn-cnc.be/nl/adviezen/advies-horizontale-consolidatie-in-combinatie-met-administratiekantoren
 nummer: CBN-advies 2017/01
 provenance:
-  generated_at: '2026-05-11T15:15:31Z'
+  generated_at: '2026-05-11T17:48:39Z'
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/consortium-lidmaatschapsrechten-artikel-1401-5-bw
-    sha256: a397d849f1c680cf59cfed817d6bf75ce39e81aa1702c35163a101dc88e6452c
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/consortium-lidmaatschapsrechten-artikel-1401-5-bw
+      sha256: a397d849f1c680cf59cfed817d6bf75ce39e81aa1702c35163a101dc88e6452c
+      version:
   stale: false
-  stale_reason: null
+  stale_reason:
   tooling:
-    model: null
+    model:
     pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    prompt_version: null
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
     confirmed_at: '2026-05-08T19:02:29Z'
     confirmed_by: subagent-laag2-ronde2
     layer1:
-      file_size_chars: 6422
-      flags: []
+      status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:44Z'
       heading_count: 2
       max_section_chars: 3502
-      run_at: '2026-05-11T15:05:52Z'
-      run_id: 20260511-150547
-      status: pass
+      file_size_chars: 6420
+      flags: []
     layer2:
       agent: subagent-laag2-ronde2
       concrete_problemen: []
-      rationale: '[Laag-2-R2 2026-05-08] Volledig modern advies (2017) met onweerlegbaar/weerlegbaar
-        vermoeden en concreet cijfervoorbeeld.'
+      rationale: '[Laag-2-R2 2026-05-08] Volledig modern advies (2017) met onweerlegbaar/weerlegbaar vermoeden en concreet cijfervoorbeeld.'
       run_at: '2026-05-08T19:02:29Z'
       status: trusted
     rationale: Laag-2 trusted door subagent-laag2-ronde2 (zie layer2.rationale)
     status: trusted
 themas:
-- centrale leiding
-- consortium
-- horizontale groep
-- lidmaatschapsrechten
+  - centrale leiding
+  - consortium
+  - horizontale groep
+  - lidmaatschapsrechten
 ---
 
 # CBN-advies 2017/01 – Consortium: lidmaatschapsrechten (artikel 1401, 5 BW)
@@ -89,11 +88,9 @@ Natuurlijke persoon A is gehuwd met natuurlijke persoon B volgens het wettelijke
 100 procent van de aandelen is eigendom van A alleen.
 
 ## Wettelijk vermoeden van centrale leiding
-
 Natuurlijke persoon A bezit 75 procent (40 + 35[^10]) van de aandelen van bvba X en 100 procent van de aandelen van bvba Y. Ingevolge de toepassing van artikel 10, § 3 W.Venn. geldt bijgevolg het *weerlegbaar* vermoeden dat de bvba X en de bvba Y onder de centrale leiding staan van A. Aangezien dit vermoeden een *weerlegbaar* vermoeden is, blijft het voor de betrokkenen evenwel mogelijk aan te tonen dat uit de beschreven situatie geen centrale leiding voortvloeit.
 
 ## Weerlegging wettelijk vermoeden
-
 Behoudens rechtsmisbruik, kan bijvoorbeeld aan de hand van de *inschrijving* van de lidmaatschapsrechten van aandelen die behoren tot het gemeenschappelijk vermogen, op naam van natuurlijke persoon B, het tegenbewijs worden geleverd dat de bvba X en de bvba Y onder de centrale leiding van natuurlijke persoon A staan. 
 
 [^1]: Onderhavig advies is tot stand gekomen nadat een ontwerp van het advies op 7 september 2016 ter consultatie werd gepubliceerd op de website van de CBN.

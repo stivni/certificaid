@@ -3,51 +3,46 @@ bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudrechtelijke-aspecten-met-betrek
 datum: 1999-02-01
 nummer: CBN-advies 176/1
 provenance:
-  generated_at: '2026-05-11T15:15:31Z'
+  generated_at: '2026-05-11T17:48:38Z'
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudrechtelijke-aspecten-met-betrekking-tot-het-jaar-2000
-    sha256: 1b5d482fa1c89c87bcf7de36433ca0a9d3d2620f3c17f6156617a13f91dc898a
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudrechtelijke-aspecten-met-betrekking-tot-het-jaar-2000
+      sha256: 1b5d482fa1c89c87bcf7de36433ca0a9d3d2620f3c17f6156617a13f91dc898a
+      version:
   stale: false
-  stale_reason: null
+  stale_reason:
   tooling:
-    model: null
+    model:
     pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    prompt_version: null
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
     confirmed_at: '2026-05-11T12:09:17Z'
     confirmed_by: subagent-sonnet-4-6
     layer1:
-      file_size_chars: 17143
-      flags: []
-      heading_count: 2
-      max_section_chars: 10829
-      run_at: '2026-05-11T15:05:49Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:42Z'
+      heading_count: 2
+      max_section_chars: 10828
+      file_size_chars: 17141
+      flags: []
     layer2:
       agent: subagent-sonnet-4-6
       concrete_problemen: []
-      rationale: 'Laag-1 pass, geen flags. Twee ## headings met volledige titels,
-        11 voetnoten correct aangelegd, opsommingen via ''-'' consistent, sub-bullets
-        via ''-'' correct genest. Groot document maar inhoud compleet en lopend. Geen
-        PDF-artefacten.'
+      rationale: 'Laag-1 pass, geen flags. Twee ## headings met volledige titels, 11 voetnoten correct aangelegd, opsommingen via ''-'' consistent, sub-bullets via ''-'' correct genest. Groot document maar inhoud compleet en lopend. Geen PDF-artefacten.'
       run_at: '2026-05-11T12:09:17Z'
       status: trusted
-    rationale: 'Laag-1 pass, geen flags. Twee ## headings met volledige titels, 11
-      voetnoten correct aangelegd, opsommingen via ''-'' consistent, sub-bullets via
-      ''-'' correct genest. Groot document maar inhoud compleet en lopend. Geen PDF-artefacten.'
+    rationale: 'Laag-1 pass, geen flags. Twee ## headings met volledige titels, 11 voetnoten correct aangelegd, opsommingen via ''-'' consistent, sub-bullets via ''-'' correct genest. Groot document maar inhoud compleet en lopend. Geen PDF-artefacten.'
     status: trusted
 themas:
-- informaticasysteem
-- jaar 2000 problematiek
-- kosten in verband met de overgang naar het jaar 2000
-- kosten software
-- millenniumovergang
-- overgang naar het jaar 2000
-- software
-- voorziening
+  - informaticasysteem
+  - jaar 2000 problematiek
+  - kosten in verband met de overgang naar het jaar 2000
+  - kosten software
+  - millenniumovergang
+  - overgang naar het jaar 2000
+  - software
+  - voorziening
 ---
 
 # CBN-advies 176/1 - Boekhoudrechtelijke aspecten met betrekking tot het jaar 2000
@@ -63,7 +58,6 @@ In België hebben verscheidene instellingen voor boekhoudkundigen in publicaties
 Wat de boekhoudrechtelijke aspecten van de overgang naar het jaar 2000 betreft, dienen twee luiken te worden onderscheiden die elkaar aanvullen.
 
 ## De boekhoudkundige verwerking van de verschillende kosten die in verband kunnen worden gebracht met de overgang naar het jaar 2000
-
 De Commissie voor Boekhoudkundige Normen is van oordeel dat, voor de aan de overgang naar het jaar 2000 verbonden kosten, niet moet worden voorzien in andere dan de algemeen geldende regels die van toepassing zijn in het kader van technische vernieuwingen of belangrijke technologische wijzigingen[^3].
 
 Bijgevolg moeten de verschillende kosten, die in verband kunnen worden gebracht met de controle en de eventuele aanpassing van de bedrijfsbesturingssystemen in het kader van de overgang naar het jaar 2000, te worden onderscheiden naar hun aard. Op basis van die typologie kan worden geopteerd voor de passende boekhoudkundige verwerking van de verschillende uitgaven.
@@ -116,7 +110,6 @@ Overigens stemt die gedragslijn overeen met die die de Commissie volgt in haar a
 Net als voor de boekhoudkundige verwerking van de kosten verbonden aan de overschakeling op de euro, is het niet aan de Commissie om zich uit te spreken over de wijze waarop de voornoemde beginselen concreet moeten worden toegepast in de talrijke en zeer uiteenlopende gevallen die zich in het kader van de overgang naar het jaar 2000 kunnen voordoen. Dit maakt deel uit van de verantwoordelijkheid van het bestuursorgaan dat optreedt conform de algemene eisen van voorzichtigheid, oprechtheid en goede trouw, alsook van de verantwoordelijkheid van de revisor in de gevallen waarin een revisor met de controle van de jaarrekening is belast.
 
 ## De terzake te vermelden informatie in de toelichting van de jaarrekening
-
 - Algemeen gezien is de Commissie, net als andere instellingen[^11], van oordeel dat het wenselijk is dat de ondernemingen die worden geconfronteerd met de jaar 2000-problematiek, (in de toelichting van de jaarrekening die wordt afgesloten in 1998 en 1999 en wordt vastgesteld vóór 1 januari 2000) een staat opmaken van de genomen of te nemen maatregelen om het hoofd te bieden aan deze vervaldag. 
 - Voor de jaarrekeningen die worden afgesloten na 1 januari 2000 is de overgang naar het jaar 2000 een gebeurtenis die plaatsvindt na de afsluiting van het boekjaar. In voorkomend geval zou het daarom aangewezen zijn de overgangsproblematiek in het jaarverslag (dat overeenkomstig artikel 77 van de vennootschapswet moet worden opgesteld door de bestuurders van de betrokken vennootschap) te behandelen, voor zover het verslag over het jaar 1999 na 1 januari 2000 wordt opgesteld en de overschakeling een aanzienlijke impact heeft op de positie en de financiële resultaten van de vennootschap.
 

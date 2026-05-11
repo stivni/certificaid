@@ -10,37 +10,37 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/vordering-wegens-levering-van-goederen-en-diensten-omgevormd-tot-renteloze-leningen-op
 nummer: CBN-advies 170/1
 provenance:
+  generated_at: '2026-05-11T17:48:38Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-niet-betaalde-schulden-wegens-ontoereikend-actief-bij-het
       sha256: 0b4dd10124011858567a0519d041f6ebede941ff81ccfb1a9148225c85908b25
       version:
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
-    status: trusted
     confirmed_at: '2026-05-11T15:19:35Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: 'Kort, schoon advies: één H1, geen subheadings nodig (geen structuurniveaus in de brontekst), twee voetnoten correct gekoppeld ([^1] en [^2] met definitie), inhoud volledig (gerechtelijk akkoord vs ontoereikend actief bij sluiting vereffening). Geen artefacten aangetroffen.'
     layer1:
-      file_size_chars: 1884
-      flags: []
-      heading_count: 0
-      max_section_chars: 1884
-      run_at: '2026-05-11T15:05:49Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:42Z'
+      heading_count: 0
+      max_section_chars: 1883
+      file_size_chars: 1883
+      flags: []
     layer2:
-      status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:19:35Z'
-      rationale: 'Kort, schoon advies: één H1, geen subheadings nodig (geen structuurniveaus in de brontekst), twee voetnoten correct gekoppeld ([^1] en [^2] met definitie), inhoud volledig (gerechtelijk akkoord vs ontoereikend actief bij sluiting vereffening). Geen artefacten aangetroffen.'
       concrete_problemen: []
+      rationale: 'Kort, schoon advies: één H1, geen subheadings nodig (geen structuurniveaus in de brontekst), twee voetnoten correct gekoppeld ([^1] en [^2] met definitie), inhoud volledig (gerechtelijk akkoord vs ontoereikend actief bij sluiting vereffening). Geen artefacten aangetroffen.'
+      run_at: '2026-05-11T15:19:35Z'
+      status: trusted
+    rationale: 'Kort, schoon advies: één H1, geen subheadings nodig (geen structuurniveaus in de brontekst), twee voetnoten correct gekoppeld ([^1] en [^2] met definitie), inhoud volledig (gerechtelijk akkoord vs ontoereikend actief bij sluiting vereffening). Geen artefacten aangetroffen.'
+    status: trusted
 themas:
   - gerechtelijk akkoord
   - niet-betaalde schulden wegens ontoereikend actief bij sluiten vereffening
@@ -51,7 +51,6 @@ themas:
 ---
 
 # CBN advies 170-1 - Boekhoudkundige verwerking van niet-betaalde schulden wegens ontoereikend actief bij het sluiten van de vereffening
-
 In haar advies 143/1[^1] onderzocht de Commissie de invloed van een gerechtelijk akkoord op de schulden en de vorderingen. 
 
 Zij kwam daarbij tot het besluit dat wanneer een gerechtelijk akkoord voorziet in een kwijtschelding van al of een deel van de schulden, de betrokken schuld van het passief van de debiteur moet worden afgeboekt en deze vermogensmutatie in de resultatenrekening tot uitdrukking moet worden gebracht ook al is de schuldenaar verplicht, indien hij later daartoe in staat is, deze concordataire schulden te betalen. 

@@ -16,65 +16,65 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-immateriele-vaste-activa
 nummer: CBN-advies 2021/04
 provenance:
+  generated_at: '2026-05-11T17:48:39Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/aanschaffingswaarde-bij-de-aankoop-van-een-goed-tegen-betaling-van-een-vaste-prijs-0
       sha256: c4e6106b615995e9ac67c66426827f415bfb5b91cf0f66808d2b180c1b720ad6
       version:
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T15:15:32Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
-    status: needs-rework
     confirmed_at: '2026-05-11T17:13:30Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "D3: Zes orphan footnote-markers ([^6] t/m [^11]) staan als losstaande regels na boekingstabellen (regels 215-225 tonen de definities correct, maar de anchors zelf staan als losse regels in de body na tabellen) — consistent extractie-artefact waarbij footnote-anchors bedoeld voor tabel-context als aparte para's zijn weergegeven. A6: Regel 117 bevat een regelbreuk na '[^4]' midden in de zin 'De financiële component[^4] van de verrichting wordt gespreid...' waarbij het voetnootanker een linebreak injecteert."
     layer1:
-      file_size_chars: 11955
-      flags: []
-      heading_count: 7
-      max_section_chars: 4853
-      run_at: '2026-05-11T15:05:54Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:45Z'
+      heading_count: 7
+      max_section_chars: 4852
+      file_size_chars: 11948
+      flags: []
     layer2:
-      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T17:13:30Z'
-      rationale: "D3: Zes orphan footnote-markers ([^6] t/m [^11]) staan als losstaande regels na boekingstabellen (regels 215-225 tonen de definities correct, maar de anchors zelf staan als losse regels in de body na tabellen) — consistent extractie-artefact waarbij footnote-anchors bedoeld voor tabel-context als aparte para's zijn weergegeven. A6: Regel 117 bevat een regelbreuk na '[^4]' midden in de zin 'De financiële component[^4] van de verrichting wordt gespreid...' waarbij het voetnootanker een linebreak injecteert."
       concrete_problemen:
-        - regel: 116
-          categorie: D3
+        - categorie: D3
+          regel: 116
           type: other
           voorbeeld: '[^6] (orphan footnote-marker als losstaande regel na boekingstabel)'
-        - regel: 123
-          categorie: D3
+        - categorie: D3
+          regel: 123
           type: other
           voorbeeld: '[^7] (idem)'
-        - regel: 132
-          categorie: D3
+        - categorie: D3
+          regel: 132
           type: other
           voorbeeld: '[^8] (idem)'
-        - regel: 139
-          categorie: D3
+        - categorie: D3
+          regel: 139
           type: other
           voorbeeld: '[^9] (idem)'
-        - regel: 153
-          categorie: D3
+        - categorie: D3
+          regel: 153
           type: other
           voorbeeld: '[^10] (idem)'
-        - regel: 160
-          categorie: D3
+        - categorie: D3
+          regel: 160
           type: other
           voorbeeld: '[^11] (idem)'
-        - regel: 117
-          categorie: A6
+        - categorie: A6
+          regel: 117
           type: other
           voorbeeld: "De financiële component[^4]\n van de verrichting wordt gespreid..."
+      rationale: 'D3: Zes orphan footnote-markers ([^6] t/m [^11]) staan als losstaande regels na boekingstabellen (regels 215-225 tonen de definities correct, maar de anchors zelf staan als losse regels in de body na tabellen) — consistent extractie-artefact waarbij footnote-anchors bedoeld voor tabel-context als aparte para''s zijn weergegeven. A6: Regel 117 bevat een regelbreuk na ''[^4]'' midden in de zin ''De financiële component[^4] van de verrichting wordt gespreid...'' waarbij het voetnootanker een linebreak injecteert.'
+      run_at: '2026-05-11T17:13:30Z'
+      status: needs-rework
+    rationale: 'D3: Zes orphan footnote-markers ([^6] t/m [^11]) staan als losstaande regels na boekingstabellen (regels 215-225 tonen de definities correct, maar de anchors zelf staan als losse regels in de body na tabellen) — consistent extractie-artefact waarbij footnote-anchors bedoeld voor tabel-context als aparte para''s zijn weergegeven. A6: Regel 117 bevat een regelbreuk na ''[^4]'' midden in de zin ''De financiële component[^4] van de verrichting wordt gespreid...'' waarbij het voetnootanker een linebreak injecteert.'
+    status: needs-rework
 themas:
   - aanschaffingswaarde
   - abnormaal lage rente
@@ -87,7 +87,6 @@ themas:
 # CBN-advies 2021/04 – Aanschaffingswaarde bij de aankoop van een goed tegen betaling van een vaste prijs, verschuldigd over een periode van meer dan één jaar
 
 ## Inleiding
-
 Onderhavig advies behandelt de boekhoudkundige verwerking van de aankoop van een goed waarbij *ab initio* wordt overeengekomen dat de prijs over een periode van meer dan één jaar wordt betaald zonder dat expliciet voorzien is in een rente of slechts een abnormaal lage rente verschuldigd is. Dergelijke aankoop moet worden beschouwd als een verrichting die in werkelijkheid uit twee elementen bestaat, namelijk de eigenlijke aankoop van het goed en een impliciete lening.
 
 Dit advies heeft uitsluitend betrekking op verrichtingen die plaatsvinden binnen normale marktomstandigheden. 
@@ -95,7 +94,6 @@ Dit advies heeft uitsluitend betrekking op verrichtingen die plaatsvinden binnen
 Dit advies geldt zowel voor vennootschappen als voor verenigingen en stichtingen die een dubbele boekhouding voeren. 
 
 ## Wettelijk kader
-
 Artikel 3:45, § 2 van het koninklijk besluit van 29 april 2019[^2] (hierna: KB WVV) luidt als volgt: 
 
 “Bij de boeking van een vordering in de balans voor haar nominale waarde worden in voorkomend geval in de overlopende rekeningen van het passief geboekt en *pro rata temporis* in resultaat genomen op grond van de samengestelde interesten: [...] het disconto[^3] op renteloze of abnormaal laag rentende vorderingen, wanneer deze vorderingen: 
@@ -107,7 +105,6 @@ Artikel 3:45, § 2 van het koninklijk besluit van 29 april 2019[^2] (hierna: KB 
 Krachtens artikel 3:55 KB WVV is “*artikel 3:45 [...] van overeenkomstige toepassing op de schulden van overeenstemmende aard en looptijd*”.
 
 ## Werkelijke aanschaffingswaarde en boekhoudkundige opsplitsing
-
 Artikelen 3:45 en 3:55 KB WVV hebben tot doel en tot gevolg de werkelijke aanschaffingswaarde, i.e. de door de partijen werkelijk overeengekomen waarde, als criterium aan te wenden op basis waarvan de actiefbestanddelen in kwestie effectief worden gewaardeerd.
 
 Deze bepalingen vertrekken van een boekhoudkundige opsplitsing tussen, enerzijds, de aanschaffingsprijs als dusdanig en, anderzijds, de financieringskost van de aankoop. Deze boekhoudkundige opsplitsing is niets anders dan de boekhoudkundige registratie van de realiteit van de verrichting (ofwel het “realiteitsbeginsel”). 
@@ -117,17 +114,14 @@ Dit betekent echter niet dat de actiefbestanddelen zouden moeten worden geboekt 
 De financiële component[^4] van de verrichting wordt gespreid in resultaat genomen middels de overlopende rekeningen in functie van de looptijd van de betalingstermijn. 
 
 ## Voorbeeld
-
 Stel dat een materieel vast actief op 1 september 20N0 werd verworven voor 100.000 EUR, betaling voorzien op 31 december 20N2. De marktrente bedraagt 6 %.
 
 ## Bepaling van de actuele waarde en het disconto
-
 - actuele waarde op 01/09/20N0: 100.000 EUR x 0,8728768[^5]
  = 87.287,69 EUR 
 - disconto op 01/09/20N0: 100.000 EUR (nominale waarde) – 87.287,69 EUR (actuele waarde) = 12.712,31 EUR 
 
 ## Boekhoudkundige verwerking
-
 *Op 01/09/20N0*
 
 | | Rekening | Omschrijving | Debet | Credit |
@@ -187,7 +181,6 @@ De Commissie benadrukt dat de bepalingen van artikelen 3:45, § 2 & 3:55 KB WVV 
 Een voorbeeld hiervan is de aankoop van een goed in december 2019 waarvan de factuur ten laatste op 30 april 2020 moet worden betaald. Door de COVID-19-epidemie aanvaardt de verkoper op 20 april 2020 een betalingsuitstel van twee jaar. De schuld op ten hoogste één jaar wordt hier omgezet in een schuld op meer dan één jaar. De aanschaffingswaarde van het goed wordt hierdoor niet aangepast.
 
 ## Arrest van het Hof van Justitie van de Europese Unie van 23 april 2020
-
 Het Hof van Justitie van de Europese Unie heeft in haar arrest van 23 april 2020 in de zaak C-640/18 Wagram Invest NV/Belgische Staat bevestigd dat de wettelijke bepaling in het Belgisch jaarrekeningenrecht die stelt dat de aankoop van een financieel vast actief waarbij de prijs over een langere periode wordt betaald zonder dat rente verschuldigd is, in omstandigheden die gelijken op een lening, geboekt moet worden op de actiefzijde van de balans tegen de aanschaffingswaarde rekening houdend met de aftrek van een disconto. 
 
 Het Hof haalt hierbij de volgende overwegingen aan: 

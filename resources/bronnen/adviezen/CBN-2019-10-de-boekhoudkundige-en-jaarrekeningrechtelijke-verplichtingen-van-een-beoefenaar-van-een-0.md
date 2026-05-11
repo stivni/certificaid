@@ -3,59 +3,52 @@ bron: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-en-jaarrekeningrecht
 datum: 2019-09-30
 nummer: CBN-advies 2019/10
 provenance:
-  generated_at: '2026-05-11T15:15:32Z'
+  generated_at: '2026-05-11T17:48:39Z'
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-en-jaarrekeningrechtelijke-verplichtingen-van-een-beoefenaar-van-een-0
-    sha256: 7d925eef4c564534b49c0be59c27ce430bea5653fea0641887cda8ac5c889f72
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-en-jaarrekeningrechtelijke-verplichtingen-van-een-beoefenaar-van-een-0
+      sha256: 7d925eef4c564534b49c0be59c27ce430bea5653fea0641887cda8ac5c889f72
+      version:
   stale: false
-  stale_reason: null
+  stale_reason:
   tooling:
-    model: null
+    model:
     pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    prompt_version: null
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
     confirmed_at: '2026-05-11T12:21:40Z'
     confirmed_by: subagent-sonnet-4-6
     layer1:
-      file_size_chars: 19094
-      flags: []
-      heading_count: 7
-      max_section_chars: 6504
-      run_at: '2026-05-11T15:05:53Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:44Z'
+      heading_count: 7
+      max_section_chars: 6503
+      file_size_chars: 19087
+      flags: []
     layer2:
       agent: subagent-sonnet-4-6
       concrete_problemen: []
-      rationale: 'Geen extractie-artefacten. Geen TOC-fragment in de body, geen broken
-        italics, geen orphan-ankers. Zeven headings correct gelaagd. Voetnoten [^1]–[^29]
-        volledig en correct. Inhoud compleet (aanvangsmoment, boekjaar, dubbel vs.
-        vereenvoudigd, publicatieverplichting). Laag-1: pass, geen flags.'
+      rationale: 'Geen extractie-artefacten. Geen TOC-fragment in de body, geen broken italics, geen orphan-ankers. Zeven headings correct gelaagd. Voetnoten [^1]–[^29] volledig en correct. Inhoud compleet (aanvangsmoment, boekjaar, dubbel vs. vereenvoudigd, publicatieverplichting). Laag-1: pass, geen flags.'
       run_at: '2026-05-11T12:21:40Z'
       status: trusted
-    rationale: 'Geen extractie-artefacten. Geen TOC-fragment in de body, geen broken
-      italics, geen orphan-ankers. Zeven headings correct gelaagd. Voetnoten [^1]–[^29]
-      volledig en correct. Inhoud compleet (aanvangsmoment, boekjaar, dubbel vs. vereenvoudigd,
-      publicatieverplichting). Laag-1: pass, geen flags.'
+    rationale: 'Geen extractie-artefacten. Geen TOC-fragment in de body, geen broken italics, geen orphan-ankers. Zeven headings correct gelaagd. Voetnoten [^1]–[^29] volledig en correct. Inhoud compleet (aanvangsmoment, boekjaar, dubbel vs. vereenvoudigd, publicatieverplichting). Laag-1: pass, geen flags.'
     status: trusted
 themas:
-- boekhoudkundige verplichting
-- vrij beroep
-- boekhoudplichtige onderneming
-- dubbele boekhouding
-- vereenvoudigde boekhouding
-- omzetcijfer
-- publicatie
-- openbaarmaking
-- jaarrekening
+  - boekhoudkundige verplichting
+  - vrij beroep
+  - boekhoudplichtige onderneming
+  - dubbele boekhouding
+  - vereenvoudigde boekhouding
+  - omzetcijfer
+  - publicatie
+  - openbaarmaking
+  - jaarrekening
 ---
 
 # CBN-advies 2019/10 – De boekhoudkundige en jaarrekeningrechtelijke verplichtingen van een beoefenaar van een vrij beroep
 
 ## Algemeen
-
 In het CBN-advies 2019/9 – Boekhoudplichtige onderneming verduidelijkt de Commissie wie aangemerkt wordt als boekhoudplichtige onderneming en vanaf wanneer[^2] deze onderworpen is aan de boekhoudkundige verplichtingen vermeld in het Wetboek van economisch recht (hierna: WER), Boek 3, Titel 3, Hoofdstuk 2 Boekhouding van de onderneming. In onderhavig advies verduidelijkt de Commissie in het bijzonder de boekhoudkundige verplichtingen die hieruit voortvloeien voor een natuurlijke persoon die een vrij beroep uitoefent.
 
 Het ondernemingsbegrip wordt verruimd ingevolge de wet van 15 april 2018 houdende hervorming van het ondernemingsrecht. Deze verruiming heeft tot doel om met het nieuwe ondernemingsbegrip alle actoren die economisch actief zijn te dekken. In navolging van de verruiming van het algemene ondernemingsbegrip was het de wens van de regering om het toepassingsgebied van de boekhoudverplichtingen zoveel mogelijk af te stemmen op het gemoderniseerde ondernemingsbegrip en deze verplichtingen zoveel als mogelijk te stroomlijnen en te uniformiseren.[^3]
@@ -66,7 +59,6 @@ De beoefenaars van een vrij beroep werden niet beoogd in de boekhoudwet van 1975
 De Commissie spreekt zich met onderhavig advies expliciet niet uit over de wijze waarop de beoefenaars van een vrij beroep hun fiscale verplichtingen dienen te vervullen. De verwijzingen hierna naar een aantal fiscale verplichtingen worden door de Commissie uitsluitend aangehaald in hun relatie met de verplichtingen die gelden voor de beoefenaars van een vrij beroep ingevolge de onderwerping aan de verplichtingen opgenomen in Boek 3, Titel 3, Hoofdstuk 2 WER.
 
 ## Boekhoudkundige verplichtingen – aanvangsmoment
-
 Hoewel iedere natuurlijke persoon die een vrij beroep uitoefent vanaf 1 november 2018 een boekhoudplichtige onderneming is, wordt niet elke boekhoudplichtige onderneming onmiddellijk onderworpen aan de verplichtingen vermeld in Boek 3, Titel 3, Hoofdstuk 2 van het WER.[^7]
  Er wordt een onderscheid gemaakt naargelang de datum van aanvang van de zelfstandige beroepswerkzaamheid. 
 
@@ -74,14 +66,12 @@ Hoewel iedere natuurlijke persoon die een vrij beroep uitoefent vanaf 1 november
 2. De natuurlijke persoon die reeds vóór 1 november 2018 een zelfstandige beroepsactiviteit uitoefende is onderworpen aan de boekhoudkundige verplichtingen vermeld in Boek 3, Titel 3, Hoofdstuk 2 van het WER vanaf het eerste boekjaar dat ten vroegste start vanaf 1 mei 2019. 
 
 ## Boekjaar van een beoefenaar van een vrij beroep
-
 Elke boekhoudplichtige onderneming, en dus ook de beoefenaar van een vrij beroep, moet ten minste eens per jaar een inventaris[^8] opmaken van al haar bezittingen en rechten, vorderingen, schulden en verplichtingen, die betrekking hebben op haar bedrijf. 
 
 Er is geen wettelijke datum vooropgesteld waarop de inventaris, en de daaruit voortvloeiende *interne jaarrekening* moet worden opgesteld. De boekhoudplichtige onderneming kan deze datum met andere woorden zelf kiezen.[^9]
  De Commissie is evenwel van mening dat een boekjaar in principe een duurtijd heeft van twaalf maanden. Een uitzonderlijke verlenging of verkorting van het boekjaar tot een duur van meer of minder dan twaalf maanden is hierbij mogelijk, doch mits de beslissing hiertoe wordt genomen vóór het einde van het boekjaar zelf. In het WER is geen beperking opgenomen over het aantal keren dat het boekjaar kan worden verlengd of verkort. Het ontbreken van een expliciete toelating dat een boekjaar uit meer of minder dan twaalf maanden kan bestaan, getuigt er volgens de Commissie van dat de wetgever zich ertegen verzet dat het boekjaar stelselmatig een duur zou hebben die verschilt van twaalf maanden.[^10] 
 
 ## Dubbele boekhouding of vereenvoudigde boekhouding (optie) in functie van het omzetcijfer
-
 De beoefenaar van een vrij beroep moet, net zoals iedere boekhoudplichtige onderneming, een voor de aard en de omvang van haar bedrijf passende boekhouding voeren en neemt de bijzondere wetsvoorschriften betreffende dat bedrijf in acht.[^11]
  Dit wil zeggen dat de beroepsbeoefenaar zijn boekhouding moet houden op dermate wijze dat zij beantwoordt aan haar eigen behoeften inzake beleid, informatie, interne en externe controle. De organisatie van de boekhouding moet zodanig zijn dat ze het mogelijk maakt in alle zekerheid te beantwoorden aan de diverse informatiebehoeften van de onderneming zelf, evenals van derden aan wie rekenschap moet worden gegeven of aan wie inlichtingen verstrekt moeten worden.[^12]
  Indien bijvoorbeeld voor fiscale doeleinden bepaalde informatie in de boekhouding moet worden opgenomen, zou ook boekhoudrechtelijk de boekhouding dermate moeten worden georganiseerd dat deze informatie uit de boekhouding kan worden afgelezen.[^13]
@@ -104,7 +94,6 @@ Onverminderd de voormelde algemene vereiste waaraan iedere boekhouding dient te 
 2. Indien de andere dan niet-recurrente ontvangsten, in voorkomend geval exclusief btw, over het laatste boekjaar ten hoogste 500.000 euro bedragen dan mag (optioneel) de natuurlijke persoon die een vrij beroep uitoefent een vereenvoudigde boekhouding voeren. 
 
 ## Dubbele boekhouding
-
 De natuurlijke persoon die een vrij beroep uitoefent en een dubbele boekhouding voert[^18] moet zich wat betreft de vorm en de inhoud van de jaarrekening gedragen naar de bepalingen dienaangaande van het Wetboek van vennootschappen en verenigingen (hierna: WVV) en het uitvoeringsbesluit van 29 april 2019 ter uitvoering van het Wetboek van vennootschappen en verenigingen (hierna: KB WVV).[^19]
  Hieruit volgt dat de gebruikelijke regels van het dubbel boekhouden moeten worden gevolgd, dat de waarderingsregels dienen toegepast te worden vervat in het geciteerd besluit en dat bij het voeren van de boekhouding gebruik moet worden gemaakt van de minimumindeling van een algemeen rekeningenstelsel zoals door de Koning bepaalt in de bijlage 1: *minimumindeling van het algemeen rekeningenstelsel voor boekhoudplichtige ondernemingen andere dan verenigingen en stichtingen*. 
 
@@ -113,7 +102,6 @@ Voor de praktische wijze waarop dergelijke boekhouding moet worden gehouden, wor
 De verplichting tot opmaak van een jaarlijkse inventaris en interne jaarrekening vloeit voort uit het WER[^21]. Voor wat betreft de beoefenaars van een vrij beroep die ervoor opteren om een dubbele boekhouding te voeren geldt dat deze zich wat betreft de vorm en de inhoud van de jaarrekening moeten gedragen naar de bepalingen van het KB WVV.[^22] 
 
 ## Vereenvoudigde boekhouding
-
 De beoefenaar van een vrij beroep die een vereenvoudigde boekhouding voert moet alle verrichtingen zonder uitstel, getrouw en naar tijdsorde inschrijven in ten minste drie dagboeken: een financieel dagboek, een inkoopdagboek en een verkoopdagboek.[^23]
  Voor de praktische wijze waarop dergelijke boekhouding moet worden gehouden, wordt verwezen naar het CBN-advies 174/1 – Beginselen van een regelmatige boekhouding.[^24] 
 
@@ -123,7 +111,6 @@ De verplichting tot opmaak van een jaarlijkse inventaris en interne jaarrekening
  Het ontbreken van specifieke waarderingsregels mag evenwel geen vrijgeleide zijn om de inventaris op een willekeurige manier op te stellen. Om regelmatig te zijn moet een boekhouding controleerbaar zijn. Daartoe moeten de gegevens en de staten die voortvloeien uit de verwerking van de boekhoudgegevens steeds a posteriori kunnen worden geverifieerd. Dit impliceert niet enkel dat elke verrichting van begin tot einde moeten kunnen worden gevolgd, maar ook dat de verantwoordingsstukken daartoe kunnen worden teruggevonden.[^28] 
 
 ## Geen externe jaarrekening – geen publicatieverplichting
-
 De opgestelde interne jaarrekening van de natuurlijke persoon die een vrij beroep beoefent moet niet worden neergelegd of openbaar gemaakt.[^29] 
 
 [^1]: Onderhavig advies is tot stand gekomen nadat een ontwerpadvies op 21 juni 2019 ter publieke consultatie werd gepubliceerd op de website van de CBN.

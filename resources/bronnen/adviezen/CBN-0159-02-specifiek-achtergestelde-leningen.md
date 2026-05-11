@@ -3,49 +3,45 @@ bron: https://www.cbn-cnc.be/nl/adviezen/specifiek-achtergestelde-leningen
 datum: 1989-09-01
 nummer: CBN-advies 159/2
 provenance:
-  generated_at: '2026-05-11T15:15:31Z'
+  generated_at: '2026-05-11T17:48:38Z'
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/specifiek-achtergestelde-leningen
-    sha256: a23060a0ddd0f6b9290bde1222b9de08ac692ef2be3ce09ffd66107fdfa2111a
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/specifiek-achtergestelde-leningen
+      sha256: a23060a0ddd0f6b9290bde1222b9de08ac692ef2be3ce09ffd66107fdfa2111a
+      version:
   stale: false
-  stale_reason: null
+  stale_reason:
   tooling:
-    model: null
+    model:
     pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    prompt_version: null
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
     confirmed_at: '2026-05-11T12:04:42Z'
     confirmed_by: subagent-sonnet-4-6
     layer1:
-      file_size_chars: 3094
-      flags: []
+      status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:42Z'
       heading_count: 0
       max_section_chars: 3094
-      run_at: '2026-05-11T15:05:49Z'
-      run_id: 20260511-150547
-      status: pass
+      file_size_chars: 3094
+      flags: []
     layer2:
       agent: subagent-sonnet-4-6
       concrete_problemen: []
-      rationale: Geen ETL-artefacten. Italics voor '*Achtergestelde leningen*' en
-        '*Niet-converteerbare achtergestelde leningen*' correct gesloten. Voetnoot
-        correct gelinkt. Inhoud volledig en coherent.
+      rationale: Geen ETL-artefacten. Italics voor '*Achtergestelde leningen*' en '*Niet-converteerbare achtergestelde leningen*' correct gesloten. Voetnoot correct gelinkt. Inhoud volledig en coherent.
       run_at: '2026-05-11T12:04:42Z'
       status: trusted
-    rationale: Geen ETL-artefacten. Italics voor '*Achtergestelde leningen*' en '*Niet-converteerbare
-      achtergestelde leningen*' correct gesloten. Voetnoot correct gelinkt. Inhoud
-      volledig en coherent.
+    rationale: Geen ETL-artefacten. Italics voor '*Achtergestelde leningen*' en '*Niet-converteerbare achtergestelde leningen*' correct gesloten. Voetnoot correct gelinkt. Inhoud volledig en coherent.
     status: trusted
 themas:
-- achtergestelde lening
-- achterstellingsclausule
-- lening
-- lening met een achterstellingsclausule
-- schulden
-- specifiek achtergestelde leningen
-- toelichting
+  - achtergestelde lening
+  - achterstellingsclausule
+  - lening
+  - lening met een achterstellingsclausule
+  - schulden
+  - specifiek achtergestelde leningen
+  - toelichting
 ---
 
 # CBN-advies 159/2 - Specifiek achtergestelde leningen

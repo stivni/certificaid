@@ -3,53 +3,53 @@ bron: https://www.cbn-cnc.be/nl/adviezen/termijnovereenkomsten-op-handelsgoedere
 datum: 1988-06-01
 nummer: CBN-advies 132/4
 provenance:
+  generated_at: '2026-05-11T17:48:38Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/termijnovereenkomsten-op-handelsgoederen
       sha256: fba281e0eaf4069ff985457ce4e9bcd65ae43e05810f2cb55639e7daa3afe6f7
       version:
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
-    status: needs-rework
     confirmed_at: '2026-05-11T17:05:21Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "A6 op meerdere regels: hyphen-spatie word-splits 'in-resultaat- neming' (L101, L113), 'prijs- risico' (L117), 'niet- gerealiseerde' (L129) — PDF-regelbreuk-artefacten consistent door het bestand. Heading-hiërarchie in de huidige body is correct (H1→H2→H3), dus B2 van eerdere ronde is niet meer van toepassing."
     layer1:
-      file_size_chars: 12180
-      flags: []
-      heading_count: 8
-      max_section_chars: 4963
-      run_at: '2026-05-11T15:05:48Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:41Z'
+      heading_count: 8
+      max_section_chars: 4051
+      file_size_chars: 12166
+      flags: []
     layer2:
-      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T17:05:21Z'
-      rationale: "A6 op meerdere regels: hyphen-spatie word-splits 'in-resultaat- neming' (L101, L113), 'prijs- risico' (L117), 'niet- gerealiseerde' (L129) — PDF-regelbreuk-artefacten consistent door het bestand. Heading-hiërarchie in de huidige body is correct (H1→H2→H3), dus B2 van eerdere ronde is niet meer van toepassing."
       concrete_problemen:
-        - regel: 101
-          categorie: A6
+        - categorie: A6
+          regel: 101
           type: other
           voorbeeld: niet voor in-resultaat- neming vatbaar is
-        - regel: 113
-          categorie: A6
+        - categorie: A6
+          regel: 113
           type: other
           voorbeeld: niet voor in-resultaat- neming vatbaar is
-        - regel: 117
-          categorie: A6
+        - categorie: A6
+          regel: 117
           type: other
           voorbeeld: het hieraan verbonden prijs- risico gedekt
-        - regel: 129
-          categorie: A6
+        - categorie: A6
+          regel: 129
           type: other
           voorbeeld: een niet- gerealiseerde winst (niet in resultaat te nemen)
+      rationale: 'A6 op meerdere regels: hyphen-spatie word-splits ''in-resultaat- neming'' (L101, L113), ''prijs- risico'' (L117), ''niet- gerealiseerde'' (L129) — PDF-regelbreuk-artefacten consistent door het bestand. Heading-hiërarchie in de huidige body is correct (H1→H2→H3), dus B2 van eerdere ronde is niet meer van toepassing.'
+      run_at: '2026-05-11T17:05:21Z'
+      status: needs-rework
+    rationale: 'A6 op meerdere regels: hyphen-spatie word-splits ''in-resultaat- neming'' (L101, L113), ''prijs- risico'' (L117), ''niet- gerealiseerde'' (L129) — PDF-regelbreuk-artefacten consistent door het bestand. Heading-hiërarchie in de huidige body is correct (H1→H2→H3), dus B2 van eerdere ronde is niet meer van toepassing.'
+    status: needs-rework
 themas:
   - gedekte verrichting
   - handelsgoederen
@@ -66,7 +66,6 @@ themas:
 # CBN-advies 132/4 - Termijnovereenkomsten op handelsgoederen
 
 ## Beginselen
-
 1. Handelsgoederen in voorraad worden krachtens artikel 27, § 1 van het koninklijk besluit van 8 oktober 1976 met betrekking tot de jaarrekening van de ondernemingen, gewaardeerd tegen aanschaffingswaarde of tegen de marktwaarde op balansdatum als die lager is. 
 
 2. Krachtens artikel 19, 3de lid van het koninklijk besluit van 8 oktober 1976 moet rekening worden gehouden met alle voorzienbare risico's, mogelijke verliezen en ontwaardingen ontstaan tijdens het boekjaar waarop de jaarrekening betrekking heeft. 
@@ -78,9 +77,7 @@ Artikel 19, 5de lid van dit besluit bepaalt : «Voorzieningen moeten, onder meer
 3. de verlies- of kostenrisico's die voortvloeien uit ... termijnposities of -overeenkomsten op goederen». 
 
 ## Niet gedekte verrichtingen op termijn
-
 ### Aankoopverrichtingen
-
 Ten aanzien van het prijsrisico, maakt het voor een onderneming geen verschil uit of zij goederen op termijn heeft gekocht dan wel in voorraad heeft. Inderdaad, wanneer een onderneming goederen op termijn heeft gekocht en daarna de marktwaarde daalt, dan is het potentieel verlies op deze verrichting hetzelfde als indien deze goederen in voorraad waren. 
 
 Zolang de op termijn gekochte goederen niet zijn geleverd, worden zij niet op de balans onder de activa geboekt, maar in de *Niet in de balans opgenomen rechten en verplichtingen*, met name op rekening 060 van het algemeen rekeningenstelsel. Hieruit volgt dat deze «minderwaarde» op termijn gekochte goederen niet ten laste kan worden genomen door toepassing van het beginsel van de waardering in de balans tegen lagere marktwaarde; zulks moet gebeuren via de vorming van een voorziening voor risico's en kosten (cf. artikelen 13 en 19, 5de lid van het besluit van 8 oktober 1976). 
@@ -97,7 +94,6 @@ Hieruit volgen twee conclusies :
 Indien op balansdatum de marktprijs hoger is dan de in de termijnaankoopovereenkomst bedongen prijs, is er een latente winst die echter niet gerealiseerd is en die derhalve niet voor in-resultaat- neming vatbaar is. 
 
 ### Verkoopverrichtingen
-
 Wanneer een onderneming goederen op termijn heeft verkocht die zij niet in voorraad heeft noch op termijn heeft gekocht, dan heeft zij een baissepositie. Dit betekent dat zij een daling van de prijzen verwacht en goederen heeft verkocht met de hoop om op een later tijdstip de te leveren goederen goedkoper te kunnen aankopen. 
 
 Het risico is hier dat de prijs van de goederen stijgt en dat de onderneming de koopwaren duurder moet kopen dan de prijs bedongen in de termijnverkoopovereenkomst. 
@@ -109,11 +105,9 @@ Zoals hierboven gezegd is in casu de algemene regeling inzake voorzieningen van 
 Indien op balansdatum de marktprijs lager is dan de in de termijnverkoopovereenkomst bedongen prijs, is er een latente winst die echter niet gerealiseerd is en die derhalve niet voor in-resultaat- neming vatbaar is. 
 
 ## Gedekte verrichtingen
-
 Als op een bepaald ogenblik een onderneming goederen in voorraad heeft dan wel op termijn heeft gekocht en tegelijkertijd soortgelijke goederen contant dan wel op termijn verkoopt, dan is het hieraan verbonden prijs- risico gedekt ten belope van het kleinste van de twee betrokken hoeveelheden. 
 
 ## Voorbeelden
-
 1. Een onderneming heeft goederen op termijn gekocht en deze onmiddellijk daarna op termijn verkocht; in dit geval heeft een latere schommeling van de marktprijs van deze goederen geen invloed op het vermogen en het resultaat van de onderneming. 
 2. Een onderneming heeft een voorraad en verwacht een daling van de marktprijs; om zich tegen deze verwachte daling in te dekken, verkoopt zij deze goederen op termijn, zelfs met verlies; desgevallend kan zij diezelfde goederen later terug inkopen, tegen een lagere prijs indien haar verwachtingen bewaarheid worden. 
 
@@ -127,7 +121,6 @@ Zouden deze voorraden, aankopen op termijn en verkopen op termijn afzonderlijk w
 Hierbij moet een onderscheid worden gemaakt tussen de gevallen waarin de onderneming specifieke dekkingsverrichtingen uitvoert en de gevallen waarin de onderneming een groot aantal verrichtingen afsluit en waar de positie niet per verrichting maar in haar geheel wordt beheerd. 
 
 ### Specifieke dekkingsverrichtingen
-
 Bij specifieke dekking hoort de rechtstreekse bedrijfseconomische binding tussen de twee verrichtingen ook in de boekhouding te worden weergegeven. 
 
 In het hierboven sub a) aangehaalde geval moet bij het afsluiten van de dekkingsverrichting - ongeacht de latere evolutie van de marktprijs - het zowel negatieve als positieve verschil tussen de in de termijnovereenkomsten bedongen verkoop- en aankoopprijs in resultaat worden genomen. 
@@ -137,7 +130,6 @@ In het hierboven sub b) aangehaalde geval is de voorraad te waarderen tegen de i
 In het sub c) aangehaalde geval is het prijsrisico met betrekking tot de op termijn gekochte grondstoffen gedekt door de prijs die voor deze grondstoffen is bedongen in de ontvangen bestelling. Er is derhalve geen reden om bij het opmaken van de inventaris en de jaarrekening, rekening te houden met de latere evolutie van de marktprijs van deze op termijn gekochte grondstoffen. 
 
 ### Verrichtingen in groter aantal en beheer van de positie
-
 Wanneer een onderneming talrijke verrichtingen op termijn afsluit, worden de goederenposities over het algemeen als geheel beheerd veeleer dan via een specifieke dekking per verrichting. Hier spitst het toezicht zich dan toe op de totale positie die voortvloeit uit de (algebraïsche) samenvoeging van verrichtingen in groter aantal. 
 
 Behalve wanneer de vervaldagen niet samenvallen, is de positie gedekt in de mate waarin de hoeveelheid goederen in voorraad en op termijn gekocht, gelijk is aan de hoeveelheid gelijkaardige goederen, contant of op termijn verkocht. 

@@ -16,49 +16,49 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-buitenlandse-vennootschappen-eigen-boekhoudkundige
 nummer: CBN-advies 2020/01
 provenance:
+  generated_at: '2026-05-11T17:48:39Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/neerlegging-van-de-enkelvoudige-jaarrekening-bij-de-nationale-bank-van-belgie-nieuwe
       sha256: 14f15fd95e33712adef5480cf5cefebadebb5694dcea904d867d50597eddc1f2
       version:
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T15:15:32Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
-    status: needs-rework
     confirmed_at: '2026-05-11T17:13:30Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "A7: regels 78–80 bevatten twee weesregels `van de jaarrekening` — fragmenten van de ondertitel losgeraakt bij extractie. D2: regels 102, 104, 108 bevatten italic plaatshouders voor figuren (`*Volledig, verkort en micromodel...samenstelling van het eigen vermogen*`) maar de eigenlijke schema's ontbreken — de kern van het advies (nieuwe jaarrekeningmodellen) is daardoor niet leesbaar."
     layer1:
-      file_size_chars: 22973
-      flags: []
-      heading_count: 10
-      max_section_chars: 10092
-      run_at: '2026-05-11T15:05:53Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:44Z'
+      heading_count: 10
+      max_section_chars: 10037
+      file_size_chars: 22909
+      flags: []
     layer2:
-      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T17:13:30Z'
-      rationale: "A7: regels 78–80 bevatten twee weesregels `van de jaarrekening` — fragmenten van de ondertitel losgeraakt bij extractie. D2: regels 102, 104, 108 bevatten italic plaatshouders voor figuren (`*Volledig, verkort en micromodel...samenstelling van het eigen vermogen*`) maar de eigenlijke schema's ontbreken — de kern van het advies (nieuwe jaarrekeningmodellen) is daardoor niet leesbaar."
       concrete_problemen:
-        - regel: 78
-          categorie: A7
+        - categorie: A7
+          regel: 78
           type: scrambled-words
           voorbeeld: "van de jaarrekening \n\n van de jaarrekening"
-        - regel: 102
-          categorie: D2
+        - categorie: D2
+          regel: 102
           type: missing-section
           voorbeeld: '*Volledig, verkort en micromodel van de jaarrekening: samenstelling van het eigen vermogen van kapitaalvennootschappen[^15]*'
-        - regel: 108
-          categorie: D2
+        - categorie: D2
+          regel: 108
           type: missing-section
           voorbeeld: '*Volledig model van de jaarrekening: samenstelling van de rubriek Onbeschikbare reserves van kapitaalloze vennootschappen[^17]*'
+      rationale: 'A7: regels 78–80 bevatten twee weesregels `van de jaarrekening` — fragmenten van de ondertitel losgeraakt bij extractie. D2: regels 102, 104, 108 bevatten italic plaatshouders voor figuren (`*Volledig, verkort en micromodel...samenstelling van het eigen vermogen*`) maar de eigenlijke schema''s ontbreken — de kern van het advies (nieuwe jaarrekeningmodellen) is daardoor niet leesbaar.'
+      run_at: '2026-05-11T17:13:30Z'
+      status: needs-rework
+    rationale: 'A7: regels 78–80 bevatten twee weesregels `van de jaarrekening` — fragmenten van de ondertitel losgeraakt bij extractie. D2: regels 102, 104, 108 bevatten italic plaatshouders voor figuren (`*Volledig, verkort en micromodel...samenstelling van het eigen vermogen*`) maar de eigenlijke schema''s ontbreken — de kern van het advies (nieuwe jaarrekeningmodellen) is daardoor niet leesbaar.'
+    status: needs-rework
 themas:
   - neerlegging van de jaarrekening
   - publicatie
@@ -75,16 +75,10 @@ themas:
 
 # CBN-advies 2020/01 – Neerlegging van de enkelvoudige jaarrekening bij de Nationale Bank van België: nieuwe modellen van de jaarrekening
 
-van de jaarrekening 
-
- van de jaarrekening
-
 ## Inleiding
-
 Onderhavig advies legt uit op welke manier vennootschappen, verenigingen en stichtingen die hun jaarrekening verplicht moeten neerleggen bij de Nationale Bank van België[^2] kunnen voldoen aan deze openbaarmakingsverplichting wanneer de aan het nieuwe Wetboek van vennootschappen en verenigingen (hierna: WVV)[^3] en het uitvoeringsbesluit (hierna: KB WVV)[^4] aangepaste modellen van de enkelvoudige jaarrekening door de Nationale Bank van België nog niet beschikbaar worden gesteld. 
 
 ## Schema van de enkelvoudige jaarrekening voor vennootschappen met rechtspersoonlijkheid
-
 Het bestuursorgaan is verplicht om elk jaar een inventaris op te maken volgens de waarderingsregels bepaald door de Koning, evenals een jaarrekening in de vorm en met de inhoud bepaald door de Koning.[^5]
  De jaarrekening moet binnen zes maanden na de afsluitdatum van het boekjaar ter goedkeuring worden voorgelegd aan de vennoten verenigd in vergadering of de algemene vergadering.[^6]
  Kleine vennootschappen kunnen hun jaarrekening opmaken volgens een verkort schema dat de Koning vaststelt.[^7]
@@ -111,8 +105,7 @@ Volledig, verkort en micromodel van de jaarrekening: samenstelling van het eigen
 
 De vennootschappen die hun jaarrekening moeten opmaken overeenkomstig de schema’s uit het KB WVV volgen voor de neerlegging van hun jaarrekening een model van jaarrekening dat door de Nationale Bank van België wordt opgesteld na advies van de Commissie en dat op haar website ter beschikking wordt gesteld.[^18] 
 
-## Schema van de jaarrekening voor VZW’s IVZW’s en stichtingen[^19]
-
+## Schema van de jaarrekening voor VZW’s IVZW’s en stichtingen
 Het bestuursorgaan maakt elk jaar een inventaris op volgens de waarderingsmaatstaven bepaald door de Koning.[^20]
  Het bestuursorgaan maakt ieder jaar een jaarrekening op in de vorm en met de inhoud bepaald door de Koning.[^21]
  De jaarrekening van de VZW’s en IVZW’s moet binnen zes maanden na de afsluitdatum van het boekjaar ter goedkeuring worden voorgelegd aan de algemene vergadering.[^22]
@@ -125,7 +118,6 @@ De nieuwe schema’s van de jaarrekening[^26] verschillen weinig van de schema�
 De VZW’s, IVZW’s en stichtingen die hun jaarrekening moeten opmaken overeenkomstig de schema’s zoals opgenomen in de bijlagen 6 en 7 bij het KB WVV volgen voor de neerlegging van hun jaarrekening een model van jaarrekening dat door de Nationale Bank van België wordt opgesteld en dat op haar website ter beschikking wordt gesteld.[^28] 
 
 ## Inwerkingtreding WVV en KB WVV
-
 De bepalingen van het WVV en het KB WVV treden in werking op 1 mei 2019.[^29]
  Op vennootschappen, VZW’s, IVZW’s en stichtingen die reeds bestaan op de dag van de inwerkingtreding, zijn de dwingende bepalingen voor het eerst van rechtswege van toepassing op 1 januari 2020.[^30]
  Bestaande vennootschappen, verenigingen en stichtingen kunnen, mits een statutenwijziging, evenwel beslissen om de bepalingen reeds toe te passen vóór 1 januari 2020, maar ten vroegste op 1 mei 2019.[^31]
@@ -141,15 +133,12 @@ Volgende situaties kunnen op basis van dit principe worden onderscheiden:
 - voor bestaande vennootschappen, VZW’s, IVZW’s en stichtingen die hebben gekozen voor een zogenaamde “opt-in”, is de nieuwe regelgeving voor het eerst van toepassing voor zover de afsluitdatum van het boekjaar na de datum van de statutenwijziging valt. 
 
 ## De te gebruiken modellen van de jaarrekening
-
 ### Aanpassing aan de modellen van de jaarrekening door de Nationale Bank van België
-
 Zoals eerder vermeld volgen vennootschappen, VZW’s, IVZW’s en stichtingen die hun jaarrekening moeten opmaken overeenkomstig de schema’s zoals opgenomen in de bijlagen 3, 4, 6 en 7 bij het KB WVV voor de neerlegging van hun jaarrekening een model van jaarrekening dat door de Nationale Bank van België wordt opgesteld en dat op haar website ter beschikking wordt gesteld. Dit model van jaarrekening wordt door de Nationale Bank van België aan de geldende wettelijke en reglementaire bepalingen aangepast, na advies van de Commissie voor Boekhoudkundige normen. Het bestaan van een nieuwe versie wordt in het Belgisch Staatsblad meegedeeld.[^33] 
 
 De wijzigingen die naar aanleiding van het WVV en het KB WVV moeten worden aangebracht, hebben een aanpassing van de modellen van de jaarrekening tot gevolg. 
 
 #### Aangepaste modellen voor vennootschappen
-
 Zoals eerder vermeld betreft een van de belangrijkste wijzigingen het wegvallen van het kapitaal bij kapitaalloze vennootschappen. De wet van 23 maart 2019 tot invoering van het Wetboek van vennootschappen en verenigingen en houdende diverse bepalingen stelt in artikel 39, § 2, tweede lid in dit verband: 
 
 “Vanaf die dag [1 januari 2020] worden het volgestort gedeelte van het kapitaal en de wettelijke reserve van de besloten vennootschappen met beperkte aansprakelijkheid en het volgestorte gedeelte van het vaste gedeelte van het kapitaal en de wettelijke reserve van de coöperatieve vennootschappen met beperkte aansprakelijkheid, van rechtswege en zonder vervulling van enige formaliteit, omgevormd in een statutair onbeschikbare eigen vermogensrekening. Het niet gestorte gedeelte van het kapitaal in de besloten vennootschappen met beperkte aansprakelijkheid en het niet gestorte gedeelte van het vaste gedeelte van het kapitaal in de coöperatieve vennootschappen met beperkte aansprakelijkheid worden op dezelfde wijze omgevormd in een eigen vermogensrekening “niet-opgevraagde inbrengen”. Bij volstorting worden de gestorte bedragen geboekt op de onbeschikbare eigen vermogensrekening.”
@@ -159,7 +148,6 @@ Het KB WVV heeft naar aanleiding hiervan in artikel 9:10 een aantal wijzigingen 
 Zo wordt de rekening 11 *Uitgiftepremies* vervangen door de volgende rekeningen:
 
 ### 11 Inbreng buiten kapitaal
-
    110 Beschikbare inbreng buiten kapitaal 
 
      1100 Uitgiftepremie 
@@ -181,11 +169,9 @@ Bij de opstelling van de jaarrekening van een kapitaalloze vennootschap door het
 ‘Nieuw’ model van de jaarrekening voor kapitaalloze vennootschappen*
 
 #### Aangepaste modellen voor VZW’s, IVZW’s en stichtingen
-
 De wijzigingen aan de schema’s voor de VZW’s, IVZW’s en stichtingen zoals opgenomen in bijlagen 6 en 7 bij het KB WVV zijn minder ingrijpend, hebben geen ‘herindeling’ tot gevolg en behoeven bijgevolg in het kader van onderhavig advies geen verdere commentaar. De Commissie zal evenwel niet nalaten om in andere adviezen waar nodig de voornaamste inhoudelijke wijzigingen toe te lichten. 
 
-### Gebruik van de ‘oude’ XBRL-modellen[^34] van de jaarrekening
-
+### Gebruik van de ‘oude’ XBRL-modellen van de jaarrekening
 Mogelijks zijn de nieuwe modellen van de Nationale Bank van België van de jaarrekening in het gewenste format nog niet beschikbaar op het ogenblik dat de nieuwe bepalingen wel al van toepassing zijn bij de neerlegging van de jaarrekening van een vennootschap, VZW, IVZW of stichting. Maken vennootschappen, in afwachting van de nieuwe modellen in de gewenste format voor de neerlegging van de jaarrekening nog gebruik van de ‘oude’ XBRL-modellen van de jaarrekening, dan rijzen een aantal vragen. 
 
 Voornamelijk voor kapitaalloze vennootschappen stelt zich bijvoorbeeld de vraag hoe ze de rubriek van het eigen vermogen moeten invullen wanneer zij van rechtswege geen kapitaal meer hebben. De Commissie is van oordeel dat, gezien het feit dat er boekhoudtechnisch wel al een overboeking zal zijn gebeurd naar de rekening 1119 *Andere onbeschikbare inbreng buiten kapitaal*, de kapitaalloze vennootschap het saldo van het bedrag van de codes 100* Kapitaal *en 101* Niet-opgevraagd Kapitaal (-) *in een dergelijk ‘oud’ model van de jaarrekening kan opnemen onder de code 11* Uitgiftepremies*, mits de nodige, passende uitleg in de toelichting. In deze toelichting wordt bijkomend vermeld in hoeverre het over onbeschikbare dan wel beschikbare inbreng gaat[^35]. Het bedrag opgenomen op de rekening 130 *Wettelijke reserves* kan dan in geval van het gebruik van het ‘oude’ model van de jaarrekening, voorlopig onder de code 130 *Wettelijke reserve* worden behouden.[^36] 

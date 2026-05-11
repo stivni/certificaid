@@ -7,49 +7,49 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/opneming-van-de-rekeningen-van-een-buitenlands-bijkantoor
 nummer: CBN-advies C102
 provenance:
+  generated_at: '2026-05-11T17:48:38Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/overschakeling-op-de-euro-aspecten-in-verband-met-de-geconsolideerde-jaarrekening
       sha256: ab2bfec3e927b5ec40d7ee28060050ff1cc7740d622ffac9dde0c1ebb0dbd7d9
       version:
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
-    status: needs-rework
     confirmed_at: '2026-05-11T17:05:20Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "Drie ETL-bugs bevestigd: (1) G3/spurious bracket: regel 111 bevat '] verantwoorden»[^8]' met losstaand ']' midden in geciteerde passage — verminkt de geciteerde tekst. (2) D3: voetnoot [^14] op regel 204 bevat dezelfde definitiezin tweemaal aaneengesloten zonder separator. (3) A6: 'niet- monetaire' met spatie na koppelteken op regels 149, 153 en 208 naast correct 'niet-monetaire' elders — inconsistentie typisch voor extractie-artefact."
     layer1:
-      file_size_chars: 26659
-      flags: []
-      heading_count: 6
-      max_section_chars: 15755
-      run_at: '2026-05-11T15:05:47Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:40Z'
+      heading_count: 6
+      max_section_chars: 15747
+      file_size_chars: 26648
+      flags: []
     layer2:
-      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T17:05:20Z'
-      rationale: "Drie ETL-bugs bevestigd: (1) G3/spurious bracket: regel 111 bevat '] verantwoorden»[^8]' met losstaand ']' midden in geciteerde passage — verminkt de geciteerde tekst. (2) D3: voetnoot [^14] op regel 204 bevat dezelfde definitiezin tweemaal aaneengesloten zonder separator. (3) A6: 'niet- monetaire' met spatie na koppelteken op regels 149, 153 en 208 naast correct 'niet-monetaire' elders — inconsistentie typisch voor extractie-artefact."
       concrete_problemen:
-        - regel: 111
-          categorie: G3
+        - categorie: G3
+          regel: 111
           type: other
           voorbeeld: te ] verantwoorden»[^8] — spurious ] bracket midden in geciteerde passage
-        - regel: 204
-          categorie: D3
+        - categorie: D3
+          regel: 204
           type: other
-          voorbeeld: "[^14]: Voor een definitie van monetaire en niet-monetaire posten, zie pagina's 5 en 12 van advies 152/1 Voor een definitie van monetaire en niet-monetaire posten, zie pagina's 5 en 12 van advies 152/1"
-        - regel: 149
-          categorie: A6
+          voorbeeld: '[^14]: Voor een definitie van monetaire en niet-monetaire posten, zie pagina''s 5 en 12 van advies 152/1 Voor een definitie van monetaire en niet-monetaire posten, zie pagina''s 5 en 12 van advies 152/1'
+        - categorie: A6
+          regel: 149
           type: other
           voorbeeld: niet- monetaire bestanddelen — spatie na koppelteken (ook r153, r208)
+      rationale: 'Drie ETL-bugs bevestigd: (1) G3/spurious bracket: regel 111 bevat ''] verantwoorden»[^8]'' met losstaand '']'' midden in geciteerde passage — verminkt de geciteerde tekst. (2) D3: voetnoot [^14] op regel 204 bevat dezelfde definitiezin tweemaal aaneengesloten zonder separator. (3) A6: ''niet- monetaire'' met spatie na koppelteken op regels 149, 153 en 208 naast correct ''niet-monetaire'' elders — inconsistentie typisch voor extractie-artefact.'
+      run_at: '2026-05-11T17:05:20Z'
+      status: needs-rework
+    rationale: 'Drie ETL-bugs bevestigd: (1) G3/spurious bracket: regel 111 bevat ''] verantwoorden»[^8]'' met losstaand '']'' midden in geciteerde passage — verminkt de geciteerde tekst. (2) D3: voetnoot [^14] op regel 204 bevat dezelfde definitiezin tweemaal aaneengesloten zonder separator. (3) A6: ''niet- monetaire'' met spatie na koppelteken op regels 149, 153 en 208 naast correct ''niet-monetaire'' elders — inconsistentie typisch voor extractie-artefact.'
+    status: needs-rework
 themas:
   - slotkoers
   - slotkoersmethode
@@ -76,7 +76,6 @@ In het Verslag aan de Koning dat het voornoemde besluit voorafgaat, wordt onders
 Wordt daarentegen de «slotkoersmethode» gebruikt (die meer in het bijzonder geschikt is voor buitenlandse dochters die een bepaalde economische en financiële autonomie vertonen ten aanzien van de consoliderende onderneming of de andere geconsolideerde ondernemingen), dan wordt de resultatenrekening (behoudens bij overdracht van de hele deelneming of een deel ervan of bij de gedeeltelijke of volledige terugbetaling van het voor de consolidatie van de dochter gebruikte eigen vermogen) niet beïnvloed door de omrekening van de financiële staten van de buitenlandse dochters. Onder het eigen vermogen[^4] worden in de post «Omrekeningsverschillen» die omrekeningsverschillen opgenomen die betrekking hebben op de netto-positie in het begin van de periode, alsook de omrekeningsverschillen die voortvloeien uit het gebruik van de slotkoers in de balans en uit de gemiddelde koers in de resultatenrekening. In dat verband moet worden onderstreept dat de aldus door de Belgische boekhoudreglementering geponeerde beginselen overeenstemmen met die in de normen IAS 21 en FAS 52[^5].
 
 ## Toepassing van de «slotkoersmethode»
-
 Bij de toepassing van de «slotkoersmethode» moet, ingevolge de overschakeling op de euro, een onderscheid worden gemaakt tussen twee aspecten :
 
 - het eerste aspect - dat eigen is aan de overschakeling op de euro - betreft de gevolgen die de onherroepelijke vaststelling van de wisselkoersen tussen de aan de euro deelnemende munten heeft voor de opstelling van de geconsolideerde jaarrekening; 
@@ -94,7 +93,6 @@ In beginsel kunnen die omrekeningsverschillen, bij de invoering van de euro, op 
 3. ze kunnen voorlopig in het geconsolideerde eigen vermogen behouden blijven en later in resultaat worden genomen wanneer de deelneming wordt overgedragen of verminderd[^6]. 
 
 #### Bij de eerste benadering wordt verwezen naar de - met name door de Commissie - gehuldigde filosofie inzake statutaire jaarrekeningen.
-
 De consolidatie van de in de Lid-Staten van de Muntunie gevestigde dochters zou immers geen omrekeningsverschillen meer opleveren. Vroegere omrekeningsverschillen zouden dan ook als definitief verworven kunnen worden beschouwd. 
 
 Er zijn evenwel een aantal bezwaren tegen die benadering die verband houden met : 
@@ -117,11 +115,9 @@ Dergelijke omrekeningsverschillen in de geconsolideerde balans beantwoorden bijg
 De variante waarbij omrekeningsverschillen in resultaat zouden worden genomen via een systematische afschrijving (over 5 of 10 jaar bijvoorbeeld), zou dezelfde nadelen hebben als een integrale inresultaatneming van die omrekeningsverschillen op 31 december 1998. Bovendien kan men niet aantonen welke de geschikte periode is om te bepalen op welke wijze de omrekeningsverschillen in resultaat moeten worden genomen. Dat kan alleen op basis van de economische levensduur van het goed in kwestie, in dit geval dus de deelneming in de betrokken dochter, waarvan op die datum moeilijk kan worden geschat hoe lang die nog binnen de groep behouden zal blijven. 
 
 #### De tweede benadering - rechtstreekse en integrale overboeking van die bedragen naar de geconsolideerde reserves (zonder opneming in de resultatenrekening) - zou steunen op de boekhoudkundige verwerking die bepaalde normensystemen toestaan bij wijziging van de boekhoudreglementering.
-
 Voor de verwerking van de overschakeling op de euro in de statutaire jaarrekening een dergelijke benadering echter zowel op Europees vlak als door de Commissie voor Boekhoudkundige Normen verboden. Bovendien zou die methode van toerekening aan de geconsolideerde reserves, neerkomen op een vertekening van het begrip «geconsolideerde reserves», namelijk de accumulatie van resultaten via de resultatenrekening. 
 
 #### Gelet op de voornoemde beschouwingen, is de Commissie dan ook van oordeel dat het, in het kader van de slotkoersmethode, aangewezen is om de op 31 december 1998 vastgestelde omrekeningsverschillen in het eigen vermogen te behouden.
-
 Bijgevolg worden die verschillen pas in resultaat genomen wanneer de deelneming in de dochter geheel of gedeeltelijk wordt overgedragen[^9]. 
 
 Wanneer een moederonderneming haar geconsolideerde jaarrekening voor het eerst[^10] in euro gaat opstellen en openbaar maken, heeft die overschakeling op de euro geen enkele invloed op de omrekeningsverschillen (die kunnen dus niet veranderen louter door de omrekening in euro van de jaarrekening van dochters uit Lid-Staten van de Muntunie). 
@@ -142,10 +138,8 @@ Qua voorstelling van die (voortaan vaststaande) omrekeningsverschillen in het ge
 Boekhoudkundige verwerking van het omrekeningsverschil bij de overdracht of de (gedeeltelijke) vermindering van (het) de deelneming(spercentage) in het kapitaal van de dochter .
 Omrekeningsverschillen (die ontstaan bij de toepassing van de slotkoersmethode en die in het eigen vermogen worden vastgelegd) zijn één van de elementen die het resultaat bepalen bij gehele of gedeeltelijke overdracht van de deelneming in het kapitaal van de tot dan toe geconsolideerde dochter. Met andere woorden, indien de overdrachtsprijs in theorie zou overeenstemmen met de waarde van het in euro geconverteerde eigen vermogen zoals uitgedrukt in de boekhouding van de betrokken dochter, dan zou het geconsolideerde resultaat van de overdracht overeenstemmen met de omrekeningsverschillen op het eigen vermogen van die dochter[^12]. Dit komt trouwens ook terug in paragraaf 14 van FAS 52 : «Upon sale or upon complete or substantially complete liquidation of an investment in a foreign entity, the amount attributable to that entity and accumulated in the translation adjustment component of equity shall be removed from the separate component of equity and shall be reported as part of the gain or loss on sale or liquidation of the investment for the period during which the sale or liquidation occurs.»
 
-## Toepassing van de "monetaire/niet-monetaire methode"[^13]
-
+## Toepassing van de "monetaire/niet-monetaire methode"
 ### Voorafgaande overwegingen
-
 Deze methode maakt traditioneel een onderscheid tussen monetaire en niet-monetaire elementen[^14] om de (verschillende) manieren te definiëren waarop ze worden opgenomen in de om te rekenen balans. Monetaire bestanddelen worden immers omgerekend tegen de geldende koers bij de afsluiting van de geconsolideerde jaarrekening, terwijl niet- monetaire bestanddelen worden omgerekend tegen hun historische koers. 
 
 In dat geval vloeit het omrekeningsverschil voort uit de samenloop van de volgende elementen[^15]: 

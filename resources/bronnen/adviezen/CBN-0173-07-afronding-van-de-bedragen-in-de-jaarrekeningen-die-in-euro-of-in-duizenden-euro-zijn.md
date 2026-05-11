@@ -16,41 +16,41 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-afrondingen-bij-conversie
 nummer: CBN-advies 173/7
 provenance:
+  generated_at: '2026-05-11T17:48:38Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/afronding-van-de-bedragen-in-de-jaarrekeningen-die-in-euro-of-in-duizenden-euro-zijn
       sha256: 38d2f4a0c0a1b68ad4a3c68bd738ca5c7b4307a74e4a7615e65b0d588c244993
       version:
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
-    status: needs-rework
     confirmed_at: '2026-05-11T17:05:21Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "F1 frontmatter-artefact bevestigd r.59: thema 'opslag van afvalstoffen' staat in de themalijst maar is inhoudelijk totaal vreemd aan dit advies over afronding van bedragen in euro — duidelijk een scraping-artefact waarbij een thema van een ander advies is meegenomen. Body is schoon: geen headings (heading_count=0 is correct voor dit korte advies), drie voetnoten correct, tekst volledig."
     layer1:
-      file_size_chars: 2636
-      flags: []
+      status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:42Z'
       heading_count: 0
       max_section_chars: 2636
-      run_at: '2026-05-11T15:05:49Z'
-      run_id: 20260511-150547
-      status: pass
+      file_size_chars: 2636
+      flags: []
     layer2:
-      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T17:05:21Z'
-      rationale: "F1 frontmatter-artefact bevestigd r.59: thema 'opslag van afvalstoffen' staat in de themalijst maar is inhoudelijk totaal vreemd aan dit advies over afronding van bedragen in euro — duidelijk een scraping-artefact waarbij een thema van een ander advies is meegenomen. Body is schoon: geen headings (heading_count=0 is correct voor dit korte advies), drie voetnoten correct, tekst volledig."
       concrete_problemen:
-        - regel: 59
-          categorie: F1
+        - categorie: F1
+          regel: 59
           type: naam-mismatch
           voorbeeld: '- opslag van afvalstoffen (thema staat in frontmatter, hoort niet bij dit advies over euro-afronding)'
+      rationale: 'F1 frontmatter-artefact bevestigd r.59: thema ''opslag van afvalstoffen'' staat in de themalijst maar is inhoudelijk totaal vreemd aan dit advies over afronding van bedragen in euro — duidelijk een scraping-artefact waarbij een thema van een ander advies is meegenomen. Body is schoon: geen headings (heading_count=0 is correct voor dit korte advies), drie voetnoten correct, tekst volledig.'
+      run_at: '2026-05-11T17:05:21Z'
+      status: needs-rework
+    rationale: 'F1 frontmatter-artefact bevestigd r.59: thema ''opslag van afvalstoffen'' staat in de themalijst maar is inhoudelijk totaal vreemd aan dit advies over afronding van bedragen in euro — duidelijk een scraping-artefact waarbij een thema van een ander advies is meegenomen. Body is schoon: geen headings (heading_count=0 is correct voor dit korte advies), drie voetnoten correct, tekst volledig.'
+    status: needs-rework
 themas:
   - afronding
   - euro

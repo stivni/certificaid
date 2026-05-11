@@ -7,37 +7,37 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/overeenstemming-tussen-de-boekhouding-en-de-jaarrekening
 nummer: CBN-advies 2010/20
 provenance:
+  generated_at: '2026-05-11T17:48:39Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/gebruik-van-uniforme-boekhoudsoftware-door-internationale-ondernemingen
       sha256: 07041df6efac5d52376c66e78adaa33de0519e3008490ad523f5b7dcea3b4b87
       version:
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
-    status: trusted
     confirmed_at: '2026-05-11T17:09:38Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: 'Geen ETL-artefacten bevestigd. De eerder gerapporteerde A3 (r63-67 TOC) is niet bevestigd: de body bevat geen plain-text inhoudsopgave, enkel directe ## en ### headings. Voetnoten 1-15 zijn volledig gedefinieerd en gerefereerd. Geen tabellen, geen OCR-problemen, geen broken markup gevonden.'
     layer1:
-      file_size_chars: 12211
-      flags: []
-      heading_count: 5
-      max_section_chars: 11034
-      run_at: '2026-05-11T15:05:50Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:42Z'
+      heading_count: 5
+      max_section_chars: 11032
+      file_size_chars: 12207
+      flags: []
     layer2:
-      status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T17:09:38Z'
-      rationale: 'Geen ETL-artefacten bevestigd. De eerder gerapporteerde A3 (r63-67 TOC) is niet bevestigd: de body bevat geen plain-text inhoudsopgave, enkel directe ## en ### headings. Voetnoten 1-15 zijn volledig gedefinieerd en gerefereerd. Geen tabellen, geen OCR-problemen, geen broken markup gevonden.'
       concrete_problemen: []
+      rationale: 'Geen ETL-artefacten bevestigd. De eerder gerapporteerde A3 (r63-67 TOC) is niet bevestigd: de body bevat geen plain-text inhoudsopgave, enkel directe ## en ### headings. Voetnoten 1-15 zijn volledig gedefinieerd en gerefereerd. Geen tabellen, geen OCR-problemen, geen broken markup gevonden.'
+      run_at: '2026-05-11T17:09:38Z'
+      status: trusted
+    rationale: 'Geen ETL-artefacten bevestigd. De eerder gerapporteerde A3 (r63-67 TOC) is niet bevestigd: de body bevat geen plain-text inhoudsopgave, enkel directe ## en ### headings. Voetnoten 1-15 zijn volledig gedefinieerd en gerefereerd. Geen tabellen, geen OCR-problemen, geen broken markup gevonden.'
+    status: trusted
 themas:
   - algemeen rekeningenstelsel
   - belgische bijkantoren
@@ -61,17 +61,13 @@ themas:
 # CBN-advies 2010/20 - Gebruik van uniforme boekhoudsoftware door internationale ondernemingen
 
 ## Inleiding
-
-Belgische dochterondernemingen en bijkantoren of centra van werkzaamheden van internationale ondernemingen zijn er vandaag vaak toe gehouden bepaalde genormaliseerde boekingsprocedures, uitgewerkt door de moederonderneming of de maatschappelijke zetel in het buitenland, na te leven. Hierbij stelt zich de vraag of de eisen die de buitenlandse moedermaatschappij wenst op te leggen, te verzoenen zijn met de Belgische boekhoudkundige verplichtingen.
+Belgische dochterondernemingen en bijkantoren of centra van werkzaamheden van internationale ondernemingen zijn er vandaag vaak toe gehouden bepaalde genormaliseerde boekingsprocedures, uitgewerkt door de moederonderneming of de maatschappelijke zetel in het buitenland, na te leven. Hierbij stelt zich de vraag of de eisen die de buitenlandse moedermaatschappij wenst op te leggen, te verzoenen zijn met de Belgische boekhoudkundige verplichtingen. 
 
 ## Belgische dochterondernemingen en bijkantoren of centra van werkzaamheden van buitenlandse ondernemingen
-
 ### De Belgische boekhoudwet
-
 Krachtens artikel 1, tweede lid van de wet van 17 juli 1975 (hierna: Boekhoudwet) moeten in België gevestigde bijkantoren en centra van werkzaamheden van ondernemingen naar buitenlands recht, net zoals alle in België gevestigde ondernemingen, een boekhouding voeren en een inventaris alsmede een jaarrekening opstellen overeenkomstig de bepalingen van de wet en de voor haar uitvoering getroffen besluiten.[^1] 
 
 ### De minimumindeling van het algemeen rekeningenstelsel (MAR)
-
 Overeenkomstig artikel 4, vijfde lid van de Boekhoudwet moeten ondernemingen de rekeningen onderbrengen in een voor het bedrijf van de onderneming passend rekeningenstelsel. Dit rekeningenstelsel dient te beantwoorden aan de minimumindeling van het algemeen rekeningenstelsel (hierna: MAR).[^2]
  Deze minimum normalisering werd doorgevoerd teneinde de rekeningstelsels af te stemmen op het schema van de balans en van de jaarrekening.[^3] 
 
@@ -98,7 +94,6 @@ Dit betekent dat met behulp van deze concordantietabel telkens een bestaande MAR
 Wat betreft de taal waarin de boekhouding wordt gevoerd, wenst de Commissie te benadrukken dat ondernemingen zich dienen te houden aan de wettelijke bepalingen inzake het taalgebruik.[^12] 
 
 ## Buitenlandse bijkantoren van Belgische ondernemingen
-
 De CBN stelt in advies 172/1 dat een buitenlands bijkantoor van een Belgische onderneming in burgerrechtelijk en handelsrechtelijk opzicht integrerend deel uitmaakt van deze onderneming.[^13]
  In tegenstelling tot wat het geval is voor bijkantoren en centra van werkzaamheden in België van buitenlandse ondernemingen, kunnen we hier dus niet spreken van een boekhoudkundige personificatie of zelfstandigheidsfictie.[^14] 
 

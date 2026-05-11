@@ -16,41 +16,41 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/gegeven-borgtochten-in-contanten-en-effecten-update
 nummer: CBN-advies 139/5
 provenance:
+  generated_at: '2026-05-11T17:48:38Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/obligaties-met-warrant-0
       sha256: 1aee70e4105d459ef905cdaa50f31c213898395d930893f2ca763ff4304c8eda
       version:
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
-    status: needs-rework
     confirmed_at: '2026-05-11T17:05:21Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "B5/B2 (regel 82): rekenformule '## aanschaffingswaarde van de obligatie met warrant x [koers van de warrant / ...]' staat nog steeds als ## heading — ongewijzigd t.o.v. ronde 2. Geen andere artefacten; inhoud volledig."
     layer1:
-      file_size_chars: 6404
-      flags: []
-      heading_count: 0
-      max_section_chars: 6404
-      run_at: '2026-05-11T15:05:49Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:41Z'
+      heading_count: 1
+      max_section_chars: 6407
+      file_size_chars: 6407
+      flags: []
     layer2:
-      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T17:05:21Z'
-      rationale: "B5/B2 (regel 82): rekenformule '## aanschaffingswaarde van de obligatie met warrant x [koers van de warrant / ...]' staat nog steeds als ## heading — ongewijzigd t.o.v. ronde 2. Geen andere artefacten; inhoud volledig."
       concrete_problemen:
-        - regel: 82
-          categorie: B5
+        - categorie: B5
+          regel: 82
           type: other
           voorbeeld: '## aanschaffingswaarde van de obligatie met warrant x [koers van de warrant / (koers van de obligatie ex-warrant + koers van de warrant)]'
+      rationale: 'B5/B2 (regel 82): rekenformule ''## aanschaffingswaarde van de obligatie met warrant x [koers van de warrant / ...]'' staat nog steeds als ## heading — ongewijzigd t.o.v. ronde 2. Geen andere artefacten; inhoud volledig.'
+      run_at: '2026-05-11T17:05:21Z'
+      status: needs-rework
+    rationale: 'B5/B2 (regel 82): rekenformule ''## aanschaffingswaarde van de obligatie met warrant x [koers van de warrant / ...]'' staat nog steeds als ## heading — ongewijzigd t.o.v. ronde 2. Geen andere artefacten; inhoud volledig.'
+    status: needs-rework
 themas:
   - financiële vaste activa
   - inschrijvingsrecht
@@ -80,7 +80,6 @@ Volgens een tweede methode wordt de fractie bepaald van de aanschaffingswaarde d
 De boekwaarde van de warrant zal volgens de volgende formule worden berekend: 
 
 ## aanschaffingswaarde van de obligatie met warrant x [koers van de warrant / (koers van de obligatie ex-warrant + koers van de warrant)]
-
 Deze benadering, waarin wordt verondersteld dat beide effecten zijn genoteerd, kan worden gevolgd voor zover de afzondering van de warrant en de afzonderlijke notering van de twee effecten snel volg op de uitgifteperiode van de obligatie met warrant. In dat geval kan zij als extern uitgangspunt (de koers) dienen voor de volgende methode. 
 
 In een derde methode wordt ernaar gestreefd de aanschaffingswaarde van de vordering en van de warrant van bij het begin te bepalen. Bij het vaststellen van de uitgiftevoorwaarden is er immers een duidelijk onderling verband tussen de nominale rentevoet van de obligatie en de voorwaarden voor de uitoefening van de warrants. Bij voordelige uitoefeningsvoorwaarden voor de houder van de warrant, kan voor de obligaties een lagere rentevoet worden vastgesteld dan de marktrente voor gewone obligaties met dezelfde kenmerken. 

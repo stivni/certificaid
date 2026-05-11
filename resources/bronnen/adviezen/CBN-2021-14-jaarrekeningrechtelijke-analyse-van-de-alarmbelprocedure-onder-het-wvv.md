@@ -3,51 +3,48 @@ bron: https://www.cbn-cnc.be/nl/adviezen/jaarrekeningrechtelijke-analyse-van-de-
 datum: 2021-10-12
 nummer: CBN-advies 2021/14
 provenance:
-  generated_at: '2026-05-11T15:15:32Z'
+  generated_at: '2026-05-11T17:48:39Z'
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/jaarrekeningrechtelijke-analyse-van-de-alarmbelprocedure-onder-het-wvv
-    sha256: ce291b71d6d5e3716d3c3fadf7736b5975e0e1eb86e9958eeefb190e5b556f84
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/jaarrekeningrechtelijke-analyse-van-de-alarmbelprocedure-onder-het-wvv
+      sha256: ce291b71d6d5e3716d3c3fadf7736b5975e0e1eb86e9958eeefb190e5b556f84
+      version:
   stale: false
-  stale_reason: null
+  stale_reason:
   tooling:
-    model: null
+    model:
     pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    prompt_version: null
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
     confirmed_at: '2026-05-08T19:02:28Z'
     confirmed_by: subagent-laag2-ronde2
     layer1:
-      file_size_chars: 39635
-      flags: []
-      heading_count: 16
-      max_section_chars: 21051
-      run_at: '2026-05-11T15:05:54Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:45Z'
+      heading_count: 16
+      max_section_chars: 21050
+      file_size_chars: 39619
+      flags: []
     layer2:
       agent: subagent-laag2-ronde2
       concrete_problemen: []
-      rationale: '[Laag-2-R2 2026-05-08] 17 headings, 65 voetnoten, twee concrete
-        balanstabellen als Markdown-tabellen. De langste sectie (24.478 chars) valt
-        net boven de drempel maar bevat de volledige kern. RAG-ready.'
+      rationale: '[Laag-2-R2 2026-05-08] 17 headings, 65 voetnoten, twee concrete balanstabellen als Markdown-tabellen. De langste sectie (24.478 chars) valt net boven de drempel maar bevat de volledige kern. RAG-ready.'
       run_at: '2026-05-08T19:02:28Z'
       status: trusted
     rationale: Laag-2 trusted door subagent-laag2-ronde2 (zie layer2.rationale)
     status: trusted
 themas:
-- alarmbelprocedure
-- nettoactief
-- gecorrigeerd nettoactief
-- uitkeerbare winst
-- continuïteit
+  - alarmbelprocedure
+  - nettoactief
+  - gecorrigeerd nettoactief
+  - uitkeerbare winst
+  - continuïteit
 ---
 
 # CBN-advies 2021/14 – Jaarrekeningrechtelijke analyse van de alarmbelprocedure onder het WVV
 
 ## Inleiding
-
 Overeenkomstig art. 2:51 van het Wetboek van vennootschappen en verenigingen (hierna: WVV) is elk lid van het bestuursorgaan gehouden tot een behoorlijke vervulling van de hem opgedragen taak. Eén van deze taken is de doorlopende verplichting om de financiële situatie van de vennootschap op te volgen[^2]. Centraal daarbij is o.m. de correcte toepassing van de waarderingsregels en dit in de veronderstelling dat de vennootschap haar bedrijf zal voortzetten[^3].
 
 Belangrijk voor de praktijk is de procedure die door de wetgever wordt voorzien voor de situaties waarin het nettoactief van een vennootschap, als gevolg van een verlieslatende uitoefening van de vennootschapsactiviteit(en), aan het dalen is. In voorkomend geval dient het bestuursorgaan van de vennootschap de regels van de alarmbelprocedure te volgen. 
@@ -55,14 +52,12 @@ Belangrijk voor de praktijk is de procedure die door de wetgever wordt voorzien 
 In het onderhavig advies volgt de jaarrekeningrechtelijke analyse van de Commissie van deze procedure[^4], zoals opgenomen in het WVV. Voor de goede orde worden ook de krijtlijnen van de oude regeling, zoals vervat in het Wetboek van Vennootschappen (hierna: W.Venn.), weergegeven.
 
 ## Nettoactief
-
 Het WVV legt aan het bestuursorgaan de verplichting op om, in geval het nettoactief van de vennootschap gedaald is beneden de in het WVV bepaalde drempels, de alarmbel te luiden middels de samenroeping van de algemene vergadering. De algemene vergadering buigt zich vervolgens over de maatregelen die door het bestuursorgaan worden voorgesteld om zo mogelijk de continuïteit van de vennootschap te vrijwaren.
 
 Vanuit jaarrekeningrechtelijk perspectief staat het begrip “nettoactief” centraal bij de vaststelling – en de berekening – van de drempels van de alarmbelprocedure. Mede gelet op de afschaffing van het kapitaalbegrip in het WVV voor bepaalde vennootschapsvormen zijn de regels van de alarmbelprocedure herschreven. Daarom stelt zich voortaan de vraag op welke wijze de criteria voor de toepassing van deze procedure moeten worden ingevuld. In wat volgt bespreekt de Commissie het begrip “nettoactief” onder het WVV bij de kapitaalhoudende en de kapitaalloze vennootschappen.
 
 Nettoactief onder het W.Venn.
 #### Nettoactief bij de winstbepaling en –uitkeringen
-
 Het begrip “nettoactief” werd in het W.Venn. opgenomen onder het hoofdstuk “Instandhouding van het maatschappelijk kapitaal[^5]
 ” bij de onderafdeling “Uitkeerbare winsten[^6]
 ” en was gelijk aan het totaalbedrag van de activa zoals dat bleek uit de balans, verminderd met de voorzieningen en schulden. Dit begrip dekte dezelfde lading zowel bij de BVBA[^7], als de CVBA[^8] en de NV[^9]. 
@@ -72,7 +67,6 @@ Daarnaast, en niet onbelangrijk, bevatte het W.Venn. een belangrijke beperking v
 Het voorgaande impliceert dat in het W.Venn. een duidelijk onderscheid werd gemaakt tussen enerzijds het klassieke “nettoactief” dat van toepassing was voor de bepaling van de winsten van de vennootschap en anderzijds het “gecorrigeerd nettoactief” dat specifiek van toepassing was voor de vaststelling van de uitkeerbare winsten, waarbij nog – aanvullend – rekening moest worden gehouden met de aftrek van bijkomende actiefbestanddelen van desbetreffende vennootschap[^11].
 
 #### Nettoactief bij de alarmbelprocedure
-
 Voor de vaststelling van de drempels van de alarmbelprocedure diende, onder het W.Venn., gekeken te worden naar de klassieke invulling van het begrip “nettoactief”, d.i. het totaalbedrag van de activa zoals dat bleek uit de balans, verminderd met de voorzieningen en schulden.
 
 Dit werd eerst expliciet aangegeven in het Verslag namens de Bijzondere Commissie tot wijziging van de gecoördineerde wetten betreffende de handelsvennootschappen[^12] en werd later bevestigd in de toonaangevende rechtsleer[^13]. Hiermee werd aldus aangenomen dat er, voor de berekening van de drempels in kader van de alarmbelprocedure, geen rekening gehouden moest worden met de bijkomende beperkingen die uitdrukkelijk van toepassing waren bij de uitkering van dividenden en tantièmes[^14].
@@ -82,9 +76,7 @@ Samengevat werd het nettoactief voor de alarmbelprocedure, onder het W.Venn., al
 Dit verschil in de benadering van het nettoactief onder het W.Venn. kon, naar oordeel van de Commissie, worden verklaard vanuit de draagwijdte van de verschillende situaties die door het hoofdstuk “Instandhouding van het kapitaal” worden beoogd. Daar waar de vaststelling van de uitkeerbare winsten[^16] neerkomt op een vrijwillige en gerichte vermindering[^17] van het vennootschapsvermogen, is dit bij de alarmbelprocedure niet het geval. De alarmbelprocedure duidt immers in de regel op de verlieslatende uitoefening van de vennootschapsactiviteiten, waardoor niet alleen de rechten van de schuldeisers in het gedrang dreigen te komen, maar evenzeer de continuïteit van de vennootschap zelf.
 
 ### Nettoactief onder het WVV
-
 #### Nettoactief bij de winstbepaling en –uitkeringen
-
 Met de inwerkingtreding van het WVV[^18] heeft de wetgever ervoor gekozen om het begrip “nettoactief” op een eenduidige en uniforme wijze te omschrijven voor de vaststelling van de uitkeerbare winsten. 
 
 Onder het nettoactief wordt in het WVV[^19] verstaan: het totaalbedrag van de activa, verminderd met de voorzieningen, de schulden en, behoudens in uitzonderlijke gevallen te vermelden en te motiveren in de toelichting bij de jaarrekening, de nog niet afgeschreven bedragen van de oprichtings- en uitbreidingskosten en de kosten voor onderzoek en ontwikkeling.
@@ -92,19 +84,16 @@ Onder het nettoactief wordt in het WVV[^19] verstaan: het totaalbedrag van de ac
 In het WVV wordt derhalve, althans voor wat de bepaling van de uitkeerbare winsten betreft, geen onderscheid meer gemaakt tussen het klassieke “nettoactief” en bijkomende beperkingen die in het W.Venn. werden voorzien voor de uitkering van de dividenden en tantièmes.
 
 #### Nettoactief bij de alarmbelprocedure
-
 De Commissie is van oordeel dat, gezien de wetgever duidelijk afstand heeft genomen van de twee invullingen die aan het “nettoactief” onder het W.Venn. werden gegeven, dit begrip voortaan op een uniforme wijze moet worden gelezen als het totaalbedrag van de activa, verminderd met de voorzieningen[^20], de schulden en, behoudens in uitzonderlijke gevallen[^21] te vermelden en te motiveren in de toelichting bij de jaarrekening, de nog niet afgeschreven bedragen van de oprichtings- en uitbreidingskosten[^22] en de kosten voor onderzoek[^23] en ontwikkeling[^24]. Het is voor de Commissie vooralsnog niet duidelijk wat in de praktijk een uitzonderlijk geval zou kunnen zijn om bij de bedoelde berekening de nog niet afgeschreven bedragen van de oprichtings- en uitbreidingskosten en de kosten voor onderzoek en ontwikkeling niét in mindering te brengen.
 
 Dit betekent aldus dat het “nettoactief”, zoals omschreven voor de vaststelling van de uitkeerbare winsten[^25], evenzeer van toepassing is bij de alarmbelprocedure.
 
 ## Drempels alarmbelprocedure
-
 De Commissie wenst erop te wijzen dat de alarmbelprocedure van dwingend recht is[^26]. De statuten van de vennootschap kunnen van deze wettelijke procedure afwijken, doch slechts voor zover strengere bepalingen worden voorzien.
 
 Bovendien merkt de Commissie op dat de daling van het nettoactief tevens van belang is in het kader van een gerechtelijke reorganisatie[^27].
 
 ### Kapitaalhoudende vennootschappen
-
 In het WVV wordt bepaald dat de alarmbelprocedure moet worden toegepast, zo ten gevolge van geleden verlies, het nettoactief van de vennootschap gedaald is tot minder dan de helft van het kapitaal[^28]. Ook in geval van een daling van het nettoactief ten gevolge van geleden verlies tot minder dan een vierde van het kapitaal wordt op grond van artikel 7:228, vierde lid WVV op dezelfde manier gehandeld. Overeenkomstig art. 7:229 WVV kan iedere belanghebbende of het openbaar ministerie, ingeval het nettoactief is gedaald tot beneden 61.500 EUR, de ontbinding van desbetreffende vennootschap voor de rechtbank vorderen. In voorkomend geval kan de rechtbank aan de vennootschap een bindende termijn toestaan om haar toestand te regulariseren.
 
 Hieruit blijkt dat de alarmbelprocedure bij de kapitaalhoudende vennootschappen gekenmerkt wordt door de vergelijking die moet worden gemaakt tussen enerzijds het “nettoactief” van de vennootschap en anderzijds het “kapitaal” waarover desbetreffende vennootschap beschikt. De Commissie wenst andermaal te benadrukken dat deze vergelijking gemaakt wordt ten gevolge van een “geleden verlies” van de kapitaalhoudende vennootschap[^29].
@@ -114,7 +103,6 @@ Zoals hierboven reeds aangestipt, is de Commissie van oordeel dat de definitie v
 Het tweede lid van de vergelijking is het kapitaal van de NV’s, of althans een fractie[^31] daarvan. Voor de alarmbelprocedure dient hieronder, naar oordeel van de Commissie, het geplaatst kapitaal te worden verstaan, wat overeenstemt met passiefpost I.A.1 op de balans[^32].
 
 ### Kapitaalloze vennootschappen
-
 Gelet op de afschaffing van het kapitaalconcept bij de BV’s en de CV’s, is de regeling van de alarmbelprocedure bij deze kapitaalloze vennootschappen gewijzigd. De wetgever heeft zich hiervoor geïnspireerd door de regels inzake de uitkeringen[^33].
 
 Zo moet de alarmbelprocedure *enerzijds* worden toegepast wanneer het nettoactief van de vennootschap negatief dreigt te worden of is geworden[^34]. De Commissie heeft hierboven reeds aangegeven dat onder het nettoactief bij de alarmbelprocedure het totaalbedrag van de activa moet worden begrepen, verminderd met de voorzieningen, de schulden en, behoudens in uitzonderlijke gevallen te vermelden en te motiveren in de toelichting bij de jaarrekening, de nog niet afgeschreven bedragen van de oprichtings- en uitbreidingskosten en de kosten voor onderzoek en ontwikkeling[^35].
@@ -124,9 +112,7 @@ Van belang hierbij is dat er bij de kapitaalloze vennootschappen, voor de toepas
 De alarmbelprocedure moet *anderzijds* worden toegepast wanneer het bestuursorgaan vaststelt dat het niet langer vaststaat dat de vennootschap, volgens redelijkerwijs te verwachten ontwikkelingen, in staat zal zijn om gedurende de twaalf volgende maanden haar schulden te voldoen naarmate deze opeisbaar worden[^37].
 
 ### Voorbeelden
-
 ## Voorbeeld 1
-
 Bij de redactie van een tussentijdse staat van NV[^38]
  B, stelt het bestuursorgaan vast dat de balans van deze naamloze vennootschap, als gevolg van de geleden verliezen, er als volgt uitziet: 
 
@@ -151,7 +137,6 @@ Om te achterhalen of de alarmbelprocedure aangevat moet worden, dient het bestuu
 - aangezien het nettoactief (= 34.500) kleiner is dan de helft van het geplaatst kapitaal van deze NV (= 35.000), dient het bestuursorgaan de alarmbelprocedure toe te passen. 
 
 ## Voorbeeld 2
-
 Bij de redactie van een tussentijdse staat van NV C, stelt het bestuursorgaan vast dat de balans van deze naamloze vennootschap, als gevolg van de geleden verliezen, er als volgt uitziet:
 
 | Activa | | Passiva | 
@@ -175,7 +160,6 @@ Om te achterhalen of de alarmbelprocedure in deze situatie toegepast moet worden
 - aangezien het nettoactief (= 43.000) in deze situatie groter is dan de helft van het geplaatst kapitaal van deze NV (= 40.000), dient het bestuursorgaan[^39] geen alarmbelprocedure te volgen. 
 
 ## Rol bestuursorgaan
-
 Uit het voorgaande is gebleken dat het niet alleen aan het bestuursorgaan toekomt om de financiële situatie van de vennootschap op te volgen[^40], maar ook om, van zodra de bij het WVV bepaalde drempels worden overschreden, de algemene vergadering tijdig samen te roepen. Het vaststellen van de drempels en de overschrijding ervan vormt derhalve een cruciaal gegeven binnen de regeling van de alarmbelprocedure. De Commissie wenst andermaal te wijzen op de verplichtingen van het bestuursorgaan voortvloeiende uit art. 2:51 - 2:52 WVV.
 
 Vanuit jaarrekeningrechtelijk perspectief is het van belang om te weten op welke tijdstippen de overschrijding van de drempels moet worden vastgesteld, evenals op grond van welke stukken dit door het bestuursorgaan moet gebeuren. Ook de correcte beoordeling van de vermogenstoestand van de vennootschap – al dan niet in continuïteit – behoort tot de belangrijkste elementen voor de toepassing van de alarmbelprocedure.
@@ -185,7 +169,6 @@ Indien de algemene vergadering niet overeenkomstig de overeenstemmende bepalinge
 Het belang van de correcte toepassing van de alarmbelprocedure door het bestuursorgaan mag dan ook niet worden onderschat.
 
 ### Frequentie en stukken
-
 Het WVV bepaalt niet uitdrukkelijk op grond van welke stukken en wanneer het overschrijden van de drempels moet worden vastgesteld[^42].
 
 De Commissie is van oordeel dat het bestuursorgaan verplicht moet nagaan of aan de toepassingsvoorwaarden van een alarmbelprocedure is voldaan, telkens indien een wettelijke[^43] of een statutaire bepaling voorschrijft dat de financiële toestand van de vennootschap in kaart moet worden gebracht. 
@@ -199,7 +182,6 @@ Bij de beoordeling van de financiële situatie van de vennootschap mag het bestu
 De Commissie wenst te benadrukken dat het vaststellen van de financiële toestand van de vennootschap op basis van een wettelijke of een statutaire bepaling, steeds gepaard moet gaan met de boekhouding[^52] die op een correcte wijze wordt gevoerd en die derhalve een getrouw beeld weergeeft van de bestaande situatie van de vennootschap in kwestie[^53].
 
 ### Continuïteit en waarderingsregels
-
 Uit het voorgaande is gebleken dat de vermogenstoestand door het bestuursorgaan van de vennootschap beoordeeld moet worden aan de hand van een (ontwerp)jaarrekening of een tussentijdse staat die overeenkomstig een wettelijke of een statutaire bepaling dient te worden opgemaakt[^54]. Bij het opstellen van desbetreffende stukken is het bovendien vereist dat het bestuursorgaan rekening houdt met de economische realiteit waarmee de vennootschap wordt geconfronteerd. Dit gebeurt conform de geldende principes van het boekhoudrecht. 
 
 Een voor de alarmbelprocedure belangrijk aspect is daarbij de vraag of het nettoactief op basis van continuïteit, dan wel op basis van discontinuïteit moet worden berekend. Het WVV reikt enkel een formule[^55] aan op basis waarvan de drempels van de alarmbelprocedure moeten worden berekend. De termen van deze formule moeten voor het overige volgens het boekhoudrecht worden ingevuld[^56]. 

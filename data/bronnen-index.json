@@ -3120,7 +3120,7 @@
       "korte_naam": "CBN-advies 113/5",
       "tags": [],
       "trust_status": "trusted",
-      "trust_confirmed_by": "subagent-laag2-ronde2",
+      "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": "pass",
       "layer2_status": "trusted"
     },
@@ -4499,10 +4499,10 @@
       "titel": "CBN-advies 169/1",
       "korte_naam": "CBN-advies 169/1",
       "tags": [],
-      "trust_status": "needs-rework",
+      "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": "pass",
-      "layer2_status": "needs-rework"
+      "layer2_status": "trusted"
     },
     {
       "bestand": "CBN-0169-02-verwerking-van-cessie-retrocessieverrichtingen-in-de-jaarrekening-van-ondernemingen.md",
@@ -4789,7 +4789,7 @@
       "tags": [],
       "trust_status": "trusted",
       "trust_confirmed_by": "human",
-      "layer1_status": "pass",
+      "layer1_status": "warn",
       "layer2_status": "not_run"
     },
     {
@@ -4799,10 +4799,10 @@
       "titel": "CBN-advies 2009/10",
       "korte_naam": "CBN-advies 2009/10",
       "tags": [],
-      "trust_status": "needs-rework",
+      "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": "pass",
-      "layer2_status": "needs-rework"
+      "layer2_status": "trusted"
     },
     {
       "bestand": "CBN-2009-11-de-boekhoudkundige-verwerking-van-partiele-splitsingen.md",
@@ -4895,10 +4895,10 @@
       "titel": "CBN-advies 2010/2",
       "korte_naam": "CBN-advies 2010/2",
       "tags": [],
-      "trust_status": "needs-rework",
+      "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": "pass",
-      "layer2_status": "needs-rework"
+      "layer2_status": "trusted"
     },
     {
       "bestand": "CBN-2010-03-de-boekhoudkundige-verwerking-van-stockdividenden.md",
@@ -5161,7 +5161,7 @@
       "tags": [],
       "trust_status": "trusted",
       "trust_confirmed_by": "subagent-laag2-ronde2",
-      "layer1_status": "pass",
+      "layer1_status": "warn",
       "layer2_status": "trusted"
     },
     {
@@ -5795,10 +5795,10 @@
       "titel": "CBN-advies 2015/3",
       "korte_naam": "CBN-advies 2015/3",
       "tags": [],
-      "trust_status": "needs-rework",
+      "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": "pass",
-      "layer2_status": "needs-rework"
+      "layer2_status": "trusted"
     },
     {
       "bestand": "CBN-2015-04-leasing.md",
@@ -6083,10 +6083,10 @@
       "titel": "CBN-advies 2016/19",
       "korte_naam": "CBN-advies 2016/19",
       "tags": [],
-      "trust_status": "needs-rework",
+      "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": "pass",
-      "layer2_status": "needs-rework"
+      "layer2_status": "trusted"
     },
     {
       "bestand": "CBN-2016-20-leveranciersschulden-en-schulden-aan-de-overheid-in-het-kader-van-boek-xx-insolventie-van.md",
@@ -6191,10 +6191,10 @@
       "titel": "CBN-advies 2017/02",
       "korte_naam": "CBN-advies 2017/02",
       "tags": [],
-      "trust_status": "needs-rework",
+      "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": "pass",
-      "layer2_status": "needs-rework"
+      "layer2_status": "trusted"
     },
     {
       "bestand": "CBN-2017-03-groottecriteria-boekjaar-korter-of-langer-dan-12-maanden-update.md",
@@ -6239,10 +6239,10 @@
       "titel": "CBN-advies 2017/08",
       "korte_naam": "CBN-advies 2017/08",
       "tags": [],
-      "trust_status": "needs-rework",
+      "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": "pass",
-      "layer2_status": "needs-rework"
+      "layer2_status": "trusted"
     },
     {
       "bestand": "CBN-2017-10-groottecriteria-artikel-15-wvenn-verbonden-vennootschappen-verschillende-afsluitingsdata.md",

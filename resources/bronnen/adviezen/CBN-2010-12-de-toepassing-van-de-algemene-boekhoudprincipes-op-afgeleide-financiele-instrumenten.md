@@ -13,53 +13,53 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/toelichting-omtrent-het-niet-gebruik-van-de-waarderingsgregels-op-basis-van-de-waarde-in
 nummer: CBN-advies 2010/12
 provenance:
+  generated_at: '2026-05-11T17:48:39Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/de-toepassing-van-de-algemene-boekhoudprincipes-op-afgeleide-financiele-instrumenten
       sha256: c9f6f8f0f467c420a15edda62e9915a8a8db08424d27efbe262d4331fcff25ef
       version:
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
-    status: needs-rework
     confirmed_at: '2026-05-11T17:09:38Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "A9: H1-titel (r74) bevat 'instrumenten1' — superscript voetnootnummer niet geparsed als [^1], plus '2010/12 -De' zonder spatie. B2/D4: r78 heeft '*Het ontbreken van een conceptueel kader...*' als standalone italic-regel die als subsectietitel fungeert — PDF-artefact, niet als heading gemarkeerd. Alle vier ### subkoppen (r95, r103, r117, r128) gebruiken '*italic wrapper*' — consistent PDF-extractieartefact dat een mens nooit zo schrijft."
     layer1:
-      file_size_chars: 17383
-      flags: []
-      heading_count: 6
-      max_section_chars: 8987
-      run_at: '2026-05-11T15:05:50Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:42Z'
+      heading_count: 6
+      max_section_chars: 8985
+      file_size_chars: 17377
+      flags: []
     layer2:
-      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T17:09:38Z'
-      rationale: "A9: H1-titel (r74) bevat 'instrumenten1' — superscript voetnootnummer niet geparsed als [^1], plus '2010/12 -De' zonder spatie. B2/D4: r78 heeft '*Het ontbreken van een conceptueel kader...*' als standalone italic-regel die als subsectietitel fungeert — PDF-artefact, niet als heading gemarkeerd. Alle vier ### subkoppen (r95, r103, r117, r128) gebruiken '*italic wrapper*' — consistent PDF-extractieartefact dat een mens nooit zo schrijft."
       concrete_problemen:
-        - regel: 74
-          categorie: A9
+        - categorie: A9
+          regel: 74
           type: other
           voorbeeld: instrumenten1 Advies van 8 september 2010 (superscript [^1] niet geparsed)
-        - regel: 78
-          categorie: B4
+        - categorie: B4
+          regel: 78
           type: other
           voorbeeld: '*Het ontbreken van een conceptueel kader inzake de boekhoudkundige verwerking...*'
-        - regel: 95
-          categorie: B2
+        - categorie: B2
+          regel: 95
           type: other
           voorbeeld: '### *Doelstelling van het advies* (italic wrapper in ### heading)'
-        - regel: 117
-          categorie: D4
+        - categorie: D4
+          regel: 117
           type: other
           voorbeeld: '*Voorrang van het boekhoudkundig realisatiebeginsel op het overeenstemmingsprincipe*'
+      rationale: 'A9: H1-titel (r74) bevat ''instrumenten1'' — superscript voetnootnummer niet geparsed als [^1], plus ''2010/12 -De'' zonder spatie. B2/D4: r78 heeft ''*Het ontbreken van een conceptueel kader...*'' als standalone italic-regel die als subsectietitel fungeert — PDF-artefact, niet als heading gemarkeerd. Alle vier ### subkoppen (r95, r103, r117, r128) gebruiken ''*italic wrapper*'' — consistent PDF-extractieartefact dat een mens nooit zo schrijft.'
+      run_at: '2026-05-11T17:09:38Z'
+      status: needs-rework
+    rationale: 'A9: H1-titel (r74) bevat ''instrumenten1'' — superscript voetnootnummer niet geparsed als [^1], plus ''2010/12 -De'' zonder spatie. B2/D4: r78 heeft ''*Het ontbreken van een conceptueel kader...*'' als standalone italic-regel die als subsectietitel fungeert — PDF-artefact, niet als heading gemarkeerd. Alle vier ### subkoppen (r95, r103, r117, r128) gebruiken ''*italic wrapper*'' — consistent PDF-extractieartefact dat een mens nooit zo schrijft.'
+    status: needs-rework
 themas:
   - afgeleide financiële instrumenten
   - boekhoudprincipes
@@ -74,7 +74,6 @@ themas:
 # CBN-advies 2010/12 -De toepassing van de algemene boekhoudprincipes op afgeleide financiële instrumenten1 Advies van 8 september 2010
 
 ## Inleiding
-
 *Het ontbreken van een conceptueel kader inzake de boekhoudkundige verwerking van afgeleide financiële instrumenten*
 Het dynamisch karakter van de internationale financiële markten heeft tot gevolg dat vandaag de dag niet enkel gebruik wordt gemaakt van de klassieke primaire financiële instrumenten zoals aandelen en obligaties, maar ook van verschillende soorten afgeleide financiële instrumenten, zoals gestandaardiseerde en niet-gestandaardiseerde termijncontracten (futures), opties en swaps. 
 
@@ -93,7 +92,6 @@ Het Belgische boekhoudrecht voorziet echter geen hiërarchische rangschikking va
 Bijgevolg heeft de Commissie beslist, teneinde de situatie te verduidelijken, om rond dit thema een werkgroep op te richten onder het voorzitterschap van de heer Bruno Colmant, lid van de Commissie, en samengesteld uit deskundigen uit het bankwezen, revisoren en deskundigen op vlak van financieel en fiscaal recht.
 
 ### *Doelstelling van het advies*
-
 Dit advies heeft tot doel om, door verwijzing naar bepaalde voorafgaande adviezen, de meest relevante boekhoudprincipes te ordenen, waaruit dan de boekhoudkundige verwerking van afgeleide financiële instrumenten kan worden afgeleid, zonder afbreuk te doen aan de fiscale verwerking die specifiek van toepassing kan zijn op deze financiële instrumenten.[^8] 
 
 De Commissie is van plan om dit advies later aan te vullen met concrete voorbeelden. 
@@ -101,7 +99,6 @@ De Commissie is van plan om dit advies later aan te vullen met concrete voorbeel
 Het spreekt voor zich dat vroegere adviezen met betrekking tot de boekhoudkundige verwerking van bepaalde afgeleide financiële instrumenten in een later stadium aangepast zullen worden aan de algemene principes opgenomen in dit advies.
 
 ### *Toepassingsgebied*
-
 Het Belgisch boekhoudrecht voorziet niet in een conceptuele definitie van afgeleide financiële instrumenten. Artikel 97, C K.B. W.Venn. bepaalt hoogstens dat de grondstoffencontracten die ieder van de contractsluitende partijen het recht geven tot afwikkeling in contanten of enig ander financieel instrument, als afgeleide financiële instrumenten worden beschouwd, behalve wanneer (a) de contracten gesloten werden en duurzaam dienen voor de verwachte inkoop-, verkoop-, of gebruiksbehoeften van de vennootschap, (b) zij bij de totstandkoming voor dat doeleinde werden bestemd, en 
 
 (c) de afwikkeling naar verwachting zal geschieden door levering van de grondstof.
@@ -113,7 +110,6 @@ Aangezien het Belgische boekhoudrecht geen conceptuele definitie bevat van afgel
 Vallen echter niet binnen het toepassingsveld van dit advies: de instrumenten uitgegeven of verworven ten voordele van het personeel van de vennootschap, alsook derivaten vervat in andere financiële instrumenten of commerciële verrichtingen waarvan de juridische kwalificatie primeert voor de bepaling van de boekhoudkundige regels die erop van toepassing zijn.
 
 ## Hiërarchische rangschikking van de waarderingsprincipes
-
 *Voorrang van het boekhoudkundig realisatiebeginsel op het overeenstemmingsprincipe*
 De gelijktijdige toepassing van het voorzichtigheidsbeginsel (historische kostprijs en realisatie) en het overeenstemmingsprincipe kan voor zekere spanningen zorgen, voornamelijk indien de toepassing van deze beginselen de boeking van een opbrengst betreft. 
 
@@ -126,7 +122,6 @@ Naar de mening van de Commissie is de toepassing van het overeenstemmingsprincip
 In de zoektocht naar een boekhoudkundige verwerking die toepasbaar is op afgeleide financiële instrumenten zal, bijgevolg, de toepassing van het boekhoudkundig realisatiebeginsel algemeen genomen primeren op de toepassing van het boekhoudkundig principe van overeenstemming. 
 
 ### *Het bijzonder geval van effectieve dekking (of gesloten positie)*
-
 De Commissie is van mening dat de aard van de dekkingsverrichting, die de neutralisatie beoogt van de prijsschommelingen en/of de financiële stromen van het gedekte financiële instrument, een afwijkende boekhoudkundige verwerking rechtvaardigt voor het effectieve gedeelte van deze dekking.
 
 Om te kunnen genieten van die afwijkende verwerking, moet een dekkingsverrichting aan de volgende voorwaarden voldoen[^11]:
@@ -156,7 +151,6 @@ Het principe van vergelijking primeert hier tijdens de periode tijdens dewelke v
 De Commissie is bijgevolg de mening toegedaan dat voor de bepaling van het latente resultaat in een dergelijke situatie rekening dient gehouden te worden met het resultaat dat voortvloeit uit het geheel van de verrichtingen met betrekking tot eenzelfde waarde in kwestie.
 
 ## Informatieverschaffing
-
 De waarderingsregels moeten de boekhoudkundige verwerking vermelden van afgeleide financiële instrumenten, evenals van de resultaten van de verrichtingen met betrekking tot deze instrumenten.
 
 De toelichting moet tevens (onder de “Niet in balans opgenomen rechten en verplichtingen”) een juist beeld geven van de lopende derivaatcontracten, voor zover deze steunen op significante bedragen. 

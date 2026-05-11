@@ -16,45 +16,47 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/interimdividend-versus-tussentijds-dividend
 nummer: CBN-advies 177/1
 provenance:
+  generated_at: '2026-05-11T17:48:38Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-mini-bel-20
       sha256: 6d2235a17fd87aaf0a7dcf0318f20a09d38522928c5597a0786a41f8a11535eb
       version:
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
-    status: needs-rework
     confirmed_at: '2026-05-11T17:05:21Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "D4 bevestigd r.136: 'hetzij bij de* Geldbeleggingen*, hetzij bij de* Financiële vaste activa*' — de opening asterisk grenst direct aan 'de' zonder spatie, wat een malformed italic-patroon is dat een mens nooit zo zou typen. G3 bevestigd r.160-161: 'het risico [^10]\\n-in de jaarrekening' — voetnootreferentie midden in zin gevolgd door een koppelteken aan het begin van de volgende regel (inline-voetnoot artefact). Heading-hiërarchie (##/###/####) en 11 voetnoten correct."
     layer1:
-      file_size_chars: 19958
-      flags: []
-      heading_count: 12
-      max_section_chars: 6860
-      run_at: '2026-05-11T15:05:49Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:42Z'
+      heading_count: 12
+      max_section_chars: 6857
+      file_size_chars: 19942
+      flags: []
     layer2:
-      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T17:05:21Z'
-      rationale: "D4 bevestigd r.136: 'hetzij bij de* Geldbeleggingen*, hetzij bij de* Financiële vaste activa*' — de opening asterisk grenst direct aan 'de' zonder spatie, wat een malformed italic-patroon is dat een mens nooit zo zou typen. G3 bevestigd r.160-161: 'het risico [^10]\\n-in de jaarrekening' — voetnootreferentie midden in zin gevolgd door een koppelteken aan het begin van de volgende regel (inline-voetnoot artefact). Heading-hiërarchie (##/###/####) en 11 voetnoten correct."
       concrete_problemen:
-        - regel: 136
-          categorie: D4
+        - categorie: D4
+          regel: 136
           type: other
           voorbeeld: hetzij bij de* Geldbeleggingen*, hetzij bij de* Financiële vaste activa*
-        - regel: 160
-          categorie: G3
+        - categorie: G3
+          regel: 160
           type: other
-          voorbeeld: "het risico [^10]\n-in de jaarrekening in een afzonderlijke post"
+          voorbeeld: 'het risico [^10]
+
+            -in de jaarrekening in een afzonderlijke post'
+      rationale: 'D4 bevestigd r.136: ''hetzij bij de* Geldbeleggingen*, hetzij bij de* Financiële vaste activa*'' — de opening asterisk grenst direct aan ''de'' zonder spatie, wat een malformed italic-patroon is dat een mens nooit zo zou typen. G3 bevestigd r.160-161: ''het risico [^10]\n-in de jaarrekening'' — voetnootreferentie midden in zin gevolgd door een koppelteken aan het begin van de volgende regel (inline-voetnoot artefact). Heading-hiërarchie (##/###/####) en 11 voetnoten correct.'
+      run_at: '2026-05-11T17:05:21Z'
+      status: needs-rework
+    rationale: 'D4 bevestigd r.136: ''hetzij bij de* Geldbeleggingen*, hetzij bij de* Financiële vaste activa*'' — de opening asterisk grenst direct aan ''de'' zonder spatie, wat een malformed italic-patroon is dat een mens nooit zo zou typen. G3 bevestigd r.160-161: ''het risico [^10]\n-in de jaarrekening'' — voetnootreferentie midden in zin gevolgd door een koppelteken aan het begin van de volgende regel (inline-voetnoot artefact). Heading-hiërarchie (##/###/####) en 11 voetnoten correct.'
+    status: needs-rework
 themas:
   - dividenduitkering
   - geldbeleggingen
@@ -73,7 +75,6 @@ themas:
 # CBN-advies 177/1 - Boekhoudkundige verwerking van de mini BEL-20
 
 ## Algemeen
-
 De Commissie voor Boekhoudkundige Normen werd om advies gevraagd over de boekhoudkundige verwerking van een nieuw financieel instrument op de BEL 20, hierna de mini Bel-20 genoemd.
 
 Dit advies beperkt zich niet tot de mini Bel-20 maar handelt in algemene termen over de verschillende boekhoudkundige vragen die rijzen bij de aankoop, uitgifte en afwikkeling van index participation units (IPU’s).
@@ -100,19 +101,15 @@ In financieel en boekhoudkundig opzicht onderscheidt de IPU zich op diverse punt
 - de uitoefenperiode is veel langer dan gebruikelijk voor aandelenopties. Met die ongebruikelijk lange looptijd wil men voorkomen dat de tijdswaarde (i.e. het positieve verschil tussen de koers en de intrinsieke waarde van de optie) een invloed zou hebben op de notering van de premie. Men stelt immers vast dat de "tijdswaarde" meer en meer naar 0 evolueert naarmate de (uiterste) uitoefendatum van de optie dichterbij komt. Op die datum moet de waarde van de optie - behalve wanneer de markt niet behoorlijk functioneert -per definitie gelijk zijn aan haar intrinsieke waarde. Bij de mini Bel-20 zal die tijdswaarde per definitie ontbreken in de samenstelling van de waarde van de optiepremie omdat die op elk ogenblik overeenstemt[^3] met een in € uitgedrukt bedrag dat gelijk is aan 1/100ste van de Bel 20 uitgedrukt in indexpunten. 
 
 ## Krachtlijnen van de boekhoudkundige verwerking
-
 Op grond van de hoger beschreven kenmerken is de Commissie van oordeel dat een IPU als een bijzonder financieel actief moet worden gekwalificeerd dat boekhoudkundig dient verwerkt te worden met toepassing van de principes die ontwikkeld werden in de adviezen over andere financiële instrumenten, in het bijzonder de adviezen de handelen over deviezen[^4], aandelenopties[^5] en dekkingsverrichtingen[^6].
 
 ### In de rekeningen van de koper
-
 #### Boekhoudkundige verwerking van de aankoop
-
 In advies 167/1 stelde de Commissie dat :" dit recht van de optiehouder tegenover de optieschrijver een tegoed vertegenwoordigt dat aan actiefzijde van de balans moet worden geboekt en niet een kost die in de resultatenrekening wordt erkend ." Dezelfde redenering kan worden gevolgd voor de boekhoudkundige verwerking van de aankoop van IPU’s. Daarbij moet worden nagegaan of een IPU ook in de post *Geldbeleggingen* moet worden geboekt, zoals de Commissie aanbeveelde voor aan- en verkoopopties op aandelen in het kader van handelsverrichtingen.
 
 Aangezien het duidelijk over rechten gaat die - ondanks hun relatief lange uitoefenperiode (50 jaar) -niet als "financiële vaste activa" kunnen worden gekwalificeerd, meent de Commissie dat dergelijke rechten in de passende post van de vlottende activa moeten worden geboekt, meer bepaald in post VIII.B. *Overige beleggingen* die, conform de desbetreffende definitie in de bijlage bij het koninklijk besluit van 8 oktober 1976, de met beleggingsdoeleinden verkregen effecten omvat die niet het kenmerk van financiële vaste activa hebben.
 
 #### Aanpassing van de waarde tijdens de looptijd
-
 Het risico voor de houder van een IPU is vergelijkbaar met het risico van de koper van een gediversifieerde aandelenportefeuille. Net zoals een aandeel heeft de IPU altijd een bepaalde waarde, tenzij de waarde van de onderliggende index tot nul zou dalen. Tussen het tijdstip van aankoop en sluiten van de positie kan de waarde van een IPU dalen of stijgen.
 
 De industriële- en handelsondernemingen, waarvoor de bepalingen van het koninklijk besluit van 8 oktober 1976 gelden, moeten waardeverminderingen toepassen op de door hen gekochte IPU’s wanneer hun markt- of realisatiewaarde onder hun aanschaffingswaarde ligt[^7]. Wanneer de marktwaarde zich herstelt, moeten die waardeverminderingen worden teruggenomen.
@@ -120,13 +117,11 @@ De industriële- en handelsondernemingen, waarvoor de bepalingen van het koninkl
 Er kan echter geen meerwaarde worden geboekt ten opzichte van de aanschaffingswaarde zolang die niet is gerealiseerd. 
 
 #### Dividenduitkering
-
 Om de gebruikelijke waardedaling van de index te compenseren die optreedt ten gevolge van de betaalbaarstelling van de dividenden door de aandelen die de index samenstellen, bezit de koper het recht om van de emittent een bedrag te ontvangen dat proportioneel gelijk is aan de dividenden die worden uitgekeerd (de zgn. "dividend equivalents"). 
 
 Op boekhoudrechtelijk vlak dient de storting van deze vergoeding in de rekeningen van de koper als een financiële opbrengst te worden geboekt bij de *Opbrengsten uit vlottende activa* (rekening 751 van het algemeen rekeningenstelsel).
 
 #### Sluiten van de positie
-
 Zoals hoger reeds vermeld, kan de fysieke levering van de aandelen die de onderliggende index samenstellen beschouwd worden als een louter juridisch-theoretische mogelijkheid daar zij wordt uitgesloten in de contractuele specificaties van de tot nu toe verhandelde IPU’s. Niettemin wil de Commissie in een advies met algemene draagwijdte de mogelijkheid van een fysieke levering van de aandelen niet uitsluiten. 
 
 In de meeste gevallen zal het sluiten van de positie aanleiding geven tot een vereffening in contanten via de betaling door de emittent van de waarde van de IPU. Het verschil tussen de aanschaffingswaarde van de IPU en de waarde bij de uitoefening ervan dient in resultaat te worden genomen in een daartoe passende post van de financiële resultaten zoals "65.../75... Opties op indexen". 
@@ -136,7 +131,6 @@ Eventueel vroeger geboekte waardeverminderingen dienen bij het sluiten van de po
 Indien de IPU zou worden uitgeoefend door levering aan de houder van de aandelen uit de korf die de index vertegenwoordigen, dient de aanschaffingswaarde van de geleverde aandelen bepaald te worden op basis van hun koersen bij het sluiten van de positie. De verkregen aandelen worden in de passende actiefpost geboekt (hetzij bij de *Geldbeleggingen*, hetzij bij de* Financiële vaste activa*). Het verschil tussen de beurswaarde van de verkregen aandelen en de aanschaffingswaarde van de IPU wordt op dezelfde wijze en in dezelfde post in resultaat genomen als bij de vereffening in contanten.
 
 ### In de rekeningen van de emittent
-
 Zodra de IPU wordt verkocht, ontvangt de emittent de volledige waarde van het door hem uitgegeven recht. Hij kan ten aanzien van de IPU-houder geen enkel ander recht laten gelden. 
 
 Als tegenprestatie verbindt hij zich ertoe : 
@@ -144,8 +138,7 @@ Als tegenprestatie verbindt hij zich ertoe :
 - conform de wens van de IPU-houder, ofwel hem het ontvangen bedrag terug te betalen, aangepast in functie van de evolutie van de waarde van de onderliggende index, ofwel hem de aandelen te overhandigen die deel uitmaken van de onderliggende index (louter juridisch-theoretische mogelijkheid , zie hoger) ; 
 - aan de IPU-houder het proportionele aandeel te storten van de betaalbaar gestelde dividenden van de aandelen die deel uitmaken van de onderliggende index. 
 
-#### Verwerking van de door de emittent van de IPU onderschreven verbintenis, het door hem geïnde bedrag en de waardering van het risico[^8]
-
+#### Verwerking van de door de emittent van de IPU onderschreven verbintenis, het door hem geïnde bedrag en de waardering van het risico
 De verbintenis om - op verzoek van de IPU-houder - de waarde van de index te leveren, zou kunnen worden erkend bij de niet in de balans opgenomen verplichtingen door een boeking van het type : 
 
 09..
@@ -163,13 +156,11 @@ Daaruit vloeit voort dat, bij de uitgifte van de IPU, het door de emittent ontva
 Deze methode biedt bovendien het voordeel dat geen gebruik moet worden gemaakt van de overlopende rekeningen ( alternatieve methode in advies 167/1 over aandelenopties). Bovendien kan dankzij deze werkwijze worden vermeden dat de inresultaatneming van de bij de uitgifte van de IPU geïnde premie, enerzijds, en het door de emittent aan de houder terug te betalen bedrag bij uitoefening anderzijds, over verschillende boekjaren wordt gespreid . 
 
 #### Storting aan de IPU-houders van een bedrag dat overeenstemt met het dividend op de onderliggende aandelen
-
 De toekenning van deze bedragen aan de IPU-houders houdt verband met de schuld die de emittent tegenover hen aangaat en vertegenwoordigt voor hem de kosten van die schuld. Die bedragen zijn verschuldigd, ongeacht of de emittent de desbetreffende onderliggende aandelen bezit en daadwerkelijk de betrokken dividenden heeft ontvangen. 
 
 Bijgevolg moet de toekenning van die bedragen worden geboekt bij de "Kosten van schulden" (rekening 650 van het algemeen rekeningenstelsel). 
 
 #### Waardering - in de jaarrekening van de emittent - van de evolutie van de waarde van de IPU
-
 De wijze waarop het als tegenprestatie voor de uitgifte van de IPU ontvangen bedrag wordt gewaardeerd op elke afsluitingsdatum, zal worden bepaald in functie van het antwoord op de vraag of de emittent al of niet vanuit een gedekte positie handelt. 
 
 De emittent handelt vanuit een gedekte positie. Daartoe kan hij o.m., ten belope van de door hem uitgegeven IPU’s, de korf van de aandelen die de BEL 20 samenstellen kopen, eenzelfde aantal IPU’s kopen, of een daarmee overeenstemmende call-optie op de BEL 20 kopen. 
@@ -182,7 +173,6 @@ De emittent handelt vanuit een ongedekte positie. In dit geval heeft de toepassi
 - bij stijging van de onderliggende aandelenindex, ten laste van de resultatenrekening een voorziening wordt gevormd ten belope van het positieve verschil tussen de beurswaarde van de uitgegeven IPU’s en hun uitgiftewaarde ; met gebruik van de rekeningen voor de toevoeging en de terugneming van voorzieningen, wordt het bedrag van deze voorziening later aangepast op elke afsluitingsdatum 
 
 #### Vereffening van de verrichting
-
 - door uitbetaling in contanten : 
 
   - inresultaatneming (in de passende post van de financiële resultaten) van het verschil tussen de huidige beurswaarde van de IPU en de uitgiftewaarde ervan ; 

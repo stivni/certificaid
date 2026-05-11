@@ -16,41 +16,41 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/aftrek-voor-innovatie-inkomsten
 nummer: CBN-advies 131/2
 provenance:
+  generated_at: '2026-05-11T17:48:38Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/toevoegingen-en-onttrekkingen-boekhoudkundige-verwerking
       sha256: e5d9c1109c84f82c4e79ce025649017333d189c32af26b16f1980baf13296ab2
       version:
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
-    status: needs-rework
     confirmed_at: '2026-05-11T17:05:20Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "D4 op L72: 'een speciale rubriek* Overboeking naar de belastingvrije reserves*' — de openende asterisk staat direct tegen 'rubriek' geplakt zonder spatie, wat de italic-span niet correct parseert. Heading-hiërarchie in de huidige body is correct (H1→H2→H2), dus B2 van eerdere ronde is niet meer aanwezig of was fout. Één D4-artefact is voldoende reden voor needs-rework."
     layer1:
-      file_size_chars: 4059
-      flags: []
-      heading_count: 2
-      max_section_chars: 2629
-      run_at: '2026-05-11T15:05:48Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:41Z'
+      heading_count: 2
+      max_section_chars: 2628
+      file_size_chars: 4053
+      flags: []
     layer2:
-      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T17:05:20Z'
-      rationale: "D4 op L72: 'een speciale rubriek* Overboeking naar de belastingvrije reserves*' — de openende asterisk staat direct tegen 'rubriek' geplakt zonder spatie, wat de italic-span niet correct parseert. Heading-hiërarchie in de huidige body is correct (H1→H2→H2), dus B2 van eerdere ronde is niet meer aanwezig of was fout. Één D4-artefact is voldoende reden voor needs-rework."
       concrete_problemen:
-        - regel: 72
-          categorie: D4
+        - categorie: D4
+          regel: 72
           type: other
           voorbeeld: een speciale rubriek* Overboeking naar de belastingvrije reserves* (spatie ontbreekt voor openende *)
+      rationale: 'D4 op L72: ''een speciale rubriek* Overboeking naar de belastingvrije reserves*'' — de openende asterisk staat direct tegen ''rubriek'' geplakt zonder spatie, wat de italic-span niet correct parseert. Heading-hiërarchie in de huidige body is correct (H1→H2→H2), dus B2 van eerdere ronde is niet meer aanwezig of was fout. Één D4-artefact is voldoende reden voor needs-rework.'
+      run_at: '2026-05-11T17:05:20Z'
+      status: needs-rework
+    rationale: 'D4 op L72: ''een speciale rubriek* Overboeking naar de belastingvrije reserves*'' — de openende asterisk staat direct tegen ''rubriek'' geplakt zonder spatie, wat de italic-span niet correct parseert. Heading-hiërarchie in de huidige body is correct (H1→H2→H2), dus B2 van eerdere ronde is niet meer aanwezig of was fout. Één D4-artefact is voldoende reden voor needs-rework.'
+    status: needs-rework
 themas:
   - belastingvrije reserves
   - onttrekking aan de belastingvrije reserves
@@ -66,13 +66,11 @@ Het schema van de resultatenrekening bevat, onder de rubriek *Winst (verlies) va
 In dit verband rezen twee vragen : 
 
 ## Over de stijving van de belastingvrije reserves
-
 Moeten de belastingvrije reserves worden gestijfd via deze rubriek van de resultatenrekening of mag dit ook via de resultaatverwerking, met de rubriek C.2. van het schema «Toevoeging aan de reserves», inzonderheid wanneer in fiscaal opzicht geen bezwaar bestaat tegen de stijving van deze reserves via de resultaatverwerking ? 
 
 De Commissie is van oordeel dat met de invoering van deze rubriek door het besluit van 12 september 1983 en op grond van haar omschrijving, bedoeld wordt dat elke overboeking naar de belastingvrije reserves via deze rubriek moet gebeuren. 
 
 ## Over onttrekkingen aan de belastingvrije reserves
-
 Een onttrekking aan de belastingvrije reserves kan bedoeld zijn om deze reserves een andere bestemming te geven, bij voorbeeld dekking van een verlies of uitkering van een dividend aan de vennoten; zij kan ook ingegeven zijn door strikt fiscale overwegingen : belastingvrijdom verzaken door de belastingvrije reserves om te vormen tot een reserve waarvoor de normale fiscale regeling geldt. Onttrekking kan ook voortvloeien uit een gehele of gedeeltelijke toevoeging van de belastingvrije reserves aan het kapitaal. 
 
 - zij is de duidelijkste uitdrukking van de aard van de betrokken verrichting; deze onttrekking toerekenen op een andere post van de resultatenrekening zou een verkeerd beeld geven van de oorsprong van het resultaat; 

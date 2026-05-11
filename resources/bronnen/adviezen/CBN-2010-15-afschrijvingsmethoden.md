@@ -3,45 +3,45 @@ bron: https://www.cbn-cnc.be/nl/adviezen/afschrijvingsmethoden
 datum: 2010-10-06
 nummer: CBN-advies 2010/15
 provenance:
+  generated_at: '2026-05-11T17:48:39Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/afschrijvingsmethoden
       sha256: 05e9e21fba9ce48c9b7b4a9124423c7ed3139d641800094a23c7b2e73604d6d0
       version:
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
-    status: needs-rework
     confirmed_at: '2026-05-11T17:09:38Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "D4 bevestigd op twee plaatsen: r183 '*Voorbeeld ' heeft een opening asterisk gevolgd door spatie (malformed italic opener); r199 'het* pro rata*' heeft een asterisk direct na 'het' zonder scheidende spatie (gebroken italic-markup). De eerder gerapporteerde A3 is niet bevestigd: de body bevat geen plain-text TOC, de themas-lijst staat enkel in de frontmatter. Overige inhoud (13 headings, voetnoten 1-34 volledig, voorbeelden compleet) correct."
     layer1:
-      file_size_chars: 23556
-      flags: []
-      heading_count: 13
-      max_section_chars: 6418
-      run_at: '2026-05-11T15:05:50Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:42Z'
+      heading_count: 13
+      max_section_chars: 6417
+      file_size_chars: 23538
+      flags: []
     layer2:
-      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T17:09:38Z'
-      rationale: "D4 bevestigd op twee plaatsen: r183 '*Voorbeeld ' heeft een opening asterisk gevolgd door spatie (malformed italic opener); r199 'het* pro rata*' heeft een asterisk direct na 'het' zonder scheidende spatie (gebroken italic-markup). De eerder gerapporteerde A3 is niet bevestigd: de body bevat geen plain-text TOC, de themas-lijst staat enkel in de frontmatter. Overige inhoud (13 headings, voetnoten 1-34 volledig, voorbeelden compleet) correct."
       concrete_problemen:
-        - regel: 183
-          categorie: D4
+        - categorie: D4
+          regel: 183
           type: other
           voorbeeld: '*Voorbeeld  (trailing spatie na opening asterisk, malformed italic opener)'
-        - regel: 199
-          categorie: D4
+        - categorie: D4
+          regel: 199
           type: other
           voorbeeld: en wordt het* pro rata* van het gebruik
+      rationale: 'D4 bevestigd op twee plaatsen: r183 ''*Voorbeeld '' heeft een opening asterisk gevolgd door spatie (malformed italic opener); r199 ''het* pro rata*'' heeft een asterisk direct na ''het'' zonder scheidende spatie (gebroken italic-markup). De eerder gerapporteerde A3 is niet bevestigd: de body bevat geen plain-text TOC, de themas-lijst staat enkel in de frontmatter. Overige inhoud (13 headings, voetnoten 1-34 volledig, voorbeelden compleet) correct.'
+      run_at: '2026-05-11T17:09:38Z'
+      status: needs-rework
+    rationale: 'D4 bevestigd op twee plaatsen: r183 ''*Voorbeeld '' heeft een opening asterisk gevolgd door spatie (malformed italic opener); r199 ''het* pro rata*'' heeft een asterisk direct na ''het'' zonder scheidende spatie (gebroken italic-markup). De eerder gerapporteerde A3 is niet bevestigd: de body bevat geen plain-text TOC, de themas-lijst staat enkel in de frontmatter. Overige inhoud (13 headings, voetnoten 1-34 volledig, voorbeelden compleet) correct.'
+    status: needs-rework
 themas:
   - af te schrijven waarde
   - afschrijvingen
@@ -67,13 +67,10 @@ themas:
 # CBN-advies 2010/15 - Afschrijvingsmethoden Advies van 6 oktober 2010
 
 ## Inleiding
-
 Bij de vaste activa worden die vermogensbestanddelen ingedeeld die bestemd zijn om duurzaam voor de bedrijfsuitoefening te worden gebruikt[^1]. Men kan ook zeggen dat vaste activa worden *ge*bruikt, waartegenover vlottende activa worden* ver*bruikt. Vele vaste activa hebben echter een beperkte economische levensduur. Beperkte economische levensduur duidt op een tenietgaan in de tijd van het nut van het vast actief als ondernemingsmiddel. De daling van het nut wordt stelselmatig uitgedrukt via afschrijvingen. Afschrijvingen dienen om de kost van investeringen met beperkte levensduur gespreid ten laste te nemen.
 
 ## Waarderingsregels
-
 ### Algemeen
-
 Voor de berekening van de afschrijvingskost moeten eerst de waarderingsregels bepaald worden[^2]. 
 
 Artikel 28, § 1, eerste lid van het koninklijk besluit van 30 januari 2001 tot uitvoering van het Wetboek van Vennootschappen (hierna KB W.Venn.) vereist dat elke vennootschap de regels bepaalt die gelden voor de waardering van de inventaris en, onder meer, voor de vorming en de aanpassing van afschrijvingen. Deze waarderingsregels worden samengevat in de toelichting en zijn voldoende nauwkeurig zodat door de lezer van de jaarrekening inzicht wordt verkregen in de toegepaste waarderingsmethoden[^3].
@@ -87,13 +84,11 @@ De afschrijvingen moeten voldoen aan de eisen van voorzichtigheid, oprechtheid e
 Belangrijk is ook dat de afschrijvingen overeenkomstig artikel 48 KB W.Venn. stelselmatig moeten worden gevormd. Ze mogen niet afhangen van het resultaat van het boekjaar[^7]. 
 
 ### Oprichtingskosten
-
 Onder de post oprichtingskosten worden de kosten vermeld die, voor zover zij niet op een andere wijze ten laste van de resultatenrekening van het lopende boekjaar worden gebracht, verbonden zijn met de oprichting, de verdere ontwikkeling of de herstructurering van de vennootschap, in het bijzonder de kosten van oprichting of kapitaalverhoging, de kosten bij uitgifte van leningen, en de herstructureringskosten[^8].
 
 Voor de oprichtingskosten worden passende afschrijvingen geboekt, per jaarlijkse tranches van ten minste twintig percent van de werkelijk uitgegeven bedragen. De afschrijving van de kosten bij uitgifte van leningen mag echter gespreid worden over de looptijd van de leningen[^9].
 
 ### Immateriële en materiële vaste activa met beperkte gebruiksduur
-
 - Gewone afschrijvingen 
 
 Immateriële vaste activa zijn ondernemingsmiddelen van onlichamelijke aard die voor de activiteit worden gebruikt en waaruit naar verwachting toekomstige economische voordelen naar de onderneming zullen vloeien.
@@ -123,13 +118,11 @@ Bij het doorbreken van de continuïteit van de vennootschap, of voor de buiten g
 De aanvullende of uitzonderlijke afschrijvingen die niet langer verantwoord blijken, moeten worden teruggenomen en dit voor een bedrag dat gelijk is aan de voorheen geboekte aanvullende afschrijvingen[^16]. Deze terugneming dient in resultaat genomen te worden via de uitzonderlijke opbrengsten.
 
 ### Geherwaardeerde activa
-
 Indien materiële vaste activa met beperkte levensduur geherwaardeerd worden, moet de geherwaardeerde waarde van het vast actief afgeschreven worden over de vermoedelijke restlevensduur[^17]. Deze verhoogde afschrijvingen worden geboekt onder de bedrijfsresultaten.
 
 De herwaarderingsmeerwaarde wordt bij de herwaardering rechtstreeks geboekt op de passiefrubriek “Herwaarderingsmeerwaarden”, maar mag overgeboekt worden naar de beschikbare reserves voor het afgeschreven gedeelte. Naar het oordeel van de Commissie is dergelijke overboeking aan te bevelen[^18].
 
 ## Af te schrijven waarde
-
 De af te schrijven waarde is overeenkomstig artikel 45 KB W.Venn. gelijk aan de (eventueel geherwaardeerde) aanschaffingswaarde[^19]. Hoewel in het KB W.Venn. niet specifiek naar een restwaarde wordt verwezen, is het gebruik van een restwaarde voor de berekening van de af te schrijven waarde niet in strijd met het KB W.Venn., noch met de Vierde Richtlijn[^20]. 
 
 De vraag werd gesteld of het afschrijvingsplan met betrekking tot een vast actief met beperkte gebruiksduur mag of moet toegepast blijven indien de “reële” waarde van het goed in kwestie, omwille van de muntontwaarding (inflatie) of van de evolutie van de marktomstandigheden, zijn boekhoudkundige waarde overtreft. 
@@ -149,7 +142,6 @@ De evolutie van de “waarde” van het goed in kwestie zou de afschrijvingspoli
 Ten slotte, als de gebruikswaarde van het goed op blijvende wijze de waarde waarvoor het opgenomen is in de balans overtreft, zal de bezorgdheid om in de jaarrekening de werkelijke inhoud van het patrimonium van de onderneming tot uiting te brengen, uiteraard blijken uit een herwaardering hogergenoemd besluit verricht overeenkomstig artikel 57 KB W.Venn. 
 
 ## Afschrijvingsperiode
-
 Afschrijvingen verdelen de kosten van verwerving van het vast actief over hun waarschijnlijke nuttigheids- of gebruiksduur, of nog de economische levensduur van het actief. Deze levensduur moet geschat worden. De nuttigheids- of gebruiksduur wordt beïnvloed door technische[^21] en economische[^22] slijtage.
 
 Deze economische levensduur kan uitgedrukt worden in tijdseenheden, verbruikseenheden of een combinatie van beide:
@@ -158,8 +150,7 @@ Deze economische levensduur kan uitgedrukt worden in tijdseenheden, verbruikseen
 - het zuiver kwantitatief gebruik: de prestatievoorraad van het actief wordt in kwantitatief meetbare eenheden weergegeven. 
 - een combinatie van de tijd en het gebruik: enerzijds wordt de levensduur uitgedrukt in tijdseenheden, anderzijds in verbruikseenheden[^23]. 
 
-## Afschrijvingsmethoden[^24]
-
+## Afschrijvingsmethoden
 Het KB W.Venn. beperkt zich tot het terrein van de algemene beginselen[^25]. Het bevat geen eigenlijke regels met betrekking tot het ritme van de jaarlijkse afschrijvingen. 
 
 Het afschrijvingsregime mag lineair zijn, degressief, of gebonden aan objectieve criteria zoals de gebruiksintensiteit van het goed of het volume van de productie. Al deze regimes zijn ten aanzien van het KB W.Venn. aanvaardbaar voor zover ze overeenstemmen met, ofwel de spreiding van de aanschaffingsprijs over de vermoedelijke economische levensduur van het vast actief, ofwel een fiscaal aanvaard systeem van versnelde afschrijvingen[^26].
@@ -169,7 +160,6 @@ Een actief kan ook worden opgedeeld in verschillende componenten, waarbij de com
 De onderneming dient in de toelichting bij de jaarrekening een beschrijving te geven van de toegepaste afschrijvingsmethoden, vergezeld van een passende commentaar over de in cijfers uitgedrukte gevolgen van het afschrijvingsbeleid.
 
 ### Lineaire afschrijvingsmethoden
-
 Bij de lineaire afschrijvingsmethode schrijft men gelijkmatig naar tijd en/of gebruik af tijdens de afschrijvingsperiode. 
 
 Volgens tijdseenheden 
@@ -201,7 +191,6 @@ De afschrijvingsannuïteit is met andere woorden minstens gelijk aan de lineaire
 *Een drukkerij koopt een drukpers voor 100.000 euro (aankoopprijs, inclusief alle bijkomende kosten). De economische levensduur van de drukpers wordt geraamd op 5 jaar en men schat dat met deze drukpers 10.000.000 kranten kunnen gedrukt worden. In jaar X worden 1.800.000 kranten gedrukt. Aangezien de afschrijving naar gebruik (18.000) kleiner is dan deze naar tijd (20.000), zal men de tijd als basis voor de afschrijving nemen en een afschrijving van 20.000 euro in resultaat nemen.*
 
 ### Boekhoudkundige degressieve afschrijvingsmethoden
-
 Bij de degressieve afschrijvingsmethode dalen de afschrijvingskosten tijdens de afschrijvingsperiode. Het eerste gebruik veroorzaakt als het ware een grotere veroudering dan het latere gebruik. 
 
 De degressieve afschrijvingsmethoden zijn boekhoudrechtelijk aanvaardbaar voor zover ze met de spreiding van de aanschaffingsprijs over de vermoedelijke levensduur van het actief overeenstemmen (of met een fiscaal aanvaard systeem van versnelde afschrijvingen[^28]). 
@@ -211,7 +200,6 @@ De degressieve afschrijvingsmethoden zijn boekhoudrechtelijk aanvaardbaar voor z
 *Een drukkerij koopt een drukpers voor 100.000 euro (aankoopprijs, inclusief alle bijkomende kosten). De economische levensduur van de drukpers wordt geraamd op 5 jaar. De onderneming beslist de drukpers af te schrijven op basis van een afnemend percentage van het totaal af te schrijven bedrag. Gedurende 5 jaar wordt respectievelijk 28%, 24%, 20%, 16% en 12 % van 100.000 afgeschreven.*
 
 ### Progressieve afschrijvingsmethoden
-
 Bij de progressieve afschrijvingsmethode stijgen de afschrijvingskosten tijdens de afschrijvingsperiode.
 
 De Commissie is van oordeel dat het uitwerken van een progressief afschrijvingsplan toelaatbaar is, voor zover dit plan *in concreto* verantwoord kan worden ten overstaan van de beginselen inzake voorzichtigheid, oprechtheid en goede trouw.
@@ -221,7 +209,6 @@ De Commissie is van oordeel dat het uitwerken van een progressief afschrijvingsp
 *Een drukkerij koopt een drukpers voor 100.000 euro (aankoopprijs, inclusief alle bijkomende kosten). De economische levensduur van de drukpers wordt geraamd op 5 jaar. De onderneming beslist de drukpers af te schrijven op basis van een toenemend percentage van het totaal af te schrijven bedrag, aangezien ze naarmate de 5 jaar verstrijken een hogere benutting van de drukpers veronderstelt. Gedurende 5 jaar wordt respectievelijk 12%, 16%, 20%, 24% en 28% van 100.000 afgeschreven.*
 
 ### Versnelde (fiscaal aanvaarde) afschrijvingsmethoden
-
 Ten tijde van de uitvaardiging van het koninklijk besluit van 8 oktober 1976[^29], waren er twee gekende fiscale stelsels van versnelde afschrijvingen, meer bepaald de degressieve afschrijving[^30] en de dubbele lineaire afschrijving[^31]. De tekst van artikel 28 van het KB van 8 oktober 1976 verwees echter niet uitdrukkelijk naar deze twee regimes. De tekst werd zeer algemeen opgesteld om de diverse technieken te kunnen omvatten van fiscaal aanvaarde versnelde afschrijvingen die in de fiscale reglementering opgenomen zouden kunnen worden[^32]. Bijgevolg zijn alle fiscaal aanvaarde versnelde afschrijvingssystemen toegelaten op grond van de artikelen 61, § 1, eerste lid en 64, §1, eerste lid KB W.Venn[^33].
 
 Wanneer de toepassing van een plan voor versnelde afschrijving met zich zou brengen dat aanzienlijk vlugger wordt afgeschreven dan economisch verantwoord, moet er in de toelichting melding gemaakt worden van het verschil tussen het gecumuleerd bedrag van de geboekte afschrijvingen en dat van de economisch verantwoorde afschrijvingen. Tevens moet de invloed worden aangegeven van de tijdens het boekjaar of tijdens vorige boekjaren geboekte versnelde afschrijvingen op het bedrag van de afschrijvingen in de resultatenrekening van het boekjaar[^34], in vergelijking met de economisch verantwoorde afschrijvingen.

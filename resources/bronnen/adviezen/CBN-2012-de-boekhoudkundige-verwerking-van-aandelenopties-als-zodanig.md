@@ -13,45 +13,45 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-dekkingsverrichtingen-en-gedekte-posities-in-aandelen
 nummer: CBN-advies 2012/18
 provenance:
+  generated_at: '2026-05-11T17:48:39Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-aandelenopties-als-zodanig
       sha256: fc78f1e6b4713cd70bf6ff7237844f6824545cbb67521c65005f9e111f846db1
       version:
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
-    status: needs-rework
     confirmed_at: '2026-05-11T17:09:38Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "D4: regel 113 bevat 'de optie is dan \"in the money\", *cfr*.* infra*' waarbij een stray italic-asterisk de tekst vermangelt — het sluit-asterisk van '*cfr*' staat vóór de punt, waarna een nieuw italic-blok '* infra*' opent met een spatie na het asterisk. B5: regel 123 'Onderliggende doelstellingen van optiecontracten.' staat als plain-text alinea-opener terwijl het duidelijk een nieuw subsectie-thema introduceert."
     layer1:
-      file_size_chars: 39045
-      flags: []
-      heading_count: 32
-      max_section_chars: 19872
-      run_at: '2026-05-11T15:05:51Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:43Z'
+      heading_count: 32
+      max_section_chars: 19856
+      file_size_chars: 39013
+      flags: []
     layer2:
-      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T17:09:38Z'
-      rationale: "D4: regel 113 bevat 'de optie is dan \"in the money\", *cfr*.* infra*' waarbij een stray italic-asterisk de tekst vermangelt — het sluit-asterisk van '*cfr*' staat vóór de punt, waarna een nieuw italic-blok '* infra*' opent met een spatie na het asterisk. B5: regel 123 'Onderliggende doelstellingen van optiecontracten.' staat als plain-text alinea-opener terwijl het duidelijk een nieuw subsectie-thema introduceert."
       concrete_problemen:
-        - regel: 113
-          categorie: D4
+        - categorie: D4
+          regel: 113
           type: other
           voorbeeld: (de optie is dan "in the money", *cfr*.* infra*)
-        - regel: 123
-          categorie: B5
+        - categorie: B5
+          regel: 123
           type: other
           voorbeeld: Onderliggende doelstellingen van optiecontracten.\nVerschillende strategieën kunnen aan de basis liggen
+      rationale: 'D4: regel 113 bevat ''de optie is dan "in the money", *cfr*.* infra*'' waarbij een stray italic-asterisk de tekst vermangelt — het sluit-asterisk van ''*cfr*'' staat vóór de punt, waarna een nieuw italic-blok ''* infra*'' opent met een spatie na het asterisk. B5: regel 123 ''Onderliggende doelstellingen van optiecontracten.'' staat als plain-text alinea-opener terwijl het duidelijk een nieuw subsectie-thema introduceert.'
+      run_at: '2026-05-11T17:09:38Z'
+      status: needs-rework
+    rationale: 'D4: regel 113 bevat ''de optie is dan "in the money", *cfr*.* infra*'' waarbij een stray italic-asterisk de tekst vermangelt — het sluit-asterisk van ''*cfr*'' staat vóór de punt, waarna een nieuw italic-blok ''* infra*'' opent met een spatie na het asterisk. B5: regel 123 ''Onderliggende doelstellingen van optiecontracten.'' staat als plain-text alinea-opener terwijl het duidelijk een nieuw subsectie-thema introduceert.'
+    status: needs-rework
 themas:
   - aandelenopties
   - call-optie
@@ -61,11 +61,8 @@ themas:
 # CBN advies 2012/18 – De boekhoudkundige verwerking van aandelenopties (als zodanig)
 
 ## Inleiding
-
 ### Werking van het optiecontract
-
 #### Definitie
-
 Een optiecontract is een overeenkomst waarbij een partij (de optieschrijver) zich ertoe verbindt, in voorkomend geval tegen onmiddellijke betaling van een prijs (de optiepremie) door de optiehouder, een goed (onderliggend actief) te kopen (aankoopverbintenis) van of te verkopen (verkoopverbintenis) aan de optiehouder, als deze laatste hiertoe beslist, tegen een vooraf bepaalde of bepaalbare prijs (de uitoefenprijs)[^1], op een welbepaalde datum of tijdens een welbepaalde periode[^2]. Een optiecontract blijft een overdraagbare titel waardoor de initiële optieschrijver en optiehouder in de loop van de tijd kunnen veranderen. 
 
 Wanneer de optieschrijver een aankoopverbintenis aangaat, ontstaat er voor de optiehouder een verkoopoptie (put-optie). 
@@ -91,7 +88,6 @@ d) Schrijven van een put:
 De schrijver van een verkoopoptie (put) verbindt zich ertoe om, tegen onmiddellijke ontvangst van een premie (voor zover contractueel bepaald), op een welbepaalde datum of tijdens een welbepaalde periode, een vastgestelde hoeveelheid van een onderliggend actief tegen een afgesproken prijs te kopen wanneer de houder van de put dit wenst. 
 
 #### Rechten en verplichtingen van de optiehouder
-
 De houder van een (call- of put-) optie gaat enkel de verbintenis aan de optiepremie te betalen (als contractueel is bepaald dat een dergelijke prijs moet worden betaald). Het risico dat hij neemt is beperkt tot het beloop van de te betalen prijs. In ruil daarvoor heeft hij het recht om:
 
 - het aan de optie verbonden recht uit te oefenen, 
@@ -113,7 +109,6 @@ Over het algemeen koopt iemand een put als hij verwacht:
 Meestal zal de houder de put uitoefenen als de marktwaarde van het beleggingseffect kleiner is dan de uitoefenprijs op het ogenblik of op de uiterste datum waarop de optie mag worden uitgeoefend (de optie is dan “in the money”, *cfr*.* infra*). 
 
 #### Rechten en verplichtingen van de optieschrijver
-
 De schrijver van een (call- of put-) optie heeft geen keuze: op verzoek van de optiehouder moet hij het onderliggend actief leveren of kopen. In ruil voor deze verbintenis betaalt de optiekoper bij de toekenning van de optie meestal een premie aan de optieschrijver. 
 
 Voor een operator is een van de redenen om het risico te nemen een optie te schrijven, de verwachting van stabiele koersen en de hoop op een kleinere koersschommeling dan het bedrag van de premie die hij heeft ontvangen. 
@@ -147,7 +142,6 @@ Bij deze laatste categorie horen strategieën zoals:
 - het gelijktijdig kopen van put- en call-opties op hetzelfde onderliggende bestanddeel dat de operator niet in zijn vermogen bezit bij de afsluiting van deze verrichting. 
 
 ### Draagwijdte van het advies
-
 Waardeschommelingen hebben dus een verschillende invloed op het vermogen van de onderneming, naar gelang de optie een alleenstaande verrichting vormt dan wel een onderdeel is van een reeks verrichtingen in verschillende zin. Op grond van dit onderscheid zal hun boekhoudkundige verwerking dan ook verschillend zijn, inzonderheid voor de resultaatbepaling. 
 
 Dit advies behandelt enkel de boekhoudkundige verwerking van het kopen of schrijven van aandelenopties[^4] wanneer deze verrichtingen kunnen worden beschouwd als alleenstaande verrichtingen[^5]. 
@@ -164,7 +158,6 @@ In dit advies komen tevens niet aan bod: de verkoop met mogelijke terugkoop, als
 Dit advies sluit aan bij het koninklijk besluit van 30 januari 2001 tot uitvoering van het Wetboek van vennootschappen (hierna: KB W.Venn.) en geldt bijgevolg voor de ondernemingen waarop de bepalingen van dit besluit hetzij rechtstreeks, hetzij door een verwijzingsbepaling van toepassing zijn. Het ligt dus niet in de bedoeling dat de kredietinstellingen dit advies als dusdanig zouden gaan toepassen. Voor hen zijn een aantal regels over de boekhoudkundige verwerking van aandelenopties vastgesteld bij het koninklijk besluit van 23 september 1992 op de jaarrekening van de kredietinstellingen, de beleggingsondernemingen en de beheervennootschappen van instellingen voor collectieve belegging[^7].
 
 ### Analyse van de optiepremie
-
 Vooraleer over te gaan tot de boekhoudkundige verwerking van opties, moet de samenstelling onderzocht worden van de optiepremie die betaald wordt bij het kopen van de optie of ontvangen wordt bij het schrijven van de optie. De waarde van de optie heeft twee bestanddelen: 
 
 i) De intrinsieke waarde:
@@ -192,7 +185,6 @@ Deze tijdswaarde is per definitie positief. Zolang de optie niet is vervallen, i
 Naarmate de (uiterste) datum om de optie uit te oefenen nadert, evolueert de tijdswaarde naar nul. Op de vervaldag moet de waarde van de optie per definitie - tenzij er onregelmatigheden zijn in de markt - gelijk zijn aan haar intrinsieke waarde. Noteer evenwel dat de vermindering van de tijdswaarde niet op lineaire wijze rekening houdend met de factoren die haar beïnvloeden[^9]. 
 
 ## Boekhoudkundige verwerking van aandelenopties (als zodanig) die worden verhandeld op een georganiseerde en liquide markt
-
 Verrichtingen in opties zijn alleenstaande verrichtingen:
 
 - wanneer de houder van een call er zich niet toe verbonden heeft de overeenstemmende onderliggende effecten te verkopen of geen call op dezelfde onderliggende activa heeft geschreven; 
@@ -202,9 +194,7 @@ Verrichtingen in opties zijn alleenstaande verrichtingen:
 In deze gevallen beïnvloedt elke schommeling van de optiewaarde inderdaad potentieel en integraal het vermogen van de houder of van de schrijver, zonder "compenserend" effect ingevolge een schommeling in tegengestelde zin van een ander vermogensbestanddeel dat financieel is verbonden met het eerste. 
 
 ### In hoofde van de houder van een (call- of put-) optie
-
 #### Aankoop van de optie
-
 Zoals hierboven reeds werd onderstreept, bezit de optiehouder een recht tegenover de optieschrijver. Dit recht heeft een economische waarde. 
 
 In zekere zin is een optie immers een splitsing van de financiële rechten die aan de onderliggende effecten zijn verbonden. De optiehouder kan de effecten kopen of verkopen tegen de afgesproken prijs als de koersevolutie voor hem gunstig is. Hij loopt geen risico op groter verlies dan de aankoopprijs van de optie, indien het onderliggende effect niet evolueert zoals gehoopt. 
@@ -231,9 +221,7 @@ De Commissie acht deze benadering onaanvaardbaar. Noch in juridisch, noch in fin
 Aangezien het hier gaat om gestandaardiseerde opties die op elk ogenblik kunnen worden verhandeld volgens de regels voor de overdracht van effecten, vertonen zij alle kenmerken van effecten. Een verzekeringspremie zal daarentegen nooit kunnen worden geherwaardeerd op balansdatum van het boekjaar, noch vóór de vervaldag kunnen worden overgedragen, noch worden toegevoegd aan de aanschaffingswaarde van een actief. 
 
 #### Aanpassing van de optiewaarde tijdens de looptijd
-
 ##### Gespreide tenlasteneming van de tijdwaarde
-
 Een eerste vraag die zich stelt bij de evolutie van de optiewaarde is de volgende: kan het deel van de optiepremie dat de tijdswaarde van de premie vertegenwoordigt en dat naar nul evolueert op de (uiterste) dag voor de uitoefening van de optie, op lineaire wijze worden afgeschreven over de resterende looptijd van de optie. 
 
 Een analyse van de marktgegevens doet ernstige vragen rijzen omtrent de gegrondheid van een dergelijke benadering, die uitgaat van een vermoeden van lineaire ontwaarding van de tijdswaarde; wat zij daarentegen duidelijk aantoont, is dat deze tijdswaarde sterk schommelt. 
@@ -241,7 +229,6 @@ Een analyse van de marktgegevens doet ernstige vragen rijzen omtrent de gegrondh
 Om deze reden acht de Commissie een dergelijke benadering van gespreide tenlasteneming van de tijdswaarde niet aanvaardbaar. Overigens is zij niet in overeenstemming met het geldende Belgische recht dat afschrijvingen enkel toelaat op bepaalde vaste activa. 
 
 ##### Aanpassing aan de marktwaarde
-
 De waarderingsprincipes voor beleggingseffecten, vastgelegd door het KB W.Venn. gelden ook voor gekochte opties. 
 
 Door de vorming en terugneming van waardeverminderingen wordt rekening gehouden met de schommelingen in de marktwaarde van de opties wanneer deze lager is dan de aanschaffingswaarde. Daarentegen wordt ten aanzien van deze aanschaffingswaarde geen enkele meerwaarde vastgesteld noch, a fortiori, in resultaat genomen zolang zij niet gerealiseerd is. 
@@ -253,17 +240,13 @@ Bij deze benaderingswijze wenst de Commissie evenwel te formuleren dat de toepas
 Hieruit volgt dat ondernemingen waardeverminderingen moeten toepassen op de opties die zij bezitten wanneer hun realisatiewaarde lager is dan hun aanschaffingswaarde (artikel 74 KB W.Venn.); deze waardeverminderingen moeten worden teruggenomen als de marktwaarde opnieuw stijgt. Daartegenover staat dat er geen enkele meerwaarde ten opzichte van de aanschaffingswaarde wordt geboekt zolang de optie niet is gerealiseerd[^10]. 
 
 #### Afwikkeling van de verrichting
-
 ##### Overdracht van de optie vóór de vervaldag
-
 De overdracht van een optie wordt op dezelfde wijze geboekt als de overdracht van een beleggingseffect. 
 
 Bijgevolg moeten de gerealiseerde meer- of minderwaarden, na tegenboeking van eventueel geboekte waardeverminderingen, onder de financiële resultaten worden geboekt (rekening 652 of 752 van het rekeningenstelsel). 
 
 ##### Uitoefening van de optie
-
 ###### Uitoefening van een call-optie
-
 Wanneer een call-optie wordt uitgeoefend moet de uitoefenprijs worden toegevoegd aan de aankoopprijs van de optie om de aanschaffingswaarde van de betrokken effecten te bepalen. 
 
 Wanneer op de aanschaffingswaarde van de optie een waardevermindering is toegepast, dan moet die bij de uitoefening worden teruggenomen. Zo nodig wordt op de aldus bekomen aanschaffingswaarde van de aandelen een waardevermindering toegepast indien hun marktwaarde kleiner is. Dat zou kunnen wanneer bij de uitoefening van de optie, de beurskoers van het betrokken aandeel hoger is dan de uitoefenprijs, maar lager is dan de som van de uitoefenprijs en de aankoopprijs van de optie. 
@@ -273,17 +256,13 @@ De optie wordt tegen aanschaffingswaarde aan de waarde van de na uitoefening van
 De vraag stelt zich of, met verwijzing naar de internationale normen over de bepaling van de aanschaffingswaarde bij ruil, de aanschaffingswaarde van de effecten kan worden bepaald door naast de uitoefenprijs rekening te houden met de effectieve (beurs)waarde van de optie op het ogenblik dat zij wordt uitgeoefend, veeleer dan met haar aankoopprijs. Deze visie steunt op de overweging dat de optie en het effect twee juridisch onderscheiden situaties vormen en dat de aanschaffingswaarde van de effecten moet worden bepaald op grond van de voor hun verkrijging afgestane bedragen en waarden en tegen realisatiewaarde moeten worden gewaardeerd (op het ogenblik dat zij worden afgestaan). De Commissie is van oordeel dat de uitoefening van een optie niet zonder meer met een ruilverrichting kan worden gelijkgesteld en dat deze methode niet kan worden toegepast bij het boekhoudkundig verwerken van de uitoefening van de optie.
 
 ###### Uitoefening van een put-optie
-
 Wanneer een (niet gedekte) put-optie wordt uitgeoefend, moet de optiehouder in de markt de effecten kopen waarvoor hij een put-optie had genomen. Bij de uitoefening van de optie verdwijnen zowel de put-optie als de gekochte effecten uit zijn vermogen tegen netto-boekwaarde, wat ten aanzien van de uitoefenprijs een meer of -minderwaarde oplevert (rekeningen 752-652 van het rekeningenstelsel). 
 
 ##### Niet-uitoefening van een optie
-
 Wanneer de optiehouder de optie niet uitoefent, heeft deze geen enkele waarde meer. Bijgevolg moet de boekwaarde van de verworven optie ten laste worden genomen (als financiële kost). 
 
 ### In hoofde van de optieschrijver
-
 #### Algemene beschouwingen
-
 Zoals reeds werd aangestipt: 
 
 - gaat de optieschrijver een aan- of verkoopverbintenis aan die, afhankelijk van de beslissing van de optiehouder, al dan niet zal worden uitgevoerd; 
@@ -292,9 +271,7 @@ Zoals reeds werd aangestipt:
 - kan de optieschrijver, in tegenstelling tot de optiehouder die zijn optie en de eraan verbonden rechten kan overdragen, zich niet ontdoen van zijn verbintenis. Hij kan zijn positie slechts dekken door een dekkingsverrichting af te sluiten. 
 
 #### Boekhoudkundige verwerking
-
 ##### De verbintenis die de optieschrijver heeft aangegaan
-
 De aan- of verkoopverbintenis die de geschreven optie inhoudt, moet in elk geval worden opgenomen in de boekhouding van de onderneming. Deze verbintenis moet als volgt worden opgenomen onder de niet in de balans opgenomen rechten en verplichtingen: 
 
 | | Rekening | Omschrijving | Debet | Credit |
@@ -305,9 +282,7 @@ De aan- of verkoopverbintenis die de geschreven optie inhoudt, moet in elk geval
 Deze verbintenis wordt gewaardeerd tegen de uitoefenprijs van de optie. Zolang deze verbintenis bestaat (tot de vervaldag), blijft zij ten belope van deze waarde geboekt. Belangrijke verbintenissen moeten, met toepassing van het KB W.Venn. ,in de toelichting bij de jaarrekening worden vermeld. 
 
 ##### De premie die de optieschrijver ontvangt en incalculering van het risico
-
 ###### De premie die de optieschrijver ontvangt
-
 De premie die de optieschrijver ontvangt werd definitief geïnd, ongeacht of de optie op de vervaldag wordt uitgeoefend of niet. 
 
 Zij vormt de tegenprestatie voor het door hem gelopen risico: de invloed van een - voor hem - ongunstige koersevolutie van het onderliggende effect, zonder voordeel te kunnen halen uit een - voor hem - gunstige koersevolutie van dit effect. 
@@ -324,7 +299,6 @@ De Commissie meent in dit kader dat de ontvangen premie als een vergoeding dient
 Een dergelijke verwerkingswijze voor de ontvangen premie is gebaseerd op het voorzichtigheidsbeginsel; het zou volgens de Commissie immers verkeerd zijn om de ontvangen premie als definitief en vaststaand resultaat te aanzien op het ogenblik van ontvangst.
 
 ###### Incalculering van het risico
-
 Krachtens het beginsel van artikel 33 KB W.Venn. moet met het verliesrisico dat is verbonden aan de verbintenis die een geschreven optie inhoudt, in elk geval - en tenminste op balansdatum - rekening worden gehouden. Hiervoor moet een voorziening worden gevormd. Voornoemd artikel stelt dat "Er rekening moet worden gehouden met alle voorzienbare risico's, mogelijke verliezen en ontwaardingen, ontstaan tijdens het boekjaar waarop de jaarrekening betrekking heeft of tijdens voorgaande boekjaren ...". In artikel 54 KB W.Venn. wordt dit toegepast voor risico's: "voorzieningen moeten, onder meer, gevormd worden met het oog op: 
 
 1. (...) ; 
@@ -350,7 +324,6 @@ a) het bedrag van de (via de overlopende rekening) uitgestelde premie alsook de 
 
 b) met toepassing van het KB W.Venn., in de toelichting, in de staat met betrekking tot de "Overlopende rekeningen” aan de passiefzijde, het bedrag te vermelden van de uitgestelde en/of geprovisioneerde resultaten uit geschreven opties, uiteraard voor zover deze bedragen relevant zijn.
 #### Afwikkeling van de verrichting
-
 Bij de afwikkeling moeten de boekingen met betrekking tot de aangegane verbintenis worden tegengeboekt: 
 
 1. De premie wordt in resultaat genomen. 
@@ -376,25 +349,21 @@ Oefent de put-houder zijn optie uit, dan zal de optieschrijver - als hij blanco 
 De optieschrijver kan zich normaal gezien niet ontdoen van de verbintenissen die hij heeft aangegaan door de optie te schrijven. Hij kan echter wel een verrichting afsluiten om het risico te dekken, bij voorbeeld door een call of put met dezelfde kenmerken als de eerste te kopen (met name met dezelfde uitoefenprijs, dezelfde vervaldag en hetzelfde onderliggende effect). In dat geval komen we evenwel in een situatie terecht waar een dekkingsverrichting is afgesloten. Dergelijke verrichtingen worden besproken in deel I van het reeds aangehaalde CBN-advies 167/2 met betrekking tot dekkingsverrichtingen en gedekte posities in aandelen. 
 
 ## Gevolgen wanneer er geen georganiseerde en liquide markt is
-
 Gezien de volatiliteit van optiekoersen is het van belang de nadruk te leggen op het voorzichtigheidsbeginsel bij de boekhoudkundige verwerking van verrichtingen: 
 
 - met betrekking tot waarden die op niet-liquide markten worden verhandeld (georganiseerde of hiermee gelijkgestelde markten die niet voldoen aan de twee criteria sub Deel 1, C. van dit advies; en 
 - met betrekking tot niet-genoteerde waarden. 
 
 ## Samenvatting
-
 Behalve wanneer het gaat om gedekte verrichtingen of dekkingsverrichtingen, of wanneer het gaat om opties die deel uitmaken van een reeks verrichtingen in tegengestelde zin op dezelfde onderliggende activa, worden aandelenopties boekhoudkundig als volgt verwerkt:
 
 ### Gekochte call- en put-opties
-
 1. De gekochte call- en put-opties worden tegen aanschaffingswaarde in de boekhouding opgenomen in de post *Geldbeleggingen*. Op deze aanschaffingswaarde worden zo nodig waardeverminderingen toegepast om de netto boekwaarde van de gekochte opties terug te brengen tot de realisatiewaarde (marktkoers) (artikel 74 KB W.Venn.) of aanvullende waardeverminderingen toegepast om rekening te houden hetzij met de evolutie van de realisatie- of marktwaarde, hetzij met de risico's inherent aan de aard van de betrokken activa of van de gevoerde activiteit (artikel 75 KB W.Venn. Deze waardeverminderingen worden teruggenomen wanneer zij niet langer verantwoord zijn door de minderwaarden en risico's waarvoor zij werden geboekt. 
 2. Indien de opties vóór vervaldatum worden verkocht, worden de meer- of minderwaarden, na tegenboeking van eventueel geboekte waardeverminderingen, onder de financiële resultaten opgenomen. 
 3. Bij niet-uitoefening van de optie op de vervaldag, wordt haar boekwaarde ten laste genomen als waardevermindering (op vlottende activa). 
 4. Bij de uitoefening van een call-optie, wordt de betaalde prijs voor de optie bij de uitoefenprijs gevoegd om de aanschaffingswaarde van de betrokken effecten te bepalen. Bij de uitoefening van een put-optie, verdwijnen zowel de optie als de gekochte effecten tegen netto-boekwaarde uit het vermogen en ontstaat ten opzichte van de uitoefenprijs een meer of -minderwaarde. 
 
 ### Geschreven call-en put-opties
-
 1. Geschreven call- en put-opties worden tot hun vervaldag tegen uitoefenprijs geboekt op de rekeningen *Niet in de balans opgenomen rechten en verplichtingen*. 
 2. De premie die wordt ontvangen als tegenprestatie voor het schrijven van de optie en de verwerking van het risico dat is verbonden aan de geschreven optie, wordt beschouwd als een uitgestelde opbrengst - tot de vervaldag van de optie - en wordt bijgevolg geboekt als "over te dragen opbrengst". Vervolgens is het aangewezen om, in een zelfde rekening de netto bedragen (na aftrek van de terugnemingen) te boeken die aan de resultatenrekening worden onttrokken om de risico's van grotere verliezen dan de ontvangen premie op te vangen. 
 3. Op de vervaldag, ongeacht of de optie wordt uitgeoefend of niet, wordt de ontvangen premie in resultaat genomen en wordt de boeking op de rekeningen *Niet in de balans opgenomen rechten en verplichtingen tegengeboekt.*  
@@ -403,7 +372,6 @@ Behalve wanneer het gaat om gedekte verrichtingen of dekkingsverrichtingen, of w
 - put-optie: op de verworven effecten moet een waardevermindering worden geboekt ten belope van het verschil tussen hun aanschaffingswaarde bij uitoefening van de geschreven optie en hun marktwaarde. 
 
 ### Bij een niet liquide-markt
-
 Gezien de volatiliteit van de optiekoersen geldt het voorzichtigheidsbeginsel meer dan ooit. 
 
 **Dit advies vervangt advies 167/1.**

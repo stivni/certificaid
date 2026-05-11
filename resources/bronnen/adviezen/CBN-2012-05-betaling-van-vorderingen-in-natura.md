@@ -2,58 +2,54 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/betaling-van-vorderingen-in-natura
 datum: 2012-02-15
 gerelateerde_adviezen:
-- datum: '2025-06-10'
-  titel: Klassering van de vorderingen bij faillissement van de schuldenaar (update)
-    [ONTWERP]
-  url: https://www.cbn-cnc.be/nl/adviezen/klassering-van-de-vorderingen-bij-faillissement-van-de-schuldenaar-update-ontwerp
-- datum: '2021-12-06'
-  titel: Waarderen en boeken van cryptomunten gebruikt als betaalmiddel
-  url: https://www.cbn-cnc.be/nl/adviezen/waarderen-en-boeken-van-cryptomunten-gebruikt-als-betaalmiddel
-- datum: '2016-07-06'
-  titel: 'Schulden en vorderingen: gevolgen van de wijzigingen aan artikel 67 KB W.Venn.
-    door het koninklijk besluit van 18 december 2015'
-  url: https://www.cbn-cnc.be/nl/adviezen/schulden-en-vorderingen-gevolgen-van-de-wijzigingen-aan-artikel-67-kb-wvenn-door-het
-- datum: '2011-10-05'
-  titel: De boekhoudkundige verwerking van factoringovereenkomsten
-  url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-factoringovereenkomsten
+  - datum: '2025-06-10'
+    titel: Klassering van de vorderingen bij faillissement van de schuldenaar (update) [ONTWERP]
+    url: https://www.cbn-cnc.be/nl/adviezen/klassering-van-de-vorderingen-bij-faillissement-van-de-schuldenaar-update-ontwerp
+  - datum: '2021-12-06'
+    titel: Waarderen en boeken van cryptomunten gebruikt als betaalmiddel
+    url: https://www.cbn-cnc.be/nl/adviezen/waarderen-en-boeken-van-cryptomunten-gebruikt-als-betaalmiddel
+  - datum: '2016-07-06'
+    titel: 'Schulden en vorderingen: gevolgen van de wijzigingen aan artikel 67 KB W.Venn. door het koninklijk besluit van 18 december 2015'
+    url: https://www.cbn-cnc.be/nl/adviezen/schulden-en-vorderingen-gevolgen-van-de-wijzigingen-aan-artikel-67-kb-wvenn-door-het
+  - datum: '2011-10-05'
+    titel: De boekhoudkundige verwerking van factoringovereenkomsten
+    url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-factoringovereenkomsten
 nummer: CBN-advies 2012/5
 provenance:
-  generated_at: '2026-05-11T15:15:31Z'
+  generated_at: '2026-05-11T17:48:39Z'
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/betaling-van-vorderingen-in-natura
-    sha256: b6becb28377bf7a9825c8260f33f2666068c9283a33ae494dc8007ab3e099751
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/betaling-van-vorderingen-in-natura
+      sha256: b6becb28377bf7a9825c8260f33f2666068c9283a33ae494dc8007ab3e099751
+      version:
   stale: false
-  stale_reason: null
+  stale_reason:
   tooling:
-    model: null
+    model:
     pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    prompt_version: null
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
     confirmed_at: '2026-05-08T21:31:11Z'
     confirmed_by: human
     layer1:
-      file_size_chars: 5981
-      flags: []
-      heading_count: 4
-      max_section_chars: 3539
-      run_at: '2026-05-11T15:05:50Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:43Z'
+      heading_count: 4
+      max_section_chars: 3537
+      file_size_chars: 5977
+      flags: []
     layer2:
-      agent: null
+      agent:
       concrete_problemen: []
-      rationale: null
-      run_at: null
+      rationale:
+      run_at:
       status: not_run
-    rationale: 'Herscraped na fix select_title(): gecombineerde H1 (COMMISSIE + titel)
-      correct gesplitst. Inhoud ongewijzigd t.o.v. vorig vertrouwd verdict. Laag 1
-      pass (of benign max_section warn).'
+    rationale: 'Herscraped na fix select_title(): gecombineerde H1 (COMMISSIE + titel) correct gesplitst. Inhoud ongewijzigd t.o.v. vorig vertrouwd verdict. Laag 1 pass (of benign max_section warn).'
     status: trusted
 themas:
-- vordering
-- inbetalinggeving
+  - vordering
+  - inbetalinggeving
 ---
 
 # CBN-advies 2012/5 – Betaling van vorderingen in natura
@@ -67,13 +63,11 @@ Er is slechts sprake van inbetalinggeving indien er aan een aantal voorwaarden c
 Binnen de rechtsleer bestaat er geen duidelijkheid omtrent het feit of de inbetalinggeving al dan niet schuldvernieuwing tot gevolg heeft, dan wel een overeenkomst is over de wijze van betalen. Voor de verdere boekhoudkundige uitwerking van de inbetalinggeving zal dit onderscheid volgens de Commissie weinig gevolgen hebben.
 
 ## Inbetalinggeving door levering van een goed
-
 Voor de uitwerking van de inbetalinggeving door levering van een goed dienen we een onderscheid te maken naar de aard van het onderliggend goed. Immers, de schuldenaar kan ervoor opteren om goederen in betaling te geven dewelke duurzaam door de schuldeiser zullen worden gebruikt, en dewelke dus kwalificeren als materiële vaste activa. Daarnaast kan de schuldenaar er tevens voor opteren om handelsgoederen of diensten in betaling te geven dewelke kwalificeren als vlottende activa.
 
 De Commissie is de mening toegedaan dat de boekhoudkundige verwerking in hoofde van de schuldeiser de aard van het respectievelijk ontvangen goed dient te respecteren.
 
 ### Het in betaling gegeven goed is een materieel vast actief
-
 *Voorbeeld*
 
 Een onderneming levert onderhoudsdiensten aan een afnemer voor een bedrag van 1.000 EUR, exclusief BTW. Initieel werd er voorzien in een monetaire betaling. Na overleg tussen de schuldenaar en schuldeiser wordt er besloten dat de schuldenaar een schoonmaakmachine van 1.000 EUR exclusief BTW in betaling geeft voor de openstaande schuld. 
@@ -87,7 +81,6 @@ Gezien de aard van het onderliggende goed, wordt deze inbetalinggeving als volgt
 | aan | 400 | Handelsdebiteuren | | 1.210 |
 
 ### Het in betaling gegeven goed is een vlottend actief
-
 *Voorbeeld*
 
 Een onderneming levert onderhoudsdiensten aan een afnemer voor een bedrag van 100 EUR, exclusief BTW. Initieel werd er voorzien in een monetaire betaling. Na overleg tussen de schuldenaar en schuldeiser wordt er besloten dat de schuldenaar schoonmaakproducten voor 100 EUR exclusief BTW in betaling geeft voor de openstaande schuld. 
@@ -108,7 +101,6 @@ Op het einde van het boekjaar wordt er vastgesteld dat er nog 4 liter schoonmaak
 | aan | 6091 | Voorraadwijzigingen van hulpstoffen | | 10 |
 
 ## Inbetalinggeving door levering van een dienst
-
 Voor wat betreft de inbetalinggeving door levering van een dienst is de Commissie de mening toegedaan dat deze dienst in hoofde van de schuldeiser dient te worden verwerkt als periodekost binnen de *Diensten en diverse goederen* *(rekening 61).* Mocht de dienst door de schuldenaar over verschillende boekjaren worden verstrekt, dan dient de schuldeiser rekening te houden met een passende afgrenzing.
 
 *Voorbeeld* 

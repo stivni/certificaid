@@ -3,49 +3,49 @@ bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudrechtelijke-verwerking-van-de-w
 datum: 2021-07-12
 nummer: CBN-advies 2021/12
 provenance:
+  generated_at: '2026-05-11T17:48:39Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudrechtelijke-verwerking-van-de-wederopbouwreserve
       sha256: 3feb5c08df659031ce4ad5a7979f068cea92f3e4bb5854713c6db51fef10d85b
       version:
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T15:15:32Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
-    status: needs-rework
     confirmed_at: '2026-05-11T17:13:31Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "D4: drie italic-spans met spatie-artefacten door voetnootankers in de body: L74 sluit af met twee trailing spaces na de asterisk, L88 heeft hetzelfde patroon, L156 produceert 'rekening* 1109 Andere beschikbare inbreng buiten kapitaal*' met een losstaande asterisk voor '1109' — consistent extractie-artefact, geen source-typo. Laag-1-flags leeg, inhoud verder volledig met 24 voetnoten en correcte tabellen."
     layer1:
-      file_size_chars: 17538
-      flags: []
-      heading_count: 6
-      max_section_chars: 6995
-      run_at: '2026-05-11T15:05:54Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:45Z'
+      heading_count: 6
+      max_section_chars: 6994
+      file_size_chars: 17532
+      flags: []
     layer2:
-      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T17:13:31Z'
-      rationale: "D4: drie italic-spans met spatie-artefacten door voetnootankers in de body: L74 sluit af met twee trailing spaces na de asterisk, L88 heeft hetzelfde patroon, L156 produceert 'rekening* 1109 Andere beschikbare inbreng buiten kapitaal*' met een losstaande asterisk voor '1109' — consistent extractie-artefact, geen source-typo. Laag-1-flags leeg, inhoud verder volledig met 24 voetnoten en correcte tabellen."
       concrete_problemen:
-        - regel: 74
-          categorie: D4
+        - categorie: D4
+          regel: 74
           type: other
           voorbeeld: '*Wet van 19 november 2020 houdende de invoering van een wederopbouwreserve voor vennootschappen[^2]*  '
-        - regel: 88
-          categorie: D4
+        - categorie: D4
+          regel: 88
           type: other
           voorbeeld: '*Bezoldigingen en rechtstreekse sociale voordelen[^15]*  een bedrag is opgenomen'
-        - regel: 156
-          categorie: D4
+        - categorie: D4
+          regel: 156
           type: other
           voorbeeld: overboeking op rekening* 1109 Andere beschikbare inbreng buiten kapitaal*
+      rationale: 'D4: drie italic-spans met spatie-artefacten door voetnootankers in de body: L74 sluit af met twee trailing spaces na de asterisk, L88 heeft hetzelfde patroon, L156 produceert ''rekening* 1109 Andere beschikbare inbreng buiten kapitaal*'' met een losstaande asterisk voor ''1109'' — consistent extractie-artefact, geen source-typo. Laag-1-flags leeg, inhoud verder volledig met 24 voetnoten en correcte tabellen.'
+      run_at: '2026-05-11T17:13:31Z'
+      status: needs-rework
+    rationale: 'D4: drie italic-spans met spatie-artefacten door voetnootankers in de body: L74 sluit af met twee trailing spaces na de asterisk, L88 heeft hetzelfde patroon, L156 produceert ''rekening* 1109 Andere beschikbare inbreng buiten kapitaal*'' met een losstaande asterisk voor ''1109'' — consistent extractie-artefact, geen source-typo. Laag-1-flags leeg, inhoud verder volledig met 24 voetnoten en correcte tabellen.'
+    status: needs-rework
 themas:
   - wederopbouwreserve
   - COVID-19
@@ -57,13 +57,11 @@ themas:
 # CBN-advies 2021/12 – Boekhoudrechtelijke verwerking van de wederopbouwreserve
 
 ## Inleiding
-
 Middels de *Wet van 19 november 2020 houdende de invoering van een wederopbouwreserve voor vennootschappen[^2]*  is een bijkomende maatregel genomen binnen de vennootschapsbelasting. De aan de vennootschapsbelasting onderworpen ondernemingen kunnen hun solvabiliteitspositie terug geleidelijk aan herstellen door voor drie belastbare tijdperken een “wederopbouwreserve” aan te leggen op het einde van het boekjaar met betrekking tot de aanslagjaren 2022, 2023 of 2024.[^3] 
 
 Deze wederopbouwreserve laat toe om toekomstige winsten, vanaf aanslagjaar 2022, fiscaal gunstig in de aan de vennootschapsbelasting onderworpen onderneming te behouden door deze vrij te stellen om zo deze onderneming, mits ze haar eigen vermogen en haar tewerkstellingspeil behoudt, zo snel mogelijk terug over een gelijkwaardig eigen vermogen te laten beschikken van vóór het COVID-19-tijdperk. 
 
 ## Het in aanmerking te nemen bedrijfsverlies als basis
-
 Het bedrag van de wederopbouwreserve is in principe beperkt tot het bedrijfsverlies[^4] van het boekjaar op de afsluitdatum van het boekjaar in 2020, met als maximum 20 miljoen euro. Met andere woorden, een onderneming waarvan het bedrijfsresultaat van het betrokken boekjaar niet in verlies is, kan niet genieten van de regeling.
 
 Met bedrijfsverlies wordt het negatief verschil tussen de bedrijfsopbrengsten en bedrijfskosten bedoeld, zoals dit voortspruit uit het model van de bij de Nationale Bank van België neergelegde jaarrekening in code 9901[^5]. Dientengevolge wordt geen rekening gehouden met de overige resultaten van de onderneming die onder meer de financiële opbrengsten, de financiële kosten en het belastingresultaat omvatten.
@@ -71,7 +69,6 @@ Met bedrijfsverlies wordt het negatief verschil tussen de bedrijfsopbrengsten en
 Het in aanmerking te nemen negatieve bedrag van de code 9901 dient in principe te worden vastgesteld overeenkomstig de wetgeving betreffende de boekhouding en de jaarrekening op de afsluitdatum van het boekjaar in 2020, met een maximum van 20 miljoen euro. In afwijking van dit algemeen principe mogen de ondernemingen die hun boekjaar afsluiten tijdens de periode van 1 januari 2020 tot 31 juli 2020 ervoor kiezen om het maximale bedrag van de vrijstelling te beperken tot het bedrag van de bedrijfsverliezen, bepaald in overeenstemming met de wetgeving inzake boekhouding en jaarrekening voor het boekjaar dat afsluit in 2021, opnieuw met een maximum van 20 miljoen euro. Deze keuze wordt gemaakt wanneer de reserve voor het eerst wordt aangelegd en is onherroepelijk.[^6] 
 
 ## De samenstelling van de wederopbouwreserve
-
 Binnen het maximale bedrag van de vrijstelling zoals voorheen omschreven, wordt per belastbaar tijdperk de wederopbouwreserve aangelegd ten belope van een bedrag beperkt tot de belastbare gereserveerde winst van het belastbaar tijdperk vastgesteld vóór de samenstelling van de vrijgestelde reserve bedoeld in artikel 194*quater*/1 WIB 1992. De wederopbouwreserve die, bij het verstrijken van het belastbaar tijdperk dat verbonden is aan één van de aanslagjaren 2022, 2023 of 2024, is aangelegd door de onderneming, wordt bijgevolg niet als winst aangemerkt binnen de grenzen en onder de hierna gestelde voorwaarden.
 
 Het bedrag van de belastbare gereserveerde winst van het belastbaar tijdperk vastgesteld vóór de samenstelling van de vrijgestelde reserve bedoeld in artikel 194*quater*/1 WIB 1992 valt niet af te lezen uit de jaarrekening van de betrokken onderneming maar wordt bepaald in de aangifte in de vennootschapsbelasting. Daarmee wordt het gereserveerde resultaat bedoeld, verminderd met een aantal bestanddelen[^7], dat gemeenzaam resulteert in de reservebeweging binnen de aangifte in de vennootschapsbelasting.
@@ -80,7 +77,6 @@ De wederopbouwreserve wordt alleen vrijgesteld in zoverre zij *enerzijds* op é�
  De betrokken onderneming mag *anderzijds*, te rekenen vanaf 12 maart 2020 tot de laatste dag van het belastbaar tijdperk waarin de wederopbouwreserve wordt genoten, geen rechtstreekse deelneming hebben in een vennootschap gevestigd in een belastingparadijs[^9] en geen betalingen gedaan hebben aan dergelijke vennootschappen voor een totaalbedrag van ten minste 100.000 euro voor het belastbare tijdperk, tenzij is aangetoond dat deze betalingen zijn verricht in het kader van werkelijke en oprechte verrichtingen als gevolg van rechtmatige financiële of economische behoeften.[^10] 
 
 ## De terugname van de wederopbouwreserve
-
 De aangelegde wederopbouwreserve wordt evenwel maar behouden op voorwaarde dat de betrokken onderneming een aantal verrichtingen niet stelt. Anders uitgedrukt worden de bedragen die aangelegd werden als wederopbouwreserve, geheel of gedeeltelijk aangemerkt als winst van het belastbare tijdperk indien de onderneming in dat belastbare tijdperk de volgende verrichtingen doorvoert.
 
 Als de vennootschap een inkoop van eigen aandelen verricht, moet de wederopbouwreserve teruggenomen worden ten belope van de waarde of aanschaffingsprijs van de inkoop. Als de vennootschap dividenden uitkeert die fiscaalrechtelijke kwalificeren als dividend[^11] met inbegrip van de uitkering van een liquidatiereserve[^12], moet evenzeer ten belope van het bedrag van het dividend de wederopbouwreserve belastbaar worden gesteld. Hetzelfde geldt bij een kapitaalvermindering[^13], of elke andere vermindering of verdeling van het eigen vermogen, ten belope van het bedrag van de kapitaalvermindering of verdeling.[^14] 
@@ -97,7 +93,6 @@ Met rechtstreekse sociale voordelen worden die voordelen bedoeld die niet vrijge
 Het belastbare bedrag gecumuleerd voor de verschillende belastbare tijdperken, gaat evident slechts maximaal tot het bedrag van de vrijgestelde wederopbouwreserve.[^21] 
 
 ## Voorbeelden
-
 *Voorbeeld 1*[^22] 
 
 Een vennootschap heeft in 2019 (het boekjaar valt samen met het kalenderjaar) een bedrag op de post 620 *Bezoldigingen en rechtstreekse sociale voordelen* geboekt ten bedrage van 100.000 euro. In boekjaar 2021 heeft zij een belastbare gereserveerde winst van het belastbaar tijdperk van 350.000 euro en legt zij een belastingvrije reserve aan ten belope van haar bedrijfsverlies van boekjaar 2020 van 200.000 euro (code 9901) in de jaarrekening met als afsluitdatum 31.12.2021. Het bedrag geboekt op de rekening 620 bedraagt voor datzelfde boekjaar 100.000 euro. De volgende boeking dient te gebeuren.
@@ -122,7 +117,6 @@ In boekjaar 2023 bedraagt de post 620 *Bezoldigingen en rechtstreekse sociale vo
 | aan | 789 | Onttrekkingen aan de belastingvrije reserves | | 10.000 |
 
 ## Voorbeeld 2
-
 Een vennootschap heeft in 2019 (het boekjaar valt samen met het kalenderjaar) een bedrag op de post 620 *Bezoldigingen en rechtstreekse sociale voordelen* geboekt ten bedrage van 100.000 euro. Het bedrijfsverlies van de jaarrekening voor boekjaar 2020 bedraagt 250.000 euro (code 9901). Het totaal van de rekening 620 is voor dat boekjaar 90.000 euro. In boekjaar 2021 bedraagt de belastbare gereserveerde winst van het belastbaar tijdperk vastgesteld vóór de samenstelling van de vrijgestelde wederopbouwreserve 100.000 euro.
 
 | | Rekening | Omschrijving | Debet | Credit |

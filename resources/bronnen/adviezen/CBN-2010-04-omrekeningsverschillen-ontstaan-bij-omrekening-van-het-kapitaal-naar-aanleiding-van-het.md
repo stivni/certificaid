@@ -10,45 +10,45 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/voeren-van-de-boekhouding-en-opstellen-van-de-jaarrekening-in-een-andere-munt-dan-de-euro
 nummer: CBN-advies 2010/4
 provenance:
+  generated_at: '2026-05-11T17:48:38Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/omrekeningsverschillen-ontstaan-bij-omrekening-van-het-kapitaal-naar-aanleiding-van-het
       sha256: 11a931f8df073fd3e894e1f3203b0b4bda80b7d8ed85d68db8f1b8524f54b970
       version:
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
-    status: needs-rework
     confirmed_at: '2026-05-11T17:09:38Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "E2/A6: tabel op r97-105 (balans EUR vs USD) heeft een gebroken rij — r100 eindigt met '| | *1.500' zonder sluitende pipe, en r102 heeft '\\t\\t\\t\\t-300* |' als verdrongen celinhoud op een aparte insprong-regel. ETL tabel-rendering-bug waarbij een cel met een newline-karakter niet correct geparsed werd."
     layer1:
-      file_size_chars: 7531
-      flags: []
+      status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:42Z'
       heading_count: 0
       max_section_chars: 7531
-      run_at: '2026-05-11T15:05:50Z'
-      run_id: 20260511-150547
-      status: pass
+      file_size_chars: 7531
+      flags: []
     layer2:
-      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T17:09:38Z'
-      rationale: "E2/A6: tabel op r97-105 (balans EUR vs USD) heeft een gebroken rij — r100 eindigt met '| | *1.500' zonder sluitende pipe, en r102 heeft '\\t\\t\\t\\t-300* |' als verdrongen celinhoud op een aparte insprong-regel. ETL tabel-rendering-bug waarbij een cel met een newline-karakter niet correct geparsed werd."
       concrete_problemen:
-        - regel: 100
-          categorie: E2
+        - categorie: E2
+          regel: 100
           type: other
           voorbeeld: '| *Kapitaal* | | *1.000* | | *1.500 — cel breekt naar volgende regel zonder sluitende pipe'
-        - regel: 102
-          categorie: A6
+        - categorie: A6
+          regel: 102
           type: other
           voorbeeld: "\t\t\t\t-300* |"
+      rationale: 'E2/A6: tabel op r97-105 (balans EUR vs USD) heeft een gebroken rij — r100 eindigt met ''| | *1.500'' zonder sluitende pipe, en r102 heeft ''\t\t\t\t-300* |'' als verdrongen celinhoud op een aparte insprong-regel. ETL tabel-rendering-bug waarbij een cel met een newline-karakter niet correct geparsed werd.'
+      run_at: '2026-05-11T17:09:38Z'
+      status: needs-rework
+    rationale: 'E2/A6: tabel op r97-105 (balans EUR vs USD) heeft een gebroken rij — r100 eindigt met ''| | *1.500'' zonder sluitende pipe, en r102 heeft ''\t\t\t\t-300* |'' als verdrongen celinhoud op een aparte insprong-regel. ETL tabel-rendering-bug waarbij een cel met een newline-karakter niet correct geparsed werd.'
+    status: needs-rework
 themas:
   - functionele munt
   - functionele valuta

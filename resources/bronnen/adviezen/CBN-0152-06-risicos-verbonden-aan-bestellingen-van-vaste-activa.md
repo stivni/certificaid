@@ -16,41 +16,41 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-een-kapitaalverhoging-als-gevolg-van-de-conversie-in
 nummer: CBN-advies 152/6
 provenance:
+  generated_at: '2026-05-11T17:48:38Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/risicos-verbonden-aan-bestellingen-van-vaste-activa
       sha256: 25fc0b1d69db719c2d234e8a5832b6351e473457cc683784b39671fa707277c7
       version:
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
-    status: needs-rework
     confirmed_at: '2026-05-11T17:05:21Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "Vorig verdict bevestigd. F1 r.60: HTML-entiteit '&#039;' niet gedecodeerd in het themas-veld ('risico&#039;s verbonden aan bestellingen van vaste activa') — ETL-bug. Body volledig en schoon."
     layer1:
-      file_size_chars: 2433
-      flags: []
+      status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:42Z'
       heading_count: 0
       max_section_chars: 2433
-      run_at: '2026-05-11T15:05:49Z'
-      run_id: 20260511-150547
-      status: pass
+      file_size_chars: 2433
+      flags: []
     layer2:
-      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T17:05:21Z'
-      rationale: "Vorig verdict bevestigd. F1 r.60: HTML-entiteit '&#039;' niet gedecodeerd in het themas-veld ('risico&#039;s verbonden aan bestellingen van vaste activa') — ETL-bug. Body volledig en schoon."
       concrete_problemen:
-        - regel: 60
-          categorie: F1
+        - categorie: F1
+          regel: 60
           type: other
           voorbeeld: '- risico&#039;s verbonden aan bestellingen van vaste activa'
+      rationale: 'Vorig verdict bevestigd. F1 r.60: HTML-entiteit ''&#039;'' niet gedecodeerd in het themas-veld (''risico&#039;s verbonden aan bestellingen van vaste activa'') — ETL-bug. Body volledig en schoon.'
+      run_at: '2026-05-11T17:05:21Z'
+      status: needs-rework
+    rationale: 'Vorig verdict bevestigd. F1 r.60: HTML-entiteit ''&#039;'' niet gedecodeerd in het themas-veld (''risico&#039;s verbonden aan bestellingen van vaste activa'') — ETL-bug. Body volledig en schoon.'
+    status: needs-rework
 themas:
   - deviezen
   - risico&#039;s verbonden aan bestellingen van vaste activa

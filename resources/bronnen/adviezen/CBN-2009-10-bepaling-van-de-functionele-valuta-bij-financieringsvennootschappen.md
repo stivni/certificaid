@@ -9,39 +9,31 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
+    pipeline_version: 11f9196
     model:
     prompt_version:
-  generated_at: '2026-05-11T15:15:31Z'
+  generated_at: '2026-05-11T17:48:38Z'
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T17:09:38Z'
+    status: trusted
+    confirmed_at: '2026-05-11T17:51:53Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "A3: r56-57 (na de H1-titel) bevatten een genummerde plain-text inhoudsopgave ('1. Definitie treasury vennootschappen…' / '2. Bepaling van de functionele valuta…') die niet verwijderd werd — TOC-fragment in body terwijl de inhoud als ## headings op r62 en r82 volgt. Overige inhoud correct: 2 headings, 2 voetnoten, geen broken tables."
+    rationale: 'Schone prosatekst, 2 duidelijke ## headings die de bronstructuur correct weerspiegelen. Geen tabellen. Beide voetnoten correct als [^1]/[^2]-definitie. Geen PDF-artefacten van welke categorie dan ook.'
     layer1:
-      file_size_chars: 7309
-      flags: []
-      heading_count: 2
-      max_section_chars: 4440
-      run_at: '2026-05-11T15:05:50Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:42Z'
+      heading_count: 2
+      max_section_chars: 4439
+      file_size_chars: 7159
+      flags: []
     layer2:
-      status: needs-rework
+      status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T17:09:38Z'
-      rationale: "A3: r56-57 (na de H1-titel) bevatten een genummerde plain-text inhoudsopgave ('1. Definitie treasury vennootschappen…' / '2. Bepaling van de functionele valuta…') die niet verwijderd werd — TOC-fragment in body terwijl de inhoud als ## headings op r62 en r82 volgt. Overige inhoud correct: 2 headings, 2 voetnoten, geen broken tables."
-      concrete_problemen:
-        - regel: 56
-          categorie: A3
-          type: other
-          voorbeeld: '1. Definitie treasury vennootschappen of financieringsvennootschappen '
-        - regel: 57
-          categorie: A3
-          type: other
-          voorbeeld: '2. Bepaling van de functionele valuta bij financieringsvennootschappen '
+      run_at: '2026-05-11T17:51:53Z'
+      rationale: 'Schone prosatekst, 2 duidelijke ## headings die de bronstructuur correct weerspiegelen. Geen tabellen. Beide voetnoten correct als [^1]/[^2]-definitie. Geen PDF-artefacten van welke categorie dan ook.'
+      concrete_problemen: []
 themas:
   - financieringsvennootschappen
   - functionele munt
@@ -53,14 +45,10 @@ themas:
 
 # CBN-advies 2009/10 - Bepaling van de functionele valuta bij financieringsvennootschappen
 
-1. Definitie treasury vennootschappen of financieringsvennootschappen 
-2. Bepaling van de functionele valuta bij financieringsvennootschappen 
-
 De Commissie heeft op vraag van de Minister van Economie onderzocht in welke mate advies CBN-advies 117/3 - Voeren van de boekhouding en opstellen van de jaarrekening in een andere munt dan de euro[^1]
 – dient toegepast te worden in hoofde van financieringsvennootschappen.
 
 ## Definitie treasury vennootschappen of financieringsvennootschappen
-
 Binnen de krijtlijnen van dit advies wordt een financieringsvennootschap omschreven als zijnde een vennootschap naar Belgisch recht [of een vaste inrichting van een buitenlandse vennootschap] die als taak heeft om binnen een al dan niet multinationale groep financieringsactiviteiten te organiseren voor de leden van de groep.
 
 De Commissie denkt in hoofdzaak aan volgende activiteiten:
@@ -80,7 +68,6 @@ De balans van dergelijke entiteiten wordt gekenmerkt - zowel op actief als passi
 Dergelijke entiteit zal vaak aan cash-pooling doen wat inhoudt dat de overtollige middelen die in sommige groepsvennootschappen aanwezig zijn aan de financieringsvennootschap worden overgemaakt die deze dan toewijst aan andere groepsleden die financiering nodig hebben. Het zal ook deze vennootschap zijn die indekkingoperaties opzet om de groep te behoeden voor interest- en wisselkoersrisico’s. In voorkomend geval zal de financieringsvennootschap zich inlaten met de organisatie van de beleggingen van de groep.
 
 ## Bepaling van de functionele valuta bij financieringsvennootschappen
-
 Het eerder verschenen CBN-advies 117/3 is onverwijld van toepassing bij de vaststelling van de functionele valuta, ook van financieringsvennootschappen. Doch, omwille van de specifieke karakteristieken van financieringsvennootschappen werd, zoals reeds gesteld, door de Minister van Economie aan de Commissie gevraagd het bestaand advies 117/3 aan te vullen.
 
 Uit de eerder in dit advies opgenomen definitie van een financieringsvennootschap kan worden afgeleid dat de activiteiten van een financieringsvennootschap in belangrijke mate bestaan uit financiële intragroepsverrichtingen. Dergelijke financieringsvennootschappen worden vaak louter voor dit doel door de moederonderneming opgericht, en verrichten vaak uitsluitend activiteiten die de moederonderneming in het tegenovergestelde geval zelf voor haar rekening zou nemen. Ze zijn in alle opzichten zo goed als steeds een “Special Purpose Entity”.

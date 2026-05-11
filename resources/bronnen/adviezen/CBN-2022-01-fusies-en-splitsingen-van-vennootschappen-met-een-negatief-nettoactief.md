@@ -16,45 +16,45 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/winstverdeling-binnen-de-nv
 nummer: CBN-advies 2022/01
 provenance:
+  generated_at: '2026-05-11T17:48:39Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/fusies-en-splitsingen-van-vennootschappen-met-een-negatief-nettoactief
       sha256: 9daea3fd6ca339f48d1fc62283441749091d877578b706b9786d76e6c532cc30
       version:
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T15:15:32Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
-    status: needs-rework
     confirmed_at: '2026-05-11T17:13:31Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "D2: regel 92 kondigt 'wordt deze verhouding via volgende formule berekend:' aan, maar de formule zelf ontbreekt volledig in de body — was een afbeelding in het originele advies. Regel 94 verwijst naar 'Bovenstaande formule' die niet zichtbaar is, waardoor de redenering over ruilverhouding niet te volgen is. De 9 balans-tabellen in markdown-pipe-syntax zijn correct."
     layer1:
-      file_size_chars: 24824
-      flags: []
-      heading_count: 9
-      max_section_chars: 7859
-      run_at: '2026-05-11T15:05:54Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:45Z'
+      heading_count: 9
+      max_section_chars: 7855
+      file_size_chars: 24815
+      flags: []
     layer2:
-      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T17:13:31Z'
-      rationale: "D2: regel 92 kondigt 'wordt deze verhouding via volgende formule berekend:' aan, maar de formule zelf ontbreekt volledig in de body — was een afbeelding in het originele advies. Regel 94 verwijst naar 'Bovenstaande formule' die niet zichtbaar is, waardoor de redenering over ruilverhouding niet te volgen is. De 9 balans-tabellen in markdown-pipe-syntax zijn correct."
       concrete_problemen:
-        - regel: 92
-          categorie: D2
+        - categorie: D2
+          regel: 92
           type: missing-section
           voorbeeld: 'wordt deze verhouding via volgende formule berekend: [formule ontbreekt]'
-        - regel: 94
-          categorie: D2
+        - categorie: D2
+          regel: 94
           type: missing-section
           voorbeeld: Bovenstaande formule geldt als vertrekpunt voor de berekening... [geen formule zichtbaar]
+      rationale: 'D2: regel 92 kondigt ''wordt deze verhouding via volgende formule berekend:'' aan, maar de formule zelf ontbreekt volledig in de body — was een afbeelding in het originele advies. Regel 94 verwijst naar ''Bovenstaande formule'' die niet zichtbaar is, waardoor de redenering over ruilverhouding niet te volgen is. De 9 balans-tabellen in markdown-pipe-syntax zijn correct.'
+      run_at: '2026-05-11T17:13:31Z'
+      status: needs-rework
+    rationale: 'D2: regel 92 kondigt ''wordt deze verhouding via volgende formule berekend:'' aan, maar de formule zelf ontbreekt volledig in de body — was een afbeelding in het originele advies. Regel 94 verwijst naar ''Bovenstaande formule'' die niet zichtbaar is, waardoor de redenering over ruilverhouding niet te volgen is. De 9 balans-tabellen in markdown-pipe-syntax zijn correct.'
+    status: needs-rework
 themas:
   - nettoactief
   - fusie
@@ -74,13 +74,11 @@ themas:
 # CBN-advies 2022/01 – Fusies en splitsingen van vennootschappen met een negatief nettoactief
 
 ## Inleiding
-
 In het kader van de herwerking van haar adviezen betreffende de herstructurering van vennootschappen, behandelt de Commissie in onderhavig advies de fusie en splitsing van vennootschappen met een negatief nettoactief.
 
 In onderhavig advies buigt de Commissie zich eerst over de mogelijkheid om dergelijke verrichtingen uit te voeren. Vervolgens wordt de boekhoudkundige verwerking van deze verrichtingen toegelicht aan de hand van enkele voorbeelden.
 
 ## Probleemstelling en analyse
-
 Net zoals de derde en zesde Europese richtlijn betreffende fusies en splitsingen van naamloze vennootschappen[^2],[^3] waarvan zij de omzetting naar Belgisch recht moest verzekeren, bevat de wet van 29 juni 1993 tot wijziging, wat de fusies en splitsingen van vennootschappen betreft, van de wetten op de handelsvennootschappen, gecoördineerd op 30 november 1935[^4] (hierna: de wet van 29 juni 1993) geen enkele bepaling die vennootschappen met een boekhoudkundig negatief nettoactief verbiedt om deel te nemen aan een fusie of splitsing.
 
 De rechtsleer bleef evenwel verdeeld wat betreft de uitvoerbaarheid van dergelijke verrichtingen wegens het standpunt dat werd ingenomen in de memorie van toelichting bij de wet van 29 juni 1993. Hierin werd opgenomen dat de verrichting waarbij een vennootschap zonder nettoactief door een andere vennootschap werd overgenomen, niet als een fusie kon worden aangemerkt omwille van volgende reden: “*Bij een dergelijke verrichting worden de aandeelhouders of vennoten van de overgenomen vennootschap* […]* geen aandeelhouders of vennoten van de overnemende vennootschap aangezien in dat geval het kapitaal *[of de inbreng]* van de overnemende vennootschap niet wordt verhoogd*”[^5] ,[^6]. Deze redenering was op dezelfde wijze van toepassing op splitsingen[^7], alsook op partiële splitsingen, die later in het Belgisch recht werden geïntroduceerd[^8], aangezien een aandelenruil eveneens een essentieel onderdeel uitmaakte van de definitie van dergelijke verrichting[^9].
@@ -88,7 +86,6 @@ De rechtsleer bleef evenwel verdeeld wat betreft de uitvoerbaarheid van dergelij
 Nadien werd deze problematiek noch in het Wetboek van Vennootschappen, noch in het Wetboek van vennootschappen en verenigingen verder verduidelijkt.
 
 ## Standpunt van de Commissie
-
 De Commissie brengt in herinnering dat het aantal aandelen van de overnemende vennootschap of van de verkrijgende vennootschappen dat wordt uitgegeven naar aanleiding van een fusie of splitsing, in werkelijkheid wordt bepaald door de ruilverhouding tussen, enerzijds, de overgenomen of gesplitste vennootschap en, anderzijds, de overnemende of verkrijgende vennootschap in kwestie. Zoals reeds besproken in CBN-advies 2021/10 – Boekhoudkundige verwerking van fusies tussen vennootschappen[^10] wordt deze verhouding via volgende formule berekend: 
 
 Bovenstaande formule geldt als vertrekpunt voor de berekening van het aantal aandelen van de overnemende (verkrijgende) vennootschap dat moet worden toegekend aan de aandeelhouders van de overgenomen (gesplitste) vennootschap in ruil voor de aandelen die zij aanhielden in deze vennootschap vóór de verrichting plaatsvond:
@@ -113,13 +110,10 @@ Gelet op bovenstaande is de Commissie van oordeel dat het mogelijk moet zijn om 
 Het standpunt van de Commissie is eveneens van toepassing op het geval waarbij de fusie tot gevolg heeft dat het boekhoudkundig nettoactief van de overnemende vennootschap negatief wordt naar aanleiding van de verrichting. De Commissie is van oordeel dat geen enkele Belgische wettelijke bepaling dit soort verrichting verhindert. In dergelijke gevallen zal het bevoegde bestuursorgaan de nodige maatregelen moeten nemen om te voldoen aan haar vennootschapsrechtelijke verplichtingen (bijvoorbeeld het belang van de vennootschap bij dergelijke verrichting toelichten, hulpmiddelen voorstellen in het kader van de alarmbelprocedure).[^18] 
 
 ## Boekhoudkundige verwerking
-
 Daar een herstructureringsverrichting overeenkomstig het WVV kan worden aangemerkt als een fusie of een (partiële) splitsing, moet deze worden verwerkt volgens het continuïteitsbeginsel zoals bedoeld in artikel 3:56, § 1 (fusies) en § 2 (splitsingen) KB WVV. De uitzonderingsbepalingen van artikelen 3:56, § 4 en 3:77 KB WVV kunnen eveneens van toepassing zijn.
 
 ### Toepassing op fusies
-
 ### Voorbeeld 1
-
 Naamloze vennootschap A neemt zich voor naamloze vennootschap B[^19], die een negatief boekhoudkundig eigen vermogen heeft, over te nemen. De deelnemende vennootschappen houden geen aandelen aan van elkaar. Er wordt geen opleg in geld toegekend. Vennootschap B is niet in het bezit van eigen aandelen en de aandelen hebben geen nominale waarde. Er werd niet beslist om de fractiewaarde per aandeel te behouden. De balansen van beide vennootschappen vóór de fusie worden hieronder weergegeven. De bedragen worden uitgedrukt in duizend euro.
 | Balans A | 
 |---|
@@ -162,7 +156,6 @@ De Commissie brengt eveneens in herinnering dat de aangewezen commissaris, bedri
 - de beoogde verrichting is een geruisloze fusie zoals bepaald in artikel 12:7 WVV. 
 
 ### Toepassing op splitsingen en partiële splitsingen
-
 De Commissie is van oordeel dat de bepalingen zoals hierboven uiteengezet wat betreft fusies *mutatis mutandis* van toepassing zijn op splitsingen en partiële splitsingen.
 
 Bij dergelijke verrichtingen rijst evenwel een bijkomende vraag met betrekking tot de verdeling van het eigen vermogen van de (partieel) gesplitste vennootschap onder de verkrijgende vennootschappen. Zoals vermeld in CBN-adviezen 2009/8 - De boekhoudkundige verwerking van splitsingen en 2009/11 - De boekhoudkundige verwerking van partiële splitsingen[^22], moet ervoor gezorgd worden dat bij de overdracht van het boekhoudkundig eigen vermogen, voor zover mogelijk, de regels worden gevolgd inzake de overdracht van fiscaal eigen vermogen[^23]. 
@@ -181,7 +174,6 @@ De Commissie meent dat de verdeling van het boekhoudkundig eigen vermogen van de
 - indien het fiscaal eigen vermogen van de (partieel) gesplitste vennootschap nul of negatief is, het boekhoudkundig eigen vermogen van deze vennootschap wordt verdeeld onder de verkrijgende vennootschappen in verhouding tot de fiscale nettowaarde van de actiefbestanddelen overgedragen door de gesplitste vennootschap aan elk van de verkrijgende vennootschappen. 
 
 ### Voorbeeld 2
-
 Stel dat naamloze vennootschap A (de balans van A wordt hieronder weergegeven) gesplitst wordt in twee bestaande naamloze vennootschappen B en C.[^27]
  Net zoals in voorbeeld 1 worden de bedragen in duizend euro weergegeven. Er wordt verondersteld dat er gelijkwaardigheid is tussen het boekhoudkundig en het fiscaal kapitaal.
 
@@ -233,7 +225,6 @@ De overgedragen vermogens aan B en C worden als volgt weergegeven:
 Overigens moet er worden opgemerkt dat de afstemming van de overdracht van het boekhoudkundig eigen vermogen op de overdracht van het fiscaal eigen vermogen uitsluitend kan plaatsvinden indien de activa en de schulden in dezelfde verhouding worden overgedragen. In de praktijk zal dit echter niet altijd het geval zijn. De schulden worden immers overgedragen op zodanige wijze dat ze in verband worden gebracht met de activa waarop ze betrekking hebben. In dergelijk geval is de Commissie van oordeel dat, wanneer de activa en de schulden niet in dezelfde verhouding worden overgedragen, er aanpassingen nodig zullen zijn in de fiscale aangifte. 
 
 ### Voorbeeld 3
-
 Neem het voorbeeld van een naamloze vennootschap A (de balans van A wordt hieronder opgenomen) die een partiële splitsing doorvoert en daarbij een deel van haar activa overdraagt aan de nieuw opgerichte naamloze vennootschap B.[^29]
  De bedragen worden uitgedrukt in duizend euro. Er wordt verondersteld dat er gelijkwaardigheid bestaat tussen het boekhoudkundig en het fiscaal kapitaal.
 

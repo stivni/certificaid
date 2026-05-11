@@ -13,57 +13,57 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/vervaardigingsprijs-correctie-van-de-nederlandse-tekst-van-artikel-22-van-het-koninklijk
 nummer: CBN-advies 138/5
 provenance:
+  generated_at: '2026-05-11T17:48:38Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/software
       sha256: ebff870067b0ffe7325d9400ce25b349b5144743046d2d6da127a68f34c820c3
       version:
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
-    status: needs-rework
     confirmed_at: '2026-05-11T17:05:21Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: 'Vier ETL-bugs ongewijzigd t.o.v. ronde 2: A7 (regel 112) dubbele frase in heading; B5 (regel 114) subsectie-titel als plain tekst; A6 (regel 171) twee bullets samengesmolten op één regel; D4 (regels 173 en 181) gebroken italics-markers. Structureel en inhoudelijk verder volledig.'
     layer1:
-      file_size_chars: 12718
-      flags: []
-      heading_count: 11
-      max_section_chars: 4536
-      run_at: '2026-05-11T15:05:49Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:41Z'
+      heading_count: 11
+      max_section_chars: 4535
+      file_size_chars: 12705
+      flags: []
     layer2:
-      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T17:05:21Z'
-      rationale: 'Vier ETL-bugs ongewijzigd t.o.v. ronde 2: A7 (regel 112) dubbele frase in heading; B5 (regel 114) subsectie-titel als plain tekst; A6 (regel 171) twee bullets samengesmolten op één regel; D4 (regels 173 en 181) gebroken italics-markers. Structureel en inhoudelijk verder volledig.'
       concrete_problemen:
-        - regel: 112
-          categorie: A7
+        - categorie: A7
+          regel: 112
           type: scrambled-words
           voorbeeld: '## Type-gevallen voor de activering de activering en rubricering van software-uitgaven'
-        - regel: 114
-          categorie: B5
+        - categorie: B5
+          regel: 114
           type: other
           voorbeeld: Bij derden aangekochte, of via gebruiksrecht (tegen éénmalige vergoeding) verkregen toepassingssoftware
-        - regel: 171
-          categorie: A6
+        - categorie: A6
+          regel: 171
           type: other
           voorbeeld: (*coding*); - het onderhoud van het programma en de opleiding van de gebruiker (*maintenance*).
-        - regel: 173
-          categorie: D4
+        - categorie: D4
+          regel: 173
           type: other
           voorbeeld: '*testing *en - in bepaalde gevallen - van* maintenance *'
-        - regel: 181
-          categorie: D4
+        - categorie: D4
+          regel: 181
           type: other
           voorbeeld: via het credit van rekening 72* Geactiveerde interne productie*
+      rationale: 'Vier ETL-bugs ongewijzigd t.o.v. ronde 2: A7 (regel 112) dubbele frase in heading; B5 (regel 114) subsectie-titel als plain tekst; A6 (regel 171) twee bullets samengesmolten op één regel; D4 (regels 173 en 181) gebroken italics-markers. Structureel en inhoudelijk verder volledig.'
+      run_at: '2026-05-11T17:05:21Z'
+      status: needs-rework
+    rationale: 'Vier ETL-bugs ongewijzigd t.o.v. ronde 2: A7 (regel 112) dubbele frase in heading; B5 (regel 114) subsectie-titel als plain tekst; A6 (regel 171) twee bullets samengesmolten op één regel; D4 (regels 173 en 181) gebroken italics-markers. Structureel en inhoudelijk verder volledig.'
+    status: needs-rework
 themas:
   - gereed produkt
   - immateriële vaste activa
@@ -81,7 +81,6 @@ themas:
 # CBN-advies 138/5 - Software
 
 ## Inleiding
-
 De Commissie heeft een grondig onderzoek gewijd aan de boekhoudkundige verwerking van de creatie of de verwerving van software door een onderneming, rekening houdend met de situatie in andere landen en de internationale doctrine terzake.
 
 Met software wordt in dit advies bedoeld de toepassings- of applicatiesoftware. De systeemsoftware en de firmware (d.i. de software die in de hardware - op chips - is gefixeerd) worden samen met de hardware als één geheel beschouwd en derhalve als materieel vast actief geboekt.
@@ -91,7 +90,6 @@ Een uitzondering hierop vormen de ondernemingen die zelf systeemsoftware ontwikk
 Zo de software een bijkomstig karakter zou vertonen in verhouding tot de hardware of deel zou uitmaken van een ander product of een andere methode, dan geldt voor deze software geen afzonderlijke boekhoudkundige behandeling, maar wordt de boekhoudkundige verwerking gevolgd van de hardware of van het product of methode.
 
 ## De activering van software-uitgaven
-
 In verband met de boekhoudkundige verwerking van software zijn fundamenteel volgende vragen aan de orde : 
 
 - zijn de uitgaven die gepaard gaan met de verwerving van software voor activering vatbaar en, 
@@ -110,12 +108,9 @@ Hoewel software is neergelegd in materiële dragers zoals geschriften, grafieken
 Hierna wordt voor de meest voorkomende type-gevallen van softwarecreatie of -verwerving toegelicht welke de toepassingsmodaliteiten voor activering zijn en welke balansrubrieken daartoe het meest zijn aangewezen. 
 
 ## Type-gevallen voor de activering de activering en rubricering van software-uitgaven
-
 Bij derden aangekochte, of via gebruiksrecht (tegen éénmalige vergoeding) verkregen toepassingssoftware
 ### A.1 Toepassingssoftware bestemd voor intern gebruik
-
-### a) *Standaardsoftware* 
-
+### a) *Standaardsoftware*
 Voor activering is vereist dat de software gedurende een aantal boekjaren in de onderneming wordt toegepast en bijdraagt tot het verwezenlijken van het ondernemingsdoel of tot een verbeterde concurrentiepositie (bijv. via kostenbesparing, betere service,...).
 
 Gaat het om standaardsoftware, dan zal in de meeste gevallen de softwareleverancier verkiezen om het auteursrecht te behouden en zal de afnemer een auteursrechtlicentie verkrijgen met betrekking tot de software. Het is dan de vergoeding die betaald wordt voor de verkrijging van dit recht die de aanschaffingswaarde uitmaakt en die geactiveerd zal worden bij de immateriële vaste activa, rubriek concessies, octrooien, licenties, know-how, merken en andere gelijkaardige rechten."
@@ -123,7 +118,6 @@ Gaat het om standaardsoftware, dan zal in de meeste gevallen de softwareleveranc
 De geactiveerde kosten worden, overeenkomstig hun nuttigheids- of gebruiksduur, via afschrijvingen ten laste genomen.
 
 ### b) *Specifieke software*
-
 In dit geval wordt de software ontwikkeld "op maat" van de onderneming. Meestal zal de softwareleverancier zijn auteursrecht op de maatprogrammatuur dan overdragen en verkrijgt de afnemer een intellectueel recht. 
 
 De aanschaffingswaarde bestaat dan uit de aankoopprijs en de bijkomende kosten (dit zijn de kosten met betrekking tot het operationeel maken van het programma). 
@@ -133,7 +127,6 @@ De verwerking in de jaarrekening gebeurt dan zoals hierboven sub a).
 Wanneer de onderneming die de software levert, uitsluitend of in belangrijke mate op de verkrijgende onderneming is afgestemd of ermee verbonden is, is de Commissie van oordeel dat voor het bepalen van de aanschaffingsprijs ook toepassing moet worden gemaakt van de bijzondere voorzorg die vervat ligt in artikel 60, eerste lid van het koninklijk besluit van 30 januari 2001 tot uitvoering van het Wetboek van Vennootschappen (hierna: KB W.Venn.)[^4]. 
 
 ### A.2 Toepassingssoftware bestemd voor commercialisatie
-
 Het gebeurt dat software bij derden wordt aangeschaft om, al dan niet na het doorvoeren van wijzigingen of aanpassingen, verder te worden gecommercialiseerd. 
 
 Verkrijgt de onderneming enkel een verkooprecht van de software en wordt de aangekochte software dus zonder enige aanpassing doorverkocht, dan heeft de software het karakter van een voorraad en wordt hij geboekt onder de rubriek *Handelsgoederen*. 
@@ -143,7 +136,6 @@ Verkrijgt de onderneming echter het aanpassingsrecht van de software en dus het 
 Wordt de verkregen software vermenigvuldigd, dan worden de nog niet verkochte reproducties opgenomen bij de voorraad *Gereed product*. 
 
 ### Door de onderneming zelf ontwikkelde toepassingssoftware
-
 B.1 Toepassingssoftware voor intern gebruik (in beginsel uitsluitend specifieke software)
 Gaat het om intern ontwikkelde software, dan moet bijzondere aandacht worden besteed aan artikel 60 eerste lid KB W.Venn. waarin gesteld wordt dat : "Andere dan van derden verworven immateriële vaste activa worden slechts tegen vervaardigingsprijs op het actief geboekt voor zover die niet hoger is dan een voorzichtige raming van de gebruikswaarde of van het toekomstig rendement voor de onderneming van deze vaste activa."
 
@@ -181,15 +173,12 @@ Indien daarentegen een fundamentele wijziging in het programma wordt aangebracht
 Bij activering worden deze uitgaven opgenomen in de rubriek "concessies, octrooien, licenties, *know-how*, merken en soortgelijke rechten" via het credit van rekening 72* Geactiveerde interne productie*. De aanmaak van software binnen de onderneming is immers een verwerving van* know-how* en wordt derhalve als zodanig geboekt. De geactiveerde uitgaven dienen te worden afgeschreven overeenkomstig het door het bestuursorgaan opgemaakte afschrijvingsplan. 
 
 ### B.2 Software bestemd voor commercialisatie
-
-### a) *Ten behoeve van derden ontwikkelde specifieke software* 
-
+### a) *Ten behoeve van derden ontwikkelde specifieke software*
 Het gaat hier om software die ontwikkeld wordt op contractuele basis en volledig gespecificeerd is op aanwijzingen van de klant. 
 
 Daar er meestal sprake zal zijn van een overdracht van het auteursrecht, zijn hierop de regels met betrekking tot de "bestellingen in uitvoering" van toepassing. 
 
 ### b) *Intern ontwikkelde standaardsoftware*
-
 In dit geval kan verwezen worden naar wat werd gesteld onder A.1. hierboven. 
 
 Evenwel dient hier ook het commerciële aspect van de investering als bijkomend criterium in aanmerking te worden genomen : ook de commerciële haalbaarheid van het product of project moet worden aangetoond. Dit zou kunnen gebeuren door een marktonderzoek waaruit een directe en meetbare opbrengstenstroom kan worden afgeleid. Ook de beschikbaarheid van de financiële middelen voor het op de markt brengen van het betreffende product of project dient te worden aangetoond.

@@ -2,67 +2,62 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/vrijstelling-van-subconsolidatie
 datum: 2012-09-05
 gerelateerde_adviezen:
-- datum: '2022-11-08'
-  titel: 'Belgische bijkantoren van buitenlandse vennootschappen: toepassing van het
-    Belgisch boekhoudrecht - begrip “bijkantoor” – publicatieplicht (update)'
-  url: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-buitenlandse-vennootschappen-toepassing-van-het-belgisch
-- datum: '2022-09-09'
-  titel: Vermogensmutatiemethode
-  url: https://www.cbn-cnc.be/nl/adviezen/vermogensmutatiemethode
-- datum: '2018-05-09'
-  titel: 'Belgische bijkantoren van vennootschappen naar buitenlands recht: toepassing
-    van het Belgisch boekhoudrecht - begrip “bijkantoor” - publicatieplicht'
-  url: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-vennootschappen-naar-buitenlands-recht-toepassing-van-het
-- datum: '2012-07-04'
-  titel: Te verwaarlozen betekenis
-  url: https://www.cbn-cnc.be/nl/adviezen/te-verwaarlozen-betekenis
+  - datum: '2022-11-08'
+    titel: 'Belgische bijkantoren van buitenlandse vennootschappen: toepassing van het Belgisch boekhoudrecht - begrip “bijkantoor” – publicatieplicht (update)'
+    url: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-buitenlandse-vennootschappen-toepassing-van-het-belgisch
+  - datum: '2022-09-09'
+    titel: Vermogensmutatiemethode
+    url: https://www.cbn-cnc.be/nl/adviezen/vermogensmutatiemethode
+  - datum: '2018-05-09'
+    titel: 'Belgische bijkantoren van vennootschappen naar buitenlands recht: toepassing van het Belgisch boekhoudrecht - begrip “bijkantoor” - publicatieplicht'
+    url: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-vennootschappen-naar-buitenlands-recht-toepassing-van-het
+  - datum: '2012-07-04'
+    titel: Te verwaarlozen betekenis
+    url: https://www.cbn-cnc.be/nl/adviezen/te-verwaarlozen-betekenis
 nummer: CBN-advies 2012/12
 provenance:
-  generated_at: '2026-05-11T15:15:31Z'
+  generated_at: '2026-05-11T17:48:39Z'
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/vrijstelling-van-subconsolidatie
-    sha256: 8f168ca3c194d2e303793b92086d96be169004b1e86f6cbc85e979ca9feec293
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/vrijstelling-van-subconsolidatie
+      sha256: 8f168ca3c194d2e303793b92086d96be169004b1e86f6cbc85e979ca9feec293
+      version:
   stale: false
-  stale_reason: null
+  stale_reason:
   tooling:
-    model: null
+    model:
     pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    prompt_version: null
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
     confirmed_at: '2026-05-08T21:31:11Z'
     confirmed_by: human
     layer1:
-      file_size_chars: 4259
-      flags: []
-      heading_count: 3
-      max_section_chars: 1692
-      run_at: '2026-05-11T15:05:50Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:43Z'
+      heading_count: 3
+      max_section_chars: 1691
+      file_size_chars: 4255
+      flags: []
     layer2:
-      agent: null
+      agent:
       concrete_problemen: []
-      rationale: null
-      run_at: null
+      rationale:
+      run_at:
       status: not_run
-    rationale: 'Herscraped na fix select_title(): gecombineerde H1 (COMMISSIE + titel)
-      correct gesplitst. Inhoud ongewijzigd t.o.v. vorig vertrouwd verdict. Laag 1
-      pass (of benign max_section warn).'
+    rationale: 'Herscraped na fix select_title(): gecombineerde H1 (COMMISSIE + titel) correct gesplitst. Inhoud ongewijzigd t.o.v. vorig vertrouwd verdict. Laag 1 pass (of benign max_section warn).'
     status: trusted
 themas:
-- geconsolideerde jaarrekening
-- subconsolidatie
-- vrijstelling
+  - geconsolideerde jaarrekening
+  - subconsolidatie
+  - vrijstelling
 ---
 
 # CBN-advies 2012/12 - Vrijstelling van subconsolidatie
 
-CBN-advies 2012/12 - Vrijstelling van subconsolidatie 
+CBN-advies 2012/12 - Vrijstelling van subconsolidatie
 
 ## Inleiding
-
 Op basis van artikel 113, § 1 van het Wetboek van vennootschappen (hierna: W.Venn.) wordt een vennootschap, voor zover is voldaan aan een aantal voorwaarden[^1], vrijgesteld van de verplichting om een geconsolideerde jaarrekening en een jaarverslag over de geconsolideerde jaarrekening op te stellen indien zij zelf de dochtervennootschap is van een moedervennootschap die een geconsolideerde jaarrekening en een jaarverslag over de geconsolideerde jaarrekening opstelt, laat controleren en openbaar maakt. 
 
 Artikel 114 W.Venn. voegt hier evenwel aan toe dat deze vrijstelling niet van toepassing is wanneer alle of een deel van de aandelen die zijn uitgegeven door één van de vennootschappen die moeten worden geconsolideerd, zijn genoteerd in de zin van artikel 4 W.Venn.[^2] 
@@ -74,11 +69,9 @@ Aan de Commissie voor Boekhoudkundige Normen werd de vraag gesteld wat moet word
 Deze moedervennootschap X is op haar beurt zelf een dochteronderneming van een genoteerde vennootschap Y. De vraag stelt zich of de moedervennootschap X in dat geval de vrijstelling van subconsolidatie kan inroepen. Behoort m.a.w. de vennootschap Y onder “één van de vennootschappen die moeten worden geconsolideerd”?
 
 ## Analyse van de betrokken artikelen van het W.Venn.
-
 Uit de samenlezing van de artikelen 113, § 1 en 114 W.Venn. begrijpt de Commissie dat met “één van de vennootschappen die moeten worden geconsolideerd” wordt verwezen naar de vennootschap die zich op de vrijstelling wenst te beroepen alsook haar dochterondernemingen. Er wordt m.a.w. niet verwezen naar de moedervennootschap die hogerop de bevrijdende geconsolideerde jaarrekening en jaarverslag over de geconsolideerde jaarrekening opstelt. Dit betekent dat in het geciteerde voorbeeld moedervennootschap X vrijgesteld is van subconsolidatie, tenzij zijzelf of een van haar dochterondernemingen zou zijn genoteerd. De notering van de vennootschap Y wijzigt hier niets aan.
 
 ## Analyse van de Zevende richtlijn
-
 De Commissie merkt bovendien op dat het W.Venn. hier afwijkt van de betrokken bepalingen uit de Zevende richtlijn[^4]. Artikel 7 die de vrijstelling van subconsolidatie regelt stelt in lid 1: “[...] verlenen de Lid-Staten vrijstelling van de in artikel 1, lid 1, bedoelde verplichting, aan een onder hun recht vallende moederonderneming die tevens dochteronderneming is, indien [...]”. Lid 3 voegt hieraan toe: “Dit artikel is niet van toepassing op vennootschappen waarvan de effecten in een lidstaat zijn toegelaten tot de handel op een gereglementeerde markt in de zin van artikel 1, punt 13, van Richtlijn 93/22/EEG.” 
 
 Hieruit kan worden besloten dat het volgens de Zevende richtlijn enkel de moedervennootschap die zich op de vrijstelling wil beroepen is, die niet genoteerd mag zijn en dus niet haar dochterondernemingen. 

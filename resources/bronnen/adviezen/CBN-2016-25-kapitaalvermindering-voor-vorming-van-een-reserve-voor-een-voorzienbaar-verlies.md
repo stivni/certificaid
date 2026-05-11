@@ -3,41 +3,41 @@ bron: https://www.cbn-cnc.be/nl/adviezen/kapitaalvermindering-voor-vorming-van-e
 datum: 2016-11-16
 nummer: CBN-advies 2016/25
 provenance:
+  generated_at: '2026-05-11T17:48:39Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/kapitaalvermindering-voor-vorming-van-een-reserve-voor-een-voorzienbaar-verlies
       sha256: a323708d78caf2ee9141cb9671a5de95cd86d4b34ceb78162f913b715816dbc4
       version:
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
-    status: needs-rework
     confirmed_at: '2026-05-11T17:13:30Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "D4: regel 63 (body) bevat '*Reserve voor voorzienbaar verlies[^5]*  om na te gaan' — dubbele spatie na de sluitende asterisk is een broken italic-markering, consistent ETL-artefact uit dezelfde pipeline. Overige structuur (9 headings hiërarchisch correct, 3 boekingstabellen in pipe-syntax, voetnoten volledig) is intact."
     layer1:
-      file_size_chars: 8516
-      flags: []
-      heading_count: 9
-      max_section_chars: 3182
-      run_at: '2026-05-11T15:05:52Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:44Z'
+      heading_count: 9
+      max_section_chars: 3181
+      file_size_chars: 8503
+      flags: []
     layer2:
-      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T17:13:30Z'
-      rationale: "D4: regel 63 (body) bevat '*Reserve voor voorzienbaar verlies[^5]*  om na te gaan' — dubbele spatie na de sluitende asterisk is een broken italic-markering, consistent ETL-artefact uit dezelfde pipeline. Overige structuur (9 headings hiërarchisch correct, 3 boekingstabellen in pipe-syntax, voetnoten volledig) is intact."
       concrete_problemen:
-        - regel: 63
-          categorie: D4
+        - categorie: D4
+          regel: 63
           type: other
           voorbeeld: '*Reserve voor voorzienbaar verlies[^5]*  om na te gaan of de wettelijke voorwaarden'
+      rationale: 'D4: regel 63 (body) bevat ''*Reserve voor voorzienbaar verlies[^5]*  om na te gaan'' — dubbele spatie na de sluitende asterisk is een broken italic-markering, consistent ETL-artefact uit dezelfde pipeline. Overige structuur (9 headings hiërarchisch correct, 3 boekingstabellen in pipe-syntax, voetnoten volledig) is intact.'
+      run_at: '2026-05-11T17:13:30Z'
+      status: needs-rework
+    rationale: 'D4: regel 63 (body) bevat ''*Reserve voor voorzienbaar verlies[^5]*  om na te gaan'' — dubbele spatie na de sluitende asterisk is een broken italic-markering, consistent ETL-artefact uit dezelfde pipeline. Overige structuur (9 headings hiërarchisch correct, 3 boekingstabellen in pipe-syntax, voetnoten volledig) is intact.'
+    status: needs-rework
 themas:
   - voorzienbaar verlies
   - kapitaalvermindering
@@ -47,15 +47,12 @@ themas:
 # CBN-advies 2016/25 – Kapitaalvermindering voor vorming van een reserve voor een voorzienbaar verlies
 
 ## Inleiding
-
 In onderhavig advies wordt de boekhoudkundige verwerking naar Belgisch boekhoudrecht behandeld van een kapitaalvermindering voor de vorming van een reserve om een voorzienbaar verlies te dekken.
 
 In dit advies worden uitsluitend de Belgische boekhoudkundige aspecten onderzocht en niet de specifieke overwegingen in het kader van het vennootschapsrecht of het fiscaal recht.
 
 ## Analyse
-
 ### Wettelijk en reglementair kader
-
 Het Wetboek van vennootschappen (hierna: W.Venn.) regelt de vorming van een reserve om een voorzienbaar verlies te dekken voor bepaalde vormen van handelsvennootschappen.[^2] 
 
 Het betreft een onbeschikbare reserve[^3], die niet mag worden uitgekeerd aan de aandeelhouders en die slechts mag worden aangewend om geleden verliezen aan te zuiveren of om het kapitaal te verhogen door omzetting van reserves.[^4] 
@@ -65,9 +62,7 @@ De Commissie beveelt aan om deze reserve op te nemen onder een subrekening van d
 Voor het bedrag van deze reserve gelden twee beperkingen: het bedrag van de reserve mag niet hoger zijn dan 10 % van het geplaatst kapitaal *na* kapitaalvermindering *én* de reserve moet worden gevormd binnen de grenzen van het minimale kapitaal naargelang de rechtsvorm van de betrokken vennootschap.[^6] 
 
 ### Boekhoudkundige principes
-
 #### Kapitaalvermindering door aanzuivering van het overgedragen verlies: principes
-
 De voornaamste boekhoudkundige principes die van toepassing zijn op een kapitaalvermindering ter aanzuivering van het *overgedragen* verlies werden reeds behandeld in CBN-advies 121/3 - Mutaties binnen het eigen vermogen.[^7] 
 
 In dit advies heeft de Commissie gesteld om de interne mutaties binnen het eigen vermogen die het totaalbedrag van het eigen vermogen niet beïnvloeden, over het algemeen rechtstreeks van de ene betrokken post naar de andere over te boeken in plaats van deze verrichtingen te boeken via de overeenstemmende 69- en 79-rekeningen van de minimumindeling van het algemeen rekeningenstelsel met betrekking tot de overeenstemmende rekeningen van de resultaatverwerking.
@@ -78,15 +73,12 @@ De Commissie heeft in het voormelde advies echter verduidelijkt dat het gebruik 
 - de onttrekking aan de eigen-vermogensbestanddelen die zijn bestemd voor uitkering of voor de totale of gedeeltelijke (boekhoudkundige) aanzuivering van de verliezen. 
 
 #### Toepassing in geval van vorming en aanwending van een reserve voor het voorzienbaar verlies van het boekjaar
-
 ##### Bepaling van het waarschijnlijke verlies van het boekjaar
-
 Zoals vermeld in de inleiding van onderhavig advies dient rekening te worden gehouden met de verschillende beperkingen die worden bepaald door het W.Venn. met betrekking tot de vorming van een reserve voor een voorzienbaar verlies.
 
 Eerst en vooral moet het voorzienbaar verlies dat de vennootschap wil dekken, worden bepaald. Hiervoor dienen in principe een voldoende gedetailleerde tussentijdse en te verwachten boekhoudkundige toestand te worden opgesteld.
 
-##### Beperking tot 10 % van het geplaatst kapitaal na kapitaalvermindering (binnen de grenzen van het minimumkapitaal)[^8]
-
+##### Beperking tot 10 % van het geplaatst kapitaal na kapitaalvermindering (binnen de grenzen van het minimumkapitaal)
 De reserve moet ook, in voorkomend geval, worden beperkt tot 10 % van het geplaatst kapitaal *na kapitaalvermindering*.
 
 Aan de hand van de volgende formules kan het maximale bedrag worden berekend dat als reserve mag worden gevormd om een voorzienbaar verlies te dekken (bovendien moet dit bedrag binnen de grenzen blijven van het minimumkapitaal na afloop van de verrichting).[^9] 
@@ -115,7 +107,6 @@ Een vennootschap (NV) met 500.000 EUR kapitaal en 250.000 EUR overgedragen verli
 | | 1311X | Onbeschikbare reserve voor voorzienbaar verlies | 20.000 | |
 
 ##### Opvolging van de reserve voor voorzienbaar verlies
-
 De reserve voor voorzienbare verliezen kan enkel worden gebruikt om verliezen te compenseren of om het kapitaal terug te verhogen door omzetting van reserves in kapitaal wanneer blijkt dat de verliezen zich toch niet voordoen of minder omvangrijk blijken dan verwacht.[^11] 
 
 De toewijzing van het werkelijke verlies aan de onbeschikbare reserve die hiervoor eerder werd gevormd, zal gebeuren via de resultaatverwerking.

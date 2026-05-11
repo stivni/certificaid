@@ -3,41 +3,41 @@ bron: https://www.cbn-cnc.be/nl/adviezen/wijziging-van-de-waarderingsregels-als-
 datum: 1988-12-01
 nummer: CBN-advies 154/1
 provenance:
+  generated_at: '2026-05-11T17:48:38Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/wijziging-van-de-waarderingsregels-als-gevolg-van-gewijzigde-wetgeving
       sha256: 7bd0173f9f8968a11d49e1fa3149526bff05b641bfc658cc599a320df4fda6b1
       version:
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
-    status: needs-rework
     confirmed_at: '2026-05-11T17:05:21Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "Vorig verdict bevestigd. B3 r.52: paginatitel 'CBN-advies 154/1 - Wijziging van de waarderingsregels als gevolg van gewijzigde wetgeving-Informatieverstrekking' herhaald als plain-text alinea direct na de identieke H1-heading op r.50 — klassiek HTML-scrape-artefact (duplicate page-title). Inhoud verder volledig; drie voetnoten correct verbonden."
     layer1:
-      file_size_chars: 4639
-      flags: []
+      status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:42Z'
       heading_count: 0
       max_section_chars: 4639
-      run_at: '2026-05-11T15:05:49Z'
-      run_id: 20260511-150547
-      status: pass
+      file_size_chars: 4639
+      flags: []
     layer2:
-      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T17:05:21Z'
-      rationale: "Vorig verdict bevestigd. B3 r.52: paginatitel 'CBN-advies 154/1 - Wijziging van de waarderingsregels als gevolg van gewijzigde wetgeving-Informatieverstrekking' herhaald als plain-text alinea direct na de identieke H1-heading op r.50 — klassiek HTML-scrape-artefact (duplicate page-title). Inhoud verder volledig; drie voetnoten correct verbonden."
       concrete_problemen:
-        - regel: 52
-          categorie: B3
+        - categorie: B3
+          regel: 52
           type: other
           voorbeeld: CBN-advies 154/1 - Wijziging van de waarderingsregels als gevolg van gewijzigde wetgeving-Informatieverstrekking
+      rationale: 'Vorig verdict bevestigd. B3 r.52: paginatitel ''CBN-advies 154/1 - Wijziging van de waarderingsregels als gevolg van gewijzigde wetgeving-Informatieverstrekking'' herhaald als plain-text alinea direct na de identieke H1-heading op r.50 — klassiek HTML-scrape-artefact (duplicate page-title). Inhoud verder volledig; drie voetnoten correct verbonden.'
+      run_at: '2026-05-11T17:05:21Z'
+      status: needs-rework
+    rationale: 'Vorig verdict bevestigd. B3 r.52: paginatitel ''CBN-advies 154/1 - Wijziging van de waarderingsregels als gevolg van gewijzigde wetgeving-Informatieverstrekking'' herhaald als plain-text alinea direct na de identieke H1-heading op r.50 — klassiek HTML-scrape-artefact (duplicate page-title). Inhoud verder volledig; drie voetnoten correct verbonden.'
+    status: needs-rework
 themas:
   - bestendigheid
   - bestendigheidsplicht

@@ -16,41 +16,41 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-afrondingen-bij-conversie
 nummer: CBN-advies 2020/02
 provenance:
+  generated_at: '2026-05-11T17:48:39Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/afronding-van-betalingen-in-euro-0
       sha256: a2ed168cbce2a03f05d3b93a39aa870ad77ec4cd1bed60eb13e2f785ce36c0ce
       version:
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T15:15:32Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
-    status: needs-rework
     confirmed_at: '2026-05-11T17:13:30Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: 'D4: regel 111 bevat twee keer malformed italic `rekening 700* Verkopen en dienstprestaties*` (spatie ontbreekt na opening-asterisk). Patroon herhaalt zich twee keer op dezelfde regel. Rest van het document is inhoudelijk volledig en correct opgemaakt.'
     layer1:
-      file_size_chars: 11763
-      flags: []
-      heading_count: 10
-      max_section_chars: 5095
-      run_at: '2026-05-11T15:05:53Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:44Z'
+      heading_count: 10
+      max_section_chars: 5094
+      file_size_chars: 11743
+      flags: []
     layer2:
-      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T17:13:30Z'
-      rationale: 'D4: regel 111 bevat twee keer malformed italic `rekening 700* Verkopen en dienstprestaties*` (spatie ontbreekt na opening-asterisk). Patroon herhaalt zich twee keer op dezelfde regel. Rest van het document is inhoudelijk volledig en correct opgemaakt.'
       concrete_problemen:
-        - regel: 111
-          categorie: D4
+        - categorie: D4
+          regel: 111
           type: other
           voorbeeld: geboekt op het debet van rekening 700* Verkopen en dienstprestaties*. Indien dit verschil echter positief is, wordt het verschil geboekt op het credit van rekening 700* Verkopen en dienstprestaties*.
+      rationale: 'D4: regel 111 bevat twee keer malformed italic `rekening 700* Verkopen en dienstprestaties*` (spatie ontbreekt na opening-asterisk). Patroon herhaalt zich twee keer op dezelfde regel. Rest van het document is inhoudelijk volledig en correct opgemaakt.'
+      run_at: '2026-05-11T17:13:30Z'
+      status: needs-rework
+    rationale: 'D4: regel 111 bevat twee keer malformed italic `rekening 700* Verkopen en dienstprestaties*` (spatie ontbreekt na opening-asterisk). Patroon herhaalt zich twee keer op dezelfde regel. Rest van het document is inhoudelijk volledig en correct opgemaakt.'
+    status: needs-rework
 themas:
   - afronding
   - betaling
@@ -60,7 +60,6 @@ themas:
 # CBN-advies 2020/02 – Afronding van betalingen in euro
 
 ## Inleiding
-
 Sedert 1 oktober 2014 biedt het Wetboek van economisch recht aan ondernemers de mogelijkheid om voor consumenten die het te betalen totaalbedrag in speciën betalen, vrijwillig een regeling in te voeren waarmee betalingen worden afgerond naar een bedrag dat een veelvoud is van vijf eurocent[^2]. Dit systeem werd echter tot tweemaal toe gewijzigd, namelijk door de wet van 18 december 2015[^3] en door die van 2 mei 2019[^4].
 
 Ingevolge voornoemde wet van 18 december 2015[^5] werd het onderscheid tussen betalingen in speciën en andere betalingen dan in speciën afgeschaft.[^6]
@@ -72,18 +71,14 @@ De wet van 2 mei 2019, die op 1 december 2019 in werking trad, bepaalt dat de vo
 Het bedrag dat wordt afgerond is altijd het te betalen totaalbedrag en niet de samenstellende bestanddelen van dit bedrag[^12].
 
 ### Afronding van het te betalen bedrag tot 30 november 2019
-
 Ingevolge de inwerkingtreding op 8 januari 2016 van de wet van 18 december 2015, kan elk bedrag worden afgerond, ongeacht het betaalmiddel dat werd gebruikt. De afronding gebeurt op het te betalen totaalbedrag.
 
 ### Voorbeeld 1
-
 Een klant koopt vier artikelen. Deze artikelen kosten respectievelijk 3,98 euro, 2,98 euro, 3,98 euro en 10,98 euro. Het totaalbedrag bedraagt 21,92 euro. Indien de onderneming de afrondingsregeling toepast, zal het totaalbedrag van de aankoop 21,90 euro bedragen, ongeacht het betaalmiddel.
 ### Afronding van het te betalen bedrag vanaf 1 december 2019
-
 Vanaf 1 december 2019 is elke onderneming verplicht de afrondingsregeling toe te passen op betalingen in speciën.
 
 ### *Voorbeeld 2*: Betaling in speciën
-
 Een klant koopt vier artikelen en betaalt in speciën. Deze artikelen kosten respectievelijk 4,27 euro, 3,06 euro, 10,56 euro en 2,67 euro. Het totaalbedrag bedraagt 20,56 euro. De onderneming moet het bedrag verplicht afronden. Het totaalbedrag na afronding bedraagt 20,55 euro.
 Indien de klant opteert voor een andere betaling dan in speciën, kiest de onderneming zelf of ze de afrondingsregeling wel of niet toepast.
 
@@ -94,24 +89,19 @@ De ondernemingen die er voor kiezen de afrondingsregeling ook toe te passen op a
 De afrondingsregels gelden eveneens voor de onderneming bij de terugbetalingen aan de consumenten. Hierbij vallen twee situaties te onderscheiden. Ten eerste wordt de afrondingsregeling verplicht toegepast bij terugbetalingen op totaalbedragen betaald in speciën. En ten tweede wordt de afrondingsregeling toegepast bij de terugbetalingen op totaalbedragen die anders dan in speciën betaald zijn, indien de onderneming ervoor kiest de totaalbedragen van andere betalingen dan in speciën afrondt[^14].
 
 ## Boekhoudkundige verwerking
-
 Een onderneming zal in de praktijk te maken krijgen met kleine verschillen tussen de loutere som van de aangerekende prijs van de geleverde goederen en de verrichte prestaties en het totaalbedrag van de te betalen prijs. Dit verschil vloeit voort uit de afrondingsregel en kan zowel positief als negatief zijn. De onderneming vermeldt uitdrukkelijk de toegepaste afrondingsregel op elk document waarop het te betalen totaalbedrag vermeld staat.[^15] 
 
 De Commissie is van mening dat het totale verschil tussen het totaalbedrag van de te betalen prijs en de som van de prijzen van de individuele prestaties, slechts een marginaal bedrag is ten opzichte van de totale omzet. Bovendien zal, gelet op het symmetrisch karakter van de afronding, een compensatie plaatsvinden tussen de positieve en de negatieve afrondingsverschillen. Volgens de Commissie zijn er twee methoden om de boekhouding te voeren: de ene is toepasbaar op ondernemingen die een vereenvoudigde boekhouding voeren, de andere op ondernemingen die een dubbele boekhouding voeren.
 
-### Eerste methode[^16]
-
+### Eerste methode
 Het bedrag dat de onderneming die een vereenvoudigde boekhouding voert, inschrijft in het verkoopdagboek is het bedrag dat de consument heeft betaald. De samenstellende bestanddelen die zijn vermeld op het uitgereikte document worden niet verder uitgesplitst in het verkoopdagboek. Indien er een afronding heeft plaatsgevonden zoals hiervoor wordt beschreven, zal de onderneming dit afrondingsverschil niet afzonderlijk boeken.
 
 ### *Voorbeeld 4*: Betaling in speciën
-
 Een klant koopt twee artikelen. Het eerste artikel kost 10,04[^17] euro. De prijs van het tweede artikel bedraagt 12,03[^18] euro. Het te betalen bedrag na afronding bedraagt 22,05 euro. De onderneming schrijft in het verkoopdagboek een opbrengst in van 22,05 euro.
-### Tweede methode[^19]
-
+### Tweede methode
 Voor de ondernemingen die een dubbele boekhouding voeren, splitst het boekhoudregistratiesysteem de verschillende bestanddelen die zijn vermeld op het uitgereikte document. Het eventuele verschil tussen de som van de samenstellende bestanddelen en het totaalbedrag dat het gevolg is van het afrondingsverschil wordt geboekt op rekening 700 *Verkopen en dienstprestaties*. Indien dit afrondingsverschil negatief is, wordt dit verschil geboekt op het debet van rekening 700* Verkopen en dienstprestaties*. Indien dit verschil echter positief is, wordt het verschil geboekt op het credit van rekening 700* Verkopen en dienstprestaties*.
 
 ### *Voorbeeld 5*: Betaling in speciën
-
 Een klant koopt twee artikelen in een warenhuis. Het eerste artikel kost 9,47 euro waarop een btw-tarief van 6% wordt geheven. De prijs van het tweede artikel bedraagt 9,94 euro waarop 21 % btw wordt geheven. Het te betalen bedrag (na afronding) bedraagt 22,05 euro.
 Ondernemingen die deze methode hanteren, dienen deze verrichting als volgt te boeken:
 

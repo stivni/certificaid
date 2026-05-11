@@ -2,68 +2,58 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/financiele-vaste-activa-waardering-aanschaffingswaarde-met-prijstoeslag
 datum: 1989-09-01
 gerelateerde_adviezen:
-- datum: '2021-03-15'
-  titel: Aanschaffingswaarde bij de aankoop van een goed tegen betaling van een vaste
-    prijs, verschuldigd over een periode van meer dan één jaar
-  url: https://www.cbn-cnc.be/nl/adviezen/aanschaffingswaarde-bij-de-aankoop-van-een-goed-tegen-betaling-van-een-vaste-prijs-0
-- datum: '2019-03-12'
-  titel: Dividenduitkering en kapitaalvermindering in natura
-  url: https://www.cbn-cnc.be/nl/adviezen/dividenduitkering-en-kapitaalvermindering-in-natura-0
-- datum: '2017-05-31'
-  titel: Boekhoudkundige verwerking van de vergoeding voor een borg in het kader van
-    de financiering van een voor verkoop bestemd onroerend goed
-  url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-vergoeding-voor-een-borg-in-het-kader-van-de
-- datum: '2013-05-08'
-  titel: De boekhoudkundige verwerking van een herziening van de btw op een aangekocht
-    bedrijfsmiddel
-  url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-een-herziening-van-de-btw-op-een-aangekocht
+  - datum: '2021-03-15'
+    titel: Aanschaffingswaarde bij de aankoop van een goed tegen betaling van een vaste prijs, verschuldigd over een periode van meer dan één jaar
+    url: https://www.cbn-cnc.be/nl/adviezen/aanschaffingswaarde-bij-de-aankoop-van-een-goed-tegen-betaling-van-een-vaste-prijs-0
+  - datum: '2019-03-12'
+    titel: Dividenduitkering en kapitaalvermindering in natura
+    url: https://www.cbn-cnc.be/nl/adviezen/dividenduitkering-en-kapitaalvermindering-in-natura-0
+  - datum: '2017-05-31'
+    titel: Boekhoudkundige verwerking van de vergoeding voor een borg in het kader van de financiering van een voor verkoop bestemd onroerend goed
+    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-vergoeding-voor-een-borg-in-het-kader-van-de
+  - datum: '2013-05-08'
+    titel: De boekhoudkundige verwerking van een herziening van de btw op een aangekocht bedrijfsmiddel
+    url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-een-herziening-van-de-btw-op-een-aangekocht
 nummer: CBN-advies 126/8
 provenance:
-  generated_at: '2026-05-11T15:15:31Z'
+  generated_at: '2026-05-11T17:48:38Z'
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/financiele-vaste-activa-waardering-aanschaffingswaarde-met-prijstoeslag
-    sha256: 4b57bfa3765f48385641a5aefa9eb18e738cb29aedb726a08575ea39621299ee
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/financiele-vaste-activa-waardering-aanschaffingswaarde-met-prijstoeslag
+      sha256: 4b57bfa3765f48385641a5aefa9eb18e738cb29aedb726a08575ea39621299ee
+      version:
   stale: false
-  stale_reason: null
+  stale_reason:
   tooling:
-    model: null
+    model:
     pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    prompt_version: null
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
     confirmed_at: '2026-05-11T11:57:45Z'
     confirmed_by: subagent-sonnet-4-6
     layer1:
-      file_size_chars: 6923
-      flags: []
-      heading_count: 2
-      max_section_chars: 3013
-      run_at: '2026-05-11T15:05:48Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:41Z'
+      heading_count: 2
+      max_section_chars: 3012
+      file_size_chars: 6921
+      flags: []
     layer2:
       agent: subagent-sonnet-4-6
       concrete_problemen: []
-      rationale: 'All-caps section headings op regels 76 en 84 zijn de originele stijl
-        van het CBN-advies (Belgische wettekst-conventie) en staan correct als ##
-        heading — dit is geen ETL-bug maar de bronstijl. Footnotes correct als [^1]/[^2]/[^3]
-        markdown. Inhoud volledig, geen HTML-entities, geen ongewone unicode, geen
-        extractie-artefacten.'
+      rationale: 'All-caps section headings op regels 76 en 84 zijn de originele stijl van het CBN-advies (Belgische wettekst-conventie) en staan correct als ## heading — dit is geen ETL-bug maar de bronstijl. Footnotes correct als [^1]/[^2]/[^3] markdown. Inhoud volledig, geen HTML-entities, geen ongewone unicode, geen extractie-artefacten.'
       run_at: '2026-05-11T11:57:45Z'
       status: trusted
-    rationale: 'All-caps section headings op regels 76 en 84 zijn de originele stijl
-      van het CBN-advies (Belgische wettekst-conventie) en staan correct als ## heading
-      — dit is geen ETL-bug maar de bronstijl. Footnotes correct als [^1]/[^2]/[^3]
-      markdown. Inhoud volledig, geen HTML-entities, geen ongewone unicode, geen extractie-artefacten.'
+    rationale: 'All-caps section headings op regels 76 en 84 zijn de originele stijl van het CBN-advies (Belgische wettekst-conventie) en staan correct als ## heading — dit is geen ETL-bug maar de bronstijl. Footnotes correct als [^1]/[^2]/[^3] markdown. Inhoud volledig, geen HTML-entities, geen ongewone unicode, geen extractie-artefacten.'
     status: trusted
 themas:
-- aanschaffingswaarde
-- aanschaffingswaarde met prijstoeslag
-- financiële vaste activa
-- goodwill
-- prijstoeslag
-- waardering
+  - aanschaffingswaarde
+  - aanschaffingswaarde met prijstoeslag
+  - financiële vaste activa
+  - goodwill
+  - prijstoeslag
+  - waardering
 ---
 
 # CBN-advies 126/8 - Financiële vaste activa - Waardering - Aanschaffingswaarde met prijstoeslag
@@ -84,7 +74,6 @@ Het begrip «prijstoeslag» impliceert het bestaan van een andere waarde ten opz
 In dit verband weze onderstreept dat het koninklijk besluit van 8 oktober 1976 niet aanvaardt. De regel eist dat activa in de jaarrekening worden geboekt tegen hun aanschaffingswaarde. Deze wordt omschreven als de tussen partijen overeengekomen prijs of de effectief gemaakte kosten voor de verwerving van deze actiefbestanddelen. Deze overeengekomen prijs of gemaakte kosten maken integraal deel uit van de aanschaffingswaarde, welke grondslagen ook werden gehanteerd om die vast te stellen.
 
 ## OVER DE KWALIFICATIE VAN DERGELIJKE PRIJSTOESLAG ALS EEN OP GESPREIDE WIJZE AFTREKBARE GOODWILL
-
 Benevens de regel waarnaar hierboven is verwezen en op grond waarvan activa moeten worden gewaardeerd tegen aanschaffingswaarde, moet er ook worden op gewezen dat deze «prijstoeslag» niet onder het begrip goodwill valt, zoals gedefinieerd in het koninklijk besluit van 8 oktober 1976. Volgens die omschrijving is er sprake van goodwill, wanneer voor de verwerving van een onderneming of van een activiteitsbranche, de betaalde prijs hoger is dan de netto-waarde van de aanwezige actief- minus passiefbestanddelen. In casu slaat de aanschaffing niet op een geheel van activa en passiva, maar op een deelneming. 
 
 Weliswaar wordt op het vlak van de geconsolideerde jaarrekening het surplus van de boekwaarde van de deelneming in verhouding tot de waarde van de activa en passiva van de geconsolideerde vennootschap waarmee deze deelneming overeenstemt - inzover dit surplus niet kan worden toegerekend aan welbepaalde activa of passiva - beschouwd als een consolidatieverschil dat op grond van de zevende EEG-richtlijn op dezelfde manier moet worden verwerkt als goodwill. Dit consolidatieverschil is echter het gevolg van het feit dat welbepaalde activa en passiva in de plaats komen van een deelneming die dan ook verdwijnt, wat in de niet-geconsolideerde jaarrekening niet het geval is. 
@@ -92,7 +81,6 @@ Weliswaar wordt op het vlak van de geconsolideerde jaarrekening het surplus van 
 Overigens zou eenzelfde werkwijze kunnen worden gevolgd bij toepassing van de vermogensmutatiemethode, wanneer de aanvankelijke boekwaarde van de deelneming wordt aangepast op grond van de waarde van het vermogen van de vennootschap waarin de deelneming wordt gehouden. Er zij evenwel op gewezen dat de vermogensmutatiemethode in België momenteel niet mag worden gebruikt in de niet-geconsolideerde jaarrekening.
 
 ## OVER DE ONMIDDELLIJKE TENLASTENEMING VAN DE PRIJSTOESLAG
-
 De Commissie is van oordeel dat onmiddellijke tenlasteneming van de prijstoeslag niet toelaatbaar is, zomin via rechtstreekse boeking op een kostenrekening als door boeking van een waardevermindering, hetzij onmiddellijk, hetzij aan het einde van het boekjaar. 
 
 In economisch rationeel opzicht is er van betaling van een prijstoeslag slechts sprake als de betrokken deelneming voor de onderneming die ze heeft verworven, een bijzondere waarde vertegenwoordigt die hoger ligt dan de waarde van de deelneming louter gemeten naar haar intrinsieke waardebestanddelen. Over het algemeen ligt de reden voor deze hogere waarde in het feit dat dank zij die deelneming of extra-deelneming, zeggenschap in de organen van de vennootschap dan wel een significante invloed hierin wordt verworven. De reden kan ook liggen in de positieve synergie die de onderneming, inzonderheid voor zichzelf, kan tot stand brengen met de verwerving van deze deelneming. 

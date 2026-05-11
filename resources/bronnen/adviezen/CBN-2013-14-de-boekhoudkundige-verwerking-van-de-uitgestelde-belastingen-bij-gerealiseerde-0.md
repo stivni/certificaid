@@ -16,51 +16,50 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/herwaarderingen-verricht-met-toepassing-van-de-wet-van-20-augustus-1947
 nummer: CBN-advies 2013/14 NT
 provenance:
+  generated_at: '2026-05-11T17:48:39Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-uitgestelde-belastingen-bij-gerealiseerde-0
       sha256: cece8804e52dd038152c883b88548a1e1db6bfaf5a6e420cc76d109c6bd23d88
       version:
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
-    status: needs-rework
     confirmed_at: '2026-05-11T17:09:38Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "B1/D1: de H1-titel op regel 60 luidt enkel '# Technische nota bij' zonder verdere tekst — een afgekapte titel die niet aangeeft bij welk advies de nota hoort. Een mens zou '# Technische nota bij CBN-advies 2013/14 – ...' schrijven. Dit is een ETL-artefact waarbij de titeltekst na de eerste twee woorden niet werd overgenomen."
     layer1:
-      file_size_chars: 20154
-      flags: []
-      heading_count: 14
-      max_section_chars: 5282
-      run_at: '2026-05-11T15:05:51Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:43Z'
+      heading_count: 14
+      max_section_chars: 5281
+      file_size_chars: 20305
+      flags: []
     layer2:
-      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T17:09:38Z'
-      rationale: "B1/D1: de H1-titel op regel 60 luidt enkel '# Technische nota bij' zonder verdere tekst — een afgekapte titel die niet aangeeft bij welk advies de nota hoort. Een mens zou '# Technische nota bij CBN-advies 2013/14 – ...' schrijven. Dit is een ETL-artefact waarbij de titeltekst na de eerste twee woorden niet werd overgenomen."
       concrete_problemen:
-        - regel: 60
-          categorie: B1
+        - categorie: B1
+          regel: 60
           type: abrupt-cutoff
           voorbeeld: '# Technische nota bij'
+      rationale: 'B1/D1: de H1-titel op regel 60 luidt enkel ''# Technische nota bij'' zonder verdere tekst — een afgekapte titel die niet aangeeft bij welk advies de nota hoort. Een mens zou ''# Technische nota bij CBN-advies 2013/14 – ...'' schrijven. Dit is een ETL-artefact waarbij de titeltekst na de eerste twee woorden niet werd overgenomen.'
+      run_at: '2026-05-11T17:09:38Z'
+      status: needs-rework
+    rationale: 'B1/D1: de H1-titel op regel 60 luidt enkel ''# Technische nota bij'' zonder verdere tekst — een afgekapte titel die niet aangeeft bij welk advies de nota hoort. Een mens zou ''# Technische nota bij CBN-advies 2013/14 – ...'' schrijven. Dit is een ETL-artefact waarbij de titeltekst na de eerste twee woorden niet werd overgenomen.'
+    status: needs-rework
 themas:
   - gerealiseerde meerwaarde
   - kapitaalsubsidie
   - uitgestelde belastingen
 ---
 
-# Technische nota bij
+# CBN-advies 2013/14 – De boekhoudkundige verwerking van de uitgestelde belastingen bij gerealiseerde meerwaarden waarvoor de uitgestelde-belastingregeling geldt en bij kapitaalsubsidies
 
 ## Inleiding
-
 De verwerking van belastingeffecten in de jaarrekening heeft voornamelijk betrekking op de toewijzing van de fiscale gevolgen van actief- en passiefbestanddelen aan de juiste boekhoudkundige periode (i.e. *matching principe*). IFRS schrijft voor dat zowel de huidige als de toekomstige fiscale gevolgen die rusten op actief- en passiefbestanddelen dienen te worden uitgedrukt op iedere balansdatum. 
 
 De Commissie beroept zich enkel voor de uitwerking van deze technische nota op IAS 12 *Winstbelastingen* gepubliceerd door de IASB in oktober 1996 rekening houdend met alle aanpassingen aan de Standaard tot op datum van 31 december 2012. Deze technische nota geeft geen interpretatie over IAS 12 *Winstbelastingen*.
@@ -72,7 +71,6 @@ IAS 12 *Winstbelastingen* behandelt naast de over de verslagperiode verschuldigd
 De Commissie wenst te benadrukken dat deze technische nota geen enkele invloed heeft op het bovenstaand advies. De IFRS/IAS-regels gelden in België op geen enkele wijze voor de enkelvoudige jaarrekening. Voor wat betreft de geconsolideerde jaarrekening kunnen ondernemingen er vrijwillig voor kiezen om de IFRS /IAS-regels toe te passen.
 
 ## Uitgestelde belastingen
-
 De uitgestelde belastingen kunnen aanleiding geven tot de opname van uitgestelde belastingvorderingen of uitgestelde belastingverplichtingen. 
 
 Uitgestelde belastingen worden o.a. erkend op tijdelijke verschillen. Tijdelijke verschillen zijn verschillen tussen de boekwaarde van een actief- of passiefbestanddeel en zijn fiscale waarde. IAS 12 *Winstbelastingen* onderscheidt dan ook: 
@@ -81,31 +79,24 @@ Uitgestelde belastingen worden o.a. erkend op tijdelijke verschillen. Tijdelijke
 2. verrekenbare tijdelijke verschillen, dit zijn tijdelijke verschillen die bij de bepaling van de fiscale winst (het fiscaal verlies) van toekomstige perioden zullen resulteren in bedragen die aftrekbaar zijn op het moment dat de boekwaarde van het actief of de verplichting wordt gerealiseerd dan wel afgewikkeld. 
 
 ## De fiscale waarde van een actief- of passiefbestanddeel
-
 Het is mogelijk dat actief- of passiefbestanddelen een fiscale waarde hebben zonder dat deze werden opgenomen in de balans. De fiscale waarde van dergelijke bestanddelen zal dan worden bepaald als het verschil tussen hun boekwaarde (i.e. nihil) en het bedrag dat in toekomstige perioden fiscaal aftrekbaar is. 
 
 ### De fiscale waarde van een actiefbestanddeel
-
 De fiscale boekwaarde van een actief is het bedrag dat voor belastingdoeleinden zal kunnen worden verrekend met alle belastbare economische voordelen die naar een entiteit zullen vloeien als deze de boekwaarde van het actief realiseert. Als deze economische voordelen niet belastbaar zijn, is de fiscale boekwaarde van het actief gelijk aan zijn boekwaarde, hetgeen resulteert in een tijdelijk verschil van nul. 
 
 De fiscale boekwaarde van een actief zal in vele gevallen eenvoudig kunnen worden bepaald als het verschil tussen de aankoopprijs en de afschrijvingen die reeds in mindering van het fiscaal resultaat werden gebracht. 
 
 ### De fiscale boekwaarde van een passiefbestanddeel
-
 De fiscale boekwaarde van een verplichting is haar boekwaarde, verminderd met elk bedrag dat in de toekomstige perioden fiscaal aftrekbaar zal zijn voor die verplichting. In geval van opbrengsten die van tevoren zijn ontvangen, is de fiscale boekwaarde van de resulterende verplichting gelijk aan haar boekwaarde, verminderd met elk bedrag van de opbrengsten die in toekomstige perioden niet aftrekbaar zullen zijn.
 
 ### De opname van uitgestelde belastingen
-
 #### Belastbare tijdelijke verschillen
-
 De Standaard vereist dat er voor alle belastbare tijdelijke verschillen een uitgestelde belastingverplichting moet worden opgenomen behalve indien deze zouden voortvloeien: uit de eerste opname van goodwill of de eerste opname van een actief of verplichting in een transactie die geen bedrijfscombinatie is, en op het moment van de transactie geen invloed heeft op de boekhoudkundige winst of de fiscale winst (het fiscaal verlies). 
 
 #### Verrekenbare tijdelijke verschillen
-
 Voor alle verrekenbare tijdelijke verschillen moet een uitgestelde belastingvordering worden opgenomen, in zoverre het waarschijnlijk is dat er fiscale winst beschikbaar zal zijn waarmee het verrekenbare tijdelijke verschil kan worden verrekend, tenzij de uitgestelde belastingvordering voortvloeit uit de eerste opname van een vordering of verplichting in een transactie die geen bedrijfscombinatie is, en op het moment van de transactie geen invloed heeft op de boekhoudkundige winst of de fiscale winst (het fiscaal verlies).
 
 #### De initial recognition exception
-
 *Ontstaan bij eerste opname van een actief- of passiefbestanddeel of goodwill*
 
 De* initial recognition exception* vindt haar oorsprong in een achterhaalde benadering voor de bepaling van uitgestelde belastingen (de* income statement approach*). 
@@ -129,7 +120,6 @@ De *initial recognition exception* heeft enkel en alleen betrekking op de tijdel
 Wanneer de verandering van het tijdelijk verschil voortvloeit uit een verandering van de fiscale boekwaarde ten gevolge van een wetswijziging, dan zal de verwerking van deze verandering afhangen van het feit of er reeds uitgestelde belastingen werden opgenomen voor het betreffende actief of de verplichting. Indien er reeds uitgestelde belastingen werden opgenomen, dan zal een verandering van de fiscale boekwaarde leiden tot een overeenkomstige verandering van de uitgestelde belastingvordering of –verplichting met bijhorende wijzigingen verwerkt in de winst- of verliesrekening. Indien er voorheen geen uitgestelde belastingen werden opgenomen omwille van de *initial recognition exception*, dan dient men een uitgestelde belastingvordering (-verplichting) op te nemen voor het verrekenbare ( belastbare) tijdelijke verschil. 
 
 #### Beperking bij de opname van uitgestelde belastingvorderingen
-
 Er bestaat een essentieel verschil tussen de erkenning van uitgestelde belastingverplichtingen en uitgestelde belastingvorderingen.
 
 Voor alle verrekenbare tijdelijke verschillen moet een uitgestelde belastingvordering worden opgenomen. Aangezien de afwikkeling van verrekenbare verschillen leidt tot een vermindering van de fiscale winst in toekomstige perioden, zal een entiteit slechts uitgestelde belastingvorderingen opnemen als het waarschijnlijk is dat er belastbare winsten beschikbaar zullen zijn waarmee de verrekenbare tijdelijke verschillen kunnen worden verrekend. 
@@ -150,7 +140,6 @@ De vereiste dat er rekening moet worden gehouden met toekomstige fiscale opportu
 De Standaard neemt expliciet op dat fiscale opportuniteiten naar acties verwijzen die de onderneming effectief gaat ondernemen. Fiscale opportuniteiten die theoretisch mogelijk, doch niet praktisch haalbaar zijn, kunnen niet in rekening worden gebracht. 
 
 #### Niet-gecompenseerde fiscale verliezen en ongebruikte fiscaal verrekenbare tegoeden
-
 Een uitgestelde belastingvordering moet worden opgenomen voor de voorwaartse compensatie van niet-gecompenseerde fiscale verliezen en ongebruikte fiscaal verrekenbare tegoeden in zoverre het waarschijnlijk is dat er toekomstige fiscale winst beschikbaar zal zijn waarmee de niet-gecompenseerde fiscale verliezen en ongebruikte fiscaal verrekenbare tegoeden kunnen worden verrekend.
 
 De criteria voor opname zijn in belangrijke mate dezelfde als de criteria die gelden voor de opname van verrekenbare tijdelijke verschillen. De Standaard benadrukt echter wel dat het bestaan van fiscale verliezen een duidelijke indicatie vormt dat er mogelijk geen toekomstige fiscale winst beschikbaar zal zijn. Een entiteit die in het recente verleden vaak verliezen heeft geleden zal daarom een uitgestelde belastingvordering die voortvloeit uit niet-gecompenseerde fiscale verliezen of ongebruikte fiscaal verrekenbare tegoeden alleen opnemen in zoverre zij over voldoende belastbare tijdelijke verschillen beschikt of als er andere overtuigende aanwijzingen zijn dat er voldoende fiscale winst beschikbaar zal zijn waarmee de niet-gecompenseerde fiscale verliezen of ongebruikte fiscaal verrekenbare tegoeden kunnen worden verrekend. Indien de onderneming gebruik maakt van dit laatste argument dient het de nodige toelichtingen op te nemen. 
@@ -168,13 +157,11 @@ d) of planning van de fiscale winst mogelijk is zodat de entiteit fiscale winst 
 In zoverre het niet waarschijnlijk is dat er fiscale winst beschikbaar zal zijn waarmee de niet-gecompenseerde fiscale verliezen of ongebruikte fiscaal verrekenbare tegoeden kunnen worden verrekend, wordt de uitgestelde belastingvordering niet opgenomen.
 
 #### Herschatting van uitgestelde belastingvorderingen
-
 De onderneming dient de opgenomen en niet-opgenomen uitgestelde belastingvorderingen te herschatten op het einde van iedere verslagperiode. Voor wat betreft de eerder opgenomen vorderingen dient de boekwaarde van een belastingvordering te worden verminderd indien het niet langer waarschijnlijk is dat er voldoende fiscale winst beschikbaar zal zijn om de vordering te verrekenen. Deze verminderingen dienen teruggenomen te worden op het ogenblik dat het opnieuw waarschijnlijk is dat toekomstige fiscale winst beschikbaar zal zijn. 
 
 Voor wat betreft de voorheen niet-opgenomen vorderingen zal een onderneming de vordering erkennen op het moment dat het waarschijnlijk is dat er voldoende toekomstige fiscale winst beschikbaar zal zijn om de belastingvordering te verrekenen. 
 
 ## De waardering van uitgestelde belastingen
-
 Uitgestelde belastingvorderingen en -verplichtingen moeten worden gewaardeerd tegen de belastingtarieven die naar verwachting van toepassing zullen zijn op de periode waarin de vordering wordt gerealiseerd of de verplichting wordt afgewikkeld, op basis van de belastingtarieven (en de belastingwetgeving) waarvan het wetgevingsproces in belangrijke mate is afgesloten tegen het einde van de verslagperiode. 
 
 Indien verschillende belastingtarieven van toepassing zijn op verschillende niveaus van belastbare winst, worden uitgestelde belastingvorderingen en -verplichtingen gewaardeerd op basis van de gemiddelde tarieven die naar verwachting van toepassing zullen zijn op de fiscale winst (het fiscaal verlies) van de perioden waarin de tijdelijke verschillen naar verwachting zullen worden afgewikkeld. 
@@ -182,7 +169,6 @@ Indien verschillende belastingtarieven van toepassing zijn op verschillende nive
 IAS 12 voorziet geen actualisatie van uitgestelde belastingen omdat de Standaard het praktisch onmogelijk acht om de afwikkeling van tijdelijke verschillen aan exacte tijdvakken te relateren. Daarnaast worden uitgestelde belastingen zelf reeds berekend op tijdelijke verschillen tussen activa en passiva die reeds zelf onderhevig zijn aan tijdswaarde-aspecten, waardoor een verdiscontering van de uitgestelde belastingeffecten impliciet volgt uit de verdiscontering van het onderliggende.
 
 ## Presentatie
-
 Belastingvorderingen en –verplichtingen dienen apart van de andere activa en verplichtingen te worden weergegeven. Uitgestelde belastingen dienen eveneens afzonderlijk van de huidige belastingen te worden voorgesteld. Als een entiteit in haar balans vlottende/vaste activa en langlopende/kortlopende verplichtingen als afzonderlijke classificaties presenteert, dient zij de uitgestelde belastingen op dezelfde wijze te weer te geven. 
 
 Een onderneming moet de uitgestelde belastingvorderingen en -verplichtingen salderen indien de entiteit een in rechte afdwingbaar recht heeft om actuele belastingvorderingen te salderen met actuele belastingverplichtingen en de uitgestelde belastingvorderingen en de uitgestelde belastingverplichtingen verband houden met winstbelastingen die door dezelfde belastingautoriteit worden geheven op: 

@@ -2,61 +2,55 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/overschrijvingsorders
 datum: 1980-06-01
 gerelateerde_adviezen:
-- datum: '2021-12-06'
-  titel: Waarderen en boeken van cryptomunten gebruikt als betaalmiddel
-  url: https://www.cbn-cnc.be/nl/adviezen/waarderen-en-boeken-van-cryptomunten-gebruikt-als-betaalmiddel
-- datum: '2008-12-01'
-  titel: Verwerking in de jaarrekening van de door de Vlaamse regering gecreëerde
-    opleidingscheques
-  url: https://www.cbn-cnc.be/nl/adviezen/verwerking-in-de-jaarrekening-van-de-door-de-vlaamse-regering-gecreeerde-opleidingscheques
-- datum: '1984-01-01'
-  titel: Overheidsfondsen
-  url: https://www.cbn-cnc.be/nl/adviezen/overheidsfondsen
-- datum: '1981-12-01'
-  titel: 'Waardering van liquide middelen bij de jaarafsluiting : criterium voor de
-    toerekening aan een bepaald boekjaar'
-  url: https://www.cbn-cnc.be/nl/adviezen/waardering-van-liquide-middelen-bij-de-jaarafsluiting-criterium-voor-de-toerekening-aan
+  - datum: '2021-12-06'
+    titel: Waarderen en boeken van cryptomunten gebruikt als betaalmiddel
+    url: https://www.cbn-cnc.be/nl/adviezen/waarderen-en-boeken-van-cryptomunten-gebruikt-als-betaalmiddel
+  - datum: '2008-12-01'
+    titel: Verwerking in de jaarrekening van de door de Vlaamse regering gecreëerde opleidingscheques
+    url: https://www.cbn-cnc.be/nl/adviezen/verwerking-in-de-jaarrekening-van-de-door-de-vlaamse-regering-gecreeerde-opleidingscheques
+  - datum: '1984-01-01'
+    titel: Overheidsfondsen
+    url: https://www.cbn-cnc.be/nl/adviezen/overheidsfondsen
+  - datum: '1981-12-01'
+    titel: 'Waardering van liquide middelen bij de jaarafsluiting : criterium voor de toerekening aan een bepaald boekjaar'
+    url: https://www.cbn-cnc.be/nl/adviezen/waardering-van-liquide-middelen-bij-de-jaarafsluiting-criterium-voor-de-toerekening-aan
 nummer: CBN-advies R102/2
 provenance:
-  generated_at: '2026-05-11T15:15:31Z'
+  generated_at: '2026-05-11T17:48:38Z'
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/overschrijvingsorders
-    sha256: 635a0901ef6c360c34e87435452a016ae54fc83d195a62ea6e89240d525b2c60
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/overschrijvingsorders
+      sha256: 635a0901ef6c360c34e87435452a016ae54fc83d195a62ea6e89240d525b2c60
+      version:
   stale: false
-  stale_reason: null
+  stale_reason:
   tooling:
-    model: null
+    model:
     pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    prompt_version: null
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
     confirmed_at: '2026-05-11T11:51:19Z'
     confirmed_by: subagent-sonnet-4-6
     layer1:
-      file_size_chars: 1103
-      flags: []
+      status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:40Z'
       heading_count: 0
       max_section_chars: 1103
-      run_at: '2026-05-11T15:05:47Z'
-      run_id: 20260511-150547
-      status: pass
+      file_size_chars: 1103
+      flags: []
     layer2:
       agent: subagent-sonnet-4-6
       concrete_problemen: []
-      rationale: Één tekstblok, geen headings vereist. Geen lijsten, geen tabellen,
-        geen voetnoten. Inhoud compleet en afgerond. Geen enkele extractie-aanwijzing
-        zichtbaar.
+      rationale: Één tekstblok, geen headings vereist. Geen lijsten, geen tabellen, geen voetnoten. Inhoud compleet en afgerond. Geen enkele extractie-aanwijzing zichtbaar.
       run_at: '2026-05-11T11:51:19Z'
       status: trusted
-    rationale: Één tekstblok, geen headings vereist. Geen lijsten, geen tabellen,
-      geen voetnoten. Inhoud compleet en afgerond. Geen enkele extractie-aanwijzing
-      zichtbaar.
+    rationale: Één tekstblok, geen headings vereist. Geen lijsten, geen tabellen, geen voetnoten. Inhoud compleet en afgerond. Geen enkele extractie-aanwijzing zichtbaar.
     status: trusted
 themas:
-- liquide middelen
-- overschrijvingsorders
-- rekeningenstelsel
+  - liquide middelen
+  - overschrijvingsorders
+  - rekeningenstelsel
 ---
 
 # CBN-advies R102/2 - Overschrijvingsorders

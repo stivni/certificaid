@@ -16,49 +16,49 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/gevolgen-verhoging-groottecriteria-voor-vennootschappen
 nummer: CBN-advies 2022/03
 provenance:
+  generated_at: '2026-05-11T17:48:39Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/beoordeling-van-de-groottecriteria-overeenkomstig-artikelen-124-en-125-van-het-wetboek-van
       sha256: 59ccb7c4e9e9de6383eb54a59d6624c21f39c167760578c1e6b2f2441b565e38
       version:
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T15:15:32Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
-    status: needs-rework
     confirmed_at: '2026-05-11T17:13:31Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "E1: de berekeningsexempels op regels 258-277 gebruiken pseudo-pipe-tabellen zonder markdown header+separator-rij (bv. '| Vennootschap A | | Vennootschap B |' zonder scheidingslijn). B1: regel 129 bevat '708 *Toegekende kortingen, ristorno's en rabatten (-)* ' als plain text terwijl regel 127 '### 700 tot 707 *Verkopen en dienstprestaties*' een ### heading is — inconsistente behandeling van dezelfde structuurlaag."
     layer1:
-      file_size_chars: 31336
-      flags: []
-      heading_count: 31
-      max_section_chars: 15614
-      run_at: '2026-05-11T15:05:54Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:45Z'
+      heading_count: 31
+      max_section_chars: 15597
+      file_size_chars: 31305
+      flags: []
     layer2:
-      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T17:13:31Z'
-      rationale: "E1: de berekeningsexempels op regels 258-277 gebruiken pseudo-pipe-tabellen zonder markdown header+separator-rij (bv. '| Vennootschap A | | Vennootschap B |' zonder scheidingslijn). B1: regel 129 bevat '708 *Toegekende kortingen, ristorno's en rabatten (-)* ' als plain text terwijl regel 127 '### 700 tot 707 *Verkopen en dienstprestaties*' een ### heading is — inconsistente behandeling van dezelfde structuurlaag."
       concrete_problemen:
-        - regel: 129
-          categorie: B1
+        - categorie: B1
+          regel: 129
           type: other
           voorbeeld: 708 *Toegekende kortingen, ristorno's en rabatten (-)*
-        - regel: 258
-          categorie: E1
+        - categorie: E1
+          regel: 258
           type: pseudo-table
           voorbeeld: "| Vennootschap A | | Vennootschap B | \n| Omzet excl. btw | | 1.000.000 | | Omzet excl. btw | | 8.500.000 |"
-        - regel: 266
-          categorie: E1
+        - categorie: E1
+          regel: 266
           type: pseudo-table
           voorbeeld: '| Omzet excl. btw: | | 1.000.000 + 8.500.000 - 300.000 = 9.200.000 > 9.000.000 |'
+      rationale: 'E1: de berekeningsexempels op regels 258-277 gebruiken pseudo-pipe-tabellen zonder markdown header+separator-rij (bv. ''| Vennootschap A | | Vennootschap B |'' zonder scheidingslijn). B1: regel 129 bevat ''708 *Toegekende kortingen, ristorno''s en rabatten (-)* '' als plain text terwijl regel 127 ''### 700 tot 707 *Verkopen en dienstprestaties*'' een ### heading is — inconsistente behandeling van dezelfde structuurlaag.'
+      run_at: '2026-05-11T17:13:31Z'
+      status: needs-rework
+    rationale: 'E1: de berekeningsexempels op regels 258-277 gebruiken pseudo-pipe-tabellen zonder markdown header+separator-rij (bv. ''| Vennootschap A | | Vennootschap B |'' zonder scheidingslijn). B1: regel 129 bevat ''708 *Toegekende kortingen, ristorno''s en rabatten (-)* '' als plain text terwijl regel 127 ''### 700 tot 707 *Verkopen en dienstprestaties*'' een ### heading is — inconsistente behandeling van dezelfde structuurlaag.'
+    status: needs-rework
 themas:
   - groottecriteria
   - criteria
@@ -87,11 +87,9 @@ themas:
 # CBN-advies 2022/03 - Beoordeling van de groottecriteria overeenkomstig artikelen 1:24 en 1:25 van het Wetboek van vennootschappen en verenigingen
 
 ## Inleiding
-
 Dit advies vervangt CBN-advies 2016/3 – *Beoordeling groottecriteria artikelen 15 en 15/1 W.Venn.*
 
 ## Definitie van kleine vennootschappen en microvennootschappen
-
 Artikel 1:24 van het Wetboek van vennootschappen en verenigingen (hierna: WVV) maakt een onderscheid tussen ‘kleine’ vennootschappen en vennootschappen die niet als dusdanig kunnen worden gekwalificeerd. Volgens artikel 1:24, § 1 WVV zijn kleine vennootschappen deze met rechtspersoonlijkheid[^2] die op balansdatum van het laatst afgesloten boekjaar, niet meer dan één van de volgende criteria overschrijden:
 
 - jaargemiddelde van het aantal werknemers: 50; 
@@ -107,9 +105,7 @@ Artikel 1:25 WVV definieert microvennootschappen als kleine vennootschappen met 
 Microvennootschappen worden gedefinieerd als een subcategorie van kleine vennootschappen. Bijgevolg zijn de bepalingen die gelden voor kleine vennootschappen onder bepaalde voorwaarden ook van toepassing op microvennootschappen (*infra* randnummer 20). 
 
 ## Personeelsbestand
-
 ### Berekeningswijze van het personeelsbestand
-
 Het jaargemiddelde van het personeelsbestand moet worden berekend als het gemiddeld aantal werknemers in voltijdse equivalenten dat is geregistreerd in de DIMONA-databank per einde van elke maand van het boekjaar.[^3] 
 
 Voor het gedeelte van de tewerkstelling in de vennootschap dat niet valt onder de registratieverplichting in de DIMONA-databank, is het gemiddelde personeelsbestand het gemiddelde, in voltijdse equivalenten, van de in het algemeen personeelsregister of een gelijkwaardig document ingeschreven aantal werknemers per einde van elke maand van het beschouwde boekjaar.
@@ -117,19 +113,15 @@ Voor het gedeelte van de tewerkstelling in de vennootschap dat niet valt onder d
 Het aantal werknemers uitgedrukt in voltijdse equivalenten is gelijk aan het arbeidsvolume uitgedrukt in voltijdse equivalenten. Voor de deeltijds tewerkgestelde werknemers gebeurt de berekening op basis van het contractueel overeengekomen aantal te presteren uren, gerelateerd ten opzichte van de normale arbeidsduur van een vergelijkbare voltijdse werknemer (referentiewerknemer).
 
 ## Omzet
-
 ### Algemene regel
-
 Artikel 3:90, I.A. van het koninklijk besluit van 29 april 2019 ter uitvoering van het Wetboek van vennootschappen en verenigingen (hierna: KB WVV) definieert de omzet als het bedrag van de verkoop van goederen en de levering van diensten aan derden, in het kader van de gewone bedrijfsuitoefening van de vennootschap, onder aftrek van de op de verkoopprijs in de handel toegestane kortingen (afslag, ristorno, rabat). Dit bedrag omvat niet de belasting over de toegevoegde waarde, noch enige andere rechtstreeks met de omzet verbonden belasting. Onder omzet worden eveneens opgenomen de tegemoetkomingen van de overheid in het kader van een tariferingspolitiek als compensatie voor lagere ontvangsten. De Commissie heeft in het verleden reeds enkele adviezen gepubliceerd over de inhoud van het omzetbegrip.[^4] 
 
 De minimumindeling van het algemeen rekeningenstelsel (hierna: MAR) voorziet binnen rubriek 70 *Omzet* de volgende onderverdeling:
 
 ### 700 tot 707 *Verkopen en dienstprestaties*
-
 708 *Toegekende kortingen, ristorno’s en rabatten (-)*
 
 ### Voorbeeld
-
 De resultatenrekening bevat de volgende gegevens:
 - jaaromzet excl. btw: 3.300.000 euro; 
 - andere bedrijfsopbrengsten: 200.000 euro; 
@@ -138,7 +130,6 @@ De resultatenrekening bevat de volgende gegevens:
 
 In toepassing van de algemene regel zoals bedoeld in artikel 3:90, I.A. KB WVV bedraagt de omzet excl. btw 3.300.000 euro.
 ### Afwijkende regeling
-
 Wanneer de opbrengsten die voortspruiten uit het gewoon bedrijf van een vennootschap voor meer dan de helft bestaan uit opbrengsten die niet aan de omschrijving beantwoorden van de post Omzet, heeft de wetgever een afwijkende regeling voorzien krachtens dewelke het begrip ‘omzet’ in dergelijk geval staat voor het totaal van de bedrijfs- en financiële opbrengsten met uitsluiting van de niet-recurrente opbrengsten.[^5] 
 
 Naast de ‘klassieke’ omzet (70), wordt met bedrijfsopbrengsten, met uitzondering van de niet-recurrente bedrijfsopbrengsten (760 + 7620 + 7630 + 764 tot 768), het volgende bedoeld: de toename of afname van de voorraad goederen in bewerking, gereed product, onroerende goederen bestemd voor verkoop en bestellingen in uitvoering (71) samen met de geactiveerde intern geproduceerde vaste activa (72) en de andere bedrijfsopbrengsten (74). De andere bedrijfsopbrengsten (74) omvatten de van derden ontvangen en met de bedrijfsuitoefening verbonden opbrengsten die niet hun oorsprong vinden in een verkoop of een dienstverlening aan derden binnen het kader van de gewone bedrijfsuitvoering van de vennootschap, en niet als een financiële of niet-recurrente bedrijfsopbrengst kunnen worden aangemerkt. In het bijzonder worden onder die post opgenomen de subsidies of compenserende bedragen bij in- of uitvoer, de exploitatiesubsidies alsook de meerwaarden die worden verwezenlijkt bij de realisatie van handelsvorderingen.[^6] 
@@ -146,7 +137,6 @@ Naast de ‘klassieke’ omzet (70), wordt met bedrijfsopbrengsten, met uitzonde
 De financiële opbrengsten (75), met uitzondering van de niet-recurrente financiële opbrengsten, omvatten onder meer de *Andere financiële opbrengsten*. Deze bestaan uit de meerwaarden verwezenlijkt bij de realisatie van vorderingen, andere dan handelsvorderingen, van geldbeleggingen en van liquide middelen, de als opbrengst geboekte kapitaal- en interestsubsidies, de wisselresultaten en de resultaten uit de omrekening van vreemde valuta tenzij deze specifiek verbonden zijn met een andere post van de resultatenrekening; in dit laatste geval mogen ze onder die post worden opgenomen, en alle opbrengsten van financiële aard die geen verband houden met welbepaalde activa.[^7] 
 
 ### Voorbeeld
-
 Uit de resultatenrekening blijken de volgende cijfers:
 - jaaromzet excl. btw: 300.000 euro; 
 - andere bedrijfsopbrengsten (met uitzondering van de niet-recurrente): 850.000 euro; 
@@ -156,7 +146,6 @@ Uit de resultatenrekening blijken de volgende cijfers:
 De eerste drie posten komen voort uit het gewoon bedrijf van de vennootschap. Samen vormen zij een totaal van 3.850.000 euro, waarvan meer dan de helft is samengesteld uit elementen die niet overeenkomen met de klassieke definitie van omzet in de zin van artikel 3:90, I.A. KB WVV. In dit geval wordt voor de toepassing van de grensbedragen opgenomen in artikel 1:24, § 1 WVV, het bedrag van 3.850.000 euro als omzet beschouwd. 
 
 ### Duur van het boekjaar van meer of minder dan twaalf maanden
-
 Doorgaans heeft een boekjaar een duur van twaalf maanden. Het ontbreken van een expliciete toelating dat een boekjaar uit meer of minder dan twaalf maanden kan bestaan, getuigt er volgens de Commissie van dat de wetgever zich verzet tegen het feit dat het boekjaar stelselmatig een duur zou hebben die korter of langer is dan twaalf maanden. Een uitzonderlijke verlenging of verkorting van het boekjaar kan worden toegestaan.[^8]
  In het geval van een verlenging kan de duur van een boekjaar evenwel nooit langer zijn dan vierentwintig maanden min één kalenderdag.[^9] 
 
@@ -167,9 +156,7 @@ Neem bijvoorbeeld een vennootschap die een omzet behaalt van 17.000.000 EUR excl
 De jaaromzet kan eveneens worden berekend door de omzet van de vennootschap te vermenigvuldigen met een breuk waarvan de teller gelijk is aan 12 en de noemer overeenstemt met het aantal maanden van het betrokken boekjaar, waarbij elke begonnen maand voor een volle maand wordt geteld. *In casu* komt dit neer op 17.000.000 EUR excl. btw x 12/15 = 13.600.000 EUR excl. btw. Aangezien 13.600.000 EUR excl. btw > 9.000.000 EUR excl. btw, wordt de limiet ook hier overschreden.
 
 ## Beoordeling op geconsolideerde basis
-
 ### Toepassingsgebied
-
 In principe is de enkelvoudige jaarrekening de basis voor de beoordeling of de groottecriteria worden nageleefd.[^13] 
 
 De wetgever heeft evenwel voorzien dat voor verbonden vennootschappen de berekening van het al dan niet overschrijden van de limieten zoals bepaald in artikel 1:24, § 1 WVV, gebeurt op geconsolideerde[^14] of geaggregeerde[^15] basis. Sedert de omzetting van Richtlijn 2013/34/EU betreft deze regel enkel de moedervennootschappen zoals bepaald in artikel 1:15, 1° WVV, namelijk de vennootschappen die in rechte of in feite een controle uitoefenen op één of meerdere andere vennootschappen. 
@@ -199,7 +186,6 @@ Bijgevolg kan een consortium worden samengesteld uit meerdere microvennootschapp
 Daar een microvennootschap een subcategorie is van een kleine vennootschap, kan een vennootschap enkel als microvennootschap worden beschouwd indien zij de criteria van artikel 1:24, § 1 WVV niet overschrijdt. In principe wordt er aan deze voorwaarde voldaan aangezien de grensbedragen van artikel 1:24, § 1 WVV hoger zijn dan die opgenomen in artikel 1:25, § 1 WVV. Aangezien er sprake is van een consortium, moet de beoordeling van de grensbedragen van artikel 1:24 § 1 WVV echter plaatsvinden op geconsolideerde of geaggregeerde basis, namelijk door rekening te houden met de gegevens van alle vennootschappen die deel uitmaken van het consortium in toepassing van artikel 1:24, §§ 6 en 7 WVV. In bepaalde gevallen kan het dus voorkomen dat indien het aantal microvennootschappen binnen het consortium zodanig is gestegen dat de criteria van artikel 1:24 WVV op geconsolideerde of geaggregeerde basis eveneens worden overschreden, deze vennootschappen niet meer als ‘klein’ kunnen worden beschouwd. Zo zal kwalificatie als microvennootschap eveneens worden uitgesloten, zelfs indien de vennootschappen die het consortium uitmaken, op individuele basis de grensbedragen van artikel 1:25 WVV niet overschrijden.
 
 ### Voorbeeld 1
-
 Vennootschap X heeft geen dochtervennootschappen en maakt deel uit van een consortium.
 De criteria van artikel 1:24, § 1 WVV worden op geconsolideerde of geaggregeerde basis niet overschreden:
 -> X is een kleine vennootschap.
@@ -207,14 +193,12 @@ X voldoet aan de criteria zoals bepaald in artikel 1:25 WVV:
 -> X kan niet worden gelijkgesteld met een moedervennootschap voor de toepassing van artikel 1:25 WVV;
 -> X is een microvennootschap.
 ### Voorbeeld 2
-
 Vennootschap X heeft geen dochtervennootschappen en maakt deel uit van een consortium.
 De criteria van artikel 1:24, § 1 WVV worden op geconsolideerde of geaggregeerde basis overschreden:
 -> de vennootschappen die het consortium vormen (inclusief X), zijn geen kleine vennootschappen;
    -> X is geen microvennootschap ook al voldoet zij op enkelvoudige basis aan de criteria zoals bepaald in artikel 1:25 WVV.
 
 ### Voorbeeld 3
-
 Vennootschap X bezit dochtervennootschappen en maakt deel uit van een consortium.
 De criteria van artikel 1:24, § 1 WVV worden op geconsolideerde of geaggregeerde basis overschreden.
 X voldoet aan de criteria van artikel 1:25, § 1 WVV:
@@ -225,11 +209,9 @@ X voldoet aan de criteria van artikel 1:25, § 1 WVV:
        - -> X kan nooit een microvennootschap zijn.
 
 ### Berekeningsmethoden
-
 Voor moedervennootschappen vindt de beoordeling van de overschrijding van de groottecriteria dus plaats op geconsolideerde basis. Teneinde de administratieve lasten voor ondernemingen te verminderen, biedt artikel 1:24 WVV de mogelijkheid om een vereenvoudigde berekeningsmethode toe te passen. 
 
 #### Consolidatie moedervennootschap
-
 Deze eerste methode houdt in dat voor een moedervennootschap de groottecriteria worden beoordeeld op basis van de cijfers van de volledige groep waartoe deze moedervennootschap behoort. In principe vindt de berekening van de geconsolideerde omzet en het geconsolideerd balanstotaal plaats door toepassing van de consolidatiebepalingen van het KB WVV, hetgeen onder meer betekent dat voor dochterondernemingen die het voorwerp uitmaken van een exclusieve controle, de in artikelen 3:127, 3:134 en 3:136 KB WVV vermelde weglatingen en verrekeningen worden toegepast overeenkomstig de integrale consolidatiemethode. Voor gemeenschappelijke dochtervennootschappen of andere vennootschappen waarin een deelneming wordt aangehouden, worden de bepalingen inzake proportionele integratie of vermogensmutatie toegepast.
 
 De beoordeling op basis van de cijfers van de volledige groep geldt niet alleen voor de uiteindelijke moedervennootschap maar ook voor alle andere vennootschappen die behoren tot de groep en die zelf ook een moedervennootschap zijn.
@@ -237,7 +219,6 @@ De beoordeling op basis van de cijfers van de volledige groep geldt niet alleen 
 Om het personeelsbestand te berekenen, wordt het gemiddeld aantal werknemers per vennootschap van alle verbonden vennootschappen berekend volgens de onder *titel III. Personeelsbestand* van onderhavig advies opgenomen methode. 
 
 #### Vereenvoudigde methode: berekening van het balanstotaal en de omzet van alle verbonden vennootschappen op geaggregeerde basis (+ 20 %)
-
 Een beoordeling van de grensbedragen van de omzet en het balanstotaal op geconsolideerde basis vergt bijkomende administratieve lasten wanneer een vennootschap op grond van het WVV niet verplicht is om een geconsolideerde jaarrekening op te maken[^19]. Een vennootschap die behoort tot een groep van beperkte omvang[^20] wordt immers vrijgesteld van de verplichting om een geconsolideerde jaarrekening op te stellen.[^21]
  Om te vermijden dat uitsluitend voor de beoordeling van de groottecriteria van een vennootschap een consolidatieoefening moet plaatsvinden, kan een moedervennootschap er volgens een tweede methode voor opteren om voor de beoordeling van de groottecriteria, louter de totalen van de omzet en de balanstotalen van al de verbonden vennootschappen op te tellen. In dit laatste geval worden de grensbedragen betreffende het balanstotaal en de netto-omzet zoals opgenomen in artikel 1:24, § 1 WVV vermeerderd met twintig procent[^22]
  De grensbedragen zijn in dergelijk geval de volgende:
@@ -252,7 +233,6 @@ Wat het criterium personeelsbestand betreft, wordt het gemiddeld aantal werkneme
 Een individuele moedervennootschap binnen een groep heeft steeds de vrije keuze om de toetsing van de groottecriteria uit te voeren op basis van de cijfers die werden verkregen door een consolidatie van alle verbonden vennootschappen dan wel volgens de toepassing van de vereenvoudigde methode.
 
 #### Voorbeeld
-
 Vennootschap A is de moedervennootschap van B, die niet als moedervennootschap kan worden beschouwd aangezien zij geen controle uitoefent op een andere vennootschap. Van de omzet van vennootschap B wordt 300.000 euro gefactureerd aan vennootschap A. De balanstotalen van vennootschappen A en B omvatten een bedrag van 400.000 euro dat door de verrekeningen en weglatingen bedoeld in de artikelen 3:127 tot 3:134 KB WVV niet wordt opgenomen in de geconsolideerde balans van vennootschap A. 
 
 | Vennootschap A | | Vennootschap B | 
@@ -278,17 +258,13 @@ Besluit: op geconsolideerde basis wordt meer dan één van de criteria overschre
 
 Besluit: volgens de vereenvoudigde (of geaggregeerde) methode, wordt geen van de criteria overschreden. Bijgevolg kunnen zowel vennootschap A als vennootschap B worden aangemerkt als kleine vennootschappen.
 ### Beoordelingsdatum
-
 #### Balansdatum
-
 Voor verbonden vennootschappen, net zoals dit het geval is voor niet-verbonden vennootschappen, moeten de jaaromzet en het balanstotaal worden vastgesteld op balansdatum van het laatst afgesloten boekjaar. Bijgevolg zal op de balansdatum moeten worden nagegaan welke de verbonden vennootschappen zijn in de zin van artikel 1:20 WVV, ongeacht de balansdatum van de moedervennootschap. Voor de vaststelling van de geconsolideerde of geaggregeerde cijfers ter beoordeling van de groottecriteria is niet voorzien in een alternatieve datum zoals dit wel het geval is voor de opmaak van de geconsolideerde jaarrekening.[^24] 
 
 Dit beginsel kan worden verduidelijkt aan de hand van een voorbeeld. Wanneer de balansdata van de verbonden vennootschappen van elkaar verschillen, vindt de beoordeling van de groottecriteria plaats op basis van de laatst opgemaakte jaarrekeningen van de verbonden vennootschappen. Met de *laatst opgemaakte jaarrekening* kan uitsluitend worden bedoeld de *jaarrekening met betrekking tot het laatst afgesloten boekjaar* wat eenvoudig wil zeggen het laatste boekjaar waarvan de eindeboekjaardatum voorbij is. 
 
 ### Voorbeeld
-
 ### TOPCO: Afsluitingsdatum boekjaar 31/03
-
 MIDCO: Dochtervennootschap van TOPCO; afsluitingsdatum boekjaar 31/12 
 
 SUBCO1: Dochtervennootschap van MIDCO; afsluitingsdatum boekjaar 31/12 
@@ -298,23 +274,19 @@ SUBCO2: Dochtervennootschap van MIDCO; afsluitingsdatum boekjaar 30/11
 SUBCO3: Dochtervennootschap van MIDCO; afsluitingsdatum boekjaar 31/01
 
 ### TOPCO
-
 De beoordeling van de grootte van TOPCO op 31/03/N vindt plaats op basis van:
 1. de geconsolideerde cijfers van TOPCO op 31/03/N (consolidatie TOPCO, MIDCO, SUBCO1, SUBCO2 en SUBCO3, rekening houdend met de gegevens op 31/03/N voor elke vennootschap); of 
 2. de geaggregeerde cijfers (+20%-methode) van TOPCO 31/03/N; MIDCO 31/12/N-1; SUBCO1 31/12/N-1; SUBCO2 30/11/N-1; SUBCO3 31/01/N. 
 
 ### MIDCO
-
 De beoordeling van de grootte van MIDCO op 31/12/N vindt plaats op basis van:
 1. de geconsolideerde cijfers van TOPCO op **31/12/N**[^25] (consolidatie TOPCO, MIDCO, SUBCO1, SUBCO2 en SUBCO3, rekening houdend met de gegevens op 31/12/N voor elke vennootschap); of 
 2. de geaggregeerde cijfers (+20%-methode) van TOPCO 31/03/N; MIDCO 31/12/N; SUBCO1 31/12/N; SUBCO2 30/11/N; SUBCO3 31/01/N. 
 
 #### Omzet van een tijdens het boekjaar overgenomen (of overgedragen) vennootschap
-
 Wanneer de verbondenheid pas in de loop van het boekjaar is tot stand gekomen, moet meteen de volledige omzet van dat boekjaar in aanmerking worden genomen voor de beoordeling op geconsolideerde of geaggregeerde basis van de in artikel 1:24, § 1 WVV vermelde criteria. In het tegenovergestelde geval dient er per direct niet langer rekening gehouden te worden met de vennootschap die niet meer verbonden is.
 
 ## Wijziging van categorie - consistentiebeginsel
-
 Wanneer meer dan één van de drie criteria vermeld in artikel 1:24 of 1:25 WVV worden overschreden of niet meer worden overschreden, heeft dit slechts gevolgen wanneer dit zich gedurende twee opeenvolgende boekjaren voordoet (consistentiebeginsel). De gevolgen gaan in dat geval in vanaf het boekjaar dat volgt op het boekjaar gedurende hetwelk voor de tweede keer meer dan één van de criteria werden overschreden of niet meer werden overschreden. Door een éénmalige overschrijding zal een vennootschap haar statuut van kleine vennootschap niet verliezen. Evenmin zal een vennootschap door het éénmalig niet overschrijden van meer dan één criterium een kleine vennootschap worden. 
 
 Het consistentiebeginsel werd ingevoerd om te vermijden dat kleine ondernemingen die bijvoorbeeld een uitzonderlijk jaar achter de rug hebben, hun kwalificatie als kleine vennootschap zouden verliezen.
@@ -324,7 +296,6 @@ Het consistentiebeginsel werd ingevoerd om te vermijden dat kleine ondernemingen
 In onderstaande voorbeelden wordt er van uitgegaan dat de betrokken vennootschap op balansdatum van boekjaar N-1 niet meer dan één van de grensbedragen van artikel 1:24, § 1 WVV heeft overschreden. Deze vaststelling wordt door het bestuursorgaan gemaakt in boekjaar N. Er wordt eveneens van uitgegaan dat de betrokken vennootschap reeds een kleine vennootschap was in boekjaar N-1. De jaarrekening van boekjaar N-1 werden aldus opgemaakt volgens het verkort schema.
 
 ### Legende
-
    > Meer dan één van de criteria wordt op de balansdatum overschreden 
 
    < Maximaal één van de criteria wordt op de balansdatum overschreden 
@@ -334,7 +305,6 @@ In onderstaande voorbeelden wordt er van uitgegaan dat de betrokken vennootschap
    VOL Volledig schema van de jaarrekening
 
 ## Voorbeeld 1
-
 In N+1 kan er niet worden vastgesteld dat, op balansdatum van boekjaar N en op basis van de werkelijke cijfers van boekjaar N, meer dan één van de groottecriteria werden overschreden in N. De vennootschap blijft dus ook in N+1 een kleine vennootschap.
 
 In N+2 kan er worden vastgesteld dat, op balansdatum van boekjaar N+1 en op basis van de werkelijke cijfers van boekjaar N+1, meer dan één van de groottecriteria werden overschreden in N+1. Aangezien het de eerste keer is dat meer dan één van de criteria werden overschreden, blijft de vennootschap in N+2 een kleine vennootschap. Daar de criteria in boekjaar N+2 niet opnieuw worden overschreden, blijft de vennootschap ook in N+3 een kleine vennootschap.
@@ -342,7 +312,6 @@ In N+2 kan er worden vastgesteld dat, op balansdatum van boekjaar N+1 en op basi
 Voor de volgende boekjaren kan er worden vastgesteld dat de criteria nooit gedurende twee opeenvolgende boekjaren worden overschreden. De vennootschap blijft dus een kleine vennootschap en de jaarrekening wordt steeds opgemaakt volgens het verkort schema.
 
 ## Voorbeeld 2
-
 In N+1 kan er niet worden vastgesteld dat, op balansdatum van boekjaar N en op basis van de werkelijke cijfers van boekjaar N, meer dan één van de groottecriteria werden overschreden in N. De vennootschap blijft dus ook in N+1 een kleine vennootschap.
 
 In N+2 kan er worden vastgesteld dat, op balansdatum van boekjaar N+1 en op basis van de werkelijke cijfers van boekjaar N+1, meer dan één van de groottecriteria werden overschreden in N+1. Aangezien de criteria ook in N+2 worden overschreden, is de vennootschap geen kleine vennootschap meer vanaf het volgende boekjaar (N+3). De jaarrekening van boekjaar N+3 zal aldus moeten worden opgemaakt volgens het volledig schema.

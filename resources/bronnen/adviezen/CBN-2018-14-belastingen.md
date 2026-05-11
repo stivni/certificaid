@@ -16,57 +16,57 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-liquidatiereserve-bedoeld-in-artikel-541-wib-92
 nummer: CBN-advies 2018/14
 provenance:
+  generated_at: '2026-05-11T17:48:39Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/belastingen
       sha256: 37257a82ec205759256316f09d50c8ffe643b65db8b5b0d3e2b75e62eea7df9b
       version:
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T15:15:32Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
-    status: needs-rework
     confirmed_at: '2026-05-11T17:13:30Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "B5: regel 142 bevat 'Rekening 77 Regularisering van belastingen en terugneming van fiscale voorzieningen' als plain-text alinea zonder heading-prefix, terwijl omliggende subrekeningen elk een ####-heading hebben — structurele inconsistentie. D4: stelselmatige malformed italic bij rekeningnamen (spatie vóór sluitende asterisk) op regels 106, 120, 135, 140, 149 en meerdere andere — dit patroon is zo frequent dat het de leesbaarheid aantast."
     layer1:
-      file_size_chars: 45124
-      flags: []
-      heading_count: 42
-      max_section_chars: 21167
-      run_at: '2026-05-11T15:05:53Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:44Z'
+      heading_count: 42
+      max_section_chars: 21147
+      file_size_chars: 45082
+      flags: []
     layer2:
-      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T17:13:30Z'
-      rationale: "B5: regel 142 bevat 'Rekening 77 Regularisering van belastingen en terugneming van fiscale voorzieningen' als plain-text alinea zonder heading-prefix, terwijl omliggende subrekeningen elk een ####-heading hebben — structurele inconsistentie. D4: stelselmatige malformed italic bij rekeningnamen (spatie vóór sluitende asterisk) op regels 106, 120, 135, 140, 149 en meerdere andere — dit patroon is zo frequent dat het de leesbaarheid aantast."
       concrete_problemen:
-        - regel: 142
-          categorie: B5
+        - categorie: B5
+          regel: 142
           type: other
           voorbeeld: Rekening 77 Regularisering van belastingen en terugneming van fiscale voorzieningen
-        - regel: 106
-          categorie: D4
+        - categorie: D4
+          regel: 106
           type: other
           voorbeeld: rekening 640* Bedrijfsbelastingen*. Als tweede voorbeeld
-        - regel: 120
-          categorie: D4
+        - categorie: D4
+          regel: 120
           type: other
           voorbeeld: daartoe gecreëerd een rekening 6703* Gevormde fiscale voorziening*
-        - regel: 140
-          categorie: D4
+        - categorie: D4
+          regel: 140
           type: other
           voorbeeld: rekening 673* Buitenlandse belastingen op het resultaat van vorige boekjaren*
-        - regel: 149
-          categorie: D4
+        - categorie: D4
+          regel: 149
           type: other
           voorbeeld: fictief karakter van de *vordering *op de overheid
+      rationale: 'B5: regel 142 bevat ''Rekening 77 Regularisering van belastingen en terugneming van fiscale voorzieningen'' als plain-text alinea zonder heading-prefix, terwijl omliggende subrekeningen elk een ####-heading hebben — structurele inconsistentie. D4: stelselmatige malformed italic bij rekeningnamen (spatie vóór sluitende asterisk) op regels 106, 120, 135, 140, 149 en meerdere andere — dit patroon is zo frequent dat het de leesbaarheid aantast.'
+      run_at: '2026-05-11T17:13:30Z'
+      status: needs-rework
+    rationale: 'B5: regel 142 bevat ''Rekening 77 Regularisering van belastingen en terugneming van fiscale voorzieningen'' als plain-text alinea zonder heading-prefix, terwijl omliggende subrekeningen elk een ####-heading hebben — structurele inconsistentie. D4: stelselmatige malformed italic bij rekeningnamen (spatie vóór sluitende asterisk) op regels 106, 120, 135, 140, 149 en meerdere andere — dit patroon is zo frequent dat het de leesbaarheid aantast.'
+    status: needs-rework
 themas:
   - belastingen
   - actieve belastinglatentie
@@ -75,7 +75,6 @@ themas:
 # COMMISSIE VOOR BOEKHOUDKUNDIGE NORMEN
 
 ## Inleiding
-
 Onderhavig advies verduidelijkt de wijze waarop een onderneming de diverse belastingen die zij ondergaat moet opnemen in haar jaarrekening.
 
 Hierbij wordt een onderscheid gemaakt tussen de belastingen op het resultaat en de andere belastingen.
@@ -83,7 +82,6 @@ Hierbij wordt een onderscheid gemaakt tussen de belastingen op het resultaat en 
 Gelet op het belang van een duidelijke en eenduidige rapportering wordt in het kader van onderhavig advies tevens de nodige aandacht besteed aan de in de toelichting of elders in de door de Nationale Bank van België opgestelde modellen te vermelden gegevens.
 
 ## Belastingen op het resultaat
-
 De rekening 67 *Belastingen op het resultaat* wordt gebruikt voor alle uitgaven of kosten die de onderneming heeft gedaan of ondergaan ter voldoening van de winstbelastingen die geheven worden over het resultaat en die met deze winstbelastingen verrekenbaar zijn.[^2]
  Dit betreft zowel de Belgische winstbelastingen als de buitenlandse winstbelastingen (van bijvoorbeeld een buitenlandse inrichting). Ook regulariseringen van belastingen met betrekking tot het boekjaar zelf worden op deze rekening geboekt.
 
@@ -94,9 +92,7 @@ In principe worden de verschillende bestanddelen die met de inkomstenbelastingen
 De Commissie merkt op dat op de rekening 67 *Belastingen op het resultaat* niet alleen de inkomstenbelastingen worden geboekt die betrekking hebben op de eigenlijke boekhoudkundige winst van de onderneming, maar ook op alle andere[^8] bestanddelen die samen de belastbare bestanddelen van de onderneming vormen waarop de inkomstenbelastingen worden geheven.
 
 ### Belgische belastingen op het resultaat van het boekjaar
-
 #### Rekening 6700 Verschuldigde of gestorte belastingen en voorheffingen
-
 Op de rekening 6700 *Verschuldigde of gestorte belastingen en voorheffingen* worden alle uitgaven of kosten geboekt die tijdens het boekjaar ten laste werden genomen ter voldoening van de belasting die wordt geheven op het resultaat van het boekjaar.
 
 Aldus worden op deze rekening de betaalde voorafbetalingen geboekt die door de onderneming tijdens het boekjaar werden gestort, evenals de voorafbetalingen die tijdens een voorgaand boekjaar betaald werden en verrekend worden met de winstbelastingen van het huidige boekjaar.
@@ -108,48 +104,39 @@ Een niet-verrekenbare ingehouden voorheffing wordt niet op een 67-rekening geboe
 Andere, minder courante voorbeelden van kosten die worden geboekt op deze rekening zijn de uitgaven in het kader van een *tax shelter*regeling. De Commissie heeft afzonderlijke adviezen uitgebracht wat betreft de boekhoudkundige verwerking van dergelijke kosten.[^11] 
 
 #### Rekening 6701 Geactiveerde overschotten van betaalde belastingen en voorheffingen (-)
-
 Op de rekening 6701 *Geactiveerde overschotten van betaalde belastingen en voorheffingen (-)* wordt het positief verschil geboekt tussen de door de onderneming tijdens het boekjaar op de rekening 6700 *Verschuldigde of gestorte belastingen en voorheffingen* geboekte bedragen en het geraamde bedrag van de door de onderneming verschuldigde winstbelastingen op het resultaat van het boekjaar.
 
 Op deze rekening worden eveneens de gestorte voorafbetalingen geboekt die naar een volgend boekjaar worden overgedragen[^12] of waarvan de terugbetaling werd gevraagd. Op grond van het matchingprincipe[^13] en het compensatieverbod[^14] mogen in de resultatenrekening slechts opbrengsten en kosten worden opgenomen die betrekking hebben op het boekjaar (of op vorige boekjaren) en mogen daarin geen opbrengsten of kosten voorkomen die betrekking hebben op toekomstige boekjaren. Het verzoek van een onderneming om voorafbetalingen naar het volgende boekjaar over te dragen om belastingverplichtingen die op dat boekjaar betrekking hebben te dekken, brengt noodzakelijk met zich mee dat de betrokken bedragen via de rekening 6701 *Geactiveerde overschotten van betaalde belastingen en voorheffingen (-)* in mindering moeten worden gebracht van de kosten van het boekjaar en dat ze onder de activa worden opgenomen, met name onder de vorderingen. Tijdens het volgende boekjaar worden deze bedragen van deze actiefpost afgeboekt en als voorafbetaling voor het lopende jaar[^15] ten laste genomen.
 
 #### Rekening 6702 Geraamde belastingen
-
 Op de rekening 6702 *Geraamde belastingen* wordt het positieve verschil geboekt tussen het geraamde bedrag van de verschuldigde belastingen op de winst van het boekjaar en het bedrag van de voorafbetalingen en de verrekenbare bestanddelen. De tegenpost van deze rekening is in principe de schuldenrekening 450 *Geraamd bedrag der belastingschulden*. De raming van de belasting vindt plaats op basis van de regels die van toepassing zijn voor het met het boekjaar overeenstemmende aanslagjaar.
 
 Wegens het ontbreken binnen de minimumindeling van een algemeen rekeningenstelstel (M.A.R.)[^16] van een specifieke, afzonderlijke rekening voor de boeking van een voorziening voor belastingen op de winst van het boekjaar worden op deze rekening ook de bedragen geboekt die ten laste van het resultaat van het boekjaar worden geboekt als voorziening voor te betalen belastingen over de winst van het boekjaar waarover betwisting bestaat of zou door de onderneming daartoe een rekening 6703* Gevormde fiscale voorziening* kunnen worden gecreëerd. De tegenpost van deze rekening is de rekening 161* Voorzieningen voor belastingen*.
 
 ### Belgische belastingen op het resultaat van vorige boekjaren
-
 #### Rekening 6710 Verschuldigde of gestorte belastingsupplementen
-
 Op de rekening 6710 *Verschuldigde of gestorte belastingsupplementen* worden de bedragen geboekt die een onderneming gestort heeft of verschuldigd is naar aanleiding van een ingekohierde belasting op de winst van een voorgaand boekjaar.
 
 Ook indien de onderneming niet akkoord is met de door de fiscus ingekohierde belasting wordt deze ingekohierde belasting geboekt op de rekening 6710 *Verschuldigde of gestorte belastingsupplementen* met als tegenpost de rekening 452 *Te betalen belastingen en taksen*. Voor meer toelichting verwijst de Commissie naar subtitel III. Betwiste fiscale aanslag.
 
 #### Rekening 6711 Geraamde belastingsupplementen
-
 De rekening 6711 *Geraamde belastingsupplementen* wordt gebruikt voor de boeking van de geraamde, niet betwiste belastingsupplementen naar aanleiding van bijvoorbeeld een fiscale controle van de belastingaangifte van een voorgaand boekjaar die nog geen aanleiding heeft gegeven tot het ontstaan van een belastingschuld (inkohiering). Tevens worden hier in voorkomend geval de geraamde belastingsupplementen geboekt indien op basis van rechtspraak meer duidelijkheid komt omtrent een bepaalde fiscale toestand waaruit een verhoging van de geraamde belastingdruk volgt.
 
 #### Rekening 6712 Gevormde fiscale voorzieningen
-
 De rekening 6712 *Gevormde fiscale voorzieningen* wordt gebruikt voor de vorming van een voorziening voor de waarschijnlijke fiscale kost van een nakende belastingheffing op de winst waarvan het bestuursorgaan van mening is dat deze al dan niet gedeeltelijk ten onrechte is maar toch een fiscale kost met zich zal meebrengen.
 
 ### Buitenlandse belastingen op het resultaat
-
 Naar analogie met wat geldt voor de Belgische winstbelastingen voorziet de minimumindeling van het algemeen rekeningenstelsel[^17] ook voor de buitenlandse belastingen die geheven worden op de winst in afzonderlijke rekeningen naargelang het belastingen betreft op de winst van het huidige boekjaar (rekening 672 *Buitenlandse belastingen op het resultaat van het boekjaar*) of op de winst van een voorgaand boekjaar (rekening 673* Buitenlandse belastingen op het resultaat van vorige boekjaren*).
 
 Rekening 77 Regularisering van belastingen en terugneming van fiscale voorzieningen
 De subrekeningen van de rekening 77 *Regularisering van belastingen en terugneming van fiscale voorzieningen* worden gebruikt voor de verkregen, vastgestelde of geraamde regularisering, al dan niet ingevolge een ambtshalve ontheffing, van belastingen die tijdens een vorig boekjaar ten laste werden genomen. Zoals hiervoor reeds blijkt wordt de regularisering van belastingen die tijdens het huidig boekjaar ten laste worden genomen, geboekt door het crediteren van een 67-rekening. De effectief te gebruiken rekening van de minimumindeling van het algemeen rekeningstelsel binnen deze 77-rekeningen spreekt voor zich.
 
 ## Betwiste fiscale aanslag
-
 De Commissie is van mening dat de fiscale schuld moet worden opgenomen op het passief van de balans en in de resultatenrekening van zodra zij door de inkohiering ontstaat. Door de inkohiering ontstaat immers in hoofde van de onderneming een schuld die onmiddellijk of op korte termijn opeisbaar en bevoorrecht is. Slechts indien de aanslag onbetwistbaar nietig is (bijvoorbeeld wegens een vormgebrek) of volkomen ongegrond is (bijvoorbeeld wegens een materiële vergissing) zou de niet-vermelding hiervan onder de passiva verdedigbaar kunnen zijn.
 
 Indien de onderneming een bezwaar indient (of een ambtshalve ontheffing aanvraagt), moet de vennootschap dit in haar boekhouding op een passende wijze verwerken. De Commissie benadrukt hierbij dat de inschrijving op de balans van het ingestelde bezwaar of verhaal als activum (door de boeking van een vordering of eventueel een debitering van een schuldenrekening, i.c. een daartoe gecreëerde subrekening 4529 *Betwiste belastingen*) een verantwoorde waardering van deze* vordering *vereist die met de nodige omzichtigheid[^18] moet gebeuren. Zoals blijkt uit de voorgaande zin zal dergelijke vordering niet noodzakelijk, of zelfs meestal niet, overeenstemmen met het bedrag van de gevraagde ontheffing. Indien de ontheffing uiterst twijfelachtig is, kan geen terugvordering worden geboekt.
 
 ## Bijkomende aanslag na balansdatum
-
 Indien een onderneming na de afsluiting van het boekjaar en vóór het opmaken van de jaarrekening door de raad van bestuur een belangrijke bijkomende aanslag ontvangt die betrekking heeft op de inkomsten betreffende vorige boekjaren moet deze bijkomende aanslag volgens de Commissie in de jaarrekening van de onderneming worden opgenomen.
 
 Indien deze bijkomende aanslag door de onderneming niet wordt betwist, zal het bestuursorgaan hiermee rekening houden voor het bepalen van de geraamde belastingen[^19].
@@ -161,17 +148,13 @@ Naar het oordeel van de Commissie moet terzake rekening worden gehouden met arti
 Het is het bestuursorgaan dat oordeelt over het bedrag van de voorziening daarbij rekening houdend met de ingediende bezwaarschriften. Zo moet het bedrag van de voorziening niet gelijk zijn aan het bedrag van de aanslag maar moet het overeenstemmen met het geschatte bedrag van de kost die uiteindelijk op de onderneming zal drukken. Anderzijds moet worden onderstreept dat het indienen van een bezwaarschrift alleen niet volstaat om geen voorziening te vormen voor de belasting die waarschijnlijk zal moeten worden gedragen.
 
 ## Andere belastingen
-
 Naast de belastingen op het resultaat zijn er tal van andere belastingen en retributies die een onderneming ondergaat. Dergelijke belastingen die geen belastingen zijn die geheven worden op de winst, worden niet geboekt op een 67-rekening. Frequent voorkomende dergelijke belastingen zijn de niet-aftrekbare btw en de diverse bedrijfsbelastingen.
 
 ### Niet-aftrekbare btw
-
 #### Bijzaak volgt hoofdzaak
-
 Ondernemingen die geen recht op aftrek van de btw hebben of die uitgaven doen waarvoor geen, of slechts een gedeeltelijke aftrek van de btw is toegelaten, boeken deze niet-aftrekbare btw op dezelfde rekening als de rekening waarop de desbetreffende kost wordt geboekt en dit volgens het adagium bijzaak volgt hoofdzaak. Zo zal de niet-aftrekbare btw die betrekking heeft op onthaalkosten[^20] op dezelfde rekening worden geboekt als de rekening waarop de onthaalkosten worden geboekt. De Commissie merkt hierbij op dat de niet-aftrekbare btw op een factuur ontvangen van een leasingmaatschappij betreffende een financiële[^21] leasing geboekt wordt op de rekening 640 *Bedrijfsbelastingen*. Deze niet-aftrekbare btw maakt immers geen deel uit van de aanschaffingswaarde van het vast actiefbestanddeel; deze btw is nog niet opeisbaar bij het aangaan van de leasingovereenkomst.
 
 #### Herziening ingevolge een fiscale controle of spontane herziening
-
 Indien ingevolge een controle van de fiscale btw-administratie of ingevolge een spontane herziening het bedrag van de aftrekbare btw wordt herzien, wordt deze herziening geboekt op de rekening 640 *Bedrijfsbelastingen* wanneer ze negatief is of op de rekening 743-749 *Diverse bedrijfsopbrengsten* wanneer ze positief is. Wanneer de herziening het gevolg is van uitzonderlijke omstandigheden, wordt de herziening boekhoudkundig verwerkt als een niet-recurrent bedrijfsresultaat.[^22] 
 
 Hoewel een herziening van de btw in principe geen wijziging van de aanschaffingswaarde tot gevolg heeft, is de Commissie van mening dat bepaalde omstandigheden toch een aanpassing van de aanschaffingswaarde vereisen om te voldoen aan de vereiste van het getrouwe beeld. Dergelijke herziening kan zowel een vermindering als een vermeerdering van de aanschaffingswaarde tot gevolg hebben. Dit zou bijvoorbeeld het geval kunnen zijn wanneer een onderneming in eerste instantie een volledige aftrek van de btw heeft verricht en ingevolge een wijziging van haar activiteiten, een belangrijke herziening van deze initieel afgetrokken btw plaatsvindt.
@@ -187,14 +170,12 @@ Een onderneming heeft een bedrijfsgebouw laten oprichten om te verhuren. De aans
   | 
 
 ### Diverse bedrijfsbelastingen
-
 Op de rekening 640 *Bedrijfsbelastingen* worden de belastingen opgenomen die als een bedrijfskost moeten worden aangemerkt zoals de onroerende voorheffing, de verkeersbelasting, de belasting op inverkeerstelling, de belasting op drijfkracht of op tewerkgesteld personeel, de accijnsrechten en de uitvoerheffingen.[^25]
  De hiervoor opgesomde belastingen vormen een niet-limitatieve lijst van bedrijfsbelastingen. Andere voorbeelden zijn de provincie- en gemeentebelastingen, milieubelastingen en de belasting op toestellen.
 
 De Commissie is van mening dat de belastingen die samen met de inkomstenbelastingen worden ingekohierd voor de eenvoud steeds op een 67-rekening kunnen worden geboekt ongeacht of de belasting haar oorsprong rechtstreeks of onrechtstreeks vindt in de boekhoudkundige winst van de onderneming. Zo zullen bijvoorbeeld de afzonderlijke aanslagen in de vennootschapsbelasting[^26] geboekt worden op een 67-rekening hoewel deze stricto sensu geen winstbelastingen zijn.
 
 ## Vermeldingen in de toelichting
-
 Verplichte vermeldingen overeenkomstig artikel 100 W.Venn.
 Het Wetboek van vennootschappen bepaalt dat binnen de dertig dagen nadat de jaarrekening is goedgekeurd en ten laatste zeven maanden na de datum van afsluiting van het boekjaar door toedoen van de bestuurders of zaakvoerders bij de Nationale Bank van België een stuk moet worden neergelegd met opgave van het bedrag, op balansdatum, van de opeisbare schulden bij de belastingbesturen en bij de Rijksdienst voor Sociale Zekerheid, ongeacht of uitstel van betaling is verkregen, tenzij die reeds afzonderlijk in de jaarrekening worden vermeld.[^27] 
 
@@ -205,13 +186,11 @@ Met betrekking tot de belastingen die een onderneming ondergaat bevat het KB W.V
  Naast deze expliciet vermelde toelichtingen voor de ondernemingen die moeten publiceren volgens het volledig schema van de jaarrekening bevat het KB W.Venn. evenwel nog een aantal algemene bepalingen die gelden voor alle schema’s van de jaarrekening.
 
 #### Volledig schema van de jaarrekening
-
 De toelichting van de jaarrekening neergelegd volgens het volledig model moet een aantal verduidelijkingen vermelden wat betreft de belastingen opgenomen enerzijds in de resultatenrekening en anderzijds in de balans. Het officiële neerleggingsschema ter beschikking gesteld door de Balanscentrale bevat een daartoe benodigde invultabel op pagina VOL 6.13.
 
 De Commissie vindt het nuttig een aantal verduidelijkingen te verstrekken over deze tabel, opdat ondernemingen hem op een uniforme wijze zouden invullen.
 
 ##### Belangrijkste oorzaken van de verschillen tussen de winst vóór belastingen, zoals die blijkt uit de jaarrekening, en de geraamde belastbare winst
-
 Op deze plaats in de toelichting moeten vennootschappen vermelden wat de voornaamste oorzaken zijn van het verschil tussen de winst vóór belastingen zoals deze uit de jaarrekening blijkt en de geraamde belastbare winst indien deze verschillen een belangrijke invloed hebben op de resultaten van de onderneming[^29].
 
 De mate van detail van de in de toelichting te verstrekken informatie over de oorzaken van dit verschil moet door het bestuursorgaan worden beoordeeld in functie van het kernbeginsel dat de jaarrekening een getrouw beeld moet geven van het vermogen, de financiële positie en het resultaat van de vennootschap.[^30]
@@ -234,13 +213,11 @@ Het KB W.Venn. bevat geen lijst van de in de toelichting op te nemen mogelijke d
 - belastingkrediet voor kosten van onderzoek en ontwikkeling. 
 
 ##### Invloed van de niet-recurrente resultaten op de belastingen op het resultaat van het boekjaar
-
 In de toelichting moet worden vermeld welke invloed de niet-recurrente resultaten hebben op de belastingen op de winst van het boekjaar.[^33] 
 
 Indien een vennootschap bijvoorbeeld een belangrijke meerwaarde realiseert op een vast actiefbestanddeel, wordt deze meerwaarde geboekt als niet-recurrente opbrengst. Indien deze meerwaarde vervolgens gespreid wordt belast moet dit in de toelichting worden verduidelijkt. De Commissie merkt op dat door de dienaangaande gestelde fiscale voorwaarde van onaantastbaarheid,[^34] een overboeking naar de vrijgestelde reserves plaatsvindt middels de rekening 68 *Overboekingen naar de uitgestelde belastingen en naar de belastingvrije reserves* zodat er in deze geen distorsie[^35] is tussen de fiscale winst en de boekhoudkundige winst.
 
 ##### Bronnen van belastinglatenties
-
 In de toelichting moet een overzicht worden verstrekt van de bronnen van belastinglatenties die bestaan op balansdatum in de mate waarin deze informatie belangrijk is om een inzicht te verkrijgen in de financiële positie van de vennootschap.[^36] 
 
 Onder actieve belastinglatenties worden de fiscale voordelen begrepen die een vennootschap heeft verkregen tijdens het boekjaar of tijdens een voorgaand boekjaar maar die nog niet konden worden aangerekend op de belastbare winst van het boekjaar of een voorgaand boekjaar en daarom overgedragen kunnen worden om tijdens een volgend boekjaar te worden aangerekend op de belastbare winst. De Commissie[^37] is van mening dat naar Belgisch boekhoudrecht actieve belastinglatenties niet als actiefbestanddeel mogen worden opgenomen in de balans van de jaarrekening. De voornaamste redenen hiertoe zijn vooreerst het fictief karakter van de *vordering* op de overheid: de latentie is een potentiële vermindering van de belastingkost in de toekomst doch geeft geen aanleiding tot een terugbetaling. Tevens impliceert het boeken van een actieve belastinglatentie het geloof in toekomstige winsten en dus toekomstige belastbare basis wat in de regel een te onzeker karakter heeft mede gelet op de centrale plaats van het voorzichtigheidsbeginsel binnen het Belgische boekhoudrecht. Het boeken van een dergelijke actieve belastinglatentie komt de facto immers neer op het anticiperen op een toekomstige mogelijke winst. In België zijn bovendien de actieve belastinglatenties (overgedragen fiscale verliezen, overgedragen investeringsaftrek, e.d.) tot op heden niet transfereerbaar naar andere vennootschappen. Daarenboven is de berekening van de belastinglatentie zeer omslachtig en uiterst precair. Vaak is deze belastinglatentie zelfs helemaal niet becijferbaar omwille van de complexe en de frequent wisselende fiscale behandeling. Om al die redenen is de Commissie van mening dat het vermelden van de bronnen van de actieve belastinglatenties in de toelichting een veel getrouwer beeld geeft van het vermogen van de onderneming dan de boeking van een actiefbestanddeel op de balans.[^38] 
@@ -256,20 +233,15 @@ Een voorbeeld van een passieve belastinglatentie die, indien belangrijk, wel moe
  Hierbij ontstaat er immers een latente belastingschuld wanneer de vennootschap er in het eerste belastbaar tijdperk waarin zij de aftrek voor innovatie-inkomsten met betrekking tot een intellectueel eigendomsrecht toepast, er voor opteert om de historische kosten niet in één maal in mindering te brengen, maar deze te spreiden over dat belastbaar tijdperk en maximum de zes daaropvolgende belastbare tijdperken.
 
 #### Voor alle schema’s van de jaarrekening
-
 De Commissie wijst expliciet op het algemene beginsel dat stelt dat de jaarrekening een getrouw beeld moet geven van het vermogen, de financiële positie en het resultaat van de vennootschap. Wanneer de toepassing van de bepalingen van titel I van het KB W.Venn. niet volstaat om te voldoen aan dit voorschrift moeten aanvullende inlichtingen worden verstrekt in de toelichting.[^41]
  Deze toelichtingen worden opgenomen in het volledig model, het verkort model en het micromodel op de respectievelijke pagina’s VOL 6.20, VKT 6.9, MIC 6.6.
 
 ## Voorbeelden
-
 Hieronder volgt een overzicht van de meest courante boekingen van de Belgische belastingen op het resultaat van het boekjaar en op het resultaat van vorige boekjaren. De hieronder opgenomen gevallen zijn niet de enig mogelijke; specifieke gevallen kunnen immers andere of meer uitgewerkte boekingen vergen.
 
 ### Belastingen op het resultaat van het boekjaar
-
 #### Roerende voorheffing
-
 ##### Inning van het inkomen
-
 Een onderneming int een brutocoupon van 100.000 waarop 30 procent roerende voorheffing (hierna rv) wordt ingehouden.
 
 Boeking
@@ -281,7 +253,6 @@ Boeking
 | aan | 751 | Opbrengsten uit vlottende activa | | 100.000 |
 
 ##### Boeking van gelopen interest
-
 Een onderneming boekt het gelopen interestgedeelte (10.000 bruto) van een coupon die in het volgende boekjaar vervalt. Het tarief van de rv bedraagt 30 procent. De rv kan in beginsel in overeenstemmende mate worden verrekend voor het belastbare tijdperk waarin de boeking van het verlopen interestgedeelte wordt verricht.[^44] 
 
 Boeking
@@ -293,7 +264,6 @@ Boeking
 | aan | 751 | Opbrengsten uit vlottende activa | | 10.000 |
 
 #### Voorafbetalingen
-
 Een onderneming verricht een voorafbetaling van 200.000.
 
 Boeking
@@ -304,7 +274,6 @@ Boeking
 | aan | 5500 | Kredietinstellingen: Rekening-courant | | 200.000 |
 
 #### Afsluiting van het boekjaar
-
 ***Te weinig voorheffingen en voorafbetalingen***
 
 Een onderneming berekent dat de verschuldigde inkomstenbelastingen 50.000 meer zullen bedragen dan de verrekenbare voorheffingen en voorafbetalingen.
@@ -328,7 +297,6 @@ Boeking
 | aan | 6701 | Geactiveerde overschotten van betaalde belastingen en voorheffingen | | 40.000 |
 
 #### De onderneming verzoekt de belastingadministratie de door haar verrichte voorafbetalingen naar het volgende boekjaar over te dragen
-
 Een onderneming verzoekt de belastingadministratie de door haar verrichte voorafbetalingen voor een bedrag van 40.000 naar het volgende boekjaar/aanslagjaar over te dragen.
 
 Boeking tijdens het boekjaar
@@ -346,9 +314,7 @@ Boeking tijdens het volgende boekjaar
 | aan | 412 | Terug te vorderen voorheffingen en belastingen | | 40.000 |
 
 ### Belastingen op het resultaat van vorige boekjaren
-
 #### Geraamde belastingen waren te laag
-
 Tijdens het vorige boekjaar heeft de onderneming de verschuldigde belastingen geraamd op 50.000 en geboekt op de rekening 450 *Geraamd bedrag van de belastingschulden*. De uiteindelijk ingekohierde belasting bedraagt echter 55.000.
 
 Boeking
@@ -360,7 +326,6 @@ Boeking
 | aan | 452 | Te betalen belastingen en taksen | | 55.000 |
 
 #### Terug te vorderen belastingen waren te hoog
-
 Tijdens het vorige boekjaar heeft de onderneming 40.000 voorafbetalingen geactiveerd. De teruggave bedraagt echter slechts 33.000.
 
 Boeking bij ontvangst van het aanslagbiljet
@@ -378,7 +343,6 @@ Boeking bij ontvangst van de terugbetaling
 | aan | 412 | Terug te vorderen voorheffingen en belastingen | | 33.000 |
 
 #### Geraamde belastingen waren te hoog
-
 Tijdens het vorige boekjaar heeft de onderneming de verschuldigde belastingen geraamd op 50.000 en geboekt op de rekening 450 *Geraamd bedrag van de belastingschulden*. De uiteindelijk ingekohierde belasting bedraagt echter 40.000.
 
 Boeking
@@ -390,7 +354,6 @@ Boeking
 | | 452 | Te betalen belastingen en taksen | 40.000 | |
 
 #### Terug te vorderen belastingen waren te laag
-
 Tijdens het vorige boekjaar heeft de onderneming 40.000 voorafbetalingen geactiveerd. De teruggave bedraagt echter 44.000.
 
 Boeking bij ontvangst van het aanslagbiljet
@@ -408,7 +371,6 @@ Boeking bij ontvangst van de terugbetaling
 | aan | 412 | Terug te vorderen voorheffingen en belastingen | | 44.000 |
 
 ### Betwiste aanslagen
-
 Een onderneming heeft een aanslagbiljet ontvangen met een belastingsupplement voor een bedrag van 130.000. De onderneming heeft een bezwaarschrift[^46] ingediend waarin zij de aanslag ten belope van 95.000 betwist.
 
 Boeking bij de ontvangst van het aanslagbiljet
@@ -433,9 +395,7 @@ Boekingen naar aanleiding van de bevestiging van een ontheffing ten belope van 9
 | aan | 412 | Terug te vorderen voorheffingen en belastingen | | 1.000 |
 
 ### Voorziening voor belastingen
-
 #### Aanleggen van de voorziening
-
 Ingevolge een betwisting wordt rekening gehouden met een mogelijk belastingsupplement over een vorig boekjaar van 80.000.
 
 Boeking
@@ -446,7 +406,6 @@ Boeking
 | aan | 161 | Voorzieningen voor belastingen | | 80.000 |
 
 #### Aanwending van de voorziening
-
 Uiteindelijk is een belastingsupplement van 83.000 verschuldigd.
 
 Boeking
@@ -468,7 +427,6 @@ Boeking
 | | 7712 | Terugneming van fiscale voorzieningen | 2.000 | |
 
 ## Onderhavig advies vervangt de volgende adviezen:
-
 - CBN-advies 128/4 – Voorafbetalingen van belastingen; 
 - CBN-advies 141 – Fictieve roerende voorheffing; 
 - CBN-advies 128/1 – Betwiste fiscale aanslag; 

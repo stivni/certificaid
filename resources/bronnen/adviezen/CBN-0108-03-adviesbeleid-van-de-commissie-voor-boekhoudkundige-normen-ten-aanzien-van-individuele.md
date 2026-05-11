@@ -2,66 +2,58 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/adviesbeleid-van-de-commissie-voor-boekhoudkundige-normen-ten-aanzien-van-individuele
 datum: 1986-01-01
 gerelateerde_adviezen:
-- datum: '2024-02-08'
-  titel: 'Belgische bijkantoren van buitenlandse verenigingen en stichtingen: toepassing
-    van het Belgisch boekhoudrecht – begrip ‘bijkantoor’ – publicatieplicht – eigen
-    boekhoudkundige verplichtingen'
-  url: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-buitenlandse-verenigingen-en-stichtingen-toepassing-van-het-0
-- datum: '2022-11-08'
-  titel: 'Belgische bijkantoren van buitenlandse vennootschappen: eigen boekhoudkundige
-    verplichtingen (update)'
-  url: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-buitenlandse-vennootschappen-eigen-boekhoudkundige
-- datum: '2019-05-14'
-  titel: Adviesbeleid van de Commissie voor Boekhoudkundige Normen ten aanzien van
-    vragen tot afwijking voor Belgische bijkantoren van buitenlandse vennootschappen
-    (ONTWERP)
-  url: https://www.cbn-cnc.be/nl/adviezen/adviesbeleid-van-de-commissie-voor-boekhoudkundige-normen-ten-aanzien-van-vragen-tot
-- datum: '2019-03-26'
-  titel: 'Belgische bijkantoren van vennootschappen naar buitenlands recht: eigen
-    boekhoudkundige verplichtingen'
-  url: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-vennootschappen-naar-buitenlands-recht-eigen-boekhoudkundige-0
+  - datum: '2024-02-08'
+    titel: 'Belgische bijkantoren van buitenlandse verenigingen en stichtingen: toepassing van het Belgisch boekhoudrecht – begrip ‘bijkantoor’ – publicatieplicht – eigen boekhoudkundige verplichtingen'
+    url: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-buitenlandse-verenigingen-en-stichtingen-toepassing-van-het-0
+  - datum: '2022-11-08'
+    titel: 'Belgische bijkantoren van buitenlandse vennootschappen: eigen boekhoudkundige verplichtingen (update)'
+    url: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-buitenlandse-vennootschappen-eigen-boekhoudkundige
+  - datum: '2019-05-14'
+    titel: Adviesbeleid van de Commissie voor Boekhoudkundige Normen ten aanzien van vragen tot afwijking voor Belgische bijkantoren van buitenlandse vennootschappen (ONTWERP)
+    url: https://www.cbn-cnc.be/nl/adviezen/adviesbeleid-van-de-commissie-voor-boekhoudkundige-normen-ten-aanzien-van-vragen-tot
+  - datum: '2019-03-26'
+    titel: 'Belgische bijkantoren van vennootschappen naar buitenlands recht: eigen boekhoudkundige verplichtingen'
+    url: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-vennootschappen-naar-buitenlands-recht-eigen-boekhoudkundige-0
 nummer: CBN-advies 108/3
 provenance:
-  generated_at: '2026-05-11T15:15:31Z'
+  generated_at: '2026-05-11T17:48:38Z'
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/adviesbeleid-van-de-commissie-voor-boekhoudkundige-normen-ten-aanzien-van-individuele
-    sha256: c0b9519477900e6821c5330d92c6b8fecda78ba46a6c7dea270f2cbe45c93bd6
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/adviesbeleid-van-de-commissie-voor-boekhoudkundige-normen-ten-aanzien-van-individuele
+      sha256: c0b9519477900e6821c5330d92c6b8fecda78ba46a6c7dea270f2cbe45c93bd6
+      version:
   stale: false
-  stale_reason: null
+  stale_reason:
   tooling:
-    model: null
+    model:
     pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    prompt_version: null
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
     confirmed_at: '2026-05-08T21:31:10Z'
     confirmed_by: human
     layer1:
-      file_size_chars: 8882
-      flags: []
-      heading_count: 3
-      max_section_chars: 3604
-      run_at: '2026-05-11T15:05:48Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:40Z'
+      heading_count: 3
+      max_section_chars: 3603
+      file_size_chars: 8873
+      flags: []
     layer2:
-      agent: null
+      agent:
       concrete_problemen: []
-      rationale: null
-      run_at: null
+      rationale:
+      run_at:
       status: not_run
-    rationale: 'Herscraped na fix select_title(): gecombineerde H1 (COMMISSIE + titel)
-      correct gesplitst. Inhoud ongewijzigd t.o.v. vorig vertrouwd verdict. Laag 1
-      pass (of benign max_section warn).'
+    rationale: 'Herscraped na fix select_title(): gecombineerde H1 (COMMISSIE + titel) correct gesplitst. Inhoud ongewijzigd t.o.v. vorig vertrouwd verdict. Laag 1 pass (of benign max_section warn).'
     status: trusted
 themas:
-- afwijking
-- concurrentieverstoring
-- mededingingsvoorwaarde
-- middelgrote onderneming
-- omzetcijfer
-- verstoring van de mededingingsvoorwaarden
+  - afwijking
+  - concurrentieverstoring
+  - mededingingsvoorwaarde
+  - middelgrote onderneming
+  - omzetcijfer
+  - verstoring van de mededingingsvoorwaarden
 ---
 
 # CBN-advies 108/3 - Adviesbeleid van de Commissie voor Boekhoudkundige Normen ten aanzien van individuele vragen om afwijking wegens verstoring van de mededingingsvoorwaarden
@@ -81,7 +73,6 @@ Hieruit vloeit voort dat:
 3. in alle gevallen het gemotiveerd (niet bindend) advies van de Commissie voor Boekhoudkundige Normen moet worden ingewonnen. Zulks is een substantieel vormvereiste. Dit advies is echter niet bindend voor de Minister. 
 
 ## INVLOED VAN DE VIERDE EEG-RICHTLIJN
-
 Als gevolg van de aanpassing van het boekhoud- en jaarrekeningenrecht aan de Vierde EEG-Richtlijn[^4] zijn de mogelijkheden tot het verlenen van individuele afwijkingen ingeperkt geworden. De Minister van Economische Zaken respectievelijk Minister van Middenstand zouden supranationale regels schenden, mochten afwijkingen worden toegestaan die strijdig zijn met de bepalingen van de richtlijn[^5].
 
 De gebruikte uitdrukking «strijdigheid met de vierde richtlijn» vergt evenwel nader onderzoek. Vooreerst is het evident dat de betrokken Ministers hun volle bevoegdheid behouden om vrijstelling te verlenen van de toepassing van normen die geen weergave zijn in het Belgisch recht van een Europeesrechtelijke verplichting. De verplichte naleving in België van een algemeen rekeningenstelsel bijvoorbeeld is géén Europeesrechtelijk vereiste. Het onderzoek van vragen om afwijking daaromtrent wordt dus in geen enkel opzicht beïnvloed door de inwerkingtreding van de vierde E.E.G.-richtlijn.
@@ -101,7 +92,6 @@ De Commissie is derhalve van oordeel dat aan Belgische ondernemingen die de crit
 Anderzijds zou het uiteraard strijdig zijn met de richtlijn aan ondernemingen waarop ze van toepassing is (N.V., B.V.B.A., C.V.A.) en die de criteria van artikel 27 overschrijden, buiten de twee gevallen waarin de richtlijn zélf voorziet dat aan grote vennootschappen toestemming kan worden gegeven om van haar bepalingen af te wijken, nog langer afwijkingen te verlenen. De twee in de richtlijn bedoelde gevallen van mogelijke afwijkingen betreffen enerzijds de vermelding van deelnemingen en aandelen gehouden in andere vennootschappen[^7], anderzijds de uitsplitsing van de netto-omzet naar categorieën bedrijfsactiviteiten en geografische markten[^8].
 
 ## ALGEMENE BENADERINGSWIJZE INDIVIDUELE AFWIJKINGEN
-
 In zijn advies bij het wetsontwerp met betrekking tot de boekhouding en de jaarrekeningen van de ondernemingen[^9] heeft de Raad van State erop gewezen dat het grondwettelijk beginsel dat de Belgen gelijk zijn voor de wet kan worden geschonden als de toegestane afwijking de betrokken onderneming een stellig voordeel mocht opleveren op het gebied van de handelsconcurrentie en dat op beslissingen tot individuele afwijking praktisch geen rechterlijke controle zal kunnen worden uitgeoefend, want deze worden niet gepubliceerd en kunnen dus niet worden aangevochten door hen die zich benadeeld achten als zij er kennis van hadden.
 
 Deze en andere overwegingen hebben de Commissie aangespoord tot grote voorzichtigheid bij het uitoefenen van haar adviesbevoegdheid inzake vragen om afwijking. Zij heeft als gevolg daarvan bepaalde beleidslijnen vastgesteld die het mogelijk moeten maken elke (positieve of negatieve) beslissing op passende wijze te motiveren. Hogervernoemde cijfers over de concrete toepassingsgevallen bevestigen dat deze restrictieve benadering met de werkelijkheid strookt.
@@ -109,7 +99,6 @@ Deze en andere overwegingen hebben de Commissie aangespoord tot grote voorzichti
 In adviezen 108/1 en 108/2[^10] werd de adviespraktijk van de Commissie beschreven.
 
 ## PROCEDURE
-
 Zoals aangekondigd in het Verslag aan de Koning dat het besluit van 12 september 1983 tot wijziging van het besluit van 8 oktober 1976 voorafgaat, zal van de ondernemingen die een afwijking hebben verkregen in de regel worden geëist dat zij daarvan melding maken in de toelichting.
 
 [^1]: Cf. toelichting XII, A van het volledig jaarrekeningschema.

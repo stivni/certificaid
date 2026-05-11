@@ -13,39 +13,31 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
+    pipeline_version: 11f9196
     model:
     prompt_version:
-  generated_at: '2026-05-11T15:15:31Z'
+  generated_at: '2026-05-11T17:48:39Z'
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T17:09:38Z'
+    status: trusted
+    confirmed_at: '2026-05-11T17:51:53Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "B3 bevestigd: regel 58 '# COMMISIE VOOR BOEKHOUDKUNDIGE NORMEN' is een extra H1 scrape-artefact (de werkelijke adviestitel ontbreekt als H1 volledig). A3/A6 bevestigd: regel 60 'Periode na de datum van boekhoudkundige retroactiviteitOpenbaarmakingsformaliteiten' toont twee sectietitels samengevoegd zonder spatie — typisch scrape-artefact. Beide zijn ETL-bugs, geen source-typo's."
+    rationale: 'Geen detecteerbare ETL-artefacten. Heading-hiërarchie correct (## en ###), voetnoten volledig en gekoppeld via [^n], lijsten met standaard markdown-bullets, geen spurious line-breaks of OCR-issues. Een buitenstaander zou dit voor mens-geschreven markdown houden.'
     layer1:
-      file_size_chars: 10866
-      flags: []
-      heading_count: 4
-      max_section_chars: 3897
-      run_at: '2026-05-11T15:05:51Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:43Z'
+      heading_count: 5
+      max_section_chars: 3896
+      file_size_chars: 10880
+      flags: []
     layer2:
-      status: needs-rework
+      status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T17:09:38Z'
-      rationale: "B3 bevestigd: regel 58 '# COMMISIE VOOR BOEKHOUDKUNDIGE NORMEN' is een extra H1 scrape-artefact (de werkelijke adviestitel ontbreekt als H1 volledig). A3/A6 bevestigd: regel 60 'Periode na de datum van boekhoudkundige retroactiviteitOpenbaarmakingsformaliteiten' toont twee sectietitels samengevoegd zonder spatie — typisch scrape-artefact. Beide zijn ETL-bugs, geen source-typo's."
-      concrete_problemen:
-        - regel: 58
-          categorie: B3
-          type: other
-          voorbeeld: '# COMMISIE VOOR BOEKHOUDKUNDIGE NORMEN — extra H1 scrape-artefact (ook met typofout)'
-        - regel: 60
-          categorie: A3
-          type: scrambled-words
-          voorbeeld: Periode na de datum van boekhoudkundige retroactiviteitOpenbaarmakingsformaliteiten — twee titels samengevoegd
+      run_at: '2026-05-11T17:51:53Z'
+      rationale: 'Geen detecteerbare ETL-artefacten. Heading-hiërarchie correct (## en ###), voetnoten volledig en gekoppeld via [^n], lijsten met standaard markdown-bullets, geen spurious line-breaks of OCR-issues. Een buitenstaander zou dit voor mens-geschreven markdown houden.'
+      concrete_problemen: []
 themas:
   - Inbreng van een algemeenheid
   - openbaarmaking
@@ -55,9 +47,7 @@ themas:
   - vzw
 ---
 
-# COMMISIE VOOR BOEKHOUDKUNDIGE NORMEN
-
-Periode na de datum van boekhoudkundige retroactiviteitOpenbaarmakingsformaliteiten 
+# CBN-advies 2015/3 - Verplichting tot opstelling en publicatie van de jaarrekening door de inbrengende vereniging in het kader van een pseudo-fusie
 
 In het kader van een pseudo-fusie door overneming, werd met betrekking tot grote en zeer grote verenigingen aan de Commissie gevraagd welke verplichtingen inzake de opmaak en publicatie van de jaarrekening gelden voor de inbrengende vereniging die naar aanleiding van de pseudo-fusie ophoudt te bestaan.
 
@@ -74,12 +64,10 @@ In het Wetboek van vennootschappen wordt de “inbreng van een algemeenheid” o
 Bij een pseudo-fusie tussen verenigingen wordt de algemeenheid overgedragen om niet. De inbrengende vereniging ontvangt m.a.w. geen enkele vergoeding.[^5]
  De vereniging die in het kader van de pseudo-fusie haar volledige vermogen heeft overgedragen, heeft bijgevolg geen middelen meer om haar maatschappelijk doel te verwezenlijken; de algemene vergadering[^6] van de inbrengende vereniging kan zich uitspreken over de ontbinding van deze vereniging.
 
-## Periode tot de datum van boekhoudkundige retroactiviteit[^7]
-
+## Periode tot de datum van boekhoudkundige retroactiviteit
 Ook al bestaat hiertoe geen wettelijke verplichting, omwille van het belang van continuïteit van informatie beveelt de Commissie aan dat de inbrengende vereniging desgevallend[^8] een jaarrekening opstelt en openbaar maakt voor de periode tussen de afsluitingsdatum van het laatste boekjaar waarvan de jaarrekening werd goedgekeurd en de datum vanaf dewelke de verrichtingen boekhoudkundig worden beschouwd als zijnde verricht voor rekening van de verkrijgende vereniging.
 
 ### Voorbeeld 1
-
 Naar aanleiding van een pseudo-fusie worden de verrichtingen van een inbrengende vereniging met een boekjaar dat loopt van 1 januari tot 31 december vanaf 1 september 2015 beschouwd als zijnde verricht voor rekening van de verkrijgende vereniging. De jaarrekening over het boekjaar 2014 wordt neergelegd op 15 juli 2015.
 
 Schematisch:
@@ -89,13 +77,11 @@ De verplichtingen inzake opmaak en publicatie van de jaarrekening **over het boe
 De Commissie beveelt aan dat de inbrengende vereniging een jaarrekening opstelt en openbaar maakt voor de periode van 01.01.2015 tot 01.09.2015. Deze jaarrekening zal de naam van de vereniging vermelden, onmiddellijk voorafgegaan of gevolgd door de woorden “vereniging zonder winstoogmerk in vereffening”[^9].
 
 ## Periode na de datum van boekhoudkundige retroactiviteit
-
 Als gevolg van de inbreng om niet van de algemeenheid door een vereniging, heeft deze vereniging geen activa noch schulden meer (zie *supra*, randnummer 2). Bijgevolg kan de beslissing tot ontbinding en vereffening van de vereniging worden genomen in één en dezelfde akte.
 
 Bij een dergelijke pseudo-fusie, wordt de vereniging boekhoudkundig geacht geen verrichtingen meer uit te voeren voor eigen rekening vanaf de datum waarop haar verrichtingen boekhoudkundig worden beschouwd als zijnde verricht voor rekening van de overnemende vereniging. De verplichtingen inzake opmaak en publicatie van de jaarrekening blijven onverkort van toepassing in hoofde van de inbrengende vereniging. Dit heeft als gevolg dat de inbrengende vereniging geen jaarrekening meer dient op te stellen en openbaar te maken voor de periode tussen de datum van boekhoudkundige retroactiviteit en de datum van haar ontbinding en vereffening, indien deze datum van ontbinding en vereffening vóór de normale afsluitdatum van het boekjaar valt[^10]. Valt de datum van ontbinding en vereffening pas in het daaropvolgende boekjaar, dan zal de inbrengende vereniging op de normale afsluitdatum van het boekjaar nog steeds een jaarrekening moeten opstellen en openbaar maken[^11].
 
-**Voorbeeld 2**
-
+## Voorbeeld 2
 Naar aanleiding van een pseudo-fusie worden de verrichtingen van een inbrengende vereniging met een boekjaar dat loopt van 1 januari tot 31 december vanaf 1 april 2015 beschouwd als zijnde verricht voor rekening van de verkrijgende vereniging. De inbrengende vereniging wordt ontbonden op 30 mei 2015.
 
 Schematisch:
@@ -105,7 +91,6 @@ De verplichtingen inzake opmaak en publicatie van de jaarrekening over het boekj
 Ook indien de datum van ontbinding en vereffening van de vereniging zou vallen na de datum van neerlegging van de jaarrekening over het boekjaar 2014 blijven de verplichtingen inzake opmaak en publicatie van de jaarrekening over het boekjaar 2014 onverkort van toepassing in hoofde van de inbrengende vereniging. In dat geval zullen de woorden “in vereffening” niet bij de naam van de vereniging worden vermeld. Ook in dit geval dient de inbrengende vereniging voor het boekjaar 2015 geen jaarrekening meer op te stellen en neer te leggen voor de periode tussen de boekhoudkundige retroactiviteit en de datum van haar ontbinding en vereffening, behalve indien deze datum van ontbinding en vereffening na afsluitdatum van het boekjaar 2015 (31 december 2015) valt.[^13] 
 
 ## Openbaarmakingsformaliteiten
-
 De enige openbaarmakingsformaliteit die wordt voorgeschreven in artikel 26novies van de wet van 27 juni 1921 met betrekking tot de ontbinding van een vereniging heeft betrekking op de neerlegging ter griffie van de rechtbank van koophandel en de bekendmaking bij uittreksel in de bijlagen bij het Belgisch Staatsblad van de beslissing betreffende de ontbinding en vereffening van de vereniging en de benoeming en ambtsbeëindiging van de vereffenaars zoals bedoeld in artikel 23, eerste lid van de wet.
 
 Indien de inbreng van een algemeenheid wordt verricht terwijl de algemene vergadering[^14] de jaarrekening van het vorige boekjaar nog niet heeft goedgekeurd, volstaat het dat het bestuursorgaan deze jaarrekening ter goedkeuring voorlegt aan de algemene vergadering[^15] die beslist tot de ontbinding, dat er wordt gestemd over de kwijting van de bestuurders en dat de jaarrekening wordt neergelegd bij de Nationale Bank van België of bij de griffie van de rechtbank van Koophandel, waarbij de naam van de vereniging wordt voorafgegaan of gevolgd door de woorden “in vereffening”.[^16] 

@@ -3,41 +3,41 @@ bron: https://www.cbn-cnc.be/nl/adviezen/opbrengsten-waarover-betwisting-bestaat
 datum: 1989-09-01
 nummer: CBN-advies 107/11
 provenance:
+  generated_at: '2026-05-11T17:48:38Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/opbrengsten-waarover-betwisting-bestaat-update
       sha256: a825f5803d0f039826d922fc8be983950b805af35c15c92916d08be43e25f0cf
       version:
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
-    status: needs-rework
     confirmed_at: '2026-05-11T17:05:20Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "G2: frontmatter themas-veld op regel 45 bevat ongeparseerde HTML-entity '&#039;' ('voorzieningen voor risico&#039;s en kosten') — ETL-bug, HTML niet gedecode. Body-tekst is volledig clean en inhoudelijk correct."
     layer1:
-      file_size_chars: 3517
-      flags: []
-      heading_count: 0
-      max_section_chars: 3517
-      run_at: '2026-05-11T15:05:48Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:40Z'
+      heading_count: 0
+      max_section_chars: 3512
+      file_size_chars: 3512
+      flags: []
     layer2:
-      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T17:05:20Z'
-      rationale: "G2: frontmatter themas-veld op regel 45 bevat ongeparseerde HTML-entity '&#039;' ('voorzieningen voor risico&#039;s en kosten') — ETL-bug, HTML niet gedecode. Body-tekst is volledig clean en inhoudelijk correct."
       concrete_problemen:
-        - regel: 45
-          categorie: G2
+        - categorie: G2
+          regel: 45
           type: other
           voorbeeld: voorzieningen voor risico&#039;s en kosten — HTML-entity &#039; niet gedecode in YAML
+      rationale: 'G2: frontmatter themas-veld op regel 45 bevat ongeparseerde HTML-entity ''&#039;'' (''voorzieningen voor risico&#039;s en kosten'') — ETL-bug, HTML niet gedecode. Body-tekst is volledig clean en inhoudelijk correct.'
+      run_at: '2026-05-11T17:05:20Z'
+      status: needs-rework
+    rationale: 'G2: frontmatter themas-veld op regel 45 bevat ongeparseerde HTML-entity ''&#039;'' (''voorzieningen voor risico&#039;s en kosten'') — ETL-bug, HTML niet gedecode. Body-tekst is volledig clean en inhoudelijk correct.'
+    status: needs-rework
 themas:
   - betwisting
   - opbrengsten waarover betwisting bestaat
@@ -50,8 +50,7 @@ themas:
   - waarschijnlijkheid
 ---
 
-# Advies van september 1989, bijgewerkt op 10 september 2025[^1]
-
+# Advies van september 1989, bijgewerkt op 10 september 2025
 Krachtens het eerste lid van artikel 3:11 van het koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen (hierna: KB WVV) moet rekening worden gehouden ”met alle voorzienbare risico's, mogelijke verliezen en ontwaardingen, ontstaan tijdens het boekjaar waarop de jaarrekening betrekking heeft of tijdens voorgaande boekjaren, zelfs indien deze risico's, verliezen of ontwaardingen slechts gekend zijn tussen de balansdatum en het ogenblik waarop de jaarrekening door het bestuursorgaan van de vennootschap, VZW, IVZW of stichting wordt opgesteld”. Het tweede lid van art. 3:11 KB WVV zegt voorts dat rekening moet worden gehouden met de kosten en de opbrengsten die betrekking hebben op het boekjaar of op voorgaande boekjaren, ongeacht de dag waarop deze kosten en opbrengsten worden betaald of geïnd, behalve indien de effectieve inning van deze opbrengsten onzeker is. 
 
 Met andere woorden, wanneer − op basis van de criteria van voorzichtigheid, oprechtheid en goede trouw − de inning van een opbrengst onzeker blijft, dan staat het de onderneming vrij deze opbrengst niet in resultaat te nemen zolang de effectieve inning onzeker blijft. Dezelfde opbrengst mag echter ook als resultaat worden geboekt: in dat geval moet voor de onzekerheid omtrent de inning een waardevermindering dan wel − in voorkomend geval − een voorziening voor risico's en kosten ten laste van de resultatenrekening worden geboekt. 

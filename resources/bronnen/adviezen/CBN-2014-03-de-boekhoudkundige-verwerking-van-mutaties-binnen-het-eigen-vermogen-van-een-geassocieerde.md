@@ -10,41 +10,41 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/advies-inzake-de-boekhoudkundige-verwerking-van-verrichtingen-van-tijdelijk
 nummer: CBN-advies 2014/3
 provenance:
+  generated_at: '2026-05-11T17:48:39Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-mutaties-binnen-het-eigen-vermogen-van-een-geassocieerde
       sha256: dfeb550b2cb94ee3571ce6b1aa301cb8ad20d7a65283f1bbc78e5798432fb03e
       version:
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
-    status: needs-rework
     confirmed_at: '2026-05-11T17:09:38Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "A6: regel 61 bevat ', bijgewerkt op 25 juni 2025[^2]' als losstaand tekstfragment direct na de H1-heading — een scrape-artefact waarbij de bijwerkingsdatum als aparte tekstregel terechtkwam in de body. Een mens zou dit nooit zo schrijven; het hoort in de frontmatter of geïntegreerd in de titel."
     layer1:
-      file_size_chars: 9651
-      flags: []
-      heading_count: 2
-      max_section_chars: 7492
-      run_at: '2026-05-11T15:05:51Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:43Z'
+      heading_count: 2
+      max_section_chars: 7491
+      file_size_chars: 9615
+      flags: []
     layer2:
-      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T17:09:38Z'
-      rationale: "A6: regel 61 bevat ', bijgewerkt op 25 juni 2025[^2]' als losstaand tekstfragment direct na de H1-heading — een scrape-artefact waarbij de bijwerkingsdatum als aparte tekstregel terechtkwam in de body. Een mens zou dit nooit zo schrijven; het hoort in de frontmatter of geïntegreerd in de titel."
       concrete_problemen:
-        - regel: 61
-          categorie: A6
+        - categorie: A6
+          regel: 61
           type: other
           voorbeeld: ', bijgewerkt op 25 juni 2025[^2]'
+      rationale: 'A6: regel 61 bevat '', bijgewerkt op 25 juni 2025[^2]'' als losstaand tekstfragment direct na de H1-heading — een scrape-artefact waarbij de bijwerkingsdatum als aparte tekstregel terechtkwam in de body. Een mens zou dit nooit zo schrijven; het hoort in de frontmatter of geïntegreerd in de titel.'
+      run_at: '2026-05-11T17:09:38Z'
+      status: needs-rework
+    rationale: 'A6: regel 61 bevat '', bijgewerkt op 25 juni 2025[^2]'' als losstaand tekstfragment direct na de H1-heading — een scrape-artefact waarbij de bijwerkingsdatum als aparte tekstregel terechtkwam in de body. Een mens zou dit nooit zo schrijven; het hoort in de frontmatter of geïntegreerd in de titel.'
+    status: needs-rework
 themas:
   - geassocieerde onderneming
   - mutaties binnen het eigen vermogen
@@ -58,10 +58,7 @@ themas:
 
 # CBN-advies 2014/3 – De boekhoudkundige verwerking van mutaties binnen het eigen vermogen van een geassocieerde onderneming (update)
 
-, bijgewerkt op 25 juni 2025[^2]
-
 ## Inleiding
-
 In hetgeen volgt wenst de Commissie aan de hand van een praktisch voorbeeld te illustreren hoe wijzigingen binnen het eigen vermogen van een geassocieerde onderneming, andere dan wijzigingen ten gevolge van het resultaat van het boekjaar met uitsluiting van het gedeelte hiervan dat bij bestemming anderszins dan als dividend wordt toegekend, dienen te worden verwerkt in de geconsolideerde jaarrekening.
 
 De Commissie denkt in dit kader concreet aan de uitdrukking van een herwaarderingsmeerwaarde, de verkrijging van een kapitaalsubsidie, de overboeking van een gerealiseerde meerwaarde naar de belastingvrije reserves en het boeken van een uitgiftepremie naar aanleiding van de uitgifte van een converteerbare obligatielening. Dit zijn zogenaamde *direct-to-equity* mutaties die een wijziging van het eigen vermogen tot gevolg hebben zonder de tussenkomst van een resultaatverwerking.
@@ -73,7 +70,6 @@ Artikel 3:143 KB WVV lijkt te laten uitschijnen dat enkel het resultaat van het 
 Daarnaast wenst de Commissie tevens te wijzen op toelichting CONSO 5 van het model van de geconsolideerde jaarrekening, waar de consoliderende moeder een aansluiting dient te verstrekken van de geconsolideerde reserves. De impact van zogenaamde *direct-to-equity* mutaties bij de geassocieerde ondernemingen zal ook hier op een passende wijze moeten toegelicht worden.
 
 ## Praktische uitwerking
-
 In het onderstaande voorbeeld gaan we ervan uit dat onderneming A nog andere participaties heeft dewelke zij integraal dient te consolideren en derhalve verplicht is een geconsolideerde jaarrekening op te stellen.
 
 De balans van de enkelvoudige jaarrekening van onderneming A per 1 december 20X3:

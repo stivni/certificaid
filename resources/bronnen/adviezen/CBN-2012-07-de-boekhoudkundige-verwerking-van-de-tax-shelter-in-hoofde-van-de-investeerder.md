@@ -16,53 +16,53 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-tax-shelter-in-hoofde-van-de-productievennootschap
 nummer: CBN-advies 2012/7
 provenance:
+  generated_at: '2026-05-11T17:48:39Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-tax-shelter-in-hoofde-van-de-investeerder
       sha256: dc95420e9c652b744e721087806cdbf2d4fac9f260be6e391e05124393bf9444
       version:
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
-    status: needs-rework
     confirmed_at: '2026-05-11T17:09:38Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "B5: regels 130 en 147 tonen sectie-titels ('Boekhoudkundige kwalificatie van de rechten...' en 'Te verrichten boekingen tijdens de verschillende fasen...') als plain-text alinea's zonder heading-prefix, terwijl dit duidelijk sectieniveaus zijn op ## niveau. E2: regels 181-182 en 203-206 tonen gebroken tabelrijen met omschrijvingen die over meerdere regels lopen met tab-inspringing buiten de cellen."
     layer1:
-      file_size_chars: 28752
-      flags: []
-      heading_count: 19
-      max_section_chars: 15314
-      run_at: '2026-05-11T15:05:50Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:43Z'
+      heading_count: 19
+      max_section_chars: 15306
+      file_size_chars: 28729
+      flags: []
     layer2:
-      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T17:09:38Z'
-      rationale: "B5: regels 130 en 147 tonen sectie-titels ('Boekhoudkundige kwalificatie van de rechten...' en 'Te verrichten boekingen tijdens de verschillende fasen...') als plain-text alinea's zonder heading-prefix, terwijl dit duidelijk sectieniveaus zijn op ## niveau. E2: regels 181-182 en 203-206 tonen gebroken tabelrijen met omschrijvingen die over meerdere regels lopen met tab-inspringing buiten de cellen."
       concrete_problemen:
-        - regel: 130
-          categorie: B5
+        - categorie: B5
+          regel: 130
           type: other
           voorbeeld: Boekhoudkundige kwalificatie van de rechten verbonden aan de productie en de exploitatie van het audiovisueel werk
-        - regel: 147
-          categorie: B5
+        - categorie: B5
+          regel: 147
           type: other
           voorbeeld: Te verrichten boekingen tijdens de verschillende fasen van het vrijstellingsmechanisme van de tax shelter
-        - regel: 181
-          categorie: E2
+        - categorie: E2
+          regel: 181
           type: pseudo-table
           voorbeeld: "| | 51 | Aandelen (rechten op de opbrengsten van het \n\t\t\taudiovisueel werk [X] ) | 60 | |"
-        - regel: 203
-          categorie: E2
+        - categorie: E2
+          regel: 203
           type: pseudo-table
           voorbeeld: "| | 09 | Verkoopoptie van de rechten op de opbrengsten van het \n\t\t\taudiovisueel werk [X] | 15 | |"
+      rationale: 'B5: regels 130 en 147 tonen sectie-titels (''Boekhoudkundige kwalificatie van de rechten...'' en ''Te verrichten boekingen tijdens de verschillende fasen...'') als plain-text alinea''s zonder heading-prefix, terwijl dit duidelijk sectieniveaus zijn op ## niveau. E2: regels 181-182 en 203-206 tonen gebroken tabelrijen met omschrijvingen die over meerdere regels lopen met tab-inspringing buiten de cellen.'
+      run_at: '2026-05-11T17:09:38Z'
+      status: needs-rework
+    rationale: 'B5: regels 130 en 147 tonen sectie-titels (''Boekhoudkundige kwalificatie van de rechten...'' en ''Te verrichten boekingen tijdens de verschillende fasen...'') als plain-text alinea''s zonder heading-prefix, terwijl dit duidelijk sectieniveaus zijn op ## niveau. E2: regels 181-182 en 203-206 tonen gebroken tabelrijen met omschrijvingen die over meerdere regels lopen met tab-inspringing buiten de cellen.'
+    status: needs-rework
 themas:
   - tax shelter
   - belastingvrije reserves
@@ -72,17 +72,14 @@ themas:
 # CBN-advies 2012/7 - De boekhoudkundige verwerking van de tax shelter in hoofde van de investeerder Advies van 17 april 2012
 
 ## Inleiding
-
 De tax shelter betreft een fiscale stimulans, in het leven geroepen door de wetgever in 2002[^1], die de aanmoediging beoogt van de productie van audiovisuele werken in België. De kernbepalingen inzake deze materie zijn opgenomen in artikel 194*ter* van het Wetboek van de Inkomstenbelastingen 1992 (WIB 1992)[^2]. 
 
 In dit advies wordt de boekhoudkundige verwerkingswijze behandeld die volgens de Commissie voor Boekhoudkundige Normen moet worden toegepast voor het tax shelter-mechanisme in hoofde van de investeerder. 
 
 Voor alle duidelijkheid worden in dit advies eerst de voornaamste beginselen van het tax shelter-mechanisme hernomen. 
 
-## Het tax shelter-mechanisme[^3]
-
+## Het tax shelter-mechanisme
 ### Toepassingsvoorwaarden
-
 De tax shelter laat vennootschappen[^4] toe om te genieten van een vrijstelling van hun winst van 150 % van de sommen aangewend[^5] ter financiering van de productie van een “in aanmerking komend werk”[^6]. De in aanmerking komende werken worden op zeer ruime wijze gedefinieerd en betreffen met name fictiefilms, documentaires of animatiefilms, bestemd om in de bioscoop te worden vertoond, lange fictiefilms of animatiereeksen voor televisie en series bestemd voor kinderen en jongeren, zoals educatieve, culturele en informatieve fictieseries bedoeld voor kinderen en jongeren van 0 tot 16 jaar[^7]. 
 
 De investering die een Belgische productievennootschap van audiovisuele werken (of een Belgische inrichting van een buitenlandse vennootschap) tot voordeel dient te strekken, dient geregeld te worden door een raamovereenkomst, gesloten tussen de investeerder en de productievennootschap[^8]. 
@@ -99,7 +96,6 @@ Deze voorwaarden dienen nageleefd te worden gedurende de volledige fase van tijd
 Als tegenprestatie voor zijn investering, verkrijgt de investeerder productie- en exploitatierechten van het werk (met name het gedeelte dat in de praktijk het “equity-deel” wordt genoemd). In het kader van de lening ontvangt hij tevens een vorderingsrecht jegens de productievennootschap[^15]. Wat de rechten betreft die verbonden zijn aan de productie en de exploitatie van het werk, wordt in dit advies enkel het bijzondere, maar het in de praktijk meest voorkomende geval behandeld waarbij de rechten enkel betrekking hebben op een deel van de netto-opbrengst die het werk oplevert. Deze rechten worden meestal APNI-rechten genoemd (aandeel van de producent in de netto-inkomsten). 
 
 ### Fiscaal voordeel
-
 Door het mechanisme kan de belastbare winst van de investeerder ten belope van 150 % van het bedrag dat werd geïnvesteerd in een (of meerdere) audiovisue(e)l(e) werk(en) worden vrijgesteld van de vennootschapsbelasting of van de belastingen op het inkomen van niet-ingezetenen (vennootschappen). 
 
 Het bedrag dat in aanmerking komt voor de vrijstelling, wordt echter per boekjaar aan twee beperkingen onderworpen:
@@ -108,13 +104,11 @@ Het bedrag dat in aanmerking komt voor de vrijstelling, wordt echter per boekjaa
 - anderzijds mag het vrijgestelde bedrag niet hoger zijn dan 750.000 € per boekjaar, zijnde 150 % van een vooropgesteld bedrag van 500.000 € [^16]. 
 
 ### Procedure
-
 In artikel 194ter WIB 1992 wordt het vrijstellingsregime in twee fasen geregeld. 
 
 In de eerste fase gebeurt een tijdelijke en voorwaardelijke vrijstelling die, indien alle voorwaarden zijn vervuld, resulteert in een definitieve en onvoorwaardelijke vrijstelling. 
 
 #### Eerste fase
-
 De investerende vennootschap kan aanspraak maken op de tijdelijke vrijstelling vanaf het boekjaar waarin de raamovereenkomst werd gesloten. Met deze raamovereenkomst verbindt de investeerder zich er op een zekere en onherroepelijke wijze toe om de overeengekomen sommen over te maken[^17]. 
 
 Het eventuele overschot van de vrijstelling kan, gedurende de tijdelijke vrijstellingsfase, worden overgedragen naar uiterlijk het boekjaar dat voorafgaat aan de definitieve vrijstelling (zie *infra*, nr. 7), met andere woorden, maximaal naar de drie volgende boekjaren[^18]. 
@@ -122,7 +116,6 @@ Het eventuele overschot van de vrijstelling kan, gedurende de tijdelijke vrijste
 Indien tijdens de tijdelijke vrijstellingsfase één van de door de wet voorziene voorwaarden niet meer wordt vervuld tijdens een boekjaar, wordt de voorheen vrijgestelde winst aangemerkt als belastbare winst voor dat boekjaar[^19].
 
 #### Tweede fase
-
 Indien alle door de wet voorziene voorwaarden ononderbroken[^20] werden vervuld tijdens de eerste fase, kan de definitieve vrijstelling worden toegekend op basis van de twee attesten die voorgelegd dienen te worden aan de fiscale administratie. In het ene attest, dat wordt uitgegeven door de taxatiedienst van de producerende vennootschap, wordt met name het in aanmerking komend karakter van het werk bevestigd, evenals de aanwending van de geïnvesteerde sommen. In het andere attest, dat wordt uitgegeven door de Gemeenschap waarvan het werk afhangt, wordt de voltooiing van het werk bevestigd[^21]. 
 
 De investerende vennootschap geniet van de definitieve vrijstelling voor het boekjaar waarin zij haar laatste attest naar haar taxatiedienst stuurt, op voorwaarde dat de verzending plaatsvindt binnen de vier jaar na het sluiten van de raamovereenkomst[^22]. 
@@ -130,7 +123,6 @@ De investerende vennootschap geniet van de definitieve vrijstelling voor het boe
 Vanaf het bekomen van deze definitieve vrijstelling, dienen de voornoemde voorwaarden (*supra,* nr. 2) niet meer te worden vervuld. 
 
 ## Boekhoudkundige verwerking in hoofde van de investeerder
-
 Boekhoudkundige kwalificatie van de rechten verbonden aan de productie en de exploitatie van het audiovisueel werk
 Zoals eerder is aangehaald, heeft dit advies betrekking op de in de praktijk meest voorkomende hypothese dat de productie- en de exploitatierechten van het audiovisueel werk enkel bestaan uit de rechten op de (toekomstige) opbrengst die het werk oplevert, waarbij de investeerder geen auteursrechten op het werk bekomt. 
 
@@ -152,11 +144,9 @@ Te verrichten boekingen tijdens de verschillende fasen van het vrijstellingsmech
 De volgende analyse wordt geïllustreerd door een voorbeeld waarbij een investerende vennootschap een investering doet ten belope van 100, waarvan 40 in de vorm van leningen en 60 in de vorm van verwerving van de rechten op het in aanmerking komend werk.
 
 #### Bij de ondertekening van de raamovereenkomst
-
 Door de raamovereenkomst te ondertekenen, verbindt de investerende vennootschap zich er onherroepelijk toe om aan de productievennootschap het overeengekomen investeringsbedrag over te maken (in casu 100).
 
 ##### Leningen verleend aan de productievennootschap van de audiovisuele werken
-
 Het leencontract is een “reëel” contract, dat enkel ontstaat door de afgifte van de geleende sommen aan de lener (Burgerlijk Wetboek, met name artikel 1892). 
 
 Indien de overmaking van de sommen die worden geleend aan de productievennootschap pas gebeurt in de loop van een later boekjaar dan het boekjaar waarin de overeenkomst werd ondertekend, bestaat er desalniettemin reeds bij de ondertekening van de overeenkomst een kredietverplichting vanwege de investeerder. De investeerder zal deze verplichting opnemen in zijn boekhouding onder de niet in de balans opgenomen rechten en verplichtingen door middel van de volgende boeking: 
@@ -177,7 +167,6 @@ Op het ogenblik waarop de geleende sommen worden overgemaakt, zal de volgende bo
 De boekingen op de orderekeningen worden op dit moment tegengeboekt.
 
 ##### Rechten op de verworven opbrengsten van het in aanmerking komend werk
-
 Op het moment van de ondertekening van de raamovereenkomst zal de volgende boeking worden verricht: 
 
 | | Rekening | Omschrijving | Debet | Credit |
@@ -195,7 +184,6 @@ Op het moment van de overmaking van de aankoopprijs van de rechten, gebeurt de v
 | aan | 550 | Kredietinstellingen: rekening-courant | | 60 |
 
 ##### Verkoopoptie van de rechten op de opbrengsten
-
 Zoals eerder werd aangehaald, kan de investerende vennootschap van een productievennootschap of van een derde, een (her)verkoopoptie (put-optie) bekomen op de opbrengstrechten die zij ontvangt op het in aanmerking komend werk. Hierdoor kan de investerende vennootschap de emittent van deze optie verplichten om aan haar zijn rechten te verkopen (of deze terug te kopen) tegen een vooraf bepaalde prijs. Deze optie wordt doorgaans toegekend op het moment van het afsluiten van de raamovereenkomst. 
 
 De toekenning van de optie impliceert op zich geen wijziging van het vermogen van de investerende vennootschap. De optie vormt echter wel een recht dat dient te worden opgenomen onder de niet in de balans opgenomen rechten en verplichtingen (klasse 0). 
@@ -210,7 +198,6 @@ Indien de (her)verkoopprijs van de rechten in het kader van de optie 15 bedraagt
 			op de opbrengsten van het audiovisueel werk [X] | | 15 |
 
 #### Tijdelijke en voorwaardelijke vrijstelling van de winst
-
 Van zodra de investerende vennootschap zich door de ondertekening van de raamovereenkomst onherroepelijk verbindt jegens de productievennootschap van audiovisuele werken om de overeengekomen investering over te maken, kan zij genieten van een vrijstelling van de vennootschapsbelasting ten belope van 150 % van het geïnvesteerde bedrag, zelfs indien zij de investering nog niet heeft overgemaakt. Deze vrijstelling wordt echter onderworpen aan de hierboven opgesomde beperkingen (randnummer 4), met name dat de vrijgestelde winst niet hoger mag zijn dan de helft van de belastbare gereserveerde winst van de investerende vennootschap van het betreffende boekjaar die werd vastgesteld vooraleer de vrijgestelde tax shelter-reserve werd aangelegd en dat het vrijgestelde bedrag niet hoger mag zijn dan 750.000 € per boekjaar, zijnde 150 % van een vastgelegd bedrag van 500.000 €. 
 
 Teneinde de naleving te verzekeren van de in artikel 194*ter*, § 4, 1° en 2° WIB 1992 voorziene “onaantastbaarheidsvoorwaarde” gedurende de tijdelijke en voorwaardelijke vrijstellingsfase, dient de investerende vennootschap de vrijgestelde winst te boeken en te behouden op een afzonderlijke rekening van het passief. Deze winst mag bovendien niet dienen als berekeningsbasis voor welke vergoeding of toekenning dan ook en dit tot aan de verzenddatum van de laatste van de twee hiervoor aangehaalde attesten (zie randnummer 7). 
@@ -249,7 +236,6 @@ Indien ze tijdens het volgende boekjaar (X+1) over voldoende belastbare winstres
 In de loop van het jaar waarin de raamovereenkomst wordt gesloten, wordt het totaalbedrag van de mogelijke vrijstelling opgenomen in de toelichting en dit bedrag wordt dienovereenkomstig verminderd wanneer de investerende vennootschap daadwerkelijk geniet van de vrijstelling van deze winst. 
 
 #### Verwerking van het gedeelte van de opbrengsten en interesten die toekomen aan de investerende vennootschap
-
 De opbrengsten die het werk oplevert, worden in de boekhouding van de investeerder opgenomen als een financiële opbrengst onder de Opbrengsten uit vlottende *activa* (rekening 751 van het MAR). Deze opbrengsten zullen in de resultatenrekening worden opgenomen in de loop van de boekhoudperiode waarin ze werden vastgesteld en als zeker erkend, dit eventueel via de overlopende rekeningen.
 
 Laten we er bij wijze van voorbeeld van uitgaan dat op 15 januari 2012 de producent van het in aanmerking komend werk de investeerder op de hoogte brengt van de opbrengsten die aan de investeerder toekomen voor 2011, zijnde 3. Deze opbrengst wordt voor het boekjaar 2011 als volgt opgenomen in de boekhouding van de investeerder:
@@ -262,7 +248,6 @@ Laten we er bij wijze van voorbeeld van uitgaan dat op 15 januari 2012 de produc
 Daarnaast zal de investeerder de interesten die hem toekomen in het kader van de lening op de gebruikelijke manier boeken. 
 
 #### Zolang de investeerder zijn recht op de opbrengsten bezit
-
 Er worden waardeverminderingen geboekt op de rechten op de ontvangen opbrengsten, teneinde, conform de artikelen 74 en 75 KB W.Venn., rekening te houden met hun realisatiewaarde en met de evolutie van deze realisatie- of marktwaarde alsook met de risico’s die eigen zijn aan de aard van de goederen in kwestie of de uitgeoefende activiteit. 
 
 Indien bijvoorbeeld het bestuursorgaan van de investerende vennootschap meent dat er een waardevermindering dient te worden geboekt op de rechten op de verworven opbrengsten ten belope van 20, zal de volgende boeking worden verricht: 
@@ -273,7 +258,6 @@ Indien bijvoorbeeld het bestuursorgaan van de investerende vennootschap meent da
 | aan | 519 | Geboekte waardeverminderingen op aandelen | | 20 |
 
 #### Op het moment van de optielichting
-
 We veronderstellen dat de optie wordt gelicht op de datum die is vastgelegd in de overeenkomst en dat de uitoefenprijs 15 bedraagt. 
 
 De volgende boeking wordt verricht:
@@ -303,7 +287,6 @@ Bij het lichten van de optie, worden de orderekeningen tegengeboekt:
 			     van het audiovisueel werk [X] | | 15 |
 
 #### Op het moment van de aflossing van de schuldvordering
-
 De volgende boeking vindt plaats: 
 
 | | Rekening | Omschrijving | Debet | Credit |
@@ -312,7 +295,6 @@ De volgende boeking vindt plaats:
 | aan | 416 | Vorderingen op ten hoogste één jaar | | 40 |
 
 #### Op het moment van de definitieve vrijstelling of van het verlies van de vrijstelling
-
 Indien alle door de wet voorgeschreven voorwaarden werden nageleefd, geniet de investeerder van een definitieve vrijstelling van de winst die tot op dat moment slechts tijdelijk was vrijgesteld. Deze definitieve vrijstelling van de winst wordt als volgt weergegeven (in de veronderstelling dat 150 daadwerkelijk tijdelijk werd vrijgesteld):
 
 | | Rekening | Omschrijving | Debet | Credit |
@@ -340,7 +322,6 @@ Als de investerende vennootschap enkel heeft kunnen genieten van een vrijstellin
 | | 133 | Beschikbare reserves | 120 | |
 
 ## Dit advies vervangt CBN-advies 2010/7
-
 [^1]: Art. 128 Programmawet van 2 augustus 2002, dat « Onderafdeling 4. – Ondernemingen die investeren in een raamovereenkomst voor de productie van een audiovisueel werk » en artikel 194ter invoegt in titel III, hoofdstuk II, afdeling 3 van het Wetboek van de Inkomstenbelastingen 1992, B.S. 29 augustus 2002.
 
 [^2]: Dit artikel, vervangen vanaf 2003 (door een programmawet van 22 december 2003) werd meermaals aangepast. De laatste aanpassing werd aangebracht door artikel 7 van de wet van 21 december 2009 houdende fiscale en diverse bepalingen, dat met name het toepassingsgebied op middellange en korte films verruimd heeft.

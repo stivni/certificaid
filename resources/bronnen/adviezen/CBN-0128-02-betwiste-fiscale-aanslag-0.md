@@ -2,63 +2,56 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/betwiste-fiscale-aanslag-0
 datum: 1981-04-08
 gerelateerde_adviezen:
-- datum: '2021-12-22'
-  titel: Boekhoudkundige verwerking van de vergoeding voor de groepsbijdrage in hoofde
-    van de overdragende vennootschap bij gebrek aan Belgische belastingen op het resultaat
-    op rekening 4500 (addendum bij advies 2019/06)
-  url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-vergoeding-voor-de-groepsbijdrage-in-hoofde-van-de
-- datum: '2019-07-02'
-  titel: Groepsbijdrage
-  url: https://www.cbn-cnc.be/nl/adviezen/groepsbijdrage
-- datum: '2018-05-30'
-  titel: Belastingen
-  url: https://www.cbn-cnc.be/nl/adviezen/belastingen
-- datum: '2017-04-19'
-  titel: Boekhoudkundige verwerking van moratoriuminterest
-  url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-moratoriuminterest
+  - datum: '2021-12-22'
+    titel: Boekhoudkundige verwerking van de vergoeding voor de groepsbijdrage in hoofde van de overdragende vennootschap bij gebrek aan Belgische belastingen op het resultaat op rekening 4500 (addendum bij advies 2019/06)
+    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-vergoeding-voor-de-groepsbijdrage-in-hoofde-van-de
+  - datum: '2019-07-02'
+    titel: Groepsbijdrage
+    url: https://www.cbn-cnc.be/nl/adviezen/groepsbijdrage
+  - datum: '2018-05-30'
+    titel: Belastingen
+    url: https://www.cbn-cnc.be/nl/adviezen/belastingen
+  - datum: '2017-04-19'
+    titel: Boekhoudkundige verwerking van moratoriuminterest
+    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-moratoriuminterest
 nummer: CBN-advies 128/2
 provenance:
-  generated_at: '2026-05-11T15:15:31Z'
+  generated_at: '2026-05-11T17:48:38Z'
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/betwiste-fiscale-aanslag-0
-    sha256: dd4a00b064fa97e158d18679d1579cd863a214ffe438f15204d51704df48df41
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/betwiste-fiscale-aanslag-0
+      sha256: dd4a00b064fa97e158d18679d1579cd863a214ffe438f15204d51704df48df41
+      version:
   stale: false
-  stale_reason: null
+  stale_reason:
   tooling:
-    model: null
+    model:
     pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    prompt_version: null
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
     confirmed_at: '2026-05-11T11:57:45Z'
     confirmed_by: subagent-sonnet-4-6
     layer1:
-      file_size_chars: 1415
-      flags: []
+      status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:41Z'
       heading_count: 0
       max_section_chars: 1415
-      run_at: '2026-05-11T15:05:48Z'
-      run_id: 20260511-150547
-      status: pass
+      file_size_chars: 1415
+      flags: []
     layer2:
       agent: subagent-sonnet-4-6
       concrete_problemen: []
-      rationale: Zeer kort advies (1415 tekens) zonder headings, inhoud volledig en
-        correct afgesloten met duidelijke conclusie. Geen HTML-entities in body of
-        frontmatter, geen ongewone unicode, geen extractie-artefacten. Layer1 pass
-        bevestigd.
+      rationale: Zeer kort advies (1415 tekens) zonder headings, inhoud volledig en correct afgesloten met duidelijke conclusie. Geen HTML-entities in body of frontmatter, geen ongewone unicode, geen extractie-artefacten. Layer1 pass bevestigd.
       run_at: '2026-05-11T11:57:45Z'
       status: trusted
-    rationale: Zeer kort advies (1415 tekens) zonder headings, inhoud volledig en
-      correct afgesloten met duidelijke conclusie. Geen HTML-entities in body of frontmatter,
-      geen ongewone unicode, geen extractie-artefacten. Layer1 pass bevestigd.
+    rationale: Zeer kort advies (1415 tekens) zonder headings, inhoud volledig en correct afgesloten met duidelijke conclusie. Geen HTML-entities in body of frontmatter, geen ongewone unicode, geen extractie-artefacten. Layer1 pass bevestigd.
     status: trusted
 themas:
-- belastingen
-- betwiste belastingen
-- betwiste fiscale aanslag
-- schulden
+  - belastingen
+  - betwiste belastingen
+  - betwiste fiscale aanslag
+  - schulden
 ---
 
 # CBN-advies 128/2 - Betwiste fiscale aanslag

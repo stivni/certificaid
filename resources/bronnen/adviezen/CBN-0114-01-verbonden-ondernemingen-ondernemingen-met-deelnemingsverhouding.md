@@ -13,45 +13,45 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/bezit-van-maatschappelijke-rechten-in-verbonden-ondernemingen-of-in-ondernemingen-waarmee
 nummer: CBN-advies 114/1
 provenance:
+  generated_at: '2026-05-11T17:48:38Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/verbonden-ondernemingen-ondernemingen-met-deelnemingsverhouding
       sha256: 92658798ac58ca0952215a8a51c2ca208fa3e115667cbc28b417364235c0c23a
       version:
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
-    status: needs-rework
     confirmed_at: '2026-05-11T17:05:20Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "D3: voetnoten [^5] (regel 98) en [^6] (regel 100) zijn identiek ('Rubrieken 7301 tot 7312.'), maar de body-tekst refereert [^5] aan schulden en [^6] aan financiële opbrengsten bekomen van verbonden ondernemingen — rubriek 73xx is financiële opbrengsten, dus [^5] is inhoudelijk onjuist. ETL-extractiefout die foutieve definitie geeft aan de lezer."
     layer1:
-      file_size_chars: 4444
-      flags: []
+      status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:40Z'
       heading_count: 0
       max_section_chars: 4444
-      run_at: '2026-05-11T15:05:48Z'
-      run_id: 20260511-150547
-      status: pass
+      file_size_chars: 4444
+      flags: []
     layer2:
-      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T17:05:20Z'
-      rationale: "D3: voetnoten [^5] (regel 98) en [^6] (regel 100) zijn identiek ('Rubrieken 7301 tot 7312.'), maar de body-tekst refereert [^5] aan schulden en [^6] aan financiële opbrengsten bekomen van verbonden ondernemingen — rubriek 73xx is financiële opbrengsten, dus [^5] is inhoudelijk onjuist. ETL-extractiefout die foutieve definitie geeft aan de lezer."
       concrete_problemen:
-        - regel: 98
-          categorie: D3
+        - categorie: D3
+          regel: 98
           type: other
           voorbeeld: '[^5]: Rubrieken 7301 tot 7312. — identiek aan [^6], maar context = schulden'
-        - regel: 100
-          categorie: D3
+        - categorie: D3
+          regel: 100
           type: other
           voorbeeld: '[^6]: Rubrieken 7301 tot 7312. — duplicaat van [^5], context = financiële opbrengsten'
+      rationale: 'D3: voetnoten [^5] (regel 98) en [^6] (regel 100) zijn identiek (''Rubrieken 7301 tot 7312.''), maar de body-tekst refereert [^5] aan schulden en [^6] aan financiële opbrengsten bekomen van verbonden ondernemingen — rubriek 73xx is financiële opbrengsten, dus [^5] is inhoudelijk onjuist. ETL-extractiefout die foutieve definitie geeft aan de lezer.'
+      run_at: '2026-05-11T17:05:20Z'
+      status: needs-rework
+    rationale: 'D3: voetnoten [^5] (regel 98) en [^6] (regel 100) zijn identiek (''Rubrieken 7301 tot 7312.''), maar de body-tekst refereert [^5] aan schulden en [^6] aan financiële opbrengsten bekomen van verbonden ondernemingen — rubriek 73xx is financiële opbrengsten, dus [^5] is inhoudelijk onjuist. ETL-extractiefout die foutieve definitie geeft aan de lezer.'
+    status: needs-rework
 themas:
   - deelnemingsverhouding
   - financiële vaste activa

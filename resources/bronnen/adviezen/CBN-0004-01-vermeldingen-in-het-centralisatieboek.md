@@ -13,57 +13,57 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/over-het-centraal-boek
 nummer: CBN-advies 4/1
 provenance:
+  generated_at: '2026-05-11T17:48:38Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/vermeldingen-in-het-centralisatieboek
       sha256: 8a7a28268d29da0fe3a1111a6ecb81357935da4c8cf8d0c1e63356b3cc2e3153
       version:
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
-    status: trusted
     confirmed_at: '2026-05-11T15:15:32Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: Alle door vorige verdict gemelde tekstfouten (berokken, dee vermelding, wttelijke, centraisatieboek, bewegingn, angegeven) staan letterlijk in de bron-HTML en vallen onder de source-uitzondering. A4 (U+2010 in r87 'ondergaan -gelet') is eveneens een bron-karakter uit de CBN-website. Geen ETL-bugs gevonden buiten deze source-categorieën. Inhoud volledig, voetnoot intact.
     layer1:
-      file_size_chars: 2831
-      flags: []
+      status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:40Z'
       heading_count: 0
       max_section_chars: 2831
-      run_at: '2026-05-11T15:05:47Z'
-      run_id: 20260511-150547
-      status: pass
+      file_size_chars: 2831
+      flags: []
     layer2:
-      status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:15:32Z'
-      rationale: Alle door vorige verdict gemelde tekstfouten (berokken, dee vermelding, wttelijke, centraisatieboek, bewegingn, angegeven) staan letterlijk in de bron-HTML en vallen onder de source-uitzondering. A4 (U+2010 in r87 'ondergaan -gelet') is eveneens een bron-karakter uit de CBN-website. Geen ETL-bugs gevonden buiten deze source-categorieën. Inhoud volledig, voetnoot intact.
       concrete_problemen:
-        - regel: 75
-          categorie: (source)
+        - categorie: (source)
+          regel: 75
           type: source-typo
           voorbeeld: berokken rekeningen — source-typo voor 'betrokken'
-        - regel: 83
-          categorie: (source)
+        - categorie: (source)
+          regel: 83
           type: source-typo
           voorbeeld: dee vermelding betrekking moet hebben ... wttelijke vereisten
-        - regel: 85
-          categorie: (source)
+        - categorie: (source)
+          regel: 85
           type: source-typo
           voorbeeld: inschrijving in het centraisatieboek te beperken
-        - regel: 87
-          categorie: (source)
+        - categorie: (source)
+          regel: 87
           type: source-typo
           voorbeeld: de bewegingn die elk ervan hebben ondergaan ... angegeven
-        - regel: 87
-          categorie: (source)
+        - categorie: (source)
+          regel: 87
           type: source-typo
           voorbeeld: ondergaan -gelet op de moeilijkheid — U+2010 of gewoon koppelteken uit bron-HTML
+      rationale: Alle door vorige verdict gemelde tekstfouten (berokken, dee vermelding, wttelijke, centraisatieboek, bewegingn, angegeven) staan letterlijk in de bron-HTML en vallen onder de source-uitzondering. A4 (U+2010 in r87 'ondergaan -gelet') is eveneens een bron-karakter uit de CBN-website. Geen ETL-bugs gevonden buiten deze source-categorieën. Inhoud volledig, voetnoot intact.
+      run_at: '2026-05-11T15:15:32Z'
+      status: trusted
+    rationale: Alle door vorige verdict gemelde tekstfouten (berokken, dee vermelding, wttelijke, centraisatieboek, bewegingn, angegeven) staan letterlijk in de bron-HTML en vallen onder de source-uitzondering. A4 (U+2010 in r87 'ondergaan -gelet') is eveneens een bron-karakter uit de CBN-website. Geen ETL-bugs gevonden buiten deze source-categorieën. Inhoud volledig, voetnoot intact.
+    status: trusted
 themas:
   - boeken
 ---

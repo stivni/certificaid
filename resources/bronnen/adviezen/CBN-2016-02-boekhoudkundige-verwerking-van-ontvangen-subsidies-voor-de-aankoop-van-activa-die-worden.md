@@ -16,57 +16,57 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/bouwwerken-op-andermans-grond
 nummer: CBN-advies 2016/2
 provenance:
+  generated_at: '2026-05-11T17:48:39Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-ontvangen-subsidies-voor-de-aankoop-van-activa-die-worden
       sha256: 074350628fb9f6a0648fb610e585e68c7bac08b5f35a1156be111a403d2c830a
       version:
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
-    status: needs-rework
     confirmed_at: '2026-05-11T17:09:38Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "D4 bevestigd: regel 79 '# **COMMISSIE VOOR BOEKHOUDKUNDIGE NORMEN' opent ** zonder sluiting; regel 81 '## **CBN-advies 2016/2...' idem; regel 85 '## Inleiding**' heeft sluitende ** zonder opening — stray bold-markers verspreid over drie headings. B3: regel 91 is een lege ## heading zonder tekst. Regel 93 '**Analyse****' heeft dubbele sluitende **. Allen ETL-artefacten."
     layer1:
-      file_size_chars: 3163
-      flags: []
-      heading_count: 4
-      max_section_chars: 2264
-      run_at: '2026-05-11T15:05:52Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:43Z'
+      heading_count: 4
+      max_section_chars: 2263
+      file_size_chars: 3156
+      flags: []
     layer2:
-      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T17:09:38Z'
-      rationale: "D4 bevestigd: regel 79 '# **COMMISSIE VOOR BOEKHOUDKUNDIGE NORMEN' opent ** zonder sluiting; regel 81 '## **CBN-advies 2016/2...' idem; regel 85 '## Inleiding**' heeft sluitende ** zonder opening — stray bold-markers verspreid over drie headings. B3: regel 91 is een lege ## heading zonder tekst. Regel 93 '**Analyse****' heeft dubbele sluitende **. Allen ETL-artefacten."
       concrete_problemen:
-        - regel: 79
-          categorie: D4
+        - categorie: D4
+          regel: 79
           type: other
           voorbeeld: '# **COMMISSIE VOOR BOEKHOUDKUNDIGE NORMEN (openende ** zonder sluiting)'
-        - regel: 81
-          categorie: D4
+        - categorie: D4
+          regel: 81
           type: other
           voorbeeld: '## **CBN-advies 2016/2 – Boekhoudkundige verwerking... (openende ** zonder sluiting)'
-        - regel: 85
-          categorie: D4
+        - categorie: D4
+          regel: 85
           type: other
           voorbeeld: '## Inleiding** (sluitende ** zonder opening)'
-        - regel: 91
-          categorie: B3
+        - categorie: B3
+          regel: 91
           type: other
           voorbeeld: '## (lege heading zonder tekst)'
-        - regel: 93
-          categorie: D4
+        - categorie: D4
+          regel: 93
           type: other
           voorbeeld: '**Analyse**** (dubbele sluitende ** — malformed bold)'
+      rationale: 'D4 bevestigd: regel 79 ''# **COMMISSIE VOOR BOEKHOUDKUNDIGE NORMEN'' opent ** zonder sluiting; regel 81 ''## **CBN-advies 2016/2...'' idem; regel 85 ''## Inleiding**'' heeft sluitende ** zonder opening — stray bold-markers verspreid over drie headings. B3: regel 91 is een lege ## heading zonder tekst. Regel 93 ''**Analyse****'' heeft dubbele sluitende **. Allen ETL-artefacten.'
+      run_at: '2026-05-11T17:09:38Z'
+      status: needs-rework
+    rationale: 'D4 bevestigd: regel 79 ''# **COMMISSIE VOOR BOEKHOUDKUNDIGE NORMEN'' opent ** zonder sluiting; regel 81 ''## **CBN-advies 2016/2...'' idem; regel 85 ''## Inleiding**'' heeft sluitende ** zonder opening — stray bold-markers verspreid over drie headings. B3: regel 91 is een lege ## heading zonder tekst. Regel 93 ''**Analyse****'' heeft dubbele sluitende **. Allen ETL-artefacten.'
+    status: needs-rework
 themas:
   - materiële vaste activa
   - overige materiële vaste activa
@@ -77,21 +77,14 @@ themas:
 ---
 
 # **COMMISSIE VOOR BOEKHOUDKUNDIGE NORMEN
-
 ## **CBN-advies 2016/2 – Boekhoudkundige verwerking van ontvangen subsidies voor de aankoop van activa die worden ter beschikking gesteld
-
 ## Advies van 9 maart 2016
-
 ## Inleiding**
-
 Aan de Commissie werd de vraag gesteld hoe een VZW (VZW ABC) materiële vaste activa boekhoudkundig dient te verwerken die ter beschikking worden gesteld aan een andere VZW (VZW XYZ). Deze materiële vaste activa worden fysiek overgedragen door VZW ABC aan VZW XYZ; op het einde van de economische levensduur worden deze materiële vaste activa terug overgedragen door VZW XYZ aan VZW ABC. Gedurende de terbeschikkingstelling kan VZW ABC deze materiële vaste activa niet vervreemden.
 
 Daarnaast worden er aan VZW XYZ tevens subsidies toegekend die worden uitbetaald aan VZW ABC ter financiering van de investeringen in de betrokken materiële vaste activa.
 
-## 
-
-**Analyse****
-
+## **Analyse****
 In hetgeen volgt gaan we ervan uit dat het Koninklijk Besluit van 19 december 2003 (hierna: KB 19.12.2003) van toepassing is op VZW ABC.
 
 Op het ogenblik van de toekenning van de subsidies zal VZW ABC deze als volgt boekhoudkundig verwerken:

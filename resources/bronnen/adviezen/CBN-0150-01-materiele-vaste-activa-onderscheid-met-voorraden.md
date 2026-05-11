@@ -16,37 +16,37 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/rechten-tot-vertoning-van-films
 nummer: CBN-advies 150/1
 provenance:
+  generated_at: '2026-05-11T17:48:38Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/materiele-vaste-activa-onderscheid-met-voorraden
       sha256: 6da50ea2d8309abf067107fdc8cb41cc0da5a41fb9ed4b4e54574eefb073a1c2
       version:
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
-    status: trusted
     confirmed_at: '2026-05-11T15:15:33Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: 'Geen ETL-artefacten aangetroffen. Vier thema-secties (reserve-onderdelen, ontginningsgronden, toonzaalmateriaal, dieren) elk als ### heading correct gemarkeerd. Prose leesbaar en volledig. Voetnoot [^1] correct inline verbonden. Geen tabellen, lijsten of TOC-elementen die problemen veroorzaken.'
     layer1:
-      file_size_chars: 7470
-      flags: []
-      heading_count: 4
-      max_section_chars: 1913
-      run_at: '2026-05-11T15:05:49Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:41Z'
+      heading_count: 4
+      max_section_chars: 1912
+      file_size_chars: 7462
+      flags: []
     layer2:
-      status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:15:33Z'
-      rationale: 'Geen ETL-artefacten aangetroffen. Vier thema-secties (reserve-onderdelen, ontginningsgronden, toonzaalmateriaal, dieren) elk als ### heading correct gemarkeerd. Prose leesbaar en volledig. Voetnoot [^1] correct inline verbonden. Geen tabellen, lijsten of TOC-elementen die problemen veroorzaken.'
       concrete_problemen: []
+      rationale: 'Geen ETL-artefacten aangetroffen. Vier thema-secties (reserve-onderdelen, ontginningsgronden, toonzaalmateriaal, dieren) elk als ### heading correct gemarkeerd. Prose leesbaar en volledig. Voetnoot [^1] correct inline verbonden. Geen tabellen, lijsten of TOC-elementen die problemen veroorzaken.'
+      run_at: '2026-05-11T15:15:33Z'
+      status: trusted
+    rationale: 'Geen ETL-artefacten aangetroffen. Vier thema-secties (reserve-onderdelen, ontginningsgronden, toonzaalmateriaal, dieren) elk als ### heading correct gemarkeerd. Prose leesbaar en volledig. Voetnoot [^1] correct inline verbonden. Geen tabellen, lijsten of TOC-elementen die problemen veroorzaken.'
+    status: trusted
 themas:
   - diensten en diverse goederen
   - dieren
@@ -72,7 +72,6 @@ Het onderscheid heeft tevens een uitgesproken fiscaal belang voor de toepassing 
 Uitgangspunt is artikel 15, 1 van de vierde EEG-richtlijn, dat bepaalt dat vermogensbestanddelen op grond van hun bestemming worden ingedeeld bij de vaste activa of bij de vlottende activa; bij de vaste activa worden die vermogensbestanddelen ingedeeld die bestemd zijn om duurzaam voor de bedrijfsuitoefening te worden gebruikt. 
 
 ## Reserve-onderdelen voor machines
-
 Bedoeld worden reserve-onderdelen die betrekking hebben op installaties, machines en uitrusting en op materiële vaste activa in het algemeen. 
 
 Reserve-onderdelen die enkel in het kader van het handelsbedrijf worden gebruikt (bv. garagehouders) worden, overeenkomstig hun bestemming, in de boekhouding en de jaarrekening opgenomen als een voorraad. 
@@ -88,7 +87,6 @@ Worden dergelijke onderdelen na de ingebruikname van de installatie gekocht, dan
 Legt de onderneming een voorraad van zulke onderdelen aan dan mogen deze ook boekhoudrechtelijk als een *Voorraad* worden beschouwd en geboekt, bij voorkeur onder afzonderlijke balans- en resultatenrekeningen. Hun aanschaffing verloopt derhalve via rekening 60 (bv. 606) en hun opname in voorraad via rekening 609 *Voorraadwijziging* (bv. 6096). Bij gebruik van het onderdeel wordt de kostprijs ervan via de rekening *Voorraadwijziging* ten laste genomen, zonder evenredige aanpassing van de boekwaarde van de installatie waarvan het onderdeel werd vervangen. 
 
 ## Ontginningsgronden
-
 De ontginningsgronden waarvan de onderneming eigenaar is doch waarop zij een ontginningsrecht heeft verkregen na betaling van een vergoeding, worden geboekt onder de materiële vaste activa.
 
 Wat de ontginningsgronden waarvan de onderneming wel eigenaar is betreft, stelt zich echter de vraag of deze beschouwd moeten worden als materiële vaste activa dan wel als voorraden.
@@ -102,7 +100,6 @@ De Commissie is dan ook de mening toegedaan dat ontginningsgronden als materiël
 Een lineaire afschrijving over een bepaalde periode - a fortiori een degressieve afschrijving over dezelfde periode - is bedrijfseconomisch ten aanzien van ontginningsgronden niet verantwoord. De logica vraagt dat de afschrijvingen worden berekend op basis van de effectief ontgonnen hoeveelheid grondstof.
 
 ## Toonzaalmateriaal
-
 Dient toonzaalmateriaal te worden opgenomen in de boekhouding en de jaarrekening onder de materiële vaste activa of behoort het tot de voorraad? 
 
 Als gevolg van de in de regel grote residuwaarde bij verkoop en de bestemming zelf van het actief dient toonzaalmateriaal in eerste instantie te worden beschouwd als een voorraadelement, waarvan men evenwel de verkoop een tijd heeft uitgesteld. 
@@ -114,7 +111,6 @@ Niettemin is de Commissie van oordeel dat een kwalificatie als vast actief toela
 De feitelijke beoordeling zal in dit geval doorslaggevend zijn. 
 
 ## Dieren
-
 Op basis van hogervermeld beginsel dient ook een onderscheid te worden gemaakt tussen dieren die gehouden worden hoofdzakelijk omwille van de door hun voortgebrachte producten (melk, eieren, enz.) en dieren die hoofdzakelijk gehouden worden om in een bepaald ontwikkelingsstadium te worden verkocht. 
 
 In het eerste geval wordt de waarde van het dier in hoofdzaak bepaald door de waarde van de goederen die het in de toekomst zal produceren[^1]. Als productiegoed hoort het bij de materiële vaste activa en wordt zijn kostprijs via afschrijvingen - met inachtneming van de restwaarde - op het resultaat gespreid ten laste genomen. Desgevallend verdient het aanbeveling bij toepassing van artikel 9, 2° lid van het koninklijk van 8 oktober 1976, de omschrijving van de rubriek aan te passen. 

@@ -2,84 +2,71 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/vermogensklem-bij-de-omzetting-van-een-vzw-in-een-cooperatieve-vennootschap-erkend-als-0
 datum: 2024-01-17
 gerelateerde_adviezen:
-- datum: '2021-05-07'
-  titel: Vermogensklem bij de omzetting van een VZW in een coöperatieve vennootschap
-    erkend als sociale onderneming
-  url: https://www.cbn-cnc.be/nl/adviezen/vermogensklem-bij-de-omzetting-van-een-vzw-in-een-cooperatieve-vennootschap-erkend-als
+  - datum: '2021-05-07'
+    titel: Vermogensklem bij de omzetting van een VZW in een coöperatieve vennootschap erkend als sociale onderneming
+    url: https://www.cbn-cnc.be/nl/adviezen/vermogensklem-bij-de-omzetting-van-een-vzw-in-een-cooperatieve-vennootschap-erkend-als
 nummer: CBN-advies 2024/01
 provenance:
-  generated_at: '2026-05-11T15:15:32Z'
+  generated_at: '2026-05-11T17:48:40Z'
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/vermogensklem-bij-de-omzetting-van-een-vzw-in-een-cooperatieve-vennootschap-erkend-als-0
-    sha256: 5575df12a9bbe6f93803184ffd4066df548821de9ef02f078e4c552989ee70d5
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/vermogensklem-bij-de-omzetting-van-een-vzw-in-een-cooperatieve-vennootschap-erkend-als-0
+      sha256: 5575df12a9bbe6f93803184ffd4066df548821de9ef02f078e4c552989ee70d5
+      version:
   stale: false
-  stale_reason: null
+  stale_reason:
   tooling:
-    model: null
+    model:
     pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    prompt_version: null
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
     confirmed_at: '2026-05-11T12:24:34Z'
     confirmed_by: subagent-sonnet-4-6
     layer1:
-      file_size_chars: 23022
-      flags: []
-      heading_count: 6
-      max_section_chars: 15064
-      run_at: '2026-05-11T15:05:54Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:45Z'
+      heading_count: 6
+      max_section_chars: 15063
+      file_size_chars: 23016
+      flags: []
     layer2:
       agent: subagent-sonnet-4-6
       concrete_problemen: []
-      rationale: Geen zichtbare extractie-artefacten. Balansvoorbeelden in pipe-tabellen
-        zijn correct opgemaakt met meerregelige cellen als subrekeningen (bv. '1319.0
-        Overige...' en '1319.1 Latente...' als afzonderlijke rijen), wat inhoudelijk
-        correct is en niet het 'gebroken cel'-patroon van 2022/13. Voetnoten [^1]–[^27]
-        volledig. Drie situaties (materiële vaste activa, geldbeleggingen, onbeschikbare
-        reserve) volledig uitgewerkt.
+      rationale: Geen zichtbare extractie-artefacten. Balansvoorbeelden in pipe-tabellen zijn correct opgemaakt met meerregelige cellen als subrekeningen (bv. '1319.0 Overige...' en '1319.1 Latente...' als afzonderlijke rijen), wat inhoudelijk correct is en niet het 'gebroken cel'-patroon van 2022/13. Voetnoten [^1]–[^27] volledig. Drie situaties (materiële vaste activa, geldbeleggingen, onbeschikbare reserve) volledig uitgewerkt.
       run_at: '2026-05-11T12:24:34Z'
       status: trusted
-    rationale: Geen zichtbare extractie-artefacten. Balansvoorbeelden in pipe-tabellen
-      zijn correct opgemaakt met meerregelige cellen als subrekeningen (bv. '1319.0
-      Overige...' en '1319.1 Latente...' als afzonderlijke rijen), wat inhoudelijk
-      correct is en niet het 'gebroken cel'-patroon van 2022/13. Voetnoten [^1]–[^27]
-      volledig. Drie situaties (materiële vaste activa, geldbeleggingen, onbeschikbare
-      reserve) volledig uitgewerkt.
+    rationale: Geen zichtbare extractie-artefacten. Balansvoorbeelden in pipe-tabellen zijn correct opgemaakt met meerregelige cellen als subrekeningen (bv. '1319.0 Overige...' en '1319.1 Latente...' als afzonderlijke rijen), wat inhoudelijk correct is en niet het 'gebroken cel'-patroon van 2022/13. Voetnoten [^1]–[^27] volledig. Drie situaties (materiële vaste activa, geldbeleggingen, onbeschikbare reserve) volledig uitgewerkt.
     status: trusted
 themas:
-- vermogensklem
-- vereniging
-- vzw
-- coöperatieve vennootschap
-- coöperatieve vennootschap erkend als sociale onderneming
-- sociale onderneming
-- staat van activa en passiva
-- nettoactief
-- onbeschikbare reserve
-- werkelijke waarde
-- continuïteit
-- juridische continuiteit
-- latente meerwaarde
-- herwaarderingsmeerwaarde
-- uitkering
-- aanzuiveren van verliezen
-- aanzuivering van verlies
-- omzetting
+  - vermogensklem
+  - vereniging
+  - vzw
+  - coöperatieve vennootschap
+  - coöperatieve vennootschap erkend als sociale onderneming
+  - sociale onderneming
+  - staat van activa en passiva
+  - nettoactief
+  - onbeschikbare reserve
+  - werkelijke waarde
+  - continuïteit
+  - juridische continuiteit
+  - latente meerwaarde
+  - herwaarderingsmeerwaarde
+  - uitkering
+  - aanzuiveren van verliezen
+  - aanzuivering van verlies
+  - omzetting
 ---
 
 # CBN-advies 2024/01 – Vermogensklem bij de omzetting van een VZW in een coöperatieve vennootschap erkend als sociale onderneming
 
 ## Inleiding
-
 In onderhavig advies verduidelijkt de Commissie de boekhoudkundige verwerking van het nettoactief van een vereniging zonder winstoogmerk (hierna: VZW) die omgezet wordt in een coöperatieve vennootschap. De wetgever heeft expliciet voorzien in de mogelijkheid tot omzetting, in juridische continuïteit[^2], van een VZW in een vennootschap. Omwille van mogelijke risico’s op misbruik wat de bestemming van het vermogen van de VZW betreft, is de omzetting van een VZW in een vennootschap uitsluitend mogelijk wanneer de VZW de vorm aanneemt van een coöperatieve vennootschap die erkend is als sociale onderneming.[^3]
  Dergelijke omzetting kan zowel in een *CV erkend als SO* als in een *erkende CVSO*.[^4]
  Onderhavig ontwerpadvies vervangt CBN-advies 2021/06 – *Vermogensklem bij de omzetting van een VZW in een coöperatieve vennootschap erkend als sociale onderneming*.
 
 ## Omzetting van een VZW in een erkende CVSO of een CV erkend als SO
-
 De procedure tot omzetting van een VZW in een CV erkend als SO of in een erkende CVSO is geregeld in de artikelen 14:37 tot 14:45 van het Wetboek van vennootschappen en verenigingen (hierna: WVV).
 
 De omzettingsprocedure houdt onder meer in dat het bestuursorgaan een staat van activa en passiva van de VZW moet opmaken en toevoegen aan het verslag van het bestuursorgaan dat moet worden vermeld in de agenda van de algemene vergadering die over de omzetting beslist. Deze staat van activa en passiva:
@@ -93,7 +80,6 @@ Het nettoactief van de VZW zoals dat blijkt uit voormelde staat van activa en pa
  De onbeschikbaarheid van het nettoactief op de datum van de omzetting is als het ware een klem die op het vermogen wordt geplaatst. De wetgever wil hiermee beletten dat eenmaal de VZW vennootschap is geworden dit vermogen, opgebouwd binnen de VZW, zou worden uitgekeerd.
 
 ## Boekhoudkundige verwerking
-
 Zoals hiervoor beschreven, worden de actief- en passiefbestanddelen van de rechtspersoon in de staat van activa en passiva gewaardeerd tegen hun werkelijke waarde. Het identificeren van het nettoactief van de VZW vereist de boeking van het geheel van activa en passiva tegen deze werkelijke waarde naar aanleiding van de omzetting in een coöperatieve vennootschap. De naleving van de door artikel 3:35, § 1, eerste lid van het koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen (hierna: KB WVV) opgelegde vereisten is, gelet op de duidelijke bewoordingen van artikel 14:42 WVV, hier niet aan de orde. Er is aldus geen reden om de rentabiliteitsvoorwaarde toe te passen, noch om deze herwaarderingsmeerwaarden te beperken tot herwaardeerbare activa zoals gedefinieerd door het KB WVV. Dit impliceert dat ook activa die in beginsel niet kunnen worden geherwaardeerd (bijvoorbeeld geldbeleggingen), naar aanleiding van de omzetting eveneens moeten worden gewaardeerd tegen werkelijke waarde.[^11] 
 
 Dit heeft een dubbel gevolg. Enerzijds, doordat de omzetting plaatsvindt in juridische continuïteit, wijzigt de aanschaffingswaarde van de bezittingen/actiefbestanddelen niet en dient deze aanschaffingswaarde[^12] dan ook tot uiting te komen in de boekhouding van de rechtspersoon. De eventuele latente meerwaarde die tot uitdrukking wordt gebracht, wordt op een afzonderlijke subrekening van het betrokken actiefbestanddeel geboekt[^13]. Anderzijds bevat artikel 3:79 KB WVV de verplichting om deze latente meerwaarden die betrekking hebben op vaste activa met beperkte gebruiksduur, af te schrijven volgens een overeenkomstig artikel 3:6, § 1 KB WVV opgemaakt plan dat ertoe strekt de vastgestelde waarde af te schrijven over de vermoedelijke residuele gebruiksduur van de betrokken activa. 
@@ -105,9 +91,7 @@ Als de waarde van het betrokken actief daalt tot onder de geherwaardeerde waarde
 De Commissie vestigt er tevens de aandacht op dat alle activa dienen gewaardeerd te worden aan werkelijke waarde. Wat dus bij wijze van voorbeeld ook het geval is voor gelbeleggingen en liquiditeiten al dan niet uitgedrukt in vreemde valuta. De werkelijke waarde die in aanmerking wordt genomen is de wekelijke waarde op datum van de staat van activa en passiva ook al zou die niet duurzaam zijn.
 
 ## Voorbeelden
-
 ### Materiële vaste activa
-
 Een gebouw is reeds tien jaar in het bezit van een VZW[^16] op het ogenblik van de omzetting van deze VZW in een erkende CVSO. De aanschaffingswaarde van dit gebouw in hoofde van de VZW bedraagt 990.000 euro. De VZW heeft tot aan de omzetting 300.000 euro afschrijvingen geboekt op dit gebouw. De (netto) boekwaarde van het gebouw bedraagt aldus bij de omzetting 690.000 euro. De werkelijke waarde van het gebouw bedraagt op dat moment 1.200.000 euro. Naast dit gebouw bezit de VZW liquide middelen op een bankrekening voor een bedrag van 100.000 euro. De VZW is eveneens handelsschulden verschuldigd ter waarde van 200.000 euro. In het voorbeeld wordt er eenvoudigheidshalve van uitgegaan dat de VZW haar vermogen volledig zelf heeft opgebouwd zonder een beginvermogen.
 
 | Balans vóór omzetting[^17] | 
@@ -130,7 +114,6 @@ Op het ogenblik van de omzetting is het gebouw 510.000 euro meer waard dan de ui
 De geherwaardeerde nettowaarde van deze vaste activa wordt vervolgens jaarlijks verder afgeschreven volgens een passend afschrijvingsplan voor het deel van de herwaardering dat betrekking heeft op het actief met beperkte gebruiksduur.
 
 ### Geldbeleggingen
-
 Veronderstel dat de VZW (bovenop haar liquide middelen van 100.000 euro en de handelsschulden van 200.000 euro) twee geldbeleggingen bezit. De aanschaffingswaarde ervan bedraagt respectievelijk 600.000 euro (geldbelegging 1) en 250.000 euro (geldbelegging 2). Geldbelegging 1 maakte in de laatste jaarrekening het voorwerp uit van een waardevermindering van 100.000 euro, waardoor deze geldbelegging een netto-boekwaarde had van 500.000 euro.
 
 | Balans vóór omzetting[^20] | 

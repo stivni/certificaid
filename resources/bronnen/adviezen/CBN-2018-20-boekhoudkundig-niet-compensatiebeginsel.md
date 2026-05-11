@@ -3,51 +3,46 @@ bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundig-niet-compensatiebeginsel
 datum: 2018-11-23
 nummer: CBN-advies 2018/20
 provenance:
-  generated_at: '2026-05-11T15:15:32Z'
+  generated_at: '2026-05-11T17:48:39Z'
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundig-niet-compensatiebeginsel
-    sha256: 568d1613dc26b400815af270a80f04670188bb30393feef47a163c9c9d37c243
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundig-niet-compensatiebeginsel
+      sha256: 568d1613dc26b400815af270a80f04670188bb30393feef47a163c9c9d37c243
+      version:
   stale: false
-  stale_reason: null
+  stale_reason:
   tooling:
-    model: null
+    model:
     pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    prompt_version: null
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
     confirmed_at: '2026-05-11T12:21:40Z'
     confirmed_by: subagent-sonnet-4-6
     layer1:
-      file_size_chars: 7717
-      flags: []
-      heading_count: 4
-      max_section_chars: 2848
-      run_at: '2026-05-11T15:05:53Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:44Z'
+      heading_count: 4
+      max_section_chars: 2847
+      file_size_chars: 7713
+      flags: []
     layer2:
       agent: subagent-sonnet-4-6
       concrete_problemen: []
-      rationale: 'Geen significante artefacten gevonden. Tekst is vloeiend leesbaar,
-        vier ## headings correct aanwezig, alle 12 voetnoten volledig en verankerd.
-        Geen tabellen. Inhoud compleet.'
+      rationale: 'Geen significante artefacten gevonden. Tekst is vloeiend leesbaar, vier ## headings correct aanwezig, alle 12 voetnoten volledig en verankerd. Geen tabellen. Inhoud compleet.'
       run_at: '2026-05-11T12:21:40Z'
       status: trusted
-    rationale: 'Geen significante artefacten gevonden. Tekst is vloeiend leesbaar,
-      vier ## headings correct aanwezig, alle 12 voetnoten volledig en verankerd.
-      Geen tabellen. Inhoud compleet.'
+    rationale: 'Geen significante artefacten gevonden. Tekst is vloeiend leesbaar, vier ## headings correct aanwezig, alle 12 voetnoten volledig en verankerd. Geen tabellen. Inhoud compleet.'
     status: trusted
 themas:
-- niet-compensatie
-- compensatie
-- schuldvergelijking
+  - niet-compensatie
+  - compensatie
+  - schuldvergelijking
 ---
 
 # CBN-advies 2018/20 – Boekhoudkundig niet-compensatiebeginsel
 
 ## Inleiding
-
 De vraag werd gesteld aan de Commissie voor Boekhoudkundige Normen of een onderneming haar wederzijdse vorderingen en schulden met eenzelfde tegenpartij, in haar boekhouding en jaarrekening mag compenseren ten belope van het kleinste van beide betrokken bedragen.
 
 Gesteld dat een onderneming naar Belgisch recht op 31 december 20X1 een onmiddellijk opeisbare vordering van 200 bezit op een klant die tevens leverancier is, waaraan zij gelijktijdig 50 schuldig is die eveneens onmiddellijk opeisbaar zijn.
@@ -55,7 +50,6 @@ Gesteld dat een onderneming naar Belgisch recht op 31 december 20X1 een onmiddel
 Mag zij die schuld en die vordering compenseren in haar boekhouding en in haar jaarrekening?
 
 ## Wettelijke schuldvergelijking in Belgisch burgerlijk recht
-
 Als op de wederzijdse vorderingen en schulden het Belgische recht van toepassing is, dan geldt wat volgt: “[heeft] wanneer twee personen elkaars schuldenaar zijn, [...] tussen hen schuldvergelijking plaats, waardoor de twee schulden teniet gaan[^2]. Schuldvergelijking heeft van rechtswege plaats uit kracht van de wet, zelfs buiten weten van de schuldenaars; de twee schulden vernietigen elkaar op het ogenblik dat zij tegelijk bestaan, ten belope van hun wederkerig bedrag[^3]. Schuldvergelijking heeft alleen plaats tussen twee schulden die beide tot voorwerp hebben een geldsom of een zekere hoeveelheid vervangbare zaken van dezelfde soort en die beide vaststaande en opeisbaar zijn”[^4].
 
 Aangezien de wettelijke schuldvergelijking niet van openbare orde is, kunnen de wederzijdse schuldeisers en schuldenaars op rechtsgeldige wijze afspreken hun wederzijdse schulden en vorderingen niet te compenseren, zelfs al is aan de voorwaarden voor wettelijke schuldvergelijking voldaan. In dat geval moeten die schulden en vorderingen tot hun vervaldag behouden blijven in de boekhouding en de jaarrekening van de betrokken ondernemingen.
@@ -63,7 +57,6 @@ Aangezien de wettelijke schuldvergelijking niet van openbare orde is, kunnen de 
 Men kan volledigheidshalve hier nog aan toevoegen dat de partijen contractueel kunnen overeenkomen hun wederzijdse vorderingen en schulden te compenseren, zelfs als zij niet voldoen aan de voorwaarden voor wettelijke schuldvergelijking. 
 
 ## Boekhoudkundig niet-compensatiebeginsel
-
 Artikel 25 KB W.Venn. stelt dat “de jaarrekening [duidelijk] moet worden opgesteld en stelselmatig [moet] weergeven, enerzijds, de aard en het bedrag, op de dag waarop het boekjaar wordt afgesloten, van de bezittingen en rechten van de vennootschap, van haar schulden en verplichtingen evenals van haar eigen middelen, en anderzijds, [...] de aard en het bedrag van haar kosten en haar opbrengsten. Compensatie tussen tegoeden en schulden, tussen rechten en verplichtingen en tussen kosten en opbrengsten is verboden”[^5].
 
 Dit niet-compensatiebeginsel is afkomstig van de richtlijn 2013/34/EU van het Europees Parlement en van de Raad [met name] betreffende de jaarlijkse financiële overzichten die voorziet dat “verrekening tussen actief- en passiefposten en tussen baten- en lastenposten niet is toegestaan. [...] Niettegenstaande [dit], kunnen de lidstaten in specifieke gevallen toestaan of voorschrijven dat ondernemingen verrekeningen tussen actief- en passiefposten en tussen baten- en lastenposten toepassen, op voorwaarde dat de te verrekenen bedragen als brutobedragen in de toelichting bij de financiële overzichten worden vermeld”[^6].
@@ -77,7 +70,6 @@ Verder antwoordt de Commissie in CBN-advies 105/6[^8] op de vraag of de van een 
 Tot slot moet opgemerkt worden dat, voor wat betreft bestellingen in uitvoering, artikel 71 KB W.Venn. bepaalt dat deze rechtstreeks mogen worden gecompenseerd met de ontvangen vooruitbetalingen per overeenkomst, waarbij ofwel het debetsaldo wordt gepresenteerd als bestelling in uitvoering ofwel het creditsaldo wordt gepresenteerd als ontvangen vooruitbetaling. Bij het begin van elk boekjaar wordt de saldering tegengeboekt. In geval gebruik wordt gemaakt van deze mogelijkheid tot compensatie worden de bedragen vóór saldering in de toelichting vermeld.[^9] 
 
 ## Conclusie
-
 Op boekhoudrechtelijk vlak zorgt het principe van niet-compensatie ervoor dat het een onderneming niet is toegestaan de vorderingen en schulden te compenseren in haar boekhouding en/of jaarrekening.
 
 De Commissie is van mening dat dit boekhoudbeginsel opnieuw in zijn context moet worden gezien, namelijk bij de algemene principes m.b.t. de presentatie van de jaarrekening. Artikel 25 KB W.Venn. voorziet immers een verbod op het voorstellen van “compenserende rekeningen”.

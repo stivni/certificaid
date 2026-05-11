@@ -3,53 +3,53 @@ bron: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-re
 datum: 2011-10-05
 nummer: CBN-advies 2011/18
 provenance:
+  generated_at: '2026-05-11T17:48:39Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-renteswap-interest-rate-swap
       sha256: 09901efc13cc8117f278f027696548e4d44bbfecffcaa205aeb03b4e74210752
       version:
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
-    status: needs-rework
     confirmed_at: '2026-05-11T17:09:38Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "A9: regels 477 en 486 tonen 'ndekkings-IRS' — de leidende 'I' van 'Indekkings-IRS' is weggevallen, consistent op twee plaatsen (OCR-verwarring). B5: regels 337 en 382 tonen sectie-titels ('De IRS als indekkingsverrichting van een lening of ontlening tegen variabele rentevoet' en 'De IRS als indekkingsverrichting van een vastrentend effect opgenomen onder de geldbeleggingen') als plain-text alinea zonder ### prefix, terwijl de paragrafen er direct onder wel ### subheadings hebben."
     layer1:
-      file_size_chars: 36098
-      flags: []
-      heading_count: 16
-      max_section_chars: 9482
-      run_at: '2026-05-11T15:05:50Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:43Z'
+      heading_count: 16
+      max_section_chars: 9480
+      file_size_chars: 36077
+      flags: []
     layer2:
-      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T17:09:38Z'
-      rationale: "A9: regels 477 en 486 tonen 'ndekkings-IRS' — de leidende 'I' van 'Indekkings-IRS' is weggevallen, consistent op twee plaatsen (OCR-verwarring). B5: regels 337 en 382 tonen sectie-titels ('De IRS als indekkingsverrichting van een lening of ontlening tegen variabele rentevoet' en 'De IRS als indekkingsverrichting van een vastrentend effect opgenomen onder de geldbeleggingen') als plain-text alinea zonder ### prefix, terwijl de paragrafen er direct onder wel ### subheadings hebben."
       concrete_problemen:
-        - regel: 477
-          categorie: A9
+        - categorie: A9
+          regel: 477
           type: ocr-confusion
           voorbeeld: '| | ndekkings-IRS (notioneel van 10.000.000 €, netto balanswaarde van -7.500 €) | -50.000 | | |'
-        - regel: 486
-          categorie: A9
+        - categorie: A9
+          regel: 486
           type: ocr-confusion
           voorbeeld: '| | ndekkings-IRS (notioneel van 10.000.000 €) | -42.500 | | |'
-        - regel: 337
-          categorie: B5
+        - categorie: B5
+          regel: 337
           type: other
           voorbeeld: De IRS als indekkingsverrichting van een lening of ontlening tegen variabele rentevoet
-        - regel: 382
-          categorie: B5
+        - categorie: B5
+          regel: 382
           type: other
           voorbeeld: De IRS als indekkingsverrichting van een vastrentend effect opgenomen onder de geldbeleggingen
+      rationale: 'A9: regels 477 en 486 tonen ''ndekkings-IRS'' — de leidende ''I'' van ''Indekkings-IRS'' is weggevallen, consistent op twee plaatsen (OCR-verwarring). B5: regels 337 en 382 tonen sectie-titels (''De IRS als indekkingsverrichting van een lening of ontlening tegen variabele rentevoet'' en ''De IRS als indekkingsverrichting van een vastrentend effect opgenomen onder de geldbeleggingen'') als plain-text alinea zonder ### prefix, terwijl de paragrafen er direct onder wel ### subheadings hebben.'
+      run_at: '2026-05-11T17:09:38Z'
+      status: needs-rework
+    rationale: 'A9: regels 477 en 486 tonen ''ndekkings-IRS'' — de leidende ''I'' van ''Indekkings-IRS'' is weggevallen, consistent op twee plaatsen (OCR-verwarring). B5: regels 337 en 382 tonen sectie-titels (''De IRS als indekkingsverrichting van een lening of ontlening tegen variabele rentevoet'' en ''De IRS als indekkingsverrichting van een vastrentend effect opgenomen onder de geldbeleggingen'') als plain-text alinea zonder ### prefix, terwijl de paragrafen er direct onder wel ### subheadings hebben.'
+    status: needs-rework
 themas:
   - cash flow hedge
   - fair value hedge
@@ -63,7 +63,6 @@ themas:
 # CBN-advies 2011/18 – De boekhoudkundige verwerking van de renteswap (Interest Rate Swap)
 
 ## Inleiding
-
 De Commissie heeft besloten om het door haar gepubliceerde advies met betrekking tot algemene boekhoudprincipes van toepassing op afgeleide financiële instrumenten, te vervolledigen met concrete voorbeelden (CBN-advies 2010/12).
 
 Dit eerste advies behandelt de renteswap (hierna “IRS” of *Interest Rate Swap*). 
@@ -93,7 +92,6 @@ Zo zal de uiteindelijke interestkost van de onderneming komen vast te staan en z
 Daarnaast wenst de Commissie de nadruk erop te vestigen dat zij zich niet uitspreekt over de eventuele fiscale consequenties van de onderstaande boekhoudkundige verwerkingswijzen.
 
 ## Boekhoudkundige verwerking
-
 Bij de boekhoudkundige verwerking dient rekening gehouden te worden met de omstandigheden waarin dit instrument aangewend wordt. 
 
  Een onderneming kan namelijk beslissen, om puur speculatieve redenen, een IRS af te sluiten door uit te gaan van een gunstige evolutie van de rentevoet. Zoals reeds eerder aangehaald, kan de IRS ook tot doel hebben de onderneming te wapenen tegen een ongunstige evolutie van de rentevoet op bestaande verplichtingen. In dat geval spreekt men van indekkingsverrichtingen. 
@@ -114,11 +112,8 @@ In dit advies komen achtereenvolgens aan bod, de IRS als een speculatieve verric
 Andere bijzondere gevallen zullen eveneens aan bod komen, zoals de verwerking van de prospectieve IRS (f*orward starting swap*), de back-to-back IRS (*back-to-back swaps*) en de IRS met een opleg (*upfront payment*).
 
 ## Praktische gevallen
-
 ### De IRS als speculatieve verrichting
-
 #### Principes
-
 Een IRS kan gelijkgesteld worden aan een combinatie van een gelijktijdige lening en ontlening van hetzelfde bedrag jegens dezelfde tegenpartij, met het verschil dat het geleende en het ontleende kapitaal niet worden uitgewisseld. De onderneming dient dus voor de gelopen periode de betaalde en de ontvangen interesten in resultaat te nemen die verband houden met de IRS, evenals de nog niet ontvangen of betaalde gelopen interesten, net zoals dat het geval is voor een lening of een ontlening. 
 
 Het is echter mogelijk dat een renteswap periodiek slechts aanleiding geeft tot een nettobedrag: een te betalen of te ontvangen saldo[^7]. Voor wat deze situatie betreft, is de Commissie de mening toegedaan dat de aard van de IRS rechtvaardigt dat: 
@@ -137,8 +132,7 @@ De Commissie heeft deze vraag reeds behandeld. Conform het CBN-advies 2010/12 en
 
 Ten slotte dient de onderneming in haar waarderingsregels te bepalen op welke manier zij zal overgaan tot de boekhoudkundige verwerking van het resultaat en van het interestprorata op renteswaps[^9].
 
-#### Voorbeeld[^10]
-
+#### Voorbeeld
 Een onderneming verwacht een stijging van de rentevoet en wenst hieruit voordeel te halen door op 31 maart 2010, een IRS af te sluiten met een notioneel bedrag van 5.000.000 EUR met een looptijd van 5 jaar, en waarop de onderneming een vaste interest betaalt van 3% in ruil voor een variabele interest (Euribor) op 6 maanden + 1%. 
 
  De Euribor interest op 6 maanden evolueert op de periodieke vervaldagen als volgt: 
@@ -156,7 +150,6 @@ Een onderneming verwacht een stijging van de rentevoet en wenst hieruit voordeel
 Op 31 december 2010 en 31 december 2011 is de marktwaarde van de IRS respectievelijk negatief ten belope van -150.000 EUR en positief ten belope van 200.000 EUR.
 
 #### Boekhoudkundige verwerking
-
 *Op 31 maart 2010*
 
 De IRS wordt op de orderekeningen geboekt, onder de diverse rechten en verplichtingen:
@@ -327,7 +320,6 @@ Op de eindvervaldag van de IRS worden, naast de laatste interestwissel, de boeki
 | aan | 09… | Renteswap – notioneel geleend bedrag | | 5.000.000 |
 
 ### Back-to-back IRS
-
 Een onderneming kan een IRS afsluiten met een bank, terwijl ze een tweede IRS afsluit in de tegengestelde richting met, bijvoorbeeld, een andere vennootschap van de groep waartoe ze behoort. Dit komt vrij vaak voor bij vennootschappen die de *Treasury* activiteit van een groep centraliseren.
 
 In dit geval dient de onderneming de notionele bedragen van deze twee swaps op te nemen in de orderekeningen en dient ze de gelopen te betalen of te ontvangen interesten te prorateren voor de respectievelijke componententen van deze swaps.
@@ -336,7 +328,6 @@ Voor wat de latente resultaten betreft, is de Commissie de mening toegedaan dat 
 
 De IRS als indekkingsverrichting van een lening of ontlening tegen variabele rentevoet
 #### Principes
-
 In dit geval beoogt de onderneming zich in te dekken tegen een renteschommeling die zou kunnen leiden tot een stijging of daling van een bepaalde intereststroom. 
 
 Net zoals bij de speculatieve IRS dient de onderneming voor de gelopen periode de betaalde en ontvangen interesten die betrekking hebben op de IRS, in resultaat te nemen; evenals de gelopen, nog niet betaalde, interesten, net zoals dat het geval is voor een lening of een ontlening.
@@ -348,7 +339,6 @@ Conform de boekhoudkundige principes van indekkingstransacties, opgenomen in het
 Behoudens deze uitzonderingen, zijn de boekingen dus gelijk aan deze die van toepassing zijn op het eerste geval (zie II.A.2 & 3).
 
 #### Bijzondere gevallen
-
 - *Scenario 1* : afwikkeling van de renteswap na x aantal jaar, maar de onderneming blijft zichzelf financieren aan variabele rentevoet
 
 Volgens de Commissie dient het resultaat dat voortvloeit uit deze transactie gespreid te worden over de kortste van de volgende twee periodes: (i) de nog te lopen indekkingsperiode die initieel voorzien was en (ii) de resterende financieringsperiode aan variabele rentevoet, via de regularisatierekeningen. 
@@ -362,7 +352,6 @@ Enkel het effectieve gedeelte van de indekking kan echter in aanmerking worden g
 Bijgevolg is de Commissie de mening toegedaan dat, voor wat het gedeelte van het indekkingsinstrument betreft waarvoor geen onderliggende schuld tegen variabele rentevoet beschikbaar is, deze beschouwd dient te wordt als een speculatieve verrichting. Zo dient, rekening houdend met de gelopen interesten, het volledig latent verlies op dit deel van de IRS in resultaat te worden genomen (cf. het geval van de speculatieve IRS, zie III.A.2 & 3).
 
 ### De IRS als indekkingsverrichting van een ontlening met vaste rentevoet
-
 In dit geval beoogt de onderneming een schuld tegen vaste rentevoet om te zetten in een “synthetische” schuld tegen variabele rentevoet. De onderneming kan deze verrichting afsluiten indien ze een blijvende daling verwacht van de variabele rentevoet in vergelijking met de vaste rentevoet van de schuld.
 
 Zoals in de voorheen aangehaalde gevallen, dient de onderneming voor de gelopen periode de betaalde en ontvangen interesten die gerelateerd zijn aan de IRS, evenals de nog niet betaalde gelopen interesten, in resultaat te nemen, en dit zowel voor de lening als de ontlening.
@@ -374,14 +363,12 @@ Daarentegen dient aan het einde van de periode (zelfs) geen (negatieve) schommel
 De boekingen zijn dus gelijkaardig aan deze die werden toegepast op het vorige geval (zie III.C). 
 
 ### De IRS als indekkingsverrichting van een toekomstige schuld
-
 Een onderneming kan een prospectieve IRS (*forward starting swap*) afsluiten teneinde een schuld in te dekken (tegen vaste of variabele rentevoet) die ze in de toekomst zal moeten aflossen. In dit geval beginnen de interesten op de swap pas in de toekomst te lopen en worden er dus geen intresten tussen de contractdatum (*contract date*) van de IRS en de* value date* van de IRS (zijnde de datum waarop de intresten op de swap beginnen te lopen) in de resultatenrekening erkend. De IRS wordt echter wel opgenomen in de orderekeningen. Zolang het aangaan van de toekomstige schuld waarschijnlijk blijft, moet er geen voorziening worden geboekt in het geval van een eventueel latente minderwaarde op de IRS. Indien het daarentegen niet meer waarschijnlijk is dat de schuld zal worden aangegaan, dient de IRS verwerkt te worden als een speculatieve verrichting. 
 
 Eenmaal de schuld wordt opgenomen, zal de onderneming zich in één van de twee voorgaande situaties (geval III.C of III.D) bevinden en zal ze de IRS dienovereenkomstig verwerken. 
 
 De IRS als indekkingsverrichting van een vastrentend effect opgenomen onder de geldbeleggingen
 #### Principes
-
 Deze vastrentende effecten worden gewaardeerd tegen aanschaffingswaarde (in voorkomend geval gecorrigeerd op basis van het actuariële rendement van het effect) en ze maken het voorwerp uit van waardeverminderingen indien hun realisatiewaarde op balansdatum lager is dan hun aanschaffingswaarde (art. 73 en 74 van het KB W.Venn.).
 
 De waarde van de vastrentende effecten schommelt echter in functie van de evolutie van de rentevoet. De onderneming die vastrentende effecten bezit, is op die manier onderworpen aan een prijsrisico. 
@@ -419,7 +406,6 @@ Volgens de Commissie zou een alternatieve boekhoudkundige verwerking kunnen best
 | aan | 529 | Geboekte waardeverminderingen | | 1.000 |
 
 #### Bijzondere gevallen
-
 Indien de onderneming vroegtijdig het onderliggende effect afstaat, stelt zich de vraag op welke manier het indekkingsinstrument dient verwerkt te worden. De onderneming heeft meerdere mogelijkheden: 
 
 - *1ste hypothese* : de IRS wordt bijkomend afgewikkeld, tegen betaling aan (of door) de tegenpartij van de marktwaarde van de IRS
@@ -439,11 +425,9 @@ De IRS behoudt de boekwaarde die het had op het moment van de overdracht van het
 De IRS zal bijgevolg voortaan verwerkt worden als een geïsoleerde transactie met speculatief karakter. De latente minderwaarden op de IRS dienen in resultaat genomen te worden (*cf*. het voorbeeld van de speculatieve renteswaps in III.A.). 
 
 ### De IRS met een opleg (Upfront payment)
-
 Het kan zijn dat een swap wordt afgesloten volgens andere voorwaarden dan deze die primeren op de markt. In dit geval is het gebruikelijk dat de ene partij aan de andere een “compensatie” betaalt. De inresultaatname van dit bedrag dient normaliter gespreid te worden over de levensduur van de swap. De verwerkingen voorzien in de voormelde gevallen blijven overigens van toepassing. 
 
 ## Toelichting bij de jaarrekening
-
 De toelichting moet (onder de *Buiten de balans opgenomen rechten en verplichtingen*) een juist beeld geven van de lopende IRS-contracten, voor zover deze betrekking hebben op significante bedragen. Hiertoe zal de onderneming het notioneel bedrag van de contracten vermelden, waarbij ze bij voorkeur een onderscheid zal maken naargelang hun aanwending (speculatieve IRS, indekkings-IRS, …).
 
 Voor zover bepaalde IRS in de balans niet gewaardeerd worden aan hun reële waarde, dient onder de *Afgeleide financiële instrumenten die niet gewaardeerd zijn op basis van de reële waarde* melding gemaakt te worden van de reële waarde van de IRS, evenals van de indicaties met betrekking tot het aangehouden volume (notioneel bedrag). 

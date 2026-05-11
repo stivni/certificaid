@@ -16,49 +16,49 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/belastingkrediet-voor-kosten-van-onderzoek-en-ontwikkeling
 nummer: CBN-advies 2018/12
 provenance:
+  generated_at: '2026-05-11T17:48:39Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/interpretatie-van-code-99084-in-de-toelichting-514-van-de-geconsolideerde-jaarrekening
       sha256: 341e869a5772c57309a88b90943ac582d84e1ff11174619f8e67928cb20a98f7
       version:
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
-    status: needs-rework
     confirmed_at: '2026-05-11T17:13:30Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "E1/E2: de volledige voorbeeldtabellen (regels 128-869 en 875-1611) zijn gedecomposeerd in losse '| waarde |' celfragmenten waarbij elke numerieke waarde in een afzonderlijk '| \\n\\n[waarde]\\n\\n  |' blokje staat — de originele multi-kolom tabelstructuur (jaren X t/m X+4) is volledig onleesbaar. Dit ernstig ETL-artefact maakt het tweede deel van het document onbruikbaar voor RAG. A6: regel 93-95 heeft een gebroken tabelcel ('Art. 29 \\n\\n\\t\\t\\t\\t§ 4') met tab-inspringing."
     layer1:
-      file_size_chars: 15505
-      flags: []
-      heading_count: 5
-      max_section_chars: 6687
-      run_at: '2026-05-11T15:05:53Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:44Z'
+      heading_count: 5
+      max_section_chars: 6684
+      file_size_chars: 15488
+      flags: []
     layer2:
-      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T17:13:30Z'
-      rationale: "E1/E2: de volledige voorbeeldtabellen (regels 128-869 en 875-1611) zijn gedecomposeerd in losse '| waarde |' celfragmenten waarbij elke numerieke waarde in een afzonderlijk '| \\n\\n[waarde]\\n\\n  |' blokje staat — de originele multi-kolom tabelstructuur (jaren X t/m X+4) is volledig onleesbaar. Dit ernstig ETL-artefact maakt het tweede deel van het document onbruikbaar voor RAG. A6: regel 93-95 heeft een gebroken tabelcel ('Art. 29 \\n\\n\\t\\t\\t\\t§ 4') met tab-inspringing."
       concrete_problemen:
-        - regel: 128
-          categorie: E1
+        - categorie: E1
+          regel: 128
           type: pseudo-table
           voorbeeld: "| \n\nBoekhoudkundige afschrijving in 5 jaar\n\n  |"
-        - regel: 134
-          categorie: E1
+        - categorie: E1
+          regel: 134
           type: pseudo-table
           voorbeeld: "| \n\nJaren\n\n  | | \n|---|\n\nX\n\n  | | \n|---|\n\nX+1\n\n  |"
-        - regel: 93
-          categorie: A6
+        - categorie: A6
+          regel: 93
           type: other
           voorbeeld: "| Art. 29 \n\n\t\t\t\t§ 4 | | In de geconsolideerde balans..."
+      rationale: 'E1/E2: de volledige voorbeeldtabellen (regels 128-869 en 875-1611) zijn gedecomposeerd in losse ''| waarde |'' celfragmenten waarbij elke numerieke waarde in een afzonderlijk ''| \n\n[waarde]\n\n  |'' blokje staat — de originele multi-kolom tabelstructuur (jaren X t/m X+4) is volledig onleesbaar. Dit ernstig ETL-artefact maakt het tweede deel van het document onbruikbaar voor RAG. A6: regel 93-95 heeft een gebroken tabelcel (''Art. 29 \n\n\t\t\t\t§ 4'') met tab-inspringing.'
+      run_at: '2026-05-11T17:13:30Z'
+      status: needs-rework
+    rationale: 'E1/E2: de volledige voorbeeldtabellen (regels 128-869 en 875-1611) zijn gedecomposeerd in losse ''| waarde |'' celfragmenten waarbij elke numerieke waarde in een afzonderlijk ''| \n\n[waarde]\n\n  |'' blokje staat — de originele multi-kolom tabelstructuur (jaren X t/m X+4) is volledig onleesbaar. Dit ernstig ETL-artefact maakt het tweede deel van het document onbruikbaar voor RAG. A6: regel 93-95 heeft een gebroken tabelcel (''Art. 29 \n\n\t\t\t\t§ 4'') met tab-inspringing.'
+    status: needs-rework
 themas:
   - belasting
   - uitgestelde belastingen
@@ -70,13 +70,11 @@ themas:
 # CBN-advies 2018/12 - Interpretatie van code 99084 in de toelichting 5.14 van de geconsolideerde jaarrekening
 
 ## Inleiding
-
 De Commissie werd gevraagd om advies te geven betreffende de interpretatie die gegeven moet worden aan de code 99084 in de toelichting 5.14 van het model van de geconsolideerde jaarrekening van de Nationale Bank van België[^2]: 
 
 “Verschil tussen de aan de geconsolideerde resultatenrekening van het boekjaar en de vorige boekjaren toegerekende belastingen en de voor die boekjaren reeds betaalde of nog te betalen belastingen, voor zover dit verschil van belang is met het oog op de in de toekomst te betalen belastingen.”
 
 ## Analyse van de Belgische en Europese wetgeving
-
 Code 99084 herneemt artikel 165, XIV.D.1° van het KB W.Venn.[^3] hetgeen zelf artikel 34, § 11 van de Zevende Richtlijn 83/349/EEG van de Raad van 13 juni 1983 betreffende de geconsolideerde jaarrekening (hierna: de Zevende Richtlijn) herneemt. 
 
 De Zevende Richtlijn werd ingetrokken door de Richtlijn 2013/34/EU van het Europees Parlement en van de Raad van 26 juni 2013 met name betreffende de geconsolideerde financiële overzichten. 
@@ -105,7 +103,6 @@ In punt 4 wordt een tabel opgenomen met een vergelijking tussen de twee richtlij
 |---|---|---|---|---|---|---|
 
 ## Inhoud van de toelichting bij de geconsolideerde jaarrekening betreffende de resultaten van het boekjaar en het vorige boekjaar zoals voorzien in artikel 165 KB W.Venn.
-
 Code 99084 uit de toelichting 5.14 mag niet verward worden met de toelichting 5.6 betreffende de berekeningsmethoden van belastinglatenties in code 168 van de geconsolideerde jaarrekening, Uitgestelde belastingen en belastinglatenties.
 
 Artikel 129[^6] van het KB W.Venn. vraagt immers dat in de geconsolideerde overzichten rekening wordt gehouden met de passieve belastinglatenties, voor zover mag worden aangenomen dat daaruit voor de consoliderende vennootschap of voor een in de consolidatie opgenomen dochteronderneming in de afzienbare toekomst inderdaad kosten zullen voortvloeien.
@@ -123,7 +120,6 @@ De Commissie is van mening dat code 99084 uit de toelichting 5.14 van het model 
 Stel dat een bedrijf een machine koopt voor een waarde van 100.
 
 ### Actieve belastinglatenties
-
 Een degressieve belastingafschrijving wordt vastgelegd voor 40 op basis van artikel 64 WIB 92 en wordt boekhoudkundig afgeschreven in 5 jaar (afschrijving beperkt tot 20 in de geconsolideerde jaarrekening).
 
 | 
@@ -821,22 +817,22 @@ A-B
   | 
 | 
 
-  | | 
+ | | 
 |---|
 
-  | | 
+ | | 
 |---|
 
-  | | 
+ | | 
 |---|
 
-  | | 
+ | | 
 |---|
 
-  | | 
+ | | 
 |---|
 
-  | 
+ | 
 | 
 
 Code 99084
@@ -869,7 +865,6 @@ Code 99084
   | 
 
 ### Passieve belastinglatenties
-
 Een degressieve boekhoudkundige afschrijving wordt vastgelegd voor 40 en wordt belasting afgeschreven in 5 jaar.
 
 | 
@@ -1563,22 +1558,22 @@ B
   | 
 | 
 
-  | | 
+ | | 
 |---|
 
-  | | 
+ | | 
 |---|
 
-  | | 
+ | | 
 |---|
 
-  | | 
+ | | 
 |---|
 
-  | | 
+ | | 
 |---|
 
-  | 
+ | 
 | 
 
  Code 99084

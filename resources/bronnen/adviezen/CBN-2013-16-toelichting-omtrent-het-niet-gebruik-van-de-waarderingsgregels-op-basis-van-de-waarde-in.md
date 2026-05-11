@@ -2,62 +2,58 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/toelichting-omtrent-het-niet-gebruik-van-de-waarderingsgregels-op-basis-van-de-waarde-in
 datum: 2013-11-27
 gerelateerde_adviezen:
-- datum: '2017-05-31'
-  titel: Opname van financiële vaste activa geboekt tegen een hoger bedrag dan hun
-    reële waarde in de toelichting van de jaarrekening
-  url: https://www.cbn-cnc.be/nl/adviezen/opname-van-financiele-vaste-activa-geboekt-tegen-een-hoger-bedrag-dan-hun-reele-waarde-in
-- datum: '2016-07-06'
-  titel: Boekhoudkundige verwerking van de cross currency swap
-  url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-cross-currency-swap
-- datum: '2010-09-08'
-  titel: De toepassing van de algemene boekhoudprincipes op afgeleide financiële instrumenten
-  url: https://www.cbn-cnc.be/nl/adviezen/de-toepassing-van-de-algemene-boekhoudprincipes-op-afgeleide-financiele-instrumenten
+  - datum: '2017-05-31'
+    titel: Opname van financiële vaste activa geboekt tegen een hoger bedrag dan hun reële waarde in de toelichting van de jaarrekening
+    url: https://www.cbn-cnc.be/nl/adviezen/opname-van-financiele-vaste-activa-geboekt-tegen-een-hoger-bedrag-dan-hun-reele-waarde-in
+  - datum: '2016-07-06'
+    titel: Boekhoudkundige verwerking van de cross currency swap
+    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-cross-currency-swap
+  - datum: '2010-09-08'
+    titel: De toepassing van de algemene boekhoudprincipes op afgeleide financiële instrumenten
+    url: https://www.cbn-cnc.be/nl/adviezen/de-toepassing-van-de-algemene-boekhoudprincipes-op-afgeleide-financiele-instrumenten
 nummer: CBN-advies 2013/16
 provenance:
-  generated_at: '2026-05-11T15:15:31Z'
+  generated_at: '2026-05-11T17:48:39Z'
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/toelichting-omtrent-het-niet-gebruik-van-de-waarderingsgregels-op-basis-van-de-waarde-in
-    sha256: fe2d27317cdd6987339e2633ddabafb6344517363a83c3fd19f4b741d3f4c3b7
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/toelichting-omtrent-het-niet-gebruik-van-de-waarderingsgregels-op-basis-van-de-waarde-in
+      sha256: fe2d27317cdd6987339e2633ddabafb6344517363a83c3fd19f4b741d3f4c3b7
+      version:
   stale: false
-  stale_reason: null
+  stale_reason:
   tooling:
-    model: null
+    model:
     pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    prompt_version: null
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
     confirmed_at: '2026-05-08T21:31:12Z'
     confirmed_by: human
     layer1:
-      file_size_chars: 14693
-      flags: []
-      heading_count: 4
-      max_section_chars: 5542
-      run_at: '2026-05-11T15:05:51Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:43Z'
+      heading_count: 4
+      max_section_chars: 5541
+      file_size_chars: 14689
+      flags: []
     layer2:
-      agent: null
+      agent:
       concrete_problemen: []
-      rationale: null
-      run_at: null
+      rationale:
+      run_at:
       status: not_run
-    rationale: 'Herscraped na fix select_title(): gecombineerde H1 (COMMISSIE + titel)
-      correct gesplitst. Inhoud ongewijzigd t.o.v. vorig vertrouwd verdict. Laag 1
-      pass (of benign max_section warn).'
+    rationale: 'Herscraped na fix select_title(): gecombineerde H1 (COMMISSIE + titel) correct gesplitst. Inhoud ongewijzigd t.o.v. vorig vertrouwd verdict. Laag 1 pass (of benign max_section warn).'
     status: trusted
 themas:
-- afgeleide financiële instrumenten
-- financiële instrumenten
-- reële waarde
-- waarde in het economisch verkeer
+  - afgeleide financiële instrumenten
+  - financiële instrumenten
+  - reële waarde
+  - waarde in het economisch verkeer
 ---
 
 # CBN-advies 2013/16 – Toelichting omtrent het niet-gebruik van de waarderingsgregels op basis van de waarde in het economisch verkeer voor de financiële instrumenten
 
 ## Inleiding
-
 Aan de Commissie werd de vraag gesteld hoe de toelichting omtrent financiële instrumenten die niet gewaardeerd zijn op basis van de waarde in het economisch verkeer dient te worden vervolledigd. Deze toelichting dient te worden verstrekt in het volledig model[^2] van de jaarrekening en de geconsolideerde jaarrekening[^3] voor Belgische ondernemingen. Daarnaast dienen ook Belgische verenigingen zonder winstoogmerk en stichtingen een vergelijkbare toelichting te verstrekken in het volledig model[^4] van de jaarrekening. 
 
 Het Koninklijk Besluit van 8 maart 2005[^5] zet de Richtlijn 2001/65/EG[^6] om in Belgisch recht. Naast de Richtlijn 2001/65/EG, voorzien de Richtlijnen 2003/51/EG[^7] en 2006/46/EG[^8] de mogelijkheid om financiële instrumenten te waarderen aan de waarde in het economisch verkeer. De regering heeft echter geen gebruik gemaakt van deze mogelijkheid[^9]. 
@@ -74,7 +70,6 @@ Vallen echter niet binnen het toepassingsveld van dit advies: de instrumenten ui
 Als gevolg van de onder randnummer 4 opgenomen definitie van afgeleide financiële instrumenten, is de Commissie de mening toegedaan dat er een passende toelichting omtrent het gebruik van de waarde in het economisch verkeer dient te worden opgenomen voor deze instrumenten door toepassing van het artikel 91 of 165 KB W.Venn., voor zover deze afgeleide financiële instrumenten niet gewaardeerd zijn op basis van de waarde in het economisch verkeer.
 
 ## Definiëring van de waarde in het economisch verkeer of reële waarde
-
 De invulling van het begrip *waarde in het economisch verkeer* of *reële waarde* werd opgenomen in artikel 97, C, KB W.Venn.: “Dient te worden verstaan onder juiste waarde in het economisch verkeer: de waarde vastgesteld met verwijzing naar:
 
 1. een marktwaarde voor de financiële instrumenten waarvoor een betrouwbare markt gemakkelijk is aan te wijzen. Wanneer een marktwaarde voor een gegeven instrument niet eenvoudig kan worden bepaald, maar dit wel kan voor de samenstellende elementen of voor een gelijkaardig instrument, kan de marktwaarde berekend worden op basis van die van zijn bestanddelen of die van het gelijkaardige instrument, of 
@@ -87,7 +82,6 @@ De Commissie wenst er tevens op te wijzen dat de Richtlijn 2001/65/EG bepaalt da
 De Commissie beveelt dan ook aan dat, indien de bepaling van de reële waarde voor afgeleide financiële instrumenten (*infra*) werd gebaseerd op niet rechtstreeks waarneembare veronderstellingen, deze veronderstellingen dienen te worden opgenomen in de vrije toelichtingen van de jaarrekening voor zover deze veronderstellingen significant zouden zijn. 
 
 ## Waardering tegen de waarde in het economisch verkeer of reële waarde bij speculatieve transacties
-
 Uit de algemeen geldende waarderingsregels alsook uit de samenlezing van het CBN-advies 2010/12 – De toepassing van de algemene boekhoudprincipes op afgeleide financiële instrumenten[^11] en het CBN-advies 2011/18 – De boekhoudkundige verwerking van de renteswap (*Interest rate swap*)[^12] kan worden besloten dat in een Belgische context slechts kan worden rekening gehouden met de reële waarde bij de waardering van afgeleide financiële instrumenten die deel uitmaken van een* speculatieve verrichting[^13] *.
 
 Immers in het geval een effectieve dekking of gesloten positie (*cash flow hedge* of *fair value hedge*), ongeacht het type afgeleid financieel instrument, is de waardering tegen reële waarde uitgesloten[^14].
@@ -99,7 +93,6 @@ De Commissie is zich ervan bewust dat de toelichting uit artikel 91 en 165 van h
 De Commissie wenst dan ook in dit advies een algemeen geldend rapporteringsraamwerk op te stellen voor afgeleide financiële instrumenten ongeacht of deze al dan niet een deel uitmaken van een gesloten positie.
 
 ## Toelichting omtrent het gebruik van de waarde in het economisch verkeer voor afgeleide financiële instrumenten
-
 De huidige toelichtingsvereisten omtrent het gebruik van marktwaarde voor afgeleide financiële instrumenten kunnen mogelijks leiden tot foute conclusies omtrent het gebruik van afgeleide financiële instrumenten door ondernemingen (*supra*, randnummer 13). Het lijkt de Commissie derhalve aangewezen dat, behoudens de specifieke toelichtingsvereisten van elk type afgeleid financieel instrument[^16], ook een vergelijkend overzicht wordt opgesteld. Dit overzicht, waarin uitsluitend de waarde, de omvang en de aard van de instrumenten worden opgenomen, kan dan worden opgenomen onder de vrije toelichtingen van de jaarrekening. 
 
 Als gevolg van deze bijkomende toelichting zal de gebruiker van de jaarrekening een betere inzage krijgen in de verschillende types van afgeleide financiële instrumenten en waarvoor deze worden gehanteerd binnen de onderneming. De Commissie acht het tevens nuttig om per type van instrument ook het ingedekte risico narratief toe te lichten. De vergelijking tussen boekwaarde en marktwaarde zal voornamelijk voor de speculatieve afgeleide financiële instrumenten meer duidelijkheid bieden: speculatieve instrumenten die in een bepaald boekjaar worden opgenomen aan boekwaarde vertonen m.a.w. een latente meerwaarde; speculatieve instrumenten die worden opgenomen aan marktwaarde vertonen een minderwaarde die reeds ten laste werd gelegd van de periode.

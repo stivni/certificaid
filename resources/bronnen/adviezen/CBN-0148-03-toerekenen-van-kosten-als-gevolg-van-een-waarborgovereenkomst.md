@@ -3,46 +3,44 @@ bron: https://www.cbn-cnc.be/nl/adviezen/toerekenen-van-kosten-als-gevolg-van-ee
 datum: 1986-01-01
 nummer: CBN-advies 148/3
 provenance:
-  generated_at: '2026-05-11T15:15:31Z'
+  generated_at: '2026-05-11T17:48:38Z'
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/toerekenen-van-kosten-als-gevolg-van-een-waarborgovereenkomst
-    sha256: efb93cfc2a9357d8f712b25b834397f1b49619bbdae0e6ad2b41edf3342d272f
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/toerekenen-van-kosten-als-gevolg-van-een-waarborgovereenkomst
+      sha256: efb93cfc2a9357d8f712b25b834397f1b49619bbdae0e6ad2b41edf3342d272f
+      version:
   stale: false
-  stale_reason: null
+  stale_reason:
   tooling:
-    model: null
+    model:
     pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    prompt_version: null
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
     confirmed_at: '2026-05-11T12:04:41Z'
     confirmed_by: subagent-sonnet-4-6
     layer1:
-      file_size_chars: 3630
-      flags: []
+      status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:41Z'
       heading_count: 0
       max_section_chars: 3630
-      run_at: '2026-05-11T15:05:49Z'
-      run_id: 20260511-150547
-      status: pass
+      file_size_chars: 3630
+      flags: []
     layer2:
       agent: subagent-sonnet-4-6
       concrete_problemen: []
-      rationale: 'Één voetnoot aanwezig en correct. Inhoud volledig: probleem, twee
-        methodieken, standpunt Commissie. Geen artefacten, geen structuurfouten.'
+      rationale: 'Één voetnoot aanwezig en correct. Inhoud volledig: probleem, twee methodieken, standpunt Commissie. Geen artefacten, geen structuurfouten.'
       run_at: '2026-05-11T12:04:41Z'
       status: trusted
-    rationale: 'Één voetnoot aanwezig en correct. Inhoud volledig: probleem, twee
-      methodieken, standpunt Commissie. Geen artefacten, geen structuurfouten.'
+    rationale: 'Één voetnoot aanwezig en correct. Inhoud volledig: probleem, twee methodieken, standpunt Commissie. Geen artefacten, geen structuurfouten.'
     status: trusted
 themas:
-- kosten als gevolg van een waarborgovereenkomst
-- toerekenen van kosten als gevolg van waarborgovereenkomst
-- toerekening van kosten en opbrengsten
-- voorziening
-- waarborg
-- waarborgovereenkomst
+  - kosten als gevolg van een waarborgovereenkomst
+  - toerekenen van kosten als gevolg van waarborgovereenkomst
+  - toerekening van kosten en opbrengsten
+  - voorziening
+  - waarborg
+  - waarborgovereenkomst
 ---
 
 # CBN-advies 148/3 - Toerekenen van kosten als gevolg van een waarborgovereenkomst

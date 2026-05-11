@@ -2,76 +2,66 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/terugbetaling-van-kapitaal-in-vreemde-valuta-aan-de-aandeelhouders
 datum: 2024-03-13
 gerelateerde_adviezen:
-- datum: '2019-03-12'
-  titel: Dividenduitkering en kapitaalvermindering in natura
-  url: https://www.cbn-cnc.be/nl/adviezen/dividenduitkering-en-kapitaalvermindering-in-natura-0
-- datum: '1995-03-01'
-  titel: Toerekening door de aandeelhouder van een terugbetaling van kapitaal of een
-    uitgiftepremie of van een uitkering van reserves
-  url: https://www.cbn-cnc.be/nl/adviezen/toerekening-door-de-aandeelhouder-van-een-terugbetaling-van-kapitaal-of-een-uitgiftepremie
+  - datum: '2019-03-12'
+    titel: Dividenduitkering en kapitaalvermindering in natura
+    url: https://www.cbn-cnc.be/nl/adviezen/dividenduitkering-en-kapitaalvermindering-in-natura-0
+  - datum: '1995-03-01'
+    titel: Toerekening door de aandeelhouder van een terugbetaling van kapitaal of een uitgiftepremie of van een uitkering van reserves
+    url: https://www.cbn-cnc.be/nl/adviezen/toerekening-door-de-aandeelhouder-van-een-terugbetaling-van-kapitaal-of-een-uitgiftepremie
 nummer: CBN-advies 2024/04
 provenance:
-  generated_at: '2026-05-11T15:15:32Z'
+  generated_at: '2026-05-11T17:48:40Z'
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/terugbetaling-van-kapitaal-in-vreemde-valuta-aan-de-aandeelhouders
-    sha256: 935540be7b4d90a785af3089c2bcb940028d9e8241a35b78a265829bdb2743e9
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/terugbetaling-van-kapitaal-in-vreemde-valuta-aan-de-aandeelhouders
+      sha256: 935540be7b4d90a785af3089c2bcb940028d9e8241a35b78a265829bdb2743e9
+      version:
   stale: false
-  stale_reason: null
+  stale_reason:
   tooling:
-    model: null
+    model:
     pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    prompt_version: null
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
     confirmed_at: '2026-05-11T12:24:34Z'
     confirmed_by: subagent-sonnet-4-6
     layer1:
-      file_size_chars: 16557
-      flags: []
-      heading_count: 5
-      max_section_chars: 8881
-      run_at: '2026-05-11T15:05:54Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:45Z'
+      heading_count: 5
+      max_section_chars: 8880
+      file_size_chars: 16552
+      flags: []
     layer2:
       agent: subagent-sonnet-4-6
       concrete_problemen: []
-      rationale: 'Geen zichtbare extractie-artefacten. Twee uitgewerkte voorbeelden
-        met journaalboekingen in correcte pipe-tabellen. Voetnoten [^1]–[^16] volledig.
-        Heading-hiërarchie correct (#, ##). Inhoud volledig voor het onderwerp (historische
-        vs. actuele wisselkoers, hypothese 1 en 2, voorbeeld 2 met doorverkoop). Geen
-        TOC-residu, geen malformed bold/italic.'
+      rationale: 'Geen zichtbare extractie-artefacten. Twee uitgewerkte voorbeelden met journaalboekingen in correcte pipe-tabellen. Voetnoten [^1]–[^16] volledig. Heading-hiërarchie correct (#, ##). Inhoud volledig voor het onderwerp (historische vs. actuele wisselkoers, hypothese 1 en 2, voorbeeld 2 met doorverkoop). Geen TOC-residu, geen malformed bold/italic.'
       run_at: '2026-05-11T12:24:34Z'
       status: trusted
-    rationale: 'Geen zichtbare extractie-artefacten. Twee uitgewerkte voorbeelden
-      met journaalboekingen in correcte pipe-tabellen. Voetnoten [^1]–[^16] volledig.
-      Heading-hiërarchie correct (#, ##). Inhoud volledig voor het onderwerp (historische
-      vs. actuele wisselkoers, hypothese 1 en 2, voorbeeld 2 met doorverkoop). Geen
-      TOC-residu, geen malformed bold/italic.'
+    rationale: 'Geen zichtbare extractie-artefacten. Twee uitgewerkte voorbeelden met journaalboekingen in correcte pipe-tabellen. Voetnoten [^1]–[^16] volledig. Heading-hiërarchie correct (#, ##). Inhoud volledig voor het onderwerp (historische vs. actuele wisselkoers, hypothese 1 en 2, voorbeeld 2 met doorverkoop). Geen TOC-residu, geen malformed bold/italic.'
     status: trusted
 themas:
-- terugbetaling van kapitaal
-- kapitaalvermindering
-- kapitaal
-- vreemde valuta
-- vreemde munt
-- deviezen
-- aandeelhouder
-- wisselkoers
-- historische wisselkoers
-- niet-monetaire activa
-- deelneming
-- aandelen
-- werkelijke wisselkoers
-- actuele wisselkoers
-- wisselresultaat
+  - terugbetaling van kapitaal
+  - kapitaalvermindering
+  - kapitaal
+  - vreemde valuta
+  - vreemde munt
+  - deviezen
+  - aandeelhouder
+  - wisselkoers
+  - historische wisselkoers
+  - niet-monetaire activa
+  - deelneming
+  - aandelen
+  - werkelijke wisselkoers
+  - actuele wisselkoers
+  - wisselresultaat
 ---
 
 # CBN-advies 2024/04 – Terugbetaling van kapitaal in vreemde valuta aan de aandeelhouders
 
 ## Inleiding
-
 Wanneer een Belgische vennootschap (die haar boekhouding in euro voert) een deelneming verkrijgt in een vennootschap met een andere functionele valuta dan de euro, wordt het bedrag van de inbreng in geld in vreemde valuta omgezet in euro tegen in principe de wisselkoers van de dag van de verrichting[^2] (historische wisselkoers). Deze deelneming blijft steeds geboekt in de boekhouding en jaarrekening van de Belgische vennootschap tegen de historische wisselkoers.
 
 In onderhavig advies bespreekt de Commissie de boekhoudkundige verwerking in hoofde van een Belgische vennootschap-aandeelhouder van een (gedeeltelijke) terugbetaling van kapitaal[^3] door een buitenlandse vennootschap met een andere functionele valuta dan de euro die leidt tot een wisselverlies (of -winst) ingeval de historische wisselkoers van de vreemde munt t.o.v. de euro hoger (of lager) is dan de actuele koers.
@@ -81,7 +71,6 @@ Onderhavig advies behandelt uitsluitend stabiele, internationaal erkende, vreemd
 Er moet worden opgemerkt dat de Commissie in het verleden een advies heeft uitgebracht betreffende de boekhoudkundige verwerking van niet-monetaire financiële activa in deviezen[^5]. Dit advies moet gelezen worden als voortzetting van CBN-advies 152/4.
 
 ## Boekhoudkundige verwerking
-
 In artikel 3:13 van het koninklijk besluit tot uitvoering van het Wetboek van vennootschappen en verenigingen (hierna: KB WVV) wordt volgend beginsel opgenomen: elk actiefbestanddeel [wordt] gewaardeerd tegen aanschaffingswaarde en voor dat bedrag in de balans opgenomen.
 
 In CBN-advies 152/4 verduidelijkt de Commissie dat de aanschaffingswaarde waartegen niet-monetaire activa (waaronder deelnemingen en aandelen) worden en blijven opgenomen in de jaarrekening, de aanschaffingswaarde in euro is die bekomen wordt door op de prijs in vreemde valuta de gekozen omrekeningskoers toe te passen.[^6]
@@ -96,9 +85,7 @@ In geval van waardedaling van de vreemde munt t.o.v. de euro[^11], is de aanreke
 In geval van waardestijging van de vreemde munt t.o.v. de euro[^13], is de aanrekening (credit) op de deelneming (tegen de historische wisselkoers) kleiner dan de boekwaarde van de vordering die ontstaat naar aanleiding van de kapitaalvermindering (tegen de actuele wisselkoers[^14]). Aldus moet een opbrengst (wisselwinst) geboekt worden ten belope van het verschil tussen, enerzijds, het credit van de deelneming en, anderzijds, het debet van de vordering. Deze boeking gebeurt op rekening 754 *Wisselresultaten*.
 
 ## Voorbeelden
-
 ## Voorbeeld 1
-
 Stel dat de Belgische vennootschap A in 20X0 een vennootschap B opricht in de Verenigde Staten d.m.v. een inbreng in kapitaal van 100.000 USD. Bij de plaatsing van het kapitaal bedraagt de wisselkoers EUR/USD 1,30 EUR voor 1 USD. Vennootschap A boekt haar deelneming in de jaarrekening voor 130.000 EUR.
 
 Boekingen in boekjaar 20X0
@@ -139,7 +126,6 @@ Boekingen in boekjaar 20X3 bij de effectieve terugbetaling van kapitaal
 | | 754 | Wisselresultaten | 5.000 | |
 
 ## Voorbeeld 2
-
 Veronderstel dat, als gevolg van een wijziging van het aandeelhouderschap, het bedrag van het in de dochtervennootschap ingebrachte kapitaal of inbreng niet langer overeenstemt met de aanschaffingswaarde van de deelneming in hoofde van de aandeelhouder.
 
 Stel dat de Belgische vennootschap A in 20X0 een vennootschap B opricht in de Verenigde Staten d.m.v. een inbreng in kapitaal van 100.000 USD. Bij de plaatsing van het kapitaal bedraagt de wisselkoers EUR/USD 1,30 EUR voor 1 USD. Vennootschap A boekt haar deelneming aan aanschaffingswaarde, zijnde 130.000 EUR

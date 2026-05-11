@@ -7,37 +7,37 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/boeking-en-waardering-van-voorraden
 nummer: CBN-advies 132/1
 provenance:
+  generated_at: '2026-05-11T17:48:38Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/lifo-methode
       sha256: 9f5dad87edeed60e2c6f4377a949f8eaa9c5cf16599cade262c83a1c4d968415
       version:
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
-    status: trusted
     confirmed_at: '2026-05-11T15:15:33Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: Geen ETL-artefacten aangetroffen. Één sectie (6968 chars) zonder subheadings — passend voor dit compacte advies. Titelvorm 'CBN advies 132-1' (ruimte, koppelteken, kleine letter) is hoe de CBN-website dit weergeeft en dus een source-eigenaardigheid, geen ETL-bug. Lopende tekst coherent zonder spurious line-breaks of column-bleed.
     layer1:
-      file_size_chars: 6968
-      flags: []
-      heading_count: 1
-      max_section_chars: 6968
-      run_at: '2026-05-11T15:05:48Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:41Z'
+      heading_count: 1
+      max_section_chars: 6966
+      file_size_chars: 6966
+      flags: []
     layer2:
-      status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:15:33Z'
-      rationale: Geen ETL-artefacten aangetroffen. Één sectie (6968 chars) zonder subheadings — passend voor dit compacte advies. Titelvorm 'CBN advies 132-1' (ruimte, koppelteken, kleine letter) is hoe de CBN-website dit weergeeft en dus een source-eigenaardigheid, geen ETL-bug. Lopende tekst coherent zonder spurious line-breaks of column-bleed.
       concrete_problemen: []
+      rationale: Geen ETL-artefacten aangetroffen. Één sectie (6968 chars) zonder subheadings — passend voor dit compacte advies. Titelvorm 'CBN advies 132-1' (ruimte, koppelteken, kleine letter) is hoe de CBN-website dit weergeeft en dus een source-eigenaardigheid, geen ETL-bug. Lopende tekst coherent zonder spurious line-breaks of column-bleed.
+      run_at: '2026-05-11T15:15:33Z'
+      status: trusted
+    rationale: Geen ETL-artefacten aangetroffen. Één sectie (6968 chars) zonder subheadings — passend voor dit compacte advies. Titelvorm 'CBN advies 132-1' (ruimte, koppelteken, kleine letter) is hoe de CBN-website dit weergeeft en dus een source-eigenaardigheid, geen ETL-bug. Lopende tekst coherent zonder spurious line-breaks of column-bleed.
+    status: trusted
 themas:
   - fifo-methode
   - gewogen gemiddelde prijs
@@ -48,9 +48,7 @@ themas:
 ---
 
 # CBN advies 132-1 - LIFO-methode
-
 ## Advies van december 1981, bijgewerkt op 6 oktober 2010
-
 Overeenkomstig artikel 43, eerste lid van het koninklijk besluit van 30 januari 2001 tot uitvoering van het Wetboek van Vennootschappen (hierna: KB W.Venn.) wordt de aanschaffingswaarde van activa met identieke technische of juridische kenmerken bepaald hetzij door individualisering van de prijs van elk bestanddeel, hetzij volgens de methode van gewogen gemiddelde prijzen, hetzij volgens de Fifo- of de Lifo-methode.
 
 Aan de Commissie werd gevraagd wat voor de toepassing van deze bepaling onder Lifo-methode moet worden verstaan.

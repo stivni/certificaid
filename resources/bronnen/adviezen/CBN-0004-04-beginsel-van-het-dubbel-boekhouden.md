@@ -3,53 +3,53 @@ bron: https://www.cbn-cnc.be/nl/adviezen/beginsel-van-het-dubbel-boekhouden
 datum: 1993-02-01
 nummer: CBN-advies 4/4
 provenance:
+  generated_at: '2026-05-11T17:48:38Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/beginsel-van-het-dubbel-boekhouden
       sha256: 189ed488644d5d8e86a771346dd9e6ec8e3c92bafe18bf3bbd7219ce8ad3f25b
       version:
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
-    status: trusted
     confirmed_at: '2026-05-11T15:15:32Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "Alle door vorige verdict gemelde problemen zijn source-typos: 'gebruikeljke' (r63), 'rekeningenstelel' (r68), 'ee volledige' (r67) staan in de bron-HTML. De woordduplicatie in [^2] ('van het koninklijk besluit van het koninklijk besluit', r75) is eveneens een fout in de officiële CBN-tekst. Geen ETL-artefacten (A-G) aangetroffen buiten deze source-categorie. Bullet op r65 correct op één regel. Inhoud volledig."
     layer1:
-      file_size_chars: 2052
-      flags: []
+      status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:40Z'
       heading_count: 0
       max_section_chars: 2052
-      run_at: '2026-05-11T15:05:47Z'
-      run_id: 20260511-150547
-      status: pass
+      file_size_chars: 2052
+      flags: []
     layer2:
-      status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:15:32Z'
-      rationale: "Alle door vorige verdict gemelde problemen zijn source-typos: 'gebruikeljke' (r63), 'rekeningenstelel' (r68), 'ee volledige' (r67) staan in de bron-HTML. De woordduplicatie in [^2] ('van het koninklijk besluit van het koninklijk besluit', r75) is eveneens een fout in de officiële CBN-tekst. Geen ETL-artefacten (A-G) aangetroffen buiten deze source-categorie. Bullet op r65 correct op één regel. Inhoud volledig."
       concrete_problemen:
-        - regel: 63
-          categorie: (source)
+        - categorie: (source)
+          regel: 63
           type: source-typo
           voorbeeld: gebruikeljke regels op het dubbel boekhouden
-        - regel: 67
-          categorie: (source)
+        - categorie: (source)
+          regel: 67
           type: source-typo
           voorbeeld: op ee volledige en correcte wijze werden overgeschreven
-        - regel: 68
-          categorie: (source)
+        - categorie: (source)
+          regel: 68
           type: source-typo
           voorbeeld: het koninklijk besluit over de minimumindeling ... rekeningenstelel
-        - regel: 75
-          categorie: (source)
+        - categorie: (source)
+          regel: 75
           type: source-typo
           voorbeeld: van het koninklijk besluit van het koninklijk besluit van 30 januari 2001 — dubbele tekst in bron
+      rationale: 'Alle door vorige verdict gemelde problemen zijn source-typos: ''gebruikeljke'' (r63), ''rekeningenstelel'' (r68), ''ee volledige'' (r67) staan in de bron-HTML. De woordduplicatie in [^2] (''van het koninklijk besluit van het koninklijk besluit'', r75) is eveneens een fout in de officiële CBN-tekst. Geen ETL-artefacten (A-G) aangetroffen buiten deze source-categorie. Bullet op r65 correct op één regel. Inhoud volledig.'
+      run_at: '2026-05-11T15:15:32Z'
+      status: trusted
+    rationale: 'Alle door vorige verdict gemelde problemen zijn source-typos: ''gebruikeljke'' (r63), ''rekeningenstelel'' (r68), ''ee volledige'' (r67) staan in de bron-HTML. De woordduplicatie in [^2] (''van het koninklijk besluit van het koninklijk besluit'', r75) is eveneens een fout in de officiële CBN-tekst. Geen ETL-artefacten (A-G) aangetroffen buiten deze source-categorie. Bullet op r65 correct op één regel. Inhoud volledig.'
+    status: trusted
 themas:
   - beginsel van dubbel boekhouden
   - compensatie

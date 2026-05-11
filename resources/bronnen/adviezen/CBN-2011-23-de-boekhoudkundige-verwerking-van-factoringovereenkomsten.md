@@ -3,58 +3,55 @@ bron: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-facto
 datum: 2011-10-05
 nummer: CBN-advies 2011/23
 provenance:
-  generated_at: '2026-05-11T15:15:31Z'
+  generated_at: '2026-05-11T17:48:39Z'
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-factoringovereenkomsten
-    sha256: f9f408af8346f92956d05b367918d33f55a545bfdd5e0bf4d868809655a2cb28
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-factoringovereenkomsten
+      sha256: f9f408af8346f92956d05b367918d33f55a545bfdd5e0bf4d868809655a2cb28
+      version:
   stale: false
-  stale_reason: null
+  stale_reason:
   tooling:
-    model: null
+    model:
     pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    prompt_version: null
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
     confirmed_at: '2026-05-08T19:02:28Z'
     confirmed_by: subagent-laag2-ronde2
     layer1:
-      file_size_chars: 31642
-      flags: []
-      heading_count: 11
-      max_section_chars: 12516
-      run_at: '2026-05-11T15:05:50Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:43Z'
+      heading_count: 11
+      max_section_chars: 12510
+      file_size_chars: 31631
+      flags: []
     layer2:
       agent: subagent-laag2-ronde2
       concrete_problemen: []
-      rationale: '[Laag-2-R2 2026-05-08] 14 headings voor 6 factoringvarianten, inhoudelijk
-        volledig. Sectiegrootte inherent aan groot aantal verwerkingsvarianten. Journaalpostentabellen
-        correct als Markdown-tabellen.'
+      rationale: '[Laag-2-R2 2026-05-08] 14 headings voor 6 factoringvarianten, inhoudelijk volledig. Sectiegrootte inherent aan groot aantal verwerkingsvarianten. Journaalpostentabellen correct als Markdown-tabellen.'
       run_at: '2026-05-08T19:02:28Z'
       status: trusted
     rationale: Laag-2 trusted door subagent-laag2-ronde2 (zie layer2.rationale)
     status: trusted
 themas:
-- cessie van schuldvordering
-- discontokosten op vorderingen
-- dubieuze debiteuren
-- factoring
-- financiering
-- handelsvorderingen
-- insolventiedekking
-- niet in de balans opgenomen rechten en verplichtingen
-- overdracht van schuldvordering
-- schulden in rekening-courant
-- vordering
-- Waardevermindering
+  - cessie van schuldvordering
+  - discontokosten op vorderingen
+  - dubieuze debiteuren
+  - factoring
+  - financiering
+  - handelsvorderingen
+  - insolventiedekking
+  - niet in de balans opgenomen rechten en verplichtingen
+  - overdracht van schuldvordering
+  - schulden in rekening-courant
+  - vordering
+  - Waardevermindering
 ---
 
 # CBN-advies 2011/23 - De boekhoudkundige verwerking van factoringovereenkomsten
 
 ## Inleiding
-
 Factoring kan omschreven worden als een techniek waarbij een onderneming (leverancier) op grond van een met een gespecialiseerde instelling (factor) gesloten overeenkomst, haar in facturen uitgedrukte vorderingen overdraagt aan deze instelling en, tegen betaling van een vergoeding, het genot heeft van een aantal diensten.[^1] 
 
 De factoringovereenkomst zelf maakt het voorwerp uit van een onderhandse akte waarin de rechten en verbintenissen zorgvuldig vastgelegd zijn. Het gaat in feite om een toetredingscontract door de factor opgesteld, waarbij de leverancier kan kiezen tussen een aantal door de factor aangeboden diensten.
@@ -70,7 +67,6 @@ Naargelang de combinatie van de door de factor aangeboden diensten bestaan er bi
 Aan de Commissie werd gevraagd hoe de boekhoudkundige verwerking van factoringovereenkomsten dient te gebeuren in hoofde van de leverancier. De Commissie merkt hierbij op dat in het schema van de jaarrekening geen enkele rubriek specifiek gewijd is aan facturen die in het kader van factoring worden overgedragen.
 
 ## Juridische context: overdracht van schuldvordering
-
 De afgifte van de schuldvorderingen aan de factor vormt een essentieel bestanddeel van elke factoringovereenkomst. 
 
 In België bestaat geen specifieke wetgeving voor factoring. In principe komen er drie rechtsfiguren in aanmerking om de aan factoring inherente overdracht van schuldvorderingen juridisch te onderbouwen: de gemeenrechtelijke techniek van cessie van schuldvordering, het endossement van de factuur, of de conventionele subrogatie.[^4]
@@ -92,9 +88,7 @@ Ook het debiteurenbeheer vloeit voort uit de overdracht van schuldvordering: ten
 De Commissie is van oordeel dat de boekhoudkundige verwerking het bestaan van de factoring aan het licht moet brengen, daarbij rekening houdend met al de bijzondere vormen van factoring, die uit de contractuele vrijheid van de partijen kunnen voortvloeien. 
 
 ## De boekhoudkundige verwerking van factoring in hoofde van de leverancier
-
 ### Afgifte van de schuldvorderingen aan de factor
-
 De overdracht van de handelsvorderingen aan de factor wordt in de boekhouding als volgt opgenomen. 
 
 [^15] *Voorbeeld*
@@ -115,7 +109,6 @@ De overdracht van de handelsvorderingen aan de factor wordt in de boekhouding al
 | aan | 400 | Handelsdebiteuren | | 12.100 |
 
 ### Vergoeding van de factor
-
 De kostprijs van factoring wordt naargelang de door de factor aangeboden diensten opgesplitst in enerzijds het factorloon (ook factoringrecht of commissie genoemd), en anderzijds een interest aangerekend voor de eventueel door de factor verstrekte financiering (financieringscommissie). Daarnaast zijn ook andere vergoedingen, zoals bijvoorbeeld voor de kosten van gerechtelijke inning, mogelijk.
 
 Het factorloon komt veelal overeen met een bepaald percentage van de door de overgenomen vorderingen gegenereerde kasstromen. Dit percentage is bovendien afhankelijk van de door de factor verstrekte diensten, naast financiering. Het wordt door de onderneming geboekt onder de 61-rekening *Diensten en diverse goederen.* 
@@ -196,11 +189,9 @@ Bij deze factoringvariant neemt de factor het risico van insolventie van de debi
 | aan | 400 | Handelsdebiteuren (factor) | | 12.100 |
 
 ### Factoringovereenkomst met financiering, zonder insolventiedekking
-
 Vaak verlenen factoringmaatschappijen voorschotten of financiering aan hun cliënten. Bij deze factoringvariant draagt de leverancier dus eigenlijk zijn vordering over aan de factor, die hiervoor een bedrag ter beschikking stelt zonder de vervaldag van de vordering af te wachten. Uit veiligheidsoverwegingen beperkt men dit meestal tot een percentage van de ingediende vorderingen. Het verschil met de totale vordering houdt de factor achter als waarborg voor de betaling door de leverancier van alle schulden die hij zou kunnen hebben t.o.v. de factor,[^20] en wordt aan de leverancier betaald wanneer de debiteur zijn factuur heeft betaald.
 
 #### Voorkeursbenadering
-
 Via de techniek van financiering verkrijgt de onderneming van de factor een krediet dat uitgedrukt wordt via de passiefrekening 433 *Kredietinstellingen: Schulden in rekening-courant*.[^21]
  Doordat de vordering behouden blijft op de actiefzijde, geeft de onderneming aan dat zij ten aanzien van de factor verantwoordelijk blijft voor de goede uitvoering van de betalingsverbintenissen van de klant, niettegenstaande er reeds een betaling werd verricht door de factor aan de onderneming *(factoring met verhaal, recourse factoring*). Desgevallend geeft de onderneming in de toelichting aan dat de factor een bevoorrechte schuldeiser is. 
 
@@ -249,7 +240,6 @@ Via de techniek van financiering verkrijgt de onderneming van de factor een kred
 Bestaat er onzekerheid over de inning van de vorderingen, dan worden deze vorderingen (met inbegrip van het btw-bedrag) door de onderneming overgeboekt naar de rekening 407 *Dubieuze debiteuren* en wordt een passende waardevermindering geboekt. 
 
 #### Alternatieve benadering
-
 De Commissie is van oordeel dat factoring met financiering en zonder risicodekking tevens op volgende wijze in de boekhouding van de onderneming kan worden verwerkt. Het voorschot dat door de factor aan de onderneming wordt verstrekt, wordt in dit geval afgeboekt van de vorderingsrekening 400 *Handelsdebiteuren (factor)*. Het feit dat de onderneming bij deze factoringvariant verantwoordelijk blijft voor de goede uitvoering van de betalingsverbintenissen van de klant, wordt in de boekhouding en de jaarrekening tot uitdrukking gebracht onder de niet in de balans opgenomen rechten en verplichtingen.[^23] 
 
 *Voorbeeld*
@@ -288,7 +278,6 @@ Factoringovereenkomst met financiering en insolventiedekking (old line factorin 
 Bij deze factoringvariant financiert de factor de overgenomen vorderingen en neemt tevens het insolventierisico over. 
 
 #### Voorkeursbenadering
-
 Voor zover de betalingen van de voorschotten effectief werden uitgevoerd door de factor en in de mate waarin door de factor het insolventierisico wordt gedragen, verdwijnen de handelsvorderingen uit de balans van de onderneming. Ook in dit geval neemt de onderneming alle lasten verbonden aan de financiering en insolventiedekking onmiddellijk in resultaat. De Commissie wenst evenwel nogmaals te wijzen op de burgerrechtelijke regels m.b.t. de cessie van schuldvorderingen die bepalen dat de schuldenaar tegen de factor alle verweermiddelen of excepties kan inroepen die zijn ontstaan vóór de tegenwerpelijkheid van de overdracht.[^24]
  Indien deze excepties succesvol werden ingeroepen, zal de factor zich op zijn beurt verhalen op de onderneming. In voorkomend geval zal door de onderneming in de toelichting melding moeten worden gemaakt van dit risico samen met het bedrag waarop dit van toepassing is op balansdatum. 
 
@@ -368,7 +357,6 @@ Wanneer op inventarisdatum onzekerheid bestaat over de inning van de vorderingen
 | | 433 | Kredietinstellingen: Schulden in rekening-courant | 3.025 | |
 
 #### Alternatieve benadering
-
 Conform de tweede benadering (zie *supra*) zal ook in het geval waarin het bedrag van de financiering meer bedraagt dan het gedeelte van de vorderingen dat gedekt wordt door de insolventiedekking, het volledige voorschot afgeboekt worden van de vorderingsrekening 400 *Handelsdebiteuren (factor)*. De onderneming dient het bedrag waarvoor zij ten aanzien van de factor verantwoordelijk blijft voor de goede uitvoering van de betalingsverbintenissen van de klant vervolgens op te nemen onder de niet in de balans opgenomen rechten en verplichtingen. 
 
 In voorbeeld B zal de onderneming, bij betaling door de factor van een bedrag dat 50 % bedraagt van het totale vorderingenpakket en waarbij de factor slechts ten belope van 25 % van de vorderingen (3.025 euro) het insolventierisico op zich neemt, in dat geval boeken:
@@ -386,7 +374,6 @@ In de rekeningen van de niet in de balans opgenomen rechten en verplichtingen ve
 | aan | 041 | Goederen en waarden gehouden door derden in hun naam, maar ten bate en voor risico van de onderneming | | |
 
 #### Undisclosed factoring
-
 Wanneer een factoringovereenkomst is afgesloten waarbij de factor instaat voor financiering en insolventiedekking, wordt tussen de onderneming en de factor vaak bijkomend overeengekomen dat de onderneming die de vorderingen overdraagt zelf verantwoordelijk blijft voor het beheer en de inning van de schuldvorderingen.
 
 Deze werkwijze laat toe de debiteuren niet op de hoogte te brengen van de overdracht van de schuldvordering. Er vindt m.a.w. geen kennisgeving plaats aan de klant van de cessie van de schuldvordering. Men spreekt van *non-notification factoring of undisclosed factoring*. De klant blijft aan de onderneming betalen die dan in feite als lasthebber van de factor optreedt.

@@ -2,56 +2,53 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/aanschaffingswaarde-bij-inbreng-in-natura
 datum: 2002-05-10
 gerelateerde_adviezen:
-- datum: '2021-05-12'
-  titel: Invloed van het buitengerechtelijk minnelijk akkoord en de gerechtelijke
-    reorganisatie op de schulden en vorderingen (update)
-  url: https://www.cbn-cnc.be/nl/adviezen/invloed-van-het-buitengerechtelijk-minnelijk-akkoord-en-de-gerechtelijke-reorganisatie-1
-- datum: '1991-03-01'
-  titel: Realisatiebeginsel (behalve bij fusie)
-  url: https://www.cbn-cnc.be/nl/adviezen/realisatiebeginsel-behalve-bij-fusie
+  - datum: '2021-05-12'
+    titel: Invloed van het buitengerechtelijk minnelijk akkoord en de gerechtelijke reorganisatie op de schulden en vorderingen (update)
+    url: https://www.cbn-cnc.be/nl/adviezen/invloed-van-het-buitengerechtelijk-minnelijk-akkoord-en-de-gerechtelijke-reorganisatie-1
+  - datum: '1991-03-01'
+    titel: Realisatiebeginsel (behalve bij fusie)
+    url: https://www.cbn-cnc.be/nl/adviezen/realisatiebeginsel-behalve-bij-fusie
 nummer: CBN-advies 126/18
 provenance:
-  generated_at: '2026-05-11T15:15:31Z'
+  generated_at: '2026-05-11T17:48:38Z'
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/aanschaffingswaarde-bij-inbreng-in-natura
-    sha256: 23e1efd01eadba87708da24edf79b754185f1d53522d69efec6051aef29e037b
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/aanschaffingswaarde-bij-inbreng-in-natura
+      sha256: 23e1efd01eadba87708da24edf79b754185f1d53522d69efec6051aef29e037b
+      version:
   stale: false
-  stale_reason: null
+  stale_reason:
   tooling:
-    model: null
+    model:
     pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    prompt_version: null
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
     confirmed_at: '2026-05-08T21:19:09Z'
     confirmed_by: human
     layer1:
-      file_size_chars: 31022
-      flags: []
-      heading_count: 4
-      max_section_chars: 12824
-      run_at: '2026-05-11T15:05:48Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:41Z'
+      heading_count: 4
+      max_section_chars: 12823
+      file_size_chars: 31017
+      flags: []
     layer2:
-      agent: null
+      agent:
       concrete_problemen: []
-      rationale: null
-      run_at: null
+      rationale:
+      run_at:
       status: not_run
-    rationale: 'Heading-structuur hersteld: 3 ongenummerde ## sectietitels via context-aware
-      bold-only promotie. Laag 1 geeft PASS. Inhoud volledig (inbreng in natura, werkelijke
-      waarde, 4 hypothesen).'
+    rationale: 'Heading-structuur hersteld: 3 ongenummerde ## sectietitels via context-aware bold-only promotie. Laag 1 geeft PASS. Inhoud volledig (inbreng in natura, werkelijke waarde, 4 hypothesen).'
     status: trusted
 themas:
-- conventionele waarde
-- inbreng
-- inbreng in natura
-- inbrengwaarde
-- kapitaalvermindering
-- uitgiftepremie
-- werkelijke waarde
+  - conventionele waarde
+  - inbreng
+  - inbreng in natura
+  - inbrengwaarde
+  - kapitaalvermindering
+  - uitgiftepremie
+  - werkelijke waarde
 ---
 
 # CBN-advies 126/18 - Aanschaffingswaarde bij inbreng in natura1
@@ -128,10 +125,9 @@ In bijkomende orde werden de toepassing van buitenlandse en internationale finan
 
 De overwegingen van de Commissie ten aanzien van de ontvangen reacties inzake het toepassingsgebied en de draagwijdte van de waardering tegen "werkelijke waarde" worden hierna in beknopte vorm uiteengezet, met toevoeging van toepassingsvoorbeelden. Wat de overige aspecten betreft, wordt verwezen naar de overwegingen opgenomen in het document "Ontvangen reacties op ontwerp-advies 126/17 - *Bepaling van de aanschaffingswaarde van activa verkregen onder bezwarende titel of om niet*". 
 
-De hierna volgende tekst maakt geen deel uit van advies 126/18 en is dan ook niet te beschouwen als een "advies" van de CBN in de juridisch-technische betekenis van het begrip. 
+De hierna volgende tekst maakt geen deel uit van advies 126/18 en is dan ook niet te beschouwen als een "advies" van de CBN in de juridisch-technische betekenis van het begrip.
 
 ## Toepassingsgebied van de in advies 126/17 aanbevolen principes ter bepaling van de aanschaffingswaarde
-
 Gelden de in advies 126/17 *Bepaling van de aanschaffingswaarde van activa verkregen onder bezwarende titel of om niet* aanbevolen waarderingsbeginselen (betaalde prijs vs werkelijke waarde) ook voor inbrengverrichtingen ? 
 
 Naar het oordeel van de Commissie is dit in beginsel het geval. Juridisch zijn inbrengverrichtingen rechtshandelingen onder bezwarende titel. De inbrengende vennootschap draagt immers een vermogensbestanddeel over in ruil voor de toekenning van maatschappelijke rechten van de inbreng ontvangende vennootschap. In principe geldt voor de bepaling van de aanschaffingswaarde bij inbreng dan ook de tussen partijen overeengekomen prijs, in casu de conventionele inbrengwaarde, gewaardeerd als de werkelijke waarde van de toegekende maatschappelijke rechten. 
@@ -139,13 +135,11 @@ Naar het oordeel van de Commissie is dit in beginsel het geval. Juridisch zijn i
 Is er echter geen tegenprestatie[^11] of is er een belangrijk onevenwicht tussen de waarde van de toegekende maatschappelijke rechten en de waarde van de ingebrachte goederen samen met een gewilde bevoordeling, dan is er sprake van een verkrijging geheel of gedeeltelijk om niet en moet de aanschaffingswaarde worden bepaald met verwijzing naar de "werkelijke waarde" van de ingebrachte goederen met overeenstemmende resultaaterkenning.
 
 ## Coherentie van het advies met de jaarrekeningrechtelijke continuïteit bij fusie, splitsing, inbreng van een bedrijfsafdeling of van een algemeenheid van goederen
-
 De Commissie is er zich van bewust dat de in het advies aanbevolen bepaling van de aanschaffingswaarde bij inbrengverrichtingen inderdaad niet overeenstemt met de "boekhoudkundige continuïteit" die geldt voor fusie, splitsing, inbreng van een bedrijfsafdeling of algemeenheid van goederen met toepassing van de artikelen 41 en 78 tot 81 van het Uitvoeringsbesluit Wetboek van vennootschappen. 
 
 Voor deze verrichtingen is immers uitdrukkelijk bepaald dat voor jaarrekeningrechtelijke waarderingsdoeleinden geen rekening wordt gehouden met de conventionele waarde van de ingebrachte bestanddelen en de daarvoor toegekende maatschappelijke rechten. Met uitzondering van de gevallen waarin de overnemende vennootschap reeds aandelen bezat van de overgenomen vennootschap, worden de ingebrachte bestanddelen en de daarvoor toegekende maatschappelijke rechten gewaardeerd tegen de boekwaarden van de ingebrachte bestanddelen vóór inbreng. Deze continuïteitsregel moet echter gekaderd worden binnen de bijzondere juridische en fiscale regeling die geldt voor deze verrichtingen. Buiten het kader van deze verrichtingen is er geen verantwoording om de tussen partijen overeengekomen waarde te vervangen door de vroegere boekwaarde van de bestanddelen die niet langer deel uitmaken van het vermogen van de inbrengende vennootschap. 
 
 ## Waardering van de inbrengwaarde tegen "werkelijke waarde"
-
 Het zonder meer gelijk stellen van de tussen partijen overeengekomen waarde met de werkelijke waarde van de uitgegeven aandelen, gedefinieerd als de waarde waarvoor de aandelen uit vrije wil zouden verhandeld worden tussen goed geïnformeerde onafhankelijke partijen, is bijzonder dogmatisch. Bovendien zou de overeengekomen waarde (in hoofde van de vennootschap waarin wordt ingebracht) bij gebreke aan een specifieke jaarrekeningrechtelijke definitie, moeten beantwoorden aan het vennootschapsrechtelijke begrip van de overeengekomen inbrengwaarde. 
 
 De in het advies aanbevolen waardering van de inbrengwaarde is in overeenstemming met de jaarrekeningrechtelijke principes die gelden voor de bepaling van de aanschaffingswaarde van activa verkregen onder bezwarende titel. Het begrip aanschaffingswaarde verwijst immers naar de waarde van het actief bij opname in het vermogen van de vennootschap. Deze waarde stemt principieel overeen met de door de vennootschap betaalde prijs hetzij bij aankoop, hetzij bij productie, hetzij bij inbreng. Toegepast op inbrengverrichtingen is de betaalde prijs functie van het aantal toegekende aandelen dat voortvloeit uit de tussen partijen overeengekomen ruilverhouding. Partijen zijn vrij (onder voorbehoud van een vennootschapsrechtelijk niet toegelaten overwaardering waardoor het kapitaal niet volledig zou zijn geplaatst) om het aantal aandelen te bepalen dat toegekend wordt als vergoeding voor de ingebrachte bestanddelen. Jaarrekeningrechtelijk moet de aanschaffingswaarde daarmee overeenstemmen. 
@@ -178,7 +172,6 @@ Daarbij werd, wat de enkelvoudige jaarrekening betreft, het volgende onderscheid
 De Commissie neemt zich voor om in een latere fase advies uit te brengen over de verwerking in de geconsolideerde jaarrekening van een inbrengverrichting die tot gevolg heeft dat de vennootschap waarin wordt ingebracht een dochtervennootschap wordt of die reeds een geassocieerde vennootschap is of wordt. 
 
 ## Voorbeelden
-
 Een gebouw met boekwaarde 100 en "werkelijke waarde" 200 wordt door vennootschap A ingebracht in vennootschap B. De "werkelijke waarde" van 1 aandeel B bedraagt 20. 
 
 ***Eerste hypothese** * 

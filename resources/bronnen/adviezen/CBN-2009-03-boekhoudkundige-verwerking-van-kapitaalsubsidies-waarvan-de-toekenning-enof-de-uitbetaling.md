@@ -7,61 +7,61 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-subsidies-waarvan-de-toekenning-niet-gegarandeerd-is
 nummer: CBN-advies 2009/3
 provenance:
+  generated_at: '2026-05-11T17:48:38Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-kapitaalsubsidies-waarvan-de-toekenning-enof-de-uitbetaling
       sha256: 0d2e9abf1e2373b5da82f777a4eb4ecb1d4cbe61ee161a4f7847c6d2f1c1a0e5
       version:
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
-    status: needs-rework
     confirmed_at: '2026-05-11T17:05:21Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "Meerdere artefacten bevestigd: B4 r.76/84/95/142: vier ##-headings in all-caps ('## INLEIDING', '## OVERZICHT VAN DE ALGEMENE BEGINSELEN', '## BEOORDELING VAN HET VASTSTAAND KARAKTER', '## VOORBEELDEN') i.p.v. normale schrijfwijze. E2 r.146/162/180/186/259: drie tabellen volledig afwezig — 'Tabel 1' (r.180), 'Tabel 2' (r.186), 'Tabel 3' (r.259) zijn plain-text placeholders zonder tabelinhoud; dit is significante inhoudsverlies. D4 r.164: '***a) Voorbeeld 1...**' heeft ongematcht triple/double asterisk. Ook r.170: '## ii. Inresultaatneming' is een ##-heading voor een subpunt binnen een opsomming (B2)."
     layer1:
-      file_size_chars: 19651
-      flags: []
-      heading_count: 12
-      max_section_chars: 11793
-      run_at: '2026-05-11T15:05:50Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:42Z'
+      heading_count: 16
+      max_section_chars: 11776
+      file_size_chars: 19617
+      flags: []
     layer2:
-      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T17:05:21Z'
-      rationale: "Meerdere artefacten bevestigd: B4 r.76/84/95/142: vier ##-headings in all-caps ('## INLEIDING', '## OVERZICHT VAN DE ALGEMENE BEGINSELEN', '## BEOORDELING VAN HET VASTSTAAND KARAKTER', '## VOORBEELDEN') i.p.v. normale schrijfwijze. E2 r.146/162/180/186/259: drie tabellen volledig afwezig — 'Tabel 1' (r.180), 'Tabel 2' (r.186), 'Tabel 3' (r.259) zijn plain-text placeholders zonder tabelinhoud; dit is significante inhoudsverlies. D4 r.164: '***a) Voorbeeld 1...**' heeft ongematcht triple/double asterisk. Ook r.170: '## ii. Inresultaatneming' is een ##-heading voor een subpunt binnen een opsomming (B2)."
       concrete_problemen:
-        - regel: 76
-          categorie: B4
+        - categorie: B4
+          regel: 76
           type: other
           voorbeeld: '## INLEIDING (all-caps ##-heading)'
-        - regel: 180
-          categorie: E2
+        - categorie: E2
+          regel: 180
           type: other
           voorbeeld: Tabel 1 (plain-text placeholder zonder tabelinhoud — inresultaatnemingstabel kapitaalsubsidie)
-        - regel: 186
-          categorie: E2
+        - categorie: E2
+          regel: 186
           type: other
           voorbeeld: Tabel 2 (plain-text placeholder zonder tabelinhoud — aflossingsplan krediet)
-        - regel: 259
-          categorie: E2
+        - categorie: E2
+          regel: 259
           type: other
           voorbeeld: Tabel 3 (plain-text placeholder zonder tabelinhoud — inresultaatneming voorbeeld 2)
-        - regel: 164
-          categorie: D4
+        - categorie: D4
+          regel: 164
           type: other
           voorbeeld: '***a) Voorbeeld 1 : Subsidie verkregen...** * (ongematcht *** vs **)'
-        - regel: 170
-          categorie: B2
+        - categorie: B2
+          regel: 170
           type: other
           voorbeeld: '## ii. Inresultaatneming van de kapitaalsubsidie (## voor subpunt binnen opsomming)'
+      rationale: 'Meerdere artefacten bevestigd: B4 r.76/84/95/142: vier ##-headings in all-caps (''## INLEIDING'', ''## OVERZICHT VAN DE ALGEMENE BEGINSELEN'', ''## BEOORDELING VAN HET VASTSTAAND KARAKTER'', ''## VOORBEELDEN'') i.p.v. normale schrijfwijze. E2 r.146/162/180/186/259: drie tabellen volledig afwezig — ''Tabel 1'' (r.180), ''Tabel 2'' (r.186), ''Tabel 3'' (r.259) zijn plain-text placeholders zonder tabelinhoud; dit is significante inhoudsverlies. D4 r.164: ''***a) Voorbeeld 1...**'' heeft ongematcht triple/double asterisk. Ook r.170: ''## ii. Inresultaatneming'' is een ##-heading voor een subpunt binnen een opsomming (B2).'
+      run_at: '2026-05-11T17:05:21Z'
+      status: needs-rework
+    rationale: 'Meerdere artefacten bevestigd: B4 r.76/84/95/142: vier ##-headings in all-caps (''## INLEIDING'', ''## OVERZICHT VAN DE ALGEMENE BEGINSELEN'', ''## BEOORDELING VAN HET VASTSTAAND KARAKTER'', ''## VOORBEELDEN'') i.p.v. normale schrijfwijze. E2 r.146/162/180/186/259: drie tabellen volledig afwezig — ''Tabel 1'' (r.180), ''Tabel 2'' (r.186), ''Tabel 3'' (r.259) zijn plain-text placeholders zonder tabelinhoud; dit is significante inhoudsverlies. D4 r.164: ''***a) Voorbeeld 1...**'' heeft ongematcht triple/double asterisk. Ook r.170: ''## ii. Inresultaatneming'' is een ##-heading voor een subpunt binnen een opsomming (B2).'
+    status: needs-rework
 themas:
   - eventuele rechten
   - kapitaalsubsidie
@@ -74,7 +74,6 @@ themas:
 # CBN-advies 2009/3 - Boekhoudkundige verwerking van kapitaalsubsidies waarvan de toekenning en/of de uitbetaling over verschillende jaren wordt gespreid
 
 ## INLEIDING
-
 Sinds kort bestaan er nieuwe subsidiëringsvormen ter compensatie van de budgettaire beperkingen van de overheid die het niet langer mogelijk maakten om onder meer infrastructuren voor zorg- en dienstverlening in het kader van persoonsgebonden aangelegenheden via klassieke kapitaalsubsidies te financieren. Hierdoor kunnen de uitbetaling en zelfs de toekenning van de subsidies over verschillende jaren worden gespreid, op basis van een principieel akkoord dat eventueel en naar gelang van het geval, kan leiden tot een vaste en definitieve dan wel een voorwaardelijke verbintenis van de overheid. De Commissie ontving verschillende vragen om advies in verband met de boekhoudkundige verwerking van dit soort subsidies, in casu de alternatieve investeringssubsidies van het Vlaams Infrastructuurfonds voor Persoonsgebonden Aangelegenheden (hierna VIPA). 
 
 Het leek de Commissie nuttig om de draagwijdte van haar individuele of algemene adviezen terzake te herhalen en toe te lichten, en op grond daarvan de algemene beginselen te formuleren voor subsidies waarvan de toekenning of uitbetaling over een aantal boekjaren wordt gespreid.
@@ -82,7 +81,6 @@ Het leek de Commissie nuttig om de draagwijdte van haar individuele of algemene 
 Dit advies – met algemene draagwijdte – is niet alleen bestemd voor handelsvennootschappen, maar ook voor verenigingen zonder winstoogmerk waarop de wet van 17 juli 1975 van toepassing is, onverminderd de eventueel toepasselijke bijzondere regels.
 
 ## OVERZICHT VAN DE ALGEMENE BEGINSELEN
-
 In de huidige stand van de wetgeving gelden, overeenkomstig artikel 95, § 2, van het koninklijk besluit van 30 januari 2001 tot uitvoering van het Wetboek van vennootschappen[^1], hierna KB W.Venn., voor de boekhoudkundige verwerking van kapitaalsubsidies de volgende regels: 
 
 - subsidies worden op het passief van de balans geboekt, eventueel uitgesplitst tussen kapitaalsubsidies en uitgestelde belastingen; 
@@ -93,17 +91,14 @@ De subsidies worden geboekt op de datum waarop zij komen vast te staan. De vraag
 Wanneer subsidies komen vast te staan nadat reeds met de afschrijving van de gesubsidieerde investeringen is aangevangen, moet de resultatenrekening van het boekjaar waarin de subsidie definitief verworven blijkt, van de subsidies het gedeelte vermelden dat overeenstemt met de reeds verrichte afschrijvingen[^3].
 
 ## BEOORDELING VAN HET VASTSTAAND KARAKTER VAN HET RECHT OP EEN SUBSIDIE
-
 Zoals eerder gezegd, is de vraag op welk ogenblik het recht op het bekomen van de subsidie komt vast te staan, een feitelijke aangelegenheid die voor ieder geval afzonderlijk moet worden beoordeeld[^4]. Die beoordeling behoort in eerste instantie tot de bevoegdheid van het bestuursorgaan[^5].
 
 Pas na onderzoek van de aard van de verbintenis van de subsidiërende overheid zal men kunnen uitmaken of het recht op een subsidie al dan niet vaststaat. Aan het ontstaan van het recht op een subsidie kunnen immers bepaalde voorwaarden gekoppeld zijn die bepalend zijn voor de mate waarin dit recht effectief gestalte krijgt. Voor de realisatie- en doeltreffendheidsgraad van dergelijke rechten hanteert de rechtsleer in de regel een schaal met vijf specifieke stadia[^6], waarvan wij er drie nader onderzoeken. 
 
 ### Vaste en onvoorwaardelijke verbintenis
-
 In dit geval kan geen enkele zekere of onzekere externe gebeurtenis een invloed hebben op het ontstaan van het recht op een subsidie. De subsidie moet worden geboekt zodra de subsidiërende overheid haar verbintenis onvoorwaardelijk en ten belope van het desbetreffende bedrag bevestigt. Ook al geldt daarvoor eventueel een opschortende termijn waarin de eisbaarheid wordt uitgesteld en in schijven opgesplitst, dit vorderingsrecht is ontstaan en staat vast. Deze hypothese stelt geen probleem en de boekhoudkundige verwerking verloopt zoals in voorbeeld 1. 
 
 ### Vaste verbintenis onder opschortende voorwaarde
-
 Zoals bekend is een opschortende voorwaarde een toekomstige en onzekere gebeurtenis waarvan de uitvoering van een verbintenis afhangt. Zodra de opschortende voorwaarde vervuld is, kan de verbintenis worden uitgevoerd en wordt zij een zuivere verplichting. Die uitwerking geldt retroactief tot op de datum waarop de verplichting had dienen te worden uitgevoerd mocht zij niet bezwaard zijn geweest met een opschortende voorwaarde.
 
 Naar het oordeel van de Commissie dient een vordering onder opschortende voorwaarde in de regel niet te worden aangerekend[^7]. De boekhoudkundige verwerking van verrichtingen onder opschortende voorwaarde is nader onderzocht in het CBN-advies 148/6. De principes die hierin zijn vastgelegd in verband met verrichtingen die een opbrengst of een kost opleveren, zijn van overeenkomstige toepassing op te ontvangen subsidies. 
@@ -134,13 +129,11 @@ Met andere woorden, wanneer het recht op uitbetaling van de subsidie nog afhangt
 In dat geval zal de rechthebbende bijgevolg moeten vaststellen dat de verrichting nog steeds voorwaardelijk is. Hetzelfde geldt, bij voorbeeld, wanneer de te ontvangen subsidie nog het fiat moet krijgen van een voogdijoverheid met een discretionaire bevoegdheid. 
 
 ### Eventuele rechten
-
 Een eventueel schuldvorderingsrecht is het recht waarvan de afloop afhangt van een intrinsieke toekomstige en onzekere gebeurtenis die bepalend is voor een essentieel aspect of bestanddeel van het recht zelf. 
 
 Een belangrijke vaststelling is dat eventuele rechten geen retroactieve werking hebben, in tegenstelling tot voorwaardelijke rechten. Naar het oordeel van de Commissie mag er geen eventuele vordering met betrekking tot een te ontvangen subsidie worden geboekt. Bijgevolg dient in casu de boekhoudkundige verwerking uit voorbeeld 2 te worden gevolgd.
 
 ## VOORBEELDEN
-
 Hieronder behandelen wij – op basis van identieke cijfergegevens – het geval van een subsidie die is verkregen om de aanschaffing te financieren van materiële vaste activa, met gespreide uitbetaling over 20 jaar, en het geval van een stroom van over 20 opeenvolgende jaren te verkrijgen subsidies, zoals bij alternatieve VIPA-subsidiëring[^9]. 
 
 | 
@@ -163,12 +156,10 @@ Marginale tarief (bij wijze van voorbeeld) in de vennootschapsbelasting : **25 %
 
 ***a) Voorbeeld 1 : Subsidie verkregen om de aanschaffing te financieren van materiële vaste activa, met gespreide uitbetaling over 20 jaar** *
 
-**i. Principes**
-
+## i. Principes
 Na onderzoek is het bestuursorgaan van oordeel dat hij een zuivere schuldvordering heeft op de subsidiërende overheid (of een redelijke zekerheid omtrent de effectieve uitbetaling van de subsidie(s)) voor een bedrag dat overeenstemt met de totale stroom verwachte betalingen.
 
 ## ii. Inresultaatneming van de kapitaalsubsidie
-
 De kapitaalsubsidie – die overeenstemt met de som van de uit te betalen bedragen (20 x 270.249 €, hetzij 5.404.980 €) – wordt gelijkmatig met de afschrijving van de gesubsidieerde vaste activa in resultaat genomen.
 
 In het voorliggende geval financiert de subsidie 35% van de investering. 70% van de investering wordt afgeschreven over 33 jaar (tegen een afschrijvingspercentage van 3%), 20% over 20 jaar (tegen een afschrijvingspercentage van 5%) en 10% over 10 jaar (tegen een afschrijvingspercentage van 10%).
@@ -180,13 +171,11 @@ De te ontvangen subsidie wordt a rato van 75% opgenomen in de rubriek *Kapitaals
 Tabel 1 
 
 ## iii. Schuldaflossingsplan
-
 Onderstaande tabel 2 geeft het aflossingsplan weer voor een krediet van 3.500.000 €, tegen 5%, terugbetaald in 20 vaste jaarlijkse aflossingen.
 
 Tabel 2 
 
-**iv. Boekingen**
-
+## iv. Boekingen
 ***Boekingen tijdens het eerste jaar (t)*** 
 
 (1) Tabel 2, Terugbetaling hoofdsom, Jaar 1 
@@ -221,8 +210,7 @@ Tabel 2
 
 ***b) Voorbeeld 2 : Stroom van over 20 opeenvolgende jaren te verkrijgen subsidies, zoals bij alternatieve VIPA-subsidiëring***
 
-**i. Principes**
-
+## i. Principes
 De procedure voor de toekenning van subsidies wordt vastgelegd in het Besluit van de Vlaamse Regering van 1 september 2006 tot regeling van de alternatieve investeringssubsidies verstrekt door het Vlaams Infrastructuurfonds voor Persoonsgebonden Aangelegenheden[^11], hierna VIPA-besluit genoemd.
 
 Voor de toekenning van dergelijke subsidies gelden de volgende principes:
@@ -233,7 +221,6 @@ Voor de toekenning van dergelijke subsidies gelden de volgende principes:
 - ieder jaar gelden de voorwaarden zowel voor het principe voor de toekenning van een gebruikstoelage, als voor het bedrag hiervan. 
 
 ## ii. Aard van het principieel akkoord
-
 Een principieel akkoord houdt in dat het project van de initiatiefnemer gedurende twintig opeenvolgende jaren in aanmerking komt voor een gebruikstoelage[^12]. Die jaarlijkse gebruikstoelage wordt berekend door een coëfficiënt toe te passen op het totale bedrag (basisbedrag) dat wordt berekend en vastgesteld, in functie van het project, op de datum van het oorspronkelijk principieel akkoord[^13].
 
 Ieder jaar moet de initiatiefnemer van een project een formele aanvraag voor een gebruikstoelage indienen bij het Fonds. Na onderzoek beslist het Fonds over de toekenning van de jaarlijkse gebruikstoelage en het bedrag ervan (dat proportioneel kan worden verminderd), op basis van criteria van diverse aard die in het VIPA-besluit zijn vastgelegd. Bij de beslissingen van het Fonds wordt bovendien rekening gehouden met de beschikbare begrotingskredieten[^14]. De Commissie is dan ook van oordeel dat, in de huidige stand van de wetgeving, de initiatiefnemer van een project bij de toezegging van een principieel akkoord geen enkele vordering heeft op het Fonds, doch enkel het recht om, in het kader van een goedgekeurd masterplan, een jaarlijkse gebruikstoelage te vragen gedurende twintig opeenvolgende jaren. 
@@ -243,7 +230,6 @@ Naar het oordeel van de Commissie zou de datum waarop het recht op een VIPA-gebr
 In casu vertoont het recht op een subsidie veel gelijkenis met een eventueel recht.
 
 ## iii. Aard van de jaarlijkse gebruikstoelagen
-
 De jaarlijkse gebruikstoelagen van het Fonds zijn bestemd om in de verzorgingssector, met het oog op een wijziging of uitbreiding van de bestaande infrastructuur, bouwwerken te financieren.
 
 Dit soort subsidie beantwoordt aan de definitie van kapitaalsubsidies die overeenstemmen met “*de subsidies toegekend door de overheid, die rechtstreeks verbonden zijn met investeringen bestemd om het bedrijf (in de ruime zin van het woord) van de onderneming van nut te zijn, met uitsluiting van de tussenkomsten in de kosten van leningen die werden aangegaan voor de financiering van deze investeringen*”[^15].
@@ -253,13 +239,11 @@ Het bedrag van de jaarlijkse gebruikstoelage wordt berekend door een coëfficië
 De Commissie is dan ook van oordeel dat de jaarlijkse gebruikstoelagen integraal als kapitaalsubsidies dienen te worden beschouwd.
 
 ## iv. Inresultaatneming van de kapitaalsubsidie
-
 De subsidie wordt gelijkmatig met de afschrijving van de gesubsidieerde vaste activa in resultaat genomen. Aangezien echter de meeste subsidies pas komen vast te staan nadat men met de afschrijving van de gesubsidieerde investeringen is kunnen beginnen, dient in de resultatenrekening van het boekjaar waarin elke subsidie definitief is verworven, het gedeelte van de subsidies te worden opgenomen dat overeenstemt met de reeds verrichte afschrijving. In de onderstaande tabel 3 wordt dit principe toegelicht.
 
 Tabel 3 
 
-**v. Boekingen**
-
+## v. Boekingen
 In dit voorbeeld is de begunstigde een VZW die niet onder de vennootschapsbelasting valt. Dus geen opsplitsing tussen kapitaalsubsidie en uitgestelde belastingen. Ook de nomenclatuur van de rekeningen is die van het rekeningenstelsel voor vzw's[^17].
 
 ***Boekingen tijdens het eerste jaar (t) 

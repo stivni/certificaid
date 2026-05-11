@@ -3,45 +3,45 @@ bron: https://www.cbn-cnc.be/nl/adviezen/provisie-aanvullende-dagen-verlof-arbei
 datum: 2018-05-30
 nummer: CBN-advies 2018/13
 provenance:
+  generated_at: '2026-05-11T17:48:39Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/provisie-aanvullende-dagen-verlof-arbeidsduurvermindering
       sha256: b628cdfb65bc905f228c256ec3eeaec820ce3d97ccddc11bc7973be31a7556d8
       version:
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
-    status: needs-rework
     confirmed_at: '2026-05-11T17:13:30Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "D4: regel 74 heeft 'Voor werknemers die* in vast dienstverband[^4] * werken' — de italic-markering opent na 'die' en sluit met spatie voor het asterisk, wat een malformed italic span is. Regel 76 heeft 'rekening 444 *Te ontvangen facturen. *' met spatie voor sluitende asterisk. Patroon stelselmatig consistent met ETL-batch; scraper-fix heeft dit niet opgelost."
     layer1:
-      file_size_chars: 5162
-      flags: []
-      heading_count: 2
-      max_section_chars: 2519
-      run_at: '2026-05-11T15:05:53Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:44Z'
+      heading_count: 2
+      max_section_chars: 2518
+      file_size_chars: 5160
+      flags: []
     layer2:
-      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T17:13:30Z'
-      rationale: "D4: regel 74 heeft 'Voor werknemers die* in vast dienstverband[^4] * werken' — de italic-markering opent na 'die' en sluit met spatie voor het asterisk, wat een malformed italic span is. Regel 76 heeft 'rekening 444 *Te ontvangen facturen. *' met spatie voor sluitende asterisk. Patroon stelselmatig consistent met ETL-batch; scraper-fix heeft dit niet opgelost."
       concrete_problemen:
-        - regel: 74
-          categorie: D4
+        - categorie: D4
+          regel: 74
           type: other
           voorbeeld: Voor werknemers die* in vast dienstverband[^4] * werken
-        - regel: 76
-          categorie: D4
+        - categorie: D4
+          regel: 76
           type: other
           voorbeeld: rekening 444 *Te ontvangen facturen. *
+      rationale: 'D4: regel 74 heeft ''Voor werknemers die* in vast dienstverband[^4] * werken'' — de italic-markering opent na ''die'' en sluit met spatie voor het asterisk, wat een malformed italic span is. Regel 76 heeft ''rekening 444 *Te ontvangen facturen. *'' met spatie voor sluitende asterisk. Patroon stelselmatig consistent met ETL-batch; scraper-fix heeft dit niet opgelost.'
+      run_at: '2026-05-11T17:13:30Z'
+      status: needs-rework
+    rationale: 'D4: regel 74 heeft ''Voor werknemers die* in vast dienstverband[^4] * werken'' — de italic-markering opent na ''die'' en sluit met spatie voor het asterisk, wat een malformed italic span is. Regel 76 heeft ''rekening 444 *Te ontvangen facturen. *'' met spatie voor sluitende asterisk. Patroon stelselmatig consistent met ETL-batch; scraper-fix heeft dit niet opgelost.'
+    status: needs-rework
 themas:
   - arbeidsduurvermindering
   - adv-dagen
@@ -55,7 +55,6 @@ themas:
 # CBN-advies 2018/13 – Provisie aanvullende dagen verlof – Arbeidsduurvermindering
 
 ## Inleiding
-
 In onderhavig advies verduidelijkt de Commissie de boekhoudkundige verwerking van de bezoldiging van de aanvullende vakantiedagen die werden opgebouwd in het kader van een stelsel van arbeidsduurvermindering (hierna: ADV-dagen). Meer concreet behandelt het advies de boekhoudkundige verwerking van de bezoldiging van ADV-dagen die worden opgebouwd tijdens het boekjaar en slechts in een later boekjaar worden opgenomen en uitbetaald.
 
 Het advies behandelt zowel de bezoldigingen die worden toegekend aan vaste werknemers als de bezoldigingen die worden toegekend aan werknemers die tijdelijk tewerkgesteld zijn met een uitzendarbeidsovereenkomst. Voor de uitzendkrachten is dezelfde arbeidstijdregeling van toepassing als deze die geldt voor de vaste werknemers in de onderneming waarin de uitzendkracht wordt tewerkgesteld.[^2]
@@ -66,7 +65,6 @@ Wat het statuut van de ADV-dagen betreft, dienen de toepassingsregels (betaald o
 Bij het einde van het contract heeft de uitzendkracht, juridisch gezien, dus steeds de mogelijkheid om de uitbetaling van de nog niet genoten ADV-dagen op te eisen. Hij heeft immers op het einde van zijn contract geen zekerheid omtrent een eventueel nieuw uitzendcontract bij dezelfde gebruiker. De uitzendkracht en de onderneming waarin deze tijdelijk is tewerkgesteld kunnen eventueel afspreken dat de ADV-dagen in het kader van een nieuw weekcontract kunnen worden opgenomen. Uiteraard zal de uitzendkracht daar slechts mee instemmen indien deze er kan vanuit gaan dat effectief een nieuw tijdelijk contract zal worden afgesloten.
 
 ## Boekhoudkundige verwerking
-
 Het uitvoeringsbesluit bij het Wetboek van vennootschappen bepaalt dat rekening moet worden gehouden met de kosten die betrekking hebben op het boekjaar, ongeacht de dag waarop deze kosten worden betaald. Ten laste van het boekjaar moeten inzonderheid worden geboekt de bezoldigingen, uitkeringen en andere sociale voordelen die in de loop van een volgend boekjaar zullen worden betaald voor diensten die tijdens het boekjaar of tijdens vorige boekjaren zijn verricht.[^3] 
 
 Gelet op het voorgaande is de Commissie van mening dat, in lijn met het CBN-advies 148/2 -* Vakantiegeld,* de lasten die de onderneming in een volgend boekjaar zal moeten dragen, met name de uitbetaling van het vakantiegeld voor in de loop van het verstreken boekjaar geleverde prestaties, in rekening moeten worden gebracht. Dit gebeurt op het passief van de balans van het boekjaar waarin de prestaties die het recht op vakantiegeld doen ontstaan, zijn verricht.

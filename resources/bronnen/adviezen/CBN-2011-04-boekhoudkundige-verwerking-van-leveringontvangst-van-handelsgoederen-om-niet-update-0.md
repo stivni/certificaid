@@ -3,45 +3,45 @@ bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-levering
 datum: 2011-01-12
 nummer: CBN-advies 2011/4
 provenance:
+  generated_at: '2026-05-11T17:48:39Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-leveringontvangst-van-handelsgoederen-om-niet-update-0
       sha256: 72aa22e5a94a24cef31611e115d2507720b175904234b657608a618a50f5119c
       version:
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
-    status: needs-rework
     confirmed_at: '2026-05-11T17:09:38Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "D4 bevestigd: r61 en r73 bevatten '***Voorbeeld***' (triple asterisk = bold+italic gecombineerd) als sectielabel — ETL-artefact, inconsistent met standaard plain-text label of heading zoals in andere adviezen. Voetnoot [^1] heeft geen body-callout (redactionele noot over publieke consultatie zonder referentie in de body) maar dit is een randgeval met beperkte retrieval-impact. De pipe-tabel en overige inhoud zijn correct."
     layer1:
-      file_size_chars: 2040
-      flags: []
-      heading_count: 2
-      max_section_chars: 1351
-      run_at: '2026-05-11T15:05:50Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:42Z'
+      heading_count: 2
+      max_section_chars: 1350
+      file_size_chars: 2038
+      flags: []
     layer2:
-      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T17:09:38Z'
-      rationale: "D4 bevestigd: r61 en r73 bevatten '***Voorbeeld***' (triple asterisk = bold+italic gecombineerd) als sectielabel — ETL-artefact, inconsistent met standaard plain-text label of heading zoals in andere adviezen. Voetnoot [^1] heeft geen body-callout (redactionele noot over publieke consultatie zonder referentie in de body) maar dit is een randgeval met beperkte retrieval-impact. De pipe-tabel en overige inhoud zijn correct."
       concrete_problemen:
-        - regel: 61
-          categorie: D4
+        - categorie: D4
+          regel: 61
           type: other
           voorbeeld: '***Voorbeeld***'
-        - regel: 73
-          categorie: D4
+        - categorie: D4
+          regel: 73
           type: other
           voorbeeld: '***Voorbeeld***'
+      rationale: 'D4 bevestigd: r61 en r73 bevatten ''***Voorbeeld***'' (triple asterisk = bold+italic gecombineerd) als sectielabel — ETL-artefact, inconsistent met standaard plain-text label of heading zoals in andere adviezen. Voetnoot [^1] heeft geen body-callout (redactionele noot over publieke consultatie zonder referentie in de body) maar dit is een randgeval met beperkte retrieval-impact. De pipe-tabel en overige inhoud zijn correct.'
+      run_at: '2026-05-11T17:09:38Z'
+      status: needs-rework
+    rationale: 'D4 bevestigd: r61 en r73 bevatten ''***Voorbeeld***'' (triple asterisk = bold+italic gecombineerd) als sectielabel — ETL-artefact, inconsistent met standaard plain-text label of heading zoals in andere adviezen. Voetnoot [^1] heeft geen body-callout (redactionele noot over publieke consultatie zonder referentie in de body) maar dit is een randgeval met beperkte retrieval-impact. De pipe-tabel en overige inhoud zijn correct.'
+    status: needs-rework
 themas:
   - gratis handelsgoederen
   - levering handelsgoederen om niet
@@ -55,7 +55,6 @@ themas:
 # CBN-advies 2011/4 - Boekhoudkundige verwerking van levering/ontvangst van handelsgoederen om niet (update)
 
 ## Levering van handelsgoederen om niet
-
 Een onderneming die aan een derde handelsgoederen om niet levert, dient in zijn boekhouding weer te geven dat deze goederen zijn voorraad hebben verlaten. 
 
 ***Voorbeeld***
@@ -65,7 +64,6 @@ Een onderneming levert handelsgoederen ter waarde van 500 euro[^2] gratis aan ha
 De Commissie spreekt zich niet uit over de BTW-implicaties van de levering van goederen om niet.
 
 ## Ontvangst van handelsgoederen om niet
-
 De Commissie stelt vast dat er in de praktijk aan de ontvangst van handelsgoederen om niet meestal een aankoopverplichting is verbonden.
 
 De onderneming die, bij aankoop van een welbepaalde hoeveelheid handelsgoederen, handelsgoederen ‘gratis’ ontvangt van zijn leverancier, dient hiervoor geen extra boeking te verrichten.

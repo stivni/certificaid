@@ -16,41 +16,41 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/boekingswijze-van-een-voorschot-op-de-verdeling-van-het-netto-actief
 nummer: CBN-advies 2022/06
 provenance:
+  generated_at: '2026-05-11T17:48:39Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/verslaggeving-bij-onmiddellijke-sluiting-van-de-vereffening-van-een-vennootschap
       sha256: ca798a8aebd702ff295f370653cd9e6fc4a85a86f45252acf0db20c89a773a4f
       version:
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T15:15:32Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
-    status: needs-rework
     confirmed_at: '2026-05-11T17:13:31Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "D2: regel 144 kondigt 'Schematisch kunnen de volgende termijnen worden onderscheiden:' aan maar het tijdslijn-schema ontbreekt volledig — de tekst gaat direct verder met een bullet-opsomming zonder de beloofde schematische voorstelling. Geen TOC-fragmenten of andere artefacten aangetroffen."
     layer1:
-      file_size_chars: 23689
-      flags: []
-      heading_count: 7
-      max_section_chars: 17540
-      run_at: '2026-05-11T15:05:54Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:45Z'
+      heading_count: 7
+      max_section_chars: 17538
+      file_size_chars: 23682
+      flags: []
     layer2:
-      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T17:13:31Z'
-      rationale: "D2: regel 144 kondigt 'Schematisch kunnen de volgende termijnen worden onderscheiden:' aan maar het tijdslijn-schema ontbreekt volledig — de tekst gaat direct verder met een bullet-opsomming zonder de beloofde schematische voorstelling. Geen TOC-fragmenten of andere artefacten aangetroffen."
       concrete_problemen:
-        - regel: 144
-          categorie: D2
+        - categorie: D2
+          regel: 144
           type: missing-section
           voorbeeld: 'Schematisch kunnen de volgende termijnen worden onderscheiden: [tijdslijn-schema ontbreekt]'
+      rationale: 'D2: regel 144 kondigt ''Schematisch kunnen de volgende termijnen worden onderscheiden:'' aan maar het tijdslijn-schema ontbreekt volledig — de tekst gaat direct verder met een bullet-opsomming zonder de beloofde schematische voorstelling. Geen TOC-fragmenten of andere artefacten aangetroffen.'
+      run_at: '2026-05-11T17:13:31Z'
+      status: needs-rework
+    rationale: 'D2: regel 144 kondigt ''Schematisch kunnen de volgende termijnen worden onderscheiden:'' aan maar het tijdslijn-schema ontbreekt volledig — de tekst gaat direct verder met een bullet-opsomming zonder de beloofde schematische voorstelling. Geen TOC-fragmenten of andere artefacten aangetroffen.'
+    status: needs-rework
 themas:
   - sluiting vereffening
   - ontbinding
@@ -90,13 +90,10 @@ themas:
 # CBN-advies 2022/06 – Verslaggeving bij onmiddellijke sluiting van de vereffening van een vennootschap
 
 ## Onderwerp van het advies
-
 Aan de Commissie werd de vraag gesteld welke verslaggevingsverplichtingen moeten worden nageleefd bij de ontbinding en de sluiting van de vereffening in één akte[^2] van een vennootschap in de zin van art. 2:80 van het Wetboek van vennootschappen en verenigingen[^3] (hierna: het WVV). De Commissie brengt in herinnering dat haar analyse van de verslaggeving bij de ontbinding met een daadwerkelijke vereffening het voorwerp uitmaakt van een afzonderlijk advies[^4].
 
 ## Analyse
-
 ### Preliminair
-
 De ontbinding en de sluiting van de vereffening in één akte laat toe om de ontbindingsprocedure van de vennootschappen te verlichten en te versnellen, zodat zij op een vlotte en kostenefficiënte wijze uit het rechtsverkeer worden verwijderd[^5]. In voorkomend geval neemt de algemene vergadering, op voorstel van het bestuursorgaan, de beslissing tot de ontbinding van de vennootschap en wordt deze beslissing onmiddellijk gevolgd door een tweede beslissing van de algemene vergadering, ditmaal tot de sluiting van de vereffening[^6].
 
 De Commissie wijst erop dat de procedure van de ontbinding en de sluiting van de vereffening in één akte slechts de eenvoudige afsluitingen viseert waar niets te vereffenen valt of in de situaties waar de vereffening van de actiefbestanddelen niet noodzakelijk is om alle verplichtingen van de vennootschap tegemoet te komen[^7] en bijgevolg alles geregeld kan worden voorafgaand aan het ontbindingsbesluit zelf, vaak met uitzondering van het verdelen van het (resterend) vermogen aan de vennoten of aandeelhouders van de vennootschap. 
@@ -104,7 +101,6 @@ De Commissie wijst erop dat de procedure van de ontbinding en de sluiting van de
 De procedure van de ontbinding en de vereffening in één akte is van toepassing op een BV, CV, NV[^8], VOF en CommV[^9]. Deze procedure is sinds de inwerkingtreding van het WVV ook van toepassing op de verenigingen[^10], doch niet op de stichtingen[^11].
 
 ### Toepassingsvoorwaarden
-
 De procedure van de ontbinding en de sluiting van de vereffening in één akte wordt geregeld door art. 2:80 WVV. Overeenkomstig dit artikel kan van deze procedure gebruik worden gemaakt indien:
 
 1. er geen vereffenaar wordt benoemd; 
@@ -114,7 +110,6 @@ De procedure van de ontbinding en de sluiting van de vereffening in één akte w
 De terugname van het resterend actief gebeurt door de vennoten of de aandeelhouders zelf.
 
 ### Situering procedure
-
 De procedure van de ontbinding en de sluiting van de vereffening maakt het mogelijk dat zowel de ontbinding, als de vereffening en de sluiting van de vereffening worden samengebracht om, in één akte, een vennootschap uit het rechtsverkeer te verwijderen. Gelet op het duidelijk verband tussen de klassieke ontbinding en vereffening enerzijds, en de procedure van de onmiddellijke sluiting van de vereffening anderzijds, acht de Commissie het nuttig om hierna de verslaggevingsplichten op jaarrekeningrechtelijk vlak weer te geven aangaande de klassieke ontbinding, de vereffening en de sluiting van de vereffening en hun verhouding op vlak van de verslaggeving ten opzichte van art. 2:80 WVV, dat de ontbinding en vereffening in één akte regelt.
 
 - Ontbinding: uit de formulering van art. 2:80, lid 1 WVV blijkt dat art. 2:71 WVV – het artikel dat de regels inzake de vrijwillige ontbinding bevat – bij de procedure van de ontbinding en de sluiting van de vereffening in één akte moet worden nageleefd, wat betekent dat de verslaggeving van art. 2:71 WVV moet worden gerespecteerd, alsook dat de staat van actief en passief moet worden opgesteld. Bij de procedure van de vrijwillige ontbinding dient de algemene regel van art. 2:70, lid 2 WVV in acht te worden genomen, wat impliceert dat de ontbinding de afsluiting van het boekjaar tot gevolg heeft[^17] en dat er aldus een jaarrekening moet worden opgesteld[^18] die loopt van het begin van het gestarte boekjaar tot de datum van de ontbinding en vereffening in één akte. 
@@ -124,7 +119,6 @@ De procedure van de ontbinding en de sluiting van de vereffening maakt het mogel
 - Sluiting vereffening: bij de sluiting van de vereffening beslist de algemene vergadering over de goedkeuring van de rekeningen, over de kwijting aan de vereffenaars en, in voorkomend geval, aan de commissaris[^22], alsook over de sluiting van de vereffening. Bij de ontbinding en sluiting van de vereffening in één akte moet de algemene vergadering zich evident niet uitspreken omtrent de kwijting aan de vereffenaars. 
 
 ### Jaarrekeningrechtelijke gevolgen
-
 Met betrekking tot de jaarrekeningrechtelijke gevolgen dient melding te worden gemaakt van de algemeen geldende bepaling uit art. 2:70, lid 2 WVV die bepaalt dat de ontbinding de afsluiting van het boekjaar tot gevolg heeft, van toepassing op de vrijwillige ontbinding uit art. 2:71 WVV[^23] en waarnaar uitdrukkelijk wordt verwezen in art. 2:80, lid 1 WVV[^24]. De Commissie is de mening toegedaan dat, aangezien de regel uit art. 2:70, lid 2 WVV opgenomen is onder de algemene bepalingen die van toepassing zijn op alle ontbindingsvormen, deze regel ook van toepassing is wanneer de ontbinding en de sluiting van de vereffening in één akte plaatsvindt[^25]. Het staat immers buiten kijf dat de procedure van de onmiddellijke sluiting van de vereffening tevens het lopende boekjaar afsluit[^26].
 
 De verplichting van het bestuursorgaan om na de afsluitingsdatum van het boekjaar een jaarrekening op te stellen en ter goedkeuring voor te leggen aan de vennoten verenigd in vergadering of de algemene vergadering[^27] heeft tot doel te verzekeren dat de vennoten jaarlijks – en tijdig – een getrouw beeld krijgen van het vermogen, de financiële positie en het resultaat van de vennootschap[^28], teneinde hun controlerecht te kunnen uitoefenen. Deze doelstelling waarborgt de meest essentiële functie van de algemene vergadering en is van openbare orde[^29]. De leden van het bestuursorgaan die deze verplichting overtreden kunnen met een geldboete worden gestraft[^30]. Indien de ontbinding en vereffening van de vennootschap is gepland vóór de datum van de jaarlijkse algemene vergadering die de jaarrekening van het laatste boekjaar vóór het boekjaar dat eindigt met de ontbinding en vereffening in één akte moet behandelen, is de Commissie van mening dat deze algemene vergadering vervroegd dient te worden ten laatste op dezelfde datum dan die waarop de akte tot ontbinding en vereffening in één akte zal worden ondertekend.
@@ -138,7 +132,6 @@ Het opstellen van dergelijke jaarrekening voor het boekjaar dat eindigt met de o
 Deze jaarrekening dient openbaar te worden gemaakt bij de Nationale Bank van België overeenkomstig art. 3:10 WVV. 
 
 ## Voorbeeld
-
 Een besloten vennootschap Z (hierna: de BV Z) voert haar boekhouding per kalenderjaar. De jaarlijkse algemene vergadering vindt plaats op 30 april. De jaarrekening van de BV Z wordt gecontroleerd door de commissaris die door de algemene vergadering werd benoemd. Op 30 juni 20N1 wordt besloten om de activiteiten van vennootschap niet meer verder te zetten en om de procedure tot het verwijderen van de vennootschap uit het rechtsverkeer op te starten. Het bestuursorgaan opteert daarbij voor de ontbinding en de onmiddellijke sluiting van de vereffening in één akte. Alle bestaande schulden worden door het bestuursorgaan aangezuiverd en er duiken geen nieuwe schulden op. Op 30 september 20N1 wordt de akte met betrekking tot de onmiddellijke sluiting van de vereffening bij de notaris ondertekend.
 
 Schematisch kunnen de volgende termijnen worden onderscheiden: 

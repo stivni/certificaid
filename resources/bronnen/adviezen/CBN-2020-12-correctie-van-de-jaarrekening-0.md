@@ -2,57 +2,54 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/correctie-van-de-jaarrekening-0
 datum: 2020-04-06
 gerelateerde_adviezen:
-- datum: '2014-04-23'
-  titel: Correctie van de jaarrekening
-  url: https://www.cbn-cnc.be/nl/adviezen/correctie-van-de-jaarrekening
+  - datum: '2014-04-23'
+    titel: Correctie van de jaarrekening
+    url: https://www.cbn-cnc.be/nl/adviezen/correctie-van-de-jaarrekening
 nummer: CBN-advies 2020/12
 provenance:
-  generated_at: '2026-05-11T15:15:32Z'
+  generated_at: '2026-05-11T17:48:39Z'
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/correctie-van-de-jaarrekening-0
-    sha256: bd532c81178e67e06992b6e31e5ae2bf7e33611997008b2a1c78e9483cdf994d
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/correctie-van-de-jaarrekening-0
+      sha256: bd532c81178e67e06992b6e31e5ae2bf7e33611997008b2a1c78e9483cdf994d
+      version:
   stale: false
-  stale_reason: null
+  stale_reason:
   tooling:
-    model: null
+    model:
     pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    prompt_version: null
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
     confirmed_at: '2026-05-08T19:02:28Z'
     confirmed_by: subagent-laag2-ronde2
     layer1:
-      file_size_chars: 46784
-      flags: []
-      heading_count: 19
-      max_section_chars: 23324
-      run_at: '2026-05-11T15:05:54Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:44Z'
+      heading_count: 19
+      max_section_chars: 23323
+      file_size_chars: 46750
+      flags: []
     layer2:
       agent: subagent-laag2-ronde2
       concrete_problemen: []
-      rationale: '[Laag-2-R2 2026-05-08] Het advies heeft 19 headings en behandelt
-        volledig de correctie van jaarrekeningen na invoering van het WVV. TOC-dump
-        op regel 65-68 is cosmetisch.'
+      rationale: '[Laag-2-R2 2026-05-08] Het advies heeft 19 headings en behandelt volledig de correctie van jaarrekeningen na invoering van het WVV. TOC-dump op regel 65-68 is cosmetisch.'
       run_at: '2026-05-08T19:02:28Z'
       status: trusted
     rationale: Laag-2 trusted door subagent-laag2-ronde2 (zie layer2.rationale)
     status: trusted
 themas:
-- aanpassing
-- correctie
-- fout
-- jaarrekening
-- verbetering
-- verantwoordingsstukken
+  - aanpassing
+  - correctie
+  - fout
+  - jaarrekening
+  - verbetering
+  - verantwoordingsstukken
 ---
 
 # CBN-advies 2020/12 - Correctie van de jaarrekening
 
 ## Inleiding
-
 Aan de Commissie voor Boekhoudkundige Normen werd gevraagd in welke gevallen en op welke wijze ondernemingen een door de algemene vergadering goedgekeurde jaarrekening kunnen of moeten corrigeren. De Commissie bracht hierover in 2014 al een advies[^2] uit dat intussen werd bevestigd door het Hof van Cassatie[^3]. Gelet op het nieuwe Wetboek van vennootschappen en verenigingen (hierna: WVV) heeft de Commissie beslist dit advies te actualiseren. 
 
 Het oude Wetboek van vennootschappen bevatte geen enkele bepaling over de correctie van de jaarrekening. Aangezien de correctie van de jaarrekening discussies met zich meebracht, heeft de wetgever hieromtrent een bepaling opgenomen in het WVV, die hoofdzakelijk steunt op de oplossingen aangereikt door de Commissie[^4].
@@ -62,11 +59,8 @@ Bovendien voorziet het WVV dergelijke bepaling ook voor verenigingen[^5] en stic
 De correctie of aanpassing van een goedgekeurde jaarrekening kan op twee verschillende manieren plaatsvinden. Enerzijds kan het opstellen van de jaarrekening de gelegenheid bieden om in deze nieuwe jaarrekening bepaalde posten van het vorige boekjaar te wijzigen. Anderzijds kan of moet, in bepaalde gevallen, de voorheen goedgekeurde jaarrekening zelf retroactief gecorrigeerd worden.
 
 ## Bepalingen van het WVV
-
 ### Opmaak, goedkeuring en neerlegging van de jaarrekening
-
 #### Vennootschappen
-
 Artikel 3:1, § 1, eerste lid van het WVV bepaalt dat het bestuursorgaan van een vennootschap verplicht is om elk jaar een inventaris op te maken volgens de waarderingsregels bepaald door de Koning, evenals een jaarrekening in de vorm en met de inhoud bepaald door de Koning. Die jaarrekening bestaat uit de balans, de resultatenrekening en de toelichting, en vormt een geheel[^7].
 
 Binnen zes maanden na de afsluitdatum van het boekjaar moet de jaarrekening ter goedkeuring worden voorgelegd aan de vennoten verenigd in vergadering of de algemene vergadering[^8]. Indien de jaarrekening niet binnen deze termijn aan de vennoten verenigd in vergadering of de algemene vergadering is voorgelegd, wordt de door derden geleden schade, behoudens tegenbewijs, geacht voort te vloeien uit dit verzuim[^9]. 
@@ -86,8 +80,7 @@ In voorkomend geval beperkt de tweede termijn van artikel 3:10, tweede lid WVV (
 
 Indien de jaarrekening niet binnen deze termijn van zeven maanden werd goedgekeurd door de algemene vergadering, dient het bestuursorgaan deze toch te publiceren met inachtneming van artikel 3:3, § 1, tweede lid KB WVV. De neerlegging van de daarna definitief door de algemene vergadering goedgekeurde jaarrekening vormt dan een verbeterde neerlegging[^14].
 
-#### VZW’s & IVZW’s[^15]
-
+#### VZW’s & IVZW’s
 Artikel 3:47, § 1 WVV bepaalt dat het bestuursorgaan van een VZW of IVZW elk jaar een inventaris opmaakt volgens de door de Koning bepaalde waarderingsmaatstaven. Voormeld bestuursorgaan stelt eveneens ieder jaar de jaarrekening op waarvan de vorm en inhoud bepaald zijn door de Koning. Deze jaarrekening omvat de balans, de resultatenrekening en de toelichting en vormt een geheel[^16].
 
 Binnen zes maanden na de afsluitingsdatum van het boekjaar moet de jaarrekening ter goedkeuring worden voorgelegd aan de algemene vergadering[^17].
@@ -99,8 +92,7 @@ Wat betreft de neerlegging van de jaarrekening bepaalt artikel 3:47, § 7, eerst
 VZW’s en IVZW’s die op balansdatum van het laatst afgesloten boekjaar meer dan één van de in artikel 3:47, § 2[^18]
  WVV bepaalde criteria overschrijden, leggen de jaarrekening dus neer bij de Nationale Bank van België en dit binnen de dertig dagen na goedkeuring ervan. VZW’s of IVZW’s die daarentegen niet meer dan één van de in artikel 3:47, § 2 WVV bepaalde criteria overschrijden, leggen de jaarrekening binnen de dertig dagen neer bij de griffie van de ondernemingsrechtbank van de zetel van de VZW of IVZW[^19].
 
-#### Stichtingen[^20]
-
+#### Stichtingen
 Artikel 3:51, § 1 WVV bepaalt dat het bestuursorgaan van stichtingen elk jaar een inventaris opmaakt volgens de door de Koning bepaalde waarderingsmaatstaven. Voormeld bestuursorgaan stelt binnen de zes maanden na de afsluitingsdatum van het boekjaar de jaarrekening op waarvan de vorm en inhoud bepaald zijn door de Koning. Deze jaarrekening omvat de balans, de resultatenrekening en de toelichting en vormt een geheel[^21].
 
 Wat betreft de neerlegging van de jaarrekening bepaalt artikel 3:51, § 7, eerste lid WVV het volgende:
@@ -109,19 +101,16 @@ Wat betreft de neerlegging van de jaarrekening bepaalt artikel 3:51, § 7, eerst
 
 Bijgevolg leggen stichtingen die op de balansdatum van het laatst afgesloten boekjaar meer dan één van de in artikel 3:51, § 2, WVV[^22] criteria overschrijden de jaarrekening neer bij de Nationale Bank van België en dit binnen de dertig dagen na goedkeuring ervan. Stichtingen die daarentegen niet meer dan één van de in artikel 3:51, § 2 WVV bepaalde criteria overschrijden, leggen de jaarrekening neer binnen de dertig dagen neer bij de griffie van de ondernemingsrechtbank van de zetel van de stichting[^23].
 
-### Aanpassing van de bedragen van het voorafgaande boekjaar[^24]
-
+### Aanpassing van de bedragen van het voorafgaande boekjaar
 Artikel 3:59 van het koninklijk besluit tot uitvoering van het Wetboek van vennootschappen en verenigingen (hierna: KB WVV) bepaalt dat bij elke rubriek en onderrubriek van de balans en van de resultatenrekening het bedrag van de overeenkomstige post van het voorafgaande boekjaar wordt vermeld. Dit artikel is van toepassing voor zowel de vennootschappen als voor de VZW’s, IVZW’s en stichtingen.
 
 Wanneer de bedragen van het boekjaar niet vergelijkbaar zijn met die van het voorafgaande boekjaar, dan mogen de bedragen van het voorafgaande boekjaar worden aangepast met het oog op hun vergelijkbaarheid.[^25]
  Deze aanpassing van de bedragen van het voorafgaande boekjaar vergt geen bijkomende boekingen en vormt een uitzondering op het beginsel dat de beginbalans van een boekjaar moet overeenstemmen met de eindbalans van het voorafgaande boekjaar[^26]. Het ontbreken van vergelijkbaarheid en de aanpassing van de bedragen moet vermeld en naar behoren verklaard worden in de toelichting bij de waarderingsregels, behalve wanneer de aanpassingen onbelangrijk zijn[^27]. Worden de bedragen van het voorafgaande boekjaar niet aangepast, dan moet de toelichting de nodige gegevens bevatten om een vergelijking mogelijk te maken[^28]. De Commissie is evenwel van oordeel dat, met het oog op het verschaffen van meer betekenisvolle informatie aan de lezer, het hoogst aangewezen is de vergelijkende cijfers van het voorgaande boekjaar aan te passen, gezien het beginsel dat de jaarrekening een getrouw beeld moet geven van het vermogen, de financiële positie en het resultaat van de vennootschap, VZW, IVZW of stichting[^29]. 
 
 ### Voorbeeld
-
 Een vennootschap, gevestigd in een land dat geen lidstaat is van de EU, beslist haar zetel te verplaatsen naar België. In het land van oorsprong past de vennootschap waarderingsregels toe die niet overeenstemmen met de Belgische waarderingsregels. Als de toestand bij de aanvang en de toestand bij de afsluiting van het boekjaar waarin de zetelverplaatsing plaatsvond hierdoor moeilijk vergelijkbaar zijn, moet hiervan melding worden gemaakt in de toelichting bij de jaarrekening.[^30]
 Bovendien kunnen bepaalde waarderingsverschillen tussen het buitenlands en het Belgisch boekhoudkundig referentiestelsel het nodig maken om de openingsbalans aan te passen. De bedoeling is dan om deze balansen in overeenstemming te brengen met de balansen zoals die eruit zouden hebben gezien indien de Belgische boekhoudregels van meet af aan waren toegepast[^31].
 ## Correctie van de jaarrekening
-
 De jaarrekening van vennootschappen, VZW’s, IVZW’s of stichtingen, zelfs al werd die reeds goedgekeurd door respectievelijk de vennoten verenigd in vergadering of algemene vergadering (bij vennootschappen), de algemene vergadering (bij VZW’s en IVZW’s) of het bestuursorgaan (bij stichtingen), kan of moet het voorwerp uitmaken van een correctie.
 
 Het Wetboek van vennootschappen en verenigingen voert twee vormen van correctie in:
@@ -132,9 +121,7 @@ Het Wetboek van vennootschappen en verenigingen voert twee vormen van correctie 
 Voor beleidsbeslissingen en te goeder trouw verworven rechten werden er specifieke regels voorzien[^32]. De Commissie bestudeert eveneens de impact van een correctie van de statutaire jaarrekening van een vennootschap die tot een groep behoort op de geconsolideerde jaarrekening van deze groep[^33].
 
 ### De twee correctievormen
-
 #### De “vrijwillige” correctie (artikel 3:19, § 1, eerste lid WVV (vennootschappen); 3:49, § 1 eerste lid WVV (VZW’s & IVZW’s); en 3:53, eerste lid WVV (stichtingen))
-
 De vrijwillige correctie omvat materiële fouten, valse of dubbel geboekte posten als bedoeld in artikel 1368 van het Gerechtelijk wetboek, maar ook dwaling in rechte of in feite, met inbegrip van een dwaling in de waardering van een post of een inbreuk op het boekhoudrecht.[^34]
  Deze fouten zijn evenwel niet van die aard dat de jaarrekening geen getrouw beeld zou geven van het vermogen, de financiële positie en het resultaat van de vennootschap. Indien deze fouten wel een ander beeld geven omtrent het vermogen, de financiële positie en het resultaat van de vennootschap kan dergelijke fout niet kwalificeren als een vrijwillige correctie, maar wordt de correctie uiteraard verplicht.
 
@@ -143,18 +130,15 @@ Met materiële fouten worden bij wijze van voorbeeld volgende fouten bedoeld: er
 Overigens kunnen ook dwaling in rechte of in feite, of zelfs een (niet-abusievelijke) dwaling in de waardering van een post van de jaarrekening, voorkomen. In tegenstelling tot materiële fouten, bevatten zij een beoordelingselement.
 
 #### De “verplichte” correctie (artikel 3:19, § 1, tweede lid WVV (vennootschappen); 3:49, § 1, tweede lid WVV (VZW’s & IVZW’s); en 3:53 tweede lid WVV (stichtingen))
-
 De correctie is verplicht na inbreuken op het boekhoudrecht van dien aard dat de jaarrekening geen getrouw beeld[^35] geeft van het vermogen, de financiële positie en het resultaat van de vennootschap[^36].
 
 ### Bestuursbeslissingen
-
 Er bestaan boekhoudrechtelijke bepalingen, zoals bijvoorbeeld de waarderingsregels, waarbij vennootschappen, VZW’s, IVZW’s en stichtingen bij de toepassing ervan over een zekere beleidsvrijheid beschikken. In dit geval betreft het beslissingen die vennootschappen, VZW’s, IVZW’s en stichtingen wettelijk gezien hebben kunnen nemen, omdat de toepasselijke boekhoudrechtelijke regels een beoordelingsmarge toelaten. De opzet van een correctie van de jaarrekening moet bijgevolg steeds voor ogen worden gehouden.[^37]
  Bestuursbeslissingen die in de jaarrekening zijn weergegeven, kunnen in principe niet gecorrigeerd worden omwille van hun onherroepelijkheid en definitieve karakter[^38].
 
 Deze bestuursbeslissingen worden echter toch rechtgezet wanneer een inbreuk op het boekhoudrecht wordt vastgesteld[^39].
 
 ### Te goeder trouw verworven rechten
-
 Dit punt is enkel van toepassing op vennootschappen. VZW’s, IVZW’s en stichtingen kunnen hun winst immers niet verdelen onder de leden of bestuurders[^40].
 
 De door aandeelhouders van een NV te goeder trouw verworven rechten mogen, in tegenstelling tot bij een BV[^41] en een CV[^42], niet ter discussie worden gebracht door een correctie van de jaarrekening. Bij NV’s bepaalt artikel 7:214 WVV immers dat elke uitkering uit de verworven rechten in strijd met de artikelen 7:212[^43] en 7:213[^44]
@@ -172,11 +156,8 @@ Bijgevolg is de Commissie van oordeel dat, indien een groepsvennootschap haar st
 Om te vermijden dat de geconsolideerde jaarrekening en de gecorrigeerde statutaire jaarrekening van de groepsvennootschap inconsistenties zouden vertonen, wordt de geconsolideerde jaarrekening gecorrigeerd indien deze geen getrouw beeld meer geeft. 
 
 ## Procedure en boekhoudkundige verwerking van de correctie
-
 ### In hoofde van vennootschappen, VZW’s en IVZW’s
-
 #### Principe: de correctie wordt ter goedkeuring voorgelegd aan de vennoten verenigd in vergadering (vennootschappen) of algemene vergadering (vennootschappen, VZW’s en IVZW’s)
-
 Elke correctie van de jaarrekening dient te worden goedgekeurd door de vennoten verenigd in vergadering (vennootschappen) of algemene vergadering (vennootschappen, VZW’s en IVZW’s), behalve indien de correctie resulteert uit de rechtzetting door het bestuursorgaan van loutere materiële fouten (zie IV.A.2). 
 
 Als het bestuursorgaan van de vennootschap een fout vaststelt (een andere fout dan een loutere materiële fout) die een inbreuk vormt op het boekhoudrecht, moet deze, zonder de datum van de volgende statutaire algemene vergadering af te wachten, een bijzondere algemene vergadering bijeenroepen teneinde de nodige wijzigingen aan te brengen zodat de jaarrekening conform de wet zou zijn. De Commissie wijst er op dat in dit geval een correctie van de jaarrekening verplicht is, en steunt hierbij op het feit dat het boekhoudrecht van dwingende aard is, of zelfs van openbare orde, en dat de schending ervan tot de aansprakelijkheid van de bestuurders kan leiden.[^53]
@@ -198,7 +179,6 @@ De vennootschap, VZW of IVZW kan, indien zij dit nuttig acht en deze oplossing o
 De verbeterde jaarrekening(en) moet(en) worden neergelegd bij de Nationale Bank van België[^59] of bij de griffie van de ondernemingsrechtbank voor de VZW’s en IVZW’s die op balansdatum van het laatst afgesloten boekjaar niet meer dan één van de in artikel 3:47, § 2 WVV bepaalde criteria overschrijden. De Commissie wenst de aansprakelijkheid van het bestuursorgaan in deze context te benadrukken.
 
 #### Uitzondering: correctie uitgevoerd door het bestuursorgaan
-
 Hoewel in principe de vennoten verenigd in vergadering (vennootschappen) of algemene vergadering (vennootschappen, VZW’s en IVZW’s) de gecorrigeerde jaarrekening goedkeuren[^60], neemt het bestuursorgaan zelf initiatief om over te gaan tot de correctie van loutere materiële fouten, zonder een algemene vergadering bijeen te roepen.
 
 Een loutere materiële fout die duidelijk blijkt uit de goedgekeurde jaarrekening zelf is bijvoorbeeld een fout in het adres van een bestuurder of het vergeten vermelden in de toelichting dat de vennootschap, VZW of IVZW een afwijking inzake functionele valuta heeft bekomen. Ook voor het rechtzetten van afrondingsfouten in bedragen die zijn vermeld in de jaarrekening hoeft geen algemene vergadering te worden bijeengeroepen. Het kan daarnaast ook voorvallen dat het bestuursorgaan bij het invullen van de bij de Nationale Bank van België[^61] neer te leggen formulieren een fout begaat die door de Balanscentrale wordt aanzien als een wezenlijke fout[^62], maar niet voorkwam in de door de algemene vergadering goedgekeurde jaarrekening. In dit geval hoeft dus geen nieuwe algemene vergadering bijeengeroepen te worden, maar kan het bestuursorgaan de formulieren aanpassen en opnieuw neerleggen. Een ander voorbeeld is het geval waarin de bestuurders een resultaatsbestemming voorstellen, maar de algemene vergadering niet akkoord gaat en de voorgestelde resultaatsbestemming wijzigt. Het bestuursorgaan legt vervolgens per vergissing toch de jaarrekening neer op basis van het oorspronkelijk voorstel (dit zal door de Balanscentrale niet aanzien worden als wezenlijke fout). In dit geval moet de correctie niet gebeuren via de algemene vergadering want die heeft immers reeds de juiste jaarrekening goedgekeurd.
@@ -206,7 +186,6 @@ Een loutere materiële fout die duidelijk blijkt uit de goedgekeurde jaarrekenin
 In dit geval worden de jaarrekeningen die zijn aangetast door deze materiële fout aangepast en opnieuw neergelegd bij de Nationale Bank van België of bij de griffie van de ondernemingsrechtbank voor VZW’s en IVZW’s die niet meer dan één van de in artikel 3:47, § 2 WVV opgenomen criteria overschrijden. In de toelichting van de gecorrigeerde jaarrekening(en) dienen telkens de aard en de wijze van correctie van de fout te worden vermeld.
 
 ### In hoofde van stichtingen
-
 De procedure voor de correctie van de jaarrekening voor stichtingen verschilt van die voor vennootschappen, VZW’s en IVZW’s. Wegens het ontbreken van een algemene vergadering bij stichtingen zal de correctie van de jaarrekening altijd (ongeacht of het een loutere materiële fout betreft of een inbreuk op het boekhoudrecht) gebeuren op initiatief van het bestuursorgaan. 
 
 Indien het bestuursorgaan een fout constateert (een andere fout dan een loutere materiële fout) die een inbreuk vormt op het boekhoudrecht, zal zij een nieuwe jaarrekening opstellen waarin het de noodzakelijke wijzigingen aanbrengt opdat de jaarrekening in overeenstemming zou zijn met de wet. Een retroactieve wijziging van de oorspronkelijke jaarrekening, waarbij de oorspronkelijke jaarrekening wordt gecorrigeerd zodat deze conform de wet is, is in dit geval formeel slechts mogelijk mits het bestuursorgaan een nieuwe, gecorrigeerde jaarrekening opstelt en goedkeurt. 

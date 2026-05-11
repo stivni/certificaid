@@ -7,41 +7,41 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/leveranciersschulden-en-schulden-aan-de-overheid-in-het-kader-van-een-wco
 nummer: CBN-advies 2016/20 – UPDATE
 provenance:
+  generated_at: '2026-05-11T17:48:39Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/leveranciersschulden-en-schulden-aan-de-overheid-in-het-kader-van-boek-xx-insolventie-van
       sha256: 419a282ec29b37329a6bff8f40a70c1205c9500b9e4de3465addbc4c32628165
       version:
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
-    status: needs-rework
     confirmed_at: '2026-05-11T17:09:39Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: 'D4: regel 55 `vorderingen[^3]*  is duidelijk omtrent de classificatie` bevat een stray asterisk direct na de voetnootreferentie met dubbele spatie — gebroken italic-markering als ETL-artefact. De asterisk hoort bij het cursief van de titelbeschrijving maar is losgeraakt van de sluit-markering. Inhoud compleet: 2 headings, tekst leesbaar, voetnoten [^1]–[^4] aanwezig.'
     layer1:
-      file_size_chars: 3806
-      flags: []
-      heading_count: 2
-      max_section_chars: 2669
-      run_at: '2026-05-11T15:05:52Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:44Z'
+      heading_count: 2
+      max_section_chars: 2668
+      file_size_chars: 3804
+      flags: []
     layer2:
-      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T17:09:39Z'
-      rationale: 'D4: regel 55 `vorderingen[^3]*  is duidelijk omtrent de classificatie` bevat een stray asterisk direct na de voetnootreferentie met dubbele spatie — gebroken italic-markering als ETL-artefact. De asterisk hoort bij het cursief van de titelbeschrijving maar is losgeraakt van de sluit-markering. Inhoud compleet: 2 headings, tekst leesbaar, voetnoten [^1]–[^4] aanwezig.'
       concrete_problemen:
-        - regel: 55
-          categorie: D4
+        - categorie: D4
+          regel: 55
           type: other
           voorbeeld: vorderingen[^3]*  is duidelijk omtrent de classificatie (stray asterisk na voetnootref met dubbele spatie)
+      rationale: 'D4: regel 55 `vorderingen[^3]*  is duidelijk omtrent de classificatie` bevat een stray asterisk direct na de voetnootreferentie met dubbele spatie — gebroken italic-markering als ETL-artefact. De asterisk hoort bij het cursief van de titelbeschrijving maar is losgeraakt van de sluit-markering. Inhoud compleet: 2 headings, tekst leesbaar, voetnoten [^1]–[^4] aanwezig.'
+      run_at: '2026-05-11T17:09:39Z'
+      status: needs-rework
+    rationale: 'D4: regel 55 `vorderingen[^3]*  is duidelijk omtrent de classificatie` bevat een stray asterisk direct na de voetnootreferentie met dubbele spatie — gebroken italic-markering als ETL-artefact. De asterisk hoort bij het cursief van de titelbeschrijving maar is losgeraakt van de sluit-markering. Inhoud compleet: 2 headings, tekst leesbaar, voetnoten [^1]–[^4] aanwezig.'
+    status: needs-rework
 themas:
   - schulden aan de overheid
 ---
@@ -49,13 +49,11 @@ themas:
 # CBN-advies 2016/20 – Leveranciersschulden en schulden aan de overheid in het kader van boek XX “Insolventie van ondernemingen” van het Wetboek van economisch recht
 
 ## Inleiding
-
 In het kader van boek XX “Insolventie van ondernemingen” van het Wetboek van economisch recht[^2] kan worden besloten dat de leveranciersschulden over meerdere jaren zullen terugbetaald worden. Daarnaast bestaat de mogelijkheid dat tevens de schulden aan de overheid (o.a. btw, bedrijfsvoorheffing, sociale bijdragen, vennootschapsbelasting, …) over meerdere jaren terugbetaald worden.
 
 CBN-advies 2011/9 - *Invloed van het buitengerechtelijk minnelijk akkoord en de gerechtelijke reorganisatie op de schulden en vorderingen[^3]*  is duidelijk omtrent de classificatie van de handelsschulden tot renteloze schulden die al dan niet terugbetaalbaar zijn over meerdere jaren. Voor wat betreft de schulden met betrekking tot belastingen en sociale lasten werd aan de Commissie gevraagd of deze ook op de lange-termijn dienen te worden gepresenteerd indien deze over verschillende jaren zullen worden terugbetaald ten gevolge een WCO procedure[^4].
 
 ## Analyse
-
 Daar het minimum aanvaard rekeningstelsel niet voorziet in lange-termijn schulden met betrekking tot belastingen en sociale lasten is de Commissie van oordeel dat de schulden met betrekking tot belastingen en sociale lasten die worden terugbetaald over verschillende jaren dienen te worden gepresenteerd binnen de klasse *45 Schulden met betrekking tot belastingen, bezoldigingen en sociale lasten*.
 
 CBN-advies 2011/9 heeft weliswaar geen afwijkende behandeling opgenomen omtrent de presentatie van schulden met betrekking tot belastingen en sociale lasten die worden terugbetaald over verschillende jaren.

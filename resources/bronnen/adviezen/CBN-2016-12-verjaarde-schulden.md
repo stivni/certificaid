@@ -3,62 +3,50 @@ bron: https://www.cbn-cnc.be/nl/adviezen/verjaarde-schulden
 datum: 2016-06-15
 nummer: CBN-advies 2016/12
 provenance:
-  generated_at: '2026-05-11T15:15:31Z'
+  generated_at: '2026-05-11T17:48:39Z'
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/verjaarde-schulden
-    sha256: c2692b2e27047b708c2eb1052e23363aad897dee552d1671cfbc1976a2fd5291
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/verjaarde-schulden
+      sha256: c2692b2e27047b708c2eb1052e23363aad897dee552d1671cfbc1976a2fd5291
+      version:
   stale: false
-  stale_reason: null
+  stale_reason:
   tooling:
-    model: null
+    model:
     pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    prompt_version: null
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
     confirmed_at: '2026-05-11T13:30:32Z'
     confirmed_by: subagent-sonnet-4-6
     layer1:
-      file_size_chars: 8181
-      flags: []
-      heading_count: 5
-      max_section_chars: 5398
-      run_at: '2026-05-11T15:05:52Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:43Z'
+      heading_count: 5
+      max_section_chars: 5397
+      file_size_chars: 8176
+      flags: []
     layer2:
       agent: subagent-sonnet-4-6
       concrete_problemen: []
-      rationale: 'Volledig schone markdown: 5 headings correct hiërarchisch (##/###),
-        geen lege of dubbele headings, geen bold/italic-artefacten, geen TOC-residu,
-        geen spurious line-breaks. Voetnoten [^1]–[^15] volledig aanwezig en correct
-        gedefinieerd. Inhoud compleet: inleiding, burgerrechtelijke bepalingen, twee
-        scenario''s (afstand vs. geen afstand) en twee Cassatie-arresten. Een buitenstaander
-        zou dit voor handgeschreven markdown kunnen aanzien.'
+      rationale: 'Volledig schone markdown: 5 headings correct hiërarchisch (##/###), geen lege of dubbele headings, geen bold/italic-artefacten, geen TOC-residu, geen spurious line-breaks. Voetnoten [^1]–[^15] volledig aanwezig en correct gedefinieerd. Inhoud compleet: inleiding, burgerrechtelijke bepalingen, twee scenario''s (afstand vs. geen afstand) en twee Cassatie-arresten. Een buitenstaander zou dit voor handgeschreven markdown kunnen aanzien.'
       run_at: '2026-05-11T13:30:32Z'
       status: trusted
-    rationale: 'Volledig schone markdown: 5 headings correct hiërarchisch (##/###),
-      geen lege of dubbele headings, geen bold/italic-artefacten, geen TOC-residu,
-      geen spurious line-breaks. Voetnoten [^1]–[^15] volledig aanwezig en correct
-      gedefinieerd. Inhoud compleet: inleiding, burgerrechtelijke bepalingen, twee
-      scenario''s (afstand vs. geen afstand) en twee Cassatie-arresten. Een buitenstaander
-      zou dit voor handgeschreven markdown kunnen aanzien.'
+    rationale: 'Volledig schone markdown: 5 headings correct hiërarchisch (##/###), geen lege of dubbele headings, geen bold/italic-artefacten, geen TOC-residu, geen spurious line-breaks. Voetnoten [^1]–[^15] volledig aanwezig en correct gedefinieerd. Inhoud compleet: inleiding, burgerrechtelijke bepalingen, twee scenario''s (afstand vs. geen afstand) en twee Cassatie-arresten. Een buitenstaander zou dit voor handgeschreven markdown kunnen aanzien.'
     status: trusted
 themas:
-- verjaarde schulden
-- verjaring
+  - verjaarde schulden
+  - verjaring
 ---
 
 # CBN-advies 2016/12 - Verjaarde schulden
 
 ## Inleiding
-
 Onderhavig advies behandelt de boekhoudkundige verwerking van verjaarde schulden. Verjaring is een middel om, door verloop van een zekere tijd en onder de voorwaarden die de wet bepaalt, iets te verkrijgen of van een verbintenis bevrijd te worden.[^2] 
 
 In onderhavig advies worden door de Commissie geen standpunten ingenomen over de wijzen waarop een verjaring van een schuld optreedt noch over de verjaringstermijnen. Het advies strekt er uitsluitend toe te verduidelijken op welke wijze een schuld boekhoudkundig moet worden verwerkt ingeval de verjaringstermijn verstreken[^3] is.
 
 ## Burgerrechtelijke bepalingen (naar Belgisch recht)
-
 Ofschoon de bevrijdende verjaring in artikel 1234 BW wordt gerangschikt onder de wijzen van tenietgaan van verbintenissen, wordt in de doctrine meestal aangenomen dat deze rangschikking niet helemaal correct is, omdat de bevrijdende verjaring het bestaan[^4] van de schuld niet aantast, maar wel de opeisbaarheid ervan.[^5]
  De verbintenis waarvan het vorderingsrecht van de schuldeiser is verjaard, blijft bestaan als een natuurlijke verbintenis.[^6]
  Ten opzichte van natuurlijke verbintenissen kan geen terugvordering plaatshebben wanneer men ze vrijwillig voldaan heeft, maar wel als men ze niet vrijwillig voldaan heeft.[^7]
@@ -69,17 +57,14 @@ Men kan vooraf geen afstand doen van de verjaring; men kan wel afstand doen van 
  De beslissing over het al dan niet gebruiken van dit middel berust in laatste instantie in het geweten van de betrokkene.[^11] 
 
 ## Boekhoudkundige verwerking
-
 Gelet op de hiervoor uiteengezette principes is de Commissie van mening dat de schuldenaar een verjaarde schuld boekhoudkundig als volgt moet verwerken.
 
 Zoals vermeld in randnummer 3 is een verjaarde schuld niet langer een eisbare schuld. De schuld wordt in dit geval een natuurlijke verbintenis waarvan de voldoening door de schuldenaar facultatief is. De schuldenaar heeft aldus de keuze om zich al dan niet op de verjaring van de schuld te beroepen.
 
 ### De schuldenaar heeft afstand gedaan van de verjaring
-
 Indien de schuldenaar, nadat de schuld is verjaard, afstand doet of heeft gedaan van de verjaring moet deze schuld blijvend op het passief van de balans worden vermeld. Deze schuld blijft immers een schuld die door de schuldeiser al dan niet onmiddellijk kan worden opgeëist.
 
 ### De schuldenaar heeft (nog) geen afstand gedaan van de verjaring
-
 Indien de schuldenaar, nadat de schuld is verjaard, geen of nog geen afstand[^12] heeft gedaan van de verjaring is de schuld niet langer een eisbare schuld. Zoals vermeld in de randnummers 3 en 6 blijft deze schuld wel bestaan, doch niet als een schuld waarvan de voldoening door de schuldeiser kan worden geëist maar als een verbintenis waarvan de voldoening door de schuldenaar facultatief is (natuurlijke verbintenis).
 
 Zonder er zich over uit te spreken of de opname van een schuld in de jaarrekening al dan niet een stuiting van de verjaring van die schuld inhoudt in de zin van artikel 2248 BW wijst de Commissie op de volgende uitspraken van het Hof van Cassatie.

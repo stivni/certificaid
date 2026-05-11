@@ -10,41 +10,41 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-loontussenkomst-door-de-overheid-in-hoofde-van-de-werkgever
 nummer: CBN-advies 2009/13
 provenance:
+  generated_at: '2026-05-11T17:48:38Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-het-stelsel-tot-gedeeltelijke-vrijstelling-van-0
       sha256: da1c0f17729bbe08a1ea44d889165553e64b1cc9f8b3643ce7a53b176d16b3d2
       version:
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
-    status: trusted
     confirmed_at: '2026-05-11T17:09:38Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "Ronde-2-verdict (D4 malformed italic op r157 en r159) is niet langer gegrond als ETL-bug: '740*' is de Belgische ARS-notatie voor een subrekening (740* = rekening 740 en onderrubrieken), en '150 *Kapitaalsubsidie*' is correct markdown italic. De patroon op r146 '...rekening 740* Bedrijfssubsidies en compenserende bedragen*[^17]' leest als italic-opener na 740 en sluit correct op bedragen — dit is een source-document asterisk-notatie, geen ETL-artefact (source-typo-uitzondering). Geen andere ETL-problemen aangetroffen."
     layer1:
-      file_size_chars: 15365
-      flags: []
-      heading_count: 5
-      max_section_chars: 9839
-      run_at: '2026-05-11T15:05:50Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:42Z'
+      heading_count: 5
+      max_section_chars: 9836
+      file_size_chars: 15360
+      flags: []
     layer2:
-      status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T17:09:38Z'
-      rationale: "Ronde-2-verdict (D4 malformed italic op r157 en r159) is niet langer gegrond als ETL-bug: '740*' is de Belgische ARS-notatie voor een subrekening (740* = rekening 740 en onderrubrieken), en '150 *Kapitaalsubsidie*' is correct markdown italic. De patroon op r146 '...rekening 740* Bedrijfssubsidies en compenserende bedragen*[^17]' leest als italic-opener na 740 en sluit correct op bedragen — dit is een source-document asterisk-notatie, geen ETL-artefact (source-typo-uitzondering). Geen andere ETL-problemen aangetroffen."
       concrete_problemen:
-        - regel: 146
-          categorie: (source)
+        - categorie: (source)
+          regel: 146
           type: source-typo
           voorbeeld: rekening 740* Bedrijfssubsidies en compenserende bedragen*[^17] — asterisk is ARS-subrekening-notatie uit brondocument
+      rationale: 'Ronde-2-verdict (D4 malformed italic op r157 en r159) is niet langer gegrond als ETL-bug: ''740*'' is de Belgische ARS-notatie voor een subrekening (740* = rekening 740 en onderrubrieken), en ''150 *Kapitaalsubsidie*'' is correct markdown italic. De patroon op r146 ''...rekening 740* Bedrijfssubsidies en compenserende bedragen*[^17]'' leest als italic-opener na 740 en sluit correct op bedragen — dit is een source-document asterisk-notatie, geen ETL-artefact (source-typo-uitzondering). Geen andere ETL-problemen aangetroffen.'
+      run_at: '2026-05-11T17:09:38Z'
+      status: trusted
+    rationale: 'Ronde-2-verdict (D4 malformed italic op r157 en r159) is niet langer gegrond als ETL-bug: ''740*'' is de Belgische ARS-notatie voor een subrekening (740* = rekening 740 en onderrubrieken), en ''150 *Kapitaalsubsidie*'' is correct markdown italic. De patroon op r146 ''...rekening 740* Bedrijfssubsidies en compenserende bedragen*[^17]'' leest als italic-opener na 740 en sluit correct op bedragen — dit is een source-document asterisk-notatie, geen ETL-artefact (source-typo-uitzondering). Geen andere ETL-problemen aangetroffen.'
+    status: trusted
 themas:
   - bedrijfssubsidie
   - compensatie
@@ -57,7 +57,6 @@ themas:
 # CBN-advies 2009/13 – De boekhoudkundige verwerking van het stelsel tot gedeeltelijke vrijstelling van betaling van de bedrijfsvoorheffing, zoals geregeld door artikel 275/3 van het Wetboek van de Inkomstenbelastingen 1992
 
 ## Inleiding
-
 De Commissie werd gevraagd naar de boekhoudkundige verwerking van het stelsel tot gedeeltelijke vrijstelling van betaling van de bedrijfsvoorheffing, zoals geregeld door artikel 275/3 van het Wetboek van de Inkomstenbelastingen 1992 (hierna WIB 92), door de verenigingen onderworpen aan de toepassing van de wet van 17 juli 1975 met betrekking tot de boekhouding van de ondernemingen en het koninklijk besluit van 19 december 2003 betreffende de boekhoudkundige verplichtingen en de openbaarmaking van de jaarrekening van bepaalde verenigingen zonder winstoogmerk, internationale verenigingen zonder winstoogmerk en stichtingen.
 
 De Commissie onderzocht meer bepaald het stelsel van artikel 275/3, WIB 92. Dit neemt niet weg dat de conclusies die ze uit dit onderzoek trekt, *mutatis mutandis* uitgebreid kunnen worden naar soortgelijke stelsels van de artikelen 275/1 tot 275/7 van het WIB 92 en naar de handels- en industriële vennootschappen.
@@ -65,7 +64,6 @@ De Commissie onderzocht meer bepaald het stelsel van artikel 275/3, WIB 92. Dit 
 Er dient opgemerkt te worden dat het bedrag van bepaalde werkings- en exploitatiesubsidies bepaald wordt in functie van de in aanmerking komende kosten. De Commissie is niet bevoegd om zich uit te spreken over de vraag of de desbetreffende vrijstellingen van betaling al dan niet rechtstreeks in min komen van de bovengenoemde in aanmerking komende kosten.
 
 ## Modaliteiten van het stelsel tot vrijstelling, geregeld door artikel 275/3, WIB 92
-
 Artikel 275/3 werd ingevoerd in het WIB 92 door artikel 106 van de wet van 23 december 2005 betreffende het generatiepact[^1] en werd aangepast door artikel 30 van de programmawet van 27 december 2006[^2], door artikel 138 van de wet houdende diverse bepalingen (IV) van 25 april 2007[^3], door artikel 68 van de programmawet van 8 juni 2008[^4], door artikel 8 van de wet houdende diverse bepalingen (I) van 24 juli 2008[^5] en door artikel 16 van de economische herstelwet van 27 maart 2009[^6].
 
 Het 1ste, 2de en 3de lid van §1 van artikel 275/3, WIB 92, luiden als volgt:
@@ -100,7 +98,6 @@ De brochure *Innovatief België*[^11], uitgegeven door het Federaal wetenschapsb
 “*In de praktijk wordt de bedrijfsvoorheffing die moet worden ingehouden op de uitbetaalde bezoldiging van de betrokken onderzoekers verder berekend op de schalen die normaal van toepassing zijn (…). De wet bepaalt gewoon dat de werkgevers vrijgesteld zijn van storting aan de Belgische Schatkist van een gedeelte van het bedrag van de bedrijfsvoorheffing dat zij elke maand inhouden op de bezoldiging die zij uitbetalen op de onderzoekers die zij tewerkstellen. Deze vrijstelling bezorgt instellingen die onderzoekers in dienst hebben grotere financiële middelen. Zij kunnen er onmiddellijk over beschikken op de manier die hen economisch het meest aangewezen lijkt om grotere inspanningen voor de tewerkstelling van onderzoekers te leveren of nieuwe onderzoeksprogramma’s of investeringen in nieuwe O&O- uitrusting op te starten”*.
 
 ## Boekhoudkundige verwerking van de vrijstelling van betaling
-
 Boekhoudkundige aard van het stelsel tot vrijstelling van betaling, geregeld door art. 275/3, WIB 92
 In het CBN-advies 145/1 heeft de Commissie de boekhoudkundige verwerking van tewerkstellingspremies onderzocht, voorzien door de wet tot economische heroriëntering van 4 augustus 1978[^12].
 
@@ -114,7 +111,6 @@ De gekozen vorm ter vermindering van de loonkost van onderzoekers verschilt van 
 De Commissie is van mening dat het wegvallen van schuldvordering duidelijk de vorm aanneemt van een subsidie, correlatief aan rechtstreekse of onrechtstreekse bezoldigingen, die vallen onder de bedrijfskosten, toegeschreven aan het desbetreffend wetenschappelijk personeel. Deze subsidie vormt in beginsel een exploitatie- of werkingssubsidie. Ze wordt slechts beschouwd als een kapitaalsubsidie indien alle of een deel van de bezoldigingen geactiveerd worden, m.a.w. indien ze wordt verkregen met het oog op investeringen in vaste activa[^13].
 
 ### Boekhoudkundige verwerking
-
 Er dient een onderscheid gemaakt te worden tussen twee juridische verhoudingen:
 
 - enerzijds deze die haar toepassing vindt tussen de werkgever en de werknemer, krachtens het arbeidscontract dat hen bindt; 
@@ -146,7 +142,6 @@ Er dient opgemerkt te worden dat, indien alle of een deel van de bezoldigingen i
 In dat geval zal deze subsidie bijgevolg op het ritme van de afschrijving van de door de subsidie gefinancierde vaste activa geheel of gedeeltelijk in resultaat moeten genomen worden.
 
 ### Informatieverschaffing in de toelichting van de jaarrekening
-
 Het spreekt voor zich dat de toelichting een passende vermelding moet bevatten van de aard van de vrijstelling van betaling waar de vereniging of vennootschap van geniet, evenals van de boekhoudkundige verwerking ervan. 
 
 [^1]: B.S. van 30 december 2005.

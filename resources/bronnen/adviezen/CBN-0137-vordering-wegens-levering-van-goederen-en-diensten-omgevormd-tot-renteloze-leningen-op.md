@@ -16,41 +16,41 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-factoringovereenkomsten
 nummer: CBN-advies 137/8
 provenance:
+  generated_at: '2026-05-11T17:48:38Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/vordering-wegens-levering-van-goederen-en-diensten-omgevormd-tot-renteloze-leningen-op
       sha256: 769f4617e11b5a28206ff0326add0ad51253e94df5587892276f3a2206d85f82
       version:
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
-    status: trusted
     confirmed_at: '2026-05-11T15:15:33Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: Inhoudelijk volledig advies zonder ETL-artefacten. Heading 'Advies van december 1998' terwijl de frontmatter datum '1988-12-23' toont — dit is een inconsistentie die ook in de bron-HTML aanwezig zal zijn (source-typo) en telt niet als needs-rework. Beide voetnoten correct als [^1] en [^2] geformatteerd. Geen A-G problemen.
     layer1:
-      file_size_chars: 3977
-      flags: []
-      heading_count: 1
-      max_section_chars: 3977
-      run_at: '2026-05-11T15:05:49Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:41Z'
+      heading_count: 1
+      max_section_chars: 3971
+      file_size_chars: 3971
+      flags: []
     layer2:
-      status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:15:33Z'
-      rationale: Inhoudelijk volledig advies zonder ETL-artefacten. Heading 'Advies van december 1998' terwijl de frontmatter datum '1988-12-23' toont — dit is een inconsistentie die ook in de bron-HTML aanwezig zal zijn (source-typo) en telt niet als needs-rework. Beide voetnoten correct als [^1] en [^2] geformatteerd. Geen A-G problemen.
       concrete_problemen:
-        - regel: 64
-          categorie: (source)
+        - categorie: (source)
+          regel: 64
           type: source-typo
           voorbeeld: '## Advies van december 1998 — frontmatter zegt datum: 1988-12-23'
+      rationale: Inhoudelijk volledig advies zonder ETL-artefacten. Heading 'Advies van december 1998' terwijl de frontmatter datum '1988-12-23' toont — dit is een inconsistentie die ook in de bron-HTML aanwezig zal zijn (source-typo) en telt niet als needs-rework. Beide voetnoten correct als [^1] en [^2] geformatteerd. Geen A-G problemen.
+      run_at: '2026-05-11T15:15:33Z'
+      status: trusted
+    rationale: Inhoudelijk volledig advies zonder ETL-artefacten. Heading 'Advies van december 1998' terwijl de frontmatter datum '1988-12-23' toont — dit is een inconsistentie die ook in de bron-HTML aanwezig zal zijn (source-typo) en telt niet als needs-rework. Beide voetnoten correct als [^1] en [^2] geformatteerd. Geen A-G problemen.
+    status: trusted
 themas:
   - Waardevermindering
   - waardevermindering op vorderingen
@@ -64,9 +64,7 @@ themas:
 ---
 
 # CBN advies 137/8 - Vordering wegens levering van goederen en diensten omgevormd tot renteloze leningen op meer dan 1 jaar (update)
-
-## Advies van december 1998, bijgewerkt op 10 september 2025[^1]
-
+## Advies van december 1998, bijgewerkt op 10 september 2025
 Aan de Commissie werd de vraag gesteld of artikel 3:45, § 2, lid 1, c) van het koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen (hierna: KB WVV) dat tot de actualisering van langlopende renteloze vorderingen verplicht, moet worden toegepast op een vordering wegens levering van goederen en diensten (i.e. wegens een verrichting die geleid heeft tot de boeking van een resultaat), die echter bij wijze van tegemoetkoming aan de schuldenaar die in financiële moeilijkheden verkeert, wordt omgevormd tot een renteloze vordering, terugbetaalbaar over verschillende jaren. 
 
 Naar het oordeel van de Commissie is genoemd artikel 3:45, § 2, lid 1, c) KB WVV in casu niet van toepassing. Uit de tekst van deze bepaling blijkt immers duidelijk dat de discontoverplichting slechts geldt wanneer aan de volgende cumulatieve voorwaarden is voldaan : 

@@ -2,69 +2,64 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/begrip-omzet-doorrekening-van-belastingen-en-accijnzen
 datum: 2013-05-08
 gerelateerde_adviezen:
-- datum: '1994-06-01'
-  titel: De boekhoudkundige verwerking van fusies
-  url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-fusies-0
-- datum: '1984-10-01'
-  titel: Overeenkomsten waarin gespreide of opeenvolgende prestaties worden voorzien
-  url: https://www.cbn-cnc.be/nl/adviezen/overeenkomsten-waarin-gespreide-of-opeenvolgende-prestaties-worden-voorzien
+  - datum: '1994-06-01'
+    titel: De boekhoudkundige verwerking van fusies
+    url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-fusies-0
+  - datum: '1984-10-01'
+    titel: Overeenkomsten waarin gespreide of opeenvolgende prestaties worden voorzien
+    url: https://www.cbn-cnc.be/nl/adviezen/overeenkomsten-waarin-gespreide-of-opeenvolgende-prestaties-worden-voorzien
 nummer: CBN-advies 2013/11
 provenance:
-  generated_at: '2026-05-11T15:15:31Z'
+  generated_at: '2026-05-11T17:48:39Z'
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/begrip-omzet-doorrekening-van-belastingen-en-accijnzen
-    sha256: abd494a3aeb8a5a9898b68118ce3c2e69b9aa2ed976034badbc563d23c00c926
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/begrip-omzet-doorrekening-van-belastingen-en-accijnzen
+      sha256: abd494a3aeb8a5a9898b68118ce3c2e69b9aa2ed976034badbc563d23c00c926
+      version:
   stale: false
-  stale_reason: null
+  stale_reason:
   tooling:
-    model: null
+    model:
     pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    prompt_version: null
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
     confirmed_at: '2026-05-11T12:16:34Z'
     confirmed_by: subagent-sonnet-4-6
     layer1:
-      file_size_chars: 4015
-      flags: []
-      heading_count: 3
-      max_section_chars: 2495
-      run_at: '2026-05-11T15:05:51Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:43Z'
+      heading_count: 3
+      max_section_chars: 2494
+      file_size_chars: 4012
+      flags: []
     layer2:
       agent: subagent-sonnet-4-6
       concrete_problemen: []
-      rationale: 3 duidelijke H2-secties, alle footnotes correct gemarkeerd en gedefinieerd
-        ([^1]–[^3]). Geen extractie-artefacten. Tekst leest als mens-geschreven markdown.
+      rationale: 3 duidelijke H2-secties, alle footnotes correct gemarkeerd en gedefinieerd ([^1]–[^3]). Geen extractie-artefacten. Tekst leest als mens-geschreven markdown.
       run_at: '2026-05-11T12:16:34Z'
       status: trusted
-    rationale: 3 duidelijke H2-secties, alle footnotes correct gemarkeerd en gedefinieerd
-      ([^1]–[^3]). Geen extractie-artefacten. Tekst leest als mens-geschreven markdown.
+    rationale: 3 duidelijke H2-secties, alle footnotes correct gemarkeerd en gedefinieerd ([^1]–[^3]). Geen extractie-artefacten. Tekst leest als mens-geschreven markdown.
     status: trusted
 themas:
-- accijns
-- afvalstoffenheffing
-- omzet
+  - accijns
+  - afvalstoffenheffing
+  - omzet
 ---
 
 # CBN-advies 2013/11 - Begrip “omzet”: doorrekening van belastingen en accijnzen
 
 ## Inleiding
-
 Artikel 96, I.A. van het koninklijk besluit van 30 januari 2001 tot uitvoering van het Wetboek van Vennootschappen[^1] (hierna KB W.Venn.) bepaalt dat onder omzet moet worden verstaan “het bedrag van de verkoop van goederen en de levering van diensten aan derden, in het kader van de gewone bedrijfsuitoefening van de vennootschap, onder aftrek van de op de verkoopprijs in de handel toegestane kortingen (afslag, ristorno, rabat); dit bedrag omvat niet de belasting over de toegevoegde waarde, noch enige andere rechtstreeks met de omzet verbonden belasting.”
 
 Aan de Commissie werd de vraag gesteld wat precies moet worden begrepen onder de “rechtstreeks met de omzet verbonden belastingen”. 
 
 ## Definitie van de “rechtstreeks met de omzet verbonden belastingen”
-
 De Commissie is van oordeel dat onder de “rechtstreeks met de omzet verbonden belastingen” de belastingen moeten worden verstaan waarbij het bedrag van de belasting rechtstreeks wordt berekend op de bruto-ontvangsten die de vennootschappen hebben verworven ten gevolge van een deel of het geheel van hun activiteiten. 
 
 Een voorbeeld van een belasting die “rechtstreeks met de omzet is verbonden” in de zin van artikel 96, A.I. KB W.Venn. is een lokale belasting op vertoningen en vermakelijkheden waarbij de belasting wordt berekend op de bruto-ontvangsten van deze vertoningen of vermakelijkheden voor de organiserende vennootschap[^2]. 
 
 ## Toepassingen
-
 Aan de Commissie werd in het verleden de vraag gesteld of de accijns op bepaalde producten moet worden beschouwd als een “rechtstreeks met de omzet verbonden belasting” in de zin van artikel 96, I.A. KB W.Venn. De Commissie meent dat de accijns op bepaalde producten (minerale oliën, tabak, alcoholische dranken, suiker, enz.) niet rechtstreeks met de omzet is verbonden en bijgevolg niet van het bedrag van de omzet kan worden afgetrokken, noch in de voorstelling van de jaarrekeningen, noch voor het bepalen van het toepassingsveld van de hierboven vermelde bepalingen van de wet op de boekhouding en van het KB W.Venn. 
 
 Aan de Commissie werd tevens de vraag gesteld of de Vlaamse afvalstoffenheffing[^3] moet worden beschouwd als een “rechtstreeks met de omzet verbonden belasting” in de zin van artikel 96, I.A. KB W.Venn. De Commissie merkt hierbij op dat uit artikel 46 van het materialendecreet volgt dat de afvalstoffenheffing ten aanzien van de afvalverwerkende of – overbrengende ondernemingen steeds geheven wordt per ton verwerkte of overgebrachte afvalstoffen. Bijgevolg kan deze afvalstoffenheffing naar mening van de Commissie niet worden beschouwd als een “rechtstreeks met de omzet verbonden belasting”. Deze belasting wordt immers niet geheven op de bruto-ontvangsten (of omzet) van de afvalverwerkende of – overbrengende ondernemingen. 

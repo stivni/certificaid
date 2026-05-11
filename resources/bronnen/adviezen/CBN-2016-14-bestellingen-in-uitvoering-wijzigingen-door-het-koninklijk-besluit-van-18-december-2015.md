@@ -2,88 +2,72 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/bestellingen-in-uitvoering-wijzigingen-door-het-koninklijk-besluit-van-18-december-2015
 datum: 2016-09-07
 gerelateerde_adviezen:
-- datum: '2019-04-12'
-  titel: Gevolgen op gebied van financiële rapportering als gevolg van de brexit
-  url: https://www.cbn-cnc.be/nl/adviezen/gevolgen-op-gebied-van-financiele-rapportering-als-gevolg-van-de-brexit-0
-- datum: '2015-09-30'
-  titel: Boekhoudkundige verwerking van de aankoop van een onroerend goed bestemd
-    voor verkoop
-  url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-aankoop-van-een-onroerend-goed-bestemd-voor-verkoop
-- datum: '2012-10-10'
-  titel: Bestellingen in uitvoering
-  url: https://www.cbn-cnc.be/nl/adviezen/bestellingen-in-uitvoering
-- datum: '2011-07-20'
-  titel: Boekhoudkundige verwerking van “onderzoeksfondsen” in de jaarrekening van
-    grote en zeer grote verenigingen en stichtingen
-  url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-onderzoeksfondsen-in-de-jaarrekening-van-grote-en-zeer
+  - datum: '2019-04-12'
+    titel: Gevolgen op gebied van financiële rapportering als gevolg van de brexit
+    url: https://www.cbn-cnc.be/nl/adviezen/gevolgen-op-gebied-van-financiele-rapportering-als-gevolg-van-de-brexit-0
+  - datum: '2015-09-30'
+    titel: Boekhoudkundige verwerking van de aankoop van een onroerend goed bestemd voor verkoop
+    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-aankoop-van-een-onroerend-goed-bestemd-voor-verkoop
+  - datum: '2012-10-10'
+    titel: Bestellingen in uitvoering
+    url: https://www.cbn-cnc.be/nl/adviezen/bestellingen-in-uitvoering
+  - datum: '2011-07-20'
+    titel: Boekhoudkundige verwerking van “onderzoeksfondsen” in de jaarrekening van grote en zeer grote verenigingen en stichtingen
+    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-onderzoeksfondsen-in-de-jaarrekening-van-grote-en-zeer
 nummer: CBN-advies 2016/14
 provenance:
-  generated_at: '2026-05-11T15:15:31Z'
+  generated_at: '2026-05-11T17:48:39Z'
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/bestellingen-in-uitvoering-wijzigingen-door-het-koninklijk-besluit-van-18-december-2015
-    sha256: b7f3b132d8a0aa0c0e8a09c62f4e9ae308e6357e47ff23fcb87d2ceba75cb368
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/bestellingen-in-uitvoering-wijzigingen-door-het-koninklijk-besluit-van-18-december-2015
+      sha256: b7f3b132d8a0aa0c0e8a09c62f4e9ae308e6357e47ff23fcb87d2ceba75cb368
+      version:
   stale: false
-  stale_reason: null
+  stale_reason:
   tooling:
-    model: null
+    model:
     pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    prompt_version: null
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
     confirmed_at: '2026-05-11T12:16:34Z'
     confirmed_by: subagent-sonnet-4-6
     layer1:
-      file_size_chars: 8885
-      flags: []
-      heading_count: 6
-      max_section_chars: 2780
-      run_at: '2026-05-11T15:05:52Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:43Z'
+      heading_count: 6
+      max_section_chars: 2779
+      file_size_chars: 8879
+      flags: []
     layer2:
       agent: subagent-sonnet-4-6
       concrete_problemen: []
-      rationale: Schoon bestand. Zes headings correct genest (inclusief italic-geneste
-        subheadings *Algemeen* en *Toepassingsvoorwaarden*). Genummerde randnummers
-        (1–14) zijn als lopende tekst opgenomen, wat de stijl van het CBN-bronadvies
-        weerspiegelt — dit is een bewuste opmaakkeuze, geen artefact. Voetnoten [^1]–[^15]
-        volledig gedefinieerd. Geen tabellen in dit advies (correct, want geen boekingsvoorbeelden).
-        Inhoud compleet.
+      rationale: Schoon bestand. Zes headings correct genest (inclusief italic-geneste subheadings *Algemeen* en *Toepassingsvoorwaarden*). Genummerde randnummers (1–14) zijn als lopende tekst opgenomen, wat de stijl van het CBN-bronadvies weerspiegelt — dit is een bewuste opmaakkeuze, geen artefact. Voetnoten [^1]–[^15] volledig gedefinieerd. Geen tabellen in dit advies (correct, want geen boekingsvoorbeelden). Inhoud compleet.
       run_at: '2026-05-11T12:16:34Z'
       status: trusted
-    rationale: Schoon bestand. Zes headings correct genest (inclusief italic-geneste
-      subheadings *Algemeen* en *Toepassingsvoorwaarden*). Genummerde randnummers
-      (1–14) zijn als lopende tekst opgenomen, wat de stijl van het CBN-bronadvies
-      weerspiegelt — dit is een bewuste opmaakkeuze, geen artefact. Voetnoten [^1]–[^15]
-      volledig gedefinieerd. Geen tabellen in dit advies (correct, want geen boekingsvoorbeelden).
-      Inhoud compleet.
+    rationale: Schoon bestand. Zes headings correct genest (inclusief italic-geneste subheadings *Algemeen* en *Toepassingsvoorwaarden*). Genummerde randnummers (1–14) zijn als lopende tekst opgenomen, wat de stijl van het CBN-bronadvies weerspiegelt — dit is een bewuste opmaakkeuze, geen artefact. Voetnoten [^1]–[^15] volledig gedefinieerd. Geen tabellen in dit advies (correct, want geen boekingsvoorbeelden). Inhoud compleet.
     status: trusted
 themas:
-- bestellingen in uitvoering
-- compensatie
-- ontvangen vooruitbetalingen op bestellingen
+  - bestellingen in uitvoering
+  - compensatie
+  - ontvangen vooruitbetalingen op bestellingen
 ---
 
 # CBN-advies 2016/14 – Bestellingen in uitvoering: wijzigingen door het koninklijk besluit van 18 december 2015
 
 ## Inleiding
-
 1. Het koninklijk besluit van 18 december 2015 tot omzetting van Richtlijn 2013/34/EU van 26 juni 2013 van het Europees Parlement en van de Raad betreffende de jaarlijkse financiële overzichten, geconsolideerde financiële overzichten en aanverwante verslagen van bepaalde ondernemingsvormen, tot wijziging van Richtlijn 2006/43/EG van het Europees Parlement en de Raad en tot intrekking van Richtlijnen 78/660/EEG en 83/349/EEG van de Raad[^2], heeft een wijziging aangebracht aan de bijzondere regels betreffende bestellingen in uitvoering.[^3]
  Deze wijziging betreft uitsluitend de presentatie in de balans en niet de inresultaatname.[^4] 
 
 2. Op grond van het nieuw ingevoegde lid 2 van artikel 71 KB W.Venn. mogen onder bepaalde voorwaarden in de jaarrekening de bestellingen in uitvoering rechtstreeks worden gecompenseerd met de ontvangen vooruitbetalingen per overeenkomst, waarbij ofwel het debetsaldo wordt gepresenteerd als bestelling in uitvoering ofwel het creditsaldo wordt gepresenteerd als ontvangen vooruitbetaling. 
 
 ## Achtergrond en regeling vóór 1 januari 2016
-
 3. Bij langlopende bestellingen in uitvoering wordt vaak contractueel voorzien dat de leverancier tussentijdse voorschotten kan factureren aan de afnemer. Dergelijke voorschotten, die aan de hand van de staat van de vordering van de werken worden gefactureerd, worden als ontvangen vooruitbetalingen op bestellingen behandeld en zodoende opgenomen onder de schulden op ten hoogste een jaar aan de passiefzijde van de balans.[^5] 
 
 4. Sinds 2004 kent de Minister van Economie aan de ondernemingen die lid zijn van de Bouwunie en de Confederatie Bouw een collectieve afwijking toe waardoor zij in de weergave van de jaarrekening de bedragen van de balansrubrieken *Bestellingen in uitvoering* en *Ontvangen vooruitbetalingen op bestellingen* kunnen verrekenen per overeenkomst. De afzonderlijke opname in de balans van deze twee rubrieken zou immers het liquiditeits-, solvabiliteits- en rentabiliteitscijfer van de betrokken ondernemingen negatief en doorslaggevend kunnen beïnvloeden en eventueel een concurrentienadeel kunnen veroorzaken tegenover de buitenlandse ondernemingen die wensen deel te nemen aan de openbare aanbestedingen. Ondernemingen die actief zijn in andere sectoren dienen eveneens gelijkaardige, doch individuele aanvragen tot afwijkingen in.[^6] 
 
 ## Regeling voor boekjaren die aanvangen na 31 december 2015
-
 ### Algemeen
-
 5. Het koninklijk besluit van 18 december 2015 beoogt om vanaf nu aan alle vennootschappen, ongeacht hun activiteitssector, de mogelijkheid te bieden om een dergelijke compensatie te verrichten.[^7] 
 
 6. Op deze wijze wil de Regering overheidsaanbestedingen toegankelijker maken voor de meestal niet fors gekapitaliseerde KMO’s.[^8] 
@@ -91,7 +75,6 @@ themas:
 7. Aangezien de bepalingen van het koninklijk besluit van 18 december 2015 toepassing vinden op de boekjaren die beginnen op of na 1 januari 2016, kan de voorstellingswijze van artikel 71, tweede lid KB W.Venn. slechts voor het eerst toegepast worden met betrekking tot de balansvoorstelling in de jaarrekeningen die betrekking hebben op boekjaren die beginnen op of na 1 januari 2016.[^9] 
 
 ### Toepassingsvoorwaarden
-
 8. Van de bij artikel 71, 2de lid KB W.Venn. toegestane compensatie kan worden gebruik gemaakt, op voorwaarde dat het bestellingen in uitvoering betreft zoals wordt gedefinieerd door art. 95, § 1, VI. B. KB W.Venn.: 
 
 “Onder die post worden opgenomen:
@@ -112,7 +95,6 @@ Een project kan omschreven worden als een specifiek onderhandelde overeenkomst v
  De Commissie is van mening dat dit de duidelijkheid van de jaarrekening ten goede komt. Door de vermelding in de toelichting wordt de lezer van de jaarrekening geïnformeerd over de door de onderneming toegepaste voorstellingsmethode. Het al dan niet toepassen van de bij artikel 71, lid 2 KB W.Venn. toegestane compensatie heeft een impact op het balanstotaal en zal dus tevens op overeenstemmende wijze doorwerken bij de berekening van de criteria op grond van de artikelen 15 en 15/1 W.Venn.
 
 ### Vermeldingen in de toelichting
-
 13. De toepassing van deze compensatiemethode moet uitdrukkelijk worden vermeld in de toelichting van de jaarrekening.[^14]
  De Commissie wenst in herinnering te brengen dat bij de eerste toepassing bovendien moet worden toegezien op de naleving van artikel 86 KB W.Venn. waarin wordt bepaald dat een wijziging van voorstellingswijze vermeld en verantwoord moet worden in de toelichting van de jaarrekening over het boekjaar waarin de wijziging wordt ingevoerd.
 

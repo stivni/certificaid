@@ -10,37 +10,37 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-en-jaarrekeningrechtelijke-verplichtingen-van-een-beoefenaar-van-een-0
 nummer: CBN-advies 2019/09
 provenance:
+  generated_at: '2026-05-11T17:48:39Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudplichtige-onderneming
       sha256: d5cf095e91fad06fe74a290994e695a7dd043f59d198ff5b395bc18669aa0e4b
       version:
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T15:15:32Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
-    status: trusted
     confirmed_at: '2026-05-11T15:23:43Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: 'Ronde-1-verdict (needs-rework voor A3 TOC op regels 55-71) is na re-scrape niet langer van toepassing: het huidige bestand begint direct met `## Algemeen` op regel 67 zonder enige TOC-blok ervoor. Heading-hiërarchie (H1 → H2 → H3) is correct en consistent. Geen extractie-artefacten aangetroffen in categorieën A-G. Inhoud volledig: definities, verduidelijkingen, overgangsbepalingen, voorbeelden en 22 voetnoten.'
     layer1:
-      file_size_chars: 23378
-      flags: []
-      heading_count: 14
-      max_section_chars: 7295
-      run_at: '2026-05-11T15:05:53Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:44Z'
+      heading_count: 14
+      max_section_chars: 7293
+      file_size_chars: 23359
+      flags: []
     layer2:
-      status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:23:43Z'
-      rationale: 'Ronde-1-verdict (needs-rework voor A3 TOC op regels 55-71) is na re-scrape niet langer van toepassing: het huidige bestand begint direct met `## Algemeen` op regel 67 zonder enige TOC-blok ervoor. Heading-hiërarchie (H1 → H2 → H3) is correct en consistent. Geen extractie-artefacten aangetroffen in categorieën A-G. Inhoud volledig: definities, verduidelijkingen, overgangsbepalingen, voorbeelden en 22 voetnoten.'
       concrete_problemen: []
+      rationale: 'Ronde-1-verdict (needs-rework voor A3 TOC op regels 55-71) is na re-scrape niet langer van toepassing: het huidige bestand begint direct met `## Algemeen` op regel 67 zonder enige TOC-blok ervoor. Heading-hiërarchie (H1 → H2 → H3) is correct en consistent. Geen extractie-artefacten aangetroffen in categorieën A-G. Inhoud volledig: definities, verduidelijkingen, overgangsbepalingen, voorbeelden en 22 voetnoten.'
+      run_at: '2026-05-11T15:23:43Z'
+      status: trusted
+    rationale: 'Ronde-1-verdict (needs-rework voor A3 TOC op regels 55-71) is na re-scrape niet langer van toepassing: het huidige bestand begint direct met `## Algemeen` op regel 67 zonder enige TOC-blok ervoor. Heading-hiërarchie (H1 → H2 → H3) is correct en consistent. Geen extractie-artefacten aangetroffen in categorieën A-G. Inhoud volledig: definities, verduidelijkingen, overgangsbepalingen, voorbeelden en 22 voetnoten.'
+    status: trusted
 themas:
   - boekhoudplichtige onderneming
   - vrij beroep
@@ -53,7 +53,6 @@ themas:
 # CBN-advies 2019/09 – Boekhoudplichtige onderneming
 
 ## Algemeen
-
 Met de Wet van 15 april 2018 houdende hervorming van het ondernemingsrecht werd het toepassingsgebied uitgebreid van de personen, lichamen en organisaties die worden onderworpen aan de in het Wetboek van economisch recht (hierna: WER) bepaalde boekhoudkundige verplichtingen.
 
 De Commissie wenst in het bijzonder onder de aandacht te brengen dat de houders van een vrij beroep voortaan ook worden aangemerkt als boekhoudplichtige ondernemingen en aldus onderworpen worden aan de boekhoudkundige verplichtingen van het WER.
@@ -64,9 +63,7 @@ Iedere *boekhoudplichtige onderneming* onderworpen aan de boekhoudkundige verpli
  Een verduidelijking van de wijze waarop de respectievelijke boekhoudplichtige ondernemingen hun boekhouding moeten voeren, zal het voorwerp uitmaken van afzonderlijke adviezen.
 
 ## Wettelijke definities
-
 ### Onderneming – algemene definitie
-
 Voor de toepassing van het WER[^5] wordt elk van volgende organisaties, behoudens andersluidende bepaling, aangemerkt als onderneming:
 
 - (a) iedere natuurlijke persoon die zelfstandig een beroepsactiviteit uitoefent; 
@@ -80,7 +77,6 @@ Niettegenstaande het voorgaande zijn geen ondernemingen, behoudens voor zover an
 - (c) de Federale Staat, de gewesten, de gemeenschappen, de provincies, de hulpverleningszones, de prezones, de Brusselse Agglomeratie, de gemeenten, de meergemeentezones, de binnengemeentelijke territoriale organen, de Franse Gemeenschapscommissie, de Vlaamse Gemeenschapscommissie, de Gemeenschappelijke Gemeenschapscommissie en de openbare centra voor maatschappelijk welzijn; 
 
 ### Boekhoudplichtige onderneming
-
 Het WER definieert[^6] een boekhoudplichtige onderneming als “*een onderneming in de zin van artikel III.82 WER*”.
 
 Luidens artikel III.82, § 1 WER zijn de volgende ondernemingen boekhoudplichtig:
@@ -112,13 +108,11 @@ In afwijking van het eerste lid zijn de volgende ondernemingen geen boekhoudplic
 Voor de boekhoudplichtige ondernemingen bedoeld in het eerste lid, 3°, zijn de bepalingen van dit hoofdstuk alleen van toepassing op hun in België gevestigde bijkantoren met dien verstande dat hun gezamenlijke bijkantoren in België als één boekhoudplichtige onderneming worden beschouwd.
 
 ## Verduidelijking van het begrip boekhoudplichtige onderneming
-
 De personen, lichamen of organisaties die worden aangemerkt als boekhoudplichtige onderneming[^8], worden omschreven vertrekkende van de definitie van het algemene ondernemingsbegrip[^9]. Dit houdt in dat de uitsluitingen die gelden voor het algemene ondernemingsbegrip doorwerken voor de definiëring van de boekhoudplichtige ondernemingen.[^10] 
 
 Hierna volgt een verduidelijking van de frequentst voorkomende boekhoudplichtige ondernemingen.
 
 ### Natuurlijke persoon die zelfstandig een beroepsactiviteit uitoefent
-
 Iedere natuurlijke persoon die zelfstandig een beroepsactiviteit uitoefent in België is een boekhoudplichtige onderneming. 
 
 Het begrip “zelfstandig” is de tegenpool van “in dienstverband” (het onderscheid tussen een zelfstandige en een werknemer) en behoeft geen verdere verduidelijking. Het begrip ‘beroepsactiviteit’ zal in een aantal gevallen niet zo eenduidig afgebakend zijn. Het begrip beroepsactiviteit houdt inherent in dat er sprake is van enige duurzaamheid in de uitgeoefende activiteiten. 
@@ -136,7 +130,6 @@ Natuurlijke personen van wie de zelfstandige beroepsactiviteit bestaat uit de vo
 - het leveren van diensten aan particulieren via een erkend elektronisch platform voor zover deze inkomsten fiscaal niet worden aangemerkt als een beroepsinkomen (de zogenaamde deeleconomie[^14]). 
 
 ### Rechtspersonen naar Belgisch recht
-
 Alle rechtspersonen naar Belgisch recht zijn, in principe, aan te merken als boekhoudplichtige ondernemingen. Uitzonderingen hierop zijn:
 
 - de publiekrechtelijke rechtspersonen die geen goederen of diensten aanbieden op een markt; 
@@ -147,7 +140,6 @@ Alle rechtspersonen naar Belgisch recht zijn, in principe, aan te merken als boe
 Wat betreft de hiervoor vermelde gelijkwaardigheid van de boekhoudverplichtingen herinnert de Commissie er aan dat de beoordeling of de regels voor het voeren en houden van een boekhouding gelijkwaardig zijn aan deze van het WER een bevoegdheid is van het bestuursorgaan. Noch de wetgever, noch de Regering hebben een lijst opgesteld van sectoren waar de problematiek van de gelijkwaardigheid rijst of waar de boekhoudkundige verplichtingen gelijkwaardig zijn aan de wettelijke regels. Het betreft een autonome beoordeling door het bestuursorgaan van de vereniging of stichting. Dienaangaande heeft de Commissie in januari 2007 een aanbeveling uitgebracht.[^15] 
 
 ### Organisaties zonder rechtspersoonlijkheid
-
 Zoals reeds hoger vermeld zijn niet alle organisaties zonder rechtspersoonlijkheid aan te merken als een onderneming in de zin van de algemene ondernemingsdefinitie. Indien een organisatie zonder rechtspersoonlijkheid bijvoorbeeld geen uitkeringsoogmerk heeft, en ook in de feiten geen uitkeringen verricht aan haar leden of aan personen die een beslissende invloed uitoefenen op het beleid van de organisatie, is zij niet aan te merken als een onderneming in de zin van de algemene ondernemingsdefinitie. Bijgevolg is zij evenmin is aan te merken als een boekhoudplichtige onderneming. De Commissie merkt hierbij op dat iedere vennootschap naar Belgisch recht geacht wordt een uitkeringsoogmerk te hebben[^16]. Dit geldt niet alleen voor de vennootschappen met rechtspersoonlijkheid maar ook voor deze zonder rechtspersoonlijkheid. De meest gekende vennootschappen zonder rechtspersoonlijkheid zijn de maatschappen met inbegrip van de stille maatschappen[^17] en de tijdelijke maatschappen[^18].
 
 Volgende organisaties zonder rechtspersoonlijkheid zijn niet boekhoudplichtig:
@@ -160,30 +152,24 @@ Wat betreft de organisaties zonder rechtspersoonlijkheid wordt een onderscheid g
 De maten van een organisatie zonder rechtspersoonlijkheid kunnen[^19] zelf ook een boekhoudplichtige onderneming zijn. De boekhoudkundige verwerking van de verrichtingen van een organisatie zonder rechtspersoonlijkheid zal het voorwerp uitmaken van een afzonderlijk advies.
 
 ### Bijkantoren
-
 Een onderneming opgericht naar buitenlands recht met één of meer bijkantoren in België, wordt aangemerkt als een boekhoudplichtige onderneming met dien verstande dat de boekhoudkundige verplichtingen van het WER alleen van toepassing zijn op hun in België gevestigde bijkantoren. Hun gezamenlijke bijkantoren in België worden als één boekhoudplichtige onderneming aangemerkt.
 
-## Inwerkingtreding – overgangsbepalingen[^20]
-
+## Inwerkingtreding – overgangsbepalingen
 De Wet van 15 april 2018 houdende hervorming van het ondernemingsrecht introduceert een definitie van het begrip boekhoudplichtige onderneming. Deze nieuwe definitie geldt vanaf 1 november 2018.[^21]
  De herdefiniëring van het algemene ondernemingsbegrip en de introductie van het nieuwe begrip boekhoudplichtige onderneming, heeft een belangrijke verruiming tot gevolg van de personen, lichamen en organisaties die onderworpen zijn aan de boekhoudverplichtingen vermeld in het WER. Hoewel de meeste personen, lichamen en organisaties die onder de verruimde definitie van een boekhoudplichtige onderneming vallen en voorheen niet onderworpen waren aan de boekhoudverplichtingen vermeld in het WER, reeds op één of andere wijze hun verrichtingen registreerden of moesten registreren (met name hoofdzakelijk ter naleving van diverse fiscale regelgeving), heeft de wetgever voorzien in een ruime overgangsbepaling om de voorheen toegepaste boekhoudkundige registratiemethode te aligneren met de boekhoudkundige verplichtingen opgenomen in het WER en de bijhorende uitvoeringsbesluiten. Het tijdstip vanaf wanneer een boekhoudplichtige onderneming onderworpen wordt aan de boekhoudkundige verplichtingen bepaald in Boek III, Titel 3, Hoofstuk 2 van het WER, wordt hieronder verduidelijkt.
 
 ### Nieuwe onderneming
-
 Een boekhoudplichtige onderneming die start op 1 november 2018 of op een latere datum is vanaf haar aanvang onderworpen aan de boekhoudkundige verplichtingen vermeld in het WER.[^22] 
 
 ### Bestaande onderneming – voorheen niet onderworpen
-
 Voor een boekhoudplichtige onderneming die vóór 1 november 2018 reeds actief was maar nog niet onderworpen was aan de boekhoudkundige verplichtingen vermeld in het WER, gelden de boekhoudkundige verplichtingen opgenomen in het WER slechts vanaf het eerste boekjaar dat aanvangt vanaf 1 mei 2019.
 
 ### Bestaande onderneming – voorheen onderworpen
-
 Voor de boekhoudplichtige onderneming die vóór 1 november 2018 reeds actief was en reeds onderworpen was aan de boekhoudkundige verplichtingen in de zin van deze vermeld in het WER blijven de bepalingen van het WER onverkort van toepassing, uiteraard rekening houdend met de gewijzigde bepalingen van het WER en de bijhorende uitvoeringsbesluiten. Hiermee worden niet alleen de boekhoudplichtige ondernemingen beoogd die werden aangemerkt als een onderneming in de zin van artikel I.5 van het WER zoals dit gold vóór de wijziging van artikel I.5 WER door de Wet van 15 april 2018 houdende de hervorming van het ondernemingsrecht, maar ook de boekhoudplichtige ondernemingen die middels een verwijzing onderworpen werden aan deze boekhoudkundige verplichtingen. De meest voor de hand liggende voorbeelden hiervan zijn de (internationale) verenigingen zonder winstoogmerk, de stichtingen alsmede de Belgische bijkantoren van deze verenigingen en stichtingen.
 
 De wijzigingen die de voormelde Wet van 15 april 2018 met zich meebrengt voor de boekhoudplichtige ondernemingen die reeds voorheen onderworpen waren aan de boekhoudkundige verplichtingen vermeld in het WER, behoeven volgens de Commissie geen bijkomende verduidelijkingen.
 
 ## Voorbeelden
-
 Een advocaat, geneesheer, kinesist of een andere beoefenaar van een vrij beroep buiten een vennootschap die zijn boekhouding voert per kalenderjaar, is vanaf 1 januari 2020 onderworpen aan de boekhoud- en inventarisverplichtingen vermeld in het WER.
 
 Een maatschap, die een organisatie is zonder rechtspersoonlijkheid, opgericht op 15 december 2018, is vanaf 15 december 2018 onderworpen aan de boekhoud- en inventarisverplichtingen vermeld in het WER en zal dus meteen een boekhouding moeten voeren.

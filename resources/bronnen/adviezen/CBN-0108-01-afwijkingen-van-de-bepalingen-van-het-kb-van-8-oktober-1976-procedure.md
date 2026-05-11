@@ -2,71 +2,58 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/afwijkingen-van-de-bepalingen-van-het-kb-van-8-oktober-1976-procedure
 datum: 1977-08-01
 gerelateerde_adviezen:
-- datum: '2024-02-08'
-  titel: 'Belgische bijkantoren van buitenlandse verenigingen en stichtingen: toepassing
-    van het Belgisch boekhoudrecht – begrip ‘bijkantoor’ – publicatieplicht – eigen
-    boekhoudkundige verplichtingen'
-  url: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-buitenlandse-verenigingen-en-stichtingen-toepassing-van-het-0
-- datum: '2022-11-08'
-  titel: 'Belgische bijkantoren van buitenlandse vennootschappen:  eigen boekhoudkundige
-    verplichtingen (update)'
-  url: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-buitenlandse-vennootschappen-eigen-boekhoudkundige
-- datum: '2019-05-14'
-  titel: Adviesbeleid van de Commissie voor Boekhoudkundige Normen ten aanzien van
-    vragen tot afwijking voor Belgische bijkantoren van buitenlandse vennootschappen
-    (ONTWERP)
-  url: https://www.cbn-cnc.be/nl/adviezen/adviesbeleid-van-de-commissie-voor-boekhoudkundige-normen-ten-aanzien-van-vragen-tot
-- datum: '2019-03-26'
-  titel: 'Belgische bijkantoren van vennootschappen naar buitenlands recht: eigen
-    boekhoudkundige verplichtingen'
-  url: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-vennootschappen-naar-buitenlands-recht-eigen-boekhoudkundige-0
+  - datum: '2024-02-08'
+    titel: 'Belgische bijkantoren van buitenlandse verenigingen en stichtingen: toepassing van het Belgisch boekhoudrecht – begrip ‘bijkantoor’ – publicatieplicht – eigen boekhoudkundige verplichtingen'
+    url: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-buitenlandse-verenigingen-en-stichtingen-toepassing-van-het-0
+  - datum: '2022-11-08'
+    titel: 'Belgische bijkantoren van buitenlandse vennootschappen:  eigen boekhoudkundige verplichtingen (update)'
+    url: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-buitenlandse-vennootschappen-eigen-boekhoudkundige
+  - datum: '2019-05-14'
+    titel: Adviesbeleid van de Commissie voor Boekhoudkundige Normen ten aanzien van vragen tot afwijking voor Belgische bijkantoren van buitenlandse vennootschappen (ONTWERP)
+    url: https://www.cbn-cnc.be/nl/adviezen/adviesbeleid-van-de-commissie-voor-boekhoudkundige-normen-ten-aanzien-van-vragen-tot
+  - datum: '2019-03-26'
+    titel: 'Belgische bijkantoren van vennootschappen naar buitenlands recht: eigen boekhoudkundige verplichtingen'
+    url: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-vennootschappen-naar-buitenlands-recht-eigen-boekhoudkundige-0
 nummer: CBN-advies 108/1
 provenance:
-  generated_at: '2026-05-11T15:15:31Z'
+  generated_at: '2026-05-11T17:48:38Z'
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/afwijkingen-van-de-bepalingen-van-het-kb-van-8-oktober-1976-procedure
-    sha256: 466967bde208f58cf2173e47efcba81b58bd0ca5627da8ba86369a9261b186ab
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/afwijkingen-van-de-bepalingen-van-het-kb-van-8-oktober-1976-procedure
+      sha256: 466967bde208f58cf2173e47efcba81b58bd0ca5627da8ba86369a9261b186ab
+      version:
   stale: false
-  stale_reason: null
+  stale_reason:
   tooling:
-    model: null
+    model:
     pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    prompt_version: null
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
     confirmed_at: '2026-05-11T11:57:45Z'
     confirmed_by: subagent-sonnet-4-6
     layer1:
-      file_size_chars: 2634
-      flags: []
+      status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:40Z'
       heading_count: 0
       max_section_chars: 2634
-      run_at: '2026-05-11T15:05:48Z'
-      run_id: 20260511-150547
-      status: pass
+      file_size_chars: 2634
+      flags: []
     layer2:
       agent: subagent-sonnet-4-6
       concrete_problemen: []
-      rationale: 'Korte bron (2634 tekens) zonder headings — dat klopt: het advies
-        is één doorlopende alinea''s-tekst. Geen artefacten: geen lege headings, geen
-        Unicode-resten, geen spurious breaks. Frontmatter volledig en consistent met
-        inhoud. Voetnoten ontbreken (het origineel heeft er ook geen). Leesbaar als
-        mens-geschreven tekst.'
+      rationale: 'Korte bron (2634 tekens) zonder headings — dat klopt: het advies is één doorlopende alinea''s-tekst. Geen artefacten: geen lege headings, geen Unicode-resten, geen spurious breaks. Frontmatter volledig en consistent met inhoud. Voetnoten ontbreken (het origineel heeft er ook geen). Leesbaar als mens-geschreven tekst.'
       run_at: '2026-05-11T11:57:45Z'
       status: trusted
-    rationale: 'Korte bron (2634 tekens) zonder headings — dat klopt: het advies is
-      één doorlopende alinea''s-tekst. Geen artefacten: geen lege headings, geen Unicode-resten,
-      geen spurious breaks. Frontmatter volledig en consistent met inhoud. Voetnoten
-      ontbreken (het origineel heeft er ook geen). Leesbaar als mens-geschreven tekst.'
+    rationale: 'Korte bron (2634 tekens) zonder headings — dat klopt: het advies is één doorlopende alinea''s-tekst. Geen artefacten: geen lege headings, geen Unicode-resten, geen spurious breaks. Frontmatter volledig en consistent met inhoud. Voetnoten ontbreken (het origineel heeft er ook geen). Leesbaar als mens-geschreven tekst.'
     status: trusted
 themas:
-- afwijking
-- commissaris
-- omzetcijfer
-- procedure
-- publicatie van het omzetcijfer
-- vrijstelling
+  - afwijking
+  - commissaris
+  - omzetcijfer
+  - procedure
+  - publicatie van het omzetcijfer
+  - vrijstelling
 ---
 
 # CBN-advies 108/1 - Afwijkingen van de bepalingen van het K.B. van 8 oktober 1976 – Procedure

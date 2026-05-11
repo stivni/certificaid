@@ -2,66 +2,61 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-tax-shelter-in-hoofde-van-de-productievennootschap
 datum: 2015-09-09
 gerelateerde_adviezen:
-- datum: '2025-07-14'
-  titel: De boekhoudkundige verwerking van immateriële vaste activa (update) [ONTWERP]
-  url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-immateriele-vaste-activa-update-ontwerp
-- datum: '2018-05-30'
-  titel: Tax shelter voor podiumkunsten
-  url: https://www.cbn-cnc.be/nl/adviezen/tax-shelter-voor-podiumkunsten
-- datum: '2018-03-21'
-  titel: Aftrek voor innovatie-inkomsten
-  url: https://www.cbn-cnc.be/nl/adviezen/aftrek-voor-innovatie-inkomsten
-- datum: '2016-12-14'
-  titel: 'Kosten van onderzoek en ontwikkeling: onderscheid tussen onderzoek en ontwikkeling
-    - verduidelijking'
-  url: https://www.cbn-cnc.be/nl/adviezen/kosten-van-onderzoek-en-ontwikkeling-onderscheid-tussen-onderzoek-en-ontwikkeling
+  - datum: '2025-07-14'
+    titel: De boekhoudkundige verwerking van immateriële vaste activa (update) [ONTWERP]
+    url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-immateriele-vaste-activa-update-ontwerp
+  - datum: '2018-05-30'
+    titel: Tax shelter voor podiumkunsten
+    url: https://www.cbn-cnc.be/nl/adviezen/tax-shelter-voor-podiumkunsten
+  - datum: '2018-03-21'
+    titel: Aftrek voor innovatie-inkomsten
+    url: https://www.cbn-cnc.be/nl/adviezen/aftrek-voor-innovatie-inkomsten
+  - datum: '2016-12-14'
+    titel: 'Kosten van onderzoek en ontwikkeling: onderscheid tussen onderzoek en ontwikkeling - verduidelijking'
+    url: https://www.cbn-cnc.be/nl/adviezen/kosten-van-onderzoek-en-ontwikkeling-onderscheid-tussen-onderzoek-en-ontwikkeling
 nummer: CBN-advies 2015/7
 provenance:
-  generated_at: '2026-05-11T15:15:31Z'
+  generated_at: '2026-05-11T17:48:39Z'
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-tax-shelter-in-hoofde-van-de-productievennootschap
-    sha256: 7e2eccfbb2400c51b122e8869b2d760e5e08df92b45a714e9c4b43696a59b852
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-tax-shelter-in-hoofde-van-de-productievennootschap
+      sha256: 7e2eccfbb2400c51b122e8869b2d760e5e08df92b45a714e9c4b43696a59b852
+      version:
   stale: false
-  stale_reason: null
+  stale_reason:
   tooling:
-    model: null
+    model:
     pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    prompt_version: null
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
     confirmed_at: '2026-05-08T19:02:28Z'
     confirmed_by: subagent-laag2-ronde2
     layer1:
-      file_size_chars: 32001
-      flags: []
-      heading_count: 16
-      max_section_chars: 10052
-      run_at: '2026-05-11T15:05:52Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:43Z'
+      heading_count: 16
+      max_section_chars: 10018
+      file_size_chars: 31950
+      flags: []
     layer2:
       agent: subagent-laag2-ronde2
       concrete_problemen: []
-      rationale: '[Laag-2-R2 2026-05-08] 17 headings, alle verwerkingsstappen correct
-        als ### of #### headings. Inhoudsopgave-artefact is cosmetisch. RAG-bruikbaar.'
+      rationale: '[Laag-2-R2 2026-05-08] 17 headings, alle verwerkingsstappen correct als ### of #### headings. Inhoudsopgave-artefact is cosmetisch. RAG-bruikbaar.'
       run_at: '2026-05-08T19:02:28Z'
       status: trusted
     rationale: Laag-2 trusted door subagent-laag2-ronde2 (zie layer2.rationale)
     status: trusted
 themas:
-- immateriële vaste activa
-- kapitaalsubsidie
-- productievennootschap
-- tax shelter
+  - immateriële vaste activa
+  - kapitaalsubsidie
+  - productievennootschap
+  - tax shelter
 ---
 
 # CBN-advies 2015/7 - Boekhoudkundige verwerking van de tax shelter in hoofde van de productievennootschap (raamovereenkomsten getekend vanaf 1 januari 2015)
 
-op in de aanschaffingswaarde
-
 ## Inleiding
-
 De *tax shelter* is een fiscale stimulans die in 2002 werd ingevoerd om de productie van audiovisuele werken aan te moedigen. In dit advies wordt de boekhoudkundige verwerking behandeld in hoofde van de productievennootschap voor raamovereenkomsten getekend vanaf 1 januari 2015[^2]. Voor raamovereenkomsten die zijn getekend vóór 1 januari 2015 wordt verwezen naar het CBN-advies 2012/6 De boekhoudkundige verwerking van de tax shelter in hoofde van de productievennootschap.[^3] 
 
 De regeling bestaat er in dat een fiscale vrijstelling wordt toegekend aan vennootschappen die financieel bijdragen aan de productie van een audiovisueel werk. In artikel 194*ter* van het Wetboek van de Inkomstenbelastingen 1992 (hierna: WIB 92) worden de voorwaarden, beperkingen en voorschriften van deze fiscale vrijstelling bepaald.
@@ -79,7 +74,6 @@ Voor een volledig overzicht van de wijzigingen die door deze wet werden aangebra
  De Commissie wenst te benadrukken dat met onderhavig advies geen uitspraak wordt gedaan over de fiscale behandeling van de door de producent ontvangen bedragen in het kader van het tax shelter-stelsel.
 
 ## Kort overzicht van het tax shelter-stelsel
-
 De *investerende vennootschap[^8]*  (hierna: de investeerder) en de *productievennootschap[^9]*  (hierna: de producent) sluiten een raamovereenkomst waarin de investeerder zich verbindt een bepaalde som te storten met het oog op het verkrijgen van een tax shelter-attest dat de producent belooft te verstrekken aan de investeerder. De producent meldt deze overeenkomst aan de FOD Financiën binnen de maand na de ondertekening ervan.
 
 De investeerder verkrijgt een voorlopige fiscale vrijstelling. Deze vrijstelling wordt definitief wanneer de investeerder een kopie van het tax shelter-attest voegt bij de aangifte van de vennootschapsbelasting of van de belasting van niet-inwoners/vennootschappen.[^10] 
@@ -94,7 +88,6 @@ De fiscale waarde van het tax shelter-attest wordt overeenkomstig artikel 194*te
  De definitieve vrijstelling is bovendien beperkt tot 150 % van de (definitieve) fiscale waarde van het tax shelter-attest.[^17] 
 
 ## Boekhoudkundige verwerking
-
 De boekhoudkundige verwerking van de verrichting in hoofde van de producent wordt geïllustreerd aan de hand van het volgende voorbeeld.
 
 Een producent en een investeerder sluiten een raamovereenkomst waarin wordt bepaald dat de investeerder een bedrag van 100 betaalt. De producent verbindt er zich toe om aan de investeerder een tax shelter-attest af te leveren (waarborg tot voltooiing van het werk en verkrijging van het attest). De producent verbindt er zich eveneens toe om aan de investeerder een vergoeding te betalen die overeenstemt met het maximale bedrag dat door de wet wordt toegelaten, voor de periode tussen de storting van het bedrag en het moment waarop het attest wordt afgeleverd, met een maximum van 18 maanden.[^18]
@@ -103,7 +96,6 @@ Een producent en een investeerder sluiten een raamovereenkomst waarin wordt bepa
 Eenvoudigheidshalve worden de btw-aspecten in het voorbeeld buiten beschouwing gelaten.
 
 ### Productie van het audiovisueel werk
-
 Bij het verwerven van de rechten op het scenario en de dialogen of de rechten op de aanpassing van een literair werk, produceert (of laat) de producent het audiovisueel werk (produceren).
 
 De activiteit inzake de ontwikkeling en productie van een audiovisueel werk bestaat uit een geheel van activiteiten met het oog op het verzekeren van de productie van audiovisuele werken vanaf het ontwerp van een project en het zoeken naar financieringsbronnen tot de eindafwerking van het audiovisuele werk en de promotie ervan met het oog op zijn commercialisering.[^19]
@@ -120,7 +112,6 @@ De rentelasten van het kapitaal dat is geleend om het werk te financieren[^23], 
 De producent zal overigens bij de evaluatie van elk zelf geproduceerd werk rekening moeten houden met artikel 60 KB W.Venn. dat verbiedt dat een immaterieel vast actief op het actief wordt geboekt voor een waarde, bepaald op basis van de vervaardigingsprijs, die hoger is dan een voorzichtige raming van de gebruikswaarde of het toekomstig rendement voor de vennootschap van dit vast actief.
 
 #### Verwerving van de auteursrechten
-
 De verworven immateriële rechten worden aan de actiefzijde opgenomen door middel van de volgende boeking:
 
 | | Rekening | Omschrijving | Debet | Credit |
@@ -129,7 +120,6 @@ De verworven immateriële rechten worden aan de actiefzijde opgenomen door midde
 | aan | 440 | Handelsschulden | | |
 
 #### Uitgaven voor de productie van het werk
-
 De uitgaven om het werk te maken, worden in eerste instantie opgenomen onder de kosten en worden naar aard geboekt als volgt:
 
 | | Rekening | Omschrijving | Debet | Credit |
@@ -153,7 +143,6 @@ Vervolgens zullen deze uitgaven, naargelang de door het bestuursorgaan gehanteer
 | | (6503 | Geactiveerde intercalaire interesten) | | |
 
 #### Storting door de producent van de 'vergoeding voor de prefinanciering'
-
 De producent kan er zich toe hebben verbonden om een bedrag te storten aan de investeerder dat berekend is op basis van de effectief uitgevoerde betalingen in het kader van de raamovereenkomst die worden verricht ter verkrijging van het tax shelter-attest pro rata van de verlopen dagen voor de periode vanaf de datum van de eerste betaling tot de datum van de aflevering van het tax shelter-attest, maar met een maximum van 18 maanden. De betaling van dit bedrag wordt als volgt geboekt:
 
 | | Rekening | Omschrijving | Debet | Credit |
@@ -171,7 +160,6 @@ Wanneer de producent beslist om de rente op vreemd vermogen op te nemen in de aa
 | aan | 6503 | Geactiveerde intercalaire interesten | | 5 |
 
 ### Ondertekening van de raamovereenkomst
-
 In het CBN-advies 2012/6 – De boekhoudkundige verwerking van de tax shelter in hoofde van de productievennootschap wordt uitgegaan van de situatie dat de producent zich ertoe heeft verbonden om het risico van niet-afwerking van het werk op zich te nemen zodat de investeerder, indien het werk niet wordt afgewerkt, zijn investering in de rechten op de toekomstige opbrengsten krijgt terugbetaald. Om die reden wordt voor overeenkomsten die onder die modaliteiten werden getekend vóór 1 januari 2015, de erkenning van de kosten en de opbrengsten met betrekking tot en productie uitgesteld tot op het ogenblik dat het werk bestaat.[^26]
  Voor de raamovereenkomsten die worden getekend vanaf 1 januari 2015 zijn de door de investeerder toegekende bedragen evenwel definitief verworven door de producent vanaf de toekenning. Echter, indien de producent het toegekende bedrag onmiddellijk als opbrengst zou erkennen, bijvoorbeeld als een diverse bedrijfsopbrengst (rekening 74), in het jaar van de ondertekening van de raamovereenkomst, zou er geen matching plaatsvinden tussen de opbrengsten en de kosten van het boekjaar.[^27] 
 
@@ -186,8 +174,7 @@ Om deze redenen worden de bedragen waartoe de investeerder zich heeft verbonden 
 
 Gelet op wat voorafgaat beveelt de Commissie de onderstaande boekhoudkundige verwerking in hoofde van de producent aan bij de ondertekening van de raamovereenkomst. De methode is verschillend naargelang de producent ervoor opteert[^29] om de onrechtstreekse productiekosten[^30] met betrekking tot de productie van het in aanmerking komend audiovisuele werk al dan niet op te nemen in de aanschaffingswaarde van het audiovisuele werk.
 
-#### De producent neemt alle productiekosten[^31] op in de aanschaffingswaarde
-
+#### De producent neemt alle productiekosten op in de aanschaffingswaarde
 Bij het afsluiten van de raamovereenkomst wordt het door de investeerder vastgelegde bedrag als volgt geboekt:
 
 | | Rekening | Omschrijving | Debet | Credit |
@@ -200,7 +187,6 @@ Deze kapitaalsubsidies en uitgestelde belastingen worden geleidelijk afgeboekt v
  De mate waarin de geactiveerde immateriële vaste activa worden gefinancierd door de bijdragen van de investeerders is een verplichte vermelding in de raamovereenkomst.[^36] 
 
 #### De producent neemt uitsluitend de rechtstreekse productiekosten op in de aanschaffingswaarde
-
 Wanneer de producent echter opteert om uitsluitend de rechtstreekse productiekosten[^37] op te nemen in de aanschaffingswaarde van het audiovisuele werk, wordt slechts een gedeelte van het door de producent ontvangen bedrag geboekt als kapitaalsubsidie, met name het geraamde pro rata gedeelte van de geraamde productiekosten zoals vermeld in de raamovereenkomst, dat wordt geactiveerd.
 
 Het gedeelte van het van de investeerders ontvangen bedrag dat evenredig betrekking heeft op toekomstige uitgaven die niet worden geactiveerd, wordt in afwachting van deze uitgaven geboekt op een wachtrekening. In het onderstaande voorbeeld wordt vertrokken van de hypothese dat de producent verwacht dat de niet te activeren productiekosten[^38]
@@ -217,7 +203,6 @@ Het gedeelte van het van de investeerders ontvangen bedrag dat evenredig betrekk
 Wanneer de uitgaven effectief worden gedaan, worden deze uitgaven als kost van het boekjaar geboekt en wordt het overeenstemmende bedrag dat werd ontvangen van de investeerders en voorlopig op een wachtrekening werd geboekt, overgeboekt door een debitering van de wachtrekening en een creditering van de rekening 753 *Kapitaal- en interestsubsidies* ten belope van het overeenstemmende bedrag. Indien het bedrag op de wachtrekening niet is aangewend op het einde van het boekjaar zal dit als een “Over te dragen opbrengst” worden verwerkt.
 
 ### Storting door de investeerder van het overeengekomen bedrag
-
 Wanneer de investeerder het overeengekomen bedrag stort, wordt de schuldvordering vereffend als volgt:
 
 | | Rekening | Omschrijving | Debet | Credit |
@@ -226,7 +211,6 @@ Wanneer de investeerder het overeengekomen bedrag stort, wordt de schuldvorderin
 | aan | 416 | Diverse vorderingen | | 100 |
 
 ### Waarborg tot voltooiing en tot aflevering van het tax shelter-attest
-
 In de raamovereenkomst kan worden opgenomen dat de producent de voltooiing van het in aanmerking komend werk en de aflevering van het tax shelter-attest waarborgt.[^42]
  Daartoe kan de producent een verzekering afsluiten om zich tegen dit risico in te dekken.[^43] 
 
@@ -242,24 +226,20 @@ Wanneer de producent zich niet heeft ingedekt voor de verstrekte waarborgen en h
 De waarborg die de producent toekent aan de investeerder moet in de toelichting worden vermeld onder de niet in de balans opgenomen rechten en verplichtingen wanneer deze waarborgen het vermogen, de financiële positie of het resultaat van de vennootschap aanmerkelijk kunnen beïnvloeden.[^45] 
 
 ### Voltooiing van het werk
-
 Zodra het werk is voltooid, vraagt de producent aan de FOD Financiën om een tax shelter-attest af te leveren. De producent moet hiervoor aantonen dat de voorwaarden zijn vervuld (zie de voorschriften en voorwaarden van artikel 194*ter*, § 7 WIB 92).
 
 #### Afschrijving van het werk
-
 Aangezien het audiovisuele werk een beperkte gebruiksduur heeft, wordt het werk afgeschreven overeenkomstig artikel 61, § 1 KB W.Venn.[^46] volgens het afschrijvingsplan dat wordt opgesteld door het bestuursorgaan van de producent.[^47]
  De Commissie merkt op dat de kapitaalsubsidies volgens hetzelfde ritme in opbrengsten worden geboekt als het ritme van de afschrijvingen.[^48] 
 
 De afschrijving van het audiovisueel werk zal in principe aanvangen op het ogenblik dat de producent de effectieve exploitatie ervan kan starten, met andere woorden, wanneer het voltooide werk vorm heeft gekregen door de standaardkopie. Deze hypothese wordt in het vervolg van dit advies aangehouden. Het is echter niet uitgesloten dat de afschrijving vóór deze datum kan aanvangen.
 
 #### Exploitatiekosten
-
 De exploitatiekosten waarmee de producent wordt geconfronteerd, betreffen kosten die zij maakt om de promotie en de distributie van het audiovisueel werk te verzekeren.
 
 Deze kosten worden niet geactiveerd. Ze worden in resultaat genomen op het ogenblik dat ze ontstaan.
 
 #### Opbrengsten uit de exploitatie van het werk
-
 De exploitatie-opbrengsten van het werk komen voort uit de sommen die aan de producent worden overgemaakt door de verschillende distributeurs, als tegenprestatie voor de exploitatierechten op het werk (verspreiding in de cinema, op de televisie, op de televisie op aanvraag, op DVD, enz.).
 
 Deze opbrengsten worden doorgaans periodiek toegekend.

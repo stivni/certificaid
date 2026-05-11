@@ -3,45 +3,45 @@ bron: https://www.cbn-cnc.be/nl/adviezen/verrekening-van-vorderingen-en-schulden
 datum: 1998-02-01
 nummer: CBN-advies 173/6
 provenance:
+  generated_at: '2026-05-11T17:48:38Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/verrekening-van-vorderingen-en-schulden-die-oorspronkelijk-zijn-uitgedrukt-in-munten-die
       sha256: c41f6a3cb0ae587f1e4b5b000235dc2a3bbe9337683fe765717feeee60ab3365
       version:
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
-    status: needs-rework
     confirmed_at: '2026-05-11T17:05:21Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "A6 bevestigd r.85-87: de zin 'Die schulden en vorderingen mogen dus niet' eindigt zonder leesteken, gevolgd door een lege regel, waarna 'langer, voor het overeenstemmende bedrag...' begint — een PDF-regelbreuk midden in een logische alinea. Frontmatter thema 'erfpa' (r.49) is een afgekapt scraping-artefact (bron-typo categorie); telt niet als ETL-reden voor needs-rework maar de A6-regelbreuk volstaat. Overige inhoud volledig en correct."
     layer1:
-      file_size_chars: 7820
-      flags: []
-      heading_count: 3
-      max_section_chars: 3425
-      run_at: '2026-05-11T15:05:49Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:42Z'
+      heading_count: 3
+      max_section_chars: 3424
+      file_size_chars: 7817
+      flags: []
     layer2:
-      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T17:05:21Z'
-      rationale: "A6 bevestigd r.85-87: de zin 'Die schulden en vorderingen mogen dus niet' eindigt zonder leesteken, gevolgd door een lege regel, waarna 'langer, voor het overeenstemmende bedrag...' begint — een PDF-regelbreuk midden in een logische alinea. Frontmatter thema 'erfpa' (r.49) is een afgekapt scraping-artefact (bron-typo categorie); telt niet als ETL-reden voor needs-rework maar de A6-regelbreuk volstaat. Overige inhoud volledig en correct."
       concrete_problemen:
-        - regel: 85
-          categorie: A6
+        - categorie: A6
+          regel: 85
           type: other
           voorbeeld: "Die schulden en vorderingen mogen dus niet \n\nlanger, voor het overeenstemmende bedrag..."
-        - regel: 49
-          categorie: F1
+        - categorie: F1
+          regel: 49
           type: source-typo
           voorbeeld: '- erfpa (afgekapt thema-label in frontmatter — source-typo, niet ETL)'
+      rationale: 'A6 bevestigd r.85-87: de zin ''Die schulden en vorderingen mogen dus niet'' eindigt zonder leesteken, gevolgd door een lege regel, waarna ''langer, voor het overeenstemmende bedrag...'' begint — een PDF-regelbreuk midden in een logische alinea. Frontmatter thema ''erfpa'' (r.49) is een afgekapt scraping-artefact (bron-typo categorie); telt niet als ETL-reden voor needs-rework maar de A6-regelbreuk volstaat. Overige inhoud volledig en correct.'
+      run_at: '2026-05-11T17:05:21Z'
+      status: needs-rework
+    rationale: 'A6 bevestigd r.85-87: de zin ''Die schulden en vorderingen mogen dus niet'' eindigt zonder leesteken, gevolgd door een lege regel, waarna ''langer, voor het overeenstemmende bedrag...'' begint — een PDF-regelbreuk midden in een logische alinea. Frontmatter thema ''erfpa'' (r.49) is een afgekapt scraping-artefact (bron-typo categorie); telt niet als ETL-reden voor needs-rework maar de A6-regelbreuk volstaat. Overige inhoud volledig en correct.'
+    status: needs-rework
 themas:
   - verrekening van vorderingen en schulden
   - vordering
@@ -65,13 +65,11 @@ Veronderstel dat de omrekeningskoers van DEM en BEF in euro is vastgesteld op re
 Mag zij - moet zij - die schuld en die vordering die oorspronkelijk in verschillende munten waren uitgedrukt, verrekenen in haar boekhouding per 1 januari 1999 en in haar nà 31 december 1998 afgesloten jaarrekening ?
 
 ## In het Europese recht
-
 Het reglement van de Europese Raad over de invoering van de euro dat als bijlage gaat bij de resolutie van de Raad van 7 juli 1997 betreffende het juridische kader van de invoering van de euro[^1], en dat definitief wordt zodra de lijst van de Lid-Staten van de Muntunie zal zijn vastgesteld, bepaalt in artikel 8, § 6 dat «nationale wettelijke bepalingen van de deelnemende Lid-Staten die verrekening, compensatie of methoden met vergelijkbare gevolgen toestaan of opleggen, van toepassing zijn op monetaire verplichtingen, ongeacht de munteenheid waarin deze luiden, indien die munteenheid de euro-eenheid of een nationale munteenheid is; daarbij wordt de eventuele omrekening uitgevoerd tegen de omrekeningskoersen». 
 
 Aangezien het Europese recht verwijst naar de nationale wettelijke bepalingen, moeten, enerzijds, het Belgische recht en, anderzijds, de buitenlandse rechtsstelsels worden onderzocht. 
 
 ## In het Belgische recht
-
 Als op de wederzijdse vorderingen en schulden het Belgische recht van toepassing is, «vernietigen zij elkaar op het ogenblik waarop zij tegelijk bestaan, ten belope van hun wederkerig bedrag» voor zover zij «een geldsom en een zekere hoeveelheid vervangbare zaken van dezelfde soort tot voorwerp hebben» en zij «beide vaststaand en opeisbaar zijn». «Die schuldvergelijking heeft van rechtswege plaats uit kracht van de wet, zelfs buiten weten van de schuldenaars.»[^2]. 
 
 Er moet dus niet alleen worden onderzocht of de in euro uitgedrukte wederzijdse vorderingen en schulden die voortvloeien uit vorderingen en schulden in verschillende munten, opeisbaar zijn, maar ook of zij betrekking hebben op vervangbare zaken en of zij vaststaand zijn. 
@@ -91,7 +89,6 @@ Niettemin moet worden opgemerkt dat de wettelijke schuldvergelijking waarvan spr
 Buiten het bestek van de gestelde vraag kan men volledigheidshalve hier nog aan toevoegen dat partijen contractueel kunnen overeenkomen hun wederzijdse vorderingen en schulden te verrekenen, zelfs als zij niet voldoen aan de voorwaarden voor wettelijke schuldvergelijking. 
 
 ## In buitenlandse rechtsstelsels
-
 Wettelijke schuldvergelijking van rechtswege, zoals geregeld in het Belgische recht, komt als dusdanig niet voor in tal van buitenlandse rechtsstelsels. In vele rechtsstelsels bestaat enkel conventionele schuldvergelijking die voortvloeit uit de vrije wilsuiting van de partijen. Bijgevolg moet, indien de wederzijdse schulden en vorderingen in euro onder een buitenlands rechtsstelsel worden vallen, worden onderzocht of het betrokken rechtsstelsel in dat geval wettelijke schuldvergelijking toestaat, en, zo niet, of in conventionele schuldvergelijking is voorzien. 
 
 Die wettelijke of contractuele schuldvergelijking staat volledig los van het verbod op verrekening tussen activa en passiva en tussen opbrengsten en kosten als bedoeld in artikel 6 van het koninklijk besluit van 8 oktober 1976 met betrekking tot de jaarrekening van de ondernemingen. Dat verrekeningsverbod geldt enkel voor gevallen waarin geen wettelijke of conventionele schuldvergelijking bestaat[^4]. 

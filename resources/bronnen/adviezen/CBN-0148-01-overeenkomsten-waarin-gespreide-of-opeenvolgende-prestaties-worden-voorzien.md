@@ -3,50 +3,45 @@ bron: https://www.cbn-cnc.be/nl/adviezen/overeenkomsten-waarin-gespreide-of-opee
 datum: 1984-10-01
 nummer: CBN-advies 148/1
 provenance:
-  generated_at: '2026-05-11T15:15:31Z'
+  generated_at: '2026-05-11T17:48:38Z'
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/overeenkomsten-waarin-gespreide-of-opeenvolgende-prestaties-worden-voorzien
-    sha256: c010bda2afe42e6eeff2a45fd07e56fd1d50f6cdcfb556cd4dec47b8be9ef48e
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/overeenkomsten-waarin-gespreide-of-opeenvolgende-prestaties-worden-voorzien
+      sha256: c010bda2afe42e6eeff2a45fd07e56fd1d50f6cdcfb556cd4dec47b8be9ef48e
+      version:
   stale: false
-  stale_reason: null
+  stale_reason:
   tooling:
-    model: null
+    model:
     pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    prompt_version: null
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
     confirmed_at: '2026-05-11T12:04:41Z'
     confirmed_by: subagent-sonnet-4-6
     layer1:
-      file_size_chars: 3798
-      flags: []
+      status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:41Z'
       heading_count: 0
       max_section_chars: 3798
-      run_at: '2026-05-11T15:05:49Z'
-      run_id: 20260511-150547
-      status: pass
+      file_size_chars: 3798
+      flags: []
     layer2:
       agent: subagent-sonnet-4-6
       concrete_problemen: []
-      rationale: 'Geen voetnootverwijzingen in body (verwijzing naar advies 148/1
-        is gewone tekst). Geen PDF-artefacten. Inhoud volledig: definitie, voorbeeld,
-        boekhoudkundige behandeling, onderscheid voorschot vs overlopende rekening,
-        matching principle.'
+      rationale: 'Geen voetnootverwijzingen in body (verwijzing naar advies 148/1 is gewone tekst). Geen PDF-artefacten. Inhoud volledig: definitie, voorbeeld, boekhoudkundige behandeling, onderscheid voorschot vs overlopende rekening, matching principle.'
       run_at: '2026-05-11T12:04:41Z'
       status: trusted
-    rationale: 'Geen voetnootverwijzingen in body (verwijzing naar advies 148/1 is
-      gewone tekst). Geen PDF-artefacten. Inhoud volledig: definitie, voorbeeld, boekhoudkundige
-      behandeling, onderscheid voorschot vs overlopende rekening, matching principle.'
+    rationale: 'Geen voetnootverwijzingen in body (verwijzing naar advies 148/1 is gewone tekst). Geen PDF-artefacten. Inhoud volledig: definitie, voorbeeld, boekhoudkundige behandeling, onderscheid voorschot vs overlopende rekening, matching principle.'
     status: trusted
 themas:
-- gespreide of opeenvolgende prestaties
-- accijns
-- matching principe
-- overeenkomsten met gespreide of opeenvolgende prestaties
-- toerekening opbrengsten bij overeenkomsten met gespreide of opeenvolgende prestaties
-- toerekening van kosten en opbrengsten
-- abonnement
+  - gespreide of opeenvolgende prestaties
+  - accijns
+  - matching principe
+  - overeenkomsten met gespreide of opeenvolgende prestaties
+  - toerekening opbrengsten bij overeenkomsten met gespreide of opeenvolgende prestaties
+  - toerekening van kosten en opbrengsten
+  - abonnement
 ---
 
 # CBN-advies 148/1 - Overeenkomsten waarin gespreide of opeenvolgende prestaties worden voorzien

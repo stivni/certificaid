@@ -10,53 +10,53 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/overschakeling-op-de-euro-aspecten-in-verband-met-de-geconsolideerde-jaarrekening
 nummer: CBN-advies 173/5
 provenance:
+  generated_at: '2026-05-11T17:48:38Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/toelichting-bij-de-boekhoudkundige-verwerking-van-termijnwisselverrichtingen-tussen-de
       sha256: 1590a40d3e4a3e9423ec4a2ad25bbb84ad2d65d6c11eee4f0d14b9d61cfb9337
       version:
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
-    status: needs-rework
     confirmed_at: '2026-05-11T17:05:21Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "E2 bevestigd r.176-184: de twee RESULTATENREKENING-samenvattingstabellen zijn ernstig verminkt — cellen staan als losstaande regels met wisselende inspringing buiten de pipe-tabel, waardoor de samenvatting onleesbaar is ('60.000 | | 47.872,3' op r.178 en '15.000 |' op r.180 als losstaande tabfragmenten). D3 r.196-198: voetnoot 4 eindigt mid-zin ('conform voetnoot') en voetnoot 5 begint met 'van advies 173/1 over...' — de voetnootreferentie en -tekst zijn opgeknipt over twee afzonderlijke voetnoten door een extractieartefact."
     layer1:
-      file_size_chars: 11738
-      flags: []
+      status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:42Z'
       heading_count: 3
       max_section_chars: 7318
-      run_at: '2026-05-11T15:05:49Z'
-      run_id: 20260511-150547
-      status: pass
+      file_size_chars: 11729
+      flags: []
     layer2:
-      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T17:05:21Z'
-      rationale: "E2 bevestigd r.176-184: de twee RESULTATENREKENING-samenvattingstabellen zijn ernstig verminkt — cellen staan als losstaande regels met wisselende inspringing buiten de pipe-tabel, waardoor de samenvatting onleesbaar is ('60.000 | | 47.872,3' op r.178 en '15.000 |' op r.180 als losstaande tabfragmenten). D3 r.196-198: voetnoot 4 eindigt mid-zin ('conform voetnoot') en voetnoot 5 begint met 'van advies 173/1 over...' — de voetnootreferentie en -tekst zijn opgeknipt over twee afzonderlijke voetnoten door een extractieartefact."
       concrete_problemen:
-        - regel: 176
-          categorie: E2
+        - categorie: E2
+          regel: 176
           type: pseudo-table
           voorbeeld: "| **RESULTATENREKENING OP 31/12/1998**  | \n|---|\n| 60.000 | | 47.872,3"
-        - regel: 180
-          categorie: E2
+        - categorie: E2
+          regel: 180
           type: pseudo-table
           voorbeeld: "\t\t\t\t15.000 |"
-        - regel: 196
-          categorie: D3
+        - categorie: D3
+          regel: 196
           type: abrupt-cutoff
           voorbeeld: In dit verband wenst de Commissie, conform voetnoot
-        - regel: 198
-          categorie: D3
+        - categorie: D3
+          regel: 198
           type: other
           voorbeeld: van advies 173/1 over de boekhoudrechtelijke aspecten van de overschakeling...
+      rationale: 'E2 bevestigd r.176-184: de twee RESULTATENREKENING-samenvattingstabellen zijn ernstig verminkt — cellen staan als losstaande regels met wisselende inspringing buiten de pipe-tabel, waardoor de samenvatting onleesbaar is (''60.000 | | 47.872,3'' op r.178 en ''15.000 |'' op r.180 als losstaande tabfragmenten). D3 r.196-198: voetnoot 4 eindigt mid-zin (''conform voetnoot'') en voetnoot 5 begint met ''van advies 173/1 over...'' — de voetnootreferentie en -tekst zijn opgeknipt over twee afzonderlijke voetnoten door een extractieartefact.'
+      run_at: '2026-05-11T17:05:21Z'
+      status: needs-rework
+    rationale: 'E2 bevestigd r.176-184: de twee RESULTATENREKENING-samenvattingstabellen zijn ernstig verminkt — cellen staan als losstaande regels met wisselende inspringing buiten de pipe-tabel, waardoor de samenvatting onleesbaar is (''60.000 | | 47.872,3'' op r.178 en ''15.000 |'' op r.180 als losstaande tabfragmenten). D3 r.196-198: voetnoot 4 eindigt mid-zin (''conform voetnoot'') en voetnoot 5 begint met ''van advies 173/1 over...'' — de voetnootreferentie en -tekst zijn opgeknipt over twee afzonderlijke voetnoten door een extractieartefact.'
+    status: needs-rework
 themas:
   - bilaterale wisselkoersen
   - contantrentevoet
@@ -129,7 +129,6 @@ Overeenkomstig de toelichting in dit advies 173/5 moeten de volgende boekingen w
 - anderzijds, het gelopen deel van het report/deport als vastgesteld op 31 december 1998. 
 
 ## Bij de afsluiting van de verrichting op 1 april 1998
-
 A la conclusion de cette opération au premier avril 1998 
 
 | | Rekening | Omschrijving | Debet | Credit |
@@ -143,7 +142,6 @@ A la conclusion de cette opération au premier avril 1998
 | aan | 48(5) | Diverse schulden (report) | | 60.000 |
 
 ## Bij de opstelling van de jaarrekening die moet worden afgesloten op 31 december 1998
-
 Op balansdatum van het boekjaar, met andere woorden op 31 december 1998, moet rekening worden gehouden met de impact van de invoering van de euro, namelijk de aanpassing van het aantal - met toepassing van de termijnwisselcontracten - te ontvangen en te leveren deviezen op basis van de contantslotkoers die, bij overschakeling op de euro, zal overeenstemmen met de bilaterale wisselkoers (namelijk 1 DEM = 20,478723 BEF). 
 
 Conform de adviezen 152/1, 173/1 en 173/5 impliceert dit dat op 31 december 1998, zowel de te leveren bedragen als de te ontvangen bedragen zullen moeten worden geherwaardeerd tegen de omrekeningskoers naar de euro. Die bedragen zijn definitief. De uit die herwaardering voortvloeiende verschillen vormen definitief verworven resultaten die in resultaat moeten worden genomen tijdens het boekjaar dat wordt afgesloten op 31 december 1998. 
@@ -166,7 +164,6 @@ Daarnaast moet het prorata van het deport (namelijk het niet-gelopen renteversch
 | aan | 656 | Diverse financiële kosten | | 15.000 |
 
 ## Bij de afwikkeling van de verrichting (31 maart 1999)
-
 Bij het verstrijken van het contract worden de verworven deviezen in Belgische frank (monetaire uitdrukking van de euro) omgerekend tegen de enige mogelijke koers namelijk de definitieve omrekeningskoers DEM-BEF : 20,478723. 
 
 De invloed van de voornoemde termijnwisselverrichting op de door de betrokken onderneming op 31 december 1998 en 31 december 1999 afgesloten resultatenrekeningen kan dus als volgt worden samengevat. 

@@ -16,45 +16,45 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-immateriele-vaste-activa
 nummer: CBN-advies 2017/13
 provenance:
+  generated_at: '2026-05-11T17:48:39Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-vergoeding-voor-een-borg-in-het-kader-van-de
       sha256: a5072da0a6f51c6e36822312fb6e24f53efabd76b5b4c74bf8b5e87ad25b178c
       version:
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
-    status: needs-rework
     confirmed_at: '2026-05-11T17:13:30Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "B1: heading_count=0 — het volledige advies heeft geen enkele ## heading; de inhoud staat als één ongestructureerd blok, wat RAG-chunking ernstig bemoeilijkt (ETL-bug: de CBN-website toont paragrafen die als secties hadden kunnen worden geëxtraheerd). A4: voetnoot 84 bevat 'CBN-advies 2015/9 ‐' met een U+2010 non-breaking hyphen die een gewone koppelteken vervangt."
     layer1:
-      file_size_chars: 3155
-      flags: []
+      status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:44Z'
       heading_count: 0
       max_section_chars: 3155
-      run_at: '2026-05-11T15:05:53Z'
-      run_id: 20260511-150547
-      status: pass
+      file_size_chars: 3155
+      flags: []
     layer2:
-      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T17:13:30Z'
-      rationale: "B1: heading_count=0 — het volledige advies heeft geen enkele ## heading; de inhoud staat als één ongestructureerd blok, wat RAG-chunking ernstig bemoeilijkt (ETL-bug: de CBN-website toont paragrafen die als secties hadden kunnen worden geëxtraheerd). A4: voetnoot 84 bevat 'CBN-advies 2015/9 ‐' met een U+2010 non-breaking hyphen die een gewone koppelteken vervangt."
       concrete_problemen:
-        - regel: 64
-          categorie: B1
+        - categorie: B1
+          regel: 64
           type: other
           voorbeeld: 'Volledig advies zonder ## headings (heading_count=0); inhoud als één ongestructureerd blok'
-        - regel: 84
-          categorie: A4
+        - categorie: A4
+          regel: 84
           type: other
           voorbeeld: CBN-advies 2015/9 ‐ Boekhoudkundige verwerking (U+2010 non-breaking hyphen)
+      rationale: 'B1: heading_count=0 — het volledige advies heeft geen enkele ## heading; de inhoud staat als één ongestructureerd blok, wat RAG-chunking ernstig bemoeilijkt (ETL-bug: de CBN-website toont paragrafen die als secties hadden kunnen worden geëxtraheerd). A4: voetnoot 84 bevat ''CBN-advies 2015/9 ‐'' met een U+2010 non-breaking hyphen die een gewone koppelteken vervangt.'
+      run_at: '2026-05-11T17:13:30Z'
+      status: needs-rework
+    rationale: 'B1: heading_count=0 — het volledige advies heeft geen enkele ## heading; de inhoud staat als één ongestructureerd blok, wat RAG-chunking ernstig bemoeilijkt (ETL-bug: de CBN-website toont paragrafen die als secties hadden kunnen worden geëxtraheerd). A4: voetnoot 84 bevat ''CBN-advies 2015/9 ‐'' met een U+2010 non-breaking hyphen die een gewone koppelteken vervangt.'
+    status: needs-rework
 themas:
   - aanschaffingswaarde
   - borgstelling

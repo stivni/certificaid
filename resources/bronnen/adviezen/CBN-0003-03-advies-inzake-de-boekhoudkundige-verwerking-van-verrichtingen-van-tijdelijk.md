@@ -3,57 +3,53 @@ bron: https://www.cbn-cnc.be/nl/adviezen/advies-inzake-de-boekhoudkundige-verwer
 datum: 2008-01-31
 nummer: CBN-advies 3/3
 provenance:
-  generated_at: '2026-05-11T15:15:31Z'
+  generated_at: '2026-05-11T17:48:38Z'
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/advies-inzake-de-boekhoudkundige-verwerking-van-verrichtingen-van-tijdelijk
-    sha256: ce71fe8e4f9b9100e75abec5685775f52a3886600e87139cabfc6a58c9a1d4e5
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/advies-inzake-de-boekhoudkundige-verwerking-van-verrichtingen-van-tijdelijk
+      sha256: ce71fe8e4f9b9100e75abec5685775f52a3886600e87139cabfc6a58c9a1d4e5
+      version:
   stale: false
-  stale_reason: null
+  stale_reason:
   tooling:
-    model: null
+    model:
     pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    prompt_version: null
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
     confirmed_at: '2026-05-08T19:02:27Z'
     confirmed_by: subagent-laag2-ronde2
     layer1:
-      file_size_chars: 82743
-      flags: []
-      heading_count: 53
-      max_section_chars: 16274
-      run_at: '2026-05-11T15:05:47Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:40Z'
+      heading_count: 53
+      max_section_chars: 16271
+      file_size_chars: 82689
+      flags: []
     layer2:
       agent: subagent-laag2-ronde2
       concrete_problemen: []
-      rationale: '[Laag-2-R2 2026-05-08] 51 headings met duidelijke hiërarchie per
-        integratiemethode. De grote sectie bevat geneste voorbeelden maar alle methoden
-        zijn volledig uitgewerkt.'
+      rationale: '[Laag-2-R2 2026-05-08] 51 headings met duidelijke hiërarchie per integratiemethode. De grote sectie bevat geneste voorbeelden maar alle methoden zijn volledig uitgewerkt.'
       run_at: '2026-05-08T19:02:27Z'
       status: trusted
     rationale: Laag-2 trusted door subagent-laag2-ronde2 (zie layer2.rationale)
     status: trusted
 themas:
-- eliminatie
-- geassocieerde onderneming
-- globale integratiemethode
-- integratie methode
-- proportionele integratiemethode
-- rekening-courant
-- tijdelijk handelsvennootschap
-- tijdelijke handelsvereniging
-- uitgebreide equivalentiemethode
-- waarderingsregels
-- waarderingsregels in de tijdelijke handelsvennootschap
+  - eliminatie
+  - geassocieerde onderneming
+  - globale integratiemethode
+  - integratie methode
+  - proportionele integratiemethode
+  - rekening-courant
+  - tijdelijk handelsvennootschap
+  - tijdelijke handelsvereniging
+  - uitgebreide equivalentiemethode
+  - waarderingsregels
+  - waarderingsregels in de tijdelijke handelsvennootschap
 ---
 
 # ADVIES 3-3 - INZAKE DE BOEKHOUDKUNDIGE VERWERKING VAN VERRICHTINGEN VAN TIJDELIJKE HANDELSVENNOOTSCHAPPEN
-
 ## INLEIDING
-
 Voor veel ondernemingen is de tijdelijke handelsvennootschap een weliswaar veelvuldig gebruikte rechtsfiguur om diverse werkzaamheden uit te voeren, vooral - maar niet uitsluitend - in de bouwsector, maar men kan bezwaarlijk ontkennen dat het juridisch en boekhoudkundig regelgevend kader dat geldt voor de tijdelijke handelsvennootschap - waarschijnlijk als gevolg van de ruime contractuele vrijheid die de wetgever daaraan heeft willen verbinden - vaag is en derhalve een bron van talrijke onzekerheden is.
 
 Zo handelt het boekhoudrecht daarover enkel in artikel 3, derde lid van de wet van 17 juli 1975 op de boekhouding van de ondernemingen.
@@ -81,7 +77,6 @@ De Commissie wenst ook de heer H. Vanmeerbeek te danken, thans erelid van de Com
 De Commissie heeft beslist om over een termijn van drie tot vijf jaar na te gaan hoe dit advies in de praktijk wordt toegepast en dan te evalueren of het wenselijk is aan het Parlement en de Regering specifieke wettelijke of reglementaire bepalingen voor de boekhoudkundige verwerking van verrichtingen van tijdelijke handelsvennootschappen voor te stellen.
 
 ## BESCHOUWINGEN VOORAF
-
 Artikel 47 van het Wetboek van vennootschappen luidt als volgt: de tijdelijke handelsvennootschap is een vennootschap zonder rechtspersoonlijkheid, zonder firmanaam die één of meer bepaalde handelsverrichtingen tot doel heeft. 
 
 Er bestaan - althans in de praktijk - twee soorten van tijdelijke handelsvennootschappen : de geïntegreerde tijdelijke handelsvennootschap en de niet-geïntegreerde tijdelijke handelsvennootschap.
@@ -111,7 +106,6 @@ Wanneer de partner zich terugtrekt (bijvoorbeeld in geval van faillissement) wor
 Dit advies schetst de krachtlijnen van de wijze waarop verrichtingen van een geïntegreerde tijdelijke handelsvennootschap boekhoudkundig horen te worden verwerkt. De hypothese van een niet-geïntegreerde tijdelijke handelsvennootschap wordt slechts marginaal behandeld.
 
 ## AFZONDERLIJKE BOEKHOUDING VOOR EEN TIJDELIJKE HANDELSVENNOOTSCHAP ?
-
 Een eerste, vaak gestelde vraag is in hoeverre de naleving van artikel 3, derde lid van de boekhoudwet vereist dat voor een tijdelijke handelsvennootschap een afzonderlijke boekhouding wordt gevoerd.
 
 De Memorie van Toelichting bij de oorspronkelijke wet van 17 juli 1975 op de boekhouding van de ondernemingen stelt: «* De in tijdelijke verenigingen of in deelnemingsvereniging gevoerde activiteiten zullen naar luidt het derde lid van artikel 3 geboekt moeten worden in afzonderlijke rekeningen, gehouden door de zaakvoerder(s) van de vereniging ». *
@@ -132,9 +126,7 @@ De volgende argumenten onderbouwen deze stelling:
 In de praktijk stelt men tevens vast dat de verrichtingen van geïntegreerde tijdelijke handelsvennootschappen quasi altijd in een afzonderlijke boekhouding worden geregistreerd, die soms zelfs op de site van de tijdelijke handelsvennootschap wordt gevoerd door andere personen dan de vennoten.
 
 ## INTEGRATIE VAN DE REKENINGEN VAN EEN TIJDELIJKE HANDELSVENNOOTSCHAP IN DE REKENINGEN VAN DE GEASSOCIEERDE ONDERNEMINGEN
-
 ### Frequentie en volledigheid van de integratie
-
 De Memorie van Toelichting bij de wet van 17 juli 1975 vermeldt in dit verband:* “(...) Daaruit volgt dat deze verrichtingen hoewel voor gemeenschappelijke rekening uitgevoerd, niet door de andere vennoten oorspronkelijk in hun boekhouding dienen te worden opgenomen. Deze laatsten zullen de tijdelijke of deelnemingsvereniging in hun boekhouding mogen beschouwen als een afzonderlijke juridische entiteit. In hun inventaris en jaarrekeningen zullen ze echter hun deel moeten vermelden in de bruto-tegoeden en –verbintenissen van de vereniging en in de resultaten daarvan (...)”.*
 
 Uit deze passage zou men kunnen afleiden dat de wetgever via artikel 3, derde lid van de wet van 17 juli 1975, de partners slechts de verplichting wilde opleggen om het vermogen en het resultaat van de tijdelijke handelsvennootschap in de jaarrekening uit te drukken (balans en resultatenrekening) en bijgevolg dat deze transcriptie slechts eens per jaar of eventueel eens om de zes maanden zou kunnen geschieden voor de deelgenoten voor wie een semestriële rapportering geldt.
@@ -149,7 +141,6 @@ Naar het oordeel van de Commissie, zal de jaarlijkse dan wel semestriële integr
 De raad van bestuur van een deelnemende onderneming zou evenwel kunnen beslissen dat de naleving van het voornoemde beginsel een meer frequente integratie van verrichtingen in zijn boekhouding vergt.
 
 ### Integratiemethoden op balansniveau
-
 Een onderzoek van de rechtsleer en de praktijk leert dat verschillende integratietechnieken worden gebruikt.
 
 Ziehier de lijst: 
@@ -165,9 +156,7 @@ Ziehier de lijst:
 Om haar voorkeur meer bepaald voor een van deze methoden zo volledig mogelijk te verantwoorden, acht de Commissie het nuttig om elke integratiemethode bondig te beschrijven en de belangrijkste eigenschappen ervan toe te lichten, wat de beoordeling van voor- en nadelen vergemakkelijkt.
 
 #### De methode van de rekening-courant
-
 ##### Beschrijving van de methode
-
 De methode van de rekening-courant houdt in dat alle verrichtingen tussen de tijdelijke handelsvennootschap en haar respectieve partners, in de boekhouding van deze laatsten worden geregistreerd via één “scharnierrekening” of zogenaamde rekening-courant. Deze rekening-courant is dan terug te vinden, hetzij op het actief (meestal in de rubriek 41), hetzij op het passief (meestal in de rubriek 48). 
 
 De transacties die aldus via de rekening-courant lopen zijn: 
@@ -201,7 +190,6 @@ Credit
 - en eventuele gelijkaardige mutaties die over de leveranciersboekhouding lopen (geldt vooral als de tijdelijke handelsvennootschap optreedt als onderaannemer van de partner) 
 
 ##### Eigenschappen van de methode
-
 1. De methode is bijzonder eenvoudig. Ze vereist geen complexe integratietabellen en eliminatietechnieken.. Dit verklaart ook waarom deze techniek vaak wordt toegepast door kleinere ondernemingen. 
 
 2. De integratie loopt via de rekeningen 41 en 48 zodat er geen problemen zijn met de rekenkundige en logische controles van de Balanscentrale (NBB). 
@@ -215,9 +203,7 @@ Credit
 De techniek wordt in de praktijk courant en zelfs door grote ondernemingen gebruikt voor de verwerking van *opstartende* en *aflopende* tijdelijke handelsvennootschappen (“*run off*”). Het gaat hier om entiteiten die geen activiteiten meer hebben maar waarvan de definitieve ontbinding op zich laat wachten wegens een aantal hangende punten die van minder belang zijn (openstaande handelsvorderingen en handelsschulden die nog niet definitief werden vastgesteld, kleine geschillen, enz.)
 
 #### De methode van de eenvoudige gelijkschakeling
-
 ##### Beschrijving van de methode
-
 De tijdelijke handelsvennootschap wordt in deze methode beschouwd als een derde, waarmee de partner geen band heeft. Deze benadering is enigszins geïnspireerd op de methode van de rekening-courant, met dit verschil dat er hier geen sprake is van centralisatie van de diverse contractuele relaties in één rekening-courant.
 
 Aldus zal men in de volgende posten van de boekhouding van de partner terugvinden: 
@@ -233,7 +219,6 @@ Aldus zal men in de volgende posten van de boekhouding van de partner terugvinde
 4. de handelsschulden, zijnde de schulden tegenover de tijdelijke handelsvennootschap, indien deze laatste goederen zou geleverd hebben of diensten zou verricht hebben voor de deelgenoot (bijvoorbeeld een tijdelijke handelsvennootschap die optreedt als onderaannemer van één van de deelgenoten). 
 
 ##### Eigenschappen van de methode
-
 1. Deze methode is bijzonder eenvoudig. Ze vereist geen complexe integratietabellen en eliminatietechnieken. Bij de periodieke afsluiting zijn er bovendien minder afsluitingsboekingen aangezien er hier niet gecentraliseerd wordt naar een rekening-courant. 
 
 2. Er is hier geen inbreuk op het compensatieverbod m.b.t. de balansposten. 
@@ -251,9 +236,7 @@ Ingeval de tijdelijke handelsvennootschap een resultaat genereert (zoals dit het
 De methode van de eenvoudige gelijkschakeling strookt echter wel met de filosofie van de niet-geïntegreerde tijdelijke handelsvennootschap, waarbij elk van de partners individueel aanspreekbaar is voor zijn aandeel in het project, en zijn aandeel aanrekent aan de tijdelijke handelsvennootschap. 
 
 #### De methode van de eenvoudige equivalentie
-
 ##### Beschrijving van de methode
-
 Deze methode leunt sterk aan bij de vorige en verschilt enkel wat de boekhoudkundige uitdrukking van de winsten van de tijdelijke handelsvennootschap betreft.
 
 Eigenlijk gaat het dus niet om een andere integratietechniek, maar eerder om een ander waarderingsprincipe, met name dat van de vooruitgang der werken ("percentage of completion").
@@ -265,7 +248,6 @@ Deze techniek is dus geïnspireerd op de methode die in het koninklijk besluit v
 Aangezien verliezen wel degelijk erkend worden in de methode van de "derde onderneming", is deze techniek, in geval van deficitaire projecten, totaal identiek met de vorige.
 
 ##### Eigenschappen van de methode
-
 De eigenschappen van deze methode zijn identiek met deze vermeld in de voorgaande methode, met dit verschil dat, in geval van deelname in een winstgevend project, dit resultaat periodiek tot uiting zal komen in de boekhouding van de partners.
 
 Ook hier stuit de methode op het fundamentele bezwaar dat de activa en passiva van de tijdelijke handelsvennootschap op geen enkele wijze worden vertaald in de boekhouding van de deelgenoten, zodat de boekhouding van de partners bezwaarlijk kan worden aangemerkt als zijnde volledig.
@@ -273,9 +255,7 @@ Ook hier stuit de methode op het fundamentele bezwaar dat de activa en passiva v
 De bemerkingen die hiervoor werden geformuleerd inzake de “eenvoudige gelijkschakeling” gelden hier eveneens, met deze nuance dat de resultaatuitdrukking dichter bij de economische realiteit aanleunt.
 
 #### Samenvoeging in onderscheiden rekeningen
-
 ##### Beschrijving van de methode
-
 Het is vooral de noodzaak om meer uitgewerkte informatie te publiceren dan deze verschaft door de voorgaande technieken, die geleid heeft tot een meer omstandige rapportering, waarbij de rekeningen van de tijdelijke handelsvennootschap(pen) worden gepubliceerd los van de eigen rekeningen van de partners.
 
 Men spreekt hier van een ontdubbeling, waarbij dan nog moet worden uitgemaakt of:
@@ -286,7 +266,6 @@ Men spreekt hier van een ontdubbeling, waarbij dan nog moet worden uitgemaakt of
 Het Belgisch Centrum voor Normalisatie van de Accountancy en het Revisoraat (BCNAR) geeft de voorkeur aan "full disclosure" door de zaakvoerder, terwijl de andere partners zich in dat geval zouden beperken tot een nominatieve vermelding (naam van de tijdelijke handelsvennootschap, naam van de zaakvoerder; met eventuele verwijzing naar de respectieve B.T.W.-nummers).
 
 ##### Eigenschappen van de methode
-
 1. Deze methode is ongetwijfeld de meest transparante omdat men een volledig en precies beeld heeft van de verrichtingen van de tijdelijke handelsvennootschappen. 
 
 2. De administratieve verwerking bij deze methode is echter zo omvangrijk dat ze quasi geen tijdsbesparing inhoudt ten opzichte van de uitgebreide integratietechnieken, die hierna worden besproken. 
@@ -304,9 +283,7 @@ In dit geval zal de onderneming haar jaarrekening opstellen volgens één van de
 Het is niet ongebruikelijk (zoals in Frankrijk) dat de zaakvoerder van een tijdelijke handelsvennootschap 100 % van de cijfers in zijn eigen toelichting opneemt. Dit heeft enkel zin indien dit op individuele basis (zijnde elke tijdelijke handelsvennootschap afzonderlijk) geschiedt, omdat de andere partners zich dan kunnen beperken tot een loutere verwijzing naar de jaarrekening van de partner. De openbaarmaking van individuele gegevens van tijdelijke handelsvennootschappen druist evenwel in tegen het principe van een minimale confidentialiteit.
 
 #### De uitgebreide equivalentiemethode
-
 ##### Beschrijving van de methode
-
 De uitgebreide equivalentiemethode is de eerste volwaardige integratiemethode, op basis van de volgende principes: 
 
 1. De herwerking van de rekeningen van de tijdelijke handelsvennootschap om ze in overeenstemming te brengen met de regels van de partners. Deze herwerking slaat vooral op eventuele correcties indien de waarderingsregels inzake de tijdelijke handelsvennootschap niet zouden overeenstemmen met die van de partner. 
@@ -326,7 +303,6 @@ De uitgebreide equivalentiemethode is de eerste volwaardige integratiemethode, o
 4. Eliminatie van dubbel gebruik (namelijk de gestorte en ontvangen voorschotten, vorderingen op klanten en schulden t.o.v. leveranciers). 
 
 ##### Eigenschappen van de methode
-
 1. De methode vormt de eerste van de drie echte integratietechnieken. . 
 
 2. Het gebruik van specifieke rekeningen maakt het makkelijk om de activa en passiva van de tijdelijke handelsvennootschappen te identificeren. 
@@ -340,13 +316,10 @@ De uitgebreide equivalentiemethode is de eerste volwaardige integratiemethode, o
 De uitgebreide equivalentiemethode is de eerste van de volwaardige integratiemethoden, waarbij het aandeel in de activa en de passiva van de tijdelijke handelsvennootschappen wordt voorgesteld in de eigen rekeningen, hetzij in de bestaande rubrieken van het rekeningschema, hetzij in apart gecreëerde rubrieken. In dit laatste geval gaat er een stuk van de confidentialiteit verloren, terwijl de rekeningen ook moeilijker kunnen geraadpleegd worden via de informatica[^7].
 
 #### De proportionele integratiemethode
-
 ##### Beschrijving van de methode
-
 De proportionele integratiemethode ligt in het verlengde van de hiervoor beschreven methode van de uitgebreide equivalentie, maar is verfijnder op het vlak van de integratie van de diverse rubrieken. Aldus wordt elke rubriek van de balans en van de resultatenrekening geïntegreerd in verhouding tot het aandeel dat de partner in kwestie heeft in de desbetreffende tijdelijke handelsvennootschap, waarna de nodige eliminaties en correcties worden verricht om de zogenaamde “homogeniteit” terug te vinden.
 
 ##### Eigenschappen van de methode
-
 1. In de geïntegreerde balans komen de reële verhoudingen tot uiting. Indien de deelgenoten op zeer asymmetrische wijze bijdragen tot het project zal de proportionele integratie leiden tot een sterk afwijkend beeld ten opzichte van de bedrijfseconomische situatie. 
 
 2. In de balans komt de partner als eigenaar in volle eigendom van zijn aandeel (en dus niet als onverdeeld eigenaar in de totaliteit). Sommige ondernemingen staan erop om geen geldrekeningen op te nemen op het actief waarover ze geen totale zeggenschap hebben. 
@@ -360,15 +333,12 @@ Deze tweede integratietechniek wordt momenteel gebruikt door de meeste grote ond
 Deze kritiek kan worden ondervangen door hetzij voor de activa en passiva waarvan de rapporterende onderneming geen volle eigenaar of schuldenaar is, een afzonderlijk rubriek te openen, hetzij de in medeëigendom gehouden activa en passiva in de toelichting te identificeren.
 
 #### De globale integratiemethode
-
 ##### Beschrijving van de methode
-
 Deze methode sluit aan bij de integrale consolidatiemethode, zoals voorgeschreven door het koninklijk besluit van 30 januari 2001 tot uitvoering van het Wetboek van vennootschappen[^8] en die erin bestaat de activa en passiva integraal op te nemen in de balans van de onderneming, en de minderheidsbelangen uit te drukken in de vorm van een schuld tegenover derden. Deze techniek kan enkel worden toegepast door de partner met een overheersend of meerderheidsbelang.
 
 Andermaal worden de eliminatie- en herwerkingstechnieken toegepast om te komen tot een coherent geheel.
 
 ##### Eigenschappen van de methode
-
 1. De eigenschappen van deze methode liggen in het verlengde van de proportionele integratiemethode; 
 
 2. De globale consolidatie kan beschouwd worden als de meest geschikte techniek ingeval een partner een belangrijk meerderheidsbelang heeft wat in de praktijk eerder zelden voorkomt; 
@@ -378,7 +348,6 @@ Andermaal worden de eliminatie- en herwerkingstechnieken toegepast om te komen t
 Deze methode kan worden toegepast door ondernemingen die als deelgenoot een overwegend belang hebben in de tijdelijke handelsvennootschap. Zulke gevallen komen in de praktijk vrij zelden voor. Deze methode zal enkel werkbaar zijn indien een partner quasi 100 % van de tijdelijke handelsvennootschap in handen heeft.
 
 ### Integratiemethoden op het niveau van de resultatenrekening
-
 Overzicht van de integratiemethoden 
 
 In de boekhouddoctrine wordt haast nooit een onderscheid gemaakt tussen enerzijds de integratie van de balansrekeningen en anderzijds de integratie van de resultatenrekeningen. Het één staat nochtans los van het andere.
@@ -390,7 +359,6 @@ Op het vlak van de verwerking van de kosten- en opbrengstenrekeningen worden in 
 3. De proportionele integratie van de kosten en de opbrengsten. 
 
 #### De integratie van het resultaat
-
 Bij de integratie van het resultaat worden opbrengsten en kosten gecompenseerd, en wordt enkel het bonus of het malus opgenomen in de resultatenrekening van de deelgenoot.
 
 Wegens de compensatie van kosten en opbrengsten, maar ook wegens de onvolledige voorstelling van de resultatenrekening, dient deze techniek verworpen te worden.
@@ -398,7 +366,6 @@ Wegens de compensatie van kosten en opbrengsten, maar ook wegens de onvolledige 
 Nochtans kan de integratie van het resultaat wel worden aanvaard in de uitzonderingsgevallen, welke eerder reeds ter sprake kwamen (de projecten in de opstartfase of in de uitloopfase). In deze gevallen is de impact op de resultatenrekening immers verwaarloosbaar.
 
 #### De eenvoudige integratie van kosten en opbrengsten
-
 De eenvoudige integratie van de kosten en opbrengsten bestaat erin dat de deelgenoot in zijn eigen resultatenrekening diens aandeel opneemt in het totaal van de kosten enerzijds en in het totaal van de opbrengsten anderzijds.
 
 Er is hier geen sprake van compensatie tussen kosten en opbrengsten. Nochtans geeft ook hier de resultatenrekening geen passend beeld omdat de kosten in hun geheel worden ondergebracht in één enkele rubriek (meestal de rubriek *“andere bedrijfskosten”*, maar dit kan ook de rubriek* “60” of “61”* zijn) terwijl het aandeel in de opbrengsten wordt ondergebracht in de rubriek Omzet of in de rubriek *Andere bedrijfsopbrengsten.* 
@@ -412,7 +379,6 @@ Behoudens de uitzonderingsgevallen van projecten van aanloop en afloop dient de 
 Uit de praktijk blijkt dat een aantal ondernemingen weliswaar opteren voor één van de complexe en kwalitatief hoogstaandere integratiemethoden op balansniveau, maar anderzijds de integratie van de resultaten toepassen aan de hand van de eenvoudige integratie.
 
 #### De proportionele integratie van kosten en opbrengsten
-
 Deze methode bestaat erin de kosten en de opbrengsten, rubriek per rubriek, en proportioneel met het aandeel van de deelgenoot in de tijdelijke handelsvennootschap, op te nemen in de eigen boekhouding.
 
 De lijn per lijn integratie is de meest complexe vorm van integratie van kosten en opbrengsten en geeft het meest correcte beeld van de resultatenrekening. Nochtans stuit ook deze methode op kritiek: 
@@ -422,7 +388,6 @@ De lijn per lijn integratie is de meest complexe vorm van integratie van kosten 
 2. De rekeningen van de personeelskosten zullen zowel de kosten van het eigen personeel van de onderneming, als het proportioneel aandeel in de personeelskosten van de tijdelijke handelsvennootschap opnemen, terwijl de informatie in de sociale balans enkel slaat op het personeel dat in het personeelsregister van de onderneming is ingeschreven. 
 
 ## Integratiemethoden: standpunt van de Commissie voor boekhoudkundige normen
-
 Gelet op wat voorafgaat, is volgens de Commissie de proportionele integratiemethode zowel op balansniveau als op het niveau van de resultatenrekening, de methode waarmee de bedrijfseconomische realiteit van een geïntegreerde tijdelijke handelsvennootschap in de meeste gevallen het best kan worden weergegeven. De praktijk leert overigens dat die methode nu al zeer vaak wordt toegepast.
 
 In sommige - weliswaar uitzonderlijke - gevallen, wanneer één van de deelgenoten het bedrijf van de tijdelijke handelsvennootschap controleert, zou de toepassing van de globale integratiemethode verantwoord kunnen zijn. 
@@ -434,9 +399,7 @@ Inzover het gebruik van deze echte integratiemethoden echter niet te verwaarloze
 Volgens de Commissie is het raadzaam, wanneer het gaat om vennootschappen die participeren in een tijdelijke handelsvennootschap die één van de drie criteria van artikel 15 van het Wetboek van vennootschappen overschrijdt, om de methode van de rekening-courant of van de eenvoudige equivalentie enkel bij uitzondering toe te passen, in specifieke gevallen (bvb. in de opstartfase of de afloopfase van een tijdelijke handelsvennootschap), en mits passende verantwoording in de toelichting wordt gegeven. 
 
 ## METHODEN VOOR DE ELIMINATIE VAN VERRICHTINGEN
-
 ### Inleiding
-
 Ook de problematiek van de eliminatie van posten is een complexe vraag, des te meer wanneer geopteerd wordt voor de proportionele integratie als referentiemethode voor de integratie van de rekeningen van een tijdelijke handelsvennootschap in de boekhoudingen van de vennoten.
 
 Het is vrij opvallend dat zelfs de ondernemingen met de meest transparante financiële informatie inzake de boekhoudkundige verwerking van de verrichtingen van tijdelijke handelsvennootschappen in hun jaarrekening, niet de minste toelichting geven bij de toegepaste eliminatiemethoden.
@@ -450,15 +413,11 @@ Hetzelfde geldt op het vlak van de balans, namelijk bij de toegestane voorschott
 De eliminatie van deze dubbeltellingen is op balansniveau een vrij eenvoudige zaak, maar roept vooral bij toepassing op de resultatenrekening bedenkingen op, omdat hiervoor de meest uiteenlopende methoden worden toegepast.
 
 ### Uiteenzetting van de problematiek
-
 Zoals uiteengezet in de studie van de diverse integratiemethoden, bestaat de techniek van de integratie voornamelijk uit een samentelling van de financiële gegevens van de individuele jaarrekening van de vennoten met het proportioneel aandeel van deze vennoot in de rekeningen van de tijdelijke handelsvennootschap.
 
 #### Eliminatie op balansniveau
-
 ##### Voorbeelden op balansniveau
-
 ###### Voorbeeld 1 : toekenning van een voorschot
-
 Bij het opstarten van een tijdelijke handelsvennootschap kennen de twee vennoten, die werken in een 60 % - 40 % verhouding, beide een voorschot toe om de aanvang van de werkzaamheden te financieren. De totale financieringsbehoefte bedraagt 100.000 €.
 
 Dan ziet de balans van de vennoten er als volgt uit (gemakshalve in 000 € voorgesteld):
@@ -493,7 +452,6 @@ En bij deelgenoot B het volgende geeft:
 De eliminatie bestaat erin de vordering uit hoofde van het toegestane voorschot en de schuld die vanuit de tijdelijke handelsvennootschap werd geïntegreerd, af te boeken.
 
 ###### Voorbeeld 2 : een asymmetrisch voorschot
-
 Ietwat complexer wordt het bij de asymmetrische toekenning van voorschotten. 
 
 Indien er wordt uitgegaan van het voorgaande voorbeeld met een 60 % - 40 % verhouding, maar waarbij de hoofdpartner thans 80 % van het voorschot toekent, en de minderheidspartner slechts 20 %, dan wordt het schema als volgt voorgesteld.
@@ -535,7 +493,6 @@ De eliminatie zal in dit geval beperkt blijven tot het schrappen van het kleinst
 | 80-60 = | | 20 | | 40-20 = | | 20 | 
 
 ###### Toe te passen op welke balansposten?
-
 De voorgaande voorbeelden illustreren de eliminatietechniek die wordt toegepast op de toegestane voorschotten aan tijdelijke handelsvennootschappen, alsmede op de door deze tijdelijke handelsvennootschappen uitgekeerde geldoverschotten.
 
 Dezelfde werkwijze kan gevolgd worden bij de eliminatie van: 
@@ -552,16 +509,13 @@ Dezelfde werkwijze kan gevolgd worden bij de eliminatie van:
 Hoe verder men gaat met de eliminaties, hoe dichter men de economische werkelijkheid benadert. 
 
 ###### Opmerkingen
-
 Een belangrijke vaststelling is dat: 
 
 1. de eliminatie niet de minste impact heeft op het resultaat van de tijdelijke handelsvennootschap, noch op het resultaat van de deelgenoten; en 
 2. de eliminatie van balansposten enkel tot gevolg heeft dat activa en passiva onderling worden gecompenseerd, zodat het balanstotaal wordt verlaagd. Het gaat hier om een verantwoorde compensatie. Ondernemingen die bekommerd zijn om hun solvabiliteitsgraad (relatie tussen eigen vermogen en balanstotaal) zullen dus meer geneigd zijn om de eliminatie-oefening toe te passen en zo ver mogelijk door te voeren. 
 
 ##### Eliminatie op het niveau van de resultatenrekening
-
 ###### Voorbeeld
-
 Er wordt uitgegaan van een tijdelijke handelsvennootschap met twee deelgenoten die een samenwerkingsovereenkomst hebben afgesloten met een 60 % - 40 % verhouding waarbij de hoofdpartner eigen personeel tewerkstelt en de minderheidspartner enkel werkt via onderaanneming:
 
 | DEELGENOOT A | 
@@ -624,7 +578,6 @@ Partner B : eigen winst van 10 + aandeel van 40 % in 40= 26
 Welke eliminatietechniek men ook zal toepassen, in beide benaderingen zal het resultaat van de beide partners precies hetzelfde zijn.
 
 ###### Eliminatietechnieken
-
 In de praktijk bestaan er vier technieken om de hoger beschreven dubbeltelling in de resultatenrekening te behandelen, met name: 
 
 1. Geen eliminatie; 
@@ -637,7 +590,6 @@ Indien deze vier benaderingen worden toegepast op hoger aangehaald cijfervoorbee
 Wordt het vraagstuk bedrijfseconomisch benaderd, dan is de conclusie dat het reële zakencijfer gelijk is aan de omzet gefactureerd door de tijdelijke handelsvennootschap (400 in het voorbeeld), en dat ditzelfde omzetcijfer enkel wordt bekomen door samentelling van de balansen van de twee deelgenoten volgens het derde scenario. De drie andere benaderingen leiden tot een boekhoudkundig omzetcijfer dat hoger - en in een van de gevallen zelfs beduidend hoger - ligt dan het reële zakencijfer.
 
 ###### Opmerkingen
-
 1. Het is belangrijk vast te stellen dat de keuze van de eliminatiemethode geen enkele invloed heeft op het resultaat. 
 2. De keuze van de eliminatiemethode heeft ook niet de minste invloed heeft op de berekening van de toegevoegde waarde. De eliminatie wordt immers toegepast op de rubrieken 70 *Omzet* en 60 *Inkoop van grondstoffen,onderaannemingen*. Een ver doorgedreven eliminatie of geen eliminatie, in beide gevallen blijft de toegevoegde waarde dezelfde. 
 3. De enige correcte benadering is de integrale eliminatie van de omzet die de partners aanrekenen aan de tijdelijke handelsvennootschap. De proportionele eliminatie of de niet-eliminatie leidt tot een (mogelijk belangrijke) overschatting van de omzet en van de rubriek “60”. 
@@ -645,7 +597,6 @@ Wordt het vraagstuk bedrijfseconomisch benaderd, dan is de conclusie dat het re�
  In dit geval stemt de uitgedrukte omzet overeen met de omzet gegenereerd door de tijdelijke handelsvennootschap, vermeerderd met de winst die de deelgenoten hebben gegenereerd op hun facturatie aan de tijdelijke handelsvennootschap. 
 
 ## Eliminatiemethoden: standpunt van de Commissie voor boekhoudkundige normen
-
 Gelet op wat voorafgaat, is de Commissie van oordeel dat ingeval de proportionele integratie, zoals hierboven beschreven en waaraan de Commissie de voorkeur geeft, wordt toegepast, de dubbeltellingen waartoe deze methode leidt, alleszins op passende wijze dienen te worden geëlimineerd.
 
 Volgens de Commissie zouden de dubbeltellingen als gevolg van de integratie van de rekeningen van een tijdelijke handelsvennootschap, op balansniveau moeten worden geëlimineerd door toepassing van de proportionele eliminatie. Die eliminatie wordt uitgevoerd voor alle rubrieken waareen dubbeltelling wordt vastgesteld. 
@@ -657,9 +608,7 @@ De integrale eliminatie van de omzet die de betrokken partner aan de tijdelijke 
 In voorkomend geval zou van deze regel kunnen worden afgeweken, met name zou dan niet de omzet die de partner aanrekent, maar de kost die daar tegenover staat, worden geëlimineerd. 
 
 ## WAARDERINGSREGELS IN DE TIJDELIJKE HANDELSVENNOOTSCHAP
-
 ### Inleiding
-
 Het opstellen van rekeningen voor een tijdelijke handelsvennootschap leidt onvermijdelijk tot de problematiek inzake de keuze van de waarderingsregels.
 
 Hoe moet een tijdelijke handelsvennootschap haar werk in uitvoering waarderen : met toepassing van de methode met resultaattoerekening bij het einde van het project “*completed contract method*” of met toepassing van de methode van de vooruitgang van het project “*percentage of completion method*” ? Welk afschrijvingstempo hoort te worden toegepast op de aangekochte materiële vaste activa ? Hoe wordt een dubieuze vordering behandeld ? Wordt er een waardevermindering geboekt en hoe wordt deze berekend ? En wat dan te doen met de voorzieningen voor hangende geschillen, voor garantieverplichtingen en dergelijke meer ?
@@ -673,11 +622,9 @@ Maar zulke herwerkingen kunnen zeer delicaat zijn, vooral wanneer ze leiden tot 
 Bovendien vereisen deze onderlinge afstemmingen bijkomend administratief werk : de boekingen in verband met afschrijvingen, waardeverminderingen en voorzieningen moeten worden geëlimineerd en vervolgens vervangen worden door nieuwe.
 
 ### Methoden
-
 Gelet op wat voorafgaat alsook op de grote diversiteit inzake tijdelijke handelsvennootschappen en de contractuele vrijheid die deze rechtsfiguur kenmerkt, is de Commissie van oordeel dat, met betrekking tot de waarderingsregels die tijdelijke handelsvennootschappen toepassen, twee methoden in aanmerking kunnen komen.
 
 #### Methode die waarderingsneutraal is (5 principes)
-
 In de *eerste methode* worden waarderingsconflicten vermeden door de belangrijke beslissingen over afschrijvingen, waardeverminderingen en voorzieningen, bij de deelgenoten te situeren, wat in waarderingsopzicht de neutraliteit van de financiële staten van de tijdelijke handelsvennootschap waarborgt. Voor die werkwijze is uiteraard de medewerking nodig van de zaakvoerder die instaat voor de boekhouding en ervoor moet zorgen dat de deelgenoten de nodige informatie krijgen.
 
 De toepassing van deze methode steunt op de vijf volgende principes:
@@ -763,7 +710,6 @@ Volgens deze methode wordt de boekhoudkundige verwerking van de waardeverminderi
 Aan de hand van deze gegevens zullen de individuele partners zelf in staat zijn zich een oordeel te vormen omtrent de mogelijke gerealiseerde verliezen en de nog te verwachten finale verliezen, zodat ze zelf, en op eigen initiatief, de nodige waardeverminderingen en voorzieningen zullen kunnen registreren.
 
 #### Methode waarbij de waarderingsregels van de tijdelijke handelsvennootschap contractueel worden vastgelegd door de deelgenoten (5 principes)
-
 Een *tweede methode* houdt in dat de deelgenoten - zeker wanneer zij tot dezelfde groep behoren - de waarderingsregels vastleggen, bij voorbeeld in het contract van tijdelijke handelsvennootschap, om die duidelijk te onderscheiden van de regels die ze zelf volgen, wat leidt tot een grotere autonomie voor de eigen boekhouding van de tijdelijke handelsvennootschap.
 
 Deze methode gaat uit van de volgende principes: 
@@ -801,9 +747,7 @@ Indien alle partners het erover eens zijn om de financiële opbrengsten en koste
 Indien deze taak wordt opgedragen aan het bestuur van de tijdelijke vennootschap, dan wordt dit op expliciete wijze vermeld in het contract van tijdelijke handelsvennootschap.
 
 ## INFORMATIE IN DE JAARREKENING VAN DE VENNOTEN
-
 ### Inleiding
-
 In het kader van de gewenste standaardisering van de boekhoudkundige verwerking van de verrichtingen van tijdelijke handelsvennootschappen zouden de geassocieerde ondernemingen idealiter met het oog op de passende informatieverstrekking aan derden, hun financiële gegevens moeten publiceren, alsook de methoden die zij toepassen, onder meer voor de integratie en de eliminatie van de verrichtingen in de balans en de resultatenrekening. 
 
 De praktijk leert inderdaad dat één van de fundamentele recurrente gebreken van de rekeningen van ondernemingen die in een tijdelijke handelsvennootschap participeren, te maken heeft met de vaak ontoereikende inhoud van de verstrekte informatie, met als gevolg dat de rekeningen van die ondernemingen heel moeilijk te begrijpen en te vergelijken zijn.

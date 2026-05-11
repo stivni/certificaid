@@ -16,49 +16,49 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/afwijking-inzake-functionele-valuta-praktische-implicaties-en-procedure
 nummer: CBN-advies 175/1
 provenance:
+  generated_at: '2026-05-11T17:48:38Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/verwerking-in-de-jaarrekening-over-het-boekjaar-1996-en-de-daaropvolgende-boekjaren-van-de
       sha256: ac39eb27c4481b2805ab1d3e8ee1db6cc109c61d1e30539a1c11d288f497f387
       version:
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
-    status: needs-rework
     confirmed_at: '2026-05-11T17:05:21Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "C1 bevestigd r.102 en r.117: '•' bullet-glyphs (PDF-iconen) in plaats van markdown '-'. A6 bevestigd r.105-116: bullets beginnen met '- ' gevolgd door een lege regel ('- \\n\\nde Belgische Staat is de voornoemde...') waardoor bulletinhoud is losgekoppeld van het bullet-teken — zichtbare regelbreukpatroon in lijstcontext. Twee afzonderlijke categorieën met duidelijke artefacten. Overige structuur en zes voetnoten correct."
     layer1:
-      file_size_chars: 18053
-      flags: []
-      heading_count: 7
-      max_section_chars: 9239
-      run_at: '2026-05-11T15:05:49Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:42Z'
+      heading_count: 7
+      max_section_chars: 9234
+      file_size_chars: 18046
+      flags: []
     layer2:
-      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T17:05:21Z'
-      rationale: "C1 bevestigd r.102 en r.117: '•' bullet-glyphs (PDF-iconen) in plaats van markdown '-'. A6 bevestigd r.105-116: bullets beginnen met '- ' gevolgd door een lege regel ('- \\n\\nde Belgische Staat is de voornoemde...') waardoor bulletinhoud is losgekoppeld van het bullet-teken — zichtbare regelbreukpatroon in lijstcontext. Twee afzonderlijke categorieën met duidelijke artefacten. Overige structuur en zes voetnoten correct."
       concrete_problemen:
-        - regel: 102
-          categorie: C1
+        - categorie: C1
+          regel: 102
           type: bullet-glyph
           voorbeeld: • In het PBEG van 6 augustus 1996 staat een mededeling...
-        - regel: 105
-          categorie: A6
+        - categorie: A6
+          regel: 105
           type: other
           voorbeeld: "- \n\nde Belgische Staat is de voornoemde verplichtingen inzake..."
-        - regel: 117
-          categorie: C1
+        - categorie: C1
+          regel: 117
           type: bullet-glyph
           voorbeeld: • In haar beschikking van 4 december 1996 kondigt de Europese Commissie aan...
+      rationale: 'C1 bevestigd r.102 en r.117: ''•'' bullet-glyphs (PDF-iconen) in plaats van markdown ''-''. A6 bevestigd r.105-116: bullets beginnen met ''- '' gevolgd door een lege regel (''- \n\nde Belgische Staat is de voornoemde...'') waardoor bulletinhoud is losgekoppeld van het bullet-teken — zichtbare regelbreukpatroon in lijstcontext. Twee afzonderlijke categorieën met duidelijke artefacten. Overige structuur en zes voetnoten correct.'
+      run_at: '2026-05-11T17:05:21Z'
+      status: needs-rework
+    rationale: 'C1 bevestigd r.102 en r.117: ''•'' bullet-glyphs (PDF-iconen) in plaats van markdown ''-''. A6 bevestigd r.105-116: bullets beginnen met ''- '' gevolgd door een lege regel (''- \n\nde Belgische Staat is de voornoemde...'') waardoor bulletinhoud is losgekoppeld van het bullet-teken — zichtbare regelbreukpatroon in lijstcontext. Twee afzonderlijke categorieën met duidelijke artefacten. Overige structuur en zes voetnoten correct.'
+    status: needs-rework
 themas:
   - toelichting
   - voorziening
@@ -76,13 +76,11 @@ De Commissie is om advies gevraagd over een aantal aspecten in verband met de bo
 Die steunmaatregelen werken als volgt.
 
 ## Beknopte beschrijving van de «Maribel bis en ter»-steunmaatregelen
-
 Vergeleken bij de Maribelregeling uit 1981 (waarbij werkgevers die handarbeiders tewerkstelden, een vermindering van de sociale zekerheidsbijdragen konden verkrijgen), kwamen de wijzigingen van 1993 en 1994, in het kader van de «Maribel bis en ter»-operaties, in hoofdzaak neer op een extra verlaging van de sociale zekerheidsbijdragen voor werkgevers die «hun hoofdactiviteit uitoefenen in sectoren die het meest zijn blootgesteld aan de internationale concurrentie». 
 
 Het gaat hier hoofdzakelijk om de sectoren winning en verwerking van niet-energiehoudende delfstoffen, chemische nijverheid, metaalverwerkende industrie, vervaardiging van precisie- en optische instrumenten, verwerkende industrieën en sommige vervoersactiviteiten. 
 
 ## Onderzoek van de bepalingen van het EG-Verdrag die van toepassing zijn op steunmaatregelen van Staten
-
 Het Verdrag wijdt verschillende bepalingen aan steunmaatregelen van Staten. 
 
 - Artikel 92 bepaalt dat steunmaatregelen van Lid-Staten of in welke vorm ook met staatsmiddelen bekostigd (die de mededinging vervalsen of dreigen te vervalsen door bepaalde ondernemingen en bepaalde productieactiviteiten te bevoordelen) onverenigbaar zijn met de regels van de gemeenschappelijke markt omdat zij het handelsverkeer tussen de Lid-Staten ongunstig beïnvloeden (behoudens bepaalde afwijkingen waarin het Verdrag voorziet). 
@@ -98,7 +96,6 @@ Het Verdrag wijdt verschillende bepalingen aan steunmaatregelen van Staten.
 - Tot slot kan de Commissie, wanneer de betrokken Lid-Staat haar beslissing niet volledig zou uitvoeren of geen stappen zou ondernemen om de betrokken steun te recupereren, op twee manieren reageren : hetzij een beroep instellen wegens niet-nakoming op basis van artikel 169, hetzij de procedure toepassen als bedoeld in artikel 93, § 2. 
 
 ## Chronologie van de beslissingen van de Europese Commissie met betrekking tot de «Maribel bis en ter» steun
-
 • In het PBEG van 6 augustus 1996 staat een mededeling van de Commissie «aan de overige Lid-Staten en overige belanghebbenden inzake de «Maribel bis (ter)»-operatie.» 
 
 In die mededeling stelt de Commissie het volgende :
@@ -117,7 +114,6 @@ ten slotte maant de Commissie de Lid-Staten en andere belanghebbenden aan, haar 
 • In haar beschikking van 4 december 1996 kondigt de Europese Commissie aan dat zij, overeenkomstig artikel 93, lid 2, na afloop van de termijn voor de mededeling van de eventuele opmerkingen van belanghebbenden, haar beslissing zal bevestigen waarbij zij de «Maribel bis (ter)»-steunmaatregelen strijdig verklaart met de voorschriften van artikel 92, lid 1 van het Verdrag. «België dient [overigens] passende maatregelen te nemen om de verhoogde vermindering van de sociale bijdragen (...) ongedaan te maken en dient de illegaal verleende steun bij de ontvangende ondernemingen terug te vorderen (...)»[^1]. Dit is het soort beslissing waarvan sprake in artikel 189 van het Verdrag en is dus «verbindend in al haar onderdelen voor degenen toe wie zij uitdrukkelijk is gericht», met andere woorden, de instellingen van de Belgische Staat. 
 
 ## Beknopt overzicht van de beslissingen van de Belgische federale Regering naar aanleiding van de voornoemde beslissing van de Europese Commissie
-
 De beslissing tot terugvordering uitgesproken door de Commissie, is bindend voor de Staten die dan ook alles in het werk moeten stellen om haar binnen de opgelegde termijn ten uitvoer te leggen. De Staten kunnen daarentegen de wettelijkheid betwisten van beslissingen van de Commissie, op de klassieke manier, namelijk een annulatieberoep instellen bij het Hof van Justitie van de Europese Gemeenschappen; dit beroep heeft evenwel geen schorsende werking en moet worden ingesteld binnen twee maanden na de bekendmaking van de beslissing van de Commissie[^2]. 
 
 De Belgische Regering heeft van die mogelijkheid gebruik gemaakt in het kader van haar recente beslissingen in het «Maribel bis en ter»-dossier. Het perscommuniqué na afloop van de Ministerraad van 18 februari 1997 zegt in dit verband dat «de bestaande Maribel-maatregelen worden vervangen door een nieuwe algemene regeling die ingaat op 1 juli 1997. Hierin krijgen alle ondernemingen die behoren tot de sectoren die oorspronkelijk genoten van de eerste Maribelregeling, voortaan voor hun werklieden recht op een fortaitaire vermindering van de patronale sociale-zekerheidsbijdragen. Deze zal per handarbeider gemiddeld 32 000 frank per jaar bedragen. 
@@ -127,9 +123,7 @@ Deze vermindering varieert evenwel naargelang van de handarbeidsintensiteit van 
 Voorts stelt de Regering in dit perscommuniqué nog dat de verplichting om de Maribel-steun bis en ter van de betrokken ondernemingen terug te vorderen, volgens haar onuitvoerbaar is. «De Commissie beslist trouwens voor het eerst in dergelijke intersectorale regelingen tot terugvordering. Daarom diende de Regering een annulatieberoep in tegen de beslissing van de Commissie bij het Europees Hof van Justitie[^4]. Tegelijk heeft de Ministerraad de Minister van Tewerkstelling en Arbeid de opdracht gegeven om met de Commissie te overleggen om een aanvaardbare timing en aanvaardbare modaliteiten te verkrijgen in verband met deze terugvordering. Hierbij zal rekening gehouden worden met de evolutie van dit juridisch annulatieberoep. De Regering besliste evenwel al dat die eventuele terugvordering voor het verleden nooit de vorm zal aannemen van een werkelijke terugvordering bij de ondernemingen die Maribel bis en ter genoten in het verleden. Indien blijkt dat de terugvordering juridisch onvermijdelijk is, zal de Regering een compromis nastreven met de Commissie opdat de ondernemingen die in het verleden (van 1993 tot 1996) de Maribel bis en ter vermindering niet genoten, een compensatie zouden krijgen». 
 
 ## Boekhoudkundige verwerking
-
 ### Voor de ondernemingen die de «Maribel bis en ter»-steun kregen
-
 Om uit te maken hoe deze ondernemingen die hulp aan het eind van het boekjaar 1996 en de daaropvolgende boekjaren best verwerken in hun boekhouding, moet eerst de beslissing van de Belgische Regering omtrent het beheer van de «Maribel bis en ter»-steun van nabij worden onderzocht. Indien de beslissing van de Commissie rechtstreekse werking heeft en uitvoerbaar is tegenover de Belgische staat (mits naleving van een termijn die wordt aangegeven in de beslissing van de Commissie), rijst als eerste vraag in verband met de boekhoudkundige verwerking, welke mogelijkheden de Belgische Regering aanvankelijk had tegenover de beslissing van 4 december 1996 van de Europese Commissie. 
 
 Die mogelijkheden kunnen als volgt worden geschetst. 
@@ -154,7 +148,6 @@ Sommige ondernemingen hebben hun jaarrekening moeten afsluiten vooraleer zij wee
 Wanneer de verkregen steun in het kader van de Maribelregeling bis en ter, belangrijk was zou in elk geval in de toelichting bij de jaarrekening, duidelijk moeten worden vermeld hoe die boekhoudkundig zijn verwerkt, rekening houdend met de beslissingen ter zake van de Europese Commissie en van de Belgische Regering. 
 
 ### Voor de ondernemingen die niet aanmerking kwamen voor Maribel bis en ter
-
  Voor de ondernemingen die niet in aanmerking kwamen voor de Maribelregeling bis en ter, zij erop gewezen dat de Belgische boekhoudreglementering op dit moment niet toestaat om bij de afsluiting van het boekjaar 1996, ten belope van die retroactieve toekenning van dergelijke steun ramingen te boeken. De omschrijving van de post «Vorderingen» in de bijlage bij het koninklijk besluit van 8 oktober 1976 zegt immers : «naast de vorderingen waarvoor een titel bestaat, worden eveneens (...) de te ontvangen opbrengsten (opgenomen) die tijdens het boekjaar of tijdens een vorig boekjaar zijn ontstaan en waarvoor nog geen rechtstitel bestaat, indien het bedrag daarvan vaststaat of met nauwkeurigheid kan worden geschat». Bij het afsluiten van het boekjaar 1996 is dat niet zo voor de ondernemingen die in een eerste fase geen aanspraak konden maken op de «Maribel bis en ter»-regeling en die op dit ogenblik thans enkel zouden kunnen verwijzen naar een politieke verbintenis van de Regering.
 
 [^1]: PBEG van 10 april 1997 (L95/25).

@@ -2,71 +2,63 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-pseudo-fusies-van-verenigingen-en-stichtingen
 datum: 2013-01-09
 gerelateerde_adviezen:
-- datum: '2024-01-17'
-  titel: Vermogensklem bij de omzetting van een VZW in een coöperatieve vennootschap
-    erkend als sociale onderneming
-  url: https://www.cbn-cnc.be/nl/adviezen/vermogensklem-bij-de-omzetting-van-een-vzw-in-een-cooperatieve-vennootschap-erkend-als-0
-- datum: '2022-09-23'
-  titel: Boekhoudkundige verwerking van fusies tussen verenigingen en stichtingen
-  url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-fusies-tussen-verenigingen-en-stichtingen
-- datum: '2022-09-19'
-  titel: Boekhoudkundige verwerking van splitsingen van vennootschappen
-  url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-splitsingen-van-vennootschappen
-- datum: '2022-07-20'
-  titel: Wijziging van het boekhoudkundig referentiestelsel
-  url: https://www.cbn-cnc.be/nl/adviezen/wijziging-van-het-boekhoudkundig-referentiestelsel
+  - datum: '2024-01-17'
+    titel: Vermogensklem bij de omzetting van een VZW in een coöperatieve vennootschap erkend als sociale onderneming
+    url: https://www.cbn-cnc.be/nl/adviezen/vermogensklem-bij-de-omzetting-van-een-vzw-in-een-cooperatieve-vennootschap-erkend-als-0
+  - datum: '2022-09-23'
+    titel: Boekhoudkundige verwerking van fusies tussen verenigingen en stichtingen
+    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-fusies-tussen-verenigingen-en-stichtingen
+  - datum: '2022-09-19'
+    titel: Boekhoudkundige verwerking van splitsingen van vennootschappen
+    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-splitsingen-van-vennootschappen
+  - datum: '2022-07-20'
+    titel: Wijziging van het boekhoudkundig referentiestelsel
+    url: https://www.cbn-cnc.be/nl/adviezen/wijziging-van-het-boekhoudkundig-referentiestelsel
 nummer: CBN-advies 2013/1
 provenance:
-  generated_at: '2026-05-11T15:15:31Z'
+  generated_at: '2026-05-11T17:48:39Z'
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-pseudo-fusies-van-verenigingen-en-stichtingen
-    sha256: 5aa8dcdf4c97a2bdf548c669cc8917246b4e429e13c3f83c28dd849a769fe9a6
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-pseudo-fusies-van-verenigingen-en-stichtingen
+      sha256: 5aa8dcdf4c97a2bdf548c669cc8917246b4e429e13c3f83c28dd849a769fe9a6
+      version:
   stale: false
-  stale_reason: null
+  stale_reason:
   tooling:
-    model: null
+    model:
     pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    prompt_version: null
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
     confirmed_at: '2026-05-11T12:16:34Z'
     confirmed_by: subagent-sonnet-4-6
     layer1:
-      file_size_chars: 39797
-      flags: []
-      heading_count: 11
-      max_section_chars: 12635
-      run_at: '2026-05-11T15:05:51Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:43Z'
+      heading_count: 11
+      max_section_chars: 12631
+      file_size_chars: 39786
+      flags: []
     layer2:
       agent: subagent-sonnet-4-6
       concrete_problemen: []
-      rationale: Geen significante artefacten gevonden. De heading-hiërarchie is correct
-        en consistent over een lang en complex advies. Alle wetsartikelen zijn volledig
-        geciteerd. Pipe-tabellen voor balansoverzichten zijn correct opgemaakt. Voetnoten
-        compleet.
+      rationale: Geen significante artefacten gevonden. De heading-hiërarchie is correct en consistent over een lang en complex advies. Alle wetsartikelen zijn volledig geciteerd. Pipe-tabellen voor balansoverzichten zijn correct opgemaakt. Voetnoten compleet.
       run_at: '2026-05-11T12:16:34Z'
       status: trusted
-    rationale: Geen significante artefacten gevonden. De heading-hiërarchie is correct
-      en consistent over een lang en complex advies. Alle wetsartikelen zijn volledig
-      geciteerd. Pipe-tabellen voor balansoverzichten zijn correct opgemaakt. Voetnoten
-      compleet.
+    rationale: Geen significante artefacten gevonden. De heading-hiërarchie is correct en consistent over een lang en complex advies. Alle wetsartikelen zijn volledig geciteerd. Pipe-tabellen voor balansoverzichten zijn correct opgemaakt. Voetnoten compleet.
     status: trusted
 themas:
-- continuïteit
-- dividenden
-- pseudofusie
-- reorganisatie
-- stichting
-- vereniging
+  - continuïteit
+  - dividenden
+  - pseudofusie
+  - reorganisatie
+  - stichting
+  - vereniging
 ---
 
 # CBN-advies 2013/1 - De boekhoudkundige verwerking van (pseudo-)fusies van verenigingen en stichtingen
 
 ## Inleiding en onderwerp van het advies
-
 De wet van 30 december 2009[^1] heeft in het Wetboek van vennootschappen (hierna: W.Venn.) en in de wet van 27 juni 1921 betreffende de verenigingen en stichtingen (hierna: de wet van 27 juni 1921)[^2] een aantal bepalingen ingevoegd op grond waarvan verenigingen en stichtingen een reorganisatie kunnen doorvoeren via de inbreng van een algemeenheid of een bedrijfstak, volgens de regels die het W.Venn. hiertoe voorschrijft. In deze bepalingen – die per 25 januari 2010 in werking traden – kwam het boekhoudrechtelijk aspect niet aan bod. 
 
 Het koninklijk besluit van 18 december 2012[^3] tot wijziging van het koninklijk besluit van 19 december 2003 betreffende de boekhoudkundige verplichtingen van “grote” en “zeer grote” verenigingen[^4] (hierna: KB van 19 december 2003) heeft, enkel voor de verrichtingen bedoeld in artikel 58 van de wet van 27 juni 1921, een regeling inzake boekhoudkundige continuïteit ingevoerd (zie *infra*, nr. 2). 
@@ -74,7 +66,6 @@ Het koninklijk besluit van 18 december 2012[^3] tot wijziging van het koninklijk
 Van de verrichtingen bedoeld in artikel 58 van de wet van 27 juni 1921 behandelt dit advies uitsluitend de inbreng om niet van een algemeenheid door een vereniging of stichting, ten voordele van een andere vereniging of stichting, verrichtingen die we “pseudo-fusies” noemen (zie *infra*, nr. 4).
 
 ## Rechtskader voor de verrichting
-
 Artikel 6 en 6bis van het KB van 19 december 2003 en artikel 58 van de wet van 27 juni 1921
 Het KB van 19 december 2003 bepaalt in het nieuwe artikel 6*bis*, eerste lid, het volgende:* “De verrichtingen als bedoeld in artikel 58 van de wet van 27 juni 1921 betreffende de verenigingen zonder winstoogmerk, de internationale verenigingen zonder winstoogmerk en de stichtingen worden door de betrokken rechtspersonen geboekt overeenkomstig, naargelang het geval, de artikelen 78, § 1 en § 2, 79, 80 of 80bis van het koninklijk besluit van 30 januari 2001 tot uitvoering van het Wetboek van vennootschappen”*, met andere woorden, volgens de regels inzake boekhoudkundige continuïteit die respectievelijk voor fusies, splitsingen of partiële splitsingen van vennootschappen gelden. 
 
@@ -145,15 +136,12 @@ Voor deze toepassing op overeenkomstige wijze, moeten in de voormelde artikelen 
 10. in artikel 766, derde lid, worden de woorden ‘rechtbank van koophandel’ vervangen door de woorden ‘rechtbank van eerste aanleg’.”. 
 
 ## Toepassingsgebied van het advies: de “pseudo-fusies”
-
 Dit advies handelt uitsluitend over de boekhoudkundige verwerking van de inbreng om niet van een algemeenheid door een vereniging of stichting, ten voordele van een andere vereniging of stichting, met toepassing van de artikelen 760 tot 762 en 764 tot 767 W.Venn. Deze verrichtingen noemen we “pseudo-fusies”. Daarmee wordt duidelijk aangegeven dat die verrichtingen geen fusies zijn in de zin van artikel 671 en 672 W.Venn.[^5].
 
 Het advies behandelt trouwens enkel de gevallen waarin de “overnemende” entiteit onder de toepassing valt van het KB van 19 december 2003, vóór of als gevolg van de verrichting. 
 
 ## Boekhoudkundige verwerking
-
 ### Principe
-
 Artikel 6*bis* van het koninklijk besluit van 19 december 2003 bepaalt dat de verrichtingen als bedoeld in artikel 58 van de wet van 27 juni 1921 in de rekeningen van de betrokken verenigingen of stichtingen worden opgenomen overeenkomstig de boekhoudkundige continuïteit zoals voorzien in, naargelang het geval, de artikelen 78, § 1 en § 2, 79, 80 of 80*bis* KB W.Venn.[^6].
 
 Voor een pseudo-fusie betekent dit dat een dergelijke verrichting zal worden verwerkt overeenkomstig artikel 78, § 1 en § 2, of 79 KB W.Venn., die op fusies van vennootschappen van toepassing zijn. 
@@ -185,7 +173,6 @@ In het geval dat het de kleine vereniging of stichting is die de inbreng van een
 Het kan ook voorkomen dat een “kleine” vereniging of stichting die een andere “kleine” vereniging of stichting “overneemt”», als gevolg van de pseudo-fusie een “grote” vereniging of stichting wordt. In dat geval worden de regels van artikel 37, § 2 en § 3 van het KB van 19 december 2003 op overeenkomstige wijze toegepast[^14]. 
 
 ### Boekhoudkundige retroactiviteit
-
 Artikel 760, § 2 W.Venn., zoals van toepassing op pseudo-fusies[^15], vereist in punt 3° de vermelding in het voorstel van inbreng (in dit geval van een algemeenheid) van de *“datum vanaf welke de verrichtingen van de [rechtspersoon] die de inbreng doet, boekhoudkundig geacht worden te zijn verricht voor rekening van [de verkrijgende rechtspersoon]”.* 
 
 Daarnaast bevat artikel 78, § 2 KB W.Venn., de volgende bepaling: *“Alle actief- en passiefbestanddelen van de overgenomen vennootschap, inclusief de verschillende bestanddelen van haar eigen vermogen, de afschrijvingen, waardeverminderingen en door haar gevormde voorzieningen, haar rechten en verplichtingen alsook haar opbrengsten en kosten van het boekjaar, worden, onverminderd §§ 3 tot 8, opgenomen in de boekhouding van de overnemende vennootschap tegen de waarde waarvoor zij in de boekhouding van de overgenomen vennootschap voorkwamen op het tijdstip als bedoeld in artikel 693, 5° van het Wetboek van vennootschappen”.* In het kader van een pseudo-fusie dient de verwijzing naar het in artikel 693, 5° W.Venn. vermelde tijdstip te worden gelezen als een verwijzing naar de in voormeld artikel 760, § 2, 3° W.Venn., vermelde datum.
@@ -195,7 +182,6 @@ Wanneer de overdragende (“overgenomen”) vereniging of stichting naar de meni
 Op grond van deze bepalingen is een boekhoudkundige retroactiviteit dus toegestaan in geval van een pseudo-fusie. Naar het oordeel van de Commissie kan dergelijke retroactiviteit niet verder reiken dan de laatste balansdatum waarop de jaarrekening van de “overgenomen” vereniging of stichting is afgesloten, ongeacht of deze werd neergelegd of niet.
 
 ### Eigen-vermogensoverdracht
-
 Wanneer een overgenomen vereniging of stichting haar boekhouding voert en haar jaarrekening opstelt overeenkomstig het KB van 19 december 2003, dient haar *Beginvermogen* (opgenomen in rekening 100)[^16] met toepassing van het principe van boekhoudkundige continuïteit als dusdanig te worden overgenomen door de “overnemende” vereniging of stichting. 
 
 Er moet overigens op gelet worden dat, met betrekking tot de bestanddelen die zijn opgenomen onder *Permanente Financiering* (rekening 101)[^17], voor giften en legaten die in het kader van een pseudo-fusie worden overgedragen bepaalde voorwaarden kunnen gelden, met daaraan verbonden een terugnemingsrecht vanwege de schenker of de legataris, wanneer aan die voorwaarden niet langer wordt voldaan door de “overnemende” vereniging of stichting. Dat kan ook het geval zijn voor een subsidie toegekend aan de “overgenomen” vereniging of stichting, wanneer de “overnemende” vereniging of stichting niet langer aan de toekenningsvoorwaarden voor die subsidie voldoet[^18]. In dat geval dient de “overnemende” vereniging of stichting voor de terugbetaling van die gift, dat legaat of die subsidie, een voorziening te vormen of een schuld te boeken.
@@ -208,21 +194,17 @@ Wanneer de overdragende (“overgenomen”) vereniging of stichting een boekhoud
 Met name kan een vereniging of stichting overeenkomstig art. 64, § 3 KB W.Venn. (zie artikel 7, 6°, van het KB van 19 december 2003) beslissen om materiële vaste activa waarvan de functionaliteit constant is, niet af te schrijven en de onderhouds- en vervangingkosten die daaraan verbonden zijn, op zich te nemen. Indien door de overdragende (“overgenomen”) vereniging of stichting deze waarderingsregel voor een actief werd toegepast, kan de verkrijgende (“overnemende”) vereniging of stichting deze waarderingswijze overnemen wanneer ook in haar hoofde aan de voorwaarde van art. 64, § 3 KB W.Venn. is voldaan. Indien er in hoofde van de overnemende vereniging of stichting geen sprake is van een constante functionaliteit, zullen op de oorspronkelijke aanschaffingswaarde uitzonderlijke afschrijvingen of, desgevallend, herwaarderingsmeerwaarden worden geboekt. 
 
 ### Overgedragen verlies
-
 Wanneer de overdragende (“overgenomen”) vereniging of stichting een boekhouding voert overeenkomstig het KB van 19 december 2003 en in de balans vóór de pseudo-fusie een *Overgedragen verlies* (rekening 14) aanwezig is, kan dit overgedragen verlies bij de pseudo-fusie niet worden aangerekend op haar *Beginvermogen* (rekening 100). 
 
 Het *Overgedragen verlies* zal bij een pseudo-fusie door overneming in hoofde van de bestaande verkrijgende (“overnemende”) vereniging of stichting worden samengevoegd met een eventueel bestaande *Overgedragen winst* bij de verkrijgende (“overnemende”) vereniging of stichting. Bij een pseudo-fusie door oprichting zal het *Overgedragen verlies* van een overdragende (“overgenomen”) vereniging of stichting in hoofde van de nieuwe vereniging of stichting worden samengevoegd met een eventueel bestaande *Overgedragen winst* van een andere overdragende (“overgenomen”) vereniging of stichting.
 
 ### Negatief beginvermogen
-
 Wanneer een vereniging of stichting betrokken in de pseudo-fusie een negatief *Beginvermogen[^20]*  heeft, wordt dit samengevoegd met het *Beginvermogen* van de andere entiteit en mag dit niet gecompenseerd worden op het *Overgedragen resultaat*, noch op de* Bestemde fondsen*.
 
 ### Voorzieningen
-
 Het kan ook voorkomen dat voorzieningen die een entiteit aanlegde, door een pseudo-fusie niet langer een voorwerp hebben en zullen moeten worden teruggenomen.
 
 ## Voorbeelden
-
 In de hiernavolgende voorbeelden voeren zowel de overdragende (“overgenomen”) als de verkrijgende (“overnemende”) vereniging of stichting vóór de pseudo-fusie een boekhouding overeenkomstig het koninklijk besluit van 19 december 2003.
 
 Voorbeeld 1 – Basisvoorbeeld

@@ -16,45 +16,45 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/boekingswijze-van-een-voorschot-op-de-verdeling-van-het-netto-actief
 nummer: CBN-advies 2022/07
 provenance:
+  generated_at: '2026-05-11T17:48:39Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/verslaggeving-bij-onmiddellijke-sluiting-van-de-vereffening-van-een-vzw-of-ivzw
       sha256: e8dfa13d03ae374219649275661e6dc1c8721d2a6b24041bcc50eaf408afb88a
       version:
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T15:15:32Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
-    status: needs-rework
     confirmed_at: '2026-05-11T17:13:31Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "D2: regel 148 kondigt 'Schematisch kunnen de volgende termijnen worden onderscheiden:' aan maar het tijdslijn-schema ontbreekt. D4/A5: regel 117 bevat 'de bedrijfsrevisor of een gecertificeerd, accountant bevestigt' — spurious komma na 'gecertificeerd' is een ETL-interpunctie-artefact (vergelijk CBN-2022-06 regel 111 zonder komma). Geen source-typo: de overeenkomstige bepaling in CBN-2022-06 art. 2:80 heeft geen komma."
     layer1:
-      file_size_chars: 22206
-      flags: []
-      heading_count: 7
-      max_section_chars: 16201
-      run_at: '2026-05-11T15:05:54Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:45Z'
+      heading_count: 7
+      max_section_chars: 16199
+      file_size_chars: 22199
+      flags: []
     layer2:
-      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T17:13:31Z'
-      rationale: "D2: regel 148 kondigt 'Schematisch kunnen de volgende termijnen worden onderscheiden:' aan maar het tijdslijn-schema ontbreekt. D4/A5: regel 117 bevat 'de bedrijfsrevisor of een gecertificeerd, accountant bevestigt' — spurious komma na 'gecertificeerd' is een ETL-interpunctie-artefact (vergelijk CBN-2022-06 regel 111 zonder komma). Geen source-typo: de overeenkomstige bepaling in CBN-2022-06 art. 2:80 heeft geen komma."
       concrete_problemen:
-        - regel: 117
-          categorie: A5
+        - categorie: A5
+          regel: 117
           type: other
           voorbeeld: de bedrijfsrevisor of een gecertificeerd, accountant bevestigt dit schriftelijk akkoord
-        - regel: 148
-          categorie: D2
+        - categorie: D2
+          regel: 148
           type: missing-section
           voorbeeld: 'Schematisch kunnen de volgende termijnen worden onderscheiden: [tijdslijn-schema ontbreekt]'
+      rationale: 'D2: regel 148 kondigt ''Schematisch kunnen de volgende termijnen worden onderscheiden:'' aan maar het tijdslijn-schema ontbreekt. D4/A5: regel 117 bevat ''de bedrijfsrevisor of een gecertificeerd, accountant bevestigt'' — spurious komma na ''gecertificeerd'' is een ETL-interpunctie-artefact (vergelijk CBN-2022-06 regel 111 zonder komma). Geen source-typo: de overeenkomstige bepaling in CBN-2022-06 art. 2:80 heeft geen komma.'
+      run_at: '2026-05-11T17:13:31Z'
+      status: needs-rework
+    rationale: 'D2: regel 148 kondigt ''Schematisch kunnen de volgende termijnen worden onderscheiden:'' aan maar het tijdslijn-schema ontbreekt. D4/A5: regel 117 bevat ''de bedrijfsrevisor of een gecertificeerd, accountant bevestigt'' — spurious komma na ''gecertificeerd'' is een ETL-interpunctie-artefact (vergelijk CBN-2022-06 regel 111 zonder komma). Geen source-typo: de overeenkomstige bepaling in CBN-2022-06 art. 2:80 heeft geen komma.'
+    status: needs-rework
 themas:
   - sluiting vereffening
   - ontbinding
@@ -96,13 +96,10 @@ themas:
 # CBN-advies 2022/07 – Verslaggeving bij onmiddellijke sluiting van de vereffening van een VZW of IVZW
 
 ## Onderwerp van het advies
-
 Met de inwerkingtreding van het Wetboek van vennootschappen en verenigingen[^2] (hierna: WVV) werd, naar analogie met de regeling voor vennootschappen[^3], ook voor de VZW’s en IVZW’s de mogelijkheid geboden om te ontbinden en vereffenen in één akte[^4]. Aan de Commissie werd de vraag gesteld inzake de jaarrekeningrechtelijke gevolgen van deze procedure[^5] in de zin van art. 2:135 WVV. De Commissie brengt in herinnering dat de ontbinding met een daadwerkelijke vereffening van de VZW’s en IVZW’s het voorwerp uitmaakt van een afzonderlijk advies[^6].
 
 ## Analyse
-
 ### Preliminair
-
 De ontbinding en de sluiting van de vereffening in één akte laat toe om VZW’s en IVZW’s op een vlotte en kostenefficiënte wijze uit het rechtsverkeer te verwijderen[^7]. In voorkomend geval neemt de algemene vergadering, op voorstel van het bestuursorgaan, de beslissing tot de ontbinding van een VZW of IVZW en wordt deze beslissing onmiddellijk gevolgd door een tweede beslissing van de algemene vergadering, ditmaal tot de sluiting van de vereffening[^8].
 
 De Commissie wijst erop dat de procedure van de ontbinding en de sluiting van de vereffening in één akte slechts de eenvoudige afsluitingen viseert waar niets te vereffenen valt of in de situaties waar de vereffening van de actiefbestanddelen niet noodzakelijk is om alle verplichtingen van een VZW of IVZW tegemoet te komen[^9] en bijgevolg alles geregeld kan worden voorafgaand aan het ontbindingsbesluit zelf, vaak met uitzondering van de bestemming van het resterend actief[^10] en dus vermogen van de vereniging. 
@@ -110,7 +107,6 @@ De Commissie wijst erop dat de procedure van de ontbinding en de sluiting van de
 De procedure van de ontbinding en de vereffening in één akte is van toepassing op de VZW’s en IVZW’s, doch niet op de stichtingen[^11]. 
 
 ### Toepassingsvoorwaarden
-
 De procedure van de ontbinding en de sluiting van de vereffening in één akte wordt geregeld door art. 2:135 WVV. Overeenkomstig dit artikel kan van deze procedure gebruik worden gemaakt indien:
 
 1. er geen vereffenaar wordt aangeduid; 
@@ -120,7 +116,6 @@ De procedure van de ontbinding en de sluiting van de vereffening in één akte w
 Het resterend actief wordt bestemd voor het daartoe in de statuten aangewezen belangeloos doel, of bij gebrek daaraan, aan het belangeloos doel dat de algemene vergadering van de VZW of het door de statuten aangewezen orgaan van de IVZW aanwijst, met naleving van de aanwezigheids- en de meerderheidsvereisten voorgeschreven voor een statutenwijziging[^15].
 
 ### Situering procedure
-
 De procedure van de ontbinding en de sluiting van de vereffening maakt het mogelijk dat zowel de ontbinding, als de vereffening en de sluiting van de vereffening worden samengebracht om, in één akte, een VZW of IVZW uit het rechtsverkeer te verwijderen. Gelet op het duidelijk verband tussen de klassieke ontbinding en vereffening enerzijds, en de procedure van de onmiddellijke sluiting van de vereffening anderzijds, acht de Commissie het nuttig om hierna de jaarrekeningrechtelijke gevolgen weer te geven van de regels aangaande de klassieke ontbinding, de vereffening en de sluiting van de vereffening en hun verhouding tot art. 2:135 WVV dat de ontbinding en vereffening in één akte regelt.
 
 - Ontbinding: uit de formulering van art. 2:135, lid 1 WVV blijkt dat art. 2:110 WVV – het artikel dat de regels inzake de vrijwillige ontbinding van de VZW’s en IVZW’s bevat – bij de procedure van de ontbinding en de sluiting van de vereffening in één akte moet worden nageleefd, wat betekent dat de verslaggeving van art. 2:110 WVV moet worden gerespecteerd, alsook dat de staat van activa en passiva moet worden opgesteld[^16]. Bij de procedure van de vrijwillige ontbinding dient de algemene regel van art. 2:109, lid 2 WVV[^17] in acht te worden genomen, wat impliceert dat de ontbinding de afsluiting van het boekjaar tot gevolg heeft[^18] en dat er aldus een jaarrekening moet worden opgesteld[^19] die loopt van het begin van het gestarte boekjaar tot de datum van de ontbinding en vereffening in één akte. 
@@ -128,7 +123,6 @@ De procedure van de ontbinding en de sluiting van de vereffening maakt het mogel
 - Sluiting vereffening: bij de sluiting van de vereffening beslist de algemene vergadering over de goedkeuring van de rekeningen, over de kwijting aan de vereffenaars en, in voorkomend geval, aan de commissaris[^22], alsook over de sluiting van de vereffening. Bij de ontbinding en sluiting van de vereffening in één akte moet de algemene vergadering zich evident niet uitspreken omtrent de kwijting aan de vereffenaars. 
 
 ### Jaarrekeningrechtelijke gevolgen
-
 Met betrekking tot de jaarrekeningrechtelijke gevolgen dient melding te worden gemaakt van de algemeen geldende bepaling uit art. 2:109, lid 2 WVV dat stelt dat de ontbinding de afsluiting van het boekjaar van de vereniging tot gevolg heeft, van toepassing op de vrijwillige ontbinding uit art. 2:110 WVV en waarnaar uitdrukkelijk wordt verwezen in art. 2:135, lid 1 WVV[^23]. De Commissie is de mening toegedaan dat, aangezien de regel uit art. 2:109, lid 2 WVV opgenomen is onder de algemene bepalingen die van toepassing zijn op alle ontbindingsvormen van de VZW’s en IVZW’s, deze regel ook van toepassing is wanneer de ontbinding en de sluiting van de vereffening in één akte plaatsvindt. Het staat immers buiten kijf dat de procedure van de onmiddellijke sluiting van de vereffening tevens het lopende boekjaar afsluit.
 
 De verplichting van het bestuursorgaan om na de afsluitingsdatum van het boekjaar een jaarrekening op te stellen en ter goedkeuring voor te leggen aan de algemene vergadering[^24] heeft tot doel te verzekeren dat de leden jaarlijks – en tijdig – een getrouw beeld krijgen van het vermogen, de financiële positie en het resultaat van een VZW of IVZW[^25], teneinde hun controlerecht te kunnen uitoefenen. Indien de ontbinding en vereffening van een VZW of IVZW is gepland vóór de reguliere datum van de algemene vergadering die de jaarrekening moet behandelen van het laatste boekjaar vóór het boekjaar dat eindigt met de ontbinding en vereffening in één akte, is de Commissie van mening dat deze algemene vergadering vervroegd dient te worden ten laatste op dezelfde datum dan die waarop de akte tot ontbinding en vereffening in één akte zal worden ondertekend.
@@ -142,7 +136,6 @@ Het opstellen van dergelijke jaarrekening voor het boekjaar dat eindigt met de o
 Deze jaarrekening dient openbaar[^35] te worden gemaakt bij de Nationale Bank van België overeenkomstig art. 3:47 WVV.
 
 ## Voorbeeld
-
 Een vereniging zonder winstoogmerk Z (hierna: de VZW Z) voert haar boekhouding per kalenderjaar. De jaarlijkse algemene vergadering vindt plaats op 30 april. De jaarrekening van de VZW Z wordt gecontroleerd door de commissaris[^36] die door de algemene vergadering werd aangesteld. Op 30 juni 20N1 wordt besloten om de activiteiten van deze VZW niet meer verder te zetten en om de procedure tot het verwijderen van de VZW uit het rechtsverkeer op te starten. Het bestuursorgaan opteert daarbij voor de ontbinding en de onmiddellijke sluiting van de vereffening in één akte, zoals voorzien in art. 2:135 WVV. Alle bestaande schulden worden door het bestuursorgaan volledig aangezuiverd en er duiken geen nieuwe schulden op. Op 30 september 20N1 besluiten alle leden die op de algemene vergadering aanwezig zijn, met eenparigheid van stemmen, tot de onmiddellijke sluiting van de vereffening.
 
 Schematisch kunnen de volgende termijnen worden onderscheiden: 

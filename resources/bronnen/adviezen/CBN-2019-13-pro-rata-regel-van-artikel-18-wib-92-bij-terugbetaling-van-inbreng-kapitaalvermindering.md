@@ -3,49 +3,49 @@ bron: https://www.cbn-cnc.be/nl/adviezen/pro-rata-regel-van-artikel-18-wib-92-bi
 datum: 2019-11-21
 nummer: CBN-advies 2019/13
 provenance:
+  generated_at: '2026-05-11T17:48:39Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/pro-rata-regel-van-artikel-18-wib-92-bij-terugbetaling-van-inbreng-kapitaalvermindering
       sha256: 693c54c6facd7de15d4aa790eaee7926680f1bab37510af71555627545a6f0db
       version:
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T15:15:32Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
-    status: needs-rework
     confirmed_at: '2026-05-11T17:13:30Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: 'E1/E2: drie grote eigen-vermogen-overzichtstabellen (regels 141–442, 459–792, 856–1055) zijn volledig gefragmenteerd als enkelvoudige single-cell blokken — tabelstructuur volledig verloren. Journaalpost-tabellen en tekst zijn correct.'
     layer1:
-      file_size_chars: 24508
-      flags: []
-      heading_count: 9
-      max_section_chars: 11333
-      run_at: '2026-05-11T15:05:53Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:44Z'
+      heading_count: 9
+      max_section_chars: 11293
+      file_size_chars: 24444
+      flags: []
     layer2:
-      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T17:13:30Z'
-      rationale: 'E1/E2: drie grote eigen-vermogen-overzichtstabellen (regels 141–442, 459–792, 856–1055) zijn volledig gefragmenteerd als enkelvoudige single-cell blokken — tabelstructuur volledig verloren. Journaalpost-tabellen en tekst zijn correct.'
       concrete_problemen:
-        - regel: 141
-          categorie: E1
+        - categorie: E1
+          regel: 141
           type: pseudo-table
           voorbeeld: "| \n\n  | | \n|---|\n\nSamenstelling van het eigen vermogen op boekhoudkundig vlak"
-        - regel: 459
-          categorie: E1
+        - categorie: E1
+          regel: 459
           type: pseudo-table
           voorbeeld: "| \n\n  | | \n|---|\n\nSamenstelling van het eigen vermogen op boekhoudkundig vlak"
-        - regel: 856
-          categorie: E1
+        - categorie: E1
+          regel: 856
           type: pseudo-table
           voorbeeld: "| \n\n  | | \n|---|\n\nSamenstelling van het eigen vermogen op boekhoudkundig vlak"
+      rationale: 'E1/E2: drie grote eigen-vermogen-overzichtstabellen (regels 141–442, 459–792, 856–1055) zijn volledig gefragmenteerd als enkelvoudige single-cell blokken — tabelstructuur volledig verloren. Journaalpost-tabellen en tekst zijn correct.'
+      run_at: '2026-05-11T17:13:30Z'
+      status: needs-rework
+    rationale: 'E1/E2: drie grote eigen-vermogen-overzichtstabellen (regels 141–442, 459–792, 856–1055) zijn volledig gefragmenteerd als enkelvoudige single-cell blokken — tabelstructuur volledig verloren. Journaalpost-tabellen en tekst zijn correct.'
+    status: needs-rework
 themas:
   - terugbetaling inbreng
   - kapitaalvermindering
@@ -56,7 +56,6 @@ themas:
 # CBN-advies 2019/13 - Pro rata-regel van artikel 18 WIB 92 bij terugbetaling van inbreng / kapitaalvermindering
 
 ## Inleiding
-
 Tot en met 31 december 2017 kon een kapitaalvermindering vrijgesteld zijn van belastingen indien de algemene vergadering beslist had om de vermindering aan te rekenen op het fiscaal gestort kapitaal[^2]. Sinds 1 januari 2018 staat het de aandeelhouders niet langer vrij een dergelijke fiscale aanrekening zelf te bepalen. Dit gebeurt nu op basis van een wettelijke fictie (art. 18, lid 2 tot 6, WIB 92).
 
 Kapitaalterugbetalingen beslist door een gewone algemene vergadering leiden sinds 1 januari 2018 tot de toekenning van een belastbaar dividend indien de uitkerende vennootschap over bepaalde reserves beschikt[^3]. Volledigheidshalve benadrukt de Commissie dat dezelfde regels gelden voor (gehele of gedeeltelijke) terugbetalingen van uitgiftepremies en voor bedragen waarop is ingeschreven ter gelegenheid van de uitgifte van winstbewijzen die worden gelijkgesteld met fiscaal gestort kapitaal.
@@ -77,9 +76,7 @@ Onderhavig advies beoogt dan ook het verduidelijken van de door de wet aangereik
 Onderhavig advies behandelt voornamelijk het geval van een kapitaalvermindering in hoofde van een kapitaalvennootschap. De hieronder beschreven boekhoudregels gelden echter *mutatis mutandis* voor kapitaalloze vennootschappen. Er wordt opgemerkt dat de Commissie momenteel werkt aan een advies over de omzetting van een kapitaalhoudende BVBA naar een kapitaalloze BV.
 
 ## Nieuwe regels inzake kapitaalvermindering
-
 ### Artikel 18, lid 2 tot 6, WIB 92
-
 Dividenden omvatten fiscaal:
 
 - gehele of gedeeltelijke terugbetalingen van kapitaal, met uitzondering van de terugbetalingen die overeenkomstig artikel 18, lid 2 WIB 92 geacht worden voort te komen uit het gestort kapitaal of uit de in artikel 18, lid 1, 2° bis WIB 92 vermelde bedragen die met gestort kapitaal worden gelijkgesteld en die zijn verkregen ter uitvoering van een regelmatige beslissing van de vennootschap overeenkomstig het Wetboek van vennootschappen en verenigingen of, indien de vennootschap niet onder het Wetboek ressorteert, overeenkomstig de bepalingen van het recht dat haar beheerst; 
@@ -119,11 +116,9 @@ Om de pro rata bedoeld in artikel 18, lid 2 en 3 WIB 92 te bepalen, wordt geen r
 - of voor buitenlandse vennootschappen, de in gelijkaardige bepalingen naar buitenlands recht bedoelde reserves of voorzieningen. 
 
 ### Voorbeeld
-
 De algemene vergadering van een naamloze vennootschap beslist om in 2018 over te gaan tot een kapitaalvermindering van 400 en om in de loop van 2019 een dividend van 700 uit te keren.
 
 #### Vermindering van het kapitaal met 400 tijdens boekjaar 2018
-
 Het eigen vermogen van de vennootschap is als volgt samengesteld: (gestort) kapitaal van 1.000, uitgiftepremies van 400, wettelijke reserve van 50, beschikbare reserves van 800 en vrijgestelde reserves van 150.
 
 De in 2018 uitgevoerde kapitaalvermindering wordt boekhoudkundig behandeld als een vermindering van het kapitaal van 1.000 naar 600.
@@ -140,7 +135,7 @@ Het gevolg hiervan is een verhoudingsgewijze aanrekening van 255 (400 * 63,6 %) 
 
 | 
 
-  | | 
+ | | 
 |---|
 
 Samenstelling van het eigen vermogen op boekhoudkundig vlak
@@ -153,7 +148,7 @@ Samenstelling van het eigen vermogen op fiscaal vlak
   | 
 | 
 
-  | | 
+ | | 
 |---|
 
 Begin-toestand
@@ -161,7 +156,7 @@ Begin-toestand
   | | 
 |---|
 
-  | | 
+ | | 
 |---|
 
 Eind-toestand
@@ -174,7 +169,7 @@ Begin-toestand
   | | 
 |---|
 
-  | | 
+ | | 
 |---|
 
 Eind-toestand
@@ -182,10 +177,10 @@ Eind-toestand
   | 
 | 
 
-  | | 
+ | | 
 |---|
 
-  | | 
+ | | 
 |---|
 
 Fiscaal gestort kapitaal
@@ -238,7 +233,7 @@ Uitgiftepremies
   | | 
 |---|
 
-  | | 
+ | | 
 |---|
 
 400
@@ -251,7 +246,7 @@ Uitgiftepremies
   | | 
 |---|
 
-  | | 
+ | | 
 |---|
 
 400
@@ -259,10 +254,10 @@ Uitgiftepremies
   | 
 | 
 
-  | | 
+ | | 
 |---|
 
-  | | 
+ | | 
 |---|
 
 Belaste reserves
@@ -280,7 +275,7 @@ Wettelijke reserve
   | | 
 |---|
 
-  | | 
+ | | 
 |---|
 
 50
@@ -293,7 +288,7 @@ Wettelijke reserve
   | | 
 |---|
 
-  | | 
+ | | 
 |---|
 
 50
@@ -311,7 +306,7 @@ Beschikbare reserves
   | | 
 |---|
 
-  | | 
+ | | 
 |---|
 
 800
@@ -324,7 +319,7 @@ Beschikbare reserves
   | | 
 |---|
 
-  | | 
+ | | 
 |---|
 
 800
@@ -342,7 +337,7 @@ Negatieve reserves
   | | 
 |---|
 
-  | | 
+ | | 
 |---|
 
 -
@@ -365,10 +360,10 @@ Negatieve reserves
   | 
 | 
 
-  | | 
+ | | 
 |---|
 
-  | | 
+ | | 
 |---|
 
 Vrijgestelde reserves
@@ -386,7 +381,7 @@ Belastingvrije reserves
   | | 
 |---|
 
-  | | 
+ | | 
 |---|
 
 150
@@ -399,7 +394,7 @@ Belastingvrije reserves
   | | 
 |---|
 
-  | | 
+ | | 
 |---|
 
 150
@@ -451,14 +446,13 @@ De boekingen worden als volgt verricht:
 | aan | 489 | Andere diverse schulden | | 400 |
 
 #### Dividenduitkering van 700 in 2019
-
 Boekhoudkundig wordt deze verrichting behandeld als de uitkering van beschikbare reserves ten belope van 700.
 
 De ‘fiscaal’ beschikbare reserves* (655, namelijk 800 van beschikbare reserves verminderd met 145 van negatieve reserves) volstaan niet voor de integrale aanrekening van de dividenduitkering. Het saldo van de uitkering (45) wordt bijgevolg aangerekend op de reserves die al behandeld zijn als dividend in het kader van een eerdere kapitaalvermindering.
 
 | 
 
-  | | 
+ | | 
 |---|
 
 Samenstelling van het eigen vermogen op boekhoudkundig vlak
@@ -471,7 +465,7 @@ Samenstelling van het eigen vermogen op fiscaal vlak
   | 
 | 
 
-  | | 
+ | | 
 |---|
 
 Begin-toestand
@@ -479,7 +473,7 @@ Begin-toestand
   | | 
 |---|
 
-  | | 
+ | | 
 |---|
 
 Eind-toestand
@@ -492,7 +486,7 @@ Begin-toestand
   | | 
 |---|
 
-  | | 
+ | | 
 |---|
 
 Eind-toestand
@@ -500,10 +494,10 @@ Eind-toestand
   | 
 | 
 
-  | | 
+ | | 
 |---|
 
-  | | 
+ | | 
 |---|
 
 Fiscaal gestort kapitaal
@@ -521,7 +515,7 @@ Kapitaal
   | | 
 |---|
 
-  | | 
+ | | 
 |---|
 
 600
@@ -554,7 +548,7 @@ Uitgiftepremies
   | | 
 |---|
 
-  | | 
+ | | 
 |---|
 
 400
@@ -567,7 +561,7 @@ Uitgiftepremies
   | | 
 |---|
 
-  | | 
+ | | 
 |---|
 
 400
@@ -575,10 +569,10 @@ Uitgiftepremies
   | 
 | 
 
-  | | 
+ | | 
 |---|
 
-  | | 
+ | | 
 |---|
 
 Belaste reserves
@@ -596,7 +590,7 @@ Wettelijke reserve
   | | 
 |---|
 
-  | | 
+ | | 
 |---|
 
 50
@@ -609,7 +603,7 @@ Wettelijke reserve
   | | 
 |---|
 
-  | | 
+ | | 
 |---|
 
 50
@@ -662,7 +656,7 @@ Negatieve reserves
   | | 
 |---|
 
-  | | 
+ | | 
 |---|
 
 -
@@ -685,10 +679,10 @@ Negatieve reserves
   | 
 | 
 
-  | | 
+ | | 
 |---|
 
-  | | 
+ | | 
 |---|
 
 Vrijgestelde reserves
@@ -706,7 +700,7 @@ Belastingvrije reserves
   | | 
 |---|
 
-  | | 
+ | | 
 |---|
 
 150
@@ -719,7 +713,7 @@ Belastingvrije reserves
   | | 
 |---|
 
-  | | 
+ | | 
 |---|
 
 150
@@ -768,13 +762,13 @@ Verhoging van de begintoestand van de reserves[^10]
   | | 
 |---|
 
-  | | 
+ | | 
 |---|
 
-  | | 
+ | | 
 |---|
 
-  | | 
+ | | 
 |---|
 
 45
@@ -818,9 +812,7 @@ De boekingen worden als volgt verricht:
 | aan | 5500 | Kredietinstellingen: Rekening-courant | | 700 |
 
 ## Vrijwillige toepassing van de bepalingen van artikel 18, lid 2 tot 6 (artikel 18, lid 7 WIB 92)
-
-### Toepassing van de beslissing tot aanrekening van de vennootschap[^12]
-
+### Toepassing van de beslissing tot aanrekening van de vennootschap
 De wetgever heeft voorzien in de mogelijkheid van een ꞌvrijwilligeꞌ toepassing van de maatregelen bedoeld in art. 18, tweede tot zesde lid WIB 92, voor zover dat (zie art. 18, zevende lid WIB 92):
 
 - de algemene vergadering die tot de terugbetaling van gestort kapitaal (of van ermee gelijkgestelde bedragen) beslist, voorziet, – in dezelfde beslissing –, in een wijze van aanrekening van de vermindering van het eigen vermogen die zowel op het gestort kapitaal (en, in voorkomend geval, op de ermee gelijkgestelde bedragen) als op de reserves die in aanmerking komen voor de toepassing van het nieuw regime, betrekking heeft; 
@@ -833,7 +825,6 @@ Het bedrag van de dividenden wordt in dit geval op basis van deze beslissing bep
 Bovendien raadt de Commissie aan expliciet in de akte op te nemen dat de terugbetaling van inbreng alsook de terugbetaling van de daaruit voortvloeiende dividenduitkering werden uitgevoerd overeenkomstig artikel 18 WIB 92, zevende lid en in overeenstemming met circulaire 2018/C/103.
 
 ### Voorbeeld
-
 De algemene vergadering beslist naar aanleiding van een vermindering van het eigen vermogen zoals die bestaat bij het begin van het belastbaar tijdperk, een bedrag van 1.000 uit te keren aan de aandeelhouders of vennoten.
 
 Zij beslist zelf om dit bedrag op een dusdanige manier aan te rekenen dat zij op grond van art. 18, tweede tot zesde lid, WIB 92, een correcte pro rata aanrekent.
@@ -855,7 +846,7 @@ Bijgevolg zal het bedrag van het dividend ten belope van 800 als dusdanig aanvaa
 
 | 
 
-  | | 
+ | | 
 |---|
 
 Samenstelling van het eigen vermogen op boekhoudkundig vlak
@@ -868,7 +859,7 @@ Samenstelling van het eigen vermogen op fiscaal vlak
   | 
 | 
 
-  | | 
+ | | 
 |---|
 
 Begin-toestand
@@ -876,7 +867,7 @@ Begin-toestand
   | | 
 |---|
 
-  | | 
+ | | 
 |---|
 
 Eind-toestand
@@ -889,7 +880,7 @@ Begin-toestand
   | | 
 |---|
 
-  | | 
+ | | 
 |---|
 
 Eind-toestand
@@ -897,10 +888,10 @@ Eind-toestand
   | 
 | 
 
-  | | 
+ | | 
 |---|
 
-  | | 
+ | | 
 |---|
 
 Fiscaal gestort kapitaal
@@ -943,10 +934,10 @@ Kapitaal
   | 
 | 
 
-  | | 
+ | | 
 |---|
 
-  | | 
+ | | 
 |---|
 
 Belaste reserves
@@ -964,7 +955,7 @@ Wettelijke reserve
   | | 
 |---|
 
-  | | 
+ | | 
 |---|
 
 500
@@ -977,7 +968,7 @@ Wettelijke reserve
   | | 
 |---|
 
-  | | 
+ | | 
 |---|
 
 500

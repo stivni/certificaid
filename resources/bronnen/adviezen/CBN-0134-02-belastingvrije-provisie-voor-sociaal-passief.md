@@ -7,41 +7,41 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/voorzieningen-voor-de-schulden-ten-opzichte-van-het-personeel-bij-sluiting-van-de
 nummer: CBN-advies 134/2
 provenance:
+  generated_at: '2026-05-11T17:48:38Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/belastingvrije-provisie-voor-sociaal-passief
       sha256: 938d859daac2fd8d5c51f728bb891bcb6c39abf197dd7efcb74f735ab792253e
       version:
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
-    status: needs-rework
     confirmed_at: '2026-05-11T17:05:21Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "F1 op L55: frontmatter-veld themas bevat ongedecodeerde HTML-entiteit '&#039;' (apostrof) in 'voorzieningen voor risico&#039;s en kosten' — ETL-bug die machine-leesbare metadata corrumpeert voor retrieval. Body (L59-L72) is volledig schoon."
     layer1:
-      file_size_chars: 2126
-      flags: []
+      status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:41Z'
       heading_count: 0
       max_section_chars: 2126
-      run_at: '2026-05-11T15:05:49Z'
-      run_id: 20260511-150547
-      status: pass
+      file_size_chars: 2126
+      flags: []
     layer2:
-      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T17:05:21Z'
-      rationale: "F1 op L55: frontmatter-veld themas bevat ongedecodeerde HTML-entiteit '&#039;' (apostrof) in 'voorzieningen voor risico&#039;s en kosten' — ETL-bug die machine-leesbare metadata corrumpeert voor retrieval. Body (L59-L72) is volledig schoon."
       concrete_problemen:
-        - regel: 55
-          categorie: F1
+        - categorie: F1
+          regel: 55
           type: other
           voorbeeld: voorzieningen voor risico&#039;s en kosten (HTML-entiteit niet gedecodeerd in frontmatter)
+      rationale: 'F1 op L55: frontmatter-veld themas bevat ongedecodeerde HTML-entiteit ''&#039;'' (apostrof) in ''voorzieningen voor risico&#039;s en kosten'' — ETL-bug die machine-leesbare metadata corrumpeert voor retrieval. Body (L59-L72) is volledig schoon.'
+      run_at: '2026-05-11T17:05:21Z'
+      status: needs-rework
+    rationale: 'F1 op L55: frontmatter-veld themas bevat ongedecodeerde HTML-entiteit ''&#039;'' (apostrof) in ''voorzieningen voor risico&#039;s en kosten'' — ETL-bug die machine-leesbare metadata corrumpeert voor retrieval. Body (L59-L72) is volledig schoon.'
+    status: needs-rework
 themas:
   - afdanking van personeel
   - belastingen

@@ -2,66 +2,57 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/groottecriteria-artikel-15-wvenn-verbonden-vennootschappen-verschillende-afsluitingsdata
 datum: 2017-04-19
 gerelateerde_adviezen:
-- datum: '2022-12-21'
-  titel: 'Omzetting van een vennootschap: gevolgen voor de jaarrekening'
-  url: https://www.cbn-cnc.be/nl/adviezen/omzetting-van-een-vennootschap-gevolgen-voor-de-jaarrekening
-- datum: '2018-05-09'
-  titel: Gebeurtenissen na afsluitingsdatum van het boekjaar
-  url: https://www.cbn-cnc.be/nl/adviezen/gebeurtenissen-na-afsluitingsdatum-van-het-boekjaar
+  - datum: '2022-12-21'
+    titel: 'Omzetting van een vennootschap: gevolgen voor de jaarrekening'
+    url: https://www.cbn-cnc.be/nl/adviezen/omzetting-van-een-vennootschap-gevolgen-voor-de-jaarrekening
+  - datum: '2018-05-09'
+    titel: Gebeurtenissen na afsluitingsdatum van het boekjaar
+    url: https://www.cbn-cnc.be/nl/adviezen/gebeurtenissen-na-afsluitingsdatum-van-het-boekjaar
 nummer: CBN-advies 2017/10
 provenance:
-  generated_at: '2026-05-11T15:15:31Z'
+  generated_at: '2026-05-11T17:48:39Z'
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/groottecriteria-artikel-15-wvenn-verbonden-vennootschappen-verschillende-afsluitingsdata
-    sha256: 8127dbd2686b09042a052daebefc4c2f3d9dbf73237678837d7436bd6e1c7fb4
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/groottecriteria-artikel-15-wvenn-verbonden-vennootschappen-verschillende-afsluitingsdata
+      sha256: 8127dbd2686b09042a052daebefc4c2f3d9dbf73237678837d7436bd6e1c7fb4
+      version:
   stale: false
-  stale_reason: null
+  stale_reason:
   tooling:
-    model: null
+    model:
     pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    prompt_version: null
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
     confirmed_at: '2026-05-11T13:30:33Z'
     confirmed_by: subagent-sonnet-4-6
     layer1:
-      file_size_chars: 10734
-      flags: []
-      heading_count: 3
-      max_section_chars: 7249
-      run_at: '2026-05-11T15:05:53Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:44Z'
+      heading_count: 3
+      max_section_chars: 7248
+      file_size_chars: 10731
+      flags: []
     layer2:
       agent: subagent-sonnet-4-6
       concrete_problemen: []
-      rationale: 'Drie heldere ## headings, volledige en doorlopende tekst, alle 13
-        voetnoten correct gedefinieerd. Geen PDF-extractie-artefacten aangetroffen:
-        geen form-feeds, geen spurious line-breaks, geen broken italic, geen pseudo-tabellen.
-        De legende-symbolen (<< < >) op regels 109-113 zijn authentieke CBN-notatie,
-        geen glyph-artefact.'
+      rationale: 'Drie heldere ## headings, volledige en doorlopende tekst, alle 13 voetnoten correct gedefinieerd. Geen PDF-extractie-artefacten aangetroffen: geen form-feeds, geen spurious line-breaks, geen broken italic, geen pseudo-tabellen. De legende-symbolen (<< < >) op regels 109-113 zijn authentieke CBN-notatie, geen glyph-artefact.'
       run_at: '2026-05-11T13:30:33Z'
       status: trusted
-    rationale: 'Drie heldere ## headings, volledige en doorlopende tekst, alle 13
-      voetnoten correct gedefinieerd. Geen PDF-extractie-artefacten aangetroffen:
-      geen form-feeds, geen spurious line-breaks, geen broken italic, geen pseudo-tabellen.
-      De legende-symbolen (<< < >) op regels 109-113 zijn authentieke CBN-notatie,
-      geen glyph-artefact.'
+    rationale: 'Drie heldere ## headings, volledige en doorlopende tekst, alle 13 voetnoten correct gedefinieerd. Geen PDF-extractie-artefacten aangetroffen: geen form-feeds, geen spurious line-breaks, geen broken italic, geen pseudo-tabellen. De legende-symbolen (<< < >) op regels 109-113 zijn authentieke CBN-notatie, geen glyph-artefact.'
     status: trusted
 themas:
-- afsluitdatum
-- artikel 15 W.Venn.
-- consolidatiekring
-- criteria
-- groottecriteria
-- verbonden onderneming
+  - afsluitdatum
+  - artikel 15 W.Venn.
+  - consolidatiekring
+  - criteria
+  - groottecriteria
+  - verbonden onderneming
 ---
 
 # CBN-advies 2017/10 – Groottecriteria artikel 15 W.Venn. – Verbonden vennootschappen – Verschillende afsluitingsdata - Wijziging van consolidatiekring
 
 ## Algemeen
-
 Onderhavig advies brengt verduidelijking over de wijze waarop de in artikel 15 W.Venn. vermelde groottecriteria moeten worden beoordeeld wanneer een vennootschap verbonden is met één of meerdere vennootschappen. Onderhavig advies vormt een aanvulling op het CBN-advies 2016/3 - *Beoordeling groottecriteria artikelen* 15 en 15/1 *W.Venn.* waarin uitsluitend de gevallen aan bod kwamen waarbij de balansdata van de verbonden vennootschappen dezelfde zijn en waarbij er geen wijziging in de consolidatiekring plaats heeft gevonden.
 
 In het bijzonder wordt eerst toegelicht welke jaarrekeningen (balansdata) van de verbonden vennootschappen in aanmerking moeten worden genomen voor de beoordeling van de groottecriteria. Vervolgens wordt gepreciseerd hoe de groottecriteria moeten worden beoordeeld wanneer de verbondenheid met een andere vennootschap tijdens het boekjaar ontstaan of weggevallen is.
@@ -73,7 +64,6 @@ De beoordeling van de groottecriteria vindt plaats op de balansdatum van de venn
  Dit geldt ongeacht wanneer de verbondenheid is ontstaan. De beoordeling op geconsolideerde (of op geaggregeerde) basis vindt evenwel uitsluitend plaats voor vennootschappen die op de balansdatum van het boekjaar waarvoor de groottecriteria onderzocht worden moedervennootschappen zijn.[^5] 
 
 ## In aanmerking te nemen balansdata
-
 Wanneer de balansdata van de verbonden vennootschappen van elkaar verschillen, vindt de beoordeling van de groottecriteria plaats op basis van de laatst opgemaakte jaarrekeningen van de verbonden vennootschappen.[^6]
  Met de* laatst opgemaakte jaarrekening* kan uitsluitend worden bedoeld de *jaarrekening met betrekking tot het laatst afgesloten boekjaar*.
 
@@ -104,7 +94,6 @@ De beoordeling van de grootte van MIDCO op 31/12/N vindt plaats op basis van:
 2. de geaggregeerde cijfers (+20%-methode) van TOPCO 31/03/N; MIDCO 31/12/N; SUBCO1 31/12/N; SUBCO2 30/11/N; SUBCO3 31/01/N. 
 
 ## Wijziging verbondenheid
-
 De beoordeling van de groottecriteria vindt voor moedervennootschappen plaats op geconsolideerde (of geaggregeerde) basis.[^8]
  De Commissie benadrukt dat voor de beoordeling van de grootte van een vennootschap de verbondenheid principieel moet worden beoordeeld op de balansdatum van het betreffende boekjaar. Indien een wijziging van de verbondenheid heeft plaatsgevonden tijdens het boekjaar, heeft dit aldus gevolgen voor de wijze waarop de groottecriteria voor deze vennootschap moeten worden beoordeeld voor dat boekjaar.
 

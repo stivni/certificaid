@@ -2,64 +2,60 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-tax-shelter-in-hoofde-van-de-productievennootschap
 datum: 2012-03-21
 gerelateerde_adviezen:
-- datum: '2025-07-14'
-  titel: De boekhoudkundige verwerking van immateriële vaste activa (update) [ONTWERP]
-  url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-immateriele-vaste-activa-update-ontwerp
-- datum: '2018-05-30'
-  titel: Tax shelter voor podiumkunsten
-  url: https://www.cbn-cnc.be/nl/adviezen/tax-shelter-voor-podiumkunsten
-- datum: '2018-03-21'
-  titel: Aftrek voor innovatie-inkomsten
-  url: https://www.cbn-cnc.be/nl/adviezen/aftrek-voor-innovatie-inkomsten
-- datum: '2016-12-14'
-  titel: 'Kosten van onderzoek en ontwikkeling: onderscheid tussen onderzoek en ontwikkeling
-    - verduidelijking'
-  url: https://www.cbn-cnc.be/nl/adviezen/kosten-van-onderzoek-en-ontwikkeling-onderscheid-tussen-onderzoek-en-ontwikkeling
+  - datum: '2025-07-14'
+    titel: De boekhoudkundige verwerking van immateriële vaste activa (update) [ONTWERP]
+    url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-immateriele-vaste-activa-update-ontwerp
+  - datum: '2018-05-30'
+    titel: Tax shelter voor podiumkunsten
+    url: https://www.cbn-cnc.be/nl/adviezen/tax-shelter-voor-podiumkunsten
+  - datum: '2018-03-21'
+    titel: Aftrek voor innovatie-inkomsten
+    url: https://www.cbn-cnc.be/nl/adviezen/aftrek-voor-innovatie-inkomsten
+  - datum: '2016-12-14'
+    titel: 'Kosten van onderzoek en ontwikkeling: onderscheid tussen onderzoek en ontwikkeling - verduidelijking'
+    url: https://www.cbn-cnc.be/nl/adviezen/kosten-van-onderzoek-en-ontwikkeling-onderscheid-tussen-onderzoek-en-ontwikkeling
 nummer: CBN-advies 2012/6
 provenance:
-  generated_at: '2026-05-11T15:15:31Z'
+  generated_at: '2026-05-11T17:48:39Z'
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-tax-shelter-in-hoofde-van-de-productievennootschap
-    sha256: 12abeb2f8f991f826eab0cc96d473615b3719e6dfe4011df92eb462d6c90fd2c
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-tax-shelter-in-hoofde-van-de-productievennootschap
+      sha256: 12abeb2f8f991f826eab0cc96d473615b3719e6dfe4011df92eb462d6c90fd2c
+      version:
   stale: false
-  stale_reason: null
+  stale_reason:
   tooling:
-    model: null
+    model:
     pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    prompt_version: null
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
     confirmed_at: '2026-05-08T21:19:09Z'
     confirmed_by: human
     layer1:
-      file_size_chars: 34163
-      flags: []
-      heading_count: 6
-      max_section_chars: 12302
-      run_at: '2026-05-11T15:05:50Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:43Z'
+      heading_count: 6
+      max_section_chars: 12301
+      file_size_chars: 34157
+      flags: []
     layer2:
-      agent: null
+      agent:
       concrete_problemen: []
-      rationale: null
-      run_at: null
+      rationale:
+      run_at:
       status: not_run
-    rationale: 'Heading-structuur hersteld: 10 genummerde ### subsecties via promote_implicit_headings
-      (bold numbered titles). max_section_size warn benign: langste ## sectie 28K,
-      maar H3 chunks elk ~2-3K. 19 journaalposten correct.'
+    rationale: 'Heading-structuur hersteld: 10 genummerde ### subsecties via promote_implicit_headings (bold numbered titles). max_section_size warn benign: langste ## sectie 28K, maar H3 chunks elk ~2-3K. 19 journaalposten correct.'
     status: trusted
 themas:
-- immateriële vaste activa
-- niet in de balans opgenomen rechten en verplichtingen
-- tax shelter
+  - immateriële vaste activa
+  - niet in de balans opgenomen rechten en verplichtingen
+  - tax shelter
 ---
 
 # CBN-advies 2012/6 – De boekhoudkundige verwerking van de tax shelter in hoofde van de productievennootschap
 
 ## Inleiding
-
 In dit advies wordt de boekhoudkundige verwerkingswijze behandeld die volgens de Commissie voor Boekhoudkundige Normen moet worden toegepast voor het tax shelter-mechanisme in hoofde van de productievennootschap. 
 
 Een audiovisueel werk is een reproductie van het werk van de auteur en van de prestatie van de acteurs die dit werk vertolken. Dergelijke werken genieten de bescherming van de wet van 30 juni 1994 betreffende het auteursrecht en de naburige rechten (hierna: “de wet betreffende het auteursrecht en de naburige rechten”). 
@@ -96,9 +92,7 @@ In ruil voor zijn investering ontvangt de investeerder een vorderingsrecht op de
 Wat deze productie- en exploitatierechten betreft, wordt in dit advies enkel het bijzondere, maar in de praktijk het meest voorkomende, geval behandeld waarbij de rechten enkel betrekking hebben op de netto-opbrengst die het werk oplevert (die wordt vaak APNI genoemd, wat staat voor aandeel van de producent in de netto-inkomsten). 
 
 ## Boekhoudkundige verwerking in hoofde van de productievennootschap
-
 ### 1. Boekhoudkundige verwerking van de productie van het audiovisueel werk
-
 Bij het verwerven van de rechten op het scenario en de dialogen of de rechten op de aanpassing van een literair werk, produceert (of laat) de productievennootschap het audiovisueel werk (produceren). 
 
 De productie van het audiovisueel werk verloopt in verschillende fasen, gaande van de casting en de voorbereiding van de opnames (ontwikkeling en pre-productie) tot het mixen en de montage van het werk (post-productie), die worden gespreid over verschillende maanden en zelfs jaren.
@@ -147,7 +141,6 @@ Vervolgens zullen deze uitgaven worden geactiveerd als vervaardigingskosten van 
  Voor de boekhoudkundige verwerking van de exploitatiekosten van het werk, zie *infra* nr. 19. 
 
 ### 2. Afschrijving van het audiovisueel werk
-
 Aangezien een audiovisueel werk een beperkte gebruiksduur heeft, zal het overeenkomstig artikel 61, § 1 KB W.Venn.[^19] worden afgeschreven volgens het afschrijvingsplan dat werd opgesteld door het beheersorgaan van de productievennootschap[^20]. 
 
 De afschrijving van het audiovisueel werk zal in principe aanvangen op het ogenblik dat de productievennootschap de effectieve exploitatie ervan kan starten, met andere woorden, wanneer het voltooide werk vorm heeft gekregen door de standaardkopie. Het is deze hypothese die in het vervolg van dit advies wordt aangehouden. Het is echter niet uitgesloten dat de afschrijving vóór deze datum kan aanvangen.
@@ -287,13 +280,11 @@ Beschikt de investeerder over een rechtstreekse vordering op de opbrengsten jege
 | aan | 44 | Schuld aan de titularissen van de rechten op de opbrengsten | | 3 |
 
 ### 7. Exploitatiekosten van het audiovisueel werk
-
 De exploitatiekosten waarmee de productievennootschap wordt geconfronteerd, betreffen kosten die zij maakt om de promotie en de distributie van het audiovisueel werk te verzekeren. 
 
 Deze kosten worden in principe niet geactiveerd. Ze worden in resultaat genomen op het ogenblik dat ze ontstaan.
 
 ### 8. Leningen toegekend door de investeerders onder de vorm van de tax shelter
-
 De boekingen met betrekking tot de toegekende lening vertonen geen bijzonderheden. 
 
 Het leencontract ontstaat enkel door de afgifte van de geleende sommen aan de lener (het betreft een zogenaamd “reëel” contract (Burgerlijk Wetboek, met name artikel 1892). 

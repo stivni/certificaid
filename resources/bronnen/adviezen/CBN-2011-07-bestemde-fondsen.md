@@ -7,41 +7,41 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/verenigingen-en-stichtingen-compensatie-van-negatieve-fondsen
 nummer: CBN-advies 2011/7
 provenance:
+  generated_at: '2026-05-11T17:48:39Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/bestemde-fondsen
       sha256: aaf3d6eb8ebd7055b7296f9ee9efb1f17a8c0e2814922dfdda9aee7efb275a30
       version:
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
-    status: needs-rework
     confirmed_at: '2026-05-11T17:09:38Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: 'D3 bevestigd: voetnoot [^4] is gedefinieerd op r150 (redactionele noot over voorgestelde naamswijziging rekening 790) maar heeft geen overeenkomstige [^4]-callout in de body — de referentie die in de originele bron bij de Boeking-sectie stond is verloren gegaan bij de extractie. Overige voetnoten (1-3, 5-10) correct gerefereerd. Drie voorbeelden met pipe-tabellen correct. Boeking-template r64-67 heeft lege bedragen wat de originele document-opzet weerspiegelt.'
     layer1:
-      file_size_chars: 8712
-      flags: []
-      heading_count: 3
-      max_section_chars: 2826
-      run_at: '2026-05-11T15:05:50Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:42Z'
+      heading_count: 3
+      max_section_chars: 2825
+      file_size_chars: 8709
+      flags: []
     layer2:
-      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T17:09:38Z'
-      rationale: 'D3 bevestigd: voetnoot [^4] is gedefinieerd op r150 (redactionele noot over voorgestelde naamswijziging rekening 790) maar heeft geen overeenkomstige [^4]-callout in de body — de referentie die in de originele bron bij de Boeking-sectie stond is verloren gegaan bij de extractie. Overige voetnoten (1-3, 5-10) correct gerefereerd. Drie voorbeelden met pipe-tabellen correct. Boeking-template r64-67 heeft lege bedragen wat de originele document-opzet weerspiegelt.'
       concrete_problemen:
-        - regel: 150
-          categorie: D3
+        - categorie: D3
+          regel: 150
           type: other
           voorbeeld: '[^4]: De Commissie zal voorstellen om de benaming van rekening 790 aan te passen...'
+      rationale: 'D3 bevestigd: voetnoot [^4] is gedefinieerd op r150 (redactionele noot over voorgestelde naamswijziging rekening 790) maar heeft geen overeenkomstige [^4]-callout in de body — de referentie die in de originele bron bij de Boeking-sectie stond is verloren gegaan bij de extractie. Overige voetnoten (1-3, 5-10) correct gerefereerd. Drie voorbeelden met pipe-tabellen correct. Boeking-template r64-67 heeft lege bedragen wat de originele document-opzet weerspiegelt.'
+      run_at: '2026-05-11T17:09:38Z'
+      status: needs-rework
+    rationale: 'D3 bevestigd: voetnoot [^4] is gedefinieerd op r150 (redactionele noot over voorgestelde naamswijziging rekening 790) maar heeft geen overeenkomstige [^4]-callout in de body — de referentie die in de originele bron bij de Boeking-sectie stond is verloren gegaan bij de extractie. Overige voetnoten (1-3, 5-10) correct gerefereerd. Drie voorbeelden met pipe-tabellen correct. Boeking-template r64-67 heeft lege bedragen wat de originele document-opzet weerspiegelt.'
+    status: needs-rework
 themas:
   - bestemde fondsen
   - fondsen bestemd voor investeringen
@@ -69,7 +69,6 @@ Indien de vereniging of stichting op het einde van het boekjaar een positief res
 De vereniging of stichting kan ook beslissen om het positief overgedragen resultaat van vorige jaren (gedeeltelijk) aan te wenden voor de aanleg van een bestemd fonds. 
 
 ## Voorbeeld 1
-
 Stel dat de vereniging op het einde van het vorige boekjaar een positief resultaat behaalde van 5.000 euro. Aan dit resultaat werd geen specifieke bestemming gegeven en het werd geboekt op rekening 140 *Positief overgedragen resultaat*. Dit boekjaar behaalt de vereniging een positief resultaat van 14.000 euro. Het te bestemmen resultaat van het boekjaar bestaat uit dit positief resultaat van het boekjaar vermeerderd met het overgedragen positief resultaat van het vorige boekjaar (14.000 + 5.000). Het te bestemmen resultaat wordt volledig toegekend aan een fonds bestemd voor investeringen.
 
 | | Rekening | Omschrijving | Debet | Credit |
@@ -95,7 +94,6 @@ Het rekeningenstelsel voorziet de aanleg van *Fondsen bestemd voor investeringen
 De Commissie beveelt sterk aan om de bestemde fondsen terug te nemen bij aanwending. Bij heel specifiek omschreven fondsen is de Commissie van oordeel dat dit een verplichting is. 
 
 ## Voorbeeld 2
-
 Stel dat een fonds bestemd voor investeringen ten belope van 25.000 euro wordt aangelegd voor de aankoop van een bestelwagen. Op het moment dat de bestelwagen wordt aangekocht (kostprijs 24.000 euro), dient dit fonds, naar het oordeel van de Commissie, teruggenomen te worden.
 
 - *Aankoop bestelwagen*:
@@ -131,7 +129,6 @@ Wanneer een vereniging of stichting een bestemd fonds aanlegt, dan dient zij in 
 Deze waarderingsregels dienen nauwkeurig te bepalen waarvoor het bestemd fonds wordt aangelegd. Zij dienen ook aan te geven op welke manier dit fonds zal aangelegd worden. Zo kan de jaarlijkse toekenning aan het fonds bijvoorbeeld gebeuren voor een percentage van het positieve resultaat of voor een vast bedrag (uiteraard onder voorbehoud van voldoende postitief resultaat), en dit tot een bepaald bedrag bereikt wordt. 
 
 ## Voorbeeld 3
-
 Een vereniging vreest dat ze haar activiteiten binnen een aantal jaren zal moeten stopzetten. De vereniging beslist om een fonds bestemd voor sociaal passief aan te leggen ten belope van de kosten die de vereniging zal moeten dragen in geval van afdanking van haar werknemers (deze worden geschat op 240.000 euro). In de waarderingsregels van het fonds wordt bepaald om de komende boekjaren 90% van het te bestemmen positief resultaat van het boekjaar aan dit fonds toe te kennen, totdat het bestemde fonds 240.000 euro bedraagt.
 
 Stel dat de vereniging in dat boekjaar een positief resultaat behaalt van 50.000 euro, dan zal zij 45.000 euro toewijzen aan het fonds bestemd voor sociaal passief.

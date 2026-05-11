@@ -16,41 +16,41 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-subsidies-schenkingen-en-legaten-toegekend-in-contanten-in
 nummer: CBN-advies 2016/4
 provenance:
+  generated_at: '2026-05-11T17:48:39Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/verenigingen-en-stichtingen-boekhoudkundige-verwerking-van-meerjarige-toekenningen-bij
       sha256: b5b6831d4910ee12494fe88b705196852c0afd9d02d642847e82d5fe4b6e5783
       version:
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
-    status: needs-rework
     confirmed_at: '2026-05-11T17:09:38Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: 'D4: regel 68 `## Advies van 13 april 2016**[^1]** ` bevat stray `**` die de footnote-referentie omhult als bold-marker in een heading — onzichtbaar voor de lezer maar syntactisch een ETL-artefact. Inhoud volledig correct: 5 headings genest, voetnoten [^1]–[^8] aanwezig, geen pagina-artefacten of OCR-fouten.'
     layer1:
-      file_size_chars: 7907
-      flags: []
-      heading_count: 5
-      max_section_chars: 3489
-      run_at: '2026-05-11T15:05:52Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:43Z'
+      heading_count: 3
+      max_section_chars: 3488
+      file_size_chars: 7824
+      flags: []
     layer2:
-      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T17:09:38Z'
-      rationale: 'D4: regel 68 `## Advies van 13 april 2016**[^1]** ` bevat stray `**` die de footnote-referentie omhult als bold-marker in een heading — onzichtbaar voor de lezer maar syntactisch een ETL-artefact. Inhoud volledig correct: 5 headings genest, voetnoten [^1]–[^8] aanwezig, geen pagina-artefacten of OCR-fouten.'
       concrete_problemen:
-        - regel: 68
-          categorie: D4
+        - categorie: D4
+          regel: 68
           type: other
           voorbeeld: '## Advies van 13 april 2016**[^1]**  (stray ** rond voetnootref in heading)'
+      rationale: 'D4: regel 68 `## Advies van 13 april 2016**[^1]** ` bevat stray `**` die de footnote-referentie omhult als bold-marker in een heading — onzichtbaar voor de lezer maar syntactisch een ETL-artefact. Inhoud volledig correct: 5 headings genest, voetnoten [^1]–[^8] aanwezig, geen pagina-artefacten of OCR-fouten.'
+      run_at: '2026-05-11T17:09:38Z'
+      status: needs-rework
+    rationale: 'D4: regel 68 `## Advies van 13 april 2016**[^1]** ` bevat stray `**` die de footnote-referentie omhult als bold-marker in een heading — onzichtbaar voor de lezer maar syntactisch een ETL-artefact. Inhoud volledig correct: 5 headings genest, voetnoten [^1]–[^8] aanwezig, geen pagina-artefacten of OCR-fouten.'
+    status: needs-rework
 themas:
   - legaat
   - meerjarige toekenningen
@@ -61,18 +61,12 @@ themas:
   - vzw
 ---
 
-# COMMISSIE VOOR BOEKHOUDKUNDIGE NORMEN
-
-## CBN-advies 2016/4 - Verenigingen en stichtingen: boekhoudkundige verwerking van meerjarige toekenningen bij grote en zeer grote verenigingen en stichtingen
-
-## Advies van 13 april 2016**[^1]** 
+# CBN-advies 2016/4 - Verenigingen en stichtingen: boekhoudkundige verwerking van meerjarige toekenningen bij grote en zeer grote verenigingen en stichtingen
 
 ## Inleiding
-
 De aan de Commissie voorgelegde vraag betreft het geval waarin een vereniging of een stichting meerjarige toekenningen ontvangt van fysieke personen of rechtspersonen. Meerjarige toekenningen aan verenigingen of stichtingen kunnen enerzijds kwalificeren als schenkingen, subsidies en legaten, of anderzijds een andere juridische vorm aannemen, zoals bijv. betalingen in het kader van een sponsorship. Op haar beurt gaat de ontvangende vereniging of stichting in het kader van haar doel meerjarige financiële engagementen aan ten aanzien van bepaalde begunstigden, ter financiering van een of meerdere projecten, voor een bepaald totaalbedrag. Aan de Commissie wordt gevraagd hoe dit boekhoudkundig moet verwerkt worden. 
 
 ## Boekhoudkundige verwerking in hoofde van de ontvangende vereniging of stichting
-
 Met betrekking tot schenkingen en subsidies merkt de Commissie voorafgaand op dat het verschil tussen een schenking en een subsidie niet steeds duidelijk is, aangezien deze juridische begrippen bij verenigingen en stichtingen zeer dicht bij elkaar aanleunen.[^2]
  Voor de boekhoudkundige verwerking is dit onderscheid niet relevant. 
 
@@ -89,7 +83,6 @@ Desgevallend worden de opbrengsten overgedragen naar de volgende boekjaren via d
 In het specifieke geval waarin tussen de schenker of toekenner en de ontvangende vereniging of stichting is overeengekomen dat de toekenning afhankelijk is van het jaarlijks vervuld zijn van bepaalde voorwaarden, staat de vordering pas jaar na jaar vast, en wordt elk jaar eenmaal de voorwaarden daartoe zijn vervuld een passende vordering geboekt, alsook de overeenstemmende opbrengst.[^5] 
 
 ## Boekhoudkundige verwerking in hoofde van de (initieel begunstigde) verstrekkende vereniging of stichting
-
 In het aan de Commissie ter advies voorgelegde geval, gaat de vereniging of stichting die initieel begunstigde was van de (meerjarige) toekenning, op haar beurt financiële engagementen aan ten aanzien van andere verenigingen en stichtingen.
 
 Het komt toe aan het bestuursorgaan van de verstrekkende vereniging of stichting toe om in deze gevallen, op basis van de concrete omstandigheden en de kenmerken van het contract, te oordelen over het ontstaan van de schuld. 

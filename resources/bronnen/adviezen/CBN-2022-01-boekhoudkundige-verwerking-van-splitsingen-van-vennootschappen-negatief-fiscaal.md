@@ -16,41 +16,41 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/begin-van-het-boekjaar
 nummer: CBN-advies 2025/01
 provenance:
+  generated_at: '2026-05-11T17:48:39Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-splitsingen-van-vennootschappen-negatief-fiscaal
       sha256: 54c11456d0480a715274c3e22199ab824c1c3b0ff0ab0fd4355b45dc67f1fdc4
       version:
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T15:15:32Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
-    status: trusted
     confirmed_at: '2026-05-11T15:26:40Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: Inhoud volledig en structureel correct. 6 headings, alle tabellen in pipe-syntax, voetnoten [^1]-[^17] aanwezig. Op regel 179 staat 'Overdragen resultaat' (ontbreekt 'd' achteraan) — dit is een source-typo in de originele CBN-tekst, geen ETL-bug. Geen verdere artefacten.
     layer1:
-      file_size_chars: 15801
-      flags: []
-      heading_count: 6
-      max_section_chars: 4798
-      run_at: '2026-05-11T15:05:54Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:45Z'
+      heading_count: 6
+      max_section_chars: 4797
+      file_size_chars: 15795
+      flags: []
     layer2:
-      status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:26:40Z'
-      rationale: Inhoud volledig en structureel correct. 6 headings, alle tabellen in pipe-syntax, voetnoten [^1]-[^17] aanwezig. Op regel 179 staat 'Overdragen resultaat' (ontbreekt 'd' achteraan) — dit is een source-typo in de originele CBN-tekst, geen ETL-bug. Geen verdere artefacten.
       concrete_problemen:
-        - regel: 179
-          categorie: (source)
+        - categorie: (source)
+          regel: 179
           type: source-typo
           voorbeeld: '| Overdragen resultaat | | -30 |'
+      rationale: Inhoud volledig en structureel correct. 6 headings, alle tabellen in pipe-syntax, voetnoten [^1]-[^17] aanwezig. Op regel 179 staat 'Overdragen resultaat' (ontbreekt 'd' achteraan) — dit is een source-typo in de originele CBN-tekst, geen ETL-bug. Geen verdere artefacten.
+      run_at: '2026-05-11T15:26:40Z'
+      status: trusted
+    rationale: Inhoud volledig en structureel correct. 6 headings, alle tabellen in pipe-syntax, voetnoten [^1]-[^17] aanwezig. Op regel 179 staat 'Overdragen resultaat' (ontbreekt 'd' achteraan) — dit is een source-typo in de originele CBN-tekst, geen ETL-bug. Geen verdere artefacten.
+    status: trusted
 themas:
   - splitsing
 ---
@@ -58,7 +58,6 @@ themas:
 # CBN-advies 2025/01 – Boekhoudkundige verwerking van splitsingen van vennootschappen – negatief fiscaal nettoactief – herwaarderingsmeerwaarde (addendum bij CBN-advies 2022/01 en 2022/12)
 
 ## Inleiding
-
 Onderhavig advies werd opgesteld naar aanleiding van een vraag die aan de Commissie werd gesteld over de boekhoudkundige verwerking van een splitsing zoals beschreven in nr. 211/57 en 211/58 van de administratieve commentaar op het Wetboek van de inkomstenbelastingen 1992 (hierna: Com.IB 92). Het gaat om een splitsing door oprichting van nieuwe vennootschappen zoals bedoeld in artikel 12:5 van het Wetboek van vennootschappen en verenigingen (hierna: WVV). De verrichting heeft de volgende eigenschappen:
 
 - het boekhoudkundig nettoactief dat aan elk van de verkrijgende vennootschappen werd overgedragen, is positief; 
@@ -72,7 +71,6 @@ Onderhavig advies wordt als volgt ingedeeld:
 - standpunt van de Commissie volgens CBN-advies 2022/01 – Fusies en splitsingen van vennootschappen met een negatief nettoactief en CBN-advies 2022/12 – Boekhoudkundige verwerking van splitsingen van vennootschappen (onder III. Standpunt van de Commissie)[^2]. 
 
 ## Beschrijving van de verrichting
-
 De balans van de te splitsen vennootschap A wordt vóór de splitsing als volgt opgemaakt[^3]: 
 
 | Vennootschap A (te splitsen vennootschap) | 
@@ -103,9 +101,7 @@ Indien activum 1 aan vennootschap B en het geherwaardeerd activum 2 samen met de
 Er moet vervolgens worden bepaald hoe het eigen vermogen vanuit boekhoudkundig oogpunt kan (of moet) worden verdeeld.
 
 ## Standpunt van de Commissie
-
 ### Pro memorie: de beginselen
-
 De bij een splitsing (of een hiermee gelijkgestelde verrichting) overgedragen eigenvermogensbestanddelen worden in hoofde van de verkrijgende vennootschappen in principe geboekt tegen de waarde waartegen zij bij de (partieel) gesplitste vennootschap werden geboekt.[^7]
  Zodoende vereist het boekhoudkundig continuïteitsbeginsel dat “de som van de boekwaarde van de eigenvermogensbestanddelen die aan elk van de verkrijgende vennootschappen werden overgedragen, gelijk is aan het totale eigen vermogen van de gesplitste vennootschap”[^8]. 
 
@@ -128,7 +124,6 @@ Wanneer het totaal van het eigen vermogen dat wordt overgedragen aan een verkrij
 Volgens de Commissie zou het evenwel niet mogelijk mogen zijn om gebruik te maken van deze oplossing wanneer het verschil leidt tot een verhoging van het overgedragen resultaat van een van de vennootschappen. Een dergelijke verhoging zou immers een invloed hebben op de uitkeerbaarheid van de herwaarderingsmeerwaarde. De Commissie beveelt aan het (positieve) verschil tussen enerzijds het bedrag van het boekhoudkundig eigen vermogen zoals dat voortvloeit uit de verdeling voorzien in artikel 213 WIB 92, en anderzijds het totale bedrag van het eigen vermogen dat het mogelijk maakt om gelijkheid tussen activa en passiva te verkrijgen, te boeken als een onbeschikbare reserve. Een negatief verschil kan daarentegen worden weggewerkt via het overgedragen resultaat. In dergelijk geval worden de uitkeerbare bedragen niet verhoogd.
 
 ### Toepassing van artikel 3:56, § 4 KB WVV
-
 Volgens de Commissie zou de verdeling van het eigen vermogen van vennootschap A, in toepassing van artikel 3:56, § 4 KB WVV, als volgt moeten verlopen:
 
 | | | Eigen vermogen van vennootschap A | | Aan vennootschap B fiscaal overgedragen eigen vermogen | | Aan vennootschap C fiscaal overgedragen eigen vermogen[^15] | 
@@ -195,7 +190,6 @@ In hoofde van vennootschap C bedraagt het overgedragen fiscaal eigen vermogen in
 | Verschil | | | | - 30 | | - 30 | 
 
 ### Overige benadering (boeking van de herwaarderingsmeerwaarde na de splitsing)
-
 De in punt III voorgestelde benadering maakt het eveneens mogelijk om dezelfde balanssituatie te bekomen als wanneer de herwaarderingsmeerwaarde niet werd geboekt op het ogenblik van de splitsing, maar erna.[^17]
  Daar de boeking van een herwaarderingsmeerwaarde (behoudens uitzonderingen) niet verplicht is, zou het ongewoon zijn dat de balansen van de betrokken vennootschappen verschillen naargelang dergelijke meerwaarde al dan niet geboekt wordt op het ogenblik van de splitsing. 
 

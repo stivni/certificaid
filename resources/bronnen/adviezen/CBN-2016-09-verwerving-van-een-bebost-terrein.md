@@ -3,60 +3,52 @@ bron: https://www.cbn-cnc.be/nl/adviezen/verwerving-van-een-bebost-terrein
 datum: 2016-06-15
 nummer: CBN-advies 2016/9
 provenance:
-  generated_at: '2026-05-11T15:15:31Z'
+  generated_at: '2026-05-11T17:48:39Z'
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/verwerving-van-een-bebost-terrein
-    sha256: 5b16ac8f98d0ccf87b4a2e899560fbb7dc951a0c4c35c87aeaadf4e72e6d9702
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/verwerving-van-een-bebost-terrein
+      sha256: 5b16ac8f98d0ccf87b4a2e899560fbb7dc951a0c4c35c87aeaadf4e72e6d9702
+      version:
   stale: false
-  stale_reason: null
+  stale_reason:
   tooling:
-    model: null
+    model:
     pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    prompt_version: null
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
     confirmed_at: '2026-05-11T12:16:34Z'
     confirmed_by: subagent-sonnet-4-6
     layer1:
-      file_size_chars: 3330
-      flags: []
-      heading_count: 3
-      max_section_chars: 1429
-      run_at: '2026-05-11T15:05:52Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:43Z'
+      heading_count: 3
+      max_section_chars: 1428
+      file_size_chars: 3327
+      flags: []
     layer2:
       agent: subagent-sonnet-4-6
       concrete_problemen: []
-      rationale: 'Klein en schoon bestand (3340 tekens). Drie headings correct, twee
-        voorbeeldboekingstabellen in pipe-syntax, voetnoten [^1]–[^3] volledig gedefinieerd.
-        Geen artefacten aangetroffen in geen enkele categorie. Inhoud compleet: beide
-        scenario''s (vervreemding / geen vervreemding) behandeld.'
+      rationale: 'Klein en schoon bestand (3340 tekens). Drie headings correct, twee voorbeeldboekingstabellen in pipe-syntax, voetnoten [^1]–[^3] volledig gedefinieerd. Geen artefacten aangetroffen in geen enkele categorie. Inhoud compleet: beide scenario''s (vervreemding / geen vervreemding) behandeld.'
       run_at: '2026-05-11T12:16:34Z'
       status: trusted
-    rationale: 'Klein en schoon bestand (3340 tekens). Drie headings correct, twee
-      voorbeeldboekingstabellen in pipe-syntax, voetnoten [^1]–[^3] volledig gedefinieerd.
-      Geen artefacten aangetroffen in geen enkele categorie. Inhoud compleet: beide
-      scenario''s (vervreemding / geen vervreemding) behandeld.'
+    rationale: 'Klein en schoon bestand (3340 tekens). Drie headings correct, twee voorbeeldboekingstabellen in pipe-syntax, voetnoten [^1]–[^3] volledig gedefinieerd. Geen artefacten aangetroffen in geen enkele categorie. Inhoud compleet: beide scenario''s (vervreemding / geen vervreemding) behandeld.'
     status: trusted
 themas:
-- bebost terrein
-- goederen in bewerking
-- terrein
-- voorraad
+  - bebost terrein
+  - goederen in bewerking
+  - terrein
+  - voorraad
 ---
 
 # CBN-advies 2016/9 – Verwerving van een bebost terrein
 
 ## Inleiding
-
 In dit advies behandelt de Commissie voor boekhoudkundige normen de boekhoudkundige verwerking van de verwerving van een bebost terrein. De verwerver schaft dit terrein in eerste instantie aan voor houtkap.
 
 Op het ogenblik van de verwerving van het bebost terrein bestaat de mogelijkheid dat het terrein na de houtkap terug wordt vervreemd of dat het terrein zal deel uitmaken van het vermogen van de vennootschap. Beide scenario’s worden vervolgens uiteengezet.
 
 ## Aankoop bebost terrein met vervreemding terrein na houtkap
-
 In het geval dat de vennootschap een bebost terrein aankoopt voor houtkap en op het ogenblik van de aankoop de intentie heeft om het terrein te vervreemden na de houtkap is de Commissie van oordeel dat het terrein als een onroerend goed bestemd voor verkoop dient te worden geboekt. Concreet zal er op het ogenblik van de verwerving wel een onderscheid moeten worden gemaakt tussen de waarde van een ontbost terrein en de waarde van de te kappen bomen. Deze bomen zullen als goederen in bewerking worden geboekt. De Commissie is van oordeel dat deze opsplitsing noodzakelijk is aangezien de aard van de terrein- en houtcomponent fundamenteel verschillend is.
 
 *Voorbeeld*
@@ -70,7 +62,6 @@ NV XYZ betaalt 150 EUR voor een bebost terrein waarvan 1/3 van de aanschaffingsw
 | aan | 489 | Andere diverse schulden | | 150 |
 
 ## Aankoop bebost terrein zonder vervreemding terrein na houtkap
-
 In het geval dat de vennootschap een bebost terrein aankoopt en op het ogenblik van de verwerving niet de intentie heeft om het ontbost terrein te vervreemden, is de Commissie van oordeel dat enkel de houtcomponent mag worden verwerkt als goederen in bewerking. De terreincomponent zal worden geboekt op de rekening 220 *Terreinen*. Indien de vennootschap beslist na de houtkap het terrein toch te vervreemden zal enkel een overboeking naar rekening 26* Overige materiële vaste activa* noodzakelijk zijn.
 
 *Voorbeeld*

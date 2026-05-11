@@ -3,53 +3,53 @@ bron: https://www.cbn-cnc.be/nl/adviezen/vooruitbetalingen
 datum: 1993-12-01
 nummer: CBN-advies 132/6
 provenance:
+  generated_at: '2026-05-11T17:48:38Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/vooruitbetalingen
       sha256: f39529e8410b2cd371795a771f1e28a0d40fdd73287e098c06b0fef08e3a1f37
       version:
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
-    status: needs-rework
     confirmed_at: '2026-05-11T17:05:21Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "E2: boekingstabellen zijn structureel inconsistent door het gehele bestand — in sommige tabellen staat 'aan' als aparte cel in kolom 1 (L83, L98, L108), in andere is 'aan' samengevoegd met de rekeningnaam in kolom 2 (L90, L116, L118). Dit wisselt willekeurig en is een ETL-artefact dat de tabel-parsing verstoort."
     layer1:
-      file_size_chars: 3514
-      flags: []
+      status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:41Z'
       heading_count: 0
       max_section_chars: 3514
-      run_at: '2026-05-11T15:05:48Z'
-      run_id: 20260511-150547
-      status: pass
+      file_size_chars: 3514
+      flags: []
     layer2:
-      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T17:05:21Z'
-      rationale: "E2: boekingstabellen zijn structureel inconsistent door het gehele bestand — in sommige tabellen staat 'aan' als aparte cel in kolom 1 (L83, L98, L108), in andere is 'aan' samengevoegd met de rekeningnaam in kolom 2 (L90, L116, L118). Dit wisselt willekeurig en is een ETL-artefact dat de tabel-parsing verstoort."
       concrete_problemen:
-        - regel: 83
-          categorie: E2
+        - categorie: E2
+          regel: 83
           type: other
-          voorbeeld: "| aan | 440 Leveranciers | | | | — 'aan' als aparte cel 1"
-        - regel: 90
-          categorie: E2
+          voorbeeld: '| aan | 440 Leveranciers | | | | — ''aan'' als aparte cel 1'
+        - categorie: E2
+          regel: 90
           type: other
-          voorbeeld: "| | aan 55 Kredietinstellingen | | | | — 'aan' samengevoegd in cel 2"
-        - regel: 116
-          categorie: E2
+          voorbeeld: '| | aan 55 Kredietinstellingen | | | | — ''aan'' samengevoegd in cel 2'
+        - categorie: E2
+          regel: 116
           type: other
           voorbeeld: '| | aan 440 Leveranciers | | | | — inconsistent patroon (cel 2)'
-        - regel: 118
-          categorie: E2
+        - categorie: E2
+          regel: 118
           type: other
           voorbeeld: '| | aan 36 Vooruitbetalingen op voorraadinkopen | | | | — inconsistent patroon'
+      rationale: 'E2: boekingstabellen zijn structureel inconsistent door het gehele bestand — in sommige tabellen staat ''aan'' als aparte cel in kolom 1 (L83, L98, L108), in andere is ''aan'' samengevoegd met de rekeningnaam in kolom 2 (L90, L116, L118). Dit wisselt willekeurig en is een ETL-artefact dat de tabel-parsing verstoort.'
+      run_at: '2026-05-11T17:05:21Z'
+      status: needs-rework
+    rationale: 'E2: boekingstabellen zijn structureel inconsistent door het gehele bestand — in sommige tabellen staat ''aan'' als aparte cel in kolom 1 (L83, L98, L108), in andere is ''aan'' samengevoegd met de rekeningnaam in kolom 2 (L90, L116, L118). Dit wisselt willekeurig en is een ETL-artefact dat de tabel-parsing verstoort.'
+    status: needs-rework
 themas:
   - gefactureerde vooruitbetalingen
   - voorraden

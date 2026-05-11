@@ -2,61 +2,54 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/omzet-tussenpersonen
 datum: 1977-08-01
 gerelateerde_adviezen:
-- datum: '1988-06-01'
-  titel: Omzet van expediteurs
-  url: https://www.cbn-cnc.be/nl/adviezen/omzet-van-expediteurs
+  - datum: '1988-06-01'
+    titel: Omzet van expediteurs
+    url: https://www.cbn-cnc.be/nl/adviezen/omzet-van-expediteurs
 nummer: CBN-advies 103
 provenance:
-  generated_at: '2026-05-11T15:15:31Z'
+  generated_at: '2026-05-11T17:48:38Z'
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/omzet-tussenpersonen
-    sha256: 9fe8f8368372e19e030cfb6ebe21f487d98bd122381c58765b829588ca177520
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/omzet-tussenpersonen
+      sha256: 9fe8f8368372e19e030cfb6ebe21f487d98bd122381c58765b829588ca177520
+      version:
   stale: false
-  stale_reason: null
+  stale_reason:
   tooling:
-    model: null
+    model:
     pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    prompt_version: null
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
     confirmed_at: '2026-05-11T13:16:02Z'
     confirmed_by: subagent-sonnet-4-6
     layer1:
-      file_size_chars: 4390
-      flags: []
-      heading_count: 0
-      max_section_chars: 4390
-      run_at: '2026-05-11T15:05:47Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:40Z'
+      heading_count: 0
+      max_section_chars: 4389
+      file_size_chars: 4389
+      flags: []
     layer2:
       agent: subagent-sonnet-4-6
       concrete_problemen: []
-      rationale: 'Bug B3 (duplicate heading) is opgelost: body bevat één heading ''#
-        CBN advies 103 - Omzet - Tussenpersonen''. Inhoud is volledig (uitgebreide
-        analyse van makelaar/mandataris/commissionair). Geen artefacten, geen unicode-issues,
-        geen broken markup. Ziet eruit als mens-geschreven.'
+      rationale: 'Bug B3 (duplicate heading) is opgelost: body bevat één heading ''# CBN advies 103 - Omzet - Tussenpersonen''. Inhoud is volledig (uitgebreide analyse van makelaar/mandataris/commissionair). Geen artefacten, geen unicode-issues, geen broken markup. Ziet eruit als mens-geschreven.'
       run_at: '2026-05-11T13:16:02Z'
       status: trusted
-    rationale: 'Bug B3 (duplicate heading) is opgelost: body bevat één heading ''#
-      CBN advies 103 - Omzet - Tussenpersonen''. Inhoud is volledig (uitgebreide analyse
-      van makelaar/mandataris/commissionair). Geen artefacten, geen unicode-issues,
-      geen broken markup. Ziet eruit als mens-geschreven.'
+    rationale: 'Bug B3 (duplicate heading) is opgelost: body bevat één heading ''# CBN advies 103 - Omzet - Tussenpersonen''. Inhoud is volledig (uitgebreide analyse van makelaar/mandataris/commissionair). Geen artefacten, geen unicode-issues, geen broken markup. Ziet eruit als mens-geschreven.'
     status: trusted
 themas:
-- commissionair
-- expediteur
-- lijnagent
-- makelaar
-- mandataris
-- omzet
-- reder
-- tussenpersoon
+  - commissionair
+  - expediteur
+  - lijnagent
+  - makelaar
+  - mandataris
+  - omzet
+  - reder
+  - tussenpersoon
 ---
 
 # CBN advies 103 - Omzet - Tussenpersonen
-
 Het koninklijk besluit van 8 oktober 1976 stelt als beginsel dat de resultatenrekening enerzijds de bruto-inkomsten moet vermelden en anderzijds de bruto-kosten en dat deze naar hun aard moeten worden onderverdeeld. 
 
 Wanneer de onderneming optreedt als makelaar, als mandataris of commissionair, moet echter een onderscheid worden gemaakt tussen hetgeen tot haar eigen omzet, haar eigen kosten of haar eigen opbrengsten behoort en hetgeen tot de omzet, de kosten of de opbrengsten van andere ondernemingen behoort. 

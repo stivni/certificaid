@@ -3,46 +3,44 @@ bron: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-aande
 datum: 2012-01-11
 nummer: CBN-advies 2012/3
 provenance:
-  generated_at: '2026-05-11T15:15:31Z'
+  generated_at: '2026-05-11T17:48:39Z'
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-aandelenoptieplannen
-    sha256: 399b266a78e82a58dfe86c10f0f704477290e4f602384e593dc0e14cd1f56a5f
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-aandelenoptieplannen
+      sha256: 399b266a78e82a58dfe86c10f0f704477290e4f602384e593dc0e14cd1f56a5f
+      version:
   stale: false
-  stale_reason: null
+  stale_reason:
   tooling:
-    model: null
+    model:
     pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    prompt_version: null
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
     confirmed_at: '2026-05-08T21:31:11Z'
     confirmed_by: human
     layer1:
-      file_size_chars: 24031
-      flags: []
-      heading_count: 12
-      max_section_chars: 10645
-      run_at: '2026-05-11T15:05:50Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:43Z'
+      heading_count: 12
+      max_section_chars: 10639
+      file_size_chars: 24015
+      flags: []
     layer2:
-      agent: null
+      agent:
       concrete_problemen: []
-      rationale: null
-      run_at: null
+      rationale:
+      run_at:
       status: not_run
-    rationale: 'Herscraped na fix select_title(): gecombineerde H1 (COMMISSIE + titel)
-      correct gesplitst. Inhoud ongewijzigd t.o.v. vorig vertrouwd verdict. Laag 1
-      pass (of benign max_section warn).'
+    rationale: 'Herscraped na fix select_title(): gecombineerde H1 (COMMISSIE + titel) correct gesplitst. Inhoud ongewijzigd t.o.v. vorig vertrouwd verdict. Laag 1 pass (of benign max_section warn).'
     status: trusted
 themas:
-- aandelenoptieplannen
-- aandelenopties
-- call-optie
-- put-optie
-- voorziening
-- voorzieningen voor andere risico’s en kosten
+  - aandelenoptieplannen
+  - aandelenopties
+  - call-optie
+  - put-optie
+  - voorziening
+  - voorzieningen voor andere risico’s en kosten
 ---
 
 # CBN-advies 2012/3 – De boekhoudkundige verwerking van aandelenoptieplannen
@@ -50,7 +48,6 @@ themas:
 CBN-advies 2012/3 – De boekhoudkundige verwerking van aandelenoptieplannen
 
 ## Inleiding
-
 Door de Wet van 26 maart 1999 betreffende het Belgisch actieplan voor de werkgelegenheid 1998 en houdende diverse bepalingen[^1] (hierna: de Optiewet) zijn aandelenopties als vergoeding voor arbeidsprestaties volop in de belangstelling gekomen.
 
 De uitgifte van aandelenopties biedt de ondernemingen een instrument om bekwame en dynamische medewerkers aan te trekken en om hun personeel te motiveren[^2]. Zij maakt het bovendien mogelijk de medewerkers meer bij het succes van de onderneming te betrekken[^3].
@@ -68,7 +65,6 @@ In het kader van de werkgever-werknemer relatie zal er in hoofde van de werkneme
 Het verkrijgen van een optie wordt vaak gekoppeld aan zogenaamde prestatiegerelateerde opschortende voorwaarden[^4], bijvoorbeeld een minimale periode van tewerkstelling. De periode waarbinnen deze voorwaarden moeten vervuld worden, wordt binnen de internationale financiële rapporteringspraktijk de “*vesting periode*” genoemd. Vanaf het ogenblik dat de opties* gevested *zijn*,* zijn deze verworven en kunnen deze uitgeoefend worden binnen de uitoefenperiode. Het is mogelijk dat de uitoefenperiode niet onmiddellijk aansluit op de *“vesting periode”* maar een tijdspanne wordt voorzien waarbinnen de opties niet kunnen uitgeoefend worden ook al werden deze na de *“vesting periode”* reeds definitief verworven. Tevens kunnen verschillende uitoefenperioden voorzien worden. Deze verschillende perioden worden in het volgende schema geïllustreerd: 
 
 ## De uitgifte van aandelenopties
-
 De Optiewet stelt ondermeer dat de begunstigden alle personen zijn die direct of indirect bij de werking van een onderneming betrokken zijn en opties kunnen ontvangen wegens of naar aanleiding van de beroepswerkzaamheid[^5]. Dit betekent dat zowel werknemers, bedrijfsleiders als zelfstandigen onder het toepassingsgebied vallen[^6].
 
 Daarnaast definieert de Optiewet een aandelenoptie als het recht om, gedurende een welbepaalde termijn, een bepaald aantal aandelen aan te kopen of, naar aanleiding van de verhoging van het kapitaal van een vennootschap op een bepaald aantal aandelen in te schrijven, tegen een vastgestelde of een nog vast te stellen prijs[^7]. 
@@ -79,8 +75,7 @@ Aandelenopties, toegekend in het kader van de Optiewet worden doorgaans ten kost
 
 De voornaamste karakteristieken van deze toegekende aandelenopties zijn vanuit een economisch standpunt de volgende:
 
-### a. De erkenning als kost[^8]
-
+### a. De erkenning als kost
 De Commissie is van oordeel dat ondernemingen, dewelke gebruik maken van aandelenopties, inherent worden blootgesteld aan het toekomstige prijsverschil dat ontstaat tussen de uitoefenprijs van de optie en de beurskoers (voor genoteerde aandelen op een gereglementeerde of een niet-gereglementeerde markt) of reële waarde (voor niet-genoteerde aandelen) van het onderliggend aandeel op het ogenblik van de uitoefening van de optie. Daarnaast meent de Commissie te kunnen stellen dat dit toekomstig prijsverschil reeds in het jaar van de toekenning van de opties zal aanleiding geven tot een boekhoudkundige registratie. 
 
 De kost, zijnde het toekomstig prijsverschil bij uitoefening, zal worden geregistreerd op de rekening 637 *Voorzieningen voor andere risico’s en kosten.* Artikel 50 KB W. Venn. e.v. bepaalt immers dat een voorziening[^9] voor risico’s en kosten dient te worden erkend voor het dekken van kosten die op de balansdatum waarschijnlijk of zeker zijn, doch waarvan het bedrag niet vaststaat. De inschatting van deze toekomstige kost is een bevoegdheid die toekomt aan het bestuursorgaan van de vennootschap.
@@ -126,7 +121,6 @@ Daar bij de toepassing van deze methode, de werkelijke beurskoers of reële waar
 De onderneming-toekenner dient dan onder deze benadering enkel een inschatting te maken van de verwachte retentiegraad van de betrokken genieters voor de tijdspanne tussen het moment van de toekenning en het eerste moment van mogelijke uitoefening van de opties.
 
 ## Uitgewerkt voorbeeld
-
 Op 1 januari 20X1 kent de NV XYZ, beursgenoteerd, 100 opties toe aan 5 kaderleden (of elk 20 opties). Eén optie geeft recht op één aandeel. De uitoefenprijs van de opties wordt vastgelegd op 12 EUR per aandeel. 
 
 Het recht tot uitoefening van deze opties ontstaat indien de kaderleden in dienst blijven voor een periode van 5 opeenvolgende jaren na toekenning van de opties (*vesting periode*). 
@@ -150,7 +144,6 @@ De beurskoers van het onderliggende aandeel en de verwachte uitoefeningsgraad ev
 In de loop van 20X5 en 20X7 heeft telkens één kaderlid de onderneming verlaten. Gedurende de eerste jaarhelft van 20X8 oefenen de drie overblijvende kaderleden hun opties uit.
 
 ## Boekhoudkundige verwerking op 31 december 20X1:
-
 De beurskoers van het onderliggend aandeel bedraagt 14 EUR per 31 december 20X1, ofwel 2 EUR hoger dan de uitoefenprijs van de opties, zijnde 12 EUR.
 
 5 kaderleden verkregen 100 opties, echter de ondernemingsleiding verwacht dat uiteindelijk slechts 70% zal worden uitgeoefend waardoor er per 31 december 20X1 een voorziening voor 140 EUR dient te worden aangelegd (100 opties x 70% x 2 EUR). 
@@ -161,7 +154,6 @@ De beurskoers van het onderliggend aandeel bedraagt 14 EUR per 31 december 20X1,
 | aan | 163-165 | Voorziening voor overige risico’s en kosten | | 140 |
 
 ## Boekhoudkundige verwerking op 31 december 20X2:
-
 De beurskoers van het onderliggend aandeel bedraagt 17 EUR per 31 december 20X2, ofwel 5 EUR hoger dan de uitoefenprijs van de opties, zijnde 12 EUR. 
 
 De voorziening op balansdatum wordt dan ook als volgt berekend: 100 opties x 75 % x 5 EUR = 375 EUR. Per 31 december 20X1 werd er reeds een voorziening aangelegd ten belope van 140 EUR waardoor er per 31 december 20X2 nog 235 EUR additioneel dient te worden voorzien:
@@ -172,7 +164,6 @@ De voorziening op balansdatum wordt dan ook als volgt berekend: 100 opties x 75 
 | aan | 163-165 | Voorziening voor overige risico’s en kosten | | 235 |
 
 ## Boekhoudkundige verwerking op 31 december 20X3
-
 De beurskoers van het onderliggend aandeel bedraagt 18 EUR per 31 december 20X3, ofwel 6 EUR hoger dan de uitoefenprijs van de opties, zijnde 12 EUR. 
 
 De voorziening op balansdatum wordt dan ook als volgt berekend: 100 opties x 80 % x 6 EUR = 480 EUR. Per 31 december 20X2 werd er reeds een voorziening aangelegd ten belope van 375 EUR waardoor er per 31 december 20X2 nog 105 EUR additioneel dient te worden voorzien:
@@ -183,7 +174,6 @@ De voorziening op balansdatum wordt dan ook als volgt berekend: 100 opties x 80 
 | aan | 163-165 | Voorziening voor overige risico’s en kosten | | 105 |
 
 ## Boekhoudkundige verwerking op 31 december 20X4
-
 De beurskoers van het onderliggend aandeel bedraagt 16 EUR per 31 december 20X4, ofwel 4 EUR hoger dan de uitoefenprijs van de opties, zijnde 12 EUR. 
 
 De voorziening op balansdatum wordt dan ook als volgt berekend: 100 opties x 70 % x 4 EUR = 280 EUR. Per 31 december 20X3 werd er reeds een voorziening aangelegd ten belope van 480 EUR waardoor er per 31 december 20X4 een terugname van 200 EUR dient te worden geregistreerd:
@@ -194,7 +184,6 @@ De voorziening op balansdatum wordt dan ook als volgt berekend: 100 opties x 70 
 | aan | 6371 | Voorziening voor risico’s en kosten – Terugneming | | 200 |
 
 ## Boekhoudkundige verwerking op 31 december 20X5
-
 Gezien er tijdens het boekjaar één van de kaderleden de onderneming heeft verlaten, wordt de voorziening op balansdatum voor de resterende 4 optiehouders dan ook als volgt berekend: 80 opties x 75 % x 5 EUR = 300 EUR. Per 31 december 20X4 werd er reeds een voorziening aangelegd ten belope van 280 EUR waardoor er per 31 december 20X5 nog 20 EUR additioneel dient te worden voorzien[^14]:
 
 | | Rekening | Omschrijving | Debet | Credit |
@@ -203,7 +192,6 @@ Gezien er tijdens het boekjaar één van de kaderleden de onderneming heeft verl
 | aan | 163-165 | Voorziening voor overige risico’s en kosten | | 20 |
 
 ## Boekhoudkundige verwerking op 31 december 20X6
-
 De beurskoers van het onderliggend aandeel bedraagt 18 EUR per 31 december 20X6, ofwel 6 EUR hoger dan de uitoefenprijs van de opties, zijnde 12 EUR. 
 
 De voorziening op balansdatum wordt dan ook als volgt berekend: 80 opties x 80 % x 6 EUR = 384 EUR. Per 31 december 20X5 werd er reeds een voorziening aangelegd ten belope van 300 EUR waardoor er per 31 december 20X6 nog 84 EUR additioneel dient te worden voorzien:
@@ -214,7 +202,6 @@ De voorziening op balansdatum wordt dan ook als volgt berekend: 80 opties x 80 %
 | aan | 163-165 | Voorziening voor overige risico’s en kosten | | 84 |
 
 ## Boekhoudkundige verwerking op 31 december 20X7
-
 Gezien er tijdens het boekjaar één van de kaderleden de onderneming heeft verlaten, wordt de voorziening op balansdatum voor de resterende 3 optiehouders dan ook als volgt berekend: 60 opties x 95 % x 7 EUR = 399 EUR. Per 31 december 20X6 werd er reeds een voorziening aangelegd ten belope van 384 EUR waardoor er per 31 december 20X7 nog 15 EUR additioneel dient te worden voorzien13:
 
 | | Rekening | Omschrijving | Debet | Credit |
@@ -223,7 +210,6 @@ Gezien er tijdens het boekjaar één van de kaderleden de onderneming heeft verl
 | aan | 163-165 | Voorziening voor overige risico’s en kosten | | 15 |
 
 ## Lichting van de opties door de optiehouder in 20X8
-
 Gedurende de uitoefenperiode in 20X8 beslissen de optiehouders hun opties te lichten. De beurskoers op dat ogenblik bedraagt 20 EUR. De onderneming verwerkt dit boekhoudkundig op de volgende manier:
 
 Aankoop van de onderliggende aandelen:

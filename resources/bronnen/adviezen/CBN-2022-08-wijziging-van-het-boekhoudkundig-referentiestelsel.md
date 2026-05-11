@@ -2,75 +2,64 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/wijziging-van-het-boekhoudkundig-referentiestelsel
 datum: 2022-07-20
 gerelateerde_adviezen:
-- datum: '2022-04-27'
-  titel: Verslaggeving bij ontbinding en vereffening van een VZW of IVZW
-  url: https://www.cbn-cnc.be/nl/adviezen/verslaggeving-bij-ontbinding-en-vereffening-van-een-vzw-of-ivzw
-- datum: '2022-04-01'
-  titel: Verslaggeving bij ontbinding en vereffening van BV, CV, NV, SE en SCE
-  url: https://www.cbn-cnc.be/nl/adviezen/verslaggeving-bij-ontbinding-en-vereffening-van-bv-cv-nv-se-en-sce
-- datum: '2020-04-30'
-  titel: Verenigingen en stichtingen – Vereenvoudigde boekhouding - Waarderingsregels
-  url: https://www.cbn-cnc.be/nl/adviezen/verenigingen-en-stichtingen-vereenvoudigde-boekhouding-waarderingsregels
-- datum: '2019-04-12'
-  titel: Gevolgen op gebied van financiële rapportering als gevolg van de brexit
-  url: https://www.cbn-cnc.be/nl/adviezen/gevolgen-op-gebied-van-financiele-rapportering-als-gevolg-van-de-brexit-0
+  - datum: '2022-04-27'
+    titel: Verslaggeving bij ontbinding en vereffening van een VZW of IVZW
+    url: https://www.cbn-cnc.be/nl/adviezen/verslaggeving-bij-ontbinding-en-vereffening-van-een-vzw-of-ivzw
+  - datum: '2022-04-01'
+    titel: Verslaggeving bij ontbinding en vereffening van BV, CV, NV, SE en SCE
+    url: https://www.cbn-cnc.be/nl/adviezen/verslaggeving-bij-ontbinding-en-vereffening-van-bv-cv-nv-se-en-sce
+  - datum: '2020-04-30'
+    titel: Verenigingen en stichtingen – Vereenvoudigde boekhouding - Waarderingsregels
+    url: https://www.cbn-cnc.be/nl/adviezen/verenigingen-en-stichtingen-vereenvoudigde-boekhouding-waarderingsregels
+  - datum: '2019-04-12'
+    titel: Gevolgen op gebied van financiële rapportering als gevolg van de brexit
+    url: https://www.cbn-cnc.be/nl/adviezen/gevolgen-op-gebied-van-financiele-rapportering-als-gevolg-van-de-brexit-0
 nummer: CBN-advies 2022/08
 provenance:
-  generated_at: '2026-05-11T15:15:32Z'
+  generated_at: '2026-05-11T17:48:39Z'
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/wijziging-van-het-boekhoudkundig-referentiestelsel
-    sha256: 4581799d96586ed35899b164c302b080832536eee5338dc6eacc1cad5abaa33e
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/wijziging-van-het-boekhoudkundig-referentiestelsel
+      sha256: 4581799d96586ed35899b164c302b080832536eee5338dc6eacc1cad5abaa33e
+      version:
   stale: false
-  stale_reason: null
+  stale_reason:
   tooling:
-    model: null
+    model:
     pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    prompt_version: null
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
     confirmed_at: '2026-05-11T13:34:12Z'
     confirmed_by: subagent-sonnet-4-6
     layer1:
-      file_size_chars: 22678
-      flags: []
-      heading_count: 9
-      max_section_chars: 9624
-      run_at: '2026-05-11T15:05:54Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:45Z'
+      heading_count: 9
+      max_section_chars: 9622
+      file_size_chars: 22669
+      flags: []
     layer2:
       agent: subagent-sonnet-4-6
       concrete_problemen: []
-      rationale: 'Geen artefacten gevonden in alle categorieën A–G. Headings correct
-        hiërarchisch (## Inleiding, ## Boekhoudkundige beginselen, ### Voorbeeld 1,
-        ## Standpunt, ### Continuïteitsbeginsel, ### Aanpassing, ### Uitzondering,
-        ### Voorbeeld 2, ## Boekhoudkundige verwerking). Voetnoten 1–32 volledig aanwezig
-        en gekoppeld. Twee voorbeelden helder uitgewerkt. Een buitenstaander zou dit
-        voor mens-geschreven houden.'
+      rationale: 'Geen artefacten gevonden in alle categorieën A–G. Headings correct hiërarchisch (## Inleiding, ## Boekhoudkundige beginselen, ### Voorbeeld 1, ## Standpunt, ### Continuïteitsbeginsel, ### Aanpassing, ### Uitzondering, ### Voorbeeld 2, ## Boekhoudkundige verwerking). Voetnoten 1–32 volledig aanwezig en gekoppeld. Twee voorbeelden helder uitgewerkt. Een buitenstaander zou dit voor mens-geschreven houden.'
       run_at: '2026-05-11T13:34:12Z'
       status: trusted
-    rationale: 'Geen artefacten gevonden in alle categorieën A–G. Headings correct
-      hiërarchisch (## Inleiding, ## Boekhoudkundige beginselen, ### Voorbeeld 1,
-      ## Standpunt, ### Continuïteitsbeginsel, ### Aanpassing, ### Uitzondering, ###
-      Voorbeeld 2, ## Boekhoudkundige verwerking). Voetnoten 1–32 volledig aanwezig
-      en gekoppeld. Twee voorbeelden helder uitgewerkt. Een buitenstaander zou dit
-      voor mens-geschreven houden.'
+    rationale: 'Geen artefacten gevonden in alle categorieën A–G. Headings correct hiërarchisch (## Inleiding, ## Boekhoudkundige beginselen, ### Voorbeeld 1, ## Standpunt, ### Continuïteitsbeginsel, ### Aanpassing, ### Uitzondering, ### Voorbeeld 2, ## Boekhoudkundige verwerking). Voetnoten 1–32 volledig aanwezig en gekoppeld. Twee voorbeelden helder uitgewerkt. Een buitenstaander zou dit voor mens-geschreven houden.'
     status: trusted
 themas:
-- waarderingsregels
-- continuïteitsbeginsel
-- continuïteit
-- openingsbalans
-- materiële vaste activa
-- herwaarderingsmeerwaarde
-- boekhoudkundig referentiestelsel
+  - waarderingsregels
+  - continuïteitsbeginsel
+  - continuïteit
+  - openingsbalans
+  - materiële vaste activa
+  - herwaarderingsmeerwaarde
+  - boekhoudkundig referentiestelsel
 ---
 
 # CBN-advies 2022/08 – Wijziging van het boekhoudkundig referentiestelsel
 
 ## Inleiding
-
 De Commissie voor boekhoudkundige normen werd om advies gevraagd inzake de gevolgen van een wijziging van het boekhoudkundig referentiestelsel voor de waardering van bepaalde activa (en passiva) bij een vennootschap die, voor de eerste keer, haar statutaire jaarrekening opstelt overeenkomstig het Belgisch boekhoudkundig referentiestelsel.
 
 Onderhavig advies behandelt meer bepaald de boekhoudkundige verwerking van eventuele verschillen in de waarderingsregels van materiële vaste activa tussen de referentiestelsels IFRS[^2] en BE GAAP[^3]. Dit advies kan evenwel ook dienstig zijn bij de overgang van een ander referentiestelsel dan IFRS naar BE GAAP.
@@ -80,7 +69,6 @@ Onderhavig advies gaat enkel over de toepassing van het Belgisch boekhoudrecht o
 Onderhavig advies behandelt enkel de opstelling van de statutaire jaarrekening, met uitsluiting van de geconsolideerde jaarrekening.
 
 ## Boekhoudkundige beginselen en waarderingsregels
-
 Volgens het Belgisch boekhoudrecht moet de beginbalans van een boekjaar, onverminderd de toepassing van artikel 3:59, tweede lid van het koninklijk besluit tot uitvoering van het Wetboek van vennootschappen en verenigingen (hierna: KB WVV), overeenstemmen met de eindbalans van het voorafgaande boekjaar.[^4] 
 
 Bij de vaststelling en toepassing van de waarderingsregels wordt ervan uitgegaan dat de vennootschap, VZW, IVZW of stichting haar bedrijf zal voortzetten.[^5]
@@ -93,7 +81,6 @@ Indien, bij het begin van het eerste boekjaar waarop voor een vennootschap, VZW,
 De aldus vastgestelde aanschaffingswaarde maakt, in voorkomend geval, het voorwerp uit van afschrijvingen en waardeverminderingen. Bovendien moeten de herwaarderingsmeerwaarden die geboekt werden vóór het eerste boekjaar waarop voor een vennootschap, VZW, IVZW of stichting de bepalingen van boek 3, titel 1 KB WVV van toepassing zijn, de kapitaalsubsidies die bekomen werden vóór datzelfde boekjaar alsook de door een vennootschap ontvangen uitgiftepremies in de jaarrekening slechts opgenomen worden voor zover ze nog als zodanig in de boekhouding van de vennootschap, VZW, IVZW of stichting voorkwamen op het einde van het voorafgaande boekjaar.[^10] 
 
 ### Voorbeeld 1
-
 De omzet (exclusief de belasting over de toegevoegde waarde) van een vennootschap onder firma (VOF) overschrijdt gedurende het voorgaande boekjaar (20X0) 500.000 euro. De VOF moet voortaan een dubbele boekhouding voeren (voorheen voerde zij een vereenvoudigde boekhouding).[^11]
  Onder de activa van de vennootschap werd een oude machine opgenomen waarvan de aanschaffingswaarde niet kan worden wedersamengesteld. De waarde van de machine zoals opgenomen in de openingsbalans bij aanvang van het boekjaar 20X1 moet gelijk zijn aan de waarde waartegen de machine, vóór afschrijvingen en waardeverminderingen, werd opgenomen in de inventaris zoals opgemaakt aan het einde van het voorgaande boekjaar (20X0). De aldus vastgestelde aanschaffingswaarde maakt vervolgens het voorwerp uit van afschrijvingen.
 
@@ -110,15 +97,12 @@ Voor de VZW’s, IVZW’s en stichtingen die voor de eerste keer de bepalingen v
 Het bestuursorgaan kan, mits melding en verantwoording in de toelichting, evenwel beslissen om deze activa te waarderen tegen werkelijke waarde, marktwaarde of gebruikswaarde waarbij het verschil tussen de waarde bepaald volgens paragraaf 2 van artikel 3:175, KB WVV en deze waarde wordt geboekt op een afzonderlijke subrekening van het betrokken actief met als tegenpost een opbrengstrekening of een rekening van het eigen vermogen. Wanneer het een vast actief met een beperkte gebruiksduur betreft, moet deze waarde worden afgeschreven over de residuele gebruiksduur.
 Bij ontstentenis van betrouwbare werkelijke waarde, marktwaarde of gebruikswaarde, worden de activa in de toelichting bij de jaarrekening opgenomen, aangevuld met de vermelding dat er geen betrouwbare werkelijke waarde, marktwaarde of gebruikswaarde aan kan worden gekoppeld.[^13]
 ## Standpunt van de Commissie
-
 ### Het boekhoudkundig continuïteitsbeginsel
-
 Het boekhoudkundig continuïteitsbeginsel is toepasbaar in het geval van een wijziging van boekhoudkundig referentiestelsel zelfs indien er zich waarderingsverschillen voordoen die voortvloeien uit een verschil in waarderingsregels tussen het buitenlandse en het Belgische referentiestelsel. Als de toestand bij de aanvang en de toestand bij de afsluiting van het boekjaar hierdoor moeilijk vergelijkbaar zijn, moet hiervan melding worden gemaakt in de toelichting bij de jaarrekening.
 
 De Commissie benadrukt dat een uitzondering op het boekhoudkundig continuïteitsbeginsel mogelijk is wanneer dit geen materiële of substantiële[^14] gevolgen heeft voor het getrouw beeld van de jaarrekening[^15].
 
 ### Aanpassing van de bedragen van het voorafgaande boekjaar
-
 De Commissie is van mening dat bepaalde waarderingsverschillen tussen een buitenlands en het Belgisch boekhoudkundig referentiestelsel een aanpassing van de saldi in de openingsbalans vereisen. De bedoeling is om ze in overeenstemming te brengen met de saldi zoals die eruit zouden hebben gezien indien de Belgische boekhoudregels van meet af aan waren toegepast. Er kan geen uitzondering worden gemaakt op de regel dat, indien de door de vennootschap gevoerde boekhouding en bijgevolg de daaruit voortvloeiende jaarrekening niet overeenstemt met BE GAAP, deze moeten worden omgezet naar het Belgisch referentiestelsel.
 
 Artikel 3:59, eerste en tweede lid KB WVV bepaalt dat bij elke rubriek en subrubriek van de balans en van de resultatenrekening het bedrag van de overeenkomstige post van het voorafgaande boekjaar wordt vermeld […]. Wanneer de bedragen van het boekjaar niet vergelijkbaar zijn met die van het voorafgaande boekjaar, mogen de bedragen van het voorafgaande boekjaar worden aangepast met het oog op hun vergelijkbaarheid; in dat geval worden deze aanpassingen, behalve indien zij onbelangrijk zijn, in de toelichting bij de waarderingsregels vermeld en onder verwijzing naar de betrokken rubrieken toegelicht. Worden de bedragen van het voorafgaande boekjaar niet aangepast, dan moet de toelichting de nodige gegevens bevatten om een vergelijking mogelijk te maken.
@@ -128,7 +112,6 @@ De vraag die zich stelt is of er in de eerste jaarrekening over het boekjaar waa
 Met het oog op het verschaffen van betekenisvolle informatie aan de lezer, is het hoogst aangewezen de vergelijkende cijfers van het voorgaande boekjaar op te nemen en aan te passen, gezien het continuïteitsbeginsel van de vennootschap die haar referentiestelsel wijzigt. Om de vergelijkbaarheid van de opeenvolgende jaarrekeningen te waarborgen, dienen de cijfers van het voorgaande boekjaar zo te worden aangepast dat daaruit blijkt hoe de vermogenstoestand en de resultaten van de onderneming er zouden hebben uitgezien indien de wijziging van referentiestelsel zich reeds had voorgedaan in het voorafgaande boekjaar. Dit veronderstelt een herberekening van de cijfers van het voorafgaande boekjaar op grond van de Belgische waarderingsregels. Bovendien moeten de aanpassingen, behalve indien zij onbelangrijk zijn, in de toelichting bij de waarderingsregels vermeld worden en onder verwijzing naar de betrokken rubrieken toegelicht worden. De Commissie is van mening dat de vergelijkbaarheid het best kan bereikt worden door het opnemen van een concordantietabel in de toelichting.
 
 ### Uitzondering op het boekhoudkundig continuïteitsbeginsel
-
 De Commissie meent dat een uitzondering op het boekhoudkundig continuïteitsbeginsel slechts kan worden verantwoord onder de volgende twee cumulatieve voorwaarden: 
 
 - de afwijkende waarderingsregels hebben betrekking op verrichtingen die volgens het Belgisch boekhoudrecht de balans gedurende meerdere boekjaren kunnen beïnvloeden en die dus moeten worden uitgedrukt in de boekhouding overeenkomstig de Belgische regelgeving, zelfs al werden zij gerealiseerd vóór de wijziging van het boekhoudkundig referentiestelsel; en 
@@ -148,7 +131,6 @@ Neem hierbij het voorbeeld van een actiefbestanddeel dat in overeenstemming met 
 Indien het waarderingsverschil te wijten is aan een herwaarderingsmeerwaarde (bijvoorbeeld als gevolg van waardering tegen reële waarde [*fair value*] zoals in sommige gevallen binnen het IFRS referentiestelsel is toegestaan) geboekt overeenkomstig een ander boekhoudkundige referentiestelsel, en die herwaardering niet mag worden gehandhaafd binnen het Belgisch boekhoudrecht (door niet-naleving van de voorwaarden zoals bepaald in artikel 3:35, § 1 KB WVV), zal de vennootschap de boekhoudkundige herwerking evenwel uitvoeren door de rekening 12 *Herwaarderingsmeerwaarden*[^20] te debiteren ten belope van het nog niet afgeschreven gedeelte en/of indien de herwaarderingsmeerwaarde in het kapitaal werd geïncorporeerd, door rekening 10* Kapitaal*[^21] te debiteren ten belope van het nog niet afgeschreven gedeelte.
 
 ### Voorbeeld 2
-
 Neem bijvoorbeeld het geval van een deelneming die wordt geboekt onder de financiële vaste activa op de balans van een vennootschap die haar jaarrekening opstelt volgens het IFRS-referentiestelsel en die de *fair value through profit of loss*-waardering toepast voor dit soort activa.
 Stel dat de werkelijke waarde van het financieel vast actief hoger ligt dan de aanschaffingswaarde en dat de boeking van het actief tegen werkelijke waarde plaatsvindt zonder dat er onder IFRS een herwaarderingsreserve werd geboekt[^22].
 Volgens het Belgisch boekhoudrecht moet het financieel vast actief in beginsel geboekt worden tegen aanschaffingswaarde[^23]. De vennootschap kan, indien er wordt voldaan aan de voorwaarden, een herwaarderingsmeerwaarde boeken overeenkomstig artikel 3:35, § 1 KB WVV. In de veronderstelling dat er in onderhavig geval niet wordt voldaan aan de voorwaarden van artikel 3:35, § 1 KB WVV is het behoud van het financieel vast actief in de openingsbalans tegen werkelijke waarde in strijd met het Belgisch boekhoudrecht.
@@ -159,7 +141,6 @@ Bijgevolg moet de vennootschap de boekwaarde van het financieel vast actief herw
 In het geval waarin het zou gaan om een geldbelegging geboekt tegen werkelijke waarde die uitstijgt boven de aanschaffingswaarde, zal dit verschil sowieso moeten worden afgeboekt vermits naar Belgisch boekhoudrecht[^26] geldbeleggingen moeten worden geboekt volgens het principe ‘*lower of cost or market*’ en in geen geval geherwaardeerd kunnen worden.
 
 ## Boekhoudkundige verwerking van materiële vaste activa in de openingsbalans
-
 Om te kunnen voldoen aan de vereiste van het getrouw beeld en in toepassing van de continuïteitsoptiek, meent de Commissie dat de materiële vaste activa overeenkomstig het Belgisch boekhoudrecht moeten worden opgenomen in de eerste openingsbalans tegen aanschaffingswaarde verminderd met de afschrijvingen en waardeverminderingen. Deze aanschaffingswaarde kan evenwel geherwaardeerd worden om die zo gewenst beter te laten aansluiten bij de waardering binnen de laatst opgestelde jaarrekening conform een buitenlands referentiestelsel (IFRS of andere), voor zover een dergelijke herwaardering in lijn is met de Belgische wettelijke bepalingen.
 
 Artikel 3:35 KB WVV bepaalt immers dat een stijging van de waarde van een materieel vast actief[^27] (al dan niet met een beperkte gebruiksduur) slechts geboekt kan worden via een herwaardering, met tegenboeking in rubriek *Herwaarderingsmeerwaarden* van het passief, voor zover er voldaan is aan de voorwaarden van het KB WVV inzake herwaarderingsmeerwaarden[^28]. De Commissie herinnert hierbij ook aan de regel dat, indien de herwaardering betrekking heeft op materiële vaste activa met een beperkte gebruiksduur, deze op basis van de geherwaardeerde waarde wordt afgeschreven volgens een overeenkomstig artikel 3:6, § 1 KB WVV opgemaakt plan dat ertoe strekt de toerekening van de geherwaardeerde waarde te spreiden over de vermoedelijke residuele gebruiksduur van de betrokken activa[^29]. Tevens wil de Commissie benadrukken dat naar Belgisch boekhoudrecht het boeken van een herwaardering geenszins een verplichting uitmaakt.

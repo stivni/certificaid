@@ -3,41 +3,41 @@ bron: https://www.cbn-cnc.be/nl/adviezen/aanrekening-van-vergoedingen-van-beheer
 datum: 1977-08-01
 nummer: CBN-advies 105-5
 provenance:
+  generated_at: '2026-05-11T17:48:38Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/aanrekening-van-vergoedingen-van-beheerders-of-leden-van-het-personeel-toegekend-door-0
       sha256: 1be95bcf721b9668f270171df616a7e70c5338c8a49feb9bd492179f2356a47d
       version:
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
-    status: needs-rework
     confirmed_at: '2026-05-11T17:05:20Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "F1: frontmatter-veld 'nummer' bevat 'CBN-advies 105-5' (koppelteken) terwijl de body-heading op regel 52 'CBN-advies 105/5' schrijft (schuine streep) — de schuine streep is de correcte advies-notatie; de scraper heeft de URL-slug-hyphen overgenomen in het nummer-veld, wat een ETL-normaliseringsflout is. Body-tekst is clean en volledig."
     layer1:
-      file_size_chars: 1623
-      flags: []
+      status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:40Z'
       heading_count: 0
       max_section_chars: 1623
-      run_at: '2026-05-11T15:05:47Z'
-      run_id: 20260511-150547
-      status: pass
+      file_size_chars: 1623
+      flags: []
     layer2:
-      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T17:05:20Z'
-      rationale: "F1: frontmatter-veld 'nummer' bevat 'CBN-advies 105-5' (koppelteken) terwijl de body-heading op regel 52 'CBN-advies 105/5' schrijft (schuine streep) — de schuine streep is de correcte advies-notatie; de scraper heeft de URL-slug-hyphen overgenomen in het nummer-veld, wat een ETL-normaliseringsflout is. Body-tekst is clean en volledig."
       concrete_problemen:
-        - regel: 4
-          categorie: F1
+        - categorie: F1
+          regel: 4
           type: naam-mismatch
           voorbeeld: 'nummer: CBN-advies 105-5 (frontmatter, koppelteken) vs # CBN-advies 105/5 (body, schuine streep)'
+      rationale: 'F1: frontmatter-veld ''nummer'' bevat ''CBN-advies 105-5'' (koppelteken) terwijl de body-heading op regel 52 ''CBN-advies 105/5'' schrijft (schuine streep) — de schuine streep is de correcte advies-notatie; de scraper heeft de URL-slug-hyphen overgenomen in het nummer-veld, wat een ETL-normaliseringsflout is. Body-tekst is clean en volledig.'
+      run_at: '2026-05-11T17:05:20Z'
+      status: needs-rework
+    rationale: 'F1: frontmatter-veld ''nummer'' bevat ''CBN-advies 105-5'' (koppelteken) terwijl de body-heading op regel 52 ''CBN-advies 105/5'' schrijft (schuine streep) — de schuine streep is de correcte advies-notatie; de scraper heeft de URL-slug-hyphen overgenomen in het nummer-veld, wat een ETL-normaliseringsflout is. Body-tekst is clean en volledig.'
+    status: needs-rework
 themas:
   - vennootschap behorende tot dezelfde groep
   - aanrekening van vergoedingen door vennootschappen behorende tot dezelfde groep

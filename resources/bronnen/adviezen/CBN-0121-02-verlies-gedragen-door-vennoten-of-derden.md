@@ -2,64 +2,59 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/verlies-gedragen-door-vennoten-of-derden
 datum: 1981-12-01
 gerelateerde_adviezen:
-- datum: '2024-01-17'
-  titel: Vermogensklem bij de omzetting van een VZW in een coöperatieve vennootschap
-    erkend als sociale onderneming
-  url: https://www.cbn-cnc.be/nl/adviezen/vermogensklem-bij-de-omzetting-van-een-vzw-in-een-cooperatieve-vennootschap-erkend-als-0
-- datum: '2021-08-20'
-  titel: 'Herwaarderingsmeerwaarden bij vennootschappen: gevolgen van de wijzigingen
-    aangebracht door het WVV en KB WVV'
-  url: https://www.cbn-cnc.be/nl/adviezen/herwaarderingsmeerwaarden-bij-vennootschappen-gevolgen-van-de-wijzigingen-aangebracht-door
-- datum: '2016-09-07'
-  titel: 'Herwaarderingsmeerwaarden: gevolgen van de wijzigingen aan artikel 57 KB
-    W.Venn. door het koninklijk besluit van 18 december 2015'
-  url: https://www.cbn-cnc.be/nl/adviezen/herwaarderingsmeerwaarden-gevolgen-van-de-wijzigingen-aan-artikel-57-kb-wvenn-door-het
-- datum: '2011-07-06'
-  titel: Herwaarderingsmeerwaarden
-  url: https://www.cbn-cnc.be/nl/adviezen/herwaarderingsmeerwaarden
+  - datum: '2024-01-17'
+    titel: Vermogensklem bij de omzetting van een VZW in een coöperatieve vennootschap erkend als sociale onderneming
+    url: https://www.cbn-cnc.be/nl/adviezen/vermogensklem-bij-de-omzetting-van-een-vzw-in-een-cooperatieve-vennootschap-erkend-als-0
+  - datum: '2021-08-20'
+    titel: 'Herwaarderingsmeerwaarden bij vennootschappen: gevolgen van de wijzigingen aangebracht door het WVV en KB WVV'
+    url: https://www.cbn-cnc.be/nl/adviezen/herwaarderingsmeerwaarden-bij-vennootschappen-gevolgen-van-de-wijzigingen-aangebracht-door
+  - datum: '2016-09-07'
+    titel: 'Herwaarderingsmeerwaarden: gevolgen van de wijzigingen aan artikel 57 KB W.Venn. door het koninklijk besluit van 18 december 2015'
+    url: https://www.cbn-cnc.be/nl/adviezen/herwaarderingsmeerwaarden-gevolgen-van-de-wijzigingen-aan-artikel-57-kb-wvenn-door-het
+  - datum: '2011-07-06'
+    titel: Herwaarderingsmeerwaarden
+    url: https://www.cbn-cnc.be/nl/adviezen/herwaarderingsmeerwaarden
 nummer: CBN-advies 121/2
 provenance:
-  generated_at: '2026-05-11T15:15:31Z'
+  generated_at: '2026-05-11T17:48:38Z'
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/verlies-gedragen-door-vennoten-of-derden
-    sha256: a548e625e9e9642720e9a702993fc1be329ccb0738c0f2e26d1e247c253e793a
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/verlies-gedragen-door-vennoten-of-derden
+      sha256: a548e625e9e9642720e9a702993fc1be329ccb0738c0f2e26d1e247c253e793a
+      version:
   stale: false
-  stale_reason: null
+  stale_reason:
   tooling:
-    model: null
+    model:
     pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    prompt_version: null
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
     confirmed_at: '2026-05-08T19:02:30Z'
     confirmed_by: subagent-laag2-ronde2
     layer1:
-      file_size_chars: 5042
-      flags: []
+      status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:41Z'
       heading_count: 0
       max_section_chars: 5042
-      run_at: '2026-05-11T15:05:48Z'
-      run_id: 20260511-150547
-      status: pass
+      file_size_chars: 5042
+      flags: []
     layer2:
       agent: subagent-laag2-ronde2
       concrete_problemen: []
-      rationale: '[Laag-2-R2 2026-05-08] Volledig met meerdere scenario''s (verliesovername
-        via AVB, overheid, à fonds perdus, onrechtstreeks) en toelichtingsverplichting
-        als sluitstuk.'
+      rationale: '[Laag-2-R2 2026-05-08] Volledig met meerdere scenario''s (verliesovername via AVB, overheid, à fonds perdus, onrechtstreeks) en toelichtingsverplichting als sluitstuk.'
       run_at: '2026-05-08T19:02:30Z'
       status: trusted
     rationale: Laag-2 trusted door subagent-laag2-ronde2 (zie layer2.rationale)
     status: trusted
 themas:
-- aanzuivering van verlies
-- resultaatverwerking
-- staat van verwerking der resultaten
-- vennoot
-- verlies
-- verlies gedragen door derden
-- verlies gedragen door vennoten
+  - aanzuivering van verlies
+  - resultaatverwerking
+  - staat van verwerking der resultaten
+  - vennoot
+  - verlies
+  - verlies gedragen door derden
+  - verlies gedragen door vennoten
 ---
 
 # CBN-advies 121/2 - Verlies gedragen door vennoten of derden

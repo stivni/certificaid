@@ -2,75 +2,69 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/taal-van-de-jaarrekening-de-geconsolideerde-jaarrekening-en-de-andere-bij-de-nationale-0
 datum: 2020-03-05
 gerelateerde_adviezen:
-- datum: '2018-05-09'
-  titel: 'Belgische bijkantoren van vennootschappen naar buitenlands recht: toepassing
-    van het Belgisch boekhoudrecht - begrip “bijkantoor” - publicatieplicht'
-  url: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-vennootschappen-naar-buitenlands-recht-toepassing-van-het
-- datum: '2017-05-31'
-  titel: 'Bijkantoor: openbaarmakingsverplichtingen – Taal'
-  url: https://www.cbn-cnc.be/nl/adviezen/bijkantoor-openbaarmakingsverplichtingen-taal
-- datum: '2010-11-10'
-  titel: Gebruik van uniforme boekhoudsoftware door internationale ondernemingen
-  url: https://www.cbn-cnc.be/nl/adviezen/gebruik-van-uniforme-boekhoudsoftware-door-internationale-ondernemingen
+  - datum: '2018-05-09'
+    titel: 'Belgische bijkantoren van vennootschappen naar buitenlands recht: toepassing van het Belgisch boekhoudrecht - begrip “bijkantoor” - publicatieplicht'
+    url: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-vennootschappen-naar-buitenlands-recht-toepassing-van-het
+  - datum: '2017-05-31'
+    titel: 'Bijkantoor: openbaarmakingsverplichtingen – Taal'
+    url: https://www.cbn-cnc.be/nl/adviezen/bijkantoor-openbaarmakingsverplichtingen-taal
+  - datum: '2010-11-10'
+    titel: Gebruik van uniforme boekhoudsoftware door internationale ondernemingen
+    url: https://www.cbn-cnc.be/nl/adviezen/gebruik-van-uniforme-boekhoudsoftware-door-internationale-ondernemingen
 nummer: CBN-advies 2020/03
 provenance:
-  generated_at: '2026-05-11T15:15:32Z'
+  generated_at: '2026-05-11T17:48:39Z'
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/taal-van-de-jaarrekening-de-geconsolideerde-jaarrekening-en-de-andere-bij-de-nationale-0
-    sha256: 6a1bc36d859edab5d4cde1f198077495dfee7bc82f34a155bea499b7094c95bb
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/taal-van-de-jaarrekening-de-geconsolideerde-jaarrekening-en-de-andere-bij-de-nationale-0
+      sha256: 6a1bc36d859edab5d4cde1f198077495dfee7bc82f34a155bea499b7094c95bb
+      version:
   stale: false
-  stale_reason: null
+  stale_reason:
   tooling:
-    model: null
+    model:
     pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    prompt_version: null
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
     confirmed_at: '2026-05-11T12:21:40Z'
     confirmed_by: subagent-sonnet-4-6
     layer1:
-      file_size_chars: 4681
-      flags: []
-      heading_count: 3
-      max_section_chars: 2618
-      run_at: '2026-05-11T15:05:53Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:44Z'
+      heading_count: 3
+      max_section_chars: 2617
+      file_size_chars: 4678
+      flags: []
     layer2:
       agent: subagent-sonnet-4-6
       concrete_problemen: []
-      rationale: 'Kort advies, volledig schoon. Drie secties correct als ## headings,
-        10 voetnoten aanwezig en gedefinieerd, geen extractie-artefacten. Inhoud compleet.'
+      rationale: 'Kort advies, volledig schoon. Drie secties correct als ## headings, 10 voetnoten aanwezig en gedefinieerd, geen extractie-artefacten. Inhoud compleet.'
       run_at: '2026-05-11T12:21:40Z'
       status: trusted
-    rationale: 'Kort advies, volledig schoon. Drie secties correct als ## headings,
-      10 voetnoten aanwezig en gedefinieerd, geen extractie-artefacten. Inhoud compleet.'
+    rationale: 'Kort advies, volledig schoon. Drie secties correct als ## headings, 10 voetnoten aanwezig en gedefinieerd, geen extractie-artefacten. Inhoud compleet.'
     status: trusted
 themas:
-- taal
-- openbaarmaking
-- publicatie
-- neerlegging van de jaarrekening
-- vertaling
+  - taal
+  - openbaarmaking
+  - publicatie
+  - neerlegging van de jaarrekening
+  - vertaling
 ---
 
 # CBN-advies 2020/03 – Taal van de jaarrekening, de geconsolideerde jaarrekening en de andere bij de Nationale Bank van België neer te leggen stukken
 
 ## Inleiding
-
 Onderhavig advies behandelt het taalgebruik van de door vennootschappen bij de Nationale Bank van België (hierna: NBB) neer te leggen jaarrekening[^2] alsook van de andere documenten die tegelijk met de jaarrekening[^3] moeten worden neergelegd krachtens het Wetboek van vennootschappen en verenigingen (hierna: WVV). Vennootschappen zijn, conform de toepasselijke taalregelgeving[^4], gehouden om hun jaarrekening (alsook de andere tegelijk hiermee neer te leggen documenten) neer te leggen in de taal of in één van de officiële talen van het taalgebied waar de zetel van de rechtspersoon is gevestigd[^5].
 
 Artikel 3:67, § 3 van het uitvoeringsbesluit bij het Wetboek van vennootschappen en verenigingen bepaalt bovendien dat de jaarrekening of de geconsolideerde jaarrekening en de andere stukken die het voorwerp van een neerlegging vormen, in éénzelfde taal moeten worden opgemaakt. Zo kan voor een vennootschap gevestigd in het tweetalig gebied Brussel-Hoofdstad een jaarverslag opgesteld in het Frans niet samen met een jaarrekening opgesteld in het Nederlands worden neergelegd bij de NBB. 
 
 ## Mogelijkheid tot bijkomende neerlegging
-
 Het WVV biedt voortaan de mogelijkheid dat Belgische vennootschappen bijkomend een vertaling van de jaarrekening (alsook van de tegelijk hiermee neer te leggen documenten) neerleggen in één of meerdere officiële talen van de Europese Unie[^6]. Deze mogelijkheid vloeit voort uit de geldende Europese regelgeving[^7].
 
 In geval van tegenstrijdigheid tussen de jaarrekening (en de andere bij de NBB neer te leggen stukken) en de vertaling die bijkomend vrijwillig wordt openbaar gemaakt, kan deze laatste niet aan derden worden tegengeworpen. Die derden kunnen zich echter wel beroepen op de vrijwillig openbaar gemaakte vertaling, tenzij de rechtspersoon aantoont dat de derden kennis droegen van de originele versie[^8].
 
 ## Geconsolideerde jaarrekening
-
 Op grond van artikel 3:36 WVV moeten vennootschappen, conform de toepasselijke taalregelgeving, ook hun geconsolideerde jaarrekening (alsook de andere hiermee neer te leggen documenten) neerleggen in de taal of in één van de officiële talen van het taalgebied waar de zetel van de rechtspersoon gevestigd is. Net zoals voor de enkelvoudige jaarrekening biedt het nieuwe WVV de mogelijkheid om bijkomend een vertaling van deze geconsolideerde jaarrekening (en de hiermee neer te leggen documenten) neer te leggen in één of meerdere officiële talen van de Europese Unie.
 
 Ook in geval van vrijstelling van subconsolidatie is artikel 2:33 WVV van toepassing. Dit betekent dat de kopie van de geconsolideerde jaarrekening van de moedervennootschap die een geconsolideerde jaarrekening en een jaarverslag over de geconsolideerde jaarrekening opstelt, laat controleren en openbaar maakt en die door het bestuursorgaan van de vrijgestelde vennootschap wordt neergelegd bij de NBB, wel moet worden neergelegd in de taal of in één van de officiële talen van het taalgebied waar de zetel van de vrijgestelde moedervennootschap gevestigd is[^9], maar dat bijkomend een vertaling in één of meerdere officiële talen van de Europese Unie kan worden neergelegd.[^10]

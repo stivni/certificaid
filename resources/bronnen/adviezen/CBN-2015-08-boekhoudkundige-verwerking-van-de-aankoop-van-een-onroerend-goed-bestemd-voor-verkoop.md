@@ -16,45 +16,45 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-onderzoeksfondsen-in-de-jaarrekening-van-grote-en-zeer
 nummer: CBN-advies 2015/8
 provenance:
+  generated_at: '2026-05-11T17:48:39Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-aankoop-van-een-onroerend-goed-bestemd-voor-verkoop
       sha256: 953d75e99ef043526de7c91c7e325638643e154c2d56c484308010f4b0891eda
       version:
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
-    status: needs-rework
     confirmed_at: '2026-05-11T17:09:38Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "B3 bevestigd: H1 op regel 68 is '# Advies 30 september 2015' zonder CBN-advies-nummer (2015/8 ontbreekt in body) — structureel onvolledig als heading. B2 bevestigd: regels 110 en 112 bevatten twee opeenvolgende ## Voorbeeldboekingen en ## Boeking van de aankoop... die conceptueel een nesting vereisen maar beide ## zijn. ETL-artefacten."
     layer1:
-      file_size_chars: 12533
-      flags: []
-      heading_count: 7
-      max_section_chars: 5928
-      run_at: '2026-05-11T15:05:52Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:43Z'
+      heading_count: 7
+      max_section_chars: 5927
+      file_size_chars: 12601
+      flags: []
     layer2:
-      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T17:09:38Z'
-      rationale: "B3 bevestigd: H1 op regel 68 is '# Advies 30 september 2015' zonder CBN-advies-nummer (2015/8 ontbreekt in body) — structureel onvolledig als heading. B2 bevestigd: regels 110 en 112 bevatten twee opeenvolgende ## Voorbeeldboekingen en ## Boeking van de aankoop... die conceptueel een nesting vereisen maar beide ## zijn. ETL-artefacten."
       concrete_problemen:
-        - regel: 68
-          categorie: B3
+        - categorie: B3
+          regel: 68
           type: other
           voorbeeld: '# Advies 30 september 2015 — H1 zonder CBN-advies-nummer 2015/8'
-        - regel: 110
-          categorie: B2
+        - categorie: B2
+          regel: 110
           type: other
           voorbeeld: '## Voorbeeldboekingen gevolgd door ## Boeking van de aankoop... (subsectie als zelfde niveau)'
+      rationale: 'B3 bevestigd: H1 op regel 68 is ''# Advies 30 september 2015'' zonder CBN-advies-nummer (2015/8 ontbreekt in body) — structureel onvolledig als heading. B2 bevestigd: regels 110 en 112 bevatten twee opeenvolgende ## Voorbeeldboekingen en ## Boeking van de aankoop... die conceptueel een nesting vereisen maar beide ## zijn. ETL-artefacten.'
+      run_at: '2026-05-11T17:09:38Z'
+      status: needs-rework
+    rationale: 'B3 bevestigd: H1 op regel 68 is ''# Advies 30 september 2015'' zonder CBN-advies-nummer (2015/8 ontbreekt in body) — structureel onvolledig als heading. B2 bevestigd: regels 110 en 112 bevatten twee opeenvolgende ## Voorbeeldboekingen en ## Boeking van de aankoop... die conceptueel een nesting vereisen maar beide ## zijn. ETL-artefacten.'
+    status: needs-rework
 themas:
   - bestellingen in uitvoering
   - bouwprojecten
@@ -65,10 +65,9 @@ themas:
   - onroerende goederen bestemd voor verkoop
 ---
 
-# Advies 30 september 2015
+# CBN-advies 2015/8 Boekhoudkundige verwerking van de aankoop van een onroerend goed bestemd voor verkoop1
 
 ## Inleiding
-
 Onderhavig advies verduidelijkt de boekhoudkundige verwerking van de door een vennootschap verrichte aankoop van een onroerend goed bestemd voor verkoop.
 
 De bestemming die door het bestuursorgaan van de vennootschap bij de verwerving wordt gegeven aan een aangekocht onroerend goed is bepalend voor de boekhoudkundige verwerking.[^2]
@@ -76,7 +75,6 @@ De bestemming die door het bestuursorgaan van de vennootschap bij de verwerving 
  Indien het goed echter bij de verwerving bestemd is voor verkoop, wordt dit goed opgenomen onder de voorraden.
 
 ## Inhoud van rekening 35 *Onroerende goederen bestemd voor verkoop*
-
 In de minimumindeling van een algemeen rekeningstelsel is binnen de klasse 3. *Voorraden en bestellingen in uitvoering* een afzonderlijke rekening voorzien voor onroerende goederen bestemd voor verkoop. Op rekening 35 *Onroerende goederen bestemd voor verkoop* worden de onroerende goederen bestemd voor de verkoop geboekt met inbegrip van de terreinen, gebouwen en zakelijke rechten op onroerende goederen. De Commissie wenst te benadrukken dat er een wezenlijk verschil is tussen *Bestellingen en uitvoering* (rekening 37) en *Onroerende goederen bestemd voor verkoop* (rekening 35). Onder de post *Bestellingen in uitvoering* worden onder meer opgenomen het onderhanden werk dat voor rekening van een derde op bestelling wordt uitgevoerd en waarvoor nog geen oplevering is geschied alsmede de goederen in bewerking die voor rekening van een derde op bestelling worden gemaakt en die nog niet werden geleverd, tenzij het gaat om seriewerk.[^4]
  De post *Onroerende goederen bestemd voor verkoop* omvat mede de bouwprojecten die niet in opdracht van een derde worden uitgevoerd maar die door de vennootschap in eigen beheer worden gerealiseerd.[^5] 
 
@@ -107,24 +105,20 @@ De aldus bepaalde aanschaffingswaarde wordt vergeleken met de marktwaarde. Indie
 Elk bestanddeel van het vermogen wordt afzonderlijk gewaardeerd.[^15]
  Aangezien twee onroerende goederen nooit identieke technische of juridische kenmerken hebben, kan volgens de Commissie uitsluitend de methode van de individualisering worden toegepast en kan geen andere van de in artikel 43 KB W.Venn. vermelde waarderingsmethode worden toegepast. Een waardering van onroerende goederen bestemd voor verkoop op basis van de methode van de gewogen gemiddelde prijzen, volgens de methode “Fifo” (eerst in – eerst uit) of volgens de methode “Lifo” (laatst in – eerst uit) is aldus niet mogelijk voor onroerende goederen bestemd voor verkoop. Het gebruik van de methode van de individualisering verhindert niet dat voor de bepaling van de individuele aanschaffingswaarde van een actiefbestanddeel een methode wordt gehanteerd waarbij een gepaste verdeelsleutel wordt toegepast op een kost die op meerdere individuele bestanddelen betrekking heeft (bijvoorbeeld de kosten van een architect voor een project van 5 identieke woningen in een verkaveling kan in de aanschaffingswaarde van een individuele woning worden opgenomen ten belope van één vijfde van de totale ereloonnota). 
 
-## Voorbeeldboekingen[^16]
-
+## Voorbeeldboekingen
 ## Boeking van de aankoop van het voor verkoop bestemd onroerend goed en de bijkomende kosten
-
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 605 | Aankopen van onroerende goederen bestemd voor verkoop | | |
 | aan | 440 | Leveranciers | | |
 
 ## Boeking van de eventuele kosten van architecten, landmeters en andere ontwikkelingskosten
-
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 602 | Aankopen van diensten, werk en studies | | |
 | aan | 440 | Leveranciers | | |
 
 ## Boeking op inventarisdatum (of, bij een permanent voorraadsysteem, bij iedere transactie)
-
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 350 | Onroerende goederen bestemd voor verkoop: aanschaffingswaarde | | |
@@ -138,7 +132,6 @@ of bij een afname van de voorraad
 | aan | 350 | Onroerende goederen bestemd voor verkoop: aanschaffingswaarde | | |
 
 ## Boeking van intercalaire interesten
-
 Het bestuursorgaan van de vennootschap kan, onder de voorwaarden vermeld onder artikel 38, tweede lid KB W.Venn., beslissen om in de aanschaffingswaarde van de onroerende goederen bestemd voor verkoop, de rente op vreemd vermogen dat wordt gebruikt voor de financiering van de voorraden, op te nemen. Dit opnemen is slechts mogelijk voor zover deze rente voorraden betreft waarvan de productie meer dan één jaar bestrijkt en zij op de normale productieperiode van deze voorraden betrekking heeft. In dergelijk geval verloopt deze activering niet via de rekening 6095 *Voorraadwijzigingen van gekochte gebouwen bestemd voor verkoop* maar via een creditering van de rekening 6503 *Geactiveerde intercalaire intresten*.
 
 De activering van de intercalaire interesten wordt geboekt als volgt:

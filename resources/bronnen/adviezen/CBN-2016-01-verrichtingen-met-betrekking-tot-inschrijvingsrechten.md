@@ -16,45 +16,45 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/consolidatiekring-interpretatie-van-de-uitsluitingsgrond-van-artikel-107-4deg-kb-wvenn
 nummer: CBN-advies 2016/1
 provenance:
+  generated_at: '2026-05-11T17:48:39Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/verrichtingen-met-betrekking-tot-inschrijvingsrechten
       sha256: dad4b233d963a4855c96703b21c8580530bead33ca10a1724540264c6e72f907
       version:
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
-    status: needs-rework
     confirmed_at: '2026-05-11T17:09:38Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: 'E2 bevestigd: tabel op regels 141–153 bevat bullets buiten pipe-syntax als cel-inhoud (regels 144–148 zijn bullet-items die losgehangen zijn van de omringende pipe-tabel) — HTML-tabel extractie-artefact waarbij geneste lijst in cel niet correct werd omgezet. Eerste tabel (regels 133–137) is correct. ETL-artefact.'
     layer1:
-      file_size_chars: 12535
-      flags: []
-      heading_count: 6
-      max_section_chars: 3987
-      run_at: '2026-05-11T15:05:52Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:43Z'
+      heading_count: 6
+      max_section_chars: 3986
+      file_size_chars: 12529
+      flags: []
     layer2:
-      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T17:09:38Z'
-      rationale: 'E2 bevestigd: tabel op regels 141–153 bevat bullets buiten pipe-syntax als cel-inhoud (regels 144–148 zijn bullet-items die losgehangen zijn van de omringende pipe-tabel) — HTML-tabel extractie-artefact waarbij geneste lijst in cel niet correct werd omgezet. Eerste tabel (regels 133–137) is correct. ETL-artefact.'
       concrete_problemen:
-        - regel: 141
-          categorie: E2
+        - categorie: E2
+          regel: 141
           type: other
           voorbeeld: '| **Boekwaarde van het oud effect** | | **Bedrag** |\n| \n\n- waarmee de boekwaarde... — bullets buiten pipe-cell'
-        - regel: 144
-          categorie: E2
+        - categorie: E2
+          regel: 144
           type: other
           voorbeeld: '- waarmee de boekwaarde van het oud effect moet worden verminderd (bullet buiten tabelcel)'
+      rationale: 'E2 bevestigd: tabel op regels 141–153 bevat bullets buiten pipe-syntax als cel-inhoud (regels 144–148 zijn bullet-items die losgehangen zijn van de omringende pipe-tabel) — HTML-tabel extractie-artefact waarbij geneste lijst in cel niet correct werd omgezet. Eerste tabel (regels 133–137) is correct. ETL-artefact.'
+      run_at: '2026-05-11T17:09:38Z'
+      status: needs-rework
+    rationale: 'E2 bevestigd: tabel op regels 141–153 bevat bullets buiten pipe-syntax als cel-inhoud (regels 144–148 zijn bullet-items die losgehangen zijn van de omringende pipe-tabel) — HTML-tabel extractie-artefact waarbij geneste lijst in cel niet correct werd omgezet. Eerste tabel (regels 133–137) is correct. ETL-artefact.'
+    status: needs-rework
 themas:
   - aandelen
   - effecten
@@ -64,15 +64,12 @@ themas:
 # CBN-advies 2016/1 - Verrichtingen met betrekking tot inschrijvingsrechten
 
 ## Inleiding
-
 Bij een kapitaalverhoging kan een vennootschap inschrijvingsrechten uitoefenen.
 
 Onder inschrijvingsrecht wordt verstaan, het recht - al dan niet belichaamd door een effect - om in te schrijven op nieuwe aandelen van een vennootschap onder de voorwaarden die voor de uitgifte van deze aandelen worden gesteld.
 
 ## Verwerving en afzondering van een inschrijvingsrecht
-
 ### Verwerving van een inschrijvingsrecht
-
 Bij uitgifte van nieuwe aandelen die voorbehouden zijn aan de oude aandeelhouders, bevat de inschrijving twee elementen: enerzijds, de eigenlijke inschrijvingsprijs die aan de uitgevende vennootschap moet worden betaald; anderzijds, het afgescheiden inschrijvingsrecht van de oude aandelen dat de inschrijver zelf bezit of dat hij van andere houders van oude aandelen heeft gekocht.
 
 Hieruit volgt dat bij verwerving van rechten om op nieuwe aandelen in te schrijven de aankoopprijs van deze rechten, evenzeer als de inschrijvingsprijs, integraal deel uitmaakt van de aanschaffingsprijs van de aandelen waarop is ingeschreven en dat deze derhalve begrepen moet zijn in de waarde waarvoor deze aandelen in de jaarrekening van de betrokken aandeelhouder worden opgenomen.
@@ -80,7 +77,6 @@ Hieruit volgt dat bij verwerving van rechten om op nieuwe aandelen in te schrijv
 De aankoopprijs van deze rechten mag derhalve niet worden gelijkgesteld met bijkomende kosten die de aanschaffing van de betrokken aandelen bezwaren en mag als dusdanig niet worden ten laste genomen via de resultatenrekening van het boekjaar waarin de aankoop gebeurde.
 
 ### Afzondering van een inschrijvingsrecht
-
 Het aan bestaande aandelen verbonden recht om preferentieel in te schrijven op aandelen die worden uitgegeven ter vertegenwoordiging van een kapitaalverhoging tegen contanten, maakt integraal deel uit van deze bestaande aandelen en is dus kapitaal en geen opbrengst hiervan.
 
 Deze juridische omschrijving verwoordt de economische en financiële realiteit zoals die zich met name voordoet op de beursmarkt: de waarde van het inschrijvingsrecht vertegenwoordigt op marktbasis de waarde, die, als gevolg van de afzondering van het inschrijvingsrecht, van de oude aandelen overgaat op de nieuwe aandelen, wanneer de uitgifteprijs hiervan - zoals meestal het geval is - lager ligt dan de vermoedelijke marktwaarde van deze nieuwe aandelen. Zodra het inschrijvingsrecht wordt afgezonderd, heeft dit dan meestal ook een daling van de beurskoers van de oude aandelen voor gevolg.
@@ -101,7 +97,6 @@ Eenzelfde voorbehoud moet worden gemaakt voor het in mindering brengen van de ve
 Het komt er dus op aan de kapitaalwaarde te bepalen die bij de afzondering van het recht van de oude effecten verondersteld wordt overgedragen te zijn van het oude effect op het inschrijvingsrecht en die de afgezonderde boekwaarde van het recht uitmaakt. Dit wordt verder geïllustreerd in het voorbeeld onder randnummer 15.
 
 ### Bepaling van de kapitaalwaarde van een inschrijvingsrecht
-
 Aan de Commissie werd gevraagd hoe deze kapitaalwaarde moest worden bepaald.
 
 De Commissie heeft zich hiervoor gebaseerd op de formule die in een geval van verkoop van inschrijvingsrechten aanvaard werd door het Hof van Beroep te Gent in een arrest van 30 juni 1961, na verwijzing door het Hof van Cassatie via een arrest van 20 januari 1959[^1]. Deze formule luidt als volgt: het bedrag waarmee de boekwaarde van de oude aandelen moet worden verminderd, is gelijk aan:
@@ -127,7 +122,6 @@ Bij verkoop van een recht is het verschil tussen de verkoopprijs en het bedrag d
 Bij uitoefening[^4] van een recht ontstaat er geen resultaat dat als zodanig mag worden geboekt.
 
 ### Voorbeeld
-
 De hierboven beschreven beginselen kunnen als volgt worden geïllustreerd:
 
 | Boekwaarde van het oude effect | | | | XX EUR | 

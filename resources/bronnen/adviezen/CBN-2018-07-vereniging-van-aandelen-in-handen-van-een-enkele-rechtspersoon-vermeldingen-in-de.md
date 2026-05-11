@@ -3,45 +3,45 @@ bron: https://www.cbn-cnc.be/nl/adviezen/vereniging-van-aandelen-in-handen-van-e
 datum: 2018-05-09
 nummer: CBN-advies 2018/07
 provenance:
+  generated_at: '2026-05-11T17:48:39Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/vereniging-van-aandelen-in-handen-van-een-enkele-rechtspersoon-vermeldingen-in-de
       sha256: 0bfff4849299f0c0eca7f7080f32ac0ae00d5919809aed787b8629fb17d28435
       version:
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
-    status: needs-rework
     confirmed_at: '2026-05-11T17:13:30Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "E2: twee voorbeeld-blokken (regels 69-75 en 167-177) zijn verpakt in '|\\n\\n*Voorbeeld*\\n\\n  |' constructies — losse tabelcellen zonder header of separator, een scraper-artefact waarbij call-out boxes als tabel-fragmenten zijn gerenderd. Een mens zou een blockquote (>) of gewone alinea schrijven. Verder inhoud en heading-structuur correct."
     layer1:
-      file_size_chars: 7549
-      flags: []
-      heading_count: 4
-      max_section_chars: 2618
-      run_at: '2026-05-11T15:05:53Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:44Z'
+      heading_count: 4
+      max_section_chars: 2617
+      file_size_chars: 7545
+      flags: []
     layer2:
-      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T17:13:30Z'
-      rationale: "E2: twee voorbeeld-blokken (regels 69-75 en 167-177) zijn verpakt in '|\\n\\n*Voorbeeld*\\n\\n  |' constructies — losse tabelcellen zonder header of separator, een scraper-artefact waarbij call-out boxes als tabel-fragmenten zijn gerenderd. Een mens zou een blockquote (>) of gewone alinea schrijven. Verder inhoud en heading-structuur correct."
       concrete_problemen:
-        - regel: 69
-          categorie: E2
+        - categorie: E2
+          regel: 69
           type: pseudo-table
           voorbeeld: "| \n\n*Voorbeeld*\n\n  |"
-        - regel: 167
-          categorie: E2
+        - categorie: E2
+          regel: 167
           type: pseudo-table
           voorbeeld: "| \n\n*Voorbeeld*\n\n  |"
+      rationale: 'E2: twee voorbeeld-blokken (regels 69-75 en 167-177) zijn verpakt in ''|\n\n*Voorbeeld*\n\n  |'' constructies — losse tabelcellen zonder header of separator, een scraper-artefact waarbij call-out boxes als tabel-fragmenten zijn gerenderd. Een mens zou een blockquote (>) of gewone alinea schrijven. Verder inhoud en heading-structuur correct.'
+      run_at: '2026-05-11T17:13:30Z'
+      status: needs-rework
+    rationale: 'E2: twee voorbeeld-blokken (regels 69-75 en 167-177) zijn verpakt in ''|\n\n*Voorbeeld*\n\n  |'' constructies — losse tabelcellen zonder header of separator, een scraper-artefact waarbij call-out boxes als tabel-fragmenten zijn gerenderd. Een mens zou een blockquote (>) of gewone alinea schrijven. Verder inhoud en heading-structuur correct.'
+    status: needs-rework
 themas:
   - vereniging van aandelen in één hand
   - eenhoofdigheid
@@ -55,11 +55,9 @@ themas:
 # CBN-advies 2018/07 – Vereniging van aandelen in handen van één enkele rechtspersoon: vermeldingen in de toelichting
 
 ## Inleiding
-
 In onderhavig advies verduidelijkt de Commissie de gevolgen van de vereniging van aandelen in handen van één enkele rechtspersoon, voor wat betreft de jaarrekening van de vennootschap die enige aandeelhouder is geworden.
 
 ## Vennootschapsrechtelijke bepalingen
-
 Een vennootschap vereist in principe steeds een samenwerking tussen verschillende personen en dus meerdere aandeelhouders.[^2]
  Enkel voor de naamloze vennootschap (hierna: NV) en de besloten vennootschap met beperkte aansprakelijkheid (hierna: BVBA) voorzien resp. de artikelen 646 en 213 van het Wetboek van Vennootschappen (hierna: W.Venn.) in de mogelijkheid om slechts één aandeelhouder te hebben, in de praktijk vaak omschreven als “eenhoofdigheid” of een “eenhoofdige vennootschap”.
 
@@ -75,7 +73,6 @@ Wanneer alle aandelen van de vennootschap op 1 januari X in handen van vennootsc
   | 
 
 ## Vermeldingen in de jaarrekening van de enige aandeelhouder
-
 De eenhoofdigheid heeft voor gevolg dat iedere rechtspersoon die de enige aandeelhouder is van een NV of van een BVBA en dus hoofdelijk borg staat, passende vermeldingen moet maken in de jaarrekening. Artikel 25 van het uitvoeringsbesluit bij het Wetboek van vennootschappen (hierna: KB W.Venn.) schrijft namelijk voor dat de toelichting per soort de rechten en verplichtingen die niet in de balans voorkomen en die het vermogen, de financiële positie of het resultaat van de vennootschap aanmerkelijk kunnen beïnvloeden, vermeldt. Belangrijke rechten en verplichtingen die niet kunnen worden becijferd, worden op passende wijze vermeld in de toelichting.
 
 In het volledig model van de jaarrekening dient het maximumbedrag, ten belope waarvan andere verplichtingen van derden door de onderneming zijn gewaarborgd, te worden vermeld onder *Door de onderneming gestelde of onherroepelijk beloofde persoonlijke zekerheden[^6] als waarborg voor schulden of verplichtingen van derden* (VOL 6.14).[^7]
@@ -87,7 +84,6 @@ Hoewel in de oorspronkelijke ontwerpteksten was voorzien in een hoofdelijke en o
  Bijgevolg wenst de Commissie te benadrukken dat, naar aanleiding van het eenhoofdig worden van de vennootschap, de vennoot deze vennootschap niet dient te vermelden in de in de toelichting opgenomen lijst van ondernemingen waarvoor de onderneming onbeperkt aansprakelijk is in haar hoedanigheid van onbeperkt aansprakelijk vennoot (VOL 6.5.2).
 
 ## Stuk dat tegelijk met de jaarrekening moet worden neergelegd
-
 De wet bevat nog een andere verplichting n.a.v. het eenhoofdig worden van de vennootschap, meer bepaald dat de tussen de enige aandeelhouder en de vennootschap gesloten overeenkomsten, tenzij het courante verrichtingen betreft die onder normale omstandigheden plaatsvinden, worden ingeschreven in een stuk dat tegelijk met de jaarrekening moet worden neergelegd.[^10] 
 
 [^1]: Onderhavig advies is tot stand gekomen nadat een ontwerp van het advies op 10 januari 2018 ter consultatie werd gepubliceerd op de website van de CBN.

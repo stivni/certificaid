@@ -10,41 +10,41 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/zetelverplaatsing-naar-belgie-van-een-vennootschap-opgericht-naar-buitenlands-recht
 nummer: CBN-advies 2020/15
 provenance:
+  generated_at: '2026-05-11T17:48:39Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/zetelverplaatsing-naar-belgie-model-van-staat-van-activa-en-passiva-bij-immigrerende
       sha256: be0d14092a3cfa9ddad3237fab0a7e0e64a44382e9e7a5e3f69af67b2a64d652
       version:
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T15:15:32Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
-    status: needs-rework
     confirmed_at: '2026-05-11T17:13:30Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "B5: Regel 66 bevat '### De Koning kan het model van de staat van activa en passiva vaststellen.' als ### heading, maar deze zin is de afsluitende zin van het geciteerde artikel 14:30 WVV binnen een blockquote — de ETL heeft de ### prefix ten onrechte op deze wetszin geplakt in plaats van hem als plain-text binnen de blockquote te laten staan. Overige inhoud (2 echte headings, 2 voetnoten, correct standpunt Commissie) is volledig en correct."
     layer1:
-      file_size_chars: 3922
-      flags: []
-      heading_count: 3
-      max_section_chars: 2157
-      run_at: '2026-05-11T15:05:54Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:44Z'
+      heading_count: 3
+      max_section_chars: 2156
+      file_size_chars: 3919
+      flags: []
     layer2:
-      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T17:13:30Z'
-      rationale: "B5: Regel 66 bevat '### De Koning kan het model van de staat van activa en passiva vaststellen.' als ### heading, maar deze zin is de afsluitende zin van het geciteerde artikel 14:30 WVV binnen een blockquote — de ETL heeft de ### prefix ten onrechte op deze wetszin geplakt in plaats van hem als plain-text binnen de blockquote te laten staan. Overige inhoud (2 echte headings, 2 voetnoten, correct standpunt Commissie) is volledig en correct."
       concrete_problemen:
-        - regel: 66
-          categorie: B5
+        - categorie: B5
+          regel: 66
           type: other
           voorbeeld: '### De Koning kan het model van de staat van activa en passiva vaststellen."'
+      rationale: 'B5: Regel 66 bevat ''### De Koning kan het model van de staat van activa en passiva vaststellen.'' als ### heading, maar deze zin is de afsluitende zin van het geciteerde artikel 14:30 WVV binnen een blockquote — de ETL heeft de ### prefix ten onrechte op deze wetszin geplakt in plaats van hem als plain-text binnen de blockquote te laten staan. Overige inhoud (2 echte headings, 2 voetnoten, correct standpunt Commissie) is volledig en correct.'
+      run_at: '2026-05-11T17:13:30Z'
+      status: needs-rework
+    rationale: 'B5: Regel 66 bevat ''### De Koning kan het model van de staat van activa en passiva vaststellen.'' als ### heading, maar deze zin is de afsluitende zin van het geciteerde artikel 14:30 WVV binnen een blockquote — de ETL heeft de ### prefix ten onrechte op deze wetszin geplakt in plaats van hem als plain-text binnen de blockquote te laten staan. Overige inhoud (2 echte headings, 2 voetnoten, correct standpunt Commissie) is volledig en correct.'
+    status: needs-rework
 themas:
   - zetelverplaatsing
   - staat van activa en passiva
@@ -55,7 +55,6 @@ themas:
 # CBN-advies 2020/15 – Zetelverplaatsing naar België: model van staat van activa en passiva bij immigrerende vennootschappen
 
 ## Inleiding
-
 De Commissie voor boekhoudkundige normen werd door de Nationale Bank van België (hierna: NBB) recentelijk om advies gevraagd over het model van de staat van activa en passiva die de vermogenstoestand weergeeft van de immigrerende vennootschappen op het ogenblik van hun omzetting (openingsbalans).
 
 De Commissie wenst eraan te herinneren dat de procedure inzake grensoverschrijdende zetelverplaatsing sedert de invoering van het Wetboek van vennootschappen en verenigingen (hierna: WVV) het voorwerp uitmaakt van een welomschreven regeling. Artikel 14:30 van het WVV bepaalt namelijk het volgende:
@@ -64,11 +63,9 @@ De Commissie wenst eraan te herinneren dat de procedure inzake grensoverschrijde
 Deze neerlegging gebeurt binnen dertig dagen nadat de authentieke omzettingsakte is verleden.
 Indien de staat van actief en passief niet werd neergelegd zoals bepaald in het tweede lid, wordt de door derden geleden schade, behoudens tegenbewijs, geacht voort te vloeien uit dit verzuim.
 ### De Koning kan het model van de staat van activa en passiva vaststellen.”
-
 Momenteel is er nog geen gebruik gemaakt van de in het vierde lid van voornoemd artikel bepaalde mogelijkheid. Daarnaast worden bij de NBB dergelijke staten van actief en passief neergelegd door vennootschappen die immigreren. Om deze redenen heeft de NBB aan de Commissie gevraagd of de openingsbalansen verplicht moeten worden opgesteld in overeenstemming met het standaardschema voor Belgische vennootschappen.
 
 ## Standpunt van de Commissie
-
 Aangezien de Koning geen gebruik heeft gemaakt van de in artikel 14:30 WVV aan hem verleende machtiging, kan een verplicht gebruik van de standaardmodellen niet afgedwongen worden. De Commissie wenst er desalniettemin op te wijzen dat het gebruik van de door de NBB daartoe ter beschikking gestelde modellen[^2] van de staat van activa en passiva, opgesteld naargelang het een kapitaalhoudende of kapitaalloze vennootschap betreft, kan worden aangemoedigd om de leesbaarheid en de vergelijkbaarheid van de jaarrekening te bewaren zonder dat ondernemingen buitensporige kosten hoeven te dragen. 
 
 De Commissie is bijgevolg van oordeel dat het de voorkeur wegdraagt de immigrerende vennootschappen aan te raden om, voor zover mogelijk, de minimumindeling van het algemeen rekeningenstelsel te gebruiken zolang er bij koninklijk besluit geen model wordt voorzien.

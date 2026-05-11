@@ -3,41 +3,41 @@ bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-voorz
 datum: 1988-06-01
 nummer: CBN-advies 107/8
 provenance:
+  generated_at: '2026-05-11T17:48:38Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-voorzieningen-voor-risicos-en-kosten
       sha256: d753bc74c5fd679b41db4da5185b9d315db89113f7fc81e0cf1c003ccd4d619d
       version:
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
-    status: needs-rework
     confirmed_at: '2026-05-11T17:05:20Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "G2: frontmatter themas-veld op regel 45 bevat ongeparseerde HTML-entity '&#039;' ('voorzieningen voor risico&#039;s en kosten') — ETL-bug, HTML niet gedecode. Body-tekst is volledig clean en goed leesbaar."
     layer1:
-      file_size_chars: 2994
-      flags: []
+      status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:40Z'
       heading_count: 0
       max_section_chars: 2994
-      run_at: '2026-05-11T15:05:48Z'
-      run_id: 20260511-150547
-      status: pass
+      file_size_chars: 2994
+      flags: []
     layer2:
-      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T17:05:20Z'
-      rationale: "G2: frontmatter themas-veld op regel 45 bevat ongeparseerde HTML-entity '&#039;' ('voorzieningen voor risico&#039;s en kosten') — ETL-bug, HTML niet gedecode. Body-tekst is volledig clean en goed leesbaar."
       concrete_problemen:
-        - regel: 45
-          categorie: G2
+        - categorie: G2
+          regel: 45
           type: other
           voorbeeld: voorzieningen voor risico&#039;s en kosten — HTML-entity &#039; niet gedecode in YAML
+      rationale: 'G2: frontmatter themas-veld op regel 45 bevat ongeparseerde HTML-entity ''&#039;'' (''voorzieningen voor risico&#039;s en kosten'') — ETL-bug, HTML niet gedecode. Body-tekst is volledig clean en goed leesbaar.'
+      run_at: '2026-05-11T17:05:20Z'
+      status: needs-rework
+    rationale: 'G2: frontmatter themas-veld op regel 45 bevat ongeparseerde HTML-entity ''&#039;'' (''voorzieningen voor risico&#039;s en kosten'') — ETL-bug, HTML niet gedecode. Body-tekst is volledig clean en goed leesbaar.'
+    status: needs-rework
 themas:
   - fiscale voorziening
   - voorziening

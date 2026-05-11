@@ -3,59 +3,51 @@ bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-aan-v
 datum: 2020-12-11
 nummer: CBN-advies 2020/14
 provenance:
-  generated_at: '2026-05-11T15:15:32Z'
+  generated_at: '2026-05-11T17:48:39Z'
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-aan-verkoop-van-een-actief-via-een-geblokkeerde-0
-    sha256: ed74afcdef9799397ca53683b6c66f0d3608f5b8b3457b0d7e4d25674a0fab43
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-aan-verkoop-van-een-actief-via-een-geblokkeerde-0
+      sha256: ed74afcdef9799397ca53683b6c66f0d3608f5b8b3457b0d7e4d25674a0fab43
+      version:
   stale: false
-  stale_reason: null
+  stale_reason:
   tooling:
-    model: null
+    model:
     pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    prompt_version: null
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
     confirmed_at: '2026-05-11T12:21:40Z'
     confirmed_by: subagent-sonnet-4-6
     layer1:
-      file_size_chars: 23042
-      flags: []
-      heading_count: 4
-      max_section_chars: 15873
-      run_at: '2026-05-11T15:05:54Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:44Z'
+      heading_count: 4
+      max_section_chars: 15872
+      file_size_chars: 23038
+      flags: []
     layer2:
       agent: subagent-sonnet-4-6
       concrete_problemen: []
-      rationale: 'Geen significante artefacten. Drie situaties (koper-rekening, verkoper-rekening,
-        notaris-rekening) helder als ### headings. Alle boekingstabellen in markdown
-        pipe-syntax. Lege Debet/Credit cellen in de ordererekenings-tabellen zijn
-        intentioneel (bedragen zijn situatie-afhankelijk). Voetnoten 1-34 aanwezig.
-        Inhoud compleet.'
+      rationale: 'Geen significante artefacten. Drie situaties (koper-rekening, verkoper-rekening, notaris-rekening) helder als ### headings. Alle boekingstabellen in markdown pipe-syntax. Lege Debet/Credit cellen in de ordererekenings-tabellen zijn intentioneel (bedragen zijn situatie-afhankelijk). Voetnoten 1-34 aanwezig. Inhoud compleet.'
       run_at: '2026-05-11T12:21:40Z'
       status: trusted
-    rationale: 'Geen significante artefacten. Drie situaties (koper-rekening, verkoper-rekening,
-      notaris-rekening) helder als ### headings. Alle boekingstabellen in markdown
-      pipe-syntax. Lege Debet/Credit cellen in de ordererekenings-tabellen zijn intentioneel
-      (bedragen zijn situatie-afhankelijk). Voetnoten 1-34 aanwezig. Inhoud compleet.'
+    rationale: 'Geen significante artefacten. Drie situaties (koper-rekening, verkoper-rekening, notaris-rekening) helder als ### headings. Alle boekingstabellen in markdown pipe-syntax. Lege Debet/Credit cellen in de ordererekenings-tabellen zijn intentioneel (bedragen zijn situatie-afhankelijk). Voetnoten 1-34 aanwezig. Inhoud compleet.'
     status: trusted
 themas:
-- geblokkeerde rekening
-- geblokkeerde bankrekening
-- opschortende voorwaarde
-- ontbindende voorwaarde
-- waarborg
-- niet in de balans opgenomen rechten en verplichtingen
-- escrow
-- inbeslagname
+  - geblokkeerde rekening
+  - geblokkeerde bankrekening
+  - opschortende voorwaarde
+  - ontbindende voorwaarde
+  - waarborg
+  - niet in de balans opgenomen rechten en verplichtingen
+  - escrow
+  - inbeslagname
 ---
 
 # CBN-advies 2020/14 – Boekhoudkundige verwerking van de aan-/verkoop van een actief via een geblokkeerde rekening
 
 ## Inleiding
-
 Aan de Commissie werd gevraagd naar de behandeling van een geblokkeerde bankrekening die als waarborg moet dienen bij transacties tussen twee of meer partijen. Het staat partijen immers vrij om de aan-/verkoop van een actiefbestanddeel afhankelijk te maken van de vervulling van bepaalde – opschortende[^2], dan wel ontbindende[^3]
  – voorwaarde(n). Het gebeurt geregeld dat de partijen, in afwachting van de vervulling van dergelijke voorwaarde(n), contractueel bedingen dat de afgesproken verkoopprijs door de koper reeds wordt gestort op een geblokkeerde bankrekening[^4]. 
 
@@ -71,7 +63,6 @@ Tot aan de vervulling van contractueel omschreven voorwaarde(n) blijven de gelde
 Bij de vervulling van de tussen de partijen bepaalde voorwaarde(n) worden de gelden van de geblokkeerde rekening vrijgegeven – doorgaans met de handtekening van beide partijen – en doorgestort aan de verkoper en verkrijgt de koper anderzijds het aangekocht actiefbestanddeel.
 
 ## Boekhoudkundige verwerking
-
 De transacties die via een geblokkeerde rekening verlopen, kunnen in de praktijk zowel betrekking hebben op de levering van goederen, als diensten. Het gebruik van een geblokkeerde rekening kan door de partijen aldus worden aangewend voor uiteenlopende handelingen die tot de activiteiten van de partijen behoren.
 
 Met onderhavig advies buigt de Commissie zich bij wijze van voorbeeld over de vraag naar de boekhoudkundige verwerking van de betaling op een geblokkeerde rekening bij een verkoop van een materieel vast actief (bv. een machine). Zoals hierboven reeds aangestipt, is het hierbij van belang een onderscheid te maken tussen wie burgerrechtelijk als eigenaar[^6] van een geblokkeerde rekening wordt aangemerkt. 
@@ -83,7 +74,6 @@ Van zodra de vooropgestelde voorwaarde wordt vervuld en de vergunning aldus word
 Gelet op het belang van de geplande transactie beslissen de partijen om, binnen de grenzen van dit voorbeeld, de verkoopakte authentiek[^7] te laten verlijden door een notaris.
 
 ### Situatie 1: storting door de koper op een geblokkeerde rekening van de koper
-
 De eerste situatie doet zich voor ingeval de koper het contractueel afgesproken aankoopbedrag van het vast actief op zijn eigen geblokkeerde rekening stort en dit in afwachting van de verkrijging van de vergunning. In deze situatie wordt door de betrokken partijen aldus geen beroep gedaan op de diensten van een onafhankelijke derde partij die over een geblokkeerde rekening beschikt.
 
 In voorkomend geval blijft het aankoopbedrag weliswaar op de balans van de koper staan, doch kan hij niet meer vrij over desbetreffende liquide middelen[^8] beschikken. De Commissie is van oordeel dat de volgende boeking in hoofde van de koper dient te geschieden: 
@@ -120,7 +110,6 @@ Gelet op het gegeven dat de verkoper zich er bovendien toe verbindt om het desbe
 | | 23X0 | Installaties, machines en uitrusting: aanschaffingswaarde | | |
 
 ### Situatie 2: storting door de koper op een geblokkeerde rekening van de verkoper
-
 De tweede situatie doet zich voor ingeval de koper het contractueel afgesproken aankoopbedrag, vóór de verwerving van het vast actief, op een geblokkeerde rekening van de verkoper stort en dit in afwachting van de verkrijging van de vergunning. Net zoals het geval was bij de eerste situatie, wenden de partijen zich niet tot een onafhankelijke derde die over een geblokkeerde rekening beschikt waarop het afgesproken aankoopbedrag gestort kan worden.
 
 In tegenstelling tot de eerste situatie zijn de doorgestorte liquiditeiten niet meer terug te vinden op de balans van de koper.

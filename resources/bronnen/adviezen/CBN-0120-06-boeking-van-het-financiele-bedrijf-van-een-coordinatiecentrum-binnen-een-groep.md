@@ -2,54 +2,48 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/boeking-van-het-financiele-bedrijf-van-een-coordinatiecentrum-binnen-een-groep
 datum: 1988-12-01
 gerelateerde_adviezen:
-- datum: '1988-06-01'
-  titel: Coördinatiecentrum - Financiële instelling
-  url: https://www.cbn-cnc.be/nl/adviezen/coordinatiecentrum-financiele-instelling
+  - datum: '1988-06-01'
+    titel: Coördinatiecentrum - Financiële instelling
+    url: https://www.cbn-cnc.be/nl/adviezen/coordinatiecentrum-financiele-instelling
 nummer: CBN-advies 120/6
 provenance:
-  generated_at: '2026-05-11T15:15:31Z'
+  generated_at: '2026-05-11T17:48:38Z'
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/boeking-van-het-financiele-bedrijf-van-een-coordinatiecentrum-binnen-een-groep
-    sha256: 8290e7bbdbc95df2debedbba375ee4787fa3b05144feb08ee4e91cb56fe3b925
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/boeking-van-het-financiele-bedrijf-van-een-coordinatiecentrum-binnen-een-groep
+      sha256: 8290e7bbdbc95df2debedbba375ee4787fa3b05144feb08ee4e91cb56fe3b925
+      version:
   stale: false
-  stale_reason: null
+  stale_reason:
   tooling:
-    model: null
+    model:
     pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    prompt_version: null
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
     confirmed_at: '2026-05-11T13:16:02Z'
     confirmed_by: subagent-sonnet-4-6
     layer1:
-      file_size_chars: 1910
-      flags: []
+      status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:41Z'
       heading_count: 0
       max_section_chars: 1910
-      run_at: '2026-05-11T15:05:48Z'
-      run_id: 20260511-150547
-      status: pass
+      file_size_chars: 1910
+      flags: []
     layer2:
       agent: subagent-sonnet-4-6
       concrete_problemen: []
-      rationale: Vorige L2 flagde D4 broken italic op regels 53 en 57 ('*Bull. CBN
-        *nr.'), maar de werkelijke body toont '*Bull. CBN*' correct gesloten op regels
-        61 en 65 — scraper-fix D4 heeft gewerkt. Body is kort (1910 chars), drie alinea's,
-        voetnoot [^1] correct. Geen extractie-artefacten.
+      rationale: Vorige L2 flagde D4 broken italic op regels 53 en 57 ('*Bull. CBN *nr.'), maar de werkelijke body toont '*Bull. CBN*' correct gesloten op regels 61 en 65 — scraper-fix D4 heeft gewerkt. Body is kort (1910 chars), drie alinea's, voetnoot [^1] correct. Geen extractie-artefacten.
       run_at: '2026-05-11T13:16:02Z'
       status: trusted
-    rationale: Vorige L2 flagde D4 broken italic op regels 53 en 57 ('*Bull. CBN *nr.'),
-      maar de werkelijke body toont '*Bull. CBN*' correct gesloten op regels 61 en
-      65 — scraper-fix D4 heeft gewerkt. Body is kort (1910 chars), drie alinea's,
-      voetnoot [^1] correct. Geen extractie-artefacten.
+    rationale: Vorige L2 flagde D4 broken italic op regels 53 en 57 ('*Bull. CBN *nr.'), maar de werkelijke body toont '*Bull. CBN*' correct gesloten op regels 61 en 65 — scraper-fix D4 heeft gewerkt. Body is kort (1910 chars), drie alinea's, voetnoot [^1] correct. Geen extractie-artefacten.
     status: trusted
 themas:
-- coördinatiecentrum
-- financiële bedrijf
-- geldbeleggingen
-- voorschot
-- vordering
+  - coördinatiecentrum
+  - financiële bedrijf
+  - geldbeleggingen
+  - voorschot
+  - vordering
 ---
 
 # CBN-advies 120/6 - Boeking van het financiële bedrijf van een coördinatiecentrum binnen een groep

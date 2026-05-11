@@ -7,37 +7,37 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/renteloze-vorderingen-schulden-en-vorderingen-schulden-met-een-abnormaal-lage-rente-op
 nummer: CBN-advies 137/9
 provenance:
+  generated_at: '2026-05-11T17:48:38Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/actualisering-van-vorderingen-en-schulden-op-korte-termijn-update
       sha256: f80fc19159bc3be038cb0b293c47843b630ae221af7b778a1e39123a9f3af147
       version:
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
-    status: trusted
     confirmed_at: '2026-05-11T15:15:33Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: 'Kort advies (1759 chars, 1 heading) zonder ETL-artefacten. Inhoud volledig: de vraag, het antwoord van de Commissie en de wettelijke onderbouwing zijn aanwezig. Voetnoot correct geformatteerd als [^1]. Geen A-G-categorie problemen aangetroffen.'
     layer1:
-      file_size_chars: 1759
-      flags: []
-      heading_count: 1
-      max_section_chars: 1759
-      run_at: '2026-05-11T15:05:49Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:41Z'
+      heading_count: 1
+      max_section_chars: 1753
+      file_size_chars: 1753
+      flags: []
     layer2:
-      status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:15:33Z'
-      rationale: 'Kort advies (1759 chars, 1 heading) zonder ETL-artefacten. Inhoud volledig: de vraag, het antwoord van de Commissie en de wettelijke onderbouwing zijn aanwezig. Voetnoot correct geformatteerd als [^1]. Geen A-G-categorie problemen aangetroffen.'
       concrete_problemen: []
+      rationale: 'Kort advies (1759 chars, 1 heading) zonder ETL-artefacten. Inhoud volledig: de vraag, het antwoord van de Commissie en de wettelijke onderbouwing zijn aanwezig. Voetnoot correct geformatteerd als [^1]. Geen A-G-categorie problemen aangetroffen.'
+      run_at: '2026-05-11T15:15:33Z'
+      status: trusted
+    rationale: 'Kort advies (1759 chars, 1 heading) zonder ETL-artefacten. Inhoud volledig: de vraag, het antwoord van de Commissie en de wettelijke onderbouwing zijn aanwezig. Voetnoot correct geformatteerd als [^1]. Geen A-G-categorie problemen aangetroffen.'
+    status: trusted
 themas:
   - Vorderingen met een abnormaal lage rente
   - waardering
@@ -51,9 +51,7 @@ themas:
 ---
 
 # CBN advies 137/9 - Actualisering van vorderingen en schulden op korte termijn (update)
-
-## Advies van februari 1993, bijgewerkt op 10 september 2025[^1]
-
+## Advies van februari 1993, bijgewerkt op 10 september 2025
 Aan de Commissie werd gevraagd of ondernemingen op grond van de boekhoudwetgeving hun vorderingen en schulden op korte termijn mogen waarderen tegen hun actuele waarde, dus na actualisering. 
 
 Volgens de Commissie staat de boekhoudregeling dit niet toe voor de ondernemingen die zijn onderworpen aan koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen (hierna: KB WVV). 

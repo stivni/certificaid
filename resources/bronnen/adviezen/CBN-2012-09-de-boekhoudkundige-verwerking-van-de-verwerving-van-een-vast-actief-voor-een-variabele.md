@@ -10,59 +10,58 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/verwerving-van-een-vast-actief-voor-een-prijs-die-bestaat-uit-een-vast-contant-te-betalen
 nummer: CBN-advies 2012/9
 provenance:
+  generated_at: '2026-05-11T17:48:39Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-verwerving-van-een-vast-actief-voor-een-variabele
       sha256: bf4eeb3bbe53a79b3ed20c981361938a3d6d79fa6d298ad2bdd8a0bdfa8f723d
       version:
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
-    status: needs-rework
     confirmed_at: '2026-05-11T17:09:38Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "E1/E2: de afschrijvingstabel voor Voorbeeld 4 (regels 155-324) is volledig uiteengevallen in tientallen losse eencellige pipe-tabellen met multi-line content en tab-ingesprongen tekst — een complexe multi-kolom spreadsheet-tabel die ETL niet kon reconstrueren. B5: regels 136 en 326 tonen sectie-titels ('Afschrijven van vaste activa met beperkte levensduur...' en 'Overeenstemming tussen de boekhoudkundige verwerking...') als plain-text alinea's zonder heading-prefix."
     layer1:
-      file_size_chars: 20623
-      flags: []
-      heading_count: 7
-      max_section_chars: 16578
-      run_at: '2026-05-11T15:05:50Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:43Z'
+      heading_count: 7
+      max_section_chars: 16575
+      file_size_chars: 20843
+      flags: []
     layer2:
-      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T17:09:38Z'
-      rationale: "E1/E2: de afschrijvingstabel voor Voorbeeld 4 (regels 155-324) is volledig uiteengevallen in tientallen losse eencellige pipe-tabellen met multi-line content en tab-ingesprongen tekst — een complexe multi-kolom spreadsheet-tabel die ETL niet kon reconstrueren. B5: regels 136 en 326 tonen sectie-titels ('Afschrijven van vaste activa met beperkte levensduur...' en 'Overeenstemming tussen de boekhoudkundige verwerking...') als plain-text alinea's zonder heading-prefix."
       concrete_problemen:
-        - regel: 155
-          categorie: E1
+        - categorie: E1
+          regel: 155
           type: pseudo-table
           voorbeeld: "| | | \n|---|---|\n\nVaste betaalde prijs: 300\n\n  | | \n|---|"
-        - regel: 136
-          categorie: B5
+        - categorie: B5
+          regel: 136
           type: other
           voorbeeld: Afschrijven van vaste activa met beperkte levensduur die zijn verworven voor een prijs die (deels) bestaat uit een variabele gedeelte
-        - regel: 326
-          categorie: B5
+        - categorie: B5
+          regel: 326
           type: other
           voorbeeld: Overeenstemming tussen de boekhoudkundige verwerking van goederen verworven tegen betaling van een lijfrente en de activatie van de variabele prijs
+      rationale: 'E1/E2: de afschrijvingstabel voor Voorbeeld 4 (regels 155-324) is volledig uiteengevallen in tientallen losse eencellige pipe-tabellen met multi-line content en tab-ingesprongen tekst — een complexe multi-kolom spreadsheet-tabel die ETL niet kon reconstrueren. B5: regels 136 en 326 tonen sectie-titels (''Afschrijven van vaste activa met beperkte levensduur...'' en ''Overeenstemming tussen de boekhoudkundige verwerking...'') als plain-text alinea''s zonder heading-prefix.'
+      run_at: '2026-05-11T17:09:38Z'
+      status: needs-rework
+    rationale: 'E1/E2: de afschrijvingstabel voor Voorbeeld 4 (regels 155-324) is volledig uiteengevallen in tientallen losse eencellige pipe-tabellen met multi-line content en tab-ingesprongen tekst — een complexe multi-kolom spreadsheet-tabel die ETL niet kon reconstrueren. B5: regels 136 en 326 tonen sectie-titels (''Afschrijven van vaste activa met beperkte levensduur...'' en ''Overeenstemming tussen de boekhoudkundige verwerking...'') als plain-text alinea''s zonder heading-prefix.'
+    status: needs-rework
 themas:
   - variabele prijs
   - financiële vaste activa
   - immateriële vaste activa
 ---
 
-# Advies 6 juni 2012, bijgewerkt op 10 september 2025[^1]
+# CBN-advies 2012/9 – De boekhoudkundige verwerking van de verwerving van een vast actief voor een variabele prijs die afhankelijk is van een toekomstige en onzekere gebeurtenis die een rechtstreeks verband houdt met het nut dat het verworven actief heeft voor de vennootschap (update)
 
 ## Inleiding
-
 In dit advies behandelt de Commissie voor boekhoudkundige normen de boekhoudkundige verwerking van de verwerving van een vast actief voor een prijs die een variabel gedeelte omvat dat afhankelijk is van een toekomstige en onzekere gebeurtenis[^2]. 
 
 Wanneer een onderneming vaste activa verwerft waarvoor een prijs wordt betaald die enerzijds bestaat uit een vast gedeelte dat moet worden betaald bij het sluiten van de overeenkomst, en anderzijds uit een variabel gedeelte dat later moet worden betaald en afhankelijk is van een toekomstige en onzekere gebeurtenis (bv. een bepaald percentage van het aan het overgenomen actief toe te wijzen deel van de bedrijfswinst), dan kunnen hierbij enkele vragen worden gesteld. Moet het variabel gedeelte van de prijs geactiveerd worden of daarentegen onmiddellijk als kost ten laste worden genomen van het boekjaar? En indien het variabel gedeelte van de prijs geactiveerd moet worden, op welke wijze moet dit variabel gedeelte van de prijs dan worden afgeschreven?
@@ -70,7 +69,6 @@ Wanneer een onderneming vaste activa verwerft waarvoor een prijs wordt betaald d
 In de CBN-adviezen 126/9[^3] en 126/10[^4] heeft de Commissie reeds enkele principes met betrekking tot de bovengenoemde problematiek uiteengezet. In onderhavig advies, dat de adviezen 126/9 en 126/10 opheft en vervangt, worden deze principes overgenomen en verder gepreciseerd.
 
 ## Draagwijdte van het advies
-
 Verrichtingen waarbij vaste activa worden verworven voor een prijs die minstens voor een deel een variabele prijs omvat die afhankelijk is van een toekomstige en onzekere gebeurtenis, hebben naar mening van de Commissie vrijwel nooit betrekking op materiële vaste activa, al kan niet worden uitgesloten dat ook voor deze categorie van vaste activa in variabele prijsafspraken wordt voorzien.
 
 Bij de overdracht van immateriële vaste activa komen dergelijke verrichtingen daarentegen vaak voor. De economische waarde van immateriële vaste activa is immers, vaker dan voor materiële vaste activa, afhankelijk van het nut dat ze hebben voor de onderneming die ze bezit en wordt in mindere mate bepaald door een objectieve marktprijs. 
@@ -82,17 +80,13 @@ Het onderhavig advies heeft bijgevolg een algemene draagwijdte en geldt voor all
 Vervolgens wenst de Commissie te benadrukken dat de in dit advies beschreven boekhoudkundige verwerking enkel van toepassing is wanneer de variabele prijsbetalingen (die worden voldaan naar aanleiding van de verwerving van een vast actief) worden bepaald door een toekomstige en onzekere gebeurtenis die een rechtstreeks verband houdt met het nut dat het verworven actief heeft voor de verwervende vennootschap. 
 
 ## Boekhoudkundige verwerking
-
 ### Activering van de variabele prijs bij de verwerving van vaste activa
-
 #### Algemeen
-
 Naar mening van de Commissie zijn vaste activa die vermogensbestanddelen van een onderneming die bestemd zijn om duurzaam voor de bedrijfsuitoefening te worden gebruikt[^5] en waarvan een toekomstig economisch nut kan worden verwacht[^6]. Bijgevolg kunnen enkel die kosten waarvan het investeringskarakter vaststaat worden geactiveerd. 
 
 Kosten die daarentegen rechtstreeks gerelateerd zijn aan onmiddellijke opbrengsten van een bepaald boekjaar moeten overeenkomstig het matchingbeginsel ten laste van dat boekjaar worden genomen. Deze kosten leiden immers niet tot een toekomstig economisch nut voor de onderneming. Vermits voor deze kosten het investeringskarakter ontbreekt, kan hier geen activatie plaatsvinden. 
 
 #### Toegepast op de variabele prijs betaald naar aanleiding van de verwerving van vaste activa
-
 Ook voor de variabele prijs die wordt betaald naar aanleiding van de verwerving van een vast actief geldt dat deze kosten geactiveerd moeten worden wanneer zij een investeringskarakter vertonen. 
 
 Wanneer de variabele prijs daarentegen onmiddellijk gerelateerd is aan opbrengsten die betrekking hebben op één enkel boekjaar, dan dient deze variabele prijs rechtstreeks ten laste van de resultatenrekening van dit boekjaar te worden gelegd. De Commissie meent dat de afwezigheid van het investeringskarakter van de variabele prijs die wordt betaald naar aanleiding van de verwerving van een vast actief, slechts uitzonderlijk zal voorkomen. De Commissie denkt hierbij aan de situatie waarbij een onderneming een vast actief verwerft met een juridisch beperkte duur (bv. een concessie over een periode van 10 jaar) waarbij gedurende de volledige levensduur van het actief eenzelfde variabele prijs moet worden betaald door de koper (bv. een bijkomende prijs gelijk aan 25 % van de bedrijfswinst van de kopende onderneming gedurende 10 jaar). In dit geval zal de kost, m.n. de variabele prijs, in direct verband staan met de opbrengsten van het boekjaar. Vermits uit deze kost geen toekomstige voordelen meer naar de onderneming zullen vloeien, kan deze niet worden geactiveerd als vast actief en dient zij meteen ten laste van de resultatenrekening te worden genomen. 
@@ -143,7 +137,6 @@ Wanneer een onderneming voor lineaire afschrijvingen kiest, betekent de toepassi
 Er moet evenwel op worden gewezen dat bij een dergelijke afschrijvingsmethode, in de aanvangsperiode een bedrag wordt afgeschreven dat toeneemt naarmate de te betalen prijs stijgt, waarna dit bedrag zich stabiliseert, ingeval het om een langere afschrijvingsperiode gaat. De afschrijvingen zijn m.a.w. het kleinst aan het begin van de periode, wanneer de productiviteit van het vast actief normaal gezien het hoogst is. Om dit te vermijden, kan de onderneming, overeenkomstig het boekhoudrecht, opteren voor een degressieve afschrijvingsmethode. 
 
 ## Voorbeeld 4
-
 Een vennootschap A neemt in jaar 20X0 een concessie met een juridische duur van 10 jaar over van vennootschap B. De vennootschap A betaalde 300 voor de concessie. De concessie wordt volgens een daartoe opgesteld plan afgeschreven over een periode van tien jaar. 
 
 Met de overdragende vennootschap B wordt bovendien nog overeengekomen dat de koper A in de vier boekjaren na het jaar van aankoop nog een meerprijs zal betalen die telkens gelijk is aan 10 % van de omzet van het voorgaande boekjaar. De omzet van de onderneming in deze jaren is gelijk aan: 270 in jaar 20X0; 320 in jaar 20X1; 140 in jaar 20X2 en 360 in jaar 20X3.
@@ -320,7 +313,7 @@ Jaar 20X9
   | | 
 |---|
 
-  | | | | | | | | | | **409** | 
+ | | | | | | | | | | **409** | 
 |---|---|---|---|---|---|---|---|---|---|
 
 Overeenstemming tussen de boekhoudkundige verwerking van goederen verworven tegen betaling van een lijfrente en de activatie van de variabele prijs betaald naar aanleiding van de verwerving van een vast actief

@@ -16,45 +16,45 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-vennootschappen-naar-buitenlands-recht-eigen-boekhoudkundige-0
 nummer: CBN-advies 117/3
 provenance:
+  generated_at: '2026-05-11T17:48:38Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/voeren-van-de-boekhouding-en-opstellen-van-de-jaarrekening-in-een-andere-munt-dan-de-euro
       sha256: 31318435a29991bcbeb515e0d31d19760d5c140e282ad7e8200b3872787c2071
       version:
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
-    status: needs-rework
     confirmed_at: '2026-05-11T17:05:20Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "A6: regel 97 en 118 beginnen met een leading space (' Bij de opstelling...' en ' Tenzij de transacties...') — spurious line-break artefacten, typisch PDF-extractie waarbij een alinea-opening een spatie-prefix meekreeg. Heading-hiërarchie is correct (H1 → H2 → H2 → H2); eerdere B2-claim was onjuist."
     layer1:
-      file_size_chars: 11466
-      flags: []
-      heading_count: 3
-      max_section_chars: 3970
-      run_at: '2026-05-11T15:05:48Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:41Z'
+      heading_count: 3
+      max_section_chars: 3969
+      file_size_chars: 11457
+      flags: []
     layer2:
-      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T17:05:20Z'
-      rationale: "A6: regel 97 en 118 beginnen met een leading space (' Bij de opstelling...' en ' Tenzij de transacties...') — spurious line-break artefacten, typisch PDF-extractie waarbij een alinea-opening een spatie-prefix meekreeg. Heading-hiërarchie is correct (H1 → H2 → H2 → H2); eerdere B2-claim was onjuist."
       concrete_problemen:
-        - regel: 97
-          categorie: A6
+        - categorie: A6
+          regel: 97
           type: other
-          voorbeeld: "' Bij de opstelling van de jaarrekening bepaalt iedere entiteit'"
-        - regel: 118
-          categorie: A6
+          voorbeeld: ''' Bij de opstelling van de jaarrekening bepaalt iedere entiteit'''
+        - categorie: A6
+          regel: 118
           type: other
-          voorbeeld: "' Tenzij de transacties steevast in een andere munt dan de euro'"
+          voorbeeld: ''' Tenzij de transacties steevast in een andere munt dan de euro'''
+      rationale: 'A6: regel 97 en 118 beginnen met een leading space ('' Bij de opstelling...'' en '' Tenzij de transacties...'') — spurious line-break artefacten, typisch PDF-extractie waarbij een alinea-opening een spatie-prefix meekreeg. Heading-hiërarchie is correct (H1 → H2 → H2 → H2); eerdere B2-claim was onjuist.'
+      run_at: '2026-05-11T17:05:20Z'
+      status: needs-rework
+    rationale: 'A6: regel 97 en 118 beginnen met een leading space ('' Bij de opstelling...'' en '' Tenzij de transacties...'') — spurious line-break artefacten, typisch PDF-extractie waarbij een alinea-opening een spatie-prefix meekreeg. Heading-hiërarchie is correct (H1 → H2 → H2 → H2); eerdere B2-claim was onjuist.'
+    status: needs-rework
 themas:
   - afwijking
   - functionele munt
@@ -88,12 +88,10 @@ Daarnaast bepaalt art. 22 K.B. W.Venn. dat in de jaarrekening de bedragen in eur
 In navolging van de op 04.07.2008 door Minister Van Quickenborne gegeven sectorale toestemming voor het voeren van de boekhouding en het opstellen van de jaarrekening in USD voor individuele "diamantvennootschappen" (wiens activiteit bestaat in de handel in ruwe en geslepen diamant) die aan bepaalde inhoudelijke en formele voorwaarden voldoen, heeft de Commissie een advies geschreven om de voorwaarden van deze aanvragen te kaderen.
 
 ## Definitie van de functionele valuta
-
 De boekhouding van een vennootschap alsook de jaarrekening dienen opgesteld te worden in de functionele valuta. De functionele valuta is de valuta in de voornaamste economische omgeving waarin de entiteit actief is.[^5]
  Bij de opstelling van de jaarrekening bepaalt iedere entiteit de functionele valuta. De functionele valuta van een entiteit weerspiegelt de voor haar relevante onderliggende transacties, gebeurtenissen en omstandigheden.[^6] 
 
 ## Bepaling van de functionele valuta
-
 De bepaling van de functionele valuta moet gebeuren op basis van volgende factoren.[^7] 
 
 1. De valuta die hoofdzakelijk bepalend is voor de verkoopprijs van goederen en diensten (dit zal vaak de valuta zijn waarin de verkoopprijs van de goederen en diensten wordt uitgedrukt en afgewikkeld). 
@@ -122,7 +120,6 @@ Het komt het bestuursorgaan van de vennootschap toe bij het aanvragen van een af
 Een en ander impliceert dat het leeuwendeel van de activa, de schulden en de opbrengsten moeten afgewikkeld worden in de betrokken vreemde valuta.[^13] 
 
 ## Bijkomende voorwaarden
-
 De toelating voor het voeren van de boekhouding en het opstellen van de jaarrekening in een andere munt dan de euro, is aan een aantal bijkomende voorwaarden gekoppeld waar het bestuursorgaan van de vennootschap nauwlettend moet op toezien.
 
 1. Opdat de boekhouding kan gevoerd en vooral de jaarrekening kan uitgedrukt worden in de functionele valuta, andere dan de euro, dient het maatschappelijk kapitaal vennootschapsrechtelijk tevens uitgedrukt te worden in de functionele valuta waarin de jaarrekening zal opgemaakt worden. Deze voorwaarde is een gevolg van art. 3 Wet 30.12.1885[^14]. In de openbare en administratieve akten worden de bedragen uitgedrukt in euro of in een munteenheid van een Lid-Staat van de Organisatie voor Economische Samenwerking en Ontwikkeling. 

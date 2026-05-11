@@ -16,41 +16,41 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/verrichtingen-met-betrekking-tot-inschrijvingsrechten
 nummer: CBN-advies 127/2
 provenance:
+  generated_at: '2026-05-11T17:48:38Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/waardevermindering-op-aandelen-voorziening-voor-risicos-verbonden-aan-niet-opgevraagd
       sha256: dd176ad07335dc8869f9254b82ab3b39e8c35527699586e1bdfa3e7620dc91e6
       version:
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
-    status: needs-rework
     confirmed_at: '2026-05-11T17:05:20Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "F1 op L59: frontmatter-veld themas bevat ongedecodeerde HTML-entiteit '&#039;' (apostrof) in 'voorzieningen voor risico&#039;s en kosten' — ETL-bug die machine-leesbare metadata corrumpeert. Body (L63-L76) is volledig schoon en inhoudelijk compleet voor dit korte advies."
     layer1:
-      file_size_chars: 2723
-      flags: []
+      status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:41Z'
       heading_count: 0
       max_section_chars: 2723
-      run_at: '2026-05-11T15:05:48Z'
-      run_id: 20260511-150547
-      status: pass
+      file_size_chars: 2723
+      flags: []
     layer2:
-      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T17:05:20Z'
-      rationale: "F1 op L59: frontmatter-veld themas bevat ongedecodeerde HTML-entiteit '&#039;' (apostrof) in 'voorzieningen voor risico&#039;s en kosten' — ETL-bug die machine-leesbare metadata corrumpeert. Body (L63-L76) is volledig schoon en inhoudelijk compleet voor dit korte advies."
       concrete_problemen:
-        - regel: 59
-          categorie: F1
+        - categorie: F1
+          regel: 59
           type: other
           voorbeeld: '- voorzieningen voor risico&#039;s en kosten (HTML-entiteit niet gedecodeerd)'
+      rationale: 'F1 op L59: frontmatter-veld themas bevat ongedecodeerde HTML-entiteit ''&#039;'' (apostrof) in ''voorzieningen voor risico&#039;s en kosten'' — ETL-bug die machine-leesbare metadata corrumpeert. Body (L63-L76) is volledig schoon en inhoudelijk compleet voor dit korte advies.'
+      run_at: '2026-05-11T17:05:20Z'
+      status: needs-rework
+    rationale: 'F1 op L59: frontmatter-veld themas bevat ongedecodeerde HTML-entiteit ''&#039;'' (apostrof) in ''voorzieningen voor risico&#039;s en kosten'' — ETL-bug die machine-leesbare metadata corrumpeert. Body (L63-L76) is volledig schoon en inhoudelijk compleet voor dit korte advies.'
+    status: needs-rework
 themas:
   - aandelen
   - niet-opgevraagd gedeelte van aandelen

@@ -3,49 +3,49 @@ bron: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-in
 datum: 2012-01-11
 nummer: CBN-advies 2012/4
 provenance:
+  generated_at: '2026-05-11T17:48:39Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-inbeslagname-in-hoofde-van-de-beslagen-schuldenaar
       sha256: 4325b86bb9e88219e2116194f27bc2a303cf2a3c2f5d2e38addf25adad2bd7cc
       version:
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
-    status: needs-rework
     confirmed_at: '2026-05-11T17:09:38Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "B5: regel 123 toont '** 2. Kantonnement**' als bold pseudo-heading — structureel inconsistent met de andere subsecties die wel ### headings gebruiken (bv. '### 1. Uitvoerend beslag' op regel 111). E2: regels 146-148 en 154-156 tonen tabelrijen waarbij rekeningnummers '700-707' en '700 – 707' plus de omschrijving over meerdere regels met tab-inspringing lopen, buiten de tabelcellen."
     layer1:
-      file_size_chars: 16330
-      flags: []
-      heading_count: 9
-      max_section_chars: 7132
-      run_at: '2026-05-11T15:05:50Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:43Z'
+      heading_count: 9
+      max_section_chars: 7131
+      file_size_chars: 16321
+      flags: []
     layer2:
-      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T17:09:38Z'
-      rationale: "B5: regel 123 toont '** 2. Kantonnement**' als bold pseudo-heading — structureel inconsistent met de andere subsecties die wel ### headings gebruiken (bv. '### 1. Uitvoerend beslag' op regel 111). E2: regels 146-148 en 154-156 tonen tabelrijen waarbij rekeningnummers '700-707' en '700 – 707' plus de omschrijving over meerdere regels met tab-inspringing lopen, buiten de tabelcellen."
       concrete_problemen:
-        - regel: 123
-          categorie: B5
+        - categorie: B5
+          regel: 123
           type: other
           voorbeeld: '** 2. Kantonnement**'
-        - regel: 146
-          categorie: E2
+        - categorie: E2
+          regel: 146
           type: pseudo-table
           voorbeeld: "| | 700-707\n\t\t\t(of 499 | Verkopen en dienstprestaties \n\t\t\tVerkopen materiële vaste activa) | 4.750,00 | |"
-        - regel: 154
-          categorie: E2
+        - categorie: E2
+          regel: 154
           type: pseudo-table
           voorbeeld: "| | 700 – 707\n\t\t\t(of 499 | Verkopen en dienstprestaties \n\t\t\tVerkopen materiële vaste activa) | 4.750,00 | |"
+      rationale: 'B5: regel 123 toont ''** 2. Kantonnement**'' als bold pseudo-heading — structureel inconsistent met de andere subsecties die wel ### headings gebruiken (bv. ''### 1. Uitvoerend beslag'' op regel 111). E2: regels 146-148 en 154-156 tonen tabelrijen waarbij rekeningnummers ''700-707'' en ''700 – 707'' plus de omschrijving over meerdere regels met tab-inspringing lopen, buiten de tabelcellen.'
+      run_at: '2026-05-11T17:09:38Z'
+      status: needs-rework
+    rationale: 'B5: regel 123 toont ''** 2. Kantonnement**'' als bold pseudo-heading — structureel inconsistent met de andere subsecties die wel ### headings gebruiken (bv. ''### 1. Uitvoerend beslag'' op regel 111). E2: regels 146-148 en 154-156 tonen tabelrijen waarbij rekeningnummers ''700-707'' en ''700 – 707'' plus de omschrijving over meerdere regels met tab-inspringing lopen, buiten de tabelcellen.'
+    status: needs-rework
 themas:
   - bewarend beslag
   - inbeslagname
@@ -56,7 +56,6 @@ themas:
 # CBN-advies 2012/4 - De boekhoudkundige verwerking van de inbeslagname in hoofde van de beslagen schuldenaar Advies van 11 januari 2012
 
 ## Inleiding
-
 Luidens de artikelen 7 en 8 van de Hypotheekwet is de schuldenaar gehouden zijn verbintenissen na te komen, *onder verband van* al zijn goederen, hetzij roerende, hetzij onroerende, zowel tegenwoordige als toekomstige, waarbij de goederen van deze laatste strekken tot gemeenschappelijke waarborg voor zijn schuldeisers.[^1] 
 
 Uit deze verplichting vloeit het recht voort voor een schuldeiser om beslag te laten leggen op een goed van zijn schuldenaar, hetzij om het te beschermen tegen bepaalde handelingen van de schuldenaar (bewarend beslag), hetzij om het te verkopen en zich de opbrengst daarvan toe te eigenen (uitvoerend beslag). Naar het object van het beslag onderscheidt men hoofdzakelijk het roerend beslag[^2], het onroerend beslag[^3] en het beslag onder derden.[^4] 
@@ -64,9 +63,7 @@ Uit deze verplichting vloeit het recht voort voor een schuldeiser om beslag te l
 De Commissie voor Boekhoudkundige Normen behandelt in dit advies de boekhoudkundige gevolgen van het bewarend en het uitvoerend beslag in hoofde van de beslagen schuldenaar.
 
 ## Bewarend beslag
-
 ### Algemene kenmerken
-
  Het bewarend beslag wordt geregeld door het artikel 1413 e.v. van het Gerechtelijk Wetboek en heeft tot doel het geheel of een deel van de goederen van een onderneming onbeschikbaar[^5] te maken, teneinde deze goederen te vrijwaren van enige ontvreemding ervan door de onderneming.[^6] 
 
 Enerzijds brengt het bewarend beslag geen onteigening van de schuldenaar met zich mee.[^7]
@@ -80,7 +77,6 @@ De schuldenaar lastens wie bewarend beslag is gelegd, heeft het recht om het bes
  Werd het beslag gelegd op gelden of roerende goederen die zich in handen van een derde bevinden (beslag onder derden of beslag bij een derde), dan kan door de beslaglegger, de beslagen schuldenaar, of derde-beslagene het kantonnement gevraagd worden van het voorwerp van het beslag (nl. de gelden of de roerende goederen waarop het beslag betrekking heeft).[^13] 
 
 ### Boekhoudkundige analyse
-
 De jaarrekening moet een getrouw beeld geven van het vermogen van de vennootschap.[^14] 
 
 De Boekhoudwet van 17 juli 1975 en het koninklijk besluit van 30 januari 2001 tot uitvoering van het Wetboek van Vennootschappen leggen op dat in de balans van de onderneming haar bezittingen en rechten van welke aard ook dienen voor te komen. Bovendien worden de rechten en verplichtingen die niet in de balans voorkomen en die het vermogen, de financiële positie en het resultaat van de vennootschap aanmerkelijk kunnen beïnvloeden in de toelichting vermeld.[^15] 
@@ -90,9 +86,7 @@ Omwille van de potentieel gelopen risico’s door de vennootschap en omwille van
 Het bestuursorgaan moet bovendien op inventarisdatum beoordelen of al dan niet een waardevermindering dient geboekt te worden op de beslagen goederen.
 
 ## Uitvoerend beslag
-
 ### Algemene kenmerken
-
 Bij een uitvoerend beslag (artikel 1494 e.v. Ger. W.) streeft een schuldeiser die over een uitvoerbare titel beschikt, tegenover een onderneming de effectieve betaling na van zijn vordering door middel van de gedwongen verkoop van de beslagen materiële of immateriële activa uit het vermogen van deze laatste. De schuldeiser beoogt op die manier de waarde van zijn schuldvordering te bekomen. 
 
 Het uitvoerend beslag heeft geen eigendomsoverdracht tot gevolg, en heeft dus in eerste instantie slechts een bewarend karakter.[^16]
@@ -107,9 +101,7 @@ Wanneer met inachtneming van de procedureregels van de gedwongen openbare verkoo
  Het is de taak van de gerechtsdeurwaarder of de notaris om de verkoopprijs van de goederen toe te wijzen na de openbare verkoop ervan, ter terugbetaling van zijn kosten en van deze eigen aan de toewijzing. Vervolgens verdeelt hij het saldo onder de overige schuldeisers die betrokken zijn bij de procedure, met inachtname van een eventuele voorrangsbepaling waarvan bepaalde schuldeisers zouden kunnen genieten. 
 
 ### Boekhoudkundige analyse
-
 ### 1. Uitvoerend beslag
-
 Zolang de toewijzing in het kader van de openbare verkoop niet heeft plaatsgevonden, zal er volgens de Commissie op boekhoudkundig vlak geen realisatie van de in beslag genomen goederen plaatsvinden. Het uitvoerend beslag kan evenwel, in de fase voorafgaand aan de verkoop, een aanzienlijke invloed hebben op de vermogenstoestand van de onderneming. 
 
 Het risico van de procedure tot inbeslagname voor de onderneming dient geval per geval beoordeeld te worden in functie van de impact op het vermogen, de financiële positie of de resultaten van de onderneming. Hiertoe zijn het bedrag van de schuld en de waarde van het beslagen goed waardevolle indicatoren. 
@@ -125,7 +117,6 @@ Op het moment waarop de verkoop plaatsvindt, is er op boekhoudkundig vlak realis
 Het kantonnement heeft, zelfs in de gevallen waarin dit wordt beschouwd als een voorwaardelijke betaling, geen onmiddellijke impact op het vermogen van de beslagen onderneming. Indien de onderneming van mening is dat er, ondanks het kantonnement, een aanzienlijk risico blijft bestaan voor de financiële positie van de onderneming, moet zij hiervan melding maken in de toelichting onder de niet in de balans opgenomen rechten en verplichtingen. Pas bij vervulling van de voorwaarde (nl. de erkenning van de beslagene als debiteur) zullen de gelden uit het vermogen van de onderneming verdwijnen (ter betaling van de schuld). 
 
 ### Voorbeeld
-
 Begin 20N0 koopt een onderneming kantoormaterieel aan ter waarde van 8.000 euro. De levensduur van dit materieel wordt geschat op 5 jaar en het bestuursorgaan beslist om een lineaire afschrijving toe te passen van 20 %. In het kader van een uitvoerend beslag maakt het materieel in november 20N2 het voorwerp uit van een gedwongen verkoop voor een bedrag van 4.750 euro (excl. btw). In deze prijs zijn ook de toewijzingskosten, die *in casu* 1.250 euro bedragen, begrepen. De schuldvordering die terugbetaald dient te worden bedraagt 3.000 euro. 
 
 De onderneming maakt melding van deze inbeslagname door een opname in de rekening 09. Bijgevolg zal de volgende boeking plaatsvinden:

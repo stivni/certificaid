@@ -2,50 +2,45 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/de-inschrijvingin-de-boeken-begrip
 datum: 1981-04-01
 gerelateerde_adviezen:
-- datum: '1977-08-01'
-  titel: Ondernemingen naar buitenlands recht - Houden en bewaren in België van de
-    boeken, rekeningen en verantwoordingsstukken
-  url: https://www.cbn-cnc.be/nl/adviezen/ondernemingen-naar-buitenlands-recht-houden-en-bewaren-in-belgie-van-de-boeken-rekeningen
+  - datum: '1977-08-01'
+    titel: Ondernemingen naar buitenlands recht - Houden en bewaren in België van de boeken, rekeningen en verantwoordingsstukken
+    url: https://www.cbn-cnc.be/nl/adviezen/ondernemingen-naar-buitenlands-recht-houden-en-bewaren-in-belgie-van-de-boeken-rekeningen
 nummer: CBN-advies 4/2
 provenance:
-  generated_at: '2026-05-11T15:15:31Z'
+  generated_at: '2026-05-11T17:48:38Z'
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/de-inschrijvingin-de-boeken-begrip
-    sha256: 42257df52c4263379a387f095e6f506ad1f838a0867f6581bf7e6b6caa3b229f
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/de-inschrijvingin-de-boeken-begrip
+      sha256: 42257df52c4263379a387f095e6f506ad1f838a0867f6581bf7e6b6caa3b229f
+      version:
   stale: false
-  stale_reason: null
+  stale_reason:
   tooling:
-    model: null
+    model:
     pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    prompt_version: null
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
     confirmed_at: '2026-05-11T11:51:19Z'
     confirmed_by: subagent-sonnet-4-6
     layer1:
-      file_size_chars: 2554
-      flags: []
+      status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:40Z'
       heading_count: 0
       max_section_chars: 2554
-      run_at: '2026-05-11T15:05:47Z'
-      run_id: 20260511-150547
-      status: pass
+      file_size_chars: 2554
+      flags: []
     layer2:
       agent: subagent-sonnet-4-6
       concrete_problemen: []
-      rationale: 'Geen ETL-artefacten gevonden: geen U+2010-dashes, geen HTML-entities,
-        geen duplicate headings, geen typefouten. Body volledig en logisch; voetnoot
-        correct. Inhoud beantwoordt aan de bestandsnaam. Ziet eruit als schone markdown.'
+      rationale: 'Geen ETL-artefacten gevonden: geen U+2010-dashes, geen HTML-entities, geen duplicate headings, geen typefouten. Body volledig en logisch; voetnoot correct. Inhoud beantwoordt aan de bestandsnaam. Ziet eruit als schone markdown.'
       run_at: '2026-05-11T11:51:19Z'
       status: trusted
-    rationale: 'Geen ETL-artefacten gevonden: geen U+2010-dashes, geen HTML-entities,
-      geen duplicate headings, geen typefouten. Body volledig en logisch; voetnoot
-      correct. Inhoud beantwoordt aan de bestandsnaam. Ziet eruit als schone markdown.'
+    rationale: 'Geen ETL-artefacten gevonden: geen U+2010-dashes, geen HTML-entities, geen duplicate headings, geen typefouten. Body volledig en logisch; voetnoot correct. Inhoud beantwoordt aan de bestandsnaam. Ziet eruit als schone markdown.'
     status: trusted
 themas:
-- houden van boeken
-- inschrijven in boeken
+  - houden van boeken
+  - inschrijven in boeken
 ---
 
 # CBN-advies 4-2 - De "inschrijving" in de boeken - Begrip

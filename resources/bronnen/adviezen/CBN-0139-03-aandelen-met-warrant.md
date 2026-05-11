@@ -16,41 +16,41 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/verrichtingen-met-betrekking-tot-inschrijvingsrechten
 nummer: CBN-advies 139/3
 provenance:
+  generated_at: '2026-05-11T17:48:38Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/aandelen-met-warrant
       sha256: 6a6e46b69fc6c00e8d3e61bcaeb496d426ca91783f92453b11e42afa4a32aed3
       version:
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
-    status: rejected
     confirmed_at: '2026-05-11T15:15:33Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: 'D2: het bestand bevat uitsluitend één verwijzingszin naar advies 139/1 en heeft geen zelfstandige inhoud (149 chars body). Als standalone RAG-chunk volledig onbruikbaar: levert geen zelfstandige informatie op en kan niet zonder de referentiebron worden geïnterpreteerd.'
     layer1:
-      file_size_chars: 149
-      flags: []
+      status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:41Z'
       heading_count: 0
       max_section_chars: 149
-      run_at: '2026-05-11T15:05:49Z'
-      run_id: 20260511-150547
-      status: pass
+      file_size_chars: 149
+      flags: []
     layer2:
-      status: rejected
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:15:33Z'
-      rationale: 'D2: het bestand bevat uitsluitend één verwijzingszin naar advies 139/1 en heeft geen zelfstandige inhoud (149 chars body). Als standalone RAG-chunk volledig onbruikbaar: levert geen zelfstandige informatie op en kan niet zonder de referentiebron worden geïnterpreteerd.'
       concrete_problemen:
-        - regel: 60
-          categorie: D2
+        - categorie: D2
+          regel: 60
           type: abrupt-cutoff
           voorbeeld: Voor aandelen met warrant zijn de beginselen verwoord in voornoemd advies 139/1 volledig van toepassing.
+      rationale: 'D2: het bestand bevat uitsluitend één verwijzingszin naar advies 139/1 en heeft geen zelfstandige inhoud (149 chars body). Als standalone RAG-chunk volledig onbruikbaar: levert geen zelfstandige informatie op en kan niet zonder de referentiebron worden geïnterpreteerd.'
+      run_at: '2026-05-11T15:15:33Z'
+      status: rejected
+    rationale: 'D2: het bestand bevat uitsluitend één verwijzingszin naar advies 139/1 en heeft geen zelfstandige inhoud (149 chars body). Als standalone RAG-chunk volledig onbruikbaar: levert geen zelfstandige informatie op en kan niet zonder de referentiebron worden geïnterpreteerd.'
+    status: rejected
 themas:
   - geen inhoud
 ---

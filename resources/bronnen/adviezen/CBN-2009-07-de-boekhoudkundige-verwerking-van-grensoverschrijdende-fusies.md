@@ -16,37 +16,37 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/aftrek-voor-innovatie-inkomsten
 nummer: CBN-advies 2009/7
 provenance:
+  generated_at: '2026-05-11T17:48:38Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-grensoverschrijdende-fusies
       sha256: a16ec48ec2d1eaf87fef3210eb3df4a5df458952af1726a2701f0734072812d8
       version:
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
-    status: trusted
     confirmed_at: '2026-05-11T17:09:37Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "Ronde-2-verdict (needs-rework E2/A6 gebroken tabelrij) is niet meer van toepassing op de huidige body: alle 14+ tabellen zijn correct afgesloten met sluitende pipes, geen losse '9.500'-regel buiten tabelcontext. Alle voetnoten ([^1]–[^14]) gedefinieerd en gerefereerd. Twee ## headings, geen TOC-fragment, geen OCR-artefacten."
     layer1:
-      file_size_chars: 23726
-      flags: []
-      heading_count: 2
-      max_section_chars: 19817
-      run_at: '2026-05-11T15:05:50Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:42Z'
+      heading_count: 2
+      max_section_chars: 19816
+      file_size_chars: 23724
+      flags: []
     layer2:
-      status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T17:09:37Z'
-      rationale: "Ronde-2-verdict (needs-rework E2/A6 gebroken tabelrij) is niet meer van toepassing op de huidige body: alle 14+ tabellen zijn correct afgesloten met sluitende pipes, geen losse '9.500'-regel buiten tabelcontext. Alle voetnoten ([^1]–[^14]) gedefinieerd en gerefereerd. Twee ## headings, geen TOC-fragment, geen OCR-artefacten."
       concrete_problemen: []
+      rationale: 'Ronde-2-verdict (needs-rework E2/A6 gebroken tabelrij) is niet meer van toepassing op de huidige body: alle 14+ tabellen zijn correct afgesloten met sluitende pipes, geen losse ''9.500''-regel buiten tabelcontext. Alle voetnoten ([^1]–[^14]) gedefinieerd en gerefereerd. Twee ## headings, geen TOC-fragment, geen OCR-artefacten.'
+      run_at: '2026-05-11T17:09:37Z'
+      status: trusted
+    rationale: 'Ronde-2-verdict (needs-rework E2/A6 gebroken tabelrij) is niet meer van toepassing op de huidige body: alle 14+ tabellen zijn correct afgesloten met sluitende pipes, geen losse ''9.500''-regel buiten tabelcontext. Alle voetnoten ([^1]–[^14]) gedefinieerd en gerefereerd. Twee ## headings, geen TOC-fragment, geen OCR-artefacten.'
+    status: trusted
 themas:
   - belastingvrije reserves
   - dotatie van een belgische inrichting
@@ -60,7 +60,6 @@ themas:
 # CBN-advies 2009/7 - De boekhoudkundige verwerking van grensoverschrijdende fusies Advies van 15 juli 2009
 
 ## INLEIDING
-
 Dit advies strekt ertoe de boekhoudkundige verwerking van grensoverschrijdende fusies te behandelen, inzonderheid van fusies die vanaf 12 januari 2009 in België in beginsel belastingneutraal kunnen worden gerealiseerd.
 
 In het Verslag aan de Koning bij het Koninklijk Besluit tot uitvoering van het Wetboek van Vennootschappen van 30 januari 2001 (hierna KB W.Venn.) werd expliciet vermeld dat het toepassingsgebied van de boekhoudkundige regels voor het verwerken van een fusie (of een splitsing) zoals die vermeld werden in het K.B. van 8 oktober 1976 (met andere woorden de regels betreffende het boekhoudkundig continuïteitsprincipe met betrekking tot dergelijke verrichtingen) werden aangepast derwijze dat niet langer wordt verwezen naar fusieverrichtingen gerealiseerd overeenkomstig de bepalingen van het vennootschappenrecht, maar enkel nog naar fusies (of splitsingen) zoals gedefinieerd in het Wetboek van Vennootschappen (hierna W.Venn.). Dit is de uitvoering van wat reeds werd aangekondigd in het Advies 126/16 van de Commissie (Bull. CBN, nr. 45, p. 11-14). Derhalve worden hierna dan ook alleen fusieverrichtingen behandeld waarvan het begrip in overeenstemming is met het W.Venn. en die in boekhoudkundige continuïteit kunnen worden gerealiseerd.
@@ -76,7 +75,6 @@ In dit advies wordt onder het begrip “dotatie” verstaan de eigen middelen va
 Zoals in het CBN advies 2009/6 zullen telkens voorbeelden worden gegeven van een fusie door overneming, waarbij de bij de verrichting betrokken vennootschappen hun boekhouding in euro voeren.
 
 ## BOEKHOUDKUNDIGE VERWERKING
-
 In een eerste afdeling wordt de situatie behandeld waarbij een Belgische vennootschap, zonder buitenlandse inrichting, wordt overgenomen door een vennootschap gevestigd in een andere Lidstaat van de Europese Unie en in een tweede afdeling wordt de situatie behandeld waarbij een Belgische vennootschap een vennootschap gevestigd in een andere Lidstaat van de Europese Unie overneemt.
 
 Overname van een Belgische vennootschap, zonder buitenlandse inrichting, door een vennootschap gevestigd in een andere EU-lidstaat

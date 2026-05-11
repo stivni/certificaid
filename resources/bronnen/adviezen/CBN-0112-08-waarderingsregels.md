@@ -16,45 +16,45 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/afschrijvingsmethoden
 nummer: CBN-advies 112/8
 provenance:
+  generated_at: '2026-05-11T17:48:38Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/waarderingsregels
       sha256: 5f9735a6cc71f59d06a1d68dce41ce8103eaf065ab88ae29197085c9ba315c0f
       version:
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
-    status: needs-rework
     confirmed_at: '2026-05-11T17:05:20Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "A6: paragraaf op regels 73-75 is gesplitst over een lege regel midden in een zin ('om duidelijk het' → lege regel → 'onderscheid te laten blijken') — typisch PDF-kolom-extractie-artefact. E2: tabel (regels 79-86) bevat lege spacer-cellen (| | |) als visuele opvulling uit het bronformaat, geen valide markdown-tabelkolommen."
     layer1:
-      file_size_chars: 1899
-      flags: []
+      status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:40Z'
       heading_count: 0
       max_section_chars: 1899
-      run_at: '2026-05-11T15:05:48Z'
-      run_id: 20260511-150547
-      status: pass
+      file_size_chars: 1899
+      flags: []
     layer2:
-      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T17:05:20Z'
-      rationale: "A6: paragraaf op regels 73-75 is gesplitst over een lege regel midden in een zin ('om duidelijk het' → lege regel → 'onderscheid te laten blijken') — typisch PDF-kolom-extractie-artefact. E2: tabel (regels 79-86) bevat lege spacer-cellen (| | |) als visuele opvulling uit het bronformaat, geen valide markdown-tabelkolommen."
       concrete_problemen:
-        - regel: 73
-          categorie: A6
+        - categorie: A6
+          regel: 73
           type: other
           voorbeeld: om duidelijk het [LEGE REGEL] onderscheid te laten blijken
-        - regel: 79
-          categorie: E2
+        - categorie: E2
+          regel: 79
           type: pseudo-table
           voorbeeld: '| | | **Lineair afschrijvingspercentage op aanschaffingswaarde** | | **Aanvankelijk...**'
+      rationale: 'A6: paragraaf op regels 73-75 is gesplitst over een lege regel midden in een zin (''om duidelijk het'' → lege regel → ''onderscheid te laten blijken'') — typisch PDF-kolom-extractie-artefact. E2: tabel (regels 79-86) bevat lege spacer-cellen (| | |) als visuele opvulling uit het bronformaat, geen valide markdown-tabelkolommen.'
+      run_at: '2026-05-11T17:05:20Z'
+      status: needs-rework
+    rationale: 'A6: paragraaf op regels 73-75 is gesplitst over een lege regel midden in een zin (''om duidelijk het'' → lege regel → ''onderscheid te laten blijken'') — typisch PDF-kolom-extractie-artefact. E2: tabel (regels 79-86) bevat lege spacer-cellen (| | |) als visuele opvulling uit het bronformaat, geen valide markdown-tabelkolommen.'
+    status: needs-rework
 themas:
   - afschrijvingen
   - degressieve afschrijving

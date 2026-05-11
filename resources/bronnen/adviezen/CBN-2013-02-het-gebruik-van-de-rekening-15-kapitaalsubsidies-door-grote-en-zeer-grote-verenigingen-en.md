@@ -2,65 +2,58 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/het-gebruik-van-de-rekening-15-kapitaalsubsidies-door-grote-en-zeer-grote-verenigingen-en
 datum: 2013-02-20
 gerelateerde_adviezen:
-- datum: '2022-09-19'
-  titel: Boekhoudkundige verwerking van splitsingen van vennootschappen
-  url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-splitsingen-van-vennootschappen
-- datum: '2021-07-02'
-  titel: Boekhoudkundige verwerking van fusies tussen vennootschappen
-  url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-fusies-tussen-vennootschappen
-- datum: '2020-09-17'
-  titel: Schenkingen en legaten voor VZW’s, IVZW’s en stichtingen die een dubbele
-    boekhouding voeren
-  url: https://www.cbn-cnc.be/nl/adviezen/schenkingen-en-legaten-voor-vzws-ivzws-en-stichtingen-die-een-dubbele-boekhouding-voeren
-- datum: '2019-03-29'
-  titel: 'Ziekenhuisfinanciering: de boekhoudkundige verwerking van het instandhoudingsforfait
-    en het strategisch forfait'
-  url: https://www.cbn-cnc.be/nl/adviezen/ziekenhuisfinanciering-de-boekhoudkundige-verwerking-van-het-instandhoudingsforfait-en-0
+  - datum: '2022-09-19'
+    titel: Boekhoudkundige verwerking van splitsingen van vennootschappen
+    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-splitsingen-van-vennootschappen
+  - datum: '2021-07-02'
+    titel: Boekhoudkundige verwerking van fusies tussen vennootschappen
+    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-fusies-tussen-vennootschappen
+  - datum: '2020-09-17'
+    titel: Schenkingen en legaten voor VZW’s, IVZW’s en stichtingen die een dubbele boekhouding voeren
+    url: https://www.cbn-cnc.be/nl/adviezen/schenkingen-en-legaten-voor-vzws-ivzws-en-stichtingen-die-een-dubbele-boekhouding-voeren
+  - datum: '2019-03-29'
+    titel: 'Ziekenhuisfinanciering: de boekhoudkundige verwerking van het instandhoudingsforfait en het strategisch forfait'
+    url: https://www.cbn-cnc.be/nl/adviezen/ziekenhuisfinanciering-de-boekhoudkundige-verwerking-van-het-instandhoudingsforfait-en-0
 nummer: CBN-advies 2013/2
 provenance:
-  generated_at: '2026-05-11T15:15:31Z'
+  generated_at: '2026-05-11T17:48:39Z'
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/het-gebruik-van-de-rekening-15-kapitaalsubsidies-door-grote-en-zeer-grote-verenigingen-en
-    sha256: fc1c5e4c4def5750d73db528721f40d665cb8d84abd956ac123dcc6b75452629
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/het-gebruik-van-de-rekening-15-kapitaalsubsidies-door-grote-en-zeer-grote-verenigingen-en
+      sha256: fc1c5e4c4def5750d73db528721f40d665cb8d84abd956ac123dcc6b75452629
+      version:
   stale: false
-  stale_reason: null
+  stale_reason:
   tooling:
-    model: null
+    model:
     pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    prompt_version: null
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
     confirmed_at: '2026-05-11T12:16:34Z'
     confirmed_by: subagent-sonnet-4-6
     layer1:
-      file_size_chars: 6859
-      flags: []
-      heading_count: 2
-      max_section_chars: 4029
-      run_at: '2026-05-11T15:05:51Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:43Z'
+      heading_count: 2
+      max_section_chars: 4028
+      file_size_chars: 6857
+      flags: []
     layer2:
       agent: subagent-sonnet-4-6
       concrete_problemen: []
-      rationale: Geen artefacten gevonden. Kort advies (6860 chars) met twee correcte
-        H2-kopjes. Voetnoten correct. Drie beschrijvende voorbeelden als lopende tekst,
-        geen tabellen nodig. Inhoud compleet.
+      rationale: Geen artefacten gevonden. Kort advies (6860 chars) met twee correcte H2-kopjes. Voetnoten correct. Drie beschrijvende voorbeelden als lopende tekst, geen tabellen nodig. Inhoud compleet.
       run_at: '2026-05-11T12:16:34Z'
       status: trusted
-    rationale: Geen artefacten gevonden. Kort advies (6860 chars) met twee correcte
-      H2-kopjes. Voetnoten correct. Drie beschrijvende voorbeelden als lopende tekst,
-      geen tabellen nodig. Inhoud compleet.
+    rationale: Geen artefacten gevonden. Kort advies (6860 chars) met twee correcte H2-kopjes. Voetnoten correct. Drie beschrijvende voorbeelden als lopende tekst, geen tabellen nodig. Inhoud compleet.
     status: trusted
 themas:
-- kapitaalsubsidie
+  - kapitaalsubsidie
 ---
 
 # CBN-advies 2013/2 – Het gebruik van de rekening 15 Kapitaalsubsidies door grote en zeer grote verenigingen en stichtingen
 
 ## Algemeen
-
 Schenkingen, legaten en subsidies in natura of in geld (hierna: *subsidies*) moeten worden geboekt respectievelijk onder permanente financiering, kapitaalsubsidies of op de resultatenrekening naargelang zij ertoe leiden de fondsen van de vereniging permanent te vergroten, tot doel hebben een vast actief te verwerven dat op duurzame manier wordt bestemd voor de activiteit van de vereniging dan wel deel uitmaakt van de courante activiteit van de vereniging[^1]. Het komt in het bijzonder toe aan het bestuursorgaan om de regels vast te leggen die toelaten een onderscheid te maken tussen de verschillende vormen van subsidies waarvan de vereniging of stichting geniet. Bij deze beoordeling moet het bestuursorgaan rekening houden met het doel van de subsidies, veeleer dan met de effectieve aanwending ervan. In de praktijk zullen beiden veelal samenvallen.
 
 Het koninklijk besluit van 18 december 2012 tot wijziging van het koninklijk besluit van 19 december 2003 betreffende de boekhoudkundige verplichtingen en de openbaarmaking van de jaarrekening van bepaalde verenigingen zonder winstoogmerk, internationale verenigingen zonder winstoogmerk en stichtingen[^2] heeft de inhoud van de post *Kapitaalsubsidies* gewijzigd, zodat deze voortaan uitsluitend de kapitaalsubsidies omvat die werden verkregen voor investeringen in vaste activa waarvan de gebruiksduur beperkt is. De Commissie heeft het nuttig gevonden enige verduidelijking te verstrekken over het gebruik van de rekening 15 *Kapitaalsubsidies* door grote en zeer grote verenigingen en stichtingen. 
@@ -76,7 +69,6 @@ De subsidies verkregen voor de investering in vaste activa met een beperkte gebr
 Voormeld koninklijk besluit van 18 december 2012 heeft tevens twee nieuwe opbrengstrekeningen geïntroduceerd: de rekening 737 *Exploitatiesubsidies* en de rekening 738 *Compenserende bedragen ter vermindering van de loonkost*. Voor wat betreft het gebruik van deze rekeningen verwijst de Commissie naar het advies 2010/16* Boekhoudkundige verwerking van subsidies, schenkingen en legaten, toegekend in contanten, in de jaarrekening van begunstigde grote en zeer grote verenigingen en stichtingen.*
 
 ## Voorbeelden
-
 Een vzw betrekt een van derden gehuurd gebouw. De overheid kent jaarlijks aan deze vzw een subsidie in contanten toe ter dekking van deze huurkosten. Aangezien de subsidie enkel strekt tot de financiering van de lopende werkingskosten van het boekjaar waarin de subsidie werd bekomen, kan deze subsidie niet worden aangemerkt als een ondersteuning die op lange termijn het vermogen van de vzw beïnvloedt. Dergelijke subsidie wordt geboekt op de rekening 737 *Exploitatiesubsidies*. 
 
 Een vzw betrekt een van derden gehuurd gebouw. In het jaar 20X0 kent de overheid een subsidie in contanten toe teneinde de vzw in staat te stellen dit onroerend goed aan te kopen. Dergelijke subsidie voldoet aan de voorwaarden om aangemerkt te worden als een kapitaalsubsidie in de mate dat de subsidie betrekking heeft op de verwerving van het gebouw. In de mate dat de subsidie betrekking heeft op de verwerving van het terrein wordt de subsidie geboekt op de passiefpost I. *Fondsen van de vereniging*. 

@@ -16,45 +16,45 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-onderzoeksfondsen-in-de-jaarrekening-van-grote-en-zeer
 nummer: CBN-advies 2012/15
 provenance:
+  generated_at: '2026-05-11T17:48:39Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/bestellingen-in-uitvoering
       sha256: e7c8732010a53e5a333cad2c30c9046775d75d9eb76bbb45f901921a4a6d05b3
       version:
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
-    status: needs-rework
     confirmed_at: '2026-05-11T17:09:38Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "E2: de vergelijkingstabel op regels 150–172 heeft multi-line celinhoud met lege regels ertussen — geen geldige markdown-pipe-tabel, zal niet correct renderen. E2: de journaalboekingstabel op regels 475–478 heeft rekening 370 én 7170 beiden als debet-rij zonder 'aan'-prefix op de tweede rij, waardoor de debet/credit-structuur ontbreekt."
     layer1:
-      file_size_chars: 41221
-      flags: []
-      heading_count: 28
-      max_section_chars: 7135
-      run_at: '2026-05-11T15:05:51Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:43Z'
+      heading_count: 28
+      max_section_chars: 7133
+      file_size_chars: 41188
+      flags: []
     layer2:
-      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T17:09:38Z'
-      rationale: "E2: de vergelijkingstabel op regels 150–172 heeft multi-line celinhoud met lege regels ertussen — geen geldige markdown-pipe-tabel, zal niet correct renderen. E2: de journaalboekingstabel op regels 475–478 heeft rekening 370 én 7170 beiden als debet-rij zonder 'aan'-prefix op de tweede rij, waardoor de debet/credit-structuur ontbreekt."
       concrete_problemen:
-        - regel: 150
-          categorie: E2
+        - categorie: E2
+          regel: 150
           type: pseudo-table
           voorbeeld: '| | | *Percentage of completion methode* | | *Completed contract methode* |\n|---|---|---|---|---|\n| Zekerheid... | |\n\nDe geanticipeerde winst...'
-        - regel: 478
-          categorie: E2
+        - categorie: E2
+          regel: 478
           type: other
           voorbeeld: '| | 370 | Bestellingen in uitvoering – Aanschaffingswaarde | 40.000 | |\n| | 7170 | Wijzigingen... | 40.000 | |'
+      rationale: 'E2: de vergelijkingstabel op regels 150–172 heeft multi-line celinhoud met lege regels ertussen — geen geldige markdown-pipe-tabel, zal niet correct renderen. E2: de journaalboekingstabel op regels 475–478 heeft rekening 370 én 7170 beiden als debet-rij zonder ''aan''-prefix op de tweede rij, waardoor de debet/credit-structuur ontbreekt.'
+      run_at: '2026-05-11T17:09:38Z'
+      status: needs-rework
+    rationale: 'E2: de vergelijkingstabel op regels 150–172 heeft multi-line celinhoud met lege regels ertussen — geen geldige markdown-pipe-tabel, zal niet correct renderen. E2: de journaalboekingstabel op regels 475–478 heeft rekening 370 én 7170 beiden als debet-rij zonder ''aan''-prefix op de tweede rij, waardoor de debet/credit-structuur ontbreekt.'
+    status: needs-rework
 themas:
   - bestellingen in uitvoering
   - completed contract method
@@ -67,7 +67,6 @@ themas:
 # CBN-advies 2012/15 – Bestellingen in uitvoering
 
 ## Inleiding
-
 Voorraden komen doorgaans tegemoet aan het beginsel “make then sell”. Bij bestellingen in uitvoering (rekening 37) is er echter veeleer sprake van een “sell then make” uitgangspunt, wat doorgaans inhoudt dat de bestelling eerst wordt geformaliseerd door de ondertekening van een contract en dat de werken of diensten pas nadien worden aangevat.
 
 Bestellingen in uitvoering zijn alle prestaties van diensten of producten van goederen die een onderneming verricht, buiten haar gebeurlijke serieproductie, op specifieke aanwijzingen van een klant. In tegenstelling tot de voorraden worden onder de bestellingen in uitvoering de diensten, prestaties en goederen erkend waarvan de eigenschappen zo goed als volledig door de koper vastgelegd worden en die niet tot het courante productengamma van de onderneming behoren en waarvan de commerciële aspecten op het ogenblik van de productie reeds genegotieerd zijn. 
@@ -82,7 +81,6 @@ b) de goederen in bewerking die voor rekening van een derde op bestelling worden
 c) dienstenprestaties die voor rekening van derden op bestelling worden uitgevoerd en die nog niet werden geleverd, tenzij het gaat om een standaardtype van dienstprestaties. Voorbeelden hiervan zijn specifieke researchprojecten, op maat geschreven software, enz.
 
 ## Waarderingsaspecten
-
 In beginsel worden bestellingen in uitvoering gewaardeerd tegen hun vervaardigingprijs[^2]. 
 
 Deze vervaardigingprijs wordt vermeerderd, naar mate de productie of werkzaamheden vorderen, met het verschil (in %) tussen de in de overeenkomst bepaalde (totale) prijs en de (totale) vervaardigingprijs, wanneer dit verschil met voldoende zekerheid als verworven mag worden beschouwd. Deze methodiek wordt omschreven als de zogenaamde “percentage of completion” methode. 
@@ -92,7 +90,6 @@ Daarnaast kan een onderneming ervoor opteren om de bestellingen in uitvoering te
 De voor de waardering van bestellingen in uitvoering toegepaste methode dient door de onderneming in de toelichting van haar jaarrekening onder de waarderingsregels te worden vermeld.
 
 ### Definiëring van de vervaardigingprijs bij bestellingen in uitvoering
-
 Zoals hiervoor gesteld is de basis van de waardering van bestellingen in uitvoering de vervaardigingprijs. Deze omvat de volgende elementen[^3]:
 
 - de aanschaffingskosten van grondstoffen, verbruiksgoederen en hulpstoffen; 
@@ -104,7 +101,6 @@ Het jaarrekeningbesluit hanteert weliswaar “full costing” als beginsel, maar
 Ingeval de onrechtstreekse kosten echter een niet-verwaarloosbaar deel van de totale kostprijs zouden vertegenwoordigen en de voornoemde mogelijkheid zou worden benut voor alle of een groot deel van de onrechtstreekse kosten, dan zal de vervaardigingprijs van de betrokken bestelling in uitvoering worden ondergewaardeerd; waardoor de geboekte resultaten worden overgewaardeerd.
 
 #### Waarderingsaspecten n.a.v. de toepassing van “full costing”
-
 Voor de waardering van de bestellingen in uitvoering wordt uitgegaan van de volledige vervaardigingprijs met inbegrip van alles wat de uitvoering van de bestelling heeft gekost tot op het ogenblik waarop de bestelling volledig werd volbracht. Die vervaardigingprijs wordt verkregen door optelling van de volgende bestanddelen: 
 
 a) de “rechtstreekse kosten”, met andere woorden, de kosten die rechtstreeks, zonder tussenberekening, kunnen worden toegerekend aan de kostprijs, zoals: 
@@ -130,11 +126,9 @@ De vervaardigingprijs omvat daarentegen nooit[^4]:
 - de kosten ingevolge gebrekkig werk, fouten en andere verliezen, wanneer die kosten geen verband houden met de normale bedrijfsvoorwaarden. 
 
 #### Waarderingsaspecten n.a.v. de toepassing van “direct costing”
-
 Een onderneming kan er tevens voor opteren om naast “full costing” de zogenaamde “direct costing” als uitgangspunt te nemen voor de waardering van de bestellingen in uitvoering. Dit impliceert dat enkel de rechtstreekse kosten worden toegerekend aan de kostprijs. Het overzicht van de rechtstreekse kosten wordt verstrekt in randnummer 6.
 
 ### Toerekening van rentekosten en -opbrengsten aan de vervaardigingprijs
-
 In de vervaardigingprijs van bestellingen in uitvoering mag de rente op vreemd vermogen dat wordt gebruikt voor de financiering ervan worden opgenomen, voor zover de productie of uitvoering meer dan één jaar bestrijkt. De opname van de rente op vreemd vermogen in de vervaardigingsprijs van de bestellingen in uitvoering moet bij de waarderingsregels in de toelichting worden vermeld.
 
 Tevens stelt de Commissie in haar advies 126/5 *Vervaardigingsprijs[^5]*  dat de financiële kosten verbonden aan leningen die werden aangegaan voor de financiering van bestellingen in uitvoering waarvan de productie meer dan één jaar bestrijkt, mogen worden opgenomen in de vervaardigingprijs van de betrokken activa, ongeacht de looptijd van de betrokken lening. Doorslaggevend is de band tussen de financiële kosten van de ontleende kapitalen en de te financieren activa.
@@ -142,7 +136,6 @@ Tevens stelt de Commissie in haar advies 126/5 *Vervaardigingsprijs[^5]*  dat de
 Indien een onderneming voorschotten ontvangt op bestellingen en deze voorlopig belegt, dan mag de renteopbrengst van deze voorlopige beleggingen niet worden toegerekend aan de vervaardigingprijs van de betreffende bestellingen. De Commissie laat hierop weliswaar een uitzondering toe in haar advies 126/3 *Vervaardigingsprijs: toerekening van creditrente[^6]*  in het geval waarin de onderneming bij bepaling van de prijsofferte effectief heeft rekening gehouden met deze opbrengst. 
 
 ### Bespreking van de “percentage of completion” en “completed contract” methode
-
 De meest elementaire waarderingsregel bij projectgebonden activiteiten, is de keuze van de winsttoerekeningsmethode. De wetgever laat twee mogelijke verwerkingen toe, namelijk de opname in het resultaat a rato van de voortgang van het project (“percentage of completion” methode) of de opname van het resultaat op het einde van het project (“completed contract” methode). De winsttoerekeningsmethode vindt telkens plaats op het individuele contractniveau.
 
 Het onderscheid tussen beide methoden wordt hieronder schematisch weergegeven[^7]:
@@ -180,7 +173,6 @@ Wel heeft deze methode als nadeel dat de resultatenrekening vanuit een economisc
 Bij de “percentage of completion” methode stelt dit probleem zich niet. Maar als nadeel geldt hier dan weer de complexere administratieve opvolging die nodig is om tot de raming van de opbrengsten te komen. Het gebruik van schattingen en veronderstellingen kan bovendien als gevolg hebben dat in bepaalde boekjaren teveel winst in het resultaat wordt genomen die nadien moet worden teruggedraaid. 
 
 #### Bepaling van de voortschrijding der werken
-
 De Commissie is de mening toegedaan dat het gebruik van de “percentage of completion” methode slechts toegelaten is in die mate dat de onderneming een betrouwbare inschatting kan maken omtrent de effectieve voortschrijdingsgraad en er tevens aan de volgende voorwaarden is voldaan:
 
 - er zijn bij aanvang van het contract geen indicatoren die mogelijke twijfel doen ontstaan omtrent de naleving van de contractuele voorwaarden door de koper of verkoper; en 
@@ -209,19 +201,16 @@ Indien er geen betrouwbare inschattingen omtrent de voortschrijding kunnen verkr
 Weliswaar zal er dan geen winsttoerekening kunnen plaatsvinden tot op het ogenblik dat de voortschrijding betrouwbaar kan worden ingeschat. De Commissie meent dat in een dergelijk geval de “percentage of completion” methode zonder marge (ofwel de “zero profit margin” techniek[^9]) kan gehanteerd worden. De toepassing van deze techniek zal aanleiding geven tot het erkennen van gelijke bedragen voor kosten en opbrengsten in de resultatenrekening tot op het ogenblik dat de voortschrijding betrouwbaar kan worden ingeschat.
 
 ### Waardeverminderingen op bestellingen in uitvoering
-
 Waardeverminderingen worden geboekt als de vervaardigingprijs, verhoogd met het geraamd bedrag van de nog te maken kosten, hoger is dan de in de overeenkomst bedongen prijs[^10]. Aanvullende waardeverminderingen worden geboekt om rekening te houden hetzij met de evolutie van hun realisatie- of marktwaarde, hetzij met de risico’s inherent aan de aard van de betrokken producten of van de gevoerde entiteit.
 
 Dergelijke waardeverminderingen kunnen het gevolg zijn van onverwachte stijgingen van de loonkosten, grondstoffen of andere elementen in de kostprijscalculatie. Echter is het evenzeer mogelijk dat waardeverminderingen dienen te worden geboekt als gevolg van een onverwachte gebeurtenis zoals vertragingen in de werkzaamheden of schade waardoor een deel van de werkzaamheden opnieuw dienen plaats te vinden en dit zowel bij toepassing van de “percentage of completion” methode als voor de “completed contract” methode.
 
 ### Voorzieningen voor risico’s en kosten
-
 Indien volgens de meest recente berekeningen zou blijken dat de bestelling met verlies zal worden afgehandeld, dient de onderneming voor de risico’s en kosten verbonden aan de verdere uitvoering van deze bestellingen voorzieningen aan te leggen, voor zover deze risico’s niet gedekt zijn door waardeverminderingen[^11]. 
 
 Zoals hiervoor gesteld worden ten aanzien van de goederen in bewerking en de bestellingen in uitvoering waardeverminderingen geboekt indien hun vervaardigingprijs, vermeerderd met het geraamde bedrag van de nog te maken kosten, hoger is dan de netto verkoopprijs op de datum van de jaarafsluiting. Indien deze waardeverminderingen ontoereikend zouden zijn, wordt een bijkomende voorziening per balansdatum geboekt.
 
 ### Vooruitbetalingen op bestellingen in uitvoering
-
 Bij langlopende bestellingen in uitvoering is het mogelijk dat de leverancier ervoor opteert om tussentijdse voorschotten te factureren aan de afnemer. Dergelijke voorschotten, die aan de hand van de staat van de vordering van de werken worden gefactureerd, worden als ontvangen vooruitbetalingen op bestellingen behandeld en zodoende opgenomen onder de schulden op ten hoogste een jaar aan de passiefzijde van de balans (rekening 46 *Ontvangen vooruitbetalingen op bestellingen*).
 
 Ondernemingen kunnen deze ontvangen vooruitbetalingen compenseren met de kosten van vervaardiging van de lopende bestelling zodat er een netto-voorstelling op balansniveau wordt verkregen. Een dergelijk afwijkende voorstelling kan worden aanvaard na positief advies van de Commissie voor Boekhoudkundige Normen aan de Minister van Economie (voor grote ondernemingen) of aan de Minister die Middenstand onder zijn bevoegdheden heeft[^12]. In principe zal de Commissie hieromtrent een positief advies afleveren indien volgende voorwaarden zijn voldaan:
@@ -232,9 +221,7 @@ Ondernemingen kunnen deze ontvangen vooruitbetalingen compenseren met de kosten 
 - met het oog op artikel 86 KB W.Venn. dient de eerste toepassing van de netto-voorstellingswijze bovendien op een passende wijze te worden vermeld en verantwoord in de toelichting die behoort tot het boekjaar waarin de wijziging werd ingevoerd. 
 
 ## Praktische uitwerkingen
-
 ### Input versus output techniek om de voortgang te meten
-
 Een scheepsbouwer heeft een contract afgesloten om 15 schepen te leveren aan een klant over een periode van 3 jaar. De klant is in belangrijke mate betrokken bij het ontwerp van de schepen en de onderneming heeft dergelijke schepen nog nooit gebouwd. De overeenkomst omvat dus zowel het ontwerp als de productie van de schepen. Bovendien verwacht de onderneming dat de bouw van de eerste schepen meer tijd zal vergen dan de bouw van de laatste aangezien, naarmate de onderneming ervaring opbouwt, deze ervaring de onderneming zal toelaten de schepen efficiënter te bouwen. 
 
 Veronderstel dat de onderneming bepaalt dat zowel het ontwerp als de productie van deze 15 schepen deel uitmaken van één en dezelfde prestatieverplichting. In dergelijke omstandigheden zal de onderneming waarschijnlijk niet kiezen voor een meting van de voortgang op basis van de levering van de schepen omdat deze methode deze voortgang niet op een correcte wijze zou weergeven (aangezien er zodoende geen rekening zou worden gehouden met de inspanningen van de onderneming gedurende de ontwerpfase van de overeenkomst). In dat geval zou de betrokken onderneming waarschijnlijk besluiten dat een input methode (bijvoorbeeld de verhouding van de werkelijke kosten tot de totale verwachte kosten) meer gepast zou zijn.
@@ -242,7 +229,6 @@ Veronderstel dat de onderneming bepaalt dat zowel het ontwerp als de productie v
 Veronderstel nu dat de klant, na de levering van de eerste 15 schepen, nog 5 bijkomende schepen bestelt. Bij de bouw van deze bijkomende schepen dient de onderneming geen bijkomende inspanningen te leveren voor het ontwerp. Bijgevolg zou de onderneming voor dit nieuwe contract kunnen besluiten dat de individuele schepen elk een afzonderlijke prestatieverplichting vertegenwoordigen. Indien echter de onderneming besluit dat de overeenkomst slechts één enkele prestatieverplichting omvat, namelijk de levering van de 5 bijkomende schepen, dan zou de onderneming kunnen bepalen dat de erkenning per geleverde eenheid het best de voortgang weergeeft en dus de output methode dient toe te passen. 
 
 ### Illustratie van de percentage of completion & completed contract methode
-
 De NV ABC sluit een overeenkomst af met de NV XYZ voor de bouw van enkele treinstellen in jaar N. De vermoedelijke oplevering zal plaatsvinden in het jaar N+2. De verkoopprijs bedraagt 8.000.000 EUR. De stijging van de cumulatieve kosten bij voltooiing in het jaar N en N+1 is gerelateerd aan de prijsschommeling van enkele grondstoffen die contractueel niet kunnen worden doorgefactureerd aan de klant.
 
 | | | ** Jaar N** | | **Jaar N+1** | | **Jaar N+2** | 
@@ -256,7 +242,6 @@ De NV ABC sluit een overeenkomst af met de NV XYZ voor de bouw van enkele treins
 | **Terugname** | | | | 71.795 | | | 
 
 ### Boekhoudkundige verwerking per 31 december N
-
 Tijdens het boekjaar werden de kosten (voor een bedrag van 3.000.000 EUR) ten laste van de resultatenrekening gelegd via de respectievelijke 60-, 61-, 62-, 63- of 64-rekeningen.
 
 Zowel bij de toepassing van de “percentage of completion” als bij de “completed contract” methode worden deze kosten als bestelling in uitvoering erkend door de volgende boekhoudkundige registratie:
@@ -274,7 +259,6 @@ Indien de onderneming ABC ervoor opteert om de “percentage of completion” me
 | aan | 7171 | Wijzigingen in de bestellingen in uitvoering – Toegerekende winst | | 2.333.333 |
 
 ### Boekhoudkundige verwerking per 31 december N+1
-
 Tijdens het boekjaar werden de kosten (voor een bedrag van 1.200.000 EUR) ten laste van de resultatenrekening gelegd via de respectievelijke 60-, 61-, 62-, 63- of 64-rekeningen.
 
 Zowel bij de toepassing van de “percentage of completion” als bij de “completed contract” methode worden deze kosten als bestelling in uitvoering erkend door de volgende boekhoudkundige registratie:
@@ -294,7 +278,6 @@ Indien de onderneming ABC ervoor opteert om de “percentage of completion” me
 | aan | 371 | Bestellingen in uitvoering – Toegerekende winst | | 71.795 |
 
 ### Boekhoudkundige verwerking per 31 december N+2
-
 Tijdens het boekjaar werden de kosten (voor een bedrag van 1.200.000 EUR) ten laste van de resultatenrekening gelegd via de respectievelijke 60-, 61-, 62-, 63- of 64-rekeningen.
 
 De onderneming ABC factureert bij oplevering 9.680.000 EUR.
@@ -330,7 +313,6 @@ Indien de onderneming ervoor opteerde om de “percentage of completion” metho
 | | Resultaat | 338.462 | | |
 
 ### Erkenning van een waardevermindering bij bestellingen in uitvoering
-
 Een onderneming kent op balansdatum de volgende situatie met betrekking tot een bestelling in uitvoering:
 
 | | Rekening | Omschrijving | Debet | Credit |
@@ -341,7 +323,6 @@ Een onderneming kent op balansdatum de volgende situatie met betrekking tot een 
 | | Verlies | 30.000 EUR | | |
 
 ### Boekhoudkundige verwerking per 31 december N
-
 Tijdens het boekjaar werden de kosten (voor een bedrag van 90.000 EUR) ten laste van de resultatenrekening gelegd via de respectievelijke 60-, 61-, 62-, 63- of 64-rekeningen.
 
 Zowel bij de toepassing van de “percentage of completion” als bij de “completed contract” methode worden deze kosten als bestelling in uitvoering erkend door volgende boekhoudkundige registratie:
@@ -361,7 +342,6 @@ Daar de contractuele prijs 100.000 EUR bedraagt ten opzichte van een cumulatieve
 Voorgaande boeking zou zowel bij toepassing van de “percentage of completion” methode als bij toepassing van de “completed contract” methode moeten worden doorgevoerd. 
 
 ### Boekhoudkundige verwerking per 31 december N+ 1
-
 Tijdens het boekjaar werden de kosten (voor een bedrag van 40.000 EUR) ten laste van de resultatenrekening gelegd via de respectievelijke 60-, 61-, 62-, 63- of 64-rekeningen.
 
 De onderneming ABC factureert bij oplevering 121.000 EUR.
@@ -398,13 +378,11 @@ Dit heeft tot gevolg dat er per 31 december N+1 het volgende resultaat wordt erk
 Hetgeen logisch is als gevolg van de vaststelling in het boekjaar N dat het contract verlieslatend is.
 
 ### Vooruitbetalingen op bestellingen in uitvoering
-
 Een onderneming ontvangt van een klant in het jaar N een bestelling om een machine te bouwen ter waarde van 300.000 EUR (exclusief BTW). De finale oplevering zal pas in het jaar N+1 plaatsvinden. Per 31 december N werd er reeds een voorschot gefactureerd van 20.000 EUR (exclusief BTW); in N+1 wordt het saldo, ofwel 280.000 EUR gefactureerd. 
 
 De onderneming past de “completed contract” methode toe. De cumulatieve kost voor de constructie van de machine bedraagt in het jaar N 80.000 EUR en in het jaar N+1 100.000 EUR. De onderneming zal bij oplevering derhalve een winst van 120.000 EUR realiseren (300.000 EUR – 180.000 EUR).
 
 ### Boekhoudkundige verwerking per 31 december N
-
 Het ontvangen voorschot wordt als volgt geboekt:
 
 | | Rekening | Omschrijving | Debet | Credit |
@@ -423,7 +401,6 @@ Bij de toepassing van de “completed contract” methode worden deze kosten als
 | aan | 7170 | Wijzigingen in de bestellingen in uitvoering – Aanschaffingswaarde | | 80.000 |
 
 ### *Boekhoudkundige verwerking per 31 december N+*1
-
 De slotfactuur wordt als volgt boekhoudkundig verwerkt:
 
 | | Rekening | Omschrijving | Debet | Credit |
@@ -457,7 +434,6 @@ Uiteindelijk kan het resultaat uit de overeenkomst als volgt worden samengesteld
 | Resultaat | | 120.000 | 
 
 ### Voorzieningen voor andere risico’s en kosten
-
 Een onderneming sluit een contract af met een klant voor de constructie van een treinstel voor een bedrag van 800.000 EUR. Per 31 december N bedragen de cumulatieve kosten voor de constructie 40.000 EUR; weliswaar heeft men tijdens het eerste jaar vastgesteld dat de staalprijs significant is gestegen en deze niet kan worden doorgerekend naar de klant. 
 
 De additionele kostprijs om de constructie te finaliseren wordt geschat op 900.000 EUR. Dit impliceert dat het contract per 31 december N verlieslatend wordt daar de totale kostprijs in dat geval 940.000 EUR zal bedragen ten opzicht van een verkoopprijs van 800.000 EUR.
@@ -489,8 +465,7 @@ Bij de toepassing van de “completed contract” methode worden deze kosten als
 
 In het jaar N+1 zal er opnieuw een raming plaatsvinden van de nog te maken kosten tot oplevering. Hierdoor zal het bedrag van de vervaardigingprijs van de bestellingen in uitvoering toenemen, en zal het bedrag van de voorziening worden teruggenomen ten opzichte van een stijging van de waardeverminderingen op de bestelling in uitvoering.
 
-### Zero profit margin techniek[^13]
-
+### Zero profit margin techniek
 De NV GYZ heeft een contract afgesloten met BVBA TTT voor een bouwproject op een kunstmatig eiland. Gezien een dergelijk project nog nooit door de NV GYZ werd uitgevoerd werd er gestipuleerd in de overeenkomst dat de winstmarge op het contract minimaal 400.000 EUR zal bedragen, hetgeen gegarandeerd werd door de afnemer. 
 
 Gezien de aard van de activiteiten kan de voortschrijdingsgraad niet betrouwbaar worden ingeschat daar de NV GYZ geen historiek heeft voor dergelijke bouwprojecten. Derhalve zal er, door toepassing van de zero profit margin techniek in het jaar N en N+1 geen winst worden toegerekend daar de cumulatieve kost bij voltooiing onbekend is op dat ogenblik. 
@@ -515,7 +490,6 @@ Tijdens het boekjaar werden de kosten (voor een bedrag van 3.000.000 EUR) ten la
 | aan | 7170 | Wijzigingen in de bestellingen in uitvoering – Aanschaffingswaarde | | 3.000.000 |
 
 ### Boekhoudkundige verwerking per 31 december N+1
-
 Tijdens het boekjaar werden de kosten (voor een bedrag van 1.200.000 EUR) ten laste van de resultatenrekening gelegd via de respectievelijke 60-, 61-, 62-, 63- of 64-rekeningen. Per 31 december N+1 wordt geen marge met betrekking tot dit contract erkend.
 
 | | Rekening | Omschrijving | Debet | Credit |
@@ -524,7 +498,6 @@ Tijdens het boekjaar werden de kosten (voor een bedrag van 1.200.000 EUR) ten la
 | aan | 7170 | Wijzigingen in de bestellingen in uitvoering – Aanschaffingswaarde | | 1.200.000 |
 
 ### Boekhoudkundige verwerking per 31 december N+2
-
 Tijdens het boekjaar werden de kosten (voor een bedrag van 3.800.000 EUR) ten laste van de resultatenrekening gelegd via de respectievelijke 60-, 61-, 62-, 63- of 64-rekeningen.
 
 | | Rekening | Omschrijving | Debet | Credit |
@@ -540,7 +513,6 @@ Tijdens het boekjaar werden de kosten (voor een bedrag van 3.800.000 EUR) ten la
 | aan | 7171 | Wijzigingen in de bestellingen in uitvoering – Toegerekende winst | | 1.600.000 |
 
 ### Boekhoudkundige verwerking per 31 december N+3
-
 Voor de boekhoudkundige verwerking in het jaar N+3 kan verwezen worden naar het voorbeeld opgenomen onder randnummer 26. 
 
 [^1]: Artikel 95, § 1VI.B KB W.Venn.

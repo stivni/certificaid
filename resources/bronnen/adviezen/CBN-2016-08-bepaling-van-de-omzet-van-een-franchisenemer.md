@@ -3,45 +3,45 @@ bron: https://www.cbn-cnc.be/nl/adviezen/bepaling-van-de-omzet-van-een-franchise
 datum: 2016-06-15
 nummer: CBN-advies 2016/8
 provenance:
+  generated_at: '2026-05-11T17:48:39Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/bepaling-van-de-omzet-van-een-franchisenemer
       sha256: 407c616f79f88d89f2f91835aa4df7d710fee8284d31d361e93fe77c83f16221
       version:
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
-    status: needs-rework
     confirmed_at: '2026-05-11T17:09:38Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: 'D4: regels 61–65 bevatten een wetsartikel-citaat waarbij de extractor een `*`-italic-span opent op regel 61 (`* Onder omzet...`) en sluit op regel 65 (`...voor hun bedrijf.*`) over meerdere alinea-breaks heen — in standaard markdown-parsers breekt een inline `*...*` span bij een lege regel, waardoor de rendering onvoorspelbaar is. Overige inhoud inhoudelijk volledig; voetnoten [^1]–[^13] aanwezig.'
     layer1:
-      file_size_chars: 8277
-      flags: []
-      heading_count: 2
-      max_section_chars: 8072
-      run_at: '2026-05-11T15:05:52Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:43Z'
+      heading_count: 2
+      max_section_chars: 8071
+      file_size_chars: 8275
+      flags: []
     layer2:
-      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T17:09:38Z'
-      rationale: 'D4: regels 61–65 bevatten een wetsartikel-citaat waarbij de extractor een `*`-italic-span opent op regel 61 (`* Onder omzet...`) en sluit op regel 65 (`...voor hun bedrijf.*`) over meerdere alinea-breaks heen — in standaard markdown-parsers breekt een inline `*...*` span bij een lege regel, waardoor de rendering onvoorspelbaar is. Overige inhoud inhoudelijk volledig; voetnoten [^1]–[^13] aanwezig.'
       concrete_problemen:
-        - regel: 61
-          categorie: D4
+        - categorie: D4
+          regel: 61
           type: other
           voorbeeld: '* Onder omzet wordt verstaan het bedrag van de verkoop... (opent multiline italic over lege regels heen)'
-        - regel: 65
-          categorie: D4
+        - categorie: D4
+          regel: 65
           type: other
           voorbeeld: '...voor hun bedrijf.* (sluit multiline italic na meerdere lege regels)'
+      rationale: 'D4: regels 61–65 bevatten een wetsartikel-citaat waarbij de extractor een `*`-italic-span opent op regel 61 (`* Onder omzet...`) en sluit op regel 65 (`...voor hun bedrijf.*`) over meerdere alinea-breaks heen — in standaard markdown-parsers breekt een inline `*...*` span bij een lege regel, waardoor de rendering onvoorspelbaar is. Overige inhoud inhoudelijk volledig; voetnoten [^1]–[^13] aanwezig.'
+      run_at: '2026-05-11T17:09:38Z'
+      status: needs-rework
+    rationale: 'D4: regels 61–65 bevatten een wetsartikel-citaat waarbij de extractor een `*`-italic-span opent op regel 61 (`* Onder omzet...`) en sluit op regel 65 (`...voor hun bedrijf.*`) over meerdere alinea-breaks heen — in standaard markdown-parsers breekt een inline `*...*` span bij een lege regel, waardoor de rendering onvoorspelbaar is. Overige inhoud inhoudelijk volledig; voetnoten [^1]–[^13] aanwezig.'
+    status: needs-rework
 themas:
   - franchiseovereenkomst
   - franchising
@@ -51,11 +51,9 @@ themas:
 # CBN-advies 2016/8 - Bepaling van de omzet van een franchisenemer
 
 ## Inleiding
-
 In dit advies wordt onderzocht hoe de omzet van een franchisenemer moet worden bepaald.
 
 ## Analyse van het begrip “omzet”
-
 In artikel 96 van het koninklijk besluit van 30 januari 2001 tot uitvoering van het wetboek van vennootschappen (hierna: KB W.Venn.) wordt het begrip “omzet” als volgt omschreven:[^2] 
 
 * Onder omzet wordt verstaan het bedrag van de verkoop van goederen en de levering van diensten aan derden, in het kader van de gewone bedrijfsuitoefening van de vennootschap, onder aftrek van de op de verkoopprijs in de handel toegestane kortingen (afslag, ristorno, rabat); dit bedrag omvat niet de belasting over de toegevoegde waarde, noch enige andere rechtstreeks met de omzet verbonden belasting. 

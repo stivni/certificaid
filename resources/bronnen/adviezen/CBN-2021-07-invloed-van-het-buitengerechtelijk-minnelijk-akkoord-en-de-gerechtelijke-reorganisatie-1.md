@@ -13,69 +13,69 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/verwerking-in-de-jaarrekening-over-het-boekjaar-1996-en-de-daaropvolgende-boekjaren-van-de
 nummer: CBN-advies 2021/07
 provenance:
+  generated_at: '2026-05-11T17:48:39Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/invloed-van-het-buitengerechtelijk-minnelijk-akkoord-en-de-gerechtelijke-reorganisatie-1
       sha256: 8f62b9e08b4b1a75a1c78cf20f4d3129914beca349cf84250a3c634991e376e7
       version:
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T15:15:32Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
-    status: needs-rework
     confirmed_at: '2026-05-11T17:13:30Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "D3: Zeven orphan footnote-markers als losstaande regels na boekingstabellen (L101, L288, L295, L368, L375, L440, L449) — exact hetzelfde extractie-artefact als CBN-2021-04, waarbij footnote-anchors bedoeld als tabel-context als aparte paragrafen zijn weergegeven. A6: Voetnootanker op L104 splitst een zin over twee regels ('Boek XX... toegevoegd[^2]\n samenhangender te maken...'). De rest van het advies is inhoudelijk compleet met 29 headings en alle 47 voetnootdefinities aanwezig."
     layer1:
-      file_size_chars: 40218
-      flags: []
-      heading_count: 29
-      max_section_chars: 23755
-      run_at: '2026-05-11T15:05:54Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:45Z'
+      heading_count: 29
+      max_section_chars: 23739
+      file_size_chars: 40189
+      flags: []
     layer2:
-      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T17:13:30Z'
-      rationale: "D3: Zeven orphan footnote-markers als losstaande regels na boekingstabellen (L101, L288, L295, L368, L375, L440, L449) — exact hetzelfde extractie-artefact als CBN-2021-04, waarbij footnote-anchors bedoeld als tabel-context als aparte paragrafen zijn weergegeven. A6: Voetnootanker op L104 splitst een zin over twee regels ('Boek XX... toegevoegd[^2]\n samenhangender te maken...'). De rest van het advies is inhoudelijk compleet met 29 headings en alle 47 voetnootdefinities aanwezig."
       concrete_problemen:
-        - regel: 101
-          categorie: D3
+        - categorie: D3
+          regel: 101
           type: other
           voorbeeld: '[^13] (orphan footnote-marker als losstaande regel na boekingstabel)'
-        - regel: 288
-          categorie: D3
+        - categorie: D3
+          regel: 288
           type: other
           voorbeeld: '[^39] (idem)'
-        - regel: 295
-          categorie: D3
+        - categorie: D3
+          regel: 295
           type: other
           voorbeeld: '[^40] (idem)'
-        - regel: 368
-          categorie: D3
+        - categorie: D3
+          regel: 368
           type: other
           voorbeeld: '[^42] (idem)'
-        - regel: 375
-          categorie: D3
+        - categorie: D3
+          regel: 375
           type: other
           voorbeeld: '[^43] (idem)'
-        - regel: 440
-          categorie: D3
+        - categorie: D3
+          regel: 440
           type: other
           voorbeeld: '[^46] (idem)'
-        - regel: 449
-          categorie: D3
+        - categorie: D3
+          regel: 449
           type: other
           voorbeeld: '[^47] (idem)'
-        - regel: 104
-          categorie: A6
+        - categorie: A6
+          regel: 104
           type: other
           voorbeeld: "toegevoegd[^2]\n samenhangender te maken..."
+      rationale: "D3: Zeven orphan footnote-markers als losstaande regels na boekingstabellen (L101, L288, L295, L368, L375, L440, L449) — exact hetzelfde extractie-artefact als CBN-2021-04, waarbij footnote-anchors bedoeld als tabel-context als aparte paragrafen zijn weergegeven. A6: Voetnootanker op L104 splitst een zin over twee regels ('Boek XX... toegevoegd[^2]\n samenhangender te maken...'). De rest van het advies is inhoudelijk compleet met 29 headings en alle 47 voetnootdefinities aanwezig."
+      run_at: '2026-05-11T17:13:30Z'
+      status: needs-rework
+    rationale: "D3: Zeven orphan footnote-markers als losstaande regels na boekingstabellen (L101, L288, L295, L368, L375, L440, L449) — exact hetzelfde extractie-artefact als CBN-2021-04, waarbij footnote-anchors bedoeld als tabel-context als aparte paragrafen zijn weergegeven. A6: Voetnootanker op L104 splitst een zin over twee regels ('Boek XX... toegevoegd[^2]\n samenhangender te maken...'). De rest van het advies is inhoudelijk compleet met 29 headings en alle 47 voetnootdefinities aanwezig."
+    status: needs-rework
 themas:
   - minnelijk akkoord
   - gerechtelijke reorganisatie
@@ -100,7 +100,6 @@ themas:
 # CBN-advies 2021/07 - Invloed van het buitengerechtelijk minnelijk akkoord en de gerechtelijke reorganisatie op de schulden en vorderingen (update)
 
 ## Inleiding
-
 De wet van 11 augustus 2017 heeft Boek XX “Insolventie van ondernemingen” toegevoegd aan het Wetboek van economisch recht. De bedoeling hiervan is om de wetten inzake insolventie[^2] samenhangender te maken en ze als een rationeel geheel in het Wetboek van economisch recht te voegen[^3]. 
 
 De wetgever heeft overigens in de wet van 15 april 2018 het begrip “onderneming” bepaald. Er bestonden immers uiteenlopende definities van een onderneming in verschillende wetteksten[^4]. Het begrip “onderneming” is nu te vinden in artikel I.1 van het Wetboek van economisch recht. De bedoeling is dat met deze definitie alle actoren die economisch actief zijn, worden gedekt[^5].
@@ -122,11 +121,8 @@ In onderhavig advies beperkt de Commissie zich tot het analyseren van de invloed
 Onderhavig advies vervangt *CBN-advies 2011/9 - Invloed van het buitengerechtelijk minnelijk akkoord en de gerechtelijke reorganisatie op de schulden en vorderingen*. 
 
 ## Boekhoudkundige verwerking van de kwijtschelding van schulden
-
 ### Vennootschappen (met of zonder kapitaal)
-
 #### In hoofde van de schuldenaar
-
 Wanneer het buitengerechtelijk minnelijk akkoord of de gerechtelijk reorganisatie voorziet in een kwijtschelding van alle of een deel van de schulden, dan betekent zulks dat, ook al is deze kwijtschelding gebonden aan een ontbindende voorwaarde[^12], deze schuld niet langer het vermogen van de schuldenaar effectief bezwaart. De betrokken schuld moet bijgevolg van het passief van de schuldenaar worden afgeboekt, wat leidt tot een vermogensaangroei. Deze wijziging in de toestand moet in de resultatenrekening tot uiting worden gebracht onder de *Andere niet-recurrente bedrijfsopbrengsten*; de aard van deze opbrengst wordt in de toelichting besproken.
 
 | | Rekening | Omschrijving | Debet | Credit |
@@ -168,7 +164,6 @@ Wordt het buitengerechtelijk minnelijk of gerechtelijk minnelijk/collectief akko
 Deze tegenboekingen dienen te gebeuren op het ogenblik waarop de voorwaarde is vervuld of het akkoord voortijdig wordt beëindigd of ingetrokken.
 
 #### In hoofde van de schuldeiser
-
 De totstandkoming van een akkoord zal doorgaans bij de schuldeiser, behoudens indien zijn schuldvordering voldoende gewaarborgd is, aanleiding geven tot het overboeken van zijn schuldvordering naar de rekening dubieuze debiteuren[^22].
 
 | | Rekening | Omschrijving | Debet | Credit |
@@ -221,7 +216,6 @@ Indien het akkoord voortijdig wordt beëindigd of ingetrokken, dan zal de geboek
 De onder II.A.1. en II.A.2. beschreven beginselen vinden, behoudens de fiscale vrijstellingen, ook toepassing wanneer de afstand van schuldvordering (al dan niet onder ontbindende voorwaarde), buiten het raam van Boek XX van het Wetboek van economisch recht, uit een bilaterale overeenkomst tussen een schuldenaar in financiële moeilijkheden en een schuldeiser voortvloeit[^28]. 
 
 ### VZW’s, IVZW’s en stichtingen
-
 De boekhoudkundige verwerking van de kwijtschelding van schulden bij een VZW, IVZW of stichting is vergelijkbaar met die bij vennootschappen. 
 
 De artikelen 48 en 48/1 WIB 92 worden enkel toegepast indien de VZW, IVZW of stichting onderworpen is aan de vennootschapsbelasting. 
@@ -229,43 +223,31 @@ De artikelen 48 en 48/1 WIB 92 worden enkel toegepast indien de VZW, IVZW of sti
 De Commissie verwijst naar punt II.A betreffende de vennootschappen (met of zonder kapitaal) voor de boekhoudkundige verwerking van de kwijtschelding van schulden. 
 
 ## Boekhoudkundige verwerking van renteloze schulden
-
 ### Vennootschappen (met of zonder kapitaal)
-
 #### Bij de schuldenaar
-
 ##### Omvorming van een schuld wegens levering van goederen en diensten of een andere schuld tot een renteloze schuld, al dan niet terugbetaalbaar over verschillende jaren
-
 De schuldenaar zal niet langer te betalen interesten noch kosten dienen te boeken. De schuld moet niet verdisconteerd worden, aangezien artikel 3:55 *juncto* artikel 3:45, § 2, c KB WVV niet van toepassing is. Het toepassen van een disconto zou leiden tot het boeken van een over te dragen kost, die geen correctie zou vertegenwoordigen op een aanschaffingsprijs of op een geboekte kost[^29].
 
 ##### Bekomen van een renteloze lening
-
 De schuldenaar dient de terug te betalen som als schuld in zijn boekhouding op te nemen. Deze schuld dient evenmin verdisconteerd te worden, aangezien artikel 3:55 *juncto* artikel 3:45, § 2, c KB WVV niet van toepassing is in dit geval. Aangezien geen intresten verschuldigd zijn, dienen deze uiteraard niet in resultaat te worden genomen.
 
 #### Bij de schuldeiser
-
 ##### Omvorming van een vordering wegens levering van goederen en diensten of een rentegevende vordering tot een renteloze vordering, al dan niet terugvorderbaar over meer dan één jaar
-
 De vordering die bij wijze van tegemoetkoming aan de schuldenaar die in financiële moeilijkheden verkeert, wordt omgevormd tot een renteloze vordering, dient niet verdisconteerd te worden. Artikel 3:45, § 2, c KB WVV is immers niet van toepassing, aangezien de vordering op het ogenblik waarop zij in het vermogen van de onderneming opgenomen werd, niet renteloos was[^30]. De vordering kan evenwel als dubieus worden beschouwd, waarop, overeenkomstig artikel 3:46 KB WVV, een waardevermindering kan worden geboekt.
 
 ##### Toekennen van een renteloze lening
-
 Indien een schuldeiser in het kader van een akkoord afziet van het vorderen van een intrestvergoeding, dan is artikel 3:45, § 2, c KB WVV evenmin van toepassing, maar kan het boeken van een waardevermindering op deze vordering verantwoord zijn[^31].
 
 ### VZW’s, IVZW’s en stichtingen
-
 De boekhoudkundige verwerking van renteloze schulden bij een VZW, IVZW of stichting is vergelijkbaar met die bij vennootschappen. 
 
 De Commissie verwijst naar punt III.A. 
 
 ## Boekhoudkundige verwerking van de omzetting van (een deel van) de schuldvordering in kapitaal, in inbreng of in eigen vermogen
-
 De schuldeiser kan ook met een schuldenaar overeenkomen dat (een gedeelte van) zijn vordering zal worden omgezet in kapitaal voor kapitaalhoudende vennootschappen, in inbreng voor kapitaalloze vennootschappen of in eigen vermogen voor VZW’s, IVZW’s en stichtingen. Indien een deel van de schuld kwijtgescholden wordt, dan moet dat deel van het passief van de schuldenaar worden afgeboekt[^32] en dient de schuldeiser een waardevermindering op zijn schuldvordering te boeken[^33]. 
 
 ### Kapitaalhoudende vennootschappen
-
 #### Bij de schuldenaar
-
 De Commissie stelt vast dat er in de rechtsleer geen eensgezindheid bestaat over de waarde waartegen een schuldvordering dient te worden ingebracht[^34].
 
 Bepaalde auteurs zijn de mening toegedaan dat de inbreng aan werkelijke economische waarde dient te gebeuren[^35]. De schuldvordering zou met andere woorden moeten gewaardeerd worden aan de hand van haar recuperatiemogelijkheden. Volgens deze auteurs zou de inbreng aan nominale waarde bij een onderneming in moeilijkheden een onterechte schijn van financieel herstel van de inbrenggenietende vennootschap kunnen veroorzaken.
@@ -277,7 +259,6 @@ De Commissie is, op basis van de rechtsleer, van oordeel dat de schuldvordering 
 De operatie heeft voor de vennootschap in ieder geval tot gevolg dat haar netto-actief stijgt ten belope van de nominale waarde van de schuldvordering, aangezien de ingebrachte schuldvordering niet langer een opeisbare schuld vormt, maar werd omgezet in eigen vermogen.
 
 ### Voorbeeld 1
-
 Een kapitaalhoudende vennootschap verkeert in financiële problemen en een van de schuldeisers gaat akkoord om een schuld met nominale waarde van 100.000 euro om te zetten in kapitaal.
 
 De balans van de vennootschap in moeilijkheden (vóór de inbreng van de schuldvordering) is de volgende: 
@@ -332,11 +313,9 @@ De balans van de vennootschap ziet er, na de inbreng van de schuldvordering, als
 | | | | | Schulden | | 150.000 | 
 
 #### Bij de schuldeiser
-
 Artikel 3:19, § 1 KB WVV bepaalt dat de aanschaffingswaarde van deelnemingen of aandelen ontvangen als vergoeding voor inbrengen die niet bestaan in contanten of die voortkomen uit de omzetting van vorderingen, overeenstemt met de conventionele waarde van de ingebrachte goederen en waarden of van de omgezette vorderingen. 
 
 ### Voorbeeld 2
-
 Stel dat de schuldeiser reeds een waardevermindering van 10.000 euro boekte op zijn vordering en dat hij voor de inbreng van zijn schuldvordering aandelen ontvangt met een werkelijke waarde van 80.000 euro, dan zal hij bijgevolg de volgende boeking dienen te verrichten:
 
 | | Rekening | Omschrijving | Debet | Credit |
@@ -348,15 +327,12 @@ Stel dat de schuldeiser reeds een waardevermindering van 10.000 euro boekte op z
 | aan | 407 of 2907 | Handelsvorderingen: Dubieuze debiteuren | | 100.000 |
 
 ### Kapitaalloze vennootschappen
-
 #### Bij de schuldenaar
-
 De boekhoudkundige verwerking is vergelijkbaar met die van de omzetting van een schuldvordering in kapitaal[^41] bij de schuldenaar (zoals uitgelegd in punt IV.A.1). Er worden wel andere rekeningen gebruikt.
 
 Gezien de verschillende strekkingen in de rechtsleer over de waarde waartegen een schuldvordering moet worden ingebracht, dient er tevens een onderscheid te worden gemaakt tussen het waarderen van de schuldvordering tegen de nominale waarde en tegen de economische waarde. 
 
 ### Voorbeeld 3
-
 Een kapitaalloze vennootschap verkeert in financiële problemen en een van de schuldeisers gaat akkoord om een schuld met nominale waarde van 100.000 euro om te zetten in een inbreng.
 
 De balans van de vennootschap in moeilijkheden (vóór de inbreng van de schuldvordering) is de volgende:
@@ -411,19 +387,15 @@ De balans van de vennootschap ziet er, na de inbreng van de schuldvordering, als
 | | | | | Schulden | | 150.000 | 
 
 #### Bij de schuldeiser
-
 De boekhoudkundige verwerking is vergelijkbaar met die van de omzetting van een schuldvordering in kapitaal bij de schuldeiser. De Commissie verwijst naar punt IV.A.2.
 
 ### VZW’s, IVZW’s en stichtingen
-
 #### Bij de schuldenaar
-
 De boekhoudkundige verwerking is vergelijkbaar met die van de omzetting van een schuldvordering in kapitaal[^44] bij de schuldenaar (zoals uitgelegd in punt IV.A.1.). Er worden wel andere rekeningen gebruikt.
 
 Gezien de verschillende strekkingen in de rechtsleer over de waarde waartegen een schuldvordering[^45] moet worden ingebracht, dient er tevens een onderscheid te worden gemaakt tussen het waarderen van de schuldvordering tegen de nominale waarde en tegen de economische waarde. 
 
 ### Voorbeeld 4
-
 Een vereniging verkeert in financiële problemen en een van de schuldeisers gaat akkoord om een schuld met nominale waarde van 100.000 euro om te zetten in fondsen.
 
 De balans van de vereniging in moeilijkheden (voor de inbreng van de schuldvordering) is de volgende:
@@ -490,7 +462,6 @@ En voor zover de vereniging een rechtspersoon is die onderworpen is aan de recht
 | | | | | Schulden | | 150.000 | 
 
 #### Bij de schuldeiser
-
 In hoofde van de schuldeiser zal de omzetting van de schuldvordering in de fondsen van de vereniging aanleiding geven tot het boeken van een niet-recurrente bedrijfskost.
 
 [^1]: Onderhavig advies is tot stand gekomen nadat een ontwerpadvies op 17 maart 2020 ter publieke consultatie werd gepubliceerd op de website van de CBN.

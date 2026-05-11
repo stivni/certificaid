@@ -2,59 +2,56 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/voorwaardelijke-obligaties
 datum: 1983-04-10
 gerelateerde_adviezen:
-- datum: '2018-05-09'
-  titel: 'Vereniging van aandelen in handen van één enkele rechtspersoon: vermeldingen
-    in de toelichting'
-  url: https://www.cbn-cnc.be/nl/adviezen/vereniging-van-aandelen-in-handen-van-een-enkele-rechtspersoon-vermeldingen-in-de
-- datum: '2017-09-13'
-  titel: 'Onbeperkt aansprakelijke vennoot: vermeldingen in de jaarrekening'
-  url: https://www.cbn-cnc.be/nl/adviezen/onbeperkt-aansprakelijke-vennoot-vermeldingen-in-de-jaarrekening
-- datum: '2017-05-31'
-  titel: Opname van financiële vaste activa geboekt tegen een hoger bedrag dan hun
-    reële waarde in de toelichting van de jaarrekening
-  url: https://www.cbn-cnc.be/nl/adviezen/opname-van-financiele-vaste-activa-geboekt-tegen-een-hoger-bedrag-dan-hun-reele-waarde-in
-- datum: '2011-05-04'
-  titel: 'Afwijking inzake functionele valuta: praktische implicaties en procedure'
-  url: https://www.cbn-cnc.be/nl/adviezen/afwijking-inzake-functionele-valuta-praktische-implicaties-en-procedure
+  - datum: '2018-05-09'
+    titel: 'Vereniging van aandelen in handen van één enkele rechtspersoon: vermeldingen in de toelichting'
+    url: https://www.cbn-cnc.be/nl/adviezen/vereniging-van-aandelen-in-handen-van-een-enkele-rechtspersoon-vermeldingen-in-de
+  - datum: '2017-09-13'
+    titel: 'Onbeperkt aansprakelijke vennoot: vermeldingen in de jaarrekening'
+    url: https://www.cbn-cnc.be/nl/adviezen/onbeperkt-aansprakelijke-vennoot-vermeldingen-in-de-jaarrekening
+  - datum: '2017-05-31'
+    titel: Opname van financiële vaste activa geboekt tegen een hoger bedrag dan hun reële waarde in de toelichting van de jaarrekening
+    url: https://www.cbn-cnc.be/nl/adviezen/opname-van-financiele-vaste-activa-geboekt-tegen-een-hoger-bedrag-dan-hun-reele-waarde-in
+  - datum: '2011-05-04'
+    titel: 'Afwijking inzake functionele valuta: praktische implicaties en procedure'
+    url: https://www.cbn-cnc.be/nl/adviezen/afwijking-inzake-functionele-valuta-praktische-implicaties-en-procedure
 nummer: CBN-advies 136/1
 provenance:
-  generated_at: '2026-05-11T15:15:31Z'
+  generated_at: '2026-05-11T17:48:38Z'
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/voorwaardelijke-obligaties
-    sha256: 239e723a8f3ae87eb5e7b40b03a303369a95c62cc716b43c26b46d5636e1542d
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/voorwaardelijke-obligaties
+      sha256: 239e723a8f3ae87eb5e7b40b03a303369a95c62cc716b43c26b46d5636e1542d
+      version:
   stale: false
-  stale_reason: null
+  stale_reason:
   tooling:
-    model: null
+    model:
     pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    prompt_version: null
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
     confirmed_at: '2026-05-11T12:04:41Z'
     confirmed_by: subagent-sonnet-4-6
     layer1:
-      file_size_chars: 1438
-      flags: []
+      status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:41Z'
       heading_count: 0
       max_section_chars: 1438
-      run_at: '2026-05-11T15:05:49Z'
-      run_id: 20260511-150547
-      status: pass
+      file_size_chars: 1438
+      flags: []
     layer2:
       agent: subagent-sonnet-4-6
       concrete_problemen: []
-      rationale: Kort advies (1438 tekens), clean prose. Geen extractie-artefacten
-        aangetroffen.
+      rationale: Kort advies (1438 tekens), clean prose. Geen extractie-artefacten aangetroffen.
       run_at: '2026-05-11T12:04:41Z'
       status: trusted
     rationale: Kort advies (1438 tekens), clean prose. Geen extractie-artefacten aangetroffen.
     status: trusted
 themas:
-- toelichting
-- verplichting tot uitgifte van obligaties
-- voorwaardelijke obligaties
-- voorwaardelijke schuld
+  - toelichting
+  - verplichting tot uitgifte van obligaties
+  - voorwaardelijke obligaties
+  - voorwaardelijke schuld
 ---
 
 # CBN-advies 136/1 - Voorwaardelijke obligaties

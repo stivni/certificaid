@@ -9,47 +9,47 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
+    pipeline_version: 11f9196
     model:
     prompt_version:
-  generated_at: '2026-05-11T15:15:31Z'
+  generated_at: '2026-05-11T17:48:38Z'
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T17:05:21Z'
+    status: trusted
+    confirmed_at: '2026-05-11T17:51:53Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "Vorig verdict bevestigd. A3 r.72-74: identieke intro-zin twee keer. A9 r.280: 'effectenverordening' (ETL-corruptie voor 'effectenvordering' zoals correct op r.440); r.389: 'Op 16.13.199n' (maand 13 — onmogelijke datum); r.373: credit-bedrag 1.016 vs debet 1.015 in afwikkelingsboeking. E2 r.254-257: multi-line tabelcellen in meerdere schema's."
+    rationale: "Structuur en tabellen zijn overwegend correct voor dit omvangrijke advies (47k chars, 44 headings). De drie gevonden tekstuele afwijkingen zijn source-typo's: 'effectenverordening' (2x) en 'mogeljkheid' zijn schrijffouten die al in de gepubliceerde HTML-brontekst staan; '16.13.199n' is eveneens een typefout in het originele document. Geen ETL-artefacten (A-G) gevonden die reparatie vereisen."
     layer1:
-      file_size_chars: 47395
-      flags: []
-      heading_count: 18
-      max_section_chars: 10321
-      run_at: '2026-05-11T15:05:49Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:42Z'
+      heading_count: 44
+      max_section_chars: 10300
+      file_size_chars: 47117
+      flags: []
     layer2:
-      status: needs-rework
+      status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T17:05:21Z'
-      rationale: "Vorig verdict bevestigd. A3 r.72-74: identieke intro-zin twee keer. A9 r.280: 'effectenverordening' (ETL-corruptie voor 'effectenvordering' zoals correct op r.440); r.389: 'Op 16.13.199n' (maand 13 — onmogelijke datum); r.373: credit-bedrag 1.016 vs debet 1.015 in afwikkelingsboeking. E2 r.254-257: multi-line tabelcellen in meerdere schema's."
+      run_at: '2026-05-11T17:51:53Z'
+      rationale: "Structuur en tabellen zijn overwegend correct voor dit omvangrijke advies (47k chars, 44 headings). De drie gevonden tekstuele afwijkingen zijn source-typo's: 'effectenverordening' (2x) en 'mogeljkheid' zijn schrijffouten die al in de gepubliceerde HTML-brontekst staan; '16.13.199n' is eveneens een typefout in het originele document. Geen ETL-artefacten (A-G) gevonden die reparatie vereisen."
       concrete_problemen:
-        - regel: 72
-          categorie: A3
-          type: other
-          voorbeeld: een tussentijdse afsluiting en de inning van een coupon tijdens de looptijd van de lening/ontlening
-        - regel: 280
-          categorie: A9
-          type: ocr-confusion
-          voorbeeld: 5250 | Geleende vastrentende effecten A, "effectenverordening"
-        - regel: 389
-          categorie: A9
-          type: ocr-confusion
-          voorbeeld: Op 16.13.199n sluit een handelsonderneming na verkoop van staatsobligaties...
-        - regel: 254
-          categorie: E2
-          type: pseudo-table
-          voorbeeld: '| aan | 5209 | Vastrentende effecten A\n(geboekte waardeverminderingen) | | 10 |'
+        - regel: 237
+          categorie: (source)
+          type: source-typo
+          voorbeeld: Geleende vastrentende effecten A, "effectenverordening" (ipv effectenvordering)
+        - regel: 304
+          categorie: (source)
+          type: source-typo
+          voorbeeld: Geleende vastrentende effecten A, effectenverordening (tweede voorkomen)
+        - regel: 338
+          categorie: (source)
+          type: source-typo
+          voorbeeld: 'Op 16.13.199n (onmogelijke datum: maand 13)'
+        - regel: 592
+          categorie: (source)
+          type: source-typo
+          voorbeeld: '"mogeljkheid" (ipv mogelijkheid)'
 themas:
   - coupon
   - effecten
@@ -65,12 +65,7 @@ themas:
 
 # CBN-advies 169/1 - Verwerking van leningen en ontleningen van effecten in de jaarrekening van ondernemingen
 
-een tussentijdse afsluiting en de inning van een coupon tijdens de looptijd van de lening/ontlening 
-
-een tussentijdse afsluiting en de inning van een coupon tijdens de looptijd van de lening/ontlening
-
 ## Inleiding : de effectenlening
-
 Een effectenlening is de verrichting waarbij een partij (de lener) aan een andere partij (de ontlener) 
 
 effecten leent voor een bepaalde periode en de ontlener de lener bij het verstrijken daarvan effecten in de plaats moet geven met dezelfde kenmerken maar waarvan de nummers niet identiek hoeven te zijn. 
@@ -91,9 +86,7 @@ In de meeste gevallen is het verloop van die leningsverrichtingen echter in het 
 De leners zijn echter niet uitsluitend effectenmakelaars, die optreden in eigen naam en voor eigen rekening. Alle entiteiten en ondernemingen met relatief belangrijke portefeuilles kunnen dergelijke verrichtingen uitvoeren, die bijgevolg ook interessant kunnen zijn voor tal van industriële of commerciële ondernemingen, waarop de bepalingen van de Boekhoudwet en haar uitvoeringsbesluiten van toepassing zijn. 
 
 ## Korte juridische en financiële analyse van de effectenlening
-
 ### Algemene overwegingen
-
 De commissie is niet bevoegd om zich uit te spreken over de juridische kwalificatie van de effectenlening en met name over de vraag of de effectenlening een verbruiklening is in de zin van artikel 1892 van het Burgerlijk Wetboek ("lening van een zaak die door het gebruik teniet gaat, onder verplichting voor de ontlener om aan de lener evenzoveel van gelijke soort en hoedanigheid terug te geven") dan wel een specifiek contract. 
 
 Het essentiële kenmerk van de effectenlening is dat zij voor de ontlener de beschikkingsbevoegdheid over het betrokken effect impliceert en hij het dus kan overdragen (in volle eigendom) aan een derde of kan gebruiken voor elke andere daad van beschikking (bv. het effect verder verpanden of als waarbord gebruiken voor eigen verbintenissen). In de regel zal de ontlener een effectenlening slechts aangaan indien hij over de effecten kan beschikken. Bijgevolg impliceert de effectenlening dat de lener de eigendom van het effect overdraagt aan de ontlener. Tegerlijkertijd wordt op hem ook het risico op verlies door toeval overgedragen. 
@@ -128,16 +121,13 @@ Rente en dividenden die tijdens de looptijd van de lening betaalbaar worden gest
 2. Het is echter niet uitgesloten dat het effect, krachtens de leningsovereenkomst, "ex-coupon" wordt geleend of dat die coupon, eveneens krachtens de leningsovereenkomst, op identificeerbare wijze voor rekening van de lener wordt geïnd. Dat zou met name het geval kunnen zijn indien het effect wordt ontleend om door de ontlener verder te worden verpand aan zijn schuldeiser of aan een derde-bewaarder, en indien de coupon voor rekening van de lener wordt geïnd door die schuldeiser of bewaarder. In dat geval zou de coupon, met zijn kenmerken, voor de lener een eigen opbrengst vormen die door hem als zodanig moet worden geboekt. 
 
 ## Boekhoudkundige verwerking van effectenleningen
-
 In dit onderdeel worden de krachtlijnen uitgetekend voor de omzetting van de voornoemde beginselen in de jaarrekening van de handels- en industriële ondernemingen. Bovendien worden in punt 4 van dit advies voorbeelden gegeven van schema's voor boekhoudkundige verwerking, in de vorm van : 
 
 - een basisgeval (een ontlener die op termijn effecten heeft verkocht vanuit een ongedekte positie en die bijgevolg een baissepositie heeft op die effecten); 
 - en een variante waarbij, voor hetzelfde geval, rekening kan worden gehouden met de verrekening van de interesten in verband met de geleende/ontleende effecten, met een tussentijdse balans en met de vervaldag van een coupon tijdens de looptijd van de lening/ontlening. 
 
 ### Bij het afsluiten van de lening
-
 #### Door de lener
-
 Aangezien een effectenleningsovereenkomst resulteert in de overdracht van de eigendom van het betrokken effect en zij tegelijkertijd een effectenvordering doet ontstaan die de geleende, terug te vorderen effecten vertegenwoordigt, moet het sluiten van een dergelijke overeenkomst als volgt worden uitgedrukt : 
 
 - de geleende effecten wegboeken uit de post waarin ze stonden, afhankelijk van het geval : 
@@ -157,7 +147,6 @@ Aangezien een effectenleningsovereenkomst resulteert in de overdracht van de eig
 Omdat er geen «realisatie» is, moet de verrichting worden geboekt tegen de waarde waartegen het geleende effect was geboekt op het moment waarop de lening werd afgesloten. Indien op dat moment een waardevermindering of een herwaardering op het effect zou zijn toegepast, is een afzonderlijke boeking vereist voor alle bestanddelen van de nettoboekwaarde (aanschaffingswaarde, geboekte waardeverminderingen, toegepaste herwaarderingen). 
 
 #### Door de ontlener
-
 De ontlener moet de overdracht van de eigendom van het gelijktijdig ontstaan van de effectenschuld als volgt boeken : 
 
 | | Rekening | Omschrijving | Debet | Credit |
@@ -176,9 +165,7 @@ In het eerste geval kent de ontlener de aanschaffingsprijs van de te ontvangen e
 In het tweede geval weet de ontlener niet hoeveel hij zal moeten uitgeven om zich in te dekken op de markt. In deze hypothese is de koers van het effect op het ogenblik van de leningsverrichting het meest geschikte waarderingscriterium. 
 
 ### Bij het verstrijken van het boekjaar (of de boekhoudperiode)
-
 #### Door de lener
-
 Bij het verstrijken van het boekjaar worden de geleende effecten gewaardeerd zoals de effecten in portefeuille van dezelfde categorie. Zo zal wanneer de waarde van de effecten, vastgesteld op basis van de geldende criteria voor de effectencategorie waartoe zij behoren (financieel vast actief/ geldbeleggingen), onder de netto(boek)waarde ligt waartegen de geleende effecten zijn geboekt, naar verhouding een waardevermindering worden vastgesteld op dezelfde manier en op basis van dezelfde criteria als wanneer de betrokken effecten niet waren geleend. Zo ook, indien de vroeger geboekte waardevermindering op de effecten in portefeuille niet langer verantwoord blijkt, moet de waardevermindering op de geleende effecten naar verhouding worden teruggenomen. Indien, bij het verstrijken van het boekjaar, de waarde van het effect daarentegen de aanschaffingswaarde van de effecten worden geboekt, behalve indien het een kredietinstelling betreft[^2] en indien de geleende effecten verhandelbare effecten zijn die op balansdatum tegen marktwaarde moeten worden gewaardeerd, ongeacht of die marktwaarde onder of boven de aanschaffingswaarde ligt. 
 
 Indien het een vastrentend effect betreft, zullen de gelopen inkomsten pro rata temporis in resultaat worden genomen als verworven opbrengsten; indien de fiscale regeling voor de inkomsten uit geleende effecten verschilt van de fiscale regeling voor de inkomsten uit effecten in portefeuille, moet het verworven prorata in afzonderlijke rekeningen (subrekeningen) worden geboekt. 
@@ -186,7 +173,6 @@ Indien het een vastrentend effect betreft, zullen de gelopen inkomsten pro rata 
 Bovendien zal de als vergoeding voor de lening afgesproken provisie in resultaat worden genomen naar verhouding van de gelopen periode. 
 
 #### Door de ontlener
-
 Leningen en ontleningen van effecten geven als zodanig geen aanleiding tot het vaststellen van een meer-of minderwaarde op de betrokken effecten. Indien de effectenschuld van de ontlener, bij het verstrijken van het boekjaar, door identieke effecten in portefeuille of identieke te ontvangen effecten is gedekt, en indien de ontlener bijgevolg geen «positie» heeft op het betrokken effect, is de onderneming niet langer meer blootgesteld aan enig koersrisico. 
 
 De effecten in portefeuille of de te ontvangen effecten die moeten worden geleverd, worden gewaardeerd tegen aanschaffingswaarde. Indien de waarde waartegen de terug te geven effecten zijn geboekt afwijkt van de aanschaffingswaarde van de effecten in portefeuille of de te ontvangen effecten, zal het verschil een resultaat vormen dat, op dat ogenblik en naar gelang van het geval, als gerealiseerde meerwaarde of minderwaarde op vlottende activa moet worden geboekt, indien dit verschil niet in resultaat is genomen op het tijdstip waarop de dekkingsverrichting werd aangegaan.
@@ -198,13 +184,11 @@ Indien de ontlener de ontleende effecten daarentegen heeft overgedragen om zijn 
 Bovendien zal de als vergoeding voor de lening afgesproken provisie in resultaat worden genomen naar verhouding van de gelopen periode. 
 
 #### Informatie die in de jaarrekening moet worden verstrekt
-
 Bij de hierboven besproken boekhoudkundige verwerking, worden de geleende effecten in de jaarrekening van de lener pari passu voorgesteld, in dezelfde post als de effecten in portefeuille. Zo ook worden de ontleende effecten in de jaarrekening van de ontlener onder de schulden opgenomen. 
 
 Indien die lopende verrichting een betekenisvolle invloed kunnen hebben op het oordeel van de lezers van de jaarrekening, over het vermogen, de financiële positie of de resultaten van de onderneming, van zowel de ontlener, moet dat, met toepassing van artikel 4 van het Koninklijk Besluit van 8 oktober 1976, in de toelichting worden vermeld. 
 
 ### Afwikkeling van de leningsverrichting
-
 Bij de afwikkeling van de leningsverrichting worden de boekingen verricht bij de toekenning van de lening, voor dezelfde waarden tegengeboekt. Dit betekent dat bij de afwikkeling van de lening, net zomin als bij haar toekenning, geen enkele, in resultaat te nemen meerwaarde of minderwaarde ontstaat, noch voor de lener, noch voor de ontlener. 
 
 Indien de ontlener vannuit een ongedekte positie had gehandeld en hij, om zijn verbintenis tot teruggave te kunnen nakomen, het effect dus op de markt heeft moeten kopen, spreekt het evenwel voor zich dat het verschil tussen de waarde waartegen de ontleende effecten waren geboekt en de aanschaffingswaarde op de markt van de effecten die hij heeft verworven om zijn verbintenis na te komen, voor hem een, naar gelang van het geval, positief of negatief resultaat zou vormen. Dat resultaat is evenwel het gevolg van zijn baissepositie en niet van de ontleningsverrichting en de afwikkeling ervan. 
@@ -212,7 +196,6 @@ Indien de ontlener vannuit een ongedekte positie had gehandeld en hij, om zijn v
 Bovendien wordt bij de afwikkeling van de verrichting ook de afgesproken provisie geregeld, die door de lener als opbrengst en door de ontlener als kost zal worden geboekt. 
 
 ### Regularisatie van tijdens de lening vervallen coupons
-
 Indien de aan de geleende effecten verbonden coupon, krachtens de bepalingen van de leningsovereenkomst, wordt geïnd door de lener of door een derde bewaarder voor rekening van de lener, is er geen enkel probleem : de lener boekt de betaalbaar gestelde coupon op dezelfde manier als de coupons van zijn effecten in portefeuille. 
 
 In de andere, ongetwijfeld meest voorkomende gevallen zal de lener van de ontlener daarentegen een «vergoeding voor ontbrekende coupon» ontvangen. In boekhoudkundig opzicht moeten die vergoedingen voor ontbrekende coupons bij de financiële opbrengsten worden geboekt, in de posten voor opbrengsten uit soortgelijke effecten in portefeuille (rekeningen 750 of 751 van het genormaliseerd rekeningenstelsel). In burgerrechtelijk, boekhoudrechtelijk en fiscaalrechtelijk opzicht, hebben die vergoedingen voor ontbrekende coupons echter, zoals eerder vermeld, een andere kwalificatie dan de coupons die zij vervangen. Het is bijgevolg belangrijk dat zij in de boekhouding van de lener in afzonderlijke rekeningen of sub-rekeningen worden geboekt. 
@@ -220,7 +203,6 @@ In de andere, ongetwijfeld meest voorkomende gevallen zal de lener van de ontlen
 Voor de ontlener vormen die vergoedingen voor ontbrekende coupons financïele kosten waar hij normaliter een opbrengst tegenover heeft geplaatst, hetzij uit de inning van de coupon voor zijn rekening (waarschijnlijk vrij zeldzaam geval), hetzij uit een renteprorata dat hij van zijn cliënt ontvangt, of een winst uit de terugkoop van het terug te geven effect tegen een lagere koers (ex-coupon). Die kosten moet hij bij de categorie «Diverse financiële kosten» (rekening 657 tot 659) van het genormaliseerd rekeningenstelsel boeken. 
 
 ### Diverse vragen
-
 De vraag werd gesteld hoe de effectenlening in de jaarrekening van de ondernemingen moet worden 
 
 verwerkt, wanneer : 
@@ -234,16 +216,13 @@ Als voorbeelden van de tweede hypothese kunnen worden vermeld : het aanbod tot o
 
 Rekening houdend met de verscheidenheid aan mogelijke hypotheses en met de contractuele bepalingen die daarop van toepassing kunnen zijn, kan niet worden uitgemaakt welke boekingsbeginselen in de diverse gevallen precies moeten worden toegepast. Over het algemeen hebben de partijen in hun leningscontract de meest waarschijnlijke uitzonderingsgevallen opgenomen die zich kunnen voordoen tijdens het verloop van de leningsverrichting. Bij de boekingswijze moet met die contractuele bepalingen rekening worden gehouden binnen het bestek van de hierboven uitgewerkte algemene beginselen inzake effectenleningen. 
 
-## Voorbeelden : De effecten worden ontleend door een ontlener die op termijn effecten A heeft verkocht vanuit een ongedekte positie en bijgevolg op die effecten een baissepositie heeft[^4]
-
+## Voorbeelden : De effecten worden ontleend door een ontlener die op termijn effecten A heeft verkocht vanuit een ongedekte positie en bijgevolg op die effecten een baissepositie heeft
 ### Basisversie
-
 Voorbeeld : Op 15/12/199n sluit een handelsonderneming na verkoop van staatsobligaties vanuit een ongedekte positie en voor een bedrag van 1 005 (tegen een vaste rentevoet van 7 %), met een andere onderneming voor een periode van 15 dagen (vervaldatum van de coupon : 15 april) een ontleningsovereenkomst met betrekking tot die staatsobligaties. In zijn boekhouding boekt de lener de effecten voor een bedrag van 1 000 onder "Geldbeleggingen" en een waardevermindering van 10. De vergoeding voor de lening bedraagt 1 (2,4 % op 15 dagen). De betrokken verrichtingen worden als volgt in de jaarrekening verwerkt : 
 
 1. *Boekingen door de lener en de ontlener vóór het afsluiten van de lenings-/ontleningsovereenkomst* 
 
-**Lener**
-
+## Lener
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 5200 | Vastrentende effecten A | 1.000 | |
@@ -252,8 +231,7 @@ Voorbeeld : Op 15/12/199n sluit een handelsonderneming na verkoop van staatsobli
 | | 4... | Diverse passiva | 990 | |
 |---|---|---|---|---|
 
-**Ontlener**
-
+## Ontlener
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 06... | Debiteuren wegens op termijn verkochte effecten | 1.005 | |
@@ -269,8 +247,7 @@ Voorbeeld : Op 15/12/199n sluit een handelsonderneming na verkoop van staatsobli
 
 Aangezien de ontlener vanuit een ongedekte positie heeft verkocht, worden die bedragen geboekt rekening houdend met de marktwaarde op de dag waarop de lening wordt aangegaan (in het voorbeeld : 1 010).
 
-**Lener**
-
+## Lener
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 5250 | Geleende vastrentende effecten A, "effectenverordening" (aanschaffingswaarde) | 1.000 | |
@@ -283,23 +260,19 @@ Aangezien de ontlener vanuit een ongedekte positie heeft verkocht, worden die be
 | aan | 5259 | Geleende vastrentende A, effecten A (geboekte waardeverminderingen) | | 10 |
 |---|---|---|---|---|
 
-**Ontlener**
-
+## Ontlener
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 5200 | Vastrentende effecten A | 1.010 | |
 | aan | 487 | Ontleende, terug te geven effecten | | 1.010 |
 
 ### 3. *Levering aan cliënt van de effecten A die hij van de ontlener heeft gekocht*
-
 De afwikkeling van de tegenpartijverrichting (die het afsluiten van de leningsovereenkomst voorafgaat) impliceert voor de ontlener de vaststelling van eventuele koersverschillen tussen het bedrag van de onderliggende verrichting en de «aanschaffingsprijs» van de ontleende effecten.
 
-**Lener**
-
+## Lener
 /
 
-**Ontlener**
-
+## Ontlener
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 400 | Handelsdebiteuren (koper van de effecten A) | 1.005 | |
@@ -322,12 +295,10 @@ Om zijn verplichting tot teruggave van de effecten te kunnen nakomen, koopt de o
 - de nettoboekwaarde van de effecten als vastgesteld op de datum waarop de termijnverkoop wordt gesloten, enerzijds; 
 - het bedrag dat is betaald voor de aankoop van de betrokken effecten op de markt in het vooruitzicht van hun teruggave aan de lener, anderzijds. 
 
-**Lener**
-
+## Lener
 /
 
-**Ontlener**
-
+## Ontlener
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 5200 | Vastrentende effecten A (aanschaffingswaarde) | 1.015 | |
@@ -343,8 +314,7 @@ Om zijn verplichting tot teruggave van de effecten te kunnen nakomen, koopt de o
 
 De saldi van de nog openstaande rekeningen bij de ontlener worden vereffend. De voor de ontleningsverrichting betaalde vergoeding (in dit geval 1 = 2,4 % x 1 000 op 15 dagen) wordt in resultaat genomen. 
 
-**Lener**
-
+## Lener
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 5200 | Vastrentende effecten A (aanschafwaarde) | 1.000 | |
@@ -361,8 +331,7 @@ De saldi van de nog openstaande rekeningen bij de ontlener worden vereffend. De 
 | | 55 | Kredietinstellingen | 1 | |
 | aan | 75 | Vergoeding voor geleende effecten | | 1 |
 
-**Ontlener**
-
+## Ontlener
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 487 | Te ontlenen, terug te geven effecten A | 1.015 | |
@@ -398,8 +367,7 @@ De betrokken verrichtingen worden als volgt in de jaarrekening verwerkt :
 
 1. *Boekingen door de lener en de ontlener vóór het afsluiten van de lenings-/ontleningsovereenkomst* 
 
-**Lener**
-
+## Lener
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 5200 | Vastrentende effecten A | 1.000 | |
@@ -411,8 +379,7 @@ De betrokken verrichtingen worden als volgt in de jaarrekening verwerkt :
 | | 491 | Verkregen intresten op de effecten A | 64 | |
 | aan | 751 | Opbrengsten uit vlottende activa | | 64 |
 
-**Ontlener**
-
+## Ontlener
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 06... | Debiteuren wegens op termijn verkochte effecten | 1.071 | |
@@ -429,8 +396,7 @@ De betrokken verrichtingen worden als volgt in de jaarrekening verwerkt :
 
 Aangezien ontlener vanuit een ongedekte positie heeft verkocht, wordt de effectenschuld geboekt rekening houdend met de marktwaarde op de dag waarop de lening wordt aangegaan (in dit voorbeeld 1 010) en met de te lopen interesten op datzelfde effect tot op de datum waarop de leningsovereenkomst wordt afgewikkeld (in dit voorbeeld 70) :
 
-**Lener**
-
+## Lener
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 5250 | Geleende vastrentende effecten A "effectenvordering" (aanschaffingswaarde) | 1.000 | |
@@ -442,8 +408,7 @@ Aangezien ontlener vanuit een ongedekte positie heeft verkocht, wordt de effecte
 | aan | 5259 | Geleende vastrentende effecten A
 			(geboekte waardeverminderingen) | | 10 |
 
-**Ontlener**
-
+## Ontlener
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 5200 | Vastrentende effecten A (aanschaffingswaarde) | 1.100 | |
@@ -460,12 +425,10 @@ Aangezien ontlener vanuit een ongedekte positie heeft verkocht, wordt de effecte
 
 De afwikkeling van de tegenpartijverrichting (die het afsluiten van de leningsovereenkomst voorafgaat) impliceert voor de ontlener de vaststelling van eventuele koersverschillen tussen het bedrag van de onderliggende verrichting en de «aanschaffingsprijs» van de ontleende effecten (met inbegrip van gelopen interesten op de te leveren effecten).
 
-**Lener**
-
+## Lener
 /
 
-**Ontlener**
-
+## Ontlener
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 400 | Handelsdebiteuren (koper van de effecten A) | 1.005 | |
@@ -482,8 +445,7 @@ De afwikkeling van de tegenpartijverrichting (die het afsluiten van de leningsov
 | | 06... | Op termijn verkochte, te leveren effecten | 1.005 | |
 | aan | 06... | Debiteuren wegens op termijn verkochte effecten | | 1.005 |
 
-### 4. *Tussentijdse balans (op 31/12/199n)* 
-
+### 4. *Tussentijdse balans (op 31/12/199n)*
 Op balansdatrum moet de geprorateerde vergoeding voor de lening van de effecten A (namelijk 2,4 % x 1 000 op 30 dagen /2 = 1) worden geboekt. 
 
 Hypothese A : de koers bedraagt 975 op balansdatum 
@@ -495,8 +457,7 @@ De ontlener verkrijgt op zijn beurt een potentiële meerwaarde (berekend in verh
 - gedeeltelijk in de overlopende rekeningen (ten belope van het verschil tussen de prijs van de termijnverrichting en de marktprijs van het effect op de dag waarop de lening wordt afgesloten); 
 - gedeeltelijk als «Koersverschillen op de effecten A» (ten belope van het verschil tussen de beurskoers van de obligatie op balansdatum en de beurskoers bij het afsluiten van de ontleningsverrichting). 
 
-**Lener**
-
+## Lener
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 651 | Waardevermindering op vlottende activa (toevoegingen) | 15 | |
@@ -512,8 +473,7 @@ De ontlener verkrijgt op zijn beurt een potentiële meerwaarde (berekend in verh
 | | 491 | Verkregen intresten op effecten A | 3 | |
 | aan | 751 | Opbrengsten uit vlottende activa | | 3 |
 
-**Ontlener**
-
+## Ontlener
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 487 | Ontleende terug te geven effecten A | 35 | |
@@ -534,8 +494,7 @@ De ontlener loopt effectief het risico de effecten die hij vanuit een ongedekte 
 - door vereffening van het debetsaldo in de overlopende rekeningen; 
 - door verhoging van de schuld van de ontleende, terug te geven effecten (ten belope van het verschil tussen de beurskoers van de obligatie op de datum waarop de ontlening wordt aangegaan en de beurskoers op 31.12.199n). 
 
-**Lener**
-
+## Lener
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 5259 | Geleende vastrentende effecten A (geboekte waardeverminderingen) | 10 | |
@@ -551,8 +510,7 @@ De ontlener loopt effectief het risico de effecten die hij vanuit een ongedekte 
 | | 491 | Verkregen opbrengsten (intresten op effecten A) | 1 | |
 | aan | 75... | Vergoeding voor geleende effecten | | 1 |
 
-**Ontlener**
-
+## Ontlener
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 657 | Koersverschillen op effecten A | 17 | |
@@ -573,12 +531,10 @@ Om zijn verplichtingen tot teruggave van de effecten te kunnen nakomen, koopt de
 
 Bovendien moet worden onderstreept dat enkel de in punt 4 bedoelde hypothese A (een zelfde koers van de onderliggende obligatie op 31.12.199n : 975) zal worden gehanteerd in punten 5 en 6 van het schema voor de boekhoudkundige verwerking.
 
-**Lener**
-
+## Lener
 /
 
-**Ontlener**
-
+## Ontlener
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 5200 | Vastrentende effecten A (aanschaffingswaarde) | 1.013 | |
@@ -593,15 +549,13 @@ Bovendien moet worden onderstreept dat enkel de in punt 4 bedoelde hypothese A (
 
 *6. Inning van de coupon (ten belope van 70) op 14 januari 199n +1* 
 
-**Lener**
-
+## Lener
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 491 | Verkregen intresten op effecten A | 3 | |
 | aan | 751 | Opbrengsten uit vlottende activa | | 3 |
 
-**Ontlener**
-
+## Ontlener
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 55 | Kredietinstellingen | 70 | |
@@ -616,8 +570,7 @@ Bovendien moet worden onderstreept dat enkel de in punt 4 bedoelde hypothese A (
 
 De saldi van de nog geopende rekeningen bij de ontlener worden vereffend. De kosten van de voor de ontleningsverrichting betaalde vergoeding (in dit geval : 2 = 2,4 % x 1 000 op 30 dagen) worden op hun beurt in resultaat genomen voor de periode tussen 1.1.199n+1 en 15.1.199n+1.
 
-**Lener**
-
+## Lener
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 5200 | Vastrentende effecten A (aanschaffingswaarde) | 1.000 | |
@@ -639,8 +592,7 @@ De saldi van de nog geopende rekeningen bij de ontlener worden vereffend. De kos
 | aan | 75... | Vergoeding voor geleende effecten | | 1 |
 | | 491 | Verkregen opbrengsten | 1 | |
 
-**Ontlener**
-
+## Ontlener
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 487 | Te ontlenen, terug te geven effecten A | 1.083 | |

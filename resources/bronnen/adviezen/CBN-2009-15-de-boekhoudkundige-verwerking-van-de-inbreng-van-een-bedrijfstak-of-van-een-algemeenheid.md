@@ -13,45 +13,45 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/verwerking-in-de-jaarrekening-van-bepaalde-verrichtingen-als-bedoeld-in-artikel-677-van
 nummer: CBN-advies 2009/15
 provenance:
+  generated_at: '2026-05-11T17:48:38Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-inbreng-van-een-bedrijfstak-of-van-een-algemeenheid
       sha256: 040d3c605891795bded2e48e8a8839bb399079cfc2f275c721df16354f76a6d7
       version:
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
-    status: needs-rework
     confirmed_at: '2026-05-11T17:09:38Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "A9: H1-titel (r62) bevat 'bedrijfstak1' — superscript voetnootnummer [^1] niet geparsed, kleeft aan het woord als cijfer. B3/A6: r64 bevat 'of van een algemeenheid van goederen' als losstaande plain-text regel direct na de H1-titel — dit is een extractie-duplicaatfragment van de H1-titel. Beide zijn ETL-bugs die herstel vereisen."
     layer1:
-      file_size_chars: 15701
-      flags: []
-      heading_count: 4
-      max_section_chars: 12993
-      run_at: '2026-05-11T15:05:50Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:42Z'
+      heading_count: 4
+      max_section_chars: 12185
+      file_size_chars: 15658
+      flags: []
     layer2:
-      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T17:09:38Z'
-      rationale: "A9: H1-titel (r62) bevat 'bedrijfstak1' — superscript voetnootnummer [^1] niet geparsed, kleeft aan het woord als cijfer. B3/A6: r64 bevat 'of van een algemeenheid van goederen' als losstaande plain-text regel direct na de H1-titel — dit is een extractie-duplicaatfragment van de H1-titel. Beide zijn ETL-bugs die herstel vereisen."
       concrete_problemen:
-        - regel: 62
-          categorie: A9
+        - categorie: A9
+          regel: 62
           type: other
           voorbeeld: bedrijfstak1 or van een algemeenheid van goederen (superscript [^1] niet geparsed)
-        - regel: 64
-          categorie: B3
+        - categorie: B3
+          regel: 64
           type: other
           voorbeeld: of van een algemeenheid van goederen (losstaand titelfragment duplicate)
+      rationale: 'A9: H1-titel (r62) bevat ''bedrijfstak1'' — superscript voetnootnummer [^1] niet geparsed, kleeft aan het woord als cijfer. B3/A6: r64 bevat ''of van een algemeenheid van goederen'' als losstaande plain-text regel direct na de H1-titel — dit is een extractie-duplicaatfragment van de H1-titel. Beide zijn ETL-bugs die herstel vereisen.'
+      run_at: '2026-05-11T17:09:38Z'
+      status: needs-rework
+    rationale: 'A9: H1-titel (r62) bevat ''bedrijfstak1'' — superscript voetnootnummer [^1] niet geparsed, kleeft aan het woord als cijfer. B3/A6: r64 bevat ''of van een algemeenheid van goederen'' als losstaande plain-text regel direct na de H1-titel — dit is een extractie-duplicaatfragment van de H1-titel. Beide zijn ETL-bugs die herstel vereisen.'
+    status: needs-rework
 themas:
   - continuïteitsbeginsel
   - fiscale aspecten
@@ -61,10 +61,7 @@ themas:
 
 # CBN-advies 2009/15 - De boekhoudkundige verwerking van de inbreng van een bedrijfstak1 of van een algemeenheid van goederen
 
-of van een algemeenheid van goederen
-
 ## Inleiding
-
 Door het Koninklijk Besluit van 3 december 1993 (B.S., 23 december 1993) werd met betrekking tot de boekhoudkundige verwerking van een inbreng van een bedrijfstak of van een algemeenheid van goederen vanaf 1 oktober 1993 het boekhoudkundig continuïteitsprincipe opgelegd indien deze verrichting belastingneutraal geschiedde.
 
 In het Verslag aan de Koning werd hierbij inderdaad gesteld dat het verkieslijk leek om het boekhoudkundig continuïteitsprincipe voor dergelijke inbrengen “althans in een eerste fase, te beperken tot inbrengen van bedrijfsafdelingen of algemeenheden van goederen die voldoen aan de voorwaarden die de belastingwetgeving stelt om voor die verrichting belastingvrijdom te verkrijgen”.
@@ -80,16 +77,13 @@ Van zodra vanaf 6 februari 2001 een inbreng van een bedrijfsafdeling of van een 
 Voor een vlotte en verstaanbare lezing in relatie tot de fiscaliteit werd dit advies aangevuld met de voetnoten (2) tot (7) die de zienswijze terzake van de fiscale administratie op het ogenblik van de publicatie van dit advies weergeven uitgaande van de op dat ogenblik van kracht zijnde fiscale regelgeving.
 
 ## Boekhoudkundige verwerking
-
 ### Principe
-
 Het continuïteitsprincipe bij de boekhoudkundige verwerking van de inbreng van een bedrijfstak of van een algemeenheid van goederen houdt in dat:
 
 - de ingebrachte activa, passiva, rechten en verplichtingen in de boekhouding van de inbrenggenietende vennootschap moeten worden opgenomen tegen de waarde waarvoor zij op het tijdstip van de inbreng in de boekhouding van de inbrengende vennootschap (t.t.z. in de rekeningen op basis waarvan de inbreng gebeurt) voorkwamen (artikel 81 KB/W.Venn.); 
 - in de boekhouding van de inbrengende vennootschap de als vergoeding voor de inbreng ontvangen aandelen in de verkrijgende vennootschap, moeten worden opgenomen tegen de nettowaarde van de ingebrachte bestanddelen (artikel 41, §1, tweede lid, *in fine* KB/W.Venn.). 
 
 ### Enkele bijzonderheden
-
 Enkele in de praktijk veelvuldig voorkomende bijzonderheden bij inbrengen verdienen een bijzondere aandacht. 
 
 ***a. Geherwaardeerde activa worden mee ingebracht***

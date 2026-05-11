@@ -2,77 +2,68 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/ziekenhuisfinanciering-de-boekhoudkundige-verwerking-van-het-instandhoudingsforfait-en-0
 datum: 2019-03-29
 gerelateerde_adviezen:
-- datum: '2021-07-05'
-  titel: Boekhoudkundige verwerking van COVID-19-tegemoetkomingen en van kosten gemaakt
-    ten gevolge van de gezondheidscrisis
-  url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-covid-19-tegemoetkomingen-en-van-kosten-gemaakt-ten-gevolge
+  - datum: '2021-07-05'
+    titel: Boekhoudkundige verwerking van COVID-19-tegemoetkomingen en van kosten gemaakt ten gevolge van de gezondheidscrisis
+    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-covid-19-tegemoetkomingen-en-van-kosten-gemaakt-ten-gevolge
 nummer: CBN-advies 2019/03
 provenance:
-  generated_at: '2026-05-11T15:15:32Z'
+  generated_at: '2026-05-11T17:48:39Z'
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/ziekenhuisfinanciering-de-boekhoudkundige-verwerking-van-het-instandhoudingsforfait-en-0
-    sha256: 970674ee10043a7a4946bf7e3ecbcbef1a3dab0418e711b3b90a218b20bd3f97
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/ziekenhuisfinanciering-de-boekhoudkundige-verwerking-van-het-instandhoudingsforfait-en-0
+      sha256: 970674ee10043a7a4946bf7e3ecbcbef1a3dab0418e711b3b90a218b20bd3f97
+      version:
   stale: false
-  stale_reason: null
+  stale_reason:
   tooling:
-    model: null
+    model:
     pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    prompt_version: null
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
     confirmed_at: '2026-05-11T12:21:40Z'
     confirmed_by: subagent-sonnet-4-6
     layer1:
-      file_size_chars: 12130
-      flags: []
-      heading_count: 4
-      max_section_chars: 6942
-      run_at: '2026-05-11T15:05:53Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:44Z'
+      heading_count: 4
+      max_section_chars: 6940
+      file_size_chars: 12126
+      flags: []
     layer2:
       agent: subagent-sonnet-4-6
       concrete_problemen: []
-      rationale: 'Geen extractie-artefacten gevonden. Italics correct gesloten (*instandhoudingsforfait*,
-        *strategisch forfait*, *herconditioneringswerken*). Headings hiërarchisch
-        correct (H1 > H2 > H3). Voetnoten [^1]–[^11] volledig. Inhoud compleet (beschrijving
-        subsidies, boekhoudkundige verwerking). Laag-1: pass, geen flags.'
+      rationale: 'Geen extractie-artefacten gevonden. Italics correct gesloten (*instandhoudingsforfait*, *strategisch forfait*, *herconditioneringswerken*). Headings hiërarchisch correct (H1 > H2 > H3). Voetnoten [^1]–[^11] volledig. Inhoud compleet (beschrijving subsidies, boekhoudkundige verwerking). Laag-1: pass, geen flags.'
       run_at: '2026-05-11T12:21:40Z'
       status: trusted
-    rationale: 'Geen extractie-artefacten gevonden. Italics correct gesloten (*instandhoudingsforfait*,
-      *strategisch forfait*, *herconditioneringswerken*). Headings hiërarchisch correct
-      (H1 > H2 > H3). Voetnoten [^1]–[^11] volledig. Inhoud compleet (beschrijving
-      subsidies, boekhoudkundige verwerking). Laag-1: pass, geen flags.'
+    rationale: 'Geen extractie-artefacten gevonden. Italics correct gesloten (*instandhoudingsforfait*, *strategisch forfait*, *herconditioneringswerken*). Headings hiërarchisch correct (H1 > H2 > H3). Voetnoten [^1]–[^11] volledig. Inhoud compleet (beschrijving subsidies, boekhoudkundige verwerking). Laag-1: pass, geen flags.'
     status: trusted
 themas:
-- bedrijfsopbrengsten
-- exploitatiesubsidie
-- instandhoudingsforfait
-- investeringssubsidie
-- kapitaalsubsidie
-- overheidssubsidies
-- strategisch forfait
-- subsidies
-- verzorgingsinrichting
-- verzorgingsinstelling
-- vipa
-- vorderingsrecht
-- ziekenhuis
-- ziekenhuisfinanciering
-- ziekenhuisinfrastructuur
+  - bedrijfsopbrengsten
+  - exploitatiesubsidie
+  - instandhoudingsforfait
+  - investeringssubsidie
+  - kapitaalsubsidie
+  - overheidssubsidies
+  - strategisch forfait
+  - subsidies
+  - verzorgingsinrichting
+  - verzorgingsinstelling
+  - vipa
+  - vorderingsrecht
+  - ziekenhuis
+  - ziekenhuisfinanciering
+  - ziekenhuisinfrastructuur
 ---
 
 # CBN-advies 2019/03 – Ziekenhuisfinanciering: de boekhoudkundige verwerking van het instandhoudingsforfait en het strategisch forfait
 
 ## Algemeen
-
 Onderhavig advies verduidelijkt de boekhoudkundige verwerking in hoofde van de ziekenhuizen van de subsidiëring van de infrastructuur van ziekenhuizen ingevolge het Besluit van de Vlaamse Regering van 14 juli 2017 betreffende de subsidiëring van infrastructuur van ziekenhuizen, rekening houdend met de bestaande regelgeving op datum van 13 maart 2019.
 
 Het voormelde besluit beoogt de invoering van een nieuw financieringsmodel voor ziekenhuisinfrastructuur. Dit nieuwe financieringsmodel bestaat uit een *instandhoudingsforfait* en een *strategisch forfait* die, ten laste van het Vlaams Infrastructuurfonds voor Persoonsgebonden Aangelegenheden (hierna: VIPA), worden verleend aan exploitanten van erkende ziekenhuizen. 
 
 ## Beschrijving van de investeringssubsidies
-
 Het financieringsmodel voor ziekenhuisinfrastructuur dat het voorwerp uitmaakt van onderhavig advies bestaat uit subsidies in de vorm van een zogenaamd *instandhoudingsforfait* en een *strategisch forfait*. Deze subsidies worden verleend als compensatie voor de kosten van de ziekenhuizen die verband houden met investeringen in infrastructuur noodzakelijk voor de uitvoering van de verplichtingen die voortvloeien uit de basisziekenhuisopdracht van het erkende ziekenhuis die dient te gebeuren met naleving van de toepasselijke federale en gemeenschapsregelgeving.[^2] 
 
 Het *instandhoudingsforfait* is bedoeld om de bestaande infrastructuur, zowel roerend als onroerend, in exploitatie te kunnen houden. Het instandhoudingsforfait wordt niet gekoppeld aan een bepaalde investering en wordt toegekend voor een onbepaalde duur. 
@@ -92,9 +83,7 @@ In het beschreven systeem voor de ziekenhuizen kan de regelgever (in casu de Vla
 Het INR heeft aangegeven dat het verlenen van overheidsgaranties niet als ESR-neutraal wordt aanzien. In de huidige stand van de wetgeving is niet voorzien in dergelijke overheidsgaranties.
 
 ## Boekhoudkundige verwerking
-
 ### Relevante boekhoudkundige bepalingen
-
 De gecoördineerde wet van 10 juli 2008 *op de ziekenhuizen en andere verzorgingsinrichtingen* regelt in de artikelen 83 tot 85 de boekhoudkundige verplichtingen voor de betreffende ziekenhuizen. Meer in het bijzonder bepaalt artikel 84: “*De artikelen 2 tot 4, 6 tot 9, 10, § 1, 11, 1° en 3° van de wet van 17 juli 1975 op de boekhouding en de jaarrekening van de ondernemingen, zijn van toepassing op de ziekenhuizen.*” De Koning regelt de toepassing op de ziekenhuizen van de besluiten genomen ter uitvoering van de in voornoemd artikel 84 bedoelde bepalingen. Daartoe werd het KB van 14 augustus 1987 tot bepaling van de minimumindeling van het algemeen rekeningenstelsel voor de ziekenhuizen getroffen alsmede het KB van 19 juni 2007 betreffende de jaarrekeningen van de ziekenhuizen. Dit laatste KB stelt dat behoudens andersluidende wettelijke of reglementaire bepalingen het Boek II van het KB van 30 januari 2001 tot uitvoering van het Wetboek van vennootschappen (hierna: KB W.Venn.) van toepassing is op de ziekenhuizen[^7].
 
 De Commissie merkt op dat de Koning wat betreft de toe te passen afschrijvingen bij ziekenhuizen een specifieke regeling heeft uitgewerkt die afwijkt van het KB W.Venn.[^8]

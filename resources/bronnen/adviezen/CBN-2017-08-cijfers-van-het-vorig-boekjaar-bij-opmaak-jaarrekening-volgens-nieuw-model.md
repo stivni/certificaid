@@ -16,43 +16,31 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
+    pipeline_version: 11f9196
     model:
     prompt_version:
-  generated_at: '2026-05-11T15:15:31Z'
+  generated_at: '2026-05-11T17:48:39Z'
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T17:13:30Z'
+    status: trusted
+    confirmed_at: '2026-05-11T17:51:53Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "B3: regel 63 (body) bevat 'bij opmaak jaarrekening volgens nieuw model' als losstaande orphan-zin direct na de H1 — duplicaat van de ondertitel, extractie-artefact. A6: regels 69-70 en 76-77 bevatten spurious line-breaks na voetnootreferenties midden in zinnen ('[^3]\\n Daarnaast' en '[^5]\\n Dit leidt ertoe'). Klein advies, inhoud compleet."
+    rationale: 'Kort advies (4k chars, 2 headings). Volledig schoon: inleiding en kern correct gestructureerd. Voetnoten [^1]–[^6] aanwezig en verankerd. Geen ETL-artefacten.'
     layer1:
-      file_size_chars: 4127
-      flags: []
-      heading_count: 2
-      max_section_chars: 2047
-      run_at: '2026-05-11T15:05:52Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:44Z'
+      heading_count: 2
+      max_section_chars: 2046
+      file_size_chars: 4080
+      flags: []
     layer2:
-      status: needs-rework
+      status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T17:13:30Z'
-      rationale: "B3: regel 63 (body) bevat 'bij opmaak jaarrekening volgens nieuw model' als losstaande orphan-zin direct na de H1 — duplicaat van de ondertitel, extractie-artefact. A6: regels 69-70 en 76-77 bevatten spurious line-breaks na voetnootreferenties midden in zinnen ('[^3]\\n Daarnaast' en '[^5]\\n Dit leidt ertoe'). Klein advies, inhoud compleet."
-      concrete_problemen:
-        - regel: 63
-          categorie: B3
-          type: other
-          voorbeeld: bij opmaak jaarrekening volgens nieuw model
-        - regel: 70
-          categorie: A6
-          type: other
-          voorbeeld: "wijziging plaatsvindt.[^3]\n Daarnaast wordt er voor het volledige"
-        - regel: 77
-          categorie: A6
-          type: other
-          voorbeeld: "die aanvatten op of na 1 januari 2016.[^5]\n Dit leidt ertoe"
+      run_at: '2026-05-11T17:51:53Z'
+      rationale: 'Kort advies (4k chars, 2 headings). Volledig schoon: inleiding en kern correct gestructureerd. Voetnoten [^1]–[^6] aanwezig en verankerd. Geen ETL-artefacten.'
+      concrete_problemen: []
 themas:
   - consistentiebeginsel
   - vergelijkende cijfers
@@ -60,10 +48,7 @@ themas:
 
 # CBN-advies 2017/08 – Cijfers van het vorig boekjaar bij opmaak jaarrekening volgens nieuw model
 
-bij opmaak jaarrekening volgens nieuw model
-
 ## Inleiding
-
 Het koninklijk besluit van 18 december 2015 tot omzetting van Richtlijn 2013/34/EU van 26 juni 2013 van het Europees Parlement en van de Raad betreffende de jaarlijkse financiële overzichten, geconsolideerde financiële overzichten en aanverwante verslagen van bepaalde ondernemingsvormen, tot wijziging van Richtlijn 2006/43/EG van het Europees Parlement en de Raad en tot intrekking van Richtlijnen 78/660/EEG en 83/349/EEG van de Raad[^2], heeft een aantal wijzigingen aangebracht aan het volledige en verkorte schema van de balans- en resultatenrekening. Daarnaast werd tevens het microschema ontwikkeld.
 
 Zo worden in het verkorte en volledige schema de uitzonderlijke resultaten geschrapt als afzonderlijke rubriek van de resultatenrekening en worden deze ondergebracht onder de bedrijfsresultaten dan wel de financiële resultaten. Ze worden voortaan aangeduid als niet-recurrente resultaten, evenwel zonder dat op inhoudelijk vlak, i.e. met betrekking tot de kwalificatie, een wijziging plaatsvindt.[^3]
@@ -72,7 +57,6 @@ Zo worden in het verkorte en volledige schema de uitzonderlijke resultaten gesch
 Als gevolg van de nieuwe rubriceringen en de introductie van het schema voor de microvennootschappen zullen de vergelijkende cijfers bij de jaarrekening die wordt neergelegd over het boekjaar dat aanvangt op of na 1 januari 2016 niet meer overeenstemmen met de rubricering in de jaarrekening die werd neergelegd over het boekjaar dat aanving vóór 1 januari 2016 en dus als vergelijkend boekjaar zal fungeren voor boekjaren die aanvatten op of na 1 januari 2016.
 
 ## Identieke voorstelling van de jaarrekening van het ene jaar tot het andere
-
 Artikel 86 van het koninklijk besluit ter uitvoering van het Wetboek van vennootschappen (hierna: KB W.Venn.) stelt dat de voorstelling van de jaarrekening identiek moet zijn van het ene tot het andere jaar. De Commissie is van oordeel dat de toepassing van dit consistentiebeginsel[^4] als gevolg van de omzetting van Richtlijn 2013/34/EU van 26 juni 2013 niet werd aangetast. Immers zal de vennootschap de bedragen van het voorafgaande boekjaar tevens moeten presenteren conform de presentatievereisten toepasbaar vanaf 1 januari 2016.[^5]
  Dit leidt ertoe dat de vergelijkbaarheid van de cijfers tussen het huidige en het voorafgaande boekjaar behouden blijft en er derhalve bevestigend kan worden geantwoord op de vraag of de bedragen van het vorige boekjaar identiek zijn met die welke eerder openbaar werden gemaakt[^6] daar de aanpassing afkomstig is ten gevolge een uitsplitsing, een hergroepering of een verschuiving binnen het jaarrekeningschema. 
 

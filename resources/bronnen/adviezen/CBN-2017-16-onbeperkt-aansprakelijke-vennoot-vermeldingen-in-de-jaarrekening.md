@@ -3,49 +3,49 @@ bron: https://www.cbn-cnc.be/nl/adviezen/onbeperkt-aansprakelijke-vennoot-vermel
 datum: 2017-09-13
 nummer: CBN-advies 2017/16
 provenance:
+  generated_at: '2026-05-11T17:48:39Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/onbeperkt-aansprakelijke-vennoot-vermeldingen-in-de-jaarrekening
       sha256: 20d910d026c92012c57fcec04e4d61a64ca89bb59dcdd172671d0fee330df66f
       version:
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
-    status: needs-rework
     confirmed_at: '2026-05-11T17:13:30Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "B5: regels 96 en 128 (body) bevatten sectiehoofdingen als plain-text zonder ## prefix: 'Opname van de jaarrekening van de ondernemingen waarvoor de onbeperkte aansprakelijkheid geldt' en 'Op welke wijze moeten de jaarrekeningen in het apart document of in de toelichting worden gepresenteerd' — beiden zijn secties met inhoudstafel-equivalent niveau maar missen de heading-markering. B3: regel 57 (body) herhaalt 'vermeldingen in de jaarrekening' als orphan-zin direct na de H1."
     layer1:
-      file_size_chars: 20462
-      flags: []
-      heading_count: 15
-      max_section_chars: 11113
-      run_at: '2026-05-11T15:05:53Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:44Z'
+      heading_count: 17
+      max_section_chars: 11064
+      file_size_chars: 20405
+      flags: []
     layer2:
-      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T17:13:30Z'
-      rationale: "B5: regels 96 en 128 (body) bevatten sectiehoofdingen als plain-text zonder ## prefix: 'Opname van de jaarrekening van de ondernemingen waarvoor de onbeperkte aansprakelijkheid geldt' en 'Op welke wijze moeten de jaarrekeningen in het apart document of in de toelichting worden gepresenteerd' — beiden zijn secties met inhoudstafel-equivalent niveau maar missen de heading-markering. B3: regel 57 (body) herhaalt 'vermeldingen in de jaarrekening' als orphan-zin direct na de H1."
       concrete_problemen:
-        - regel: 96
-          categorie: B5
+        - categorie: B5
+          regel: 96
           type: other
           voorbeeld: Opname van de jaarrekening van de ondernemingen waarvoor de onbeperkte aansprakelijkheid geldt
-        - regel: 128
-          categorie: B5
+        - categorie: B5
+          regel: 128
           type: other
           voorbeeld: Op welke wijze moeten de jaarrekeningen in het apart document of in de toelichting worden gepresenteerd
-        - regel: 57
-          categorie: B3
+        - categorie: B3
+          regel: 57
           type: other
           voorbeeld: vermeldingen in de jaarrekening
+      rationale: 'B5: regels 96 en 128 (body) bevatten sectiehoofdingen als plain-text zonder ## prefix: ''Opname van de jaarrekening van de ondernemingen waarvoor de onbeperkte aansprakelijkheid geldt'' en ''Op welke wijze moeten de jaarrekeningen in het apart document of in de toelichting worden gepresenteerd'' — beiden zijn secties met inhoudstafel-equivalent niveau maar missen de heading-markering. B3: regel 57 (body) herhaalt ''vermeldingen in de jaarrekening'' als orphan-zin direct na de H1.'
+      run_at: '2026-05-11T17:13:30Z'
+      status: needs-rework
+    rationale: 'B5: regels 96 en 128 (body) bevatten sectiehoofdingen als plain-text zonder ## prefix: ''Opname van de jaarrekening van de ondernemingen waarvoor de onbeperkte aansprakelijkheid geldt'' en ''Op welke wijze moeten de jaarrekeningen in het apart document of in de toelichting worden gepresenteerd'' — beiden zijn secties met inhoudstafel-equivalent niveau maar missen de heading-markering. B3: regel 57 (body) herhaalt ''vermeldingen in de jaarrekening'' als orphan-zin direct na de H1.'
+    status: needs-rework
 themas:
   - onbeperkt aansprakelijk vennoot
   - toelichting
@@ -54,16 +54,12 @@ themas:
 
 # CBN-advies 2017/16 – Onbeperkt aansprakelijke vennoot: vermeldingen in de jaarrekening
 
-vermeldingen in de jaarrekening
-
 ## Inleiding
-
 Wanneer een vennootschap onbeperkt aansprakelijke vennoot is in een andere onderneming, dient zij bepaalde informatie hieromtrent neer te leggen bij de Nationale Bank van België.[^2]
  In een aantal gevallen moet de jaarrekening van de onderneming waarin de vennootschap onbeperkt aansprakelijke vennoot is, toegevoegd worden en mee openbaar gemaakt worden.[^3]
  In onderhavig advies licht de Commissie deze verplichtingen nader toe en geeft zij een overzicht van eventuele overige verplichtingen die de onbeperkte aansprakelijkheid met zich meebrengt op jaarrekeningrechtelijk vlak.
 
 ## Onbeperkte aansprakelijkheid: overzicht
-
 In vennootschappen met onbeperkte aansprakelijkheid zijn de vennoten onbeperkt gehouden voor de schulden van de vennootschap, d.w.z. dat zij bovenop hun inbreng ook kunnen aangesproken worden op hun eigen vermogen (of zelfs meer).[^4]
  Hierna volgt een overzicht van de meest courante gevallen waarin de vennoot onbeperkt aansprakelijk is.
 
@@ -75,7 +71,6 @@ Naast een deelname in voormelde Belgische rechtspersonen kan ook sprake zijn van
 De Commissie spreekt zich in dit advies niet uit over de verplichtingen in hoofde van de vennoten van Belgische ondernemingen zonder rechtspersoonlijkheid, aangezien de onbeperkte aansprakelijkheid voor deze vennoten rechtstreeks voortvloeit uit het gebrek aan rechtspersoonlijkheid. In overeenstemming met artikel III.83, derde lid van het Wetboek van economisch recht (hierna: WER), wordt de boekhouding van deze vennootschapsvormen zonder rechtspersoonlijkheid reeds geïntegreerd in de boekhouding van de deelgenoot. Hierdoor wordt het aandeel van de vennoot in dergelijke entiteiten reeds aan de cijfers van de vennoot toegevoegd.[^7] 
 
 ## Neerleggingsplicht: relevante bepalingen
-
 Artikel 100 W.Venn. bevat de algemene verplichting voor alle Belgische vennootschappen[^8] om bepaalde gegevens met betrekking tot de ondernemingen waarvoor zij onbeperkt aansprakelijk zijn neer te leggen bij de Nationale Bank. Artikel 103 W.Venn. regelt de openbaarmaking van deze gegevens.
 
 Artikel 100, § 2 W.Venn. stelt evenwel de vennootschappen die deze informatie reeds afzonderlijk vermelden in de jaarrekening vrij van deze verplichting: deze informatie hoeft m.a.w. niet te worden herhaald in een bij de Nationale Bank van België apart document neer te leggen in toepassing van artikel 100 W.Venn. Dit zal het geval zijn voor de vennootschappen die: 
@@ -84,11 +79,9 @@ Artikel 100, § 2 W.Venn. stelt evenwel de vennootschappen die deze informatie r
 - gebruik maken van het verkort schema of het microschema en deze informatie vrijwillig opnemen in de toelichting bij hun jaarrekening. 
 
 ## Overzicht van de te verstrekken gegevens
-
 De te verstrekken gegevens die door vennootschappen moeten worden openbaar gemaakt met betrekking tot de ondernemingen waarvoor zij onbeperkt aansprakelijk zijn, staan vermeld in artikel 100 W.Venn. en artikel 91 KB W.Venn. Deze gegevens bestaan enerzijds uit een lijst van de ondernemingen waarvoor onbeperkte aansprakelijkheid geldt (zie *infra*, punt A) en anderzijds de jaarrekening van diezelfde ondernemingen (zie* infra*, punt B). Beide artikelen bevatten tevens een aantal uitsluitingen op deze laatste openbaarmakingsverplichting (zie* infra*, punt C).
 
 ### Lijst van ondernemingen waarvoor onbeperkte aansprakelijkheid geldt
-
 De ondernemingen waarvoor de vennootschap onbeperkt aansprakelijk is, dienen te worden opgenomen in een lijst die moet worden gepubliceerd. De lijst van ondernemingen waarvoor de vennootschap onbeperkt aansprakelijk is, bevat voor elk van deze ondernemingen volgende gegevens: de naam, de zetel, de rechtsvorm en het ondernemingsnummer dat haar werd toegekend door de Kruispuntbank van Ondernemingen. De verplichting tot vermelding van het ondernemingsnummer geldt enkel indien het een Belgische onderneming betreft.[^9] 
 
 Deze informatie wordt in de toelichting van het volledig schema opgenomen onder VOL 6.5.2. De vennootschappen die niet verplicht zijn om het volledig schema te gebruiken, kunnen deze informatie in het verkorte schema opnemen onder de afdeling Andere overeenkomstig het Wetboek van Vennootschappen neer te leggen documenten (VKT 7.2.). Ook microvennootschappen nemen deze informatie op onder de afdeling Andere overeenkomstig het Wetboek van Vennootschappen neer te leggen documenten (MIC 7.2).
@@ -99,9 +92,7 @@ Naast de publicatie van voormelde lijst geldt in principe telkens de verplichtin
 Deze informatie, die bestaat uit de jaarrekening van de onderneming(en) waarvoor onbeperkte aansprakelijkheid geldt, wordt in de toelichting van het volledig schema opgenomen. Zowel voor het verkorte schema als voor het microschema wordt deze informatie opgenomen onder de andere in de toelichting op te nemen verplichtingen (indien vrijwillige opname in de toelichting) of achteraan aan de jaarrekening toegevoegd.
 
 ### Uitsluitingen waarbij de opname van de jaarrekening niet van toepassing is
-
 #### Algemeen
-
 De verplichting tot toevoeging van de jaarrekening van de ondernemingen waarvoor de vennootschap onbeperkt hoofdelijk aansprakelijk is en die opgenomen zijn in de lijst van ondernemingen waarvoor onbeperkt aansprakelijk, geldt niet in de volgende gevallen: 
 
 - de jaarrekening van de onderneming wordt reeds openbaar gemaakt conform bepaalde vereisten; 
@@ -111,7 +102,6 @@ De verplichting tot toevoeging van de jaarrekening van de ondernemingen waarvoor
 De reden waarom de jaarrekening van een in de lijst opgenomen onderneming in dergelijk geval niet wordt opgenomen, moet worden vermeld in het document met de gegevens dat op grond van artikel 100 W.Venn. wordt neergelegd of desgevallend in de toelichting bij de jaarrekening indien de gegevens daar worden verstrekt.
 
 #### Openbaarmaking van de jaarrekening van de onderneming met onbeperkte aansprakelijkheid
-
 De verplichting tot toevoeging van de jaarrekening van de onderneming waarvoor de vennootschap onbeperkt aansprakelijk is, geldt niet wanneer de jaarrekening van deze onderneming openbaar wordt gemaakt op een wijze die strookt met artikel 98 W.Venn. of daadwerkelijk wordt openbaar gemaakt in een andere lidstaat zoals voorgeschreven door artikel 3 van richtlijn 2009/101/EG.
 
 In een aantal gevallen is de onderneming waarin de vennootschap onbeperkt aansprakelijke vennoot is zelf niet onderhevig aan de verplichting tot openbaarmaking van haar jaarrekening.[^12]
@@ -122,12 +112,10 @@ Concreet gaat het hier om een verplichting in hoofde van de vennoten[^13] van kl
 De vraag stelt zich in welke vorm de jaarrekening van de onbeperkt aansprakelijke onderneming moet worden toegevoegd aan de jaarrekening van de onbeperkt aansprakelijke vennoot. Hiervoor verwijst de Commissie naar hetgeen zij uiteenzet in punt D van dit advies.
 
 #### Jaarrekening opgenomen in consolidatie
-
 De verplichting tot toevoeging van de jaarrekening van de onderneming waarvoor de vennootschap onbeperkt aansprakelijk is, geldt daarnaast ook niet wanneer de jaarrekening van deze onderneming door integrale of evenredige consolidatie wordt opgenomen in de geconsolideerde jaarrekening van de vennootschap die is opgesteld, gecontroleerd en openbaar is gemaakt overeenkomstig het W.Venn. en Titel II van het KB W.Venn.
 
 Op welke wijze moeten de jaarrekeningen in het apart document of in de toelichting worden gepresenteerd
 #### Algemene principes
-
 De Commissie brengt in herinnering dat de jaarrekening van de onbeperkt aansprakelijke vennoot enerzijds een getrouw beeld moet geven van het vermogen, de financiële positie en het resultaat van de vennootschap[^15] en anderzijds duidelijk moet worden opgesteld en stelselmatig de aard en het bedrag van de bezittingen en de rechten van de vennootschap, van haar schulden en verplichtingen evenals van haar eigen middelen, en de aard en het bedrag van haar kosten en haar opbrengsten moet weergeven.[^16]
  Artikel 25 KB W.Venn. schrijft bovendien voor dat in de toelichting per soort worden vermeld de rechten en verplichtingen die niet in de balans voorkomen en die het vermogen, de financiële positie of het resultaat van de vennootschap aanmerkelijk kunnen beïnvloeden.
 
@@ -138,29 +126,23 @@ Deze principes indachtig, is de Commissie van mening dat:
 - desgevallend, bijkomend, een passende voorziening moet worden geboekt in de jaarrekening van de onbeperkt aansprakelijke vennoot (i.e. wanneer een schuld waarschijnlijk is geworden of zelfs zeker, maar zonder dat het bedrag al gekend is), waarbij een inschatting wordt gemaakt van de uiteindelijke kost in hoofde van de onbeperkt (hoofdelijk) aansprakelijke vennoot; 
 - een schuld moet worden geboekt wanneer deze zeker en vaststaand is geworden. 
 
-#### Belgische ondernemingen[^18]
-
+#### Belgische ondernemingen
 ##### Inventaris
-
 De Commissie wenst met betrekking tot de toevoeging van de jaarrekening van een Belgische onderneming (bijv. een kleine VOF) aan de jaarrekening van de onbeperkt aansprakelijke vennoot vooreerst te wijzen op de algemene inventarisverplichting vervat in de artikelen III.89, § 1 en III.90, § 1 van Boek III WER. Op grond van deze bepalingen dient elke onderneming, omzichtig en te goeder trouw, ten minste eens per jaar de nodige opnemingen, verificaties, onderzoekingen en waarderingen te verrichten om op een door haar gekozen datum de inventaris op te maken van al haar bezittingen, en rechten van welke aard ook, en van haar vorderingen, schulden en verplichtingen van welke aard ook, die betrekking hebben op haar bedrijf, en van de eigen middelen daaraan verstrekt. Nadat de rekeningen in overeenstemming zijn gebracht met de gegevens van de inventaris, worden ze samengevat en beschreven in een staat, zijnde de jaarrekening.
 
 ##### Waarderingsregels
-
 Voor wat betreft de waarderingsregels die van toepassing zijn op de jaarrekening van de onderneming met onbeperkte aansprakelijkheid, bestaat geen verplichting om de waarderingsregels van het KB W.Venn. toe te passen op deze toe te voegen jaarrekening, indien deze onderneming zelf die waarderingsregels niet moet toepassen.[^19]
  De Commissie beveelt aan dat in de gevallen waarin de waarderingsregels van het KB W.Venn. niet worden toegepast, hiervan expliciet melding wordt gemaakt door de onbeperkt aansprakelijke vennoot.
 
 #### Buitenlandse ondernemingen
-
 Voor buitenlandse ondernemingen dienen de inventarisverplichtingen te worden toegepast conform de aldaar geldende regelgeving. Indien de jaarrekening van de buitenlandse onderneming niet voldoende informatie bevat, dienen bijkomend, passende vermeldingen worden gemaakt onder de niet in de balans opgenomen rechten en verplichtingen van de onbeperkt aansprakelijke vennoot of desgevallend een passende voorziening geboekt; op die manier voldoet de onbeperkt aansprakelijke vennoot aan de principes van artikel 25 KB W.Venn.
 
 #### Voorbeeld
-
 BVBA X is samen met een natuurlijke persoon vennoot in VOF Y. 
 
 BVBA X heeft een initiële inleg gedaan in VOF Y ten belope van 200.
 
-**Jaarrekening VOF Y**
-
+## Jaarrekening VOF Y
 VOF Y is een VOF die geen dubbele boekhouding[^20] moet voeren en de waarderingsregels van het KB W.Venn.[^21] niet moet volgen. VOF Y maakt ook geen gebruik van de vrijwillige onderwerping aan de waarderingsregels van het KB W.Venn.
 
 VOF Y heeft een geklasseerd gebouw op haar actief staan dat niet wordt afgeschreven.
@@ -173,8 +155,7 @@ Op balansdatum wordt de inventaris gemaakt waarbij de werkelijke waarde van de a
 
 VOF Y is op basis van artikel 97 W.Venn. zelf vrijgesteld van publicatieverplichting en publiceert bijgevolg zelf haar jaarrekening niet.
 
-**Jaarrekening BVBA X**
-
+## Jaarrekening BVBA X
 BVBA X gaat onder haar activa de deelneming in de VOF Y boeken ten belope van het bedrag van haar initiële inleg van 200.
 
 In haar toelichting neemt zij tevens de jaarrekening van VOF Y op (i.e. zoals die werd opgemaakt door VOF Y zelf), die in dit geval zal bestaan uit een inventaris met naleving van de regels van artikel III.89 en III.90 WER; dit laatste impliceert ook de vermelding van de lopende schadeclaim en de waarborgverplichting.

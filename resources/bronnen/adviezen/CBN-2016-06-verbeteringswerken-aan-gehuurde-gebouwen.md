@@ -2,75 +2,68 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/verbeteringswerken-aan-gehuurde-gebouwen
 datum: 2016-06-15
 gerelateerde_adviezen:
-- datum: '2015-07-08'
-  titel: 'Zakelijke rechten op onroerende goederen: vruchtgebruik - opstalrecht -
-    erfpachtrecht - erfdienstbaarheid'
-  url: https://www.cbn-cnc.be/nl/adviezen/zakelijke-rechten-op-onroerende-goederen-vruchtgebruik-opstalrecht-erfpachtrecht
-- datum: '1980-01-01'
-  titel: Terugneming van afschrijvingen en waardeverminderingen
-  url: https://www.cbn-cnc.be/nl/adviezen/terugneming-van-afschrijvingen-en-waardeverminderingen
-- datum: '1978-12-01'
-  titel: Afschrijving van vaste activa waarvan de reële waarde de boekhoudkundige
-    waarde overtreft
-  url: https://www.cbn-cnc.be/nl/adviezen/afschrijving-van-vaste-activa-waarvan-de-reele-waarde-de-boekhoudkundige-waarde-overtreft
-- datum: '1989-07-01'
-  titel: Aansluitingskosten en installatiekosten waarbij derden de eigendom van de
-    installatie verwerven of behouden
-  url: https://www.cbn-cnc.be/nl/adviezen/aansluitingskosten-en-installatiekosten-waarbij-derden-de-eigendom-van-de-installatie
+  - datum: '2015-07-08'
+    titel: 'Zakelijke rechten op onroerende goederen: vruchtgebruik - opstalrecht - erfpachtrecht - erfdienstbaarheid'
+    url: https://www.cbn-cnc.be/nl/adviezen/zakelijke-rechten-op-onroerende-goederen-vruchtgebruik-opstalrecht-erfpachtrecht
+  - datum: '1980-01-01'
+    titel: Terugneming van afschrijvingen en waardeverminderingen
+    url: https://www.cbn-cnc.be/nl/adviezen/terugneming-van-afschrijvingen-en-waardeverminderingen
+  - datum: '1978-12-01'
+    titel: Afschrijving van vaste activa waarvan de reële waarde de boekhoudkundige waarde overtreft
+    url: https://www.cbn-cnc.be/nl/adviezen/afschrijving-van-vaste-activa-waarvan-de-reele-waarde-de-boekhoudkundige-waarde-overtreft
+  - datum: '1989-07-01'
+    titel: Aansluitingskosten en installatiekosten waarbij derden de eigendom van de installatie verwerven of behouden
+    url: https://www.cbn-cnc.be/nl/adviezen/aansluitingskosten-en-installatiekosten-waarbij-derden-de-eigendom-van-de-installatie
 nummer: CBN-advies 2016/6
 provenance:
-  generated_at: '2026-05-11T15:15:31Z'
+  generated_at: '2026-05-11T17:48:39Z'
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/verbeteringswerken-aan-gehuurde-gebouwen
-    sha256: 8ac351fe3e7cb8c9b7afb7aaeafaf9938044284f6ac2fab960ce1bc0246797ab
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/verbeteringswerken-aan-gehuurde-gebouwen
+      sha256: 8ac351fe3e7cb8c9b7afb7aaeafaf9938044284f6ac2fab960ce1bc0246797ab
+      version:
   stale: false
-  stale_reason: null
+  stale_reason:
   tooling:
-    model: null
+    model:
     pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    prompt_version: null
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
     confirmed_at: '2026-05-08T21:31:12Z'
     confirmed_by: human
     layer1:
-      file_size_chars: 6792
-      flags: []
-      heading_count: 6
-      max_section_chars: 2920
-      run_at: '2026-05-11T15:05:52Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:43Z'
+      heading_count: 6
+      max_section_chars: 2919
+      file_size_chars: 6786
+      flags: []
     layer2:
-      agent: null
+      agent:
       concrete_problemen: []
-      rationale: null
-      run_at: null
+      rationale:
+      run_at:
       status: not_run
-    rationale: 'Herscraped na fix select_title(): gecombineerde H1 (COMMISSIE + titel)
-      correct gesplitst. Inhoud ongewijzigd t.o.v. vorig vertrouwd verdict. Laag 1
-      pass (of benign max_section warn).'
+    rationale: 'Herscraped na fix select_title(): gecombineerde H1 (COMMISSIE + titel) correct gesplitst. Inhoud ongewijzigd t.o.v. vorig vertrouwd verdict. Laag 1 pass (of benign max_section warn).'
     status: trusted
 themas:
-- gebouw
-- gehuurde gebouwen
-- onroerend goed
-- uitbreidingswerken
-- verbeteringswerken
-- voorziening
+  - gebouw
+  - gehuurde gebouwen
+  - onroerend goed
+  - uitbreidingswerken
+  - verbeteringswerken
+  - voorziening
 ---
 
 # CBN-advies 2016/6 - Verbeteringswerken aan gehuurde gebouwen
 
 ## Inleiding
-
 In onderhavig advies spreekt de Commissie zich uit over de boekhoudkundige verwerking van verbeteringswerken aan gehuurde gebouwen. Meer bepaald stelt zich de vraag op welke rekening deze verbeteringswerken moeten worden geboekt en hoe ze moeten worden afgeschreven.
 
 De problematiek van verbeteringswerken komt uitgebreid aan bod in het CBN-advies 2015/5 – Zakelijke rechten op onroerende goederen. De Commissie acht het evenwel aangewezen om in een apart advies te verduidelijken dat de voor zakelijke rechten toepasselijke principes *mutatis mutandis* van toepassing zijn op verbeteringswerken aan gehuurde gebouwen.
 
 ## Algemeen
-
 Met betrekking tot uitbreidings- of verbeteringswerken aan gehuurde goederen beschikken partijen veelal over een uitgebreide contractuele vrijheid. In de meeste gevallen is er namelijk geen dwingende wettelijke regeling.[^2]
  Zo bevat bijvoorbeeld artikel 555 van het Burgerlijk Wetboek inzake deze materie slechts een regeling van suppletief recht.[^3]
  De wetgeving op de handelshuur is daarentegen van dwingend recht, maar dit belet partijen uiteraard niet om bijkomende regelingen overeen te komen.[^4]
@@ -79,11 +72,9 @@ Met betrekking tot uitbreidings- of verbeteringswerken aan gehuurde goederen bes
 Aangezien de Commissie zich in onderhavig advies enkel uitspreekt over marktconforme verrichtingen, gaat zij er vanuit dat er bij ingrijpende uitbreidings- of verbeteringswerken doorgaans vergoedingsafspraken zullen worden gemaakt tussen de huurder en de verhuurder.
 
 ## Boekhoudkundige verwerking
-
 Wanneer een huurder uitbreidings- of verbeteringswerken heeft aangebracht aan de door hem gehuurde goederen, boekt de huurder de met deze werken verbonden kosten krachtens artikel 95 KB W.Venn. op de rekening 26 *Andere materiële vaste activa*. Vervolgens schrijft hij deze werken af volgens een passend afschrijvingsplan. Dit afschrijvingsplan zal afhankelijk zijn van de concrete situatie (vergoedingsregeling, duur huurcontract, …).
 
 ### Er is een vergoedingsregeling afgesproken
-
 In het geval de huurder uitbreidings- of verbeteringswerken heeft uitgevoerd waarvoor hij van de verhuurder **desgevallend een vergoeding krijgt bij afloop van het huurcontract[^6]** , zal bij afloop van het huurcontract, naargelang het geval, een meerwaarde of een minderwaarde worden geboekt.
 
 *Voorbeeld 
@@ -91,11 +82,9 @@ In het geval de huurder uitbreidings- of verbeteringswerken heeft uitgevoerd waa
 Een vennootschap is de huurder van een onroerend goed en heeft in het jaar N voor een bedrag van 100.000 euro verbeteringswerken uitgevoerd. De huurder heeft met de verhuurder afgesproken dat deze laatste de werkelijke waarde van de door de werken ontstane waardevermeerdering zal vergoeden bij afloop van het huurcontract. De huurder schrijft deze werken af over een economische levensduur van 10 jaar. Op het ogenblik van de activering van de werken heeft het huurcontract nog een resterende looptijd van 7 jaar. Bij afloop van het huurcontract hebben deze werken bijgevolg nog een boekwaarde van 30.000 euro terwijl de waardevermeerdering van het onroerend goed ingevolge de uitgevoerde werken op dat ogenblik 50.000 euro bedraagt. De vennootschap verwezenlijkt aldus een meerwaarde van 20.000 euro (i.e. 50.000 – 30.000) bij afloop van het huurcontract.*
 
 ### Er is geen vergoedingsregeling afgesproken
-
 In het geval de huurder uitbreidings- of verbeteringswerken heeft uitgevoerd waarvoor hij van de verhuurder **geen vergoeding krijgt bij afloop van het huurcontract[^7]** , zijn deze werken in principe volledig ten laste genomen volgens een passend afschrijvingsplan en moeten deze werken bij afloop van het huurcontract nog enkel worden uitgeboekt.
 
 ### Aanleggen van een passende voorziening
-
 Tot slot stelt zich de vraag in welke gevallen de vennootschap een voorziening dient aan te leggen om het gehuurde goed in zijn oorspronkelijke staat te herstellen.[^8] 
 
 Het bestuursorgaan kan inderdaad, op basis van de concrete omstandigheden, van oordeel zijn dat een voorziening moet worden aangelegd om het gehuurde goed bij afloop van de overeenkomst in zijn oorspronkelijke staat te herstellen (repareren of afbreken). Het boeken van een voorziening vloeit voort uit de toepassing van het voorzichtigheidsbeginsel. Dit neemt niet weg dat de beoordeling of een voorziening moet worden aangelegd te goeder trouw moet gebeuren, en dat de voorziening moet stroken met de realiteit en dus niet uitsluitend mag gebaseerd zijn op de letterlijke bewoordingen van de overeenkomst.[^9] 

@@ -2,75 +2,66 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/opname-van-financiele-vaste-activa-geboekt-tegen-een-hoger-bedrag-dan-hun-reele-waarde-in
 datum: 2017-05-31
 gerelateerde_adviezen:
-- datum: '2016-07-06'
-  titel: Boekhoudkundige verwerking van de cross currency swap
-  url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-cross-currency-swap
-- datum: '2013-11-27'
-  titel: Toelichting omtrent het niet-gebruik van de waarderingsgregels op basis van
-    de waarde in het economisch verkeer voor de financiële instrumenten
-  url: https://www.cbn-cnc.be/nl/adviezen/toelichting-omtrent-het-niet-gebruik-van-de-waarderingsgregels-op-basis-van-de-waarde-in
-- datum: '2010-09-08'
-  titel: De toepassing van de algemene boekhoudprincipes op afgeleide financiële instrumenten
-  url: https://www.cbn-cnc.be/nl/adviezen/de-toepassing-van-de-algemene-boekhoudprincipes-op-afgeleide-financiele-instrumenten
+  - datum: '2016-07-06'
+    titel: Boekhoudkundige verwerking van de cross currency swap
+    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-cross-currency-swap
+  - datum: '2013-11-27'
+    titel: Toelichting omtrent het niet-gebruik van de waarderingsgregels op basis van de waarde in het economisch verkeer voor de financiële instrumenten
+    url: https://www.cbn-cnc.be/nl/adviezen/toelichting-omtrent-het-niet-gebruik-van-de-waarderingsgregels-op-basis-van-de-waarde-in
+  - datum: '2010-09-08'
+    titel: De toepassing van de algemene boekhoudprincipes op afgeleide financiële instrumenten
+    url: https://www.cbn-cnc.be/nl/adviezen/de-toepassing-van-de-algemene-boekhoudprincipes-op-afgeleide-financiele-instrumenten
 nummer: CBN-advies 2017/11
 provenance:
-  generated_at: '2026-05-11T15:15:31Z'
+  generated_at: '2026-05-11T17:48:39Z'
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/opname-van-financiele-vaste-activa-geboekt-tegen-een-hoger-bedrag-dan-hun-reele-waarde-in
-    sha256: 2ad85c57300b2181be4df3dd43682f08b3281cf16b9618661d08f8f6fccef178
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/opname-van-financiele-vaste-activa-geboekt-tegen-een-hoger-bedrag-dan-hun-reele-waarde-in
+      sha256: 2ad85c57300b2181be4df3dd43682f08b3281cf16b9618661d08f8f6fccef178
+      version:
   stale: false
-  stale_reason: null
+  stale_reason:
   tooling:
-    model: null
+    model:
     pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    prompt_version: null
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
     confirmed_at: '2026-05-11T13:30:33Z'
     confirmed_by: subagent-sonnet-4-6
     layer1:
-      file_size_chars: 8361
-      flags: []
-      heading_count: 4
-      max_section_chars: 4758
-      run_at: '2026-05-11T15:05:53Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:44Z'
+      heading_count: 4
+      max_section_chars: 4757
+      file_size_chars: 8357
+      flags: []
     layer2:
       agent: subagent-sonnet-4-6
       concrete_problemen: []
-      rationale: 'Vier ## headings, alle inhoud compleet, voetnoten [^1]-[^12] correct
-        gedefinieerd. Lijn 93 start met ''11.'' als randnummer-verwijzing — dit is
-        authentieke CBN-stijl voor randnummers, geen extractie-bug. Geen form-feeds,
-        geen broken italic, geen column-bleed aangetroffen.'
+      rationale: 'Vier ## headings, alle inhoud compleet, voetnoten [^1]-[^12] correct gedefinieerd. Lijn 93 start met ''11.'' als randnummer-verwijzing — dit is authentieke CBN-stijl voor randnummers, geen extractie-bug. Geen form-feeds, geen broken italic, geen column-bleed aangetroffen.'
       run_at: '2026-05-11T13:30:33Z'
       status: trusted
-    rationale: 'Vier ## headings, alle inhoud compleet, voetnoten [^1]-[^12] correct
-      gedefinieerd. Lijn 93 start met ''11.'' als randnummer-verwijzing — dit is authentieke
-      CBN-stijl voor randnummers, geen extractie-bug. Geen form-feeds, geen broken
-      italic, geen column-bleed aangetroffen.'
+    rationale: 'Vier ## headings, alle inhoud compleet, voetnoten [^1]-[^12] correct gedefinieerd. Lijn 93 start met ''11.'' als randnummer-verwijzing — dit is authentieke CBN-stijl voor randnummers, geen extractie-bug. Geen form-feeds, geen broken italic, geen column-bleed aangetroffen.'
     status: trusted
 themas:
-- afgeleide financiële instrumenten
-- financiële instrumenten
-- financiële vaste activa
-- reële waarde
-- richtlijn 2013/34/EU
-- toelichting
-- waarde in het economisch verkeer
+  - afgeleide financiële instrumenten
+  - financiële instrumenten
+  - financiële vaste activa
+  - reële waarde
+  - richtlijn 2013/34/EU
+  - toelichting
+  - waarde in het economisch verkeer
 ---
 
 # CBN-advies 2017/11 – Opname van financiële vaste activa geboekt tegen een hoger bedrag dan hun reële waarde in de toelichting van de jaarrekening
 
 ## Inleiding
-
 Aan de Commissie voor boekhoudkundige normen werd de vraag gesteld welke specifieke informatie onder de toelichting VOL 6.17 dient te worden verstrekt. In eerste instantie dient de vergelijking te worden gegeven tussen de boekwaarde en reële waarde van afgeleide financiële instrumenten die niet gewaardeerd zijn op basis van hun reële waarde. Daarnaast wordt tevens de boekwaarde van de financiële vaste activa gevraagd waarvan de reële waarde lager is dan de respectievelijke boekwaarde, de redenen waarom de boekwaarde niet werd verminderd en uiteindelijk een opsomming van de elementen die toelaten te veronderstellen dat de boekwaarde zal kunnen worden gerealiseerd.
 
 Voor wat betreft de eerste toelichting van VOL 6.17 verwijst de Commissie naar CBN-advies 2013/16 - *Toelichting omtrent het niet-gebruik van de waarderingsregels op basis van de waarde in het economisch verkeer voor de financiële instrumenten.[^2]*  In hetgeen volgt, worden enkel de bijkomende toelichtingsvereisten omtrent financiële vaste activa besproken. 
 
 ## Waarderingsbeginselen van financiële vaste activa binnen het Belgisch boekhoudrecht
-
 Binnen het Belgisch boekhoudrecht kunnen financiële vaste activa enkel worden gewaardeerd tegen de aanschaffingsprijs[^3] bepaald door de aankoopprijs, verhoogd met de bijkomende kosten. Deze kosten mogen rechtstreeks ten laste van het resultaat worden geboekt. Bij verwerving van aandelen of deelbewijzen die kwalificeren als financiële vaste activa via een inbreng in natura geldt de conventioneel bepaalde prijs.[^4] 
 
 Er wordt overgegaan tot een afwaardering bij een duurzame minderwaarde of ontwaarding.[^5] 
@@ -79,13 +70,11 @@ Aandelen en deelbewijzen kunnen eventueel een meerwaarde vertonen ten opzichte v
  Daarnaast moet er tevens worden overwogen om eventuele waardeverminderingen in eerste instantie terug te nemen wanneer ze op balansdatum niet langer noodzakelijk blijken.[^7] 
 
 ## Toelichting VOL 6.17
-
 Het koninklijk besluit van 18 december 2015 tot omzetting van Richtlijn 2013/34/EU van 26 juni 2013 van het Europees Parlement en van de Raad betreffende de jaarlijkse financiële overzichten, geconsolideerde financiële overzichten en aanverwante verslagen van bepaalde ondernemingsvormen, tot wijziging van Richtlijn 2006/43/EG van het Europees Parlement en de Raad en tot intrekking van Richtlijnen 78/660/EEG en 83/349/EEG van de Raad[^8], heeft een aantal wijzigingen aangebracht aan het jaarrekeningschema van grote ondernemingen.
 
 Meer bepaald wordt in artikel 91, XX, KB. W.Venn. voor financiële vaste activa die in aanmerking worden genomen tegen een hoger bedrag dan hun reële waarde vereist: de boekwaarde en de reële waarde van de afzonderlijke activa, dan wel van passende groepen van deze afzonderlijke activa en de redenen waarom de boekwaarde niet is verminderd, met opgave van de aard van de aanwijzingen die aan de veronderstelling ten grondslag liggen dat de boekwaarde zal kunnen worden gerealiseerd; hetgeen werd geformaliseerd in toelichting VOL 6.17 zoals hieronder opgenomen:
 
 ## Definiëring van het begrip reële waarde onder het Belgische boekhoudrecht en de toepasbaarheid ervan voor financiële vaste activa
-
 De invulling van het begrip reële waarde werd opgenomen in artikel 97, B, KB W.Venn.[^9]:
 
 “Dient te worden verstaan onder reële waarde: de waarde vastgesteld met verwijzing naar: a) een marktwaarde voor de financiële instrumenten waarvoor een betrouwbare markt gemakkelijk is aan te wijzen. Wanneer een marktwaarde voor een gegeven instrument niet eenvoudig kan worden bepaald, maar dit wel kan voor de samenstellende elementen of voor een gelijkaardig instrument, kan de marktwaarde berekend worden op basis van die van zijn bestanddelen of die van het gelijkaardige instrument, of b) een waarde berekend met behulp van modellen en algemeen aanvaarde waarderingstechnieken voor de instrumenten waarvoor een betrouwbare markt niet gemakkelijk aan te wijzen is. Deze waarderingsmodellen en -technieken dienen een redelijke benadering van de marktwaarde op te leveren.”.

@@ -3,41 +3,41 @@ bron: https://www.cbn-cnc.be/nl/adviezen/verwerving-van-een-bedrijfstak-tegen-ee
 datum: 2016-06-15
 nummer: CBN-advies 2016/7
 provenance:
+  generated_at: '2026-05-11T17:48:39Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/verwerving-van-een-bedrijfstak-tegen-een-symbolische-euro
       sha256: 8714c2cb098402345c61501cc36ea0f46964f8f7631755557c65da7e7798f5ef
       version:
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
-    status: trusted
     confirmed_at: '2026-05-11T15:23:43Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: 'Vorige QA-ronde meldde `avtiva` op regel 309 als A9 OCR-fout. Na herlezing van de volledige tekst: `avtiva` in `Materiële vaste avtiva` op regel 327 (niet 309) is identiek aan de brontekst op de CBN-website (source-typo, geen ETL-artefact). Geen andere ETL-problemen gevonden: 20+ headings correct genest, voetnoten [^1]–[^9] aanwezig, tabellen correct in pipe-syntax, geen form-feeds, geen scrambled tekst.'
     layer1:
-      file_size_chars: 24521
-      flags: []
-      heading_count: 20
-      max_section_chars: 5021
-      run_at: '2026-05-11T15:05:52Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:43Z'
+      heading_count: 20
+      max_section_chars: 5015
+      file_size_chars: 24501
+      flags: []
     layer2:
-      status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:23:43Z'
-      rationale: 'Vorige QA-ronde meldde `avtiva` op regel 309 als A9 OCR-fout. Na herlezing van de volledige tekst: `avtiva` in `Materiële vaste avtiva` op regel 327 (niet 309) is identiek aan de brontekst op de CBN-website (source-typo, geen ETL-artefact). Geen andere ETL-problemen gevonden: 20+ headings correct genest, voetnoten [^1]–[^9] aanwezig, tabellen correct in pipe-syntax, geen form-feeds, geen scrambled tekst.'
       concrete_problemen:
-        - regel: 327
-          categorie: A9
+        - categorie: A9
+          regel: 327
           type: ocr-confusion
           voorbeeld: '| Materiële vaste avtiva | | 0 | (avtiva ipv activa — source-typo)'
+      rationale: 'Vorige QA-ronde meldde `avtiva` op regel 309 als A9 OCR-fout. Na herlezing van de volledige tekst: `avtiva` in `Materiële vaste avtiva` op regel 327 (niet 309) is identiek aan de brontekst op de CBN-website (source-typo, geen ETL-artefact). Geen andere ETL-problemen gevonden: 20+ headings correct genest, voetnoten [^1]–[^9] aanwezig, tabellen correct in pipe-syntax, geen form-feeds, geen scrambled tekst.'
+      run_at: '2026-05-11T15:23:43Z'
+      status: trusted
+    rationale: 'Vorige QA-ronde meldde `avtiva` op regel 309 als A9 OCR-fout. Na herlezing van de volledige tekst: `avtiva` in `Materiële vaste avtiva` op regel 327 (niet 309) is identiek aan de brontekst op de CBN-website (source-typo, geen ETL-artefact). Geen andere ETL-problemen gevonden: 20+ headings correct genest, voetnoten [^1]–[^9] aanwezig, tabellen correct in pipe-syntax, geen form-feeds, geen scrambled tekst.'
+    status: trusted
 themas:
   - badwill
   - bedrijfstak
@@ -49,7 +49,6 @@ themas:
 # CBN-advies 2016/7 – Verwerving van een bedrijfstak tegen een symbolische euro
 
 ## Inleiding
-
 Aan de Commissie voor Boekhoudkundige Normen werd de vraag gesteld hoe de verwerving van een bedrijfstak tegen een symbolische euro boekhoudkundig dient te worden verwerkt in de enkelvoudige jaarrekening van de overnemer[^2].
 
 Een dergelijke verwerving geeft bij een *share deal* op consolidatievlak normaliter aanleiding tot de erkenning van een negatief consolidatieverschil (*badwill*) in de geconsolideerde jaarrekening in geval de overnameprijs, in casu 1 EUR, minder bedraagt dan de boekwaarde van het overgenomen netto-actief. Overeenkomstig artikel 141, § 2 KB W.Venn. worden deze negatieve consolidatieverschillen slechts toegerekend aan de resultatenrekening van zodra er zich een ongunstige ontwikkeling heeft voorgedaan die aan de basis lag van de justificatie van het negatieve consolidatieverschil. In alle andere gevallen worden deze negatieve consolidatieverschillen blijvend geboekt als een component van het geconsolideerde eigen vermogen.
@@ -57,9 +56,7 @@ Een dergelijke verwerving geeft bij een *share deal* op consolidatievlak normali
 Naast de realisatie van een negatief verschil, is het tevens mogelijk dat de overnameprijs, in casu 1 EUR, meer bedraagt dan de boekwaarde van het overgenomen netto-actief[^3]. Voor wat betreft de enkelvoudige jaarrekening omschrijft artikel 95, § 1 KB W.Venn. goodwill als de prijs die wordt betaald voor de verwerving van een onderneming of een bedrijfsafdeling voor zover die hoger is dan de nettowaarde van de actief minus passiefbestanddelen van de verworven onderneming of branche. Voor wat betreft de opname en waardering van een badwill in de enkelvoudige jaarrekening, zijn in het huidige boekhoudkundig referentiekader geen vergelijkbare bepalingen voorzien als de bepalingen voor de geconsolideerde jaarrekening.
 
 ## Boekhoudkundig referentiekader
-
 ### In het geval van een badwill
-
 De overname tegen een symbolische euro van een bedrijfstak dient volgens de Commissie met de nodige zorg te worden geanalyseerd en meer bepaald naar de volledigheid van de overgenomen passiefbestanddelen en hun waardering. Dezelfde voorzichtigheid legde de IASB aan de dag in paragraaf BC 371 van IFRS 3 Bedrijfscombinaties: “The boards consider bargain purchases anomalous transactions – business entities and their owners generally do not knowingly and willingly sell assets or businesses at prices below their fair values.”
 
 De Commissie wenst te benadrukken dat enkel marktconforme transacties worden beoogd in onderhavig advies. Dit advies is tevens van toepassing op transacties tussen verbonden vennootschappen voor zover het marktconforme transacties betreft.
@@ -74,7 +71,6 @@ Van zodra de elementen van de overnameprijs zijn vastgesteld, is de Commissie va
 De principes uit randnummer 6 en 7 zullen worden geïllustreerd in hetgeen volgt.
 
 ### In het geval van een goodwill
-
 Vanuit het standpunt van de overnemer zal in het geval van een overname van een netto-passief er logischerwijze een goodwill verschijnen dewelke correspondeert met het verschil tussen de symbolische euro en de nettowaarde van het overgenomen netto-passief.
 
 Overeenkomstig artikel 140 KB W.Venn. wordt een positief consolidatieverschil, in de geconsolideerde jaarrekening zoveel mogelijk toegerekend aan de actief-en passiefbestanddelen waarvan de waarde hoger of lager is dan hun respectievelijke boekwaarde. Het lijkt de Commissie dan ook aangewezen om een vergelijkbaar toerekeningsbeginsel toe te laten voor de enkelvoudige jaarrekening.
@@ -82,11 +78,8 @@ Overeenkomstig artikel 140 KB W.Venn. wordt een positief consolidatieverschil, i
 De resterende goodwill zal conform artikel 61 KB W.Venn. worden afgeschreven over een periode van ten hoogste tien jaar indien de gebruiksduur niet met zekerheid kan worden geraamd.
 
 ## Praktische toepassingen in het geval van een badwill
-
 ### Voorbeeld 1: Overname van activa & passiva zonder bijkomende voorziening
-
 #### Balans van de overlater
-
 De balans van de overlater, NV ABC wordt op overnamedatum als volgt voorgesteld:
 
 | *NV ABC* | 
@@ -118,7 +111,6 @@ Als gevolg van de beslissing om de activiteit af te stoten, worden de betrokken 
 | | | 41 | | | | 41 | 
 
 #### Balans van de overnemer
-
 De balans van de overnemer, NV XYZ, wordt vóór de overname als volgt voorgesteld:
 
 | *NV XYZ* | 
@@ -153,9 +145,7 @@ De balans na verwerving door de NV XYZ kan als volgt worden voorgesteld na de op
 | | | 80 | | | | 80 | 
 
 ### Voorbeeld 2: overname van activa en passiva met bijkomende voorziening
-
 #### Balans van de overlater
-
 De balans van de overlater, NV ABC wordt op overnamedatum als volgt voorgesteld:
 
 | *NV ABC* | 
@@ -187,7 +177,6 @@ Als gevolg van de beslissing om de activiteit af te stoten, worden de betrokken 
 | | | 41 | | | | 41 | 
 
 #### Balans van de overnemer
-
 De balans van de overnemer, NV XYZ wordt vóór de overname als volgt voorgesteld:
 
 | *NV XYZ* | 
@@ -231,7 +220,6 @@ De balans na verwerving door de NV XYZ en na het aanleggen van de voorziening, k
 
 Voorbeeld 3: overname van niet erkende activa (kosten van ontwikkeling) en passiva zonder bijkomende voorziening – al dan niet activeerbaar bij de overnemer
 #### Balans van de overlater
-
 De balans van de overlater, NV ABC, wordt op overnamedatum als volgt voorgesteld:
 
 | *NV ABC* | 
@@ -255,7 +243,6 @@ Als gevolg van de beslissing om de activiteit af te stoten, wordt de schuld naar
 | | | 81 | | | | 81 | 
 
 #### Balans van de overnemer
-
 De balans van de overnemer, NV XYZ, wordt vóór de overname als volgt voorgesteld:
 
 | *NV XYZ* | 
@@ -288,9 +275,7 @@ De balans na verwerving door de NV XYZ kan als volgt worden voorgesteld na de op
 | | | 55 | | | | 55 | 
 
 ### Voorbeeld 4: overname van activa zonder passiva
-
 #### Balans van de overlater
-
 De balans van de overlater, NV ABC, wordt op overnamedatum als volgt voorgesteld:
 
 | *NV XYZ* | 
@@ -323,7 +308,6 @@ De balans van de NV ABC kan dan ook als volgt worden voorgesteld:
 | | | 41 | | | | 41 | 
 
 #### Balans van de overnemer
-
 De balans van de overnemer, NV XYZ wordt vóór de overname als volgt voorgesteld:
 
 | *NV XYZ* | 
@@ -364,11 +348,8 @@ De NV ABC kan nadien eventueel beslissen om de overgenomen materiële vaste acti
 Daarnaast lijkt het de Commissie tevens raadzaam om in de toelichting op te nemen dat de brutomarge door de overname eventueel een vertekend beeld zou kunnen geven. De gerealiseerde brutomarge zal immers bij de effectieve verkoop van de overgenomen voorraadelementen aanzienlijk kunnen afwijken van de historische brutomarge aangezien de aanschaffingswaarde van de voorraadelementen verschillend is.
 
 ## Praktische toepassing in het geval van een goodwill
-
 ### Voorbeeld 1: Overname van activa & passiva
-
 #### Balans van de overlater
-
 De balans van de overlater, NV ABC wordt op overnamedatum als volgt voorgesteld:
 
 | *NV ABC* | 
@@ -403,7 +384,6 @@ De balans van de NV ABC kan dan ook als volgt worden voorgesteld:
 | | | 71 | | | | 71 | 
 
 #### Balans van de overnemer
-
 De balans van de overnemer, NV XYZ, wordt vóór de overname als volgt voorgesteld:
 
 | *NV XYZ* | 

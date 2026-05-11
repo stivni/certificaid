@@ -9,47 +9,47 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
+    pipeline_version: 11f9196
     model:
     prompt_version:
-  generated_at: '2026-05-11T15:15:31Z'
+  generated_at: '2026-05-11T17:48:39Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T17:13:30Z'
+    confirmed_at: '2026-05-11T17:51:53Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "A3: regels 67-69 bevatten TOC-resten als plain text bovenin de body ('vereniging of stichting\\n\\n vereniging of stichtingOndernemingen en niet-kleine...') inclusief een aaneengeplakte regel met twee TOC-items zonder scheidingsteken. D4: regels 75 en 81 bevatten italic-markers met spatie voor het sluitende asterisk. E2: twee voorbeeld-blokken verpakt als '| \\n\\n*Voorbeeld*\\n\\n  |' (regels 89-110 en 114-127)."
+    rationale: "E2/C3: regels 62, 81, 85 en 97 bevatten stray single-pipe tekens ('| ') als losstaande regels tussen secties — artefacten van HTML-tabel-extractie die de markdown-structuur verbreken. Een mens zou dit nooit zo typen. Verdere inhoud correct; tabellen zijn verder goed gerenderd in pipe-syntax."
     layer1:
-      file_size_chars: 8012
-      flags: []
-      heading_count: 6
-      max_section_chars: 4094
-      run_at: '2026-05-11T15:05:53Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:44Z'
+      heading_count: 6
+      max_section_chars: 4093
+      file_size_chars: 7894
+      flags: []
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T17:13:30Z'
-      rationale: "A3: regels 67-69 bevatten TOC-resten als plain text bovenin de body ('vereniging of stichting\\n\\n vereniging of stichtingOndernemingen en niet-kleine...') inclusief een aaneengeplakte regel met twee TOC-items zonder scheidingsteken. D4: regels 75 en 81 bevatten italic-markers met spatie voor het sluitende asterisk. E2: twee voorbeeld-blokken verpakt als '| \\n\\n*Voorbeeld*\\n\\n  |' (regels 89-110 en 114-127)."
+      run_at: '2026-05-11T17:51:53Z'
+      rationale: "E2/C3: regels 62, 81, 85 en 97 bevatten stray single-pipe tekens ('| ') als losstaande regels tussen secties — artefacten van HTML-tabel-extractie die de markdown-structuur verbreken. Een mens zou dit nooit zo typen. Verdere inhoud correct; tabellen zijn verder goed gerenderd in pipe-syntax."
       concrete_problemen:
-        - regel: 67
-          categorie: A3
-          type: other
-          voorbeeld: 'vereniging of stichting '
-        - regel: 69
-          categorie: A3
-          type: other
-          voorbeeld: ' vereniging of stichtingOndernemingen en niet-kleine verenigingen en stichtingen'
-        - regel: 75
-          categorie: D4
-          type: other
-          voorbeeld: '*vouchers voor enkelvoudig gebruik[^2] *'
-        - regel: 89
+        - regel: 62
           categorie: E2
           type: pseudo-table
-          voorbeeld: "| \n\n*Voorbeeld*\n\n  |"
+          voorbeeld: "| \n\n*Voorbeeld*"
+        - regel: 81
+          categorie: E2
+          type: pseudo-table
+          voorbeeld: " | \n\nIndien de betaalkaart niet terugbetaalbaar is"
+        - regel: 85
+          categorie: E2
+          type: pseudo-table
+          voorbeeld: "| \n\n*Voorbeeld*"
+        - regel: 97
+          categorie: E2
+          type: pseudo-table
+          voorbeeld: " | \n\n De natuurlijke personen die koopman zijn"
 themas:
   - betaalkaart
   - oplaadbare betaalkaart
@@ -60,18 +60,12 @@ themas:
 
 # CBN-advies 2018/11 – Verkoop van (oplaadbare) betaalkaarten
 
-vereniging of stichting 
-
- vereniging of stichtingOndernemingen en niet-kleine verenigingen en stichtingen
-
 ## Algemeen
-
 In onderhavig advies verduidelijkt de Commissie de boekhoudkundige verwerking van de verkoop van betaalkaarten of de heroplading van dergelijke kaarten. Dergelijke kaarten kunnen al dan niet op naam zijn. Onderhavig advies verduidelijkt zowel de boekhoudkundige verwerking in hoofde van verenigingen en stichtingen als voor ondernemingen. 
 
 De betaalkaarten bedoeld in onderhavig advies betreffen uitsluitend de tegoedkaarten of tegoedbonnen (cadeaubonnen) die worden uitgereikt of opgeladen als tegenprestatie voor de ontvangst van een som geld. Onderhavig advies gaat dus niet verder in op de boekhoudkundige verwerking van bijvoorbeeld tegoed- of kortingbonnen die worden uitgereikt naar aanleiding van een lancering van een nieuw product of ter promotie van de aankoop van producten. Onderhavig advies gaat evenmin nader in op de boekhoudkundige verwerking van uitgereikte *vouchers voor enkelvoudig gebruik[^2]* . 
 
-## Kleine[^3] vereniging of stichting
-
+## Kleine vereniging of stichting
 De vereniging of stichting die een vereenvoudigde boekhouding voert zoals bedoeld in de artikelen 17, § 2, 37, § 2, of 53, § 2 van de wet van 27 juni 1921 betreffende de verenigingen zonder winstoogmerk, de stichtingen en de Europese politieke partijen en stichtingen (hierna: de vzw-wet) moet de mutaties in contanten of op rekeningen inschrijven in een ongesplitst dagboek volgens een genormaliseerd model[^4].
 
 De sommen die door een kleine vereniging of stichting worden ontvangen om geplaatst te worden op een betaalkaart, worden aldus onmiddellijk ingeschreven onder de ontvangsten zonder de door de vereniging of stichting te leveren tegenprestatie af te wachten en maken deel uit van de totaliteit van de Ontvangsten op te nemen in het *Genormaliseerd minimaal schema van de Staat van de ontvangsten en uitgaven[^5]* .
@@ -79,7 +73,6 @@ De sommen die door een kleine vereniging of stichting worden ontvangen om geplaa
 In een heel aantal gevallen zijn de bedragen gestort op een betaalkaart terugbetaalbaar wanneer deze bedragen niet worden verbruikt. Wanneer in dergelijk geval de betaalkaart op inventarisdatum nog niet verbruikte sommen bevat, moeten deze sommen opgenomen worden onder de *Andere schulden* in het* Genormaliseerd minimaal schema van de staat van het vermogen* [^6] ,[^7]. 
 
 ## Ondernemingen en niet-kleine verenigingen en stichtingen
-
 Ondernemingen en verenigingen en stichtingen die hun boekhouding voeren met inachtneming van de regels van het dubbel boekhouden registreren de bedragen die worden ontvangen om een betaalkaart op te laden onmiddellijk als een schuld. Wanneer deze betaalkaart vervolgens wordt gebruikt ter betaling van de aankoop van een goed of een geleverde dienst wordt deze schuldenrekening gedebiteerd en wordt een opbrengst geregistreerd.
 
 | 
@@ -89,14 +82,12 @@ Ondernemingen en verenigingen en stichtingen die hun boekhouding voeren met inac
 Een onderneming ontvangt van een klant 100 euro om deze op te laden op een betaalkaart. Vervolgens koopt deze klant een product ter waarde van 1,06 euro inclusief 6 procent btw.
 
 ## Boeking bij herlading van de betaalkaart
-
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 570 | Kassen-contanten | 100,00 | |
 | aan | 489 | Diverse schulden | | 100,00 |
 
 ## Boeking bij verkoop en betaling product
-
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 489 | Diverse schulden | 1,06 | |
@@ -114,7 +105,6 @@ Indien de betaalkaart niet terugbetaalbaar is en op de vervaldatum het opgeladen
 Op de vervaldatum van (het saldo op) een uitgegeven betaalkaart komt een bedrag van 13,00 euro toe aan de onderneming zonder dat deze nog enige prestatie moet doen.
 
 ## Boeking op de vervaldatum
-
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 489 | Diverse schulden | 13,00 | |

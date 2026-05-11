@@ -2,53 +2,50 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/verwerking-in-de-boekhouding-en-de-jaarrekening-van-de-belastingbesparing-ingevoerd-door
 datum: 1983-04-10
 gerelateerde_adviezen:
-- datum: '2018-05-30'
-  titel: Tax shelter voor podiumkunsten
-  url: https://www.cbn-cnc.be/nl/adviezen/tax-shelter-voor-podiumkunsten
-- datum: '2015-05-13'
-  titel: Boekhoudkundige verwerking van de tax shelter in hoofde van de investeerder
-    (raamovereenkomsten gesloten vanaf 1 januari 2015)
-  url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-tax-shelter-in-hoofde-van-de-investeerder
+  - datum: '2018-05-30'
+    titel: Tax shelter voor podiumkunsten
+    url: https://www.cbn-cnc.be/nl/adviezen/tax-shelter-voor-podiumkunsten
+  - datum: '2015-05-13'
+    titel: Boekhoudkundige verwerking van de tax shelter in hoofde van de investeerder (raamovereenkomsten gesloten vanaf 1 januari 2015)
+    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-tax-shelter-in-hoofde-van-de-investeerder
 nummer: CBN-advies 134/1
 provenance:
-  generated_at: '2026-05-11T15:15:31Z'
+  generated_at: '2026-05-11T17:48:38Z'
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/verwerking-in-de-boekhouding-en-de-jaarrekening-van-de-belastingbesparing-ingevoerd-door
-    sha256: 7c3e29861fb8eb30848322506bebeedda9d4fa62a07459bd370df45874310f77
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/verwerking-in-de-boekhouding-en-de-jaarrekening-van-de-belastingbesparing-ingevoerd-door
+      sha256: 7c3e29861fb8eb30848322506bebeedda9d4fa62a07459bd370df45874310f77
+      version:
   stale: false
-  stale_reason: null
+  stale_reason:
   tooling:
-    model: null
+    model:
     pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    prompt_version: null
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
     confirmed_at: '2026-05-11T12:04:41Z'
     confirmed_by: subagent-sonnet-4-6
     layer1:
-      file_size_chars: 2658
-      flags: []
+      status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:41Z'
       heading_count: 0
       max_section_chars: 2658
-      run_at: '2026-05-11T15:05:49Z'
-      run_id: 20260511-150547
-      status: pass
+      file_size_chars: 2658
+      flags: []
     layer2:
       agent: subagent-sonnet-4-6
       concrete_problemen: []
-      rationale: Kort advies (2658 tekens), enkel lopende tekst zonder voetnoten of
-        tabellen. Geen extractie-artefacten aangetroffen. Inhoud volledig en afgerond.
+      rationale: Kort advies (2658 tekens), enkel lopende tekst zonder voetnoten of tabellen. Geen extractie-artefacten aangetroffen. Inhoud volledig en afgerond.
       run_at: '2026-05-11T12:04:41Z'
       status: trusted
-    rationale: Kort advies (2658 tekens), enkel lopende tekst zonder voetnoten of
-      tabellen. Geen extractie-artefacten aangetroffen. Inhoud volledig en afgerond.
+    rationale: Kort advies (2658 tekens), enkel lopende tekst zonder voetnoten of tabellen. Geen extractie-artefacten aangetroffen. Inhoud volledig en afgerond.
     status: trusted
 themas:
-- belastingbesparing
-- belastingen
-- fiscale steunmaatregel
-- niet beschikbare reserves
+  - belastingbesparing
+  - belastingen
+  - fiscale steunmaatregel
+  - niet beschikbare reserves
 ---
 
 # CBN-advies 134/1 - Verwerking in de boekhouding en de jaarrekening van de belastingbesparing ingevoerd door het KB nr. 16 van 9 maart 1982

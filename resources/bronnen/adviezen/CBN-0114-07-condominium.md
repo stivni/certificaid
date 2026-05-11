@@ -3,50 +3,44 @@ bron: https://www.cbn-cnc.be/nl/adviezen/condominium
 datum: 1986-07-01
 nummer: CBN-advies 114/7
 provenance:
-  generated_at: '2026-05-11T15:15:31Z'
+  generated_at: '2026-05-11T17:48:38Z'
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/condominium
-    sha256: d90e6655287e42fdccee1525db502d4bd176db78351a15ce989959edfddc3211
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/condominium
+      sha256: d90e6655287e42fdccee1525db502d4bd176db78351a15ce989959edfddc3211
+      version:
   stale: false
-  stale_reason: null
+  stale_reason:
   tooling:
-    model: null
+    model:
     pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    prompt_version: null
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
     confirmed_at: '2026-05-11T13:16:02Z'
     confirmed_by: subagent-sonnet-4-6
     layer1:
-      file_size_chars: 2203
-      flags: []
+      status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:41Z'
       heading_count: 0
       max_section_chars: 2203
-      run_at: '2026-05-11T15:05:48Z'
-      run_id: 20260511-150547
-      status: pass
+      file_size_chars: 2203
+      flags: []
     layer2:
       agent: subagent-sonnet-4-6
       concrete_problemen: []
-      rationale: Vorige L2 flagde een en-dash in een H1-heading, maar de werkelijke
-        H1 in de body is '# COMMISSIE VOOR BOEKHOUDKUNDIGE NORMEN' — geen dash aanwezig.
-        Body bestaat uit vier schone alinea's (2203 chars), geen italics, geen voetnoten
-        nodig, geen extractie-artefacten. Inhoud compleet en coherent.
+      rationale: Vorige L2 flagde een en-dash in een H1-heading, maar de werkelijke H1 in de body is '# COMMISSIE VOOR BOEKHOUDKUNDIGE NORMEN' — geen dash aanwezig. Body bestaat uit vier schone alinea's (2203 chars), geen italics, geen voetnoten nodig, geen extractie-artefacten. Inhoud compleet en coherent.
       run_at: '2026-05-11T13:16:02Z'
       status: trusted
-    rationale: Vorige L2 flagde een en-dash in een H1-heading, maar de werkelijke
-      H1 in de body is '# COMMISSIE VOOR BOEKHOUDKUNDIGE NORMEN' — geen dash aanwezig.
-      Body bestaat uit vier schone alinea's (2203 chars), geen italics, geen voetnoten
-      nodig, geen extractie-artefacten. Inhoud compleet en coherent.
+    rationale: Vorige L2 flagde een en-dash in een H1-heading, maar de werkelijke H1 in de body is '# COMMISSIE VOOR BOEKHOUDKUNDIGE NORMEN' — geen dash aanwezig. Body bestaat uit vier schone alinea's (2203 chars), geen italics, geen voetnoten nodig, geen extractie-artefacten. Inhoud compleet en coherent.
     status: trusted
 themas:
-- beslissende invloed
-- condominium
-- doorslaggevende invloed
-- joint-venture
-- omvangcriteria
-- verbonden onderneming
+  - beslissende invloed
+  - condominium
+  - doorslaggevende invloed
+  - joint-venture
+  - omvangcriteria
+  - verbonden onderneming
 ---
 
 # COMMISSIE VOOR BOEKHOUDKUNDIGE NORMEN

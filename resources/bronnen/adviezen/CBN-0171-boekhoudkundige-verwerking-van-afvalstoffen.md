@@ -3,45 +3,45 @@ bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-afvalsto
 datum: 1995-03-01
 nummer: CBN-advies 171
 provenance:
+  generated_at: '2026-05-11T17:48:38Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-afvalstoffen
       sha256: ef019e5fa8d5ff93cfeecf2422b2fa22e0858ffe7d0bbce9d35b95e64f9dcf00
       version:
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
-    status: needs-rework
     confirmed_at: '2026-05-11T17:05:21Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "Vorig verdict bevestigd. A9 r.96: '| | 602 | AAankopen van diensten of | | |' — dubbele 'A' (OCR-duplicatie). A6 r.198-200: slotzin 'zal enkel voor de tweede benadering kunnen worden' gevolgd door een lege regel en 'geopteerd.' op een nieuwe alinea — afgebroken alinea-patroon."
     layer1:
-      file_size_chars: 12033
-      flags: []
-      heading_count: 8
-      max_section_chars: 6368
-      run_at: '2026-05-11T15:05:49Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:42Z'
+      heading_count: 5
+      max_section_chars: 4534
+      file_size_chars: 12002
+      flags: []
     layer2:
-      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T17:05:21Z'
-      rationale: "Vorig verdict bevestigd. A9 r.96: '| | 602 | AAankopen van diensten of | | |' — dubbele 'A' (OCR-duplicatie). A6 r.198-200: slotzin 'zal enkel voor de tweede benadering kunnen worden' gevolgd door een lege regel en 'geopteerd.' op een nieuwe alinea — afgebroken alinea-patroon."
       concrete_problemen:
-        - regel: 96
-          categorie: A9
+        - categorie: A9
+          regel: 96
           type: ocr-confusion
           voorbeeld: '| | 602 | AAankopen van diensten of | | |'
-        - regel: 198
-          categorie: A6
+        - categorie: A6
+          regel: 198
           type: other
           voorbeeld: '...zal enkel voor de tweede benadering kunnen worden \n\ngeopteerd.'
+      rationale: 'Vorig verdict bevestigd. A9 r.96: ''| | 602 | AAankopen van diensten of | | |'' — dubbele ''A'' (OCR-duplicatie). A6 r.198-200: slotzin ''zal enkel voor de tweede benadering kunnen worden'' gevolgd door een lege regel en ''geopteerd.'' op een nieuwe alinea — afgebroken alinea-patroon.'
+      run_at: '2026-05-11T17:05:21Z'
+      status: needs-rework
+    rationale: 'Vorig verdict bevestigd. A9 r.96: ''| | 602 | AAankopen van diensten of | | |'' — dubbele ''A'' (OCR-duplicatie). A6 r.198-200: slotzin ''zal enkel voor de tweede benadering kunnen worden'' gevolgd door een lege regel en ''geopteerd.'' op een nieuwe alinea — afgebroken alinea-patroon.'
+    status: needs-rework
 themas:
   - afvaldienstenonderneming
   - afvalstoffen
@@ -58,7 +58,6 @@ themas:
 ---
 
 # CBN advies 171 - Boekhoudkundige verwerking van afvalstoffen
-
 Aan de Commissie werd gevraagd hoe de produktie, de ophaling, de vernietiging, de verwerking of de recyclage van afvalstoffen alsook de exploitatie van stortplaatsen in de jaarrekening van ondernemingen moeten worden verwerkt. De ondernemingen, zoals trouwens ook de overheid, worden immers met steeds grotere afvalverwerkingsproblemen geconfronteerd. De Commissie heeft derhalve beslist daaraan een algemeen advies te wijden. 
 
 Dit advies slaat echter niet op de waardering van de voorzieningen die de ondernemingen moeten vormen voor de dekking van hun eventuele aansprakelijkheid die zal voortvloeien uit de productie, de verwerking, het vervoer of het bezit van afvalstoffen of het storten ervan op een stortplaats. 
@@ -66,20 +65,17 @@ Dit advies slaat echter niet op de waardering van de voorzieningen die de ondern
 Dit advies zal achtereenvolgens aandacht besteden aan de ondernemingen die afvalstoffen "produceren", de ondernemingen die diensten verstrekken op het vlak van de ophaling of de verwerking van afvalstoffen en, ten slotte, de ondernemingen waarvan de exploitatie een terrein aantast of vervuilt. 
 
 ## Ondernemingen die afvalstoffen "produceren"
-
 De onderneming verwerkt haar afvalstoffen niet zelf, maar belast een derde met de ophaling ervan
 Voor die onderneming is de ophaling van haar afvalstoffen door een derde een dienst die haar wordt verleend, waarvan de kost als bedrijfskost onder *Diensten en diverse goederen* (rekening 61) moet worden geboekt.
 
 Voor de afvalstoffen die, aan het einde van de boekhoudperiode, nog niet zouden zijn opgehaald, zal een voorziening moeten worden gevormd om de ophalingskosten te dekken. 
 
 ### De onderneming verwerkt zelf haar afvalstoffen
-
     Voor die onderneming vormt de kost voor de afvalverwerking een bedrijfskost die wordt geboekt in de verschillende rekeningen van kosten naar hun aard. 
 
    Voor de afvalstoffen die, aan het einde van de boekhoudperiode, nog niet zouden zijn verwerkt, zal een voorziening moeten worden gevormd om de verwerkingskosten te dekken. 
 
 ## Afvaldienstenondernemingen
-
 De onderneming zorgt voor de ophaling van de afvalstoffen alsook voor de onmiddellijke storting of afvoer "als zodanig", d.i. zonder opslag of verwerking
 De facturatie van de afvalophaling zal als volgt worden geboekt :
 
@@ -111,7 +107,6 @@ De verworven maar nog niet afgevoerde afvalstoffen vormen geen voorraden als bed
 | aan | 493 | Over te dragen opbrengsten | | |
 
 ### wanneer de "voorraad" toeneemt, en
-
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 493 | Over te dragen opbrengsten | | |
@@ -184,7 +179,6 @@ of
 Wanneer er verschillen zijn tussen de facturatieprijs voor de ophaling of de verwerving van afvalstoffen, zal, wat de wijzigingen in de "voorraden" afvalstoffen betreft, bij de correctieboekingen met betrekking tot het omzetcijfer rekening moeten worden gehouden met een welbepaalde volgorde van de uitgaande voorraden. Naar analogie van de regels voor uitgaande voorraden in de echte zin van het woord, zal de onderneming moeten kiezen tussen een van de methodes bedoeld in artikel 33 van het koninklijk besluit van 8 oktober 1976, namelijk : individualisering van de prijs van elk bestanddeel, gewogen gemiddelde, eerst in -eerst uit of laatst in - eerst uit. 
 
 ### Ondernemingen waarvan de exploitatie een terrein aantast of vervuilt
-
 De onderneming waarvan de exploitatie een terrein aantast of vervuilt (exploitatie van een stortplaats, steengroeve, kerncentrale, booreiland) zal over het algemeen later worden geconfronteerd met kosten die, enerzijds, betrekking hebben op de milieubescherming (aangelegenheid van algemeen belang) en, anderzijds, op de sanering van het terrein (aangelegenheid van particulier belang). 
 
 De kosten die verbonden zijn aan de bescherming van het milieu zullen worden behandeld in een later advies. 

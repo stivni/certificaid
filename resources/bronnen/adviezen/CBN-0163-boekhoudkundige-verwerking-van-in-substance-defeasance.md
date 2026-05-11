@@ -3,47 +3,43 @@ bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-in-subst
 datum: 1991-03-01
 nummer: CBN-advies 163
 provenance:
-  generated_at: '2026-05-11T15:15:31Z'
+  generated_at: '2026-05-11T17:48:38Z'
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-in-substance-defeasance
-    sha256: afb75ddb259a9325a97dcc88ff928e050701eedd2d6202322628b7dcf6766288
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-in-substance-defeasance
+      sha256: afb75ddb259a9325a97dcc88ff928e050701eedd2d6202322628b7dcf6766288
+      version:
   stale: false
-  stale_reason: null
+  stale_reason:
   tooling:
-    model: null
+    model:
     pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    prompt_version: null
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
     confirmed_at: '2026-05-11T12:04:42Z'
     confirmed_by: subagent-sonnet-4-6
     layer1:
-      file_size_chars: 3776
-      flags: []
+      status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:42Z'
       heading_count: 0
       max_section_chars: 3776
-      run_at: '2026-05-11T15:05:49Z'
-      run_id: 20260511-150547
-      status: pass
+      file_size_chars: 3776
+      flags: []
     layer2:
       agent: subagent-sonnet-4-6
       concrete_problemen: []
-      rationale: 'Geen ETL-artefacten. Proza coherent, geen OCR-fouten, geen malformed
-        markdown. Inhoud volledig: techniek beschreven, juridische analyse en conclusie
-        aanwezig. Geen subheadings nodig voor dit korte advies.'
+      rationale: 'Geen ETL-artefacten. Proza coherent, geen OCR-fouten, geen malformed markdown. Inhoud volledig: techniek beschreven, juridische analyse en conclusie aanwezig. Geen subheadings nodig voor dit korte advies.'
       run_at: '2026-05-11T12:04:42Z'
       status: trusted
-    rationale: 'Geen ETL-artefacten. Proza coherent, geen OCR-fouten, geen malformed
-      markdown. Inhoud volledig: techniek beschreven, juridische analyse en conclusie
-      aanwezig. Geen subheadings nodig voor dit korte advies.'
+    rationale: 'Geen ETL-artefacten. Proza coherent, geen OCR-fouten, geen malformed markdown. Inhoud volledig: techniek beschreven, juridische analyse en conclusie aanwezig. Geen subheadings nodig voor dit korte advies.'
     status: trusted
 themas:
-- in-substance defeasance
-- onherroepelijke overdracht van activa
-- schulden
-- trustee
-- vastrentende effecten
+  - in-substance defeasance
+  - onherroepelijke overdracht van activa
+  - schulden
+  - trustee
+  - vastrentende effecten
 ---
 
 # CBN-advies 163 - Boekhoudkundige verwerking van in-substance defeasance

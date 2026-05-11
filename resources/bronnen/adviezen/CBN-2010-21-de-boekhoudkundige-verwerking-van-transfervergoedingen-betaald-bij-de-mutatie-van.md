@@ -2,63 +2,59 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-transfervergoedingen-betaald-bij-de-mutatie-van
 datum: 2010-11-10
 gerelateerde_adviezen:
-- datum: '2025-07-14'
-  titel: De boekhoudkundige verwerking van immateriële vaste activa (update) [ONTWERP]
-  url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-immateriele-vaste-activa-update-ontwerp
-- datum: '2018-05-30'
-  titel: Tax shelter voor podiumkunsten
-  url: https://www.cbn-cnc.be/nl/adviezen/tax-shelter-voor-podiumkunsten
-- datum: '2018-03-21'
-  titel: Aftrek voor innovatie-inkomsten
-  url: https://www.cbn-cnc.be/nl/adviezen/aftrek-voor-innovatie-inkomsten
-- datum: '2016-12-14'
-  titel: 'Kosten van onderzoek en ontwikkeling: onderscheid tussen onderzoek en ontwikkeling
-    - verduidelijking'
-  url: https://www.cbn-cnc.be/nl/adviezen/kosten-van-onderzoek-en-ontwikkeling-onderscheid-tussen-onderzoek-en-ontwikkeling
+  - datum: '2025-07-14'
+    titel: De boekhoudkundige verwerking van immateriële vaste activa (update) [ONTWERP]
+    url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-immateriele-vaste-activa-update-ontwerp
+  - datum: '2018-05-30'
+    titel: Tax shelter voor podiumkunsten
+    url: https://www.cbn-cnc.be/nl/adviezen/tax-shelter-voor-podiumkunsten
+  - datum: '2018-03-21'
+    titel: Aftrek voor innovatie-inkomsten
+    url: https://www.cbn-cnc.be/nl/adviezen/aftrek-voor-innovatie-inkomsten
+  - datum: '2016-12-14'
+    titel: 'Kosten van onderzoek en ontwikkeling: onderscheid tussen onderzoek en ontwikkeling - verduidelijking'
+    url: https://www.cbn-cnc.be/nl/adviezen/kosten-van-onderzoek-en-ontwikkeling-onderscheid-tussen-onderzoek-en-ontwikkeling
 nummer: CBN-advies 2010/21
 provenance:
-  generated_at: '2026-05-11T15:15:31Z'
+  generated_at: '2026-05-11T17:48:39Z'
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-transfervergoedingen-betaald-bij-de-mutatie-van
-    sha256: d5c4088c75aa9d7cfeaf1bb264a52c517c6968c3cdceecdaaf4bd8e7de8e9a69
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-transfervergoedingen-betaald-bij-de-mutatie-van
+      sha256: d5c4088c75aa9d7cfeaf1bb264a52c517c6968c3cdceecdaaf4bd8e7de8e9a69
+      version:
   stale: false
-  stale_reason: null
+  stale_reason:
   tooling:
-    model: null
+    model:
     pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    prompt_version: null
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
     confirmed_at: '2026-05-08T21:31:11Z'
     confirmed_by: human
     layer1:
-      file_size_chars: 18259
-      flags: []
-      heading_count: 6
-      max_section_chars: 7344
-      run_at: '2026-05-11T15:05:50Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:42Z'
+      heading_count: 6
+      max_section_chars: 7340
+      file_size_chars: 18253
+      flags: []
     layer2:
-      agent: null
+      agent:
       concrete_problemen: []
-      rationale: null
-      run_at: null
+      rationale:
+      run_at:
       status: not_run
-    rationale: 'Herscraped na fix select_title(): gecombineerde H1 (COMMISSIE + titel)
-      correct gesplitst. Inhoud ongewijzigd t.o.v. vorig vertrouwd verdict. Laag 1
-      pass (of benign max_section warn).'
+    rationale: 'Herscraped na fix select_title(): gecombineerde H1 (COMMISSIE + titel) correct gesplitst. Inhoud ongewijzigd t.o.v. vorig vertrouwd verdict. Laag 1 pass (of benign max_section warn).'
     status: trusted
 themas:
-- immateriële vaste activa
-- transfervergoeding
+  - immateriële vaste activa
+  - transfervergoeding
 ---
 
 # CBN-advies 2010/21 - De boekhoudkundige verwerking van transfervergoedingen betaald bij de mutatie van voetbalspelers (niet-amateurs en profspelers)
 
 ## Inleiding
-
 Een voetbalclub die wenst deel te nemen aan officiële competities treedt in België toe tot de Koninklijke Belgische Voetbalbond (hierna: KBVB[^1]). 
 
 Om deel te nemen aan officiële of vriendschappelijke wedstrijden van een club moet de speler zelf ook aangesloten zijn bij de KBVB. Spelers van toegetreden voetbalclubs verkrijgen automatisch de hoedanigheid van *toegewezen aangeslotenen* bij de KBVB: het betreft natuurlijke personen die aangesloten worden op voorstel van een effectieve club[^2]. Spelers kunnen echter ook *niet-toegewezen aangeslotenen* bij de KBVB zijn. Zij zijn in dat geval niet toegewezen aan een bepaalde voetbalclub en zullen dus persoonlijk een jaarlijkse individuele bondsbijdrage betalen. Aan de kwalificatie van een speler voor deelname aan officiële of vriendschappelijke wedstrijden van een club zijn nog een aantal voorwaarden verbonden[^3]. Zo moet een speler aan deze club zijn toegewezen ten gevolge van een definitieve transfer of er tijdelijk, bij middel van een tijdelijke transfer, aan zijn uitgeleend (de transfersystemen worden verder in de tekst toegelicht).
@@ -78,7 +74,6 @@ Het Bosmanarrest[^9] had in 1995 verstrekkende gevolgen in het Europees transfer
 Aan de CBN werd de vraag gesteld op welke wijze de vergoeding, betaald voor een speler naar aanleiding van een transferovereenkomst, in de boekhouding van een club[^10] moet worden verwerkt[^11].
 
 ## Belgische wetgeving
-
 In de Belgische regelgeving zelf wordt geen definitie gegeven van wat moet worden begrepen onder een actief. Algemeen kan gesteld worden dat het middelen betreft, die aanwezig moeten zijn om een onderneming uit te bouwen. 
 
 Een transfer kan worden beschouwd als een overdracht van rechten of het tijdelijk verlenen van rechten met betrekking tot een speler al naargelang het gaat om een definitieve of tijdelijke transfer[^12]. De ontvangende sportclub verkrijgt immers, bij een transfer van een sportbeoefenaar, definitief of tijdelijk de mogelijkheid om de talenten van de betrokken speler exclusief als zodanig te gebruiken in het kader van haar doelstelling.
@@ -88,7 +83,6 @@ Art. 95, § 1, derde lid van het koninklijk besluit van 30 januari 2001 tot uitv
 Ten gevolge van een transfer, ontvangt een club minstens een recht om van derden, in casu de bij de KBVB aangesloten speler, dienstverlening te verkrijgen[^13]. Hieruit besluit de Commissie dat, ingeval van een definitieve transfer, deze verworven rechten een immaterieel vast actief uitmaken. 
 
 ## De internationale financiële rapporteringsstandaarden IFRS/IAS
-
 Inspiratie kan tevens worden gevonden in de internationale financiële rapporteringsnormen, waar een actief wordt gedefinieerd als zijnde een uit gebeurtenissen in het verleden voortgekomen middel, waarover de entiteit de zeggenschap uitoefent en waaruit in de toekomst naar verwachting economische voordelen naar de entiteit zullen vloeien[^14]. 
 
 De internationale financiële rapporteringsstandaarden definiëren immateriële activa in IAS 38 *Immateriële activa*, als zijnde identificeerbare, niet-monetaire activa zonder fysieke vorm[^15]. 
@@ -102,9 +96,7 @@ Een actief is identificeerbaar als het:
 Wat de identificatie en erkenning betreft van bepaalde vaardigheden van personeel wordt er in IAS 38 op gewezen dat het onwaarschijnlijk is dat specifieke technische talenten vallen onder de definitie van immateriële activa, tenzij ze worden beschermd door juridisch afdwingbare rechten om ze te gebruiken en om hieruit verwachte toekomstige economische voordelen te verkrijgen. Voor wat betreft de transfercontracten van professionele sportlui is aan deze voorwaarde te voldaan. Wat impliceert dat ook in het IAS/IFRS raamkader de geviseerde rechten een immaterieel vast actief uitmaken.
 
 ## Boekhoudkundige verwerking van de betaalde transfervergoedingen
-
 ### Transfers met een definitief karakter
-
 Op basis van bovenstaande argumenten meent de Commissie te kunnen besluiten dat de vergoeding, betaald voor de verwerving van de exclusieve rechten op de sportieve prestaties van een speler, boekhoudkundig kan worden opgenomen onder de immateriële vaste activa. Het is de bedoeling van de verwervende club deze spelers in te zetten tijdens wedstrijden. De band die bijgevolg ontstaat tussen deze spelers en de club zorgt voor toekomstige opbrengsten uit ticketten, abonnementen, het aantrekken van (nieuwe) sponsors, inkomsten uit merchandising, tv-rechten, enz. 
 
 Elke betaalde transfervergoeding, opgenomen onder de immateriële vaste activa, zal afzonderlijk[^17] worden gewaardeerd aan aanschaffingswaarde en voor dat bedrag in de balans worden opgenomen, onder aftrek van de desbetreffende afschrijvingen[^18]. 
@@ -126,7 +118,6 @@ Er zal worden overgegaan tot aanvullende of uitzonderlijke afschrijvingen wannee
 Salarissen en alle bijhorende sociale lasten en verplichtingen naar aanleiding van het arbeidscontract met de betrokken spelers, worden als kosten van de periode verwerkt. 
 
 ### Transfers met een tijdelijke karakter
-
 Bij een transfer met tijdelijk karakter zal de club die de speler kan opstellen een vergoeding betalen aan de club die de speler ter beschikking stelt. 
 
 De ontvangen vergoeding wegens het “ter beschikking stellen van de speler” door middel van een tijdelijke transfer naar een andere club, zal als opbrengst van de periode worden geboekt binnen de club die de speler op deze wijze uitleent. In geval van een eenmalige vergoeding voor de gehele periode zal deze, via gebruik van de overlopende rekeningen, worden in resultaat genomen over de periode van het tijdelijk transfercontract. 

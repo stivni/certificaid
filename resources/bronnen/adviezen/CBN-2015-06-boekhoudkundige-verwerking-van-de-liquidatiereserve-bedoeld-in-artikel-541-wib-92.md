@@ -16,49 +16,49 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/aanwending-van-herwaarderingsmeerwaarden-0
 nummer: CBN-advies 2015/6
 provenance:
+  generated_at: '2026-05-11T17:48:39Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-liquidatiereserve-bedoeld-in-artikel-541-wib-92
       sha256: f75947a777e67970e2d3551b28d529ee94c0c42cdd01b6cf19a7e08704e40481
       version:
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
-    status: needs-rework
     confirmed_at: '2026-05-11T17:09:38Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "D4 bevestigd: regel 161 '(artikel 184*quater* WIB 92)[^21] **' heeft een stray '**' na de voetnootreferentie die geen bijbehorende opening heeft. Regel 70 H1-titel eindigt op literal '1' (voetnootcijfer niet als [^1] geparsed). D3: [^23] voetnootdefinitie aanwezig maar heeft geen body-referentie in de lopende tekst. ETL-artefacten."
     layer1:
-      file_size_chars: 18731
-      flags: []
-      heading_count: 6
-      max_section_chars: 10344
-      run_at: '2026-05-11T15:05:51Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:43Z'
+      heading_count: 6
+      max_section_chars: 10342
+      file_size_chars: 18725
+      flags: []
     layer2:
-      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T17:09:38Z'
-      rationale: "D4 bevestigd: regel 161 '(artikel 184*quater* WIB 92)[^21] **' heeft een stray '**' na de voetnootreferentie die geen bijbehorende opening heeft. Regel 70 H1-titel eindigt op literal '1' (voetnootcijfer niet als [^1] geparsed). D3: [^23] voetnootdefinitie aanwezig maar heeft geen body-referentie in de lopende tekst. ETL-artefacten."
       concrete_problemen:
-        - regel: 70
-          categorie: D4
+        - categorie: D4
+          regel: 70
           type: other
-          voorbeeld: "...bijzondere aanslag op deze liquidatiereserve1 — literal '1' i.p.v. [^1] in H1-titel"
-        - regel: 161
-          categorie: D4
+          voorbeeld: '...bijzondere aanslag op deze liquidatiereserve1 — literal ''1'' i.p.v. [^1] in H1-titel'
+        - categorie: D4
+          regel: 161
           type: other
           voorbeeld: (artikel 184*quater* WIB 92)[^21] ** — stray sluitende ** zonder opening
-        - regel: 259
-          categorie: D3
+        - categorie: D3
+          regel: 259
           type: other
           voorbeeld: '[^23]: Onderhavig voorbeeld... — voetnootdefinitie zonder zichtbare [^23] referentie in body'
+      rationale: 'D4 bevestigd: regel 161 ''(artikel 184*quater* WIB 92)[^21] **'' heeft een stray ''**'' na de voetnootreferentie die geen bijbehorende opening heeft. Regel 70 H1-titel eindigt op literal ''1'' (voetnootcijfer niet als [^1] geparsed). D3: [^23] voetnootdefinitie aanwezig maar heeft geen body-referentie in de lopende tekst. ETL-artefacten.'
+      run_at: '2026-05-11T17:09:38Z'
+      status: needs-rework
+    rationale: 'D4 bevestigd: regel 161 ''(artikel 184*quater* WIB 92)[^21] **'' heeft een stray ''**'' na de voetnootreferentie die geen bijbehorende opening heeft. Regel 70 H1-titel eindigt op literal ''1'' (voetnootcijfer niet als [^1] geparsed). D3: [^23] voetnootdefinitie aanwezig maar heeft geen body-referentie in de lopende tekst. ETL-artefacten.'
+    status: needs-rework
 themas:
   - Onaantastbaarheidsvoorwaarde
   - bijzondere aanslag
@@ -70,7 +70,6 @@ themas:
 # CBN-advies 2015/6 - Boekhoudkundige verwerking van de liquidatiereserve bedoeld in artikel 541 WIB 92 (Programmawet van 10 augustus 2015) en de bijzondere aanslag op deze liquidatiereserve1
 
 ## Algemeen
-
 De Commissie heeft op 13 mei 2015 een advies uitgebracht over de boekhoudkundige verwerking van de liquidatiereserve ingevoerd door de Programmawet van 19 december 2014 en de afzonderlijke aanslag op deze liquidatiereserve.[^2]
  Met de Programmawet van 10 augustus 2015 werd de mogelijkheid tot het aanleggen van een liquidatiereserve uitgebreid tot de boekhoudkundige winst na belasting die werd verwezenlijkt in het boekjaar verbonden met het aanslagjaar 2013 en met het boekjaar verbonden met het aanslagjaar 2014 (hierna: de bijzondere liquidatiereserve). De voorwaarden voor het aanleggen van een bijzondere liquidatiereserve zijn opgenomen in artikel 541 WIB 92.[^3]
  In onderhavig advies wordt de boekhoudkundige verwerking verduidelijkt van de bijzondere liquidatiereserve en de bijzondere aanslag op deze liquidatiereserve.
@@ -86,9 +85,7 @@ Deze bijzondere liquidatiereserve wordt gevormd door een gedeelte of het geheel 
 De bijzondere aanslag moet worden betaald ten laatste op 30 november 2015 voor de liquidatiereserve die wordt aangelegd uit de boekhoudkundige winst na belastingen van het boekjaar dat verbonden is aan het aanslagjaar 2013. De liquidatiereserve die wordt aangelegd uit de boekhoudkundige winst na belastingen van het boekjaar dat verbonden is aan het aanslagjaar 2014 moet ten laatste op 30 november 2016 worden betaald. De overeenstemmende bijzondere liquidatiereserve moet vervolgens worden geboekt ten laatste op de datum van afsluiten van het boekjaar waarin voormelde bijzondere aanslag is betaald. De betaalde bijzondere aanslagen zijn definitief verworven door de Staat: ze worden niet verrekend met de vennootschapsbelasting en de eventuele overschotten zijn niet terugbetaalbaar.[^11] 
 
 ## Boekhoudkundige verwerking
-
 ### Boeking van de bijzondere aanslag
-
 De bijzondere aanslag is een anticipatieve heffing op de boekhoudkundige winst van een voorgaand, reeds afgesloten, boekjaar. Bijgevolg kan deze bijzondere aanslag niet meer ten laste worden gelegd van dit voorgaand boekjaar en wordt de bijzondere aanslag geboekt als kost van het boekjaar waarin wordt besloten tot de betaling van de bijzondere aanslag.
 
 De betaalde bijzondere aanslag is definitief verworven door de Staat, kan niet worden verrekend met de vennootschapsbelasting en het eventuele overschot is niet terugbetaalbaar.
@@ -96,7 +93,6 @@ De betaalde bijzondere aanslag is definitief verworven door de Staat, kan niet w
 Naar analogie met de boeking van de afzonderlijke aanslag op de liquidatiereserve beveelt de Commissie aan om deze bijzondere aanslag te boeken op een passende subrekening van de rekening 67 *Belastingen op het resultaat*, meer bepaald om de rekening 6710* Verschuldigde of gestorte belastingsupplementen* te gebruiken.[^12] 
 
 ### Vorming van de bijzondere liquidatiereserve
-
 De jaarrekening (waaronder de balans) wordt opgemaakt door en onder de verantwoordelijkheid van het bestuursorgaan dat de jaarrekening ter goedkeuring moet voorleggen aan de algemene vergadering.[^13]
  De algemene vergadering kan de jaarrekening goed- of afkeuren, maar kan ze zelf niet wijzigen, tenzij dan de resultaatverwerking.
 
@@ -117,7 +113,6 @@ De Commissie beveelt aan om de bijzondere liquidatiereserve op afzonderlijke sub
 De Commissie beveelt aan dat de vennootschap in haar jaarrekening toelichting geeft over de toestand van de liquidatiereserves en over de ouderdom van de deze reserves.
 
 ### Voorbeelden
-
 ***Voorbeeld 1***
 
 *Gegevens*
@@ -138,7 +133,6 @@ Het bedrag van 1.000 is bijgevolg nog steeds in de reserves geboekt op de eerste
 *Boeking van de vorming van de bijzondere liquidatiereserve ten laatste op de inventarisdatum en boeking van de resultaatverwerking*
 
 ## Eerste variant: Er wordt beslist om al de winst van het boekjaar 2015 over te dragen naar het volgend boekjaar
-
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 133 | Beschikbare reserves | 1.000 | |

@@ -3,56 +3,52 @@ bron: https://www.cbn-cnc.be/nl/adviezen/afsluitingsdatum-van-het-boekjaar
 datum: 2014-04-23
 nummer: CBN-advies 2014/5
 provenance:
-  generated_at: '2026-05-11T15:15:31Z'
+  generated_at: '2026-05-11T17:48:39Z'
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/afsluitingsdatum-van-het-boekjaar
-    sha256: 2c47eb840e00d394a7b0d827c1f25e2935694f1535011a5c01bb48914d8dad4f
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/afsluitingsdatum-van-het-boekjaar
+      sha256: 2c47eb840e00d394a7b0d827c1f25e2935694f1535011a5c01bb48914d8dad4f
+      version:
   stale: false
-  stale_reason: null
+  stale_reason:
   tooling:
-    model: null
+    model:
     pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    prompt_version: null
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
     confirmed_at: '2026-05-11T12:16:34Z'
     confirmed_by: subagent-sonnet-4-6
     layer1:
-      file_size_chars: 3838
-      flags: []
-      heading_count: 2
-      max_section_chars: 3305
-      run_at: '2026-05-11T15:05:51Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:43Z'
+      heading_count: 2
+      max_section_chars: 3304
+      file_size_chars: 3836
+      flags: []
     layer2:
       agent: subagent-sonnet-4-6
       concrete_problemen: []
-      rationale: 2 H2-secties, geen extractie-artefacten, footnotes correct, tekst
-        leest als mens-geschreven markdown. Kort en inhoudelijk volledig advies.
+      rationale: 2 H2-secties, geen extractie-artefacten, footnotes correct, tekst leest als mens-geschreven markdown. Kort en inhoudelijk volledig advies.
       run_at: '2026-05-11T12:16:34Z'
       status: trusted
-    rationale: 2 H2-secties, geen extractie-artefacten, footnotes correct, tekst leest
-      als mens-geschreven markdown. Kort en inhoudelijk volledig advies.
+    rationale: 2 H2-secties, geen extractie-artefacten, footnotes correct, tekst leest als mens-geschreven markdown. Kort en inhoudelijk volledig advies.
     status: trusted
 themas:
-- afsluiting
-- afsluitingsdatum
-- balansdatum
-- boekjaar
+  - afsluiting
+  - afsluitingsdatum
+  - balansdatum
+  - boekjaar
 ---
 
 # CBN-advies 2014/5 - Afsluitingsdatum van het boekjaar
 
 ## Onderwerp van het advies
-
 Aan de Commissie voor Boekhoudkundige Normen werd de vraag gesteld of een vennootschap in haar statuten mag voorzien dat haar boekjaar niet begint en eindigt op een vaste datum (bijvoorbeeld op 5 februari) maar op een dag van een bepaalde week van een maand (bijvoorbeeld de eerste zaterdag van de maand februari).
 
 Dit zou betekenen dat de datum van afsluiting (en opening) van het boekjaar zou verschillen van boekjaar tot boekjaar.
 
 ## Analyse
-
 In artikel 9, § 1 van de wet van 17 juli 1975 met betrekking tot de boekhouding van de ondernemingen en artikel 92, § 1, van het Wetboek van vennootschappen wordt aan de vennootschappen opgelegd om hun jaarrekening één keer per jaar neer te leggen.
 
 In artikel 69, 7° van het Wetboek van vennootschappen wordt bovendien bepaald dat het uittreksel uit de oprichtingsakte van de vennootschap “het begin en het einde van het boekjaar” moet bevatten, terwijl in artikel 9, § 1, 10° van het uitvoeringsbesluit van het Wetboek van vennootschappen wordt bepaald dat de inschrijving van een vennootschap in de Kruispuntbank van Ondernemingen (hierna: KBO) “het einde van het boekjaar” bevat. Enkel het inschrijvingsformulier van de KBO dat is opgenomen in de bijlage van dit koninklijk besluit, verwijst naar een vaste afsluitingsdatum van het boekjaar die moet worden vermeld bij deze inschrijving (“einddatum: DD/MM”, zie punt C., nummer 6°).

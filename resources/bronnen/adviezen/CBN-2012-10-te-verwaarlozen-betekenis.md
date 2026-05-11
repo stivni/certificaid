@@ -3,37 +3,37 @@ bron: https://www.cbn-cnc.be/nl/adviezen/te-verwaarlozen-betekenis
 datum: 2012-07-04
 nummer: CBN-advies 2012/10
 provenance:
+  generated_at: '2026-05-11T17:48:39Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/te-verwaarlozen-betekenis
       sha256: 6b99fb366e6ded06b001c98cccac8e5f1d7de48d1cd863427e16c406d60f1cf2
       version:
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
-    status: trusted
     confirmed_at: '2026-05-11T15:19:36Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "Vorig verdict (needs-rework A3) was fout: regel 89 is een echte ## heading 'CBN-advies 2010/1 De interpretatie van de openbaarmakingsverplichting...' — een afzonderlijk advies dat als sectie in de body staat, niet een duplicate TOC-blob. Document is volledig schoon: 6 correcte headings, alle voetnoten [^1]–[^12] aanwezig en gedefinieerd, geen form-feeds, geen onzichtbare unicode, geen column-bleed."
     layer1:
-      file_size_chars: 10974
-      flags: []
-      heading_count: 6
-      max_section_chars: 3284
-      run_at: '2026-05-11T15:05:50Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:43Z'
+      heading_count: 6
+      max_section_chars: 3283
+      file_size_chars: 10964
+      flags: []
     layer2:
-      status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:19:36Z'
-      rationale: "Vorig verdict (needs-rework A3) was fout: regel 89 is een echte ## heading 'CBN-advies 2010/1 De interpretatie van de openbaarmakingsverplichting...' — een afzonderlijk advies dat als sectie in de body staat, niet een duplicate TOC-blob. Document is volledig schoon: 6 correcte headings, alle voetnoten [^1]–[^12] aanwezig en gedefinieerd, geen form-feeds, geen onzichtbare unicode, geen column-bleed."
       concrete_problemen: []
+      rationale: 'Vorig verdict (needs-rework A3) was fout: regel 89 is een echte ## heading ''CBN-advies 2010/1 De interpretatie van de openbaarmakingsverplichting...'' — een afzonderlijk advies dat als sectie in de body staat, niet een duplicate TOC-blob. Document is volledig schoon: 6 correcte headings, alle voetnoten [^1]–[^12] aanwezig en gedefinieerd, geen form-feeds, geen onzichtbare unicode, geen column-bleed.'
+      run_at: '2026-05-11T15:19:36Z'
+      status: trusted
+    rationale: 'Vorig verdict (needs-rework A3) was fout: regel 89 is een echte ## heading ''CBN-advies 2010/1 De interpretatie van de openbaarmakingsverplichting...'' — een afzonderlijk advies dat als sectie in de body staat, niet een duplicate TOC-blob. Document is volledig schoon: 6 correcte headings, alle voetnoten [^1]–[^12] aanwezig en gedefinieerd, geen form-feeds, geen onzichtbare unicode, geen column-bleed.'
+    status: trusted
 themas:
   - te verwaarlozen betekenis
   - vrijstelling
@@ -43,7 +43,6 @@ themas:
 # CBN-advies 2012/10 - Te verwaarlozen betekenis
 
 ## Inleiding
-
 De richtlijn 2009/49/EG van het Europees Parlement en de Raad van 18 juni 2009 tot wijziging van de richtlijnen 78/660/EEG en 83/349/EEG van de Raad met betrekking tot bepaalde informatieverplichtingen van middelgrote ondernemingen en de verplichting een geconsolideerde jaarrekening op te stellen[^1] heeft als voornaamste doelstelling de administratieve lasten voor ondernemingen terug te dringen in een poging de Europese economie te doen heropleven. Uit de samenlezing van artikel 1 en artikel 13, 1 en 2 van de richtlijn 83/349/EEG van 13 juni 1983 betreffende de geconsolideerde jaarrekening[^2] (hierna: de Zevende richtlijn) blijkt echter dat een moederonderneming verplicht is een geconsolideerde jaarrekening op te stellen, zelfs indien haar enige dochteronderneming of al haar dochterondernemingen tezamen, gelet op het doel van artikel 16, lid 3[^3] van die richtlijn, slechts van te verwaarlozen betekenis zijn en bijgevolg niet in deze geconsolideerde jaarrekening moeten worden opgenomen. 
 
 Uit voorbeschouwing (8) bij de richtlijn 2009/49/EG blijkt dat deze verplichting als te belastend wordt beschouwd indien een moederonderneming alleen maar dochterondernemingen van te verwaarlozen betekenis zou hebben. Een moederonderneming zou in dergelijke gevallen moeten worden vrijgesteld van de verplichting een geconsolideerde jaarrekening en een geconsolideerd jaarverslag op te stellen. Evenwel behoudt zij steeds de mogelijkheid om, op eigen initiatief, een geconsolideerde jaarrekening op te stellen en een geconsolideerd jaarverslag op te maken.
@@ -62,29 +61,24 @@ Een moedervennootschap dient derhalve vanaf 22 april 2012[^5] te worden vrijgest
 Aan de Commissie voor Boekhoudkundige Normen werd gevraagd om advies over het begrip “van te verwaarlozen betekenis” te geven en in het bijzonder de criteria te bepalen die de onderneming in overweging moet nemen voor de interpretatie ervan[^6].
 
 ## Artikel 107 van het koninklijk besluit van 30 januari 2001 tot uitvoering van het Wetboek van Vennootschappen (hierna: KB W.Venn.)
-
 Wat de afbakening van de consolidatiekring betreft, voorziet artikel 107, 1° van het KB W.Venn. nu reeds dat onder bepaalde voorwaarden een dochteronderneming buiten de consolidatie mag worden gelaten: *“indien zij slechts van te verwaarlozen betekenis is en haar opneming geen betekenis zou hebben voor de beoordeling van het geconsolideerd vermogen, de geconsolideerde financiële positie of het geconsolideerd resultaat; indien meer dochterondernemingen aan deze voorwaarde voldoen, mag van deze mogelijkheid slechts gebruik worden gemaakt indien zij tezamen aan de gestelde voorwaarde voldoen;”[^7]. *
 
 De wet van 22 maart 2012 wijzigt hierdoor weinig aan de bestaande toepassing in het Belgisch recht. Het begrip “van te verwaarlozen betekenis” is niet nieuw en wordt reeds jaren gebruikt in het Belgisch jaarrekeningenrecht. De geconsolideerde jaarrekening van een moedervennootschap met alleen maar dochterondernemingen van te verwaarlozen betekenis, bevatte ook vóór de wet van 22 maart 2012 geen informatie betreffende dergelijke dochterondernemingen. De moedervennootschap motiveerde dit als dusdanig in de toelichting van haar geconsolideerde jaarrekening[^8]. Het is steeds de verantwoordelijkheid van het bestuursorgaan van de moedervennootschap om het begrip “van te verwaarlozen betekenis” een concrete invulling te geven. 
 
-## Verslag namens de Commissie belast met de problemen inzake handels- en economisch recht betreffende het wetsontwerp tot wijziging van het Wetboek van Vennootschappen betreffende bepaalde informatieverplichtingen van middelgrote ondernemingen en de verplichting een geconsolideerde jaarrekening op te stellen[^9]
-
+## Verslag namens de Commissie belast met de problemen inzake handels- en economisch recht betreffende het wetsontwerp tot wijziging van het Wetboek van Vennootschappen betreffende bepaalde informatieverplichtingen van middelgrote ondernemingen en de verplichting een geconsolideerde jaarrekening op te stellen
 Tijdens de voorbereidende werkzaamheden van de wet van 22 maart 2012 heeft de minister van Economie verklaard dat de regering ervoor opteert om het begrip “van te verwaarlozen betekenis” niet haarscherp af te lijnen maar hiervoor een open begrip te gebruiken. Dit laat toe dit begrip evolutief in te vullen en hierdoor wordt tevens vermeden dat de wet telkens aan een nieuwe realiteit moet worden aangepast. Hij verwijst vervolgens naar de Commissie voor Boekhoudkundige Normen voor de verdere omschrijving van het begrip.
 
 Op de vraag welke criteria in concreto zullen worden toegepast om te besluiten dat een dochteronderneming “van te verwaarlozen betekenis” is, antwoordt de minister dat een dochteronderneming uiteraard een aantal kwalitatieve aspecten moet hebben vooraleer men ze kan kwalificeren als “van te verwaarlozen betekenis”. Zo zal een dochteronderneming met slechts één werknemer niet als “van te verwaarlozen betekenis” worden bestempeld als de moederonderneming aanzienlijke financiële schulden bij deze vennootschap heeft ondergebracht. Maar die dochteronderneming is misschien wel “van te verwaarlozen betekenis” als ze oorspronkelijk werd opgericht om een activiteit te verrichten die nu volledig is afgebouwd en omwille van administratieve beslommeringen nooit werd opgeheven. 
 
 ## CBN-advies 2010/1 De interpretatie van de openbaarmakingsverplichting van transacties van enige betekenis met verbonden partijen buiten normale marktvoorwaarden, zoals bepaald in het koninklijk besluit van 10 augustus 2009
-
 CBN-advies 2010/1 behandelt de openbaarmakingsverplichting van transacties, indien zij *van enige* *betekenis* zijn. De Commissie is van oordeel dat de wetgever hier bedoelt dat, van de betrokken transacties, enkel de *materiële* transacties* *moeten worden toegelicht. Het begrip materieel wordt gebruikt in de (in de context van jaarrekeningen) internationaal algemeen aanvaarde betekenis van dat woord, volgens dewelke informatie materieel is indien het weglaten of het onjuist weergeven daarvan een invloed zou kunnen hebben op de economische beslissingen die gebruikers op basis van de jaarrekening nemen.[^10] 
 
 ## Besluit
-
 De Commissie is dan ook van oordeel dat een moedervennootschap slechts gebruik kan maken van het nieuwe art. 110, tweede lid W.Venn. indien, door het niet opnemen in haar geconsolideerde jaarrekening van dochterondernemingen (en dus in casu slechts een enkelvoudige jaarrekening op te maken) die, gelet op de beoordeling van het geconsolideerd vermogen, de geconsolideerde financiële positie of het geconsolideerd resultaat, individueel en tezamen, slechts van te verwaarlozen betekenis zijn, de gebruikers geen andere beslissingen zouden nemen dan deze op basis van een geconsolideerde jaarrekening die wel deze dochterondernemingen bevat. 
 
 Deze regel valt, zoals tevens gesteld door de bevoegde minister tijdens de parlementaire voorbereidingen, niet te herleiden tot het bepalen van een percentage van bijvoorbeeld het geconsolideerde balanstotaal of de geconsolideerde omzet. De regel moet integendeel mede kwalitatief beoordeeld worden.
 
 ## Gevolgen van de vrijstelling
-
 De Commissie wil evenwel niet nalaten te wijzen op een direct gevolg van de vrijstelling van consolidatieplicht in de hoger aangehaalde omstandigheden. Geassocieerde ondernemingen[^11] worden in de geconsolideerde jaarrekening opgenomen conform de vermogensmutatiemethode. Wanneer op een deelneming de vermogensmutatiemethode wordt toegepast, wordt zij in de geconsolideerde balans opgenomen voor het bedrag dat overeenkomt met het deel van het eigen vermogen van de betrokken vennootschap, inclusief het resultaat over het boekjaar, dat deze deelneming belichaamt[^12]. Bij vrijstelling van opstelling van de geconsolideerde jaarrekening worden deze participaties in de enkelvoudige jaarrekening opgenomen aan aanschaffingswaarde, wat mogelijks een verlies aan informatie betekent.
 
 [^1]: Pb. L 164, 26 juni 2009, blz. 42.

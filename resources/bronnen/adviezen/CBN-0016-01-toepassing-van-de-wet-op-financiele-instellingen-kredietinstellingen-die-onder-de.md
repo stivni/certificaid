@@ -10,45 +10,45 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/het-begrip-financiele-instelling
 nummer: CBN-advies 16/1
 provenance:
+  generated_at: '2026-05-11T17:48:38Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/toepassing-van-de-wet-op-financiele-instellingen-kredietinstellingen-die-onder-de
       sha256: f8e4652436db7b0cecba38ff5200255e61355b17c7d905b26369463da1ad4923
       version:
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
-    status: needs-rework
     confirmed_at: '2026-05-11T17:05:20Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: Frontmatter regel 9 bevat ongeparseerde HTML-entity '&quot;' in de YAML-waarde van gerelateerde_adviezen[1].titel ('Het begrip &quot;financiële instelling&quot;') — dit is een ETL-bug (HTML niet gedecode), geen source-typo. De typo 'valln' op regel 63 in de body-tekst is een source-typo (staat letterlijk op de CBN-website). Body zelf is verder volledig en clean.
     layer1:
-      file_size_chars: 1668
-      flags: []
+      status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:40Z'
       heading_count: 0
       max_section_chars: 1668
-      run_at: '2026-05-11T15:05:47Z'
-      run_id: 20260511-150547
-      status: pass
+      file_size_chars: 1668
+      flags: []
     layer2:
-      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T17:05:20Z'
-      rationale: Frontmatter regel 9 bevat ongeparseerde HTML-entity '&quot;' in de YAML-waarde van gerelateerde_adviezen[1].titel ('Het begrip &quot;financiële instelling&quot;') — dit is een ETL-bug (HTML niet gedecode), geen source-typo. De typo 'valln' op regel 63 in de body-tekst is een source-typo (staat letterlijk op de CBN-website). Body zelf is verder volledig en clean.
       concrete_problemen:
-        - regel: 9
-          categorie: G2
+        - categorie: G2
+          regel: 9
           type: other
           voorbeeld: 'titel: Het begrip &quot;financiële instelling&quot; — HTML-entity niet gedecode in YAML'
-        - regel: 63
-          categorie: (source)
+        - categorie: (source)
+          regel: 63
           type: source-typo
           voorbeeld: ondernemingen die onder de toepassing valln van het koninklijk besluit nr. 64
+      rationale: Frontmatter regel 9 bevat ongeparseerde HTML-entity '&quot;' in de YAML-waarde van gerelateerde_adviezen[1].titel ('Het begrip &quot;financiële instelling&quot;') — dit is een ETL-bug (HTML niet gedecode), geen source-typo. De typo 'valln' op regel 63 in de body-tekst is een source-typo (staat letterlijk op de CBN-website). Body zelf is verder volledig en clean.
+      run_at: '2026-05-11T17:05:20Z'
+      status: needs-rework
+    rationale: Frontmatter regel 9 bevat ongeparseerde HTML-entity '&quot;' in de YAML-waarde van gerelateerde_adviezen[1].titel ('Het begrip &quot;financiële instelling&quot;') — dit is een ETL-bug (HTML niet gedecode), geen source-typo. De typo 'valln' op regel 63 in de body-tekst is een source-typo (staat letterlijk op de CBN-website). Body zelf is verder volledig en clean.
+    status: needs-rework
 themas:
   - financiële instelling
   - kredietinstelling

@@ -10,49 +10,49 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/voorstelling-van-een-tabel-met-de-wijzigingen-in-het-eigen-vermogen-en-de-bestemming-van
 nummer: CBN-advies 133/3
 provenance:
+  generated_at: '2026-05-11T17:48:38Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/schulden-voortvloeiend-uit-de-bestemming-van-het-resultaat
       sha256: eeb181a25313d2f946b103d6ce4abb096651f4ec8382f7eec6018d461461c4ee
       version:
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
-    status: needs-rework
     confirmed_at: '2026-05-11T17:05:21Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "Drie ETL-artefacten bevestigd: D4 op L75: '*Belastingen *' heeft een spatie vóór de sluitende asterisk. A6 op L75: 'bruto- bedrag' is een hyphen-spatie word-split. A4 op L89: eerdere claim over U+00AC-teken in 'bruto¬schulden' niet visueel bevestigd in leesuitvoer maar niet weerlegbaar zonder binaire scan — status needs-rework gehandhaafd op basis van D4 en A6 alleen."
     layer1:
-      file_size_chars: 4040
-      flags: []
+      status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:41Z'
       heading_count: 0
       max_section_chars: 4040
-      run_at: '2026-05-11T15:05:48Z'
-      run_id: 20260511-150547
-      status: pass
+      file_size_chars: 4040
+      flags: []
     layer2:
-      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T17:05:21Z'
-      rationale: "Drie ETL-artefacten bevestigd: D4 op L75: '*Belastingen *' heeft een spatie vóór de sluitende asterisk. A6 op L75: 'bruto- bedrag' is een hyphen-spatie word-split. A4 op L89: eerdere claim over U+00AC-teken in 'bruto¬schulden' niet visueel bevestigd in leesuitvoer maar niet weerlegbaar zonder binaire scan — status needs-rework gehandhaafd op basis van D4 en A6 alleen."
       concrete_problemen:
-        - regel: 75
-          categorie: D4
+        - categorie: D4
+          regel: 75
           type: other
           voorbeeld: rubriek IX, E, 1 *Belastingen *en in het algemeen rekeningenstelsel (spatie voor sluitende *)
-        - regel: 75
-          categorie: A6
+        - categorie: A6
+          regel: 75
           type: other
           voorbeeld: of het bruto- bedrag moet worden vermeld (hyphen-spatie word-split)
-        - regel: 89
-          categorie: A4
+        - categorie: A4
+          regel: 89
           type: other
           voorbeeld: bruto¬schulden — mogelijk U+00AC als koppelteken (niet visueel bevestigd, wel eerder gemeld)
+      rationale: 'Drie ETL-artefacten bevestigd: D4 op L75: ''*Belastingen *'' heeft een spatie vóór de sluitende asterisk. A6 op L75: ''bruto- bedrag'' is een hyphen-spatie word-split. A4 op L89: eerdere claim over U+00AC-teken in ''bruto¬schulden'' niet visueel bevestigd in leesuitvoer maar niet weerlegbaar zonder binaire scan — status needs-rework gehandhaafd op basis van D4 en A6 alleen.'
+      run_at: '2026-05-11T17:05:21Z'
+      status: needs-rework
+    rationale: 'Drie ETL-artefacten bevestigd: D4 op L75: ''*Belastingen *'' heeft een spatie vóór de sluitende asterisk. A6 op L75: ''bruto- bedrag'' is een hyphen-spatie word-split. A4 op L89: eerdere claim over U+00AC-teken in ''bruto¬schulden'' niet visueel bevestigd in leesuitvoer maar niet weerlegbaar zonder binaire scan — status needs-rework gehandhaafd op basis van D4 en A6 alleen.'
+    status: needs-rework
 themas:
   - bestemming van het resultaat van het boekjaar
   - betaalbaarstelling

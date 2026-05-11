@@ -3,41 +3,41 @@ bron: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-inter
 datum: 2011-10-05
 nummer: CBN-advies 2011/19
 provenance:
+  generated_at: '2026-05-11T17:48:39Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-interestopbrengsten-en-kosten-door-erkende
       sha256: 6e6268271b2b7aa39644cb41d0ad3b69eced439bd52ae437e23c2be5296875e9
       version:
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
-    status: trusted
     confirmed_at: '2026-05-11T17:09:38Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: 'Eerder gemelde D4 (spatie voor sluitende asterisk op regels 60 en 63) is een source-typo: de CBN-website formatteert geciteerde wetteksten als italic met een spatie voor de sluiting — een mens die de HTML opent ziet hetzelfde. Geen echte ETL-artefacten (categorieën A-G) aanwezig. Document is compact (5053 chars, 2 headings), inhoudelijk volledig, alle 6 voetnoten correct.'
     layer1:
-      file_size_chars: 5053
-      flags: []
-      heading_count: 2
-      max_section_chars: 2386
-      run_at: '2026-05-11T15:05:50Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:43Z'
+      heading_count: 2
+      max_section_chars: 2385
+      file_size_chars: 5051
+      flags: []
     layer2:
-      status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T17:09:38Z'
-      rationale: 'Eerder gemelde D4 (spatie voor sluitende asterisk op regels 60 en 63) is een source-typo: de CBN-website formatteert geciteerde wetteksten als italic met een spatie voor de sluiting — een mens die de HTML opent ziet hetzelfde. Geen echte ETL-artefacten (categorieën A-G) aanwezig. Document is compact (5053 chars, 2 headings), inhoudelijk volledig, alle 6 voetnoten correct.'
       concrete_problemen:
-        - regel: 60
-          categorie: (source)
+        - categorie: (source)
+          regel: 60
           type: source-typo
           voorbeeld: '*"Een Belgische of buitenlandse onderneming:* '
+      rationale: 'Eerder gemelde D4 (spatie voor sluitende asterisk op regels 60 en 63) is een source-typo: de CBN-website formatteert geciteerde wetteksten als italic met een spatie voor de sluiting — een mens die de HTML opent ziet hetzelfde. Geen echte ETL-artefacten (categorieën A-G) aanwezig. Document is compact (5053 chars, 2 headings), inhoudelijk volledig, alle 6 voetnoten correct.'
+      run_at: '2026-05-11T17:09:38Z'
+      status: trusted
+    rationale: 'Eerder gemelde D4 (spatie voor sluitende asterisk op regels 60 en 63) is een source-typo: de CBN-website formatteert geciteerde wetteksten als italic met een spatie voor de sluiting — een mens die de HTML opent ziet hetzelfde. Geen echte ETL-artefacten (categorieën A-G) aanwezig. Document is compact (5053 chars, 2 headings), inhoudelijk volledig, alle 6 voetnoten correct.'
+    status: trusted
 themas:
   - erkende kredietmaatschappij
   - kredietmaatschappij
@@ -50,7 +50,6 @@ Met een “erkende kredietmaatschappij” wordt de hypothecaire kredietmaatschap
 De erkenning kan, onder de gestelde voorwaarden[^2] door de minister voor onbepaalde duur verleend worden aan elke kredietmaatschappij die wil deelnemen aan de opdracht van algemeen belang ter bevordering van het bouwen, kopen, verbouwen of behouden van bescheiden woningen. Het Vlaamse gewest waarborgt, onder de voorwaarden die de Vlaamse regering stelt, de terugbetaling van de hoofdsom en de betaling van de interest en de extra kosten van sociale leningen toegestaan door bij besluit van de Vlaamse regering erkende kredietmaatschappijen[^3].
 
 ## Onderworpenheid aan de Boekhoudwet
-
 Artikel 15 van de wet van 17 juli 1975 op de boekhouding van de ondernemingen (hierna: Boekhoudwet) stelt dat een aantal bepalingen[^4] niet van toepassing zijn op kredietinstellingen die vallen onder de wet van 22 maart 1993 op het statuut van en het toezicht op kredietinstellingen. Het lijkt de Commissie dan ook noodzakelijk om na te gaan in hoeverre een erkende kredietmaatschappij onder de noemer “kredietinstelling” valt. De wet van 22 maart 1993 op het statuut van en het toezicht op de kredietinstellingen[^5] definieert een kredietinstelling als volgt: 
 
 *“Een Belgische of buitenlandse onderneming:* 
@@ -61,7 +60,6 @@ Artikel 15 van de wet van 17 juli 1975 op de boekhouding van de ondernemingen (h
 Het *publiek in ontvangst nemen van gelddeposito's of van andere terugbetaalbare gelden* is geen activiteit die een erkende kredietmaatschappij kan ontwikkelen. Het betreft bijgevolg geen onderneming onderworpen aan het koninklijk besluit van 23 september 1992 op de jaarrekening van de kredietinstellingen, de beleggingsondernemingen en de beheervennootschappen van instellingen voor collectieve belegging[^6]. Derhalve is de Boekhoudwet en haar uitvoeringsbesluiten van toepassing. Voor wat betreft de opmaak van de jaarrekening zijn deze ondernemingen onderworpen aan Boek II van het koninklijk besluit van 30 januari 2001 ter uitvoering van het Wetboek van Vennootschappen (hierna: KB W.Venn.).
 
 ## Classificatie van de interesten
-
 Aan de Commissie werd de vraag gesteld op welke resultatenrekeningen de door deze kredietmaatschappijen ontvangen interesten (van particuliere hypothecaire beleggers) en de door hen betaalde interesten (voor de fundingopnames) dienen geboekt te worden.
 
 Artikel 96 KB W.Venn. betreffende de inhoud van bepaalde rubrieken van de resultatenrekening definieert “omzet” als volgt: *“het bedrag van de verkoop van de goederen en de levering van diensten aan derden, in het kader van de gewone bedrijfsuitoefening van de vennootschap ...”* 

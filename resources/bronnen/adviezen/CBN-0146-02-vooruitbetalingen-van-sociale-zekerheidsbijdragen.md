@@ -2,59 +2,56 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/vooruitbetalingen-van-sociale-zekerheidsbijdragen
 datum: 1988-06-01
 gerelateerde_adviezen:
-- datum: '2016-07-06'
-  titel: 'Schulden en vorderingen: gevolgen van de wijzigingen aan artikel 67 KB W.Venn.
-    door het koninklijk besluit van 18 december 2015'
-  url: https://www.cbn-cnc.be/nl/adviezen/schulden-en-vorderingen-gevolgen-van-de-wijzigingen-aan-artikel-67-kb-wvenn-door-het
-- datum: '2010-12-08'
-  titel: Boekhoudrechtelijke verwerking van betwiste schulden
-  url: https://www.cbn-cnc.be/nl/adviezen/boekhoudrechtelijke-verwerking-van-betwiste-schulden
-- datum: '1984-10-01'
-  titel: Vorderingen (en schulden) met forfaitair lastenpercentage
-  url: https://www.cbn-cnc.be/nl/adviezen/vorderingen-en-schulden-met-forfaitair-lastenpercentage
-- datum: '1980-06-01'
-  titel: Betwiste fiscale aanslag
-  url: https://www.cbn-cnc.be/nl/adviezen/betwiste-fiscale-aanslag
+  - datum: '2016-07-06'
+    titel: 'Schulden en vorderingen: gevolgen van de wijzigingen aan artikel 67 KB W.Venn. door het koninklijk besluit van 18 december 2015'
+    url: https://www.cbn-cnc.be/nl/adviezen/schulden-en-vorderingen-gevolgen-van-de-wijzigingen-aan-artikel-67-kb-wvenn-door-het
+  - datum: '2010-12-08'
+    titel: Boekhoudrechtelijke verwerking van betwiste schulden
+    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudrechtelijke-verwerking-van-betwiste-schulden
+  - datum: '1984-10-01'
+    titel: Vorderingen (en schulden) met forfaitair lastenpercentage
+    url: https://www.cbn-cnc.be/nl/adviezen/vorderingen-en-schulden-met-forfaitair-lastenpercentage
+  - datum: '1980-06-01'
+    titel: Betwiste fiscale aanslag
+    url: https://www.cbn-cnc.be/nl/adviezen/betwiste-fiscale-aanslag
 nummer: CBN-advies 146/2
 provenance:
-  generated_at: '2026-05-11T15:15:31Z'
+  generated_at: '2026-05-11T17:48:38Z'
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/vooruitbetalingen-van-sociale-zekerheidsbijdragen
-    sha256: a5fcb5df7d0ba93c414823187809481a053f039a0cdf6a6d49a564659e192fdb
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/vooruitbetalingen-van-sociale-zekerheidsbijdragen
+      sha256: a5fcb5df7d0ba93c414823187809481a053f039a0cdf6a6d49a564659e192fdb
+      version:
   stale: false
-  stale_reason: null
+  stale_reason:
   tooling:
-    model: null
+    model:
     pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    prompt_version: null
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
     confirmed_at: '2026-05-11T12:04:41Z'
     confirmed_by: subagent-sonnet-4-6
     layer1:
-      file_size_chars: 1773
-      flags: []
+      status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:41Z'
       heading_count: 0
       max_section_chars: 1773
-      run_at: '2026-05-11T15:05:49Z'
-      run_id: 20260511-150547
-      status: pass
+      file_size_chars: 1773
+      flags: []
     layer2:
       agent: subagent-sonnet-4-6
       concrete_problemen: []
-      rationale: Zeer kort advies (1776 chars), 3 voetnoten volledig gedefinieerd.
-        Geen artefacten, geen structuurfouten.
+      rationale: Zeer kort advies (1776 chars), 3 voetnoten volledig gedefinieerd. Geen artefacten, geen structuurfouten.
       run_at: '2026-05-11T12:04:41Z'
       status: trusted
-    rationale: Zeer kort advies (1776 chars), 3 voetnoten volledig gedefinieerd. Geen
-      artefacten, geen structuurfouten.
+    rationale: Zeer kort advies (1776 chars), 3 voetnoten volledig gedefinieerd. Geen artefacten, geen structuurfouten.
     status: trusted
 themas:
-- schulden
-- toelichting
-- Vooruitbetaling
-- vooruitbetaling van sociale zekerheidsbijdragen
+  - schulden
+  - toelichting
+  - Vooruitbetaling
+  - vooruitbetaling van sociale zekerheidsbijdragen
 ---
 
 # CBN-advies 146/2 - Vooruitbetalingen van sociale zekerheidsbijdragen

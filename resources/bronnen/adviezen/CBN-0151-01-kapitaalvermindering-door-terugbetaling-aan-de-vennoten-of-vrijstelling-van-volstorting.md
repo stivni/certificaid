@@ -16,49 +16,49 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/van-een-kapitaalhoudende-bvba-naar-een-kapitaalloze-bv
 nummer: CBN-advies 151/1
 provenance:
+  generated_at: '2026-05-11T17:48:38Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/kapitaalvermindering-door-terugbetaling-aan-de-vennoten-of-vrijstelling-van-volstorting
       sha256: 2c34d7979e80bfbd6561058adfafea05e047e5a8132eff5aa7e6653a664220fc
       version:
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
-    status: needs-rework
     confirmed_at: '2026-05-11T17:05:21Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "E2: alle drie boekingstabellen (regels 77-80, 90-93, 96-99) hebben volledig lege debet- en creditkolommen — bedragen ontbreken volledig, ongewijzigd t.o.v. ronde 2. Regel 99 '| aan | | 101 | | Niet-opgevraagd kapitaal |' heeft bovendien een extra lege cel die de kolomuitlijning verbreekt."
     layer1:
-      file_size_chars: 3764
-      flags: []
-      heading_count: 1
-      max_section_chars: 3764
-      run_at: '2026-05-11T15:05:49Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:41Z'
+      heading_count: 2
+      max_section_chars: 2796
+      file_size_chars: 3765
+      flags: []
     layer2:
-      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T17:05:21Z'
-      rationale: "E2: alle drie boekingstabellen (regels 77-80, 90-93, 96-99) hebben volledig lege debet- en creditkolommen — bedragen ontbreken volledig, ongewijzigd t.o.v. ronde 2. Regel 99 '| aan | | 101 | | Niet-opgevraagd kapitaal |' heeft bovendien een extra lege cel die de kolomuitlijning verbreekt."
       concrete_problemen:
-        - regel: 79
-          categorie: E2
+        - categorie: E2
+          regel: 79
           type: other
           voorbeeld: '| | 100 | Geplaatst kapitaal | | |'
-        - regel: 80
-          categorie: E2
+        - categorie: E2
+          regel: 80
           type: other
           voorbeeld: '| aan | 48 | Diverse | | |'
-        - regel: 99
-          categorie: E2
+        - categorie: E2
+          regel: 99
           type: other
           voorbeeld: '| aan | | 101 | | Niet-opgevraagd kapitaal |'
+      rationale: 'E2: alle drie boekingstabellen (regels 77-80, 90-93, 96-99) hebben volledig lege debet- en creditkolommen — bedragen ontbreken volledig, ongewijzigd t.o.v. ronde 2. Regel 99 ''| aan | | 101 | | Niet-opgevraagd kapitaal |'' heeft bovendien een extra lege cel die de kolomuitlijning verbreekt.'
+      run_at: '2026-05-11T17:05:21Z'
+      status: needs-rework
+    rationale: 'E2: alle drie boekingstabellen (regels 77-80, 90-93, 96-99) hebben volledig lege debet- en creditkolommen — bedragen ontbreken volledig, ongewijzigd t.o.v. ronde 2. Regel 99 ''| aan | | 101 | | Niet-opgevraagd kapitaal |'' heeft bovendien een extra lege cel die de kolomuitlijning verbreekt.'
+    status: needs-rework
 themas:
   - kapitaal
   - kapitaalvermindering
@@ -90,14 +90,12 @@ De vennootschap moet derhalve haar vordering op haar aandeelhouders in haar acti
 In dit geval worden bijgevolg onderstaande boekingen verricht : 
 
 ## Kapitaalvermindering
-
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 100 | Geplaatst kapitaal | | |
 | aan | 48 | Diverse schulden | | |
 
 ## Voorlopig behoud van de vordering op de aandeelhouders:
-
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 410 | Diverse vorderingen | | |

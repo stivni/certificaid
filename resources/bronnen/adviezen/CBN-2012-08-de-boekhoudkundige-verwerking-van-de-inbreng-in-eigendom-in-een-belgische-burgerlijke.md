@@ -3,49 +3,49 @@ bron: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-in
 datum: 2012-06-06
 nummer: CBN-advies 2012/8
 provenance:
+  generated_at: '2026-05-11T17:48:39Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-inbreng-in-eigendom-in-een-belgische-burgerlijke
       sha256: cf24aa3f760d50dc1b488d09cc2327fdf8077a89461654915c14c249c627b655
       version:
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
-    status: needs-rework
     confirmed_at: '2026-05-11T17:09:38Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "E1: de balanstabel op regels 123-128 is niet in standaard markdown pipe-syntax met header-separator — de rijen hebben geen `|---|` scheidingsrij en zijn onvolledig uitgebalanceerd. B2: regels 130, 136 en 142 tonen '## Terreinen en gebouwen', '## Meubilair en rollend materieel' en '## Financiële vaste activa' als ## headings terwijl dit inhoudelijk subsecties van een Voorbeeld zijn — ze hadden ### niveau moeten hebben, waardoor de heading-hiërarchie springt. D4: regel 113 eindigt op '2/7.\" *' met spatie vóór de sluitende asterisk, waardoor de italic-markup ongeldig is in de meeste parsers."
     layer1:
-      file_size_chars: 12678
-      flags: []
-      heading_count: 6
-      max_section_chars: 4883
-      run_at: '2026-05-11T15:05:50Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:43Z'
+      heading_count: 6
+      max_section_chars: 4882
+      file_size_chars: 12427
+      flags: []
     layer2:
-      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T17:09:38Z'
-      rationale: "E1: de balanstabel op regels 123-128 is niet in standaard markdown pipe-syntax met header-separator — de rijen hebben geen `|---|` scheidingsrij en zijn onvolledig uitgebalanceerd. B2: regels 130, 136 en 142 tonen '## Terreinen en gebouwen', '## Meubilair en rollend materieel' en '## Financiële vaste activa' als ## headings terwijl dit inhoudelijk subsecties van een Voorbeeld zijn — ze hadden ### niveau moeten hebben, waardoor de heading-hiërarchie springt. D4: regel 113 eindigt op '2/7.\" *' met spatie vóór de sluitende asterisk, waardoor de italic-markup ongeldig is in de meeste parsers."
       concrete_problemen:
-        - regel: 123
-          categorie: E1
+        - categorie: E1
+          regel: 123
           type: pseudo-table
           voorbeeld: "| Balans vennootschap A (aandeel in de maatschap : 4/7) | \n|---|\n| Terreinen en gebouwen | | 228.571,43 | | | | |"
-        - regel: 130
-          categorie: B2
+        - categorie: B2
+          regel: 130
           type: other
           voorbeeld: '## Terreinen en gebouwen'
-        - regel: 113
-          categorie: D4
+        - categorie: D4
+          regel: 113
           type: other
           voorbeeld: Het aandeel van vennootschap C in de maatschap bedraagt 2/7." *
+      rationale: 'E1: de balanstabel op regels 123-128 is niet in standaard markdown pipe-syntax met header-separator — de rijen hebben geen `|---|` scheidingsrij en zijn onvolledig uitgebalanceerd. B2: regels 130, 136 en 142 tonen ''## Terreinen en gebouwen'', ''## Meubilair en rollend materieel'' en ''## Financiële vaste activa'' als ## headings terwijl dit inhoudelijk subsecties van een Voorbeeld zijn — ze hadden ### niveau moeten hebben, waardoor de heading-hiërarchie springt. D4: regel 113 eindigt op ''2/7." *'' met spatie vóór de sluitende asterisk, waardoor de italic-markup ongeldig is in de meeste parsers.'
+      run_at: '2026-05-11T17:09:38Z'
+      status: needs-rework
+    rationale: 'E1: de balanstabel op regels 123-128 is niet in standaard markdown pipe-syntax met header-separator — de rijen hebben geen `|---|` scheidingsrij en zijn onvolledig uitgebalanceerd. B2: regels 130, 136 en 142 tonen ''## Terreinen en gebouwen'', ''## Meubilair en rollend materieel'' en ''## Financiële vaste activa'' als ## headings terwijl dit inhoudelijk subsecties van een Voorbeeld zijn — ze hadden ### niveau moeten hebben, waardoor de heading-hiërarchie springt. D4: regel 113 eindigt op ''2/7." *'' met spatie vóór de sluitende asterisk, waardoor de italic-markup ongeldig is in de meeste parsers.'
+    status: needs-rework
 themas:
   - burgerlijke maatschap
   - inbreng
@@ -55,17 +55,12 @@ themas:
 
 # CBN-advies 2012/8 – De boekhoudkundige verwerking van de inbreng in eigendom in een Belgische burgerlijke maatschap die niet de rechtsvorm heeft aangenomen van een handelsvennootschap
 
-1. Inbreng in een Belgische burgerlijke maatschap die niet de rechtsvorm heeft aangenomen van een handelsvennootschap 
-2. Boekhoudkundige verwerking: proportionele integratie conform het CBN-advies 3/3 inzake tijdelijke handelsvennootschappen 
-
 ## Inleiding
-
 Aan de Commissie werd gevraagd hoe een onderneming die een inbreng verricht in een burgerlijke maatschap dit in haar boekhouding en jaarrekening tot uitdrukking dient te brengen. 
 
 Dit advies behandelt de inbrengen die de vorm aannemen van een inbreng in eigendom in een Belgische[^1] burgerlijke maatschap die niet de rechtsvorm heeft aangenomen van een handelsvennootschap. Nadat de vraag is beantwoord of in dit specifieke geval sprake is van realisatie, komt de boekhoudkundige verwerking aan bod.
 
 ## Inbreng in een Belgische burgerlijke maatschap die niet de rechtsvorm heeft aangenomen van een handelsvennootschap
-
 De burgerlijke maatschap wordt beheerst door de bepalingen van het Wetboek van Vennootschappen (hierna: W.Venn.) en door haar statuten. 
 
 Gelet op het feit dat een burgerlijke maatschap geen rechtspersoonlijkheid heeft en dus niet over een afgescheiden vermogen beschikt[^2], worden de ingebrachte goederen[^3] geen eigendom van de maatschap, maar komen deze daarentegen in mede-eigendom tussen de verschillende vennoten.[^4]
@@ -81,7 +76,6 @@ Dit wijst er volgens de Commissie op dat wel degelijk een eigendomsoverdracht, e
 - in ruil voor de afstand van 2/3 van zijn eigendomsrecht op het onroerend goed, onverdeelde eigendom in de door de andere deelnemers ingebrachte (on)roerende goederen verwerven, en in voorkomend geval een meerwaarde realiseren op deze 2/3 waarvan de eigendom wordt afgestaan.[^8] 
 
 ## Boekhoudkundige verwerking: proportionele integratie conform het CBN-advies 3/3 inzake tijdelijke handelsvennootschappen
-
 Aangezien de burgerlijke maatschap, net zoals de tijdelijke handelsvennootschap en de stille handelsvennootschap, niet over rechtspersoonlijkheid en dus ook niet over een afgescheiden vermogen beschikt, is de Commissie van mening dat het aandeel in de burgerlijke maatschap niet geboekt kan worden als financieel vast actief[^9] op de balans van de inbrengende rechtspersoon.
 
 Ook de boekhoudkundige verwerkingsmethode van de inbreng in de burgerlijke maatschap dient volgens de Commissie gebaseerd te worden op de principes die werden uiteengezet in het advies omtrent de boekhoudkundige verwerking van de verrichtingen van tijdelijke handelsvennootschappen.[^10]
@@ -128,19 +122,16 @@ Na de inbreng in de burgerlijke maatschap zullen volgende bedragen op de balans 
 | Financiële vaste activa | | 114.285,71 | | | | | 
 
 ## Terreinen en gebouwen
-
 Vennootschap A blijft eigenaar van haar onverdeeld aandeel, nl. 4/7 van 400.000 (de werkelijke waarde van de eigen inbreng). 
 
 4/7 * 400.000 = 228.571,43
 
 ## Meubilair en rollend materieel
-
 N.a.v. haar eigen inbreng verkrijgt vennootschap A 4/7 van de inbreng door vennootschap B. 
 
 4/7 * 100.000 = 57.142,86
 
 ## Financiële vaste activa
-
 N.a.v. haar eigen inbreng verkrijgt vennootschap A tevens 4/7 van de inbreng door vennootschap C. 
 
 4/7 * 200.000 = 114.285,71

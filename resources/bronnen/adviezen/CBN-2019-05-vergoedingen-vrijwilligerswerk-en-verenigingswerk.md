@@ -3,70 +3,62 @@ bron: https://www.cbn-cnc.be/nl/adviezen/vergoedingen-vrijwilligerswerk-en-veren
 datum: 2019-06-14
 nummer: CBN-advies 2019/05
 provenance:
-  generated_at: '2026-05-11T15:15:32Z'
+  generated_at: '2026-05-11T17:48:39Z'
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/vergoedingen-vrijwilligerswerk-en-verenigingswerk
-    sha256: af5055b9bac4417d6f7c9ae95333d8d0fa0334ed88b6a5f79771e2b511c029be
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/vergoedingen-vrijwilligerswerk-en-verenigingswerk
+      sha256: af5055b9bac4417d6f7c9ae95333d8d0fa0334ed88b6a5f79771e2b511c029be
+      version:
   stale: false
-  stale_reason: null
+  stale_reason:
   tooling:
-    model: null
+    model:
     pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    prompt_version: null
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
     confirmed_at: '2026-05-11T12:21:40Z'
     confirmed_by: subagent-sonnet-4-6
     layer1:
-      file_size_chars: 5320
-      flags: []
-      heading_count: 4
-      max_section_chars: 2506
-      run_at: '2026-05-11T15:05:53Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:44Z'
+      heading_count: 4
+      max_section_chars: 2505
+      file_size_chars: 5316
+      flags: []
     layer2:
       agent: subagent-sonnet-4-6
       concrete_problemen: []
-      rationale: Kort advies, volledig schoon. Vier headings correct (H1 > H2). Geen
-        artefacten, geen broken italics, geen TOC-fragmenten, geen open-brackets.
-        Voetnoten [^1]–[^8] aanwezig en gesloten. Inhoud volledig.
+      rationale: Kort advies, volledig schoon. Vier headings correct (H1 > H2). Geen artefacten, geen broken italics, geen TOC-fragmenten, geen open-brackets. Voetnoten [^1]–[^8] aanwezig en gesloten. Inhoud volledig.
       run_at: '2026-05-11T12:21:40Z'
       status: trusted
-    rationale: Kort advies, volledig schoon. Vier headings correct (H1 > H2). Geen
-      artefacten, geen broken italics, geen TOC-fragmenten, geen open-brackets. Voetnoten
-      [^1]–[^8] aanwezig en gesloten. Inhoud volledig.
+    rationale: Kort advies, volledig schoon. Vier headings correct (H1 > H2). Geen artefacten, geen broken italics, geen TOC-fragmenten, geen open-brackets. Voetnoten [^1]–[^8] aanwezig en gesloten. Inhoud volledig.
     status: trusted
 themas:
-- vrijwilligersvergoeding
-- vrijwilliger
-- verenigingswerk
-- vrijwilligerswerk
-- bezoldiging
-- vergoeding aan bestuurders
+  - vrijwilligersvergoeding
+  - vrijwilliger
+  - verenigingswerk
+  - vrijwilligerswerk
+  - bezoldiging
+  - vergoeding aan bestuurders
 ---
 
 # CBN-advies 2019/05 – Vergoedingen vrijwilligerswerk en verenigingswerk
 
 ## Algemeen
-
 In onderhavig advies wordt de boekhoudkundige verwerking behandeld van vrijwilligersvergoedingen toegekend door boekhoudplichtige ondernemingen die een boekhouding voeren met inachtneming van de gebruikelijke regels van het dubbel boekhouden. Onderhavig advies wordt uitgebracht naar aanleiding van de Wet van 18 juli 2018 betreffende de economische relance en de versterking van de sociale cohesie en meer in het bijzonder ingevolge de voorziene vergoedingsregeling voor het bezoldigde verenigingswerk zoals gestipuleerd in voornoemde wet[^2]. Daarnaast is onderhavig advies ook van toepassing op de vergoedingen voor het onbezoldigde vrijwilligerswerk toegekend overeenkomstig de Wet van 3 juli 2005 betreffende de rechten van vrijwilligers[^3].
 
 ## Vergoeding voor verenigingswerk
-
 De partijen bij het verenigingswerk zoals gedefinieerd in voornoemde wet van 18 juli 2018, kunnen binnen bepaalde grenzen een vergoeding overeenkomen voor het gepresteerde verenigingswerk. Deze vergoeding omvat naast een, weliswaar beperkte, vergoeding voor de geleverde prestaties ook alle vergoedingen die de terugbetaling van kosten of verplaatsingen betreffen.[^4] 
 
 Verenigingswerkers worden niet gelijkgesteld met werknemers omwille van de omstandigheden waarin de prestaties door beiden worden verricht. De werknemer levert zijn prestaties in uitvoering van een arbeidsovereenkomst in een kader dat in de eerste plaats gericht is op het verkrijgen van een loon. De verenigingswerker daarentegen levert de prestaties in de eerste plaats omwille van het maatschappelijk belang. De vergoeding van de verenigingswerker is bijkomstig en wordt om deze redenen dan ook wettelijk beperkt[^5]. Bij een arbeidsovereenkomst vormt het loon een essentieel element van de overeenkomst. Bij een verenigingsovereenkomst daarentegen is de vergoeding bijkomstig en kan deze zelfs afwezig zijn, wat uitgesloten is in het kader van een arbeidsovereenkomst.[^6] 
 
 ## Vrijwilligersvergoeding
-
 Overeenkomstig de wet van 3 juli 2005 betreffende de rechten van vrijwilligers heeft vrijwilligerswerk betrekking op elke activiteit die onbezoldigd en onverplicht wordt verricht ten behoeve van één of meer personen, andere dan degene die de activiteit verricht, van een groep of organisatie of van de samenleving als geheel. De activiteit moet voorts worden ingericht door een organisatie anders dan het familie- of privéverband van degene die de activiteit verricht. Zij mag niet door dezelfde persoon en voor dezelfde organisatie worden verricht in het kader van een arbeidsovereenkomst, een dienstencontract of een statutaire aanstelling. 
 
 De vergoeding van de vrijwilliger is beperkt tot een forfaitaire kostenvergoeding.[^7] 
 
 ## Boekhoudkundige verwerking
-
 De vergoedingen voor verenigingswerk en de vrijwilligersvergoedingen vallen volledig buiten het stelsel van de arbeidsovereenkomsten. Bijgevolg worden deze vergoedingen boekhoudkundig niet opgenomen onder de rekening 62 *Bezoldigingen, sociale lasten en pensioenen* maar onder een door het bestuursorgaan passend geachte subrekening van de rekening 61 *Diensten en diverse goederen*, andere dan de rekeningen 617 en 618 die voorbehouden zijn voor respectievelijk uitzendkrachten en bestuurders.[^8]
 
 [^1]: Onderhavig advies is tot stand gekomen nadat een ontwerpadvies op 5 april 2019 ter publieke consultatie werd gepubliceerd op de website van de CBN.

@@ -2,66 +2,57 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/openbaarmakingsverplichtingen-in-hoofde-van-de-vennootschap-onder-firma-en-de
 datum: 2024-06-10
 gerelateerde_adviezen:
-- datum: '2021-03-11'
-  titel: De boekhoudkundige verwerking van het vennootschapsvermogen van een VOF en
-    een CommV ingevolge de inwerkingtreding van het WVV
-  url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-het-vennootschapsvermogen-van-een-vof-en-een-commv
-- datum: '2019-10-28'
-  titel: 'De vereenvoudigde boekhouding van een natuurlijke persoon, maatschap, vennootschap
-    onder firma en commanditaire vennootschap: groottecriteria – omzetdefinitie'
-  url: https://www.cbn-cnc.be/nl/adviezen/de-vereenvoudigde-boekhouding-van-een-natuurlijke-persoon-maatschap-vennootschap-onder
+  - datum: '2021-03-11'
+    titel: De boekhoudkundige verwerking van het vennootschapsvermogen van een VOF en een CommV ingevolge de inwerkingtreding van het WVV
+    url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-het-vennootschapsvermogen-van-een-vof-en-een-commv
+  - datum: '2019-10-28'
+    titel: 'De vereenvoudigde boekhouding van een natuurlijke persoon, maatschap, vennootschap onder firma en commanditaire vennootschap: groottecriteria – omzetdefinitie'
+    url: https://www.cbn-cnc.be/nl/adviezen/de-vereenvoudigde-boekhouding-van-een-natuurlijke-persoon-maatschap-vennootschap-onder
 nummer: CBN-advies 2024/06
 provenance:
-  generated_at: '2026-05-11T15:15:32Z'
+  generated_at: '2026-05-11T17:48:40Z'
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/openbaarmakingsverplichtingen-in-hoofde-van-de-vennootschap-onder-firma-en-de
-    sha256: 0b3cd75f6c92a1d6d6baeebc0d4500f100c1eea75a76911222ececfb827a2bea
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/openbaarmakingsverplichtingen-in-hoofde-van-de-vennootschap-onder-firma-en-de
+      sha256: 0b3cd75f6c92a1d6d6baeebc0d4500f100c1eea75a76911222ececfb827a2bea
+      version:
   stale: false
-  stale_reason: null
+  stale_reason:
   tooling:
-    model: null
+    model:
     pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    prompt_version: null
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
     confirmed_at: '2026-05-11T12:24:34Z'
     confirmed_by: subagent-sonnet-4-6
     layer1:
-      file_size_chars: 3081
-      flags: []
+      status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:45Z'
       heading_count: 0
       max_section_chars: 3081
-      run_at: '2026-05-11T15:05:54Z'
-      run_id: 20260511-150547
-      status: pass
+      file_size_chars: 3081
+      flags: []
     layer2:
       agent: subagent-sonnet-4-6
       concrete_problemen: []
-      rationale: 'Zeer kort advies (~3100 chars). Layer1 meldt heading_count: 0 —
-        het document heeft geen ## headings, enkel de # H1-titel, wat correct is voor
-        een advies van één alinea. Geen extractie-artefacten. Voetnoten [^1]–[^4]
-        volledig. Inhoud volledig voor het smalle onderwerp (VOF/CommV turboliquidatie
-        en openbaarmakingsplicht).'
+      rationale: 'Zeer kort advies (~3100 chars). Layer1 meldt heading_count: 0 — het document heeft geen ## headings, enkel de # H1-titel, wat correct is voor een advies van één alinea. Geen extractie-artefacten. Voetnoten [^1]–[^4] volledig. Inhoud volledig voor het smalle onderwerp (VOF/CommV turboliquidatie en openbaarmakingsplicht).'
       run_at: '2026-05-11T12:24:34Z'
       status: trusted
-    rationale: 'Zeer kort advies (~3100 chars). Layer1 meldt heading_count: 0 — het
-      document heeft geen ## headings, enkel de # H1-titel, wat correct is voor een
-      advies van één alinea. Geen extractie-artefacten. Voetnoten [^1]–[^4] volledig.
-      Inhoud volledig voor het smalle onderwerp (VOF/CommV turboliquidatie en openbaarmakingsplicht).'
+    rationale: 'Zeer kort advies (~3100 chars). Layer1 meldt heading_count: 0 — het document heeft geen ## headings, enkel de # H1-titel, wat correct is voor een advies van één alinea. Geen extractie-artefacten. Voetnoten [^1]–[^4] volledig. Inhoud volledig voor het smalle onderwerp (VOF/CommV turboliquidatie en openbaarmakingsplicht).'
     status: trusted
 themas:
-- VOF
-- openbaarmaking
-- vereffening
-- publicatie
-- vennootschap onder firma
-- commanditaire vennootschap
-- CommV
-- onmiddellijke sluiting van de vereffening
-- turboliquidatie
-- jaarrekening
-- ontbinding en vereffening in één akte
+  - VOF
+  - openbaarmaking
+  - vereffening
+  - publicatie
+  - vennootschap onder firma
+  - commanditaire vennootschap
+  - CommV
+  - onmiddellijke sluiting van de vereffening
+  - turboliquidatie
+  - jaarrekening
+  - ontbinding en vereffening in één akte
 ---
 
 # CBN-advies 2024/06 – Openbaarmakingsverplichtingen in hoofde van de vennootschap onder firma en de commanditaire vennootschap bij onmiddellijke sluiting van de vereffening

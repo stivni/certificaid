@@ -3,41 +3,41 @@ bron: https://www.cbn-cnc.be/nl/adviezen/verwerking-van-uitgegeven-inschrijvings
 datum: 1995-03-01
 nummer: CBN-advies 139/7
 provenance:
+  generated_at: '2026-05-11T17:48:38Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/verwerking-van-uitgegeven-inschrijvingsrechten-in-de-jaarrekening
       sha256: d7cc7231e7ba165a07ecdb818bfd59a4691c760209f111e9bb6bd2a2d13576e0
       version:
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
-    status: needs-rework
     confirmed_at: '2026-05-11T17:05:21Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "A4 (regel 68): heading '### Kosteloos uitgegeven warrants' bevat nog steeds drie U+200B zero-width spaces als trailing whitespace — ongewijzigd t.o.v. ronde 2. Verder geen andere artefacten; heading-structuur en inhoud volledig."
     layer1:
-      file_size_chars: 4281
-      flags: []
-      heading_count: 5
-      max_section_chars: 2085
-      run_at: '2026-05-11T15:05:49Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:41Z'
+      heading_count: 5
+      max_section_chars: 2082
+      file_size_chars: 4275
+      flags: []
     layer2:
-      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T17:05:21Z'
-      rationale: "A4 (regel 68): heading '### Kosteloos uitgegeven warrants' bevat nog steeds drie U+200B zero-width spaces als trailing whitespace — ongewijzigd t.o.v. ronde 2. Verder geen andere artefacten; heading-structuur en inhoud volledig."
       concrete_problemen:
-        - regel: 68
-          categorie: A4
+        - categorie: A4
+          regel: 68
           type: other
           voorbeeld: '### Kosteloos uitgegeven warrants ​​​'
+      rationale: 'A4 (regel 68): heading ''### Kosteloos uitgegeven warrants'' bevat nog steeds drie U+200B zero-width spaces als trailing whitespace — ongewijzigd t.o.v. ronde 2. Verder geen andere artefacten; heading-structuur en inhoud volledig.'
+      run_at: '2026-05-11T17:05:21Z'
+      status: needs-rework
+    rationale: 'A4 (regel 68): heading ''### Kosteloos uitgegeven warrants'' bevat nog steeds drie U+200B zero-width spaces als trailing whitespace — ongewijzigd t.o.v. ronde 2. Verder geen andere artefacten; heading-structuur en inhoud volledig.'
+    status: needs-rework
 themas:
   - converteerbare obligatie
   - inschrijvingsrecht
@@ -54,7 +54,6 @@ themas:
 ---
 
 # CBN advies 139-7 - Verwerking van uitgegeven inschrijvingsrechten in de jaarrekening
-
 De adviezen 139/1, 139/4, 139/5 en 139/6 van de Commissie handelden over de wijze waarop converteerbare obligaties of obligaties met voorkeurrecht alsook autonome warrants (inschrijvingsrechten), moeten worden verwerkt in de jaarrekening van de onderneming die ze heeft verworven en die ze in bezit heeft.
 
 De Commissie werd verzocht die adviezen aan te vullen met een advies over de wijze waarop warrants (inschrijvingsrechten) en converteerbare obligaties moeten worden geboekt door de vennootschap die ze heeft uitgegeven. Dit advies betreft enkel de rechten tot omzetting in aandelen van de betrokken vennootschap of tot inschrijving op dergelijke aandelen, ongeacht of die obligaties of warrants door de vennootschap zelf of door een verwante vennootschap zijn uitgegeven. Het heeft bijgevolg geen betrekking op de optierechten in het kader van de verwerving of de overdracht van bestaande aandelen; in verband met die opties wordt verwezen naar de adviezen die de Commissie in haar *Bull. CNC* nr. 28 en 29 van november 1992 heeft gepubliceerd.
@@ -64,21 +63,16 @@ Krachtens het koninklijk besluit van 8 oktober 1976 moeten "de verplichtingen to
 Die vermeldingen in de toelichting staan los van de eigenlijke kenmerken van een uitgifte van obligaties en warrants. Op dat vlak kunnen verschillende gevallen worden onderscheiden.
 
 ## Autonoom uitgegeven warrants
-
 ### Kosteloos uitgegeven warrants ​​​
-
 Zolang de kosteloos uitgegeven warrants niet zijn uitgeoefend, hebben zij geen enkele invloed op het vermogen van de uitgevende vennootschap. De uitgifte van dergelijke warrants wordt bijgevolg noch in de balans, noch in de resultatenrekening uitgedrukt.
 
 ### Onder bezwarende titel uitgegeven warrants
-
 Het bedrag dat de vennootschap ontvangt als prijs voor de door haar uitgegeven warrants, kan door haar worden gelijkgesteld met een uitgiftepremie die door de inschrijvers op nieuwe aandelen wordt gestort, met als enige voorbehoud dat, bij uitgifte van warrants, het ontvangen bedrag definitief door de vennootschap is verworven, zelfs indien de warranthouders hun inschrijvingsrecht later niet uitoefenen. De voor de uitgifte van warrants ontvangen bedragen zullen bijgevolg in de eigen vermogenspost "Uitgiftepremies" worden geboekt en daar behouden blijven, ongeacht of de inschrijvingsrechten later worden uitgeoefend of niet.
 
 Zodra de inschrijvingsrechten worden uitgeoefend, wordt de uitoefenprijs volgens de beslissing van het bevoegde vennootschapsorgaan hetzij volledig onder kapitaal, hetzij gedeeltelijk onder kapitaal en gedeeltelijk onder uitgiftepremies geboekt.
 
 ## Uitgegeven warrants verbonden aan nieuw uitgegeven aandelen
-
 Wanneer warrants worden uitgegeven die zijn verbonden aan nieuw uitgegeven aandelen en er één enkele uitgifteprijs is voor zowel de nieuwe aandelen als de daaraan verbonden warrants, betreft dit steeds een inbreng van de vennoten en is er geen enkele reden om in de uitgifteprijs een onderscheid te maken tussen het bedrag dat slaat op de nieuwe aandelen, enerzijds, en op de aan de aandelen verbonden warrants, anderzijds. Daaruit vloeit voort dat de uitgifteprijs volgens de beslissing van het bevoegde vennootschapsorgaan hetzij volledig onder kapitaal, hetzij gedeeltelijk onder kapitaal en gedeeltelijk onder uitgiftepremies zal worden geboekt.
 
 ## Converteerbare obligaties en obligaties met voorkeurrecht
-
 De Commissie voor Boekhoudkundige Normen heeft beslist een bijkomend onderzoek te wijden aan de wijze waarop een emittent de converteerbare obligaties en obligaties met voorkeurrecht die hij uitgeeft, in zijn jaarrekening moet verwerken. Daarbij zal zij met name nagaan of zij eventueel op analoge wijze kunnen worden geboekt als aanbevolen in haar advies 139/5 voor in portefeuille gehouden obligaties met inschrijvingsrecht.

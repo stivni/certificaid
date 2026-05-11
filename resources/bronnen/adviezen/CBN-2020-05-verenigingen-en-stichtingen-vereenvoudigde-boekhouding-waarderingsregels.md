@@ -2,73 +2,66 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/verenigingen-en-stichtingen-vereenvoudigde-boekhouding-waarderingsregels
 datum: 2020-04-30
 gerelateerde_adviezen:
-- datum: '2022-07-20'
-  titel: Wijziging van het boekhoudkundig referentiestelsel
-  url: https://www.cbn-cnc.be/nl/adviezen/wijziging-van-het-boekhoudkundig-referentiestelsel
-- datum: '2022-04-27'
-  titel: Verslaggeving bij ontbinding en vereffening van een VZW of IVZW
-  url: https://www.cbn-cnc.be/nl/adviezen/verslaggeving-bij-ontbinding-en-vereffening-van-een-vzw-of-ivzw
-- datum: '2022-04-01'
-  titel: Verslaggeving bij ontbinding en vereffening van BV, CV, NV, SE en SCE
-  url: https://www.cbn-cnc.be/nl/adviezen/verslaggeving-bij-ontbinding-en-vereffening-van-bv-cv-nv-se-en-sce
-- datum: '2019-04-12'
-  titel: Gevolgen op gebied van financiële rapportering als gevolg van de brexit
-  url: https://www.cbn-cnc.be/nl/adviezen/gevolgen-op-gebied-van-financiele-rapportering-als-gevolg-van-de-brexit-0
+  - datum: '2022-07-20'
+    titel: Wijziging van het boekhoudkundig referentiestelsel
+    url: https://www.cbn-cnc.be/nl/adviezen/wijziging-van-het-boekhoudkundig-referentiestelsel
+  - datum: '2022-04-27'
+    titel: Verslaggeving bij ontbinding en vereffening van een VZW of IVZW
+    url: https://www.cbn-cnc.be/nl/adviezen/verslaggeving-bij-ontbinding-en-vereffening-van-een-vzw-of-ivzw
+  - datum: '2022-04-01'
+    titel: Verslaggeving bij ontbinding en vereffening van BV, CV, NV, SE en SCE
+    url: https://www.cbn-cnc.be/nl/adviezen/verslaggeving-bij-ontbinding-en-vereffening-van-bv-cv-nv-se-en-sce
+  - datum: '2019-04-12'
+    titel: Gevolgen op gebied van financiële rapportering als gevolg van de brexit
+    url: https://www.cbn-cnc.be/nl/adviezen/gevolgen-op-gebied-van-financiele-rapportering-als-gevolg-van-de-brexit-0
 nummer: CBN-advies 2020/05
 provenance:
-  generated_at: '2026-05-11T15:15:32Z'
+  generated_at: '2026-05-11T17:48:39Z'
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/verenigingen-en-stichtingen-vereenvoudigde-boekhouding-waarderingsregels
-    sha256: 207d30200c778de2727d024cf6152f0dca3d79e49ec11a55e0d60b1f0dbac3cb
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/verenigingen-en-stichtingen-vereenvoudigde-boekhouding-waarderingsregels
+      sha256: 207d30200c778de2727d024cf6152f0dca3d79e49ec11a55e0d60b1f0dbac3cb
+      version:
   stale: false
-  stale_reason: null
+  stale_reason:
   tooling:
-    model: null
+    model:
     pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    prompt_version: null
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
     confirmed_at: '2026-05-11T12:21:40Z'
     confirmed_by: subagent-sonnet-4-6
     layer1:
-      file_size_chars: 13102
-      flags: []
-      heading_count: 4
-      max_section_chars: 4825
-      run_at: '2026-05-11T15:05:53Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:44Z'
+      heading_count: 4
+      max_section_chars: 4824
+      file_size_chars: 13098
+      flags: []
     layer2:
       agent: subagent-sonnet-4-6
       concrete_problemen:
-      - categorie: D4
-        regel: 88
-        type: other
-        voorbeeld: '*Relevantie *'
-      rationale: 'Inhoud volledig en goed gestructureerd. Eén minor D4-issue: ''*Relevantie
-        *'' (regel 88) heeft een spatie vóór de sluitende ''*'', artefact van HTML-extractie.
-        Dit is cosmetisch en raakt de leesbaarheid niet. Alle overige italic-labels
-        correct.'
+        - categorie: D4
+          regel: 88
+          type: other
+          voorbeeld: '*Relevantie *'
+      rationale: 'Inhoud volledig en goed gestructureerd. Eén minor D4-issue: ''*Relevantie *'' (regel 88) heeft een spatie vóór de sluitende ''*'', artefact van HTML-extractie. Dit is cosmetisch en raakt de leesbaarheid niet. Alle overige italic-labels correct.'
       run_at: '2026-05-11T12:21:40Z'
       status: trusted
-    rationale: 'Inhoud volledig en goed gestructureerd. Eén minor D4-issue: ''*Relevantie
-      *'' (regel 88) heeft een spatie vóór de sluitende ''*'', artefact van HTML-extractie.
-      Dit is cosmetisch en raakt de leesbaarheid niet. Alle overige italic-labels
-      correct.'
+    rationale: 'Inhoud volledig en goed gestructureerd. Eén minor D4-issue: ''*Relevantie *'' (regel 88) heeft een spatie vóór de sluitende ''*'', artefact van HTML-extractie. Dit is cosmetisch en raakt de leesbaarheid niet. Alle overige italic-labels correct.'
     status: trusted
 themas:
-- waarderingsregels
-- vereenvoudigde boekhouding
-- waardering van bezittingen
-- vereniging
-- stichting
+  - waarderingsregels
+  - vereenvoudigde boekhouding
+  - waardering van bezittingen
+  - vereniging
+  - stichting
 ---
 
 # CBN-advies 2020/05 – Verenigingen en stichtingen – Vereenvoudigde boekhouding – Waarderingsregels
 
 ## Inleiding
-
 Vzw’s die een vereenvoudigde boekhouding[^2] voeren, stellen hun jaarrekening op rekening houdend met de waarderingsregels vermeld in Boek 3, Titel 4, Hoofdstuk 2 van het koninklijk besluit tot uitvoering van het Wetboek van vennootschappen en verenigingen (hierna: KB WVV). De jaarrekening wordt in euro[^3] opgemaakt volgens het schema vermeld in bijlage 8 van het KB WVV. In onderhavig advies verduidelijkt de Commissie de toe te passen waarderingsregels bij de opstelling van de staat van de bezittingen en de schulden.
 
 Een vereenvoudigde boekhouding kan worden gevoerd door een vzw die op balansdatum van het laatst afgesloten boekjaar niet meer dan één van de volgende criteria overschrijdt[^4]:
@@ -83,7 +76,6 @@ De CBN herinnert eraan dat de wetgever zowel een bedrag voor de bezittingen als 
 Onderhavig advies geldt, *mutatis mutandis*, onverkort voor ivzw’s en stichtingen.
 
 ## Waarderingsregels – algemene beginselen
-
 Sedert de inwerkingtreding van het KB WVV gelden in het Belgisch boekhoudrecht ook voor de verenigingen en stichtingen die een vereenvoudigde boekhouding voeren, expliciete waarderingsregels. Dit strekt ertoe uniformiteit en duidelijkheid te brengen in de wijze waarop deze verenigingen en stichtingen hun bezittingen, rechten, vorderingen, schulden en verplichtingen opnemen in hun inventaris en jaarrekening[^5].
 
 *Getrouw beeld*
@@ -107,7 +99,6 @@ De Commissie merkt op dat reeds bij het ontwerp van de wet van 17 juli 1975 met 
 De waarderingsregels en de toepassing ervan moeten van jaar tot jaar hetzelfde zijn. Indien de waarderingsregels of de toepassing ervan evenwel niet langer beantwoorden aan de criteria van voorzichtigheid, oprechtheid en goede trouw moeten ze worden aangepast. Deze aanpassingen moeten in voorkomend geval worden vermeld en verantwoord in de toelichting. De inschatting van de invloed van deze aanpassingen wordt eveneens vermeld in de toelichting van de jaarrekening waarin deze aanpassingen voor het eerst werden ingevoerd. 
 
 ## Waarderingsregels – bezittingen
-
 Het KB WVV bevat een concrete waarderingsregel voor wat betreft de bezittingen van een vereniging of stichting die een vereenvoudigde boekhouding voert. 
 
 *Algemene regel*
@@ -126,7 +117,6 @@ De bezittingen die werden verworven tijdens een boekjaar dat aanvangt vóór 1 m
  De wijze waarop deze bezittingen worden opgenomen in de jaarrekening moeten, in het licht van wat werd vermeld onder het voormelde randnummer 5, worden verantwoord in de toelichting. Dit kan bij wijze van voorbeeld een waardering betekenen tegen een symbolische euro. 
 
 ## Voorbeelden
-
 Een vzw voert een vereenvoudigde boekhouding per kalenderjaar. Deze vzw heeft op 12 juni 2019 een laptop gekocht en betaalde daarvoor 2.420 euro inclusief btw. De vzw heeft geen recht op aftrek voor de aangerekende btw[^19]. In de inventaris wordt deze laptop opgenomen voor 2.420 euro. Het bestuursorgaan moet bij de opstelling van de jaarrekening beoordelen of de waardering van deze bezitting op de inventarisdatum beantwoordt aan de vereiste van voorzichtigheid, oprechtheid en goede trouw. In voorkomend geval moet een passende waardecorrectie toegepast worden. Het bestuursorgaan kan bijvoorbeeld in haar waarderingsregels opnemen dat een lineaire waardecorrectie wordt toegepast over de vermoedelijke gebruiksduur van het goed.
 
 Een vzw voert een vereenvoudigde boekhouding per kalenderjaar. Deze vzw heeft op 12 juni 2012 een archiefkast gekocht. De vzw heeft geen recht op aftrek voor de aangerekende btw. Het bestuursorgaan moet bij de opstelling van de jaarrekening deze bezitting op de inventarisdatum waarderen rekening houdend met de vereiste van voorzichtigheid, oprechtheid en goede trouw. Het bestuursorgaan kan zich hiervoor baseren op de initiële aankoopprijs[^20] doch is daar niet toe verplicht. 

@@ -19,47 +19,31 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
+    pipeline_version: 11f9196
     model:
     prompt_version:
-  generated_at: '2026-05-11T15:15:31Z'
+  generated_at: '2026-05-11T17:48:39Z'
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T17:13:30Z'
+    status: trusted
+    confirmed_at: '2026-05-11T17:51:53Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "A6/G3: regel 70 (body) bevat ', bijgewerkt op 10 september 2025[^2]' als losstaande orphan-zin direct na de H1 — bijwerkingsartefact van de scraper. A6: meerdere spurious line-breaks na voetnootreferenties midden in zinnen (regels 79, 84, 107, 108, 142-143). B2: 'Geval 2' op regels 126 en 161 staat als ## heading terwijl het een sub-element is van een Voorbeeld-sectie (structureel onjuiste hiërarchie)."
+    rationale: Lang advies (16k chars) met genummerde voorbeelden en tabellen. Pipe-tabellen correct gerenderd. Heading-hiërarchie consistent (## voor secties en gevallen). Voetnoten [^1]–[^28] volledig. Geen ETL-artefacten.
     layer1:
-      file_size_chars: 16240
-      flags: []
-      heading_count: 4
-      max_section_chars: 5356
-      run_at: '2026-05-11T15:05:52Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:44Z'
+      heading_count: 6
+      max_section_chars: 5355
+      file_size_chars: 16193
+      flags: []
     layer2:
-      status: needs-rework
+      status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T17:13:30Z'
-      rationale: "A6/G3: regel 70 (body) bevat ', bijgewerkt op 10 september 2025[^2]' als losstaande orphan-zin direct na de H1 — bijwerkingsartefact van de scraper. A6: meerdere spurious line-breaks na voetnootreferenties midden in zinnen (regels 79, 84, 107, 108, 142-143). B2: 'Geval 2' op regels 126 en 161 staat als ## heading terwijl het een sub-element is van een Voorbeeld-sectie (structureel onjuiste hiërarchie)."
-      concrete_problemen:
-        - regel: 70
-          categorie: A6
-          type: other
-          voorbeeld: ', bijgewerkt op 10 september 2025[^2]'
-        - regel: 84
-          categorie: A6
-          type: other
-          voorbeeld: moet zijn. Opdat er sprake zou zijn van een gezamenlijke controle is een overeenkomst noodzakelijk.[^8]
-        - regel: 107
-          categorie: A6
-          type: other
-          voorbeeld: "controle uitoefent over de vennootschap X.[^11]\n Hieruit volgt dat"
-        - regel: 126
-          categorie: B2
-          type: other
-          voorbeeld: '## Geval 2: De vennootschap A en de vennootschap B hebben geen overeenkomst'
+      run_at: '2026-05-11T17:51:53Z'
+      rationale: Lang advies (16k chars) met genummerde voorbeelden en tabellen. Pipe-tabellen correct gerenderd. Heading-hiërarchie consistent (## voor secties en gevallen). Voetnoten [^1]–[^28] volledig. Geen ETL-artefacten.
+      concrete_problemen: []
 themas:
   - controle
   - gemeenschappelijke dochtervennootschap
@@ -71,10 +55,7 @@ themas:
 
 # CBN-advies 2017/02 – Gezamenlijke controle over een vennootschap - groottecriteria (update)
 
-, bijgewerkt op 10 september 2025[^2]
-
 ## Algemeen
-
 Onderhavig advies verduidelijkt de berekening van de groottecriteria[^3] wanneer sprake is van een gezamenlijke controle over een vennootschap.
 
 Onder *gezamenlijke controle* wordt verstaan, de controle die een beperkt aantal vennoten samen uitoefenen, wanneer zij zijn overeengekomen dat beslissingen omtrent de oriëntatie van het beleid niet zonder hun gemeenschappelijke instemming kunnen worden genomen. De *gemeenschappelijke dochtervennootschap* is dan de vennootschap ten opzichte waarvan een gezamenlijke controle bestaat.[^4] 
@@ -90,9 +71,7 @@ Het meest voorkomende geval van gezamenlijke controle betreft de gezamenlijk bes
 Het bestaan van een aandeelhoudersovereenkomst tussen een meerderheid van de aandeelhouders impliceert niet altijd de aanwezigheid van een gezamenlijke controle. In haar jaarverslag verwoordde de toenmalige Bankcommissie in een concrete situatie dat de beschreven aandeelhoudersovereenkomsten enkel en alleen betrekking hadden op het bezit, de vervreemding en de verwerving van aandelen, dat deze aandeelhoudersovereenkomsten geenszins impliceerden dat de beslissingen omtrent de oriëntatie van het vennootschapsbeleid slechts met gemeenschappelijke instemming van de betreffende aandeelhouders zouden kunnen worden genomen en dat om die reden de verhouding tussen deze aandeelhouders niet beantwoordde aan de kenmerken van een gezamenlijke controle.[^9] 
 
 ## Voorbeelden
-
-**Voorbeeld 1**
-
+## Voorbeeld 1
 Vennootschap A is eigenaar van 50 procent van de aandelen van vennootschap X; vennootschap B is eigenaar van de overige 50 procent. De vennootschap X werd destijds door de vennootschappen A en B opgericht met een volstort startkapitaal van 600.000 euro (300.000 euro door iedere vennootschap; deze 300.000 euro is tevens de huidige boekwaarde van de participatie bij beide vennootschappen). Vennootschap X heeft een eigen vermogen van 1.900.000 euro, namelijk een kapitaal van 600.000 euro en 1.300.000 euro reserves. De vennootschappen A, B en X bezitten geen andere deelnemingen. De netto-omzet, het balanstotaal en het aantal werknemers van deze drie vennootschappen zijn als volgt: 
 
 | | | Vennootschap A | | Vennootschap B | | Vennootschap X | 
@@ -128,11 +107,9 @@ De vennootschap B heeft op geconsolideerde[^17] basis:
 Bijgevolg worden bij de vennootschap B de drie groottecriteria vermeld in artikel 1:24, § 1 WVV op geconsolideerde basis overschreden.
 
 ## Geval 2: De vennootschap A en de vennootschap B hebben geen overeenkomst met betrekking tot een gezamenlijke uitoefening van de controle over de vennootschap X
-
 Indien er geen overeenkomst bestaat tussen de vennootschap A en de vennootschap B met betrekking tot een gezamenlijke uitoefening van de controle over de vennootschap X is er geen sprake van een gezamenlijke controle. In dergelijk geval waarbij zowel de vennootschap A als de vennootschap B 50 procent van de aandelen bezit, heeft noch de vennootschap A, noch de vennootschap B de controle over de vennootschap X. De vennootschap X is bijgevolg geen dochtervennootschap van de vennootschap A en evenmin van de vennootschap B. In deze omstandigheden worden de groottecriteria van de vennootschap A, de vennootschap B en de vennootschap X op enkelvoudige basis beoordeeld.
 
-**Voorbeeld 2**
-
+## Voorbeeld 2
 We hernemen de gegevens van het voorbeeld hiervoor, doch de vennootschap A heeft naast de participatie in de vennootschap X nog een dochtervennootschap Y. De vennootschap Y heeft een netto-omzet van 15.000.000 euro, een balanstotaal van 5.000.000 euro en 95 personeelsleden. De aanschaffingswaarde en tevens boekwaarde van de aandelen van de vennootschap Y bedraagt in hoofde van de vennootschap A 200.000 euro.
 
 De verrekeningen en weglatingen zoals bedoeld in de artikelen 3:127, 3:134 en 3:136 KB WVV kunnen als volgt worden samengevat:
@@ -163,7 +140,6 @@ De vennootschap B heeft op geconsolideerde[^26] basis:
 Bijgevolg worden bij de vennootschap B de drie groottecriteria vermeld in artikel 1:24, § 1 WVV op geconsolideerde basis overschreden.
 
 ## Geval 2: De vennootschap A en de vennootschap B hebben geen overeenkomst met betrekking tot een gezamenlijke uitoefening van de controle over de vennootschap X
-
 Indien er geen overeenkomst bestaat tussen de vennootschap A en de vennootschap B met betrekking tot een gezamenlijke uitoefening van de controle over de vennootschap X is er geen sprake van een gezamenlijke controle. In deze omstandigheden, waarbij zowel de vennootschap A als de vennootschap B 50 procent van de aandelen bezit, heeft noch de vennootschap A, noch de vennootschap B de controle over de vennootschap X. De vennootschap X is bijgevolg noch een dochtervennootschap van de vennootschap A, noch een dochtervennootschap van de vennootschap B. Bijgevolg worden de groottecriteria van de vennootschap B, de vennootschap X en de vennootschap Y op enkelvoudige basis beoordeeld. De vennootschap A daarentegen is een moedervennootschap omwille van haar participatie in de vennootschap Y. Bijgevolg worden de groottecriteria voor de vennootschap A beoordeeld op geconsolideerde basis. Dit wil zeggen dat in hoofde van de vennootschap A een integrale consolidatie plaatsvindt wat betreft de vennootschap Y, die een dochtervennootschap is van de vennootschap A, terwijl de deelneming in de vennootschap X opgenomen wordt volgens de vermogensmutatiemethode[^27].
 
 Aldus heeft de vennootschap A op geconsolideerde[^28] basis:

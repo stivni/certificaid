@@ -2,66 +2,56 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/inbrengprijs
 datum: 1980-06-01
 gerelateerde_adviezen:
-- datum: '2023-08-29'
-  titel: Boekhoudkundige verwerking van de inbreng van een bedrijfstak of van een
-    algemeenheid (update) [ONTWERP]
-  url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-inbreng-van-een-bedrijfstak-of-van-een-algemeenheid
-- datum: '2020-12-09'
-  titel: Overgang van een kapitaalhoudende coöperatieve vennootschap naar een kapitaalloze
-    vennootschap
-  url: https://www.cbn-cnc.be/nl/adviezen/overgang-van-een-kapitaalhoudende-cooperatieve-vennootschap-naar-een-kapitaalloze
-- datum: '2020-03-10'
-  titel: Inbreng in nijverheid bij besloten vennootschappen en coöperatieve vennootschappen
-    [ONTWERP]
-  url: https://www.cbn-cnc.be/nl/adviezen/inbreng-in-nijverheid-bij-besloten-vennootschappen-en-cooperatieve-vennootschappen-ontwerp
-- datum: '2020-01-27'
-  titel: 'Neerlegging van de enkelvoudige jaarrekening bij de Nationale Bank van België:
-    nieuwe modellen van de jaarrekening'
-  url: https://www.cbn-cnc.be/nl/adviezen/neerlegging-van-de-enkelvoudige-jaarrekening-bij-de-nationale-bank-van-belgie-nieuwe
+  - datum: '2023-08-29'
+    titel: Boekhoudkundige verwerking van de inbreng van een bedrijfstak of van een algemeenheid (update) [ONTWERP]
+    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-inbreng-van-een-bedrijfstak-of-van-een-algemeenheid
+  - datum: '2020-12-09'
+    titel: Overgang van een kapitaalhoudende coöperatieve vennootschap naar een kapitaalloze vennootschap
+    url: https://www.cbn-cnc.be/nl/adviezen/overgang-van-een-kapitaalhoudende-cooperatieve-vennootschap-naar-een-kapitaalloze
+  - datum: '2020-03-10'
+    titel: Inbreng in nijverheid bij besloten vennootschappen en coöperatieve vennootschappen [ONTWERP]
+    url: https://www.cbn-cnc.be/nl/adviezen/inbreng-in-nijverheid-bij-besloten-vennootschappen-en-cooperatieve-vennootschappen-ontwerp
+  - datum: '2020-01-27'
+    titel: 'Neerlegging van de enkelvoudige jaarrekening bij de Nationale Bank van België: nieuwe modellen van de jaarrekening'
+    url: https://www.cbn-cnc.be/nl/adviezen/neerlegging-van-de-enkelvoudige-jaarrekening-bij-de-nationale-bank-van-belgie-nieuwe
 nummer: CBN-advies 126/2
 provenance:
-  generated_at: '2026-05-11T15:15:31Z'
+  generated_at: '2026-05-11T17:48:38Z'
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/inbrengprijs
-    sha256: b780564a7b1f0eed2709b1d3d3858fbf8e12a265541a5de2098929a68176c846
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/inbrengprijs
+      sha256: b780564a7b1f0eed2709b1d3d3858fbf8e12a265541a5de2098929a68176c846
+      version:
   stale: false
-  stale_reason: null
+  stale_reason:
   tooling:
-    model: null
+    model:
     pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    prompt_version: null
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
     confirmed_at: '2026-05-11T13:16:02Z'
     confirmed_by: subagent-sonnet-4-6
     layer1:
-      file_size_chars: 1653
-      flags: []
+      status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:41Z'
       heading_count: 0
       max_section_chars: 1653
-      run_at: '2026-05-11T15:05:48Z'
-      run_id: 20260511-150547
-      status: pass
+      file_size_chars: 1653
+      flags: []
     layer2:
       agent: subagent-sonnet-4-6
       concrete_problemen: []
-      rationale: Vorige L2 flagde D4 broken italic op regel 61 ('*Oprichtingskosten
-        *als'), maar de werkelijke body toont '*Oprichtingskosten* als *Kosten van
-        oprichting en kapitaalverhoging*' correct gesloten — scraper-fix D4 effectief.
-        Body kort (1653 chars), twee alinea's, drie voetnoten correct. Geen extractie-artefacten.
+      rationale: Vorige L2 flagde D4 broken italic op regel 61 ('*Oprichtingskosten *als'), maar de werkelijke body toont '*Oprichtingskosten* als *Kosten van oprichting en kapitaalverhoging*' correct gesloten — scraper-fix D4 effectief. Body kort (1653 chars), twee alinea's, drie voetnoten correct. Geen extractie-artefacten.
       run_at: '2026-05-11T13:16:02Z'
       status: trusted
-    rationale: Vorige L2 flagde D4 broken italic op regel 61 ('*Oprichtingskosten
-      *als'), maar de werkelijke body toont '*Oprichtingskosten* als *Kosten van oprichting
-      en kapitaalverhoging*' correct gesloten — scraper-fix D4 effectief. Body kort
-      (1653 chars), twee alinea's, drie voetnoten correct. Geen extractie-artefacten.
+    rationale: Vorige L2 flagde D4 broken italic op regel 61 ('*Oprichtingskosten *als'), maar de werkelijke body toont '*Oprichtingskosten* als *Kosten van oprichting en kapitaalverhoging*' correct gesloten — scraper-fix D4 effectief. Body kort (1653 chars), twee alinea's, drie voetnoten correct. Geen extractie-artefacten.
     status: trusted
 themas:
-- inbreng
-- inbrengprijs
-- kosten van oprichting en kapitaalverhoging
-- oprichtingskosten
+  - inbreng
+  - inbrengprijs
+  - kosten van oprichting en kapitaalverhoging
+  - oprichtingskosten
 ---
 
 # CBN-advies 126/2 - Inbrengprijs

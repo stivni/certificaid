@@ -7,49 +7,49 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-broeikasgasemissierechten
 nummer: CBN-advies 2012/1
 provenance:
+  generated_at: '2026-05-11T17:48:39Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-een-overschot-aan-broeikasgasemissierechten-door-een
       sha256: a5e15ff6d0abe3c9b6af01ecf3511538573fd4ce60f6dae2ac4ad950f1434fbe
       version:
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
-    status: needs-rework
     confirmed_at: '2026-05-11T17:09:38Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "B5: regels 84 en 89 tonen subsectie-titels ('De onderneming behoudt het overschot...' en 'De onderneming heeft de intentie...') als plain-text alinea-openers zonder ### prefix — conform de genummerde TOC (regels 1-2 in het document ontbreken, maar de structuur impliceert twee subsecties). D1: voetnoot [^5] op regel 131 eindigt op 'bestendigheidsbeginse' — één letter afgehakt; mogelijk source-truncatie op CBN-website maar visueel abrupt."
     layer1:
-      file_size_chars: 7509
-      flags: []
-      heading_count: 3
-      max_section_chars: 4108
-      run_at: '2026-05-11T15:05:50Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:43Z'
+      heading_count: 3
+      max_section_chars: 4107
+      file_size_chars: 7506
+      flags: []
     layer2:
-      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T17:09:38Z'
-      rationale: "B5: regels 84 en 89 tonen subsectie-titels ('De onderneming behoudt het overschot...' en 'De onderneming heeft de intentie...') als plain-text alinea-openers zonder ### prefix — conform de genummerde TOC (regels 1-2 in het document ontbreken, maar de structuur impliceert twee subsecties). D1: voetnoot [^5] op regel 131 eindigt op 'bestendigheidsbeginse' — één letter afgehakt; mogelijk source-truncatie op CBN-website maar visueel abrupt."
       concrete_problemen:
-        - regel: 84
-          categorie: B5
+        - categorie: B5
+          regel: 84
           type: other
           voorbeeld: De onderneming behoudt het overschot van emissierechten en heeft dus niet de intentie om deze emissierechten te verkopen op een actieve markt
-        - regel: 89
-          categorie: B5
+        - categorie: B5
+          regel: 89
           type: other
           voorbeeld: De onderneming heeft de intentie om het overschot van emissierechten te verkopen op een actieve markt
-        - regel: 131
-          categorie: D1
+        - categorie: D1
+          regel: 131
           type: abrupt-cutoff
           voorbeeld: hetgeen een onverantwoorde schending zou zijn van het bestendigheidsbeginse
+      rationale: 'B5: regels 84 en 89 tonen subsectie-titels (''De onderneming behoudt het overschot...'' en ''De onderneming heeft de intentie...'') als plain-text alinea-openers zonder ### prefix — conform de genummerde TOC (regels 1-2 in het document ontbreken, maar de structuur impliceert twee subsecties). D1: voetnoot [^5] op regel 131 eindigt op ''bestendigheidsbeginse'' — één letter afgehakt; mogelijk source-truncatie op CBN-website maar visueel abrupt.'
+      run_at: '2026-05-11T17:09:38Z'
+      status: needs-rework
+    rationale: 'B5: regels 84 en 89 tonen subsectie-titels (''De onderneming behoudt het overschot...'' en ''De onderneming heeft de intentie...'') als plain-text alinea-openers zonder ### prefix — conform de genummerde TOC (regels 1-2 in het document ontbreken, maar de structuur impliceert twee subsecties). D1: voetnoot [^5] op regel 131 eindigt op ''bestendigheidsbeginse'' — één letter afgehakt; mogelijk source-truncatie op CBN-website maar visueel abrupt.'
+    status: needs-rework
 themas:
   - broeikasgasemissierechten
   - bruto-methode
@@ -62,7 +62,6 @@ themas:
 # CBN-advies 2012/1 - Boekhoudkundige verwerking van een overschot aan broeikasgasemissierechten door een onderneming die de nettomethode toepast
 
 ## Inleiding
-
 In het kader van het bestaande CBN-advies 179/1 inzake de boekhoudkundige verwerking van broeikasgasemissierechten[^1] werd de Commissie gevraagd naar de mogelijkheid voor ondernemingen om een overschot aan broeikasgasemissierechten uit te drukken in het actief van de onderneming wanneer deze onderneming overeenkomstig het CBN-advies 179/1 haar emissierechten boekhoudkundig verwerkt volgens de nettomethode. 
 
 In het advies 179/1 formuleerde de Commissie als aanbeveling aan de industriële ondernemingen[^2] om voor de boekhoudkundige verwerking van broeikasgasemissierechten ofwel de brutomethode, ofwel de nettomethode toe te passen. Voor een uitgebreide bespreking van deze methoden verwijst de Commissie naar de tekst van het advies 179/1. Kort samengevat kan worden gesteld dat bij de brutomethode de door de ondernemingen toegewezen of verkregen emissierechten op het ogenblik van toewijzing of verkrijging als immateriële vaste activa worden geboekt. Bij toepassing van de nettomethode daarentegen werd als uitgangspunt door de Commissie aangenomen dat het emissierechtensysteem niet leidt tot een vergroting of verkleining van het vermogen van de ondernemingen, omdat de toegewezen of verkregen emissierechten enkel dienen om de ondernemingen in staat te stellen hun bedrijf voort te zetten. Op grond daarvan werd ervan uitgegaan dat de door de overheid kosteloos toegewezen emissierechten meestal overeenstemmen met de in te leveren rechten en dat het beroep op de markt voor de aan- of verkoop van emissierechten, marginaal zal zijn. Bijgevolg wordt de toewijzing of verkrijging van emissierechten in de nettomethode niet opgenomen aan de actiefzijde van de balans van de onderneming, en wordt hiervan enkel melding gemaakt in de toelichting bij haar jaarrekening. Enkel de aan- en verkopen van emissierechten worden geboekt als kost of opbrengst in de resultatenrekening. 
@@ -70,7 +69,6 @@ In het advies 179/1 formuleerde de Commissie als aanbeveling aan de industriële
 De Commissie stelt echter vast dat een belangrijk aantal ondernemingen die de nettomethode toepassen op heden aanzienlijke overschotten aan emissierechten bezitten. Aan de Commissie werd dan ook gevraagd of deze overschotten aan emissierechten bij toepassing van de nettomethode alsnog op het actief van de balans kunnen worden uitgedrukt.
 
 ## Toepassingsgebied
-
 Net als het advies 179/1 over de boekhoudkundige verwerking van broeikasgasemissierechten beperkt onderhavig advies zich tot de boekhoudkundige verwerking van emissierechten toegewezen aan of verkregen door industriële ondernemingen om reden van hun industrieel bedrijf[^3].
 
 Bovendien is het advies ook beperkt tot die categorie van de industriële ondernemingen die ervoor geopteerd hebben de nettomethode toe te passen[^4]. Ook de industriële ondernemingen die in de toelichting niet uitdrukkelijk hebben vermeld welke methode zij toepassen, maar die *de facto* de nettomethode hebben toegepast (door de toewijzing of verkrijging van de emissierechten niet als immaterieel vast actief te boeken) vallen onder de toepassing van onderhavig advies.
@@ -78,7 +76,6 @@ Bovendien is het advies ook beperkt tot die categorie van de industriële ondern
 De Commissie wenst evenwel te benadrukken dat ze aanbeveelt de toepassing van de nettomethode te vermelden in de toelichting.
 
 ## Boekhoudkundige verwerking van een overschot aan broeikasgasemissierechten bij toepassing van de nettomethode
-
  De Commissie is van oordeel dat de boekhoudkundige verwerking van het overschot aan emissierechten bij ondernemingen die de nettomethode toepassen, afhangt van de economische bestemming van de emissierechten op balansdatum. Hierbij dient een onderscheid te worden gemaakt tussen de situatie waarbij de onderneming de intentie heeft om het overschot aan emissierechten in eigen bezit aan te houden, dan wel of de onderneming de intentie heeft om het overschot aan emissierechten in het volgende boekjaar op een actieve markt te verkopen.
 
 De onderneming behoudt het overschot van emissierechten en heeft dus niet de intentie om deze emissierechten te verkopen op een actieve markt

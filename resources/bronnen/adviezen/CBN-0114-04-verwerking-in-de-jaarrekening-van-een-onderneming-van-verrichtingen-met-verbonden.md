@@ -2,67 +2,58 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/verwerking-in-de-jaarrekening-van-een-onderneming-van-verrichtingen-met-verbonden
 datum: 1983-04-01
 gerelateerde_adviezen:
-- datum: '2017-04-19'
-  titel: Groottecriteria artikel 15 W.Venn. – Verbonden vennootschappen – Verschillende
-    afsluitingsdata - Wijziging van consolidatiekring
-  url: https://www.cbn-cnc.be/nl/adviezen/groottecriteria-artikel-15-wvenn-verbonden-vennootschappen-verschillende-afsluitingsdata
-- datum: '2011-10-05'
-  titel: Verbonden ondernemingen
-  url: https://www.cbn-cnc.be/nl/adviezen/verbonden-ondernemingen
-- datum: '2010-05-19'
-  titel: Berekening criteria artikel 15 W.Venn.
-  url: https://www.cbn-cnc.be/nl/adviezen/berekening-criteria-artikel-15-wvenn
-- datum: '1984-10-01'
-  titel: Bijkantoren of centra van werkzaamheden in België van ondernemingen naar
-    buitenlands recht - Toepassing van artikel 10, par. 2 van de Boekhoudwet en van
-    artikel 198 van de Vennootschapswet
-  url: https://www.cbn-cnc.be/nl/adviezen/bijkantoren-of-centra-van-werkzaamheden-in-belgie-van-ondernemingen-naar-buitenlands-recht
+  - datum: '2017-04-19'
+    titel: Groottecriteria artikel 15 W.Venn. – Verbonden vennootschappen – Verschillende afsluitingsdata - Wijziging van consolidatiekring
+    url: https://www.cbn-cnc.be/nl/adviezen/groottecriteria-artikel-15-wvenn-verbonden-vennootschappen-verschillende-afsluitingsdata
+  - datum: '2011-10-05'
+    titel: Verbonden ondernemingen
+    url: https://www.cbn-cnc.be/nl/adviezen/verbonden-ondernemingen
+  - datum: '2010-05-19'
+    titel: Berekening criteria artikel 15 W.Venn.
+    url: https://www.cbn-cnc.be/nl/adviezen/berekening-criteria-artikel-15-wvenn
+  - datum: '1984-10-01'
+    titel: Bijkantoren of centra van werkzaamheden in België van ondernemingen naar buitenlands recht - Toepassing van artikel 10, par. 2 van de Boekhoudwet en van artikel 198 van de Vennootschapswet
+    url: https://www.cbn-cnc.be/nl/adviezen/bijkantoren-of-centra-van-werkzaamheden-in-belgie-van-ondernemingen-naar-buitenlands-recht
 nummer: CBN-advies 114/4
 provenance:
-  generated_at: '2026-05-11T15:15:31Z'
+  generated_at: '2026-05-11T17:48:38Z'
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/verwerking-in-de-jaarrekening-van-een-onderneming-van-verrichtingen-met-verbonden
-    sha256: 4faf9fb80ade50a734aa6a2f7969c7d010b77b12651d3d0376d5612082db46dd
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/verwerking-in-de-jaarrekening-van-een-onderneming-van-verrichtingen-met-verbonden
+      sha256: 4faf9fb80ade50a734aa6a2f7969c7d010b77b12651d3d0376d5612082db46dd
+      version:
   stale: false
-  stale_reason: null
+  stale_reason:
   tooling:
-    model: null
+    model:
     pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    prompt_version: null
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
     confirmed_at: '2026-05-11T11:57:45Z'
     confirmed_by: subagent-sonnet-4-6
     layer1:
-      file_size_chars: 1778
-      flags: []
+      status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:41Z'
       heading_count: 0
       max_section_chars: 1778
-      run_at: '2026-05-11T15:05:48Z'
-      run_id: 20260511-150547
-      status: pass
+      file_size_chars: 1778
+      flags: []
     layer2:
       agent: subagent-sonnet-4-6
       concrete_problemen: []
-      rationale: Kort advies (1778 chars), één alinea-blok + één voetnoot. Geen detecteerbare
-        extractie-artefacten in alle categorieën A–G. Italieken (*de jure*, *de facto*)
-        correct geopend en gesloten. Enige en-dash in frontmatter staat in een gerelateerd-advies-titel
-        (niet in de body) en is niet problematisch. Inhoud compleet.
+      rationale: Kort advies (1778 chars), één alinea-blok + één voetnoot. Geen detecteerbare extractie-artefacten in alle categorieën A–G. Italieken (*de jure*, *de facto*) correct geopend en gesloten. Enige en-dash in frontmatter staat in een gerelateerd-advies-titel (niet in de body) en is niet problematisch. Inhoud compleet.
       run_at: '2026-05-11T11:57:45Z'
       status: trusted
-    rationale: Kort advies (1778 chars), één alinea-blok + één voetnoot. Geen detecteerbare
-      extractie-artefacten in alle categorieën A–G. Italieken (*de jure*, *de facto*)
-      correct geopend en gesloten. Enige en-dash in frontmatter staat in een gerelateerd-advies-titel
-      (niet in de body) en is niet problematisch. Inhoud compleet.
+    rationale: Kort advies (1778 chars), één alinea-blok + één voetnoot. Geen detecteerbare extractie-artefacten in alle categorieën A–G. Italieken (*de jure*, *de facto*) correct geopend en gesloten. Enige en-dash in frontmatter staat in een gerelateerd-advies-titel (niet in de body) en is niet problematisch. Inhoud compleet.
     status: trusted
 themas:
-- verbonden onderneming
-- verrichtingen met verbonden ondernemingen
-- consolidatie
-- vzw
-- vereniging
-- geconsolideerde jaarrekening
+  - verbonden onderneming
+  - verrichtingen met verbonden ondernemingen
+  - consolidatie
+  - vzw
+  - vereniging
+  - geconsolideerde jaarrekening
 ---
 
 # CBN-advies 114/4 - Verwerking in de jaarrekening van een onderneming van verrichtingen met verbonden ondernemingen

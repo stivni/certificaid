@@ -16,49 +16,49 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/begin-van-het-boekjaar
 nummer: CBN-advies 2021/10
 provenance:
+  generated_at: '2026-05-11T17:48:39Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-fusies-tussen-vennootschappen
       sha256: 3790a16041b65701836ff1734be487b952cc0233a7b050a8232a2df96c20b8e3
       version:
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T15:15:32Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
-    status: needs-rework
     confirmed_at: '2026-05-11T17:13:30Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "E2/A7: Op meerdere plaatsen zijn complexe tabellen met sublijsten niet correct als markdown weergegeven — regels 561-576 tonen een gebroken tabelrij waarbij bullet-list items buiten de tabelcellen vallen met losse |---|---| separators op eigen regels, wat een extractie-artefact is van een geneste tabelstructuur in de HTML-bron. Dezelfde problemen op regels 843-847 en 890-894 waarbij een tabelrij gesplitst is over meerdere regels met '18.380' als losstaande plain-text buiten de tabel. Overige 10+ balansoverzichten zijn correct."
     layer1:
-      file_size_chars: 77227
-      flags: []
-      heading_count: 21
-      max_section_chars: 18998
-      run_at: '2026-05-11T15:05:54Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:45Z'
+      heading_count: 21
+      max_section_chars: 18994
+      file_size_chars: 77206
+      flags: []
     layer2:
-      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T17:13:30Z'
-      rationale: "E2/A7: Op meerdere plaatsen zijn complexe tabellen met sublijsten niet correct als markdown weergegeven — regels 561-576 tonen een gebroken tabelrij waarbij bullet-list items buiten de tabelcellen vallen met losse |---|---| separators op eigen regels, wat een extractie-artefact is van een geneste tabelstructuur in de HTML-bron. Dezelfde problemen op regels 843-847 en 890-894 waarbij een tabelrij gesplitst is over meerdere regels met '18.380' als losstaande plain-text buiten de tabel. Overige 10+ balansoverzichten zijn correct."
       concrete_problemen:
-        - regel: 561
-          categorie: E2
+        - categorie: E2
+          regel: 561
           type: other
-          voorbeeld: "tabelrij met sublijst-items buiten cellen: '- Geplaatst kapitaal / Beschikbare inbreng: 1.800 + (4.000 x 20 %) ='"
-        - regel: 843
-          categorie: E2
+          voorbeeld: 'tabelrij met sublijst-items buiten cellen: ''- Geplaatst kapitaal / Beschikbare inbreng: 1.800 + (4.000 x 20 %) ='''
+        - categorie: E2
+          regel: 843
           type: other
           voorbeeld: "| | | 18.380 | | |\n\n18.380\n\n  | — tabelslot gesplitst over 3 regels"
-        - regel: 890
-          categorie: E2
+        - categorie: E2
+          regel: 890
           type: other
           voorbeeld: "| | | 18.380 | | |\n\n18.380\n\n  | — idem voor voorbeeld 12"
+      rationale: 'E2/A7: Op meerdere plaatsen zijn complexe tabellen met sublijsten niet correct als markdown weergegeven — regels 561-576 tonen een gebroken tabelrij waarbij bullet-list items buiten de tabelcellen vallen met losse |---|---| separators op eigen regels, wat een extractie-artefact is van een geneste tabelstructuur in de HTML-bron. Dezelfde problemen op regels 843-847 en 890-894 waarbij een tabelrij gesplitst is over meerdere regels met ''18.380'' als losstaande plain-text buiten de tabel. Overige 10+ balansoverzichten zijn correct.'
+      run_at: '2026-05-11T17:13:30Z'
+      status: needs-rework
+    rationale: 'E2/A7: Op meerdere plaatsen zijn complexe tabellen met sublijsten niet correct als markdown weergegeven — regels 561-576 tonen een gebroken tabelrij waarbij bullet-list items buiten de tabelcellen vallen met losse |---|---| separators op eigen regels, wat een extractie-artefact is van een geneste tabelstructuur in de HTML-bron. Dezelfde problemen op regels 843-847 en 890-894 waarbij een tabelrij gesplitst is over meerdere regels met ''18.380'' als losstaande plain-text buiten de tabel. Overige 10+ balansoverzichten zijn correct.'
+    status: needs-rework
 themas:
   - fusie
   - reorganisatie
@@ -80,7 +80,6 @@ themas:
 # CBN-advies 2021/10 – Boekhoudkundige verwerking van fusies tussen vennootschappen
 
 ## Inleiding
-
 Naar aanleiding van de aanneming van het Wetboek van vennootschappen en verenigingen (hierna: WVV), wenst de Commissie voor boekhoudkundige normen haar adviezen inzake fusies bij te werken om zo rekening te houden met, enerzijds, de schrapping van het kapitaalbegrip bij de coöperatieve en besloten vennootschappen en, anderzijds, de invoering van een regeling voor fusies van verenigingen en stichtingen gebaseerd op de regeling die toepasbaar is op vennootschappen.
 
 Het toepassingsgebied van onderhavig advies is beperkt tot fusies tussen vennootschappen met rechtspersoonlijkheid die onder het Belgisch recht vallen. Dit advies zal later worden aangevuld met adviezen betreffende grensoverschrijdende fusies, fusies tussen verenigingen en stichtingen alsook andere reorganisatievormen[^2].
@@ -92,9 +91,7 @@ In onderhavig advies wordt er eerst een definitie gegeven van fusies door overne
 Onderhavig advies vervangt CBN-advies 2009/6 – *De boekhoudkundige verwerking van fusies*.
 
 ## Algemene principes
-
 ### Definitie van de fusie door overneming
-
 In vennootschapsrechtelijk opzicht wordt een fusie door overneming gedefinieerd door de overdracht van het gehele vermogen, zowel de rechten als de verplichtingen, van één of meerdere vennootschappen (hierna: ’de overgenomen vennootschap(pen)’) aan een andere bestaande vennootschap (hierna: ’de overnemende vennootschap’) ten gevolge van een ontbinding zonder vereffening, waarbij de aandeelhouders of vennoten[^3] van de overgenomen vennootschap(pen) aandelen in de overnemende vennootschap ontvangen en, in voorkomend geval, ook een opleg in geld[^4]. 
 
 Wanneer de overnemende vennootschap een kapitaalhoudende vennootschap is, mag het bedrag van deze opleg niet meer bedragen dan een tiende van de nominale waarde of, bij gebrek hieraan, van de fractiewaarde van de toegekende aandelen[^5]. De memorie van toelichting van de wet tot invoering van het Wetboek van vennootschappen en verenigingen en houdende diverse bepalingen bepaalt dat de fractiewaarde van elk aandeel van een vennootschap kan worden berekend door het kapitaal van de vennootschap te delen door het aantal bestaande aandelen. Bij verwijzing naar de definitie van de rubriek *Kapitaal* zoals bepaald in artikel 3:89, § 2, I, 1° van het koninklijk besluit tot uitvoering van het Wetboek van vennootschappen en verenigingen (hierna: KB WVV), stemt de teller van de breuk overeen met: “*het bedrag van het kapitaal, bestaande uit het deel van het kapitaal dat werd gevormd door (a) de inbreng vanwege de aandeelhouders in het kapitaal; (b) in voorkomend geval de omzetting van uitgiftepremies; en (c) in voorkomend geval de omzetting van geboekte herwaarderingsmeerwaarden of van reserves; indien niet terugbetaald of verminderd via een kapitaalvermindering*”.
@@ -116,11 +113,9 @@ De overnemende vennootschap wordt geacht de rechtspersoonlijkheid van de overgen
 Bovendien wordt in het WVV met fusie door overneming gelijkgesteld, de rechtshandeling waarbij het gehele vermogen van één of meer vennootschappen, zowel de rechten als de verplichtingen, als gevolg van ontbinding zonder vereffening overgaat op een andere vennootschap, wanneer al hun aandelen en andere stemrechtverlenende effecten in handen zijn hetzij van die andere vennootschap, hetzij van tussenpersonen van die vennootschap, of van die tussenpersonen én van die vennootschap[^11] ,[^12]. In dit geval wordt geen enkel nieuw aandeel uitgegeven. Dergelijke verrichting wordt aangemerkt als ‘geruisloze fusie’ of ‘vereenvoudigde fusie’.
 
 ### Toepassing van het boekhoudkundig continuïteitsprincipe
-
 Indien de fusie voldoet aan de definitie gegeven in artikel 12:2 WVV, is het continuïteitsprincipe dat fusieverrichtingen in vennootschapsrechtelijk opzicht kenmerkt, van toepassing op de boekhoudkundige verwerking van de verrichting zonder mogelijkheid van keuze zowel in hoofde van de overnemende vennootschap als in hoofde van de vennootschappen die aandeelhouder zijn van de overgenomen vennootschap(pen)[^13] ,[^14].
 
 #### In hoofde van de overnemende vennootschap
-
 Over het algemeen worden de actief- en passiefbestanddelen van de overgenomen vennootschap, inclusief de verschillende bestanddelen van het eigen vermogen, de afschrijvingen, waardeverminderingen en gevormde voorzieningen, de rechten en verplichtingen alsook de opbrengsten en kosten van het boekjaar, in de boekhouding van de overnemende vennootschap opgenomen tegen de waarde waarvoor zij voorkwamen op het tijdstip waarop de fusie boekhoudkundig wordt voltrokken[^15]. De waardecorrecties kunnen door de overgenomen vennootschap worden doorgevoerd vóór of na de datum waarop de fusie boekhoudkundig van kracht wordt, mits er voldaan is aan de bepalingen van het gemeen boekhoudrecht. Voor zover de afschrijvingen, de waardeverminderingen of de herwaarderingsmeerwaarden die in hoofde van de overgenomen vennootschap(pen) reeds werden geboekt op bepaalde activa, eveneens worden overgedragen, worden deze actiefbestanddelen niet uitsluitend opgenomen ten belope van hun netto boekwaarde. 
 
 Deze aanpak sluit aan bij het door het vennootschapsrecht gedefinieerde kader: zodra de bestanddelen die het vermogen uitmaken van de overgenomen vennootschap(pen) niet worden gerealiseerd, moet er worden afgeweken van de waardering van de goederen die werden ingebracht tegen aanschaffingswaarde.
@@ -140,11 +135,9 @@ Behoudens wat is opgenomen in het laatste voorbeeld (*infra*, titel III, punt D)
 Artikel 3:56, § 1 KB WVV bepaalt dat de overgedragen elementen in hoofde van de overnemende vennootschap moeten worden geboekt tegen de waarde waarvoor zij voorkwamen op het tijdstip waarop de fusie boekhoudkundig wordt voltrokken. Het betreft de datum vanaf wanneer de handelingen van de overgenomen vennootschap boekhoudkundig worden geacht te zijn verricht voor rekening van de overnemende vennootschap. Deze datum, beter bekend als de datum waarop de fusie boekhoudkundig van kracht wordt of ‘scharnierdatum’, moet worden opgenomen in het fusievoorstel (artikel 12:24, tweede lid, 5° WVV). Sedert de inwerkingtreding van het WVV mag deze datum niet eerder mag worden geplaatst dan op de eerste dag na de afsluiting van het boekjaar waarvoor de jaarrekening reeds werd goedgekeurd van de bij de verrichting betrokken vennootschappen (artikel 12:24, tweede lid, 5°, *in fine* WVV). De laatste jaarrekening van de overgenomen vennootschap die het fusietijdstip voorafgaat, bevat de verrichtingen van de periode begrepen tussen de datum van de laatste jaarafsluiting en de datum van de boekhoudkundige retroactiviteit zoals hiervoor bedoeld, terwijl de verrichtingen van de overgenomen vennootschap die betrekking hebben op de periode van boekhoudkundige retroactiviteit, opgenomen worden in de jaarrekening van de overnemende vennootschap.
 
 #### In hoofde van de vennootschappen die aandeelhouder zijn van de overgenomen vennootschap
-
 Het boekhoudkundig continuïteitsprincipe is eveneens van toepassing in hoofde van de vennootschap(pen) die aandeelhouder is (zijn) van de overgenomen vennootschap(pen) aangezien de aandelen van de overnemende vennootschap verworven in ruil voor de aandelen die zij aanhield in de overgenomen vennootschap(pen), op het moment van de fusie in haar boekhouding worden opgenomen tegen de waarde waarvoor de aandelen van de overgenomen vennootschap(pen) op dit tijdstip in de boekhouding voorkwamen[^17].
 
 ### Vaststelling van de ruilverhouding
-
 Wanneer bijgevolg de ruilwaarden op grond waarvan de ruilverhouding tussen de aandelen van de overgenomen en die van de overnemende vennootschap wordt vastgesteld, niet overeenstemmen met de boekwaarden - zoals meestal het geval zal zijn -, zullen die ruilwaarden boekhoudkundig niet tot uitdrukking worden gebracht. 
 
 Het voorgaande houdt verband met de onderscheiden aard van het waarderingsgebeuren en de boekhoudkundige verwerking. 
@@ -157,7 +150,6 @@ Anderzijds moet het fusieproces worden verwerkt in een continuïteitsoptiek met 
 - de richting van de fusie bepalend zou zijn voor haar boekhoudkundige verwerking. 
 
 ### Toepassing
-
 Voorbeeld 1: De overnemende en overgenomen vennootschap houden geen aandelen van elkaar. Er wordt geen opleg in geld toegekend. De overgenomen vennootschap bezit geen eigen aandelen. De aandelen van de deelnemende vennootschappen hebben geen nominale waarde. Er werd niet besloten om de fractiewaarde per aandeel van de overnemende vennootschap te behouden.
 
 De balansen[^18] van de deelnemende vennootschappen vóór de fusie worden als volgt weergegeven:
@@ -218,7 +210,6 @@ Indien A B overneemt en 80 % van de aandelen van B vóór de fusie werden geboek
 | aan | Deelneming B | | | 3.500 |
 
 ## Uitzonderingen op het boekhoudkundig continuïteitsprincipe
-
 Overnemende en overgenomen vennootschap houden geen aandelen van elkaar. Er wordt geen opleg in geld toegekend. De overgenomen vennootschap bezit geen eigen aandelen. De verhoging van het kapitaal of van de inbreng van de overnemende vennootschap brengt een aanpassing teweeg (toepassing van artikelen 3:56, § 1 en 3:77, § 2 KB WVV).
 De verhoging van het kapitaal of van de inbreng van de overnemende vennootschap leidt tot een aanpassing wanneer:
 
@@ -263,7 +254,6 @@ Aantal B-aandelen: 2.000, waarvan de nominale waarde 2 bedraagt
 Ruilverhouding: 2 A = 1 B 
 
 #### A neemt B over met behoud van de nominale waarde van de A-aandelen
-
 2 A = 1 B => creatie van 2.000 x 2 = 4.000 nieuwe A-aandelen met nominale waarde 1,5 
 
 Het kapitaal van A wordt dus verhoogd met 4.000 x 1,5 = 6.000 d.i. 2.000 meer dan het kapitaal van B. Dit verschil wordt onttrokken aan de reserves van B, op de wijze beslist door de algemene vergadering die tot fusie besluit. 
@@ -282,7 +272,6 @@ Het kapitaal van A wordt dus verhoogd met 4.000 x 1,5 = 6.000 d.i. 2.000 meer da
 | | | 23.070 | | | | 23.070 | 
 
 #### B neemt A over met behoud van de nominale waarde van de B-aandelen
-
 2 A = 1 B => creatie van 1.200 x 1/2 = 600 nieuwe B-aandelen waarvan de nominale waarde 2 bedraagt
 
 Het kapitaal van B wordt dus verhoogd met 600 x 2 = 1.200 d.i. 600 minder dan het kapitaal van A. Dit verschil wordt geboekt als uitgiftepremie. 
@@ -394,7 +383,6 @@ Wordt er een verschil vastgesteld tussen de boekwaarde van de aandelen in de ove
 Hierna worden een aantal bijzondere aspecten van deze regeling toegelicht. 
 
 #### De boekwaarde van de aandelen in de overgenomen vennootschap stemt overeen met het deel dat deze aandelen vertegenwoordigen in het eigen vermogen van de overgenomen vennootschap
-
 Het spreekt voor zich dat deze situatie zich in de praktijk vrijwel nooit zal voordoen. Deze situatie wordt dan ook voornamelijk om didactische redenen aan de hand van onderstaand voorbeeld uitgewerkt. 
 
 Voorbeeld 5: Zelfde gegevens als in voorbeeld 1, maar A bezit 20 % van de aandelen van B, waarvan de boekwaarde overeenstemt met het aandeel in het eigen vermogen van B (20 % x 12.900 = 2.580). A neemt B over. 
@@ -523,7 +511,6 @@ In dit voorbeeld zal het bedrag van de beschikbare reserves na fusie gelijk zijn
 Dit probleem kan op twee verschillende methodes benaderd worden.
 
 ##### Aanrekening op de beschikbare reserves van B die worden overgedragen in het kader van de fusie en wedersamenstelling van het saldo van de vrijgestelde reserves in hoofde van A
-
 In eerste instantie kunnen de belastingvrije reserves gedeeltelijk worden wedersamengesteld door aanrekening op de overgenomen beschikbare reserves naar aanleiding van de fusie (en ten belope van het bedrag van deze reserves, namelijk 200). Dit geeft het volgende: 
 
 Belastingvrije reserves: 200 + 200 = 400
@@ -598,7 +585,6 @@ De balans na fusie wordt dan als volgt opgemaakt:
 De Commissie is van oordeel dat de negatief belaste reserve waarschijnlijk zal moeten worden behouden binnen het eigen vermogen van de overnemende vennootschap tot op het moment waarop de vereffening wordt afgesloten.
 
 ##### Proportionele overname van de belastingvrije reserves en de beschikbare reserves in het kader van de fusie en wedersamenstelling van het saldo van de vrijgestelde reserves in hoofde van A
-
 Het is eveneens toegelaten de boekhoudkundige reserves zonder toerekening over te dragen in het kader van de fusie.
 
 In dit geval worden de op het ogenblik van de fusie aan A overgedragen boekhoudkundige reserves als volgt weergegeven:
@@ -626,11 +612,9 @@ Dat geeft in het voorbeeld de volgende boeking:
 Er moet worden benadrukt dat de keuze voor de gebruikte methode bepaalde gevolgen heeft: indien de wedersamenstelling van de belastingvrije reserves plaatsvindt via de resultatenrekening, brengt dit een vermindering van de belaste reserves met zich mee. Hierdoor kan de overnemende vennootschap, in geval van latere vermindering van het kapitaal of van de inbreng, de ratio zoals bedoeld in artikel 18, tweede lid WIB 92 aanpassen om zo een groter deel van voormelde vermindering toe te rekenen aan het fiscaal kapitaal en op die manier het bedrag te beperken dat onderworpen is aan de hierbij ingehouden roerende voorheffing.
 
 #### De boekwaarde van de aandelen in de overgenomen vennootschap stemt niet overeen met het aandeel in haar eigen vermogen (artikel 3:77, § 5 KB WVV)
-
 Meestal zal bij fusie een verschil blijken tussen de boekwaarde van de aandelen van de overgenomen vennootschap en de fractie die zij vertegenwoordigen in het eigen vermogen. Dit verschil moet verwerkt worden volgens zijn aard of oorsprong, waarbij volgende situaties onderscheiden worden: 
 
 ##### De boekwaarde van de aandelen in de boekhouding van de overnemende vennootschap is groter dan het overeenstemmende aandeel in het eigen vermogen van de overgenomen vennootschap (artikel 3:77, § 5, a) KB WVV)
-
 Vooreerst dient nagegaan te worden of met toepassing van de gemeenrechtelijke bepalingen van het boekhoudrecht, het eigen vermogen van de overgenomen vennootschap moet gecorrigeerd worden: 
 
 - artikel 3:39, § 1, derde lid en artikel 3:42, § 1, derde lid KB WVV bepalen dat aanvullende of niet-recurrente afschrijvingen moeten teruggenomen worden indien zij niet langer verantwoord blijken; 
@@ -777,7 +761,6 @@ A zal als tegenpost op de passiefzijde van de balans een meerwaarde moeten boeke
 | aan | 10/11 | In het kapitaal / In de inbreng geïncorporeerde vrijgestelde reserve | | 65 |
 
 ##### De boekwaarde van de aandelen in de boekhouding van de overnemende vennootschap is kleiner dan het overeenstemmende aandeel in het eigen vermogen van de overgenomen vennootschap (artikel 3:77, § 5, b) KB WVV)
-
 Deze situatie moet eerst worden getoetst aan de boekhoudrechtelijke bepalingen om na te gaan of het eigen vermogen van de overgenomen vennootschap niet is overgewaardeerd: 
 
 - artikelen 3:39, § 1, tweede lid en 3:42, § 1, tweede lid KB WVV bepalen dat aanvullende of niet-recurrente afschrijvingen moeten geboekt worden indien wegens technische omstandigheden of wijziging van economische of technologische omstandigheden, de boekwaarde van materiële of immateriële vaste activa met beperkte gebruiksduur, hoger is dan hun gebruikswaarde voor de vennootschap; 
@@ -822,9 +805,7 @@ Het fusieverschil dat voortvloeit uit bovenvermeld verschil moet dus in resultaa
 | | | 20.425 | | | | 20.425 | 
 
 #### Kapitaalsubsidies en herwaarderingsmeerwaarden
-
 ##### Kapitaalsubsidies
-
 Artikel 3:77, § 4 KB WVV bepaalt dat de verschillende bestanddelen van het eigen vermogen van de overgenomen vennootschap slechts worden opgenomen bij de overnemende vennootschap ten belope van de fractie die overeenstemt met de aandelen die omgeruild worden. 
 
 Bijgevolg verdwijnen bij fusie ook de kapitaalsubsidies van de overgenomen vennootschap ten belope van het deelnemingspercentage van de overnemende in de overgenomen vennootschap. 
@@ -874,7 +855,6 @@ Voorbeeld 11: zelfde gegevens als in voorbeeld 5, behalve dat B kapitaalsubsidie
 | | | 20.490 | | | | 20.490 | 
 
 ##### Herwaarderingsmeerwaarden
-
 Net zoals de kapitaalsubsidies verdwijnen bij fusie ook de herwaarderingsmeerwaarden van de overgenomen vennootschap ten belope van het deelnemingspercentage van de overnemende in de overgenomen vennootschap. 
 
 Wordt het geherwaardeerde actief vervreemd dan zal rekening worden gehouden met het bij de fusie « verrekende » gedeelte van de herwaarderingsmeerwaarde. 
@@ -932,7 +912,6 @@ Indien het geherwaardeerde gebouw (met aanschaffingsprijs van 400) voor 1.000 wo
 120 (d.i. 20 % van de oorspronkelijke herwaarderingsmeerwaarde van 600) werd bij fusie verrekend met de aanschaffingswaarde van de deelneming in vennootschap B. 
 
 ##### Wedersamenstelling van het boekhoudkundig verdwenen gedeelte van de kapitaalsubsidies en herwaarderingsmeerwaarden
-
 Teneinde een overeenstemming te bereiken met de fiscale regels, zal de vennootschap er doorgaans voor opteren om het aldus boekhoudkundig verdwenen gedeelte van de kapitaalsubsidies of herwaarderingsmeerwaarden onmiddellijk na de fusie terug weder samen te stellen. Deze wedersamenstelling kan dan als een mutatie binnen het eigen vermogen gebeuren door middel van de volgende correctieboekingen :
 
 Voorbeeld 11 (vervolg):

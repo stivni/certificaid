@@ -16,45 +16,45 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/consolidatie-bij-de-horizontale-groep-consortium-0
 nummer: CBN-advies 2024/07
 provenance:
+  generated_at: '2026-05-11T17:48:40Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/gevolgen-verhoging-groottecriteria-voor-vennootschappen
       sha256: 299811b111c18f8c8ab27667595381f3bb927885bed18c9fd42286b366236b9e
       version:
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T15:15:32Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
-    status: needs-rework
     confirmed_at: '2026-05-11T17:13:31Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "B5: Voorbeeld 3 (regel 186) en Voorbeeld 4 (regel 207) staan als plain-text alinea's zonder ### heading-prefix, terwijl Voorbeeld 1 (regel 115), Voorbeeld 2 (regel 148) en Voorbeeld 5 (regel 228) wél als ### heading zijn opgemaakt — inconsistente extractie van sectie-titels. Inhoud verder volledig; 36 voetnoten correct."
     layer1:
-      file_size_chars: 25989
-      flags: []
-      heading_count: 7
-      max_section_chars: 9443
-      run_at: '2026-05-11T15:05:54Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:45Z'
+      heading_count: 7
+      max_section_chars: 9442
+      file_size_chars: 25982
+      flags: []
     layer2:
-      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T17:13:31Z'
-      rationale: "B5: Voorbeeld 3 (regel 186) en Voorbeeld 4 (regel 207) staan als plain-text alinea's zonder ### heading-prefix, terwijl Voorbeeld 1 (regel 115), Voorbeeld 2 (regel 148) en Voorbeeld 5 (regel 228) wél als ### heading zijn opgemaakt — inconsistente extractie van sectie-titels. Inhoud verder volledig; 36 voetnoten correct."
       concrete_problemen:
-        - regel: 186
-          categorie: B5
+        - categorie: B5
+          regel: 186
           type: other
           voorbeeld: 'Voorbeeld 3: impact van de verhoging van de criteria op langere termijn waarbij het boekjaar gelijk loopt met het kalenderjaar (plain text, geen ### prefix)'
-        - regel: 207
-          categorie: B5
+        - categorie: B5
+          regel: 207
           type: other
           voorbeeld: 'Voorbeeld 4: impact van de verhoging van de criteria op langere termijn waarbij het boekjaar niet gelijk loopt met het kalenderjaar (plain text, geen ### prefix)'
+      rationale: 'B5: Voorbeeld 3 (regel 186) en Voorbeeld 4 (regel 207) staan als plain-text alinea''s zonder ### heading-prefix, terwijl Voorbeeld 1 (regel 115), Voorbeeld 2 (regel 148) en Voorbeeld 5 (regel 228) wél als ### heading zijn opgemaakt — inconsistente extractie van sectie-titels. Inhoud verder volledig; 36 voetnoten correct.'
+      run_at: '2026-05-11T17:13:31Z'
+      status: needs-rework
+    rationale: 'B5: Voorbeeld 3 (regel 186) en Voorbeeld 4 (regel 207) staan als plain-text alinea''s zonder ### heading-prefix, terwijl Voorbeeld 1 (regel 115), Voorbeeld 2 (regel 148) en Voorbeeld 5 (regel 228) wél als ### heading zijn opgemaakt — inconsistente extractie van sectie-titels. Inhoud verder volledig; 36 voetnoten correct.'
+    status: needs-rework
 themas:
   - groottecriteria
   - drempels
@@ -69,7 +69,6 @@ themas:
 # CBN-advies 2024/07 – Gevolgen verhoging groottecriteria voor vennootschappen
 
 ## Inleiding
-
 De Europese Commissie verhoogde eind 2023 de drempelwaarden van de groottecriteria voor ondernemingen en groepen. Hiertoe nam ze de Gedelegeerde Richtlijn 2023/2775 van 17 oktober 2023 aan tot wijziging van Richtlijn 2013/34/EU van het Europees Parlement en de Raad wat betreft de aanpassingen van de groottecriteria voor micro-ondernemingen, kleine, middelgrote en grote ondernemingen of groepen[^2]. Deze verhoging werd doorgevoerd om rekening te houden met de hoge inflatiecijfers van de afgelopen jaren.[^3] 
 
 De Gedelegeerde Richtlijn 2023/2775 werd in België in eerste instantie omgezet door de Wet van 28 maart 2024 houdende bepalingen inzake digitalisering van justitie en diverse bepalingen Ibis[^4].[^5]
@@ -78,7 +77,6 @@ De Gedelegeerde Richtlijn 2023/2775 werd in België in eerste instantie omgezet 
 De groottecriteria voor de verenigingen en stichtingen werden verhoogd door het koninklijk besluit van 25 mei 2024 tot wijziging van het Wetboek van vennootschappen en verenigingen wat betreft de groottecriteria voor micro- en kleine verenigingen en stichtingen[^7]. De verhoging van de groottecriteria bij verenigingen en stichtingen wordt in een afzonderlijk advies behandeld.
 
 ## Verhoging drempelwaarden
-
 Bij de drempelwaarden met betrekking tot de kleine vennootschappen (art. 1:24 WVV) wordt het bedrag van de jaaromzet exclusief btw verhoogd van 9.000.000 euro naar **11.250.000** euro en het bedrag van het balanstotaal van 4.500.000 euro naar **6.000.000** euro.[^8] 
 
 Bij de drempelwaarden met betrekking tot de microvennootschappen (art. 1:25 WVV) wordt het bedrag van de jaaromzet exclusief btw verhoogd van 700.000 euro naar **900.000** euro en het bedrag van het balanstotaal van 350.000 euro naar **450.000** euro.[^9] 
@@ -88,7 +86,6 @@ Bij de drempelwaarden met betrekking tot de groepen van beperkte omvang (art. 1:
 De drempelwaarden in verband met het jaargemiddelde van het aantal werknemers worden niet aangepast in de artikelen 1:24, § 1, 1:25, § 1, en 1:26, § 1 van het WVV.
 
 ## Inwerkingtreding
-
 De Gedelegeerde Richtlijn 2023/2775 draagt de lidstaten op om de wetsbepalingen die de richtlijn omzetten uiterlijk van toepassing te maken op boekjaren die beginnen op of na 1 januari 2024, opdat ondernemingen of groepen zo spoedig mogelijk kunnen gebruik maken van de bijgestelde drempelwaarden.[^11]
  De richtlijn laat de lidstaten bovendien de ruimte om de verhoogde criteria toe te passen op boekjaren die beginnen op of na 1 januari 2023.[^12] 
 
@@ -109,11 +106,9 @@ Voor de beoordeling of een vennootschap voor het boekjaar dat loopt van 1 januar
 Voor de beoordeling of een vennootschap voor een gebroken boekjaar dat loopt van 1 april 2024 tot 31 maart 2025 – in dit geval het eerste boekjaar dat aanvangt na 31 december 2023 - wordt aangemerkt als een kleine of een “grote” vennootschap, moet worden nagegaan of zij op 31 maart 2024, zijnde de balansdatum van het boekjaar met betrekking tot de eerste op te stellen jaarrekening na 31 december 2023, meer dan één van de verhoogde groottecriteria overschrijdt.
 
 ## Voorbeelden
-
 In de hierna uitgewerkte voorbeelden[^19] wordt er van uitgegaan dat de betrokken vennootschap geen dochtervennootschap noch moedervennootschap is en geen deel uitmaakt van een consortium. Bijgevolg moet enkel rekening gehouden worden met de enkelvoudige cijfers van de vennootschap zelf.
 
 ### Voorbeeld 1: boekjaar loopt gelijk met kalenderjaar
-
 Een vennootschap voert een boekhouding per kalenderjaar. Voor de boekjaren 2021, 2022 en 2023 werd de vennootschap aangemerkt als een “grote” vennootschap. De vennootschap heeft de volgende kencijfers[^20]:
 
 | | | 31/12/2023 | | 31/12/2024 | | 31/12/2025 | 
@@ -146,7 +141,6 @@ Op balansdatum 31 december 2025 heeft de vennootschap meer dan één van de crit
 Door de uitgestelde werking blijft de vennootschap ook in boekjaar 2026 klein, aangezien de overschrijding van meer dan één van de criteria van artikel 1:24, § 2 WVV zich nog niet gedurende twee achtereenvolgende boekjaren heeft voorgedaan.
 
 ### Voorbeeld 2: gebroken boekjaar
-
 Een vennootschap hanteert gebroken boekjaren waarbij het boekjaar eindigt op 31 maart. Voor de boekjaren die werden aangevat op 1 april 2022 en 1 april 2023 werd de vennootschap aangemerkt als een kleine vennootschap. De vennootschap heeft de volgende kencijfers[^23]:
 
 | | | 31/03/2024 | | 31/03/2025 | | 31/03/2026 | 
@@ -226,7 +220,6 @@ De vennootschap zal in boekjaar dat start op 1 april 2025 worden gekwalificeerd 
 De vennootschap zal in boekjaar dat start op 1 april 2026 worden gekwalificeerd als zijnde een ‘grote’ vennootschap (wegens het overschrijden van meer dan één van de verhoogde drempelwaarden op zowel 31 maart 2025 als 31 maart 2026). 
 
 ### Voorbeeld 5: beoordeling op geconsolideerde of geaggregeerde basis
-
 Veronderstel een groep die bestaat uit de volgende vennootschappen:
 
 TOPCO: afsluitingsdatum boekjaar 30/06 

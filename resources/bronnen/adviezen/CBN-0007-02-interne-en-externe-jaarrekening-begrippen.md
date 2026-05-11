@@ -3,48 +3,46 @@ bron: https://www.cbn-cnc.be/nl/adviezen/interne-en-externe-jaarrekening-begripp
 datum: 1981-04-01
 nummer: CBN-advies 7/2
 provenance:
-  generated_at: '2026-05-11T15:15:31Z'
+  generated_at: '2026-05-11T17:48:38Z'
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/interne-en-externe-jaarrekening-begrippen
-    sha256: 2f2bd2508b071ea8c821b9b284c8c28935df3eef7f5a02f2a63ed5ab9b56734e
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/interne-en-externe-jaarrekening-begrippen
+      sha256: 2f2bd2508b071ea8c821b9b284c8c28935df3eef7f5a02f2a63ed5ab9b56734e
+      version:
   stale: false
-  stale_reason: null
+  stale_reason:
   tooling:
-    model: null
+    model:
     pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    prompt_version: null
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
     confirmed_at: '2026-05-08T19:02:29Z'
     confirmed_by: subagent-laag2-ronde2
     layer1:
-      file_size_chars: 6899
-      flags: []
-      heading_count: 1
-      max_section_chars: 6899
-      run_at: '2026-05-11T15:05:47Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:40Z'
+      heading_count: 1
+      max_section_chars: 6896
+      file_size_chars: 6896
+      flags: []
     layer2:
       agent: subagent-laag2-ronde2
       concrete_problemen: []
-      rationale: '[Laag-2-R2 2026-05-08] Volledig en coherent, twee begrippen helder
-        onderscheiden, voetnoten correct.'
+      rationale: '[Laag-2-R2 2026-05-08] Volledig en coherent, twee begrippen helder onderscheiden, voetnoten correct.'
       run_at: '2026-05-08T19:02:29Z'
       status: trusted
     rationale: Laag-2 trusted door subagent-laag2-ronde2 (zie layer2.rationale)
     status: trusted
 themas:
-- externe jaarrekening
-- interne jaarrekening
-- jaarrekening
-- openbaarmaking
-- publicatie
+  - externe jaarrekening
+  - interne jaarrekening
+  - jaarrekening
+  - openbaarmaking
+  - publicatie
 ---
 
 # CBN advies 7-2 - Interne en externe jaarrekening – Begrippen
-
 De Commissie heeft in een aantal gevallen enige begripsverwarring vastgesteld inzake het onderscheid dat uit de boekhoudwet en haar uitvoeringsbesluiten voortvloeit, tussen enerzijds de zogenaamde interne jaarrekening, en anderzijds de externe jaarrekening.[^1] 
 
 Door er twee afzonderlijke bepalingen aan te wijden, heeft de boekhoudwet inderdaad een duidelijk onderscheid gemaakt tussen beide begrippen. 
@@ -69,10 +67,9 @@ Hoewel in de regel de externe jaarrekening met de interne jaarrekening overeenst
 
 In het koninklijk besluit van 8 oktober 1976 werd van deze mogelijkheid gebruik gemaakt. Hoofdstuk III van dit besluit handelt inderdaad enkel over vorm en inhoud van de openbaar te maken jaarrekening. Welnu, artikel 39 uit dit hoofdstuk maakt het voor bepaalde ondernemingen, hoewel zij intern een volledige jaarrekening moeten opmaken, mogelijk om evenwel een jaarrekening volgens een zogenaamd beknopt schema te publiceren, althans zo zij tot openbaarmaking van hun jaarrekening verplicht zijn (krachtens het vennootschapsrecht of een andere wettelijke bepaling). Daarnaast bepaalt artikel 37, tweede lid, dat de externe jaarrekening in duizenden franken wordt uitgedrukt[^5]. 
 
-In vennootschapsrechtelijk verband moet ten slotte worden aangestipt dat de externe jaarrekening noodzakelijkerwijze dezelfde is als diegene die door de algemene vergadering der aandeelhouders werd goedgekeurd, vermits in toepassing van artikel 80, eerste lid van de vennootschapswet, wel degelijk deze jaarrekening binnen de dertig dagen na haar goedkeuring moet worden neergelegd ter Griffie van de Rechtbank van Koophandel. 
+In vennootschapsrechtelijk verband moet ten slotte worden aangestipt dat de externe jaarrekening noodzakelijkerwijze dezelfde is als diegene die door de algemene vergadering der aandeelhouders werd goedgekeurd, vermits in toepassing van artikel 80, eerste lid van de vennootschapswet, wel degelijk deze jaarrekening binnen de dertig dagen na haar goedkeuring moet worden neergelegd ter Griffie van de Rechtbank van Koophandel.
 
 ## Overwicht van de interne jaarrekening
-
 De draagwijdte van het hierboven toegelichte onderscheid mag niet worden overdreven. 
 
 Zoals reeds aangestipt, stemt de externe jaarrekening in de regel overeen met de interne. Het is slechts bij wijze van uitzondering dat de reglementering het mogelijk maakt een meer beknopte jaarrekening dan de interne openbaar te maken. 

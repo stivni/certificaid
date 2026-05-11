@@ -3,46 +3,44 @@ bron: https://www.cbn-cnc.be/nl/adviezen/de-interpretatie-van-de-openbaarmakings
 datum: 2010-01-13
 nummer: CBN-advies 2010/1
 provenance:
-  generated_at: '2026-05-11T15:15:31Z'
+  generated_at: '2026-05-11T17:48:38Z'
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/de-interpretatie-van-de-openbaarmakingsverplichting-van-transacties-van-enige-betekenis
-    sha256: f8cb0768ae41a60178408e84719465b10aa085621e8b1f65eda22c87b97a02e3
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/de-interpretatie-van-de-openbaarmakingsverplichting-van-transacties-van-enige-betekenis
+      sha256: f8cb0768ae41a60178408e84719465b10aa085621e8b1f65eda22c87b97a02e3
+      version:
   stale: false
-  stale_reason: null
+  stale_reason:
   tooling:
-    model: null
+    model:
     pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    prompt_version: null
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
     confirmed_at: '2026-05-08T21:31:11Z'
     confirmed_by: human
     layer1:
-      file_size_chars: 13743
-      flags: []
-      heading_count: 7
-      max_section_chars: 9089
-      run_at: '2026-05-11T15:05:50Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:42Z'
+      heading_count: 7
+      max_section_chars: 9085
+      file_size_chars: 13736
+      flags: []
     layer2:
-      agent: null
+      agent:
       concrete_problemen: []
-      rationale: null
-      run_at: null
+      rationale:
+      run_at:
       status: not_run
-    rationale: 'Herscraped na fix select_title(): gecombineerde H1 (COMMISSIE + titel)
-      correct gesplitst. Inhoud ongewijzigd t.o.v. vorig vertrouwd verdict. Laag 1
-      pass (of benign max_section warn).'
+    rationale: 'Herscraped na fix select_title(): gecombineerde H1 (COMMISSIE + titel) correct gesplitst. Inhoud ongewijzigd t.o.v. vorig vertrouwd verdict. Laag 1 pass (of benign max_section warn).'
     status: trusted
 themas:
-- buiten normale marktvoorwaarden
-- corporate governance
-- materialiteitsbeginsel
-- transactie buiten normale marktvoorwaarden
-- transactie met verbonden partijen
-- transactie van enige betekenis
+  - buiten normale marktvoorwaarden
+  - corporate governance
+  - materialiteitsbeginsel
+  - transactie buiten normale marktvoorwaarden
+  - transactie met verbonden partijen
+  - transactie van enige betekenis
 ---
 
 # CBN-advies 2010/1 - De interpretatie van de openbaarmakingsverplichting van transacties van enige betekenis met verbonden partijen buiten normale marktvoorwaarden, zoals bepaald in het koninklijk besluit van 10 augustus 2009
@@ -50,7 +48,6 @@ themas:
 Via het Koninklijk besluit van 10 augustus 2009 (*B.S*., 24.08.2009) is in intern Belgisch algemeen jaarrekeningenrecht voorzien in de omzetting van artikelen 1, 6) en 2, 1) van Richtlijn 2006/46/EG van het Europees Parlement en de Raad van 14 juni 2006 tot wijziging van de Richtlijnen 78/660/EEG van de Raad betreffende de jaarrekening van bepaalde vennootschapsvormen, 83/349/EEG van de Raad betreffende de geconsolideerde jaarrekening, 86/635/EEG van de Raad betreffende de jaarrekening en de geconsolideerde jaarrekening van banken en andere financiële instellingen en 91/674/EEG van de Raad betreffende de jaarrekening en de geconsolideerde jaarrekening van verzekeringsondernemingen (Publicatieblad van de Europese Unie, L 224/1, 16.08.2006).
 
 ## Situering
-
 De bijkomende verplichtingen die in het koninklijk besluit aan bepaalde categorieën van ondernemingen worden opgelegd, kaderen in een aantal Europese maatregelen tot verbetering van de corporate governance. Ze vergroten de transparantie bij transacties met verbonden partijen en buiten de balans vallende regelingen en verbeteren de informatievertrekking over corporate governancepraktijken bij ondernemingen en bevestigen op die manier de collectieve verantwoordelijkheid van de leden van de leidinggevende, toezichthoudende of bestuursorganen jegens aandeelhouders en andere belanghebbenden.
 
 In het betrokken besluit wordt met name aan bepaalde categorieën van vennootschappen de verplichting opgelegd om, in de toelichting bij hun jaarrekening, bepaalde gegevens te vermelden betreffende van enige betekenis zijnde transacties tussen verbonden partijen buiten normale marktvoorwaarden. 
@@ -60,9 +57,7 @@ De Richtlijn voorziet in overweging (6), in fine, dat de openbaarmaking van tran
 Aan de Commissie werd de vraag gesteld welke transacties precies moeten vermeld worden.
 
 ## Toepassingsgebied
-
 ### Eerste categorie
-
 Enerzijds worden volgende categorieën van vennootschappen verplicht om informatie betreffende van enige betekenis zijnde transacties tussen verbonden partijen buiten normale marktvoorwaarden op te nemen in hun toelichting: genoteerde vennootschappen[^1], vennootschappen waarvan de effecten zijn toegelaten op een MTF (Multilateral Trading Facility) zoals bedoeld in artikel 2, 4° van de wet van 2 augustus 2002 betreffende het toezicht op de financiële sector en de financiële diensten, en vennootschappen die meer dan één van de criteria bedoeld in artikel 16, § 1, eerste lid, W.Venn. overschrijden. 
 
 Zoals bepaald in de Richtlijn, voorziet het koninklijk besluit evenwel volgende uitzondering: *“Deze informatie is niet vereist voor transacties die zijn aangegaan tussen twee of meer leden van een groep, mits de dochterondernemingen die partij zijn bij de transactie, geheel in eigendom zijn van een dergelijk lid[^2]
@@ -75,11 +70,9 @@ Veronderstel bijvoorbeeld dat de moedervennootschap A 99 procent van de aandelen
 Hetzelfde geldt indien bijvoorbeeld de moedervennootschap A 100 procent van de aandelen bezit van dochteronderneming X en 40 procent van onderneming Y. X bezit de overige 60 procent van Y. Ook in dit geval moeten de transacties van enige betekenis die buiten normale marktvoorwaarden plaatsvinden tussen A, X en Y dus niet opgenomen te worden in de nieuwe staat van de toelichting.
 
 ### Tweede categorie
-
 *Naamloze* vennootschappen die niet tot de eerder vermelde drie categorieën van ondernemingen behoren kunnen zich beperken tot het vermelden van enkel de van enig betekenis zijnde transacties, buiten normale marktvoorwaarden, die direct of indirect zijn aangegaan tussen de vennootschap en haar voornaamste aandeelhouders en de vennootschap en de leden van de leidinggevende, de toezichthoudende of de bestuursorganen.
 
 ## Materialiteitsbeginsel
-
 De betrokken transacties worden in de toelichting opgenomen, indien zij van *enige betekenis* zijn. 
 
 De Commissie is van oordeel dat de wetgever hier bedoelt dat, van de betrokken transacties, enkel de *materiële* transacties moeten worden toegelicht. Het begrip materieel wordt gebruikt in de (in de context van jaarrekeningen) internationaal algemeen aanvaarde betekenis van dat woord, volgens dewelke informatie materieel is indien het weglaten of het onjuist weergeven daarvan een invloed zou kunnen hebben op de economische beslissingen die gebruikers op basis van de jaarrekening nemen.[^5] [^6] 
@@ -87,7 +80,6 @@ De Commissie is van oordeel dat de wetgever hier bedoelt dat, van de betrokken t
 De vaststelling of een transactie al dan niet van enige betekenis is, moet tevens worden gezien in het licht van de doelstelling van het betrokken besluit, namelijk de verbetering van het corportate governance-beleid. 
 
 ## Transacties buiten normale marktvoorwaarden
-
 Vooreerst moet gesteld worden dat de Richtlijn zelf niet voorziet in een omschrijving van deze passus.
 
 Wat betreft transacties *buiten normale marktvoorwaarden* expliciteert de Europese Commissie in het document “European Commission proposal for amending the Accounting Directives - Frequently Asked Questions” in verband met de voorgenomen invoering van deze passus, het volgende: *“Therefore, it is preferable to limit the disclosure to those transactions which have been concluded with the involvement of parties who may potentially have a conflict of interest, in other words transactions not performed at “arm’s length”, i.e. not under normal market conditions.”[^7] *.
@@ -103,7 +95,6 @@ Ook in het Wetboek van Vennootschappen is het begrip niet onbekend. In verband m
 Ook artikel 629 van het Wetboek van Vennootschappen inzake de financiering door een naamloze vennootschap van de verkrijging van haar effecten door een derde stelt in § 1: *“Het voorschieten van middelen, toestaan van leningen of stellen van zekerheden door een naamloze vennootschap met het oog op de verkrijging van haar aandelen of van haar winstbewijzen of met het oog op de verkrijging of de inschrijving door een derde van certificaten die betrekking hebben op aandelen of winstbewijzen, moet voldoen aan de volgende voorwaarden: 1° de verrichtingen gebeuren onder de verantwoordelijkheid van de raad van bestuur en tegen billijke marktvoorwaarden[^11] , met name wat betreft de rente die de vennootschap ontvangt en de zekerheid die aan de vennootschap wordt verstrekt”.*
 
 ## Besluit
-
 Rekening houdende met bovenstaande punten besluit de Commissie dat die transacties worden bedoeld die *enerzijds* materieel zijn en die *anderzijds* buiten normale marktvoorwaarden plaatsvinden. Transacties buiten normale marktvoorwaarden kunnen worden omschreven als *“verrichtingen die niet worden aangegaan onder de voorwaarden en tegen de zekerheden die op de markt gewoonlijk gelden voor soortgelijke verrichtingen”.*
 
 Niettegenstaande *“niet onder marktvoorwaarden”* geen onbekend begrip blijkt in de Belgische wetgeving, blijft de invulling van dit conceptueel begrip niet eenvoudig. Bij de vaststelling, of een transactie al dan niet onder normale marktvoorwaarden plaatsvindt, moet steeds rekening worden gehouden met de context waarin de betrokken transactie plaatsvindt. De Commissie onderlijnt hier, rekening houdende met de doelstelling van het betrokken koninklijk besluit inzake *corporate governance*, de verantwoordelijkheid van het bestuursorgaan. 

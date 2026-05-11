@@ -2,59 +2,52 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/vrijstelling-mbt-het-sociaal-passief-ingevolge-het-eenheidsstatuut
 datum: 2018-11-28
 gerelateerde_adviezen:
-- datum: '1983-04-10'
-  titel: Belastingvrije provisie voor sociaal passief
-  url: https://www.cbn-cnc.be/nl/adviezen/belastingvrije-provisie-voor-sociaal-passief
+  - datum: '1983-04-10'
+    titel: Belastingvrije provisie voor sociaal passief
+    url: https://www.cbn-cnc.be/nl/adviezen/belastingvrije-provisie-voor-sociaal-passief
 nummer: CBN-advies 2018/21
 provenance:
-  generated_at: '2026-05-11T15:15:32Z'
+  generated_at: '2026-05-11T17:48:39Z'
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/vrijstelling-mbt-het-sociaal-passief-ingevolge-het-eenheidsstatuut
-    sha256: c71ec7d9c8f537088d54151d46dea7a11d4210e362c8b7e4ea7ea4a8398c69dc
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/vrijstelling-mbt-het-sociaal-passief-ingevolge-het-eenheidsstatuut
+      sha256: c71ec7d9c8f537088d54151d46dea7a11d4210e362c8b7e4ea7ea4a8398c69dc
+      version:
   stale: false
-  stale_reason: null
+  stale_reason:
   tooling:
-    model: null
+    model:
     pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    prompt_version: null
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
     confirmed_at: '2026-05-11T12:21:40Z'
     confirmed_by: subagent-sonnet-4-6
     layer1:
-      file_size_chars: 6589
-      flags: []
-      heading_count: 3
-      max_section_chars: 4073
-      run_at: '2026-05-11T15:05:53Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:44Z'
+      heading_count: 3
+      max_section_chars: 4072
+      file_size_chars: 6586
+      flags: []
     layer2:
       agent: subagent-sonnet-4-6
       concrete_problemen: []
-      rationale: 'Geen artefacten gevonden. Tekst vloeiend, drie ## headings correct,
-        alle 14 voetnoten volledig verankerd. Geen tabellen. De cursief-opmaak van
-        artikelnummers (67*quater*) is correcte markdown-weergave van de wettelijke
-        schrijfwijze. Inhoud volledig.'
+      rationale: 'Geen artefacten gevonden. Tekst vloeiend, drie ## headings correct, alle 14 voetnoten volledig verankerd. Geen tabellen. De cursief-opmaak van artikelnummers (67*quater*) is correcte markdown-weergave van de wettelijke schrijfwijze. Inhoud volledig.'
       run_at: '2026-05-11T12:21:40Z'
       status: trusted
-    rationale: 'Geen artefacten gevonden. Tekst vloeiend, drie ## headings correct,
-      alle 14 voetnoten volledig verankerd. Geen tabellen. De cursief-opmaak van artikelnummers
-      (67*quater*) is correcte markdown-weergave van de wettelijke schrijfwijze. Inhoud
-      volledig.'
+    rationale: 'Geen artefacten gevonden. Tekst vloeiend, drie ## headings correct, alle 14 voetnoten volledig verankerd. Geen tabellen. De cursief-opmaak van artikelnummers (67*quater*) is correcte markdown-weergave van de wettelijke schrijfwijze. Inhoud volledig.'
     status: trusted
 themas:
-- sociaal passief
-- eenheidsstatuut
-- fiscale vrijstelling
-- belastinglatentie
+  - sociaal passief
+  - eenheidsstatuut
+  - fiscale vrijstelling
+  - belastinglatentie
 ---
 
 # CBN-advies 2018/21 – Vrijstelling m.b.t. het sociaal passief ingevolge het eenheidsstatuut
 
 ## Inleiding
-
 De Commissie voor Boekhoudkundige Normen werd gevraagd hoe de vrijstelling m.b.t. het sociaal passief ingevolge het eenheidsstatuut, voorzien door artikel 67*quater* van het Wetboek van de inkomstenbelastingen 1992 (hierna: WIB 92)[^2], zich zal vertalen in de boekhouding en de jaarrekening. 
 
 Artikel 67*quater* WIB 92 werd ingevoegd door artikel 102 van de wet van 26 december 2013 betreffende de invoering van een eenheidsstatuut tussen arbeiders en bedienden[^3], zoals gewijzigd door artikel 39 van de wet van 18 december 2015 houdende fiscale en diverse bepalingen. 
@@ -62,7 +55,6 @@ Artikel 67*quater* WIB 92 werd ingevoegd door artikel 102 van de wet van 26 dece
 Met deze nieuwe fiscale vrijstelling moeten de bijkomende kosten die voortvloeien uit het eenheidsstatuut tussen arbeider en bediende gedeeltelijk gecompenseerd worden. Deze vrijstelling is echter van algemene aard in die zin dat ze “*niet enkel de werknemers betreft waarvoor de ontslagkost ingevolge het eenheidsstatuut hoger is dan voorheen*”[^4].
 
 ## Korte voorstelling van de vrijstelling
-
 Artikel 67*quater* WIB 92 stelt de winsten vrij “*tot beloop van een bepaald bedrag aan bezoldigingen toegekend aan werknemers die bij de betrokken belastingplichtige minimaal 5 dienstjaren hebben na 1 januari 2014*”[^5]. 
 
 Deze maatregel heeft bijgevolg pas fiscale gevolgen vanaf 1 januari 2019. 
@@ -76,7 +68,6 @@ Artikel 67*quater* WIB 92 verduidelijkt dat “wanneer de betrokken werknemer de
 ”. De voorbereidende werken bevestigen dat de vrijstelling moet worden teruggenomen wanneer de werknemer de onderneming om gelijk welke reden verlaat[^10].
 
 ## Boekhoudkundige voorstelling
-
 Boekhoudkundig zal de vrijstelling inzake het sociaal passief enkel het bedrag van de verschuldigde belastingen op het resultaat van het boekjaar verminderen, conform de maxima en de modaliteiten voorzien door de artikelen 46*ter* en 46*quater* KB/WIB 92. 
 
 Er is geen boeking nodig. Volgens de Commissie kan de vennootschap de vrijstelling niet boeken onder de belastingvrije reserves, aangezien er fiscaal geen voorwaarde geldt dat het bedrag in het vermogen van de vennootschap behouden blijft (zogenaamde “ontastbaarheidsvoorwaarde”).[^11] 

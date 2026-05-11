@@ -7,53 +7,53 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/verwerking-van-verrichtingen-voor-de-verwerving-of-verkoop-van-een-recht-op-vruchtgebruik
 nummer: CBN-advies 2018/17
 provenance:
+  generated_at: '2026-05-11T17:48:39Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/schulden-gewaarborgd-door-een-zakelijke-zekerheid-niet-in-de-balans-opgenomen-rechten-en
       sha256: 84aa2320b4231304ec94ca9ec3cb7b1c27ff343e76901d581e87eb837894b6b8
       version:
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T15:15:32Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
-    status: needs-rework
     confirmed_at: '2026-05-11T17:13:30Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: 'E1/E2: samenvattende bijlagetabellen (regels 289–1099) zijn volledig gefragmenteerd als single-cell blokken — identieke extractor-bug als CBN-2018-16. B5: subsectielabels op regels 95 en 230 staan als plain-text zonder heading-prefix. B3: `## Onherroepelijk beloofd of gesteld` verschijnt midden in gefragmenteerde tabelinhoud op regels 298, 486, 669, 829, 987.'
     layer1:
-      file_size_chars: 53077
-      flags: []
-      heading_count: 26
-      max_section_chars: 19185
-      run_at: '2026-05-11T15:05:53Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:44Z'
+      heading_count: 41
+      max_section_chars: 19172
+      file_size_chars: 52996
+      flags: []
     layer2:
-      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T17:13:30Z'
-      rationale: 'E1/E2: samenvattende bijlagetabellen (regels 289–1099) zijn volledig gefragmenteerd als single-cell blokken — identieke extractor-bug als CBN-2018-16. B5: subsectielabels op regels 95 en 230 staan als plain-text zonder heading-prefix. B3: `## Onherroepelijk beloofd of gesteld` verschijnt midden in gefragmenteerde tabelinhoud op regels 298, 486, 669, 829, 987.'
       concrete_problemen:
-        - regel: 291
-          categorie: E1
+        - categorie: E1
+          regel: 291
           type: other
           voorbeeld: "| \n\n**Soort zekerheid**\n\n  | | \n|---|\n\n## Onherroepelijk beloofd of gesteld"
-        - regel: 95
-          categorie: B5
+        - categorie: B5
+          regel: 95
           type: other
           voorbeeld: De zakelijke zekerheden bedoeld in KB W.Venn.
-        - regel: 230
-          categorie: B5
+        - categorie: B5
+          regel: 230
           type: other
           voorbeeld: De staat over de betrekkingen met verbonden, geassocieerde ondernemingen...
-        - regel: 298
-          categorie: B3
+        - categorie: B3
+          regel: 298
           type: other
           voorbeeld: '## Onherroepelijk beloofd of gesteld (midden in tabelinhoud)'
+      rationale: 'E1/E2: samenvattende bijlagetabellen (regels 289–1099) zijn volledig gefragmenteerd als single-cell blokken — identieke extractor-bug als CBN-2018-16. B5: subsectielabels op regels 95 en 230 staan als plain-text zonder heading-prefix. B3: `## Onherroepelijk beloofd of gesteld` verschijnt midden in gefragmenteerde tabelinhoud op regels 298, 486, 669, 829, 987.'
+      run_at: '2026-05-11T17:13:30Z'
+      status: needs-rework
+    rationale: 'E1/E2: samenvattende bijlagetabellen (regels 289–1099) zijn volledig gefragmenteerd als single-cell blokken — identieke extractor-bug als CBN-2018-16. B5: subsectielabels op regels 95 en 230 staan als plain-text zonder heading-prefix. B3: `## Onherroepelijk beloofd of gesteld` verschijnt midden in gefragmenteerde tabelinhoud op regels 298, 486, 669, 829, 987.'
+    status: needs-rework
 themas:
   - zakelijk recht
   - niet in de balans opgenomen rechten en verplichtingen
@@ -80,7 +80,6 @@ themas:
 # CBN-advies 2018/17 – Schulden gewaarborgd door een zakelijke zekerheid – Niet in de balans opgenomen rechten en verplichtingen
 
 ## Inleiding
-
 Onderhavig advies actualiseert, vervolledigt en vervangt de CBN-adviezen 106, 106/1, 106/2 en 106/5 over gewaarborgde schulden, met name wat betreft de hervorming van de zakelijke zekerheden op roerende goederen, die op 1 januari 2018 in werking is getreden[^2].
 
 De Commissie analyseert hierin meer bepaald de rapporteringsverplichtingen m.b.t. de schulden van de vennootschap gewaarborgd door zakelijke zekerheden die door de vennootschap gesteld of onherroepelijk beloofd worden op haar eigen bezittingen of door derden voor rekening van de vennootschap.
@@ -103,7 +102,6 @@ De toelichting van het microschema bevat niet zulke staat.[^17]
  Artikel 94/3, III, B van het KB W.Venn. voorziet echter dat de microvennootschap onder haar *niet in de balans opgenomen rechten en verplichtingen* het bedrag en de aard van belangrijke verplichtingen jegens verbonden of geassocieerde ondernemingen afzonderlijk vermeld. Dit zijn niet de zakelijke zekerheden gesteld of onherroepelijk beloofd die reeds vermeld zijn in de *niet in de balans opgenomen rechten en verplichtingen*.
 
 ## Begrip
-
 De zakelijke zekerheden bedoeld in KB W.Venn.
 De zakelijke zekerheid is het ‘zakelijk zekerheidsrecht’ dat een bescherming biedt op het voorkeursrecht op de prijs die de schuldeiser zal opeisen tijdens de samenloop op het vermogen van de schuldenaar[^18]. (vrije vertaling)
 
@@ -137,7 +135,6 @@ Ze moeten daarentegen geen rekening houden met:
 - de belofte om te hypothekeren. 
 
 ### Zakelijke zekerheden op roerende goederen
-
 De hervorming van de roerende zakelijke zekerheden, voorzien door de wet van 11 juli 2013 tot wijziging van het Burgerlijk Wetboek wat de zakelijke zekerheden op roerende goederen betreft en tot opheffing van diverse bepalingen ter zake[^33], is op 1 januari 2018 in werking getreden.
 
 Eén van de voornaamste nieuwigheden is de afschaffing van het vereiste van buitenbezitstelling tijdens de totstandkoming van het pandrecht. De pandovereenkomst is voortaan een consensueel contract[^34], d.w.z. dat het pandrecht tot stand komt door de overeenkomst tussen pandgever en pandhouder.[^35]
@@ -158,24 +155,19 @@ Hetzelfde geldt voor de financiële zekerheden bedoeld in de wet van 15 december
 Het pandrecht op lichamelijke goederen is facultatief eveneens tegenwerpelijk aan derden door de buitenbezitstelling van de schuldenaar.[^46] 
 
 ## De op te stellen staten
-
 ### De staat van de schulden
-
 Indien de informatie van materieel belang is, neemt de *staat van de schulden* in de toelichting bij het volledig en het verkort schema het bedrag van de schulden op (of van het gedeelte van die schulden) die gewaarborgd zijn door zakelijke zekerheden gesteld of onherroepelijk beloofd op activa van de vennootschap.[^47]
  Dit bedrag wordt uitgesplitst per post voorzien in de rubrieken VIII (*schulden op meer dan één jaar*) en IX (*schulden op ten hoogste één jaar*) van de passiva, maar zonder onderscheid naar gelang van de termijn van de gewaarborgde schulden. 
 
 Deze informatie en tevens de informatie m.b.t. het bedrag van de zakelijke zekerheden die door de vennootschap werden gesteld of onherroepelijk beloofd op haar eigen activa als waarborg voor eigen schulden en verplichtingen, opgenomen onder haar niet in de balans opgenomen rechten en verplichtingen[^48], “[mogen] *worden verstrekt in de vorm van een opsomming* […] *van de gewaarborgde schulden[^49] met de vermelding voor elke schuld van haar aard overeenkomstig de balansposten, haar vervaldag en de verstrekte waarborgen*”[^50].
 
 ### Niet in de balans opgenomen rechten en verplichtingen
-
 #### Staat van de niet in de balans opgenomen rechten en verplichtingen
-
 Indien de informatie van materieel belang is[^51], moet de vennootschap in de toelichting van de drie schema’s, onder de niet in de balans opgenomen rechten en verplichtingen het volgende opnemen: “*het bedrag van de zakelijke zekerheden die door de vennootschap werden gesteld of onherroepelijk beloofd op haar eigen activa als waarborg voor eigen schulden en verplichtingen* [...]”[^52]. 
 
 Hiervoor moet de vennootschap de volgende gegevens vermelden.[^53] 
 
 ##### Wat de hypotheken (inclusief de onherroepelijk mandaten tot hypothekeren) betreft, de boekwaarde van de bezwaarde activa en het bedrag van de hypothecaire inschrijving
-
 De boekwaarde van de bezwaarde activa komt overeen met de waarde in de rekeningen 22 *Terreinen en gebouwen*. De vermelde waarde varieert in principe dus elk jaar en houdt rekening met eventuele afschrijvingen en geboekte herwaarderingsmeerwaarden.
 
 In geval van een hypotheek op begonnen of ontworpen oprichting[^54], dient de vennootschap, volgens de Commissie, de boekwaarde aan te geven die vermeld staat in de rekening 27 *Materiële vaste activa in aanbouw en vooruitbetalingen*. Wanneer de oprichting voltooid is, zal de vennootschap de waarde van de rekeningen 22 erin aangeven.
@@ -187,7 +179,6 @@ Voor de onherroepelijke mandaten tot hypothekeren, komt het bedrag van de inschr
 Zolang de inschrijving van de hypotheek blijft bestaan, moet de vennootschap deze twee gegevens vermelden, ongeacht het bedrag van de gewaarborgde schuld, zelfs indien deze is aangezuiverd. De doorhaling[^56] van de inschrijving van de hypotheek is immers onafhankelijk van het tenietgaan[^57] van de hypotheek zelf door het tenietgaan van de gewaarborgde schuldvordering. Bovendien kan het in het geval van een hypotheek voor alle sommen gebeuren dat op het moment van inschrijving geen enkele schuld bestaat, maar dat de vennootschap deze twee gegevens moet aanduiden in de niet in de balans opgenomen rechten en verplichtingen.
 
 ##### Wat het pand op het handelsfonds (inclusief het onherroepelijke mandaat tot verpanding) betreft, het bedrag van de inschrijving
-
 Zoals hierboven gezien in randnr. 13, wordt het pandrecht op een handelszaak[^58] sinds 1 januari 2018 niet meer ingeschreven, maar wel geregistreerd in het Nationaal Pandregister.
 
 Het bedrag van de inschrijving komt, volgens de Commissie, bijgevolg overeen met het maximumbedrag waarvoor de schuld is gewaarborgd en waarvoor registratie plaatsvindt.
@@ -195,7 +186,6 @@ Het bedrag van de inschrijving komt, volgens de Commissie, bijgevolg overeen met
 Voor de onherroepelijke mandaten tot verpanding, komt het bedrag van de inschrijving, naar mening van de Commissie, overeen met het bedrag waarvoor de volmachthebber krachtens het mandaat tot inschrijving mag overgaan.
 
 ##### Wat de zekerheden betreft op nog door de onderneming te verwerven activa (inclusief het onherroepelijke mandaat tot verpanding), het bedrag van de betrokken activa
-
 De Commissie is van oordeel dat het bedrag van de betrokken activa, desgevallend, overeenkomt met de boekwaarde in de rekeningen betreffende de vooruitbetalingen en activa in aanbouw[^59] of met de door de vennootschap geraamde waarde volgens de eisen van voorzichtigheid, oprechtheid en goede trouw[^60].
 
 Indien de vennootschap dit relevant acht, mag ze in het vrij gedeelte van de toelichting tevens het maximumbedrag aanduiden waarvoor de schuld gewaarborgd is.
@@ -205,7 +195,6 @@ De Commissie meent bovendien dat indien de zekerheid een hypotheek betreft op be
 Hoewel de artikelen met betrekking tot niet in de balans opgenomen rechten en verplichtingen[^61] slechts de “*zekerheden op nog door de onderneming te verwerven activa*” lijken te betreffen, bevelen het voorzichtigheidsbeginsel en het beginsel van het getrouw beeld, volgens de Commissie aan om zowel de gestelde als de onherroepelijk beloofde zekerheden op te nemen. Op deze manier zal er ook een betere samenhang en overeenstemming zijn met de *staat van de schulden[^62]*  en de boeking buiten balans op de rekening 02 van de zakelijke zekerheden die door de vennootschap gesteld of onherroepelijk beloofd worden op haar eigen bezittingen (zie in dat opzicht, *infra*, randnr. 35).
 
 ##### Wat het pand betreft op andere activa (inclusief het onherroepelijke mandaat tot verpanding), de boekwaarde van de in pand gegeven activa
-
 Deze restcategorie betreft alle andere pandrechten (pandrecht op actuele lichamelijke goederen, pandrecht op actuele schuldvorderingen, ...).
 
 Indien een pandrecht tegelijkertijd gaat over actuele en toekomstige goederen, meent de Commissie dat de vennootschap de totale boekwaarde van alle verpande actuele en toekomstige goederen onder deze categorie mag opnemen[^63]. Het pandrecht voor bestaande en toekomstige schuldvorderingen moet bijgevolg onder deze categorie worden opgenomen.
@@ -215,12 +204,10 @@ Indien de vennootschap dit relevant acht, mag ze in het vrij gedeelte van de toe
 De hierboven gemaakte opmerking in randnr. 26 aangaande de onherroepelijk beloofde zekerheden geldt *mutatis mutandis* voor het pandrecht op andere activa.
 
 ##### Wat het eigendomsvoorbehoud betreft, de boekwaarde van de activa
-
 Wanneer het eigendomsvoorbehoud gelijkgesteld wordt met een zakelijke zekerheid, moet de vennootschap er de boekwaarde van de activa in opnemen die het voorwerp uitmaken van het eigendomsvoorbehoud.[^64]
  Deze waarde wordt in de door de Balanscentrale opgestelde modellen opgenomen onder dezelfde lijn als degene betreffende het “*pandrecht op andere activa*”.
 
 ##### Wat het voorrecht van de verkoper betreft
-
 Hoewel de artikelen uit het KB W.Venn. aangaande de *staat van de schulden[^65]*  het voorrecht van de verkoper gelijkstellen met een zakelijke zekerheid, beogen de artikelen van het KB W.Venn. aangaande de niet in de balans opgenomen rechten en verplichtingen dit niet uitdrukkelijk onder het bedrag van de zakelijke zekerheden die door de vennootschap werden gesteld of onherroepelijk beloofd op haar eigen activa[^66]. 
 
 De Commissie is bijgevolg van mening dat de boekwaarde van de activa bedoeld in het voorrecht van de verkoper moet worden opgenomen onder de *andere niet in de balans opgenomen rechten en verplichtingen* in de toelichting van de drie modellen opgesteld door de Balanscentrale. Indien de vennootschap dit bovendien relevant acht, mag ze in het vrij gedeelte van de toelichting het bedrag aanduiden van de niet betaalde prijs.
@@ -230,7 +217,6 @@ De toelichting van de drie schema’s bevat geen onderscheid tussen de gestelde 
 Indien de informatie bovendien van materieel belang is, moet de vennootschap onder haar *andere niet in de balans opgenomen rechten en verplichtingen* de zakelijke zekerheden vermelden die door derden werden gesteld of onherroepelijk beloofd ten behoeve van de crediteuren van de vennootschap, indien ze het vermogen, de financiële positie of het resultaat van de vennootschap aanmerkelijk kunnen beïnvloeden.[^67] 
 
 #### Boeking van de niet in de balans opgenomen rechten en verplichtingen
-
 De vennootschap moet tevens op de rekening 00 de “zekerheden door derden gesteld voor rekening van de vennootschap” opnemen en op de rekening 02 de “zakelijke zekerheden gesteld op eigen activa”[^68] opnemen.
 
 De rekening 00 *Zekerheden door derden gesteld voor rekening van de onderneming* herneemt “*de zakelijke of persoonlijke zekerheden die door derden ten behoeve van de crediteuren van de vennootschap zijn gesteld, als waarborg voor de voldoening van actuele of potentiële schulden of verplichtingen die de vennootschap jegens hen heeft aangegaan*”[^69] (eigen onderlijning). Op deze rekening staan niet de onherroepelijk beloofde zekerheden.
@@ -255,7 +241,6 @@ De toelichting van het microschema bevat niet zulke staat.[^80]
 Indien verbonden, geassocieerde ondernemingen en ondernemingen waarmee een deelnemingsverhouding bestaat, bovendien een zakelijke zekerheid stellen voor de schulden of verplichtingen van de vennootschap, moet de vennootschap deze boeken op de rekening 00[^81]. Als de zekerheid echter niet onherroepelijk beloofd werd, wordt ze niet geboekt op de rekening 00, maar de vennootschap vermeldt ze dan onder de andere niet in de balans opgenomen rechten en verplichtingen, indien ze het vermogen, de financiële positie of het resultaat van de vennootschap aanmerkelijk kan beïnvloeden.[^82] 
 
 ## Verband tussen de staten
-
 Deze drie staten moeten op coherente en consistente wijze worden ingevuld. 
 
 De *staat van de schulden* moet immers in rechtstreeks verband worden gebracht met de *staat van de niet in de balans opgenomen rechten en verplichtingen*, aangezien in deze laatste staat, de zakelijke zekerheden die door de vennootschap werden gesteld of onherroepelijk beloofd op haar eigen activa als dusdanig moeten worden vermeld. Ze worden eveneens geboekt op de rekening 02 *Zakelijke waarborgen gesteld op eigen activa*. 
@@ -283,7 +268,6 @@ Dat kan het geval zijn wanneer een vennootschap een kredietopening waarborgt bij
 Een andere mogelijkheid is dat hoewel de gewaarborgde schuld aangezuiverd wordt, de inschrijving van de hypotheek of de registratie van het pandrecht nog niet werd verwijderd. 
 
 ## Onderhavig advies vervangt de volgende adviezen:
-
 CBN-advies 106 - Verbintenissen en zekerheden, *Bull. CBN*, nr. 1, augustus 1977, 20;
 CBN-advies 106/1 - Onherroepelijk mandaat tot hypothekeren, *Bull. CBN*, nr. 1, augustus 1977, 20; 
 
@@ -299,33 +283,28 @@ Bijlagen:
 1. Samenvattende tabel over de zekerheden die door de vennootschap werden gesteld of onherroepelijk beloofd op haar eigen activa als waarborg voor eigen schulden
 
 ### 1.1. *Volledig schema*
-
 | 
 
-**Soort zekerheid**
-
+## Soort zekerheid
   | | 
 |---|
 
 ## Onherroepelijk beloofd of gesteld
-
   | | 
 |---|
 
-**Staat**
-
+## Staat
   | | 
 |---|
 
-**Boeking**
-
+## Boeking
   | 
 | 
 
-  | | 
+ | | 
 |---|
 
-  | | 
+ | | 
 |---|
 
 Gewaarborgde schulden
@@ -343,7 +322,7 @@ Staat over de betrekkingen met verbonden, geassocieerde ondernemingen en onderne
   | | 
 |---|
 
-  | 
+ | 
 | 
 
 Hypotheek
@@ -466,7 +445,7 @@ Eigendomsvoorbehoud[^86]
   | | 
 |---|
 
-  | | 
+ | | 
 |---|
 
 Boekwaarde van de betrokken activa
@@ -479,7 +458,7 @@ Voorrecht van de verkoper[^87]
   | | 
 |---|
 
-  | | 
+ | | 
 |---|
 
 Boekwaarde van het verkochte goed
@@ -487,33 +466,28 @@ Boekwaarde van het verkochte goed
   | 
 
 ### 1.2. *Verkort schema*
-
 | 
 
-**Soort zekerheid**
-
+## Soort zekerheid
   | | 
 |---|
 
 ## Onherroepelijk beloofd of gesteld
-
   | | 
 |---|
 
-**Staat**
-
+## Staat
   | | 
 |---|
 
-**Boeking**
-
+## Boeking
   | 
 | 
 
-  | | 
+ | | 
 |---|
 
-  | | 
+ | | 
 |---|
 
 Gewaarborgde schulden
@@ -531,7 +505,7 @@ Staat over de betrekkingen met verbonden ondernemingen, geassocieerde ondernemin
   | | 
 |---|
 
-  | 
+ | 
 | 
 
 Hypotheek
@@ -649,7 +623,7 @@ Eigendomsvoorbehoud[^90]
   | | 
 |---|
 
-  | | 
+ | | 
 |---|
 
 Boekwaarde van de betrokken activa
@@ -662,7 +636,7 @@ Voorrecht van de verkoper[^91]
   | | 
 |---|
 
-  | | 
+ | | 
 |---|
 
 Boekwaarde van het verkochte goed
@@ -670,33 +644,28 @@ Boekwaarde van het verkochte goed
   | 
 
 ### 1.3. *Microschema*
-
 | 
 
-**Soort zekerheid**
-
+## Soort zekerheid
   | | 
 |---|
 
 ## Onherroepelijk beloofd of gesteld
-
   | | 
 |---|
 
-**Staat**
-
+## Staat
   | | 
 |---|
 
-**Boeking**
-
+## Boeking
   | 
 | 
 
-  | | 
+ | | 
 |---|
 
-  | | 
+ | | 
 |---|
 
 Niet in de balans opgenomen rechten en verplichtingen
@@ -704,7 +673,7 @@ Niet in de balans opgenomen rechten en verplichtingen
   | | 
 |---|
 
-  | 
+ | 
 | 
 
 Hypotheek
@@ -807,7 +776,7 @@ Eigendomsvoorbehoud[^93]
   | | 
 |---|
 
-  | | 
+ | | 
 |---|
 
 Boekwaarde van de betrokken activa
@@ -820,7 +789,7 @@ Voorrecht van de verkoper[^94]
   | | 
 |---|
 
-  | | 
+ | | 
 |---|
 
 Boekwaarde van het verkochte goed
@@ -830,33 +799,28 @@ Boekwaarde van het verkochte goed
 2. Samenvattende tabel over de zekerheden die door de derden werden gesteld of onherroepelijk beloofd ten behoeve van de crediteuren van de vennootschap
 
 ### 2.1. *Volledig schema*
-
 | 
 
-**Soort zekerheid**
-
+## Soort zekerheid
   | | 
 |---|
 
 ## Onherroepelijk beloofd of gesteld
-
   | | 
 |---|
 
-**Staat**
-
+## Staat
   | | 
 |---|
 
-**Boeking**
-
+## Boeking
   | 
 | 
 
-  | | 
+ | | 
 |---|
 
-  | | 
+ | | 
 |---|
 
 Staat over de betrekkingen met verbonden, geassocieerde ondernemingen en ondernemingen waarmee een deelnemingsverhouding bestaat
@@ -864,7 +828,7 @@ Staat over de betrekkingen met verbonden, geassocieerde ondernemingen en onderne
   | | 
 |---|
 
-  | 
+ | 
 | 
 
 Hypotheek
@@ -967,7 +931,7 @@ Eigendomsvoorbehoud[^95]
   | | 
 |---|
 
-  | | 
+ | | 
 |---|
 
 Boekwaarde van de betrokken activa
@@ -980,7 +944,7 @@ Voorrecht van de verkoper[^96]
   | | 
 |---|
 
-  | | 
+ | | 
 |---|
 
 Boekwaarde van het verkochte goed
@@ -988,33 +952,28 @@ Boekwaarde van het verkochte goed
   | 
 
 ### 2.2. *Verkort schema en microschema*
-
 | 
 
-**Soort zekerheid**
-
+## Soort zekerheid
   | | 
 |---|
 
 ## Onherroepelijk beloofd of gesteld
-
   | | 
 |---|
 
-**Staat**
-
+## Staat
   | | 
 |---|
 
-**Boeking**
-
+## Boeking
   | 
 | 
 
-  | | 
+ | | 
 |---|
 
-  | | 
+ | | 
 |---|
 
 /
@@ -1022,7 +981,7 @@ Boekwaarde van het verkochte goed
   | | 
 |---|
 
-  | 
+ | 
 | 
 
 Hypotheek
@@ -1100,7 +1059,7 @@ Eigendomsvoorbehoud[^97]
   | | 
 |---|
 
-  | 
+ | 
 | 
 
 Voorrecht van de verkoper[^98] 
@@ -1108,7 +1067,7 @@ Voorrecht van de verkoper[^98]
   | | 
 |---|
 
-  | 
+ | 
 
 [^1]: Onderhavig advies is tot stand gekomen nadat het ontwerp van dit advies op 7 mei 2018 ter publieke consultatie werd gepubliceerd op de website van de CBN.
 

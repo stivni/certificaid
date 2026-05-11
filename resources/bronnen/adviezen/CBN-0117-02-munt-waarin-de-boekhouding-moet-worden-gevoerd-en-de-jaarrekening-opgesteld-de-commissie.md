@@ -16,49 +16,49 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-vennootschappen-naar-buitenlands-recht-eigen-boekhoudkundige-0
 nummer: CBN-advies 117/2
 provenance:
+  generated_at: '2026-05-11T17:48:38Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/munt-waarin-de-boekhouding-moet-worden-gevoerd-en-de-jaarrekening-opgesteld-de-commissie
       sha256: bae5e73feda46fb6a5b2fc1e8076fece4ac486ba8958478ed4e6eaf1257ccbde
       version:
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
-    status: needs-rework
     confirmed_at: '2026-05-11T17:05:20Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "A9: regel 89 bevat 'Belgiëë' (dubbele ë) voor 'België' — encoding-artefact. Regel 93 bevat 'ingschakeld' voor 'ingeschakeld' — ontbrekende letter, OCR-artefact. A6: regel 101 bevat 'der halve' (gesplitst woord) voor 'derhalve' — spurious word-split. Drie bevestigde ETL-artefacten; overige inhoud volledig."
     layer1:
-      file_size_chars: 4790
-      flags: []
+      status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:41Z'
       heading_count: 0
       max_section_chars: 4790
-      run_at: '2026-05-11T15:05:48Z'
-      run_id: 20260511-150547
-      status: pass
+      file_size_chars: 4790
+      flags: []
     layer2:
-      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T17:05:20Z'
-      rationale: "A9: regel 89 bevat 'Belgiëë' (dubbele ë) voor 'België' — encoding-artefact. Regel 93 bevat 'ingschakeld' voor 'ingeschakeld' — ontbrekende letter, OCR-artefact. A6: regel 101 bevat 'der halve' (gesplitst woord) voor 'derhalve' — spurious word-split. Drie bevestigde ETL-artefacten; overige inhoud volledig."
       concrete_problemen:
-        - regel: 89
-          categorie: A9
+        - categorie: A9
+          regel: 89
           type: ocr-confusion
           voorbeeld: jaarrekening van succursalen in Belgiëë van ondernemingen
-        - regel: 93
-          categorie: A9
+        - categorie: A9
+          regel: 93
           type: ocr-confusion
           voorbeeld: volledig ingschakeld zijn in het economische en sociale bestel
-        - regel: 101
-          categorie: A6
+        - categorie: A6
+          regel: 101
           type: other
           voorbeeld: dienen zij der halve te worden omgezet
+      rationale: 'A9: regel 89 bevat ''Belgiëë'' (dubbele ë) voor ''België'' — encoding-artefact. Regel 93 bevat ''ingschakeld'' voor ''ingeschakeld'' — ontbrekende letter, OCR-artefact. A6: regel 101 bevat ''der halve'' (gesplitst woord) voor ''derhalve'' — spurious word-split. Drie bevestigde ETL-artefacten; overige inhoud volledig.'
+      run_at: '2026-05-11T17:05:20Z'
+      status: needs-rework
+    rationale: 'A9: regel 89 bevat ''Belgiëë'' (dubbele ë) voor ''België'' — encoding-artefact. Regel 93 bevat ''ingschakeld'' voor ''ingeschakeld'' — ontbrekende letter, OCR-artefact. A6: regel 101 bevat ''der halve'' (gesplitst woord) voor ''derhalve'' — spurious word-split. Drie bevestigde ETL-artefacten; overige inhoud volledig.'
+    status: needs-rework
 themas:
   - afwijking
   - bedrijfszetel

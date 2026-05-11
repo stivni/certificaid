@@ -2,63 +2,54 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/verwerking-in-de-jaarrekening-van-de-door-de-vlaamse-regering-gecreeerde-opleidingscheques
 datum: 2008-12-01
 gerelateerde_adviezen:
-- datum: '2024-05-22'
-  titel: Boekhoudkundige verwerking van de taks tot vergoeding der successierechten
-  url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-taks-tot-vergoeding-der-successierechten
-- datum: '2013-03-06'
-  titel: De boekhoudkundige verwerking van de afzonderlijke aanslag op interne pensioenvoorzieningen
-  url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-afzonderlijke-aanslag-op-interne
+  - datum: '2024-05-22'
+    titel: Boekhoudkundige verwerking van de taks tot vergoeding der successierechten
+    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-taks-tot-vergoeding-der-successierechten
+  - datum: '2013-03-06'
+    titel: De boekhoudkundige verwerking van de afzonderlijke aanslag op interne pensioenvoorzieningen
+    url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-afzonderlijke-aanslag-op-interne
 nummer: CBN-advies 180/1
 provenance:
-  generated_at: '2026-05-11T15:15:31Z'
+  generated_at: '2026-05-11T17:48:38Z'
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/verwerking-in-de-jaarrekening-van-de-door-de-vlaamse-regering-gecreeerde-opleidingscheques
-    sha256: 1110304768ecaf861bbc2d54b573c7e32725c912557e2eb4e7fa90359a4f62dc
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/verwerking-in-de-jaarrekening-van-de-door-de-vlaamse-regering-gecreeerde-opleidingscheques
+      sha256: 1110304768ecaf861bbc2d54b573c7e32725c912557e2eb4e7fa90359a4f62dc
+      version:
   stale: false
-  stale_reason: null
+  stale_reason:
   tooling:
-    model: null
+    model:
     pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    prompt_version: null
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
     confirmed_at: '2026-05-11T12:09:17Z'
     confirmed_by: subagent-sonnet-4-6
     layer1:
-      file_size_chars: 2307
-      flags: []
+      status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:42Z'
       heading_count: 0
       max_section_chars: 2307
-      run_at: '2026-05-11T15:05:50Z'
-      run_id: 20260511-150547
-      status: pass
+      file_size_chars: 2307
+      flags: []
     layer2:
       agent: subagent-sonnet-4-6
       concrete_problemen:
-      - categorie: D1
-        regel: 61
-        type: other
-        voorbeeld: wanneer daaarentegen de aankoop (driemaal 'a' — vermoedelijk tikfout
-          in origineel)
-      rationale: 'Laag-1 pass, heading_count 0 klopt: het advies is één doorlopend
-        tekstblok zonder expliciete secties (zo ook in het origineel — kort advies
-        van één paragraaf). Inhoud volledig, geen artefacten, geen voetnoten nodig,
-        geen bullets. Eén typ-artefact (''daaarentegen'' met drie a''s op regel 61)
-        maar dat is waarschijnlijk originele tekst.'
+        - categorie: D1
+          regel: 61
+          type: other
+          voorbeeld: wanneer daaarentegen de aankoop (driemaal 'a' — vermoedelijk tikfout in origineel)
+      rationale: 'Laag-1 pass, heading_count 0 klopt: het advies is één doorlopend tekstblok zonder expliciete secties (zo ook in het origineel — kort advies van één paragraaf). Inhoud volledig, geen artefacten, geen voetnoten nodig, geen bullets. Eén typ-artefact (''daaarentegen'' met drie a''s op regel 61) maar dat is waarschijnlijk originele tekst.'
       run_at: '2026-05-11T12:09:17Z'
       status: trusted
-    rationale: 'Laag-1 pass, heading_count 0 klopt: het advies is één doorlopend tekstblok
-      zonder expliciete secties (zo ook in het origineel — kort advies van één paragraaf).
-      Inhoud volledig, geen artefacten, geen voetnoten nodig, geen bullets. Eén typ-artefact
-      (''daaarentegen'' met drie a''s op regel 61) maar dat is waarschijnlijk originele
-      tekst.'
+    rationale: 'Laag-1 pass, heading_count 0 klopt: het advies is één doorlopend tekstblok zonder expliciete secties (zo ook in het origineel — kort advies van één paragraaf). Inhoud volledig, geen artefacten, geen voetnoten nodig, geen bullets. Eén typ-artefact (''daaarentegen'' met drie a''s op regel 61) maar dat is waarschijnlijk originele tekst.'
     status: trusted
 themas:
-- bedrijfsbelastingen
-- financiële kosten
-- liquide middelen
-- opleidingscheques
+  - bedrijfsbelastingen
+  - financiële kosten
+  - liquide middelen
+  - opleidingscheques
 ---
 
 # CBN-advies 180/1 - Verwerking in de jaarrekening van de door de Vlaamse regering gecreëerde opleidingscheques

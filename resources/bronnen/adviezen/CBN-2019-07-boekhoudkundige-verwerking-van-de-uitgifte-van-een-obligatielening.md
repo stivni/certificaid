@@ -3,37 +3,37 @@ bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-uitgi
 datum: 2019-07-11
 nummer: CBN-advies 2019/07
 provenance:
+  generated_at: '2026-05-11T17:48:39Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-uitgifte-van-een-obligatielening
       sha256: e202a1be947f8d1631a1dc4341ddb81214015a1152489e3dbfa7f684cda940ea
       version:
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T15:15:32Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
-    status: trusted
     confirmed_at: '2026-05-11T15:23:43Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: 'Na re-scrape met scraper-fixes is het TOC-artefact (A3, regels 53–99 in de vorige versie) verdwenen. De body begint direct met `## Inleiding` na de frontmatter. Geen TOC-blok zichtbaar. Structuur volledig correct: 36 headings correct hiërarchisch gelaagd (#, ##, ###, ####), alle boekingstabellen in pipe-syntax, voetnoten [^1]–[^17] correct gedefinieerd. Geen artefacten uit categorieën A–G gevonden.'
     layer1:
-      file_size_chars: 20424
-      flags: []
-      heading_count: 36
-      max_section_chars: 4858
-      run_at: '2026-05-11T15:05:53Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:44Z'
+      heading_count: 36
+      max_section_chars: 4849
+      file_size_chars: 20374
+      flags: []
     layer2:
-      status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:23:43Z'
-      rationale: 'Na re-scrape met scraper-fixes is het TOC-artefact (A3, regels 53–99 in de vorige versie) verdwenen. De body begint direct met `## Inleiding` na de frontmatter. Geen TOC-blok zichtbaar. Structuur volledig correct: 36 headings correct hiërarchisch gelaagd (#, ##, ###, ####), alle boekingstabellen in pipe-syntax, voetnoten [^1]–[^17] correct gedefinieerd. Geen artefacten uit categorieën A–G gevonden.'
       concrete_problemen: []
+      rationale: 'Na re-scrape met scraper-fixes is het TOC-artefact (A3, regels 53–99 in de vorige versie) verdwenen. De body begint direct met `## Inleiding` na de frontmatter. Geen TOC-blok zichtbaar. Structuur volledig correct: 36 headings correct hiërarchisch gelaagd (#, ##, ###, ####), alle boekingstabellen in pipe-syntax, voetnoten [^1]–[^17] correct gedefinieerd. Geen artefacten uit categorieën A–G gevonden.'
+      run_at: '2026-05-11T15:23:43Z'
+      status: trusted
+    rationale: 'Na re-scrape met scraper-fixes is het TOC-artefact (A3, regels 53–99 in de vorige versie) verdwenen. De body begint direct met `## Inleiding` na de frontmatter. Geen TOC-blok zichtbaar. Structuur volledig correct: 36 headings correct hiërarchisch gelaagd (#, ##, ###, ####), alle boekingstabellen in pipe-syntax, voetnoten [^1]–[^17] correct gedefinieerd. Geen artefacten uit categorieën A–G gevonden.'
+    status: trusted
 themas:
   - obligatielening
   - obligaties
@@ -51,7 +51,6 @@ themas:
 # CBN-advies 2019/07 – Boekhoudkundige verwerking van de uitgifte van een obligatielening
 
 ## Inleiding
-
 De Commissie werd gevraagd om advies te geven betreffende de interpretatie van de wettelijke bepalingen verbonden aan de boekhoudkundige verwerking van kosten, premies en verliezen bij de uitgifte van een obligatielening.
 
 Obligatieleningen kunnen worden gedefinieerd als een bijzondere vorm van lening die bestaat uit meerdere verhandelbare effecten (“obligaties” genaamd) die elk eenzelfde schuldvordering vertegenwoordigen tegen eenzelfde nominale waarde[^2]. 
@@ -59,9 +58,7 @@ Obligatieleningen kunnen worden gedefinieerd als een bijzondere vorm van lening 
 Een obligatie is het equivalent van een lening toegekend door een investeerder aan een uitgever. In ruil daarvoor verbindt de uitgever zich ertoe om het kapitaal (of de nominale waarde) van de obligatie terug te betalen op een vastgelegde vervaldag alsook om op regelmatige tijdstippen intresten te storten.
 
 ## Boekhoudkundige verwerking in hoofde van de uitgevende vennootschap
-
-### Obligatielening[^3]
-
+### Obligatielening
 Obligatieleningen moeten tegen hun uitgiftewaarde (of uitgifteprijs) worden gewaardeerd (artikel 3:51 KB WVV).
 
 Wanneer evenwel hun actuariële rendement berekend bij de uitgifte, met inachtneming van hun terugbetalingswaarde op vervaldag, verschilt van hun nominaal rendement, wordt het verschil tussen de uitgifteprijs en de terugbetalingswaarde pro rata temporis over de resterende looptijd van de effecten in resultaat genomen als bestanddeel van de rentekost van deze effecten en, naar gelang van het geval, toegevoegd aan of afgetrokken van de uitgifteprijs van de obligatielening.
@@ -75,7 +72,6 @@ De vennootschappen hebben echter de mogelijkheid om:
 Het eerste en het tweede lid zijn van toepassing op obligatieleningen met een rendement dat, volgens de uitgiftevoorwaarden, uitsluitend voortkomt uit het verschil tussen de uitgifteprijs en de terugbetalingswaarde.
 
 ### Kosten bij uitgifte van leningen
-
 De kosten bij uitgifte van leningen betreffen de uitgaven die verricht zijn naar aanleiding van de uitgifte van een obligatielening zoals bankkosten, noteringskosten en kosten voor de openbaarmaking. Ze worden ondergebracht bij rubriek 201 ‘*Kosten bij uitgifte van leningen*’ onder ‘*Oprichtingskosten*’ indien ze niet rechtstreeks worden opgenomen in de resultatenrekening.
 
 Onder de oprichtingskosten worden opgenomen “voor zover zij niet op een andere wijze ten laste van de resultatenrekening van het lopende boekjaar worden gebracht, de kosten verbonden met de oprichting, de verdere ontwikkeling of de herstructurering van de vennootschap, in het bijzonder de kosten van oprichting of kapitaalverhoging, de kosten bij uitgifte van leningen, en de herstructureringskosten”[^4].
@@ -85,7 +81,6 @@ Artikel 3:37 KB WVV verduidelijkt dat “voor de oprichtingskosten [...] passend
 De vennootschap kan ook beslissen om de kosten niet te activeren[^5].
 
 ### Agio en disagio
-
 De Commissie is van oordeel dat uitgifte- en terugbetalingspremies in hoofde van de vennootschap een kost[^6] of een opbrengst[^7] uitmaken.
 
 Voor leningen die zijn aangegaan vóór 31 december 1991 werd deze kost beschouwd als “disagio” en werd het opgenomen bij rekening 201 *Kosten bij uitgifte van leningen en disagio*.
@@ -103,29 +98,24 @@ Het behoort het bestuursorgaan toe de uitgiftevoorwaarden voor een obligatieleni
 | Terugbetaling boven pari | | Dubbele premie | | Terugbetalingspremie | | | 
 
 #### Lening zonder verschil tussen de uitgifteprijs en terugbetalingswaarde
-
 De vennootschap-emittent kent de inschrijver een vordering toe waarvan de uitgifteprijs en terugbetalingswaarde gelijk zijn aan de nominale waarde; in dit geval gaat het om een lening uitgegeven a pari of *uitgifte tegen pari-waarde*. 
 
 #### Uitgifte onder pari en terugbetaling tegen pari-waarde
-
 Het bedrag (of uitgifteprijs) dat gestort is door de inschrijver is kleiner dan de nominale waarde.
 
 *Voorbeeld*: uitgifte tegen 97,50 %. Voor een nominale waarde van 10.000.000 EUR, moeten de inschrijvers slechts 9.750.000 EUR betalen. Zo ontstaat er een* uitgiftepremie *van 2,50 %.
 
 #### Uitgifte tegen pari-waarde en terugbetaling boven pari
-
 De terugbetalingswaarde (op de vervaldag) van de a pari uitgegeven obligatie ligt hoger dan de nominale waarde.
 
 *Voorbeeld*: uitgifte tegen 100 % en terugbetaling tegen 102,50 %. Voor een nominale waarde van 10.000.000 EUR krijgen de inschrijvers 10.250.000 EUR terug op de vervaldag. Zo ontstaat er een* terugbetalingspremie* van 2,50 %.
 
 #### Uitgifte onder pari en terugbetaling boven pari
-
 De terugbetalingswaarde van de uitgegeven obligatie ligt hoger dan de nominale waarde, die op haar beurt hoger ligt dan de uitgifteprijs.
 
 *Voorbeeld*: uitgifte tegen 98,50 % en terugbetaling tegen 101,50 %. Voor een nominale waarde van 10.000.000 EUR, moeten de inschrijvers slechts 9.850.000 EUR vrijmaken en krijgen 10.150.000 EUR terug op de vervaldag. Er ontstaat een *dubbele premie* van samen 3,00 %.
 
 ## Voorbeeld
-
 1 april 2019: uitgifte van een niet-achtergestelde en niet-converteerbare obligatielening voor een bedrag van 5.000.000 EUR, onderverdeeld in 5.000 obligaties met elk een nominale waarde van 1.000 EUR.
 
 De uitgifteprijs bedraagt 102 % van de nominale waarde en de obligatielening is in één keer terugbetaalbaar tegen pari-waarde op 1 juli 2025. 
@@ -144,9 +134,7 @@ Het bestuursorgaan van de vennootschap beslist de uitgiftekosten te activeren en
 Overeenkomstig lid 3, 1° van artikel 3:51 KB WVV neemt de vennootschap het verschil tussen de aanschaffingswaarde en de terugbetalingswaarde op lineaire basis en pro rata temporis in resultaat.
 
 ### Boekhoudkundige verwerking in 2019
-
 #### Uitgifte van de obligatielening per 1 april 2019
-
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 201 | Kosten bij uitgifte van leningen | 85.000,00 | |
@@ -161,7 +149,6 @@ Overeenkomstig lid 3, 1° van artikel 3:51 KB WVV neemt de vennootschap het vers
 | aan | 440 | Leveranciers | | 151.250,00 |
 
 #### Regularisering einde boekjaar 2019
-
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 6501 | Afschrijving van de kosten bij uitgifte van leningen | 26.250,00 | |
@@ -178,16 +165,13 @@ Overeenkomstig lid 3, 1° van artikel 3:51 KB WVV neemt de vennootschap het vers
 | aan | 6500 | Rente, commissies en kosten verbonden aan schulden | | 12.500,00 |
 
 ### Boekhoudkundige verwerking in 2020
-
-#### Begin van het boekjaar 2020 (tegenboeking)[^13]
-
+#### Begin van het boekjaar 2020 (tegenboeking)
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 492 | Toe te rekenen kosten | 107.812,50 | |
 | aan | 6500 | Rente, commissies en kosten verbonden aan schulden | | 107.812,50 |
 
-#### Vervaldag van de rente (1 april 2020)[^14]
-
+#### Vervaldag van de rente (1 april 2020)
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 6500 | Rente, commissies en kosten verbonden aan schulden | 143.750,00 | |
@@ -195,7 +179,6 @@ Overeenkomstig lid 3, 1° van artikel 3:51 KB WVV neemt de vennootschap het vers
 | | 480 | Vervallen obligaties en coupons | 100.625,00 | |
 
 #### Regularisering einde boekjaar 2020
-
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 6501 | Afschrijving van kosten bij uitgifte van leningen | 35.000,00 | |
@@ -212,16 +195,13 @@ Overeenkomstig lid 3, 1° van artikel 3:51 KB WVV neemt de vennootschap het vers
 | aan | 6500 | Rente, commissies en kosten verbonden aan schulden | | 16.666,67 |
 
 ### Boekhoudkundige verwerking in 2021
-
 #### Begin van het boekjaar 2021 (tegenboeking)
-
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 492 | Toe te rekenen kosten | 107.812,50 | |
 | aan | 6500 | Rente, commissies en kosten verbonden aan schulden | | 107.812,50 |
 
 #### Vervaldag van de rente (1 april 2021)
-
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 6500 | Rente, commissies en kosten verbonden aan schulden | 143.750,00 | |
@@ -229,7 +209,6 @@ Overeenkomstig lid 3, 1° van artikel 3:51 KB WVV neemt de vennootschap het vers
 | | 480 | Vervallen obligaties en coupons | 100.625,00 | |
 
 #### Regularisering einde boekjaar 2021
-
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 6501 | Afschrijving van kosten bij uitgifte van leningen | 35.000,00 | |
@@ -246,16 +225,13 @@ Overeenkomstig lid 3, 1° van artikel 3:51 KB WVV neemt de vennootschap het vers
 | aan | 6500 | Rente, commissies en kosten verbonden aan schulden | | 16.666,67 |
 
 ### Boekhoudkundige verwerking in 2022
-
 #### Begin van het boekjaar 2022 (tegenboeking)
-
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 492 | Toe te rekenen kosten | 107.812,50 | |
 | aan | 6500 | Rente, commissies en kosten verbonden aan schulden | | 107.812,50 |
 
 #### Vervaldag van de rente (1 april 2022)
-
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 6500 | Rente, commissies en kosten verbonden aan schulden | 143.750,00 | |
@@ -263,7 +239,6 @@ Overeenkomstig lid 3, 1° van artikel 3:51 KB WVV neemt de vennootschap het vers
 | | 480 | Vervallen obligaties en coupons | 100.625,00 | |
 
 #### Regularisering einde boekjaar 2022
-
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 6501 | Afschrijving van kosten bij uitgifte van leningen | 35.000,00 | |
@@ -280,16 +255,13 @@ Overeenkomstig lid 3, 1° van artikel 3:51 KB WVV neemt de vennootschap het vers
 | aan | 6500 | Rente, commissies en kosten verbonden aan schulden | | 16.666,67 |
 
 ### Boekhoudkundige verwerking in 2023
-
 #### Begin van het boekjaar 2023 (tegenboeking)
-
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 492 | Toe te rekenen kosten | 107.812,50 | |
 | aan | 6500 | Rente, commissies en kosten verbonden aan schulden | | 107.812,50 |
 
 #### Vervaldag van de rente (1 april 2023)
-
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 6500 | Rente, commissies en kosten verbonden aan schulden | 143.750,00 | |
@@ -297,7 +269,6 @@ Overeenkomstig lid 3, 1° van artikel 3:51 KB WVV neemt de vennootschap het vers
 | | 480 | Vervallen obligaties en coupons | 100.625,00 | |
 
 #### Regularisering einde boekjaar 2023
-
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 6501 | Afschrijving van kosten bij uitgifte van leningen | 35.000,00 | |
@@ -314,16 +285,13 @@ Overeenkomstig lid 3, 1° van artikel 3:51 KB WVV neemt de vennootschap het vers
 | aan | 6500 | Rente, commissies en kosten verbonden aan schulden | | 16.666,67 |
 
 ### Boekhoudkundige verwerking in 2024
-
 #### Begin van het boekjaar 2024 (tegenboeking)
-
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 492 | Toe te rekenen kosten | 107.812,50 | |
 | aan | 6500 | Rente, commissies en kosten verbonden aan schulden | | 107.812,50 |
 
 #### Vervaldatum van de rente (1 april 2024)
-
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 6500 | Rente, commissies en kosten verbonden aan schulden | 143.750,00 | |
@@ -331,7 +299,6 @@ Overeenkomstig lid 3, 1° van artikel 3:51 KB WVV neemt de vennootschap het vers
 | | 480 | Vervallen obligaties en coupons | 100.625,00 | |
 
 #### Regularisering einde boekjaar 2024 (waaronder herclassificatie van de schuld)
-
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 6501 | Afschrijving van kosten bij uitgifte van leningen | 35.000,00 | |
@@ -353,16 +320,13 @@ Overeenkomstig lid 3, 1° van artikel 3:51 KB WVV neemt de vennootschap het vers
 | aan | 4211 | Niet-achtergestelde en niet-converteerbare obligatieleningen | | 5.004.166,67 |
 
 ### Boekhoudkundige verwerking in 2025
-
 #### Begin van het boekjaar 2025 (tegenboeking)
-
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 492 | Toe te rekenen kosten | 107.812,50 | |
 | aan | 6500 | Rente, commissies en kosten verbonden aan schulden | | 107.812,50 |
 
 #### Vervaldag van de lening en terugbetaling van de obligaties (1 april 2025)
-
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 4211 | Niet-achtergestelde en niet-converteerbare obligatieleningen | 4.166,67 | |

@@ -7,41 +7,41 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-inbeslagname-in-hoofde-van-de-beslagen-schuldenaar
 nummer: CBN-advies 12/1
 provenance:
+  generated_at: '2026-05-11T17:48:38Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/toepassingsgebied-van-de-uitvoeringsbesluiten-bedoelde-ondernemingen
       sha256: 851f88bac6c753745e09aeeb0d2dfef6363d5a0d13cf668f0cbfe5140d3098c9
       version:
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
-    status: trusted
     confirmed_at: '2026-05-11T15:15:32Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "Enige door vorige verdict gemelde issue: 'oger is dan 25 miljoen frank' (r53, moet 'hoger' zijn) — source-typo letterlijk in bron-HTML. A6-bug (zin gesplitst) is verholpen. Inhoud volledig, voetnoot correct. Geen ETL-bugs aangetroffen."
     layer1:
-      file_size_chars: 1709
-      flags: []
+      status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:40Z'
       heading_count: 0
       max_section_chars: 1709
-      run_at: '2026-05-11T15:05:47Z'
-      run_id: 20260511-150547
-      status: pass
+      file_size_chars: 1709
+      flags: []
     layer2:
-      status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:15:32Z'
-      rationale: "Enige door vorige verdict gemelde issue: 'oger is dan 25 miljoen frank' (r53, moet 'hoger' zijn) — source-typo letterlijk in bron-HTML. A6-bug (zin gesplitst) is verholpen. Inhoud volledig, voetnoot correct. Geen ETL-bugs aangetroffen."
       concrete_problemen:
-        - regel: 53
-          categorie: (source)
+        - categorie: (source)
+          regel: 53
           type: source-typo
           voorbeeld: niet oger is dan 25 miljoen frank — source-typo voor 'hoger'
+      rationale: 'Enige door vorige verdict gemelde issue: ''oger is dan 25 miljoen frank'' (r53, moet ''hoger'' zijn) — source-typo letterlijk in bron-HTML. A6-bug (zin gesplitst) is verholpen. Inhoud volledig, voetnoot correct. Geen ETL-bugs aangetroffen.'
+      run_at: '2026-05-11T15:15:32Z'
+      status: trusted
+    rationale: 'Enige door vorige verdict gemelde issue: ''oger is dan 25 miljoen frank'' (r53, moet ''hoger'' zijn) — source-typo letterlijk in bron-HTML. A6-bug (zin gesplitst) is verholpen. Inhoud volledig, voetnoot correct. Geen ETL-bugs aangetroffen.'
+    status: trusted
 themas:
   - uitvoerend beslag
 ---

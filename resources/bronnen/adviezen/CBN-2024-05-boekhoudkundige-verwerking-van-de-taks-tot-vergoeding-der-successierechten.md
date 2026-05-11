@@ -2,73 +2,67 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-taks-tot-vergoeding-der-successierechten
 datum: 2024-05-22
 gerelateerde_adviezen:
-- datum: '2019-03-05'
-  titel: Voorzieningen
-  url: https://www.cbn-cnc.be/nl/adviezen/voorzieningen
-- datum: '2018-05-30'
-  titel: Interpretatie van code 99084 in de toelichting 5.14 van de geconsolideerde
-    jaarrekening
-  url: https://www.cbn-cnc.be/nl/adviezen/interpretatie-van-code-99084-in-de-toelichting-514-van-de-geconsolideerde-jaarrekening
-- datum: '2018-05-30'
-  titel: Tax shelter voor podiumkunsten
-  url: https://www.cbn-cnc.be/nl/adviezen/tax-shelter-voor-podiumkunsten
-- datum: '2018-03-21'
-  titel: Belastingkrediet voor kosten van onderzoek en ontwikkeling
-  url: https://www.cbn-cnc.be/nl/adviezen/belastingkrediet-voor-kosten-van-onderzoek-en-ontwikkeling
+  - datum: '2019-03-05'
+    titel: Voorzieningen
+    url: https://www.cbn-cnc.be/nl/adviezen/voorzieningen
+  - datum: '2018-05-30'
+    titel: Interpretatie van code 99084 in de toelichting 5.14 van de geconsolideerde jaarrekening
+    url: https://www.cbn-cnc.be/nl/adviezen/interpretatie-van-code-99084-in-de-toelichting-514-van-de-geconsolideerde-jaarrekening
+  - datum: '2018-05-30'
+    titel: Tax shelter voor podiumkunsten
+    url: https://www.cbn-cnc.be/nl/adviezen/tax-shelter-voor-podiumkunsten
+  - datum: '2018-03-21'
+    titel: Belastingkrediet voor kosten van onderzoek en ontwikkeling
+    url: https://www.cbn-cnc.be/nl/adviezen/belastingkrediet-voor-kosten-van-onderzoek-en-ontwikkeling
 nummer: CBN-advies 2024/05
 provenance:
-  generated_at: '2026-05-11T15:15:32Z'
+  generated_at: '2026-05-11T17:48:40Z'
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-taks-tot-vergoeding-der-successierechten
-    sha256: 9afefe28e589eba3c3c1648830286c681e6ca2d7bbfe05a4ea56534a34d83b51
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-taks-tot-vergoeding-der-successierechten
+      sha256: 9afefe28e589eba3c3c1648830286c681e6ca2d7bbfe05a4ea56534a34d83b51
+      version:
   stale: false
-  stale_reason: null
+  stale_reason:
   tooling:
-    model: null
+    model:
     pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    prompt_version: null
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
     confirmed_at: '2026-05-11T12:24:34Z'
     confirmed_by: subagent-sonnet-4-6
     layer1:
-      file_size_chars: 5485
-      flags: []
-      heading_count: 4
-      max_section_chars: 3232
-      run_at: '2026-05-11T15:05:54Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:45Z'
+      heading_count: 4
+      max_section_chars: 3231
+      file_size_chars: 5481
+      flags: []
     layer2:
       agent: subagent-sonnet-4-6
       concrete_problemen: []
-      rationale: Zeer kort advies (~5500 chars, 4 headings). Geen extractie-artefacten.
-        Inhoud volledig voor het onderwerp (toepassingsgebied, grondslag, boekhoudkundige
-        verwerking). Voetnoten [^1]–[^8] volledig. Geen tabellen, geen TOC.
+      rationale: Zeer kort advies (~5500 chars, 4 headings). Geen extractie-artefacten. Inhoud volledig voor het onderwerp (toepassingsgebied, grondslag, boekhoudkundige verwerking). Voetnoten [^1]–[^8] volledig. Geen tabellen, geen TOC.
       run_at: '2026-05-11T12:24:34Z'
       status: trusted
-    rationale: Zeer kort advies (~5500 chars, 4 headings). Geen extractie-artefacten.
-      Inhoud volledig voor het onderwerp (toepassingsgebied, grondslag, boekhoudkundige
-      verwerking). Voetnoten [^1]–[^8] volledig. Geen tabellen, geen TOC.
+    rationale: Zeer kort advies (~5500 chars, 4 headings). Geen extractie-artefacten. Inhoud volledig voor het onderwerp (toepassingsgebied, grondslag, boekhoudkundige verwerking). Voetnoten [^1]–[^8] volledig. Geen tabellen, geen TOC.
     status: trusted
 themas:
-- belasting
-- successierechten
-- vermogensbelasting
-- vereniging
-- vzw
-- stichting
-- private stichting
-- patrimoniumtaks
-- bezittingen
-- bedrijfsbelastingen
+  - belasting
+  - successierechten
+  - vermogensbelasting
+  - vereniging
+  - vzw
+  - stichting
+  - private stichting
+  - patrimoniumtaks
+  - bezittingen
+  - bedrijfsbelastingen
 ---
 
 # CBN-advies 2024/05 – Boekhoudkundige verwerking van de taks tot vergoeding der successierechten
 
 ## Inleiding
-
 Titel 3 van de wet van 28 december 2023 houdende diverse fiscale bepalingen (hierna: de Wet) wijzigt het Wetboek der Successierechten (hierna: W. Succ.).[^2] 
 
 De patrimoniumtaks of de taks tot vergoeding der successierechten is een jaarlijkse vermogensbelasting op de bezittingen specifiek voor verenigingen zonder winstoogmerk, internationale verenigingen zonder winstoogmerk en private stichtingen.[^3] 
@@ -78,17 +72,14 @@ De wetgever heeft de regelgeving betreffende de patrimoniumtaks gewijzigd door o
 Met onderhavig advies behandelt de Commissie de boekhoudkundige verwerking van de patrimoniumtaks in hoofde van de onderworpen (I)VZW’s en private stichtingen.
 
 ## Toepassingsgebied: artikel 147 W. Succ.
-
 De (I)VZW’s en de private stichtingen, beheerst door het Wetboek van vennootschappen en verenigingen, (hierna: de belastingplichtigen) zijn vanaf 1 januari volgend op de datum van hun oprichting in principe onderworpen aan een jaarlijkse taks tot vergoeding van de successierechten.[^5] 
 
 ## Grondslag van de taks: vaststelling vermogen (I)VZW of stichting
-
 De taks is verschuldigd op het geheel van de bezittingen, waar zij zich ook bevinden, van de belastingplichtigen.[^6] 
 
 De belastbare waarde van de bezittingen is in beginsel de door het bestuursorgaan te schatten verkoopwaarde op 1 januari van elk kalenderjaar en dus niet de boekwaarde van de bezittingen op het actief (in geval van een dubbele boekhouding) of in de staat van het vermogen (in geval van een vereenvoudigde boekhouding). De verkoopwaarde wordt meestal omschreven als de prijs waarop mag gerekend worden bij een verkoop onder normale omstandigheden voorbereid, dit wil zeggen met voldoende publiciteit en met aantrekking van een voldoende aantal liefhebbers, tevens met inachtneming van al de objectieve factoren die de waarde van het goed kunnen beïnvloeden.
 
 ## Boekhoudkundige verwerking
-
 De hervorming van de patrimoniumtaks treedt in werking op 1 januari 2024.[^7]
  De taks zal dus een impact hebben op de aangifte die per 31 maart 2024 moet worden ingediend. 
 

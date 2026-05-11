@@ -2,68 +2,59 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/omrekening-van-kapitaal-bij-grensoverschrijdende-fusies
 datum: 2009-12-16
 gerelateerde_adviezen:
-- datum: '2022-09-23'
-  titel: Boekhoudkundige verwerking van fusies tussen verenigingen en stichtingen
-  url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-fusies-tussen-verenigingen-en-stichtingen
-- datum: '2022-02-15'
-  titel: Fusies en splitsingen van vennootschappen met een negatief nettoactief
-  url: https://www.cbn-cnc.be/nl/adviezen/fusies-en-splitsingen-van-vennootschappen-met-een-negatief-nettoactief
-- datum: '2021-11-22'
-  titel: 'Verenigingen en stichtingen: compensatie van negatieve fondsen'
-  url: https://www.cbn-cnc.be/nl/adviezen/verenigingen-en-stichtingen-compensatie-van-negatieve-fondsen
-- datum: '2021-07-02'
-  titel: Boekhoudkundige verwerking van fusies tussen vennootschappen
-  url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-fusies-tussen-vennootschappen
+  - datum: '2022-09-23'
+    titel: Boekhoudkundige verwerking van fusies tussen verenigingen en stichtingen
+    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-fusies-tussen-verenigingen-en-stichtingen
+  - datum: '2022-02-15'
+    titel: Fusies en splitsingen van vennootschappen met een negatief nettoactief
+    url: https://www.cbn-cnc.be/nl/adviezen/fusies-en-splitsingen-van-vennootschappen-met-een-negatief-nettoactief
+  - datum: '2021-11-22'
+    titel: 'Verenigingen en stichtingen: compensatie van negatieve fondsen'
+    url: https://www.cbn-cnc.be/nl/adviezen/verenigingen-en-stichtingen-compensatie-van-negatieve-fondsen
+  - datum: '2021-07-02'
+    titel: Boekhoudkundige verwerking van fusies tussen vennootschappen
+    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-fusies-tussen-vennootschappen
 nummer: CBN-advies 2009/16
 provenance:
-  generated_at: '2026-05-11T15:15:31Z'
+  generated_at: '2026-05-11T17:48:38Z'
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/omrekening-van-kapitaal-bij-grensoverschrijdende-fusies
-    sha256: 83dc21653a6c045697a3cc20ede1abb140dfde829e847e94ef0aef58d448ddef
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/omrekening-van-kapitaal-bij-grensoverschrijdende-fusies
+      sha256: 83dc21653a6c045697a3cc20ede1abb140dfde829e847e94ef0aef58d448ddef
+      version:
   stale: false
-  stale_reason: null
+  stale_reason:
   tooling:
-    model: null
+    model:
     pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    prompt_version: null
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
     confirmed_at: '2026-05-11T12:09:17Z'
     confirmed_by: subagent-sonnet-4-6
     layer1:
-      file_size_chars: 10643
-      flags: []
-      heading_count: 5
-      max_section_chars: 4266
-      run_at: '2026-05-11T15:05:50Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:42Z'
+      heading_count: 5
+      max_section_chars: 4265
+      file_size_chars: 10638
+      flags: []
     layer2:
       agent: subagent-sonnet-4-6
       concrete_problemen: []
-      rationale: 'Geen substantiële extractie-artefacten. Vijf secties correct als
-        ## headings opgemaakt, voetnoten [^1]–[^18] volledig gedefinieerd, inhoud
-        compleet. De CAPS-headings (INLEIDING, TE VOLGEN PROCEDURE, etc.) zijn de
-        stijl van dit advies en consistent. Geen invisible unicode, geen broken tables,
-        geen afgekapte zinnen.'
+      rationale: 'Geen substantiële extractie-artefacten. Vijf secties correct als ## headings opgemaakt, voetnoten [^1]–[^18] volledig gedefinieerd, inhoud compleet. De CAPS-headings (INLEIDING, TE VOLGEN PROCEDURE, etc.) zijn de stijl van dit advies en consistent. Geen invisible unicode, geen broken tables, geen afgekapte zinnen.'
       run_at: '2026-05-11T12:09:17Z'
       status: trusted
-    rationale: 'Geen substantiële extractie-artefacten. Vijf secties correct als ##
-      headings opgemaakt, voetnoten [^1]–[^18] volledig gedefinieerd, inhoud compleet.
-      De CAPS-headings (INLEIDING, TE VOLGEN PROCEDURE, etc.) zijn de stijl van dit
-      advies en consistent. Geen invisible unicode, geen broken tables, geen afgekapte
-      zinnen.'
+    rationale: 'Geen substantiële extractie-artefacten. Vijf secties correct als ## headings opgemaakt, voetnoten [^1]–[^18] volledig gedefinieerd, inhoud compleet. De CAPS-headings (INLEIDING, TE VOLGEN PROCEDURE, etc.) zijn de stijl van dit advies en consistent. Geen invisible unicode, geen broken tables, geen afgekapte zinnen.'
     status: trusted
 themas:
-- fusie
-- grensoverschrijdende fusie
+  - fusie
+  - grensoverschrijdende fusie
 ---
 
 # CBN-advies 2009/16 Omrekening van kapitaal bij grensoverschrijdende fusies
 
 ## INLEIDING
-
 De Belgische wetgever heeft de grensoverschrijdende fusie, voorzien in de Tiende Richtlijn[^1], geregeld in de wet van 8 juni 2008[^2], door de invoering van een nieuwe titel “Titel V*bis*.* Bijzondere regels inzake de grensoverschrijdende fusies en gelijkgestelde verrichtingen*” in Boek XI van het Wetboek van Vennootschappen. De Tiende Richtlijn is van toepassing op fusies van kapitaalvennootschappen, opgericht in overeenstemming met de wetgeving van een Europese lidstaat en die hun statutaire zetel, hoofdbestuur of hoofdvestiging binnen de Europese Gemeenschap hebben, indien ten minste twee daarvan onder de wetgeving van verschillende lidstaten ressorteren[^3]. De bepalingen inzake interne fusies van Boek XI *Herstructurering van vennootschappen* van het Wetboek van Vennootschappen blijven evenwel, behoudens uitdrukkelijke afwijking, van toepassing op grensoverschrijdende fusies[^4].
 
 Aan de Commissie wordt in deze context de casus voorgelegd van een grensoverschrijdende fusie waarbij een Belgische vennootschap een vennootschap overneemt die gevestigd is in een lidstaat die niet tot de eurozone behoort. Bij deze fusie werd voorzien dat het kapitaal van de overnemende Belgische vennootschap gelijk is aan de som van het kapitaal van beide vennootschappen vóór de fusie.
@@ -73,7 +64,6 @@ Vermits het kapitaal van de buitenlandse vennootschap werd uitgedrukt in een and
 De Commissie is in dit opzicht de mening toegedaan dat een aantal artikelen, ingevoerd in het Wetboek van Vennootschappen ten gevolge van de omzetting van de Tiende Richtlijn, die hoofdzakelijk betrekking hebben op de te volgen procedure door de desbetreffende vennootschappen in geval van een grensoverschrijdende fusie, uitvoerig dienen behandeld te worden.
 
 ## TE VOLGEN PROCEDURE BIJ GRENSOVERSCHRIJDENDE FUSIE
-
 De bestuursorganen van de te fuseren vennootschappen zijn ertoe gehouden een gemeenschappelijk fusievoorstel op te stellen. Dit voorstel omvat een aantal elementen, zoals informatie over de evaluatie van de activa en passiva die overgaan naar de uit de grensoverschrijdende fusie ontstane vennootschap[^5].
 
 Bovendien vermeldt het fusievoorstel de datum vanaf dewelke de handelingen van de fuserende vennootschappen boekhoudkundig worden geacht voor rekening van de uit de grensoverschrijdende fusie ontstane vennootschap te zijn verricht[^6].
@@ -95,7 +85,6 @@ Het Wetboek van Vennootschappen stelt in artikel 772/11, § 1, dat, onder voorbe
 In elke vennootschap die de fusie aangaat, worden de notulen van de algemene vergadering waarin tot de fusie wordt besloten, opgesteld bij authentieke akte[^13].
 
 ## CONTROLE VAN DE PROCEDURE
-
 De Tiende Richtlijn en de overeenkomstige bepalingen van de artikelen 772/12 en 772/13, W.Venn., voorzien in een dubbele controle van de wettigheid van de fusie-operatie.
 
 Vooreerst zal de instrumenterende notaris na onderzoek het bestaan en zowel de interne als de externe wettigheid moeten bevestigen van de rechtshandelingen en formaliteiten waartoe de vennootschap waarvoor hij optreedt, gehouden is. Indien voldaan is aan alle wettelijke voorschriften, zal de notaris aan de betrokken vennootschap een attest afleveren waaruit dit blijkt[^14].
@@ -103,7 +92,6 @@ Vooreerst zal de instrumenterende notaris na onderzoek het bestaan en zowel de i
 Vervolgens zal de notaris nagaan of de fuserende vennootschappen gemeenschappelijke voorstellen voor een grensoverschrijdende fusie hebben goedgekeurd. Hiertoe legt elke fuserende vennootschap het in artikel 772/12, W.Venn., bedoelde attest voor aan de instrumenterende notaris binnen een termijn van zes maanden na de afgifte ervan, samen met een afschrift van het gemeenschappelijk voorstel voor een grensoverschrijdende fusie, dat door de algemene vergadering is goedgekeurd[^15].
 
 ## JURIDISCHE GEVOLGEN VAN DE GRENSOVERSCHRIJDENDE FUSIE
-
 Voor wat betreft het van kracht worden van de grensoverschrijdende fusie, verwijst de Tiende Richtlijn naar het recht dat van toepassing is op de uit de fusie ontstane vennootschap.
 
 Krachtens de Belgische wetsbepalingen wordt de grensoverschrijdende fusie van kracht op de datum waarop de instrumenterende notaris de voltooiing van de fusie heeft vastgesteld op verzoek van de vennootschappen die fuseren, op voorlegging van de attesten en andere documenten die de verrichting rechtvaardigen. Deze akte wordt neergelegd en bij uittreksel bekendgemaakt overeenkomstig artikel 74, W.Venn.[^16] 
@@ -111,7 +99,6 @@ Krachtens de Belgische wetsbepalingen wordt de grensoverschrijdende fusie van kr
 Op deze datum gaat het gehele vermogen van iedere ontbonden vennootschap over op de verkrijgende vennootschappen[^17].
 
 ## DATUM WAAROP HET KAPITAAL VAN DE OVERGENOMEN BUITENLANDSE VENNOOTSCHAP OMGEREKEND MOET WORDEN NAAR DE EURO
-
 De Commissie is van oordeel dat de omrekening naar de euro van het kapitaal van de buitenlandse vennootschap dient te gebeuren tegen de wisselkoers die geldt op de datum, in samenspraak bepaald door de beheersorganen van de fuserende vennootschappen, waarop de handelingen van de fuserende vennootschappen boekhoudkundig worden geacht voor rekening van de uit de grensoverschrijdende fusie ontstane vennootschap te zijn verricht, zoals gedefinieerd in het fusievoorstel, goedgekeurd door de algemene vergaderingen van de desbetreffende vennootschappen, conform artikel 772/6, f), W.Venn. Deze datum zal, algemeen genomen, steeds voorafgaan aan de datum bedoeld in artikel 772/14, W.Venn. (datum waarop de grensoverschrijdende fusie van kracht wordt).
 
 In feite is het, enerzijds, vanaf deze datum dat, ten gevolge van de boekhoudkundige retroactiviteit, de overnemende vennootschap de winst of het verlies draagt, met inbegrip van de wisselkoersverschillen, gerealiseerd door de overgenomen vennootschap. In dit opzicht is het niet uitgesloten dat de overnemende vennootschap de valutapositie dekt van de over te nemen vennootschap.

@@ -3,53 +3,53 @@ bron: https://www.cbn-cnc.be/nl/adviezen/uitzonderlijke-resultaten-wijzigingen-d
 datum: 2016-10-26
 nummer: CBN-advies 2016/24
 provenance:
+  generated_at: '2026-05-11T17:48:39Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/uitzonderlijke-resultaten-wijzigingen-door-het-koninklijk-besluit-van-18-december-2015
       sha256: 47168dbcf84b23ac15058c02ea32c39d3c630a6666dd441455dcc6fa521caf50
       version:
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
-    status: needs-rework
     confirmed_at: '2026-05-11T17:13:30Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "A6: structureel patroon van spurious line-breaks na voetnootreferenties midden in lopende zinnen — regels 75-76 (' Dit geldt *mutatis mutandis*[^9]\\n Ook het schema') en 78-79 ('[^11]\\n De Commissie meent') zijn kenmerkend voor dit ETL-patroon. Tabel correct in pipe-syntax; inhoud en voetnoten compleet."
     layer1:
-      file_size_chars: 11118
-      flags: []
-      heading_count: 3
-      max_section_chars: 4922
-      run_at: '2026-05-11T15:05:52Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:44Z'
+      heading_count: 3
+      max_section_chars: 4921
+      file_size_chars: 11115
+      flags: []
     layer2:
-      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T17:13:30Z'
-      rationale: "A6: structureel patroon van spurious line-breaks na voetnootreferenties midden in lopende zinnen — regels 75-76 (' Dit geldt *mutatis mutandis*[^9]\\n Ook het schema') en 78-79 ('[^11]\\n De Commissie meent') zijn kenmerkend voor dit ETL-patroon. Tabel correct in pipe-syntax; inhoud en voetnoten compleet."
       concrete_problemen:
-        - regel: 75
-          categorie: A6
+        - categorie: A6
+          regel: 75
           type: other
           voorbeeld: ' Dit geldt *mutatis mutandis* voor het microschema van de resultatenrekening.[^9]'
-        - regel: 76
-          categorie: A6
+        - categorie: A6
+          regel: 76
           type: other
           voorbeeld: ' Ook het schema van de resultatenrekening van de geconsolideerde jaarrekening'
-        - regel: 78
-          categorie: A6
+        - categorie: A6
+          regel: 78
           type: other
           voorbeeld: zijn opgenomen onder de niet-recurrente bedrijfs- of financiële resultaten.[^11]
-        - regel: 79
-          categorie: A6
+        - categorie: A6
+          regel: 79
           type: other
           voorbeeld: ' De Commissie meent dus dat in deze context in de praktijk geen verschil'
+      rationale: 'A6: structureel patroon van spurious line-breaks na voetnootreferenties midden in lopende zinnen — regels 75-76 ('' Dit geldt *mutatis mutandis*[^9]\n Ook het schema'') en 78-79 (''[^11]\n De Commissie meent'') zijn kenmerkend voor dit ETL-patroon. Tabel correct in pipe-syntax; inhoud en voetnoten compleet.'
+      run_at: '2026-05-11T17:13:30Z'
+      status: needs-rework
+    rationale: 'A6: structureel patroon van spurious line-breaks na voetnootreferenties midden in lopende zinnen — regels 75-76 ('' Dit geldt *mutatis mutandis*[^9]\n Ook het schema'') en 78-79 (''[^11]\n De Commissie meent'') zijn kenmerkend voor dit ETL-patroon. Tabel correct in pipe-syntax; inhoud en voetnoten compleet.'
+    status: needs-rework
 themas:
   - niet-recurrente kosten
   - niet-recurrente opbrengsten
@@ -62,13 +62,11 @@ themas:
 # CBN-advies 2016/24 – Uitzonderlijke resultaten: wijzigingen door het koninklijk besluit van 18 december 2015
 
 ## Inleiding
-
 Het koninklijk besluit van 18 december 2015 tot omzetting van Richtlijn 2013/34/EU van 26 juni 2013 van het Europees Parlement en van de Raad betreffende de jaarlijkse financiële overzichten, geconsolideerde financiële overzichten en aanverwante verslagen van bepaalde ondernemingsvormen, tot wijziging van Richtlijn 2006/43/EG van het Europees Parlement en de Raad en tot intrekking van Richtlijnen 78/660/EEG en 83/349/EEG van de Raad[^2], heeft een aantal wijzigingen aangebracht aan het schema van de resultatenrekening, meer bepaald aan de weergave van de uitzonderlijke resultaten. De uitzonderlijke resultaten worden geschrapt als afzonderlijke rubriek van de resultatenrekening en worden ondergebracht onder de bedrijfsresultaten dan wel de financiële resultaten. Ze worden voortaan aangeduid als *niet-recurrente resultaten*, evenwel zonder dat op inhoudelijk vlak,* i.e. *met betrekking tot de kwalificatie, een wijziging plaatsvindt.[^3] 
 
 De Commissie beoogt in onderhavig advies de wijzigingen met betrekking tot de uitzonderlijke resultaten te verduidelijken voor de boekjaren die aanvangen na 31 december 2015.
 
 ## Schema van de resultatenrekening
-
 Als gevolg van het nieuwe schema van de resultatenrekening dat is opgenomen als bijlage bij de Richtlijn, is bij de omzetting van deze richtlijn de indeling van de resultatenrekening[^4] aangepast. De nieuwe schema’s van de resultatenrekening bij de Richtlijn voorzien namelijk geen rubrieken meer voor de uitzonderlijke opbrengsten en de uitzonderlijke kosten. Deze resultaten moeten dus voortaan worden gekwalificeerd, naargelang hun aard, als zijnde bedrijfsresultaten of financiële resultaten.[^5] 
 
 Zowel het volledig schema[^6] als het verkort schema[^7] van de resultatenrekening ondergaan bijgevolg enkele noodzakelijke aanpassingen aangezien het op basis van de Richtlijn niet langer mogelijk is om het uitzonderlijk resultaat afzonderlijk in de resultatenrekening te vermelden. Om de opbrengsten en kosten met uitzonderlijk karakter te onderscheiden van andere bedrijfsopbrengsten en -kosten of andere financiële opbrengsten en kosten die voortvloeien uit de gewone bedrijfsactiviteit van de vennootschap en opdat de uitzonderlijke resultaten blijvend zichtbaar zouden zijn in de resultatenrekening, worden nieuwe rubrieken ingevoegd die de niet-recurrente aard van deze opbrengsten en kosten benadrukken. Teneinde het onderscheid met het vorige systeem duidelijk te maken, werd bij de omzetting van de richtlijn geopteerd om voortaan de terminologie *niet-recurrent* in plaats van *uitzonderlijk* te hanteren.[^8]
@@ -116,7 +114,6 @@ Herstructureringskosten kunnen van verschillende aard zijn: uitzonderlijke afsch
 | *6691* | | *Als herstructureringskosten geactiveerde niet-recurrente financiële kosten (-)*  | 
 
 ## Vermelding in de toelichting
-
 Ook in de toelichting van zowel het volledig[^13] als het verkort schema[^14] van de jaarrekening moeten voortaan het bedrag en de aard van de opbrengsten en kosten van uitzonderlijke omvang of uitzonderlijke mate van voorkomen worden opgenomen op een meer opgedeelde wijze aangepast aan de structuur waarop deze in het aangepaste schema van de resultatenrekening zijn opgenomen onder de niet-recurrente bedrijfs- of financiële resultaten.[^15]
  De Commissie wijst erop dat een uitzonderlijk hoge omzet, bijvoorbeeld tengevolge van een eenmalige zeer grote bestelling, nog steeds onder de rekening 70 *Omzet* moet worden opgenomen.[^16]
  Net zoals voorheen blijft evenwel de verplichting bestaan om, in voorkomend geval, wanneer dit noodzakelijk is om te voldoen aan de vereiste van het getrouwe beeld, aanvullende inlichtingen te verstrekken in de toelichting (hetgeen in principe het geval zal zijn bij een uitzonderlijk hoge omzet).[^17] 

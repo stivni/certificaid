@@ -3,59 +3,53 @@ bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-winstpre
 datum: 2018-11-21
 nummer: CBN-advies 2018/19
 provenance:
-  generated_at: '2026-05-11T15:15:32Z'
+  generated_at: '2026-05-11T17:48:39Z'
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-winstpremies
-    sha256: df789a212fd45d70f3849a8764f83decf6c1094752cfabf25775b7be0c8cc7b3
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-winstpremies
+      sha256: df789a212fd45d70f3849a8764f83decf6c1094752cfabf25775b7be0c8cc7b3
+      version:
   stale: false
-  stale_reason: null
+  stale_reason:
   tooling:
-    model: null
+    model:
     pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    prompt_version: null
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
     confirmed_at: '2026-05-11T12:21:40Z'
     confirmed_by: subagent-sonnet-4-6
     layer1:
-      file_size_chars: 6468
-      flags: []
-      heading_count: 3
-      max_section_chars: 3422
-      run_at: '2026-05-11T15:05:53Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:44Z'
+      heading_count: 3
+      max_section_chars: 3421
+      file_size_chars: 6465
+      flags: []
     layer2:
       agent: subagent-sonnet-4-6
       concrete_problemen: []
-      rationale: Geen artefacten gevonden. Tekst is vloeiend, headings correct, voetnoten
-        volledig aanwezig en verankerd. De enige boekhoudkundige tabel is correct
-        in markdown pipe-syntax. Inhoud compleet en niet afgesneden.
+      rationale: Geen artefacten gevonden. Tekst is vloeiend, headings correct, voetnoten volledig aanwezig en verankerd. De enige boekhoudkundige tabel is correct in markdown pipe-syntax. Inhoud compleet en niet afgesneden.
       run_at: '2026-05-11T12:21:40Z'
       status: trusted
-    rationale: Geen artefacten gevonden. Tekst is vloeiend, headings correct, voetnoten
-      volledig aanwezig en verankerd. De enige boekhoudkundige tabel is correct in
-      markdown pipe-syntax. Inhoud compleet en niet afgesneden.
+    rationale: Geen artefacten gevonden. Tekst is vloeiend, headings correct, voetnoten volledig aanwezig en verankerd. De enige boekhoudkundige tabel is correct in markdown pipe-syntax. Inhoud compleet en niet afgesneden.
     status: trusted
 themas:
-- winstpremie
-- winst van het boekjaar
-- identieke winstpremie
-- gecategoriseerde winstpremie
-- resultaatverwerking
+  - winstpremie
+  - winst van het boekjaar
+  - identieke winstpremie
+  - gecategoriseerde winstpremie
+  - resultaatverwerking
 ---
 
 # CBN-advies 2018/19 – Boekhoudkundige verwerking van winstpremies
 
 ## Inleiding
-
 Aan de Commissie werd een vraag voorgelegd met betrekking tot de nieuwe regeling voor winstpremies in de programmawet van 25 december 2017, die werd gepubliceerd in het *Belgisch Staatsblad* van 29 december 2017 en opgenomen in de wet van 22 mei 2001 betreffende de werknemersparticipatie in het kapitaal van de vennootschappen en tot instelling van een winstpremie voor de werknemers.[^2] 
 
 Deze nieuwe maatregel heeft tot doel het vennootschappen[^3] mogelijk te maken een deel of het geheel van hun winst toe te kennen aan hun werknemers in de vorm van een winstpremie. Dit om hen aan te moedigen en hen te belonen op een eenvoudige manier die zowel op sociaal als op fiscaal vlak interessant is.
 
 ## De nieuwe winstpremie
-
 Sinds 1 januari 2018 kunnen de vennootschappen beslissen een deel of het geheel van hun “winst van het boekjaar” aan hun werknemers toe te kennen. Onder “winst van het boekjaar” wordt het positieve bedrag begrepen, vermeld bij de code 9905 van het volledig model van de jaarrekening[^4]: Te bestemmen winst van het boekjaar[^5].
 
 Deze winstpremie kan worden gedefinieerd als “*[een] premie die wordt toegekend in speciën indien de vennootschap of de groep waarvan de vennootschap deel uitmaakt[^6], een deel of het geheel van de winst van het boekjaar wenst toe te kennen aan de werknemers[^7], met uitzondering van de bedrijfsleiders[^8], waarvan de specifieke modaliteiten overeenstemmen met de voorschriften van de wet van 22 mei 2001 en opgenomen zijn in een beslissing van de gewone of buitengewone algemene vergadering*”[^9].
@@ -69,7 +63,6 @@ Op het vlak van de sociale zekerheid, is deze premie interessant voor zover er g
 Op fiscaal vlak is deze premie onderworpen aan een aanslagvoet van 7 %[^13] (een met de inkomstenbelastingen gelijkgestelde belasting) voor de werknemer (en zal ze bovendien vermeld worden op het aanslagbiljet) en zal ze, voor de werkgever, niet aftrekbaar zijn in de vennootschapsbelasting, aangezien ze wordt beschouwd als een verworpen uitgave in de vennootschapsbelasting.
 
 ## Boekhoudkundige aspecten
-
 De winstpremie komt neer op een resultaatverwerking (net zoals de regeling van dividenden en tantièmes). Het gaat om een loonbestanddeel waarmee geen rekening wordt gehouden voor de berekening van de loonnorm[^14] (bestanddeel dat is uitgesloten uit het begrip loonkost).
 
 In de boekhouding zal dit als volgt worden geboekt:

@@ -3,41 +3,41 @@ bron: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-effec
 datum: 2014-04-23
 nummer: CBN-advies 2014/6
 provenance:
+  generated_at: '2026-05-11T17:48:39Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-effecten-aan-toonder-van-rechtswege-omgezet-in-effecten
       sha256: 96a637b0198c56439326c067bc3fa16af11e8354f95f69eb043dfc588197858f
       version:
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
-    status: needs-rework
     confirmed_at: '2026-05-11T17:09:38Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "A6/B5 bevestigd: regel 52 bevat 'op 1 januari 2014' als losstaande tekstregel direct na de H1-titel die dezelfde woorden al bevat — fragment van de volledige originele titel die door de scraper werd gesplitst. ETL-artefact, geen source-typo. Overige inhoud volledig en voetnoten correct."
     layer1:
-      file_size_chars: 7553
-      flags: []
-      heading_count: 5
-      max_section_chars: 3101
-      run_at: '2026-05-11T15:05:51Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:43Z'
+      heading_count: 5
+      max_section_chars: 3079
+      file_size_chars: 7529
+      flags: []
     layer2:
-      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T17:09:38Z'
-      rationale: "A6/B5 bevestigd: regel 52 bevat 'op 1 januari 2014' als losstaande tekstregel direct na de H1-titel die dezelfde woorden al bevat — fragment van de volledige originele titel die door de scraper werd gesplitst. ETL-artefact, geen source-typo. Overige inhoud volledig en voetnoten correct."
       concrete_problemen:
-        - regel: 52
-          categorie: A6
+        - categorie: A6
+          regel: 52
           type: other
           voorbeeld: op 1 januari 2014 — losstaand fragment na H1-heading (duplicaat van titelelement)
+      rationale: 'A6/B5 bevestigd: regel 52 bevat ''op 1 januari 2014'' als losstaande tekstregel direct na de H1-titel die dezelfde woorden al bevat — fragment van de volledige originele titel die door de scraper werd gesplitst. ETL-artefact, geen source-typo. Overige inhoud volledig en voetnoten correct.'
+      run_at: '2026-05-11T17:09:38Z'
+      status: needs-rework
+    rationale: 'A6/B5 bevestigd: regel 52 bevat ''op 1 januari 2014'' als losstaande tekstregel direct na de H1-titel die dezelfde woorden al bevat — fragment van de volledige originele titel die door de scraper werd gesplitst. ETL-artefact, geen source-typo. Overige inhoud volledig en voetnoten correct.'
+    status: needs-rework
 themas:
   - aandelen aan toonder
   - aandelen op naam
@@ -49,14 +49,10 @@ themas:
 
 # CBN-advies 2014/6 – De boekhoudkundige verwerking van effecten aan toonder van rechtswege omgezet in effecten op naam of in gedematerialiseerde effecten op 1 januari 2014
 
-op 1 januari 2014
-
 ## Inleiding en onderwerp van het advies
-
 In het onderhavige advies wordt de boekhoudkundige verwerking behandeld van effecten aan toonder die van rechtswege werden omgezet op 1 januari 2014 in gedematerialiseerde effecten of in effecten op naam, met inschrijving van de effecten op naam van de emittent, overeenkomstig artikel 9 van de wet van 14 december 2005 houdende afschaffing van de effecten aan toonder.
 
 ## Omzetting van rechtswege op 1 januari 2014 in gedematerialiseerde effecten of in effecten op naam
-
 De wet van 14 december 2005 heeft de geleidelijke afschaffing geregeld van de effecten aan toonder. De rechthebbenden van de effecten aan toonder die nog in omloop waren aan het einde van 2013 konden ten laatste op 31 december 2013 de omzetting van hun effecten in gedematerialiseerde effecten aanvragen (op voorwaarde dat de emittent de nodige regelingen had getroffen voor deze dematerialisering) of in effecten op naam.
 
 Indien de effecten op die datum niet waren omgezet op initiatief van de rechthebbende, werden ze van rechtswege omgezet (in gedematerialiseerde effecten of in effecten op naam), maar met inschrijving van de effecten op naam van de emittent.[^2] 
@@ -73,9 +69,7 @@ De wet regelt tot slot een gedwongen verkoopsregeling vanaf 1 januari 2015 van d
  De emittent kan ook zelf zijn te koop aangeboden effecten kopen.[^5] 
 
 ## Boekhoudkundige verwerking van effecten van rechtswege omgezet op naam van de emittent
-
 ### In hoofde van de emittent
-
 De omzetting van rechtswege geschiedt pas op 1 januari 2014, zodat de omzetting niet moet worden uitgedrukt in de boekhouding en de jaarrekening van de emittent voor het boekjaar 2013 (ten minste indien het boekjaar ten laatste wordt afgesloten op 31 december 2013).
 
 De Commissie is echter van mening dat deze omzetting een “belangrijke gebeurtenis die na het einde van het boekjaar heeft plaatsgevonden” zou kunnen vormen voor de emittent die overeenkomstig artikel 96, § 1, 2° van het Wetboek van vennootschappen moet worden vermeld in het jaarverslag van het boekjaar 2013 (indien de vennootschap een jaarverslag opstelt en indien het boekjaar ten laatste wordt afgesloten op 31 december 2013).
@@ -95,7 +89,6 @@ Ten slotte beschermt de wet van 14 december 2005, zoals gewijzigd door de wet va
 Vanaf 1 januari 2015 zal voor de effecten waarvan de rechthebbende zich nog niet heeft bekendgemaakt, de inschrijving op naam van de emittent aflopen ten gevolge van de gedwongen verkoop van de effecten (behalve indien de emittent zelf zijn eigen effecten koopt, zie *supra*) of ten gevolge van de overdracht van de onverkochte effecten aan de Deposito- en Consignatiekas.
 
 ### In hoofde van de rechthebbende
-
 Volgens de Commissie lijkt het weinig realistisch om te onderzoeken welke boekhoudkundige verwerking in hoofde van de rechthebbende van de effecten dient te worden toegepast voor de effecten van rechtswege omgezet op naam van de emittent. Ofwel is de rechthebbende namelijk niet op de hoogte van de omzetting (en zal hij bijgevolg de boeking van zijn effecten niet wijzigen), ofwel is de rechthebbende op de hoogte van deze omzetting en vraagt hij de inschrijving aan van de effecten op zijn naam.
 
 [^1]: Onderhavig advies is tot stand gekomen nadat het ontwerp van dit advies op 11 maart 2014 ter publieke consultatie werd gepubliceerd op de website van de CBN.

@@ -3,51 +3,45 @@ bron: https://www.cbn-cnc.be/nl/adviezen/financiele-steunverlening
 datum: 2010-06-16
 nummer: CBN-advies 2010/8
 provenance:
-  generated_at: '2026-05-11T15:15:31Z'
+  generated_at: '2026-05-11T17:48:38Z'
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/financiele-steunverlening
-    sha256: 98c92f3867505770312107fa899f81320ce9a695177f32151e75e09f3caa7d6a
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/financiele-steunverlening
+      sha256: 98c92f3867505770312107fa899f81320ce9a695177f32151e75e09f3caa7d6a
+      version:
   stale: false
-  stale_reason: null
+  stale_reason:
   tooling:
-    model: null
+    model:
     pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    prompt_version: null
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
     confirmed_at: '2026-05-11T12:09:17Z'
     confirmed_by: subagent-sonnet-4-6
     layer1:
-      file_size_chars: 8524
-      flags: []
-      heading_count: 2
-      max_section_chars: 6074
-      run_at: '2026-05-11T15:05:50Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:42Z'
+      heading_count: 2
+      max_section_chars: 6073
+      file_size_chars: 8522
+      flags: []
     layer2:
       agent: subagent-sonnet-4-6
       concrete_problemen: []
-      rationale: 'Geen extractie-artefacten. Twee ## secties correct opgemaakt, journaalpost-tabellen
-        in pipe-syntax aanwezig en compleet, voetnoten [^1]–[^10] volledig gedefinieerd.
-        Inhoud sluit logisch af. Geen invisible unicode, geen HTML-entities, geen
-        broken tables.'
+      rationale: 'Geen extractie-artefacten. Twee ## secties correct opgemaakt, journaalpost-tabellen in pipe-syntax aanwezig en compleet, voetnoten [^1]–[^10] volledig gedefinieerd. Inhoud sluit logisch af. Geen invisible unicode, geen HTML-entities, geen broken tables.'
       run_at: '2026-05-11T12:09:17Z'
       status: trusted
-    rationale: 'Geen extractie-artefacten. Twee ## secties correct opgemaakt, journaalpost-tabellen
-      in pipe-syntax aanwezig en compleet, voetnoten [^1]–[^10] volledig gedefinieerd.
-      Inhoud sluit logisch af. Geen invisible unicode, geen HTML-entities, geen broken
-      tables.'
+    rationale: 'Geen extractie-artefacten. Twee ## secties correct opgemaakt, journaalpost-tabellen in pipe-syntax aanwezig en compleet, voetnoten [^1]–[^10] volledig gedefinieerd. Inhoud sluit logisch af. Geen invisible unicode, geen HTML-entities, geen broken tables.'
     status: trusted
 themas:
-- financiële bijstand
-- financiële steunverlening
-- herwaarderingsmeerwaarde
-- lening
-- onbeschikbare reserve
-- uitkeerbare winst
-- zekerheid
+  - financiële bijstand
+  - financiële steunverlening
+  - herwaarderingsmeerwaarde
+  - lening
+  - onbeschikbare reserve
+  - uitkeerbare winst
+  - zekerheid
 ---
 
 # CBN-advies 2010/8 - Financiële steunverlening Advies van 16 juni 2010
@@ -59,7 +53,6 @@ Deze financiële steunverlening moet evenwel voldoen aan een aantal voorwaarden[
 Wat betreft de waardering van deze “totale financiële bijstand” dient een onderscheid gemaakt te worden tussen de situatie waarin de onderneming middelen ter beschikking stelt van een derde, en de situatie waarin de onderneming een zekerheid stelt ten voordele van een derde.
 
 ## Terbeschikkingstelling van financiële middelen
-
 Indien de vennootschap voor de verkrijging van eigen effecten door een derde financiële middelen ter beschikking stelt, dient ten belope van de “totale financiële bijstand” een onbeschikbare reserve te worden aangelegd. Naar de mening van de Commissie is de totale financiële bijstand gelijk aan de nominale waarde van de lening u/g, exclusief de rente[^7].
 
 De vorming van de onbeschikbare reserve dient slechts via de resultaatverwerking te gebeuren wanneer het overgedragen resultaat of het resultaat van het boekjaar daartoe wordt aangewend[^8]. De overboeking van de ene reserve naar de andere reserve mag rechtstreeks gebeuren.
@@ -81,7 +74,6 @@ De vorming van de onbeschikbare reserve dient slechts via de resultaatverwerking
 Naarmate het kapitaalbestanddeel van de lening wordt terugbetaald, mag een overboeking van de onbeschikbare reserves naar de beschikbare reserves gebeuren.
 
 ## Stellen van zekerheden
-
 Indien de vennootschap voor de verkrijging van eigen effecten door een derde zekerheden stelt, dient eveneens ten belope van de “totale financiële bijstand” een onbeschikbare reserve te worden aangelegd.
 
 De vraag stelt zich hoe deze totale financiële bijstand bij zekerheidstellingen dient gewaardeerd te worden.

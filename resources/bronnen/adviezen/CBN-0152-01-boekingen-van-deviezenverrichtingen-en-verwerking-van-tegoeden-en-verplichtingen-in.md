@@ -16,49 +16,49 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/bestellingen-in-uitvoering
 nummer: CBN-advies 152/1
 provenance:
+  generated_at: '2026-05-11T17:48:38Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/boekingen-van-deviezenverrichtingen-en-verwerking-van-tegoeden-en-verplichtingen-in
       sha256: abfb76c50150627c208c3fca7723f5e345ecdf9199d967e5694ef08b8239b916
       version:
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
-    status: needs-rework
     confirmed_at: '2026-05-11T17:05:21Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "Vorig verdict bevestigd. A9 r.390: 'Bank USA' i.p.v. 'Bank USD' (consequent in rest van het document). E2 r.1018-1026: vergelijkingstabel Effect A/B heeft headerrij met 6 cellen maar datarijen met 8 cellen — inconsistente celtellingen. B4 r.98: all-caps structuurlabel 'VAN NIET SPECIFIEK GEDEKTE TEGOEDEN EN VERPLICHTINGEN...' als plain-text-alinea direct na H1-heading in plaats van ## heading."
     layer1:
-      file_size_chars: 106079
-      flags: []
-      heading_count: 51
-      max_section_chars: 16510
-      run_at: '2026-05-11T15:05:49Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:42Z'
+      heading_count: 51
+      max_section_chars: 16371
+      file_size_chars: 105889
+      flags: []
     layer2:
-      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T17:05:21Z'
-      rationale: "Vorig verdict bevestigd. A9 r.390: 'Bank USA' i.p.v. 'Bank USD' (consequent in rest van het document). E2 r.1018-1026: vergelijkingstabel Effect A/B heeft headerrij met 6 cellen maar datarijen met 8 cellen — inconsistente celtellingen. B4 r.98: all-caps structuurlabel 'VAN NIET SPECIFIEK GEDEKTE TEGOEDEN EN VERPLICHTINGEN...' als plain-text-alinea direct na H1-heading in plaats van ## heading."
       concrete_problemen:
-        - regel: 390
-          categorie: A9
+        - categorie: A9
+          regel: 390
           type: ocr-confusion
           voorbeeld: '| | 55 | Bank USA | 41.100 | |'
-        - regel: 1018
-          categorie: E2
+        - categorie: E2
+          regel: 1018
           type: other
           voorbeeld: '| | | **Effect A (geldbelegging)**  | | **Effect B (geldbelegging)** |'
-        - regel: 98
-          categorie: B4
+        - categorie: B4
+          regel: 98
           type: other
           voorbeeld: VAN NIET SPECIFIEK GEDEKTE TEGOEDEN EN VERPLICHTINGEN IN DEVIEZEN EN VERWERKING VAN DE OMREKENINGSVERSCHILLEN
+      rationale: 'Vorig verdict bevestigd. A9 r.390: ''Bank USA'' i.p.v. ''Bank USD'' (consequent in rest van het document). E2 r.1018-1026: vergelijkingstabel Effect A/B heeft headerrij met 6 cellen maar datarijen met 8 cellen — inconsistente celtellingen. B4 r.98: all-caps structuurlabel ''VAN NIET SPECIFIEK GEDEKTE TEGOEDEN EN VERPLICHTINGEN...'' als plain-text-alinea direct na H1-heading in plaats van ## heading.'
+      run_at: '2026-05-11T17:05:21Z'
+      status: needs-rework
+    rationale: 'Vorig verdict bevestigd. A9 r.390: ''Bank USA'' i.p.v. ''Bank USD'' (consequent in rest van het document). E2 r.1018-1026: vergelijkingstabel Effect A/B heeft headerrij met 6 cellen maar datarijen met 8 cellen — inconsistente celtellingen. B4 r.98: all-caps structuurlabel ''VAN NIET SPECIFIEK GEDEKTE TEGOEDEN EN VERPLICHTINGEN...'' als plain-text-alinea direct na H1-heading in plaats van ## heading.'
+    status: needs-rework
 themas:
   - bestellingen in uitvoering
   - contant wisselverrichting
@@ -95,10 +95,7 @@ themas:
 
 # CBN-advies 152/1 - Boekingen van deviezenverrichtingen en verwerking van tegoeden en verplichtingen in deviezen in de jaarrekening
 
-VAN NIET SPECIFIEK GEDEKTE TEGOEDEN EN VERPLICHTINGEN IN DEVIEZEN EN VERWERKING VAN DE OMREKENINGSVERSCHILLEN - ALGEMENE ASPECTEN 
-
 ## Inleiding
-
 Dit advies handelt over de boeking van deviezenverrichtingen en de verwerking van tegoeden, rechten, schulden en verplichtingen in deviezen, in de jaarrekening[^1].
 
 De verwerking van de boekhoudkundige staten van in het buitenland gevestigde bijkantoren en centra van werkzaamheden van vennootschappen naar Belgisch recht, in de boekhouding en de jaarrekening van laatstgenoemde, valt evenwel buiten het bestek van dit advies[^2]. Evenmin wordt ingegaan op de verwerking in de geconsolideerde jaarrekening, van de verrichtingen en van de tegoeden en verplichtingen van in het buitenland gevestigde vennootschappen die in de consolidatie zijn opgenomen. 
@@ -135,10 +132,9 @@ Naar het oordeel van de Commissie is dit advies bedoeld om te worden toegepast o
 
 Indien de naleving van dit advies een wijziging meebrengt van de voorheen toegepaste waarderingsregels, wordt hiervan melding gemaakt in de toelichting. Heeft deze wijziging een belangrijke invloed op het vermogen, de financiële positie of op het resultaat van de onderneming, dan dient, met toepassing van artikel 17 van het jaarrekeningbesluit van 8 oktober 1976, deze (geraamde) invloed te worden aangeduid in de toelichting bij de jaarrekening over het boekjaar waarin de gewijzigde waarderingsregels voor het eerst werden toegepast. 
 
-De Commissie heeft talrijke interessante reacties ontvangen op de publikatie van haar adviesontwerp (januari 1987). Als gevolg daarvan werden de teksten op verschillende punten gewijzigd of aangevuld. De Commissie wenst alle personen te danken die met adviezen of suggesties hebben bijgedragen tot de totstandkoming van dit document.
+De Commissie heeft talrijke interessante reacties ontvangen op de publikatie van haar adviesontwerp (januari 1987). Als gevolg daarvan werden de teksten op verschillende punten gewijzigd of aangevuld. De Commissie wenst alle personen te danken die met adviezen of suggesties hebben bijgedragen tot de totstandkoming van dit document. 
 
 ## DEEL I - TERMINOLOGIE - OMSCHRIJVINGEN
-
 - Vreemde munt, vreemde valuta of devies (foreign currency) : Elke andere valuta dan de munt waarin de jaarrekening wordt opgemaakt (reporting currency). 
 
 - Monetaire post (monetary item) : De liquide middelen alsmede de posten die betrekking hebben op een bepaalde hoeveelheid te innen of te betalen munteenheden; de andere vermogensbestanddelen zijn niet-monetaire posten. 
@@ -176,7 +172,6 @@ De Commissie heeft talrijke interessante reacties ontvangen op de publikatie van
   - Wisselpositie : Het positieve of negatieve verschil tussen alle in een vreemde valuta uitgedrukte tegoeden en alle in diezelfde valuta uitgedrukte verplichtingen. 
 
 ## DEEL II - PROBLEEMSTELLING
-
 In de jaarrekening moeten de in verschillende valuta's uitgedrukte bestanddelen noodzakelijk tot eenzelfde munteenheid worden herleid. 
 
 In de meeste landen moet de jaarrekening van de ondernemingen in de nationale munt worden opgemaakt. Dit voorschrift vindt men ook in artikel 2 van het koninklijk besluit van 8 oktober 1976, ingevoegd bij artikel 2 van het koninklijk besluit van 12 september 1983. 
@@ -205,10 +200,8 @@ De boekhoudkundige verwerking van verrichtingen moet immers zoveel mogelijk met 
 
 Naast de bovenvermelde algemene aspecten rijzen meer specifieke problemen, zoals de middellange-en langetermijnleningen in vreemde valuta's, zoals de gevallen waarin niet-monetaire bestanddelen in aanmerking moeten worden genomen voor de verwerking van de monetaire posten waarop ze betrekking hebben en de gevallen waarin met het risico verbonden aan een bestaande wisselpositie rekening moet worden gehouden. 
 
-## DEEL III - BOEKING VAN DEVIEZENVERRICHTINGEN[^4]
-
+## DEEL III - BOEKING VAN DEVIEZENVERRICHTINGEN
 ### ALGEMEEN
-
 Een deviezenverrichting is, zoals gezegd, een verrichting waaruit een tegoed of een verplichting in een vreemde valuta voortvloeit of waardoor zo'n tegoed of verplichting wordt terugbetaald of verminderd.
 
 Voorbeelden : 
@@ -240,7 +233,6 @@ Deze omrekening kan hetzij voor elke verrichting afzonderlijk of per groep (boek
 	De oorspronkelijke boeking in één of meer vreemde valuta's van alle of sommige verrichtingen is niet strijdig met het beginsel dat de jaarrekening in Belgische franken moet worden opgemaakt. In dit geval gebeurt de omrekening in Belgische franken periodiek, in de syntheserubrieken, op het ogenblik van de centralisatie. 
 
 ### DE OMREKENINGSKOERS
-
 Als omrekeningskoers moet de contantwisselkoers worden toegepast. Al bestaan er onderscheiden markten en koersen voor vreemde valuta's op termijn (één maand, drie maanden, zes maanden), is het in principe[^7] niet aan te bevelen de termijnkoers van de valuta te gebruiken voor de omrekening van deviezenverrichtingen, zelfs niet voor vorderingen en schulden die op overeenstemmende termijnen moeten worden betaald; het verschil tussen de termijnkoers en de contantkoers (report of deport) stemt immers voornamelijk overeen met een renteverschil dat tot uiting komt als een financieel resultaat[^8]; in industriële en handelsondernemingen is het niet gebruikelijk bij de waardering van vorderingen en schulden op korte termijn met een rentedisconto rekening te houden. 
 
 Als wisselkoers moet de wisselkoers op de officiële markt of op de vrije markt worden toegepast, naar gelang van de markt waarop de betaling moet geschieden krachtens de wisselreglementering. 
@@ -261,9 +253,7 @@ Als alternatieve omrekeningsmethodes heeft men onder andere :
 - de wisselkoers voor de B.T.W.-heffing bij invoer. 
 
 ### VERRICHTINGEN WAARUIT MONETAIRE POSTEN IN DEVIEZEN ONTSTAAN
-
 #### Niet-monetaire activa (en passiva)
-
 Voor niet-monetaire activa (en passiva) waarvan de verwerving gepaard ging met een deviezenverrichting (bij voorbeeld voorraden, onroerende goederen of deelnemingen waarvan de aanschaffingsprijs in vreemde valuta is uitgedrukt) is de aanschaffingswaarde waartegen zij worden en blijven geboekt, de aanschaffingswaarde in Belgische franken, die bekomen wordt door op de prijs in vreemde valuta de omrekeningskoers toe te passen gekozen overeenkomstig B hierboven. 
 
 De aanschaffingswaarde van deze activa wordt - in principe - niet beïnvloed door het latere koersverloop van de munt waarin de aankoopschuld is uitgedrukt noch door de werkelijke koers waartegen de schuld op vervaldag wordt aangezuiverd. Het is inderdaad zo dat het koersverloop van de valuta waarin de aankoopschuld is uitgedrukt, na boeking van de verrichting, volledig los staat van de bepaling van de aanschaffingswaarde van deze niet-monetaire activa. 
@@ -271,7 +261,6 @@ De aanschaffingswaarde van deze activa wordt - in principe - niet beïnvloed doo
 Op grond van de aldus vastgestelde aanschaffingswaarde in Belgische franken worden voor afschrijfbare vaste activa de afschrijvingen berekend. Op grond van deze waarde worden ook eventuele waardeverminderingen en herwaarderingen geboekt. Op grond van diezelfde waarde wordt, voor de voorraden, in voorkomend geval de regel toegepast van waardering tegen lagere marktwaarde of moeten zonodig waardeverminderingen ten opzichte van deze laatste worden gevormd of teruggenomen. 
 
 #### Monetaire activa en passiva
-
 Monetaire activa en passiva in vreemde valuta worden ook aanvankelijk in Belgische franken geboekt, na toepassing van de omrekeningskoers van de dag van de verrichting volgens de door de onderneming gekozen modaliteiten. 
 
 In het bovenvermelde voorbeeld (aankoop van goederen, betaalbaar in USD) zal een schuld ten opzichte van de leverancier ten belope van 41.000 BEF worden geboekt. 
@@ -290,15 +279,12 @@ De boekhoudkundige en administratieve organisatie moet derhalve zo worden ingeri
 Tegelijk met de boekhouding in Belgische franken van de tegoeden en verplichtingen in deviezen moeten derhalve hetzij overeenstemmende rekeningen in de betrokken munt worden gevoerd, hetzij een permanente inventaris worden bijgehouden, waaruit per hoofdrubriek zowel het bedrag aan te ontvangen als aan te betalen of te leveren vreemde valuta's blijkt. 
 
 ### BETALING VAN SCHULDEN EN INNING VAN VORDERINGEN IN VREEMDE VALUTA'S
-
 Een schuld in vreemde valuta wordt meestal betaald of een vordering in vreemde valuta geïnd tegen een koers die verschilt van de koers waartegen de schuld of de vordering is geboekt. Dit verschil vloeit voort uit het wisselkoersverloop tussen de dag van de oorspronkelijke of latere omrekening en de dag waarop de vordering of de schuld wordt betaald. Hieruit vloeit dan ook een te boeken resultaat voort. 
 
 #### Omrekeningskoers
-
 In dit opzicht zijn twee onderscheiden gevallen mogelijk. 
 
 ##### De betaling van de schuld of de inning van de vordering in vreemde valuta gaat gepaard met een wisselverrichting die daarmee rechtstreeks verbonden is.
-
 Voorbeeld : 
 
 Een onderneming moet een wissel van 1 000 USD betalen, geboekt ten belope van 41 000 BEF (1 USD = 41 BEF) en een vordering innen van 2 500 NLG, geboekt tegen 46 250 BEF (1 NLG = 18,50 BEF). Zij geeft haar bank opdracht om de wissel te betalen en de vordering te innen via haar zichtrekening in BEF. (De door de bank aangerekende wisselkoers beloopt 40,50 BEF voor 1 NLG[^10]). 
@@ -315,7 +301,6 @@ Een onderneming moet een wissel van 1 000 USD betalen, geboekt ten belope van 41
 | aan | 40 | Handelsdebiteuren NLG | | 46.250 |
 
 ##### De betaling van de schuld of de inning van de vordering gaat niet gepaard met een wisselverrichting die daarmee rechtstreeks is verbonden.
-
 Dat betekent dat de onderneming ter betaling van haar vordering in vreemde valuta een ander tegoed in diezelfde valuta ontvangt (normaal gezien een tegoed in deviezenrekening "Bank") of dat ze een ander tegoed dat ze in diezelfde valuta bezit, bestemt tot betaling van haar schuld in vreemde valuta (normaal gezien een tegoed of een kredietopening op deviezenrekening "Bank").
 
 In dit geval wordt de betaling van de schuld of de inning van de vordering als een deviezenverrichting beschouwd. Ze zal in Belgische franken worden geboekt tegen de geldende omrekeningskoers[^11]. Uit deze omrekening zal eventueel een "wisselresultaat" voortvloeien. 
@@ -334,7 +319,6 @@ In hogervermeld voorbeeld zal als volgt worden geboekt (omrekeningskoers 40,80 B
 Bij gedeeltelijke betaling van een vordering of van een schuld die ontstaan is uit meerdere, tegen verschillende koersen omgerekende deviezenverrichtingen worden het uitstaande saldo in BEF en het wisselresultaat berekend op basis van de toerekeningsregels die de onderneming daarvoor vaststelt. 
 
 #### Boeking van wisselresultaten
-
 Wisselresultaten worden per verrichting in de financiële resultaten opgenomen, naar gelang van het geval, in rekening 654 of 754. 
 
 Niettemin kunnen de ondernemingen ook opteren om hetzij per valuta, hetzij voor alle valuta's zonder onderscheid, één rekening *Wisselresultaat* te openen waarbij aan debetzijde de negatieve verschillen en aan creditzijde de positieve verschillen worden geboekt, met - naar gelang van het saldo - nummer 654 of 754, ofwel beide rekeningen te openen en de betrokken saldi samen te voegen in de jaarrekening.
@@ -345,23 +329,18 @@ Deze mogelijkheid vloeit voort uit de veronderstelling dat een boeking tegen de 
 
 WAARDEVERMINDERINGEN OP MONETAIRE ACTIVA IN DEVIEZEN EN REGULARISERING VAN MONETAIRE POSTEN IN DEVIEZEN
 #### Waardeverminderingen op monetaire activa in deviezen
-
 Waardeverminderingen op monetaire activa in deviezen worden niet omgerekend tegen de omrekeningskoers op de datum waarop de waardevermindering wordt vastgesteld, maar wel tegen de omrekeningskoers waartegen het betrokken monetair actief oorspronkelijk werd geboekt. Hetzelfde geldt wanneer geboekte waardeverminderingen achteraf worden teruggenomen. 
 
 #### Over te dragen (overgedragen) resultaten - Prorata's
-
 Ingeval kosten of opbrengsten in deviezen via de rekeningen 490 en 493 naar het volgende boekjaar worden overgedragen om ze te verbinden aan het boekjaar waarop ze betrekking hebben, dient zulks te geschieden tegen de omrekeningskoers die oorspronkelijk werd toegepast voor de omrekening van deze kosten of opbrengsten. Wanneer deze overgedragen resultaten opnieuw worden opgenomen in de resultaten van het volgende boekjaar, dan geschiedt zulks tegen dezelfde omrekeningskoers. 
 
 Verkregen opbrengsten (rekening 491) en toe te rekenen kosten (rekening 492) worden omgerekend tegen de geldende omrekeningskoers op de datum van hun boeking. Hun in-resultaat-neming tijdens het volgende boekjaar geschiedt tegen dezelfde omrekeningskoers. 
 
 ## DEEL IV - BOEKING VAN WISSELVERRICHTINGEN
-
 In tegenstelling tot verrichtingen in vreemde valuta's die, voor hun boeking en verwerking in de jaarrekening, in Belgische franken worden omgerekend, zijn wisselverrichtingen werkelijke verrichtingen met derden die tegen een bepaalde prijs worden gesloten. Deze verrichtingen en verhoudingen met derden moeten tegen de werkelijke prijs van de wisselverrichting in de boekhouding worden opgenomen. 
 
 ### CONTANTWISSELVERRICHTINGEN
-
 #### Wisselverrichtingen vreemde valuta's tegen Belgische franken
-
 Op grond van hogervermeld beginsel moet een aankoopverrichting van valuta's tegen Belgische franken of verkoop van valuta's tegen Belgische franken, wat het aantal ontvangen (te ontvangen) of betaalde (te betalen) Belgische franken betreft, tegen de werkelijke koers van de wisselverrichting worden geboekt.
 
 Voor de waardering in Belgische franken van gekochte valuta's (aankoopverrichting) of verkochte valuta's (verkoopverrichting) zijn er twee benaderingen. 
@@ -396,7 +375,6 @@ De boeking geschiedt tegen de geldende omrekeningskoers en levert een wisselresu
 Ene en andere methode zijn toelaatbaar. Hun uiteenlopende weerslag verzwakt en verdwijnt zelfs volledig ingevolge de herschatting van tegoeden en verplichtingen aan het einde van het jaar en de verwerking van de omrekeningsverschillen op liquide middelen zoals gezegd in navolgend deel VIII. (punt F). De onderneming zelf hoort tussen beide mogelijke methodes een keuze te maken. 
 
 #### Verrichtingen deviezen tegen deviezen
-
 Bij contantwisselverrichtingen "deviezen tegen deviezen" - dus zonder gebruik van Belgische frank -moet het respectieve bedrag van elke valuta in Belgische franken worden geboekt, tegen de geldende omrekeningskoers; alleen de tweede hierboven beschreven methode is mogelijk. 
 
 Als de tegenwaarde in BEF tegen de geldende omrekeningskoers niet dezelfde is voor de gekochte en de verkochte valuta's, bekomt men een wisselresultaat dat als dusdanig moet worden geboekt. 
@@ -420,7 +398,6 @@ Omrekeningskoers 1 USD = 40,54 BEF 1 NLG = 18,425 BEF
 | aan | 55 | Bank | | 406.824 |
 
 ### TERMIJNWISSELVERRICHTINGEN
-
 Termijnwisselverrichtingen zijn vaststaande aankopen en verkopen van deviezen, waarvan de uitvoering wordt uitgesteld; de meest gebruikelijke termijnen waarvoor een notering bestaat zijn één, twee, drie en zes maanden. 
 
 In dit deel wordt de boekhoudkundige verwerking van termijnwisselverrichtingen behandeld die geen specifieke dekkingsverrichtingen zijn. Daarvoor wordt verwezen naar Deel VI. 
@@ -453,7 +430,6 @@ Het onderscheid in de toegepaste termijnkoers tussen de contantkoers en het repo
 Gelet daarop kunnen twee boekingswijzen worden toegepast. 
 
 #### VEREENVOUDIGE BOEKINGSWIJZE
-
 De termijnwisselverrichting wordt bij het sluiten van de overeenkomst in de rekeningen van de niet in de balans opgenomen rechten en verplichtingen geboekt tegen de koers van de termijnverrichting. Het prorata van het report/deport wordt slechts op balansdatum, voor de op dat ogenblik nog lopende verrichtingen, in de balansrekeningen opgevoerd. 
 
 Voorbeeld : 
@@ -463,7 +439,6 @@ Voorbeeld :
 - Termijnkoers : 3 maand : verkoper Report/Deport D 0,023 koers 6,295 
 
 ##### Het contract verstrijkt tijdens hetzelfde boekjaar
-
 Afsluiting van de termijnverrichting : 
 
 | | Rekening | Omschrijving | Debet | Credit |
@@ -497,7 +472,6 @@ Boeking :
 Bovendien wordt de boeking onder de verplichtingen (O-rekeningen) tegengeboekt. 
 
 ##### HET CONTRACT VERSTRIJKT NIET IN HETZELFDE BOEKJAAR :
-
 In dit geval moet het aan het einde van het boekjaar gelopen prorata van het report/deport in resultaat worden genomen en moeten de te ontvangen of te leveren deviezen[^12] worden herberekend tegen slotomrekeningskoers. 
 
 Voor de inventarisboekingen aan het einde van het boekjaar moet de onderneming dan ook een spoor bewaren van beide bestanddelen van de termijnkoers op grond waarvan de termijnverrichting is gesloten. 
@@ -514,7 +488,6 @@ Het volgende boekjaar wordt dit tegengeboekt.
 Om redenen van vereenvoudiging kan ook het onderscheid tussen beide bestanddelen van de koers van de termijnverrichting niet in aanmerking worden genomen, wanneer de koers waartegen de termijnverrichting wordt gesloten nauwelijks verschilt van de contantkoers van diezelfde dag. In dat geval hoeft voor het einde van het boekjaar lopende verrichtingen het report/deport niet afzonderlijk te worden geboekt. Bij de inventaris wordt dan de termijnkoers voor de te ontvangen of te leveren deviezen vergeleken met de slotkoers die een contantkoers is. Dit gebrek aan samenhang is slechts aanvaardbaar in zover de weerslag ervan beperkt blijft.
 
 #### EXHAUSTIEVE BOEKINGSWIJZE
-
 Wanneer de hiervoor beschreven vereenvoudigde boekingswijze niet passend is voor de aard en de omvang van het bedrijf van de onderneming[^13] dient zij de volgende werkwijze toe te passen waarbij de termijnwisselverrichtingen zonder risico voor distorsie en op een volledig coherente wijze worden verwerkt. 
 
 In deze boekingswijze zal een termijnwisselverrichting, gezien de twee bestanddelen van de termijnkoers, twee boekingen tot gevolg hebben[^14]: 
@@ -531,7 +504,6 @@ Voorbeeld :
 - Termijnkoers : 3 maand : verkoper Report/deport D 0,023 koers 6,295 
 
 ##### Boeking bij de afsluiting van de termijnverrichting
-
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 064 | Op termijn gekochte FRF
@@ -545,7 +517,6 @@ Voorbeeld :
 | aan | 756 | Diverse financiële opbrengsten | | 23.000 |
 
 ##### Proratering van het report/deport aan het einde van het boekjaar :
-
 Het niet gelopen pro rata van report of deport wordt uitgesteld via de overlopende rekeningen. Indien bij veronderstelling één maand verloopt tussen de datum van afsluiting van de termijnverrichting en het einde van het boekjaar wordt als volgt geboekt : 
 
 | | Rekening | Omschrijving | Debet | Credit |
@@ -560,7 +531,6 @@ Het volgende boekjaar worden de overgedragen opbrengsten uit het voorgaande boek
 aan 756 Diverse financiële opbrengsten 
 
 ##### Afwikkeling van de verrichting :
-
 Bij de afwikkeling van de verrichting worden de gekochte of geleverde deviezen in Belgische franken omgerekend volgens de geldende modaliteiten voor de omrekening van contant gekochte of geleverde deviezen.
 
 Zoals in laatstgenoemd geval zijn ook hier twee benaderingen mogelijk : 
@@ -600,9 +570,7 @@ In de rekeningen voor niet in de balans opgenomen rechten en verplichtingen word
 Vaak gebeurt het dat bij het afsluiten van een termijnwisselverrichting, in de overeengekomen of toegepaste koers geen onderscheid wordt gemaakt tussen de twee bestanddelen van de termijnkoers. In dit geval hoort de onderneming zelf dit onderscheid te maken. Rekening houdend met de grotere variabiliteit van de contantkoers dan van het report/deport, is het in dit geval raadzaam uit te gaan van het report/deport-bedrag zoals dit voortvloeit uit de noteringen en dit af te trekken van (op te tellen bij) de toegepaste koers om de contantkoers te bekomen.
 
 ## DEEL V. WISSELRISICO EN WISSELRISICODEKKING
-
 ### WISSELRISICO
-
 Bezit een onderneming een monetair actief uitgedrukt in een vreemde munt, dan wordt de tegenwaarde van dit actief in Belgische frank beïnvloed door het koersverloop van de betrokken munt, uitgedrukt in Belgische franken. Stijgt de koers van die munt tegenover de Belgische frank, dan stijgt de tegenwaarde in Belgische franken van dat actief, waardoor een potentiële "winst" ontstaat; als de koers van die munt daalt ten opzichte van de Belgische frank, daalt de tegenwaarde in Belgische franken van dat actief, waardoor een potentieel "verlies" ontstaat. Het omgekeerde doet zich voor in geval van schuldvorming in deviezen. In elk van die gevallen loopt de onderneming een wisselrisico op die munt door haar "positie" tegenover die munt. 
 
 Bezit een onderneming tegelijkertijd tegoeden en verplichtingen uitgedrukt in dezelfde munt en stemt het bedrag in deviezen van de in die munt uitgedrukte tegoeden overeen met het bedrag van de verplichtingen in die munt, dan wordt de tegenwaarde in Belgische franken van de tegoeden enerzijds en de verplichtingen anderzijds, wanneer men ze afzonderlijk beschouwt, beïnvloed door het koersverloop van de betrokken munt, zonder enige weerslag evenwel op het netto- vermogen. In dit geval loopt de onderneming geen risico. Zij bezit geen positie of een nulpositie op de betrokken munt[^19]. 
@@ -610,7 +578,6 @@ Bezit een onderneming tegelijkertijd tegoeden en verplichtingen uitgedrukt in de
 Is daarentegen het in deviezen uitgedrukte bedrag van de tegoeden in die valuta hoger of lager dan het bedrag van de verplichtingen in die valuta, dan heeft het koersverloop van de valuta een negatieve of positieve invloed - naar verhouding van het verschil - op het netto- vermogen van de onderneming. In dit geval heeft ze een wisselpositie : een "hausse-positie", als de tegoeden in die valuta groter zijn dan de verplichtingen in die valuta; een "baisse-positie" in het tegenovergestelde geval. 
 
 ### WISSELRISICODEKKING
-
 Heeft een onderneming een positie op een vreemde valuta, dan kan zij het verliesrisico dekken verbonden aan de voor haar ongunstige waardeschommelingen van de betrokken munt ten opzichte van de Belgische frank tussen de datum van de transactie en de datum van betaling van de in deze munt uitgedrukte vordering of schuld. Zo'n dekking geschiedt via een deviezenverrichting, waardoor een monetaire post ontstaat die in omgekeerde richting de weerslag ondergaat van een wisselkoersschommeling. Via een verrichting waardoor een monetaire post ontstaat met een tegengesteld teken, neutraliseert de onderneming de weerslag van een wisselkoersschommeling. Door een mogelijk wisselkoersverlies te vermijden maakt zij het evenwel tegelijkertijd onmogelijk een wisselwinst te realiseren. 
 
 De instabiliteit die de wisselmarkten typeert sinds het opgeven van het stelsel van vaste wisselkoersen heeft tot gevolg dat tal van ondernemingen vermijden een wisselkoersrisico te lopen en zich bijgevolg tegen de gevolgen van het koersverloop indekken.
@@ -618,7 +585,6 @@ De instabiliteit die de wisselmarkten typeert sinds het opgeven van het stelsel 
 Hierbij wordt een onderscheid gemaakt tussen verrichtingen bedoeld om specifieke monetaire posten te dekken en verrichtingen bedoeld om een wisselpositie in evenwicht te brengen. 
 
 #### Specifieke dekkingsverrichtingen
-
 Het gaat om dekkingsverrichtingen die specifiek verbonden zijn aan bepaalde posten in deviezen. Ze dienen om de koers waartegen een bepaalde vordering of schuld in deviezen zal worden terugbetaald, definitief vast te leggen. 
 
 De meest gebruikelijke dekkingsverrichtingen zijn : Dekking van het wisselrisico verbonden aan een vordering in deviezen : 
@@ -634,13 +600,11 @@ Dekking van het wisselrisico verbonden aan een schuld in deviezen :
 Via specifieke dekkingsverrichtingen verdwijnt het wisselrisico omdat economisch gezien een vordering of een schuld in Belgische franken in de plaats wordt gesteld van een vordering of een schuld in deviezen.
 
 #### Niet-specifieke dekkingsverrichtingen : het in evenwicht brengen van de wisselpositie
-
 Bezit een onderneming veel vorderingen en schulden in deviezen, dan kan het voorkomen dat haar niet meer bedoeld is om welbepaalde verrichtingen te dekken, maar wel om via één der voornoemde technieken de "positie" resulterend uit een geheel van vorderingen en schulden in deviezen te dekken. 
 
 In dit geval wordt het wisselrisico geneutraliseerd voor de toekomst. Een latere wisselkoersschommeling zal tegelijkertijd een (latente) winst op een monetaire post en een (latent) verlies op een monetaire post met een tegenovergesteld teken doen ontstaan. 
 
 ### NIET-SAMENVALLENDE VERVALDAGEN
-
 Tot nu toe werd de wisselpositie onderzocht zonder rekening te houden met het al dan niet samenvallen van de vervaldagen van tegoeden en verplichtingen in deviezen. 
 
 Hierna wordt de aard van het risico in geval van niet-samenvallende vervaldagen en de dekking hiervan onderzocht. 
@@ -677,7 +641,6 @@ De kost van de dekking - en derhalve de waardering van het risico - is gelijk aa
 In dit laatste geval zijn de tegoeden en verplichtingen in deviezen integraal gedekt, zowel voor het wisselrisico als voor het risico verbonden aan niet-samenvallende vervaldagen. 
 
 ## DEEL VI. DEVIEZENVERRICHTINGEN WAARAAN EEN SPECIFIEKE DEKKINGSVERRICHTING IS VERBONDEN
-
 Wanneer aan een deviezenverrichting een specifieke dekkingsverrichting is verbonden staat, zoals gezegd, de wisselkoers waartegen de vordering of de schuld zal worden terugbetaald, definitief vast. 
 
 Als een onderneming b.v. goederen ten belope van 100.000 DEM verkoop en de DEM op de vervaldag van haar vordering tegen de koers van 20,919 (termijnkoers) op de termijnmarkt verkoopt, is zij zeker op de vervaldag een bedrag van 2.091.000 BEF te ontvangen, wat de DEM-wisselkoers op dat ogenblik ook weze. 
@@ -713,11 +676,10 @@ Als een onderneming een materieel vast actief koopt voor 200.000 NLG betaalbaar 
 
 3. Dezelfde beginselen worden toegepast wanneer een onderneming het wisselrisico wil dekken verbonden aan vorderingen of schulden die nog niet zijn ontstaan maar waarvan het ontstaan als vaststaand wordt beschouwd. Bij voorbeeld, de dekking van het risico verbonden aan de intresten op langlopende schulden die tijdens daaropvolgende jaren zullen vervallen. In dit geval gaat de dekkingsverrichting de deviezenverrichting vooraf. In de logica van de beslissing van de onderneming kan die worden omgerekend tegen de koers van de dekkingsverrichting. 
 
-## DEEL VII. WAARDERING AAN HET EINDE VAN HET BOEKJAAR[^27]
+## DEEL VII. WAARDERING AAN HET EINDE VAN HET BOEKJAAR
  VAN NIET SPECIFIEK GEDEKTE TEGOEDEN EN VERPLICHTINGEN IN DEVIEZEN EN VERWERKING VAN DE OMREKENINGSVERSCHILLEN - ALGEMENE ASPECTEN
 
 ### WAARDERING
-
 Bestaan er aan het einde van het boekjaar nog tegoeden en/of verplichtingen in deviezen, dan zijn deze meestal - vóór de eindejaarsboekingen - tegen zeer verschillende omrekeningskoersen geboekt. In de inventaris moeten deze tegoeden en verplichtingen worden gewaardeerd voor de tegenwaarde in Belgische franken van de betrokken valuta. 
 
 Op internationaal vlak wordt in de jaarrekening voor de waardering van monetaire posten in deviezen algemeen aanvaard : 
@@ -739,7 +701,6 @@ Voor de monetaire balansposten geschiedt de herberekening in de hoofdrekeningen 
 De op grond van termijnwisselovereenkomsten te ontvangen deviezen en te leveren deviezen worden aan het einde van het boekjaar eveneens herberekend tegen contantslotkoers. Verschilt deze van de koers waartegen de betrokken munten oorspronkelijk waren geboekt dan wordt dit verschil in de balans uitgedrukt onder de diverse vorderingen (rekening 416) bij stijging van een op termijn te kopen munt of bij daling van een op termijn te leveren munt, en onder de diverse schulden (rekening 48(6)) in de tegenovergestelde gevallen.
 
 ### VERWERKING VAN DE OMREKENINGSVERSCHILLEN
-
 De herberekening tegen slotomrekeningskoers van tegoeden en verplichtingen in deviezen leidt tot positieve en negatieve omrekeningsverschillen : 
 
 - positieve omrekeningsverschillen, wanneer de slotomrekeningskoers hoger is dan de oorspronkelijke omrekeningskoers van de tegoeden in deviezen of lager is dan de oorspronkelijke omrekeningskoers van de verplichtingen in deviezen; 
@@ -821,7 +782,6 @@ Voorbeeld :
 - Betaling in 1987 van de schuld van 900 USD tegen 41,90 BEF : 37.710 
 
 ## Afsluiting van de verrichtingen
-
 1. Ontstaan van de vordering
 
 | | Rekening | Omschrijving | Debet | Credit |
@@ -911,7 +871,6 @@ Voorbeeld :
 | | 754 | Wisselresultaat | 540 | |
 
 ### INTEGRALE IN-RESULTAAT-NEMING VAN OMREKENINGSVERSCHILLEN
-
 Het onderscheid tussen wisselresultaten en omrekeningsverschillen en hun verschillende verwerking in de jaarrekening sluit aan bij het realisatiebeginsel zoals verwoord in de vierde richtlijn, namelijk : "Enkel op balansdatum gerealiseerde winsten mogen in aanmerking worden genomen", en bij het voorzichtigheidsbeginsel in artikel 19 van het besluit van 8 oktober 1976, zoals beide beginselen meestal worden uitgelegd en toegepast in België. 
 
 In een aantal landen en vooral in Angelsaksische landen wordt algemeen aanvaard en aanbevolen dat zowel positieve als negatieve omrekeningsverschillen in resultaat worden genomen. Er wordt daarbij van uitgegaan dat de deviezenmarkten zo omvangrijk en de transacties die daarop kunnen worden uitgevoerd, zo talrijk zijn, dat ondernemingen hun positie op gelijk welk ogenblik kunnen dekken en daardoor het omrekeningsverschil op die datum definitief kunnen maken. In dit geval wordt het begrip "gerealiseerd resultaat" uitgebreid tot de effectieve mogelijkheid om dit resultaat op korte termijn te realiseren. 
@@ -925,9 +884,7 @@ Hoewel de Commissie een duidelijke voorkeur handhaaft en een aanbeveling formule
 De keuze van dergelijke methode van onmiddellijke in-resultaat-neming van alle al dan niet gerealiseerde wisselverschillen mag niet gepaard gaan met de vorming van een voorziening wegens de onzekerheid van het uiteindelijke lot van de in resultaat genomen positieve omrekeningsverschillen. Het zou inderdaad incoherent zijn een positief resultaat als effectief uit te drukken en daarnaast het risico van niet- realisatie te provisioneren. Zulks verhindert niet dat voorzieningen worden gevormd in de gevallen bedoeld in deel IX, wanneer de onderneming een wisselpositie heeft. 
 
 ## DEEL VIII. WAARDERING VAN TEGOEDEN EN VERPLICHTINGEN IN DEVIEZEN - BIJZONDERE ASPECTEN
-
 ### VORDERINGEN EN SCHULDEN OP MIDDELLANGE EN LANGE TERMIJN
-
 Algemeen genomen is het aangewezen vorderingen en schulden in deviezen op middellange en lange termijn die niet specifiek zijn gedekt, om te rekenen tegen de slotkoers en de omrekeningsverschillen op die tegoeden en verplichtingen te verwerken overeenkomstig de beginselen van deel VII. Dat is in het bijzonder zo wanneer met een schuld in deviezen op middellange of lange termijn, tegoeden op korte, middellange of lange termijn in dezelfde munt overeenstemmen of wanneer met tegoeden in deviezen op middellange of lange termijn, verplichtingen op korte, middellange of lange termijn in dezelfde munt overeenstemmen. 
 
 Voorheen was het, bij gebrek aan een termijnmarkt voor de betrokken termijnen, praktisch onmogelijk het wisselrisico te dekken, verbonden aan een positie-uit-evenwicht op een bepaalde munt, die voortvloeide uit tegoeden of verplichtingen op middellange of lange termijn in deze munt. Dank zij de nieuwe financiële instrumenten die de laatste jaren zijn ontwikkeld en de uitbouw van de markten voor dergelijke instrumenten, kan tegenwoordig dit risico wel worden gedekt via een verrichting op deze markten. In dit geval zijn de beginselen uit voorgaand deel VI van toepassing. 
@@ -960,9 +917,7 @@ In casu rijst de vraag of de latente verliezen uit de koersstijging van de munt 
 In zover de - in dezelfde valuta luidende - opbrengsten uit deze activa voldoende vaststaan, leidt de toepassing van het beginsel van de overeenstemming tussen kosten en opbrengsten (*matching principle*) ertoe de negatieve omrekeningsverschillen op de schuld in resultaat te nemen over dezelfde periode als waarin de opbrengsten of inkomsten uit die activa in resultaat zullen worden genomen. De toepassing van dit beginsel kan voor de vlottende activa ertoe leiden dat hun boekwaarde wordt aangepast aan de stijging van de betrokken munt, voor deelnemingen in buitenlandse vennootschappen en investeringen in het buitenland, dat de negatieve omrekeningsverschillen op de schuldvorming slechts worden geboekt naarmate de opbrengsten uit deze vaste activa worden geïnd. Op dit ogenblik wenst de Commissie evenwel nog niet definitief stelling te nemen in verband met de leningen in deviezen aangegaan door centra van werkzaamheden in het buitenland of voor hun financiering, in de munt van het land van vestiging. Het lijkt haar inderdaad aangewezen de problemen in verband met de omrekening van dergelijke leningen te onderzoeken bij de verwerking van de financiële staten van in het buitenland gevestigde bijkantoren en centra van werkzaamheden in de jaarrekening van Belgische vennootschappen. Zoals hierboven vermeld zullen deze kwesties worden bestudeerd naar aanleiding van de aanpassing van het Belgisch recht aan de vereisten van de zevende EEG-richtlijn over de geconsolideerde jaarrekening. 
 
 ### VOORUITBETALINGEN
-
 #### Gestorte vooruitbetalingen
-
 *Rubrieken*
 
 - II Vooruitbetalingen op immateriële vaste activa (rekening 213) 
@@ -989,20 +944,17 @@ en niet voor : 1.000.000 x 20,80 = 20.800.000
 met verwezenlijking van een wisselwinst op de vooruitbetaling van 60.000. 
 
 #### Ontvangen vooruitbetalingen
-
 - VIII.C. Ontvangen vooruitbetalingen op bestellingen (rekening 176) 
 - IX.D. Ontvangen vooruitbetalingen op bestellingen (rekening 46) 
 
 Dezelfde regels zijn van toepassing op de ontvangen vooruitbetalingen : ze worden niet tegen de slotkoers geherwaardeerd. Als de vordering in deviezen waarop de vooruitbetaling betrekking heeft, in de jaarrekening voorkomt en tegen de slotkoers is omgerekend, wordt ze uiteraard slechts in aanmerking genomen voor haar beloop in deviezen na aftrek van de ontvangen vooruitbetaalde deviezen. 
 
 ### NIET-OPGEVRAAGDE BEDRAGEN OP AANDELEN IN VENNOOTSCHAPPEN NAAR BUITENLANDS RECHT
-
 Niet-opgevraagde bedragen op aandelen die tot de financiële of de vlottende activa behoren, staan per definitie in nauw verband met de aandelen waarop zij betrekking hebben. 
 
 Derhalve is de meest logische oplossing de deelnemingen en aandelen tegen hun aanschaffingswaarde te behouden en de nog te storten bedragen, zolang zij niet effectief worden opgevraagd, tegen hun oorspronkelijke omrekeningskoers te behouden. Worden zij opgevraagd, dan wordt tegelijkertijd met de overboeking van die bedragen van de post *Niet- opgevraagde bedragen* (rekeningen 2801-2821-2841 en 511) naar rekening 48.. *Overige schulden* de volstortingsverbintenis herberekend tegen de geldende omrekeningskoers op die dag. De tegenwaarde van het omrekeningsverschil wordt normaal toegerekend aan de aanschaffingswaarde van de betrokken financiële vaste activa of aandelen.
 
 ### VASTRENTENDE EFFECTEN IN DEVIEZEN
-
 Vastrentende effecten in deviezen zijn monetaire posten die volgens de hierboven geformuleerde regels moeten worden behandeld. 
 
 Als gevolg daarvan zullen aan het einde van het boekjaar de waardeverminderingen die eventueel moeten worden toegepast[^31] worden berekend op basis van de omrekeningskoers waartegen de betrokken effecten werden geboekt bij hun aanschaffing. 
@@ -1035,7 +987,6 @@ Diezelfde werkwijze dient te worden toegepast wanneer aan het einde van de perio
 Wanneer de onderneming zich evenwel doorlopend financiert door schuldvorming in rekening-courant, is deze lopende rekening niet alleen een betaalmiddel maar tevens een financieringsvorm. In dit geval is het verantwoord - voornamelijk wanneer aan deze schuld in rekening-courant een monetair actiefbestanddeel in dezelfde valuta beantwoordt - het gedeelte van het omrekeningsverschil dat op deze financieringsfunctie betrekking heeft, te behandelen overeenkomstig de algemene beginselen beschreven in deel VII, B. Ook wanneer een deel van het zichttegoed in vreemde valuta bij een kredietinstelling gevormd is met het oog op een betaling in dezelfde valuta kort na het einde van de periode, kan het verantwoord zijn dit gedeelte overeenkomstig de beginselen beschreven in deel VII, B te behandelen.
 
 ### ONTVANGEN BESTELLINGEN (VERKOOP) - GEPLAATSTE BESTELLINGEN (INKOOP)
-
 Wanneer de prijs van ontvangen of geplaatste bestellingen in deviezen is uitgedrukt, ontstaat daaruit een wisselrisico voor de onderneming.
 
 Wordt het wisselrisico verbonden aan een welbepaalde bestelling, specifiek gedekt, dan moet de schuld of de vordering daaruit na uitvoering van die bestelling alsook haar tegenwaarde, met toepassing van voornoemd beginsel (deel VI), worden omgerekend tegen de koers van de dekkingsverrichting. De bedongen prijs voor de bestelling en voor de specifieke dekkingsverrichting blijft in dit geval, overeenkomstig de beginselen met betrekking tot de specifiek gedekte verrichtingen, ongewijzigd en wordt niet herberekend.
@@ -1044,7 +995,6 @@ Is het wisselrisico verbonden aan een welbepaalde bestelling niet specifiek gede
 
 ANDERE VERPLICHTINGEN DIE NIET IN DE BALANS ZIJN OPGENOMEN :
 ## EENZIJDIGE VERPLICHTING TOT AAN-/VERKOOP VAN VASTE ACTIVA
-
 Krachtens het koninklijk besluit van 12 september 1983 over het algemeen rekeningenstelsel moeten dergelijke verplichtingen in de boekhouding worden opgenomen. Wanneer de bedongen prijs van de aankoop of verkoop van die vaste activa in deviezen is uitgedrukt, loopt de onderneming een potentieel wisselrisico, maar dit wisselrisico bestaat pas effectief als de tegenpartij de optie licht.
 
 Deze verplichting zal dan ook in de jaarrekening worden opgenomen ten belope van haar tegenwaarde tegen slotkoers. In beginsel hoeft er geen wisselresultaat te worden geboekt.
@@ -1052,7 +1002,6 @@ Deze verplichting zal dan ook in de jaarrekening worden opgenomen ten belope van
 Indien nochtans de - tegen slotkoers omgerekende - prijs waartegen een onderneming er zich eenzijdig toe verbonden heeft een vast actief te kopen, hoger is dan de economische nuttigheidswaarde van het betrokken actief, of indien de prijs waartegen een onderneming er zich eenzijdig toe verbonden heeft een vast actief te verkopen, lager is dan de boekwaarde van het betrokken vast actief, zal bij de vorming van de voorziening wegens het risico verbonden aan die verplichtingen, rekening moeten worden gehouden met het bedrag van de bedongen prijs, omgerekend tegen slotkoers. 
 
 ## PERS./ZAK. ZEKERH. ALS WAARBORG VOOR VERPL. VAN DERDEN
-
 Persoonlijke of zakelijke zekerheden in deviezen gesteld als waarborg voor verplichtingen van derden 
 
 Ook in dit geval zal de verplichting tegen de slotkoers in de boekhouding worden verwerkt zonder een wisselresultaat te moeten boeken. Die verplichtingen komen niet in aanmerking voor de berekening van de wisselpositie.
@@ -1060,7 +1009,6 @@ Ook in dit geval zal de verplichting tegen de slotkoers in de boekhouding worden
 Bij de vorming van een eventuele voorziening voor het risico verbonden aan die waarborg wordt rekening gehouden met de waardering van de schuld of van de verplichting berekend tegen de slotkoers.
 
 ## DEEL IX. RISICO'S VERBONDEN AAN WISSELPOSITIES
-
 Krachtens artikel 19, vijfde lid van het besluit van 8 oktober 1976 moeten voorzieningen, onder meer, worden gevormd met het oog op de verliesrisico's die voortvloeien uit posities in deviezen.
 
 Gezien de huidige mogelijkheden op de markt kan elk wisselrisico worden gedekt, althans voor munten met een ruime markt en die vrij converteerbaar zijn. Loopt nu een onderneming op een gegeven datum (en inzonderheid aan het einde van een boekjaar) een wisselrisico - met andere woorden, zijn haar tegoeden en verplichtingen in een welbepaalde munt, uitgedrukt in die munt, niet in evenwicht, zomin wat hun bedrag als hun vervaldag betreft - dan mag men er algemeen genomen ook van uitgaan dat zij het daaraan verbonden risico bewust draagt.

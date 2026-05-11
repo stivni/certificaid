@@ -3,45 +3,41 @@ bron: https://www.cbn-cnc.be/nl/adviezen/vergoeding-van-kredieturen-door-de-rsz
 datum: 1977-08-01
 nummer: CBN-advies 105/4
 provenance:
-  generated_at: '2026-05-11T15:15:31Z'
+  generated_at: '2026-05-11T17:48:38Z'
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/vergoeding-van-kredieturen-door-de-rsz
-    sha256: 298792d8b39493cc3fa85316d30da0f9dfa04d6622e8ee390bf846eb246272db
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/vergoeding-van-kredieturen-door-de-rsz
+      sha256: 298792d8b39493cc3fa85316d30da0f9dfa04d6622e8ee390bf846eb246272db
+      version:
   stale: false
-  stale_reason: null
+  stale_reason:
   tooling:
-    model: null
+    model:
     pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    prompt_version: null
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
     confirmed_at: '2026-05-11T11:57:45Z'
     confirmed_by: subagent-sonnet-4-6
     layer1:
-      file_size_chars: 766
-      flags: []
+      status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:40Z'
       heading_count: 0
       max_section_chars: 766
-      run_at: '2026-05-11T15:05:47Z'
-      run_id: 20260511-150547
-      status: pass
+      file_size_chars: 766
+      flags: []
     layer2:
       agent: subagent-sonnet-4-6
       concrete_problemen: []
-      rationale: Bestand is zeer kort (766 chars, 2 alinea's) maar dat correspondeert
-        correct met de inhoud van dit korte advies. Geen artefacten, geen unicode-issues,
-        frontmatter consistent.
+      rationale: Bestand is zeer kort (766 chars, 2 alinea's) maar dat correspondeert correct met de inhoud van dit korte advies. Geen artefacten, geen unicode-issues, frontmatter consistent.
       run_at: '2026-05-11T11:57:45Z'
       status: trusted
-    rationale: Bestand is zeer kort (766 chars, 2 alinea's) maar dat correspondeert
-      correct met de inhoud van dit korte advies. Geen artefacten, geen unicode-issues,
-      frontmatter consistent.
+    rationale: Bestand is zeer kort (766 chars, 2 alinea's) maar dat correspondeert correct met de inhoud van dit korte advies. Geen artefacten, geen unicode-issues, frontmatter consistent.
     status: trusted
 themas:
-- vergoeding van kredieturen
-- financiering van kredieturen
-- kredieturen
+  - vergoeding van kredieturen
+  - financiering van kredieturen
+  - kredieturen
 ---
 
 # CBN-advies 105/4 - Vergoeding van kredieturen door de RSZ

@@ -3,53 +3,53 @@ bron: https://www.cbn-cnc.be/nl/adviezen/aanvullende-aspecten-in-verband-met-de-
 datum: 1999-02-01
 nummer: CBN-advies 173/8
 provenance:
+  generated_at: '2026-05-11T17:48:38Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/aanvullende-aspecten-in-verband-met-de-boekhoudkundige-verwerking-van
       sha256: 878ca1049fadc02cc82f266a5b5ad4227e34e1134ca9e1336da3f1a305b8c127
       version:
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
-    status: needs-rework
     confirmed_at: '2026-05-11T17:05:21Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "Meerdere ETL-artefacten bevestigd: G2 r.167: 'Handelsdebiteuren/ TD>' bevat een doorgelekt HTML-tag-fragment. E2 r.124-126: een losstaande '|' op r.124 staat vóór de '## Balans in BEF'-heading als een weesopeningsteken van een pseudo-tabel. B2 r.147/162: '## A. Afsluiting...' en '## B. (Her)opening...' zijn als ##-headings gezet voor subonderdelen van één enkel voorbeeld — te zwaar headin-niveau (men zou ### gebruiken). A6 r.179-181: 'of een gedeelte' eindigt zonder leesteken gevolgd door een lege regel voor 'ervan ook de mogelijkheid...'."
     layer1:
-      file_size_chars: 16261
-      flags: []
-      heading_count: 6
-      max_section_chars: 7454
-      run_at: '2026-05-11T15:05:49Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:42Z'
+      heading_count: 7
+      max_section_chars: 6519
+      file_size_chars: 16249
+      flags: []
     layer2:
-      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T17:05:21Z'
-      rationale: "Meerdere ETL-artefacten bevestigd: G2 r.167: 'Handelsdebiteuren/ TD>' bevat een doorgelekt HTML-tag-fragment. E2 r.124-126: een losstaande '|' op r.124 staat vóór de '## Balans in BEF'-heading als een weesopeningsteken van een pseudo-tabel. B2 r.147/162: '## A. Afsluiting...' en '## B. (Her)opening...' zijn als ##-headings gezet voor subonderdelen van één enkel voorbeeld — te zwaar headin-niveau (men zou ### gebruiken). A6 r.179-181: 'of een gedeelte' eindigt zonder leesteken gevolgd door een lege regel voor 'ervan ook de mogelijkheid...'."
       concrete_problemen:
-        - regel: 167
-          categorie: G2
+        - categorie: G2
+          regel: 167
           type: other
           voorbeeld: '| | 400 | Handelsdebiteuren/ TD> | 10,61 | |'
-        - regel: 124
-          categorie: E2
+        - categorie: E2
+          regel: 124
           type: pseudo-table
           voorbeeld: "| \n\n## Balans in BEF op 30/4/99"
-        - regel: 147
-          categorie: B2
+        - categorie: B2
+          regel: 147
           type: other
           voorbeeld: '## A. Afsluiting van de boekhouding in BEF (## voor subonderdeel van voorbeeld)'
-        - regel: 179
-          categorie: A6
+        - categorie: A6
+          regel: 179
           type: other
           voorbeeld: "Ondernemingen naar Belgisch recht hebben tijdens de gehele duur van de overgangsperiode of een gedeelte \n\nervan ook de mogelijkheid..."
+      rationale: 'Meerdere ETL-artefacten bevestigd: G2 r.167: ''Handelsdebiteuren/ TD>'' bevat een doorgelekt HTML-tag-fragment. E2 r.124-126: een losstaande ''|'' op r.124 staat vóór de ''## Balans in BEF''-heading als een weesopeningsteken van een pseudo-tabel. B2 r.147/162: ''## A. Afsluiting...'' en ''## B. (Her)opening...'' zijn als ##-headings gezet voor subonderdelen van één enkel voorbeeld — te zwaar headin-niveau (men zou ### gebruiken). A6 r.179-181: ''of een gedeelte'' eindigt zonder leesteken gevolgd door een lege regel voor ''ervan ook de mogelijkheid...''.'
+      run_at: '2026-05-11T17:05:21Z'
+      status: needs-rework
+    rationale: 'Meerdere ETL-artefacten bevestigd: G2 r.167: ''Handelsdebiteuren/ TD>'' bevat een doorgelekt HTML-tag-fragment. E2 r.124-126: een losstaande ''|'' op r.124 staat vóór de ''## Balans in BEF''-heading als een weesopeningsteken van een pseudo-tabel. B2 r.147/162: ''## A. Afsluiting...'' en ''## B. (Her)opening...'' zijn als ##-headings gezet voor subonderdelen van één enkel voorbeeld — te zwaar headin-niveau (men zou ### gebruiken). A6 r.179-181: ''of een gedeelte'' eindigt zonder leesteken gevolgd door een lege regel voor ''ervan ook de mogelijkheid...''.'
+    status: needs-rework
 themas:
   - verwerking van afrondingsverschillen
   - afronding
@@ -69,14 +69,11 @@ Het leek de Commissie daarom aangebracht om, in de vorm van een samenvatting, de
 
 - Allereerst moet worden gewezen op het feit dat de regels inzake omrekening in euro of in Belgische frank van te betalen of te boeken geldbedragen die in Belgische frank of in euro zijn uitgedrukt, verplichtend geregeld zijn in, enerzijds de artikelen 4 en 5 van de Verordening van de Raad van Europa van 17 juni 1997 over de vaststelling van sommige bepalingen betreffende de invoering van de euro en, anderzijds, de artikelen 3, 4 en 6 van de wet van 30 oktober 1998 betreffende de euro. 
 
-## Artikel 3 van de wet betreffende de euro bepaalt dat "de te betalen of te boeken geldbedragen die in Belgische frank zijn uitgedrukt en in euro worden omgerekend, bij omrekening in euro worden afgerond op de tweede decimaal, overeenkomstig de artikelen 4 en 5 van de verordening van de Europese Raad van 17 juni 1997 over enkele bepalingen betreffende de invoering van de euro"[^1]. 
-
+## Artikel 3 van de wet betreffende de euro bepaalt dat "de te betalen of te boeken geldbedragen die in Belgische frank zijn uitgedrukt en in euro worden omgerekend, bij omrekening in euro worden afgerond op de tweede decimaal, overeenkomstig de artikelen 4 en 5 van de verordening van de Europese Raad van 17 juni 1997 over enkele bepalingen betreffende de invoering van de euro".
 ## Artikel 4 van dezelfde wet bepaalt dat "elk te betalen of te boeken geldbedrag dat in euro is uitgedrukt en moet worden omgerekend in Belgische frank, wordt omgerekend overeenkomstig artikel 4 van de bovenbedoelde Europese verordening en, na omrekening, wordt afgerond op de frank naar boven of naar beneden, naargelang het bedrag na de komma hoger of gelijk is aan vijftig centiemen, enerzijds, of lager dan vijftig centiemen, anderzijds".
-
 Artikel 6 van dezelfde wet bepaalt dat "het vastgestelde verschil van één cent tussen het oorspronkelijke bedrag van een in euro uitgedrukte vordering en het resultaat van de opeenvolgende omrekening van die vordering in frank en, nadien, in euro, geen weerslag heeft op het bevrijdende karakter van de betaling of de nauwkeurigheid van de boeking van de oorspronkelijke vordering op rekening, wanneer dat verschil voortvloeit uit de normale toepassing van de in de artikelen 4 en 5 van de bovenbedoelde verordening omschreven voorschriften voor omrekening en afronding. Dat verschil geeft geen aanleiding tot vergoeding". 
 
 ## Die verschillende voorschriften maakten trouwens al in november 1997 het voorwerp uit van een publicatie van het Commissariaat-generaal voor de euro met als titel: "Aanbevelingen betreffende omrekeningen en afrondingen".
-
 - In dat kader is de Commissie van oordeel dat een onderscheid moet worden gemaakt tussen, enerzijds, de problematiek van de overschakeling van de boekhouding van de Belgische frank op de euro en, anderzijds, de verwerking van de afrondingsverschillen bij conversie die zich voordoen tijdens de overgangsperiode, (gaande van 1 januari 1999 tot uiterlijk 31 december 2001) omwille van het feit dat een onderneming verrichtingen zou afsluiten of doorvoeren in een andere monetaire uitdrukking dan BEF of EUR waarin zij haar boekhouding voert. 
 
 I.v.m. de verwerking van afrondingsverschillen bij conversie ingevolge de overschakeling van de boekhouding op de euro
@@ -124,8 +121,7 @@ Vennootschap A besluit haar boekhouding op 1 mei 1999 op de euro over te schakel
 | 
 
 ## Balans in BEF op 30/4/99
-
- | | **Tegenwaarde in EUR, afgerond op de 2de decimaal** | 
+  | | **Tegenwaarde in EUR, afgerond op de 2de decimaal** | 
 |---|---|
 | 100 | | Kapitaal | | | | 150 | | | | 3,72 | 
 | 2210 | | Gebouwen | | 1207 | | | | 29,92 | | | 
@@ -143,9 +139,7 @@ Vennootschap A besluit haar boekhouding op 1 mei 1999 op de euro over te schakel
 | | | | | *2871* | | *2871* | | *71,17* | | *71,18* | 
 
 ### Overschakeling van de boekhouding op de euro op 1/5/99
-
 ## A. Afsluiting van de boekhouding in BEF
-
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 100 | Kapitaal | 150 | |
@@ -160,7 +154,6 @@ Vennootschap A besluit haar boekhouding op 1 mei 1999 op de euro over te schakel
 | | 6302 | Afschrijvingen op materiële vaste activa | 48 | |
 
 ## B. (Her)opening van de boekhouding in EUR
-
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 2200 | Gebouwen | 29,92 | |

@@ -16,41 +16,41 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/bouwwerken-op-andermans-grond
 nummer: CBN-advies 2021/05
 provenance:
+  generated_at: '2026-05-11T17:48:39Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudrechtelijke-behandeling-van-kwijtschelding-van-huur-ten-gevolge-van-de-covid-19
       sha256: a6a835235f4de2ac37139702cfe01c84e595a9ff09f053496214f4c98aaa6179
       version:
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T15:15:32Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
-    status: needs-rework
     confirmed_at: '2026-05-11T17:13:30Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "D4: Regel 78 bevat 'rekening 744 *Huuropbrengsten *of rekening 70 *Omzet[^2] *' waarbij spaties staan vóór de sluit-asterisken van beide italic spans — het voetnootmarker [^2] doorkruist de tweede italic-span en injecteert een spatie. Geïsoleerd extractie-artefact; rest van het document is inhoudelijk volledig en correct gestructureerd met 7 headings en 3 voetnootdefinities."
     layer1:
-      file_size_chars: 10492
-      flags: []
-      heading_count: 7
-      max_section_chars: 2238
-      run_at: '2026-05-11T15:05:54Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:45Z'
+      heading_count: 7
+      max_section_chars: 2237
+      file_size_chars: 10485
+      flags: []
     layer2:
-      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T17:13:30Z'
-      rationale: "D4: Regel 78 bevat 'rekening 744 *Huuropbrengsten *of rekening 70 *Omzet[^2] *' waarbij spaties staan vóór de sluit-asterisken van beide italic spans — het voetnootmarker [^2] doorkruist de tweede italic-span en injecteert een spatie. Geïsoleerd extractie-artefact; rest van het document is inhoudelijk volledig en correct gestructureerd met 7 headings en 3 voetnootdefinities."
       concrete_problemen:
-        - regel: 78
-          categorie: D4
+        - categorie: D4
+          regel: 78
           type: other
           voorbeeld: rekening 744 *Huuropbrengsten *of rekening 70 *Omzet[^2] * wordt gecrediteerd
+      rationale: 'D4: Regel 78 bevat ''rekening 744 *Huuropbrengsten *of rekening 70 *Omzet[^2] *'' waarbij spaties staan vóór de sluit-asterisken van beide italic spans — het voetnootmarker [^2] doorkruist de tweede italic-span en injecteert een spatie. Geïsoleerd extractie-artefact; rest van het document is inhoudelijk volledig en correct gestructureerd met 7 headings en 3 voetnootdefinities.'
+      run_at: '2026-05-11T17:13:30Z'
+      status: needs-rework
+    rationale: 'D4: Regel 78 bevat ''rekening 744 *Huuropbrengsten *of rekening 70 *Omzet[^2] *'' waarbij spaties staan vóór de sluit-asterisken van beide italic spans — het voetnootmarker [^2] doorkruist de tweede italic-span en injecteert een spatie. Geïsoleerd extractie-artefact; rest van het document is inhoudelijk volledig en correct gestructureerd met 7 headings en 3 voetnootdefinities.'
+    status: needs-rework
 themas:
   - Huur
   - COVID-19
@@ -66,26 +66,22 @@ themas:
 # CBN-advies 2021/05 - Boekhoudrechtelijke behandeling van kwijtschelding van huur ten gevolge van de COVID-19-pandemie
 
 ## Inleiding
-
 De Commissie voor boekhoudkundige normen ontving meerdere vragen rond de boekhoudrechtelijke behandeling van een al dan niet gedeeltelijke kwijtschelding van huur die gegeven wordt door de verhuurder aan de huurder omwille van de COVID-19-pandemie.
 
 In onderhavig advies tracht de Commissie een antwoord te bieden op de ontvangen vragen. Na de boekhoudkundige verwerking van huurgelden kort in herinnering te hebben gebracht, behandelt de Commissie de toepasselijkheid van CBN-advies 2012/2 – *De boekhoudkundige verwerking van toegekende voordelen bij het afsluiten van een huurovereenkomst* in het geval van de kwijtschelding van huur ten gevolge van de COVID-19-pandemie. Vervolgens wordt de boekhoudkundige verwerking besproken van tijdelijke niet-betaling van vergoedingen bij een leasingcontract. Tot slot wordt de impact besproken van de tussen de partijen gesloten overeenkomst op de waarderingsregels, alsook de toepassing van het voorzichtigheidsbeginsel.
 
 ## Boeking van huurgelden
-
 De Commissie brengt in herinnering dat de boekhoudkundige verwerking van huurgelden die niet kwalificeren als een boekhoudrechtelijke financiële leasing over het algemeen gebeurt via de resultatenrekening:
 
 - in hoofde van de verhuurder: rekening 744 *Huuropbrengsten* of rekening 70 *Omzet[^2]* wordt gecrediteerd ten belope van het bedrag van de huur en rekening 550 *Kredietinstellingen: Rekening-courant* wordt gedebiteerd ten belope van hetzelfde bedrag; 
 - in hoofde van de huurder: rekening 610 *Huur en huurlasten* wordt gedebiteerd ten belope van het bedrag van de huur en rekening 550 *Kredietinstellingen: Rekening-courant* wordt gecrediteerd ten belope van hetzelfde bedrag. 
 
 ## Toepasselijkheid CBN-advies 2012/2
-
 De vraag die hier gesteld wordt, is of voormeld CBN-advies 2012/2 van toepassing is. De Commissie stelt in dat advies enerzijds dat de verhuurder de totale kost verbonden aan de aan de huurder toegekende voordelen gedurende de huurperiode lineair (tenzij een andere systematische basis representatief is voor het tijdspatroon volgens hetwelk de opbrengsten van het gehuurde actief afnemen) in resultaat dient op te nemen als een vermindering van de huuropbrengsten. Anderzijds stelt de Commissie dat de huurder de opbrengst verbonden aan de toegekende voordelen gedurende de huurperiode lineair (tenzij een andere systematische basis representatief is voor het tijdspatroon volgens hetwelk de kost van het gehuurde actief afneemt) in resultaat zal boeken als een vermindering van de huurkosten.
 
 De Commissie wil vooreerst benadrukken dat CBN-advies 2012/2 de situatie schetst waarbij de verhuurder in een onderhandelingsfase bij een nieuwe huurovereenkomst of bij een verlenging van een bestaande huurovereenkomst de betrokken voordelen eerder vanuit een commercieel oogpunt voorziet om een overeenkomst te kunnen afsluiten. In het kader van de COVID-19-pandemie gaat het zo goed als steeds om een bestaande overeenkomst waarbij de huurder niet in de mogelijkheid is zijn verplichtingen minstens tijdelijk na te komen. De kwijtschelding van huur die op dat ogenblik door de verhuurder aan de huurder wordt toegestaan, is veelal ingegeven uit bittere noodzaak vanuit liquiditeitsperspectief bij de huurder. Dergelijke kwijtschelding zal in veel gevallen mede gebeuren omwille van het feit dat het gehuurde onroerend of roerend goed voor een significante tijd niet kan gebruikt worden door de huurder. Wat bijvoorbeeld het geval is bij een huurovereenkomst voor een gebouwd onroerend goed door de verplichte sluiting van de winkels. Dit zijn factoren die niets te maken hebben met het commercieel onderhandelen van een nieuw huurcontract of de verlenging van een bestaand huurcontract. Evident is dergelijk commercieel motief ook afwezig wanneer de niet-betaling zou voortvloeien uit een rechterlijke beslissing waarbij door de rechter kwijtschelding wordt gegeven van een huursom. CBN-advies 2012/2 is in deze dus niet van toepassing.
 
 ## Boekhoudkundige verwerking van de kwijtschelding van huur
-
 De Commissie is op basis van de bovenstaande argumenten de mening toegedaan dat noch de verhuurder, noch de huurder de mindere huur dienen te spreiden als respectievelijk een kost of een opbrengst in de tijd. De kwijtschelding kadert niet in een commerciële onderhandeling maar is gemotiveerd door het bestaan van overmacht als gevolg van de COVID-19-pandemie. 
 
 De boekhoudkundige verwerking van de kwijtschelding van huur zal logischerwijs afhangen van de voorwaarden die werden opgenomen in de overeenkomst tussen de verhuurder en de huurder[^3].
@@ -99,7 +95,6 @@ In geval van huurvermindering zal enkel de verminderde huur worden geboekt in ho
 In bepaalde gevallen kan de verhuurder het toekennen van een kwijtschelding aan bepaalde voorwaarden onderwerpen. Zo kan er worden overeengekomen dat de kwijtschelding pas definitief is indien de huurder zich er toe verbindt de huur niet op te zeggen vóór het einde van de looptijd. De Commissie is van oordeel dat de in de vorige paragraaf beschreven werkwijze hier ook zou moeten kunnen worden toegepast: zo wordt er rekening gehouden met de effectief betaalde huur. Er zal echter moeten worden toegezien op het feit dat de voorwaardelijkheid van de kwijtschelding wordt vermeld in de toelichting.
 
 ## Boekhoudkundige verwerking van de tijdelijke niet-betaling van leasevergoedingen
-
 Naar de mening van de Commissie moet er een onderscheid gemaakt worden tussen operationele en financiële leasing. 
 
 Bij operationele leasing blijft het in leasing gegeven actief op de balans staan van de leasinggever, die de door de leasingnemer betaalde vergoedingen in opbrengsten boekt. De leasingnemer boekt de vergoedingen op een kostenrekening. Het contract heeft enkel gevolgen voor de resultatenrekening en heeft daardoor veel weg van een eenvoudig huurcontract. Bijgevolg is de boekhoudkundige verwerking zoals opgenomen in vorig punt eveneens van toepassing bij operationele leasing. Ook ingeval de opschorting van betaling gedurende een aantal maanden werd gekoppeld aan een verlenging van het contract met eenzelfde periode (bv. drie maanden), zal tijdens de periode van opschorting door respectievelijk de leasinggever of de leasingnemer geen huuropbrengst of huurkost worden geboekt.
@@ -109,11 +104,9 @@ Bij een financiële leasing waarbij het actief op de balans staat van de leasing
 Zo zal wanneer gedurende drie maanden geen huur moet worden betaald (beperkt tot de hoofdsom) maar de looptijd van het leasingcontract met eenzelfde termijn wordt verlengd, de betaling van deze drie maanden huur (beperkt tot de hoofdsom) dus worden uitgesteld, hetgeen een herclassificatie van de schuld op korte of lange termijn inhoudt. Het aandeel van de interesten in de drie maanden huur blijft verschuldigd. Deze boekhoudkundige verwerking geldt zowel voor de leasinggever als voor de leasingnemer.
 
 ## Waarderingsregels
-
 Het komt daarbij aan het bestuursorgaan van de verhuurder toe na te gaan of de waarderingsregels voor het betrokken immaterieel of materieel actief al dan niet herzien moeten worden conform artikel 3:39, § 1, tweede lid of artikel 3:42, § 1, tweede lid van het koninklijk besluit tot uitvoering van het Wetboek van vennootschappen en verenigingen (hierna: KB WVV). Deze bepalingen schijven voor dat voor de bedoelde vaste activa wordt overgegaan tot aanvullende of niet-recurrente afschrijvingen wanneer, ingevolge hun technische ontwaarding of wegens de wijziging van economische of technologische omstandigheden, hun boekhoudkundige waarde hoger is dan hun gebruikswaarde voor de vennootschap, VZW, IVZW of stichting.
 
 ## Voorzichtigheidsbeginsel
-
 Specifiek voor de verhuurder wil de Commissie nog benadrukken dat er ingevolge art. 3:11, tweede lid KB WVV rekening moet worden gehouden met de opbrengsten die betrekking hebben op het boekjaar of op voorgaande boekjaren, ongeacht de dag waarop deze kosten en opbrengsten worden betaald of geïnd, behalve indien de effectieve inning van deze opbrengsten onzeker is. Indien ten gevolge van de COVID-19-pandemie opbrengsten bij de verhuurder onzeker zijn, dient het bestuursorgaan van de onderneming immers te evalueren of deze kunnen erkend worden of erkend blijven. Zoals bepaald in randnummer 9 van CBN-advies 2012/17 - *Erkenning van opbrengsten en kosten* staat het de onderneming vrij wanneer op basis van de criteria van voorzichtigheid, oprechtheid en goede trouw de effectieve inning van een opbrengst, bij aanvang en integraal, onzeker is, de opbrengst niet in resultaat te nemen zolang de effectieve inning onzeker blijft. Dezelfde opbrengst mag echter ook als resultaat worden geboekt waarbij in dat geval voor de onzekerheid omtrent de inning een waardevermindering zal worden geboekt ten laste van de resultatenrekening.
 
 [^1]: Onderhavig advies is tot stand gekomen nadat het ontwerpadvies op 5 februari 2021 ter publieke consultatie werd gepubliceerd op de website van de CBN.

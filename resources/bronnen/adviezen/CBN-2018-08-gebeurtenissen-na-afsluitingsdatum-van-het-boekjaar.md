@@ -13,49 +13,49 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/berekening-criteria-artikel-15-wvenn
 nummer: CBN-advies 2018/08
 provenance:
+  generated_at: '2026-05-11T17:48:39Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/gebeurtenissen-na-afsluitingsdatum-van-het-boekjaar
       sha256: 74a69f07fac32c70f0adfdc99ef68a659721a0189c87dfc139b990f3ab6fae9f
       version:
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
-    status: needs-rework
     confirmed_at: '2026-05-11T17:13:30Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "C2/A6: de genummerde opsomming (punten 1-8, regels 108-145) is niet als markdown-lijst opgemaakt — elk item staat als een getal gevolgd door lege regel en tekst met tab-inspringing, wat geen standaard markdown-lijst is (zou '1. tekst' moeten zijn). E2: voorbeeld-blok op regels 167-177 bevat het '| \\n\\n*Voorbeeld*\\n\\n  |' scraper-artefact."
     layer1:
-      file_size_chars: 21547
-      flags: []
-      heading_count: 4
-      max_section_chars: 8553
-      run_at: '2026-05-11T15:05:53Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:44Z'
+      heading_count: 4
+      max_section_chars: 8552
+      file_size_chars: 21543
+      flags: []
     layer2:
-      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T17:13:30Z'
-      rationale: "C2/A6: de genummerde opsomming (punten 1-8, regels 108-145) is niet als markdown-lijst opgemaakt — elk item staat als een getal gevolgd door lege regel en tekst met tab-inspringing, wat geen standaard markdown-lijst is (zou '1. tekst' moeten zijn). E2: voorbeeld-blok op regels 167-177 bevat het '| \\n\\n*Voorbeeld*\\n\\n  |' scraper-artefact."
       concrete_problemen:
-        - regel: 108
-          categorie: C2
+        - categorie: C2
+          regel: 108
           type: other
           voorbeeld: "1. \n\nHet bepalen, ten gevolge van een gebeurtenis na afsluitingsdatum..."
-        - regel: 121
-          categorie: C2
+        - categorie: C2
+          regel: 121
           type: other
           voorbeeld: "2. \n\nDe minnelijke schikking voor een geschil..."
-        - regel: 167
-          categorie: E2
+        - categorie: E2
+          regel: 167
           type: pseudo-table
           voorbeeld: "| \n\n*Voorbeeld*\n\n  |"
+      rationale: 'C2/A6: de genummerde opsomming (punten 1-8, regels 108-145) is niet als markdown-lijst opgemaakt — elk item staat als een getal gevolgd door lege regel en tekst met tab-inspringing, wat geen standaard markdown-lijst is (zou ''1. tekst'' moeten zijn). E2: voorbeeld-blok op regels 167-177 bevat het ''| \n\n*Voorbeeld*\n\n  |'' scraper-artefact.'
+      run_at: '2026-05-11T17:13:30Z'
+      status: needs-rework
+    rationale: 'C2/A6: de genummerde opsomming (punten 1-8, regels 108-145) is niet als markdown-lijst opgemaakt — elk item staat als een getal gevolgd door lege regel en tekst met tab-inspringing, wat geen standaard markdown-lijst is (zou ''1. tekst'' moeten zijn). E2: voorbeeld-blok op regels 167-177 bevat het ''| \n\n*Voorbeeld*\n\n  |'' scraper-artefact.'
+    status: needs-rework
 themas:
   - balansdatum
   - afsluitdatum
@@ -70,7 +70,6 @@ themas:
 # CBN-advies 2018/08 – Gebeurtenissen na afsluitingsdatum van het boekjaar
 
 ## Inleiding
-
 Met onderhavig advies beoogt de Commissie voor Boekhoudkundige Normen de boekhoudkundige gevolgen te verduidelijken van de gebeurtenissen die zich hebben voorgedaan na afsluitingsdatum van het boekjaar.[^2] 
 
 De Commissie analyseert in het bijzonder het nieuwe punt E. uit de rubriek XVII van afdeling A in artikel 91 KB W.Venn., dat werd ingevoerd bij de omzetting van Richtlijn 2013/34/EU[^3] door het koninklijk besluit van 18 december 2015[^4]. Dit nieuwe punt voorziet dat de toelichting van het volledig schema onder de rubriek van de niet in de balans opgenomen rechten en verplichtingen[^5], het volgende moet bevatten: “*de aard en de financiële gevolgen van materiële gebeurtenissen die zich na balansdatum hebben voorgedaan en die niet in de resultatenrekening of balans worden weergegeven*”.
@@ -92,7 +91,6 @@ Informatie is “belangrijk” of “van materieel belang” in de zin van het W
 De Commissie benadrukt dat het bestuursorgaan, op basis van de hierna ontwikkelde criteria en van een nauwkeurige analyse hiervan, moet bepalen of de gebeurtenis na afsluitingsdatum van het boekjaar al dan niet van dien aard is dat ze aanleiding geeft tot een aanpassing van de balans en/of de resultatenrekening van het afgesloten boekjaar en desgevallend tot een vermelding in de toelichting.
 
 ## Gebeurtenissen na afsluitingsdatum van het boekjaar die bijkomende informatie geven over de evaluatie van één of meerdere activa- of passivabestanddelen zoals ze bestonden op de afsluitingsdatum van het boekjaar
-
 De gebeurtenissen na afsluitingsdatum van het boekjaar (maar vóór vaststelling van de jaarrekening door het bestuursorgaan) die bijkomende informatie geven over de evaluatie van één of meerdere activa- of passivabestanddelen zoals ze bestonden op de afsluitingsdatum van het boekjaar, hebben betrekking op informatie die ontstaan is in het afgesloten boekjaar, maar pas gekend is na de afsluitingsdatum van het betreffende boekjaar (maar voordat de jaarrekening wordt vastgesteld door het bestuursorgaan).
 
 Het bestuursorgaan moet rekening houden met deze al dan niet materiële gebeurtenissen[^11] en desgevallend de balans en/of de resultatenrekening van het afgesloten boekjaar aanpassen.
@@ -144,7 +142,6 @@ Vervulling van een opschortende voorwaarde over een aangegane verbintenis tijden
 
 Het vonnis van faillietverklaring van een klant dat werd uitgesproken na afsluiting van het boekjaar en dat bevestigt dat de klant insolvent was bij de afsluitingsdatum van het betreffende boekjaar. Het bestuursorgaan moet desgevallend een (bijkomende) waardevermindering op deze vordering boeken in de jaarrekening van het afgesloten boekjaar.
 ## Gebeurtenissen na afsluitingsdatum van het boekjaar die informatie geven over de evaluatie van één of meerdere activa- of passivabestanddelen zoals ze bestaan ná de afsluitingsdatum van het boekjaar
-
 De gebeurtenissen na afsluitingsdatum van het boekjaar die informatie geven over de evaluatie van één of meerdere activa- of passivabestanddelen zoals ze bestaan ná de afsluitingsdatum van het boekjaar hebben betrekking op informatie die ontstaan is na de afsluitingsdatum van het betrokken boekjaar en die pas gekend is na deze datum (maar voordat de jaarrekening wordt vastgesteld door het bestuursorgaan).
 
 Deze gebeurtenissen geven geen aanleiding tot een aanpassing van de balans of de resultatenrekening van het afgesloten boekjaar, maar indien ze van materieel belang zijn, tot een vermelding van hun aard en financiële gevolgen in de toelichting van het volledig model onder “*Aard en financiële gevolgen van materiële gebeurtenissen die zich na balansdatum hebben voorgedaan en die niet in de resultatenrekening of balans worden weergegeven*”.[^23]
@@ -159,7 +156,6 @@ De Commissie herinnert eraan dat de verplichting om rekening te houden met gebeu
 Een vennootschap mag dus geen toekomstige kosten provisioneren, die verbonden zijn aan een reorganisatie van de vennootschap beslist na afsluiting van het boekjaar. Hetzelfde geldt voor toekomstige kosten verbonden aan een belangrijk geschil dat enkel voortvloeit uit gebeurtenissen die zich na de afsluitingsdatum van het boekjaar hebben voorgedaan en die betrekking hebben op een situatie die pas na de afsluitingsdatum bestaat.
 
 ## Gebeurtenissen die informatie geven over de evaluatie van één of meerdere activa- of passivabestanddelen die plaatsvinden tussen het ogenblik waarop de jaarrekening wordt vastgesteld door het bestuursorgaan en de datum van de algemene vergadering die wordt samengeroepen om ze goed te keuren
-
 Ingeval van materiële gebeurtenissen die plaatsvinden tussen het ogenblik waarop de jaarrekening door het bestuursorgaan wordt vastgesteld en de datum van de algemene vergadering die wordt samengeroepen om ze goed te keuren, gaat het bestuursorgaan desgevallend over tot een nieuwe vaststelling van de jaarrekening.[^26] 
 
 Als een nieuwe vaststelling van de jaarrekening echter niet mogelijk is, omdat de jaarrekening reeds werd meegedeeld aan de vennoten/aandeelhouders, licht het bestuursorgaan deze gebeurtenissen mondeling toe tijdens de algemene vergadering en wordt er melding van gemaakt in het verslag van de algemene vergadering. Indien de jaarrekening moet worden aangepast, mag het bestuursorgaan de beslissing van de algemene vergadering met betrekking tot de goedkeuring van de jaarrekening uitstellen met drie weken, zodat een volgende algemene vergadering de jaarrekening definitief goedkeurt.[^27] 

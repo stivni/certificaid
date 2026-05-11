@@ -7,53 +7,53 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-een-overschot-aan-broeikasgasemissierechten-door-een
 nummer: CBN-advies 179/1
 provenance:
+  generated_at: '2026-05-11T17:48:38Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-broeikasgasemissierechten
       sha256: 318b60ea7b396ab94915e412a3588e4ba56412cb3fd533851ebf265b424273f2
       version:
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
-    status: needs-rework
     confirmed_at: '2026-05-11T17:05:21Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "B4 bevestigd r.73: '(Update november 2008)' als plain tekst direct na de H1-titel in plaats van als subkopje. D4 bevestigd r.163/165: 'Bij de* Interpretation 3 Emission Rights*' en 'In verband met de* Interpretation 3 Emission Rights*' — opening asterisk grenst direct aan 'de' zonder spatie (malformed italic). D4 ook r.180: ',* sui generis* rechten' toont spatie voor opening asterisk. Noot: de B2-sprong die in vorige ronde werd gemeld is niet meer zichtbaar in de huidige body (IFRIC/Bruto/Nettomethode staan als ###, correct onder ##), maar D4 en B4 volstaan voor needs-rework."
     layer1:
-      file_size_chars: 25275
-      flags: []
-      heading_count: 9
-      max_section_chars: 14112
-      run_at: '2026-05-11T15:05:50Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:42Z'
+      heading_count: 9
+      max_section_chars: 9185
+      file_size_chars: 25263
+      flags: []
     layer2:
-      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T17:05:21Z'
-      rationale: "B4 bevestigd r.73: '(Update november 2008)' als plain tekst direct na de H1-titel in plaats van als subkopje. D4 bevestigd r.163/165: 'Bij de* Interpretation 3 Emission Rights*' en 'In verband met de* Interpretation 3 Emission Rights*' — opening asterisk grenst direct aan 'de' zonder spatie (malformed italic). D4 ook r.180: ',* sui generis* rechten' toont spatie voor opening asterisk. Noot: de B2-sprong die in vorige ronde werd gemeld is niet meer zichtbaar in de huidige body (IFRIC/Bruto/Nettomethode staan als ###, correct onder ##), maar D4 en B4 volstaan voor needs-rework."
       concrete_problemen:
-        - regel: 73
-          categorie: B4
+        - categorie: B4
+          regel: 73
           type: other
           voorbeeld: (Update november 2008) — plain tekst direct na H1-titel, geen heading-prefix
-        - regel: 163
-          categorie: D4
+        - categorie: D4
+          regel: 163
           type: other
           voorbeeld: Bij de* Interpretation 3 Emission Rights* worden ook voorbeelden gegeven
-        - regel: 165
-          categorie: D4
+        - categorie: D4
+          regel: 165
           type: other
           voorbeeld: In verband met de* Interpretation 3 Emission Rights* werden een aantal kritieken
-        - regel: 180
-          categorie: D4
+        - categorie: D4
+          regel: 180
           type: other
           voorbeeld: ',* sui generis* rechten en roerende rechten'
+      rationale: 'B4 bevestigd r.73: ''(Update november 2008)'' als plain tekst direct na de H1-titel in plaats van als subkopje. D4 bevestigd r.163/165: ''Bij de* Interpretation 3 Emission Rights*'' en ''In verband met de* Interpretation 3 Emission Rights*'' — opening asterisk grenst direct aan ''de'' zonder spatie (malformed italic). D4 ook r.180: '',* sui generis* rechten'' toont spatie voor opening asterisk. Noot: de B2-sprong die in vorige ronde werd gemeld is niet meer zichtbaar in de huidige body (IFRIC/Bruto/Nettomethode staan als ###, correct onder ##), maar D4 en B4 volstaan voor needs-rework.'
+      run_at: '2026-05-11T17:05:21Z'
+      status: needs-rework
+    rationale: 'B4 bevestigd r.73: ''(Update november 2008)'' als plain tekst direct na de H1-titel in plaats van als subkopje. D4 bevestigd r.163/165: ''Bij de* Interpretation 3 Emission Rights*'' en ''In verband met de* Interpretation 3 Emission Rights*'' — opening asterisk grenst direct aan ''de'' zonder spatie (malformed italic). D4 ook r.180: '',* sui generis* rechten'' toont spatie voor opening asterisk. Noot: de B2-sprong die in vorige ronde werd gemeld is niet meer zichtbaar in de huidige body (IFRIC/Bruto/Nettomethode staan als ###, correct onder ##), maar D4 en B4 volstaan voor needs-rework.'
+    status: needs-rework
 themas:
   - broeikasgasemissierechten
   - bruto-methode
@@ -65,11 +65,9 @@ themas:
 ---
 
 # Boekhoudkundige verwerking van broeikasgasemissierechten
-
 (Update november 2008)
 
 ## Inleiding
-
 Met het Kyotoprotocol dat op 16 februari 2005 in werking is getreden en sindsdien een dwingend karakter heeft gekregen, heeft de Europese Unie zich ertoe verbonden de broeikasgassen tussen 2008 en 2012 met 8% te verminderen, ten opzichte van de uitstoot in 1990. 
 
 Daartoe beschikt Europa over de Richtlijn 2003/87/EG van het Europees Parlement en de Raad van 13 oktober 2003 tot vaststelling van een regeling voor de handel in broeikasgasemissierechten[^1] binnen de Gemeenschap en tot wijziging van de Richtlijn 96/61/EG van de Raad, die op de datum van haar bekendmaking in het *Publicatieblad*[^2], in werking is getreden. 
@@ -96,7 +94,6 @@ F. Méan, voor zijn waardevolle inbreng bij het tot stand komen van dit advies, 
 Y. Stempnierwsky die instond voor de coördinatie.
 
 ## Beknopte praktische beschrijving van het emissierechtensysteem
-
 De regeling van het Kyotoprotocol geldt vanaf het jaar 2008, voor een eerste periode van vijf jaar, dus van 2008 tot 2012. De Richtlijn 2003/87/EG bepaalde dat het emissierechtensysteem reeds voor de periode van 2005 tot 2007 van toepassing was.
 
 Op dit ogenblik geldt de richtlijn enkel voor kooldioxide (CO₂). In een voorstel tot herziening van de Richtlijn 2003/87/EG wordt een uitbreiding voorgesteld naar andere gassen zoals N₂0-emissies[^9]. Bovendien vallen enkel grote ondernemingen in welbepaalde sectoren die als zwaar vervuilend worden beschouwd, onder het emissierechtensysteem: energiebedrijven, staalnijverheid, cementbedrijven, glasproductie, papier en karton. In een voorstel tot herziening van de Richtlijn 2003/87/EG worden nieuwe mogelijkheden voorgesteld voor de geologische opslag van CO₂[^10], evenals een uitbreiding naar CO₂-emissie van petrochemische producten, van ammoniak en van aluminium. 
@@ -124,7 +121,6 @@ In België werd niet in de mogelijkheid voorzien om een emissierechtenoverschot 
 Emissierechten zijn normaal overdraagbaar. In bepaalde omstandigheden verliezen zij niettemin die hoedanigheid. 
 
 ## Beperkingen van dit advies
-
 Dit advies wordt uitgebracht tussen het tijdstip waarop het nieuwe Europese systeem in werking treedt maar in België nog niet volledig operationeel is, en het ogenblik waarop het Kyotoprotocol van toepassing zal zijn. De Commissie is er zich dan ook van bewust dat dit advies niet alle aspecten van de problematiek inzake broeikasgasemissierechten kan behandelen.
 
 Nu reeds bieden bepaalde operatoren producten aan die het beheer van emissierechten voor exploitanten gemakkelijker moeten maken in geval van een tekort of overschot aan emissierechten. Op de markt duiken ook nog andere producten op, bestemd voor investeerders; elke natuurlijke of rechtspersoon heeft immers toegang tot de emissierechtenmarkt. 
@@ -138,13 +134,11 @@ Overigens zij erop gewezen[^12] dat deze materie op dit ogenblik boekhoudrechtel
 Het is dan ook volkomen logisch dat dit advies zal moeten worden herzien in functie van de mogelijke latere ontwikkelingen van deze materie, onder meer op boekhoudkundig vlak. 
 
 ## Mogelijke boekhoudkundige verwerkingswijzen
-
 Naar het oordeel van de Commissie blijken er, na onderzoek van de boekhouddoctrine terzake, voor industriële ondernemingen in theorie drie speciefieke verwerkingswijzen te bestaan om het vergunningssysteem voor broeikasgasemissierechten boekhoudkundig te registreren
 
 Hieronder worden die drie boekingswijzen beschreven.
 
 ### IFRIC Interpretation 3 Emission Rights
-
 De IASB heeft op 2 december 2004 de *Interpretation 3 Emission Rights* uitgevaardigd, waarin emissierechten als volgt worden verwerkt: 
 
 - Emissierechten die op de markt zijn gekocht of van de overheid zijn verkregen tegen een lagere waarde dan hun reële waarde[^13] (bij voorbeeld, kosteloos), worden overeenkomstig de norm IAS 38 aan actiefzijde bij de immateriële vaste activa geboekt. 
@@ -167,7 +161,6 @@ Na onderzoek van de kritiek op de *Interpretation* en ondanks de vaststelling, e
 Met betrekking tot de verwerking van emissierechten in de geconsolideerde jaarrekening van genoteerde vennootschappen heeft de intrekking van de *Interpretation* tot gevolg dat de raad van bestuur van de betrokken vennootschappen zal moeten uitmaken welke de passende verwerkingswijze is, op basis van de hiërarchie vastgelegd in de norm IAS 8, *Accounting Policies, Changes* in *Accounting Estimates and Errors*, zoals goedgekeurd door de verordening van de Commissie (EG) nr 2238/2004 van 29 december 2004.
 
 ### Brutomethode
-
 Volgens deze op het Belgische jaarrekeningrecht gebaseerde methode: 
 
 - worden de toegewezen of verkregen emissierechten geboekt als immateriële vaste activa. 
@@ -186,7 +179,6 @@ De voorstanders van deze methode zijn onder andere van oordeel dat die het voord
 Deze methode blijkt overigens bijzonder geschikt voor ondernemingen met een industrieel bedrijf waarvoor het emissierechtensysteem geldt en die bovendien voornemens zijn om zich tot de emissierechtenmarkt te wenden. 
 
 ### Nettomethode
-
 De voorstanders van deze methode – eveneens gebaseerd op het Belgisch jaarrekeningrecht – zijn van oordeel het emissierechtensysteem niet leidt tot een vergroting of verkleining van het vermogen van de ondernemingen, omdat de toegewezen of verkregen emissierechten enkel dienen om de ondernemingen in staat te stellen hun bedrijf voort te zetten.
 
 Op grond daarvan wordt ervan uitgegaan dat de toegewezen emissierechten meestal overeenstemmen met de in te leveren rechten en dat het beroep op de markt voor de aan- of verkoop van emissierechten, marginaal zal zijn.
@@ -200,13 +192,11 @@ De eventuele boete wordt geboekt als een kost van het boekjaar waarin de rechten
 Ingeval de raad van bestuur echter op balansdatum zou vaststellen dat de onderneming niet in staat zal zijn tot inlevering van de emissierechten die met de effectieve uitstoot overeenstemmen en zij in elk geval een boete zal moeten betalen, dan dient een schuld ten belope van het bedrag van die boete te worden geboekt. 
 
 ## Conclusies
-
 Gelet op wat voorafgaat en in afwachting van nieuwe ontwikkelingen op internationaal en Europees niveau in verband met de boekhoudkundige verwerking van broeikasgasemissierechten, formuleert de Commissie als aanbeveling aan industriële ondernemingen om voor de boekhoudkundige verwerking van broeikasgasemissierechten ofwel de brutomethode, ofwel de nettomethode toe te passen, zoals hierboven beschreven. 
 
 Overeenkomstig artikel 28, § 1 van het Koninklijk Besluit van 30 juni 2001 tot uitvoering van het Wetboek van Vennootschappen, dient de door de raad van bestuur vastgestelde en in het inventarisboek opgetekende methode in de toelichting te worden samengevat op een manier die voldoende duidelijk is om een beoordeling van de gekozen methode mogelijk te maken. 
 
 ## Referenties
-
 Richtlijn 2003/87/EG van het Europees Parlement en de Raad van 13 oktober 2003 tot vaststelling van een regeling voor de handel in broeikasgasemissierechten binnen de Gemeenschap en tot wijziging van de Richtlijn 96/61/EG van de Raad[^21]. 
 
 International Financial Reporting Interpretations Committee, IFRIC Interpretation 3, Emission Rights. 

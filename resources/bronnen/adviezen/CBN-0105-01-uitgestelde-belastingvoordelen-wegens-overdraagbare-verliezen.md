@@ -16,37 +16,37 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/afwijking-inzake-functionele-valuta-praktische-implicaties-en-procedure
 nummer: CBN-advies C105/1
 provenance:
+  generated_at: '2026-05-11T17:48:38Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/uitgestelde-belastingvoordelen-wegens-overdraagbare-verliezen
       sha256: 41a5930b23518a778e7c593efaebc62700a8921b45e82c67adaf09d760fd5cdf
       version:
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
-    status: trusted
     confirmed_at: '2026-05-11T15:15:32Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: 'De B2-bug (bold-markup in headings ## **De Belgische regelgeving** en ## **Buitenlandse regelgeving**) die Ronde 1 rapporteerde is opgelost door de scraper-fixes: regels 105 en 113 tonen nu clean headings zonder **bold**. Geen andere artefacten aangetroffen in categorieën A-G. Voetnoten [^1]–[^5] volledig gedefinieerd, inhoud compleet.'
     layer1:
-      file_size_chars: 11208
-      flags: []
-      heading_count: 3
-      max_section_chars: 5928
-      run_at: '2026-05-11T15:05:47Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:40Z'
+      heading_count: 3
+      max_section_chars: 5927
+      file_size_chars: 11205
+      flags: []
     layer2:
-      status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:15:32Z'
-      rationale: 'De B2-bug (bold-markup in headings ## **De Belgische regelgeving** en ## **Buitenlandse regelgeving**) die Ronde 1 rapporteerde is opgelost door de scraper-fixes: regels 105 en 113 tonen nu clean headings zonder **bold**. Geen andere artefacten aangetroffen in categorieën A-G. Voetnoten [^1]–[^5] volledig gedefinieerd, inhoud compleet.'
       concrete_problemen: []
+      rationale: 'De B2-bug (bold-markup in headings ## **De Belgische regelgeving** en ## **Buitenlandse regelgeving**) die Ronde 1 rapporteerde is opgelost door de scraper-fixes: regels 105 en 113 tonen nu clean headings zonder **bold**. Geen andere artefacten aangetroffen in categorieën A-G. Voetnoten [^1]–[^5] volledig gedefinieerd, inhoud compleet.'
+      run_at: '2026-05-11T15:15:32Z'
+      status: trusted
+    rationale: 'De B2-bug (bold-markup in headings ## **De Belgische regelgeving** en ## **Buitenlandse regelgeving**) die Ronde 1 rapporteerde is opgelost door de scraper-fixes: regels 105 en 113 tonen nu clean headings zonder **bold**. Geen andere artefacten aangetroffen in categorieën A-G. Voetnoten [^1]–[^5] volledig gedefinieerd, inhoud compleet.'
+    status: trusted
 themas:
   - toelichting
   - uitgestelde belastingvoordelen
@@ -64,7 +64,6 @@ De Commissie werd om advies gevraagd over de mogelijkheid om, gelet op beschikba
 De Commissie heeft deze vraag onderzocht in het licht van de Belgische en Europese regelgevingen die, in tegenstelling tot buitenlandse en internationale boekhoudnormen, geen bijzondere bepalingen bevatten over het activeren van uitgestelde belastingvoordelen.
 
 ## De Europese regelgeving
-
 Hoewel de Europese jaarrekeningenrichtlijnen de verslaggeving voor belastingdoeleinden niet specifiek behandelen, bevatten zij een aantal vereisten waarmee rekening moet gehouden worden. Wat de geconsolideerde jaarrekening betreft, bevat de zevende richtlijn van de Raad van 13 juni 1983 volgende relevante vereisten. 
 
 Artikel 29, 4 van de zevende richtlijn bepaalt dat in de geconsolideerde balans en resultatenrekening rekening moet worden gehouden met het verschil dat bij de consolidatie blijkt tussen de aan het boekjaar en de vorige boekjaren toe te rekenen belastingen en de met betrekking tot deze boekjaren betaalde of opgelegde belastingen, voor zover mag worden aangenomen dat daaruit voor één van de geconsolideerde ondernemingen in de afzienbare toekomst inderdaad kosten zullen voortvloeien. 
@@ -95,7 +94,6 @@ Wat het activeren van een uitgesteld belastingvoordeel wegens een overdraagbaarb
 Het Contactcomité heeft verder de toepassing van het voorzichtigheidsbeginsel benadrukt zoals gedefinieerd in de vierde Richtlijn. Dit beginsel leidt ertoe dat uitgestelde belastingvorderingen enkel kunnen geactiveerd worden in de jaarrekening, als er geen redelijke twijfel bestaat over de toekomstige fiscale winst. Het criterium "geen redelijke twijfel" valt in het Europese kader strikter op te vatten dan het in IAS 12 gehanteerde waarschijnlijkheidscriterium. 
 
 ## De Belgische regelgeving
-
 Het verslag aan de Koning bij het consolidatiebesluit van 6 maart 1990 bevat volgende intentieverklaring: "... Het begrip belastinglatentie, de mate waarin daarmee rekening moet worden gehouden en de wijze waarop de belastinglatenties in de financiële staten moeten verwerkt worden, geven aanleiding tot doctrinale controverses. Daarom beperkt het besluit er zich toe in de huidige stand van zaken de tekst van de richtlijn terzake over te nemen. Het komt de Commissie voor Boekhoudkundige Normen toe om in het kader van de haar toegewezen taak terzake de beginselen van een regelmatige boekhouding progressief te ontwikkelen gelet o.m. op hetgeen in het buitenland tot stand zal komen...". 
 
 Het consolidatiebesluit beperkt er zich dan ook toe in de artikelen 40 en 69 de hoger vermelde Europeesrechtelijke bepalingen over te nemen. 
@@ -103,7 +101,6 @@ Het consolidatiebesluit beperkt er zich dan ook toe in de artikelen 40 en 69 de 
 Voor het Belgische consolidatiebesluit kunnen dan ook dezelfde conclusies gelden als voor de zevende richtlijn: enerzijds bestaat er geen uitdrukkelijk geformuleerd verbod op het activeren van een uitgesteld belastingvoordeel wegens overdraagbare verliezen; anderzijds mag besloten worden dat toepassing mag worden gemaakt van IAS 12 mits naleving van het Europeesrechtelijke voorzichtigheidsbeginsel. 
 
 ## Buitenlandse regelgeving
-
 Zowel een belangrijk aantal Europese Lid-Staten als de Verenigde Staten behandelen in hun regelgeving de problematiek van de uitgestelde belastingen exhaustief met inbegrip van de vraag of een uitgesteld belastingvoordeel wegens overdraagbare verliezen kan opgenomen worden. 
 
 Zo bepaalt het Franse consolidatiebesluit[^3] dat een uitgesteld belastingvoordeel wegens overdraagbare verliezen kan geactiveerd worden indien het waarschijnlijk wordt geacht dat er belastbare winst zal zijn gedurende de periode van verliescompensatie. Tenzij overtuigende bewijzen van het tegendeel, zoals éénmalige uitzonderlijke verliezen of verwachte uitzonderlijke winsten, wordt verondersteld dat er geen toekomstige belastbare winst zal zijn indien de onderneming gedurende de twee vorige boekjaren verlies leed. 

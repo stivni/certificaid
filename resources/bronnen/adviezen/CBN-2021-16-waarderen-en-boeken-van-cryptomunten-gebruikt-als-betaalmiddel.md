@@ -2,65 +2,58 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/waarderen-en-boeken-van-cryptomunten-gebruikt-als-betaalmiddel
 datum: 2021-12-06
 gerelateerde_adviezen:
-- datum: '2019-05-17'
-  titel: Boekhoudkundige verwerking van virtuele munten (ONTWERP)
-  url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-virtuele-munten-ontwerp
+  - datum: '2019-05-17'
+    titel: Boekhoudkundige verwerking van virtuele munten (ONTWERP)
+    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-virtuele-munten-ontwerp
 nummer: CBN-advies 2021/16
 provenance:
-  generated_at: '2026-05-11T15:15:32Z'
+  generated_at: '2026-05-11T17:48:39Z'
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/waarderen-en-boeken-van-cryptomunten-gebruikt-als-betaalmiddel
-    sha256: 93817b0a58155c7cf3900e7005139b5fa9fdce3a655d921559deef8a09c48bc0
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/waarderen-en-boeken-van-cryptomunten-gebruikt-als-betaalmiddel
+      sha256: 93817b0a58155c7cf3900e7005139b5fa9fdce3a655d921559deef8a09c48bc0
+      version:
   stale: false
-  stale_reason: null
+  stale_reason:
   tooling:
-    model: null
+    model:
     pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    prompt_version: null
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
     confirmed_at: '2026-05-11T12:21:41Z'
     confirmed_by: subagent-sonnet-4-6
     layer1:
-      file_size_chars: 7410
-      flags: []
-      heading_count: 2
-      max_section_chars: 6084
-      run_at: '2026-05-11T15:05:54Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:45Z'
+      heading_count: 2
+      max_section_chars: 6083
+      file_size_chars: 7408
+      flags: []
     layer2:
       agent: subagent-sonnet-4-6
       concrete_problemen: []
-      rationale: 'Geen extractie-artefacten. De italic-hits uit de analyse zijn false
-        positives: ''*blockchain*'', ''*Liquide middelen*'', ''*Overige vorderingen*''
-        zijn correcte markdown-italics zonder spaties. Twee headings correct, inhoud
-        volledig, alle vier voetnootdefinities aanwezig. Compact maar compleet advies.'
+      rationale: 'Geen extractie-artefacten. De italic-hits uit de analyse zijn false positives: ''*blockchain*'', ''*Liquide middelen*'', ''*Overige vorderingen*'' zijn correcte markdown-italics zonder spaties. Twee headings correct, inhoud volledig, alle vier voetnootdefinities aanwezig. Compact maar compleet advies.'
       run_at: '2026-05-11T12:21:41Z'
       status: trusted
-    rationale: 'Geen extractie-artefacten. De italic-hits uit de analyse zijn false
-      positives: ''*blockchain*'', ''*Liquide middelen*'', ''*Overige vorderingen*''
-      zijn correcte markdown-italics zonder spaties. Twee headings correct, inhoud
-      volledig, alle vier voetnootdefinities aanwezig. Compact maar compleet advies.'
+    rationale: 'Geen extractie-artefacten. De italic-hits uit de analyse zijn false positives: ''*blockchain*'', ''*Liquide middelen*'', ''*Overige vorderingen*'' zijn correcte markdown-italics zonder spaties. Twee headings correct, inhoud volledig, alle vier voetnootdefinities aanwezig. Compact maar compleet advies.'
     status: trusted
 themas:
-- cryptocurrency
-- cryptomunt
-- betaalmiddel
-- virtuele munt
-- bitcoin
-- blockchain
-- liquide middelen
-- geldbelegging
-- vordering
-- overige vorderingen
+  - cryptocurrency
+  - cryptomunt
+  - betaalmiddel
+  - virtuele munt
+  - bitcoin
+  - blockchain
+  - liquide middelen
+  - geldbelegging
+  - vordering
+  - overige vorderingen
 ---
 
 # CBN-advies 2021/16 – Waarderen en boeken van cryptomunten gebruikt als betaalmiddel
 
 ## Inleiding
-
 De Commissie voor boekhoudkundige normen ontving een nieuwe vraag met betrekking tot de boekhoudkundige verwerking van een rekening van cryptomunten die zijn gebruikt als betaalmiddel. 
 
 Virtuele munten kunnen worden gedefinieerd als een digitale weergave van een waarde die niet door een centrale bank of een overheid wordt uitgegeven of gegarandeerd, die niet noodzakelijk aan een wettelijk vastgestelde valuta is gekoppeld en die niet de juridische status van valuta of geld heeft, maar die door natuurlijke of rechtspersonen als ruilmiddel wordt aanvaard en die elektronisch kan worden overgedragen, opgeslagen en verhandeld.[^2] 
@@ -70,7 +63,6 @@ In het licht van de huidige toestand van de boekhoudregelgeving en gezien de bel
 De Commissie benadrukt dat zij zich niet uitspreekt over de fiscale aspecten van cryptomunten gebruikt als betaalmiddel.
 
 ## Boekhoudkundige verwerking
-
 Neem bij wijze van voorbeeld een vennootschap A (werkzaam in de wereld van online gaming) die een factuur dient te betalen aan vennootschap B. Met de toestemming van vennootschap B beslist A deze factuur in bitcoin te betalen.
 
 Bij cryptomunten gebaseerd op de *blockchain*-technologie wordt, in tegenstelling tot bij traditionele valuta, niet gewerkt met een centrale beheerder of centrale overheid, maar geldt wel een systeem van autoregulering. Cryptomunten worden immers in *real time* gedeeld en bijgehouden door alle personen die deel uitmaken van een (*peer-to-peer*) cryptomuntennetwerk. Cryptomunten worden aldus verhandeld of uitgewisseld via een* peer-to-peer*-netwerk: computers en smartphones die via het internet rechtstreeks met elkaar verbonden zijn.[^3] 

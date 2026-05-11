@@ -16,37 +16,37 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/afronding-van-de-bedragen-in-de-jaarrekeningen-die-in-euro-of-in-duizenden-euro-zijn
 nummer: CBN-advies 173/2
 provenance:
+  generated_at: '2026-05-11T17:48:38Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-afrondingen-bij-conversie
       sha256: 28016f3fc0c35028cd22dc3bc24fc507ebec22791830fdca82512e66e7639507
       version:
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
-    status: trusted
     confirmed_at: '2026-05-11T15:19:35Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: Kort advies (2054 tekens, geen headings want één doorlopende teksteenheid). Eén correcte pipe-tabel, twee voetnoten correct opgemaakt. Geen PDF-artefacten, geen structuurproblemen, geen OCR-issues. Inhoud volledig en consistent met de titel.
     layer1:
-      file_size_chars: 2054
-      flags: []
+      status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:42Z'
       heading_count: 0
       max_section_chars: 2054
-      run_at: '2026-05-11T15:05:49Z'
-      run_id: 20260511-150547
-      status: pass
+      file_size_chars: 2054
+      flags: []
     layer2:
-      status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:19:35Z'
-      rationale: Kort advies (2054 tekens, geen headings want één doorlopende teksteenheid). Eén correcte pipe-tabel, twee voetnoten correct opgemaakt. Geen PDF-artefacten, geen structuurproblemen, geen OCR-issues. Inhoud volledig en consistent met de titel.
       concrete_problemen: []
+      rationale: Kort advies (2054 tekens, geen headings want één doorlopende teksteenheid). Eén correcte pipe-tabel, twee voetnoten correct opgemaakt. Geen PDF-artefacten, geen structuurproblemen, geen OCR-issues. Inhoud volledig en consistent met de titel.
+      run_at: '2026-05-11T15:19:35Z'
+      status: trusted
+    rationale: Kort advies (2054 tekens, geen headings want één doorlopende teksteenheid). Eén correcte pipe-tabel, twee voetnoten correct opgemaakt. Geen PDF-artefacten, geen structuurproblemen, geen OCR-issues. Inhoud volledig en consistent met de titel.
+    status: trusted
 themas:
   - afronding
   - afrondingen bij conversie

@@ -9,35 +9,31 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
+    pipeline_version: 11f9196
     model:
     prompt_version:
-  generated_at: '2026-05-11T15:15:31Z'
+  generated_at: '2026-05-11T17:48:38Z'
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T17:09:38Z'
+    status: trusted
+    confirmed_at: '2026-05-11T17:51:53Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "D4: r70 bevat 'hoewel* \"de bedoelde instellingen de vrijheid behouden om te beoordelen hoe de vrijgekomen sommen het best geherinvesteerd worden\"*' — asterisk na 'hoewel' opent italic zonder voorafgaande sluitende spatie-separator, waardoor 'hoewel*' een malformed opener is (space vóór de *-sluitmarker van het vorige italic-blok ont-breekt niet, maar de opener staat mid-woord). Dit is een ETL italic-parsingfout."
+    rationale: 'Kort en schoon advies (4765 chars, 4 headings). Trefwoorden-sectie als ## heading aanwezig. Vier voetnoten correct geformatteerd. Geciteerde wetsartikelen in cursief correct gemarkeerd. Geen artefacten.'
     layer1:
-      file_size_chars: 4770
-      flags: []
-      heading_count: 3
-      max_section_chars: 1483
-      run_at: '2026-05-11T15:05:50Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:42Z'
+      heading_count: 4
+      max_section_chars: 1482
+      file_size_chars: 4765
+      flags: []
     layer2:
-      status: needs-rework
+      status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T17:09:38Z'
-      rationale: "D4: r70 bevat 'hoewel* \"de bedoelde instellingen de vrijheid behouden om te beoordelen hoe de vrijgekomen sommen het best geherinvesteerd worden\"*' — asterisk na 'hoewel' opent italic zonder voorafgaande sluitende spatie-separator, waardoor 'hoewel*' een malformed opener is (space vóór de *-sluitmarker van het vorige italic-blok ont-breekt niet, maar de opener staat mid-woord). Dit is een ETL italic-parsingfout."
-      concrete_problemen:
-        - regel: 70
-          categorie: D4
-          type: other
-          voorbeeld: hoewel* "de bedoelde instellingen de vrijheid behouden...
+      run_at: '2026-05-11T17:51:53Z'
+      rationale: 'Kort en schoon advies (4765 chars, 4 headings). Trefwoorden-sectie als ## heading aanwezig. Vier voetnoten correct geformatteerd. Geciteerde wetsartikelen in cursief correct gemarkeerd. Geen artefacten.'
+      concrete_problemen: []
 themas:
   - bedrijfsvoorheffing
   - compensatie
@@ -49,12 +45,10 @@ themas:
 
 # CBN-advies 2010/2 – De boekhoudkundige verwerking van het stelsel tot gedeeltelijke vrijstelling van betaling van de bedrijfsvoorheffing, zoals geregeld door artikel 275/3 van het Wetboek van de Inkomstenbelastingen 1992 – Update Advies van 10 februari 2010
 
-**Trefwoorden**
-
+## Trefwoorden
 Bedrijfsvoorheffing – compensatie – exploitatiesubsidie – subsidie – vzw – werkingssubsidie
 
 ## Inleiding
-
 Een recent advies van de Commissie handelde over de boekhoudkundige verwerking van het stelsel tot gedeeltelijke vrijstelling van betaling van de bedrijfsvoorheffing, zoals geregeld door artikel 275/3 WIB 92[^1]. 
 
 Ter herinnering: de bepaling van artikel 275/3, WIB 92, beoogt de stimulatie van wetenschappelijk onderzoek in België. De entiteiten opgenomen in deze bepaling[^2] worden vrijgesteld van de verplichting tot doorstorting voor een bepaald percentage van de bedrijfsvoorheffing ingehouden op het salaris van de desbetreffende onderzoekers.
@@ -64,7 +58,6 @@ In haar advies 2009/13 was de Commissie van oordeel dat dit stelsel tot vrijstel
 De Commissie was eveneens van mening dat, indien een deel of het geheel van de bezoldigingen voor dewelke de vrijstelling van de verplichting tot doorstorting van de bedrijfsvoorheffing werd bekomen, geactiveerd moet worden, het deel van de subsidies toegewezen aan de financiering van de bovengenoemde bezoldigingen zou beschouwd moeten worden als een kapitaalsubsidie en bijgevolg geboekt zou moeten worden op de creditzijde van rekening 151 *Kapitaalsubsidies ontvangen in contanten* van de vereniging of van rekening 150 *Kapitaalsubsidie* van de vennootschap.
 
 ## Wijzigingen van artikel 275/3, § 1, 1ste en 2de lid, WIB 92
-
 De wet van 21 december 2009 houdende fiscale en diverse bepalingen wijzigt in haar artikelen 12, 13 en 14, artikel 275/3, § 1, 1ste en 2de lid, WIB 92. De aangebrachte wijzigingen laten een eenduidige interpretatie toe van het voormelde artikel 275/3 door een einde te stellen aan de aanhoudende verwarring rond de aanwending van de niet doorgestorte bedrijfsvoorheffing.
 
 Uit de voorbereidende werken bij de wet van 21 december 2009 blijkt immers dat *“ het steeds de bedoeling van de wetgever is geweest te zorgen voor bijkomende investeringen en activiteiten in wetenschappelijk onderzoek, hetgeen uitsluit dat de vrijgekomen sommen worden aangewend om de economische kostprijs van het bestaande onderzoek te drukken”*, hoewel* “de bedoelde instellingen de vrijheid behouden om te beoordelen hoe de vrijgekomen sommen het best geherinvesteerd worden”*.[^3] 
@@ -76,7 +69,6 @@ Artikel 275/3, § 1, 1ste en 2de lid, WIB 92, werd bijgevolg aangevuld met de vo
 "*De (…) bedoelde instellingen wenden de sommen die zij krachtens dit artikel niet moeten doorstorten, niet aan ter financiering van het onderzoek dat de vrijstelling van de doorstortingsverplichting heeft doen ontstaan*."[^4] 
 
 ## Update advies 2009/13
-
 Door de invoering van de bovenvermelde aanpassing, maakt de wetgever op eenduidige wijze een onderscheid tussen de bezoldigingen die de vrijstelling van doorstorting hebben doen ontstaan en de opbrengst van deze vrijstelling. Met andere woorden, de exploitatie- of werkingssubsidie, die hier de vorm aanneemt van de kwijschelding van schuld, mag niet worden aangewend ter ondersteuning en ter financiering van de bezoldigingen die deze subsidie hebben doen ontstaan.
 
 Bijgevolg, indien een deel of het geheel van de bezoldigingen voor dewelke de vrijstelling van doorstorting is bekomen, geactiveerd waren, behoudt de subsidie de hoedanigheid van werkings- of exploitatiesubsidie en blijft deze opgenomen op de creditzijde van rekening 738 van de resultatenrekening van de vereniging en op de creditzijde van rekening 740 van de vennootschap.

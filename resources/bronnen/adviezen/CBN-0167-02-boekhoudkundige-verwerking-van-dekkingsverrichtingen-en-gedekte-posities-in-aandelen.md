@@ -22,51 +22,51 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
+    pipeline_version: 11f9196
     model:
     prompt_version:
-  generated_at: '2026-05-11T15:15:31Z'
+  generated_at: '2026-05-11T17:48:38Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T17:05:21Z'
+    confirmed_at: '2026-05-11T17:51:53Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "Vorig verdict bevestigd. D4 r.425/r.432: '** 20.09.91**' / '** 01.10.91**' met spatie na openings-** — malformed bold. A9 r.464: 'Aanschaffigswaarde' (ontbrekende 't'); r.488: 'op terminijn' (extra 'i'). E2 r.242-244: tabelheader met multi-line cell splits over drie regels — standaard markdown-rendering breekt."
+    rationale: 'A6: meerdere zinsbreuken midden in een zin (regel 104-106: zin loopt door over twee alinea-grenzen; regel 109-111: vergelijkbaar). E2: de grote resultaattabellen op regel 238-286 (en vergelijkbaar op 463-478) gebruiken multi-line cel-content met tabs als regelterugloop binnen een tabelrij, wat geen geldige markdown-pipe-syntax is en door elke renderer anders wordt geïnterpreteerd. Dubbele lijstitem op regel 170-172 (copy van regel 167-169).'
     layer1:
-      file_size_chars: 41254
-      flags: []
-      heading_count: 14
-      max_section_chars: 11224
-      run_at: '2026-05-11T15:05:49Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:42Z'
+      heading_count: 29
+      max_section_chars: 11219
+      file_size_chars: 41207
+      flags: []
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T17:05:21Z'
-      rationale: "Vorig verdict bevestigd. D4 r.425/r.432: '** 20.09.91**' / '** 01.10.91**' met spatie na openings-** — malformed bold. A9 r.464: 'Aanschaffigswaarde' (ontbrekende 't'); r.488: 'op terminijn' (extra 'i'). E2 r.242-244: tabelheader met multi-line cell splits over drie regels — standaard markdown-rendering breekt."
+      run_at: '2026-05-11T17:51:53Z'
+      rationale: 'A6: meerdere zinsbreuken midden in een zin (regel 104-106: zin loopt door over twee alinea-grenzen; regel 109-111: vergelijkbaar). E2: de grote resultaattabellen op regel 238-286 (en vergelijkbaar op 463-478) gebruiken multi-line cel-content met tabs als regelterugloop binnen een tabelrij, wat geen geldige markdown-pipe-syntax is en door elke renderer anders wordt geïnterpreteerd. Dubbele lijstitem op regel 170-172 (copy van regel 167-169).'
       concrete_problemen:
-        - regel: 425
-          categorie: D4
+        - regel: 104
+          categorie: A6
           type: other
-          voorbeeld: '** 20.09.91**'
-        - regel: 432
-          categorie: D4
+          voorbeeld: "worden geïdentificeerd Bij de als dekking \n\nbestemde verrichtingen moet een onderscheid"
+        - regel: 109
+          categorie: A6
           type: other
-          voorbeeld: '** 01.10.91**'
-        - regel: 464
-          categorie: A9
-          type: ocr-confusion
-          voorbeeld: '| | 510... | Aandelen - Aanschaffigswaarde | 12.600 | |'
-        - regel: 488
-          categorie: A9
-          type: ocr-confusion
-          voorbeeld: op terminijn verkochte effecten | 100 |
-        - regel: 242
+          voorbeeld: "2. de onderneming wapenen...waarbij zij evenwel\n\n\tgeheel of gedeeltelijk de voordelen"
+        - regel: 167
+          categorie: B3
+          type: other
+          voorbeeld: een call-optie bezit...verkocht. (regel 167-169 en opnieuw identiek op 170-172)
+        - regel: 241
           categorie: E2
-          type: pseudo-table
-          voorbeeld: '| Noteringsdata | | Koers van de optie \n | | Koers van het aandeel...'
+          type: other
+          voorbeeld: "| - Van 20.09.91 \n\n\t\t\t\ttot 1.10.91 \n\n\t\t\t\t100 x (128 - 126,4)"
+        - regel: 447
+          categorie: E2
+          type: other
+          voorbeeld: '| | (tijdswaarde) | 150 | | |'
 themas:
   - aandelen
   - aandelenopties
@@ -85,7 +85,6 @@ themas:
 # Boekhoudkundige verwerking van dekkingsverrichtingen en gedekte posities in aandelen (Err., Bull. CBN, nr. 30, februari 1993, p. 8)
 
 ## Inleiding
-
 Het koninklijk besluit van 8 oktober 1976 bepaalt dat als geldbelegging verworven effecten tegen aanschaffingswaarde in de balans moeten worden opgenomen[^1], na aftrek van de waardeverminderingen die zijn toegepast om rekening te houden met hun lagere realisatiewaarde op balansdatum[^2] en met de risico's bij realisatie[^3].
 
 Met toepassing van artikel 33 van hetzelfde besluit wordt de aanschaffingswaarde van identieke effecten bepaald, hetzij door individualisering van de prijs van elk bestanddeel, hetzij volgens de methode van gewogen gemiddelde prijzen, volgens de methode "Fifo" of volgens de methode "Lifo".
@@ -110,14 +109,12 @@ Naast dit argument dat steunt op het beginsel van voornoemd artikel 18 van het K
 In deze context weze eraan herinnerd dat de Commissie, in haar advies over de deviezenverrichtingen[^6] achtereenvolgens de afzonderlijk beschouwde verrichtingen heeft onderzocht, de specifieke dekkingsverrichtingen en het geval waarbij een onderneming een aantal verbintenissen heeft aangegaan die zijn uitgedrukt in een zelfde vreemde munt. Op dezelfde wijze heeft de Commissie in haar advies over termijnverrichtingen op handelsgoederen achtereenvolgens de blanco termijnverrichtingen onderzocht, de specifieke dekkingsverrichtingen en, ten slotte, de verrichtingen in groter aantal[^7].
 
 ## Deel I : Reeksen van verrichtingen op eenzelfde onderliggend aandeel
-
 Voor aandelen moet ook een onderscheid worden gemaakt tussen : 
 
 - enerzijds, als dekking bestemde verrichtingen, en 
 - anderzijds, situaties waarin de onderneming verschillende verrichtingen in tegengestelde zin, zonder specifiek onderling verband heeft afgesloten. 
 
 ### Als dekking bestemde verrichtingen
-
 In het kader van de internationale en buitenlandse regels alsook van de regeling voor de sector kredietinstellingen, verdient het aanbeveling dekkingsverrichtingen, overeenkomstig het voorzichtigheidsbeginsel, als bijzondere gevallen te beschouwen, waarvoor strenge criteria gelden enerzijds voor kwalificatie en anderzijds voor boekhoudkundige verwerking. De kwalificatiecriteria kunnen als volgt worden gegroepeerd : 
 
 - Aard van het gedekte bestanddeel : De onderliggende instrumenten van de dekkingsverrichting moeten identieke effecten zijn als deze ter dekking waarvan de dekkingsverrichting is gesloten. 
@@ -134,7 +131,6 @@ bestemde verrichtingen moet een onderscheid worden gemaakt tussen deze die :
 	geheel of gedeeltelijk de voordelen van een gunstige koersevolutie behoudt. 
 
 #### Eliminatie voor de toekomst van elk risico en elk voordeel verbonden aan de latere koersevolutie
-
 In dergelijke gedekte situaties : 
 
 - kent de onderneming het definitieve netto-resultaat van haar verrichting nog vóór zij afloopt : 
@@ -183,9 +179,7 @@ In een en ander geval sluit de verrichtingen met een verschil tussen de prijs va
 In deze gevallen moeten de gecombineerde resultaten van verbonden verrichtingen als zodanig in de rekeningen worden uitgedrukt zodra de dekking volkomen is. 
 
 #### Dekkingsverrichtingen met opties die de onderneming beschermen tegen de ongunstig weerslag van een koersschommeling maar waarbij zij het voordeel van een gunstige koersevolutie geheel of ten dele behoudt
-
 ##### Opties ter dekking van vaste rechten en verplichtingen (contant of op termijn
-
 Dat is inzonderheid het geval indien de onderneming : 
 
 1. een put-optie heeft om zich te wapenen tegen een daling van het onderliggende effect in haar bezit of dat zij op termijn vast heeft gekocht; 
@@ -232,7 +226,6 @@ Minderwaarden van het onderliggende effect die zich vóór de dekkingsverrichtin
 Dit wordt verduidelijkt aan de hand van volgende voorbeelden[^10]: 
 
 ## Voorbeeld 1 : dekking van een termijnverkoop (baisse-positie) door aankoop van een call-optie
-
 Op 20 september 1991 verkoopt een onderneming 100 Y-aandelen tegen de prijs van 128 frank per aandeel. Op 20 januari 1992 moeten deze aandelen worden geleverd. De onderneming bezit de effecten die zij moet leveren niet. Zij heeft op dat ogenblik een baisse-positie op deze 100 effecten.
 
 Om haar positie te dekken koopt zij op 1 oktober 1991 een call-optie (vervalmaand januari 1992; vereffening op de derde vrijdag van de vervalmaand, dus op 20 januari 1992) tegen betaling van een premie van 5,30 frank per aandeel. De uitoefenprijs van de optie is 130 frank per aandeel.
@@ -343,36 +336,31 @@ Verschil (gelijk aan het optie-resultaat) 1.520
 
 Schematisch zien de boekingen er als volgt uit :
 
- **20.09.91**
-
+## 20.09.91
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 06. ... | Debiteuren wegens op termijn verkochte effecten | 12.800 | |
 | aan | 06. ... | Op termijn verkochte effecten - Te leveren | | 12.800 |
 
-**01.10.91**
-
+## 01.10.91
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 51. ... | Gekochte opties | 530 | |
 | aan | 55. ... | Kredietinstellingen | | 530 |
 
-**31.12.91**
-
+## 31.12.91
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 65... / 75... | Financiële kosten / opbrengsten | 200 | |
 | aan | 16 | Voorzieningen voor op termijn verkochte effecten | | 200 |
 
-**31.12.91**
-
+## 31.12.91
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 651 | Toevoeging aan waardeverminderingen op vlottende activa | 190 | |
 | aan | 51. ..9 | Geboekte waardeverminderingen op vlottende activa (waardevermindering op tijdswaarde) | | 190 |
 
 ## 20.01.92 Uitoefening van de optie:
-
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 510 | Aandelen - Aanschaffingswaarde | 530 | |
@@ -403,7 +391,6 @@ Afwikkeling van de termijn verkoop
 | aan | 06... | Debiteuren wegens op termijn verkochte effecten | | 12.800 |
 
 ## Voorbeeld 2 : variante van voorbeeld 1
-
 Les opérations sont, au départ, les mêmes que dans l'exemple 1, mais l'évolution des cours est inverse.
 
 | **Noteringsdata** | | **Koers van de optie** | | **Koers van het aandeel** | | **Intrinsieke waarde** | | **Tijdswaarde**  | 
@@ -422,22 +409,19 @@ Op de vervaldag ligt de uitoefenprijs hoger dan de marktprijs, zodat de ondernem
 
 In dit tweede voorbeeld zien de boekingen[^12] er schematisch als volgt uit :
 
-** 20.09.91**
-
+## 20.09.91
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 06... | Debiteuren wegens verkochte effecten | 12.800 | |
 | aan | 06... | Op termijn verkochte effecten te leveren | | 12.800 |
 
-** 01.10.91**
-
+## 01.10.91
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 51... | Gekochte opties | 530 | |
 | aan | 55... | Kredietinstelligen | | 530 |
 
-**31.12.91**
-
+## 31.12.91
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 651... | Waardeverminderingen op vlottende activa
@@ -446,8 +430,7 @@ In dit tweede voorbeeld zien de boekingen[^12] er schematisch als volgt uit :
 |---|---|---|---|---|
 | aan | 51..9 | Waardevermindering op gekochte opties | | 450 |
 
-**31.12.91**
-
+## 31.12.91
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 65... | / | | |
@@ -457,22 +440,19 @@ In dit tweede voorbeeld zien de boekingen[^12] er schematisch als volgt uit :
 
 - Aankoop van de te leveren effecten in de markt:
 
-**20.01.92**
-
+## 20.01.92
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 510... | Aandelen - Aanschaffigswaarde | 12.600 | |
 | aan | 55... | Kredietinstellingen | | 12.600 |
 
-**20.01.92**
-
+## 20.01.92
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 651... | Toevoeging aan waardeverminderingen op vlottende activa | 80 | |
 | aan | 51..9 | Waardeverminderingen op vlottende | | 80 |
 
-**20.01.92**
-
+## 20.01.92
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 51..9 | Waardeverminderingen op vlottende activa | 530 | |
@@ -480,8 +460,7 @@ In dit tweede voorbeeld zien de boekingen[^12] er schematisch als volgt uit :
 
 - Afwikkeling van de termijnverkoop: 
 
-**20.01.92**
-
+## 20.01.92
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 55... | Kredietinstellingen | 12.800 | |
@@ -491,7 +470,6 @@ In dit tweede voorbeeld zien de boekingen[^12] er schematisch als volgt uit :
 | aan | 510... | Aandelen - Aanschaffingswaarde | | 13.130 |
 
 ## Voorbeeld 3 : aankoop van een put-optie (op een effect in portefeuille)
-
 Op 1 december 1991 koopt een onderneming een put-optie om de verkoopprijs van een effect X met boekwaarde 120 en opgenomen onder de geldbeleggingen, te waarborgen. Optieprijs : 14; vervalmaand : januari 1992; vereffening op de derde vrijdag van de vervalmaand, d.i. op 20 januari 1992; uitoefenprijs per effect : 140
 
 | **Noteringsdata** | | **Koers van de optie** | | **Koers van het aandeel** | | **Intrinsieke waarde** | | **Tijdswaarde** | 
@@ -527,15 +505,13 @@ Afhankelijk van de periode ziet het resultaat er als volgt uit
 
 Schematisch zien de boekingen er als volgt uit:
 
-**... 1990**
-
+## ... 1990
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 510... | Aandelen - Aanschaffingswaarde | 120 | |
 | aan | 55... | Kredietinstellingen | | 120 |
 
-**01.12.1991**
-
+## 01.12.1991
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 51... | Gekochte put-opties | 14 | |
@@ -543,8 +519,7 @@ Schematisch zien de boekingen er als volgt uit:
 
 **31.12.1991** Geen enkele waardevermindering (de minderwaarde op het effect in portefeuille wordt gecompenseerd door een meerwaarde op de intrinsieke waarde van de optie; de tijdswaarde bezit overigens een latente meerwaarde)
 
-**20.01.1992**
-
+## 20.01.1992
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 55... | Kredietinstellingen | 140 | |
@@ -553,7 +528,6 @@ Schematisch zien de boekingen er als volgt uit:
 | | 51... | Gekochte opties | 14 | |
 
 ### Opties ter dekking van geschreven opties
-
 In deze context hoort ook de nodige aandacht te gaan naar de verrichtingen die zowel de risico's van een prijsschommeling alsook de voordelen van een gunstige koersevolutie, tot bepaalde bedragen[^13] beperken, zonder ze evenwel op het heffen.
 
 Dat kan inzonderheid het geval zijn voor een onderneming die werkt met een combinatie van call-en put-opties op hetzelfde onderliggende effect met dezelfde vervaldag, die evenwel tegen verschillende prijzen kunnen worden uitgeoefend ("spread").
@@ -598,7 +572,6 @@ Meer in het algemeen is de vraag gerezen of het niet beter was de zaken te veree
 Deze methode is weliswaar minder nauwkeurig en minder verantwoord op het vlak van de methode en de financiële analyse. Toch meent de Commissie dat, om redenen van vereenvoudiging, deze globale benadering niet mag uitgesloten worden voor het geheel van hun verrichtingen die betrekking hebben op eenzelfde onderliggend actiefbestanddeel, voornamelijk voor ondernemingen waarvoor deze verrichtingen niet courant zijn en waarmee geen grote bedragen gemoeid zijn. 
 
 ## Gevolgen wanneer er geen georganiseerde en liquide markt bestaat
-
 Reeksen van verrichtingen als bedoeld in dit advies - op bepaalde verrichtingen in het kader van dergelijke reeksen - die onderhands of op een niet-liquide markt[^15] worden afgesloten, vergen op grond van het voorzichtigheidsbeginsel een bijzondere benadering. 
 
 Bij reeksen van verrichtingen in tegengestelde zin wordt voor de verrekening van meer- met minderwaarden zoals uiteengezet in dit advies ervan uitgegaan dat er een georganiseerde en liquide markt bestaat waarop niet-gerealiseerde meerwaarden zonder weerslag op de koers in gerealiseerde meerwaarden kunnen worden omgezet. Wanneer de criteria voor de beoordeling van een georganiseerde en liquide markt niet worden nageleefd, moet er voor elke verrichting dus van worden uitgegaan dat zij een afzonderlijke positie doet ontstaan die dan ook afzonderlijk moet worden verwerkt volgens de terzake algemeen aanvaarde regels : 
@@ -607,11 +580,9 @@ Bij reeksen van verrichtingen in tegengestelde zin wordt voor de verrekening van
 - daarentegen mag een latente winst in een lopende verrichting niet in resultaat worden genomen tijdens het boekjaar (de boekjaren) die haar afwikkeling voorafgaat (voorafgaan). 
 
 ## In de toelichting te vermelden gegevens over optiecontracten
-
 De toelichting bij de jaarrekening moet in overeenstemming met artikel 14 van het jaarrekeningsbesluit van 8 oktober 1976 zijn opgesteld, zodat hierin een passend beeld moet worden gegeven van de uitstaande optiecontracten, inzover hiermee relevante bedragen zijn gemoeid. Tevens moeten de waarderingsregels het nodige inzicht verschaffen in de boekhoudkundige verwerking van de uitstaande contracten en de resultaten uit de verrichtingen.
 
 ## Deel IV: Samenvatting
-
 § 1. Voor verschillende verrichtingen in tegengestelde zin op een zelfde aandeel gelden de volgende regels :
 
 1° Als dekking bestemde verrichtingen : 

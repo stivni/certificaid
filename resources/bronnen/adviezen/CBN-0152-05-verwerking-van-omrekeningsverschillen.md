@@ -3,50 +3,43 @@ bron: https://www.cbn-cnc.be/nl/adviezen/verwerking-van-omrekeningsverschillen
 datum: 1991-03-01
 nummer: CBN-advies 152/5
 provenance:
-  generated_at: '2026-05-11T15:15:31Z'
+  generated_at: '2026-05-11T17:48:38Z'
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/verwerking-van-omrekeningsverschillen
-    sha256: 8c9981bfefe01ead4bbaf1eb606c3babcfe1771b4eba2bff018ef1dd8986513d
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/verwerking-van-omrekeningsverschillen
+      sha256: 8c9981bfefe01ead4bbaf1eb606c3babcfe1771b4eba2bff018ef1dd8986513d
+      version:
   stale: false
-  stale_reason: null
+  stale_reason:
   tooling:
-    model: null
+    model:
     pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    prompt_version: null
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
     confirmed_at: '2026-05-11T12:04:41Z'
     confirmed_by: subagent-sonnet-4-6
     layer1:
-      file_size_chars: 2788
-      flags: []
+      status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:42Z'
       heading_count: 0
       max_section_chars: 2788
-      run_at: '2026-05-11T15:05:49Z'
-      run_id: 20260511-150547
-      status: pass
+      file_size_chars: 2788
+      flags: []
     layer2:
       agent: subagent-sonnet-4-6
       concrete_problemen: []
-      rationale: 'Korte bron (2788 tekens), geen subkoppen (heading_count: 0, conform
-        Laag-1). Inhoud compleet: vraag en advies aanwezig, voetnoot [^1] correct
-        gedefinieerd. Geen artefacten in categorieën A-G. De verwijzing naar paginanummers
-        (''pp. 35 tot 37'') is een interne verwijzing naar het brondocument, geen
-        TOC-rest.'
+      rationale: 'Korte bron (2788 tekens), geen subkoppen (heading_count: 0, conform Laag-1). Inhoud compleet: vraag en advies aanwezig, voetnoot [^1] correct gedefinieerd. Geen artefacten in categorieën A-G. De verwijzing naar paginanummers (''pp. 35 tot 37'') is een interne verwijzing naar het brondocument, geen TOC-rest.'
       run_at: '2026-05-11T12:04:41Z'
       status: trusted
-    rationale: 'Korte bron (2788 tekens), geen subkoppen (heading_count: 0, conform
-      Laag-1). Inhoud compleet: vraag en advies aanwezig, voetnoot [^1] correct gedefinieerd.
-      Geen artefacten in categorieën A-G. De verwijzing naar paginanummers (''pp.
-      35 tot 37'') is een interne verwijzing naar het brondocument, geen TOC-rest.'
+    rationale: 'Korte bron (2788 tekens), geen subkoppen (heading_count: 0, conform Laag-1). Inhoud compleet: vraag en advies aanwezig, voetnoot [^1] correct gedefinieerd. Geen artefacten in categorieën A-G. De verwijzing naar paginanummers (''pp. 35 tot 37'') is een interne verwijzing naar het brondocument, geen TOC-rest.'
     status: trusted
 themas:
-- negatief omrekeningsverschil
-- omrekeningsverschil
-- positieve omrekeningsverschillen
-- voorzichtigheidsbeginsel
-- wisselverrichting
+  - negatief omrekeningsverschil
+  - omrekeningsverschil
+  - positieve omrekeningsverschillen
+  - voorzichtigheidsbeginsel
+  - wisselverrichting
 ---
 
 # CBN-advies 152/5 - Verwerking van omrekeningsverschillen

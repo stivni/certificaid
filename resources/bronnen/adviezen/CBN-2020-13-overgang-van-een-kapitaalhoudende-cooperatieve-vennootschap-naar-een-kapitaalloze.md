@@ -3,61 +3,61 @@ bron: https://www.cbn-cnc.be/nl/adviezen/overgang-van-een-kapitaalhoudende-coope
 datum: 2020-12-09
 nummer: CBN-advies 2020/13
 provenance:
+  generated_at: '2026-05-11T17:48:39Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/overgang-van-een-kapitaalhoudende-cooperatieve-vennootschap-naar-een-kapitaalloze
       sha256: 7a6ccd926ff977a1552595e8ab0cb3da97a206538ddac53916548b750f5c742b
       version:
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T15:15:32Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
-    status: needs-rework
     confirmed_at: '2026-05-11T17:13:30Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "D4: Systematisch patroon malformed italic doorheen het document — regel 73: 'Ingevolge de* wet van 23 maart 2019*' (spatie vóór opening-asterisk), regel 133: '*Beschikbare inbreng buiten kapitaa*l' (letter 'l' buiten de italic span). B5: Regels 85, 88, 115, 141 bevatten subsectietitels ('CVBA die beantwoordt aan de definitie...' en 'CVBA die niet beantwoordt...') als plain-text paragrafen zonder heading-prefix, terwijl aangrenzende secties (### CVOA, #### Algemene regel) wél headings hebben."
     layer1:
-      file_size_chars: 24319
-      flags: []
-      heading_count: 11
-      max_section_chars: 12991
-      run_at: '2026-05-11T15:05:54Z'
-      run_id: 20260511-150547
       status: pass
+      run_id: 20260511-174840
+      run_at: '2026-05-11T17:48:44Z'
+      heading_count: 11
+      max_section_chars: 12987
+      file_size_chars: 24308
+      flags: []
     layer2:
-      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T17:13:30Z'
-      rationale: "D4: Systematisch patroon malformed italic doorheen het document — regel 73: 'Ingevolge de* wet van 23 maart 2019*' (spatie vóór opening-asterisk), regel 133: '*Beschikbare inbreng buiten kapitaa*l' (letter 'l' buiten de italic span). B5: Regels 85, 88, 115, 141 bevatten subsectietitels ('CVBA die beantwoordt aan de definitie...' en 'CVBA die niet beantwoordt...') als plain-text paragrafen zonder heading-prefix, terwijl aangrenzende secties (### CVOA, #### Algemene regel) wél headings hebben."
       concrete_problemen:
-        - regel: 73
-          categorie: D4
+        - categorie: D4
+          regel: 73
           type: other
           voorbeeld: Ingevolge de* wet van 23 maart 2019* *tot invoering...
-        - regel: 133
-          categorie: D4
+        - categorie: D4
+          regel: 133
           type: other
           voorbeeld: rekening 110 *Beschikbare inbreng buiten kapitaa*l
-        - regel: 85
-          categorie: B5
+        - categorie: B5
+          regel: 85
           type: other
           voorbeeld: CVBA die beantwoordt aan de definitie van een coöperatieve vennootschap in artikel 6:1 WVV
-        - regel: 88
-          categorie: B5
+        - categorie: B5
+          regel: 88
           type: other
           voorbeeld: CVBA die niet beantwoordt aan de definitie van een coöperatieve vennootschap in artikel 6:1 WVV
-        - regel: 115
-          categorie: B5
+        - categorie: B5
+          regel: 115
           type: other
           voorbeeld: CVBA die beantwoordt aan de definitie van een coöperatieve vennootschap in artikel 6:1 WVV (tweede keer plain text)
-        - regel: 141
-          categorie: B5
+        - categorie: B5
+          regel: 141
           type: other
           voorbeeld: CVBA die niet beantwoordt aan de definitie van een coöperatieve vennootschap in artikel 6:1 WVV (tweede keer plain text)
+      rationale: 'D4: Systematisch patroon malformed italic doorheen het document — regel 73: ''Ingevolge de* wet van 23 maart 2019*'' (spatie vóór opening-asterisk), regel 133: ''*Beschikbare inbreng buiten kapitaa*l'' (letter ''l'' buiten de italic span). B5: Regels 85, 88, 115, 141 bevatten subsectietitels (''CVBA die beantwoordt aan de definitie...'' en ''CVBA die niet beantwoordt...'') als plain-text paragrafen zonder heading-prefix, terwijl aangrenzende secties (### CVOA, #### Algemene regel) wél headings hebben.'
+      run_at: '2026-05-11T17:13:30Z'
+      status: needs-rework
+    rationale: 'D4: Systematisch patroon malformed italic doorheen het document — regel 73: ''Ingevolge de* wet van 23 maart 2019*'' (spatie vóór opening-asterisk), regel 133: ''*Beschikbare inbreng buiten kapitaa*l'' (letter ''l'' buiten de italic span). B5: Regels 85, 88, 115, 141 bevatten subsectietitels (''CVBA die beantwoordt aan de definitie...'' en ''CVBA die niet beantwoordt...'') als plain-text paragrafen zonder heading-prefix, terwijl aangrenzende secties (### CVOA, #### Algemene regel) wél headings hebben.'
+    status: needs-rework
 themas:
   - CVBA
   - coöperatieve vennootschap
@@ -77,7 +77,6 @@ themas:
 # CBN-advies 2020/13 – Overgang van een kapitaalhoudende coöperatieve vennootschap naar een kapitaalloze vennootschap
 
 ## Inleiding
-
 Ingevolge de* wet van 23 maart 2019* *tot invoering van het Wetboek van vennootschappen en verenigingen en houdende diverse bepalingen* werd het aantal vennootschapsvormen verminderd. Een van de behouden rechtsvormen is de coöperatieve vennootschap (CV). Bij de opstelling van het WVV heeft de wetgever de rechtsvorm van de CV echter opnieuw exclusief voorbehouden voor vennootschappen die een onderneming voeren op basis van het coöperatief gedachtengoed.[^2] 
 
 De rechtsvormen coöperatieve vennootschap met beperkte aansprakelijkheid (CVBA) en coöperatieve vennootschap met onbeperkte aansprakelijkheid (CVOA), gedefinieerd in het Wetboek van vennootschappen (W.Venn.), verdwijnen. De vennootschappen die bestonden op 1 mei 2019 en de rechtsvorm hadden van een CVBA of een CVOA moeten aldus in één van de resterende rechtsvormen worden omgezet of gaan er van rechtswege in over. 
@@ -89,7 +88,6 @@ Onderhavig advies verduidelijkt, in aanvulling op het CBN-advies 2019/14 - *Van 
 Het advies behandelt in hoofdzaak Hoofdstuk IV, Afdeling II *Overgangsregeling en inwerkingtreding van de wet van 23 maart 2019 tot invoering van het Wetboek van vennootschappen en verenigingen en houdende diverse bepalingen[^3]*  zoals gewijzigd door de artikelen 234 en 235 van de *wet van 28 april 2020 tot omzetting van Richtlijn (EU) 2017/828 van het Europees Parlement en de Raad van 17 mei 2017 tot wijziging van richtlijn 2007/36/EG wat het bevorderen van de langetermijnbetrokkenheid van aandeelhouders betreft, en houdende diverse bepalingen inzake vennootschappen en verenigingen (1)[^4] *. Het advies gaat niet nader in op de omzetting van een vennootschap die plaatsvindt in toepassing van Boek XII* Omzetting van vennootschappen van het Wetboek van vennootschappen* of in toepassing van Boek 14 *Omzetting van vennootschappen, verenigingen en stichtingen* van het WVV.
 
 ## Wijziging van de rechtsvorm
-
 CVBA die beantwoordt aan de definitie van een coöperatieve vennootschap in artikel 6:1 WVV
 Een CVBA die beantwoordt aan de definitie van een coöperatieve vennootschap in artikel 6:1 WVV wordt vanaf 1 januari 2020 van rechtswege een CV onderworpen aan het WVV. De dwingende bepalingen uit het WVV die gelden voor een CV zijn vanaf dan van rechtswege van toepassing. De aanvullende bepalingen van het WVV zijn slechts van toepassing indien deze niet worden uitgesloten door andersluidende statutaire clausules. De vennootschap moet haar statuten in overeenstemming brengen met de bepalingen van het WVV bij de eerstvolgende statutenwijziging van de vennootschap, maar ten laatste op 1 januari 2024. Een CVBA kon zich eveneens vrijwillig vóór 1 januari 2020 onderwerpen aan de bepalingen van het WVV. Die beslissing vereiste eveneens een statutenwijziging. Het WVV was in dit geval op haar van toepassing vanaf de dag van de bekendmaking van deze statutenwijziging maar ten laatste op 1 januari 2020.[^5] 
 
@@ -107,7 +105,6 @@ Een CVBA die zich op 1 januari 2024 nog niet vrijwillig heeft omgezet, wordt op 
 De Commissie merkt op dat de CVBA zich eveneens vrijwillig kan omzetten in een van de door het WVV geregelde rechtsvormen. In dat geval moet toepassing worden gemaakt van de procedure vermeld in Boek XII *Omzetting van vennootschappen* van het Wetboek van vennootschappen en dus niet van het overeenstemmende hoofdstuk van het Wetboek van vennootschappen en verenigingen. Indien dergelijke CVBA wordt omgezet in een NV, blijft de vennootschap een kapitaalhoudende vennootschap en blijven in voorkomend geval de wettelijke reserves eveneens gewoon bestaan. 
 
 ### CVOA
-
 De wetgever merkte bij de voorbereiding van de *wet van 23 maart 2019 tot invoering van het Wetboek van vennootschappen en verenigingen en houdende diverse bepalingen* op dat de CVOA in de praktijk vrijwel volledig verdwenen is.[^15]
  Niettemin heeft de wetgever ook voor de CVOA een expliciete regeling uitgewerkt[^16] voor de omzetting van deze CVOA’s ingevolge de afschaffing van hun rechtsvorm. 
 
@@ -117,16 +114,13 @@ Een CVOA die zich op 1 januari 2024 nog niet vrijwillig heeft omgezet, wordt op 
  In dat geval moet het bestuursorgaan ten laatste op 30 juni 2024 de algemene vergadering bijeen roepen met als agenda de aanpassing van de statuten aan de nieuwe rechtsvorm.[^19] 
 
 ## Kapitaal wordt inbreng buiten kapitaal
-
 Zoals reeds toegelicht door de Commissie in het CBN-advies 2019/14 - *Van een kapitaalhoudende BVBA naar een kapitaalloze BV*, wordt voor de kapitaalloze vennootschappen de rekening 11* Inbreng buiten kapitaal *van de minimum indeling van een rekeningenstelsel (MAR) gebruikt voor de ontvangen of toegekende inbrengen waarbij een onderscheid wordt gemaakt naargelang deze inbreng al dan niet beschikbaar is.
 
 CVBA die beantwoordt aan de definitie van een coöperatieve vennootschap in artikel 6:1 WVV
 #### Algemene regel
-
 Een op 1 mei 2019 bestaande CVBA die beantwoordt aan de definitie van een coöperatieve vennootschap in artikel 6:1 WVV, is wat betreft haar kapitaalbestanddelen onderworpen aan de bepalingen van het WVV vanaf 1 januari 2020, of, bij een eerdere “opt in”[^20], vanaf de bekendmaking van de statutenwijziging. Voor een dergelijke CVBA die haar boekjaar afsluit per kalenderjaar en geen voorafgaand gebruik maakte van een opt-in, is de laatste jaarrekening waarin sprake is van een kapitaal de jaarrekening met afsluitingsdatum 31 december 2019. 
 
 #### Vast gedeelte van het kapitaal en de wettelijke reserve
-
 Vanaf 1 januari 2020, of, bij een eerdere opt-in vanaf de bekendmaking van de statutenwijziging, worden het volgestorte gedeelte van het vaste kapitaal en de wettelijke reserve van rechtswege en zonder vervulling van enige formaliteit omgevormd in een statutair onbeschikbare eigen vermogensrekening.
 
 - Het vast gedeelte van het kapitaal wordt dan overgeboekt naar de rekening 111 *Onbeschikbare inbreng buiten kapitaal*; 
@@ -137,13 +131,11 @@ Het niet-gestorte gedeelte van het vast gedeelte van het kapitaal wordt op dezel
 Deze eigen vermogensrekening die van rechtswege onbeschikbaar is, kan nadien beschikbaar worden gemaakt mits daartoe wordt beslist door middel van een statutenwijziging[^21]. 
 
 #### Variabel gedeelte van het kapitaal
-
 De Wet van 23 maart 2019 tot invoering van het wetboek van vennootschappen en verenigingen en houdende diverse bepalingen heeft uitsluitend een wettelijke regeling uitgewerkt voor het vast gedeelte van het kapitaal van dergelijke CVBA. De omvorming van het variabel gedeelte van het kapitaal van een CVBA tot de inbreng buiten kapitaal ingevolge de afschaffing van het kapitaalbegrip vanaf 1 januari 2020, of, bij een eerdere opt-in vanaf de bekendmaking van de statutenwijziging, wordt aldus bepaald in functie van wat de statuten daarover vermelden. In lijn met de wettelijke specificiteit van een CVBA en haar kapitaalregeling onder het W.Venn. zal het variabel gedeelte van het kapitaal in regel beschikbaar zijn en aldus worden geboekt op de rekening 110 *Beschikbare inbreng buiten kapitaa*l.
 
 Het niet-gestorte gedeelte van het variabele gedeelte van het kapitaal wordt eveneens op overeenkomstige wijze en op dezelfde wijze omgevormd in een eigen vermogensrekening “niet-opgevraagde inbrengen”. Op het ogenblik dat nadien deze bedragen worden opgevraagd, wordt voormelde vermogensrekening “niet-opgevraagde inbrengen” gecrediteerd en wordt een vordering op de aandeelhouder geboekt. Dit heeft dan tot gevolg dat ook deze bedragen geboekt staan op dezelfde beschikbare eigen vermogensrekening.
 
 #### Boekingen
-
 Voor wat betreft de concrete journaalposten verwijst de Commissie naar de voorbeeldboekingen opgenomen in het CBN-advies 2019/14 - *Van een kapitaalhoudende BVBA naar een kapitaalloze BV*.
 
 CVBA die niet beantwoordt aan de definitie van een coöperatieve vennootschap in artikel 6:1 WVV
@@ -154,7 +146,6 @@ Voor een CVBA die niet beantwoordt aan de definitie van een coöperatieve vennoo
 De hiervoor vermelde boekhoudkundige verwerking van de kapitaalbestanddelen van de CVBA die beantwoordt aan de definitie van een coöperatieve vennootschap in artikel 6:1 WVV, is van overeenkomstige toepassing. Zoals vermeld in randnummer 11 kan een CVBA die niet beantwoordt aan de definitie van een coöperatieve vennootschap in artikel 6:1 WVV, vrijwillig vóór 1 januari 2024 worden omgezet in een andere rechtsvorm, bijvoorbeeld een NV. In het geval van een omzetting in een kapitaalhoudende vennootschap, behoudt de vennootschap aldus haar kapitaal en wettelijke reserves.
 
 ### CVOA
-
 De Commissie merkt op dat de wetgever niet heeft voorzien in expliciete bepalingen die gelden voor de kapitaalbestanddelen van een CVOA ingevolge de inwerkingtreding van het WVV. De boekhoudkundige verwerking van deze bestanddelen wordt aldus uitsluitend bepaald in functie van wat de statuten daarover vermelden. De Commissie merkt op dat voor een CVOA onder het W.Venn evenwel geen minimale kapitaalvereisten golden. 
 
 - Indien ingevolge statutaire bepalingen de inbrengen onbeschikbaar zijn, worden deze geboekt op de rekening 111 *Onbeschikbare inbreng buiten kapitaal*; 
@@ -163,7 +154,6 @@ De Commissie merkt op dat de wetgever niet heeft voorzien in expliciete bepaling
 Het niet-gestorte gedeelte van het kapitaal wordt eveneens op overeenkomstige wijze geboekt. Op het ogenblik dat nadien deze bedragen worden opgevraagd, wordt voormelde vermogensrekening “niet-opgevraagde inbrengen” gecrediteerd en wordt een vordering op de aandeelhouder geboekt. Dit heeft dan tot gevolg dat ook deze bedragen geboekt staan op dezelfde beschikbare of onbeschikbare eigen vermogensrekening.
 
 ## Inbreng of verhoging van de inbreng in een vanaf 1 mei 2019 opgerichte CV of in een vennootschap overgegaan of omgezet in een in het WVV gedefinieerde CV
-
 Een CV opgericht na 1 mei 2019 en een CVBA overgegaan in een CV heeft geen kapitaal maar een inbreng. De rubriek I. *Inbreng* bevat het ingebrachte vermogen, dat bestaat uit de bedongen waarde van alle door de aandeelhouders toegezegde inbrengen in geld of in natura[^23], voor zover niet terug uitgekeerd. 
 
 Bestaande en nieuwe aandeelhouders kunnen zonder statutenwijziging inschrijven op nieuwe aandelen, in voorkomend geval onder de voorwaarden bepaald in de statuten.[^24]
@@ -176,7 +166,6 @@ Behoudens andersluidende statutaire bepalingen wordt het ingebrachte vermogen on
  Op het ogenblik van het opvragen van de nog niet gestorte inbreng wordt vervolgens voormelde subrekening gecrediteerd en wordt de vordering op de aandeelhouder geboekt aan debetzijde op de rekening 410 *Opgevraagd, niet gestort kapitaal* *of inbreng[^28]* . De Commissie merkt op dat met de jaarrekening een lijst moet worden neergelegd bij de Nationale Bank van België met opgave van het aantal geplaatste aandelen, de gedane stortingen en de lijst van de aandeelhouders die hun aandelen niet hebben volgestort, met vermelding van het bedrag dat zij nog verschuldigd zijn.[^29] 
 
 ## Scheidingsaandeel – uittreding lastens het vennootschapsvermogen
-
 Een van de belangrijke kenmerken van een coöperatieve vennootschap is de soepele uittredingsmogelijkheid die voorzien is zowel in het W.Venn. als in het WVV. Hierbij wordt uitgetreden lastens het vennootschapsvermogen. 
 
 De Commissie zal een afzonderlijk advies wijden aan de boekhoudkundige verwerking van de uittreding van een vennoot lastens het vennootschapsvermogen. De Commissie merkt alvast op dat het WVV ook voor de BV toelaat om een statutaire bepaling in te lassen die de uittreding lastens het vennootschapsvermogen mogelijk maakt. Een verschilpunt ten opzicht van de CV is dat voor een BV een dergelijke uittreding slechts mogelijk is indien de statuten een dergelijke uittreding expliciet voorzien, terwijl dit voor de CV altijd mogelijk is, zelfs als de statuten dit zouden verbieden.[^30] 
