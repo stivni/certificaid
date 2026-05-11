@@ -1,43 +1,52 @@
 ---
-nummer: "CBN-advies 126/3"
+nummer: CBN-advies 126/3
 datum: 1986-01-01
 themas:
-  - toerekening van kosten en opbrengsten
-  - vervaardigingsprijs
-  - voorschot
+- toerekening van kosten en opbrengsten
+- vervaardigingsprijs
+- voorschot
 bron: https://www.cbn-cnc.be/nl/adviezen/vervaardigingsprijs-toerekening-van-creditrente
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/vervaardigingsprijs-toerekening-van-creditrente
-      sha256: c0be8b50c0783a49b530949e9774a323bc28b67bbc3d68f1f7c3ece3584e95ac
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/vervaardigingsprijs-toerekening-van-creditrente
+    sha256: c0be8b50c0783a49b530949e9774a323bc28b67bbc3d68f1f7c3ece3584e95ac
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T18:34:36Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T18:40:03Z'
     confirmed_by: qa-laag1-auto
     rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    layer1:
+      verdict: pass
+      heading_count: 0
+      max_section_chars: 4207
+      file_size_chars: 4207
+      flags: []
+      run_id: 20260509-212552
 gerelateerde_adviezen:
-  - titel: 'Verenigingen en Stichtingen: roerende voorheffing'
-    url: https://www.cbn-cnc.be/nl/adviezen/verenigingen-en-stichtingen-roerende-voorheffing
-    datum: '2016-07-06'
-  - titel: Boekhoudkundige verwerking van verrichtingen afgesloten onder opschortende voorwaarde
-    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-verrichtingen-afgesloten-onder-opschortende-voorwaarde
-    datum: '1995-03-01'
-  - titel: Boeking van de prorata van gelopen interest op obligaties en kasbons
-    url: https://www.cbn-cnc.be/nl/adviezen/boeking-van-de-prorata-van-gelopen-interest-op-obligaties-en-kasbons
-    datum: '1990-06-01'
-  - titel: Actuarieel rendement op vastrentende effecten - Aanpassing van de adviezen 137/5 en 148/4
-    url: https://www.cbn-cnc.be/nl/adviezen/actuarieel-rendement-op-vastrentende-effecten-aanpassing-van-de-adviezen-1375-en-1484
-    datum: '1993-12-01'
+- titel: 'Verenigingen en Stichtingen: roerende voorheffing'
+  url: https://www.cbn-cnc.be/nl/adviezen/verenigingen-en-stichtingen-roerende-voorheffing
+  datum: '2016-07-06'
+- titel: Boekhoudkundige verwerking van verrichtingen afgesloten onder opschortende
+    voorwaarde
+  url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-verrichtingen-afgesloten-onder-opschortende-voorwaarde
+  datum: '1995-03-01'
+- titel: Boeking van de prorata van gelopen interest op obligaties en kasbons
+  url: https://www.cbn-cnc.be/nl/adviezen/boeking-van-de-prorata-van-gelopen-interest-op-obligaties-en-kasbons
+  datum: '1990-06-01'
+- titel: Actuarieel rendement op vastrentende effecten - Aanpassing van de adviezen
+    137/5 en 148/4
+  url: https://www.cbn-cnc.be/nl/adviezen/actuarieel-rendement-op-vastrentende-effecten-aanpassing-van-de-adviezen-1375-en-1484
+  datum: '1993-12-01'
 ---
 
 # CBN-advies 126/3 - Vervaardigingsprijs : toerekening van creditrente

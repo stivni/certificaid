@@ -1,40 +1,48 @@
 ---
-nummer: "CBN-advies 2015/1"
+nummer: CBN-advies 2015/1
 datum: 2015-05-13
 themas:
-  - belastingbesparing
-  - belastingvoordeel
-  - belastingvrije reserves
-  - Investeerder
-  - Onaantastbaarheidsvoorwaarde
-  - tax shelter
+- belastingbesparing
+- belastingvoordeel
+- belastingvrije reserves
+- Investeerder
+- Onaantastbaarheidsvoorwaarde
+- tax shelter
 bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-tax-shelter-in-hoofde-van-de-investeerder
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-tax-shelter-in-hoofde-van-de-investeerder
-      sha256: 67fafb8ab12a60b28c7bae3b215010737b1e7a8d288a71d0da5ef8114d159e0d
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-tax-shelter-in-hoofde-van-de-investeerder
+    sha256: 67fafb8ab12a60b28c7bae3b215010737b1e7a8d288a71d0da5ef8114d159e0d
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T18:36:47Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T18:40:04Z'
     confirmed_by: qa-laag1-auto
     rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    layer1:
+      verdict: pass
+      heading_count: 11
+      max_section_chars: 18549
+      file_size_chars: 24511
+      flags: []
+      run_id: 20260509-212552
 gerelateerde_adviezen:
-  - titel: Tax shelter voor podiumkunsten
-    url: https://www.cbn-cnc.be/nl/adviezen/tax-shelter-voor-podiumkunsten
-    datum: '2018-05-30'
-  - titel: Verwerking in de boekhouding en de jaarrekening van de belastingbesparing ingevoerd door het K.B. nr. 16 van 9 maart 1982
-    url: https://www.cbn-cnc.be/nl/adviezen/verwerking-in-de-boekhouding-en-de-jaarrekening-van-de-belastingbesparing-ingevoerd-door
-    datum: '1983-04-10'
+- titel: Tax shelter voor podiumkunsten
+  url: https://www.cbn-cnc.be/nl/adviezen/tax-shelter-voor-podiumkunsten
+  datum: '2018-05-30'
+- titel: Verwerking in de boekhouding en de jaarrekening van de belastingbesparing
+    ingevoerd door het K.B. nr. 16 van 9 maart 1982
+  url: https://www.cbn-cnc.be/nl/adviezen/verwerking-in-de-boekhouding-en-de-jaarrekening-van-de-belastingbesparing-ingevoerd-door
+  datum: '1983-04-10'
 ---
 
 # CBN-advies 2015/1 - Boekhoudkundige verwerking van de tax shelter in hoofde van de investeerder (raamovereenkomsten gesloten vanaf 1 januari 2015)

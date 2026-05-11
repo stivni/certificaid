@@ -1,55 +1,63 @@
 ---
-nummer: "CBN-advies 2022/09"
+nummer: CBN-advies 2022/09
 datum: 2022-07-27
 themas:
-  - consolidatie
-  - horizontale groep
-  - consortium
-  - centrale leiding
-  - consolidatieplicht
-  - consolidatiekring
-  - groottecriteria
-  - horizontale consolidatie
-  - verticale consolidatie
-  - belangen van derden
-  - eigen aandelen
-  - geaggregeerde basis
-  - microvennootschap
-  - consolidatiemethode
-  - integrale consolidatie
+- consolidatie
+- horizontale groep
+- consortium
+- centrale leiding
+- consolidatieplicht
+- consolidatiekring
+- groottecriteria
+- horizontale consolidatie
+- verticale consolidatie
+- belangen van derden
+- eigen aandelen
+- geaggregeerde basis
+- microvennootschap
+- consolidatiemethode
+- integrale consolidatie
 bron: https://www.cbn-cnc.be/nl/adviezen/consolidatie-bij-de-horizontale-groep-consortium-0
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/consolidatie-bij-de-horizontale-groep-consortium-0
-      sha256: 12683d44b1bc9f6374c629327b3f9306330182fbca42de0ad727f6cacf952408
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/consolidatie-bij-de-horizontale-groep-consortium-0
+    sha256: 12683d44b1bc9f6374c629327b3f9306330182fbca42de0ad727f6cacf952408
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T18:38:12Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T18:40:05Z'
     confirmed_by: qa-laag1-auto
     rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    layer1:
+      verdict: pass
+      heading_count: 62
+      max_section_chars: 13248
+      file_size_chars: 52064
+      flags: []
+      run_id: 20260509-212552
 gerelateerde_adviezen:
-  - titel: Vermogensmutatiemethode
-    url: https://www.cbn-cnc.be/nl/adviezen/vermogensmutatiemethode
-    datum: '2022-09-09'
-  - titel: Transacties onder gemeenschappelijke leiding (Common control transactions) (update)
-    url: https://www.cbn-cnc.be/nl/adviezen/transacties-onder-gemeenschappelijke-leiding-common-control-transactions-update
-    datum: '2017-09-13'
-  - titel: Consolidatie bij de horizontale groep (consortium)
-    url: https://www.cbn-cnc.be/nl/adviezen/consolidatie-bij-de-horizontale-groep-consortium
-    datum: '2017-03-15'
-  - titel: Gezamenlijke controle over een vennootschap - groottecriteria (update)
-    url: https://www.cbn-cnc.be/nl/adviezen/gezamenlijke-controle-over-een-vennootschap-groottecriteria-update
-    datum: '2017-02-01'
+- titel: Vermogensmutatiemethode
+  url: https://www.cbn-cnc.be/nl/adviezen/vermogensmutatiemethode
+  datum: '2022-09-09'
+- titel: Transacties onder gemeenschappelijke leiding (Common control transactions)
+    (update)
+  url: https://www.cbn-cnc.be/nl/adviezen/transacties-onder-gemeenschappelijke-leiding-common-control-transactions-update
+  datum: '2017-09-13'
+- titel: Consolidatie bij de horizontale groep (consortium)
+  url: https://www.cbn-cnc.be/nl/adviezen/consolidatie-bij-de-horizontale-groep-consortium
+  datum: '2017-03-15'
+- titel: Gezamenlijke controle over een vennootschap - groottecriteria (update)
+  url: https://www.cbn-cnc.be/nl/adviezen/gezamenlijke-controle-over-een-vennootschap-groottecriteria-update
+  datum: '2017-02-01'
 ---
 
 # CBN-advies 2022/09 – Consolidatie bij de horizontale groep (consortium)

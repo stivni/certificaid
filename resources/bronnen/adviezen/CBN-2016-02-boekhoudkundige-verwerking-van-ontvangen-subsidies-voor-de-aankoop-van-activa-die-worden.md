@@ -1,46 +1,56 @@
 ---
-nummer: "CBN-advies 2016/2"
+nummer: CBN-advies 2016/2
 datum: 2016-03-09
 themas:
-  - materiële vaste activa
-  - overige materiële vaste activa
-  - subsidies
-  - terbeschikkingstelling vaste activa
-  - vereniging zonder winstoogmerk
-  - vzw
+- materiële vaste activa
+- overige materiële vaste activa
+- subsidies
+- terbeschikkingstelling vaste activa
+- vereniging zonder winstoogmerk
+- vzw
 bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-ontvangen-subsidies-voor-de-aankoop-van-activa-die-worden
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-ontvangen-subsidies-voor-de-aankoop-van-activa-die-worden
-      sha256: 074350628fb9f6a0648fb610e585e68c7bac08b5f35a1156be111a403d2c830a
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-ontvangen-subsidies-voor-de-aankoop-van-activa-die-worden
+    sha256: 074350628fb9f6a0648fb610e585e68c7bac08b5f35a1156be111a403d2c830a
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T18:36:53Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T18:40:04Z'
     confirmed_by: qa-laag1-auto
     rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    layer1:
+      verdict: pass
+      heading_count: 2
+      max_section_chars: 2264
+      file_size_chars: 3168
+      flags: []
+      run_id: 20260509-212552
 gerelateerde_adviezen:
-  - titel: Wijziging van het boekhoudkundig referentiestelsel
-    url: https://www.cbn-cnc.be/nl/adviezen/wijziging-van-het-boekhoudkundig-referentiestelsel
-    datum: '2022-07-20'
-  - titel: Herwaarderingsmeerwaarden
-    url: https://www.cbn-cnc.be/nl/adviezen/herwaarderingsmeerwaarden
-    datum: '2011-07-06'
-  - titel: Verwerking van verrichtingen voor de verwerving of verkoop van een recht op vruchtgebruik of van naakte eigendom op materiële vaste activa in de boekhouding van de vruchtgebruiker (de erfpachter, de opstalhouder) en van de naakte eigenaar (de grondeigenaa
-    url: https://www.cbn-cnc.be/nl/adviezen/verwerking-van-verrichtingen-voor-de-verwerving-of-verkoop-van-een-recht-op-vruchtgebruik
-    datum: '1991-03-01'
-  - titel: Bouwwerken op andermans grond
-    url: https://www.cbn-cnc.be/nl/adviezen/bouwwerken-op-andermans-grond
-    datum: '1986-07-01'
+- titel: Wijziging van het boekhoudkundig referentiestelsel
+  url: https://www.cbn-cnc.be/nl/adviezen/wijziging-van-het-boekhoudkundig-referentiestelsel
+  datum: '2022-07-20'
+- titel: Herwaarderingsmeerwaarden
+  url: https://www.cbn-cnc.be/nl/adviezen/herwaarderingsmeerwaarden
+  datum: '2011-07-06'
+- titel: Verwerking van verrichtingen voor de verwerving of verkoop van een recht
+    op vruchtgebruik of van naakte eigendom op materiële vaste activa in de boekhouding
+    van de vruchtgebruiker (de erfpachter, de opstalhouder) en van de naakte eigenaar
+    (de grondeigenaa
+  url: https://www.cbn-cnc.be/nl/adviezen/verwerking-van-verrichtingen-voor-de-verwerving-of-verkoop-van-een-recht-op-vruchtgebruik
+  datum: '1991-03-01'
+- titel: Bouwwerken op andermans grond
+  url: https://www.cbn-cnc.be/nl/adviezen/bouwwerken-op-andermans-grond
+  datum: '1986-07-01'
 ---
 
 # CBN-advies 2016/2 – Boekhoudkundige verwerking van ontvangen subsidies voor de aankoop van activa die worden ter beschikking gesteld

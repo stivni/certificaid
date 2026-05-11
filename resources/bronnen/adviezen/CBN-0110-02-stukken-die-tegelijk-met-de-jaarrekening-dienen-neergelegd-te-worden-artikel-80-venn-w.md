@@ -1,35 +1,42 @@
 ---
-nummer: "CBN-advies 110/2"
+nummer: CBN-advies 110/2
 datum: 1978-12-01
 themas:
-  - achterstallig
-  - bijkantoor
-  - buitenlandse onderneming
-  - buitenlandse vennootschap
-  - openbaarmaking
-  - publicatie
-  - schulden
-  - schulden jegens fiscale besturen en jegens de Rijksdienst voor Sociale Zekerheid
+- achterstallig
+- bijkantoor
+- buitenlandse onderneming
+- buitenlandse vennootschap
+- openbaarmaking
+- publicatie
+- schulden
+- schulden jegens fiscale besturen en jegens de Rijksdienst voor Sociale Zekerheid
 bron: https://www.cbn-cnc.be/nl/adviezen/stukken-die-tegelijk-met-de-jaarrekening-dienen-neergelegd-te-worden-artikel-80-venn-w
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/stukken-die-tegelijk-met-de-jaarrekening-dienen-neergelegd-te-worden-artikel-80-venn-w
-      sha256: a859f50e1d95639cecf3850a874ab41a26e0173bc95ecf7d0a8f404af3224c6c
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/stukken-die-tegelijk-met-de-jaarrekening-dienen-neergelegd-te-worden-artikel-80-venn-w
+    sha256: a859f50e1d95639cecf3850a874ab41a26e0173bc95ecf7d0a8f404af3224c6c
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T18:34:07Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T18:40:02Z'
     confirmed_by: qa-laag1-auto
     rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    layer1:
+      verdict: pass
+      heading_count: 2
+      max_section_chars: 3093
+      file_size_chars: 5988
+      flags: []
+      run_id: 20260509-212552
 ---
 
 # CBN-advies 110/2 - Stukken die tegelijk met de jaarrekening dienen neergelegd te worden (artikel 80 W. Venn.)

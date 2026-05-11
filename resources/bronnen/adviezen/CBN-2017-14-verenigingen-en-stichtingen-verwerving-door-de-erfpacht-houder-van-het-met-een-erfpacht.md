@@ -1,46 +1,57 @@
 ---
-nummer: "CBN-advies 2017/14"
+nummer: CBN-advies 2017/14
 datum: 2017-06-21
 themas:
-  - erfpacht
-  - onroerende goederen
-  - schenking met last
-  - symbolische vergoeding
-  - tréfonds
-  - zakelijke rechten
+- erfpacht
+- onroerende goederen
+- schenking met last
+- symbolische vergoeding
+- tréfonds
+- zakelijke rechten
 bron: https://www.cbn-cnc.be/nl/adviezen/verenigingen-en-stichtingen-verwerving-door-de-erfpacht-houder-van-het-met-een-erfpacht
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/verenigingen-en-stichtingen-verwerving-door-de-erfpacht-houder-van-het-met-een-erfpacht
-      sha256: 5cbd681fd8472fc6e422e3e7abbf6654d621e4aa16abd64891dfe87a8c086955
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/verenigingen-en-stichtingen-verwerving-door-de-erfpacht-houder-van-het-met-een-erfpacht
+    sha256: 5cbd681fd8472fc6e422e3e7abbf6654d621e4aa16abd64891dfe87a8c086955
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T18:37:14Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T18:40:04Z'
     confirmed_by: qa-laag1-auto
     rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    layer1:
+      verdict: pass
+      heading_count: 16
+      max_section_chars: 7663
+      file_size_chars: 19395
+      flags: []
+      run_id: 20260509-212552
 gerelateerde_adviezen:
-  - titel: Rekening 26 Overige materiële vaste activa
-    url: https://www.cbn-cnc.be/nl/adviezen/rekening-26-overige-materiele-vaste-activa
-    datum: '2021-06-23'
-  - titel: 'Zakelijke rechten op onroerende goederen: vruchtgebruik - opstalrecht - erfpachtrecht - erfdienstbaarheid'
-    url: https://www.cbn-cnc.be/nl/adviezen/zakelijke-rechten-op-onroerende-goederen-vruchtgebruik-opstalrecht-erfpachtrecht
-    datum: '2015-07-08'
-  - titel: Verwerking van verrichtingen voor de verwerving of verkoop van een recht op vruchtgebruik of van naakte eigendom op materiële vaste activa in de boekhouding van de vruchtgebruiker (de erfpachter, de opstalhouder) en van de naakte eigenaar (de grondeigenaa
-    url: https://www.cbn-cnc.be/nl/adviezen/verwerking-van-verrichtingen-voor-de-verwerving-of-verkoop-van-een-recht-op-vruchtgebruik
-    datum: '1991-03-01'
-  - titel: Boekhoudkundige verwerking van erfpachtcontracten in not-for-profit-organisaties
-    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-erfpachtcontracten-in-not-for-profit-organisaties
-    datum: '2008-07-23'
+- titel: Rekening 26 Overige materiële vaste activa
+  url: https://www.cbn-cnc.be/nl/adviezen/rekening-26-overige-materiele-vaste-activa
+  datum: '2021-06-23'
+- titel: 'Zakelijke rechten op onroerende goederen: vruchtgebruik - opstalrecht -
+    erfpachtrecht - erfdienstbaarheid'
+  url: https://www.cbn-cnc.be/nl/adviezen/zakelijke-rechten-op-onroerende-goederen-vruchtgebruik-opstalrecht-erfpachtrecht
+  datum: '2015-07-08'
+- titel: Verwerking van verrichtingen voor de verwerving of verkoop van een recht
+    op vruchtgebruik of van naakte eigendom op materiële vaste activa in de boekhouding
+    van de vruchtgebruiker (de erfpachter, de opstalhouder) en van de naakte eigenaar
+    (de grondeigenaa
+  url: https://www.cbn-cnc.be/nl/adviezen/verwerking-van-verrichtingen-voor-de-verwerving-of-verkoop-van-een-recht-op-vruchtgebruik
+  datum: '1991-03-01'
+- titel: Boekhoudkundige verwerking van erfpachtcontracten in not-for-profit-organisaties
+  url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-erfpachtcontracten-in-not-for-profit-organisaties
+  datum: '2008-07-23'
 ---
 
 # CBN-advies 2017/14 – Verenigingen en Stichtingen – Verwerving door de erfpacht-houder van het met een erfpacht bezwaard onroerend goed (verwerving tréfonds) – Hereniging van het eigendomsrecht

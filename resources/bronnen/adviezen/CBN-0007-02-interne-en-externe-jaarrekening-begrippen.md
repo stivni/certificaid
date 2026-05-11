@@ -1,32 +1,40 @@
 ---
-nummer: "CBN-advies 7/2"
+nummer: CBN-advies 7/2
 datum: 1981-04-01
 themas:
-  - externe jaarrekening
-  - interne jaarrekening
-  - jaarrekening
-  - openbaarmaking
-  - publicatie
+- externe jaarrekening
+- interne jaarrekening
+- jaarrekening
+- openbaarmaking
+- publicatie
 bron: https://www.cbn-cnc.be/nl/adviezen/interne-en-externe-jaarrekening-begrippen
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/interne-en-externe-jaarrekening-begrippen
-      sha256: 2f2bd2508b071ea8c821b9b284c8c28935df3eef7f5a02f2a63ed5ab9b56734e
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/interne-en-externe-jaarrekening-begrippen
+    sha256: 2f2bd2508b071ea8c821b9b284c8c28935df3eef7f5a02f2a63ed5ab9b56734e
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T18:33:28Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T19:02:29Z'
     confirmed_by: subagent-laag2-ronde2
-    rationale: '[Laag-2-R2 2026-05-08] Volledig en coherent, twee begrippen helder onderscheiden, voetnoten correct.'
+    rationale: '[Laag-2-R2 2026-05-08] Volledig en coherent, twee begrippen helder
+      onderscheiden, voetnoten correct.'
+    layer1:
+      verdict: pass
+      heading_count: 1
+      max_section_chars: 5137
+      file_size_chars: 6898
+      flags: []
+      run_id: 20260509-212552
 ---
 
 # CBN advies 7-2 - Interne en externe jaarrekening – Begrippen

@@ -1,33 +1,40 @@
 ---
-nummer: "CBN-advies 2018/24"
+nummer: CBN-advies 2018/24
 datum: 2018-12-10
 themas:
-  - duolegaat
-  - nalatenschap
-  - legaat
-  - schenking
-  - duolegaat in geld
-  - duolegaat in natura
+- duolegaat
+- nalatenschap
+- legaat
+- schenking
+- duolegaat in geld
+- duolegaat in natura
 bron: https://www.cbn-cnc.be/nl/adviezen/duolegaat-vereniging-en-stichting
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/duolegaat-vereniging-en-stichting
-      sha256: 0baac9477a5f841ed3e769b0073d43138b4b533987a1590f4990f4c6088b39f4
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/duolegaat-vereniging-en-stichting
+    sha256: 0baac9477a5f841ed3e769b0073d43138b4b533987a1590f4990f4c6088b39f4
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T18:37:32Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T18:40:05Z'
     confirmed_by: qa-laag1-auto
     rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    layer1:
+      verdict: pass
+      heading_count: 7
+      max_section_chars: 8773
+      file_size_chars: 14724
+      flags: []
+      run_id: 20260509-212552
 ---
 
 # CBN-advies 2018/24 – Duolegaat – Vereniging en stichting

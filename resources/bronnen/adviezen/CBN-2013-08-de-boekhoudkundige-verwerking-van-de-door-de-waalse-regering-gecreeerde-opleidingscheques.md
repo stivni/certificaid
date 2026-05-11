@@ -1,36 +1,46 @@
 ---
-nummer: "CBN-advies 2013/8"
+nummer: CBN-advies 2013/8
 datum: 2013-04-24
 themas:
-  - bedrijfssubsidie
-  - opleidingscheques
+- bedrijfssubsidie
+- opleidingscheques
 bron: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-door-de-waalse-regering-gecreeerde-opleidingscheques
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-door-de-waalse-regering-gecreeerde-opleidingscheques
-      sha256: e38bfddbd610fc108a5e18a82365dacd18dca9065a2026646c8e146a367dcc71
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-door-de-waalse-regering-gecreeerde-opleidingscheques
+    sha256: e38bfddbd610fc108a5e18a82365dacd18dca9065a2026646c8e146a367dcc71
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T18:36:38Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T18:40:04Z'
     confirmed_by: qa-laag1-auto
     rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    layer1:
+      verdict: pass
+      heading_count: 2
+      max_section_chars: 2907
+      file_size_chars: 3778
+      flags: []
+      run_id: 20260509-212552
 gerelateerde_adviezen:
-  - titel: Boekhoudkundige verwerking van loontussenkomst door de overheid in hoofde van de werkgever (update)
-    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-loontussenkomst-door-de-overheid-in-hoofde-van-de-werkgever
-    datum: '2010-09-08'
-  - titel: De boekhoudkundige verwerking van het stelsel tot gedeeltelijke vrijstelling van betaling van de bedrijfsvoorheffing, zoals geregeld door artikel 275/3 van het Wetboek van de Inkomstenbelastingen 1992
-    url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-het-stelsel-tot-gedeeltelijke-vrijstelling-van-0
-    datum: '2009-11-18'
+- titel: Boekhoudkundige verwerking van loontussenkomst door de overheid in hoofde
+    van de werkgever (update)
+  url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-loontussenkomst-door-de-overheid-in-hoofde-van-de-werkgever
+  datum: '2010-09-08'
+- titel: De boekhoudkundige verwerking van het stelsel tot gedeeltelijke vrijstelling
+    van betaling van de bedrijfsvoorheffing, zoals geregeld door artikel 275/3 van
+    het Wetboek van de Inkomstenbelastingen 1992
+  url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-het-stelsel-tot-gedeeltelijke-vrijstelling-van-0
+  datum: '2009-11-18'
 ---
 
 # CBN-advies 2013/8 – De boekhoudkundige verwerking van de door de Waalse regering gecreëerde opleidingscheques

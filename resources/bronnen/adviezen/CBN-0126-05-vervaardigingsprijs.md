@@ -1,36 +1,44 @@
 ---
-nummer: "CBN-advies 126/5"
+nummer: CBN-advies 126/5
 datum: 1986-07-01
 themas:
-  - financiële kosten
-  - vervaardigingsprijs
+- financiële kosten
+- vervaardigingsprijs
 bron: https://www.cbn-cnc.be/nl/adviezen/vervaardigingsprijs
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/vervaardigingsprijs
-      sha256: 008e8c01ac1c4a8dc672d6eda2ea5765048ae1304d8ee04def94fced00021d24
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/vervaardigingsprijs
+    sha256: 008e8c01ac1c4a8dc672d6eda2ea5765048ae1304d8ee04def94fced00021d24
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T18:34:37Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T18:40:03Z'
     confirmed_by: qa-laag1-auto
     rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    layer1:
+      verdict: pass
+      heading_count: 0
+      max_section_chars: 1111
+      file_size_chars: 1111
+      flags: []
+      run_id: 20260509-212552
 gerelateerde_adviezen:
-  - titel: Verwerking in de jaarrekening van de door de Vlaamse regering gecreëerde opleidingscheques
-    url: https://www.cbn-cnc.be/nl/adviezen/verwerking-in-de-jaarrekening-van-de-door-de-vlaamse-regering-gecreeerde-opleidingscheques
-    datum: '2008-12-01'
-  - titel: Boekhoudkundige verwerking van afvalstoffen
-    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-afvalstoffen
-    datum: '1995-03-01'
+- titel: Verwerking in de jaarrekening van de door de Vlaamse regering gecreëerde
+    opleidingscheques
+  url: https://www.cbn-cnc.be/nl/adviezen/verwerking-in-de-jaarrekening-van-de-door-de-vlaamse-regering-gecreeerde-opleidingscheques
+  datum: '2008-12-01'
+- titel: Boekhoudkundige verwerking van afvalstoffen
+  url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-afvalstoffen
+  datum: '1995-03-01'
 ---
 
 # CBN advies 126-5 - Vervaardigingsprijs

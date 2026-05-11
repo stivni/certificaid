@@ -1,42 +1,52 @@
 ---
-nummer: "CBN-advies NFP"
+nummer: CBN-advies NFP
 datum: 2007-01-01
 themas:
-  - gelijkwaardigheid
-  - zeer grote verenigingen en stichtingen
-  - grote verenigingen en stichtingen
-  - internationale verenigingen zonder winstoogmerk
-  - ivzw
-  - kasboekhouding
-  - openbaarmaking
-  - patrimoniale boekhouding
-  - publicatie
-  - sectorale boekhoudregels
-  - sectorale reglementering
-  - stichting
-  - vereenvoudigde boekhouding
-  - vereniging zonder winstoogmerk
-  - vzw
+- gelijkwaardigheid
+- zeer grote verenigingen en stichtingen
+- grote verenigingen en stichtingen
+- internationale verenigingen zonder winstoogmerk
+- ivzw
+- kasboekhouding
+- openbaarmaking
+- patrimoniale boekhouding
+- publicatie
+- sectorale boekhoudregels
+- sectorale reglementering
+- stichting
+- vereenvoudigde boekhouding
+- vereniging zonder winstoogmerk
+- vzw
 bron: https://www.cbn-cnc.be/nl/adviezen/aanbevelingen-inzake-de-gelijkwaardigheid-van-boekhoud-en-jaarrekeningregels-opgelegd-door
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/aanbevelingen-inzake-de-gelijkwaardigheid-van-boekhoud-en-jaarrekeningregels-opgelegd-door
-      sha256: f9afefc503221aa54eb11710768c07d716aacd5e1f5e6c0216584985fb2fca83
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/aanbevelingen-inzake-de-gelijkwaardigheid-van-boekhoud-en-jaarrekeningregels-opgelegd-door
+    sha256: f9afefc503221aa54eb11710768c07d716aacd5e1f5e6c0216584985fb2fca83
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T18:38:24Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T19:02:28Z'
     confirmed_by: subagent-laag2-ronde2
-    rationale: '[Laag-2-R2 2026-05-08] 0-headings is een scraping-artefact: de HTML-structuur gebruikte bold labels (A. INLEIDING, B. Voorwaarden..., C-D. Aanbevelingen) die geen Markdown-headings werden. Inhoud volledig coherent en leesbaar. 9 voetnoten correct. Informatieverlies nihil.'
+    rationale: '[Laag-2-R2 2026-05-08] 0-headings is een scraping-artefact: de HTML-structuur
+      gebruikte bold labels (A. INLEIDING, B. Voorwaarden..., C-D. Aanbevelingen)
+      die geen Markdown-headings werden. Inhoud volledig coherent en leesbaar. 9 voetnoten
+      correct. Informatieverlies nihil.'
+    layer1:
+      verdict: pass
+      heading_count: 12
+      max_section_chars: 9351
+      file_size_chars: 23544
+      flags: []
+      run_id: 20260509-212552
 ---
 
 # Aanbevelingen inzake de gelijkwaardigheid van boekhoud- en jaarrekeningregels opgelegd door sectorale regelgevingen met de gemeenrechtelijke boekhoud- en jaarrekeningregels voor vzw’s, ivzw’s en stichtingen

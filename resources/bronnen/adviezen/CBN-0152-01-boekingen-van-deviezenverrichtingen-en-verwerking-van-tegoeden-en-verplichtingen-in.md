@@ -1,71 +1,80 @@
 ---
-nummer: "CBN-advies 152/1"
+nummer: CBN-advies 152/1
 datum: 1987-12-01
 themas:
-  - bestellingen in uitvoering
-  - contant wisselverrichting
-  - dekkingsverrichting
-  - deviezen
-  - deviezenverrichting
-  - lening
-  - leningen in deviezen
-  - monetaire activa
-  - niet-monetaire activa
-  - niet-monetaire passiva
-  - niet-opgevraagde bedragen op aandelen
-  - niet-samenvallende vervaldagen
-  - niet-specifieke dekkingsverrichting
-  - omrekeningskoers
-  - omrekeningsverschil
-  - schulden
-  - specifieke dekkingsverrichtingen
-  - tegoeden in deviezen
-  - termijn
-  - termijnwisselverrichting
-  - vastrentende effecten
-  - vastrentende effecten in deviezen
-  - verplichting in deviezen
-  - verplichtingen die niet in de balans opgenomen zijn
-  - Vooruitbetaling
-  - vordering
-  - Waardevermindering
-  - wisselresultaat
-  - wisselrisico
-  - wisselrisicodekking
-  - wisselverrichting
+- bestellingen in uitvoering
+- contant wisselverrichting
+- dekkingsverrichting
+- deviezen
+- deviezenverrichting
+- lening
+- leningen in deviezen
+- monetaire activa
+- niet-monetaire activa
+- niet-monetaire passiva
+- niet-opgevraagde bedragen op aandelen
+- niet-samenvallende vervaldagen
+- niet-specifieke dekkingsverrichting
+- omrekeningskoers
+- omrekeningsverschil
+- schulden
+- specifieke dekkingsverrichtingen
+- tegoeden in deviezen
+- termijn
+- termijnwisselverrichting
+- vastrentende effecten
+- vastrentende effecten in deviezen
+- verplichting in deviezen
+- verplichtingen die niet in de balans opgenomen zijn
+- Vooruitbetaling
+- vordering
+- Waardevermindering
+- wisselresultaat
+- wisselrisico
+- wisselrisicodekking
+- wisselverrichting
 bron: https://www.cbn-cnc.be/nl/adviezen/boekingen-van-deviezenverrichtingen-en-verwerking-van-tegoeden-en-verplichtingen-in
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/boekingen-van-deviezenverrichtingen-en-verwerking-van-tegoeden-en-verplichtingen-in
-      sha256: abfb76c50150627c208c3fca7723f5e345ecdf9199d967e5694ef08b8239b916
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/boekingen-van-deviezenverrichtingen-en-verwerking-van-tegoeden-en-verplichtingen-in
+    sha256: abfb76c50150627c208c3fca7723f5e345ecdf9199d967e5694ef08b8239b916
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T18:35:19Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T18:40:03Z'
     confirmed_by: qa-laag1-auto
     rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    layer1:
+      verdict: pass
+      heading_count: 57
+      max_section_chars: 15835
+      file_size_chars: 111856
+      flags: []
+      run_id: 20260509-212552
 gerelateerde_adviezen:
-  - titel: Gevolgen op gebied van financiële rapportering als gevolg van de brexit
-    url: https://www.cbn-cnc.be/nl/adviezen/gevolgen-op-gebied-van-financiele-rapportering-als-gevolg-van-de-brexit-0
-    datum: '2019-04-12'
-  - titel: 'Bestellingen in uitvoering: wijzigingen door het koninklijk besluit van 18 december 2015'
-    url: https://www.cbn-cnc.be/nl/adviezen/bestellingen-in-uitvoering-wijzigingen-door-het-koninklijk-besluit-van-18-december-2015
-    datum: '2016-09-07'
-  - titel: Boekhoudkundige verwerking van de aankoop van een onroerend goed bestemd voor verkoop
-    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-aankoop-van-een-onroerend-goed-bestemd-voor-verkoop
-    datum: '2015-09-30'
-  - titel: Bestellingen in uitvoering
-    url: https://www.cbn-cnc.be/nl/adviezen/bestellingen-in-uitvoering
-    datum: '2012-10-10'
+- titel: Gevolgen op gebied van financiële rapportering als gevolg van de brexit
+  url: https://www.cbn-cnc.be/nl/adviezen/gevolgen-op-gebied-van-financiele-rapportering-als-gevolg-van-de-brexit-0
+  datum: '2019-04-12'
+- titel: 'Bestellingen in uitvoering: wijzigingen door het koninklijk besluit van
+    18 december 2015'
+  url: https://www.cbn-cnc.be/nl/adviezen/bestellingen-in-uitvoering-wijzigingen-door-het-koninklijk-besluit-van-18-december-2015
+  datum: '2016-09-07'
+- titel: Boekhoudkundige verwerking van de aankoop van een onroerend goed bestemd
+    voor verkoop
+  url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-aankoop-van-een-onroerend-goed-bestemd-voor-verkoop
+  datum: '2015-09-30'
+- titel: Bestellingen in uitvoering
+  url: https://www.cbn-cnc.be/nl/adviezen/bestellingen-in-uitvoering
+  datum: '2012-10-10'
 ---
 
 # CBN-advies 152/1 - Boekingen van deviezenverrichtingen en verwerking van tegoeden en verplichtingen in deviezen in de jaarrekening

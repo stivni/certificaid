@@ -1,38 +1,46 @@
 ---
-nummer: "CBN-advies 2022/02"
+nummer: CBN-advies 2022/02
 datum: 2022-02-18
 themas:
-  - uittreding
-  - scheidingsaandeel
-  - uitsluiting
-  - aantal aandelen
-  - uittreding van rechtswege
-  - vrijwillige uittreding
-  - uitkeringstesten
+- uittreding
+- scheidingsaandeel
+- uitsluiting
+- aantal aandelen
+- uittreding van rechtswege
+- vrijwillige uittreding
+- uitkeringstesten
 bron: https://www.cbn-cnc.be/nl/adviezen/uittreding-en-uitsluiting-lastens-het-vennootschapsvermogen-bij-de-bv-en-cv
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/uittreding-en-uitsluiting-lastens-het-vennootschapsvermogen-bij-de-bv-en-cv
-      sha256: afa832f20d1fea68e50cdedd0168f13361f755a0f7ff1b8f83e4fbfcf4012b5a
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/uittreding-en-uitsluiting-lastens-het-vennootschapsvermogen-bij-de-bv-en-cv
+    sha256: afa832f20d1fea68e50cdedd0168f13361f755a0f7ff1b8f83e4fbfcf4012b5a
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T18:38:07Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T18:40:05Z'
     confirmed_by: qa-laag1-auto
     rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    layer1:
+      verdict: pass
+      heading_count: 10
+      max_section_chars: 7320
+      file_size_chars: 22393
+      flags: []
+      run_id: 20260509-212552
 gerelateerde_adviezen:
-  - titel: Overgang van een kapitaalhoudende coöperatieve vennootschap naar een kapitaalloze vennootschap
-    url: https://www.cbn-cnc.be/nl/adviezen/overgang-van-een-kapitaalhoudende-cooperatieve-vennootschap-naar-een-kapitaalloze
-    datum: '2020-12-09'
+- titel: Overgang van een kapitaalhoudende coöperatieve vennootschap naar een kapitaalloze
+    vennootschap
+  url: https://www.cbn-cnc.be/nl/adviezen/overgang-van-een-kapitaalhoudende-cooperatieve-vennootschap-naar-een-kapitaalloze
+  datum: '2020-12-09'
 ---
 
 # CBN-advies 2022/02 – Uittreding en uitsluiting lastens het vennootschapsvermogen bij de BV en CV - Scheidingsaandeel

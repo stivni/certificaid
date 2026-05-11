@@ -1,48 +1,56 @@
 ---
-nummer: "CBN-advies 2013/3"
+nummer: CBN-advies 2013/3
 datum: 2013-02-20
 themas:
-  - consolidatie
-  - stapsgewijze verwerving
-  - step acquisitions
-  - verhoging van belang
-  - integrale consolidatie
-  - vermogensmutatiemethode
-  - consolidatieverschil
-  - belangen van derden
+- consolidatie
+- stapsgewijze verwerving
+- step acquisitions
+- verhoging van belang
+- integrale consolidatie
+- vermogensmutatiemethode
+- consolidatieverschil
+- belangen van derden
 bron: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-step-acquisitions-update
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-step-acquisitions-update
-      sha256: 416a6e032a3b9e9c52a207133ec7e93ef185e166cd850a9459913c5ebf538e62
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-step-acquisitions-update
+    sha256: 416a6e032a3b9e9c52a207133ec7e93ef185e166cd850a9459913c5ebf538e62
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T18:36:35Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T18:40:04Z'
     confirmed_by: qa-laag1-auto
     rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    layer1:
+      verdict: pass
+      heading_count: 4
+      max_section_chars: 15052
+      file_size_chars: 15982
+      flags: []
+      run_id: 20260509-212552
 gerelateerde_adviezen:
-  - titel: Vermogensmutatiemethode
-    url: https://www.cbn-cnc.be/nl/adviezen/vermogensmutatiemethode
-    datum: '2022-09-09'
-  - titel: Consolidatie bij de horizontale groep (consortium)
-    url: https://www.cbn-cnc.be/nl/adviezen/consolidatie-bij-de-horizontale-groep-consortium-0
-    datum: '2022-07-27'
-  - titel: Transacties onder gemeenschappelijke leiding (Common control transactions) (update)
-    url: https://www.cbn-cnc.be/nl/adviezen/transacties-onder-gemeenschappelijke-leiding-common-control-transactions-update
-    datum: '2017-09-13'
-  - titel: Consolidatie bij de horizontale groep (consortium)
-    url: https://www.cbn-cnc.be/nl/adviezen/consolidatie-bij-de-horizontale-groep-consortium
-    datum: '2017-03-15'
+- titel: Vermogensmutatiemethode
+  url: https://www.cbn-cnc.be/nl/adviezen/vermogensmutatiemethode
+  datum: '2022-09-09'
+- titel: Consolidatie bij de horizontale groep (consortium)
+  url: https://www.cbn-cnc.be/nl/adviezen/consolidatie-bij-de-horizontale-groep-consortium-0
+  datum: '2022-07-27'
+- titel: Transacties onder gemeenschappelijke leiding (Common control transactions)
+    (update)
+  url: https://www.cbn-cnc.be/nl/adviezen/transacties-onder-gemeenschappelijke-leiding-common-control-transactions-update
+  datum: '2017-09-13'
+- titel: Consolidatie bij de horizontale groep (consortium)
+  url: https://www.cbn-cnc.be/nl/adviezen/consolidatie-bij-de-horizontale-groep-consortium
+  datum: '2017-03-15'
 ---
 
 # CBN-advies 2013/3 – De boekhoudkundige verwerking van step acquisitions (update)

@@ -1,45 +1,53 @@
 ---
-nummer: "CBN-advies 2016/17"
+nummer: CBN-advies 2016/17
 datum: 2016-09-07
 themas:
-  - aandelen
-  - certificatie
-  - certificering
-  - gecertificeerde aandelen
-  - economische eigendom
+- aandelen
+- certificatie
+- certificering
+- gecertificeerde aandelen
+- economische eigendom
 bron: https://www.cbn-cnc.be/nl/adviezen/verenigingen-en-stichtingen-certificatie-van-aandelen-van-handelsvennootschappen
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/verenigingen-en-stichtingen-certificatie-van-aandelen-van-handelsvennootschappen
-      sha256: 72e8ba1e43c6167b2d3a6758e6876c39c537df510ed6b9bd77f5f8351ef3cd4a
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/verenigingen-en-stichtingen-certificatie-van-aandelen-van-handelsvennootschappen
+    sha256: 72e8ba1e43c6167b2d3a6758e6876c39c537df510ed6b9bd77f5f8351ef3cd4a
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T18:37:02Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T18:40:04Z'
     confirmed_by: qa-laag1-auto
     rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    layer1:
+      verdict: pass
+      heading_count: 5
+      max_section_chars: 4525
+      file_size_chars: 9788
+      flags: []
+      run_id: 20260509-212552
 gerelateerde_adviezen:
-  - titel: Terugbetaling van kapitaal in vreemde valuta aan de aandeelhouders
-    url: https://www.cbn-cnc.be/nl/adviezen/terugbetaling-van-kapitaal-in-vreemde-valuta-aan-de-aandeelhouders
-    datum: '2024-03-13'
-  - titel: Dividenduitkering en kapitaalvermindering in natura
-    url: https://www.cbn-cnc.be/nl/adviezen/dividenduitkering-en-kapitaalvermindering-in-natura-0
-    datum: '2019-03-12'
-  - titel: Verrichtingen met betrekking tot inschrijvingsrechten
-    url: https://www.cbn-cnc.be/nl/adviezen/verrichtingen-met-betrekking-tot-inschrijvingsrechten
-    datum: '2016-03-09'
-  - titel: 'Consolidatiekring: interpretatie van de uitsluitingsgrond van  artikel 107, 4° KB W.Venn.'
-    url: https://www.cbn-cnc.be/nl/adviezen/consolidatiekring-interpretatie-van-de-uitsluitingsgrond-van-artikel-107-4deg-kb-wvenn
-    datum: '2011-02-25'
+- titel: Terugbetaling van kapitaal in vreemde valuta aan de aandeelhouders
+  url: https://www.cbn-cnc.be/nl/adviezen/terugbetaling-van-kapitaal-in-vreemde-valuta-aan-de-aandeelhouders
+  datum: '2024-03-13'
+- titel: Dividenduitkering en kapitaalvermindering in natura
+  url: https://www.cbn-cnc.be/nl/adviezen/dividenduitkering-en-kapitaalvermindering-in-natura-0
+  datum: '2019-03-12'
+- titel: Verrichtingen met betrekking tot inschrijvingsrechten
+  url: https://www.cbn-cnc.be/nl/adviezen/verrichtingen-met-betrekking-tot-inschrijvingsrechten
+  datum: '2016-03-09'
+- titel: 'Consolidatiekring: interpretatie van de uitsluitingsgrond van  artikel 107,
+    4° KB W.Venn.'
+  url: https://www.cbn-cnc.be/nl/adviezen/consolidatiekring-interpretatie-van-de-uitsluitingsgrond-van-artikel-107-4deg-kb-wvenn
+  datum: '2011-02-25'
 ---
 
 # CBN-advies 2016/17 – Verenigingen en stichtingen: certificatie van aandelen van handelsvennootschappen

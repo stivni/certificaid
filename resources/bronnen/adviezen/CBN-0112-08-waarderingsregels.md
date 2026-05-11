@@ -1,44 +1,52 @@
 ---
-nummer: "CBN-advies 112/8"
+nummer: CBN-advies 112/8
 datum: 1992-02-01
 themas:
-  - afschrijvingen
-  - degressieve afschrijving
-  - toelichting
-  - waarderingsregels
+- afschrijvingen
+- degressieve afschrijving
+- toelichting
+- waarderingsregels
 bron: https://www.cbn-cnc.be/nl/adviezen/waarderingsregels
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/waarderingsregels
-      sha256: 5f9735a6cc71f59d06a1d68dce41ce8103eaf065ab88ae29197085c9ba315c0f
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/waarderingsregels
+    sha256: 5f9735a6cc71f59d06a1d68dce41ce8103eaf065ab88ae29197085c9ba315c0f
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T18:34:15Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T18:40:02Z'
     confirmed_by: qa-laag1-auto
     rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    layer1:
+      verdict: pass
+      heading_count: 0
+      max_section_chars: 1876
+      file_size_chars: 1876
+      flags: []
+      run_id: 20260509-212552
 gerelateerde_adviezen:
-  - titel: Afschrijvingsmethoden (update) [ONTWERP]
-    url: https://www.cbn-cnc.be/nl/adviezen/afschrijvingsmethoden-update-ontwerp
-    datum: '2025-04-25'
-  - titel: Afschrijving van materiële vaste activa in aanbouw en vooruitbetalingen - Inresultaatname van kapitaalsubsidies
-    url: https://www.cbn-cnc.be/nl/adviezen/afschrijving-van-materiele-vaste-activa-in-aanbouw-en-vooruitbetalingen-inresultaatname
-    datum: '2017-12-13'
-  - titel: De boekhoudkundige verwerking van immateriële vaste activa
-    url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-immateriele-vaste-activa
-    datum: '2012-10-10'
-  - titel: Afschrijvingsmethoden
-    url: https://www.cbn-cnc.be/nl/adviezen/afschrijvingsmethoden
-    datum: '2010-10-06'
+- titel: Afschrijvingsmethoden (update) [ONTWERP]
+  url: https://www.cbn-cnc.be/nl/adviezen/afschrijvingsmethoden-update-ontwerp
+  datum: '2025-04-25'
+- titel: Afschrijving van materiële vaste activa in aanbouw en vooruitbetalingen -
+    Inresultaatname van kapitaalsubsidies
+  url: https://www.cbn-cnc.be/nl/adviezen/afschrijving-van-materiele-vaste-activa-in-aanbouw-en-vooruitbetalingen-inresultaatname
+  datum: '2017-12-13'
+- titel: De boekhoudkundige verwerking van immateriële vaste activa
+  url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-immateriele-vaste-activa
+  datum: '2012-10-10'
+- titel: Afschrijvingsmethoden
+  url: https://www.cbn-cnc.be/nl/adviezen/afschrijvingsmethoden
+  datum: '2010-10-06'
 ---
 
 # CBN-advies 112/8 - Waarderingsregels

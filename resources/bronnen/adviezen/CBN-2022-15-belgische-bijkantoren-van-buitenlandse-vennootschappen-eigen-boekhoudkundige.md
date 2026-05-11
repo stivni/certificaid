@@ -1,57 +1,71 @@
 ---
-nummer: "CBN-advies 2022/15"
+nummer: CBN-advies 2022/15
 datum: 2022-11-08
 themas:
-  - bijkantoor
-  - centrum van werkzaamheden
-  - buitenlandse vennootschap
-  - functionele valuta
-  - afwijking
-  - interne jaarrekening
-  - verbindingsrekening
-  - jaarverslag
-  - commissarisverslag
-  - verslag van de commissaris
-  - sociale balans
-  - openbaarmaking
-  - neerlegging van de jaarrekening
-  - publicatie
-  - bewaarplicht
-  - boekhoudplan
-  - rekening-courant
+- bijkantoor
+- centrum van werkzaamheden
+- buitenlandse vennootschap
+- functionele valuta
+- afwijking
+- interne jaarrekening
+- verbindingsrekening
+- jaarverslag
+- commissarisverslag
+- verslag van de commissaris
+- sociale balans
+- openbaarmaking
+- neerlegging van de jaarrekening
+- publicatie
+- bewaarplicht
+- boekhoudplan
+- rekening-courant
 bron: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-buitenlandse-vennootschappen-eigen-boekhoudkundige
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-buitenlandse-vennootschappen-eigen-boekhoudkundige
-      sha256: 282fec0b9374f03ef752f8c95a02d2255eaa064d4e46d622f9fd309dc14eb6b3
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-buitenlandse-vennootschappen-eigen-boekhoudkundige
+    sha256: 282fec0b9374f03ef752f8c95a02d2255eaa064d4e46d622f9fd309dc14eb6b3
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T18:38:17Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T19:02:28Z'
     confirmed_by: subagent-laag2-ronde2
-    rationale: "[Laag-2-R2 2026-05-08] Inhoud is volledig en accuraat: alle negen hoofdstukken aanwezig, uitgebreide journaalpost-voorbeelden als correcte Markdown-tabellen, volledige voetnotenapparaat (106 noten). De twee column-bleed-instanties zijn visuele balanstabellen met 'Activa … Passiva' op één rij — de inhoud is volledig leesba"
+    rationale: '[Laag-2-R2 2026-05-08] Inhoud is volledig en accuraat: alle negen
+      hoofdstukken aanwezig, uitgebreide journaalpost-voorbeelden als correcte Markdown-tabellen,
+      volledige voetnotenapparaat (106 noten). De twee column-bleed-instanties zijn
+      visuele balanstabellen met ''Activa … Passiva'' op één rij — de inhoud is volledig
+      leesba'
+    layer1:
+      verdict: pass
+      heading_count: 42
+      max_section_chars: 22466
+      file_size_chars: 69690
+      flags: []
+      run_id: 20260509-212552
 gerelateerde_adviezen:
-  - titel: 'Belgische bijkantoren van buitenlandse verenigingen en stichtingen: toepassing van het Belgisch boekhoudrecht – begrip ‘bijkantoor’ – publicatieplicht – eigen boekhoudkundige verplichtingen'
-    url: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-buitenlandse-verenigingen-en-stichtingen-toepassing-van-het-0
-    datum: '2024-02-08'
-  - titel: 'Belgische bijkantoren van buitenlandse vennootschappen: toepassing van het Belgisch boekhoudrecht - begrip “bijkantoor” – publicatieplicht (update)'
-    url: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-buitenlandse-vennootschappen-toepassing-van-het-belgisch
-    datum: '2022-11-08'
-  - titel: Boekhoudplichtige onderneming
-    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudplichtige-onderneming
-    datum: '2019-09-26'
-  - titel: Gevolgen op gebied van financiële rapportering als gevolg van de brexit
-    url: https://www.cbn-cnc.be/nl/adviezen/gevolgen-op-gebied-van-financiele-rapportering-als-gevolg-van-de-brexit-0
-    datum: '2019-04-12'
+- titel: 'Belgische bijkantoren van buitenlandse verenigingen en stichtingen: toepassing
+    van het Belgisch boekhoudrecht – begrip ‘bijkantoor’ – publicatieplicht – eigen
+    boekhoudkundige verplichtingen'
+  url: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-buitenlandse-verenigingen-en-stichtingen-toepassing-van-het-0
+  datum: '2024-02-08'
+- titel: 'Belgische bijkantoren van buitenlandse vennootschappen: toepassing van het
+    Belgisch boekhoudrecht - begrip “bijkantoor” – publicatieplicht (update)'
+  url: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-buitenlandse-vennootschappen-toepassing-van-het-belgisch
+  datum: '2022-11-08'
+- titel: Boekhoudplichtige onderneming
+  url: https://www.cbn-cnc.be/nl/adviezen/boekhoudplichtige-onderneming
+  datum: '2019-09-26'
+- titel: Gevolgen op gebied van financiële rapportering als gevolg van de brexit
+  url: https://www.cbn-cnc.be/nl/adviezen/gevolgen-op-gebied-van-financiele-rapportering-als-gevolg-van-de-brexit-0
+  datum: '2019-04-12'
 ---
 
 # CBN-advies 2022/15 – Belgische bijkantoren van buitenlandse vennootschappen: eigen boekhoudkundige verplichtingen (update)

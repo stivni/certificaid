@@ -1,33 +1,40 @@
 ---
-nummer: "CBN-advies 154/1"
+nummer: CBN-advies 154/1
 datum: 1988-12-01
 themas:
-  - bestendigheid
-  - bestendigheidsplicht
-  - getrouw beeld
-  - toelichting
-  - waarderingsregels
-  - wijziging van de waarderingsregels
+- bestendigheid
+- bestendigheidsplicht
+- getrouw beeld
+- toelichting
+- waarderingsregels
+- wijziging van de waarderingsregels
 bron: https://www.cbn-cnc.be/nl/adviezen/wijziging-van-de-waarderingsregels-als-gevolg-van-gewijzigde-wetgeving
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/wijziging-van-de-waarderingsregels-als-gevolg-van-gewijzigde-wetgeving
-      sha256: 7bd0173f9f8968a11d49e1fa3149526bff05b641bfc658cc599a320df4fda6b1
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/wijziging-van-de-waarderingsregels-als-gevolg-van-gewijzigde-wetgeving
+    sha256: 7bd0173f9f8968a11d49e1fa3149526bff05b641bfc658cc599a320df4fda6b1
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T18:35:24Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T18:40:03Z'
     confirmed_by: qa-laag1-auto
     rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    layer1:
+      verdict: pass
+      heading_count: 0
+      max_section_chars: 4638
+      file_size_chars: 4638
+      flags: []
+      run_id: 20260509-212552
 ---
 
 # CBN-advies 154/1 - Wijziging van de waarderingsregels als gevolg van gewijzigde wetgeving-Informatieverstrekking

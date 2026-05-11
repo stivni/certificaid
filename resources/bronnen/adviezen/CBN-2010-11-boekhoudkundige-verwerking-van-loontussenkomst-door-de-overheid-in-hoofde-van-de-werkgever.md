@@ -1,43 +1,54 @@
 ---
-nummer: "CBN-advies 2010/11"
+nummer: CBN-advies 2010/11
 datum: 2010-09-08
 themas:
-  - bedrijfssubsidie
-  - bezoldiging
-  - exploitatiesubsidie
-  - loonlast
-  - loontussenkomst
-  - overheid
-  - werkuitkering
-  - win-win aanwervingsplan
-  - vrijstelling van betaling
+- bedrijfssubsidie
+- bezoldiging
+- exploitatiesubsidie
+- loonlast
+- loontussenkomst
+- overheid
+- werkuitkering
+- win-win aanwervingsplan
+- vrijstelling van betaling
 bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-loontussenkomst-door-de-overheid-in-hoofde-van-de-werkgever
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-loontussenkomst-door-de-overheid-in-hoofde-van-de-werkgever
-      sha256: 49a83bc07d3076df3881018979cd525278392a16dc5b6578588655ace4a21760
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-loontussenkomst-door-de-overheid-in-hoofde-van-de-werkgever
+    sha256: 49a83bc07d3076df3881018979cd525278392a16dc5b6578588655ace4a21760
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T21:30:06Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T21:31:11Z'
     confirmed_by: human
-    rationale: 'Herscraped na fix select_title(): gecombineerde H1 (COMMISSIE + titel) correct gesplitst. Inhoud ongewijzigd t.o.v. vorig vertrouwd verdict. Laag 1 pass (of benign max_section warn).'
+    rationale: 'Herscraped na fix select_title(): gecombineerde H1 (COMMISSIE + titel)
+      correct gesplitst. Inhoud ongewijzigd t.o.v. vorig vertrouwd verdict. Laag 1
+      pass (of benign max_section warn).'
+    layer1:
+      verdict: pass
+      heading_count: 0
+      max_section_chars: 3489
+      file_size_chars: 3489
+      flags: []
+      run_id: 20260509-212552
 gerelateerde_adviezen:
-  - titel: De boekhoudkundige verwerking van de door de Waalse regering gecreëerde opleidingscheques
-    url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-door-de-waalse-regering-gecreeerde-opleidingscheques
-    datum: '2013-04-24'
-  - titel: De boekhoudkundige verwerking van het stelsel tot gedeeltelijke vrijstelling van betaling van de bedrijfsvoorheffing, zoals geregeld door artikel 275/3 van het Wetboek van de Inkomstenbelastingen 1992
-    url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-het-stelsel-tot-gedeeltelijke-vrijstelling-van-0
-    datum: '2009-11-18'
+- titel: De boekhoudkundige verwerking van de door de Waalse regering gecreëerde opleidingscheques
+  url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-door-de-waalse-regering-gecreeerde-opleidingscheques
+  datum: '2013-04-24'
+- titel: De boekhoudkundige verwerking van het stelsel tot gedeeltelijke vrijstelling
+    van betaling van de bedrijfsvoorheffing, zoals geregeld door artikel 275/3 van
+    het Wetboek van de Inkomstenbelastingen 1992
+  url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-het-stelsel-tot-gedeeltelijke-vrijstelling-van-0
+  datum: '2009-11-18'
 ---
 
 # CBN-advies 2010/11 – Boekhoudkundige verwerking van loontussenkomst door de overheid in hoofde van de werkgever (update)

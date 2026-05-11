@@ -1,38 +1,45 @@
 ---
-nummer: "CBN-advies 108/2"
+nummer: CBN-advies 108/2
 datum: 1978-12-01
 themas:
-  - aanpassing schema van de jaarrekening
-  - aanvragen tot afwijking
-  - afwijking
-  - kredietinstelling
-  - omzetcijfer
-  - portefeuillemaatschappij
-  - publicatie
-  - publicatie van het omzetcijfer
-  - schema van de jaarrekening
-  - steenkoolmijn
-  - verzekeringsonderneming
+- aanpassing schema van de jaarrekening
+- aanvragen tot afwijking
+- afwijking
+- kredietinstelling
+- omzetcijfer
+- portefeuillemaatschappij
+- publicatie
+- publicatie van het omzetcijfer
+- schema van de jaarrekening
+- steenkoolmijn
+- verzekeringsonderneming
 bron: https://www.cbn-cnc.be/nl/adviezen/aanvragen-tot-afwijking-overzicht
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/aanvragen-tot-afwijking-overzicht
-      sha256: ba3a343ddfa87e81faaa7171277264e63ed339d662ec9109a0ca6d56e85ac63b
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/aanvragen-tot-afwijking-overzicht
+    sha256: ba3a343ddfa87e81faaa7171277264e63ed339d662ec9109a0ca6d56e85ac63b
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T18:34:04Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T18:40:02Z'
     confirmed_by: qa-laag1-auto
     rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    layer1:
+      verdict: pass
+      heading_count: 3
+      max_section_chars: 12814
+      file_size_chars: 12814
+      flags: []
+      run_id: 20260509-212552
 ---
 
 # CBN-advies 108/2 - Aanvragen tot afwijking : overzicht

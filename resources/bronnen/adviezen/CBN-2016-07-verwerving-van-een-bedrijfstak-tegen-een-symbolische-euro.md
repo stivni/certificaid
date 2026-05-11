@@ -1,32 +1,39 @@
 ---
-nummer: "CBN-advies 2016/7"
+nummer: CBN-advies 2016/7
 datum: 2016-06-15
 themas:
-  - badwill
-  - bedrijfstak
-  - goodwill
-  - symbolische euro
-  - voorziening
+- badwill
+- bedrijfstak
+- goodwill
+- symbolische euro
+- voorziening
 bron: https://www.cbn-cnc.be/nl/adviezen/verwerving-van-een-bedrijfstak-tegen-een-symbolische-euro
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/verwerving-van-een-bedrijfstak-tegen-een-symbolische-euro
-      sha256: 8714c2cb098402345c61501cc36ea0f46964f8f7631755557c65da7e7798f5ef
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/verwerving-van-een-bedrijfstak-tegen-een-symbolische-euro
+    sha256: 8714c2cb098402345c61501cc36ea0f46964f8f7631755557c65da7e7798f5ef
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T18:36:56Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T18:40:04Z'
     confirmed_by: qa-laag1-auto
     rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    layer1:
+      verdict: pass
+      heading_count: 21
+      max_section_chars: 14102
+      file_size_chars: 24411
+      flags: []
+      run_id: 20260509-212552
 ---
 
 # CBN-advies 2016/7 – Verwerving van een bedrijfstak tegen een symbolische euro

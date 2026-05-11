@@ -1,31 +1,39 @@
 ---
-nummer: "CBN-advies 2011/24"
+nummer: CBN-advies 2011/24
 datum: 2011-11-09
 themas:
-  - activering van kosten
-  - herstructureringskosten
-  - uitzonderlijke afschrijving
-  - voorziening
+- activering van kosten
+- herstructureringskosten
+- uitzonderlijke afschrijving
+- voorziening
 bron: https://www.cbn-cnc.be/nl/adviezen/herstructureringskosten-verwerking-in-de-jaarrekening
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/herstructureringskosten-verwerking-in-de-jaarrekening
-      sha256: 8a486b86c5b96214843fa82ca23a90b0cbf88fe1f636d2fb093ab86a1f9d582d
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/herstructureringskosten-verwerking-in-de-jaarrekening
+    sha256: 8a486b86c5b96214843fa82ca23a90b0cbf88fe1f636d2fb093ab86a1f9d582d
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T18:36:20Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T19:02:29Z'
     confirmed_by: subagent-laag2-ronde2
-    rationale: "[Laag-2-R2 2026-05-08] Volledig met wetsartikelcitaat, 5 journaalposten en afschrijvingspost. Kleine OCR-typefout ('itzonderlijke')."
+    rationale: '[Laag-2-R2 2026-05-08] Volledig met wetsartikelcitaat, 5 journaalposten
+      en afschrijvingspost. Kleine OCR-typefout (''itzonderlijke'').'
+    layer1:
+      verdict: pass
+      heading_count: 0
+      max_section_chars: 7609
+      file_size_chars: 7609
+      flags: []
+      run_id: 20260509-212552
 ---
 
 # CBN-advies 2011/24 - Herstructureringskosten - Verwerking in de jaarrekening

@@ -1,73 +1,81 @@
 ---
-nummer: "CBN-advies 2022/06"
+nummer: CBN-advies 2022/06
 datum: 2022-06-07
 themas:
-  - sluiting vereffening
-  - ontbinding
-  - vereffening
-  - turboliquidatie
-  - turbovereffening
-  - vrijwillige ontbinding
-  - ontbinding van rechtswege
-  - gerechtelijke ontbinding
-  - verslaggevingsverplichting
-  - sluiting vereffening
-  - staat van activa en passiva
-  - publicatie
-  - neerlegging van de jaarrekening
-  - stopzetting
-  - continuïteit
-  - kwijting
-  - afsluiting van het boekjaar
-  - vereffenaar
-  - jaarrekening
-  - onmiddellijke sluiting van de vereffening
-  - ontbinding en vereffening in één akte
-  - ééndagsvereffening
-  - ontbindingsvoorstel
-  - ontbindingsbesluit
-  - terugbetaling van schulden
-  - schriftelijke instemming
-  - unanieme instemming
-  - eenparigheid van stemmen
-  - vereffeningsperiode
-  - vennootschapsdossier
-  - verenigingsdossier
-  - ondernemingsrechtbank
-  - provisie
+- sluiting vereffening
+- ontbinding
+- vereffening
+- turboliquidatie
+- turbovereffening
+- vrijwillige ontbinding
+- ontbinding van rechtswege
+- gerechtelijke ontbinding
+- verslaggevingsverplichting
+- sluiting vereffening
+- staat van activa en passiva
+- publicatie
+- neerlegging van de jaarrekening
+- stopzetting
+- continuïteit
+- kwijting
+- afsluiting van het boekjaar
+- vereffenaar
+- jaarrekening
+- onmiddellijke sluiting van de vereffening
+- ontbinding en vereffening in één akte
+- ééndagsvereffening
+- ontbindingsvoorstel
+- ontbindingsbesluit
+- terugbetaling van schulden
+- schriftelijke instemming
+- unanieme instemming
+- eenparigheid van stemmen
+- vereffeningsperiode
+- vennootschapsdossier
+- verenigingsdossier
+- ondernemingsrechtbank
+- provisie
 bron: https://www.cbn-cnc.be/nl/adviezen/verslaggeving-bij-onmiddellijke-sluiting-van-de-vereffening-van-een-vennootschap
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/verslaggeving-bij-onmiddellijke-sluiting-van-de-vereffening-van-een-vennootschap
-      sha256: ca798a8aebd702ff295f370653cd9e6fc4a85a86f45252acf0db20c89a773a4f
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/verslaggeving-bij-onmiddellijke-sluiting-van-de-vereffening-van-een-vennootschap
+    sha256: ca798a8aebd702ff295f370653cd9e6fc4a85a86f45252acf0db20c89a773a4f
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T18:38:10Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T18:40:05Z'
     confirmed_by: qa-laag1-auto
     rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    layer1:
+      verdict: pass
+      heading_count: 7
+      max_section_chars: 13086
+      file_size_chars: 23688
+      flags: []
+      run_id: 20260509-212552
 gerelateerde_adviezen:
-  - titel: Verslaggeving bij onmiddellijke sluiting van de vereffening van een VZW of IVZW
-    url: https://www.cbn-cnc.be/nl/adviezen/verslaggeving-bij-onmiddellijke-sluiting-van-de-vereffening-van-een-vzw-of-ivzw
-    datum: '2022-06-10'
-  - titel: Verslaggeving bij ontbinding en vereffening van een VZW of IVZW
-    url: https://www.cbn-cnc.be/nl/adviezen/verslaggeving-bij-ontbinding-en-vereffening-van-een-vzw-of-ivzw
-    datum: '2022-04-27'
-  - titel: Verslaggeving bij ontbinding en vereffening van BV, CV, NV, SE en SCE
-    url: https://www.cbn-cnc.be/nl/adviezen/verslaggeving-bij-ontbinding-en-vereffening-van-bv-cv-nv-se-en-sce
-    datum: '2022-04-01'
-  - titel: Boekingswijze van een voorschot op de verdeling van het netto-actief
-    url: https://www.cbn-cnc.be/nl/adviezen/boekingswijze-van-een-voorschot-op-de-verdeling-van-het-netto-actief
-    datum: '2010-11-10'
+- titel: Verslaggeving bij onmiddellijke sluiting van de vereffening van een VZW of
+    IVZW
+  url: https://www.cbn-cnc.be/nl/adviezen/verslaggeving-bij-onmiddellijke-sluiting-van-de-vereffening-van-een-vzw-of-ivzw
+  datum: '2022-06-10'
+- titel: Verslaggeving bij ontbinding en vereffening van een VZW of IVZW
+  url: https://www.cbn-cnc.be/nl/adviezen/verslaggeving-bij-ontbinding-en-vereffening-van-een-vzw-of-ivzw
+  datum: '2022-04-27'
+- titel: Verslaggeving bij ontbinding en vereffening van BV, CV, NV, SE en SCE
+  url: https://www.cbn-cnc.be/nl/adviezen/verslaggeving-bij-ontbinding-en-vereffening-van-bv-cv-nv-se-en-sce
+  datum: '2022-04-01'
+- titel: Boekingswijze van een voorschot op de verdeling van het netto-actief
+  url: https://www.cbn-cnc.be/nl/adviezen/boekingswijze-van-een-voorschot-op-de-verdeling-van-het-netto-actief
+  datum: '2010-11-10'
 ---
 
 # CBN-advies 2022/06 – Verslaggeving bij onmiddellijke sluiting van de vereffening van een vennootschap

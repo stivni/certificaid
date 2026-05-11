@@ -1,34 +1,41 @@
 ---
-nummer: "CBN-advies 2017/07"
+nummer: CBN-advies 2017/07
 datum: 2017-03-15
 themas:
-  - rechten
-  - verplichtingen
-  - orderekeningen
-  - materialiteit
-  - gewaarborgde schulden
-  - buiten balans
-  - niet in de balans opgenomen rechten en verplichtingen
+- rechten
+- verplichtingen
+- orderekeningen
+- materialiteit
+- gewaarborgde schulden
+- buiten balans
+- niet in de balans opgenomen rechten en verplichtingen
 bron: https://www.cbn-cnc.be/nl/adviezen/niet-in-de-balans-opgenomen-rechten-en-verplichtingen
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/niet-in-de-balans-opgenomen-rechten-en-verplichtingen
-      sha256: f6470ed1e68c46c270e00f166224818bc6700a337a8f39ddfb0840dc88b5f528
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/niet-in-de-balans-opgenomen-rechten-en-verplichtingen
+    sha256: f6470ed1e68c46c270e00f166224818bc6700a337a8f39ddfb0840dc88b5f528
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T18:37:11Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T18:40:04Z'
     confirmed_by: qa-laag1-auto
     rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    layer1:
+      verdict: pass
+      heading_count: 14
+      max_section_chars: 21735
+      file_size_chars: 27246
+      flags: []
+      run_id: 20260509-212552
 ---
 
 # CBN-advies 2017/07 - Niet in de balans opgenomen rechten en verplichtingen

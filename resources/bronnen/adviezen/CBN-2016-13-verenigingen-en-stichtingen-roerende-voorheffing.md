@@ -1,40 +1,50 @@
 ---
-nummer: "CBN-advies 2016/13"
+nummer: CBN-advies 2016/13
 datum: 2016-07-06
 themas:
-  - roerende voorheffing
-  - toerekening van kosten en opbrengsten
-  - toerekeningsbeginsel
+- roerende voorheffing
+- toerekening van kosten en opbrengsten
+- toerekeningsbeginsel
 bron: https://www.cbn-cnc.be/nl/adviezen/verenigingen-en-stichtingen-roerende-voorheffing
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/verenigingen-en-stichtingen-roerende-voorheffing
-      sha256: a429da8d0b7fd51c4e9fb99e3d9b487cf8cd7b50dea8dc8478aea7b801603b16
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/verenigingen-en-stichtingen-roerende-voorheffing
+    sha256: a429da8d0b7fd51c4e9fb99e3d9b487cf8cd7b50dea8dc8478aea7b801603b16
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T18:36:59Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T18:40:04Z'
     confirmed_by: qa-laag1-auto
     rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    layer1:
+      verdict: pass
+      heading_count: 9
+      max_section_chars: 4391
+      file_size_chars: 9878
+      flags: []
+      run_id: 20260509-212552
 gerelateerde_adviezen:
-  - titel: De boekhoudkundige verwerking met betrekking tot de toepassing van de overgangsregeling zoals vermeld in artikel 537 WIB 92
-    url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-met-betrekking-tot-de-toepassing-van-de-overgangsregeling
-    datum: '2013-11-27'
-  - titel: Boeking van de belastingen op het resultaat
-    url: https://www.cbn-cnc.be/nl/adviezen/boeking-van-de-belastingen-op-het-resultaat
-    datum: '1984-06-01'
-  - titel: 'Schulden uit de resultaatbestemming : dividenduitkering aan een onderneming die ten minste 25 % bezit van het kapitaal van de vennootschap die het dividend uitkeert'
-    url: https://www.cbn-cnc.be/nl/adviezen/schulden-uit-de-resultaatbestemming-dividenduitkering-aan-een-onderneming-die-ten-minste
-    datum: '1998-03-01'
+- titel: De boekhoudkundige verwerking met betrekking tot de toepassing van de overgangsregeling
+    zoals vermeld in artikel 537 WIB 92
+  url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-met-betrekking-tot-de-toepassing-van-de-overgangsregeling
+  datum: '2013-11-27'
+- titel: Boeking van de belastingen op het resultaat
+  url: https://www.cbn-cnc.be/nl/adviezen/boeking-van-de-belastingen-op-het-resultaat
+  datum: '1984-06-01'
+- titel: 'Schulden uit de resultaatbestemming : dividenduitkering aan een onderneming
+    die ten minste 25 % bezit van het kapitaal van de vennootschap die het dividend
+    uitkeert'
+  url: https://www.cbn-cnc.be/nl/adviezen/schulden-uit-de-resultaatbestemming-dividenduitkering-aan-een-onderneming-die-ten-minste
+  datum: '1998-03-01'
 ---
 
 # CBN-advies 2016/13 – Verenigingen en Stichtingen: roerende voorheffing

@@ -1,38 +1,45 @@
 ---
-nummer: "CBN-advies 135/1"
+nummer: CBN-advies 135/1
 datum: 1983-04-10
 themas:
-  - bijkomende kost
-  - compensatie
-  - kosten bij vervreemding van activa
-  - vervreemding
+- bijkomende kost
+- compensatie
+- kosten bij vervreemding van activa
+- vervreemding
 bron: https://www.cbn-cnc.be/nl/adviezen/kosten-die-worden-gemaakt-bij-de-vervreemding-van-activa
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/kosten-die-worden-gemaakt-bij-de-vervreemding-van-activa
-      sha256: b5cada4573c21bf3796e8b0e3d996d6bf619d4af92184ada684335af4e28511f
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/kosten-die-worden-gemaakt-bij-de-vervreemding-van-activa
+    sha256: b5cada4573c21bf3796e8b0e3d996d6bf619d4af92184ada684335af4e28511f
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T18:34:57Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T18:40:03Z'
     confirmed_by: qa-laag1-auto
     rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    layer1:
+      verdict: pass
+      heading_count: 0
+      max_section_chars: 1475
+      file_size_chars: 1475
+      flags: []
+      run_id: 20260509-212552
 gerelateerde_adviezen:
-  - titel: Boeking van commissies
-    url: https://www.cbn-cnc.be/nl/adviezen/boeking-van-commissies
-    datum: '1988-12-01'
-  - titel: 'Aanschaffingsprijs : bijkomende kosten'
-    url: https://www.cbn-cnc.be/nl/adviezen/aanschaffingsprijs-bijkomende-kosten
-    datum: '1980-06-01'
+- titel: Boeking van commissies
+  url: https://www.cbn-cnc.be/nl/adviezen/boeking-van-commissies
+  datum: '1988-12-01'
+- titel: 'Aanschaffingsprijs : bijkomende kosten'
+  url: https://www.cbn-cnc.be/nl/adviezen/aanschaffingsprijs-bijkomende-kosten
+  datum: '1980-06-01'
 ---
 
 # CBN-advies 135/1 - Kosten die worden gemaakt bij de vervreemding van activa

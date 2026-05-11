@@ -1,39 +1,46 @@
 ---
-nummer: "CBN-advies 2013/17"
+nummer: CBN-advies 2013/17
 datum: 2013-11-27
 themas:
-  - belaste reserves
-  - belastingen op het resultaat
-  - dividenduitkering
-  - inbreng in geld
-  - inbreng in natura
-  - kapitaalverhoging
-  - liquidatiebonus
-  - roerende voorheffing
+- belaste reserves
+- belastingen op het resultaat
+- dividenduitkering
+- inbreng in geld
+- inbreng in natura
+- kapitaalverhoging
+- liquidatiebonus
+- roerende voorheffing
 bron: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-met-betrekking-tot-de-toepassing-van-de-overgangsregeling
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-met-betrekking-tot-de-toepassing-van-de-overgangsregeling
-      sha256: 1a6411054d36a7a026011c946b13ba3d5f0e4b599782ecd7277c8c295fbb3907
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-met-betrekking-tot-de-toepassing-van-de-overgangsregeling
+    sha256: 1a6411054d36a7a026011c946b13ba3d5f0e4b599782ecd7277c8c295fbb3907
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T18:36:43Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T18:40:04Z'
     confirmed_by: qa-laag1-auto
     rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    layer1:
+      verdict: pass
+      heading_count: 12
+      max_section_chars: 9060
+      file_size_chars: 16909
+      flags: []
+      run_id: 20260509-212552
 gerelateerde_adviezen:
-  - titel: Boekhoudkundige verwerking van splitsingen van vennootschappen
-    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-splitsingen-van-vennootschappen
-    datum: '2022-09-19'
+- titel: Boekhoudkundige verwerking van splitsingen van vennootschappen
+  url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-splitsingen-van-vennootschappen
+  datum: '2022-09-19'
 ---
 
 # CBN-advies 2013/17 - De boekhoudkundige verwerking met betrekking tot de toepassing van de overgangsregeling zoals vermeld in artikel 537 WIB 92

@@ -1,31 +1,38 @@
 ---
-nummer: "CBN-advies 2019/13"
+nummer: CBN-advies 2019/13
 datum: 2019-11-21
 themas:
-  - terugbetaling inbreng
-  - kapitaalvermindering
-  - dividend
-  - dividenduitkering
+- terugbetaling inbreng
+- kapitaalvermindering
+- dividend
+- dividenduitkering
 bron: https://www.cbn-cnc.be/nl/adviezen/pro-rata-regel-van-artikel-18-wib-92-bij-terugbetaling-van-inbreng-kapitaalvermindering
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/pro-rata-regel-van-artikel-18-wib-92-bij-terugbetaling-van-inbreng-kapitaalvermindering
-      sha256: 693c54c6facd7de15d4aa790eaee7926680f1bab37510af71555627545a6f0db
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/pro-rata-regel-van-artikel-18-wib-92-bij-terugbetaling-van-inbreng-kapitaalvermindering
+    sha256: 693c54c6facd7de15d4aa790eaee7926680f1bab37510af71555627545a6f0db
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T18:37:43Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T18:40:05Z'
     confirmed_by: qa-laag1-auto
     rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    layer1:
+      verdict: pass
+      heading_count: 9
+      max_section_chars: 11735
+      file_size_chars: 24026
+      flags: []
+      run_id: 20260509-212552
 ---
 
 # CBN-advies 2019/13 - Pro rata-regel van artikel 18 WIB 92 bij terugbetaling van inbreng / kapitaalvermindering

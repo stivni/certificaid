@@ -1,35 +1,44 @@
 ---
-nummer: "CBN-advies 121/4"
+nummer: CBN-advies 121/4
 datum: 1995-03-01
 themas:
-  - wijzigingen in het eigen vermogen
-  - bestemming van het resultaat van het boekjaar
-  - eigen vermogen
-  - evolutie van het eigen vermogen
-  - kapitaal
-  - mutaties binnen het eigen vermogen
-  - resultaatverwerking
-  - tabel
+- wijzigingen in het eigen vermogen
+- bestemming van het resultaat van het boekjaar
+- eigen vermogen
+- evolutie van het eigen vermogen
+- kapitaal
+- mutaties binnen het eigen vermogen
+- resultaatverwerking
+- tabel
 bron: https://www.cbn-cnc.be/nl/adviezen/voorstelling-van-een-tabel-met-de-wijzigingen-in-het-eigen-vermogen-en-de-bestemming-van
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/voorstelling-van-een-tabel-met-de-wijzigingen-in-het-eigen-vermogen-en-de-bestemming-van
-      sha256: d63a3c5e3ff8c274dc4649c2e281793ac45b5d16ea5ef36a1462186f3a1a3554
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/voorstelling-van-een-tabel-met-de-wijzigingen-in-het-eigen-vermogen-en-de-bestemming-van
+    sha256: d63a3c5e3ff8c274dc4649c2e281793ac45b5d16ea5ef36a1462186f3a1a3554
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T21:17:36Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T21:19:09Z'
     confirmed_by: human
-    rationale: "Bijlage-link hersteld: [Klik hier om de bijlage te raadplegen](https://www.cbn-cnc.be/nl/bijlage-bij-cbn-advies-1214). Geen ## headings maar slechts 5K chars — heading_structure warn benign voor zo'n kort advies."
+    rationale: 'Bijlage-link hersteld: [Klik hier om de bijlage te raadplegen](https://www.cbn-cnc.be/nl/bijlage-bij-cbn-advies-1214).
+      Geen ## headings maar slechts 5K chars — heading_structure warn benign voor
+      zo''n kort advies.'
+    layer1:
+      verdict: pass
+      heading_count: 0
+      max_section_chars: 5240
+      file_size_chars: 5240
+      flags: []
+      run_id: 20260509-212552
 ---
 
 # CBN-advies 121/4 - Voorstelling van een tabel met de wijzigingen in het eigen vermogen en de bestemming van het resultaat van het boekjaar

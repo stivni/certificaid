@@ -1,49 +1,56 @@
 ---
-nummer: "CBN-advies 153/2"
+nummer: CBN-advies 153/2
 datum: 1995-03-01
 themas:
-  - bestuurder
-  - voorziening
-  - bezoldiging
-  - bezoldiging van bestuurders
-  - bezoldigingen aan bestuurders en commissarissen
-  - loonmatiging
-  - participatiefonds
-  - personeel
-  - provisie
+- bestuurder
+- voorziening
+- bezoldiging
+- bezoldiging van bestuurders
+- bezoldigingen aan bestuurders en commissarissen
+- loonmatiging
+- participatiefonds
+- personeel
+- provisie
 bron: https://www.cbn-cnc.be/nl/adviezen/loonmatiging-bezoldigingen-van-bestuurders
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/loonmatiging-bezoldigingen-van-bestuurders
-      sha256: 5775518672073eb4ccad2ec0a44dd277bc67b055566971951312d79692a3d4e5
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/loonmatiging-bezoldigingen-van-bestuurders
+    sha256: 5775518672073eb4ccad2ec0a44dd277bc67b055566971951312d79692a3d4e5
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T18:35:23Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T18:40:03Z'
     confirmed_by: qa-laag1-auto
     rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    layer1:
+      verdict: pass
+      heading_count: 0
+      max_section_chars: 3941
+      file_size_chars: 3941
+      flags: []
+      run_id: 20260509-212552
 gerelateerde_adviezen:
-  - titel: Vermelding in de jaarrekening van de gegevens van de bestuurders en de commissaris
-    url: https://www.cbn-cnc.be/nl/adviezen/vermelding-in-de-jaarrekening-van-de-gegevens-van-de-bestuurders-en-de-commissaris
-    datum: '2020-08-05'
-  - titel: Boekhoudplichtige onderneming
-    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudplichtige-onderneming
-    datum: '2019-09-26'
-  - titel: Vergoedingen aan bestuurders en werkende vennoten
-    url: https://www.cbn-cnc.be/nl/adviezen/vergoedingen-aan-bestuurders-en-werkende-vennoten
-    datum: '2016-09-07'
-  - titel: Bezoldigingen toegekend aan bestuurders en commissarissen -Bedoelde bezoldigingen
-    url: https://www.cbn-cnc.be/nl/adviezen/bezoldigingen-toegekend-aan-bestuurders-en-commissarissen-bedoelde-bezoldigingen
-    datum: '1978-07-01'
+- titel: Vermelding in de jaarrekening van de gegevens van de bestuurders en de commissaris
+  url: https://www.cbn-cnc.be/nl/adviezen/vermelding-in-de-jaarrekening-van-de-gegevens-van-de-bestuurders-en-de-commissaris
+  datum: '2020-08-05'
+- titel: Boekhoudplichtige onderneming
+  url: https://www.cbn-cnc.be/nl/adviezen/boekhoudplichtige-onderneming
+  datum: '2019-09-26'
+- titel: Vergoedingen aan bestuurders en werkende vennoten
+  url: https://www.cbn-cnc.be/nl/adviezen/vergoedingen-aan-bestuurders-en-werkende-vennoten
+  datum: '2016-09-07'
+- titel: Bezoldigingen toegekend aan bestuurders en commissarissen -Bedoelde bezoldigingen
+  url: https://www.cbn-cnc.be/nl/adviezen/bezoldigingen-toegekend-aan-bestuurders-en-commissarissen-bedoelde-bezoldigingen
+  datum: '1978-07-01'
 ---
 
 # CBN-advies 153/2 - Loonmatiging (bezoldigingen van bestuurders)

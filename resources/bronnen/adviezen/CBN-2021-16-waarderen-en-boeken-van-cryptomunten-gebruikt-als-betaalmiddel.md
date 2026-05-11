@@ -1,41 +1,48 @@
 ---
-nummer: "CBN-advies 2021/16"
+nummer: CBN-advies 2021/16
 datum: 2021-12-06
 themas:
-  - cryptocurrency
-  - cryptomunt
-  - betaalmiddel
-  - virtuele munt
-  - bitcoin
-  - blockchain
-  - liquide middelen
-  - geldbelegging
-  - vordering
-  - overige vorderingen
+- cryptocurrency
+- cryptomunt
+- betaalmiddel
+- virtuele munt
+- bitcoin
+- blockchain
+- liquide middelen
+- geldbelegging
+- vordering
+- overige vorderingen
 bron: https://www.cbn-cnc.be/nl/adviezen/waarderen-en-boeken-van-cryptomunten-gebruikt-als-betaalmiddel
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/waarderen-en-boeken-van-cryptomunten-gebruikt-als-betaalmiddel
-      sha256: 93817b0a58155c7cf3900e7005139b5fa9fdce3a655d921559deef8a09c48bc0
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/waarderen-en-boeken-van-cryptomunten-gebruikt-als-betaalmiddel
+    sha256: 93817b0a58155c7cf3900e7005139b5fa9fdce3a655d921559deef8a09c48bc0
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T18:38:04Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T18:40:05Z'
     confirmed_by: qa-laag1-auto
     rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    layer1:
+      verdict: pass
+      heading_count: 2
+      max_section_chars: 6083
+      file_size_chars: 7408
+      flags: []
+      run_id: 20260509-212552
 gerelateerde_adviezen:
-  - titel: Boekhoudkundige verwerking van virtuele munten (ONTWERP)
-    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-virtuele-munten-ontwerp
-    datum: '2019-05-17'
+- titel: Boekhoudkundige verwerking van virtuele munten (ONTWERP)
+  url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-virtuele-munten-ontwerp
+  datum: '2019-05-17'
 ---
 
 # CBN-advies 2021/16 – Waarderen en boeken van cryptomunten gebruikt als betaalmiddel

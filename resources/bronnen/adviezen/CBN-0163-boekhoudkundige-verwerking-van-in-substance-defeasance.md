@@ -1,32 +1,39 @@
 ---
-nummer: "CBN-advies 163"
+nummer: CBN-advies 163
 datum: 1991-03-01
 themas:
-  - in-substance defeasance
-  - onherroepelijke overdracht van activa
-  - schulden
-  - trustee
-  - vastrentende effecten
+- in-substance defeasance
+- onherroepelijke overdracht van activa
+- schulden
+- trustee
+- vastrentende effecten
 bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-in-substance-defeasance
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-in-substance-defeasance
-      sha256: afb75ddb259a9325a97dcc88ff928e050701eedd2d6202322628b7dcf6766288
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-in-substance-defeasance
+    sha256: afb75ddb259a9325a97dcc88ff928e050701eedd2d6202322628b7dcf6766288
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T18:35:31Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T18:40:03Z'
     confirmed_by: qa-laag1-auto
     rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    layer1:
+      verdict: pass
+      heading_count: 0
+      max_section_chars: 3775
+      file_size_chars: 3775
+      flags: []
+      run_id: 20260509-212552
 ---
 
 # CBN-advies 163 - Boekhoudkundige verwerking van in-substance defeasance

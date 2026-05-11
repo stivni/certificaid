@@ -1,30 +1,37 @@
 ---
-nummer: "CBN-advies 2017/16"
+nummer: CBN-advies 2017/16
 datum: 2017-09-13
 themas:
-  - onbeperkt aansprakelijk vennoot
-  - toelichting
-  - onbeperkte aansprakelijkheid
+- onbeperkt aansprakelijk vennoot
+- toelichting
+- onbeperkte aansprakelijkheid
 bron: https://www.cbn-cnc.be/nl/adviezen/onbeperkt-aansprakelijke-vennoot-vermeldingen-in-de-jaarrekening
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/onbeperkt-aansprakelijke-vennoot-vermeldingen-in-de-jaarrekening
-      sha256: 20d910d026c92012c57fcec04e4d61a64ca89bb59dcdd172671d0fee330df66f
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/onbeperkt-aansprakelijke-vennoot-vermeldingen-in-de-jaarrekening
+    sha256: 20d910d026c92012c57fcec04e4d61a64ca89bb59dcdd172671d0fee330df66f
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T18:37:15Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T18:40:04Z'
     confirmed_by: qa-laag1-auto
     rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    layer1:
+      verdict: pass
+      heading_count: 17
+      max_section_chars: 16960
+      file_size_chars: 21393
+      flags: []
+      run_id: 20260509-212552
 ---
 
 # CBN-advies 2017/16 – Onbeperkt aansprakelijke vennoot: vermeldingen in de jaarrekening

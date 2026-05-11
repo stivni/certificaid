@@ -1,34 +1,41 @@
 ---
-nummer: "CBN-advies 2010/8"
+nummer: CBN-advies 2010/8
 datum: 2010-06-16
 themas:
-  - financiële bijstand
-  - financiële steunverlening
-  - herwaarderingsmeerwaarde
-  - lening
-  - onbeschikbare reserve
-  - uitkeerbare winst
-  - zekerheid
+- financiële bijstand
+- financiële steunverlening
+- herwaarderingsmeerwaarde
+- lening
+- onbeschikbare reserve
+- uitkeerbare winst
+- zekerheid
 bron: https://www.cbn-cnc.be/nl/adviezen/financiele-steunverlening
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/financiele-steunverlening
-      sha256: 98c92f3867505770312107fa899f81320ce9a695177f32151e75e09f3caa7d6a
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/financiele-steunverlening
+    sha256: 98c92f3867505770312107fa899f81320ce9a695177f32151e75e09f3caa7d6a
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T18:35:58Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T18:40:03Z'
     confirmed_by: qa-laag1-auto
     rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    layer1:
+      verdict: pass
+      heading_count: 2
+      max_section_chars: 6074
+      file_size_chars: 8523
+      flags: []
+      run_id: 20260509-212552
 ---
 
 # CBN-advies 2010/8 - Financiële steunverlening Advies van 16 juni 2010

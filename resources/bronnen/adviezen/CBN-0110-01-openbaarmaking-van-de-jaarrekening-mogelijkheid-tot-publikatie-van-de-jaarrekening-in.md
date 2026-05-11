@@ -1,43 +1,54 @@
 ---
-nummer: "CBN-advies 110/1"
+nummer: CBN-advies 110/1
 datum: 1977-12-01
 themas:
-  - interne jaarrekening
-  - openbaarmaking
-  - publicatie van de jaarrekening in beknopte vorm
+- interne jaarrekening
+- openbaarmaking
+- publicatie van de jaarrekening in beknopte vorm
 bron: https://www.cbn-cnc.be/nl/adviezen/openbaarmaking-van-de-jaarrekening-mogelijkheid-tot-publikatie-van-de-jaarrekening-in
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/openbaarmaking-van-de-jaarrekening-mogelijkheid-tot-publikatie-van-de-jaarrekening-in
-      sha256: 1ef9820459b50de3ce91e1b2c40e8b3caaa390057c0b656e38b89ef70efe6af6
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/openbaarmaking-van-de-jaarrekening-mogelijkheid-tot-publikatie-van-de-jaarrekening-in
+    sha256: 1ef9820459b50de3ce91e1b2c40e8b3caaa390057c0b656e38b89ef70efe6af6
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T18:34:06Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T18:40:02Z'
     confirmed_by: qa-laag1-auto
     rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    layer1:
+      verdict: pass
+      heading_count: 0
+      max_section_chars: 3324
+      file_size_chars: 3324
+      flags: []
+      run_id: 20260509-212552
 gerelateerde_adviezen:
-  - titel: 'Belgische bijkantoren van buitenlandse verenigingen en stichtingen: toepassing van het Belgisch boekhoudrecht – begrip ‘bijkantoor’ – publicatieplicht – eigen boekhoudkundige verplichtingen'
-    url: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-buitenlandse-verenigingen-en-stichtingen-toepassing-van-het-0
-    datum: '2024-02-08'
-  - titel: 'Belgische bijkantoren van buitenlandse vennootschappen: eigen boekhoudkundige verplichtingen (update)'
-    url: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-buitenlandse-vennootschappen-eigen-boekhoudkundige
-    datum: '2022-11-08'
-  - titel: 'Belgische bijkantoren van vennootschappen naar buitenlands recht: eigen boekhoudkundige verplichtingen'
-    url: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-vennootschappen-naar-buitenlands-recht-eigen-boekhoudkundige-0
-    datum: '2019-03-26'
-  - titel: Interne en externe jaarrekening – Begrippen
-    url: https://www.cbn-cnc.be/nl/adviezen/interne-en-externe-jaarrekening-begrippen
-    datum: '1981-04-01'
+- titel: 'Belgische bijkantoren van buitenlandse verenigingen en stichtingen: toepassing
+    van het Belgisch boekhoudrecht – begrip ‘bijkantoor’ – publicatieplicht – eigen
+    boekhoudkundige verplichtingen'
+  url: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-buitenlandse-verenigingen-en-stichtingen-toepassing-van-het-0
+  datum: '2024-02-08'
+- titel: 'Belgische bijkantoren van buitenlandse vennootschappen: eigen boekhoudkundige
+    verplichtingen (update)'
+  url: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-buitenlandse-vennootschappen-eigen-boekhoudkundige
+  datum: '2022-11-08'
+- titel: 'Belgische bijkantoren van vennootschappen naar buitenlands recht: eigen
+    boekhoudkundige verplichtingen'
+  url: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-vennootschappen-naar-buitenlands-recht-eigen-boekhoudkundige-0
+  datum: '2019-03-26'
+- titel: Interne en externe jaarrekening – Begrippen
+  url: https://www.cbn-cnc.be/nl/adviezen/interne-en-externe-jaarrekening-begrippen
+  datum: '1981-04-01'
 ---
 
 # CBN-advies 110/1 - Openbaarmaking van de jaarrekening - Mogelijkheid tot publikatie van de jaarrekening in beknopte vorm (artikel 39)

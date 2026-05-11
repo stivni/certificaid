@@ -1,36 +1,43 @@
 ---
-nummer: "CBN-advies 2010/18"
+nummer: CBN-advies 2010/18
 datum: 2010-11-10
 themas:
-  - gratis verstrekte dienst
-  - om niet
-  - schenking
-  - schenking met terugnemingsrecht
-  - stichting
-  - subsidies
-  - subsidies in natura
-  - vereniging zonder winstoogmerk
-  - vrijwilligersprestatie
+- gratis verstrekte dienst
+- om niet
+- schenking
+- schenking met terugnemingsrecht
+- stichting
+- subsidies
+- subsidies in natura
+- vereniging zonder winstoogmerk
+- vrijwilligersprestatie
 bron: https://www.cbn-cnc.be/nl/adviezen/subsidies-en-schenkingen-vanuit-het-oogpunt-van-de-verstrekkende-vereniging-of-stichting
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/subsidies-en-schenkingen-vanuit-het-oogpunt-van-de-verstrekkende-vereniging-of-stichting
-      sha256: c7b39235700056bc5c9e144ded0d7577e9a7c51b767eb849ff0fc187fb8e6cb7
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/subsidies-en-schenkingen-vanuit-het-oogpunt-van-de-verstrekkende-vereniging-of-stichting
+    sha256: c7b39235700056bc5c9e144ded0d7577e9a7c51b767eb849ff0fc187fb8e6cb7
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T18:36:04Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T18:40:04Z'
     confirmed_by: qa-laag1-auto
     rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    layer1:
+      verdict: pass
+      heading_count: 13
+      max_section_chars: 1500
+      file_size_chars: 7104
+      flags: []
+      run_id: 20260509-212552
 ---
 
 # CBN-advies 2010/18 - Subsidies en schenkingen vanuit het oogpunt van de verstrekkende vereniging of stichting

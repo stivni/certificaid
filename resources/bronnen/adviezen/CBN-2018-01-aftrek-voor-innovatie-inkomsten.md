@@ -1,50 +1,58 @@
 ---
-nummer: "CBN-advies 2018/01"
+nummer: CBN-advies 2018/01
 datum: 2018-03-21
 themas:
-  - belasting
-  - aftrek innovatie-inkomsten
-  - innovatieaftrek
-  - innovatie aftrek
-  - vrijgestelde inkomsten
-  - innovatie-inkomsten
-  - vennootschapsbelasting
-  - immateriële vaste activa
-  - belastingvrije reserves
-  - beschikbare reserves
+- belasting
+- aftrek innovatie-inkomsten
+- innovatieaftrek
+- innovatie aftrek
+- vrijgestelde inkomsten
+- innovatie-inkomsten
+- vennootschapsbelasting
+- immateriële vaste activa
+- belastingvrije reserves
+- beschikbare reserves
 bron: https://www.cbn-cnc.be/nl/adviezen/aftrek-voor-innovatie-inkomsten
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/aftrek-voor-innovatie-inkomsten
-      sha256: 1b7cc8df2f34d523e05e807e2be7905931917b5a0aaa761884bb042b96fcb6e6
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/aftrek-voor-innovatie-inkomsten
+    sha256: 1b7cc8df2f34d523e05e807e2be7905931917b5a0aaa761884bb042b96fcb6e6
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T18:37:17Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T18:40:04Z'
     confirmed_by: qa-laag1-auto
     rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    layer1:
+      verdict: pass
+      heading_count: 14
+      max_section_chars: 5986
+      file_size_chars: 16307
+      flags: []
+      run_id: 20260509-212552
 gerelateerde_adviezen:
-  - titel: Boekhoudkundige verwerking van de taks tot vergoeding der successierechten
-    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-taks-tot-vergoeding-der-successierechten
-    datum: '2024-05-22'
-  - titel: Voorzieningen
-    url: https://www.cbn-cnc.be/nl/adviezen/voorzieningen
-    datum: '2019-03-05'
-  - titel: Interpretatie van code 99084 in de toelichting 5.14 van de geconsolideerde jaarrekening
-    url: https://www.cbn-cnc.be/nl/adviezen/interpretatie-van-code-99084-in-de-toelichting-514-van-de-geconsolideerde-jaarrekening
-    datum: '2018-05-30'
-  - titel: Tax shelter voor podiumkunsten
-    url: https://www.cbn-cnc.be/nl/adviezen/tax-shelter-voor-podiumkunsten
-    datum: '2018-05-30'
+- titel: Boekhoudkundige verwerking van de taks tot vergoeding der successierechten
+  url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-taks-tot-vergoeding-der-successierechten
+  datum: '2024-05-22'
+- titel: Voorzieningen
+  url: https://www.cbn-cnc.be/nl/adviezen/voorzieningen
+  datum: '2019-03-05'
+- titel: Interpretatie van code 99084 in de toelichting 5.14 van de geconsolideerde
+    jaarrekening
+  url: https://www.cbn-cnc.be/nl/adviezen/interpretatie-van-code-99084-in-de-toelichting-514-van-de-geconsolideerde-jaarrekening
+  datum: '2018-05-30'
+- titel: Tax shelter voor podiumkunsten
+  url: https://www.cbn-cnc.be/nl/adviezen/tax-shelter-voor-podiumkunsten
+  datum: '2018-05-30'
 ---
 
 # CBN-advies 2018/01 – Aftrek voor innovatie-inkomsten

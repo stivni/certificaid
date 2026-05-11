@@ -1,28 +1,37 @@
 ---
-nummer: "CBN-advies 14/1"
+nummer: CBN-advies 14/1
 datum: 1993-02-01
 themas:
-  - adviesbevoegdheid van de CBN
+- adviesbevoegdheid van de CBN
 bron: https://www.cbn-cnc.be/nl/adviezen/adviesbevoegdheid
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/adviesbevoegdheid
-      sha256: 72834f4392f7bc816901069023a454a7bcced93b915604902aa3d4f94cd378dc
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/adviesbevoegdheid
+    sha256: 72834f4392f7bc816901069023a454a7bcced93b915604902aa3d4f94cd378dc
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T18:33:33Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T19:02:28Z'
     confirmed_by: subagent-laag2-ronde2
-    rationale: '[Laag-2-R2 2026-05-08] Volledig en coherent advies over juridische aard en reikwijdte CBN-adviezen. Wettelijke grondslag, niet-bindend karakter, grens bij geschillen/fiscale vragen helder uitgewerkt.'
+    rationale: '[Laag-2-R2 2026-05-08] Volledig en coherent advies over juridische
+      aard en reikwijdte CBN-adviezen. Wettelijke grondslag, niet-bindend karakter,
+      grens bij geschillen/fiscale vragen helder uitgewerkt.'
+    layer1:
+      verdict: pass
+      heading_count: 0
+      max_section_chars: 8186
+      file_size_chars: 8186
+      flags: []
+      run_id: 20260509-212552
 ---
 
 # CBN-advies 14/1 – Adviesbevoegdheid

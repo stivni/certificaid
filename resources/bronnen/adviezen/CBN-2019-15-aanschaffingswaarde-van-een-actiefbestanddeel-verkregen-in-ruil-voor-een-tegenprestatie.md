@@ -1,37 +1,45 @@
 ---
-nummer: "CBN-advies 2019/15"
+nummer: CBN-advies 2019/15
 datum: 2019-12-23
 themas:
-  - ruil
-  - tegenprestatie anders dan in geld
-  - opleg in geld
-  - aanschaffingswaarde actiefbestanddeel
-  - verlenen van een dienst
-  - marktwaarde
+- ruil
+- tegenprestatie anders dan in geld
+- opleg in geld
+- aanschaffingswaarde actiefbestanddeel
+- verlenen van een dienst
+- marktwaarde
 bron: https://www.cbn-cnc.be/nl/adviezen/aanschaffingswaarde-van-een-actiefbestanddeel-verkregen-in-ruil-voor-een-tegenprestatie
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/aanschaffingswaarde-van-een-actiefbestanddeel-verkregen-in-ruil-voor-een-tegenprestatie
-      sha256: bbb6a8771bd8588544978cda660da6cb388db0d391bb158485cfd5c5e2079459
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/aanschaffingswaarde-van-een-actiefbestanddeel-verkregen-in-ruil-voor-een-tegenprestatie
+    sha256: bbb6a8771bd8588544978cda660da6cb388db0d391bb158485cfd5c5e2079459
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T18:37:45Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T18:40:05Z'
     confirmed_by: qa-laag1-auto
     rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    layer1:
+      verdict: pass
+      heading_count: 4
+      max_section_chars: 9731
+      file_size_chars: 11442
+      flags: []
+      run_id: 20260509-212552
 gerelateerde_adviezen:
-  - titel: Boekhoudkundige verwerking van een ruilverrichting en een aanbod tot inschrijving door inbreng in natura
-    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-een-ruilverrichting-en-een-aanbod-tot-inschrijving-door
-    datum: '1998-03-01'
+- titel: Boekhoudkundige verwerking van een ruilverrichting en een aanbod tot inschrijving
+    door inbreng in natura
+  url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-een-ruilverrichting-en-een-aanbod-tot-inschrijving-door
+  datum: '1998-03-01'
 ---
 
 # CBN-advies 2019/15 – Aanschaffingswaarde van een actiefbestanddeel verkregen in ruil voor een tegenprestatie anders dan in geld

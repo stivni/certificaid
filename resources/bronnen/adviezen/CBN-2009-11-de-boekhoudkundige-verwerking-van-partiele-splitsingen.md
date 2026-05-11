@@ -1,35 +1,44 @@
 ---
-nummer: "CBN-advies 2009/11"
+nummer: CBN-advies 2009/11
 datum: 2009-09-16
 themas:
-  - partiële splitsing
+- partiële splitsing
 bron: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-partiele-splitsingen
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-partiele-splitsingen
-      sha256: 6bed029a7b84487dfafe91c768ee462d42a9123ae5f14f16a1bddabc7c1fad22
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-partiele-splitsingen
+    sha256: 6bed029a7b84487dfafe91c768ee462d42a9123ae5f14f16a1bddabc7c1fad22
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T18:35:52Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T18:40:03Z'
     confirmed_by: qa-laag1-auto
     rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    layer1:
+      verdict: pass
+      heading_count: 6
+      max_section_chars: 8510
+      file_size_chars: 26775
+      flags: []
+      run_id: 20260509-212552
 gerelateerde_adviezen:
-  - titel: Fusies en splitsingen van vennootschappen met een negatief nettoactief
-    url: https://www.cbn-cnc.be/nl/adviezen/fusies-en-splitsingen-van-vennootschappen-met-een-negatief-nettoactief
-    datum: '2022-02-15'
-  - titel: Overdracht van eigen vermogen in het kader van een fusie, splitsing of partiële splitsing in boekhoudkundige continuïteit en fiscale continuïteit en artikel 78, § 8 van het koninklijk besluit tot uitvoering van het Wetboek van vennootschappen
-    url: https://www.cbn-cnc.be/nl/adviezen/overdracht-van-eigen-vermogen-in-het-kader-van-een-fusie-splitsing-of-partiele-splitsing
-    datum: '2012-09-05'
+- titel: Fusies en splitsingen van vennootschappen met een negatief nettoactief
+  url: https://www.cbn-cnc.be/nl/adviezen/fusies-en-splitsingen-van-vennootschappen-met-een-negatief-nettoactief
+  datum: '2022-02-15'
+- titel: Overdracht van eigen vermogen in het kader van een fusie, splitsing of partiële
+    splitsing in boekhoudkundige continuïteit en fiscale continuïteit en artikel 78,
+    § 8 van het koninklijk besluit tot uitvoering van het Wetboek van vennootschappen
+  url: https://www.cbn-cnc.be/nl/adviezen/overdracht-van-eigen-vermogen-in-het-kader-van-een-fusie-splitsing-of-partiele-splitsing
+  datum: '2012-09-05'
 ---
 
 # CBN-advies 2009/11 - De boekhoudkundige verwerking van partiële splitsingen Advies van 16 september 2009

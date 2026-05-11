@@ -1,37 +1,47 @@
 ---
-nummer: "CBN-advies 2012/9"
+nummer: CBN-advies 2012/9
 datum: 2012-06-06
 themas:
-  - variabele prijs
-  - financiële vaste activa
-  - immateriële vaste activa
+- variabele prijs
+- financiële vaste activa
+- immateriële vaste activa
 bron: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-verwerving-van-een-vast-actief-voor-een-variabele
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-verwerving-van-een-vast-actief-voor-een-variabele
-      sha256: bf4eeb3bbe53a79b3ed20c981361938a3d6d79fa6d298ad2bdd8a0bdfa8f723d
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-verwerving-van-een-vast-actief-voor-een-variabele
+    sha256: bf4eeb3bbe53a79b3ed20c981361938a3d6d79fa6d298ad2bdd8a0bdfa8f723d
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T18:36:28Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T18:40:04Z'
     confirmed_by: qa-laag1-auto
     rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    layer1:
+      verdict: pass
+      heading_count: 9
+      max_section_chars: 10127
+      file_size_chars: 20069
+      flags: []
+      run_id: 20260509-212552
 gerelateerde_adviezen:
-  - titel: Verwerving van een vast actief voor een variabele prijs die afhankelijk is van de toekomstige winst van de koper
-    url: https://www.cbn-cnc.be/nl/adviezen/verwerving-van-een-vast-actief-voor-een-variabele-prijs-die-afhankelijk-is-van-de
-    datum: '1993-02-01'
-  - titel: Verwerving van een vast actief voor een prijs die bestaat uit een vast contant te betalen gedeelte en een variabel gedeelte dat afhankelijk is van de gerealiseerde bedrijfswinst
-    url: https://www.cbn-cnc.be/nl/adviezen/verwerving-van-een-vast-actief-voor-een-prijs-die-bestaat-uit-een-vast-contant-te-betalen
-    datum: '1990-06-01'
+- titel: Verwerving van een vast actief voor een variabele prijs die afhankelijk is
+    van de toekomstige winst van de koper
+  url: https://www.cbn-cnc.be/nl/adviezen/verwerving-van-een-vast-actief-voor-een-variabele-prijs-die-afhankelijk-is-van-de
+  datum: '1993-02-01'
+- titel: Verwerving van een vast actief voor een prijs die bestaat uit een vast contant
+    te betalen gedeelte en een variabel gedeelte dat afhankelijk is van de gerealiseerde
+    bedrijfswinst
+  url: https://www.cbn-cnc.be/nl/adviezen/verwerving-van-een-vast-actief-voor-een-prijs-die-bestaat-uit-een-vast-contant-te-betalen
+  datum: '1990-06-01'
 ---
 
 # CBN-advies 2012/9 – De boekhoudkundige verwerking van de verwerving van een vast actief voor een variabele prijs die afhankelijk is van een toekomstige en onzekere gebeurtenis die een rechtstreeks verband houdt met het nut dat het verworven actief heeft voor de vennootschap (update)

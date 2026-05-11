@@ -1,70 +1,79 @@
 ---
-nummer: "CBN-advies 2022/05"
+nummer: CBN-advies 2022/05
 datum: 2022-04-27
 themas:
-  - verslaggeving
-  - ontbinding
-  - vereffening
-  - ontbinding van rechtswege
-  - gerechtelijke ontbinding
-  - verslaggevingsverplichting
-  - sluiting vereffening
-  - staat van activa en passiva
-  - publicatie
-  - neerlegging van de jaarrekening
-  - stopzetting
-  - continuïteit
-  - kwijting
-  - afsluiting van het boekjaar
-  - vereffenaar
-  - jaarrekening
-  - ontbindingsvoorstel
-  - ontbindingsverslag
-  - ontbindingsbesluit
-  - waarderingsregels
-  - verenigingsdossier
-  - ondernemingsrechtbank
-  - invereffeningstelling
-  - omstandige staat
-  - vereffeningsrekeningen
-  - cijfermatig verslag
-  - boekjaar
-  - stukken tot staving
-  - dossier van de rechtspersoon
-  - inzagerecht
+- verslaggeving
+- ontbinding
+- vereffening
+- ontbinding van rechtswege
+- gerechtelijke ontbinding
+- verslaggevingsverplichting
+- sluiting vereffening
+- staat van activa en passiva
+- publicatie
+- neerlegging van de jaarrekening
+- stopzetting
+- continuïteit
+- kwijting
+- afsluiting van het boekjaar
+- vereffenaar
+- jaarrekening
+- ontbindingsvoorstel
+- ontbindingsverslag
+- ontbindingsbesluit
+- waarderingsregels
+- verenigingsdossier
+- ondernemingsrechtbank
+- invereffeningstelling
+- omstandige staat
+- vereffeningsrekeningen
+- cijfermatig verslag
+- boekjaar
+- stukken tot staving
+- dossier van de rechtspersoon
+- inzagerecht
 bron: https://www.cbn-cnc.be/nl/adviezen/verslaggeving-bij-ontbinding-en-vereffening-van-een-vzw-of-ivzw
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/verslaggeving-bij-ontbinding-en-vereffening-van-een-vzw-of-ivzw
-      sha256: 8cd05b05f7a5bb251084598b2bde8a816f7753a58592dd89cc82f1ac4b3a8a3b
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/verslaggeving-bij-ontbinding-en-vereffening-van-een-vzw-of-ivzw
+    sha256: 8cd05b05f7a5bb251084598b2bde8a816f7753a58592dd89cc82f1ac4b3a8a3b
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T18:38:09Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T18:40:05Z'
     confirmed_by: qa-laag1-auto
     rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    layer1:
+      verdict: pass
+      heading_count: 15
+      max_section_chars: 15916
+      file_size_chars: 34469
+      flags: []
+      run_id: 20260509-212552
 gerelateerde_adviezen:
-  - titel: Verslaggeving bij de heropening van de vereffening van (i)vzw’s die een dubbele boekhouding voeren
-    url: https://www.cbn-cnc.be/nl/adviezen/verslaggeving-bij-de-heropening-van-de-vereffening-van-ivzws-die-een-dubbele-boekhouding
-    datum: '2024-11-14'
-  - titel: Verslaggeving bij de heropening van de vereffening van de vennootschappen
-    url: https://www.cbn-cnc.be/nl/adviezen/verslaggeving-bij-de-heropening-van-de-vereffening-van-de-vennootschappen
-    datum: '2024-11-13'
-  - titel: Verslaggeving bij ontbinding en vereffening van BV, CV, NV, SE en SCE
-    url: https://www.cbn-cnc.be/nl/adviezen/verslaggeving-bij-ontbinding-en-vereffening-van-bv-cv-nv-se-en-sce
-    datum: '2022-04-01'
-  - titel: Going concern - Waarderingsregels bij de stopzetting of gedeeltelijke stopzetting van het bedrijf van een onderneming
-    url: https://www.cbn-cnc.be/nl/adviezen/going-concern-waarderingsregels-bij-de-stopzetting-of-gedeeltelijke-stopzetting-van-het
-    datum: '2018-11-19'
+- titel: Verslaggeving bij de heropening van de vereffening van (i)vzw’s die een dubbele
+    boekhouding voeren
+  url: https://www.cbn-cnc.be/nl/adviezen/verslaggeving-bij-de-heropening-van-de-vereffening-van-ivzws-die-een-dubbele-boekhouding
+  datum: '2024-11-14'
+- titel: Verslaggeving bij de heropening van de vereffening van de vennootschappen
+  url: https://www.cbn-cnc.be/nl/adviezen/verslaggeving-bij-de-heropening-van-de-vereffening-van-de-vennootschappen
+  datum: '2024-11-13'
+- titel: Verslaggeving bij ontbinding en vereffening van BV, CV, NV, SE en SCE
+  url: https://www.cbn-cnc.be/nl/adviezen/verslaggeving-bij-ontbinding-en-vereffening-van-bv-cv-nv-se-en-sce
+  datum: '2022-04-01'
+- titel: Going concern - Waarderingsregels bij de stopzetting of gedeeltelijke stopzetting
+    van het bedrijf van een onderneming
+  url: https://www.cbn-cnc.be/nl/adviezen/going-concern-waarderingsregels-bij-de-stopzetting-of-gedeeltelijke-stopzetting-van-het
+  datum: '2018-11-19'
 ---
 
 # CBN-advies 2022/05 - Verslaggeving bij ontbinding en vereffening van een VZW of IVZW

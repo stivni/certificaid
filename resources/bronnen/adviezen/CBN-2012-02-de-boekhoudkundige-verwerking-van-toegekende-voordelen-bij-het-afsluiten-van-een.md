@@ -1,41 +1,51 @@
 ---
-nummer: "CBN-advies 2012/2"
+nummer: CBN-advies 2012/2
 datum: 2012-01-11
 themas:
-  - Huur
+- Huur
 bron: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-toegekende-voordelen-bij-het-afsluiten-van-een
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-toegekende-voordelen-bij-het-afsluiten-van-een
-      sha256: 8f3bec9b11104de4d4cb27cc100283f8a19ad102e8e8e7e0e9d28be37fdd5830
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-toegekende-voordelen-bij-het-afsluiten-van-een
+    sha256: 8f3bec9b11104de4d4cb27cc100283f8a19ad102e8e8e7e0e9d28be37fdd5830
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T21:30:08Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T21:31:11Z'
     confirmed_by: human
-    rationale: 'Herscraped na fix select_title(): gecombineerde H1 (COMMISSIE + titel) correct gesplitst. Inhoud ongewijzigd t.o.v. vorig vertrouwd verdict. Laag 1 pass (of benign max_section warn).'
+    rationale: 'Herscraped na fix select_title(): gecombineerde H1 (COMMISSIE + titel)
+      correct gesplitst. Inhoud ongewijzigd t.o.v. vorig vertrouwd verdict. Laag 1
+      pass (of benign max_section warn).'
+    layer1:
+      verdict: pass
+      heading_count: 19
+      max_section_chars: 5369
+      file_size_chars: 6422
+      flags: []
+      run_id: 20260509-212552
 gerelateerde_adviezen:
-  - titel: Rekening 26 Overige materiële vaste activa
-    url: https://www.cbn-cnc.be/nl/adviezen/rekening-26-overige-materiele-vaste-activa
-    datum: '2021-06-23'
-  - titel: Boekhoudrechtelijke behandeling van kwijtschelding van huur ten gevolge van de COVID-19-pandemie
-    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudrechtelijke-behandeling-van-kwijtschelding-van-huur-ten-gevolge-van-de-covid-19
-    datum: '2021-04-06'
-  - titel: Leasing
-    url: https://www.cbn-cnc.be/nl/adviezen/leasing
-    datum: '2015-06-24'
-  - titel: Bouwwerken op andermans grond
-    url: https://www.cbn-cnc.be/nl/adviezen/bouwwerken-op-andermans-grond
-    datum: '1986-07-01'
+- titel: Rekening 26 Overige materiële vaste activa
+  url: https://www.cbn-cnc.be/nl/adviezen/rekening-26-overige-materiele-vaste-activa
+  datum: '2021-06-23'
+- titel: Boekhoudrechtelijke behandeling van kwijtschelding van huur ten gevolge van
+    de COVID-19-pandemie
+  url: https://www.cbn-cnc.be/nl/adviezen/boekhoudrechtelijke-behandeling-van-kwijtschelding-van-huur-ten-gevolge-van-de-covid-19
+  datum: '2021-04-06'
+- titel: Leasing
+  url: https://www.cbn-cnc.be/nl/adviezen/leasing
+  datum: '2015-06-24'
+- titel: Bouwwerken op andermans grond
+  url: https://www.cbn-cnc.be/nl/adviezen/bouwwerken-op-andermans-grond
+  datum: '1986-07-01'
 ---
 
 # CBN-advies 2012/2 – De boekhoudkundige verwerking van toegekende voordelen bij het afsluiten van een huurovereenkomst

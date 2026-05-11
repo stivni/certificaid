@@ -1,46 +1,54 @@
 ---
-nummer: "CBN-advies 2013/1"
+nummer: CBN-advies 2013/1
 datum: 2013-01-09
 themas:
-  - continuïteit
-  - dividenden
-  - pseudofusie
-  - reorganisatie
-  - stichting
-  - vereniging
+- continuïteit
+- dividenden
+- pseudofusie
+- reorganisatie
+- stichting
+- vereniging
 bron: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-pseudo-fusies-van-verenigingen-en-stichtingen
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-pseudo-fusies-van-verenigingen-en-stichtingen
-      sha256: 5aa8dcdf4c97a2bdf548c669cc8917246b4e429e13c3f83c28dd849a769fe9a6
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-pseudo-fusies-van-verenigingen-en-stichtingen
+    sha256: 5aa8dcdf4c97a2bdf548c669cc8917246b4e429e13c3f83c28dd849a769fe9a6
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T18:36:34Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T18:40:04Z'
     confirmed_by: qa-laag1-auto
     rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    layer1:
+      verdict: pass
+      heading_count: 15
+      max_section_chars: 15304
+      file_size_chars: 39624
+      flags: []
+      run_id: 20260509-212552
 gerelateerde_adviezen:
-  - titel: Vermogensklem bij de omzetting van een VZW in een coöperatieve vennootschap erkend als sociale onderneming
-    url: https://www.cbn-cnc.be/nl/adviezen/vermogensklem-bij-de-omzetting-van-een-vzw-in-een-cooperatieve-vennootschap-erkend-als-0
-    datum: '2024-01-17'
-  - titel: Boekhoudkundige verwerking van fusies tussen verenigingen en stichtingen
-    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-fusies-tussen-verenigingen-en-stichtingen
-    datum: '2022-09-23'
-  - titel: Boekhoudkundige verwerking van splitsingen van vennootschappen
-    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-splitsingen-van-vennootschappen
-    datum: '2022-09-19'
-  - titel: Wijziging van het boekhoudkundig referentiestelsel
-    url: https://www.cbn-cnc.be/nl/adviezen/wijziging-van-het-boekhoudkundig-referentiestelsel
-    datum: '2022-07-20'
+- titel: Vermogensklem bij de omzetting van een VZW in een coöperatieve vennootschap
+    erkend als sociale onderneming
+  url: https://www.cbn-cnc.be/nl/adviezen/vermogensklem-bij-de-omzetting-van-een-vzw-in-een-cooperatieve-vennootschap-erkend-als-0
+  datum: '2024-01-17'
+- titel: Boekhoudkundige verwerking van fusies tussen verenigingen en stichtingen
+  url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-fusies-tussen-verenigingen-en-stichtingen
+  datum: '2022-09-23'
+- titel: Boekhoudkundige verwerking van splitsingen van vennootschappen
+  url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-splitsingen-van-vennootschappen
+  datum: '2022-09-19'
+- titel: Wijziging van het boekhoudkundig referentiestelsel
+  url: https://www.cbn-cnc.be/nl/adviezen/wijziging-van-het-boekhoudkundig-referentiestelsel
+  datum: '2022-07-20'
 ---
 
 # CBN-advies 2013/1 - De boekhoudkundige verwerking van (pseudo-)fusies van verenigingen en stichtingen

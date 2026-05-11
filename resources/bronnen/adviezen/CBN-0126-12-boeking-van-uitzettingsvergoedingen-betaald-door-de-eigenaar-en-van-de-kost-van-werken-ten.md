@@ -1,32 +1,39 @@
 ---
-nummer: "CBN-advies 126/12"
+nummer: CBN-advies 126/12
 datum: 1993-02-01
 themas:
-  - kost van werken ten laste van de verkoper
-  - materiële vaste activa
-  - uitzettingsvergoeding
-  - vergoeding wegens uitzetting
-  - voorziening
+- kost van werken ten laste van de verkoper
+- materiële vaste activa
+- uitzettingsvergoeding
+- vergoeding wegens uitzetting
+- voorziening
 bron: https://www.cbn-cnc.be/nl/adviezen/boeking-van-uitzettingsvergoedingen-betaald-door-de-eigenaar-en-van-de-kost-van-werken-ten
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/boeking-van-uitzettingsvergoedingen-betaald-door-de-eigenaar-en-van-de-kost-van-werken-ten
-      sha256: dee182c834e178d07ddd553ef3a8fc93f6f80ff886fcb9e7c324449e9e02c9d0
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/boeking-van-uitzettingsvergoedingen-betaald-door-de-eigenaar-en-van-de-kost-van-werken-ten
+    sha256: dee182c834e178d07ddd553ef3a8fc93f6f80ff886fcb9e7c324449e9e02c9d0
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T18:34:39Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T18:40:03Z'
     confirmed_by: qa-laag1-auto
     rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    layer1:
+      verdict: pass
+      heading_count: 6
+      max_section_chars: 7894
+      file_size_chars: 7894
+      flags: []
+      run_id: 20260509-212552
 ---
 
 # CBN-advies 126/12 - Boeking van uitzettingsvergoedingen betaald door de eigenaar en van de kost van werken ten laste van de verkoper1

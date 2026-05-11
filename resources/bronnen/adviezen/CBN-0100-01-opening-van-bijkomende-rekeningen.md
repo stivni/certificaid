@@ -1,29 +1,36 @@
 ---
-nummer: "CBN-advies R100-1"
+nummer: CBN-advies R100-1
 datum: 1979-05-01
 themas:
-  - opening van bijkomende rekeningen
-  - rekeningenstelsel
+- opening van bijkomende rekeningen
+- rekeningenstelsel
 bron: https://www.cbn-cnc.be/nl/adviezen/opening-van-bijkomende-rekeningen
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/opening-van-bijkomende-rekeningen
-      sha256: abca0e7e72000a14456d7ea736e7f8a6830c3a697d938749485bd8da80bacb04
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/opening-van-bijkomende-rekeningen
+    sha256: abca0e7e72000a14456d7ea736e7f8a6830c3a697d938749485bd8da80bacb04
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T18:33:35Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T18:40:02Z'
     confirmed_by: qa-laag1-auto
     rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    layer1:
+      verdict: pass
+      heading_count: 0
+      max_section_chars: 3891
+      file_size_chars: 3891
+      flags: []
+      run_id: 20260509-212552
 ---
 
 # CBN-advies R100/1 - Opening van bijkomende rekeningen

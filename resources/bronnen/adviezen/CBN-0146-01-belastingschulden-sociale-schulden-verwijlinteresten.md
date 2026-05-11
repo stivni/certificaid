@@ -1,46 +1,55 @@
 ---
-nummer: "CBN-advies 146/1"
+nummer: CBN-advies 146/1
 datum: 1984-10-01
 themas:
-  - belastingen
-  - belastingschuld
-  - schulden
-  - sociale schulden
-  - toelichting
-  - verwijlintresten
+- belastingen
+- belastingschuld
+- schulden
+- sociale schulden
+- toelichting
+- verwijlintresten
 bron: https://www.cbn-cnc.be/nl/adviezen/belastingschulden-sociale-schulden-verwijlinteresten
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/belastingschulden-sociale-schulden-verwijlinteresten
-      sha256: 6836f813cb9e20ab3653815ed5695914555babca0b507bcfa20df8d76fbd3a44
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/belastingschulden-sociale-schulden-verwijlinteresten
+    sha256: 6836f813cb9e20ab3653815ed5695914555babca0b507bcfa20df8d76fbd3a44
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T18:35:09Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T18:40:03Z'
     confirmed_by: qa-laag1-auto
     rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    layer1:
+      verdict: pass
+      heading_count: 0
+      max_section_chars: 4259
+      file_size_chars: 4259
+      flags: []
+      run_id: 20260509-212552
 gerelateerde_adviezen:
-  - titel: Boekhoudkundige verwerking van de vergoeding voor de groepsbijdrage in hoofde van de overdragende vennootschap bij gebrek aan Belgische belastingen op het resultaat op rekening 4500 (addendum bij advies 2019/06)
-    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-vergoeding-voor-de-groepsbijdrage-in-hoofde-van-de
-    datum: '2021-12-22'
-  - titel: Groepsbijdrage
-    url: https://www.cbn-cnc.be/nl/adviezen/groepsbijdrage
-    datum: '2019-07-02'
-  - titel: Belastingen
-    url: https://www.cbn-cnc.be/nl/adviezen/belastingen
-    datum: '2018-05-30'
-  - titel: Boekhoudkundige verwerking van moratoriuminterest
-    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-moratoriuminterest
-    datum: '2017-04-19'
+- titel: Boekhoudkundige verwerking van de vergoeding voor de groepsbijdrage in hoofde
+    van de overdragende vennootschap bij gebrek aan Belgische belastingen op het resultaat
+    op rekening 4500 (addendum bij advies 2019/06)
+  url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-vergoeding-voor-de-groepsbijdrage-in-hoofde-van-de
+  datum: '2021-12-22'
+- titel: Groepsbijdrage
+  url: https://www.cbn-cnc.be/nl/adviezen/groepsbijdrage
+  datum: '2019-07-02'
+- titel: Belastingen
+  url: https://www.cbn-cnc.be/nl/adviezen/belastingen
+  datum: '2018-05-30'
+- titel: Boekhoudkundige verwerking van moratoriuminterest
+  url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-moratoriuminterest
+  datum: '2017-04-19'
 ---
 
 # CBN-advies 146/1 - Belastingschulden - Sociale schulden : verwijlinteresten

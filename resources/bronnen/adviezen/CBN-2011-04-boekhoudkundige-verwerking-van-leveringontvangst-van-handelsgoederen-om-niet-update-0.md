@@ -1,34 +1,41 @@
 ---
-nummer: "CBN-advies 2011/4"
+nummer: CBN-advies 2011/4
 datum: 2011-01-12
 themas:
-  - gratis handelsgoederen
-  - levering handelsgoederen om niet
-  - ontvangst handelsgoederen om niet
-  - Verkrijging om niet
-  - voorraad
-  - voorraadwijziging
-  - aankoopverplichting
+- gratis handelsgoederen
+- levering handelsgoederen om niet
+- ontvangst handelsgoederen om niet
+- Verkrijging om niet
+- voorraad
+- voorraadwijziging
+- aankoopverplichting
 bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-leveringontvangst-van-handelsgoederen-om-niet-update-0
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-leveringontvangst-van-handelsgoederen-om-niet-update-0
-      sha256: 72aa22e5a94a24cef31611e115d2507720b175904234b657608a618a50f5119c
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-leveringontvangst-van-handelsgoederen-om-niet-update-0
+    sha256: 72aa22e5a94a24cef31611e115d2507720b175904234b657608a618a50f5119c
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T18:36:08Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T18:40:04Z'
     confirmed_by: qa-laag1-auto
     rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    layer1:
+      verdict: pass
+      heading_count: 2
+      max_section_chars: 1351
+      file_size_chars: 2040
+      flags: []
+      run_id: 20260509-212552
 ---
 
 # CBN-advies 2011/4 - Boekhoudkundige verwerking van levering/ontvangst van handelsgoederen om niet (update)

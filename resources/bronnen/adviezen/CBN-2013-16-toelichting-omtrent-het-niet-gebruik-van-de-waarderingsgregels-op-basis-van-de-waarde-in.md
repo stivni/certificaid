@@ -1,41 +1,51 @@
 ---
-nummer: "CBN-advies 2013/16"
+nummer: CBN-advies 2013/16
 datum: 2013-11-27
 themas:
-  - afgeleide financiële instrumenten
-  - financiële instrumenten
-  - reële waarde
-  - waarde in het economisch verkeer
+- afgeleide financiële instrumenten
+- financiële instrumenten
+- reële waarde
+- waarde in het economisch verkeer
 bron: https://www.cbn-cnc.be/nl/adviezen/toelichting-omtrent-het-niet-gebruik-van-de-waarderingsgregels-op-basis-van-de-waarde-in
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/toelichting-omtrent-het-niet-gebruik-van-de-waarderingsgregels-op-basis-van-de-waarde-in
-      sha256: fe2d27317cdd6987339e2633ddabafb6344517363a83c3fd19f4b741d3f4c3b7
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/toelichting-omtrent-het-niet-gebruik-van-de-waarderingsgregels-op-basis-van-de-waarde-in
+    sha256: fe2d27317cdd6987339e2633ddabafb6344517363a83c3fd19f4b741d3f4c3b7
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T21:30:12Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T21:31:12Z'
     confirmed_by: human
-    rationale: 'Herscraped na fix select_title(): gecombineerde H1 (COMMISSIE + titel) correct gesplitst. Inhoud ongewijzigd t.o.v. vorig vertrouwd verdict. Laag 1 pass (of benign max_section warn).'
+    rationale: 'Herscraped na fix select_title(): gecombineerde H1 (COMMISSIE + titel)
+      correct gesplitst. Inhoud ongewijzigd t.o.v. vorig vertrouwd verdict. Laag 1
+      pass (of benign max_section warn).'
+    layer1:
+      verdict: pass
+      heading_count: 4
+      max_section_chars: 5542
+      file_size_chars: 14858
+      flags: []
+      run_id: 20260509-212552
 gerelateerde_adviezen:
-  - titel: Opname van financiële vaste activa geboekt tegen een hoger bedrag dan hun reële waarde in de toelichting van de jaarrekening
-    url: https://www.cbn-cnc.be/nl/adviezen/opname-van-financiele-vaste-activa-geboekt-tegen-een-hoger-bedrag-dan-hun-reele-waarde-in
-    datum: '2017-05-31'
-  - titel: Boekhoudkundige verwerking van de cross currency swap
-    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-cross-currency-swap
-    datum: '2016-07-06'
-  - titel: De toepassing van de algemene boekhoudprincipes op afgeleide financiële instrumenten
-    url: https://www.cbn-cnc.be/nl/adviezen/de-toepassing-van-de-algemene-boekhoudprincipes-op-afgeleide-financiele-instrumenten
-    datum: '2010-09-08'
+- titel: Opname van financiële vaste activa geboekt tegen een hoger bedrag dan hun
+    reële waarde in de toelichting van de jaarrekening
+  url: https://www.cbn-cnc.be/nl/adviezen/opname-van-financiele-vaste-activa-geboekt-tegen-een-hoger-bedrag-dan-hun-reele-waarde-in
+  datum: '2017-05-31'
+- titel: Boekhoudkundige verwerking van de cross currency swap
+  url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-cross-currency-swap
+  datum: '2016-07-06'
+- titel: De toepassing van de algemene boekhoudprincipes op afgeleide financiële instrumenten
+  url: https://www.cbn-cnc.be/nl/adviezen/de-toepassing-van-de-algemene-boekhoudprincipes-op-afgeleide-financiele-instrumenten
+  datum: '2010-09-08'
 ---
 
 # CBN-advies 2013/16 – Toelichting omtrent het niet-gebruik van de waarderingsgregels op basis van de waarde in het economisch verkeer voor de financiële instrumenten

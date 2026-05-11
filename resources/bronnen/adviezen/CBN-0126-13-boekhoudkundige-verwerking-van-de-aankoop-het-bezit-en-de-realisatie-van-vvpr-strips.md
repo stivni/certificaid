@@ -1,50 +1,57 @@
 ---
-nummer: "CBN-advies 126/13"
+nummer: CBN-advies 126/13
 datum: 1997-01-01
 themas:
-  - aandelen
-  - aanschaffingswaarde
-  - aanschaffingswaarde van VVPR-strips
-  - geldbeleggingen
-  - inschrijvingsrecht
-  - realisatie
-  - realisatie van VVPR-strips
-  - VVPR-aandelen
-  - VVPR-strips
-  - warrant
+- aandelen
+- aanschaffingswaarde
+- aanschaffingswaarde van VVPR-strips
+- geldbeleggingen
+- inschrijvingsrecht
+- realisatie
+- realisatie van VVPR-strips
+- VVPR-aandelen
+- VVPR-strips
+- warrant
 bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-aankoop-het-bezit-en-de-realisatie-van-vvpr-strips
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-aankoop-het-bezit-en-de-realisatie-van-vvpr-strips
-      sha256: 0d6a48c52faec16cb2f9a9dfdd10fd5b8637def5f098e159716dd410db165dea
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-aankoop-het-bezit-en-de-realisatie-van-vvpr-strips
+    sha256: 0d6a48c52faec16cb2f9a9dfdd10fd5b8637def5f098e159716dd410db165dea
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T18:34:40Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T18:40:03Z'
     confirmed_by: qa-laag1-auto
     rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    layer1:
+      verdict: pass
+      heading_count: 10
+      max_section_chars: 21548
+      file_size_chars: 21548
+      flags: []
+      run_id: 20260509-212552
 gerelateerde_adviezen:
-  - titel: Terugbetaling van kapitaal in vreemde valuta aan de aandeelhouders
-    url: https://www.cbn-cnc.be/nl/adviezen/terugbetaling-van-kapitaal-in-vreemde-valuta-aan-de-aandeelhouders
-    datum: '2024-03-13'
-  - titel: Dividenduitkering en kapitaalvermindering in natura
-    url: https://www.cbn-cnc.be/nl/adviezen/dividenduitkering-en-kapitaalvermindering-in-natura-0
-    datum: '2019-03-12'
-  - titel: 'Verenigingen en stichtingen: certificatie van aandelen van handelsvennootschappen'
-    url: https://www.cbn-cnc.be/nl/adviezen/verenigingen-en-stichtingen-certificatie-van-aandelen-van-handelsvennootschappen
-    datum: '2016-09-07'
-  - titel: Verrichtingen met betrekking tot inschrijvingsrechten
-    url: https://www.cbn-cnc.be/nl/adviezen/verrichtingen-met-betrekking-tot-inschrijvingsrechten
-    datum: '2016-03-09'
+- titel: Terugbetaling van kapitaal in vreemde valuta aan de aandeelhouders
+  url: https://www.cbn-cnc.be/nl/adviezen/terugbetaling-van-kapitaal-in-vreemde-valuta-aan-de-aandeelhouders
+  datum: '2024-03-13'
+- titel: Dividenduitkering en kapitaalvermindering in natura
+  url: https://www.cbn-cnc.be/nl/adviezen/dividenduitkering-en-kapitaalvermindering-in-natura-0
+  datum: '2019-03-12'
+- titel: 'Verenigingen en stichtingen: certificatie van aandelen van handelsvennootschappen'
+  url: https://www.cbn-cnc.be/nl/adviezen/verenigingen-en-stichtingen-certificatie-van-aandelen-van-handelsvennootschappen
+  datum: '2016-09-07'
+- titel: Verrichtingen met betrekking tot inschrijvingsrechten
+  url: https://www.cbn-cnc.be/nl/adviezen/verrichtingen-met-betrekking-tot-inschrijvingsrechten
+  datum: '2016-03-09'
 ---
 
 # CBN-advies 126/13 - Boekhoudkundige verwerking van de aankoop, het bezit en de realisatie van «VVPR-strips»

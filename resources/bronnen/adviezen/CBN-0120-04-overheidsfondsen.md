@@ -1,45 +1,55 @@
 ---
-nummer: "CBN-advies 120/4"
+nummer: CBN-advies 120/4
 datum: 1984-01-01
 themas:
-  - financiële vaste activa
-  - geldbeleggingen
-  - liquide middelen
-  - overheidsfondsen
-  - vastrentende effecten
+- financiële vaste activa
+- geldbeleggingen
+- liquide middelen
+- overheidsfondsen
+- vastrentende effecten
 bron: https://www.cbn-cnc.be/nl/adviezen/overheidsfondsen
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/overheidsfondsen
-      sha256: 15a694b2be8548376b7e9370809fd2a0bc3a62b4af1aa92042f8652d46fd6d96
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/overheidsfondsen
+    sha256: 15a694b2be8548376b7e9370809fd2a0bc3a62b4af1aa92042f8652d46fd6d96
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T18:34:29Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T19:02:29Z'
     confirmed_by: subagent-laag2-ronde2
-    rationale: '[Laag-2-R2 2026-05-08] Volledig met expliciete tweedeling (gewone ondernemingen vs. financiële sector), opsomming activa-categorieën.'
+    rationale: '[Laag-2-R2 2026-05-08] Volledig met expliciete tweedeling (gewone
+      ondernemingen vs. financiële sector), opsomming activa-categorieën.'
+    layer1:
+      verdict: pass
+      heading_count: 2
+      max_section_chars: 6800
+      file_size_chars: 6800
+      flags: []
+      run_id: 20260509-212552
 gerelateerde_adviezen:
-  - titel: Financiële vaste activa - Waardering - Aanschaffingswaarde met prijstoeslag (update) [ONTWERP]
-    url: https://www.cbn-cnc.be/nl/adviezen/financiele-vaste-activa-waardering-aanschaffingswaarde-met-prijstoeslag-update-ontwerp
-    datum: '2025-06-10'
-  - titel: Dividenduitkering en kapitaalvermindering in natura
-    url: https://www.cbn-cnc.be/nl/adviezen/dividenduitkering-en-kapitaalvermindering-in-natura-0
-    datum: '2019-03-12'
-  - titel: Opname van financiële vaste activa geboekt tegen een hoger bedrag dan hun reële waarde in de toelichting van de jaarrekening
-    url: https://www.cbn-cnc.be/nl/adviezen/opname-van-financiele-vaste-activa-geboekt-tegen-een-hoger-bedrag-dan-hun-reele-waarde-in
-    datum: '2017-05-31'
-  - titel: Gegeven borgtochten in contanten en effecten (update)
-    url: https://www.cbn-cnc.be/nl/adviezen/gegeven-borgtochten-in-contanten-en-effecten-update
-    datum: '2017-02-01'
+- titel: Financiële vaste activa - Waardering - Aanschaffingswaarde met prijstoeslag
+    (update) [ONTWERP]
+  url: https://www.cbn-cnc.be/nl/adviezen/financiele-vaste-activa-waardering-aanschaffingswaarde-met-prijstoeslag-update-ontwerp
+  datum: '2025-06-10'
+- titel: Dividenduitkering en kapitaalvermindering in natura
+  url: https://www.cbn-cnc.be/nl/adviezen/dividenduitkering-en-kapitaalvermindering-in-natura-0
+  datum: '2019-03-12'
+- titel: Opname van financiële vaste activa geboekt tegen een hoger bedrag dan hun
+    reële waarde in de toelichting van de jaarrekening
+  url: https://www.cbn-cnc.be/nl/adviezen/opname-van-financiele-vaste-activa-geboekt-tegen-een-hoger-bedrag-dan-hun-reele-waarde-in
+  datum: '2017-05-31'
+- titel: Gegeven borgtochten in contanten en effecten (update)
+  url: https://www.cbn-cnc.be/nl/adviezen/gegeven-borgtochten-in-contanten-en-effecten-update
+  datum: '2017-02-01'
 ---
 
 # CBN-advies 120/4 - Overheidsfondsen

@@ -1,34 +1,41 @@
 ---
-nummer: "CBN-advies 2022/10"
+nummer: CBN-advies 2022/10
 datum: 2022-08-29
 themas:
-  - betalingsachterstand
-  - laattijdige betaling
-  - interest op vordering
-  - verwijlintresten
-  - invorderingskost
-  - kredietbeperkingstoeslag
-  - financiële korting
+- betalingsachterstand
+- laattijdige betaling
+- interest op vordering
+- verwijlintresten
+- invorderingskost
+- kredietbeperkingstoeslag
+- financiële korting
 bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-interesten-en-andere-bedragen-verschuldigd-wegens
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-interesten-en-andere-bedragen-verschuldigd-wegens
-      sha256: 075e298a2435b2d63709d0aba4d9917bdc9017d10a07a1c9b57b150012a3505e
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-interesten-en-andere-bedragen-verschuldigd-wegens
+    sha256: 075e298a2435b2d63709d0aba4d9917bdc9017d10a07a1c9b57b150012a3505e
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T18:38:13Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T18:40:05Z'
     confirmed_by: qa-laag1-auto
     rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    layer1:
+      verdict: pass
+      heading_count: 26
+      max_section_chars: 9868
+      file_size_chars: 25883
+      flags: []
+      run_id: 20260509-212552
 ---
 
 # CBN-advies 2022/10 – Boekhoudkundige verwerking van interesten en andere bedragen verschuldigd wegens betalingsachterstand

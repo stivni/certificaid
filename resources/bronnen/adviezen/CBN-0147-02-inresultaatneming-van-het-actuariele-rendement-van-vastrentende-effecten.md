@@ -1,45 +1,55 @@
 ---
-nummer: "CBN-advies 147/2"
+nummer: CBN-advies 147/2
 datum: 1992-02-01
 themas:
-  - geldbeleggingen
-  - nominale waarde
-  - vastrentende effecten
-  - actuarieel rendement op vastrentende effecten
-  - actuariële rendement
+- geldbeleggingen
+- nominale waarde
+- vastrentende effecten
+- actuarieel rendement op vastrentende effecten
+- actuariële rendement
 bron: https://www.cbn-cnc.be/nl/adviezen/inresultaatneming-van-het-actuariele-rendement-van-vastrentende-effecten
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/inresultaatneming-van-het-actuariele-rendement-van-vastrentende-effecten
-      sha256: 2e9506824a3996edad8e35e1dcd93461be85a37fdff2645c3dd3d3617d6b67c8
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/inresultaatneming-van-het-actuariele-rendement-van-vastrentende-effecten
+    sha256: 2e9506824a3996edad8e35e1dcd93461be85a37fdff2645c3dd3d3617d6b67c8
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T18:35:11Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T19:02:29Z'
     confirmed_by: subagent-laag2-ronde2
-    rationale: '[Laag-2-R2 2026-05-08] Volledig met twee concrete rekenvoorbeelden (staatsfonds code 227 en 224) met actuariële tabellen.'
+    rationale: '[Laag-2-R2 2026-05-08] Volledig met twee concrete rekenvoorbeelden
+      (staatsfonds code 227 en 224) met actuariële tabellen.'
+    layer1:
+      verdict: pass
+      heading_count: 0
+      max_section_chars: 7741
+      file_size_chars: 7741
+      flags: []
+      run_id: 20260509-212552
 gerelateerde_adviezen:
-  - titel: De boekhoudkundige verwerking van de tax shelter in hoofde van de investeerder
-    url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-tax-shelter-in-hoofde-van-de-investeerder
-    datum: '2012-04-17'
-  - titel: Boekhoudkundige verwerking van de aankoop van goud en kunstwerken
-    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-aankoop-van-goud-en-kunstwerken
-    datum: '2011-03-16'
-  - titel: 'Consolidatiekring: interpretatie van de uitsluitingsgrond van artikel 107, 4° KB W.Venn.'
-    url: https://www.cbn-cnc.be/nl/adviezen/consolidatiekring-interpretatie-van-de-uitsluitingsgrond-van-artikel-107-4deg-kb-wvenn
-    datum: '2011-02-25'
-  - titel: Advies met betrekking tot de jaarrekeningrechtelijke aspecten van de certificatie van aandelen van handelsvennootschappen(1)
-    url: https://www.cbn-cnc.be/nl/adviezen/advies-met-betrekking-tot-de-jaarrekeningrechtelijke-aspecten-van-de-certificatie-van
-    datum: '2002-05-02'
+- titel: De boekhoudkundige verwerking van de tax shelter in hoofde van de investeerder
+  url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-tax-shelter-in-hoofde-van-de-investeerder
+  datum: '2012-04-17'
+- titel: Boekhoudkundige verwerking van de aankoop van goud en kunstwerken
+  url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-aankoop-van-goud-en-kunstwerken
+  datum: '2011-03-16'
+- titel: 'Consolidatiekring: interpretatie van de uitsluitingsgrond van artikel 107,
+    4° KB W.Venn.'
+  url: https://www.cbn-cnc.be/nl/adviezen/consolidatiekring-interpretatie-van-de-uitsluitingsgrond-van-artikel-107-4deg-kb-wvenn
+  datum: '2011-02-25'
+- titel: Advies met betrekking tot de jaarrekeningrechtelijke aspecten van de certificatie
+    van aandelen van handelsvennootschappen(1)
+  url: https://www.cbn-cnc.be/nl/adviezen/advies-met-betrekking-tot-de-jaarrekeningrechtelijke-aspecten-van-de-certificatie-van
+  datum: '2002-05-02'
 ---
 
 # CBN-advies 147/2 - Inresultaatneming van het actuariële rendement van vastrentende effecten

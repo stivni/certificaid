@@ -1,37 +1,45 @@
 ---
-nummer: "CBN-advies R102/1"
+nummer: CBN-advies R102/1
 datum: 1980-06-01
 themas:
-  - cheque
-  - in omloop zijnde cheques
-  - kredietinstelling
-  - liquide middelen
-  - rekeningenstelsel
-  - uitgegeven cheque
+- cheque
+- in omloop zijnde cheques
+- kredietinstelling
+- liquide middelen
+- rekeningenstelsel
+- uitgegeven cheque
 bron: https://www.cbn-cnc.be/nl/adviezen/uitgegeven-cheques-werking-van-rekening-559
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/uitgegeven-cheques-werking-van-rekening-559
-      sha256: 70b071a96560b388ad774dbc0e108ed5683420ec698e8cdd573883ade65c9e1a
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/uitgegeven-cheques-werking-van-rekening-559
+    sha256: 70b071a96560b388ad774dbc0e108ed5683420ec698e8cdd573883ade65c9e1a
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T18:33:39Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T19:02:30Z'
     confirmed_by: subagent-laag2-ronde2
-    rationale: '[Laag-2-R2 2026-05-08] Volledig met twee concrete rechtsvragen, journaalboekingen voor beide werkwijzen, conclusie aanvaardt beide werkwijzen.'
+    rationale: '[Laag-2-R2 2026-05-08] Volledig met twee concrete rechtsvragen, journaalboekingen
+      voor beide werkwijzen, conclusie aanvaardt beide werkwijzen.'
+    layer1:
+      verdict: pass
+      heading_count: 0
+      max_section_chars: 5246
+      file_size_chars: 5246
+      flags: []
+      run_id: 20260509-212552
 gerelateerde_adviezen:
-  - titel: 'Te innen cheques : rekening 53'
-    url: https://www.cbn-cnc.be/nl/adviezen/te-innen-cheques-rekening-53
-    datum: '1980-06-01'
+- titel: 'Te innen cheques : rekening 53'
+  url: https://www.cbn-cnc.be/nl/adviezen/te-innen-cheques-rekening-53
+  datum: '1980-06-01'
 ---
 
 # CBN-advies R102/1 - Uitgegeven cheques : werking van rekening 559

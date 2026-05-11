@@ -1,38 +1,45 @@
 ---
-nummer: "CBN-advies 2011/21"
+nummer: CBN-advies 2011/21
 datum: 2011-10-05
 themas:
-  - bewaringstermijn
-  - boeken
-  - verantwoordingsstukken
-  - vereffening
+- bewaringstermijn
+- boeken
+- verantwoordingsstukken
+- vereffening
 bron: https://www.cbn-cnc.be/nl/adviezen/bewaring-van-de-boeken-en-verantwoordingsstukken
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/bewaring-van-de-boeken-en-verantwoordingsstukken
-      sha256: 65f95b8699d7f9352f77c42c264b757409453a813a287d7b1a18f2499ed561c2
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/bewaring-van-de-boeken-en-verantwoordingsstukken
+    sha256: 65f95b8699d7f9352f77c42c264b757409453a813a287d7b1a18f2499ed561c2
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T18:36:17Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T18:40:04Z'
     confirmed_by: qa-laag1-auto
     rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    layer1:
+      verdict: pass
+      heading_count: 0
+      max_section_chars: 2209
+      file_size_chars: 2209
+      flags: []
+      run_id: 20260509-212552
 gerelateerde_adviezen:
-  - titel: Bewaring van boeken en verantwoordingsstukken bij een geïnformatiseerde boekhouding
-    url: https://www.cbn-cnc.be/nl/adviezen/bewaring-van-boeken-en-verantwoordingsstukken-bij-een-geinformatiseerde-boekhouding
-    datum: '2016-09-28'
-  - titel: Beginselen van een regelmatige boekhouding
-    url: https://www.cbn-cnc.be/nl/adviezen/beginselen-van-een-regelmatige-boekhouding
-    datum: '1997-02-01'
+- titel: Bewaring van boeken en verantwoordingsstukken bij een geïnformatiseerde boekhouding
+  url: https://www.cbn-cnc.be/nl/adviezen/bewaring-van-boeken-en-verantwoordingsstukken-bij-een-geinformatiseerde-boekhouding
+  datum: '2016-09-28'
+- titel: Beginselen van een regelmatige boekhouding
+  url: https://www.cbn-cnc.be/nl/adviezen/beginselen-van-een-regelmatige-boekhouding
+  datum: '1997-02-01'
 ---
 
 # CBN-advies 2011/21 - Bewaring van de boeken en verantwoordingsstukken

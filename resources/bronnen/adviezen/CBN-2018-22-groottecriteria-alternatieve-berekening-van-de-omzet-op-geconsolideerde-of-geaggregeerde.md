@@ -1,47 +1,56 @@
 ---
-nummer: "CBN-advies 2018/22"
+nummer: CBN-advies 2018/22
 datum: 2018-12-03
 themas:
-  - criteria
-  - groottecriteria
-  - omzet
-  - berekening op geconsolideerde basis
-  - berekening op geaggregeerde basis
-  - geconsolideerde methode
-  - geaggregeerde methode
+- criteria
+- groottecriteria
+- omzet
+- berekening op geconsolideerde basis
+- berekening op geaggregeerde basis
+- geconsolideerde methode
+- geaggregeerde methode
 bron: https://www.cbn-cnc.be/nl/adviezen/groottecriteria-alternatieve-berekening-van-de-omzet-op-geconsolideerde-of-geaggregeerde
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/groottecriteria-alternatieve-berekening-van-de-omzet-op-geconsolideerde-of-geaggregeerde
-      sha256: e8239fb06e706232d9098b2caebfc6f6cf3844c3bac3088e4d6e403cb306efac
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/groottecriteria-alternatieve-berekening-van-de-omzet-op-geconsolideerde-of-geaggregeerde
+    sha256: e8239fb06e706232d9098b2caebfc6f6cf3844c3bac3088e4d6e403cb306efac
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T18:37:30Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T18:40:05Z'
     confirmed_by: qa-laag1-auto
     rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    layer1:
+      verdict: pass
+      heading_count: 65
+      max_section_chars: 11041
+      file_size_chars: 18880
+      flags: []
+      run_id: 20260509-212552
 gerelateerde_adviezen:
-  - titel: Gevolgen verhoging groottecriteria voor (I)VZW’s en stichtingen
-    url: https://www.cbn-cnc.be/nl/adviezen/gevolgen-verhoging-groottecriteria-voor-ivzws-en-stichtingen
-    datum: '2024-09-19'
-  - titel: Beoordeling van de groottecriteria overeenkomstig artikelen 1:24 en 1:25 van het Wetboek van vennootschappen en verenigingen
-    url: https://www.cbn-cnc.be/nl/adviezen/beoordeling-van-de-groottecriteria-overeenkomstig-artikelen-124-en-125-van-het-wetboek-van
-    datum: '2022-03-15'
-  - titel: Groottecriteria artikel 15 W.Venn. – Verbonden vennootschappen – Verschillende afsluitingsdata - Wijziging van consolidatiekring
-    url: https://www.cbn-cnc.be/nl/adviezen/groottecriteria-artikel-15-wvenn-verbonden-vennootschappen-verschillende-afsluitingsdata
-    datum: '2017-04-19'
-  - titel: Groottecriteria – Boekjaar korter of langer dan 12 maanden (update)
-    url: https://www.cbn-cnc.be/nl/adviezen/groottecriteria-boekjaar-korter-of-langer-dan-12-maanden-update
-    datum: '2017-02-01'
+- titel: Gevolgen verhoging groottecriteria voor (I)VZW’s en stichtingen
+  url: https://www.cbn-cnc.be/nl/adviezen/gevolgen-verhoging-groottecriteria-voor-ivzws-en-stichtingen
+  datum: '2024-09-19'
+- titel: Beoordeling van de groottecriteria overeenkomstig artikelen 1:24 en 1:25
+    van het Wetboek van vennootschappen en verenigingen
+  url: https://www.cbn-cnc.be/nl/adviezen/beoordeling-van-de-groottecriteria-overeenkomstig-artikelen-124-en-125-van-het-wetboek-van
+  datum: '2022-03-15'
+- titel: Groottecriteria artikel 15 W.Venn. – Verbonden vennootschappen – Verschillende
+    afsluitingsdata - Wijziging van consolidatiekring
+  url: https://www.cbn-cnc.be/nl/adviezen/groottecriteria-artikel-15-wvenn-verbonden-vennootschappen-verschillende-afsluitingsdata
+  datum: '2017-04-19'
+- titel: Groottecriteria – Boekjaar korter of langer dan 12 maanden (update)
+  url: https://www.cbn-cnc.be/nl/adviezen/groottecriteria-boekjaar-korter-of-langer-dan-12-maanden-update
+  datum: '2017-02-01'
 ---
 
 # CBN-advies 2018/22 – Groottecriteria – Alternatieve berekening van de omzet op geconsolideerde of geaggregeerde basis

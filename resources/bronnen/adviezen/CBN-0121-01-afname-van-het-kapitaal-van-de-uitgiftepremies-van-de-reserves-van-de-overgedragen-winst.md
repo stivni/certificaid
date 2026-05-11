@@ -1,37 +1,44 @@
 ---
-nummer: "CBN-advies 121/1"
+nummer: CBN-advies 121/1
 datum: 1980-01-01
 themas:
-  - afname van de reserves
-  - afname van de uitgiftepremies
-  - afname van het kapitaal
-  - kapitaal
-  - overgedragen winst
-  - reserves
-  - resultaatverwerking
-  - resultatenrekening
-  - uitgiftepremie
-  - vermogen van de onderneming
+- afname van de reserves
+- afname van de uitgiftepremies
+- afname van het kapitaal
+- kapitaal
+- overgedragen winst
+- reserves
+- resultaatverwerking
+- resultatenrekening
+- uitgiftepremie
+- vermogen van de onderneming
 bron: https://www.cbn-cnc.be/nl/adviezen/afname-van-het-kapitaal-van-de-uitgiftepremies-van-de-reserves-van-de-overgedragen-winst
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/afname-van-het-kapitaal-van-de-uitgiftepremies-van-de-reserves-van-de-overgedragen-winst
-      sha256: 09543ae874771c49c0064a175dba633d7557e26d33c53f80af31d71c677b28c1
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/afname-van-het-kapitaal-van-de-uitgiftepremies-van-de-reserves-van-de-overgedragen-winst
+    sha256: 09543ae874771c49c0064a175dba633d7557e26d33c53f80af31d71c677b28c1
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T18:34:31Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T18:40:02Z'
     confirmed_by: qa-laag1-auto
     rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    layer1:
+      verdict: pass
+      heading_count: 0
+      max_section_chars: 1371
+      file_size_chars: 1371
+      flags: []
+      run_id: 20260509-212552
 ---
 
 # CBN-advies 121/1 - Afname van het kapitaal, van de uitgiftepremies, van de reserves, van de overgedragen winst

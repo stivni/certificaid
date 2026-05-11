@@ -1,40 +1,47 @@
 ---
-nummer: "CBN-advies 2020/13"
+nummer: CBN-advies 2020/13
 datum: 2020-12-09
 themas:
-  - CVBA
-  - coöperatieve vennootschap
-  - CVOA
-  - kapitaal
-  - inbreng
-  - vast gedeelte kapitaal
-  - wettelijke reserve
-  - variabel gedeelte kapitaal
-  - scheidingsaandeel
-  - uittreding
-  - coöperatieve vennootschap met beperkte aansprakelijkheid
-  - coöperatieve vennootschap met onbeperkte aansprakelijkheid
-  - inbreng buiten kapitaal
+- CVBA
+- coöperatieve vennootschap
+- CVOA
+- kapitaal
+- inbreng
+- vast gedeelte kapitaal
+- wettelijke reserve
+- variabel gedeelte kapitaal
+- scheidingsaandeel
+- uittreding
+- coöperatieve vennootschap met beperkte aansprakelijkheid
+- coöperatieve vennootschap met onbeperkte aansprakelijkheid
+- inbreng buiten kapitaal
 bron: https://www.cbn-cnc.be/nl/adviezen/overgang-van-een-kapitaalhoudende-cooperatieve-vennootschap-naar-een-kapitaalloze
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/overgang-van-een-kapitaalhoudende-cooperatieve-vennootschap-naar-een-kapitaalloze
-      sha256: 7a6ccd926ff977a1552595e8ab0cb3da97a206538ddac53916548b750f5c742b
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/overgang-van-een-kapitaalhoudende-cooperatieve-vennootschap-naar-een-kapitaalloze
+    sha256: 7a6ccd926ff977a1552595e8ab0cb3da97a206538ddac53916548b750f5c742b
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T18:37:53Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T18:40:05Z'
     confirmed_by: qa-laag1-auto
     rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    layer1:
+      verdict: pass
+      heading_count: 15
+      max_section_chars: 7148
+      file_size_chars: 24337
+      flags: []
+      run_id: 20260509-212552
 ---
 
 # CBN-advies 2020/13 – Overgang van een kapitaalhoudende coöperatieve vennootschap naar een kapitaalloze vennootschap

@@ -1,47 +1,56 @@
 ---
-nummer: "CBN-advies 113/5"
+nummer: CBN-advies 113/5
 datum: 1984-01-01
 themas:
-  - afschrijvingen
-  - gebruiksduur
-  - herwaardering
-  - herwaarderingsmeerwaarde
-  - immateriële vaste activa
-  - materiële vaste activa
-  - vaste activa
+- afschrijvingen
+- gebruiksduur
+- herwaardering
+- herwaarderingsmeerwaarde
+- immateriële vaste activa
+- materiële vaste activa
+- vaste activa
 bron: https://www.cbn-cnc.be/nl/adviezen/herwaardering-van-vaste-activa-voor-het-begin-van-het-boekjaar-dat-aanvangt-na-31-december
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/herwaardering-van-vaste-activa-voor-het-begin-van-het-boekjaar-dat-aanvangt-na-31-december
-      sha256: 1cf5aff861f5346d111cb0f8bcb4bed221f788d17e89713f24e56a69581dac4a
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/herwaardering-van-vaste-activa-voor-het-begin-van-het-boekjaar-dat-aanvangt-na-31-december
+    sha256: 1cf5aff861f5346d111cb0f8bcb4bed221f788d17e89713f24e56a69581dac4a
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T18:34:17Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T19:02:29Z'
     confirmed_by: subagent-laag2-ronde2
-    rationale: '[Laag-2-R2 2026-05-08] Volledig met twee hoofdvragen en drie subcases voor afboeking. Inhaalafschrijvingen afzonderlijk.'
+    rationale: '[Laag-2-R2 2026-05-08] Volledig met twee hoofdvragen en drie subcases
+      voor afboeking. Inhaalafschrijvingen afzonderlijk.'
+    layer1:
+      verdict: pass
+      heading_count: 1
+      max_section_chars: 7125
+      file_size_chars: 7303
+      flags: []
+      run_id: 20260509-212552
 gerelateerde_adviezen:
-  - titel: Afschrijvingsmethoden (update) [ONTWERP]
-    url: https://www.cbn-cnc.be/nl/adviezen/afschrijvingsmethoden-update-ontwerp
-    datum: '2025-04-25'
-  - titel: Afschrijving van materiële vaste activa in aanbouw en vooruitbetalingen - Inresultaatname van kapitaalsubsidies
-    url: https://www.cbn-cnc.be/nl/adviezen/afschrijving-van-materiele-vaste-activa-in-aanbouw-en-vooruitbetalingen-inresultaatname
-    datum: '2017-12-13'
-  - titel: De boekhoudkundige verwerking van immateriële vaste activa
-    url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-immateriele-vaste-activa
-    datum: '2012-10-10'
-  - titel: Afschrijvingsmethoden
-    url: https://www.cbn-cnc.be/nl/adviezen/afschrijvingsmethoden
-    datum: '2010-10-06'
+- titel: Afschrijvingsmethoden (update) [ONTWERP]
+  url: https://www.cbn-cnc.be/nl/adviezen/afschrijvingsmethoden-update-ontwerp
+  datum: '2025-04-25'
+- titel: Afschrijving van materiële vaste activa in aanbouw en vooruitbetalingen -
+    Inresultaatname van kapitaalsubsidies
+  url: https://www.cbn-cnc.be/nl/adviezen/afschrijving-van-materiele-vaste-activa-in-aanbouw-en-vooruitbetalingen-inresultaatname
+  datum: '2017-12-13'
+- titel: De boekhoudkundige verwerking van immateriële vaste activa
+  url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-immateriele-vaste-activa
+  datum: '2012-10-10'
+- titel: Afschrijvingsmethoden
+  url: https://www.cbn-cnc.be/nl/adviezen/afschrijvingsmethoden
+  datum: '2010-10-06'
 ---
 
 # CBN-advies 113/5 - Herwaardering van vaste activa vóór het begin van het boekjaar dat aanvangt na 31 december 1983

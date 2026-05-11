@@ -1,41 +1,48 @@
 ---
-nummer: "CBN-advies 2018/04"
+nummer: CBN-advies 2018/04
 datum: 2018-04-18
 themas:
-  - derdenrekening
-  - advocaat
-  - notaris
-  - gerechtsdeurwaarder
-  - vastgoedmakelaar
-  - derdengelden
-  - kwaliteitsrekening
-  - rubriekrekening
-  - carpa-rekening
-  - niet in de balans opgenomen rechten en verplichtingen
+- derdenrekening
+- advocaat
+- notaris
+- gerechtsdeurwaarder
+- vastgoedmakelaar
+- derdengelden
+- kwaliteitsrekening
+- rubriekrekening
+- carpa-rekening
+- niet in de balans opgenomen rechten en verplichtingen
 bron: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-derdenrekeningen-0
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-derdenrekeningen-0
-      sha256: a366f879a7345a1d8665d99dce6b52b517921b7e86c9660a386e51fb72df8ce5
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-derdenrekeningen-0
+    sha256: a366f879a7345a1d8665d99dce6b52b517921b7e86c9660a386e51fb72df8ce5
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T18:37:19Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T18:40:04Z'
     confirmed_by: qa-laag1-auto
     rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    layer1:
+      verdict: pass
+      heading_count: 4
+      max_section_chars: 18606
+      file_size_chars: 20259
+      flags: []
+      run_id: 20260509-212552
 gerelateerde_adviezen:
-  - titel: De boekhoudkundige verwerking van derdenrekeningen
-    url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-derdenrekeningen
-    datum: '2011-07-06'
+- titel: De boekhoudkundige verwerking van derdenrekeningen
+  url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-derdenrekeningen
+  datum: '2011-07-06'
 ---
 
 # CBN-advies 2018/04 - De boekhoudkundige verwerking van derdenrekeningen

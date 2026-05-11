@@ -1,44 +1,52 @@
 ---
-nummer: "CBN-advies 112/5"
+nummer: CBN-advies 112/5
 datum: 1981-04-01
 themas:
-  - afschrijvingen
-  - afschrijvingsplan
-  - gebruiksduur
-  - progressieve afschrijvingsmethode
+- afschrijvingen
+- afschrijvingsplan
+- gebruiksduur
+- progressieve afschrijvingsmethode
 bron: https://www.cbn-cnc.be/nl/adviezen/progressieve-afschrijvingsmethode
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/progressieve-afschrijvingsmethode
-      sha256: e755a65edaf94c50284ba2ae6d610d7d90eac6f75714c7e81936b93780882a67
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/progressieve-afschrijvingsmethode
+    sha256: e755a65edaf94c50284ba2ae6d610d7d90eac6f75714c7e81936b93780882a67
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T18:34:16Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T18:40:02Z'
     confirmed_by: qa-laag1-auto
     rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    layer1:
+      verdict: pass
+      heading_count: 0
+      max_section_chars: 4475
+      file_size_chars: 4475
+      flags: []
+      run_id: 20260509-212552
 gerelateerde_adviezen:
-  - titel: Afschrijvingsmethoden (update) [ONTWERP]
-    url: https://www.cbn-cnc.be/nl/adviezen/afschrijvingsmethoden-update-ontwerp
-    datum: '2025-04-25'
-  - titel: Afschrijving van materiële vaste activa in aanbouw en vooruitbetalingen - Inresultaatname van kapitaalsubsidies
-    url: https://www.cbn-cnc.be/nl/adviezen/afschrijving-van-materiele-vaste-activa-in-aanbouw-en-vooruitbetalingen-inresultaatname
-    datum: '2017-12-13'
-  - titel: De boekhoudkundige verwerking van immateriële vaste activa
-    url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-immateriele-vaste-activa
-    datum: '2012-10-10'
-  - titel: Afschrijvingsmethoden
-    url: https://www.cbn-cnc.be/nl/adviezen/afschrijvingsmethoden
-    datum: '2010-10-06'
+- titel: Afschrijvingsmethoden (update) [ONTWERP]
+  url: https://www.cbn-cnc.be/nl/adviezen/afschrijvingsmethoden-update-ontwerp
+  datum: '2025-04-25'
+- titel: Afschrijving van materiële vaste activa in aanbouw en vooruitbetalingen -
+    Inresultaatname van kapitaalsubsidies
+  url: https://www.cbn-cnc.be/nl/adviezen/afschrijving-van-materiele-vaste-activa-in-aanbouw-en-vooruitbetalingen-inresultaatname
+  datum: '2017-12-13'
+- titel: De boekhoudkundige verwerking van immateriële vaste activa
+  url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-immateriele-vaste-activa
+  datum: '2012-10-10'
+- titel: Afschrijvingsmethoden
+  url: https://www.cbn-cnc.be/nl/adviezen/afschrijvingsmethoden
+  datum: '2010-10-06'
 ---
 
 # CBN advies 112/5 - Progressieve afschrijvingsmethode

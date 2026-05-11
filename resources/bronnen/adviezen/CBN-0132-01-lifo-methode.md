@@ -1,37 +1,45 @@
 ---
-nummer: "CBN-advies 132/1"
+nummer: CBN-advies 132/1
 datum: 1981-12-01
 themas:
-  - fifo-methode
-  - gewogen gemiddelde prijs
-  - individualisering van de prijs van elk bestanddeel
-  - lifo-methode
-  - methode van gewogen gemiddelde prijzen
-  - voorraden
+- fifo-methode
+- gewogen gemiddelde prijs
+- individualisering van de prijs van elk bestanddeel
+- lifo-methode
+- methode van gewogen gemiddelde prijzen
+- voorraden
 bron: https://www.cbn-cnc.be/nl/adviezen/lifo-methode
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/lifo-methode
-      sha256: 9f5dad87edeed60e2c6f4377a949f8eaa9c5cf16599cade262c83a1c4d968415
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/lifo-methode
+    sha256: 9f5dad87edeed60e2c6f4377a949f8eaa9c5cf16599cade262c83a1c4d968415
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T18:34:49Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T19:02:29Z'
     confirmed_by: subagent-laag2-ronde2
-    rationale: '[Laag-2-R2 2026-05-08] Volledig advies, drie LIFO-varianten besproken, enkel specifieke goederenmethode toelaatbaar. Dubbele titel is scraping-artefact.'
+    rationale: '[Laag-2-R2 2026-05-08] Volledig advies, drie LIFO-varianten besproken,
+      enkel specifieke goederenmethode toelaatbaar. Dubbele titel is scraping-artefact.'
+    layer1:
+      verdict: pass
+      heading_count: 0
+      max_section_chars: 6966
+      file_size_chars: 6966
+      flags: []
+      run_id: 20260509-212552
 gerelateerde_adviezen:
-  - titel: Boeking en waardering van voorraden
-    url: https://www.cbn-cnc.be/nl/adviezen/boeking-en-waardering-van-voorraden
-    datum: '1996-11-01'
+- titel: Boeking en waardering van voorraden
+  url: https://www.cbn-cnc.be/nl/adviezen/boeking-en-waardering-van-voorraden
+  datum: '1996-11-01'
 ---
 
 # Advies van december 1981, bijgewerkt op 6 oktober 2010

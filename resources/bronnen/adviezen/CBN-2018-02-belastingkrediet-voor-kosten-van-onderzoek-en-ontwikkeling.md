@@ -1,32 +1,39 @@
 ---
-nummer: "CBN-advies 2018/02"
+nummer: CBN-advies 2018/02
 datum: 2018-03-21
 themas:
-  - belastingkrediet
-  - belasting
-  - kosten van onderzoek en ontwikkeling
-  - onderzoek en ontwikkeling
-  - investeringsaftrek
+- belastingkrediet
+- belasting
+- kosten van onderzoek en ontwikkeling
+- onderzoek en ontwikkeling
+- investeringsaftrek
 bron: https://www.cbn-cnc.be/nl/adviezen/belastingkrediet-voor-kosten-van-onderzoek-en-ontwikkeling
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/belastingkrediet-voor-kosten-van-onderzoek-en-ontwikkeling
-      sha256: 03181e2a0d186a99b17dcc95fb7356e567d8df51b94f9e4f9f905c617969f555
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/belastingkrediet-voor-kosten-van-onderzoek-en-ontwikkeling
+    sha256: 03181e2a0d186a99b17dcc95fb7356e567d8df51b94f9e4f9f905c617969f555
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T18:37:18Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T18:40:04Z'
     confirmed_by: qa-laag1-auto
     rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    layer1:
+      verdict: pass
+      heading_count: 14
+      max_section_chars: 3781
+      file_size_chars: 12909
+      flags: []
+      run_id: 20260509-212552
 ---
 
 # CBN-advies 2018/02 – Belastingkrediet voor kosten van onderzoek en ontwikkeling

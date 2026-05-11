@@ -1,32 +1,39 @@
 ---
-nummer: "CBN-advies 152/5"
+nummer: CBN-advies 152/5
 datum: 1991-03-01
 themas:
-  - negatief omrekeningsverschil
-  - omrekeningsverschil
-  - positieve omrekeningsverschillen
-  - voorzichtigheidsbeginsel
-  - wisselverrichting
+- negatief omrekeningsverschil
+- omrekeningsverschil
+- positieve omrekeningsverschillen
+- voorzichtigheidsbeginsel
+- wisselverrichting
 bron: https://www.cbn-cnc.be/nl/adviezen/verwerking-van-omrekeningsverschillen
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/verwerking-van-omrekeningsverschillen
-      sha256: 8c9981bfefe01ead4bbaf1eb606c3babcfe1771b4eba2bff018ef1dd8986513d
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/verwerking-van-omrekeningsverschillen
+    sha256: 8c9981bfefe01ead4bbaf1eb606c3babcfe1771b4eba2bff018ef1dd8986513d
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T18:35:22Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T18:40:03Z'
     confirmed_by: qa-laag1-auto
     rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    layer1:
+      verdict: pass
+      heading_count: 0
+      max_section_chars: 2787
+      file_size_chars: 2787
+      flags: []
+      run_id: 20260509-212552
 ---
 
 # CBN-advies 152/5 - Verwerking van omrekeningsverschillen

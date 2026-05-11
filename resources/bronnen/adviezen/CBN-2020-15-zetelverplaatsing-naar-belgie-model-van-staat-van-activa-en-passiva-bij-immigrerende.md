@@ -1,38 +1,47 @@
 ---
-nummer: "CBN-advies 2020/15"
+nummer: CBN-advies 2020/15
 datum: 2020-12-16
 themas:
-  - zetelverplaatsing
-  - staat van activa en passiva
-  - immigrerende vennootschap
-  - grensoverschrijdende zetelverplaatsing
+- zetelverplaatsing
+- staat van activa en passiva
+- immigrerende vennootschap
+- grensoverschrijdende zetelverplaatsing
 bron: https://www.cbn-cnc.be/nl/adviezen/zetelverplaatsing-naar-belgie-model-van-staat-van-activa-en-passiva-bij-immigrerende
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/zetelverplaatsing-naar-belgie-model-van-staat-van-activa-en-passiva-bij-immigrerende
-      sha256: be0d14092a3cfa9ddad3237fab0a7e0e64a44382e9e7a5e3f69af67b2a64d652
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/zetelverplaatsing-naar-belgie-model-van-staat-van-activa-en-passiva-bij-immigrerende
+    sha256: be0d14092a3cfa9ddad3237fab0a7e0e64a44382e9e7a5e3f69af67b2a64d652
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T18:37:55Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T18:40:05Z'
     confirmed_by: qa-laag1-auto
     rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    layer1:
+      verdict: pass
+      heading_count: 6
+      max_section_chars: 2157
+      file_size_chars: 3937
+      flags: []
+      run_id: 20260509-212552
 gerelateerde_adviezen:
-  - titel: Zetelverplaatsing naar België (inbound) – Verschil in waarderingsregels ten opzichte van het boekhoudkundig referentiestelsel van de Staat van herkomst
-    url: https://www.cbn-cnc.be/nl/adviezen/zetelverplaatsing-naar-belgie-inbound-verschil-in-waarderingsregels-ten-opzichte-van-het
-    datum: '2018-04-18'
-  - titel: 'Zetelverplaatsing naar België van een vennootschap opgericht naar buitenlands recht: gevolgen voor het voeren van de boekhouding en het opstellen van de jaarrekening'
-    url: https://www.cbn-cnc.be/nl/adviezen/zetelverplaatsing-naar-belgie-van-een-vennootschap-opgericht-naar-buitenlands-recht
-    datum: '2010-12-08'
+- titel: Zetelverplaatsing naar België (inbound) – Verschil in waarderingsregels ten
+    opzichte van het boekhoudkundig referentiestelsel van de Staat van herkomst
+  url: https://www.cbn-cnc.be/nl/adviezen/zetelverplaatsing-naar-belgie-inbound-verschil-in-waarderingsregels-ten-opzichte-van-het
+  datum: '2018-04-18'
+- titel: 'Zetelverplaatsing naar België van een vennootschap opgericht naar buitenlands
+    recht: gevolgen voor het voeren van de boekhouding en het opstellen van de jaarrekening'
+  url: https://www.cbn-cnc.be/nl/adviezen/zetelverplaatsing-naar-belgie-van-een-vennootschap-opgericht-naar-buitenlands-recht
+  datum: '2010-12-08'
 ---
 
 # CBN-advies 2020/15 – Zetelverplaatsing naar België: model van staat van activa en passiva bij immigrerende vennootschappen

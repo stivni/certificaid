@@ -1,30 +1,37 @@
 ---
-nummer: "CBN-advies 105/4"
+nummer: CBN-advies 105/4
 datum: 1977-08-01
 themas:
-  - vergoeding van kredieturen
-  - financiering van kredieturen
-  - kredieturen
+- vergoeding van kredieturen
+- financiering van kredieturen
+- kredieturen
 bron: https://www.cbn-cnc.be/nl/adviezen/vergoeding-van-kredieturen-door-de-rsz
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/vergoeding-van-kredieturen-door-de-rsz
-      sha256: 298792d8b39493cc3fa85316d30da0f9dfa04d6622e8ee390bf846eb246272db
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/vergoeding-van-kredieturen-door-de-rsz
+    sha256: 298792d8b39493cc3fa85316d30da0f9dfa04d6622e8ee390bf846eb246272db
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T18:33:49Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T18:40:02Z'
     confirmed_by: qa-laag1-auto
     rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    layer1:
+      verdict: pass
+      heading_count: 0
+      max_section_chars: 765
+      file_size_chars: 765
+      flags: []
+      run_id: 20260509-212552
 ---
 
 # CBN-advies 105/4 - Vergoeding van kredieturen door de RSZ

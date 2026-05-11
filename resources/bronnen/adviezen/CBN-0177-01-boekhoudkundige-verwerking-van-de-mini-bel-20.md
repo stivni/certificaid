@@ -1,52 +1,60 @@
 ---
-nummer: "CBN-advies 177/1"
+nummer: CBN-advies 177/1
 datum: 2000-05-01
 themas:
-  - dividenduitkering
-  - geldbeleggingen
-  - index participation unit
-  - invoering van de euro
-  - mini BEL-20
-  - niet in de balans opgenomen rechten en verplichtingen
-  - optiecontract
-  - opties
-  - optionnel recht
-  - sluiten van de positie
-  - vorderingsrecht
-  - Waardevermindering
+- dividenduitkering
+- geldbeleggingen
+- index participation unit
+- invoering van de euro
+- mini BEL-20
+- niet in de balans opgenomen rechten en verplichtingen
+- optiecontract
+- opties
+- optionnel recht
+- sluiten van de positie
+- vorderingsrecht
+- Waardevermindering
 bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-mini-bel-20
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-mini-bel-20
-      sha256: 6d2235a17fd87aaf0a7dcf0318f20a09d38522928c5597a0786a41f8a11535eb
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-mini-bel-20
+    sha256: 6d2235a17fd87aaf0a7dcf0318f20a09d38522928c5597a0786a41f8a11535eb
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T18:35:45Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T18:40:03Z'
     confirmed_by: qa-laag1-auto
     rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    layer1:
+      verdict: pass
+      heading_count: 17
+      max_section_chars: 13581
+      file_size_chars: 19997
+      flags: []
+      run_id: 20260509-212552
 gerelateerde_adviezen:
-  - titel: Pro rata-regel van artikel 18 WIB 92 bij terugbetaling van inbreng / kapitaalvermindering
-    url: https://www.cbn-cnc.be/nl/adviezen/pro-rata-regel-van-artikel-18-wib-92-bij-terugbetaling-van-inbreng-kapitaalvermindering
-    datum: '2019-11-21'
-  - titel: Dividenduitkering en kapitaalvermindering in natura
-    url: https://www.cbn-cnc.be/nl/adviezen/dividenduitkering-en-kapitaalvermindering-in-natura-0
-    datum: '2019-03-12'
-  - titel: De boekhoudkundige verwerking met betrekking tot de toepassing van de overgangsregeling zoals vermeld in artikel 537 WIB 92
-    url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-met-betrekking-tot-de-toepassing-van-de-overgangsregeling
-    datum: '2013-11-27'
-  - titel: Interimdividend versus tussentijds dividend
-    url: https://www.cbn-cnc.be/nl/adviezen/interimdividend-versus-tussentijds-dividend
-    datum: '2009-01-14'
+- titel: Pro rata-regel van artikel 18 WIB 92 bij terugbetaling van inbreng / kapitaalvermindering
+  url: https://www.cbn-cnc.be/nl/adviezen/pro-rata-regel-van-artikel-18-wib-92-bij-terugbetaling-van-inbreng-kapitaalvermindering
+  datum: '2019-11-21'
+- titel: Dividenduitkering en kapitaalvermindering in natura
+  url: https://www.cbn-cnc.be/nl/adviezen/dividenduitkering-en-kapitaalvermindering-in-natura-0
+  datum: '2019-03-12'
+- titel: De boekhoudkundige verwerking met betrekking tot de toepassing van de overgangsregeling
+    zoals vermeld in artikel 537 WIB 92
+  url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-met-betrekking-tot-de-toepassing-van-de-overgangsregeling
+  datum: '2013-11-27'
+- titel: Interimdividend versus tussentijds dividend
+  url: https://www.cbn-cnc.be/nl/adviezen/interimdividend-versus-tussentijds-dividend
+  datum: '2009-01-14'
 ---
 
 # CBN-advies 177/1 - Boekhoudkundige verwerking van de mini BEL-20

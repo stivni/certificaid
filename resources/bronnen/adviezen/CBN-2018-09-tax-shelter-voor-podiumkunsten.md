@@ -1,49 +1,58 @@
 ---
-nummer: "CBN-advies 2018/09"
+nummer: CBN-advies 2018/09
 datum: 2018-05-30
 themas:
-  - tax shelter
-  - belasting
-  - belastingvoordeel
-  - belastingbesparing
-  - belastingvrije reserves
-  - reserves
-  - immateriële vaste activa
-  - kapitaalsubsidie
-  - uitgestelde belasting
+- tax shelter
+- belasting
+- belastingvoordeel
+- belastingbesparing
+- belastingvrije reserves
+- reserves
+- immateriële vaste activa
+- kapitaalsubsidie
+- uitgestelde belasting
 bron: https://www.cbn-cnc.be/nl/adviezen/tax-shelter-voor-podiumkunsten
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/tax-shelter-voor-podiumkunsten
-      sha256: 107a8e48d1e0b3908d231bf190f771cb4ca5e58dc8a2ad683c52910874450f8b
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/tax-shelter-voor-podiumkunsten
+    sha256: 107a8e48d1e0b3908d231bf190f771cb4ca5e58dc8a2ad683c52910874450f8b
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T18:37:21Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T18:40:04Z'
     confirmed_by: qa-laag1-auto
     rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    layer1:
+      verdict: pass
+      heading_count: 3
+      max_section_chars: 3340
+      file_size_chars: 4912
+      flags: []
+      run_id: 20260509-212552
 gerelateerde_adviezen:
-  - titel: Boekhoudkundige verwerking van de tax shelter in hoofde van de productievennootschap (raamovereenkomsten getekend vanaf 1 januari 2015)
-    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-tax-shelter-in-hoofde-van-de-productievennootschap
-    datum: '2015-09-09'
-  - titel: Boekhoudkundige verwerking van de tax shelter in hoofde van de investeerder (raamovereenkomsten gesloten vanaf 1 januari 2015)
-    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-tax-shelter-in-hoofde-van-de-investeerder
-    datum: '2015-05-13'
-  - titel: De boekhoudkundige verwerking van de tax shelter in hoofde van de investeerder
-    url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-tax-shelter-in-hoofde-van-de-investeerder
-    datum: '2012-04-17'
-  - titel: De boekhoudkundige verwerking van de tax shelter in hoofde van de productievennootschap
-    url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-tax-shelter-in-hoofde-van-de-productievennootschap
-    datum: '2012-03-21'
+- titel: Boekhoudkundige verwerking van de tax shelter in hoofde van de productievennootschap
+    (raamovereenkomsten getekend vanaf 1 januari 2015)
+  url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-tax-shelter-in-hoofde-van-de-productievennootschap
+  datum: '2015-09-09'
+- titel: Boekhoudkundige verwerking van de tax shelter in hoofde van de investeerder
+    (raamovereenkomsten gesloten vanaf 1 januari 2015)
+  url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-tax-shelter-in-hoofde-van-de-investeerder
+  datum: '2015-05-13'
+- titel: De boekhoudkundige verwerking van de tax shelter in hoofde van de investeerder
+  url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-tax-shelter-in-hoofde-van-de-investeerder
+  datum: '2012-04-17'
+- titel: De boekhoudkundige verwerking van de tax shelter in hoofde van de productievennootschap
+  url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-tax-shelter-in-hoofde-van-de-productievennootschap
+  datum: '2012-03-21'
 ---
 
 # CBN-advies 2018/09 – Tax shelter voor podiumkunsten

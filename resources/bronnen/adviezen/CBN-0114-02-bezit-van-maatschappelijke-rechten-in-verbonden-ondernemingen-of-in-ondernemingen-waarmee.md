@@ -1,49 +1,61 @@
 ---
-nummer: "CBN-advies 114/2"
+nummer: CBN-advies 114/2
 datum: 1980-01-06
 themas:
-  - deelneming
-  - deelnemingsverhouding
-  - duurzame band
-  - duurzame ondersteuning
-  - financiële vaste activa
-  - maatschappelijke rechten
-  - ondernemingen met deelnemingsverhouding
-  - participatie
-  - verbonden onderneming
+- deelneming
+- deelnemingsverhouding
+- duurzame band
+- duurzame ondersteuning
+- financiële vaste activa
+- maatschappelijke rechten
+- ondernemingen met deelnemingsverhouding
+- participatie
+- verbonden onderneming
 bron: https://www.cbn-cnc.be/nl/adviezen/bezit-van-maatschappelijke-rechten-in-verbonden-ondernemingen-of-in-ondernemingen-waarmee
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/bezit-van-maatschappelijke-rechten-in-verbonden-ondernemingen-of-in-ondernemingen-waarmee
-      sha256: 31a5c8bc82c3f767abe096ad1600d689f8acc2e1df026c80832624eed6ef36d9
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/bezit-van-maatschappelijke-rechten-in-verbonden-ondernemingen-of-in-ondernemingen-waarmee
+    sha256: 31a5c8bc82c3f767abe096ad1600d689f8acc2e1df026c80832624eed6ef36d9
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T21:29:59Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T21:31:11Z'
     confirmed_by: human
-    rationale: 'Herscraped na fix select_title(): gecombineerde H1 (COMMISSIE + titel) correct gesplitst. Inhoud ongewijzigd t.o.v. vorig vertrouwd verdict. Laag 1 pass (of benign max_section warn).'
+    rationale: 'Herscraped na fix select_title(): gecombineerde H1 (COMMISSIE + titel)
+      correct gesplitst. Inhoud ongewijzigd t.o.v. vorig vertrouwd verdict. Laag 1
+      pass (of benign max_section warn).'
+    layer1:
+      verdict: pass
+      heading_count: 0
+      max_section_chars: 4296
+      file_size_chars: 4296
+      flags: []
+      run_id: 20260509-212552
 gerelateerde_adviezen:
-  - titel: Terugbetaling van kapitaal in vreemde valuta aan de aandeelhouders
-    url: https://www.cbn-cnc.be/nl/adviezen/terugbetaling-van-kapitaal-in-vreemde-valuta-aan-de-aandeelhouders
-    datum: '2024-03-13'
-  - titel: Advies met betrekking tot de jaarrekeningrechtelijke aspecten van de certificatie van aandelen van handelsvennootschappen(1)
-    url: https://www.cbn-cnc.be/nl/adviezen/advies-met-betrekking-tot-de-jaarrekeningrechtelijke-aspecten-van-de-certificatie-van
-    datum: '2002-05-02'
-  - titel: Boekhoudkundige verwerking van deelnemingen in vennootschappen naar buitenlands recht, die niet alle kenmerken van de rechtspersoonlijkheid hebben
-    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-deelnemingen-in-vennootschappen-naar-buitenlands-recht-die
-    datum: '1993-12-01'
-  - titel: Boekhoudkundige verwerking van dekkingsverrichtingen en gedekte posities in aandelen
-    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-dekkingsverrichtingen-en-gedekte-posities-in-aandelen
-    datum: '1992-11-01'
+- titel: Terugbetaling van kapitaal in vreemde valuta aan de aandeelhouders
+  url: https://www.cbn-cnc.be/nl/adviezen/terugbetaling-van-kapitaal-in-vreemde-valuta-aan-de-aandeelhouders
+  datum: '2024-03-13'
+- titel: Advies met betrekking tot de jaarrekeningrechtelijke aspecten van de certificatie
+    van aandelen van handelsvennootschappen(1)
+  url: https://www.cbn-cnc.be/nl/adviezen/advies-met-betrekking-tot-de-jaarrekeningrechtelijke-aspecten-van-de-certificatie-van
+  datum: '2002-05-02'
+- titel: Boekhoudkundige verwerking van deelnemingen in vennootschappen naar buitenlands
+    recht, die niet alle kenmerken van de rechtspersoonlijkheid hebben
+  url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-deelnemingen-in-vennootschappen-naar-buitenlands-recht-die
+  datum: '1993-12-01'
+- titel: Boekhoudkundige verwerking van dekkingsverrichtingen en gedekte posities
+    in aandelen
+  url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-dekkingsverrichtingen-en-gedekte-posities-in-aandelen
+  datum: '1992-11-01'
 ---
 
 # CBN-advies 114/2 - Bezit van maatschappelijke rechten in verbonden ondernemingen of in ondernemingen waarmee een deelnemingsverhouding bestaat - Begrip deelneming

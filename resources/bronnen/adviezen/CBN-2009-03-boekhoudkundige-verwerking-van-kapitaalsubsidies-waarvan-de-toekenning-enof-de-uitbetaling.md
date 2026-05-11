@@ -1,37 +1,45 @@
 ---
-nummer: "CBN-advies 2009/3"
+nummer: CBN-advies 2009/3
 datum: 2009-02-11
 themas:
-  - eventuele rechten
-  - kapitaalsubsidie
-  - opschortende voorwaarde
-  - uitgestelde belastingen
-  - vipa
-  - vlaams infrastructuurfonds voor persoonsgebonden aangelegenheden
+- eventuele rechten
+- kapitaalsubsidie
+- opschortende voorwaarde
+- uitgestelde belastingen
+- vipa
+- vlaams infrastructuurfonds voor persoonsgebonden aangelegenheden
 bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-kapitaalsubsidies-waarvan-de-toekenning-enof-de-uitbetaling
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-kapitaalsubsidies-waarvan-de-toekenning-enof-de-uitbetaling
-      sha256: 0d2e9abf1e2373b5da82f777a4eb4ecb1d4cbe61ee161a4f7847c6d2f1c1a0e5
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-kapitaalsubsidies-waarvan-de-toekenning-enof-de-uitbetaling
+    sha256: 0d2e9abf1e2373b5da82f777a4eb4ecb1d4cbe61ee161a4f7847c6d2f1c1a0e5
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T18:35:48Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T18:40:03Z'
     confirmed_by: qa-laag1-auto
     rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    layer1:
+      verdict: pass
+      heading_count: 12
+      max_section_chars: 9937
+      file_size_chars: 19651
+      flags: []
+      run_id: 20260509-212552
 gerelateerde_adviezen:
-  - titel: De boekhoudkundige verwerking van subsidies waarvan de toekenning niet gegarandeerd is (eventuele rechten)
-    url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-subsidies-waarvan-de-toekenning-niet-gegarandeerd-is
-    datum: '2014-05-14'
+- titel: De boekhoudkundige verwerking van subsidies waarvan de toekenning niet gegarandeerd
+    is (eventuele rechten)
+  url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-subsidies-waarvan-de-toekenning-niet-gegarandeerd-is
+  datum: '2014-05-14'
 ---
 
 # CBN-advies 2009/3 - Boekhoudkundige verwerking van kapitaalsubsidies waarvan de toekenning en/of de uitbetaling over verschillende jaren wordt gespreid

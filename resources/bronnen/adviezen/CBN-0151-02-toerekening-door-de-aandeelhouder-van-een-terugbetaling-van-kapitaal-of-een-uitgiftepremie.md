@@ -1,54 +1,65 @@
 ---
-nummer: "CBN-advies 151/2"
+nummer: CBN-advies 151/2
 datum: 1995-03-01
 themas:
-  - deelneming
-  - dividenden
-  - dochteronderneming
-  - geassocieerde onderneming
-  - geldbeleggingen
-  - kapitaal
-  - reserves
-  - terugbetaling van kapitaal
-  - terugbetaling van uitgiftepremies
-  - uitgiftepremie
-  - uitkering van reserves
-  - Waardevermindering
-  - aandelen
-  - financiële vaste activa
+- deelneming
+- dividenden
+- dochteronderneming
+- geassocieerde onderneming
+- geldbeleggingen
+- kapitaal
+- reserves
+- terugbetaling van kapitaal
+- terugbetaling van uitgiftepremies
+- uitgiftepremie
+- uitkering van reserves
+- Waardevermindering
+- aandelen
+- financiële vaste activa
 bron: https://www.cbn-cnc.be/nl/adviezen/toerekening-door-de-aandeelhouder-van-een-terugbetaling-van-kapitaal-of-een-uitgiftepremie
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/toerekening-door-de-aandeelhouder-van-een-terugbetaling-van-kapitaal-of-een-uitgiftepremie
-      sha256: 8c2007001e437847254de171c8f00eb996ea682a5abfe87cc015de5b022de0b1
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/toerekening-door-de-aandeelhouder-van-een-terugbetaling-van-kapitaal-of-een-uitgiftepremie
+    sha256: 8c2007001e437847254de171c8f00eb996ea682a5abfe87cc015de5b022de0b1
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T18:35:18Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T19:02:28Z'
     confirmed_by: subagent-laag2-ronde2
-    rationale: '[Laag-2-R2 2026-05-08] Inhoudelijk volledig met heldere tweedeling, genummerde paragrafen en concrete conclusie. Past perfect als één RAG-chunk.'
+    rationale: '[Laag-2-R2 2026-05-08] Inhoudelijk volledig met heldere tweedeling,
+      genummerde paragrafen en concrete conclusie. Past perfect als één RAG-chunk.'
+    layer1:
+      verdict: pass
+      heading_count: 0
+      max_section_chars: 11725
+      file_size_chars: 11725
+      flags: []
+      run_id: 20260509-212552
 gerelateerde_adviezen:
-  - titel: Terugbetaling van kapitaal in vreemde valuta aan de aandeelhouders
-    url: https://www.cbn-cnc.be/nl/adviezen/terugbetaling-van-kapitaal-in-vreemde-valuta-aan-de-aandeelhouders
-    datum: '2024-03-13'
-  - titel: Advies met betrekking tot de jaarrekeningrechtelijke aspecten van de certificatie van aandelen van handelsvennootschappen(1)
-    url: https://www.cbn-cnc.be/nl/adviezen/advies-met-betrekking-tot-de-jaarrekeningrechtelijke-aspecten-van-de-certificatie-van
-    datum: '2002-05-02'
-  - titel: Boekhoudkundige verwerking van deelnemingen in vennootschappen naar buitenlands recht, die niet alle kenmerken van de rechtspersoonlijkheid hebben
-    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-deelnemingen-in-vennootschappen-naar-buitenlands-recht-die
-    datum: '1993-12-01'
-  - titel: Boekhoudkundige verwerking van dekkingsverrichtingen en gedekte posities in aandelen
-    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-dekkingsverrichtingen-en-gedekte-posities-in-aandelen
-    datum: '1992-11-01'
+- titel: Terugbetaling van kapitaal in vreemde valuta aan de aandeelhouders
+  url: https://www.cbn-cnc.be/nl/adviezen/terugbetaling-van-kapitaal-in-vreemde-valuta-aan-de-aandeelhouders
+  datum: '2024-03-13'
+- titel: Advies met betrekking tot de jaarrekeningrechtelijke aspecten van de certificatie
+    van aandelen van handelsvennootschappen(1)
+  url: https://www.cbn-cnc.be/nl/adviezen/advies-met-betrekking-tot-de-jaarrekeningrechtelijke-aspecten-van-de-certificatie-van
+  datum: '2002-05-02'
+- titel: Boekhoudkundige verwerking van deelnemingen in vennootschappen naar buitenlands
+    recht, die niet alle kenmerken van de rechtspersoonlijkheid hebben
+  url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-deelnemingen-in-vennootschappen-naar-buitenlands-recht-die
+  datum: '1993-12-01'
+- titel: Boekhoudkundige verwerking van dekkingsverrichtingen en gedekte posities
+    in aandelen
+  url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-dekkingsverrichtingen-en-gedekte-posities-in-aandelen
+  datum: '1992-11-01'
 ---
 
 # CBN-advies 151/2 - Toerekening door de aandeelhouder van een terugbetaling van kapitaal of een uitgiftepremie of van een uitkering van reserves

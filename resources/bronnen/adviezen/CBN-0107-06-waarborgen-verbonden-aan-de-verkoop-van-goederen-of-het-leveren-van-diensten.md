@@ -1,42 +1,50 @@
 ---
-nummer: "CBN-advies 107/6"
+nummer: CBN-advies 107/6
 datum: 1984-10-01
 themas:
-  - voorziening
-  - waarborg
+- voorziening
+- waarborg
 bron: https://www.cbn-cnc.be/nl/adviezen/waarborgen-verbonden-aan-de-verkoop-van-goederen-of-het-leveren-van-diensten
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/waarborgen-verbonden-aan-de-verkoop-van-goederen-of-het-leveren-van-diensten
-      sha256: 3c6bb203772ae565a7e0c086eb61a89cc3ea4da79869e94f964196ab3800db4f
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/waarborgen-verbonden-aan-de-verkoop-van-goederen-of-het-leveren-van-diensten
+    sha256: 3c6bb203772ae565a7e0c086eb61a89cc3ea4da79869e94f964196ab3800db4f
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T18:33:58Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T18:40:02Z'
     confirmed_by: qa-laag1-auto
     rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    layer1:
+      verdict: pass
+      heading_count: 0
+      max_section_chars: 3059
+      file_size_chars: 3059
+      flags: []
+      run_id: 20260509-212552
 gerelateerde_adviezen:
-  - titel: Boekhoudkundige verwerking van COVID-19-tegemoetkomingen en van kosten gemaakt ten gevolge van de gezondheidscrisis
-    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-covid-19-tegemoetkomingen-en-van-kosten-gemaakt-ten-gevolge
-    datum: '2021-07-05'
-  - titel: Gevolgen op gebied van financiële rapportering als gevolg van de brexit
-    url: https://www.cbn-cnc.be/nl/adviezen/gevolgen-op-gebied-van-financiele-rapportering-als-gevolg-van-de-brexit-0
-    datum: '2019-04-12'
-  - titel: Voorzieningen
-    url: https://www.cbn-cnc.be/nl/adviezen/voorzieningen
-    datum: '2019-03-05'
-  - titel: Toekenning van gratis aandelen (Restricted Stock Units) als bonus
-    url: https://www.cbn-cnc.be/nl/adviezen/toekenning-van-gratis-aandelen-restricted-stock-units-als-bonus
-    datum: '2018-11-14'
+- titel: Boekhoudkundige verwerking van COVID-19-tegemoetkomingen en van kosten gemaakt
+    ten gevolge van de gezondheidscrisis
+  url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-covid-19-tegemoetkomingen-en-van-kosten-gemaakt-ten-gevolge
+  datum: '2021-07-05'
+- titel: Gevolgen op gebied van financiële rapportering als gevolg van de brexit
+  url: https://www.cbn-cnc.be/nl/adviezen/gevolgen-op-gebied-van-financiele-rapportering-als-gevolg-van-de-brexit-0
+  datum: '2019-04-12'
+- titel: Voorzieningen
+  url: https://www.cbn-cnc.be/nl/adviezen/voorzieningen
+  datum: '2019-03-05'
+- titel: Toekenning van gratis aandelen (Restricted Stock Units) als bonus
+  url: https://www.cbn-cnc.be/nl/adviezen/toekenning-van-gratis-aandelen-restricted-stock-units-als-bonus
+  datum: '2018-11-14'
 ---
 
 # CBN-advies 107/6 - Waarborgen verbonden aan de verkoop van goederen of het leveren van diensten

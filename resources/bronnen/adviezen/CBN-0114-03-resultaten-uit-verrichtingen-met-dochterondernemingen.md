@@ -1,43 +1,54 @@
 ---
-nummer: "CBN-advies 114/3"
+nummer: CBN-advies 114/3
 datum: 1981-04-01
 themas:
-  - dochteronderneming
-  - geconsolideerde jaarrekening
-  - verbonden onderneming
-  - resultaten
-  - verrichtingen met dochterondernemingen
-  - verrichtingen met verbonden ondernemingen
+- dochteronderneming
+- geconsolideerde jaarrekening
+- verbonden onderneming
+- resultaten
+- verrichtingen met dochterondernemingen
+- verrichtingen met verbonden ondernemingen
 bron: https://www.cbn-cnc.be/nl/adviezen/resultaten-uit-verrichtingen-met-dochterondernemingen
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/resultaten-uit-verrichtingen-met-dochterondernemingen
-      sha256: d152908b90018acf998826b351f506fee4d353f740a2246484bd2e6f3f7c62c3
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/resultaten-uit-verrichtingen-met-dochterondernemingen
+    sha256: d152908b90018acf998826b351f506fee4d353f740a2246484bd2e6f3f7c62c3
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T18:34:19Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T19:02:28Z'
     confirmed_by: subagent-laag2-ronde2
-    rationale: '[Laag-2-R2 2026-05-08] Volledig coherent advies met principiële vraag en antwoord volledig uitgewerkt. Onderscheid gewone vs. geconsolideerde jaarrekening helder.'
+    rationale: '[Laag-2-R2 2026-05-08] Volledig coherent advies met principiële vraag
+      en antwoord volledig uitgewerkt. Onderscheid gewone vs. geconsolideerde jaarrekening
+      helder.'
+    layer1:
+      verdict: pass
+      heading_count: 0
+      max_section_chars: 8929
+      file_size_chars: 8929
+      flags: []
+      run_id: 20260509-212552
 gerelateerde_adviezen:
-  - titel: Gevolgen op gebied van financiële rapportering als gevolg van de brexit
-    url: https://www.cbn-cnc.be/nl/adviezen/gevolgen-op-gebied-van-financiele-rapportering-als-gevolg-van-de-brexit-0
-    datum: '2019-04-12'
-  - titel: 'Consolidatiekring: interpretatie van de uitsluitingsgrond van artikel 107, 4° KB W.Venn.'
-    url: https://www.cbn-cnc.be/nl/adviezen/consolidatiekring-interpretatie-van-de-uitsluitingsgrond-van-artikel-107-4deg-kb-wvenn
-    datum: '2011-02-25'
-  - titel: Toerekening door de aandeelhouder van een terugbetaling van kapitaal of een uitgiftepremie of van een uitkering van reserves
-    url: https://www.cbn-cnc.be/nl/adviezen/toerekening-door-de-aandeelhouder-van-een-terugbetaling-van-kapitaal-of-een-uitgiftepremie
-    datum: '1995-03-01'
+- titel: Gevolgen op gebied van financiële rapportering als gevolg van de brexit
+  url: https://www.cbn-cnc.be/nl/adviezen/gevolgen-op-gebied-van-financiele-rapportering-als-gevolg-van-de-brexit-0
+  datum: '2019-04-12'
+- titel: 'Consolidatiekring: interpretatie van de uitsluitingsgrond van artikel 107,
+    4° KB W.Venn.'
+  url: https://www.cbn-cnc.be/nl/adviezen/consolidatiekring-interpretatie-van-de-uitsluitingsgrond-van-artikel-107-4deg-kb-wvenn
+  datum: '2011-02-25'
+- titel: Toerekening door de aandeelhouder van een terugbetaling van kapitaal of een
+    uitgiftepremie of van een uitkering van reserves
+  url: https://www.cbn-cnc.be/nl/adviezen/toerekening-door-de-aandeelhouder-van-een-terugbetaling-van-kapitaal-of-een-uitgiftepremie
+  datum: '1995-03-01'
 ---
 
 # CBN-advies 114/3 - Resultaten uit verrichtingen met dochterondernemingen

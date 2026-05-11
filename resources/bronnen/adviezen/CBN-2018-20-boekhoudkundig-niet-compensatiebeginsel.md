@@ -1,30 +1,37 @@
 ---
-nummer: "CBN-advies 2018/20"
+nummer: CBN-advies 2018/20
 datum: 2018-11-23
 themas:
-  - niet-compensatie
-  - compensatie
-  - schuldvergelijking
+- niet-compensatie
+- compensatie
+- schuldvergelijking
 bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundig-niet-compensatiebeginsel
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundig-niet-compensatiebeginsel
-      sha256: 568d1613dc26b400815af270a80f04670188bb30393feef47a163c9c9d37c243
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundig-niet-compensatiebeginsel
+    sha256: 568d1613dc26b400815af270a80f04670188bb30393feef47a163c9c9d37c243
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T18:37:29Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T18:40:05Z'
     confirmed_by: qa-laag1-auto
     rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    layer1:
+      verdict: pass
+      heading_count: 4
+      max_section_chars: 2848
+      file_size_chars: 7716
+      flags: []
+      run_id: 20260509-212552
 ---
 
 # CBN-advies 2018/20 – Boekhoudkundig niet-compensatiebeginsel

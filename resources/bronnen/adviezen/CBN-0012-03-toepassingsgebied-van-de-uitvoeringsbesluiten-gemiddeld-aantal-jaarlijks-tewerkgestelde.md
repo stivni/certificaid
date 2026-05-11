@@ -1,31 +1,38 @@
 ---
-nummer: "CBN-advies 12/3"
+nummer: CBN-advies 12/3
 datum: 1979-05-01
 themas:
-  - gemiddeld aantal tewerkgestelde personen
-  - omvangcriteria
-  - tewerkgestelde personen
-  - uitzendkracht
+- gemiddeld aantal tewerkgestelde personen
+- omvangcriteria
+- tewerkgestelde personen
+- uitzendkracht
 bron: https://www.cbn-cnc.be/nl/adviezen/toepassingsgebied-van-de-uitvoeringsbesluiten-gemiddeld-aantal-jaarlijks-tewerkgestelde
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/toepassingsgebied-van-de-uitvoeringsbesluiten-gemiddeld-aantal-jaarlijks-tewerkgestelde
-      sha256: c30b11e8f6ea09cb21a53e7702fb6c211469e2f1ae15a369f21938c195d047ad
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/toepassingsgebied-van-de-uitvoeringsbesluiten-gemiddeld-aantal-jaarlijks-tewerkgestelde
+    sha256: c30b11e8f6ea09cb21a53e7702fb6c211469e2f1ae15a369f21938c195d047ad
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T18:33:31Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T18:40:02Z'
     confirmed_by: qa-laag1-auto
     rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    layer1:
+      verdict: pass
+      heading_count: 0
+      max_section_chars: 2258
+      file_size_chars: 2258
+      flags: []
+      run_id: 20260509-212552
 ---
 
 # CBN advies 12-3 - Toepassingsgebied van de uitvoeringsbesluiten - Gemiddeld aantal jaarlijks tewerkgestelde personen

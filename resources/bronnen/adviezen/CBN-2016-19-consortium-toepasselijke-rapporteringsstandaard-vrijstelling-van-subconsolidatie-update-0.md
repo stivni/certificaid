@@ -1,47 +1,55 @@
 ---
-nummer: "CBN-advies 2016/19"
+nummer: CBN-advies 2016/19
 datum: 2016-09-07
 themas:
-  - consolidatie
-  - subconsolidatie
-  - consortium
-  - vrijstelling van consolidatie
-  - waarderingsregels
-  - IFRS
-  - BE GAAP
+- consolidatie
+- subconsolidatie
+- consortium
+- vrijstelling van consolidatie
+- waarderingsregels
+- IFRS
+- BE GAAP
 bron: https://www.cbn-cnc.be/nl/adviezen/consortium-toepasselijke-rapporteringsstandaard-vrijstelling-van-subconsolidatie-update-0
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/consortium-toepasselijke-rapporteringsstandaard-vrijstelling-van-subconsolidatie-update-0
-      sha256: 65d15596052ca2d02b89fb1d796bc2ea30c852156292e7cfdeb5ef9df53c6f2c
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/consortium-toepasselijke-rapporteringsstandaard-vrijstelling-van-subconsolidatie-update-0
+    sha256: 65d15596052ca2d02b89fb1d796bc2ea30c852156292e7cfdeb5ef9df53c6f2c
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T18:37:04Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T18:40:04Z'
     confirmed_by: qa-laag1-auto
     rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    layer1:
+      verdict: pass
+      heading_count: 4
+      max_section_chars: 2103
+      file_size_chars: 5051
+      flags: []
+      run_id: 20260509-212552
 gerelateerde_adviezen:
-  - titel: Vermogensmutatiemethode
-    url: https://www.cbn-cnc.be/nl/adviezen/vermogensmutatiemethode
-    datum: '2022-09-09'
-  - titel: Consolidatie bij de horizontale groep (consortium)
-    url: https://www.cbn-cnc.be/nl/adviezen/consolidatie-bij-de-horizontale-groep-consortium-0
-    datum: '2022-07-27'
-  - titel: Transacties onder gemeenschappelijke leiding (Common control transactions) (update)
-    url: https://www.cbn-cnc.be/nl/adviezen/transacties-onder-gemeenschappelijke-leiding-common-control-transactions-update
-    datum: '2017-09-13'
-  - titel: Consolidatie bij de horizontale groep (consortium)
-    url: https://www.cbn-cnc.be/nl/adviezen/consolidatie-bij-de-horizontale-groep-consortium
-    datum: '2017-03-15'
+- titel: Vermogensmutatiemethode
+  url: https://www.cbn-cnc.be/nl/adviezen/vermogensmutatiemethode
+  datum: '2022-09-09'
+- titel: Consolidatie bij de horizontale groep (consortium)
+  url: https://www.cbn-cnc.be/nl/adviezen/consolidatie-bij-de-horizontale-groep-consortium-0
+  datum: '2022-07-27'
+- titel: Transacties onder gemeenschappelijke leiding (Common control transactions)
+    (update)
+  url: https://www.cbn-cnc.be/nl/adviezen/transacties-onder-gemeenschappelijke-leiding-common-control-transactions-update
+  datum: '2017-09-13'
+- titel: Consolidatie bij de horizontale groep (consortium)
+  url: https://www.cbn-cnc.be/nl/adviezen/consolidatie-bij-de-horizontale-groep-consortium
+  datum: '2017-03-15'
 ---
 
 # CBN-advies 2016/19 – Consortium: toepasselijke rapporteringsstandaard – vrijstelling van subconsolidatie (update)

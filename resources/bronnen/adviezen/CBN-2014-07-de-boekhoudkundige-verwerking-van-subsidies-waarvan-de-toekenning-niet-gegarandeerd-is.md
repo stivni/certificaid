@@ -1,38 +1,46 @@
 ---
-nummer: "CBN-advies 2014/7"
+nummer: CBN-advies 2014/7
 datum: 2014-05-14
 themas:
-  - overheidssteun
-  - eventuele rechten
-  - subsidies
-  - overheidssubsidies
+- overheidssteun
+- eventuele rechten
+- subsidies
+- overheidssubsidies
 bron: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-subsidies-waarvan-de-toekenning-niet-gegarandeerd-is
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-subsidies-waarvan-de-toekenning-niet-gegarandeerd-is
-      sha256: 129dce5ffd8bae1274c5c90703f3a21c45b14d1e92c28e39261279fbedb589d9
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-subsidies-waarvan-de-toekenning-niet-gegarandeerd-is
+    sha256: 129dce5ffd8bae1274c5c90703f3a21c45b14d1e92c28e39261279fbedb589d9
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T18:36:46Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T18:40:04Z'
     confirmed_by: qa-laag1-auto
     rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    layer1:
+      verdict: pass
+      heading_count: 2
+      max_section_chars: 4325
+      file_size_chars: 7752
+      flags: []
+      run_id: 20260509-212552
 gerelateerde_adviezen:
-  - titel: De boekhoudkundige verwerking van ontvangen overheidssteun in de vorm van een terugvorderbaar voorschot
-    url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-ontvangen-overheidssteun-in-de-vorm-van-een
-    datum: '2014-03-12'
-  - titel: Overheidssubsidies
-    url: https://www.cbn-cnc.be/nl/adviezen/overheidssubsidies
-    datum: '2011-05-04'
+- titel: De boekhoudkundige verwerking van ontvangen overheidssteun in de vorm van
+    een terugvorderbaar voorschot
+  url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-ontvangen-overheidssteun-in-de-vorm-van-een
+  datum: '2014-03-12'
+- titel: Overheidssubsidies
+  url: https://www.cbn-cnc.be/nl/adviezen/overheidssubsidies
+  datum: '2011-05-04'
 ---
 
 # CBN-advies 2014/7 – De boekhoudkundige verwerking van subsidies waarvan de toekenning niet gegarandeerd is (eventuele rechten)

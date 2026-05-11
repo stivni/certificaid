@@ -1,33 +1,40 @@
 ---
-nummer: "CBN-advies 156/1"
+nummer: CBN-advies 156/1
 datum: 1988-06-01
 themas:
-  - financieringsfonds
-  - diverse rechten en verplichtingen
-  - groepsverzekering
-  - solidariteitsfonds
-  - toevoeging aan het solidariteitsfonds
-  - diverse rechten en verplichtingen
+- financieringsfonds
+- diverse rechten en verplichtingen
+- groepsverzekering
+- solidariteitsfonds
+- toevoeging aan het solidariteitsfonds
+- diverse rechten en verplichtingen
 bron: https://www.cbn-cnc.be/nl/adviezen/attribution-au-fonds-de-solidarite
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/attribution-au-fonds-de-solidarite
-      sha256: 8cacfc90853998f3871875e44ba476c7ef266c820e400d9455d3458559a5b7fd
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/attribution-au-fonds-de-solidarite
+    sha256: 8cacfc90853998f3871875e44ba476c7ef266c820e400d9455d3458559a5b7fd
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T18:35:25Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T18:40:03Z'
     confirmed_by: qa-laag1-auto
     rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    layer1:
+      verdict: pass
+      heading_count: 0
+      max_section_chars: 1299
+      file_size_chars: 1299
+      flags: []
+      run_id: 20260509-212552
 ---
 
 # CBN-advies 156/1 - Groepsverzekering - Toevoeging aan het solidariteitsfonds

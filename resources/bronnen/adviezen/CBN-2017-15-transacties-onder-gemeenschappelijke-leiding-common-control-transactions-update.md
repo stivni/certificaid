@@ -1,36 +1,43 @@
 ---
-nummer: "CBN-advies 2017/15"
+nummer: CBN-advies 2017/15
 datum: 2017-09-13
 themas:
-  - bedrijfscombinatie
-  - common control transactie
-  - consolidatie
-  - gemeenschappelijke leiding
-  - goodwill
-  - overname
-  - pooling of interest
-  - consolidatieverschil
-  - groottecriteria
+- bedrijfscombinatie
+- common control transactie
+- consolidatie
+- gemeenschappelijke leiding
+- goodwill
+- overname
+- pooling of interest
+- consolidatieverschil
+- groottecriteria
 bron: https://www.cbn-cnc.be/nl/adviezen/transacties-onder-gemeenschappelijke-leiding-common-control-transactions-update
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/transacties-onder-gemeenschappelijke-leiding-common-control-transactions-update
-      sha256: e34d71c0b915d2915bedf5f2e0faf1e45742e2108099e419f5bcf364e08f69b4
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/transacties-onder-gemeenschappelijke-leiding-common-control-transactions-update
+    sha256: e34d71c0b915d2915bedf5f2e0faf1e45742e2108099e419f5bcf364e08f69b4
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T18:37:15Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T18:40:04Z'
     confirmed_by: qa-laag1-auto
     rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    layer1:
+      verdict: pass
+      heading_count: 7
+      max_section_chars: 4117
+      file_size_chars: 8752
+      flags: []
+      run_id: 20260509-212552
 ---
 
 # CBN-advies 2017/15 – Transacties onder gemeenschappelijke leiding (Common control transactions) (update)

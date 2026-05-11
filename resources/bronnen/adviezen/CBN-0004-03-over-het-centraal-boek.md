@@ -1,38 +1,45 @@
 ---
-nummer: "CBN-advies 4/3"
+nummer: CBN-advies 4/3
 datum: 1981-04-01
 themas:
-  - boeken
+- boeken
 bron: https://www.cbn-cnc.be/nl/adviezen/over-het-centraal-boek
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/over-het-centraal-boek
-      sha256: c64abd6195b7a76fb1fdc7ef22baf5c9d72a8d45088cae8d7bbe79d1f6bffced
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/over-het-centraal-boek
+    sha256: c64abd6195b7a76fb1fdc7ef22baf5c9d72a8d45088cae8d7bbe79d1f6bffced
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T18:33:26Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T18:40:02Z'
     confirmed_by: qa-laag1-auto
     rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    layer1:
+      verdict: pass
+      heading_count: 1
+      max_section_chars: 2392
+      file_size_chars: 2602
+      flags: []
+      run_id: 20260509-212552
 gerelateerde_adviezen:
-  - titel: Bewaring van de boeken en verantwoordingsstukken
-    url: https://www.cbn-cnc.be/nl/adviezen/bewaring-van-de-boeken-en-verantwoordingsstukken
-    datum: '2011-10-05'
-  - titel: Bewaring van boeken en verantwoordingsstukken
-    url: https://www.cbn-cnc.be/nl/adviezen/bewaring-van-boeken-en-verantwoordingsstukken
-    datum: '2010-09-24'
-  - titel: Vermeldingen in het centralisatieboek
-    url: https://www.cbn-cnc.be/nl/adviezen/vermeldingen-in-het-centralisatieboek
-    datum: '1977-08-01'
+- titel: Bewaring van de boeken en verantwoordingsstukken
+  url: https://www.cbn-cnc.be/nl/adviezen/bewaring-van-de-boeken-en-verantwoordingsstukken
+  datum: '2011-10-05'
+- titel: Bewaring van boeken en verantwoordingsstukken
+  url: https://www.cbn-cnc.be/nl/adviezen/bewaring-van-boeken-en-verantwoordingsstukken
+  datum: '2010-09-24'
+- titel: Vermeldingen in het centralisatieboek
+  url: https://www.cbn-cnc.be/nl/adviezen/vermeldingen-in-het-centralisatieboek
+  datum: '1977-08-01'
 ---
 
 # CBN-advies 4-3 - Over het centraal boek

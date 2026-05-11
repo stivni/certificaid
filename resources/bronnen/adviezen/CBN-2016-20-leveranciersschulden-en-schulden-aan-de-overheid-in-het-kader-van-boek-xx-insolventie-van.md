@@ -1,32 +1,39 @@
 ---
-nummer: "CBN-advies 2016/20 – UPDATE"
+nummer: CBN-advies 2016/20 – UPDATE
 datum: 2020-03-12
 themas:
-  - schulden aan de overheid
+- schulden aan de overheid
 bron: https://www.cbn-cnc.be/nl/adviezen/leveranciersschulden-en-schulden-aan-de-overheid-in-het-kader-van-boek-xx-insolventie-van
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/leveranciersschulden-en-schulden-aan-de-overheid-in-het-kader-van-boek-xx-insolventie-van
-      sha256: 419a282ec29b37329a6bff8f40a70c1205c9500b9e4de3465addbc4c32628165
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/leveranciersschulden-en-schulden-aan-de-overheid-in-het-kader-van-boek-xx-insolventie-van
+    sha256: 419a282ec29b37329a6bff8f40a70c1205c9500b9e4de3465addbc4c32628165
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T18:37:04Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T18:40:04Z'
     confirmed_by: qa-laag1-auto
     rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    layer1:
+      verdict: pass
+      heading_count: 2
+      max_section_chars: 2669
+      file_size_chars: 3805
+      flags: []
+      run_id: 20260509-212552
 gerelateerde_adviezen:
-  - titel: Leveranciersschulden en schulden aan de overheid in het kader van een WCO
-    url: https://www.cbn-cnc.be/nl/adviezen/leveranciersschulden-en-schulden-aan-de-overheid-in-het-kader-van-een-wco
-    datum: '2016-09-07'
+- titel: Leveranciersschulden en schulden aan de overheid in het kader van een WCO
+  url: https://www.cbn-cnc.be/nl/adviezen/leveranciersschulden-en-schulden-aan-de-overheid-in-het-kader-van-een-wco
+  datum: '2016-09-07'
 ---
 
 # CBN-advies 2016/20 – Leveranciersschulden en schulden aan de overheid in het kader van boek XX “Insolventie van ondernemingen” van het Wetboek van economisch recht

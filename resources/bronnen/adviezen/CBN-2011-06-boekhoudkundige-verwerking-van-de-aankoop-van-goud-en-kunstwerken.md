@@ -1,45 +1,52 @@
 ---
-nummer: "CBN-advies 2011/6"
+nummer: CBN-advies 2011/6
 datum: 2011-03-16
 themas:
-  - aankoop van goud
-  - aankoop van kunstwerken
-  - beleggingsgoederen
-  - geldbeleggingen
-  - goud
-  - goudbeleggingen
-  - goudreserve
-  - herwaardering
-  - kwaliteitsrekening
-  - liquide markt
-  - permanente minimumvoorraad
-  - rentabiliteitsvoorwaarde
-  - schilderij
-  - vaste activa
-  - vlottende activa
-  - voorraden
-  - waardering van voorraden
-  - Waardevermindering
+- aankoop van goud
+- aankoop van kunstwerken
+- beleggingsgoederen
+- geldbeleggingen
+- goud
+- goudbeleggingen
+- goudreserve
+- herwaardering
+- kwaliteitsrekening
+- liquide markt
+- permanente minimumvoorraad
+- rentabiliteitsvoorwaarde
+- schilderij
+- vaste activa
+- vlottende activa
+- voorraden
+- waardering van voorraden
+- Waardevermindering
 bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-aankoop-van-goud-en-kunstwerken
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-aankoop-van-goud-en-kunstwerken
-      sha256: b8b176840e084369b96e16c7b04d86f0f271224a1ca2cfcb9c5d12df2a10a879
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-aankoop-van-goud-en-kunstwerken
+    sha256: b8b176840e084369b96e16c7b04d86f0f271224a1ca2cfcb9c5d12df2a10a879
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T18:36:09Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T18:40:04Z'
     confirmed_by: qa-laag1-auto
     rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    layer1:
+      verdict: pass
+      heading_count: 27
+      max_section_chars: 5741
+      file_size_chars: 12695
+      flags: []
+      run_id: 20260509-212552
 ---
 
 # CBN-advies 2011/6 - Boekhoudkundige verwerking van de aankoop van goud en kunstwerken

@@ -1,36 +1,43 @@
 ---
-nummer: "CBN-advies 148/5"
+nummer: CBN-advies 148/5
 datum: 1993-12-01
 themas:
-  - actuarieel rendement op vastrentende effecten
-  - actuariële rendement
-  - kapitalisatiebon
-  - toerekening van kosten en opbrengsten
-  - vastrentende effecten
+- actuarieel rendement op vastrentende effecten
+- actuariële rendement
+- kapitalisatiebon
+- toerekening van kosten en opbrengsten
+- vastrentende effecten
 bron: https://www.cbn-cnc.be/nl/adviezen/actuarieel-rendement-op-vastrentende-effecten-aanpassing-van-de-adviezen-1375-en-1484
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/actuarieel-rendement-op-vastrentende-effecten-aanpassing-van-de-adviezen-1375-en-1484
-      sha256: 9a05429dbe510b4e87feb0e2aabca76f9ed492da6f32da5e1fac2cd203f35761
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/actuarieel-rendement-op-vastrentende-effecten-aanpassing-van-de-adviezen-1375-en-1484
+    sha256: 9a05429dbe510b4e87feb0e2aabca76f9ed492da6f32da5e1fac2cd203f35761
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T18:35:15Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T18:40:03Z'
     confirmed_by: qa-laag1-auto
     rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    layer1:
+      verdict: pass
+      heading_count: 7
+      max_section_chars: 3221
+      file_size_chars: 9363
+      flags: []
+      run_id: 20260509-212552
 gerelateerde_adviezen:
-  - titel: Inresultaatneming van het actuariële rendement van vastrentende effecten
-    url: https://www.cbn-cnc.be/nl/adviezen/inresultaatneming-van-het-actuariele-rendement-van-vastrentende-effecten
-    datum: '1992-02-01'
+- titel: Inresultaatneming van het actuariële rendement van vastrentende effecten
+  url: https://www.cbn-cnc.be/nl/adviezen/inresultaatneming-van-het-actuariele-rendement-van-vastrentende-effecten
+  datum: '1992-02-01'
 ---
 
 # CBN-advies 148/5 - Actuarieel rendement op vastrentende effecten - Aanpassing van de adviezen 137/5 en 148/4

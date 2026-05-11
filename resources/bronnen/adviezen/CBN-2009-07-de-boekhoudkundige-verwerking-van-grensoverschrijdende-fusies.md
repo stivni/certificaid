@@ -1,47 +1,55 @@
 ---
-nummer: "CBN-advies 2009/7"
+nummer: CBN-advies 2009/7
 datum: 2009-07-15
 themas:
-  - belastingvrije reserves
-  - dotatie van een belgische inrichting
-  - fusie
-  - grensoverschrijdende fusie
-  - kapitaal
-  - onderneming naar buitenlands recht
-  - vrijgestelde reserves
+- belastingvrije reserves
+- dotatie van een belgische inrichting
+- fusie
+- grensoverschrijdende fusie
+- kapitaal
+- onderneming naar buitenlands recht
+- vrijgestelde reserves
 bron: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-grensoverschrijdende-fusies
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-grensoverschrijdende-fusies
-      sha256: a16ec48ec2d1eaf87fef3210eb3df4a5df458952af1726a2701f0734072812d8
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-grensoverschrijdende-fusies
+    sha256: a16ec48ec2d1eaf87fef3210eb3df4a5df458952af1726a2701f0734072812d8
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T18:35:49Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T18:40:03Z'
     confirmed_by: qa-laag1-auto
     rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    layer1:
+      verdict: pass
+      heading_count: 4
+      max_section_chars: 19599
+      file_size_chars: 23507
+      flags: []
+      run_id: 20260509-212552
 gerelateerde_adviezen:
-  - titel: Boekhoudrechtelijke verwerking van de wederopbouwreserve
-    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudrechtelijke-verwerking-van-de-wederopbouwreserve
-    datum: '2021-07-12'
-  - titel: Invloed van het buitengerechtelijk minnelijk akkoord en de gerechtelijke reorganisatie op de schulden en vorderingen (update)
-    url: https://www.cbn-cnc.be/nl/adviezen/invloed-van-het-buitengerechtelijk-minnelijk-akkoord-en-de-gerechtelijke-reorganisatie-1
-    datum: '2021-05-12'
-  - titel: Tax shelter voor podiumkunsten
-    url: https://www.cbn-cnc.be/nl/adviezen/tax-shelter-voor-podiumkunsten
-    datum: '2018-05-30'
-  - titel: Aftrek voor innovatie-inkomsten
-    url: https://www.cbn-cnc.be/nl/adviezen/aftrek-voor-innovatie-inkomsten
-    datum: '2018-03-21'
+- titel: Boekhoudrechtelijke verwerking van de wederopbouwreserve
+  url: https://www.cbn-cnc.be/nl/adviezen/boekhoudrechtelijke-verwerking-van-de-wederopbouwreserve
+  datum: '2021-07-12'
+- titel: Invloed van het buitengerechtelijk minnelijk akkoord en de gerechtelijke
+    reorganisatie op de schulden en vorderingen (update)
+  url: https://www.cbn-cnc.be/nl/adviezen/invloed-van-het-buitengerechtelijk-minnelijk-akkoord-en-de-gerechtelijke-reorganisatie-1
+  datum: '2021-05-12'
+- titel: Tax shelter voor podiumkunsten
+  url: https://www.cbn-cnc.be/nl/adviezen/tax-shelter-voor-podiumkunsten
+  datum: '2018-05-30'
+- titel: Aftrek voor innovatie-inkomsten
+  url: https://www.cbn-cnc.be/nl/adviezen/aftrek-voor-innovatie-inkomsten
+  datum: '2018-03-21'
 ---
 
 # CBN-advies 2009/7 - De boekhoudkundige verwerking van grensoverschrijdende fusies Advies van 15 juli 2009

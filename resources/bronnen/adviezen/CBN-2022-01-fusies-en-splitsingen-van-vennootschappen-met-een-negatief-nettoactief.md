@@ -1,53 +1,62 @@
 ---
-nummer: "CBN-advies 2022/01"
+nummer: CBN-advies 2022/01
 datum: 2022-02-15
 themas:
-  - nettoactief
-  - fusie
-  - splitsing
-  - partiële splitsing
-  - negatief nettoactief
-  - reorganisatie
-  - herstructurering
-  - ruilverhouding
-  - ruilwaarde
-  - uitgifte van aandelen
-  - continuïteit
-  - verdeling eigen vermogen
-  - eigen vermogen
+- nettoactief
+- fusie
+- splitsing
+- partiële splitsing
+- negatief nettoactief
+- reorganisatie
+- herstructurering
+- ruilverhouding
+- ruilwaarde
+- uitgifte van aandelen
+- continuïteit
+- verdeling eigen vermogen
+- eigen vermogen
 bron: https://www.cbn-cnc.be/nl/adviezen/fusies-en-splitsingen-van-vennootschappen-met-een-negatief-nettoactief
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/fusies-en-splitsingen-van-vennootschappen-met-een-negatief-nettoactief
-      sha256: 9daea3fd6ca339f48d1fc62283441749091d877578b706b9786d76e6c532cc30
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/fusies-en-splitsingen-van-vennootschappen-met-een-negatief-nettoactief
+    sha256: 9daea3fd6ca339f48d1fc62283441749091d877578b706b9786d76e6c532cc30
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T18:38:06Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T18:40:05Z'
     confirmed_by: qa-laag1-auto
     rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    layer1:
+      verdict: pass
+      heading_count: 33
+      max_section_chars: 17340
+      file_size_chars: 24831
+      flags: []
+      run_id: 20260509-212552
 gerelateerde_adviezen:
-  - titel: Vermogensklem bij de omzetting van een VZW in een coöperatieve vennootschap erkend als sociale onderneming
-    url: https://www.cbn-cnc.be/nl/adviezen/vermogensklem-bij-de-omzetting-van-een-vzw-in-een-cooperatieve-vennootschap-erkend-als-0
-    datum: '2024-01-17'
-  - titel: Jaarrekeningrechtelijke analyse van de alarmbelprocedure onder het WVV
-    url: https://www.cbn-cnc.be/nl/adviezen/jaarrekeningrechtelijke-analyse-van-de-alarmbelprocedure-onder-het-wvv
-    datum: '2021-10-12'
-  - titel: Vermogensklem bij de omzetting van een VZW in een coöperatieve vennootschap erkend als sociale onderneming
-    url: https://www.cbn-cnc.be/nl/adviezen/vermogensklem-bij-de-omzetting-van-een-vzw-in-een-cooperatieve-vennootschap-erkend-als
-    datum: '2021-05-07'
-  - titel: Winstverdeling binnen de NV
-    url: https://www.cbn-cnc.be/nl/adviezen/winstverdeling-binnen-de-nv
-    datum: '2021-03-09'
+- titel: Vermogensklem bij de omzetting van een VZW in een coöperatieve vennootschap
+    erkend als sociale onderneming
+  url: https://www.cbn-cnc.be/nl/adviezen/vermogensklem-bij-de-omzetting-van-een-vzw-in-een-cooperatieve-vennootschap-erkend-als-0
+  datum: '2024-01-17'
+- titel: Jaarrekeningrechtelijke analyse van de alarmbelprocedure onder het WVV
+  url: https://www.cbn-cnc.be/nl/adviezen/jaarrekeningrechtelijke-analyse-van-de-alarmbelprocedure-onder-het-wvv
+  datum: '2021-10-12'
+- titel: Vermogensklem bij de omzetting van een VZW in een coöperatieve vennootschap
+    erkend als sociale onderneming
+  url: https://www.cbn-cnc.be/nl/adviezen/vermogensklem-bij-de-omzetting-van-een-vzw-in-een-cooperatieve-vennootschap-erkend-als
+  datum: '2021-05-07'
+- titel: Winstverdeling binnen de NV
+  url: https://www.cbn-cnc.be/nl/adviezen/winstverdeling-binnen-de-nv
+  datum: '2021-03-09'
 ---
 
 # CBN-advies 2022/01 – Fusies en splitsingen van vennootschappen met een negatief nettoactief

@@ -1,33 +1,40 @@
 ---
-nummer: "CBN-advies 148/3"
+nummer: CBN-advies 148/3
 datum: 1986-01-01
 themas:
-  - kosten als gevolg van een waarborgovereenkomst
-  - toerekenen van kosten als gevolg van waarborgovereenkomst
-  - toerekening van kosten en opbrengsten
-  - voorziening
-  - waarborg
-  - waarborgovereenkomst
+- kosten als gevolg van een waarborgovereenkomst
+- toerekenen van kosten als gevolg van waarborgovereenkomst
+- toerekening van kosten en opbrengsten
+- voorziening
+- waarborg
+- waarborgovereenkomst
 bron: https://www.cbn-cnc.be/nl/adviezen/toerekenen-van-kosten-als-gevolg-van-een-waarborgovereenkomst
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/toerekenen-van-kosten-als-gevolg-van-een-waarborgovereenkomst
-      sha256: efb93cfc2a9357d8f712b25b834397f1b49619bbdae0e6ad2b41edf3342d272f
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/toerekenen-van-kosten-als-gevolg-van-een-waarborgovereenkomst
+    sha256: efb93cfc2a9357d8f712b25b834397f1b49619bbdae0e6ad2b41edf3342d272f
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T18:35:14Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T18:40:03Z'
     confirmed_by: qa-laag1-auto
     rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    layer1:
+      verdict: pass
+      heading_count: 0
+      max_section_chars: 3629
+      file_size_chars: 3629
+      flags: []
+      run_id: 20260509-212552
 ---
 
 # CBN-advies 148/3 - Toerekenen van kosten als gevolg van een waarborgovereenkomst

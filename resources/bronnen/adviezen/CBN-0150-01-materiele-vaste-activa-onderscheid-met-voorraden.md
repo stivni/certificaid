@@ -1,51 +1,58 @@
 ---
-nummer: "CBN-advies 150/1"
+nummer: CBN-advies 150/1
 datum: 1986-01-01
 themas:
-  - diensten en diverse goederen
-  - dieren
-  - investeringsaftrek
-  - materiële vaste activa
-  - ontginningsgrond
-  - reserve van te ontginnen grondstoffen
-  - reserve-onderdelen voor machines
-  - toonzaalmateriaal
-  - vaste activa
-  - vlottende activa
-  - voorraden
+- diensten en diverse goederen
+- dieren
+- investeringsaftrek
+- materiële vaste activa
+- ontginningsgrond
+- reserve van te ontginnen grondstoffen
+- reserve-onderdelen voor machines
+- toonzaalmateriaal
+- vaste activa
+- vlottende activa
+- voorraden
 bron: https://www.cbn-cnc.be/nl/adviezen/materiele-vaste-activa-onderscheid-met-voorraden
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/materiele-vaste-activa-onderscheid-met-voorraden
-      sha256: 6da50ea2d8309abf067107fdc8cb41cc0da5a41fb9ed4b4e54574eefb073a1c2
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/materiele-vaste-activa-onderscheid-met-voorraden
+    sha256: 6da50ea2d8309abf067107fdc8cb41cc0da5a41fb9ed4b4e54574eefb073a1c2
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T18:35:16Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T18:40:03Z'
     confirmed_by: qa-laag1-auto
     rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    layer1:
+      verdict: pass
+      heading_count: 4
+      max_section_chars: 7473
+      file_size_chars: 7473
+      flags: []
+      run_id: 20260509-212552
 gerelateerde_adviezen:
-  - titel: Kilometerheffing
-    url: https://www.cbn-cnc.be/nl/adviezen/kilometerheffing
-    datum: '2016-10-26'
-  - titel: Werkende vennoten
-    url: https://www.cbn-cnc.be/nl/adviezen/werkende-vennoten
-    datum: '1988-01-21'
-  - titel: Boeking van commissies
-    url: https://www.cbn-cnc.be/nl/adviezen/boeking-van-commissies
-    datum: '1988-12-01'
-  - titel: Rechten tot vertoning van films
-    url: https://www.cbn-cnc.be/nl/adviezen/rechten-tot-vertoning-van-films
-    datum: '1991-03-01'
+- titel: Kilometerheffing
+  url: https://www.cbn-cnc.be/nl/adviezen/kilometerheffing
+  datum: '2016-10-26'
+- titel: Werkende vennoten
+  url: https://www.cbn-cnc.be/nl/adviezen/werkende-vennoten
+  datum: '1988-01-21'
+- titel: Boeking van commissies
+  url: https://www.cbn-cnc.be/nl/adviezen/boeking-van-commissies
+  datum: '1988-12-01'
+- titel: Rechten tot vertoning van films
+  url: https://www.cbn-cnc.be/nl/adviezen/rechten-tot-vertoning-van-films
+  datum: '1991-03-01'
 ---
 
 # CBN-advies 150/1 - Materiële vaste activa - Onderscheid met voorraden

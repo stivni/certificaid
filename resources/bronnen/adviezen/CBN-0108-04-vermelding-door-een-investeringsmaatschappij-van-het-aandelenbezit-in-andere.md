@@ -1,43 +1,56 @@
 ---
-nummer: "CBN-advies 108/4"
+nummer: CBN-advies 108/4
 datum: 1986-01-01
 themas:
-  - afwijking
-  - investeringsmaatschappij
-  - tijdelijk minderheidsbelang
+- afwijking
+- investeringsmaatschappij
+- tijdelijk minderheidsbelang
 bron: https://www.cbn-cnc.be/nl/adviezen/vermelding-door-een-investeringsmaatschappij-van-het-aandelenbezit-in-andere
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/vermelding-door-een-investeringsmaatschappij-van-het-aandelenbezit-in-andere
-      sha256: e8e26aebdfa259af3f84e339148d5413ad6999b4ac2064923e9c9bd4cdf25c74
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/vermelding-door-een-investeringsmaatschappij-van-het-aandelenbezit-in-andere
+    sha256: e8e26aebdfa259af3f84e339148d5413ad6999b4ac2064923e9c9bd4cdf25c74
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T18:34:05Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T18:40:02Z'
     confirmed_by: qa-laag1-auto
     rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    layer1:
+      verdict: pass
+      heading_count: 0
+      max_section_chars: 2007
+      file_size_chars: 2007
+      flags: []
+      run_id: 20260509-212552
 gerelateerde_adviezen:
-  - titel: 'Belgische bijkantoren van buitenlandse verenigingen en stichtingen: toepassing van het Belgisch boekhoudrecht – begrip ‘bijkantoor’ – publicatieplicht – eigen boekhoudkundige verplichtingen'
-    url: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-buitenlandse-verenigingen-en-stichtingen-toepassing-van-het-0
-    datum: '2024-02-08'
-  - titel: 'Belgische bijkantoren van buitenlandse vennootschappen: eigen boekhoudkundige verplichtingen (update)'
-    url: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-buitenlandse-vennootschappen-eigen-boekhoudkundige
-    datum: '2022-11-08'
-  - titel: Adviesbeleid van de Commissie voor Boekhoudkundige Normen ten aanzien van vragen tot afwijking voor Belgische bijkantoren van buitenlandse vennootschappen (ONTWERP)
-    url: https://www.cbn-cnc.be/nl/adviezen/adviesbeleid-van-de-commissie-voor-boekhoudkundige-normen-ten-aanzien-van-vragen-tot
-    datum: '2019-05-14'
-  - titel: 'Belgische bijkantoren van vennootschappen naar buitenlands recht: eigen boekhoudkundige verplichtingen'
-    url: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-vennootschappen-naar-buitenlands-recht-eigen-boekhoudkundige-0
-    datum: '2019-03-26'
+- titel: 'Belgische bijkantoren van buitenlandse verenigingen en stichtingen: toepassing
+    van het Belgisch boekhoudrecht – begrip ‘bijkantoor’ – publicatieplicht – eigen
+    boekhoudkundige verplichtingen'
+  url: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-buitenlandse-verenigingen-en-stichtingen-toepassing-van-het-0
+  datum: '2024-02-08'
+- titel: 'Belgische bijkantoren van buitenlandse vennootschappen: eigen boekhoudkundige
+    verplichtingen (update)'
+  url: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-buitenlandse-vennootschappen-eigen-boekhoudkundige
+  datum: '2022-11-08'
+- titel: Adviesbeleid van de Commissie voor Boekhoudkundige Normen ten aanzien van
+    vragen tot afwijking voor Belgische bijkantoren van buitenlandse vennootschappen
+    (ONTWERP)
+  url: https://www.cbn-cnc.be/nl/adviezen/adviesbeleid-van-de-commissie-voor-boekhoudkundige-normen-ten-aanzien-van-vragen-tot
+  datum: '2019-05-14'
+- titel: 'Belgische bijkantoren van vennootschappen naar buitenlands recht: eigen
+    boekhoudkundige verplichtingen'
+  url: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-vennootschappen-naar-buitenlands-recht-eigen-boekhoudkundige-0
+  datum: '2019-03-26'
 ---
 
 # CBN-advies 108/4 - Vermelding door een investeringsmaatschappij van het aandelenbezit in andere vennootschappen

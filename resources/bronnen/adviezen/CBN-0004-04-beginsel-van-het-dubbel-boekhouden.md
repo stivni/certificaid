@@ -1,30 +1,37 @@
 ---
-nummer: "CBN-advies 4/4"
+nummer: CBN-advies 4/4
 datum: 1993-02-01
 themas:
-  - beginsel van dubbel boekhouden
-  - compensatie
-  - compensatieverbod
+- beginsel van dubbel boekhouden
+- compensatie
+- compensatieverbod
 bron: https://www.cbn-cnc.be/nl/adviezen/beginsel-van-het-dubbel-boekhouden
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/beginsel-van-het-dubbel-boekhouden
-      sha256: 189ed488644d5d8e86a771346dd9e6ec8e3c92bafe18bf3bbd7219ce8ad3f25b
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/beginsel-van-het-dubbel-boekhouden
+    sha256: 189ed488644d5d8e86a771346dd9e6ec8e3c92bafe18bf3bbd7219ce8ad3f25b
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T18:33:27Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T18:40:02Z'
     confirmed_by: qa-laag1-auto
     rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    layer1:
+      verdict: pass
+      heading_count: 0
+      max_section_chars: 2051
+      file_size_chars: 2051
+      flags: []
+      run_id: 20260509-212552
 ---
 
 # CBN-advies 4-4 - Beginsel van het dubbel boekhouden

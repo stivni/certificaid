@@ -1,43 +1,52 @@
 ---
-nummer: "CBN-advies 2017/02"
+nummer: CBN-advies 2017/02
 datum: 2017-02-01
 themas:
-  - controle
-  - gemeenschappelijke dochtervennootschap
-  - gezamenlijke controle
-  - groottecriteria
-  - verbonden vennootschap
-  - consolidatie
+- controle
+- gemeenschappelijke dochtervennootschap
+- gezamenlijke controle
+- groottecriteria
+- verbonden vennootschap
+- consolidatie
 bron: https://www.cbn-cnc.be/nl/adviezen/gezamenlijke-controle-over-een-vennootschap-groottecriteria-update
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/gezamenlijke-controle-over-een-vennootschap-groottecriteria-update
-      sha256: 23569f6d8d8f426a4e3878ef9b3499a08fea2d3154af13436086d01edb07dcb3
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/gezamenlijke-controle-over-een-vennootschap-groottecriteria-update
+    sha256: 23569f6d8d8f426a4e3878ef9b3499a08fea2d3154af13436086d01edb07dcb3
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T18:37:09Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T18:40:04Z'
     confirmed_by: qa-laag1-auto
     rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    layer1:
+      verdict: pass
+      heading_count: 4
+      max_section_chars: 5356
+      file_size_chars: 16203
+      flags: []
+      run_id: 20260509-212552
 gerelateerde_adviezen:
-  - titel: Verbonden ondernemingen
-    url: https://www.cbn-cnc.be/nl/adviezen/verbonden-ondernemingen
-    datum: '2011-10-05'
-  - titel: 'Consolidatiekring: interpretatie van de uitsluitingsgrond van artikel 107, 4° KB W.Venn.'
-    url: https://www.cbn-cnc.be/nl/adviezen/consolidatiekring-interpretatie-van-de-uitsluitingsgrond-van-artikel-107-4deg-kb-wvenn
-    datum: '2011-02-25'
-  - titel: Advies met betrekking tot de jaarrekeningrechtelijke aspecten van de certificatie van aandelen van handelsvennootschappen(1)
-    url: https://www.cbn-cnc.be/nl/adviezen/advies-met-betrekking-tot-de-jaarrekeningrechtelijke-aspecten-van-de-certificatie-van
-    datum: '2002-05-02'
+- titel: Verbonden ondernemingen
+  url: https://www.cbn-cnc.be/nl/adviezen/verbonden-ondernemingen
+  datum: '2011-10-05'
+- titel: 'Consolidatiekring: interpretatie van de uitsluitingsgrond van artikel 107,
+    4° KB W.Venn.'
+  url: https://www.cbn-cnc.be/nl/adviezen/consolidatiekring-interpretatie-van-de-uitsluitingsgrond-van-artikel-107-4deg-kb-wvenn
+  datum: '2011-02-25'
+- titel: Advies met betrekking tot de jaarrekeningrechtelijke aspecten van de certificatie
+    van aandelen van handelsvennootschappen(1)
+  url: https://www.cbn-cnc.be/nl/adviezen/advies-met-betrekking-tot-de-jaarrekeningrechtelijke-aspecten-van-de-certificatie-van
+  datum: '2002-05-02'
 ---
 
 # CBN-advies 2017/02 – Gezamenlijke controle over een vennootschap - groottecriteria (update)

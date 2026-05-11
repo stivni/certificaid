@@ -1,46 +1,55 @@
 ---
-nummer: "CBN-advies 151/1"
+nummer: CBN-advies 151/1
 datum: 1986-07-01
 themas:
-  - kapitaal
-  - kapitaalvermindering
-  - schulden
-  - terugbetaling aan vennoten
-  - vrijstelling
-  - vrijstelling van volstorting
+- kapitaal
+- kapitaalvermindering
+- schulden
+- terugbetaling aan vennoten
+- vrijstelling
+- vrijstelling van volstorting
 bron: https://www.cbn-cnc.be/nl/adviezen/kapitaalvermindering-door-terugbetaling-aan-de-vennoten-of-vrijstelling-van-volstorting
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/kapitaalvermindering-door-terugbetaling-aan-de-vennoten-of-vrijstelling-van-volstorting
-      sha256: 2c34d7979e80bfbd6561058adfafea05e047e5a8132eff5aa7e6653a664220fc
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/kapitaalvermindering-door-terugbetaling-aan-de-vennoten-of-vrijstelling-van-volstorting
+    sha256: 2c34d7979e80bfbd6561058adfafea05e047e5a8132eff5aa7e6653a664220fc
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T18:35:18Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T18:40:03Z'
     confirmed_by: qa-laag1-auto
     rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    layer1:
+      verdict: pass
+      heading_count: 2
+      max_section_chars: 3769
+      file_size_chars: 3769
+      flags: []
+      run_id: 20260509-212552
 gerelateerde_adviezen:
-  - titel: Terugbetaling van kapitaal in vreemde valuta aan de aandeelhouders
-    url: https://www.cbn-cnc.be/nl/adviezen/terugbetaling-van-kapitaal-in-vreemde-valuta-aan-de-aandeelhouders
-    datum: '2024-03-13'
-  - titel: Overgang van een kapitaalhoudende coöperatieve vennootschap naar een kapitaalloze vennootschap
-    url: https://www.cbn-cnc.be/nl/adviezen/overgang-van-een-kapitaalhoudende-cooperatieve-vennootschap-naar-een-kapitaalloze
-    datum: '2020-12-09'
-  - titel: 'Neerlegging van de enkelvoudige jaarrekening bij de Nationale Bank van België: nieuwe modellen van de jaarrekening'
-    url: https://www.cbn-cnc.be/nl/adviezen/neerlegging-van-de-enkelvoudige-jaarrekening-bij-de-nationale-bank-van-belgie-nieuwe
-    datum: '2020-01-27'
-  - titel: Van een kapitaalhoudende BVBA naar een kapitaalloze BV
-    url: https://www.cbn-cnc.be/nl/adviezen/van-een-kapitaalhoudende-bvba-naar-een-kapitaalloze-bv
-    datum: '2019-11-13'
+- titel: Terugbetaling van kapitaal in vreemde valuta aan de aandeelhouders
+  url: https://www.cbn-cnc.be/nl/adviezen/terugbetaling-van-kapitaal-in-vreemde-valuta-aan-de-aandeelhouders
+  datum: '2024-03-13'
+- titel: Overgang van een kapitaalhoudende coöperatieve vennootschap naar een kapitaalloze
+    vennootschap
+  url: https://www.cbn-cnc.be/nl/adviezen/overgang-van-een-kapitaalhoudende-cooperatieve-vennootschap-naar-een-kapitaalloze
+  datum: '2020-12-09'
+- titel: 'Neerlegging van de enkelvoudige jaarrekening bij de Nationale Bank van België:
+    nieuwe modellen van de jaarrekening'
+  url: https://www.cbn-cnc.be/nl/adviezen/neerlegging-van-de-enkelvoudige-jaarrekening-bij-de-nationale-bank-van-belgie-nieuwe
+  datum: '2020-01-27'
+- titel: Van een kapitaalhoudende BVBA naar een kapitaalloze BV
+  url: https://www.cbn-cnc.be/nl/adviezen/van-een-kapitaalhoudende-bvba-naar-een-kapitaalloze-bv
+  datum: '2019-11-13'
 ---
 
 # CBN-advies 151/1 - Kapitaalvermindering door terugbetaling aan de vennoten of vrijstelling van volstorting

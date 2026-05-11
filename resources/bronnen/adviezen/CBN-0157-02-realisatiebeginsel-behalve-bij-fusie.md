@@ -1,41 +1,50 @@
 ---
-nummer: "CBN-advies 157/2"
+nummer: CBN-advies 157/2
 datum: 1991-03-01
 themas:
-  - conventionele waarde
-  - financiële vaste activa
-  - inbreng
-  - realisatie
-  - realisatiebeginsel
-  - winstrealisatie
-  - aandelen
+- conventionele waarde
+- financiële vaste activa
+- inbreng
+- realisatie
+- realisatiebeginsel
+- winstrealisatie
+- aandelen
 bron: https://www.cbn-cnc.be/nl/adviezen/realisatiebeginsel-behalve-bij-fusie
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/realisatiebeginsel-behalve-bij-fusie
-      sha256: 0dad0668e893106bf5c90402abce3c09d65d07fca22325b2ccf1b0c140dacae1
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/realisatiebeginsel-behalve-bij-fusie
+    sha256: 0dad0668e893106bf5c90402abce3c09d65d07fca22325b2ccf1b0c140dacae1
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T18:35:27Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T19:02:30Z'
     confirmed_by: subagent-laag2-ronde2
-    rationale: '[Laag-2-R2 2026-05-08] Volledig met drie juridische/economische argumenten pro realisatie en genuanceerde behandeling gelieerde vennootschappen.'
+    rationale: '[Laag-2-R2 2026-05-08] Volledig met drie juridische/economische argumenten
+      pro realisatie en genuanceerde behandeling gelieerde vennootschappen.'
+    layer1:
+      verdict: pass
+      heading_count: 0
+      max_section_chars: 5480
+      file_size_chars: 5480
+      flags: []
+      run_id: 20260509-212552
 gerelateerde_adviezen:
-  - titel: Invloed van het buitengerechtelijk minnelijk akkoord en de gerechtelijke reorganisatie op de schulden en vorderingen (update)
-    url: https://www.cbn-cnc.be/nl/adviezen/invloed-van-het-buitengerechtelijk-minnelijk-akkoord-en-de-gerechtelijke-reorganisatie-1
-    datum: '2021-05-12'
-  - titel: Aanschaffingswaarde bij inbreng in natura
-    url: https://www.cbn-cnc.be/nl/adviezen/aanschaffingswaarde-bij-inbreng-in-natura
-    datum: '2002-05-10'
+- titel: Invloed van het buitengerechtelijk minnelijk akkoord en de gerechtelijke
+    reorganisatie op de schulden en vorderingen (update)
+  url: https://www.cbn-cnc.be/nl/adviezen/invloed-van-het-buitengerechtelijk-minnelijk-akkoord-en-de-gerechtelijke-reorganisatie-1
+  datum: '2021-05-12'
+- titel: Aanschaffingswaarde bij inbreng in natura
+  url: https://www.cbn-cnc.be/nl/adviezen/aanschaffingswaarde-bij-inbreng-in-natura
+  datum: '2002-05-10'
 ---
 
 # CBN-advies 157/2 - Realisatiebeginsel (behalve bij fusie)

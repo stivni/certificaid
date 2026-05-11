@@ -1,32 +1,39 @@
 ---
-nummer: "CBN-advies 2017/04"
+nummer: CBN-advies 2017/04
 datum: 2017-02-01
 themas:
-  - borgtochten
-  - borgtochten in contanten
-  - borgtochten in effecten
-  - waarborgen
-  - financiële vaste activa
+- borgtochten
+- borgtochten in contanten
+- borgtochten in effecten
+- waarborgen
+- financiële vaste activa
 bron: https://www.cbn-cnc.be/nl/adviezen/gegeven-borgtochten-in-contanten-en-effecten-update
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/gegeven-borgtochten-in-contanten-en-effecten-update
-      sha256: 43a9e497b9a01bd3cd9f1045f41cc40ead351e4b7b5c88168b7d0b195b380ac5
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/gegeven-borgtochten-in-contanten-en-effecten-update
+    sha256: 43a9e497b9a01bd3cd9f1045f41cc40ead351e4b7b5c88168b7d0b195b380ac5
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T18:37:10Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T18:40:04Z'
     confirmed_by: qa-laag1-auto
     rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    layer1:
+      verdict: pass
+      heading_count: 2
+      max_section_chars: 1989
+      file_size_chars: 2565
+      flags: []
+      run_id: 20260509-212552
 ---
 
 # CBN-advies 2017/04 – Gegeven borgtochten in contanten en effecten (update)

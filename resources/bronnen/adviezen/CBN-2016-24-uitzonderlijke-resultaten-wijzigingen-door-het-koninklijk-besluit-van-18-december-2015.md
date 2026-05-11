@@ -1,33 +1,40 @@
 ---
-nummer: "CBN-advies 2016/24"
+nummer: CBN-advies 2016/24
 datum: 2016-10-26
 themas:
-  - niet-recurrente kosten
-  - niet-recurrente opbrengsten
-  - niet-recurrente resultaten
-  - uitzonderlijke kosten
-  - uitzonderlijke opbrengsten
-  - uitzonderlijke resultaten
+- niet-recurrente kosten
+- niet-recurrente opbrengsten
+- niet-recurrente resultaten
+- uitzonderlijke kosten
+- uitzonderlijke opbrengsten
+- uitzonderlijke resultaten
 bron: https://www.cbn-cnc.be/nl/adviezen/uitzonderlijke-resultaten-wijzigingen-door-het-koninklijk-besluit-van-18-december-2015
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/uitzonderlijke-resultaten-wijzigingen-door-het-koninklijk-besluit-van-18-december-2015
-      sha256: 47168dbcf84b23ac15058c02ea32c39d3c630a6666dd441455dcc6fa521caf50
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/uitzonderlijke-resultaten-wijzigingen-door-het-koninklijk-besluit-van-18-december-2015
+    sha256: 47168dbcf84b23ac15058c02ea32c39d3c630a6666dd441455dcc6fa521caf50
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T18:37:06Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T18:40:04Z'
     confirmed_by: qa-laag1-auto
     rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    layer1:
+      verdict: pass
+      heading_count: 3
+      max_section_chars: 4919
+      file_size_chars: 11105
+      flags: []
+      run_id: 20260509-212552
 ---
 
 # CBN-advies 2016/24 – Uitzonderlijke resultaten: wijzigingen door het koninklijk besluit van 18 december 2015

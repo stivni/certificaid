@@ -1,33 +1,40 @@
 ---
-nummer: "CBN-advies R103"
+nummer: CBN-advies R103
 datum: 1981-04-01
 themas:
-  - gefactureerde voorschotten en vooruitbetalingen
-  - nog niet ontvangen voorschotten en vooruitbetalingen
-  - rekeningenstelsel
-  - te innen voorschotten en vooruitbetalingen
-  - voorschot
-  - Vooruitbetaling
+- gefactureerde voorschotten en vooruitbetalingen
+- nog niet ontvangen voorschotten en vooruitbetalingen
+- rekeningenstelsel
+- te innen voorschotten en vooruitbetalingen
+- voorschot
+- Vooruitbetaling
 bron: https://www.cbn-cnc.be/nl/adviezen/gefactureerde-nog-niet-ontvangen-voorschotten-en-vooruitbetalingen-rekening-46
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/gefactureerde-nog-niet-ontvangen-voorschotten-en-vooruitbetalingen-rekening-46
-      sha256: 8984215a8cc3f55508224e316bb671bdff8327f7328acd0085a73f79beae77eb
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/gefactureerde-nog-niet-ontvangen-voorschotten-en-vooruitbetalingen-rekening-46
+    sha256: 8984215a8cc3f55508224e316bb671bdff8327f7328acd0085a73f79beae77eb
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T18:33:44Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T18:40:02Z'
     confirmed_by: qa-laag1-auto
     rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    layer1:
+      verdict: pass
+      heading_count: 0
+      max_section_chars: 1219
+      file_size_chars: 1219
+      flags: []
+      run_id: 20260509-212552
 ---
 
 # CBN-advies R103 - Gefactureerde, nog niet ontvangen voorschotten en vooruitbetalingen - Rekening 46

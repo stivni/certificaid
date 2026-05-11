@@ -1,48 +1,58 @@
 ---
-nummer: "CBN-advies 2021/11"
+nummer: CBN-advies 2021/11
 datum: 2021-07-05
 themas:
-  - COVID-19
-  - tegemoetkoming
-  - bedrijfsopbrengsten
-  - bedrijfskost
-  - voorziening
-  - Waardevermindering
-  - indekkingsverrichting
-  - speculatieve verrichting
+- COVID-19
+- tegemoetkoming
+- bedrijfsopbrengsten
+- bedrijfskost
+- voorziening
+- Waardevermindering
+- indekkingsverrichting
+- speculatieve verrichting
 bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-covid-19-tegemoetkomingen-en-van-kosten-gemaakt-ten-gevolge
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-covid-19-tegemoetkomingen-en-van-kosten-gemaakt-ten-gevolge
-      sha256: 4dbc8abbe69e46fb2249e4292bfe7878344a23222a30d726f5ebd3a59a02c27d
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-covid-19-tegemoetkomingen-en-van-kosten-gemaakt-ten-gevolge
+    sha256: 4dbc8abbe69e46fb2249e4292bfe7878344a23222a30d726f5ebd3a59a02c27d
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T18:38:01Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T18:40:05Z'
     confirmed_by: qa-laag1-auto
     rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    layer1:
+      verdict: pass
+      heading_count: 8
+      max_section_chars: 5757
+      file_size_chars: 12686
+      flags: []
+      run_id: 20260509-212552
 gerelateerde_adviezen:
-  - titel: Boekhoudrechtelijke verwerking van de wederopbouwreserve
-    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudrechtelijke-verwerking-van-de-wederopbouwreserve
-    datum: '2021-07-12'
-  - titel: Boekhoudrechtelijke behandeling van kwijtschelding van huur ten gevolge van de COVID-19-pandemie
-    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudrechtelijke-behandeling-van-kwijtschelding-van-huur-ten-gevolge-van-de-covid-19
-    datum: '2021-04-06'
-  - titel: Vrijstelling ter versterking van de solvabiliteit en het eigen vermogen van de vennootschappen ten gevolge van de COVID-19-pandemie in de vennootschapsbelasting
-    url: https://www.cbn-cnc.be/nl/adviezen/vrijstelling-ter-versterking-van-de-solvabiliteit-en-het-eigen-vermogen-van-de-0
-    datum: '2020-10-08'
-  - titel: Mogelijkheid tot uitstel van de gewone algemene vergadering en van de neerlegging van de jaarrekening (vennootschappen)
-    url: https://www.cbn-cnc.be/nl/adviezen/mogelijkheid-tot-uitstel-van-de-gewone-algemene-vergadering-en-van-de-neerlegging-van-de
-    datum: '2020-07-22'
+- titel: Boekhoudrechtelijke verwerking van de wederopbouwreserve
+  url: https://www.cbn-cnc.be/nl/adviezen/boekhoudrechtelijke-verwerking-van-de-wederopbouwreserve
+  datum: '2021-07-12'
+- titel: Boekhoudrechtelijke behandeling van kwijtschelding van huur ten gevolge van
+    de COVID-19-pandemie
+  url: https://www.cbn-cnc.be/nl/adviezen/boekhoudrechtelijke-behandeling-van-kwijtschelding-van-huur-ten-gevolge-van-de-covid-19
+  datum: '2021-04-06'
+- titel: Vrijstelling ter versterking van de solvabiliteit en het eigen vermogen van
+    de vennootschappen ten gevolge van de COVID-19-pandemie in de vennootschapsbelasting
+  url: https://www.cbn-cnc.be/nl/adviezen/vrijstelling-ter-versterking-van-de-solvabiliteit-en-het-eigen-vermogen-van-de-0
+  datum: '2020-10-08'
+- titel: Mogelijkheid tot uitstel van de gewone algemene vergadering en van de neerlegging
+    van de jaarrekening (vennootschappen)
+  url: https://www.cbn-cnc.be/nl/adviezen/mogelijkheid-tot-uitstel-van-de-gewone-algemene-vergadering-en-van-de-neerlegging-van-de
+  datum: '2020-07-22'
 ---
 
 # CBN-advies 2021/11 – Boekhoudkundige verwerking van COVID-19-tegemoetkomingen en van kosten gemaakt ten gevolge van de gezondheidscrisis

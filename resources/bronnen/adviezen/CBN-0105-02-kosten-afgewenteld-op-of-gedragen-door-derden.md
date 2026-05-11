@@ -1,29 +1,36 @@
 ---
-nummer: "CBN-advies 105/2"
+nummer: CBN-advies 105/2
 datum: 1977-08-01
 themas:
-  - kosten afgewenteld op derden
-  - kosten gedragen door derden
+- kosten afgewenteld op derden
+- kosten gedragen door derden
 bron: https://www.cbn-cnc.be/nl/adviezen/kosten-afgewenteld-op-of-gedragen-door-derden
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/kosten-afgewenteld-op-of-gedragen-door-derden
-      sha256: 94b95deabd02e2a98891ef640906d58df0f6dc7e05a95bb64af51c647c39e53d
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/kosten-afgewenteld-op-of-gedragen-door-derden
+    sha256: 94b95deabd02e2a98891ef640906d58df0f6dc7e05a95bb64af51c647c39e53d
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T18:33:49Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T18:40:02Z'
     confirmed_by: qa-laag1-auto
     rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    layer1:
+      verdict: pass
+      heading_count: 0
+      max_section_chars: 1857
+      file_size_chars: 1857
+      flags: []
+      run_id: 20260509-212552
 ---
 
 # CBN-advies 105/2 - Kosten afgewenteld op of gedragen door derden

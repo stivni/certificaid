@@ -1,45 +1,52 @@
 ---
-nummer: "CBN-advies 2018/12"
+nummer: CBN-advies 2018/12
 datum: 2018-05-30
 themas:
-  - belasting
-  - uitgestelde belastingen
-  - belastinglatentie
-  - actieve belastinglatentie
-  - passieve belastinglatentie
+- belasting
+- uitgestelde belastingen
+- belastinglatentie
+- actieve belastinglatentie
+- passieve belastinglatentie
 bron: https://www.cbn-cnc.be/nl/adviezen/interpretatie-van-code-99084-in-de-toelichting-514-van-de-geconsolideerde-jaarrekening
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/interpretatie-van-code-99084-in-de-toelichting-514-van-de-geconsolideerde-jaarrekening
-      sha256: 341e869a5772c57309a88b90943ac582d84e1ff11174619f8e67928cb20a98f7
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/interpretatie-van-code-99084-in-de-toelichting-514-van-de-geconsolideerde-jaarrekening
+    sha256: 341e869a5772c57309a88b90943ac582d84e1ff11174619f8e67928cb20a98f7
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T18:37:23Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T18:40:04Z'
     confirmed_by: qa-laag1-auto
     rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    layer1:
+      verdict: pass
+      heading_count: 5
+      max_section_chars: 9157
+      file_size_chars: 13642
+      flags: []
+      run_id: 20260509-212552
 gerelateerde_adviezen:
-  - titel: Boekhoudkundige verwerking van de taks tot vergoeding der successierechten
-    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-taks-tot-vergoeding-der-successierechten
-    datum: '2024-05-22'
-  - titel: Voorzieningen
-    url: https://www.cbn-cnc.be/nl/adviezen/voorzieningen
-    datum: '2019-03-05'
-  - titel: Tax shelter voor podiumkunsten
-    url: https://www.cbn-cnc.be/nl/adviezen/tax-shelter-voor-podiumkunsten
-    datum: '2018-05-30'
-  - titel: Belastingkrediet voor kosten van onderzoek en ontwikkeling
-    url: https://www.cbn-cnc.be/nl/adviezen/belastingkrediet-voor-kosten-van-onderzoek-en-ontwikkeling
-    datum: '2018-03-21'
+- titel: Boekhoudkundige verwerking van de taks tot vergoeding der successierechten
+  url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-taks-tot-vergoeding-der-successierechten
+  datum: '2024-05-22'
+- titel: Voorzieningen
+  url: https://www.cbn-cnc.be/nl/adviezen/voorzieningen
+  datum: '2019-03-05'
+- titel: Tax shelter voor podiumkunsten
+  url: https://www.cbn-cnc.be/nl/adviezen/tax-shelter-voor-podiumkunsten
+  datum: '2018-05-30'
+- titel: Belastingkrediet voor kosten van onderzoek en ontwikkeling
+  url: https://www.cbn-cnc.be/nl/adviezen/belastingkrediet-voor-kosten-van-onderzoek-en-ontwikkeling
+  datum: '2018-03-21'
 ---
 
 # CBN-advies 2018/12 - Interpretatie van code 99084 in de toelichting 5.14 van de geconsolideerde jaarrekening

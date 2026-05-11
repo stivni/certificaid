@@ -1,30 +1,37 @@
 ---
-nummer: "CBN-advies 2011/22"
+nummer: CBN-advies 2011/22
 datum: 2011-10-05
 themas:
-  - kmo-portefeuille
-  - ondernemerschapsportefeuille
-  - subsidies
+- kmo-portefeuille
+- ondernemerschapsportefeuille
+- subsidies
 bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-door-de-vlaamse-regering-gecreeerde-kmo-portefeuille
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-door-de-vlaamse-regering-gecreeerde-kmo-portefeuille
-      sha256: 6e925ea83ee592735035416d840b6c46af53b964cc33ac88a183f6826f4242ba
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-door-de-vlaamse-regering-gecreeerde-kmo-portefeuille
+    sha256: 6e925ea83ee592735035416d840b6c46af53b964cc33ac88a183f6826f4242ba
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T18:36:18Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T18:40:04Z'
     confirmed_by: qa-laag1-auto
     rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    layer1:
+      verdict: pass
+      heading_count: 6
+      max_section_chars: 10092
+      file_size_chars: 10388
+      flags: []
+      run_id: 20260509-212552
 ---
 
 # CBN-advies 2011/22 – Boekhoudkundige verwerking van de door de Vlaamse Regering gecreëerde kmo-portefeuille

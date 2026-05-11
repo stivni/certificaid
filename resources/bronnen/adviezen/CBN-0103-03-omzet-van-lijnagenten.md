@@ -1,35 +1,42 @@
 ---
-nummer: "CBN-advies 103/3"
+nummer: CBN-advies 103/3
 datum: 1988-06-01
 themas:
-  - lijnagent
-  - omzet
-  - reder
-  - tussenpersoon
+- lijnagent
+- omzet
+- reder
+- tussenpersoon
 bron: https://www.cbn-cnc.be/nl/adviezen/omzet-van-lijnagenten
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/omzet-van-lijnagenten
-      sha256: 2648f6d828657e492f73a3dd5ae3dd9e826af14e97235075369a52161c3df90d
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/omzet-van-lijnagenten
+    sha256: 2648f6d828657e492f73a3dd5ae3dd9e826af14e97235075369a52161c3df90d
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T18:33:44Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T18:40:02Z'
     confirmed_by: qa-laag1-auto
     rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    layer1:
+      verdict: pass
+      heading_count: 0
+      max_section_chars: 1995
+      file_size_chars: 1995
+      flags: []
+      run_id: 20260509-212552
 gerelateerde_adviezen:
-  - titel: Omzet - Tussenpersonen
-    url: https://www.cbn-cnc.be/nl/adviezen/omzet-tussenpersonen
-    datum: '1977-08-01'
+- titel: Omzet - Tussenpersonen
+  url: https://www.cbn-cnc.be/nl/adviezen/omzet-tussenpersonen
+  datum: '1977-08-01'
 ---
 
 # CBN-advies 103/3 - Omzet van lijnagenten

@@ -1,35 +1,42 @@
 ---
-nummer: "CBN-advies 173/8"
+nummer: CBN-advies 173/8
 datum: 1999-02-01
 themas:
-  - verwerking van afrondingsverschillen
-  - afronding
-  - afrondingen bij conversie
-  - afrondingsverschillen bij conversie
-  - euro
-  - invoering van de euro
-  - omrekeningskoers
-  - overschakeling op de euro
+- verwerking van afrondingsverschillen
+- afronding
+- afrondingen bij conversie
+- afrondingsverschillen bij conversie
+- euro
+- invoering van de euro
+- omrekeningskoers
+- overschakeling op de euro
 bron: https://www.cbn-cnc.be/nl/adviezen/aanvullende-aspecten-in-verband-met-de-boekhoudkundige-verwerking-van
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/aanvullende-aspecten-in-verband-met-de-boekhoudkundige-verwerking-van
-      sha256: 878ca1049fadc02cc82f266a5b5ad4227e34e1134ca9e1336da3f1a305b8c127
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/aanvullende-aspecten-in-verband-met-de-boekhoudkundige-verwerking-van
+    sha256: 878ca1049fadc02cc82f266a5b5ad4227e34e1134ca9e1336da3f1a305b8c127
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T18:35:42Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T18:40:03Z'
     confirmed_by: qa-laag1-auto
     rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    layer1:
+      verdict: pass
+      heading_count: 9
+      max_section_chars: 8285
+      file_size_chars: 16258
+      flags: []
+      run_id: 20260509-212552
 ---
 
 # CBN-advies 173/8 - Aanvullende aspecten in verband met de boekhoudkundige verwerking van afrondingsverschillen bij conversie

@@ -1,45 +1,54 @@
 ---
-nummer: "CBN-advies 2011/20"
+nummer: CBN-advies 2011/20
 datum: 2011-10-05
 themas:
-  - berekening op geconsolideerde basis
-  - controle
-  - gezamenlijke controle
-  - exclusieve controle
-  - verbonden onderneming
+- berekening op geconsolideerde basis
+- controle
+- gezamenlijke controle
+- exclusieve controle
+- verbonden onderneming
 bron: https://www.cbn-cnc.be/nl/adviezen/verbonden-ondernemingen
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/verbonden-ondernemingen
-      sha256: 58b980c3a3de0f06d8dd374311a2d68742227957040e8d80495d4d538a4310a0
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/verbonden-ondernemingen
+    sha256: 58b980c3a3de0f06d8dd374311a2d68742227957040e8d80495d4d538a4310a0
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T18:36:17Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T18:40:04Z'
     confirmed_by: qa-laag1-auto
     rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    layer1:
+      verdict: pass
+      heading_count: 6
+      max_section_chars: 3216
+      file_size_chars: 5031
+      flags: []
+      run_id: 20260509-212552
 gerelateerde_adviezen:
-  - titel: Beoordeling van de groottecriteria overeenkomstig artikelen 1:24 en 1:25 van het Wetboek van vennootschappen en verenigingen
-    url: https://www.cbn-cnc.be/nl/adviezen/beoordeling-van-de-groottecriteria-overeenkomstig-artikelen-124-en-125-van-het-wetboek-van
-    datum: '2022-03-15'
-  - titel: Groottecriteria – Alternatieve berekening van de omzet op geconsolideerde of geaggregeerde basis
-    url: https://www.cbn-cnc.be/nl/adviezen/groottecriteria-alternatieve-berekening-van-de-omzet-op-geconsolideerde-of-geaggregeerde
-    datum: '2018-12-03'
-  - titel: Beoordeling groottecriteria artikelen 15 en 15/1 W.Venn.
-    url: https://www.cbn-cnc.be/nl/adviezen/beoordeling-groottecriteria-artikelen-15-en-151-wvenn
-    datum: '2016-04-13'
-  - titel: Berekening criteria artikel 15 W.Venn.
-    url: https://www.cbn-cnc.be/nl/adviezen/berekening-criteria-artikel-15-wvenn
-    datum: '2010-05-19'
+- titel: Beoordeling van de groottecriteria overeenkomstig artikelen 1:24 en 1:25
+    van het Wetboek van vennootschappen en verenigingen
+  url: https://www.cbn-cnc.be/nl/adviezen/beoordeling-van-de-groottecriteria-overeenkomstig-artikelen-124-en-125-van-het-wetboek-van
+  datum: '2022-03-15'
+- titel: Groottecriteria – Alternatieve berekening van de omzet op geconsolideerde
+    of geaggregeerde basis
+  url: https://www.cbn-cnc.be/nl/adviezen/groottecriteria-alternatieve-berekening-van-de-omzet-op-geconsolideerde-of-geaggregeerde
+  datum: '2018-12-03'
+- titel: Beoordeling groottecriteria artikelen 15 en 15/1 W.Venn.
+  url: https://www.cbn-cnc.be/nl/adviezen/beoordeling-groottecriteria-artikelen-15-en-151-wvenn
+  datum: '2016-04-13'
+- titel: Berekening criteria artikel 15 W.Venn.
+  url: https://www.cbn-cnc.be/nl/adviezen/berekening-criteria-artikel-15-wvenn
+  datum: '2010-05-19'
 ---
 
 # CBN-advies 2011/20 – Verbonden ondernemingen

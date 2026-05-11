@@ -1,30 +1,37 @@
 ---
-nummer: "CBN-advies 126/4"
+nummer: CBN-advies 126/4
 datum: 1986-01-01
 themas:
-  - fabrikaten
-  - gereed produkt
-  - vervaardigingsprijs
+- fabrikaten
+- gereed produkt
+- vervaardigingsprijs
 bron: https://www.cbn-cnc.be/nl/adviezen/vervaardigingsprijs-correctie-van-de-nederlandse-tekst-van-artikel-22-van-het-koninklijk
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/vervaardigingsprijs-correctie-van-de-nederlandse-tekst-van-artikel-22-van-het-koninklijk
-      sha256: fa9980bf60756ad14415af326b0f34768c54639aabea7f774475290d4444a570
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/vervaardigingsprijs-correctie-van-de-nederlandse-tekst-van-artikel-22-van-het-koninklijk
+    sha256: fa9980bf60756ad14415af326b0f34768c54639aabea7f774475290d4444a570
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T18:34:36Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T18:40:03Z'
     confirmed_by: qa-laag1-auto
     rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    layer1:
+      verdict: pass
+      heading_count: 0
+      max_section_chars: 2094
+      file_size_chars: 2094
+      flags: []
+      run_id: 20260509-212552
 ---
 
 # CBN-advies 126/4 - Vervaardigingsprijs : correctie van de Nederlandse tekst van artikel 22 van het Koninklijk Besluit van 8 oktober 1976

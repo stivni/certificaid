@@ -1,35 +1,45 @@
 ---
-nummer: "CBN-advies 2012/17"
+nummer: CBN-advies 2012/17
 datum: 2012-11-07
 themas:
-  - opbrengsterkenning
+- opbrengsterkenning
 bron: https://www.cbn-cnc.be/nl/adviezen/erkenning-van-opbrengsten-en-kosten
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/erkenning-van-opbrengsten-en-kosten
-      sha256: 7aa254cb895d2315323f4ef39d185018e68c7c55911c7f208030a21eb4bd0fed
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/erkenning-van-opbrengsten-en-kosten
+    sha256: 7aa254cb895d2315323f4ef39d185018e68c7c55911c7f208030a21eb4bd0fed
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T18:36:31Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T18:40:04Z'
     confirmed_by: qa-laag1-auto
     rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    layer1:
+      verdict: pass
+      heading_count: 7
+      max_section_chars: 9261
+      file_size_chars: 15746
+      flags: []
+      run_id: 20260509-212552
 gerelateerde_adviezen:
-  - titel: Boekhoudrechtelijke behandeling van kwijtschelding van huur ten gevolge van de COVID-19-pandemie
-    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudrechtelijke-behandeling-van-kwijtschelding-van-huur-ten-gevolge-van-de-covid-19
-    datum: '2021-04-06'
-  - titel: Erkenning van de opbrengsten en kosten die overeenstemmen met interesten en royalty&#039;s, evenals de toewijzing van de resultaten in de vorm van dividenden en tantièmes en de opbrengsten die overeenstemmen met dividenden en tantièmes
-    url: https://www.cbn-cnc.be/nl/adviezen/erkenning-van-de-opbrengsten-en-kosten-die-overeenstemmen-met-interesten-en-royaltys
-    datum: '2013-09-04'
+- titel: Boekhoudrechtelijke behandeling van kwijtschelding van huur ten gevolge van
+    de COVID-19-pandemie
+  url: https://www.cbn-cnc.be/nl/adviezen/boekhoudrechtelijke-behandeling-van-kwijtschelding-van-huur-ten-gevolge-van-de-covid-19
+  datum: '2021-04-06'
+- titel: Erkenning van de opbrengsten en kosten die overeenstemmen met interesten
+    en royalty&#039;s, evenals de toewijzing van de resultaten in de vorm van dividenden
+    en tantièmes en de opbrengsten die overeenstemmen met dividenden en tantièmes
+  url: https://www.cbn-cnc.be/nl/adviezen/erkenning-van-de-opbrengsten-en-kosten-die-overeenstemmen-met-interesten-en-royaltys
+  datum: '2013-09-04'
 ---
 
 # CBN-advies 2012/17 - Erkenning van opbrengsten en kosten

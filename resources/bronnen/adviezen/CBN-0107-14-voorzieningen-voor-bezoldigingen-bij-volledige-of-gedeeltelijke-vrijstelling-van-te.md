@@ -1,45 +1,55 @@
 ---
-nummer: "CBN-advies 107/14"
+nummer: CBN-advies 107/14
 datum: 1980-01-01
 themas:
-  - herstructurering
-  - voorziening
-  - Voorziening voor bezoldiging bij volledige of gedeeltelijke vrijstelling van te leveren arbeidsprestaties
-  - vrijstelling
-  - Vrijstelling van te leveren arbeidsprestaties
+- herstructurering
+- voorziening
+- Voorziening voor bezoldiging bij volledige of gedeeltelijke vrijstelling van te
+  leveren arbeidsprestaties
+- vrijstelling
+- Vrijstelling van te leveren arbeidsprestaties
 bron: https://www.cbn-cnc.be/nl/adviezen/voorzieningen-voor-bezoldigingen-bij-volledige-of-gedeeltelijke-vrijstelling-van-te
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/voorzieningen-voor-bezoldigingen-bij-volledige-of-gedeeltelijke-vrijstelling-van-te
-      sha256: 1eabea21ab422e78879e288e79149e258f9e929d26e42eb415da3c8d1786b8ed
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/voorzieningen-voor-bezoldigingen-bij-volledige-of-gedeeltelijke-vrijstelling-van-te
+    sha256: 1eabea21ab422e78879e288e79149e258f9e929d26e42eb415da3c8d1786b8ed
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T18:34:03Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T19:02:30Z'
     confirmed_by: subagent-laag2-ronde2
-    rationale: '[Laag-2-R2 2026-05-08] Volledig met nauwkeurige afbakening toepassingsgebied (enkel vaste individuele verbintenissen) en expliciete conclusie.'
+    rationale: '[Laag-2-R2 2026-05-08] Volledig met nauwkeurige afbakening toepassingsgebied
+      (enkel vaste individuele verbintenissen) en expliciete conclusie.'
+    layer1:
+      verdict: pass
+      heading_count: 0
+      max_section_chars: 5654
+      file_size_chars: 5654
+      flags: []
+      run_id: 20260509-212552
 gerelateerde_adviezen:
-  - titel: Boekhoudkundige verwerking van de overdracht van een geheel van activa en/of passiva (anders dan een inbreng van algemeenheid of van bedrijfstak) [ONTWERP]
-    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-overdracht-van-een-geheel-van-activa-enof-passiva-anders
-    datum: '2024-11-19'
-  - titel: Boekhoudkundige verwerking van fusies tussen verenigingen en stichtingen
-    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-fusies-tussen-verenigingen-en-stichtingen
-    datum: '2022-09-23'
-  - titel: Boekhoudkundige verwerking van splitsingen van vennootschappen
-    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-splitsingen-van-vennootschappen
-    datum: '2022-09-19'
-  - titel: Fusies en splitsingen van vennootschappen met een negatief nettoactief
-    url: https://www.cbn-cnc.be/nl/adviezen/fusies-en-splitsingen-van-vennootschappen-met-een-negatief-nettoactief
-    datum: '2022-02-15'
+- titel: Boekhoudkundige verwerking van de overdracht van een geheel van activa en/of
+    passiva (anders dan een inbreng van algemeenheid of van bedrijfstak) [ONTWERP]
+  url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-overdracht-van-een-geheel-van-activa-enof-passiva-anders
+  datum: '2024-11-19'
+- titel: Boekhoudkundige verwerking van fusies tussen verenigingen en stichtingen
+  url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-fusies-tussen-verenigingen-en-stichtingen
+  datum: '2022-09-23'
+- titel: Boekhoudkundige verwerking van splitsingen van vennootschappen
+  url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-splitsingen-van-vennootschappen
+  datum: '2022-09-19'
+- titel: Fusies en splitsingen van vennootschappen met een negatief nettoactief
+  url: https://www.cbn-cnc.be/nl/adviezen/fusies-en-splitsingen-van-vennootschappen-met-een-negatief-nettoactief
+  datum: '2022-02-15'
 ---
 
 # CBN-advies 107/14 - Voorzieningen voor bezoldigingen bij volledige of gedeeltelijke vrijstelling van te leveren arbeidsprestaties

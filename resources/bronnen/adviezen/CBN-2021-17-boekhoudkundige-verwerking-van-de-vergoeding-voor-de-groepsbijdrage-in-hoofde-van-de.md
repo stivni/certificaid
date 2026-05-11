@@ -1,34 +1,41 @@
 ---
-nummer: "CBN-advies 2021/17"
+nummer: CBN-advies 2021/17
 datum: 2021-12-22
 themas:
-  - groepsbijdrage
-  - belastingen
-  - fiscale consolidatie
+- groepsbijdrage
+- belastingen
+- fiscale consolidatie
 bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-vergoeding-voor-de-groepsbijdrage-in-hoofde-van-de
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-vergoeding-voor-de-groepsbijdrage-in-hoofde-van-de
-      sha256: b8c4ff7e98d3fd00c4ccc9afa7d75b8f401e8924f500d455a9633b0d6ede595b
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-vergoeding-voor-de-groepsbijdrage-in-hoofde-van-de
+    sha256: b8c4ff7e98d3fd00c4ccc9afa7d75b8f401e8924f500d455a9633b0d6ede595b
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T18:38:05Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T18:40:05Z'
     confirmed_by: qa-laag1-auto
     rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    layer1:
+      verdict: pass
+      heading_count: 7
+      max_section_chars: 1363
+      file_size_chars: 4256
+      flags: []
+      run_id: 20260509-212552
 gerelateerde_adviezen:
-  - titel: Groepsbijdrage
-    url: https://www.cbn-cnc.be/nl/adviezen/groepsbijdrage
-    datum: '2019-07-02'
+- titel: Groepsbijdrage
+  url: https://www.cbn-cnc.be/nl/adviezen/groepsbijdrage
+  datum: '2019-07-02'
 ---
 
 # CBN-advies 2021/17 – Boekhoudkundige verwerking van de vergoeding voor de groepsbijdrage in hoofde van de overdragende vennootschap bij gebrek aan Belgische belastingen op het resultaat op rekening 4500 (addendum bij advies 2019/06)

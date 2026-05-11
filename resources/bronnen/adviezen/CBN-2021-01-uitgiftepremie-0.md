@@ -1,45 +1,55 @@
 ---
-nummer: "CBN-advies 2021/01"
+nummer: CBN-advies 2021/01
 datum: 2021-01-06
 themas:
-  - uitgiftepremie
-  - beschikbare inbreng
-  - onbeschikbare inbreng
-  - reserve
-  - aanzuiveren van verliezen
+- uitgiftepremie
+- beschikbare inbreng
+- onbeschikbare inbreng
+- reserve
+- aanzuiveren van verliezen
 bron: https://www.cbn-cnc.be/nl/adviezen/uitgiftepremie-0
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/uitgiftepremie-0
-      sha256: 62cf2752f2d3c6fc437d4fd18bf5273a8fe23b7773e7571d947cf9a9065fe896
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/uitgiftepremie-0
+    sha256: 62cf2752f2d3c6fc437d4fd18bf5273a8fe23b7773e7571d947cf9a9065fe896
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T18:37:55Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T18:40:05Z'
     confirmed_by: qa-laag1-auto
     rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    layer1:
+      verdict: pass
+      heading_count: 14
+      max_section_chars: 12386
+      file_size_chars: 16165
+      flags: []
+      run_id: 20260509-212552
 gerelateerde_adviezen:
-  - titel: 'Neerlegging van de enkelvoudige jaarrekening bij de Nationale Bank van België: nieuwe modellen van de jaarrekening'
-    url: https://www.cbn-cnc.be/nl/adviezen/neerlegging-van-de-enkelvoudige-jaarrekening-bij-de-nationale-bank-van-belgie-nieuwe
-    datum: '2020-01-27'
-  - titel: De boekhoudkundige verwerking van mutaties binnen het eigen vermogen van een geassocieerde onderneming (update)
-    url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-mutaties-binnen-het-eigen-vermogen-van-een-geassocieerde
-    datum: '2014-04-02'
-  - titel: Toerekening door de aandeelhouder van een terugbetaling van kapitaal of een uitgiftepremie of van een uitkering van reserves
-    url: https://www.cbn-cnc.be/nl/adviezen/toerekening-door-de-aandeelhouder-van-een-terugbetaling-van-kapitaal-of-een-uitgiftepremie
-    datum: '1995-03-01'
-  - titel: Uitgiftepremie
-    url: https://www.cbn-cnc.be/nl/adviezen/uitgiftepremie
-    datum: '1984-01-01'
+- titel: 'Neerlegging van de enkelvoudige jaarrekening bij de Nationale Bank van België:
+    nieuwe modellen van de jaarrekening'
+  url: https://www.cbn-cnc.be/nl/adviezen/neerlegging-van-de-enkelvoudige-jaarrekening-bij-de-nationale-bank-van-belgie-nieuwe
+  datum: '2020-01-27'
+- titel: De boekhoudkundige verwerking van mutaties binnen het eigen vermogen van
+    een geassocieerde onderneming (update)
+  url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-mutaties-binnen-het-eigen-vermogen-van-een-geassocieerde
+  datum: '2014-04-02'
+- titel: Toerekening door de aandeelhouder van een terugbetaling van kapitaal of een
+    uitgiftepremie of van een uitkering van reserves
+  url: https://www.cbn-cnc.be/nl/adviezen/toerekening-door-de-aandeelhouder-van-een-terugbetaling-van-kapitaal-of-een-uitgiftepremie
+  datum: '1995-03-01'
+- titel: Uitgiftepremie
+  url: https://www.cbn-cnc.be/nl/adviezen/uitgiftepremie
+  datum: '1984-01-01'
 ---
 
 # CBN-advies 2021/01 – Uitgiftepremie

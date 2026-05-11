@@ -1,47 +1,58 @@
 ---
-nummer: "CBN-advies 2016/4"
+nummer: CBN-advies 2016/4
 datum: 2016-04-13
 themas:
-  - legaat
-  - meerjarige toekenningen
-  - schenking
-  - stichting
-  - subsidies
-  - vereniging zonder winstoogmerk
-  - vzw
+- legaat
+- meerjarige toekenningen
+- schenking
+- stichting
+- subsidies
+- vereniging zonder winstoogmerk
+- vzw
 bron: https://www.cbn-cnc.be/nl/adviezen/verenigingen-en-stichtingen-boekhoudkundige-verwerking-van-meerjarige-toekenningen-bij
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/verenigingen-en-stichtingen-boekhoudkundige-verwerking-van-meerjarige-toekenningen-bij
-      sha256: b5b6831d4910ee12494fe88b705196852c0afd9d02d642847e82d5fe4b6e5783
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/verenigingen-en-stichtingen-boekhoudkundige-verwerking-van-meerjarige-toekenningen-bij
+    sha256: b5b6831d4910ee12494fe88b705196852c0afd9d02d642847e82d5fe4b6e5783
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T18:36:54Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T18:40:04Z'
     confirmed_by: qa-laag1-auto
     rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    layer1:
+      verdict: pass
+      heading_count: 3
+      max_section_chars: 3488
+      file_size_chars: 7914
+      flags: []
+      run_id: 20260509-212552
 gerelateerde_adviezen:
-  - titel: Schenkingen en legaten voor VZW’s, IVZW’s en stichtingen die een dubbele boekhouding voeren
-    url: https://www.cbn-cnc.be/nl/adviezen/schenkingen-en-legaten-voor-vzws-ivzws-en-stichtingen-die-een-dubbele-boekhouding-voeren
-    datum: '2020-09-17'
-  - titel: Duolegaat – Vereniging en stichting
-    url: https://www.cbn-cnc.be/nl/adviezen/duolegaat-vereniging-en-stichting
-    datum: '2018-12-10'
-  - titel: Boekhoudkundige verwerking van subsidies, schenkingen en legaten in natura in de jaarrekening van begunstigde grote en zeer grote verenigingen en stichtingen
-    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-subsidies-schenkingen-en-legaten-in-natura-in-de
-    datum: '2010-11-10'
-  - titel: Boekhoudkundige verwerking van subsidies, schenkingen en legaten, toegekend in contanten, in de jaarrekening van begunstigde grote en zeer grote verenigingen en stichtingen
-    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-subsidies-schenkingen-en-legaten-toegekend-in-contanten-in
-    datum: '2010-11-10'
+- titel: Schenkingen en legaten voor VZW’s, IVZW’s en stichtingen die een dubbele
+    boekhouding voeren
+  url: https://www.cbn-cnc.be/nl/adviezen/schenkingen-en-legaten-voor-vzws-ivzws-en-stichtingen-die-een-dubbele-boekhouding-voeren
+  datum: '2020-09-17'
+- titel: Duolegaat – Vereniging en stichting
+  url: https://www.cbn-cnc.be/nl/adviezen/duolegaat-vereniging-en-stichting
+  datum: '2018-12-10'
+- titel: Boekhoudkundige verwerking van subsidies, schenkingen en legaten in natura
+    in de jaarrekening van begunstigde grote en zeer grote verenigingen en stichtingen
+  url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-subsidies-schenkingen-en-legaten-in-natura-in-de
+  datum: '2010-11-10'
+- titel: Boekhoudkundige verwerking van subsidies, schenkingen en legaten, toegekend
+    in contanten, in de jaarrekening van begunstigde grote en zeer grote verenigingen
+    en stichtingen
+  url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-subsidies-schenkingen-en-legaten-toegekend-in-contanten-in
+  datum: '2010-11-10'
 ---
 
 # CBN-advies 2016/4 - Verenigingen en stichtingen: boekhoudkundige verwerking van meerjarige toekenningen bij grote en zeer grote verenigingen en stichtingen

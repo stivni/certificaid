@@ -1,32 +1,40 @@
 ---
-nummer: "CBN-advies 12/1"
+nummer: CBN-advies 12/1
 datum: 1977-12-01
 themas:
-  - uitvoerend beslag
+- uitvoerend beslag
 bron: https://www.cbn-cnc.be/nl/adviezen/toepassingsgebied-van-de-uitvoeringsbesluiten-bedoelde-ondernemingen
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/toepassingsgebied-van-de-uitvoeringsbesluiten-bedoelde-ondernemingen
-      sha256: 851f88bac6c753745e09aeeb0d2dfef6363d5a0d13cf668f0cbfe5140d3098c9
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/toepassingsgebied-van-de-uitvoeringsbesluiten-bedoelde-ondernemingen
+    sha256: 851f88bac6c753745e09aeeb0d2dfef6363d5a0d13cf668f0cbfe5140d3098c9
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T18:33:30Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T18:40:02Z'
     confirmed_by: qa-laag1-auto
     rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    layer1:
+      verdict: pass
+      heading_count: 0
+      max_section_chars: 1708
+      file_size_chars: 1708
+      flags: []
+      run_id: 20260509-212552
 gerelateerde_adviezen:
-  - titel: De boekhoudkundige verwerking van de inbeslagname in hoofde van de beslagen schuldenaar
-    url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-inbeslagname-in-hoofde-van-de-beslagen-schuldenaar
-    datum: '2012-01-11'
+- titel: De boekhoudkundige verwerking van de inbeslagname in hoofde van de beslagen
+    schuldenaar
+  url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-inbeslagname-in-hoofde-van-de-beslagen-schuldenaar
+  datum: '2012-01-11'
 ---
 
 # CBN-advies 12-1 - Toepassingsgebied van de uitvoeringsbesluiten: bedoelde ondernemingen

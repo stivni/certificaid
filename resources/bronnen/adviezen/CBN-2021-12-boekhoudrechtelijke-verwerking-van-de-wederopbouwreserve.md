@@ -1,32 +1,39 @@
 ---
-nummer: "CBN-advies 2021/12"
+nummer: CBN-advies 2021/12
 datum: 2021-07-12
 themas:
-  - wederopbouwreserve
-  - COVID-19
-  - vrijgestelde reserves
-  - Onaantastbaarheidsvoorwaarde
-  - belastingvrije reserves
+- wederopbouwreserve
+- COVID-19
+- vrijgestelde reserves
+- Onaantastbaarheidsvoorwaarde
+- belastingvrije reserves
 bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudrechtelijke-verwerking-van-de-wederopbouwreserve
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudrechtelijke-verwerking-van-de-wederopbouwreserve
-      sha256: 3feb5c08df659031ce4ad5a7979f068cea92f3e4bb5854713c6db51fef10d85b
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudrechtelijke-verwerking-van-de-wederopbouwreserve
+    sha256: 3feb5c08df659031ce4ad5a7979f068cea92f3e4bb5854713c6db51fef10d85b
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T18:38:02Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T18:40:05Z'
     confirmed_by: qa-laag1-auto
     rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    layer1:
+      verdict: pass
+      heading_count: 6
+      max_section_chars: 6995
+      file_size_chars: 17535
+      flags: []
+      run_id: 20260509-212552
 ---
 
 # CBN-advies 2021/12 – Boekhoudrechtelijke verwerking van de wederopbouwreserve

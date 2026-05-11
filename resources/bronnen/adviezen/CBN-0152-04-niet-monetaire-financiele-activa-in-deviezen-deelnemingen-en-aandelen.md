@@ -1,54 +1,65 @@
 ---
-nummer: "CBN-advies 152/4"
+nummer: CBN-advies 152/4
 datum: 1988-12-01
 themas:
-  - deelneming
-  - deelnemingen in deviezen
-  - deviezen
-  - financiële vaste activa
-  - geldbeleggingen
-  - niet-monetaire activa
-  - Niet-monetaire financiële activa in deviezen
-  - omrekeningskoers
-  - realisatie
-  - realisatiewaarde
-  - Waardevermindering
-  - wisselverrichting
-  - aandelen
-  - aandelen in deviezen
+- deelneming
+- deelnemingen in deviezen
+- deviezen
+- financiële vaste activa
+- geldbeleggingen
+- niet-monetaire activa
+- Niet-monetaire financiële activa in deviezen
+- omrekeningskoers
+- realisatie
+- realisatiewaarde
+- Waardevermindering
+- wisselverrichting
+- aandelen
+- aandelen in deviezen
 bron: https://www.cbn-cnc.be/nl/adviezen/niet-monetaire-financiele-activa-in-deviezen-deelnemingen-en-aandelen
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/niet-monetaire-financiele-activa-in-deviezen-deelnemingen-en-aandelen
-      sha256: e1834b1a69fa11fccade18a815f1a1e41c13395bb3370341dab7d41e3cf3b025
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/niet-monetaire-financiele-activa-in-deviezen-deelnemingen-en-aandelen
+    sha256: e1834b1a69fa11fccade18a815f1a1e41c13395bb3370341dab7d41e3cf3b025
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T18:35:21Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T19:02:30Z'
     confirmed_by: subagent-laag2-ronde2
-    rationale: '[Laag-2-R2 2026-05-08] Volledig met principe BEF-aanschaffingswaarde, toets waardevermindering/herwaardering, omrekening actuele waarde.'
+    rationale: '[Laag-2-R2 2026-05-08] Volledig met principe BEF-aanschaffingswaarde,
+      toets waardevermindering/herwaardering, omrekening actuele waarde.'
+    layer1:
+      verdict: pass
+      heading_count: 0
+      max_section_chars: 6143
+      file_size_chars: 6143
+      flags: []
+      run_id: 20260509-212552
 gerelateerde_adviezen:
-  - titel: Terugbetaling van kapitaal in vreemde valuta aan de aandeelhouders
-    url: https://www.cbn-cnc.be/nl/adviezen/terugbetaling-van-kapitaal-in-vreemde-valuta-aan-de-aandeelhouders
-    datum: '2024-03-13'
-  - titel: Advies met betrekking tot de jaarrekeningrechtelijke aspecten van de certificatie van aandelen van handelsvennootschappen(1)
-    url: https://www.cbn-cnc.be/nl/adviezen/advies-met-betrekking-tot-de-jaarrekeningrechtelijke-aspecten-van-de-certificatie-van
-    datum: '2002-05-02'
-  - titel: Boekhoudkundige verwerking van deelnemingen in vennootschappen naar buitenlands recht, die niet alle kenmerken van de rechtspersoonlijkheid hebben
-    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-deelnemingen-in-vennootschappen-naar-buitenlands-recht-die
-    datum: '1993-12-01'
-  - titel: Boekhoudkundige verwerking van dekkingsverrichtingen en gedekte posities in aandelen
-    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-dekkingsverrichtingen-en-gedekte-posities-in-aandelen
-    datum: '1992-11-01'
+- titel: Terugbetaling van kapitaal in vreemde valuta aan de aandeelhouders
+  url: https://www.cbn-cnc.be/nl/adviezen/terugbetaling-van-kapitaal-in-vreemde-valuta-aan-de-aandeelhouders
+  datum: '2024-03-13'
+- titel: Advies met betrekking tot de jaarrekeningrechtelijke aspecten van de certificatie
+    van aandelen van handelsvennootschappen(1)
+  url: https://www.cbn-cnc.be/nl/adviezen/advies-met-betrekking-tot-de-jaarrekeningrechtelijke-aspecten-van-de-certificatie-van
+  datum: '2002-05-02'
+- titel: Boekhoudkundige verwerking van deelnemingen in vennootschappen naar buitenlands
+    recht, die niet alle kenmerken van de rechtspersoonlijkheid hebben
+  url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-deelnemingen-in-vennootschappen-naar-buitenlands-recht-die
+  datum: '1993-12-01'
+- titel: Boekhoudkundige verwerking van dekkingsverrichtingen en gedekte posities
+    in aandelen
+  url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-dekkingsverrichtingen-en-gedekte-posities-in-aandelen
+  datum: '1992-11-01'
 ---
 
 # CBN-advies 152/4 - Niet-monetaire financiële activa in deviezen (deelnemingen en aandelen)

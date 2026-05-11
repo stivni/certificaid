@@ -1,32 +1,39 @@
 ---
-nummer: "CBN-advies 132/6"
+nummer: CBN-advies 132/6
 datum: 1993-12-01
 themas:
-  - gefactureerde vooruitbetalingen
-  - voorraden
-  - Vooruitbetaling
-  - waardering
-  - waardering van voorraden
+- gefactureerde vooruitbetalingen
+- voorraden
+- Vooruitbetaling
+- waardering
+- waardering van voorraden
 bron: https://www.cbn-cnc.be/nl/adviezen/vooruitbetalingen
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/vooruitbetalingen
-      sha256: f39529e8410b2cd371795a771f1e28a0d40fdd73287e098c06b0fef08e3a1f37
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/vooruitbetalingen
+    sha256: f39529e8410b2cd371795a771f1e28a0d40fdd73287e098c06b0fef08e3a1f37
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T18:34:52Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T18:40:03Z'
     confirmed_by: qa-laag1-auto
     rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    layer1:
+      verdict: pass
+      heading_count: 0
+      max_section_chars: 3513
+      file_size_chars: 3513
+      flags: []
+      run_id: 20260509-212552
 ---
 
 # CBN-advies 132/6 - Vooruitbetalingen

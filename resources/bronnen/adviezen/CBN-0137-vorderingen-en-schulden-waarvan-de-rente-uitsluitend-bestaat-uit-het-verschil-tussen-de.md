@@ -1,42 +1,51 @@
 ---
-nummer: "CBN-advies 137/5"
+nummer: CBN-advies 137/5
 datum: 1986-09-01
 themas:
-  - nominale waarde
-  - vordering
+- nominale waarde
+- vordering
 bron: https://www.cbn-cnc.be/nl/adviezen/vorderingen-en-schulden-waarvan-de-rente-uitsluitend-bestaat-uit-het-verschil-tussen-de
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/vorderingen-en-schulden-waarvan-de-rente-uitsluitend-bestaat-uit-het-verschil-tussen-de
-      sha256: 9bc74326dd3c0b83505ac7e0ed2677f8405c30dc5d4a5da2356828a4245f91f0
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/vorderingen-en-schulden-waarvan-de-rente-uitsluitend-bestaat-uit-het-verschil-tussen-de
+    sha256: 9bc74326dd3c0b83505ac7e0ed2677f8405c30dc5d4a5da2356828a4245f91f0
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T18:35:02Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T18:40:03Z'
     confirmed_by: qa-laag1-auto
     rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    layer1:
+      verdict: pass
+      heading_count: 0
+      max_section_chars: 3878
+      file_size_chars: 3878
+      flags: []
+      run_id: 20260509-212552
 gerelateerde_adviezen:
-  - titel: Boekhoudkundige verwerking van fusies tussen vennootschappen
-    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-fusies-tussen-vennootschappen
-    datum: '2021-07-02'
-  - titel: 'Schulden en vorderingen: gevolgen van de wijzigingen aan artikel 67 KB W.Venn. door het koninklijk besluit van 18 december 2015'
-    url: https://www.cbn-cnc.be/nl/adviezen/schulden-en-vorderingen-gevolgen-van-de-wijzigingen-aan-artikel-67-kb-wvenn-door-het
-    datum: '2016-07-06'
-  - titel: De boekhoudkundige verwerking van fusies
-    url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-fusies
-    datum: '2009-04-01'
-  - titel: Schulden op meer dan één jaar waarvoor geen of slechts een abnormaal lage rente verschuldigd is - Fiscale impact
-    url: https://www.cbn-cnc.be/nl/adviezen/schulden-op-meer-dan-een-jaar-waarvoor-geen-of-slechts-een-abnormaal-lage-rente
-    datum: '1988-12-01'
+- titel: Boekhoudkundige verwerking van fusies tussen vennootschappen
+  url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-fusies-tussen-vennootschappen
+  datum: '2021-07-02'
+- titel: 'Schulden en vorderingen: gevolgen van de wijzigingen aan artikel 67 KB W.Venn.
+    door het koninklijk besluit van 18 december 2015'
+  url: https://www.cbn-cnc.be/nl/adviezen/schulden-en-vorderingen-gevolgen-van-de-wijzigingen-aan-artikel-67-kb-wvenn-door-het
+  datum: '2016-07-06'
+- titel: De boekhoudkundige verwerking van fusies
+  url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-fusies
+  datum: '2009-04-01'
+- titel: Schulden op meer dan één jaar waarvoor geen of slechts een abnormaal lage
+    rente verschuldigd is - Fiscale impact
+  url: https://www.cbn-cnc.be/nl/adviezen/schulden-op-meer-dan-een-jaar-waarvoor-geen-of-slechts-een-abnormaal-lage-rente
+  datum: '1988-12-01'
 ---
 
 # CBN advies 137/5 - Vorderingen (en schulden) waarvan de rente uitsluitend bestaat uit het verschil tussen de nominale waarde (of terugbetalingsprijs) en de uitgifteprijs

@@ -1,39 +1,47 @@
 ---
-nummer: "CBN-advies 159/1"
+nummer: CBN-advies 159/1
 datum: 1988-12-01
 themas:
-  - abnormaal lage rente
-  - geen rente verschuldigd
-  - nominale waarde
-  - renteloze of abnormaal laag rentende schulden
-  - renteloze schulden
-  - schulden
-  - schulden met een abnormaal lage rente
-  - schulden op meer dan één jaar
+- abnormaal lage rente
+- geen rente verschuldigd
+- nominale waarde
+- renteloze of abnormaal laag rentende schulden
+- renteloze schulden
+- schulden
+- schulden met een abnormaal lage rente
+- schulden op meer dan één jaar
 bron: https://www.cbn-cnc.be/nl/adviezen/schulden-op-meer-dan-een-jaar-waarvoor-geen-of-slechts-een-abnormaal-lage-rente
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/schulden-op-meer-dan-een-jaar-waarvoor-geen-of-slechts-een-abnormaal-lage-rente
-      sha256: d4afec32799a95bf94f4a6b3d109271f899c33a7cb9a0e57737ab0f3f7044673
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/schulden-op-meer-dan-een-jaar-waarvoor-geen-of-slechts-een-abnormaal-lage-rente
+    sha256: d4afec32799a95bf94f4a6b3d109271f899c33a7cb9a0e57737ab0f3f7044673
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T18:35:28Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T18:40:03Z'
     confirmed_by: qa-laag1-auto
     rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    layer1:
+      verdict: pass
+      heading_count: 0
+      max_section_chars: 4424
+      file_size_chars: 4424
+      flags: []
+      run_id: 20260509-212552
 gerelateerde_adviezen:
-  - titel: Aanschaffingswaarde bij de aankoop van een goed tegen betaling van een vaste prijs, verschuldigd over een periode van meer dan één jaar
-    url: https://www.cbn-cnc.be/nl/adviezen/aanschaffingswaarde-bij-de-aankoop-van-een-goed-tegen-betaling-van-een-vaste-prijs-0
-    datum: '2021-03-15'
+- titel: Aanschaffingswaarde bij de aankoop van een goed tegen betaling van een vaste
+    prijs, verschuldigd over een periode van meer dan één jaar
+  url: https://www.cbn-cnc.be/nl/adviezen/aanschaffingswaarde-bij-de-aankoop-van-een-goed-tegen-betaling-van-een-vaste-prijs-0
+  datum: '2021-03-15'
 ---
 
 # CBN-advies 159/1 - Schulden op meer dan één jaar waarvoor geen of slechts een abnormaal lage rente verschuldigd is - Fiscale impact

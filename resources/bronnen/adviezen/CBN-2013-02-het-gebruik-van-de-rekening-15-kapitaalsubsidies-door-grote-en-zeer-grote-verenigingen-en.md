@@ -1,41 +1,50 @@
 ---
-nummer: "CBN-advies 2013/2"
+nummer: CBN-advies 2013/2
 datum: 2013-02-20
 themas:
-  - kapitaalsubsidie
+- kapitaalsubsidie
 bron: https://www.cbn-cnc.be/nl/adviezen/het-gebruik-van-de-rekening-15-kapitaalsubsidies-door-grote-en-zeer-grote-verenigingen-en
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/het-gebruik-van-de-rekening-15-kapitaalsubsidies-door-grote-en-zeer-grote-verenigingen-en
-      sha256: fc1c5e4c4def5750d73db528721f40d665cb8d84abd956ac123dcc6b75452629
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/het-gebruik-van-de-rekening-15-kapitaalsubsidies-door-grote-en-zeer-grote-verenigingen-en
+    sha256: fc1c5e4c4def5750d73db528721f40d665cb8d84abd956ac123dcc6b75452629
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T18:36:35Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T18:40:04Z'
     confirmed_by: qa-laag1-auto
     rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    layer1:
+      verdict: pass
+      heading_count: 2
+      max_section_chars: 4029
+      file_size_chars: 6858
+      flags: []
+      run_id: 20260509-212552
 gerelateerde_adviezen:
-  - titel: Boekhoudkundige verwerking van splitsingen van vennootschappen
-    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-splitsingen-van-vennootschappen
-    datum: '2022-09-19'
-  - titel: Boekhoudkundige verwerking van fusies tussen vennootschappen
-    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-fusies-tussen-vennootschappen
-    datum: '2021-07-02'
-  - titel: Schenkingen en legaten voor VZW’s, IVZW’s en stichtingen die een dubbele boekhouding voeren
-    url: https://www.cbn-cnc.be/nl/adviezen/schenkingen-en-legaten-voor-vzws-ivzws-en-stichtingen-die-een-dubbele-boekhouding-voeren
-    datum: '2020-09-17'
-  - titel: 'Ziekenhuisfinanciering: de boekhoudkundige verwerking van het instandhoudingsforfait en het strategisch forfait'
-    url: https://www.cbn-cnc.be/nl/adviezen/ziekenhuisfinanciering-de-boekhoudkundige-verwerking-van-het-instandhoudingsforfait-en-0
-    datum: '2019-03-29'
+- titel: Boekhoudkundige verwerking van splitsingen van vennootschappen
+  url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-splitsingen-van-vennootschappen
+  datum: '2022-09-19'
+- titel: Boekhoudkundige verwerking van fusies tussen vennootschappen
+  url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-fusies-tussen-vennootschappen
+  datum: '2021-07-02'
+- titel: Schenkingen en legaten voor VZW’s, IVZW’s en stichtingen die een dubbele
+    boekhouding voeren
+  url: https://www.cbn-cnc.be/nl/adviezen/schenkingen-en-legaten-voor-vzws-ivzws-en-stichtingen-die-een-dubbele-boekhouding-voeren
+  datum: '2020-09-17'
+- titel: 'Ziekenhuisfinanciering: de boekhoudkundige verwerking van het instandhoudingsforfait
+    en het strategisch forfait'
+  url: https://www.cbn-cnc.be/nl/adviezen/ziekenhuisfinanciering-de-boekhoudkundige-verwerking-van-het-instandhoudingsforfait-en-0
+  datum: '2019-03-29'
 ---
 
 # CBN-advies 2013/2 – Het gebruik van de rekening 15 Kapitaalsubsidies door grote en zeer grote verenigingen en stichtingen

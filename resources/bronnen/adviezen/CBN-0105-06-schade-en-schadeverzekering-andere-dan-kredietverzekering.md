@@ -1,30 +1,37 @@
 ---
-nummer: "CBN-advies 105/6"
+nummer: CBN-advies 105/6
 datum: 1978-07-03
 themas:
-  - schade
-  - schadeverzekering
-  - compensatie
+- schade
+- schadeverzekering
+- compensatie
 bron: https://www.cbn-cnc.be/nl/adviezen/schade-en-schadeverzekering-andere-dan-kredietverzekering
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/schade-en-schadeverzekering-andere-dan-kredietverzekering
-      sha256: cb2e6eb082f7814be3e4ca194a7922d183fcb2f83c1eb63d891641d6de97daf6
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/schade-en-schadeverzekering-andere-dan-kredietverzekering
+    sha256: cb2e6eb082f7814be3e4ca194a7922d183fcb2f83c1eb63d891641d6de97daf6
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T18:33:51Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T18:40:02Z'
     confirmed_by: qa-laag1-auto
     rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    layer1:
+      verdict: pass
+      heading_count: 0
+      max_section_chars: 1970
+      file_size_chars: 1970
+      flags: []
+      run_id: 20260509-212552
 ---
 
 # CBN-advies 105/6 - Schade en schadeverzekering (andere dan kredietverzekering)

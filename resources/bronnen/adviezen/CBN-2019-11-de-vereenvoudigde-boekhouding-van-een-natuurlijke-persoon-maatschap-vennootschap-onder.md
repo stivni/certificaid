@@ -1,54 +1,65 @@
 ---
-nummer: "CBN-advies 2019/11"
+nummer: CBN-advies 2019/11
 datum: 2019-10-28
 themas:
-  - vereenvoudigde boekhouding
-  - omzet
-  - natuurlijke persoon
-  - maatschap
-  - vennootschap onder firma
-  - commanditaire vennootschap
-  - groottecriteria
-  - boekhoudplichtige onderneming
-  - vorm van de jaarrekening
-  - neerlegging van de jaarrekening
-  - publicatie van de jaarrekening
-  - VOF
-  - CommV
-  - niet-recurrente ontvangsten
+- vereenvoudigde boekhouding
+- omzet
+- natuurlijke persoon
+- maatschap
+- vennootschap onder firma
+- commanditaire vennootschap
+- groottecriteria
+- boekhoudplichtige onderneming
+- vorm van de jaarrekening
+- neerlegging van de jaarrekening
+- publicatie van de jaarrekening
+- VOF
+- CommV
+- niet-recurrente ontvangsten
 bron: https://www.cbn-cnc.be/nl/adviezen/de-vereenvoudigde-boekhouding-van-een-natuurlijke-persoon-maatschap-vennootschap-onder
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/de-vereenvoudigde-boekhouding-van-een-natuurlijke-persoon-maatschap-vennootschap-onder
-      sha256: 3c04ef6d99ed0ab7b0f356366bbe3e31bd0434fcdcddeef4b7e86c115df5f0cc
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/de-vereenvoudigde-boekhouding-van-een-natuurlijke-persoon-maatschap-vennootschap-onder
+    sha256: 3c04ef6d99ed0ab7b0f356366bbe3e31bd0434fcdcddeef4b7e86c115df5f0cc
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T18:37:42Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T18:40:05Z'
     confirmed_by: qa-laag1-auto
     rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    layer1:
+      verdict: pass
+      heading_count: 14
+      max_section_chars: 5691
+      file_size_chars: 13808
+      flags: []
+      run_id: 20260509-212552
 gerelateerde_adviezen:
-  - titel: Verenigingen en stichtingen – Vereenvoudigde boekhouding - Waarderingsregels
-    url: https://www.cbn-cnc.be/nl/adviezen/verenigingen-en-stichtingen-vereenvoudigde-boekhouding-waarderingsregels
-    datum: '2020-04-30'
-  - titel: Groottecriteria verenigingen en stichtingen - schema van de jaarrekening - begroting
-    url: https://www.cbn-cnc.be/nl/adviezen/groottecriteria-verenigingen-en-stichtingen-schema-van-de-jaarrekening-begroting
-    datum: '2019-11-06'
-  - titel: De boekhoudkundige en jaarrekeningrechtelijke verplichtingen van een beoefenaar van een vrij beroep
-    url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-en-jaarrekeningrechtelijke-verplichtingen-van-een-beoefenaar-van-een-0
-    datum: '2019-09-30'
-  - titel: Model van ongesplitst dagboek zoals bedoeld in artikel 2 van het koninklijk besluit van 26 juni 2003 betreffende de vereenvoudigde boekhouding van bepaalde VZW’s, stichtingen en IVZW’s
-    url: https://www.cbn-cnc.be/nl/adviezen/model-van-ongesplitst-dagboek-zoals-bedoeld-in-artikel-2-van-het-koninklijk-besluit-van-26
-    datum: '2009-02-11'
+- titel: Verenigingen en stichtingen – Vereenvoudigde boekhouding - Waarderingsregels
+  url: https://www.cbn-cnc.be/nl/adviezen/verenigingen-en-stichtingen-vereenvoudigde-boekhouding-waarderingsregels
+  datum: '2020-04-30'
+- titel: Groottecriteria verenigingen en stichtingen - schema van de jaarrekening
+    - begroting
+  url: https://www.cbn-cnc.be/nl/adviezen/groottecriteria-verenigingen-en-stichtingen-schema-van-de-jaarrekening-begroting
+  datum: '2019-11-06'
+- titel: De boekhoudkundige en jaarrekeningrechtelijke verplichtingen van een beoefenaar
+    van een vrij beroep
+  url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-en-jaarrekeningrechtelijke-verplichtingen-van-een-beoefenaar-van-een-0
+  datum: '2019-09-30'
+- titel: Model van ongesplitst dagboek zoals bedoeld in artikel 2 van het koninklijk
+    besluit van 26 juni 2003 betreffende de vereenvoudigde boekhouding van bepaalde
+    VZW’s, stichtingen en IVZW’s
+  url: https://www.cbn-cnc.be/nl/adviezen/model-van-ongesplitst-dagboek-zoals-bedoeld-in-artikel-2-van-het-koninklijk-besluit-van-26
+  datum: '2009-02-11'
 ---
 
 # CBN-advies 2019/11 – De vereenvoudigde boekhouding van een natuurlijke persoon, maatschap, vennootschap onder firma en commanditaire vennootschap: groottecriteria – omzetdefinitie

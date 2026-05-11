@@ -1,36 +1,43 @@
 ---
-nummer: "CBN-advies 173/6"
+nummer: CBN-advies 173/6
 datum: 1998-02-01
 themas:
-  - verrekening van vorderingen en schulden
-  - vordering
-  - vorderingen die oorspronkelijk zijnuitgedrukt in munten die overgaan in de euro
-  - erfpa
-  - omrekeningskoers
-  - overschakeling op de euro
-  - schulden
-  - schulden die oorspronkelijk zijn uitgedrukt in munten die overgaan in de euro
-  - schuldvergelijking
+- verrekening van vorderingen en schulden
+- vordering
+- vorderingen die oorspronkelijk zijnuitgedrukt in munten die overgaan in de euro
+- erfpa
+- omrekeningskoers
+- overschakeling op de euro
+- schulden
+- schulden die oorspronkelijk zijn uitgedrukt in munten die overgaan in de euro
+- schuldvergelijking
 bron: https://www.cbn-cnc.be/nl/adviezen/verrekening-van-vorderingen-en-schulden-die-oorspronkelijk-zijn-uitgedrukt-in-munten-die
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/verrekening-van-vorderingen-en-schulden-die-oorspronkelijk-zijn-uitgedrukt-in-munten-die
-      sha256: c41f6a3cb0ae587f1e4b5b000235dc2a3bbe9337683fe765717feeee60ab3365
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/verrekening-van-vorderingen-en-schulden-die-oorspronkelijk-zijn-uitgedrukt-in-munten-die
+    sha256: c41f6a3cb0ae587f1e4b5b000235dc2a3bbe9337683fe765717feeee60ab3365
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T18:35:41Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T18:40:03Z'
     confirmed_by: qa-laag1-auto
     rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    layer1:
+      verdict: pass
+      heading_count: 3
+      max_section_chars: 3425
+      file_size_chars: 7819
+      flags: []
+      run_id: 20260509-212552
 ---
 
 # CBN-advies 173/6 - Verrekening van vorderingen en schulden die oorspronkelijk zijn uitgedrukt in munten die overgaan in de euro

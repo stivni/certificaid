@@ -1,29 +1,36 @@
 ---
-nummer: "CBN-advies 107/5"
+nummer: CBN-advies 107/5
 datum: 1983-04-01
 themas:
-  - devaluatie van de Belgische frank
-  - voorziening
+- devaluatie van de Belgische frank
+- voorziening
 bron: https://www.cbn-cnc.be/nl/adviezen/devaluatie-van-de-belgische-frank
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/devaluatie-van-de-belgische-frank
-      sha256: e970a3e2c22eadc34e305d927322d901fcaa773d3ca74a0b17e7cd45ca052914
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/devaluatie-van-de-belgische-frank
+    sha256: e970a3e2c22eadc34e305d927322d901fcaa773d3ca74a0b17e7cd45ca052914
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T18:33:57Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T18:40:02Z'
     confirmed_by: qa-laag1-auto
     rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    layer1:
+      verdict: pass
+      heading_count: 0
+      max_section_chars: 2087
+      file_size_chars: 2087
+      flags: []
+      run_id: 20260509-212552
 ---
 
 # CBN-advies 107/5 - Devaluatie van de Belgische frank

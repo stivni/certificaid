@@ -1,30 +1,37 @@
 ---
-nummer: "CBN-advies 2012/10"
+nummer: CBN-advies 2012/10
 datum: 2012-07-04
 themas:
-  - te verwaarlozen betekenis
-  - vrijstelling
-  - geconsolideerde jaarrekening
+- te verwaarlozen betekenis
+- vrijstelling
+- geconsolideerde jaarrekening
 bron: https://www.cbn-cnc.be/nl/adviezen/te-verwaarlozen-betekenis
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/te-verwaarlozen-betekenis
-      sha256: 6b99fb366e6ded06b001c98cccac8e5f1d7de48d1cd863427e16c406d60f1cf2
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/te-verwaarlozen-betekenis
+    sha256: 6b99fb366e6ded06b001c98cccac8e5f1d7de48d1cd863427e16c406d60f1cf2
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T18:36:28Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T18:40:04Z'
     confirmed_by: qa-laag1-auto
     rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    layer1:
+      verdict: pass
+      heading_count: 6
+      max_section_chars: 3284
+      file_size_chars: 11956
+      flags: []
+      run_id: 20260509-212552
 ---
 
 # CBN-advies 2012/10 - Te verwaarlozen betekenis

@@ -1,50 +1,57 @@
 ---
-nummer: "CBN-advies R101/2"
+nummer: CBN-advies R101/2
 datum: 1983-04-01
 themas:
-  - aandelen
-  - aandelen als waarborg
-  - commissaris
-  - mandaat als bestuurder
-  - niet in de balans opgenomen rechten en verplichtingen
-  - rekeningenstelsel
-  - toelichting
-  - waarborg
-  - waarborg mandaat
-  - zakelijke waarborgen
+- aandelen
+- aandelen als waarborg
+- commissaris
+- mandaat als bestuurder
+- niet in de balans opgenomen rechten en verplichtingen
+- rekeningenstelsel
+- toelichting
+- waarborg
+- waarborg mandaat
+- zakelijke waarborgen
 bron: https://www.cbn-cnc.be/nl/adviezen/aandelen-als-waarborg-van-de-goede-uitoefening-van-een-mandaat-als-bestuurder-of
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/aandelen-als-waarborg-van-de-goede-uitoefening-van-een-mandaat-als-bestuurder-of
-      sha256: 82499d4e226562797918723736f421a434da2972162112b32af06adb83251f86
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/aandelen-als-waarborg-van-de-goede-uitoefening-van-een-mandaat-als-bestuurder-of
+    sha256: 82499d4e226562797918723736f421a434da2972162112b32af06adb83251f86
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T18:33:39Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T18:40:02Z'
     confirmed_by: qa-laag1-auto
     rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    layer1:
+      verdict: pass
+      heading_count: 0
+      max_section_chars: 1429
+      file_size_chars: 1429
+      flags: []
+      run_id: 20260509-212552
 gerelateerde_adviezen:
-  - titel: Terugbetaling van kapitaal in vreemde valuta aan de aandeelhouders
-    url: https://www.cbn-cnc.be/nl/adviezen/terugbetaling-van-kapitaal-in-vreemde-valuta-aan-de-aandeelhouders
-    datum: '2024-03-13'
-  - titel: Dividenduitkering en kapitaalvermindering in natura
-    url: https://www.cbn-cnc.be/nl/adviezen/dividenduitkering-en-kapitaalvermindering-in-natura-0
-    datum: '2019-03-12'
-  - titel: 'Verenigingen en stichtingen: certificatie van aandelen van handelsvennootschappen'
-    url: https://www.cbn-cnc.be/nl/adviezen/verenigingen-en-stichtingen-certificatie-van-aandelen-van-handelsvennootschappen
-    datum: '2016-09-07'
-  - titel: Verrichtingen met betrekking tot inschrijvingsrechten
-    url: https://www.cbn-cnc.be/nl/adviezen/verrichtingen-met-betrekking-tot-inschrijvingsrechten
-    datum: '2016-03-09'
+- titel: Terugbetaling van kapitaal in vreemde valuta aan de aandeelhouders
+  url: https://www.cbn-cnc.be/nl/adviezen/terugbetaling-van-kapitaal-in-vreemde-valuta-aan-de-aandeelhouders
+  datum: '2024-03-13'
+- titel: Dividenduitkering en kapitaalvermindering in natura
+  url: https://www.cbn-cnc.be/nl/adviezen/dividenduitkering-en-kapitaalvermindering-in-natura-0
+  datum: '2019-03-12'
+- titel: 'Verenigingen en stichtingen: certificatie van aandelen van handelsvennootschappen'
+  url: https://www.cbn-cnc.be/nl/adviezen/verenigingen-en-stichtingen-certificatie-van-aandelen-van-handelsvennootschappen
+  datum: '2016-09-07'
+- titel: Verrichtingen met betrekking tot inschrijvingsrechten
+  url: https://www.cbn-cnc.be/nl/adviezen/verrichtingen-met-betrekking-tot-inschrijvingsrechten
+  datum: '2016-03-09'
 ---
 
 # CBN-advies R101/2 - Aandelen als waarborg van de goede uitoefening van een mandaat als bestuurder of commissaris

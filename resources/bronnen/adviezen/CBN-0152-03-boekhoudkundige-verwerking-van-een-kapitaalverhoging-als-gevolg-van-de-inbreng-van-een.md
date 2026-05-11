@@ -1,46 +1,54 @@
 ---
-nummer: "CBN-advies 152/3"
+nummer: CBN-advies 152/3
 datum: 1988-12-01
 themas:
-  - deviezen
-  - inbreng
-  - inbreng van een schuldvordering uitgedrukt in vreemde valuta
-  - kapitaalverhoging
-  - omrekeningskoers
-  - wisselverrichting
+- deviezen
+- inbreng
+- inbreng van een schuldvordering uitgedrukt in vreemde valuta
+- kapitaalverhoging
+- omrekeningskoers
+- wisselverrichting
 bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-een-kapitaalverhoging-als-gevolg-van-de-inbreng-van-een
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-een-kapitaalverhoging-als-gevolg-van-de-inbreng-van-een
-      sha256: b33bd9c7898649e8a60fe8ed7105489c54bf26d8cdf67647953b7678fc311985
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-een-kapitaalverhoging-als-gevolg-van-de-inbreng-van-een
+    sha256: b33bd9c7898649e8a60fe8ed7105489c54bf26d8cdf67647953b7678fc311985
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T18:35:20Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T18:40:03Z'
     confirmed_by: qa-laag1-auto
     rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    layer1:
+      verdict: pass
+      heading_count: 0
+      max_section_chars: 1237
+      file_size_chars: 1237
+      flags: []
+      run_id: 20260509-212552
 gerelateerde_adviezen:
-  - titel: Terugbetaling van kapitaal in vreemde valuta aan de aandeelhouders
-    url: https://www.cbn-cnc.be/nl/adviezen/terugbetaling-van-kapitaal-in-vreemde-valuta-aan-de-aandeelhouders
-    datum: '2024-03-13'
-  - titel: Risico&#039;s verbonden aan bestellingen van vaste activa
-    url: https://www.cbn-cnc.be/nl/adviezen/risicos-verbonden-aan-bestellingen-van-vaste-activa
-    datum: '1993-02-01'
-  - titel: Niet-monetaire financiële activa in deviezen (deelnemingen en aandelen)
-    url: https://www.cbn-cnc.be/nl/adviezen/niet-monetaire-financiele-activa-in-deviezen-deelnemingen-en-aandelen
-    datum: '1988-12-01'
-  - titel: Boekhoudkundige verwerking van een kapitaalverhoging als gevolg van de conversie in aandelen van obligaties uitgedrukt in Ecu of in andere vreemde valuta
-    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-een-kapitaalverhoging-als-gevolg-van-de-conversie-in
-    datum: '1988-12-01'
+- titel: Terugbetaling van kapitaal in vreemde valuta aan de aandeelhouders
+  url: https://www.cbn-cnc.be/nl/adviezen/terugbetaling-van-kapitaal-in-vreemde-valuta-aan-de-aandeelhouders
+  datum: '2024-03-13'
+- titel: Risico&#039;s verbonden aan bestellingen van vaste activa
+  url: https://www.cbn-cnc.be/nl/adviezen/risicos-verbonden-aan-bestellingen-van-vaste-activa
+  datum: '1993-02-01'
+- titel: Niet-monetaire financiële activa in deviezen (deelnemingen en aandelen)
+  url: https://www.cbn-cnc.be/nl/adviezen/niet-monetaire-financiele-activa-in-deviezen-deelnemingen-en-aandelen
+  datum: '1988-12-01'
+- titel: Boekhoudkundige verwerking van een kapitaalverhoging als gevolg van de conversie
+    in aandelen van obligaties uitgedrukt in Ecu of in andere vreemde valuta
+  url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-een-kapitaalverhoging-als-gevolg-van-de-conversie-in
+  datum: '1988-12-01'
 ---
 
 # CBN-advies 152/3 - Boekhoudkundige verwerking van een kapitaalverhoging als gevolg van de inbreng van een schuldvordering uitgedrukt in vreemde valuta

@@ -1,33 +1,41 @@
 ---
-nummer: "CBN-advies 120/5"
+nummer: CBN-advies 120/5
 datum: 1988-06-01
 themas:
-  - coördinatiecentrum
-  - financiële instelling
+- coördinatiecentrum
+- financiële instelling
 bron: https://www.cbn-cnc.be/nl/adviezen/coordinatiecentrum-financiele-instelling
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/coordinatiecentrum-financiele-instelling
-      sha256: 3294cfde4a1ec82b435797011d5592935defe9cecea0149b70007446120b0c9f
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/coordinatiecentrum-financiele-instelling
+    sha256: 3294cfde4a1ec82b435797011d5592935defe9cecea0149b70007446120b0c9f
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T18:34:29Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T18:40:02Z'
     confirmed_by: qa-laag1-auto
     rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    layer1:
+      verdict: pass
+      heading_count: 0
+      max_section_chars: 1579
+      file_size_chars: 1579
+      flags: []
+      run_id: 20260509-212552
 gerelateerde_adviezen:
-  - titel: Boeking van het financiële bedrijf van een coördinatiecentrum binnen een groep
-    url: https://www.cbn-cnc.be/nl/adviezen/boeking-van-het-financiele-bedrijf-van-een-coordinatiecentrum-binnen-een-groep
-    datum: '1988-12-01'
+- titel: Boeking van het financiële bedrijf van een coördinatiecentrum binnen een
+    groep
+  url: https://www.cbn-cnc.be/nl/adviezen/boeking-van-het-financiele-bedrijf-van-een-coordinatiecentrum-binnen-een-groep
+  datum: '1988-12-01'
 ---
 
 # CBN-advies 120/5 - Coördinatiecentrum - Financiële instelling

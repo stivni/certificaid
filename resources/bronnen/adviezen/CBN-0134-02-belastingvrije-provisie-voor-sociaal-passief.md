@@ -1,42 +1,50 @@
 ---
-nummer: "CBN-advies 134/2"
+nummer: CBN-advies 134/2
 datum: 1983-04-10
 themas:
-  - afdanking van personeel
-  - belastingen
-  - belastingvrije provisie
-  - fiscale steunmaatregel
-  - provisie
-  - provisie voor sociaal passief
-  - voorziening
-  - sociaal passief
-  - reserves
-  - voorzieningen voor risico&#039;s en kosten
-  - vrijgestelde reserves
+- afdanking van personeel
+- belastingen
+- belastingvrije provisie
+- fiscale steunmaatregel
+- provisie
+- provisie voor sociaal passief
+- voorziening
+- sociaal passief
+- reserves
+- voorzieningen voor risico&#039;s en kosten
+- vrijgestelde reserves
 bron: https://www.cbn-cnc.be/nl/adviezen/belastingvrije-provisie-voor-sociaal-passief
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/belastingvrije-provisie-voor-sociaal-passief
-      sha256: 938d859daac2fd8d5c51f728bb891bcb6c39abf197dd7efcb74f735ab792253e
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/belastingvrije-provisie-voor-sociaal-passief
+    sha256: 938d859daac2fd8d5c51f728bb891bcb6c39abf197dd7efcb74f735ab792253e
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T18:34:55Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T18:40:03Z'
     confirmed_by: qa-laag1-auto
     rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    layer1:
+      verdict: pass
+      heading_count: 0
+      max_section_chars: 2125
+      file_size_chars: 2125
+      flags: []
+      run_id: 20260509-212552
 gerelateerde_adviezen:
-  - titel: Voorzieningen voor de schulden ten opzichte van het personeel bij sluiting van de onderneming
-    url: https://www.cbn-cnc.be/nl/adviezen/voorzieningen-voor-de-schulden-ten-opzichte-van-het-personeel-bij-sluiting-van-de
-    datum: '1981-12-01'
+- titel: Voorzieningen voor de schulden ten opzichte van het personeel bij sluiting
+    van de onderneming
+  url: https://www.cbn-cnc.be/nl/adviezen/voorzieningen-voor-de-schulden-ten-opzichte-van-het-personeel-bij-sluiting-van-de
+  datum: '1981-12-01'
 ---
 
 # CBN-advies 134/2 - Belastingvrije provisie voor sociaal passief

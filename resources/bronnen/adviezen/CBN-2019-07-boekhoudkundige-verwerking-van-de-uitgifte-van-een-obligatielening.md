@@ -1,38 +1,45 @@
 ---
-nummer: "CBN-advies 2019/07"
+nummer: CBN-advies 2019/07
 datum: 2019-07-11
 themas:
-  - obligatielening
-  - obligaties
-  - kosten bij uitgifte van leningen
-  - agio
-  - disagio
-  - uitgifteprijs
-  - onder pari
-  - boven pari
-  - oprichtingskosten
-  - pari
-  - uitgiftewaarde
+- obligatielening
+- obligaties
+- kosten bij uitgifte van leningen
+- agio
+- disagio
+- uitgifteprijs
+- onder pari
+- boven pari
+- oprichtingskosten
+- pari
+- uitgiftewaarde
 bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-uitgifte-van-een-obligatielening
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-uitgifte-van-een-obligatielening
-      sha256: e202a1be947f8d1631a1dc4341ddb81214015a1152489e3dbfa7f684cda940ea
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-uitgifte-van-een-obligatielening
+    sha256: e202a1be947f8d1631a1dc4341ddb81214015a1152489e3dbfa7f684cda940ea
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T18:37:40Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T18:40:05Z'
     confirmed_by: qa-laag1-auto
     rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    layer1:
+      verdict: pass
+      heading_count: 38
+      max_section_chars: 14074
+      file_size_chars: 23642
+      flags: []
+      run_id: 20260509-212552
 ---
 
 # CBN-advies 2019/07 – Boekhoudkundige verwerking van de uitgifte van een obligatielening

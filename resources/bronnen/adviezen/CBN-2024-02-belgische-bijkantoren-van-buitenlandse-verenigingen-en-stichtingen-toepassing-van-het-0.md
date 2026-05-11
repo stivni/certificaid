@@ -1,64 +1,73 @@
 ---
-nummer: "CBN-advies 2024/02"
+nummer: CBN-advies 2024/02
 datum: 2024-02-08
 themas:
-  - bijkantoor
-  - publicatie
-  - publicatieverplichting
-  - openbaarmaking
-  - vereniging
-  - vzw
-  - stichting
-  - jaarrekening
-  - buitenlandse vereniging
-  - buitenlandse stichting
-  - neerlegging van de jaarrekening
-  - boekhoudplan
-  - interne jaarrekening
-  - functionele valuta
-  - afwijking
-  - relatierekening
-  - rekening-courant
-  - interne vordering
-  - interne schuld
-  - moedervennootschap
-  - jaarverslag
-  - sluiting
-  - bewaarplicht
-  - moederbedrijf
+- bijkantoor
+- publicatie
+- publicatieverplichting
+- openbaarmaking
+- vereniging
+- vzw
+- stichting
+- jaarrekening
+- buitenlandse vereniging
+- buitenlandse stichting
+- neerlegging van de jaarrekening
+- boekhoudplan
+- interne jaarrekening
+- functionele valuta
+- afwijking
+- relatierekening
+- rekening-courant
+- interne vordering
+- interne schuld
+- moedervennootschap
+- jaarverslag
+- sluiting
+- bewaarplicht
+- moederbedrijf
 bron: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-buitenlandse-verenigingen-en-stichtingen-toepassing-van-het-0
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-buitenlandse-verenigingen-en-stichtingen-toepassing-van-het-0
-      sha256: 7b9a8a629ece5b431808799881a666da1acf93156fb67b32a4601de36a6b777a
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-buitenlandse-verenigingen-en-stichtingen-toepassing-van-het-0
+    sha256: 7b9a8a629ece5b431808799881a666da1acf93156fb67b32a4601de36a6b777a
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T18:38:19Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T18:40:05Z'
     confirmed_by: qa-laag1-auto
     rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    layer1:
+      verdict: pass
+      heading_count: 44
+      max_section_chars: 16980
+      file_size_chars: 51585
+      flags: []
+      run_id: 20260509-212552
 gerelateerde_adviezen:
-  - titel: 'Belgische bijkantoren van buitenlandse vennootschappen: toepassing van het Belgisch boekhoudrecht - begrip “bijkantoor” – publicatieplicht (update)'
-    url: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-buitenlandse-vennootschappen-toepassing-van-het-belgisch
-    datum: '2022-11-08'
-  - titel: 'Belgische bijkantoren van buitenlandse vennootschappen: eigen boekhoudkundige verplichtingen (update)'
-    url: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-buitenlandse-vennootschappen-eigen-boekhoudkundige
-    datum: '2022-11-08'
-  - titel: Boekhoudplichtige onderneming
-    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudplichtige-onderneming
-    datum: '2019-09-26'
-  - titel: Gevolgen op gebied van financiële rapportering als gevolg van de brexit
-    url: https://www.cbn-cnc.be/nl/adviezen/gevolgen-op-gebied-van-financiele-rapportering-als-gevolg-van-de-brexit-0
-    datum: '2019-04-12'
+- titel: 'Belgische bijkantoren van buitenlandse vennootschappen: toepassing van het
+    Belgisch boekhoudrecht - begrip “bijkantoor” – publicatieplicht (update)'
+  url: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-buitenlandse-vennootschappen-toepassing-van-het-belgisch
+  datum: '2022-11-08'
+- titel: 'Belgische bijkantoren van buitenlandse vennootschappen: eigen boekhoudkundige
+    verplichtingen (update)'
+  url: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-buitenlandse-vennootschappen-eigen-boekhoudkundige
+  datum: '2022-11-08'
+- titel: Boekhoudplichtige onderneming
+  url: https://www.cbn-cnc.be/nl/adviezen/boekhoudplichtige-onderneming
+  datum: '2019-09-26'
+- titel: Gevolgen op gebied van financiële rapportering als gevolg van de brexit
+  url: https://www.cbn-cnc.be/nl/adviezen/gevolgen-op-gebied-van-financiele-rapportering-als-gevolg-van-de-brexit-0
+  datum: '2019-04-12'
 ---
 
 # CBN-advies 2024/02 – Belgische bijkantoren van buitenlandse verenigingen en stichtingen: toepassing van het Belgisch boekhoudrecht – begrip ‘bijkantoor’ – publicatieplicht – eigen boekhoudkundige verplichtingen

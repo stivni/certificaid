@@ -1,31 +1,38 @@
 ---
-nummer: "CBN-advies 2014/5"
+nummer: CBN-advies 2014/5
 datum: 2014-04-23
 themas:
-  - afsluiting
-  - afsluitingsdatum
-  - balansdatum
-  - boekjaar
+- afsluiting
+- afsluitingsdatum
+- balansdatum
+- boekjaar
 bron: https://www.cbn-cnc.be/nl/adviezen/afsluitingsdatum-van-het-boekjaar
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/afsluitingsdatum-van-het-boekjaar
-      sha256: 2c47eb840e00d394a7b0d827c1f25e2935694f1535011a5c01bb48914d8dad4f
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/afsluitingsdatum-van-het-boekjaar
+    sha256: 2c47eb840e00d394a7b0d827c1f25e2935694f1535011a5c01bb48914d8dad4f
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T18:36:44Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T18:40:04Z'
     confirmed_by: qa-laag1-auto
     rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    layer1:
+      verdict: pass
+      heading_count: 2
+      max_section_chars: 3305
+      file_size_chars: 3837
+      flags: []
+      run_id: 20260509-212552
 ---
 
 # CBN-advies 2014/5 - Afsluitingsdatum van het boekjaar

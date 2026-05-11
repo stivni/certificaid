@@ -1,41 +1,48 @@
 ---
-nummer: "CBN-advies 2025/01"
+nummer: CBN-advies 2025/01
 datum: 2025-04-15
 themas:
-  - splitsing
+- splitsing
 bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-splitsingen-van-vennootschappen-negatief-fiscaal
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-splitsingen-van-vennootschappen-negatief-fiscaal
-      sha256: 54c11456d0480a715274c3e22199ab824c1c3b0ff0ab0fd4355b45dc67f1fdc4
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-splitsingen-van-vennootschappen-negatief-fiscaal
+    sha256: 54c11456d0480a715274c3e22199ab824c1c3b0ff0ab0fd4355b45dc67f1fdc4
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T18:38:06Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T18:40:05Z'
     confirmed_by: qa-laag1-auto
     rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    layer1:
+      verdict: pass
+      heading_count: 8
+      max_section_chars: 12554
+      file_size_chars: 15666
+      flags: []
+      run_id: 20260509-212552
 gerelateerde_adviezen:
-  - titel: Boekhoudkundige verwerking van splitsingen van vennootschappen
-    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-splitsingen-van-vennootschappen
-    datum: '2022-09-19'
-  - titel: Fusies en splitsingen van vennootschappen met een negatief nettoactief
-    url: https://www.cbn-cnc.be/nl/adviezen/fusies-en-splitsingen-van-vennootschappen-met-een-negatief-nettoactief
-    datum: '2022-02-15'
-  - titel: 'Verenigingen en stichtingen: compensatie van negatieve fondsen'
-    url: https://www.cbn-cnc.be/nl/adviezen/verenigingen-en-stichtingen-compensatie-van-negatieve-fondsen
-    datum: '2021-11-22'
-  - titel: Begin van het boekjaar
-    url: https://www.cbn-cnc.be/nl/adviezen/begin-van-het-boekjaar
-    datum: '2018-12-07'
+- titel: Boekhoudkundige verwerking van splitsingen van vennootschappen
+  url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-splitsingen-van-vennootschappen
+  datum: '2022-09-19'
+- titel: Fusies en splitsingen van vennootschappen met een negatief nettoactief
+  url: https://www.cbn-cnc.be/nl/adviezen/fusies-en-splitsingen-van-vennootschappen-met-een-negatief-nettoactief
+  datum: '2022-02-15'
+- titel: 'Verenigingen en stichtingen: compensatie van negatieve fondsen'
+  url: https://www.cbn-cnc.be/nl/adviezen/verenigingen-en-stichtingen-compensatie-van-negatieve-fondsen
+  datum: '2021-11-22'
+- titel: Begin van het boekjaar
+  url: https://www.cbn-cnc.be/nl/adviezen/begin-van-het-boekjaar
+  datum: '2018-12-07'
 ---
 
 # CBN-advies 2025/01 – Boekhoudkundige verwerking van splitsingen van vennootschappen – negatief fiscaal nettoactief – herwaarderingsmeerwaarde (addendum bij CBN-advies 2022/01 en 2022/12)

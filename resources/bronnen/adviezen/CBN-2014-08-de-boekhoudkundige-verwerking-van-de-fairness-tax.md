@@ -1,30 +1,37 @@
 ---
-nummer: "CBN-advies 2014/8"
+nummer: CBN-advies 2014/8
 datum: 2014-06-04
 themas:
-  - fairness tax
-  - vennootschapsbelasting
-  - eindejaarsverrichting
+- fairness tax
+- vennootschapsbelasting
+- eindejaarsverrichting
 bron: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-fairness-tax
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-fairness-tax
-      sha256: 4dd27d4fa4bc9402e7a50cff9c9c41fab286f3fb37017d8c266c1607d2543f49
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-fairness-tax
+    sha256: 4dd27d4fa4bc9402e7a50cff9c9c41fab286f3fb37017d8c266c1607d2543f49
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T18:36:46Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T18:40:04Z'
     confirmed_by: qa-laag1-auto
     rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    layer1:
+      verdict: pass
+      heading_count: 2
+      max_section_chars: 1141
+      file_size_chars: 2391
+      flags: []
+      run_id: 20260509-212552
 ---
 
 # CBN-advies 2014/8 – De boekhoudkundige verwerking van de Fairness Tax

@@ -1,39 +1,46 @@
 ---
-nummer: "CBN-advies 103"
+nummer: CBN-advies 103
 datum: 1977-08-01
 themas:
-  - commissionair
-  - expediteur
-  - lijnagent
-  - makelaar
-  - mandataris
-  - omzet
-  - reder
-  - tussenpersoon
+- commissionair
+- expediteur
+- lijnagent
+- makelaar
+- mandataris
+- omzet
+- reder
+- tussenpersoon
 bron: https://www.cbn-cnc.be/nl/adviezen/omzet-tussenpersonen
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/omzet-tussenpersonen
-      sha256: 9fe8f8368372e19e030cfb6ebe21f487d98bd122381c58765b829588ca177520
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/omzet-tussenpersonen
+    sha256: 9fe8f8368372e19e030cfb6ebe21f487d98bd122381c58765b829588ca177520
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T18:33:45Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T18:40:02Z'
     confirmed_by: qa-laag1-auto
     rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    layer1:
+      verdict: pass
+      heading_count: 0
+      max_section_chars: 4389
+      file_size_chars: 4389
+      flags: []
+      run_id: 20260509-212552
 gerelateerde_adviezen:
-  - titel: Omzet van expediteurs
-    url: https://www.cbn-cnc.be/nl/adviezen/omzet-van-expediteurs
-    datum: '1988-06-01'
+- titel: Omzet van expediteurs
+  url: https://www.cbn-cnc.be/nl/adviezen/omzet-van-expediteurs
+  datum: '1988-06-01'
 ---
 
 # CBN advies 103 - Omzet - Tussenpersonen

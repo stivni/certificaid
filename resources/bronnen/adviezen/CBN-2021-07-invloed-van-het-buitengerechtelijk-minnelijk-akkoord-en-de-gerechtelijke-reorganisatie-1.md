@@ -1,55 +1,66 @@
 ---
-nummer: "CBN-advies 2021/07"
+nummer: CBN-advies 2021/07
 datum: 2021-05-12
 themas:
-  - minnelijk akkoord
-  - gerechtelijke reorganisatie
-  - buitengerechtelijk minnelijk akkoord
-  - reorganisatie
-  - collectief akkoord
-  - faillissement
-  - ontbindende voorwaarde
-  - kwijtschelding
-  - belastingvrije reserves
-  - niet in de balans opgenomen rechten en verplichtingen
-  - omvorming schuld
-  - dubieuze vordering
-  - renteloze leningen
-  - inbreng schuldvordering
-  - economische waarde
-  - conventionele waarde
-  - omzetting schuldvordering
-  - inbreng schuldvordering
+- minnelijk akkoord
+- gerechtelijke reorganisatie
+- buitengerechtelijk minnelijk akkoord
+- reorganisatie
+- collectief akkoord
+- faillissement
+- ontbindende voorwaarde
+- kwijtschelding
+- belastingvrije reserves
+- niet in de balans opgenomen rechten en verplichtingen
+- omvorming schuld
+- dubieuze vordering
+- renteloze leningen
+- inbreng schuldvordering
+- economische waarde
+- conventionele waarde
+- omzetting schuldvordering
+- inbreng schuldvordering
 bron: https://www.cbn-cnc.be/nl/adviezen/invloed-van-het-buitengerechtelijk-minnelijk-akkoord-en-de-gerechtelijke-reorganisatie-1
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/invloed-van-het-buitengerechtelijk-minnelijk-akkoord-en-de-gerechtelijke-reorganisatie-1
-      sha256: 8f62b9e08b4b1a75a1c78cf20f4d3129914beca349cf84250a3c634991e376e7
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/invloed-van-het-buitengerechtelijk-minnelijk-akkoord-en-de-gerechtelijke-reorganisatie-1
+    sha256: 8f62b9e08b4b1a75a1c78cf20f4d3129914beca349cf84250a3c634991e376e7
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T18:37:58Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T18:40:05Z'
     confirmed_by: qa-laag1-auto
     rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    layer1:
+      verdict: pass
+      heading_count: 29
+      max_section_chars: 23163
+      file_size_chars: 40227
+      flags: []
+      run_id: 20260509-212552
 gerelateerde_adviezen:
-  - titel: Going concern - Waarderingsregels bij de stopzetting of gedeeltelijke stopzetting van het bedrijf van een onderneming
-    url: https://www.cbn-cnc.be/nl/adviezen/going-concern-waarderingsregels-bij-de-stopzetting-of-gedeeltelijke-stopzetting-van-het
-    datum: '2018-11-19'
-  - titel: Invloed van het buitengerechtelijk minnelijk akkoord en de gerechtelijke reorganisatie op de schulden en vorderingen
-    url: https://www.cbn-cnc.be/nl/adviezen/invloed-van-het-buitengerechtelijk-minnelijk-akkoord-en-de-gerechtelijke-reorganisatie-op
-    datum: '2011-04-06'
-  - titel: '- Verwerking in de jaarrekening over het boekjaar 1996 en de daaropvolgende boekjaren, van de «Maribel bis en ter»-steun toegekend voor de boekjaren 1993, 1994, 1995 en 1996'
-    url: https://www.cbn-cnc.be/nl/adviezen/verwerking-in-de-jaarrekening-over-het-boekjaar-1996-en-de-daaropvolgende-boekjaren-van-de
-    datum: '1998-03-01'
+- titel: Going concern - Waarderingsregels bij de stopzetting of gedeeltelijke stopzetting
+    van het bedrijf van een onderneming
+  url: https://www.cbn-cnc.be/nl/adviezen/going-concern-waarderingsregels-bij-de-stopzetting-of-gedeeltelijke-stopzetting-van-het
+  datum: '2018-11-19'
+- titel: Invloed van het buitengerechtelijk minnelijk akkoord en de gerechtelijke
+    reorganisatie op de schulden en vorderingen
+  url: https://www.cbn-cnc.be/nl/adviezen/invloed-van-het-buitengerechtelijk-minnelijk-akkoord-en-de-gerechtelijke-reorganisatie-op
+  datum: '2011-04-06'
+- titel: '- Verwerking in de jaarrekening over het boekjaar 1996 en de daaropvolgende
+    boekjaren, van de «Maribel bis en ter»-steun toegekend voor de boekjaren 1993,
+    1994, 1995 en 1996'
+  url: https://www.cbn-cnc.be/nl/adviezen/verwerking-in-de-jaarrekening-over-het-boekjaar-1996-en-de-daaropvolgende-boekjaren-van-de
+  datum: '1998-03-01'
 ---
 
 # CBN-advies 2021/07 - Invloed van het buitengerechtelijk minnelijk akkoord en de gerechtelijke reorganisatie op de schulden en vorderingen (update)

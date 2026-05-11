@@ -1,46 +1,61 @@
 ---
-nummer: "CBN-advies 108/3"
+nummer: CBN-advies 108/3
 datum: 1986-01-01
 themas:
-  - afwijking
-  - concurrentieverstoring
-  - mededingingsvoorwaarde
-  - middelgrote onderneming
-  - omzetcijfer
-  - verstoring van de mededingingsvoorwaarden
+- afwijking
+- concurrentieverstoring
+- mededingingsvoorwaarde
+- middelgrote onderneming
+- omzetcijfer
+- verstoring van de mededingingsvoorwaarden
 bron: https://www.cbn-cnc.be/nl/adviezen/adviesbeleid-van-de-commissie-voor-boekhoudkundige-normen-ten-aanzien-van-individuele
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/adviesbeleid-van-de-commissie-voor-boekhoudkundige-normen-ten-aanzien-van-individuele
-      sha256: c0b9519477900e6821c5330d92c6b8fecda78ba46a6c7dea270f2cbe45c93bd6
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/adviesbeleid-van-de-commissie-voor-boekhoudkundige-normen-ten-aanzien-van-individuele
+    sha256: c0b9519477900e6821c5330d92c6b8fecda78ba46a6c7dea270f2cbe45c93bd6
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T21:30:01Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T21:31:10Z'
     confirmed_by: human
-    rationale: 'Herscraped na fix select_title(): gecombineerde H1 (COMMISSIE + titel) correct gesplitst. Inhoud ongewijzigd t.o.v. vorig vertrouwd verdict. Laag 1 pass (of benign max_section warn).'
+    rationale: 'Herscraped na fix select_title(): gecombineerde H1 (COMMISSIE + titel)
+      correct gesplitst. Inhoud ongewijzigd t.o.v. vorig vertrouwd verdict. Laag 1
+      pass (of benign max_section warn).'
+    layer1:
+      verdict: pass
+      heading_count: 3
+      max_section_chars: 8881
+      file_size_chars: 8881
+      flags: []
+      run_id: 20260509-212552
 gerelateerde_adviezen:
-  - titel: 'Belgische bijkantoren van buitenlandse verenigingen en stichtingen: toepassing van het Belgisch boekhoudrecht – begrip ‘bijkantoor’ – publicatieplicht – eigen boekhoudkundige verplichtingen'
-    url: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-buitenlandse-verenigingen-en-stichtingen-toepassing-van-het-0
-    datum: '2024-02-08'
-  - titel: 'Belgische bijkantoren van buitenlandse vennootschappen: eigen boekhoudkundige verplichtingen (update)'
-    url: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-buitenlandse-vennootschappen-eigen-boekhoudkundige
-    datum: '2022-11-08'
-  - titel: Adviesbeleid van de Commissie voor Boekhoudkundige Normen ten aanzien van vragen tot afwijking voor Belgische bijkantoren van buitenlandse vennootschappen (ONTWERP)
-    url: https://www.cbn-cnc.be/nl/adviezen/adviesbeleid-van-de-commissie-voor-boekhoudkundige-normen-ten-aanzien-van-vragen-tot
-    datum: '2019-05-14'
-  - titel: 'Belgische bijkantoren van vennootschappen naar buitenlands recht: eigen boekhoudkundige verplichtingen'
-    url: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-vennootschappen-naar-buitenlands-recht-eigen-boekhoudkundige-0
-    datum: '2019-03-26'
+- titel: 'Belgische bijkantoren van buitenlandse verenigingen en stichtingen: toepassing
+    van het Belgisch boekhoudrecht – begrip ‘bijkantoor’ – publicatieplicht – eigen
+    boekhoudkundige verplichtingen'
+  url: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-buitenlandse-verenigingen-en-stichtingen-toepassing-van-het-0
+  datum: '2024-02-08'
+- titel: 'Belgische bijkantoren van buitenlandse vennootschappen: eigen boekhoudkundige
+    verplichtingen (update)'
+  url: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-buitenlandse-vennootschappen-eigen-boekhoudkundige
+  datum: '2022-11-08'
+- titel: Adviesbeleid van de Commissie voor Boekhoudkundige Normen ten aanzien van
+    vragen tot afwijking voor Belgische bijkantoren van buitenlandse vennootschappen
+    (ONTWERP)
+  url: https://www.cbn-cnc.be/nl/adviezen/adviesbeleid-van-de-commissie-voor-boekhoudkundige-normen-ten-aanzien-van-vragen-tot
+  datum: '2019-05-14'
+- titel: 'Belgische bijkantoren van vennootschappen naar buitenlands recht: eigen
+    boekhoudkundige verplichtingen'
+  url: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-vennootschappen-naar-buitenlands-recht-eigen-boekhoudkundige-0
+  datum: '2019-03-26'
 ---
 
 # CBN-advies 108/3 - Adviesbeleid van de Commissie voor Boekhoudkundige Normen ten aanzien van individuele vragen om afwijking wegens verstoring van de mededingingsvoorwaarden

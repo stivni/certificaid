@@ -1,35 +1,42 @@
 ---
-nummer: "CBN-advies 150/4"
+nummer: CBN-advies 150/4
 datum: 1988-06-01
 themas:
-  - energiebesparende investeringen
-  - geïntegreerd energiebeheerprogramma
-  - installatie
-  - investering voor rationeler energieverbruik
-  - materiële vaste activa
-  - rationeler energieverbuik
-  - schulden
-  - vordering
+- energiebesparende investeringen
+- geïntegreerd energiebeheerprogramma
+- installatie
+- investering voor rationeler energieverbruik
+- materiële vaste activa
+- rationeler energieverbuik
+- schulden
+- vordering
 bron: https://www.cbn-cnc.be/nl/adviezen/investering-voor-een-rationeler-energieverbruik-geintegreerd-energiebeheerprogramma
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/investering-voor-een-rationeler-energieverbruik-geintegreerd-energiebeheerprogramma
-      sha256: 1fc7b7bd9e51b597389bca924c94891da92c68a7424020649eeecab3bd0a68d9
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/investering-voor-een-rationeler-energieverbruik-geintegreerd-energiebeheerprogramma
+    sha256: 1fc7b7bd9e51b597389bca924c94891da92c68a7424020649eeecab3bd0a68d9
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T18:35:17Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T18:40:03Z'
     confirmed_by: qa-laag1-auto
     rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    layer1:
+      verdict: pass
+      heading_count: 0
+      max_section_chars: 2950
+      file_size_chars: 2950
+      flags: []
+      run_id: 20260509-212552
 ---
 
 # CBN-advies 150/4 - Investering voor een rationeler energieverbruik -Geïntegreerd energiebeheerprogramma

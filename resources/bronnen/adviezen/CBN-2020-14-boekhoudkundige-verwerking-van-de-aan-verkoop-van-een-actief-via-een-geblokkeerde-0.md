@@ -1,35 +1,42 @@
 ---
-nummer: "CBN-advies 2020/14"
+nummer: CBN-advies 2020/14
 datum: 2020-12-11
 themas:
-  - geblokkeerde rekening
-  - geblokkeerde bankrekening
-  - opschortende voorwaarde
-  - ontbindende voorwaarde
-  - waarborg
-  - niet in de balans opgenomen rechten en verplichtingen
-  - escrow
-  - inbeslagname
+- geblokkeerde rekening
+- geblokkeerde bankrekening
+- opschortende voorwaarde
+- ontbindende voorwaarde
+- waarborg
+- niet in de balans opgenomen rechten en verplichtingen
+- escrow
+- inbeslagname
 bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-aan-verkoop-van-een-actief-via-een-geblokkeerde-0
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-aan-verkoop-van-een-actief-via-een-geblokkeerde-0
-      sha256: ed74afcdef9799397ca53683b6c66f0d3608f5b8b3457b0d7e4d25674a0fab43
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-aan-verkoop-van-een-actief-via-een-geblokkeerde-0
+    sha256: ed74afcdef9799397ca53683b6c66f0d3608f5b8b3457b0d7e4d25674a0fab43
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T18:37:54Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T18:40:05Z'
     confirmed_by: qa-laag1-auto
     rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    layer1:
+      verdict: pass
+      heading_count: 5
+      max_section_chars: 21157
+      file_size_chars: 23053
+      flags: []
+      run_id: 20260509-212552
 ---
 
 # CBN-advies 2020/14 – Boekhoudkundige verwerking van de aan-/verkoop van een actief via een geblokkeerde rekening

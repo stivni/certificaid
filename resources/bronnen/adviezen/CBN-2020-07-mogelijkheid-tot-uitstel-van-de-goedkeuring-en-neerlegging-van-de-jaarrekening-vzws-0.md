@@ -1,37 +1,45 @@
 ---
-nummer: "CBN-advies 2020/07"
+nummer: CBN-advies 2020/07
 datum: 2020-07-16
 themas:
-  - uitstel algemene vergadering
-  - goedkeuring van de jaarrekening
-  - neerlegging van de jaarrekening
-  - opstelling van de jaarrekening
-  - verenigingen en stichtingen
-  - COVID-19
+- uitstel algemene vergadering
+- goedkeuring van de jaarrekening
+- neerlegging van de jaarrekening
+- opstelling van de jaarrekening
+- verenigingen en stichtingen
+- COVID-19
 bron: https://www.cbn-cnc.be/nl/adviezen/mogelijkheid-tot-uitstel-van-de-goedkeuring-en-neerlegging-van-de-jaarrekening-vzws-0
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/mogelijkheid-tot-uitstel-van-de-goedkeuring-en-neerlegging-van-de-jaarrekening-vzws-0
-      sha256: 85bbe53d42be82044bc266c72e572b9bd5fa70312a9353605961126a807aacb4
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/mogelijkheid-tot-uitstel-van-de-goedkeuring-en-neerlegging-van-de-jaarrekening-vzws-0
+    sha256: 85bbe53d42be82044bc266c72e572b9bd5fa70312a9353605961126a807aacb4
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T18:37:49Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T18:40:05Z'
     confirmed_by: qa-laag1-auto
     rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    layer1:
+      verdict: pass
+      heading_count: 8
+      max_section_chars: 6373
+      file_size_chars: 12865
+      flags: []
+      run_id: 20260509-212552
 gerelateerde_adviezen:
-  - titel: Mogelijkheid tot uitstel van de gewone algemene vergadering en van de neerlegging van de jaarrekening (vennootschappen)
-    url: https://www.cbn-cnc.be/nl/adviezen/mogelijkheid-tot-uitstel-van-de-gewone-algemene-vergadering-en-van-de-neerlegging-van-de
-    datum: '2020-07-22'
+- titel: Mogelijkheid tot uitstel van de gewone algemene vergadering en van de neerlegging
+    van de jaarrekening (vennootschappen)
+  url: https://www.cbn-cnc.be/nl/adviezen/mogelijkheid-tot-uitstel-van-de-gewone-algemene-vergadering-en-van-de-neerlegging-van-de
+  datum: '2020-07-22'
 ---
 
 # CBN-advies 2020/07 – Mogelijkheid tot uitstel van de goedkeuring en neerlegging van de jaarrekening (VZW’s, IVZW’s en stichtingen)

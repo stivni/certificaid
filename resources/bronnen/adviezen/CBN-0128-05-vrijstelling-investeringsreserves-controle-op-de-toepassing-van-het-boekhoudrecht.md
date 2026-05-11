@@ -1,34 +1,42 @@
 ---
-nummer: "CBN-advies 128/5"
+nummer: CBN-advies 128/5
 datum: 1983-04-01
 themas:
-  - investeringreserve
-  - leasing
-  - vrijstelling
+- investeringreserve
+- leasing
+- vrijstelling
 bron: https://www.cbn-cnc.be/nl/adviezen/vrijstelling-investeringsreserves-controle-op-de-toepassing-van-het-boekhoudrecht
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/vrijstelling-investeringsreserves-controle-op-de-toepassing-van-het-boekhoudrecht
-      sha256: 1f6cbbb2dc9091c13e3acd7ca6db923a1d5098e683b5a6f341ec91c68ac30ab7
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/vrijstelling-investeringsreserves-controle-op-de-toepassing-van-het-boekhoudrecht
+    sha256: 1f6cbbb2dc9091c13e3acd7ca6db923a1d5098e683b5a6f341ec91c68ac30ab7
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T18:34:45Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T18:40:03Z'
     confirmed_by: qa-laag1-auto
     rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    layer1:
+      verdict: pass
+      heading_count: 2
+      max_section_chars: 2504
+      file_size_chars: 3918
+      flags: []
+      run_id: 20260509-212552
 gerelateerde_adviezen:
-  - titel: Overboeking van winsten naar de belastingvrije reserves - Verwerking in de jaarrekening van de investeringsreserve
-    url: https://www.cbn-cnc.be/nl/adviezen/overboeking-van-winsten-naar-de-belastingvrije-reserves-verwerking-in-de-jaarrekening-van
-    datum: '1981-12-01'
+- titel: Overboeking van winsten naar de belastingvrije reserves - Verwerking in de
+    jaarrekening van de investeringsreserve
+  url: https://www.cbn-cnc.be/nl/adviezen/overboeking-van-winsten-naar-de-belastingvrije-reserves-verwerking-in-de-jaarrekening-van
+  datum: '1981-12-01'
 ---
 
 # CBN-advies 128/5 - Vrijstelling investeringsreserves - Controle op de toepassing van het boekhoudrecht

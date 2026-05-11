@@ -1,51 +1,63 @@
 ---
-nummer: "CBN-advies 2018/17"
+nummer: CBN-advies 2018/17
 datum: 2018-11-16
 themas:
-  - zakelijk recht
-  - niet in de balans opgenomen rechten en verplichtingen
-  - zakelijke zekerheden
-  - waarborg
-  - gewaarborgde schuld
-  - eigendomsvoorbehoud
-  - pandrecht
-  - pandovereenkomst
-  - hypotheek
-  - gewaarborgde schuldvordering
-  - onherroepelijk mandaat tot verpanding
-  - onherroepelijk beloofde zekerheid
-  - voorrecht
-  - onherroepelijk hypotheekmandaat
-  - pand op het handelsfonds
-  - staat van de schulden
-  - pandrecht op een handelszaak
-  - pandrecht op nog te verwerven activa
-  - pandrecht op activa
-  - voorrecht van de verkoper
+- zakelijk recht
+- niet in de balans opgenomen rechten en verplichtingen
+- zakelijke zekerheden
+- waarborg
+- gewaarborgde schuld
+- eigendomsvoorbehoud
+- pandrecht
+- pandovereenkomst
+- hypotheek
+- gewaarborgde schuldvordering
+- onherroepelijk mandaat tot verpanding
+- onherroepelijk beloofde zekerheid
+- voorrecht
+- onherroepelijk hypotheekmandaat
+- pand op het handelsfonds
+- staat van de schulden
+- pandrecht op een handelszaak
+- pandrecht op nog te verwerven activa
+- pandrecht op activa
+- voorrecht van de verkoper
 bron: https://www.cbn-cnc.be/nl/adviezen/schulden-gewaarborgd-door-een-zakelijke-zekerheid-niet-in-de-balans-opgenomen-rechten-en
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/schulden-gewaarborgd-door-een-zakelijke-zekerheid-niet-in-de-balans-opgenomen-rechten-en
-      sha256: 84aa2320b4231304ec94ca9ec3cb7b1c27ff343e76901d581e87eb837894b6b8
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/schulden-gewaarborgd-door-een-zakelijke-zekerheid-niet-in-de-balans-opgenomen-rechten-en
+    sha256: 84aa2320b4231304ec94ca9ec3cb7b1c27ff343e76901d581e87eb837894b6b8
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T18:37:27Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T19:02:28Z'
     confirmed_by: subagent-laag2-ronde2
-    rationale: '[Laag-2-R2 2026-05-08] Het advies heeft 17 headings en is volledig aanwezig. De langste sectie omvat de uitgebreide samenvattende tabellen in de bijlagen. Journaalpost-voorbeeld correct als Markdown-tabel.'
+    rationale: '[Laag-2-R2 2026-05-08] Het advies heeft 17 headings en is volledig
+      aanwezig. De langste sectie omvat de uitgebreide samenvattende tabellen in de
+      bijlagen. Journaalpost-voorbeeld correct als Markdown-tabel.'
+    layer1:
+      verdict: pass
+      heading_count: 31
+      max_section_chars: 19030
+      file_size_chars: 52440
+      flags: []
+      run_id: 20260509-212552
 gerelateerde_adviezen:
-  - titel: Verwerking van verrichtingen voor de verwerving of verkoop van een recht op vruchtgebruik of van naakte eigendom op materiële vaste activa in de boekhouding van de vruchtgebruiker (de erfpachter, de opstalhouder) en van de naakte eigenaar (de grondeigenaa
-    url: https://www.cbn-cnc.be/nl/adviezen/verwerking-van-verrichtingen-voor-de-verwerving-of-verkoop-van-een-recht-op-vruchtgebruik
-    datum: '1991-03-01'
+- titel: Verwerking van verrichtingen voor de verwerving of verkoop van een recht
+    op vruchtgebruik of van naakte eigendom op materiële vaste activa in de boekhouding
+    van de vruchtgebruiker (de erfpachter, de opstalhouder) en van de naakte eigenaar
+    (de grondeigenaa
+  url: https://www.cbn-cnc.be/nl/adviezen/verwerking-van-verrichtingen-voor-de-verwerving-of-verkoop-van-een-recht-op-vruchtgebruik
+  datum: '1991-03-01'
 ---
 
 # CBN-advies 2018/17 – Schulden gewaarborgd door een zakelijke zekerheid – Niet in de balans opgenomen rechten en verplichtingen

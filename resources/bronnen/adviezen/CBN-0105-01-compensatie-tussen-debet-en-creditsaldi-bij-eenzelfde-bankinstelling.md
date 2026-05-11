@@ -1,41 +1,49 @@
 ---
-nummer: "CBN-advies 105/1"
+nummer: CBN-advies 105/1
 datum: 1977-08-01
 themas:
-  - compensatie
+- compensatie
 bron: https://www.cbn-cnc.be/nl/adviezen/compensatie-tussen-debet-en-creditsaldi-bij-eenzelfde-bankinstelling
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/compensatie-tussen-debet-en-creditsaldi-bij-eenzelfde-bankinstelling
-      sha256: efcb0de695d8b8a23cbd4477e144e838a996eb39774b5775e6b7b807d3977663
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/compensatie-tussen-debet-en-creditsaldi-bij-eenzelfde-bankinstelling
+    sha256: efcb0de695d8b8a23cbd4477e144e838a996eb39774b5775e6b7b807d3977663
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T18:33:47Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T18:40:02Z'
     confirmed_by: qa-laag1-auto
     rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    layer1:
+      verdict: pass
+      heading_count: 0
+      max_section_chars: 1297
+      file_size_chars: 1297
+      flags: []
+      run_id: 20260509-212552
 gerelateerde_adviezen:
-  - titel: 'Verenigingen en stichtingen: compensatie van negatieve fondsen'
-    url: https://www.cbn-cnc.be/nl/adviezen/verenigingen-en-stichtingen-compensatie-van-negatieve-fondsen
-    datum: '2021-11-22'
-  - titel: Boekhoudkundig niet-compensatiebeginsel
-    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundig-niet-compensatiebeginsel
-    datum: '2018-11-23'
-  - titel: Omzet – RIZIV-heffingen op de omzet van terugbetaalbare geneesmiddelen
-    url: https://www.cbn-cnc.be/nl/adviezen/omzet-riziv-heffingen-op-de-omzet-van-terugbetaalbare-geneesmiddelen
-    datum: '2018-05-30'
-  - titel: 'Bestellingen in uitvoering: wijzigingen door het koninklijk besluit van 18 december 2015'
-    url: https://www.cbn-cnc.be/nl/adviezen/bestellingen-in-uitvoering-wijzigingen-door-het-koninklijk-besluit-van-18-december-2015
-    datum: '2016-09-07'
+- titel: 'Verenigingen en stichtingen: compensatie van negatieve fondsen'
+  url: https://www.cbn-cnc.be/nl/adviezen/verenigingen-en-stichtingen-compensatie-van-negatieve-fondsen
+  datum: '2021-11-22'
+- titel: Boekhoudkundig niet-compensatiebeginsel
+  url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundig-niet-compensatiebeginsel
+  datum: '2018-11-23'
+- titel: Omzet – RIZIV-heffingen op de omzet van terugbetaalbare geneesmiddelen
+  url: https://www.cbn-cnc.be/nl/adviezen/omzet-riziv-heffingen-op-de-omzet-van-terugbetaalbare-geneesmiddelen
+  datum: '2018-05-30'
+- titel: 'Bestellingen in uitvoering: wijzigingen door het koninklijk besluit van
+    18 december 2015'
+  url: https://www.cbn-cnc.be/nl/adviezen/bestellingen-in-uitvoering-wijzigingen-door-het-koninklijk-besluit-van-18-december-2015
+  datum: '2016-09-07'
 ---
 
 # CBN-advies 105/1 - Compensatie tussen debet- en creditsaldi bij eenzelfde bankinstelling

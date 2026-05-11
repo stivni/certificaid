@@ -1,41 +1,49 @@
 ---
-nummer: "CBN-advies 132/2"
+nummer: CBN-advies 132/2
 datum: 1984-10-01
 themas:
-  - getrouw beeld
-  - gewaarborgde verkoopprijs
-  - vervaardigingsprijs
-  - voorraden
+- getrouw beeld
+- gewaarborgde verkoopprijs
+- vervaardigingsprijs
+- voorraden
 bron: https://www.cbn-cnc.be/nl/adviezen/voorraden-waarvan-de-verkoopprijs-door-de-overheid-gewaarborgd-is
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/voorraden-waarvan-de-verkoopprijs-door-de-overheid-gewaarborgd-is
-      sha256: 9abeb79da0068961ca28bf0795d10a8e20c0c730f1083866252fcd39d2a20461
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/voorraden-waarvan-de-verkoopprijs-door-de-overheid-gewaarborgd-is
+    sha256: 9abeb79da0068961ca28bf0795d10a8e20c0c730f1083866252fcd39d2a20461
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T18:34:50Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T19:02:30Z'
     confirmed_by: subagent-laag2-ronde2
-    rationale: '[Laag-2-R2 2026-05-08] Volledig met drie genummerde argumenten (realisatiebeginsel, waarderingsmethode, getrouwe-beeldbeginsel) en praktische uitweg via toelichting.'
+    rationale: '[Laag-2-R2 2026-05-08] Volledig met drie genummerde argumenten (realisatiebeginsel,
+      waarderingsmethode, getrouwe-beeldbeginsel) en praktische uitweg via toelichting.'
+    layer1:
+      verdict: pass
+      heading_count: 0
+      max_section_chars: 5014
+      file_size_chars: 5014
+      flags: []
+      run_id: 20260509-212552
 gerelateerde_adviezen:
-  - titel: Actualisatie van uitgestelde belastingen (update)
-    url: https://www.cbn-cnc.be/nl/adviezen/actualisatie-van-uitgestelde-belastingen-update
-    datum: '2016-09-28'
-  - titel: Beginselen van een regelmatige boekhouding
-    url: https://www.cbn-cnc.be/nl/adviezen/beginselen-van-een-regelmatige-boekhouding
-    datum: '1997-02-01'
-  - titel: Wijziging van de waarderingsregels als gevolg van gewijzigde wetgeving -Informatieverstrekking
-    url: https://www.cbn-cnc.be/nl/adviezen/wijziging-van-de-waarderingsregels-als-gevolg-van-gewijzigde-wetgeving
-    datum: '1988-12-01'
+- titel: Actualisatie van uitgestelde belastingen (update)
+  url: https://www.cbn-cnc.be/nl/adviezen/actualisatie-van-uitgestelde-belastingen-update
+  datum: '2016-09-28'
+- titel: Beginselen van een regelmatige boekhouding
+  url: https://www.cbn-cnc.be/nl/adviezen/beginselen-van-een-regelmatige-boekhouding
+  datum: '1997-02-01'
+- titel: Wijziging van de waarderingsregels als gevolg van gewijzigde wetgeving -Informatieverstrekking
+  url: https://www.cbn-cnc.be/nl/adviezen/wijziging-van-de-waarderingsregels-als-gevolg-van-gewijzigde-wetgeving
+  datum: '1988-12-01'
 ---
 
 # CBN-advies 132/2 - Voorraden waarvan de verkoopprijs door de Overheid gewaarborgd is

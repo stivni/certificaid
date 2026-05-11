@@ -1,37 +1,44 @@
 ---
-nummer: "CBN-advies 169/1"
+nummer: CBN-advies 169/1
 datum: 1995-02-01
 themas:
-  - coupon
-  - effecten
-  - effectenlening
-  - geldbeleggingen
-  - lening
-  - leningen en ontleningen van effecten
-  - vastrentende effecten
-  - Waardevermindering
-  - vergoeding voor ontbrekende coupon
-  - aandelen
+- coupon
+- effecten
+- effectenlening
+- geldbeleggingen
+- lening
+- leningen en ontleningen van effecten
+- vastrentende effecten
+- Waardevermindering
+- vergoeding voor ontbrekende coupon
+- aandelen
 bron: https://www.cbn-cnc.be/nl/adviezen/verwerking-van-leningen-en-ontleningen-van-effecten-in-de-jaarrekening-van-ondernemingen
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/verwerking-van-leningen-en-ontleningen-van-effecten-in-de-jaarrekening-van-ondernemingen
-      sha256: becb90a513b6601dde80ef71d42c2fc123218f5918b7d032f8108f2bdcab550a
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/verwerking-van-leningen-en-ontleningen-van-effecten-in-de-jaarrekening-van-ondernemingen
+    sha256: becb90a513b6601dde80ef71d42c2fc123218f5918b7d032f8108f2bdcab550a
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T18:35:34Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T18:40:03Z'
     confirmed_by: qa-laag1-auto
     rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    layer1:
+      verdict: pass
+      heading_count: 21
+      max_section_chars: 22736
+      file_size_chars: 48516
+      flags: []
+      run_id: 20260509-212552
 ---
 
 # CBN-advies 169/1 - Verwerking van leningen en ontleningen van effecten in de jaarrekening van ondernemingen

@@ -1,34 +1,43 @@
 ---
-nummer: "CBN-advies C104/1"
+nummer: CBN-advies C104/1
 datum: 1999-02-01
 themas:
-  - verkorte versie van de geconsolideerde jaarrekening
-  - geconsolideerde jaarrekening
-  - openbaarmaking
-  - openbaarmaking van de geconsolideerde jaarrekening
-  - openbaarmaking van de geconsolideerde jaarrekening op vrijwillige basis
-  - ophaling van afvalstoffen
-  - publicatie
+- verkorte versie van de geconsolideerde jaarrekening
+- geconsolideerde jaarrekening
+- openbaarmaking
+- openbaarmaking van de geconsolideerde jaarrekening
+- openbaarmaking van de geconsolideerde jaarrekening op vrijwillige basis
+- ophaling van afvalstoffen
+- publicatie
 bron: https://www.cbn-cnc.be/nl/adviezen/openbaarmaking-van-een-geconsolideerde-jaarrekening-op-vrijwillige-basis-of-op-basis-van
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/openbaarmaking-van-een-geconsolideerde-jaarrekening-op-vrijwillige-basis-of-op-basis-van
-      sha256: 2fb05ad757c30814edf40f7f6d07a8c6706298af1501a3327a02e8982ae233d9
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/openbaarmaking-van-een-geconsolideerde-jaarrekening-op-vrijwillige-basis-of-op-basis-van
+    sha256: 2fb05ad757c30814edf40f7f6d07a8c6706298af1501a3327a02e8982ae233d9
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T18:33:46Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T19:02:30Z'
     confirmed_by: subagent-laag2-ronde2
-    rationale: '[Laag-2-R2 2026-05-08] Volledig advies over art. 27 KB 6 maart 1990, reikwijdte, specifieke toepassingen en verkorte versie-regeling. Coherent als één chunk.'
+    rationale: '[Laag-2-R2 2026-05-08] Volledig advies over art. 27 KB 6 maart 1990,
+      reikwijdte, specifieke toepassingen en verkorte versie-regeling. Coherent als
+      één chunk.'
+    layer1:
+      verdict: pass
+      heading_count: 0
+      max_section_chars: 5918
+      file_size_chars: 5918
+      flags: []
+      run_id: 20260509-212552
 ---
 
 # CBN-advies C104/1 - Openbaarmaking van een geconsolideerde jaarrekening op vrijwillige basis of op basis van een andere reglementaire bepaling dan die van het koninklijk besluit van 6 maart 1990 - Verspreiding van een verkorte versie van de geconsolideerde jaarrekening

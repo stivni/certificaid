@@ -1,45 +1,52 @@
 ---
-nummer: "CBN-advies 139/8"
+nummer: CBN-advies 139/8
 datum: 1998-06-01
 themas:
-  - uitgegeven convertereerbare obligaties
-  - uitgegeven inschrijvingsrechten
-  - uitgiftepremie
-  - warrant
-  - aandelen
-  - aandel met warrant
-  - financiële schulden
-  - financiële vaste activa
-  - in aandelen converteerbare obligaties
-  - in aandelen terugbetaalbare obligaties
-  - inschrijvingsrecht
-  - obligaties
-  - obligaties met warrant
-  - toelichting
+- uitgegeven convertereerbare obligaties
+- uitgegeven inschrijvingsrechten
+- uitgiftepremie
+- warrant
+- aandelen
+- aandel met warrant
+- financiële schulden
+- financiële vaste activa
+- in aandelen converteerbare obligaties
+- in aandelen terugbetaalbare obligaties
+- inschrijvingsrecht
+- obligaties
+- obligaties met warrant
+- toelichting
 bron: https://www.cbn-cnc.be/nl/adviezen/uitgifte-van-obligaties-met-inschrijvingsrechten-die-in-aandelen-converteerbaar-of
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/uitgifte-van-obligaties-met-inschrijvingsrechten-die-in-aandelen-converteerbaar-of
-      sha256: 71f2fc6846b0a42b29c0df5f6db38b2e372ff7c0647f3636876c31b454bb11a9
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/uitgifte-van-obligaties-met-inschrijvingsrechten-die-in-aandelen-converteerbaar-of
+    sha256: 71f2fc6846b0a42b29c0df5f6db38b2e372ff7c0647f3636876c31b454bb11a9
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T18:35:08Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T18:40:03Z'
     confirmed_by: qa-laag1-auto
     rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    layer1:
+      verdict: pass
+      heading_count: 17
+      max_section_chars: 22097
+      file_size_chars: 22097
+      flags: []
+      run_id: 20260509-212552
 gerelateerde_adviezen:
-  - titel: Verwerking van uitgegeven inschrijvingsrechten in de jaarrekening
-    url: https://www.cbn-cnc.be/nl/adviezen/verwerking-van-uitgegeven-inschrijvingsrechten-in-de-jaarrekening
-    datum: '1995-03-01'
+- titel: Verwerking van uitgegeven inschrijvingsrechten in de jaarrekening
+  url: https://www.cbn-cnc.be/nl/adviezen/verwerking-van-uitgegeven-inschrijvingsrechten-in-de-jaarrekening
+  datum: '1995-03-01'
 ---
 
 # CBN-advies 139/8 - Uitgifte van obligaties met inschrijvingsrechten die in aandelen converteerbaar of terugbetaalbaar zijn, en van aandelen waaraan het recht is gekoppeld om in te schrijven op later uit te geven aandelen

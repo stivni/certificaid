@@ -1,36 +1,44 @@
 ---
-nummer: "CBN-advies 127/1"
+nummer: CBN-advies 127/1
 datum: 1980-06-01
 themas:
-  - forfaitaire waardeverminderingen op vorderingen
-  - individuele waardering
-  - vordering
-  - Waardevermindering
-  - waardevermindering op vorderingen
+- forfaitaire waardeverminderingen op vorderingen
+- individuele waardering
+- vordering
+- Waardevermindering
+- waardevermindering op vorderingen
 bron: https://www.cbn-cnc.be/nl/adviezen/forfaitaire-waardeverminderingen-op-vorderingen
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/forfaitaire-waardeverminderingen-op-vorderingen
-      sha256: cf202d171ac30f57131b3eaaf81898e5e380cb175b4d5da59f5b7bb43bfe2539
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/forfaitaire-waardeverminderingen-op-vorderingen
+    sha256: cf202d171ac30f57131b3eaaf81898e5e380cb175b4d5da59f5b7bb43bfe2539
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T18:34:43Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T19:02:30Z'
     confirmed_by: subagent-laag2-ronde2
-    rationale: '[Laag-2-R2 2026-05-08] Volledig met helder onderscheid grote individuele vs. kleine statistische vorderingen, concrete toepassingsvoorwaarden en boekingsregels.'
+    rationale: '[Laag-2-R2 2026-05-08] Volledig met helder onderscheid grote individuele
+      vs. kleine statistische vorderingen, concrete toepassingsvoorwaarden en boekingsregels.'
+    layer1:
+      verdict: pass
+      heading_count: 0
+      max_section_chars: 5332
+      file_size_chars: 5332
+      flags: []
+      run_id: 20260509-212552
 gerelateerde_adviezen:
-  - titel: Forfaitaire waardeverminderingen op vorderingen (update) [ONTWERP]
-    url: https://www.cbn-cnc.be/nl/adviezen/forfaitaire-waardeverminderingen-op-vorderingen-update-ontwerp
-    datum: '2025-05-14'
+- titel: Forfaitaire waardeverminderingen op vorderingen (update) [ONTWERP]
+  url: https://www.cbn-cnc.be/nl/adviezen/forfaitaire-waardeverminderingen-op-vorderingen-update-ontwerp
+  datum: '2025-05-14'
 ---
 
 # CBN-advies 127/1 - Forfaitaire waardeverminderingen op vorderingen

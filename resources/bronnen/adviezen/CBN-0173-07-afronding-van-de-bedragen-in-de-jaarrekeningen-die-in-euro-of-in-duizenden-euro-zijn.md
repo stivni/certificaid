@@ -1,47 +1,55 @@
 ---
-nummer: "CBN-advies 173/7"
+nummer: CBN-advies 173/7
 datum: 1998-02-01
 themas:
-  - afronding
-  - euro
-  - invoering van de euro
-  - jaarrekening
-  - opslag van afvalstoffen
-  - opstelling van de jaarrekening
-  - overschakeling op de euro
+- afronding
+- euro
+- invoering van de euro
+- jaarrekening
+- opslag van afvalstoffen
+- opstelling van de jaarrekening
+- overschakeling op de euro
 bron: https://www.cbn-cnc.be/nl/adviezen/afronding-van-de-bedragen-in-de-jaarrekeningen-die-in-euro-of-in-duizenden-euro-zijn
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/afronding-van-de-bedragen-in-de-jaarrekeningen-die-in-euro-of-in-duizenden-euro-zijn
-      sha256: 38d2f4a0c0a1b68ad4a3c68bd738ca5c7b4307a74e4a7615e65b0d588c244993
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/afronding-van-de-bedragen-in-de-jaarrekeningen-die-in-euro-of-in-duizenden-euro-zijn
+    sha256: 38d2f4a0c0a1b68ad4a3c68bd738ca5c7b4307a74e4a7615e65b0d588c244993
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T18:35:41Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T18:40:03Z'
     confirmed_by: qa-laag1-auto
     rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    layer1:
+      verdict: pass
+      heading_count: 0
+      max_section_chars: 2635
+      file_size_chars: 2635
+      flags: []
+      run_id: 20260509-212552
 gerelateerde_adviezen:
-  - titel: Afronding van betalingen in euro
-    url: https://www.cbn-cnc.be/nl/adviezen/afronding-van-betalingen-in-euro-0
-    datum: '2020-02-10'
-  - titel: Afronding van betalingen in euro
-    url: https://www.cbn-cnc.be/nl/adviezen/afronding-van-betalingen-in-euro
-    datum: '2014-09-10'
-  - titel: Aanvullende aspecten in verband met de boekhoudkundige verwerking van afrondingsverschillen bij conversie
-    url: https://www.cbn-cnc.be/nl/adviezen/aanvullende-aspecten-in-verband-met-de-boekhoudkundige-verwerking-van
-    datum: '1999-02-01'
-  - titel: Boekhoudkundige verwerking van de afrondingen bij conversie
-    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-afrondingen-bij-conversie
-    datum: '1998-02-01'
+- titel: Afronding van betalingen in euro
+  url: https://www.cbn-cnc.be/nl/adviezen/afronding-van-betalingen-in-euro-0
+  datum: '2020-02-10'
+- titel: Afronding van betalingen in euro
+  url: https://www.cbn-cnc.be/nl/adviezen/afronding-van-betalingen-in-euro
+  datum: '2014-09-10'
+- titel: Aanvullende aspecten in verband met de boekhoudkundige verwerking van afrondingsverschillen
+    bij conversie
+  url: https://www.cbn-cnc.be/nl/adviezen/aanvullende-aspecten-in-verband-met-de-boekhoudkundige-verwerking-van
+  datum: '1999-02-01'
+- titel: Boekhoudkundige verwerking van de afrondingen bij conversie
+  url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-afrondingen-bij-conversie
+  datum: '1998-02-01'
 ---
 
 # CBN-advies 173/7 - Afronding van de bedragen in de jaarrekeningen die in euro of in duizenden euro zijn opgesteld

@@ -1,54 +1,65 @@
 ---
-nummer: "CBN-advies 2010/17"
+nummer: CBN-advies 2010/17
 datum: 2010-11-10
 themas:
-  - exploitatiesubsidie
-  - fondsen van de vereniging
-  - kapitaalsubsidie
-  - legaat
-  - om niet
-  - ontvangen diensten
-  - permanente financiering
-  - schenking
-  - stichting
-  - subsidies
-  - subsidies in natura
-  - terbeschikkingstelling vaste activa
-  - vereniging zonder winstoogmerk
-  - vrijwilligersprestatie
+- exploitatiesubsidie
+- fondsen van de vereniging
+- kapitaalsubsidie
+- legaat
+- om niet
+- ontvangen diensten
+- permanente financiering
+- schenking
+- stichting
+- subsidies
+- subsidies in natura
+- terbeschikkingstelling vaste activa
+- vereniging zonder winstoogmerk
+- vrijwilligersprestatie
 bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-subsidies-schenkingen-en-legaten-in-natura-in-de
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-subsidies-schenkingen-en-legaten-in-natura-in-de
-      sha256: 279c3bba870d7298015aae568c39c23e8ca58504e4df0819d27b7b6f09a50f79
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-subsidies-schenkingen-en-legaten-in-natura-in-de
+    sha256: 279c3bba870d7298015aae568c39c23e8ca58504e4df0819d27b7b6f09a50f79
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T18:36:04Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T18:40:04Z'
     confirmed_by: qa-laag1-auto
     rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    layer1:
+      verdict: pass
+      heading_count: 15
+      max_section_chars: 3438
+      file_size_chars: 20965
+      flags: []
+      run_id: 20260509-212552
 gerelateerde_adviezen:
-  - titel: 'Ziekenhuisfinanciering: de boekhoudkundige verwerking van het instandhoudingsforfait en het strategisch forfait'
-    url: https://www.cbn-cnc.be/nl/adviezen/ziekenhuisfinanciering-de-boekhoudkundige-verwerking-van-het-instandhoudingsforfait-en-0
-    datum: '2019-03-29'
-  - titel: Boekhoudkundige verwerking van “onderzoeksfondsen” in de jaarrekening van grote en zeer grote verenigingen en stichtingen
-    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-onderzoeksfondsen-in-de-jaarrekening-van-grote-en-zeer
-    datum: '2011-07-20'
-  - titel: Overheidssubsidies
-    url: https://www.cbn-cnc.be/nl/adviezen/overheidssubsidies
-    datum: '2011-05-04'
-  - titel: Boekhoudkundige verwerking van subsidies, schenkingen en legaten, toegekend in contanten, in de jaarrekening van begunstigde grote en zeer grote verenigingen en stichtingen
-    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-subsidies-schenkingen-en-legaten-toegekend-in-contanten-in
-    datum: '2010-11-10'
+- titel: 'Ziekenhuisfinanciering: de boekhoudkundige verwerking van het instandhoudingsforfait
+    en het strategisch forfait'
+  url: https://www.cbn-cnc.be/nl/adviezen/ziekenhuisfinanciering-de-boekhoudkundige-verwerking-van-het-instandhoudingsforfait-en-0
+  datum: '2019-03-29'
+- titel: Boekhoudkundige verwerking van “onderzoeksfondsen” in de jaarrekening van
+    grote en zeer grote verenigingen en stichtingen
+  url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-onderzoeksfondsen-in-de-jaarrekening-van-grote-en-zeer
+  datum: '2011-07-20'
+- titel: Overheidssubsidies
+  url: https://www.cbn-cnc.be/nl/adviezen/overheidssubsidies
+  datum: '2011-05-04'
+- titel: Boekhoudkundige verwerking van subsidies, schenkingen en legaten, toegekend
+    in contanten, in de jaarrekening van begunstigde grote en zeer grote verenigingen
+    en stichtingen
+  url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-subsidies-schenkingen-en-legaten-toegekend-in-contanten-in
+  datum: '2010-11-10'
 ---
 
 # CBN-advies 2010/17 - Boekhoudkundige verwerking van subsidies, schenkingen en legaten in natura in de jaarrekening van begunstigde grote en zeer grote verenigingen en stichtingen

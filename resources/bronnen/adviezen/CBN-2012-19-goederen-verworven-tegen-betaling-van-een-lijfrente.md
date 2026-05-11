@@ -1,41 +1,51 @@
 ---
-nummer: "CBN-advies 2012/19"
+nummer: CBN-advies 2012/19
 datum: 2012-11-07
 themas:
-  - lijfrente
+- lijfrente
 bron: https://www.cbn-cnc.be/nl/adviezen/goederen-verworven-tegen-betaling-van-een-lijfrente
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/goederen-verworven-tegen-betaling-van-een-lijfrente
-      sha256: 2cd8f92de27086cad9c9aba0626d18cf297100f0dafb460f69a62c8c50cb4e49
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/goederen-verworven-tegen-betaling-van-een-lijfrente
+    sha256: 2cd8f92de27086cad9c9aba0626d18cf297100f0dafb460f69a62c8c50cb4e49
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T18:36:32Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T18:40:04Z'
     confirmed_by: qa-laag1-auto
     rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    layer1:
+      verdict: pass
+      heading_count: 19
+      max_section_chars: 13137
+      file_size_chars: 23551
+      flags: []
+      run_id: 20260509-212552
 gerelateerde_adviezen:
-  - titel: Voorzieningen
-    url: https://www.cbn-cnc.be/nl/adviezen/voorzieningen
-    datum: '2019-03-05'
-  - titel: Aanpassing van het bedrag van de voorziening die nodig is om de rente te betalen in functie van een verandering van de sterftetafel en/of van de evolutie van de wisselkoers van de in vreemde munt uitgedrukte rente
-    url: https://www.cbn-cnc.be/nl/adviezen/aanpassing-van-het-bedrag-van-de-voorziening-die-nodig-is-om-de-rente-te-betalen-in
-    datum: '1999-02-01'
-  - titel: Lijfrente gevestigd op twee hoofden
-    url: https://www.cbn-cnc.be/nl/adviezen/lijfrente-gevestigd-op-twee-hoofden
-    datum: '1988-06-01'
-  - titel: Inwerkingtreding van artikel 26, paragraaf 2 van het Koninklijk Besluit van 8 oktober 1976 m.b.t. de lijfrente
-    url: https://www.cbn-cnc.be/nl/adviezen/inwerkingtreding-van-artikel-26-paragraaf-2-van-het-koninklijk-besluit-van-8-oktober-1976
-    datum: '1986-01-01'
+- titel: Voorzieningen
+  url: https://www.cbn-cnc.be/nl/adviezen/voorzieningen
+  datum: '2019-03-05'
+- titel: Aanpassing van het bedrag van de voorziening die nodig is om de rente te
+    betalen in functie van een verandering van de sterftetafel en/of van de evolutie
+    van de wisselkoers van de in vreemde munt uitgedrukte rente
+  url: https://www.cbn-cnc.be/nl/adviezen/aanpassing-van-het-bedrag-van-de-voorziening-die-nodig-is-om-de-rente-te-betalen-in
+  datum: '1999-02-01'
+- titel: Lijfrente gevestigd op twee hoofden
+  url: https://www.cbn-cnc.be/nl/adviezen/lijfrente-gevestigd-op-twee-hoofden
+  datum: '1988-06-01'
+- titel: Inwerkingtreding van artikel 26, paragraaf 2 van het Koninklijk Besluit van
+    8 oktober 1976 m.b.t. de lijfrente
+  url: https://www.cbn-cnc.be/nl/adviezen/inwerkingtreding-van-artikel-26-paragraaf-2-van-het-koninklijk-besluit-van-8-oktober-1976
+  datum: '1986-01-01'
 ---
 
 # CBN-advies 2012/19 - Goederen verworven tegen betaling van een lijfrente

@@ -1,34 +1,41 @@
 ---
-nummer: "CBN-advies 159/2"
+nummer: CBN-advies 159/2
 datum: 1989-09-01
 themas:
-  - achtergestelde lening
-  - achterstellingsclausule
-  - lening
-  - lening met een achterstellingsclausule
-  - schulden
-  - specifiek achtergestelde leningen
-  - toelichting
+- achtergestelde lening
+- achterstellingsclausule
+- lening
+- lening met een achterstellingsclausule
+- schulden
+- specifiek achtergestelde leningen
+- toelichting
 bron: https://www.cbn-cnc.be/nl/adviezen/specifiek-achtergestelde-leningen
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/specifiek-achtergestelde-leningen
-      sha256: a23060a0ddd0f6b9290bde1222b9de08ac692ef2be3ce09ffd66107fdfa2111a
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/specifiek-achtergestelde-leningen
+    sha256: a23060a0ddd0f6b9290bde1222b9de08ac692ef2be3ce09ffd66107fdfa2111a
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T18:35:29Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T18:40:03Z'
     confirmed_by: qa-laag1-auto
     rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    layer1:
+      verdict: pass
+      heading_count: 0
+      max_section_chars: 3093
+      file_size_chars: 3093
+      flags: []
+      run_id: 20260509-212552
 ---
 
 # CBN-advies 159/2 - Specifiek achtergestelde leningen

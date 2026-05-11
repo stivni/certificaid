@@ -1,43 +1,51 @@
 ---
-nummer: "CBN-advies 139/2"
+nummer: CBN-advies 139/2
 datum: 1988-06-01
 themas:
-  - obligaties
-  - obligaties met warrant
-  - warrant
+- obligaties
+- obligaties met warrant
+- warrant
 bron: https://www.cbn-cnc.be/nl/adviezen/obligaties-met-warrant
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/obligaties-met-warrant
-      sha256: b62f014465cf143e0fa22c5f4b0c68c37d7e64724a3b959597911a6abe560eeb
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/obligaties-met-warrant
+    sha256: b62f014465cf143e0fa22c5f4b0c68c37d7e64724a3b959597911a6abe560eeb
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T18:35:04Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T18:40:03Z'
     confirmed_by: qa-laag1-auto
     rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    layer1:
+      verdict: pass
+      heading_count: 0
+      max_section_chars: 3656
+      file_size_chars: 3656
+      flags: []
+      run_id: 20260509-212552
 gerelateerde_adviezen:
-  - titel: Boekhoudkundige verwerking van de uitgifte van een obligatielening
-    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-uitgifte-van-een-obligatielening
-    datum: '2019-07-11'
-  - titel: Passende boekhoudkundige verwerking van de tegenwaarde van participatiecertificaten CPC&#039;s
-    url: https://www.cbn-cnc.be/nl/adviezen/passende-boekhoudkundige-verwerking-van-de-tegenwaarde-van-participatiecertificaten-cpcs
-    datum: '1991-03-01'
-  - titel: Boeking van de prorata van gelopen interest op obligaties en kasbons
-    url: https://www.cbn-cnc.be/nl/adviezen/boeking-van-de-prorata-van-gelopen-interest-op-obligaties-en-kasbons
-    datum: '1990-06-01'
-  - titel: 'Vastrentende effecten : financiële vaste activa of geldbeleggingen ? Criteria'
-    url: https://www.cbn-cnc.be/nl/adviezen/vastrentende-effecten-financiele-vaste-activa-of-geldbeleggingen-criteria
-    datum: '1984-10-01'
+- titel: Boekhoudkundige verwerking van de uitgifte van een obligatielening
+  url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-uitgifte-van-een-obligatielening
+  datum: '2019-07-11'
+- titel: Passende boekhoudkundige verwerking van de tegenwaarde van participatiecertificaten
+    CPC&#039;s
+  url: https://www.cbn-cnc.be/nl/adviezen/passende-boekhoudkundige-verwerking-van-de-tegenwaarde-van-participatiecertificaten-cpcs
+  datum: '1991-03-01'
+- titel: Boeking van de prorata van gelopen interest op obligaties en kasbons
+  url: https://www.cbn-cnc.be/nl/adviezen/boeking-van-de-prorata-van-gelopen-interest-op-obligaties-en-kasbons
+  datum: '1990-06-01'
+- titel: 'Vastrentende effecten : financiële vaste activa of geldbeleggingen ? Criteria'
+  url: https://www.cbn-cnc.be/nl/adviezen/vastrentende-effecten-financiele-vaste-activa-of-geldbeleggingen-criteria
+  datum: '1984-10-01'
 ---
 
 # CBN-advies 139/2 - Obligaties met warrant

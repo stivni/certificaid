@@ -1,33 +1,40 @@
 ---
-nummer: "CBN-advies 114/7"
+nummer: CBN-advies 114/7
 datum: 1986-07-01
 themas:
-  - beslissende invloed
-  - condominium
-  - doorslaggevende invloed
-  - joint-venture
-  - omvangcriteria
-  - verbonden onderneming
+- beslissende invloed
+- condominium
+- doorslaggevende invloed
+- joint-venture
+- omvangcriteria
+- verbonden onderneming
 bron: https://www.cbn-cnc.be/nl/adviezen/condominium
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/condominium
-      sha256: d90e6655287e42fdccee1525db502d4bd176db78351a15ce989959edfddc3211
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/condominium
+    sha256: d90e6655287e42fdccee1525db502d4bd176db78351a15ce989959edfddc3211
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T18:34:21Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T18:40:02Z'
     confirmed_by: qa-laag1-auto
     rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    layer1:
+      verdict: pass
+      heading_count: 0
+      max_section_chars: 2202
+      file_size_chars: 2202
+      flags: []
+      run_id: 20260509-212552
 ---
 
 # CBN-advies 114/7 – Condominium

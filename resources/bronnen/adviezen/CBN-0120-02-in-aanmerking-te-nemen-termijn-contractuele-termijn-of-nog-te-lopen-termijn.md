@@ -1,36 +1,43 @@
 ---
-nummer: "CBN-advies 120/2"
+nummer: CBN-advies 120/2
 datum: 1980-01-01
 themas:
-  - beschikbare waarden
-  - contractuele termijn
-  - nog te lopen termijn
-  - termijn
-  - thesauriebelegging
+- beschikbare waarden
+- contractuele termijn
+- nog te lopen termijn
+- termijn
+- thesauriebelegging
 bron: https://www.cbn-cnc.be/nl/adviezen/in-aanmerking-te-nemen-termijn-contractuele-termijn-of-nog-te-lopen-termijn
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/in-aanmerking-te-nemen-termijn-contractuele-termijn-of-nog-te-lopen-termijn
-      sha256: 250bb526c3f37563d22490c4933153d5dccd5798ededcbf5ec312e8160465477
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/in-aanmerking-te-nemen-termijn-contractuele-termijn-of-nog-te-lopen-termijn
+    sha256: 250bb526c3f37563d22490c4933153d5dccd5798ededcbf5ec312e8160465477
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T18:34:27Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T18:40:02Z'
     confirmed_by: qa-laag1-auto
     rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    layer1:
+      verdict: pass
+      heading_count: 0
+      max_section_chars: 1125
+      file_size_chars: 1125
+      flags: []
+      run_id: 20260509-212552
 gerelateerde_adviezen:
-  - titel: Het begrip &quot;financiële instelling&quot;
-    url: https://www.cbn-cnc.be/nl/adviezen/het-begrip-financiele-instelling
-    datum: '1980-01-01'
+- titel: Het begrip &quot;financiële instelling&quot;
+  url: https://www.cbn-cnc.be/nl/adviezen/het-begrip-financiele-instelling
+  datum: '1980-01-01'
 ---
 
 # CBN-advies 120/2 - In aanmerking te nemen termijn - Contractuele termijn of nog te lopen termijn

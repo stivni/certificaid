@@ -1,41 +1,48 @@
 ---
-nummer: "CBN-advies 2016/22"
+nummer: CBN-advies 2016/22
 datum: 2016-09-28
 themas:
-  - archivering
-  - bewaring
-  - bewaring van dagboeken en boeken
-  - bewaring van verantwoordingsstukken
-  - bewaringstermijn
-  - bewijsstukken
-  - continuïteit
-  - boekhoudsoftware
-  - elektronische boekhouding
-  - geïnformatiseerde boekhouding
-  - onveranderlijkheid
-  - materiële continuïteit
-  - verantwoordingsstukken
-  - toegankelijkheid
+- archivering
+- bewaring
+- bewaring van dagboeken en boeken
+- bewaring van verantwoordingsstukken
+- bewaringstermijn
+- bewijsstukken
+- continuïteit
+- boekhoudsoftware
+- elektronische boekhouding
+- geïnformatiseerde boekhouding
+- onveranderlijkheid
+- materiële continuïteit
+- verantwoordingsstukken
+- toegankelijkheid
 bron: https://www.cbn-cnc.be/nl/adviezen/bewaring-van-boeken-en-verantwoordingsstukken-bij-een-geinformatiseerde-boekhouding
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/bewaring-van-boeken-en-verantwoordingsstukken-bij-een-geinformatiseerde-boekhouding
-      sha256: 9f3f8a4363d75980f1f743c9e48767f600c6d8c853bc861b06e69958c692677f
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/bewaring-van-boeken-en-verantwoordingsstukken-bij-een-geinformatiseerde-boekhouding
+    sha256: 9f3f8a4363d75980f1f743c9e48767f600c6d8c853bc861b06e69958c692677f
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T18:37:06Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T18:40:04Z'
     confirmed_by: qa-laag1-auto
     rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    layer1:
+      verdict: pass
+      heading_count: 14
+      max_section_chars: 22520
+      file_size_chars: 24469
+      flags: []
+      run_id: 20260509-212552
 ---
 
 # CBN-advies 2016/22 - Bewaring van boeken en verantwoordingsstukken bij een geïnformatiseerde boekhouding

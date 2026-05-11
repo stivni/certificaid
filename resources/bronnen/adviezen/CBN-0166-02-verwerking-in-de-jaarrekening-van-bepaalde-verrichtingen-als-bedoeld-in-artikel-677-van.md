@@ -1,48 +1,58 @@
 ---
-nummer: "CBN-advies 166/2"
+nummer: CBN-advies 166/2
 datum: 2002-05-01
 themas:
-  - splitsing
-  - uitkering in natura
-  - aandelen
-  - toeslag
-  - afsplitsing
-  - continuïteitsbeginsel
-  - fusie
-  - inbreng
+- splitsing
+- uitkering in natura
+- aandelen
+- toeslag
+- afsplitsing
+- continuïteitsbeginsel
+- fusie
+- inbreng
 bron: https://www.cbn-cnc.be/nl/adviezen/verwerking-in-de-jaarrekening-van-bepaalde-verrichtingen-als-bedoeld-in-artikel-677-van
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/verwerking-in-de-jaarrekening-van-bepaalde-verrichtingen-als-bedoeld-in-artikel-677-van
-      sha256: 290c24edc8c5275b7f3aee2a57433e261951d543d412d3fa57b804174fdd02cb
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/verwerking-in-de-jaarrekening-van-bepaalde-verrichtingen-als-bedoeld-in-artikel-677-van
+    sha256: 290c24edc8c5275b7f3aee2a57433e261951d543d412d3fa57b804174fdd02cb
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T18:35:32Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T19:02:29Z'
     confirmed_by: subagent-laag2-ronde2
-    rationale: '[Laag-2-R2 2026-05-08] Volledig met twee interpretaties, gemotiveerde keuze voor splitsings-benadering en twee beleidsaanbevelingen.'
+    rationale: '[Laag-2-R2 2026-05-08] Volledig met twee interpretaties, gemotiveerde
+      keuze voor splitsings-benadering en twee beleidsaanbevelingen.'
+    layer1:
+      verdict: pass
+      heading_count: 0
+      max_section_chars: 7812
+      file_size_chars: 7812
+      flags: []
+      run_id: 20260509-212552
 gerelateerde_adviezen:
-  - titel: Boekhoudkundige verwerking van splitsingen van vennootschappen – negatief fiscaal nettoactief – herwaarderingsmeerwaarde (addendum bij CBN-advies 2022/01 en 2022/12)
-    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-splitsingen-van-vennootschappen-negatief-fiscaal
-    datum: '2025-04-15'
-  - titel: Boekhoudkundige verwerking van splitsingen van vennootschappen
-    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-splitsingen-van-vennootschappen
-    datum: '2022-09-19'
-  - titel: Fusies en splitsingen van vennootschappen met een negatief nettoactief
-    url: https://www.cbn-cnc.be/nl/adviezen/fusies-en-splitsingen-van-vennootschappen-met-een-negatief-nettoactief
-    datum: '2022-02-15'
-  - titel: 'Verenigingen en stichtingen: compensatie van negatieve fondsen'
-    url: https://www.cbn-cnc.be/nl/adviezen/verenigingen-en-stichtingen-compensatie-van-negatieve-fondsen
-    datum: '2021-11-22'
+- titel: Boekhoudkundige verwerking van splitsingen van vennootschappen – negatief
+    fiscaal nettoactief – herwaarderingsmeerwaarde (addendum bij CBN-advies 2022/01
+    en 2022/12)
+  url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-splitsingen-van-vennootschappen-negatief-fiscaal
+  datum: '2025-04-15'
+- titel: Boekhoudkundige verwerking van splitsingen van vennootschappen
+  url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-splitsingen-van-vennootschappen
+  datum: '2022-09-19'
+- titel: Fusies en splitsingen van vennootschappen met een negatief nettoactief
+  url: https://www.cbn-cnc.be/nl/adviezen/fusies-en-splitsingen-van-vennootschappen-met-een-negatief-nettoactief
+  datum: '2022-02-15'
+- titel: 'Verenigingen en stichtingen: compensatie van negatieve fondsen'
+  url: https://www.cbn-cnc.be/nl/adviezen/verenigingen-en-stichtingen-compensatie-van-negatieve-fondsen
+  datum: '2021-11-22'
 ---
 
 # CBN-advies 166/2 - Verwerking in de jaarrekening van bepaalde verrichtingen als bedoeld in artikel 677 van het Wetboek van vennootschappen1

@@ -1,45 +1,53 @@
 ---
-nummer: "CBN-advies 2015/10"
+nummer: CBN-advies 2015/10
 datum: 2015-12-09
 themas:
-  - consolidatie
-  - consortium
-  - consolidatieplicht
-  - maatschap
-  - subconsolidatie
+- consolidatie
+- consortium
+- consolidatieplicht
+- maatschap
+- subconsolidatie
 bron: https://www.cbn-cnc.be/nl/adviezen/vrijstelling-van-subconsolidatie-de-maatschap
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/vrijstelling-van-subconsolidatie-de-maatschap
-      sha256: cb9f51c63451b2711f97245630b93d5484b43839204be737f3c7ede4239b3f9f
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/vrijstelling-van-subconsolidatie-de-maatschap
+    sha256: cb9f51c63451b2711f97245630b93d5484b43839204be737f3c7ede4239b3f9f
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T18:36:52Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T18:40:04Z'
     confirmed_by: qa-laag1-auto
     rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    layer1:
+      verdict: pass
+      heading_count: 4
+      max_section_chars: 1552
+      file_size_chars: 3745
+      flags: []
+      run_id: 20260509-212552
 gerelateerde_adviezen:
-  - titel: Vermogensmutatiemethode
-    url: https://www.cbn-cnc.be/nl/adviezen/vermogensmutatiemethode
-    datum: '2022-09-09'
-  - titel: Consolidatie bij de horizontale groep (consortium)
-    url: https://www.cbn-cnc.be/nl/adviezen/consolidatie-bij-de-horizontale-groep-consortium-0
-    datum: '2022-07-27'
-  - titel: Transacties onder gemeenschappelijke leiding (Common control transactions) (update)
-    url: https://www.cbn-cnc.be/nl/adviezen/transacties-onder-gemeenschappelijke-leiding-common-control-transactions-update
-    datum: '2017-09-13'
-  - titel: Consolidatie bij de horizontale groep (consortium)
-    url: https://www.cbn-cnc.be/nl/adviezen/consolidatie-bij-de-horizontale-groep-consortium
-    datum: '2017-03-15'
+- titel: Vermogensmutatiemethode
+  url: https://www.cbn-cnc.be/nl/adviezen/vermogensmutatiemethode
+  datum: '2022-09-09'
+- titel: Consolidatie bij de horizontale groep (consortium)
+  url: https://www.cbn-cnc.be/nl/adviezen/consolidatie-bij-de-horizontale-groep-consortium-0
+  datum: '2022-07-27'
+- titel: Transacties onder gemeenschappelijke leiding (Common control transactions)
+    (update)
+  url: https://www.cbn-cnc.be/nl/adviezen/transacties-onder-gemeenschappelijke-leiding-common-control-transactions-update
+  datum: '2017-09-13'
+- titel: Consolidatie bij de horizontale groep (consortium)
+  url: https://www.cbn-cnc.be/nl/adviezen/consolidatie-bij-de-horizontale-groep-consortium
+  datum: '2017-03-15'
 ---
 
 # CBN-advies 2015/10 – Vrijstelling van subconsolidatie: de maatschap

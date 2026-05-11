@@ -1,33 +1,40 @@
 ---
-nummer: "CBN-advies 2009/10"
+nummer: CBN-advies 2009/10
 datum: 2009-09-16
 themas:
-  - financieringsvennootschappen
-  - functionele munt
-  - functionele valuta
-  - special purpose entity
-  - treasury vennootschappen
-  - afwijking
+- financieringsvennootschappen
+- functionele munt
+- functionele valuta
+- special purpose entity
+- treasury vennootschappen
+- afwijking
 bron: https://www.cbn-cnc.be/nl/adviezen/bepaling-van-de-functionele-valuta-bij-financieringsvennootschappen
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/bepaling-van-de-functionele-valuta-bij-financieringsvennootschappen
-      sha256: 0d99ed3da1c845b15c6d59f468f49f333307bc37fdc538f29da9b2b82ff3505b
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/bepaling-van-de-functionele-valuta-bij-financieringsvennootschappen
+    sha256: 0d99ed3da1c845b15c6d59f468f49f333307bc37fdc538f29da9b2b82ff3505b
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T18:35:51Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T18:40:03Z'
     confirmed_by: qa-laag1-auto
     rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    layer1:
+      verdict: pass
+      heading_count: 2
+      max_section_chars: 7308
+      file_size_chars: 7308
+      flags: []
+      run_id: 20260509-212552
 ---
 
 # CBN-advies 2009/10 - Bepaling van de functionele valuta bij financieringsvennootschappen

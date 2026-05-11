@@ -1,48 +1,56 @@
 ---
-nummer: "CBN-advies 138/5"
+nummer: CBN-advies 138/5
 datum: 1995-10-01
 themas:
-  - gereed produkt
-  - immateriële vaste activa
-  - intern ontwikkelde standaardsoftware
-  - kosten
-  - software
-  - software bestemd voor commercialisatie
-  - software ontwikkeld op maat
-  - standaardsoftware
-  - toepassings- of applicatiesoftware
-  - toepassingssoftware bestemd voor commercialisatie
-  - toepassingssoftware voor intern gebruik
+- gereed produkt
+- immateriële vaste activa
+- intern ontwikkelde standaardsoftware
+- kosten
+- software
+- software bestemd voor commercialisatie
+- software ontwikkeld op maat
+- standaardsoftware
+- toepassings- of applicatiesoftware
+- toepassingssoftware bestemd voor commercialisatie
+- toepassingssoftware voor intern gebruik
 bron: https://www.cbn-cnc.be/nl/adviezen/software
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/software
-      sha256: ebff870067b0ffe7325d9400ce25b349b5144743046d2d6da127a68f34c820c3
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/software
+    sha256: ebff870067b0ffe7325d9400ce25b349b5144743046d2d6da127a68f34c820c3
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T18:35:03Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T18:40:03Z'
     confirmed_by: qa-laag1-auto
     rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    layer1:
+      verdict: pass
+      heading_count: 13
+      max_section_chars: 9614
+      file_size_chars: 12730
+      flags: []
+      run_id: 20260509-212552
 gerelateerde_adviezen:
-  - titel: Boekhoudkundige verwerking van afvalstoffen
-    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-afvalstoffen
-    datum: '1995-03-01'
-  - titel: Boeking en waardering van voorraden
-    url: https://www.cbn-cnc.be/nl/adviezen/boeking-en-waardering-van-voorraden
-    datum: '1996-11-01'
-  - titel: 'Vervaardigingsprijs : correctie van de Nederlandse tekst van artikel 22 van het Koninklijk Besluit van 8 oktober 1976'
-    url: https://www.cbn-cnc.be/nl/adviezen/vervaardigingsprijs-correctie-van-de-nederlandse-tekst-van-artikel-22-van-het-koninklijk
-    datum: '1986-01-01'
+- titel: Boekhoudkundige verwerking van afvalstoffen
+  url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-afvalstoffen
+  datum: '1995-03-01'
+- titel: Boeking en waardering van voorraden
+  url: https://www.cbn-cnc.be/nl/adviezen/boeking-en-waardering-van-voorraden
+  datum: '1996-11-01'
+- titel: 'Vervaardigingsprijs : correctie van de Nederlandse tekst van artikel 22
+    van het Koninklijk Besluit van 8 oktober 1976'
+  url: https://www.cbn-cnc.be/nl/adviezen/vervaardigingsprijs-correctie-van-de-nederlandse-tekst-van-artikel-22-van-het-koninklijk
+  datum: '1986-01-01'
 ---
 
 # CBN-advies 138/5 - Software

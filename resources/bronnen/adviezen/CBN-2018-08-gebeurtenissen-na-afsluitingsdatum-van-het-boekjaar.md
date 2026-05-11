@@ -1,45 +1,53 @@
 ---
-nummer: "CBN-advies 2018/08"
+nummer: CBN-advies 2018/08
 datum: 2018-05-09
 themas:
-  - balansdatum
-  - afsluitdatum
-  - afsluitingsdatum
-  - niet in de balans opgenomen rechten en verplichtingen
-  - algemene vergadering
-  - gebeurtenissen na balansdatum
-  - gebeurtenissen na afsluitdatum
-  - gebeurtenissen na afsluitingsdatum
+- balansdatum
+- afsluitdatum
+- afsluitingsdatum
+- niet in de balans opgenomen rechten en verplichtingen
+- algemene vergadering
+- gebeurtenissen na balansdatum
+- gebeurtenissen na afsluitdatum
+- gebeurtenissen na afsluitingsdatum
 bron: https://www.cbn-cnc.be/nl/adviezen/gebeurtenissen-na-afsluitingsdatum-van-het-boekjaar
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/gebeurtenissen-na-afsluitingsdatum-van-het-boekjaar
-      sha256: 74a69f07fac32c70f0adfdc99ef68a659721a0189c87dfc139b990f3ab6fae9f
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/gebeurtenissen-na-afsluitingsdatum-van-het-boekjaar
+    sha256: 74a69f07fac32c70f0adfdc99ef68a659721a0189c87dfc139b990f3ab6fae9f
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T18:37:21Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T18:40:04Z'
     confirmed_by: qa-laag1-auto
     rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    layer1:
+      verdict: pass
+      heading_count: 12
+      max_section_chars: 8553
+      file_size_chars: 21589
+      flags: []
+      run_id: 20260509-212552
 gerelateerde_adviezen:
-  - titel: Beoordeling van de groottecriteria overeenkomstig artikelen 1:24 en 1:25 van het Wetboek van vennootschappen en verenigingen
-    url: https://www.cbn-cnc.be/nl/adviezen/beoordeling-van-de-groottecriteria-overeenkomstig-artikelen-124-en-125-van-het-wetboek-van
-    datum: '2022-03-15'
-  - titel: Afsluitingsdatum van het boekjaar
-    url: https://www.cbn-cnc.be/nl/adviezen/afsluitingsdatum-van-het-boekjaar
-    datum: '2014-04-23'
-  - titel: Berekening criteria artikel 15 W.Venn.
-    url: https://www.cbn-cnc.be/nl/adviezen/berekening-criteria-artikel-15-wvenn
-    datum: '2010-05-19'
+- titel: Beoordeling van de groottecriteria overeenkomstig artikelen 1:24 en 1:25
+    van het Wetboek van vennootschappen en verenigingen
+  url: https://www.cbn-cnc.be/nl/adviezen/beoordeling-van-de-groottecriteria-overeenkomstig-artikelen-124-en-125-van-het-wetboek-van
+  datum: '2022-03-15'
+- titel: Afsluitingsdatum van het boekjaar
+  url: https://www.cbn-cnc.be/nl/adviezen/afsluitingsdatum-van-het-boekjaar
+  datum: '2014-04-23'
+- titel: Berekening criteria artikel 15 W.Venn.
+  url: https://www.cbn-cnc.be/nl/adviezen/berekening-criteria-artikel-15-wvenn
+  datum: '2010-05-19'
 ---
 
 # CBN-advies 2018/08 – Gebeurtenissen na afsluitingsdatum van het boekjaar

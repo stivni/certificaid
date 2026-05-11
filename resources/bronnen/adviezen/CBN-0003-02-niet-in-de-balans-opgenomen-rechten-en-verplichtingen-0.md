@@ -1,43 +1,52 @@
 ---
-nummer: "CBN-advies 3/2"
+nummer: CBN-advies 3/2
 datum: 1988-01-01
 themas:
-  - buiten balans
-  - goederen en waarden gehouden door derden in hun naam, maar ten bate en op risico van de onderneming
-  - goederen en waarden van derden gehouden door de onderneming
-  - niet in de balans opgenomen rechten en verplichtingen
-  - ontvangen zekerheden
-  - persoonlijke zekerheden gesteld voor rekening van derden
-  - termijn
-  - termijnovereenkomst
-  - verplichting tot aan- en verkoop van vaste activa
-  - zakelijke zekerheden
-  - zekerheden
-  - zekerheden door derden gesteld voor rekening van de onderneming
+- buiten balans
+- goederen en waarden gehouden door derden in hun naam, maar ten bate en op risico
+  van de onderneming
+- goederen en waarden van derden gehouden door de onderneming
+- niet in de balans opgenomen rechten en verplichtingen
+- ontvangen zekerheden
+- persoonlijke zekerheden gesteld voor rekening van derden
+- termijn
+- termijnovereenkomst
+- verplichting tot aan- en verkoop van vaste activa
+- zakelijke zekerheden
+- zekerheden
+- zekerheden door derden gesteld voor rekening van de onderneming
 bron: https://www.cbn-cnc.be/nl/adviezen/niet-in-de-balans-opgenomen-rechten-en-verplichtingen-0
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/niet-in-de-balans-opgenomen-rechten-en-verplichtingen-0
-      sha256: 9cb5fc236fcf116896c53d7729c5102ef151474280391fee0125c0d5949753e8
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/niet-in-de-balans-opgenomen-rechten-en-verplichtingen-0
+    sha256: 9cb5fc236fcf116896c53d7729c5102ef151474280391fee0125c0d5949753e8
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T18:33:22Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T19:02:28Z'
     confirmed_by: subagent-laag2-ronde2
-    rationale: "[Laag-2-R2 2026-05-08] Compleet advies over klasse 0-rekeningen. OCR-artefacten (dubbele spaties, typo 'janari') maar inhoud volledig leesbaar en coherent."
+    rationale: '[Laag-2-R2 2026-05-08] Compleet advies over klasse 0-rekeningen. OCR-artefacten
+      (dubbele spaties, typo ''janari'') maar inhoud volledig leesbaar en coherent.'
+    layer1:
+      verdict: pass
+      heading_count: 0
+      max_section_chars: 9294
+      file_size_chars: 9294
+      flags: []
+      run_id: 20260509-212552
 gerelateerde_adviezen:
-  - titel: Niet in de balans opgenomen rechten en verplichtingen
-    url: https://www.cbn-cnc.be/nl/adviezen/niet-in-de-balans-opgenomen-rechten-en-verplichtingen
-    datum: '2017-03-15'
+- titel: Niet in de balans opgenomen rechten en verplichtingen
+  url: https://www.cbn-cnc.be/nl/adviezen/niet-in-de-balans-opgenomen-rechten-en-verplichtingen
+  datum: '2017-03-15'
 ---
 
 # CBN-advies 3-2 - Niet in de balans opgenomen rechten en verplichtingen

@@ -1,46 +1,55 @@
 ---
-nummer: "CBN-advies 175/2"
+nummer: CBN-advies 175/2
 datum: 2000-02-01
 themas:
-  - toelichting
-  - voorzichtigheidsbeginsel
-  - voorziening
-  - maribel bis en ter steun
-  - minimis-regel
-  - lastenverlaging
+- toelichting
+- voorzichtigheidsbeginsel
+- voorziening
+- maribel bis en ter steun
+- minimis-regel
+- lastenverlaging
 bron: https://www.cbn-cnc.be/nl/adviezen/verwerking-in-de-jaarrekening-over-het-boekjaar-1999-van-de-maribel-bis-en-ter-steun
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/verwerking-in-de-jaarrekening-over-het-boekjaar-1999-van-de-maribel-bis-en-ter-steun
-      sha256: 6efb7cfc7d3011cbd60b383d4b42c44c3ad372c00a923d92f23bd7b598ec9e9e
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/verwerking-in-de-jaarrekening-over-het-boekjaar-1999-van-de-maribel-bis-en-ter-steun
+    sha256: 6efb7cfc7d3011cbd60b383d4b42c44c3ad372c00a923d92f23bd7b598ec9e9e
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T18:35:44Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T18:40:03Z'
     confirmed_by: qa-laag1-auto
     rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    layer1:
+      verdict: pass
+      heading_count: 3
+      max_section_chars: 3179
+      file_size_chars: 9456
+      flags: []
+      run_id: 20260509-212552
 gerelateerde_adviezen:
-  - titel: 'Vereniging van aandelen in handen van één enkele rechtspersoon: vermeldingen in de toelichting'
-    url: https://www.cbn-cnc.be/nl/adviezen/vereniging-van-aandelen-in-handen-van-een-enkele-rechtspersoon-vermeldingen-in-de
-    datum: '2018-05-09'
-  - titel: 'Onbeperkt aansprakelijke vennoot: vermeldingen in de jaarrekening'
-    url: https://www.cbn-cnc.be/nl/adviezen/onbeperkt-aansprakelijke-vennoot-vermeldingen-in-de-jaarrekening
-    datum: '2017-09-13'
-  - titel: Opname van financiële vaste activa geboekt tegen een hoger bedrag dan hun reële waarde in de toelichting van de jaarrekening
-    url: https://www.cbn-cnc.be/nl/adviezen/opname-van-financiele-vaste-activa-geboekt-tegen-een-hoger-bedrag-dan-hun-reele-waarde-in
-    datum: '2017-05-31'
-  - titel: 'Afwijking inzake functionele valuta: praktische implicaties en procedure'
-    url: https://www.cbn-cnc.be/nl/adviezen/afwijking-inzake-functionele-valuta-praktische-implicaties-en-procedure
-    datum: '2011-05-04'
+- titel: 'Vereniging van aandelen in handen van één enkele rechtspersoon: vermeldingen
+    in de toelichting'
+  url: https://www.cbn-cnc.be/nl/adviezen/vereniging-van-aandelen-in-handen-van-een-enkele-rechtspersoon-vermeldingen-in-de
+  datum: '2018-05-09'
+- titel: 'Onbeperkt aansprakelijke vennoot: vermeldingen in de jaarrekening'
+  url: https://www.cbn-cnc.be/nl/adviezen/onbeperkt-aansprakelijke-vennoot-vermeldingen-in-de-jaarrekening
+  datum: '2017-09-13'
+- titel: Opname van financiële vaste activa geboekt tegen een hoger bedrag dan hun
+    reële waarde in de toelichting van de jaarrekening
+  url: https://www.cbn-cnc.be/nl/adviezen/opname-van-financiele-vaste-activa-geboekt-tegen-een-hoger-bedrag-dan-hun-reele-waarde-in
+  datum: '2017-05-31'
+- titel: 'Afwijking inzake functionele valuta: praktische implicaties en procedure'
+  url: https://www.cbn-cnc.be/nl/adviezen/afwijking-inzake-functionele-valuta-praktische-implicaties-en-procedure
+  datum: '2011-05-04'
 ---
 
 # CBN-advies 175/2 - Verwerking in de jaarrekening over het boekjaar 1999 van de "Maribel bis en ter"-steun toegekend voor de boekjaren 1993, 1994,1995 en 1996

@@ -1,38 +1,46 @@
 ---
-nummer: "CBN-advies 179/1"
+nummer: CBN-advies 179/1
 datum: 2004-11-01
 themas:
-  - broeikasgasemissierechten
-  - bruto-methode
-  - emissierechten
-  - emissierechtensysteem
-  - immateriële vaste activa
-  - netto-methode
-  - toelichting
+- broeikasgasemissierechten
+- bruto-methode
+- emissierechten
+- emissierechtensysteem
+- immateriële vaste activa
+- netto-methode
+- toelichting
 bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-broeikasgasemissierechten
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-broeikasgasemissierechten
-      sha256: 318b60ea7b396ab94915e412a3588e4ba56412cb3fd533851ebf265b424273f2
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-broeikasgasemissierechten
+    sha256: 318b60ea7b396ab94915e412a3588e4ba56412cb3fd533851ebf265b424273f2
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T18:35:46Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T18:40:03Z'
     confirmed_by: qa-laag1-auto
     rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    layer1:
+      verdict: pass
+      heading_count: 11
+      max_section_chars: 11661
+      file_size_chars: 25289
+      flags: []
+      run_id: 20260509-212552
 gerelateerde_adviezen:
-  - titel: Boekhoudkundige verwerking van een overschot aan broeikasgasemissierechten door een onderneming die de nettomethode toepast
-    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-een-overschot-aan-broeikasgasemissierechten-door-een
-    datum: '2012-01-11'
+- titel: Boekhoudkundige verwerking van een overschot aan broeikasgasemissierechten
+    door een onderneming die de nettomethode toepast
+  url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-een-overschot-aan-broeikasgasemissierechten-door-een
+  datum: '2012-01-11'
 ---
 
 # CBN-advies 179/1 van 26 november 2008 (Update november 2008)

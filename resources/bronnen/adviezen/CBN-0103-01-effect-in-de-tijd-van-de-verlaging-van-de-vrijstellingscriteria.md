@@ -1,33 +1,41 @@
 ---
-nummer: "CBN-advies C103/1"
+nummer: CBN-advies C103/1
 datum: 1998-06-01
 themas:
-  - verlaging vrijstellingscriteria
-  - vrijstellingscriteria
-  - criteria
-  - geconsolideerde jaarrekening
-  - omvangcriteria
-  - omzet
+- verlaging vrijstellingscriteria
+- vrijstellingscriteria
+- criteria
+- geconsolideerde jaarrekening
+- omvangcriteria
+- omzet
 bron: https://www.cbn-cnc.be/nl/adviezen/effect-in-de-tijd-van-de-verlaging-van-de-vrijstellingscriteria
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/effect-in-de-tijd-van-de-verlaging-van-de-vrijstellingscriteria
-      sha256: fd5087436ab3b5249b238afe2eb2b9d6955b87b2320ab6cee896f44f6817fbde
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/effect-in-de-tijd-van-de-verlaging-van-de-vrijstellingscriteria
+    sha256: fd5087436ab3b5249b238afe2eb2b9d6955b87b2320ab6cee896f44f6817fbde
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T18:33:43Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T19:02:29Z'
     confirmed_by: subagent-laag2-ronde2
-    rationale: '[Laag-2-R2 2026-05-08] Volledig met probleemstelling, twee interpretaties, aanbeveling Contactcomité en synthesetabel.'
+    rationale: '[Laag-2-R2 2026-05-08] Volledig met probleemstelling, twee interpretaties,
+      aanbeveling Contactcomité en synthesetabel.'
+    layer1:
+      verdict: pass
+      heading_count: 1
+      max_section_chars: 6172
+      file_size_chars: 8014
+      flags: []
+      run_id: 20260509-212552
 ---
 
 # CBN-advies C103/1 - Effect in de tijd van de verlaging van de vrijstellingscriteria

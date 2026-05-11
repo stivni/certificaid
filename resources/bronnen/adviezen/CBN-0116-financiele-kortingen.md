@@ -1,32 +1,40 @@
 ---
-nummer: "CBN-advies 116"
+nummer: CBN-advies 116
 datum: 1979-05-01
 themas:
-  - financiële korting
+- financiële korting
 bron: https://www.cbn-cnc.be/nl/adviezen/financiele-kortingen
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/financiele-kortingen
-      sha256: a267635240227b1356f102bc544cb9ce1610a55c29d3aa9413dd786800b7e24a
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/financiele-kortingen
+    sha256: a267635240227b1356f102bc544cb9ce1610a55c29d3aa9413dd786800b7e24a
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T18:34:22Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T18:40:02Z'
     confirmed_by: qa-laag1-auto
     rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    layer1:
+      verdict: pass
+      heading_count: 0
+      max_section_chars: 2758
+      file_size_chars: 2758
+      flags: []
+      run_id: 20260509-212552
 gerelateerde_adviezen:
-  - titel: Boekhoudkundige verwerking van interesten en andere bedragen verschuldigd wegens betalingsachterstand
-    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-interesten-en-andere-bedragen-verschuldigd-wegens
-    datum: '2022-08-29'
+- titel: Boekhoudkundige verwerking van interesten en andere bedragen verschuldigd
+    wegens betalingsachterstand
+  url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-interesten-en-andere-bedragen-verschuldigd-wegens
+  datum: '2022-08-29'
 ---
 
 # CBN-advies 116 - Financiële kortingen

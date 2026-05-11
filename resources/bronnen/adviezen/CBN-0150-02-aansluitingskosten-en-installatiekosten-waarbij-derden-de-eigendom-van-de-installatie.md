@@ -1,39 +1,47 @@
 ---
-nummer: "CBN-advies 150/2"
+nummer: CBN-advies 150/2
 datum: 1989-07-01
 themas:
-  - aansluitingskost
-  - gebouw
-  - installatie
-  - installatiekosten
-  - kosten van aansluiting
-  - kosten voor inrichting van gehuurde gebouwen
-  - materiële vaste activa
-  - overige materiële vaste activa
+- aansluitingskost
+- gebouw
+- installatie
+- installatiekosten
+- kosten van aansluiting
+- kosten voor inrichting van gehuurde gebouwen
+- materiële vaste activa
+- overige materiële vaste activa
 bron: https://www.cbn-cnc.be/nl/adviezen/aansluitingskosten-en-installatiekosten-waarbij-derden-de-eigendom-van-de-installatie
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/aansluitingskosten-en-installatiekosten-waarbij-derden-de-eigendom-van-de-installatie
-      sha256: aa9ff2799f9e6d5d9f4ce06c41b13a64d71db5420c121889069592a5b6f1acff
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/aansluitingskosten-en-installatiekosten-waarbij-derden-de-eigendom-van-de-installatie
+    sha256: aa9ff2799f9e6d5d9f4ce06c41b13a64d71db5420c121889069592a5b6f1acff
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T18:35:17Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T18:40:03Z'
     confirmed_by: qa-laag1-auto
     rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    layer1:
+      verdict: pass
+      heading_count: 0
+      max_section_chars: 1169
+      file_size_chars: 1169
+      flags: []
+      run_id: 20260509-212552
 gerelateerde_adviezen:
-  - titel: Aansluitingskosten en installatiekosten waarbij derden de eigendom van de installatie verwerven of behouden (update) [ONTWERP]
-    url: https://www.cbn-cnc.be/nl/adviezen/aansluitingskosten-en-installatiekosten-waarbij-derden-de-eigendom-van-de-installatie-0
-    datum: '2025-07-14'
+- titel: Aansluitingskosten en installatiekosten waarbij derden de eigendom van de
+    installatie verwerven of behouden (update) [ONTWERP]
+  url: https://www.cbn-cnc.be/nl/adviezen/aansluitingskosten-en-installatiekosten-waarbij-derden-de-eigendom-van-de-installatie-0
+  datum: '2025-07-14'
 ---
 
 # CBN-advies 150/2 - Aansluitingskosten en installatiekosten waarbij derden de eigendom van de installatie verwerven of behouden

@@ -1,36 +1,43 @@
 ---
-nummer: "CBN-advies 2019/10"
+nummer: CBN-advies 2019/10
 datum: 2019-09-30
 themas:
-  - boekhoudkundige verplichting
-  - vrij beroep
-  - boekhoudplichtige onderneming
-  - dubbele boekhouding
-  - vereenvoudigde boekhouding
-  - omzetcijfer
-  - publicatie
-  - openbaarmaking
-  - jaarrekening
+- boekhoudkundige verplichting
+- vrij beroep
+- boekhoudplichtige onderneming
+- dubbele boekhouding
+- vereenvoudigde boekhouding
+- omzetcijfer
+- publicatie
+- openbaarmaking
+- jaarrekening
 bron: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-en-jaarrekeningrechtelijke-verplichtingen-van-een-beoefenaar-van-een-0
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-en-jaarrekeningrechtelijke-verplichtingen-van-een-beoefenaar-van-een-0
-      sha256: 7d925eef4c564534b49c0be59c27ce430bea5653fea0641887cda8ac5c889f72
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-en-jaarrekeningrechtelijke-verplichtingen-van-een-beoefenaar-van-een-0
+    sha256: 7d925eef4c564534b49c0be59c27ce430bea5653fea0641887cda8ac5c889f72
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T18:37:42Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T18:40:05Z'
     confirmed_by: qa-laag1-auto
     rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    layer1:
+      verdict: pass
+      heading_count: 7
+      max_section_chars: 6504
+      file_size_chars: 19080
+      flags: []
+      run_id: 20260509-212552
 ---
 
 # CBN-advies 2019/10 – De boekhoudkundige en jaarrekeningrechtelijke verplichtingen van een beoefenaar van een vrij beroep

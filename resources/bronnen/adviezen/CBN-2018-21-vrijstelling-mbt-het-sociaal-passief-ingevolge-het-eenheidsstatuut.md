@@ -1,35 +1,42 @@
 ---
-nummer: "CBN-advies 2018/21"
+nummer: CBN-advies 2018/21
 datum: 2018-11-28
 themas:
-  - sociaal passief
-  - eenheidsstatuut
-  - fiscale vrijstelling
-  - belastinglatentie
+- sociaal passief
+- eenheidsstatuut
+- fiscale vrijstelling
+- belastinglatentie
 bron: https://www.cbn-cnc.be/nl/adviezen/vrijstelling-mbt-het-sociaal-passief-ingevolge-het-eenheidsstatuut
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/vrijstelling-mbt-het-sociaal-passief-ingevolge-het-eenheidsstatuut
-      sha256: c71ec7d9c8f537088d54151d46dea7a11d4210e362c8b7e4ea7ea4a8398c69dc
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/vrijstelling-mbt-het-sociaal-passief-ingevolge-het-eenheidsstatuut
+    sha256: c71ec7d9c8f537088d54151d46dea7a11d4210e362c8b7e4ea7ea4a8398c69dc
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T18:37:30Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T18:40:05Z'
     confirmed_by: qa-laag1-auto
     rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    layer1:
+      verdict: pass
+      heading_count: 3
+      max_section_chars: 4073
+      file_size_chars: 6587
+      flags: []
+      run_id: 20260509-212552
 gerelateerde_adviezen:
-  - titel: Belastingvrije provisie voor sociaal passief
-    url: https://www.cbn-cnc.be/nl/adviezen/belastingvrije-provisie-voor-sociaal-passief
-    datum: '1983-04-10'
+- titel: Belastingvrije provisie voor sociaal passief
+  url: https://www.cbn-cnc.be/nl/adviezen/belastingvrije-provisie-voor-sociaal-passief
+  datum: '1983-04-10'
 ---
 
 # CBN-advies 2018/21 – Vrijstelling m.b.t. het sociaal passief ingevolge het eenheidsstatuut

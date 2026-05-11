@@ -1,47 +1,54 @@
 ---
-nummer: "CBN-advies 2022/08"
+nummer: CBN-advies 2022/08
 datum: 2022-07-20
 themas:
-  - waarderingsregels
-  - continuïteitsbeginsel
-  - continuïteit
-  - openingsbalans
-  - materiële vaste activa
-  - herwaarderingsmeerwaarde
-  - boekhoudkundig referentiestelsel
+- waarderingsregels
+- continuïteitsbeginsel
+- continuïteit
+- openingsbalans
+- materiële vaste activa
+- herwaarderingsmeerwaarde
+- boekhoudkundig referentiestelsel
 bron: https://www.cbn-cnc.be/nl/adviezen/wijziging-van-het-boekhoudkundig-referentiestelsel
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/wijziging-van-het-boekhoudkundig-referentiestelsel
-      sha256: 4581799d96586ed35899b164c302b080832536eee5338dc6eacc1cad5abaa33e
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/wijziging-van-het-boekhoudkundig-referentiestelsel
+    sha256: 4581799d96586ed35899b164c302b080832536eee5338dc6eacc1cad5abaa33e
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T18:38:11Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T18:40:05Z'
     confirmed_by: qa-laag1-auto
     rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    layer1:
+      verdict: pass
+      heading_count: 16
+      max_section_chars: 8550
+      file_size_chars: 22713
+      flags: []
+      run_id: 20260509-212552
 gerelateerde_adviezen:
-  - titel: Verslaggeving bij ontbinding en vereffening van een VZW of IVZW
-    url: https://www.cbn-cnc.be/nl/adviezen/verslaggeving-bij-ontbinding-en-vereffening-van-een-vzw-of-ivzw
-    datum: '2022-04-27'
-  - titel: Verslaggeving bij ontbinding en vereffening van BV, CV, NV, SE en SCE
-    url: https://www.cbn-cnc.be/nl/adviezen/verslaggeving-bij-ontbinding-en-vereffening-van-bv-cv-nv-se-en-sce
-    datum: '2022-04-01'
-  - titel: Verenigingen en stichtingen – Vereenvoudigde boekhouding - Waarderingsregels
-    url: https://www.cbn-cnc.be/nl/adviezen/verenigingen-en-stichtingen-vereenvoudigde-boekhouding-waarderingsregels
-    datum: '2020-04-30'
-  - titel: Gevolgen op gebied van financiële rapportering als gevolg van de brexit
-    url: https://www.cbn-cnc.be/nl/adviezen/gevolgen-op-gebied-van-financiele-rapportering-als-gevolg-van-de-brexit-0
-    datum: '2019-04-12'
+- titel: Verslaggeving bij ontbinding en vereffening van een VZW of IVZW
+  url: https://www.cbn-cnc.be/nl/adviezen/verslaggeving-bij-ontbinding-en-vereffening-van-een-vzw-of-ivzw
+  datum: '2022-04-27'
+- titel: Verslaggeving bij ontbinding en vereffening van BV, CV, NV, SE en SCE
+  url: https://www.cbn-cnc.be/nl/adviezen/verslaggeving-bij-ontbinding-en-vereffening-van-bv-cv-nv-se-en-sce
+  datum: '2022-04-01'
+- titel: Verenigingen en stichtingen – Vereenvoudigde boekhouding - Waarderingsregels
+  url: https://www.cbn-cnc.be/nl/adviezen/verenigingen-en-stichtingen-vereenvoudigde-boekhouding-waarderingsregels
+  datum: '2020-04-30'
+- titel: Gevolgen op gebied van financiële rapportering als gevolg van de brexit
+  url: https://www.cbn-cnc.be/nl/adviezen/gevolgen-op-gebied-van-financiele-rapportering-als-gevolg-van-de-brexit-0
+  datum: '2019-04-12'
 ---
 
 # CBN-advies 2022/08 – Wijziging van het boekhoudkundig referentiestelsel

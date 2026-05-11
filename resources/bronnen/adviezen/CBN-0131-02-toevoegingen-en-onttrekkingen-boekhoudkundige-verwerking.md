@@ -1,43 +1,51 @@
 ---
-nummer: "CBN-advies 131/2"
+nummer: CBN-advies 131/2
 datum: 1985-09-01
 themas:
-  - belastingvrije reserves
-  - onttrekking aan de belastingvrije reserves
-  - toevoeging aan de belastingvrije reserves
+- belastingvrije reserves
+- onttrekking aan de belastingvrije reserves
+- toevoeging aan de belastingvrije reserves
 bron: https://www.cbn-cnc.be/nl/adviezen/toevoegingen-en-onttrekkingen-boekhoudkundige-verwerking
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/toevoegingen-en-onttrekkingen-boekhoudkundige-verwerking
-      sha256: e5d9c1109c84f82c4e79ce025649017333d189c32af26b16f1980baf13296ab2
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/toevoegingen-en-onttrekkingen-boekhoudkundige-verwerking
+    sha256: e5d9c1109c84f82c4e79ce025649017333d189c32af26b16f1980baf13296ab2
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T18:34:48Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T18:40:03Z'
     confirmed_by: qa-laag1-auto
     rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    layer1:
+      verdict: pass
+      heading_count: 2
+      max_section_chars: 4059
+      file_size_chars: 4059
+      flags: []
+      run_id: 20260509-212552
 gerelateerde_adviezen:
-  - titel: Boekhoudrechtelijke verwerking van de wederopbouwreserve
-    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudrechtelijke-verwerking-van-de-wederopbouwreserve
-    datum: '2021-07-12'
-  - titel: Invloed van het buitengerechtelijk minnelijk akkoord en de gerechtelijke reorganisatie op de schulden en vorderingen (update)
-    url: https://www.cbn-cnc.be/nl/adviezen/invloed-van-het-buitengerechtelijk-minnelijk-akkoord-en-de-gerechtelijke-reorganisatie-1
-    datum: '2021-05-12'
-  - titel: Tax shelter voor podiumkunsten
-    url: https://www.cbn-cnc.be/nl/adviezen/tax-shelter-voor-podiumkunsten
-    datum: '2018-05-30'
-  - titel: Aftrek voor innovatie-inkomsten
-    url: https://www.cbn-cnc.be/nl/adviezen/aftrek-voor-innovatie-inkomsten
-    datum: '2018-03-21'
+- titel: Boekhoudrechtelijke verwerking van de wederopbouwreserve
+  url: https://www.cbn-cnc.be/nl/adviezen/boekhoudrechtelijke-verwerking-van-de-wederopbouwreserve
+  datum: '2021-07-12'
+- titel: Invloed van het buitengerechtelijk minnelijk akkoord en de gerechtelijke
+    reorganisatie op de schulden en vorderingen (update)
+  url: https://www.cbn-cnc.be/nl/adviezen/invloed-van-het-buitengerechtelijk-minnelijk-akkoord-en-de-gerechtelijke-reorganisatie-1
+  datum: '2021-05-12'
+- titel: Tax shelter voor podiumkunsten
+  url: https://www.cbn-cnc.be/nl/adviezen/tax-shelter-voor-podiumkunsten
+  datum: '2018-05-30'
+- titel: Aftrek voor innovatie-inkomsten
+  url: https://www.cbn-cnc.be/nl/adviezen/aftrek-voor-innovatie-inkomsten
+  datum: '2018-03-21'
 ---
 
 # CBN-advies 131/2 - Toevoegingen en onttrekkingen - Boekhoudkundige verwerking

@@ -1,45 +1,53 @@
 ---
-nummer: "CBN-advies 126/16"
+nummer: CBN-advies 126/16
 datum: 1999-02-01
 themas:
-  - aandelen
-  - aandeel ontvangen n.a.v. een in het buitenland verwezenlijkte fusie
-  - fusie
-  - fusie van buitenlandse vennootschappen
-  - in het buitenland verwezenlijkte fusie
+- aandelen
+- aandeel ontvangen n.a.v. een in het buitenland verwezenlijkte fusie
+- fusie
+- fusie van buitenlandse vennootschappen
+- in het buitenland verwezenlijkte fusie
 bron: https://www.cbn-cnc.be/nl/adviezen/aanschaffingswaarde-van-de-aandelen-ontvangen-naar-aanleiding-van-een-in-het-buitenland
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/aanschaffingswaarde-van-de-aandelen-ontvangen-naar-aanleiding-van-een-in-het-buitenland
-      sha256: c042a328cca11a9e09e176d8b647d6d289f774c526f4f02145acd2c6ea72f2db
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/aanschaffingswaarde-van-de-aandelen-ontvangen-naar-aanleiding-van-een-in-het-buitenland
+    sha256: c042a328cca11a9e09e176d8b647d6d289f774c526f4f02145acd2c6ea72f2db
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T18:34:42Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T19:02:28Z'
     confirmed_by: subagent-laag2-ronde2
-    rationale: '[Laag-2-R2 2026-05-08] Volledig advies met twee interpretaties en conclusie van de Commissie. H1-titel tweemaal herhaald is cosmetisch scraping-artefact.'
+    rationale: '[Laag-2-R2 2026-05-08] Volledig advies met twee interpretaties en
+      conclusie van de Commissie. H1-titel tweemaal herhaald is cosmetisch scraping-artefact.'
+    layer1:
+      verdict: pass
+      heading_count: 0
+      max_section_chars: 8398
+      file_size_chars: 8398
+      flags: []
+      run_id: 20260509-212552
 gerelateerde_adviezen:
-  - titel: Terugbetaling van kapitaal in vreemde valuta aan de aandeelhouders
-    url: https://www.cbn-cnc.be/nl/adviezen/terugbetaling-van-kapitaal-in-vreemde-valuta-aan-de-aandeelhouders
-    datum: '2024-03-13'
-  - titel: Dividenduitkering en kapitaalvermindering in natura
-    url: https://www.cbn-cnc.be/nl/adviezen/dividenduitkering-en-kapitaalvermindering-in-natura-0
-    datum: '2019-03-12'
-  - titel: 'Verenigingen en stichtingen: certificatie van aandelen van handelsvennootschappen'
-    url: https://www.cbn-cnc.be/nl/adviezen/verenigingen-en-stichtingen-certificatie-van-aandelen-van-handelsvennootschappen
-    datum: '2016-09-07'
-  - titel: Verrichtingen met betrekking tot inschrijvingsrechten
-    url: https://www.cbn-cnc.be/nl/adviezen/verrichtingen-met-betrekking-tot-inschrijvingsrechten
-    datum: '2016-03-09'
+- titel: Terugbetaling van kapitaal in vreemde valuta aan de aandeelhouders
+  url: https://www.cbn-cnc.be/nl/adviezen/terugbetaling-van-kapitaal-in-vreemde-valuta-aan-de-aandeelhouders
+  datum: '2024-03-13'
+- titel: Dividenduitkering en kapitaalvermindering in natura
+  url: https://www.cbn-cnc.be/nl/adviezen/dividenduitkering-en-kapitaalvermindering-in-natura-0
+  datum: '2019-03-12'
+- titel: 'Verenigingen en stichtingen: certificatie van aandelen van handelsvennootschappen'
+  url: https://www.cbn-cnc.be/nl/adviezen/verenigingen-en-stichtingen-certificatie-van-aandelen-van-handelsvennootschappen
+  datum: '2016-09-07'
+- titel: Verrichtingen met betrekking tot inschrijvingsrechten
+  url: https://www.cbn-cnc.be/nl/adviezen/verrichtingen-met-betrekking-tot-inschrijvingsrechten
+  datum: '2016-03-09'
 ---
 
 # CBN advies 126-16 - Aanschaffingswaarde van de aandelen ontvangen naar aanleiding van een in het buitenland verwezenlijkte fusie

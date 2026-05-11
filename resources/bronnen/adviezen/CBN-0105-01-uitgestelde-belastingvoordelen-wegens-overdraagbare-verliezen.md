@@ -1,47 +1,56 @@
 ---
-nummer: "CBN-advies C105/1"
+nummer: CBN-advies C105/1
 datum: 2000-05-01
 themas:
-  - toelichting
-  - uitgestelde belastingvoordelen
-  - voorzichtigheidsbeginsel
-  - activeren uitgestelde belastingvoordelen
-  - belastingen
-  - geconsolideerde jaarrekening
-  - overdraagbare verliezen
+- toelichting
+- uitgestelde belastingvoordelen
+- voorzichtigheidsbeginsel
+- activeren uitgestelde belastingvoordelen
+- belastingen
+- geconsolideerde jaarrekening
+- overdraagbare verliezen
 bron: https://www.cbn-cnc.be/nl/adviezen/uitgestelde-belastingvoordelen-wegens-overdraagbare-verliezen
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/uitgestelde-belastingvoordelen-wegens-overdraagbare-verliezen
-      sha256: 41a5930b23518a778e7c593efaebc62700a8921b45e82c67adaf09d760fd5cdf
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/uitgestelde-belastingvoordelen-wegens-overdraagbare-verliezen
+    sha256: 41a5930b23518a778e7c593efaebc62700a8921b45e82c67adaf09d760fd5cdf
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T18:33:48Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T18:40:02Z'
     confirmed_by: qa-laag1-auto
     rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    layer1:
+      verdict: pass
+      heading_count: 3
+      max_section_chars: 5928
+      file_size_chars: 11215
+      flags: []
+      run_id: 20260509-212552
 gerelateerde_adviezen:
-  - titel: 'Vereniging van aandelen in handen van één enkele rechtspersoon: vermeldingen in de toelichting'
-    url: https://www.cbn-cnc.be/nl/adviezen/vereniging-van-aandelen-in-handen-van-een-enkele-rechtspersoon-vermeldingen-in-de
-    datum: '2018-05-09'
-  - titel: 'Onbeperkt aansprakelijke vennoot: vermeldingen in de jaarrekening'
-    url: https://www.cbn-cnc.be/nl/adviezen/onbeperkt-aansprakelijke-vennoot-vermeldingen-in-de-jaarrekening
-    datum: '2017-09-13'
-  - titel: Opname van financiële vaste activa geboekt tegen een hoger bedrag dan hun reële waarde in de toelichting van de jaarrekening
-    url: https://www.cbn-cnc.be/nl/adviezen/opname-van-financiele-vaste-activa-geboekt-tegen-een-hoger-bedrag-dan-hun-reele-waarde-in
-    datum: '2017-05-31'
-  - titel: 'Afwijking inzake functionele valuta: praktische implicaties en procedure'
-    url: https://www.cbn-cnc.be/nl/adviezen/afwijking-inzake-functionele-valuta-praktische-implicaties-en-procedure
-    datum: '2011-05-04'
+- titel: 'Vereniging van aandelen in handen van één enkele rechtspersoon: vermeldingen
+    in de toelichting'
+  url: https://www.cbn-cnc.be/nl/adviezen/vereniging-van-aandelen-in-handen-van-een-enkele-rechtspersoon-vermeldingen-in-de
+  datum: '2018-05-09'
+- titel: 'Onbeperkt aansprakelijke vennoot: vermeldingen in de jaarrekening'
+  url: https://www.cbn-cnc.be/nl/adviezen/onbeperkt-aansprakelijke-vennoot-vermeldingen-in-de-jaarrekening
+  datum: '2017-09-13'
+- titel: Opname van financiële vaste activa geboekt tegen een hoger bedrag dan hun
+    reële waarde in de toelichting van de jaarrekening
+  url: https://www.cbn-cnc.be/nl/adviezen/opname-van-financiele-vaste-activa-geboekt-tegen-een-hoger-bedrag-dan-hun-reele-waarde-in
+  datum: '2017-05-31'
+- titel: 'Afwijking inzake functionele valuta: praktische implicaties en procedure'
+  url: https://www.cbn-cnc.be/nl/adviezen/afwijking-inzake-functionele-valuta-praktische-implicaties-en-procedure
+  datum: '2011-05-04'
 ---
 
 # CBN-advies C105/1 - Uitgestelde belastingvoordelen wegens overdraagbare verliezen

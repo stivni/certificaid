@@ -1,47 +1,54 @@
 ---
-nummer: "CBN-advies 107/9"
+nummer: CBN-advies 107/9
 datum: 1988-12-01
 themas:
-  - brugpensioen
-  - pensioen
-  - pensioenvoorzieningen
-  - verplichting voortvloeiend uit brugpensioen
-  - voorziening
-  - voorzieningen voor brugpensioen
-  - voorzieningen voor pensioenen
+- brugpensioen
+- pensioen
+- pensioenvoorzieningen
+- verplichting voortvloeiend uit brugpensioen
+- voorziening
+- voorzieningen voor brugpensioen
+- voorzieningen voor pensioenen
 bron: https://www.cbn-cnc.be/nl/adviezen/vaststelling-van-het-bedrag-van-een-voorziening-voor-pensioenen-of-brugpensioenen
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/vaststelling-van-het-bedrag-van-een-voorziening-voor-pensioenen-of-brugpensioenen
-      sha256: 026465f0ae0b5f1a6459175ff87cf60dcfb40d52954cccd1acadd0d1b91ffc21
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/vaststelling-van-het-bedrag-van-een-voorziening-voor-pensioenen-of-brugpensioenen
+    sha256: 026465f0ae0b5f1a6459175ff87cf60dcfb40d52954cccd1acadd0d1b91ffc21
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T18:34:00Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T18:40:02Z'
     confirmed_by: qa-laag1-auto
     rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    layer1:
+      verdict: pass
+      heading_count: 0
+      max_section_chars: 2214
+      file_size_chars: 2214
+      flags: []
+      run_id: 20260509-212552
 gerelateerde_adviezen:
-  - titel: Voorzieningen
-    url: https://www.cbn-cnc.be/nl/adviezen/voorzieningen
-    datum: '2019-03-05'
-  - titel: Voorzieningen voor geïndexeerde pensioenen en brugpensioenen
-    url: https://www.cbn-cnc.be/nl/adviezen/voorzieningen-voor-geindexeerde-pensioenen-en-brugpensioenen
-    datum: '1993-02-01'
-  - titel: Verplichtingen voortvloeiend uit brugpensioen
-    url: https://www.cbn-cnc.be/nl/adviezen/verplichtingen-voortvloeiend-uit-brugpensioen-0
-    datum: '1986-07-19'
-  - titel: Verplichtingen voortvloeiend uit brugpensioen
-    url: https://www.cbn-cnc.be/nl/adviezen/verplichtingen-voortvloeiend-uit-brugpensioen
-    datum: '1980-01-01'
+- titel: Voorzieningen
+  url: https://www.cbn-cnc.be/nl/adviezen/voorzieningen
+  datum: '2019-03-05'
+- titel: Voorzieningen voor geïndexeerde pensioenen en brugpensioenen
+  url: https://www.cbn-cnc.be/nl/adviezen/voorzieningen-voor-geindexeerde-pensioenen-en-brugpensioenen
+  datum: '1993-02-01'
+- titel: Verplichtingen voortvloeiend uit brugpensioen
+  url: https://www.cbn-cnc.be/nl/adviezen/verplichtingen-voortvloeiend-uit-brugpensioen-0
+  datum: '1986-07-19'
+- titel: Verplichtingen voortvloeiend uit brugpensioen
+  url: https://www.cbn-cnc.be/nl/adviezen/verplichtingen-voortvloeiend-uit-brugpensioen
+  datum: '1980-01-01'
 ---
 
 # CBN-advies 107/9 - Vaststelling van het bedrag van een voorziening voor pensioenen of brugpensioenen

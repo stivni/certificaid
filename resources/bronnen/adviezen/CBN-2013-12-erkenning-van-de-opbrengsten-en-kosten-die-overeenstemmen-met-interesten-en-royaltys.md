@@ -1,40 +1,47 @@
 ---
-nummer: "CBN-advies 2013/12"
+nummer: CBN-advies 2013/12
 datum: 2013-09-04
 themas:
-  - interesten
-  - opbrengsterkenning
-  - realisatiebeginsel
-  - royalties
-  - tantièmes
-  - voorzichtigheidsbeginsel
+- interesten
+- opbrengsterkenning
+- realisatiebeginsel
+- royalties
+- tantièmes
+- voorzichtigheidsbeginsel
 bron: https://www.cbn-cnc.be/nl/adviezen/erkenning-van-de-opbrengsten-en-kosten-die-overeenstemmen-met-interesten-en-royaltys
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/erkenning-van-de-opbrengsten-en-kosten-die-overeenstemmen-met-interesten-en-royaltys
-      sha256: a886b9442607f70a17719fb9c9671b2b78efcc1f34b64094e15769e9297b45af
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/erkenning-van-de-opbrengsten-en-kosten-die-overeenstemmen-met-interesten-en-royaltys
+    sha256: a886b9442607f70a17719fb9c9671b2b78efcc1f34b64094e15769e9297b45af
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T18:36:40Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T18:40:04Z'
     confirmed_by: qa-laag1-auto
     rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    layer1:
+      verdict: pass
+      heading_count: 8
+      max_section_chars: 6161
+      file_size_chars: 13050
+      flags: []
+      run_id: 20260509-212552
 gerelateerde_adviezen:
-  - titel: Boekhoudkundige verwerking van geactiveerde intercalaire interesten
-    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-geactiveerde-intercalaire-interesten
-    datum: '2015-12-09'
-  - titel: Interesten op vorderingen
-    url: https://www.cbn-cnc.be/nl/adviezen/interesten-op-vorderingen
-    datum: '1988-06-22'
+- titel: Boekhoudkundige verwerking van geactiveerde intercalaire interesten
+  url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-geactiveerde-intercalaire-interesten
+  datum: '2015-12-09'
+- titel: Interesten op vorderingen
+  url: https://www.cbn-cnc.be/nl/adviezen/interesten-op-vorderingen
+  datum: '1988-06-22'
 ---
 
 # CBN-advies 2013/12 - Erkenning van de opbrengsten en kosten die overeenstemmen met interesten en royalty's, evenals de toewijzing van de resultaten in de vorm van dividenden en tantièmes en de opbrengsten die overeenstemmen met dividenden en tantièmes

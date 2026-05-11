@@ -1,37 +1,45 @@
 ---
-nummer: "CBN-advies 147/1"
+nummer: CBN-advies 147/1
 datum: 1984-10-01
 themas:
-  - duurzame band
-  - duurzame ondersteuning
-  - financiële vaste activa
-  - geldbeleggingen
-  - obligaties
-  - vastrentende effecten
+- duurzame band
+- duurzame ondersteuning
+- financiële vaste activa
+- geldbeleggingen
+- obligaties
+- vastrentende effecten
 bron: https://www.cbn-cnc.be/nl/adviezen/vastrentende-effecten-financiele-vaste-activa-of-geldbeleggingen-criteria
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/vastrentende-effecten-financiele-vaste-activa-of-geldbeleggingen-criteria
-      sha256: fe061a0eb4762f8740523a558aaafc6478ca4ad0d47b65c639685dc9cd3728d3
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/vastrentende-effecten-financiele-vaste-activa-of-geldbeleggingen-criteria
+    sha256: fe061a0eb4762f8740523a558aaafc6478ca4ad0d47b65c639685dc9cd3728d3
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T18:35:11Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T18:40:03Z'
     confirmed_by: qa-laag1-auto
     rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    layer1:
+      verdict: pass
+      heading_count: 0
+      max_section_chars: 2735
+      file_size_chars: 2735
+      flags: []
+      run_id: 20260509-212552
 gerelateerde_adviezen:
-  - titel: Bezit van maatschappelijke rechten in verbonden ondernemingen of in ondernemingen waarmee een deelnemingsverhouding bestaat - Begrip deelneming
-    url: https://www.cbn-cnc.be/nl/adviezen/bezit-van-maatschappelijke-rechten-in-verbonden-ondernemingen-of-in-ondernemingen-waarmee
-    datum: '1980-01-06'
+- titel: Bezit van maatschappelijke rechten in verbonden ondernemingen of in ondernemingen
+    waarmee een deelnemingsverhouding bestaat - Begrip deelneming
+  url: https://www.cbn-cnc.be/nl/adviezen/bezit-van-maatschappelijke-rechten-in-verbonden-ondernemingen-of-in-ondernemingen-waarmee
+  datum: '1980-01-06'
 ---
 
 # CBN-advies 147/1 - Vastrentende effecten : financiële vaste activa of geldbeleggingen ? Criteria

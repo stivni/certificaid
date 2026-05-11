@@ -1,46 +1,54 @@
 ---
-nummer: "CBN-advies 2011/2"
+nummer: CBN-advies 2011/2
 datum: 2010-12-08
 themas:
-  - continuïteit
-  - concordantietabel
-  - continuïteitsgedachte
-  - eerste boekjaar
-  - vergelijkende cijfers
-  - zetelverplaatsing
+- continuïteit
+- concordantietabel
+- continuïteitsgedachte
+- eerste boekjaar
+- vergelijkende cijfers
+- zetelverplaatsing
 bron: https://www.cbn-cnc.be/nl/adviezen/zetelverplaatsing-naar-belgie-van-een-vennootschap-opgericht-naar-buitenlands-recht
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/zetelverplaatsing-naar-belgie-van-een-vennootschap-opgericht-naar-buitenlands-recht
-      sha256: 778baa7300874c205e3ad65417b3d6738770463aebdffd38c29c48ba4dfce218
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/zetelverplaatsing-naar-belgie-van-een-vennootschap-opgericht-naar-buitenlands-recht
+    sha256: 778baa7300874c205e3ad65417b3d6738770463aebdffd38c29c48ba4dfce218
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T18:36:07Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T18:40:04Z'
     confirmed_by: qa-laag1-auto
     rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    layer1:
+      verdict: pass
+      heading_count: 3
+      max_section_chars: 4184
+      file_size_chars: 7329
+      flags: []
+      run_id: 20260509-212552
 gerelateerde_adviezen:
-  - titel: Vermogensklem bij de omzetting van een VZW in een coöperatieve vennootschap erkend als sociale onderneming
-    url: https://www.cbn-cnc.be/nl/adviezen/vermogensklem-bij-de-omzetting-van-een-vzw-in-een-cooperatieve-vennootschap-erkend-als-0
-    datum: '2024-01-17'
-  - titel: Boekhoudkundige verwerking van fusies tussen verenigingen en stichtingen
-    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-fusies-tussen-verenigingen-en-stichtingen
-    datum: '2022-09-23'
-  - titel: Boekhoudkundige verwerking van splitsingen van vennootschappen
-    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-splitsingen-van-vennootschappen
-    datum: '2022-09-19'
-  - titel: Wijziging van het boekhoudkundig referentiestelsel
-    url: https://www.cbn-cnc.be/nl/adviezen/wijziging-van-het-boekhoudkundig-referentiestelsel
-    datum: '2022-07-20'
+- titel: Vermogensklem bij de omzetting van een VZW in een coöperatieve vennootschap
+    erkend als sociale onderneming
+  url: https://www.cbn-cnc.be/nl/adviezen/vermogensklem-bij-de-omzetting-van-een-vzw-in-een-cooperatieve-vennootschap-erkend-als-0
+  datum: '2024-01-17'
+- titel: Boekhoudkundige verwerking van fusies tussen verenigingen en stichtingen
+  url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-fusies-tussen-verenigingen-en-stichtingen
+  datum: '2022-09-23'
+- titel: Boekhoudkundige verwerking van splitsingen van vennootschappen
+  url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-splitsingen-van-vennootschappen
+  datum: '2022-09-19'
+- titel: Wijziging van het boekhoudkundig referentiestelsel
+  url: https://www.cbn-cnc.be/nl/adviezen/wijziging-van-het-boekhoudkundig-referentiestelsel
+  datum: '2022-07-20'
 ---
 
 # CBN-advies 2011/2 - Zetelverplaatsing naar België van een vennootschap opgericht naar buitenlands recht: gevolgen voor het voeren van de boekhouding en het opstellen van de jaarrekening

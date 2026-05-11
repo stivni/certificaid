@@ -1,42 +1,50 @@
 ---
-nummer: "CBN-advies 112/2"
+nummer: CBN-advies 112/2
 datum: 1978-06-01
 themas:
-  - afschrijvingen
-  - ontoereikendheid van de afschrijvingen
+- afschrijvingen
+- ontoereikendheid van de afschrijvingen
 bron: https://www.cbn-cnc.be/nl/adviezen/ontoereikendheid-van-de-afschrijvingen-geboekt-voor-de-inwerkingtreding-van-het-koninklijk
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/ontoereikendheid-van-de-afschrijvingen-geboekt-voor-de-inwerkingtreding-van-het-koninklijk
-      sha256: a93d98199916e7a901fd9db4c3d36711799697c6d89d5d05881536b599775dcf
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/ontoereikendheid-van-de-afschrijvingen-geboekt-voor-de-inwerkingtreding-van-het-koninklijk
+    sha256: a93d98199916e7a901fd9db4c3d36711799697c6d89d5d05881536b599775dcf
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T18:34:14Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T18:40:02Z'
     confirmed_by: qa-laag1-auto
     rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    layer1:
+      verdict: pass
+      heading_count: 0
+      max_section_chars: 3813
+      file_size_chars: 3813
+      flags: []
+      run_id: 20260509-212552
 gerelateerde_adviezen:
-  - titel: Afschrijvingsmethoden (update) [ONTWERP]
-    url: https://www.cbn-cnc.be/nl/adviezen/afschrijvingsmethoden-update-ontwerp
-    datum: '2025-04-25'
-  - titel: Afschrijving van materiële vaste activa in aanbouw en vooruitbetalingen - Inresultaatname van kapitaalsubsidies
-    url: https://www.cbn-cnc.be/nl/adviezen/afschrijving-van-materiele-vaste-activa-in-aanbouw-en-vooruitbetalingen-inresultaatname
-    datum: '2017-12-13'
-  - titel: De boekhoudkundige verwerking van immateriële vaste activa
-    url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-immateriele-vaste-activa
-    datum: '2012-10-10'
-  - titel: Afschrijvingsmethoden
-    url: https://www.cbn-cnc.be/nl/adviezen/afschrijvingsmethoden
-    datum: '2010-10-06'
+- titel: Afschrijvingsmethoden (update) [ONTWERP]
+  url: https://www.cbn-cnc.be/nl/adviezen/afschrijvingsmethoden-update-ontwerp
+  datum: '2025-04-25'
+- titel: Afschrijving van materiële vaste activa in aanbouw en vooruitbetalingen -
+    Inresultaatname van kapitaalsubsidies
+  url: https://www.cbn-cnc.be/nl/adviezen/afschrijving-van-materiele-vaste-activa-in-aanbouw-en-vooruitbetalingen-inresultaatname
+  datum: '2017-12-13'
+- titel: De boekhoudkundige verwerking van immateriële vaste activa
+  url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-immateriele-vaste-activa
+  datum: '2012-10-10'
+- titel: Afschrijvingsmethoden
+  url: https://www.cbn-cnc.be/nl/adviezen/afschrijvingsmethoden
+  datum: '2010-10-06'
 ---
 
 # CBN-advies 112/2 - Ontoereikendheid van de afschrijvingen geboekt vóór de inwerkingtreding van het Koninklijk Besluit van 8 oktober 1976

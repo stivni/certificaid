@@ -1,36 +1,43 @@
 ---
-nummer: "CBN-advies 16/1"
+nummer: CBN-advies 16/1
 datum: 1977-12-01
 themas:
-  - financiële instelling
-  - kredietinstelling
+- financiële instelling
+- kredietinstelling
 bron: https://www.cbn-cnc.be/nl/adviezen/toepassing-van-de-wet-op-financiele-instellingen-kredietinstellingen-die-onder-de
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/toepassing-van-de-wet-op-financiele-instellingen-kredietinstellingen-die-onder-de
-      sha256: f8e4652436db7b0cecba38ff5200255e61355b17c7d905b26369463da1ad4923
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/toepassing-van-de-wet-op-financiele-instellingen-kredietinstellingen-die-onder-de
+    sha256: f8e4652436db7b0cecba38ff5200255e61355b17c7d905b26369463da1ad4923
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T18:33:34Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T18:40:02Z'
     confirmed_by: qa-laag1-auto
     rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    layer1:
+      verdict: pass
+      heading_count: 0
+      max_section_chars: 1667
+      file_size_chars: 1667
+      flags: []
+      run_id: 20260509-212552
 gerelateerde_adviezen:
-  - titel: Coördinatiecentrum - Financiële instelling
-    url: https://www.cbn-cnc.be/nl/adviezen/coordinatiecentrum-financiele-instelling
-    datum: '1988-06-01'
-  - titel: Het begrip &quot;financiële instelling&quot;
-    url: https://www.cbn-cnc.be/nl/adviezen/het-begrip-financiele-instelling
-    datum: '1980-01-01'
+- titel: Coördinatiecentrum - Financiële instelling
+  url: https://www.cbn-cnc.be/nl/adviezen/coordinatiecentrum-financiele-instelling
+  datum: '1988-06-01'
+- titel: Het begrip &quot;financiële instelling&quot;
+  url: https://www.cbn-cnc.be/nl/adviezen/het-begrip-financiele-instelling
+  datum: '1980-01-01'
 ---
 
 # CBN-advies 16-1 Toepassing van de wet op financiële instellingen ‐ Kredietinstellingen die onder de toepassing vallen van een bijzondere wet

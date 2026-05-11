@@ -1,34 +1,41 @@
 ---
-nummer: "CBN-advies 158/1"
+nummer: CBN-advies 158/1
 datum: 1988-12-01
 themas:
-  - concessie
-  - materiële vaste activa
-  - Natuurlijke rijkdom
+- concessie
+- materiële vaste activa
+- Natuurlijke rijkdom
 bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-aankoop-afschrijving-en-ontginning-in-concessie-van
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-aankoop-afschrijving-en-ontginning-in-concessie-van
-      sha256: 08e46100637031f687700017facf7e19aed6f6f370c0da7b2d8a08fc11f758d4
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-aankoop-afschrijving-en-ontginning-in-concessie-van
+    sha256: 08e46100637031f687700017facf7e19aed6f6f370c0da7b2d8a08fc11f758d4
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T18:35:28Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T18:40:03Z'
     confirmed_by: qa-laag1-auto
     rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    layer1:
+      verdict: pass
+      heading_count: 8
+      max_section_chars: 2828
+      file_size_chars: 5839
+      flags: []
+      run_id: 20260509-212552
 gerelateerde_adviezen:
-  - titel: De boekhoudkundige verwerking van immateriële vaste activa
-    url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-immateriele-vaste-activa
-    datum: '2012-10-10'
+- titel: De boekhoudkundige verwerking van immateriële vaste activa
+  url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-immateriele-vaste-activa
+  datum: '2012-10-10'
 ---
 
 # CBN-advies 158/1 - Boekhoudkundige verwerking van de aankoop, afschrijving en ontginning in concessie van natuurlijke rijkdommen

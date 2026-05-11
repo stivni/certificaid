@@ -1,48 +1,58 @@
 ---
-nummer: "CBN-advies 2010/22"
+nummer: CBN-advies 2010/22
 datum: 2010-11-10
 themas:
-  - eigen vermogen
-  - nettoactief
-  - sluiting vereffening
-  - uitkering aan vennoten
-  - vereffenaar
-  - vereffening
-  - voorschot
-  - voorschot aan de vennoten op de verdeling van het netto-actief
+- eigen vermogen
+- nettoactief
+- sluiting vereffening
+- uitkering aan vennoten
+- vereffenaar
+- vereffening
+- voorschot
+- voorschot aan de vennoten op de verdeling van het netto-actief
 bron: https://www.cbn-cnc.be/nl/adviezen/boekingswijze-van-een-voorschot-op-de-verdeling-van-het-netto-actief
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/boekingswijze-van-een-voorschot-op-de-verdeling-van-het-netto-actief
-      sha256: b59b54845c2a0b7910cce87be833636aa9c434111c769732d139ef1c7e26707f
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/boekingswijze-van-een-voorschot-op-de-verdeling-van-het-netto-actief
+    sha256: b59b54845c2a0b7910cce87be833636aa9c434111c769732d139ef1c7e26707f
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T18:36:06Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T19:02:29Z'
     confirmed_by: subagent-laag2-ronde2
-    rationale: '[Laag-2-R2 2026-05-08] Volledig met twee benaderingen, gemotiveerde keuze voor benadering 2, behandeling vanuit twee perspectieven.'
+    rationale: '[Laag-2-R2 2026-05-08] Volledig met twee benaderingen, gemotiveerde
+      keuze voor benadering 2, behandeling vanuit twee perspectieven.'
+    layer1:
+      verdict: pass
+      heading_count: 0
+      max_section_chars: 6581
+      file_size_chars: 6581
+      flags: []
+      run_id: 20260509-212552
 gerelateerde_adviezen:
-  - titel: Boekhoudkundige verwerking van splitsingen van vennootschappen
-    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-splitsingen-van-vennootschappen
-    datum: '2022-09-19'
-  - titel: Fusies en splitsingen van vennootschappen met een negatief nettoactief
-    url: https://www.cbn-cnc.be/nl/adviezen/fusies-en-splitsingen-van-vennootschappen-met-een-negatief-nettoactief
-    datum: '2022-02-15'
-  - titel: Overdracht van eigen vermogen in het kader van een fusie, splitsing of partiële splitsing in boekhoudkundige continuïteit en fiscale continuïteit en artikel 78, § 8 van het koninklijk besluit tot uitvoering van het Wetboek van vennootschappen
-    url: https://www.cbn-cnc.be/nl/adviezen/overdracht-van-eigen-vermogen-in-het-kader-van-een-fusie-splitsing-of-partiele-splitsing
-    datum: '2012-09-05'
-  - titel: Boekingswijze van een voorschot op de verdeling van het netto-actief
-    url: https://www.cbn-cnc.be/nl/adviezen/boekingswijze-van-een-voorschot-op-de-verdeling-van-het-netto-actief-0
-    datum: '1999-02-01'
+- titel: Boekhoudkundige verwerking van splitsingen van vennootschappen
+  url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-splitsingen-van-vennootschappen
+  datum: '2022-09-19'
+- titel: Fusies en splitsingen van vennootschappen met een negatief nettoactief
+  url: https://www.cbn-cnc.be/nl/adviezen/fusies-en-splitsingen-van-vennootschappen-met-een-negatief-nettoactief
+  datum: '2022-02-15'
+- titel: Overdracht van eigen vermogen in het kader van een fusie, splitsing of partiële
+    splitsing in boekhoudkundige continuïteit en fiscale continuïteit en artikel 78,
+    § 8 van het koninklijk besluit tot uitvoering van het Wetboek van vennootschappen
+  url: https://www.cbn-cnc.be/nl/adviezen/overdracht-van-eigen-vermogen-in-het-kader-van-een-fusie-splitsing-of-partiele-splitsing
+  datum: '2012-09-05'
+- titel: Boekingswijze van een voorschot op de verdeling van het netto-actief
+  url: https://www.cbn-cnc.be/nl/adviezen/boekingswijze-van-een-voorschot-op-de-verdeling-van-het-netto-actief-0
+  datum: '1999-02-01'
 ---
 
 # CBN-advies 2010/22 - Boekingswijze van een voorschot op de verdeling van het netto-actief

@@ -1,49 +1,57 @@
 ---
-nummer: "CBN-advies 2021/05"
+nummer: CBN-advies 2021/05
 datum: 2021-04-06
 themas:
-  - Huur
-  - COVID-19
-  - huurovereenkomst
-  - huurcontract
-  - kwijtschelding huur
-  - leasing
-  - opbrengsterkenning
-  - leasevergoeding
-  - verlenging huur
+- Huur
+- COVID-19
+- huurovereenkomst
+- huurcontract
+- kwijtschelding huur
+- leasing
+- opbrengsterkenning
+- leasevergoeding
+- verlenging huur
 bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudrechtelijke-behandeling-van-kwijtschelding-van-huur-ten-gevolge-van-de-covid-19
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudrechtelijke-behandeling-van-kwijtschelding-van-huur-ten-gevolge-van-de-covid-19
-      sha256: a6a835235f4de2ac37139702cfe01c84e595a9ff09f053496214f4c98aaa6179
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudrechtelijke-behandeling-van-kwijtschelding-van-huur-ten-gevolge-van-de-covid-19
+    sha256: a6a835235f4de2ac37139702cfe01c84e595a9ff09f053496214f4c98aaa6179
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T18:37:58Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T18:40:05Z'
     confirmed_by: qa-laag1-auto
     rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    layer1:
+      verdict: pass
+      heading_count: 7
+      max_section_chars: 2238
+      file_size_chars: 10491
+      flags: []
+      run_id: 20260509-212552
 gerelateerde_adviezen:
-  - titel: Rekening 26 Overige materiële vaste activa
-    url: https://www.cbn-cnc.be/nl/adviezen/rekening-26-overige-materiele-vaste-activa
-    datum: '2021-06-23'
-  - titel: Leasing
-    url: https://www.cbn-cnc.be/nl/adviezen/leasing
-    datum: '2015-06-24'
-  - titel: De boekhoudkundige verwerking van toegekende voordelen bij het afsluiten van een huurovereenkomst
-    url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-toegekende-voordelen-bij-het-afsluiten-van-een
-    datum: '2012-01-11'
-  - titel: Bouwwerken op andermans grond
-    url: https://www.cbn-cnc.be/nl/adviezen/bouwwerken-op-andermans-grond
-    datum: '1986-07-01'
+- titel: Rekening 26 Overige materiële vaste activa
+  url: https://www.cbn-cnc.be/nl/adviezen/rekening-26-overige-materiele-vaste-activa
+  datum: '2021-06-23'
+- titel: Leasing
+  url: https://www.cbn-cnc.be/nl/adviezen/leasing
+  datum: '2015-06-24'
+- titel: De boekhoudkundige verwerking van toegekende voordelen bij het afsluiten
+    van een huurovereenkomst
+  url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-toegekende-voordelen-bij-het-afsluiten-van-een
+  datum: '2012-01-11'
+- titel: Bouwwerken op andermans grond
+  url: https://www.cbn-cnc.be/nl/adviezen/bouwwerken-op-andermans-grond
+  datum: '1986-07-01'
 ---
 
 # CBN-advies 2021/05 - Boekhoudrechtelijke behandeling van kwijtschelding van huur ten gevolge van de COVID-19-pandemie

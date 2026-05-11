@@ -1,46 +1,57 @@
 ---
-nummer: "CBN-advies 173/4"
+nummer: CBN-advies 173/4
 datum: 1998-02-01
 themas:
-  - euro
-  - omrekeningskoers
-  - overschakeling op de euro
-  - wisselresultaat
-  - bilaterale wisselkoersen
-  - wisselverschil
+- euro
+- omrekeningskoers
+- overschakeling op de euro
+- wisselresultaat
+- bilaterale wisselkoersen
+- wisselverschil
 bron: https://www.cbn-cnc.be/nl/adviezen/vervroegde-vaststelling-van-de-bilaterale-wisselkoersen-in-mei-1998-gevolgen-voor-het
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/vervroegde-vaststelling-van-de-bilaterale-wisselkoersen-in-mei-1998-gevolgen-voor-het
-      sha256: e87ce873f16e8a77335c30c17199e3da216857864ccccb6dad43ab7e34c50411
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/vervroegde-vaststelling-van-de-bilaterale-wisselkoersen-in-mei-1998-gevolgen-voor-het
+    sha256: e87ce873f16e8a77335c30c17199e3da216857864ccccb6dad43ab7e34c50411
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T18:35:39Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T19:02:28Z'
     confirmed_by: subagent-laag2-ronde2
-    rationale: '[Laag-2-R2 2026-05-08] Volledig en coherent advies met twee varianten en concrete cijfervoorbeelden. Historisch specifiek maar inhoudelijk compleet.'
+    rationale: '[Laag-2-R2 2026-05-08] Volledig en coherent advies met twee varianten
+      en concrete cijfervoorbeelden. Historisch specifiek maar inhoudelijk compleet.'
+    layer1:
+      verdict: pass
+      heading_count: 0
+      max_section_chars: 11619
+      file_size_chars: 11619
+      flags: []
+      run_id: 20260509-212552
 gerelateerde_adviezen:
-  - titel: 'Afwijking inzake functionele valuta: praktische implicaties en procedure'
-    url: https://www.cbn-cnc.be/nl/adviezen/afwijking-inzake-functionele-valuta-praktische-implicaties-en-procedure
-    datum: '2011-05-04'
-  - titel: Aanvullende aspecten in verband met de boekhoudkundige verwerking van afrondingsverschillen bij conversie
-    url: https://www.cbn-cnc.be/nl/adviezen/aanvullende-aspecten-in-verband-met-de-boekhoudkundige-verwerking-van
-    datum: '1999-02-01'
-  - titel: Afronding van de bedragen in de jaarrekeningen die in euro of in duizenden euro zijn opgesteld
-    url: https://www.cbn-cnc.be/nl/adviezen/afronding-van-de-bedragen-in-de-jaarrekeningen-die-in-euro-of-in-duizenden-euro-zijn
-    datum: '1998-02-01'
-  - titel: Toelichting bij de boekhoudkundige verwerking van termijnwisselverrichtingen tussen de munten van Lid-Staten van de Muntunie
-    url: https://www.cbn-cnc.be/nl/adviezen/toelichting-bij-de-boekhoudkundige-verwerking-van-termijnwisselverrichtingen-tussen-de
-    datum: '1998-02-01'
+- titel: 'Afwijking inzake functionele valuta: praktische implicaties en procedure'
+  url: https://www.cbn-cnc.be/nl/adviezen/afwijking-inzake-functionele-valuta-praktische-implicaties-en-procedure
+  datum: '2011-05-04'
+- titel: Aanvullende aspecten in verband met de boekhoudkundige verwerking van afrondingsverschillen
+    bij conversie
+  url: https://www.cbn-cnc.be/nl/adviezen/aanvullende-aspecten-in-verband-met-de-boekhoudkundige-verwerking-van
+  datum: '1999-02-01'
+- titel: Afronding van de bedragen in de jaarrekeningen die in euro of in duizenden
+    euro zijn opgesteld
+  url: https://www.cbn-cnc.be/nl/adviezen/afronding-van-de-bedragen-in-de-jaarrekeningen-die-in-euro-of-in-duizenden-euro-zijn
+  datum: '1998-02-01'
+- titel: Toelichting bij de boekhoudkundige verwerking van termijnwisselverrichtingen
+    tussen de munten van Lid-Staten van de Muntunie
+  url: https://www.cbn-cnc.be/nl/adviezen/toelichting-bij-de-boekhoudkundige-verwerking-van-termijnwisselverrichtingen-tussen-de
+  datum: '1998-02-01'
 ---
 
 # CBN-advies 173/4 - Vervroegde vaststelling van de bilaterale wisselkoersen in mei 1998 : gevolgen voor het advies nr. 173/1 : «Overschakeling op de euro : boekhoudrechtelijke aspecten»

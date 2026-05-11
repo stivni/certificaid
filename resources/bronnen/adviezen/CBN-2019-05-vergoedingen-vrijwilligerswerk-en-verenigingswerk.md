@@ -1,33 +1,40 @@
 ---
-nummer: "CBN-advies 2019/05"
+nummer: CBN-advies 2019/05
 datum: 2019-06-14
 themas:
-  - vrijwilligersvergoeding
-  - vrijwilliger
-  - verenigingswerk
-  - vrijwilligerswerk
-  - bezoldiging
-  - vergoeding aan bestuurders
+- vrijwilligersvergoeding
+- vrijwilliger
+- verenigingswerk
+- vrijwilligerswerk
+- bezoldiging
+- vergoeding aan bestuurders
 bron: https://www.cbn-cnc.be/nl/adviezen/vergoedingen-vrijwilligerswerk-en-verenigingswerk
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/vergoedingen-vrijwilligerswerk-en-verenigingswerk
-      sha256: af5055b9bac4417d6f7c9ae95333d8d0fa0334ed88b6a5f79771e2b511c029be
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/vergoedingen-vrijwilligerswerk-en-verenigingswerk
+    sha256: af5055b9bac4417d6f7c9ae95333d8d0fa0334ed88b6a5f79771e2b511c029be
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T18:37:38Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T18:40:05Z'
     confirmed_by: qa-laag1-auto
     rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    layer1:
+      verdict: pass
+      heading_count: 4
+      max_section_chars: 2506
+      file_size_chars: 5319
+      flags: []
+      run_id: 20260509-212552
 ---
 
 # CBN-advies 2019/05 – Vergoedingen vrijwilligerswerk en verenigingswerk

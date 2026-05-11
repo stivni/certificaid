@@ -1,45 +1,55 @@
 ---
-nummer: "CBN-advies 139/5"
+nummer: CBN-advies 139/5
 datum: 1990-06-01
 themas:
-  - financiële vaste activa
-  - inschrijvingsrecht
-  - obligaties
-  - obligaties met warrant
-  - warrant
+- financiële vaste activa
+- inschrijvingsrecht
+- obligaties
+- obligaties met warrant
+- warrant
 bron: https://www.cbn-cnc.be/nl/adviezen/obligaties-met-warrant-0
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/obligaties-met-warrant-0
-      sha256: 1aee70e4105d459ef905cdaa50f31c213898395d930893f2ca763ff4304c8eda
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/obligaties-met-warrant-0
+    sha256: 1aee70e4105d459ef905cdaa50f31c213898395d930893f2ca763ff4304c8eda
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T18:35:06Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T19:02:29Z'
     confirmed_by: subagent-laag2-ronde2
-    rationale: '[Laag-2-R2 2026-05-08] Volledig met drie methodes systematisch, gemotiveerde conclusie voor derde (financiële) benadering.'
+    rationale: '[Laag-2-R2 2026-05-08] Volledig met drie methodes systematisch, gemotiveerde
+      conclusie voor derde (financiële) benadering.'
+    layer1:
+      verdict: pass
+      heading_count: 1
+      max_section_chars: 6409
+      file_size_chars: 6409
+      flags: []
+      run_id: 20260509-212552
 gerelateerde_adviezen:
-  - titel: Financiële vaste activa - Waardering - Aanschaffingswaarde met prijstoeslag (update) [ONTWERP]
-    url: https://www.cbn-cnc.be/nl/adviezen/financiele-vaste-activa-waardering-aanschaffingswaarde-met-prijstoeslag-update-ontwerp
-    datum: '2025-06-10'
-  - titel: Dividenduitkering en kapitaalvermindering in natura
-    url: https://www.cbn-cnc.be/nl/adviezen/dividenduitkering-en-kapitaalvermindering-in-natura-0
-    datum: '2019-03-12'
-  - titel: Opname van financiële vaste activa geboekt tegen een hoger bedrag dan hun reële waarde in de toelichting van de jaarrekening
-    url: https://www.cbn-cnc.be/nl/adviezen/opname-van-financiele-vaste-activa-geboekt-tegen-een-hoger-bedrag-dan-hun-reele-waarde-in
-    datum: '2017-05-31'
-  - titel: Gegeven borgtochten in contanten en effecten (update)
-    url: https://www.cbn-cnc.be/nl/adviezen/gegeven-borgtochten-in-contanten-en-effecten-update
-    datum: '2017-02-01'
+- titel: Financiële vaste activa - Waardering - Aanschaffingswaarde met prijstoeslag
+    (update) [ONTWERP]
+  url: https://www.cbn-cnc.be/nl/adviezen/financiele-vaste-activa-waardering-aanschaffingswaarde-met-prijstoeslag-update-ontwerp
+  datum: '2025-06-10'
+- titel: Dividenduitkering en kapitaalvermindering in natura
+  url: https://www.cbn-cnc.be/nl/adviezen/dividenduitkering-en-kapitaalvermindering-in-natura-0
+  datum: '2019-03-12'
+- titel: Opname van financiële vaste activa geboekt tegen een hoger bedrag dan hun
+    reële waarde in de toelichting van de jaarrekening
+  url: https://www.cbn-cnc.be/nl/adviezen/opname-van-financiele-vaste-activa-geboekt-tegen-een-hoger-bedrag-dan-hun-reele-waarde-in
+  datum: '2017-05-31'
+- titel: Gegeven borgtochten in contanten en effecten (update)
+  url: https://www.cbn-cnc.be/nl/adviezen/gegeven-borgtochten-in-contanten-en-effecten-update
+  datum: '2017-02-01'
 ---
 
 # CBN-advies 139/5 - Obligaties met warrant

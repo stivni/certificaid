@@ -1,46 +1,54 @@
 ---
-nummer: "CBN-advies 120/3"
+nummer: CBN-advies 120/3
 datum: 1981-12-01
 themas:
-  - liquide middelen
-  - thesauriebelegging
-  - toerekening aan het boekjaar
-  - waardering
-  - waardering bij jaarafsluiting
-  - jaarafsluiting
+- liquide middelen
+- thesauriebelegging
+- toerekening aan het boekjaar
+- waardering
+- waardering bij jaarafsluiting
+- jaarafsluiting
 bron: https://www.cbn-cnc.be/nl/adviezen/waardering-van-liquide-middelen-bij-de-jaarafsluiting-criterium-voor-de-toerekening-aan
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/waardering-van-liquide-middelen-bij-de-jaarafsluiting-criterium-voor-de-toerekening-aan
-      sha256: 9b228a02403c5f83e9d2b075be3d077a4325cade444337b1ec1b217fd3a814d8
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/waardering-van-liquide-middelen-bij-de-jaarafsluiting-criterium-voor-de-toerekening-aan
+    sha256: 9b228a02403c5f83e9d2b075be3d077a4325cade444337b1ec1b217fd3a814d8
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T18:34:28Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T18:40:02Z'
     confirmed_by: qa-laag1-auto
     rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    layer1:
+      verdict: pass
+      heading_count: 0
+      max_section_chars: 2838
+      file_size_chars: 2838
+      flags: []
+      run_id: 20260509-212552
 gerelateerde_adviezen:
-  - titel: Waarderen en boeken van cryptomunten gebruikt als betaalmiddel
-    url: https://www.cbn-cnc.be/nl/adviezen/waarderen-en-boeken-van-cryptomunten-gebruikt-als-betaalmiddel
-    datum: '2021-12-06'
-  - titel: Verwerking in de jaarrekening van de door de Vlaamse regering gecreëerde opleidingscheques
-    url: https://www.cbn-cnc.be/nl/adviezen/verwerking-in-de-jaarrekening-van-de-door-de-vlaamse-regering-gecreeerde-opleidingscheques
-    datum: '2008-12-01'
-  - titel: Overheidsfondsen
-    url: https://www.cbn-cnc.be/nl/adviezen/overheidsfondsen
-    datum: '1984-01-01'
-  - titel: Het begrip &quot;financiële instelling&quot;
-    url: https://www.cbn-cnc.be/nl/adviezen/het-begrip-financiele-instelling
-    datum: '1980-01-01'
+- titel: Waarderen en boeken van cryptomunten gebruikt als betaalmiddel
+  url: https://www.cbn-cnc.be/nl/adviezen/waarderen-en-boeken-van-cryptomunten-gebruikt-als-betaalmiddel
+  datum: '2021-12-06'
+- titel: Verwerking in de jaarrekening van de door de Vlaamse regering gecreëerde
+    opleidingscheques
+  url: https://www.cbn-cnc.be/nl/adviezen/verwerking-in-de-jaarrekening-van-de-door-de-vlaamse-regering-gecreeerde-opleidingscheques
+  datum: '2008-12-01'
+- titel: Overheidsfondsen
+  url: https://www.cbn-cnc.be/nl/adviezen/overheidsfondsen
+  datum: '1984-01-01'
+- titel: Het begrip &quot;financiële instelling&quot;
+  url: https://www.cbn-cnc.be/nl/adviezen/het-begrip-financiele-instelling
+  datum: '1980-01-01'
 ---
 
 # CBN-advies 120/3 - Waardering van liquide middelen bij de jaarafsluiting : criterium voor de toerekening aan een bepaald boekjaar

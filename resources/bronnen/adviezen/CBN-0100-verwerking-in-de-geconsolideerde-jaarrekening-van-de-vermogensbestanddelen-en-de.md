@@ -1,43 +1,52 @@
 ---
-nummer: "CBN-advies C100"
+nummer: CBN-advies C100
 datum: 1991-03-01
 themas:
-  - geconsolideerde jaarrekening
-  - resultaten
-  - verwerking van vermogensbestanddelen
+- geconsolideerde jaarrekening
+- resultaten
+- verwerking van vermogensbestanddelen
 bron: https://www.cbn-cnc.be/nl/adviezen/verwerking-in-de-geconsolideerde-jaarrekening-van-de-vermogensbestanddelen-en-de
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/verwerking-in-de-geconsolideerde-jaarrekening-van-de-vermogensbestanddelen-en-de
-      sha256: 12ca3d583e24f034d7620e86f5c24ff39894b85432fc6e2cf470c04b0478a4ba
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/verwerking-in-de-geconsolideerde-jaarrekening-van-de-vermogensbestanddelen-en-de
+    sha256: 12ca3d583e24f034d7620e86f5c24ff39894b85432fc6e2cf470c04b0478a4ba
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T18:33:37Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T18:40:02Z'
     confirmed_by: qa-laag1-auto
     rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    layer1:
+      verdict: pass
+      heading_count: 0
+      max_section_chars: 1700
+      file_size_chars: 1700
+      flags: []
+      run_id: 20260509-212552
 gerelateerde_adviezen:
-  - titel: 'Belgische bijkantoren van buitenlandse vennootschappen: toepassing van het Belgisch boekhoudrecht - begrip “bijkantoor” – publicatieplicht (update)'
-    url: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-buitenlandse-vennootschappen-toepassing-van-het-belgisch
-    datum: '2022-11-08'
-  - titel: Vermogensmutatiemethode
-    url: https://www.cbn-cnc.be/nl/adviezen/vermogensmutatiemethode
-    datum: '2022-09-09'
-  - titel: 'Belgische bijkantoren van vennootschappen naar buitenlands recht: toepassing van het Belgisch boekhoudrecht - begrip “bijkantoor” - publicatieplicht'
-    url: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-vennootschappen-naar-buitenlands-recht-toepassing-van-het
-    datum: '2018-05-09'
-  - titel: Vrijstelling van subconsolidatie
-    url: https://www.cbn-cnc.be/nl/adviezen/vrijstelling-van-subconsolidatie
-    datum: '2012-09-05'
+- titel: 'Belgische bijkantoren van buitenlandse vennootschappen: toepassing van het
+    Belgisch boekhoudrecht - begrip “bijkantoor” – publicatieplicht (update)'
+  url: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-buitenlandse-vennootschappen-toepassing-van-het-belgisch
+  datum: '2022-11-08'
+- titel: Vermogensmutatiemethode
+  url: https://www.cbn-cnc.be/nl/adviezen/vermogensmutatiemethode
+  datum: '2022-09-09'
+- titel: 'Belgische bijkantoren van vennootschappen naar buitenlands recht: toepassing
+    van het Belgisch boekhoudrecht - begrip “bijkantoor” - publicatieplicht'
+  url: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-vennootschappen-naar-buitenlands-recht-toepassing-van-het
+  datum: '2018-05-09'
+- titel: Vrijstelling van subconsolidatie
+  url: https://www.cbn-cnc.be/nl/adviezen/vrijstelling-van-subconsolidatie
+  datum: '2012-09-05'
 ---
 
 # CBN-advies C100 - Verwerking in de geconsolideerde jaarrekening van de vermogensbestanddelen en de resultaten op de datum waarop de geconsolideerde jaarrekening wordt afgesloten

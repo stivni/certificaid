@@ -1,46 +1,53 @@
 ---
-nummer: "CBN-advies 132/5"
+nummer: CBN-advies 132/5
 datum: 1991-03-01
 themas:
-  - diensten en diverse goederen
-  - immateriële vaste activa
-  - rechten tot vertoning van films
-  - uitzendrechten
-  - vertoningsrechten
-  - voorraden
+- diensten en diverse goederen
+- immateriële vaste activa
+- rechten tot vertoning van films
+- uitzendrechten
+- vertoningsrechten
+- voorraden
 bron: https://www.cbn-cnc.be/nl/adviezen/rechten-tot-vertoning-van-films
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/rechten-tot-vertoning-van-films
-      sha256: 01839fec25050d00ee08d40374ee0706fef1ac979531ff432708d211921e7e43
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/rechten-tot-vertoning-van-films
+    sha256: 01839fec25050d00ee08d40374ee0706fef1ac979531ff432708d211921e7e43
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T18:34:51Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T18:40:03Z'
     confirmed_by: qa-laag1-auto
     rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    layer1:
+      verdict: pass
+      heading_count: 0
+      max_section_chars: 3014
+      file_size_chars: 3014
+      flags: []
+      run_id: 20260509-212552
 gerelateerde_adviezen:
-  - titel: Kilometerheffing
-    url: https://www.cbn-cnc.be/nl/adviezen/kilometerheffing
-    datum: '2016-10-26'
-  - titel: Werkende vennoten
-    url: https://www.cbn-cnc.be/nl/adviezen/werkende-vennoten
-    datum: '1988-01-21'
-  - titel: Boeking van commissies
-    url: https://www.cbn-cnc.be/nl/adviezen/boeking-van-commissies
-    datum: '1988-12-01'
-  - titel: Materiële vaste activa - Onderscheid met voorraden
-    url: https://www.cbn-cnc.be/nl/adviezen/materiele-vaste-activa-onderscheid-met-voorraden
-    datum: '1986-01-01'
+- titel: Kilometerheffing
+  url: https://www.cbn-cnc.be/nl/adviezen/kilometerheffing
+  datum: '2016-10-26'
+- titel: Werkende vennoten
+  url: https://www.cbn-cnc.be/nl/adviezen/werkende-vennoten
+  datum: '1988-01-21'
+- titel: Boeking van commissies
+  url: https://www.cbn-cnc.be/nl/adviezen/boeking-van-commissies
+  datum: '1988-12-01'
+- titel: Materiële vaste activa - Onderscheid met voorraden
+  url: https://www.cbn-cnc.be/nl/adviezen/materiele-vaste-activa-onderscheid-met-voorraden
+  datum: '1986-01-01'
 ---
 
 # CBN-advies 132/5 - Rechten tot vertoning van films

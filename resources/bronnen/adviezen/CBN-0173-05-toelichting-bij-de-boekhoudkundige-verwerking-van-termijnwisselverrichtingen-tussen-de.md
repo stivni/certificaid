@@ -1,50 +1,58 @@
 ---
-nummer: "CBN-advies 173/5"
+nummer: CBN-advies 173/5
 datum: 1998-02-01
 themas:
-  - bilaterale wisselkoersen
-  - contantrentevoet
-  - contantwisselkoers
-  - overschakeling op de euro
-  - euro
-  - rente die het report/deport vormt
-  - termijn
-  - termijnaanko
-  - termijnrente
-  - termijnwisselverrichting
-  - termijnrentevoet
-  - wisselrisico
-  - wisselverschil
-  - bilaterale wisselkoersen
-  - contantrentevoet
-  - contantwisselkoers
+- bilaterale wisselkoersen
+- contantrentevoet
+- contantwisselkoers
+- overschakeling op de euro
+- euro
+- rente die het report/deport vormt
+- termijn
+- termijnaanko
+- termijnrente
+- termijnwisselverrichting
+- termijnrentevoet
+- wisselrisico
+- wisselverschil
+- bilaterale wisselkoersen
+- contantrentevoet
+- contantwisselkoers
 bron: https://www.cbn-cnc.be/nl/adviezen/toelichting-bij-de-boekhoudkundige-verwerking-van-termijnwisselverrichtingen-tussen-de
 provenance:
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/toelichting-bij-de-boekhoudkundige-verwerking-van-termijnwisselverrichtingen-tussen-de
-      sha256: 1590a40d3e4a3e9423ec4a2ad25bbb84ad2d65d6c11eee4f0d14b9d61cfb9337
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/toelichting-bij-de-boekhoudkundige-verwerking-van-termijnwisselverrichtingen-tussen-de
+    sha256: 1590a40d3e4a3e9423ec4a2ad25bbb84ad2d65d6c11eee4f0d14b9d61cfb9337
+    version: null
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
+    model: null
+    prompt_version: null
   generated_at: '2026-05-08T18:35:40Z'
   stale: false
-  stale_reason:
+  stale_reason: null
   trust:
     status: trusted
-    qa_version:
+    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T18:40:03Z'
     confirmed_by: qa-laag1-auto
     rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    layer1:
+      verdict: pass
+      heading_count: 3
+      max_section_chars: 11728
+      file_size_chars: 11728
+      flags: []
+      run_id: 20260509-212552
 gerelateerde_adviezen:
-  - titel: 'Vervroegde vaststelling van de bilaterale wisselkoersen in mei 1998 : gevolgen voor het advies nr. 173/1 : «Overschakeling op de euro : boekhoudrechtelijke aspecten»'
-    url: https://www.cbn-cnc.be/nl/adviezen/vervroegde-vaststelling-van-de-bilaterale-wisselkoersen-in-mei-1998-gevolgen-voor-het
-    datum: '1998-02-01'
-  - titel: Overschakeling op de euro - Aspecten in verband met de geconsolideerde jaarrekening
-    url: https://www.cbn-cnc.be/nl/adviezen/overschakeling-op-de-euro-aspecten-in-verband-met-de-geconsolideerde-jaarrekening
-    datum: '1998-02-01'
+- titel: 'Vervroegde vaststelling van de bilaterale wisselkoersen in mei 1998 : gevolgen
+    voor het advies nr. 173/1 : «Overschakeling op de euro : boekhoudrechtelijke aspecten»'
+  url: https://www.cbn-cnc.be/nl/adviezen/vervroegde-vaststelling-van-de-bilaterale-wisselkoersen-in-mei-1998-gevolgen-voor-het
+  datum: '1998-02-01'
+- titel: Overschakeling op de euro - Aspecten in verband met de geconsolideerde jaarrekening
+  url: https://www.cbn-cnc.be/nl/adviezen/overschakeling-op-de-euro-aspecten-in-verband-met-de-geconsolideerde-jaarrekening
+  datum: '1998-02-01'
 ---
 
 # CBN-advies 173/5 - Toelichting bij de boekhoudkundige verwerking van termijnwisselverrichtingen tussen de munten van Lid-Staten van de Muntunie
