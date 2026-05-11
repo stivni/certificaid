@@ -8,21 +8,23 @@ chunk:
   type: Art.
 itaa-lex-sectie: XI
 provenance:
-  generated_at: '2026-05-11T16:21:26Z'
   inputs:
     - id: resources/raw/wetteksten/BW-boek2-relatievermogensrecht.pdf
       sha256: dc2185d69e4bf8cbe98a067c4e2974c04e5859451dece12e6ebd006b1f8836ef
       version: 24.12.2025
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 11f9196
+    model:
     prompt_version:
+  generated_at: '2026-05-11T16:21:26Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at:
-    confirmed_by:
+    status: needs-rework
+    confirmed_at: '2026-05-11T16:30:30Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "D2 + F3: het bestand heet 'Burgerlijk Wetboek — Boek 2 — Relatievermogensrecht' maar de inhoud begint abrupt bij HOOFDSTUK 3 over 'Inhoud van Boek 4 Nalatenschappen' en bevat uitsluitend wijzigings- en opheffingsbepalingen (Art.3 t/m Art.65 van een invoeringswet). HOOFDSTUK 1 en 2 ontbreken volledig; de inhoud klopt niet met de bestandsnaam en het wet-veld. Dit is een extractie- of configuratiebug: ofwel ontbreekt het eigenlijke BW Boek 2 materiaal, ofwel is de verkeerde PDF geconverteerd."
     layer1:
       status: pass
       run_id: 20260511-162232
@@ -32,13 +34,19 @@ provenance:
       file_size_chars: 19585
       flags: []
     layer2:
-      agent:
-      concrete_problemen: []
-      rationale:
-      run_at:
-      status: not_run
-    rationale: 'Trust gereset 2026-05-11: ETL-fix wetteksten met content-diff > 5%'
-    status: unreviewed
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T16:30:30Z'
+      rationale: "D2 + F3: het bestand heet 'Burgerlijk Wetboek — Boek 2 — Relatievermogensrecht' maar de inhoud begint abrupt bij HOOFDSTUK 3 over 'Inhoud van Boek 4 Nalatenschappen' en bevat uitsluitend wijzigings- en opheffingsbepalingen (Art.3 t/m Art.65 van een invoeringswet). HOOFDSTUK 1 en 2 ontbreken volledig; de inhoud klopt niet met de bestandsnaam en het wet-veld. Dit is een extractie- of configuratiebug: ofwel ontbreekt het eigenlijke BW Boek 2 materiaal, ofwel is de verkeerde PDF geconverteerd."
+      concrete_problemen:
+        - regel: 53
+          categorie: B4
+          type: missing-section
+          voorbeeld: '## HOOFDSTUK 3. - Inhoud van boek 4 (HOOFDSTUK 1 en 2 volledig afwezig)'
+        - regel: 47
+          categorie: F3
+          type: naam-mismatch
+          voorbeeld: 'wet: Burgerlijk Wetboek — Boek 2 — Relatievermogensrecht maar body bevat alleen wijzigingsbepalingen mbt Boek 4/Boek 3'
 status: beschikbaar
 tags:
   - XI

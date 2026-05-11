@@ -3,97 +3,78 @@ bijgewerkt: 16.03.2026
 bron: Fisconetplus.be (officieuze gecoördineerde versie)
 chunk:
   level: 5
-  sub_strategy: null
+  sub_strategy:
   type: Art.
 itaa-lex-sectie: IX
 provenance:
-  generated_at: '2026-05-11T16:21:48Z'
   inputs:
-  - id: resources/raw/wetteksten/successie-brussel.pdf
-    sha256: 657d96f879eaa0099e68a066d2e56de7dce5b67d36cce8f324576a992028a015
-    version: 16.03.2026
-  stale: false
-  stale_reason: null
+    - id: resources/raw/wetteksten/successie-brussel.pdf
+      sha256: 657d96f879eaa0099e68a066d2e56de7dce5b67d36cce8f324576a992028a015
+      version: 16.03.2026
   tooling:
-    model: null
     pipeline: tools/etl/convert.py
     pipeline_version: 11f9196
-    prompt_version: null
+    model:
+    prompt_version:
+  generated_at: '2026-05-11T16:21:48Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T11:41:57Z'
+    status: needs-rework
+    confirmed_at: '2026-05-11T16:30:31Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: "Reeds beoordeeld in vorige Laag-2 run (status: needs-rework). Kernproblemen bevestigd: A3: body opent met 3× herhaalde 'WETBOEK DER SUCCESSIERECHTEN'-titel (regels 103, 107, 111). A2: Laag-1 meldt 24 dotted-leader-regels (bv. '....................................................... 69'). B3: dubbele Art. 17-blokken (regel 326 en 338) zonder discriminator-heading voor toekomstig vs. huidig recht. Idem Art. 20 (regels 374 en 388) en Art. 25 (regels 483 en 491). G2: Laag-1 bevestigde asterisk-separatoren op r.131-132."
     layer1:
       file_size_chars: 429038
       flags:
-      - detail: 'langste sectie op #####-niveau: 57698 chars (>24000); chunker splitst
-          auto op alinea-grenzen via split_long_chunk'
-        name: max_section_size
-        samples: []
-        status: warn
-      - detail: 24 TOC-stippen-regel(s) gevonden
-        name: no_toc_dots
-        samples:
-        - '....................................................... 69
+        - detail: 'langste sectie op #####-niveau: 57698 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
+          name: max_section_size
+          samples: []
+          status: warn
+        - detail: 24 TOC-stippen-regel(s) gevonden
+          name: no_toc_dots
+          samples:
+            - '....................................................... 69
 
-          '
-        - '................................................................................'
-        - '................................................................................'
-        status: warn
+              '
+            - '................................................................................'
+            - '................................................................................'
+          status: warn
       heading_count: 382
       max_section_chars: 57698
       run_at: '2026-05-11T13:40:46Z'
       run_id: 20260511-134044
       status: warn
     layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-      - categorie: A3
-        regel: 65
-        type: other
-        voorbeeld: WETBOEK DER SUCCESSIERECHTEN (3× herhaald op r.65, 69, 73)
-      - categorie: A2
-        regel: 82
-        type: dotted-leader
-        voorbeeld: '### HOOFDSTUK XI - Aan derden... .......................................................
-          69'
-      - categorie: G2
-        regel: 131
-        type: other
-        voorbeeld: '*                              *
-
-          *'
-      - categorie: B3
-        regel: 342
-        type: other
-        voorbeeld: '##### Art. 17 (r.342) en ##### Art. 17 (r.354) — zelfde artikel-nummer,
-          twee versies zonder discriminator'
-      - categorie: A3
-        regel: 1977
-        type: other
-        voorbeeld: '### HOOFDSTUK XI - Aan derden... (duplicaat van r.1955)'
-      rationale: 'A3: de body opent met 3× herhaalde WETBOEK DER SUCCESSIERECHTEN-titel
-        (r.65-75) gevolgd door een TOC-blok met 24 dotted-lines (A2). B3: vijf hoofdstukken
-        zijn gedupliceerd (HOOFDSTUK III, IX, XI, XII, XV), wat wijst op een gedeeltelijke
-        TOC-herhaling midden in het corps. D-onzeker: dubbele Art. 17-blokken op r.342
-        en r.354 voor verschillende inwerkingtredingsdata (''TOEKOMSTIG RECHT'' vs
-        ''van toepassing vanaf 01.08.2022'') zijn inhoudelijk correct maar zonder
-        discriminator-heading voor RAG verwarrend. G2: decoratieve asterisk-separatoren
-        op r.131-132 (`*` en `*`) zijn PDF-glyphs.'
-      run_at: '2026-05-11T11:41:57Z'
       status: needs-rework
-    rationale: 'A3: de body opent met 3× herhaalde WETBOEK DER SUCCESSIERECHTEN-titel
-      (r.65-75) gevolgd door een TOC-blok met 24 dotted-lines (A2). B3: vijf hoofdstukken
-      zijn gedupliceerd (HOOFDSTUK III, IX, XI, XII, XV), wat wijst op een gedeeltelijke
-      TOC-herhaling midden in het corps. D-onzeker: dubbele Art. 17-blokken op r.342
-      en r.354 voor verschillende inwerkingtredingsdata (''TOEKOMSTIG RECHT'' vs ''van
-      toepassing vanaf 01.08.2022'') zijn inhoudelijk correct maar zonder discriminator-heading
-      voor RAG verwarrend. G2: decoratieve asterisk-separatoren op r.131-132 (`*`
-      en `*`) zijn PDF-glyphs.'
-    status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T16:30:31Z'
+      rationale: "Reeds beoordeeld in vorige Laag-2 run (status: needs-rework). Kernproblemen bevestigd: A3: body opent met 3× herhaalde 'WETBOEK DER SUCCESSIERECHTEN'-titel (regels 103, 107, 111). A2: Laag-1 meldt 24 dotted-leader-regels (bv. '....................................................... 69'). B3: dubbele Art. 17-blokken (regel 326 en 338) zonder discriminator-heading voor toekomstig vs. huidig recht. Idem Art. 20 (regels 374 en 388) en Art. 25 (regels 483 en 491). G2: Laag-1 bevestigde asterisk-separatoren op r.131-132."
+      concrete_problemen:
+        - regel: 103
+          categorie: A3
+          type: other
+          voorbeeld: '## WETBOEK DER SUCCESSIERECHTEN (3× herhaald op r.103, 107, 111)'
+        - regel: 326
+          categorie: B3
+          type: other
+          voorbeeld: '##### Art. 17 (r.326 toekomstig recht) en ##### Art. 17 (r.338 huidig recht) — geen discriminator'
+        - regel: 374
+          categorie: B3
+          type: other
+          voorbeeld: '##### Art. 20 (r.374 toekomstig recht) en ##### Art. 20 (r.388 huidig recht) — geen discriminator'
+        - regel: 82
+          categorie: A2
+          type: dotted-leader
+          voorbeeld: '### HOOFDSTUK XI - Aan derden... ....................................................... 69'
+        - regel: 131
+          categorie: G2
+          type: other
+          voorbeeld: "*                              *\n\n*"
 status: beschikbaar
 tags:
-- IX
-- '2.6'
+  - IX
+  - '2.6'
 wet: Wetboek der Successierechten — Brussels Hoofdstedelijk Gewest
 ---
 

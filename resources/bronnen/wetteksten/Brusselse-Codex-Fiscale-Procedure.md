@@ -8,21 +8,23 @@ chunk:
   type: Art.
 itaa-lex-sectie: IV.B
 provenance:
-  generated_at: '2026-05-11T16:21:26Z'
   inputs:
     - id: resources/raw/wetteksten/Brusselse-Codex-Fiscale-Procedure.pdf
       sha256: d342b5b00bfe42e3793a0afc56ab1d9d1256e4f99ddac0e6d4b3f65c764ca4eb
       version: 04.06.2024
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 11f9196
+    model:
     prompt_version:
+  generated_at: '2026-05-11T16:21:26Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at:
-    confirmed_by:
+    status: needs-rework
+    confirmed_at: '2026-05-11T16:30:30Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "A3/B3: het document opent met een volledige inhoudsopgave als heading-skeletons (Titel 1–6, regels 52–186) zonder artikeltekst, gevolgd door 'Tekst' placeholder op regel 186, waarna de eigenlijke inhoud herstart bij TITEL 1 op regel 188 — out-of-order PDF-extractie identiek aan BW-boek5/8. B5: Art. 3 en Art. 4 (regels 198/213) hebben hun heading samensmelt met de eerste zin van de artikeltekst ('###### Art. 3.De bepalingen...' en '###### Art. 4.Voor de toepassing...') — de heading is niet van de body gescheiden."
     layer1:
       status: pass
       run_id: 20260511-162232
@@ -32,13 +34,27 @@ provenance:
       file_size_chars: 153960
       flags: []
     layer2:
-      agent:
-      concrete_problemen: []
-      rationale:
-      run_at:
-      status: not_run
-    rationale: 'Trust gereset 2026-05-11: ETL-fix wetteksten met content-diff > 5%'
-    status: unreviewed
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T16:30:30Z'
+      rationale: "A3/B3: het document opent met een volledige inhoudsopgave als heading-skeletons (Titel 1–6, regels 52–186) zonder artikeltekst, gevolgd door 'Tekst' placeholder op regel 186, waarna de eigenlijke inhoud herstart bij TITEL 1 op regel 188 — out-of-order PDF-extractie identiek aan BW-boek5/8. B5: Art. 3 en Art. 4 (regels 198/213) hebben hun heading samensmelt met de eerste zin van de artikeltekst ('###### Art. 3.De bepalingen...' en '###### Art. 4.Voor de toepassing...') — de heading is niet van de body gescheiden."
+      concrete_problemen:
+        - regel: 52
+          categorie: A3
+          type: other
+          voorbeeld: Titel\n6 MAART 2019. - Ordonnantie... gevolgd door heading-skeletons zonder inhoud t/m r.186
+        - regel: 186
+          categorie: B3
+          type: other
+          voorbeeld: Tekst (lege placeholder als enige body voor TITEL 6)
+        - regel: 198
+          categorie: B5
+          type: other
+          voorbeeld: '###### Art. 3.De bepalingen die deze Codex inhouden zijn van toepassing :'
+        - regel: 213
+          categorie: B5
+          type: other
+          voorbeeld: '###### Art. 4.Voor de toepassing van deze Codex wordt verstaan onder :'
 status: beschikbaar
 tags:
   - IV.B

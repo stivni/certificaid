@@ -3,59 +3,69 @@ bijgewerkt: 16.03.2026
 bron: Fisconetplus.be (officieuze gecoördineerde versie)
 chunk:
   level: 6
-  sub_strategy: null
+  sub_strategy:
   type: Art.
 itaa-lex-sectie: VIII
 provenance:
-  generated_at: '2026-05-11T16:21:47Z'
   inputs:
-  - id: resources/raw/wetteksten/Registratierechten-Brussel.pdf
-    sha256: a5a42fdb62118bd14b1ff76a771cced7b25a5b4d9859eae758e7361286b4eb68
-    version: 16.03.2026
-  stale: false
-  stale_reason: null
+    - id: resources/raw/wetteksten/Registratierechten-Brussel.pdf
+      sha256: a5a42fdb62118bd14b1ff76a771cced7b25a5b4d9859eae758e7361286b4eb68
+      version: 16.03.2026
   tooling:
-    model: null
     pipeline: tools/etl/convert.py
     pipeline_version: 11f9196
-    prompt_version: null
+    model:
+    prompt_version:
+  generated_at: '2026-05-11T16:21:47Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: null
-    confirmed_by: null
+    status: needs-rework
+    confirmed_at: '2026-05-11T16:30:31Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "Let op: layer1 is stale (run vóór de ETL-fix van 16:21 op dezelfde dag); de geflagde TOC-dots zijn NIET aanwezig in de huidige body. Wel aanwezig: duplicate cover-intro regels bovenaan (A3, r.69-71 en r.75-77: 'Wetgeving van toepassing...' en de KB-citaat elk tweemaal). '## HYPOTHEEK- EN GRIFFIERECHTEN' en '## BRUSSELS HOOFDSTEDELIJK GEWEST' zijn twee losse ## headings vóór TITEL I zonder relatie tot de wetboek-structuur (B2). Verder: 604 headings, goed gestructureerd, alle artikelen aanwezig."
     layer1:
       file_size_chars: 543758
       flags:
-      - detail: 'langste sectie op ######-niveau: 58083 chars (>24000); chunker splitst
-          auto op alinea-grenzen via split_long_chunk'
-        name: max_section_size
-        samples: []
-        status: warn
-      - detail: 72 TOC-stippen-regel(s) gevonden
-        name: no_toc_dots
-        samples:
-        - '................................................................................'
-        - '...............................................................................6'
-        - '................................................................................'
-        status: warn
+        - detail: 'langste sectie op ######-niveau: 58083 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
+          name: max_section_size
+          samples: []
+          status: warn
+        - detail: 72 TOC-stippen-regel(s) gevonden
+          name: no_toc_dots
+          samples:
+            - '................................................................................'
+            - '...............................................................................6'
+            - '................................................................................'
+          status: warn
       heading_count: 604
       max_section_chars: 58083
       run_at: '2026-05-11T13:40:46Z'
       run_id: 20260511-134044
       status: warn
     layer2:
-      agent: null
-      concrete_problemen: []
-      rationale: null
-      run_at: null
-      status: not_run
-    rationale: 'Trust gereset 2026-05-11: ETL-fix wetteksten met content-diff > 5%'
-    status: unreviewed
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T16:30:31Z'
+      rationale: "Let op: layer1 is stale (run vóór de ETL-fix van 16:21 op dezelfde dag); de geflagde TOC-dots zijn NIET aanwezig in de huidige body. Wel aanwezig: duplicate cover-intro regels bovenaan (A3, r.69-71 en r.75-77: 'Wetgeving van toepassing...' en de KB-citaat elk tweemaal). '## HYPOTHEEK- EN GRIFFIERECHTEN' en '## BRUSSELS HOOFDSTEDELIJK GEWEST' zijn twee losse ## headings vóór TITEL I zonder relatie tot de wetboek-structuur (B2). Verder: 604 headings, goed gestructureerd, alle artikelen aanwezig."
+      concrete_problemen:
+        - regel: 69
+          categorie: A3
+          type: other
+          voorbeeld: "Wetgeving van toepassing in het BRUSSELSE HOOFDSTEDELIJK GEWEST\n\nWetgeving van toepassing in het BRUSSELSE HOOFDSTEDELIJK GEWEST"
+        - regel: 75
+          categorie: A3
+          type: other
+          voorbeeld: (KB nr. 64 van 30.11.1939...) [tweemaal identiek herhaald]
+        - regel: 65
+          categorie: B2
+          type: other
+          voorbeeld: "## HYPOTHEEK- EN GRIFFIERECHTEN\n\n## BRUSSELS HOOFDSTEDELIJK GEWEST"
 status: beschikbaar
 tags:
-- VIII
-- '2.6'
-wet: Wetboek der Registratie-, Hypotheek- en Griffierechten — Brussels Hoofdstedelijk
-  Gewest
+  - VIII
+  - '2.6'
+wet: Wetboek der Registratie-, Hypotheek- en Griffierechten — Brussels Hoofdstedelijk Gewest
 ---
 
 # Registratierechten — Brussels Hoofdstedelijk Gewest

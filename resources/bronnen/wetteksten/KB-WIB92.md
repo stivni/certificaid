@@ -8,21 +8,23 @@ chunk:
   type: Art.
 itaa-lex-sectie: II
 provenance:
-  generated_at: '2026-05-11T16:21:30Z'
   inputs:
     - id: resources/raw/wetteksten/KB-WIB92.pdf
       sha256: 16156af9b49f6a5968dd3c818f3cb0ac36a1c2a60ad68fe9b273aafde371749c
       version: 24.12.2025
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 11f9196
+    model:
     prompt_version:
+  generated_at: '2026-05-11T16:21:30Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at:
-    confirmed_by:
+    status: needs-rework
+    confirmed_at: '2026-05-11T16:30:30Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "B4/A6: Losse 'Titel' (regel 55) en 'Inhoudstafel' (regel 67) als plain-text regels zonder heading-prefix. Verder staan enkele artikel-koppen gesplitst: de ##### heading bevat alleen het artikelnummer en de eigenlijke tekst staat direct erna op de volgende regel zonder witruimte (bv. 'Art. 2.De'). De bijlagentabel (BIJLAGE I, regels 1966+) is als ASCII-spatie-uitlijning weergegeven (C3, pseudo-tabel) in plaats van markdown pipe-syntax. Laag-1 pass zonder flags — qua structuur is de body grotendeels in orde."
     layer1:
       status: pass
       run_id: 20260511-162232
@@ -32,13 +34,27 @@ provenance:
       file_size_chars: 216919
       flags: []
     layer2:
-      agent:
-      concrete_problemen: []
-      rationale:
-      run_at:
-      status: not_run
-    rationale: 'Trust gereset 2026-05-11: ETL-fix wetteksten met content-diff > 5%'
-    status: unreviewed
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T16:30:30Z'
+      rationale: "B4/A6: Losse 'Titel' (regel 55) en 'Inhoudstafel' (regel 67) als plain-text regels zonder heading-prefix. Verder staan enkele artikel-koppen gesplitst: de ##### heading bevat alleen het artikelnummer en de eigenlijke tekst staat direct erna op de volgende regel zonder witruimte (bv. 'Art. 2.De'). De bijlagentabel (BIJLAGE I, regels 1966+) is als ASCII-spatie-uitlijning weergegeven (C3, pseudo-tabel) in plaats van markdown pipe-syntax. Laag-1 pass zonder flags — qua structuur is de body grotendeels in orde."
+      concrete_problemen:
+        - regel: 55
+          categorie: B4
+          type: other
+          voorbeeld: "### Titel\n\n27 AUGUSTUS 1993. - KONINKLIJK BESLUIT..."
+        - regel: 67
+          categorie: B4
+          type: other
+          voorbeeld: "Inhoudstafel\n\n## HOOFDSTUK I."
+        - regel: 1966
+          categorie: C3
+          type: pseudo-table
+          voorbeeld: '----------------- ------------ --------- --------- --------- --------- --------'
+        - regel: 2004
+          categorie: A7
+          type: scrambled-words
+          voorbeeld: '<KB 1996-03-06/3 4, art. 4, 0 27; Inwerkingtreding : 01-01-199 5>'
 status: beschikbaar
 tags:
   - II

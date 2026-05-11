@@ -11,10 +11,10 @@
         "XIX",
         "4.0"
       ],
-      "trust_status": "unreviewed",
-      "trust_confirmed_by": null,
+      "trust_status": "needs-rework",
+      "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": "pass",
-      "layer2_status": "not_run"
+      "layer2_status": "needs-rework"
     },
     {
       "bestand": "Antiwitwaswet-2017.md",
@@ -26,10 +26,10 @@
         "XVII",
         "4.0"
       ],
-      "trust_status": "unreviewed",
-      "trust_confirmed_by": null,
+      "trust_status": "needs-rework",
+      "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": "warn",
-      "layer2_status": "not_run"
+      "layer2_status": "needs-rework"
     },
     {
       "bestand": "BTW-dertiende-richtlijn-1986.md",
@@ -56,10 +56,10 @@
         "VI.A",
         "2.4"
       ],
-      "trust_status": "unreviewed",
-      "trust_confirmed_by": null,
+      "trust_status": "needs-rework",
+      "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": "pass",
-      "layer2_status": "not_run"
+      "layer2_status": "needs-rework"
     },
     {
       "bestand": "BTW-teruggaaf-richtlijn-2008-9.md",
@@ -86,10 +86,10 @@
         "VI.A",
         "2.4"
       ],
-      "trust_status": "unreviewed",
-      "trust_confirmed_by": null,
+      "trust_status": "needs-rework",
+      "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": "warn",
-      "layer2_status": "not_run"
+      "layer2_status": "needs-rework"
     },
     {
       "bestand": "BW-boek1-algemene-bepalingen.md",
@@ -101,10 +101,10 @@
         "XI",
         "3.1"
       ],
-      "trust_status": "unreviewed",
-      "trust_confirmed_by": null,
+      "trust_status": "needs-rework",
+      "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": "pass",
-      "layer2_status": "not_run"
+      "layer2_status": "needs-rework"
     },
     {
       "bestand": "BW-boek2-relatievermogensrecht.md",
@@ -116,10 +116,10 @@
         "XI",
         "3.1"
       ],
-      "trust_status": "unreviewed",
-      "trust_confirmed_by": null,
+      "trust_status": "needs-rework",
+      "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": "pass",
-      "layer2_status": "not_run"
+      "layer2_status": "needs-rework"
     },
     {
       "bestand": "BW-boek3-goederen.md",
@@ -131,10 +131,10 @@
         "XI",
         "3.1"
       ],
-      "trust_status": "unreviewed",
-      "trust_confirmed_by": null,
+      "trust_status": "needs-rework",
+      "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": "pass",
-      "layer2_status": "not_run"
+      "layer2_status": "needs-rework"
     },
     {
       "bestand": "BW-boek4-nalatenschappen.md",
@@ -147,10 +147,10 @@
         "3.1",
         "2.6"
       ],
-      "trust_status": "unreviewed",
-      "trust_confirmed_by": null,
+      "trust_status": "needs-rework",
+      "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": "pass",
-      "layer2_status": "not_run"
+      "layer2_status": "needs-rework"
     },
     {
       "bestand": "BW-boek5-verbintenissen.md",
@@ -162,10 +162,10 @@
         "XI",
         "3.1"
       ],
-      "trust_status": "unreviewed",
-      "trust_confirmed_by": null,
+      "trust_status": "needs-rework",
+      "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": "pass",
-      "layer2_status": "not_run"
+      "layer2_status": "needs-rework"
     },
     {
       "bestand": "BW-boek8-bewijs.md",
@@ -177,10 +177,10 @@
         "XI",
         "3.1"
       ],
-      "trust_status": "unreviewed",
-      "trust_confirmed_by": null,
+      "trust_status": "needs-rework",
+      "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": "pass",
-      "layer2_status": "not_run"
+      "layer2_status": "needs-rework"
     },
     {
       "bestand": "BW-boek9-zekerheden.md",
@@ -192,10 +192,10 @@
         "XI",
         "3.1"
       ],
-      "trust_status": "unreviewed",
-      "trust_confirmed_by": null,
+      "trust_status": "needs-rework",
+      "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": "pass",
-      "layer2_status": "not_run"
+      "layer2_status": "needs-rework"
     },
     {
       "bestand": "Brusselse-Codex-Fiscale-Procedure.md",
@@ -207,10 +207,10 @@
         "IV.B",
         "2.5"
       ],
-      "trust_status": "unreviewed",
-      "trust_confirmed_by": null,
+      "trust_status": "needs-rework",
+      "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": "pass",
-      "layer2_status": "not_run"
+      "layer2_status": "needs-rework"
     },
     {
       "bestand": "Decr-Waals-Directe-Belastingen.md",
@@ -222,10 +222,10 @@
         "IV.C",
         "2.5"
       ],
-      "trust_status": "unreviewed",
-      "trust_confirmed_by": null,
+      "trust_status": "needs-rework",
+      "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": "warn",
-      "layer2_status": "not_run"
+      "layer2_status": "needs-rework"
     },
     {
       "bestand": "EU-AVG-Verordening-2016-679.md",
@@ -347,10 +347,10 @@
         "1.2",
         "1.3"
       ],
-      "trust_status": "unreviewed",
-      "trust_confirmed_by": null,
+      "trust_status": "rejected",
+      "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": "fail",
-      "layer2_status": "not_run"
+      "layer2_status": "rejected"
     },
     {
       "bestand": "KB-WIB92.md",
@@ -363,10 +363,10 @@
         "2.2",
         "2.3"
       ],
-      "trust_status": "unreviewed",
-      "trust_confirmed_by": null,
+      "trust_status": "needs-rework",
+      "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": "pass",
-      "layer2_status": "not_run"
+      "layer2_status": "needs-rework"
     },
     {
       "bestand": "KB-WVV-2019.md",
@@ -380,10 +380,10 @@
         "3.1",
         "3.2"
       ],
-      "trust_status": "unreviewed",
-      "trust_confirmed_by": null,
+      "trust_status": "needs-rework",
+      "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": "pass",
-      "layer2_status": "not_run"
+      "layer2_status": "needs-rework"
     },
     {
       "bestand": "KB-voorafgaande-beslissingen-art22-2003.md",
@@ -408,10 +408,10 @@
       "tags": [
         "I"
       ],
-      "trust_status": "unreviewed",
-      "trust_confirmed_by": null,
+      "trust_status": "needs-rework",
+      "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": "pass",
-      "layer2_status": "not_run"
+      "layer2_status": "needs-rework"
     },
     {
       "bestand": "Klokkenluiderswet-2022.md",
@@ -423,10 +423,10 @@
         "XVIII",
         "4.0"
       ],
-      "trust_status": "unreviewed",
-      "trust_confirmed_by": null,
+      "trust_status": "needs-rework",
+      "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": "pass",
-      "layer2_status": "not_run"
+      "layer2_status": "needs-rework"
     },
     {
       "bestand": "MAR-vzw.md",
@@ -454,10 +454,10 @@
         "2.2",
         "2.3"
       ],
-      "trust_status": "unreviewed",
-      "trust_confirmed_by": null,
+      "trust_status": "needs-rework",
+      "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": "pass",
-      "layer2_status": "not_run"
+      "layer2_status": "needs-rework"
     },
     {
       "bestand": "MIGB-Vlaanderen.md",
@@ -470,10 +470,10 @@
         "2.2",
         "2.3"
       ],
-      "trust_status": "unreviewed",
-      "trust_confirmed_by": null,
+      "trust_status": "needs-rework",
+      "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": "pass",
-      "layer2_status": "not_run"
+      "layer2_status": "needs-rework"
     },
     {
       "bestand": "MIGB-Wallonie.md",
@@ -486,10 +486,10 @@
         "2.2",
         "2.3"
       ],
-      "trust_status": "unreviewed",
-      "trust_confirmed_by": null,
+      "trust_status": "needs-rework",
+      "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": "pass",
-      "layer2_status": "not_run"
+      "layer2_status": "needs-rework"
     },
     {
       "bestand": "Oud-BW.md",
@@ -515,10 +515,10 @@
         "VIII",
         "2.6"
       ],
-      "trust_status": "unreviewed",
-      "trust_confirmed_by": null,
+      "trust_status": "needs-rework",
+      "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": "warn",
-      "layer2_status": "not_run"
+      "layer2_status": "needs-rework"
     },
     {
       "bestand": "Registratierechten-Waals.md",
@@ -546,10 +546,10 @@
         "2.5",
         "2.6"
       ],
-      "trust_status": "unreviewed",
-      "trust_confirmed_by": null,
+      "trust_status": "needs-rework",
+      "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": "warn",
-      "layer2_status": "not_run"
+      "layer2_status": "needs-rework"
     },
     {
       "bestand": "Richtlijn-2013-34-EU.md",
@@ -576,10 +576,10 @@
       "tags": [
         "XII"
       ],
-      "trust_status": "unreviewed",
-      "trust_confirmed_by": null,
+      "trust_status": "trusted",
+      "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": "pass",
-      "layer2_status": "not_run"
+      "layer2_status": "trusted"
     },
     {
       "bestand": "Strafwetboek2024-boek1.md",
@@ -590,10 +590,10 @@
       "tags": [
         "XII"
       ],
-      "trust_status": "unreviewed",
-      "trust_confirmed_by": null,
+      "trust_status": "trusted",
+      "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": "pass",
-      "layer2_status": "not_run"
+      "layer2_status": "trusted"
     },
     {
       "bestand": "Strafwetboek2024-boek2.md",
@@ -604,10 +604,10 @@
       "tags": [
         "XII"
       ],
-      "trust_status": "unreviewed",
-      "trust_confirmed_by": null,
+      "trust_status": "needs-rework",
+      "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": "pass",
-      "layer2_status": "not_run"
+      "layer2_status": "needs-rework"
     },
     {
       "bestand": "Successierechten-Brussel.md",
@@ -634,10 +634,10 @@
         "IX",
         "2.6"
       ],
-      "trust_status": "unreviewed",
-      "trust_confirmed_by": null,
+      "trust_status": "needs-rework",
+      "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": "warn",
-      "layer2_status": "not_run"
+      "layer2_status": "needs-rework"
     },
     {
       "bestand": "Successierechten-federaal.md",
@@ -665,10 +665,10 @@
         "2.5",
         "2.6"
       ],
-      "trust_status": "unreviewed",
-      "trust_confirmed_by": null,
+      "trust_status": "needs-rework",
+      "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": "warn",
-      "layer2_status": "not_run"
+      "layer2_status": "needs-rework"
     },
     {
       "bestand": "Verdrag-WABB.md",
@@ -696,10 +696,10 @@
         "VI.B",
         "2.4"
       ],
-      "trust_status": "unreviewed",
-      "trust_confirmed_by": null,
+      "trust_status": "trusted",
+      "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": "pass",
-      "layer2_status": "not_run"
+      "layer2_status": "trusted"
     },
     {
       "bestand": "WBTW-KB01okt2013-certificatie-gks.md",

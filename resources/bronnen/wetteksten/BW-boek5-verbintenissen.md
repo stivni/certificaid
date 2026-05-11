@@ -8,21 +8,23 @@ chunk:
   type: Art.
 itaa-lex-sectie: XI
 provenance:
-  generated_at: '2026-05-11T16:21:26Z'
   inputs:
     - id: resources/raw/wetteksten/BW-boek5-verbintenissen.pdf
       sha256: e2c7abdb1eb57605aad65d318bd39b5332ec67f7c3349b5e57e4c75f11e0cc14
       version: 24.12.2025
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 11f9196
+    model:
     prompt_version:
+  generated_at: '2026-05-11T16:21:26Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at:
-    confirmed_by:
+    status: needs-rework
+    confirmed_at: '2026-05-11T16:30:30Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "A3/B3: het document opent met Afdeling XXIII t/m Hoofdstuk 6 (regels 53–79) met enkel lege heading-skeletons en 'Tekst' als plaatshouder, waarna het document herstart vanaf Hoofdstuk 1 op regel 81 — dit is een klassieke out-of-order PDF-extractie waarbij de slothoofstukken als schijnbaar eerste blok verschijnen. B5: Art. 29 (regel 197) introduceert een stray '#### Art. 4.' op regel 199 midden in Afdeling V, wat wijst op een fout in de artikel-extractie."
     layer1:
       status: pass
       run_id: 20260511-162232
@@ -32,13 +34,23 @@ provenance:
       file_size_chars: 18082
       flags: []
     layer2:
-      agent:
-      concrete_problemen: []
-      rationale:
-      run_at:
-      status: not_run
-    rationale: 'Trust gereset 2026-05-11: ETL-fix wetteksten met content-diff > 5%'
-    status: unreviewed
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T16:30:30Z'
+      rationale: "A3/B3: het document opent met Afdeling XXIII t/m Hoofdstuk 6 (regels 53–79) met enkel lege heading-skeletons en 'Tekst' als plaatshouder, waarna het document herstart vanaf Hoofdstuk 1 op regel 81 — dit is een klassieke out-of-order PDF-extractie waarbij de slothoofstukken als schijnbaar eerste blok verschijnen. B5: Art. 29 (regel 197) introduceert een stray '#### Art. 4.' op regel 199 midden in Afdeling V, wat wijst op een fout in de artikel-extractie."
+      concrete_problemen:
+        - regel: 53
+          categorie: A3
+          type: other
+          voorbeeld: "### Afdeling XXIII. - Wijziging van de wet van 23 november 2017... (headings zonder content, gevolgd door 'Tekst' op r.79)"
+        - regel: 79
+          categorie: B3
+          type: other
+          voorbeeld: Tekst (lege placeholder als enige body-inhoud voor Hoofdstuk 6 Art. 65)
+        - regel: 199
+          categorie: B5
+          type: other
+          voorbeeld: '#### Art. 4. (stray artikel-heading midden in Afdeling V - Wijziging Burgerlijk Wetboek)'
 status: beschikbaar
 tags:
   - XI

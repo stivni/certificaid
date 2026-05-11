@@ -4,25 +4,27 @@ bron: Afgesplitst uit Fisconet-compilatie (pdftotext_compilatie_btw)
 bron_rol: itaa_lex
 chunk:
   level: 2
-  sub_strategy: null
+  sub_strategy:
   type: Art.
 itaa-lex-sectie: VI.B
 provenance:
-  generated_at: '2026-05-11T16:21:50Z'
   inputs:
-  - id: resources/raw/wetteksten/btw-kbs/WBTW-KB-compilatie.pdf
-    sha256: 5f1bad7278d1f8e1f5c00efb5d792f61342d3f7a14a7950caca2937924bfa91c
-    version: 06.03.2020
-  stale: false
-  stale_reason: null
+    - id: resources/raw/wetteksten/btw-kbs/WBTW-KB-compilatie.pdf
+      sha256: 5f1bad7278d1f8e1f5c00efb5d792f61342d3f7a14a7950caca2937924bfa91c
+      version: 06.03.2020
   tooling:
-    model: null
     pipeline: tools/etl/convert.py
     pipeline_version: 11f9196
-    prompt_version: null
+    model:
+    prompt_version:
+  generated_at: '2026-05-11T16:21:50Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T11:41:58Z'
+    status: needs-rework
+    confirmed_at: '2026-05-11T16:30:31Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: "A1: twee pagina-voetregels als plain text in body (regels 142, 162, 189): 'KB 07.06.2007                                      pg. 1        Onbeperkt uitstel van de invordering'. C3: Bijlage A (regel 166) toont pseudo-tabel met spatie-kolom-alignment: 'Bijwerking                                          Te vervangen pagina's'. G1: bare URL 'www.fisconetplus.be' op regel 177 als plain text zonder hyperlink-markup."
     layer1:
       file_size_chars: 5935
       flags: []
@@ -32,48 +34,36 @@ provenance:
       run_id: 20260511-134044
       status: pass
     layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-      - categorie: A1
-        regel: 111
-        type: other
-        voorbeeld: KB 07.06.2007                                      pg. 1        Onbeperkt
-          uitstel van de invordering
-      - categorie: A1
-        regel: 131
-        type: other
-        voorbeeld: KB 07.06.2007                                      pg. 2        Onbeperkt
-          uitstel van de invordering
-      - categorie: C3
-        regel: 135
-        type: pseudo-table
-        voorbeeld: '     Bijwerking                                          Te vervangen
-          pagina''s'
-      - categorie: G1
-        regel: 146
-        type: url-plaintext
-        voorbeeld: De historische versies kunnen geraadpleegd worden op www.fisconetplus.be
-      rationale: 'A1: drie pagina-voetregels als plain text in body (regels 111, 131,
-        158): ''KB 07.06.2007                                      pg. 1        Onbeperkt
-        uitstel van de invordering''. C3: Bijlage A (regels 133–139) toont een pseudo-tabel
-        (''Bijwerking                                          Te vervangen pagina''s'')
-        met spatie-kolom-alignment. G1: bare URL ''www.fisconetplus.be'' op regel
-        146 als plain text.'
-      run_at: '2026-05-11T11:41:58Z'
       status: needs-rework
-    rationale: 'A1: drie pagina-voetregels als plain text in body (regels 111, 131,
-      158): ''KB 07.06.2007                                      pg. 1        Onbeperkt
-      uitstel van de invordering''. C3: Bijlage A (regels 133–139) toont een pseudo-tabel
-      (''Bijwerking                                          Te vervangen pagina''s'')
-      met spatie-kolom-alignment. G1: bare URL ''www.fisconetplus.be'' op regel 146
-      als plain text.'
-    status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T16:30:31Z'
+      rationale: "A1: twee pagina-voetregels als plain text in body (regels 142, 162, 189): 'KB 07.06.2007                                      pg. 1        Onbeperkt uitstel van de invordering'. C3: Bijlage A (regel 166) toont pseudo-tabel met spatie-kolom-alignment: 'Bijwerking                                          Te vervangen pagina's'. G1: bare URL 'www.fisconetplus.be' op regel 177 als plain text zonder hyperlink-markup."
+      concrete_problemen:
+        - regel: 142
+          categorie: A1
+          type: other
+          voorbeeld: KB 07.06.2007                                      pg. 1        Onbeperkt uitstel van de invordering
+        - regel: 162
+          categorie: A1
+          type: other
+          voorbeeld: KB 07.06.2007                                      pg. 2        Onbeperkt uitstel van de invordering
+        - regel: 189
+          categorie: A1
+          type: other
+          voorbeeld: KB 07.06.2007                                     pg. Bijl.AB 1        Lijst van de bijw. en rec. wijz.
+        - regel: 166
+          categorie: C3
+          type: pseudo-table
+          voorbeeld: "     Bijwerking                                          Te vervangen pagina's"
+        - regel: 177
+          categorie: G1
+          type: url-plaintext
+          voorbeeld: De historische versies kunnen geraadpleegd worden op www.fisconetplus.be
 status: beschikbaar
 tags:
-- VI.B
-- '2.4'
-wet: K.B. van 7 juni 2007, tot uitvoering van de artikelen 84quinquies tot 84decies
-  van het Wetboek van de belasting over de toegevoegde waarde
+  - VI.B
+  - '2.4'
+wet: K.B. van 7 juni 2007, tot uitvoering van de artikelen 84quinquies tot 84decies van het Wetboek van de belasting over de toegevoegde waarde
 ---
 
 # K.B. van 7 juni 2007, tot uitvoering van de artikelen 84quinquies tot 84decies van het Wetboek van de belasting over de toegevoegde waarde

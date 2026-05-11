@@ -21,9 +21,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T11:43:15Z'
+    confirmed_at: '2026-05-11T16:30:31Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "A7/C3: Het bestand is een rekeningplan-lijst waarbij de kolom-layout van het PDF totaal verloren is gegaan. Rekeningnummers (3- en 4-cijferig) staan als losse regels, gevolgd door de rekeningnaam op een volgende regel, soms met sub-nummers (bv. '2800' op één regel, 'Aanschaffingswaarde' op de volgende). Dit is geen markdown-conventie maar een directe PDF-column-extractie. A1: Paginanummer-resten staan als body-regels door het bestand ('1 | Minimum Algemeen Rekeningstelsel...', '2 | ...', enz. op 12 plaatsen). B4: Secties 1 t/m 7 (Klassen) staan als plain-text paragrafen ('1.', '2.', enz.) zonder ## of ### heading. Laag-1 was 'not_run'."
+    rationale: "PDF-kolom-extractie is volledig mislukt: rekeningnummers (3-4 cijferig) staan als losse regels gevolgd door de rekeningnaam op de volgende regel door het hele document (A7). Paginanummer-resten staan als body-regels (A1: '1 | Minimum Algemeen Rekeningstelsel...' op minstens 12 plaatsen). Klasse-secties (1. t/m 7.) zijn plain-text alinea's zonder heading-prefix (B4). Afgekapte rekeningcodes zoals '164-16x' (C3 pseudo-tabel artefact)."
     layer1:
       status: pass
       run_id: 20260511-162232
@@ -35,25 +35,29 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T11:43:15Z'
-      rationale: "A7/C3: Het bestand is een rekeningplan-lijst waarbij de kolom-layout van het PDF totaal verloren is gegaan. Rekeningnummers (3- en 4-cijferig) staan als losse regels, gevolgd door de rekeningnaam op een volgende regel, soms met sub-nummers (bv. '2800' op één regel, 'Aanschaffingswaarde' op de volgende). Dit is geen markdown-conventie maar een directe PDF-column-extractie. A1: Paginanummer-resten staan als body-regels door het bestand ('1 | Minimum Algemeen Rekeningstelsel...', '2 | ...', enz. op 12 plaatsen). B4: Secties 1 t/m 7 (Klassen) staan als plain-text paragrafen ('1.', '2.', enz.) zonder ## of ### heading. Laag-1 was 'not_run'."
+      run_at: '2026-05-11T16:30:31Z'
+      rationale: "PDF-kolom-extractie is volledig mislukt: rekeningnummers (3-4 cijferig) staan als losse regels gevolgd door de rekeningnaam op de volgende regel door het hele document (A7). Paginanummer-resten staan als body-regels (A1: '1 | Minimum Algemeen Rekeningstelsel...' op minstens 12 plaatsen). Klasse-secties (1. t/m 7.) zijn plain-text alinea's zonder heading-prefix (B4). Afgekapte rekeningcodes zoals '164-16x' (C3 pseudo-tabel artefact)."
       concrete_problemen:
-        - regel: 80
+        - regel: 110
           categorie: A1
           type: form-feed
           voorbeeld: "1\n\n1 | Minimum Algemeen Rekeningstelsel (MAR) voor verenigingen en stichtingen"
-        - regel: 38
+        - regel: 70
           categorie: B4
           type: other
-          voorbeeld: "1.\n\nEigen vermogen, voorzieningen voor risico's en kosten... — plain text klasse-sectie zonder heading"
-        - regel: 73
+          voorbeeld: "1.\n\nEigen vermogen, voorzieningen voor risico's en kosten..."
+        - regel: 103
           categorie: A7
           type: scrambled-words
-          voorbeeld: "1730\nSchulden op rekening\n\n...174\n175\n\n176\n178\n179 — rekeningnummers en namen door elkaar"
-        - regel: 64
+          voorbeeld: "1730\nSchulden op rekening\n\n174\n175\n\n176\n178\n179"
+        - regel: 94
           categorie: C3
           type: pseudo-table
-          voorbeeld: 164-16Voorzieningen voor overige risico's — afgekapte rekeningcode (164-16x, punt ontbreekt)
+          voorbeeld: 164-16Voorzieningen voor overige risico's en kosten
+        - regel: 472
+          categorie: A7
+          type: scrambled-words
+          voorbeeld: "Voorraadwijziging gekochte onroerende goederen bestemd voo\n6095\nverkoop"
 status: beschikbaar
 tags:
   - '1.1'

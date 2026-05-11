@@ -3,95 +3,68 @@ bijgewerkt: 16.03.2026
 bron: Fisconetplus.be (officieuze gecoördineerde versie)
 chunk:
   level: 6
-  sub_strategy: null
+  sub_strategy:
   type: Art.
 itaa-lex-sectie: VIII
 provenance:
-  generated_at: '2026-05-11T16:21:47Z'
   inputs:
-  - id: resources/raw/wetteksten/Registratierechten-Waals.pdf
-    sha256: a2c239adbf6000aaa82c66c263fc70bc8a360cdc6ce462da3a548998b9d0864c
-    version: 16.03.2026
-  stale: false
-  stale_reason: null
+    - id: resources/raw/wetteksten/Registratierechten-Waals.pdf
+      sha256: a2c239adbf6000aaa82c66c263fc70bc8a360cdc6ce462da3a548998b9d0864c
+      version: 16.03.2026
   tooling:
-    model: null
     pipeline: tools/etl/convert.py
     pipeline_version: 11f9196
-    prompt_version: null
+    model:
+    prompt_version:
+  generated_at: '2026-05-11T16:21:47Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T11:41:57Z'
+    status: needs-rework
+    confirmed_at: '2026-05-11T16:30:31Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: "Bevestiging van eerdere layer2-beoordeling. Duplicate cover-intro regels bovenaan (A3, r.107-108: 'Wetgeving van toepassing in het WAALS GEWEST' tweemaal; r.111-113: KB-citaat tweemaal). Zelfde B2-probleem als Brussel: '## HYPOTHEEK- EN GRIFFIERECHTEN' en '## WAALS GEWEST' als losse headings voor TITEL I. TIJDELIJKE BEPALINGEN (r.7145-equivalent), OVERGANGSBEPALINGEN en INWERKINGTREDING zijn hier wél als ## headings gemarkeerd — correct. Tarieftabellen met kolom-bleed (NL/FR tabelkoppen op afzonderlijke regels, grenseval)."
     layer1:
       file_size_chars: 609384
       flags:
-      - detail: 'langste sectie op ######-niveau: 58101 chars (>24000); chunker splitst
-          auto op alinea-grenzen via split_long_chunk'
-        name: max_section_size
-        samples: []
-        status: warn
-      - detail: 74 TOC-stippen-regel(s) gevonden
-        name: no_toc_dots
-        samples:
-        - '................................................................................'
-        - '................................................................................'
-        - '................................................................................'
-        status: warn
+        - detail: 'langste sectie op ######-niveau: 58101 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
+          name: max_section_size
+          samples: []
+          status: warn
+        - detail: 74 TOC-stippen-regel(s) gevonden
+          name: no_toc_dots
+          samples:
+            - '................................................................................'
+            - '................................................................................'
+            - '................................................................................'
+          status: warn
       heading_count: 609
       max_section_chars: 58101
       run_at: '2026-05-11T13:40:46Z'
       run_id: 20260511-134044
       status: warn
     layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-      - categorie: A2
-        regel: 75
-        type: dotted-leader
-        voorbeeld: '## TITEL I - REGISTRATIERECHT................ 6'
-      - categorie: A1
-        regel: 143
-        type: form-feed
-        voorbeeld: I
-      - categorie: B4
-        regel: 7145
-        type: other
-        voorbeeld: TIJDELIJKE BEPALINGEN
-      - categorie: B4
-        regel: 7357
-        type: other
-        voorbeeld: OVERGANGSBEPALINGEN
-      - categorie: B4
-        regel: 7471
-        type: other
-        voorbeeld: BIJBEPALINGEN BETREFFENDE DE MET HET ZEGEL GELIJKGESTELDE TAKSEN
-      - categorie: B4
-        regel: 7497
-        type: other
-        voorbeeld: INWERKINGTREDING
-      rationale: 'Zelfde TOC-dotted-leaders probleem als Brussel (74 regels, A2/B7).
-        Bovendien: A1-artefact op r.143 — een alleenstaande ''I'' (vermoedelijk een
-        paginanummer of TOC-letter uit de PDF-extractie). B4: plain-text all-caps
-        structuurlabels in het corps (TIJDELIJKE BEPALINGEN r.7145, OVERGANGSBEPALINGEN
-        r.7357, BIJBEPALINGEN r.7471, INWERKINGTREDING r.7497). De tarieftabel rond
-        r.2130 bevat kolom-bleed waarbij NL en FR kolomtitels op afzonderlijke regels
-        staan (''Van / De'', ''tot inbegrepen a / à … inclus'') maar geen echte interleaving
-        van zinnen — dit is grensgevaal maar acceptabel als PDF-tabelextractie.'
-      run_at: '2026-05-11T11:41:57Z'
       status: needs-rework
-    rationale: 'Zelfde TOC-dotted-leaders probleem als Brussel (74 regels, A2/B7).
-      Bovendien: A1-artefact op r.143 — een alleenstaande ''I'' (vermoedelijk een
-      paginanummer of TOC-letter uit de PDF-extractie). B4: plain-text all-caps structuurlabels
-      in het corps (TIJDELIJKE BEPALINGEN r.7145, OVERGANGSBEPALINGEN r.7357, BIJBEPALINGEN
-      r.7471, INWERKINGTREDING r.7497). De tarieftabel rond r.2130 bevat kolom-bleed
-      waarbij NL en FR kolomtitels op afzonderlijke regels staan (''Van / De'', ''tot
-      inbegrepen a / à … inclus'') maar geen echte interleaving van zinnen — dit is
-      grensgevaal maar acceptabel als PDF-tabelextractie.'
-    status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T16:30:31Z'
+      rationale: "Bevestiging van eerdere layer2-beoordeling. Duplicate cover-intro regels bovenaan (A3, r.107-108: 'Wetgeving van toepassing in het WAALS GEWEST' tweemaal; r.111-113: KB-citaat tweemaal). Zelfde B2-probleem als Brussel: '## HYPOTHEEK- EN GRIFFIERECHTEN' en '## WAALS GEWEST' als losse headings voor TITEL I. TIJDELIJKE BEPALINGEN (r.7145-equivalent), OVERGANGSBEPALINGEN en INWERKINGTREDING zijn hier wél als ## headings gemarkeerd — correct. Tarieftabellen met kolom-bleed (NL/FR tabelkoppen op afzonderlijke regels, grenseval)."
+      concrete_problemen:
+        - regel: 107
+          categorie: A3
+          type: other
+          voorbeeld: "Wetgeving van toepassing in het WAALS GEWEST\n\nWetgeving van toepassing in het WAALS GEWEST"
+        - regel: 111
+          categorie: A3
+          type: other
+          voorbeeld: (KB nr. 64 van 30.11.1939...) [tweemaal identiek herhaald]
+        - regel: 101
+          categorie: B2
+          type: other
+          voorbeeld: "## HYPOTHEEK- EN GRIFFIERECHTEN\n\n## WAALS GEWEST"
 status: beschikbaar
 tags:
-- VIII
-- '2.6'
+  - VIII
+  - '2.6'
 wet: Wetboek der Registratie-, Hypotheek- en Griffierechten — Waals Gewest
 ---
 

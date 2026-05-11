@@ -8,21 +8,23 @@ chunk:
   type: Art.
 itaa-lex-sectie: XI
 provenance:
-  generated_at: '2026-05-11T16:21:26Z'
   inputs:
     - id: resources/raw/wetteksten/BW-boek8-bewijs.pdf
       sha256: 4c40ed0ff8dcbc8cc2a62ef7f4186d13d597dde72946cb5f09fe6c425a36cca1
       version: 24.12.2025
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 11f9196
+    model:
     prompt_version:
+  generated_at: '2026-05-11T16:21:26Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at:
-    confirmed_by:
+    status: needs-rework
+    confirmed_at: '2026-05-11T16:30:30Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "A3/B3: het document opent met Afdelingen 8–18 (regels 53–93) als lege heading-skeletons (enkel artikelnummer, geen tekst), gevolgd door 'Tekst' placeholder op regel 101, waarna de eigenlijke inhoud herstart vanaf Art. 1 op regel 103 — identiek probleem als BW-boek5: out-of-order PDF-extractie. B5: Afdeling 17 op regel 89 duidt op Art. 55, maar de art.-nummering in het bijbehorende blok (regels 349–411) bevat Art. 56–72 — de artikelindeling klopt niet met de sectietitels, wat op extractiefout wijst."
     layer1:
       status: pass
       run_id: 20260511-162232
@@ -32,13 +34,23 @@ provenance:
       file_size_chars: 21059
       flags: []
     layer2:
-      agent:
-      concrete_problemen: []
-      rationale:
-      run_at:
-      status: not_run
-    rationale: 'Trust gereset 2026-05-11: ETL-fix wetteksten met content-diff > 5%'
-    status: unreviewed
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T16:30:30Z'
+      rationale: "A3/B3: het document opent met Afdelingen 8–18 (regels 53–93) als lege heading-skeletons (enkel artikelnummer, geen tekst), gevolgd door 'Tekst' placeholder op regel 101, waarna de eigenlijke inhoud herstart vanaf Art. 1 op regel 103 — identiek probleem als BW-boek5: out-of-order PDF-extractie. B5: Afdeling 17 op regel 89 duidt op Art. 55, maar de art.-nummering in het bijbehorende blok (regels 349–411) bevat Art. 56–72 — de artikelindeling klopt niet met de sectietitels, wat op extractiefout wijst."
+      concrete_problemen:
+        - regel: 53
+          categorie: A3
+          type: other
+          voorbeeld: '### Afdeling 8. - Wijziging van de wet van 16 maart 1803... (heading zonder content, doc herstart op r.103)'
+        - regel: 101
+          categorie: B3
+          type: other
+          voorbeeld: Tekst (lege placeholder als enige body voor Hoofdstuk 6 Art. 75)
+        - regel: 349
+          categorie: B5
+          type: other
+          voorbeeld: '### Afdeling 17. - Wijziging van de wet van 4 april 2014 betreffende de verzekeringen (gevolgd door Art. 56, niet Art. 55)'
 status: beschikbaar
 tags:
   - XI

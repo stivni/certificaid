@@ -8,21 +8,23 @@ chunk:
   type: Art.
 itaa-lex-sectie: XI
 provenance:
-  generated_at: '2026-05-11T16:21:26Z'
   inputs:
     - id: resources/raw/wetteksten/BW-boek3-goederen.pdf
       sha256: ca4d76f69819a31bf460a475bb0b651d3e8dec3da8d6f15350cccabd7f97564d
       version: 24.12.2025
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 11f9196
+    model:
     prompt_version:
+  generated_at: '2026-05-11T16:21:26Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at:
-    confirmed_by:
+    status: needs-rework
+    confirmed_at: '2026-05-11T16:30:30Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "D2: het bestand bevat uitsluitend de wijzigings- en overgangsbepalingen (HOOFDSTUK 3–6) — de inhoudelijke artikelen van Boek 3 zelf ontbreken volledig; de body begint mid-paragraaf (§ 2.) zonder voorafgaande sectietitel. B5: Art. 25 op regel 167 heeft een heading die doorloopt in de artikeltekst ('#### Art. 25. In artikel 2, 5°, i, van de wet van 12 mei 2014 betreffende de gereglementeerde') — de heading is niet afgesloten voor de body. Afdeling XI (regel 145–146) heeft een sectietitel zonder bijbehorend artikel."
     layer1:
       status: pass
       run_id: 20260511-162232
@@ -32,13 +34,19 @@ provenance:
       file_size_chars: 15877
       flags: []
     layer2:
-      agent:
-      concrete_problemen: []
-      rationale:
-      run_at:
-      status: not_run
-    rationale: 'Trust gereset 2026-05-11: ETL-fix wetteksten met content-diff > 5%'
-    status: unreviewed
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T16:30:30Z'
+      rationale: "D2: het bestand bevat uitsluitend de wijzigings- en overgangsbepalingen (HOOFDSTUK 3–6) — de inhoudelijke artikelen van Boek 3 zelf ontbreken volledig; de body begint mid-paragraaf (§ 2.) zonder voorafgaande sectietitel. B5: Art. 25 op regel 167 heeft een heading die doorloopt in de artikeltekst ('#### Art. 25. In artikel 2, 5°, i, van de wet van 12 mei 2014 betreffende de gereglementeerde') — de heading is niet afgesloten voor de body. Afdeling XI (regel 145–146) heeft een sectietitel zonder bijbehorend artikel."
+      concrete_problemen:
+        - regel: 53
+          categorie: D2
+          type: missing-section
+          voorbeeld: § 2. In geval van gehele of gedeeltelijke vernietiging... (document begint mid-paragaaf, geen inhoudelijke Boek 3-artikelen aanwezig)
+        - regel: 167
+          categorie: B5
+          type: other
+          voorbeeld: '#### Art. 25. In artikel 2, 5°, i, van de wet van 12 mei 2014 betreffende de gereglementeerde'
 status: beschikbaar
 tags:
   - XI

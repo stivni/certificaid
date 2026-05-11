@@ -8,21 +8,23 @@ chunk:
   type: Art.
 itaa-lex-sectie: XVII
 provenance:
-  generated_at: '2026-05-11T16:21:22Z'
   inputs:
     - id: resources/raw/wetteksten/Antiwitwaswet-2017.pdf
       sha256: 24e4cb84451345095e884a21da95b774053f428172076efae4444cefa7d8baa6
       version: 24.12.2025
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 11f9196
+    model:
     prompt_version:
+  generated_at: '2026-05-11T16:21:22Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at:
-    confirmed_by:
+    status: needs-rework
+    confirmed_at: '2026-05-11T16:30:30Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "B4: 'BIJLAGEN.' (regel 121) staat als plain text zonder heading-prefix. Verder staan 'Tekst' (regel 125) als losse artefactregel. Laag-1 geeft max_section_size warn (27233 chars) voor de langste sectie; dit is een chunker-issue, geen ETL-bug. Inhoud is volledig (BOEK I–VI aanwezig, 288 headings). De twee plain-text artefacten zijn minimaal maar voldoende voor needs-rework."
     layer1:
       status: warn
       run_id: 20260511-162232
@@ -36,13 +38,19 @@ provenance:
           detail: 'langste sectie op ######-niveau: 27233 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
           samples: []
     layer2:
-      agent:
-      concrete_problemen: []
-      rationale:
-      run_at:
-      status: not_run
-    rationale: 'Trust gereset 2026-05-11: ETL-fix wetteksten met content-diff > 5%'
-    status: unreviewed
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T16:30:30Z'
+      rationale: "B4: 'BIJLAGEN.' (regel 121) staat als plain text zonder heading-prefix. Verder staan 'Tekst' (regel 125) als losse artefactregel. Laag-1 geeft max_section_size warn (27233 chars) voor de langste sectie; dit is een chunker-issue, geen ETL-bug. Inhoud is volledig (BOEK I–VI aanwezig, 288 headings). De twee plain-text artefacten zijn minimaal maar voldoende voor needs-rework."
+      concrete_problemen:
+        - regel: 121
+          categorie: B4
+          type: other
+          voorbeeld: BIJLAGEN.
+        - regel: 125
+          categorie: B4
+          type: other
+          voorbeeld: Tekst
 status: beschikbaar
 tags:
   - XVII

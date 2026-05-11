@@ -8,21 +8,23 @@ chunk:
   type: Art.
 itaa-lex-sectie: VI.A
 provenance:
-  generated_at: '2026-05-11T16:21:26Z'
   inputs:
     - id: resources/raw/wetteksten/BTW-uitvoeringsverordening-282-2011.pdf
       sha256: b0f05e1f21b7ecd2d264e67874e89e264d4ff957b20e20c1bd2af70f718f9a34
       version: 23.03.2011
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 11f9196
+    model:
     prompt_version:
+  generated_at: '2026-05-11T16:21:26Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at:
-    confirmed_by:
+    status: needs-rework
+    confirmed_at: '2026-05-11T16:30:30Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "A7 (kolom-scramble): artikelen zijn consistent uit volgorde door de 2-kolomige EU-PDF-extractie (Art.12 voor Art.10-11, Art.22 voor Art.20-21, Art.39 voor Art.37, Art.45 voor Art.41, enz.); ook de preamble-overwegingen zijn geschrambled ((3)(4)(5)(6)(7) verschijnen vóór (1)(2)). A4: 269 soft hyphens (U+00AD) door de hele tekst (bv. 'Richt­ lijn', 'belasting­ plichtigen', 'toepas­ singsgebied') als gevolg van de 2-kolom-extractie. Laag-1 warn voor 9 lege regels is cosmetisch en valt in de BIJLAGE-overgang."
     layer1:
       status: warn
       run_id: 20260511-162232
@@ -38,13 +40,27 @@ provenance:
             - 'regels 862-870: 9 lege regels'
             - 'regels 892-897: 6 lege regels'
     layer2:
-      agent:
-      concrete_problemen: []
-      rationale:
-      run_at:
-      status: not_run
-    rationale: 'Trust gereset 2026-05-11: ETL-fix wetteksten met content-diff > 5%'
-    status: unreviewed
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T16:30:30Z'
+      rationale: "A7 (kolom-scramble): artikelen zijn consistent uit volgorde door de 2-kolomige EU-PDF-extractie (Art.12 voor Art.10-11, Art.22 voor Art.20-21, Art.39 voor Art.37, Art.45 voor Art.41, enz.); ook de preamble-overwegingen zijn geschrambled ((3)(4)(5)(6)(7) verschijnen vóór (1)(2)). A4: 269 soft hyphens (U+00AD) door de hele tekst (bv. 'Richt­ lijn', 'belasting­ plichtigen', 'toepas­ singsgebied') als gevolg van de 2-kolom-extractie. Laag-1 warn voor 9 lege regels is cosmetisch en valt in de BIJLAGE-overgang."
+      concrete_problemen:
+        - regel: 65
+          categorie: A7
+          type: scrambled-words
+          voorbeeld: Overweging (3) staat op regel 65, vóór (1) op regel 90
+        - regel: 71
+          categorie: A4
+          type: other
+          voorbeeld: Richt­ lijn 2006/112/EG (soft hyphen U+00AD + spatie midden in woord)
+        - regel: 386
+          categorie: A7
+          type: scrambled-words
+          voorbeeld: '##### Art. 12 op regel 386 staat vóór Art. 10 (regel 395) en Art. 11 (regel 403)'
+        - regel: 615
+          categorie: A7
+          type: scrambled-words
+          voorbeeld: '##### Art. 39 (regel 615) staat vóór Art. 37 (regel 621)'
 status: beschikbaar
 tags:
   - VI.A

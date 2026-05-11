@@ -8,21 +8,23 @@ chunk:
   type: Art.
 itaa-lex-sectie: III
 provenance:
-  generated_at: '2026-05-11T16:21:30Z'
   inputs:
     - id: resources/raw/wetteksten/MIGB-Brussel.pdf
       sha256: ecfec02b58e45ad1633bedebb1fbd2389066341193483590c26e1748acede5ef
       version: 12.05.2024
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 11f9196
+    model:
     prompt_version:
+  generated_at: '2026-05-11T16:21:30Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at:
-    confirmed_by:
+    status: needs-rework
+    confirmed_at: '2026-05-11T16:30:31Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "Tarieftabellen zijn space-aligned plain-text pseudo-tabellen (C3) door het hele bestand, o.a. de PK-schaal op r.513-547 en de euroviernet-tabellen. Twee table-headers staan als plain-text all-caps labels: 'MOTORVOERTUIGEN' op r.608 en r.782, 'COMBINATIES (GELEDE VOERTUIGEN EN SAMENSTELLEN' op r.684 en r.868 (B4). TITEL VII is gesplitst in een ## en een ### heading (r.3400-3402: '## TITEL VII - BELASTING...' en '### VAN DE VENNOOTSCHAP EN OP DE WINSTPREMIE...') — B2 heading-hiërarchiefout. 'TOEKOMSTIG RECHT' staat als plain-text label (B4, r.74)."
     layer1:
       status: pass
       run_id: 20260511-162232
@@ -32,13 +34,31 @@ provenance:
       file_size_chars: 126240
       flags: []
     layer2:
-      agent:
-      concrete_problemen: []
-      rationale:
-      run_at:
-      status: not_run
-    rationale: 'Trust gereset 2026-05-11: ETL-fix wetteksten met content-diff > 5%'
-    status: unreviewed
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T16:30:31Z'
+      rationale: "Tarieftabellen zijn space-aligned plain-text pseudo-tabellen (C3) door het hele bestand, o.a. de PK-schaal op r.513-547 en de euroviernet-tabellen. Twee table-headers staan als plain-text all-caps labels: 'MOTORVOERTUIGEN' op r.608 en r.782, 'COMBINATIES (GELEDE VOERTUIGEN EN SAMENSTELLEN' op r.684 en r.868 (B4). TITEL VII is gesplitst in een ## en een ### heading (r.3400-3402: '## TITEL VII - BELASTING...' en '### VAN DE VENNOOTSCHAP EN OP DE WINSTPREMIE...') — B2 heading-hiërarchiefout. 'TOEKOMSTIG RECHT' staat als plain-text label (B4, r.74)."
+      concrete_problemen:
+        - regel: 512
+          categorie: C3
+          type: pseudo-table
+          voorbeeld: "Aantal PK  Bedrag der belasting in euro\n\n4 en minder  51,12\n\n5  63,96"
+        - regel: 608
+          categorie: B4
+          type: other
+          voorbeeld: MOTORVOERTUIGEN
+        - regel: 684
+          categorie: B4
+          type: other
+          voorbeeld: COMBINATIES (GELEDE VOERTUIGEN EN SAMENSTELLEN
+        - regel: 3400
+          categorie: B2
+          type: other
+          voorbeeld: "## TITEL VII - BELASTING OP DE WERKNEMERSPARTICIPATIE IN HET KAPITAAL\n### VAN DE VENNOOTSCHAP EN OP DE WINSTPREMIE VOOR DE WERKNEMERS"
+        - regel: 74
+          categorie: B4
+          type: other
+          voorbeeld: TOEKOMSTIG RECHT (vanaf 01.01.2028)
 status: beschikbaar
 tags:
   - III

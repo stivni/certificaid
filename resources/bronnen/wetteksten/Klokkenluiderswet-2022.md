@@ -8,21 +8,23 @@ chunk:
   type: Art.
 itaa-lex-sectie: XVIII
 provenance:
-  generated_at: '2026-05-11T16:21:30Z'
   inputs:
     - id: resources/raw/wetteksten/Klokkenluiderswet-2022.pdf
       sha256: 3f4524a25ebeef490594c319c94b024d047f7c57da3166f5dc9c2bf8434debda
       version: 28.11.2022
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 11f9196
+    model:
     prompt_version:
+  generated_at: '2026-05-11T16:21:30Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at:
-    confirmed_by:
+    status: needs-rework
+    confirmed_at: '2026-05-11T16:30:30Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "B4: Losse 'Titel' (regel 52) en 'Tekst' (regel 174) als plain-text regels zonder heading-prefix. Structuurpatroon is typisch voor deze ETL-batch: TOC-blok bovenaan gevolgd door een losse 'Tekst'-marker en dan de eigenlijke artikelen. Verder begint de TOC op regel 58 met '#### Art. 1' zonder een leesbare sectionstitel — dit zijn kale articelnummer-headings (B1). De inhoud zelf is volledig en structureel correct. Laag-1 pass."
     layer1:
       status: pass
       run_id: 20260511-162232
@@ -32,13 +34,23 @@ provenance:
       file_size_chars: 91101
       flags: []
     layer2:
-      agent:
-      concrete_problemen: []
-      rationale:
-      run_at:
-      status: not_run
-    rationale: 'Trust gereset 2026-05-11: ETL-fix wetteksten met content-diff > 5%'
-    status: unreviewed
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T16:30:30Z'
+      rationale: "B4: Losse 'Titel' (regel 52) en 'Tekst' (regel 174) als plain-text regels zonder heading-prefix. Structuurpatroon is typisch voor deze ETL-batch: TOC-blok bovenaan gevolgd door een losse 'Tekst'-marker en dan de eigenlijke artikelen. Verder begint de TOC op regel 58 met '#### Art. 1' zonder een leesbare sectionstitel — dit zijn kale articelnummer-headings (B1). De inhoud zelf is volledig en structureel correct. Laag-1 pass."
+      concrete_problemen:
+        - regel: 52
+          categorie: B4
+          type: other
+          voorbeeld: "Titel\n\n28 NOVEMBER 2022. - Wet betreffende de bescherming van melders..."
+        - regel: 174
+          categorie: B4
+          type: other
+          voorbeeld: "Tekst\n\n## HOOFDSTUK 1. - Doel, toepassingsgebied en definities"
+        - regel: 58
+          categorie: B1
+          type: other
+          voorbeeld: '#### Art. 1  (heading zonder titeltekst in TOC-blok)'
 status: beschikbaar
 tags:
   - XVIII

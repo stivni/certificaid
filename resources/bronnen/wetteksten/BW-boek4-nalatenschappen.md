@@ -8,21 +8,23 @@ chunk:
   type: Art.
 itaa-lex-sectie: XI
 provenance:
-  generated_at: '2026-05-11T16:21:26Z'
   inputs:
     - id: resources/raw/wetteksten/BW-boek4-nalatenschappen.pdf
       sha256: 43d46aa5ee3df05c14a99033ec6ee9d3c17d45f4ca559fcb41e2ffc9216550e1
       version: 24.12.2025
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 11f9196
+    model:
     prompt_version:
+  generated_at: '2026-05-11T16:21:26Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at:
-    confirmed_by:
+    status: needs-rework
+    confirmed_at: '2026-05-11T16:30:30Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "B4: 'Ondertitel X.' labels (o.a. regels 57, 67, 81, 171, 181, 277, 291, 447, 477, 516, 554, 566, 610, 656, 726, 782, 902, 928, 942, 960, 978) staan als plain-tekst-regels zonder #-prefix, terwijl ze structuurniveaus zijn die als headings hadden moeten worden opgemaakt. B1: 'Art. 4. 242.' op regel 982 heeft een spatie midden in het artikelnummer (ETL-artefact, geen source-fout gezien het consistent doorloopt)."
     layer1:
       status: pass
       run_id: 20260511-162232
@@ -32,13 +34,27 @@ provenance:
       file_size_chars: 167954
       flags: []
     layer2:
-      agent:
-      concrete_problemen: []
-      rationale:
-      run_at:
-      status: not_run
-    rationale: 'Trust gereset 2026-05-11: ETL-fix wetteksten met content-diff > 5%'
-    status: unreviewed
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T16:30:30Z'
+      rationale: "B4: 'Ondertitel X.' labels (o.a. regels 57, 67, 81, 171, 181, 277, 291, 447, 477, 516, 554, 566, 610, 656, 726, 782, 902, 928, 942, 960, 978) staan als plain-tekst-regels zonder #-prefix, terwijl ze structuurniveaus zijn die als headings hadden moeten worden opgemaakt. B1: 'Art. 4. 242.' op regel 982 heeft een spatie midden in het artikelnummer (ETL-artefact, geen source-fout gezien het consistent doorloopt)."
+      concrete_problemen:
+        - regel: 57
+          categorie: B4
+          type: other
+          voorbeeld: Ondertitel 2. Hoedanigheden vereist om te erven
+        - regel: 81
+          categorie: B4
+          type: other
+          voorbeeld: Ondertitel 4. Wettelijke erfopvolging
+        - regel: 277
+          categorie: B4
+          type: other
+          voorbeeld: Ondertitel 7. Omzetting van het vruchtgebruik van de langstlevende echtgenoot
+        - regel: 982
+          categorie: B1
+          type: other
+          voorbeeld: '##### Art. 4. 242. Principieel verbod van erfovereenkomst'
 status: beschikbaar
 tags:
   - XI

@@ -8,21 +8,23 @@ chunk:
   type: Art.
 itaa-lex-sectie: XIX
 provenance:
-  generated_at: '2026-05-11T16:21:21Z'
   inputs:
     - id: resources/raw/wetteksten/AVG-wet-2018.pdf
       sha256: b845775a288ffc1c3b655a0d47ec7130f559ed3c776e544ce095bc303b880e2e
       version: 30.07.2018
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 11f9196
+    model:
     prompt_version:
+  generated_at: '2026-05-11T16:21:21Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at:
-    confirmed_by:
+    status: needs-rework
+    confirmed_at: '2026-05-11T16:30:30Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "B4: 12 ONDERTITEL-labels en 1 VOORAFGAANDE TITEL staan als plain text in plaats van als heading-prefix (regels 108, 160, 164, 216, 268, 304, 370 e.a.). Laag-1 pass maar dit is een structurele ETL-bug. Daarnaast staan 'Titel' (regel 53) en 'Tekst' (regel 368) als losse plain-text artefactregels, en bevat regel 57 een Fisconet-modificatietabel-rij '(Art.254) (Art.255)...' die niet thuishoort in de body. Artikelinhoud is voor het overige correct en compleet."
     layer1:
       status: pass
       run_id: 20260511-162232
@@ -32,13 +34,31 @@ provenance:
       file_size_chars: 303436
       flags: []
     layer2:
-      agent:
-      concrete_problemen: []
-      rationale:
-      run_at:
-      status: not_run
-    rationale: 'Trust gereset 2026-05-11: ETL-fix wetteksten met content-diff > 5%'
-    status: unreviewed
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T16:30:30Z'
+      rationale: "B4: 12 ONDERTITEL-labels en 1 VOORAFGAANDE TITEL staan als plain text in plaats van als heading-prefix (regels 108, 160, 164, 216, 268, 304, 370 e.a.). Laag-1 pass maar dit is een structurele ETL-bug. Daarnaast staan 'Titel' (regel 53) en 'Tekst' (regel 368) als losse plain-text artefactregels, en bevat regel 57 een Fisconet-modificatietabel-rij '(Art.254) (Art.255)...' die niet thuishoort in de body. Artikelinhoud is voor het overige correct en compleet."
+      concrete_problemen:
+        - regel: 53
+          categorie: B4
+          type: other
+          voorbeeld: Titel
+        - regel: 57
+          categorie: G1
+          type: other
+          voorbeeld: (Art.254)   (Art.255)    (Art.256)      (Art.257)     (Art.258)   (Art.259)   (Art.260
+        - regel: 108
+          categorie: B4
+          type: other
+          voorbeeld: ONDERTITEL 1. - De bescherming van natuurlijke personen met betrekking tot de verwerking...
+        - regel: 368
+          categorie: B4
+          type: other
+          voorbeeld: Tekst
+        - regel: 370
+          categorie: B4
+          type: other
+          voorbeeld: VOORAFGAANDE TITEL. - Inleidende bepalingen
 status: beschikbaar
 tags:
   - XIX

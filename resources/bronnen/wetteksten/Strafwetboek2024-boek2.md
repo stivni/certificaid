@@ -4,25 +4,27 @@ bron: Fisconetplus.be (officieuze gecoördineerde versie)
 bron_rol: itaa_lex
 chunk:
   level: 6
-  sub_strategy: null
+  sub_strategy:
   type: Art.
 itaa-lex-sectie: XII
 provenance:
-  generated_at: '2026-05-11T16:21:48Z'
   inputs:
-  - id: resources/raw/wetteksten/Strafwetboek2024-boek2.pdf
-    sha256: 899110ee793493998bab356a96b02017934b111864ed6bd1e5fe344a9b02b437
-    version: 29.02.2024
-  stale: false
-  stale_reason: null
+    - id: resources/raw/wetteksten/Strafwetboek2024-boek2.pdf
+      sha256: 899110ee793493998bab356a96b02017934b111864ed6bd1e5fe344a9b02b437
+      version: 29.02.2024
   tooling:
-    model: null
     pipeline: tools/etl/convert.py
     pipeline_version: 11f9196
-    prompt_version: null
+    model:
+    prompt_version:
+  generated_at: '2026-05-11T16:21:48Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: null
-    confirmed_by: null
+    status: needs-rework
+    confirmed_at: '2026-05-11T16:30:31Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "B5/B4: de eerste ~500 regels (offset 0-500) bevatten uitsluitend inhoudsopgave-headings zonder body-tekst: '#### Afdeling 1. Doden met het oogmerk om te doden', '#### Afdeling 2. Doden door een ernstig gebrek', etc. — tientallen afdelingen en onderafdelingen zonder enig artikel of inhoud. Pas na regel 500 begint de echte wettekst met Art. 79 (Algemene definities). Dit patroon is een extractie-artefact: de TOC is meegetrokken als heading-structuur, zonder de bijbehorende inhoud per sectie-niveau (B3/A3). Verder: regel 52 'Titel' als plain-text (B4), regel 514 '###### Art. 2.De' (heading met punt-concatenatie, B1). De rest van het corpus vanaf Art. 79 is inhoudelijk compleet en leesbaar."
     layer1:
       file_size_chars: 466327
       flags: []
@@ -32,16 +34,34 @@ provenance:
       run_id: 20260511-134044
       status: pass
     layer2:
-      agent: null
-      concrete_problemen: []
-      rationale: null
-      run_at: null
-      status: not_run
-    rationale: 'Trust gereset 2026-05-11: ETL-fix wetteksten met content-diff > 5%'
-    status: unreviewed
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T16:30:31Z'
+      rationale: "B5/B4: de eerste ~500 regels (offset 0-500) bevatten uitsluitend inhoudsopgave-headings zonder body-tekst: '#### Afdeling 1. Doden met het oogmerk om te doden', '#### Afdeling 2. Doden door een ernstig gebrek', etc. — tientallen afdelingen en onderafdelingen zonder enig artikel of inhoud. Pas na regel 500 begint de echte wettekst met Art. 79 (Algemene definities). Dit patroon is een extractie-artefact: de TOC is meegetrokken als heading-structuur, zonder de bijbehorende inhoud per sectie-niveau (B3/A3). Verder: regel 52 'Titel' als plain-text (B4), regel 514 '###### Art. 2.De' (heading met punt-concatenatie, B1). De rest van het corpus vanaf Art. 79 is inhoudelijk compleet en leesbaar."
+      concrete_problemen:
+        - regel: 52
+          categorie: B4
+          type: other
+          voorbeeld: Titel
+        - regel: 74
+          categorie: B1
+          type: other
+          voorbeeld: '#### Afdeling 1. Doden met het oogmerk om te doden (geen inhoud na heading)'
+        - regel: 514
+          categorie: B1
+          type: other
+          voorbeeld: '###### Art. 2.De'
+        - regel: 62
+          categorie: A3
+          type: other
+          voorbeeld: Voorafgaande titel. Gemeenschappelijke bepalingen (plain-text, geen heading)
+        - regel: 75
+          categorie: A3
+          type: other
+          voorbeeld: Reeks van 50+ lege sectie-headings zonder body (inhoudsopgave-fragment)
 status: beschikbaar
 tags:
-- XII
+  - XII
 wet: Wetboek 29 februari 2024 Strafwetboek 2024 — Boek 2
 ---
 

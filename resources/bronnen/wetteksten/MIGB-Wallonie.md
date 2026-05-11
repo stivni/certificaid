@@ -8,21 +8,23 @@ chunk:
   type: Art.
 itaa-lex-sectie: III
 provenance:
-  generated_at: '2026-05-11T16:21:34Z'
   inputs:
     - id: resources/raw/wetteksten/MIGB-Wallonie.pdf
       sha256: daf4cff482a1eeddd5158b2c39c88d39577fb3c60e4850f9514e7943dbdb000d
       version: 30.05.2025
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 11f9196
+    model:
     prompt_version:
+  generated_at: '2026-05-11T16:21:34Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at:
-    confirmed_by:
+    status: needs-rework
+    confirmed_at: '2026-05-11T16:30:31Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "Eén duplicate heading op r.539-540: '### HOOFDSTUK V - Bedrag der belasting of belastingvoet' staat twee keer direct na elkaar (B3). Tarieftabellen zijn space-aligned pseudo-tabellen (C3), identiek patroon als in de Brusselse versie. 'TOEKOMSTIG RECHT' als plain-text label op r.74 en r.4118 (B4). Verder is het bestand inhoudelijk compleet en goed gestructureerd."
     layer1:
       status: pass
       run_id: 20260511-162232
@@ -32,13 +34,27 @@ provenance:
       file_size_chars: 203089
       flags: []
     layer2:
-      agent:
-      concrete_problemen: []
-      rationale:
-      run_at:
-      status: not_run
-    rationale: 'Trust gereset 2026-05-11: ETL-fix wetteksten met content-diff > 5%'
-    status: unreviewed
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T16:30:31Z'
+      rationale: "Eén duplicate heading op r.539-540: '### HOOFDSTUK V - Bedrag der belasting of belastingvoet' staat twee keer direct na elkaar (B3). Tarieftabellen zijn space-aligned pseudo-tabellen (C3), identiek patroon als in de Brusselse versie. 'TOEKOMSTIG RECHT' als plain-text label op r.74 en r.4118 (B4). Verder is het bestand inhoudelijk compleet en goed gestructureerd."
+      concrete_problemen:
+        - regel: 540
+          categorie: B3
+          type: other
+          voorbeeld: "### HOOFDSTUK V - Bedrag der belasting of belastingvoet\n\n### HOOFDSTUK V - Bedrag der belasting of belastingvoet"
+        - regel: 560
+          categorie: C3
+          type: pseudo-table
+          voorbeeld: "Aantal PK  Bedrag der belasting in euro\n\n4 en minder  51,12"
+        - regel: 635
+          categorie: C3
+          type: pseudo-table
+          voorbeeld: "MTM uitgedrukt in kg  MTM uitgedrukt in kg\n\nvan  van"
+        - regel: 74
+          categorie: B4
+          type: other
+          voorbeeld: TOEKOMSTIG RECHT (vanaf 01.01.2028)
 status: beschikbaar
 tags:
   - III

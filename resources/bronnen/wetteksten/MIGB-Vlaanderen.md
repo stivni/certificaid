@@ -8,21 +8,23 @@ chunk:
   type: Art.
 itaa-lex-sectie: III
 provenance:
-  generated_at: '2026-05-11T16:21:30Z'
   inputs:
     - id: resources/raw/wetteksten/MIGB-Vlaanderen.pdf
       sha256: 40c2d796cd1c565b2cdc8fa7e33e626af15f7320d0fbcab943f2488718b8959b
       version: 13.04.2019
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 11f9196
+    model:
     prompt_version:
+  generated_at: '2026-05-11T16:21:30Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at:
-    confirmed_by:
+    status: needs-rework
+    confirmed_at: '2026-05-11T16:30:31Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "Het bestand is een concordantiedocument waarbij opgeheven artikelen vervangen zijn door een tweekolomse tabel 'Bepaling WIGB | Bepaling Vlaamse Codex Fiscaliteit'. Die kolommen zijn als space-aligned tekst op één regel weergegeven (C3). Erger: de rechtse kolom-verwijzingen zijn systematisch gesplitst over meerdere ##### headings, bv. '##### Art. 43. bis , § 1' gevolgd door '##### Art. 2.12.3.0' en dan als plain tekst '1, § 1, eerste lid' — dit is een A7 scrambled-words extractiefout voor tenminste tientallen concordantie-entries. 'TOEKOMSTIG RECHT' als plain-text (B4)."
     layer1:
       status: pass
       run_id: 20260511-162232
@@ -32,13 +34,27 @@ provenance:
       file_size_chars: 103909
       flags: []
     layer2:
-      agent:
-      concrete_problemen: []
-      rationale:
-      run_at:
-      status: not_run
-    rationale: 'Trust gereset 2026-05-11: ETL-fix wetteksten met content-diff > 5%'
-    status: unreviewed
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T16:30:31Z'
+      rationale: "Het bestand is een concordantiedocument waarbij opgeheven artikelen vervangen zijn door een tweekolomse tabel 'Bepaling WIGB | Bepaling Vlaamse Codex Fiscaliteit'. Die kolommen zijn als space-aligned tekst op één regel weergegeven (C3). Erger: de rechtse kolom-verwijzingen zijn systematisch gesplitst over meerdere ##### headings, bv. '##### Art. 43. bis , § 1' gevolgd door '##### Art. 2.12.3.0' en dan als plain tekst '1, § 1, eerste lid' — dit is een A7 scrambled-words extractiefout voor tenminste tientallen concordantie-entries. 'TOEKOMSTIG RECHT' als plain-text (B4)."
+      concrete_problemen:
+        - regel: 1139
+          categorie: A7
+          type: scrambled-words
+          voorbeeld: "##### Art. 43. bis , § 1\n\n##### Art. 2.12.3.0\n\n1, § 1, eerste lid"
+        - regel: 853
+          categorie: A7
+          type: scrambled-words
+          voorbeeld: "##### Art. 36. bis , eerste lid\n\n##### Art. 2.2.2.0\n\n1, § 2, tweede lid"
+        - regel: 1010
+          categorie: C3
+          type: pseudo-table
+          voorbeeld: Bepaling WIGB  Bepaling Vlaamse Codex Fiscaliteit
+        - regel: 57
+          categorie: B4
+          type: other
+          voorbeeld: TOEKOMSTIG RECHT (n.v.t. — artikel opgeheven)
 status: beschikbaar
 tags:
   - III

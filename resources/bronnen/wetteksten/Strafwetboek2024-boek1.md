@@ -4,25 +4,27 @@ bron: Fisconetplus.be (officieuze gecoördineerde versie)
 bron_rol: itaa_lex
 chunk:
   level: 5
-  sub_strategy: null
+  sub_strategy:
   type: Art.
 itaa-lex-sectie: XII
 provenance:
-  generated_at: '2026-05-11T16:21:48Z'
   inputs:
-  - id: resources/raw/wetteksten/Strafwetboek2024-boek1.pdf
-    sha256: 4e7f489c425c4cd7648f2b8fc6b9cd9d02c64ee8419e43434f045454330b5c9f
-    version: 29.02.2024
-  stale: false
-  stale_reason: null
+    - id: resources/raw/wetteksten/Strafwetboek2024-boek1.pdf
+      sha256: 4e7f489c425c4cd7648f2b8fc6b9cd9d02c64ee8419e43434f045454330b5c9f
+      version: 29.02.2024
   tooling:
-    model: null
     pipeline: tools/etl/convert.py
     pipeline_version: 11f9196
-    prompt_version: null
+    model:
+    prompt_version:
+  generated_at: '2026-05-11T16:21:48Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: null
-    confirmed_by: null
+    status: trusted
+    confirmed_at: '2026-05-11T16:30:31Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "Laag-1 meldt geen flags (status: pass, 140 headings, max_section_chars 5220). Body bevat de volledige wettekst van de Wet van 29.02.2024 tot invoering van Boek I: Hoofdstukken 1-5, Boek I Art. 1-78 (materieel strafrecht), Wijzigingsbepalingen (Afdeling 1-7), Opheffingsbepalingen en Overgangsbepalingen. Geen kolom-bleed, geen form-feed, geen OCR-artefacten. Art. 32-33 heading zonder body (Strafwetboek2024-specifieke structuur) is source-conform — ze bevatten '(…)' opheving in het brondocument. De amendment-markers [1 ... ]1 zijn consistent open-en-dicht. Enige opmerking: Art. 85 begintekst op regel 285 bevat een 'Boek I. -' heading met lege body — dit is een extractie-eigenaardigheid van Fisconet waarbij de boektitel als afzonderlijk artikel genummerd staat."
     layer1:
       file_size_chars: 75009
       flags: []
@@ -32,16 +34,18 @@ provenance:
       run_id: 20260511-155947
       status: pass
     layer2:
-      agent: null
-      concrete_problemen: []
-      rationale: null
-      run_at: null
-      status: not_run
-    rationale: 'Trust gereset 2026-05-11: ETL-fix wetteksten met content-diff > 5%'
-    status: unreviewed
+      status: trusted
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T16:30:31Z'
+      rationale: "Laag-1 meldt geen flags (status: pass, 140 headings, max_section_chars 5220). Body bevat de volledige wettekst van de Wet van 29.02.2024 tot invoering van Boek I: Hoofdstukken 1-5, Boek I Art. 1-78 (materieel strafrecht), Wijzigingsbepalingen (Afdeling 1-7), Opheffingsbepalingen en Overgangsbepalingen. Geen kolom-bleed, geen form-feed, geen OCR-artefacten. Art. 32-33 heading zonder body (Strafwetboek2024-specifieke structuur) is source-conform — ze bevatten '(…)' opheving in het brondocument. De amendment-markers [1 ... ]1 zijn consistent open-en-dicht. Enige opmerking: Art. 85 begintekst op regel 285 bevat een 'Boek I. -' heading met lege body — dit is een extractie-eigenaardigheid van Fisconet waarbij de boektitel als afzonderlijk artikel genummerd staat."
+      concrete_problemen:
+        - regel: 85
+          categorie: B1
+          type: other
+          voorbeeld: '## Boek I. - (heading zonder verdere titel, lege body)'
 status: beschikbaar
 tags:
-- XII
+  - XII
 wet: Wetboek 29 februari 2024 Strafwetboek 2024 — Boek 1
 ---
 

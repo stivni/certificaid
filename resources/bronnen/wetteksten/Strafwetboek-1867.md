@@ -4,25 +4,27 @@ bron: ejustice.just.fgov.be (gecoördineerde versie)
 bron_rol: itaa_lex
 chunk:
   level: 6
-  sub_strategy: null
+  sub_strategy:
   type: Art.
 itaa-lex-sectie: XII
 provenance:
-  generated_at: '2026-05-11T16:21:48Z'
   inputs:
-  - id: resources/raw/wetteksten/Strafwetboek-1867.pdf
-    sha256: 805a6ac039515251f2ed494c8b14b6919e88a655098d4d8030481afcd208848f
-    version: gecoördineerd
-  stale: false
-  stale_reason: null
+    - id: resources/raw/wetteksten/Strafwetboek-1867.pdf
+      sha256: 805a6ac039515251f2ed494c8b14b6919e88a655098d4d8030481afcd208848f
+      version: gecoördineerd
   tooling:
-    model: null
     pipeline: tools/etl/convert.py
     pipeline_version: 11f9196
-    prompt_version: null
+    model:
+    prompt_version:
+  generated_at: '2026-05-11T16:21:48Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: null
-    confirmed_by: null
+    status: trusted
+    confirmed_at: '2026-05-11T16:30:31Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: 'Laag-1 meldt geen flags (status: pass). Body is inhoudelijk volledig: Boek 1 (Art. 1-100ter) en Boek 2 (Art. 101-566) aanwezig, correct als ###### Art. N headings, met wetgevingshistoriek in <W ...>-noten per artikel. Geen kolom-bleed, geen OCR-verwarringen, geen form-feed resten. Wijzigingsnotities zoals <W 2003-01-23/42, art. 89> zijn consistent en opzettelijk onderdeel van de Fisconet-coördinatie. Art. 7bis, 30bis, 34bis, 34quinquies, 37bis, 41bis, 50bis, 100ter en andere lege headings (enkel het Art.-nummer, geen body) zijn conformEen een kenmerk van de wetsbron zelf waar de artikelinhoud volledig opgeheven is — dit is source-eigenaardigheid, geen ETL-bug.'
     layer1:
       file_size_chars: 658733
       flags: []
@@ -32,16 +34,19 @@ provenance:
       run_id: 20260511-134044
       status: pass
     layer2:
-      agent: null
-      concrete_problemen: []
-      rationale: null
-      run_at: null
-      status: not_run
-    rationale: 'Trust gereset 2026-05-11: ETL-fix wetteksten met content-diff > 5%'
-    status: unreviewed
+      status: trusted
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T16:30:31Z'
+      rationale: 'Laag-1 meldt geen flags (status: pass). Body is inhoudelijk volledig: Boek 1 (Art. 1-100ter) en Boek 2 (Art. 101-566) aanwezig, correct als ###### Art. N headings, met wetgevingshistoriek in <W ...>-noten per artikel. Geen kolom-bleed, geen OCR-verwarringen, geen form-feed resten. Wijzigingsnotities zoals <W 2003-01-23/42, art. 89> zijn consistent en opzettelijk onderdeel van de Fisconet-coördinatie. Art. 7bis, 30bis, 34bis, 34quinquies, 37bis, 41bis, 50bis, 100ter en andere lege headings (enkel het Art.-nummer, geen body) zijn conformEen een kenmerk van de wetsbron zelf waar de artikelinhoud volledig opgeheven is — dit is source-eigenaardigheid, geen ETL-bug.'
+      concrete_problemen:
+        - regel: 103
+          categorie: B1
+          type: other
+          voorbeeld: '###### Art. 7bis (heading zonder body — opgeheven artikel, source-conform)'
+          extra: source-typo
 status: beschikbaar
 tags:
-- XII
+  - XII
 wet: Strafwetboek 8 juni 1867 (Oud Strafwetboek)
 ---
 

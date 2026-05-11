@@ -7,21 +7,23 @@ chunk:
   type: Art.
 itaa-lex-sectie: IV.C
 provenance:
-  generated_at: '2026-05-11T16:21:26Z'
   inputs:
     - id: resources/raw/wetteksten/Decr-Waals-Directe-Belastingen.pdf
       sha256: fa05f2e6d48e11bb8849cb29f93b4cf98be34ae2d6e9ef3b4672a50fded6f56c
       version: 03.02.2026
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 11f9196
+    model:
     prompt_version:
+  generated_at: '2026-05-11T16:21:26Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at:
-    confirmed_by:
+    status: needs-rework
+    confirmed_at: '2026-05-11T16:30:30Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "B1/B4: De TOC bovenaan bevat article-groepen als ##### headings zonder echte artiteltekst (bv. regel 64: '##### Art. 17bis, 18, 18bis, 19-20, 20bis, ...' — dit zijn geen echte headings maar placeholders). Verder staan structuurlabels 'Tekst' (regel 183) en 'Titel' (regel 55) als losse plain-text regels zonder heading-prefix (B4). Laag-1 meldt max_section_size warn (31069 chars) maar geen form-feed. De artikel-body is correct en volledig; enkel de TOC-constructie en losse labels zijn ETL-artefacten."
     layer1:
       status: warn
       run_id: 20260511-162232
@@ -35,13 +37,27 @@ provenance:
           detail: 'langste sectie op #####-niveau: 31069 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
           samples: []
     layer2:
-      agent:
-      concrete_problemen: []
-      rationale:
-      run_at:
-      status: not_run
-    rationale: 'Trust gereset 2026-05-11: ETL-fix wetteksten met content-diff > 5%'
-    status: unreviewed
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T16:30:30Z'
+      rationale: "B1/B4: De TOC bovenaan bevat article-groepen als ##### headings zonder echte artiteltekst (bv. regel 64: '##### Art. 17bis, 18, 18bis, 19-20, 20bis, ...' — dit zijn geen echte headings maar placeholders). Verder staan structuurlabels 'Tekst' (regel 183) en 'Titel' (regel 55) als losse plain-text regels zonder heading-prefix (B4). Laag-1 meldt max_section_size warn (31069 chars) maar geen form-feed. De artikel-body is correct en volledig; enkel de TOC-constructie en losse labels zijn ETL-artefacten."
+      concrete_problemen:
+        - regel: 55
+          categorie: B4
+          type: other
+          voorbeeld: "Titel\n\n6 MEI 1999. - Decreet betreffende..."
+        - regel: 64
+          categorie: B1
+          type: other
+          voorbeeld: '##### Art. 17bis, 18, 18bis, 19-20, 20bis, 20ter, 20quater, 20quinquies, 21-24, 24bis'
+        - regel: 183
+          categorie: B4
+          type: other
+          voorbeeld: "Tekst\n\n## HOOFDSTUK I. - Algemene bepalingen."
+        - regel: 189
+          categorie: A6
+          type: scrambled-words
+          voorbeeld: "##### Art. 2.De\n\nRegering wijst de ambtenaren aan..."
 status: beschikbaar
 tags:
   - IV.C

@@ -7,21 +7,23 @@ chunk:
   type: Art.
 itaa-lex-sectie: VI.A
 provenance:
-  generated_at: '2026-05-11T16:21:26Z'
   inputs:
     - id: resources/raw/wetteksten/BTW-richtlijn-2006-112.pdf
       sha256: d2e9f9e0e1ba01e3822dab19047137bf146cfbee10bc4f9d823c53587f91110d
       version: 11.12.2006
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 11f9196
+    model:
     prompt_version:
+  generated_at: '2026-05-11T16:21:26Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at:
-    confirmed_by:
+    status: needs-rework
+    confirmed_at: '2026-05-11T16:30:30Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "A7 / kolom-scramble door 2-kolomige EU PDF: artikelen zijn consistent uit volgorde (Art.4 voor Art.3, Art.10 voor Art.7-8, Art.32 voor Art.27, enz.) door de hele tekst heen — tientallen transpositiefouten vastgesteld. B4: TITEL-headings hebben de tekstdescriptie op een aparte plain-text regel ('### TITEL I\\nVOORWERP EN TOEPASSINGSGEBIED' i.p.v. '### TITEL I — Voorwerp en toepassingsgebied'). Dit is een extractie-bug die herhaalbaar fixbaar is door de ETL."
     layer1:
       status: pass
       run_id: 20260511-162232
@@ -31,13 +33,27 @@ provenance:
       file_size_chars: 356433
       flags: []
     layer2:
-      agent:
-      concrete_problemen: []
-      rationale:
-      run_at:
-      status: not_run
-    rationale: 'Trust gereset 2026-05-11: ETL-fix wetteksten met content-diff > 5%'
-    status: unreviewed
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T16:30:30Z'
+      rationale: "A7 / kolom-scramble door 2-kolomige EU PDF: artikelen zijn consistent uit volgorde (Art.4 voor Art.3, Art.10 voor Art.7-8, Art.32 voor Art.27, enz.) door de hele tekst heen — tientallen transpositiefouten vastgesteld. B4: TITEL-headings hebben de tekstdescriptie op een aparte plain-text regel ('### TITEL I\\nVOORWERP EN TOEPASSINGSGEBIED' i.p.v. '### TITEL I — Voorwerp en toepassingsgebied'). Dit is een extractie-bug die herhaalbaar fixbaar is door de ETL."
+      concrete_problemen:
+        - regel: 53
+          categorie: B4
+          type: other
+          voorbeeld: '### TITEL I\nVOORWERP EN TOEPASSINGSGEBIED (plain-text na heading)'
+        - regel: 120
+          categorie: A7
+          type: scrambled-words
+          voorbeeld: Art. 4 (regel 120) staat vóór Art. 3 (regel 135)
+        - regel: 238
+          categorie: A7
+          type: scrambled-words
+          voorbeeld: Art. 10 (regel 238) staat vóór Art. 7 (regel 241) en Art. 8 (regel 253)
+        - regel: 429
+          categorie: A7
+          type: scrambled-words
+          voorbeeld: Art. 28 (regel 429) staat vóór Art. 26 (regel 445)
 status: beschikbaar
 tags:
   - VI.A

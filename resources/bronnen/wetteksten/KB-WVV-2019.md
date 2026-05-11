@@ -8,21 +8,23 @@ chunk:
   type: Art.
 itaa-lex-sectie: XV
 provenance:
-  generated_at: '2026-05-11T16:21:30Z'
   inputs:
     - id: resources/raw/wetteksten/KB-WVV-2019.pdf
       sha256: 2d9f15cf99469452fb1ab8d567f7243cc5d020e89a7fdd2002458be64e991f3d
       version: 24.12.2025
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 11f9196
+    model:
     prompt_version:
+  generated_at: '2026-05-11T16:21:30Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at:
-    confirmed_by:
+    status: needs-rework
+    confirmed_at: '2026-05-11T16:30:30Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "B4: Losse plain-text labels 'BIJLAGEN.' (regel 58) en 'Tekst' (begin body) zonder heading-prefix. Verder is de TOC bovenaan (regels 54-60) aanwezig met slechts 2 headings, waarna direct de Tekst-body volgt — structuur is dus dubbel (TOC + body). Art. N1 en N2 (bijlagen, regels 764-765) bevatten '(Beeld niet opgenomen om technische redenen...)' wat een ontbrekende sectie aanduidt (D2). Laag-1 pass zonder flags."
     layer1:
       status: pass
       run_id: 20260511-162232
@@ -32,13 +34,23 @@ provenance:
       file_size_chars: 171158
       flags: []
     layer2:
-      agent:
-      concrete_problemen: []
-      rationale:
-      run_at:
-      status: not_run
-    rationale: 'Trust gereset 2026-05-11: ETL-fix wetteksten met content-diff > 5%'
-    status: unreviewed
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T16:30:30Z'
+      rationale: "B4: Losse plain-text labels 'BIJLAGEN.' (regel 58) en 'Tekst' (begin body) zonder heading-prefix. Verder is de TOC bovenaan (regels 54-60) aanwezig met slechts 2 headings, waarna direct de Tekst-body volgt — structuur is dus dubbel (TOC + body). Art. N1 en N2 (bijlagen, regels 764-765) bevatten '(Beeld niet opgenomen om technische redenen...)' wat een ontbrekende sectie aanduidt (D2). Laag-1 pass zonder flags."
+      concrete_problemen:
+        - regel: 58
+          categorie: B4
+          type: other
+          voorbeeld: "BIJLAGEN.\n\n###### Art. N1-N9"
+        - regel: 62
+          categorie: B4
+          type: other
+          voorbeeld: "Tekst\n\n## BOEK 1. - Oprichting en formaliteiten"
+        - regel: 764
+          categorie: D2
+          type: missing-section
+          voorbeeld: '###### Art. N1 . Bijlage 1. ... (Beeld niet opgenomen om technische redenen, zie B.St. van 30-04-2019)'
 status: beschikbaar
 tags:
   - XV

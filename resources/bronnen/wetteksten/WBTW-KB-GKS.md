@@ -4,25 +4,27 @@ bron: Fisconetplus.be (officieuze gecoördineerde versie)
 bron_rol: itaa_lex
 chunk:
   level: 2
-  sub_strategy: null
+  sub_strategy:
   type: Art.
 itaa-lex-sectie: VI.B
 provenance:
-  generated_at: '2026-05-11T16:21:50Z'
   inputs:
-  - id: resources/raw/wetteksten/btw-kbs/WBTW-KB-GKS.pdf
-    sha256: da9aaad56c0edfe76ed480b9a7332ba627aeedb8cbe72c3f3fc83d074d9b459a
-    version: '2024'
-  stale: false
-  stale_reason: null
+    - id: resources/raw/wetteksten/btw-kbs/WBTW-KB-GKS.pdf
+      sha256: da9aaad56c0edfe76ed480b9a7332ba627aeedb8cbe72c3f3fc83d074d9b459a
+      version: '2024'
   tooling:
-    model: null
     pipeline: tools/etl/convert.py
     pipeline_version: 11f9196
-    prompt_version: null
+    model:
+    prompt_version:
+  generated_at: '2026-05-11T16:21:50Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: null
-    confirmed_by: null
+    status: trusted
+    confirmed_at: '2026-05-11T16:30:31Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: 'Kort bestand (4 artikelen + Art. 2bis, Art. 3, Art. 4). Laag-1 pass, geen flags. Body is clean: geen form-feed, geen pseudo-tabellen, geen OCR-fouten. Amendement-markers [1 … ]1, [2 … ]2, [3 … ]3 correct gesloten. Art. 1 heeft een opvallende structuur (de inhoud staat feitelijk in de buurt van de inleiding vóór ## Art. 2), maar dit is een eigenaardigheid van de wettekst zelf (TOEKOMSTIG RECHT-blok met verwijzing naar eerdere versie) en geen ETL-artefact.'
     layer1:
       file_size_chars: 7558
       flags: []
@@ -32,19 +34,16 @@ provenance:
       run_id: 20260511-134044
       status: pass
     layer2:
-      agent: null
+      status: trusted
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T16:30:31Z'
+      rationale: 'Kort bestand (4 artikelen + Art. 2bis, Art. 3, Art. 4). Laag-1 pass, geen flags. Body is clean: geen form-feed, geen pseudo-tabellen, geen OCR-fouten. Amendement-markers [1 … ]1, [2 … ]2, [3 … ]3 correct gesloten. Art. 1 heeft een opvallende structuur (de inhoud staat feitelijk in de buurt van de inleiding vóór ## Art. 2), maar dit is een eigenaardigheid van de wettekst zelf (TOEKOMSTIG RECHT-blok met verwijzing naar eerdere versie) en geen ETL-artefact.'
       concrete_problemen: []
-      rationale: null
-      run_at: null
-      status: not_run
-    rationale: 'Trust gereset 2026-05-11: ETL-fix wetteksten met content-diff > 5%'
-    status: unreviewed
 status: beschikbaar
 tags:
-- VI.B
-- '2.4'
-wet: K.B. 30 december 2009 tot het bepalen van de definitie en de voorwaarden waaraan
-  een geregistreerd kassasysteem moet voldoen
+  - VI.B
+  - '2.4'
+wet: K.B. 30 december 2009 tot het bepalen van de definitie en de voorwaarden waaraan een geregistreerd kassasysteem moet voldoen
 ---
 
 # BTW KB — Geregistreerd kassasysteem (GKS)
