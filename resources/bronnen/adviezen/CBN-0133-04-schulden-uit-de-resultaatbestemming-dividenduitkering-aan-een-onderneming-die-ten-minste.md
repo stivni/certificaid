@@ -2,49 +2,54 @@
 nummer: CBN-advies 133/4
 datum: 1998-03-01
 themas:
-- bestemming van het resultaat van het boekjaar
-- deelneming
-- dividenden
-- dividenduitkering
-- ingehouden voorheffing
-- roerende voorheffing
-- schulden
-- schulden uit bestemming van het resultaat
+  - bestemming van het resultaat van het boekjaar
+  - deelneming
+  - dividenden
+  - dividenduitkering
+  - ingehouden voorheffing
+  - roerende voorheffing
+  - schulden
+  - schulden uit bestemming van het resultaat
 bron: https://www.cbn-cnc.be/nl/adviezen/schulden-uit-de-resultaatbestemming-dividenduitkering-aan-een-onderneming-die-ten-minste
 provenance:
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/schulden-uit-de-resultaatbestemming-dividenduitkering-aan-een-onderneming-die-ten-minste
-    sha256: 91e4ca11a7177d32fb69fb0526c84ed29cae2683cb3bdb8c0797556e9eb8e5f7
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/schulden-uit-de-resultaatbestemming-dividenduitkering-aan-een-onderneming-die-ten-minste
+      sha256: 91e4ca11a7177d32fb69fb0526c84ed29cae2683cb3bdb8c0797556e9eb8e5f7
+      version:
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model: null
-    prompt_version: null
+    model:
+    prompt_version:
   generated_at: '2026-05-08T18:34:54Z'
   stale: false
-  stale_reason: null
+  stale_reason:
   trust:
-    status: trusted
-    qa_version: trust-rework-2
-    confirmed_at: '2026-05-08T18:40:03Z'
-    confirmed_by: qa-laag1-auto
-    rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    status: unreviewed
+    confirmed_at:
+    confirmed_by:
+    rationale:
     layer1:
-      verdict: pass
+      status: pass
+      run_id: 20260511-083333
+      run_at:
       heading_count: 0
-      max_section_chars: 4624
-      file_size_chars: 4624
+      max_section_chars: 4625
+      file_size_chars: 4625
       flags: []
-      run_id: 20260509-212552
+    layer2:
+      status: not_run
+      agent:
+      run_at:
+      rationale:
+      concrete_problemen: []
 gerelateerde_adviezen:
-- titel: Schulden voortvloeiend uit de bestemming van het resultaat
-  url: https://www.cbn-cnc.be/nl/adviezen/schulden-voortvloeiend-uit-de-bestemming-van-het-resultaat
-  datum: '1985-04-01'
-- titel: Voorstelling van een tabel met de wijzigingen in het eigen vermogen en de
-    bestemming van het resultaat van het boekjaar
-  url: https://www.cbn-cnc.be/nl/adviezen/voorstelling-van-een-tabel-met-de-wijzigingen-in-het-eigen-vermogen-en-de-bestemming-van
-  datum: '1995-03-01'
+  - titel: Schulden voortvloeiend uit de bestemming van het resultaat
+    url: https://www.cbn-cnc.be/nl/adviezen/schulden-voortvloeiend-uit-de-bestemming-van-het-resultaat
+    datum: '1985-04-01'
+  - titel: Voorstelling van een tabel met de wijzigingen in het eigen vermogen en de bestemming van het resultaat van het boekjaar
+    url: https://www.cbn-cnc.be/nl/adviezen/voorstelling-van-een-tabel-met-de-wijzigingen-in-het-eigen-vermogen-en-de-bestemming-van
+    datum: '1995-03-01'
 ---
 
 # CBN-advies 133/4 - Schulden uit de resultaatbestemming : dividenduitkering aan een onderneming die ten minste 25 % bezit van het kapitaal van de vennootschap die het dividend uitkeert

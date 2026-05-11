@@ -1,10 +1,10 @@
 ---
-tags: ["XIII", "1.4"]
-itaa-lex-sectie: "XIII"
-wet: "WER Boek VIII — Kwaliteit van producten en diensten (boekhoudnormen)"
-status: "beschikbaar"
-bijgewerkt: "24.12.2025"
-bron: "ejustice.just.fgov.be (gecoördineerde versie)"
+tags: [XIII, '1.4']
+itaa-lex-sectie: XIII
+wet: WER Boek VIII — Kwaliteit van producten en diensten (boekhoudnormen)
+status: beschikbaar
+bijgewerkt: 24.12.2025
+bron: ejustice.just.fgov.be (gecoördineerde versie)
 provenance:
   inputs:
     - id: resources/raw/wetteksten/WER-Boek-VIII-normalisatie.pdf
@@ -20,12 +20,13 @@ provenance:
   stale_reason:
   trust:
     status: rejected
-    qa_version: wetteksten-l2-20260510
     confirmed_at: '2026-05-09T23:20:36Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: 'L2-agent verdict: rejected. Catastrofale ETL-output: het hele bestand is een PDF-OCR van een Belgisch Staatsblad-bundel waarin NL+FR (en op meerdere plaatsen Duits) systematisch op elkaar geplakt staan binnen iedere alinea. Bovendien bevat het bestand massaal off-topic content (Waalse personeelsformaties, Cour Constitutionnelle-arresten over waterheffing, CPI-indices, jobvacatures Wonen-Vlaanderen) die niets met WER Boek VIII normalisatie te maken heeft. Onbruikbaar voor RAG; zal de hele index vervuilen.'
     layer1:
-      verdict: warn
+      status: warn
+      run_id: 20260509-212552
+      run_at:
       heading_count: 276
       max_section_chars: 199327
       file_size_chars: 863645
@@ -34,17 +35,12 @@ provenance:
           status: warn
           detail: 'langste sectie op ####-niveau: 199327 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
           samples: []
-      run_id: 20260509-212552
-    layer1_5_diff:
-      verdict: improvement
-      rationale: 'Auto-synthesized: ETL-fixes vandaag (NBSP, sub_strategy, justel-extractor, etc.) verbeteren bestaande versie.'
-      kritieke_observaties: []
-      auto: true
-      run_id: trust-finalize-1
-    layer2_content:
-      verdict: rejected
+    layer2:
+      status: rejected
+      agent:
+      run_at:
       rationale: 'Catastrofale ETL-output: het hele bestand is een PDF-OCR van een Belgisch Staatsblad-bundel waarin NL+FR (en op meerdere plaatsen Duits) systematisch op elkaar geplakt staan binnen iedere alinea. Bovendien bevat het bestand massaal off-topic content (Waalse personeelsformaties, Cour Constitutionnelle-arresten over waterheffing, CPI-indices, jobvacatures Wonen-Vlaanderen) die niets met WER Boek VIII normalisatie te maken heeft. Onbruikbaar voor RAG; zal de hele index vervuilen.'
-      problemen:
+      concrete_problemen:
         - regel: 48
           type: column-bleed
           voorbeeld: Les dispositions suivantes forment le Code de droit econo- Art. 2. De hiernavolgende bepalingen vormen het Wetboek
@@ -60,17 +56,9 @@ provenance:
         - regel: 6577
           type: naam-mismatch
           voorbeeld: JOBPUNT VLAANDEREN ... Data- en toepassingsbeheerder
-      sterkte:
-        - Frontmatter is gestructureerd en bevat valide provenance + sha256.
-        - Article-headings (#### Art. VIII.x) staan op aparte regels - kernbereik VIII.1-VIII.~55 is herkenbaar.
-        - Geen dot-leader-vervuiling (TOC al weggefilterd).
-        - Geen scrambled words op woordniveau - kolom-merge is regel-voor-regel, niet karakter-door-karakter.
-      auto: false
-      run_id: wetteksten-l2-20260510
-    agent_verdict_at: '2026-05-09T23:20:36Z'
 chunk:
   level: 4
-  type: "Art."
+  type: Art.
   sub_strategy:
 ---
 

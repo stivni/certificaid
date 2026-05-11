@@ -2,57 +2,62 @@
 nummer: CBN-advies 2018/15
 datum: 2018-06-20
 themas:
-- voorziening
-- pensioentoezegging
-- aanvullende pensioentoezegging
-- pensioen
-- pensioenverplichting
-- groepsverzekering
-- WAP
-- rendementswaarborg
-- externalisatieverplichting
-- aanvullend pensioen
+  - voorziening
+  - pensioentoezegging
+  - aanvullende pensioentoezegging
+  - pensioen
+  - pensioenverplichting
+  - groepsverzekering
+  - WAP
+  - rendementswaarborg
+  - externalisatieverplichting
+  - aanvullend pensioen
 bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-onder-meer-de-rendementswaarborg-voor-werkgeversbijdragen
 provenance:
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-onder-meer-de-rendementswaarborg-voor-werkgeversbijdragen
-    sha256: 64830a3e26e539c0098498821c4e375822e63ee6e3d5f4c5b58cf9c352e75272
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-onder-meer-de-rendementswaarborg-voor-werkgeversbijdragen
+      sha256: 64830a3e26e539c0098498821c4e375822e63ee6e3d5f4c5b58cf9c352e75272
+      version:
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model: null
-    prompt_version: null
+    model:
+    prompt_version:
   generated_at: '2026-05-08T18:37:25Z'
   stale: false
-  stale_reason: null
+  stale_reason:
   trust:
-    status: trusted
-    qa_version: trust-rework-2
-    confirmed_at: '2026-05-08T18:40:04Z'
-    confirmed_by: qa-laag1-auto
-    rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    status: unreviewed
+    confirmed_at:
+    confirmed_by:
+    rationale:
     layer1:
-      verdict: pass
-      heading_count: 11
-      max_section_chars: 5025
-      file_size_chars: 23593
+      status: pass
+      run_id: 20260511-083333
+      run_at:
+      heading_count: 3
+      max_section_chars: 14575
+      file_size_chars: 23610
       flags: []
-      run_id: 20260509-212552
+    layer2:
+      status: not_run
+      agent:
+      run_at:
+      rationale:
+      concrete_problemen: []
 gerelateerde_adviezen:
-- titel: Boekhoudkundige verwerking van COVID-19-tegemoetkomingen en van kosten gemaakt
-    ten gevolge van de gezondheidscrisis
-  url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-covid-19-tegemoetkomingen-en-van-kosten-gemaakt-ten-gevolge
-  datum: '2021-07-05'
-- titel: Gevolgen op gebied van financiële rapportering als gevolg van de brexit
-  url: https://www.cbn-cnc.be/nl/adviezen/gevolgen-op-gebied-van-financiele-rapportering-als-gevolg-van-de-brexit-0
-  datum: '2019-04-12'
-- titel: Voorzieningen
-  url: https://www.cbn-cnc.be/nl/adviezen/voorzieningen
-  datum: '2019-03-05'
-- titel: Toekenning van gratis aandelen (Restricted Stock Units) als bonus
-  url: https://www.cbn-cnc.be/nl/adviezen/toekenning-van-gratis-aandelen-restricted-stock-units-als-bonus
-  datum: '2018-11-14'
+  - titel: Boekhoudkundige verwerking van COVID-19-tegemoetkomingen en van kosten gemaakt ten gevolge van de gezondheidscrisis
+    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-covid-19-tegemoetkomingen-en-van-kosten-gemaakt-ten-gevolge
+    datum: '2021-07-05'
+  - titel: Gevolgen op gebied van financiële rapportering als gevolg van de brexit
+    url: https://www.cbn-cnc.be/nl/adviezen/gevolgen-op-gebied-van-financiele-rapportering-als-gevolg-van-de-brexit-0
+    datum: '2019-04-12'
+  - titel: Voorzieningen
+    url: https://www.cbn-cnc.be/nl/adviezen/voorzieningen
+    datum: '2019-03-05'
+  - titel: Toekenning van gratis aandelen (Restricted Stock Units) als bonus
+    url: https://www.cbn-cnc.be/nl/adviezen/toekenning-van-gratis-aandelen-restricted-stock-units-als-bonus
+    datum: '2018-11-14'
 ---
 
 # CBN-advies 2018/15 – Boekhoudkundige verwerking van onder meer de rendementswaarborg voor werkgeversbijdragen in het kader van een aanvullende pensioentoezegging

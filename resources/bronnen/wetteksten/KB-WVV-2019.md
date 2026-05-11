@@ -1,14 +1,14 @@
 ---
-tags: ["XV", "1.5", "3.1", "3.2"]
-itaa-lex-sectie: "XV"
-wet: "Koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen"
-bron_rol: "itaa_lex"
-status: "beschikbaar"
-bijgewerkt: "24.12.2025"
-bron: "ejustice.just.fgov.be (gecoördineerde versie)"
+tags: [XV, '1.5', '3.1', '3.2']
+itaa-lex-sectie: XV
+wet: Koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen
+bron_rol: itaa_lex
+status: beschikbaar
+bijgewerkt: 24.12.2025
+bron: ejustice.just.fgov.be (gecoördineerde versie)
 chunk:
   level: 6
-  type: "Art."
+  type: Art.
   sub_strategy:
 provenance:
   inputs:
@@ -25,16 +25,13 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    qa_version: trust-finalize-1
     confirmed_at: '2026-05-09T20:31:38Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: 'L1=warn; L1.5=improvement (Auto-synthesized: ETL-fixes vandaag (NBSP, sub_strategy, justel-extractor, etc.) verbeteren bestaande versie.); L2=trusted (KB-WVV met 276 Art.-vermeldingen (genummerd 1:x, 2:x, ...), structuur op H6 zoals chunk.level=6. Body schoon NL, geen kolom-bleed. Warn op max_section_size suggereert lange artikelen wat normaal is voor WVV-uitvoeringsbesluit.)'
-    agent_verdict_at: '2026-05-09T20:31:38Z'
-    sample_pick: true
-    sample_reviewed_at:
-    sample_reviewed_by:
     layer1:
-      verdict: warn
+      status: warn
+      run_id: 20260509-212552
+      run_at:
       heading_count: 371
       max_section_chars: 37257
       file_size_chars: 513858
@@ -43,23 +40,12 @@ provenance:
           status: warn
           detail: 'langste sectie op ######-niveau: 37257 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
           samples: []
-      run_id: 20260509-212552
-    layer1_5_diff:
-      verdict: improvement
-      rationale: 'Auto-synthesized: ETL-fixes vandaag (NBSP, sub_strategy, justel-extractor, etc.) verbeteren bestaande versie.'
-      kritieke_observaties: []
-      auto: true
-      run_id: trust-finalize-1
-    layer2_content:
-      verdict: trusted
+    layer2:
+      status: trusted
+      agent:
+      run_at:
       rationale: KB-WVV met 276 Art.-vermeldingen (genummerd 1:x, 2:x, ...), structuur op H6 zoals chunk.level=6. Body schoon NL, geen kolom-bleed. Warn op max_section_size suggereert lange artikelen wat normaal is voor WVV-uitvoeringsbesluit.
-      problemen: []
-      sterkte:
-        - Genummerde Art. x:y consistent
-        - Schoon
-        - Volledig
-      auto: false
-      run_id: qa-batch-W1
+      concrete_problemen: []
 ---
 
 # Koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen

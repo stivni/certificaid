@@ -1,10 +1,10 @@
 ---
-tags: ["2.1", "2.2", "2.3", "2.4", "2.5", "2.6", "2.7", "2.8"]
-itaa-lex-sectie: ""
-wet: "Fiscaal Memento 2025 — FOD Financiën (editie 12/2024, bijgewerkt 31.12.2024)"
-status: "beschikbaar"
-bijgewerkt: "31.12.2024"
-bron: "fin.belgium.be — Algemene Administratie voor Beleidsexpertise en -Ondersteuning"
+tags: ['2.1', '2.2', '2.3', '2.4', '2.5', '2.6', '2.7', '2.8']
+itaa-lex-sectie: ''
+wet: Fiscaal Memento 2025 — FOD Financiën (editie 12/2024, bijgewerkt 31.12.2024)
+status: beschikbaar
+bijgewerkt: 31.12.2024
+bron: fin.belgium.be — Algemene Administratie voor Beleidsexpertise en -Ondersteuning
 provenance:
   inputs:
     - id: resources/raw/wetteksten/fiscaal-memento-2025.pdf
@@ -20,14 +20,27 @@ provenance:
   stale_reason:
   trust:
     status: unreviewed
-    qa_version:
     confirmed_at:
-    confirmed_by: default
+    confirmed_by:
     rationale:
+    layer1:
+      status: not_run
+      run_id:
+      run_at:
+      heading_count:
+      max_section_chars:
+      file_size_chars:
+      flags: []
+    layer2:
+      status: not_run
+      agent:
+      run_at:
+      rationale:
+      concrete_problemen: []
 chunk:
   level: 3
-  type: "Art."
-  sub_strategy: null
+  type: Art.
+  sub_strategy:
 ---
 
 # Fiscaal Memento 2025

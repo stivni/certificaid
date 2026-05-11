@@ -2,39 +2,45 @@
 nummer: CBN-advies 2010/2
 datum: 2010-02-10
 themas:
-- bedrijfsvoorheffing
-- compensatie
-- exploitatiesubsidie
-- subsidies
-- vzw
-- werkingssubsidie
+  - bedrijfsvoorheffing
+  - compensatie
+  - exploitatiesubsidie
+  - subsidies
+  - vzw
+  - werkingssubsidie
 bron: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-het-stelsel-tot-gedeeltelijke-vrijstelling-van-betaling
 provenance:
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-het-stelsel-tot-gedeeltelijke-vrijstelling-van-betaling
-    sha256: 4ca6ce7a38ebe388884f6c7802f6c703a384627e824c29020c4668e937c641c5
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-het-stelsel-tot-gedeeltelijke-vrijstelling-van-betaling
+      sha256: 4ca6ce7a38ebe388884f6c7802f6c703a384627e824c29020c4668e937c641c5
+      version:
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model: null
-    prompt_version: null
+    model:
+    prompt_version:
   generated_at: '2026-05-08T18:35:56Z'
   stale: false
-  stale_reason: null
+  stale_reason:
   trust:
-    status: trusted
-    qa_version: trust-rework-2
-    confirmed_at: '2026-05-08T18:40:03Z'
-    confirmed_by: qa-laag1-auto
-    rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    status: unreviewed
+    confirmed_at:
+    confirmed_by:
+    rationale:
     layer1:
-      verdict: pass
+      status: pass
+      run_id: 20260511-083333
+      run_at:
       heading_count: 3
-      max_section_chars: 1483
-      file_size_chars: 4773
+      max_section_chars: 1484
+      file_size_chars: 4775
       flags: []
-      run_id: 20260509-212552
+    layer2:
+      status: not_run
+      agent:
+      run_at:
+      rationale:
+      concrete_problemen: []
 ---
 
 # CBN-advies 2010/2 – De boekhoudkundige verwerking van het stelsel tot gedeeltelijke vrijstelling van betaling van de bedrijfsvoorheffing, zoals geregeld door artikel 275/3 van het Wetboek van de Inkomstenbelastingen 1992 – Update Advies van 10 februari 2010

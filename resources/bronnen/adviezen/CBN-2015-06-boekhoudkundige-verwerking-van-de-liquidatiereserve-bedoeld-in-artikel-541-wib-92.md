@@ -2,54 +2,57 @@
 nummer: CBN-advies 2015/6
 datum: 2015-09-30
 themas:
-- Onaantastbaarheidsvoorwaarde
-- bijzondere aanslag
-- belastingen
-- liquidatiereserve
-- bijzondere liquidatiereserve
+  - Onaantastbaarheidsvoorwaarde
+  - bijzondere aanslag
+  - belastingen
+  - liquidatiereserve
+  - bijzondere liquidatiereserve
 bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-liquidatiereserve-bedoeld-in-artikel-541-wib-92
 provenance:
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-liquidatiereserve-bedoeld-in-artikel-541-wib-92
-    sha256: f75947a777e67970e2d3551b28d529ee94c0c42cdd01b6cf19a7e08704e40481
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-liquidatiereserve-bedoeld-in-artikel-541-wib-92
+      sha256: f75947a777e67970e2d3551b28d529ee94c0c42cdd01b6cf19a7e08704e40481
+      version:
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model: null
-    prompt_version: null
+    model:
+    prompt_version:
   generated_at: '2026-05-08T18:36:50Z'
   stale: false
-  stale_reason: null
+  stale_reason:
   trust:
-    status: trusted
-    qa_version: trust-rework-2
-    confirmed_at: '2026-05-08T18:40:04Z'
-    confirmed_by: qa-laag1-auto
-    rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    status: unreviewed
+    confirmed_at:
+    confirmed_by:
+    rationale:
     layer1:
-      verdict: pass
-      heading_count: 6
-      max_section_chars: 8602
-      file_size_chars: 18729
+      status: pass
+      run_id: 20260511-083333
+      run_at:
+      heading_count: 5
+      max_section_chars: 10354
+      file_size_chars: 18744
       flags: []
-      run_id: 20260509-212552
+    layer2:
+      status: not_run
+      agent:
+      run_at:
+      rationale:
+      concrete_problemen: []
 gerelateerde_adviezen:
-- titel: Boekhoudrechtelijke verwerking van de wederopbouwreserve
-  url: https://www.cbn-cnc.be/nl/adviezen/boekhoudrechtelijke-verwerking-van-de-wederopbouwreserve
-  datum: '2021-07-12'
-- titel: Boekhoudkundige verwerking van de tax shelter in hoofde van de investeerder
-    (raamovereenkomsten gesloten vanaf 1 januari 2015)
-  url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-tax-shelter-in-hoofde-van-de-investeerder
-  datum: '2015-05-13'
-- titel: De boekhoudkundige verwerking van de verhoogde aftrek van bepaalde kosten
-    die fiscaal wordt aanvaard boven het bedrag van de werkelijk gedane of gedragen
-    kosten mits naleving van de onaantastbaarheidsvoorwaarde
-  url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-verhoogde-aftrek-van-bepaalde-kosten-die-fiscaal
-  datum: '2013-11-27'
-- titel: Aanwending van herwaarderingsmeerwaarden
-  url: https://www.cbn-cnc.be/nl/adviezen/aanwending-van-herwaarderingsmeerwaarden-0
-  datum: '1981-12-01'
+  - titel: Boekhoudrechtelijke verwerking van de wederopbouwreserve
+    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudrechtelijke-verwerking-van-de-wederopbouwreserve
+    datum: '2021-07-12'
+  - titel: Boekhoudkundige verwerking van de tax shelter in hoofde van de investeerder (raamovereenkomsten gesloten vanaf 1 januari 2015)
+    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-tax-shelter-in-hoofde-van-de-investeerder
+    datum: '2015-05-13'
+  - titel: De boekhoudkundige verwerking van de verhoogde aftrek van bepaalde kosten die fiscaal wordt aanvaard boven het bedrag van de werkelijk gedane of gedragen kosten mits naleving van de onaantastbaarheidsvoorwaarde
+    url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-verhoogde-aftrek-van-bepaalde-kosten-die-fiscaal
+    datum: '2013-11-27'
+  - titel: Aanwending van herwaarderingsmeerwaarden
+    url: https://www.cbn-cnc.be/nl/adviezen/aanwending-van-herwaarderingsmeerwaarden-0
+    datum: '1981-12-01'
 ---
 
 # CBN-advies 2015/6 - Boekhoudkundige verwerking van de liquidatiereserve bedoeld in artikel 541 WIB 92 (Programmawet van 10 augustus 2015) en de bijzondere aanslag op deze liquidatiereserve1

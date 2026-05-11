@@ -1,10 +1,10 @@
 ---
 tags: [norm, ethiek, iesba, ifac, onafhankelijkheid, deontologie]
-naam: "2024 Handbook of the International Code of Ethics for Professional Accountants (including International Independence Standards)"
+naam: 2024 Handbook of the International Code of Ethics for Professional Accountants (including International Independence Standards)
 datum: 2024-08-01
 type: norm
-itaa-lex-sectie: ""
-toepassingsgebied: "Internationale professionele norm voor accountants en belastingadviseurs — referentienorm voor ITAA deontologie en onafhankelijkheidsvereisten"
+itaa-lex-sectie: ''
+toepassingsgebied: Internationale professionele norm voor accountants en belastingadviseurs — referentienorm voor ITAA deontologie en onafhankelijkheidsvereisten
 themas:
   - ethiek
   - onafhankelijkheid
@@ -17,29 +17,30 @@ themas:
   - IFAC
 bron: ethicsboard.org
 url: https://www.ethicsboard.org/publications/2024-handbook-international-code-ethics-professional-accountants
-download_url: "https://ifacweb.blob.core.windows.net/publicfiles/2024-08/2024%20IESBA%20Handbook%20of%20the%20International%20Code%20of%20Ethics%20for%20Professional%20Accountants_0.pdf"
+download_url: https://ifacweb.blob.core.windows.net/publicfiles/2024-08/2024%20IESBA%20Handbook%20of%20the%20International%20Code%20of%20Ethics%20for%20Professional%20Accountants_0.pdf
 taal: en
 provenance:
   inputs:
     - id: ethicsboard.org
       sha256: 3f282231016267a39242d7cb92ab7197dd1f5497587bc5f01e9cd315801f2ba9
-      version: "2024 editie (augustus 2024)"
+      version: 2024 editie (augustus 2024)
   tooling:
     pipeline: handcrafted
     pipeline_version: process_iesba_v4.py
     model:
     prompt_version:
-  generated_at: "2026-05-08T19:00:00Z"
+  generated_at: '2026-05-08T19:00:00Z'
   stale: false
   stale_reason:
   trust:
     status: unreviewed
-    qa_version:
     confirmed_at:
     confirmed_by:
     rationale:
     layer1:
-      verdict: warn
+      status: warn
+      run_id: 20260511-085756
+      run_at: '2026-05-11T08:57:56Z'
       heading_count: 68
       max_section_chars: 86893
       file_size_chars: 588878
@@ -48,7 +49,12 @@ provenance:
           status: warn
           detail: 'langste sectie op ##-niveau: 86893 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
           samples: []
-      run_id: 20260509-172914
+    layer2:
+      status: not_run
+      agent:
+      run_at:
+      rationale:
+      concrete_problemen: []
 ---
 
 

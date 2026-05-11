@@ -2,36 +2,42 @@
 nummer: CBN-advies 2012/10
 datum: 2012-07-04
 themas:
-- te verwaarlozen betekenis
-- vrijstelling
-- geconsolideerde jaarrekening
+  - te verwaarlozen betekenis
+  - vrijstelling
+  - geconsolideerde jaarrekening
 bron: https://www.cbn-cnc.be/nl/adviezen/te-verwaarlozen-betekenis
 provenance:
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/te-verwaarlozen-betekenis
-    sha256: 6b99fb366e6ded06b001c98cccac8e5f1d7de48d1cd863427e16c406d60f1cf2
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/te-verwaarlozen-betekenis
+      sha256: 6b99fb366e6ded06b001c98cccac8e5f1d7de48d1cd863427e16c406d60f1cf2
+      version:
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model: null
-    prompt_version: null
+    model:
+    prompt_version:
   generated_at: '2026-05-08T18:36:28Z'
   stale: false
-  stale_reason: null
+  stale_reason:
   trust:
-    status: trusted
-    qa_version: trust-rework-2
-    confirmed_at: '2026-05-08T18:40:04Z'
-    confirmed_by: qa-laag1-auto
-    rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    status: unreviewed
+    confirmed_at:
+    confirmed_by:
+    rationale:
     layer1:
-      verdict: pass
+      status: pass
+      run_id: 20260511-083333
+      run_at:
       heading_count: 6
-      max_section_chars: 3284
-      file_size_chars: 11956
+      max_section_chars: 3288
+      file_size_chars: 11962
       flags: []
-      run_id: 20260509-212552
+    layer2:
+      status: not_run
+      agent:
+      run_at:
+      rationale:
+      concrete_problemen: []
 ---
 
 # CBN-advies 2012/10 - Te verwaarlozen betekenis

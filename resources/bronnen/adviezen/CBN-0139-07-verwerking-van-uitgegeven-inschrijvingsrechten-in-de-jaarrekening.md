@@ -2,45 +2,51 @@
 nummer: CBN-advies 139/7
 datum: 1995-03-01
 themas:
-- converteerbare obligatie
-- inschrijvingsrecht
-- kapitaal
-- kostenloos uitgegeven warrants
-- obligaties
-- obligaties met voorkeurrecht
-- onder bezwarende titel uitgegeven warrants
-- toelichting
-- uitgegeven convertereerbare obligaties
-- uitgegeven inschrijvingsrechten
-- warrant
-- uitgiftepremie
+  - converteerbare obligatie
+  - inschrijvingsrecht
+  - kapitaal
+  - kostenloos uitgegeven warrants
+  - obligaties
+  - obligaties met voorkeurrecht
+  - onder bezwarende titel uitgegeven warrants
+  - toelichting
+  - uitgegeven convertereerbare obligaties
+  - uitgegeven inschrijvingsrechten
+  - warrant
+  - uitgiftepremie
 bron: https://www.cbn-cnc.be/nl/adviezen/verwerking-van-uitgegeven-inschrijvingsrechten-in-de-jaarrekening
 provenance:
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/verwerking-van-uitgegeven-inschrijvingsrechten-in-de-jaarrekening
-    sha256: d7cc7231e7ba165a07ecdb818bfd59a4691c760209f111e9bb6bd2a2d13576e0
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/verwerking-van-uitgegeven-inschrijvingsrechten-in-de-jaarrekening
+      sha256: d7cc7231e7ba165a07ecdb818bfd59a4691c760209f111e9bb6bd2a2d13576e0
+      version:
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model: null
-    prompt_version: null
+    model:
+    prompt_version:
   generated_at: '2026-05-08T18:35:07Z'
   stale: false
-  stale_reason: null
+  stale_reason:
   trust:
-    status: trusted
-    qa_version: trust-rework-2
-    confirmed_at: '2026-05-08T18:40:03Z'
-    confirmed_by: qa-laag1-auto
-    rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    status: unreviewed
+    confirmed_at:
+    confirmed_by:
+    rationale:
     layer1:
-      verdict: pass
+      status: pass
+      run_id: 20260511-083333
+      run_at:
       heading_count: 5
-      max_section_chars: 1822
-      file_size_chars: 4282
+      max_section_chars: 2085
+      file_size_chars: 4371
       flags: []
-      run_id: 20260509-212552
+    layer2:
+      status: not_run
+      agent:
+      run_at:
+      rationale:
+      concrete_problemen: []
 ---
 
 # CBN advies 139-7 - Verwerking van uitgegeven inschrijvingsrechten in de jaarrekening

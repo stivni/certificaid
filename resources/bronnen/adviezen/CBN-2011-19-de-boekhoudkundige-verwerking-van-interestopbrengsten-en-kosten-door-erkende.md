@@ -2,35 +2,41 @@
 nummer: CBN-advies 2011/19
 datum: 2011-10-05
 themas:
-- erkende kredietmaatschappij
-- kredietmaatschappij
+  - erkende kredietmaatschappij
+  - kredietmaatschappij
 bron: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-interestopbrengsten-en-kosten-door-erkende
 provenance:
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-interestopbrengsten-en-kosten-door-erkende
-    sha256: 6e6268271b2b7aa39644cb41d0ad3b69eced439bd52ae437e23c2be5296875e9
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-interestopbrengsten-en-kosten-door-erkende
+      sha256: 6e6268271b2b7aa39644cb41d0ad3b69eced439bd52ae437e23c2be5296875e9
+      version:
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model: null
-    prompt_version: null
+    model:
+    prompt_version:
   generated_at: '2026-05-08T18:36:16Z'
   stale: false
-  stale_reason: null
+  stale_reason:
   trust:
-    status: trusted
-    qa_version: trust-rework-2
-    confirmed_at: '2026-05-08T18:40:04Z'
-    confirmed_by: qa-laag1-auto
-    rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    status: unreviewed
+    confirmed_at:
+    confirmed_by:
+    rationale:
     layer1:
-      verdict: pass
+      status: pass
+      run_id: 20260511-083333
+      run_at:
       heading_count: 2
       max_section_chars: 2386
-      file_size_chars: 5052
+      file_size_chars: 5056
       flags: []
-      run_id: 20260509-212552
+    layer2:
+      status: not_run
+      agent:
+      run_at:
+      rationale:
+      concrete_problemen: []
 ---
 
 # CBN-advies 2011/19 – De boekhoudkundige verwerking van interestopbrengsten en –kosten door erkende kredietmaatschappijen in Vlaanderen

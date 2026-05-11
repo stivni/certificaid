@@ -2,11 +2,11 @@
 tags:
   - norm
   - itaa
-naam: "AWW-Richtlijn (BIBF) — Richtlijn antiwitwas boekhoudkundige beroepen"
+naam: AWW-Richtlijn (BIBF) — Richtlijn antiwitwas boekhoudkundige beroepen
 datum: 2020-03-31
 type: norm
-itaa-lex-sectie: "XVII"
-toepassingsgebied: "Erkende boekhouders en fiscalisten (BIBF-leden) als onderworpen entiteit"
+itaa-lex-sectie: XVII
+toepassingsgebied: Erkende boekhouders en fiscalisten (BIBF-leden) als onderworpen entiteit
 themas:
   - antiwitwas
   - cliëntenonderzoek
@@ -35,32 +35,24 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    qa_version: trust-rework-2
-    confirmed_at: '2026-05-09T21:27:46Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: L1=pass
-    agent_verdict_at: '2026-05-09T21:27:46Z'
-    sample_pick: false
-    sample_reviewed_at:
-    sample_reviewed_by:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by:
+    rationale:
     layer1:
-      verdict: pass
+      status: pass
+      run_id: 20260511-085756
+      run_at: '2026-05-11T08:57:56Z'
       heading_count: 16
       max_section_chars: 8493
       file_size_chars: 42872
       flags: []
-      run_id: 20260509-212552
-    layer1_5_diff:
-      verdict: improvement
-      rationale: 'Auto-synthesized: ETL-fixes vandaag (NBSP, sub_strategy, justel-extractor, etc.) verbeteren bestaande versie.'
-      kritieke_observaties: []
-      auto: true
-      run_id: trust-finalize-1
-    layer2_content:
-      verdict: needs-rework
+    layer2:
+      status: needs-rework
+      agent:
+      run_at:
       rationale: "BIBF-variant heeft scrambled heading op sectie 3 ('## 3. Algemene    risicobeoordeling beroepsbeoefenaar' — meerdere spaties, ontbrekend 'op te maken door de'). Daarnaast staan 2 TOC-fragmenten als ## promoted (L128 en L131) vóór sectie 1 begint — duplicate headings die de chunker in de war brengen."
-      problemen:
+      concrete_problemen:
         - regel: 400
           type: scrambled-words
           voorbeeld: "'## 3. Algemene    risicobeoordeling beroepsbeoefenaar' (multi-space + ontbrekend 'op te maken door de')"
@@ -73,11 +65,6 @@ provenance:
         - regel: 129
           type: scrambled-words
           voorbeeld: "'Nakoming    van       de         waakzaamheidsverplichtingen                              door           derde' — kolom-spreiding"
-      sterkte:
-        - Hoofdstructuur (10 secties + 4 bijlagen) wel aanwezig
-        - Definitielijst en bepalingen onder elke sectie volledig
-      auto: false
-      run_id: qa-batch-normen
 ---
 Richtlijn van het Beroepsinstituut van erkende Boekhouders en Fiscalisten
      van 31 maart 2020 inzake de toepassing van de wet van 18 september

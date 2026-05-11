@@ -2,48 +2,54 @@
 nummer: CBN-advies 2010/14
 datum: 2010-09-24
 themas:
-- bewaring
-- bewaring van verantwoordingsstukken
-- boeken
-- computersysteem
-- elektronische boekhouding
-- elektronische facturering
-- plaats van bewaring
-- verantwoordingsstuk
+  - bewaring
+  - bewaring van verantwoordingsstukken
+  - boeken
+  - computersysteem
+  - elektronische boekhouding
+  - elektronische facturering
+  - plaats van bewaring
+  - verantwoordingsstuk
 bron: https://www.cbn-cnc.be/nl/adviezen/bewaring-van-boeken-en-verantwoordingsstukken
 provenance:
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/bewaring-van-boeken-en-verantwoordingsstukken
-    sha256: cc3dc16756036705ba3ff4dc69f8573d60aeb6ad8fa0314939d527bac08266d0
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/bewaring-van-boeken-en-verantwoordingsstukken
+      sha256: cc3dc16756036705ba3ff4dc69f8573d60aeb6ad8fa0314939d527bac08266d0
+      version:
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model: null
-    prompt_version: null
+    model:
+    prompt_version:
   generated_at: '2026-05-08T18:36:02Z'
   stale: false
-  stale_reason: null
+  stale_reason:
   trust:
-    status: trusted
-    qa_version: trust-rework-2
-    confirmed_at: '2026-05-08T18:40:04Z'
-    confirmed_by: qa-laag1-auto
-    rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    status: unreviewed
+    confirmed_at:
+    confirmed_by:
+    rationale:
     layer1:
-      verdict: pass
+      status: pass
+      run_id: 20260511-083333
+      run_at:
       heading_count: 7
-      max_section_chars: 5346
-      file_size_chars: 10521
+      max_section_chars: 5188
+      file_size_chars: 10533
       flags: []
-      run_id: 20260509-212552
+    layer2:
+      status: not_run
+      agent:
+      run_at:
+      rationale:
+      concrete_problemen: []
 gerelateerde_adviezen:
-- titel: Bewaring van boeken en verantwoordingsstukken bij een geïnformatiseerde boekhouding
-  url: https://www.cbn-cnc.be/nl/adviezen/bewaring-van-boeken-en-verantwoordingsstukken-bij-een-geinformatiseerde-boekhouding
-  datum: '2016-09-28'
-- titel: Bewaring van de verantwoordingsstukken
-  url: https://www.cbn-cnc.be/nl/adviezen/bewaring-van-de-verantwoordingsstukken
-  datum: '1981-04-10'
+  - titel: Bewaring van boeken en verantwoordingsstukken bij een geïnformatiseerde boekhouding
+    url: https://www.cbn-cnc.be/nl/adviezen/bewaring-van-boeken-en-verantwoordingsstukken-bij-een-geinformatiseerde-boekhouding
+    datum: '2016-09-28'
+  - titel: Bewaring van de verantwoordingsstukken
+    url: https://www.cbn-cnc.be/nl/adviezen/bewaring-van-de-verantwoordingsstukken
+    datum: '1981-04-10'
 ---
 
 # CBN-advies 2010/14 - Bewaring van boeken en verantwoordingsstukken

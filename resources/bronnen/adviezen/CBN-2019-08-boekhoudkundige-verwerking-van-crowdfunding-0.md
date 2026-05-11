@@ -2,42 +2,48 @@
 nummer: CBN-advies 2019/08
 datum: 2019-07-31
 themas:
-- crowdfunding
-- publieksfinanciering
-- participatieve financiering
-- crowdinvesting
-- crowd sponsoring
-- invoice trading
-- factoring
-- profit-sharing
-- participatory notes
+  - crowdfunding
+  - publieksfinanciering
+  - participatieve financiering
+  - crowdinvesting
+  - crowd sponsoring
+  - invoice trading
+  - factoring
+  - profit-sharing
+  - participatory notes
 bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-crowdfunding-0
 provenance:
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-crowdfunding-0
-    sha256: 0619330477c4da91affa08f9ceff354dc4e9271cd86cf439ef6f1cc76ec4454e
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-crowdfunding-0
+      sha256: 0619330477c4da91affa08f9ceff354dc4e9271cd86cf439ef6f1cc76ec4454e
+      version:
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model: null
-    prompt_version: null
+    model:
+    prompt_version:
   generated_at: '2026-05-08T18:37:40Z'
   stale: false
-  stale_reason: null
+  stale_reason:
   trust:
-    status: trusted
-    qa_version: trust-rework-2
-    confirmed_at: '2026-05-08T18:40:05Z'
-    confirmed_by: qa-laag1-auto
-    rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    status: unreviewed
+    confirmed_at:
+    confirmed_by:
+    rationale:
     layer1:
-      verdict: pass
-      heading_count: 19
-      max_section_chars: 9816
-      file_size_chars: 31591
+      status: pass
+      run_id: 20260511-083333
+      run_at:
+      heading_count: 18
+      max_section_chars: 19981
+      file_size_chars: 31598
       flags: []
-      run_id: 20260509-212552
+    layer2:
+      status: not_run
+      agent:
+      run_at:
+      rationale:
+      concrete_problemen: []
 ---
 
 # CBN-advies 2019/08 –Boekhoudkundige verwerking van crowdfunding

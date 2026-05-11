@@ -2,44 +2,50 @@
 nummer: CBN-advies 2019/07
 datum: 2019-07-11
 themas:
-- obligatielening
-- obligaties
-- kosten bij uitgifte van leningen
-- agio
-- disagio
-- uitgifteprijs
-- onder pari
-- boven pari
-- oprichtingskosten
-- pari
-- uitgiftewaarde
+  - obligatielening
+  - obligaties
+  - kosten bij uitgifte van leningen
+  - agio
+  - disagio
+  - uitgifteprijs
+  - onder pari
+  - boven pari
+  - oprichtingskosten
+  - pari
+  - uitgiftewaarde
 bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-uitgifte-van-een-obligatielening
 provenance:
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-uitgifte-van-een-obligatielening
-    sha256: e202a1be947f8d1631a1dc4341ddb81214015a1152489e3dbfa7f684cda940ea
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-uitgifte-van-een-obligatielening
+      sha256: e202a1be947f8d1631a1dc4341ddb81214015a1152489e3dbfa7f684cda940ea
+      version:
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model: null
-    prompt_version: null
+    model:
+    prompt_version:
   generated_at: '2026-05-08T18:37:40Z'
   stale: false
-  stale_reason: null
+  stale_reason:
   trust:
-    status: trusted
-    qa_version: trust-rework-2
-    confirmed_at: '2026-05-08T18:40:05Z'
-    confirmed_by: qa-laag1-auto
-    rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    status: unreviewed
+    confirmed_at:
+    confirmed_by:
+    rationale:
     layer1:
-      verdict: pass
-      heading_count: 38
-      max_section_chars: 14074
-      file_size_chars: 23642
+      status: pass
+      run_id: 20260511-083333
+      run_at:
+      heading_count: 36
+      max_section_chars: 8025
+      file_size_chars: 23638
       flags: []
-      run_id: 20260509-212552
+    layer2:
+      status: not_run
+      agent:
+      run_at:
+      rationale:
+      concrete_problemen: []
 ---
 
 # CBN-advies 2019/07 – Boekhoudkundige verwerking van de uitgifte van een obligatielening

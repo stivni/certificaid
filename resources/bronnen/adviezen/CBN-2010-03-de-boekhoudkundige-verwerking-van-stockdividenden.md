@@ -2,42 +2,48 @@
 nummer: CBN-advies 2010/3
 datum: 2010-03-25
 themas:
-- bonusaandelen
-- dividenden
-- kapitaalverhoging
-- keuzedividend
-- stockdividend
+  - bonusaandelen
+  - dividenden
+  - kapitaalverhoging
+  - keuzedividend
+  - stockdividend
 bron: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-stockdividenden
 provenance:
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-stockdividenden
-    sha256: c15147cac20fa5f43b85a2ac282cdc0c16a2365199873b4b4135ab42e1634a48
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-stockdividenden
+      sha256: c15147cac20fa5f43b85a2ac282cdc0c16a2365199873b4b4135ab42e1634a48
+      version:
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model: null
-    prompt_version: null
+    model:
+    prompt_version:
   generated_at: '2026-05-08T18:35:57Z'
   stale: false
-  stale_reason: null
+  stale_reason:
   trust:
-    status: trusted
-    qa_version: trust-rework-2
-    confirmed_at: '2026-05-08T18:40:03Z'
-    confirmed_by: qa-laag1-auto
-    rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    status: unreviewed
+    confirmed_at:
+    confirmed_by:
+    rationale:
     layer1:
-      verdict: pass
+      status: pass
+      run_id: 20260511-083333
+      run_at:
       heading_count: 3
       max_section_chars: 4689
-      file_size_chars: 8128
+      file_size_chars: 8129
       flags: []
-      run_id: 20260509-212552
+    layer2:
+      status: not_run
+      agent:
+      run_at:
+      rationale:
+      concrete_problemen: []
 gerelateerde_adviezen:
-- titel: Boeking van bonusaandelen
-  url: https://www.cbn-cnc.be/nl/adviezen/boeking-van-bonusaandelen
-  datum: '1980-06-01'
+  - titel: Boeking van bonusaandelen
+    url: https://www.cbn-cnc.be/nl/adviezen/boeking-van-bonusaandelen
+    datum: '1980-06-01'
 ---
 
 # CBN-advies 2010/3 -De boekhoudkundige verwerking van stockdividenden Advies van 25 maart 2010

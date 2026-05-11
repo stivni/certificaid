@@ -1,56 +1,61 @@
 ---
-nummer: "CBN-advies 178/1"
-datum: 2002-05-02
-themas:
-  - vorderingsrecht
-  - certificaathouder
-  - certificaten
-  - certificatie van aandelen
-  - certificatieovereenkomst
-  - controle
-  - deelneming
-  - emittent
-  - financiële vaste activa
-  - geldbeleggingen
-  - inkomsten uit gecertificeerde effecten
 bron: https://www.cbn-cnc.be/nl/adviezen/advies-met-betrekking-tot-de-jaarrekeningrechtelijke-aspecten-van-de-certificatie-van
+datum: 2002-05-02
+gerelateerde_adviezen:
+- datum: '2019-03-29'
+  titel: 'Ziekenhuisfinanciering: de boekhoudkundige verwerking van het instandhoudingsforfait
+    en het strategisch forfait'
+  url: https://www.cbn-cnc.be/nl/adviezen/ziekenhuisfinanciering-de-boekhoudkundige-verwerking-van-het-instandhoudingsforfait-en-0
+- datum: '2000-05-01'
+  titel: Boekhoudkundige verwerking van de mini BEL-20
+  url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-mini-bel-20
+nummer: CBN-advies 178/1
 provenance:
+  generated_at: '2026-05-08T18:35:46Z'
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/advies-met-betrekking-tot-de-jaarrekeningrechtelijke-aspecten-van-de-certificatie-van
-      sha256: 04afdcb126a2343ef1d3e80d715762bcc4ec8a9373b222253ea9020277927ee1
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/advies-met-betrekking-tot-de-jaarrekeningrechtelijke-aspecten-van-de-certificatie-van
+    sha256: 04afdcb126a2343ef1d3e80d715762bcc4ec8a9373b222253ea9020277927ee1
+    version: null
+  stale: false
+  stale_reason: null
   tooling:
+    model: null
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:35:46Z'
-  stale: false
-  stale_reason:
+    prompt_version: null
   trust:
-    status: trusted
-    qa_version:
     confirmed_at: '2026-05-08T19:02:28Z'
     confirmed_by: subagent-laag2-ronde2
-    rationale: '[Laag-2-R2 2026-05-08] 10 headings, volledige inhoudelijke kern aanwezig: vijf verwerkingspunten volledig, IAS 39-verwijzingen, vier toepassingssituaties. Voetnootnummer in titeltekst is cosmetisch.'
     layer1:
-      verdict: warn
+      file_size_chars: 35763
+      flags: []
       heading_count: 10
-      max_section_chars: 26378
-      file_size_chars: 35761
-      flags:
-        - name: max_section_size
-          status: warn
-          detail: 'langste sectie op ##-niveau: 26378 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
-          samples: []
-      run_id: 20260509-212552
-gerelateerde_adviezen:
-  - titel: 'Ziekenhuisfinanciering: de boekhoudkundige verwerking van het instandhoudingsforfait en het strategisch forfait'
-    url: https://www.cbn-cnc.be/nl/adviezen/ziekenhuisfinanciering-de-boekhoudkundige-verwerking-van-het-instandhoudingsforfait-en-0
-    datum: '2019-03-29'
-  - titel: Boekhoudkundige verwerking van de mini BEL-20
-    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-mini-bel-20
-    datum: '2000-05-01'
+      max_section_chars: 17591
+      run_at: null
+      run_id: 20260511-083333
+      status: pass
+    layer2:
+      agent: subagent-laag2-ronde2
+      concrete_problemen: []
+      rationale: '[Laag-2-R2 2026-05-08] 10 headings, volledige inhoudelijke kern
+        aanwezig: vijf verwerkingspunten volledig, IAS 39-verwijzingen, vier toepassingssituaties.
+        Voetnootnummer in titeltekst is cosmetisch.'
+      run_at: '2026-05-08T19:02:28Z'
+      status: trusted
+    rationale: Laag-2 trusted door subagent-laag2-ronde2 (zie layer2.rationale)
+    status: trusted
+themas:
+- vorderingsrecht
+- certificaathouder
+- certificaten
+- certificatie van aandelen
+- certificatieovereenkomst
+- controle
+- deelneming
+- emittent
+- financiële vaste activa
+- geldbeleggingen
+- inkomsten uit gecertificeerde effecten
 ---
 
 # CBN-advies 178/1 - Advies met betrekking tot de jaarrekeningrechtelijke aspecten van de certificatie van aandelen van handelsvennootschappen1

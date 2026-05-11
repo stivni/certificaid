@@ -1,10 +1,10 @@
 ---
-tags: ["VIII", "2.5", "2.6"]
-itaa-lex-sectie: "VIII"
-wet: "Wetboek der Registratie-, Hypotheek- en Griffierechten — federaal"
-status: "beschikbaar"
-bijgewerkt: "01.04.2026"
-bron: "Fisconetplus.be (officieuze gecoördineerde versie)"
+tags: [VIII, '2.5', '2.6']
+itaa-lex-sectie: VIII
+wet: Wetboek der Registratie-, Hypotheek- en Griffierechten — federaal
+status: beschikbaar
+bijgewerkt: 01.04.2026
+bron: Fisconetplus.be (officieuze gecoördineerde versie)
 provenance:
   inputs:
     - id: resources/raw/wetteksten/Registratierechten-federaal.pdf
@@ -20,12 +20,13 @@ provenance:
   stale_reason:
   trust:
     status: unreviewed
-    qa_version:
     confirmed_at:
-    confirmed_by: default
+    confirmed_by:
     rationale:
     layer1:
-      verdict: warn
+      status: warn
+      run_id: 20260509-212552
+      run_at:
       heading_count: 524
       max_section_chars: 74658
       file_size_chars: 669434
@@ -41,27 +42,17 @@ provenance:
             - 'regel 132: Wordt, voor de toepassing van dit wetboek, met een aan een                        Po schorsende voorwaarde onderworpen h'
             - 'regel 188: De exequaturs der scheidsrechterlijke uitspraken en die der                            Le buitenslands gewezen rechterli'
             - 'regel 676: Het registratierecht op de openbare verkopingen van lichamelijke                      Le roerende goederen is een federa'
-      run_id: 20260509-212552
-    layer1_5_diff:
-      verdict: improvement
-      rationale: 'Auto-synthesized: ETL-fixes vandaag (NBSP, sub_strategy, justel-extractor, etc.) verbeteren bestaande versie.'
-      kritieke_observaties: []
-      auto: true
-      run_id: trust-finalize-1
-    layer2_content:
-      verdict: needs-rework
+    layer2:
+      status: needs-rework
+      agent:
+      run_at:
       rationale: Federale variant heeft naast max_section_size ook 3 kolom-bleed-patronen buiten tabellen. Risico op vermenging van tariefkolommen of footers in body.
-      problemen:
+      concrete_problemen:
         - 3 kolom-bleed-patronen buiten tabellen
         - max_section_size 74658 chars
-      sterkte:
-        - 524 headings gedetecteerd
-        - frontmatter compleet
-      auto: false
-      run_id: qa-batch-W2
 chunk:
   level: 6
-  type: "Art."
+  type: Art.
   sub_strategy:
 ---
 

@@ -1,14 +1,14 @@
 ---
-tags: ["VI.A", "2.4"]
-itaa-lex-sectie: "VI.A"
-wet: "Richtlijn 2008/9/EG van de Raad tot vaststelling van nadere voorschriften voor de in Richtlijn 2006/112/EG vastgestelde teruggaaf van btw aan belastingplichtigen die niet in de lidstaat van teruggaaf maar in een andere lidstaat gevestigd zijn"
-bron_rol: "itaa_lex"
-status: "beschikbaar"
-bijgewerkt: "01.10.2010"
-bron: "ejustice.just.fgov.be (gecoördineerde versie)"
+tags: [VI.A, '2.4']
+itaa-lex-sectie: VI.A
+wet: Richtlijn 2008/9/EG van de Raad tot vaststelling van nadere voorschriften voor de in Richtlijn 2006/112/EG vastgestelde teruggaaf van btw aan belastingplichtigen die niet in de lidstaat van teruggaaf maar in een andere lidstaat gevestigd zijn
+bron_rol: itaa_lex
+status: beschikbaar
+bijgewerkt: 01.10.2010
+bron: ejustice.just.fgov.be (gecoördineerde versie)
 chunk:
   level: 2
-  type: "Art."
+  type: Art.
   sub_strategy:
 provenance:
   inputs:
@@ -25,36 +25,23 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    qa_version: trust-rework-2
     confirmed_at: '2026-05-09T21:27:46Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: L1=pass
-    agent_verdict_at: '2026-05-09T21:27:46Z'
-    sample_pick: false
-    sample_reviewed_at:
-    sample_reviewed_by:
     layer1:
-      verdict: pass
+      status: pass
+      run_id: 20260509-212552
+      run_at:
       heading_count: 31
       max_section_chars: 4515
       file_size_chars: 25656
       flags: []
-      run_id: 20260509-212552
-    layer1_5_diff:
-      verdict: improvement
-      rationale: 'Auto-synthesized: ETL-fixes vandaag (NBSP, sub_strategy, justel-extractor, etc.) verbeteren bestaande versie.'
-      kritieke_observaties: []
-      auto: true
-      run_id: trust-finalize-1
-    layer2_content:
-      verdict: trusted
+    layer2:
+      status: trusted
+      agent:
+      run_at:
       rationale: Korte richtlijn (26KB), 31 artikelen op H2 zoals chunk.level=2. Frontmatter compleet, geen kolom-bleed, geen TOC-residu in body.
-      problemen: []
-      sterkte:
-        - Alle artikelen herkenbaar
-        - Schoon NL
-      auto: false
-      run_id: qa-batch-W1
+      concrete_problemen: []
 ---
 
 # Richtlijn 2008/9/EG van de Raad tot vaststelling van nadere voorschriften voor de in Richtlijn 2006/112/EG vastgestelde teruggaaf van btw aan belastingplichtigen die niet in de lidstaat van teruggaaf maar in een andere lidstaat gevestigd zijn

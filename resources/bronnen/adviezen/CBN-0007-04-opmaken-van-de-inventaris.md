@@ -1,51 +1,57 @@
 ---
-nummer: CBN-advies 7/4
-datum: 1981-12-01
-themas:
-- inventaris
-- jaarafsluiting
-- opmaak van de inventaris
 bron: https://www.cbn-cnc.be/nl/adviezen/opmaken-van-de-inventaris
+datum: 1981-12-01
+gerelateerde_adviezen:
+- datum: '2010-07-14'
+  titel: Duur van het boekjaar
+  url: https://www.cbn-cnc.be/nl/adviezen/duur-van-het-boekjaar
+- datum: '1997-02-01'
+  titel: Beginselen van een regelmatige boekhouding
+  url: https://www.cbn-cnc.be/nl/adviezen/beginselen-van-een-regelmatige-boekhouding
+- datum: '1996-11-01'
+  titel: Boeking en waardering van voorraden
+  url: https://www.cbn-cnc.be/nl/adviezen/boeking-en-waardering-van-voorraden
+- datum: '1977-12-01'
+  titel: Duur van het boekjaar
+  url: https://www.cbn-cnc.be/nl/adviezen/duur-van-het-boekjaar-0
+nummer: CBN-advies 7/4
 provenance:
+  generated_at: '2026-05-08T18:33:29Z'
   inputs:
   - id: https://www.cbn-cnc.be/nl/adviezen/opmaken-van-de-inventaris
     sha256: d6557b9b2f689f105306b8478a04372b0df6df19ebe1e71eddae39f4e8720efc
     version: null
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model: null
-    prompt_version: null
-  generated_at: '2026-05-08T18:33:29Z'
   stale: false
   stale_reason: null
+  tooling:
+    model: null
+    pipeline: tools/etl/scrape_cbn_advies.py
+    pipeline_version: uncommitted
+    prompt_version: null
   trust:
-    status: trusted
-    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T19:02:29Z'
     confirmed_by: subagent-laag2-ronde2
-    rationale: '[Laag-2-R2 2026-05-08] Volledig met drie categorieën ondernemingen,
-      timing fysieke opname vs. balansdatum helder behandeld.'
     layer1:
-      verdict: pass
-      heading_count: 0
-      max_section_chars: 6602
-      file_size_chars: 6602
+      file_size_chars: 6603
       flags: []
-      run_id: 20260509-212552
-gerelateerde_adviezen:
-- titel: Duur van het boekjaar
-  url: https://www.cbn-cnc.be/nl/adviezen/duur-van-het-boekjaar
-  datum: '2010-07-14'
-- titel: Beginselen van een regelmatige boekhouding
-  url: https://www.cbn-cnc.be/nl/adviezen/beginselen-van-een-regelmatige-boekhouding
-  datum: '1997-02-01'
-- titel: Boeking en waardering van voorraden
-  url: https://www.cbn-cnc.be/nl/adviezen/boeking-en-waardering-van-voorraden
-  datum: '1996-11-01'
-- titel: Duur van het boekjaar
-  url: https://www.cbn-cnc.be/nl/adviezen/duur-van-het-boekjaar-0
-  datum: '1977-12-01'
+      heading_count: 0
+      max_section_chars: 6603
+      run_at: null
+      run_id: 20260511-083333
+      status: pass
+    layer2:
+      agent: subagent-laag2-ronde2
+      concrete_problemen: []
+      rationale: '[Laag-2-R2 2026-05-08] Volledig met drie categorieën ondernemingen,
+        timing fysieke opname vs. balansdatum helder behandeld.'
+      run_at: '2026-05-08T19:02:29Z'
+      status: trusted
+    rationale: Laag-2 trusted door subagent-laag2-ronde2 (zie layer2.rationale)
+    status: trusted
+themas:
+- inventaris
+- jaarafsluiting
+- opmaak van de inventaris
 ---
 
 # CBN-advies 7-4 - Opmaken van de inventaris

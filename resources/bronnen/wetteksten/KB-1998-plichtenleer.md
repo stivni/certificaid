@@ -1,14 +1,14 @@
 ---
-tags: ["XXI", "4.0", "ethiek", "deontologie", "plichtenleer"]
-itaa-lex-sectie: "XXI"
-wet: "Koninklijk besluit van 1 maart 1998 tot vaststelling van het reglement van plichtenleer der accountants"
-bron_rol: "itaa_lex"
-status: "beschikbaar"
-bijgewerkt: "01.03.1998"
-bron: "www.ejustice.just.fgov.be (Justel change_lg.pl, legacy HTML — gecoördineerde versie)"
+tags: [XXI, '4.0', ethiek, deontologie, plichtenleer]
+itaa-lex-sectie: XXI
+wet: Koninklijk besluit van 1 maart 1998 tot vaststelling van het reglement van plichtenleer der accountants
+bron_rol: itaa_lex
+status: beschikbaar
+bijgewerkt: 01.03.1998
+bron: www.ejustice.just.fgov.be (Justel change_lg.pl, legacy HTML — gecoördineerde versie)
 chunk:
   level: 3
-  type: "Art."
+  type: Art.
   sub_strategy:
 provenance:
   inputs:
@@ -25,40 +25,26 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    qa_version: trust-rework-2
     confirmed_at: '2026-05-09T21:27:46Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: L1=pass
-    agent_verdict_at: '2026-05-09T21:27:46Z'
-    sample_pick: false
-    sample_reviewed_at:
-    sample_reviewed_by:
     layer1:
-      verdict: pass
+      status: pass
+      run_id: 20260509-212552
+      run_at:
       heading_count: 46
       max_section_chars: 1690
       file_size_chars: 23685
       flags: []
-      run_id: 20260509-212552
-    layer1_5_diff:
-      verdict: no_op
-      rationale: 'Auto-synthesized: nieuwe bron, geen HEAD-versie.'
-      kritieke_observaties: []
-      auto: true
-      run_id: trust-finalize-1
-    layer2_content:
-      verdict: trusted
+    layer2:
+      status: trusted
+      agent:
+      run_at:
       rationale: 'KB plichtenleer accountants, 34 artikelen. HTML-bron (Justel) — mooie heading-structuur (## hoofdstuk + ### Art. x. Voor de toepassing...) waarbij Art-nummer en eerste zin gecombineerd in heading. Geen kolom-bleed, schoon NL. Laag-1 QA pass alle checks.'
-      problemen:
+      concrete_problemen:
         - regel: 40
           type: other
           voorbeeld: '### Art. 1. Voor de toepassing van dit besluit wordt verstaan onder : — heading bevat eerste zin van body'
-      sterkte:
-        - HTML-extractie schoon
-        - Alle 12 hoofdstukken + 34 artikelen herkenbaar
-        - Volledig
-      auto: false
-      run_id: qa-batch-W1
 ---
 
 # Koninklijk besluit van 1 maart 1998 tot vaststelling van het reglement van plichtenleer der accountants

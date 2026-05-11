@@ -2,56 +2,61 @@
 nummer: CBN-advies 2024/01
 datum: 2024-01-17
 themas:
-- vermogensklem
-- vereniging
-- vzw
-- coöperatieve vennootschap
-- coöperatieve vennootschap erkend als sociale onderneming
-- sociale onderneming
-- staat van activa en passiva
-- nettoactief
-- onbeschikbare reserve
-- werkelijke waarde
-- continuïteit
-- juridische continuiteit
-- latente meerwaarde
-- herwaarderingsmeerwaarde
-- uitkering
-- aanzuiveren van verliezen
-- aanzuivering van verlies
-- omzetting
+  - vermogensklem
+  - vereniging
+  - vzw
+  - coöperatieve vennootschap
+  - coöperatieve vennootschap erkend als sociale onderneming
+  - sociale onderneming
+  - staat van activa en passiva
+  - nettoactief
+  - onbeschikbare reserve
+  - werkelijke waarde
+  - continuïteit
+  - juridische continuiteit
+  - latente meerwaarde
+  - herwaarderingsmeerwaarde
+  - uitkering
+  - aanzuiveren van verliezen
+  - aanzuivering van verlies
+  - omzetting
 bron: https://www.cbn-cnc.be/nl/adviezen/vermogensklem-bij-de-omzetting-van-een-vzw-in-een-cooperatieve-vennootschap-erkend-als-0
 provenance:
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/vermogensklem-bij-de-omzetting-van-een-vzw-in-een-cooperatieve-vennootschap-erkend-als-0
-    sha256: 5575df12a9bbe6f93803184ffd4066df548821de9ef02f078e4c552989ee70d5
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/vermogensklem-bij-de-omzetting-van-een-vzw-in-een-cooperatieve-vennootschap-erkend-als-0
+      sha256: 5575df12a9bbe6f93803184ffd4066df548821de9ef02f078e4c552989ee70d5
+      version:
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model: null
-    prompt_version: null
+    model:
+    prompt_version:
   generated_at: '2026-05-08T18:38:18Z'
   stale: false
-  stale_reason: null
+  stale_reason:
   trust:
-    status: trusted
-    qa_version: trust-rework-2
-    confirmed_at: '2026-05-08T18:40:05Z'
-    confirmed_by: qa-laag1-auto
-    rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    status: unreviewed
+    confirmed_at:
+    confirmed_by:
+    rationale:
     layer1:
-      verdict: pass
+      status: pass
+      run_id: 20260511-083333
+      run_at:
       heading_count: 7
-      max_section_chars: 17347
-      file_size_chars: 22978
+      max_section_chars: 12031
+      file_size_chars: 22983
       flags: []
-      run_id: 20260509-212552
+    layer2:
+      status: not_run
+      agent:
+      run_at:
+      rationale:
+      concrete_problemen: []
 gerelateerde_adviezen:
-- titel: Vermogensklem bij de omzetting van een VZW in een coöperatieve vennootschap
-    erkend als sociale onderneming
-  url: https://www.cbn-cnc.be/nl/adviezen/vermogensklem-bij-de-omzetting-van-een-vzw-in-een-cooperatieve-vennootschap-erkend-als
-  datum: '2021-05-07'
+  - titel: Vermogensklem bij de omzetting van een VZW in een coöperatieve vennootschap erkend als sociale onderneming
+    url: https://www.cbn-cnc.be/nl/adviezen/vermogensklem-bij-de-omzetting-van-een-vzw-in-een-cooperatieve-vennootschap-erkend-als
+    datum: '2021-05-07'
 ---
 
 # CBN-advies 2024/01 – Vermogensklem bij de omzetting van een VZW in een coöperatieve vennootschap erkend als sociale onderneming

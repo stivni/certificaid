@@ -2,44 +2,49 @@
 nummer: CBN-advies 2013/6
 datum: 2013-03-06
 themas:
-- bedrijfsbelastingen
-- interne pensioenvoorziening
-- pensioenvoorzieningen
+  - bedrijfsbelastingen
+  - interne pensioenvoorziening
+  - pensioenvoorzieningen
 bron: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-afzonderlijke-aanslag-op-interne
 provenance:
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-afzonderlijke-aanslag-op-interne
-    sha256: b4049ba8b65296af7fe55261e3f7301d271578a23683196b0b39b803b32f232b
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-afzonderlijke-aanslag-op-interne
+      sha256: b4049ba8b65296af7fe55261e3f7301d271578a23683196b0b39b803b32f232b
+      version:
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model: null
-    prompt_version: null
+    model:
+    prompt_version:
   generated_at: '2026-05-08T18:36:37Z'
   stale: false
-  stale_reason: null
+  stale_reason:
   trust:
-    status: trusted
-    qa_version: trust-rework-2
-    confirmed_at: '2026-05-08T18:40:04Z'
-    confirmed_by: qa-laag1-auto
-    rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    status: unreviewed
+    confirmed_at:
+    confirmed_by:
+    rationale:
     layer1:
-      verdict: pass
-      heading_count: 1
-      max_section_chars: 2570
-      file_size_chars: 3431
+      status: pass
+      run_id: 20260511-083333
+      run_at:
+      heading_count: 0
+      max_section_chars: 3434
+      file_size_chars: 3434
       flags: []
-      run_id: 20260509-212552
+    layer2:
+      status: not_run
+      agent:
+      run_at:
+      rationale:
+      concrete_problemen: []
 gerelateerde_adviezen:
-- titel: Boekhoudkundige verwerking van de taks tot vergoeding der successierechten
-  url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-taks-tot-vergoeding-der-successierechten
-  datum: '2024-05-22'
-- titel: Verwerking in de jaarrekening van de door de Vlaamse regering gecreëerde
-    opleidingscheques
-  url: https://www.cbn-cnc.be/nl/adviezen/verwerking-in-de-jaarrekening-van-de-door-de-vlaamse-regering-gecreeerde-opleidingscheques
-  datum: '2008-12-01'
+  - titel: Boekhoudkundige verwerking van de taks tot vergoeding der successierechten
+    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-taks-tot-vergoeding-der-successierechten
+    datum: '2024-05-22'
+  - titel: Verwerking in de jaarrekening van de door de Vlaamse regering gecreëerde opleidingscheques
+    url: https://www.cbn-cnc.be/nl/adviezen/verwerking-in-de-jaarrekening-van-de-door-de-vlaamse-regering-gecreeerde-opleidingscheques
+    datum: '2008-12-01'
 ---
 
 # CBN-advies 2013/6 – De boekhoudkundige verwerking van de afzonderlijke aanslag op interne pensioenvoorzieningen

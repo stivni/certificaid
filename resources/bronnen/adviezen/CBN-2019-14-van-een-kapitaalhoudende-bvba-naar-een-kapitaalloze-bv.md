@@ -2,45 +2,51 @@
 nummer: CBN-advies 2019/14
 datum: 2019-11-13
 themas:
-- besloten vennootschap
-- kapitaal
-- inbreng
-- inbreng buiten kapitaal
-- beschikbare inbreng buiten kapitaal
-- onbeschikbare inbreng buiten kapitaal
-- statutair onbeschikbare eigen vermogensrekening
-- externe inbreng
-- interne inbreng
-- omvorming kapitaal
-- wettelijke reserve
-- opt-in
+  - besloten vennootschap
+  - kapitaal
+  - inbreng
+  - inbreng buiten kapitaal
+  - beschikbare inbreng buiten kapitaal
+  - onbeschikbare inbreng buiten kapitaal
+  - statutair onbeschikbare eigen vermogensrekening
+  - externe inbreng
+  - interne inbreng
+  - omvorming kapitaal
+  - wettelijke reserve
+  - opt-in
 bron: https://www.cbn-cnc.be/nl/adviezen/van-een-kapitaalhoudende-bvba-naar-een-kapitaalloze-bv
 provenance:
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/van-een-kapitaalhoudende-bvba-naar-een-kapitaalloze-bv
-    sha256: 317be01978f6d7661cb8f62f4084a59221307bf02a12f6e9eea3814bb9fe71ad
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/van-een-kapitaalhoudende-bvba-naar-een-kapitaalloze-bv
+      sha256: 317be01978f6d7661cb8f62f4084a59221307bf02a12f6e9eea3814bb9fe71ad
+      version:
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model: null
-    prompt_version: null
+    model:
+    prompt_version:
   generated_at: '2026-05-08T18:37:44Z'
   stale: false
-  stale_reason: null
+  stale_reason:
   trust:
-    status: trusted
-    qa_version: trust-rework-2
-    confirmed_at: '2026-05-08T18:40:05Z'
-    confirmed_by: qa-laag1-auto
-    rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    status: unreviewed
+    confirmed_at:
+    confirmed_by:
+    rationale:
     layer1:
-      verdict: pass
-      heading_count: 13
-      max_section_chars: 8897
-      file_size_chars: 13844
+      status: pass
+      run_id: 20260511-083333
+      run_at:
+      heading_count: 7
+      max_section_chars: 5784
+      file_size_chars: 13835
       flags: []
-      run_id: 20260509-212552
+    layer2:
+      status: not_run
+      agent:
+      run_at:
+      rationale:
+      concrete_problemen: []
 ---
 
 # CBN-advies 2019/14 – Van een kapitaalhoudende BVBA naar een kapitaalloze BV

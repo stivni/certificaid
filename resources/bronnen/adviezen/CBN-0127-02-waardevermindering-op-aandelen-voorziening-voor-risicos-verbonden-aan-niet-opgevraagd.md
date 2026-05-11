@@ -2,52 +2,58 @@
 nummer: CBN-advies 127/2
 datum: 1993-12-01
 themas:
-- aandelen
-- niet-opgevraagd gedeelte van aandelen
-- niet-opgevraagd gedeelte van deelnemingen
-- voorziening
-- voorzieningen voor risico&#039;s en kosten
-- Waardevermindering
+  - aandelen
+  - niet-opgevraagd gedeelte van aandelen
+  - niet-opgevraagd gedeelte van deelnemingen
+  - voorziening
+  - voorzieningen voor risico&#039;s en kosten
+  - Waardevermindering
 bron: https://www.cbn-cnc.be/nl/adviezen/waardevermindering-op-aandelen-voorziening-voor-risicos-verbonden-aan-niet-opgevraagd
 provenance:
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/waardevermindering-op-aandelen-voorziening-voor-risicos-verbonden-aan-niet-opgevraagd
-    sha256: dd176ad07335dc8869f9254b82ab3b39e8c35527699586e1bdfa3e7620dc91e6
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/waardevermindering-op-aandelen-voorziening-voor-risicos-verbonden-aan-niet-opgevraagd
+      sha256: dd176ad07335dc8869f9254b82ab3b39e8c35527699586e1bdfa3e7620dc91e6
+      version:
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model: null
-    prompt_version: null
+    model:
+    prompt_version:
   generated_at: '2026-05-08T18:34:44Z'
   stale: false
-  stale_reason: null
+  stale_reason:
   trust:
-    status: trusted
-    qa_version: trust-rework-2
-    confirmed_at: '2026-05-08T18:40:03Z'
-    confirmed_by: qa-laag1-auto
-    rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    status: unreviewed
+    confirmed_at:
+    confirmed_by:
+    rationale:
     layer1:
-      verdict: pass
+      status: pass
+      run_id: 20260511-083333
+      run_at:
       heading_count: 0
-      max_section_chars: 2722
-      file_size_chars: 2722
+      max_section_chars: 2723
+      file_size_chars: 2723
       flags: []
-      run_id: 20260509-212552
+    layer2:
+      status: not_run
+      agent:
+      run_at:
+      rationale:
+      concrete_problemen: []
 gerelateerde_adviezen:
-- titel: Terugbetaling van kapitaal in vreemde valuta aan de aandeelhouders
-  url: https://www.cbn-cnc.be/nl/adviezen/terugbetaling-van-kapitaal-in-vreemde-valuta-aan-de-aandeelhouders
-  datum: '2024-03-13'
-- titel: Dividenduitkering en kapitaalvermindering in natura
-  url: https://www.cbn-cnc.be/nl/adviezen/dividenduitkering-en-kapitaalvermindering-in-natura-0
-  datum: '2019-03-12'
-- titel: 'Verenigingen en stichtingen: certificatie van aandelen van handelsvennootschappen'
-  url: https://www.cbn-cnc.be/nl/adviezen/verenigingen-en-stichtingen-certificatie-van-aandelen-van-handelsvennootschappen
-  datum: '2016-09-07'
-- titel: Verrichtingen met betrekking tot inschrijvingsrechten
-  url: https://www.cbn-cnc.be/nl/adviezen/verrichtingen-met-betrekking-tot-inschrijvingsrechten
-  datum: '2016-03-09'
+  - titel: Terugbetaling van kapitaal in vreemde valuta aan de aandeelhouders
+    url: https://www.cbn-cnc.be/nl/adviezen/terugbetaling-van-kapitaal-in-vreemde-valuta-aan-de-aandeelhouders
+    datum: '2024-03-13'
+  - titel: Dividenduitkering en kapitaalvermindering in natura
+    url: https://www.cbn-cnc.be/nl/adviezen/dividenduitkering-en-kapitaalvermindering-in-natura-0
+    datum: '2019-03-12'
+  - titel: 'Verenigingen en stichtingen: certificatie van aandelen van handelsvennootschappen'
+    url: https://www.cbn-cnc.be/nl/adviezen/verenigingen-en-stichtingen-certificatie-van-aandelen-van-handelsvennootschappen
+    datum: '2016-09-07'
+  - titel: Verrichtingen met betrekking tot inschrijvingsrechten
+    url: https://www.cbn-cnc.be/nl/adviezen/verrichtingen-met-betrekking-tot-inschrijvingsrechten
+    datum: '2016-03-09'
 ---
 
 # CBN-advies 127/2 - Waardevermindering op aandelen - Voorziening voor risico's verbonden aan niet-opgevraagd gedeelte

@@ -1,10 +1,10 @@
 ---
 tags: [norm, itaa, deontologie, plichtenleer, ethiek]
-naam: "Reglement van plichtenleer ITAA (Deontologische code)"
+naam: Reglement van plichtenleer ITAA (Deontologische code)
 datum:
 type: norm
-itaa-lex-sectie: "XXI"
-toepassingsgebied: "Alle ITAA-leden (gecertificeerde accountants, gecertificeerde belastingadviseurs, stagiairs) — deontologische verplichtingen en gedragscode"
+itaa-lex-sectie: XXI
+toepassingsgebied: Alle ITAA-leden (gecertificeerde accountants, gecertificeerde belastingadviseurs, stagiairs) — deontologische verplichtingen en gedragscode
 themas:
   - deontologie
   - plichtenleer
@@ -35,12 +35,13 @@ provenance:
   stale_reason:
   trust:
     status: unreviewed
-    qa_version:
     confirmed_at:
     confirmed_by:
     rationale:
     layer1:
-      verdict: warn
+      status: warn
+      run_id: 20260511-085756
+      run_at: '2026-05-11T08:57:56Z'
       heading_count: 3
       max_section_chars: 395
       file_size_chars: 1149
@@ -49,7 +50,12 @@ provenance:
           status: warn
           detail: provenance.inputs is leeg
           samples: []
-      run_id: 20260509-172914
+    layer2:
+      status: not_run
+      agent:
+      run_at:
+      rationale:
+      concrete_problemen: []
 ---
 
 ⚠️ **Placeholder — inhoud ontbreekt. Dit bestand mag NIET worden gevuld met een zelf geconstrueerde samenvatting.**

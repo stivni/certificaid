@@ -2,43 +2,49 @@
 nummer: CBN-advies 2016/21
 datum: 2016-09-28
 themas:
-- actualisatie
-- gerealiseerde meerwaarde
-- kapitaalsubsidie
-- latente belastingen
-- uitgestelde belastingen
-- verdiscontering
-- belastingvrije reserves
-- opeisbaarheid van belastingen
-- getrouw beeld
-- voorziening
+  - actualisatie
+  - gerealiseerde meerwaarde
+  - kapitaalsubsidie
+  - latente belastingen
+  - uitgestelde belastingen
+  - verdiscontering
+  - belastingvrije reserves
+  - opeisbaarheid van belastingen
+  - getrouw beeld
+  - voorziening
 bron: https://www.cbn-cnc.be/nl/adviezen/actualisatie-van-uitgestelde-belastingen-update
 provenance:
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/actualisatie-van-uitgestelde-belastingen-update
-    sha256: 06f83943967c5156ac3f0fd9e5a8010d8afed43963a2eb67364d2ad85afabfe2
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/actualisatie-van-uitgestelde-belastingen-update
+      sha256: 06f83943967c5156ac3f0fd9e5a8010d8afed43963a2eb67364d2ad85afabfe2
+      version:
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model: null
-    prompt_version: null
+    model:
+    prompt_version:
   generated_at: '2026-05-08T18:37:05Z'
   stale: false
-  stale_reason: null
+  stale_reason:
   trust:
-    status: trusted
-    qa_version: trust-rework-2
-    confirmed_at: '2026-05-08T18:40:04Z'
-    confirmed_by: qa-laag1-auto
-    rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    status: unreviewed
+    confirmed_at:
+    confirmed_by:
+    rationale:
     layer1:
-      verdict: pass
+      status: pass
+      run_id: 20260511-083333
+      run_at:
       heading_count: 0
-      max_section_chars: 4562
-      file_size_chars: 4562
+      max_section_chars: 4564
+      file_size_chars: 4564
       flags: []
-      run_id: 20260509-212552
+    layer2:
+      status: not_run
+      agent:
+      run_at:
+      rationale:
+      concrete_problemen: []
 ---
 
 # CBN-advies 2016/21 – Actualisatie van uitgestelde belastingen (update)

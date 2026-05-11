@@ -1,43 +1,47 @@
 ---
-nummer: "CBN-advies 2021/14"
-datum: 2021-10-12
-themas:
-  - alarmbelprocedure
-  - nettoactief
-  - gecorrigeerd nettoactief
-  - uitkeerbare winst
-  - continuïteit
 bron: https://www.cbn-cnc.be/nl/adviezen/jaarrekeningrechtelijke-analyse-van-de-alarmbelprocedure-onder-het-wvv
+datum: 2021-10-12
+nummer: CBN-advies 2021/14
 provenance:
+  generated_at: '2026-05-08T18:38:03Z'
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/jaarrekeningrechtelijke-analyse-van-de-alarmbelprocedure-onder-het-wvv
-      sha256: ce291b71d6d5e3716d3c3fadf7736b5975e0e1eb86e9958eeefb190e5b556f84
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/jaarrekeningrechtelijke-analyse-van-de-alarmbelprocedure-onder-het-wvv
+    sha256: ce291b71d6d5e3716d3c3fadf7736b5975e0e1eb86e9958eeefb190e5b556f84
+    version: null
+  stale: false
+  stale_reason: null
   tooling:
+    model: null
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:38:03Z'
-  stale: false
-  stale_reason:
+    prompt_version: null
   trust:
-    status: trusted
-    qa_version:
     confirmed_at: '2026-05-08T19:02:28Z'
     confirmed_by: subagent-laag2-ronde2
-    rationale: '[Laag-2-R2 2026-05-08] 17 headings, 65 voetnoten, twee concrete balanstabellen als Markdown-tabellen. De langste sectie (24.478 chars) valt net boven de drempel maar bevat de volledige kern. RAG-ready.'
     layer1:
-      verdict: warn
+      file_size_chars: 39633
+      flags: []
       heading_count: 17
-      max_section_chars: 24470
-      file_size_chars: 39611
-      flags:
-        - name: max_section_size
-          status: warn
-          detail: 'langste sectie op ##-niveau: 24470 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
-          samples: []
-      run_id: 20260509-212552
+      max_section_chars: 21054
+      run_at: null
+      run_id: 20260511-083333
+      status: pass
+    layer2:
+      agent: subagent-laag2-ronde2
+      concrete_problemen: []
+      rationale: '[Laag-2-R2 2026-05-08] 17 headings, 65 voetnoten, twee concrete
+        balanstabellen als Markdown-tabellen. De langste sectie (24.478 chars) valt
+        net boven de drempel maar bevat de volledige kern. RAG-ready.'
+      run_at: '2026-05-08T19:02:28Z'
+      status: trusted
+    rationale: Laag-2 trusted door subagent-laag2-ronde2 (zie layer2.rationale)
+    status: trusted
+themas:
+- alarmbelprocedure
+- nettoactief
+- gecorrigeerd nettoactief
+- uitkeerbare winst
+- continuïteit
 ---
 
 # CBN-advies 2021/14 – Jaarrekeningrechtelijke analyse van de alarmbelprocedure onder het WVV

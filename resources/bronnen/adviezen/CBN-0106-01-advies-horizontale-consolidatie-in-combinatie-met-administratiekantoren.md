@@ -1,6 +1,54 @@
 ---
-nummer: CBN-advies C106/1
+bron: https://www.cbn-cnc.be/nl/adviezen/advies-horizontale-consolidatie-in-combinatie-met-administratiekantoren
 datum: 2008-10-29
+gerelateerde_adviezen:
+- datum: '2022-07-27'
+  titel: Consolidatie bij de horizontale groep (consortium)
+  url: https://www.cbn-cnc.be/nl/adviezen/consolidatie-bij-de-horizontale-groep-consortium-0
+- datum: '2017-03-15'
+  titel: Consolidatie bij de horizontale groep (consortium)
+  url: https://www.cbn-cnc.be/nl/adviezen/consolidatie-bij-de-horizontale-groep-consortium
+- datum: '2017-01-11'
+  titel: 'Consortium: lidmaatschapsrechten (artikel 1401, 5 BW)'
+  url: https://www.cbn-cnc.be/nl/adviezen/consortium-lidmaatschapsrechten-artikel-1401-5-bw
+- datum: '2017-05-31'
+  titel: Definiëring van EBIT / EBITDA na omzetting van de accountingrichtlijn 2013/34/EU
+  url: https://www.cbn-cnc.be/nl/adviezen/definiering-van-ebit-ebitda-na-omzetting-van-de-accountingrichtlijn-201334eu
+nummer: CBN-advies C106/1
+provenance:
+  generated_at: '2026-05-08T18:33:51Z'
+  inputs:
+  - id: https://www.cbn-cnc.be/nl/adviezen/advies-horizontale-consolidatie-in-combinatie-met-administratiekantoren
+    sha256: be916b2cd3a4b916c2cbea83965e47a2df06dfe3f31e8059d892d882558f4fbe
+    version: null
+  stale: false
+  stale_reason: null
+  tooling:
+    model: null
+    pipeline: tools/etl/scrape_cbn_advies.py
+    pipeline_version: uncommitted
+    prompt_version: null
+  trust:
+    confirmed_at: '2026-05-08T19:02:28Z'
+    confirmed_by: subagent-laag2-ronde2
+    layer1:
+      file_size_chars: 9084
+      flags: []
+      heading_count: 0
+      max_section_chars: 9084
+      run_at: null
+      run_id: 20260511-083333
+      status: pass
+    layer2:
+      agent: subagent-laag2-ronde2
+      concrete_problemen: []
+      rationale: '[Laag-2-R2 2026-05-08] Volledig met concrete casus (drie holdings,
+        AK-structuur, echtlieden P en Q). Twee juridische benaderingen volledig uitgewerkt
+        met conclusie.'
+      run_at: '2026-05-08T19:02:28Z'
+      status: trusted
+    rationale: Laag-2 trusted door subagent-laag2-ronde2 (zie layer2.rationale)
+    status: trusted
 themas:
 - centrale leiding
 - certificaten
@@ -9,48 +57,6 @@ themas:
 - geconsolideerde jaarrekening
 - administratiekantoor
 - horizontale consolidatie
-bron: https://www.cbn-cnc.be/nl/adviezen/advies-horizontale-consolidatie-in-combinatie-met-administratiekantoren
-provenance:
-  inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/advies-horizontale-consolidatie-in-combinatie-met-administratiekantoren
-    sha256: be916b2cd3a4b916c2cbea83965e47a2df06dfe3f31e8059d892d882558f4fbe
-    version: null
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model: null
-    prompt_version: null
-  generated_at: '2026-05-08T18:33:51Z'
-  stale: false
-  stale_reason: null
-  trust:
-    status: trusted
-    qa_version: trust-rework-2
-    confirmed_at: '2026-05-08T19:02:28Z'
-    confirmed_by: subagent-laag2-ronde2
-    rationale: '[Laag-2-R2 2026-05-08] Volledig met concrete casus (drie holdings,
-      AK-structuur, echtlieden P en Q). Twee juridische benaderingen volledig uitgewerkt
-      met conclusie.'
-    layer1:
-      verdict: pass
-      heading_count: 0
-      max_section_chars: 9080
-      file_size_chars: 9080
-      flags: []
-      run_id: 20260509-212552
-gerelateerde_adviezen:
-- titel: Consolidatie bij de horizontale groep (consortium)
-  url: https://www.cbn-cnc.be/nl/adviezen/consolidatie-bij-de-horizontale-groep-consortium-0
-  datum: '2022-07-27'
-- titel: Consolidatie bij de horizontale groep (consortium)
-  url: https://www.cbn-cnc.be/nl/adviezen/consolidatie-bij-de-horizontale-groep-consortium
-  datum: '2017-03-15'
-- titel: 'Consortium: lidmaatschapsrechten (artikel 1401, 5 BW)'
-  url: https://www.cbn-cnc.be/nl/adviezen/consortium-lidmaatschapsrechten-artikel-1401-5-bw
-  datum: '2017-01-11'
-- titel: Definiëring van EBIT / EBITDA na omzetting van de accountingrichtlijn 2013/34/EU
-  url: https://www.cbn-cnc.be/nl/adviezen/definiering-van-ebit-ebitda-na-omzetting-van-de-accountingrichtlijn-201334eu
-  datum: '2017-05-31'
 ---
 
 # CBN-advies C106/1 - Advies horizontale consolidatie in combinatie met administratiekantoren

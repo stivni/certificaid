@@ -2,43 +2,49 @@
 nummer: CBN-advies 120/1
 datum: 1980-01-01
 themas:
-- beschikbare waarden
-- financiële instelling
-- liquide middelen
-- thesauriebelegging
-- transacties met dochterondernemingen
-- verbonden onderneming
+  - beschikbare waarden
+  - financiële instelling
+  - liquide middelen
+  - thesauriebelegging
+  - transacties met dochterondernemingen
+  - verbonden onderneming
 bron: https://www.cbn-cnc.be/nl/adviezen/het-begrip-financiele-instelling
 provenance:
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/het-begrip-financiele-instelling
-    sha256: 09569e50a30a303b5f3b13e0c117da75f86383378989d1d5c821ee201bdbf17c
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/het-begrip-financiele-instelling
+      sha256: 09569e50a30a303b5f3b13e0c117da75f86383378989d1d5c821ee201bdbf17c
+      version:
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model: null
-    prompt_version: null
+    model:
+    prompt_version:
   generated_at: '2026-05-08T18:34:26Z'
   stale: false
-  stale_reason: null
+  stale_reason:
   trust:
-    status: trusted
-    qa_version: trust-rework-2
-    confirmed_at: '2026-05-08T18:40:02Z'
-    confirmed_by: qa-laag1-auto
-    rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    status: unreviewed
+    confirmed_at:
+    confirmed_by:
+    rationale:
     layer1:
-      verdict: pass
+      status: pass
+      run_id: 20260511-083333
+      run_at:
       heading_count: 0
-      max_section_chars: 2613
-      file_size_chars: 2613
+      max_section_chars: 2615
+      file_size_chars: 2615
       flags: []
-      run_id: 20260509-212552
+    layer2:
+      status: not_run
+      agent:
+      run_at:
+      rationale:
+      concrete_problemen: []
 gerelateerde_adviezen:
-- titel: In aanmerking te nemen termijn - Contractuele termijn of nog te lopen termijn
-  url: https://www.cbn-cnc.be/nl/adviezen/in-aanmerking-te-nemen-termijn-contractuele-termijn-of-nog-te-lopen-termijn
-  datum: '1980-01-01'
+  - titel: In aanmerking te nemen termijn - Contractuele termijn of nog te lopen termijn
+    url: https://www.cbn-cnc.be/nl/adviezen/in-aanmerking-te-nemen-termijn-contractuele-termijn-of-nog-te-lopen-termijn
+    datum: '1980-01-01'
 ---
 
 # CBN-advies 120/1 - Het begrip "financiële instelling"

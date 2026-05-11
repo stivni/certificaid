@@ -2,41 +2,45 @@
 nummer: CBN-advies 110/9
 datum: 1989-09-01
 themas:
-- balanscentrale
-- omvang van de bedrijven
-- openbaarmaking
-- publicatie
-- schema van de jaarrekening
-- standaardformulier
+  - balanscentrale
+  - omvang van de bedrijven
+  - openbaarmaking
+  - publicatie
+  - schema van de jaarrekening
+  - standaardformulier
 bron: https://www.cbn-cnc.be/nl/adviezen/jaarrekening-schema-van-de-balanscentrale-omvang-van-de-bedrijven
 provenance:
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/jaarrekening-schema-van-de-balanscentrale-omvang-van-de-bedrijven
-    sha256: c8fd688b587bbb38aadcd62f198584a390974665316dacb04cd02b303c0aa7e5
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/jaarrekening-schema-van-de-balanscentrale-omvang-van-de-bedrijven
+      sha256: c8fd688b587bbb38aadcd62f198584a390974665316dacb04cd02b303c0aa7e5
+      version:
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model: null
-    prompt_version: null
+    model:
+    prompt_version:
   generated_at: '2026-05-08T21:30:00Z'
   stale: false
-  stale_reason: null
+  stale_reason:
   trust:
     status: trusted
-    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T21:31:11Z'
     confirmed_by: human
-    rationale: 'Herscraped na fix select_title(): gecombineerde H1 (COMMISSIE + titel)
-      correct gesplitst. Inhoud ongewijzigd t.o.v. vorig vertrouwd verdict. Laag 1
-      pass (of benign max_section warn).'
+    rationale: 'Herscraped na fix select_title(): gecombineerde H1 (COMMISSIE + titel) correct gesplitst. Inhoud ongewijzigd t.o.v. vorig vertrouwd verdict. Laag 1 pass (of benign max_section warn).'
     layer1:
-      verdict: pass
+      status: pass
+      run_id: 20260511-083333
+      run_at:
       heading_count: 0
-      max_section_chars: 4928
-      file_size_chars: 4928
+      max_section_chars: 4929
+      file_size_chars: 4929
       flags: []
-      run_id: 20260509-212552
+    layer2:
+      status: not_run
+      agent:
+      run_at:
+      rationale:
+      concrete_problemen: []
 ---
 
 # CBN-advies 110/9 - Jaarrekening - Schema van de Balanscentrale - Omvang van de bedrijven1

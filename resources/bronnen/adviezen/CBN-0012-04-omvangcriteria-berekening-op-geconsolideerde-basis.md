@@ -1,50 +1,56 @@
 ---
-nummer: CBN-advies 12/4
-datum: 1985-04-01
-themas:
-- omvangcriteria
 bron: https://www.cbn-cnc.be/nl/adviezen/omvangcriteria-berekening-op-geconsolideerde-basis
+datum: 1985-04-01
+gerelateerde_adviezen:
+- datum: '1986-07-01'
+  titel: Condominium
+  url: https://www.cbn-cnc.be/nl/adviezen/condominium
+- datum: '1986-01-01'
+  titel: Over het begrip verbonden onderneming
+  url: https://www.cbn-cnc.be/nl/adviezen/over-het-begrip-verbonden-onderneming
+- datum: '1979-05-01'
+  titel: Toepassingsgebied van de uitvoeringsbesluiten - Gemiddeld aantal jaarlijks
+    tewerkgestelde personen
+  url: https://www.cbn-cnc.be/nl/adviezen/toepassingsgebied-van-de-uitvoeringsbesluiten-gemiddeld-aantal-jaarlijks-tewerkgestelde
+- datum: '1998-06-01'
+  titel: Effect in de tijd van de verlaging van de vrijstellingscriteria
+  url: https://www.cbn-cnc.be/nl/adviezen/effect-in-de-tijd-van-de-verlaging-van-de-vrijstellingscriteria
+nummer: CBN-advies 12/4
 provenance:
+  generated_at: '2026-05-08T18:33:32Z'
   inputs:
   - id: https://www.cbn-cnc.be/nl/adviezen/omvangcriteria-berekening-op-geconsolideerde-basis
     sha256: 5423d4abd1986e840ece123e53d1deb40b5f016942649440833c0e9be91328be
     version: null
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model: null
-    prompt_version: null
-  generated_at: '2026-05-08T18:33:32Z'
   stale: false
   stale_reason: null
+  tooling:
+    model: null
+    pipeline: tools/etl/scrape_cbn_advies.py
+    pipeline_version: uncommitted
+    prompt_version: null
   trust:
-    status: trusted
-    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T19:02:29Z'
     confirmed_by: subagent-laag2-ronde2
-    rationale: '[Laag-2-R2 2026-05-08] Volledig met expliciete verouderdheidsmelding
-      — inhoud compleet, geen stille misleiding.'
     layer1:
-      verdict: pass
-      heading_count: 0
-      max_section_chars: 6811
-      file_size_chars: 6811
+      file_size_chars: 6814
       flags: []
-      run_id: 20260509-212552
-gerelateerde_adviezen:
-- titel: Condominium
-  url: https://www.cbn-cnc.be/nl/adviezen/condominium
-  datum: '1986-07-01'
-- titel: Over het begrip verbonden onderneming
-  url: https://www.cbn-cnc.be/nl/adviezen/over-het-begrip-verbonden-onderneming
-  datum: '1986-01-01'
-- titel: Toepassingsgebied van de uitvoeringsbesluiten - Gemiddeld aantal jaarlijks
-    tewerkgestelde personen
-  url: https://www.cbn-cnc.be/nl/adviezen/toepassingsgebied-van-de-uitvoeringsbesluiten-gemiddeld-aantal-jaarlijks-tewerkgestelde
-  datum: '1979-05-01'
-- titel: Effect in de tijd van de verlaging van de vrijstellingscriteria
-  url: https://www.cbn-cnc.be/nl/adviezen/effect-in-de-tijd-van-de-verlaging-van-de-vrijstellingscriteria
-  datum: '1998-06-01'
+      heading_count: 0
+      max_section_chars: 6814
+      run_at: null
+      run_id: 20260511-083333
+      status: pass
+    layer2:
+      agent: subagent-laag2-ronde2
+      concrete_problemen: []
+      rationale: '[Laag-2-R2 2026-05-08] Volledig met expliciete verouderdheidsmelding
+        — inhoud compleet, geen stille misleiding.'
+      run_at: '2026-05-08T19:02:29Z'
+      status: trusted
+    rationale: Laag-2 trusted door subagent-laag2-ronde2 (zie layer2.rationale)
+    status: trusted
+themas:
+- omvangcriteria
 ---
 
 # CBN-advies 12-4 - Omvangcriteria ‐ Berekening op geconsolideerde basis

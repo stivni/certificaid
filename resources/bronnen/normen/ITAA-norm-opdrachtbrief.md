@@ -2,10 +2,10 @@
 tags:
   - norm
   - itaa
-naam: "Nota Opdrachtbrief — Aanbeveling inzake de opdrachtbrief"
+naam: Nota Opdrachtbrief — Aanbeveling inzake de opdrachtbrief
 type: norm
-itaa-lex-sectie: "XXI"
-toepassingsgebied: "Alle ITAA-leden bij aanvang van elke opdracht (wettelijke verplichting)"
+itaa-lex-sectie: XXI
+toepassingsgebied: Alle ITAA-leden bij aanvang van elke opdracht (wettelijke verplichting)
 themas:
   - opdrachtbrief
   - opdrachtenrecht
@@ -33,43 +33,29 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    qa_version: trust-rework-2
     confirmed_at: '2026-05-09T21:27:46Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: L1=pass
-    agent_verdict_at: '2026-05-09T21:27:46Z'
-    sample_pick: false
-    sample_reviewed_at:
-    sample_reviewed_by:
     layer1:
-      verdict: pass
+      status: pass
+      run_id: 20260511-085756
+      run_at: '2026-05-11T08:57:57Z'
       heading_count: 18
       max_section_chars: 5311
       file_size_chars: 24353
       flags: []
-      run_id: 20260509-212552
-    layer1_5_diff:
-      verdict: improvement
-      rationale: 'Auto-synthesized: ETL-fixes vandaag (NBSP, sub_strategy, justel-extractor, etc.) verbeteren bestaande versie.'
-      kritieke_observaties: []
-      auto: true
-      run_id: trust-finalize-1
-    layer2_content:
-      verdict: trusted
+    layer2:
+      status: trusted
+      agent:
+      run_at:
       rationale: "Twee-deel norm-nota: deel 1 'Wettelijke verplichting' met secties 1-4, deel 2 'Enkele inhoudelijke aspecten van de opdrachtbrief' met secties 1-9. Hierdoor 2x duplicate ## nummers maar elk binnen eigen logische groep — interpretatief leesbaar. Geen kolom-bleed, geen OCR-fouten van betekenis. Page-footers (1, 2, 3) als losse regels — minor cosmetisch."
-      problemen:
+      concrete_problemen:
         - regel: 252
           type: other
           voorbeeld: "'## 1. Algemeen' (deel 2) duplicaat van L60 — kan retrieval verwarren maar inhoudelijk twee aparte 'Algemeen'-secties"
         - regel: 105
           type: other
           voorbeeld: Page-footers '1', '2', '3' als losse regels embedded in body
-      sterkte:
-        - Beide delen volledig met alle secties (1-4 + 1-9)
-        - Inhoudelijk-praktische voorbeelden over GDPR, antiwitwas, opdrachtbrief-clausules
-        - Frontmatter met opdrachtbrief-thema's correct
-      auto: false
-      run_id: qa-batch-normen
 ---
     OPDRACHTBRIEF
 

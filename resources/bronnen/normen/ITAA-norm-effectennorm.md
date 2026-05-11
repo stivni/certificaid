@@ -2,17 +2,17 @@
 tags:
   - norm
   - itaa
-naam: "Effectennorm — Norm beoordeling financiële en boekhoudkundige gegevens (nog niet in werking)"
+naam: Effectennorm — Norm beoordeling financiële en boekhoudkundige gegevens (nog niet in werking)
 datum: 2026-03-31
 type: norm
-itaa-lex-sectie: "XXI"
-toepassingsgebied: "ITAA-leden bij opdracht tot beoordeling van getrouwheid financiële gegevens"
+itaa-lex-sectie: XXI
+toepassingsgebied: ITAA-leden bij opdracht tot beoordeling van getrouwheid financiële gegevens
 themas:
   - effectennorm
   - beoordeling
   - financiële gegevens
   - assurance
-opmerking: "⚠️ Nog niet in werking per 2026-04-21"
+opmerking: ⚠️ Nog niet in werking per 2026-04-21
 bron: beexcellentnl.itaa.be
 bron_rol: interpretatief
 chunk:
@@ -33,32 +33,31 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    qa_version: trust-rework-2
-    confirmed_at: '2026-05-09T21:27:46Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: L1=pass
-    agent_verdict_at: '2026-05-09T21:27:46Z'
-    sample_pick: false
-    sample_reviewed_at:
-    sample_reviewed_by:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by:
+    rationale:
     layer1:
-      verdict: pass
-      heading_count: 67
-      max_section_chars: 5813
-      file_size_chars: 69523
-      flags: []
-      run_id: 20260509-212552
-    layer1_5_diff:
-      verdict: improvement
-      rationale: 'Auto-synthesized: ETL-fixes vandaag (NBSP, sub_strategy, justel-extractor, etc.) verbeteren bestaande versie.'
-      kritieke_observaties: []
-      auto: true
-      run_id: trust-finalize-1
-    layer2_content:
-      verdict: needs-rework
+      status: warn
+      run_id: 20260511-085756
+      run_at: '2026-05-11T08:57:56Z'
+      heading_count: 40
+      max_section_chars: 10703
+      file_size_chars: 112654
+      flags:
+        - name: no_toc_dots
+          status: warn
+          detail: 31 TOC-stippen-regel(s) gevonden
+          samples:
+            - '................................................................................'
+            - "........................................................................ 6\n"
+            - '................................................................................'
+    layer2:
+      status: needs-rework
+      agent:
+      run_at:
       rationale: "Tweekoloms-extract met ernstige column-bleed: 22 keer 'VEREISTEN TOEPASSINGSMODALITEITEN' als ## heading (kolomheader gepromoveerd). Veel compound headings ('## II. Algemene bepalingen die van toepassing zijn op alle verrichtingen II.1. Deontologische beginselen VEREISTEN TOEPASSINGSMODALITEITEN'). Bijlage 1 (vennootschapsvorm-tabel) is gefragmenteerd in 6+ ## stukjes ('Verrichtingen Vennootschapsvorm BV CV NV', 'Uitgifte van nieuwe', 'Bijkomende' — tabel-cellen als headings)."
-      problemen:
+      concrete_problemen:
         - regel: 140
           type: column-bleed
           voorbeeld: "'## VEREISTEN TOEPASSINGSMODALITEITEN' herhaald als ## heading (22x)"
@@ -71,11 +70,6 @@ provenance:
         - regel: 42
           type: scrambled-words
           voorbeeld: "'Norm inzake... wordt' splitst over 5 alinea's met blanco regels in titel"
-      sterkte:
-        - 'Belangrijkste hoofdsecties (I-V, plus deelsecties III.1.x en III.2.x) wel als ## aanwezig'
-        - Beoordelingsverslag-sectie (V.1, V.2) en bijlage-modellen aanwezig
-      auto: false
-      run_id: qa-batch-normen
 ---
 
 Norm inzake de opdracht van de 

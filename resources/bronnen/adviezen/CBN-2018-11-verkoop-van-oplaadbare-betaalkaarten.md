@@ -2,38 +2,44 @@
 nummer: CBN-advies 2018/11
 datum: 2018-05-30
 themas:
-- betaalkaart
-- oplaadbare betaalkaart
-- tegoedbon
-- tegoedkaart
-- cadeaubon
+  - betaalkaart
+  - oplaadbare betaalkaart
+  - tegoedbon
+  - tegoedkaart
+  - cadeaubon
 bron: https://www.cbn-cnc.be/nl/adviezen/verkoop-van-oplaadbare-betaalkaarten
 provenance:
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/verkoop-van-oplaadbare-betaalkaarten
-    sha256: f053794d73bf6c56003c22777a980d226e59c1ca1a3b1e51e0f0b1075766901f
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/verkoop-van-oplaadbare-betaalkaarten
+      sha256: f053794d73bf6c56003c22777a980d226e59c1ca1a3b1e51e0f0b1075766901f
+      version:
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model: null
-    prompt_version: null
+    model:
+    prompt_version:
   generated_at: '2026-05-08T18:37:22Z'
   stale: false
-  stale_reason: null
+  stale_reason:
   trust:
-    status: trusted
-    qa_version: trust-rework-2
-    confirmed_at: '2026-05-08T18:40:04Z'
-    confirmed_by: qa-laag1-auto
-    rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    status: unreviewed
+    confirmed_at:
+    confirmed_by:
+    rationale:
     layer1:
-      verdict: pass
-      heading_count: 6
-      max_section_chars: 4093
-      file_size_chars: 8103
+      status: pass
+      run_id: 20260511-083333
+      run_at:
+      heading_count: 3
+      max_section_chars: 5614
+      file_size_chars: 8108
       flags: []
-      run_id: 20260509-212552
+    layer2:
+      status: not_run
+      agent:
+      run_at:
+      rationale:
+      concrete_problemen: []
 ---
 
 # CBN-advies 2018/11 – Verkoop van (oplaadbare) betaalkaarten

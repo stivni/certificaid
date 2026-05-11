@@ -2,44 +2,50 @@
 nummer: CBN-advies 4/1
 datum: 1977-08-01
 themas:
-- boeken
+  - boeken
 bron: https://www.cbn-cnc.be/nl/adviezen/vermeldingen-in-het-centralisatieboek
 provenance:
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/vermeldingen-in-het-centralisatieboek
-    sha256: 8a7a28268d29da0fe3a1111a6ecb81357935da4c8cf8d0c1e63356b3cc2e3153
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/vermeldingen-in-het-centralisatieboek
+      sha256: 8a7a28268d29da0fe3a1111a6ecb81357935da4c8cf8d0c1e63356b3cc2e3153
+      version:
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model: null
-    prompt_version: null
+    model:
+    prompt_version:
   generated_at: '2026-05-08T18:33:24Z'
   stale: false
-  stale_reason: null
+  stale_reason:
   trust:
-    status: trusted
-    qa_version: trust-rework-2
-    confirmed_at: '2026-05-08T18:40:02Z'
-    confirmed_by: qa-laag1-auto
-    rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    status: unreviewed
+    confirmed_at:
+    confirmed_by:
+    rationale:
     layer1:
-      verdict: pass
+      status: pass
+      run_id: 20260511-083333
+      run_at:
       heading_count: 0
-      max_section_chars: 2830
-      file_size_chars: 2830
+      max_section_chars: 2831
+      file_size_chars: 2831
       flags: []
-      run_id: 20260509-212552
+    layer2:
+      status: not_run
+      agent:
+      run_at:
+      rationale:
+      concrete_problemen: []
 gerelateerde_adviezen:
-- titel: Bewaring van de boeken en verantwoordingsstukken
-  url: https://www.cbn-cnc.be/nl/adviezen/bewaring-van-de-boeken-en-verantwoordingsstukken
-  datum: '2011-10-05'
-- titel: Bewaring van boeken en verantwoordingsstukken
-  url: https://www.cbn-cnc.be/nl/adviezen/bewaring-van-boeken-en-verantwoordingsstukken
-  datum: '2010-09-24'
-- titel: Over het centraal boek
-  url: https://www.cbn-cnc.be/nl/adviezen/over-het-centraal-boek
-  datum: '1981-04-01'
+  - titel: Bewaring van de boeken en verantwoordingsstukken
+    url: https://www.cbn-cnc.be/nl/adviezen/bewaring-van-de-boeken-en-verantwoordingsstukken
+    datum: '2011-10-05'
+  - titel: Bewaring van boeken en verantwoordingsstukken
+    url: https://www.cbn-cnc.be/nl/adviezen/bewaring-van-boeken-en-verantwoordingsstukken
+    datum: '2010-09-24'
+  - titel: Over het centraal boek
+    url: https://www.cbn-cnc.be/nl/adviezen/over-het-centraal-boek
+    datum: '1981-04-01'
 ---
 
 # CBN-advies 4-1 - Vermeldingen in het centralisatieboek

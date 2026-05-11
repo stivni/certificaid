@@ -1,6 +1,40 @@
 ---
-nummer: CBN-advies 160/1
+bron: https://www.cbn-cnc.be/nl/adviezen/toepassing-van-artikel-40-van-het-koninklijk-besluit-van-8-oktober-1976-op-de-jaarrekening
 datum: 1990-06-01
+nummer: CBN-advies 160/1
+provenance:
+  generated_at: '2026-05-08T18:35:29Z'
+  inputs:
+  - id: https://www.cbn-cnc.be/nl/adviezen/toepassing-van-artikel-40-van-het-koninklijk-besluit-van-8-oktober-1976-op-de-jaarrekening
+    sha256: fb1a7021e967635895c9d63ac483f514e73f7b784a0799efbf1c74354591140d
+    version: null
+  stale: false
+  stale_reason: null
+  tooling:
+    model: null
+    pipeline: tools/etl/scrape_cbn_advies.py
+    pipeline_version: uncommitted
+    prompt_version: null
+  trust:
+    confirmed_at: '2026-05-08T19:02:29Z'
+    confirmed_by: subagent-laag2-ronde2
+    layer1:
+      file_size_chars: 6300
+      flags: []
+      heading_count: 0
+      max_section_chars: 6300
+      run_at: null
+      run_id: 20260511-083333
+      status: pass
+    layer2:
+      agent: subagent-laag2-ronde2
+      concrete_problemen: []
+      rationale: '[Laag-2-R2 2026-05-08] Volledig met historische ontwikkeling art.
+        40 en praktische conclusie.'
+      run_at: '2026-05-08T19:02:29Z'
+      status: trusted
+    rationale: Laag-2 trusted door subagent-laag2-ronde2 (zie layer2.rationale)
+    status: trusted
 themas:
 - aanvullende afschrijving
 - afschrijvingen
@@ -17,34 +51,6 @@ themas:
 - waardering tegen realisatiewaarde
 - waarderingsregels
 - Waardevermindering
-bron: https://www.cbn-cnc.be/nl/adviezen/toepassing-van-artikel-40-van-het-koninklijk-besluit-van-8-oktober-1976-op-de-jaarrekening
-provenance:
-  inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/toepassing-van-artikel-40-van-het-koninklijk-besluit-van-8-oktober-1976-op-de-jaarrekening
-    sha256: fb1a7021e967635895c9d63ac483f514e73f7b784a0799efbf1c74354591140d
-    version: null
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model: null
-    prompt_version: null
-  generated_at: '2026-05-08T18:35:29Z'
-  stale: false
-  stale_reason: null
-  trust:
-    status: trusted
-    qa_version: trust-rework-2
-    confirmed_at: '2026-05-08T19:02:29Z'
-    confirmed_by: subagent-laag2-ronde2
-    rationale: '[Laag-2-R2 2026-05-08] Volledig met historische ontwikkeling art.
-      40 en praktische conclusie.'
-    layer1:
-      verdict: pass
-      heading_count: 0
-      max_section_chars: 6299
-      file_size_chars: 6299
-      flags: []
-      run_id: 20260509-212552
 ---
 
 # CBN-advies 160/1 - Toepassing van artikel 40 van het Koninklijk Besluit van 8 oktober 1976 op de jaarrekening van de ondernemingen

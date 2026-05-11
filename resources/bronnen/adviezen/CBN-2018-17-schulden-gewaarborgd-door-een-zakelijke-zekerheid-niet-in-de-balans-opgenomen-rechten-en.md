@@ -1,6 +1,53 @@
 ---
-nummer: CBN-advies 2018/17
+bron: https://www.cbn-cnc.be/nl/adviezen/schulden-gewaarborgd-door-een-zakelijke-zekerheid-niet-in-de-balans-opgenomen-rechten-en
 datum: 2018-11-16
+gerelateerde_adviezen:
+- datum: '1991-03-01'
+  titel: Verwerking van verrichtingen voor de verwerving of verkoop van een recht
+    op vruchtgebruik of van naakte eigendom op materiële vaste activa in de boekhouding
+    van de vruchtgebruiker (de erfpachter, de opstalhouder) en van de naakte eigenaar
+    (de grondeigenaa
+  url: https://www.cbn-cnc.be/nl/adviezen/verwerking-van-verrichtingen-voor-de-verwerving-of-verkoop-van-een-recht-op-vruchtgebruik
+nummer: CBN-advies 2018/17
+provenance:
+  generated_at: '2026-05-08T18:37:27Z'
+  inputs:
+  - id: https://www.cbn-cnc.be/nl/adviezen/schulden-gewaarborgd-door-een-zakelijke-zekerheid-niet-in-de-balans-opgenomen-rechten-en
+    sha256: 84aa2320b4231304ec94ca9ec3cb7b1c27ff343e76901d581e87eb837894b6b8
+    version: null
+  stale: false
+  stale_reason: null
+  tooling:
+    model: null
+    pipeline: tools/etl/scrape_cbn_advies.py
+    pipeline_version: uncommitted
+    prompt_version: null
+  trust:
+    confirmed_at: '2026-05-08T19:02:28Z'
+    confirmed_by: subagent-laag2-ronde2
+    layer1:
+      file_size_chars: 52446
+      flags:
+      - detail: 'langste sectie op ##-niveau: 30190 chars (>24000); chunker splitst
+          auto op alinea-grenzen via split_long_chunk'
+        name: max_section_size
+        samples: []
+        status: warn
+      heading_count: 17
+      max_section_chars: 30190
+      run_at: null
+      run_id: 20260511-083333
+      status: warn
+    layer2:
+      agent: subagent-laag2-ronde2
+      concrete_problemen: []
+      rationale: '[Laag-2-R2 2026-05-08] Het advies heeft 17 headings en is volledig
+        aanwezig. De langste sectie omvat de uitgebreide samenvattende tabellen in
+        de bijlagen. Journaalpost-voorbeeld correct als Markdown-tabel.'
+      run_at: '2026-05-08T19:02:28Z'
+      status: trusted
+    rationale: Laag-2 trusted door subagent-laag2-ronde2 (zie layer2.rationale)
+    status: trusted
 themas:
 - zakelijk recht
 - niet in de balans opgenomen rechten en verplichtingen
@@ -22,42 +69,6 @@ themas:
 - pandrecht op nog te verwerven activa
 - pandrecht op activa
 - voorrecht van de verkoper
-bron: https://www.cbn-cnc.be/nl/adviezen/schulden-gewaarborgd-door-een-zakelijke-zekerheid-niet-in-de-balans-opgenomen-rechten-en
-provenance:
-  inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/schulden-gewaarborgd-door-een-zakelijke-zekerheid-niet-in-de-balans-opgenomen-rechten-en
-    sha256: 84aa2320b4231304ec94ca9ec3cb7b1c27ff343e76901d581e87eb837894b6b8
-    version: null
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model: null
-    prompt_version: null
-  generated_at: '2026-05-08T18:37:27Z'
-  stale: false
-  stale_reason: null
-  trust:
-    status: trusted
-    qa_version: trust-rework-2
-    confirmed_at: '2026-05-08T19:02:28Z'
-    confirmed_by: subagent-laag2-ronde2
-    rationale: '[Laag-2-R2 2026-05-08] Het advies heeft 17 headings en is volledig
-      aanwezig. De langste sectie omvat de uitgebreide samenvattende tabellen in de
-      bijlagen. Journaalpost-voorbeeld correct als Markdown-tabel.'
-    layer1:
-      verdict: pass
-      heading_count: 31
-      max_section_chars: 19030
-      file_size_chars: 52440
-      flags: []
-      run_id: 20260509-212552
-gerelateerde_adviezen:
-- titel: Verwerking van verrichtingen voor de verwerving of verkoop van een recht
-    op vruchtgebruik of van naakte eigendom op materiële vaste activa in de boekhouding
-    van de vruchtgebruiker (de erfpachter, de opstalhouder) en van de naakte eigenaar
-    (de grondeigenaa
-  url: https://www.cbn-cnc.be/nl/adviezen/verwerking-van-verrichtingen-voor-de-verwerving-of-verkoop-van-een-recht-op-vruchtgebruik
-  datum: '1991-03-01'
 ---
 
 # CBN-advies 2018/17 – Schulden gewaarborgd door een zakelijke zekerheid – Niet in de balans opgenomen rechten en verplichtingen

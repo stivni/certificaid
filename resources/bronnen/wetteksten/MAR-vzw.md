@@ -1,14 +1,34 @@
 ---
-tags: ["1.1", "1.2"]
-itaa-lex-sectie: ""
-wet: "Minimum Algemeen Rekeningstelsel voor verenigingen en stichtingen (MAR VZW)"
-status: "beschikbaar"
-bijgewerkt: "2023"
-bron: "sbb.be / CBN-CNC"
+tags: ['1.1', '1.2']
+itaa-lex-sectie: ''
+wet: Minimum Algemeen Rekeningstelsel voor verenigingen en stichtingen (MAR VZW)
+status: beschikbaar
+bijgewerkt: '2023'
+bron: sbb.be / CBN-CNC
 chunk:
   level: 2
-  type: "Art."
-  sub_strategy: null
+  type: Art.
+  sub_strategy:
+provenance:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by:
+    rationale:
+    layer1:
+      status: not_run
+      run_id:
+      run_at:
+      heading_count:
+      max_section_chars:
+      file_size_chars:
+      flags: []
+    layer2:
+      status: not_run
+      agent:
+      run_at:
+      rationale:
+      concrete_problemen: []
 ---
 
 # MAR — Minimum Algemeen Rekeningstelsel voor verenigingen en stichtingen

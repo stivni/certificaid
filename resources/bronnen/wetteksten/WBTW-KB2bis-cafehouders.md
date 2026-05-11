@@ -1,14 +1,14 @@
 ---
-tags: ["VI.B", "2.4"]
-itaa-lex-sectie: "VI.B"
-wet: "K.B. nr. 2bis, 15 mei 2022, tot vaststelling van de forfaitaire grondslagen van aanslag voor caféhouders"
-bron_rol: "itaa_lex"
-status: "beschikbaar"
-bijgewerkt: "2022"
-bron: "Fisconetplus.be (officieuze gecoördineerde versie)"
+tags: [VI.B, '2.4']
+itaa-lex-sectie: VI.B
+wet: K.B. nr. 2bis, 15 mei 2022, tot vaststelling van de forfaitaire grondslagen van aanslag voor caféhouders
+bron_rol: itaa_lex
+status: beschikbaar
+bijgewerkt: '2022'
+bron: Fisconetplus.be (officieuze gecoördineerde versie)
 chunk:
   level: 4
-  type: "Art."
+  type: Art.
   sub_strategy:
 provenance:
   inputs:
@@ -25,37 +25,23 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    qa_version: trust-rework-2
     confirmed_at: '2026-05-09T21:27:46Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: "L1=pass; L1.5=improvement (Auto-synthesized: heading-injection (inject_wbtw_headings.py) — staging is structureel beter dan resources-versie.); L2=trusted (ETL-fix toegepast: inject_wbtw_headings.py heeft TOC-strip + Artikel-N → ## Art. heading-injectie + AFDELING-normalisatie uitgevoerd. Eerdere needs-rework op 'missing-section' opgeheven.)"
-    agent_verdict_at: '2026-05-09T21:27:46Z'
-    sample_pick: false
-    sample_reviewed_at:
-    sample_reviewed_by:
     layer1:
-      verdict: pass
+      status: pass
+      run_id: 20260509-212552
+      run_at:
       heading_count: 56
       max_section_chars: 2438
       file_size_chars: 21326
       flags: []
-      run_id: 20260509-212552
-    layer1_5_diff:
-      verdict: improvement
-      rationale: 'Auto-synthesized: heading-injection (inject_wbtw_headings.py) — staging is structureel beter dan resources-versie.'
-      kritieke_observaties: []
-      auto: true
-      run_id: trust-rework-2
-    layer2_content:
-      verdict: trusted
+    layer2:
+      status: trusted
+      agent:
+      run_at:
       rationale: "Modern PDF-extract met 56 headings (38× #### Art.). Frontmatter consistent, body eindigt op Art. N5 met 'Beeld niet opgenomen' — inherent aan de bron, niet een ETL-fout. Kleine cosmetische extras (KB-modifications inline) maar structuur klopt."
-      problemen: []
-      sterkte:
-        - '38 #### Art-headings → goede chunking'
-        - Frontmatter en body kloppen onderling
-        - Compleet tot slot-artikel
-      auto: false
-      run_id: qa-batch-W3
+      concrete_problemen: []
 ---
 
 # BTW KB nr. 2bis — Forfaitaire grondslagen caféhouders

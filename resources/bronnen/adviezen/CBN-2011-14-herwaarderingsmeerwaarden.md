@@ -1,66 +1,73 @@
 ---
-nummer: "CBN-advies 2011/14"
-datum: 2011-07-06
-themas:
-  - aanzuivering van verlies
-  - actiefgebonden rentabiliteitsvoorwaarde
-  - afschrijving van geherwaardeerde activa
-  - correcties op herwaarderingen
-  - financiële vaste activa
-  - herwaardering
-  - herwaarderingsmeerwaarde
-  - kapitaal
-  - materiële vaste activa
-  - omzetting herwaarderingsmeerwaarde in kapitaal
-  - realisatie van geherwaardeerde activa
-  - reële waarde
-  - rentabiliteitsvoorwaarde
-  - terugname afschrijvingen
-  - terugneming van waardeverminderingen
 bron: https://www.cbn-cnc.be/nl/adviezen/herwaarderingsmeerwaarden
+datum: 2011-07-06
+gerelateerde_adviezen:
+- datum: '2024-01-17'
+  titel: Vermogensklem bij de omzetting van een VZW in een coöperatieve vennootschap
+    erkend als sociale onderneming
+  url: https://www.cbn-cnc.be/nl/adviezen/vermogensklem-bij-de-omzetting-van-een-vzw-in-een-cooperatieve-vennootschap-erkend-als-0
+- datum: '2021-08-20'
+  titel: 'Herwaarderingsmeerwaarden bij vennootschappen: gevolgen van de wijzigingen
+    aangebracht door het WVV en KB WVV'
+  url: https://www.cbn-cnc.be/nl/adviezen/herwaarderingsmeerwaarden-bij-vennootschappen-gevolgen-van-de-wijzigingen-aangebracht-door
+- datum: '2016-09-07'
+  titel: 'Herwaarderingsmeerwaarden: gevolgen van de wijzigingen aan artikel 57 KB
+    W.Venn. door het koninklijk besluit van 18 december 2015'
+  url: https://www.cbn-cnc.be/nl/adviezen/herwaarderingsmeerwaarden-gevolgen-van-de-wijzigingen-aan-artikel-57-kb-wvenn-door-het
+- datum: '2009-03-11'
+  titel: De rentabiliteitsvoorwaarde bij herwaarderingsmeerwaarden
+  url: https://www.cbn-cnc.be/nl/adviezen/de-rentabiliteitsvoorwaarde-bij-herwaarderingsmeerwaarden
+nummer: CBN-advies 2011/14
 provenance:
+  generated_at: '2026-05-08T18:36:14Z'
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/herwaarderingsmeerwaarden
-      sha256: e23beb51f09bf7badebca573fe28d0c78b67196e7d54283c81a3e6579e66b094
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/herwaarderingsmeerwaarden
+    sha256: e23beb51f09bf7badebca573fe28d0c78b67196e7d54283c81a3e6579e66b094
+    version: null
+  stale: false
+  stale_reason: null
   tooling:
+    model: null
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:36:14Z'
-  stale: false
-  stale_reason:
+    prompt_version: null
   trust:
-    status: trusted
-    qa_version:
     confirmed_at: '2026-05-08T19:02:28Z'
     confirmed_by: subagent-laag2-ronde2
-    rationale: '[Laag-2-R2 2026-05-08] Het advies heeft 22 headings en behandelt uitgebreid herwaarderingsmeerwaarden en terugneming van waardeverminderingen. Inhoudelijk volledig.'
     layer1:
-      verdict: warn
-      heading_count: 24
-      max_section_chars: 25292
-      file_size_chars: 52389
-      flags:
-        - name: max_section_size
-          status: warn
-          detail: 'langste sectie op ##-niveau: 25292 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
-          samples: []
-      run_id: 20260509-212552
-gerelateerde_adviezen:
-  - titel: Vermogensklem bij de omzetting van een VZW in een coöperatieve vennootschap erkend als sociale onderneming
-    url: https://www.cbn-cnc.be/nl/adviezen/vermogensklem-bij-de-omzetting-van-een-vzw-in-een-cooperatieve-vennootschap-erkend-als-0
-    datum: '2024-01-17'
-  - titel: 'Herwaarderingsmeerwaarden bij vennootschappen: gevolgen van de wijzigingen aangebracht door het WVV en KB WVV'
-    url: https://www.cbn-cnc.be/nl/adviezen/herwaarderingsmeerwaarden-bij-vennootschappen-gevolgen-van-de-wijzigingen-aangebracht-door
-    datum: '2021-08-20'
-  - titel: 'Herwaarderingsmeerwaarden: gevolgen van de wijzigingen aan artikel 57 KB W.Venn. door het koninklijk besluit van 18 december 2015'
-    url: https://www.cbn-cnc.be/nl/adviezen/herwaarderingsmeerwaarden-gevolgen-van-de-wijzigingen-aan-artikel-57-kb-wvenn-door-het
-    datum: '2016-09-07'
-  - titel: De rentabiliteitsvoorwaarde bij herwaarderingsmeerwaarden
-    url: https://www.cbn-cnc.be/nl/adviezen/de-rentabiliteitsvoorwaarde-bij-herwaarderingsmeerwaarden
-    datum: '2009-03-11'
+      file_size_chars: 52387
+      flags: []
+      heading_count: 22
+      max_section_chars: 19429
+      run_at: null
+      run_id: 20260511-083333
+      status: pass
+    layer2:
+      agent: subagent-laag2-ronde2
+      concrete_problemen: []
+      rationale: '[Laag-2-R2 2026-05-08] Het advies heeft 22 headings en behandelt
+        uitgebreid herwaarderingsmeerwaarden en terugneming van waardeverminderingen.
+        Inhoudelijk volledig.'
+      run_at: '2026-05-08T19:02:28Z'
+      status: trusted
+    rationale: Laag-2 trusted door subagent-laag2-ronde2 (zie layer2.rationale)
+    status: trusted
+themas:
+- aanzuivering van verlies
+- actiefgebonden rentabiliteitsvoorwaarde
+- afschrijving van geherwaardeerde activa
+- correcties op herwaarderingen
+- financiële vaste activa
+- herwaardering
+- herwaarderingsmeerwaarde
+- kapitaal
+- materiële vaste activa
+- omzetting herwaarderingsmeerwaarde in kapitaal
+- realisatie van geherwaardeerde activa
+- reële waarde
+- rentabiliteitsvoorwaarde
+- terugname afschrijvingen
+- terugneming van waardeverminderingen
 ---
 
 # CBN-advies 2011/14 - Herwaarderingsmeerwaarden

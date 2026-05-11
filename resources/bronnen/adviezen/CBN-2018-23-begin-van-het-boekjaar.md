@@ -2,58 +2,64 @@
 nummer: CBN-advies 2018/23
 datum: 2018-12-07
 themas:
-- boekjaar
-- begin van het boekjaar
-- aanvangsdatum
-- herstructurering
-- fusie
-- splitsing
-- oprichting
-- oprichtingsakte
-- vennootschap in oprichting
-- promotor
-- Inbreng van een algemeenheid
-- periodiciteit
+  - boekjaar
+  - begin van het boekjaar
+  - aanvangsdatum
+  - herstructurering
+  - fusie
+  - splitsing
+  - oprichting
+  - oprichtingsakte
+  - vennootschap in oprichting
+  - promotor
+  - Inbreng van een algemeenheid
+  - periodiciteit
 bron: https://www.cbn-cnc.be/nl/adviezen/begin-van-het-boekjaar
 provenance:
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/begin-van-het-boekjaar
-    sha256: b442dbac8ff7b7731072ff57be43236eeeae2d8e535166126b18c96d96018a75
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/begin-van-het-boekjaar
+      sha256: b442dbac8ff7b7731072ff57be43236eeeae2d8e535166126b18c96d96018a75
+      version:
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model: null
-    prompt_version: null
+    model:
+    prompt_version:
   generated_at: '2026-05-08T18:37:31Z'
   stale: false
-  stale_reason: null
+  stale_reason:
   trust:
-    status: trusted
-    qa_version: trust-rework-2
-    confirmed_at: '2026-05-08T18:40:05Z'
-    confirmed_by: qa-laag1-auto
-    rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    status: unreviewed
+    confirmed_at:
+    confirmed_by:
+    rationale:
     layer1:
-      verdict: pass
+      status: pass
+      run_id: 20260511-083333
+      run_at:
       heading_count: 8
-      max_section_chars: 13333
-      file_size_chars: 28448
+      max_section_chars: 13209
+      file_size_chars: 28458
       flags: []
-      run_id: 20260509-212552
+    layer2:
+      status: not_run
+      agent:
+      run_at:
+      rationale:
+      concrete_problemen: []
 gerelateerde_adviezen:
-- titel: Gevolgen verhoging groottecriteria voor (I)VZW’s en stichtingen
-  url: https://www.cbn-cnc.be/nl/adviezen/gevolgen-verhoging-groottecriteria-voor-ivzws-en-stichtingen
-  datum: '2024-09-19'
-- titel: Gevolgen verhoging groottecriteria voor vennootschappen
-  url: https://www.cbn-cnc.be/nl/adviezen/gevolgen-verhoging-groottecriteria-voor-vennootschappen
-  datum: '2024-09-19'
-- titel: Verslaggeving bij ontbinding en vereffening van een VZW of IVZW
-  url: https://www.cbn-cnc.be/nl/adviezen/verslaggeving-bij-ontbinding-en-vereffening-van-een-vzw-of-ivzw
-  datum: '2022-04-27'
-- titel: Verslaggeving bij ontbinding en vereffening van BV, CV, NV, SE en SCE
-  url: https://www.cbn-cnc.be/nl/adviezen/verslaggeving-bij-ontbinding-en-vereffening-van-bv-cv-nv-se-en-sce
-  datum: '2022-04-01'
+  - titel: Gevolgen verhoging groottecriteria voor (I)VZW’s en stichtingen
+    url: https://www.cbn-cnc.be/nl/adviezen/gevolgen-verhoging-groottecriteria-voor-ivzws-en-stichtingen
+    datum: '2024-09-19'
+  - titel: Gevolgen verhoging groottecriteria voor vennootschappen
+    url: https://www.cbn-cnc.be/nl/adviezen/gevolgen-verhoging-groottecriteria-voor-vennootschappen
+    datum: '2024-09-19'
+  - titel: Verslaggeving bij ontbinding en vereffening van een VZW of IVZW
+    url: https://www.cbn-cnc.be/nl/adviezen/verslaggeving-bij-ontbinding-en-vereffening-van-een-vzw-of-ivzw
+    datum: '2022-04-27'
+  - titel: Verslaggeving bij ontbinding en vereffening van BV, CV, NV, SE en SCE
+    url: https://www.cbn-cnc.be/nl/adviezen/verslaggeving-bij-ontbinding-en-vereffening-van-bv-cv-nv-se-en-sce
+    datum: '2022-04-01'
 ---
 
 # CBN-advies 2018/23 - Begin van het boekjaar

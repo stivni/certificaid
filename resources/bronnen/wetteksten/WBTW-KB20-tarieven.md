@@ -1,14 +1,14 @@
 ---
-tags: ["VI.B", "2.4"]
-itaa-lex-sectie: "VI.B"
-wet: "K.B. nr. 20 van 20 juli 1970, tot vaststelling van de tarieven van de belasting over de toegevoegde waarde en tot indeling van de goederen en de diensten bij die tarieven"
-bron_rol: "itaa_lex"
-status: "beschikbaar"
-bijgewerkt: "20.07.1970"
-bron: "Afgesplitst uit Fisconet-compilatie (pdftotext_compilatie_btw)"
+tags: [VI.B, '2.4']
+itaa-lex-sectie: VI.B
+wet: K.B. nr. 20 van 20 juli 1970, tot vaststelling van de tarieven van de belasting over de toegevoegde waarde en tot indeling van de goederen en de diensten bij die tarieven
+bron_rol: itaa_lex
+status: beschikbaar
+bijgewerkt: 20.07.1970
+bron: Afgesplitst uit Fisconet-compilatie (pdftotext_compilatie_btw)
 chunk:
   level: 3
-  type: "Art."
+  type: Art.
   sub_strategy:
 provenance:
   inputs:
@@ -24,17 +24,14 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    qa_version: trust-rework-2
-    confirmed_at: '2026-05-09T21:27:46Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "L1=warn; L1.5=improvement (Auto-synthesized: heading-injection (inject_wbtw_headings.py) — staging is structureel beter dan resources-versie.); L2=trusted (ETL-fix toegepast: inject_wbtw_headings.py heeft TOC-strip + Artikel-N → ## Art. heading-injectie + AFDELING-normalisatie uitgevoerd. Eerdere needs-rework op 'missing-section' opgeheven.)"
-    agent_verdict_at: '2026-05-09T21:27:46Z'
-    sample_pick: true
-    sample_reviewed_at:
-    sample_reviewed_by:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by:
+    rationale:
     layer1:
-      verdict: warn
+      status: warn
+      run_id: 20260509-212552
+      run_at:
       heading_count: 9
       max_section_chars: 131526
       file_size_chars: 146517
@@ -43,28 +40,18 @@ provenance:
           status: warn
           detail: 'langste sectie op ###-niveau: 131526 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
           samples: []
-      run_id: 20260509-212552
-    layer1_5_diff:
-      verdict: improvement
-      rationale: 'Auto-synthesized: heading-injection (inject_wbtw_headings.py) — staging is structureel beter dan resources-versie.'
-      kritieke_observaties: []
-      auto: true
-      run_id: trust-rework-2
-    layer2_content:
-      verdict: needs-rework
+    layer2:
+      status: needs-rework
+      agent:
+      run_at:
       rationale: "Lange tekst (~147k chars) met slechts 1 ##-heading: de hele KB-tekst zit als één sectie onder de #-titel. 'Artikel N' en 'Tabel A/B'-rubrieken staan als plain text — chunker valt terug op alinea-splitsing. Inhoud lijkt compleet (eindigt netjes met bijwerkingenlijst), maar Article-level retrieval werkt zo niet."
-      problemen:
+      concrete_problemen:
         - regel: 0
           type: missing-section
           voorbeeld: '1 heading (#) bij 147k chars; geen ## per Artikel of Tabel-rubriek'
         - regel: 0
           type: other
           voorbeeld: max_section_size 146945 chars triggert split_long_chunk fallback (QA warn)
-      sterkte:
-        - Frontmatter volledig en consistent met titel
-        - Body inhoudelijk intact tot bijwerkingenlijst
-      auto: false
-      run_id: qa-batch-W3
 ---
 
 # K.B. nr. 20 van 20 juli 1970, tot vaststelling van de tarieven van de belasting over de toegevoegde waarde en tot indeling van de goederen en de diensten bij die tarieven

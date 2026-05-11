@@ -1,6 +1,55 @@
 ---
-nummer: CBN-advies 2024/03
+bron: https://www.cbn-cnc.be/nl/adviezen/gevolgen-van-niet-uitgedrukte-meerwaarden-bij-de-ontbinding
 datum: 2024-02-16
+gerelateerde_adviezen:
+- datum: '2022-06-10'
+  titel: Verslaggeving bij onmiddellijke sluiting van de vereffening van een VZW of
+    IVZW
+  url: https://www.cbn-cnc.be/nl/adviezen/verslaggeving-bij-onmiddellijke-sluiting-van-de-vereffening-van-een-vzw-of-ivzw
+- datum: '2022-06-07'
+  titel: Verslaggeving bij onmiddellijke sluiting van de vereffening van een vennootschap
+  url: https://www.cbn-cnc.be/nl/adviezen/verslaggeving-bij-onmiddellijke-sluiting-van-de-vereffening-van-een-vennootschap
+- datum: '2022-04-27'
+  titel: Verslaggeving bij ontbinding en vereffening van een VZW of IVZW
+  url: https://www.cbn-cnc.be/nl/adviezen/verslaggeving-bij-ontbinding-en-vereffening-van-een-vzw-of-ivzw
+- datum: '2022-04-01'
+  titel: Verslaggeving bij ontbinding en vereffening van BV, CV, NV, SE en SCE
+  url: https://www.cbn-cnc.be/nl/adviezen/verslaggeving-bij-ontbinding-en-vereffening-van-bv-cv-nv-se-en-sce
+nummer: CBN-advies 2024/03
+provenance:
+  generated_at: '2026-05-08T18:38:19Z'
+  inputs:
+  - id: https://www.cbn-cnc.be/nl/adviezen/gevolgen-van-niet-uitgedrukte-meerwaarden-bij-de-ontbinding
+    sha256: 5e6db05c468c4f702b469948fe212f35f9a2e631860812c8abc57e0af42c5c9c
+    version: null
+  stale: false
+  stale_reason: null
+  tooling:
+    model: null
+    pipeline: tools/etl/scrape_cbn_advies.py
+    pipeline_version: uncommitted
+    prompt_version: null
+  trust:
+    confirmed_at: '2026-05-08T19:02:28Z'
+    confirmed_by: subagent-laag2-ronde2
+    layer1:
+      file_size_chars: 10287
+      flags: []
+      heading_count: 0
+      max_section_chars: 10287
+      run_at: null
+      run_id: 20260511-083333
+      status: pass
+    layer2:
+      agent: subagent-laag2-ronde2
+      concrete_problemen: []
+      rationale: '[Laag-2-R2 2026-05-08] Recent (2024) inhoudelijk compleet advies
+        met twee scenarios, rol bestuursorgaan, uitbreiding naar VZW''s. Footnotes
+        correct met WVV-artikelverwijzingen.'
+      run_at: '2026-05-08T19:02:28Z'
+      status: trusted
+    rationale: Laag-2 trusted door subagent-laag2-ronde2 (zie layer2.rationale)
+    status: trusted
 themas:
 - ontbinding
 - niet-uitgedrukte meerwaarde
@@ -8,49 +57,6 @@ themas:
 - staat van activa en passiva
 - latente meerwaarde
 - ontbindingsvoorstel
-bron: https://www.cbn-cnc.be/nl/adviezen/gevolgen-van-niet-uitgedrukte-meerwaarden-bij-de-ontbinding
-provenance:
-  inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/gevolgen-van-niet-uitgedrukte-meerwaarden-bij-de-ontbinding
-    sha256: 5e6db05c468c4f702b469948fe212f35f9a2e631860812c8abc57e0af42c5c9c
-    version: null
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model: null
-    prompt_version: null
-  generated_at: '2026-05-08T18:38:19Z'
-  stale: false
-  stale_reason: null
-  trust:
-    status: trusted
-    qa_version: trust-rework-2
-    confirmed_at: '2026-05-08T19:02:28Z'
-    confirmed_by: subagent-laag2-ronde2
-    rationale: '[Laag-2-R2 2026-05-08] Recent (2024) inhoudelijk compleet advies met
-      twee scenarios, rol bestuursorgaan, uitbreiding naar VZW''s. Footnotes correct
-      met WVV-artikelverwijzingen.'
-    layer1:
-      verdict: pass
-      heading_count: 0
-      max_section_chars: 10403
-      file_size_chars: 10403
-      flags: []
-      run_id: 20260509-212552
-gerelateerde_adviezen:
-- titel: Verslaggeving bij onmiddellijke sluiting van de vereffening van een VZW of
-    IVZW
-  url: https://www.cbn-cnc.be/nl/adviezen/verslaggeving-bij-onmiddellijke-sluiting-van-de-vereffening-van-een-vzw-of-ivzw
-  datum: '2022-06-10'
-- titel: Verslaggeving bij onmiddellijke sluiting van de vereffening van een vennootschap
-  url: https://www.cbn-cnc.be/nl/adviezen/verslaggeving-bij-onmiddellijke-sluiting-van-de-vereffening-van-een-vennootschap
-  datum: '2022-06-07'
-- titel: Verslaggeving bij ontbinding en vereffening van een VZW of IVZW
-  url: https://www.cbn-cnc.be/nl/adviezen/verslaggeving-bij-ontbinding-en-vereffening-van-een-vzw-of-ivzw
-  datum: '2022-04-27'
-- titel: Verslaggeving bij ontbinding en vereffening van BV, CV, NV, SE en SCE
-  url: https://www.cbn-cnc.be/nl/adviezen/verslaggeving-bij-ontbinding-en-vereffening-van-bv-cv-nv-se-en-sce
-  datum: '2022-04-01'
 ---
 
 # CBN-advies 2024/03 – Gevolgen van niet-uitgedrukte meerwaarden bij de ontbinding

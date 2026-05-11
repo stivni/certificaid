@@ -1,37 +1,43 @@
 ---
-nummer: CBN-advies R100/2
-datum: 1979-05-01
-themas:
-- aanpassing van het rekeningstelsel
-- rekeningenstelsel
 bron: https://www.cbn-cnc.be/nl/adviezen/aanpassing-van-het-rekeningstelsel-van-de-onderneming
+datum: 1979-05-01
+nummer: CBN-advies R100/2
 provenance:
+  generated_at: '2026-05-08T18:33:36Z'
   inputs:
   - id: https://www.cbn-cnc.be/nl/adviezen/aanpassing-van-het-rekeningstelsel-van-de-onderneming
     sha256: 4c1e0333d19dfa08069f1dce3ba2d7919a22b6963e8b41f4044ada97b08669b9
     version: null
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model: null
-    prompt_version: null
-  generated_at: '2026-05-08T18:33:36Z'
   stale: false
   stale_reason: null
+  tooling:
+    model: null
+    pipeline: tools/etl/scrape_cbn_advies.py
+    pipeline_version: uncommitted
+    prompt_version: null
   trust:
-    status: trusted
-    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T19:02:29Z'
     confirmed_by: subagent-laag2-ronde2
-    rationale: '[Laag-2-R2 2026-05-08] Volledig met concrete aanpassingstechnieken
-      (onderrekeningen, conversieprogramma, klassen 8-9).'
     layer1:
-      verdict: pass
-      heading_count: 0
-      max_section_chars: 6866
-      file_size_chars: 6866
+      file_size_chars: 6867
       flags: []
-      run_id: 20260509-212552
+      heading_count: 0
+      max_section_chars: 6867
+      run_at: null
+      run_id: 20260511-083333
+      status: pass
+    layer2:
+      agent: subagent-laag2-ronde2
+      concrete_problemen: []
+      rationale: '[Laag-2-R2 2026-05-08] Volledig met concrete aanpassingstechnieken
+        (onderrekeningen, conversieprogramma, klassen 8-9).'
+      run_at: '2026-05-08T19:02:29Z'
+      status: trusted
+    rationale: Laag-2 trusted door subagent-laag2-ronde2 (zie layer2.rationale)
+    status: trusted
+themas:
+- aanpassing van het rekeningstelsel
+- rekeningenstelsel
 ---
 
 # CBN-advies R100/2 - Aanpassing van het rekeningstelsel van de onderneming

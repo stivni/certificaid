@@ -2,47 +2,52 @@
 nummer: CBN-advies 137/9
 datum: 1993-02-28
 themas:
-- Vorderingen met een abnormaal lage rente
-- waardering
-- waardering tegen actuele waarde
-- actualisering van schulden op korte termijn
-- actualisering van vorderingen op korte termijn
-- disconto
-- renteloze vorderingen
-- schulden
-- vordering
+  - Vorderingen met een abnormaal lage rente
+  - waardering
+  - waardering tegen actuele waarde
+  - actualisering van schulden op korte termijn
+  - actualisering van vorderingen op korte termijn
+  - disconto
+  - renteloze vorderingen
+  - schulden
+  - vordering
 bron: https://www.cbn-cnc.be/nl/adviezen/actualisering-van-vorderingen-en-schulden-op-korte-termijn-update
 provenance:
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/actualisering-van-vorderingen-en-schulden-op-korte-termijn-update
-    sha256: f80fc19159bc3be038cb0b293c47843b630ae221af7b778a1e39123a9f3af147
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/actualisering-van-vorderingen-en-schulden-op-korte-termijn-update
+      sha256: f80fc19159bc3be038cb0b293c47843b630ae221af7b778a1e39123a9f3af147
+      version:
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model: null
-    prompt_version: null
+    model:
+    prompt_version:
   generated_at: '2026-05-08T18:35:00Z'
   stale: false
-  stale_reason: null
+  stale_reason:
   trust:
-    status: trusted
-    qa_version: trust-rework-2
-    confirmed_at: '2026-05-08T18:40:03Z'
-    confirmed_by: qa-laag1-auto
-    rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    status: unreviewed
+    confirmed_at:
+    confirmed_by:
+    rationale:
     layer1:
-      verdict: pass
+      status: pass
+      run_id: 20260511-083333
+      run_at:
       heading_count: 0
-      max_section_chars: 1758
-      file_size_chars: 1758
+      max_section_chars: 1849
+      file_size_chars: 1849
       flags: []
-      run_id: 20260509-212552
+    layer2:
+      status: not_run
+      agent:
+      run_at:
+      rationale:
+      concrete_problemen: []
 gerelateerde_adviezen:
-- titel: Renteloze vorderingen (schulden) en vorderingen (schulden) met een abnormaal
-    lage rente, op meer dan één jaar
-  url: https://www.cbn-cnc.be/nl/adviezen/renteloze-vorderingen-schulden-en-vorderingen-schulden-met-een-abnormaal-lage-rente-op
-  datum: '1986-09-01'
+  - titel: Renteloze vorderingen (schulden) en vorderingen (schulden) met een abnormaal lage rente, op meer dan één jaar
+    url: https://www.cbn-cnc.be/nl/adviezen/renteloze-vorderingen-schulden-en-vorderingen-schulden-met-een-abnormaal-lage-rente-op
+    datum: '1986-09-01'
 ---
 
 # CBN advies 137/9 - Actualisering van vorderingen en schulden op korte termijn (update)

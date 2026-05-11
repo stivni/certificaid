@@ -1,14 +1,14 @@
 ---
-tags: ["1.2", "4.0"]
-itaa-lex-sectie: ""
-wet: "Richtlijn (EU) 2018/1673 van het Europees Parlement en de Raad van 23 oktober 2018 inzake de strafrechtelijke bestrijding van het witwassen van geld"
-bron_rol: "normatief"
-status: "beschikbaar"
-bijgewerkt: "12.11.2018"
-bron: "ejustice.just.fgov.be (gecoördineerde versie)"
+tags: ['1.2', '4.0']
+itaa-lex-sectie: ''
+wet: Richtlijn (EU) 2018/1673 van het Europees Parlement en de Raad van 23 oktober 2018 inzake de strafrechtelijke bestrijding van het witwassen van geld
+bron_rol: normatief
+status: beschikbaar
+bijgewerkt: 12.11.2018
+bron: ejustice.just.fgov.be (gecoördineerde versie)
 chunk:
   level: 2
-  type: "Art."
+  type: Art.
   sub_strategy:
 provenance:
   inputs:
@@ -25,36 +25,23 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    qa_version: trust-rework-2
     confirmed_at: '2026-05-09T21:27:46Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: L1=pass
-    agent_verdict_at: '2026-05-09T21:27:46Z'
-    sample_pick: false
-    sample_reviewed_at:
-    sample_reviewed_by:
     layer1:
-      verdict: pass
+      status: pass
+      run_id: 20260509-212552
+      run_at:
       heading_count: 16
       max_section_chars: 20495
       file_size_chars: 39734
       flags: []
-      run_id: 20260509-212552
-    layer1_5_diff:
-      verdict: improvement
-      rationale: 'Auto-synthesized: ETL-fixes vandaag (NBSP, sub_strategy, justel-extractor, etc.) verbeteren bestaande versie.'
-      kritieke_observaties: []
-      auto: true
-      run_id: trust-finalize-1
-    layer2_content:
-      verdict: trusted
+    layer2:
+      status: trusted
+      agent:
+      run_at:
       rationale: Richtlijn 2018/1673 met 16 Art.-vermeldingen op H2. Body leesbaar, geen artefacten.
-      problemen: []
-      sterkte:
-        - Compleet
-        - Schoon NL
-      auto: false
-      run_id: qa-batch-W1
+      concrete_problemen: []
 ---
 
 # Richtlijn (EU) 2018/1673 van het Europees Parlement en de Raad van 23 oktober 2018 inzake de strafrechtelijke bestrijding van het witwassen van geld

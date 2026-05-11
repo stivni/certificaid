@@ -2,55 +2,59 @@
 nummer: CBN-advies 2019/01
 datum: 2019-03-12
 themas:
-- dividend
-- uitkering
-- dividenduitkering
-- geldbelegging
-- financiële vaste activa
-- aandelen
-- voorschot op verdeling netto-actief
-- kapitaalvermindering
-- in natura
-- uitkering in natura
-- toekenning in natura
-- terugbetaling van kapitaal
-- verdeling eigen vermogen
-- inbetalinggeving
-- uitbreng
-- aanschaffingswaarde
+  - dividend
+  - uitkering
+  - dividenduitkering
+  - geldbelegging
+  - financiële vaste activa
+  - aandelen
+  - voorschot op verdeling netto-actief
+  - kapitaalvermindering
+  - in natura
+  - uitkering in natura
+  - toekenning in natura
+  - terugbetaling van kapitaal
+  - verdeling eigen vermogen
+  - inbetalinggeving
+  - uitbreng
+  - aanschaffingswaarde
 bron: https://www.cbn-cnc.be/nl/adviezen/dividenduitkering-en-kapitaalvermindering-in-natura-0
 provenance:
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/dividenduitkering-en-kapitaalvermindering-in-natura-0
-    sha256: 2a27321595711abf20073bd1a09dce17d12ae08358e12ff0a6bf1872bd2a8f58
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/dividenduitkering-en-kapitaalvermindering-in-natura-0
+      sha256: 2a27321595711abf20073bd1a09dce17d12ae08358e12ff0a6bf1872bd2a8f58
+      version:
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model: null
-    prompt_version: null
+    model:
+    prompt_version:
   generated_at: '2026-05-08T21:30:14Z'
   stale: false
-  stale_reason: null
+  stale_reason:
   trust:
     status: trusted
-    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T21:31:12Z'
     confirmed_by: human
-    rationale: 'Herscraped na fix select_title(): gecombineerde H1 (COMMISSIE + titel)
-      correct gesplitst. Inhoud ongewijzigd t.o.v. vorig vertrouwd verdict. Laag 1
-      pass (of benign max_section warn).'
+    rationale: 'Herscraped na fix select_title(): gecombineerde H1 (COMMISSIE + titel) correct gesplitst. Inhoud ongewijzigd t.o.v. vorig vertrouwd verdict. Laag 1 pass (of benign max_section warn).'
     layer1:
-      verdict: pass
+      status: pass
+      run_id: 20260511-083333
+      run_at:
       heading_count: 19
-      max_section_chars: 4430
-      file_size_chars: 25213
+      max_section_chars: 11742
+      file_size_chars: 25226
       flags: []
-      run_id: 20260509-212552
+    layer2:
+      status: not_run
+      agent:
+      run_at:
+      rationale:
+      concrete_problemen: []
 gerelateerde_adviezen:
-- titel: Pro rata-regel van artikel 18 WIB 92 bij terugbetaling van inbreng / kapitaalvermindering
-  url: https://www.cbn-cnc.be/nl/adviezen/pro-rata-regel-van-artikel-18-wib-92-bij-terugbetaling-van-inbreng-kapitaalvermindering
-  datum: '2019-11-21'
+  - titel: Pro rata-regel van artikel 18 WIB 92 bij terugbetaling van inbreng / kapitaalvermindering
+    url: https://www.cbn-cnc.be/nl/adviezen/pro-rata-regel-van-artikel-18-wib-92-bij-terugbetaling-van-inbreng-kapitaalvermindering
+    datum: '2019-11-21'
 ---
 
 # CBN-advies 2019/01 – Dividenduitkering en kapitaalvermindering in natura

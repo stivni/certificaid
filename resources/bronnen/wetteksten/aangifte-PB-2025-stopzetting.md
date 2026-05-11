@@ -1,3 +1,27 @@
+---
+bron_rol: formulier
+tags: [PB, aangifte]
+provenance:
+  trust:
+    status: unreviewed
+    confirmed_at: null
+    confirmed_by: null
+    rationale: null
+    layer1:
+      status: not_run
+      run_id: null
+      run_at: null
+      heading_count: null
+      max_section_chars: null
+      file_size_chars: null
+      flags: []
+    layer2:
+      status: not_run
+      agent: null
+      run_at: null
+      rationale: null
+      concrete_problemen: []
+---
 # Aangifte PB aanslagjaar 2025 — codes stopzettingsmeerwaarden
 
 > Bron: "Voorbereiding van de aangifte in de personenbelasting — deel 2, aanslagjaar 2025 (inkomsten 2024)"

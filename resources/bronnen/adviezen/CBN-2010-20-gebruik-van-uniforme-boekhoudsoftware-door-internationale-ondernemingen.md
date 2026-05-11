@@ -2,54 +2,60 @@
 nummer: CBN-advies 2010/20
 datum: 2010-11-10
 themas:
-- algemeen rekeningenstelsel
-- belgische bijkantoren
-- belgische dochterondernemingen
-- boekhoudpakket
-- boekhoudsoftware
-- buitenlands bijkantoor
-- buitenlandse onderneming
-- concordantietabel
-- dubbel rekeningenstelsel
-- een-op-een relatie
-- genormaliseerd rekeningenstelsel
-- groepsrekeningenstelsel
-- historiek
-- houden van een dubbel rekeningstelsel
-- mar
-- proef- en saldibalans
-- taal
+  - algemeen rekeningenstelsel
+  - belgische bijkantoren
+  - belgische dochterondernemingen
+  - boekhoudpakket
+  - boekhoudsoftware
+  - buitenlands bijkantoor
+  - buitenlandse onderneming
+  - concordantietabel
+  - dubbel rekeningenstelsel
+  - een-op-een relatie
+  - genormaliseerd rekeningenstelsel
+  - groepsrekeningenstelsel
+  - historiek
+  - houden van een dubbel rekeningstelsel
+  - mar
+  - proef- en saldibalans
+  - taal
 bron: https://www.cbn-cnc.be/nl/adviezen/gebruik-van-uniforme-boekhoudsoftware-door-internationale-ondernemingen
 provenance:
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/gebruik-van-uniforme-boekhoudsoftware-door-internationale-ondernemingen
-    sha256: 07041df6efac5d52376c66e78adaa33de0519e3008490ad523f5b7dcea3b4b87
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/gebruik-van-uniforme-boekhoudsoftware-door-internationale-ondernemingen
+      sha256: 07041df6efac5d52376c66e78adaa33de0519e3008490ad523f5b7dcea3b4b87
+      version:
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model: null
-    prompt_version: null
+    model:
+    prompt_version:
   generated_at: '2026-05-08T18:36:05Z'
   stale: false
-  stale_reason: null
+  stale_reason:
   trust:
-    status: trusted
-    qa_version: trust-rework-2
-    confirmed_at: '2026-05-08T18:40:04Z'
-    confirmed_by: qa-laag1-auto
-    rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    status: unreviewed
+    confirmed_at:
+    confirmed_by:
+    rationale:
     layer1:
-      verdict: pass
+      status: pass
+      run_id: 20260511-083333
+      run_at:
       heading_count: 5
-      max_section_chars: 6797
-      file_size_chars: 12468
+      max_section_chars: 11034
+      file_size_chars: 12476
       flags: []
-      run_id: 20260509-212552
+    layer2:
+      status: not_run
+      agent:
+      run_at:
+      rationale:
+      concrete_problemen: []
 gerelateerde_adviezen:
-- titel: Overeenstemming tussen de boekhouding en de jaarrekening
-  url: https://www.cbn-cnc.be/nl/adviezen/overeenstemming-tussen-de-boekhouding-en-de-jaarrekening
-  datum: '1984-01-01'
+  - titel: Overeenstemming tussen de boekhouding en de jaarrekening
+    url: https://www.cbn-cnc.be/nl/adviezen/overeenstemming-tussen-de-boekhouding-en-de-jaarrekening
+    datum: '1984-01-01'
 ---
 
 # CBN-advies 2010/20 - Gebruik van uniforme boekhoudsoftware door internationale ondernemingen

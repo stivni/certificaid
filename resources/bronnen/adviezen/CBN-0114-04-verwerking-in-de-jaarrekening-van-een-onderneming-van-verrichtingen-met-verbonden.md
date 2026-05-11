@@ -2,55 +2,58 @@
 nummer: CBN-advies 114/4
 datum: 1983-04-01
 themas:
-- verbonden onderneming
-- verrichtingen met verbonden ondernemingen
-- consolidatie
-- vzw
-- vereniging
-- geconsolideerde jaarrekening
+  - verbonden onderneming
+  - verrichtingen met verbonden ondernemingen
+  - consolidatie
+  - vzw
+  - vereniging
+  - geconsolideerde jaarrekening
 bron: https://www.cbn-cnc.be/nl/adviezen/verwerking-in-de-jaarrekening-van-een-onderneming-van-verrichtingen-met-verbonden
 provenance:
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/verwerking-in-de-jaarrekening-van-een-onderneming-van-verrichtingen-met-verbonden
-    sha256: 4faf9fb80ade50a734aa6a2f7969c7d010b77b12651d3d0376d5612082db46dd
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/verwerking-in-de-jaarrekening-van-een-onderneming-van-verrichtingen-met-verbonden
+      sha256: 4faf9fb80ade50a734aa6a2f7969c7d010b77b12651d3d0376d5612082db46dd
+      version:
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model: null
-    prompt_version: null
+    model:
+    prompt_version:
   generated_at: '2026-05-08T18:34:20Z'
   stale: false
-  stale_reason: null
+  stale_reason:
   trust:
-    status: trusted
-    qa_version: trust-rework-2
-    confirmed_at: '2026-05-08T18:40:02Z'
-    confirmed_by: qa-laag1-auto
-    rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    status: unreviewed
+    confirmed_at:
+    confirmed_by:
+    rationale:
     layer1:
-      verdict: pass
+      status: pass
+      run_id: 20260511-083333
+      run_at:
       heading_count: 0
-      max_section_chars: 1777
-      file_size_chars: 1777
+      max_section_chars: 1778
+      file_size_chars: 1778
       flags: []
-      run_id: 20260509-212552
+    layer2:
+      status: not_run
+      agent:
+      run_at:
+      rationale:
+      concrete_problemen: []
 gerelateerde_adviezen:
-- titel: Groottecriteria artikel 15 W.Venn. – Verbonden vennootschappen – Verschillende
-    afsluitingsdata - Wijziging van consolidatiekring
-  url: https://www.cbn-cnc.be/nl/adviezen/groottecriteria-artikel-15-wvenn-verbonden-vennootschappen-verschillende-afsluitingsdata
-  datum: '2017-04-19'
-- titel: Verbonden ondernemingen
-  url: https://www.cbn-cnc.be/nl/adviezen/verbonden-ondernemingen
-  datum: '2011-10-05'
-- titel: Berekening criteria artikel 15 W.Venn.
-  url: https://www.cbn-cnc.be/nl/adviezen/berekening-criteria-artikel-15-wvenn
-  datum: '2010-05-19'
-- titel: Bijkantoren of centra van werkzaamheden in België van ondernemingen naar
-    buitenlands recht - Toepassing van artikel 10, par. 2 van de Boekhoudwet en van
-    artikel 198 van de Vennootschapswet
-  url: https://www.cbn-cnc.be/nl/adviezen/bijkantoren-of-centra-van-werkzaamheden-in-belgie-van-ondernemingen-naar-buitenlands-recht
-  datum: '1984-10-01'
+  - titel: Groottecriteria artikel 15 W.Venn. – Verbonden vennootschappen – Verschillende afsluitingsdata - Wijziging van consolidatiekring
+    url: https://www.cbn-cnc.be/nl/adviezen/groottecriteria-artikel-15-wvenn-verbonden-vennootschappen-verschillende-afsluitingsdata
+    datum: '2017-04-19'
+  - titel: Verbonden ondernemingen
+    url: https://www.cbn-cnc.be/nl/adviezen/verbonden-ondernemingen
+    datum: '2011-10-05'
+  - titel: Berekening criteria artikel 15 W.Venn.
+    url: https://www.cbn-cnc.be/nl/adviezen/berekening-criteria-artikel-15-wvenn
+    datum: '2010-05-19'
+  - titel: Bijkantoren of centra van werkzaamheden in België van ondernemingen naar buitenlands recht - Toepassing van artikel 10, par. 2 van de Boekhoudwet en van artikel 198 van de Vennootschapswet
+    url: https://www.cbn-cnc.be/nl/adviezen/bijkantoren-of-centra-van-werkzaamheden-in-belgie-van-ondernemingen-naar-buitenlands-recht
+    datum: '1984-10-01'
 ---
 
 # CBN-advies 114/4 - Verwerking in de jaarrekening van een onderneming van verrichtingen met verbonden ondernemingen

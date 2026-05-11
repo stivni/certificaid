@@ -2,49 +2,54 @@
 nummer: CBN-advies 128/8
 datum: 1993-02-01
 themas:
-- bezoldiging
-- voordelen van alle aard
+  - bezoldiging
+  - voordelen van alle aard
 bron: https://www.cbn-cnc.be/nl/adviezen/boeking-van-voordelen-van-alle-aard
 provenance:
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/boeking-van-voordelen-van-alle-aard
-    sha256: 3377a5382b98d5739afd52a9d08f17c433ac02189e1042ca5c2664f306f5c9f9
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/boeking-van-voordelen-van-alle-aard
+      sha256: 3377a5382b98d5739afd52a9d08f17c433ac02189e1042ca5c2664f306f5c9f9
+      version:
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model: null
-    prompt_version: null
+    model:
+    prompt_version:
   generated_at: '2026-05-08T18:34:47Z'
   stale: false
-  stale_reason: null
+  stale_reason:
   trust:
-    status: trusted
-    qa_version: trust-rework-2
-    confirmed_at: '2026-05-08T18:40:03Z'
-    confirmed_by: qa-laag1-auto
-    rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    status: unreviewed
+    confirmed_at:
+    confirmed_by:
+    rationale:
     layer1:
-      verdict: pass
+      status: pass
+      run_id: 20260511-083333
+      run_at:
       heading_count: 0
-      max_section_chars: 1874
-      file_size_chars: 1874
+      max_section_chars: 1875
+      file_size_chars: 1875
       flags: []
-      run_id: 20260509-212552
+    layer2:
+      status: not_run
+      agent:
+      run_at:
+      rationale:
+      concrete_problemen: []
 gerelateerde_adviezen:
-- titel: Vergoedingen vrijwilligerswerk en verenigingswerk
-  url: https://www.cbn-cnc.be/nl/adviezen/vergoedingen-vrijwilligerswerk-en-verenigingswerk
-  datum: '2019-06-14'
-- titel: Provisie aanvullende dagen verlof – Arbeidsduurvermindering
-  url: https://www.cbn-cnc.be/nl/adviezen/provisie-aanvullende-dagen-verlof-arbeidsduurvermindering
-  datum: '2018-05-30'
-- titel: Boekhoudkundige verwerking van loontussenkomst door de overheid in hoofde
-    van de werkgever (update)
-  url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-loontussenkomst-door-de-overheid-in-hoofde-van-de-werkgever
-  datum: '2010-09-08'
-- titel: Loonmatiging (bezoldigingen van bestuurders)
-  url: https://www.cbn-cnc.be/nl/adviezen/loonmatiging-bezoldigingen-van-bestuurders
-  datum: '1995-03-01'
+  - titel: Vergoedingen vrijwilligerswerk en verenigingswerk
+    url: https://www.cbn-cnc.be/nl/adviezen/vergoedingen-vrijwilligerswerk-en-verenigingswerk
+    datum: '2019-06-14'
+  - titel: Provisie aanvullende dagen verlof – Arbeidsduurvermindering
+    url: https://www.cbn-cnc.be/nl/adviezen/provisie-aanvullende-dagen-verlof-arbeidsduurvermindering
+    datum: '2018-05-30'
+  - titel: Boekhoudkundige verwerking van loontussenkomst door de overheid in hoofde van de werkgever (update)
+    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-loontussenkomst-door-de-overheid-in-hoofde-van-de-werkgever
+    datum: '2010-09-08'
+  - titel: Loonmatiging (bezoldigingen van bestuurders)
+    url: https://www.cbn-cnc.be/nl/adviezen/loonmatiging-bezoldigingen-van-bestuurders
+    datum: '1995-03-01'
 ---
 
 # CBN-advies 128/8 - Boeking van voordelen van alle aard

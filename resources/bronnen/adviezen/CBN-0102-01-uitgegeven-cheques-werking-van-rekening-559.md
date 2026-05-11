@@ -1,6 +1,44 @@
 ---
-nummer: CBN-advies R102/1
+bron: https://www.cbn-cnc.be/nl/adviezen/uitgegeven-cheques-werking-van-rekening-559
 datum: 1980-06-01
+gerelateerde_adviezen:
+- datum: '1980-06-01'
+  titel: 'Te innen cheques : rekening 53'
+  url: https://www.cbn-cnc.be/nl/adviezen/te-innen-cheques-rekening-53
+nummer: CBN-advies R102/1
+provenance:
+  generated_at: '2026-05-08T18:33:39Z'
+  inputs:
+  - id: https://www.cbn-cnc.be/nl/adviezen/uitgegeven-cheques-werking-van-rekening-559
+    sha256: 70b071a96560b388ad774dbc0e108ed5683420ec698e8cdd573883ade65c9e1a
+    version: null
+  stale: false
+  stale_reason: null
+  tooling:
+    model: null
+    pipeline: tools/etl/scrape_cbn_advies.py
+    pipeline_version: uncommitted
+    prompt_version: null
+  trust:
+    confirmed_at: '2026-05-08T19:02:30Z'
+    confirmed_by: subagent-laag2-ronde2
+    layer1:
+      file_size_chars: 5248
+      flags: []
+      heading_count: 0
+      max_section_chars: 5248
+      run_at: null
+      run_id: 20260511-083333
+      status: pass
+    layer2:
+      agent: subagent-laag2-ronde2
+      concrete_problemen: []
+      rationale: '[Laag-2-R2 2026-05-08] Volledig met twee concrete rechtsvragen,
+        journaalboekingen voor beide werkwijzen, conclusie aanvaardt beide werkwijzen.'
+      run_at: '2026-05-08T19:02:30Z'
+      status: trusted
+    rationale: Laag-2 trusted door subagent-laag2-ronde2 (zie layer2.rationale)
+    status: trusted
 themas:
 - cheque
 - in omloop zijnde cheques
@@ -8,38 +46,6 @@ themas:
 - liquide middelen
 - rekeningenstelsel
 - uitgegeven cheque
-bron: https://www.cbn-cnc.be/nl/adviezen/uitgegeven-cheques-werking-van-rekening-559
-provenance:
-  inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/uitgegeven-cheques-werking-van-rekening-559
-    sha256: 70b071a96560b388ad774dbc0e108ed5683420ec698e8cdd573883ade65c9e1a
-    version: null
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model: null
-    prompt_version: null
-  generated_at: '2026-05-08T18:33:39Z'
-  stale: false
-  stale_reason: null
-  trust:
-    status: trusted
-    qa_version: trust-rework-2
-    confirmed_at: '2026-05-08T19:02:30Z'
-    confirmed_by: subagent-laag2-ronde2
-    rationale: '[Laag-2-R2 2026-05-08] Volledig met twee concrete rechtsvragen, journaalboekingen
-      voor beide werkwijzen, conclusie aanvaardt beide werkwijzen.'
-    layer1:
-      verdict: pass
-      heading_count: 0
-      max_section_chars: 5246
-      file_size_chars: 5246
-      flags: []
-      run_id: 20260509-212552
-gerelateerde_adviezen:
-- titel: 'Te innen cheques : rekening 53'
-  url: https://www.cbn-cnc.be/nl/adviezen/te-innen-cheques-rekening-53
-  datum: '1980-06-01'
 ---
 
 # CBN-advies R102/1 - Uitgegeven cheques : werking van rekening 559

@@ -2,42 +2,48 @@
 nummer: CBN-advies 173/6
 datum: 1998-02-01
 themas:
-- verrekening van vorderingen en schulden
-- vordering
-- vorderingen die oorspronkelijk zijnuitgedrukt in munten die overgaan in de euro
-- erfpa
-- omrekeningskoers
-- overschakeling op de euro
-- schulden
-- schulden die oorspronkelijk zijn uitgedrukt in munten die overgaan in de euro
-- schuldvergelijking
+  - verrekening van vorderingen en schulden
+  - vordering
+  - vorderingen die oorspronkelijk zijnuitgedrukt in munten die overgaan in de euro
+  - erfpa
+  - omrekeningskoers
+  - overschakeling op de euro
+  - schulden
+  - schulden die oorspronkelijk zijn uitgedrukt in munten die overgaan in de euro
+  - schuldvergelijking
 bron: https://www.cbn-cnc.be/nl/adviezen/verrekening-van-vorderingen-en-schulden-die-oorspronkelijk-zijn-uitgedrukt-in-munten-die
 provenance:
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/verrekening-van-vorderingen-en-schulden-die-oorspronkelijk-zijn-uitgedrukt-in-munten-die
-    sha256: c41f6a3cb0ae587f1e4b5b000235dc2a3bbe9337683fe765717feeee60ab3365
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/verrekening-van-vorderingen-en-schulden-die-oorspronkelijk-zijn-uitgedrukt-in-munten-die
+      sha256: c41f6a3cb0ae587f1e4b5b000235dc2a3bbe9337683fe765717feeee60ab3365
+      version:
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model: null
-    prompt_version: null
+    model:
+    prompt_version:
   generated_at: '2026-05-08T18:35:41Z'
   stale: false
-  stale_reason: null
+  stale_reason:
   trust:
-    status: trusted
-    qa_version: trust-rework-2
-    confirmed_at: '2026-05-08T18:40:03Z'
-    confirmed_by: qa-laag1-auto
-    rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    status: unreviewed
+    confirmed_at:
+    confirmed_by:
+    rationale:
     layer1:
-      verdict: pass
+      status: pass
+      run_id: 20260511-083333
+      run_at:
       heading_count: 3
       max_section_chars: 3425
-      file_size_chars: 7819
+      file_size_chars: 7820
       flags: []
-      run_id: 20260509-212552
+    layer2:
+      status: not_run
+      agent:
+      run_at:
+      rationale:
+      concrete_problemen: []
 ---
 
 # CBN-advies 173/6 - Verrekening van vorderingen en schulden die oorspronkelijk zijn uitgedrukt in munten die overgaan in de euro

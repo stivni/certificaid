@@ -2,48 +2,54 @@
 nummer: CBN-advies 2022/16
 datum: 2022-12-21
 themas:
-- omzetting vennootschap
-- omzetting
-- nieuwe rechtsvorm
-- wijziging rechtsvorm
-- afsluitdatum
-- neerleggingsplicht
-- neerleggingsverplichting
-- publicatieplicht
-- publicatieverplichting
-- openbaarmakingsplicht
-- openbaarmakingsverplichting
+  - omzetting vennootschap
+  - omzetting
+  - nieuwe rechtsvorm
+  - wijziging rechtsvorm
+  - afsluitdatum
+  - neerleggingsplicht
+  - neerleggingsverplichting
+  - publicatieplicht
+  - publicatieverplichting
+  - openbaarmakingsplicht
+  - openbaarmakingsverplichting
 bron: https://www.cbn-cnc.be/nl/adviezen/omzetting-van-een-vennootschap-gevolgen-voor-de-jaarrekening
 provenance:
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/omzetting-van-een-vennootschap-gevolgen-voor-de-jaarrekening
-    sha256: 3340dd01809e7f96942593815b28e17a7f8370d39f3a02cd4a3e2dd3acd9025b
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/omzetting-van-een-vennootschap-gevolgen-voor-de-jaarrekening
+      sha256: 3340dd01809e7f96942593815b28e17a7f8370d39f3a02cd4a3e2dd3acd9025b
+      version:
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model: null
-    prompt_version: null
+    model:
+    prompt_version:
   generated_at: '2026-05-08T18:38:17Z'
   stale: false
-  stale_reason: null
+  stale_reason:
   trust:
-    status: trusted
-    qa_version: trust-rework-2
-    confirmed_at: '2026-05-08T18:40:05Z'
-    confirmed_by: qa-laag1-auto
-    rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    status: unreviewed
+    confirmed_at:
+    confirmed_by:
+    rationale:
     layer1:
-      verdict: pass
+      status: pass
+      run_id: 20260511-083333
+      run_at:
       heading_count: 7
-      max_section_chars: 3150
-      file_size_chars: 7635
+      max_section_chars: 3709
+      file_size_chars: 7641
       flags: []
-      run_id: 20260509-212552
+    layer2:
+      status: not_run
+      agent:
+      run_at:
+      rationale:
+      concrete_problemen: []
 gerelateerde_adviezen:
-- titel: 'Verenigingen en stichtingen: compensatie van negatieve fondsen'
-  url: https://www.cbn-cnc.be/nl/adviezen/verenigingen-en-stichtingen-compensatie-van-negatieve-fondsen
-  datum: '2021-11-22'
+  - titel: 'Verenigingen en stichtingen: compensatie van negatieve fondsen'
+    url: https://www.cbn-cnc.be/nl/adviezen/verenigingen-en-stichtingen-compensatie-van-negatieve-fondsen
+    datum: '2021-11-22'
 ---
 
 # CBN-advies 2022/16 – Omzetting van een vennootschap: gevolgen voor de jaarrekening

@@ -2,52 +2,54 @@
 nummer: CBN-advies 2012/5
 datum: 2012-02-15
 themas:
-- vordering
-- inbetalinggeving
+  - vordering
+  - inbetalinggeving
 bron: https://www.cbn-cnc.be/nl/adviezen/betaling-van-vorderingen-in-natura
 provenance:
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/betaling-van-vorderingen-in-natura
-    sha256: b6becb28377bf7a9825c8260f33f2666068c9283a33ae494dc8007ab3e099751
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/betaling-van-vorderingen-in-natura
+      sha256: b6becb28377bf7a9825c8260f33f2666068c9283a33ae494dc8007ab3e099751
+      version:
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model: null
-    prompt_version: null
+    model:
+    prompt_version:
   generated_at: '2026-05-08T21:30:09Z'
   stale: false
-  stale_reason: null
+  stale_reason:
   trust:
     status: trusted
-    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T21:31:11Z'
     confirmed_by: human
-    rationale: 'Herscraped na fix select_title(): gecombineerde H1 (COMMISSIE + titel)
-      correct gesplitst. Inhoud ongewijzigd t.o.v. vorig vertrouwd verdict. Laag 1
-      pass (of benign max_section warn).'
+    rationale: 'Herscraped na fix select_title(): gecombineerde H1 (COMMISSIE + titel) correct gesplitst. Inhoud ongewijzigd t.o.v. vorig vertrouwd verdict. Laag 1 pass (of benign max_section warn).'
     layer1:
-      verdict: pass
+      status: pass
+      run_id: 20260511-083333
+      run_at:
       heading_count: 5
-      max_section_chars: 2579
-      file_size_chars: 6773
+      max_section_chars: 3553
+      file_size_chars: 6774
       flags: []
-      run_id: 20260509-212552
+    layer2:
+      status: not_run
+      agent:
+      run_at:
+      rationale:
+      concrete_problemen: []
 gerelateerde_adviezen:
-- titel: Klassering van de vorderingen bij faillissement van de schuldenaar (update)
-    [ONTWERP]
-  url: https://www.cbn-cnc.be/nl/adviezen/klassering-van-de-vorderingen-bij-faillissement-van-de-schuldenaar-update-ontwerp
-  datum: '2025-06-10'
-- titel: Waarderen en boeken van cryptomunten gebruikt als betaalmiddel
-  url: https://www.cbn-cnc.be/nl/adviezen/waarderen-en-boeken-van-cryptomunten-gebruikt-als-betaalmiddel
-  datum: '2021-12-06'
-- titel: 'Schulden en vorderingen: gevolgen van de wijzigingen aan artikel 67 KB W.Venn.
-    door het koninklijk besluit van 18 december 2015'
-  url: https://www.cbn-cnc.be/nl/adviezen/schulden-en-vorderingen-gevolgen-van-de-wijzigingen-aan-artikel-67-kb-wvenn-door-het
-  datum: '2016-07-06'
-- titel: De boekhoudkundige verwerking van factoringovereenkomsten
-  url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-factoringovereenkomsten
-  datum: '2011-10-05'
+  - titel: Klassering van de vorderingen bij faillissement van de schuldenaar (update) [ONTWERP]
+    url: https://www.cbn-cnc.be/nl/adviezen/klassering-van-de-vorderingen-bij-faillissement-van-de-schuldenaar-update-ontwerp
+    datum: '2025-06-10'
+  - titel: Waarderen en boeken van cryptomunten gebruikt als betaalmiddel
+    url: https://www.cbn-cnc.be/nl/adviezen/waarderen-en-boeken-van-cryptomunten-gebruikt-als-betaalmiddel
+    datum: '2021-12-06'
+  - titel: 'Schulden en vorderingen: gevolgen van de wijzigingen aan artikel 67 KB W.Venn. door het koninklijk besluit van 18 december 2015'
+    url: https://www.cbn-cnc.be/nl/adviezen/schulden-en-vorderingen-gevolgen-van-de-wijzigingen-aan-artikel-67-kb-wvenn-door-het
+    datum: '2016-07-06'
+  - titel: De boekhoudkundige verwerking van factoringovereenkomsten
+    url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-factoringovereenkomsten
+    datum: '2011-10-05'
 ---
 
 # CBN-advies 2012/5 – Betaling van vorderingen in natura

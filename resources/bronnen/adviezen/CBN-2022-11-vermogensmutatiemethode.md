@@ -1,51 +1,60 @@
 ---
-nummer: "CBN-advies 2022/11"
-datum: 2022-09-09
-themas:
-  - vermogensmutatie
-  - vermogensmutatiemethode
-  - consolidatie
-  - mutaties binnen het eigen vermogen
-  - intragroepstransactie
-  - direct-to-equity mutatie
-  - upstream sale
-  - downstream sale
-  - intragroepsdividend
-  - invloed van betekenis
-  - geconsolideerde jaarrekening
-  - one-line-consolidation
-  - intragroepsverkoop
 bron: https://www.cbn-cnc.be/nl/adviezen/vermogensmutatiemethode
+datum: 2022-09-09
+nummer: CBN-advies 2022/11
 provenance:
+  generated_at: '2026-05-08T18:38:14Z'
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/vermogensmutatiemethode
-      sha256: 00703b083c62932ad00a467870a3bc5061468db96a297ded9921ed568509a7ad
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/vermogensmutatiemethode
+    sha256: 00703b083c62932ad00a467870a3bc5061468db96a297ded9921ed568509a7ad
+    version: null
+  stale: false
+  stale_reason: null
   tooling:
+    model: null
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:38:14Z'
-  stale: false
-  stale_reason:
+    prompt_version: null
   trust:
-    status: trusted
-    qa_version:
     confirmed_at: '2026-05-08T19:02:28Z'
     confirmed_by: subagent-laag2-ronde2
-    rationale: "[Laag-2-R2 2026-05-08] 15 headings voor technisch-diep advies over vermogensmutatiemethode. Grote sectie bevat consistente voorbeelden 1-4 met balansschema's als Markdown-tabellen."
     layer1:
-      verdict: warn
-      heading_count: 23
-      max_section_chars: 37098
-      file_size_chars: 67939
+      file_size_chars: 67935
       flags:
-        - name: max_section_size
-          status: warn
-          detail: 'langste sectie op ##-niveau: 37098 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
-          samples: []
-      run_id: 20260509-212552
+      - detail: 'langste sectie op ###-niveau: 33532 chars (>24000); chunker splitst
+          auto op alinea-grenzen via split_long_chunk'
+        name: max_section_size
+        samples: []
+        status: warn
+      heading_count: 15
+      max_section_chars: 33532
+      run_at: null
+      run_id: 20260511-083333
+      status: warn
+    layer2:
+      agent: subagent-laag2-ronde2
+      concrete_problemen: []
+      rationale: '[Laag-2-R2 2026-05-08] 15 headings voor technisch-diep advies over
+        vermogensmutatiemethode. Grote sectie bevat consistente voorbeelden 1-4 met
+        balansschema''s als Markdown-tabellen.'
+      run_at: '2026-05-08T19:02:28Z'
+      status: trusted
+    rationale: Laag-2 trusted door subagent-laag2-ronde2 (zie layer2.rationale)
+    status: trusted
+themas:
+- vermogensmutatie
+- vermogensmutatiemethode
+- consolidatie
+- mutaties binnen het eigen vermogen
+- intragroepstransactie
+- direct-to-equity mutatie
+- upstream sale
+- downstream sale
+- intragroepsdividend
+- invloed van betekenis
+- geconsolideerde jaarrekening
+- one-line-consolidation
+- intragroepsverkoop
 ---
 
 # CBN-advies 2022/11 – Vermogensmutatiemethode

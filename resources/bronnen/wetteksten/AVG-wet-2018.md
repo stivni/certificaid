@@ -1,14 +1,14 @@
 ---
-tags: ["XIX", "4.0"]
-itaa-lex-sectie: "XIX"
-wet: "Wet 30 juli 2018 betreffende de bescherming van natuurlijke personen met betrekking tot de verwerking van persoonsgegevens"
-bron_rol: "itaa_lex"
-status: "beschikbaar"
-bijgewerkt: "30.07.2018"
-bron: "Fisconetplus.be (officieuze gecoördineerde versie)"
+tags: [XIX, '4.0']
+itaa-lex-sectie: XIX
+wet: Wet 30 juli 2018 betreffende de bescherming van natuurlijke personen met betrekking tot de verwerking van persoonsgegevens
+bron_rol: itaa_lex
+status: beschikbaar
+bijgewerkt: 30.07.2018
+bron: Fisconetplus.be (officieuze gecoördineerde versie)
 chunk:
   level: 5
-  type: "Art."
+  type: Art.
   sub_strategy:
 provenance:
   inputs:
@@ -25,40 +25,26 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    qa_version: trust-rework-2
     confirmed_at: '2026-05-09T21:27:46Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: L1=pass
-    agent_verdict_at: '2026-05-09T21:27:46Z'
-    sample_pick: false
-    sample_reviewed_at:
-    sample_reviewed_by:
     layer1:
-      verdict: pass
+      status: pass
+      run_id: 20260509-212552
+      run_at:
       heading_count: 393
       max_section_chars: 8307
       file_size_chars: 294686
       flags: []
-      run_id: 20260509-212552
-    layer1_5_diff:
-      verdict: improvement
-      rationale: 'Auto-synthesized: ETL-fixes vandaag (NBSP, sub_strategy, justel-extractor, etc.) verbeteren bestaande versie.'
-      kritieke_observaties: []
-      auto: true
-      run_id: trust-finalize-1
-    layer2_content:
-      verdict: trusted
+    layer2:
+      status: trusted
+      agent:
+      run_at:
       rationale: Frontmatter compleet, heading-hierarchie correct (H1 + 8 H2 + 63 H3 + 36 H4), Art.-headings op level 5 zoals chunk-config voorschrijft. Body is leesbaar Nederlands, geen kolom-bleed. TOC-rest staat compact bij regel 42 maar verstoort geen artikel-content.
-      problemen:
+      concrete_problemen:
         - regel: 42
           type: other
           voorbeeld: (Art.254)   (Art.255)    (Art.256) — TOC-residu in lopende tekst
-      sterkte:
-        - 'Art.-headings genest op ##### zoals chunk.level=5'
-        - Geen FR-leak
-        - Art. 1 t/m 281 herkenbaar
-      auto: false
-      run_id: qa-batch-W1
 ---
 
 # Belgische AVG-uitvoeringswet 2018

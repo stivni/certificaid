@@ -2,47 +2,53 @@
 nummer: CBN-advies 2010/16
 datum: 2010-11-10
 themas:
-- compenserende bedragen ter vermindering van de loonkost
-- exploitatiesubsidie
-- fondsen van de vereniging
-- interestsubsidie
-- kapitaalsubsidie
-- kwijtschelding van schulden
-- legaat
-- om niet
-- permanente financiering
-- rentesubsidie
-- schenking
-- stichting
-- subsidies
-- vereniging zonder winstoogmerk
+  - compenserende bedragen ter vermindering van de loonkost
+  - exploitatiesubsidie
+  - fondsen van de vereniging
+  - interestsubsidie
+  - kapitaalsubsidie
+  - kwijtschelding van schulden
+  - legaat
+  - om niet
+  - permanente financiering
+  - rentesubsidie
+  - schenking
+  - stichting
+  - subsidies
+  - vereniging zonder winstoogmerk
 bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-subsidies-schenkingen-en-legaten-toegekend-in-contanten-in
 provenance:
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-subsidies-schenkingen-en-legaten-toegekend-in-contanten-in
-    sha256: b66cf497d0127797f6e2ad5f488d4a6171e035dbf5fe77f441d95017d0a9090c
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-subsidies-schenkingen-en-legaten-toegekend-in-contanten-in
+      sha256: b66cf497d0127797f6e2ad5f488d4a6171e035dbf5fe77f441d95017d0a9090c
+      version:
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model: null
-    prompt_version: null
+    model:
+    prompt_version:
   generated_at: '2026-05-08T18:36:03Z'
   stale: false
-  stale_reason: null
+  stale_reason:
   trust:
-    status: trusted
-    qa_version: trust-rework-2
-    confirmed_at: '2026-05-08T18:40:04Z'
-    confirmed_by: qa-laag1-auto
-    rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    status: unreviewed
+    confirmed_at:
+    confirmed_by:
+    rationale:
     layer1:
-      verdict: pass
+      status: pass
+      run_id: 20260511-083333
+      run_at:
       heading_count: 16
-      max_section_chars: 4515
-      file_size_chars: 27539
+      max_section_chars: 7145
+      file_size_chars: 27543
       flags: []
-      run_id: 20260509-212552
+    layer2:
+      status: not_run
+      agent:
+      run_at:
+      rationale:
+      concrete_problemen: []
 ---
 
 # CBN-advies 2010/16 - Boekhoudkundige verwerking van subsidies, schenkingen en legaten, toegekend in contanten, in de jaarrekening van begunstigde grote en zeer grote verenigingen en stichtingen

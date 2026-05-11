@@ -2,47 +2,53 @@
 nummer: CBN-advies 2010/13
 datum: 2010-09-08
 themas:
-- btw
-- btw-eenheid
-- diensten
-- hoofdelijke aansprakelijkheid
-- levering van goederen
-- toelichting
-- wachtrekening
+  - btw
+  - btw-eenheid
+  - diensten
+  - hoofdelijke aansprakelijkheid
+  - levering van goederen
+  - toelichting
+  - wachtrekening
 bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-belasting-over-de-toegevoegde-waarde-in-hoofde-van-de
 provenance:
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-belasting-over-de-toegevoegde-waarde-in-hoofde-van-de
-    sha256: 756db94869f927c4b46b7cf51c063da0b0ec4779826778b0b1fd161f31c2995c
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-belasting-over-de-toegevoegde-waarde-in-hoofde-van-de
+      sha256: 756db94869f927c4b46b7cf51c063da0b0ec4779826778b0b1fd161f31c2995c
+      version:
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model: null
-    prompt_version: null
+    model:
+    prompt_version:
   generated_at: '2026-05-08T18:36:01Z'
   stale: false
-  stale_reason: null
+  stale_reason:
   trust:
-    status: trusted
-    qa_version: trust-rework-2
-    confirmed_at: '2026-05-08T18:40:03Z'
-    confirmed_by: qa-laag1-auto
-    rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    status: unreviewed
+    confirmed_at:
+    confirmed_by:
+    rationale:
     layer1:
-      verdict: pass
+      status: pass
+      run_id: 20260511-083333
+      run_at:
       heading_count: 4
-      max_section_chars: 4050
-      file_size_chars: 10168
+      max_section_chars: 4051
+      file_size_chars: 10171
       flags: []
-      run_id: 20260509-212552
+    layer2:
+      status: not_run
+      agent:
+      run_at:
+      rationale:
+      concrete_problemen: []
 gerelateerde_adviezen:
-- titel: 'Invoer: douanerechten en verlegging van de heffing van de btw'
-  url: https://www.cbn-cnc.be/nl/adviezen/invoer-douanerechten-en-verlegging-van-de-heffing-van-de-btw
-  datum: '2017-02-01'
-- titel: Prestaties geleverd aan overheid – verschuldigde btw
-  url: https://www.cbn-cnc.be/nl/adviezen/prestaties-geleverd-aan-overheid-verschuldigde-btw
-  datum: '2016-09-07'
+  - titel: 'Invoer: douanerechten en verlegging van de heffing van de btw'
+    url: https://www.cbn-cnc.be/nl/adviezen/invoer-douanerechten-en-verlegging-van-de-heffing-van-de-btw
+    datum: '2017-02-01'
+  - titel: Prestaties geleverd aan overheid – verschuldigde btw
+    url: https://www.cbn-cnc.be/nl/adviezen/prestaties-geleverd-aan-overheid-verschuldigde-btw
+    datum: '2016-09-07'
 ---
 
 # CBN-advies 2010-13 - Boekhoudkundige verwerking van de belasting over de toegevoegde waarde in hoofde van de leden van een btw-eenheid Advies van 8 september 2010

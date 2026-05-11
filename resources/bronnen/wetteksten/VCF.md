@@ -1,10 +1,10 @@
 ---
-tags: ["IV.A", "2.5", "2.6"]
-itaa-lex-sectie: "IV.A"
-wet: "Decreet 13 december 2013 houdende de Vlaamse Codex Fiscaliteit (VCF)"
-status: "beschikbaar"
-bijgewerkt: "03.04.2026"
-bron: "Fisconetplus.be (officieuze gecoördineerde versie)"
+tags: [IV.A, '2.5', '2.6']
+itaa-lex-sectie: IV.A
+wet: Decreet 13 december 2013 houdende de Vlaamse Codex Fiscaliteit (VCF)
+status: beschikbaar
+bijgewerkt: 03.04.2026
+bron: Fisconetplus.be (officieuze gecoördineerde versie)
 provenance:
   inputs:
     - id: resources/raw/wetteksten/VCF-2026.pdf
@@ -20,12 +20,13 @@ provenance:
   stale_reason:
   trust:
     status: rejected
-    qa_version: wetteksten-l2-20260510
     confirmed_at: '2026-05-09T23:20:36Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: 'L2-agent verdict: rejected. PDF-extractie heeft de tweekoloms NL/FR-layout niet gescheiden: rechter-kolom (Franstalige tekst) bleedt als losse beginletters door in de Nederlandse content (1571 regels eindigen met stray single-letter). Definitielijsten (Art. 1.1.0.0.2) zijn op één regel geconcatenateerd waardoor items 1°, 1°/1, 1°/2, ... onleesbaar samenklitten. Onbruikbaar voor RAG zonder volledige re-extract.'
     layer1:
-      verdict: warn
+      status: warn
+      run_id: 20260509-212552
+      run_at:
       heading_count: 900
       max_section_chars: 38251
       file_size_chars: 1181491
@@ -34,17 +35,12 @@ provenance:
           status: warn
           detail: 'langste sectie op ######-niveau: 38251 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
           samples: []
-      run_id: 20260509-212552
-    layer1_5_diff:
-      verdict: improvement
-      rationale: 'Auto-synthesized: ETL-fixes vandaag (NBSP, sub_strategy, justel-extractor, etc.) verbeteren bestaande versie.'
-      kritieke_observaties: []
-      auto: true
-      run_id: trust-finalize-1
-    layer2_content:
-      verdict: rejected
+    layer2:
+      status: rejected
+      agent:
+      run_at:
       rationale: 'PDF-extractie heeft de tweekoloms NL/FR-layout niet gescheiden: rechter-kolom (Franstalige tekst) bleedt als losse beginletters door in de Nederlandse content (1571 regels eindigen met stray single-letter). Definitielijsten (Art. 1.1.0.0.2) zijn op één regel geconcatenateerd waardoor items 1°, 1°/1, 1°/2, ... onleesbaar samenklitten. Onbruikbaar voor RAG zonder volledige re-extract.'
-      problemen:
+      concrete_problemen:
         - regel: 49
           type: column-bleed
           voorbeeld: '1° belastingen en toebehoren : ... waarop deze codex van toepassing is, ... 1 hoofdsom ... a c i d i s'
@@ -60,17 +56,9 @@ provenance:
         - regel: 12344
           type: column-bleed
           voorbeeld: Art. 5.0.0.0.19 ... La ali ins Di d'u eco rep rou ava rem  (Franse fragmenten bleeden door)
-      sterkte:
-        - Frontmatter compleet en consistent met body (titel, sha256, bron, bijgewerkt-datum)
-        - 'Heading-hierarchie correct: TITEL/Hoofdstuk/Afdeling/Onderafdeling/Art. (663 Art-headings)'
-        - Geen TOC-residue (0 stragglers met dot-leaders)
-        - Slot van document compleet tot en met Art. 7.0.0.0.1 + ondertekening (K. PEETERS)
-      auto: false
-      run_id: wetteksten-l2-20260510
-    agent_verdict_at: '2026-05-09T23:20:36Z'
 chunk:
   level: 6
-  type: "Art."
+  type: Art.
   sub_strategy:
 ---
 

@@ -2,11 +2,11 @@
 tags:
   - norm
   - itaa
-naam: "KMO-Controlenorm — Norm contractuele controle KMO's en kleine (i)vzw's"
+naam: KMO-Controlenorm — Norm contractuele controle KMO's en kleine (i)vzw's
 datum: 2019-01-01
 type: norm
-itaa-lex-sectie: "XXI"
-toepassingsgebied: "Accountants en bedrijfsrevisoren bij contractuele controle van KMO's en kleine vzw's (niet-beursgenoteerd)"
+itaa-lex-sectie: XXI
+toepassingsgebied: Accountants en bedrijfsrevisoren bij contractuele controle van KMO's en kleine vzw's (niet-beursgenoteerd)
 themas:
   - controle
   - KMO
@@ -35,16 +35,13 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    qa_version: trust-finalize-1
     confirmed_at: '2026-05-09T20:31:38Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: 'L1=warn; L1.5=improvement (Auto-synthesized: ETL-fixes vandaag (NBSP, sub_strategy, justel-extractor, etc.) verbeteren bestaande versie.); L2=trusted (Goed gestructureerde HTML-extractie met geneste H1/H2/H3-hierarchie. Alle hoofdsecties (1. INLEIDING, 2. GEMEENSCHAPPELIJKE PRINCIPES, ...) als ## of #, sub-secties (1.1.x, 2.1.x, 2.2.x) als ###. INHOUDSTAFEL voorop, Bijlagen 1-4 als ##. Layer-1 warn over max_section_size 43kB is een chunker-aandachtspunt, geen content-issue (split_long_chunk handelt het af).)'
-    agent_verdict_at: '2026-05-09T20:31:38Z'
-    sample_pick: true
-    sample_reviewed_at:
-    sample_reviewed_by:
     layer1:
-      verdict: warn
+      status: warn
+      run_id: 20260511-085756
+      run_at: '2026-05-11T08:57:57Z'
       heading_count: 74
       max_section_chars: 43167
       file_size_chars: 145358
@@ -53,26 +50,15 @@ provenance:
           status: warn
           detail: 'langste sectie op ##-niveau: 43167 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
           samples: []
-      run_id: 20260509-212552
-    layer1_5_diff:
-      verdict: improvement
-      rationale: 'Auto-synthesized: ETL-fixes vandaag (NBSP, sub_strategy, justel-extractor, etc.) verbeteren bestaande versie.'
-      kritieke_observaties: []
-      auto: true
-      run_id: trust-finalize-1
-    layer2_content:
-      verdict: trusted
+    layer2:
+      status: trusted
+      agent:
+      run_at:
       rationale: 'Goed gestructureerde HTML-extractie met geneste H1/H2/H3-hierarchie. Alle hoofdsecties (1. INLEIDING, 2. GEMEENSCHAPPELIJKE PRINCIPES, ...) als ## of #, sub-secties (1.1.x, 2.1.x, 2.2.x) als ###. INHOUDSTAFEL voorop, Bijlagen 1-4 als ##. Layer-1 warn over max_section_size 43kB is een chunker-aandachtspunt, geen content-issue (split_long_chunk handelt het af).'
-      problemen:
+      concrete_problemen:
         - regel: 71
           type: other
           voorbeeld: 'INHOUDSTAFEL als #-heading (in plaats van ##) — minor inconsistentie'
-      sterkte:
-        - 'Volledige hierarchie: H1 → ## hoofdsecties → ### sub-secties intact'
-        - Bijlagen 1-4 met definities, schema, voorbeeldverslagen aanwezig
-        - 'Alle 7 sub-secties van 2.1 (evenredigheid, onafhankelijkheid, ethische regels, vaste vertegenwoordiger, professioneel-kritische instelling, permanente vorming, kwaliteitsbeheersing) en 7 van 2.2 als ###'
-      auto: false
-      run_id: qa-batch-normen
 ---
 # KMO controle norm
 

@@ -1,10 +1,10 @@
 ---
-tags: ["VIII", "2.6"]
-itaa-lex-sectie: "VIII"
-wet: "Wetboek der Registratie-, Hypotheek- en Griffierechten — Waals Gewest"
-status: "beschikbaar"
-bijgewerkt: "16.03.2026"
-bron: "Fisconetplus.be (officieuze gecoördineerde versie)"
+tags: [VIII, '2.6']
+itaa-lex-sectie: VIII
+wet: Wetboek der Registratie-, Hypotheek- en Griffierechten — Waals Gewest
+status: beschikbaar
+bijgewerkt: 16.03.2026
+bron: Fisconetplus.be (officieuze gecoördineerde versie)
 provenance:
   inputs:
     - id: resources/raw/wetteksten/Registratierechten-Waals.pdf
@@ -20,12 +20,13 @@ provenance:
   stale_reason:
   trust:
     status: unreviewed
-    qa_version:
     confirmed_at:
-    confirmed_by: default
+    confirmed_by:
     rationale:
     layer1:
-      verdict: warn
+      status: warn
+      run_id: 20260509-212552
+      run_at:
       heading_count: 607
       max_section_chars: 58101
       file_size_chars: 609340
@@ -41,26 +42,17 @@ provenance:
             - '................................................................................'
             - '................................................................................'
             - '................................................................................'
-      run_id: 20260509-212552
-    layer1_5_diff:
-      verdict: improvement
-      rationale: 'Auto-synthesized: ETL-fixes vandaag (NBSP, sub_strategy, justel-extractor, etc.) verbeteren bestaande versie.'
-      kritieke_observaties: []
-      auto: true
-      run_id: trust-finalize-1
-    layer2_content:
-      verdict: needs-rework
+    layer2:
+      status: needs-rework
+      agent:
+      run_at:
       rationale: Zelfde TOC-stippen-issue als Brussel (74 regels) en zelfde max-section >58k chars. Vermoedelijk gedeeld ETL-pad.
-      problemen:
+      concrete_problemen:
         - 74 TOC-stippen-regels
         - max_section_size 58101 chars
-      sterkte:
-        - headings consistent met Brusselse variant
-      auto: false
-      run_id: qa-batch-W2
 chunk:
   level: 6
-  type: "Art."
+  type: Art.
   sub_strategy:
 ---
 

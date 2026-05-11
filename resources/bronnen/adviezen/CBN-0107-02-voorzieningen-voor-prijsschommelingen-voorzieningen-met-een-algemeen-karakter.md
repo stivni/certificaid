@@ -1,40 +1,46 @@
 ---
-nummer: CBN-advies 107/2
+bron: https://www.cbn-cnc.be/nl/adviezen/voorzieningen-voor-prijsschommelingen-voorzieningen-met-een-algemeen-karakter
 datum: 1979-05-05
+nummer: CBN-advies 107/2
+provenance:
+  generated_at: '2026-05-08T18:33:54Z'
+  inputs:
+  - id: https://www.cbn-cnc.be/nl/adviezen/voorzieningen-voor-prijsschommelingen-voorzieningen-met-een-algemeen-karakter
+    sha256: 9f3ada3b7be31f21eaf5d9b4331e2ae9c898993acf2800646ac72f816dbcaca9
+    version: null
+  stale: false
+  stale_reason: null
+  tooling:
+    model: null
+    pipeline: tools/etl/scrape_cbn_advies.py
+    pipeline_version: uncommitted
+    prompt_version: null
+  trust:
+    confirmed_at: '2026-05-08T19:02:30Z'
+    confirmed_by: subagent-laag2-ronde2
+    layer1:
+      file_size_chars: 5081
+      flags: []
+      heading_count: 0
+      max_section_chars: 5081
+      run_at: null
+      run_id: 20260511-083333
+      status: pass
+    layer2:
+      agent: subagent-laag2-ronde2
+      concrete_problemen: []
+      rationale: '[Laag-2-R2 2026-05-08] Volledig met helder onderscheid geïndividualiseerde
+        risico''s (toegelaten) vs. algemene marktrisico''s (niet toegelaten), grondige
+        motivering.'
+      run_at: '2026-05-08T19:02:30Z'
+      status: trusted
+    rationale: Laag-2 trusted door subagent-laag2-ronde2 (zie layer2.rationale)
+    status: trusted
 themas:
 - prijsschommelingen
 - voorziening
 - voorzieningen met een algemeen karakter
 - voorzieningen voor prijsschommelingen
-bron: https://www.cbn-cnc.be/nl/adviezen/voorzieningen-voor-prijsschommelingen-voorzieningen-met-een-algemeen-karakter
-provenance:
-  inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/voorzieningen-voor-prijsschommelingen-voorzieningen-met-een-algemeen-karakter
-    sha256: 9f3ada3b7be31f21eaf5d9b4331e2ae9c898993acf2800646ac72f816dbcaca9
-    version: null
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model: null
-    prompt_version: null
-  generated_at: '2026-05-08T18:33:54Z'
-  stale: false
-  stale_reason: null
-  trust:
-    status: trusted
-    qa_version: trust-rework-2
-    confirmed_at: '2026-05-08T19:02:30Z'
-    confirmed_by: subagent-laag2-ronde2
-    rationale: '[Laag-2-R2 2026-05-08] Volledig met helder onderscheid geïndividualiseerde
-      risico''s (toegelaten) vs. algemene marktrisico''s (niet toegelaten), grondige
-      motivering.'
-    layer1:
-      verdict: pass
-      heading_count: 0
-      max_section_chars: 5080
-      file_size_chars: 5080
-      flags: []
-      run_id: 20260509-212552
 ---
 
 # CBN-advies 107/2 - Voorzieningen voor prijsschommelingen - Voorzieningen met een algemeen karakter

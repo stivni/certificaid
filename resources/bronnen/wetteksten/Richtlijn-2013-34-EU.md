@@ -1,10 +1,10 @@
 ---
-tags: ["XIII", "1.1", "1.2"]
-itaa-lex-sectie: "XIII"
-wet: "Richtlijn 2013/34/EU van het Europees Parlement en de Raad van 26 juni 2013 betreffende de jaarlijkse financiële overzichten, geconsolideerde financiële overzichten en aanverwante verslagen van bepaalde ondernemingsvormen"
-status: "beschikbaar"
-bijgewerkt: "28.05.2024"
-bron: "ejustice.just.fgov.be (gecoördineerde versie)"
+tags: [XIII, '1.1', '1.2']
+itaa-lex-sectie: XIII
+wet: Richtlijn 2013/34/EU van het Europees Parlement en de Raad van 26 juni 2013 betreffende de jaarlijkse financiële overzichten, geconsolideerde financiële overzichten en aanverwante verslagen van bepaalde ondernemingsvormen
+status: beschikbaar
+bijgewerkt: 28.05.2024
+bron: ejustice.just.fgov.be (gecoördineerde versie)
 provenance:
   inputs:
     - id: resources/raw/wetteksten/Richtlijn-2013-34-EU.pdf
@@ -20,12 +20,13 @@ provenance:
   stale_reason:
   trust:
     status: unreviewed
-    qa_version:
     confirmed_at:
-    confirmed_by: default
+    confirmed_by:
     rationale:
     layer1:
-      verdict: warn
+      status: warn
+      run_id: 20260509-212552
+      run_at:
       heading_count: 163
       max_section_chars: 31271
       file_size_chars: 281757
@@ -34,28 +35,18 @@ provenance:
           status: warn
           detail: 'langste sectie op ###-niveau: 31271 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
           samples: []
-      run_id: 20260509-212552
-    layer1_5_diff:
-      verdict: improvement
-      rationale: 'Auto-synthesized: ETL-fixes vandaag (NBSP, sub_strategy, justel-extractor, etc.) verbeteren bestaande versie.'
-      kritieke_observaties: []
-      auto: true
-      run_id: trust-finalize-1
-    layer2_content:
-      verdict: needs-rework
+    layer2:
+      status: needs-rework
+      agent:
+      run_at:
       rationale: "Tail toont leeg ### Art. 50 / 50a / 51 / 55 met enkel ' — ' — late artikelen lijken inhoudelijk afgekapt. Daarnaast max-section >31k. Body-deel daarvoor lijkt intact, maar de eindartikelen ontbreken aan inhoud."
-      problemen:
+      concrete_problemen:
         - 'leeg ### Art. 50, 50a, 51, 55 (alleen em-dash placeholders)'
         - mogelijke truncatie/extractie-fout op late artikelen
         - max_section_size 31271 chars
-      sterkte:
-        - preamble en gewijzigd-bij-blok opgenomen
-        - '139 ### Art.-headings'
-      auto: false
-      run_id: qa-batch-W2
 chunk:
   level: 3
-  type: "Art."
+  type: Art.
   sub_strategy:
 ---
 

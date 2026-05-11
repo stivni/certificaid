@@ -2,43 +2,49 @@
 nummer: CBN-advies 132/4
 datum: 1988-06-01
 themas:
-- gedekte verrichting
-- handelsgoederen
-- niet in de balans opgenomen rechten en verplichtingen
-- prijsrisico
-- specifieke dekkingsverrichtingen
-- termijn
-- termijnovereenkomst
-- voorraden
-- voorziening
-- voorzieningen voor andere risico’s en kosten
+  - gedekte verrichting
+  - handelsgoederen
+  - niet in de balans opgenomen rechten en verplichtingen
+  - prijsrisico
+  - specifieke dekkingsverrichtingen
+  - termijn
+  - termijnovereenkomst
+  - voorraden
+  - voorziening
+  - voorzieningen voor andere risico’s en kosten
 bron: https://www.cbn-cnc.be/nl/adviezen/termijnovereenkomsten-op-handelsgoederen
 provenance:
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/termijnovereenkomsten-op-handelsgoederen
-    sha256: fba281e0eaf4069ff985457ce4e9bcd65ae43e05810f2cb55639e7daa3afe6f7
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/termijnovereenkomsten-op-handelsgoederen
+      sha256: fba281e0eaf4069ff985457ce4e9bcd65ae43e05810f2cb55639e7daa3afe6f7
+      version:
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model: null
-    prompt_version: null
+    model:
+    prompt_version:
   generated_at: '2026-05-08T18:34:50Z'
   stale: false
-  stale_reason: null
+  stale_reason:
   trust:
-    status: trusted
-    qa_version: trust-rework-2
-    confirmed_at: '2026-05-08T18:40:03Z'
-    confirmed_by: qa-laag1-auto
-    rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    status: unreviewed
+    confirmed_at:
+    confirmed_by:
+    rationale:
     layer1:
-      verdict: pass
+      status: pass
+      run_id: 20260511-083333
+      run_at:
       heading_count: 8
-      max_section_chars: 7785
-      file_size_chars: 12187
+      max_section_chars: 4052
+      file_size_chars: 12188
       flags: []
-      run_id: 20260509-212552
+    layer2:
+      status: not_run
+      agent:
+      run_at:
+      rationale:
+      concrete_problemen: []
 ---
 
 # CBN-advies 132/4 - Termijnovereenkomsten op handelsgoederen

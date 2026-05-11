@@ -2,51 +2,57 @@
 nummer: CBN-advies 133/2
 datum: 1981-12-01
 themas:
-- dividenden
-- dividenduitkering
-- onderneming met participatieverhouding
-- uitkering van een dividend
-- verbonden onderneming
+  - dividenden
+  - dividenduitkering
+  - onderneming met participatieverhouding
+  - uitkering van een dividend
+  - verbonden onderneming
 bron: https://www.cbn-cnc.be/nl/adviezen/uitkering-van-een-dividend-aan-een-verbonden-onderneming
 provenance:
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/uitkering-van-een-dividend-aan-een-verbonden-onderneming
-    sha256: 2964e9efa28a0bb8594cd291790d81747302d45363f00943fbfcdb29b03a6fa5
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/uitkering-van-een-dividend-aan-een-verbonden-onderneming
+      sha256: 2964e9efa28a0bb8594cd291790d81747302d45363f00943fbfcdb29b03a6fa5
+      version:
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model: null
-    prompt_version: null
+    model:
+    prompt_version:
   generated_at: '2026-05-08T18:34:53Z'
   stale: false
-  stale_reason: null
+  stale_reason:
   trust:
-    status: trusted
-    qa_version: trust-rework-2
-    confirmed_at: '2026-05-08T18:40:03Z'
-    confirmed_by: qa-laag1-auto
-    rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    status: unreviewed
+    confirmed_at:
+    confirmed_by:
+    rationale:
     layer1:
-      verdict: pass
+      status: pass
+      run_id: 20260511-083333
+      run_at:
       heading_count: 0
-      max_section_chars: 1287
-      file_size_chars: 1287
+      max_section_chars: 1288
+      file_size_chars: 1288
       flags: []
-      run_id: 20260509-212552
+    layer2:
+      status: not_run
+      agent:
+      run_at:
+      rationale:
+      concrete_problemen: []
 gerelateerde_adviezen:
-- titel: De boekhoudkundige verwerking van (pseudo-)fusies van verenigingen en stichtingen
-  url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-pseudo-fusies-van-verenigingen-en-stichtingen
-  datum: '2013-01-09'
-- titel: De boekhoudkundige verwerking van stockdividenden
-  url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-stockdividenden
-  datum: '2010-03-25'
-- titel: Interimdividend versus tussentijds dividend
-  url: https://www.cbn-cnc.be/nl/adviezen/interimdividend-versus-tussentijds-dividend
-  datum: '2009-01-14'
-- titel: Voorstel tot uitkering van een dividend
-  url: https://www.cbn-cnc.be/nl/adviezen/voorstel-tot-uitkering-van-een-dividend
-  datum: '1981-12-01'
+  - titel: De boekhoudkundige verwerking van (pseudo-)fusies van verenigingen en stichtingen
+    url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-pseudo-fusies-van-verenigingen-en-stichtingen
+    datum: '2013-01-09'
+  - titel: De boekhoudkundige verwerking van stockdividenden
+    url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-stockdividenden
+    datum: '2010-03-25'
+  - titel: Interimdividend versus tussentijds dividend
+    url: https://www.cbn-cnc.be/nl/adviezen/interimdividend-versus-tussentijds-dividend
+    datum: '2009-01-14'
+  - titel: Voorstel tot uitkering van een dividend
+    url: https://www.cbn-cnc.be/nl/adviezen/voorstel-tot-uitkering-van-een-dividend
+    datum: '1981-12-01'
 ---
 
 # CBN-advies 133/2 - Uitkering van een dividend aan een verbonden onderneming

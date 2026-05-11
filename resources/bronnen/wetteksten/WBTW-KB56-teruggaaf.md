@@ -1,14 +1,14 @@
 ---
-tags: ["VI.B", "2.4"]
-itaa-lex-sectie: "VI.B"
-wet: "K.B. nr. 56, 10 april 2022, met betrekking tot de teruggaaf inzake btw aan belastingplichtigen gevestigd in een andere lidstaat dan de lidstaat van teruggaaf"
-bron_rol: "itaa_lex"
-status: "beschikbaar"
-bijgewerkt: "2022"
-bron: "Fisconetplus.be (officieuze gecoördineerde versie)"
+tags: [VI.B, '2.4']
+itaa-lex-sectie: VI.B
+wet: K.B. nr. 56, 10 april 2022, met betrekking tot de teruggaaf inzake btw aan belastingplichtigen gevestigd in een andere lidstaat dan de lidstaat van teruggaaf
+bron_rol: itaa_lex
+status: beschikbaar
+bijgewerkt: '2022'
+bron: Fisconetplus.be (officieuze gecoördineerde versie)
 chunk:
   level: 4
-  type: "Art."
+  type: Art.
   sub_strategy:
 provenance:
   inputs:
@@ -25,37 +25,23 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    qa_version: trust-rework-2
     confirmed_at: '2026-05-09T21:27:46Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: "L1=pass; L1.5=improvement (Auto-synthesized: heading-injection (inject_wbtw_headings.py) — staging is structureel beter dan resources-versie.); L2=trusted (ETL-fix toegepast: inject_wbtw_headings.py heeft TOC-strip + Artikel-N → ## Art. heading-injectie + AFDELING-normalisatie uitgevoerd. Eerdere needs-rework op 'missing-section' opgeheven.)"
-    agent_verdict_at: '2026-05-09T21:27:46Z'
-    sample_pick: false
-    sample_reviewed_at:
-    sample_reviewed_by:
     layer1:
-      verdict: pass
+      status: pass
+      run_id: 20260509-212552
+      run_at:
       heading_count: 54
       max_section_chars: 2999
       file_size_chars: 35504
       flags: []
-      run_id: 20260509-212552
-    layer1_5_diff:
-      verdict: improvement
-      rationale: 'Auto-synthesized: heading-injection (inject_wbtw_headings.py) — staging is structureel beter dan resources-versie.'
-      kritieke_observaties: []
-      auto: true
-      run_id: trust-rework-2
-    layer2_content:
-      verdict: trusted
+    layer2:
+      status: trusted
+      agent:
+      run_at:
       rationale: "Modern PDF-extract met 54 headings (48× #### Art.). Frontmatter consistent met body. Eindigt netjes op slot-artikel '## Art. 48 — De minister bevoegd voor Financiën'. Klaar voor RAG."
-      problemen: []
-      sterkte:
-        - '48 #### Art-headings → fijn-mazige chunking'
-        - Frontmatter en body coherent
-        - Compleet tot uitvoeringsbepaling
-      auto: false
-      run_id: qa-batch-W3
+      concrete_problemen: []
 ---
 
 # BTW KB nr. 56 — Teruggaaf aan buitenlandse belastingplichtigen

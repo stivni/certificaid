@@ -2,37 +2,43 @@
 nummer: CBN-advies 137/3
 datum: 1986-03-01
 themas:
-- overbruggingskrediet
-- prefinanciering van langlopende leningen
-- schulden
-- schulden op meer dan één jaar
+  - overbruggingskrediet
+  - prefinanciering van langlopende leningen
+  - schulden
+  - schulden op meer dan één jaar
 bron: https://www.cbn-cnc.be/nl/adviezen/schulden-op-meer-dan-een-jaar-prefinanciering-van-langlopende-leningen
 provenance:
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/schulden-op-meer-dan-een-jaar-prefinanciering-van-langlopende-leningen
-    sha256: 2cba114a45e58cc130f8caade7b3c1a58ac0efc21f116a912e7eb6e348c481b4
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/schulden-op-meer-dan-een-jaar-prefinanciering-van-langlopende-leningen
+      sha256: 2cba114a45e58cc130f8caade7b3c1a58ac0efc21f116a912e7eb6e348c481b4
+      version:
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model: null
-    prompt_version: null
+    model:
+    prompt_version:
   generated_at: '2026-05-08T18:34:58Z'
   stale: false
-  stale_reason: null
+  stale_reason:
   trust:
-    status: trusted
-    qa_version: trust-rework-2
-    confirmed_at: '2026-05-08T18:40:03Z'
-    confirmed_by: qa-laag1-auto
-    rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    status: unreviewed
+    confirmed_at:
+    confirmed_by:
+    rationale:
     layer1:
-      verdict: pass
+      status: pass
+      run_id: 20260511-083333
+      run_at:
       heading_count: 0
-      max_section_chars: 1405
-      file_size_chars: 1405
+      max_section_chars: 1406
+      file_size_chars: 1406
       flags: []
-      run_id: 20260509-212552
+    layer2:
+      status: not_run
+      agent:
+      run_at:
+      rationale:
+      concrete_problemen: []
 ---
 
 # CBN-advies 137/3 - Schulden op meer dan één jaar - Prefinanciering van langlopende leningen

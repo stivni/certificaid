@@ -2,48 +2,53 @@
 nummer: CBN-advies 147/3
 datum: 1995-03-01
 themas:
-- gespreide taxatie
-- meerwaarde
-- meerwaarde op overheidseffecten
-- Onaantastbaarheidsvoorwaarde
-- uitgestelde belastingen
-- vastrentende effecten
-- belastingvrije reserves
+  - gespreide taxatie
+  - meerwaarde
+  - meerwaarde op overheidseffecten
+  - Onaantastbaarheidsvoorwaarde
+  - uitgestelde belastingen
+  - vastrentende effecten
+  - belastingvrije reserves
 bron: https://www.cbn-cnc.be/nl/adviezen/meerwaarden-op-overheidseffecten-bedoeld-door-artikel-513-van-het-nieuwe-wib
 provenance:
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/meerwaarden-op-overheidseffecten-bedoeld-door-artikel-513-van-het-nieuwe-wib
-    sha256: 5c683304c9ae4d4540e3f0d3a9c2cae209300d4062a50cc9d1a4c655f924ebc4
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/meerwaarden-op-overheidseffecten-bedoeld-door-artikel-513-van-het-nieuwe-wib
+      sha256: 5c683304c9ae4d4540e3f0d3a9c2cae209300d4062a50cc9d1a4c655f924ebc4
+      version:
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model: null
-    prompt_version: null
+    model:
+    prompt_version:
   generated_at: '2026-05-08T18:35:12Z'
   stale: false
-  stale_reason: null
+  stale_reason:
   trust:
-    status: trusted
-    qa_version: trust-rework-2
-    confirmed_at: '2026-05-08T18:40:03Z'
-    confirmed_by: qa-laag1-auto
-    rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    status: unreviewed
+    confirmed_at:
+    confirmed_by:
+    rationale:
     layer1:
-      verdict: pass
+      status: pass
+      run_id: 20260511-083333
+      run_at:
       heading_count: 0
-      max_section_chars: 4559
-      file_size_chars: 4559
+      max_section_chars: 4561
+      file_size_chars: 4561
       flags: []
-      run_id: 20260509-212552
+    layer2:
+      status: not_run
+      agent:
+      run_at:
+      rationale:
+      concrete_problemen: []
 gerelateerde_adviezen:
-- titel: Gerealiseerde meerwaarden waarvoor de uitgestelde-belastingregeling geldt.
-    Kapitaalsubsidies
-  url: https://www.cbn-cnc.be/nl/adviezen/gerealiseerde-meerwaarden-waarvoor-de-uitgestelde-belastingregeling-geldt
-  datum: '1992-02-01'
-- titel: Invloed van een gerechtelijk akkoord op de schulden en vorderingen
-  url: https://www.cbn-cnc.be/nl/adviezen/invloed-van-een-gerechtelijk-akkoord-op-de-schulden-en-vorderingen
-  datum: '1984-01-13'
+  - titel: Gerealiseerde meerwaarden waarvoor de uitgestelde-belastingregeling geldt. Kapitaalsubsidies
+    url: https://www.cbn-cnc.be/nl/adviezen/gerealiseerde-meerwaarden-waarvoor-de-uitgestelde-belastingregeling-geldt
+    datum: '1992-02-01'
+  - titel: Invloed van een gerechtelijk akkoord op de schulden en vorderingen
+    url: https://www.cbn-cnc.be/nl/adviezen/invloed-van-een-gerechtelijk-akkoord-op-de-schulden-en-vorderingen
+    datum: '1984-01-13'
 ---
 
 # CBN-advies 147/3 - Meerwaarden op overheidseffecten bedoeld door artikel 513 van het (nieuwe) WIB

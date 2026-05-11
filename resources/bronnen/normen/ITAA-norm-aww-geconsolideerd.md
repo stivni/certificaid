@@ -2,11 +2,11 @@
 tags:
   - norm
   - itaa
-naam: "Geconsolideerde AWW-norm — IAB-norm + BIBF-richtlijn gecombineerd"
+naam: Geconsolideerde AWW-norm — IAB-norm + BIBF-richtlijn gecombineerd
 datum: 2022-04-26
 type: norm
-itaa-lex-sectie: "XVII"
-toepassingsgebied: "Alle ITAA-leden (gecertificeerde accountants + belastingadviseurs)"
+itaa-lex-sectie: XVII
+toepassingsgebied: Alle ITAA-leden (gecertificeerde accountants + belastingadviseurs)
 themas:
   - antiwitwas
   - cliëntenonderzoek
@@ -35,32 +35,32 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    qa_version: trust-rework-2
-    confirmed_at: '2026-05-09T21:27:46Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: L1=pass
-    agent_verdict_at: '2026-05-09T21:27:46Z'
-    sample_pick: false
-    sample_reviewed_at:
-    sample_reviewed_by:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by:
+    rationale:
     layer1:
-      verdict: pass
-      heading_count: 6
-      max_section_chars: 11377
-      file_size_chars: 25088
-      flags: []
-      run_id: 20260509-212552
-    layer1_5_diff:
-      verdict: improvement
-      rationale: 'Auto-synthesized: ETL-fixes vandaag (NBSP, sub_strategy, justel-extractor, etc.) verbeteren bestaande versie.'
-      kritieke_observaties: []
-      auto: true
-      run_id: trust-finalize-1
-    layer2_content:
-      verdict: needs-rework
+      status: fail
+      run_id: 20260511-085756
+      run_at: '2026-05-11T08:57:56Z'
+      heading_count: 0
+      max_section_chars: 43060
+      file_size_chars: 43060
+      flags:
+        - name: heading_structure
+          status: warn
+          detail: bestand van 43060 chars heeft 0 headings (## of dieper) → degraded chunking
+          samples: []
+        - name: max_section_size
+          status: fail
+          detail: 'langste sectie: 43060 chars (>24000) — geen heading-structuur aanwezig'
+          samples: []
+    layer2:
+      status: needs-rework
+      agent:
+      run_at:
       rationale: "Geconsolideerde tekst is zeer fragmentarisch geconverteerd. Slechts secties 1, 5 en bijlagen I-III als ## heading; secties 2, 3, 4, 6, 7, 8 ontbreken volledig als heading (sommige zijn als plain '6.3.', '7.', '8.' in body). Inhoudstafel L65-119 vol met TOC-dot-leaders ('---- 4'). Header-tekst L44-61 versplinterd over blanco regels."
-      problemen:
+      concrete_problemen:
         - regel: 44
           type: scrambled-words
           voorbeeld: "'Geconsolideerde tekst...' splitst over 4 alinea's met blanco regels in de titel"
@@ -76,11 +76,6 @@ provenance:
         - regel: 294
           type: abrupt-cutoff
           voorbeeld: "'## 8. Toezicht en controle Teneinde de Toezichtautoriteit toe te laten de' — eindigt mid-sentence"
-      sterkte:
-        - Definities-blok (1.1, 1°-10°) intact onder sectie 1
-        - 'Bijlagen I, II, III als afzonderlijke ## headings'
-      auto: false
-      run_id: qa-batch-normen
 ---
 
 Geconsolideerde tekst door het Instituut van de 

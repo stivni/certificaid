@@ -1,19 +1,25 @@
 ---
-tags: ["2.6", "1.2"]
-itaa-lex-sectie: ""
-wet: "Wet 4 april 2014 betreffende de verzekeringen"
-bron_rol: "normatief"
-status: "beschikbaar"
-bijgewerkt: "24.12.2025"
-bron: "www.ejustice.just.fgov.be (Justel, gecoördineerde versie)"
+tags: ['2.6', '1.2']
+itaa-lex-sectie: ''
+wet: Wet 4 april 2014 betreffende de verzekeringen
+bron_rol: normatief
+status: beschikbaar
+bijgewerkt: 24.12.2025
+bron: www.ejustice.just.fgov.be (Justel, gecoördineerde versie)
 chunk:
   level: 2
-  type: "Art."
+  type: Art.
   sub_strategy:
 provenance:
   trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by:
+    rationale:
     layer1:
-      verdict: warn
+      status: warn
+      run_id: 20260509-212552
+      run_at:
       heading_count: 192
       max_section_chars: 32357
       file_size_chars: 195375
@@ -22,25 +28,15 @@ provenance:
           status: warn
           detail: 'langste sectie op ######-niveau: 32357 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
           samples: []
-      run_id: 20260509-212552
-    layer1_5_diff:
-      verdict: improvement
-      rationale: 'Auto-synthesized: ETL-fixes vandaag (NBSP, sub_strategy, justel-extractor, etc.) verbeteren bestaande versie.'
-      kritieke_observaties: []
-      auto: true
-      run_id: trust-finalize-1
-    layer2_content:
-      verdict: needs-rework
+    layer2:
+      status: needs-rework
+      agent:
+      run_at:
       rationale: "Bestand eindigt op '## Art.' — abrupt afgekapt zonder artikel-nummer en zonder body. Verder 192 ###### Art.-headings, body OK, maar de cutoff suggereert dat de laatste artikelen (waarschijnlijk slot/inwerkingtreding) ontbreken."
-      problemen:
+      concrete_problemen:
         - regel: -1
           type: abrupt-cutoff
           voorbeeld: '## Art.   (laatste regel; geen nummer, geen body)'
-      sterkte:
-        - DEEL/##/###### Art.-hierarchie consistent
-        - Substantieel grootste deel van de wet (~195KB) leesbaar
-      auto: false
-      run_id: qa-batch-W4
 ---
 
 # Wet 4 april 2014 betreffende de verzekeringen

@@ -1,49 +1,53 @@
 ---
-nummer: "CBN-advies 3/3"
-datum: 2008-01-31
-themas:
-  - eliminatie
-  - geassocieerde onderneming
-  - globale integratiemethode
-  - integratie methode
-  - proportionele integratiemethode
-  - rekening-courant
-  - tijdelijk handelsvennootschap
-  - tijdelijke handelsvereniging
-  - uitgebreide equivalentiemethode
-  - waarderingsregels
-  - waarderingsregels in de tijdelijke handelsvennootschap
 bron: https://www.cbn-cnc.be/nl/adviezen/advies-inzake-de-boekhoudkundige-verwerking-van-verrichtingen-van-tijdelijk
+datum: 2008-01-31
+nummer: CBN-advies 3/3
 provenance:
+  generated_at: '2026-05-08T18:33:22Z'
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/advies-inzake-de-boekhoudkundige-verwerking-van-verrichtingen-van-tijdelijk
-      sha256: ce71fe8e4f9b9100e75abec5685775f52a3886600e87139cabfc6a58c9a1d4e5
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/advies-inzake-de-boekhoudkundige-verwerking-van-verrichtingen-van-tijdelijk
+    sha256: ce71fe8e4f9b9100e75abec5685775f52a3886600e87139cabfc6a58c9a1d4e5
+    version: null
+  stale: false
+  stale_reason: null
   tooling:
+    model: null
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:33:22Z'
-  stale: false
-  stale_reason:
+    prompt_version: null
   trust:
-    status: trusted
-    qa_version:
     confirmed_at: '2026-05-08T19:02:27Z'
     confirmed_by: subagent-laag2-ronde2
-    rationale: '[Laag-2-R2 2026-05-08] 51 headings met duidelijke hiërarchie per integratiemethode. De grote sectie bevat geneste voorbeelden maar alle methoden zijn volledig uitgewerkt.'
     layer1:
-      verdict: warn
-      heading_count: 54
-      max_section_chars: 26578
-      file_size_chars: 82581
-      flags:
-        - name: max_section_size
-          status: warn
-          detail: 'langste sectie op ##-niveau: 26578 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
-          samples: []
-      run_id: 20260509-212552
+      file_size_chars: 82702
+      flags: []
+      heading_count: 51
+      max_section_chars: 16268
+      run_at: null
+      run_id: 20260511-083333
+      status: pass
+    layer2:
+      agent: subagent-laag2-ronde2
+      concrete_problemen: []
+      rationale: '[Laag-2-R2 2026-05-08] 51 headings met duidelijke hiërarchie per
+        integratiemethode. De grote sectie bevat geneste voorbeelden maar alle methoden
+        zijn volledig uitgewerkt.'
+      run_at: '2026-05-08T19:02:27Z'
+      status: trusted
+    rationale: Laag-2 trusted door subagent-laag2-ronde2 (zie layer2.rationale)
+    status: trusted
+themas:
+- eliminatie
+- geassocieerde onderneming
+- globale integratiemethode
+- integratie methode
+- proportionele integratiemethode
+- rekening-courant
+- tijdelijk handelsvennootschap
+- tijdelijke handelsvereniging
+- uitgebreide equivalentiemethode
+- waarderingsregels
+- waarderingsregels in de tijdelijke handelsvennootschap
 ---
 
 # ADVIES 3-3 - INZAKE DE BOEKHOUDKUNDIGE VERWERKING VAN VERRICHTINGEN VAN TIJDELIJKE HANDELSVENNOOTSCHAPPEN

@@ -2,37 +2,43 @@
 nummer: CBN-advies 2012/8
 datum: 2012-06-06
 themas:
-- burgerlijke maatschap
-- inbreng
-- proportionele integratiemethode
-- realisatie
+  - burgerlijke maatschap
+  - inbreng
+  - proportionele integratiemethode
+  - realisatie
 bron: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-inbreng-in-eigendom-in-een-belgische-burgerlijke
 provenance:
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-inbreng-in-eigendom-in-een-belgische-burgerlijke
-    sha256: cf24aa3f760d50dc1b488d09cc2327fdf8077a89461654915c14c249c627b655
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-inbreng-in-eigendom-in-een-belgische-burgerlijke
+      sha256: cf24aa3f760d50dc1b488d09cc2327fdf8077a89461654915c14c249c627b655
+      version:
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model: null
-    prompt_version: null
+    model:
+    prompt_version:
   generated_at: '2026-05-08T18:36:27Z'
   stale: false
-  stale_reason: null
+  stale_reason:
   trust:
-    status: trusted
-    qa_version: trust-rework-2
-    confirmed_at: '2026-05-08T18:40:04Z'
-    confirmed_by: qa-laag1-auto
-    rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    status: unreviewed
+    confirmed_at:
+    confirmed_by:
+    rationale:
     layer1:
-      verdict: pass
-      heading_count: 8
-      max_section_chars: 4883
-      file_size_chars: 12680
+      status: pass
+      run_id: 20260511-083333
+      run_at:
+      heading_count: 3
+      max_section_chars: 9135
+      file_size_chars: 12682
       flags: []
-      run_id: 20260509-212552
+    layer2:
+      status: not_run
+      agent:
+      run_at:
+      rationale:
+      concrete_problemen: []
 ---
 
 # CBN-advies 2012/8 – De boekhoudkundige verwerking van de inbreng in eigendom in een Belgische burgerlijke maatschap die niet de rechtsvorm heeft aangenomen van een handelsvennootschap

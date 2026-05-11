@@ -1,14 +1,14 @@
 ---
-tags: ["XVIII", "4.0"]
-itaa-lex-sectie: "XVIII"
-wet: "Wet 28 november 2022 betreffende de bescherming van melders van inbreuken op het Unie- of nationale recht vastgesteld binnen een juridische entiteit in de private sector"
-bron_rol: "itaa_lex"
-status: "beschikbaar"
-bijgewerkt: "28.11.2022"
-bron: "Fisconetplus.be (officieuze gecoördineerde versie)"
+tags: [XVIII, '4.0']
+itaa-lex-sectie: XVIII
+wet: Wet 28 november 2022 betreffende de bescherming van melders van inbreuken op het Unie- of nationale recht vastgesteld binnen een juridische entiteit in de private sector
+bron_rol: itaa_lex
+status: beschikbaar
+bijgewerkt: 28.11.2022
+bron: Fisconetplus.be (officieuze gecoördineerde versie)
 chunk:
   level: 4
-  type: "Art."
+  type: Art.
   sub_strategy:
 provenance:
   inputs:
@@ -25,38 +25,24 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    qa_version: trust-rework-2
     confirmed_at: '2026-05-09T21:27:46Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: L1=pass
-    agent_verdict_at: '2026-05-09T21:27:46Z'
-    sample_pick: false
-    sample_reviewed_at:
-    sample_reviewed_by:
     layer1:
-      verdict: pass
+      status: pass
+      run_id: 20260509-212552
+      run_at:
       heading_count: 99
       max_section_chars: 7002
       file_size_chars: 87889
       flags: []
-      run_id: 20260509-212552
-    layer1_5_diff:
-      verdict: improvement
-      rationale: 'Auto-synthesized: ETL-fixes vandaag (NBSP, sub_strategy, justel-extractor, etc.) verbeteren bestaande versie.'
-      kritieke_observaties: []
-      auto: true
-      run_id: trust-finalize-1
-    layer2_content:
-      verdict: trusted
+    layer2:
+      status: trusted
+      agent:
+      run_at:
       rationale: 'Frontmatter compleet, structuur consistent (HOOFDSTUK / Afdeling / #### Art.), volledig van Art. 1 t/m Art. 58, inclusief overgangs- en inwerkingtredingsbepalingen. Eén kleine smetheid (Art. 11 met inline §1 in heading-regel) is cosmetisch.'
-      problemen:
+      concrete_problemen:
         - '#### Art. 11.§ 1. … staat als inline-content in heading-regel i.p.v. body (één keer)'
-      sterkte:
-        - 58 Art.-headings goed afgebakend
-        - frontmatter correct
-        - geen NBSP/scrambled/FR-leak gedetecteerd
-      auto: false
-      run_id: qa-batch-W2
 ---
 
 # Klokkenluiderswet 2022

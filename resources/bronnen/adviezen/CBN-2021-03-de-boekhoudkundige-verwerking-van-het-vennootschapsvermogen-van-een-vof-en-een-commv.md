@@ -2,40 +2,46 @@
 nummer: CBN-advies 2021/03
 datum: 2021-03-11
 themas:
-- vennootschapsvermogen
-- vennootschap onder firma
-- VOF
-- commanditaire vennootschap
-- CommV
-- beschikbare inbreng
-- onbeschikbare inbreng
+  - vennootschapsvermogen
+  - vennootschap onder firma
+  - VOF
+  - commanditaire vennootschap
+  - CommV
+  - beschikbare inbreng
+  - onbeschikbare inbreng
 bron: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-het-vennootschapsvermogen-van-een-vof-en-een-commv
 provenance:
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-het-vennootschapsvermogen-van-een-vof-en-een-commv
-    sha256: 6e31fafb6649d97e2827f0bc0eb53056734b456f97847d592d95a2a7f6f49904
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-het-vennootschapsvermogen-van-een-vof-en-een-commv
+      sha256: 6e31fafb6649d97e2827f0bc0eb53056734b456f97847d592d95a2a7f6f49904
+      version:
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model: null
-    prompt_version: null
+    model:
+    prompt_version:
   generated_at: '2026-05-08T18:37:56Z'
   stale: false
-  stale_reason: null
+  stale_reason:
   trust:
-    status: trusted
-    qa_version: trust-rework-2
-    confirmed_at: '2026-05-08T18:40:05Z'
-    confirmed_by: qa-laag1-auto
-    rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    status: unreviewed
+    confirmed_at:
+    confirmed_by:
+    rationale:
     layer1:
-      verdict: pass
+      status: pass
+      run_id: 20260511-083333
+      run_at:
       heading_count: 0
-      max_section_chars: 4060
-      file_size_chars: 4060
+      max_section_chars: 4062
+      file_size_chars: 4062
       flags: []
-      run_id: 20260509-212552
+    layer2:
+      status: not_run
+      agent:
+      run_at:
+      rationale:
+      concrete_problemen: []
 ---
 
 # CBN-advies 2021/03 – Boekhoudkundige verwerking van het vennootschapsvermogen van een VOF en een CommV ingevolge de inwerkingtreding van het WVV

@@ -2,35 +2,41 @@
 nummer: CBN-advies R100-1
 datum: 1979-05-01
 themas:
-- opening van bijkomende rekeningen
-- rekeningenstelsel
+  - opening van bijkomende rekeningen
+  - rekeningenstelsel
 bron: https://www.cbn-cnc.be/nl/adviezen/opening-van-bijkomende-rekeningen
 provenance:
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/opening-van-bijkomende-rekeningen
-    sha256: abca0e7e72000a14456d7ea736e7f8a6830c3a697d938749485bd8da80bacb04
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/opening-van-bijkomende-rekeningen
+      sha256: abca0e7e72000a14456d7ea736e7f8a6830c3a697d938749485bd8da80bacb04
+      version:
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model: null
-    prompt_version: null
+    model:
+    prompt_version:
   generated_at: '2026-05-08T18:33:35Z'
   stale: false
-  stale_reason: null
+  stale_reason:
   trust:
-    status: trusted
-    qa_version: trust-rework-2
-    confirmed_at: '2026-05-08T18:40:02Z'
-    confirmed_by: qa-laag1-auto
-    rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    status: unreviewed
+    confirmed_at:
+    confirmed_by:
+    rationale:
     layer1:
-      verdict: pass
+      status: pass
+      run_id: 20260511-083333
+      run_at:
       heading_count: 0
-      max_section_chars: 3891
-      file_size_chars: 3891
+      max_section_chars: 3892
+      file_size_chars: 3892
       flags: []
-      run_id: 20260509-212552
+    layer2:
+      status: not_run
+      agent:
+      run_at:
+      rationale:
+      concrete_problemen: []
 ---
 
 # CBN-advies R100/1 - Opening van bijkomende rekeningen

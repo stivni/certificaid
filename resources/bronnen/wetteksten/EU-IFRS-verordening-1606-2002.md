@@ -1,14 +1,14 @@
 ---
-tags: ["1.2", "1.5"]
-itaa-lex-sectie: ""
-wet: "Verordening (EG) nr. 1606/2002 van het Europees Parlement en de Raad van 19 juli 2002 betreffende de toepassing van internationale standaarden voor jaarrekeningen"
-bron_rol: "normatief"
-status: "beschikbaar"
-bijgewerkt: "11.09.2002"
-bron: "ejustice.just.fgov.be (gecoördineerde versie)"
+tags: ['1.2', '1.5']
+itaa-lex-sectie: ''
+wet: Verordening (EG) nr. 1606/2002 van het Europees Parlement en de Raad van 19 juli 2002 betreffende de toepassing van internationale standaarden voor jaarrekeningen
+bron_rol: normatief
+status: beschikbaar
+bijgewerkt: 11.09.2002
+bron: ejustice.just.fgov.be (gecoördineerde versie)
 chunk:
   level: 2
-  type: "Art."
+  type: Art.
   sub_strategy:
 provenance:
   inputs:
@@ -25,36 +25,23 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    qa_version: trust-rework-2
     confirmed_at: '2026-05-09T21:27:46Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: L1=pass
-    agent_verdict_at: '2026-05-09T21:27:46Z'
-    sample_pick: false
-    sample_reviewed_at:
-    sample_reviewed_by:
     layer1:
-      verdict: pass
+      status: pass
+      run_id: 20260509-212552
+      run_at:
       heading_count: 11
       max_section_chars: 12539
       file_size_chars: 18624
       flags: []
-      run_id: 20260509-212552
-    layer1_5_diff:
-      verdict: improvement
-      rationale: 'Auto-synthesized: ETL-fixes vandaag (NBSP, sub_strategy, justel-extractor, etc.) verbeteren bestaande versie.'
-      kritieke_observaties: []
-      auto: true
-      run_id: trust-finalize-1
-    layer2_content:
-      verdict: trusted
+    layer2:
+      status: trusted
+      agent:
+      run_at:
       rationale: Verordening 1606/2002 met 11 artikelen op H2 (chunk.level=2). Body leesbaar, soft hyphens uit PDF maar woorden intact. Geen kolom-bleed.
-      problemen: []
-      sterkte:
-        - 11 artikelen herkenbaar
-        - Volledige overwegingen
-      auto: false
-      run_id: qa-batch-W1
+      concrete_problemen: []
 ---
 
 # Verordening (EG) nr. 1606/2002 van het Europees Parlement en de Raad van 19 juli 2002 betreffende de toepassing van internationale standaarden voor jaarrekeningen

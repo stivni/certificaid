@@ -2,39 +2,45 @@
 nummer: CBN-advies 156/1
 datum: 1988-06-01
 themas:
-- financieringsfonds
-- diverse rechten en verplichtingen
-- groepsverzekering
-- solidariteitsfonds
-- toevoeging aan het solidariteitsfonds
-- diverse rechten en verplichtingen
+  - financieringsfonds
+  - diverse rechten en verplichtingen
+  - groepsverzekering
+  - solidariteitsfonds
+  - toevoeging aan het solidariteitsfonds
+  - diverse rechten en verplichtingen
 bron: https://www.cbn-cnc.be/nl/adviezen/attribution-au-fonds-de-solidarite
 provenance:
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/attribution-au-fonds-de-solidarite
-    sha256: 8cacfc90853998f3871875e44ba476c7ef266c820e400d9455d3458559a5b7fd
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/attribution-au-fonds-de-solidarite
+      sha256: 8cacfc90853998f3871875e44ba476c7ef266c820e400d9455d3458559a5b7fd
+      version:
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model: null
-    prompt_version: null
+    model:
+    prompt_version:
   generated_at: '2026-05-08T18:35:25Z'
   stale: false
-  stale_reason: null
+  stale_reason:
   trust:
-    status: trusted
-    qa_version: trust-rework-2
-    confirmed_at: '2026-05-08T18:40:03Z'
-    confirmed_by: qa-laag1-auto
-    rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    status: unreviewed
+    confirmed_at:
+    confirmed_by:
+    rationale:
     layer1:
-      verdict: pass
+      status: pass
+      run_id: 20260511-083333
+      run_at:
       heading_count: 0
-      max_section_chars: 1299
-      file_size_chars: 1299
+      max_section_chars: 1300
+      file_size_chars: 1300
       flags: []
-      run_id: 20260509-212552
+    layer2:
+      status: not_run
+      agent:
+      run_at:
+      rationale:
+      concrete_problemen: []
 ---
 
 # CBN-advies 156/1 - Groepsverzekering - Toevoeging aan het solidariteitsfonds

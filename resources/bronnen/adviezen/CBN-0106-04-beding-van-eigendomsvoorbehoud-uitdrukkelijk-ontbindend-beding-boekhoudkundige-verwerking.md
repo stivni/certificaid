@@ -2,40 +2,44 @@
 nummer: CBN-advies 106/4
 datum: 1985-09-01
 themas:
-- uitdrukkelijk ontbindend beding
-- zekerheden
-- beding van eigendomsvoorbehoud
-- eigendomsvoorbehoud
-- materiële vaste activa
+  - uitdrukkelijk ontbindend beding
+  - zekerheden
+  - beding van eigendomsvoorbehoud
+  - eigendomsvoorbehoud
+  - materiële vaste activa
 bron: https://www.cbn-cnc.be/nl/adviezen/beding-van-eigendomsvoorbehoud-uitdrukkelijk-ontbindend-beding-boekhoudkundige-verwerking
 provenance:
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/beding-van-eigendomsvoorbehoud-uitdrukkelijk-ontbindend-beding-boekhoudkundige-verwerking
-    sha256: 451809518250a07e8fb49ee7552ca201a1ae2beff859e8089ca71cf7fed80052
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/beding-van-eigendomsvoorbehoud-uitdrukkelijk-ontbindend-beding-boekhoudkundige-verwerking
+      sha256: 451809518250a07e8fb49ee7552ca201a1ae2beff859e8089ca71cf7fed80052
+      version:
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model: null
-    prompt_version: null
+    model:
+    prompt_version:
   generated_at: '2026-05-08T21:29:58Z'
   stale: false
-  stale_reason: null
+  stale_reason:
   trust:
     status: trusted
-    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T21:31:10Z'
     confirmed_by: human
-    rationale: 'Herscraped na fix select_title(): gecombineerde H1 (COMMISSIE + titel)
-      correct gesplitst. Inhoud ongewijzigd t.o.v. vorig vertrouwd verdict. Laag 1
-      pass (of benign max_section warn).'
+    rationale: 'Herscraped na fix select_title(): gecombineerde H1 (COMMISSIE + titel) correct gesplitst. Inhoud ongewijzigd t.o.v. vorig vertrouwd verdict. Laag 1 pass (of benign max_section warn).'
     layer1:
-      verdict: pass
+      status: pass
+      run_id: 20260511-083333
+      run_at:
       heading_count: 2
-      max_section_chars: 9004
-      file_size_chars: 9004
+      max_section_chars: 4170
+      file_size_chars: 9005
       flags: []
-      run_id: 20260509-212552
+    layer2:
+      status: not_run
+      agent:
+      run_at:
+      rationale:
+      concrete_problemen: []
 ---
 
 # CBN-advies 106/4 - Beding van eigendomsvoorbehoud - Uitdrukkelijk ontbindend beding. Boekhoudkundige verwerking

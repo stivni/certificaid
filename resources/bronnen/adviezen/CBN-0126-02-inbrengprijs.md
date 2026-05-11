@@ -2,54 +2,56 @@
 nummer: CBN-advies 126/2
 datum: 1980-06-01
 themas:
-- inbreng
-- inbrengprijs
-- kosten van oprichting en kapitaalverhoging
-- oprichtingskosten
+  - inbreng
+  - inbrengprijs
+  - kosten van oprichting en kapitaalverhoging
+  - oprichtingskosten
 bron: https://www.cbn-cnc.be/nl/adviezen/inbrengprijs
 provenance:
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/inbrengprijs
-    sha256: b780564a7b1f0eed2709b1d3d3858fbf8e12a265541a5de2098929a68176c846
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/inbrengprijs
+      sha256: b780564a7b1f0eed2709b1d3d3858fbf8e12a265541a5de2098929a68176c846
+      version:
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model: null
-    prompt_version: null
+    model:
+    prompt_version:
   generated_at: '2026-05-08T18:34:35Z'
   stale: false
-  stale_reason: null
+  stale_reason:
   trust:
-    status: trusted
-    qa_version: trust-rework-2
-    confirmed_at: '2026-05-08T18:40:03Z'
-    confirmed_by: qa-laag1-auto
-    rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    status: unreviewed
+    confirmed_at:
+    confirmed_by:
+    rationale:
     layer1:
-      verdict: pass
+      status: pass
+      run_id: 20260511-083333
+      run_at:
       heading_count: 0
-      max_section_chars: 1652
-      file_size_chars: 1652
+      max_section_chars: 1653
+      file_size_chars: 1653
       flags: []
-      run_id: 20260509-212552
+    layer2:
+      status: not_run
+      agent:
+      run_at:
+      rationale:
+      concrete_problemen: []
 gerelateerde_adviezen:
-- titel: Boekhoudkundige verwerking van de inbreng van een bedrijfstak of van een
-    algemeenheid (update) [ONTWERP]
-  url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-inbreng-van-een-bedrijfstak-of-van-een-algemeenheid
-  datum: '2023-08-29'
-- titel: Overgang van een kapitaalhoudende coöperatieve vennootschap naar een kapitaalloze
-    vennootschap
-  url: https://www.cbn-cnc.be/nl/adviezen/overgang-van-een-kapitaalhoudende-cooperatieve-vennootschap-naar-een-kapitaalloze
-  datum: '2020-12-09'
-- titel: Inbreng in nijverheid bij besloten vennootschappen en coöperatieve vennootschappen
-    [ONTWERP]
-  url: https://www.cbn-cnc.be/nl/adviezen/inbreng-in-nijverheid-bij-besloten-vennootschappen-en-cooperatieve-vennootschappen-ontwerp
-  datum: '2020-03-10'
-- titel: 'Neerlegging van de enkelvoudige jaarrekening bij de Nationale Bank van België:
-    nieuwe modellen van de jaarrekening'
-  url: https://www.cbn-cnc.be/nl/adviezen/neerlegging-van-de-enkelvoudige-jaarrekening-bij-de-nationale-bank-van-belgie-nieuwe
-  datum: '2020-01-27'
+  - titel: Boekhoudkundige verwerking van de inbreng van een bedrijfstak of van een algemeenheid (update) [ONTWERP]
+    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-inbreng-van-een-bedrijfstak-of-van-een-algemeenheid
+    datum: '2023-08-29'
+  - titel: Overgang van een kapitaalhoudende coöperatieve vennootschap naar een kapitaalloze vennootschap
+    url: https://www.cbn-cnc.be/nl/adviezen/overgang-van-een-kapitaalhoudende-cooperatieve-vennootschap-naar-een-kapitaalloze
+    datum: '2020-12-09'
+  - titel: Inbreng in nijverheid bij besloten vennootschappen en coöperatieve vennootschappen [ONTWERP]
+    url: https://www.cbn-cnc.be/nl/adviezen/inbreng-in-nijverheid-bij-besloten-vennootschappen-en-cooperatieve-vennootschappen-ontwerp
+    datum: '2020-03-10'
+  - titel: 'Neerlegging van de enkelvoudige jaarrekening bij de Nationale Bank van België: nieuwe modellen van de jaarrekening'
+    url: https://www.cbn-cnc.be/nl/adviezen/neerlegging-van-de-enkelvoudige-jaarrekening-bij-de-nationale-bank-van-belgie-nieuwe
+    datum: '2020-01-27'
 ---
 
 # CBN-advies 126/2 - Inbrengprijs

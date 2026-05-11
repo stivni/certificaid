@@ -2,53 +2,59 @@
 nummer: CBN-advies 2011/13
 datum: 2011-05-04
 themas:
-- administratieve overheid
-- exploitatiesubsidie
-- immateriële vaste activa
-- interestsubsidie
-- investeringssubsidie
-- kapitaalsubsidie
-- know-how
-- kosten van onderzoek en ontwikkeling
-- ontwikkelingskosten voor prototypes
-- openbare instelling
-- opschortende voorwaarde
-- overheid
-- overheidssteun
-- overheidssubsidies
-- prototype
-- rentesubsidie
-- subsidies
-- subsidies in natura
-- subsidies voor kosten van onderzoek en ontwikkeling
-- uitgestelde belastingen
+  - administratieve overheid
+  - exploitatiesubsidie
+  - immateriële vaste activa
+  - interestsubsidie
+  - investeringssubsidie
+  - kapitaalsubsidie
+  - know-how
+  - kosten van onderzoek en ontwikkeling
+  - ontwikkelingskosten voor prototypes
+  - openbare instelling
+  - opschortende voorwaarde
+  - overheid
+  - overheidssteun
+  - overheidssubsidies
+  - prototype
+  - rentesubsidie
+  - subsidies
+  - subsidies in natura
+  - subsidies voor kosten van onderzoek en ontwikkeling
+  - uitgestelde belastingen
 bron: https://www.cbn-cnc.be/nl/adviezen/overheidssubsidies
 provenance:
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/overheidssubsidies
-    sha256: f994ee22711e985d88df6a643db5ad06c0f9102fb6dcbdaeb8dfcd2296467fab
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/overheidssubsidies
+      sha256: f994ee22711e985d88df6a643db5ad06c0f9102fb6dcbdaeb8dfcd2296467fab
+      version:
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model: null
-    prompt_version: null
+    model:
+    prompt_version:
   generated_at: '2026-05-08T18:36:12Z'
   stale: false
-  stale_reason: null
+  stale_reason:
   trust:
-    status: trusted
-    qa_version: trust-rework-2
-    confirmed_at: '2026-05-08T18:40:04Z'
-    confirmed_by: qa-laag1-auto
-    rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    status: unreviewed
+    confirmed_at:
+    confirmed_by:
+    rationale:
     layer1:
-      verdict: pass
-      heading_count: 40
-      max_section_chars: 15308
-      file_size_chars: 41896
+      status: pass
+      run_id: 20260511-083333
+      run_at:
+      heading_count: 25
+      max_section_chars: 13822
+      file_size_chars: 41842
       flags: []
-      run_id: 20260509-212552
+    layer2:
+      status: not_run
+      agent:
+      run_at:
+      rationale:
+      concrete_problemen: []
 ---
 
 # CBN-advies 2011/13 – Overheidssubsidies

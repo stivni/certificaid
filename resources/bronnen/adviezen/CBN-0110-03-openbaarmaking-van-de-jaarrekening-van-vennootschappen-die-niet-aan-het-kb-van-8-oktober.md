@@ -2,53 +2,55 @@
 nummer: CBN-advies 110/3
 datum: 1978-12-01
 themas:
-- openbaarmaking
-- publicatie
-- toelichting
+  - openbaarmaking
+  - publicatie
+  - toelichting
 bron: https://www.cbn-cnc.be/nl/adviezen/openbaarmaking-van-de-jaarrekening-van-vennootschappen-die-niet-aan-het-kb-van-8-oktober
 provenance:
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/openbaarmaking-van-de-jaarrekening-van-vennootschappen-die-niet-aan-het-kb-van-8-oktober
-    sha256: 04c3efcf26b53359a937e4cc47321b07d2c2efb6885af5bc79b805678053142c
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/openbaarmaking-van-de-jaarrekening-van-vennootschappen-die-niet-aan-het-kb-van-8-oktober
+      sha256: 04c3efcf26b53359a937e4cc47321b07d2c2efb6885af5bc79b805678053142c
+      version:
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model: null
-    prompt_version: null
+    model:
+    prompt_version:
   generated_at: '2026-05-08T18:34:07Z'
   stale: false
-  stale_reason: null
+  stale_reason:
   trust:
-    status: trusted
-    qa_version: trust-rework-2
-    confirmed_at: '2026-05-08T18:40:02Z'
-    confirmed_by: qa-laag1-auto
-    rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    status: unreviewed
+    confirmed_at:
+    confirmed_by:
+    rationale:
     layer1:
-      verdict: pass
+      status: pass
+      run_id: 20260511-083333
+      run_at:
       heading_count: 0
-      max_section_chars: 4597
-      file_size_chars: 4597
+      max_section_chars: 4599
+      file_size_chars: 4599
       flags: []
-      run_id: 20260509-212552
+    layer2:
+      status: not_run
+      agent:
+      run_at:
+      rationale:
+      concrete_problemen: []
 gerelateerde_adviezen:
-- titel: Verslaggeving bij de heropening van de vereffening van (i)vzw’s die een dubbele
-    boekhouding voeren
-  url: https://www.cbn-cnc.be/nl/adviezen/verslaggeving-bij-de-heropening-van-de-vereffening-van-ivzws-die-een-dubbele-boekhouding
-  datum: '2024-11-14'
-- titel: Verslaggeving bij de heropening van de vereffening van de vennootschappen
-  url: https://www.cbn-cnc.be/nl/adviezen/verslaggeving-bij-de-heropening-van-de-vereffening-van-de-vennootschappen
-  datum: '2024-11-13'
-- titel: Openbaarmakingsverplichtingen in hoofde van de vennootschap onder firma en
-    de commanditaire vennootschap bij onmiddellijke sluiting van de vereffening
-  url: https://www.cbn-cnc.be/nl/adviezen/openbaarmakingsverplichtingen-in-hoofde-van-de-vennootschap-onder-firma-en-de
-  datum: '2024-06-10'
-- titel: 'Belgische bijkantoren van buitenlandse verenigingen en stichtingen: toepassing
-    van het Belgisch boekhoudrecht – begrip ‘bijkantoor’ – publicatieplicht – eigen
-    boekhoudkundige verplichtingen'
-  url: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-buitenlandse-verenigingen-en-stichtingen-toepassing-van-het-0
-  datum: '2024-02-08'
+  - titel: Verslaggeving bij de heropening van de vereffening van (i)vzw’s die een dubbele boekhouding voeren
+    url: https://www.cbn-cnc.be/nl/adviezen/verslaggeving-bij-de-heropening-van-de-vereffening-van-ivzws-die-een-dubbele-boekhouding
+    datum: '2024-11-14'
+  - titel: Verslaggeving bij de heropening van de vereffening van de vennootschappen
+    url: https://www.cbn-cnc.be/nl/adviezen/verslaggeving-bij-de-heropening-van-de-vereffening-van-de-vennootschappen
+    datum: '2024-11-13'
+  - titel: Openbaarmakingsverplichtingen in hoofde van de vennootschap onder firma en de commanditaire vennootschap bij onmiddellijke sluiting van de vereffening
+    url: https://www.cbn-cnc.be/nl/adviezen/openbaarmakingsverplichtingen-in-hoofde-van-de-vennootschap-onder-firma-en-de
+    datum: '2024-06-10'
+  - titel: 'Belgische bijkantoren van buitenlandse verenigingen en stichtingen: toepassing van het Belgisch boekhoudrecht – begrip ‘bijkantoor’ – publicatieplicht – eigen boekhoudkundige verplichtingen'
+    url: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-buitenlandse-verenigingen-en-stichtingen-toepassing-van-het-0
+    datum: '2024-02-08'
 ---
 
 # CBN-advies 110/3 - Openbaarmaking van de jaarrekening van vennootschappen die niet aan het K.B. van 8 oktober 1976 onderworpen zijn

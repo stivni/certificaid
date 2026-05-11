@@ -2,43 +2,48 @@
 nummer: CBN-advies 126/5
 datum: 1986-07-01
 themas:
-- financiële kosten
-- vervaardigingsprijs
+  - financiële kosten
+  - vervaardigingsprijs
 bron: https://www.cbn-cnc.be/nl/adviezen/vervaardigingsprijs
 provenance:
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/vervaardigingsprijs
-    sha256: 008e8c01ac1c4a8dc672d6eda2ea5765048ae1304d8ee04def94fced00021d24
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/vervaardigingsprijs
+      sha256: 008e8c01ac1c4a8dc672d6eda2ea5765048ae1304d8ee04def94fced00021d24
+      version:
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model: null
-    prompt_version: null
+    model:
+    prompt_version:
   generated_at: '2026-05-08T18:34:37Z'
   stale: false
-  stale_reason: null
+  stale_reason:
   trust:
-    status: trusted
-    qa_version: trust-rework-2
-    confirmed_at: '2026-05-08T18:40:03Z'
-    confirmed_by: qa-laag1-auto
-    rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    status: unreviewed
+    confirmed_at:
+    confirmed_by:
+    rationale:
     layer1:
-      verdict: pass
+      status: pass
+      run_id: 20260511-083333
+      run_at:
       heading_count: 0
-      max_section_chars: 1111
-      file_size_chars: 1111
+      max_section_chars: 1154
+      file_size_chars: 1154
       flags: []
-      run_id: 20260509-212552
+    layer2:
+      status: not_run
+      agent:
+      run_at:
+      rationale:
+      concrete_problemen: []
 gerelateerde_adviezen:
-- titel: Verwerking in de jaarrekening van de door de Vlaamse regering gecreëerde
-    opleidingscheques
-  url: https://www.cbn-cnc.be/nl/adviezen/verwerking-in-de-jaarrekening-van-de-door-de-vlaamse-regering-gecreeerde-opleidingscheques
-  datum: '2008-12-01'
-- titel: Boekhoudkundige verwerking van afvalstoffen
-  url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-afvalstoffen
-  datum: '1995-03-01'
+  - titel: Verwerking in de jaarrekening van de door de Vlaamse regering gecreëerde opleidingscheques
+    url: https://www.cbn-cnc.be/nl/adviezen/verwerking-in-de-jaarrekening-van-de-door-de-vlaamse-regering-gecreeerde-opleidingscheques
+    datum: '2008-12-01'
+  - titel: Boekhoudkundige verwerking van afvalstoffen
+    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-afvalstoffen
+    datum: '1995-03-01'
 ---
 
 # CBN advies 126-5 - Vervaardigingsprijs

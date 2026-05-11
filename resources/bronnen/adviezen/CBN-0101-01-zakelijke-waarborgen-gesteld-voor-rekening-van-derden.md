@@ -2,58 +2,61 @@
 nummer: CBN-advies R101/1
 datum: 1980-06-01
 themas:
-- niet in de balans opgenomen rechten en verplichtingen
-- rekeningenstelsel
-- waarborg
-- waarborgen gesteld voor rekening van derden
-- zakelijke waarborgen
-- zakelijke waarborgen gesteld op eigen tegoeden
-- zakelijke waarborgen gesteld voor rekening van derden
-- zakelijke zekerheden
-- zekerheden
+  - niet in de balans opgenomen rechten en verplichtingen
+  - rekeningenstelsel
+  - waarborg
+  - waarborgen gesteld voor rekening van derden
+  - zakelijke waarborgen
+  - zakelijke waarborgen gesteld op eigen tegoeden
+  - zakelijke waarborgen gesteld voor rekening van derden
+  - zakelijke zekerheden
+  - zekerheden
 bron: https://www.cbn-cnc.be/nl/adviezen/zakelijke-waarborgen-gesteld-voor-rekening-van-derden
 provenance:
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/zakelijke-waarborgen-gesteld-voor-rekening-van-derden
-    sha256: dd346a1d84ea751247cf3d70d6316785147f7a5e680b36ea1ceb22e549ac5e51
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/zakelijke-waarborgen-gesteld-voor-rekening-van-derden
+      sha256: dd346a1d84ea751247cf3d70d6316785147f7a5e680b36ea1ceb22e549ac5e51
+      version:
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model: null
-    prompt_version: null
+    model:
+    prompt_version:
   generated_at: '2026-05-08T18:33:38Z'
   stale: false
-  stale_reason: null
+  stale_reason:
   trust:
-    status: trusted
-    qa_version: trust-rework-2
-    confirmed_at: '2026-05-08T18:40:02Z'
-    confirmed_by: qa-laag1-auto
-    rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    status: unreviewed
+    confirmed_at:
+    confirmed_by:
+    rationale:
     layer1:
-      verdict: pass
+      status: pass
+      run_id: 20260511-083333
+      run_at:
       heading_count: 0
-      max_section_chars: 3524
-      file_size_chars: 3524
+      max_section_chars: 3525
+      file_size_chars: 3525
       flags: []
-      run_id: 20260509-212552
+    layer2:
+      status: not_run
+      agent:
+      run_at:
+      rationale:
+      concrete_problemen: []
 gerelateerde_adviezen:
-- titel: Invloed van het buitengerechtelijk minnelijk akkoord en de gerechtelijke
-    reorganisatie op de schulden en vorderingen (update)
-  url: https://www.cbn-cnc.be/nl/adviezen/invloed-van-het-buitengerechtelijk-minnelijk-akkoord-en-de-gerechtelijke-reorganisatie-1
-  datum: '2021-05-12'
-- titel: Boekhoudkundige verwerking van de aan-/verkoop van een actief via een geblokkeerde
-    rekening
-  url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-aan-verkoop-van-een-actief-via-een-geblokkeerde-0
-  datum: '2020-12-11'
-- titel: Schulden gewaarborgd door een zakelijke zekerheid – Niet in de balans opgenomen
-    rechten en verplichtingen
-  url: https://www.cbn-cnc.be/nl/adviezen/schulden-gewaarborgd-door-een-zakelijke-zekerheid-niet-in-de-balans-opgenomen-rechten-en
-  datum: '2018-11-16'
-- titel: Gebeurtenissen na afsluitingsdatum van het boekjaar
-  url: https://www.cbn-cnc.be/nl/adviezen/gebeurtenissen-na-afsluitingsdatum-van-het-boekjaar
-  datum: '2018-05-09'
+  - titel: Invloed van het buitengerechtelijk minnelijk akkoord en de gerechtelijke reorganisatie op de schulden en vorderingen (update)
+    url: https://www.cbn-cnc.be/nl/adviezen/invloed-van-het-buitengerechtelijk-minnelijk-akkoord-en-de-gerechtelijke-reorganisatie-1
+    datum: '2021-05-12'
+  - titel: Boekhoudkundige verwerking van de aan-/verkoop van een actief via een geblokkeerde rekening
+    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-aan-verkoop-van-een-actief-via-een-geblokkeerde-0
+    datum: '2020-12-11'
+  - titel: Schulden gewaarborgd door een zakelijke zekerheid – Niet in de balans opgenomen rechten en verplichtingen
+    url: https://www.cbn-cnc.be/nl/adviezen/schulden-gewaarborgd-door-een-zakelijke-zekerheid-niet-in-de-balans-opgenomen-rechten-en
+    datum: '2018-11-16'
+  - titel: Gebeurtenissen na afsluitingsdatum van het boekjaar
+    url: https://www.cbn-cnc.be/nl/adviezen/gebeurtenissen-na-afsluitingsdatum-van-het-boekjaar
+    datum: '2018-05-09'
 ---
 
 # CBN-advies R101/1 - Zakelijke waarborgen gesteld voor rekening van derden

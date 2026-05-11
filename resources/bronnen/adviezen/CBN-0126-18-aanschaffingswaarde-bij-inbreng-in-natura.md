@@ -2,50 +2,53 @@
 nummer: CBN-advies 126/18
 datum: 2002-05-10
 themas:
-- conventionele waarde
-- inbreng
-- inbreng in natura
-- inbrengwaarde
-- kapitaalvermindering
-- uitgiftepremie
-- werkelijke waarde
+  - conventionele waarde
+  - inbreng
+  - inbreng in natura
+  - inbrengwaarde
+  - kapitaalvermindering
+  - uitgiftepremie
+  - werkelijke waarde
 bron: https://www.cbn-cnc.be/nl/adviezen/aanschaffingswaarde-bij-inbreng-in-natura
 provenance:
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/aanschaffingswaarde-bij-inbreng-in-natura
-    sha256: 23e1efd01eadba87708da24edf79b754185f1d53522d69efec6051aef29e037b
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/aanschaffingswaarde-bij-inbreng-in-natura
+      sha256: 23e1efd01eadba87708da24edf79b754185f1d53522d69efec6051aef29e037b
+      version:
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model: null
-    prompt_version: null
+    model:
+    prompt_version:
   generated_at: '2026-05-08T21:17:25Z'
   stale: false
-  stale_reason: null
+  stale_reason:
   trust:
     status: trusted
-    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T21:19:09Z'
     confirmed_by: human
-    rationale: 'Heading-structuur hersteld: 3 ongenummerde ## sectietitels via context-aware
-      bold-only promotie. Laag 1 geeft PASS. Inhoud volledig (inbreng in natura, werkelijke
-      waarde, 4 hypothesen).'
+    rationale: 'Heading-structuur hersteld: 3 ongenummerde ## sectietitels via context-aware bold-only promotie. Laag 1 geeft PASS. Inhoud volledig (inbreng in natura, werkelijke waarde, 4 hypothesen).'
     layer1:
-      verdict: pass
+      status: pass
+      run_id: 20260511-083333
+      run_at:
       heading_count: 4
-      max_section_chars: 12817
-      file_size_chars: 31015
+      max_section_chars: 12819
+      file_size_chars: 31018
       flags: []
-      run_id: 20260509-212552
+    layer2:
+      status: not_run
+      agent:
+      run_at:
+      rationale:
+      concrete_problemen: []
 gerelateerde_adviezen:
-- titel: Invloed van het buitengerechtelijk minnelijk akkoord en de gerechtelijke
-    reorganisatie op de schulden en vorderingen (update)
-  url: https://www.cbn-cnc.be/nl/adviezen/invloed-van-het-buitengerechtelijk-minnelijk-akkoord-en-de-gerechtelijke-reorganisatie-1
-  datum: '2021-05-12'
-- titel: Realisatiebeginsel (behalve bij fusie)
-  url: https://www.cbn-cnc.be/nl/adviezen/realisatiebeginsel-behalve-bij-fusie
-  datum: '1991-03-01'
+  - titel: Invloed van het buitengerechtelijk minnelijk akkoord en de gerechtelijke reorganisatie op de schulden en vorderingen (update)
+    url: https://www.cbn-cnc.be/nl/adviezen/invloed-van-het-buitengerechtelijk-minnelijk-akkoord-en-de-gerechtelijke-reorganisatie-1
+    datum: '2021-05-12'
+  - titel: Realisatiebeginsel (behalve bij fusie)
+    url: https://www.cbn-cnc.be/nl/adviezen/realisatiebeginsel-behalve-bij-fusie
+    datum: '1991-03-01'
 ---
 
 # CBN-advies 126/18 - Aanschaffingswaarde bij inbreng in natura1

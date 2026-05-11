@@ -2,41 +2,47 @@
 nummer: CBN-advies 2016/15
 datum: 2016-09-07
 themas:
-- arbeidsovereenkomst
-- bestuurder
-- directiepersoneel
-- managementvennootschappen
-- vergoeding aan bestuurders
-- vergoeding aan werkende vennoten
-- werkende vennoten
-- zaakvoerder
+  - arbeidsovereenkomst
+  - bestuurder
+  - directiepersoneel
+  - managementvennootschappen
+  - vergoeding aan bestuurders
+  - vergoeding aan werkende vennoten
+  - werkende vennoten
+  - zaakvoerder
 bron: https://www.cbn-cnc.be/nl/adviezen/vergoedingen-aan-bestuurders-en-werkende-vennoten
 provenance:
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/vergoedingen-aan-bestuurders-en-werkende-vennoten
-    sha256: 286a7bf84cdb376aac13f0f8a43abd19fb274ead9a2b49c4902b4536eec9f532
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/vergoedingen-aan-bestuurders-en-werkende-vennoten
+      sha256: 286a7bf84cdb376aac13f0f8a43abd19fb274ead9a2b49c4902b4536eec9f532
+      version:
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model: null
-    prompt_version: null
+    model:
+    prompt_version:
   generated_at: '2026-05-08T18:37:01Z'
   stale: false
-  stale_reason: null
+  stale_reason:
   trust:
-    status: trusted
-    qa_version: trust-rework-2
-    confirmed_at: '2026-05-08T18:40:04Z'
-    confirmed_by: qa-laag1-auto
-    rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    status: unreviewed
+    confirmed_at:
+    confirmed_by:
+    rationale:
     layer1:
-      verdict: pass
-      heading_count: 13
-      max_section_chars: 7035
-      file_size_chars: 17685
+      status: pass
+      run_id: 20260511-083333
+      run_at:
+      heading_count: 9
+      max_section_chars: 6709
+      file_size_chars: 17696
       flags: []
-      run_id: 20260509-212552
+    layer2:
+      status: not_run
+      agent:
+      run_at:
+      rationale:
+      concrete_problemen: []
 ---
 
 # CBN-advies 2016/15 – Vergoedingen aan bestuurders en werkende vennoten

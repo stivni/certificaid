@@ -1,14 +1,14 @@
 ---
-tags: ["VI.A", "2.4"]
-itaa-lex-sectie: "VI.A"
-wet: "Uitvoeringsverordening (EU) nr. 282/2011 van de Raad houdende maatregelen ter uitvoering van Richtlijn 2006/112/EG"
-bron_rol: "itaa_lex"
-status: "beschikbaar"
-bijgewerkt: "23.03.2011"
-bron: "ejustice.just.fgov.be (gecoördineerde versie)"
+tags: [VI.A, '2.4']
+itaa-lex-sectie: VI.A
+wet: Uitvoeringsverordening (EU) nr. 282/2011 van de Raad houdende maatregelen ter uitvoering van Richtlijn 2006/112/EG
+bron_rol: itaa_lex
+status: beschikbaar
+bijgewerkt: 23.03.2011
+bron: ejustice.just.fgov.be (gecoördineerde versie)
 chunk:
   level: 5
-  type: "Art."
+  type: Art.
   sub_strategy:
 provenance:
   inputs:
@@ -25,39 +25,26 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    qa_version: trust-rework-2
     confirmed_at: '2026-05-09T21:27:46Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: L1=pass
-    agent_verdict_at: '2026-05-09T21:27:46Z'
-    sample_pick: false
-    sample_reviewed_at:
-    sample_reviewed_by:
     layer1:
-      verdict: pass
+      status: pass
+      run_id: 20260509-212552
+      run_at:
       heading_count: 168
       max_section_chars: 17314
       file_size_chars: 76394
       flags: []
-      run_id: 20260509-212552
-    layer1_5_diff:
-      verdict: improvement
-      rationale: 'Auto-synthesized: ETL-fixes vandaag (NBSP, sub_strategy, justel-extractor, etc.) verbeteren bestaande versie.'
-      kritieke_observaties: []
-      auto: true
-      run_id: trust-finalize-1
-    layer2_content:
-      verdict: trusted
+    layer2:
+      status: trusted
+      agent:
+      run_at:
       rationale: EU-verordening met 110 Art.-vermeldingen, hoofdstukken op H2/H3, soft hyphens uit PDF maar woorden intact. Body leesbaar, geen FR-leak. Page-headers (L 77/x, NL) staan als korte regels maar vormen geen storende ruis.
-      problemen:
+      concrete_problemen:
         - regel: 38
           type: other
           voorbeeld: NL / Publicatieblad / L 77/1 — losstaande paginafooter-fragmenten
-      sterkte:
-        - Frontmatter compleet
-        - Art-structuur correct genest
-      auto: false
-      run_id: qa-batch-W1
 ---
 
 # Uitvoeringsverordening (EU) nr. 282/2011 van de Raad houdende maatregelen ter uitvoering van Richtlijn 2006/112/EG

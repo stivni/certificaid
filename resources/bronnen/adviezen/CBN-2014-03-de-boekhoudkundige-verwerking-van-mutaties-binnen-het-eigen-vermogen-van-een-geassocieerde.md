@@ -2,50 +2,54 @@
 nummer: CBN-advies 2014/3
 datum: 2014-04-02
 themas:
-- geassocieerde onderneming
-- mutaties binnen het eigen vermogen
-- consolidatie
-- vermogensmutatiemethode
-- herwaarderingsmeerwaarde
-- kapitaalsubsidies
-- uitgiftepremie
-- reservebeweging
+  - geassocieerde onderneming
+  - mutaties binnen het eigen vermogen
+  - consolidatie
+  - vermogensmutatiemethode
+  - herwaarderingsmeerwaarde
+  - kapitaalsubsidies
+  - uitgiftepremie
+  - reservebeweging
 bron: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-mutaties-binnen-het-eigen-vermogen-van-een-geassocieerde
 provenance:
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-mutaties-binnen-het-eigen-vermogen-van-een-geassocieerde
-    sha256: dfeb550b2cb94ee3571ce6b1aa301cb8ad20d7a65283f1bbc78e5798432fb03e
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-mutaties-binnen-het-eigen-vermogen-van-een-geassocieerde
+      sha256: dfeb550b2cb94ee3571ce6b1aa301cb8ad20d7a65283f1bbc78e5798432fb03e
+      version:
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model: null
-    prompt_version: null
+    model:
+    prompt_version:
   generated_at: '2026-05-08T18:36:44Z'
   stale: false
-  stale_reason: null
+  stale_reason:
   trust:
-    status: trusted
-    qa_version: trust-rework-2
-    confirmed_at: '2026-05-08T18:40:04Z'
-    confirmed_by: qa-laag1-auto
-    rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    status: unreviewed
+    confirmed_at:
+    confirmed_by:
+    rationale:
     layer1:
-      verdict: pass
+      status: pass
+      run_id: 20260511-083333
+      run_at:
       heading_count: 2
       max_section_chars: 7436
-      file_size_chars: 9594
+      file_size_chars: 9595
       flags: []
-      run_id: 20260509-212552
+    layer2:
+      status: not_run
+      agent:
+      run_at:
+      rationale:
+      concrete_problemen: []
 gerelateerde_adviezen:
-- titel: Toerekening door de aandeelhouder van een terugbetaling van kapitaal of een
-    uitgiftepremie of van een uitkering van reserves
-  url: https://www.cbn-cnc.be/nl/adviezen/toerekening-door-de-aandeelhouder-van-een-terugbetaling-van-kapitaal-of-een-uitgiftepremie
-  datum: '1995-03-01'
-- titel: Advies inzake de boekhoudkundige verwerking van verrichtingen van tijdelijk
-    vennootschappen
-  url: https://www.cbn-cnc.be/nl/adviezen/advies-inzake-de-boekhoudkundige-verwerking-van-verrichtingen-van-tijdelijk
-  datum: '2008-01-31'
+  - titel: Toerekening door de aandeelhouder van een terugbetaling van kapitaal of een uitgiftepremie of van een uitkering van reserves
+    url: https://www.cbn-cnc.be/nl/adviezen/toerekening-door-de-aandeelhouder-van-een-terugbetaling-van-kapitaal-of-een-uitgiftepremie
+    datum: '1995-03-01'
+  - titel: Advies inzake de boekhoudkundige verwerking van verrichtingen van tijdelijk vennootschappen
+    url: https://www.cbn-cnc.be/nl/adviezen/advies-inzake-de-boekhoudkundige-verwerking-van-verrichtingen-van-tijdelijk
+    datum: '2008-01-31'
 ---
 
 # CBN-advies 2014/3 – De boekhoudkundige verwerking van mutaties binnen het eigen vermogen van een geassocieerde onderneming (update)

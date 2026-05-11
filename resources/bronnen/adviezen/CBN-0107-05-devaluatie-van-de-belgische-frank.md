@@ -2,35 +2,41 @@
 nummer: CBN-advies 107/5
 datum: 1983-04-01
 themas:
-- devaluatie van de Belgische frank
-- voorziening
+  - devaluatie van de Belgische frank
+  - voorziening
 bron: https://www.cbn-cnc.be/nl/adviezen/devaluatie-van-de-belgische-frank
 provenance:
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/devaluatie-van-de-belgische-frank
-    sha256: e970a3e2c22eadc34e305d927322d901fcaa773d3ca74a0b17e7cd45ca052914
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/devaluatie-van-de-belgische-frank
+      sha256: e970a3e2c22eadc34e305d927322d901fcaa773d3ca74a0b17e7cd45ca052914
+      version:
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model: null
-    prompt_version: null
+    model:
+    prompt_version:
   generated_at: '2026-05-08T18:33:57Z'
   stale: false
-  stale_reason: null
+  stale_reason:
   trust:
-    status: trusted
-    qa_version: trust-rework-2
-    confirmed_at: '2026-05-08T18:40:02Z'
-    confirmed_by: qa-laag1-auto
-    rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    status: unreviewed
+    confirmed_at:
+    confirmed_by:
+    rationale:
     layer1:
-      verdict: pass
+      status: pass
+      run_id: 20260511-083333
+      run_at:
       heading_count: 0
-      max_section_chars: 2087
-      file_size_chars: 2087
+      max_section_chars: 2089
+      file_size_chars: 2089
       flags: []
-      run_id: 20260509-212552
+    layer2:
+      status: not_run
+      agent:
+      run_at:
+      rationale:
+      concrete_problemen: []
 ---
 
 # CBN-advies 107/5 - Devaluatie van de Belgische frank

@@ -1,14 +1,14 @@
 ---
-tags: ["XIV"]
-itaa-lex-sectie: "XIV"
-wet: "Wet 2 augustus 2002 betreffende de bestrijding van de betalingsachterstand bij handelstransacties"
-bron_rol: "itaa_lex"
-status: "beschikbaar"
-bijgewerkt: "02.08.2002"
-bron: "Fisconetplus.be (officieuze gecoördineerde versie)"
+tags: [XIV]
+itaa-lex-sectie: XIV
+wet: Wet 2 augustus 2002 betreffende de bestrijding van de betalingsachterstand bij handelstransacties
+bron_rol: itaa_lex
+status: beschikbaar
+bijgewerkt: 02.08.2002
+bron: Fisconetplus.be (officieuze gecoördineerde versie)
 chunk:
   level: 3
-  type: "Art."
+  type: Art.
   sub_strategy:
 provenance:
   inputs:
@@ -24,43 +24,30 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    qa_version: trust-rework-2
-    confirmed_at: '2026-05-09T21:27:46Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: L1=pass
-    agent_verdict_at: '2026-05-09T21:27:46Z'
-    sample_pick: false
-    sample_reviewed_at:
-    sample_reviewed_by:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by:
+    rationale:
     layer1:
-      verdict: pass
+      status: pass
+      run_id: 20260509-212552
+      run_at:
       heading_count: 19
       max_section_chars: 4129
       file_size_chars: 16137
       flags: []
-      run_id: 20260509-212552
-    layer1_5_diff:
-      verdict: improvement
-      rationale: 'Auto-synthesized: ETL-fixes vandaag (NBSP, sub_strategy, justel-extractor, etc.) verbeteren bestaande versie.'
-      kritieke_observaties: []
-      auto: true
-      run_id: trust-finalize-1
-    layer2_content:
-      verdict: needs-rework
+    layer2:
+      status: needs-rework
+      agent:
+      run_at:
       rationale: "Heading + body samengeklit: '### Art. 5.[1 [2 Indien de schuldeiser ...' bevat de eerste paragraaf binnen de heading-regel. Idem Art. 6, Art. 138-stijl. Maakt heading-anchors voor RAG zwak."
-      problemen:
+      concrete_problemen:
         - regel: -1
           type: other
           voorbeeld: '### Art. 5.[1 [2 Indien de schuldeiser zijn contractuele en wettelijke verplichtingen heeft vervuld...'
         - regel: -1
           type: other
           voorbeeld: '### Art. 6.[1 [2 Als er verwijlintrest overeenkomstig de bepalingen ...'
-      sterkte:
-        - 19 headings — alle artikelen aanwezig
-        - Slot Art. 15 + inwerkingtreding correct
-      auto: false
-      run_id: qa-batch-W4
 ---
 
 # Wet betalingsachterstand handelstransacties

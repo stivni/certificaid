@@ -2,49 +2,54 @@
 nummer: CBN-advies 137/1
 datum: 1983-04-10
 themas:
-- faillissement
-- faillissement van de schuldenaar
-- klassering van de vorderingen
-- termijn
-- termijn van opeisbaarheid
-- vordering
-- Waardevermindering
-- waardevermindering op vorderingen
+  - faillissement
+  - faillissement van de schuldenaar
+  - klassering van de vorderingen
+  - termijn
+  - termijn van opeisbaarheid
+  - vordering
+  - Waardevermindering
+  - waardevermindering op vorderingen
 bron: https://www.cbn-cnc.be/nl/adviezen/klassering-van-de-vorderingen-bij-faillissement-van-de-schuldenaar
 provenance:
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/klassering-van-de-vorderingen-bij-faillissement-van-de-schuldenaar
-    sha256: 7c727a106b42b295f46eb425b96664656442d4af624e28750caf8f604060b13a
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/klassering-van-de-vorderingen-bij-faillissement-van-de-schuldenaar
+      sha256: 7c727a106b42b295f46eb425b96664656442d4af624e28750caf8f604060b13a
+      version:
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model: null
-    prompt_version: null
+    model:
+    prompt_version:
   generated_at: '2026-05-08T18:34:58Z'
   stale: false
-  stale_reason: null
+  stale_reason:
   trust:
-    status: trusted
-    qa_version: trust-rework-2
-    confirmed_at: '2026-05-08T18:40:03Z'
-    confirmed_by: qa-laag1-auto
-    rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    status: unreviewed
+    confirmed_at:
+    confirmed_by:
+    rationale:
     layer1:
-      verdict: pass
+      status: pass
+      run_id: 20260511-083333
+      run_at:
       heading_count: 0
-      max_section_chars: 2108
-      file_size_chars: 2108
+      max_section_chars: 2198
+      file_size_chars: 2198
       flags: []
-      run_id: 20260509-212552
+    layer2:
+      status: not_run
+      agent:
+      run_at:
+      rationale:
+      concrete_problemen: []
 gerelateerde_adviezen:
-- titel: Invloed van het buitengerechtelijk minnelijk akkoord en de gerechtelijke
-    reorganisatie op de schulden en vorderingen (update)
-  url: https://www.cbn-cnc.be/nl/adviezen/invloed-van-het-buitengerechtelijk-minnelijk-akkoord-en-de-gerechtelijke-reorganisatie-1
-  datum: '2021-05-12'
-- titel: Invloed van een gerechtelijk akkoord op de schulden en vorderingen
-  url: https://www.cbn-cnc.be/nl/adviezen/invloed-van-een-gerechtelijk-akkoord-op-de-schulden-en-vorderingen
-  datum: '1984-01-13'
+  - titel: Invloed van het buitengerechtelijk minnelijk akkoord en de gerechtelijke reorganisatie op de schulden en vorderingen (update)
+    url: https://www.cbn-cnc.be/nl/adviezen/invloed-van-het-buitengerechtelijk-minnelijk-akkoord-en-de-gerechtelijke-reorganisatie-1
+    datum: '2021-05-12'
+  - titel: Invloed van een gerechtelijk akkoord op de schulden en vorderingen
+    url: https://www.cbn-cnc.be/nl/adviezen/invloed-van-een-gerechtelijk-akkoord-op-de-schulden-en-vorderingen
+    datum: '1984-01-13'
 ---
 
 # CBN advies 137-1 - Klassering van de vorderingen bij faillissement van de schuldenaar

@@ -1,14 +1,14 @@
 ---
-tags: ["VI.B", "2.4"]
-itaa-lex-sectie: "VI.B"
-wet: "K.B. nr. 41 van 30 januari 1987, tot vaststelling van het bedrag van de proportionele fiscale geldboeten op het stuk van de belasting over de toegevoegde waarde"
-bron_rol: "itaa_lex"
-status: "beschikbaar"
-bijgewerkt: "30.01.1987"
-bron: "Afgesplitst uit Fisconet-compilatie (pdftotext_compilatie_btw)"
+tags: [VI.B, '2.4']
+itaa-lex-sectie: VI.B
+wet: K.B. nr. 41 van 30 januari 1987, tot vaststelling van het bedrag van de proportionele fiscale geldboeten op het stuk van de belasting over de toegevoegde waarde
+bron_rol: itaa_lex
+status: beschikbaar
+bijgewerkt: 30.01.1987
+bron: Afgesplitst uit Fisconet-compilatie (pdftotext_compilatie_btw)
 chunk:
   level: 3
-  type: "Art."
+  type: Art.
   sub_strategy:
 provenance:
   inputs:
@@ -24,17 +24,14 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    qa_version: trust-rework-2
-    confirmed_at: '2026-05-09T21:27:46Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "L1=warn; L1.5=improvement (Auto-synthesized: heading-injection (inject_wbtw_headings.py) — staging is structureel beter dan resources-versie.); L2=trusted (ETL-fix toegepast: inject_wbtw_headings.py heeft TOC-strip + Artikel-N → ## Art. heading-injectie + AFDELING-normalisatie uitgevoerd. Eerdere needs-rework op 'missing-section' opgeheven.)"
-    agent_verdict_at: '2026-05-09T21:27:46Z'
-    sample_pick: true
-    sample_reviewed_at:
-    sample_reviewed_by:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by:
+    rationale:
     layer1:
-      verdict: warn
+      status: warn
+      run_id: 20260509-212552
+      run_at:
       heading_count: 18
       max_section_chars: 68792
       file_size_chars: 72978
@@ -43,25 +40,15 @@ provenance:
           status: warn
           detail: 'langste sectie op ###-niveau: 68792 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
           samples: []
-      run_id: 20260509-212552
-    layer1_5_diff:
-      verdict: improvement
-      rationale: 'Auto-synthesized: heading-injection (inject_wbtw_headings.py) — staging is structureel beter dan resources-versie.'
-      kritieke_observaties: []
-      auto: true
-      run_id: trust-rework-2
-    layer2_content:
-      verdict: needs-rework
+    layer2:
+      status: needs-rework
+      agent:
+      run_at:
       rationale: '73k chars met 12 ##-headings; max-sectie 73k >> 24k → één sectie bevat de hele tabellenstructuur. Inhoud lijkt compleet maar tabel-secties (Tabel C, G, etc.) zijn niet gesplit.'
-      problemen:
+      concrete_problemen:
         - regel: 0
           type: other
           voorbeeld: 'max_section_size 73284 chars op ###-niveau'
-      sterkte:
-        - Frontmatter consistent
-        - Body inhoudelijk intact tot bijwerkingen
-      auto: false
-      run_id: qa-batch-W3
 ---
 
 # K.B. nr. 41 van 30 januari 1987, tot vaststelling van het bedrag van de proportionele fiscale geldboeten op het stuk van de belasting over de toegevoegde waarde

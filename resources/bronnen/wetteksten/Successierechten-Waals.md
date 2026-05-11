@@ -1,10 +1,10 @@
 ---
-tags: ["IX", "2.6"]
-itaa-lex-sectie: "IX"
-wet: "Wetboek der Successierechten — Waals Gewest"
-status: "beschikbaar"
-bijgewerkt: "16.03.2026"
-bron: "Fisconetplus.be (officieuze gecoördineerde versie)"
+tags: [IX, '2.6']
+itaa-lex-sectie: IX
+wet: Wetboek der Successierechten — Waals Gewest
+status: beschikbaar
+bijgewerkt: 16.03.2026
+bron: Fisconetplus.be (officieuze gecoördineerde versie)
 provenance:
   inputs:
     - id: resources/raw/wetteksten/successie-waals.pdf
@@ -20,12 +20,13 @@ provenance:
   stale_reason:
   trust:
     status: unreviewed
-    qa_version:
     confirmed_at:
-    confirmed_by: default
+    confirmed_by:
     rationale:
     layer1:
-      verdict: warn
+      status: warn
+      run_id: 20260509-212552
+      run_at:
       heading_count: 394
       max_section_chars: 57678
       file_size_chars: 470801
@@ -47,29 +48,19 @@ provenance:
           samples:
             - 'regel 950: Gedeelte van het netto-aandeel                                         Rechte lijn – tussen echtgenoten tussen wettelijk'
             - 'regel 1514: Tabel met betrekking tot het preferentiele tarief voor de netto-aandelen in woningen Schijf van het netto-aandeel       '
-      run_id: 20260509-212552
-    layer1_5_diff:
-      verdict: improvement
-      rationale: 'Auto-synthesized: ETL-fixes vandaag (NBSP, sub_strategy, justel-extractor, etc.) verbeteren bestaande versie.'
-      kritieke_observaties: []
-      auto: true
-      run_id: trust-finalize-1
-    layer2_content:
-      verdict: needs-rework
+    layer2:
+      status: needs-rework
+      agent:
+      run_at:
       rationale: Zelfde driedubbele titel-herhaling als Brussel, 24 TOC-stippen, 2 kolom-bleed-patronen, max-section 57k. 73 '(…)'-placeholders.
-      problemen:
+      concrete_problemen:
         - 3x herhaalde titel
         - 24 TOC-stippen-regels
         - 2 kolom-bleed buiten tabellen
         - max_section_size 57678 chars
-      sterkte:
-        - 315 Art.-headings
-        - consistent met Brussel-variant
-      auto: false
-      run_id: qa-batch-W2
 chunk:
   level: 5
-  type: "Art."
+  type: Art.
   sub_strategy:
 ---
 

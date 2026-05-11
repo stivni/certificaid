@@ -2,53 +2,56 @@
 nummer: CBN-advies 173/3
 datum: 1998-02-01
 themas:
-- euro
-- opstelling van de jaarrekening
-- opstelling van de jaarrekening in euro
-- overschakeling op de euro
+  - euro
+  - opstelling van de jaarrekening
+  - opstelling van de jaarrekening in euro
+  - overschakeling op de euro
 bron: https://www.cbn-cnc.be/nl/adviezen/toelichting-bij-de-datum-vanaf-wanneer-ondernemingen-waarvan-het-boekjaar-niet-samenvalt
 provenance:
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/toelichting-bij-de-datum-vanaf-wanneer-ondernemingen-waarvan-het-boekjaar-niet-samenvalt
-    sha256: 6947a5331f6976cf3213aa6be7abd4eb7e16de32865964b5bb9a317764504183
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/toelichting-bij-de-datum-vanaf-wanneer-ondernemingen-waarvan-het-boekjaar-niet-samenvalt
+      sha256: 6947a5331f6976cf3213aa6be7abd4eb7e16de32865964b5bb9a317764504183
+      version:
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model: null
-    prompt_version: null
+    model:
+    prompt_version:
   generated_at: '2026-05-08T18:35:39Z'
   stale: false
-  stale_reason: null
+  stale_reason:
   trust:
-    status: trusted
-    qa_version: trust-rework-2
-    confirmed_at: '2026-05-08T18:40:03Z'
-    confirmed_by: qa-laag1-auto
-    rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    status: unreviewed
+    confirmed_at:
+    confirmed_by:
+    rationale:
     layer1:
-      verdict: pass
+      status: pass
+      run_id: 20260511-083333
+      run_at:
       heading_count: 0
-      max_section_chars: 1044
-      file_size_chars: 1044
+      max_section_chars: 1045
+      file_size_chars: 1045
       flags: []
-      run_id: 20260509-212552
+    layer2:
+      status: not_run
+      agent:
+      run_at:
+      rationale:
+      concrete_problemen: []
 gerelateerde_adviezen:
-- titel: 'Afwijking inzake functionele valuta: praktische implicaties en procedure'
-  url: https://www.cbn-cnc.be/nl/adviezen/afwijking-inzake-functionele-valuta-praktische-implicaties-en-procedure
-  datum: '2011-05-04'
-- titel: Aanvullende aspecten in verband met de boekhoudkundige verwerking van afrondingsverschillen
-    bij conversie
-  url: https://www.cbn-cnc.be/nl/adviezen/aanvullende-aspecten-in-verband-met-de-boekhoudkundige-verwerking-van
-  datum: '1999-02-01'
-- titel: Afronding van de bedragen in de jaarrekeningen die in euro of in duizenden
-    euro zijn opgesteld
-  url: https://www.cbn-cnc.be/nl/adviezen/afronding-van-de-bedragen-in-de-jaarrekeningen-die-in-euro-of-in-duizenden-euro-zijn
-  datum: '1998-02-01'
-- titel: Toelichting bij de boekhoudkundige verwerking van termijnwisselverrichtingen
-    tussen de munten van Lid-Staten van de Muntunie
-  url: https://www.cbn-cnc.be/nl/adviezen/toelichting-bij-de-boekhoudkundige-verwerking-van-termijnwisselverrichtingen-tussen-de
-  datum: '1998-02-01'
+  - titel: 'Afwijking inzake functionele valuta: praktische implicaties en procedure'
+    url: https://www.cbn-cnc.be/nl/adviezen/afwijking-inzake-functionele-valuta-praktische-implicaties-en-procedure
+    datum: '2011-05-04'
+  - titel: Aanvullende aspecten in verband met de boekhoudkundige verwerking van afrondingsverschillen bij conversie
+    url: https://www.cbn-cnc.be/nl/adviezen/aanvullende-aspecten-in-verband-met-de-boekhoudkundige-verwerking-van
+    datum: '1999-02-01'
+  - titel: Afronding van de bedragen in de jaarrekeningen die in euro of in duizenden euro zijn opgesteld
+    url: https://www.cbn-cnc.be/nl/adviezen/afronding-van-de-bedragen-in-de-jaarrekeningen-die-in-euro-of-in-duizenden-euro-zijn
+    datum: '1998-02-01'
+  - titel: Toelichting bij de boekhoudkundige verwerking van termijnwisselverrichtingen tussen de munten van Lid-Staten van de Muntunie
+    url: https://www.cbn-cnc.be/nl/adviezen/toelichting-bij-de-boekhoudkundige-verwerking-van-termijnwisselverrichtingen-tussen-de
+    datum: '1998-02-01'
 ---
 
 # CBN-advies 173/3 - Toelichting bij de datum vanaf wanneer ondernemingen (waarvan het boekjaar niet samenvalt met het kalenderjaar) hun jaarrekening mogen opstellen in euro

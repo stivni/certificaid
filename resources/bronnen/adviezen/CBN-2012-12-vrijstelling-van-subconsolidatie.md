@@ -2,53 +2,55 @@
 nummer: CBN-advies 2012/12
 datum: 2012-09-05
 themas:
-- geconsolideerde jaarrekening
-- subconsolidatie
-- vrijstelling
+  - geconsolideerde jaarrekening
+  - subconsolidatie
+  - vrijstelling
 bron: https://www.cbn-cnc.be/nl/adviezen/vrijstelling-van-subconsolidatie
 provenance:
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/vrijstelling-van-subconsolidatie
-    sha256: 8f168ca3c194d2e303793b92086d96be169004b1e86f6cbc85e979ca9feec293
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/vrijstelling-van-subconsolidatie
+      sha256: 8f168ca3c194d2e303793b92086d96be169004b1e86f6cbc85e979ca9feec293
+      version:
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model: null
-    prompt_version: null
+    model:
+    prompt_version:
   generated_at: '2026-05-08T21:30:10Z'
   stale: false
-  stale_reason: null
+  stale_reason:
   trust:
     status: trusted
-    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T21:31:11Z'
     confirmed_by: human
-    rationale: 'Herscraped na fix select_title(): gecombineerde H1 (COMMISSIE + titel)
-      correct gesplitst. Inhoud ongewijzigd t.o.v. vorig vertrouwd verdict. Laag 1
-      pass (of benign max_section warn).'
+    rationale: 'Herscraped na fix select_title(): gecombineerde H1 (COMMISSIE + titel) correct gesplitst. Inhoud ongewijzigd t.o.v. vorig vertrouwd verdict. Laag 1 pass (of benign max_section warn).'
     layer1:
-      verdict: pass
+      status: pass
+      run_id: 20260511-083333
+      run_at:
       heading_count: 3
       max_section_chars: 1692
-      file_size_chars: 4258
+      file_size_chars: 4259
       flags: []
-      run_id: 20260509-212552
+    layer2:
+      status: not_run
+      agent:
+      run_at:
+      rationale:
+      concrete_problemen: []
 gerelateerde_adviezen:
-- titel: 'Belgische bijkantoren van buitenlandse vennootschappen: toepassing van het
-    Belgisch boekhoudrecht - begrip “bijkantoor” – publicatieplicht (update)'
-  url: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-buitenlandse-vennootschappen-toepassing-van-het-belgisch
-  datum: '2022-11-08'
-- titel: Vermogensmutatiemethode
-  url: https://www.cbn-cnc.be/nl/adviezen/vermogensmutatiemethode
-  datum: '2022-09-09'
-- titel: 'Belgische bijkantoren van vennootschappen naar buitenlands recht: toepassing
-    van het Belgisch boekhoudrecht - begrip “bijkantoor” - publicatieplicht'
-  url: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-vennootschappen-naar-buitenlands-recht-toepassing-van-het
-  datum: '2018-05-09'
-- titel: Te verwaarlozen betekenis
-  url: https://www.cbn-cnc.be/nl/adviezen/te-verwaarlozen-betekenis
-  datum: '2012-07-04'
+  - titel: 'Belgische bijkantoren van buitenlandse vennootschappen: toepassing van het Belgisch boekhoudrecht - begrip “bijkantoor” – publicatieplicht (update)'
+    url: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-buitenlandse-vennootschappen-toepassing-van-het-belgisch
+    datum: '2022-11-08'
+  - titel: Vermogensmutatiemethode
+    url: https://www.cbn-cnc.be/nl/adviezen/vermogensmutatiemethode
+    datum: '2022-09-09'
+  - titel: 'Belgische bijkantoren van vennootschappen naar buitenlands recht: toepassing van het Belgisch boekhoudrecht - begrip “bijkantoor” - publicatieplicht'
+    url: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-vennootschappen-naar-buitenlands-recht-toepassing-van-het
+    datum: '2018-05-09'
+  - titel: Te verwaarlozen betekenis
+    url: https://www.cbn-cnc.be/nl/adviezen/te-verwaarlozen-betekenis
+    datum: '2012-07-04'
 ---
 
 # CBN-advies 2012/12 - Vrijstelling van subconsolidatie

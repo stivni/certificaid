@@ -2,47 +2,53 @@
 nummer: CBN-advies 12/2
 datum: 1977-12-01
 themas:
-- boekjaar
+  - boekjaar
 bron: https://www.cbn-cnc.be/nl/adviezen/toepassingsgebied-van-de-uitvoeringsbesluiten-boekjaar-waarop-de-criteria-van-toepassing
 provenance:
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/toepassingsgebied-van-de-uitvoeringsbesluiten-boekjaar-waarop-de-criteria-van-toepassing
-    sha256: 26ca679519de6ac24c5bd8d0c5f98ce1e83aa35f7077241e7354b85fbcebf4db
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/toepassingsgebied-van-de-uitvoeringsbesluiten-boekjaar-waarop-de-criteria-van-toepassing
+      sha256: 26ca679519de6ac24c5bd8d0c5f98ce1e83aa35f7077241e7354b85fbcebf4db
+      version:
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model: null
-    prompt_version: null
+    model:
+    prompt_version:
   generated_at: '2026-05-08T18:33:31Z'
   stale: false
-  stale_reason: null
+  stale_reason:
   trust:
-    status: trusted
-    qa_version: trust-rework-2
-    confirmed_at: '2026-05-08T18:40:02Z'
-    confirmed_by: qa-laag1-auto
-    rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    status: unreviewed
+    confirmed_at:
+    confirmed_by:
+    rationale:
     layer1:
-      verdict: pass
+      status: pass
+      run_id: 20260511-083333
+      run_at:
       heading_count: 0
-      max_section_chars: 2656
-      file_size_chars: 2656
+      max_section_chars: 2657
+      file_size_chars: 2657
       flags: []
-      run_id: 20260509-212552
+    layer2:
+      status: not_run
+      agent:
+      run_at:
+      rationale:
+      concrete_problemen: []
 gerelateerde_adviezen:
-- titel: Gevolgen verhoging groottecriteria voor (I)VZW’s en stichtingen
-  url: https://www.cbn-cnc.be/nl/adviezen/gevolgen-verhoging-groottecriteria-voor-ivzws-en-stichtingen
-  datum: '2024-09-19'
-- titel: Gevolgen verhoging groottecriteria voor vennootschappen
-  url: https://www.cbn-cnc.be/nl/adviezen/gevolgen-verhoging-groottecriteria-voor-vennootschappen
-  datum: '2024-09-19'
-- titel: Verslaggeving bij ontbinding en vereffening van een VZW of IVZW
-  url: https://www.cbn-cnc.be/nl/adviezen/verslaggeving-bij-ontbinding-en-vereffening-van-een-vzw-of-ivzw
-  datum: '2022-04-27'
-- titel: Verslaggeving bij ontbinding en vereffening van BV, CV, NV, SE en SCE
-  url: https://www.cbn-cnc.be/nl/adviezen/verslaggeving-bij-ontbinding-en-vereffening-van-bv-cv-nv-se-en-sce
-  datum: '2022-04-01'
+  - titel: Gevolgen verhoging groottecriteria voor (I)VZW’s en stichtingen
+    url: https://www.cbn-cnc.be/nl/adviezen/gevolgen-verhoging-groottecriteria-voor-ivzws-en-stichtingen
+    datum: '2024-09-19'
+  - titel: Gevolgen verhoging groottecriteria voor vennootschappen
+    url: https://www.cbn-cnc.be/nl/adviezen/gevolgen-verhoging-groottecriteria-voor-vennootschappen
+    datum: '2024-09-19'
+  - titel: Verslaggeving bij ontbinding en vereffening van een VZW of IVZW
+    url: https://www.cbn-cnc.be/nl/adviezen/verslaggeving-bij-ontbinding-en-vereffening-van-een-vzw-of-ivzw
+    datum: '2022-04-27'
+  - titel: Verslaggeving bij ontbinding en vereffening van BV, CV, NV, SE en SCE
+    url: https://www.cbn-cnc.be/nl/adviezen/verslaggeving-bij-ontbinding-en-vereffening-van-bv-cv-nv-se-en-sce
+    datum: '2022-04-01'
 ---
 
 # CBN-advies 12-2 - Toepassingsgebied van de uitvoeringsbesluiten: Boekjaar waarop de criteria van toepassing zijn

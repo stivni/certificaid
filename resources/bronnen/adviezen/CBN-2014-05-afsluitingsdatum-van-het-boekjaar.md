@@ -2,37 +2,43 @@
 nummer: CBN-advies 2014/5
 datum: 2014-04-23
 themas:
-- afsluiting
-- afsluitingsdatum
-- balansdatum
-- boekjaar
+  - afsluiting
+  - afsluitingsdatum
+  - balansdatum
+  - boekjaar
 bron: https://www.cbn-cnc.be/nl/adviezen/afsluitingsdatum-van-het-boekjaar
 provenance:
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/afsluitingsdatum-van-het-boekjaar
-    sha256: 2c47eb840e00d394a7b0d827c1f25e2935694f1535011a5c01bb48914d8dad4f
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/afsluitingsdatum-van-het-boekjaar
+      sha256: 2c47eb840e00d394a7b0d827c1f25e2935694f1535011a5c01bb48914d8dad4f
+      version:
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model: null
-    prompt_version: null
+    model:
+    prompt_version:
   generated_at: '2026-05-08T18:36:44Z'
   stale: false
-  stale_reason: null
+  stale_reason:
   trust:
-    status: trusted
-    qa_version: trust-rework-2
-    confirmed_at: '2026-05-08T18:40:04Z'
-    confirmed_by: qa-laag1-auto
-    rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    status: unreviewed
+    confirmed_at:
+    confirmed_by:
+    rationale:
     layer1:
-      verdict: pass
+      status: pass
+      run_id: 20260511-083333
+      run_at:
       heading_count: 2
       max_section_chars: 3305
-      file_size_chars: 3837
+      file_size_chars: 3838
       flags: []
-      run_id: 20260509-212552
+    layer2:
+      status: not_run
+      agent:
+      run_at:
+      rationale:
+      concrete_problemen: []
 ---
 
 # CBN-advies 2014/5 - Afsluitingsdatum van het boekjaar

@@ -2,49 +2,55 @@
 nummer: CBN-advies C102
 datum: 1998-02-01
 themas:
-- slotkoers
-- slotkoersmethode
-- bilaterale wisselkoersen
-- euro
-- geconsolideerde jaarrekening
-- geconsolideerde reserves
-- monetaire posten
-- monetaire/niet-monetaire methode
-- niet-monetaire posten
-- omrekeningskoers
-- omrekeningsverschil
-- overschakeling op de euro
+  - slotkoers
+  - slotkoersmethode
+  - bilaterale wisselkoersen
+  - euro
+  - geconsolideerde jaarrekening
+  - geconsolideerde reserves
+  - monetaire posten
+  - monetaire/niet-monetaire methode
+  - niet-monetaire posten
+  - omrekeningskoers
+  - omrekeningsverschil
+  - overschakeling op de euro
 bron: https://www.cbn-cnc.be/nl/adviezen/overschakeling-op-de-euro-aspecten-in-verband-met-de-geconsolideerde-jaarrekening
 provenance:
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/overschakeling-op-de-euro-aspecten-in-verband-met-de-geconsolideerde-jaarrekening
-    sha256: ab2bfec3e927b5ec40d7ee28060050ff1cc7740d622ffac9dde0c1ebb0dbd7d9
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/overschakeling-op-de-euro-aspecten-in-verband-met-de-geconsolideerde-jaarrekening
+      sha256: ab2bfec3e927b5ec40d7ee28060050ff1cc7740d622ffac9dde0c1ebb0dbd7d9
+      version:
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model: null
-    prompt_version: null
+    model:
+    prompt_version:
   generated_at: '2026-05-08T18:33:42Z'
   stale: false
-  stale_reason: null
+  stale_reason:
   trust:
-    status: trusted
-    qa_version: trust-rework-2
-    confirmed_at: '2026-05-08T18:40:02Z'
-    confirmed_by: qa-laag1-auto
-    rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    status: unreviewed
+    confirmed_at:
+    confirmed_by:
+    rationale:
     layer1:
-      verdict: pass
-      heading_count: 10
-      max_section_chars: 13333
-      file_size_chars: 26681
+      status: pass
+      run_id: 20260511-083333
+      run_at:
+      heading_count: 9
+      max_section_chars: 15769
+      file_size_chars: 26679
       flags: []
-      run_id: 20260509-212552
+    layer2:
+      status: not_run
+      agent:
+      run_at:
+      rationale:
+      concrete_problemen: []
 gerelateerde_adviezen:
-- titel: Opneming van de rekeningen van een buitenlands bijkantoor
-  url: https://www.cbn-cnc.be/nl/adviezen/opneming-van-de-rekeningen-van-een-buitenlands-bijkantoor
-  datum: '1995-10-01'
+  - titel: Opneming van de rekeningen van een buitenlands bijkantoor
+    url: https://www.cbn-cnc.be/nl/adviezen/opneming-van-de-rekeningen-van-een-buitenlands-bijkantoor
+    datum: '1995-10-01'
 ---
 
 # CBN-advies C102 - Overschakeling op de euro - Aspecten in verband met de geconsolideerde jaarrekening

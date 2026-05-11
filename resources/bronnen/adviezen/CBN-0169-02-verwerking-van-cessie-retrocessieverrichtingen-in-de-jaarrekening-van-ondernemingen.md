@@ -2,37 +2,43 @@
 nummer: CBN-advies 169/2
 datum: 1995-02-01
 themas:
-- cessie-retrocessieverrichtingen
-- effecten
-- portageverrichtingen
-- aandelen
+  - cessie-retrocessieverrichtingen
+  - effecten
+  - portageverrichtingen
+  - aandelen
 bron: https://www.cbn-cnc.be/nl/adviezen/verwerking-van-cessie-retrocessieverrichtingen-in-de-jaarrekening-van-ondernemingen
 provenance:
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/verwerking-van-cessie-retrocessieverrichtingen-in-de-jaarrekening-van-ondernemingen
-    sha256: 7bdd2ddf62dc20d396997a39b3d2ba81e680484b21ead22a1e47bc44248fb977
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/verwerking-van-cessie-retrocessieverrichtingen-in-de-jaarrekening-van-ondernemingen
+      sha256: 7bdd2ddf62dc20d396997a39b3d2ba81e680484b21ead22a1e47bc44248fb977
+      version:
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model: null
-    prompt_version: null
+    model:
+    prompt_version:
   generated_at: '2026-05-08T18:35:35Z'
   stale: false
-  stale_reason: null
+  stale_reason:
   trust:
-    status: trusted
-    qa_version: trust-rework-2
-    confirmed_at: '2026-05-08T18:40:03Z'
-    confirmed_by: qa-laag1-auto
-    rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    status: unreviewed
+    confirmed_at:
+    confirmed_by:
+    rationale:
     layer1:
-      verdict: pass
-      heading_count: 20
-      max_section_chars: 8007
-      file_size_chars: 29749
+      status: pass
+      run_id: 20260511-083333
+      run_at:
+      heading_count: 7
+      max_section_chars: 18104
+      file_size_chars: 29760
       flags: []
-      run_id: 20260509-212552
+    layer2:
+      status: not_run
+      agent:
+      run_at:
+      rationale:
+      concrete_problemen: []
 ---
 
 # CBN-advies 169/2 - Verwerking van cessie-retrocessieverrichtingen in de jaarrekening van ondernemingen

@@ -1,5 +1,5 @@
 ---
-nummer: "CBN-advies 2022/13"
+nummer: CBN-advies 2022/13
 datum: 2022-09-23
 themas:
   - fusie
@@ -29,22 +29,24 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    qa_version:
-    confirmed_at: '2026-05-08T18:40:05Z'
-    confirmed_by: qa-laag1-auto
-    rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    status: unreviewed
+    confirmed_at:
+    confirmed_by:
+    rationale:
     layer1:
-      verdict: warn
-      heading_count: 33
-      max_section_chars: 31805
-      file_size_chars: 33181
-      flags:
-        - name: max_section_size
-          status: warn
-          detail: 'langste sectie op ##-niveau: 31805 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
-          samples: []
-      run_id: 20260509-212552
+      status: pass
+      run_id: 20260511-083333
+      run_at:
+      heading_count: 16
+      max_section_chars: 14757
+      file_size_chars: 33110
+      flags: []
+    layer2:
+      status: not_run
+      agent:
+      run_at:
+      rationale:
+      concrete_problemen: []
 gerelateerde_adviezen:
   - titel: Fusies en splitsingen van vennootschappen met een negatief nettoactief
     url: https://www.cbn-cnc.be/nl/adviezen/fusies-en-splitsingen-van-vennootschappen-met-een-negatief-nettoactief

@@ -2,46 +2,52 @@
 nummer: CBN-advies 2020/13
 datum: 2020-12-09
 themas:
-- CVBA
-- coöperatieve vennootschap
-- CVOA
-- kapitaal
-- inbreng
-- vast gedeelte kapitaal
-- wettelijke reserve
-- variabel gedeelte kapitaal
-- scheidingsaandeel
-- uittreding
-- coöperatieve vennootschap met beperkte aansprakelijkheid
-- coöperatieve vennootschap met onbeperkte aansprakelijkheid
-- inbreng buiten kapitaal
+  - CVBA
+  - coöperatieve vennootschap
+  - CVOA
+  - kapitaal
+  - inbreng
+  - vast gedeelte kapitaal
+  - wettelijke reserve
+  - variabel gedeelte kapitaal
+  - scheidingsaandeel
+  - uittreding
+  - coöperatieve vennootschap met beperkte aansprakelijkheid
+  - coöperatieve vennootschap met onbeperkte aansprakelijkheid
+  - inbreng buiten kapitaal
 bron: https://www.cbn-cnc.be/nl/adviezen/overgang-van-een-kapitaalhoudende-cooperatieve-vennootschap-naar-een-kapitaalloze
 provenance:
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/overgang-van-een-kapitaalhoudende-cooperatieve-vennootschap-naar-een-kapitaalloze
-    sha256: 7a6ccd926ff977a1552595e8ab0cb3da97a206538ddac53916548b750f5c742b
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/overgang-van-een-kapitaalhoudende-cooperatieve-vennootschap-naar-een-kapitaalloze
+      sha256: 7a6ccd926ff977a1552595e8ab0cb3da97a206538ddac53916548b750f5c742b
+      version:
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model: null
-    prompt_version: null
+    model:
+    prompt_version:
   generated_at: '2026-05-08T18:37:53Z'
   stale: false
-  stale_reason: null
+  stale_reason:
   trust:
-    status: trusted
-    qa_version: trust-rework-2
-    confirmed_at: '2026-05-08T18:40:05Z'
-    confirmed_by: qa-laag1-auto
-    rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    status: unreviewed
+    confirmed_at:
+    confirmed_by:
+    rationale:
     layer1:
-      verdict: pass
+      status: pass
+      run_id: 20260511-083333
+      run_at:
       heading_count: 15
-      max_section_chars: 7148
-      file_size_chars: 24337
+      max_section_chars: 12999
+      file_size_chars: 24349
       flags: []
-      run_id: 20260509-212552
+    layer2:
+      status: not_run
+      agent:
+      run_at:
+      rationale:
+      concrete_problemen: []
 ---
 
 # CBN-advies 2020/13 – Overgang van een kapitaalhoudende coöperatieve vennootschap naar een kapitaalloze vennootschap

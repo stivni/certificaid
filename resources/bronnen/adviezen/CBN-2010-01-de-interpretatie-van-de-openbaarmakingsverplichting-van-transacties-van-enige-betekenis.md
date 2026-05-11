@@ -2,41 +2,45 @@
 nummer: CBN-advies 2010/1
 datum: 2010-01-13
 themas:
-- buiten normale marktvoorwaarden
-- corporate governance
-- materialiteitsbeginsel
-- transactie buiten normale marktvoorwaarden
-- transactie met verbonden partijen
-- transactie van enige betekenis
+  - buiten normale marktvoorwaarden
+  - corporate governance
+  - materialiteitsbeginsel
+  - transactie buiten normale marktvoorwaarden
+  - transactie met verbonden partijen
+  - transactie van enige betekenis
 bron: https://www.cbn-cnc.be/nl/adviezen/de-interpretatie-van-de-openbaarmakingsverplichting-van-transacties-van-enige-betekenis
 provenance:
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/de-interpretatie-van-de-openbaarmakingsverplichting-van-transacties-van-enige-betekenis
-    sha256: f8cb0768ae41a60178408e84719465b10aa085621e8b1f65eda22c87b97a02e3
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/de-interpretatie-van-de-openbaarmakingsverplichting-van-transacties-van-enige-betekenis
+      sha256: f8cb0768ae41a60178408e84719465b10aa085621e8b1f65eda22c87b97a02e3
+      version:
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model: null
-    prompt_version: null
+    model:
+    prompt_version:
   generated_at: '2026-05-08T21:30:05Z'
   stale: false
-  stale_reason: null
+  stale_reason:
   trust:
     status: trusted
-    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T21:31:11Z'
     confirmed_by: human
-    rationale: 'Herscraped na fix select_title(): gecombineerde H1 (COMMISSIE + titel)
-      correct gesplitst. Inhoud ongewijzigd t.o.v. vorig vertrouwd verdict. Laag 1
-      pass (of benign max_section warn).'
+    rationale: 'Herscraped na fix select_title(): gecombineerde H1 (COMMISSIE + titel) correct gesplitst. Inhoud ongewijzigd t.o.v. vorig vertrouwd verdict. Laag 1 pass (of benign max_section warn).'
     layer1:
-      verdict: pass
+      status: pass
+      run_id: 20260511-083333
+      run_at:
       heading_count: 7
-      max_section_chars: 4562
-      file_size_chars: 14144
+      max_section_chars: 9091
+      file_size_chars: 14148
       flags: []
-      run_id: 20260509-212552
+    layer2:
+      status: not_run
+      agent:
+      run_at:
+      rationale:
+      concrete_problemen: []
 ---
 
 # CBN-advies 2010/1 - De interpretatie van de openbaarmakingsverplichting van transacties van enige betekenis met verbonden partijen buiten normale marktvoorwaarden, zoals bepaald in het koninklijk besluit van 10 augustus 2009

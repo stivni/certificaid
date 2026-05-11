@@ -1,14 +1,14 @@
 ---
-tags: ["XVI"]
-itaa-lex-sectie: "XVI"
-wet: "Wet 3 juli 1978 betreffende de arbeidsovereenkomsten"
-bron_rol: "itaa_lex"
-status: "beschikbaar"
-bijgewerkt: "03.07.1978"
-bron: "Fisconetplus.be (officieuze gecoördineerde versie)"
+tags: [XVI]
+itaa-lex-sectie: XVI
+wet: Wet 3 juli 1978 betreffende de arbeidsovereenkomsten
+bron_rol: itaa_lex
+status: beschikbaar
+bijgewerkt: 03.07.1978
+bron: Fisconetplus.be (officieuze gecoördineerde versie)
 chunk:
   level: 5
-  type: "Art."
+  type: Art.
   sub_strategy:
 provenance:
   inputs:
@@ -24,43 +24,30 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    qa_version: trust-rework-2
-    confirmed_at: '2026-05-09T21:27:46Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: L1=pass
-    agent_verdict_at: '2026-05-09T21:27:46Z'
-    sample_pick: false
-    sample_reviewed_at:
-    sample_reviewed_by:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by:
+    rationale:
     layer1:
-      verdict: pass
+      status: pass
+      run_id: 20260509-212552
+      run_at:
       heading_count: 209
       max_section_chars: 22805
       file_size_chars: 255432
       flags: []
-      run_id: 20260509-212552
-    layer1_5_diff:
-      verdict: improvement
-      rationale: 'Auto-synthesized: ETL-fixes vandaag (NBSP, sub_strategy, justel-extractor, etc.) verbeteren bestaande versie.'
-      kritieke_observaties: []
-      auto: true
-      run_id: trust-finalize-1
-    layer2_content:
-      verdict: needs-rework
+    layer2:
+      status: needs-rework
+      agent:
+      run_at:
       rationale: "Heading + body op dezelfde regel: '##### Art. 54.§ 1. In geval van arbeidsongeschiktheid ...' — heading wordt vervuild met de eerste alinea. Dit komt veelvuldig voor (zie ook Art. 138). Maakt heading-targets onbruikbaar voor RAG-anchoring."
-      problemen:
+      concrete_problemen:
         - regel: -1
           type: other
           voorbeeld: '##### Art. 54.§ 1. In geval van arbeidsongeschiktheid wegens een arbeidsongeval...'
         - regel: -1
           type: other
           voorbeeld: '##### Art. 138.[1 De inbreuken op de bepalingen van [2 de artikelen ...'
-      sterkte:
-        - Inhoud feitelijk volledig (slot Art. 138)
-        - 209 headings — articulatie aanwezig
-      auto: false
-      run_id: qa-batch-W4
 ---
 
 # Wet arbeidsovereenkomsten 1978

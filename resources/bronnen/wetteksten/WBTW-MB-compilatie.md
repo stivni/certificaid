@@ -1,14 +1,14 @@
 ---
-tags: ["VI.C", "2.4"]
-itaa-lex-sectie: "VI.C"
-wet: "Ministeriële besluiten inzake belasting over de toegevoegde waarde (compilatie Fisconet, bijgewerkt t.e.m. 29.04.2024)"
-bron_rol: "itaa_lex"
-status: "beschikbaar"
-bijgewerkt: "29.04.2024"
-bron: "ejustice.just.fgov.be (gecoördineerde versie)"
+tags: [VI.C, '2.4']
+itaa-lex-sectie: VI.C
+wet: Ministeriële besluiten inzake belasting over de toegevoegde waarde (compilatie Fisconet, bijgewerkt t.e.m. 29.04.2024)
+bron_rol: itaa_lex
+status: beschikbaar
+bijgewerkt: 29.04.2024
+bron: ejustice.just.fgov.be (gecoördineerde versie)
 chunk:
   level: 6
-  type: "Art."
+  type: Art.
   sub_strategy:
 provenance:
   inputs:
@@ -25,37 +25,23 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    qa_version: trust-rework-2
     confirmed_at: '2026-05-09T21:27:46Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: L1=pass
-    agent_verdict_at: '2026-05-09T21:27:46Z'
-    sample_pick: false
-    sample_reviewed_at:
-    sample_reviewed_by:
     layer1:
-      verdict: pass
+      status: pass
+      run_id: 20260509-212552
+      run_at:
       heading_count: 135
       max_section_chars: 2386
       file_size_chars: 52317
       flags: []
-      run_id: 20260509-212552
-    layer1_5_diff:
-      verdict: improvement
-      rationale: 'Auto-synthesized: ETL-fixes vandaag (NBSP, sub_strategy, justel-extractor, etc.) verbeteren bestaande versie.'
-      kritieke_observaties: []
-      auto: true
-      run_id: trust-finalize-1
-    layer2_content:
-      verdict: trusted
+    layer2:
+      status: trusted
+      agent:
+      run_at:
       rationale: 'Goed gestructureerd: 135 headings tot ###### Art.-niveau, max sectie 2386 chars. Compilatiebestand met TITEL/HOOFDSTUK/AFDELING-hierarchie + per-artikel-headings.'
-      problemen: []
-      sterkte:
-        - 'Per-artikel ###### Art. headings consequent aanwezig'
-        - Hierarchische TITEL/HOOFDSTUK structuur intact
-        - Geen TOC-stippen in body, geen NBSP/scrambling
-      auto: false
-      run_id: qa-batch-W4
+      concrete_problemen: []
 ---
 
 # Ministeriële besluiten inzake belasting over de toegevoegde waarde (compilatie Fisconet, bijgewerkt t.e.m. 29.04.2024)

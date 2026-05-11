@@ -1,10 +1,10 @@
 ---
-tags: ["VIII", "2.6"]
-itaa-lex-sectie: "VIII"
-wet: "Wetboek der Registratie-, Hypotheek- en Griffierechten — Brussels Hoofdstedelijk Gewest"
-status: "beschikbaar"
-bijgewerkt: "16.03.2026"
-bron: "Fisconetplus.be (officieuze gecoördineerde versie)"
+tags: [VIII, '2.6']
+itaa-lex-sectie: VIII
+wet: Wetboek der Registratie-, Hypotheek- en Griffierechten — Brussels Hoofdstedelijk Gewest
+status: beschikbaar
+bijgewerkt: 16.03.2026
+bron: Fisconetplus.be (officieuze gecoördineerde versie)
 provenance:
   inputs:
     - id: resources/raw/wetteksten/Registratierechten-Brussel.pdf
@@ -20,12 +20,13 @@ provenance:
   stale_reason:
   trust:
     status: unreviewed
-    qa_version:
     confirmed_at:
-    confirmed_by: default
+    confirmed_by:
     rationale:
     layer1:
-      verdict: warn
+      status: warn
+      run_id: 20260509-212552
+      run_at:
       heading_count: 602
       max_section_chars: 58083
       file_size_chars: 543714
@@ -41,27 +42,17 @@ provenance:
             - '................................................................................'
             - '...............................................................................6'
             - '................................................................................'
-      run_id: 20260509-212552
-    layer1_5_diff:
-      verdict: improvement
-      rationale: 'Auto-synthesized: ETL-fixes vandaag (NBSP, sub_strategy, justel-extractor, etc.) verbeteren bestaande versie.'
-      kritieke_observaties: []
-      auto: true
-      run_id: trust-finalize-1
-    layer2_content:
-      verdict: needs-rework
+    layer2:
+      status: needs-rework
+      agent:
+      run_at:
       rationale: 'Grote codex met 602 headings, maar Laag-1 meldt 72 TOC-stippen-regels (= TOC niet uit body verwijderd) en max_section_size 58k chars op niveau ######. RAG zal vervuilde TOC-chunks meekrijgen.'
-      problemen:
+      concrete_problemen:
         - 72 TOC-stippen-regels (TOC niet ontkoppeld)
         - max_section_size 58083 chars
-      sterkte:
-        - frontmatter correct
-        - rijke heading-structuur
-      auto: false
-      run_id: qa-batch-W2
 chunk:
   level: 6
-  type: "Art."
+  type: Art.
   sub_strategy:
 ---
 

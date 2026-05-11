@@ -2,51 +2,54 @@
 nummer: CBN-advies 2018/14
 datum: 2018-05-30
 themas:
-- belastingen
-- actieve belastinglatentie
+  - belastingen
+  - actieve belastinglatentie
 bron: https://www.cbn-cnc.be/nl/adviezen/belastingen
 provenance:
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/belastingen
-    sha256: 37257a82ec205759256316f09d50c8ffe643b65db8b5b0d3e2b75e62eea7df9b
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/belastingen
+      sha256: 37257a82ec205759256316f09d50c8ffe643b65db8b5b0d3e2b75e62eea7df9b
+      version:
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model: null
-    prompt_version: null
+    model:
+    prompt_version:
   generated_at: '2026-05-08T18:37:24Z'
   stale: false
-  stale_reason: null
+  stale_reason:
   trust:
-    status: trusted
-    qa_version: trust-rework-2
-    confirmed_at: '2026-05-08T18:40:04Z'
-    confirmed_by: qa-laag1-auto
-    rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    status: unreviewed
+    confirmed_at:
+    confirmed_by:
+    rationale:
     layer1:
-      verdict: pass
-      heading_count: 45
-      max_section_chars: 10131
-      file_size_chars: 45169
+      status: pass
+      run_id: 20260511-083333
+      run_at:
+      heading_count: 44
+      max_section_chars: 21174
+      file_size_chars: 45166
       flags: []
-      run_id: 20260509-212552
+    layer2:
+      status: not_run
+      agent:
+      run_at:
+      rationale:
+      concrete_problemen: []
 gerelateerde_adviezen:
-- titel: Boekhoudkundige verwerking van de vergoeding voor de groepsbijdrage in hoofde
-    van de overdragende vennootschap bij gebrek aan Belgische belastingen op het resultaat
-    op rekening 4500 (addendum bij advies 2019/06)
-  url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-vergoeding-voor-de-groepsbijdrage-in-hoofde-van-de
-  datum: '2021-12-22'
-- titel: Groepsbijdrage
-  url: https://www.cbn-cnc.be/nl/adviezen/groepsbijdrage
-  datum: '2019-07-02'
-- titel: Boekhoudkundige verwerking van moratoriuminterest
-  url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-moratoriuminterest
-  datum: '2017-04-19'
-- titel: Boekhoudkundige verwerking van de liquidatiereserve bedoeld in artikel 541
-    WIB 92 (Programmawet van 10 augustus 2015) en de bijzondere aanslag op deze liquidatiereserve
-  url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-liquidatiereserve-bedoeld-in-artikel-541-wib-92
-  datum: '2015-09-30'
+  - titel: Boekhoudkundige verwerking van de vergoeding voor de groepsbijdrage in hoofde van de overdragende vennootschap bij gebrek aan Belgische belastingen op het resultaat op rekening 4500 (addendum bij advies 2019/06)
+    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-vergoeding-voor-de-groepsbijdrage-in-hoofde-van-de
+    datum: '2021-12-22'
+  - titel: Groepsbijdrage
+    url: https://www.cbn-cnc.be/nl/adviezen/groepsbijdrage
+    datum: '2019-07-02'
+  - titel: Boekhoudkundige verwerking van moratoriuminterest
+    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-moratoriuminterest
+    datum: '2017-04-19'
+  - titel: Boekhoudkundige verwerking van de liquidatiereserve bedoeld in artikel 541 WIB 92 (Programmawet van 10 augustus 2015) en de bijzondere aanslag op deze liquidatiereserve
+    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-liquidatiereserve-bedoeld-in-artikel-541-wib-92
+    datum: '2015-09-30'
 ---
 
 # CBN-advies 2018/14 – Belastingen

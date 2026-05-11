@@ -2,48 +2,54 @@
 nummer: CBN-advies 2009/16
 datum: 2009-12-16
 themas:
-- fusie
-- grensoverschrijdende fusie
+  - fusie
+  - grensoverschrijdende fusie
 bron: https://www.cbn-cnc.be/nl/adviezen/omrekening-van-kapitaal-bij-grensoverschrijdende-fusies
 provenance:
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/omrekening-van-kapitaal-bij-grensoverschrijdende-fusies
-    sha256: 83dc21653a6c045697a3cc20ede1abb140dfde829e847e94ef0aef58d448ddef
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/omrekening-van-kapitaal-bij-grensoverschrijdende-fusies
+      sha256: 83dc21653a6c045697a3cc20ede1abb140dfde829e847e94ef0aef58d448ddef
+      version:
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model: null
-    prompt_version: null
+    model:
+    prompt_version:
   generated_at: '2026-05-08T18:35:55Z'
   stale: false
-  stale_reason: null
+  stale_reason:
   trust:
-    status: trusted
-    qa_version: trust-rework-2
-    confirmed_at: '2026-05-08T18:40:03Z'
-    confirmed_by: qa-laag1-auto
-    rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    status: unreviewed
+    confirmed_at:
+    confirmed_by:
+    rationale:
     layer1:
-      verdict: pass
+      status: pass
+      run_id: 20260511-083333
+      run_at:
       heading_count: 5
-      max_section_chars: 4266
-      file_size_chars: 10642
+      max_section_chars: 4267
+      file_size_chars: 10645
       flags: []
-      run_id: 20260509-212552
+    layer2:
+      status: not_run
+      agent:
+      run_at:
+      rationale:
+      concrete_problemen: []
 gerelateerde_adviezen:
-- titel: Boekhoudkundige verwerking van fusies tussen verenigingen en stichtingen
-  url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-fusies-tussen-verenigingen-en-stichtingen
-  datum: '2022-09-23'
-- titel: Fusies en splitsingen van vennootschappen met een negatief nettoactief
-  url: https://www.cbn-cnc.be/nl/adviezen/fusies-en-splitsingen-van-vennootschappen-met-een-negatief-nettoactief
-  datum: '2022-02-15'
-- titel: 'Verenigingen en stichtingen: compensatie van negatieve fondsen'
-  url: https://www.cbn-cnc.be/nl/adviezen/verenigingen-en-stichtingen-compensatie-van-negatieve-fondsen
-  datum: '2021-11-22'
-- titel: Boekhoudkundige verwerking van fusies tussen vennootschappen
-  url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-fusies-tussen-vennootschappen
-  datum: '2021-07-02'
+  - titel: Boekhoudkundige verwerking van fusies tussen verenigingen en stichtingen
+    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-fusies-tussen-verenigingen-en-stichtingen
+    datum: '2022-09-23'
+  - titel: Fusies en splitsingen van vennootschappen met een negatief nettoactief
+    url: https://www.cbn-cnc.be/nl/adviezen/fusies-en-splitsingen-van-vennootschappen-met-een-negatief-nettoactief
+    datum: '2022-02-15'
+  - titel: 'Verenigingen en stichtingen: compensatie van negatieve fondsen'
+    url: https://www.cbn-cnc.be/nl/adviezen/verenigingen-en-stichtingen-compensatie-van-negatieve-fondsen
+    datum: '2021-11-22'
+  - titel: Boekhoudkundige verwerking van fusies tussen vennootschappen
+    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-fusies-tussen-vennootschappen
+    datum: '2021-07-02'
 ---
 
 # CBN-advies 2009/16 Omrekening van kapitaal bij grensoverschrijdende fusies

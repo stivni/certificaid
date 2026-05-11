@@ -2,41 +2,47 @@
 nummer: CBN-advies 2016/5
 datum: 2016-05-04
 themas:
-- aftrekmethode
-- handelsgoederen
-- individuele waardering
-- voorraad
+  - aftrekmethode
+  - handelsgoederen
+  - individuele waardering
+  - voorraad
 bron: https://www.cbn-cnc.be/nl/adviezen/waardering-van-voorraden-gezamenlijke-aankoop-en-doorverkoop-per-stuk
 provenance:
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/waardering-van-voorraden-gezamenlijke-aankoop-en-doorverkoop-per-stuk
-    sha256: e3615402540f4ab313f289d0f842228b7e8e816f54c662f9fd08dc0a74bd34b0
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/waardering-van-voorraden-gezamenlijke-aankoop-en-doorverkoop-per-stuk
+      sha256: e3615402540f4ab313f289d0f842228b7e8e816f54c662f9fd08dc0a74bd34b0
+      version:
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model: null
-    prompt_version: null
+    model:
+    prompt_version:
   generated_at: '2026-05-08T18:36:54Z'
   stale: false
-  stale_reason: null
+  stale_reason:
   trust:
-    status: trusted
-    qa_version: trust-rework-2
-    confirmed_at: '2026-05-08T18:40:04Z'
-    confirmed_by: qa-laag1-auto
-    rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    status: unreviewed
+    confirmed_at:
+    confirmed_by:
+    rationale:
     layer1:
-      verdict: pass
+      status: pass
+      run_id: 20260511-083333
+      run_at:
       heading_count: 3
-      max_section_chars: 7245
-      file_size_chars: 10064
+      max_section_chars: 7246
+      file_size_chars: 10066
       flags: []
-      run_id: 20260509-212552
+    layer2:
+      status: not_run
+      agent:
+      run_at:
+      rationale:
+      concrete_problemen: []
 gerelateerde_adviezen:
-- titel: Waardering van de aanschaffingsprijs van de voorraden op grond van de verkoopprijs
-  url: https://www.cbn-cnc.be/nl/adviezen/waardering-van-de-aanschaffingsprijs-van-de-voorraden-op-grond-van-de-verkoopprijs
-  datum: '1989-09-01'
+  - titel: Waardering van de aanschaffingsprijs van de voorraden op grond van de verkoopprijs
+    url: https://www.cbn-cnc.be/nl/adviezen/waardering-van-de-aanschaffingsprijs-van-de-voorraden-op-grond-van-de-verkoopprijs
+    datum: '1989-09-01'
 ---
 
 # CBN-advies 2016/5 - Waardering van voorraden: gezamenlijke aankoop en doorverkoop per stuk

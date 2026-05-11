@@ -2,47 +2,53 @@
 nummer: CBN-advies 107/13
 datum: 1993-02-01
 themas:
-- actuele waarde
-- brugpensioen
-- geactualiseerde waarde
-- geïndexeerde pensioenen en brugpensioenen
-- pensioen
-- pensioenvoorzieningen
-- verplichting inzake rust- of overlevingspensioenen
-- verplichting voortvloeiend uit brugpensioen
-- voorziening
-- voorzieningen voor brugpensioen
-- voorzieningen voor geïndexeerde pensioenen en brugpensioenen
-- voorzieningen voor pensioenen
-- waardering
-- waardering tegen actuele waarde
+  - actuele waarde
+  - brugpensioen
+  - geactualiseerde waarde
+  - geïndexeerde pensioenen en brugpensioenen
+  - pensioen
+  - pensioenvoorzieningen
+  - verplichting inzake rust- of overlevingspensioenen
+  - verplichting voortvloeiend uit brugpensioen
+  - voorziening
+  - voorzieningen voor brugpensioen
+  - voorzieningen voor geïndexeerde pensioenen en brugpensioenen
+  - voorzieningen voor pensioenen
+  - waardering
+  - waardering tegen actuele waarde
 bron: https://www.cbn-cnc.be/nl/adviezen/voorzieningen-voor-geindexeerde-pensioenen-en-brugpensioenen
 provenance:
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/voorzieningen-voor-geindexeerde-pensioenen-en-brugpensioenen
-    sha256: 07c6349b2dff4577463d3bc6f20e24e63b681e1f854709296f100561a7a5fc1c
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/voorzieningen-voor-geindexeerde-pensioenen-en-brugpensioenen
+      sha256: 07c6349b2dff4577463d3bc6f20e24e63b681e1f854709296f100561a7a5fc1c
+      version:
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model: null
-    prompt_version: null
+    model:
+    prompt_version:
   generated_at: '2026-05-08T18:34:02Z'
   stale: false
-  stale_reason: null
+  stale_reason:
   trust:
-    status: trusted
-    qa_version: trust-rework-2
-    confirmed_at: '2026-05-08T18:40:02Z'
-    confirmed_by: qa-laag1-auto
-    rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    status: unreviewed
+    confirmed_at:
+    confirmed_by:
+    rationale:
     layer1:
-      verdict: pass
+      status: pass
+      run_id: 20260511-083333
+      run_at:
       heading_count: 0
-      max_section_chars: 2776
-      file_size_chars: 2776
+      max_section_chars: 2777
+      file_size_chars: 2777
       flags: []
-      run_id: 20260509-212552
+    layer2:
+      status: not_run
+      agent:
+      run_at:
+      rationale:
+      concrete_problemen: []
 ---
 
 # CBN-advies 107/13 - Voorzieningen voor geïndexeerde pensioenen en brugpensioenen

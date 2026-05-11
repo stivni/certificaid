@@ -2,51 +2,57 @@
 nummer: CBN-advies 2017/03
 datum: 2017-02-01
 themas:
-- boekjaar
-- criteria
-- groottecriteria
-- verlenging van het boekjaar
-- verkorting van het boekjaar
+  - boekjaar
+  - criteria
+  - groottecriteria
+  - verlenging van het boekjaar
+  - verkorting van het boekjaar
 bron: https://www.cbn-cnc.be/nl/adviezen/groottecriteria-boekjaar-korter-of-langer-dan-12-maanden-update
 provenance:
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/groottecriteria-boekjaar-korter-of-langer-dan-12-maanden-update
-    sha256: 7246b24275436240f8e58897b25965ca4740deb95dfb50770445841f85806bff
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/groottecriteria-boekjaar-korter-of-langer-dan-12-maanden-update
+      sha256: 7246b24275436240f8e58897b25965ca4740deb95dfb50770445841f85806bff
+      version:
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model: null
-    prompt_version: null
+    model:
+    prompt_version:
   generated_at: '2026-05-08T18:37:10Z'
   stale: false
-  stale_reason: null
+  stale_reason:
   trust:
-    status: trusted
-    qa_version: trust-rework-2
-    confirmed_at: '2026-05-08T18:40:04Z'
-    confirmed_by: qa-laag1-auto
-    rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    status: unreviewed
+    confirmed_at:
+    confirmed_by:
+    rationale:
     layer1:
-      verdict: pass
-      heading_count: 4
-      max_section_chars: 868
-      file_size_chars: 2607
+      status: pass
+      run_id: 20260511-083333
+      run_at:
+      heading_count: 3
+      max_section_chars: 865
+      file_size_chars: 2605
       flags: []
-      run_id: 20260509-212552
+    layer2:
+      status: not_run
+      agent:
+      run_at:
+      rationale:
+      concrete_problemen: []
 gerelateerde_adviezen:
-- titel: Gevolgen verhoging groottecriteria voor (I)VZW’s en stichtingen
-  url: https://www.cbn-cnc.be/nl/adviezen/gevolgen-verhoging-groottecriteria-voor-ivzws-en-stichtingen
-  datum: '2024-09-19'
-- titel: Gevolgen verhoging groottecriteria voor vennootschappen
-  url: https://www.cbn-cnc.be/nl/adviezen/gevolgen-verhoging-groottecriteria-voor-vennootschappen
-  datum: '2024-09-19'
-- titel: Verslaggeving bij ontbinding en vereffening van een VZW of IVZW
-  url: https://www.cbn-cnc.be/nl/adviezen/verslaggeving-bij-ontbinding-en-vereffening-van-een-vzw-of-ivzw
-  datum: '2022-04-27'
-- titel: Verslaggeving bij ontbinding en vereffening van BV, CV, NV, SE en SCE
-  url: https://www.cbn-cnc.be/nl/adviezen/verslaggeving-bij-ontbinding-en-vereffening-van-bv-cv-nv-se-en-sce
-  datum: '2022-04-01'
+  - titel: Gevolgen verhoging groottecriteria voor (I)VZW’s en stichtingen
+    url: https://www.cbn-cnc.be/nl/adviezen/gevolgen-verhoging-groottecriteria-voor-ivzws-en-stichtingen
+    datum: '2024-09-19'
+  - titel: Gevolgen verhoging groottecriteria voor vennootschappen
+    url: https://www.cbn-cnc.be/nl/adviezen/gevolgen-verhoging-groottecriteria-voor-vennootschappen
+    datum: '2024-09-19'
+  - titel: Verslaggeving bij ontbinding en vereffening van een VZW of IVZW
+    url: https://www.cbn-cnc.be/nl/adviezen/verslaggeving-bij-ontbinding-en-vereffening-van-een-vzw-of-ivzw
+    datum: '2022-04-27'
+  - titel: Verslaggeving bij ontbinding en vereffening van BV, CV, NV, SE en SCE
+    url: https://www.cbn-cnc.be/nl/adviezen/verslaggeving-bij-ontbinding-en-vereffening-van-bv-cv-nv-se-en-sce
+    datum: '2022-04-01'
 ---
 
 # CBN-advies 2017/03 – Groottecriteria – Boekjaar korter of langer dan 12 maanden (update)

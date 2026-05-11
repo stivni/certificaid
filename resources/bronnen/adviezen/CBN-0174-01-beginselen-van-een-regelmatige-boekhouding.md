@@ -1,65 +1,70 @@
 ---
-nummer: "CBN-advies 174/1"
-datum: 1997-02-01
-themas:
-  - beginselen van een regelmatige boekhouding
-  - bewaring van dagboeken en boeken
-  - bewaringstermijn
-  - bewijskracht
-  - dagboek voor de diverse verrichtingen
-  - Dagboek voor de inkoop- en invoerverrichtingen en de ontvangen diensten
-  - dagboek voor de verkoop- en uitvoerverrichtingen en de geleverde diensten
-  - dagboeken
-  - getrouw beeld
-  - hulpdagboeken
-  - inventaris
-  - inventarisplicht
-  - jaarrekening
-  - naar tijdsorde
-  - onveranderlijkheid van de boekingen
-  - regelmatige boekhouding
-  - regels die voor elke bedrijfsboekhouding gelden
-  - regels voor een vereenvoudigde boekhouding
-  - regels voor een volledige boekhouding
-  - rekeningenstelsel
-  - samenvattende boeking
-  - verantwoordingsstuk
-  - vereenvoudigde boekhouding
-  - volledige boekhouding
-  - volledige boekhouding
-  - volledigheidsbeginsel
-  - zonder uitstel
 bron: https://www.cbn-cnc.be/nl/adviezen/beginselen-van-een-regelmatige-boekhouding
+datum: 1997-02-01
+nummer: CBN-advies 174/1
 provenance:
+  generated_at: '2026-05-08T18:35:42Z'
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/beginselen-van-een-regelmatige-boekhouding
-      sha256: 4fade65a6b590868452849f5358c6c9ece26bd561e1f8c5da4a0667868a29404
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/beginselen-van-een-regelmatige-boekhouding
+    sha256: 4fade65a6b590868452849f5358c6c9ece26bd561e1f8c5da4a0667868a29404
+    version: null
+  stale: false
+  stale_reason: null
   tooling:
+    model: null
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:35:42Z'
-  stale: false
-  stale_reason:
+    prompt_version: null
   trust:
-    status: trusted
-    qa_version:
     confirmed_at: '2026-05-08T19:02:28Z'
     confirmed_by: subagent-laag2-ronde2
-    rationale: '[Laag-2-R2 2026-05-08] Het advies heeft 26 headings en 55 voetnoten; alle negen inhoudelijke secties zijn volledig aanwezig. De langste sectie (~52.732 tekens) is inherent groot door het uitgebreide normatieve karakter van dit advies (1997, fundamenteel boekhoudrechtelijk document). Geen tabelcorruptie.'
     layer1:
-      verdict: warn
-      heading_count: 32
-      max_section_chars: 52650
-      file_size_chars: 66484
-      flags:
-        - name: max_section_size
-          status: warn
-          detail: 'langste sectie op ##-niveau: 52650 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
-          samples: []
-      run_id: 20260509-212552
+      file_size_chars: 66464
+      flags: []
+      heading_count: 26
+      max_section_chars: 13485
+      run_at: null
+      run_id: 20260511-083333
+      status: pass
+    layer2:
+      agent: subagent-laag2-ronde2
+      concrete_problemen: []
+      rationale: '[Laag-2-R2 2026-05-08] Het advies heeft 26 headings en 55 voetnoten;
+        alle negen inhoudelijke secties zijn volledig aanwezig. De langste sectie
+        (~52.732 tekens) is inherent groot door het uitgebreide normatieve karakter
+        van dit advies (1997, fundamenteel boekhoudrechtelijk document). Geen tabelcorruptie.'
+      run_at: '2026-05-08T19:02:28Z'
+      status: trusted
+    rationale: Laag-2 trusted door subagent-laag2-ronde2 (zie layer2.rationale)
+    status: trusted
+themas:
+- beginselen van een regelmatige boekhouding
+- bewaring van dagboeken en boeken
+- bewaringstermijn
+- bewijskracht
+- dagboek voor de diverse verrichtingen
+- Dagboek voor de inkoop- en invoerverrichtingen en de ontvangen diensten
+- dagboek voor de verkoop- en uitvoerverrichtingen en de geleverde diensten
+- dagboeken
+- getrouw beeld
+- hulpdagboeken
+- inventaris
+- inventarisplicht
+- jaarrekening
+- naar tijdsorde
+- onveranderlijkheid van de boekingen
+- regelmatige boekhouding
+- regels die voor elke bedrijfsboekhouding gelden
+- regels voor een vereenvoudigde boekhouding
+- regels voor een volledige boekhouding
+- rekeningenstelsel
+- samenvattende boeking
+- verantwoordingsstuk
+- vereenvoudigde boekhouding
+- volledige boekhouding
+- volledige boekhouding
+- volledigheidsbeginsel
+- zonder uitstel
 ---
 
 # CBN-advies 174/1 - Beginselen van een regelmatige boekhouding

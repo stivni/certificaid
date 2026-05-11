@@ -2,63 +2,68 @@
 nummer: CBN-advies 2012/13
 datum: 2012-10-10
 themas:
-- aanschaffingsprijs
-- aanschaffingswaarde
-- afschrijvingen
-- concessie
-- goodwill
-- immateriële vaste activa
-- inbrengwaarde
-- jaarrekening
-- know-how
-- kosten van onderzoek en ontwikkeling
-- licenties
-- merk
-- octrooien
-- vervaardigingsprijs
-- Vooruitbetaling
-- Waardevermindering
+  - aanschaffingsprijs
+  - aanschaffingswaarde
+  - afschrijvingen
+  - concessie
+  - goodwill
+  - immateriële vaste activa
+  - inbrengwaarde
+  - jaarrekening
+  - know-how
+  - kosten van onderzoek en ontwikkeling
+  - licenties
+  - merk
+  - octrooien
+  - vervaardigingsprijs
+  - Vooruitbetaling
+  - Waardevermindering
 bron: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-immateriele-vaste-activa
 provenance:
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-immateriele-vaste-activa
-    sha256: 67a3d88a28e5f96ab6003fd3e7c83b626e8511afd470d5ff4def5332c7710318
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-immateriele-vaste-activa
+      sha256: 67a3d88a28e5f96ab6003fd3e7c83b626e8511afd470d5ff4def5332c7710318
+      version:
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model: null
-    prompt_version: null
+    model:
+    prompt_version:
   generated_at: '2026-05-08T18:36:29Z'
   stale: false
-  stale_reason: null
+  stale_reason:
   trust:
-    status: trusted
-    qa_version: trust-rework-2
-    confirmed_at: '2026-05-08T18:40:04Z'
-    confirmed_by: qa-laag1-auto
-    rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    status: unreviewed
+    confirmed_at:
+    confirmed_by:
+    rationale:
     layer1:
-      verdict: pass
-      heading_count: 26
-      max_section_chars: 13715
-      file_size_chars: 32462
+      status: pass
+      run_id: 20260511-083333
+      run_at:
+      heading_count: 24
+      max_section_chars: 18885
+      file_size_chars: 32459
       flags: []
-      run_id: 20260509-212552
+    layer2:
+      status: not_run
+      agent:
+      run_at:
+      rationale:
+      concrete_problemen: []
 gerelateerde_adviezen:
-- titel: 'Aanschaffingsprijs : bijkomende kosten (update) [ONTWERP]'
-  url: https://www.cbn-cnc.be/nl/adviezen/aanschaffingsprijs-bijkomende-kosten-update-ontwerp
-  datum: '2025-06-06'
-- titel: 'Invoer: douanerechten en verlegging van de heffing van de btw'
-  url: https://www.cbn-cnc.be/nl/adviezen/invoer-douanerechten-en-verlegging-van-de-heffing-van-de-btw
-  datum: '2017-02-01'
-- titel: Bepaling van de aanschaffingswaarde van activa verkregen onder bezwarende
-    titel of om niet
-  url: https://www.cbn-cnc.be/nl/adviezen/bepaling-van-de-aanschaffingswaarde-van-activa-verkregen-onder-bezwarende-titel-of-om-niet
-  datum: '2002-05-01'
-- titel: Boeking en waardering van voorraden
-  url: https://www.cbn-cnc.be/nl/adviezen/boeking-en-waardering-van-voorraden
-  datum: '1996-11-01'
+  - titel: 'Aanschaffingsprijs : bijkomende kosten (update) [ONTWERP]'
+    url: https://www.cbn-cnc.be/nl/adviezen/aanschaffingsprijs-bijkomende-kosten-update-ontwerp
+    datum: '2025-06-06'
+  - titel: 'Invoer: douanerechten en verlegging van de heffing van de btw'
+    url: https://www.cbn-cnc.be/nl/adviezen/invoer-douanerechten-en-verlegging-van-de-heffing-van-de-btw
+    datum: '2017-02-01'
+  - titel: Bepaling van de aanschaffingswaarde van activa verkregen onder bezwarende titel of om niet
+    url: https://www.cbn-cnc.be/nl/adviezen/bepaling-van-de-aanschaffingswaarde-van-activa-verkregen-onder-bezwarende-titel-of-om-niet
+    datum: '2002-05-01'
+  - titel: Boeking en waardering van voorraden
+    url: https://www.cbn-cnc.be/nl/adviezen/boeking-en-waardering-van-voorraden
+    datum: '1996-11-01'
 ---
 
 # CBN-advies 2012/13 – De boekhoudkundige verwerking van immateriële vaste activa

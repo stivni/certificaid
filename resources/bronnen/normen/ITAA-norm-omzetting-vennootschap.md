@@ -1,9 +1,9 @@
 ---
 tags: [norm, itaa]
-naam: "Norm — Verslag bij omzetting van een vennootschap"
+naam: Norm — Verslag bij omzetting van een vennootschap
 type: norm
-itaa-lex-sectie: "XV"
-toepassingsgebied: "ITAA-leden bij opdracht tot opstellen verslag bij vennootschapsomzetting (WVV art. 14:1–14:9)"
+itaa-lex-sectie: XV
+toepassingsgebied: ITAA-leden bij opdracht tot opstellen verslag bij vennootschapsomzetting (WVV art. 14:1–14:9)
 themas:
   - vennootschapsrecht
   - omzetting
@@ -25,32 +25,31 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    qa_version: qa-20260508-rerun2
-    confirmed_at: '2026-05-08T08:29:24Z'
-    confirmed_by: subagent-sonnet-general-purpose-batch3
-    rationale: Normatieve inhoud (hoofdstukken 1-4, bijlage 1) volledig en correct. Bijlage 2 tabellen zijn fragmentarisch maar de cijfers zijn traceerbaar en het zijn illustratieve voorbeelden, geen normatief kerngedeelte.
+    status: unreviewed
+    confirmed_at:
+    confirmed_by:
+    rationale:
     layer1:
-      verdict: warn
-      heading_count: 7
-      max_section_chars: 75543
-      file_size_chars: 202195
+      status: warn
+      run_id: 20260511-085756
+      run_at: '2026-05-11T08:57:57Z'
+      heading_count: 39
+      max_section_chars: 23042
+      file_size_chars: 153548
       flags:
-        - name: max_section_size
+        - name: no_toc_dots
           status: warn
-          detail: 'langste sectie op ##-niveau: 75543 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
-          samples: []
-      run_id: 20260509-212552
-    layer1_5_diff:
-      verdict: improvement
-      rationale: 'Auto-synthesized: ETL-fixes vandaag (NBSP, sub_strategy, justel-extractor, etc.) verbeteren bestaande versie.'
-      kritieke_observaties: []
-      auto: true
-      run_id: trust-finalize-1
-    layer2_content:
-      verdict: needs-rework
+          detail: 29 TOC-stippen-regel(s) gevonden
+          samples:
+            - '................................................................................'
+            - "....................................................................... 8\n"
+            - '................................................................................'
+    layer2:
+      status: needs-rework
+      agent:
+      run_at:
       rationale: "Tweekoloms-PDF met sectie IV ontbrekend als ## heading (alleen sectie I, II, III, V, VI als ##) terwijl IV.1, IV.2, IV.3 wel in body staan (L924, L1002, L1069) — IV. zelf is gedegradeerd. Page-footers ('OPENBARE RAADPLEGING JUNI 2025 X/64') ingebed in body. Tweekoloms-extract met 'VEREISTEN' en 'TOEPASSINGSMODALITEITEN' kolommen die niet altijd schoon ineenlopen."
-      problemen:
+      concrete_problemen:
         - regel: 924
           type: missing-section
           voorbeeld: 'Sectie IV ontbreekt als ## heading; alleen IV.1, IV.2, IV.3 in body als plain text'
@@ -60,12 +59,6 @@ provenance:
         - regel: 1243
           type: column-bleed
           voorbeeld: "'VEREISTEN ... TOEPASSINGSMODALITEITEN' kolom-headers als plain regel midden in sectie V"
-      sterkte:
-        - Definities, sectie I, II, III hoofdwerkzaamheden volledig
-        - Sectie V (Schriftelijke bevestigingen), VI (Conclusie en beoordelingsverslag) en bijlagen aanwezig
-        - Frontmatter naar correcte itaa.be-url
-      auto: false
-      run_id: qa-batch-normen
 ---
 
 Ontwerp

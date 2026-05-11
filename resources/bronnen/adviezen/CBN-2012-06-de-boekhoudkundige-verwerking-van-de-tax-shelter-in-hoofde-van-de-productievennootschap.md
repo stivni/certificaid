@@ -1,5 +1,5 @@
 ---
-nummer: "CBN-advies 2012/6"
+nummer: CBN-advies 2012/6
 datum: 2012-03-21
 themas:
   - immateriële vaste activa
@@ -21,21 +21,23 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    qa_version:
     confirmed_at: '2026-05-08T21:19:09Z'
     confirmed_by: human
     rationale: 'Heading-structuur hersteld: 10 genummerde ### subsecties via promote_implicit_headings (bold numbered titles). max_section_size warn benign: langste ## sectie 28K, maar H3 chunks elk ~2-3K. 19 journaalposten correct.'
     layer1:
-      verdict: warn
+      status: pass
+      run_id: 20260511-083333
+      run_at:
       heading_count: 12
-      max_section_chars: 28249
-      file_size_chars: 34193
-      flags:
-        - name: max_section_size
-          status: warn
-          detail: 'langste sectie op ##-niveau: 28249 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
-          samples: []
-      run_id: 20260509-212552
+      max_section_chars: 8782
+      file_size_chars: 34202
+      flags: []
+    layer2:
+      status: not_run
+      agent:
+      run_at:
+      rationale:
+      concrete_problemen: []
 gerelateerde_adviezen:
   - titel: De boekhoudkundige verwerking van immateriële vaste activa (update) [ONTWERP]
     url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-immateriele-vaste-activa-update-ontwerp

@@ -1,48 +1,52 @@
 ---
-nummer: "CBN-advies S100"
-datum: 1997-04-01
-themas:
-  - ter beschikking van de onderneming gestelde personen
-  - statutair
-  - personeel
-  - personeelskosten
-  - aantal daadwerkelijk gepresteerde uren
-  - gemiddeld aantal werknemers
-  - maatregelen ten gunste van de werkgelegenheid
-  - uitzendkracht
-  - sociale balans
-  - voordelen bovenop het loon
 bron: https://www.cbn-cnc.be/nl/adviezen/vragen-en-antwoorden-over-de-sociale-balans
+datum: 1997-04-01
+nummer: CBN-advies S100
 provenance:
+  generated_at: '2026-05-08T18:33:38Z'
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/vragen-en-antwoorden-over-de-sociale-balans
-      sha256: cb84fe1ae9d8be8471967c71bfe887a1b47653223a98da9e947667eef91b128f
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/vragen-en-antwoorden-over-de-sociale-balans
+    sha256: cb84fe1ae9d8be8471967c71bfe887a1b47653223a98da9e947667eef91b128f
+    version: null
+  stale: false
+  stale_reason: null
   tooling:
+    model: null
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:33:38Z'
-  stale: false
-  stale_reason:
+    prompt_version: null
   trust:
-    status: trusted
-    qa_version:
     confirmed_at: '2026-05-08T19:02:27Z'
     confirmed_by: subagent-laag2-ronde2
-    rationale: '[Laag-2-R2 2026-05-08] 91 geneste Markdown-headings zorgen voor fijnkorrelige chunking buiten de lange sectie. Inhoud volledig coherent; grote sectie is gevolg van rijke Q&A structuur, niet van scraping-fout.'
     layer1:
-      verdict: warn
-      heading_count: 93
-      max_section_chars: 38693
-      file_size_chars: 127426
-      flags:
-        - name: max_section_size
-          status: warn
-          detail: 'langste sectie op ##-niveau: 38693 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
-          samples: []
-      run_id: 20260509-212552
+      file_size_chars: 127425
+      flags: []
+      heading_count: 91
+      max_section_chars: 22123
+      run_at: null
+      run_id: 20260511-083333
+      status: pass
+    layer2:
+      agent: subagent-laag2-ronde2
+      concrete_problemen: []
+      rationale: '[Laag-2-R2 2026-05-08] 91 geneste Markdown-headings zorgen voor
+        fijnkorrelige chunking buiten de lange sectie. Inhoud volledig coherent; grote
+        sectie is gevolg van rijke Q&A structuur, niet van scraping-fout.'
+      run_at: '2026-05-08T19:02:27Z'
+      status: trusted
+    rationale: Laag-2 trusted door subagent-laag2-ronde2 (zie layer2.rationale)
+    status: trusted
+themas:
+- ter beschikking van de onderneming gestelde personen
+- statutair
+- personeel
+- personeelskosten
+- aantal daadwerkelijk gepresteerde uren
+- gemiddeld aantal werknemers
+- maatregelen ten gunste van de werkgelegenheid
+- uitzendkracht
+- sociale balans
+- voordelen bovenop het loon
 ---
 
 # CBN-advies S100 - Vragen en antwoorden over de sociale balans

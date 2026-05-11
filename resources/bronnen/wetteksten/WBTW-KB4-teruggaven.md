@@ -1,15 +1,15 @@
 ---
-tags: ["VI.B", "2.4"]
-itaa-lex-sectie: "VI.B"
-wet: "K.B. nr. 4 van 29 december 1969, met betrekking tot de teruggaven inzake belasting over de toegevoegde waarde"
-bron_rol: "itaa_lex"
-status: "beschikbaar"
-bijgewerkt: "29.12.1969"
-bron: "Afgesplitst uit Fisconet-compilatie (pdftotext_compilatie_btw)"
+tags: [VI.B, '2.4']
+itaa-lex-sectie: VI.B
+wet: K.B. nr. 4 van 29 december 1969, met betrekking tot de teruggaven inzake belasting over de toegevoegde waarde
+bron_rol: itaa_lex
+status: beschikbaar
+bijgewerkt: 29.12.1969
+bron: Afgesplitst uit Fisconet-compilatie (pdftotext_compilatie_btw)
 chunk:
   level: 2
-  type: "Art."
-  sub_strategy: "per_definitieblok"
+  type: Art.
+  sub_strategy: per_definitieblok
 provenance:
   inputs:
     - id: resources/raw/wetteksten/btw-kbs/WBTW-KB-compilatie.pdf
@@ -24,40 +24,27 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    qa_version: trust-rework-2
-    confirmed_at: '2026-05-09T21:27:46Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "L1=pass; L1.5=improvement (Auto-synthesized: heading-injection (inject_wbtw_headings.py) — staging is structureel beter dan resources-versie.); L2=trusted (ETL-fix toegepast: inject_wbtw_headings.py heeft TOC-strip + Artikel-N → ## Art. heading-injectie + AFDELING-normalisatie uitgevoerd. Eerdere needs-rework op 'missing-section' opgeheven.)"
-    agent_verdict_at: '2026-05-09T21:27:46Z'
-    sample_pick: false
-    sample_reviewed_at:
-    sample_reviewed_by:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by:
+    rationale:
     layer1:
-      verdict: pass
+      status: pass
+      run_id: 20260509-212552
+      run_at:
       heading_count: 18
       max_section_chars: 5352
       file_size_chars: 47217
       flags: []
-      run_id: 20260509-212552
-    layer1_5_diff:
-      verdict: improvement
-      rationale: 'Auto-synthesized: heading-injection (inject_wbtw_headings.py) — staging is structureel beter dan resources-versie.'
-      kritieke_observaties: []
-      auto: true
-      run_id: trust-rework-2
-    layer2_content:
-      verdict: needs-rework
+    layer2:
+      status: needs-rework
+      agent:
+      run_at:
       rationale: '48k chars met 0 ##-headings; body intact maar per-Artikel-chunking ontbreekt volledig. Degraded retrieval voor groot bestand.'
-      problemen:
+      concrete_problemen:
         - regel: 0
           type: missing-section
           voorbeeld: '0 ##-headings bij 47986 chars'
-      sterkte:
-        - Frontmatter consistent
-        - Body inhoudelijk intact tot bijwerkingen
-      auto: false
-      run_id: qa-batch-W3
 ---
 
 # K.B. nr. 4 van 29 december 1969, met betrekking tot de teruggaven inzake belasting over de toegevoegde waarde

@@ -2,35 +2,41 @@
 nummer: CBN-advies 2020/06
 datum: 2020-05-27
 themas:
-- financieringskostensurplus
-- interestaftrekovereenkomst
+  - financieringskostensurplus
+  - interestaftrekovereenkomst
 bron: https://www.cbn-cnc.be/nl/adviezen/financieringskostensurplus-artikel-194sexies-en-artikel-1981-wib-92
 provenance:
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/financieringskostensurplus-artikel-194sexies-en-artikel-1981-wib-92
-    sha256: 83563083987172e5387a3f35944819c0eeb009df6968445d048464f0747c5ccc
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/financieringskostensurplus-artikel-194sexies-en-artikel-1981-wib-92
+      sha256: 83563083987172e5387a3f35944819c0eeb009df6968445d048464f0747c5ccc
+      version:
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model: null
-    prompt_version: null
+    model:
+    prompt_version:
   generated_at: '2026-05-08T18:37:48Z'
   stale: false
-  stale_reason: null
+  stale_reason:
   trust:
-    status: trusted
-    qa_version: trust-rework-2
-    confirmed_at: '2026-05-08T18:40:05Z'
-    confirmed_by: qa-laag1-auto
-    rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    status: unreviewed
+    confirmed_at:
+    confirmed_by:
+    rationale:
     layer1:
-      verdict: pass
-      heading_count: 37
-      max_section_chars: 12940
-      file_size_chars: 32829
+      status: pass
+      run_id: 20260511-083333
+      run_at:
+      heading_count: 29
+      max_section_chars: 13951
+      file_size_chars: 32861
       flags: []
-      run_id: 20260509-212552
+    layer2:
+      status: not_run
+      agent:
+      run_at:
+      rationale:
+      concrete_problemen: []
 ---
 
 # CBN-advies 2020/06 – Financieringskostensurplus (artikel 194sexies en artikel 198/1 WIB 92)

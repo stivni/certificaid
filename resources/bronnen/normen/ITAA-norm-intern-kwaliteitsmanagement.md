@@ -2,11 +2,11 @@
 tags:
   - norm
   - itaa
-naam: "Norm Algemene Vereisten Intern Kwaliteitsmanagement"
+naam: Norm Algemene Vereisten Intern Kwaliteitsmanagement
 datum: 2025-09-03
 type: norm
-itaa-lex-sectie: "XXI"
-toepassingsgebied: "Alle ITAA-leden — kwaliteitssysteem voor het beroepskantoor"
+itaa-lex-sectie: XXI
+toepassingsgebied: Alle ITAA-leden — kwaliteitssysteem voor het beroepskantoor
 themas:
   - kwaliteitsmanagement
   - intern kwaliteitssysteem
@@ -31,32 +31,24 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    qa_version: trust-rework-2
-    confirmed_at: '2026-05-09T21:27:46Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: L1=pass
-    agent_verdict_at: '2026-05-09T21:27:46Z'
-    sample_pick: false
-    sample_reviewed_at:
-    sample_reviewed_by:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by:
+    rationale:
     layer1:
-      verdict: pass
+      status: pass
+      run_id: 20260511-085756
+      run_at: '2026-05-11T08:57:57Z'
       heading_count: 6
-      max_section_chars: 5106
-      file_size_chars: 13185
+      max_section_chars: 5107
+      file_size_chars: 13191
       flags: []
-      run_id: 20260509-212552
-    layer1_5_diff:
-      verdict: improvement
-      rationale: 'Auto-synthesized: ETL-fixes vandaag (NBSP, sub_strategy, justel-extractor, etc.) verbeteren bestaande versie.'
-      kritieke_observaties: []
-      auto: true
-      run_id: trust-finalize-1
-    layer2_content:
-      verdict: needs-rework
+    layer2:
+      status: needs-rework
+      agent:
+      run_at:
       rationale: "Tweetalig NL/FR niet goed gescheiden: heading L228 'Aanvaarding van opdrachten Acceptation de missions' (NL+FR samengeplakt), L251 '## Fin des relations clients' (FR-only sectie naast NL 'Beëindigen van cliëntenrelaties' L245), L289 '## Documentatie Documentation' (bilingual). Truncated heading L141 '## ALGEMENE VEREISTEN VAN INTERN KWALITEITSMANAGEMENT OP' eindigt midden in 'OP' (vervolg 'CABINET Doelstelling' L143 niet als heading). Sectie 1-16 vereisten staan in body maar zonder eigen ## headings."
-      problemen:
+      concrete_problemen:
         - regel: 141
           type: abrupt-cutoff
           voorbeeld: "'## ALGEMENE VEREISTEN VAN INTERN KWALITEITSMANAGEMENT OP' — heading kapt af, vervolg 'CABINET Doelstelling' L143 als plain text"
@@ -72,12 +64,6 @@ provenance:
         - regel: 51
           type: abrupt-cutoff
           voorbeeld: "'- dat de beroepsbeoefenaar hierbij zijn beroepsactiviteiten dient cliëntenbestand en evenredig...' — overslaat 'organiseren in functie van de aard en de omvang van het'"
-      sterkte:
-        - Definities-blok intact (L97-125)
-        - Vereisten 1-16 wel inhoudelijk volledig in body
-        - Inwerkingtreding (3 september 2025) bewaard
-      auto: false
-      run_id: qa-batch-normen
 ---
 
 ## NORM ALGEMENE VEREISTEN VAN INTERN KWALITEITSMANAGEMENT

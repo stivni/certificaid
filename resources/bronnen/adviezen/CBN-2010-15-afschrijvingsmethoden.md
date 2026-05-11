@@ -2,52 +2,58 @@
 nummer: CBN-advies 2010/15
 datum: 2010-10-06
 themas:
-- af te schrijven waarde
-- afschrijvingen
-- afschrijvingskost
-- afschrijvingsmethode
-- afschrijvingsperiode
-- afschrijvingsritme
-- bedrijfsdrukte
-- degressieve afschrijvingsmethode
-- economische levensduur
-- gebruiksduur
-- lineaire afschrijvingsmethode
-- nuttigheidsduur
-- oprichtingskosten
-- progressieve afschrijvingsmethode
-- residuele waarde
-- restwaarde
-- vaste activa
-- versnelde afschrijvingsmethode
-- waarderingsregels
+  - af te schrijven waarde
+  - afschrijvingen
+  - afschrijvingskost
+  - afschrijvingsmethode
+  - afschrijvingsperiode
+  - afschrijvingsritme
+  - bedrijfsdrukte
+  - degressieve afschrijvingsmethode
+  - economische levensduur
+  - gebruiksduur
+  - lineaire afschrijvingsmethode
+  - nuttigheidsduur
+  - oprichtingskosten
+  - progressieve afschrijvingsmethode
+  - residuele waarde
+  - restwaarde
+  - vaste activa
+  - versnelde afschrijvingsmethode
+  - waarderingsregels
 bron: https://www.cbn-cnc.be/nl/adviezen/afschrijvingsmethoden
 provenance:
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/afschrijvingsmethoden
-    sha256: 05e9e21fba9ce48c9b7b4a9124423c7ed3139d641800094a23c7b2e73604d6d0
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/afschrijvingsmethoden
+      sha256: 05e9e21fba9ce48c9b7b4a9124423c7ed3139d641800094a23c7b2e73604d6d0
+      version:
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model: null
-    prompt_version: null
+    model:
+    prompt_version:
   generated_at: '2026-05-08T18:36:02Z'
   stale: false
-  stale_reason: null
+  stale_reason:
   trust:
-    status: trusted
-    qa_version: trust-rework-2
-    confirmed_at: '2026-05-08T18:40:04Z'
-    confirmed_by: qa-laag1-auto
-    rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    status: unreviewed
+    confirmed_at:
+    confirmed_by:
+    rationale:
     layer1:
-      verdict: pass
+      status: pass
+      run_id: 20260511-083333
+      run_at:
       heading_count: 13
-      max_section_chars: 11826
-      file_size_chars: 24167
+      max_section_chars: 6419
+      file_size_chars: 24171
       flags: []
-      run_id: 20260509-212552
+    layer2:
+      status: not_run
+      agent:
+      run_at:
+      rationale:
+      concrete_problemen: []
 ---
 
 # CBN-advies 2010/15 - Afschrijvingsmethoden Advies van 6 oktober 2010

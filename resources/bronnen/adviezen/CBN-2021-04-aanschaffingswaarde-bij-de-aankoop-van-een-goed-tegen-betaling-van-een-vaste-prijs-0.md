@@ -2,54 +2,58 @@
 nummer: CBN-advies 2021/04
 datum: 2021-03-15
 themas:
-- aanschaffingswaarde
-- abnormaal lage rente
-- renteloos
-- renteloze vorderingen
-- financieringskost
-- disconto
+  - aanschaffingswaarde
+  - abnormaal lage rente
+  - renteloos
+  - renteloze vorderingen
+  - financieringskost
+  - disconto
 bron: https://www.cbn-cnc.be/nl/adviezen/aanschaffingswaarde-bij-de-aankoop-van-een-goed-tegen-betaling-van-een-vaste-prijs-0
 provenance:
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/aanschaffingswaarde-bij-de-aankoop-van-een-goed-tegen-betaling-van-een-vaste-prijs-0
-    sha256: c4e6106b615995e9ac67c66426827f415bfb5b91cf0f66808d2b180c1b720ad6
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/aanschaffingswaarde-bij-de-aankoop-van-een-goed-tegen-betaling-van-een-vaste-prijs-0
+      sha256: c4e6106b615995e9ac67c66426827f415bfb5b91cf0f66808d2b180c1b720ad6
+      version:
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model: null
-    prompt_version: null
+    model:
+    prompt_version:
   generated_at: '2026-05-08T18:37:57Z'
   stale: false
-  stale_reason: null
+  stale_reason:
   trust:
-    status: trusted
-    qa_version: trust-rework-2
-    confirmed_at: '2026-05-08T18:40:05Z'
-    confirmed_by: qa-laag1-auto
-    rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    status: unreviewed
+    confirmed_at:
+    confirmed_by:
+    rationale:
     layer1:
-      verdict: pass
-      heading_count: 7
+      status: pass
+      run_id: 20260511-083333
+      run_at:
+      heading_count: 6
       max_section_chars: 4853
-      file_size_chars: 11996
+      file_size_chars: 12002
       flags: []
-      run_id: 20260509-212552
+    layer2:
+      status: not_run
+      agent:
+      run_at:
+      rationale:
+      concrete_problemen: []
 gerelateerde_adviezen:
-- titel: Dividenduitkering en kapitaalvermindering in natura
-  url: https://www.cbn-cnc.be/nl/adviezen/dividenduitkering-en-kapitaalvermindering-in-natura-0
-  datum: '2019-03-12'
-- titel: Boekhoudkundige verwerking van de vergoeding voor een borg in het kader van
-    de financiering van een voor verkoop bestemd onroerend goed
-  url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-vergoeding-voor-een-borg-in-het-kader-van-de
-  datum: '2017-05-31'
-- titel: De boekhoudkundige verwerking van een herziening van de btw op een aangekocht
-    bedrijfsmiddel
-  url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-een-herziening-van-de-btw-op-een-aangekocht
-  datum: '2013-05-08'
-- titel: De boekhoudkundige verwerking van immateriële vaste activa
-  url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-immateriele-vaste-activa
-  datum: '2012-10-10'
+  - titel: Dividenduitkering en kapitaalvermindering in natura
+    url: https://www.cbn-cnc.be/nl/adviezen/dividenduitkering-en-kapitaalvermindering-in-natura-0
+    datum: '2019-03-12'
+  - titel: Boekhoudkundige verwerking van de vergoeding voor een borg in het kader van de financiering van een voor verkoop bestemd onroerend goed
+    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-vergoeding-voor-een-borg-in-het-kader-van-de
+    datum: '2017-05-31'
+  - titel: De boekhoudkundige verwerking van een herziening van de btw op een aangekocht bedrijfsmiddel
+    url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-een-herziening-van-de-btw-op-een-aangekocht
+    datum: '2013-05-08'
+  - titel: De boekhoudkundige verwerking van immateriële vaste activa
+    url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-immateriele-vaste-activa
+    datum: '2012-10-10'
 ---
 
 # CBN-advies 2021/04 – Aanschaffingswaarde bij de aankoop van een goed tegen betaling van een vaste prijs, verschuldigd over een periode van meer dan één jaar

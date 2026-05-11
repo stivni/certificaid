@@ -2,36 +2,42 @@
 nummer: CBN-advies 2012/16
 datum: 2012-11-07
 themas:
-- wentelkredieten
-- revolving krediet
-- roll-over krediet
+  - wentelkredieten
+  - revolving krediet
+  - roll-over krediet
 bron: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-wentelkredieten
 provenance:
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-wentelkredieten
-    sha256: 7013e5464299052fde76798683ffe4624bacba1c24fde624e8e7cc98f671ea1d
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-wentelkredieten
+      sha256: 7013e5464299052fde76798683ffe4624bacba1c24fde624e8e7cc98f671ea1d
+      version:
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model: null
-    prompt_version: null
+    model:
+    prompt_version:
   generated_at: '2026-05-08T18:36:31Z'
   stale: false
-  stale_reason: null
+  stale_reason:
   trust:
-    status: trusted
-    qa_version: trust-rework-2
-    confirmed_at: '2026-05-08T18:40:04Z'
-    confirmed_by: qa-laag1-auto
-    rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    status: unreviewed
+    confirmed_at:
+    confirmed_by:
+    rationale:
     layer1:
-      verdict: pass
+      status: pass
+      run_id: 20260511-083333
+      run_at:
       heading_count: 2
-      max_section_chars: 3798
-      file_size_chars: 6849
+      max_section_chars: 3800
+      file_size_chars: 6852
       flags: []
-      run_id: 20260509-212552
+    layer2:
+      status: not_run
+      agent:
+      run_at:
+      rationale:
+      concrete_problemen: []
 ---
 
 # CBN-advies 2012/16 – De boekhoudkundige verwerking van wentelkredieten

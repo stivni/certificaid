@@ -2,38 +2,44 @@
 nummer: CBN-advies 152/2
 datum: 1988-12-01
 themas:
-- conversie in aandelen van obligaties uitgedrukt in vreemde valuta
-- deviezen
-- kapitaalverhoging
-- omrekeningskoers
-- wisselverrichting
+  - conversie in aandelen van obligaties uitgedrukt in vreemde valuta
+  - deviezen
+  - kapitaalverhoging
+  - omrekeningskoers
+  - wisselverrichting
 bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-een-kapitaalverhoging-als-gevolg-van-de-conversie-in
 provenance:
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-een-kapitaalverhoging-als-gevolg-van-de-conversie-in
-    sha256: b6840570e812c940d603a191cc7882ca8ebaad935cb3537d20f0883e2c052220
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-een-kapitaalverhoging-als-gevolg-van-de-conversie-in
+      sha256: b6840570e812c940d603a191cc7882ca8ebaad935cb3537d20f0883e2c052220
+      version:
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model: null
-    prompt_version: null
+    model:
+    prompt_version:
   generated_at: '2026-05-08T18:35:20Z'
   stale: false
-  stale_reason: null
+  stale_reason:
   trust:
-    status: trusted
-    qa_version: trust-rework-2
-    confirmed_at: '2026-05-08T18:40:03Z'
-    confirmed_by: qa-laag1-auto
-    rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    status: unreviewed
+    confirmed_at:
+    confirmed_by:
+    rationale:
     layer1:
-      verdict: pass
+      status: pass
+      run_id: 20260511-083333
+      run_at:
       heading_count: 0
-      max_section_chars: 2577
-      file_size_chars: 2577
+      max_section_chars: 2579
+      file_size_chars: 2579
       flags: []
-      run_id: 20260509-212552
+    layer2:
+      status: not_run
+      agent:
+      run_at:
+      rationale:
+      concrete_problemen: []
 ---
 
 # CBN-advies 152/2 - Boekhoudkundige verwerking van een kapitaalverhoging als gevolg van de conversie in aandelen van obligaties uitgedrukt in Ecu of in andere vreemde valuta

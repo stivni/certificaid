@@ -1,76 +1,81 @@
 ---
-nummer: "CBN-advies 2018/25"
-datum: 2019-03-05
-themas:
-  - voorziening
-  - waarschijnlijke kost
-  - reserve
-  - risico en kost
-  - risico en verlies
-  - overeenstemming
-  - overeenstemmingsprincipe
-  - matching principe
-  - toerekeningsbeginsel
-  - waardecorrectie
-  - schuld
-  - herstellings- en onderhoudswerken
-  - prijsschommelingen voorraden en bestellingen in uitvoering
-  - werkloosheid met bedrijfstoeslag
-  - SWT
-  - pensioen
-  - brugpensioen
-  - sluiting van de onderneming
-  - waarborg
-  - herstel onroerend goed
-  - opleiding
-  - belasting
-  - lijfrente
-  - milieu
-  - aleatoire waardering
 bron: https://www.cbn-cnc.be/nl/adviezen/voorzieningen
+datum: 2019-03-05
+gerelateerde_adviezen:
+- datum: '2021-07-05'
+  titel: Boekhoudkundige verwerking van COVID-19-tegemoetkomingen en van kosten gemaakt
+    ten gevolge van de gezondheidscrisis
+  url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-covid-19-tegemoetkomingen-en-van-kosten-gemaakt-ten-gevolge
+- datum: '2019-04-12'
+  titel: Gevolgen op gebied van financiële rapportering als gevolg van de brexit
+  url: https://www.cbn-cnc.be/nl/adviezen/gevolgen-op-gebied-van-financiele-rapportering-als-gevolg-van-de-brexit-0
+- datum: '2018-11-14'
+  titel: Toekenning van gratis aandelen (Restricted Stock Units) als bonus
+  url: https://www.cbn-cnc.be/nl/adviezen/toekenning-van-gratis-aandelen-restricted-stock-units-als-bonus
+- datum: '2018-06-20'
+  titel: Boekhoudkundige verwerking van onder meer de rendementswaarborg voor werkgeversbijdragen
+    in het kader van een aanvullende pensioentoezegging
+  url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-onder-meer-de-rendementswaarborg-voor-werkgeversbijdragen
+nummer: CBN-advies 2018/25
 provenance:
+  generated_at: '2026-05-08T18:37:32Z'
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/voorzieningen
-      sha256: fae8917bafe5586d4249c28f83de7d7832fe70ecfb8ef4148a3b0d3d54ce2689
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/voorzieningen
+    sha256: fae8917bafe5586d4249c28f83de7d7832fe70ecfb8ef4148a3b0d3d54ce2689
+    version: null
+  stale: false
+  stale_reason: null
   tooling:
+    model: null
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:37:32Z'
-  stale: false
-  stale_reason:
+    prompt_version: null
   trust:
-    status: trusted
-    qa_version:
     confirmed_at: '2026-05-08T19:02:27Z'
     confirmed_by: subagent-laag2-ronde2
-    rationale: '[Laag-2-R2 2026-05-08] 33 headings, 12 praktische toepassingen elk met eigen subheading. Inhoud volledig coherent.'
     layer1:
-      verdict: warn
-      heading_count: 44
-      max_section_chars: 26531
-      file_size_chars: 82395
-      flags:
-        - name: max_section_size
-          status: warn
-          detail: 'langste sectie op ##-niveau: 26531 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
-          samples: []
-      run_id: 20260509-212552
-gerelateerde_adviezen:
-  - titel: Boekhoudkundige verwerking van COVID-19-tegemoetkomingen en van kosten gemaakt ten gevolge van de gezondheidscrisis
-    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-covid-19-tegemoetkomingen-en-van-kosten-gemaakt-ten-gevolge
-    datum: '2021-07-05'
-  - titel: Gevolgen op gebied van financiële rapportering als gevolg van de brexit
-    url: https://www.cbn-cnc.be/nl/adviezen/gevolgen-op-gebied-van-financiele-rapportering-als-gevolg-van-de-brexit-0
-    datum: '2019-04-12'
-  - titel: Toekenning van gratis aandelen (Restricted Stock Units) als bonus
-    url: https://www.cbn-cnc.be/nl/adviezen/toekenning-van-gratis-aandelen-restricted-stock-units-als-bonus
-    datum: '2018-11-14'
-  - titel: Boekhoudkundige verwerking van onder meer de rendementswaarborg voor werkgeversbijdragen in het kader van een aanvullende pensioentoezegging
-    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-onder-meer-de-rendementswaarborg-voor-werkgeversbijdragen
-    datum: '2018-06-20'
+      file_size_chars: 82460
+      flags: []
+      heading_count: 33
+      max_section_chars: 16401
+      run_at: null
+      run_id: 20260511-083333
+      status: pass
+    layer2:
+      agent: subagent-laag2-ronde2
+      concrete_problemen: []
+      rationale: '[Laag-2-R2 2026-05-08] 33 headings, 12 praktische toepassingen elk
+        met eigen subheading. Inhoud volledig coherent.'
+      run_at: '2026-05-08T19:02:27Z'
+      status: trusted
+    rationale: Laag-2 trusted door subagent-laag2-ronde2 (zie layer2.rationale)
+    status: trusted
+themas:
+- voorziening
+- waarschijnlijke kost
+- reserve
+- risico en kost
+- risico en verlies
+- overeenstemming
+- overeenstemmingsprincipe
+- matching principe
+- toerekeningsbeginsel
+- waardecorrectie
+- schuld
+- herstellings- en onderhoudswerken
+- prijsschommelingen voorraden en bestellingen in uitvoering
+- werkloosheid met bedrijfstoeslag
+- SWT
+- pensioen
+- brugpensioen
+- sluiting van de onderneming
+- waarborg
+- herstel onroerend goed
+- opleiding
+- belasting
+- lijfrente
+- milieu
+- aleatoire waardering
 ---
 
 # CBN-advies 2018/25 – Voorzieningen

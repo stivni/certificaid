@@ -2,59 +2,61 @@
 nummer: CBN-advies 2020/09
 datum: 2020-08-05
 themas:
-- jaarrekening
-- gegevens bestuurder
-- gegevens commissaris
-- bestuurder
-- commissaris
-- samenstelling bestuursorgaan
-- monistisch bestuur
-- duaal bestuur
-- gecoöpteerd bestuurder
+  - jaarrekening
+  - gegevens bestuurder
+  - gegevens commissaris
+  - bestuurder
+  - commissaris
+  - samenstelling bestuursorgaan
+  - monistisch bestuur
+  - duaal bestuur
+  - gecoöpteerd bestuurder
 bron: https://www.cbn-cnc.be/nl/adviezen/vermelding-in-de-jaarrekening-van-de-gegevens-van-de-bestuurders-en-de-commissaris
 provenance:
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/vermelding-in-de-jaarrekening-van-de-gegevens-van-de-bestuurders-en-de-commissaris
-    sha256: eae22de5c623f612d3cb68cc81753ac2f932cda35649d778696ee1749d7c29ee
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/vermelding-in-de-jaarrekening-van-de-gegevens-van-de-bestuurders-en-de-commissaris
+      sha256: eae22de5c623f612d3cb68cc81753ac2f932cda35649d778696ee1749d7c29ee
+      version:
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model: null
-    prompt_version: null
+    model:
+    prompt_version:
   generated_at: '2026-05-08T18:37:51Z'
   stale: false
-  stale_reason: null
+  stale_reason:
   trust:
-    status: trusted
-    qa_version: trust-rework-2
-    confirmed_at: '2026-05-08T18:40:05Z'
-    confirmed_by: qa-laag1-auto
-    rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    status: unreviewed
+    confirmed_at:
+    confirmed_by:
+    rationale:
     layer1:
-      verdict: pass
-      heading_count: 16
-      max_section_chars: 8383
-      file_size_chars: 15690
+      status: pass
+      run_id: 20260511-083333
+      run_at:
+      heading_count: 15
+      max_section_chars: 8589
+      file_size_chars: 15676
       flags: []
-      run_id: 20260509-212552
+    layer2:
+      status: not_run
+      agent:
+      run_at:
+      rationale:
+      concrete_problemen: []
 gerelateerde_adviezen:
-- titel: Verslaggeving bij de heropening van de vereffening van (i)vzw’s die een dubbele
-    boekhouding voeren
-  url: https://www.cbn-cnc.be/nl/adviezen/verslaggeving-bij-de-heropening-van-de-vereffening-van-ivzws-die-een-dubbele-boekhouding
-  datum: '2024-11-14'
-- titel: Verslaggeving bij de heropening van de vereffening van de vennootschappen
-  url: https://www.cbn-cnc.be/nl/adviezen/verslaggeving-bij-de-heropening-van-de-vereffening-van-de-vennootschappen
-  datum: '2024-11-13'
-- titel: Openbaarmakingsverplichtingen in hoofde van de vennootschap onder firma en
-    de commanditaire vennootschap bij onmiddellijke sluiting van de vereffening
-  url: https://www.cbn-cnc.be/nl/adviezen/openbaarmakingsverplichtingen-in-hoofde-van-de-vennootschap-onder-firma-en-de
-  datum: '2024-06-10'
-- titel: 'Belgische bijkantoren van buitenlandse verenigingen en stichtingen: toepassing
-    van het Belgisch boekhoudrecht – begrip ‘bijkantoor’ – publicatieplicht – eigen
-    boekhoudkundige verplichtingen'
-  url: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-buitenlandse-verenigingen-en-stichtingen-toepassing-van-het-0
-  datum: '2024-02-08'
+  - titel: Verslaggeving bij de heropening van de vereffening van (i)vzw’s die een dubbele boekhouding voeren
+    url: https://www.cbn-cnc.be/nl/adviezen/verslaggeving-bij-de-heropening-van-de-vereffening-van-ivzws-die-een-dubbele-boekhouding
+    datum: '2024-11-14'
+  - titel: Verslaggeving bij de heropening van de vereffening van de vennootschappen
+    url: https://www.cbn-cnc.be/nl/adviezen/verslaggeving-bij-de-heropening-van-de-vereffening-van-de-vennootschappen
+    datum: '2024-11-13'
+  - titel: Openbaarmakingsverplichtingen in hoofde van de vennootschap onder firma en de commanditaire vennootschap bij onmiddellijke sluiting van de vereffening
+    url: https://www.cbn-cnc.be/nl/adviezen/openbaarmakingsverplichtingen-in-hoofde-van-de-vennootschap-onder-firma-en-de
+    datum: '2024-06-10'
+  - titel: 'Belgische bijkantoren van buitenlandse verenigingen en stichtingen: toepassing van het Belgisch boekhoudrecht – begrip ‘bijkantoor’ – publicatieplicht – eigen boekhoudkundige verplichtingen'
+    url: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-buitenlandse-verenigingen-en-stichtingen-toepassing-van-het-0
+    datum: '2024-02-08'
 ---
 
 # CBN-advies 2020/09 – Vermelding in de jaarrekening van de gegevens van de bestuurders en de commissaris

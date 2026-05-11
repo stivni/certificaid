@@ -1,70 +1,76 @@
 ---
-nummer: "CBN-advies 132/7"
-datum: 1996-11-01
-themas:
-  - aanschaffingswaarde
-  - aanschaffingsprijs
-  - aanschaffingswaarde van voorraden
-  - afvalstoffen
-  - composietproduct
-  - fifo-methode
-  - full costing
-  - gereed produkt
-  - gewogen gemiddelde prijs
-  - goederen in bewerking
-  - handelsvorderingen
-  - ijzeren voorraad
-  - individualisering van de prijs van elk bestanddeel
-  - inventaris
-  - lifo-methode
-  - marktprijs
-  - marktwaarde
-  - onrechtstreekse productiekost
-  - realisatie
 bron: https://www.cbn-cnc.be/nl/adviezen/boeking-en-waardering-van-voorraden
+datum: 1996-11-01
+gerelateerde_adviezen:
+- datum: '2021-03-15'
+  titel: Aanschaffingswaarde bij de aankoop van een goed tegen betaling van een vaste
+    prijs, verschuldigd over een periode van meer dan één jaar
+  url: https://www.cbn-cnc.be/nl/adviezen/aanschaffingswaarde-bij-de-aankoop-van-een-goed-tegen-betaling-van-een-vaste-prijs-0
+- datum: '2019-03-12'
+  titel: Dividenduitkering en kapitaalvermindering in natura
+  url: https://www.cbn-cnc.be/nl/adviezen/dividenduitkering-en-kapitaalvermindering-in-natura-0
+- datum: '2017-05-31'
+  titel: Boekhoudkundige verwerking van de vergoeding voor een borg in het kader van
+    de financiering van een voor verkoop bestemd onroerend goed
+  url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-vergoeding-voor-een-borg-in-het-kader-van-de
+- datum: '2013-05-08'
+  titel: De boekhoudkundige verwerking van een herziening van de btw op een aangekocht
+    bedrijfsmiddel
+  url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-een-herziening-van-de-btw-op-een-aangekocht
+nummer: CBN-advies 132/7
 provenance:
+  generated_at: '2026-05-08T18:34:52Z'
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/boeking-en-waardering-van-voorraden
-      sha256: d73c47ba8ea46d281b831bb8deee7fd1176686795ce91e18dd9c1f2040ddf8d9
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/boeking-en-waardering-van-voorraden
+    sha256: d73c47ba8ea46d281b831bb8deee7fd1176686795ce91e18dd9c1f2040ddf8d9
+    version: null
+  stale: false
+  stale_reason: null
   tooling:
+    model: null
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:34:52Z'
-  stale: false
-  stale_reason:
+    prompt_version: null
   trust:
-    status: trusted
-    qa_version:
     confirmed_at: '2026-05-08T19:02:27Z'
     confirmed_by: subagent-laag2-ronde2
-    rationale: '[Laag-2-R2 2026-05-08] 48 headings voor uitgebreid advies over voorraadboeking en -waardering. Heading-structuur per methode intact.'
     layer1:
-      verdict: warn
-      heading_count: 50
-      max_section_chars: 34483
-      file_size_chars: 75501
-      flags:
-        - name: max_section_size
-          status: warn
-          detail: 'langste sectie op ##-niveau: 34483 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
-          samples: []
-      run_id: 20260509-212552
-gerelateerde_adviezen:
-  - titel: Aanschaffingswaarde bij de aankoop van een goed tegen betaling van een vaste prijs, verschuldigd over een periode van meer dan één jaar
-    url: https://www.cbn-cnc.be/nl/adviezen/aanschaffingswaarde-bij-de-aankoop-van-een-goed-tegen-betaling-van-een-vaste-prijs-0
-    datum: '2021-03-15'
-  - titel: Dividenduitkering en kapitaalvermindering in natura
-    url: https://www.cbn-cnc.be/nl/adviezen/dividenduitkering-en-kapitaalvermindering-in-natura-0
-    datum: '2019-03-12'
-  - titel: Boekhoudkundige verwerking van de vergoeding voor een borg in het kader van de financiering van een voor verkoop bestemd onroerend goed
-    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-vergoeding-voor-een-borg-in-het-kader-van-de
-    datum: '2017-05-31'
-  - titel: De boekhoudkundige verwerking van een herziening van de btw op een aangekocht bedrijfsmiddel
-    url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-een-herziening-van-de-btw-op-een-aangekocht
-    datum: '2013-05-08'
+      file_size_chars: 75431
+      flags: []
+      heading_count: 48
+      max_section_chars: 15558
+      run_at: null
+      run_id: 20260511-083333
+      status: pass
+    layer2:
+      agent: subagent-laag2-ronde2
+      concrete_problemen: []
+      rationale: '[Laag-2-R2 2026-05-08] 48 headings voor uitgebreid advies over voorraadboeking
+        en -waardering. Heading-structuur per methode intact.'
+      run_at: '2026-05-08T19:02:27Z'
+      status: trusted
+    rationale: Laag-2 trusted door subagent-laag2-ronde2 (zie layer2.rationale)
+    status: trusted
+themas:
+- aanschaffingswaarde
+- aanschaffingsprijs
+- aanschaffingswaarde van voorraden
+- afvalstoffen
+- composietproduct
+- fifo-methode
+- full costing
+- gereed produkt
+- gewogen gemiddelde prijs
+- goederen in bewerking
+- handelsvorderingen
+- ijzeren voorraad
+- individualisering van de prijs van elk bestanddeel
+- inventaris
+- lifo-methode
+- marktprijs
+- marktwaarde
+- onrechtstreekse productiekost
+- realisatie
 ---
 
 # CBN-advies 132/7 - Boeking en waardering van voorraden

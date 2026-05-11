@@ -1,14 +1,14 @@
 ---
-tags: ["I"]
-itaa-lex-sectie: "I"
-wet: "K.B. 30 januari 2003 tot uitvoering van artikel 26 van de wet van 24 december 2002 tot instelling van een systeem van voorafgaande beslissingen in fiscale zaken"
-bron_rol: "itaa_lex"
-status: "beschikbaar"
-bijgewerkt: "30.01.2003"
-bron: "Fisconetplus.be (officieuze gecoördineerde versie)"
+tags: [I]
+itaa-lex-sectie: I
+wet: K.B. 30 januari 2003 tot uitvoering van artikel 26 van de wet van 24 december 2002 tot instelling van een systeem van voorafgaande beslissingen in fiscale zaken
+bron_rol: itaa_lex
+status: beschikbaar
+bijgewerkt: 30.01.2003
+bron: Fisconetplus.be (officieuze gecoördineerde versie)
 chunk:
   level: 2
-  type: "Art."
+  type: Art.
   sub_strategy:
 provenance:
   inputs:
@@ -25,39 +25,26 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    qa_version: trust-rework-2
     confirmed_at: '2026-05-09T21:27:46Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: L1=pass
-    agent_verdict_at: '2026-05-09T21:27:46Z'
-    sample_pick: false
-    sample_reviewed_at:
-    sample_reviewed_by:
     layer1:
-      verdict: pass
+      status: pass
+      run_id: 20260509-212552
+      run_at:
       heading_count: 10
       max_section_chars: 3589
       file_size_chars: 6384
       flags: []
-      run_id: 20260509-212552
-    layer1_5_diff:
-      verdict: improvement
-      rationale: 'Auto-synthesized: ETL-fixes vandaag (NBSP, sub_strategy, justel-extractor, etc.) verbeteren bestaande versie.'
-      kritieke_observaties: []
-      auto: true
-      run_id: trust-finalize-1
-    layer2_content:
-      verdict: trusted
+    layer2:
+      status: trusted
+      agent:
+      run_at:
       rationale: Korte KB (7.3KB), 10 artikelen op H2, schoon NL. Bij Art. 5 een minor heading-injectie quirk ('Art. 5.De / voorafgaande beslissingen...') maar leesbaarheid intact.
-      problemen:
+      concrete_problemen:
         - regel: 61
           type: other
           voorbeeld: "## Art. 5.De / voorafgaande beslissingen — newline-split na 'De'"
-      sterkte:
-        - Compleet
-        - Wijzigingsbrackets behouden
-      auto: false
-      run_id: qa-batch-W1
 ---
 
 # K.B. 30 januari 2003 — Uitvoering artikel 26 (voorafgaande beslissingen)

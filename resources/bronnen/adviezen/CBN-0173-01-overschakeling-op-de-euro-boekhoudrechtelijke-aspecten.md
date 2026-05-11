@@ -1,59 +1,63 @@
 ---
-nummer: "CBN-advies 173/1"
-datum: 1997-01-01
-themas:
-  - conversie in euro
-  - eigen vermogen
-  - euro
-  - gerealiseerd wisselresultaat
-  - kosten verbonden aan overschakeling op de euro
-  - lening
-  - leningen in deviezen
-  - monetaire posten
-  - niet monetaire activa
-  - niet-monetaire posten
-  - omrekeningskoers
-  - omrekeningsverschil
-  - openbaarmaking
-  - opstelling van de jaarrekening
-  - opstelling van de jaarrekening in euro
-  - overschakeling op de euro
-  - publicatie
-  - termijnwisselverrichting
-  - voorziening
-  - wisselrisico
-  - wisselverschil
 bron: https://www.cbn-cnc.be/nl/adviezen/overschakeling-op-de-euro-boekhoudrechtelijke-aspecten
+datum: 1997-01-01
+nummer: CBN-advies 173/1
 provenance:
+  generated_at: '2026-05-08T18:35:37Z'
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/overschakeling-op-de-euro-boekhoudrechtelijke-aspecten
-      sha256: c54803fef2d4b5cf579399080be7b80ab1c66071b61078183734c59958df0cbd
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/overschakeling-op-de-euro-boekhoudrechtelijke-aspecten
+    sha256: c54803fef2d4b5cf579399080be7b80ab1c66071b61078183734c59958df0cbd
+    version: null
+  stale: false
+  stale_reason: null
   tooling:
+    model: null
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:35:37Z'
-  stale: false
-  stale_reason:
+    prompt_version: null
   trust:
-    status: trusted
-    qa_version:
     confirmed_at: '2026-05-08T19:02:28Z'
     confirmed_by: subagent-laag2-ronde2
-    rationale: '[Laag-2-R2 2026-05-08] 22 headings met vierniveaux hiërarchie, volledig coherent advies. Lange sectie is inherent aan dense juridisch-technische inhoud. Één scraping-artefact in H2-tekst maar inhoud volledig.'
     layer1:
-      verdict: warn
+      file_size_chars: 46360
+      flags: []
       heading_count: 22
-      max_section_chars: 43544
-      file_size_chars: 46359
-      flags:
-        - name: max_section_size
-          status: warn
-          detail: 'langste sectie op ##-niveau: 43544 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
-          samples: []
-      run_id: 20260509-212552
+      max_section_chars: 18041
+      run_at: null
+      run_id: 20260511-083333
+      status: pass
+    layer2:
+      agent: subagent-laag2-ronde2
+      concrete_problemen: []
+      rationale: '[Laag-2-R2 2026-05-08] 22 headings met vierniveaux hiërarchie, volledig
+        coherent advies. Lange sectie is inherent aan dense juridisch-technische inhoud.
+        Één scraping-artefact in H2-tekst maar inhoud volledig.'
+      run_at: '2026-05-08T19:02:28Z'
+      status: trusted
+    rationale: Laag-2 trusted door subagent-laag2-ronde2 (zie layer2.rationale)
+    status: trusted
+themas:
+- conversie in euro
+- eigen vermogen
+- euro
+- gerealiseerd wisselresultaat
+- kosten verbonden aan overschakeling op de euro
+- lening
+- leningen in deviezen
+- monetaire posten
+- niet monetaire activa
+- niet-monetaire posten
+- omrekeningskoers
+- omrekeningsverschil
+- openbaarmaking
+- opstelling van de jaarrekening
+- opstelling van de jaarrekening in euro
+- overschakeling op de euro
+- publicatie
+- termijnwisselverrichting
+- voorziening
+- wisselrisico
+- wisselverschil
 ---
 
 # CBN-advies 173/1 - Overschakeling op de euro: boekhoudrechtelijke aspecten

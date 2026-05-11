@@ -2,58 +2,58 @@
 nummer: CBN-advies 108/1
 datum: 1977-08-01
 themas:
-- afwijking
-- commissaris
-- omzetcijfer
-- procedure
-- publicatie van het omzetcijfer
-- vrijstelling
+  - afwijking
+  - commissaris
+  - omzetcijfer
+  - procedure
+  - publicatie van het omzetcijfer
+  - vrijstelling
 bron: https://www.cbn-cnc.be/nl/adviezen/afwijkingen-van-de-bepalingen-van-het-kb-van-8-oktober-1976-procedure
 provenance:
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/afwijkingen-van-de-bepalingen-van-het-kb-van-8-oktober-1976-procedure
-    sha256: 466967bde208f58cf2173e47efcba81b58bd0ca5627da8ba86369a9261b186ab
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/afwijkingen-van-de-bepalingen-van-het-kb-van-8-oktober-1976-procedure
+      sha256: 466967bde208f58cf2173e47efcba81b58bd0ca5627da8ba86369a9261b186ab
+      version:
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model: null
-    prompt_version: null
+    model:
+    prompt_version:
   generated_at: '2026-05-08T18:34:03Z'
   stale: false
-  stale_reason: null
+  stale_reason:
   trust:
-    status: trusted
-    qa_version: trust-rework-2
-    confirmed_at: '2026-05-08T18:40:02Z'
-    confirmed_by: qa-laag1-auto
-    rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    status: unreviewed
+    confirmed_at:
+    confirmed_by:
+    rationale:
     layer1:
-      verdict: pass
+      status: pass
+      run_id: 20260511-083333
+      run_at:
       heading_count: 0
-      max_section_chars: 2633
-      file_size_chars: 2633
+      max_section_chars: 2634
+      file_size_chars: 2634
       flags: []
-      run_id: 20260509-212552
+    layer2:
+      status: not_run
+      agent:
+      run_at:
+      rationale:
+      concrete_problemen: []
 gerelateerde_adviezen:
-- titel: 'Belgische bijkantoren van buitenlandse verenigingen en stichtingen: toepassing
-    van het Belgisch boekhoudrecht – begrip ‘bijkantoor’ – publicatieplicht – eigen
-    boekhoudkundige verplichtingen'
-  url: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-buitenlandse-verenigingen-en-stichtingen-toepassing-van-het-0
-  datum: '2024-02-08'
-- titel: 'Belgische bijkantoren van buitenlandse vennootschappen:  eigen boekhoudkundige
-    verplichtingen (update)'
-  url: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-buitenlandse-vennootschappen-eigen-boekhoudkundige
-  datum: '2022-11-08'
-- titel: Adviesbeleid van de Commissie voor Boekhoudkundige Normen ten aanzien van
-    vragen tot afwijking voor Belgische bijkantoren van buitenlandse vennootschappen
-    (ONTWERP)
-  url: https://www.cbn-cnc.be/nl/adviezen/adviesbeleid-van-de-commissie-voor-boekhoudkundige-normen-ten-aanzien-van-vragen-tot
-  datum: '2019-05-14'
-- titel: 'Belgische bijkantoren van vennootschappen naar buitenlands recht: eigen
-    boekhoudkundige verplichtingen'
-  url: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-vennootschappen-naar-buitenlands-recht-eigen-boekhoudkundige-0
-  datum: '2019-03-26'
+  - titel: 'Belgische bijkantoren van buitenlandse verenigingen en stichtingen: toepassing van het Belgisch boekhoudrecht – begrip ‘bijkantoor’ – publicatieplicht – eigen boekhoudkundige verplichtingen'
+    url: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-buitenlandse-verenigingen-en-stichtingen-toepassing-van-het-0
+    datum: '2024-02-08'
+  - titel: 'Belgische bijkantoren van buitenlandse vennootschappen:  eigen boekhoudkundige verplichtingen (update)'
+    url: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-buitenlandse-vennootschappen-eigen-boekhoudkundige
+    datum: '2022-11-08'
+  - titel: Adviesbeleid van de Commissie voor Boekhoudkundige Normen ten aanzien van vragen tot afwijking voor Belgische bijkantoren van buitenlandse vennootschappen (ONTWERP)
+    url: https://www.cbn-cnc.be/nl/adviezen/adviesbeleid-van-de-commissie-voor-boekhoudkundige-normen-ten-aanzien-van-vragen-tot
+    datum: '2019-05-14'
+  - titel: 'Belgische bijkantoren van vennootschappen naar buitenlands recht: eigen boekhoudkundige verplichtingen'
+    url: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-vennootschappen-naar-buitenlands-recht-eigen-boekhoudkundige-0
+    datum: '2019-03-26'
 ---
 
 # CBN-advies 108/1 - Afwijkingen van de bepalingen van het K.B. van 8 oktober 1976 – Procedure

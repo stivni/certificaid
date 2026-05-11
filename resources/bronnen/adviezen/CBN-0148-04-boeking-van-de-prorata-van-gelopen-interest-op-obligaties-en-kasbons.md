@@ -2,51 +2,56 @@
 nummer: CBN-advies 148/4
 datum: 1990-06-01
 themas:
-- kapitalisatiebon
-- kasbon
-- obligaties
-- over te dragen kosten
-- over te dragen opbrengsten
-- overlopende rekeningen
-- prorata van gelopen intrest op obligaties en kasbons
-- rentedragende effecten
-- toe te rekenen kosten
-- toerekening van kosten en opbrengsten
-- toerekeningsbeginsel
-- verworven opbrengsten
-- zero-bond
+  - kapitalisatiebon
+  - kasbon
+  - obligaties
+  - over te dragen kosten
+  - over te dragen opbrengsten
+  - overlopende rekeningen
+  - prorata van gelopen intrest op obligaties en kasbons
+  - rentedragende effecten
+  - toe te rekenen kosten
+  - toerekening van kosten en opbrengsten
+  - toerekeningsbeginsel
+  - verworven opbrengsten
+  - zero-bond
 bron: https://www.cbn-cnc.be/nl/adviezen/boeking-van-de-prorata-van-gelopen-interest-op-obligaties-en-kasbons
 provenance:
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/boeking-van-de-prorata-van-gelopen-interest-op-obligaties-en-kasbons
-    sha256: 271cb09439663de1bf18f686e3ae538c62fcc7f80f360d78bad5764e2d849ceb
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/boeking-van-de-prorata-van-gelopen-interest-op-obligaties-en-kasbons
+      sha256: 271cb09439663de1bf18f686e3ae538c62fcc7f80f360d78bad5764e2d849ceb
+      version:
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model: null
-    prompt_version: null
+    model:
+    prompt_version:
   generated_at: '2026-05-08T18:35:14Z'
   stale: false
-  stale_reason: null
+  stale_reason:
   trust:
-    status: trusted
-    qa_version: trust-rework-2
-    confirmed_at: '2026-05-08T18:40:03Z'
-    confirmed_by: qa-laag1-auto
-    rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    status: unreviewed
+    confirmed_at:
+    confirmed_by:
+    rationale:
     layer1:
-      verdict: pass
-      heading_count: 4
-      max_section_chars: 11442
-      file_size_chars: 11442
+      status: pass
+      run_id: 20260511-083333
+      run_at:
+      heading_count: 2
+      max_section_chars: 7726
+      file_size_chars: 11526
       flags: []
-      run_id: 20260509-212552
+    layer2:
+      status: not_run
+      agent:
+      run_at:
+      rationale:
+      concrete_problemen: []
 gerelateerde_adviezen:
-- titel: Actuarieel rendement op vastrentende effecten - Aanpassing van de adviezen
-    137/5 en 148/4
-  url: https://www.cbn-cnc.be/nl/adviezen/actuarieel-rendement-op-vastrentende-effecten-aanpassing-van-de-adviezen-1375-en-1484
-  datum: '1993-12-01'
+  - titel: Actuarieel rendement op vastrentende effecten - Aanpassing van de adviezen 137/5 en 148/4
+    url: https://www.cbn-cnc.be/nl/adviezen/actuarieel-rendement-op-vastrentende-effecten-aanpassing-van-de-adviezen-1375-en-1484
+    datum: '1993-12-01'
 ---
 
 # CBN advies 148-4 - Boeking van de prorata van gelopen interest op obligaties en kasbons

@@ -1,10 +1,10 @@
 ---
-tags: ["VI.B", "2.4"]
-itaa-lex-sectie: "VI.B"
-wet: "Koninklijke besluiten inzake belasting over de toegevoegde waarde (compilatie Fisconet, bijgewerkt t.e.m. 06.03.2020)"
-status: "beschikbaar"
-bijgewerkt: "06.03.2020"
-bron: "ejustice.just.fgov.be (gecoördineerde versie)"
+tags: [VI.B, '2.4']
+itaa-lex-sectie: VI.B
+wet: Koninklijke besluiten inzake belasting over de toegevoegde waarde (compilatie Fisconet, bijgewerkt t.e.m. 06.03.2020)
+status: beschikbaar
+bijgewerkt: 06.03.2020
+bron: ejustice.just.fgov.be (gecoördineerde versie)
 provenance:
   inputs:
     - id: resources/raw/wetteksten/btw-kbs/WBTW-KB-compilatie.pdf
@@ -20,14 +20,27 @@ provenance:
   stale_reason:
   trust:
     status: unreviewed
-    qa_version:
     confirmed_at:
-    confirmed_by: default
+    confirmed_by:
     rationale:
+    layer1:
+      status: not_run
+      run_id:
+      run_at:
+      heading_count:
+      max_section_chars:
+      file_size_chars:
+      flags: []
+    layer2:
+      status: not_run
+      agent:
+      run_at:
+      rationale:
+      concrete_problemen: []
 chunk:
   level: 5
-  type: "Art."
-  sub_strategy: null
+  type: Art.
+  sub_strategy:
 ---
 
 # Koninklijke besluiten inzake belasting over de toegevoegde waarde (compilatie Fisconet, bijgewerkt t.e.m. 06.03.2020)

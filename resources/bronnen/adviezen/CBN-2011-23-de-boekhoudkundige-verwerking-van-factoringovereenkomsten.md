@@ -1,50 +1,54 @@
 ---
-nummer: "CBN-advies 2011/23"
-datum: 2011-10-05
-themas:
-  - cessie van schuldvordering
-  - discontokosten op vorderingen
-  - dubieuze debiteuren
-  - factoring
-  - financiering
-  - handelsvorderingen
-  - insolventiedekking
-  - niet in de balans opgenomen rechten en verplichtingen
-  - overdracht van schuldvordering
-  - schulden in rekening-courant
-  - vordering
-  - Waardevermindering
 bron: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-factoringovereenkomsten
+datum: 2011-10-05
+nummer: CBN-advies 2011/23
 provenance:
+  generated_at: '2026-05-08T18:36:19Z'
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-factoringovereenkomsten
-      sha256: f9f408af8346f92956d05b367918d33f55a545bfdd5e0bf4d868809655a2cb28
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-factoringovereenkomsten
+    sha256: f9f408af8346f92956d05b367918d33f55a545bfdd5e0bf4d868809655a2cb28
+    version: null
+  stale: false
+  stale_reason: null
   tooling:
+    model: null
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:36:19Z'
-  stale: false
-  stale_reason:
+    prompt_version: null
   trust:
-    status: trusted
-    qa_version:
     confirmed_at: '2026-05-08T19:02:28Z'
     confirmed_by: subagent-laag2-ronde2
-    rationale: '[Laag-2-R2 2026-05-08] 14 headings voor 6 factoringvarianten, inhoudelijk volledig. Sectiegrootte inherent aan groot aantal verwerkingsvarianten. Journaalpostentabellen correct als Markdown-tabellen.'
     layer1:
-      verdict: warn
+      file_size_chars: 32378
+      flags: []
       heading_count: 14
-      max_section_chars: 26442
-      file_size_chars: 32368
-      flags:
-        - name: max_section_size
-          status: warn
-          detail: 'langste sectie op ##-niveau: 26442 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
-          samples: []
-      run_id: 20260509-212552
+      max_section_chars: 13247
+      run_at: null
+      run_id: 20260511-083333
+      status: pass
+    layer2:
+      agent: subagent-laag2-ronde2
+      concrete_problemen: []
+      rationale: '[Laag-2-R2 2026-05-08] 14 headings voor 6 factoringvarianten, inhoudelijk
+        volledig. Sectiegrootte inherent aan groot aantal verwerkingsvarianten. Journaalpostentabellen
+        correct als Markdown-tabellen.'
+      run_at: '2026-05-08T19:02:28Z'
+      status: trusted
+    rationale: Laag-2 trusted door subagent-laag2-ronde2 (zie layer2.rationale)
+    status: trusted
+themas:
+- cessie van schuldvordering
+- discontokosten op vorderingen
+- dubieuze debiteuren
+- factoring
+- financiering
+- handelsvorderingen
+- insolventiedekking
+- niet in de balans opgenomen rechten en verplichtingen
+- overdracht van schuldvordering
+- schulden in rekening-courant
+- vordering
+- Waardevermindering
 ---
 
 # CBN-advies 2011/23 - De boekhoudkundige verwerking van factoringovereenkomsten

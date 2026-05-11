@@ -2,43 +2,49 @@
 nummer: CBN-advies 2013/11
 datum: 2013-05-08
 themas:
-- accijns
-- afvalstoffenheffing
-- omzet
+  - accijns
+  - afvalstoffenheffing
+  - omzet
 bron: https://www.cbn-cnc.be/nl/adviezen/begrip-omzet-doorrekening-van-belastingen-en-accijnzen
 provenance:
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/begrip-omzet-doorrekening-van-belastingen-en-accijnzen
-    sha256: abd494a3aeb8a5a9898b68118ce3c2e69b9aa2ed976034badbc563d23c00c926
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/begrip-omzet-doorrekening-van-belastingen-en-accijnzen
+      sha256: abd494a3aeb8a5a9898b68118ce3c2e69b9aa2ed976034badbc563d23c00c926
+      version:
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model: null
-    prompt_version: null
+    model:
+    prompt_version:
   generated_at: '2026-05-08T18:36:39Z'
   stale: false
-  stale_reason: null
+  stale_reason:
   trust:
-    status: trusted
-    qa_version: trust-rework-2
-    confirmed_at: '2026-05-08T18:40:04Z'
-    confirmed_by: qa-laag1-auto
-    rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    status: unreviewed
+    confirmed_at:
+    confirmed_by:
+    rationale:
     layer1:
-      verdict: pass
+      status: pass
+      run_id: 20260511-083333
+      run_at:
       heading_count: 3
-      max_section_chars: 2495
-      file_size_chars: 4015
+      max_section_chars: 2496
+      file_size_chars: 4018
       flags: []
-      run_id: 20260509-212552
+    layer2:
+      status: not_run
+      agent:
+      run_at:
+      rationale:
+      concrete_problemen: []
 gerelateerde_adviezen:
-- titel: De boekhoudkundige verwerking van fusies
-  url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-fusies-0
-  datum: '1994-06-01'
-- titel: Overeenkomsten waarin gespreide of opeenvolgende prestaties worden voorzien
-  url: https://www.cbn-cnc.be/nl/adviezen/overeenkomsten-waarin-gespreide-of-opeenvolgende-prestaties-worden-voorzien
-  datum: '1984-10-01'
+  - titel: De boekhoudkundige verwerking van fusies
+    url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-fusies-0
+    datum: '1994-06-01'
+  - titel: Overeenkomsten waarin gespreide of opeenvolgende prestaties worden voorzien
+    url: https://www.cbn-cnc.be/nl/adviezen/overeenkomsten-waarin-gespreide-of-opeenvolgende-prestaties-worden-voorzien
+    datum: '1984-10-01'
 ---
 
 # CBN-advies 2013/11 - Begrip “omzet”: doorrekening van belastingen en accijnzen

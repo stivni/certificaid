@@ -2,35 +2,41 @@
 nummer: CBN-advies 105/2
 datum: 1977-08-01
 themas:
-- kosten afgewenteld op derden
-- kosten gedragen door derden
+  - kosten afgewenteld op derden
+  - kosten gedragen door derden
 bron: https://www.cbn-cnc.be/nl/adviezen/kosten-afgewenteld-op-of-gedragen-door-derden
 provenance:
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/kosten-afgewenteld-op-of-gedragen-door-derden
-    sha256: 94b95deabd02e2a98891ef640906d58df0f6dc7e05a95bb64af51c647c39e53d
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/kosten-afgewenteld-op-of-gedragen-door-derden
+      sha256: 94b95deabd02e2a98891ef640906d58df0f6dc7e05a95bb64af51c647c39e53d
+      version:
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model: null
-    prompt_version: null
+    model:
+    prompt_version:
   generated_at: '2026-05-08T18:33:49Z'
   stale: false
-  stale_reason: null
+  stale_reason:
   trust:
-    status: trusted
-    qa_version: trust-rework-2
-    confirmed_at: '2026-05-08T18:40:02Z'
-    confirmed_by: qa-laag1-auto
-    rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    status: unreviewed
+    confirmed_at:
+    confirmed_by:
+    rationale:
     layer1:
-      verdict: pass
+      status: pass
+      run_id: 20260511-083333
+      run_at:
       heading_count: 0
-      max_section_chars: 1857
-      file_size_chars: 1857
+      max_section_chars: 1858
+      file_size_chars: 1858
       flags: []
-      run_id: 20260509-212552
+    layer2:
+      status: not_run
+      agent:
+      run_at:
+      rationale:
+      concrete_problemen: []
 ---
 
 # CBN-advies 105/2 - Kosten afgewenteld op of gedragen door derden

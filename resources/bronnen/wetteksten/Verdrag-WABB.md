@@ -1,14 +1,14 @@
 ---
-tags: ["I", "2.1", "2.5"]
-itaa-lex-sectie: "I"
-wet: "Verdrag inzake wederzijdse administratieve bijstand in fiscale aangelegenheden (WABB/CMAAT)"
-bron_rol: "itaa_lex"
-status: "beschikbaar"
-bijgewerkt: "1988"
-bron: "ejustice.just.fgov.be (gecoördineerde versie)"
+tags: [I, '2.1', '2.5']
+itaa-lex-sectie: I
+wet: Verdrag inzake wederzijdse administratieve bijstand in fiscale aangelegenheden (WABB/CMAAT)
+bron_rol: itaa_lex
+status: beschikbaar
+bijgewerkt: '1988'
+bron: ejustice.just.fgov.be (gecoördineerde versie)
 chunk:
   level: 4
-  type: "Art."
+  type: Art.
   sub_strategy:
 provenance:
   inputs:
@@ -25,36 +25,23 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    qa_version: trust-rework-2
     confirmed_at: '2026-05-09T21:27:46Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: L1=pass
-    agent_verdict_at: '2026-05-09T21:27:46Z'
-    sample_pick: false
-    sample_reviewed_at:
-    sample_reviewed_by:
     layer1:
-      verdict: pass
+      status: pass
+      run_id: 20260509-212552
+      run_at:
       heading_count: 43
       max_section_chars: 4450
       file_size_chars: 40500
       flags: []
-      run_id: 20260509-212552
-    layer1_5_diff:
-      verdict: improvement
-      rationale: 'Auto-synthesized: ETL-fixes vandaag (NBSP, sub_strategy, justel-extractor, etc.) verbeteren bestaande versie.'
-      kritieke_observaties: []
-      auto: true
-      run_id: trust-finalize-1
-    layer2_content:
-      verdict: trusted
+    layer2:
+      status: trusted
+      agent:
+      run_at:
       rationale: '32 #### Art.-headings, preambule en bijlagen aanwezig, frontmatter correct. Beknopte verdragstekst zonder zichtbare extractie-fouten.'
-      problemen: []
-      sterkte:
-        - consistente structuur
-        - preamble en bijlagen intact
-      auto: false
-      run_id: qa-batch-W2
+      concrete_problemen: []
 ---
 
 # Verdrag inzake wederzijdse administratieve bijstand in fiscale aangelegenheden (WABB/CMAAT)

@@ -2,61 +2,63 @@
 nummer: CBN-advies 2020/01
 datum: 2020-01-27
 themas:
-- neerlegging van de jaarrekening
-- publicatie
-- openbaarmaking
-- model van de jaarrekening
-- schema van de jaarrekening
-- kapitaalhoudende vennootschap
-- kapitaalloze vennootschap
-- wettelijke reserve
-- inbreng
-- kapitaal
-- uitgiftepremie
+  - neerlegging van de jaarrekening
+  - publicatie
+  - openbaarmaking
+  - model van de jaarrekening
+  - schema van de jaarrekening
+  - kapitaalhoudende vennootschap
+  - kapitaalloze vennootschap
+  - wettelijke reserve
+  - inbreng
+  - kapitaal
+  - uitgiftepremie
 bron: https://www.cbn-cnc.be/nl/adviezen/neerlegging-van-de-enkelvoudige-jaarrekening-bij-de-nationale-bank-van-belgie-nieuwe
 provenance:
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/neerlegging-van-de-enkelvoudige-jaarrekening-bij-de-nationale-bank-van-belgie-nieuwe
-    sha256: 14f15fd95e33712adef5480cf5cefebadebb5694dcea904d867d50597eddc1f2
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/neerlegging-van-de-enkelvoudige-jaarrekening-bij-de-nationale-bank-van-belgie-nieuwe
+      sha256: 14f15fd95e33712adef5480cf5cefebadebb5694dcea904d867d50597eddc1f2
+      version:
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model: null
-    prompt_version: null
+    model:
+    prompt_version:
   generated_at: '2026-05-08T18:37:45Z'
   stale: false
-  stale_reason: null
+  stale_reason:
   trust:
-    status: trusted
-    qa_version: trust-rework-2
-    confirmed_at: '2026-05-08T18:40:05Z'
-    confirmed_by: qa-laag1-auto
-    rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    status: unreviewed
+    confirmed_at:
+    confirmed_by:
+    rationale:
     layer1:
-      verdict: pass
-      heading_count: 10
-      max_section_chars: 13777
-      file_size_chars: 23754
+      status: pass
+      run_id: 20260511-083333
+      run_at:
+      heading_count: 9
+      max_section_chars: 10893
+      file_size_chars: 23772
       flags: []
-      run_id: 20260509-212552
+    layer2:
+      status: not_run
+      agent:
+      run_at:
+      rationale:
+      concrete_problemen: []
 gerelateerde_adviezen:
-- titel: Verslaggeving bij de heropening van de vereffening van (i)vzw’s die een dubbele
-    boekhouding voeren
-  url: https://www.cbn-cnc.be/nl/adviezen/verslaggeving-bij-de-heropening-van-de-vereffening-van-ivzws-die-een-dubbele-boekhouding
-  datum: '2024-11-14'
-- titel: Verslaggeving bij de heropening van de vereffening van de vennootschappen
-  url: https://www.cbn-cnc.be/nl/adviezen/verslaggeving-bij-de-heropening-van-de-vereffening-van-de-vennootschappen
-  datum: '2024-11-13'
-- titel: 'Belgische bijkantoren van buitenlandse verenigingen en stichtingen: toepassing
-    van het Belgisch boekhoudrecht – begrip ‘bijkantoor’ – publicatieplicht – eigen
-    boekhoudkundige verplichtingen'
-  url: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-buitenlandse-verenigingen-en-stichtingen-toepassing-van-het-0
-  datum: '2024-02-08'
-- titel: 'Belgische bijkantoren van buitenlandse vennootschappen: eigen boekhoudkundige
-    verplichtingen (update)'
-  url: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-buitenlandse-vennootschappen-eigen-boekhoudkundige
-  datum: '2022-11-08'
+  - titel: Verslaggeving bij de heropening van de vereffening van (i)vzw’s die een dubbele boekhouding voeren
+    url: https://www.cbn-cnc.be/nl/adviezen/verslaggeving-bij-de-heropening-van-de-vereffening-van-ivzws-die-een-dubbele-boekhouding
+    datum: '2024-11-14'
+  - titel: Verslaggeving bij de heropening van de vereffening van de vennootschappen
+    url: https://www.cbn-cnc.be/nl/adviezen/verslaggeving-bij-de-heropening-van-de-vereffening-van-de-vennootschappen
+    datum: '2024-11-13'
+  - titel: 'Belgische bijkantoren van buitenlandse verenigingen en stichtingen: toepassing van het Belgisch boekhoudrecht – begrip ‘bijkantoor’ – publicatieplicht – eigen boekhoudkundige verplichtingen'
+    url: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-buitenlandse-verenigingen-en-stichtingen-toepassing-van-het-0
+    datum: '2024-02-08'
+  - titel: 'Belgische bijkantoren van buitenlandse vennootschappen: eigen boekhoudkundige verplichtingen (update)'
+    url: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-buitenlandse-vennootschappen-eigen-boekhoudkundige
+    datum: '2022-11-08'
 ---
 
 # CBN-advies 2020/01 – Neerlegging van de enkelvoudige jaarrekening bij de Nationale Bank van België: nieuwe modellen van de jaarrekening

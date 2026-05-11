@@ -2,49 +2,54 @@
 nummer: CBN-advies 2020/03
 datum: 2020-03-05
 themas:
-- taal
-- openbaarmaking
-- publicatie
-- neerlegging van de jaarrekening
-- vertaling
+  - taal
+  - openbaarmaking
+  - publicatie
+  - neerlegging van de jaarrekening
+  - vertaling
 bron: https://www.cbn-cnc.be/nl/adviezen/taal-van-de-jaarrekening-de-geconsolideerde-jaarrekening-en-de-andere-bij-de-nationale-0
 provenance:
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/taal-van-de-jaarrekening-de-geconsolideerde-jaarrekening-en-de-andere-bij-de-nationale-0
-    sha256: 6a1bc36d859edab5d4cde1f198077495dfee7bc82f34a155bea499b7094c95bb
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/taal-van-de-jaarrekening-de-geconsolideerde-jaarrekening-en-de-andere-bij-de-nationale-0
+      sha256: 6a1bc36d859edab5d4cde1f198077495dfee7bc82f34a155bea499b7094c95bb
+      version:
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model: null
-    prompt_version: null
+    model:
+    prompt_version:
   generated_at: '2026-05-08T18:37:47Z'
   stale: false
-  stale_reason: null
+  stale_reason:
   trust:
-    status: trusted
-    qa_version: trust-rework-2
-    confirmed_at: '2026-05-08T18:40:05Z'
-    confirmed_by: qa-laag1-auto
-    rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    status: unreviewed
+    confirmed_at:
+    confirmed_by:
+    rationale:
     layer1:
-      verdict: pass
+      status: pass
+      run_id: 20260511-083333
+      run_at:
       heading_count: 3
       max_section_chars: 2618
-      file_size_chars: 4680
+      file_size_chars: 4683
       flags: []
-      run_id: 20260509-212552
+    layer2:
+      status: not_run
+      agent:
+      run_at:
+      rationale:
+      concrete_problemen: []
 gerelateerde_adviezen:
-- titel: 'Belgische bijkantoren van vennootschappen naar buitenlands recht: toepassing
-    van het Belgisch boekhoudrecht - begrip “bijkantoor” - publicatieplicht'
-  url: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-vennootschappen-naar-buitenlands-recht-toepassing-van-het
-  datum: '2018-05-09'
-- titel: 'Bijkantoor: openbaarmakingsverplichtingen – Taal'
-  url: https://www.cbn-cnc.be/nl/adviezen/bijkantoor-openbaarmakingsverplichtingen-taal
-  datum: '2017-05-31'
-- titel: Gebruik van uniforme boekhoudsoftware door internationale ondernemingen
-  url: https://www.cbn-cnc.be/nl/adviezen/gebruik-van-uniforme-boekhoudsoftware-door-internationale-ondernemingen
-  datum: '2010-11-10'
+  - titel: 'Belgische bijkantoren van vennootschappen naar buitenlands recht: toepassing van het Belgisch boekhoudrecht - begrip “bijkantoor” - publicatieplicht'
+    url: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-vennootschappen-naar-buitenlands-recht-toepassing-van-het
+    datum: '2018-05-09'
+  - titel: 'Bijkantoor: openbaarmakingsverplichtingen – Taal'
+    url: https://www.cbn-cnc.be/nl/adviezen/bijkantoor-openbaarmakingsverplichtingen-taal
+    datum: '2017-05-31'
+  - titel: Gebruik van uniforme boekhoudsoftware door internationale ondernemingen
+    url: https://www.cbn-cnc.be/nl/adviezen/gebruik-van-uniforme-boekhoudsoftware-door-internationale-ondernemingen
+    datum: '2010-11-10'
 ---
 
 # CBN-advies 2020/03 – Taal van de jaarrekening, de geconsolideerde jaarrekening en de andere bij de Nationale Bank van België neer te leggen stukken

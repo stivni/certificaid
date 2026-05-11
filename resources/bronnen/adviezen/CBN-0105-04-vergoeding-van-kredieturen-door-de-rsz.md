@@ -2,36 +2,42 @@
 nummer: CBN-advies 105/4
 datum: 1977-08-01
 themas:
-- vergoeding van kredieturen
-- financiering van kredieturen
-- kredieturen
+  - vergoeding van kredieturen
+  - financiering van kredieturen
+  - kredieturen
 bron: https://www.cbn-cnc.be/nl/adviezen/vergoeding-van-kredieturen-door-de-rsz
 provenance:
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/vergoeding-van-kredieturen-door-de-rsz
-    sha256: 298792d8b39493cc3fa85316d30da0f9dfa04d6622e8ee390bf846eb246272db
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/vergoeding-van-kredieturen-door-de-rsz
+      sha256: 298792d8b39493cc3fa85316d30da0f9dfa04d6622e8ee390bf846eb246272db
+      version:
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model: null
-    prompt_version: null
+    model:
+    prompt_version:
   generated_at: '2026-05-08T18:33:49Z'
   stale: false
-  stale_reason: null
+  stale_reason:
   trust:
-    status: trusted
-    qa_version: trust-rework-2
-    confirmed_at: '2026-05-08T18:40:02Z'
-    confirmed_by: qa-laag1-auto
-    rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    status: unreviewed
+    confirmed_at:
+    confirmed_by:
+    rationale:
     layer1:
-      verdict: pass
+      status: pass
+      run_id: 20260511-083333
+      run_at:
       heading_count: 0
-      max_section_chars: 765
-      file_size_chars: 765
+      max_section_chars: 766
+      file_size_chars: 766
       flags: []
-      run_id: 20260509-212552
+    layer2:
+      status: not_run
+      agent:
+      run_at:
+      rationale:
+      concrete_problemen: []
 ---
 
 # CBN-advies 105/4 - Vergoeding van kredieturen door de RSZ

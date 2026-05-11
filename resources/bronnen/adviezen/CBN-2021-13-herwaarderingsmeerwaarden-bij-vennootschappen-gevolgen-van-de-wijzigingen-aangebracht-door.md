@@ -2,53 +2,58 @@
 nummer: CBN-advies 2021/13
 datum: 2021-08-20
 themas:
-- herwaarderingsmeerwaarde
-- niet-gerealiseerde meerwaarde
-- aanzuivering van verlies
-- uitkeerbare winst
-- omzetting in inbreng
-- omzetting in kapitaal
+  - herwaarderingsmeerwaarde
+  - niet-gerealiseerde meerwaarde
+  - aanzuivering van verlies
+  - uitkeerbare winst
+  - omzetting in inbreng
+  - omzetting in kapitaal
 bron: https://www.cbn-cnc.be/nl/adviezen/herwaarderingsmeerwaarden-bij-vennootschappen-gevolgen-van-de-wijzigingen-aangebracht-door
 provenance:
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/herwaarderingsmeerwaarden-bij-vennootschappen-gevolgen-van-de-wijzigingen-aangebracht-door
-    sha256: 3404a5a64eca3f15bc7f710f31423f847aae9a6d9d904376821ec4f9a166b287
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/herwaarderingsmeerwaarden-bij-vennootschappen-gevolgen-van-de-wijzigingen-aangebracht-door
+      sha256: 3404a5a64eca3f15bc7f710f31423f847aae9a6d9d904376821ec4f9a166b287
+      version:
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model: null
-    prompt_version: null
+    model:
+    prompt_version:
   generated_at: '2026-05-08T18:38:02Z'
   stale: false
-  stale_reason: null
+  stale_reason:
   trust:
-    status: trusted
-    qa_version: trust-rework-2
-    confirmed_at: '2026-05-08T18:40:05Z'
-    confirmed_by: qa-laag1-auto
-    rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    status: unreviewed
+    confirmed_at:
+    confirmed_by:
+    rationale:
     layer1:
-      verdict: pass
-      heading_count: 31
-      max_section_chars: 17896
-      file_size_chars: 22004
+      status: pass
+      run_id: 20260511-083333
+      run_at:
+      heading_count: 11
+      max_section_chars: 7266
+      file_size_chars: 21934
       flags: []
-      run_id: 20260509-212552
+    layer2:
+      status: not_run
+      agent:
+      run_at:
+      rationale:
+      concrete_problemen: []
 gerelateerde_adviezen:
-- titel: Vermogensklem bij de omzetting van een VZW in een coöperatieve vennootschap
-    erkend als sociale onderneming
-  url: https://www.cbn-cnc.be/nl/adviezen/vermogensklem-bij-de-omzetting-van-een-vzw-in-een-cooperatieve-vennootschap-erkend-als-0
-  datum: '2024-01-17'
-- titel: Boekhoudkundige verwerking van splitsingen van vennootschappen
-  url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-splitsingen-van-vennootschappen
-  datum: '2022-09-19'
-- titel: Wijziging van het boekhoudkundig referentiestelsel
-  url: https://www.cbn-cnc.be/nl/adviezen/wijziging-van-het-boekhoudkundig-referentiestelsel
-  datum: '2022-07-20'
-- titel: Boekhoudkundige verwerking van fusies tussen vennootschappen
-  url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-fusies-tussen-vennootschappen
-  datum: '2021-07-02'
+  - titel: Vermogensklem bij de omzetting van een VZW in een coöperatieve vennootschap erkend als sociale onderneming
+    url: https://www.cbn-cnc.be/nl/adviezen/vermogensklem-bij-de-omzetting-van-een-vzw-in-een-cooperatieve-vennootschap-erkend-als-0
+    datum: '2024-01-17'
+  - titel: Boekhoudkundige verwerking van splitsingen van vennootschappen
+    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-splitsingen-van-vennootschappen
+    datum: '2022-09-19'
+  - titel: Wijziging van het boekhoudkundig referentiestelsel
+    url: https://www.cbn-cnc.be/nl/adviezen/wijziging-van-het-boekhoudkundig-referentiestelsel
+    datum: '2022-07-20'
+  - titel: Boekhoudkundige verwerking van fusies tussen vennootschappen
+    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-fusies-tussen-vennootschappen
+    datum: '2021-07-02'
 ---
 
 # CBN-advies 2021/13 – Herwaarderingsmeerwaarden bij vennootschappen: gevolgen van de wijzigingen aangebracht door het WVV en KB WVV

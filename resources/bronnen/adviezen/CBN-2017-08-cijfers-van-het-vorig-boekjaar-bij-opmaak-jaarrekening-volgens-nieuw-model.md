@@ -2,44 +2,48 @@
 nummer: CBN-advies 2017/08
 datum: 2017-03-15
 themas:
-- consistentiebeginsel
-- vergelijkende cijfers
+  - consistentiebeginsel
+  - vergelijkende cijfers
 bron: https://www.cbn-cnc.be/nl/adviezen/cijfers-van-het-vorig-boekjaar-bij-opmaak-jaarrekening-volgens-nieuw-model
 provenance:
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/cijfers-van-het-vorig-boekjaar-bij-opmaak-jaarrekening-volgens-nieuw-model
-    sha256: aa0dbd637f6bd1d94798fa80f37ddfbbfe3c609ad14a91465da7f47257dc3f56
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/cijfers-van-het-vorig-boekjaar-bij-opmaak-jaarrekening-volgens-nieuw-model
+      sha256: aa0dbd637f6bd1d94798fa80f37ddfbbfe3c609ad14a91465da7f47257dc3f56
+      version:
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model: null
-    prompt_version: null
+    model:
+    prompt_version:
   generated_at: '2026-05-08T18:37:12Z'
   stale: false
-  stale_reason: null
+  stale_reason:
   trust:
-    status: trusted
-    qa_version: trust-rework-2
-    confirmed_at: '2026-05-08T18:40:04Z'
-    confirmed_by: qa-laag1-auto
-    rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    status: unreviewed
+    confirmed_at:
+    confirmed_by:
+    rationale:
     layer1:
-      verdict: pass
+      status: pass
+      run_id: 20260511-083333
+      run_at:
       heading_count: 2
-      max_section_chars: 2046
-      file_size_chars: 4124
+      max_section_chars: 2047
+      file_size_chars: 4126
       flags: []
-      run_id: 20260509-212552
+    layer2:
+      status: not_run
+      agent:
+      run_at:
+      rationale:
+      concrete_problemen: []
 gerelateerde_adviezen:
-- titel: Beoordeling van de groottecriteria overeenkomstig artikelen 1:24 en 1:25
-    van het Wetboek van vennootschappen en verenigingen
-  url: https://www.cbn-cnc.be/nl/adviezen/beoordeling-van-de-groottecriteria-overeenkomstig-artikelen-124-en-125-van-het-wetboek-van
-  datum: '2022-03-15'
-- titel: Groottecriteria verenigingen en stichtingen - schema van de jaarrekening
-    - begroting
-  url: https://www.cbn-cnc.be/nl/adviezen/groottecriteria-verenigingen-en-stichtingen-schema-van-de-jaarrekening-begroting
-  datum: '2019-11-06'
+  - titel: Beoordeling van de groottecriteria overeenkomstig artikelen 1:24 en 1:25 van het Wetboek van vennootschappen en verenigingen
+    url: https://www.cbn-cnc.be/nl/adviezen/beoordeling-van-de-groottecriteria-overeenkomstig-artikelen-124-en-125-van-het-wetboek-van
+    datum: '2022-03-15'
+  - titel: Groottecriteria verenigingen en stichtingen - schema van de jaarrekening - begroting
+    url: https://www.cbn-cnc.be/nl/adviezen/groottecriteria-verenigingen-en-stichtingen-schema-van-de-jaarrekening-begroting
+    datum: '2019-11-06'
 ---
 
 # CBN-advies 2017/08 – Cijfers van het vorig boekjaar bij opmaak jaarrekening volgens nieuw model

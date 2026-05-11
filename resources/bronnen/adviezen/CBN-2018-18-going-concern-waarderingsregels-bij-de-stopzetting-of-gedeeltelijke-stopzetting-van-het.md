@@ -2,56 +2,62 @@
 nummer: CBN-advies 2018/18
 datum: 2018-11-19
 themas:
-- going concern
-- stopzetting
-- gedeeltelijke stopzetting
-- continuïteit
-- staat van discontinuïteit
-- discontinuiteit
-- gedeeltelijke discontinuïteit
-- beslissing tot invereffeningstelling
-- vrijwillige ontbinding
-- ontbinding
-- invereffeningstelling
-- voortzetting
-- minnelijk akkoord
-- gerechtelijke reorganisatie
-- WCO
-- bedrijfscontinuïteit
-- gebeurtenis na balansdatum
-- verslaggeving
-- rapporteringsverplichting
+  - going concern
+  - stopzetting
+  - gedeeltelijke stopzetting
+  - continuïteit
+  - staat van discontinuïteit
+  - discontinuiteit
+  - gedeeltelijke discontinuïteit
+  - beslissing tot invereffeningstelling
+  - vrijwillige ontbinding
+  - ontbinding
+  - invereffeningstelling
+  - voortzetting
+  - minnelijk akkoord
+  - gerechtelijke reorganisatie
+  - WCO
+  - bedrijfscontinuïteit
+  - gebeurtenis na balansdatum
+  - verslaggeving
+  - rapporteringsverplichting
 bron: https://www.cbn-cnc.be/nl/adviezen/going-concern-waarderingsregels-bij-de-stopzetting-of-gedeeltelijke-stopzetting-van-het
 provenance:
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/going-concern-waarderingsregels-bij-de-stopzetting-of-gedeeltelijke-stopzetting-van-het
-    sha256: 3877990133cefd4d161a28e09205d68d5a29ea2fc5360215133d617bafa6550f
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/going-concern-waarderingsregels-bij-de-stopzetting-of-gedeeltelijke-stopzetting-van-het
+      sha256: 3877990133cefd4d161a28e09205d68d5a29ea2fc5360215133d617bafa6550f
+      version:
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model: null
-    prompt_version: null
+    model:
+    prompt_version:
   generated_at: '2026-05-08T18:37:28Z'
   stale: false
-  stale_reason: null
+  stale_reason:
   trust:
-    status: trusted
-    qa_version: trust-rework-2
-    confirmed_at: '2026-05-08T18:40:05Z'
-    confirmed_by: qa-laag1-auto
-    rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    status: unreviewed
+    confirmed_at:
+    confirmed_by:
+    rationale:
     layer1:
-      verdict: pass
-      heading_count: 17
-      max_section_chars: 9822
-      file_size_chars: 24697
+      status: pass
+      run_id: 20260511-083333
+      run_at:
+      heading_count: 13
+      max_section_chars: 4510
+      file_size_chars: 24712
       flags: []
-      run_id: 20260509-212552
+    layer2:
+      status: not_run
+      agent:
+      run_at:
+      rationale:
+      concrete_problemen: []
 gerelateerde_adviezen:
-- titel: Gevolgen op gebied van financiële rapportering als gevolg van de brexit
-  url: https://www.cbn-cnc.be/nl/adviezen/gevolgen-op-gebied-van-financiele-rapportering-als-gevolg-van-de-brexit-0
-  datum: '2019-04-12'
+  - titel: Gevolgen op gebied van financiële rapportering als gevolg van de brexit
+    url: https://www.cbn-cnc.be/nl/adviezen/gevolgen-op-gebied-van-financiele-rapportering-als-gevolg-van-de-brexit-0
+    datum: '2019-04-12'
 ---
 
 # CBN-advies 2018/18 – Going concern - Waarderingsregels bij de stopzetting of gedeeltelijke stopzetting van het bedrijf van een onderneming

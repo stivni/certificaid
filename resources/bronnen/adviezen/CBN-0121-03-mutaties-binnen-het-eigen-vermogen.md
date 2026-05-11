@@ -2,71 +2,77 @@
 nummer: CBN-advies 121/3
 datum: 1995-03-01
 themas:
-- verlies
-- aanzuivering overgedragen verlies
-- aanzuiveren van verliezen
-- belastingen
-- belastinglatentie
-- belastingvrije reserves
-- eigen aandelen
-- eigen vermogen
-- geplaatst kapitaal
-- kapitaal
-- kapitaalsubsidie
-- kapitaalvermindering
-- mutaties binnen het eigen vermogen
-- onbeschikbare reserve
-- over te dragen resultaat
-- overgedragen resultaat
-- overgedragen winst
-- reserve tot dekking van voorzienbare verliezen
-- reserve voor aflossing van het kapitaal
-- reserves
-- resultaatverwerking
-- terugbetaling aan vennoten
-- uitgiftepremie
-- uitkering aan derden
-- uitkering aan vennoten
+  - verlies
+  - aanzuivering overgedragen verlies
+  - aanzuiveren van verliezen
+  - belastingen
+  - belastinglatentie
+  - belastingvrije reserves
+  - eigen aandelen
+  - eigen vermogen
+  - geplaatst kapitaal
+  - kapitaal
+  - kapitaalsubsidie
+  - kapitaalvermindering
+  - mutaties binnen het eigen vermogen
+  - onbeschikbare reserve
+  - over te dragen resultaat
+  - overgedragen resultaat
+  - overgedragen winst
+  - reserve tot dekking van voorzienbare verliezen
+  - reserve voor aflossing van het kapitaal
+  - reserves
+  - resultaatverwerking
+  - terugbetaling aan vennoten
+  - uitgiftepremie
+  - uitkering aan derden
+  - uitkering aan vennoten
 bron: https://www.cbn-cnc.be/nl/adviezen/mutaties-binnen-het-eigen-vermogen
 provenance:
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/mutaties-binnen-het-eigen-vermogen
-    sha256: a494a51dc41c670cd4c09f0ab8e895eaf42e573697f0b32ef9126a0f635717da
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/mutaties-binnen-het-eigen-vermogen
+      sha256: a494a51dc41c670cd4c09f0ab8e895eaf42e573697f0b32ef9126a0f635717da
+      version:
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model: null
-    prompt_version: null
+    model:
+    prompt_version:
   generated_at: '2026-05-08T18:34:32Z'
   stale: false
-  stale_reason: null
+  stale_reason:
   trust:
-    status: trusted
-    qa_version: trust-rework-2
-    confirmed_at: '2026-05-08T18:40:03Z'
-    confirmed_by: qa-laag1-auto
-    rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    status: unreviewed
+    confirmed_at:
+    confirmed_by:
+    rationale:
     layer1:
-      verdict: pass
-      heading_count: 11
-      max_section_chars: 3572
-      file_size_chars: 13627
+      status: pass
+      run_id: 20260511-083333
+      run_at:
+      heading_count: 6
+      max_section_chars: 6128
+      file_size_chars: 13642
       flags: []
-      run_id: 20260509-212552
+    layer2:
+      status: not_run
+      agent:
+      run_at:
+      rationale:
+      concrete_problemen: []
 gerelateerde_adviezen:
-- titel: Aanwending van herwaarderingsmeerwaarden
-  url: https://www.cbn-cnc.be/nl/adviezen/aanwending-van-herwaarderingsmeerwaarden-0
-  datum: '1981-12-01'
-- titel: Aanwending van herwaarderingsmeerwaarden
-  url: https://www.cbn-cnc.be/nl/adviezen/aanwending-van-herwaarderingsmeerwaarden
-  datum: '1981-04-01'
-- titel: Verlies gedragen door vennoten
-  url: https://www.cbn-cnc.be/nl/adviezen/verlies-gedragen-door-vennoten
-  datum: '1983-04-01'
-- titel: Verlies gedragen door vennoten of derden
-  url: https://www.cbn-cnc.be/nl/adviezen/verlies-gedragen-door-vennoten-of-derden
-  datum: '1981-12-01'
+  - titel: Aanwending van herwaarderingsmeerwaarden
+    url: https://www.cbn-cnc.be/nl/adviezen/aanwending-van-herwaarderingsmeerwaarden-0
+    datum: '1981-12-01'
+  - titel: Aanwending van herwaarderingsmeerwaarden
+    url: https://www.cbn-cnc.be/nl/adviezen/aanwending-van-herwaarderingsmeerwaarden
+    datum: '1981-04-01'
+  - titel: Verlies gedragen door vennoten
+    url: https://www.cbn-cnc.be/nl/adviezen/verlies-gedragen-door-vennoten
+    datum: '1983-04-01'
+  - titel: Verlies gedragen door vennoten of derden
+    url: https://www.cbn-cnc.be/nl/adviezen/verlies-gedragen-door-vennoten-of-derden
+    datum: '1981-12-01'
 ---
 
 # CBN-advies 121/3 - Mutaties binnen het eigen vermogen

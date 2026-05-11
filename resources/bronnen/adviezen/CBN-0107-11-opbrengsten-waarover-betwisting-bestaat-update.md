@@ -2,42 +2,48 @@
 nummer: CBN-advies 107/11
 datum: 1989-09-01
 themas:
-- betwisting
-- opbrengsten waarover betwisting bestaat
-- voorziening
-- voorzieningen voor risico&#039;s en kosten
-- inning
-- rechtsvordering
-- risico
-- Waardevermindering
-- waarschijnlijkheid
+  - betwisting
+  - opbrengsten waarover betwisting bestaat
+  - voorziening
+  - voorzieningen voor risico&#039;s en kosten
+  - inning
+  - rechtsvordering
+  - risico
+  - Waardevermindering
+  - waarschijnlijkheid
 bron: https://www.cbn-cnc.be/nl/adviezen/opbrengsten-waarover-betwisting-bestaat-update
 provenance:
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/opbrengsten-waarover-betwisting-bestaat-update
-    sha256: a825f5803d0f039826d922fc8be983950b805af35c15c92916d08be43e25f0cf
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/opbrengsten-waarover-betwisting-bestaat-update
+      sha256: a825f5803d0f039826d922fc8be983950b805af35c15c92916d08be43e25f0cf
+      version:
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model: null
-    prompt_version: null
+    model:
+    prompt_version:
   generated_at: '2026-05-08T18:34:00Z'
   stale: false
-  stale_reason: null
+  stale_reason:
   trust:
-    status: trusted
-    qa_version: trust-rework-2
-    confirmed_at: '2026-05-08T18:40:02Z'
-    confirmed_by: qa-laag1-auto
-    rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    status: unreviewed
+    confirmed_at:
+    confirmed_by:
+    rationale:
     layer1:
-      verdict: pass
+      status: pass
+      run_id: 20260511-083333
+      run_at:
       heading_count: 0
-      max_section_chars: 3517
-      file_size_chars: 3517
+      max_section_chars: 3590
+      file_size_chars: 3590
       flags: []
-      run_id: 20260509-212552
+    layer2:
+      status: not_run
+      agent:
+      run_at:
+      rationale:
+      concrete_problemen: []
 ---
 
 # CBN-advies 107/11 − Opbrengsten waarover betwisting bestaat (update)

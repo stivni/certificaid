@@ -2,36 +2,42 @@
 nummer: CBN-advies 2016/8
 datum: 2016-06-15
 themas:
-- franchiseovereenkomst
-- franchising
-- omzet
+  - franchiseovereenkomst
+  - franchising
+  - omzet
 bron: https://www.cbn-cnc.be/nl/adviezen/bepaling-van-de-omzet-van-een-franchisenemer
 provenance:
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/bepaling-van-de-omzet-van-een-franchisenemer
-    sha256: 407c616f79f88d89f2f91835aa4df7d710fee8284d31d361e93fe77c83f16221
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/bepaling-van-de-omzet-van-een-franchisenemer
+      sha256: 407c616f79f88d89f2f91835aa4df7d710fee8284d31d361e93fe77c83f16221
+      version:
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model: null
-    prompt_version: null
+    model:
+    prompt_version:
   generated_at: '2026-05-08T18:36:56Z'
   stale: false
-  stale_reason: null
+  stale_reason:
   trust:
-    status: trusted
-    qa_version: trust-rework-2
-    confirmed_at: '2026-05-08T18:40:04Z'
-    confirmed_by: qa-laag1-auto
-    rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    status: unreviewed
+    confirmed_at:
+    confirmed_by:
+    rationale:
     layer1:
-      verdict: pass
+      status: pass
+      run_id: 20260511-083333
+      run_at:
       heading_count: 2
       max_section_chars: 8071
-      file_size_chars: 8275
+      file_size_chars: 8276
       flags: []
-      run_id: 20260509-212552
+    layer2:
+      status: not_run
+      agent:
+      run_at:
+      rationale:
+      concrete_problemen: []
 ---
 
 # CBN-advies 2016/8 - Bepaling van de omzet van een franchisenemer

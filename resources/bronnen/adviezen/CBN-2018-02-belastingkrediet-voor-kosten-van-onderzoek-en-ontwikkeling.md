@@ -2,38 +2,44 @@
 nummer: CBN-advies 2018/02
 datum: 2018-03-21
 themas:
-- belastingkrediet
-- belasting
-- kosten van onderzoek en ontwikkeling
-- onderzoek en ontwikkeling
-- investeringsaftrek
+  - belastingkrediet
+  - belasting
+  - kosten van onderzoek en ontwikkeling
+  - onderzoek en ontwikkeling
+  - investeringsaftrek
 bron: https://www.cbn-cnc.be/nl/adviezen/belastingkrediet-voor-kosten-van-onderzoek-en-ontwikkeling
 provenance:
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/belastingkrediet-voor-kosten-van-onderzoek-en-ontwikkeling
-    sha256: 03181e2a0d186a99b17dcc95fb7356e567d8df51b94f9e4f9f905c617969f555
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/belastingkrediet-voor-kosten-van-onderzoek-en-ontwikkeling
+      sha256: 03181e2a0d186a99b17dcc95fb7356e567d8df51b94f9e4f9f905c617969f555
+      version:
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model: null
-    prompt_version: null
+    model:
+    prompt_version:
   generated_at: '2026-05-08T18:37:18Z'
   stale: false
-  stale_reason: null
+  stale_reason:
   trust:
-    status: trusted
-    qa_version: trust-rework-2
-    confirmed_at: '2026-05-08T18:40:04Z'
-    confirmed_by: qa-laag1-auto
-    rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    status: unreviewed
+    confirmed_at:
+    confirmed_by:
+    rationale:
     layer1:
-      verdict: pass
-      heading_count: 14
-      max_section_chars: 3781
-      file_size_chars: 12909
+      status: pass
+      run_id: 20260511-083333
+      run_at:
+      heading_count: 7
+      max_section_chars: 5211
+      file_size_chars: 12917
       flags: []
-      run_id: 20260509-212552
+    layer2:
+      status: not_run
+      agent:
+      run_at:
+      rationale:
+      concrete_problemen: []
 ---
 
 # CBN-advies 2018/02 – Belastingkrediet voor kosten van onderzoek en ontwikkeling

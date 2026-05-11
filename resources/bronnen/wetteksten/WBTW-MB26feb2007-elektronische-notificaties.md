@@ -1,14 +1,14 @@
 ---
-tags: ["VI.C", "2.4"]
-itaa-lex-sectie: "VI.C"
-wet: "M.B. van 26 februari 2007, met betrekking tot de aanduiding van de dienst bevoegd voor het ontvangen van de berichten en het afleveren van de ontvangstmeldingen in het kader van het systeem van elektronische notificaties tussen de FOD Financiën en bepaalde ministeriële officieren, openbare ambtenaren en andere personen"
-bron_rol: "itaa_lex"
-status: "beschikbaar"
-bijgewerkt: "26.02.2007"
-bron: "Afgesplitst uit Fisconet-compilatie (pdftotext_compilatie_btw)"
+tags: [VI.C, '2.4']
+itaa-lex-sectie: VI.C
+wet: M.B. van 26 februari 2007, met betrekking tot de aanduiding van de dienst bevoegd voor het ontvangen van de berichten en het afleveren van de ontvangstmeldingen in het kader van het systeem van elektronische notificaties tussen de FOD Financiën en bepaalde ministeriële officieren, openbare ambtenaren en andere personen
+bron_rol: itaa_lex
+status: beschikbaar
+bijgewerkt: 26.02.2007
+bron: Afgesplitst uit Fisconet-compilatie (pdftotext_compilatie_btw)
 chunk:
   level: 2
-  type: "Art."
+  type: Art.
   sub_strategy:
 provenance:
   inputs:
@@ -24,39 +24,27 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    qa_version: trust-rework-2
-    confirmed_at: '2026-05-09T21:27:46Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "L1=pass; L1.5=improvement (Auto-synthesized: heading-injection (inject_wbtw_headings.py) — staging is structureel beter dan resources-versie.); L2=trusted (ETL-fix toegepast: inject_wbtw_headings.py heeft TOC-strip + Artikel-N → ## Art. heading-injectie + AFDELING-normalisatie uitgevoerd. Eerdere needs-rework op 'missing-section' opgeheven.)"
-    agent_verdict_at: '2026-05-09T21:27:46Z'
-    sample_pick: false
-    sample_reviewed_at:
-    sample_reviewed_by:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by:
+    rationale:
     layer1:
-      verdict: pass
+      status: pass
+      run_id: 20260509-212552
+      run_at:
       heading_count: 3
       max_section_chars: 1550
       file_size_chars: 2550
       flags: []
-      run_id: 20260509-212552
-    layer1_5_diff:
-      verdict: improvement
-      rationale: 'Auto-synthesized: heading-injection (inject_wbtw_headings.py) — staging is structureel beter dan resources-versie.'
-      kritieke_observaties: []
-      auto: true
-      run_id: trust-rework-2
-    layer2_content:
-      verdict: needs-rework
+    layer2:
+      status: needs-rework
+      agent:
+      run_at:
       rationale: '0 ##-headings; chunk.level=2 mismatch.'
-      problemen:
+      concrete_problemen:
         - regel: 0
           type: missing-section
           voorbeeld: Artikel 1-3 zonder heading
-      sterkte:
-        - Tekst en inwerkingtreding aanwezig
-      auto: false
-      run_id: qa-batch-W4
 ---
 
 # M.B. van 26 februari 2007, met betrekking tot de aanduiding van de dienst bevoegd voor het ontvangen van de berichten en het afleveren van de ontvangstmeldingen in het kader van het systeem van elektronische notificaties tussen de FOD Financiën en bepaalde ministeriële officieren, openbare ambtenaren en andere personen

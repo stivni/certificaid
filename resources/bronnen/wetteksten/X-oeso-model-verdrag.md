@@ -1,15 +1,35 @@
 ---
-tags: ["X", "2.8"]
-itaa-lex-sectie: "X"
-wet: "OECD Model Tax Convention on Income and on Capital (as it read on 21 November 2017)"
-status: "beschikbaar"
-bijgewerkt: "21.11.2017"
-bron: "OECD (2019), Model Tax Convention on Income and on Capital 2017 (Full Version), OECD Publishing — Art. 1–32, artikeltekst only"
-taal: "EN"
+tags: [X, '2.8']
+itaa-lex-sectie: X
+wet: OECD Model Tax Convention on Income and on Capital (as it read on 21 November 2017)
+status: beschikbaar
+bijgewerkt: 21.11.2017
+bron: OECD (2019), Model Tax Convention on Income and on Capital 2017 (Full Version), OECD Publishing — Art. 1–32, artikeltekst only
+taal: EN
 chunk:
   level: 2
-  type: "Art."
-  sub_strategy: null
+  type: Art.
+  sub_strategy:
+provenance:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by:
+    rationale:
+    layer1:
+      status: not_run
+      run_id:
+      run_at:
+      heading_count:
+      max_section_chars:
+      file_size_chars:
+      flags: []
+    layer2:
+      status: not_run
+      agent:
+      run_at:
+      rationale:
+      concrete_problemen: []
 ---
 
 # OECD Model Tax Convention on Income and on Capital (2017)

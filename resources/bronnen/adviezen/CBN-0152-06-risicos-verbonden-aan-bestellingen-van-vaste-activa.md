@@ -2,55 +2,59 @@
 nummer: CBN-advies 152/6
 datum: 1993-02-01
 themas:
-- deviezen
-- risico&#039;s verbonden aan bestellingen van vaste activa
-- termijn
-- termijnaankopen van deviezen
-- voorziening
-- wisselverschil
-- bestellingen van vaste activa in vreemde valuta
+  - deviezen
+  - risico&#039;s verbonden aan bestellingen van vaste activa
+  - termijn
+  - termijnaankopen van deviezen
+  - voorziening
+  - wisselverschil
+  - bestellingen van vaste activa in vreemde valuta
 bron: https://www.cbn-cnc.be/nl/adviezen/risicos-verbonden-aan-bestellingen-van-vaste-activa
 provenance:
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/risicos-verbonden-aan-bestellingen-van-vaste-activa
-    sha256: 25fc0b1d69db719c2d234e8a5832b6351e473457cc683784b39671fa707277c7
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/risicos-verbonden-aan-bestellingen-van-vaste-activa
+      sha256: 25fc0b1d69db719c2d234e8a5832b6351e473457cc683784b39671fa707277c7
+      version:
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model: null
-    prompt_version: null
+    model:
+    prompt_version:
   generated_at: '2026-05-08T18:35:23Z'
   stale: false
-  stale_reason: null
+  stale_reason:
   trust:
-    status: trusted
-    qa_version: trust-rework-2
-    confirmed_at: '2026-05-08T18:40:03Z'
-    confirmed_by: qa-laag1-auto
-    rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    status: unreviewed
+    confirmed_at:
+    confirmed_by:
+    rationale:
     layer1:
-      verdict: pass
+      status: pass
+      run_id: 20260511-083333
+      run_at:
       heading_count: 0
-      max_section_chars: 2432
-      file_size_chars: 2432
+      max_section_chars: 2433
+      file_size_chars: 2433
       flags: []
-      run_id: 20260509-212552
+    layer2:
+      status: not_run
+      agent:
+      run_at:
+      rationale:
+      concrete_problemen: []
 gerelateerde_adviezen:
-- titel: Terugbetaling van kapitaal in vreemde valuta aan de aandeelhouders
-  url: https://www.cbn-cnc.be/nl/adviezen/terugbetaling-van-kapitaal-in-vreemde-valuta-aan-de-aandeelhouders
-  datum: '2024-03-13'
-- titel: Niet-monetaire financiële activa in deviezen (deelnemingen en aandelen)
-  url: https://www.cbn-cnc.be/nl/adviezen/niet-monetaire-financiele-activa-in-deviezen-deelnemingen-en-aandelen
-  datum: '1988-12-01'
-- titel: Boekhoudkundige verwerking van een kapitaalverhoging als gevolg van de inbreng
-    van een schuldvordering uitgedrukt in vreemde valuta
-  url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-een-kapitaalverhoging-als-gevolg-van-de-inbreng-van-een
-  datum: '1988-12-01'
-- titel: Boekhoudkundige verwerking van een kapitaalverhoging als gevolg van de conversie
-    in aandelen van obligaties uitgedrukt in Ecu of in andere vreemde valuta
-  url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-een-kapitaalverhoging-als-gevolg-van-de-conversie-in
-  datum: '1988-12-01'
+  - titel: Terugbetaling van kapitaal in vreemde valuta aan de aandeelhouders
+    url: https://www.cbn-cnc.be/nl/adviezen/terugbetaling-van-kapitaal-in-vreemde-valuta-aan-de-aandeelhouders
+    datum: '2024-03-13'
+  - titel: Niet-monetaire financiële activa in deviezen (deelnemingen en aandelen)
+    url: https://www.cbn-cnc.be/nl/adviezen/niet-monetaire-financiele-activa-in-deviezen-deelnemingen-en-aandelen
+    datum: '1988-12-01'
+  - titel: Boekhoudkundige verwerking van een kapitaalverhoging als gevolg van de inbreng van een schuldvordering uitgedrukt in vreemde valuta
+    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-een-kapitaalverhoging-als-gevolg-van-de-inbreng-van-een
+    datum: '1988-12-01'
+  - titel: Boekhoudkundige verwerking van een kapitaalverhoging als gevolg van de conversie in aandelen van obligaties uitgedrukt in Ecu of in andere vreemde valuta
+    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-een-kapitaalverhoging-als-gevolg-van-de-conversie-in
+    datum: '1988-12-01'
 ---
 
 # CBN-advies 152/6 - Risico's verbonden aan bestellingen van vaste activa

@@ -2,40 +2,46 @@
 nummer: CBN-advies 140
 datum: 1984-01-01
 themas:
-- algemeen rekeningenstelsel
-- overeenstemming
-- rekeningenstelsel
+  - algemeen rekeningenstelsel
+  - overeenstemming
+  - rekeningenstelsel
 bron: https://www.cbn-cnc.be/nl/adviezen/overeenstemming-tussen-de-boekhouding-en-de-jaarrekening
 provenance:
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/overeenstemming-tussen-de-boekhouding-en-de-jaarrekening
-    sha256: a168973522d9520aeb63a97544461c3b577332f2ee98d25227c91f452b9aec2e
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/overeenstemming-tussen-de-boekhouding-en-de-jaarrekening
+      sha256: a168973522d9520aeb63a97544461c3b577332f2ee98d25227c91f452b9aec2e
+      version:
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model: null
-    prompt_version: null
+    model:
+    prompt_version:
   generated_at: '2026-05-08T18:35:08Z'
   stale: false
-  stale_reason: null
+  stale_reason:
   trust:
-    status: trusted
-    qa_version: trust-rework-2
-    confirmed_at: '2026-05-08T18:40:03Z'
-    confirmed_by: qa-laag1-auto
-    rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    status: unreviewed
+    confirmed_at:
+    confirmed_by:
+    rationale:
     layer1:
-      verdict: pass
+      status: pass
+      run_id: 20260511-083333
+      run_at:
       heading_count: 0
-      max_section_chars: 3387
-      file_size_chars: 3387
+      max_section_chars: 3388
+      file_size_chars: 3388
       flags: []
-      run_id: 20260509-212552
+    layer2:
+      status: not_run
+      agent:
+      run_at:
+      rationale:
+      concrete_problemen: []
 gerelateerde_adviezen:
-- titel: Gebruik van uniforme boekhoudsoftware door internationale ondernemingen
-  url: https://www.cbn-cnc.be/nl/adviezen/gebruik-van-uniforme-boekhoudsoftware-door-internationale-ondernemingen
-  datum: '2010-11-10'
+  - titel: Gebruik van uniforme boekhoudsoftware door internationale ondernemingen
+    url: https://www.cbn-cnc.be/nl/adviezen/gebruik-van-uniforme-boekhoudsoftware-door-internationale-ondernemingen
+    datum: '2010-11-10'
 ---
 
 # CBN-advies 140 - Overeenstemming tussen de boekhouding en de jaarrekening

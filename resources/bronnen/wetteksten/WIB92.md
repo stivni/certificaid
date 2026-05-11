@@ -1,15 +1,15 @@
 ---
-tags: ["II", "2.2", "2.3"]
-itaa-lex-sectie: "II"
-wet: "WIB92"
-bron_rol: "itaa_lex"
-status: "beschikbaar"
-bijgewerkt: "10.02.2026"
-bron: "Fisconet (officieuze gecoördineerde versie)"
+tags: [II, '2.2', '2.3']
+itaa-lex-sectie: II
+wet: WIB92
+bron_rol: itaa_lex
+status: beschikbaar
+bijgewerkt: 10.02.2026
+bron: Fisconet (officieuze gecoördineerde versie)
 chunk:
   level: 6
-  type: "Art."
-  sub_strategy: "per_definitieblok"
+  type: Art.
+  sub_strategy: per_definitieblok
 provenance:
   inputs:
     - id: resources/raw/wetteksten/WIB92.pdf
@@ -25,37 +25,23 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    qa_version: trust-rework-2
     confirmed_at: '2026-05-09T21:27:46Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: L1=pass
-    agent_verdict_at: '2026-05-09T21:27:46Z'
-    sample_pick: false
-    sample_reviewed_at:
-    sample_reviewed_by:
     layer1:
-      verdict: pass
+      status: pass
+      run_id: 20260509-212552
+      run_at:
       heading_count: 1093
       max_section_chars: 8957
       file_size_chars: 1950496
       flags: []
-      run_id: 20260509-212552
-    layer1_5_diff:
-      verdict: improvement
-      rationale: 'Auto-synthesized: ETL-fixes vandaag (NBSP, sub_strategy, justel-extractor, etc.) verbeteren bestaande versie.'
-      kritieke_observaties: []
-      auto: true
-      run_id: trust-finalize-1
-    layer2_content:
-      verdict: trusted
+    layer2:
+      status: trusted
+      agent:
+      run_at:
       rationale: 'Solide wettekst: 1093 headings, max sectie 8957 chars, geen warns/fails. Per-artikel ###### Art.-structuur met definitieblok-substrategy.'
-      problemen: []
-      sterkte:
-        - 'Per-artikel headings tot ###### Art.-niveau'
-        - TITEL-hierarchie consistent
-        - max_section comfortabel onder 24K
-      auto: false
-      run_id: qa-batch-W4
+      concrete_problemen: []
 ---
 
 # WIB92

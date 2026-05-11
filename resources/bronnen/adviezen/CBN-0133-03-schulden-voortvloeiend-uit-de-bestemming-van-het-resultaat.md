@@ -2,51 +2,54 @@
 nummer: CBN-advies 133/3
 datum: 1985-04-01
 themas:
-- bestemming van het resultaat van het boekjaar
-- betaalbaarstelling
-- dividenden
-- dividenduitkering
-- ingehouden voorheffing
-- schulden
-- schulden uit bestemming van het resultaat
-- tax shelter
+  - bestemming van het resultaat van het boekjaar
+  - betaalbaarstelling
+  - dividenden
+  - dividenduitkering
+  - ingehouden voorheffing
+  - schulden
+  - schulden uit bestemming van het resultaat
+  - tax shelter
 bron: https://www.cbn-cnc.be/nl/adviezen/schulden-voortvloeiend-uit-de-bestemming-van-het-resultaat
 provenance:
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/schulden-voortvloeiend-uit-de-bestemming-van-het-resultaat
-    sha256: eeb181a25313d2f946b103d6ce4abb096651f4ec8382f7eec6018d461461c4ee
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/schulden-voortvloeiend-uit-de-bestemming-van-het-resultaat
+      sha256: eeb181a25313d2f946b103d6ce4abb096651f4ec8382f7eec6018d461461c4ee
+      version:
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model: null
-    prompt_version: null
+    model:
+    prompt_version:
   generated_at: '2026-05-08T18:34:53Z'
   stale: false
-  stale_reason: null
+  stale_reason:
   trust:
-    status: trusted
-    qa_version: trust-rework-2
-    confirmed_at: '2026-05-08T18:40:03Z'
-    confirmed_by: qa-laag1-auto
-    rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    status: unreviewed
+    confirmed_at:
+    confirmed_by:
+    rationale:
     layer1:
-      verdict: pass
+      status: pass
+      run_id: 20260511-083333
+      run_at:
       heading_count: 0
-      max_section_chars: 4039
-      file_size_chars: 4039
+      max_section_chars: 4040
+      file_size_chars: 4040
       flags: []
-      run_id: 20260509-212552
+    layer2:
+      status: not_run
+      agent:
+      run_at:
+      rationale:
+      concrete_problemen: []
 gerelateerde_adviezen:
-- titel: 'Schulden uit de resultaatbestemming : dividenduitkering aan een onderneming
-    die ten minste 25 % bezit van het kapitaal van de vennootschap die het dividend
-    uitkeert'
-  url: https://www.cbn-cnc.be/nl/adviezen/schulden-uit-de-resultaatbestemming-dividenduitkering-aan-een-onderneming-die-ten-minste
-  datum: '1998-03-01'
-- titel: Voorstelling van een tabel met de wijzigingen in het eigen vermogen en de
-    bestemming van het resultaat van het boekjaar
-  url: https://www.cbn-cnc.be/nl/adviezen/voorstelling-van-een-tabel-met-de-wijzigingen-in-het-eigen-vermogen-en-de-bestemming-van
-  datum: '1995-03-01'
+  - titel: 'Schulden uit de resultaatbestemming : dividenduitkering aan een onderneming die ten minste 25 % bezit van het kapitaal van de vennootschap die het dividend uitkeert'
+    url: https://www.cbn-cnc.be/nl/adviezen/schulden-uit-de-resultaatbestemming-dividenduitkering-aan-een-onderneming-die-ten-minste
+    datum: '1998-03-01'
+  - titel: Voorstelling van een tabel met de wijzigingen in het eigen vermogen en de bestemming van het resultaat van het boekjaar
+    url: https://www.cbn-cnc.be/nl/adviezen/voorstelling-van-een-tabel-met-de-wijzigingen-in-het-eigen-vermogen-en-de-bestemming-van
+    datum: '1995-03-01'
 ---
 
 # CBN-advies 133/3 - Schulden voortvloeiend uit de bestemming van het resultaat

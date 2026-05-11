@@ -2,50 +2,56 @@
 nummer: CBN-advies 7/3
 datum: 1981-04-01
 themas:
-- inventaris
-- jaarrekening
-- opname waarderingsregels
-- waarderingsregels
+  - inventaris
+  - jaarrekening
+  - opname waarderingsregels
+  - waarderingsregels
 bron: https://www.cbn-cnc.be/nl/adviezen/boek-waarin-de-jaarrekening-en-de-inventarisstukken-worden-opgenomen-opname-van-de
 provenance:
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/boek-waarin-de-jaarrekening-en-de-inventarisstukken-worden-opgenomen-opname-van-de
-    sha256: e35b96d4655ff00b9a460b23d13f3fbe2ab7b00ce92adcb097759721ca36af50
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/boek-waarin-de-jaarrekening-en-de-inventarisstukken-worden-opgenomen-opname-van-de
+      sha256: e35b96d4655ff00b9a460b23d13f3fbe2ab7b00ce92adcb097759721ca36af50
+      version:
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model: null
-    prompt_version: null
+    model:
+    prompt_version:
   generated_at: '2026-05-08T18:33:28Z'
   stale: false
-  stale_reason: null
+  stale_reason:
   trust:
-    status: trusted
-    qa_version: trust-rework-2
-    confirmed_at: '2026-05-08T18:40:02Z'
-    confirmed_by: qa-laag1-auto
-    rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    status: unreviewed
+    confirmed_at:
+    confirmed_by:
+    rationale:
     layer1:
-      verdict: pass
+      status: pass
+      run_id: 20260511-083333
+      run_at:
       heading_count: 0
-      max_section_chars: 2737
-      file_size_chars: 2737
+      max_section_chars: 2861
+      file_size_chars: 2861
       flags: []
-      run_id: 20260509-212552
+    layer2:
+      status: not_run
+      agent:
+      run_at:
+      rationale:
+      concrete_problemen: []
 gerelateerde_adviezen:
-- titel: Duur van het boekjaar
-  url: https://www.cbn-cnc.be/nl/adviezen/duur-van-het-boekjaar
-  datum: '2010-07-14'
-- titel: Beginselen van een regelmatige boekhouding
-  url: https://www.cbn-cnc.be/nl/adviezen/beginselen-van-een-regelmatige-boekhouding
-  datum: '1997-02-01'
-- titel: Boeking en waardering van voorraden
-  url: https://www.cbn-cnc.be/nl/adviezen/boeking-en-waardering-van-voorraden
-  datum: '1996-11-01'
-- titel: Duur van het boekjaar
-  url: https://www.cbn-cnc.be/nl/adviezen/duur-van-het-boekjaar-0
-  datum: '1977-12-01'
+  - titel: Duur van het boekjaar
+    url: https://www.cbn-cnc.be/nl/adviezen/duur-van-het-boekjaar
+    datum: '2010-07-14'
+  - titel: Beginselen van een regelmatige boekhouding
+    url: https://www.cbn-cnc.be/nl/adviezen/beginselen-van-een-regelmatige-boekhouding
+    datum: '1997-02-01'
+  - titel: Boeking en waardering van voorraden
+    url: https://www.cbn-cnc.be/nl/adviezen/boeking-en-waardering-van-voorraden
+    datum: '1996-11-01'
+  - titel: Duur van het boekjaar
+    url: https://www.cbn-cnc.be/nl/adviezen/duur-van-het-boekjaar-0
+    datum: '1977-12-01'
 ---
 
 # CBN advies 7-3 - Boek waarin de jaarrekening en de inventarisstukken worden opgenomen - Opname van de waarderingsregels

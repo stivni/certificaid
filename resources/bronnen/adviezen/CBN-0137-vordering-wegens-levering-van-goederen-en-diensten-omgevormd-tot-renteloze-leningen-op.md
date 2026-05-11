@@ -2,57 +2,61 @@
 nummer: CBN-advies 137/8
 datum: 1988-12-23
 themas:
-- Waardevermindering
-- waardevermindering op vorderingen
-- gerechtelijk akkoord
-- disconto
-- renteloze schulden
-- renteloze leningen
-- renteloze vorderingen
-- vordering
-- vordering wegens levering van goederen en diensten
+  - Waardevermindering
+  - waardevermindering op vorderingen
+  - gerechtelijk akkoord
+  - disconto
+  - renteloze schulden
+  - renteloze leningen
+  - renteloze vorderingen
+  - vordering
+  - vordering wegens levering van goederen en diensten
 bron: https://www.cbn-cnc.be/nl/adviezen/vordering-wegens-levering-van-goederen-en-diensten-omgevormd-tot-renteloze-leningen-op
 provenance:
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/vordering-wegens-levering-van-goederen-en-diensten-omgevormd-tot-renteloze-leningen-op
-    sha256: 769f4617e11b5a28206ff0326add0ad51253e94df5587892276f3a2206d85f82
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/vordering-wegens-levering-van-goederen-en-diensten-omgevormd-tot-renteloze-leningen-op
+      sha256: 769f4617e11b5a28206ff0326add0ad51253e94df5587892276f3a2206d85f82
+      version:
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model: null
-    prompt_version: null
+    model:
+    prompt_version:
   generated_at: '2026-05-08T18:35:01Z'
   stale: false
-  stale_reason: null
+  stale_reason:
   trust:
-    status: trusted
-    qa_version: trust-rework-2
-    confirmed_at: '2026-05-08T18:40:03Z'
-    confirmed_by: qa-laag1-auto
-    rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    status: unreviewed
+    confirmed_at:
+    confirmed_by:
+    rationale:
     layer1:
-      verdict: pass
+      status: pass
+      run_id: 20260511-083333
+      run_at:
       heading_count: 0
-      max_section_chars: 3976
-      file_size_chars: 3976
+      max_section_chars: 4111
+      file_size_chars: 4111
       flags: []
-      run_id: 20260509-212552
+    layer2:
+      status: not_run
+      agent:
+      run_at:
+      rationale:
+      concrete_problemen: []
 gerelateerde_adviezen:
-- titel: Waardeverminderingen op handelsvorderingen, gedekt door een kredietverzekering
-    (update) [ONTWERP]
-  url: https://www.cbn-cnc.be/nl/adviezen/waardeverminderingen-op-handelsvorderingen-gedekt-door-een-kredietverzekering-update
-  datum: '2025-07-14'
-- titel: Boekhoudkundige verwerking van COVID-19-tegemoetkomingen en van kosten gemaakt
-    ten gevolge van de gezondheidscrisis
-  url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-covid-19-tegemoetkomingen-en-van-kosten-gemaakt-ten-gevolge
-  datum: '2021-07-05'
-- titel: De boekhoudkundige verwerking van immateriële vaste activa
-  url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-immateriele-vaste-activa
-  datum: '2012-10-10'
-- titel: De boekhoudkundige verwerking van factoringovereenkomsten
-  url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-factoringovereenkomsten
-  datum: '2011-10-05'
+  - titel: Waardeverminderingen op handelsvorderingen, gedekt door een kredietverzekering (update) [ONTWERP]
+    url: https://www.cbn-cnc.be/nl/adviezen/waardeverminderingen-op-handelsvorderingen-gedekt-door-een-kredietverzekering-update
+    datum: '2025-07-14'
+  - titel: Boekhoudkundige verwerking van COVID-19-tegemoetkomingen en van kosten gemaakt ten gevolge van de gezondheidscrisis
+    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-covid-19-tegemoetkomingen-en-van-kosten-gemaakt-ten-gevolge
+    datum: '2021-07-05'
+  - titel: De boekhoudkundige verwerking van immateriële vaste activa
+    url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-immateriele-vaste-activa
+    datum: '2012-10-10'
+  - titel: De boekhoudkundige verwerking van factoringovereenkomsten
+    url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-factoringovereenkomsten
+    datum: '2011-10-05'
 ---
 
 # CBN advies 137/8 - Vordering wegens levering van goederen en diensten omgevormd tot renteloze leningen op meer dan 1 jaar (update)

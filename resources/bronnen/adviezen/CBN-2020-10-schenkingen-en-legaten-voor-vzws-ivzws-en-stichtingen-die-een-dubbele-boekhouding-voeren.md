@@ -1,5 +1,5 @@
 ---
-nummer: "CBN-advies 2020/10"
+nummer: CBN-advies 2020/10
 datum: 2020-09-17
 themas:
   - schenking
@@ -25,22 +25,24 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    qa_version:
-    confirmed_at: '2026-05-08T18:40:05Z'
-    confirmed_by: qa-laag1-auto
-    rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    status: unreviewed
+    confirmed_at:
+    confirmed_by:
+    rationale:
     layer1:
-      verdict: warn
+      status: pass
+      run_id: 20260511-083333
+      run_at:
       heading_count: 50
-      max_section_chars: 29444
-      file_size_chars: 36251
-      flags:
-        - name: max_section_size
-          status: warn
-          detail: 'langste sectie op ##-niveau: 29444 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
-          samples: []
-      run_id: 20260509-212552
+      max_section_chars: 14769
+      file_size_chars: 36206
+      flags: []
+    layer2:
+      status: not_run
+      agent:
+      run_at:
+      rationale:
+      concrete_problemen: []
 gerelateerde_adviezen:
   - titel: Duolegaat – Vereniging en stichting
     url: https://www.cbn-cnc.be/nl/adviezen/duolegaat-vereniging-en-stichting

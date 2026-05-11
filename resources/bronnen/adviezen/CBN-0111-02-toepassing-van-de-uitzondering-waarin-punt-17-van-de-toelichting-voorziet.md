@@ -2,47 +2,50 @@
 nummer: CBN-advies 111/2
 datum: 1980-01-01
 themas:
-- beheerder
-- bestuurder
-- bezoldiging
-- bezoldigingen aan bestuurders en commissarissen
-- commissaris
-- toelichting
-- zaakvoerder
+  - beheerder
+  - bestuurder
+  - bezoldiging
+  - bezoldigingen aan bestuurders en commissarissen
+  - commissaris
+  - toelichting
+  - zaakvoerder
 bron: https://www.cbn-cnc.be/nl/adviezen/toepassing-van-de-uitzondering-waarin-punt-17-van-de-toelichting-voorziet
 provenance:
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/toepassing-van-de-uitzondering-waarin-punt-17-van-de-toelichting-voorziet
-    sha256: 71eaf53729d83c363ff2809e9a6bd995830cabd9cfe41d520f0bedb1874f892f
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/toepassing-van-de-uitzondering-waarin-punt-17-van-de-toelichting-voorziet
+      sha256: 71eaf53729d83c363ff2809e9a6bd995830cabd9cfe41d520f0bedb1874f892f
+      version:
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model: null
-    prompt_version: null
+    model:
+    prompt_version:
   generated_at: '2026-05-08T21:30:01Z'
   stale: false
-  stale_reason: null
+  stale_reason:
   trust:
     status: trusted
-    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T21:31:11Z'
     confirmed_by: human
-    rationale: 'Herscraped na fix select_title(): gecombineerde H1 (COMMISSIE + titel)
-      correct gesplitst. Inhoud ongewijzigd t.o.v. vorig vertrouwd verdict. Laag 1
-      pass (of benign max_section warn).'
+    rationale: 'Herscraped na fix select_title(): gecombineerde H1 (COMMISSIE + titel) correct gesplitst. Inhoud ongewijzigd t.o.v. vorig vertrouwd verdict. Laag 1 pass (of benign max_section warn).'
     layer1:
-      verdict: pass
+      status: pass
+      run_id: 20260511-083333
+      run_at:
       heading_count: 0
-      max_section_chars: 3327
-      file_size_chars: 3327
+      max_section_chars: 3329
+      file_size_chars: 3329
       flags: []
-      run_id: 20260509-212552
+    layer2:
+      status: not_run
+      agent:
+      run_at:
+      rationale:
+      concrete_problemen: []
 gerelateerde_adviezen:
-- titel: Aanrekening van vergoedingen, van beheerders of leden van het personeel toegekend
-    door vennootschappen behorende tot dezelfde groep
-  url: https://www.cbn-cnc.be/nl/adviezen/aanrekening-van-vergoedingen-van-beheerders-of-leden-van-het-personeel-toegekend-door-0
-  datum: '1977-08-01'
+  - titel: Aanrekening van vergoedingen, van beheerders of leden van het personeel toegekend door vennootschappen behorende tot dezelfde groep
+    url: https://www.cbn-cnc.be/nl/adviezen/aanrekening-van-vergoedingen-van-beheerders-of-leden-van-het-personeel-toegekend-door-0
+    datum: '1977-08-01'
 ---
 
 # CBN-advies 111/2 - Toepassing van de uitzondering waarin punt 17 van de toelichting voorziet

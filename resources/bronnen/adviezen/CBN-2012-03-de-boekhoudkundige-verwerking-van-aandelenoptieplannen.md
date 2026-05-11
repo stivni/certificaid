@@ -2,41 +2,45 @@
 nummer: CBN-advies 2012/3
 datum: 2012-01-11
 themas:
-- aandelenoptieplannen
-- aandelenopties
-- call-optie
-- put-optie
-- voorziening
-- voorzieningen voor andere risico’s en kosten
+  - aandelenoptieplannen
+  - aandelenopties
+  - call-optie
+  - put-optie
+  - voorziening
+  - voorzieningen voor andere risico’s en kosten
 bron: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-aandelenoptieplannen
 provenance:
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-aandelenoptieplannen
-    sha256: 399b266a78e82a58dfe86c10f0f704477290e4f602384e593dc0e14cd1f56a5f
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-aandelenoptieplannen
+      sha256: 399b266a78e82a58dfe86c10f0f704477290e4f602384e593dc0e14cd1f56a5f
+      version:
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model: null
-    prompt_version: null
+    model:
+    prompt_version:
   generated_at: '2026-05-08T21:30:08Z'
   stale: false
-  stale_reason: null
+  stale_reason:
   trust:
     status: trusted
-    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T21:31:11Z'
     confirmed_by: human
-    rationale: 'Herscraped na fix select_title(): gecombineerde H1 (COMMISSIE + titel)
-      correct gesplitst. Inhoud ongewijzigd t.o.v. vorig vertrouwd verdict. Laag 1
-      pass (of benign max_section warn).'
+    rationale: 'Herscraped na fix select_title(): gecombineerde H1 (COMMISSIE + titel) correct gesplitst. Inhoud ongewijzigd t.o.v. vorig vertrouwd verdict. Laag 1 pass (of benign max_section warn).'
     layer1:
-      verdict: pass
+      status: pass
+      run_id: 20260511-083333
+      run_at:
       heading_count: 14
-      max_section_chars: 10656
-      file_size_chars: 24057
+      max_section_chars: 11483
+      file_size_chars: 24059
       flags: []
-      run_id: 20260509-212552
+    layer2:
+      status: not_run
+      agent:
+      run_at:
+      rationale:
+      concrete_problemen: []
 ---
 
 # CBN-advies 2012/3 – De boekhoudkundige verwerking van aandelenoptieplannen

@@ -1,45 +1,49 @@
 ---
-nummer: "CBN-advies 2021/02"
-datum: 2021-03-09
-themas:
-  - winstverdeling
-  - uitkeerbare winst
-  - tussentijdse dividenden
-  - interimdividend
-  - staat van activa en passiva
-  - nettoactief
-  - nettoactieftest
 bron: https://www.cbn-cnc.be/nl/adviezen/winstverdeling-binnen-de-nv
+datum: 2021-03-09
+nummer: CBN-advies 2021/02
 provenance:
+  generated_at: '2026-05-08T18:37:56Z'
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/winstverdeling-binnen-de-nv
-      sha256: 0db24257c2c89ef51c46bc7347b9aee620d224f716aaa7e1f506923e22527b31
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/winstverdeling-binnen-de-nv
+    sha256: 0db24257c2c89ef51c46bc7347b9aee620d224f716aaa7e1f506923e22527b31
+    version: null
+  stale: false
+  stale_reason: null
   tooling:
+    model: null
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:37:56Z'
-  stale: false
-  stale_reason:
+    prompt_version: null
   trust:
-    status: trusted
-    qa_version:
     confirmed_at: '2026-05-08T19:02:28Z'
     confirmed_by: subagent-laag2-ronde2
-    rationale: '[Laag-2-R2 2026-05-08] 16 headings, 81 voetnoten. De grote sectie (35.032 chars) bevat rijke voetnotenstructuur die de bestandsgrootte verklaart. Journaalposten voor tussentijds dividend als schone Markdown-tabellen.'
     layer1:
-      verdict: warn
-      heading_count: 21
-      max_section_chars: 34986
-      file_size_chars: 45489
-      flags:
-        - name: max_section_size
-          status: warn
-          detail: 'langste sectie op ##-niveau: 34986 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
-          samples: []
-      run_id: 20260509-212552
+      file_size_chars: 45511
+      flags: []
+      heading_count: 16
+      max_section_chars: 21673
+      run_at: null
+      run_id: 20260511-083333
+      status: pass
+    layer2:
+      agent: subagent-laag2-ronde2
+      concrete_problemen: []
+      rationale: '[Laag-2-R2 2026-05-08] 16 headings, 81 voetnoten. De grote sectie
+        (35.032 chars) bevat rijke voetnotenstructuur die de bestandsgrootte verklaart.
+        Journaalposten voor tussentijds dividend als schone Markdown-tabellen.'
+      run_at: '2026-05-08T19:02:28Z'
+      status: trusted
+    rationale: Laag-2 trusted door subagent-laag2-ronde2 (zie layer2.rationale)
+    status: trusted
+themas:
+- winstverdeling
+- uitkeerbare winst
+- tussentijdse dividenden
+- interimdividend
+- staat van activa en passiva
+- nettoactief
+- nettoactieftest
 ---
 
 # CBN-advies 2021/02 – Winstverdeling binnen de NV

@@ -2,11 +2,11 @@
 tags:
   - norm
   - itaa
-naam: "AWW-Reglement (IAB/ITAA) — Norm antiwitwas"
+naam: AWW-Reglement (IAB/ITAA) — Norm antiwitwas
 datum: 2020-03-31
 type: norm
-itaa-lex-sectie: "XVII"
-toepassingsgebied: "Alle ITAA-leden als onderworpen entiteit onder de Antiwitwaswet 2017"
+itaa-lex-sectie: XVII
+toepassingsgebied: Alle ITAA-leden als onderworpen entiteit onder de Antiwitwaswet 2017
 themas:
   - antiwitwas
   - cliëntenonderzoek
@@ -36,40 +36,26 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    qa_version: trust-rework-2
     confirmed_at: '2026-05-09T21:27:46Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: L1=pass
-    agent_verdict_at: '2026-05-09T21:27:46Z'
-    sample_pick: false
-    sample_reviewed_at:
-    sample_reviewed_by:
     layer1:
-      verdict: pass
+      status: pass
+      run_id: 20260511-085756
+      run_at: '2026-05-11T08:57:56Z'
       heading_count: 14
       max_section_chars: 8503
       file_size_chars: 42385
       flags: []
-      run_id: 20260509-212552
-    layer1_5_diff:
-      verdict: improvement
-      rationale: 'Auto-synthesized: ETL-fixes vandaag (NBSP, sub_strategy, justel-extractor, etc.) verbeteren bestaande versie.'
-      kritieke_observaties: []
-      auto: true
-      run_id: trust-finalize-1
-    layer2_content:
-      verdict: trusted
+    layer2:
+      status: trusted
+      agent:
+      run_at:
       rationale: "AWW-reglement (IAB-norm) volledig met alle 10 hoofdsecties + 4 bijlagen als ## headings. Definities, voorwaarden en bijlagen intact. Eén orphan TOC-regel (L121: 'BIJLAGE I: Variabelen ten minste in overweging te nemen in de integrale') is een minor cosmetisch overblijfsel; verstoort retrieval niet."
-      problemen:
+      concrete_problemen:
         - regel: 121
           type: other
           voorbeeld: "Orphan TOC-line 'BIJLAGE I: Variabelen ten minste in overweging te nemen in de integrale' tussen preambule en sectie 1"
-      sterkte:
-        - 'Alle 10 hoofdsecties (1-10) plus Bijlagen I-IV als ## headings'
-        - Definitielijst (1°-15°) volledig
-        - Geen kolom-bleed of scrambled text
-      auto: false
-      run_id: qa-batch-normen
 ---
   Norm van het Instituut van de Accountants en de Belastingconsulenten d.d. 31
 maart 2020 inzake de toepassing van de wet van 18 september 2017 tot voorkoming

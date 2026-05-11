@@ -2,59 +2,63 @@
 nummer: CBN-advies 2024/10
 datum: 2024-11-14
 themas:
-- vereffening
-- vereniging
-- vzw
-- verslaggeving
-- jaarrekening
-- openbaarmaking
-- publicatie
-- neerlegging van de jaarrekening
-- vereffeningsperiode
-- vergeten actief
-- heropening vereffening
+  - vereffening
+  - vereniging
+  - vzw
+  - verslaggeving
+  - jaarrekening
+  - openbaarmaking
+  - publicatie
+  - neerlegging van de jaarrekening
+  - vereffeningsperiode
+  - vergeten actief
+  - heropening vereffening
 bron: https://www.cbn-cnc.be/nl/adviezen/verslaggeving-bij-de-heropening-van-de-vereffening-van-ivzws-die-een-dubbele-boekhouding
 provenance:
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/verslaggeving-bij-de-heropening-van-de-vereffening-van-ivzws-die-een-dubbele-boekhouding
-    sha256: d890612ad02a0fd7aceb09a037b130b54c0b9dcb02864b8735cc43a03bac28d8
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/verslaggeving-bij-de-heropening-van-de-vereffening-van-ivzws-die-een-dubbele-boekhouding
+      sha256: d890612ad02a0fd7aceb09a037b130b54c0b9dcb02864b8735cc43a03bac28d8
+      version:
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model: null
-    prompt_version: null
+    model:
+    prompt_version:
   generated_at: '2026-05-08T18:38:24Z'
   stale: false
-  stale_reason: null
+  stale_reason:
   trust:
-    status: trusted
-    qa_version: trust-rework-2
-    confirmed_at: '2026-05-08T18:40:05Z'
-    confirmed_by: qa-laag1-auto
-    rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    status: unreviewed
+    confirmed_at:
+    confirmed_by:
+    rationale:
     layer1:
-      verdict: pass
-      heading_count: 13
-      max_section_chars: 17560
-      file_size_chars: 18614
+      status: pass
+      run_id: 20260511-083333
+      run_at:
+      heading_count: 5
+      max_section_chars: 9544
+      file_size_chars: 18601
       flags: []
-      run_id: 20260509-212552
+    layer2:
+      status: not_run
+      agent:
+      run_at:
+      rationale:
+      concrete_problemen: []
 gerelateerde_adviezen:
-- titel: Verslaggeving bij de heropening van de vereffening van de vennootschappen
-  url: https://www.cbn-cnc.be/nl/adviezen/verslaggeving-bij-de-heropening-van-de-vereffening-van-de-vennootschappen
-  datum: '2024-11-13'
-- titel: Openbaarmakingsverplichtingen in hoofde van de vennootschap onder firma en
-    de commanditaire vennootschap bij onmiddellijke sluiting van de vereffening
-  url: https://www.cbn-cnc.be/nl/adviezen/openbaarmakingsverplichtingen-in-hoofde-van-de-vennootschap-onder-firma-en-de
-  datum: '2024-06-10'
-- titel: Verslaggeving bij onmiddellijke sluiting van de vereffening van een VZW of
-    IVZW
-  url: https://www.cbn-cnc.be/nl/adviezen/verslaggeving-bij-onmiddellijke-sluiting-van-de-vereffening-van-een-vzw-of-ivzw
-  datum: '2022-06-10'
-- titel: Verslaggeving bij onmiddellijke sluiting van de vereffening van een vennootschap
-  url: https://www.cbn-cnc.be/nl/adviezen/verslaggeving-bij-onmiddellijke-sluiting-van-de-vereffening-van-een-vennootschap
-  datum: '2022-06-07'
+  - titel: Verslaggeving bij de heropening van de vereffening van de vennootschappen
+    url: https://www.cbn-cnc.be/nl/adviezen/verslaggeving-bij-de-heropening-van-de-vereffening-van-de-vennootschappen
+    datum: '2024-11-13'
+  - titel: Openbaarmakingsverplichtingen in hoofde van de vennootschap onder firma en de commanditaire vennootschap bij onmiddellijke sluiting van de vereffening
+    url: https://www.cbn-cnc.be/nl/adviezen/openbaarmakingsverplichtingen-in-hoofde-van-de-vennootschap-onder-firma-en-de
+    datum: '2024-06-10'
+  - titel: Verslaggeving bij onmiddellijke sluiting van de vereffening van een VZW of IVZW
+    url: https://www.cbn-cnc.be/nl/adviezen/verslaggeving-bij-onmiddellijke-sluiting-van-de-vereffening-van-een-vzw-of-ivzw
+    datum: '2022-06-10'
+  - titel: Verslaggeving bij onmiddellijke sluiting van de vereffening van een vennootschap
+    url: https://www.cbn-cnc.be/nl/adviezen/verslaggeving-bij-onmiddellijke-sluiting-van-de-vereffening-van-een-vennootschap
+    datum: '2022-06-07'
 ---
 
 # CBN-advies 2024/10 – Verslaggeving bij de heropening van de vereffening van (i)vzw’s die een dubbele boekhouding voeren

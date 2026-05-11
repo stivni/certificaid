@@ -2,56 +2,60 @@
 nummer: CBN-advies 2024/07
 datum: 2024-09-19
 themas:
-- groottecriteria
-- drempels
-- drempelwaarden
-- boekjaar
-- omzet
-- balanstotaal
-- personeelsbestand
-- gebroken boekjaar
+  - groottecriteria
+  - drempels
+  - drempelwaarden
+  - boekjaar
+  - omzet
+  - balanstotaal
+  - personeelsbestand
+  - gebroken boekjaar
 bron: https://www.cbn-cnc.be/nl/adviezen/gevolgen-verhoging-groottecriteria-voor-vennootschappen
 provenance:
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/gevolgen-verhoging-groottecriteria-voor-vennootschappen
-    sha256: 299811b111c18f8c8ab27667595381f3bb927885bed18c9fd42286b366236b9e
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/gevolgen-verhoging-groottecriteria-voor-vennootschappen
+      sha256: 299811b111c18f8c8ab27667595381f3bb927885bed18c9fd42286b366236b9e
+      version:
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model: null
-    prompt_version: null
+    model:
+    prompt_version:
   generated_at: '2026-05-08T18:38:22Z'
   stale: false
-  stale_reason: null
+  stale_reason:
   trust:
-    status: trusted
-    qa_version: trust-rework-2
-    confirmed_at: '2026-05-08T18:40:05Z'
-    confirmed_by: qa-laag1-auto
-    rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    status: unreviewed
+    confirmed_at:
+    confirmed_by:
+    rationale:
     layer1:
-      verdict: pass
+      status: pass
+      run_id: 20260511-083333
+      run_at:
       heading_count: 9
-      max_section_chars: 19533
-      file_size_chars: 25646
+      max_section_chars: 9444
+      file_size_chars: 25650
       flags: []
-      run_id: 20260509-212552
+    layer2:
+      status: not_run
+      agent:
+      run_at:
+      rationale:
+      concrete_problemen: []
 gerelateerde_adviezen:
-- titel: Groottecriteria verenigingen en stichtingen - schema van de jaarrekening
-    – begroting (update) [ONTWERP]
-  url: https://www.cbn-cnc.be/nl/adviezen/groottecriteria-verenigingen-en-stichtingen-schema-van-de-jaarrekening-begroting-update
-  datum: '2025-07-14'
-- titel: Beoordeling van de groottecriteria overeenkomstig artikelen 1:24 en 1:25
-    van het Wetboek van vennootschappen en verenigingen (update) [ONTWERP]
-  url: https://www.cbn-cnc.be/nl/adviezen/beoordeling-van-de-groottecriteria-overeenkomstig-artikelen-124-en-125-van-het-wetboek-0
-  datum: '2025-07-16'
-- titel: Gevolgen verhoging groottecriteria voor (I)VZW’s en stichtingen
-  url: https://www.cbn-cnc.be/nl/adviezen/gevolgen-verhoging-groottecriteria-voor-ivzws-en-stichtingen
-  datum: '2024-09-19'
-- titel: Consolidatie bij de horizontale groep (consortium)
-  url: https://www.cbn-cnc.be/nl/adviezen/consolidatie-bij-de-horizontale-groep-consortium-0
-  datum: '2022-07-27'
+  - titel: Groottecriteria verenigingen en stichtingen - schema van de jaarrekening – begroting (update) [ONTWERP]
+    url: https://www.cbn-cnc.be/nl/adviezen/groottecriteria-verenigingen-en-stichtingen-schema-van-de-jaarrekening-begroting-update
+    datum: '2025-07-14'
+  - titel: Beoordeling van de groottecriteria overeenkomstig artikelen 1:24 en 1:25 van het Wetboek van vennootschappen en verenigingen (update) [ONTWERP]
+    url: https://www.cbn-cnc.be/nl/adviezen/beoordeling-van-de-groottecriteria-overeenkomstig-artikelen-124-en-125-van-het-wetboek-0
+    datum: '2025-07-16'
+  - titel: Gevolgen verhoging groottecriteria voor (I)VZW’s en stichtingen
+    url: https://www.cbn-cnc.be/nl/adviezen/gevolgen-verhoging-groottecriteria-voor-ivzws-en-stichtingen
+    datum: '2024-09-19'
+  - titel: Consolidatie bij de horizontale groep (consortium)
+    url: https://www.cbn-cnc.be/nl/adviezen/consolidatie-bij-de-horizontale-groep-consortium-0
+    datum: '2022-07-27'
 ---
 
 # CBN-advies 2024/07 – Gevolgen verhoging groottecriteria voor vennootschappen

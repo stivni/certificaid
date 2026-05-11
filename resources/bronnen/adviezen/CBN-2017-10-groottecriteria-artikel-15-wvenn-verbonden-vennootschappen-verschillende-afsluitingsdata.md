@@ -2,46 +2,52 @@
 nummer: CBN-advies 2017/10
 datum: 2017-04-19
 themas:
-- afsluitdatum
-- artikel 15 W.Venn.
-- consolidatiekring
-- criteria
-- groottecriteria
-- verbonden onderneming
+  - afsluitdatum
+  - artikel 15 W.Venn.
+  - consolidatiekring
+  - criteria
+  - groottecriteria
+  - verbonden onderneming
 bron: https://www.cbn-cnc.be/nl/adviezen/groottecriteria-artikel-15-wvenn-verbonden-vennootschappen-verschillende-afsluitingsdata
 provenance:
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/groottecriteria-artikel-15-wvenn-verbonden-vennootschappen-verschillende-afsluitingsdata
-    sha256: 8127dbd2686b09042a052daebefc4c2f3d9dbf73237678837d7436bd6e1c7fb4
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/groottecriteria-artikel-15-wvenn-verbonden-vennootschappen-verschillende-afsluitingsdata
+      sha256: 8127dbd2686b09042a052daebefc4c2f3d9dbf73237678837d7436bd6e1c7fb4
+      version:
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model: null
-    prompt_version: null
+    model:
+    prompt_version:
   generated_at: '2026-05-08T18:37:12Z'
   stale: false
-  stale_reason: null
+  stale_reason:
   trust:
-    status: trusted
-    qa_version: trust-rework-2
-    confirmed_at: '2026-05-08T18:40:04Z'
-    confirmed_by: qa-laag1-auto
-    rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    status: unreviewed
+    confirmed_at:
+    confirmed_by:
+    rationale:
     layer1:
-      verdict: pass
+      status: pass
+      run_id: 20260511-083333
+      run_at:
       heading_count: 3
       max_section_chars: 7248
-      file_size_chars: 10729
+      file_size_chars: 10730
       flags: []
-      run_id: 20260509-212552
+    layer2:
+      status: not_run
+      agent:
+      run_at:
+      rationale:
+      concrete_problemen: []
 gerelateerde_adviezen:
-- titel: 'Omzetting van een vennootschap: gevolgen voor de jaarrekening'
-  url: https://www.cbn-cnc.be/nl/adviezen/omzetting-van-een-vennootschap-gevolgen-voor-de-jaarrekening
-  datum: '2022-12-21'
-- titel: Gebeurtenissen na afsluitingsdatum van het boekjaar
-  url: https://www.cbn-cnc.be/nl/adviezen/gebeurtenissen-na-afsluitingsdatum-van-het-boekjaar
-  datum: '2018-05-09'
+  - titel: 'Omzetting van een vennootschap: gevolgen voor de jaarrekening'
+    url: https://www.cbn-cnc.be/nl/adviezen/omzetting-van-een-vennootschap-gevolgen-voor-de-jaarrekening
+    datum: '2022-12-21'
+  - titel: Gebeurtenissen na afsluitingsdatum van het boekjaar
+    url: https://www.cbn-cnc.be/nl/adviezen/gebeurtenissen-na-afsluitingsdatum-van-het-boekjaar
+    datum: '2018-05-09'
 ---
 
 # CBN-advies 2017/10 – Groottecriteria artikel 15 W.Venn. – Verbonden vennootschappen – Verschillende afsluitingsdata - Wijziging van consolidatiekring

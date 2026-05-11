@@ -1,14 +1,14 @@
 ---
-tags: ["VI.A", "2.4"]
-itaa-lex-sectie: "VI.A"
-wet: "Dertiende Richtlijn 86/560/EEG van de Raad inzake de teruggaaf van btw aan niet in de Gemeenschap gevestigde belastingplichtigen"
-bron_rol: "itaa_lex"
-status: "beschikbaar"
-bijgewerkt: "21.11.1986"
-bron: "ejustice.just.fgov.be (gecoördineerde versie)"
+tags: [VI.A, '2.4']
+itaa-lex-sectie: VI.A
+wet: Dertiende Richtlijn 86/560/EEG van de Raad inzake de teruggaaf van btw aan niet in de Gemeenschap gevestigde belastingplichtigen
+bron_rol: itaa_lex
+status: beschikbaar
+bijgewerkt: 21.11.1986
+bron: ejustice.just.fgov.be (gecoördineerde versie)
 chunk:
   level: 2
-  type: "Art."
+  type: Art.
   sub_strategy:
 provenance:
   inputs:
@@ -25,39 +25,26 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    qa_version: trust-rework-2
     confirmed_at: '2026-05-09T21:27:46Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: L1=pass
-    agent_verdict_at: '2026-05-09T21:27:46Z'
-    sample_pick: false
-    sample_reviewed_at:
-    sample_reviewed_by:
     layer1:
-      verdict: pass
+      status: pass
+      run_id: 20260509-212552
+      run_at:
       heading_count: 8
       max_section_chars: 2527
       file_size_chars: 7776
       flags: []
-      run_id: 20260509-212552
-    layer1_5_diff:
-      verdict: improvement
-      rationale: 'Auto-synthesized: ETL-fixes vandaag (NBSP, sub_strategy, justel-extractor, etc.) verbeteren bestaande versie.'
-      kritieke_observaties: []
-      auto: true
-      run_id: trust-finalize-1
-    layer2_content:
-      verdict: trusted
+    layer2:
+      status: trusted
+      agent:
+      run_at:
       rationale: Compacte richtlijn (8.6KB), alle 8 artikelen aanwezig op H2 (zoals chunk.level=2). Soft hyphens uit PDF-extractie (bv. 'belasting­ plichtigen') maar woordbreaks zijn intact en leesbaar. Footnote-nummers verspreid over body maar niet hinderlijk.
-      problemen:
+      concrete_problemen:
         - regel: 88
           type: other
           voorbeeld: H PB nr. L 331 van 27. 12. 1979, blz. 11 — voetnootnummer als 'H' i.p.v. cijfer (cosmetisch)
-      sterkte:
-        - Alle 8 artikelen herkenbaar
-        - Volledige tekst inclusief overwegingen
-      auto: false
-      run_id: qa-batch-W1
 ---
 
 # Dertiende Richtlijn 86/560/EEG van de Raad inzake de teruggaaf van btw aan niet in de Gemeenschap gevestigde belastingplichtigen

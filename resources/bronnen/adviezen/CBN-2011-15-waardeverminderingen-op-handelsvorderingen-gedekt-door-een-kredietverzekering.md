@@ -2,53 +2,59 @@
 nummer: CBN-advies 2011/15
 datum: 2011-07-06
 themas:
-- compensatieverbod
-- dubieuze debiteuren
-- handelsvorderingen
-- insolventie
-- kredietrisico
-- kredietverzekering
-- minderwaarden op de realisatie van handelsvorderingen
-- schadevergoeding
-- subrogatie
-- Waardevermindering
+  - compensatieverbod
+  - dubieuze debiteuren
+  - handelsvorderingen
+  - insolventie
+  - kredietrisico
+  - kredietverzekering
+  - minderwaarden op de realisatie van handelsvorderingen
+  - schadevergoeding
+  - subrogatie
+  - Waardevermindering
 bron: https://www.cbn-cnc.be/nl/adviezen/waardeverminderingen-op-handelsvorderingen-gedekt-door-een-kredietverzekering
 provenance:
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/waardeverminderingen-op-handelsvorderingen-gedekt-door-een-kredietverzekering
-    sha256: fabe8cebfc4d54bf18c08cd31e9f2447b5fd4870fed263588ded5bc50a6ba214
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/waardeverminderingen-op-handelsvorderingen-gedekt-door-een-kredietverzekering
+      sha256: fabe8cebfc4d54bf18c08cd31e9f2447b5fd4870fed263588ded5bc50a6ba214
+      version:
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model: null
-    prompt_version: null
+    model:
+    prompt_version:
   generated_at: '2026-05-08T18:36:14Z'
   stale: false
-  stale_reason: null
+  stale_reason:
   trust:
-    status: trusted
-    qa_version: trust-rework-2
-    confirmed_at: '2026-05-08T18:40:04Z'
-    confirmed_by: qa-laag1-auto
-    rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    status: unreviewed
+    confirmed_at:
+    confirmed_by:
+    rationale:
     layer1:
-      verdict: pass
+      status: pass
+      run_id: 20260511-083333
+      run_at:
       heading_count: 12
-      max_section_chars: 5962
-      file_size_chars: 14205
+      max_section_chars: 9854
+      file_size_chars: 14211
       flags: []
-      run_id: 20260509-212552
+    layer2:
+      status: not_run
+      agent:
+      run_at:
+      rationale:
+      concrete_problemen: []
 gerelateerde_adviezen:
-- titel: Omzet – RIZIV-heffingen op de omzet van terugbetaalbare geneesmiddelen
-  url: https://www.cbn-cnc.be/nl/adviezen/omzet-riziv-heffingen-op-de-omzet-van-terugbetaalbare-geneesmiddelen
-  datum: '2018-05-30'
-- titel: Ledenbijdrage in een coöperatieve vennootschap
-  url: https://www.cbn-cnc.be/nl/adviezen/ledenbijdrage-in-een-cooperatieve-vennootschap
-  datum: '1978-12-01'
-- titel: Beginsel van het dubbel boekhouden
-  url: https://www.cbn-cnc.be/nl/adviezen/beginsel-van-het-dubbel-boekhouden
-  datum: '1993-02-01'
+  - titel: Omzet – RIZIV-heffingen op de omzet van terugbetaalbare geneesmiddelen
+    url: https://www.cbn-cnc.be/nl/adviezen/omzet-riziv-heffingen-op-de-omzet-van-terugbetaalbare-geneesmiddelen
+    datum: '2018-05-30'
+  - titel: Ledenbijdrage in een coöperatieve vennootschap
+    url: https://www.cbn-cnc.be/nl/adviezen/ledenbijdrage-in-een-cooperatieve-vennootschap
+    datum: '1978-12-01'
+  - titel: Beginsel van het dubbel boekhouden
+    url: https://www.cbn-cnc.be/nl/adviezen/beginsel-van-het-dubbel-boekhouden
+    datum: '1993-02-01'
 ---
 
 # CBN-advies 2011/15 - Waardeverminderingen op handelsvorderingen, gedekt door een kredietverzekering

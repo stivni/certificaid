@@ -1,55 +1,59 @@
 ---
-nummer: "CBN-advies 2015/7"
-datum: 2015-09-09
-themas:
-  - immateriële vaste activa
-  - kapitaalsubsidie
-  - productievennootschap
-  - tax shelter
 bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-tax-shelter-in-hoofde-van-de-productievennootschap
+datum: 2015-09-09
+gerelateerde_adviezen:
+- datum: '2025-07-14'
+  titel: De boekhoudkundige verwerking van immateriële vaste activa (update) [ONTWERP]
+  url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-immateriele-vaste-activa-update-ontwerp
+- datum: '2018-05-30'
+  titel: Tax shelter voor podiumkunsten
+  url: https://www.cbn-cnc.be/nl/adviezen/tax-shelter-voor-podiumkunsten
+- datum: '2018-03-21'
+  titel: Aftrek voor innovatie-inkomsten
+  url: https://www.cbn-cnc.be/nl/adviezen/aftrek-voor-innovatie-inkomsten
+- datum: '2016-12-14'
+  titel: 'Kosten van onderzoek en ontwikkeling: onderscheid tussen onderzoek en ontwikkeling
+    - verduidelijking'
+  url: https://www.cbn-cnc.be/nl/adviezen/kosten-van-onderzoek-en-ontwikkeling-onderscheid-tussen-onderzoek-en-ontwikkeling
+nummer: CBN-advies 2015/7
 provenance:
+  generated_at: '2026-05-08T18:36:51Z'
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-tax-shelter-in-hoofde-van-de-productievennootschap
-      sha256: 7e2eccfbb2400c51b122e8869b2d760e5e08df92b45a714e9c4b43696a59b852
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-tax-shelter-in-hoofde-van-de-productievennootschap
+    sha256: 7e2eccfbb2400c51b122e8869b2d760e5e08df92b45a714e9c4b43696a59b852
+    version: null
+  stale: false
+  stale_reason: null
   tooling:
+    model: null
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:36:51Z'
-  stale: false
-  stale_reason:
+    prompt_version: null
   trust:
-    status: trusted
-    qa_version:
     confirmed_at: '2026-05-08T19:02:28Z'
     confirmed_by: subagent-laag2-ronde2
-    rationale: '[Laag-2-R2 2026-05-08] 17 headings, alle verwerkingsstappen correct als ### of #### headings. Inhoudsopgave-artefact is cosmetisch. RAG-bruikbaar.'
     layer1:
-      verdict: warn
+      file_size_chars: 33432
+      flags: []
       heading_count: 17
-      max_section_chars: 25801
-      file_size_chars: 33409
-      flags:
-        - name: max_section_size
-          status: warn
-          detail: 'langste sectie op ##-niveau: 25801 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
-          samples: []
-      run_id: 20260509-212552
-gerelateerde_adviezen:
-  - titel: De boekhoudkundige verwerking van immateriële vaste activa (update) [ONTWERP]
-    url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-immateriele-vaste-activa-update-ontwerp
-    datum: '2025-07-14'
-  - titel: Tax shelter voor podiumkunsten
-    url: https://www.cbn-cnc.be/nl/adviezen/tax-shelter-voor-podiumkunsten
-    datum: '2018-05-30'
-  - titel: Aftrek voor innovatie-inkomsten
-    url: https://www.cbn-cnc.be/nl/adviezen/aftrek-voor-innovatie-inkomsten
-    datum: '2018-03-21'
-  - titel: 'Kosten van onderzoek en ontwikkeling: onderscheid tussen onderzoek en ontwikkeling - verduidelijking'
-    url: https://www.cbn-cnc.be/nl/adviezen/kosten-van-onderzoek-en-ontwikkeling-onderscheid-tussen-onderzoek-en-ontwikkeling
-    datum: '2016-12-14'
+      max_section_chars: 11446
+      run_at: null
+      run_id: 20260511-083333
+      status: pass
+    layer2:
+      agent: subagent-laag2-ronde2
+      concrete_problemen: []
+      rationale: '[Laag-2-R2 2026-05-08] 17 headings, alle verwerkingsstappen correct
+        als ### of #### headings. Inhoudsopgave-artefact is cosmetisch. RAG-bruikbaar.'
+      run_at: '2026-05-08T19:02:28Z'
+      status: trusted
+    rationale: Laag-2 trusted door subagent-laag2-ronde2 (zie layer2.rationale)
+    status: trusted
+themas:
+- immateriële vaste activa
+- kapitaalsubsidie
+- productievennootschap
+- tax shelter
 ---
 
 # CBN-advies 2015/7 - Boekhoudkundige verwerking van de tax shelter in hoofde van de productievennootschap (raamovereenkomsten getekend vanaf 1 januari 2015)

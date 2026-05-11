@@ -2,41 +2,46 @@
 nummer: CBN-advies 100
 datum: 1977-08-01
 themas:
-- verwerking van vermogensbestanddelen
-- voordelen bovenop het loon
-- omzet
+  - verwerking van vermogensbestanddelen
+  - voordelen bovenop het loon
+  - omzet
 bron: https://www.cbn-cnc.be/nl/adviezen/omzet-begrip
 provenance:
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/omzet-begrip
-    sha256: 0651a46284667473bcb25099b0a2a168d21a95975e629ef2f6a6dbe5efa8c061
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/omzet-begrip
+      sha256: 0651a46284667473bcb25099b0a2a168d21a95975e629ef2f6a6dbe5efa8c061
+      version:
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model: null
-    prompt_version: null
+    model:
+    prompt_version:
   generated_at: '2026-05-08T18:33:36Z'
   stale: false
-  stale_reason: null
+  stale_reason:
   trust:
-    status: trusted
-    qa_version: trust-rework-2
-    confirmed_at: '2026-05-08T18:40:02Z'
-    confirmed_by: qa-laag1-auto
-    rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    status: unreviewed
+    confirmed_at:
+    confirmed_by:
+    rationale:
     layer1:
-      verdict: pass
+      status: pass
+      run_id: 20260511-083333
+      run_at:
       heading_count: 0
-      max_section_chars: 818
-      file_size_chars: 818
+      max_section_chars: 854
+      file_size_chars: 854
       flags: []
-      run_id: 20260509-212552
+    layer2:
+      status: not_run
+      agent:
+      run_at:
+      rationale:
+      concrete_problemen: []
 gerelateerde_adviezen:
-- titel: Verwerking in de geconsolideerde jaarrekening van de vermogensbestanddelen
-    en de resultaten op de datum waarop de geconsolideerde jaarrekening wordt afgesloten
-  url: https://www.cbn-cnc.be/nl/adviezen/verwerking-in-de-geconsolideerde-jaarrekening-van-de-vermogensbestanddelen-en-de
-  datum: '1991-03-01'
+  - titel: Verwerking in de geconsolideerde jaarrekening van de vermogensbestanddelen en de resultaten op de datum waarop de geconsolideerde jaarrekening wordt afgesloten
+    url: https://www.cbn-cnc.be/nl/adviezen/verwerking-in-de-geconsolideerde-jaarrekening-van-de-vermogensbestanddelen-en-de
+    datum: '1991-03-01'
 ---
 
 # CBN advies 100 - Omzet – Begrip

@@ -1,11 +1,31 @@
 ---
-tags: ["XI"]
-itaa-lex-sectie: "XI"
-wet: "Burgerlijk Wetboek (oud, vóór hervormingen nieuwe Burgerlijk Wetboek 2019)"
-status: "beschikbaar"
-bijgewerkt: "27.01.2026"
-bron: "ejustice.just.fgov.be (Justel, gecoördineerde versie)"
-raw-bron: "resources/raw/wetteksten/Oud-BW.pdf"
+tags: [XI]
+itaa-lex-sectie: XI
+wet: Burgerlijk Wetboek (oud, vóór hervormingen nieuwe Burgerlijk Wetboek 2019)
+status: beschikbaar
+bijgewerkt: 27.01.2026
+bron: ejustice.just.fgov.be (Justel, gecoördineerde versie)
+raw-bron: resources/raw/wetteksten/Oud-BW.pdf
+provenance:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by:
+    rationale:
+    layer1:
+      status: not_run
+      run_id:
+      run_at:
+      heading_count:
+      max_section_chars:
+      file_size_chars:
+      flags: []
+    layer2:
+      status: not_run
+      agent:
+      run_at:
+      rationale:
+      concrete_problemen: []
 ---
 
 # Burgerlijk Wetboek (oud)

@@ -1,67 +1,74 @@
 ---
-nummer: "CBN-advies 2019/04"
-datum: 2019-04-12
-themas:
-  - bestellingen in uitvoering
-  - betalingen aan overheden
-  - bijkantoor
-  - brexit
-  - dochteronderneming
-  - going concern
-  - herstructureringskosten
-  - jaarverslag
-  - non-adjusting event
-  - omrekeningsverschil
-  - openbaarmakingsformaliteiten
-  - oprichtingsformaliteiten
-  - verslag betalingen aan overheden
-  - voorziening
-  - waarderingsregels
-  - wisselkoersverschil
 bron: https://www.cbn-cnc.be/nl/adviezen/gevolgen-op-gebied-van-financiele-rapportering-als-gevolg-van-de-brexit-0
+datum: 2019-04-12
+gerelateerde_adviezen:
+- datum: '2016-09-07'
+  titel: 'Bestellingen in uitvoering: wijzigingen door het koninklijk besluit van
+    18 december 2015'
+  url: https://www.cbn-cnc.be/nl/adviezen/bestellingen-in-uitvoering-wijzigingen-door-het-koninklijk-besluit-van-18-december-2015
+- datum: '2015-09-30'
+  titel: Boekhoudkundige verwerking van de aankoop van een onroerend goed bestemd
+    voor verkoop
+  url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-aankoop-van-een-onroerend-goed-bestemd-voor-verkoop
+- datum: '2012-10-10'
+  titel: Bestellingen in uitvoering
+  url: https://www.cbn-cnc.be/nl/adviezen/bestellingen-in-uitvoering
+- datum: '2011-07-20'
+  titel: Boekhoudkundige verwerking van “onderzoeksfondsen” in de jaarrekening van
+    grote en zeer grote verenigingen en stichtingen
+  url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-onderzoeksfondsen-in-de-jaarrekening-van-grote-en-zeer
+nummer: CBN-advies 2019/04
 provenance:
+  generated_at: '2026-05-08T18:37:38Z'
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/gevolgen-op-gebied-van-financiele-rapportering-als-gevolg-van-de-brexit-0
-      sha256: e9f17634cbc598797605b0f56cacc635df0c9616fdbdf3b434d87f2d95dd7532
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/gevolgen-op-gebied-van-financiele-rapportering-als-gevolg-van-de-brexit-0
+    sha256: e9f17634cbc598797605b0f56cacc635df0c9616fdbdf3b434d87f2d95dd7532
+    version: null
+  stale: false
+  stale_reason: null
   tooling:
+    model: null
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:37:38Z'
-  stale: false
-  stale_reason:
+    prompt_version: null
   trust:
-    status: trusted
-    qa_version:
     confirmed_at: '2026-05-08T19:02:28Z'
     confirmed_by: subagent-laag2-ronde2
-    rationale: '[Laag-2-R2 2026-05-08] Het advies bevat 21 headings en 52 voetnoten; beide delen (waarderingsregels + rapporteringsverplichtingen) zijn volledig aanwezig. Geen tabelcorruptie.'
     layer1:
-      verdict: warn
-      heading_count: 26
-      max_section_chars: 29632
-      file_size_chars: 53119
-      flags:
-        - name: max_section_size
-          status: warn
-          detail: 'langste sectie op ##-niveau: 29632 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
-          samples: []
-      run_id: 20260509-212552
-gerelateerde_adviezen:
-  - titel: 'Bestellingen in uitvoering: wijzigingen door het koninklijk besluit van 18 december 2015'
-    url: https://www.cbn-cnc.be/nl/adviezen/bestellingen-in-uitvoering-wijzigingen-door-het-koninklijk-besluit-van-18-december-2015
-    datum: '2016-09-07'
-  - titel: Boekhoudkundige verwerking van de aankoop van een onroerend goed bestemd voor verkoop
-    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-aankoop-van-een-onroerend-goed-bestemd-voor-verkoop
-    datum: '2015-09-30'
-  - titel: Bestellingen in uitvoering
-    url: https://www.cbn-cnc.be/nl/adviezen/bestellingen-in-uitvoering
-    datum: '2012-10-10'
-  - titel: Boekhoudkundige verwerking van “onderzoeksfondsen” in de jaarrekening van grote en zeer grote verenigingen en stichtingen
-    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-onderzoeksfondsen-in-de-jaarrekening-van-grote-en-zeer
-    datum: '2011-07-20'
+      file_size_chars: 53139
+      flags: []
+      heading_count: 21
+      max_section_chars: 13531
+      run_at: null
+      run_id: 20260511-083333
+      status: pass
+    layer2:
+      agent: subagent-laag2-ronde2
+      concrete_problemen: []
+      rationale: '[Laag-2-R2 2026-05-08] Het advies bevat 21 headings en 52 voetnoten;
+        beide delen (waarderingsregels + rapporteringsverplichtingen) zijn volledig
+        aanwezig. Geen tabelcorruptie.'
+      run_at: '2026-05-08T19:02:28Z'
+      status: trusted
+    rationale: Laag-2 trusted door subagent-laag2-ronde2 (zie layer2.rationale)
+    status: trusted
+themas:
+- bestellingen in uitvoering
+- betalingen aan overheden
+- bijkantoor
+- brexit
+- dochteronderneming
+- going concern
+- herstructureringskosten
+- jaarverslag
+- non-adjusting event
+- omrekeningsverschil
+- openbaarmakingsformaliteiten
+- oprichtingsformaliteiten
+- verslag betalingen aan overheden
+- voorziening
+- waarderingsregels
+- wisselkoersverschil
 ---
 
 # CBN-advies 2019/04 – Gevolgen op gebied van financiële rapportering als gevolg van de brexit

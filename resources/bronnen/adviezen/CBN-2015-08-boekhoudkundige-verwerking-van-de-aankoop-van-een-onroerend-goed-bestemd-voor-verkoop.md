@@ -2,55 +2,59 @@
 nummer: CBN-advies 2015/8
 datum: 2015-09-30
 themas:
-- bestellingen in uitvoering
-- bouwprojecten
-- intercalaire interesten
-- kijkwoningen
-- voorraden
-- winsttoerekening
-- onroerende goederen bestemd voor verkoop
+  - bestellingen in uitvoering
+  - bouwprojecten
+  - intercalaire interesten
+  - kijkwoningen
+  - voorraden
+  - winsttoerekening
+  - onroerende goederen bestemd voor verkoop
 bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-aankoop-van-een-onroerend-goed-bestemd-voor-verkoop
 provenance:
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-aankoop-van-een-onroerend-goed-bestemd-voor-verkoop
-    sha256: 953d75e99ef043526de7c91c7e325638643e154c2d56c484308010f4b0891eda
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-aankoop-van-een-onroerend-goed-bestemd-voor-verkoop
+      sha256: 953d75e99ef043526de7c91c7e325638643e154c2d56c484308010f4b0891eda
+      version:
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model: null
-    prompt_version: null
+    model:
+    prompt_version:
   generated_at: '2026-05-08T18:36:51Z'
   stale: false
-  stale_reason: null
+  stale_reason:
   trust:
-    status: trusted
-    qa_version: trust-rework-2
-    confirmed_at: '2026-05-08T18:40:04Z'
-    confirmed_by: qa-laag1-auto
-    rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    status: unreviewed
+    confirmed_at:
+    confirmed_by:
+    rationale:
     layer1:
-      verdict: pass
-      heading_count: 7
-      max_section_chars: 5922
-      file_size_chars: 12525
+      status: pass
+      run_id: 20260511-083333
+      run_at:
+      heading_count: 3
+      max_section_chars: 5930
+      file_size_chars: 12648
       flags: []
-      run_id: 20260509-212552
+    layer2:
+      status: not_run
+      agent:
+      run_at:
+      rationale:
+      concrete_problemen: []
 gerelateerde_adviezen:
-- titel: Gevolgen op gebied van financiële rapportering als gevolg van de brexit
-  url: https://www.cbn-cnc.be/nl/adviezen/gevolgen-op-gebied-van-financiele-rapportering-als-gevolg-van-de-brexit-0
-  datum: '2019-04-12'
-- titel: 'Bestellingen in uitvoering: wijzigingen door het koninklijk besluit van
-    18 december 2015'
-  url: https://www.cbn-cnc.be/nl/adviezen/bestellingen-in-uitvoering-wijzigingen-door-het-koninklijk-besluit-van-18-december-2015
-  datum: '2016-09-07'
-- titel: Bestellingen in uitvoering
-  url: https://www.cbn-cnc.be/nl/adviezen/bestellingen-in-uitvoering
-  datum: '2012-10-10'
-- titel: Boekhoudkundige verwerking van “onderzoeksfondsen” in de jaarrekening van
-    grote en zeer grote verenigingen en stichtingen
-  url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-onderzoeksfondsen-in-de-jaarrekening-van-grote-en-zeer
-  datum: '2011-07-20'
+  - titel: Gevolgen op gebied van financiële rapportering als gevolg van de brexit
+    url: https://www.cbn-cnc.be/nl/adviezen/gevolgen-op-gebied-van-financiele-rapportering-als-gevolg-van-de-brexit-0
+    datum: '2019-04-12'
+  - titel: 'Bestellingen in uitvoering: wijzigingen door het koninklijk besluit van 18 december 2015'
+    url: https://www.cbn-cnc.be/nl/adviezen/bestellingen-in-uitvoering-wijzigingen-door-het-koninklijk-besluit-van-18-december-2015
+    datum: '2016-09-07'
+  - titel: Bestellingen in uitvoering
+    url: https://www.cbn-cnc.be/nl/adviezen/bestellingen-in-uitvoering
+    datum: '2012-10-10'
+  - titel: Boekhoudkundige verwerking van “onderzoeksfondsen” in de jaarrekening van grote en zeer grote verenigingen en stichtingen
+    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-onderzoeksfondsen-in-de-jaarrekening-van-grote-en-zeer
+    datum: '2011-07-20'
 ---
 
 # CBN-advies 2015/8 Boekhoudkundige verwerking van de aankoop van een onroerend goed bestemd voor verkoop1

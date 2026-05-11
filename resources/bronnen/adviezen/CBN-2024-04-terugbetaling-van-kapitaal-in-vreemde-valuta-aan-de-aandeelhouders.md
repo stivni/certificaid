@@ -2,56 +2,61 @@
 nummer: CBN-advies 2024/04
 datum: 2024-03-13
 themas:
-- terugbetaling van kapitaal
-- kapitaalvermindering
-- kapitaal
-- vreemde valuta
-- vreemde munt
-- deviezen
-- aandeelhouder
-- wisselkoers
-- historische wisselkoers
-- niet-monetaire activa
-- deelneming
-- aandelen
-- werkelijke wisselkoers
-- actuele wisselkoers
-- wisselresultaat
+  - terugbetaling van kapitaal
+  - kapitaalvermindering
+  - kapitaal
+  - vreemde valuta
+  - vreemde munt
+  - deviezen
+  - aandeelhouder
+  - wisselkoers
+  - historische wisselkoers
+  - niet-monetaire activa
+  - deelneming
+  - aandelen
+  - werkelijke wisselkoers
+  - actuele wisselkoers
+  - wisselresultaat
 bron: https://www.cbn-cnc.be/nl/adviezen/terugbetaling-van-kapitaal-in-vreemde-valuta-aan-de-aandeelhouders
 provenance:
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/terugbetaling-van-kapitaal-in-vreemde-valuta-aan-de-aandeelhouders
-    sha256: 935540be7b4d90a785af3089c2bcb940028d9e8241a35b78a265829bdb2743e9
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/terugbetaling-van-kapitaal-in-vreemde-valuta-aan-de-aandeelhouders
+      sha256: 935540be7b4d90a785af3089c2bcb940028d9e8241a35b78a265829bdb2743e9
+      version:
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model: null
-    prompt_version: null
+    model:
+    prompt_version:
   generated_at: '2026-05-08T18:38:20Z'
   stale: false
-  stale_reason: null
+  stale_reason:
   trust:
-    status: trusted
-    qa_version: trust-rework-2
-    confirmed_at: '2026-05-08T18:40:05Z'
-    confirmed_by: qa-laag1-auto
-    rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    status: unreviewed
+    confirmed_at:
+    confirmed_by:
+    rationale:
     layer1:
-      verdict: pass
+      status: pass
+      run_id: 20260511-083333
+      run_at:
       heading_count: 5
       max_section_chars: 8881
-      file_size_chars: 16553
+      file_size_chars: 16560
       flags: []
-      run_id: 20260509-212552
+    layer2:
+      status: not_run
+      agent:
+      run_at:
+      rationale:
+      concrete_problemen: []
 gerelateerde_adviezen:
-- titel: Dividenduitkering en kapitaalvermindering in natura
-  url: https://www.cbn-cnc.be/nl/adviezen/dividenduitkering-en-kapitaalvermindering-in-natura-0
-  datum: '2019-03-12'
-- titel: Toerekening door de aandeelhouder van een terugbetaling van kapitaal of een
-    uitgiftepremie of van een uitkering van reserves
-  url: https://www.cbn-cnc.be/nl/adviezen/toerekening-door-de-aandeelhouder-van-een-terugbetaling-van-kapitaal-of-een-uitgiftepremie
-  datum: '1995-03-01'
+  - titel: Dividenduitkering en kapitaalvermindering in natura
+    url: https://www.cbn-cnc.be/nl/adviezen/dividenduitkering-en-kapitaalvermindering-in-natura-0
+    datum: '2019-03-12'
+  - titel: Toerekening door de aandeelhouder van een terugbetaling van kapitaal of een uitgiftepremie of van een uitkering van reserves
+    url: https://www.cbn-cnc.be/nl/adviezen/toerekening-door-de-aandeelhouder-van-een-terugbetaling-van-kapitaal-of-een-uitgiftepremie
+    datum: '1995-03-01'
 ---
 
 # CBN-advies 2024/04 – Terugbetaling van kapitaal in vreemde valuta aan de aandeelhouders

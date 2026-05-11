@@ -2,57 +2,61 @@
 nummer: CBN-advies 2016/11
 datum: 2016-07-06
 themas:
-- afgeleide financiële instrumenten
-- cross currency swap
-- indekkingsverrichting
-- macro-indekking
-- micro-indekking
-- monetaire activa
-- monetaire passiva
-- omrekeningsverschil
-- termijnwisselovereenkomst
-- valutaswap
-- vreemde valuta
-- wisselrisico
+  - afgeleide financiële instrumenten
+  - cross currency swap
+  - indekkingsverrichting
+  - macro-indekking
+  - micro-indekking
+  - monetaire activa
+  - monetaire passiva
+  - omrekeningsverschil
+  - termijnwisselovereenkomst
+  - valutaswap
+  - vreemde valuta
+  - wisselrisico
 bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-cross-currency-swap
 provenance:
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-cross-currency-swap
-    sha256: 45282a2c7d1f6bcf5611098b6a097f274c6b2775b2ffb4aa47162f5f96ad7dec
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-cross-currency-swap
+      sha256: 45282a2c7d1f6bcf5611098b6a097f274c6b2775b2ffb4aa47162f5f96ad7dec
+      version:
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model: null
-    prompt_version: null
+    model:
+    prompt_version:
   generated_at: '2026-05-08T18:36:58Z'
   stale: false
-  stale_reason: null
+  stale_reason:
   trust:
-    status: trusted
-    qa_version: trust-rework-2
-    confirmed_at: '2026-05-08T18:40:04Z'
-    confirmed_by: qa-laag1-auto
-    rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    status: unreviewed
+    confirmed_at:
+    confirmed_by:
+    rationale:
     layer1:
-      verdict: pass
+      status: pass
+      run_id: 20260511-083333
+      run_at:
       heading_count: 13
-      max_section_chars: 15313
-      file_size_chars: 24758
+      max_section_chars: 10089
+      file_size_chars: 24759
       flags: []
-      run_id: 20260509-212552
+    layer2:
+      status: not_run
+      agent:
+      run_at:
+      rationale:
+      concrete_problemen: []
 gerelateerde_adviezen:
-- titel: Opname van financiële vaste activa geboekt tegen een hoger bedrag dan hun
-    reële waarde in de toelichting van de jaarrekening
-  url: https://www.cbn-cnc.be/nl/adviezen/opname-van-financiele-vaste-activa-geboekt-tegen-een-hoger-bedrag-dan-hun-reele-waarde-in
-  datum: '2017-05-31'
-- titel: Toelichting omtrent het niet-gebruik van de waarderingsgregels op basis van
-    de waarde in het economisch verkeer voor de financiële instrumenten
-  url: https://www.cbn-cnc.be/nl/adviezen/toelichting-omtrent-het-niet-gebruik-van-de-waarderingsgregels-op-basis-van-de-waarde-in
-  datum: '2013-11-27'
-- titel: De toepassing van de algemene boekhoudprincipes op afgeleide financiële instrumenten
-  url: https://www.cbn-cnc.be/nl/adviezen/de-toepassing-van-de-algemene-boekhoudprincipes-op-afgeleide-financiele-instrumenten
-  datum: '2010-09-08'
+  - titel: Opname van financiële vaste activa geboekt tegen een hoger bedrag dan hun reële waarde in de toelichting van de jaarrekening
+    url: https://www.cbn-cnc.be/nl/adviezen/opname-van-financiele-vaste-activa-geboekt-tegen-een-hoger-bedrag-dan-hun-reele-waarde-in
+    datum: '2017-05-31'
+  - titel: Toelichting omtrent het niet-gebruik van de waarderingsgregels op basis van de waarde in het economisch verkeer voor de financiële instrumenten
+    url: https://www.cbn-cnc.be/nl/adviezen/toelichting-omtrent-het-niet-gebruik-van-de-waarderingsgregels-op-basis-van-de-waarde-in
+    datum: '2013-11-27'
+  - titel: De toepassing van de algemene boekhoudprincipes op afgeleide financiële instrumenten
+    url: https://www.cbn-cnc.be/nl/adviezen/de-toepassing-van-de-algemene-boekhoudprincipes-op-afgeleide-financiele-instrumenten
+    datum: '2010-09-08'
 ---
 
 # CBN-advies 2016/11 - Boekhoudkundige verwerking van de cross currency swap

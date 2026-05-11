@@ -2,55 +2,59 @@
 nummer: CBN-advies 175/1
 datum: 1998-03-01
 themas:
-- toelichting
-- voorziening
-- beslissing tot terugvordering
-- maribel bis en ter steun
-- minnelijk akkoord
-- steunmaatregel van de lidstaten
-- lastenverlaging
+  - toelichting
+  - voorziening
+  - beslissing tot terugvordering
+  - maribel bis en ter steun
+  - minnelijk akkoord
+  - steunmaatregel van de lidstaten
+  - lastenverlaging
 bron: https://www.cbn-cnc.be/nl/adviezen/verwerking-in-de-jaarrekening-over-het-boekjaar-1996-en-de-daaropvolgende-boekjaren-van-de
 provenance:
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/verwerking-in-de-jaarrekening-over-het-boekjaar-1996-en-de-daaropvolgende-boekjaren-van-de
-    sha256: ac39eb27c4481b2805ab1d3e8ee1db6cc109c61d1e30539a1c11d288f497f387
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/verwerking-in-de-jaarrekening-over-het-boekjaar-1996-en-de-daaropvolgende-boekjaren-van-de
+      sha256: ac39eb27c4481b2805ab1d3e8ee1db6cc109c61d1e30539a1c11d288f497f387
+      version:
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model: null
-    prompt_version: null
+    model:
+    prompt_version:
   generated_at: '2026-05-08T18:35:43Z'
   stale: false
-  stale_reason: null
+  stale_reason:
   trust:
-    status: trusted
-    qa_version: trust-rework-2
-    confirmed_at: '2026-05-08T18:40:03Z'
-    confirmed_by: qa-laag1-auto
-    rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    status: unreviewed
+    confirmed_at:
+    confirmed_by:
+    rationale:
     layer1:
-      verdict: pass
-      heading_count: 15
-      max_section_chars: 8835
-      file_size_chars: 18101
+      status: pass
+      run_id: 20260511-083333
+      run_at:
+      heading_count: 7
+      max_section_chars: 9249
+      file_size_chars: 18070
       flags: []
-      run_id: 20260509-212552
+    layer2:
+      status: not_run
+      agent:
+      run_at:
+      rationale:
+      concrete_problemen: []
 gerelateerde_adviezen:
-- titel: 'Vereniging van aandelen in handen van één enkele rechtspersoon: vermeldingen
-    in de toelichting'
-  url: https://www.cbn-cnc.be/nl/adviezen/vereniging-van-aandelen-in-handen-van-een-enkele-rechtspersoon-vermeldingen-in-de
-  datum: '2018-05-09'
-- titel: 'Onbeperkt aansprakelijke vennoot: vermeldingen in de jaarrekening'
-  url: https://www.cbn-cnc.be/nl/adviezen/onbeperkt-aansprakelijke-vennoot-vermeldingen-in-de-jaarrekening
-  datum: '2017-09-13'
-- titel: Opname van financiële vaste activa geboekt tegen een hoger bedrag dan hun
-    reële waarde in de toelichting van de jaarrekening
-  url: https://www.cbn-cnc.be/nl/adviezen/opname-van-financiele-vaste-activa-geboekt-tegen-een-hoger-bedrag-dan-hun-reele-waarde-in
-  datum: '2017-05-31'
-- titel: 'Afwijking inzake functionele valuta: praktische implicaties en procedure'
-  url: https://www.cbn-cnc.be/nl/adviezen/afwijking-inzake-functionele-valuta-praktische-implicaties-en-procedure
-  datum: '2011-05-04'
+  - titel: 'Vereniging van aandelen in handen van één enkele rechtspersoon: vermeldingen in de toelichting'
+    url: https://www.cbn-cnc.be/nl/adviezen/vereniging-van-aandelen-in-handen-van-een-enkele-rechtspersoon-vermeldingen-in-de
+    datum: '2018-05-09'
+  - titel: 'Onbeperkt aansprakelijke vennoot: vermeldingen in de jaarrekening'
+    url: https://www.cbn-cnc.be/nl/adviezen/onbeperkt-aansprakelijke-vennoot-vermeldingen-in-de-jaarrekening
+    datum: '2017-09-13'
+  - titel: Opname van financiële vaste activa geboekt tegen een hoger bedrag dan hun reële waarde in de toelichting van de jaarrekening
+    url: https://www.cbn-cnc.be/nl/adviezen/opname-van-financiele-vaste-activa-geboekt-tegen-een-hoger-bedrag-dan-hun-reele-waarde-in
+    datum: '2017-05-31'
+  - titel: 'Afwijking inzake functionele valuta: praktische implicaties en procedure'
+    url: https://www.cbn-cnc.be/nl/adviezen/afwijking-inzake-functionele-valuta-praktische-implicaties-en-procedure
+    datum: '2011-05-04'
 ---
 
 # CBN-advies 175/1 - Verwerking in de jaarrekening over het boekjaar 1996 en de daaropvolgende boekjaren, van de «Maribel bis en ter»-steun toegekend voor de boekjaren 1993, 1994, 1995 en 1996

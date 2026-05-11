@@ -2,10 +2,10 @@
 tags:
   - norm
   - itaa
-naam: "Gedragslijnen inzake de betrekkingen tussen IBR en IAB/ITAA"
+naam: Gedragslijnen inzake de betrekkingen tussen IBR en IAB/ITAA
 type: norm
-itaa-lex-sectie: "XXI"
-toepassingsgebied: "ITAA-leden bij samenwerking met of verwijzing naar bedrijfsrevisoren (IBR)"
+itaa-lex-sectie: XXI
+toepassingsgebied: ITAA-leden bij samenwerking met of verwijzing naar bedrijfsrevisoren (IBR)
 themas:
   - samenwerking
   - IBR
@@ -31,32 +31,24 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    qa_version: trust-rework-2
-    confirmed_at: '2026-05-09T21:27:46Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: L1=pass
-    agent_verdict_at: '2026-05-09T21:27:46Z'
-    sample_pick: false
-    sample_reviewed_at:
-    sample_reviewed_by:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by:
+    rationale:
     layer1:
-      verdict: pass
+      status: pass
+      run_id: 20260511-085756
+      run_at: '2026-05-11T08:57:57Z'
       heading_count: 0
       max_section_chars: 7570
       file_size_chars: 7570
       flags: []
-      run_id: 20260509-212552
-    layer1_5_diff:
-      verdict: improvement
-      rationale: 'Auto-synthesized: ETL-fixes vandaag (NBSP, sub_strategy, justel-extractor, etc.) verbeteren bestaande versie.'
-      kritieke_observaties: []
-      auto: true
-      run_id: trust-finalize-1
-    layer2_content:
-      verdict: needs-rework
+    layer2:
+      status: needs-rework
+      agent:
+      run_at:
       rationale: "Korte norm met 0 ## headings (chunk.level=2 expects ##) — alle 'principes' staan als plain text-titels. Veel OCR-fouten: 'fmanciële' (financiële), 'WIe' (wie), 'enlof' (en/of), 'dentologische' (deontologische), 'confratemele' (confraternele), 'Fisalisten' (Fiscalisten). Komma's vervangen door komma + dubbele aanhalingstekens (',\"' i.p.v. ';' aan einde van considerans-clausules)."
-      problemen:
+      concrete_problemen:
         - regel: 60
           type: ocr-confusion
           voorbeeld: "'Fisalisten' moet 'Fiscalisten' zijn (l→l ontbreekt)"
@@ -78,11 +70,6 @@ provenance:
         - regel: 49
           type: ocr-confusion
           voorbeeld: Considerans eindigt op ',"' i.p.v. ';' — herhaald in 8+ regels
-      sterkte:
-        - Tekst van 6 principes en 7 definities is wel volledig
-        - Goedkeuringsdatum en inwerkingtredingsdatum (1 juni 2008) bewaard
-      auto: false
-      run_id: qa-batch-normen
 ---
 GEDRAGSLIJNEN INZAKE DE BEROEPSRELATlES TUSSEN DE LEDEN VAN
 HET IBR, HET IAB EN HET BIBF

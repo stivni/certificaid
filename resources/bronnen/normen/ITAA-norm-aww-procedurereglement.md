@@ -2,10 +2,10 @@
 tags:
   - norm
   - itaa
-naam: "Procedurereglement Tuchtkamer AWW (art. 118 Antiwitwaswet)"
+naam: Procedurereglement Tuchtkamer AWW (art. 118 Antiwitwaswet)
 type: norm
-itaa-lex-sectie: "XVII"
-toepassingsgebied: "Tuchtkamer ITAA bij behandeling van AWW-inbreuken — procedure voor beroepsbeoefenaars"
+itaa-lex-sectie: XVII
+toepassingsgebied: Tuchtkamer ITAA bij behandeling van AWW-inbreuken — procedure voor beroepsbeoefenaars
 themas:
   - antiwitwas
   - tucht
@@ -33,37 +33,23 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    qa_version: trust-rework-2
     confirmed_at: '2026-05-09T21:27:46Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: L1=pass
-    agent_verdict_at: '2026-05-09T21:27:46Z'
-    sample_pick: false
-    sample_reviewed_at:
-    sample_reviewed_by:
     layer1:
-      verdict: pass
+      status: pass
+      run_id: 20260511-085756
+      run_at: '2026-05-11T08:57:56Z'
       heading_count: 9
       max_section_chars: 3782
       file_size_chars: 12861
       flags: []
-      run_id: 20260509-212552
-    layer1_5_diff:
-      verdict: improvement
-      rationale: 'Auto-synthesized: ETL-fixes vandaag (NBSP, sub_strategy, justel-extractor, etc.) verbeteren bestaande versie.'
-      kritieke_observaties: []
-      auto: true
-      run_id: trust-finalize-1
-    layer2_content:
-      verdict: trusted
+    layer2:
+      status: trusted
+      agent:
+      run_at:
       rationale: 'Schone DOCX-extractie van procedurereglement. Alle 9 Artikels als ## heading, definities en preambule correct geplaatst, geen kolom-bleed of scrambled text.'
-      problemen: []
-      sterkte:
-        - 'Alle 9 Artikels (1-9) helder als ## headings'
-        - Definities-lijst (1°-7°) intact
-        - Frontmatter met juiste datum + url naar itaa.be/procedurereglement-antiwitwas
-      auto: false
-      run_id: qa-batch-normen
+      concrete_problemen: []
 ---
   Procedurereglement voor het opleggen van maatregelen
     in het kader van artikel 118, §1 van de antiwitwaswet

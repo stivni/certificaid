@@ -2,10 +2,10 @@
 tags:
   - norm
   - itaa
-naam: "Norm — Opdracht bij ontbinding en vereffening van vennootschappen"
+naam: Norm — Opdracht bij ontbinding en vereffening van vennootschappen
 type: norm
-itaa-lex-sectie: "XV"
-toepassingsgebied: "ITAA-leden aangesteld als vereffenaar of belast met verslag bij ontbinding en vereffening (WVV art. 2:69–2:75)"
+itaa-lex-sectie: XV
+toepassingsgebied: ITAA-leden aangesteld als vereffenaar of belast met verslag bij ontbinding en vereffening (WVV art. 2:69–2:75)
 themas:
   - vennootschapsrecht
   - ontbinding
@@ -34,32 +34,31 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    qa_version: trust-rework-2
-    confirmed_at: '2026-05-09T21:27:46Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: L1=pass
-    agent_verdict_at: '2026-05-09T21:27:46Z'
-    sample_pick: false
-    sample_reviewed_at:
-    sample_reviewed_by:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by:
+    rationale:
     layer1:
-      verdict: pass
-      heading_count: 109
-      max_section_chars: 2743
-      file_size_chars: 66968
-      flags: []
-      run_id: 20260509-212552
-    layer1_5_diff:
-      verdict: improvement
-      rationale: 'Auto-synthesized: ETL-fixes vandaag (NBSP, sub_strategy, justel-extractor, etc.) verbeteren bestaande versie.'
-      kritieke_observaties: []
-      auto: true
-      run_id: trust-finalize-1
-    layer2_content:
-      verdict: needs-rework
+      status: warn
+      run_id: 20260511-085756
+      run_at: '2026-05-11T08:57:57Z'
+      heading_count: 35
+      max_section_chars: 15147
+      file_size_chars: 101701
+      flags:
+        - name: no_toc_dots
+          status: warn
+          detail: 23 TOC-stippen-regel(s) gevonden
+          samples:
+            - '................................................................................'
+            - "....................................................................... 4\n"
+            - '................................................................................'
+    layer2:
+      status: needs-rework
+      agent:
+      run_at:
       rationale: "Page-footers worden systematisch als ## heading gepromoveerd: 15+ keer '## Goedgekeurd HREB (02-03-2026)- ter goedkeuring van de minister voorgelegd X/47'. Daarnaast 16 keer '## VEREISTEN TOEPASSINGSMODALITEITEN' als heading (column-header bleed). Body-paragrafen worden ook als heading gepromoveerd (L281 '## 11. Alvorens deze opdracht...', L349 '## 19. Om te kunnen overgaan...'). De echte sectiestructuur (Toepassingsgebied, Definities, I, II, III...) is grotendeels aanwezig maar verzwolgen door spurious headings."
-      problemen:
+      concrete_problemen:
         - regel: 82
           type: other
           voorbeeld: "Page-footer '## Goedgekeurd HREB (02-03-2026)- ter goedkeuring van de minister voorgelegd 1/47' als ## heading (15+ herhalingen)"
@@ -72,11 +71,6 @@ provenance:
         - regel: 349
           type: abrupt-cutoff
           voorbeeld: "'## 19. Om te kunnen overgaan tot het verzoeken om inlichtingen en om zijn' — idem"
-      sterkte:
-        - 'Echte sectiestructuur (Toepassingsgebied, Definities, Doelstellingen, I.1-I.5, II.1) wel aanwezig als ##'
-        - Inhoudelijke vereisten en toepassingsmodaliteiten intact in body
-      auto: false
-      run_id: qa-batch-normen
 ---
 
 Ontwerp

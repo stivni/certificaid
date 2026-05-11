@@ -2,51 +2,54 @@
 nummer: CBN-advies 2010/21
 datum: 2010-11-10
 themas:
-- immateriële vaste activa
-- transfervergoeding
+  - immateriële vaste activa
+  - transfervergoeding
 bron: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-transfervergoedingen-betaald-bij-de-mutatie-van
 provenance:
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-transfervergoedingen-betaald-bij-de-mutatie-van
-    sha256: d5c4088c75aa9d7cfeaf1bb264a52c517c6968c3cdceecdaaf4bd8e7de8e9a69
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-transfervergoedingen-betaald-bij-de-mutatie-van
+      sha256: d5c4088c75aa9d7cfeaf1bb264a52c517c6968c3cdceecdaaf4bd8e7de8e9a69
+      version:
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model: null
-    prompt_version: null
+    model:
+    prompt_version:
   generated_at: '2026-05-08T21:30:07Z'
   stale: false
-  stale_reason: null
+  stale_reason:
   trust:
     status: trusted
-    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T21:31:11Z'
     confirmed_by: human
-    rationale: 'Herscraped na fix select_title(): gecombineerde H1 (COMMISSIE + titel)
-      correct gesplitst. Inhoud ongewijzigd t.o.v. vorig vertrouwd verdict. Laag 1
-      pass (of benign max_section warn).'
+    rationale: 'Herscraped na fix select_title(): gecombineerde H1 (COMMISSIE + titel) correct gesplitst. Inhoud ongewijzigd t.o.v. vorig vertrouwd verdict. Laag 1 pass (of benign max_section warn).'
     layer1:
-      verdict: pass
+      status: pass
+      run_id: 20260511-083333
+      run_at:
       heading_count: 6
-      max_section_chars: 10917
-      file_size_chars: 18657
+      max_section_chars: 7746
+      file_size_chars: 18662
       flags: []
-      run_id: 20260509-212552
+    layer2:
+      status: not_run
+      agent:
+      run_at:
+      rationale:
+      concrete_problemen: []
 gerelateerde_adviezen:
-- titel: De boekhoudkundige verwerking van immateriële vaste activa (update) [ONTWERP]
-  url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-immateriele-vaste-activa-update-ontwerp
-  datum: '2025-07-14'
-- titel: Tax shelter voor podiumkunsten
-  url: https://www.cbn-cnc.be/nl/adviezen/tax-shelter-voor-podiumkunsten
-  datum: '2018-05-30'
-- titel: Aftrek voor innovatie-inkomsten
-  url: https://www.cbn-cnc.be/nl/adviezen/aftrek-voor-innovatie-inkomsten
-  datum: '2018-03-21'
-- titel: 'Kosten van onderzoek en ontwikkeling: onderscheid tussen onderzoek en ontwikkeling
-    - verduidelijking'
-  url: https://www.cbn-cnc.be/nl/adviezen/kosten-van-onderzoek-en-ontwikkeling-onderscheid-tussen-onderzoek-en-ontwikkeling
-  datum: '2016-12-14'
+  - titel: De boekhoudkundige verwerking van immateriële vaste activa (update) [ONTWERP]
+    url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-immateriele-vaste-activa-update-ontwerp
+    datum: '2025-07-14'
+  - titel: Tax shelter voor podiumkunsten
+    url: https://www.cbn-cnc.be/nl/adviezen/tax-shelter-voor-podiumkunsten
+    datum: '2018-05-30'
+  - titel: Aftrek voor innovatie-inkomsten
+    url: https://www.cbn-cnc.be/nl/adviezen/aftrek-voor-innovatie-inkomsten
+    datum: '2018-03-21'
+  - titel: 'Kosten van onderzoek en ontwikkeling: onderscheid tussen onderzoek en ontwikkeling - verduidelijking'
+    url: https://www.cbn-cnc.be/nl/adviezen/kosten-van-onderzoek-en-ontwikkeling-onderscheid-tussen-onderzoek-en-ontwikkeling
+    datum: '2016-12-14'
 ---
 
 # CBN-advies 2010/21 - De boekhoudkundige verwerking van transfervergoedingen betaald bij de mutatie van voetbalspelers (niet-amateurs en profspelers)

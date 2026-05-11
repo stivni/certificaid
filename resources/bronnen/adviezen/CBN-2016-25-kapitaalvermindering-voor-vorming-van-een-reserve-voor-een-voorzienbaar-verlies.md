@@ -2,36 +2,42 @@
 nummer: CBN-advies 2016/25
 datum: 2016-11-16
 themas:
-- voorzienbaar verlies
-- kapitaalvermindering
-- onbeschikbare reserve
+  - voorzienbaar verlies
+  - kapitaalvermindering
+  - onbeschikbare reserve
 bron: https://www.cbn-cnc.be/nl/adviezen/kapitaalvermindering-voor-vorming-van-een-reserve-voor-een-voorzienbaar-verlies
 provenance:
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/kapitaalvermindering-voor-vorming-van-een-reserve-voor-een-voorzienbaar-verlies
-    sha256: a323708d78caf2ee9141cb9671a5de95cd86d4b34ceb78162f913b715816dbc4
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/kapitaalvermindering-voor-vorming-van-een-reserve-voor-een-voorzienbaar-verlies
+      sha256: a323708d78caf2ee9141cb9671a5de95cd86d4b34ceb78162f913b715816dbc4
+      version:
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model: null
-    prompt_version: null
+    model:
+    prompt_version:
   generated_at: '2026-05-08T18:37:07Z'
   stale: false
-  stale_reason: null
+  stale_reason:
   trust:
-    status: trusted
-    qa_version: trust-rework-2
-    confirmed_at: '2026-05-08T18:40:04Z'
-    confirmed_by: qa-laag1-auto
-    rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    status: unreviewed
+    confirmed_at:
+    confirmed_by:
+    rationale:
     layer1:
-      verdict: pass
+      status: pass
+      run_id: 20260511-083333
+      run_at:
       heading_count: 9
-      max_section_chars: 8012
-      file_size_chars: 9130
+      max_section_chars: 3537
+      file_size_chars: 9131
       flags: []
-      run_id: 20260509-212552
+    layer2:
+      status: not_run
+      agent:
+      run_at:
+      rationale:
+      concrete_problemen: []
 ---
 
 # CBN-advies 2016/25 – Kapitaalvermindering voor vorming van een reserve voor een voorzienbaar verlies

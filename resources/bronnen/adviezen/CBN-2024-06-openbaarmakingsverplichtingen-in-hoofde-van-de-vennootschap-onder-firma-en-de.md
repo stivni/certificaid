@@ -2,53 +2,57 @@
 nummer: CBN-advies 2024/06
 datum: 2024-06-10
 themas:
-- VOF
-- openbaarmaking
-- vereffening
-- publicatie
-- vennootschap onder firma
-- commanditaire vennootschap
-- CommV
-- onmiddellijke sluiting van de vereffening
-- turboliquidatie
-- jaarrekening
-- ontbinding en vereffening in één akte
+  - VOF
+  - openbaarmaking
+  - vereffening
+  - publicatie
+  - vennootschap onder firma
+  - commanditaire vennootschap
+  - CommV
+  - onmiddellijke sluiting van de vereffening
+  - turboliquidatie
+  - jaarrekening
+  - ontbinding en vereffening in één akte
 bron: https://www.cbn-cnc.be/nl/adviezen/openbaarmakingsverplichtingen-in-hoofde-van-de-vennootschap-onder-firma-en-de
 provenance:
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/openbaarmakingsverplichtingen-in-hoofde-van-de-vennootschap-onder-firma-en-de
-    sha256: 0b3cd75f6c92a1d6d6baeebc0d4500f100c1eea75a76911222ececfb827a2bea
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/openbaarmakingsverplichtingen-in-hoofde-van-de-vennootschap-onder-firma-en-de
+      sha256: 0b3cd75f6c92a1d6d6baeebc0d4500f100c1eea75a76911222ececfb827a2bea
+      version:
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model: null
-    prompt_version: null
+    model:
+    prompt_version:
   generated_at: '2026-05-08T18:38:21Z'
   stale: false
-  stale_reason: null
+  stale_reason:
   trust:
-    status: trusted
-    qa_version: trust-rework-2
-    confirmed_at: '2026-05-08T18:40:05Z'
-    confirmed_by: qa-laag1-auto
-    rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    status: unreviewed
+    confirmed_at:
+    confirmed_by:
+    rationale:
     layer1:
-      verdict: pass
+      status: pass
+      run_id: 20260511-083333
+      run_at:
       heading_count: 0
-      max_section_chars: 3080
-      file_size_chars: 3080
+      max_section_chars: 3082
+      file_size_chars: 3082
       flags: []
-      run_id: 20260509-212552
+    layer2:
+      status: not_run
+      agent:
+      run_at:
+      rationale:
+      concrete_problemen: []
 gerelateerde_adviezen:
-- titel: De boekhoudkundige verwerking van het vennootschapsvermogen van een VOF en
-    een CommV ingevolge de inwerkingtreding van het WVV
-  url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-het-vennootschapsvermogen-van-een-vof-en-een-commv
-  datum: '2021-03-11'
-- titel: 'De vereenvoudigde boekhouding van een natuurlijke persoon, maatschap, vennootschap
-    onder firma en commanditaire vennootschap: groottecriteria – omzetdefinitie'
-  url: https://www.cbn-cnc.be/nl/adviezen/de-vereenvoudigde-boekhouding-van-een-natuurlijke-persoon-maatschap-vennootschap-onder
-  datum: '2019-10-28'
+  - titel: De boekhoudkundige verwerking van het vennootschapsvermogen van een VOF en een CommV ingevolge de inwerkingtreding van het WVV
+    url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-het-vennootschapsvermogen-van-een-vof-en-een-commv
+    datum: '2021-03-11'
+  - titel: 'De vereenvoudigde boekhouding van een natuurlijke persoon, maatschap, vennootschap onder firma en commanditaire vennootschap: groottecriteria – omzetdefinitie'
+    url: https://www.cbn-cnc.be/nl/adviezen/de-vereenvoudigde-boekhouding-van-een-natuurlijke-persoon-maatschap-vennootschap-onder
+    datum: '2019-10-28'
 ---
 
 # CBN-advies 2024/06 – Openbaarmakingsverplichtingen in hoofde van de vennootschap onder firma en de commanditaire vennootschap bij onmiddellijke sluiting van de vereffening

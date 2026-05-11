@@ -2,40 +2,46 @@
 nummer: CBN-advies 2018/13
 datum: 2018-05-30
 themas:
-- arbeidsduurvermindering
-- adv-dagen
-- bezoldiging
-- uitzendkracht
-- interimpersoneel
-- interimkracht
-- vakantiegeld
+  - arbeidsduurvermindering
+  - adv-dagen
+  - bezoldiging
+  - uitzendkracht
+  - interimpersoneel
+  - interimkracht
+  - vakantiegeld
 bron: https://www.cbn-cnc.be/nl/adviezen/provisie-aanvullende-dagen-verlof-arbeidsduurvermindering
 provenance:
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/provisie-aanvullende-dagen-verlof-arbeidsduurvermindering
-    sha256: b628cdfb65bc905f228c256ec3eeaec820ce3d97ccddc11bc7973be31a7556d8
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/provisie-aanvullende-dagen-verlof-arbeidsduurvermindering
+      sha256: b628cdfb65bc905f228c256ec3eeaec820ce3d97ccddc11bc7973be31a7556d8
+      version:
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model: null
-    prompt_version: null
+    model:
+    prompt_version:
   generated_at: '2026-05-08T18:37:23Z'
   stale: false
-  stale_reason: null
+  stale_reason:
   trust:
-    status: trusted
-    qa_version: trust-rework-2
-    confirmed_at: '2026-05-08T18:40:04Z'
-    confirmed_by: qa-laag1-auto
-    rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    status: unreviewed
+    confirmed_at:
+    confirmed_by:
+    rationale:
     layer1:
-      verdict: pass
+      status: pass
+      run_id: 20260511-083333
+      run_at:
       heading_count: 2
-      max_section_chars: 2518
-      file_size_chars: 5160
+      max_section_chars: 2519
+      file_size_chars: 5162
       flags: []
-      run_id: 20260509-212552
+    layer2:
+      status: not_run
+      agent:
+      run_at:
+      rationale:
+      concrete_problemen: []
 ---
 
 # CBN-advies 2018/13 – Provisie aanvullende dagen verlof – Arbeidsduurvermindering

@@ -1,15 +1,15 @@
 ---
-tags: ["XV", "1.5", "3.1", "3.2"]
-itaa-lex-sectie: "XV"
-wet: "Wetboek van vennootschappen en verenigingen 23/03/2019"
-bron_rol: "itaa_lex"
-status: "beschikbaar"
-bijgewerkt: "24.12.2025"
-bron: "ejustice.just.fgov.be (gecoördineerde versie)"
+tags: [XV, '1.5', '3.1', '3.2']
+itaa-lex-sectie: XV
+wet: Wetboek van vennootschappen en verenigingen 23/03/2019
+bron_rol: itaa_lex
+status: beschikbaar
+bijgewerkt: 24.12.2025
+bron: ejustice.just.fgov.be (gecoördineerde versie)
 chunk:
   level: 6
-  type: "Art."
-  sub_strategy: "per_definitieblok"
+  type: Art.
+  sub_strategy: per_definitieblok
 provenance:
   inputs:
     - id: resources/raw/wetteksten/WVV.pdf
@@ -25,37 +25,23 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    qa_version: trust-rework-2
     confirmed_at: '2026-05-09T21:27:46Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: L1=pass
-    agent_verdict_at: '2026-05-09T21:27:46Z'
-    sample_pick: false
-    sample_reviewed_at:
-    sample_reviewed_by:
     layer1:
-      verdict: pass
+      status: pass
+      run_id: 20260509-212552
+      run_at:
       heading_count: 1866
       max_section_chars: 4305
       file_size_chars: 1571172
       flags: []
-      run_id: 20260509-212552
-    layer1_5_diff:
-      verdict: improvement
-      rationale: 'Auto-synthesized: ETL-fixes vandaag (NBSP, sub_strategy, justel-extractor, etc.) verbeteren bestaande versie.'
-      kritieke_observaties: []
-      auto: true
-      run_id: trust-finalize-1
-    layer2_content:
-      verdict: trusted
+    layer2:
+      status: trusted
+      agent:
+      run_at:
       rationale: 'Strakke wettekst-extractie: 1866 headings, max sectie 4305 chars. DEEL/BOEK/TITEL-hierarchie + Art. X:Y-vorm correct.'
-      problemen: []
-      sterkte:
-        - Boek-Titel-Art. structuur volledig intact
-        - Geen scrambling, geen FR-leak
-        - Definitieblok (Art. 1:1, 1:2, ...) aanwezig
-      auto: false
-      run_id: qa-batch-W4
+      concrete_problemen: []
 ---
 
 # Wetboek van vennootschappen en verenigingen 23/03/2019

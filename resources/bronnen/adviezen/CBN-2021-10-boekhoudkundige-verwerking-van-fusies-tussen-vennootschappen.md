@@ -1,66 +1,70 @@
 ---
-nummer: "CBN-advies 2021/10"
-datum: 2021-07-02
-themas:
-  - fusie
-  - reorganisatie
-  - continuïteit
-  - fusie door overneming
-  - fractiewaarde
-  - ruilverhouding
-  - ruilwaarde
-  - eigen aandelen
-  - nominale waarde
-  - proportionele overname
-  - opleg in geld
-  - geldopleg
-  - kapitaalsubsidie
-  - herwaarderingsmeerwaarde
-  - wedersamenstelling van het eigen vermogen
 bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-fusies-tussen-vennootschappen
+datum: 2021-07-02
+gerelateerde_adviezen:
+- datum: '2022-09-23'
+  titel: Boekhoudkundige verwerking van fusies tussen verenigingen en stichtingen
+  url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-fusies-tussen-verenigingen-en-stichtingen
+- datum: '2022-02-15'
+  titel: Fusies en splitsingen van vennootschappen met een negatief nettoactief
+  url: https://www.cbn-cnc.be/nl/adviezen/fusies-en-splitsingen-van-vennootschappen-met-een-negatief-nettoactief
+- datum: '2021-11-22'
+  titel: 'Verenigingen en stichtingen: compensatie van negatieve fondsen'
+  url: https://www.cbn-cnc.be/nl/adviezen/verenigingen-en-stichtingen-compensatie-van-negatieve-fondsen
+- datum: '2018-12-07'
+  titel: Begin van het boekjaar
+  url: https://www.cbn-cnc.be/nl/adviezen/begin-van-het-boekjaar
+nummer: CBN-advies 2021/10
 provenance:
+  generated_at: '2026-05-08T18:38:00Z'
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-fusies-tussen-vennootschappen
-      sha256: 3790a16041b65701836ff1734be487b952cc0233a7b050a8232a2df96c20b8e3
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-fusies-tussen-vennootschappen
+    sha256: 3790a16041b65701836ff1734be487b952cc0233a7b050a8232a2df96c20b8e3
+    version: null
+  stale: false
+  stale_reason: null
   tooling:
+    model: null
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:38:00Z'
-  stale: false
-  stale_reason:
+    prompt_version: null
   trust:
-    status: trusted
-    qa_version:
     confirmed_at: '2026-05-08T19:02:27Z'
     confirmed_by: subagent-laag2-ronde2
-    rationale: '[Laag-2-R2 2026-05-08] 26 headings voor technisch complex advies over fusies. Lange sectie bevat genummerde voorbeelden met balansen, maar inhoud is volledig en correct genesteld.'
     layer1:
-      verdict: warn
+      file_size_chars: 76921
+      flags: []
       heading_count: 26
-      max_section_chars: 58028
-      file_size_chars: 76916
-      flags:
-        - name: max_section_size
-          status: warn
-          detail: 'langste sectie op ##-niveau: 58028 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
-          samples: []
-      run_id: 20260509-212552
-gerelateerde_adviezen:
-  - titel: Boekhoudkundige verwerking van fusies tussen verenigingen en stichtingen
-    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-fusies-tussen-verenigingen-en-stichtingen
-    datum: '2022-09-23'
-  - titel: Fusies en splitsingen van vennootschappen met een negatief nettoactief
-    url: https://www.cbn-cnc.be/nl/adviezen/fusies-en-splitsingen-van-vennootschappen-met-een-negatief-nettoactief
-    datum: '2022-02-15'
-  - titel: 'Verenigingen en stichtingen: compensatie van negatieve fondsen'
-    url: https://www.cbn-cnc.be/nl/adviezen/verenigingen-en-stichtingen-compensatie-van-negatieve-fondsen
-    datum: '2021-11-22'
-  - titel: Begin van het boekjaar
-    url: https://www.cbn-cnc.be/nl/adviezen/begin-van-het-boekjaar
-    datum: '2018-12-07'
+      max_section_chars: 18947
+      run_at: null
+      run_id: 20260511-083333
+      status: pass
+    layer2:
+      agent: subagent-laag2-ronde2
+      concrete_problemen: []
+      rationale: '[Laag-2-R2 2026-05-08] 26 headings voor technisch complex advies
+        over fusies. Lange sectie bevat genummerde voorbeelden met balansen, maar
+        inhoud is volledig en correct genesteld.'
+      run_at: '2026-05-08T19:02:27Z'
+      status: trusted
+    rationale: Laag-2 trusted door subagent-laag2-ronde2 (zie layer2.rationale)
+    status: trusted
+themas:
+- fusie
+- reorganisatie
+- continuïteit
+- fusie door overneming
+- fractiewaarde
+- ruilverhouding
+- ruilwaarde
+- eigen aandelen
+- nominale waarde
+- proportionele overname
+- opleg in geld
+- geldopleg
+- kapitaalsubsidie
+- herwaarderingsmeerwaarde
+- wedersamenstelling van het eigen vermogen
 ---
 
 # CBN-advies 2021/10 – Boekhoudkundige verwerking van fusies tussen vennootschappen

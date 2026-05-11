@@ -2,48 +2,53 @@
 nummer: CBN-advies 2009/15
 datum: 2009-12-16
 themas:
-- continuïteitsbeginsel
-- fiscale aspecten
-- inbreng van een algemeenheid van goederen
-- inbreng van een onderdeel van een onderneming
+  - continuïteitsbeginsel
+  - fiscale aspecten
+  - inbreng van een algemeenheid van goederen
+  - inbreng van een onderdeel van een onderneming
 bron: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-inbreng-van-een-bedrijfstak-of-van-een-algemeenheid
 provenance:
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-inbreng-van-een-bedrijfstak-of-van-een-algemeenheid
-    sha256: 040d3c605891795bded2e48e8a8839bb399079cfc2f275c721df16354f76a6d7
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-inbreng-van-een-bedrijfstak-of-van-een-algemeenheid
+      sha256: 040d3c605891795bded2e48e8a8839bb399079cfc2f275c721df16354f76a6d7
+      version:
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model: null
-    prompt_version: null
+    model:
+    prompt_version:
   generated_at: '2026-05-08T18:35:54Z'
   stale: false
-  stale_reason: null
+  stale_reason:
   trust:
-    status: trusted
-    qa_version: trust-rework-2
-    confirmed_at: '2026-05-08T18:40:03Z'
-    confirmed_by: qa-laag1-auto
-    rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    status: unreviewed
+    confirmed_at:
+    confirmed_by:
+    rationale:
     layer1:
-      verdict: pass
+      status: pass
+      run_id: 20260511-083333
+      run_at:
       heading_count: 4
-      max_section_chars: 12934
-      file_size_chars: 15641
+      max_section_chars: 12126
+      file_size_chars: 15642
       flags: []
-      run_id: 20260509-212552
+    layer2:
+      status: not_run
+      agent:
+      run_at:
+      rationale:
+      concrete_problemen: []
 gerelateerde_adviezen:
-- titel: Boekhoudkundige verwerking van fusies tussen verenigingen en stichtingen
-  url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-fusies-tussen-verenigingen-en-stichtingen
-  datum: '2022-09-23'
-- titel: Wijziging van het boekhoudkundig referentiestelsel
-  url: https://www.cbn-cnc.be/nl/adviezen/wijziging-van-het-boekhoudkundig-referentiestelsel
-  datum: '2022-07-20'
-- titel: Verwerking in de jaarrekening van bepaalde verrichtingen als bedoeld in artikel
-    677 van het Wetboek van vennootschappen
-  url: https://www.cbn-cnc.be/nl/adviezen/verwerking-in-de-jaarrekening-van-bepaalde-verrichtingen-als-bedoeld-in-artikel-677-van
-  datum: '2002-05-01'
+  - titel: Boekhoudkundige verwerking van fusies tussen verenigingen en stichtingen
+    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-fusies-tussen-verenigingen-en-stichtingen
+    datum: '2022-09-23'
+  - titel: Wijziging van het boekhoudkundig referentiestelsel
+    url: https://www.cbn-cnc.be/nl/adviezen/wijziging-van-het-boekhoudkundig-referentiestelsel
+    datum: '2022-07-20'
+  - titel: Verwerking in de jaarrekening van bepaalde verrichtingen als bedoeld in artikel 677 van het Wetboek van vennootschappen
+    url: https://www.cbn-cnc.be/nl/adviezen/verwerking-in-de-jaarrekening-van-bepaalde-verrichtingen-als-bedoeld-in-artikel-677-van
+    datum: '2002-05-01'
 ---
 
 # CBN-advies 2009/15 - De boekhoudkundige verwerking van de inbreng van een bedrijfstak1 of van een algemeenheid van goederen

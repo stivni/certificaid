@@ -2,38 +2,44 @@
 nummer: CBN-advies 132/6
 datum: 1993-12-01
 themas:
-- gefactureerde vooruitbetalingen
-- voorraden
-- Vooruitbetaling
-- waardering
-- waardering van voorraden
+  - gefactureerde vooruitbetalingen
+  - voorraden
+  - Vooruitbetaling
+  - waardering
+  - waardering van voorraden
 bron: https://www.cbn-cnc.be/nl/adviezen/vooruitbetalingen
 provenance:
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/vooruitbetalingen
-    sha256: f39529e8410b2cd371795a771f1e28a0d40fdd73287e098c06b0fef08e3a1f37
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/vooruitbetalingen
+      sha256: f39529e8410b2cd371795a771f1e28a0d40fdd73287e098c06b0fef08e3a1f37
+      version:
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model: null
-    prompt_version: null
+    model:
+    prompt_version:
   generated_at: '2026-05-08T18:34:52Z'
   stale: false
-  stale_reason: null
+  stale_reason:
   trust:
-    status: trusted
-    qa_version: trust-rework-2
-    confirmed_at: '2026-05-08T18:40:03Z'
-    confirmed_by: qa-laag1-auto
-    rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    status: unreviewed
+    confirmed_at:
+    confirmed_by:
+    rationale:
     layer1:
-      verdict: pass
+      status: pass
+      run_id: 20260511-083333
+      run_at:
       heading_count: 0
-      max_section_chars: 3513
-      file_size_chars: 3513
+      max_section_chars: 3514
+      file_size_chars: 3514
       flags: []
-      run_id: 20260509-212552
+    layer2:
+      status: not_run
+      agent:
+      run_at:
+      rationale:
+      concrete_problemen: []
 ---
 
 # CBN-advies 132/6 - Vooruitbetalingen

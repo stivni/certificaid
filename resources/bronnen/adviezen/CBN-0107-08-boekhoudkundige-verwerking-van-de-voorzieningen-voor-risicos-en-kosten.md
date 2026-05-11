@@ -2,37 +2,43 @@
 nummer: CBN-advies 107/8
 datum: 1988-06-01
 themas:
-- fiscale voorziening
-- voorziening
-- voorzieningen met een financieel karakter
-- voorzieningen voor risico&#039;s en kosten
+  - fiscale voorziening
+  - voorziening
+  - voorzieningen met een financieel karakter
+  - voorzieningen voor risico&#039;s en kosten
 bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-voorzieningen-voor-risicos-en-kosten
 provenance:
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-voorzieningen-voor-risicos-en-kosten
-    sha256: d753bc74c5fd679b41db4da5185b9d315db89113f7fc81e0cf1c003ccd4d619d
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-voorzieningen-voor-risicos-en-kosten
+      sha256: d753bc74c5fd679b41db4da5185b9d315db89113f7fc81e0cf1c003ccd4d619d
+      version:
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model: null
-    prompt_version: null
+    model:
+    prompt_version:
   generated_at: '2026-05-08T18:33:59Z'
   stale: false
-  stale_reason: null
+  stale_reason:
   trust:
-    status: trusted
-    qa_version: trust-rework-2
-    confirmed_at: '2026-05-08T18:40:02Z'
-    confirmed_by: qa-laag1-auto
-    rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    status: unreviewed
+    confirmed_at:
+    confirmed_by:
+    rationale:
     layer1:
-      verdict: pass
+      status: pass
+      run_id: 20260511-083333
+      run_at:
       heading_count: 0
-      max_section_chars: 2993
-      file_size_chars: 2993
+      max_section_chars: 2995
+      file_size_chars: 2995
       flags: []
-      run_id: 20260509-212552
+    layer2:
+      status: not_run
+      agent:
+      run_at:
+      rationale:
+      concrete_problemen: []
 ---
 
 # CBN-advies 107/8 - Boekhoudkundige verwerking van de voorzieningen voor risico's en kosten

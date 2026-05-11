@@ -1,14 +1,14 @@
 ---
-tags: ["XII"]
-itaa-lex-sectie: "XII"
-wet: "Strafwetboek 8 juni 1867 (Oud Strafwetboek)"
-bron_rol: "itaa_lex"
-status: "beschikbaar"
-bijgewerkt: "gecoördineerd"
-bron: "ejustice.just.fgov.be (gecoördineerde versie)"
+tags: [XII]
+itaa-lex-sectie: XII
+wet: Strafwetboek 8 juni 1867 (Oud Strafwetboek)
+bron_rol: itaa_lex
+status: beschikbaar
+bijgewerkt: gecoördineerd
+bron: ejustice.just.fgov.be (gecoördineerde versie)
 chunk:
   level: 6
-  type: "Art."
+  type: Art.
   sub_strategy:
 provenance:
   inputs:
@@ -25,37 +25,23 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    qa_version: trust-rework-2
     confirmed_at: '2026-05-09T21:27:46Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: L1=pass
-    agent_verdict_at: '2026-05-09T21:27:46Z'
-    sample_pick: false
-    sample_reviewed_at:
-    sample_reviewed_by:
     layer1:
-      verdict: pass
+      status: pass
+      run_id: 20260509-212552
+      run_at:
       heading_count: 1045
       max_section_chars: 14398
       file_size_chars: 658733
       flags: []
-      run_id: 20260509-212552
-    layer1_5_diff:
-      verdict: improvement
-      rationale: 'Auto-synthesized: ETL-fixes vandaag (NBSP, sub_strategy, justel-extractor, etc.) verbeteren bestaande versie.'
-      kritieke_observaties: []
-      auto: true
-      run_id: trust-finalize-1
-    layer2_content:
-      verdict: trusted
+    layer2:
+      status: trusted
+      agent:
+      run_at:
       rationale: 'Heldere structuur met ###### Art. 1 t/m Art. 566, Boek/Hoofdstuk-headings consistent. Frontmatter correct. Geen NBSP/scrambled/kolom-bleed gedetecteerd.'
-      problemen: []
-      sterkte:
-        - 884 Art.-headings
-        - consistente Boek/Hoofdstuk-hiërarchie
-        - correct slotartikel
-      auto: false
-      run_id: qa-batch-W2
+      concrete_problemen: []
 ---
 
 # Strafwetboek 8 juni 1867 (Oud Strafwetboek)

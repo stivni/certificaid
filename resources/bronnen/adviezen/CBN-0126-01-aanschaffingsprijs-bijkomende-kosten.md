@@ -2,49 +2,54 @@
 nummer: CBN-advies 126/1
 datum: 1980-06-01
 themas:
-- aanschaffingsprijs
-- bijkomende kost
+  - aanschaffingsprijs
+  - bijkomende kost
 bron: https://www.cbn-cnc.be/nl/adviezen/aanschaffingsprijs-bijkomende-kosten
 provenance:
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/aanschaffingsprijs-bijkomende-kosten
-    sha256: f91c0913b88b6d736f037df8ae902e7cb5fdc3efc7b1e6a1defa2d57a606f951
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/aanschaffingsprijs-bijkomende-kosten
+      sha256: f91c0913b88b6d736f037df8ae902e7cb5fdc3efc7b1e6a1defa2d57a606f951
+      version:
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model: null
-    prompt_version: null
+    model:
+    prompt_version:
   generated_at: '2026-05-08T18:34:34Z'
   stale: false
-  stale_reason: null
+  stale_reason:
   trust:
-    status: trusted
-    qa_version: trust-rework-2
-    confirmed_at: '2026-05-08T18:40:03Z'
-    confirmed_by: qa-laag1-auto
-    rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    status: unreviewed
+    confirmed_at:
+    confirmed_by:
+    rationale:
     layer1:
-      verdict: pass
+      status: pass
+      run_id: 20260511-083333
+      run_at:
       heading_count: 0
-      max_section_chars: 2361
-      file_size_chars: 2361
+      max_section_chars: 2362
+      file_size_chars: 2362
       flags: []
-      run_id: 20260509-212552
+    layer2:
+      status: not_run
+      agent:
+      run_at:
+      rationale:
+      concrete_problemen: []
 gerelateerde_adviezen:
-- titel: 'Aanschaffingsprijs : bijkomende kosten (update) [ONTWERP]'
-  url: https://www.cbn-cnc.be/nl/adviezen/aanschaffingsprijs-bijkomende-kosten-update-ontwerp
-  datum: '2025-06-06'
-- titel: 'Invoer: douanerechten en verlegging van de heffing van de btw'
-  url: https://www.cbn-cnc.be/nl/adviezen/invoer-douanerechten-en-verlegging-van-de-heffing-van-de-btw
-  datum: '2017-02-01'
-- titel: De boekhoudkundige verwerking van immateriële vaste activa
-  url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-immateriele-vaste-activa
-  datum: '2012-10-10'
-- titel: Bepaling van de aanschaffingswaarde van activa verkregen onder bezwarende
-    titel of om niet
-  url: https://www.cbn-cnc.be/nl/adviezen/bepaling-van-de-aanschaffingswaarde-van-activa-verkregen-onder-bezwarende-titel-of-om-niet
-  datum: '2002-05-01'
+  - titel: 'Aanschaffingsprijs : bijkomende kosten (update) [ONTWERP]'
+    url: https://www.cbn-cnc.be/nl/adviezen/aanschaffingsprijs-bijkomende-kosten-update-ontwerp
+    datum: '2025-06-06'
+  - titel: 'Invoer: douanerechten en verlegging van de heffing van de btw'
+    url: https://www.cbn-cnc.be/nl/adviezen/invoer-douanerechten-en-verlegging-van-de-heffing-van-de-btw
+    datum: '2017-02-01'
+  - titel: De boekhoudkundige verwerking van immateriële vaste activa
+    url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-immateriele-vaste-activa
+    datum: '2012-10-10'
+  - titel: Bepaling van de aanschaffingswaarde van activa verkregen onder bezwarende titel of om niet
+    url: https://www.cbn-cnc.be/nl/adviezen/bepaling-van-de-aanschaffingswaarde-van-activa-verkregen-onder-bezwarende-titel-of-om-niet
+    datum: '2002-05-01'
 ---
 
 # CBN-advies 126/1 - Aanschaffingsprijs : bijkomende kosten

@@ -2,38 +2,44 @@
 nummer: CBN-advies 2017/17
 datum: 2017-09-13
 themas:
-- factor
-- factoring
-- financiële schuld
-- handelsschuld
-- reverse factoring
+  - factor
+  - factoring
+  - financiële schuld
+  - handelsschuld
+  - reverse factoring
 bron: https://www.cbn-cnc.be/nl/adviezen/reverse-factoring
 provenance:
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/reverse-factoring
-    sha256: 7d0d3618b625430845800efb1502ad04dde9ffe0a8eedc32deb3f511d81ad5a0
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/reverse-factoring
+      sha256: 7d0d3618b625430845800efb1502ad04dde9ffe0a8eedc32deb3f511d81ad5a0
+      version:
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model: null
-    prompt_version: null
+    model:
+    prompt_version:
   generated_at: '2026-05-08T18:37:16Z'
   stale: false
-  stale_reason: null
+  stale_reason:
   trust:
-    status: trusted
-    qa_version: trust-rework-2
-    confirmed_at: '2026-05-08T18:40:04Z'
-    confirmed_by: qa-laag1-auto
-    rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    status: unreviewed
+    confirmed_at:
+    confirmed_by:
+    rationale:
     layer1:
-      verdict: pass
+      status: pass
+      run_id: 20260511-083333
+      run_at:
       heading_count: 2
       max_section_chars: 3510
-      file_size_chars: 4589
+      file_size_chars: 4590
       flags: []
-      run_id: 20260509-212552
+    layer2:
+      status: not_run
+      agent:
+      run_at:
+      rationale:
+      concrete_problemen: []
 ---
 
 # CBN-advies 2017/17 – Reverse factoring

@@ -2,45 +2,51 @@
 nummer: CBN-advies 171
 datum: 1995-03-01
 themas:
-- afvaldienstenonderneming
-- afvalstoffen
-- exploitatie van een stortplaats, steengroeve, kerncentrale, booreiland
-- financiële kosten
-- gereed produkt
-- goederen in bewerking
-- ondernemingen die afvalstoffen produceren
-- ophaling van afvalstoffen
-- sanering terrein
-- vervaardigingsprijs
-- Voorraad afvalstoffen
-- voorraden
+  - afvaldienstenonderneming
+  - afvalstoffen
+  - exploitatie van een stortplaats, steengroeve, kerncentrale, booreiland
+  - financiële kosten
+  - gereed produkt
+  - goederen in bewerking
+  - ondernemingen die afvalstoffen produceren
+  - ophaling van afvalstoffen
+  - sanering terrein
+  - vervaardigingsprijs
+  - Voorraad afvalstoffen
+  - voorraden
 bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-afvalstoffen
 provenance:
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-afvalstoffen
-    sha256: ef019e5fa8d5ff93cfeecf2422b2fa22e0858ffe7d0bbce9d35b95e64f9dcf00
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-afvalstoffen
+      sha256: ef019e5fa8d5ff93cfeecf2422b2fa22e0858ffe7d0bbce9d35b95e64f9dcf00
+      version:
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model: null
-    prompt_version: null
+    model:
+    prompt_version:
   generated_at: '2026-05-08T18:35:36Z'
   stale: false
-  stale_reason: null
+  stale_reason:
   trust:
-    status: trusted
-    qa_version: trust-rework-2
-    confirmed_at: '2026-05-08T18:40:03Z'
-    confirmed_by: qa-laag1-auto
-    rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    status: unreviewed
+    confirmed_at:
+    confirmed_by:
+    rationale:
     layer1:
-      verdict: pass
-      heading_count: 10
-      max_section_chars: 12057
-      file_size_chars: 12057
+      status: pass
+      run_id: 20260511-083333
+      run_at:
+      heading_count: 8
+      max_section_chars: 4182
+      file_size_chars: 12114
       flags: []
-      run_id: 20260509-212552
+    layer2:
+      status: not_run
+      agent:
+      run_at:
+      rationale:
+      concrete_problemen: []
 ---
 
 # CBN advies 171 - Boekhoudkundige verwerking van afvalstoffen

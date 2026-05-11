@@ -2,43 +2,49 @@
 nummer: CBN-advies 2015/3
 datum: 2015-07-08
 themas:
-- Inbreng van een algemeenheid
-- openbaarmaking
-- pseudofusie
-- publicatie
-- vereniging
-- vzw
+  - Inbreng van een algemeenheid
+  - openbaarmaking
+  - pseudofusie
+  - publicatie
+  - vereniging
+  - vzw
 bron: https://www.cbn-cnc.be/nl/adviezen/verplichting-tot-opstelling-en-publicatie-van-de-jaarrekening-door-de-inbrengende
 provenance:
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/verplichting-tot-opstelling-en-publicatie-van-de-jaarrekening-door-de-inbrengende
-    sha256: 51d0a7ca555ba03fa07a8ae71f03ce700531508f625947a1472d123f16fc1587
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/verplichting-tot-opstelling-en-publicatie-van-de-jaarrekening-door-de-inbrengende
+      sha256: 51d0a7ca555ba03fa07a8ae71f03ce700531508f625947a1472d123f16fc1587
+      version:
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model: null
-    prompt_version: null
+    model:
+    prompt_version:
   generated_at: '2026-05-08T18:36:48Z'
   stale: false
-  stale_reason: null
+  stale_reason:
   trust:
-    status: trusted
-    qa_version: trust-rework-2
-    confirmed_at: '2026-05-08T18:40:04Z'
-    confirmed_by: qa-laag1-auto
-    rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    status: unreviewed
+    confirmed_at:
+    confirmed_by:
+    rationale:
     layer1:
-      verdict: pass
-      heading_count: 4
-      max_section_chars: 3897
-      file_size_chars: 11020
+      status: pass
+      run_id: 20260511-083333
+      run_at:
+      heading_count: 3
+      max_section_chars: 3898
+      file_size_chars: 11175
       flags: []
-      run_id: 20260509-212552
+    layer2:
+      status: not_run
+      agent:
+      run_at:
+      rationale:
+      concrete_problemen: []
 gerelateerde_adviezen:
-- titel: Begin van het boekjaar
-  url: https://www.cbn-cnc.be/nl/adviezen/begin-van-het-boekjaar
-  datum: '2018-12-07'
+  - titel: Begin van het boekjaar
+    url: https://www.cbn-cnc.be/nl/adviezen/begin-van-het-boekjaar
+    datum: '2018-12-07'
 ---
 
 # CBN-advies 2015/3 - Verplichting tot opstelling en publicatie van de jaarrekening door de inbrengende vereniging in het kader van een pseudo-fusie

@@ -2,43 +2,49 @@
 nummer: CBN-advies 103/2
 datum: 1988-06-01
 themas:
-- commissionair
-- expediteur
-- makelaar
-- omzet
-- mandataris
-- tussenpersoon
+  - commissionair
+  - expediteur
+  - makelaar
+  - omzet
+  - mandataris
+  - tussenpersoon
 bron: https://www.cbn-cnc.be/nl/adviezen/omzet-van-expediteurs
 provenance:
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/omzet-van-expediteurs
-    sha256: 0fcedc7f243f950032bc4e7d023cbbc343cbbdbd46b67fc118a0782b048bf7c0
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/omzet-van-expediteurs
+      sha256: 0fcedc7f243f950032bc4e7d023cbbc343cbbdbd46b67fc118a0782b048bf7c0
+      version:
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model: null
-    prompt_version: null
+    model:
+    prompt_version:
   generated_at: '2026-05-08T18:33:45Z'
   stale: false
-  stale_reason: null
+  stale_reason:
   trust:
-    status: trusted
-    qa_version: trust-rework-2
-    confirmed_at: '2026-05-08T18:40:02Z'
-    confirmed_by: qa-laag1-auto
-    rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    status: unreviewed
+    confirmed_at:
+    confirmed_by:
+    rationale:
     layer1:
-      verdict: pass
+      status: pass
+      run_id: 20260511-083333
+      run_at:
       heading_count: 0
-      max_section_chars: 3951
-      file_size_chars: 3951
+      max_section_chars: 3996
+      file_size_chars: 3996
       flags: []
-      run_id: 20260509-212552
+    layer2:
+      status: not_run
+      agent:
+      run_at:
+      rationale:
+      concrete_problemen: []
 gerelateerde_adviezen:
-- titel: Omzet - Tussenpersonen
-  url: https://www.cbn-cnc.be/nl/adviezen/omzet-tussenpersonen
-  datum: '1977-08-01'
+  - titel: Omzet - Tussenpersonen
+    url: https://www.cbn-cnc.be/nl/adviezen/omzet-tussenpersonen
+    datum: '1977-08-01'
 ---
 
 # CBN advies 103/2 - Omzet van expediteurs

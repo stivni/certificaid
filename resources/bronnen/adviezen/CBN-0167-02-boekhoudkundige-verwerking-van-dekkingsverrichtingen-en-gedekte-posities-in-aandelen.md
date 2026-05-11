@@ -2,58 +2,64 @@
 nummer: CBN-advies 167/2
 datum: 1992-11-01
 themas:
-- aandelen
-- aandelenopties
-- call-optie
-- deelneming
-- dekking van een termijnverkoop door aankoop van een call-optie
-- dekkingsverrichting
-- gedekte posities in aandelen
-- optiecontract
-- opties
-- put-optie
-- waardering
-- koersschommeling
+  - aandelen
+  - aandelenopties
+  - call-optie
+  - deelneming
+  - dekking van een termijnverkoop door aankoop van een call-optie
+  - dekkingsverrichting
+  - gedekte posities in aandelen
+  - optiecontract
+  - opties
+  - put-optie
+  - waardering
+  - koersschommeling
 bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-dekkingsverrichtingen-en-gedekte-posities-in-aandelen
 provenance:
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-dekkingsverrichtingen-en-gedekte-posities-in-aandelen
-    sha256: aeaa0dec08e7842f94598d4cbb8e08274e27672f835f77e02013b4f75fc77e72
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-dekkingsverrichtingen-en-gedekte-posities-in-aandelen
+      sha256: aeaa0dec08e7842f94598d4cbb8e08274e27672f835f77e02013b4f75fc77e72
+      version:
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model: null
-    prompt_version: null
+    model:
+    prompt_version:
   generated_at: '2026-05-08T18:35:33Z'
   stale: false
-  stale_reason: null
+  stale_reason:
   trust:
-    status: trusted
-    qa_version: trust-rework-2
-    confirmed_at: '2026-05-08T18:40:03Z'
-    confirmed_by: qa-laag1-auto
-    rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    status: unreviewed
+    confirmed_at:
+    confirmed_by:
+    rationale:
     layer1:
-      verdict: pass
-      heading_count: 15
-      max_section_chars: 11182
-      file_size_chars: 41638
+      status: pass
+      run_id: 20260511-083333
+      run_at:
+      heading_count: 14
+      max_section_chars: 17429
+      file_size_chars: 41781
       flags: []
-      run_id: 20260509-212552
+    layer2:
+      status: not_run
+      agent:
+      run_at:
+      rationale:
+      concrete_problemen: []
 gerelateerde_adviezen:
-- titel: Terugbetaling van kapitaal in vreemde valuta aan de aandeelhouders
-  url: https://www.cbn-cnc.be/nl/adviezen/terugbetaling-van-kapitaal-in-vreemde-valuta-aan-de-aandeelhouders
-  datum: '2024-03-13'
-- titel: Dividenduitkering en kapitaalvermindering in natura
-  url: https://www.cbn-cnc.be/nl/adviezen/dividenduitkering-en-kapitaalvermindering-in-natura-0
-  datum: '2019-03-12'
-- titel: 'Verenigingen en stichtingen: certificatie van aandelen van handelsvennootschappen'
-  url: https://www.cbn-cnc.be/nl/adviezen/verenigingen-en-stichtingen-certificatie-van-aandelen-van-handelsvennootschappen
-  datum: '2016-09-07'
-- titel: Verrichtingen met betrekking tot inschrijvingsrechten
-  url: https://www.cbn-cnc.be/nl/adviezen/verrichtingen-met-betrekking-tot-inschrijvingsrechten
-  datum: '2016-03-09'
+  - titel: Terugbetaling van kapitaal in vreemde valuta aan de aandeelhouders
+    url: https://www.cbn-cnc.be/nl/adviezen/terugbetaling-van-kapitaal-in-vreemde-valuta-aan-de-aandeelhouders
+    datum: '2024-03-13'
+  - titel: Dividenduitkering en kapitaalvermindering in natura
+    url: https://www.cbn-cnc.be/nl/adviezen/dividenduitkering-en-kapitaalvermindering-in-natura-0
+    datum: '2019-03-12'
+  - titel: 'Verenigingen en stichtingen: certificatie van aandelen van handelsvennootschappen'
+    url: https://www.cbn-cnc.be/nl/adviezen/verenigingen-en-stichtingen-certificatie-van-aandelen-van-handelsvennootschappen
+    datum: '2016-09-07'
+  - titel: Verrichtingen met betrekking tot inschrijvingsrechten
+    url: https://www.cbn-cnc.be/nl/adviezen/verrichtingen-met-betrekking-tot-inschrijvingsrechten
+    datum: '2016-03-09'
 ---
 
 # Boekhoudkundige verwerking van dekkingsverrichtingen en gedekte posities in aandelen (Err., Bull. CBN, nr. 30, februari 1993, p. 8)

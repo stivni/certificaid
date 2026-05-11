@@ -2,37 +2,43 @@
 nummer: CBN-advies 2009/4
 datum: 2009-02-11
 themas:
-- centraal boek
-- ongesplitst dagboek
-- vereenvoudigde boekhouding
-- vzw
+  - centraal boek
+  - ongesplitst dagboek
+  - vereenvoudigde boekhouding
+  - vzw
 bron: https://www.cbn-cnc.be/nl/adviezen/model-van-ongesplitst-dagboek-zoals-bedoeld-in-artikel-2-van-het-koninklijk-besluit-van-26
 provenance:
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/model-van-ongesplitst-dagboek-zoals-bedoeld-in-artikel-2-van-het-koninklijk-besluit-van-26
-    sha256: 6f30587cbf2f8a2ac685ed3b4a90b51536ee9416c8fa0f16d54d06a311b623e7
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/model-van-ongesplitst-dagboek-zoals-bedoeld-in-artikel-2-van-het-koninklijk-besluit-van-26
+      sha256: 6f30587cbf2f8a2ac685ed3b4a90b51536ee9416c8fa0f16d54d06a311b623e7
+      version:
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model: null
-    prompt_version: null
+    model:
+    prompt_version:
   generated_at: '2026-05-08T18:35:48Z'
   stale: false
-  stale_reason: null
+  stale_reason:
   trust:
-    status: trusted
-    qa_version: trust-rework-2
-    confirmed_at: '2026-05-08T18:40:03Z'
-    confirmed_by: qa-laag1-auto
-    rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    status: unreviewed
+    confirmed_at:
+    confirmed_by:
+    rationale:
     layer1:
-      verdict: pass
+      status: pass
+      run_id: 20260511-083333
+      run_at:
       heading_count: 3
-      max_section_chars: 6249
-      file_size_chars: 6249
+      max_section_chars: 3333
+      file_size_chars: 6251
       flags: []
-      run_id: 20260509-212552
+    layer2:
+      status: not_run
+      agent:
+      run_at:
+      rationale:
+      concrete_problemen: []
 ---
 
 # CBN-advies 2009/4 - Model van ongesplitst dagboek zoals bedoeld in artikel 2 van het koninklijk besluit van 26 juni 2003 betreffende de vereenvoudigde boekhouding van bepaalde VZW’s, stichtingen en IVZW’s

@@ -1,52 +1,58 @@
 ---
-nummer: CBN-advies 2017/01
+bron: https://www.cbn-cnc.be/nl/adviezen/consortium-lidmaatschapsrechten-artikel-1401-5-bw
 datum: 2017-01-11
+gerelateerde_adviezen:
+- datum: '2022-07-27'
+  titel: Consolidatie bij de horizontale groep (consortium)
+  url: https://www.cbn-cnc.be/nl/adviezen/consolidatie-bij-de-horizontale-groep-consortium-0
+- datum: '2017-03-15'
+  titel: Consolidatie bij de horizontale groep (consortium)
+  url: https://www.cbn-cnc.be/nl/adviezen/consolidatie-bij-de-horizontale-groep-consortium
+- datum: '2017-05-31'
+  titel: Definiëring van EBIT / EBITDA na omzetting van de accountingrichtlijn 2013/34/EU
+  url: https://www.cbn-cnc.be/nl/adviezen/definiering-van-ebit-ebitda-na-omzetting-van-de-accountingrichtlijn-201334eu
+- datum: '2008-10-29'
+  titel: Advies horizontale consolidatie in combinatie met administratiekantoren
+  url: https://www.cbn-cnc.be/nl/adviezen/advies-horizontale-consolidatie-in-combinatie-met-administratiekantoren
+nummer: CBN-advies 2017/01
+provenance:
+  generated_at: '2026-05-08T18:37:09Z'
+  inputs:
+  - id: https://www.cbn-cnc.be/nl/adviezen/consortium-lidmaatschapsrechten-artikel-1401-5-bw
+    sha256: a397d849f1c680cf59cfed817d6bf75ce39e81aa1702c35163a101dc88e6452c
+    version: null
+  stale: false
+  stale_reason: null
+  tooling:
+    model: null
+    pipeline: tools/etl/scrape_cbn_advies.py
+    pipeline_version: uncommitted
+    prompt_version: null
+  trust:
+    confirmed_at: '2026-05-08T19:02:29Z'
+    confirmed_by: subagent-laag2-ronde2
+    layer1:
+      file_size_chars: 6425
+      flags: []
+      heading_count: 0
+      max_section_chars: 6425
+      run_at: null
+      run_id: 20260511-083333
+      status: pass
+    layer2:
+      agent: subagent-laag2-ronde2
+      concrete_problemen: []
+      rationale: '[Laag-2-R2 2026-05-08] Volledig modern advies (2017) met onweerlegbaar/weerlegbaar
+        vermoeden en concreet cijfervoorbeeld.'
+      run_at: '2026-05-08T19:02:29Z'
+      status: trusted
+    rationale: Laag-2 trusted door subagent-laag2-ronde2 (zie layer2.rationale)
+    status: trusted
 themas:
 - centrale leiding
 - consortium
 - horizontale groep
 - lidmaatschapsrechten
-bron: https://www.cbn-cnc.be/nl/adviezen/consortium-lidmaatschapsrechten-artikel-1401-5-bw
-provenance:
-  inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/consortium-lidmaatschapsrechten-artikel-1401-5-bw
-    sha256: a397d849f1c680cf59cfed817d6bf75ce39e81aa1702c35163a101dc88e6452c
-    version: null
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model: null
-    prompt_version: null
-  generated_at: '2026-05-08T18:37:09Z'
-  stale: false
-  stale_reason: null
-  trust:
-    status: trusted
-    qa_version: trust-rework-2
-    confirmed_at: '2026-05-08T19:02:29Z'
-    confirmed_by: subagent-laag2-ronde2
-    rationale: '[Laag-2-R2 2026-05-08] Volledig modern advies (2017) met onweerlegbaar/weerlegbaar
-      vermoeden en concreet cijfervoorbeeld.'
-    layer1:
-      verdict: pass
-      heading_count: 2
-      max_section_chars: 3500
-      file_size_chars: 6420
-      flags: []
-      run_id: 20260509-212552
-gerelateerde_adviezen:
-- titel: Consolidatie bij de horizontale groep (consortium)
-  url: https://www.cbn-cnc.be/nl/adviezen/consolidatie-bij-de-horizontale-groep-consortium-0
-  datum: '2022-07-27'
-- titel: Consolidatie bij de horizontale groep (consortium)
-  url: https://www.cbn-cnc.be/nl/adviezen/consolidatie-bij-de-horizontale-groep-consortium
-  datum: '2017-03-15'
-- titel: Definiëring van EBIT / EBITDA na omzetting van de accountingrichtlijn 2013/34/EU
-  url: https://www.cbn-cnc.be/nl/adviezen/definiering-van-ebit-ebitda-na-omzetting-van-de-accountingrichtlijn-201334eu
-  datum: '2017-05-31'
-- titel: Advies horizontale consolidatie in combinatie met administratiekantoren
-  url: https://www.cbn-cnc.be/nl/adviezen/advies-horizontale-consolidatie-in-combinatie-met-administratiekantoren
-  datum: '2008-10-29'
 ---
 
 # CBN-advies 2017/01 – Consortium: lidmaatschapsrechten (artikel 1401, 5 BW)

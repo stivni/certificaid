@@ -1,48 +1,52 @@
 ---
-nummer: "CBN-advies 2020/12"
-datum: 2020-04-06
-themas:
-  - aanpassing
-  - correctie
-  - fout
-  - jaarrekening
-  - verbetering
-  - verantwoordingsstukken
 bron: https://www.cbn-cnc.be/nl/adviezen/correctie-van-de-jaarrekening-0
+datum: 2020-04-06
+gerelateerde_adviezen:
+- datum: '2014-04-23'
+  titel: Correctie van de jaarrekening
+  url: https://www.cbn-cnc.be/nl/adviezen/correctie-van-de-jaarrekening
+nummer: CBN-advies 2020/12
 provenance:
+  generated_at: '2026-05-08T18:37:53Z'
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/correctie-van-de-jaarrekening-0
-      sha256: bd532c81178e67e06992b6e31e5ae2bf7e33611997008b2a1c78e9483cdf994d
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/correctie-van-de-jaarrekening-0
+    sha256: bd532c81178e67e06992b6e31e5ae2bf7e33611997008b2a1c78e9483cdf994d
+    version: null
+  stale: false
+  stale_reason: null
   tooling:
+    model: null
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:37:53Z'
-  stale: false
-  stale_reason:
+    prompt_version: null
   trust:
-    status: trusted
-    qa_version:
     confirmed_at: '2026-05-08T19:02:28Z'
     confirmed_by: subagent-laag2-ronde2
-    rationale: '[Laag-2-R2 2026-05-08] Het advies heeft 19 headings en behandelt volledig de correctie van jaarrekeningen na invoering van het WVV. TOC-dump op regel 65-68 is cosmetisch.'
     layer1:
-      verdict: warn
-      heading_count: 22
-      max_section_chars: 30447
-      file_size_chars: 49119
-      flags:
-        - name: max_section_size
-          status: warn
-          detail: 'langste sectie op ##-niveau: 30447 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
-          samples: []
-      run_id: 20260509-212552
-gerelateerde_adviezen:
-  - titel: Correctie van de jaarrekening
-    url: https://www.cbn-cnc.be/nl/adviezen/correctie-van-de-jaarrekening
-    datum: '2014-04-23'
+      file_size_chars: 49134
+      flags: []
+      heading_count: 19
+      max_section_chars: 23326
+      run_at: null
+      run_id: 20260511-083333
+      status: pass
+    layer2:
+      agent: subagent-laag2-ronde2
+      concrete_problemen: []
+      rationale: '[Laag-2-R2 2026-05-08] Het advies heeft 19 headings en behandelt
+        volledig de correctie van jaarrekeningen na invoering van het WVV. TOC-dump
+        op regel 65-68 is cosmetisch.'
+      run_at: '2026-05-08T19:02:28Z'
+      status: trusted
+    rationale: Laag-2 trusted door subagent-laag2-ronde2 (zie layer2.rationale)
+    status: trusted
+themas:
+- aanpassing
+- correctie
+- fout
+- jaarrekening
+- verbetering
+- verantwoordingsstukken
 ---
 
 # CBN-advies 2020/12 - Correctie van de jaarrekening

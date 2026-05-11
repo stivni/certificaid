@@ -2,48 +2,52 @@
 nummer: CBN-advies 2019/09
 datum: 2019-09-26
 themas:
-- boekhoudplichtige onderneming
-- vrij beroep
-- bestuurder
-- feitelijke vereniging
-- maatschap
-- bijkantoor
+  - boekhoudplichtige onderneming
+  - vrij beroep
+  - bestuurder
+  - feitelijke vereniging
+  - maatschap
+  - bijkantoor
 bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudplichtige-onderneming
 provenance:
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudplichtige-onderneming
-    sha256: d5cf095e91fad06fe74a290994e695a7dd043f59d198ff5b395bc18669aa0e4b
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudplichtige-onderneming
+      sha256: d5cf095e91fad06fe74a290994e695a7dd043f59d198ff5b395bc18669aa0e4b
+      version:
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model: null
-    prompt_version: null
+    model:
+    prompt_version:
   generated_at: '2026-05-08T18:37:41Z'
   stale: false
-  stale_reason: null
+  stale_reason:
   trust:
-    status: trusted
-    qa_version: trust-rework-2
-    confirmed_at: '2026-05-08T18:40:05Z'
-    confirmed_by: qa-laag1-auto
-    rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    status: unreviewed
+    confirmed_at:
+    confirmed_by:
+    rationale:
     layer1:
-      verdict: pass
+      status: pass
+      run_id: 20260511-083333
+      run_at:
       heading_count: 14
-      max_section_chars: 8059
-      file_size_chars: 24040
+      max_section_chars: 7295
+      file_size_chars: 24049
       flags: []
-      run_id: 20260509-212552
+    layer2:
+      status: not_run
+      agent:
+      run_at:
+      rationale:
+      concrete_problemen: []
 gerelateerde_adviezen:
-- titel: 'De vereenvoudigde boekhouding van een natuurlijke persoon, maatschap, vennootschap
-    onder firma en commanditaire vennootschap: groottecriteria – omzetdefinitie'
-  url: https://www.cbn-cnc.be/nl/adviezen/de-vereenvoudigde-boekhouding-van-een-natuurlijke-persoon-maatschap-vennootschap-onder
-  datum: '2019-10-28'
-- titel: De boekhoudkundige en jaarrekeningrechtelijke verplichtingen van een beoefenaar
-    van een vrij beroep
-  url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-en-jaarrekeningrechtelijke-verplichtingen-van-een-beoefenaar-van-een-0
-  datum: '2019-09-30'
+  - titel: 'De vereenvoudigde boekhouding van een natuurlijke persoon, maatschap, vennootschap onder firma en commanditaire vennootschap: groottecriteria – omzetdefinitie'
+    url: https://www.cbn-cnc.be/nl/adviezen/de-vereenvoudigde-boekhouding-van-een-natuurlijke-persoon-maatschap-vennootschap-onder
+    datum: '2019-10-28'
+  - titel: De boekhoudkundige en jaarrekeningrechtelijke verplichtingen van een beoefenaar van een vrij beroep
+    url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-en-jaarrekeningrechtelijke-verplichtingen-van-een-beoefenaar-van-een-0
+    datum: '2019-09-30'
 ---
 
 # CBN-advies 2019/09 – Boekhoudplichtige onderneming

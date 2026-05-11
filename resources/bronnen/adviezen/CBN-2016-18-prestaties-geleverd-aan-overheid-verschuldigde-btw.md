@@ -2,35 +2,41 @@
 nummer: CBN-advies 2016/18
 datum: 2016-09-07
 themas:
-- prestaties geleverd aan de overheid
-- btw
+  - prestaties geleverd aan de overheid
+  - btw
 bron: https://www.cbn-cnc.be/nl/adviezen/prestaties-geleverd-aan-overheid-verschuldigde-btw
 provenance:
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/prestaties-geleverd-aan-overheid-verschuldigde-btw
-    sha256: 715bff8867faddd422570e50039bcd071efc96661e150312323d2b3917573b70
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/prestaties-geleverd-aan-overheid-verschuldigde-btw
+      sha256: 715bff8867faddd422570e50039bcd071efc96661e150312323d2b3917573b70
+      version:
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model: null
-    prompt_version: null
+    model:
+    prompt_version:
   generated_at: '2026-05-08T18:37:03Z'
   stale: false
-  stale_reason: null
+  stale_reason:
   trust:
-    status: trusted
-    qa_version: trust-rework-2
-    confirmed_at: '2026-05-08T18:40:04Z'
-    confirmed_by: qa-laag1-auto
-    rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    status: unreviewed
+    confirmed_at:
+    confirmed_by:
+    rationale:
     layer1:
-      verdict: pass
+      status: pass
+      run_id: 20260511-083333
+      run_at:
       heading_count: 2
       max_section_chars: 2894
-      file_size_chars: 3950
+      file_size_chars: 3951
       flags: []
-      run_id: 20260509-212552
+    layer2:
+      status: not_run
+      agent:
+      run_at:
+      rationale:
+      concrete_problemen: []
 ---
 
 # CBN-advies 2016/18 – Prestaties geleverd aan overheid – verschuldigde btw

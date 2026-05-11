@@ -2,52 +2,57 @@
 nummer: CBN-advies 2010/10
 datum: 2010-07-14
 themas:
-- duur van het boekjaar
-- inventaris
-- uitzonderlijke omstandigheden
-- verkorting van het boekjaar
-- verlenging van het boekjaar
+  - duur van het boekjaar
+  - inventaris
+  - uitzonderlijke omstandigheden
+  - verkorting van het boekjaar
+  - verlenging van het boekjaar
 bron: https://www.cbn-cnc.be/nl/adviezen/duur-van-het-boekjaar
 provenance:
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/duur-van-het-boekjaar
-    sha256: 06050656a1a3287d47038c77e015d2b4d7685e4e667224bca541c077d305380a
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/duur-van-het-boekjaar
+      sha256: 06050656a1a3287d47038c77e015d2b4d7685e4e667224bca541c077d305380a
+      version:
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model: null
-    prompt_version: null
+    model:
+    prompt_version:
   generated_at: '2026-05-08T18:35:59Z'
   stale: false
-  stale_reason: null
+  stale_reason:
   trust:
-    status: trusted
-    qa_version: trust-rework-2
-    confirmed_at: '2026-05-08T18:40:03Z'
-    confirmed_by: qa-laag1-auto
-    rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    status: unreviewed
+    confirmed_at:
+    confirmed_by:
+    rationale:
     layer1:
-      verdict: pass
+      status: pass
+      run_id: 20260511-083333
+      run_at:
       heading_count: 0
-      max_section_chars: 4200
-      file_size_chars: 4200
+      max_section_chars: 4202
+      file_size_chars: 4202
       flags: []
-      run_id: 20260509-212552
+    layer2:
+      status: not_run
+      agent:
+      run_at:
+      rationale:
+      concrete_problemen: []
 gerelateerde_adviezen:
-- titel: Duur van het boekjaar (update) [ONTWERP]
-  url: https://www.cbn-cnc.be/nl/adviezen/duur-van-het-boekjaar-update-ontwerp
-  datum: '2025-04-30'
-- titel: Beoordeling van de groottecriteria overeenkomstig artikelen 1:24 en 1:25
-    van het Wetboek van vennootschappen en verenigingen
-  url: https://www.cbn-cnc.be/nl/adviezen/beoordeling-van-de-groottecriteria-overeenkomstig-artikelen-124-en-125-van-het-wetboek-van
-  datum: '2022-03-15'
-- titel: Beoordeling groottecriteria artikelen 15 en 15/1 W.Venn.
-  url: https://www.cbn-cnc.be/nl/adviezen/beoordeling-groottecriteria-artikelen-15-en-151-wvenn
-  datum: '2016-04-13'
-- titel: Duur van het boekjaar
-  url: https://www.cbn-cnc.be/nl/adviezen/duur-van-het-boekjaar-0
-  datum: '1977-12-01'
+  - titel: Duur van het boekjaar (update) [ONTWERP]
+    url: https://www.cbn-cnc.be/nl/adviezen/duur-van-het-boekjaar-update-ontwerp
+    datum: '2025-04-30'
+  - titel: Beoordeling van de groottecriteria overeenkomstig artikelen 1:24 en 1:25 van het Wetboek van vennootschappen en verenigingen
+    url: https://www.cbn-cnc.be/nl/adviezen/beoordeling-van-de-groottecriteria-overeenkomstig-artikelen-124-en-125-van-het-wetboek-van
+    datum: '2022-03-15'
+  - titel: Beoordeling groottecriteria artikelen 15 en 15/1 W.Venn.
+    url: https://www.cbn-cnc.be/nl/adviezen/beoordeling-groottecriteria-artikelen-15-en-151-wvenn
+    datum: '2016-04-13'
+  - titel: Duur van het boekjaar
+    url: https://www.cbn-cnc.be/nl/adviezen/duur-van-het-boekjaar-0
+    datum: '1977-12-01'
 ---
 
 # CBN-advies 2010-10 Duur van het boekjaar Advies van 14 juli 2010

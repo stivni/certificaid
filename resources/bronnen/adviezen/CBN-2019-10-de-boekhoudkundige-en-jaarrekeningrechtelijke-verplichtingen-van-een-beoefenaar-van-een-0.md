@@ -2,42 +2,48 @@
 nummer: CBN-advies 2019/10
 datum: 2019-09-30
 themas:
-- boekhoudkundige verplichting
-- vrij beroep
-- boekhoudplichtige onderneming
-- dubbele boekhouding
-- vereenvoudigde boekhouding
-- omzetcijfer
-- publicatie
-- openbaarmaking
-- jaarrekening
+  - boekhoudkundige verplichting
+  - vrij beroep
+  - boekhoudplichtige onderneming
+  - dubbele boekhouding
+  - vereenvoudigde boekhouding
+  - omzetcijfer
+  - publicatie
+  - openbaarmaking
+  - jaarrekening
 bron: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-en-jaarrekeningrechtelijke-verplichtingen-van-een-beoefenaar-van-een-0
 provenance:
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-en-jaarrekeningrechtelijke-verplichtingen-van-een-beoefenaar-van-een-0
-    sha256: 7d925eef4c564534b49c0be59c27ce430bea5653fea0641887cda8ac5c889f72
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-en-jaarrekeningrechtelijke-verplichtingen-van-een-beoefenaar-van-een-0
+      sha256: 7d925eef4c564534b49c0be59c27ce430bea5653fea0641887cda8ac5c889f72
+      version:
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model: null
-    prompt_version: null
+    model:
+    prompt_version:
   generated_at: '2026-05-08T18:37:42Z'
   stale: false
-  stale_reason: null
+  stale_reason:
   trust:
-    status: trusted
-    qa_version: trust-rework-2
-    confirmed_at: '2026-05-08T18:40:05Z'
-    confirmed_by: qa-laag1-auto
-    rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    status: unreviewed
+    confirmed_at:
+    confirmed_by:
+    rationale:
     layer1:
-      verdict: pass
+      status: pass
+      run_id: 20260511-083333
+      run_at:
       heading_count: 7
       max_section_chars: 6504
-      file_size_chars: 19080
+      file_size_chars: 19096
       flags: []
-      run_id: 20260509-212552
+    layer2:
+      status: not_run
+      agent:
+      run_at:
+      rationale:
+      concrete_problemen: []
 ---
 
 # CBN-advies 2019/10 – De boekhoudkundige en jaarrekeningrechtelijke verplichtingen van een beoefenaar van een vrij beroep

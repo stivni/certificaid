@@ -2,51 +2,55 @@
 nummer: CBN-advies R102/2
 datum: 1980-06-01
 themas:
-- liquide middelen
-- overschrijvingsorders
-- rekeningenstelsel
+  - liquide middelen
+  - overschrijvingsorders
+  - rekeningenstelsel
 bron: https://www.cbn-cnc.be/nl/adviezen/overschrijvingsorders
 provenance:
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/overschrijvingsorders
-    sha256: 635a0901ef6c360c34e87435452a016ae54fc83d195a62ea6e89240d525b2c60
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/overschrijvingsorders
+      sha256: 635a0901ef6c360c34e87435452a016ae54fc83d195a62ea6e89240d525b2c60
+      version:
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model: null
-    prompt_version: null
+    model:
+    prompt_version:
   generated_at: '2026-05-08T18:33:40Z'
   stale: false
-  stale_reason: null
+  stale_reason:
   trust:
-    status: trusted
-    qa_version: trust-rework-2
-    confirmed_at: '2026-05-08T18:40:02Z'
-    confirmed_by: qa-laag1-auto
-    rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    status: unreviewed
+    confirmed_at:
+    confirmed_by:
+    rationale:
     layer1:
-      verdict: pass
+      status: pass
+      run_id: 20260511-083333
+      run_at:
       heading_count: 0
-      max_section_chars: 1102
-      file_size_chars: 1102
+      max_section_chars: 1103
+      file_size_chars: 1103
       flags: []
-      run_id: 20260509-212552
+    layer2:
+      status: not_run
+      agent:
+      run_at:
+      rationale:
+      concrete_problemen: []
 gerelateerde_adviezen:
-- titel: Waarderen en boeken van cryptomunten gebruikt als betaalmiddel
-  url: https://www.cbn-cnc.be/nl/adviezen/waarderen-en-boeken-van-cryptomunten-gebruikt-als-betaalmiddel
-  datum: '2021-12-06'
-- titel: Verwerking in de jaarrekening van de door de Vlaamse regering gecreëerde
-    opleidingscheques
-  url: https://www.cbn-cnc.be/nl/adviezen/verwerking-in-de-jaarrekening-van-de-door-de-vlaamse-regering-gecreeerde-opleidingscheques
-  datum: '2008-12-01'
-- titel: Overheidsfondsen
-  url: https://www.cbn-cnc.be/nl/adviezen/overheidsfondsen
-  datum: '1984-01-01'
-- titel: 'Waardering van liquide middelen bij de jaarafsluiting : criterium voor de
-    toerekening aan een bepaald boekjaar'
-  url: https://www.cbn-cnc.be/nl/adviezen/waardering-van-liquide-middelen-bij-de-jaarafsluiting-criterium-voor-de-toerekening-aan
-  datum: '1981-12-01'
+  - titel: Waarderen en boeken van cryptomunten gebruikt als betaalmiddel
+    url: https://www.cbn-cnc.be/nl/adviezen/waarderen-en-boeken-van-cryptomunten-gebruikt-als-betaalmiddel
+    datum: '2021-12-06'
+  - titel: Verwerking in de jaarrekening van de door de Vlaamse regering gecreëerde opleidingscheques
+    url: https://www.cbn-cnc.be/nl/adviezen/verwerking-in-de-jaarrekening-van-de-door-de-vlaamse-regering-gecreeerde-opleidingscheques
+    datum: '2008-12-01'
+  - titel: Overheidsfondsen
+    url: https://www.cbn-cnc.be/nl/adviezen/overheidsfondsen
+    datum: '1984-01-01'
+  - titel: 'Waardering van liquide middelen bij de jaarafsluiting : criterium voor de toerekening aan een bepaald boekjaar'
+    url: https://www.cbn-cnc.be/nl/adviezen/waardering-van-liquide-middelen-bij-de-jaarafsluiting-criterium-voor-de-toerekening-aan
+    datum: '1981-12-01'
 ---
 
 # CBN-advies R102/2 - Overschrijvingsorders

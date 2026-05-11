@@ -2,48 +2,52 @@
 nummer: CBN-advies 2012/18
 datum: 2012-11-07
 themas:
-- aandelenopties
-- call-optie
-- put-optie
+  - aandelenopties
+  - call-optie
+  - put-optie
 bron: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-aandelenopties-als-zodanig
 provenance:
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-aandelenopties-als-zodanig
-    sha256: fc78f1e6b4713cd70bf6ff7237844f6824545cbb67521c65005f9e111f846db1
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-aandelenopties-als-zodanig
+      sha256: fc78f1e6b4713cd70bf6ff7237844f6824545cbb67521c65005f9e111f846db1
+      version:
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model: null
-    prompt_version: null
+    model:
+    prompt_version:
   generated_at: '2026-05-08T18:36:33Z'
   stale: false
-  stale_reason: null
+  stale_reason:
   trust:
-    status: trusted
-    qa_version: trust-rework-2
-    confirmed_at: '2026-05-08T18:40:04Z'
-    confirmed_by: qa-laag1-auto
-    rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    status: unreviewed
+    confirmed_at:
+    confirmed_by:
+    rationale:
     layer1:
-      verdict: pass
-      heading_count: 36
-      max_section_chars: 18811
-      file_size_chars: 39103
+      status: pass
+      run_id: 20260511-083333
+      run_at:
+      heading_count: 33
+      max_section_chars: 19984
+      file_size_chars: 39181
       flags: []
-      run_id: 20260509-212552
+    layer2:
+      status: not_run
+      agent:
+      run_at:
+      rationale:
+      concrete_problemen: []
 gerelateerde_adviezen:
-- titel: De boekhoudkundige verwerking van aandelenoptieplannen
-  url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-aandelenoptieplannen
-  datum: '2012-01-11'
-- titel: Boekhoudkundige verwerking van aandelenopties (als zodanig) (Err., Bull.
-    C.B. N., nr. 30, februari 1993, p. 8)
-  url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-aandelenopties-als-zodanig-err-bull-cb-n-nr-30-februari
-  datum: '1992-11-01'
-- titel: Boekhoudkundige verwerking van dekkingsverrichtingen en gedekte posities
-    in aandelen
-  url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-dekkingsverrichtingen-en-gedekte-posities-in-aandelen
-  datum: '1992-11-01'
+  - titel: De boekhoudkundige verwerking van aandelenoptieplannen
+    url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-aandelenoptieplannen
+    datum: '2012-01-11'
+  - titel: Boekhoudkundige verwerking van aandelenopties (als zodanig) (Err., Bull. C.B. N., nr. 30, februari 1993, p. 8)
+    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-aandelenopties-als-zodanig-err-bull-cb-n-nr-30-februari
+    datum: '1992-11-01'
+  - titel: Boekhoudkundige verwerking van dekkingsverrichtingen en gedekte posities in aandelen
+    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-dekkingsverrichtingen-en-gedekte-posities-in-aandelen
+    datum: '1992-11-01'
 ---
 
 # CBN advies 2012/18 – De boekhoudkundige verwerking van aandelenopties (als zodanig)

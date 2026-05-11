@@ -2,55 +2,58 @@
 nummer: CBN-advies 126/8
 datum: 1989-09-01
 themas:
-- aanschaffingswaarde
-- aanschaffingswaarde met prijstoeslag
-- financiële vaste activa
-- goodwill
-- prijstoeslag
-- waardering
+  - aanschaffingswaarde
+  - aanschaffingswaarde met prijstoeslag
+  - financiële vaste activa
+  - goodwill
+  - prijstoeslag
+  - waardering
 bron: https://www.cbn-cnc.be/nl/adviezen/financiele-vaste-activa-waardering-aanschaffingswaarde-met-prijstoeslag
 provenance:
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/financiele-vaste-activa-waardering-aanschaffingswaarde-met-prijstoeslag
-    sha256: 4b57bfa3765f48385641a5aefa9eb18e738cb29aedb726a08575ea39621299ee
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/financiele-vaste-activa-waardering-aanschaffingswaarde-met-prijstoeslag
+      sha256: 4b57bfa3765f48385641a5aefa9eb18e738cb29aedb726a08575ea39621299ee
+      version:
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model: null
-    prompt_version: null
+    model:
+    prompt_version:
   generated_at: '2026-05-08T18:34:39Z'
   stale: false
-  stale_reason: null
+  stale_reason:
   trust:
-    status: trusted
-    qa_version: trust-rework-2
-    confirmed_at: '2026-05-08T18:40:03Z'
-    confirmed_by: qa-laag1-auto
-    rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    status: unreviewed
+    confirmed_at:
+    confirmed_by:
+    rationale:
     layer1:
-      verdict: pass
+      status: pass
+      run_id: 20260511-083333
+      run_at:
       heading_count: 2
       max_section_chars: 3013
-      file_size_chars: 6924
+      file_size_chars: 6925
       flags: []
-      run_id: 20260509-212552
+    layer2:
+      status: not_run
+      agent:
+      run_at:
+      rationale:
+      concrete_problemen: []
 gerelateerde_adviezen:
-- titel: Aanschaffingswaarde bij de aankoop van een goed tegen betaling van een vaste
-    prijs, verschuldigd over een periode van meer dan één jaar
-  url: https://www.cbn-cnc.be/nl/adviezen/aanschaffingswaarde-bij-de-aankoop-van-een-goed-tegen-betaling-van-een-vaste-prijs-0
-  datum: '2021-03-15'
-- titel: Dividenduitkering en kapitaalvermindering in natura
-  url: https://www.cbn-cnc.be/nl/adviezen/dividenduitkering-en-kapitaalvermindering-in-natura-0
-  datum: '2019-03-12'
-- titel: Boekhoudkundige verwerking van de vergoeding voor een borg in het kader van
-    de financiering van een voor verkoop bestemd onroerend goed
-  url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-vergoeding-voor-een-borg-in-het-kader-van-de
-  datum: '2017-05-31'
-- titel: De boekhoudkundige verwerking van een herziening van de btw op een aangekocht
-    bedrijfsmiddel
-  url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-een-herziening-van-de-btw-op-een-aangekocht
-  datum: '2013-05-08'
+  - titel: Aanschaffingswaarde bij de aankoop van een goed tegen betaling van een vaste prijs, verschuldigd over een periode van meer dan één jaar
+    url: https://www.cbn-cnc.be/nl/adviezen/aanschaffingswaarde-bij-de-aankoop-van-een-goed-tegen-betaling-van-een-vaste-prijs-0
+    datum: '2021-03-15'
+  - titel: Dividenduitkering en kapitaalvermindering in natura
+    url: https://www.cbn-cnc.be/nl/adviezen/dividenduitkering-en-kapitaalvermindering-in-natura-0
+    datum: '2019-03-12'
+  - titel: Boekhoudkundige verwerking van de vergoeding voor een borg in het kader van de financiering van een voor verkoop bestemd onroerend goed
+    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-vergoeding-voor-een-borg-in-het-kader-van-de
+    datum: '2017-05-31'
+  - titel: De boekhoudkundige verwerking van een herziening van de btw op een aangekocht bedrijfsmiddel
+    url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-een-herziening-van-de-btw-op-een-aangekocht
+    datum: '2013-05-08'
 ---
 
 # CBN-advies 126/8 - Financiële vaste activa - Waardering - Aanschaffingswaarde met prijstoeslag

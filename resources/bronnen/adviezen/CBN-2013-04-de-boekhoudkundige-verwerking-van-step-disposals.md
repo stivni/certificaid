@@ -2,52 +2,55 @@
 nummer: CBN-advies 2013/4
 datum: 2013-02-20
 themas:
-- consolidatie
-- stapsgewijze vervreemding
-- step disposals
+  - consolidatie
+  - stapsgewijze vervreemding
+  - step disposals
 bron: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-step-disposals
 provenance:
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-step-disposals
-    sha256: 83db802d1f6c90ddba9a3a688e9306ab5885d26588cccedbe433728b7d68ce91
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-step-disposals
+      sha256: 83db802d1f6c90ddba9a3a688e9306ab5885d26588cccedbe433728b7d68ce91
+      version:
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model: null
-    prompt_version: null
+    model:
+    prompt_version:
   generated_at: '2026-05-08T21:30:11Z'
   stale: false
-  stale_reason: null
+  stale_reason:
   trust:
     status: trusted
-    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T21:31:11Z'
     confirmed_by: human
-    rationale: 'Herscraped na fix select_title(): gecombineerde H1 (COMMISSIE + titel)
-      correct gesplitst. Inhoud ongewijzigd t.o.v. vorig vertrouwd verdict. Laag 1
-      pass (of benign max_section warn).'
+    rationale: 'Herscraped na fix select_title(): gecombineerde H1 (COMMISSIE + titel) correct gesplitst. Inhoud ongewijzigd t.o.v. vorig vertrouwd verdict. Laag 1 pass (of benign max_section warn).'
     layer1:
-      verdict: pass
+      status: pass
+      run_id: 20260511-083333
+      run_at:
       heading_count: 4
-      max_section_chars: 11315
-      file_size_chars: 12336
+      max_section_chars: 7234
+      file_size_chars: 12337
       flags: []
-      run_id: 20260509-212552
+    layer2:
+      status: not_run
+      agent:
+      run_at:
+      rationale:
+      concrete_problemen: []
 gerelateerde_adviezen:
-- titel: Vermogensmutatiemethode
-  url: https://www.cbn-cnc.be/nl/adviezen/vermogensmutatiemethode
-  datum: '2022-09-09'
-- titel: Consolidatie bij de horizontale groep (consortium)
-  url: https://www.cbn-cnc.be/nl/adviezen/consolidatie-bij-de-horizontale-groep-consortium-0
-  datum: '2022-07-27'
-- titel: Transacties onder gemeenschappelijke leiding (Common control transactions)
-    (update)
-  url: https://www.cbn-cnc.be/nl/adviezen/transacties-onder-gemeenschappelijke-leiding-common-control-transactions-update
-  datum: '2017-09-13'
-- titel: Consolidatie bij de horizontale groep (consortium)
-  url: https://www.cbn-cnc.be/nl/adviezen/consolidatie-bij-de-horizontale-groep-consortium
-  datum: '2017-03-15'
+  - titel: Vermogensmutatiemethode
+    url: https://www.cbn-cnc.be/nl/adviezen/vermogensmutatiemethode
+    datum: '2022-09-09'
+  - titel: Consolidatie bij de horizontale groep (consortium)
+    url: https://www.cbn-cnc.be/nl/adviezen/consolidatie-bij-de-horizontale-groep-consortium-0
+    datum: '2022-07-27'
+  - titel: Transacties onder gemeenschappelijke leiding (Common control transactions) (update)
+    url: https://www.cbn-cnc.be/nl/adviezen/transacties-onder-gemeenschappelijke-leiding-common-control-transactions-update
+    datum: '2017-09-13'
+  - titel: Consolidatie bij de horizontale groep (consortium)
+    url: https://www.cbn-cnc.be/nl/adviezen/consolidatie-bij-de-horizontale-groep-consortium
+    datum: '2017-03-15'
 ---
 
 # CBN-advies 2013/4 – De boekhoudkundige verwerking van step disposals

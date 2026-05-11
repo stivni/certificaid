@@ -1,6 +1,40 @@
 ---
-nummer: CBN-advies 162/1
+bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-het-vruchtgebruik-van-aandelen-dat-onder-bezwarende-titel
 datum: 1990-06-01
+nummer: CBN-advies 162/1
+provenance:
+  generated_at: '2026-05-08T18:35:31Z'
+  inputs:
+  - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-het-vruchtgebruik-van-aandelen-dat-onder-bezwarende-titel
+    sha256: cb2d6cef0a7256635456a2255088bbbd139ebc29da7875d2b912f2bf776e6f9f
+    version: null
+  stale: false
+  stale_reason: null
+  tooling:
+    model: null
+    pipeline: tools/etl/scrape_cbn_advies.py
+    pipeline_version: uncommitted
+    prompt_version: null
+  trust:
+    confirmed_at: '2026-05-08T19:02:30Z'
+    confirmed_by: subagent-laag2-ronde2
+    layer1:
+      file_size_chars: 5433
+      flags: []
+      heading_count: 0
+      max_section_chars: 5433
+      run_at: null
+      run_id: 20260511-083333
+      status: pass
+    layer2:
+      agent: subagent-laag2-ronde2
+      concrete_problemen: []
+      rationale: '[Laag-2-R2 2026-05-08] Volledig in vijf genummerde punten: analogieredenering
+        vanuit materiële activa tot herkwalificatie als vorderingsrecht.'
+      run_at: '2026-05-08T19:02:30Z'
+      status: trusted
+    rationale: Laag-2 trusted door subagent-laag2-ronde2 (zie layer2.rationale)
+    status: trusted
 themas:
 - belegging met vast inkomen
 - financiële vaste activa
@@ -12,34 +46,6 @@ themas:
 - waardervermindering op aandelen
 - vruchtgebruik van aandelen onder bezwarende titel verworven
 - Waardevermindering
-bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-het-vruchtgebruik-van-aandelen-dat-onder-bezwarende-titel
-provenance:
-  inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-het-vruchtgebruik-van-aandelen-dat-onder-bezwarende-titel
-    sha256: cb2d6cef0a7256635456a2255088bbbd139ebc29da7875d2b912f2bf776e6f9f
-    version: null
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model: null
-    prompt_version: null
-  generated_at: '2026-05-08T18:35:31Z'
-  stale: false
-  stale_reason: null
-  trust:
-    status: trusted
-    qa_version: trust-rework-2
-    confirmed_at: '2026-05-08T19:02:30Z'
-    confirmed_by: subagent-laag2-ronde2
-    rationale: '[Laag-2-R2 2026-05-08] Volledig in vijf genummerde punten: analogieredenering
-      vanuit materiële activa tot herkwalificatie als vorderingsrecht.'
-    layer1:
-      verdict: pass
-      heading_count: 0
-      max_section_chars: 5432
-      file_size_chars: 5432
-      flags: []
-      run_id: 20260509-212552
 ---
 
 # CBN-advies 162/1 - Boekhoudkundige verwerking van het vruchtgebruik van aandelen dat onder bezwarende titel is verworven

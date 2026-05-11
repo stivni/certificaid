@@ -2,48 +2,52 @@
 nummer: CBN-advies 134/3
 datum: 1983-04-10
 themas:
-- fiscale steunmaatregel
-- investeringsaftrek
-- te betalen belasting
+  - fiscale steunmaatregel
+  - investeringsaftrek
+  - te betalen belasting
 bron: https://www.cbn-cnc.be/nl/adviezen/investeringsaftrek
 provenance:
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/investeringsaftrek
-    sha256: ebd205f826d7a7c05b2b063549f0802199c354e8db62d456585a413c5184bdac
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/investeringsaftrek
+      sha256: ebd205f826d7a7c05b2b063549f0802199c354e8db62d456585a413c5184bdac
+      version:
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model: null
-    prompt_version: null
+    model:
+    prompt_version:
   generated_at: '2026-05-08T18:34:56Z'
   stale: false
-  stale_reason: null
+  stale_reason:
   trust:
-    status: trusted
-    qa_version: trust-rework-2
-    confirmed_at: '2026-05-08T18:40:03Z'
-    confirmed_by: qa-laag1-auto
-    rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    status: unreviewed
+    confirmed_at:
+    confirmed_by:
+    rationale:
     layer1:
-      verdict: pass
+      status: pass
+      run_id: 20260511-083333
+      run_at:
       heading_count: 0
-      max_section_chars: 1525
-      file_size_chars: 1525
+      max_section_chars: 1527
+      file_size_chars: 1527
       flags: []
-      run_id: 20260509-212552
+    layer2:
+      status: not_run
+      agent:
+      run_at:
+      rationale:
+      concrete_problemen: []
 gerelateerde_adviezen:
-- titel: Vrijstelling ter versterking van de solvabiliteit en het eigen vermogen van
-    de vennootschappen ten gevolge van de COVID-19-pandemie in de vennootschapsbelasting
-  url: https://www.cbn-cnc.be/nl/adviezen/vrijstelling-ter-versterking-van-de-solvabiliteit-en-het-eigen-vermogen-van-de-0
-  datum: '2020-10-08'
-- titel: Belastingvrije provisie voor sociaal passief
-  url: https://www.cbn-cnc.be/nl/adviezen/belastingvrije-provisie-voor-sociaal-passief
-  datum: '1983-04-10'
-- titel: Verwerking in de boekhouding en de jaarrekening van de belastingbesparing
-    ingevoerd door het K.B. nr. 16 van 9 maart 1982
-  url: https://www.cbn-cnc.be/nl/adviezen/verwerking-in-de-boekhouding-en-de-jaarrekening-van-de-belastingbesparing-ingevoerd-door
-  datum: '1983-04-10'
+  - titel: Vrijstelling ter versterking van de solvabiliteit en het eigen vermogen van de vennootschappen ten gevolge van de COVID-19-pandemie in de vennootschapsbelasting
+    url: https://www.cbn-cnc.be/nl/adviezen/vrijstelling-ter-versterking-van-de-solvabiliteit-en-het-eigen-vermogen-van-de-0
+    datum: '2020-10-08'
+  - titel: Belastingvrije provisie voor sociaal passief
+    url: https://www.cbn-cnc.be/nl/adviezen/belastingvrije-provisie-voor-sociaal-passief
+    datum: '1983-04-10'
+  - titel: Verwerking in de boekhouding en de jaarrekening van de belastingbesparing ingevoerd door het K.B. nr. 16 van 9 maart 1982
+    url: https://www.cbn-cnc.be/nl/adviezen/verwerking-in-de-boekhouding-en-de-jaarrekening-van-de-belastingbesparing-ingevoerd-door
+    datum: '1983-04-10'
 ---
 
 # CBN-advies 134/3 - Investeringsaftrek

@@ -1,5 +1,5 @@
 ---
-nummer: "CBN-advies 2009/14"
+nummer: CBN-advies 2009/14
 datum: 2009-12-16
 themas:
   - certificaten
@@ -22,21 +22,27 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    qa_version:
     confirmed_at: '2026-05-08T21:19:09Z'
     confirmed_by: human
     rationale: "Heading-structuur hersteld: <p class='indented'> → ### headings. 18 headings op H3/H4-niveau over 71K chars. max_section_size warn is benign (meting op ## niveau, chunking op H4 niveau aanbevolen). Inhoud volledig."
     layer1:
-      verdict: warn
+      status: warn
+      run_id: 20260511-083333
+      run_at:
       heading_count: 18
-      max_section_chars: 71731
-      file_size_chars: 71731
+      max_section_chars: 30136
+      file_size_chars: 71732
       flags:
         - name: max_section_size
           status: warn
-          detail: 'langste sectie op ##-niveau: 71731 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
+          detail: 'langste sectie op ####-niveau: 30136 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
           samples: []
-      run_id: 20260509-212552
+    layer2:
+      status: not_run
+      agent:
+      run_at:
+      rationale:
+      concrete_problemen: []
 gerelateerde_adviezen:
   - titel: Advies met betrekking tot de jaarrekeningrechtelijke aspecten van de certificatie van aandelen van handelsvennootschappen(1)
     url: https://www.cbn-cnc.be/nl/adviezen/advies-met-betrekking-tot-de-jaarrekeningrechtelijke-aspecten-van-de-certificatie-van

@@ -1,15 +1,15 @@
 ---
-tags: ["IX", "2.6"]
-itaa-lex-sectie: "IX"
-wet: "Wetboek der Successierechten — federaal"
-bron_rol: "itaa_lex"
-status: "beschikbaar"
-bijgewerkt: "01.04.2026"
-bron: "Fisconetplus.be (officieuze gecoördineerde versie)"
+tags: [IX, '2.6']
+itaa-lex-sectie: IX
+wet: Wetboek der Successierechten — federaal
+bron_rol: itaa_lex
+status: beschikbaar
+bijgewerkt: 01.04.2026
+bron: Fisconetplus.be (officieuze gecoördineerde versie)
 chunk:
   level: 5
-  type: "Art."
-  sub_strategy: "per_definitieblok"
+  type: Art.
+  sub_strategy: per_definitieblok
 provenance:
   inputs:
     - id: resources/raw/wetteksten/successie-federaal.pdf
@@ -25,37 +25,23 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    qa_version: trust-rework-2
     confirmed_at: '2026-05-09T21:27:46Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: L1=pass
-    agent_verdict_at: '2026-05-09T21:27:46Z'
-    sample_pick: false
-    sample_reviewed_at:
-    sample_reviewed_by:
     layer1:
-      verdict: pass
+      status: pass
+      run_id: 20260509-212552
+      run_at:
       heading_count: 377
       max_section_chars: 4334
       file_size_chars: 377088
       flags: []
-      run_id: 20260509-212552
-    layer1_5_diff:
-      verdict: improvement
-      rationale: 'Auto-synthesized: ETL-fixes vandaag (NBSP, sub_strategy, justel-extractor, etc.) verbeteren bestaande versie.'
-      kritieke_observaties: []
-      auto: true
-      run_id: trust-finalize-1
-    layer2_content:
-      verdict: trusted
+    layer2:
+      status: trusted
+      agent:
+      run_at:
       rationale: 316 Art.-headings, frontmatter correct, geen TOC-bleed, geen max-section-warn. 66 '(…)'-placeholders zijn legitieme markers voor opgeheven of voorbehouden artikels — body-flow blijft leesbaar.
-      problemen: []
-      sterkte:
-        - 316 Art.-headings
-        - geen kolom-bleed of TOC-vervuiling
-        - schone frontmatter
-      auto: false
-      run_id: qa-batch-W2
+      concrete_problemen: []
 ---
 
 # Successierechten — federaal

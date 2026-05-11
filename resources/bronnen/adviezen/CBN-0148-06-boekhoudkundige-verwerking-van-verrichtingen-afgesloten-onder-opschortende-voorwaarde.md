@@ -1,53 +1,59 @@
 ---
-nummer: CBN-advies 148/6
+bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-verrichtingen-afgesloten-onder-opschortende-voorwaarde
 datum: 1995-03-01
+gerelateerde_adviezen:
+- datum: '2020-12-11'
+  titel: Boekhoudkundige verwerking van de aan-/verkoop van een actief via een geblokkeerde
+    rekening
+  url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-aan-verkoop-van-een-actief-via-een-geblokkeerde-0
+- datum: '2011-05-04'
+  titel: Overheidssubsidies
+  url: https://www.cbn-cnc.be/nl/adviezen/overheidssubsidies
+- datum: '2009-02-11'
+  titel: Boekhoudkundige verwerking van kapitaalsubsidies waarvan de toekenning en/of
+    de uitbetaling over verschillende jaren wordt gespreid
+  url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-kapitaalsubsidies-waarvan-de-toekenning-enof-de-uitbetaling
+nummer: CBN-advies 148/6
+provenance:
+  generated_at: '2026-05-08T18:35:15Z'
+  inputs:
+  - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-verrichtingen-afgesloten-onder-opschortende-voorwaarde
+    sha256: d68168fcce935fdf12f1c2d2d983924d931f38803033ef5f116f97b8f5d624fe
+    version: null
+  stale: false
+  stale_reason: null
+  tooling:
+    model: null
+    pipeline: tools/etl/scrape_cbn_advies.py
+    pipeline_version: uncommitted
+    prompt_version: null
+  trust:
+    confirmed_at: '2026-05-08T19:02:30Z'
+    confirmed_by: subagent-laag2-ronde2
+    layer1:
+      file_size_chars: 6118
+      flags: []
+      heading_count: 0
+      max_section_chars: 6118
+      run_at: null
+      run_id: 20260511-083333
+      status: pass
+    layer2:
+      agent: subagent-laag2-ronde2
+      concrete_problemen: []
+      rationale: '[Laag-2-R2 2026-05-08] Drie exhaustieve scenario''s met duidelijke
+        rechtsgevolgen, concrete wetsverwijzingen, praktijkgeval met overheidsgoedkeuring.
+        Volledig coherent als één chunk.'
+      run_at: '2026-05-08T19:02:30Z'
+      status: trusted
+    rationale: Laag-2 trusted door subagent-laag2-ronde2 (zie layer2.rationale)
+    status: trusted
 themas:
 - opschortende voorwaarde
 - toerekening van kosten en opbrengsten
 - verrichting onder opschortende voorwaarde
 - voorwaardelijke verbintenis
 - voorziening
-bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-verrichtingen-afgesloten-onder-opschortende-voorwaarde
-provenance:
-  inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-verrichtingen-afgesloten-onder-opschortende-voorwaarde
-    sha256: d68168fcce935fdf12f1c2d2d983924d931f38803033ef5f116f97b8f5d624fe
-    version: null
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model: null
-    prompt_version: null
-  generated_at: '2026-05-08T18:35:15Z'
-  stale: false
-  stale_reason: null
-  trust:
-    status: trusted
-    qa_version: trust-rework-2
-    confirmed_at: '2026-05-08T19:02:30Z'
-    confirmed_by: subagent-laag2-ronde2
-    rationale: '[Laag-2-R2 2026-05-08] Drie exhaustieve scenario''s met duidelijke
-      rechtsgevolgen, concrete wetsverwijzingen, praktijkgeval met overheidsgoedkeuring.
-      Volledig coherent als één chunk.'
-    layer1:
-      verdict: pass
-      heading_count: 0
-      max_section_chars: 6117
-      file_size_chars: 6117
-      flags: []
-      run_id: 20260509-212552
-gerelateerde_adviezen:
-- titel: Boekhoudkundige verwerking van de aan-/verkoop van een actief via een geblokkeerde
-    rekening
-  url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-aan-verkoop-van-een-actief-via-een-geblokkeerde-0
-  datum: '2020-12-11'
-- titel: Overheidssubsidies
-  url: https://www.cbn-cnc.be/nl/adviezen/overheidssubsidies
-  datum: '2011-05-04'
-- titel: Boekhoudkundige verwerking van kapitaalsubsidies waarvan de toekenning en/of
-    de uitbetaling over verschillende jaren wordt gespreid
-  url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-kapitaalsubsidies-waarvan-de-toekenning-enof-de-uitbetaling
-  datum: '2009-02-11'
 ---
 
 # CBN-advies 148/6 - Boekhoudkundige verwerking van verrichtingen afgesloten onder opschortende voorwaarde

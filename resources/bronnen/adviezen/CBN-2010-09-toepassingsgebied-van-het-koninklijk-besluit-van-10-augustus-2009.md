@@ -1,43 +1,49 @@
 ---
-nummer: CBN-advies 2010/9
-datum: 2010-06-16
-themas:
-- transactie met verbonden partijen
-- transacties tussen verbonden ondernemingen
 bron: https://www.cbn-cnc.be/nl/adviezen/toepassingsgebied-van-het-koninklijk-besluit-van-10-augustus-2009
+datum: 2010-06-16
+gerelateerde_adviezen:
+- datum: '2010-01-13'
+  titel: De interpretatie van de openbaarmakingsverplichting van transacties van enige
+    betekenis met verbonden partijen buiten normale marktvoorwaarden, zoals bepaald
+    in het koninklijk besluit van 10 augustus 2009
+  url: https://www.cbn-cnc.be/nl/adviezen/de-interpretatie-van-de-openbaarmakingsverplichting-van-transacties-van-enige-betekenis
+nummer: CBN-advies 2010/9
 provenance:
+  generated_at: '2026-05-08T18:35:59Z'
   inputs:
   - id: https://www.cbn-cnc.be/nl/adviezen/toepassingsgebied-van-het-koninklijk-besluit-van-10-augustus-2009
     sha256: 98e748542d61d3ab3789245576c0388f0d8dc5e3a8e1403f14f127e53d8d97bb
     version: null
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model: null
-    prompt_version: null
-  generated_at: '2026-05-08T18:35:59Z'
   stale: false
   stale_reason: null
+  tooling:
+    model: null
+    pipeline: tools/etl/scrape_cbn_advies.py
+    pipeline_version: uncommitted
+    prompt_version: null
   trust:
-    status: trusted
-    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T19:02:30Z'
     confirmed_by: subagent-laag2-ronde2
-    rationale: '[Laag-2-R2 2026-05-08] Volledig met twee concrete voorbeelden (99%-structuur
-      en 40/60%-structuur), helder antwoord.'
     layer1:
-      verdict: pass
-      heading_count: 0
-      max_section_chars: 6147
-      file_size_chars: 6147
+      file_size_chars: 6149
       flags: []
-      run_id: 20260509-212552
-gerelateerde_adviezen:
-- titel: De interpretatie van de openbaarmakingsverplichting van transacties van enige
-    betekenis met verbonden partijen buiten normale marktvoorwaarden, zoals bepaald
-    in het koninklijk besluit van 10 augustus 2009
-  url: https://www.cbn-cnc.be/nl/adviezen/de-interpretatie-van-de-openbaarmakingsverplichting-van-transacties-van-enige-betekenis
-  datum: '2010-01-13'
+      heading_count: 0
+      max_section_chars: 6149
+      run_at: null
+      run_id: 20260511-083333
+      status: pass
+    layer2:
+      agent: subagent-laag2-ronde2
+      concrete_problemen: []
+      rationale: '[Laag-2-R2 2026-05-08] Volledig met twee concrete voorbeelden (99%-structuur
+        en 40/60%-structuur), helder antwoord.'
+      run_at: '2026-05-08T19:02:30Z'
+      status: trusted
+    rationale: Laag-2 trusted door subagent-laag2-ronde2 (zie layer2.rationale)
+    status: trusted
+themas:
+- transactie met verbonden partijen
+- transacties tussen verbonden ondernemingen
 ---
 
 # CBN-advies 2010-9 - Toepassingsgebied van het koninklijk besluit van 10 augustus 20091 Advies van 16 juni 2010

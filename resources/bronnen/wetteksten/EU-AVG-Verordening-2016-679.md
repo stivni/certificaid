@@ -1,14 +1,14 @@
 ---
-tags: ["XIX", "4.0"]
-itaa-lex-sectie: "XIX"
-wet: "Verordening (EU) 2016/679 van het Europees Parlement en de Raad van 27 april 2016 betreffende de bescherming van natuurlijke personen (AVG/GDPR)"
-bron_rol: "itaa_lex"
-status: "beschikbaar"
-bijgewerkt: "27.04.2016"
-bron: "Fisconetplus.be (officieuze gecoördineerde versie)"
+tags: [XIX, '4.0']
+itaa-lex-sectie: XIX
+wet: Verordening (EU) 2016/679 van het Europees Parlement en de Raad van 27 april 2016 betreffende de bescherming van natuurlijke personen (AVG/GDPR)
+bron_rol: itaa_lex
+status: beschikbaar
+bijgewerkt: 27.04.2016
+bron: Fisconetplus.be (officieuze gecoördineerde versie)
 chunk:
   level: 3
-  type: "Art."
+  type: Art.
   sub_strategy:
 provenance:
   inputs:
@@ -25,16 +25,13 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    qa_version: trust-finalize-1
     confirmed_at: '2026-05-09T20:31:38Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: "L1=warn; L1.5=improvement (Auto-synthesized: ETL-fixes vandaag (NBSP, sub_strategy, justel-extractor, etc.) verbeteren bestaande versie.); L2=trusted (AVG-verordening (395KB) met 110 H2-headings. Soft hyphens uit PDF (bv. 'persoons­ gegevens') zonder woordbreuk. Body leesbaar, geen kolom-bleed. Warn op max_section_size is verklaarbaar door lange overwegingen-blok bovenaan. Inhoudelijk klaar voor RAG.)"
-    agent_verdict_at: '2026-05-09T20:31:38Z'
-    sample_pick: true
-    sample_reviewed_at:
-    sample_reviewed_by:
     layer1:
-      verdict: warn
+      status: warn
+      run_id: 20260509-212552
+      run_at:
       heading_count: 110
       max_section_chars: 394723
       file_size_chars: 394723
@@ -43,25 +40,15 @@ provenance:
           status: warn
           detail: 'langste sectie op ###-niveau: 394723 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
           samples: []
-      run_id: 20260509-212552
-    layer1_5_diff:
-      verdict: improvement
-      rationale: 'Auto-synthesized: ETL-fixes vandaag (NBSP, sub_strategy, justel-extractor, etc.) verbeteren bestaande versie.'
-      kritieke_observaties: []
-      auto: true
-      run_id: trust-finalize-1
-    layer2_content:
-      verdict: trusted
+    layer2:
+      status: trusted
+      agent:
+      run_at:
       rationale: AVG-verordening (395KB) met 110 H2-headings. Soft hyphens uit PDF (bv. 'persoons­ gegevens') zonder woordbreuk. Body leesbaar, geen kolom-bleed. Warn op max_section_size is verklaarbaar door lange overwegingen-blok bovenaan. Inhoudelijk klaar voor RAG.
-      problemen:
+      concrete_problemen:
         - regel: 59
           type: other
           voorbeeld: soft hyphen + spatie binnen 'persoons­ gegevens' — leesbaar maar tokenization-aware
-      sterkte:
-        - 110 H2 hoofdstukken/artikelen
-        - Volledige overwegingen + dispositief
-      auto: false
-      run_id: qa-batch-W1
 ---
 
 # AVG — Algemene Verordening Gegevensbescherming 2016/679

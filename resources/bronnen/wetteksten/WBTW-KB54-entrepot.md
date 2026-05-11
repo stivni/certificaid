@@ -1,14 +1,14 @@
 ---
-tags: ["VI.B", "2.4"]
-itaa-lex-sectie: "VI.B"
-wet: "K.B. nr. 54, 21 december 2023, met betrekking tot de andere regeling van entrepot dan douane-entrepot bedoeld in artikel 39quater van het WBTW"
-bron_rol: "itaa_lex"
-status: "beschikbaar"
-bijgewerkt: "2023"
-bron: "Fisconetplus.be (officieuze gecoördineerde versie)"
+tags: [VI.B, '2.4']
+itaa-lex-sectie: VI.B
+wet: K.B. nr. 54, 21 december 2023, met betrekking tot de andere regeling van entrepot dan douane-entrepot bedoeld in artikel 39quater van het WBTW
+bron_rol: itaa_lex
+status: beschikbaar
+bijgewerkt: '2023'
+bron: Fisconetplus.be (officieuze gecoördineerde versie)
 chunk:
   level: 2
-  type: "Art."
+  type: Art.
   sub_strategy:
 provenance:
   inputs:
@@ -25,37 +25,23 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    qa_version: trust-rework-2
     confirmed_at: '2026-05-09T21:27:46Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: "L1=pass; L1.5=improvement (Auto-synthesized: heading-injection (inject_wbtw_headings.py) — staging is structureel beter dan resources-versie.); L2=trusted (ETL-fix toegepast: inject_wbtw_headings.py heeft TOC-strip + Artikel-N → ## Art. heading-injectie + AFDELING-normalisatie uitgevoerd. Eerdere needs-rework op 'missing-section' opgeheven.)"
-    agent_verdict_at: '2026-05-09T21:27:46Z'
-    sample_pick: false
-    sample_reviewed_at:
-    sample_reviewed_by:
     layer1:
-      verdict: pass
+      status: pass
+      run_id: 20260509-212552
+      run_at:
       heading_count: 9
       max_section_chars: 11789
       file_size_chars: 21117
       flags: []
-      run_id: 20260509-212552
-    layer1_5_diff:
-      verdict: improvement
-      rationale: 'Auto-synthesized: heading-injection (inject_wbtw_headings.py) — staging is structureel beter dan resources-versie.'
-      kritieke_observaties: []
-      auto: true
-      run_id: trust-rework-2
-    layer2_content:
-      verdict: trusted
+    layer2:
+      status: trusted
+      agent:
+      run_at:
       rationale: "Modern PDF-extract met 9 ## Art-headings en duidelijk slot-artikel ('## Art. 9 — De minister bevoegd voor Financiën is belast'). Frontmatter consistent, body compleet."
-      problemen: []
-      sterkte:
-        - '9 ## Art-headings → schone chunking'
-        - Frontmatter klopt met body
-        - Compleet tot uitvoeringsbepaling
-      auto: false
-      run_id: qa-batch-W3
+      concrete_problemen: []
 ---
 
 # BTW KB nr. 54 — Entrepot (art. 39quater)

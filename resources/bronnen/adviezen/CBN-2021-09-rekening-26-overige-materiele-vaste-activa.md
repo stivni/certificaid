@@ -2,66 +2,66 @@
 nummer: CBN-advies 2021/09
 datum: 2021-06-23
 themas:
-- overige materiële vaste activa
-- onroerende reserve
-- buiten gebruik gestelde materiële vaste activa
-- buiten exploitatie gestelde materiële vaste activa
-- erfpacht
-- opstal
-- Huur
-- handelshuur
-- landpacht
-- kost inrichting gehuurde gebouwen
-- onroerende goederen
-- herverkoop
-- voorraden
-- herwaarderingsmeerwaarde
+  - overige materiële vaste activa
+  - onroerende reserve
+  - buiten gebruik gestelde materiële vaste activa
+  - buiten exploitatie gestelde materiële vaste activa
+  - erfpacht
+  - opstal
+  - Huur
+  - handelshuur
+  - landpacht
+  - kost inrichting gehuurde gebouwen
+  - onroerende goederen
+  - herverkoop
+  - voorraden
+  - herwaarderingsmeerwaarde
 bron: https://www.cbn-cnc.be/nl/adviezen/rekening-26-overige-materiele-vaste-activa
 provenance:
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/rekening-26-overige-materiele-vaste-activa
-    sha256: be4ebe2add6f9dadcf20b4514d83355b8ca1e178901f445fb910c8d2c410e956
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/rekening-26-overige-materiele-vaste-activa
+      sha256: be4ebe2add6f9dadcf20b4514d83355b8ca1e178901f445fb910c8d2c410e956
+      version:
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model: null
-    prompt_version: null
+    model:
+    prompt_version:
   generated_at: '2026-05-08T18:38:00Z'
   stale: false
-  stale_reason: null
+  stale_reason:
   trust:
-    status: trusted
-    qa_version: trust-rework-2
-    confirmed_at: '2026-05-08T18:40:05Z'
-    confirmed_by: qa-laag1-auto
-    rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    status: unreviewed
+    confirmed_at:
+    confirmed_by:
+    rationale:
     layer1:
-      verdict: pass
+      status: pass
+      run_id: 20260511-083333
+      run_at:
       heading_count: 3
-      max_section_chars: 5038
-      file_size_chars: 6757
+      max_section_chars: 5042
+      file_size_chars: 6762
       flags: []
-      run_id: 20260509-212552
+    layer2:
+      status: not_run
+      agent:
+      run_at:
+      rationale:
+      concrete_problemen: []
 gerelateerde_adviezen:
-- titel: Boekhoudkundige verwerking van ontvangen subsidies voor de aankoop van activa
-    die worden ter beschikking gesteld
-  url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-ontvangen-subsidies-voor-de-aankoop-van-activa-die-worden
-  datum: '2016-03-09'
-- titel: Verwerking van verrichtingen voor de verwerving of verkoop van een recht
-    op vruchtgebruik of van naakte eigendom op materiële vaste activa in de boekhouding
-    van de vruchtgebruiker (de erfpachter, de opstalhouder) en van de naakte eigenaar
-    (de grondeigenaa
-  url: https://www.cbn-cnc.be/nl/adviezen/verwerking-van-verrichtingen-voor-de-verwerving-of-verkoop-van-een-recht-op-vruchtgebruik
-  datum: '1991-03-01'
-- titel: Boeking van het verschuldigd bedrag om de optie te lichten of van de restwaarde
-    aan het einde van de overeenkomst
-  url: https://www.cbn-cnc.be/nl/adviezen/boeking-van-het-verschuldigd-bedrag-om-de-optie-te-lichten-of-van-de-restwaarde-aan-het
-  datum: '1991-03-01'
-- titel: Aansluitingskosten en installatiekosten waarbij derden de eigendom van de
-    installatie verwerven of behouden
-  url: https://www.cbn-cnc.be/nl/adviezen/aansluitingskosten-en-installatiekosten-waarbij-derden-de-eigendom-van-de-installatie
-  datum: '1989-07-01'
+  - titel: Boekhoudkundige verwerking van ontvangen subsidies voor de aankoop van activa die worden ter beschikking gesteld
+    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-ontvangen-subsidies-voor-de-aankoop-van-activa-die-worden
+    datum: '2016-03-09'
+  - titel: Verwerking van verrichtingen voor de verwerving of verkoop van een recht op vruchtgebruik of van naakte eigendom op materiële vaste activa in de boekhouding van de vruchtgebruiker (de erfpachter, de opstalhouder) en van de naakte eigenaar (de grondeigenaa
+    url: https://www.cbn-cnc.be/nl/adviezen/verwerking-van-verrichtingen-voor-de-verwerving-of-verkoop-van-een-recht-op-vruchtgebruik
+    datum: '1991-03-01'
+  - titel: Boeking van het verschuldigd bedrag om de optie te lichten of van de restwaarde aan het einde van de overeenkomst
+    url: https://www.cbn-cnc.be/nl/adviezen/boeking-van-het-verschuldigd-bedrag-om-de-optie-te-lichten-of-van-de-restwaarde-aan-het
+    datum: '1991-03-01'
+  - titel: Aansluitingskosten en installatiekosten waarbij derden de eigendom van de installatie verwerven of behouden
+    url: https://www.cbn-cnc.be/nl/adviezen/aansluitingskosten-en-installatiekosten-waarbij-derden-de-eigendom-van-de-installatie
+    datum: '1989-07-01'
 ---
 
 # CBN-advies 2021/09 – Rekening 26 Overige materiële vaste activa

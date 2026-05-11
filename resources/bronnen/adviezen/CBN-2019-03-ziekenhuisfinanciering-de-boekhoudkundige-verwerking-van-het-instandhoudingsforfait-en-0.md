@@ -2,53 +2,58 @@
 nummer: CBN-advies 2019/03
 datum: 2019-03-29
 themas:
-- bedrijfsopbrengsten
-- exploitatiesubsidie
-- instandhoudingsforfait
-- investeringssubsidie
-- kapitaalsubsidie
-- overheidssubsidies
-- strategisch forfait
-- subsidies
-- verzorgingsinrichting
-- verzorgingsinstelling
-- vipa
-- vorderingsrecht
-- ziekenhuis
-- ziekenhuisfinanciering
-- ziekenhuisinfrastructuur
+  - bedrijfsopbrengsten
+  - exploitatiesubsidie
+  - instandhoudingsforfait
+  - investeringssubsidie
+  - kapitaalsubsidie
+  - overheidssubsidies
+  - strategisch forfait
+  - subsidies
+  - verzorgingsinrichting
+  - verzorgingsinstelling
+  - vipa
+  - vorderingsrecht
+  - ziekenhuis
+  - ziekenhuisfinanciering
+  - ziekenhuisinfrastructuur
 bron: https://www.cbn-cnc.be/nl/adviezen/ziekenhuisfinanciering-de-boekhoudkundige-verwerking-van-het-instandhoudingsforfait-en-0
 provenance:
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/ziekenhuisfinanciering-de-boekhoudkundige-verwerking-van-het-instandhoudingsforfait-en-0
-    sha256: 970674ee10043a7a4946bf7e3ecbcbef1a3dab0418e711b3b90a218b20bd3f97
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/ziekenhuisfinanciering-de-boekhoudkundige-verwerking-van-het-instandhoudingsforfait-en-0
+      sha256: 970674ee10043a7a4946bf7e3ecbcbef1a3dab0418e711b3b90a218b20bd3f97
+      version:
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model: null
-    prompt_version: null
+    model:
+    prompt_version:
   generated_at: '2026-05-08T18:37:36Z'
   stale: false
-  stale_reason: null
+  stale_reason:
   trust:
-    status: trusted
-    qa_version: trust-rework-2
-    confirmed_at: '2026-05-08T18:40:05Z'
-    confirmed_by: qa-laag1-auto
-    rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    status: unreviewed
+    confirmed_at:
+    confirmed_by:
+    rationale:
     layer1:
-      verdict: pass
+      status: pass
+      run_id: 20260511-083333
+      run_at:
       heading_count: 5
-      max_section_chars: 6945
-      file_size_chars: 12130
+      max_section_chars: 5407
+      file_size_chars: 12135
       flags: []
-      run_id: 20260509-212552
+    layer2:
+      status: not_run
+      agent:
+      run_at:
+      rationale:
+      concrete_problemen: []
 gerelateerde_adviezen:
-- titel: Boekhoudkundige verwerking van COVID-19-tegemoetkomingen en van kosten gemaakt
-    ten gevolge van de gezondheidscrisis
-  url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-covid-19-tegemoetkomingen-en-van-kosten-gemaakt-ten-gevolge
-  datum: '2021-07-05'
+  - titel: Boekhoudkundige verwerking van COVID-19-tegemoetkomingen en van kosten gemaakt ten gevolge van de gezondheidscrisis
+    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-covid-19-tegemoetkomingen-en-van-kosten-gemaakt-ten-gevolge
+    datum: '2021-07-05'
 ---
 
 # CBN-advies 2019/03 – Ziekenhuisfinanciering: de boekhoudkundige verwerking van het instandhoudingsforfait en het strategisch forfait

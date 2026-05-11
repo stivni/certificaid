@@ -2,41 +2,47 @@
 nummer: CBN-advies 126/15
 datum: 1999-02-01
 themas:
-- aankoopprijs van een deelneming
-- aanpassing aankoopprijs van een deelneming
-- aanpassing verkoopprijs van en deelneming
-- deelneming
-- financiële vaste activa
-- prijsherziening
-- verkoopprijs van een deelneming
-- waarborg
+  - aankoopprijs van een deelneming
+  - aanpassing aankoopprijs van een deelneming
+  - aanpassing verkoopprijs van en deelneming
+  - deelneming
+  - financiële vaste activa
+  - prijsherziening
+  - verkoopprijs van een deelneming
+  - waarborg
 bron: https://www.cbn-cnc.be/nl/adviezen/aanpassing-van-de-aan-verkoopprijs-van-een-deelneming
 provenance:
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/aanpassing-van-de-aan-verkoopprijs-van-een-deelneming
-    sha256: 812b1c5dd56fc17d2942ea2c3243013b902c0c191b47d235de9dac192a0d54ff
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/aanpassing-van-de-aan-verkoopprijs-van-een-deelneming
+      sha256: 812b1c5dd56fc17d2942ea2c3243013b902c0c191b47d235de9dac192a0d54ff
+      version:
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model: null
-    prompt_version: null
+    model:
+    prompt_version:
   generated_at: '2026-05-08T18:34:41Z'
   stale: false
-  stale_reason: null
+  stale_reason:
   trust:
-    status: trusted
-    qa_version: trust-rework-2
-    confirmed_at: '2026-05-08T18:40:03Z'
-    confirmed_by: qa-laag1-auto
-    rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    status: unreviewed
+    confirmed_at:
+    confirmed_by:
+    rationale:
     layer1:
-      verdict: pass
+      status: pass
+      run_id: 20260511-083333
+      run_at:
       heading_count: 0
-      max_section_chars: 1951
-      file_size_chars: 1951
+      max_section_chars: 1952
+      file_size_chars: 1952
       flags: []
-      run_id: 20260509-212552
+    layer2:
+      status: not_run
+      agent:
+      run_at:
+      rationale:
+      concrete_problemen: []
 ---
 
 # CBN-advies 126/15 - Aanpassing van de (aan-) verkoopprijs van een deelneming

@@ -1,10 +1,10 @@
 ---
 tags: [norm, itaa]
-naam: "Norm inzake de Controle van Fusie- en Splitsingsverrichtingen van Vennootschappen"
+naam: Norm inzake de Controle van Fusie- en Splitsingsverrichtingen van Vennootschappen
 datum: 2013-12-13
 type: norm
-itaa-lex-sectie: "XV"
-toepassingsgebied: "ITAA-leden aangesteld voor controle van fusie- of splitsingsverslag (WVV art. 12:26–12:55)"
+itaa-lex-sectie: XV
+toepassingsgebied: ITAA-leden aangesteld voor controle van fusie- of splitsingsverslag (WVV art. 12:26–12:55)
 themas:
   - fusie
   - splitsing
@@ -27,18 +27,24 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    qa_version: qa-20260507-232718
-    confirmed_at: '2026-05-07T23:35:08Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: 'Uitgebreid document (54317 chars, 19 ## headings). Volledige dekking van Overwegingen, Inleiding, Controlewerkzaamheden, Inhoud verslag en Bijlage. Geen OCR-fouten, geen kolom-bleed, geen scrambled words.'
+    status: unreviewed
+    confirmed_at:
+    confirmed_by:
+    rationale:
     layer1:
-      verdict: pass
+      status: pass
+      run_id: 20260511-085756
+      run_at: '2026-05-11T08:57:57Z'
       heading_count: 19
-      max_section_chars: 6810
-      file_size_chars: 54317
+      max_section_chars: 6809
+      file_size_chars: 54266
       flags: []
-      run_id: 20260509-172914
+    layer2:
+      status: not_run
+      agent:
+      run_at:
+      rationale:
+      concrete_problemen: []
 ---
 
 # Norm inzake de Controle van Fusie- en Splitsingsverrichtingen van Vennootschappen

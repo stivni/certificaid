@@ -1,45 +1,51 @@
 ---
-nummer: CBN-advies 129/1
+bron: https://www.cbn-cnc.be/nl/adviezen/boeking-van-bonusaandelen
 datum: 1980-06-01
+gerelateerde_adviezen:
+- datum: '2010-03-25'
+  titel: De boekhoudkundige verwerking van stockdividenden
+  url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-stockdividenden
+nummer: CBN-advies 129/1
+provenance:
+  generated_at: '2026-05-08T18:34:47Z'
+  inputs:
+  - id: https://www.cbn-cnc.be/nl/adviezen/boeking-van-bonusaandelen
+    sha256: f2f44d742929ecd3f5bb3c5a8222c42b5feb48ea8e6821df96e7e014c0c2f2cb
+    version: null
+  stale: false
+  stale_reason: null
+  tooling:
+    model: null
+    pipeline: tools/etl/scrape_cbn_advies.py
+    pipeline_version: uncommitted
+    prompt_version: null
+  trust:
+    confirmed_at: '2026-05-08T19:02:30Z'
+    confirmed_by: subagent-laag2-ronde2
+    layer1:
+      file_size_chars: 5094
+      flags: []
+      heading_count: 0
+      max_section_chars: 5094
+      run_at: null
+      run_id: 20260511-083333
+      status: pass
+    layer2:
+      agent: subagent-laag2-ronde2
+      concrete_problemen: []
+      rationale: '[Laag-2-R2 2026-05-08] Inhoudelijk volledig met twee benaderingen,
+        gemotiveerd ontkennend antwoord en praktische conclusie over aanschaffingsprijs
+        bij bonusaandelen.'
+      run_at: '2026-05-08T19:02:30Z'
+      status: trusted
+    rationale: Laag-2 trusted door subagent-laag2-ronde2 (zie layer2.rationale)
+    status: trusted
 themas:
 - bonusaandelen
 - equity methode
 - financiële vaste activa
 - incorporatie van reserves in het kapitaal
 - nettovermogenswaardemethode
-bron: https://www.cbn-cnc.be/nl/adviezen/boeking-van-bonusaandelen
-provenance:
-  inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/boeking-van-bonusaandelen
-    sha256: f2f44d742929ecd3f5bb3c5a8222c42b5feb48ea8e6821df96e7e014c0c2f2cb
-    version: null
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model: null
-    prompt_version: null
-  generated_at: '2026-05-08T18:34:47Z'
-  stale: false
-  stale_reason: null
-  trust:
-    status: trusted
-    qa_version: trust-rework-2
-    confirmed_at: '2026-05-08T19:02:30Z'
-    confirmed_by: subagent-laag2-ronde2
-    rationale: '[Laag-2-R2 2026-05-08] Inhoudelijk volledig met twee benaderingen,
-      gemotiveerd ontkennend antwoord en praktische conclusie over aanschaffingsprijs
-      bij bonusaandelen.'
-    layer1:
-      verdict: pass
-      heading_count: 0
-      max_section_chars: 5093
-      file_size_chars: 5093
-      flags: []
-      run_id: 20260509-212552
-gerelateerde_adviezen:
-- titel: De boekhoudkundige verwerking van stockdividenden
-  url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-stockdividenden
-  datum: '2010-03-25'
 ---
 
 # CBN-advies 129/1 - Boeking van bonusaandelen

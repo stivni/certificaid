@@ -2,48 +2,54 @@
 nummer: CBN-advies 2021/15
 datum: 2021-11-22
 themas:
-- negatieve fondsen
-- beginvermogen
-- permanente financiering
-- negatief beginvermogen
-- fondsen van de vereniging
-- fusie
-- splitsing
-- omzetting vennootschap
-- compensatie
-- positief resultaat
-- bestemde fondsen
+  - negatieve fondsen
+  - beginvermogen
+  - permanente financiering
+  - negatief beginvermogen
+  - fondsen van de vereniging
+  - fusie
+  - splitsing
+  - omzetting vennootschap
+  - compensatie
+  - positief resultaat
+  - bestemde fondsen
 bron: https://www.cbn-cnc.be/nl/adviezen/verenigingen-en-stichtingen-compensatie-van-negatieve-fondsen
 provenance:
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/verenigingen-en-stichtingen-compensatie-van-negatieve-fondsen
-    sha256: f0474628f8efb15438554003a161662d28e56c8e131df30eeb2092d50cf6321b
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/verenigingen-en-stichtingen-compensatie-van-negatieve-fondsen
+      sha256: f0474628f8efb15438554003a161662d28e56c8e131df30eeb2092d50cf6321b
+      version:
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model: null
-    prompt_version: null
+    model:
+    prompt_version:
   generated_at: '2026-05-08T18:38:04Z'
   stale: false
-  stale_reason: null
+  stale_reason:
   trust:
-    status: trusted
-    qa_version: trust-rework-2
-    confirmed_at: '2026-05-08T18:40:05Z'
-    confirmed_by: qa-laag1-auto
-    rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    status: unreviewed
+    confirmed_at:
+    confirmed_by:
+    rationale:
     layer1:
-      verdict: pass
-      heading_count: 29
-      max_section_chars: 13085
-      file_size_chars: 21816
+      status: pass
+      run_id: 20260511-083333
+      run_at:
+      heading_count: 15
+      max_section_chars: 11188
+      file_size_chars: 21745
       flags: []
-      run_id: 20260509-212552
+    layer2:
+      status: not_run
+      agent:
+      run_at:
+      rationale:
+      concrete_problemen: []
 gerelateerde_adviezen:
-- titel: Negatieve fondsen in de beginbalans van een vereniging zonder winstoogmerk
-  url: https://www.cbn-cnc.be/nl/adviezen/negatieve-fondsen-in-de-beginbalans-van-een-vereniging-zonder-winstoogmerk
-  datum: '2008-01-23'
+  - titel: Negatieve fondsen in de beginbalans van een vereniging zonder winstoogmerk
+    url: https://www.cbn-cnc.be/nl/adviezen/negatieve-fondsen-in-de-beginbalans-van-een-vereniging-zonder-winstoogmerk
+    datum: '2008-01-23'
 ---
 
 # CBN-advies 2021/15 – Verenigingen en stichtingen: compensatie van negatieve fondsen

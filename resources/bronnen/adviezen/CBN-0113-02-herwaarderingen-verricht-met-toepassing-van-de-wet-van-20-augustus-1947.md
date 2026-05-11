@@ -2,54 +2,55 @@
 nummer: CBN-advies 113/2
 datum: 1979-05-01
 themas:
-- gerealiseerde meerwaarde
-- herwaardering
-- niet-gerealiseerde meerwaarde
+  - gerealiseerde meerwaarde
+  - herwaardering
+  - niet-gerealiseerde meerwaarde
 bron: https://www.cbn-cnc.be/nl/adviezen/herwaarderingen-verricht-met-toepassing-van-de-wet-van-20-augustus-1947
 provenance:
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/herwaarderingen-verricht-met-toepassing-van-de-wet-van-20-augustus-1947
-    sha256: b926b44b89a5bd144b86ff6e7bf5966d956a51c30621cb87e84db438af66d14f
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/herwaarderingen-verricht-met-toepassing-van-de-wet-van-20-augustus-1947
+      sha256: b926b44b89a5bd144b86ff6e7bf5966d956a51c30621cb87e84db438af66d14f
+      version:
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model: null
-    prompt_version: null
+    model:
+    prompt_version:
   generated_at: '2026-05-08T21:30:02Z'
   stale: false
-  stale_reason: null
+  stale_reason:
   trust:
     status: trusted
-    qa_version: trust-rework-2
     confirmed_at: '2026-05-08T21:31:11Z'
     confirmed_by: human
-    rationale: 'Herscraped na fix select_title(): gecombineerde H1 (COMMISSIE + titel)
-      correct gesplitst. Inhoud ongewijzigd t.o.v. vorig vertrouwd verdict. Laag 1
-      pass (of benign max_section warn).'
+    rationale: 'Herscraped na fix select_title(): gecombineerde H1 (COMMISSIE + titel) correct gesplitst. Inhoud ongewijzigd t.o.v. vorig vertrouwd verdict. Laag 1 pass (of benign max_section warn).'
     layer1:
-      verdict: pass
+      status: pass
+      run_id: 20260511-083333
+      run_at:
       heading_count: 0
-      max_section_chars: 2780
-      file_size_chars: 2780
+      max_section_chars: 2781
+      file_size_chars: 2781
       flags: []
-      run_id: 20260509-212552
+    layer2:
+      status: not_run
+      agent:
+      run_at:
+      rationale:
+      concrete_problemen: []
 gerelateerde_adviezen:
-- titel: Actualisatie van uitgestelde belastingen (update)
-  url: https://www.cbn-cnc.be/nl/adviezen/actualisatie-van-uitgestelde-belastingen-update
-  datum: '2016-09-28'
-- titel: De boekhoudkundige verwerking van de uitgestelde belastingen bij gerealiseerde
-    meerwaarden waarvoor de uitgestelde-belastingregeling geldt en bij kapitaalsubsidies
-  url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-uitgestelde-belastingen-bij-gerealiseerde-0
-  datum: '2013-10-23'
-- titel: De boekhoudkundige verwerking van de uitgestelde belastingen bij gerealiseerde
-    meerwaarden waarvoor de uitgestelde belastingregeling geldt en bij kapitaalsubsidies
-  url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-uitgestelde-belastingen-bij-gerealiseerde-meerwaarden
-  datum: '2013-10-23'
-- titel: Gerealiseerde meerwaarden waarvoor de uitgestelde-belastingregeling geldt.
-    Kapitaalsubsidies
-  url: https://www.cbn-cnc.be/nl/adviezen/gerealiseerde-meerwaarden-waarvoor-de-uitgestelde-belastingregeling-geldt
-  datum: '1992-02-01'
+  - titel: Actualisatie van uitgestelde belastingen (update)
+    url: https://www.cbn-cnc.be/nl/adviezen/actualisatie-van-uitgestelde-belastingen-update
+    datum: '2016-09-28'
+  - titel: De boekhoudkundige verwerking van de uitgestelde belastingen bij gerealiseerde meerwaarden waarvoor de uitgestelde-belastingregeling geldt en bij kapitaalsubsidies
+    url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-uitgestelde-belastingen-bij-gerealiseerde-0
+    datum: '2013-10-23'
+  - titel: De boekhoudkundige verwerking van de uitgestelde belastingen bij gerealiseerde meerwaarden waarvoor de uitgestelde belastingregeling geldt en bij kapitaalsubsidies
+    url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-uitgestelde-belastingen-bij-gerealiseerde-meerwaarden
+    datum: '2013-10-23'
+  - titel: Gerealiseerde meerwaarden waarvoor de uitgestelde-belastingregeling geldt. Kapitaalsubsidies
+    url: https://www.cbn-cnc.be/nl/adviezen/gerealiseerde-meerwaarden-waarvoor-de-uitgestelde-belastingregeling-geldt
+    datum: '1992-02-01'
 ---
 
 # CBN-advies 113/2 - Herwaarderingen verricht met toepassing van de Wet van 20 augustus 1947

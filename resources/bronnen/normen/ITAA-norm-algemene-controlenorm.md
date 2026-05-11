@@ -2,11 +2,11 @@
 tags:
   - norm
   - itaa
-naam: "Algemene Controlenorm"
+naam: Algemene Controlenorm
 datum: 1991-09-30
 type: norm
-itaa-lex-sectie: "XXI"
-toepassingsgebied: "Alle gecertificeerde accountants bij uitvoering van controleopdrachten"
+itaa-lex-sectie: XXI
+toepassingsgebied: Alle gecertificeerde accountants bij uitvoering van controleopdrachten
 themas:
   - controle
   - accountancy
@@ -34,37 +34,23 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    qa_version: trust-rework-2
     confirmed_at: '2026-05-09T21:27:46Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: L1=pass
-    agent_verdict_at: '2026-05-09T21:27:46Z'
-    sample_pick: false
-    sample_reviewed_at:
-    sample_reviewed_by:
     layer1:
-      verdict: pass
+      status: pass
+      run_id: 20260511-085756
+      run_at: '2026-05-11T08:57:56Z'
       heading_count: 7
       max_section_chars: 1978
       file_size_chars: 7564
       flags: []
-      run_id: 20260509-212552
-    layer1_5_diff:
-      verdict: improvement
-      rationale: 'Auto-synthesized: ETL-fixes vandaag (NBSP, sub_strategy, justel-extractor, etc.) verbeteren bestaande versie.'
-      kritieke_observaties: []
-      auto: true
-      run_id: trust-finalize-1
-    layer2_content:
-      verdict: trusted
+    layer2:
+      status: trusted
+      agent:
+      run_at:
       rationale: 'Schone HTML-extractie van itaa.be/algemene-controlenorm. Alle 7 hoofdsecties (Inleiding, Verslag, Werkschema, Werkdocumenten, Opvolging, Controles, Commissie van Toezicht) als ## heading, inhoud volledig en leesbaar. Geen kolom-bleed, geen OCR-flags.'
-      problemen: []
-      sterkte:
-        - 'Alle 7 ## hoofdsecties intact en correct genummerd'
-        - Frontmatter compleet met datum 1991-09-30 en correcte url
-        - Geen scrambled words of abrupt cutoffs
-      auto: false
-      run_id: qa-batch-normen
+      concrete_problemen: []
 ---
 # Algemene controlenorm (Besl. Raad d.d. 30 september 1991)
 

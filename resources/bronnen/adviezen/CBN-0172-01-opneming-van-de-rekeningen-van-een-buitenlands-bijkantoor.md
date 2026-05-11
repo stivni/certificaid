@@ -1,68 +1,77 @@
 ---
-nummer: "CBN-advies 172/1"
-datum: 1995-10-01
-themas:
-  - bijkantoor
-  - buitenlands bijkantoor
-  - buitenlands centrum van werkzaamheden
-  - centrum van werkzaamheden
-  - geldende omrekeningskoers op aanschaffingsdatum
-  - methode van de slotkoers
-  - monetaire posten
-  - monetaire/niet-monetaire methode
-  - niet monetaire activa
-  - niet-monetaire posten
-  - omrekening van de rekeningen van het bijkantoor
-  - omrekeningsverschil
-  - Opname rekeningen buitenlands kantoor
-  - rekening-courant
-  - slotkoers
-  - verbindingsrekening
-  - weglating van resultaten uit interne verrichtingen
 bron: https://www.cbn-cnc.be/nl/adviezen/opneming-van-de-rekeningen-van-een-buitenlands-bijkantoor
+datum: 1995-10-01
+gerelateerde_adviezen:
+- datum: '2024-02-08'
+  titel: 'Belgische bijkantoren van buitenlandse verenigingen en stichtingen: toepassing
+    van het Belgisch boekhoudrecht – begrip ‘bijkantoor’ – publicatieplicht – eigen
+    boekhoudkundige verplichtingen'
+  url: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-buitenlandse-verenigingen-en-stichtingen-toepassing-van-het-0
+- datum: '2022-11-08'
+  titel: 'Belgische bijkantoren van buitenlandse vennootschappen: eigen boekhoudkundige
+    verplichtingen (update)'
+  url: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-buitenlandse-vennootschappen-eigen-boekhoudkundige
+- datum: '2022-11-08'
+  titel: 'Belgische bijkantoren van buitenlandse vennootschappen: toepassing van het
+    Belgisch boekhoudrecht - begrip “bijkantoor” – publicatieplicht (update)'
+  url: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-buitenlandse-vennootschappen-toepassing-van-het-belgisch
+- datum: '2019-09-26'
+  titel: Boekhoudplichtige onderneming
+  url: https://www.cbn-cnc.be/nl/adviezen/boekhoudplichtige-onderneming
+nummer: CBN-advies 172/1
 provenance:
+  generated_at: '2026-05-08T18:35:37Z'
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/opneming-van-de-rekeningen-van-een-buitenlands-bijkantoor
-      sha256: 42b0c8c639ffa81815c1cc11b8bc16a03fccc7ef9e5a15c07e5c4f9f64fcadcb
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/opneming-van-de-rekeningen-van-een-buitenlands-bijkantoor
+    sha256: 42b0c8c639ffa81815c1cc11b8bc16a03fccc7ef9e5a15c07e5c4f9f64fcadcb
+    version: null
+  stale: false
+  stale_reason: null
   tooling:
+    model: null
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:35:37Z'
-  stale: false
-  stale_reason:
+    prompt_version: null
   trust:
-    status: trusted
-    qa_version:
     confirmed_at: '2026-05-08T19:02:28Z'
     confirmed_by: subagent-laag2-ronde2
-    rationale: "[Laag-2-R2 2026-05-08] Het advies bevat 59 headings en 108 voetnoten met uitgebreide kwantitatieve voorbeeldtabellen (3 scenario's x 3 periodes). Balansen en resultatenrekening-tabellen correct als Markdown pipe-tabellen. Inhoud van alle balansen en journaalposten is retrievable."
     layer1:
-      verdict: warn
+      file_size_chars: 61819
+      flags: []
       heading_count: 59
-      max_section_chars: 31760
-      file_size_chars: 61816
-      flags:
-        - name: max_section_size
-          status: warn
-          detail: 'langste sectie op ##-niveau: 31760 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
-          samples: []
-      run_id: 20260509-212552
-gerelateerde_adviezen:
-  - titel: 'Belgische bijkantoren van buitenlandse verenigingen en stichtingen: toepassing van het Belgisch boekhoudrecht – begrip ‘bijkantoor’ – publicatieplicht – eigen boekhoudkundige verplichtingen'
-    url: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-buitenlandse-verenigingen-en-stichtingen-toepassing-van-het-0
-    datum: '2024-02-08'
-  - titel: 'Belgische bijkantoren van buitenlandse vennootschappen: eigen boekhoudkundige verplichtingen (update)'
-    url: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-buitenlandse-vennootschappen-eigen-boekhoudkundige
-    datum: '2022-11-08'
-  - titel: 'Belgische bijkantoren van buitenlandse vennootschappen: toepassing van het Belgisch boekhoudrecht - begrip “bijkantoor” – publicatieplicht (update)'
-    url: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-buitenlandse-vennootschappen-toepassing-van-het-belgisch
-    datum: '2022-11-08'
-  - titel: Boekhoudplichtige onderneming
-    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudplichtige-onderneming
-    datum: '2019-09-26'
+      max_section_chars: 22406
+      run_at: null
+      run_id: 20260511-083333
+      status: pass
+    layer2:
+      agent: subagent-laag2-ronde2
+      concrete_problemen: []
+      rationale: '[Laag-2-R2 2026-05-08] Het advies bevat 59 headings en 108 voetnoten
+        met uitgebreide kwantitatieve voorbeeldtabellen (3 scenario''s x 3 periodes).
+        Balansen en resultatenrekening-tabellen correct als Markdown pipe-tabellen.
+        Inhoud van alle balansen en journaalposten is retrievable.'
+      run_at: '2026-05-08T19:02:28Z'
+      status: trusted
+    rationale: Laag-2 trusted door subagent-laag2-ronde2 (zie layer2.rationale)
+    status: trusted
+themas:
+- bijkantoor
+- buitenlands bijkantoor
+- buitenlands centrum van werkzaamheden
+- centrum van werkzaamheden
+- geldende omrekeningskoers op aanschaffingsdatum
+- methode van de slotkoers
+- monetaire posten
+- monetaire/niet-monetaire methode
+- niet monetaire activa
+- niet-monetaire posten
+- omrekening van de rekeningen van het bijkantoor
+- omrekeningsverschil
+- Opname rekeningen buitenlands kantoor
+- rekening-courant
+- slotkoers
+- verbindingsrekening
+- weglating van resultaten uit interne verrichtingen
 ---
 
 # CBN-advies 172/1 - Opneming van de rekeningen van een buitenlands bijkantoor

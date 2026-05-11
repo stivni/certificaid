@@ -1,15 +1,15 @@
 ---
-tags: ["XVII", "4.0"]
-itaa-lex-sectie: "XVII"
-wet: "Wet 18 september 2017 tot voorkoming van het witwassen van geld en de financiering van terrorisme"
-bron_rol: "itaa_lex"
-status: "beschikbaar"
-bijgewerkt: "24.12.2025"
-bron: "ejustice.just.fgov.be (gecoördineerde versie)"
+tags: [XVII, '4.0']
+itaa-lex-sectie: XVII
+wet: Wet 18 september 2017 tot voorkoming van het witwassen van geld en de financiering van terrorisme
+bron_rol: itaa_lex
+status: beschikbaar
+bijgewerkt: 24.12.2025
+bron: ejustice.just.fgov.be (gecoördineerde versie)
 chunk:
   level: 6
-  type: "Art."
-  sub_strategy: "per_definitieblok"
+  type: Art.
+  sub_strategy: per_definitieblok
 provenance:
   inputs:
     - id: resources/raw/wetteksten/Antiwitwaswet-2017.pdf
@@ -25,37 +25,23 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    qa_version: trust-rework-2
     confirmed_at: '2026-05-09T21:27:46Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: L1=pass
-    agent_verdict_at: '2026-05-09T21:27:46Z'
-    sample_pick: false
-    sample_reviewed_at:
-    sample_reviewed_by:
     layer1:
-      verdict: pass
+      status: pass
+      run_id: 20260509-212552
+      run_at:
       heading_count: 305
       max_section_chars: 6412
       file_size_chars: 379952
       flags: []
-      run_id: 20260509-212552
-    layer1_5_diff:
-      verdict: improvement
-      rationale: 'Auto-synthesized: ETL-fixes vandaag (NBSP, sub_strategy, justel-extractor, etc.) verbeteren bestaande versie.'
-      kritieke_observaties: []
-      auto: true
-      run_id: trust-finalize-1
-    layer2_content:
-      verdict: trusted
+    layer2:
+      status: trusted
+      agent:
+      run_at:
       rationale: Frontmatter compleet, Art.-headings op chunk.level=6, alle definities en wijzigingsbrackets [1...]1 intact. Body is consistent NL, geen kolom-bleed. 221 Art.-vermeldingen in body lopen door tot het einde van de wet.
-      problemen: []
-      sterkte:
-        - Definities-blok intact
-        - Wijzigingsbrackets correct getypeset
-        - Geen FR-leak
-      auto: false
-      run_id: qa-batch-W1
+      concrete_problemen: []
 ---
 
 # Wet 18 september 2017 tot voorkoming van het witwassen van geld en de financiering van terrorisme

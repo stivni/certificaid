@@ -2,49 +2,54 @@
 nummer: CBN-advies 114/6
 datum: 1986-01-01
 themas:
-- deelnemingsverhouding
-- verbonden onderneming
-- verrichtingen met verbonden ondernemingen
-- interne groepsverrichting
-- verrichtingen tussen ondernemingen uit eenzelfde groep
+  - deelnemingsverhouding
+  - verbonden onderneming
+  - verrichtingen met verbonden ondernemingen
+  - interne groepsverrichting
+  - verrichtingen tussen ondernemingen uit eenzelfde groep
 bron: https://www.cbn-cnc.be/nl/adviezen/uitdrukking-van-verrichtingen-tussen-ondernemingen-uit-eenzelfde-groep
 provenance:
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/uitdrukking-van-verrichtingen-tussen-ondernemingen-uit-eenzelfde-groep
-    sha256: a2e68aed61782b8862affb864cca224727baf8b2a6f5226ed041927ed8560f25
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/uitdrukking-van-verrichtingen-tussen-ondernemingen-uit-eenzelfde-groep
+      sha256: a2e68aed61782b8862affb864cca224727baf8b2a6f5226ed041927ed8560f25
+      version:
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model: null
-    prompt_version: null
+    model:
+    prompt_version:
   generated_at: '2026-05-08T18:34:21Z'
   stale: false
-  stale_reason: null
+  stale_reason:
   trust:
-    status: trusted
-    qa_version: trust-rework-2
-    confirmed_at: '2026-05-08T18:40:02Z'
-    confirmed_by: qa-laag1-auto
-    rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    status: unreviewed
+    confirmed_at:
+    confirmed_by:
+    rationale:
     layer1:
-      verdict: pass
+      status: pass
+      run_id: 20260511-083333
+      run_at:
       heading_count: 0
-      max_section_chars: 1998
-      file_size_chars: 1998
+      max_section_chars: 1999
+      file_size_chars: 1999
       flags: []
-      run_id: 20260509-212552
+    layer2:
+      status: not_run
+      agent:
+      run_at:
+      rationale:
+      concrete_problemen: []
 gerelateerde_adviezen:
-- titel: Over het begrip verbonden onderneming
-  url: https://www.cbn-cnc.be/nl/adviezen/over-het-begrip-verbonden-onderneming
-  datum: '1986-01-01'
-- titel: Bezit van maatschappelijke rechten in verbonden ondernemingen of in ondernemingen
-    waarmee een deelnemingsverhouding bestaat - Begrip deelneming
-  url: https://www.cbn-cnc.be/nl/adviezen/bezit-van-maatschappelijke-rechten-in-verbonden-ondernemingen-of-in-ondernemingen-waarmee
-  datum: '1980-01-06'
-- titel: Verbonden ondernemingen - Ondernemingen met deelnemingsverhouding
-  url: https://www.cbn-cnc.be/nl/adviezen/verbonden-ondernemingen-ondernemingen-met-deelnemingsverhouding
-  datum: '1978-12-01'
+  - titel: Over het begrip verbonden onderneming
+    url: https://www.cbn-cnc.be/nl/adviezen/over-het-begrip-verbonden-onderneming
+    datum: '1986-01-01'
+  - titel: Bezit van maatschappelijke rechten in verbonden ondernemingen of in ondernemingen waarmee een deelnemingsverhouding bestaat - Begrip deelneming
+    url: https://www.cbn-cnc.be/nl/adviezen/bezit-van-maatschappelijke-rechten-in-verbonden-ondernemingen-of-in-ondernemingen-waarmee
+    datum: '1980-01-06'
+  - titel: Verbonden ondernemingen - Ondernemingen met deelnemingsverhouding
+    url: https://www.cbn-cnc.be/nl/adviezen/verbonden-ondernemingen-ondernemingen-met-deelnemingsverhouding
+    datum: '1978-12-01'
 ---
 
 # CBN-advies 114/6 - Uitdrukking van verrichtingen tussen ondernemingen uit eenzelfde groep

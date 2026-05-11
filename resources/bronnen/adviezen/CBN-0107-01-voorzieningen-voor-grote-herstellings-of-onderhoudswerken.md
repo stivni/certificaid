@@ -2,38 +2,44 @@
 nummer: CBN-advies 107/1
 datum: 1977-08-01
 themas:
-- grote herstellings- en onderhoudswerken
-- herstellings- en onderhoudswerken
-- kosten grote herstellings- of onderhoudswerken
-- voorziening
-- voorzieningen voor grote herstellings- of onderhoudswerken
+  - grote herstellings- en onderhoudswerken
+  - herstellings- en onderhoudswerken
+  - kosten grote herstellings- of onderhoudswerken
+  - voorziening
+  - voorzieningen voor grote herstellings- of onderhoudswerken
 bron: https://www.cbn-cnc.be/nl/adviezen/voorzieningen-voor-grote-herstellings-of-onderhoudswerken
 provenance:
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/voorzieningen-voor-grote-herstellings-of-onderhoudswerken
-    sha256: 69ce4d9ffa509f8b14692db444383872c9441ce2977831e235bb825fd7b3d51d
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/voorzieningen-voor-grote-herstellings-of-onderhoudswerken
+      sha256: 69ce4d9ffa509f8b14692db444383872c9441ce2977831e235bb825fd7b3d51d
+      version:
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model: null
-    prompt_version: null
+    model:
+    prompt_version:
   generated_at: '2026-05-08T18:33:53Z'
   stale: false
-  stale_reason: null
+  stale_reason:
   trust:
-    status: trusted
-    qa_version: trust-rework-2
-    confirmed_at: '2026-05-08T18:40:02Z'
-    confirmed_by: qa-laag1-auto
-    rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    status: unreviewed
+    confirmed_at:
+    confirmed_by:
+    rationale:
     layer1:
-      verdict: pass
+      status: pass
+      run_id: 20260511-083333
+      run_at:
       heading_count: 0
-      max_section_chars: 699
-      file_size_chars: 699
+      max_section_chars: 700
+      file_size_chars: 700
       flags: []
-      run_id: 20260509-212552
+    layer2:
+      status: not_run
+      agent:
+      run_at:
+      rationale:
+      concrete_problemen: []
 ---
 
 # CBN-advies 107/1 - Voorzieningen voor grote herstellings- of onderhoudswerken

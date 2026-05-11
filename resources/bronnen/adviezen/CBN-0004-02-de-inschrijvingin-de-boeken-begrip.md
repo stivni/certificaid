@@ -2,40 +2,45 @@
 nummer: CBN-advies 4/2
 datum: 1981-04-01
 themas:
-- houden van boeken
-- inschrijven in boeken
+  - houden van boeken
+  - inschrijven in boeken
 bron: https://www.cbn-cnc.be/nl/adviezen/de-inschrijvingin-de-boeken-begrip
 provenance:
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/de-inschrijvingin-de-boeken-begrip
-    sha256: 42257df52c4263379a387f095e6f506ad1f838a0867f6581bf7e6b6caa3b229f
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/de-inschrijvingin-de-boeken-begrip
+      sha256: 42257df52c4263379a387f095e6f506ad1f838a0867f6581bf7e6b6caa3b229f
+      version:
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model: null
-    prompt_version: null
+    model:
+    prompt_version:
   generated_at: '2026-05-08T18:33:25Z'
   stale: false
-  stale_reason: null
+  stale_reason:
   trust:
-    status: trusted
-    qa_version: trust-rework-2
-    confirmed_at: '2026-05-08T18:40:02Z'
-    confirmed_by: qa-laag1-auto
-    rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    status: unreviewed
+    confirmed_at:
+    confirmed_by:
+    rationale:
     layer1:
-      verdict: pass
+      status: pass
+      run_id: 20260511-083333
+      run_at:
       heading_count: 0
-      max_section_chars: 2553
-      file_size_chars: 2553
+      max_section_chars: 2554
+      file_size_chars: 2554
       flags: []
-      run_id: 20260509-212552
+    layer2:
+      status: not_run
+      agent:
+      run_at:
+      rationale:
+      concrete_problemen: []
 gerelateerde_adviezen:
-- titel: Ondernemingen naar buitenlands recht - Houden en bewaren in België van de
-    boeken, rekeningen en verantwoordingsstukken
-  url: https://www.cbn-cnc.be/nl/adviezen/ondernemingen-naar-buitenlands-recht-houden-en-bewaren-in-belgie-van-de-boeken-rekeningen
-  datum: '1977-08-01'
+  - titel: Ondernemingen naar buitenlands recht - Houden en bewaren in België van de boeken, rekeningen en verantwoordingsstukken
+    url: https://www.cbn-cnc.be/nl/adviezen/ondernemingen-naar-buitenlands-recht-houden-en-bewaren-in-belgie-van-de-boeken-rekeningen
+    datum: '1977-08-01'
 ---
 
 # CBN-advies 4-2 - De "inschrijving" in de boeken - Begrip

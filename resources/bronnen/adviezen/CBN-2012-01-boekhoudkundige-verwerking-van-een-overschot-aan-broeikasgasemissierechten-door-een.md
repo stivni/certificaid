@@ -2,43 +2,49 @@
 nummer: CBN-advies 2012/1
 datum: 2012-01-11
 themas:
-- broeikasgasemissierechten
-- bruto-methode
-- emissierechten
-- immateriële vaste activa
-- netto-methode
-- overlopende rekeningen
+  - broeikasgasemissierechten
+  - bruto-methode
+  - emissierechten
+  - immateriële vaste activa
+  - netto-methode
+  - overlopende rekeningen
 bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-een-overschot-aan-broeikasgasemissierechten-door-een
 provenance:
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-een-overschot-aan-broeikasgasemissierechten-door-een
-    sha256: a5e15ff6d0abe3c9b6af01ecf3511538573fd4ce60f6dae2ac4ad950f1434fbe
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-een-overschot-aan-broeikasgasemissierechten-door-een
+      sha256: a5e15ff6d0abe3c9b6af01ecf3511538573fd4ce60f6dae2ac4ad950f1434fbe
+      version:
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model: null
-    prompt_version: null
+    model:
+    prompt_version:
   generated_at: '2026-05-08T18:36:21Z'
   stale: false
-  stale_reason: null
+  stale_reason:
   trust:
-    status: trusted
-    qa_version: trust-rework-2
-    confirmed_at: '2026-05-08T18:40:04Z'
-    confirmed_by: qa-laag1-auto
-    rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    status: unreviewed
+    confirmed_at:
+    confirmed_by:
+    rationale:
     layer1:
-      verdict: pass
+      status: pass
+      run_id: 20260511-083333
+      run_at:
       heading_count: 5
-      max_section_chars: 4119
-      file_size_chars: 7912
+      max_section_chars: 4336
+      file_size_chars: 7914
       flags: []
-      run_id: 20260509-212552
+    layer2:
+      status: not_run
+      agent:
+      run_at:
+      rationale:
+      concrete_problemen: []
 gerelateerde_adviezen:
-- titel: Boekhoudkundige verwerking van broeikasgasemissierechten
-  url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-broeikasgasemissierechten
-  datum: '2004-11-01'
+  - titel: Boekhoudkundige verwerking van broeikasgasemissierechten
+    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-broeikasgasemissierechten
+    datum: '2004-11-01'
 ---
 
 # CBN-advies 2012/1 - Boekhoudkundige verwerking van een overschot aan broeikasgasemissierechten door een onderneming die de nettomethode toepast

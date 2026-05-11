@@ -2,51 +2,55 @@
 nummer: CBN-advies 2013/14
 datum: 2013-10-23
 themas:
-- gerealiseerde meerwaarde
-- kapitaalsubsidie
-- uitgestelde belastingen
+  - gerealiseerde meerwaarde
+  - kapitaalsubsidie
+  - uitgestelde belastingen
 bron: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-uitgestelde-belastingen-bij-gerealiseerde-meerwaarden
 provenance:
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-uitgestelde-belastingen-bij-gerealiseerde-meerwaarden
-    sha256: 1797f2099973db21019f401c77a91e8d1096ae56217d8dc0e573e7ac01d20547
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-uitgestelde-belastingen-bij-gerealiseerde-meerwaarden
+      sha256: 1797f2099973db21019f401c77a91e8d1096ae56217d8dc0e573e7ac01d20547
+      version:
   tooling:
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model: null
-    prompt_version: null
+    model:
+    prompt_version:
   generated_at: '2026-05-08T18:36:42Z'
   stale: false
-  stale_reason: null
+  stale_reason:
   trust:
-    status: trusted
-    qa_version: trust-rework-2
-    confirmed_at: '2026-05-08T18:40:04Z'
-    confirmed_by: qa-laag1-auto
-    rationale: Laag 1 QA pass na re-scrape via scrape_cbn_advies.py (2026-05-08)
+    status: unreviewed
+    confirmed_at:
+    confirmed_by:
+    rationale:
     layer1:
-      verdict: pass
+      status: pass
+      run_id: 20260511-083333
+      run_at:
       heading_count: 21
-      max_section_chars: 12715
-      file_size_chars: 23629
+      max_section_chars: 16341
+      file_size_chars: 23636
       flags: []
-      run_id: 20260509-212552
+    layer2:
+      status: not_run
+      agent:
+      run_at:
+      rationale:
+      concrete_problemen: []
 gerelateerde_adviezen:
-- titel: Actualisatie van uitgestelde belastingen (update)
-  url: https://www.cbn-cnc.be/nl/adviezen/actualisatie-van-uitgestelde-belastingen-update
-  datum: '2016-09-28'
-- titel: De boekhoudkundige verwerking van de uitgestelde belastingen bij gerealiseerde
-    meerwaarden waarvoor de uitgestelde-belastingregeling geldt en bij kapitaalsubsidies
-  url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-uitgestelde-belastingen-bij-gerealiseerde-0
-  datum: '2013-10-23'
-- titel: Gerealiseerde meerwaarden waarvoor de uitgestelde-belastingregeling geldt.
-    Kapitaalsubsidies
-  url: https://www.cbn-cnc.be/nl/adviezen/gerealiseerde-meerwaarden-waarvoor-de-uitgestelde-belastingregeling-geldt
-  datum: '1992-02-01'
-- titel: Herwaarderingen verricht met toepassing van de Wet van 20 augustus 1947
-  url: https://www.cbn-cnc.be/nl/adviezen/herwaarderingen-verricht-met-toepassing-van-de-wet-van-20-augustus-1947
-  datum: '1979-05-01'
+  - titel: Actualisatie van uitgestelde belastingen (update)
+    url: https://www.cbn-cnc.be/nl/adviezen/actualisatie-van-uitgestelde-belastingen-update
+    datum: '2016-09-28'
+  - titel: De boekhoudkundige verwerking van de uitgestelde belastingen bij gerealiseerde meerwaarden waarvoor de uitgestelde-belastingregeling geldt en bij kapitaalsubsidies
+    url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-uitgestelde-belastingen-bij-gerealiseerde-0
+    datum: '2013-10-23'
+  - titel: Gerealiseerde meerwaarden waarvoor de uitgestelde-belastingregeling geldt. Kapitaalsubsidies
+    url: https://www.cbn-cnc.be/nl/adviezen/gerealiseerde-meerwaarden-waarvoor-de-uitgestelde-belastingregeling-geldt
+    datum: '1992-02-01'
+  - titel: Herwaarderingen verricht met toepassing van de Wet van 20 augustus 1947
+    url: https://www.cbn-cnc.be/nl/adviezen/herwaarderingen-verricht-met-toepassing-van-de-wet-van-20-augustus-1947
+    datum: '1979-05-01'
 ---
 
 # CBN-advies 2013/14 – De boekhoudkundige verwerking van de uitgestelde belastingen bij gerealiseerde meerwaarden waarvoor de uitgestelde belastingregeling geldt en bij kapitaalsubsidies

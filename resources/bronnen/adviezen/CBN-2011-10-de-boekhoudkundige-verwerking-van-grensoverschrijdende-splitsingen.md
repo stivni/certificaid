@@ -1,58 +1,63 @@
 ---
-nummer: "CBN-advies 2011/10"
-datum: 2011-04-16
-themas:
-  - belastingvrije reserves
-  - belgische inrichting
-  - boekhoudkundige continuïteit
-  - buitenlandse onderneming
-  - grensoverschrijdende partiële splitsing
-  - dotatie
-  - kapitaal
 bron: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-grensoverschrijdende-splitsingen
+datum: 2011-04-16
+gerelateerde_adviezen:
+- datum: '2021-07-12'
+  titel: Boekhoudrechtelijke verwerking van de wederopbouwreserve
+  url: https://www.cbn-cnc.be/nl/adviezen/boekhoudrechtelijke-verwerking-van-de-wederopbouwreserve
+- datum: '2021-05-12'
+  titel: Invloed van het buitengerechtelijk minnelijk akkoord en de gerechtelijke
+    reorganisatie op de schulden en vorderingen (update)
+  url: https://www.cbn-cnc.be/nl/adviezen/invloed-van-het-buitengerechtelijk-minnelijk-akkoord-en-de-gerechtelijke-reorganisatie-1
+- datum: '2018-05-30'
+  titel: Tax shelter voor podiumkunsten
+  url: https://www.cbn-cnc.be/nl/adviezen/tax-shelter-voor-podiumkunsten
+- datum: '2018-03-21'
+  titel: Aftrek voor innovatie-inkomsten
+  url: https://www.cbn-cnc.be/nl/adviezen/aftrek-voor-innovatie-inkomsten
+nummer: CBN-advies 2011/10
 provenance:
+  generated_at: '2026-05-08T18:36:10Z'
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-grensoverschrijdende-splitsingen
-      sha256: 4b61e0649ce780e830cb4940928d119883539180dc3ed49c08918c7562e0199a
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-grensoverschrijdende-splitsingen
+    sha256: 4b61e0649ce780e830cb4940928d119883539180dc3ed49c08918c7562e0199a
+    version: null
+  stale: false
+  stale_reason: null
   tooling:
+    model: null
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:36:10Z'
-  stale: false
-  stale_reason:
+    prompt_version: null
   trust:
-    status: trusted
-    qa_version:
     confirmed_at: '2026-05-08T19:02:28Z'
     confirmed_by: subagent-laag2-ronde2
-    rationale: '[Laag-2-R2 2026-05-08] Het advies bevat 12 headings en behandelt grensoverschrijdende splitsingen met correct juridisch kader en voorbeelden. Geen tabelcorruptie vastgesteld.'
     layer1:
-      verdict: warn
+      file_size_chars: 52019
+      flags: []
       heading_count: 12
-      max_section_chars: 26134
-      file_size_chars: 52017
-      flags:
-        - name: max_section_size
-          status: warn
-          detail: 'langste sectie op ##-niveau: 26134 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
-          samples: []
-      run_id: 20260509-212552
-gerelateerde_adviezen:
-  - titel: Boekhoudrechtelijke verwerking van de wederopbouwreserve
-    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudrechtelijke-verwerking-van-de-wederopbouwreserve
-    datum: '2021-07-12'
-  - titel: Invloed van het buitengerechtelijk minnelijk akkoord en de gerechtelijke reorganisatie op de schulden en vorderingen (update)
-    url: https://www.cbn-cnc.be/nl/adviezen/invloed-van-het-buitengerechtelijk-minnelijk-akkoord-en-de-gerechtelijke-reorganisatie-1
-    datum: '2021-05-12'
-  - titel: Tax shelter voor podiumkunsten
-    url: https://www.cbn-cnc.be/nl/adviezen/tax-shelter-voor-podiumkunsten
-    datum: '2018-05-30'
-  - titel: Aftrek voor innovatie-inkomsten
-    url: https://www.cbn-cnc.be/nl/adviezen/aftrek-voor-innovatie-inkomsten
-    datum: '2018-03-21'
+      max_section_chars: 14303
+      run_at: null
+      run_id: 20260511-083333
+      status: pass
+    layer2:
+      agent: subagent-laag2-ronde2
+      concrete_problemen: []
+      rationale: '[Laag-2-R2 2026-05-08] Het advies bevat 12 headings en behandelt
+        grensoverschrijdende splitsingen met correct juridisch kader en voorbeelden.
+        Geen tabelcorruptie vastgesteld.'
+      run_at: '2026-05-08T19:02:28Z'
+      status: trusted
+    rationale: Laag-2 trusted door subagent-laag2-ronde2 (zie layer2.rationale)
+    status: trusted
+themas:
+- belastingvrije reserves
+- belgische inrichting
+- boekhoudkundige continuïteit
+- buitenlandse onderneming
+- grensoverschrijdende partiële splitsing
+- dotatie
+- kapitaal
 ---
 
 # CBN-advies 2011/10 De boekhoudkundige verwerking van grensoverschrijdende splitsingen

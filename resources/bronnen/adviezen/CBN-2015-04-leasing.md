@@ -1,54 +1,58 @@
 ---
-nummer: "CBN-advies 2015/4"
-datum: 2015-06-24
-themas:
-  - aankoopoptie
-  - financiële leasing
-  - Huur
-  - leasing
-  - onroerende leasing
-  - operationele leasing
-  - roerende leasing
-  - sale and lease back
-  - verkoopoptie
 bron: https://www.cbn-cnc.be/nl/adviezen/leasing
+datum: 2015-06-24
+gerelateerde_adviezen:
+- datum: '1991-03-01'
+  titel: Boeking van het verschuldigd bedrag om de optie te lichten of van de restwaarde
+    aan het einde van de overeenkomst
+  url: https://www.cbn-cnc.be/nl/adviezen/boeking-van-het-verschuldigd-bedrag-om-de-optie-te-lichten-of-van-de-restwaarde-aan-het
+- datum: '1984-10-01'
+  titel: Roerende leasing - Definitie
+  url: https://www.cbn-cnc.be/nl/adviezen/roerende-leasing-definitie
+nummer: CBN-advies 2015/4
 provenance:
+  generated_at: '2026-05-08T18:36:49Z'
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/leasing
-      sha256: 994069d2d9c8d9a586845e90715415891f988cd32d291df3cee47605596eb26c
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/leasing
+    sha256: 994069d2d9c8d9a586845e90715415891f988cd32d291df3cee47605596eb26c
+    version: null
+  stale: false
+  stale_reason: null
   tooling:
+    model: null
     pipeline: tools/etl/scrape_cbn_advies.py
     pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:36:49Z'
-  stale: false
-  stale_reason:
+    prompt_version: null
   trust:
-    status: trusted
-    qa_version:
     confirmed_at: '2026-05-08T19:02:27Z'
     confirmed_by: subagent-laag2-ronde2
-    rationale: '[Laag-2-R2 2026-05-08] 33 headings over roerende leasing, onroerende leasing, huur en sale-and-lease-back. Samenvatting geeft directe antwoorden.'
     layer1:
-      verdict: warn
-      heading_count: 49
-      max_section_chars: 34223
-      file_size_chars: 77181
-      flags:
-        - name: max_section_size
-          status: warn
-          detail: 'langste sectie op ##-niveau: 34223 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
-          samples: []
-      run_id: 20260509-212552
-gerelateerde_adviezen:
-  - titel: Boeking van het verschuldigd bedrag om de optie te lichten of van de restwaarde aan het einde van de overeenkomst
-    url: https://www.cbn-cnc.be/nl/adviezen/boeking-van-het-verschuldigd-bedrag-om-de-optie-te-lichten-of-van-de-restwaarde-aan-het
-    datum: '1991-03-01'
-  - titel: Roerende leasing - Definitie
-    url: https://www.cbn-cnc.be/nl/adviezen/roerende-leasing-definitie
-    datum: '1984-10-01'
+      file_size_chars: 77127
+      flags: []
+      heading_count: 33
+      max_section_chars: 13471
+      run_at: null
+      run_id: 20260511-083333
+      status: pass
+    layer2:
+      agent: subagent-laag2-ronde2
+      concrete_problemen: []
+      rationale: '[Laag-2-R2 2026-05-08] 33 headings over roerende leasing, onroerende
+        leasing, huur en sale-and-lease-back. Samenvatting geeft directe antwoorden.'
+      run_at: '2026-05-08T19:02:27Z'
+      status: trusted
+    rationale: Laag-2 trusted door subagent-laag2-ronde2 (zie layer2.rationale)
+    status: trusted
+themas:
+- aankoopoptie
+- financiële leasing
+- Huur
+- leasing
+- onroerende leasing
+- operationele leasing
+- roerende leasing
+- sale and lease back
+- verkoopoptie
 ---
 
 # CBN-advies 2015/4 - Leasing
