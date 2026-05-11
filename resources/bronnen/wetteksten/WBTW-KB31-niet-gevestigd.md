@@ -4,54 +4,64 @@ bron: Afgesplitst uit Fisconet-compilatie (pdftotext_compilatie_btw)
 bron_rol: itaa_lex
 chunk:
   level: 2
-  sub_strategy:
+  sub_strategy: null
   type: Art.
 itaa-lex-sectie: VI.B
 provenance:
-  generated_at: '2026-05-11T13:40:00Z'
+  generated_at: '2026-05-11T16:21:50Z'
   inputs:
-    - id: resources/raw/wetteksten/btw-kbs/WBTW-KB-compilatie.pdf
-      sha256: 5f1bad7278d1f8e1f5c00efb5d792f61342d3f7a14a7950caca2937924bfa91c
-      version: 06.03.2020
+  - id: resources/raw/wetteksten/btw-kbs/WBTW-KB-compilatie.pdf
+    sha256: 5f1bad7278d1f8e1f5c00efb5d792f61342d3f7a14a7950caca2937924bfa91c
+    version: 06.03.2020
   stale: false
-  stale_reason:
+  stale_reason: null
   tooling:
-    model:
+    model: null
     pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    prompt_version:
+    pipeline_version: 11f9196
+    prompt_version: null
   trust:
     confirmed_at: '2026-05-11T11:46:29Z'
     confirmed_by: subagent-sonnet-4-6
     layer1:
-      status: pass
-      run_id: 20260511-134044
-      run_at: '2026-05-11T13:40:47Z'
-      heading_count: 9
-      max_section_chars: 3669
       file_size_chars: 20107
       flags: []
+      heading_count: 9
+      max_section_chars: 3669
+      run_at: '2026-05-11T13:40:47Z'
+      run_id: 20260511-134044
+      status: pass
     layer2:
       agent: subagent-sonnet-4-6
       concrete_problemen:
-        - categorie: A4
-          regel: 317
-          type: ocr-confusion
-          voorbeeld: geïdentiﬁceerd (ligature ﬁ i.p.v. fi)
-        - categorie: A6
-          regel: 324
-          type: other
-          voorbeeld: inartikel 2, § 1. (samengesmolten 'in artikel')
-      rationale: 'Twee concrete extractie-fouten: (1) A4/OCR: regel 317 bevat een typografische ligature ''ﬁ'' in ''geïdentiﬁceerd'' (U+FB01) — OCR-artefact dat zoekindexering en tokenisatie verstoort. (2) A6: regel 324 toont ''inartikel 2, § 1.'' zonder spatie (woorden samengesmolten bij regelombreuk in PDF). De 9 ##-headings (Art. 1-9) zijn correct; bijlage netjes.'
+      - categorie: A4
+        regel: 317
+        type: ocr-confusion
+        voorbeeld: geïdentiﬁceerd (ligature ﬁ i.p.v. fi)
+      - categorie: A6
+        regel: 324
+        type: other
+        voorbeeld: inartikel 2, § 1. (samengesmolten 'in artikel')
+      rationale: 'Twee concrete extractie-fouten: (1) A4/OCR: regel 317 bevat een
+        typografische ligature ''ﬁ'' in ''geïdentiﬁceerd'' (U+FB01) — OCR-artefact
+        dat zoekindexering en tokenisatie verstoort. (2) A6: regel 324 toont ''inartikel
+        2, § 1.'' zonder spatie (woorden samengesmolten bij regelombreuk in PDF).
+        De 9 ##-headings (Art. 1-9) zijn correct; bijlage netjes.'
       run_at: '2026-05-11T11:46:29Z'
       status: needs-rework
-    rationale: 'Twee concrete extractie-fouten: (1) A4/OCR: regel 317 bevat een typografische ligature ''ﬁ'' in ''geïdentiﬁceerd'' (U+FB01) — OCR-artefact dat zoekindexering en tokenisatie verstoort. (2) A6: regel 324 toont ''inartikel 2, § 1.'' zonder spatie (woorden samengesmolten bij regelombreuk in PDF). De 9 ##-headings (Art. 1-9) zijn correct; bijlage netjes.'
+    rationale: 'Twee concrete extractie-fouten: (1) A4/OCR: regel 317 bevat een typografische
+      ligature ''ﬁ'' in ''geïdentiﬁceerd'' (U+FB01) — OCR-artefact dat zoekindexering
+      en tokenisatie verstoort. (2) A6: regel 324 toont ''inartikel 2, § 1.'' zonder
+      spatie (woorden samengesmolten bij regelombreuk in PDF). De 9 ##-headings (Art.
+      1-9) zijn correct; bijlage netjes.'
     status: needs-rework
 status: beschikbaar
 tags:
-  - VI.B
-  - '2.4'
-wet: K.B. nr. 31 van 2 april 2002, met betrekking tot de toepassings- modaliteiten van de belasting over de toegevoegde waarde ten aanzien van de handelingen verricht door niet in België gevestigde belastingplichtigen
+- VI.B
+- '2.4'
+wet: K.B. nr. 31 van 2 april 2002, met betrekking tot de toepassings- modaliteiten
+  van de belasting over de toegevoegde waarde ten aanzien van de handelingen verricht
+  door niet in België gevestigde belastingplichtigen
 ---
 
 # K.B. nr. 31 van 2 april 2002, met betrekking tot de toepassings- modaliteiten van de belasting over de toegevoegde waarde ten aanzien van de handelingen verricht door niet in België gevestigde belastingplichtigen

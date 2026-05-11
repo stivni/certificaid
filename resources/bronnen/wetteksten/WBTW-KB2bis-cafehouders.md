@@ -4,46 +4,47 @@ bron: Fisconetplus.be (officieuze gecoördineerde versie)
 bron_rol: itaa_lex
 chunk:
   level: 4
-  sub_strategy:
+  sub_strategy: null
   type: Art.
 itaa-lex-sectie: VI.B
 provenance:
-  generated_at: '2026-05-11T13:40:00Z'
+  generated_at: '2026-05-11T16:21:50Z'
   inputs:
-    - id: resources/raw/wetteksten/btw-kbs/WBTW-KB2bis-cafehouders.pdf
-      sha256: a9f53f40b741a7edfcdec7d2dfba39c190bd63c7504f05d871a2903f6f96b3f3
-      version: '2022'
+  - id: resources/raw/wetteksten/btw-kbs/WBTW-KB2bis-cafehouders.pdf
+    sha256: a9f53f40b741a7edfcdec7d2dfba39c190bd63c7504f05d871a2903f6f96b3f3
+    version: '2022'
   stale: false
-  stale_reason:
+  stale_reason: null
   tooling:
-    model:
+    model: null
     pipeline: tools/etl/convert.py
-    pipeline_version: 7a134f4
-    prompt_version:
+    pipeline_version: 11f9196
+    prompt_version: null
   trust:
-    confirmed_at: '2026-05-09T21:27:46Z'
-    confirmed_by: subagent-sonnet-4-6
+    confirmed_at: null
+    confirmed_by: null
     layer1:
-      status: pass
-      run_id: 20260511-134044
-      run_at: '2026-05-11T13:40:47Z'
-      heading_count: 56
-      max_section_chars: 2438
       file_size_chars: 21327
       flags: []
+      heading_count: 56
+      max_section_chars: 2438
+      run_at: '2026-05-11T13:40:47Z'
+      run_id: 20260511-134044
+      status: pass
     layer2:
-      agent:
+      agent: null
       concrete_problemen: []
-      rationale: 'Modern PDF-extract met 56 headings (38× #### Art.). Frontmatter consistent, body eindigt op Art. N5 met ''Beeld niet opgenomen'' — inherent aan de bron, niet een ETL-fout. Kleine cosmetische extras (KB-modifications inline) maar structuur klopt.'
-      run_at:
-      status: trusted
-    rationale: 'L1=pass; L1.5=improvement (Auto-synthesized: heading-injection (inject_wbtw_headings.py) — staging is structureel beter dan resources-versie.); L2=trusted (ETL-fix toegepast: inject_wbtw_headings.py heeft TOC-strip + Artikel-N → ## Art. heading-injectie + AFDELING-normalisatie uitgevoerd. Eerdere needs-rework op ''missing-section'' opgeheven.)'
-    status: trusted
+      rationale: null
+      run_at: null
+      status: not_run
+    rationale: 'Trust gereset 2026-05-11: ETL-fix wetteksten met content-diff > 5%'
+    status: unreviewed
 status: beschikbaar
 tags:
-  - VI.B
-  - '2.4'
-wet: K.B. nr. 2bis, 15 mei 2022, tot vaststelling van de forfaitaire grondslagen van aanslag voor caféhouders
+- VI.B
+- '2.4'
+wet: K.B. nr. 2bis, 15 mei 2022, tot vaststelling van de forfaitaire grondslagen van
+  aanslag voor caféhouders
 ---
 
 # BTW KB nr. 2bis — Forfaitaire grondslagen caféhouders
@@ -55,6 +56,58 @@ Titel
 15 MEI 2022. - Koninklijk besluit nr. 2bis tot vaststelling van de forfaitaire grondslagen van aanslag inzake de belasting over de toegevoegde waarde voor caféhouders en kleine caféhouders
 
 Bron : FINANCIEN
+
+#### Art. 11
+
+## HOOFDSTUK 3. - Berekeningswijze van de forfaitaire grondslagen van aanslag inzake btw voor de caféhouders
+
+#### Art. 12
+
+### Afdeling 1. - Bier in vaten
+
+### Afdeling 2. - Flessenbier
+
+#### Art. 16
+
+### Afdeling 3. - Waters, limonade, coladranken, melkdranken, vruchten- en groentesappen
+
+#### Art. 17
+
+### Afdeling 4. - Wijnen, aperitieven, portowijnen en sterke dranken
+
+#### Art. 18
+
+### Afdeling 5. - Koffie
+
+#### Art. 19
+
+### Afdeling 6. - Thee
+
+#### Art. 20
+
+### Afdeling 7. - Bouillon
+
+#### Art. 21
+
+### Afdeling 8. - Ingekochte vooraf bereide soepen
+
+#### Art. 22
+
+### Afdeling 9. - Kleine niet door de caféhouder bereide eetwaren en gekookte eieren
+
+#### Art. 23
+
+### Afdeling 10. - Frisdranken en spuitwater getapt door middel van post- of premixinstallaties
+
+#### Art. 24
+
+## HOOFDSTUK 4. - Gemeenschappelijke bepalingen voor de caféhouders en de kleine caféhouders
+
+## HOOFDSTUK 5. - Slotbepalingen BIJLAGEN.
+
+#### Art. N1-N5
+
+Tekst
 
 ## HOOFDSTUK 1. - Algemene bepalingen
 
@@ -76,6 +129,7 @@ b) tweehonderdvijfendertig pct. van de aankoopprijs voor wat de andere koude dra
 #### Art. 3
 
 De kleine caféhouders kunnen, wanneer ze hiertoe de wil laten kennen, belast worden volgens de forfaitaire grondslagen van aanslag voor caféhouders voor zover zij aan de voorwaarden voldoen gesteld in die regeling.
+
 Deze optie wordt schriftelijk gericht aan de bevoegde dienst van de administratie belast met de belasting over de toegevoegde waarde waaronder de belastingplichtige ressorteert, of stilzwijgend in de eerste kwartaalaangifte van het kalenderjaar. Deze optie bindt de belastingplichtige voor het ganse kalenderjaar.
 
 #### Art. 4
@@ -137,6 +191,7 @@ De belastbare opbrengst van het verschaffen in het café van kleine niet zelf do
 De belastbare opbrengst van het serveren van sterke dranken wordt bekomen door, per dranksoort, het aantal aangekochte flessen te vermenigvuldigen met het aantal consumpties per fles zoals bepaald in het tweede lid en de eenheidsprijs per glas.
 Het aantal consumpties per fles sterke drank wordt bepaald als volgt:
 1° voor flessen met een inhoud van één liter, zevenennegentig centiliter en zesennegentig centiliter: twintig consumpties;
+
 2° voor flessen met een inhoud van vijfenzeventig of zeventig centiliter: vijftien consumpties;
 3° voor flessen met een inhoud van vijftig centiliter: tien consumpties.
 
@@ -180,7 +235,9 @@ Indien op de prijstabel drie verschillende prijzen worden aangeduid voor het in 
 De belastbare opbrengst van het bier geschonken uit flessen wordt bekomen door, per biersoort, het aantal aangekochte flessen te vermenigvuldigen met het aantal consumpties per fles zoals bepaald in het tweede lid en de eenheidsprijs per glas.
 Het aantal consumpties per fles wordt bepaald als volgt:
 1° voor kleine flessen van een derde liter of een vierde liter: één consumptie per fles;
-2° voor flessen van twee derde liter: per fles twee consumpties in glazen van drieëndertig centiliter of twee en een halve consumptie in glazen van vijfentwintig centiliter;
+2° voor flessen van twee derde liter: per fles twee consumpties in glazen van drieëndertig centiliter of twee en
+
+een halve consumptie in glazen van vijfentwintig centiliter;
 3° voor flessen van drie vierde liter: per fles twee en een halve consumptie in glazen van drieëndertig centiliter of drie consumpties in glazen van vijfentwintig centiliter.
 Wanneer op de prijstabel een eenheidsprijs is bepaald voor de consumptie van een fles die in haar geheel geserveerd wordt, dan wordt het aantal ingekochte en aldus geserveerde flessen vermenigvuldigd met de eenheidsprijs.
 
@@ -242,7 +299,9 @@ De belastbare opbrengst van de geserveerde consumpties soep wordt bekomen door h
 
 #### Art. 23
 
-De belastbare opbrengst van de geserveerde kleine niet door de caféhouder bereide eetwaren en van gekookte eieren wordt bekomen overeenkomstig artikel 10.
+De belastbare opbrengst van de geserveerde kleine niet door de caféhouder bereide eetwaren en van
+
+gekookte eieren wordt bekomen overeenkomstig artikel 10.
 
 ### Afdeling 10. - Frisdranken en spuitwater getapt door middel van post- of premixinstallaties
 

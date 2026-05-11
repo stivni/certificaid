@@ -1,47 +1,49 @@
 ---
-tags: [X, '2.8']
-itaa-lex-sectie: X
-wet: Richtlijn 2003/49/EG van de Raad van 3 juni 2003 betreffende een gemeenschappelijke belastingregeling inzake uitkeringen van interest en royalty's tussen verbonden ondernemingen van verschillende lidstaten
-bron_rol: itaa_lex
-status: beschikbaar
 bijgewerkt: 26.06.2003
 bron: ejustice.just.fgov.be (gecoördineerde versie)
+bron_rol: itaa_lex
 chunk:
   level: 2
-  type: Art.
   sub_strategy:
+  type: Art.
+itaa-lex-sectie: X
 provenance:
+  generated_at: '2026-05-11T16:21:26Z'
   inputs:
     - id: resources/raw/wetteksten/EU-Richtlijn-interest-royalties-2003-49.pdf
       sha256: c84f67e63325e8fac7258bd751f5feef71fef11e23d6c5c0885349e65b5faf58
       version: 26.06.2003
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 7a134f4
-    model:
-    prompt_version:
-  generated_at: '2026-05-09T16:15:48Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
-    status: trusted
     confirmed_at: '2026-05-09T21:27:46Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: L1=pass
     layer1:
       status: pass
-      run_id: 20260511-134044
-      run_at: '2026-05-11T13:40:45Z'
+      run_id: 20260511-162232
+      run_at: '2026-05-11T16:22:33Z'
       heading_count: 11
       max_section_chars: 8152
-      file_size_chars: 24372
+      file_size_chars: 24370
       flags: []
     layer2:
-      status: trusted
       agent:
-      run_at:
-      rationale: Richtlijn 2003/49/EG met 11 Art.-vermeldingen op H2. Body leesbaar, soft hyphens maar woorden intact.
       concrete_problemen: []
+      rationale: Richtlijn 2003/49/EG met 11 Art.-vermeldingen op H2. Body leesbaar, soft hyphens maar woorden intact.
+      run_at:
+      status: trusted
+    rationale: L1=pass
+    status: trusted
+status: beschikbaar
+tags:
+  - X
+  - '2.8'
+wet: Richtlijn 2003/49/EG van de Raad van 3 juni 2003 betreffende een gemeenschappelijke belastingregeling inzake uitkeringen van interest en royalty's tussen verbonden ondernemingen van verschillende lidstaten
 ---
 
 # Richtlijn 2003/49/EG van de Raad van 3 juni 2003 betreffende een gemeenschappelijke belastingregeling inzake uitkeringen van interest en royalty's tussen verbonden ondernemingen van verschillende lidstaten
@@ -320,5 +322,3 @@ l) Handelsvennootschappen, burgerlijke vennootschappen met handelsvorm, coöpera
 m) Ondernemingen naar Fins recht, geheten osakeyhtiö/aktiebolag, osuuskunta/andelslag, säästöpankki/sparbank en vakuutusyhtiö/försäkringsbolag.
 n) Ondernemingen naar Zweeds recht, geheten aktiebolag, försäkringsaktiebolag.
 o) Ondernemingen naar het recht van het Verenigd Koninkrijk.
-
-

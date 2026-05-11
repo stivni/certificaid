@@ -1,68 +1,79 @@
 ---
-tags: [VI.A, '2.4']
-itaa-lex-sectie: VI.A
-wet: Wet 3 juli 1969 tot invoering van het Wetboek van de belasting over de toegevoegde waarde (WBTW)
-bron_rol: itaa_lex
-status: beschikbaar
 bijgewerkt: 19.12.2025
 bron: Fisconetplus.be (officieuze gecoördineerde versie)
+bron_rol: itaa_lex
 chunk:
   level: 5
+  sub_strategy: null
   type: Art.
-  sub_strategy:
+itaa-lex-sectie: VI.A
 provenance:
+  generated_at: '2026-05-11T16:21:51Z'
   inputs:
-    - id: resources/raw/wetteksten/WBTW-2026.pdf
-      sha256: 4892c9b4107878d21a7dc984c82a6e6f8619d05bb3fd058f34bfc144b0cf4d1e
-      version: 19.12.2025
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 7a134f4
-    model:
-    prompt_version:
-  generated_at: '2026-05-09T16:14:47Z'
+  - id: resources/raw/wetteksten/WBTW-2026.pdf
+    sha256: 4892c9b4107878d21a7dc984c82a6e6f8619d05bb3fd058f34bfc144b0cf4d1e
+    version: 19.12.2025
   stale: false
-  stale_reason:
+  stale_reason: null
+  tooling:
+    model: null
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version: null
   trust:
-    status: trusted
     confirmed_at: '2026-05-09T20:31:38Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: 'L1=warn; L1.5=improvement (Auto-synthesized: ETL-fixes vandaag (NBSP, sub_strategy, justel-extractor, etc.) verbeteren bestaande versie.); L2=trusted (Grote wettekst (620KB) met 283 headings tot ##### Art.-niveau; max sectie 58337 chars (chunker splitst auto). Inhoud leesbaar, geen NL/FR-mengelmoes, slot bijlages aanwezig.)'
     layer1:
-      status: warn
-      run_id: 20260511-134044
-      run_at: '2026-05-11T13:40:48Z'
-      heading_count: 283
-      max_section_chars: 58337
       file_size_chars: 620256
       flags:
-        - name: max_section_size
-          status: warn
-          detail: 'langste sectie op #####-niveau: 58337 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
-          samples: []
+      - detail: 'langste sectie op #####-niveau: 58337 chars (>24000); chunker splitst
+          auto op alinea-grenzen via split_long_chunk'
+        name: max_section_size
+        samples: []
+        status: warn
+      heading_count: 283
+      max_section_chars: 58337
+      run_at: '2026-05-11T13:40:48Z'
+      run_id: 20260511-134044
+      status: warn
     layer2:
-      status: trusted
-      agent:
-      run_at:
-      rationale: 'Grote wettekst (620KB) met 283 headings tot ##### Art.-niveau; max sectie 58337 chars (chunker splitst auto). Inhoud leesbaar, geen NL/FR-mengelmoes, slot bijlages aanwezig.'
+      agent: null
       concrete_problemen:
-        - regel: 0
-          type: other
-          voorbeeld: max_section_size warn (58337 chars) wordt opgevangen door split_long_chunk
+      - regel: 0
+        type: other
+        voorbeeld: max_section_size warn (58337 chars) wordt opgevangen door split_long_chunk
+      rationale: 'Grote wettekst (620KB) met 283 headings tot ##### Art.-niveau; max
+        sectie 58337 chars (chunker splitst auto). Inhoud leesbaar, geen NL/FR-mengelmoes,
+        slot bijlages aanwezig.'
+      run_at: null
+      status: trusted
+    rationale: 'L1=warn; L1.5=improvement (Auto-synthesized: ETL-fixes vandaag (NBSP,
+      sub_strategy, justel-extractor, etc.) verbeteren bestaande versie.); L2=trusted
+      (Grote wettekst (620KB) met 283 headings tot ##### Art.-niveau; max sectie 58337
+      chars (chunker splitst auto). Inhoud leesbaar, geen NL/FR-mengelmoes, slot bijlages
+      aanwezig.)'
+    status: trusted
+status: beschikbaar
+tags:
+- VI.A
+- '2.4'
+wet: Wet 3 juli 1969 tot invoering van het Wetboek van de belasting over de toegevoegde
+  waarde (WBTW)
 ---
 
 # Wetboek van de Belasting over de Toegevoegde Waarde (WBTW)
 
 *Bijgewerkt tot en met 19.12.2025 — gecoördineerde versie.*
 
-BELASTING OVER DE TOEGEVOEGDE WAARDE
+## BELASTING OVER DE TOEGEVOEGDE WAARDE
 
-FINANCIEN
+## FINANCIEN
+
 Algemene Administratie voor
 
 contact: comments.kms@minfin.fed.be
 
-BELASTING OVER DE TOEGEVOEGDE WAARDE
+## BELASTING OVER DE TOEGEVOEGDE WAARDE
 
 Wet van 3 juli 1969, officieuze coördinatie
 
@@ -78,7 +89,126 @@ Actuele tekst, met de bijwerking nr. 62 / 01.02.2026
 ____________________________
 (1)   Inwerkingtreding op 31.12.2025
 
-## HOOFDSTUK I INVOERING VAN DE BELASTING
+## HOOFDSTUK I:            INVOERING VAN DE BELASTING                             Art. 1-3bis
+
+## HOOFDSTUK II:           BELASTINGPLICHT                                        Art. 4-8bis
+
+## HOOFDSTUK III:          WERKINGSSFEER
+
+### Afdeling 1:       Levering van goederen
+
+Onderafd. 1:      Bedoelde goederen en handelingen                Art. 9-13bis
+
+Onderafd. 2:      Plaats van de levering van de goederen          Art. 14-15
+
+Onderafd. 3:      Belastbare feit en opeisbaarheid van de         Art. 16-17 belasting
+
+### Afdeling 2:       Diensten
+
+Onderafd. 1:      Bedoelde diensten                               Art. 18-20
+
+Onderafd. 2:      Plaats van de dienst                            Art. 21-21ter
+
+Onderafd. 3:      Belastbare feit en opeisbaarheid van de         Art. 22-22bis belasting
+
+### Afdeling 2bis:     Gemeenschappelijke bepalingen voor de              Art. 22ter afdelingen 1 en 2
+
+### Afdeling 3:        Invoer                                             Art. 23-25
+
+### Afdeling 4:        Intracommunautaire verwerving van goederen         Art. 25bis-25septies
+
+## HOOFDSTUK IV:           MAATSTAF VAN HEFFING                                   Art. 26-36
+
+## HOOFDSTUK V:            TARIEF VAN DE BELASTING                                Art. 37-38ter
+
+## HOOFDSTUK VI:           VRIJSTELLINGEN
+
+### Afdeling 1:       Uitvoer, intracommunautaire leveringen en           Art. 39-43 verwervingen, invoer en internationaal vervoer
+
+### Afdeling 2:       Andere vrijstellingen                               Art. 44-44bis
+
+## HOOFDSTUK VII:          AFTREK VAN VOORBELASTING                               Art. 45-49
+
+## HOOFDSTUK VIII:         REGELING VOOR DE VOLDOENING VAN DE                     Art. 50-55
+
+## BELASTING
+
+## HOOFDSTUK IX:           BIJZONDERE REGELINGEN
+
+### Afdeling 1:       Kleine ondernemingen
+
+Onderafd. 1:      Regeling van de forfaitaire grond               Art. 56
+
+Onderafd. 2:      Vrijstellingsregeling van belasting             Art. 56bis-56undecies
+
+### Afdeling 2:       Landbouwondernemingen                               Art. 57
+
+### Afdeling 3:       Andere bijzondere regelingen                        Art. 58
+
+### Afdeling 4:       Bijzondere regelingen voor telecommunicatiediensten, radio- en televisie-omroepdiensten of elektronische diensten verricht voor nietbelastingplichtigen Onderafd. 1:      Definities                                      Art. 58bis
+
+- Inhoudstafel / 1 -
+
+Onderafd. 2:     Bijzondere regeling voor diensten verricht     Art. 58ter door niet in de Gemeenschap gevestigde belastingplichtigen
+
+Onderafd. 3:     Bijzondere regeling voor diensten verricht     Art. 58quater door in de Gemeenschap doch niet in de lidstaat van verbruik gevestigde belastingplichtigen
+Onderafd. 4:     Bijzondere regeling van toepassing op          Art. 58quinquies afstandsverkopen van uit derdelandsgebieden of derde landen ingevoerde goederen
+
+### Afdeling 5:      Bijzondere regeling voor de aangifte en betaling   Art. 58sexies van de btw bij invoer
+
+## HOOFDSTUK X:            BEWIJSMIDDELEN EN CONTROLEMAATREGELEN                Art. 59-69
+
+## HOOFDSTUK Xbis:         DIGITALISATIE VAN DE RELATIES TUSSEN DE              Art. 69bis-69octies (*)
+
+## BELASTINGPLICHTIGEN, DE NIET-BELASTING-
+
+## PLICHTIGE RECHTSPERSONEN EN DE NIET-
+
+## BELASTINGPLICHTIGE NATUURLIJKE PERSONEN
+
+(*)
+
+## HOOFDSTUK XI:           STRAFBEPALINGEN
+
+### Afdeling 1:      Administratieve geldboeten                         Art. 70-72
+
+### Afdeling 2:      Strafrechtelijke sancties                          Art. 73-74ter
+
+## HOOFDSTUK XII:           TERUGGAAF VAN BELASTING                             Art. 75-80
+
+## HOOFDSTUK XIII:          VERJARING                                           Art. 81-83
+
+## HOOFDSTUK XIV:           INNING EN GEDINGEN                                  Art. 83bis-93
+
+## HOOFDSTUK XV:            BEROEPSGEHEIM                                       Art. 93bis-93bis/1
+
+## HOOFDSTUK XVI:           AANSPRAKELIJKHEID EN PLICHTEN VAN                   Art. 93ter-93undeciesE
+
+## SOMMIGE OPEN-BARE AMBTENAREN EN ANDERE
+
+## PERSONEN
+
+## HOOFDSTUK XVII:          VERPLICHTINGEN VAN BETALINGSDIENST-                 Art. 93duodecies – AANBIEDERS                                          93duodecies/5
+
+## HOOFDSTUK XVIII:         WEDERZIJDSE BIJSTAND                                Art. 93terdecies
+
+## HOOFDSTUK XIX:           AAN ALLE BELASTINGEN GEMENE BEPALINGEN              Art. 93quaterdecies OPHEFFINGSBEPALINGEN                                                   Art. 94-97 INWERKINGTREDING                                                       Art. 98 ALGEMENE EN BIJZONDERE OVERGANGSBEPALINGEN –                           Art. 99-109
+
+## TIJDELIJKE BEPALINGEN
+
+Bijlagen:
+A. Recente wijzigingen
+B. Opmerkingen en arresten bij bepaalde artikelen
+____________________________
+
+(*) Hoofdstuk Xbis (artikelen 69bis - 69octies), wordt ingevoegd met ingang ten laatste op 01.01.2028 (Art. 48, W 12.05.2024, B.S. 30.05.2024, Ed. 2, pg.
+68168, Numac: 2024003880) - Tekst, zie de historische versies (html).
+
+- Inhoudstafel / 2 -
+
+## HOOFDSTUK I
+
+## INVOERING VAN DE BELASTING
 
 ##### Art. 1
 
@@ -289,7 +419,9 @@ De invoer van goederen, door wie ook, is eveneens aan de belasting onderworpen w
 
 De intracommunautaire verwervingen van goederen, omschreven in artikel 25bis, worden, wanneer zij in België geschieden, eveneens aan de belasting onderworpen, wanneer ze onder bezwarende titel plaatsvinden onder de in artikel 25ter gestelde voorwaarden.
 
-## HOOFDSTUK II BELASTINGPLICHT
+## HOOFDSTUK II
+
+## BELASTINGPLICHT
 
 ##### Art. 4
 
@@ -391,7 +523,9 @@ Door of vanwege de Minister van Financiën wordt vastgesteld onder welke voorwaa
 
 - II / 3 -
 
-## HOOFDSTUK III WERKINGSSFEER
+## HOOFDSTUK III
+
+## WERKINGSSFEER
 
 ### Afdeling 1
 
@@ -1217,7 +1351,9 @@ De belasting wordt opeisbaar op de vijftiende dag van de maand volgend op die wa
 
 - III / 26 -
 
-## HOOFDSTUK IV MAATSTAF VAN HEFFING
+## HOOFDSTUK IV
+
+## MAATSTAF VAN HEFFING
 
 ##### Art. 26
 
@@ -1429,7 +1565,9 @@ Wanneer werken in onroerende staat betrekking hebben op de voltooiing van een ge
 
 - IV / 6 -
 
-## HOOFDSTUK V TARIEF VAN DE BELASTING
+## HOOFDSTUK V
+
+## TARIEF VAN DE BELASTING
 
 ##### Art. 37
 
@@ -1474,7 +1612,9 @@ Het voor de invoer van goederen toe te passen tarief is het tarief dat in het bi
 
 Iedere handeling die bijdraagt tot het vervaardigen, het bouwen, het monteren of het omvormen van een ander goed dan een uit zijn aard onroerend goed, is aan de belasting onderworpen aan het tarief dat geldt voor het goed beschouwd in de staat waarin het verkeert na de uitvoering van de handeling.
 
-## HOOFDSTUK VI VRIJSTELLINGEN
+## HOOFDSTUK VI
+
+## VRIJSTELLINGEN
 
 ### Afdeling 1
 
@@ -2133,7 +2273,9 @@ Indien de leverancier heeft geopteerd voor de belastingheffing van dergelijke le
 
 - VI / 20 -
 
-## HOOFDSTUK VII AFTREK VAN VOORBELASTING
+## HOOFDSTUK VII
+
+## AFTREK VAN VOORBELASTING
 
 ##### Art. 45
 
@@ -2295,7 +2437,9 @@ c)     bij het sluiten of beëindigen van de huurovereenkomst.
 
 - VII / 6 -
 
-## HOOFDSTUK VIII REGELING VOOR DE VOLDOENING VAN DE BELASTING
+## HOOFDSTUK VIII
+
+## REGELING VOOR DE VOLDOENING VAN DE BELASTING
 
 ##### Art. 50
 
@@ -2934,7 +3078,9 @@ De medecontractant te goeder trouw, die bewijst dat hij aan zijn leverancier of 
 
 - VIII / 22 -
 
-## HOOFDSTUK IX BIJZONDERE REGELINGEN
+## HOOFDSTUK IX
+
+## BIJZONDERE REGELINGEN
 
 ### Afdeling 1
 
@@ -3804,7 +3950,9 @@ De in het eerste lid bedoelde persoon voldoet het totale bedrag van de in die aa
 
 - IX / 28 -
 
-## HOOFDSTUK X BEWIJSMIDDELEN EN CONTROLEMAATREGELEN
+## HOOFDSTUK X
+
+## BEWIJSMIDDELEN EN CONTROLEMAATREGELEN
 
 ##### Art. 59
 
@@ -4033,7 +4181,9 @@ De administratie brengt de beslissing van ambtshalve aanslag ter kennis bij aang
 
 Ontvangers belast met de heffing van een belasting op vervoermiddelen of aanhangwagens daarvoor, kunnen vóór de uitreiking van het stuk dat de voldoening van die belasting vaststelt, van de eigenaar het bewijs vorderen dat de belasting over de toegevoegde waarde voldaan is of dat hij ervan vrijgesteld is.
 
-## HOOFDSTUK XI STRAFBEPALINGEN
+## HOOFDSTUK XI
+
+## STRAFBEPALINGEN
 
 ### Afdeling 1
 
@@ -4253,7 +4403,9 @@ In het kader van de kennisgeving en het overleg bedoeld in artikel 29, § 2 en �
 
 - XI / 7 -
 
-## HOOFDSTUK XII TERUGGAAF VAN BELASTING
+## HOOFDSTUK XII
+
+## TERUGGAAF VAN BELASTING
 
 ##### Art. 75
 
@@ -4423,7 +4575,9 @@ Onverminderd het eerste lid, bepaalt Hij de toepassingsvoorwaarden van de terugg
 
 - XII / 6 -
 
-## HOOFDSTUK XIII VERJARING
+## HOOFDSTUK XIII
+
+## VERJARING
 
 ##### Art. 81
 
@@ -4491,7 +4645,10 @@ De schorsing vangt aan met het op gang brengen van de strafvordering, en eindigt
 
 - XIII / 3 -
 
-## HOOFDSTUK XIV INNING EN GEDINGEN
+## HOOFDSTUK XIV
+
+## INNING EN GEDINGEN
+
 (De betiteling van hoofdstuk XIV, werd vervangen met ingang van 01.01.2020 (Art. 5, W 13.04.2019, B.S. 30.04.2019, pg. 41412))
 
 ##### Art. 83bis
@@ -4826,7 +4983,9 @@ Het verzoekschrift houdende voorziening in cassatie en het antwoord op de voorzi
 
 - XIV / 10 -
 
-## HOOFDSTUK XV BEROEPSGEHEIM
+## HOOFDSTUK XV
+
+## BEROEPSGEHEIM
 
 ##### Art. 93bis
 
@@ -4849,7 +5008,12 @@ Het in het eerste lid bedoelde akkoord wordt geacht te zijn bekomen wanneer de b
 
 - XV / 1 -
 
-## HOOFDSTUK XVI AANSPRAKELIJKHEID EN PLICHTEN VAN SOMMIGE OPENBARE AMBTENAREN EN ANDERE PERSONEN
+## HOOFDSTUK XVI
+
+## AANSPRAKELIJKHEID EN PLICHTEN VAN SOMMIGE OPENBARE
+
+## AMBTENAREN EN ANDERE PERSONEN
+
 (Hoofdstuk XVI, dat de artikelen 93ter tot 93undeciesE bevat, werd opgeheven met ingang van 01.01.2020 (Art. 25, W 13.04.2019, B.S. 30.04.2019, pg. 41412). De artikelen van dit hoofdstuk blijven evenwel van toepassing op de gevallen bedoeld in art. 138, W 13.04.2019) (21)
 
 ##### Art. 93ter
@@ -4926,7 +5090,10 @@ De Wet tot invoering van het Wetboek van de minnelijke en gedwongen invordering 
 
 - XVI / 3 -
 
-## HOOFDSTUK XVII VERPLICHTINGEN VAN BETALINGSDIENSTAANBIEDERS
+## HOOFDSTUK XVII
+
+## VERPLICHTINGEN VAN BETALINGSDIENSTAANBIEDERS
+
 (Het opschrift van hoofdstuk XVII, werd hersteld (Art. 4, W 07.04.2023, B.S. 18.04.2023, pg. 39876, Numac: 2023041376) met ingang van 01.01.2024 (Art. 11, W 07.04.2023))
 
 ##### Art. 93duodecies
@@ -5061,7 +5228,9 @@ De Koning bepaalt het tijdstip van de in artikel 93duodecies/1, § 4, 2°, bedoe
 
 - XVII / 4 -
 
-## HOOFDSTUK XVIII WEDERZIJDSE BIJSTAND
+## HOOFDSTUK XVIII
+
+## WEDERZIJDSE BIJSTAND
 
 ##### Art. 93terdecies
 
@@ -5079,7 +5248,9 @@ De inlichtingen die door een ambtenaar van de administratie belast met de belast
 
 - XVIII / 1 -
 
-## HOOFDSTUK XIX AAN ALLE BELASTINGEN GEMENE BEPALINGEN
+## HOOFDSTUK XIX
+
+## AAN ALLE BELASTINGEN GEMENE BEPALINGEN
 
 ##### Art. 93quaterdecies
 
@@ -5099,7 +5270,7 @@ Elke ambtenaar van de Federale Overheidsdienst Financiën, die regelmatig werd b
 
 - XIX / 1 -
 
-OPHEFFINGSBEPALINGEN
+## OPHEFFINGSBEPALINGEN
 
 ##### Art. 94
 
@@ -5149,7 +5320,7 @@ van de wet van 7 maart 1935 tot oprichting van een gedenkteken der regering van 
 
 De bepalingen van vóór de inwerkingtreding van dit Wetboek, die sommige publiekrechtelijke rechtspersonen en openbare diensten voor de toepassing van de belastingwetten met de Staat gelijkstellen, gelden niet voor de door dit Wetboek ingevoerde belasting.
 
-INWERKINGTREDING
+## INWERKINGTREDING
 
 ##### Art. 98
 
@@ -5159,11 +5330,12 @@ Deze wet treedt in werking op 1 januari 1971.
 
 - Opheffing en inwerkingtreding / 2 -
 
-ALGEMENE EN BIJZONDERE OVERGANGSBEPALINGEN
+## ALGEMENE EN BIJZONDERE OVERGANGSBEPALINGEN
 
 –
 
-TIJDELIJKE BEPALINGEN
+## TIJDELIJKE BEPALINGEN
+
 (De tekst van het opschrift werd vervangen met ingang van 01.07.2013 (Art. 55, W 17.06.2013, B.S.
 28.06.2013, pg. 41014)
 

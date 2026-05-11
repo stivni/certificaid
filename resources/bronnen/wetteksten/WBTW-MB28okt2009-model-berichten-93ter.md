@@ -1,51 +1,67 @@
 ---
-tags: [VI.C, '2.4']
-itaa-lex-sectie: VI.C
-wet: M.B. van 28 oktober 2009, tot bepaling van het model der berichten en kennisgevingen als bedoeld in de artikelen 93ter en 93quinquies van het Wetboek van de belasting over de toegevoegde waarde en in de artikelen 433 en 435 van het Wetboek van de inkomstenbelastingen 1992
-bron_rol: itaa_lex
-status: beschikbaar
 bijgewerkt: 28.10.2009
 bron: Afgesplitst uit Fisconet-compilatie (pdftotext_compilatie_btw)
+bron_rol: itaa_lex
 chunk:
   level: 2
+  sub_strategy: null
   type: Art.
-  sub_strategy:
+itaa-lex-sectie: VI.C
 provenance:
+  generated_at: '2026-05-11T16:21:51Z'
   inputs:
-    - id: resources/raw/wetteksten/btw-kbs/WBTW-MB-compilatie.pdf
-      sha256: e2e322b0d748d0314e5f16d11a0aac6c964d684451d00738c9352b4f32f9171c
-      version: 29.04.2024
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 7a134f4
-    model:
-    prompt_version:
-  generated_at: '2026-05-09T16:15:20Z'
+  - id: resources/raw/wetteksten/btw-kbs/WBTW-MB-compilatie.pdf
+    sha256: e2e322b0d748d0314e5f16d11a0aac6c964d684451d00738c9352b4f32f9171c
+    version: 29.04.2024
   stale: false
-  stale_reason:
+  stale_reason: null
+  tooling:
+    model: null
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version: null
   trust:
-    status: needs-rework
     confirmed_at: '2026-05-11T11:51:18Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: 'D2: de bijlagen 1, 2 en 3 (modellen van de berichten en kennisgevingen) worden in de artikelen 1–3 expliciet vermeld als inhoud van dit MB, maar staan op regels 98–102 als gecentreerde plain-text placeholders zonder enige inhoud — de modellen zelf zijn niet geëxtraheerd. Dit is een duidelijke ontbrekende sectie die de bruikbaarheid voor RAG beperkt. Art. 1–5 hebben wel correcte ## headings en de artikelstructuur is verder compleet.'
     layer1:
-      status: pass
-      run_id: 20260511-134044
-      run_at: '2026-05-11T13:40:48Z'
-      heading_count: 5
-      max_section_chars: 1371
       file_size_chars: 2461
       flags: []
+      heading_count: 5
+      max_section_chars: 1371
+      run_at: '2026-05-11T13:40:48Z'
+      run_id: 20260511-134044
+      status: pass
     layer2:
-      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T11:51:18Z'
-      rationale: 'D2: de bijlagen 1, 2 en 3 (modellen van de berichten en kennisgevingen) worden in de artikelen 1–3 expliciet vermeld als inhoud van dit MB, maar staan op regels 98–102 als gecentreerde plain-text placeholders zonder enige inhoud — de modellen zelf zijn niet geëxtraheerd. Dit is een duidelijke ontbrekende sectie die de bruikbaarheid voor RAG beperkt. Art. 1–5 hebben wel correcte ## headings en de artikelstructuur is verder compleet.'
       concrete_problemen:
-        - regel: 98
-          categorie: D2
-          type: missing-section
-          voorbeeld: '                             Bijlage 1\n\n                             Bijlage 2\n\n                             Bijlage 3'
+      - categorie: D2
+        regel: 98
+        type: missing-section
+        voorbeeld: '                             Bijlage 1\n\n                             Bijlage
+          2\n\n                             Bijlage 3'
+      rationale: 'D2: de bijlagen 1, 2 en 3 (modellen van de berichten en kennisgevingen)
+        worden in de artikelen 1–3 expliciet vermeld als inhoud van dit MB, maar staan
+        op regels 98–102 als gecentreerde plain-text placeholders zonder enige inhoud
+        — de modellen zelf zijn niet geëxtraheerd. Dit is een duidelijke ontbrekende
+        sectie die de bruikbaarheid voor RAG beperkt. Art. 1–5 hebben wel correcte
+        ## headings en de artikelstructuur is verder compleet.'
+      run_at: '2026-05-11T11:51:18Z'
+      status: needs-rework
+    rationale: 'D2: de bijlagen 1, 2 en 3 (modellen van de berichten en kennisgevingen)
+      worden in de artikelen 1–3 expliciet vermeld als inhoud van dit MB, maar staan
+      op regels 98–102 als gecentreerde plain-text placeholders zonder enige inhoud
+      — de modellen zelf zijn niet geëxtraheerd. Dit is een duidelijke ontbrekende
+      sectie die de bruikbaarheid voor RAG beperkt. Art. 1–5 hebben wel correcte ##
+      headings en de artikelstructuur is verder compleet.'
+    status: needs-rework
+status: beschikbaar
+tags:
+- VI.C
+- '2.4'
+wet: M.B. van 28 oktober 2009, tot bepaling van het model der berichten en kennisgevingen
+  als bedoeld in de artikelen 93ter en 93quinquies van het Wetboek van de belasting
+  over de toegevoegde waarde en in de artikelen 433 en 435 van het Wetboek van de
+  inkomstenbelastingen 1992
 ---
 
 # M.B. van 28 oktober 2009, tot bepaling van het model der berichten en kennisgevingen als bedoeld in de artikelen 93ter en 93quinquies van het Wetboek van de belasting over de toegevoegde waarde en in de artikelen 433 en 435 van het Wetboek van de inkomstenbelastingen 1992

@@ -966,7 +966,7 @@ sources:
     cleanup: [remove_toc_ejustice, remove_french_lines, remove_inline_metadata, ensure_article_headings]
     status: toc_only
     extract:
-      method: pdftotext_ejustice
+      method: pymupdf_wetboek
       params:
         # ADR-006 §4.2: art. 4 bevat ~50 AML-definities (1°, 2°, ...).
         # Sub-splitting houdt elk concept retrievable als zelfstandige chunk.
@@ -984,7 +984,7 @@ sources:
     cleanup: [remove_toc_ejustice, remove_french_blocks, normalize_justel_art_separators, remove_inline_metadata, ensure_article_headings]
     status: toc_only
     extract:
-      method: pdftotext_ejustice
+      method: pymupdf_wetboek
       params:
         bilingual: true
         nl_col_x: 0
@@ -1000,7 +1000,7 @@ sources:
     cleanup: [remove_toc_ejustice, remove_french_blocks, remove_inline_metadata, ensure_article_headings]
     status: toc_only
     extract:
-      method: pdftotext_ejustice
+      method: pymupdf_wetboek
       params:
         bilingual: true
         nl_col_x: 0
@@ -1016,7 +1016,7 @@ sources:
     cleanup: [remove_toc_ejustice, remove_french_lines, remove_inline_metadata, ensure_article_headings]
     status: toc_only
     extract:
-      method: pdftotext_ejustice
+      method: pymupdf_wetboek
   IESBA-code-of-ethics-2024:
     bron_rol: interpretatief
     raw: resources/raw/normen/IESBA-code-of-ethics-2024.pdf
@@ -1088,7 +1088,7 @@ sources:
     cleanup: [remove_toc_ejustice, remove_french_blocks, remove_inline_metadata, ensure_article_headings]
     status: toc_only
     extract:
-      method: pdftotext_ejustice
+      method: pymupdf_wetboek
       params:
         bilingual: true
         nl_col_x: 0
@@ -1105,7 +1105,7 @@ sources:
     cleanup: [remove_toc_ejustice, remove_french_blocks, normalize_justel_art_separators, remove_inline_metadata, ensure_article_headings]
     status: toc_only
     extract:
-      method: pdftotext_ejustice
+      method: pymupdf_wetboek
       params:
         bilingual: true
         nl_col_x: 0
@@ -1122,7 +1122,7 @@ sources:
     cleanup: [remove_toc_ejustice, remove_french_blocks, remove_inline_metadata, ensure_article_headings]
     status: toc_only
     extract:
-      method: pdftotext_ejustice
+      method: pymupdf_wetboek
       params:
         bilingual: true
         nl_col_x: 0
@@ -1139,7 +1139,7 @@ sources:
     cleanup: [remove_toc_ejustice, remove_french_blocks, remove_inline_metadata, ensure_article_headings]
     status: toc_only
     extract:
-      method: pdftotext_ejustice
+      method: pymupdf_wetboek
       params:
         bilingual: true
         nl_col_x: 0
@@ -1156,7 +1156,7 @@ sources:
     cleanup: [remove_toc_ejustice, remove_french_blocks, remove_inline_metadata, ensure_article_headings]
     status: toc_only
     extract:
-      method: pdftotext_ejustice
+      method: pymupdf_wetboek
       params:
         bilingual: true
         nl_col_x: 0
@@ -1171,7 +1171,7 @@ sources:
     cleanup: [remove_french_lines, ensure_article_headings]
     status: volledig
     extract:
-      method: pdftotext_ejustice
+      method: pymupdf_wetboek
   BW-boek2-relatievermogensrecht:
     bron_rol: itaa_lex
     raw: resources/raw/wetteksten/BW-boek2-relatievermogensrecht.pdf
@@ -1183,7 +1183,7 @@ sources:
     cleanup: [remove_french_lines, ensure_article_headings]
     status: volledig
     extract:
-      method: pdftotext_ejustice
+      method: pymupdf_wetboek
   BW-boek3-goederen:
     bron_rol: itaa_lex
     raw: resources/raw/wetteksten/BW-boek3-goederen.pdf
@@ -1195,7 +1195,7 @@ sources:
     cleanup: [remove_french_lines, ensure_article_headings]
     status: volledig
     extract:
-      method: pdftotext_ejustice
+      method: pymupdf_wetboek
   BW-boek4-nalatenschappen:
     bron_rol: itaa_lex
     raw: resources/raw/wetteksten/BW-boek4-nalatenschappen.pdf
@@ -1207,7 +1207,7 @@ sources:
     cleanup: [remove_french_lines, ensure_article_headings]
     status: volledig
     extract:
-      method: pdftotext_ejustice
+      method: pymupdf_wetboek
   BW-boek5-verbintenissen:
     bron_rol: itaa_lex
     raw: resources/raw/wetteksten/BW-boek5-verbintenissen.pdf
@@ -1219,7 +1219,7 @@ sources:
     cleanup: [remove_french_lines, ensure_article_headings]
     status: volledig
     extract:
-      method: pdftotext_ejustice
+      method: pymupdf_wetboek
   BW-boek8-bewijs:
     bron_rol: itaa_lex
     raw: resources/raw/wetteksten/BW-boek8-bewijs.pdf
@@ -1231,7 +1231,7 @@ sources:
     cleanup: [remove_french_lines, ensure_article_headings]
     status: volledig
     extract:
-      method: pdftotext_ejustice
+      method: pymupdf_wetboek
   BW-boek9-zekerheden:
     bron_rol: itaa_lex
     raw: resources/raw/wetteksten/BW-boek9-zekerheden.pdf
@@ -1243,7 +1243,7 @@ sources:
     cleanup: [remove_french_lines, ensure_article_headings]
     status: volledig
     extract:
-      method: pdftotext_ejustice
+      method: pymupdf_wetboek
   BTW-richtlijn-2006-112:
     bron_rol: itaa_lex
     simple_mode: true
@@ -1346,7 +1346,7 @@ sources:
     cleanup: [remove_toc, remove_page_artifacts, ensure_article_headings]
     status: nieuw
     extract:
-      method: pdftotext_ejustice
+      method: pymupdf_wetboek
   Verdrag-WABB:
     bron_rol: itaa_lex
     raw: "resources/raw/wetteksten/Verdrag-WABB.pdf"
@@ -1370,7 +1370,7 @@ sources:
     cleanup: [remove_toc_ejustice, remove_french_lines, remove_inline_metadata, ensure_article_headings]
     status: nieuw
     extract:
-      method: pdftotext_ejustice
+      method: pymupdf_wetboek
   Strafwetboek-1867:
     bron_rol: itaa_lex
     raw: resources/raw/wetteksten/Strafwetboek-1867.pdf
@@ -1382,7 +1382,7 @@ sources:
     cleanup: [remove_toc_ejustice, remove_french_lines, remove_inline_metadata, ensure_article_headings]
     status: nieuw
     extract:
-      method: pdftotext_ejustice
+      method: pymupdf_wetboek
   Oud-BW:
     bron_rol: normatief
     raw: resources/raw/wetteksten/Oud-BW.pdf

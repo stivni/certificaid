@@ -1,47 +1,52 @@
 ---
-tags: [I, '2.1', '2.5']
-itaa-lex-sectie: I
-wet: Verdrag inzake wederzijdse administratieve bijstand in fiscale aangelegenheden (WABB/CMAAT)
-bron_rol: itaa_lex
-status: beschikbaar
 bijgewerkt: '1988'
 bron: ejustice.just.fgov.be (gecoördineerde versie)
+bron_rol: itaa_lex
 chunk:
   level: 4
+  sub_strategy: null
   type: Art.
-  sub_strategy:
+itaa-lex-sectie: I
 provenance:
+  generated_at: '2026-05-11T16:21:50Z'
   inputs:
-    - id: resources/raw/wetteksten/Verdrag-WABB.pdf
-      sha256: ecfc8f00db22913505065b92b1e46272baa3cb95594f27889156b720b2cbb1bb
-      version: '1988'
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 7a134f4
-    model:
-    prompt_version:
-  generated_at: '2026-05-09T16:15:44Z'
+  - id: resources/raw/wetteksten/Verdrag-WABB.pdf
+    sha256: ecfc8f00db22913505065b92b1e46272baa3cb95594f27889156b720b2cbb1bb
+    version: '1988'
   stale: false
-  stale_reason:
+  stale_reason: null
+  tooling:
+    model: null
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version: null
   trust:
-    status: trusted
     confirmed_at: '2026-05-09T21:27:46Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: L1=pass
     layer1:
-      status: pass
-      run_id: 20260511-134044
-      run_at: '2026-05-11T13:40:47Z'
-      heading_count: 43
-      max_section_chars: 4450
       file_size_chars: 40500
       flags: []
+      heading_count: 43
+      max_section_chars: 4450
+      run_at: '2026-05-11T13:40:47Z'
+      run_id: 20260511-134044
+      status: pass
     layer2:
-      status: trusted
-      agent:
-      run_at:
-      rationale: '32 #### Art.-headings, preambule en bijlagen aanwezig, frontmatter correct. Beknopte verdragstekst zonder zichtbare extractie-fouten.'
+      agent: null
       concrete_problemen: []
+      rationale: '32 #### Art.-headings, preambule en bijlagen aanwezig, frontmatter
+        correct. Beknopte verdragstekst zonder zichtbare extractie-fouten.'
+      run_at: null
+      status: trusted
+    rationale: L1=pass
+    status: trusted
+status: beschikbaar
+tags:
+- I
+- '2.1'
+- '2.5'
+wet: Verdrag inzake wederzijdse administratieve bijstand in fiscale aangelegenheden
+  (WABB/CMAAT)
 ---
 
 # Verdrag inzake wederzijdse administratieve bijstand in fiscale aangelegenheden (WABB/CMAAT)

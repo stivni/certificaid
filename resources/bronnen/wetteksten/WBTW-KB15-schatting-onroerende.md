@@ -4,82 +4,107 @@ bron: Afgesplitst uit Fisconet-compilatie (pdftotext_compilatie_btw)
 bron_rol: itaa_lex
 chunk:
   level: 4
-  sub_strategy:
+  sub_strategy: null
   type: Art.
 itaa-lex-sectie: VI.B
 provenance:
-  generated_at: '2026-05-11T13:40:00Z'
+  generated_at: '2026-05-11T16:21:50Z'
   inputs:
-    - id: resources/raw/wetteksten/btw-kbs/WBTW-KB-compilatie.pdf
-      sha256: 5f1bad7278d1f8e1f5c00efb5d792f61342d3f7a14a7950caca2937924bfa91c
-      version: 06.03.2020
+  - id: resources/raw/wetteksten/btw-kbs/WBTW-KB-compilatie.pdf
+    sha256: 5f1bad7278d1f8e1f5c00efb5d792f61342d3f7a14a7950caca2937924bfa91c
+    version: 06.03.2020
   stale: false
-  stale_reason:
+  stale_reason: null
   tooling:
-    model:
+    model: null
     pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    prompt_version:
+    pipeline_version: 11f9196
+    prompt_version: null
   trust:
     confirmed_at: '2026-05-11T11:41:58Z'
     confirmed_by: subagent-sonnet-4-6
     layer1:
-      status: pass
-      run_id: 20260511-134044
-      run_at: '2026-05-11T13:40:47Z'
-      heading_count: 26
-      max_section_chars: 1951
       file_size_chars: 18710
       flags: []
+      heading_count: 26
+      max_section_chars: 1951
+      run_at: '2026-05-11T13:40:47Z'
+      run_id: 20260511-134044
+      status: pass
     layer2:
       agent: subagent-sonnet-4-6
       concrete_problemen:
-        - categorie: B4
-          regel: 60
-          type: other
-          voorbeeld: '                                         EERSTE HOOFDSTUK'
-        - categorie: A1
-          regel: 107
-          type: form-feed
-          voorbeeld: Deskundige schatting                           www.fisconetplus.be                                   pg. 1
-        - categorie: A1
-          regel: 165
-          type: form-feed
-          voorbeeld: Deskundige schatting                         www.fisconetplus.be                                     pg. 2
-        - categorie: A1
-          regel: 225
-          type: form-feed
-          voorbeeld: Deskundige schatting                         www.fisconetplus.be                                      pg. 3
-        - categorie: A1
-          regel: 282
-          type: form-feed
-          voorbeeld: Deskundige schatting                         www.fisconetplus.be                                     pg. 4
-        - categorie: A1
-          regel: 338
-          type: form-feed
-          voorbeeld: Deskundige schatting                          www.fisconetplus.be                                     pg. 5
-        - categorie: A1
-          regel: 353
-          type: form-feed
-          voorbeeld: Deskundige schatting                         www.fisconetplus.be                               pg. 6
-        - categorie: C3
-          regel: 362
-          type: pseudo-table
-          voorbeeld: '     Bijwerking                                       Te vervangen pagina''s'
-        - categorie: A7
-          regel: 64
-          type: scrambled-words
-          voorbeeld: '       (Het opschrift van hoofdstuk 1, van KB nr. 15, werd gewijzigd met                       ingang   van'
-      rationale: 'Structuur is deels aanwezig: 2 hoofdstuktitels als ## heading en afdelingen als ### heading, artikelen als #### Art.-headings. Echter: (1) A1: zes pagina-footer-regels mid-body (''Deskundige schatting  www.fisconetplus.be  pg. N'' op regels 107, 165, 225, 282, 338, 353); (2) B4: ''EERSTE HOOFDSTUK'' op regel 60 is plain-text in ALL-CAPS zonder ##-prefix (terwijl ## HOOFDSTUK II op regel 295 wél een heading is — inconsistentie); (3) A7: ''EERSTE HOOFDSTUK'' gespreid over 3 regels met centrering (regels 60-62); (4) C3: Bijlage A pseudo-tabel met spatie-alignment; (5) chunk.level=4 in frontmatter maar ## staat ook in body (niveau-inconsistentie). Inhoud volledig: 23 artikelen aanwezig.'
+      - categorie: B4
+        regel: 60
+        type: other
+        voorbeeld: '                                         EERSTE HOOFDSTUK'
+      - categorie: A1
+        regel: 107
+        type: form-feed
+        voorbeeld: Deskundige schatting                           www.fisconetplus.be                                   pg.
+          1
+      - categorie: A1
+        regel: 165
+        type: form-feed
+        voorbeeld: Deskundige schatting                         www.fisconetplus.be                                     pg.
+          2
+      - categorie: A1
+        regel: 225
+        type: form-feed
+        voorbeeld: Deskundige schatting                         www.fisconetplus.be                                      pg.
+          3
+      - categorie: A1
+        regel: 282
+        type: form-feed
+        voorbeeld: Deskundige schatting                         www.fisconetplus.be                                     pg.
+          4
+      - categorie: A1
+        regel: 338
+        type: form-feed
+        voorbeeld: Deskundige schatting                          www.fisconetplus.be                                     pg.
+          5
+      - categorie: A1
+        regel: 353
+        type: form-feed
+        voorbeeld: Deskundige schatting                         www.fisconetplus.be                               pg.
+          6
+      - categorie: C3
+        regel: 362
+        type: pseudo-table
+        voorbeeld: '     Bijwerking                                       Te vervangen
+          pagina''s'
+      - categorie: A7
+        regel: 64
+        type: scrambled-words
+        voorbeeld: '       (Het opschrift van hoofdstuk 1, van KB nr. 15, werd gewijzigd
+          met                       ingang   van'
+      rationale: 'Structuur is deels aanwezig: 2 hoofdstuktitels als ## heading en
+        afdelingen als ### heading, artikelen als #### Art.-headings. Echter: (1)
+        A1: zes pagina-footer-regels mid-body (''Deskundige schatting  www.fisconetplus.be  pg.
+        N'' op regels 107, 165, 225, 282, 338, 353); (2) B4: ''EERSTE HOOFDSTUK''
+        op regel 60 is plain-text in ALL-CAPS zonder ##-prefix (terwijl ## HOOFDSTUK
+        II op regel 295 wél een heading is — inconsistentie); (3) A7: ''EERSTE HOOFDSTUK''
+        gespreid over 3 regels met centrering (regels 60-62); (4) C3: Bijlage A pseudo-tabel
+        met spatie-alignment; (5) chunk.level=4 in frontmatter maar ## staat ook in
+        body (niveau-inconsistentie). Inhoud volledig: 23 artikelen aanwezig.'
       run_at: '2026-05-11T11:41:58Z'
       status: needs-rework
-    rationale: 'Structuur is deels aanwezig: 2 hoofdstuktitels als ## heading en afdelingen als ### heading, artikelen als #### Art.-headings. Echter: (1) A1: zes pagina-footer-regels mid-body (''Deskundige schatting  www.fisconetplus.be  pg. N'' op regels 107, 165, 225, 282, 338, 353); (2) B4: ''EERSTE HOOFDSTUK'' op regel 60 is plain-text in ALL-CAPS zonder ##-prefix (terwijl ## HOOFDSTUK II op regel 295 wél een heading is — inconsistentie); (3) A7: ''EERSTE HOOFDSTUK'' gespreid over 3 regels met centrering (regels 60-62); (4) C3: Bijlage A pseudo-tabel met spatie-alignment; (5) chunk.level=4 in frontmatter maar ## staat ook in body (niveau-inconsistentie). Inhoud volledig: 23 artikelen aanwezig.'
+    rationale: 'Structuur is deels aanwezig: 2 hoofdstuktitels als ## heading en afdelingen
+      als ### heading, artikelen als #### Art.-headings. Echter: (1) A1: zes pagina-footer-regels
+      mid-body (''Deskundige schatting  www.fisconetplus.be  pg. N'' op regels 107,
+      165, 225, 282, 338, 353); (2) B4: ''EERSTE HOOFDSTUK'' op regel 60 is plain-text
+      in ALL-CAPS zonder ##-prefix (terwijl ## HOOFDSTUK II op regel 295 wél een heading
+      is — inconsistentie); (3) A7: ''EERSTE HOOFDSTUK'' gespreid over 3 regels met
+      centrering (regels 60-62); (4) C3: Bijlage A pseudo-tabel met spatie-alignment;
+      (5) chunk.level=4 in frontmatter maar ## staat ook in body (niveau-inconsistentie).
+      Inhoud volledig: 23 artikelen aanwezig.'
     status: needs-rework
 status: beschikbaar
 tags:
-  - VI.B
-  - '2.4'
-wet: K.B. nr. 15 van 3 juni 1970, tot regeling van de schattings- procedure waarin artikel 59, § 2, van het Wetboek van de belasting over de toegevoegde waarde voorziet
+- VI.B
+- '2.4'
+wet: K.B. nr. 15 van 3 juni 1970, tot regeling van de schattings- procedure waarin
+  artikel 59, § 2, van het Wetboek van de belasting over de toegevoegde waarde voorziet
 ---
 
 # K.B. nr. 15 van 3 juni 1970, tot regeling van de schattings- procedure waarin artikel 59, § 2, van het Wetboek van de belasting over de toegevoegde waarde voorziet

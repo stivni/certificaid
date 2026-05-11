@@ -4,46 +4,47 @@ bron: Fisconetplus.be (officieuze gecoördineerde versie)
 bron_rol: itaa_lex
 chunk:
   level: 2
-  sub_strategy:
+  sub_strategy: null
   type: Art.
 itaa-lex-sectie: VI.B
 provenance:
-  generated_at: '2026-05-11T13:40:00Z'
+  generated_at: '2026-05-11T16:21:51Z'
   inputs:
-    - id: resources/raw/wetteksten/btw-kbs/WBTW-KB54-entrepot.pdf
-      sha256: 9193c568255efce6d1fdc5d07f353f94cc5bba2a9c0edd2ee8ab27861b669549
-      version: '2023'
+  - id: resources/raw/wetteksten/btw-kbs/WBTW-KB54-entrepot.pdf
+    sha256: 9193c568255efce6d1fdc5d07f353f94cc5bba2a9c0edd2ee8ab27861b669549
+    version: '2023'
   stale: false
-  stale_reason:
+  stale_reason: null
   tooling:
-    model:
+    model: null
     pipeline: tools/etl/convert.py
-    pipeline_version: 7a134f4
-    prompt_version:
+    pipeline_version: 11f9196
+    prompt_version: null
   trust:
-    confirmed_at: '2026-05-09T21:27:46Z'
-    confirmed_by: subagent-sonnet-4-6
+    confirmed_at: null
+    confirmed_by: null
     layer1:
-      status: pass
-      run_id: 20260511-134044
-      run_at: '2026-05-11T13:40:47Z'
-      heading_count: 9
-      max_section_chars: 11789
       file_size_chars: 21118
       flags: []
+      heading_count: 9
+      max_section_chars: 11789
+      run_at: '2026-05-11T13:40:47Z'
+      run_id: 20260511-134044
+      status: pass
     layer2:
-      agent:
+      agent: null
       concrete_problemen: []
-      rationale: 'Modern PDF-extract met 9 ## Art-headings en duidelijk slot-artikel (''## Art. 9 — De minister bevoegd voor Financiën is belast''). Frontmatter consistent, body compleet.'
-      run_at:
-      status: trusted
-    rationale: 'L1=pass; L1.5=improvement (Auto-synthesized: heading-injection (inject_wbtw_headings.py) — staging is structureel beter dan resources-versie.); L2=trusted (ETL-fix toegepast: inject_wbtw_headings.py heeft TOC-strip + Artikel-N → ## Art. heading-injectie + AFDELING-normalisatie uitgevoerd. Eerdere needs-rework op ''missing-section'' opgeheven.)'
-    status: trusted
+      rationale: null
+      run_at: null
+      status: not_run
+    rationale: 'Trust gereset 2026-05-11: ETL-fix wetteksten met content-diff > 5%'
+    status: unreviewed
 status: beschikbaar
 tags:
-  - VI.B
-  - '2.4'
-wet: K.B. nr. 54, 21 december 2023, met betrekking tot de andere regeling van entrepot dan douane-entrepot bedoeld in artikel 39quater van het WBTW
+- VI.B
+- '2.4'
+wet: K.B. nr. 54, 21 december 2023, met betrekking tot de andere regeling van entrepot
+  dan douane-entrepot bedoeld in artikel 39quater van het WBTW
 ---
 
 # BTW KB nr. 54 — Entrepot (art. 39quater)
@@ -56,23 +57,6 @@ Titel
 
 Bron : FINANCIEN
 
-## Art. 1
-
-De in artikel 39quater, § 1, van het Wetboek bedoelde vrijstelling, is onderworpen aan de in de artikelen 2 tot en met 6 bepaalde nadere regels met betrekking tot de toepassing van deze vrijstelling.
-
-## Art. 2
-
-De over de in artikel 39quater, § 5, derde lid, van het Wetboek bedoelde handelingen verschuldigde belasting wordt opeisbaar op het tijdstip dat de goederen aan de andere regeling van entrepot dan douaneentrepot worden onttrokken tegen het tarief dat van toepassing zou zijn geweest op elk van die handelingen indien zij niet voorlopig waren vrijgesteld.
-De schuldenaar van de belasting ingevolge de in artikel 39quater, § 5, derde lid, van het Wetboek bedoelde handelingen, voldoet de verschuldigde belasting op de volgende wijze:
-1° wanneer de te regulariseren handeling een invoer van goederen is, dient hij uiterlijk de donderdag van de week volgend op die waarin de goederen aan het entrepot ander dan douane-entrepot zijn onttrokken, bij de douane een verbeterende invoeraangifte in en voldoet hij de verschuldigde belasting volgens de gebruikelijke modaliteiten bij invoer of, indien hij houder is van een in artikel 5, § 3, van het koninklijk besluit nr. 7 van 29 december 1992 met betrekking tot de invoer van goederen voor de toepassing van de belasting over de toegevoegde waarde bedoelde vergunning voor de verlegging van de betaling van de bij invoer verschuldigde belasting, door opname van de verschuldigde belasting in de in artikel 53, § 1, eerste lid, 2°, van het Wetboek bedoelde periodieke btw-aangifte met betrekking tot het tijdvak waarin de btw opeisbaar wordt;
-2° wanneer de te regulariseren handeling een andere handeling is dan een invoer van goederen, neemt hij de verschuldigde belasting op in de in artikel 53, § 1, eerste lid, 2°, van het Wetboek bedoelde periodieke btwaangifte met betrekking tot het tijdvak waarin de btw opeisbaar wordt.
-
-## Art. 3
-
-§ 1. De aanvraag van de in artikel 39quater, § 1, vierde lid, van het Wetboek bedoelde vergunning wordt schriftelijk ingediend door de entrepothouder op het door de minister van Financiën of zijn gemachtigde aangeduide adres bij:
-1° de Algemene Administratie van de Douane en Accijnzen, wanneer de diensten of de plaatsing van de goederen onder de andere regeling van entrepot dan douane-entrepot betrekking hebben op in België ingevoerde goederen die op het tijdstip van de invoer onder die regeling worden geplaatst;
-2° de Algemene Administratie van de Fiscaliteit, wanneer de diensten of de plaatsing van de goederen onder de andere regeling van entrepot dan douane-entrepot betrekking hebben op andere dan onder 1° bedoelde goederen.
-§ 2. Wanneer de in paragraaf 1 bedoelde aanvraag betrekking heeft op de plaatsing van goederen onder de andere regeling van entrepot dan douane-entrepot, bevat ze de volgende vermeldingen:
 1° de naam, het adres en het in artikel 50 van het Wetboek bedoelde btw-identificatienummer van de aanvrager of, in voorkomend geval, het overeenkomstig artikel 55, § 3, tweede lid, van het Wetboek toegekende globale btw-identificatienummer, waaronder hij niet in België gevestigde belastingplichtigen vertegenwoordigt die handelingen verrichten in het kader van deze btw-regeling;
 2° de hoedanigheid van de aanvrager;
 3° de aard van de opgeslagen goederen en een omschrijving ervan op basis van de GN-code;
@@ -109,7 +93,9 @@ Wanneer de goederen worden geplaatst onder de andere regeling van entrepot dan d
 1° de identificatiegegevens kennen van de persoon die de goederen onder de andere regeling van entrepot dan douane-entrepot plaatst en van de persoon die die goederen aan die regeling onttrekt;
 2° een opslagdocument opstellen op het tijdstip dat de goederen in het entrepot worden geplaatst, dit document overhandigen aan de persoon die de goederen onder de andere regeling van entrepot dan douaneentrepot plaatst en een dubbel ervan bewaren dat hij bij de in de bepaling onder 6°, a) tot en met e), bedoelde dubbels voegt;
 3° voor elke opslagplaats een register houden van de in de bepaling onder 2° bedoelde opslagdocumenten waarin de opslagdocumenten van de goederen onverwijld en in chronologische volgorde worden ingeschreven en, in voorkomend geval, een centralisatieopgave van die registers;
-4° een uitslagdocument opstellen op het tijdstip dat de goederen uit het entrepot worden uitgeslagen, dit document overhandigen aan de persoon die de goederen aan de andere regeling van entrepot dan douaneentrepot onttrekt en een dubbel ervan bewaren dat hij bij de in de bepaling onder 6°, f) tot en met h), bedoelde dubbels voegt;
+4° een uitslagdocument opstellen op het tijdstip dat de goederen uit het entrepot worden uitgeslagen, dit
+
+document overhandigen aan de persoon die de goederen aan de andere regeling van entrepot dan douaneentrepot onttrekt en een dubbel ervan bewaren dat hij bij de in de bepaling onder 6°, f) tot en met h), bedoelde dubbels voegt;
 5° voor elke opslagplaats een register houden van de in de bepaling onder 4° bedoelde uitslagdocumenten waarin de uitslagdocumenten van de goederen onverwijld en in chronologische volgorde worden ingeschreven en, in voorkomend geval, een centralisatieopgave van die registers;
 6° een dubbel bewaren van:
 a) het invoerdocument wanneer de opslag plaatsvindt ingevolge een invoer in België;
@@ -141,7 +127,9 @@ Het in paragraaf 1, 4°, bedoelde uitslagdocument bevat de volgende vermeldingen
 2° de naam, het adres en het in artikel 50 van het Wetboek bedoelde btw-identificatienummer van de houder van de vergunning;
 3° het nummer van de in artikel 3 bedoelde vergunning;
 4° de plaats van het entrepot, ander dan douane-entrepot;
-5° het volgnummer waaronder het uitslagdocument in het in paragraaf 1, 5°, bedoelde register van uitslagdocumenten wordt ingeschreven;
+5° het volgnummer waaronder het uitslagdocument in het in paragraaf 1, 5°, bedoelde register van
+
+uitslagdocumenten wordt ingeschreven;
 6° de naam, het adres en het in artikel 50 van het Wetboek bedoelde btw-identificatienummer of, in voorkomend geval, het nationale belastingnummer van de persoon die de goederen uit de andere regeling van entrepot dan douane-entrepot uitslaat of, in voorkomend geval, het globale btw-identificatienummer toegekend aan de vooraf erkende persoon die overeenkomstig artikel 55, § 3, tweede lid, van het Wetboek die persoon vertegenwoordigt;
 7° een nauwkeurige omschrijving van de aard en de hoeveelheid van de goederen;
 8° indien de goederen worden vervoerd ter bestemming van een ander in België gelegen ander entrepot dan douane-entrepot waar de opslag van die goederen onder de andere regeling van entrepot dan douane-entrepot is toegelaten, de in de bepalingen onder 2° tot en met 4° bedoelde gegevens met betrekking tot dat entrepot;
@@ -169,7 +157,9 @@ Bij krachtens artikel 39quater, § 1, 3°, van het Wetboek vrijgestelde diensten
 
 Indien de vergunning die werd uitgereikt op grond van artikel 3, werd verkregen ingevolge een onjuiste verklaring of indien de voorwaarden waarvan de vrijstelling afhangt niet worden nagekomen, kan de administratie belast met de belasting over de toegevoegde waarde die die vergunning heeft uitgereikt, de vergunning intrekken.
 Deze vergunning kan eveneens worden ingetrokken wanneer de administratie belast met de belasting over de toegevoegde waarde misbruik of poging tot misbruik vaststelt of wanneer controleopdrachten van ambtenaren van die administratie worden belemmerd.
-De entrepothouder wiens op grond van artikel 3 uitgereikte vergunning overeenkomstig het eerste of tweede lid is ingetrokken, kan een nieuwe vergunningsaanvraag indienen overeenkomstig de in artikel 3 bedoelde modaliteiten. De overeenkomstig het eerste lid ingetrokken vergunning kan, na het afronden van de beoordeling van deze nieuwe vergunningsaanvraag, door de administratie belast met de belasting over de toegevoegde waarde opnieuw worden uitgereikt.
+De entrepothouder wiens op grond van artikel 3 uitgereikte vergunning overeenkomstig het eerste of tweede lid
+
+is ingetrokken, kan een nieuwe vergunningsaanvraag indienen overeenkomstig de in artikel 3 bedoelde modaliteiten. De overeenkomstig het eerste lid ingetrokken vergunning kan, na het afronden van de beoordeling van deze nieuwe vergunningsaanvraag, door de administratie belast met de belasting over de toegevoegde waarde opnieuw worden uitgereikt.
 
 ## Art. 7
 

@@ -1,400 +1,53 @@
 ---
-tags: [VI.A, '2.4']
-itaa-lex-sectie: VI.A
-wet: Richtlijn 2006/112/EG van de Raad betreffende het gemeenschappelijke stelsel van belasting over de toegevoegde waarde
-status: beschikbaar
 bijgewerkt: 11.12.2006
 bron: ejustice.just.fgov.be (gecoördineerde versie)
+chunk:
+  level: 6
+  sub_strategy:
+  type: Art.
+itaa-lex-sectie: VI.A
 provenance:
+  generated_at: '2026-05-11T16:21:26Z'
   inputs:
     - id: resources/raw/wetteksten/BTW-richtlijn-2006-112.pdf
       sha256: d2e9f9e0e1ba01e3822dab19047137bf146cfbee10bc4f9d823c53587f91110d
       version: 11.12.2006
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 732fcc0
-    model:
-    prompt_version:
-  generated_at: '2026-05-07T13:37:32Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T11:43:15Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "A1/A2: Lange inhoudstafel (regels 60-386) met dotted leaders is als ## / ### / #### / ##### headings in de body opgenomen, waardoor de TOC verdubbelt met de echte body-secties. A1: Pagina-footers 'NL', 'Publicatieblad van de Europese Unie' en 'L 347/x' staan als losse regels verspreid door de body (226 NL/L347-regels geteld). B2: Hiërarchiesprong: body-artikelen starten op ###### terwijl TITEL op ### staat. Inhoud is overigens volledig en leesbaar NL."
+    confirmed_at:
+    confirmed_by:
     layer1:
-      status: warn
-      run_id: 20260511-134044
-      run_at: '2026-05-11T13:40:44Z'
-      heading_count: 904
-      max_section_chars: 27576
-      file_size_chars: 388992
-      flags:
-        - name: max_section_size
-          status: warn
-          detail: 'langste sectie op ######-niveau: 27576 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
-          samples: []
+      status: pass
+      run_id: 20260511-162232
+      run_at: '2026-05-11T16:22:32Z'
+      heading_count: 758
+      max_section_chars: 21492
+      file_size_chars: 356433
+      flags: []
     layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T11:43:15Z'
-      rationale: "A1/A2: Lange inhoudstafel (regels 60-386) met dotted leaders is als ## / ### / #### / ##### headings in de body opgenomen, waardoor de TOC verdubbelt met de echte body-secties. A1: Pagina-footers 'NL', 'Publicatieblad van de Europese Unie' en 'L 347/x' staan als losse regels verspreid door de body (226 NL/L347-regels geteld). B2: Hiërarchiesprong: body-artikelen starten op ###### terwijl TITEL op ### staat. Inhoud is overigens volledig en leesbaar NL."
-      concrete_problemen:
-        - regel: 61
-          categorie: A2
-          type: dotted-leader
-          voorbeeld: '### TITEL I - VOORWERP EN TOEPASSINGSGEBIED . . . . . . . . . . . . . . .'
-        - regel: 99
-          categorie: A1
-          type: form-feed
-          voorbeeld: "L 347/6\n\nNL\n\nPublicatieblad van de Europese Unie"
-        - regel: 387
-          categorie: A3
-          type: other
-          voorbeeld: iii) — los tekstfragment tussen TOC en body (concordantietabel-residu)
-        - regel: 392
-          categorie: B2
-          type: other
-          voorbeeld: '### TITEL I (body) → ###### Art. 1: sprong van ### naar ###### zonder tussenniveaus'
-chunk:
-  level: 6
-  type: Art.
-  sub_strategy:
+      agent:
+      concrete_problemen: []
+      rationale:
+      run_at:
+      status: not_run
+    rationale: 'Trust gereset 2026-05-11: ETL-fix wetteksten met content-diff > 5%'
+    status: unreviewed
+status: beschikbaar
+tags:
+  - VI.A
+  - '2.4'
+wet: Richtlijn 2006/112/EG van de Raad betreffende het gemeenschappelijke stelsel van belasting over de toegevoegde waarde
 ---
 
 # Richtlijn 2006/112/EG van de Raad betreffende het gemeenschappelijke stelsel van belasting over de toegevoegde waarde
 
 *Bijgewerkt tot en met 11.12.2006 — gecoördineerde versie.*
-
-INHOUDSTAFEL
-### TITEL I - VOORWERP EN TOEPASSINGSGEBIED . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-### TITEL II - GEOGRAFISCH TOEPASSINGSGEBIED . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-### TITEL III - BELASTINGPLICHTIGEN . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-### TITEL IV - BELASTBARE HANDELINGEN . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-#### Hoofdstuk 1 - Levering van goederen . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-#### Hoofdstuk 2 - Intracommunautaire verwerving van goederen . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-#### Hoofdstuk 3 - Diensten . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-#### Hoofdstuk 4 - Invoer van goederen . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-### TITEL V - PLAATS VAN DE BELASTBARE HANDELINGEN . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-#### Hoofdstuk 1 - Plaats van levering van goederen . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-
-##### Afdeling 1 - Levering van goederen zonder vervoer . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-##### Afdeling 2 - Levering van goederen met vervoer . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-##### Afdeling 3 - Levering van goederen aan boord van een schip, vliegtuig of trein . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-##### Afdeling 4 - Levering van goederen via distributiesystemen . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-#### Hoofdstuk 2 - Plaats van een intracommunautaire verwerving van goederen . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-#### Hoofdstuk 3 - Plaats van een dienst . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-
-##### Afdeling 1 - Algemene regel . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-##### Afdeling 2 - Bijzondere bepalingen . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-##### Onderafdeling 1 - Diensten van tussenpersonen . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-L 347/6
-
-NL
-
-Publicatieblad van de Europese Unie
-
-
-##### Onderafdeling 2 - Diensten met betrekking tot onroerende goederen . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-##### Onderafdeling 3 - Vervoerdiensten . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-##### Onderafdeling 4 - Culturele en soortgelijke diensten, diensten die samenhangen met vervoer of betrekking hebben op roerende lichamelijke zaken . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-##### Onderafdeling 5 - Diverse diensten . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-##### Onderafdeling 6 - Criterium inzake werkelijk gebruik en werkelijke exploitatie . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-#### Hoofdstuk 4 - Plaats van invoer van goederen . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-### TITEL VI - BELASTBAAR FEIT EN VERSCHULDIGDHEID VAN DE BELASTING . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-#### Hoofdstuk 1 - Algemene bepalingen . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-#### Hoofdstuk 2 - Goederenleveringen en diensten . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-#### Hoofdstuk 3 - Intracommunautaire verwerving van goederen . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-#### Hoofdstuk 4 - Invoer van goederen . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-### TITEL VII - MAATSTAF VAN HEFFING . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-#### Hoofdstuk 1 - Definitie . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-#### Hoofdstuk 2 - Goederenleveringen en diensten . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-#### Hoofdstuk 3 - Intracommunautaire verwerving van goederen . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-#### Hoofdstuk 4 - Invoer van goederen . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-#### Hoofdstuk 5 - Diverse bepalingen . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-### TITEL VIII - TARIEVEN . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-#### Hoofdstuk 1 - Toepassing van de tarieven . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-#### Hoofdstuk 2 - Structuur en hoogte van de tarieven . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-
-##### Afdeling 1 - Normaal tarief . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-##### Afdeling 2 - Verlaagde tarieven . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-##### Afdeling 3 - Bijzondere bepalingen . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-#### Hoofdstuk 3 - Tijdelijke bepalingen voor bepaalde arbeidsintensieve diensten . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-#### Hoofdstuk 4 - Bijzondere bepalingen van toepassing tot de invoering van de definitieve regeling . . . . . . . . . . . . . . . .
-
-#### Hoofdstuk 5 - Tijdelijke bepalingen . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-### TITEL IX - VRIJSTELLINGEN . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-#### Hoofdstuk 1 - Algemene bepalingen . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-#### Hoofdstuk 2 - Vrijstellingen voor bepaalde activiteiten van algemeen belang . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-#### Hoofdstuk 3 - Vrijstellingen ten gunste van andere activiteiten . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-#### Hoofdstuk 4 - Vrijstellingen met betrekking tot intracommunautaire handelingen . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-
-##### Afdeling 1 - Vrijstellingen voor levering van goederen . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-##### Afdeling 2 - Vrijstellingen voor intracommunautaire verwervingen van goederen . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-##### Afdeling 3 - Vrijstellingen voor bepaalde vervoerdiensten . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-#### Hoofdstuk 5 - Vrijstellingen bij invoer . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-#### Hoofdstuk 6 - Vrijstellingen bij uitvoer . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-#### Hoofdstuk 7 - Vrijstellingen met betrekking tot internationaal vervoer . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-#### Hoofdstuk 8 - Vrijstellingen voor bepaalde met uitvoer gelijkgestelde handelingen . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-#### Hoofdstuk 9 - Vrijstellingen voor door tussenpersonen verrichte diensten . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-#### Hoofdstuk 10 - Vrijstellingen voor handelingen met betrekking tot het internationale goederenverkeer . . . . . . . . . .
-
-
-##### Afdeling 1 - Douane- en andere entrepots en soortgelijke regelingen . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-##### Afdeling 2 - Handelingen die worden vrijgesteld met het oog op de uitvoer en in het kader van het handelsverkeer tussen de lidstaten . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-
-NL
-
-Publicatieblad van de Europese Unie
-
-L 347/7
-
-##### Afdeling 3 - Gemeenschappelijke bepalingen met betrekking tot de Afdelingen 1 en 2 . . . . . . . . . . . . . . . . . . . . . . . . . .
-### TITEL X - AFTREK . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-#### Hoofdstuk 1 - Ontstaan en omvang van het recht op aftrek . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-#### Hoofdstuk 2 - Evenredige aftrek . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-#### Hoofdstuk 3 - Beperkingen van het recht op aftrek . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-#### Hoofdstuk 4 - Wijze van uitoefening van het recht op aftrek . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-#### Hoofdstuk 5 - Herziening van de aftrek . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-### TITEL XI - VERPLICHTINGEN VAN DE BELASTINGPLICHTIGEN EN VAN BEPAALDE NIET-BELASTINGPLICHTIGE PERSONEN . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-#### Hoofdstuk 1 - Verplichting tot betaling . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-
-##### Afdeling 1 - Tegenover de schatkist tot voldoening van de belasting gehouden personen . . . . . . . . . . . . . . . . . . . . . . . .
-
-##### Afdeling 2 - Wijze van betaling . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-#### Hoofdstuk 2 - Identificatie . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-#### Hoofdstuk 3 - Facturering . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-
-##### Afdeling 1 - Definitie . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-##### Afdeling 2 - Het begrip factuur . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-##### Afdeling 3 - Uitreiking van facturen . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-##### Afdeling 4 - Inhoud van de facturen . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-##### Afdeling 5 - Verzenden van facturen langs elektronische weg . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-##### Afdeling 6 - Vereenvoudigingsmaatregelen . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-#### Hoofdstuk 4 - Boekhouding . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-
-##### Afdeling 1 - Definitie . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-##### Afdeling 2 - Algemene verplichtingen . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-##### Afdeling 3 - Specifieke verplichtingen ten aanzien van het bewaren van facturen . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-##### Afdeling 4 - Recht van toegang tot elektronisch bewaarde facturen in een andere lidstaat . . . . . . . . . . . . . . . . . . . . . . .
-#### Hoofdstuk 5 - Aangiften . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-#### Hoofdstuk 6 - Lijsten . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-#### Hoofdstuk 7 - Diverse bepalingen . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-#### Hoofdstuk 8 - Verplichtingen ter zake van bepaalde invoer- en uitvoerhandelingen . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-
-##### Afdeling 1 - Invoerhandelingen . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-##### Afdeling 2 - Uitvoerhandelingen . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-### TITEL XII - BIJZONDERE REGELINGEN . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-#### Hoofdstuk 1 - Bijzondere regeling voor kleine ondernemingen . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-
-##### Afdeling 1 - Vereenvoudigde bepalingen inzake belastingheffing en belastinginning . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-##### Afdeling 2 - Vrijstellingen of degressieve verminderingen . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-##### Afdeling 3 - Verslag en herziening . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-#### Hoofdstuk 2 - Gemeenschappelijke forfaitaire regeling voor landbouwproducenten . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-#### Hoofdstuk 3 - Bijzondere regeling voor reisbureaus . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-#### Hoofdstuk 4 - Bijzondere regelingen voor gebruikte goederen, kunstvoorwerpen, voorwerpen voor verzamelingen en antiquiteiten . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-
-##### Afdeling 1 - Definities . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-##### Afdeling 2 - Bijzondere regeling voor belastingplichtige wederverkopers . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-##### Onderafdeling 1 - Winstmargeregeling . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-##### Onderafdeling 2 - Overgangsregeling voor gebruikte vervoermiddelen . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-
-##### Afdeling 3 - Bijzondere regeling voor verkoop op openbare veilingen . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-L 347/8
-
-NL
-
-Publicatieblad van de Europese Unie
-
-
-##### Afdeling 4 - Maatregelen ter voorkoming van verstoring van de mededinging en fraude . . . . . . . . . . . . . . . . . . . . . . . .
-#### Hoofdstuk 5 - Bijzondere regeling voor beleggingsgoud . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-
-##### Afdeling 1 - Algemene bepalingen . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-##### Afdeling 2 - Vrijstelling van de belasting . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-##### Afdeling 3 - Recht om voor belastingheffing te kiezen . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-##### Afdeling 4 - Handelingen op een gereglementeerde goudmarkt . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-##### Afdeling 5 - Bijzondere rechten en verplichtingen van handelaren in beleggingsgoud . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-#### Hoofdstuk 6 - Bijzondere regeling voor niet in de Gemeenschap gevestigde belastingplichtigen die langs elektronische weg diensten verrichten voor niet-belastingplichtigen . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-
-##### Afdeling 1 - Algemene bepalingen . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-##### Afdeling 2 - Bijzondere regeling voor langs elektronische weg verrichte diensten . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-### TITEL XIII - AFWIJKINGEN . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-#### Hoofdstuk 1 - Afwijkingen van toepassing tot de invoering van de definitieve regeling . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-
-##### Afdeling 1 - Afwijkingen voor de staten die op 1 januari 1978 lid waren van de Gemeenschap . . . . . . . . . . . . . . . . .
-
-##### Afdeling 2 - Afwijkingen voor de staten die na 1 januari 1978 tot de Gemeenschap zijn toegetreden . . . . . . . . . . . .
-
-##### Afdeling 3 - Gemeenschappelijke bepalingen met betrekking tot de Afdelingen 1 et 2 . . . . . . . . . . . . . . . . . . . . . . . . . .
-#### Hoofdstuk 2 - Afwijkingen waarvoor machtiging is verleend . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-
-##### Afdeling 1 - Vereenvoudigingsmaatregelen en maatregelen ter voorkoming van belastingfraude en -ontwijking . .
-
-##### Afdeling 2 - Internationale overeenkomsten . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-### TITEL XIV - DIVERSE BEPALINGEN . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-#### Hoofdstuk 1 - Uitvoeringsmaatregelen . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-#### Hoofdstuk 2 - BTW-Comité . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-#### Hoofdstuk 3 - Omrekeningskoers . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-#### Hoofdstuk 4 - Andere belastingen, rechten en heffingen . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-### TITEL XV - SLOTBEPALINGEN . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-#### Hoofdstuk 1 - Overgangsregeling voor de belastingheffing in het handelsverkeer tussen de lidstaten . . . . . . . . . . . . .
-
-#### Hoofdstuk 2 - Overgangsmaatregelen in het kader van de toetreding tot de Europese Unie . . . . . . . . . . . . . . . . . . . . . .
-
-#### Hoofdstuk 3 - Omzetting en inwerkingtreding . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-BIJLAGE I - LIJST VAN WERKZAAMHEDEN BEDOELD IN ARTIKEL 14, LID 1, DERDE ALINEA . . . . . . . . . . . . . . .
-
-BIJLAGE II - INDICATIEVE LIJST VAN LANGS ELEKTRONISCHE WEG VERRICHTE DIENSTEN BEDOELD IN ARTIKEL 56, LID 1, PUNT K) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-BIJLAGE III - LIJST VAN DE GOEDERENLEVERINGEN EN DE DIENSTEN WAAROP DE IN ARTIKEL 98 BEDOELDE VERLAGDE TARIEVEN MOGEN WORDEN TOEGEPAST . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-BIJLAGE IV - LIJST VAN DE IN ARTIKEL 106 BEDOELDE DIENSTEN . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-BIJLAGE V - CATEGORIEËN GOEDEREN DIE VOLGENS ARTIKEL 160, LID 2, ONDER EEN ANDER STELSEL VAN ENTREPOTS DAN DOUANE-ENTREPOTS KUNNEN VALLEN . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-BIJLAGE VI - LIJST VAN GOEDERENLEVERINGEN EN DIENSTEN ALS BEDOELD IN PUNT D) VAN ARTIKEL 199, LID 1 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-BIJLAGE VII - LIJST VAN LANDBOUWPRODUCTIEWERKZAAMHEDEN BEDOELD IN ARTIKEL 295, LID 1, PUNT 4) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-BIJLAGE VIII - INDICATIEVE LIJST VAN AGRARISCHE DIENSTEN BEDOELD IN ARTIKEL 295, LID 1, PUNT 5)
-
-BIJLAGE IX - KUNSTVOORWERPEN, VOORWERPEN VOOR VERZAMELINGEN EN ANTIQUITEITEN BEDOELD IN ARTIKEL 311, LID 1, PUNTEN 2), 3) EN 4) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-## Deel A - Kunstvoorwerpen . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-## Deel B - Voorwerpen voor verzamelingen . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-## Deel C - Antiquiteiten . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-
-Publicatieblad van de Europese Unie
-
-NL
-
-BIJLAGE X - LIJST VAN HANDELINGEN WAARVOOR DE IN DE ARTIKELEN 370 EN 371 EN DE ARTIKELEN 375 TOT EN MET 390 BEDOELDE AFWIJKINGEN GELDEN . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-## Deel A - Handelingen die de lidstaten mogen blijven belasten . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-## Deel B - Handelingen die de lidstaten mogen blijven vrijstellen . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-BIJLAGE XI . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-## Deel A - Ingetrokken richtlijnen met de achtereenvolgende wijzigingen ervan . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-## Deel B - Termijnen voor de omzetting in nationaal recht (bedoeld in artikel 411) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-BIJLAGE XII - CONCORDANTIETABEL . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-iii)
 
 ### TITEL I
 VOORWERP EN TOEPASSINGSGEBIED
@@ -446,7 +99,6 @@ Het gemeenschappelijke BTW-stelsel wordt toegepast tot en met de kleinhandelsfas
 
 i)
 
-L 347/9
 
 b) Deze vervoermiddelen worden in de volgende gevallen beschouwd als „nieuw”:
 i)
@@ -457,12 +109,9 @@ ii)
 
 voor schepen, wanneer de levering binnen drie maanden na de eerste ingebruikneming plaatsvindt of wanneer het schip niet meer dan 100 uur heeft gevaren;
 
-L 347/10
 iii)
 
-Publicatieblad van de Europese Unie
 
-NL
 
 voor luchtvaartuigen, wanneer de levering binnen drie maanden na de eerste ingebruikneming plaatsvindt of wanneer het luchtvaartuig niet meer dan 40 uur heeft gevlogen.
 
@@ -540,9 +189,7 @@ b)
 de Canarische Eilanden;
 
 
-Publicatieblad van de Europese Unie
 
-NL
 
 c)
 
@@ -585,7 +232,6 @@ g)
 
 de Italiaanse wateren van het meer van Lugano.
 
-L 347/11
 
 uitoefening van vrije of daarmede gelijkgestelde beroepen. Als economische activiteit wordt in het bijzonder beschouwd de exploitatie van een lichamelijke of onlichamelijke zaak om er duurzaam opbrengst uit te verkrijgen.
 2. Naast de in lid 1 bedoelde personen wordt als belastingplichtige beschouwd eenieder die incidenteel een nieuw vervoermiddel levert dat door de verkoper, door de afnemer, of voor hun rekening, buiten het grondgebied van een lidstaat maar binnen het grondgebied van de Gemeenschap naar de afnemer wordt verzonden of vervoerd.
@@ -628,11 +274,8 @@ Als „economische activiteit” worden beschouwd, alle werkzaamheden van een fa
 De lidstaten kunnen de voorwaarden voor de toepassing van het in lid 1, onder a), bedoelde criterium op de verbouwing van gebouwen, alsmede het begrip „bijbehorend terrein” bepalen.
 De lidstaten kunnen andere criteria dan dat van de eerste ingebruikneming toepassen, zoals het tijdvak dat verloopt tussen de datum van voltooiing van het gebouw en die van eerste levering, of het tijdvak tussen de datum van eerste ingebruikneming en die van de daaropvolgende levering, mits deze tijdvakken niet langer duren dan onderscheidenlijk vijf en twee jaar.
 
-L 347/12
 
-Publicatieblad van de Europese Unie
 
-NL
 
 3. Voor de toepassing van lid 1, onder b), wordt als „bouwterrein” beschouwd, de door de lidstaten als zodanig omschreven al dan niet bouwrijp gemaakte terreinen.
 
@@ -706,13 +349,10 @@ de overdracht van een goed ingevolge een overeenkomst tot koop of verkoop in com
 
 d)
 
-Publicatieblad van de Europese Unie
 
-NL
 
 de levering van gas via het aardgasdistributiesysteem of de levering van elektriciteit, onder de in de artikelen 38 en 39 gestelde voorwaarden;
 
-L 347/13
 ###### Art. 19
 
 De lidstaten kunnen, in geval van overgang van het geheel of een gedeelte van een algemeenheid van goederen onder bezwarende titel, om niet of in de vorm van een inbreng in een vennootschap, zich op het standpunt stellen dat geen levering van goederen heeft plaatsgevonden en dat degene op wie de goederen overgaan, in de plaats treedt van de overdrager.
@@ -759,11 +399,8 @@ Met een intracommunautaire verwerving van goederen onder bezwarende titel wordt 
 ###### Art. 22
 Met een intracommunautaire verwerving van goederen onder bezwarende titel wordt gelijkgesteld de toewijzing door de strijdkrachten van een staat die partij bij het Noord-Atlantisch Verdrag is, ten behoeve van deze strijdkrachten of het hen begeleidende burgerpersoneel, van goederen die zij niet tegen de algemene belastingvoorwaarden van de interne markt van een lidstaat hebben verworven, wanneer de invoer van deze goederen niet in aanmerking zou kunnen komen voor de in artikel 143, punt h), bedoelde vrijstelling.
 
-L 347/14
 
-Publicatieblad van de Europese Unie
 
-NL
 ###### Art. 23
 
 De lidstaten nemen maatregelen om ervoor te zorgen dat als intracommunautaire verwerving van goederen worden beschouwd de handelingen die, indien zij op hun grondgebied door een als zodanig handelende belastingplichtige zouden zijn verricht, als levering van goederen zouden zijn aangemerkt.
@@ -842,9 +479,7 @@ Ingeval de plaats van vertrek van de verzending of het vervoer echter in een der
 2. De lidstaten kunnen van lid 1 afwijken, mits deze afwijking niet tot verstoring van de mededinging leidt.
 
 
-Publicatieblad van de Europese Unie
 
-NL
 
 van de belasting gehouden persoon, alsmede de plaats van daaropvolgende leveringen geacht in de lidstaat van invoer van de goederen te liggen.
 ###### Art. 33
@@ -873,7 +508,6 @@ het totale bedrag, de BTW niet inbegrepen, van de onder de voorwaarden van artik
 2. De lidstaat binnen het grondgebied waarvan de goederen zich bevinden op het tijdstip van aankomst van de verzending of het vervoer naar de afnemer, mag het in lid 1 genoemde maximumbedrag beperken tot EUR 35 000 of de tegenwaarde daarvan in de nationale munteenheid, wanneer deze lidstaat vreest dat het maximum van EUR 100 000 tot ernstige verstoring van de mededinging zou leiden.
 De lidstaten die van de in de eerste alinea bedoelde mogelijkheid gebruik maken, nemen de nodige maatregelen om de bevoegde
 
-L 347/15
 
 overheidsinstanties van de lidstaat van vertrek van de verzending of het vervoer van de goederen daarvan in kennis te stellen.
 3. De Commissie dient zo spoedig mogelijk bij de Raad een verslag in over de werking van het in lid 2 genoemde bijzondere maximum van EUR 35 000 en doet dit in voorkomend geval vergezeld gaan van passende voorstellen.
@@ -890,11 +524,8 @@ Lever ing van goederen aan boord van een schip, vliegtuig of trein
 1. Ingeval de levering van goederen plaatsvindt aan boord van een schip, vliegtuig of trein en tijdens het in de Gemeenschap verrichte gedeelte van een passagiersvervoer, wordt als plaats van deze levering aangemerkt de plaats van vertrek van het passagiersvervoer.
 2. Voor de toepassing van lid 1 wordt onder „in de Gemeenschap verricht gedeelte van een passagiersvervoer” verstaan, het gedeelte van een vervoer dat, zonder tussenstop buiten de Gemeenschap, plaatsvindt tussen de plaats van vertrek en de plaats van aankomst van het passagiersvervoer.
 
-L 347/16
 
-Publicatieblad van de Europese Unie
 
-NL
 
 Als „plaats van vertrek van een passagiersvervoer” wordt beschouwd het eerste punt in de Gemeenschap waar passagiers aan boord kunnen komen, eventueel na een tussenstop buiten de Gemeenschap.
 
@@ -953,28 +584,24 @@ Ingeval alle goederen of een deel ervan niet daadwerkelijk door deze afnemer wor
 Als plaats van een dienst wordt aangemerkt, de plaats waar de dienstverrichter de zetel van zijn bedrijfsuitoefening of een vaste inrichting heeft gevestigd van waaruit hij de dienst verricht, of bij gebreke van een dergelijke zetel of vaste inrichting, zijn woonplaats of zijn gebruikelijke verblijfplaats.
 
 
-Publicatieblad van de Europese Unie
 
-NL
 
-L 347/17
 
 plaats van aankomst op het grondgebied van twee verschillende lidstaten gelegen zijn.
 
 Bijzondere bepalingen
-##### Afdeling 2
-##### Onderafdeling 1
+##### Afdeling 2 - Onderafdeling 1
 Diensten van tussenpersonen
 
 ###### Art. 44
 Als plaats van een door een in naam en voor rekening van een ander handelende tussenpersoon verrichte dienst, anders dan de in artikel 50, artikel 54 en artikel 56, lid 1, bedoelde diensten, wordt aangemerkt de plaats waar de onderliggende handeling overeenkomstig deze richtlijn wordt verricht.
 Wanneer echter de afnemer van de door de tussenpersoon verrichte dienst voor BTW-doeleinden is geïdentificeerd in een andere lidstaat dan die binnen het grondgebied waarvan die handeling wordt verricht, wordt de plaats van de door de tussenpersoon verrichte dienst geacht te zijn gelegen op het grondgebied van de lidstaat die aan de afnemer het BTWidentificatienummer heeft toegekend waaronder hem de dienst is verleend.
-##### Onderafdeling 2
+##### Afdeling 2 - Onderafdeling 2
 Diensten met betrekking tot onroerende goederen
 
 ###### Art. 45
 De plaats van diensten die betrekking hebben op een onroerend goed, met inbegrip van diensten van makelaars in onroerende goederen en van experts, alsmede van diensten die erop gericht zijn de uitvoering van bouwwerken voor te bereiden of te coördineren, zoals bijvoorbeeld de diensten verricht door architecten en bureaus die op de uitvoering van het werk toezicht houden, is de plaats waar het goed is gelegen.
-##### Onderafdeling 3
+##### Afdeling 2 - Onderafdeling 3
 Ve r v o e r d i e n s t e n
 
 Als „plaats van vertrek” wordt beschouwd de plaats waar het goederenvervoer daadwerkelijk begint, zonder rekening te houden met de trajecten die worden afgelegd om zich naar de plaats te begeven waar de goederen zich bevinden.
@@ -990,7 +617,7 @@ De lidstaten behoeven het gedeelte van het intracommunautaire goederenvervoer da
 ###### Art. 46
 De plaats van andere vervoerdiensten dan het intracommunautaire vervoer van goederen is de plaats waar het vervoer plaatsvindt, zulks naar verhouding van de afgelegde afstanden.
 
-##### Onderafdeling 4
+##### Afdeling 2 - Onderafdeling 4
 Culturele en soortgelijke diensten, diensten die samenhangen met ver voer of betrekking hebben op roerende lichamelijke zaken
 
 ###### Art. 47
@@ -1014,11 +641,8 @@ expertises of werkzaamheden met betrekking tot roerende lichamelijke zaken.
 ###### Art. 48
 Als „intracommunautair goederenvervoer” wordt beschouwd ieder vervoer van goederen waarvan de plaats van vertrek en de
 
-L 347/18
 
-Publicatieblad van de Europese Unie
 
-NL
 
 
 ###### Art. 53
@@ -1077,7 +701,7 @@ De in de eerste alinea bedoelde afwijking is slechts van toepassing indien de go
 
 2. Het feit dat een dienstverrichter en zijn afnemer via elektronische post communiceren, betekent op zich niet dat de verrichte dienst een elektronische dienst is in de zin van lid 1, punt k).
 
-##### Onderafdeling 5
+##### Afdeling 2 - Onderafdeling 5
 Diverse diensten
 
 3. Lid 1, punten j) en k), en lid 2 zijn van toepassing tot en met
@@ -1099,10 +723,8 @@ diensten op het gebied van de reclame;
 2. Lid 1 is van toepassing tot en met 31 december 2006.
 
 
-Publicatieblad van de Europese Unie
 
-NL
-##### Onderafdeling 6
+##### Afdeling 2 - Onderafdeling 6
 
 Cr iterium inzake werkelijk gebr uik en werkelijke exploitatie
 
@@ -1146,7 +768,6 @@ Plaats van invoer van goederen
 ###### Art. 60
 De invoer van goederen vindt plaats in de lidstaat binnen het grondgebied waarvan het goed zich ten tijde van het binnenkomen in de Gemeenschap bevindt.
 
-L 347/19
 
 #### HOOFDSTUK 2
 
@@ -1163,11 +784,8 @@ In afwijking van artikel 60 vindt, wanneer een goed dat zich niet in het vrije v
 
 Indien vooruitbetalingen worden gedaan alvorens de goederen zijn geleverd of de diensten zijn verricht, wordt de belasting verschuldigd op het tijdstip van ontvangst van de vooruitbetalingen, ten belope van het ontvangen bedrag.
 
-L 347/20
 
-Publicatieblad van de Europese Unie
 
-NL
 
 
 ###### Art. 66
@@ -1248,9 +866,7 @@ Voor andere goederenleveringen en diensten dan die bedoeld in de artikelen 74 to
 Het belastbare feit vindt plaats en de belasting wordt verschuldigd op het tijdstip waarop de invoer van de goederen geschiedt.
 
 
-Publicatieblad van de Europese Unie
 
-NL
 
 afnemer of van een derde, met inbegrip van subsidies die rechtstreeks met de prijs van deze handelingen verband houden.
 
@@ -1285,7 +901,6 @@ De belastingplichtige moet het werkelijke bedrag van de in de eerste alinea punt
 ###### Art. 76
 Voor goederenleveringen bestaande in de overbrenging naar een andere lidstaat is de maatstaf van heffing de aankoopprijs van de goederen of van soortgelijke goederen of, bij gebreke van een aankoopprijs, de kostprijs, berekend op het tijdstip waarop deze handelingen worden verricht.
 
-L 347/21
 
 ###### Art. 78
 In de maatstaf van heffing moeten de volgende elementen worden opgenomen:
@@ -1313,11 +928,8 @@ Voor de toepassing van de eerste alinea kan een dienstverband tussen werkgever e
 ###### Art. 81
 De lidstaten die op 1 januari 1993 geen gebruik hebben gemaakt van de mogelijkheid uit hoofde van artikel 98 een verlaagd tarief toe te passen, kunnen, wanneer zij gebruikmaken van de in artikel 89 bedoelde mogelijkheid, bepalen dat de maatstaf van heffing voor de in artikel 103, lid 2, bedoelde leveringen van kunstvoorwerpen gelijk is aan een gedeelte van het overeenkomstig de artikelen 73, 74, 76, 78 en 79 vastgestelde bedrag.
 
-L 347/22
 
-Publicatieblad van de Europese Unie
 
-NL
 
 Het in de eerste alinea bedoelde gedeelte wordt op zodanige wijze vastgesteld dat de aldus verschuldigde BTW ten minste gelijk is aan 5 % van het overeenkomstig de artikelen 73, 74, 76, 78 en 79 vastgestelde bedrag.
 ###### Art. 82
@@ -1368,16 +980,13 @@ Voor de invoer van goederen is de maatstaf van heffing de waarde die in de gelde
 Het in de eerste alinea bedoelde gedeelte wordt op zodanige wijze vastgesteld, dat de aldus bij invoer verschuldigde BTW ten minste gelijk is aan 5 % van het overeenkomstig de artikelen 85, 86 en 87 vastgestelde bedrag.
 
 
-Publicatieblad van de Europese Unie
 
-NL
 #### HOOFDSTUK 5
 
 Diverse bepalingen
 ###### Art. 90
 1. In geval van annulering, verbreking, ontbinding of gehele of gedeeltelijk niet-betaling, of in geval van prijsvermindering nadat de handeling is verricht, wordt de maatstaf van heffing dienovereenkomstig verlaagd onder de voorwaarden die door de lidstaten worden vastgesteld.
 
-L 347/23
 
 In de volgende gevallen is het toe te passen tarief echter het tarief dat van kracht is op het tijdstip waarop de belasting verschuldigd wordt:
 a)
@@ -1447,11 +1056,8 @@ Het op belastbare handelingen toe te passen tarief is het tarief dat van kracht 
 
 1. De lidstaten kunnen een of twee verlaagde tarieven toepassen.
 
-L 347/24
 
-Publicatieblad van de Europese Unie
 
-NL
 
 2. De verlaagde tarieven zijn uitsluitend van toepassing op de goederenleveringen en de diensten die tot de in bĳlage III genoemde categorieën behoren.
 De verlaagde tarieven zijn niet van toepassing op de in artikel 56, lid 1, punt k), bedoelde diensten.
@@ -1511,9 +1117,7 @@ grotendeels rechtstreeks voor eindverbruikers worden verricht;
 
 c)
 
-Publicatieblad van de Europese Unie
 
-NL
 
 hoofdzakelĳk lokaal zĳn en niet tot verstoring van de mededinging leiden.
 
@@ -1539,7 +1143,6 @@ Dit hoofdstuk is van toepassing tot de invoering van de in artikel 402 bedoelde 
 ###### Art. 110
 De lidstaten die op 1 januari 1991 vrijstellingen met recht op aftrek van voorbelasting verleenden of verlaagde tarieven toepasten die onder het in artikel 96 vastgestelde minimum liggen, mogen deze blijven toepassen.
 
-L 347/25
 ###### Art. 112
 
 Indien artikel 106 in Ierland tot verstoring van de mededinging leidt bij de levering van energie voor verwarming en verlichting, kan de Commissie op uitdrukkelijk verzoek van Ierland aan die lidstaat toestaan voor die leveringen een verlaagd tarief toe te passen overeenkomstig de artikelen 95 en 96.
@@ -1577,11 +1180,8 @@ door Finland op abonnementen van dagbladen en tijdschriften en op het vervaardig
 1. Voor de toepassing van artikel 115 mag Oostenrijk een verlaagd tarief blijven toepassen voor restauratie.
 2. Oostenrĳk mag een van de twee in artikel 98 bedoelde verlaagde tarieven toepassen op de verhuring van onroerend goed voor residentieel gebruik, op voorwaarde dat dit tarief niet lager ligt dan 10 %.
 
-L 347/26
 
-Publicatieblad van de Europese Unie
 
-NL
 ###### Art. 118
 
 De lidstaten die op 1 januari 1991 een verlaagd tarief toepasten voor andere leveringen van goederen en voor andere diensten dan de in bijlage III genoemde, mogen voor die leveringen of voor die diensten het verlaagde tarief of een van de twee verlaagde tarieven overeenkomstig artikel 98 toepassen, op voorwaarde dat dit tarief niet lager ligt dan 12 %.
@@ -1637,9 +1237,7 @@ de levering van warmte-energie aan huishoudens en nietbelastingplichtige kleine 
 2. Polen mag tot en met 31 december 2007 of tot de invoering van de in artikel 402 bedoelde definitieve regeling, naar gelang welke datum eerder valt, een verlaagd tarief van ten minste 7 % blijven toepassen op restauratie.
 
 
-Publicatieblad van de Europese Unie
 
-NL
 
 3. Polen mag tot en met 30 april 2008 een verlaagd tarief van ten minste 3 % blijven toepassen op de levering van levensmiddelen bedoeld in bijlage III, punt 1.
 4. Polen mag tot en met 30 april 2008 een verlaagd tarief van ten minste 3 % blijven toepassen op de in bijlage III, punt 11, bedoelde goederenleveringen en diensten die normaal bestemd zijn voor gebruik in de landbouw, met uitzondering evenwel van kapitaalgoederen, zoals machines of gebouwen.
@@ -1702,7 +1300,6 @@ b)
 tot en met 31 december 2007 op woningbouwwerkzaamheden die niet in het kader van sociaal beleid worden verricht, met uitzondering van bouwmaterialen; tot en met 31 december 2008 op de levering van warmteenergie aan huishoudens en niet-belastingplichtige kleine ondernemers voor verwarming en warmwaterproductie, met uitzondering van grondstoffen voor het opwekken van warmte-energie.
 ### TITEL IX
 
-L 347/27
 
 VRIJSTELLINGEN
 #### HOOFDSTUK 1
@@ -1711,11 +1308,8 @@ Algemene bepalingen
 ###### Art. 131
 De in de hoofdstukken 2 tot en met 9 geregelde vrijstellingen zijn van toepassing onverminderd andere communautaire bepalingen en onder de voorwaarden die de lidstaten stellen om een juiste en eenvoudige toepassing van deze vrijstellingen te verzekeren en elke vorm van fraude, ontwijking en misbruik te voorkomen.
 
-L 347/28
 
-Publicatieblad van de Europese Unie
 
-NL
 
 k)
 
@@ -1800,9 +1394,7 @@ b)
 de instellingen mogen niet systematisch het maken van winst beogen; eventuele winsten mogen niet worden uitgekeerd, maar moeten worden aangewend voor de instandhouding of verbetering van de diensten die worden verricht; het beheer en het bestuur van de instellingen moeten in hoofdzaak op vrijwillige basis en zonder vergoeding geschieden door personen die noch zelf, noch via tussenpersonen, enig rechtstreeks of zijdelings belang hebben bij de resultaten van de werkzaamheden van de instellingen;
 
 
-Publicatieblad van de Europese Unie
 
-NL
 
 verzamelobject zijn, namelijk gouden, zilveren of uit een ander metaal geslagen munten, alsmede biljetten, die normaal niet als wettig betaalmiddel worden gebruikt of die een numismatische waarde hebben;
 f)
@@ -1831,7 +1423,6 @@ de levering van onbebouwde onroerende goederen, met uitzondering van de in artik
 
 l)
 
-L 347/29
 ###### Art. 137
 
 1. De lidstaten kunnen aan de belastingplichtigen het recht verlenen voor belastingheffing ter zake van de volgende handelingen te kiezen:
@@ -1899,11 +1490,8 @@ b)
 
 leveringen van goederen die uitsluitend zijn gebruikt voor een activiteit die krachtens de artikelen 132, 135, 371, 375, 376 en 377, artikel 378, lid 2, artikel 379, lid 2, en de artikelen 380 tot en met 390 is vrijgesteld, wanneer voor deze goederen geen recht op aftrek is genoten; leveringen van goederen bij de aanschaffing of bestemming waarvan overeenkomstig artikel 176 het recht op aftrek van de BTW is uitgesloten.
 
-L 347/30
 
-Publicatieblad van de Europese Unie
 
-NL
 
 belastingplichtige rechtspersonen wier intracommunautaire verwervingen van andere goederen dan accijnsproducten, uit hoofde van artikel 3, lid 1, niet aan de BTW zijn onderworpen wanneer de verzending of het vervoer van deze producten plaatsvindt overeenkomstig artikel 7, leden 4 en 5, of artikel 16 van Richtlijn 92/12/EEG;
 
@@ -1970,9 +1558,7 @@ Vr i j s t e l l i n g e n vo o r b e p a a l d e ver voerdiensten
 De lidstaten verlenen vrijstelling voor het intracommunautaire vervoer van goederen naar of vanaf de eilanden die de autonome gebieden van de Azoren en van Madeira vormen, alsmede voor het vervoer van goederen tussen deze eilanden.
 
 
-Publicatieblad van de Europese Unie
 
-NL
 #### HOOFDSTUK 5
 
 h)
@@ -2033,7 +1619,6 @@ de invoer van goederen verricht door internationale instellingen die als zodanig
 (2) Richtlijn 83/181/EEG van de Raad van 28 maart 1983 houdende bepaling van de werkingssfeer van artikel 14, lid 1, sub d), van Richtlijn 77/388/EEG met betrekking tot de vrijstelling van de belasting over de toegevoegde waarde voor de definitieve invoer van bepaalde goederen (PB L 105 van 23.4.1983, blz. 38). Richtlijn laatstelijk gewijzigd bij de Toetredingsakte van 1994.
 (3) Richtlijn 2006/79/EG van de Raad van 5 oktober 2006 inzake de belastingvrijstellingen die van toepassing zijn bij invoer van uit derde landen afkomstige kleine zendingen goederen zonder commercieel karakter (PB L 286 van 17.10.2006, blz. 15).
 
-L 347/31
 
 ###### Art. 144
 De lidstaten verlenen vrijstelling voor de diensten die betrekking hebben op de invoer van goederen en waarvan de waarde overeenkomstig artikel 86, lid 1, onder b), in de maatstaf van heffing is opgenomen.
@@ -2045,11 +1630,8 @@ De lidstaten kunnen de administratieve procedures gebruiken die zij het meest ge
 3. De lidstaten stellen, voorzover dat nog niet is gebeurd, de
 Commissie in kennis van de geldende nationale voorschriften en van de voorschriften die zij krachtens lid 2 nemen. De Commissie stelt de andere lidstaten daarvan in kennis.
 
-L 347/32
 
-Publicatieblad van de Europese Unie
 
-NL
 #### HOOFDSTUK 6
 
 Vrijstellingen bij uitvoer
@@ -2121,16 +1703,13 @@ het totale bedrag van de levering, BTW inbegrepen, is hoger dan EUR 175 of de te
 
 
 
-Publicatieblad van de Europese Unie
 
-NL
 
 deze luchtvaartuigen vast verbonden zijn of die voor hun exploitatie dienen;
 g)
 
 andere dan de in punt f) bedoelde diensten, die voor de rechtstreekse behoeften van de in punt e) bedoelde luchtvaartuigen en hun lading worden verricht.
 
-L 347/33
 
 ten behoeve van de strijdkrachten of het hen begeleidende burgerpersoneel of voor de bevoorrading van hun messes of kantines.
 
@@ -2186,11 +1765,8 @@ Voor de toepassing van deze afdeling worden onder andere entrepots dan douane-en
 ###### Art. 155
 Onverminderd de andere communautaire belastingbepalingen kunnen de lidstaten, na raadpleging van het BTW-Comité, bijzondere maatregelen nemen teneinde vrijstelling te verlenen voor de in deze afdeling bedoelde handelingen of sommige daarvan, mits zij geen betrekking hebben op eindgebruik of eindverbruik en het BTW-bedrag dat verschuldigd is wanneer de goederen aan de in deze afdeling bedoelde regelingen of situaties worden onttrokken, overeenkomt met het BTW-bedrag dat verschuldigd zou zijn geweest indien elk van deze handelingen op hun grondgebied was belast.
 
-L 347/34
 
-Publicatieblad van de Europese Unie
 
-NL
 
 vliegtuig of schip tijdens een vlucht of zeereis waarvan de plaats van aankomst buiten de Gemeenschap is gelegen;
 
@@ -2268,11 +1844,8 @@ b)
 de levering van goederen bedoeld in artikel 30, tweede alinea, die nog onderworpen zijn aan de in artikel 276 bedoelde regeling voor intern communautair douanevervoer.
 
 
-Publicatieblad van de Europese Unie
 
-NL
 
-L 347/35
 
 ###### Art. 162
 
@@ -2345,11 +1918,8 @@ Gemeenschappelijke bepaling met betrekking tot de afdelingen 1 en 2
 De Commissie dient, indien nodig, zo spoedig mogelijk bij de
 Raad voorstellen in betreffende de gemeenschappelijke bepalingen voor de toepassing van de BTW op de in de afdelingen 1 en 2 bedoelde handelingen.
 
-L 347/36
 
-Publicatieblad van de Europese Unie
 
-NL
 
 
 ###### Art. 170
@@ -2408,11 +1978,8 @@ e)
 bepalen dat, indien de BTW die niet door de belastingplichtige kan worden afgetrokken, onbeduidend is, hiermee geen rekening wordt gehouden.
 
 
-Publicatieblad van de Europese Unie
 
-NL
 
-L 347/37
 
 ###### Art. 174
 
@@ -2488,14 +2055,11 @@ voor de in artikel 168, punt d), bedoelde aftrek met betrekking tot met intracom
 De lidstaten kunnen evenwel hun op 1 januari 1979 geldende regeling dan wel, voor de lidstaten die na die datum tot de Gemeenschap zijn toegetreden, hun op de datum van hun toetreding geldende regeling handhaven.
 3. De aftrek die op grond van de voorlopige aftrek heeft plaatsgevonden, wordt herzien nadat voor elk jaar in het daaropvolgende jaar de definitieve aftrek is vastgesteld.
 
-L 347/38
 e)
 
 f)
 
-Publicatieblad van de Europese Unie
 
-NL
 
 voor de in artikel 168, punt e), bedoelde aftrek met betrekking tot invoer van goederen: in het bezit zijn van een document waaruit de invoer blijkt en waarin hij wordt aangeduid als degene voor wie de invoer bestemd is of als de importeur, en waarin het bedrag van de verschuldigde BTW wordt vermeld of op grond waarvan dat bedrag kan worden berekend; wanneer hij als afnemer tot voldoening van de belasting is gehouden, in geval van toepassing van de artikelen 194 tot en met 197 en artikel 199: de door de respectieve lidstaten voorgeschreven formaliteiten vervullen.
 ###### Art. 179
@@ -2546,9 +2110,7 @@ De oorspronkelijk toegepaste aftrek wordt herzien indien deze hoger of lager is 
 2. De in lid 1 bepaalde herziening wordt in één keer verricht voor de gehele nog resterende herzieningsperiode. Indien de levering van investeringsgoederen vrijgesteld is, kunnen de lidstaten er evenwel van afzien herziening te eisen, voorzover
 
 
-Publicatieblad van de Europese Unie
 
-NL
 
 de afnemer een belastingplichtige is die de betrokken investeringsgoederen uitsluitend gebruikt voor handelingen waarvoor de BTW in aftrek mag worden gebracht.
 ###### Art. 189
@@ -2602,7 +2164,6 @@ Bij overgang van een normale belastingregeling naar een bijzondere regeling, of 
 VERPLICHTINGEN VAN DE BELASTINGPLICHTIGEN EN VAN
 BEPAALDE NIET–BELASTINGPLICHTIGE PERSONEN
 
-L 347/39
 
 Verplichting tot betaling
 
@@ -2623,11 +2184,8 @@ De BTW is verschuldigd door de belastingplichtige die een belastbare goederenlev
 
 Indien de afnemer die geen lid is van een gereglementeerde goudmarkt een belastingplichtige is en zich uitsluitend voor de in artikel 344 bedoelde handelingen voor BTW-doeleinden dient te
 
-L 347/40
 
-Publicatieblad van de Europese Unie
 
-NL
 
 goederen of diensten overeenkomstig artikel 2 worden beschouwd, voor alle in lid 1 bedoelde voor hem verrichte diensten als belastingplichtige wordt aangemerkt;
 
@@ -2691,9 +2249,7 @@ In het geval dat de belastbare handeling wordt verricht door een belastingplicht
 (1) Richtlijn 76/308/EEG van de Raad van 15 maart 1976 betreffende de wederzijdse bijstand inzake de invordering van schuldvorderingen die voortvloeien uit verrichtingen die deel uitmaken van het financieringsstelsel van het Europees Oriëntatie- en Garantiefonds voor de Landbouw, alsmede van landbouwheffingen en douanerechten (PB L 73 van 19.3.1976, blz. 18). Richtlijn laatstelijk gewijzigd bij de Toetredingsakte van 2003.
 
 
-Publicatieblad van de Europese Unie
 
-NL
 
 Verordening (EG) nr. 1798/2003 (1), kunnen de lidstaten bepalen dat een door deze belastingplichtige aangewezen fiscaal vertegenwoordiger tot voldoening van de belasting wordt gehouden.
 De lidstaten kunnen de in de tweede alinea bedoelde mogelijkheid echter niet toepassen op niet in de Gemeenschap gevestigde belastingplichtigen in de zin van artikel 358, punt 1), die voor de bijzondere regeling voor langs elektronische weg verrichte diensten hebben gekozen.
@@ -2705,7 +2261,6 @@ Wijze van betaling
 ###### Art. 206
 Iedere belastingplichtige die tot voldoening van de belasting is gehouden, moet het nettobedrag van de BTW bij de indiening van de in artikel 250 bedoelde aangifte voldoen. De lidstaten kunnen echter een ander tijdstip voor de betaling van dit bedrag vaststellen of bepalen dat voorlopige vooruitbetalingen moeten worden gedaan.
 
-L 347/41
 ###### Art. 209
 
 De lidstaten treffen de nodige maatregelen opdat niet-belastingplichtige rechtspersonen die gehouden zijn tot voldoening van de belasting welke verschuldigd is wegens de in artikel 2, lid 1, onder b), punt i), bedoelde intracommunautaire verwerving van goederen, de in deze afdeling vastgestelde betalingsverplichtingen nakomen.
@@ -2737,11 +2292,8 @@ a)
 
 iedere belastingplichtige, uitgezonderd de in artikel 9, lid 2, bedoelde, die op hun respectieve grondgebied
 
-L 347/42
 
-Publicatieblad van de Europese Unie
 
-NL
 
 goederenleveringen of diensten verricht welke recht op aftrek doen ontstaan, andere dan de goederenleveringen of de diensten waarvoor overeenkomstig de artikelen 194 tot en met 197 en artikel 199 uitsluitend de afnemer of degene voor wie de goederen of de diensten bestemd zijn, de BTW verschuldigd is;
 b)
@@ -2807,11 +2359,8 @@ Voor de toepassing van deze richtlijn aanvaarden de lidstaten als factuur ieder 
 De lidstaten kunnen de belastingplichtigen die op hun grondgebied goederenleveringen of diensten verrichten een termijn opleggen voor het uitreiken van de factuur.
 
 
-Publicatieblad van de Europese Unie
 
-NL
 
-L 347/43
 
 ###### Art. 223
 
@@ -2872,11 +2421,8 @@ het in artikel 214 bedoelde BTW-identificatienummer waaronder de belastingplicht
 ###### Art. 227
 De lidstaten kunnen belastingplichtigen die op hun grondgebied gevestigd zijn en er goederenleveringen of diensten verrichten, de verplichting opleggen in andere dan de in artikel 226, punt 4),
 
-L 347/44
 
-Publicatieblad van de Europese Unie
 
-NL
 
 bedoelde gevallen het in artikel 214 bedoelde BTW-identificatienummer van hun afnemer te vermelden.
 
@@ -2931,9 +2477,7 @@ Bij een reeks facturen die langs elektronische weg aan dezelfde afnemer worden v
 De Commissie dient uiterlijk op 31 december 2008 een verslag in, dat in voorkomend geval vergezeld gaat van een voorstel tot wijziging van de voorwaarden inzake elektronische facturering teneinde rekening te houden met toekomstige technologische ontwikkelingen op dit gebied.
 
 
-Publicatieblad van de Europese Unie
 
-NL
 
 Ve r e e n v o u d i g i n g s m a a t r e g e l e n
 ##### Afdeling 6
@@ -2972,7 +2516,6 @@ Wanneer het BTW-identificatienummer aan de belastingplichtige is toegekend, kunn
 
 2)
 
-L 347/45
 
 voor andere goederenleveringen of diensten alleen het fiscaal registratienummer van de verrichter van de goederenleveringen of de diensten, dan wel alleen het BTW-identificatienummer.
 #### HOOFDSTUK 4
@@ -2999,11 +2542,8 @@ voor de in de artikelen 44, 47, 50, 53, 54 en 55 bedoelde diensten en voor de in
 
 Iedere belastingplichtige moet erop toezien dat kopieën van de door hemzelf of door zijn afnemer of, in zijn naam en voor zijn rekening, door een derde uitgereikte facturen en alle door hemzelf ontvangen facturen worden bewaard.
 
-L 347/46
 
-Publicatieblad van de Europese Unie
 
-NL
 
 
 ###### Art. 245
@@ -3055,9 +2595,7 @@ het totale bedrag, de BTW niet inbegrepen, van de in artikel 33 en artikel 36, e
 De lidstaten kunnen onder door hen gestelde voorwaarden voorzien in een bewaringsplicht voor door niet–belastingplichtigen ontvangen facturen.
 
 
-Publicatieblad van de Europese Unie
 
-NL
 
 goederenleveringen die zijn verricht in de lidstaat waar de aangifte moet worden ingediend, en uit hoofde waarvan de belasting in de loop van dit belastingtijdvak verschuldigd is geworden, wanneer de plaats van vertrek van de verzending of het vervoer van de goederen op het grondgebied van een andere lidstaat is gelegen;
 e)
@@ -3073,7 +2611,6 @@ Zweden mag voor kleine en middelgrote ondernemingen een vereenvoudigde procedure
 ###### Art. 254
 Voor leveringen van nieuwe vervoermiddelen onder de in artikel 138, lid 2, onder a), gestelde voorwaarden door een voor BTW–doeleinden geïdentificeerde belastingplichtige aan een niet voor BTW-doeleinden geïdentificeerde afnemer, of door een in artikel 9, lid 2, bedoelde belastingplichtige, treffen de lidstaten de nodige maatregelen opdat de verkoper alle gegevens verschaft die noodzakelijk zijn voor de toepassing van de BTW en voor de controle daarop door de belastingdienst.
 
-L 347/47
 
 zijn gehouden, de in dit hoofdstuk vastgestelde verplichtingen inzake aangifte nakomen.
 ###### Art. 257
@@ -3104,11 +2641,8 @@ De lidstaten treffen de nodige maatregelen opdat de personen die overeenkomstig 
 ###### Art. 263
 1. De lijst wordt voor elk kalenderkwartaal opgesteld, binnen een termijn en volgens regels die door de lidstaten worden vastgesteld.
 
-L 347/48
 
-Publicatieblad van de Europese Unie
 
-NL
 
 is, in de lidstaat van aankomst van de verzending of het vervoer van de goederen is geïdentificeerd;
 
@@ -3174,16 +2708,13 @@ b)
 
 c)
 
-Publicatieblad van de Europese Unie
 
-NL
 
 het jaarlijkse totale bedrag, de BTW niet inbegrepen, van de goederenleveringen die hij verricht onder de in artikel 138 gestelde voorwaarden bedraagt niet meer dan EUR 15 000 of de tegenwaarde daarvan in de nationale munteenheid; de goederenleveringen die hij verricht onder de in artikel 138 gestelde voorwaarden zijn geen leveringen van nieuwe vervoermiddelen.
 ###### Art. 271
 
 Uit hoofde van de in artikel 269 bedoelde machtiging kunnen de lidstaten die de duur van het belastingtijdvak waarover een belastingplichtige de in artikel 250 bedoelde BTW-aangifte moet indienen, op meer dan drie maanden vaststellen, deze belastingplichtige toestaan de lijst over datzelfde tijdvak in te dienen, wanneer de belastingplichtige de volgende drie voorwaarden vervult:
 
-L 347/49
 
 artikelen 220 tot en met 236 en de artikelen 238, 239 en 240 vastgestelde verplichtingen inzake facturering.
 2. Wanneer de lidstaten van de in lid 1, eerste alinea, punt e), bedoelde mogelijkheid gebruikmaken, nemen zij de nodige maatregelen voor een juiste toepassing van de overgangsregeling voor de belastingheffing op intracommunautaire handelingen.
@@ -3253,11 +2784,8 @@ De formaliteiten betreffende de invoer van de in artikel 274 bedoelde goederen z
 ###### Art. 276
 Wanneer de plaats van aankomst van de verzending of van het vervoer van de in artikel 274 bedoelde goederen buiten de lidstaat van binnenkomst van die goederen in de Gemeenschap is gelegen, bevinden zij zich in de Gemeenschap in het verkeer onder de regeling voor intern communautair douanevervoer van de geldende communautaire douanebepalingen, indien op het moment van het binnenbrengen van de goederen in de Gemeenschap aangifte is gedaan dat zij onder die regeling zijn geplaatst.
 
-L 347/50
 
-Publicatieblad van de Europese Unie
 
-NL
 
 
 ###### Art. 277
@@ -3325,13 +2853,10 @@ De lidstaten die geen gebruik hebben gemaakt van de in artikel 14 van Richtlijn 
 Richtlijn 77/388/EEG.
 
 
-Publicatieblad van de Europese Unie
 
-NL
 
 De in de eerste alinea bedoelde lidstaten kunnen een degressieve belastingvermindering toekennen aan belastingplichtigen wier jaaromzet het plafond overschrijdt dat deze lidstaten voor de toepassing van de vrijstelling hebben vastgesteld.
 
-L 347/51
 ###### Art. 288
 
 De omzet die als maatstaf dient voor de toepassing van de in deze afdeling vastgestelde regeling, wordt gevormd door de volgende bedragen, de BTW niet inbegrepen:
@@ -3421,11 +2946,8 @@ De belastingplichtigen voor wie degressieve belastingvermindering geldt, worden,
 
 De in deze afdeling vastgestelde regeling is van toepassing tot een datum die door de Raad overeenkomstig artikel 93 van het Verdrag wordt vastgesteld en die niet later mag vallen dan het tijdstip van inwerkingtreding van de in artikel 402 bedoelde definitieve regeling.
 
-L 347/52
 
-Publicatieblad van de Europese Unie
 
-NL
 
 de forfaitaire regeling vallende landbouw-, bosbouw- en visserijbedrijven gezamenlijk van elke lidstaat, voor zover deze belasting door een landbouwproducent die onder de normale BTW-regeling valt, overeenkomstig de artikelen 167, 168 en 169 en de artikelen 173 tot en met 177 zou kunnen worden afgetrokken;
 
@@ -3499,9 +3021,7 @@ BTW-voordruk: de totale druk aan BTW die rust op de goederen en diensten welke z
 De forfaitaire compensatiepercentages worden bepaald aan de hand van de macro-economische gegevens over de laatste drie jaar betreffende uitsluitend de forfaitair belaste landbouwers.
 
 
-Publicatieblad van de Europese Unie
 
-NL
 
 De percentages mogen naar boven of naar beneden op een half punt worden afgerond. De lidstaten kunnen deze percentages ook tot nihil terugbrengen.
 ###### Art. 299
@@ -3541,7 +3061,6 @@ Wanneer een forfaitair belaste landbouwer een forfaitaire compensatie geniet, he
 ###### Art. 303
 1. De belastingplichtige afnemer die overeenkomstig artikel 301, lid 1, een forfaitaire compensatie betaalt, heeft het recht, onder de in de artikelen 167, 168 en 169 en de artikelen 173 tot en met 177 gestelde voorwaarden en volgens de door de lidstaten vastgestelde nadere regels, het bedrag van deze compensatie af te trekken van de BTW die hij verschuldigd is in de lidstaat waar hij zijn belaste handelingen verricht.
 
-L 347/53
 
 3. De lidstaten stellen de nadere regels voor de in lid 2 bedoelde terugbetalingen vast. Zij kunnen met name de Richtlijnen 79/1072/EEG en 86/560/EEG toepassen.
 ###### Art. 304
@@ -3554,11 +3073,8 @@ Bijzondere regeling voor reisbureaus
 ###### Art. 306
 1. De lidstaten passen overeenkomstig het bepaalde in dit hoofdstuk een bijzondere regeling voor de BTW op de handelingen van reisbureaus toe, voor zover de reisbureaus op eigen naam tegenover de reiziger handelen en zij voor de totstandbrenging van de reizen gebruikmaken van goederenleveringen en diensten van andere belastingplichtigen.
 
-L 347/54
 
-Publicatieblad van de Europese Unie
 
-NL
 
 Deze bijzondere regeling is niet van toepassing op reisbureaus die alleen handelen als tussenpersoon en waarop artikel 79, eerste alinea, punt c), van toepassing is om de maatstaf van heffing te berekenen.
 
@@ -3622,15 +3138,12 @@ De BTW die aan het reisbureau in rekening wordt gebracht door andere belastingpl
 3. De in lid 1, punt 7), bedoelde overeenkomst tot verkoop in commissie moet bepalen dat de organisator het goed in eigen naam, maar voor rekening van zijn opdrachtgever, in openbare veiling brengt en het goed in eigen naam, maar voor rekening van zijn opdrachtgever, overdraagt aan de meestbiedende aan wie het goed tijdens de openbare verkoping wordt gegund.
 
 
-Publicatieblad van de Europese Unie
 
-NL
 
 wederverkoper overeenkomstig deze bijzondere regeling aan de BTW onderworpen is geweest.
 
 Bijzondere regeling voor belastingplichtige weder verkopers
-##### Afdeling 2
-##### Onderafdeling 1
+##### Afdeling 2 - Onderafdeling 1
 Winstmargeregeling
 
 ###### Art. 312
@@ -3642,7 +3155,6 @@ Voor de toepassing van deze onderafdeling wordt verstaan onder:
 „verkoopprijs”: alles wat de tegenprestatie uitmaakt die een belastingplichtige wederverkoper verkrijgt of moet verkrijgen van de afnemer of een derde, met inbegrip van subsidies die rechtstreeks verband houden met de handeling, belastingen, rechten, heffingen en bijkomende kosten zoals kosten van commissie, verpakking, vervoer en verzekering die de belastingplichtige wederverkoper de afnemer in rekening brengt, echter met uitsluiting van de in artikel 79 bedoelde bedragen;
 „aankoopprijs”: alles wat de in punt 1) gedefinieerde tegenprestatie uitmaakt die de leverancier van de belastingplichtige wederverkoper verkrijgt of moet verkrijgen.
 
-L 347/55
 
 ###### Art. 315
 De maatstaf van heffing voor de in artikel 314 bedoelde goederenleveringen is de winstmarge van de belastingplichtige wederverkoper, verminderd met het bedrag van de BTW die voor de winstmarge zelf geldt.
@@ -3690,11 +3202,8 @@ Voor de leveringen van kunstvoorwerpen, voorwerpen voor verzamelingen of antiqui
 1. Teneinde de inning van de belasting te vereenvoudigen, kunnen de lidstaten na raadpleging van het BTW-Comité, voor bepaalde handelingen of voor bepaalde categorieën belastingplichtige wederverkopers bepalen dat de maatstaf van heffing voor leveringen van goederen die onderworpen zijn aan de winstmargeregeling, wordt vastgesteld voor ieder belastingtijdvak uit hoofde waarvan de belastingplichtige wederverkoper de in artikel 250 bedoelde BTW-aangifte moet indienen.
 In het in de eerste alinea bedoelde geval is de maatstaf van heffing voor goederenleveringen waarop hetzelfde BTW-tarief van toepassing is, de totale winstmarge van de belastingplichtige
 
-L 347/56
 
-Publicatieblad van de Europese Unie
 
-NL
 
 ###### Art. 322
 
@@ -3738,7 +3247,7 @@ De belastingplichtige mag de BTW die verschuldigd of voldaan is voor aan hem gel
 De belastingplichtige wederverkoper die zowel de normale BTWregeling als de winstmargeregeling toepast, moet de transacties voor elk van deze regelingen afzonderlijk in zijn boekhouding bijhouden, overeenkomstig de door de lidstaten vastgestelde bepalingen.
 ###### Art. 325
 De belastingplichtige wederverkoper mag op de door hem uitgereikte factuur de BTW over de goederenleveringen waarop hij de winstmargeregeling toepast, niet afzonderlijk vermelden.
-##### Onderafdeling 2
+##### Afdeling 2 - Onderafdeling 2
 
 De belastingplichtige wederverkoper die de normale BTWregeling toepast op de levering van kunstvoorwerpen welke hem door de maker of diens rechthebbenden of door een andere belastingplichtige dan een belastingplichtige wederverkoper zijn geleverd, heeft het recht, de met betrekking tot de hem geleverde kunstvoorwerpen verschuldigde of voldane BTW af te trekken van het door hem verschuldigde belastingbedrag.
 
@@ -3758,9 +3267,7 @@ De leveringen van gebruikte goederen, kunstvoorwerpen, voorwerpen voor verzameli
 1. Deze overgangsregeling is van toepassing op door belastingplichtige wederverkopers verrichte leveringen van gebruikte vervoermiddelen die aan de winstmargeregeling zijn onderworpen.
 
 
-Publicatieblad van de Europese Unie
 
-NL
 
 2. Deze overgangsregeling is niet van toepassing op de leveringen van nieuwe vervoermiddelen die worden verricht onder de in artikel 138, lid 1 en lid 2, onder a), gestelde voorwaarden.
 
@@ -3815,16 +3322,12 @@ De lidstaten kunnen bepalen dat, indien de levering aan de winstmargeregeling on
 ###### Art. 331
 De belastingplichtige mag van de door hem verschuldigde belasting niet de BTW aftrekken, die verschuldigd of voldaan is voor gebruikte vervoermiddelen welke aan hem geleverd zijn door een belastingplichtige wederverkoper, voorzover de levering van die goederen door de belastingplichtige wederverkoper overeenkomstig deze overgangsregeling aan de belasting is onderworpen.
 
-L 347/57
 
 ###### Art. 335
 De levering van een goed aan een belastingplichtige organisator van openbare veilingen wordt geacht te hebben plaatsgevonden op het tijdstip waarop de verkoop van dat goed ter openbare veiling heeft plaatsgevonden.
 
-L 347/58
 
-Publicatieblad van de Europese Unie
 
-NL
 ###### Art. 336
 
 De maatstaf van heffing voor elke in deze afdeling bedoelde goederenlevering is het overeenkomstig artikel 339 door de organisator van de openbare veiling aan de afnemer in rekening gebrachte totale bedrag, verminderd met de volgende bedragen:
@@ -3898,9 +3401,7 @@ goud, in de vorm van staven of plaatjes van een door de goudmarkten aanvaard gew
 
 2)
 
-Publicatieblad van de Europese Unie
 
-NL
 
 gouden munten die een zuiverheid van ten minste 900/
 1 000 hebben, na 1800 zijn geslagen, in het land van oorsprong als wettig betaalmiddel fungeren of hebben gefungeerd en normaal worden verkocht voor een prijs die de openmarktwaarde van het in de munten vervatte goud niet met meer dan 80 % overschrijdt.
@@ -3908,7 +3409,6 @@ gouden munten die een zuiverheid van ten minste 900/
 2. De lidstaten kunnen kleine staven of plaatjes met een gewicht van ten hoogste 1 gram uitsluiten van deze bijzondere regeling.
 3. Voor de toepassing van deze richtlijn worden de in lid 1, punt 2), bedoelde munten niet geacht wegens hun numismatisch belang te worden verkocht.
 
-L 347/59
 
 van goud in de vorm van de in artikel 344, lid 1, punt 1), bedoelde staven of plaatjes aan een andere belastingplichtige welke anders uit hoofde van artikel 346 zouden zijn vrijgesteld.
 2. De lidstaten kunnen het toepassingsgebied van het in lid 1 bedoelde keuzerecht beperken.
@@ -3960,11 +3460,8 @@ de BTW die verschuldigd of voldaan is met betrekking tot de levering aan hem dan
 ###### Art. 349
 1. De lidstaten kunnen belastingplichtigen die in het kader van hun bedrijf normaal goud leveren voor industriële doeleinden, het recht verlenen te kiezen voor belastingheffing over leveringen
 
-L 347/60
 
-Publicatieblad van de Europese Unie
 
-NL
 
 beleggingsgoud dat vervolgens door hem of in zijn naam wordt omgezet in beleggingsgoud;
 c)
@@ -4044,13 +3541,10 @@ Onverminderd andere communautaire bepalingen wordt voor de toepassing van dit ho
 (1) PB L 309 van 25.11.2005, blz. 15.
 
 
-Publicatieblad van de Europese Unie
 
-NL
 
 2. De niet in de Gemeenschap gevestigde belastingplichtige doet de lidstaat van identificatie mededeling van eventuele wijzigingen in de verstrekte informatie.
 
-L 347/61
 ###### Art. 367
 
 De niet in de Gemeenschap gevestigde belastingplichtige voldoet de BTW op het moment dat de BTW-aangifte wordt ingediend.
@@ -4112,11 +3606,8 @@ De lidstaten die op 1 januari 1978 de in de lijst van bijlage IX, deel A, genoem
 ###### Art. 371
 De lidstaten die op 1 januari 1978 vrijstelling verleenden voor de in de lijst van bijlage X, deel B, genoemde handelingen, mogen deze, onder de in iedere betrokken lidstaat op die datum bestaande voorwaarden, blijven vrijstellen.
 
-L 347/62
 
-Publicatieblad van de Europese Unie
 
-NL
 
 ###### Art. 379
 
@@ -4174,9 +3665,7 @@ b)
 internationaal personenvervoer omschreven in bijlage X, deel B, punt 10, zolang dezelfde vrijstelling wordt toegepast in één van de lidstaten die op 30 april 2004 lid van de Gemeenschap waren.
 
 
-Publicatieblad van de Europese Unie
 
-NL
 ###### Art. 384
 
 Zolang dezelfde vrijstellingen worden verleend in een van de lidstaten die op 30 april 2004 lid van de Gemeenschap waren, mag Letland, onder de voorwaarden die in deze lidstaat op de datum van zijn toetreding bestonden, vrijstelling blijven verlenen:
@@ -4188,7 +3677,6 @@ b)
 
 voor internationaal personenvervoer omschreven in bijlage X, deel B, punt 10.
 
-L 347/63
 
 voor internationaal personenvervoer omschreven in bijlage X, deel B, punt 10, zolang dezelfde vrijstelling wordt toegepast in één van de lidstaten die op 30 april 2004 lid van de Gemeenschap waren.
 ###### Art. 390
@@ -4244,11 +3732,8 @@ Slovenië mag, onder de voorwaarden die in deze lidstaat op de datum van zijn to
 ###### Art. 394
 De lidstaten die op 1 januari 1977 bijzondere maatregelen toepasten ter vereenvoudiging van de belastingheffing of ter voorkoming van bepaalde vormen van belastingfraude of -ontwijking, mogen deze handhaven op voorwaarde dat zij de Commissie vóór 1 januari 1978 van deze maatregelen in kennis
 
-L 347/64
 
-Publicatieblad van de Europese Unie
 
-NL
 
 hebben gesteld en onder voorbehoud dat de vereenvoudigingsmaatregelen voldoen aan de in artikel 395, lid 1, tweede alinea, omschreven voorwaarde.
 ###### Art. 395
@@ -4301,11 +3786,8 @@ Omrekeningskoers
 Onverminderd andere bijzondere bepalingen wordt de tegenwaarde van de in deze richtlijn in euro's uitgedrukte bedragen in de nationale munteenheid bepaald aan de hand van de op 1 januari 1999 geldende omrekeningskoers van de euro. De lidslaker die na deze daken lot de Europese Unie rijn toegetreden en die de euro niet als enige munt hebben aangenomen gebruiken echter de ten tijde van hun toetreding geldende omrekeningskoers.
 
 
-Publicatieblad van de Europese Unie
 
-NL
 
-L 347/65
 
 ###### Art. 400
 
@@ -4383,11 +3865,8 @@ a)
 
 elke onttrekking, met inbegrip van een onregelmatige onttrekking, van een goed aan een regeling voor tijdelijke invoer waaronder het goed vóór de datum van toetreding
 
-L 347/66
 
-Publicatieblad van de Europese Unie
 
-NL
 
 onder de algemene belastingvoorwaarden van de binnenlandse markt van een van de nieuwe lidstaten of een van de lidstaten van de Gemeenschap werd verworven of ingevoerd, of waarvoor, uit hoofde van de uitvoer ervan, geen vrijstelling of teruggaaf van de BTW werd verleend.
 
@@ -4449,9 +3928,7 @@ De voorzitter
 E. HEINÄLUOMA
 
 
-Publicatieblad van de Europese Unie
 
-NL
 
 ## BIJLAGE I
 LIJST VAN WERKZAAMHEDEN BEDOELD IN ARTIKEL 14, LID 1, DERDE ALINEA
@@ -4508,13 +3985,9 @@ exploitatie van bedrijfskantines, bedrijfswinkels, coöperaties en soortgelijke 
 
 werkzaamheden van radio- en televisiediensten voor zover deze niet uit hoofde van artikel 132, lid 1, onder q), zijn vrijgesteld.
 
-L 347/67
 
-L 347/68
 
-NL
 
-Publicatieblad van de Europese Unie
 ## BIJLAGE II — INDICATIEVE LIJST VAN LANGS ELEKTRONISCHE WEG VERRICHTE DIENSTEN BEDOELD IN ARTIKEL 56, LID 1, PUNT K)
 
 1)
@@ -4539,9 +4012,7 @@ de levering van onderwijs op afstand.
 
 
 
-NL
 
-Publicatieblad van de Europese Unie
 ## BIJLAGE III
 
 LIJST VAN DE GOEDERENLEVERINGEN EN DE DIENSTEN WAAROP DE IN ARTIKEL 98 BEDOELDE VERLAAGDE TARIEVEN MOGEN WORDEN TOEGEPAST
@@ -4618,13 +4089,9 @@ de verstrekking van medische en tandheelkundige verzorging, alsmede thermale beh
 
 diensten in verband met de reiniging van de openbare weg, het ophalen van huisvuil en de afvalverwerking, andere dan de diensten die door de in artikel 13 bedoelde lichamen worden verstrekt.
 
-L 347/69
 
-L 347/70
 
-Publicatieblad van de Europese Unie
 
-NL
 
 ## BIJLAGE IV
 LIJST VAN DE IN ARTIKEL 106 BEDOELDE DIENSTEN
@@ -4662,9 +4129,7 @@ kappersdiensten.
 
 
 
-NL
 
-Publicatieblad van de Europese Unie
 ## BIJLAGE V
 
 CATEGORIEËN GOEDEREN DIE VOLGENS ARTIKEL 160, LID 2, ONDER EEN ANDER STELSEL VAN ENTREPOTS DAN DOUANE-ENTREPOTS KUNNEN VALLEN
@@ -4780,13 +4245,9 @@ Nikkel
 
 Aluminium
 
-L 347/71
 
-L 347/72
 
-Publicatieblad van de Europese Unie
 
-NL
 GN–code
 
 Omschrijving
@@ -4840,9 +4301,7 @@ de levering van resten en afval dat ontstaat bij de bewerking van grondstoffen.
 
 
 
-Publicatieblad van de Europese Unie
 
-NL
 
 ## BIJLAGE VII
 LIJST VAN LANDBOUWPRODUCTIEWERKZAAMHEDEN BEDOELD IN ARTIKEL 295, LID 1, PUNT 4)
@@ -4916,13 +4375,9 @@ d)
 
 kikvorsenteelt.
 
-L 347/73
 
-L 347/74
 
-NL
 
-Publicatieblad van de Europese Unie
 ## BIJLAGE VIII — INDICATIEVE LIJST VAN AGRARISCHE DIENSTEN BEDOELD IN ARTIKEL 295, LID 1, PUNT 5)
 
 1)
@@ -4963,12 +4418,10 @@ snoeien van bomen, kappen van hout en andere diensten in de bosbouw.
 
 
 
-NL
 
-Publicatieblad van de Europese Unie
 ## BIJLAGE IX — KUNSTVOORWERPEN, VOORWERPEN VOOR VERZAMELINGEN EN ANTIQUITEITEN BEDOELD IN ARTIKEL 311, LID 1, PUNTEN 2), 3) EN 4)
 
-## DEEL A
+DEEL A
 Kunstvoorwerpen
 1)
 
@@ -4998,7 +4451,7 @@ emailwerk op koper, geheel met de hand vervaardigd tot maximaal acht genummerde 
 
 foto's die genomen zijn door de kunstenaar, door hem of onder zijn toezicht zijn afgedrukt, gesigneerd en genummerd, met een oplage van maximaal 30 exemplaren voor alle formaten en dragers samen.
 
-## DEEL B
+DEEL B
 Voorwerpen voor verzamelingen
 1)
 
@@ -5012,18 +4465,14 @@ verzamelingen en voorwerpen voor verzamelingen, met een zoölogisch, botanisch, 
 Antiquiteiten
 Andere voorwerpen dan kunstvoorwerpen en voorwerpen voor verzamelingen, ouder dan 100 jaar (GN-code 9706 00 00).
 
-L 347/75
 
-L 347/76
 
-NL
 
-Publicatieblad van de Europese Unie
 ## BIJLAGE X
 
 LIJST VAN HANDELINGEN WAARVOOR DE IN DE ARTIKELEN 370 EN 371 EN DE ARTIKELEN 375 TOT EN MET 390 BEDOELDE AFWIJKINGEN GELDEN
 
-## DEEL A
+DEEL A
 Handelingen die de lidstaten mogen blijven belasten
 1)
 
@@ -5041,7 +4490,7 @@ leveringen van een gebouw, een gedeelte van een gebouw en het bijbehorende terre
 
 diensten van reisbureaus bedoeld in artikel 306 alsmede van reisbureaus die in naam en voor rekening van de reiziger handelen, voor reizen buiten de Gemeenschap.
 
-## DEEL B
+DEEL B
 Handelingen die de lidstaten mogen blijven vrijstellen
 1)
 
@@ -5100,9 +4549,7 @@ diensten verricht door lijkbezorgers en crematoria, alsmede levering door hen va
 
 
 
-NL
 
-Publicatieblad van de Europese Unie
 
 5)
 
@@ -5140,17 +4587,13 @@ levering, verbouwing, reparatie, onderhoud, bevrachting en verhuur van oorlogssc
 
 diensten van reisbureaus als bedoeld in artikel 306 alsmede van reisbureaus die in naam en voor rekening van de reiziger handelen, voor reizen binnen de Gemeenschap.
 
-L 347/77
 
-L 347/78
 
-Publicatieblad van de Europese Unie
 
-NL
 
 ## BIJLAGE XI
 
-## DEEL A
+DEEL A
 Ingetrokken richtlijnen met de achtereenvolgende wijzigingen ervan
 1)
 
@@ -5168,15 +4611,13 @@ Richtlijn 91/680/EEG (PB L 376 van 31.12.1991, blz. 1) — (met uitzondering van
 
 
 
-NL
 
-Publicatieblad van de Europese Unie
 
 Richtlijn 2004/7/EG (PB L 27 van 30.1.2004, blz. 44)
 Richtlijn 2004/15/EG (PB L 52 van 21.2.2004, blz. 61)
 Richtlijn 2004/66/EG (PB L 168 van 1.5.2004, blz. 35) — (enkel punt V van de bijlage) Richtlijn 2005/92/EG (PB L 345 van 28.12.2005, blz. 19) Richtlijn 2006/18/EG (PB L 51 van 22.2.2006, blz. 12) Richtlijn 2006/58/EG (PB L 174 van 28.6.2006, blz. 5) Richtlijn 2006/69/EG (PB L 221 van 12.8.2006, blz. 9) — (enkel artikel 1)
 
-## DEEL B
+DEEL B
 Termijnen voor de omzetting in nationaal recht
 (bedoeld in artikel 411)
 
@@ -5255,13 +4696,9 @@ Omzettingstermijn
 1 mei 2004
 1 januari 2006
 
-L 347/79
 
-L 347/80
 
-NL
 
-Publicatieblad van de Europese Unie
 
 Richtlijn
 
@@ -5359,15 +4796,12 @@ Artikel 3, lid 4, tweede alinea, eerste, tweede en derde streepje
 
 Artikel 7, lid 2
 
-L 347/81
 
 —
 
-Publicatieblad van de Europese Unie
 
 ###### Art. 1
 
-NL
 
 Artikel 1, eerste alinea
 
@@ -5473,15 +4907,12 @@ Artikel 26, lid 1, onder a) en b)
 
 Artikel 4, leden 1 en 2
 
-Publicatieblad van de Europese Unie
 
 ###### Art. 8
 
-NL
 
 Artikel 3, lid 5
 
-L 347/82
 
 Richtlijn 67/227/EEG
 
@@ -5583,15 +5014,12 @@ Artikel 9, lid 2, onder a)
 
 ###### Art. 45
 
-L 347/83
 
 Artikel 6, lid 3
 
-Publicatieblad van de Europese Unie
 
 Artikel 26, lid 2
 
-NL
 
 Artikel 6, lid 2, tweede alinea
 
@@ -5683,15 +5111,12 @@ Artikel 66, onder a), b) en c)
 
 Artikel 9, lid 2, onder c), eerste en tweede streepje
 
-Publicatieblad van de Europese Unie
 
 ###### Art. 46
 
-NL
 
 Artikel 9, lid 2, onder b)
 
-L 347/84
 
 Richtlijn 67/227/EEG
 
@@ -5782,15 +5207,12 @@ Artikel 11, A, lid 6, vierde alinea
 
 Artikel 80, lid 3
 
-L 347/85
 
 Artikel 10, lid 3, eerste alinea, tweede volzin
 
-Publicatieblad van de Europese Unie
 
 ###### Art. 70
 
-NL
 
 Artikel 10, lid 3, eerste alinea, eerste volzin
 
@@ -5886,15 +5308,12 @@ Artikel 98, lid 1
 
 Artikel 11, B, lid 1
 
-Publicatieblad van de Europese Unie
 
 Artikel 72, eerste en tweede alinea
 
-NL
 
 Artikel 11, A, lid 7, eerste en tweede alinea
 
-L 347/86
 
 Richtlijn 67/227/EEG
 
@@ -5985,16 +5404,13 @@ Artikel 13, B, onder b), eerste alinea
 
 Artikel 135, lid 1, onder l)
 
-L 347/87
 
 Artikel 12, lid 3, onder a), vierde alinea
 
-Publicatieblad van de Europese Unie
 
 Artikel 98, lid 2, eerste alinea
 Artikel 99, lid 1
 
-NL
 
 Artikel 12, lid 3, onder a), derde alinea, tweede volzin
 
@@ -6102,15 +5518,12 @@ Artikel 15, inleidende zin
 
 Artikel 13, B, onder b), tweede alinea
 
-Publicatieblad van de Europese Unie
 
 Artikel 135, lid 2, eerste alinea, onder a) tot en met d)
 
-NL
 
 Artikel 13, B, onder b), eerste alinea, onder 1) tot en met 4)
 
-L 347/88
 
 Richtlijn 67/227/EEG
 
@@ -6205,15 +5618,12 @@ Artikel 15, onder 12), tweede volzin
 
 Artikel 146, lid 2
 
-L 347/89
 
 Artikel 15, onder 2), eerste alinea
 
-Publicatieblad van de Europese Unie
 
 Artikel 146, lid 1, onder a)
 
-NL
 
 Artikel 15, onder 1)
 
@@ -6317,15 +5727,12 @@ Artikel 174, lid 3
 
 Artikel 15, onder 14), eerste en tweede alinea
 
-Publicatieblad van de Europese Unie
 
 Artikel 146, lid 1, onder e)
 
-NL
 
 Artikel 15, onder 13)
 
-L 347/90
 
 Richtlijn 67/227/EEG
 
@@ -6419,15 +5826,12 @@ Artikel 22 bis
 
 ###### Art. 249
 
-L 347/91
 
 Artikel 19, lid 3, eerste alinea, derde volzin
 
-Publicatieblad van de Europese Unie
 
 Artikel 175, lid 2, eerste alinea
 
-NL
 
 Artikel 19, lid 3, eerste alinea, eerste en tweede volzin
 
@@ -6527,16 +5931,13 @@ Artikel 297, eerste alinea, eerste volzin, en tweede alinea
 
 Artikel 23, tweede alinea
 
-Publicatieblad van de Europese Unie
 
 Artikel 211, eerste alinea
 ###### Art. 260
 
-NL
 
 Artikel 23, eerste alinea
 
-L 347/92
 
 Richtlijn 67/227/EEG
 
@@ -6634,15 +6035,12 @@ Artikel 26 bis, A, onder g), inleidende zin
 
 Artikel 311, lid 1, onder 7)
 
-L 347/93
 
 Artikel 25, lid 3, eerste alinea, derde volzin
 
-Publicatieblad van de Europese Unie
 
 Artikel 298, eerste alinea
 
-NL
 
 Artikel 25, lid 3, eerste alinea, tweede volzin
 
@@ -6742,15 +6140,12 @@ Artikel 320, lid 1, eerste alinea
 
 Artikel 26 bis, B, lid 1
 
-Publicatieblad van de Europese Unie
 
 Artikel 311, lid 3
 
-NL
 
 Artikel 26 bis, A, onder g), eerste en tweede streepje
 
-L 347/94
 
 Richtlijn 67/227/EEG
 
@@ -6839,15 +6234,12 @@ Artikel 26 ter, A, eerste alinea, onder ii), eerste tot en met vierde streepje
 
 Artikel 344, lid 1, onder 2)
 
-L 347/95
 
 Artikel 26 bis, B, lid 11, derde alinea
 
-Publicatieblad van de Europese Unie
 
 Artikel 320, lid 1, tweede alinea
 
-NL
 
 Artikel 26 bis, B, lid 11, tweede alinea, onder b) en c)
 
@@ -6952,15 +6344,12 @@ Artikel 361, lid 1, onder a) tot en met e)
 
 Artikel 26 ter, A, derde alinea
 
-Publicatieblad van de Europese Unie
 
 Artikel 344, lid 3
 
-NL
 
 Artikel 26 ter, A, tweede alinea
 
-L 347/96
 
 Richtlijn 67/227/EEG
 
@@ -7058,15 +6447,12 @@ Artikel 28, lid 2, onder a), tweede alinea
 
 —
 
-L 347/97
 
 Artikel 26 quater, B, lid 3, eerste en tweede alinea
 
-Publicatieblad van de Europese Unie
 
 Artikel 361, lid 2
 
-NL
 
 Artikel 26 quater, B, lid 2, tweede alinea, tweede volzin
 
@@ -7170,15 +6556,12 @@ Artikel 106, eerste en tweede alinea
 
 Artikel 28, lid 2, onder a), derde alinea, tweede en derde volzin
 
-Publicatieblad van de Europese Unie
 
 Artikel 112, eerste alinea
 
-NL
 
 Artikel 28, lid 2, onder a), derde alinea, eerste volzin
 
-L 347/98
 
 Richtlijn 67/227/EEG
 
@@ -7265,16 +6648,13 @@ Artikel 28 bis, lid 2, onder b), eerste alinea, eerste en tweede streepje
 
 Artikel 2, lid 2, tweede alinea, onder a), b) en c)
 
-L 347/99
 
 Artikel 28, lid 6, tweede alinea, onder a),
 b) en c)
 
-Publicatieblad van de Europese Unie
 
 Artikel 106, derde alinea
 
-NL
 
 Artikel 28, lid 6, eerste alinea, tweede volzin
 
@@ -7366,15 +6746,12 @@ Artikel 42, onder a) en b)
 
 Artikel 28 bis, lid 3, eerste en tweede alinea
 
-Publicatieblad van de Europese Unie
 
 Artikel 2, lid 2, derde alinea
 
-NL
 
 Artikel 28 bis, lid 2, onder b), tweede alinea
 
-L 347/100
 
 Richtlijn 67/227/EEG
 
@@ -7460,15 +6837,12 @@ Artikel 28 quater, A, onder a), eerste alinea
 
 Artikel 138, lid 1
 
-L 347/101
 
 Artikel 28 ter, B, lid 1, tweede alinea
 
-Publicatieblad van de Europese Unie
 
 Artikel 33, lid 1, onder a) en b)
 
-NL
 
 Artikel 28 ter, B, lid 1, eerste alinea, eerste en tweede streepje
 
@@ -7568,15 +6942,12 @@ Artikel 157, lid 2
 
 —
 
-Publicatieblad van de Europese Unie
 
 Artikel 139, lid 1, eerste en tweede alinea
 
-NL
 
 Artikel 28 quater, A, onder a), tweede alinea
 
-L 347/102
 
 Richtlijn 67/227/EEG
 
@@ -7640,7 +7011,6 @@ lid 1, derde alinea
 
 ###### Art. 163
 
-NL
 
 —
 
@@ -7652,7 +7022,6 @@ Artikel 28 quater, E, onder 2), eerste streepje, dat artikel 16, lid 2, wijzigt 
 
 lid 2, eerste alinea
 
-Publicatieblad van de Europese Unie
 
 Artikel 28 quater, E, onder 1), tweede streepje, dat lid 1 bis in artikel 16, invoegt —
 
@@ -7682,7 +7051,6 @@ Artikel 28 quinquies, leden 2 en 3
 
 Artikel 69, leden 1 en 2
 
-L 347/103
 
 Artikel 28 quater, E, onder 3), eerste tot en met vijfde streepje
 
@@ -7716,11 +7084,9 @@ Artikel 28 sexies, lid 4
 
 Artikel 94, lid 1
 
-NL
 
 Artikel 28 quinquies, lid 4, eerste en tweede alinea
 
-L 347/104
 
 Richtlijn 67/227/EEG
 
@@ -7783,7 +7149,6 @@ lid 4, tweede alinea, onder c)
 
 Artikel 171, lid 3
 
-Publicatieblad van de Europese Unie
 
 —
 
@@ -7836,7 +7201,6 @@ lid 3 bis, tweede deel van volzin
 
 ###### Art. 182
 
-NL
 
 —
 
@@ -7937,7 +7301,6 @@ lid 4
 
 ###### Art. 201
 
-Publicatieblad van de Europese Unie
 
 —
 
@@ -7951,7 +7314,6 @@ lid 1, onder b)
 
 Artikel 213, lid 2
 
-L 347/105
 
 —
 
@@ -8080,15 +7442,12 @@ lid 3, onder a), tiende alinea
 
 Artikel 214, lid 1, onder a)
 
-Publicatieblad van de Europese Unie
 
 lid 1, onder c), eerste streepje, eerste volzin
 
-NL
 
 —
 
-L 347/106
 
 Richtlijn 67/227/EEG
 
@@ -8214,15 +7573,12 @@ lid 3, onder d), tweede alinea, eerste volzin
 
 Artikel 245, lid 1
 
-L 347/107
 
 Artikel 226, onder 1) tot en met 12)
 
-Publicatieblad van de Europese Unie
 
 lid 3, onder b), eerste alinea, eerste tot en met twaalfde streepje
 
-NL
 
 —
 
@@ -8354,15 +7710,12 @@ Artikel 264, lid 1, onder a) en b)
 
 Artikel 245, lid 2, eerste en tweede alinea
 
-Publicatieblad van de Europese Unie
 
 lid 3, onder d), tweede alinea, tweede en derde volzin
 
-NL
 
 —
 
-L 347/108
 
 Richtlijn 67/227/EEG
 
@@ -8490,15 +7843,12 @@ lid 9, onder a), tweede alinea
 
 Artikel 272, lid 1, tweede alinea
 
-L 347/109
 
 Artikel 264, lid 1, onder d)
 
-Publicatieblad van de Europese Unie
 
 lid 6, onder b), derde alinea, derde streepje, eerste volzin
 
-NL
 
 —
 
@@ -8588,15 +7938,12 @@ lid 3, derde alinea
 
 Artikel 283, lid 1, onder b) en c)
 
-Publicatieblad van de Europese Unie
 
 lid 9, onder b)
 
-NL
 
 —
 
-L 347/110
 
 Richtlijn 67/227/EEG
 
@@ -8660,7 +8007,6 @@ Artikel 28 undecies, onder 3), dat de tweede alinea in artikel 25, lid 9, invoeg
 
 lid 9, tweede alinea
 
-NL
 
 —
 
@@ -8729,11 +8075,9 @@ Artikel 28 sexdecies, lid 1, onder d), eerste en tweede alinea
 
 Artikel 330, eerste en tweede alinea
 
-L 347/111
 
 —
 
-Publicatieblad van de Europese Unie
 
 Artikel 28 duodecies, onder 1), eerste alinea
 
@@ -8831,15 +8175,12 @@ Artikel 396, lid 2, tweede alinea
 
 Artikel 28 sexdecies, lid 1, onder f)
 
-Publicatieblad van de Europese Unie
 
 ###### Art. 332
 
-NL
 
 Artikel 28 sexdecies, lid 1, onder e)
 
-L 347/112
 
 Richtlijn 67/227/EEG
 
@@ -8947,15 +8288,12 @@ Bijlage C
 
 —
 
-L 347/113
 
 Artikel 31, lid 1
 
-Publicatieblad van de Europese Unie
 
 Artikel 396, leden 3 en 4
 
-NL
 
 Artikel 30, leden 3 en 4
 
@@ -9059,15 +8397,12 @@ Bijlage IX, deel A, onder 1) tot en met 7)
 
 Bijlage E, onder 2)
 
-Publicatieblad van de Europese Unie
 
 Bijlage I, onder 1) tot en met 13)
 
-NL
 
 Bijlage D, onder 1) tot en met 13)
 
-L 347/114
 
 Richtlijn 67/227/EEG
 
@@ -9152,16 +8487,13 @@ Bijlage XV, deel IX, onder 2), b), eerste alinea, van de Toetredingsakte van Oos
 
 ###### Art. 104
 
-L 347/115
 
 Bijlage VIII, deel II, onder 2), a), van de
 Toetredingsakte van Griekenland
 
-Publicatieblad van de Europese Unie
 
 Bijlage IX, deel B, onder 1) en 2)
 
-NL
 
 Bijlage I, onder b), eerste en tweede streepje
 
@@ -9223,15 +8555,12 @@ Bijlage XV, deel IX, onder 2), x), tweede streepje, van de Toetredingsakte van O
 
 Artikel 287, onder 6)
 
-NL
 
 Bijlage XV, deel IX, onder 2), c), eerste alinea, van de Toetredingsakte van Oostenrijk, Finland en Zweden
 
-L 347/116
 
 Richtlijn 67/227/EEG
 
-Publicatieblad van de Europese Unie
 
 Richtlijn 77/388/EEG
 
@@ -9311,15 +8640,12 @@ Toetredingsakte van 2003
 
 ###### Art. 385
 
-NL
 
 Bijlage XV, deel IX, onder 2), z), eerste alinea, van de Toetredingsakte van Oostenrijk, Finland en Zweden
 
 
 Richtlijn 67/227/EEG
 
-Publicatieblad van de Europese Unie
-L 347/117
 
 Richtlijn 77/388/EEG
 
@@ -9394,16 +8720,11 @@ Toetredingsakte van 2003
 
 ###### Art. 390
 
-Publicatieblad van de Europese Unie
 
 Artikel 126, onder a) en b)
 
-NL
 
 Bijlage X, lid 7, onder 1), a), onder i) en ii), van de Toetredingsakte van 2003
 
-L 347/118
 
 Richtlijn 67/227/EEG
-
-

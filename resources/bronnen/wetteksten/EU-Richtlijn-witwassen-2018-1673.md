@@ -1,47 +1,49 @@
 ---
-tags: ['1.2', '4.0']
-itaa-lex-sectie: ''
-wet: Richtlijn (EU) 2018/1673 van het Europees Parlement en de Raad van 23 oktober 2018 inzake de strafrechtelijke bestrijding van het witwassen van geld
-bron_rol: normatief
-status: beschikbaar
 bijgewerkt: 12.11.2018
 bron: ejustice.just.fgov.be (gecoördineerde versie)
+bron_rol: normatief
 chunk:
   level: 2
-  type: Art.
   sub_strategy:
+  type: Art.
+itaa-lex-sectie: ''
 provenance:
+  generated_at: '2026-05-11T16:21:26Z'
   inputs:
     - id: resources/raw/wetteksten/EU-Richtlijn-witwassen-2018-1673.pdf
       sha256: 5ddc01ecaee55f528a3a359f734cbab5c30d0077178d052830d13bcba2a0db8a
       version: 12.11.2018
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 7a134f4
-    model:
-    prompt_version:
-  generated_at: '2026-05-09T16:15:49Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
-    status: trusted
     confirmed_at: '2026-05-09T21:27:46Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: L1=pass
     layer1:
       status: pass
-      run_id: 20260511-134044
-      run_at: '2026-05-11T13:40:45Z'
+      run_id: 20260511-162232
+      run_at: '2026-05-11T16:22:33Z'
       heading_count: 16
       max_section_chars: 20495
-      file_size_chars: 39734
+      file_size_chars: 39733
       flags: []
     layer2:
-      status: trusted
       agent:
-      run_at:
-      rationale: Richtlijn 2018/1673 met 16 Art.-vermeldingen op H2. Body leesbaar, geen artefacten.
       concrete_problemen: []
+      rationale: Richtlijn 2018/1673 met 16 Art.-vermeldingen op H2. Body leesbaar, geen artefacten.
+      run_at:
+      status: trusted
+    rationale: L1=pass
+    status: trusted
+status: beschikbaar
+tags:
+  - '1.2'
+  - '4.0'
+wet: Richtlijn (EU) 2018/1673 van het Europees Parlement en de Raad van 23 oktober 2018 inzake de strafrechtelijke bestrijding van het witwassen van geld
 ---
 
 # Richtlijn (EU) 2018/1673 van het Europees Parlement en de Raad van 23 oktober 2018 inzake de strafrechtelijke bestrijding van het witwassen van geld
@@ -414,4 +416,3 @@ De voorzitter
 A. TAJANI
 
 K. EDTSTADLER
-

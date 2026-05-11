@@ -1,51 +1,56 @@
 ---
-tags: [IX, '2.6']
-itaa-lex-sectie: IX
-wet: Wetboek der Successierechten — federaal
-bron_rol: itaa_lex
-status: beschikbaar
 bijgewerkt: 01.04.2026
 bron: Fisconetplus.be (officieuze gecoördineerde versie)
+bron_rol: itaa_lex
 chunk:
   level: 5
-  type: Art.
   sub_strategy: per_definitieblok
+  type: Art.
+itaa-lex-sectie: IX
 provenance:
+  generated_at: '2026-05-11T16:21:48Z'
   inputs:
-    - id: resources/raw/wetteksten/successie-federaal.pdf
-      sha256: 560a39e50be62bd622658de7f5f95b029cf3f7b25ab4618814a9ad4649771b7c
-      version: 01.04.2026
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 7a134f4
-    model:
-    prompt_version:
-  generated_at: '2026-05-09T16:15:10Z'
+  - id: resources/raw/wetteksten/successie-federaal.pdf
+    sha256: 560a39e50be62bd622658de7f5f95b029cf3f7b25ab4618814a9ad4649771b7c
+    version: 01.04.2026
   stale: false
-  stale_reason:
+  stale_reason: null
+  tooling:
+    model: null
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version: null
   trust:
-    status: trusted
     confirmed_at: '2026-05-09T21:27:46Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: L1=pass
     layer1:
-      status: warn
-      run_id: 20260511-134044
-      run_at: '2026-05-11T13:40:46Z'
-      heading_count: 377
-      max_section_chars: 58436
       file_size_chars: 377088
       flags:
-        - name: max_section_size
-          status: warn
-          detail: 'langste sectie op #####-niveau: 58436 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
-          samples: []
+      - detail: 'langste sectie op #####-niveau: 58436 chars (>24000); chunker splitst
+          auto op alinea-grenzen via split_long_chunk'
+        name: max_section_size
+        samples: []
+        status: warn
+      heading_count: 377
+      max_section_chars: 58436
+      run_at: '2026-05-11T13:40:46Z'
+      run_id: 20260511-134044
+      status: warn
     layer2:
-      status: trusted
-      agent:
-      run_at:
-      rationale: 316 Art.-headings, frontmatter correct, geen TOC-bleed, geen max-section-warn. 66 '(…)'-placeholders zijn legitieme markers voor opgeheven of voorbehouden artikels — body-flow blijft leesbaar.
+      agent: null
       concrete_problemen: []
+      rationale: 316 Art.-headings, frontmatter correct, geen TOC-bleed, geen max-section-warn.
+        66 '(…)'-placeholders zijn legitieme markers voor opgeheven of voorbehouden
+        artikels — body-flow blijft leesbaar.
+      run_at: null
+      status: trusted
+    rationale: L1=pass
+    status: trusted
+status: beschikbaar
+tags:
+- IX
+- '2.6'
+wet: Wetboek der Successierechten — federaal
 ---
 
 # Successierechten — federaal
@@ -713,9 +718,14 @@ onder b: het totale bedrag van de belasting over de voorgaande gedeelten, de vri
 
 Tabel I
 Gedeelte van het netto-aandeel
-Tranche de part nette van / de                                Tot / à       Inbegrepen / inclus F                                                     F 1                                       -             500.000 500.000                                 -             1 miljoen / million 1 miljoen / million                     -             2 miljoen / millions 2 miljoen / millions                    -             4 miljoen / millions 4 miljoen / millions                    -             6 miljoen / millions 6 miljoen / millions                    -             8 miljoen / millions 8 miljoen / millions                    -             10 miljoen / millions 10 miljoen / millions                   -             20 miljoen / millions Boven de / Au-delà de 20 miljoen
+Tranche de part nette van / de                                Tot / à       Inbegrepen / inclus
 
-TABEL II
+## F                                                     F
+
+1                                       -             500.000
+500.000                                 -             1 miljoen / million 1 miljoen / million                     -             2 miljoen / millions 2 miljoen / millions                    -             4 miljoen / millions 4 miljoen / millions                    -             6 miljoen / millions 6 miljoen / millions                    -             8 miljoen / millions 8 miljoen / millions                    -             10 miljoen / millions 10 miljoen / millions                   -             20 miljoen / millions Boven de / Au-delà de 20 miljoen
+
+## TABEL II
 
 Gedeelte van het netto-aandeel                Tussen broeders en zusters Tranche de part nette                       Entre frères et sœurs
 
@@ -3402,7 +3412,8 @@ Het Hof vernietigt art. 146septdecies W.Succ. (GwH nr. 103/2022 d.d.
 15.09.2022 (B.S., 13.01.2023)).
 
 ## BOEK II - TAKS TOT VERGOEDING DER
-SUCCESSIERECHTEN
+
+## SUCCESSIERECHTEN
 
 ### HOOFDSTUK I - Vestiging van de taks
 
@@ -4098,8 +4109,10 @@ TOEKOMSTIG RECHT (vanaf 01.01.2028)
 
 ## BOEK III - DIGITALISATIE VAN DE RELATIES TUSSEN
 DE FEDERALE OVERHEIDSDIENST FINANCIËN, DE
-BURGERS, DE BEDRIJVEN, DE RECHTSPERSONEN
-EN BEPAALDE DERDEN
+
+## BURGERS, DE BEDRIJVEN, DE RECHTSPERSONEN
+
+## EN BEPAALDE DERDEN
 
 (Boek III hersteld bij art. 118 van de wet van 12.05.2024 (B.S., 30.05.2024 – ed.
 2). Tekst van toepassing voor alle of bepaalde categorieën van houders van een ondernemingsnummer, evenals voor natuurlijke personen, op een datum respectievelijk te bepalen door de Koning, en ten laatste op 01.01.2028 (art. 222))

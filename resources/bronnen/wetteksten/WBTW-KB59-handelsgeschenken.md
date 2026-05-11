@@ -4,46 +4,47 @@ bron: Fisconetplus.be (officieuze gecoördineerde versie)
 bron_rol: itaa_lex
 chunk:
   level: 4
-  sub_strategy:
+  sub_strategy: null
   type: Art.
 itaa-lex-sectie: VI.B
 provenance:
-  generated_at: '2026-05-11T13:40:00Z'
+  generated_at: '2026-05-11T16:21:51Z'
   inputs:
-    - id: resources/raw/wetteksten/btw-kbs/WBTW-KB59-handelsgeschenken.pdf
-      sha256: 9c74b4429414f5b446033818128723e0851924517e59e181c62963cb950b9cc3
-      version: '2020'
+  - id: resources/raw/wetteksten/btw-kbs/WBTW-KB59-handelsgeschenken.pdf
+    sha256: 9c74b4429414f5b446033818128723e0851924517e59e181c62963cb950b9cc3
+    version: '2020'
   stale: false
-  stale_reason:
+  stale_reason: null
   tooling:
-    model:
+    model: null
     pipeline: tools/etl/convert.py
-    pipeline_version: 7a134f4
-    prompt_version:
+    pipeline_version: 11f9196
+    prompt_version: null
   trust:
-    confirmed_at: '2026-05-09T21:27:46Z'
-    confirmed_by: subagent-sonnet-4-6
+    confirmed_at: null
+    confirmed_by: null
     layer1:
-      status: pass
-      run_id: 20260511-134044
-      run_at: '2026-05-11T13:40:48Z'
-      heading_count: 23
-      max_section_chars: 3529
       file_size_chars: 21054
       flags: []
+      heading_count: 23
+      max_section_chars: 3529
+      run_at: '2026-05-11T13:40:48Z'
+      run_id: 20260511-134044
+      status: pass
     layer2:
-      agent:
+      agent: null
       concrete_problemen: []
-      rationale: 'Modern PDF-extract met 23 headings (17× #### Art.). Frontmatter consistent, body compleet tot slot ''#### Art. 17 — De minister ... belast met de uitvoering''.'
-      run_at:
-      status: trusted
-    rationale: 'L1=pass; L1.5=improvement (Auto-synthesized: heading-injection (inject_wbtw_headings.py) — staging is structureel beter dan resources-versie.); L2=trusted (ETL-fix toegepast: inject_wbtw_headings.py heeft TOC-strip + Artikel-N → ## Art. heading-injectie + AFDELING-normalisatie uitgevoerd. Eerdere needs-rework op ''missing-section'' opgeheven.)'
-    status: trusted
+      rationale: null
+      run_at: null
+      status: not_run
+    rationale: 'Trust gereset 2026-05-11: ETL-fix wetteksten met content-diff > 5%'
+    status: unreviewed
 status: beschikbaar
 tags:
-  - VI.B
-  - '2.4'
-wet: K.B. nr. 59, 18 mei 2020, met betrekking tot de onttrekking van handelsgeschenken van geringe waarde
+- VI.B
+- '2.4'
+wet: K.B. nr. 59, 18 mei 2020, met betrekking tot de onttrekking van handelsgeschenken
+  van geringe waarde
 ---
 
 # BTW KB nr. 59 — Handelsgeschenken
@@ -55,6 +56,20 @@ Titel
 18 MEI 2020. - Koninklijk besluit nr. 59 met betrekking tot de onttrekking van handelsgeschenken van geringe waarde en de onttrekking voor liefdadigheidsdoeleinden van voedingsmiddelen en levensnoodzakelijke nietvoedingsmiddelen andere dan goederen die op duurzame wijze kunnen worden gebruikt, wat de belasting over de toegevoegde waarde betreft
 
 Bron : FINANCIEN
+
+#### Art. 1
+
+## HOOFDSTUK 2. - De onttrekkingen van goederen met het oog op het verstrekken ervan voor liefdadigheidsdoeleinden
+
+### Afdeling 1. - De onttrekkingen van voedingsmiddelen met het oog op het verstrekken ervan voor liefdadigheidsdoeleinden
+
+### Afdeling 2. - De onttrekkingen van levensnoodzakelijke niet-voedingsmiddelen andere dan goederen die op duurzame wijze kunnen worden gebruikt, met het oog op het verstrekken ervan voor liefdadigheidsdoeleinden
+
+### Afdeling 3. - Toepasselijke verplichtingen voor verdeelplatforms in het kader van de onttrekkingen van voedingsmiddelen en levensnoodzakelijke niet-voedingsmiddelen andere dan goederen die op duurzame wijze kunnen worden gebruikt, met het oog op het verstrekken ervan voor liefdadigheidsdoeleinden
+
+## HOOFDSTUK 3. - Slotbepalingen
+
+Tekst
 
 ## HOOFDSTUK 1. - De onttrekkingen van goederen met het oog op het verstrekken van handelsgeschenken van geringe waarde
 
@@ -111,6 +126,7 @@ In afwezigheid van een formele erkenningsprocedure door de bevoegde overheid, wo
 3° de naam of maatschappelijke benaming, het adres en het ondernemingsnummer van de begunstigde;
 4° de aard en de hoeveelheid van de geleverde goederen;
 5° [1 een vermelding dat de om niet verstrekte goederen beantwoorden aan één van de in artikel 3, eerste lid,
+
 2°, bedoelde voorwaarden;]1
 6° het kosteloze karakter van die levering;
 7° een verklaring van de in artikel 4 bedoelde organisatie, administratie of overheid, op grond waarvan die zich ertoe verbindt:
@@ -160,6 +176,7 @@ In afwezigheid van een formele erkenningsprocedure door de bevoegde overheid, wo
 3° de naam of maatschappelijke benaming, het adres en het ondernemingsnummer van de begunstigde;
 4° de aard en de hoeveelheid van de geleverde goederen;
 5° [1 een vermelding dat de om niet verstrekte goederen beantwoorden aan één van de in artikel 7, 2°, bedoelde voorwaarden]1;
+
 6° het kosteloze karakter van die levering;
 7° een verklaring van de begunstigde waarin hij zich verbindt:
 a) de ontvangen goederen niet voor commerciële doeleinden te gebruiken;
@@ -195,7 +212,9 @@ De lijst van de erkende verdeelplatforms wordt gepubliceerd op de website van de
 De overeenkomst wordt opgemaakt in twee exemplaren, waarvan het verdeelplatform en de belastingplichtige verklaren er elk één te hebben ontvangen. De overeenkomst wordt gedagtekend en ondertekend door beide partijen.
 De in deze paragraaf bedoelde verplichtingen zijn op identieke wijze van toepassing wanneer de levering om niet van in artikel 2 en 6 bedoelde goederen wordt verricht tussen twee in de artikelen 4, eerste lid, 4°, en 8, eerste lid, 3°, bedoelde verdeelplatformen.
 § 2. Het in de artikelen 4, eerste lid, 4°, en 8, eerste lid, 3°, bedoelde verdeelplatform dat aan de in de artikelen 4, eerste lid, en 8, eerste lid, bedoelde begunstigden in de artikelen 2 en 6, bedoelde goederen verdeelt, is gehouden met deze begunstigden een overeenkomst in twee exemplaren af te sluiten waarin:
-1° het platform zich verbindt de in de artikelen 2 en 6 bedoelde goederen om niet te ontvangen van belastingplichtigen of, desgevallend, van de in de artikelen 4, eerste lid, 4° en 8, eerste lid, 3°, bedoelde platformen;
+1° het platform zich verbindt de in de artikelen 2 en 6 bedoelde goederen om niet te ontvangen van belastingplichtigen of, desgevallend, van de in de artikelen 4, eerste lid, 4° en 8, eerste lid, 3°, bedoelde
+
+platformen;
 2° het nummer van de in artikel 10 § 2, tweede lid, bedoelde erkenning wordt vermeld evenals de datum vanaf wanneer die uitwerking heeft.
 De overeenkomst wordt opgemaakt in twee exemplaren, waarvan het verdeelplatform en de begunstigde verklaren er elk één te hebben ontvangen. De overeenkomst wordt gedagtekend en ondertekend door beide partijen.
 
@@ -247,7 +266,9 @@ Hoofdstuk 2 is van toepassing op goederen die vanaf de datum van inwerkingtredin
 
 #### Art. 16
 
-Dit besluit treedt in werking op de eerste dag van de maand na afloop van een termijn van tien dagen te rekenen van de dag volgend op de bekendmaking ervan in het Belgisch Staatsblad.
+Dit besluit treedt in werking op de eerste dag van de maand na afloop van een termijn van tien dagen te
+
+rekenen van de dag volgend op de bekendmaking ervan in het Belgisch Staatsblad.
 
 #### Art. 17
 

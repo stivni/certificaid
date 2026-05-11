@@ -4,48 +4,47 @@ bron: ejustice.just.fgov.be (gecoördineerde versie)
 bron_rol: itaa_lex
 chunk:
   level: 4
-  sub_strategy: null
+  sub_strategy:
   type: Art.
 itaa-lex-sectie: III
 provenance:
-  generated_at: '2026-05-11T16:03:39Z'
+  generated_at: '2026-05-11T16:21:30Z'
   inputs:
-  - id: resources/raw/wetteksten/MIGB-Brussel.pdf
-    sha256: ecfec02b58e45ad1633bedebb1fbd2389066341193483590c26e1748acede5ef
-    version: 12.05.2024
+    - id: resources/raw/wetteksten/MIGB-Brussel.pdf
+      sha256: ecfec02b58e45ad1633bedebb1fbd2389066341193483590c26e1748acede5ef
+      version: 12.05.2024
   stale: false
-  stale_reason: null
+  stale_reason:
   tooling:
-    model: null
+    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 11f9196
-    prompt_version: null
+    prompt_version:
   trust:
-    confirmed_at: null
-    confirmed_by: null
+    confirmed_at:
+    confirmed_by:
     layer1:
-      file_size_chars: 127057
-      flags: []
-      heading_count: 200
-      max_section_chars: 10694
-      run_at: '2026-05-11T15:59:47Z'
-      run_id: 20260511-155947
       status: pass
+      run_id: 20260511-162232
+      run_at: '2026-05-11T16:22:33Z'
+      heading_count: 189
+      max_section_chars: 10694
+      file_size_chars: 126240
+      flags: []
     layer2:
-      agent: null
+      agent:
       concrete_problemen: []
-      rationale: null
-      run_at: null
+      rationale:
+      run_at:
       status: not_run
     rationale: 'Trust gereset 2026-05-11: ETL-fix wetteksten met content-diff > 5%'
     status: unreviewed
 status: beschikbaar
 tags:
-- III
-- '2.2'
-- '2.3'
-wet: Wetboek van de met de inkomstenbelastingen gelijkgestelde belastingen — Brussels
-  Hoofdstedelijk Gewest
+  - III
+  - '2.2'
+  - '2.3'
+wet: Wetboek van de met de inkomstenbelastingen gelijkgestelde belastingen — Brussels Hoofdstedelijk Gewest
 ---
 
 # Wetboek van de met de inkomstenbelastingen gelijkgestelde belastingen — Brussels Hoofdstedelijk Gewest

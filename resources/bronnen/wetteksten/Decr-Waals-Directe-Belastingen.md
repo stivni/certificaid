@@ -3,52 +3,50 @@ bijgewerkt: 03.02.2026
 bron: Fisconetplus.be (officieuze gecoördineerde versie)
 chunk:
   level: 5
-  sub_strategy: null
+  sub_strategy:
   type: Art.
 itaa-lex-sectie: IV.C
 provenance:
-  generated_at: '2026-05-11T16:03:42Z'
+  generated_at: '2026-05-11T16:21:26Z'
   inputs:
-  - id: resources/raw/wetteksten/Decr-Waals-Directe-Belastingen.pdf
-    sha256: fa05f2e6d48e11bb8849cb29f93b4cf98be34ae2d6e9ef3b4672a50fded6f56c
-    version: 03.02.2026
+    - id: resources/raw/wetteksten/Decr-Waals-Directe-Belastingen.pdf
+      sha256: fa05f2e6d48e11bb8849cb29f93b4cf98be34ae2d6e9ef3b4672a50fded6f56c
+      version: 03.02.2026
   stale: false
-  stale_reason: null
+  stale_reason:
   tooling:
-    model: null
+    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 11f9196
-    prompt_version: null
+    prompt_version:
   trust:
-    confirmed_at: null
-    confirmed_by: null
+    confirmed_at:
+    confirmed_by:
     layer1:
-      file_size_chars: 334281
-      flags:
-      - detail: 'langste sectie op #####-niveau: 31069 chars (>24000); chunker splitst
-          auto op alinea-grenzen via split_long_chunk'
-        name: max_section_size
-        samples: []
-        status: warn
+      status: warn
+      run_id: 20260511-162232
+      run_at: '2026-05-11T16:22:33Z'
       heading_count: 242
       max_section_chars: 31069
-      run_at: '2026-05-11T15:59:47Z'
-      run_id: 20260511-155947
-      status: warn
+      file_size_chars: 334281
+      flags:
+        - name: max_section_size
+          status: warn
+          detail: 'langste sectie op #####-niveau: 31069 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
+          samples: []
     layer2:
-      agent: null
+      agent:
       concrete_problemen: []
-      rationale: null
-      run_at: null
+      rationale:
+      run_at:
       status: not_run
     rationale: 'Trust gereset 2026-05-11: ETL-fix wetteksten met content-diff > 5%'
     status: unreviewed
 status: beschikbaar
 tags:
-- IV.C
-- '2.5'
-wet: Decreet 6 mei 1999 betreffende de vestiging, de invordering en de geschillen
-  inzake de Waalse gewestelijke belastingen
+  - IV.C
+  - '2.5'
+wet: Decreet 6 mei 1999 betreffende de vestiging, de invordering en de geschillen inzake de Waalse gewestelijke belastingen
 ---
 
 # Decreet Waalse gewestelijke belastingen

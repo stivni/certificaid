@@ -8,7 +8,7 @@ chunk:
   type: Art.
 itaa-lex-sectie: XII
 provenance:
-  generated_at: '2026-05-11T16:03:42Z'
+  generated_at: '2026-05-11T16:21:48Z'
   inputs:
   - id: resources/raw/wetteksten/Strafwetboek2024-boek1.pdf
     sha256: 4e7f489c425c4cd7648f2b8fc6b9cd9d02c64ee8419e43434f045454330b5c9f

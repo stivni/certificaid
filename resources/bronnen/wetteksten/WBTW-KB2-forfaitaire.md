@@ -4,47 +4,47 @@ bron: Fisconetplus.be (officieuze gecoördineerde versie)
 bron_rol: itaa_lex
 chunk:
   level: 2
-  sub_strategy:
+  sub_strategy: null
   type: Art.
 itaa-lex-sectie: VI.B
 provenance:
-  generated_at: '2026-05-11T13:40:00Z'
+  generated_at: '2026-05-11T16:21:50Z'
   inputs:
-    - id: resources/raw/wetteksten/btw-kbs/WBTW-KB2-forfaitaire.pdf
-      sha256: 8ea70cb7a624d686abb875837eabc7cae788dfc2aaa922fd6983c395de790570
-      version: '2018'
+  - id: resources/raw/wetteksten/btw-kbs/WBTW-KB2-forfaitaire.pdf
+    sha256: 8ea70cb7a624d686abb875837eabc7cae788dfc2aaa922fd6983c395de790570
+    version: '2018'
   stale: false
-  stale_reason:
+  stale_reason: null
   tooling:
-    model:
+    model: null
     pipeline: tools/etl/convert.py
-    pipeline_version: 7a134f4
-    prompt_version:
+    pipeline_version: 11f9196
+    prompt_version: null
   trust:
-    confirmed_at: '2026-05-09T21:27:46Z'
-    confirmed_by: subagent-sonnet-4-6
+    confirmed_at: null
+    confirmed_by: null
     layer1:
-      status: pass
-      run_id: 20260511-134044
-      run_at: '2026-05-11T13:40:47Z'
-      heading_count: 12
-      max_section_chars: 2228
       file_size_chars: 11318
       flags: []
+      heading_count: 12
+      max_section_chars: 2228
+      run_at: '2026-05-11T13:40:47Z'
+      run_id: 20260511-134044
+      status: pass
     layer2:
-      agent:
-      concrete_problemen:
-        - 'enkele ## Art.-headings bevatten beginwoord van body'
-      rationale: 'Recente KB (2018), 12 ## Art.-headings, ## HOOFDSTUK-structuur impliciet via Bijlage-blok. Inline ''Art. 2.De'' / ''Art. 3.§ 1.'' op heading-regels is licht; body-flow blijft leesbaar.'
-      run_at:
-      status: trusted
-    rationale: 'L1=pass; L1.5=improvement (Auto-synthesized: heading-injection (inject_wbtw_headings.py) — staging is structureel beter dan resources-versie.); L2=trusted (ETL-fix toegepast: inject_wbtw_headings.py heeft TOC-strip + Artikel-N → ## Art. heading-injectie + AFDELING-normalisatie uitgevoerd. Eerdere needs-rework op ''missing-section'' opgeheven.)'
-    status: trusted
+      agent: null
+      concrete_problemen: []
+      rationale: null
+      run_at: null
+      status: not_run
+    rationale: 'Trust gereset 2026-05-11: ETL-fix wetteksten met content-diff > 5%'
+    status: unreviewed
 status: beschikbaar
 tags:
-  - VI.B
-  - '2.4'
-wet: K.B. nr. 2, 19 december 2018, met betrekking tot de forfaitaire regeling inzake btw
+- VI.B
+- '2.4'
+wet: K.B. nr. 2, 19 december 2018, met betrekking tot de forfaitaire regeling inzake
+  btw
 ---
 
 # BTW KB nr. 2 — Forfaitaire regeling
@@ -57,17 +57,7 @@ Titel
 
 Bron : FINANCIEN
 
-Artikel 1.§ 1. De belastingplichtige die zijn activiteit [1 vóór 1 januari 2022]1 aanvangt kan de regeling van forfaitaire grondslagen van aanslag genieten ingesteld bij artikel 56 van het Wetboek voor de in bijlage bij dit besluit opgesomde sectoren van activiteit wanneer hij in de bij artikel 53, § 1, eerste lid, 1°, van het Wetboek bedoelde aangifte verklaart dat naar alle waarschijnlijkheid zijn activiteit zal voldoen aan de voorwaarden die voor de toepassing van deze regeling zijn bepaald.
-De bevoegde dienst van de administratie belast met de belasting over de toegevoegde waarde waaronder de belastingplichtige ressorteert kan niettemin beslissen dat deze laatste de normale regeling van de belasting moet toepassen wanneer duidelijk blijkt dat de voor de toepassing van de forfaitaire regeling gestelde voorwaarden niet zijn vervuld. De kennisgeving van deze beslissing aan de belastingplichtige gebeurt bij aangetekende brief door de bevoegde ambtenaar van deze dienst.
-§ 2. De beslissing van de in paragraaf 1, tweede lid, bedoelde dienst om overeenkomstig artikel 56, § 1, vijfde lid, van het Wetboek de forfaitaire grondslagen van aanslag aan te passen aan de eigen activiteit van de belastingplichtige, wordt hem door die dienst bij aangetekende brief meegedeeld.
-Wanneer de belastingplichtige binnen een maand na deze kennisgeving die dienst niet heeft ingelicht de normale regeling van de belasting te willen behouden, is de beslissing op hem van toepassing en wordt hij geacht aan de forfaitaire regeling onderworpen te zijn.
-(1)<KB 2021-12-27/08, art. 2, 002; Inwerkingtreding : 01-01-2022>
-
-## Art. 2.De
-
-belastingplichtige die onderworpen is aan de forfaitaire regeling is gehouden:
-1° met het oog op het opstellen van zijn periodieke aangiften, een stuk op te maken met de berekening van zijn omzet volgens de forfaitaire grondslagen van aanslag;
-2° [1 de regularisatie van de belasting die voortvloeit uit de wijzigingen die in de forfaitaire grondslagen van aanslag van het vorige jaar krachtens artikel 7, derde lid, zijn aangebracht, in voorkomend geval op te nemen in de in artikel 53, § 1, eerste lid, 2°, van het Wetboek bedoelde aangifte in te dienen uiterlijk op 20 of 25 oktober van ieder jaar, al naargelang het een maand- of kwartaalaangifte betreft, en een stuk op te maken ter verantwoording van het bedrag van die herziening.]1 Deze stukken dienen ter inzage te worden gelegd op ieder verzoek van de bevoegde ambtenaar van de dienst bedoeld in artikel 1, § 1, tweede lid.
+Deze stukken dienen ter inzage te worden gelegd op ieder verzoek van de bevoegde ambtenaar van de dienst bedoeld in artikel 1, § 1, tweede lid.
 In afwijking van artikel 3, eerste lid, van het koninklijk besluit nr. 1 van 29 december 1992 met betrekking tot de regeling voor de voldoening van de belasting over de toegevoegde waarde, is de belastingplichtige ervan ontheven een stuk op te maken voor de vaststelling van in artikel 12, § 1, eerste lid, 1° en 2°, van het Wetboek bedoelde handelingen die betrekking hebben op goederen die in aanmerking worden genomen voor de toepassing van de forfaitaire regeling.
 (1)<KB 2024-09-29/05, art. 8, 006; Inwerkingtreding : 01-01-2025>
 

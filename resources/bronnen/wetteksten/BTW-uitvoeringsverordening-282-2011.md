@@ -1,61 +1,60 @@
 ---
-tags: [VI.A, '2.4']
-itaa-lex-sectie: VI.A
-wet: Uitvoeringsverordening (EU) nr. 282/2011 van de Raad houdende maatregelen ter uitvoering van Richtlijn 2006/112/EG
-bron_rol: itaa_lex
-status: beschikbaar
 bijgewerkt: 23.03.2011
 bron: ejustice.just.fgov.be (gecoördineerde versie)
+bron_rol: itaa_lex
 chunk:
   level: 5
-  type: Art.
   sub_strategy:
+  type: Art.
+itaa-lex-sectie: VI.A
 provenance:
+  generated_at: '2026-05-11T16:21:26Z'
   inputs:
     - id: resources/raw/wetteksten/BTW-uitvoeringsverordening-282-2011.pdf
       sha256: b0f05e1f21b7ecd2d264e67874e89e264d4ff957b20e20c1bd2af70f718f9a34
       version: 23.03.2011
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 7a134f4
-    model:
-    prompt_version:
-  generated_at: '2026-05-09T16:15:42Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-09T21:27:46Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: L1=pass
+    confirmed_at:
+    confirmed_by:
     layer1:
-      status: pass
-      run_id: 20260511-134044
-      run_at: '2026-05-11T13:40:44Z'
+      status: warn
+      run_id: 20260511-162232
+      run_at: '2026-05-11T16:22:33Z'
       heading_count: 168
-      max_section_chars: 17314
-      file_size_chars: 76394
-      flags: []
+      max_section_chars: 17127
+      file_size_chars: 75365
+      flags:
+        - name: no_long_blank_runs
+          status: warn
+          detail: 'langste run: 9 lege regels (>5)'
+          samples:
+            - 'regels 862-870: 9 lege regels'
+            - 'regels 892-897: 6 lege regels'
     layer2:
-      status: trusted
       agent:
+      concrete_problemen: []
+      rationale:
       run_at:
-      rationale: EU-verordening met 110 Art.-vermeldingen, hoofdstukken op H2/H3, soft hyphens uit PDF maar woorden intact. Body leesbaar, geen FR-leak. Page-headers (L 77/x, NL) staan als korte regels maar vormen geen storende ruis.
-      concrete_problemen:
-        - regel: 38
-          type: other
-          voorbeeld: NL / Publicatieblad / L 77/1 — losstaande paginafooter-fragmenten
+      status: not_run
+    rationale: 'Trust gereset 2026-05-11: ETL-fix wetteksten met content-diff > 5%'
+    status: unreviewed
+status: beschikbaar
+tags:
+  - VI.A
+  - '2.4'
+wet: Uitvoeringsverordening (EU) nr. 282/2011 van de Raad houdende maatregelen ter uitvoering van Richtlijn 2006/112/EG
 ---
 
 # Uitvoeringsverordening (EU) nr. 282/2011 van de Raad houdende maatregelen ter uitvoering van Richtlijn 2006/112/EG
 
 *Bijgewerkt tot en met 23.03.2011 — gecoördineerde versie.*
-
-NL
-
-Publicatieblad van de Europese Unie
-
-L 77/1
 
 II
 (Niet-wetgevingshandelingen)
@@ -101,15 +100,12 @@ Richtlijn 2006/112/EG behelst voorschriften voor de btw die in bepaalde gevallen
 
 (3) PB L 44 van 20.2.2008, blz. 11.
 
-L 77/2
 
 (8)
 
 (9)
 
-NL
 
-Publicatieblad van de Europese Unie
 
 Er dient te worden verduidelijkt dat de toekenning van een btw-identificatienummer aan een belastingplichtige die diensten verricht naar of afneemt vanuit een andere lidstaat, en ter zake waarvan de btw alleen door de af­ nemer verschuldigd is, geen afbreuk doet aan de aan­ spraak van die belastingplichtige op de niet-belastbaar­ heid van zijn intracommunautaire verwervingen van goe­ deren. Niettemin wordt een belastingplichtige die in het kader van een intracommunautaire verwerving van goe­ deren zijn btw-identificatienummer aan de leverancier meedeelt, in ieder geval geacht ter zake van die handelin­ gen voor belastingheffing te hebben gekozen.
 De verdere integratie van de interne markt heeft geleid tot een grotere behoefte aan grensoverschrijdende samen­ werking tussen marktdeelnemers die in verschillende lid­ staten zijn gevestigd, en tot de ontwikkeling van Euro­ pese economische samenwerkingsverbanden (EESV’s), op­ gericht overeenkomstig Verordening (EEG) nr. 2137/85 van de Raad van 25 juli 1985 tot instelling van Europese economische samenwerkingsverbanden (EESV) (1).
@@ -180,9 +176,7 @@ Het antimisbruikbeginsel geldt in zijn algemeenheid voor de bepalingen van deze 
 
 (25)
 
-NL
 
-Publicatieblad van de Europese Unie
 
 Bepaalde specifieke diensten, zoals de toewijzing van te­ levisie-uitzendrechten van voetbalwedstrijden, de ver­ taling van teksten, diensten in verband met de indiening van verzoeken om btw-teruggave, en voor een nietbelastingplichtige verrichte diensten van tussenpersonen, behelzen grensoverschrijdende verrichtingen of zelfs de deelneming van buiten de Gemeenschap gevestigde marktdeelnemers. Ter vergroting van de rechtszekerheid moet de plaats van deze diensten duidelijk worden vast­ gesteld.
 Er dient te worden verduidelijkt dat diensten verricht door tussenpersonen die, handelend in naam en voor rekening van een ander, bemiddelen bij het verstrekken van accommodatie in het hotelbedrijf niet onder de spe­ cifieke regel betreffende diensten met betrekking tot on­ roerende goederen vallen.
@@ -219,7 +213,6 @@ Beroepsopleiding of -herscholing dient zowel onderwijs te omvatten dat rechtstre
 
 Platinum nobles moeten van de vrijstelling voor devie­ zen, bankbiljetten en munten worden uitgesloten.
 
-L 77/3
 
 (34)
 
@@ -257,7 +250,6 @@ Wanneer een leverancier of dienstverrichter op het grondgebied van de lidstaat w
 
 Er dient te worden verduidelijkt dat een belastingplichtige die de zetel van zijn bedrijfsuitoefening heeft gevestigd op het grondgebied van de lidstaat waar de btw verschul­ digd is, voor de verschuldigdheid van de belasting als een in die lidstaat gevestigde belastingplichtige moet worden aangemerkt, zelfs indien die zetel van de bedrijfsuitoefe­ ning niet bij het verrichten van de goederenlevering of de dienst betrokken is.
 
-L 77/4
 
 (43)
 
@@ -267,9 +259,7 @@ L 77/4
 
 (46)
 
-NL
 
-Publicatieblad van de Europese Unie
 
 Er dient te worden verduidelijkt dat, ter bevordering van een juistere belastinginning, elke belastingplichtige, zodra hij in het bezit is van zijn btw-identificatienummer, dit nummer bij bepaalde belastbare handelingen mee dient te delen.
 De gewichten voor beleggingsgoud die door de goud­ markten algemeen worden aanvaard, moeten worden ver­ meld en er moet een gemeenschappelijke datum worden vastgesteld waarop de waarde van gouden munten wordt bepaald, teneinde de marktdeelnemers op gelijke voet te behandelen.
@@ -320,14 +310,11 @@ Onder restaurant- en cateringdiensten wordt verstaan het verstrekken van bereide
 Restaurantdiensten zijn dergelijke diensten verstrekt in de ruim­ ten van de dienstverrichter en cateringdiensten zijn dergelijke diensten verstrekt elders dan in de ruimten van de dienstver­ richter.
 
 
-NL
 
-Publicatieblad van de Europese Unie
 
 2.
 Het verstrekken van bereide of onbereide spijzen of dran­ ken dan wel beide, al dan niet inclusief het vervoer ervan, maar zonder andere bijkomende diensten wordt niet aangemerkt als restaurant- en cateringdiensten in de zin van lid 1.
 
-L 77/5
 
 d) cd-roms, floppydisks en soortgelijke materiële informatie­ dragers;
 e) drukwerk, zoals boeken, nieuwsbrieven, dagbladen of tijd­ schriften;
@@ -390,11 +377,8 @@ c) goederen waarbij de bestelling en de verwerking van de bestelling langs elekt
 
 Wanneer de verkoop van een optie een handeling is die valt onder artikel 135, lid 1, onder f), van Richtlijn 2006/112/EG, is deze verkoop een dienst in de zin van artikel 24, lid 1, van genoemde richtlijn. Deze dienst staat los van de onderliggende handelingen waarop de dienst betrekking heeft.
 
-L 77/6
 
-NL
 
-Publicatieblad van de Europese Unie
 
 
 ## HOOFDSTUK V
@@ -453,9 +437,7 @@ Het hebben van een btw-identificatienummer volstaat niet om te besluiten dat een
 c) de leveringen van goederen die in deze lidstaat zijn verricht in het kalenderjaar volgende op het kalenderjaar waarin de onder a) bedoelde gebeurtenis zich heeft voorgedaan.
 
 
-NL
 
-Publicatieblad van de Europese Unie
 
 ##### Art. 15
 Het in de Gemeenschap verrichte gedeelte van een passagiers­ vervoer als bedoeld in artikel 37 van Richtlijn 2006/112/EG wordt bepaald door het traject van het vervoermiddel, en niet door het traject dat door elk van de passagiers wordt afgelegd.
@@ -484,7 +466,6 @@ Een niet-belastingplichtige rechtspersoon die overeenkom­ stig artikel 214, lid
 Een dienstverrichter kan, tenzij hij over tegengestelde in­ formatie beschikt, ervan uitgaan dat een in de Gemeenschap gevestigde afnemer de status van belastingplichtige heeft:
 a) wanneer de afnemer hem diens individuele btw-identificatie­ nummer heeft verstrekt en mits hij overeenkomstig artikel 31 van Verordening (EU) nr. 904/2010 van de Raad van 7 oktober 2010 betreffende de administratieve
 
-L 77/7
 
 samenwerking en de bestrijding van fraude op het gebied van de belasting over de toegevoegde waarde (1) bevestiging heeft gekregen van de geldigheid van dat identificatienum­ mer alsook van diens naam en adres;
 b) wanneer de afnemer nog geen individueel btw-identificatie­ nummer heeft ontvangen, maar aan de dienstverrichter mee­ deelt dat nummer te hebben aangevraagd, mits hij enig ander bewijs verkrijgt waaruit blijkt dat de afnemer een belasting­ plichtige is of een niet-belastingplichtige rechtspersoon die voor btw-doeleinden geïdentificeerd moet zijn, en mits hij controles van een redelijke omvang verricht van de juistheid van de door de afnemer verstrekte informatie, met behulp van in het handelsverkeer normale veiligheidsmaatregelen, zoals maatregelen inzake identiteits- en betalingscontroles.
@@ -501,11 +482,8 @@ Voor de toepassing van de regels inzake de plaats van een dienst opgenomen in de
 (1) PB L 268 van 12.10.2010, blz. 1.
 (2) PB L 326 van 21.11.1986, blz. 40.
 
-L 77/8
 
-NL
 
-Publicatieblad van de Europese Unie
 
 
 ##### Art. 22
@@ -548,9 +526,7 @@ Wanneer een dienst overeenkomstig de artikelen 58 en 59 van Richtlijn 2006/112/E
 Vanaf 1 januari 2013 wordt, wanneer onder artikel 56, lid 2, eerste alinea, van Richtlijn 2006/112/EG vallende diensten worden verricht voor een niet-belastingplichtige die in meer dan één land gevestigd is of zijn woonplaats in één land en zijn gebruikelijke verblijfplaats in een ander land heeft, bij de plaats­ bepaling van die diensten voorrang gegeven aan de plaats die het beste garandeert dat die diensten worden belast op de plaats van het werkelijke verbruik.
 
 
-NL
 
-Publicatieblad van de Europese Unie
 
 2.
 Wanneer onder de artikelen 58 en 59 van Richtlijn
@@ -575,7 +551,6 @@ Diensten van tussenpersonen
 Onder diensten van tussenpersonen zoals bedoeld in artikel 46 van Richtlijn 2006/112/EG worden verstaan de diensten
 (1) PB L 44 van 20.2.2008, blz. 23.
 
-L 77/9
 
 verricht door tussenpersonen die handelen in naam en voor rekening van de afnemer van de dienst, en de diensten verricht door tussenpersonen die handelen in naam en voor rekening van de dienstverrichter.
 ##### Art. 31
@@ -600,11 +575,8 @@ Onder lid 1 valt niet het recht gebruik te maken van accommodaties, zoals gymnas
 De in artikel 53 van Richtlijn 2006/112/EG bedoelde samen­ hangende diensten omvatten de diensten die rechtstreeks met het verlenen van toegang tot culturele, artistieke, sportieve, we­ tenschappelijke, onderwijs-, amusements- of soortgelijke eve­ nementen samenhangen en die afzonderlijk onder bezwarende titel worden verstrekt aan degene die het evenement bijwoont.
 Die samenhangende diensten omvatten met name het gebruik van vestiaires of sanitaire voorzieningen maar niet de loutere diensten van tussenpersonen met betrekking tot de verkoop van toegangsbiljetten.
 
-L 77/10
 
-NL
 
-Publicatieblad van de Europese Unie
 
 #### Onderafdeling 8
 Met vervoer samenhangende diensten, ex­ pertises of werkzaamheden met betrek­ king tot roerende zaken
@@ -661,10 +633,8 @@ Wanneer de verhuur van één en hetzelfde vervoermiddel het voorwerp uitmaakt va
 Voor de toepassing van de eerste alinea vormen een contract en de verlengingen daarvan opeenvolgende contracten.
 De duur van contracten van kortdurende verhuur die voor­ afgaan aan een verhuurcontract dat als een contract van lange duur wordt aangemerkt, wordt echter niet herzien, op voor­ waarde dat er geen misbruik is.
 
-NL
 
 
-Publicatieblad van de Europese Unie
 
 3.
 Behoudens misbruik hebben latere opeenvolgende con­ tracten voor de toepassing van artikel 56, lid 1, geen invloed op de kwalificatie van een eerder contract overeenkomstig de eerste alinea als een contract van kortdurende verhuur.
@@ -690,7 +660,6 @@ voor niet-belastingplichtigen buiten de gemeenschap
 
 De voor een buiten de Gemeenschap gevestigde niet-belasting­ plichtige verrichte vertaling van teksten valt onder artikel 59, eerste alinea, onder c), van Richtlijn 2006/112/EG.
 
-L 77/11
 
 (Artikelen 143, 144 en 145 van richtlijn 2006/112/EG)
 ##### Art. 46
@@ -749,11 +718,8 @@ gelijkgestelde
 De vrijstelling bedoeld in artikel 151 van Richtlijn
 2006/112/EG is ook van toepassing op elektronische diensten wanneer deze worden verricht door een belastingplichtige op wie de in de artikelen 357 tot en met 369 van die richtlijn bedoelde bijzondere regeling voor langs elektronische weg ver­ richte diensten van toepassing is.
 
-L 77/12
 
-NL
 
-Publicatieblad van de Europese Unie
 
 ##### Art. 50
 1.
@@ -802,14 +768,11 @@ Voor de toepassing van artikel 192 bis van Richtlijn
 Wanneer een belastingplichtige een vaste inrichting heeft op het grondgebied van de lidstaat waar de btw is verschuldigd, wordt die vaste inrichting geacht niet betrokken te zijn bij de goederenlevering of dienst in de zin van artikel 192 bis, onder
 
 
-NL
 
-Publicatieblad van de Europese Unie
 
 b), van Richtlijn 2006/112/EG, tenzij het personeel en het tech­ nisch materieel van deze vaste inrichting door deze belasting­ plichtige worden ingezet voor handelingen die inherent zijn aan het verrichten van de belastbare goederenlevering of dienst in die lidstaat, vóór of tijdens die verrichting.
 Wanneer de middelen van de vaste inrichting uitsluitend wor­ den ingezet voor administratieve ondersteunende taken zoals boekhouding, facturering en schuldinvordering, worden zij niet geacht te worden ingezet voor het verrichten van de goe­ derenlevering of dienst.
 
-L 77/13
 
 ##### Art. 57
 Met het oog op de vaststelling van de in artikel 345 van Richt­ lijn 2006/112/EG bedoelde lijst van gouden munten verwijzen de begrippen „prijs” en „openmarktwaarde” als bedoeld in in artikel 344, lid 1, onder 2), van die richtlijn, naar de prijs en de openmarktwaarde op 1 april van elk jaar. Wanneer 1 april niet valt op een dag waarop deze waarden worden vastgesteld, worden de waarden gebruikt van de eerstvolgende dag waarop zij worden vastgesteld.
@@ -859,11 +822,8 @@ Bedragen op btw-aangiften in het kader van de bijzondere re­ geling voor langs 
 
 De omschrijving „een door de goudmarkten aanvaard gewicht” als bedoeld in artikel 344, lid 1, onder 1), van Richtlijn 2006/112/EG, verwijst ten minste naar de in bijlage III bij deze verordening opgenomen eenheden en handelsgewichten.
 
-L 77/14
 
-NL
 
-Publicatieblad van de Europese Unie
 
 ##### Art. 62
 De lidstaat van identificatie die een bedrag ontvangt dat hoger is dan het opgegeven bedrag in de btw-aangifte die is ingediend voor langs elektronische weg verrichte diensten in het kader van artikel 364 van Richtlijn 2006/112/EG, betaalt het teveel be­ taalde bedrag rechtstreeks aan de betrokken belastingplichtige terug.
@@ -905,9 +865,7 @@ De voorzitter
 MATOLCSY Gy.
 
 
-NL
 
-Publicatieblad van de Europese Unie
 
 ## BIJLAGE I
 Artikel 7 van de onderhavige verordening
@@ -940,13 +898,9 @@ c) toegang tot of downloaden van films;
 d) downloaden van spellen op computers en mobiele telefoons;
 e) toegang tot geautomatiseerde onlinespellen die afhankelijk zijn van het internet of soortgelijke elektronische
 
-L 77/15
 
-L 77/16
 
-NL
 
-Publicatieblad van de Europese Unie
 
 5. Punt 5) van bijlage II bij Richtlijn 2006/112/EG:
 a) geautomatiseerd afstandsonderwijs dat enkel over het internet of soortgelijke elektronische netwerken kan worden verstrekt en dat weinig of geen menselijk ingrijpen vergt, met inbegrip van virtuele klaslokalen, behalve wanneer het internet of het soortgelijke elektronische netwerk uitsluitend als een instrument voor de communicatie tussen de leraar en de leerling wordt gebruikt;
@@ -954,26 +908,18 @@ b) werkboeken die door de leerling online worden ingevuld en automatisch worden 
 
 
 
-NL
 
-Publicatieblad van de Europese Unie
 
 ## BIJLAGE II
 Artikel 51 van de onderhavige verordening
 
-L 77/17
-
-L 77/18
-
-NL
-
-Publicatieblad van de Europese Unie
 
 
 
-NL
 
-Publicatieblad van de Europese Unie
+
+
+
 
 Toelichting
 1. Dit certificaat vormt voor de leverancier/dienstverrichter of erkende entrepothouder het bewijs dat de goederen die worden verzonden of geleverd aan dan wel de diensten die worden verricht voor de in artikel 151 van Richtlijn 2006/112/EG en artikel 13 van Richtlijn 2008/118/EG bedoelde instellingen/personen, van belastingen zijn vrijgesteld.
@@ -997,13 +943,9 @@ c) De valuta’s worden aangeduid door middel van een drielettercode die in over
 
 (1) Ter informatie enige voorbeelden van gangbare valutacodes: EUR (euro), BGN (Bulgaarse lev), CZK (Tsjechische kroon), DKK (Deense kroon), GBP (Brits pond), HUF (Hongaarse forint), LTL (Litouwse litas), PLN (Poolse zloty), RON (Roemeense leu), SEK(Zweedse kroon), USD (Amerikaanse dollar).
 
-L 77/19
 
-NL
 
-L 77/20
 
-Publicatieblad van de Europese Unie
 
 
 ## BIJLAGE III
@@ -1034,11 +976,8 @@ Tola (10 tola = 3,75 oz.) (2)
 (2) Tola = een traditionele Indiase gewichtseenheid voor goud. In zijn meest gangbare verschijningsvorm heeft een staaf een gewicht van 10 tola en een zuiverheid van 999.
 
 
-NL
 
-Publicatieblad van de Europese Unie
 
-L 77/21
 
 ## BIJLAGE IV — Transponeringstabel
 Verordening (EG) nr. 1777/2005
@@ -1157,11 +1096,8 @@ Afdeling 4 van hoofdstuk VIII
 
 ##### Art. 47
 
-NL
 
-L 77/22
 
-Publicatieblad van de Europese Unie
 
 Verordening (EG) nr. 1777/2005
 
@@ -1243,4 +1179,3 @@ Bijlage I
 Bijlage II
 
 Bijlage III
-

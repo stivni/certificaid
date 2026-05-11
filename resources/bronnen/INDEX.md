@@ -8,30 +8,21 @@ Auto-gegenereerd door `tools/lib/bronnen_index.py`. **Niet handmatig editen** �
 
 | Type | Totaal | Trusted | Unreviewed | Needs-rework | Rejected | Unknown |
 |---|---|---|---|---|---|---|
-| Wetteksten | 129 | 55 | 4 | 66 | 4 | — |
+| Wetteksten | 129 | 23 | 49 | 56 | — | 1 |
 | Normen | 19 | 8 | — | 9 | 2 | — |
 | Adviezen | 436 | 258 | — | 177 | 1 | — |
-| **Totaal** | **584** | 321 | 4 | 252 | 7 | — |
+| **Totaal** | **584** | 289 | 49 | 242 | 3 | 1 |
 
 ## Wetteksten (129)
 
 | Bestand | Trust | L1 | L2 | Confirmed-by | Titel |
 |---|---|---|---|---|---|
-| `KB-21-10-2018.md` | ❌ rejected | warn | rejected | subagent-sonnet-4-6 | Koninklijk besluit van 21 oktober 2018 houdende de boekhoudkundige verplichtingen van o… |
-| `VCF.md` | ❌ rejected | warn | rejected | subagent-sonnet-4-6 | Decreet 13 december 2013 houdende de Vlaamse Codex Fiscaliteit (VCF) |
-| `WBTW-KB22jun2020-e-notariaat.md` | ❌ rejected | pass | rejected | subagent-sonnet-4-6 | K.B. 22 juni 2020 tot uitvoering van art. 93ter WBTW, art. 412bis en 433–435 WIB92 en a… |
-| `WER-Boek-VIII-normalisatie.md` | ❌ rejected | warn | rejected | subagent-sonnet-4-6 | WER Boek VIII — Kwaliteit van producten en diensten (boekhoudnormen) |
 | `belastinggids-aclvb-2025.md` | ⚠️ needs-rework | warn | needs-rework | subagent-sonnet-4-6 | Belastinggids 2025 — ACLVB |
-| `BTW-richtlijn-2006-112.md` | ⚠️ needs-rework | warn | needs-rework | subagent-sonnet-4-6 | Richtlijn 2006/112/EG van de Raad betreffende het gemeenschappelijke stelsel van belast… |
 | `fiscaal-memento-2025.md` | ⚠️ needs-rework | warn | needs-rework | subagent-sonnet-4-6 | Fiscaal Memento 2025 — FOD Financiën (editie 12/2024, bijgewerkt 31.12.2024) |
 | `MAR-vzw.md` | ⚠️ needs-rework | pass | needs-rework | subagent-sonnet-4-6 | Minimum Algemeen Rekeningstelsel voor verenigingen en stichtingen (MAR VZW) |
-| `Oud-BW.md` | ⚠️ needs-rework | warn | needs-rework | subagent-sonnet-4-6 | Burgerlijk Wetboek (oud, vóór hervormingen nieuwe Burgerlijk Wetboek 2019) |
-| `Registratierechten-Brussel.md` | ⚠️ needs-rework | warn | needs-rework | subagent-sonnet-4-6 | Wetboek der Registratie-, Hypotheek- en Griffierechten — Brussels Hoofdstedelijk Gewest |
-| `Registratierechten-federaal.md` | ⚠️ needs-rework | warn | needs-rework | subagent-sonnet-4-6 | Wetboek der Registratie-, Hypotheek- en Griffierechten — federaal |
 | `Registratierechten-Waals.md` | ⚠️ needs-rework | warn | needs-rework | subagent-sonnet-4-6 | Wetboek der Registratie-, Hypotheek- en Griffierechten — Waals Gewest |
 | `Richtlijn-2013-34-EU.md` | ⚠️ needs-rework | warn | needs-rework | subagent-sonnet-4-6 | Richtlijn 2013/34/EU van het Europees Parlement en de Raad van 26 juni 2013 betreffende… |
 | `Successierechten-Brussel.md` | ⚠️ needs-rework | warn | needs-rework | subagent-sonnet-4-6 | Wetboek der Successierechten — Brussels Hoofdstedelijk Gewest |
-| `Successierechten-Waals.md` | ⚠️ needs-rework | warn | needs-rework | subagent-sonnet-4-6 | Wetboek der Successierechten — Waals Gewest |
 | `toelichting-PB-2025-deel1-VG.md` | ⚠️ needs-rework | warn | needs-rework | subagent-sonnet-4-6 | Toelichting bij de aangifte in de personenbelasting — Aanslagjaar 2025 (inkomsten 2024)… |
 | `toelichting-PB-2025-deel2.md` | ⚠️ needs-rework | warn | needs-rework | subagent-sonnet-4-6 | Toelichting bij de aangifte in de personenbelasting — Aanslagjaar 2025 (inkomsten 2024)… |
 | `toelichting-VenB-2025.md` | ⚠️ needs-rework | warn | needs-rework | subagent-sonnet-4-6 | Toelichting bij de aangifte in de vennootschapsbelasting — Aanslagjaar 2025 |
@@ -81,31 +72,61 @@ Auto-gegenereerd door `tools/lib/bronnen_index.py`. **Niet handmatig editen** �
 | `WBTW-MB23jun2005-delegatie-samenwerking.md` | ⚠️ needs-rework | pass | needs-rework | subagent-sonnet-4-6 | M.B. van 23 juni 2005, met betrekking tot de delegatie van de bevoegde autoriteit inzak… |
 | `WBTW-MB28okt2009-model-berichten-93ter.md` | ⚠️ needs-rework | pass | needs-rework | subagent-sonnet-4-6 | M.B. van 28 oktober 2009, tot bepaling van het model der berichten en kennisgevingen al… |
 | `WBTW-MB29apr2024-certificatie-kassasysteem.md` | ⚠️ needs-rework | pass | needs-rework | subagent-sonnet-4-6 | M.B. van 29 april 2024, betreffende de technische aspecten ten aanzien van de certifica… |
-| `WDRT.md` | ⚠️ needs-rework | warn | needs-rework | subagent-sonnet-4-6 | Wetboek Diverse Rechten en Taksen |
-| `WER.md` | ⚠️ needs-rework | warn | needs-rework | subagent-sonnet-4-6 | Wetboek van Economisch Recht |
-| `Wet-arbeidsovereenkomsten-1978.md` | ⚠️ needs-rework | pass | needs-rework | subagent-sonnet-4-6 | Wet 3 juli 1978 betreffende de arbeidsovereenkomsten |
-| `Wet-betalingsachterstand-2002.md` | ⚠️ needs-rework | pass | needs-rework | subagent-sonnet-4-6 | Wet 2 augustus 2002 betreffende de bestrijding van de betalingsachterstand bij handelst… |
-| `Wet-verzekeringen-2014.md` | ⚠️ needs-rework | warn | needs-rework | subagent-sonnet-4-6 | Wet 4 april 2014 betreffende de verzekeringen |
 | `X-oeso-model-verdrag.md` | ⚠️ needs-rework | pass | needs-rework | subagent-sonnet-4-6 | OECD Model Tax Convention on Income and on Capital (as it read on 21 November 2017) |
+| `Antiwitwaswet-2017.md` | ◻️ unreviewed | warn | not_run | — | Wet 18 september 2017 tot voorkoming van het witwassen van geld en de financiering van … |
+| `AVG-wet-2018.md` | ◻️ unreviewed | pass | not_run | — | Wet 30 juli 2018 betreffende de bescherming van natuurlijke personen met betrekking tot… |
+| `Brusselse-Codex-Fiscale-Procedure.md` | ◻️ unreviewed | pass | not_run | — | Ordonnantie 6 maart 2019 betreffende de Brusselse Codex Fiscale Procedure |
+| `BTW-richtlijn-2006-112.md` | ◻️ unreviewed | pass | not_run | — | Richtlijn 2006/112/EG van de Raad betreffende het gemeenschappelijke stelsel van belast… |
+| `BTW-uitvoeringsverordening-282-2011.md` | ◻️ unreviewed | warn | not_run | — | Uitvoeringsverordening (EU) nr. 282/2011 van de Raad houdende maatregelen ter uitvoerin… |
+| `BW-boek1-algemene-bepalingen.md` | ◻️ unreviewed | pass | not_run | — | Burgerlijk Wetboek — Boek 1 — Algemene bepalingen |
+| `BW-boek2-relatievermogensrecht.md` | ◻️ unreviewed | pass | not_run | — | Burgerlijk Wetboek — Boek 2 — Relatievermogensrecht |
+| `BW-boek3-goederen.md` | ◻️ unreviewed | pass | not_run | — | Burgerlijk Wetboek — Boek 3 — Goederen |
+| `BW-boek4-nalatenschappen.md` | ◻️ unreviewed | pass | not_run | — | Burgerlijk Wetboek — Boek 4 — Nalatenschappen, schenkingen en testamenten |
+| `BW-boek5-verbintenissen.md` | ◻️ unreviewed | pass | not_run | — | Burgerlijk Wetboek — Boek 5 — Verbintenissen |
+| `BW-boek8-bewijs.md` | ◻️ unreviewed | pass | not_run | — | Burgerlijk Wetboek — Boek 8 — Bewijs |
+| `BW-boek9-zekerheden.md` | ◻️ unreviewed | pass | not_run | — | Burgerlijk Wetboek — Boek 9 — Zekerheden |
 | `Decr-Waals-Directe-Belastingen.md` | ◻️ unreviewed | warn | not_run | — | Decreet 6 mei 1999 betreffende de vestiging, de invordering en de geschillen inzake de … |
+| `KB-21-10-2018.md` | ◻️ unreviewed | fail | not_run | — | Koninklijk besluit van 21 oktober 2018 houdende de boekhoudkundige verplichtingen van o… |
+| `KB-voorafgaande-beslissingen-art26-2003.md` | ◻️ unreviewed | pass | not_run | — | K.B. 30 januari 2003 tot uitvoering van artikel 26 van de wet van 24 december 2002 tot … |
+| `KB-WIB92.md` | ◻️ unreviewed | pass | not_run | — | Koninklijk besluit tot uitvoering van het Wetboek van de Inkomstenbelastingen 1992 (KB/… |
+| `KB-WVV-2019.md` | ◻️ unreviewed | pass | not_run | — | Koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen… |
+| `Klokkenluiderswet-2022.md` | ◻️ unreviewed | pass | not_run | — | Wet 28 november 2022 betreffende de bescherming van melders van inbreuken op het Unie- … |
 | `MIGB-Brussel.md` | ◻️ unreviewed | pass | not_run | — | Wetboek van de met de inkomstenbelastingen gelijkgestelde belastingen — Brussels Hoofds… |
+| `MIGB-Vlaanderen.md` | ◻️ unreviewed | pass | not_run | — | Wetboek van de met de inkomstenbelastingen gelijkgestelde belastingen — Vlaams Gewest |
 | `MIGB-Wallonie.md` | ◻️ unreviewed | pass | not_run | — | Wetboek van de met de inkomstenbelastingen gelijkgestelde belastingen — Waals Gewest |
+| `Registratierechten-Brussel.md` | ◻️ unreviewed | warn | not_run | — | Wetboek der Registratie-, Hypotheek- en Griffierechten — Brussels Hoofdstedelijk Gewest |
+| `Registratierechten-federaal.md` | ◻️ unreviewed | warn | not_run | — | Wetboek der Registratie-, Hypotheek- en Griffierechten — federaal |
+| `Strafwetboek-1867.md` | ◻️ unreviewed | pass | not_run | — | Strafwetboek 8 juni 1867 (Oud Strafwetboek) |
 | `Strafwetboek2024-boek1.md` | ◻️ unreviewed | pass | not_run | — | Wetboek 29 februari 2024 Strafwetboek 2024 — Boek 1 |
+| `Strafwetboek2024-boek2.md` | ◻️ unreviewed | pass | not_run | — | Wetboek 29 februari 2024 Strafwetboek 2024 — Boek 2 |
+| `Successierechten-Waals.md` | ◻️ unreviewed | warn | not_run | — | Wetboek der Successierechten — Waals Gewest |
+| `VCF.md` | ◻️ unreviewed | warn | not_run | — | Decreet 13 december 2013 houdende de Vlaamse Codex Fiscaliteit (VCF) |
+| `WBTW-KB-GKS.md` | ◻️ unreviewed | pass | not_run | — | K.B. 30 december 2009 tot het bepalen van de definitie en de voorwaarden waaraan een ge… |
+| `WBTW-KB1-voldoening.md` | ◻️ unreviewed | pass | not_run | — | K.B. nr. 1, 29 december 1992, met betrekking tot de regeling voor de voldoening van de … |
+| `WBTW-KB19-kleine-ondernemingen.md` | ◻️ unreviewed | pass | not_run | — | K.B. nr. 19, 15 december 2024, met betrekking tot de vrijstellingsregeling van belastin… |
+| `WBTW-KB2-forfaitaire.md` | ◻️ unreviewed | pass | not_run | — | K.B. nr. 2, 19 december 2018, met betrekking tot de forfaitaire regeling inzake btw |
+| `WBTW-KB22jun2020-e-notariaat.md` | ◻️ unreviewed | pass | not_run | — | K.B. 22 juni 2020 tot uitvoering van art. 93ter WBTW, art. 412bis en 433–435 WIB92 en a… |
+| `WBTW-KB2bis-cafehouders.md` | ◻️ unreviewed | pass | not_run | — | K.B. nr. 2bis, 15 mei 2022, tot vaststelling van de forfaitaire grondslagen van aanslag… |
+| `WBTW-KB54-entrepot.md` | ◻️ unreviewed | pass | not_run | — | K.B. nr. 54, 21 december 2023, met betrekking tot de andere regeling van entrepot dan d… |
+| `WBTW-KB56-teruggaaf.md` | ◻️ unreviewed | pass | not_run | — | K.B. nr. 56, 10 april 2022, met betrekking tot de teruggaaf inzake btw aan belastingpli… |
+| `WBTW-KB59-handelsgeschenken.md` | ◻️ unreviewed | pass | not_run | — | K.B. nr. 59, 18 mei 2020, met betrekking tot de onttrekking van handelsgeschenken van g… |
+| `WBTW-MB-dagboek-ontvangsten-2023.md` | ◻️ unreviewed | pass | not_run | — | M.B. 17 maart 2023 betreffende de vaststelling van de modaliteiten voor het bijhouden v… |
+| `WDRT.md` | ◻️ unreviewed | warn | not_run | — | Wetboek Diverse Rechten en Taksen |
+| `WER-Boek-VIII-normalisatie.md` | ◻️ unreviewed | warn | not_run | — | WER Boek VIII — Kwaliteit van producten en diensten (boekhoudnormen) |
+| `WER.md` | ◻️ unreviewed | warn | not_run | — | Wetboek van Economisch Recht |
+| `Wet-arbeidsovereenkomsten-1978.md` | ◻️ unreviewed | pass | not_run | — | Wet 3 juli 1978 betreffende de arbeidsovereenkomsten |
+| `Wet-beroepskwalificaties-2008.md` | ◻️ unreviewed | pass | not_run | — | Wet 12 februari 2008 tot instelling van een nieuw algemeen kader voor de erkenning van … |
+| `Wet-betalingsachterstand-2002.md` | ◻️ unreviewed | pass | not_run | — | Wet 2 augustus 2002 betreffende de bestrijding van de betalingsachterstand bij handelst… |
+| `Wet-ITAA-2019.md` | ◻️ unreviewed | pass | not_run | — | Wet 17 maart 2019 tot oprichting van het Instituut van de Belastingadviseurs en de Acco… |
+| `Wet-verzekeringen-2014.md` | ◻️ unreviewed | warn | not_run | — | Wet 4 april 2014 betreffende de verzekeringen |
+| `Wet-voorafgaande-beslissingen-2002.md` | ◻️ unreviewed | pass | not_run | — | Wet 24 december 2002 tot wijziging van de vennootschapsregeling inzake inkomstenbelasti… |
+| `Wetboek-Invordering.md` | ◻️ unreviewed | pass | not_run | — | Wetboek van de minnelijke en gedwongen invordering van fiscale en niet-fiscale schuldvo… |
+| `WVV.md` | ◻️ unreviewed | pass | not_run | — | Wetboek van vennootschappen en verenigingen 23/03/2019 |
+| `Oud-BW.md` | ❓ unknown | — | — | — | Burgerlijk Wetboek (oud, vóór hervormingen nieuwe Burgerlijk Wetboek 2019) |
 | `aangifte-PB-2025-bezoldigingen.md` | ✅ trusted | fail | trusted | subagent-sonnet-4-6 | aangifte-PB-2025-bezoldigingen |
 | `aangifte-PB-2025-stopzetting.md` | ✅ trusted | fail | trusted | subagent-sonnet-4-6 | aangifte-PB-2025-stopzetting |
-| `Antiwitwaswet-2017.md` | ✅ trusted | warn | trusted | subagent-sonnet-4-6 | Wet 18 september 2017 tot voorkoming van het witwassen van geld en de financiering van … |
-| `AVG-wet-2018.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | Wet 30 juli 2018 betreffende de bescherming van natuurlijke personen met betrekking tot… |
-| `Brusselse-Codex-Fiscale-Procedure.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | Ordonnantie 6 maart 2019 betreffende de Brusselse Codex Fiscale Procedure |
 | `BTW-dertiende-richtlijn-1986.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | Dertiende Richtlijn 86/560/EEG van de Raad inzake de teruggaaf van btw aan niet in de G… |
 | `BTW-teruggaaf-richtlijn-2008-9.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | Richtlijn 2008/9/EG van de Raad tot vaststelling van nadere voorschriften voor de in Ri… |
-| `BTW-uitvoeringsverordening-282-2011.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | Uitvoeringsverordening (EU) nr. 282/2011 van de Raad houdende maatregelen ter uitvoerin… |
-| `BW-boek1-algemene-bepalingen.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | Burgerlijk Wetboek — Boek 1 — Algemene bepalingen |
-| `BW-boek2-relatievermogensrecht.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | Burgerlijk Wetboek — Boek 2 — Relatievermogensrecht |
-| `BW-boek3-goederen.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | Burgerlijk Wetboek — Boek 3 — Goederen |
-| `BW-boek4-nalatenschappen.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | Burgerlijk Wetboek — Boek 4 — Nalatenschappen, schenkingen en testamenten |
-| `BW-boek5-verbintenissen.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | Burgerlijk Wetboek — Boek 5 — Verbintenissen |
-| `BW-boek8-bewijs.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | Burgerlijk Wetboek — Boek 8 — Bewijs |
-| `BW-boek9-zekerheden.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | Burgerlijk Wetboek — Boek 9 — Zekerheden |
 | `EU-AVG-Verordening-2016-679.md` | ✅ trusted | warn | trusted | subagent-sonnet-4-6 | Verordening (EU) 2016/679 van het Europees Parlement en de Raad van 27 april 2016 betre… |
 | `EU-IFRS-verordening-1606-2002.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | Verordening (EG) nr. 1606/2002 van het Europees Parlement en de Raad van 19 juli 2002 b… |
 | `EU-Richtlijn-fusie-2009-133.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | Richtlijn 2009/133/EG van de Raad van 19 oktober 2009 betreffende de gemeenschappelijke… |
@@ -114,25 +135,9 @@ Auto-gegenereerd door `tools/lib/bronnen_index.py`. **Niet handmatig editen** �
 | `EU-Richtlijn-witwassen-2018-1673.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | Richtlijn (EU) 2018/1673 van het Europees Parlement en de Raad van 23 oktober 2018 inza… |
 | `KB-1998-plichtenleer.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | Koninklijk besluit van 1 maart 1998 tot vaststelling van het reglement van plichtenleer… |
 | `KB-voorafgaande-beslissingen-art22-2003.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | K.B. 17 januari 2003 tot uitvoering van artikel 22, tweede lid, van de wet van 24 decem… |
-| `KB-voorafgaande-beslissingen-art26-2003.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | K.B. 30 januari 2003 tot uitvoering van artikel 26 van de wet van 24 december 2002 tot … |
-| `KB-WIB92.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | Koninklijk besluit tot uitvoering van het Wetboek van de Inkomstenbelastingen 1992 (KB/… |
-| `KB-WVV-2019.md` | ✅ trusted | warn | trusted | subagent-sonnet-4-6 | Koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen… |
-| `Klokkenluiderswet-2022.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | Wet 28 november 2022 betreffende de bescherming van melders van inbreuken op het Unie- … |
-| `MIGB-Vlaanderen.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | Wetboek van de met de inkomstenbelastingen gelijkgestelde belastingen — Vlaams Gewest |
-| `Strafwetboek-1867.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | Strafwetboek 8 juni 1867 (Oud Strafwetboek) |
-| `Strafwetboek2024-boek2.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | Wetboek 29 februari 2024 Strafwetboek 2024 — Boek 2 |
 | `Successierechten-federaal.md` | ✅ trusted | warn | trusted | subagent-sonnet-4-6 | Wetboek der Successierechten — federaal |
 | `Verdrag-WABB.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | Verdrag inzake wederzijdse administratieve bijstand in fiscale aangelegenheden (WABB/CM… |
-| `WBTW-KB-GKS.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | K.B. 30 december 2009 tot het bepalen van de definitie en de voorwaarden waaraan een ge… |
-| `WBTW-KB1-voldoening.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | K.B. nr. 1, 29 december 1992, met betrekking tot de regeling voor de voldoening van de … |
-| `WBTW-KB19-kleine-ondernemingen.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | K.B. nr. 19, 15 december 2024, met betrekking tot de vrijstellingsregeling van belastin… |
-| `WBTW-KB2-forfaitaire.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | K.B. nr. 2, 19 december 2018, met betrekking tot de forfaitaire regeling inzake btw |
-| `WBTW-KB2bis-cafehouders.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | K.B. nr. 2bis, 15 mei 2022, tot vaststelling van de forfaitaire grondslagen van aanslag… |
-| `WBTW-KB54-entrepot.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | K.B. nr. 54, 21 december 2023, met betrekking tot de andere regeling van entrepot dan d… |
-| `WBTW-KB56-teruggaaf.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | K.B. nr. 56, 10 april 2022, met betrekking tot de teruggaaf inzake btw aan belastingpli… |
-| `WBTW-KB59-handelsgeschenken.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | K.B. nr. 59, 18 mei 2020, met betrekking tot de onttrekking van handelsgeschenken van g… |
 | `WBTW-MB-compilatie.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | Ministeriële besluiten inzake belasting over de toegevoegde waarde (compilatie Fisconet… |
-| `WBTW-MB-dagboek-ontvangsten-2023.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | M.B. 17 maart 2023 betreffende de vaststelling van de modaliteiten voor het bijhouden v… |
 | `WBTW-MB11-facturen-oprichting-gebouwen.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | M.B. nr. 11 van 3 november 1972, met betrekking tot de controle op de toepassing van de… |
 | `WBTW-MB12-weegtoestellen-slachthuizen.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | M.B. nr. 12 van 28 augustus 1973, met betrekking tot de automatische weegtoestellen te … |
 | `WBTW-MB2-teruggaven.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | M.B. nr. 2 van 21 december 2010, met betrekking tot de teruggaven inzake belasting over… |
@@ -140,12 +145,7 @@ Auto-gegenereerd door `tools/lib/bronnen_index.py`. **Niet handmatig editen** �
 | `WBTW-MB29aug2006-ambtenaar-62bis.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | M.B. van 29 augustus 2006, tot aanduiding van de ambtenaar bedoeld in artikel 62bis van… |
 | `WBTW-MB6-uitstel-invoer.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | M.B. nr. 6 van 4 maart 1993, waarbij uitstel wordt verleend voor de voldoening van de t… |
 | `WBTW.md` | ✅ trusted | warn | trusted | subagent-sonnet-4-6 | Wet 3 juli 1969 tot invoering van het Wetboek van de belasting over de toegevoegde waar… |
-| `Wet-beroepskwalificaties-2008.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | Wet 12 februari 2008 tot instelling van een nieuw algemeen kader voor de erkenning van … |
-| `Wet-ITAA-2019.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | Wet 17 maart 2019 tot oprichting van het Instituut van de Belastingadviseurs en de Acco… |
-| `Wet-voorafgaande-beslissingen-2002.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | Wet 24 december 2002 tot wijziging van de vennootschapsregeling inzake inkomstenbelasti… |
-| `Wetboek-Invordering.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | Wetboek van de minnelijke en gedwongen invordering van fiscale en niet-fiscale schuldvo… |
 | `WIB92.md` | ✅ trusted | warn | trusted | subagent-sonnet-4-6 | WIB92 |
-| `WVV.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | Wetboek van vennootschappen en verenigingen 23/03/2019 |
 
 ## Normen (19)
 

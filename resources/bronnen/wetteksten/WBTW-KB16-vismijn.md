@@ -4,58 +4,73 @@ bron: Afgesplitst uit Fisconet-compilatie (pdftotext_compilatie_btw)
 bron_rol: itaa_lex
 chunk:
   level: 2
-  sub_strategy:
+  sub_strategy: null
   type: Art.
 itaa-lex-sectie: VI.B
 provenance:
-  generated_at: '2026-05-11T13:40:00Z'
+  generated_at: '2026-05-11T16:21:50Z'
   inputs:
-    - id: resources/raw/wetteksten/btw-kbs/WBTW-KB-compilatie.pdf
-      sha256: 5f1bad7278d1f8e1f5c00efb5d792f61342d3f7a14a7950caca2937924bfa91c
-      version: 06.03.2020
+  - id: resources/raw/wetteksten/btw-kbs/WBTW-KB-compilatie.pdf
+    sha256: 5f1bad7278d1f8e1f5c00efb5d792f61342d3f7a14a7950caca2937924bfa91c
+    version: 06.03.2020
   stale: false
-  stale_reason:
+  stale_reason: null
   tooling:
-    model:
+    model: null
     pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    prompt_version:
+    pipeline_version: 11f9196
+    prompt_version: null
   trust:
     confirmed_at: '2026-05-11T11:41:58Z'
     confirmed_by: subagent-sonnet-4-6
     layer1:
-      status: pass
-      run_id: 20260511-134044
-      run_at: '2026-05-11T13:40:47Z'
-      heading_count: 5
-      max_section_chars: 1294
       file_size_chars: 3857
       flags: []
+      heading_count: 5
+      max_section_chars: 1294
+      run_at: '2026-05-11T13:40:47Z'
+      run_id: 20260511-134044
+      status: pass
     layer2:
       agent: subagent-sonnet-4-6
       concrete_problemen:
-        - categorie: B4
-          regel: 112
-          type: other
-          voorbeeld: KB nr. 16 - Lijst van de bijwerkingen
-        - categorie: C3
-          regel: 114
-          type: pseudo-table
-          voorbeeld: '       Bijwerking       t.e.m. B.S. van                       Te vervangen pagina''s'
-        - categorie: D1
-          regel: 117
-          type: abrupt-cutoff
-          voorbeeld: Bijw. 01 / 01.01.2012     30.12.2011      Volledige uitgave
-      rationale: 'Artikelen hebben ## Art.-headings (Art. 1 t/m Art. 5). Problemen: (1) B4: ''KB nr. 16 - Lijst van de bijwerkingen'' op regel 112 is plain-text zonder heading-prefix, en ontbreekt als Bijlage A header; (2) C3: Bijwerking-tabel met spatie-alignment (regel 114); (3) A6: 7-spaties-inspringing consistent door hele document; (4) D2: de Bijlage B (''Recente wijzigingen'') ontbreekt volledig — het document eindigt abrupt na de bijwerkingstabel. Inhoud van de 5 artikelen is compleet.'
+      - categorie: B4
+        regel: 112
+        type: other
+        voorbeeld: KB nr. 16 - Lijst van de bijwerkingen
+      - categorie: C3
+        regel: 114
+        type: pseudo-table
+        voorbeeld: '       Bijwerking       t.e.m. B.S. van                       Te
+          vervangen pagina''s'
+      - categorie: D1
+        regel: 117
+        type: abrupt-cutoff
+        voorbeeld: Bijw. 01 / 01.01.2012     30.12.2011      Volledige uitgave
+      rationale: 'Artikelen hebben ## Art.-headings (Art. 1 t/m Art. 5). Problemen:
+        (1) B4: ''KB nr. 16 - Lijst van de bijwerkingen'' op regel 112 is plain-text
+        zonder heading-prefix, en ontbreekt als Bijlage A header; (2) C3: Bijwerking-tabel
+        met spatie-alignment (regel 114); (3) A6: 7-spaties-inspringing consistent
+        door hele document; (4) D2: de Bijlage B (''Recente wijzigingen'') ontbreekt
+        volledig — het document eindigt abrupt na de bijwerkingstabel. Inhoud van
+        de 5 artikelen is compleet.'
       run_at: '2026-05-11T11:41:58Z'
       status: needs-rework
-    rationale: 'Artikelen hebben ## Art.-headings (Art. 1 t/m Art. 5). Problemen: (1) B4: ''KB nr. 16 - Lijst van de bijwerkingen'' op regel 112 is plain-text zonder heading-prefix, en ontbreekt als Bijlage A header; (2) C3: Bijwerking-tabel met spatie-alignment (regel 114); (3) A6: 7-spaties-inspringing consistent door hele document; (4) D2: de Bijlage B (''Recente wijzigingen'') ontbreekt volledig — het document eindigt abrupt na de bijwerkingstabel. Inhoud van de 5 artikelen is compleet.'
+    rationale: 'Artikelen hebben ## Art.-headings (Art. 1 t/m Art. 5). Problemen:
+      (1) B4: ''KB nr. 16 - Lijst van de bijwerkingen'' op regel 112 is plain-text
+      zonder heading-prefix, en ontbreekt als Bijlage A header; (2) C3: Bijwerking-tabel
+      met spatie-alignment (regel 114); (3) A6: 7-spaties-inspringing consistent door
+      hele document; (4) D2: de Bijlage B (''Recente wijzigingen'') ontbreekt volledig
+      — het document eindigt abrupt na de bijwerkingstabel. Inhoud van de 5 artikelen
+      is compleet.'
     status: needs-rework
 status: beschikbaar
 tags:
-  - VI.B
-  - '2.4'
-wet: K.B. nr. 16 van 3 juni 1970, met betrekking tot de toepassing van de belasting over de toegevoegde waarde inzake de verkoop van vis, schaal-, schelp- en weekdieren in de gemeentelijke vismijn
+- VI.B
+- '2.4'
+wet: K.B. nr. 16 van 3 juni 1970, met betrekking tot de toepassing van de belasting
+  over de toegevoegde waarde inzake de verkoop van vis, schaal-, schelp- en weekdieren
+  in de gemeentelijke vismijn
 ---
 
 # K.B. nr. 16 van 3 juni 1970, met betrekking tot de toepassing van de belasting over de toegevoegde waarde inzake de verkoop van vis, schaal-, schelp- en weekdieren in de gemeentelijke vismijn

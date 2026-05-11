@@ -4,47 +4,47 @@ bron: Fisconetplus.be (officieuze gecoördineerde versie)
 bron_rol: itaa_lex
 chunk:
   level: 3
-  sub_strategy:
+  sub_strategy: null
   type: Art.
 itaa-lex-sectie: VI.B
 provenance:
-  generated_at: '2026-05-11T13:40:00Z'
+  generated_at: '2026-05-11T16:21:50Z'
   inputs:
-    - id: resources/raw/wetteksten/btw-kbs/WBTW-KB19-kleine-ondernemingen.pdf
-      sha256: fe0e59d7fafe2333aae726edf2bb85097ffd04dc2e919e24225dc4c7f8466960
-      version: '2024'
+  - id: resources/raw/wetteksten/btw-kbs/WBTW-KB19-kleine-ondernemingen.pdf
+    sha256: fe0e59d7fafe2333aae726edf2bb85097ffd04dc2e919e24225dc4c7f8466960
+    version: '2024'
   stale: false
-  stale_reason:
+  stale_reason: null
   tooling:
-    model:
+    model: null
     pipeline: tools/etl/convert.py
-    pipeline_version: 7a134f4
-    prompt_version:
+    pipeline_version: 11f9196
+    prompt_version: null
   trust:
-    confirmed_at: '2026-05-09T21:27:46Z'
-    confirmed_by: subagent-sonnet-4-6
+    confirmed_at: null
+    confirmed_by: null
     layer1:
-      status: pass
-      run_id: 20260511-134044
-      run_at: '2026-05-11T13:40:47Z'
-      heading_count: 20
-      max_section_chars: 4293
       file_size_chars: 22552
       flags: []
+      heading_count: 20
+      max_section_chars: 4293
+      run_at: '2026-05-11T13:40:47Z'
+      run_id: 20260511-134044
+      status: pass
     layer2:
-      agent:
-      concrete_problemen:
-        - '### Art. 2.Voor — heading bevat eerste woord van body'
-      rationale: 'Recente KB (2024) met ## HOOFDSTUK / ### Art.-structuur, 16 ### Art.-headings, frontmatter correct. Tail bevat verwijzings-bijlage maar zonder duidelijke breakage. Cosmetisch: ''Art. 2.Voor'' inline-content op heading-regel.'
-      run_at:
-      status: trusted
-    rationale: 'L1=pass; L1.5=improvement (Auto-synthesized: heading-injection (inject_wbtw_headings.py) — staging is structureel beter dan resources-versie.); L2=trusted (ETL-fix toegepast: inject_wbtw_headings.py heeft TOC-strip + Artikel-N → ## Art. heading-injectie + AFDELING-normalisatie uitgevoerd. Eerdere needs-rework op ''missing-section'' opgeheven.)'
-    status: trusted
+      agent: null
+      concrete_problemen: []
+      rationale: null
+      run_at: null
+      status: not_run
+    rationale: 'Trust gereset 2026-05-11: ETL-fix wetteksten met content-diff > 5%'
+    status: unreviewed
 status: beschikbaar
 tags:
-  - VI.B
-  - '2.4'
-wet: K.B. nr. 19, 15 december 2024, met betrekking tot de vrijstellingsregeling van belasting over de toegevoegde waarde in het voordeel van kleine ondernemingen
+- VI.B
+- '2.4'
+wet: K.B. nr. 19, 15 december 2024, met betrekking tot de vrijstellingsregeling van
+  belasting over de toegevoegde waarde in het voordeel van kleine ondernemingen
 ---
 
 # BTW KB nr. 19 — Vrijstellingsregeling kleine ondernemingen
@@ -57,16 +57,6 @@ Titel
 
 Bron : FINANCIEN
 
-## HOOFDSTUK 1. - Algemene bepaling
-
-### Art. 1
-
-Dit koninklijk besluit voorziet in de gedeeltelijke omzetting van Richtlijn (EU) 2020/285 van de Raad van 18 februari 2020 tot wijziging van Richtlijn 2006/112/EG betreffende het gemeenschappelijke stelsel van belasting over de toegevoegde waarde wat betreft de bijzondere regeling voor kleine ondernemingen en Verordening (EU) nr. 904/2010 betreffende de administratieve samenwerking en uitwisseling van inlichtingen voor doeleinden van toezicht op de juiste uitvoering van de bijzondere regeling voor kleine ondernemingen.
-Het vormt ook een gedeeltelijke omzetting van Richtlijn 2006/112/EG van de Raad van 28 november 2006 betreffende het gemeenschappelijke stelsel van belasting over de toegevoegde waarde.
-
-### Art. 2.Voor
-
-de toepassing van dit besluit wordt verstaan onder "koninklijk besluit nr. 10": het koninklijk besluit nr. 10 van 29 december 1992 met betrekking tot de uitoefeningsmodaliteiten van de keuzen, [1 de voorafgaande kennisgevingen en de aangiften van aanvang, wijziging en stopzetting van activiteit inzake belasting over de toegevoegde waarde]1.
 (1)<KB 2025-12-17/06, art. 26, 002; Inwerkingtreding : 10-01-2026>
 
 ## HOOFDSTUK 2. - Vrijstellingsregeling van belasting bedoeld in artikel 56ter, § 1, van het Wetboek
@@ -97,7 +87,9 @@ De in het eerste lid bedoelde stukken vermelden op gedetailleerde wijze de goede
 
 § 1. Wanneer gedurende een kalenderjaar het totale bedrag van de omzet met maximaal tien pct. het in artikel 56ter, § 1, eerste lid, van het Wetboek bedoelde bedrag overschrijdt, valt de belastingplichtige die gebruikmaakt van de vrijstellingsregeling van belasting onder de normale belastingregeling vanaf 1 januari van het daaropvolgende kalenderjaar.
 De in het eerste lid bedoelde belastingplichtige stelt uiterlijk op 15 december van het lopende kalenderjaar de administratie belast met de belasting over de toegevoegde waarde hiervan in kennis, via de aangifte bedoeld in artikel 2 of 7bis van het koninklijk besluit nr. 10.
-§ 2. Wanneer gedurende een kalenderjaar het totale bedrag van de omzet met meer dan tien pct. het in artikel 56ter, § 1, eerste lid, van het Wetboek bedoeld bedrag overschrijdt, wordt de belastingplichtige onderworpen aan de normale belastingregeling vanaf de eerste handeling, in zijn geheel beschouwd, waarvoor het bovengenoemde bedrag wordt overschreden.
+§ 2. Wanneer gedurende een kalenderjaar het totale bedrag van de omzet met meer dan tien pct. het in artikel 56ter, § 1, eerste lid, van het Wetboek bedoeld bedrag overschrijdt, wordt de belastingplichtige onderworpen aan de normale belastingregeling vanaf de eerste handeling, in zijn geheel beschouwd, waarvoor het
+
+bovengenoemde bedrag wordt overschreden.
 De in het eerste lid bedoelde belastingplichtige stelt onmiddellijk de administratie belast met de belasting over de toegevoegde waarde hiervan in kennis via de aangifte bedoeld in artikel 2 of 7bis van het koninklijk besluit nr. 10.
 § 3. Wanneer de in artikel 56ter, § 1, van het Wetboek bedoelde belastingplichtige is uitgesloten van de vrijstellingsregeling van belasting omdat hij geregeld in artikel 56bis, § 2, tweede lid, van het Wetboek bedoelde activiteiten verricht, wordt hij onderworpen aan de normale regeling van de belasting vanaf de eerste handeling verricht in het kader van een in artikel 56bis, § 2, tweede lid, van het Wetboek bedoelde geregelde activiteit.
 De in het eerste lid bedoelde belastingplichtige stelt onmiddellijk de administratie belast met de belasting over de toegevoegde waarde hiervan in kennis via de aangifte bedoeld in artikel 2 of 7bis van het koninklijk besluit nr. 10 De belastingplichtige kan ten vroegste op 1 januari van het tweede jaar na dat waarin de in het eerste lid bedoelde uitsluiting uitwerking heeft gehad, terug overgaan naar de vrijstellingsregeling van belasting, op voorwaarde dat hij op dat tijdstip niet langer geregeld de in artikel 56bis, § 2, tweede lid, van het Wetboek bedoelde activiteiten verricht. De belastingplichtige stelt de administratie belast met de belasting over de toegevoegde waarde vóór 15 december in kennis van die wijziging in de belastingregeling via de aangifte bedoeld in artikel 2 of 7bis van het koninklijk besluit nr. 10. Die wijziging heeft uitwerking met ingang van 1 januari van het volgend jaar.
@@ -159,7 +151,9 @@ De in het eerste lid bedoelde kennisgeving heeft uitwerking, overeenkomstig arti
 De belastingplichtige stuurt de in paragraaf 1 bedoelde kennisgeving via de aangifte bedoeld in artikel 2 of 7bis van het koninklijk besluit nr. 10.
 De in het eerste lid bedoelde kennisgeving heeft uitwerking voor een onbepaalde duur :
 1° vanaf de datum waarop de administratie belast met de belasting over de toegevoegde waarde het in artikel 56quater, § 1, 2°, van het Wetboek bedoelde individuele identificatienummer bevestigt aan de belastingplichtige ingevolge de actualisering van de kennisgeving, overeenkomstig artikel 56quater, § 4, van het Wetboek;
-2° in afwijking van de bepaling onder 1°, in geval van beëindiging van de toepassing van de vrijstelling in een andere lidstaat of in andere lidstaten dan België, met ingang van de eerste dag van het kalenderkwartaal dat volgt op de ontvangst van de in het eerste lid bedoelde kennisgeving of, wanneer die kennisgeving in de loop van de laatste maand van een kalenderkwartaal wordt ontvangen, op de eerste dag van de tweede maand van het daaropvolgende kalenderkwartaal, overeenkomstig artikel 56quater, § 3, tweede lid, van het Wetboek.
+2° in afwijking van de bepaling onder 1°, in geval van beëindiging van de toepassing van de vrijstelling in een andere lidstaat of in andere lidstaten dan België, met ingang van de eerste dag van het kalenderkwartaal dat volgt op de ontvangst van de in het eerste lid bedoelde kennisgeving of, wanneer die kennisgeving in de loop van de
+
+laatste maand van een kalenderkwartaal wordt ontvangen, op de eerste dag van de tweede maand van het daaropvolgende kalenderkwartaal, overeenkomstig artikel 56quater, § 3, tweede lid, van het Wetboek.
 
 ### Art. 10
 

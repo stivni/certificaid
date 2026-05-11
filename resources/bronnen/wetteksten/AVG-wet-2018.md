@@ -1,50 +1,49 @@
 ---
-tags: [XIX, '4.0']
-itaa-lex-sectie: XIX
-wet: Wet 30 juli 2018 betreffende de bescherming van natuurlijke personen met betrekking tot de verwerking van persoonsgegevens
-bron_rol: itaa_lex
-status: beschikbaar
 bijgewerkt: 30.07.2018
 bron: Fisconetplus.be (officieuze gecoördineerde versie)
+bron_rol: itaa_lex
 chunk:
   level: 5
-  type: Art.
   sub_strategy:
+  type: Art.
+itaa-lex-sectie: XIX
 provenance:
+  generated_at: '2026-05-11T16:21:21Z'
   inputs:
     - id: resources/raw/wetteksten/AVG-wet-2018.pdf
       sha256: b845775a288ffc1c3b655a0d47ec7130f559ed3c776e544ce095bc303b880e2e
       version: 30.07.2018
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 7a134f4
-    model:
-    prompt_version:
-  generated_at: '2026-05-09T16:15:13Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-09T21:27:46Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: L1=pass
+    confirmed_at:
+    confirmed_by:
     layer1:
       status: pass
-      run_id: 20260511-134044
-      run_at: '2026-05-11T13:40:44Z'
-      heading_count: 393
-      max_section_chars: 8307
-      file_size_chars: 294686
+      run_id: 20260511-162232
+      run_at: '2026-05-11T16:22:32Z'
+      heading_count: 541
+      max_section_chars: 8309
+      file_size_chars: 303436
       flags: []
     layer2:
-      status: trusted
       agent:
+      concrete_problemen: []
+      rationale:
       run_at:
-      rationale: Frontmatter compleet, heading-hierarchie correct (H1 + 8 H2 + 63 H3 + 36 H4), Art.-headings op level 5 zoals chunk-config voorschrijft. Body is leesbaar Nederlands, geen kolom-bleed. TOC-rest staat compact bij regel 42 maar verstoort geen artikel-content.
-      concrete_problemen:
-        - regel: 42
-          type: other
-          voorbeeld: (Art.254)   (Art.255)    (Art.256) — TOC-residu in lopende tekst
+      status: not_run
+    rationale: 'Trust gereset 2026-05-11: ETL-fix wetteksten met content-diff > 5%'
+    status: unreviewed
+status: beschikbaar
+tags:
+  - XIX
+  - '4.0'
+wet: Wet 30 juli 2018 betreffende de bescherming van natuurlijke personen met betrekking tot de verwerking van persoonsgegevens
 ---
 
 # Belgische AVG-uitvoeringswet 2018
@@ -57,6 +56,316 @@ Titel
 
 (Art.254)   (Art.255)    (Art.256)      (Art.257)     (Art.258)   (Art.259)   (Art.260 (Art.261)   (Art.262)    (Art.263)      (Art.264)     (Art.265)   (Art.266)   (Art.267) 05-09-2018 (Art.268)   (Art.269)    (Art.270)      (Art.272)     (Art.273)   (Art.274)   (Art.275) (Art.276)   (Art.277)    (Art.278)      (Art.279)     (Art.280)   (Art.281)   .
 01-04-2019             (Art.20)
+
+##### Art. 6
+
+### HOOFDSTUK II. - Beginselen van verwerking
+
+### HOOFDSTUK III. - Beperkingen op de rechten van de betrokkene
+
+### HOOFDSTUK IV. - Verwerkingsverantwoordelijke en verwerker
+
+#### Afdeling 1. - Algemene bepaling
+
+##### Art. 18
+
+#### Afdeling 2. - Publieke sector
+
+### HOOFDSTUK V. - Verwerking voor journalistieke doeleinden en ten behoeve van academische, artistieke of literaire uitdrukkingsvormen
+
+##### Art. 24
+
+## TITEL 2. - De bescherming van natuurlijke personen met betrekking tot de verwerking van persoonsgegevens door de bevoegde overheden met het oog op de voorkoming, het onderzoek, de opsporing en de vervolging van strafbare feiten of de tenuitvoerlegging van straffen, met inbegrip van de bescherming tegen en de voorkoming van gevaren voor de openbare veiligheid
+
+### HOOFDSTUK I. - Algemene bepalingen
+
+### HOOFDSTUK II. - Beginselen van verwerking
+
+### HOOFDSTUK III. - Rechten van de betrokkene
+
+### HOOFDSTUK IV. - Verwerkingsverantwoordelijke en verwerker
+
+#### Afdeling 1. - Organisatorische en technische maatregelen
+
+#### Afdeling 2. - Gezamenlijke verwerkingsverantwoordelijken
+
+##### Art. 52
+
+#### Afdeling 3. - Verwerker
+
+#### Afdeling 4. - Verplichtingen
+
+#### Afdeling 5. - Functionaris voor gegevensbescherming
+
+### HOOFDSTUK V. - Doorgiften van persoonsgegevens aan derde landen of internationale organisaties
+
+### HOOFDSTUK VI. - Onafhankelijke toezichthoudende autoriteiten
+
+##### Art. 71
+
+## TITEL 3. - De bescherming van natuurlijke personen met betrekking tot de verwerking van persoonsgegevens door andere overheden dan die bedoeld in titels 1 en 2
+
+ONDERTITEL 1. - De bescherming van natuurlijke personen met betrekking tot de verwerking van persoonsgegevens door de inlichtingen- en veiligheidsdiensten
+
+### HOOFDSTUK I. - Definities
+
+##### Art. 72
+
+### HOOFDSTUK II. - Toepassingsgebied
+
+##### Art. 73
+
+### HOOFDSTUK III. - Algemene verwerkingsvoorwaarden
+
+### HOOFDSTUK IV. - Aard van de persoonsgegevens
+
+##### Art. 76
+
+### HOOFDSTUK V. - Bewaring van persoonsgegevens
+
+##### Art. 77
+
+### HOOFDSTUK VI. - Rechten van de betrokkene
+
+### HOOFDSTUK VII. - Verplichtingen van de verwerkingsverantwoordelijke en de verwerker
+
+#### Afdeling 1. - Algemene verplichtingen
+
+#### Afdeling 2. - Gezamenlijke verwerkingsverantwoordelijken
+
+##### Art. 87
+
+#### Afdeling 3. - Beveiliging van persoonsgegevens
+
+#### Afdeling 4. - Registers
+
+##### Art. 90
+
+#### Afdeling 5. - Functionaris voor gegevensbescherming
+
+##### Art. 91
+
+### HOOFDSTUK VIII. - Mededeling en doorgifte van persoonsgegevens
+
+#### Afdeling 1. - Mededeling van persoonsgegevens aan de publieke sector en de private sector
+
+##### Art. 92
+
+#### Afdeling 2. - Doorgifte van persoonsgegevens aan landen die geen lid zijn van de Europese Unie of aan internationale organisaties
+
+### HOOFDSTUK IX. - Toezichthoudende autoriteit
+
+### HOOFDSTUK X. - Verwerking van persoonsgegevens voor historische, wetenschappelijke of statistische doeleinden
+
+ONDERTITEL 2. - De bescherming van natuurlijke personen met betrekking tot de verwerking van persoonsgegevens door de krijgsmacht
+
+##### Art. 105
+
+ONDERTITEL 3. [1 - De bescherming van natuurlijke personen met betrekking tot de verwerking van persoonsgegevens in het kader van de wet van 11 december 1998 betreffende de classificatie, de veiligheidsmachtigingen, de veiligheidsadviezen en de publiek gereguleerde dienst]1
+
+### HOOFDSTUK I. - Definities
+
+##### Art. 106
+
+### HOOFDSTUK II. - Toepassingsgebied
+
+##### Art. 107
+
+### HOOFDSTUK III. - Algemene verwerkingsvoorwaarden
+
+### HOOFDSTUK IV. - Aard van de persoonsgegevens
+
+##### Art. 110
+
+### HOOFDSTUK V. - Bewaring van persoonsgegevens
+
+##### Art. 111
+
+### HOOFDSTUK VI. - Rechten van de betrokkene
+
+### HOOFDSTUK VII. - Verplichtingen van de verwerkingsverantwoordelijke en de verwerker
+
+#### Afdeling 1. - Algemene verplichtingen
+
+#### Afdeling 2. - Gezamenlijke verwerkingsverantwoordelijken
+
+##### Art. 120
+
+#### Afdeling 3. - Beveiliging van persoonsgegevens
+
+#### Afdeling 4. - Registers
+
+##### Art. 123
+
+#### Afdeling 5. - Functionaris voor gegevensbescherming
+
+##### Art. 124
+
+### HOOFDSTUK VIII. - Mededeling en doorgifte van persoonsgegevens
+
+#### Afdeling 1. - Mededeling van persoonsgegevens aan de publieke sector en de private sector
+
+##### Art. 125
+
+#### Afdeling 2. - Doorgifte van persoonsgegevens aan landen die geen lid zijn van de Europese Unie of aan internationale organisaties
+
+### HOOFDSTUK IX. - Toezichthoudende autoriteit
+
+### HOOFDSTUK X. - Verwerking van persoonsgegevens voor historische, wetenschappelijke of statistische doeleinden
+
+ONDERTITEL 4. - De bescherming van natuurlijke personen met betrekking tot de verwerking van persoonsgegevens door het coördinatieorgaan voor de dreigingsanalyse [1 en de gemeenschappelijke gegevensbank "Terrorisme, Extremisme, Radicaliseringsproces"]1
+
+### HOOFDSTUK I. - Definities
+
+##### Art. 138
+
+### HOOFDSTUK II. - Toepassingsgebied
+
+##### Art. 139
+
+### HOOFDSTUK III. - Algemene verwerkingsvoorwaarden
+
+### HOOFDSTUK IV. - Aard van de persoonsgegevens
+
+##### Art. 142
+
+### HOOFDSTUK V. - Bewaring van persoonsgegevens
+
+##### Art. 143
+
+### HOOFDSTUK VI. - Rechten van de betrokkene
+
+### HOOFDSTUK VII. - Verplichtingen van de verwerkingsverantwoordelijke en de verwerker
+
+#### Afdeling 1. - Algemene verplichtingen
+
+#### Afdeling 2. - Gezamenlijke verwerkingsverantwoordelijken
+
+##### Art. 153
+
+#### Afdeling 3. - Beveiliging van persoonsgegevens
+
+#### Afdeling 4. - Registers
+
+##### Art. 156
+
+#### Afdeling 5. - Functionaris voor gegevensbescherming
+
+### HOOFDSTUK VIII. - Mededeling en doorgifte van persoonsgegevens
+
+#### Afdeling 1. - Mededeling van persoonsgegevens aan de publieke sector en de private sector
+
+##### Art. 158
+
+#### Afdeling 2. - Doorgifte van persoonsgegevens aan landen die geen lid zijn van de Europese Unie of aan internationale organisaties
+
+### HOOFDSTUK IX. - Toezichthoudende autoriteit
+
+##### Art. 161
+
+### HOOFDSTUK X. - Verwerking van persoonsgegevens voor historische, wetenschappelijke of statistische doeleinden
+
+ONDERTITEL 5. - De bescherming van natuurlijke personen met betrekking tot bepaalde verwerkingen van persoonsgegevens door de passagiersinformatie-eenheid
+
+### HOOFDSTUK I. - Definities
+
+##### Art. 168
+
+### HOOFDSTUK II. - Toepassingsgebied
+
+##### Art. 169
+
+### HOOFDSTUK III. - Algemene verwerkingsvoorwaarden
+
+##### Art. 170
+
+### HOOFDSTUK IV. - Bewaring van persoonsgegevens
+
+##### Art. 171
+
+### HOOFDSTUK V. - Rechten van de betrokkene
+
+### HOOFDSTUK VI. - Verplichtingen van de verwerkingsverantwoordelijke
+
+#### Afdeling 1. - Algemene verplichtingen
+
+#### Afdeling 2. - Beveiliging van persoonsgegevens
+
+#### Afdeling 3. - Register
+
+##### Art. 181
+
+### HOOFDSTUK VII. - Mededeling en doorgifte van persoonsgegevens
+
+### HOOFDSTUK VIII. - Toezichthoudende autoriteit
+
+##### Art. 184
+
+ONDERTITEL 6. - Bijzondere bepalingen
+
+##### Art. 185
+
+## TITEL 4. - Verwerking met het oog op archivering in het algemeen belang, wetenschappelijk of historisch onderzoek of statistische doeleinden bedoeld in artikel 89, §§ 2 en 3, van de Verordening
+
+### HOOFDSTUK I. - Algemene bepalingen
+
+### HOOFDSTUK II. - Algemene waarborgen
+
+### HOOFDSTUK III. - Gegevensverzameling
+
+#### Afdeling 1. - Gegevensverzameling bij de betrokkene
+
+##### Art. 193
+
+#### Afdeling 2. - Verdere verwerking van gegevens
+
+#### Afdeling 3. - Anonimisering of pseudonimisering van de gegevens verwerkt met het oog op wetenschappelijk of historisch onderzoek of statistische doeleinden
+
+#### Afdeling 4. - Verspreiding van gegevens verwerkt met het oog op archivering in het algemeen belang, het wetenschappelijk of historisch onderzoek of statistische doeleinden
+
+#### Afdeling 5. - Mededeling van de gegevens verwerkt met het oog op archivering in het algemeen belang, het wetenschappelijk of historisch onderzoek of statistische doeleinden
+
+## TITEL 5. - Rechtsmiddelen en vertegenwoordiging van de betrokkenen
+
+### HOOFDSTUK I. - Vordering tot staking
+
+### HOOFDSTUK II. - Vertegenwoordiging van betrokkenen
+
+##### Art. 220
+
+## TITEL 6. - Sancties
+
+### HOOFDSTUK I. - Administratieve sancties
+
+##### Art. 221
+
+### HOOFDSTUK II. - Strafsancties
+
+## TITEL 7. - Controleorgaan op de politionele informatie
+
+### HOOFDSTUK I. - Samenstelling en statuut van de leden en van de dienst onderzoeken
+
+### HOOFDSTUK II. - De opdrachten
+
+### HOOFDSTUK III. - Bevoegdheden van het Controleorgaan, van haar leden en van de leden van de dienst onderzoeken
+
+### HOOFDSTUK IV. - Financiering
+
+##### Art. 251
+
+## TITEL 8. - Slotbepalingen
+
+##### Art. 252
+
+### HOOFDSTUK I. - Wijzigingsbepalingen
+
+### HOOFDSTUK II. - Opheffingsbepalingen
+
+##### Art. 280
+
+### HOOFDSTUK III. - Inwerkingtreding en overgangsbepalingen
+
+Tekst
 
 VOORAFGAANDE TITEL. - Inleidende bepalingen
 
@@ -138,7 +447,9 @@ In uitvoering van artikel 9.4 van de Verordening neemt de verwerkingsverantwoord
 4° voor zover de verwerking noodzakelijk is voor wetenschappelijk, historisch of statistisch onderzoek of met het oog op archivering; of
 5° indien de betrokkene uitdrukkelijke schriftelijke toestemming heeft gegeven voor de verwerking van die persoonsgegevens voor een of meer welbepaalde doeleinden en de verwerking tot die doeleinden blijft beperkt; of
 6° indien de verwerking betrekking heeft op de persoonsgegevens die kennelijk door de betrokkene op eigen initiatief openbaar zijn gemaakt voor een of meer welbepaalde doeleinden en de verwerking tot die doeleinden blijft beperkt.
-§ 2. De verwerkingsverantwoordelijke en, in voorkomend geval, de verwerker stellen een lijst op van de categorieën van personen die toegang hebben tot de persoonsgegevens, met een beschrijving van hun hoedanigheid ten opzichte van de verwerking van de beoogde gegevens. Deze lijst wordt ter beschikking gehouden van de bevoegde toezichthoudende autoriteit.
+§ 2. De verwerkingsverantwoordelijke en, in voorkomend geval, de verwerker stellen een lijst op van de
+
+categorieën van personen die toegang hebben tot de persoonsgegevens, met een beschrijving van hun hoedanigheid ten opzichte van de verwerking van de beoogde gegevens. Deze lijst wordt ter beschikking gehouden van de bevoegde toezichthoudende autoriteit.
 De verwerkingsverantwoordelijke en, in voorkomend geval, de verwerker zorgen dat de aangewezen personen door een wettelijke of statutaire verplichting, of door een evenwaardige contractuele bepaling, ertoe gehouden zijn het vertrouwelijke karakter van de betrokken gegevens in acht te nemen.
 
 elektronische communicatie en onverminderd de toepassing van de Verordening en deze wet, is de registratie van elektronische communicatie en de daarmee verband houdende verkeersgegevens uitgevoerd in het legale zakelijke verkeer ten bewijze van een commerciële transactie of van een andere zakelijke communicatie toegestaan, op voorwaarde dat de bij de communicatie betrokken partijen vóór de registratie op de hoogte gebracht worden van de registratie, de precieze doeleinden ervan en de duur van de opslag van de registratie.
@@ -159,7 +470,9 @@ Het eerste lid is niet van toepassing voor de technische opslag van informatie o
 1° de wet hem hiertoe verplicht in het kader van een geschillenprocedure; of
 2° de betrokken overheid bedoeld in titel 3 hem dit toestaat.
 De verwerkingsverantwoordelijke of de bevoegde overheid deelt niet mee dat hij in het bezit is van gegevens die van overheden bedoeld in titel 3 afkomstig zijn.
-§ 3. De beperkingen bedoeld in paragraaf 1 hebben eveneens betrekking op de logbestanden van de verwerkingen van een overheid bedoeld in titel 3 in de gegevensbanken van de verwerkingsverantwoordelijken bedoeld in deze titel waartoe de overheid rechtstreeks toegang heeft.
+§ 3. De beperkingen bedoeld in paragraaf 1 hebben eveneens betrekking op de logbestanden van de verwerkingen van een overheid bedoeld in titel 3 in de gegevensbanken van de verwerkingsverantwoordelijken
+
+bedoeld in deze titel waartoe de overheid rechtstreeks toegang heeft.
 § 4. De verwerkingsverantwoordelijke bedoeld in deze titel die gegevens verwerkt die rechtstreeks of onrechtstreeks afkomstig zijn van de overheden bedoeld in titel 3 beantwoordt minstens aan de volgende voorwaarden :
 1° hij neemt de gepaste technische of organisatorische maatregelen om ervoor te zorgen dat de toegang tot de gegevens en de verwerkingsmogelijkheden beperkt zijn tot hetgeen de personen nodig hebben om hun functies uit te oefenen of tot hetgeen nodig is voor de behoeften van de dienst;
 2° hij neemt de gepaste technische of organisatorische maatregelen om de persoonsgegevens te beschermen tegen toevallige of niet-toegestane vernietiging, tegen toevallig verlies en tegen wijziging of elke andere niettoegestane verwerking van die gegevens.
@@ -192,7 +505,9 @@ De betrokken overheid bedoeld in titel 3 kan afwijken van het eerste lid wanneer
 
 § 1. In toepassing van artikel 23 van de Verordening zijn de in de artikelen 12 tot 22 en 34 van de Verordening bedoelde rechten en het principe van transparantie van de verwerking bedoeld in artikel 5 van de Verordening niet van toepassing op de verwerkingen van gegevens die rechtstreeks of onrechtstreeks afkomstig zijn van de gerechtelijke overheden, de politiediensten, de algemene inspectie van de federale politie en de lokale politie, de Cel voor Financiële Informatieverwerking, de Algemene administratie van douane en accijnzen en de Passagiersinformatie-eenheid als bedoeld in titel 2, ten aanzien van :
 1° de overheden, in de zin van artikel 5 van deze wet, aan wie de gegevens door de politiediensten werden bezorgd door of krachtens een wet, een decreet of een ordonnantie;
-2° andere instanties en organen waaraan de gegevens werden bezorgd door of krachtens een wet, een decreet of een ordonnantie.
+2° andere instanties en organen waaraan de gegevens werden bezorgd door of krachtens een wet, een
+
+decreet of een ordonnantie.
 § 2. De verwerkingsverantwoordelijke bedoeld in deze titel die in het bezit is van gegevens bedoeld in paragraaf 1 deelt deze niet mee aan de betrokkene tenzij :
 1° de wet hem hiertoe verplicht in het kader van een geschillenprocedure; of
 2° de gerechtelijke overheden, de politiediensten, de Algemene inspectie van de federale politie en de lokale politie, de Cel voor Financiële Informatieverwerking, de Algemene administratie van douane en accijnzen en de Passagiersinformatie-eenheid als bedoeld in paragraaf 1, elk voor de gegevens die hen betreffen, hem dit toestaan.
@@ -217,7 +532,9 @@ Wanneer de Gegevensbeschermingsautoriteit gevat werd door de betrokkene, na ontv
 In toepassing van artikel 23 van de Verordening, zijn de artikelen 12 tot 22 en 34 van de Verordening, evenals het principe van transparantie van de verwerking bedoeld in artikel 5 van de Verordening, niet van toepassing op de verwerkingen van persoonsgegevens door de Passagiersinformatie-eenheid zoals bedoeld in hoofdstuk 7 van de wet van 25 december 2016 betreffende de verwerking van passagiersgegevens.
 De verwerkingsverantwoordelijke deelt de gegevens bedoeld in het eerste lid niet mee aan de betrokkene tenzij de wet hem hiertoe verplicht in het kader van een geschillenprocedure.
 De verwerkingsverantwoordelijke doet geen enkele melding aan de betrokkene dat hij in het bezit is van gegevens die betrekking hebben op hem.
-De beperkingen bedoeld in het eerste lid hebben eveneens betrekking op de logbestanden van de verwerkingen door de Passagiersinformatie-eenheid, in de gegevensbanken van de verwerkingsverantwoordelijken bedoeld in deze titel.
+De beperkingen bedoeld in het eerste lid hebben eveneens betrekking op de logbestanden van de verwerkingen door de Passagiersinformatie-eenheid, in de gegevensbanken van de verwerkingsverantwoordelijken bedoeld in
+
+deze titel.
 Wanneer een verzoek of een klacht aanhangig wordt gemaakt bij de bevoegde toezichthoudende autoriteit waarbij de verwerkingsverantwoordelijke zich beroept op de toepassing van dit artikel, antwoordt de toezichthoudende autoriteit alleen dat de nodige verificaties zijn verricht.
 
 ##### Art. 16
@@ -266,7 +583,9 @@ Dit protocol kan in het bijzonder voorzien in :
 
 ##### Art. 21
 
-In uitvoering van artikel 37.4 van de Verordening wijst een privéorgaan dat persoonsgegevens verwerkt voor rekening van een federale overheid, of waaraan een federale overheid persoonsgegevens doorgeeft, een functionaris voor gegevensbescherming aan indien de verwerking van deze gegevens een hoog risico kan inhouden zoals bedoeld in artikel 35 van de Verordening.
+In uitvoering van artikel 37.4 van de Verordening wijst een privéorgaan dat persoonsgegevens verwerkt voor rekening van een federale overheid, of waaraan een federale overheid persoonsgegevens doorgeeft, een functionaris voor gegevensbescherming aan indien de verwerking van deze gegevens een hoog
+
+risico kan inhouden zoals bedoeld in artikel 35 van de Verordening.
 
 ##### Art. 22
 
@@ -302,7 +621,9 @@ de toepassing van deze titel wordt verstaan onder :
 1° "persoonsgegevens" : alle informatie over een geïdentificeerde of identificeerbare natuurlijke persoon, hierna genoemd "de betrokkene"; als identificeerbaar wordt beschouwd een natuurlijke persoon die direct of indirect kan worden geïdentificeerd, met name aan de hand van een identificatiemiddel zoals een naam, een identificatienummer, locatiegegevens, een online identificatiemiddel of van één of meer elementen die kenmerkend zijn voor de fysieke, fysiologische, genetische, psychische, economische, culturele of sociale identiteit van die natuurlijke persoon;
 2° "verwerking" : een bewerking of een geheel van bewerkingen met betrekking tot persoonsgegevens of een geheel van persoonsgegevens, al dan niet uitgevoerd via geautomatiseerde procedés, zoals het verzamelen, vastleggen, ordenen, structureren, opslaan, bijwerken of wijzigen, opvragen, raadplegen, gebruiken, bekendmaking door middel van doorzending, verspreiden of op andere wijze ter beschikking stellen, aligneren of combineren, afschermen, wissen of vernietigen van gegevens;
 3° "verwerkingsbeperking" : het markeren van opgeslagen persoonsgegevens met als doel de verwerking ervan in de toekomst te beperken;
-4° "profilering" : elke vorm van geautomatiseerde verwerking van persoonsgegevens waarbij aan de hand van persoonsgegevens bepaalde persoonlijke aspecten van een natuurlijke persoon worden geëvalueerd, met name met de bedoeling aspecten betreffende zijn beroepsprestaties, economische situatie, gezondheid, persoonlijke voorkeuren, interesses, betrouwbaarheid, gedrag, locatie of verplaatsingen van deze natuurlijke persoon te analyseren of te voorspellen;
+4° "profilering" : elke vorm van geautomatiseerde verwerking van persoonsgegevens waarbij aan de hand van persoonsgegevens bepaalde persoonlijke aspecten van een natuurlijke persoon worden geëvalueerd, met name met de bedoeling aspecten betreffende zijn beroepsprestaties, economische situatie, gezondheid, persoonlijke voorkeuren, interesses, betrouwbaarheid, gedrag, locatie of verplaatsingen van deze natuurlijke persoon te
+
+analyseren of te voorspellen;
 5° "pseudonimisering" : het verwerken van persoonsgegevens op zodanige wijze dat de persoonsgegevens niet meer aan een specifieke betrokkene kunnen worden gekoppeld zonder dat er aanvullende gegevens worden gebruikt, mits deze aanvullende gegevens apart worden bewaard en technische en organisatorische maatregelen worden genomen om te waarborgen dat de persoonsgegevens niet aan een geïdentificeerde of identificeerbare natuurlijke persoon worden gekoppeld;
 6° "bestand" : elk gestructureerd geheel van persoonsgegevens die volgens bepaalde criteria toegankelijk zijn, ongeacht of dit gecentraliseerd of gedecentraliseerd is dan wel op functionele of geografische gronden is verspreid;
 7° "bevoegde overheden" :
@@ -323,7 +644,9 @@ j) de diensten van de Federale Overheidsdienst Justitie in het kader van hun wet
 12° "genetische gegevens" : persoonsgegevens die verband houden met de overgeërfde of verworven genetische kenmerken van een natuurlijke persoon die unieke informatie verschaffen over de fysiologie of de gezondheid van die natuurlijke persoon en die met name voortkomen uit een analyse van een biologisch monster van die natuurlijke persoon;
 13° "biometrische gegevens" : persoonsgegevens die het resultaat zijn van een specifieke technische verwerking met betrekking tot de fysieke, fysiologische of gedragsgerelateerde kenmerken van een natuurlijke persoon op grond waarvan eenduidige identificatie van die natuurlijke persoon mogelijk is of wordt bevestigd, zoals gezichtsafbeeldingen of vingerafdrukgegevens;
 14° "gezondheidsgegevens" : persoonsgegevens die verband houden met de fysieke of mentale gezondheid van een natuurlijke persoon, met inbegrip van de persoonsgegevens over verleende gezondheidsdiensten, waarmee informatie over zijn gezondheidstoestand wordt gegeven;
-15° "toezichthoudende autoriteit" : de onafhankelijke overheidsinstantie die bij wet belast is met het toezicht op de toepassing van deze titel;
+15° "toezichthoudende autoriteit" : de onafhankelijke overheidsinstantie die bij wet belast is met het toezicht op
+
+de toepassing van deze titel;
 16° "internationale organisatie" : een organisatie en de daaronder vallende internationaal publiekrechtelijke organen of andere organen die zijn opgericht bij of op grond van een overeenkomst tussen twee of meer landen;
 17° "internationale overeenkomst" : elke van kracht zijnde bilaterale of multilaterale internationale overeenkomst tussen lidstaten van de Europese Unie en derde landen op het gebied van justitiële samenwerking en/of politiële samenwerking.
 (1)<W 2024-03-29/32, art. 42, 004; Inwerkingtreding : 09-05-2024>
@@ -365,6 +688,7 @@ In dat geval voorziet de wet, het decreet of de ordonnantie in een maximale bewa
 
 De verwerkingsverantwoordelijke maakt in voorkomend geval en voor zover mogelijk een duidelijk onderscheid tussen persoonsgegevens betreffende verschillende categorieën van betrokkenen, zoals :
 1° personen ten aanzien van wie gegronde vermoedens bestaan dat zij een strafbaar feit hebben gepleegd of zullen plegen;
+
 2° personen die voor een strafbaar feit zijn veroordeeld;
 3° slachtoffers van een strafbaar feit, of personen ten aanzien van wie bepaalde feiten aanleiding geven tot het vermoeden dat zij het slachtoffer zouden kunnen worden van een strafbaar feit;
 4° andere personen die bij een strafbaar feit betrokken zijn, zoals personen die als getuige kunnen worden opgeroepen in een onderzoek naar strafbare feiten of een daaruit voortvloeiende strafrechtelijke procedure, personen die informatie kunnen verstrekken over strafbare feiten, of personen die contact hebben of banden onderhouden met een van de personen bedoeld in de bepalingen onder 1° en 2°.
@@ -404,7 +728,9 @@ Profilering die leidt tot discriminatie van natuurlijke personen op grond van de
 
 § 1. De verwerkingsverantwoordelijke neemt passende maatregelen om de in artikel 37 bedoelde informatie te verstrekken en mededelingen te doen bedoeld in de artikelen 35, 38 tot 41 en artikel 62 in een beknopte, begrijpelijke en gemakkelijk toegankelijke vorm en in duidelijke en eenvoudige taal. De informatie wordt op elke passende manier, ook elektronisch, verstrekt. Over het algemeen, verstrekt de verwerkingsverantwoordelijke de informatie in dezelfde vorm als het verzoek.
 § 2. De verwerkingsverantwoordelijke faciliteert de uitoefening van de rechten van de betrokkene uit hoofde van de artikelen 35 en 38 tot 41.
-§ 3. De verwerkingsverantwoordelijke of de toezichthoudende autoriteit, in het geval bedoeld in artikel 41, informeert de betrokkene schriftelijk, zonder onnodige vertraging met betrekking tot de opvolging van zijn verzoek.
+§ 3. De verwerkingsverantwoordelijke of de toezichthoudende autoriteit, in het geval bedoeld in artikel 41,
+
+informeert de betrokkene schriftelijk, zonder onnodige vertraging met betrekking tot de opvolging van zijn verzoek.
 § 4. Eenieder heeft het recht om kosteloos de informatie bedoeld in artikel 37, te verkrijgen en de maatregelen bedoeld in de artikelen 35, 38 tot 41 en 62, te laten nemen. Wanneer verzoeken van een betrokkene kennelijk ongegrond of buitensporig zijn, met name vanwege hun repetitieve karakter, mag de verwerkingsverantwoordelijke ofwel :
 1° een redelijke vergoeding aanrekenen in het licht van de administratieve kosten waarmee het verstrekken van de gevraagde informatie of communicatie en het nemen van de gevraagde maatregelen gepaard gaan; ofwel
 2° weigeren gevolg te geven aan het verzoek.
@@ -443,7 +769,9 @@ Het is aan de verwerkingsverantwoordelijke om de kennelijk ongegronde of buitens
 6° dat hij het recht heeft van de verwerkingsverantwoordelijke de rectificatie of wissing van hem betreffende persoonsgegevens of beperking van verwerking van hem betreffende persoonsgegevens te vragen;
 7° dat hij het recht heeft klacht in te dienen bij de toezichthoudende autoriteit, en de contactgegevens van deze autoriteit;
 8° de persoonsgegevens die worden verwerkt, en alle beschikbare informatie over de oorsprong van die gegevens.
-§ 2. De wet, het decreet of de ordonnantie kan het recht op toegang van de betrokkene geheel of gedeeltelijk beperken, voor zover en zolang die volledige of gedeeltelijke beperking in een democratische samenleving, met inachtneming van de grondrechten en legitieme belangen van de natuurlijke persoon in kwestie, een noodzakelijke en evenredige maatregel is om :
+§ 2. De wet, het decreet of de ordonnantie kan het recht op toegang van de betrokkene geheel of gedeeltelijk beperken, voor zover en zolang die volledige of gedeeltelijke beperking in een democratische samenleving, met inachtneming van de grondrechten en legitieme belangen van de natuurlijke persoon in kwestie, een
+
+noodzakelijke en evenredige maatregel is om :
 1° belemmering van strafrechtelijke of andere gereglementeerde onderzoeken, opsporingen of procedures te voorkomen;
 2° nadelige gevolgen voor de voorkoming, de opsporing, het onderzoek en de vervolging van strafbare feiten of de tenuitvoerlegging van straffen te voorkomen;
 3° de openbare veiligheid te beschermen;
@@ -484,6 +812,7 @@ In het geval bedoeld in het eerste lid, dient de betrokkene het verzoek om zijn 
 ##### Art. 42
 
 Het verzoek tot uitoefening van de rechten bedoeld in dit hoofdstuk voor wat betreft de politiedienst in de zin van artikel 2, 2°, van de wet van 7 december 1998 tot organisatie van een geïntegreerde politie gestructureerd op twee niveaus of de algemene inspectie van de federale politie en de lokale politie, wordt aan de toezichthoudende autoriteit bedoeld in artikel 71 gericht.
+
 In de in de artikelen 37, § 2, 38, § 2, 39, § 4, en 62, § 1, bedoelde gevallen deelt de toezichthoudende autoriteit bedoeld in artikel 71 uitsluitend mee aan de betrokkene dat de nodige verificaties werden verricht.
 Niettegenstaande het tweede lid kan de toezichthoudende autoriteit bedoeld in artikel 71 aan de betrokkene bepaalde contextuele informatie verstrekken.
 De Koning, na advies van de toezichthoudende autoriteit bedoeld in artikel 71, bepaalt de categorieën van contextuele informatie die door deze toezichthoudende autoriteit aan de betrokkene kunnen worden medegedeeld.
@@ -521,7 +850,9 @@ Een verwerkingsverantwoordelijke of een bevoegde overheid bedoeld in deze titel 
 
 ##### Art. 47
 
-Wanneer een overheid bedoeld in ondertitels 1 en 6 van titel 3 van deze wet over een rechtstreekse toegang of over een rechtstreekse bevraging van een gegevensbank van de publieke sector beschikt, wordt de verwerking van de persoonsgegevens beschermd door technische, organisatorische en persoonlijke beveiligingsmaatregelen zodat alleen de volgende actoren toegang kunnen hebben tot de inhoud van deze verwerkingen in het kader van de doeleinden bedoeld in artikel 56, § 2 :
+Wanneer een overheid bedoeld in ondertitels 1 en 6 van titel 3 van deze wet over een rechtstreekse toegang of over een rechtstreekse bevraging van een gegevensbank van de publieke sector beschikt, wordt de verwerking van de persoonsgegevens beschermd door technische, organisatorische en persoonlijke
+
+beveiligingsmaatregelen zodat alleen de volgende actoren toegang kunnen hebben tot de inhoud van deze verwerkingen in het kader van de doeleinden bedoeld in artikel 56, § 2 :
 1° de functionaris voor gegevensbescherming van de verwerkingsverantwoordelijke van de gegevensbank of de persoon die hij daartoe machtigt;
 2° de functionaris voor gegevensbescherming van de overheid bedoeld in ondertitels 1 en 6 van titel 3;
 3° de verwerkingsverantwoordelijke van de gegevensbank of de persoon die hij daartoe machtigt;
@@ -610,6 +941,7 @@ De verwerker en eenieder die onder het gezag van de verwerkingsverantwoordelijke
 10° het gebruik van profilering;
 11° de rechtsgrondslag;
 12° de categorie van externe bronnen;
+
 13° het protocol bedoeld in artikel 20 evenals het advies van de functionaris voor gegevensbescherming en de motivering bedoeld in artikel 22.
 § 2. De functionaris voor gegevensbescherming wordt betrokken bij de uitwerking en het bijhouden van het register.
 § 3. Het register wordt ter beschikking gesteld van de bevoegde toezichthoudende autoriteit.
@@ -647,7 +979,9 @@ De bevoegde toezichthoudende autoriteit wordt geraadpleegd bij het opstellen van
 
 ##### Art. 60
 
-§ 1. De verwerkingsverantwoordelijke en de verwerker nemen passende technische en organisatorische maatregelen om een op het risico afgestemd beveiligingsniveau te waarborgen, met name met betrekking tot de verwerking van persoonsgegevens bedoeld in artikel 34 van deze wet en rekening houdend met de stand van de techniek, de uitvoeringskosten en de aard, de reikwijdte, de context en de doeleinden van de verwerking, alsmede met de qua waarschijnlijkheid en ernst uiteenlopende risico's voor de rechten en vrijheden van natuurlijke personen, om een op het risico afgestemd beveiligingsniveau te waarborgen.
+§ 1. De verwerkingsverantwoordelijke en de verwerker nemen passende technische en
+
+organisatorische maatregelen om een op het risico afgestemd beveiligingsniveau te waarborgen, met name met betrekking tot de verwerking van persoonsgegevens bedoeld in artikel 34 van deze wet en rekening houdend met de stand van de techniek, de uitvoeringskosten en de aard, de reikwijdte, de context en de doeleinden van de verwerking, alsmede met de qua waarschijnlijkheid en ernst uiteenlopende risico's voor de rechten en vrijheden van natuurlijke personen, om een op het risico afgestemd beveiligingsniveau te waarborgen.
 § 2. Ten aanzien van de geautomatiseerde verwerking neemt de verwerkingsverantwoordelijke of de verwerker, na beoordeling van het risico, maatregelen om :
 1° te verhinderen dat onbevoegden toegang krijgen tot de verwerkingsapparatuur;
 2° te verhinderen dat onbevoegden de gegevensdragers kunnen lezen, kopiëren, wijzigen of verwijderen;
@@ -681,6 +1015,7 @@ Wanneer de kennisgeving aan de bevoegde toezichthoudende autoriteit niet binnen 
 § 3. De in paragraaf 1 bedoelde mededeling aan de betrokkene is niet vereist wanneer een van de volgende voorwaarden is vervuld :
 1° de verwerkingsverantwoordelijke heeft passende technische en organisatorische beschermingsmaatregelen genomen en deze maatregelen zijn toegepast op de persoonsgegevens waarop de inbreuk op de beveiliging betrekking heeft, met name die welke de persoonsgegevens onbegrijpelijk maken voor onbevoegden, zoals versleuteling;
 2° de verwerkingsverantwoordelijke heeft achteraf maatregelen genomen om ervoor te zorgen dat het in paragraaf 1 bedoelde hoge risico voor de rechten en vrijheden van betrokkenen zich waarschijnlijk niet meer zal voordoen;
+
 3° de mededeling zou onevenredige inspanningen vergen.
 In het geval bedoeld in het eerste lid, 3°, komt er daarvan een openbare mededeling of een soortgelijke maatregel waarbij de betrokkenen even doeltreffend worden geïnformeerd.
 § 4. Indien de verwerkingsverantwoordelijke de inbreuk op de beveiliging nog niet aan de betrokkene heeft gemeld, kan de bevoegde toezichthoudende autoriteit, na beraad over de kans dat de inbreuk op de beveiliging een hoog risico met zich meebrengt, de verwerkingsverantwoordelijke daartoe verplichten of besluiten dat aan een van de in paragraaf 3 bedoelde voorwaarden is voldaan.
@@ -722,7 +1057,9 @@ De functionaris voor gegevensbescherming vervult in het bijzonder de volgende op
 1° de doorgifte is noodzakelijk met het oog op de doeleinden van artikel 27;
 2° de persoonsgegevens worden doorgegeven aan een verwerkingsverantwoordelijke in een land buiten de Europese Unie of in een internationale organisatie die een bevoegde overheid is voor de in artikel 27, bedoelde doeleinden;
 3° ingeval persoonsgegevens worden doorgezonden of beschikbaar gesteld vanuit een andere lidstaat van de Europese Unie, heeft die lidstaat overeenkomstig zijn nationale recht zijn voorafgaande toestemming gegeven voor de doorgifte;
-4° de Europese Commissie heeft een adequaatheidsbesluit bedoeld in artikel 67 vastgesteld, of, indien een dergelijk besluit er niet is, zijn er krachtens artikel 68 passende waarborgen geboden of gelden er afwijkingen voor specifieke situaties uit hoofde van artikel 69;
+4° de Europese Commissie heeft een adequaatheidsbesluit bedoeld in artikel 67 vastgesteld, of, indien een
+
+dergelijk besluit er niet is, zijn er krachtens artikel 68 passende waarborgen geboden of gelden er afwijkingen voor specifieke situaties uit hoofde van artikel 69;
 5° in het geval van een verdere doorgifte aan een ander land buiten de Europese Unie of een andere internationale organisatie, geeft de verwerkingsverantwoordelijke, toestemming voor de verdere doorgifte, na alle relevante factoren naar behoren in aanmerking te hebben genomen, met inbegrip van de ernst van het strafbare feit, het doel waarvoor de persoonsgegevens oorspronkelijk waren doorgegeven en het niveau van persoonsgegevensbescherming in het derde land of de internationale organisatie waaraan de persoonsgegevens verder worden doorgegeven.
 § 2. De doorgifte zonder de voorafgaande toestemming vanwege een andere lidstaat van de Europese Unie zoals bedoeld in paragraaf 1, 3°, is slechts toegelaten indien deze doorgifte van persoonsgegevens noodzakelijk is met het oog op de voorkoming van een acute en ernstige bedreiging van de openbare veiligheid van een lidstaat of een derde land of voor de fundamentele belangen van een lidstaat van de Europese Unie, en voorafgaande toestemming niet tijdig kan worden verkregen. De voor het geven van voorafgaande toestemming verantwoordelijke overheid wordt onverwijld in kennis gesteld.
 
@@ -763,7 +1100,9 @@ De documentatie wordt desgevraagd ter beschikking gesteld van de bevoegde toezic
 1° de doorgifte is strikt noodzakelijk voor de uitvoering van de opdrachten van de bevoegde autoriteit die de doorgifte doet;
 2° de bevoegde autoriteit die de gegevens doorgeeft, stelt vast dat er geen fundamentele rechten en vrijheden van de betrokkene voorrang hebben op het algemeen belang waarvoor de overdracht in het betreffende geval vereist is;
 3° de bevoegde autoriteit die de doorgifte doet, meent dat de doorgifte aan een bevoegde autoriteit binnen het desbetreffende land ondoeltreffend of ongeschikt is, met name omdat de doorgifte niet tijdig kan worden bewerkstelligd;
-4° de bevoegde autoriteit in het desbetreffende land wordt zonder onnodige vertraging op de hoogte gebracht, tenzij dat ondoeltreffend of ongeschikt is;
+4° de bevoegde autoriteit in het desbetreffende land wordt zonder onnodige vertraging op de hoogte gebracht,
+
+tenzij dat ondoeltreffend of ongeschikt is;
 5° de bevoegde autoriteit die de doorgifte doet, licht de ontvanger in over het nader bepaalde doel of de nader bepaalde doeleinden waarvoor de persoonsgegevens bij uitsluiting door laatstgenoemde mogen worden verwerkt, op voorwaarde dat een dergelijke verwerking noodzakelijk is.
 § 2. De bevoegde autoriteit die de doorgifte doet, stelt de toezichthoudende autoriteit in kennis van doorgiften die gebeuren in het kader van dit artikel.
 § 3. Wanneer een doorgifte is gebaseerd op paragraaf 1, wordt die gedocumenteerd.
@@ -915,6 +1254,7 @@ Deze maatregelen verzekeren een passend beveiligingsniveau, rekening houdend, en
 1° de aard van de inbreuk op de beveiliging en indien mogelijk, bij benadering, het aantal betrokkenen en de opgeslagen persoonsgegevens in kwestie;
 2° de naam en de contactgegevens van de functionaris voor gegevensbescherming of een ander contactpunt bij wie bijkomende informatie kan worden verkregen;
 3° de waarschijnlijke gevolgen van de inbreuk op de beveiliging;
+
 4° de maatregelen die de verwerkingsverantwoordelijke, of de verwerker heeft genomen of voorgesteld om de inbreuk op de beveiliging aan te pakken, waaronder desgevallend maatregelen ter beperking van de eventuele nadelige gevolgen daarvan.
 
 #### Afdeling 4. - Registers
@@ -959,6 +1299,7 @@ De functionaris voor gegevensbescherming kan zich tot het Vast Comité I wenden 
 De functionaris voor gegevensbescherming is de contactpersoon voor het Vast Comité I met betrekking tot de toepassing van deze ondertitel.
 § 4. De verwerkingsverantwoordelijke en, desgevallend, de verwerker zien erop toe dat hun functionaris voor gegevensbescherming tijdig en naar behoren wordt betrokken bij alle aangelegenheden die met de bescherming van persoonsgegevens verband houden.
 De verwerkingsverantwoordelijke, en desgevallend, de verwerker zien erop toe dat de functionaris voor gegevensbescherming de benodigde middelen ter beschikking heeft voor het vervullen van zijn opdrachten.
+
 De functionaris voor gegevensbescherming kan worden bijgestaan door één of meerdere adjuncten.
 § 5. Desgevallend kunnen nadere regels voor de werking, de aanwijzing en de vereiste bevoegdheden door de Koning worden bepaald.
 
@@ -1007,7 +1348,9 @@ Het Vast Comité I waakt over de toepassing van deze ondertitel ter bescherming 
 ##### Art. 96
 
 Het Vast Comité I werkt, indien nodig, samen met de andere Belgische toezichthoudende autoriteiten, zonder dat dit afbreuk doet aan de fysieke integriteit van personen, of aan de opdrachten van de inlichtingen- en veiligheidsdiensten en de wet van 11 december 1998.
-In het kader van de uitoefening van het toezicht bedoeld in artikel 95, deelt het Vast Comité I in algemene termen het resultaat hiervan mee aan de andere bevoegde toezichthoudende autoriteiten. Deze maken deze resultaten niet aan de betrokkene over.
+In het kader van de uitoefening van het toezicht bedoeld in artikel 95, deelt het Vast Comité I in algemene termen het resultaat hiervan mee aan de andere bevoegde toezichthoudende autoriteiten. Deze maken deze
+
+resultaten niet aan de betrokkene over.
 
 ##### Art. 97
 
@@ -1143,6 +1486,7 @@ Iedere natuurlijke persoon heeft in verband met de verwerking van persoonsgegeve
 ##### Art. 113
 
 De betrokkene heeft het recht te vragen :
+
 1° om zijn onjuiste persoonsgegevens te laten verbeteren of verwijderen;
 2° om de verificatie bij de bevoegde toezichthoudende autoriteit van de naleving van de bepalingen van deze ondertitel.
 
@@ -1244,7 +1588,9 @@ Hij kan evenmin van zijn functie ontheven worden omwille van de uitvoering van z
 De functionaris voor gegevensbescherming kan zich tot het Vast Comité I wenden om deze beslissing aan te vechten.
 § 3. Hij is, op een onafhankelijke wijze, belast met :
 1° het toezien op de naleving van deze ondertitel bij elke verwerking van persoonsgegevens;
-2° het adviseren over alle nuttige maatregelen met het oog op het verzekeren van de beveiliging van de opgeslagen persoonsgegevens;
+2° het adviseren over alle nuttige maatregelen met het oog op het verzekeren van de beveiliging van de
+
+opgeslagen persoonsgegevens;
 3° het informeren en adviseren van de verwerkingsverantwoordelijke, en desgevallend de verwerker, en hun personeelsleden die de verwerking verrichten over hun verplichtingen op grond van de huidige ondertitel;
 4° het verstrekken van adviezen of aanbevelingen aan de verwerkingsverantwoordelijke, en desgevallend, aan de verwerker;
 5° het uitvoeren van andere opdrachten die hem door de verwerkingsverantwoordelijke, en desgevallend de verwerker, toevertrouwd worden.
@@ -1293,7 +1639,9 @@ In afwijking van artikel 126 mag een doorgifte van persoonsgegevens aan een land
 
 ##### Art. 128
 
-§ 1. In afwijking van de wet van 3 december 2017 tot oprichting van de Gegevensbeschermingsautoriteit, is het Vast Comité I, in zijn hoedanigheid van onafhankelijke publieke autoriteit, aangewezen als toezichthoudende autoriteit belast met de het toezicht op de verwerking van persoonsgegevens uitgevoerd in het kader van artikel 107, eerste lid, door de overheden en personen bedoeld in hetzelfde lid.
+§ 1. In afwijking van de wet van 3 december 2017 tot oprichting van de
+
+Gegevensbeschermingsautoriteit, is het Vast Comité I, in zijn hoedanigheid van onafhankelijke publieke autoriteit, aangewezen als toezichthoudende autoriteit belast met de het toezicht op de verwerking van persoonsgegevens uitgevoerd in het kader van artikel 107, eerste lid, door de overheden en personen bedoeld in hetzelfde lid.
 Het Vast Comité I waakt over de toepassing van deze ondertitel ter bescherming van de fundamentele rechten en vrijheden van de natuurlijke personen met betrekking tot deze verwerking.
 § 2. In zijn hoedanigheid van rechterlijke overheid is het beroepsorgaan niet onderworpen aan de controle door een toezichthoudende autoriteit voor de bescherming van persoonsgegevens.
 
@@ -1346,6 +1694,7 @@ Dit logbestand bevat de volgende informatie :
 
 Elke overheidsinstantie of elke natuurlijke of rechtspersoon die persoonsgegevens bedoeld in artikel 132 verwerkt om historische, wetenschappelijke of statistische doeleinden is de verantwoordelijke van deze verwerking.
 Zij of hij mag geen handelingen verrichten die zijn gericht op de omzetting van anonieme of gepseudonimiseerde gegevens in niet-anonieme of niet-gepseudonimiseerde gegevens.
+
 ONDERTITEL 4. - De bescherming van natuurlijke personen met betrekking tot de verwerking van persoonsgegevens door het coördinatieorgaan voor de dreigingsanalyse [1 en de gemeenschappelijke gegevensbank "Terrorisme, Extremisme, Radicaliseringsproces"]1 (1)<W 2024-03-29/15, art. 35, 007; Inwerkingtreding : 01-10-2024>
 
 ### HOOFDSTUK I. - Definities
@@ -1380,7 +1729,10 @@ mogen slechts verwerkt worden in één van de volgende gevallen :
 2° wanneer de verwerking noodzakelijk is voor de uitvoering van een overeenkomst waarbij de betrokkene partij is of voor de uitvoering van maatregelen die aan het sluiten van die overeenkomst voorafgaan en die op verzoek van de betrokkene zijn genomen;
 3° wanneer de verwerking nuttig is om een verplichting na te komen waaraan het OCAD is onderworpen door of krachtens een wet;
 4° wanneer de verwerking noodzakelijk is voor de vervulling van een taak van openbaar belang of die deel uitmaakt van de uitoefening van het openbaar gezag, die is opgedragen aan de verwerkingsverantwoordelijke of aan de overheidsinstantie aan wie de persoonsgegevens worden verstrekt;
-[1 5° wanneer de verwerking nuttig is in het kader van de doeleinden bedoeld in artikel 5, tweede lid, van de wet van 29 maart 2024 tot oprichting van de gemeenschappelijke gegevensbank "Terrorisme, Extremisme, Radicaliseringsproces" ("T.E.R.").]1 (1)<W 2024-03-29/15, art. 38, 007; Inwerkingtreding : 01-10-2024>
+[1 5° wanneer de verwerking nuttig is in het kader van de doeleinden bedoeld in artikel 5, tweede lid, van de wet van 29 maart 2024 tot oprichting van de gemeenschappelijke gegevensbank "Terrorisme, Extremisme,
+
+Radicaliseringsproces" ("T.E.R.").]1
+(1)<W 2024-03-29/15, art. 38, 007; Inwerkingtreding : 01-10-2024>
 
 ##### Art. 141
 
@@ -1478,6 +1830,7 @@ Deze maatregelen verzekeren een passend beveiligingsniveau, rekening houdend, en
 ##### Art. 155.§ 1. [1 Onder voorbehoud van artikel 13 van de wet van 29 maart 2024 tot oprichting van de gemeenschappelijke gegevensbank "Terrorisme, Extremisme, Radicaliseringsproces" ("T.E.R.") meldt de betrokken verwerkingsverantwoordelijke, indien er een inbreuk is op de beveiliging die een hoog risico voor de rechten en vrijheden van natuurlijke personen inhoudt, dit binnen de kortste termijn en indien mogelijk tweeënzeventig uur nadat hij er kennis van heeft genomen, aan de bevoegde toezichthoudende overheid.]1
 § 2. De verwerker verwittigt de verwerkingsverantwoordelijke binnen de kortste termijn van elke inbreuk op de beveiliging.
 § 3. In de in paragrafen 1 en 2 bedoelde melding wordt, op zijn minst, het volgende omschreven of meegedeeld :
+
 1° de aard van de inbreuk op de beveiliging en indien mogelijk, bij benadering, het aantal betrokkenen en de opgeslagen persoonsgegevens in kwestie;
 2° de naam en de contactgegevens van de functionaris voor gegevensbescherming of een ander contactpunt bij wie bijkomende informatie kan worden verkregen;
 3° de waarschijnlijke gevolgen van de inbreuk op de beveiliging;
@@ -1520,7 +1873,9 @@ De functionaris voor gegevensbescherming kan zich tot het Vast Comité I wenden 
 1° het toezien op de naleving van deze ondertitel bij elke verwerking van persoonsgegevens;
 2° het adviseren over alle nuttige maatregelen teneinde de veiligheid van de opgeslagen gegevens te verzekeren;
 3° het informeren en adviseren van de verwerkingsverantwoordelijke, en desgevallend de verwerker, het diensthoofd en de personeelsleden van de betrokken dienst die de verwerking verrichten over hun verplichtingen op grond van deze ondertitel;
-4° het verstrekken van adviezen of aanbevelingen aan de verwerkingsverantwoordelijke, en desgevallend aan de verwerker of de leidinggevende van het OCAD;
+4° het verstrekken van adviezen of aanbevelingen aan de verwerkingsverantwoordelijke, en desgevallend aan
+
+de verwerker of de leidinggevende van het OCAD;
 5° het uitvoeren van andere opdrachten die hem door de verwerkingsverantwoordelijke, en in voorkomend geval de verwerker of de leidinggevende van het OCAD toevertrouwd zijn.
 De functionaris voor gegevensbescherming is de contactpersoon met de bevoegde toezichthoudende autoriteit met betrekking tot de toepassing van deze ondertitel.
 § 4. De verwerkingsverantwoordelijke en, desgevallend, de verwerker zien erop toe dat hun functionaris voor gegevensbescherming tijdig en naar behoren wordt betrokken bij alle aangelegenheden die met de bescherming van persoonsgegevens verband houden.
@@ -1588,7 +1943,9 @@ In afwijking van artikel 159 mag een doorgifte van persoonsgegevens aan een land
 
 ##### Art. 161.Het
 
-Vast Comité I, in zijn hoedanigheid van onafhankelijke publieke autoriteit, en het Vast Comité van Toezicht op de politiediensten, worden aangewezen als gegevensbeschermingsautoriteiten belast met de controle van de verwerking van persoonsgegevens door het OCAD en zijn verwerkers volgens de nadere regels vastgelegd in de wet van 18 juli 1991.
+Vast Comité I, in zijn hoedanigheid van onafhankelijke publieke autoriteit, en het Vast Comité van Toezicht op de politiediensten, worden aangewezen als gegevensbeschermingsautoriteiten belast met de controle van de verwerking van persoonsgegevens door het OCAD en zijn verwerkers volgens de nadere regels
+
+vastgelegd in de wet van 18 juli 1991.
 [1 De toezichthoudende overheden bedoeld in artikel 2, 22°, van de wet van 29 maart 2024 tot oprichting van de gemeenschappelijke gegevensbank "Terrorisme, Extremisme, Radicaliseringsproces" ("T.E.R.") worden gezamenlijk aangewezen als gegevensbeschermingsautoriteiten belast met de controle van de verwerking van persoonsgegevens in de gemeenschappelijke gegevensbank T.E.R.]1 (1)<W 2024-03-29/15, art. 46, 007; Inwerkingtreding : 01-10-2024>
 
 ### HOOFDSTUK X. - Verwerking van persoonsgegevens voor historische, wetenschappelijke of statistische doeleinden
@@ -1614,7 +1971,9 @@ Indien een verdere verwerking van gepseudonimiseerde gegevens niet toelaat om de
 
 ##### Art. 165.In
 
-afwijking van titel 4, is een mededeling of publicatie van niet-geanonimiseerde of nietgepseudonimiseerde persoonsgegevens bedoeld in artikel 162, geraadpleegd door de verdere verwerkingsverantwoordelijke, is enkel mogelijk met het akkoord van het OCAD [1 of de operationeel verantwoordelijke van de gemeenschappelijke gegevensbank T.E.R. na overleg met de basisdiensten bedoeld in artikel 2, 2°, van de wet van 29 maart 2024 tot oprichting van de gemeenschappelijke gegevensbank "Terrorisme, Extremisme, Radicaliseringsproces" ("T.E.R."), wat betreft de gemeenschappelijke gegevensbank T.E.R.,]1 en onder de voorwaarden die het vastlegt.
+afwijking van titel 4, is een mededeling of publicatie van niet-geanonimiseerde of nietgepseudonimiseerde persoonsgegevens bedoeld in artikel 162, geraadpleegd door de verdere verwerkingsverantwoordelijke, is enkel mogelijk met het akkoord van het OCAD [1 of de operationeel verantwoordelijke van de gemeenschappelijke gegevensbank T.E.R. na overleg met de basisdiensten bedoeld in
+
+artikel 2, 2°, van de wet van 29 maart 2024 tot oprichting van de gemeenschappelijke gegevensbank "Terrorisme, Extremisme, Radicaliseringsproces" ("T.E.R."), wat betreft de gemeenschappelijke gegevensbank T.E.R.,]1 en onder de voorwaarden die het vastlegt.
 (1)<W 2024-03-29/15, art. 49, 007; Inwerkingtreding : 01-10-2024>
 
 ##### Art. 166.De
@@ -1658,7 +2017,9 @@ Persoonsgegevens :
 1° worden eerlijk en rechtmatig verwerkt;
 2° worden voor welbepaalde, uitdrukkelijk omschreven en gerechtvaardigde doeleinden verkregen en niet verder verwerkt op een wijze die, rekening houdend met alle relevante factoren, met name met de toepasselijke wettelijke en reglementaire bepalingen, onverenigbaar is met die doeleinden;
 3° zijn toereikend, terzake dienend en niet overmatig, uitgaande van de doeleinden waarvoor zij worden verkregen of waarvoor zij verder worden verwerkt;
-4° zijn nauwkeurig en worden, zo nodig, bijgewerkt. Alle redelijke maatregelen worden getroffen om de persoonsgegevens die, uitgaande van de doeleinden waarvoor zij worden verkregen of waarvoor zij verder worden verwerkt, onnauwkeurig of onvolledig zijn, te wissen of te verbeteren.
+4° zijn nauwkeurig en worden, zo nodig, bijgewerkt. Alle redelijke maatregelen worden getroffen om de persoonsgegevens die, uitgaande van de doeleinden waarvoor zij worden verkregen of waarvoor zij verder
+
+worden verwerkt, onnauwkeurig of onvolledig zijn, te wissen of te verbeteren.
 
 ### HOOFDSTUK IV. - Bewaring van persoonsgegevens
 
@@ -1720,6 +2081,7 @@ Deze maatregelen verzekeren een passend beveiligingsniveau, rekening houdend, en
 § 2. In de in paragraaf 1 bedoelde melding wordt, op zijn minst, het volgende omschreven of meegedeeld :
 1° de aard van de inbreuk op de beveiliging en indien mogelijk, bij benadering, het aantal betrokkenen en de opgeslagen persoonsgegevens in kwestie;
 2° de naam en de contactgegevens van de functionaris voor gegevensbescherming of een ander contactpunt bij wie bijkomende informatie kan worden verkregen;
+
 3° de waarschijnlijke gevolgen van de inbreuk op de beveiliging;
 4° de maatregelen die de verwerkingsverantwoordelijke heeft voorgesteld of genomen om de inbreuk op de beveiliging aan te pakken, waaronder desgevallend maatregelen ter beperking van de eventuele nadelige gevolgen daarvan.
 
@@ -1769,6 +2131,7 @@ ONDERTITEL 6. - Bijzondere bepalingen
 
 § 1. De volgende publieke overheden verwerken, voor zover noodzakelijk voor de uitoefening van hun opdrachten, persoonsgegevens van alle aard, inbegrepen die waaruit de raciale of etnische afkomst, de politieke opvattingen, de godsdienstige of levensbeschouwelijke overtuiging of het lidmaatschap van een vakvereniging blijken, alsook de genetische en biometrische gegevens, de gegevens over de gezondheid, de gegevens die het seksuele gedrag of de seksuele gerichtheid betreffen en deze met betrekking tot strafrechtelijke vervolgingen en tot inbreuken of veiligheidsmaatregelen die hiermee samenhangen :
 1° de bestuurlijke commissie belast met het toezicht op de specifieke en uitzonderlijke methoden voor het verzamelen van gegevens door de inlichtingen- en veiligheidsdiensten in het kader van hun opdrachten bedoeld in de wet van 30 november 1998 houdende regeling van de inlichtingen- en veiligheidsdiensten;
+
 2° het Vast Comité I in het kader van haar opdrachten bedoeld in de wet van 18 juli 1991 tot regeling van het toezicht op politie- en inlichtingendiensten en op het Coördinatieorgaan voor de dreigingsanalyse, in de wet van 30 november 1998 houdende regeling van de inlichtingen- en veiligheidsdiensten, en in bijzondere wetten;
 3° het Vast Comité P in het kader van zijn opdrachten bedoeld in de wet van 18 juli 1991 tot regeling van het toezicht op politie- en inlichtingendiensten en op het Coördinatieorgaan voor de dreigingsanalyse en in bijzondere wetten;
 4° het Controleorgaan op de politionele informatie in het kader van haar opdrachten bedoeld in artikel 71, § 1.
@@ -1879,6 +2242,7 @@ De verantwoordelijke voor de verdere verwerking heeft geen toegang tot de sleute
 ##### Art. 202
 
 § 1. Onverminderd bijzondere bepalingen, bij een verwerking van gegevens met het oog op wetenschappelijk of historisch onderzoek of statistische doeleinden waarbij meerdere oorspronkelijke verwerkingen worden gekoppeld, laten de verantwoordelijken voor de oorspronkelijke verwerkingen voorafgaandelijk aan de mededeling van de gegevens aan de verantwoordelijke voor de verdere verwerking, de gegevens anonimiseren of pseudonimiseren door een van de verantwoordelijken voor de oorspronkelijke verwerking of door een derde vertrouwenspersoon.
+
 § 2. Onverminderd bijzondere bepalingen, bij een verwerking van gegevens met het oog op wetenschappelijk of historisch onderzoek of statistische doeleinden die verschillende oorspronkelijke verwerkingen, waarvan tenminste één van gevoelige gegevens, aan elkaar koppelt, laten de verantwoordelijken voor de oorspronkelijke verwerkingen voorafgaandelijk aan de mededeling van de gegevens aan de verantwoordelijke voor de verdere verwerking, de gegevens anonimiseren of pseudonimiseren door de verantwoordelijke voor de oorspronkelijke verwerking van gevoelige gegevens of door een derde vertrouwenspersoon.
 Enkel de verantwoordelijke voor de oorspronkelijke verwerking die de gegevens heeft gepseudonimiseerd of de derde vertrouwenspersoon heeft toegang tot de pseudonimiseringssleutels.
 
@@ -1930,7 +2294,9 @@ De verplichting bedoeld in artikel 207 is niet van toepassing indien :
 ##### Art. 209
 
 Onverminderd andere mogelijkheden tot rechterlijk, administratief of buitengerechtelijk beroep, stelt de voorzitter van de rechtbank van eerste aanleg, zitting houdende zoals in kort geding, het bestaan vast van een verwerking die een inbreuk uitmaakt op een wettelijke en reglementaire bepaling betreffende de bescherming van natuurlijke personen in verband met de verwerking van persoonsgegevens en beveelt er de staking van.
-De voorzitter van de rechtbank van eerste aanleg, zitting houdende zoals in kort geding, neemt kennis van de vorderingen betreffende het door of krachtens de wet verleende recht om kennis te krijgen van persoonsgegevens, alsook van de vorderingen tot rectificatie, tot verwijdering of tot het verbieden van de aanwending van onjuiste persoonsgegevens of die gelet op het doel van de verwerking onvolledig of niet ter zake dienend zijn, dan wel waarvan de registratie de mededeling of de bewaring verboden is, tegen de verwerking waarvan de betrokkene zich heeft verzet of die langer bewaard werden dan de toegestane duur.
+De voorzitter van de rechtbank van eerste aanleg, zitting houdende zoals in kort geding, neemt kennis van de vorderingen betreffende het door of krachtens de wet verleende recht om kennis te krijgen van persoonsgegevens, alsook van de vorderingen tot rectificatie, tot verwijdering of tot het verbieden van de
+
+aanwending van onjuiste persoonsgegevens of die gelet op het doel van de verwerking onvolledig of niet ter zake dienend zijn, dan wel waarvan de registratie de mededeling of de bewaring verboden is, tegen de verwerking waarvan de betrokkene zich heeft verzet of die langer bewaard werden dan de toegestane duur.
 
 ##### Art. 210
 
@@ -1982,7 +2348,9 @@ Indien dwingende redenen bestaan om te vrezen dat bewijselementen die kunnen wor
 
 ##### Art. 219
 
-Onverminderd artikel 210 houden de bepalingen van dit hoofdstuk geen beperking in van de bevoegdheid van de rechtbank van eerste aanleg en van de voorzitter van de rechtbank van eerste aanleg zetelend in kort geding.
+Onverminderd artikel 210 houden de bepalingen van dit hoofdstuk geen beperking in van de
+
+bevoegdheid van de rechtbank van eerste aanleg en van de voorzitter van de rechtbank van eerste aanleg zetelend in kort geding.
 
 ### HOOFDSTUK II. - Vertegenwoordiging van betrokkenen
 
@@ -2023,6 +2391,7 @@ De verwerkingsverantwoordelijke of de verwerker, zijn aangestelde of gemachtigde
 10° de certificering bedoeld in artikel 42 van de Verordening is verkregen op basis van valse documenten of onjuiste documenten;
 11° taken worden uitgevoerd als een certificeringsorgaan, ook al is deze niet geaccrediteerd door de bevoegde nationale accreditatie-instantie;
 12° het certificeringsorgaan niet voldoet aan de beginselen en taken waaraan het onderworpen is, zoals bepaald in de artikelen 42 en 43 van de Verordening;
+
 13° de taken van het in artikel 41 van de Verordening bedoelde orgaan worden uitgevoerd zonder accreditatie van de bevoegde toezichthoudende autoriteit;
 14° het geaccrediteerde orgaan bedoeld in artikel 41 van de Verordening niet de passende maatregelen heeft genomen in geval van een inbreuk op de gedragscode zoals bedoeld in artikel 41.4 van de Verordening.
 
@@ -2064,6 +2433,7 @@ De Koning legt, bij een besluit vastgesteld na overleg in de Ministerraad, de na
 Dit protocol leeft alle wettelijke bepalingen na die met name betrekking hebben op de procedures voorzien voor de overtreders en kan niet afwijken van de rechten van de overtreders.
 Het protocol wordt in het Belgisch Staatsblad en op de internetsite van de bevoegde toezichthoudende autoriteit bekendgemaakt.
 § 2. Bij gebrek aan een protocol en voor de inbreuken bedoeld in de artikelen 222 en 223 beschikt de procureur des Konings over een termijn van twee maanden, te rekenen vanaf de dag van ontvangst van het origineel proces-verbaal, om aan de bevoegde toezichthoudende autoriteit mee te delen dat een opsporingsonderzoek of een gerechtelijk onderzoek werd opgestart of vervolging werd ingesteld. Deze mededeling doet de mogelijkheid vervallen voor de toezichthoudende autoriteit om haar corrigerende bevoegdheden uit te oefenen.
+
 De bevoegde toezichthoudende autoriteit kan geen sanctie opleggen vóór het verstrijken van deze termijn. Bij gebrek aan een mededeling vanwege de procureur des Konings binnen twee maanden, kunnen de feiten enkel nog administratiefrechtelijk worden bestraft.
 
 ##### Art. 230
@@ -2101,7 +2471,9 @@ De dienst onderzoeken hangt exclusief af van het Controleorgaan. Het Controleorg
 1° tien jaar ervaring hebben als deskundige in het domein van de bescherming van persoonsgegevens en de politionele informatiehuishouding;
 2° houder zijn van een diploma licentiaat of master in de rechten dat toegang verleent tot de betrekkingen van niveau A in de Rijksbesturen.
 § 4. Ingeval een mandaat van lid van het Controleorgaan om welke reden ook openvalt, wordt overgegaan tot de vervanging ervan voor de nog resterende duur van het mandaat.
-§ 5. Op het ogenblik van hun benoeming vervullen de leden van de dienst onderzoeken de volgende algemene voorwaarden :
+§ 5. Op het ogenblik van hun benoeming vervullen de leden van de dienst onderzoeken de volgende algemene
+
+voorwaarden :
 1° Belg zijn;
 2° genieten van de burgerlijke en politieke rechten;
 3° van onberispelijk gedrag zijn;
@@ -2132,7 +2504,9 @@ De wedderegeling van de raadsheren van het Rekenhof, vervat in de wet van 21 maa
 De leden van de dienst onderzoeken genieten een wedde zoals bepaald in barema A3 van het statuut van de ambtenaren van de Gegevensbeschermingsautoriteit opgericht door de wet van 3 december 2017 tot oprichting van de Gegevensbeschermingsautoriteit. Hun reeds verworven geldelijke anciënniteit wordt in aanmerking genomen en zij hebben ook recht op de tussentijdse verhogingen in dit barema. Zij genieten alle geldelijke voordelen die voorzien zijn in het statuut van de ambtenaren van de Gegevensbeschermingsautoriteit.
 De leden van het Controleorgaan en de leden van de dienst onderzoeken genieten de pensioenregeling die van toepassing is op de ambtenaren van het algemeen bestuur. Deze pensioenen zijn ten laste van de Staatskas. Het mandaat van de leden van het Controleorgaan en van de dienst onderzoeken wordt inzake pensioenen gelijkgesteld met een vaste benoeming.
 § 2. De leden van de dienst onderzoeken die lid zijn van de politiediensten kunnen na de beëindiging van hun mandaat in de toezichthoudende autoriteit terugkeren naar hun korps van oorsprong in het statuut dat zij hadden op het moment van hun benoeming in het Controleorgaan. Zij behouden tijdens hun mandaat, in de dienst of het bestuur waaruit zij afkomstig zijn, hun rechten op bevordering en op weddeverhoging. Het personeelslid van de politiediensten dat lid is van de dienst onderzoeken, kandidaat voor een functie bij de politiediensten, en dat voor een betrekking in de politiediensten geschikt wordt bevonden, heeft voorrang op alle andere kandidaten met betrekking tot de toewijzing van de betrekking, zelfs indien deze laatsten over een voorrang beschikken krachtens de wet. Deze voorrang geldt gedurende het laatste jaar van de zes jaren in dienst van het Controleorgaan.
-Onder dezelfde voorwaarden wordt een voorrangstermijn van twee jaar toegekend bij de aanvang van het tiende jaar in dienst bij het Controleorgaan.
+Onder dezelfde voorwaarden wordt een voorrangstermijn van twee jaar toegekend bij de aanvang van het
+
+tiende jaar in dienst bij het Controleorgaan.
 § 3. Aan het lid van het Controleorgaan die magistraat in de rechterlijke orde, ambtenaar van het openbaar ambt of lid van de politiediensten is, wordt een verlof voor opdracht van algemeen belang verleend voor de duur van het mandaat. Zij behouden, tijdens hun mandaat in het Controleorgaan of de dienst onderzoeken, in de dienst of het bestuur waaruit zij afkomstig zijn hun rechten op bevordering en op weddeverhoging.
 
 ##### Art. 235
@@ -2169,6 +2543,7 @@ Het Controleorgaan doet verslag aan de Kamer van volksvertegenwoordigers in de v
 ##### Art. 239
 
 § 1. Het Controleorgaan gaat door middel van onderzoek naar de werking na of de inhoud van de Algemene Nationale gegevensbank, de basisgegevensbanken, de bijzondere gegevensbanken en de technische gegevensbanken, alsook de procedure voor de verwerking van de daarin bewaarde gegevens en informatie overeenkomen met het bepaalde in de artikelen 44/1 tot en met 44/11/13 van de wet van 5 augustus 1992 op het politieambt en met de uitvoeringsmaatregelen ervan.
+
 § 2. Het Controleorgaan controleert in het bijzonder de regelmatigheid van de volgende verwerkingen in de Algemene Nationale Gegevensbank, de basisgegevensbanken, de bijzondere gegevensbanken en de technische gegevensbanken :
 1° de evaluatie van de gegevens en informatie;
 2° de registratie van de verzamelde gegevens en informatie;
@@ -2213,7 +2588,9 @@ Deze samenwerking kan betrekking hebben op :
 3° de wederzijdse bijstand in het kader van controlemaatregelen;
 4° het delen van personele en financiële middelen.
 De samenwerking kan bij samenwerkingsakkoorden worden geconcretiseerd.
-§ 2. Het Controleorgaan is gemachtigd om in dit verband bepaalde van haar leden, leden van de dienst onderzoeken of personeelsleden aan te wijzen als vertegenwoordigers bij internationale autoriteiten.
+§ 2. Het Controleorgaan is gemachtigd om in dit verband bepaalde van haar leden, leden van de dienst
+
+onderzoeken of personeelsleden aan te wijzen als vertegenwoordigers bij internationale autoriteiten.
 
 ### HOOFDSTUK III. - Bevoegdheden van het Controleorgaan, van haar leden en van de leden van de dienst onderzoeken
 
@@ -2339,7 +2716,9 @@ In artikel 29, eerste lid, van dezelfde wet, laatstelijk gewijzigd bij de wet va
 
 ##### Art. 261
 
-In artikel 31, eerste lid, 4°, van dezelfde wet, ingevoegd bij de wet van 30 november 1998, worden de woorden ", alsook voor de organisatie en het bestuur van de Veiligheid van de Staat wanneer die organisatie en dat bestuur een rechtstreekse invloed hebben op de uitvoering van de opdrachten inzake de handhaving van de openbare orde en de persoonsbescherming" opgeheven.
+In artikel 31, eerste lid, 4°, van dezelfde wet, ingevoegd bij de wet van 30 november 1998, worden de
+
+woorden ", alsook voor de organisatie en het bestuur van de Veiligheid van de Staat wanneer die organisatie en dat bestuur een rechtstreekse invloed hebben op de uitvoering van de opdrachten inzake de handhaving van de openbare orde en de persoonsbescherming" opgeheven.
 
 ##### Art. 262
 
@@ -2393,7 +2772,9 @@ Artikel 45, tweede lid, van dezelfde wet, ingevoegd bij de wet van 1 april 1999,
 ##### Art. 270
 
 In artikel 46 van dezelfde wet worden de volgende wijzigingen aangebracht :
-1° de woorden "buiten de gevallen bepaald in artikel 13/1 van de wet van 30 november 1998 houdende regeling van de inlichtingen- en veiligheidsdiensten en die bepaald in de artikelen 226, 227 en 230 van de gegevensbeschermingswet" worden ingevoegd tussen de woorden "een wanbedrijf" en de woorden ", maakt hij";
+1° de woorden "buiten de gevallen bepaald in artikel 13/1 van de wet van 30 november 1998 houdende regeling
+
+van de inlichtingen- en veiligheidsdiensten en die bepaald in de artikelen 226, 227 en 230 van de gegevensbeschermingswet" worden ingevoegd tussen de woorden "een wanbedrijf" en de woorden ", maakt hij";
 2° het artikel wordt aangevuld met een lid, luidende :
 "Wanneer een lid van de Dienst Enquêtes I kennis heeft van een wanbedrijf zoals bedoeld in de artikelen 226, 227 en 230 van de gegevensbeschermingswet, informeert hij zo snel mogelijk het Vast Comité I hierover. Deze laatste verzekert de opvolging volgens de nadere regels bepaald in artikel 54.".
 
@@ -2442,7 +2823,9 @@ Artikel 18 van dezelfde wet wordt aangevuld met een tweede lid, luidende : "De b
 ##### Art. 278
 
 In hoofdstuk 5, afdeling 1, van dezelfde wet wordt een artikel 54/1 ingevoegd, luidende : "Art. 54/1. § 1. Met het oog op de consequente toepassing van de nationale, Europese en internationale regelgeving inzake de bescherming van natuurlijke personen met betrekking tot de verwerking van persoonsgegevens werken de Gegevensbeschermingsautoriteit en de bevoegde toezichthoudende autoriteiten bedoeld in de titels 2 en 3 van de wet van 30 juli 2018 betreffende de bescherming van natuurlijke personen met betrekking tot de verwerking van persoonsgegevens nauw samen, onder meer voor wat betreft de verwerking van klachten, adviezen en aanbevelingen die raken aan de bevoegdheden van twee of meerdere toezichthoudende autoriteiten.
-Onverminderd bijzondere bepalingen, gebeurt de gezamenlijke behandeling van klachten, adviezen en aanbevelingen aan de hand van het één loket principe dat zal worden waargenomen door de Gegevensbeschermingsautoriteit.
+Onverminderd bijzondere bepalingen, gebeurt de gezamenlijke behandeling van klachten, adviezen en aanbevelingen aan de hand van het één loket principe dat zal worden waargenomen door de
+
+Gegevensbeschermingsautoriteit.
 § 2. Teneinde de in paragraaf 1 beoogde samenwerking te verwezenlijken sluiten de toezichthoudende autoriteiten een samenwerkingsprotocol af.".
 
 ##### Art. 279
@@ -2485,6 +2868,7 @@ Zij worden vanaf de inwerkingtreding van deze wet en voor de duur van hun voorme
 § 3. De voorzitter van het Controleorgaan blijft van rechtswege aangesteld als voorzitter van het Controleorgaan in de zin van deze wet.
 Het lid van de Commissie voor de bescherming van de persoonlijke levenssfeer wordt van rechtswege aangesteld als het lid van het Controleorgaan afkomstig uit het openbaar ministerie in de zin van deze wet en de huidige nederlandstalige expert-jurist wordt van rechtswege in de hoedanigheid van expert in de zin van deze wet aangesteld als lid van het Controleorgaan.
 § 4. De drie huidige andere leden, waarvan twee afkomstig uit de politiediensten en één franstalige expert nietjurist worden van rechtswege aangesteld als leden van de dienst onderzoeken in de zin van deze wet in hun respectievelijke hoedanigheid van lid van de politiediensten en van expert.
+
 § 5. In afwijking van artikel 231, § 1, van deze wet kan het lid van het Controleorgaan, dat benoemd werd in zijn hoedanigheid van lid van de Commissie voor de bescherming van de persoonlijke levenssfeer, vanaf de inwerkingtreding van deze wet tot het einde van zijn sedert 1 september 2015 lopende mandaat, zijn functie hetzij voltijds, hetzij deeltijds blijven uitoefenen. Bij een deeltijdse uitoefening van de functie geniet hij van een wedde gelijk aan 20 % van de wedde voorzien voor de andere leden zoals vermeld in artikel 234.
 
 ##### Art. 286

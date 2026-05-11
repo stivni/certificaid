@@ -4,46 +4,47 @@ bron: Fisconetplus.be (officieuze gecoördineerde versie)
 bron_rol: itaa_lex
 chunk:
   level: 4
-  sub_strategy:
+  sub_strategy: null
   type: Art.
 itaa-lex-sectie: VI.B
 provenance:
-  generated_at: '2026-05-11T13:40:00Z'
+  generated_at: '2026-05-11T16:21:50Z'
   inputs:
-    - id: resources/raw/wetteksten/btw-kbs/WBTW-KB1-voldoening.pdf
-      sha256: a658fe034ecb79721ad2b7d66e6990e3209b6143a294d8f7316538595efc98fb
-      version: '2024'
+  - id: resources/raw/wetteksten/btw-kbs/WBTW-KB1-voldoening.pdf
+    sha256: a658fe034ecb79721ad2b7d66e6990e3209b6143a294d8f7316538595efc98fb
+    version: '2024'
   stale: false
-  stale_reason:
+  stale_reason: null
   tooling:
-    model:
+    model: null
     pipeline: tools/etl/convert.py
-    pipeline_version: 7a134f4
-    prompt_version:
+    pipeline_version: 11f9196
+    prompt_version: null
   trust:
-    confirmed_at: '2026-05-09T21:27:46Z'
-    confirmed_by: subagent-sonnet-4-6
+    confirmed_at: null
+    confirmed_by: null
     layer1:
-      status: pass
-      run_id: 20260511-134044
-      run_at: '2026-05-11T13:40:47Z'
-      heading_count: 62
-      max_section_chars: 9652
       file_size_chars: 109660
       flags: []
+      heading_count: 62
+      max_section_chars: 9652
+      run_at: '2026-05-11T13:40:47Z'
+      run_id: 20260511-134044
+      status: pass
     layer2:
-      agent:
+      agent: null
       concrete_problemen: []
-      rationale: 'Goed gestructureerd: 51 #### Art.-headings, Hoofdstuk/Afdeling-blokken intact. Tail-Art. N4 met opgeheven-marker is correcte juridische notatie. Geen kolom-bleed gespot in samples.'
-      run_at:
-      status: trusted
-    rationale: 'L1=pass; L1.5=improvement (Auto-synthesized: heading-injection (inject_wbtw_headings.py) — staging is structureel beter dan resources-versie.); L2=trusted (ETL-fix toegepast: inject_wbtw_headings.py heeft TOC-strip + Artikel-N → ## Art. heading-injectie + AFDELING-normalisatie uitgevoerd. Eerdere needs-rework op ''missing-section'' opgeheven.)'
-    status: trusted
+      rationale: null
+      run_at: null
+      status: not_run
+    rationale: 'Trust gereset 2026-05-11: ETL-fix wetteksten met content-diff > 5%'
+    status: unreviewed
 status: beschikbaar
 tags:
-  - VI.B
-  - '2.4'
-wet: K.B. nr. 1, 29 december 1992, met betrekking tot de regeling voor de voldoening van de belasting over de toegevoegde waarde
+- VI.B
+- '2.4'
+wet: K.B. nr. 1, 29 december 1992, met betrekking tot de regeling voor de voldoening
+  van de belasting over de toegevoegde waarde
 ---
 
 # BTW KB nr. 1 — Voldoening
@@ -55,6 +56,38 @@ Titel
 29 DECEMBER 1992. - Koninklijk besluit nr. 1 met betrekking tot de regeling voor de voldoening van de belasting over de toegevoegde waarde.
 
 Bron : FINANCIEN
+
+#### Art. 4
+
+### Afdeling 3. [1 - Vermeldingen]1
+
+#### Art. 5
+
+### Afdeling 4. [1 - Andere verplichtingen]1
+
+### Afdeling 5. [1 - Vereenvoudigde facturen]1
+
+### Afdeling 6. [1 Gestructureerde elektronische facturen]1
+
+#### Art. 13ter, 13quater
+
+## Hoofdstuk II. - De boekhouding.
+
+## Hoofdstuk III. [1 - Periodieke aangifte, vervangende aangifte en bijzondere aangifte]1
+
+## HOOFDSTUK IIIbis. [1 - Schuldenaar van de belasting]1
+
+## Hoofdstuk IV. - Andere verplichtingen.
+
+## HOOFDSTUK V. [1 - Tijdelijke bepaling]1
+
+#### Art. 30bis, 31-33
+
+Bijlagen.
+
+#### Art. N1-N4
+
+Tekst
 
 Eerste hoofdstuk. - [1 Facturering]1
 (1)<KB 2012-12-19/03, art. 1, 033; Inwerkingtreding : 01-01-2013>
@@ -78,7 +111,12 @@ c) van vliegtuigen, watervliegtuigen, hefschroefvliegtuigen, zweefvliegtuigen, v
 9° de leveringen van onderdelen, toebehoren en uitrustingsstukken voor de onder 1° vermelde goederen, alsook de werken, het wassen uitgezonderd, verricht aan deze goederen, met inbegrip van de levering van de goederen die worden verbruikt voor de uitvoering van deze werken, wanneer de prijs, met inbegrip van de belasting over de toegevoegde waarde, meer bedraagt dan 125 euro;
 10° de verrichtingen van verhuizing of meubelbewaring en de bij die handelingen behorende prestaties;
 11° de in artikel 42, § 3, eerste lid, 1° tot 8°, van het Wetboek bedoelde leveringen van goederen en diensten;
-12° leveringen van beleggingsgoud, gedefinieerd in artikel 1, § 8, van het Wetboek, waarvan het bedrag meer dan 2.500 euro bedraagt, waaronder beleggingsgoud dat belichaamd is in certificaten voor toegewezen of niettoegewezen goud of dat verhandeld wordt op goudrekeningen, en waaronder, in het bijzonder, goudleningen en swaps, die een eigendoms- of vorderingsrecht op beleggingsgoud belichamen, evenals voor handelingen betreffende beleggingsgoud bestaande in future- en termijncontracten die leiden tot de overdracht van een eigendoms- of vorderingsrecht met betrekking tot beleggingsgoud.]1 [3 In afwijking van het eerste lid, is de belastingplichtige bedoeld in artikel 50, § 4, van het Wetboek ervan ontheven een factuur uit te reiken voor de diensten die hij verricht.]3 (1)<KB 2012-12-19/03, art. 3, 033; Inwerkingtreding : 01-01-2013> (2)<KB 2015-12-18/13, art. 1, 042; Inwerkingtreding : 01-01-2016> (3)<KB 2019-11-07/03, art. 1, 045; Inwerkingtreding : 05-12-2019> (4)<KB 2025-07-08/02, art. 2, 054; Inwerkingtreding : 01-01-2026>
+12° leveringen van beleggingsgoud, gedefinieerd in artikel 1, § 8, van het Wetboek, waarvan het bedrag meer dan 2.500 euro bedraagt, waaronder beleggingsgoud dat belichaamd is in certificaten voor toegewezen of niettoegewezen goud of dat verhandeld wordt op goudrekeningen, en waaronder, in het bijzonder, goudleningen en swaps, die een eigendoms- of vorderingsrecht op beleggingsgoud belichamen, evenals voor handelingen betreffende beleggingsgoud bestaande in future- en termijncontracten die leiden tot de overdracht van een eigendoms- of vorderingsrecht met betrekking tot beleggingsgoud.]1 [3 In afwijking van het eerste lid, is de belastingplichtige bedoeld in artikel 50, § 4, van het Wetboek ervan ontheven een factuur uit te reiken voor de diensten die hij verricht.]3
+
+(1)<KB 2012-12-19/03, art. 3, 033; Inwerkingtreding : 01-01-2013>
+(2)<KB 2015-12-18/13, art. 1, 042; Inwerkingtreding : 01-01-2016>
+(3)<KB 2019-11-07/03, art. 1, 045; Inwerkingtreding : 05-12-2019>
+(4)<KB 2025-07-08/02, art. 2, 054; Inwerkingtreding : 01-01-2026>
 
 #### Art. 2.[1 De belastingplichtige stelt een stuk en een kopie daarvan op voor de in artikel 39bis, eerste lid, 4°, van het Wetboek bedoelde leveringen van goederen.]1 (1)<KB 2012-12-19/03, art. 4, 033; Inwerkingtreding : 01-01-2013>
 
@@ -111,7 +149,9 @@ In het kader van de btw-eenheid in de zin van artikel 4, § 2, van het Wetboek, 
 2° bis wanneer de schuldenaar de leverancier van de goederen of de dienstverrichter is die niet in België is gevestigd en :
 a) hij heeft hier te lande een aansprakelijke vertegenwoordiger laten erkennen overeenkomstig artikel 55, § 1 of
 § 2, van het Wetboek, de identiteit en het adres van de aansprakelijke vertegenwoordiger en de aanduiding van zijn hoedanigheid;
-b) hij wordt vertegenwoordigd door een vooraf erkende persoon overeenkomstig artikel 55, § 3, van het Wetboek, de identiteit, het adres en het btw-identificatienummer toegekend aan die persoon en de aanduiding van zijn hoedanigheid;
+b) hij wordt vertegenwoordigd door een vooraf erkende persoon overeenkomstig artikel 55, § 3, van het
+
+Wetboek, de identiteit, het adres en het btw-identificatienummer toegekend aan die persoon en de aanduiding van zijn hoedanigheid;
 3° de naam of de maatschappelijke benaming, het adres en het in artikel 50 van het Wetboek bedoeld btwidentificatienummer van de medecontractant of, wanneer het in artikel 39bis, eerste lid, 4°, van het Wetboek bedoelde leveringen betreft, de naam of de maatschappelijke benaming, het adres en het btwidentificatienummer dat in de lidstaat van bestemming van de goederen aan de belastingplichtige is toegekend;
 3° bis wanneer de schuldenaar de medecontractant is die niet in België is gevestigd en :
 a) hij heeft hier te lande een aansprakelijke vertegenwoordiger laten erkennen overeenkomstig artikel 55, § 1 of
@@ -135,7 +175,9 @@ c) in geval van toepassing van het bepaalde in artikel 25ter, § 1, tweede lid, 
 12° alle andere vermeldingen die worden voorgeschreven ter uitvoering van het Wetboek of de ter uitvoering ervan genomen besluiten.
 § 1bis. Het in artikel 53, § 3, eerste lid, van het Wetboek bedoeld stuk dient te vermelden :
 1° de datum waarop het goed of de dienst werd verstrekt, de prijs of een deel ervan werd ontvangen of voor de doorlopende diensten, de periode waarop de afrekening betrekking heeft;
-2° de datum waarop het wordt opgesteld en het opeenvolgend nummer, volgens één of meer reeksen, dat dit stuk op eenduidige wijze identificeert en waaronder het wordt ingeschreven in het boek voor uitgaande facturen;
+2° de datum waarop het wordt opgesteld en het opeenvolgend nummer, volgens één of meer reeksen, dat dit
+
+stuk op eenduidige wijze identificeert en waaronder het wordt ingeschreven in het boek voor uitgaande facturen;
 3° de naam of de maatschappelijke benaming van het lid van de btw-eenheid dat het goed of de dienst verschaft, het adres van zijn administratieve of maatschappelijke zetel en het sub-btw-identificatienummer dat hem krachtens artikel 50, § 1, eerste lid, 6°, van het Wetboek werd toegekend;
 4° de naam of de maatschappelijke benaming van het lid van de btw-eenheid dat het goed of de dienst ontvangt, het adres van zijn administratieve of maatschappelijke zetel en het sub-btw-identificatienummer dat hem krachtens artikel 50, § 1, eerste lid, 6°, van het Wetboek werd toegekend;
 5° de gegevens die nodig zijn om de handeling te bepalen, inzonderheid de gebruikelijke benaming van de verstrekte goederen en diensten en hun hoeveelheid alsook het voorwerp van de diensten en in voorkomend geval de in paragraaf 1, 7° bedoelde gegevens;
@@ -164,6 +206,7 @@ De in het eerste lid bedoelde belastingplichtige dient eveneens aan de geadresse
 De belastingplichtige stelt een kopie op van de stukken bedoeld in het eerste en tweede lid.
 De bepalingen van het eerste, het tweede en het derde lid zijn niet van toepassing in geval van verkoop op proef of van zending op zicht wanneer de belastingplichtige het in artikel 23 bedoelde register moet aanvullen, of in geval van consignatieverkoop, wanneer hij voor de overdracht van de goederen naar een andere lidstaat met het oog op deze verkoop het in artikel 2 bedoelde stuk moet opstellen [2 of wanneer de belastingplichtige het in artikel 24bis bedoelde register moet aanvullen]2.
 De factuur, die de belastingplichtige moet uitreiken aan de geadresseerde of de consignataris wanneer deze eigenaar wordt van de goederen, moet verwijzen naar de in het eerste en tweede lid bedoelde stukken.
+
 § 2. Wanneer de belastingplichtige, die goederen op proef verkoopt of ze op zicht of in consignatie zendt, niet in België is gevestigd en niet is onderworpen aan de in paragraaf 1 bedoelde verplichting, is de belastingplichtige die de goederen ontvangt gehouden zelf een stuk op te maken waarop de in paragraaf 1, eerste lid, bedoelde gegevens voorkomen, met uitzondering van de verzendingsdatum die wordt vervangen door de datum van ontvangst van de goederen.
 De in het eerste lid bedoelde belastingplichtige, die de goederen heeft ontvangen, dient eveneens een stuk op te stellen bij de gehele of gedeeltelijke teruggave van de goederen. Dit stuk bevat de vermeldingen bedoeld in het eerste lid, met uitzondering van de datum van ontvangst van de goederen, die wordt vervangen door de datum van hun teruggave.
 Wanneer hij eigenaar wordt van de goederen brengt hij op de factuur die aan hem wordt uitgereikt een verwijzing aan naar het opgestelde stuk.]1 [2 De bepalingen van het eerste, het tweede en het derde lid zijn niet van toepassing in geval van consignatieverkoop, wanneer de belastingplichtige die de goederen ontvangt het in artikel 24ter bedoelde register moet aanvullen.]2 (1)<KB 2012-12-19/03, art. 11, 033; Inwerkingtreding : 01-01-2013> (2)<KB 2019-12-11/14, art. 1, 046; Inwerkingtreding : 01-01-2020>
@@ -221,7 +264,10 @@ Onder de in artikel 53, § 2, tweede lid, van het Wetboek bedoelde voorwaarden m
 2° wanneer, onder de voorwaarden te bepalen door de Minister van Financiën, de handels- of administratieve praktijken van de betrokken bedrijfssector of de technische voorwaarden waaronder die facturen worden uitgereikt de naleving bemoeilijken van alle bedoelde verplichtingen;
 3° wanneer het uitgereikt document of bericht met een factuur wordt gelijkgesteld, overeenkomstig artikel 53,
 § 2, derde lid, van het Wetboek;
-[2 4° wanneer de belastingplichtige gebruikmaakt van de vrijstellingsregeling van belasting bedoeld in de artikelen 56bis tot en met 56undecies van het Wetboek.]2 De vereenvoudigde factuur moet in elk geval de volgende vermeldingen bevatten :
+[2 4° wanneer de belastingplichtige gebruikmaakt van de vrijstellingsregeling van belasting bedoeld in de
+
+artikelen 56bis tot en met 56undecies van het Wetboek.]2
+De vereenvoudigde factuur moet in elk geval de volgende vermeldingen bevatten :
 1° de datum waarop ze is uitgereikt en een opeenvolgend nummer, volgens één of meer reeksen, dat de factuur op eenduidige wijze identificeert, waaronder ze wordt ingeschreven in het boek voor uitgaande facturen van de leverancier of de dienstverrichter;
 2° [2 de naam of de maatschappelijke benaming van de leverancier of van de dienstverrichter, het adres van zijn administratieve of maatschappelijke zetel en zijn in artikel 50 van het Wetboek bedoeld btwidentificatienummer of het individueel nummer dat hem overeenkomstig artikel 292 ter, tweede alinea, van Richtlijn 2006/112/EG door de lidstaat van vestiging werd toegekend of, in het kader van de btw-eenheid in de zin van artikel 4, § 2, van het Wetboek, de vermeldingen eigen aan het betrokken lid;]2
 3° het in artikel 50 van het Wetboek bedoelde btw-identificatienummer van de verkrijger of de ontvanger, of bij gebreke hieraan, zijn naam of maatschappelijke benaming en volledig adres;
@@ -258,6 +304,7 @@ In afwijking van het eerste lid en overeenkomstig artikel 53, § 2bis, tweede li
 1° een boek voor inkomende facturen waarin zij aangaande de volgende verrichtingen de facturen en de stukken inschrijven met betrekking tot hun economische activiteit : - de leveringen van goederen en de diensten;
 - de invoeren;
 - de intracommunautaire verwervingen van goederen;
+
 - de handelingen bedoeld in de [1 artikelen 12, § 1, eerste lid, 3° en 4°, 19, §§ 2, eerste lid, 1° en 3, [4 ...]4 en 25quater]1 van het Wetboek;
 - de te hunnen behoeve verrichte overdrachten bedoeld in artikel 11 van het Wetboek en de handelingen bedoeld in artikel 18, § 3, van het Wetboek;
 - de handelingen bedoeld in artikel 10;
@@ -282,7 +329,9 @@ f) het totaalbedrag van de kortingen en teruggegeven bedragen;
 g) het totaalbedrag van de netto-omzet, btw inclusief;
 h) in het geval de belastingplichtige geen gebruik maakt van de mogelijkheid die hem geboden wordt door artikel 15, § 4, vierde lid, en indien al de vereiste gegevens daartoe reeds berekend werden, een verdeling van het onder g) bedoelde totale bedrag, per afzonderlijk btw-tarief;
 i) de laatste acht karakters van de digitale handtekening van de registratie van de laatste uitgevoerde handeling waarop dit verslag betrekking heeft.
-De minister van Financiën bepaalt de modaliteiten met betrekking tot de bewaring, de integriteit van de inhoud van de kastickets bedoeld in paragraaf 2, 3°, vierde lid, alsook de modaliteiten van de bewaring van de financiële rapporten bedoeld in paragraaf 2, 3°, vijfde lid.]5 [5 Het dagboek van ontvangsten met betrekking tot de in de bedrijfszetel verrichte handelingen, alsook de verantwoordingsstukken bedoeld in artikel 15, § 2, die erop betrekking hebben met inbegrip van, in voorkomend geval, de in artikel 22 bedoelde dubbels van de rekeningen of van de ontvangstbewijzen of het kasregister bedoeld in paragraaf 2, 3°, derde lid, dienen zich op die bedrijfszetel te bevinden tot het verstrijken van de derde maand volgend op die waarin het genoemd dagboek van ontvangsten werd afgesloten. Indien het dagboek van ontvangsten op elektronische wijze wordt gehouden, dient het binnen voornoemde periode elektronisch toegankelijk te zijn op de bedrijfszetel. Indien een elektronisch kasregister wordt gebruikt, moet dit gedurende bovengenoemde periode op de bedrijfszetel elektronisch toegankelijk zijn.]5 De belastingplichtigen die over meerdere bedrijfszetels beschikken moeten bovendien een centralisatiedagboek bijhouden waarin zij op het einde van elke aangifteperiode, per tarief, het totaalbedrag van de ontvangsten inschrijven van dat tijdvak, ingeschreven in de verschillende dagboeken van ontvangsten. Dit centralisatiedagboek kan op papier worden gehouden in overeenstemming met de bepalingen van artikel 15, § 1, tweede en derde lid, of door middel van geïnformatiseerde systemen overeenkomstig de modaliteiten bepaald door [5 ...]5 de Minister van Financiën.) <KB 2007-01-31/31, art. 1, 023; Inwerkingtreding : 07-02-2007>
+De minister van Financiën bepaalt de modaliteiten met betrekking tot de bewaring, de integriteit van de inhoud van de kastickets bedoeld in paragraaf 2, 3°, vierde lid, alsook de modaliteiten van de bewaring van de financiële rapporten bedoeld in paragraaf 2, 3°, vijfde lid.]5 [5 Het dagboek van ontvangsten met betrekking tot de in de bedrijfszetel verrichte handelingen, alsook de verantwoordingsstukken bedoeld in artikel 15, § 2, die erop betrekking hebben met inbegrip van, in voorkomend geval, de in artikel 22 bedoelde dubbels van de rekeningen of van de ontvangstbewijzen of het kasregister bedoeld in paragraaf 2, 3°, derde lid, dienen zich op die bedrijfszetel te bevinden tot het verstrijken van de derde maand volgend op die waarin het genoemd dagboek van ontvangsten werd afgesloten. Indien het dagboek van ontvangsten op elektronische wijze wordt gehouden, dient het binnen voornoemde periode elektronisch toegankelijk te zijn op de bedrijfszetel. Indien een elektronisch kasregister wordt gebruikt, moet dit gedurende bovengenoemde periode op de bedrijfszetel elektronisch toegankelijk zijn.]5 De belastingplichtigen die over meerdere bedrijfszetels beschikken moeten bovendien een centralisatiedagboek
+
+bijhouden waarin zij op het einde van elke aangifteperiode, per tarief, het totaalbedrag van de ontvangsten inschrijven van dat tijdvak, ingeschreven in de verschillende dagboeken van ontvangsten. Dit centralisatiedagboek kan op papier worden gehouden in overeenstemming met de bepalingen van artikel 15, § 1, tweede en derde lid, of door middel van geïnformatiseerde systemen overeenkomstig de modaliteiten bepaald door [5 ...]5 de Minister van Financiën.) <KB 2007-01-31/31, art. 1, 023; Inwerkingtreding : 07-02-2007>
 § 3. [3 In afwijking van paragraaf 2, 3°, zijn de belastingplichtigen die genieten van de forfaitaire regeling van artikel 56 van het Wetboek ervan ontheven het bedoelde dagboek te houden.]3
 § 4. [6 De in artikel 56ter van het Wetboek bedoelde belastingplichtigen zijn ervan ontheven de in paragraaf 2,
 1° en 2°, bedoelde boeken te houden, wanneer zij de facturen en de stukken of, in voorkomend geval, de dubbels van de door deze bepalingen beoogde facturen en stukken, bewaren volgens een ononderbroken reeks volgnummers die zij eraan toekennen bij hun ontvangst, hun uitreiking of het opmaken ervan, en wanneer zij het in paragraaf 5 bedoelde boek houden.]6
@@ -305,7 +354,9 @@ b) de datum van de factuur of van het stuk;
 c) de naam of de maatschappelijke benaming van de medecontractant;
 d) per factuur of per stuk en, indien nodig per tarief, de maatstaf van heffing en het bedrag van de overeenkomstige belasting;
 e) de prijs van de handeling wanneer deze niet belastbaar is;
-(f) een uitsplitsing met het oog op het invullen van de (in de artikelen 53, § 1, eerste lid, 2°), en 53ter, 1°, van het Wetboek bedoelde aangiften, evenals op het einde van elke aangifteperiode, per rooster van de aangifte, het totaalbedrag van de periode(;) <KB 1998-11-26/42, art. 2, 008; Inwerkingtreding : 01-01-1999> <KB 2000-07- 20/63, art. 6, 012; Inwerkingtreding : 01-01-2002> <KB 2004-02-16/31, art. 12, 021; Inwerkingtreding : 01-01- 2004> (g) (...)) <KB 1998-11-26/42, art. 2, 008; Inwerkingtreding : 01-01-1999> ( Opgeheven) <KB 2000-07-20/63,
+(f) een uitsplitsing met het oog op het invullen van de (in de artikelen 53, § 1, eerste lid, 2°), en 53ter, 1°, van het Wetboek bedoelde aangiften, evenals op het einde van elke aangifteperiode, per rooster van de aangifte, het totaalbedrag van de periode(;) <KB 1998-11-26/42, art. 2, 008; Inwerkingtreding : 01-01-1999> <KB 2000-07-
+
+20/63, art. 6, 012; Inwerkingtreding : 01-01-2002> <KB 2004-02-16/31, art. 12, 021; Inwerkingtreding : 01-01- 2004> (g) (...)) <KB 1998-11-26/42, art. 2, 008; Inwerkingtreding : 01-01-1999> ( Opgeheven) <KB 2000-07-20/63,
 § 4. (Per bedrijfszetel wordt het totale bedrag van de dagontvangsten van dag tot dag ingeschreven in het dagboek van ontvangsten [1 of wordt dagelijks geregistreerd door het gebruik van het elektronisch kasregister bedoeld in artikel 14, § 2, 3°, derde lid]1.) <KB 2002-02-06/31, art. 4, 017; Inwerkingtreding : 01-04-2002> Een afzonderlijke inschrijving met vermelding van de aard van de verkochte goederen is evenwel noodzakelijk voor de ontvangsten die voortkomen van de levering van goederen waarvan de prijs, per in de handel gebruikelijke eenheid, meer bedraagt dan ([2 500 euro]2), belasting over de toegevoegde waarde inbegrepen.
 <KB 2000-07-20/63, art. 3, 011; Inwerkingtreding : 01-01-2002>
 De in het [1 tweede]1 lid bedoelde afzonderlijke inschrijving mag worden vervangen door een dagelijkse globale inschrijving wanneer de verantwoordingsstukken die moeten worden opgesteld, benevens de ontvangst, de aard van de verkochte goederen nauwkeurig vermelden.
@@ -332,6 +383,7 @@ Tenzij ze het voorwerp uitmaken van een factuur, worden de handelingen bedoeld i
 2° de jaaromzet, exclusief belasting over de toegevoegde waarde, niet meer bedraagt dan 250.000 euro voor het geheel van de leveringen van de navolgende goederen:
 a) in artikel 415, § 1, van de programmawet van 27 december 2004 bedoelde energieproducten;
 b) toestellen voor mobiele telefonie en computers alsmede hun randapparatuur, toebehoren en onderdelen;
+
 c) landvoertuigen uitgerust met een motor onderworpen aan de reglementering betreffende de inschrijving.
 De belastingplichtige die krachtens artikel 53sexies, § 1, van het Wetboek gehouden is tot de maandelijkse indiening van de btw-opgave van de intracommunautaire handelingen, is uitgesloten van de regeling bedoeld in het eerste lid.
 § 3. De overgang van de regeling kwartaalaangiften naar maandaangiften vindt plaats bij het verstrijken van het kalenderkwartaal waarin voor de eerste maal niet meer aan de in paragraaf 2 vermelde voorwaarden is voldaan.
@@ -360,7 +412,9 @@ De administratie belast met de belasting over de toegevoegde waarde bevestigt de
 Het al dan niet indienen van het in paragraaf 1 bedoelde bezwaar laat het recht van de belastingplichtige onverlet om in rechte op te komen tegen de definitieve vervangende aangifte waarvan overeenkomstig artikel 53,
 § 1ter, zesde lid, van het Wetboek kennis werd gegeven.
 De overeenkomstig het tweede lid ingestelde rechtsvordering beëindigt van rechtswege de in dit artikel bedoelde bezwaarprocedure.
-§ 3. De beslissing of de ontstentenis van een beslissing met betrekking tot het in paragraaf 1, eerste lid, bedoelde bezwaar laat het recht van de administratie belast met de belasting over de toegevoegde waarde onverlet om de juiste toepassing van de belasting die verschuldigd is ten aanzien van het aangiftetijdvak met betrekking tot de desbetreffende vervangende aangifte na te gaan, alsmede om, in voorkomend geval, het bedrag ervan te corrigeren.]1 (1)<Ingevoegd bij KB 2024-09-29/05, art. 4, 053; Inwerkingtreding : 01-01-2025>
+§ 3. De beslissing of de ontstentenis van een beslissing met betrekking tot het in paragraaf 1, eerste lid,
+
+bedoelde bezwaar laat het recht van de administratie belast met de belasting over de toegevoegde waarde onverlet om de juiste toepassing van de belasting die verschuldigd is ten aanzien van het aangiftetijdvak met betrekking tot de desbetreffende vervangende aangifte na te gaan, alsmede om, in voorkomend geval, het bedrag ervan te corrigeren.]1 (1)<Ingevoegd bij KB 2024-09-29/05, art. 4, 053; Inwerkingtreding : 01-01-2025>
 
 #### Art. 17ter
 
@@ -388,7 +442,9 @@ Worden eveneens bedoeld, in de mate dat zij geen werk in onroerende staat zijn :
 1° iedere handeling die tot voorwerp heeft zowel de levering als de aanhechting aan een gebouw :
 a) van de bestanddelen of een gedeelte van de bestanddelen van een installatie voor centrale verwarming of airconditioning, daaronder begrepen de branders, de reservoirs en de regel- en controletoestellen verbonden aan de ketels of aan de radiatoren;
 b) van de bestanddelen of een gedeelte van de bestanddelen van een sanitaire installatie van een gebouw en, meer algemeen, van alle vaste toestellen voor sanitair of hygiënisch gebruik aangesloten op een waterleiding of een riool;
-c) van de bestanddelen of een gedeelte van de bestanddelen van een elektrische installatie van een gebouw, met uitzondering van toestellen voor de verlichting en van lampen;
+c) van de bestanddelen of een gedeelte van de bestanddelen van een elektrische installatie van een gebouw,
+
+met uitzondering van toestellen voor de verlichting en van lampen;
 d) van de bestanddelen of een gedeelte van de bestanddelen van een elektrische belinstallatie, van brandalarmtoestellen, van alarmtoestellen tegen diefstal en van een huistelefoon;
 e) van opbergkasten, gootstenen, gootsteenkasten en meubels met ingebouwde gootsteen, wastafels en meubels met ingebouwde wasbak, zuigkappen, ventilators en luchtverversers waarmee een keuken of badkamer is uitgerust;
 f) van luiken, rolluiken en rolgordijnen die aan de buitenkant van het gebouw worden geplaatst;
@@ -409,7 +465,10 @@ De in het eerste lid bedoelde medecontractant neemt de over de in het tweede lid
 
 #### Art. 20ter.[1 In afwijking van artikel 51, § 1, 1°, van het Wetboek voldoet de medecontractant van de belastingplichtige die een in het tweede lid beoogde dienst verricht, de belasting die over die handeling verschuldigd is, wanneer hij zelf een in België gevestigde belastingplichtige is gehouden tot indiening van de in artikel 53, § 1, eerste lid, 2°, van het Wetboek bedoelde aangifte. Hij voldoet die belasting op de in het vijfde lid bedoelde wijze.
 Voor de toepassing van dit artikel wordt bedoeld, de overdracht van broeikasgasemissierechten als omschreven in artikel 3 van Richtlijn 2003/87/EG, die overdraagbaar zijn overeenkomstig artikel 12 van die richtlijn, evenals andere eenheden die door exploitanten kunnen worden gebruikt om die richtlijn na te leven.
-De belastingplichtige die in het tweede lid bedoelde handelingen verricht, vermeldt op de facturen die hij voor die handelingen uitreikt, noch het tarief, noch het bedrag van de verschuldigde belasting, maar brengt er de volgende vermelding op aan: "Verlegging van heffing. Bij gebrek aan schriftelijke betwisting binnen een termijn van één maand na de ontvangst van de factuur, wordt de afnemer geacht te erkennen dat hij een belastingplichtige is gehouden tot de indiening van periodieke aangiften. Als die voorwaarde niet vervuld is, is de afnemer ten aanzien van die voorwaarde aansprakelijk voor de betaling van de verschuldigde belasting, interesten en geldboeten.".
+De belastingplichtige die in het tweede lid bedoelde handelingen verricht, vermeldt op de facturen die hij voor die handelingen uitreikt, noch het tarief, noch het bedrag van de verschuldigde belasting, maar brengt er de
+
+volgende vermelding op aan:
+"Verlegging van heffing. Bij gebrek aan schriftelijke betwisting binnen een termijn van één maand na de ontvangst van de factuur, wordt de afnemer geacht te erkennen dat hij een belastingplichtige is gehouden tot de indiening van periodieke aangiften. Als die voorwaarde niet vervuld is, is de afnemer ten aanzien van die voorwaarde aansprakelijk voor de betaling van de verschuldigde belasting, interesten en geldboeten.".
 Behoudens samenspanning tussen de partijen, is de dienstverrichter ontslagen van de aansprakelijkheid ten aanzien van de in het derde lid bedoelde voorwaarde betreffende de hoedanigheid van de afnemer, wanneer de afnemer de factuur niet schriftelijk betwist.
 De in het eerste lid bedoelde medecontractant neemt de over deze handeling verschuldigde belasting op in de aangifte met betrekking tot het tijdvak waarin de belasting opeisbaar wordt.]1 (1)<KB 2023-12-17/15, art. 4, 051; Inwerkingtreding : 01-01-2024>
 
@@ -437,7 +496,9 @@ Het instellen van een rechtsmiddel overeenkomstig het vierde lid, beëindigt van
 Bij openbare verkoping van roerende goederen op verzoek van de curator van een gefailleerde belastingplichtige is de notaris of de gerechtsdeurwaarder, die zijn ambt voor de verkoping verleent, gehouden de opeisbare belasting over de toegevoegde waarde van de koper te ontvangen voor rekening van de curator.
 
 #### Art. 21bis.[1 § 1. De exploitant van een inrichting waar maaltijden worden verbruikt alsmede de traiteur die cateringdiensten verricht, zijn gehouden aan de belastingplichtige of niet-belastingplichtige klant het kasticket uit te reiken bedoeld in het koninklijk besluit van 30 december 2009 tot het bepalen van de definitie en de voorwaarden waaraan een geregistreerd kassasysteem in de horecasector moet voldoen, voor alle handelingen die zij in de uitoefening van de economische activiteit verrichten en die verband houden met het verstrekken van maaltijden en dranken, al dan niet verschaft bij de maaltijd, met inbegrip van alle verkopen van spijzen en dranken in voormelde inrichting, wanneer de jaaromzet, exclusief belasting over de toegevoegde waarde, met betrekking tot de restaurant- en cateringdiensten, met uitsluiting van de diensten die bestaan uit het verschaffen van dranken, meer bedraagt dan 25.000 euro.
-Wanneer de exploitant beschikt over meerdere inrichtingen waar maaltijden worden verbruikt, worden de voorwaarden bedoeld in het eerste lid per inrichting beoordeeld.
+Wanneer de exploitant beschikt over meerdere inrichtingen waar maaltijden worden verbruikt, worden de
+
+voorwaarden bedoeld in het eerste lid per inrichting beoordeeld.
 [2 Het gebruik door de exploitant van een geregistreerd kassasysteem voor de digitale registratie van al de handelingen uitgevoerd bij de uitoefening van zijn economische activiteit en die gedefinieerd worden in paragraaf 1, eerste lid, met systematische levering aan de klant van het kasticket wordt gelijkgesteld met het digitaal gehouden dagboek van ontvangsten voor zijn bedrijfszetel. Het kasticket moet verplicht in papieren vorm worden afgeleverd. De gegevens van de uitgevoerde handelingen in de bedrijfszetel die zullen geregistreerd worden, zijn enerzijds deze bedoeld in artikel 15, § 4 en anderzijds de gegevens bijgehouden in het kasticket gedefinieerd in het koninklijk besluit van 30 december 2009 tot het bepalen van de definitie en de voorwaarden waaraan een geregistreerd kassasysteem in de horecasector moet voldoen.]2 Dit kasticket wordt uitgereikt op het tijdstip van de voltooiing van de dienst of van de levering van de goederen en bevat onder meer de in artikel 2, punt 4, van voornoemd koninklijk besluit voorziene vermeldingen.
 De verplichting tot uitreiking van dit kasticket eindigt op het tijdstip waarop de belastingplichtige zijn in het eerst lid bedoelde activiteit die bestaat uit het verrichten van restaurant- en cateringdiensten, definitief stopzet.
 Zijn niet gehouden tot de uitreiking aan de klant van het in het eerste lid bedoelde kasticket :
@@ -507,7 +568,9 @@ In het register bedoeld in het eerste lid, tekent de belastingplichtige, voor el
 
 [1 § 1. Overeenkomstig artikel 54bis, § 1, vierde lid, van het Wetboek, houdt elke belastingplichtige die in België bestemmeling is van goederen in het kader van de regeling voor voorraden op afroep bedoeld in artikel 17bis van de richtlijn 2006/112/EG van de Raad van 28 november 2006 betreffende het gemeenschappelijke stelsel van belasting over de toegevoegde waarde, een register waarin hij de goederen optekent die hem werden geleverd in het kader van die regeling.
 In het register bedoeld in het eerste lid, tekent de belastingplichtige, voor elke handeling, de gegevens op bedoeld in artikel 54bis, lid 2, van de uitvoeringsverordening (EU) nr. 282/2011 van de Raad van 15 maart 2011 houdende vaststelling van maatregelen ter uitvoering van Richtlijn 2006/112/EG betreffende het gemeenschappelijke stelsel van belasting over de toegevoegde waarde.
-§ 2. Elk lid van een btw-eenheid bedoeld in artikel 4, § 2, van het Wetboek, houdt het in paragraaf 1 bedoelde register voor de handelingen die hem betreffen.]1 (1)<Ingevoegd bij KB 2019-12-11/14, art. 3, 046; Inwerkingtreding : 01-01-2020>
+§ 2. Elk lid van een btw-eenheid bedoeld in artikel 4, § 2, van het Wetboek, houdt het in paragraaf 1 bedoelde register voor de handelingen die hem betreffen.]1
+
+(1)<Ingevoegd bij KB 2019-12-11/14, art. 3, 046; Inwerkingtreding : 01-01-2020>
 
 #### Art. 25.<KB 1996-02-25/35, art. 6, 007; Inwerkingtreding : 01-01-1996> § 1. Iedere belastingplichtige moet een register houden van de goederen die hem door een belastingplichtige worden toevertrouwd met het oog op de oplevering aan laatstgenoemde van een maakloonwerk in de zin van [1 artikel 1, § 22]1, van het Wetboek.
 § 2. In het in § 1 bedoelde register vermeldt de belastingplichtige eveneens de goederen die hem vanuit een andere Lid-Staat werden toegezonden door of voor rekening van een in die andere Lid-Staat voor BTWdoeleinden geïdentificeerde belastingplichtige en die het voorwerp uitmaken van een expertise of van een materieel werk, ander dan een maakloonwerk in de zin van [1 artikel 1, § 22]1, van het Wetboek.
@@ -536,7 +599,9 @@ Wanneer een in artikel 58quinquies, § 1, tweede lid, 2°, van het Wetboek bedoe
 In het in eerste lid bedoelde register neemt de persoon die voor rekening van de persoon voor wie de goederen zijn bestemd de goederen bij de Algemene Administratie van de Douane en Accijnzen aanbrengt, voor elke handeling op:
 1° een volgnummer;
 2° de datum van invoer of de periode waarin de invoer heeft plaatsgevonden;
-3° de naam en het adres van de geadresseerde van de ingevoerde goederen bedoeld in artikel 6 van het koninklijk besluit nr. 7 van 29 december 1992 met betrekking tot de invoer van goederen voor de toepassing van de belasting over de toegevoegde waarde;
+3° de naam en het adres van de geadresseerde van de ingevoerde goederen bedoeld in artikel 6 van het koninklijk besluit nr. 7 van 29 december 1992 met betrekking tot de invoer van goederen voor de toepassing van
+
+de belasting over de toegevoegde waarde;
 4° de omschrijving van de ingevoerde goederen;
 5° de vermelding van het toepasselijke tarief, van de maatstaf van heffing en van het bedrag van de verschuldigde belasting voor elk goed in de zending;
 6° in voorkomend geval, de vermelding van de toepasselijke bepaling van de richtlijn of van de overeenkomstige nationale bepaling, of een andere vermelding dat de levering van goederen of de dienstverrichting is vrijgesteld;
@@ -598,7 +663,7 @@ inschrijvingen in de registers bedoeld in de artikelen 23, 25 en 28 worden zonde
 #### Art. 30.[1 Voor zover het BTW-identificatienummer krachtens artikel 53quater van het Wetboek dient te worden medegedeeld, moet dit nummer worden vermeld op alle contracten, facturen, bestelbons, verzendingsnota's en andere stukken met betrekking tot de economische activiteit van de betrokken persoon.
 De leden van een BTW-eenheid in de zin van artikel 4, § 2, van het Wetboek, mogen op de in het eerste lid bedoelde stukken die zij uitreiken, enkel het sub-BTW-identificatienummer vermelden dat hen werd toegekend krachtens artikel 50, §§ 1, eerste lid, 6° of 2, tweede lid, van het Wetboek.]1 (1)<KB 2009-12-09/10, art. 8, 027; Inwerkingtreding : 01-01-2010>
 
-## HOOFDSTUK V — [1 - Tijdelijke bepaling]1
+## HOOFDSTUK V. [1 - Tijdelijke bepaling]1
 
 (1)<Ingevoegd bij KB 2012-12-19/03, art. 28, 033; Inwerkingtreding : 01-01-2013>
 

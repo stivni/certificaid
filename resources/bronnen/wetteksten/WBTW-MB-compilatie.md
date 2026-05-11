@@ -1,47 +1,51 @@
 ---
-tags: [VI.C, '2.4']
-itaa-lex-sectie: VI.C
-wet: Ministeriële besluiten inzake belasting over de toegevoegde waarde (compilatie Fisconet, bijgewerkt t.e.m. 29.04.2024)
-bron_rol: itaa_lex
-status: beschikbaar
 bijgewerkt: 29.04.2024
 bron: ejustice.just.fgov.be (gecoördineerde versie)
+bron_rol: itaa_lex
 chunk:
   level: 6
+  sub_strategy: null
   type: Art.
-  sub_strategy:
+itaa-lex-sectie: VI.C
 provenance:
+  generated_at: '2026-05-11T16:21:51Z'
   inputs:
-    - id: resources/raw/wetteksten/btw-kbs/WBTW-MB-compilatie.pdf
-      sha256: e2e322b0d748d0314e5f16d11a0aac6c964d684451d00738c9352b4f32f9171c
-      version: 29.04.2024
+  - id: resources/raw/wetteksten/btw-kbs/WBTW-MB-compilatie.pdf
+    sha256: e2e322b0d748d0314e5f16d11a0aac6c964d684451d00738c9352b4f32f9171c
+    version: 29.04.2024
+  stale: false
+  stale_reason: null
   tooling:
+    model: null
     pipeline: tools/etl/convert.py
     pipeline_version: ec1f304
-    model:
-    prompt_version:
-  generated_at: '2026-05-09T15:22:26Z'
-  stale: false
-  stale_reason:
+    prompt_version: null
   trust:
-    status: trusted
     confirmed_at: '2026-05-09T21:27:46Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: L1=pass
     layer1:
-      status: pass
-      run_id: 20260511-134044
-      run_at: '2026-05-11T13:40:48Z'
-      heading_count: 135
-      max_section_chars: 2386
       file_size_chars: 52317
       flags: []
+      heading_count: 135
+      max_section_chars: 2386
+      run_at: '2026-05-11T13:40:48Z'
+      run_id: 20260511-134044
+      status: pass
     layer2:
-      status: trusted
-      agent:
-      run_at:
-      rationale: 'Goed gestructureerd: 135 headings tot ###### Art.-niveau, max sectie 2386 chars. Compilatiebestand met TITEL/HOOFDSTUK/AFDELING-hierarchie + per-artikel-headings.'
+      agent: null
       concrete_problemen: []
+      rationale: 'Goed gestructureerd: 135 headings tot ###### Art.-niveau, max sectie
+        2386 chars. Compilatiebestand met TITEL/HOOFDSTUK/AFDELING-hierarchie + per-artikel-headings.'
+      run_at: null
+      status: trusted
+    rationale: L1=pass
+    status: trusted
+status: beschikbaar
+tags:
+- VI.C
+- '2.4'
+wet: Ministeriële besluiten inzake belasting over de toegevoegde waarde (compilatie
+  Fisconet, bijgewerkt t.e.m. 29.04.2024)
 ---
 
 # Ministeriële besluiten inzake belasting over de toegevoegde waarde (compilatie Fisconet, bijgewerkt t.e.m. 29.04.2024)

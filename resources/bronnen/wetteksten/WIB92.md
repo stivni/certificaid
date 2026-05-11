@@ -1,51 +1,56 @@
 ---
-tags: [II, '2.2', '2.3']
-itaa-lex-sectie: II
-wet: WIB92
-bron_rol: itaa_lex
-status: beschikbaar
 bijgewerkt: 10.02.2026
 bron: Fisconet (officieuze gecoördineerde versie)
+bron_rol: itaa_lex
 chunk:
   level: 6
-  type: Art.
   sub_strategy: per_definitieblok
+  type: Art.
+itaa-lex-sectie: II
 provenance:
+  generated_at: '2026-05-11T16:22:16Z'
   inputs:
-    - id: resources/raw/wetteksten/WIB92.pdf
-      sha256: 3283429e179aaf3780ec95af9b04d3597d4987f4a0bef6f36f196f6c7c582938
-      version: 10.02.2026
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 7a134f4
-    model:
-    prompt_version:
-  generated_at: '2026-05-09T16:14:46Z'
+  - id: resources/raw/wetteksten/WIB92.pdf
+    sha256: 3283429e179aaf3780ec95af9b04d3597d4987f4a0bef6f36f196f6c7c582938
+    version: 10.02.2026
   stale: false
-  stale_reason:
+  stale_reason: null
+  tooling:
+    model: null
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version: null
   trust:
-    status: trusted
     confirmed_at: '2026-05-09T21:27:46Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: L1=pass
     layer1:
-      status: warn
-      run_id: 20260511-134044
-      run_at: '2026-05-11T13:40:49Z'
-      heading_count: 1093
-      max_section_chars: 68112
       file_size_chars: 1950496
       flags:
-        - name: max_section_size
-          status: warn
-          detail: 'langste sectie op ######-niveau: 68112 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
-          samples: []
+      - detail: 'langste sectie op ######-niveau: 68112 chars (>24000); chunker splitst
+          auto op alinea-grenzen via split_long_chunk'
+        name: max_section_size
+        samples: []
+        status: warn
+      heading_count: 1093
+      max_section_chars: 68112
+      run_at: '2026-05-11T13:40:49Z'
+      run_id: 20260511-134044
+      status: warn
     layer2:
-      status: trusted
-      agent:
-      run_at:
-      rationale: 'Solide wettekst: 1093 headings, max sectie 8957 chars, geen warns/fails. Per-artikel ###### Art.-structuur met definitieblok-substrategy.'
+      agent: null
       concrete_problemen: []
+      rationale: 'Solide wettekst: 1093 headings, max sectie 8957 chars, geen warns/fails.
+        Per-artikel ###### Art.-structuur met definitieblok-substrategy.'
+      run_at: null
+      status: trusted
+    rationale: L1=pass
+    status: trusted
+status: beschikbaar
+tags:
+- II
+- '2.2'
+- '2.3'
+wet: WIB92
 ---
 
 # WIB92

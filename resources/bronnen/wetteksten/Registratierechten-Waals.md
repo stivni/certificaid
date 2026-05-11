@@ -1,90 +1,107 @@
 ---
-tags: [VIII, '2.6']
-itaa-lex-sectie: VIII
-wet: Wetboek der Registratie-, Hypotheek- en Griffierechten — Waals Gewest
-status: beschikbaar
 bijgewerkt: 16.03.2026
 bron: Fisconetplus.be (officieuze gecoördineerde versie)
-provenance:
-  inputs:
-    - id: resources/raw/wetteksten/Registratierechten-Waals.pdf
-      sha256: a2c239adbf6000aaa82c66c263fc70bc8a360cdc6ce462da3a548998b9d0864c
-      version: 16.03.2026
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 732fcc0
-    model:
-    prompt_version:
-  generated_at: '2026-05-07T13:37:30Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T11:41:57Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "Zelfde TOC-dotted-leaders probleem als Brussel (74 regels, A2/B7). Bovendien: A1-artefact op r.143 — een alleenstaande 'I' (vermoedelijk een paginanummer of TOC-letter uit de PDF-extractie). B4: plain-text all-caps structuurlabels in het corps (TIJDELIJKE BEPALINGEN r.7145, OVERGANGSBEPALINGEN r.7357, BIJBEPALINGEN r.7471, INWERKINGTREDING r.7497). De tarieftabel rond r.2130 bevat kolom-bleed waarbij NL en FR kolomtitels op afzonderlijke regels staan ('Van / De', 'tot inbegrepen a / à … inclus') maar geen echte interleaving van zinnen — dit is grensgevaal maar acceptabel als PDF-tabelextractie."
-    layer1:
-      status: warn
-      run_id: 20260511-134044
-      run_at: '2026-05-11T13:40:46Z'
-      heading_count: 609
-      max_section_chars: 58101
-      file_size_chars: 609384
-      flags:
-        - name: max_section_size
-          status: warn
-          detail: 'langste sectie op ######-niveau: 58101 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
-          samples: []
-        - name: no_toc_dots
-          status: warn
-          detail: 74 TOC-stippen-regel(s) gevonden
-          samples:
-            - '................................................................................'
-            - '................................................................................'
-            - '................................................................................'
-    layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T11:41:57Z'
-      rationale: "Zelfde TOC-dotted-leaders probleem als Brussel (74 regels, A2/B7). Bovendien: A1-artefact op r.143 — een alleenstaande 'I' (vermoedelijk een paginanummer of TOC-letter uit de PDF-extractie). B4: plain-text all-caps structuurlabels in het corps (TIJDELIJKE BEPALINGEN r.7145, OVERGANGSBEPALINGEN r.7357, BIJBEPALINGEN r.7471, INWERKINGTREDING r.7497). De tarieftabel rond r.2130 bevat kolom-bleed waarbij NL en FR kolomtitels op afzonderlijke regels staan ('Van / De', 'tot inbegrepen a / à … inclus') maar geen echte interleaving van zinnen — dit is grensgevaal maar acceptabel als PDF-tabelextractie."
-      concrete_problemen:
-        - regel: 75
-          categorie: A2
-          type: dotted-leader
-          voorbeeld: '## TITEL I - REGISTRATIERECHT................ 6'
-        - regel: 143
-          categorie: A1
-          type: form-feed
-          voorbeeld: I
-        - regel: 7145
-          categorie: B4
-          type: other
-          voorbeeld: TIJDELIJKE BEPALINGEN
-        - regel: 7357
-          categorie: B4
-          type: other
-          voorbeeld: OVERGANGSBEPALINGEN
-        - regel: 7471
-          categorie: B4
-          type: other
-          voorbeeld: BIJBEPALINGEN BETREFFENDE DE MET HET ZEGEL GELIJKGESTELDE TAKSEN
-        - regel: 7497
-          categorie: B4
-          type: other
-          voorbeeld: INWERKINGTREDING
 chunk:
   level: 6
+  sub_strategy: null
   type: Art.
-  sub_strategy:
+itaa-lex-sectie: VIII
+provenance:
+  generated_at: '2026-05-11T16:21:47Z'
+  inputs:
+  - id: resources/raw/wetteksten/Registratierechten-Waals.pdf
+    sha256: a2c239adbf6000aaa82c66c263fc70bc8a360cdc6ce462da3a548998b9d0864c
+    version: 16.03.2026
+  stale: false
+  stale_reason: null
+  tooling:
+    model: null
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version: null
+  trust:
+    confirmed_at: '2026-05-11T11:41:57Z'
+    confirmed_by: subagent-sonnet-4-6
+    layer1:
+      file_size_chars: 609384
+      flags:
+      - detail: 'langste sectie op ######-niveau: 58101 chars (>24000); chunker splitst
+          auto op alinea-grenzen via split_long_chunk'
+        name: max_section_size
+        samples: []
+        status: warn
+      - detail: 74 TOC-stippen-regel(s) gevonden
+        name: no_toc_dots
+        samples:
+        - '................................................................................'
+        - '................................................................................'
+        - '................................................................................'
+        status: warn
+      heading_count: 609
+      max_section_chars: 58101
+      run_at: '2026-05-11T13:40:46Z'
+      run_id: 20260511-134044
+      status: warn
+    layer2:
+      agent: subagent-sonnet-4-6
+      concrete_problemen:
+      - categorie: A2
+        regel: 75
+        type: dotted-leader
+        voorbeeld: '## TITEL I - REGISTRATIERECHT................ 6'
+      - categorie: A1
+        regel: 143
+        type: form-feed
+        voorbeeld: I
+      - categorie: B4
+        regel: 7145
+        type: other
+        voorbeeld: TIJDELIJKE BEPALINGEN
+      - categorie: B4
+        regel: 7357
+        type: other
+        voorbeeld: OVERGANGSBEPALINGEN
+      - categorie: B4
+        regel: 7471
+        type: other
+        voorbeeld: BIJBEPALINGEN BETREFFENDE DE MET HET ZEGEL GELIJKGESTELDE TAKSEN
+      - categorie: B4
+        regel: 7497
+        type: other
+        voorbeeld: INWERKINGTREDING
+      rationale: 'Zelfde TOC-dotted-leaders probleem als Brussel (74 regels, A2/B7).
+        Bovendien: A1-artefact op r.143 — een alleenstaande ''I'' (vermoedelijk een
+        paginanummer of TOC-letter uit de PDF-extractie). B4: plain-text all-caps
+        structuurlabels in het corps (TIJDELIJKE BEPALINGEN r.7145, OVERGANGSBEPALINGEN
+        r.7357, BIJBEPALINGEN r.7471, INWERKINGTREDING r.7497). De tarieftabel rond
+        r.2130 bevat kolom-bleed waarbij NL en FR kolomtitels op afzonderlijke regels
+        staan (''Van / De'', ''tot inbegrepen a / à … inclus'') maar geen echte interleaving
+        van zinnen — dit is grensgevaal maar acceptabel als PDF-tabelextractie.'
+      run_at: '2026-05-11T11:41:57Z'
+      status: needs-rework
+    rationale: 'Zelfde TOC-dotted-leaders probleem als Brussel (74 regels, A2/B7).
+      Bovendien: A1-artefact op r.143 — een alleenstaande ''I'' (vermoedelijk een
+      paginanummer of TOC-letter uit de PDF-extractie). B4: plain-text all-caps structuurlabels
+      in het corps (TIJDELIJKE BEPALINGEN r.7145, OVERGANGSBEPALINGEN r.7357, BIJBEPALINGEN
+      r.7471, INWERKINGTREDING r.7497). De tarieftabel rond r.2130 bevat kolom-bleed
+      waarbij NL en FR kolomtitels op afzonderlijke regels staan (''Van / De'', ''tot
+      inbegrepen a / à … inclus'') maar geen echte interleaving van zinnen — dit is
+      grensgevaal maar acceptabel als PDF-tabelextractie.'
+    status: needs-rework
+status: beschikbaar
+tags:
+- VIII
+- '2.6'
+wet: Wetboek der Registratie-, Hypotheek- en Griffierechten — Waals Gewest
 ---
 
 # Registratierechten — Waals Gewest
 
-*Bijgewerkt tot en met 16.03.2026 — officieuze gecoördineerde versie. Bron: Fisconetplus.be.*
+*Bijgewerkt tot en met 16.03.2026 — gecoördineerde versie.*
 
-HYPOTHEEK- EN GRIFFIERECHTEN
+## HYPOTHEEK- EN GRIFFIERECHTEN
 
-WAALS GEWEST
+## WAALS GEWEST
 
 Wetgeving van toepassing in het WAALS GEWEST
 
@@ -93,180 +110,6 @@ Wetgeving van toepassing in het WAALS GEWEST
 (officieuze coördinatie)
 
 (KB nr. 64 van 30.11.1939, bevattende het Wetboek der registratie- hypotheek- en griffierechten (B.S. 01.12.1939) err. (B.S., 03.12.1939 en B.S. 13.12.1939). Dit KB werd bekrachtigd door art. 2 van de wet van 16 jun. 1947 (B.S. 14.08.1947) err. (B.S., 26.10.1947))
-
-## TITEL I - REGISTRATIERECHT................................................................................................................................................ 6
-
-### HOOFDSTUK I - Formaliteit der registratie en vestiging van de belasting ....................................................................................6
-
-### HOOFDSTUK II - Indeling van de rechten en algemene heffingsregels .......................................................................................11
-
-### HOOFDSTUK III - Registratieverplichting ..................................................................................................................................................13
-
-Eerste afdeling - Akten en verklaringen aan de formaliteit onderworpen ..........................................................................14
-
-#### Afdeling II - Termijnen voor de aanbieding ter registratie ..........................................................................................................19
-
-#### Afdeling III - Personen verplicht tot aanbieding ter registratie.................................................................................................22
-
-#### Afdeling IV - Plaats der registratie ........................................................................................................................................................24
-
-#### Afdeling V - Sanctiën ...................................................................................................................................................................................26
-
-### HOOFDSTUK IV - Vaststelling van de rechten ........................................................................................................................................27
-
-#### Afdeling I - Overdrachten onder bezwarende titel van onroerende goederen ..................................................................27
-
-#### Afdeling II - Openbare verkopingen van lichamelijke roerende goederen ...........................................................................48
-
-#### Afdeling III - (…) ..............................................................................................................................................................................................50
-
-#### Afdeling IV - Huurcontracten...................................................................................................................................................................50
-
-#### Afdeling V - (…)...............................................................................................................................................................................................52
-
-#### Afdeling VI - Hypotheekvestigingen.....................................................................................................................................................52
-
-#### Afdeling VII - (…) ............................................................................................................................................................................................55
-
-#### Afdeling VIII - (…) ...........................................................................................................................................................................................56
-
-#### Afdeling IX - Opheffingen ..........................................................................................................................................................................57
-
-#### Afdeling X - Verdelingen ............................................................................................................................................................................58
-
-#### Afdeling XI - Vennootschappen ..............................................................................................................................................................60
-
-#### Afdeling XII - Schenkingen ........................................................................................................................................................................72
-
-#### Afdeling XIII - Specifieke bepalingen voor schenkingen, verricht onmiddellijk na een successie ..............................92
-
-#### Afdeling XIV- Vonnissen en arresten ...................................................................................................................................................93
-
-#### Afdeling XV - (…) ............................................................................................................................................................................................96
-
-#### Afdeling XVI - (…)...........................................................................................................................................................................................97
-
-#### Afdeling XVII - (…) .........................................................................................................................................................................................97
-
-#### Afdeling XVIII - (…) ........................................................................................................................................................................................97
-
-#### Afdeling XIX - Protesten ............................................................................................................................................................................98
-
-#### Afdeling XIXbis - Aangehechte akten en geschriften ....................................................................................................................98
-
-#### Afdeling XX - Akten vrijgesteld van het evenredig recht en onderhevig aan het algemeen vast recht ............... 104
-
-#### Afdeling XXI - Akten vrijgesteld van het evenredig recht en onderhevig aan een bijzonder vast recht van 10
-
-euro.................................................................................................................................................................................................................. 110
-
-### HOOFDSTUK V - Registratie in debet ...................................................................................................................................................... 111
-
-I
-
-### HOOFDSTUK VI - Kosteloze registratie ................................................................................................................................................... 112
-
-### HOOFDSTUK VII - Vrijstelling van de formaliteit der registratie................................................................................................... 115
-
-### HOOFDSTUK VIII - Diverse bepalingen betreffende de vereffening van de rechten en de betaling van het
-
-verschuldigde bedrag ...................................................................................................................................................................................... 121
-
-### HOOFDSTUK IX - Verplichtingen met het oog op het verzekeren van het heffen van de rechten................................ 123
-
-#### Afdeling I - Vermeldingen op te nemen in bepaalde akten ..................................................................................................... 123
-
-#### Afdeling II - Voorschriften betreffende het uitreiken van uitgiften...................................................................................... 124
-
-#### Afdeling III - Repertorium van de akten ........................................................................................................................................... 126
-
-#### Afdeling IV - Verplichting van inzageverlening ............................................................................................................................. 129
-
-#### Afdeling V - Verplichtingen opgelegd aan openbare ambtenaren ter verzekering van de invordering der
-
-registratierechten ...................................................................................................................................................................................... 132
-
-### HOOFDSTUK X - Bewijsmiddelen .............................................................................................................................................................. 133
-
-#### Afdeling I - Algemene bepalingen ...................................................................................................................................................... 133
-
-#### Afdeling II - Controleschatting ............................................................................................................................................................. 134
-
-### HOOFDSTUK XI - Tekort in de waardering, bewimpeling en veinzing. Sanctiën ................................................................... 139
-
-### HOOFDSTUK XII - Correctionele straffen ............................................................................................................................................... 141
-
-### HOOFDSTUK XIII - Teruggaaf ...................................................................................................................................................................... 146
-
-### HOOFDSTUK XIV - Verjaring ........................................................................................................................................................................ 151
-
-### HOOFDSTUK XV - Vervolgingen en gedingen ...................................................................................................................................... 155
-
-### HOOFDSTUK XVI - Bijzondere bepalingen betreffende de openbare verkopingen van roerende goederen............ 158
-
-### HOOFDSTUK XVII - Inlichtingen te verstrekken door de Algemene Administratie van de
-
-Patrimoniumdocumentatie .......................................................................................................................................................................... 161
-
-### HOOFDSTUK XVIII - Speciaal recht op de nationaliteit, de adelbrieven en de verzoeken tot verandering van naam
-
-................................................................................................................................................................................................................................... 163
-
-#### Afdeling I - Nationaliteit .......................................................................................................................................................................... 163
-
-#### Afdeling II - Open brieven van adeldom en verzoeken tot verandering van naam ....................................................... 166
-
-#### Afdeling III - Bepaling gemeen aan afdelingen I en II ................................................................................................................. 168
-
-### HOOFDSTUK XIX - Speciale geldboete wegens late neerlegging van aan bekendmaking onderworpen akten van
-
-vennootschap ..................................................................................................................................................................................................... 168
-
-## TITEL II – HYPOTHEEKRECHT .......................................................................................................................................... 169
-
-## TITEL III - GRIFFIERECHT .................................................................................................................................................. 172
-
-### HOOFDSTUK I - VESTIGING VAN DE BELASTING EN VASTSTELLING VAN DE RECHTEN ............................................... 172
-
-#### Afdeling I - Rolrecht .................................................................................................................................................................................. 172
-
-#### Afdeling Ibis - Opstelrecht ...................................................................................................................................................................... 174
-
-#### Afdeling II - Expeditierecht .................................................................................................................................................................... 175
-
-#### Afdeling III - Legalisatie- en opzoekingsrechten .......................................................................................................................... 177
-
-#### Afdeling IV - Recht van inschrijving in het handelsregister ..................................................................................................... 178
-
-### HOOFDSTUK II - Vrijstellingen..................................................................................................................................................................... 178
-
-### HOOFDSTUK III - Diverse bepalingen....................................................................................................................................................... 181
-
-## TITEL IV - DIGITALISATIE VAN DE RELATIES TUSSEN DE FEDERALE OVERHEIDSDIENST FINANCIËN, DE
-
-BURGERS EN BEPAALDE DERDEN ................................................................................................................................. 183 GEMEENSCHAPPELIJKE BEPALINGEN VOOR ALLE BELASTINGEN........................................................................... 188 INTREKKINGSBEPALING ............................................................................................................................................................................... 242 TIJDELIJKE BEPALINGEN................................................................................................................................................................................ 242
-
-#### Afdeling I - Maatregelen waarbij de oprichting van nieuwe gebouwen begunstigd wordt door een
-
-vermindering der registratierechten ................................................................................................................................................. 243
-
-II
-
-#### Afdeling II - Diverse bepalingen........................................................................................................................................................... 244
-
-OVERGANGSBEPALINGEN ........................................................................................................................................................................... 248
-
-#### Afdeling I - Algemene maatregelen ................................................................................................................................................... 248
-
-#### Afdeling II - Bijzondere maatregelen................................................................................................................................................. 250
-
-BIJBEPALINGEN BETREFFENDE DE MET HET ZEGEL GELIJKGESTELDE TAKSEN .............................................................. 251 INWERKINGTREDING...................................................................................................................................................................................... 251
-
-III
-
-Wetgeving van toepassing in het Waals Gewest
-
-(officieuze coördinatie)
 
 (KB nr. 64 van 30.11.1939, bevattende het Wetboek der registratie- hypotheek- en griffierechten (B.S. 01.12.1939) err. (B.S., 03.12.1939 en B.S. 13.12.1939). Dit KB werd bekrachtigd door art. 2 van de wet van 16.06.1947 (B.S. 14.08.1947) err. (B.S., 26.10.1947))
 
@@ -730,6 +573,7 @@ iii. de akten van herroeping van de onder i en ii bedoelde akten;
 iv. de verklaringen betreffende testamenten in de internationale vorm;
 
 v. de akten van bewaargeving van een testament door de erflater.
+
 Voor de akten die gelijktijdig worden aangeboden tot de formaliteiten van de registratie en van de hypothecaire overschrijving die bij de aanbieding ter registratie binnen de in het eerste lid gestelde termijn niet werden geregistreerd wegens de weigering van de overschrijving, bedraagt de termijn zeven dagen te rekenen van de datum van de kennisgeving aan de notaris van deze weigering. Deze termijn verstrijkt niet voor het einde van de termijn bepaald, naargelang het geval, in het eerste lid of in het tweede lid, a);
 
 2° Voor akten van gerechtsdeurwaarders, vier dagen;
@@ -1672,6 +1516,7 @@ Het recht wordt vastgesteld op:
 3° 5 pct. voor contracten tot vestiging van een erfpacht- of opstalrecht en tot overdracht daarvan, behalve wanneer daardoor een vereniging zonder winstoogmerk, een internationale vereniging zonder winstoogmerk of een gelijkaardige rechtspersoon die opgericht is volgens en onderworpen is aan de wetgeving van een lidstaat van de Europese Economische Ruimte en die bovendien zijn statutaire zetel, zijn hoofdbestuur of zijn hoofdvestiging binnen de Europese Economische Ruimte heeft, titularis van het erfpacht- of opstalrecht wordt, in welk geval het recht wordt vastgesteld op 0,50 pct.
 
 Een rechtspersoon is gelijkaardig aan een VZW wanneer de volgende voorwaarden cumulatief zijn vervuld:
+
 1° het doel van de rechtspersoon is belangeloos, zonder winstoogmerk;
 
 2° de activiteit van de rechtspersoon mag niet leiden tot de materiële verrijking van:
@@ -1737,7 +1582,9 @@ Bij overdracht van huur, wordt het bedrag of de waarde van de gebeurlijk ten bat
 (aangevuld bij art. 4 van het programmadecreet van 18.12.2008 (B.S., 30.12.2008). Tekst van toepassing vanaf 01.01.2009 (art.
 6). De bedoelde bepalingen zijn echter van toepassing op alle authentieke akten verleden vanaf 01.01.2009, zelfs indien een overeenkomst wordt vastgesteld die vóór die datum het voorwerp heeft uitgemaakt van een onderhandse akte (art. 1 van het decreet van 30.04.2009 (B.S., 20.05.2009 – ed. 2))
 
-Worden aan een recht van 1 t.h. onderworpen, de vestigingen van een hypotheek op een in België gelegen onroerend goed, of van 0% indien de hypotheek bestaat uit een waarborg van een hypothecair krediet of een hypothecaire lening toegekend in de vorm van ″Eco-Prêts″ (Ecoleningen) overeenkomstig het besluit van de Waalse Regering van 20 december 2007 houdende het reglement van de hypothecaire leningen van de ″Société wallonne de Crédit social″ (Waalse Maatschappij voor Sociaal Krediet) en de ″Guichets du Crédit social″ (Sociale Kredietloketten), of toegekend door het ″Fonds du Logement des Familles nombreuses de Wallonie″ (Woningfonds van de Kroostrijke Gezinnen van Wallonië) overeenkomstig het besluit van de Waalse Regering van 25 februari 1999 betreffende de hypothecaire leningen en de huurtegemoetkoming van het ″Fonds du Logement des Familles nombreuses de Wallonie″.
+Worden aan een recht van 1 t.h. onderworpen, de vestigingen van een hypotheek op een in België gelegen onroerend goed, of van 0% indien de hypotheek bestaat uit een waarborg van een hypothecair krediet of een hypothecaire lening toegekend in de vorm van ″Eco-Prêts″ (Ecoleningen) overeenkomstig het besluit van de Waalse Regering van 20 december 2007 houdende het reglement van de hypothecaire leningen van de ″Société wallonne de Crédit social″ (Waalse Maatschappij voor Sociaal Krediet) en de ″Guichets du Crédit social″ (Sociale Kredietloketten), of toegekend door het ″Fonds du Logement des Familles nombreuses de Wallonie″ (Woningfonds van de Kroostrijke Gezinnen van Wallonië) overeenkomstig het besluit van de Waalse Regering van 25 februari
+
+1999 betreffende de hypothecaire leningen en de huurtegemoetkoming van het ″Fonds du Logement des Familles nombreuses de Wallonie″.
 
 ###### Art. 88
 
@@ -1923,6 +1770,7 @@ De hypotheeksteller kan aanbieden het evenredig recht vermeerderd met de interes
 ###### Art. 105
 
 (van toepassing vanaf 01.01.1990)
+
 (opgeheven bij art. 153, 1° van de wet van 22.12.1989 (B.S., 29.12.1989). Tekst van toepassing vanaf 01.01.1990 (art. 244))
 
 (...)
@@ -2032,6 +1880,7 @@ Het recht wordt vereffend op het totaal bedrag van de inbrengen.
 (lid 1, gewijzigd bij art. 23 van de wet van 30.10.2025 (B.S., 24.11.2025). Tekst van toepassing vanaf 25.11.2025 (art. 28))
 
 De inbrengen van onroerende goederen, andere dan die welke gedeeltelijk of geheel tot bewoning aangewend worden of bestemd zijn en door een natuurlijke persoon ingebracht worden, in vennootschappen waarvan de zetel der werkelijke leiding in België gevestigd is, of de statutaire zetel in België en de zetel van werkelijke leiding buiten het grondgebied van de lidstaten van de Europese Unie gevestigd is, worden aan het recht van 0 pct. onderworpen.
+
 In geval van onjuiste verklaring betreffende de aanwending of de bestemming van het onroerend goed, zijn de aanvullende rechten opeisbaar en verbeurt iedere partij een boete gelijk aan de rechten.
 
 ###### Art. 116
@@ -3074,6 +2923,7 @@ Worden van het evenredig recht vrijgesteld en aan het algemeen vast recht onderw
 1° de aanwijzing van lastgever, op voorwaarde:
 
 a) dat het vermogen om een lastgever aan te wijzen in de akte van toewijzing of koop voorbehouden is;
+
 b) dat de aanwijzing bij authentieke akte geschied is uiterlijk op de vijfde werkdag na de dag van de toewijzing of van het contract;
 
 c) (…)
@@ -3435,7 +3285,7 @@ Deze beschikking is echter slechts van toepassing op de akten waarvan de kosten 
 1°bis De vonnissen en arresten houdende veroordeling van de Staat, de Gemeenschappen en de Gewesten, van de openbare instellingen die zijn opgericht door de Staat, en van de inrichtingen van de Gemeenschappen en de Gewesten.
 
 2° Overdrachten in der minne van onroerende goederen ten algemenen nutte, aan Staat, provinciën, gemeenten, openbare instellingen en aan alle andere tot onteigening gerechtigde organismen of personen: akten betreffen de wederafstand na onteigening ten algemenen nutte in de gevallen waarin hij bij de wet toegelaten is; akten tot vaststelling van een ruilverkaveling of een herverkaveling verricht met inachtneming van de bepalingen van
-#### Hoofdstuk VI van Titel I van de wet houdende organisatie van de ruimtelijke ordening en van de stedebouw. De akten houdende overdracht van een afgedankte bedrijfsruimte aan de Staat of een andere publiekrechtelijke rechtspersoon.
+Hoofdstuk VI van Titel I van de wet houdende organisatie van de ruimtelijke ordening en van de stedebouw. De akten houdende overdracht van een afgedankte bedrijfsruimte aan de Staat of een andere publiekrechtelijke rechtspersoon.
 
 3° De akten houdende oprichting, wijziging, verlenging of ontbinding van de Nationale Maatschappij der Waterleidingen, van de verenigingen overeenkomstig de bepalingen der wetten van 18 augustus 1907 en van 1 maart 1922 gevormd, van de Maatschappij voor het Intercommunaal Vervoer te Brussel, van de maatschappij voor tussengemeentelijk vervoer beheerst door de wet betreffen de oprichting van maatschappijen voor stedelijk gemeenschappelijk      vervoer,    van     de    Federale     Investeringsmaatschappij,     de     gewestelijke investeringsmaatschappijen en van de Belgische Naamloze Vennootschap tot Exploitatie van het Luchtverkeer (Sabena).
 
@@ -3477,7 +3327,7 @@ d) de documenten die krachtens wettelijke, decretale of ordonnantiële bepalinge
 15° De verklaring van verwerping ten overstaan van een notaris bedoeld in artikel 4.44, eerste lid, van het Burgerlijk Wetboek, onder de voorwaarden bedoeld in het derde lid van hetzelfde artikel. (1)
 
 De bijlagen bij een dergelijke verklaring worden ook kosteloos geregistreerd, behalve wanneer ze een in Titel I,
-#### Hoofdstuk IV van het Wetboek bepaald recht, ander dan het in artikel 158 bepaalde recht, opeisbaar maken.
+Hoofdstuk IV van het Wetboek bepaald recht, ander dan het in artikel 158 bepaalde recht, opeisbaar maken.
 
 16° de akten van erfopvolging bedoeld in artikel 3.30, § 1, 7°, van het Burgerlijk Wetboek, op voorwaarde dat de instrumenterende ambtenaar voor het opstellen van de akte geen vacaties of kosten vraagt en de akte opgesteld wordt binnen de 6 maanden na het overlijden.
 (1) Vanaf 03.08.2017 tot 02.08.2020 mag het netto actief van de nalatenschap niet meer bedragen dan 5.000 EUR. Vanaf 03.08.2020 tot 31.07.2023 bedraagt het geïndexeerde bedrag 5.219,21 euro. Vanaf 01.08.2023 tot 31.07.2026 bedraagt het geïndexeerde bedrag 6.093,20 euro (EE/107.394).
@@ -3842,6 +3692,7 @@ Notarissen en gerechtsdeurwaarders moeten een kolomsgewijze ingedeeld repertoriu
 (gewijzigd bij art. 53 van de wet van 21.12.2013 (B.S., 31.12.2013 – ed. 2). Tekst van toepassing vanaf 10.01.2014 (art. 87, 1°))
 
 In elk artikel van het repertorium dienen vermeld:
+
 1° volgnummer;
 
 2° datum en aard van de akte;
@@ -3950,6 +3801,7 @@ De modaliteiten waaronder deze inzage moet verleend worden en de termijn waarbin
 ###### Art. 182
 
 (van toepassing vanaf 16.05.2016)
+
 (gewijzigd bij art. 57 van de wet van 27.04.2016 (B.S., 06.05.2016). Tekst van toepassing vanaf 16.05.2016 (art. -))
 
 De personen die de in artikel 631 bedoelde beroepsaangifte ondertekenen zijn ertoe gehouden van hun registers, repertoria, boeken, akten en alle andere bescheiden betreffende hun handels-, beroeps- of statutaire bedrijvigheid, bij iedere vordering van de ambtenaren van de Algemene Administratie van de Patrimoniumdocumentatie, zonder verplaatsing inzage te verlenen, ten einde bedoelde ambtenaren te laten nagaan of de door hen of door derden verschuldigde registratierechten wel richting werden geheven.
@@ -4031,6 +3883,7 @@ De notarissen, gerechtsdeurwaarders en griffiers, de vereffenaars en curatoren a
 Het eerste lid is slechts van toepassing op de vereffenaars en de curators in het geval dat de veroordeling, de vereffening of rangregeling die de betaling, overschrijving, of teruggave tot gevolg heeft, hen ter kennis wordt gebracht.
 
 Indien de personen bepaald in het eerste lid de voorschriften van dit artikel niet zijn nagekomen, zijn zij persoonlijk aansprakelijk voor de betaling van de sommen die opeisbaar blijven.
+
 TOEKOMSTIG RECHT (vanaf 01.01.2028)
 
 ### HOOFDSTUK X - Bewijsmiddelen
@@ -4712,7 +4565,9 @@ Ingeval de moeilijkheid de verkoopwaarde betreft van een goed dat aan de in arti
 
 De minister van Financiën of de door hem gedelegeerde ambtenaar gaat dadingen met de belastingplichtigen aan, voor zover zij geen vrijstelling of vermindering van belasting in zich sluiten.
 
-Binnen de door de wet gestelde grenzen, wordt het bedrag van de proportionele fiscale boeten en de vermeerderingen vastgesteld in dit Wetboek of in de ter uitvoering ervan genomen besluiten, bepaald volgens een schaal waarvan de trappen door de Koning worden vastgesteld. Deze bepaling geldt niet voor het bedrag van de proportionele fiscale boeten bepaald in de artikelen 203, eerste lid, en 204, behalve wanneer de overtreder hetzij uit eigen beweging en voordat het bestuur iets gevorderd heeft, de overtreding aan het bestuur bekent, hetzij overleden is.
+Binnen de door de wet gestelde grenzen, wordt het bedrag van de proportionele fiscale boeten en de vermeerderingen vastgesteld in dit Wetboek of in de ter uitvoering ervan genomen besluiten, bepaald volgens een
+
+schaal waarvan de trappen door de Koning worden vastgesteld. Deze bepaling geldt niet voor het bedrag van de proportionele fiscale boeten bepaald in de artikelen 203, eerste lid, en 204, behalve wanneer de overtreder hetzij uit eigen beweging en voordat het bestuur iets gevorderd heeft, de overtreding aan het bestuur bekent, hetzij overleden is.
 
 ###### Art. 220
 
@@ -5203,7 +5058,9 @@ Onder de benaming hypotheekrecht wordt een belasting gevestigd op de inschrijvin
 
 Inschrijving van hypotheek wordt slechts verleend, tegen voorafbetaling door de verzoeker, van de uit dien hoofde verschuldigde retributies en recht.
 
-Het detail en het totaal van de voor recht en retributies ontvangen sommen worden op het inschrijvingsborderel vermeld De Koning kan deze wijze van vermelding geven aanvullen of wijzigen voor het geval het inschrijvingsborderel op gedematerialiseerde wijze wordt aangeboden.
+Het detail en het totaal van de voor recht en retributies ontvangen sommen worden op het inschrijvingsborderel vermeld
+
+De Koning kan deze wijze van vermelding geven aanvullen of wijzigen voor het geval het inschrijvingsborderel op gedematerialiseerde wijze wordt aangeboden.
 
 ###### Art. 261
 
@@ -5373,7 +5230,9 @@ De bepalingen van deze wet zijn van toepassing op de zaken waarvan de in art. 26
 
 (van toepassing vanaf 08.07.2012)
 
-(gewijzigd bij art. 98 van de wet van 22.06.2012 (B.S., 28.06.2012). Tekst van toepassing vanaf 08.07.2012 (art. -)) Op akten van griffiers van hoven en rechtbanken, op akten die buiten bemoeiing van rechters vóór hen zijn verleden, wordt een opstelrecht geheven van 35 euro.
+(gewijzigd bij art. 98 van de wet van 22.06.2012 (B.S., 28.06.2012). Tekst van toepassing vanaf 08.07.2012 (art. -))
+
+Op akten van griffiers van hoven en rechtbanken, op akten die buiten bemoeiing van rechters vóór hen zijn verleden, wordt een opstelrecht geheven van 35 euro.
 
 Met akten van griffiers van hoven en rechtbanken worden gelijkgesteld, overschrijvingen gedaan door griffiers in hun registers, van de verklaringen van beroep of van voorziening in verbreking strafzaken, door gedetineerden of geïnterneerden afgelegd.
 
@@ -5613,6 +5472,7 @@ De rechten worden onder de gerechtskosten begrepen en als dusdanig ingevorderd t
 ###### Art. 284bis
 
 (van toepassing vanaf 07.01.2007)
+
 (gewijzigd bij art. 312 van de wet van 27.12.2006 (B.S., 28.12.2006). Tekst van toepassing vanaf 07.01.2007 (art. -))
 
 In debet worden eveneens vereffend, de griffierechten verschuldigd op de kopieën in strafzaken die worden afgegeven met toepassing van de artikelen 674bis en volgende van het Gerechtelijk Wetboek. De rechten alsmede de andere kosten worden ingevorderd overeenkomstig de bepalingen van hetzelfde Wetboek.
@@ -5788,7 +5648,7 @@ TOEKOMSTIG RECHT (vanaf 01.01.2028)
 
 Voor de toepassing van artikelen 288quater tot en met 288nonies, wordt verstaan onder "bericht": alle schriftelijke mededelingen betreffende de rechten en plichten opgenomen in dit Wetboek, in de bijzondere wetsbepalingen met betrekking tot de registratie-, hypotheek- en griffierechten of in de ter uitvoering ervan genomen besluiten, inclusief briefwisseling, formulieren en verzendingen van gegevens, ongeacht de gebruikte drager.
 
-GEMEENSCHAPPELIJKE BEPALINGEN VOOR ALLE BELASTINGEN
+## GEMEENSCHAPPELIJKE BEPALINGEN VOOR ALLE BELASTINGEN
 
 (gewijzigd bij art. 5 van de wet van 17.08.2013 (B.S., 05.09.2013). Tekst van toepassing vanaf 01.01.2013 (art. 21))
 
@@ -5798,7 +5658,9 @@ GEMEENSCHAPPELIJKE BEPALINGEN VOOR ALLE BELASTINGEN
 
 (gewijzigd bij art. 3 van de wet van 14.01.2013 (B.S., 31.01.2013 – ed. 2). Tekst van toepassing vanaf 10.02.2013 (art. -))
 
-§ 1. De bestuursdiensten van de Staat, met inbegrip van de parketten en de griffies der hoven en rechtbanken, de besturen van de provinciën en van de gemeenten, zomede de openbare organismen en instellingen, zijn gehouden, wanneer zij daartoe aangezocht zijn door een ambtenaar van een der Rijksbesturen belast met de aanslag in, of de invordering van de belastingen, hem alle in hun bezit zijnde inlichtingen te verstrekken, hem, zonder verplaatsing van alle in hun bezit zijnde akten, stukken, registers en om 't even welke bescheiden inzage te verlenen en hem alle inlichtingen, afschriften of uittreksels te laten nemen, welke bedoelde ambtenaar ter verzekering van de aanslag in, of de heffing van de door de Staat geheven belastingen nodig acht.
+§ 1. De bestuursdiensten van de Staat, met inbegrip van de parketten en de griffies der hoven en rechtbanken, de besturen van de provinciën en van de gemeenten, zomede de openbare organismen en instellingen, zijn gehouden, wanneer zij daartoe aangezocht zijn door een ambtenaar van een der Rijksbesturen belast met de aanslag in, of de
+
+invordering van de belastingen, hem alle in hun bezit zijnde inlichtingen te verstrekken, hem, zonder verplaatsing van alle in hun bezit zijnde akten, stukken, registers en om 't even welke bescheiden inzage te verlenen en hem alle inlichtingen, afschriften of uittreksels te laten nemen, welke bedoelde ambtenaar ter verzekering van de aanslag in, of de heffing van de door de Staat geheven belastingen nodig acht.
 
 Onder openbare organismen dienen verstaan, naar de geest van deze wet, de instellingen, maatschappijen, verenigingen, inrichtingen en diensten welke de Staat mede beheert, waaraan de Staat een waarborg verstrekt, op welker bedrijvigheid de Staat toezicht uitoefent of waarvan het bestuurspersoneel aangewezen wordt door de regering, op haar voordracht of mits haar goedkeuring.
 
@@ -7156,7 +7018,7 @@ Tekst van toepassing vanaf 09.06.2024 (art. -))
 
 (…)
 
-INTREKKINGSBEPALING
+## INTREKKINGSBEPALING
 
 ###### Art. 290
 
@@ -7164,7 +7026,7 @@ INTREKKINGSBEPALING
 
 Onder voorbehoud van de bijzondere fiscale bepalingen voortvloeiend hetzij uit door den Staat gesloten en bij een wet goedgekeurde contracten, hetzij uit internationale overeenkomsten, worden alle vroegere wetsbepalingen betreffende registratie-, hypotheek- of griffierechten ingetrokken.
 
-TIJDELIJKE BEPALINGEN
+## TIJDELIJKE BEPALINGEN
 
 #### Afdeling I - Maatregelen waarbij de oprichting van nieuwe gebouwen begunstigd wordt door een vermindering der registratierechten
 
@@ -7376,7 +7238,7 @@ Die vrijstellingen zijn evenwel niet toepasselijk in het geval bedoeld bij artik
 
 (…)
 
-OVERGANGSBEPALINGEN
+## OVERGANGSBEPALINGEN
 
 #### Afdeling I - Algemene maatregelen
 
@@ -7490,7 +7352,7 @@ OVERGANGSBEPALINGEN
 
 (…)
 
-BIJBEPALINGEN BETREFFENDE DE MET HET ZEGEL GELIJKGESTELDE TAKSEN
+## BIJBEPALINGEN BETREFFENDE DE MET HET ZEGEL GELIJKGESTELDE TAKSEN
 
 ###### Art. 319
 
@@ -7516,7 +7378,7 @@ BIJBEPALINGEN BETREFFENDE DE MET HET ZEGEL GELIJKGESTELDE TAKSEN
 
 (…)
 
-INWERKINGTREDING
+## INWERKINGTREDING
 
 ###### Art. 322
 

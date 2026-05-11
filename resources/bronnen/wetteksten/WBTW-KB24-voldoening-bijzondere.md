@@ -4,67 +4,84 @@ bron: Afgesplitst uit Fisconet-compilatie (pdftotext_compilatie_btw)
 bron_rol: itaa_lex
 chunk:
   level: 4
-  sub_strategy:
+  sub_strategy: null
   type: Art.
 itaa-lex-sectie: VI.B
 provenance:
-  generated_at: '2026-05-11T13:40:00Z'
+  generated_at: '2026-05-11T16:21:50Z'
   inputs:
-    - id: resources/raw/wetteksten/btw-kbs/WBTW-KB-compilatie.pdf
-      sha256: 5f1bad7278d1f8e1f5c00efb5d792f61342d3f7a14a7950caca2937924bfa91c
-      version: 06.03.2020
+  - id: resources/raw/wetteksten/btw-kbs/WBTW-KB-compilatie.pdf
+    sha256: 5f1bad7278d1f8e1f5c00efb5d792f61342d3f7a14a7950caca2937924bfa91c
+    version: 06.03.2020
   stale: false
-  stale_reason:
+  stale_reason: null
   tooling:
-    model:
+    model: null
     pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    prompt_version:
+    pipeline_version: 11f9196
+    prompt_version: null
   trust:
     confirmed_at: '2026-05-11T11:46:28Z'
     confirmed_by: subagent-sonnet-4-6
     layer1:
-      status: warn
-      run_id: 20260511-134044
-      run_at: '2026-05-11T13:40:47Z'
-      heading_count: 44
-      max_section_chars: 5343
       file_size_chars: 28694
       flags:
-        - name: no_column_bleed
-          status: warn
-          detail: 1 kolom-bleed-patroon/-en gevonden buiten tabellen (twee-kolom PDF-extractie?)
-          samples:
-            - 'regel 27: Disposition temporaire                                       Art. 13ter'
+      - detail: 1 kolom-bleed-patroon/-en gevonden buiten tabellen (twee-kolom PDF-extractie?)
+        name: no_column_bleed
+        samples:
+        - 'regel 27: Disposition temporaire                                       Art.
+          13ter'
+        status: warn
+      heading_count: 44
+      max_section_chars: 5343
+      run_at: '2026-05-11T13:40:47Z'
+      run_id: 20260511-134044
+      status: warn
     layer2:
       agent: subagent-sonnet-4-6
       concrete_problemen:
-        - categorie: A8
-          regel: 86
-          type: column-bleed
-          voorbeeld: '                        Disposition temporaire                                       Art. 13ter'
-        - categorie: B7
-          regel: 76
-          type: dotted-leader
-          voorbeeld: '### Onderafdeling 1.    Betaling op de postrekening van "BTW-Ontvangsten"\n                        Brussel                                                      Art. 1 - 8'
-        - categorie: B3
-          regel: 71
-          type: other
-          voorbeeld: '## AFDELING 1 (TOC-kopie) gevolgd door ## AFDELING 1 (echte inhoud) op regel 102'
-        - categorie: A8
-          regel: 107
-          type: column-bleed
-          voorbeeld: (Het opschrift van Afdeling 1, werd vervangen           met   ingang   van   01.12.2019      (Art.    31,
-      rationale: 'A8/kolom-bleed: regel 86 ''Disposition temporaire\t\t\t\t\t\t Art. 13ter'' is een twee-kolom-extractie-fout (FR-label + NL-artikel op één regel). B3: TOC-headings (AFDELING 1–5 met Art.-bereiken) worden exact herhaald als echte inhoud-headings zonder paginanummer — dit zijn dubbele headings. B7: de vijf initiële ## AFDELING-headings (regels 71–100) eindigen op paginabereiken (''Art. 1 - 8'', ''Art. 14 - 15'', ...) die TOC-rest zijn. Inhoud is inhoudelijk compleet (Art. 1–24).'
+      - categorie: A8
+        regel: 86
+        type: column-bleed
+        voorbeeld: '                        Disposition temporaire                                       Art.
+          13ter'
+      - categorie: B7
+        regel: 76
+        type: dotted-leader
+        voorbeeld: '### Onderafdeling 1.    Betaling op de postrekening van "BTW-Ontvangsten"\n                        Brussel                                                      Art.
+          1 - 8'
+      - categorie: B3
+        regel: 71
+        type: other
+        voorbeeld: '## AFDELING 1 (TOC-kopie) gevolgd door ## AFDELING 1 (echte inhoud)
+          op regel 102'
+      - categorie: A8
+        regel: 107
+        type: column-bleed
+        voorbeeld: (Het opschrift van Afdeling 1, werd vervangen           met   ingang   van   01.12.2019      (Art.    31,
+      rationale: 'A8/kolom-bleed: regel 86 ''Disposition temporaire\t\t\t\t\t\t Art.
+        13ter'' is een twee-kolom-extractie-fout (FR-label + NL-artikel op één regel).
+        B3: TOC-headings (AFDELING 1–5 met Art.-bereiken) worden exact herhaald als
+        echte inhoud-headings zonder paginanummer — dit zijn dubbele headings. B7:
+        de vijf initiële ## AFDELING-headings (regels 71–100) eindigen op paginabereiken
+        (''Art. 1 - 8'', ''Art. 14 - 15'', ...) die TOC-rest zijn. Inhoud is inhoudelijk
+        compleet (Art. 1–24).'
       run_at: '2026-05-11T11:46:28Z'
       status: needs-rework
-    rationale: 'A8/kolom-bleed: regel 86 ''Disposition temporaire\t\t\t\t\t\t Art. 13ter'' is een twee-kolom-extractie-fout (FR-label + NL-artikel op één regel). B3: TOC-headings (AFDELING 1–5 met Art.-bereiken) worden exact herhaald als echte inhoud-headings zonder paginanummer — dit zijn dubbele headings. B7: de vijf initiële ## AFDELING-headings (regels 71–100) eindigen op paginabereiken (''Art. 1 - 8'', ''Art. 14 - 15'', ...) die TOC-rest zijn. Inhoud is inhoudelijk compleet (Art. 1–24).'
+    rationale: 'A8/kolom-bleed: regel 86 ''Disposition temporaire\t\t\t\t\t\t Art.
+      13ter'' is een twee-kolom-extractie-fout (FR-label + NL-artikel op één regel).
+      B3: TOC-headings (AFDELING 1–5 met Art.-bereiken) worden exact herhaald als
+      echte inhoud-headings zonder paginanummer — dit zijn dubbele headings. B7: de
+      vijf initiële ## AFDELING-headings (regels 71–100) eindigen op paginabereiken
+      (''Art. 1 - 8'', ''Art. 14 - 15'', ...) die TOC-rest zijn. Inhoud is inhoudelijk
+      compleet (Art. 1–24).'
     status: needs-rework
 status: beschikbaar
 tags:
-  - VI.B
-  - '2.4'
-wet: K.B. nr. 24 van 29 december 1992, met betrekking tot de voldoening van de belasting over de toegevoegde waarde
+- VI.B
+- '2.4'
+wet: K.B. nr. 24 van 29 december 1992, met betrekking tot de voldoening van de belasting
+  over de toegevoegde waarde
 ---
 
 # K.B. nr. 24 van 29 december 1992, met betrekking tot de voldoening van de belasting over de toegevoegde waarde

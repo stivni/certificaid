@@ -1,16 +1,14 @@
 ---
-tags: [I]
-itaa-lex-sectie: I
-wet: K.B. 17 januari 2003 tot uitvoering van artikel 22, tweede lid, van de wet van 24 december 2002 tot instelling van een systeem van voorafgaande beslissingen in fiscale zaken
-bron_rol: normatief
-status: beschikbaar
 bijgewerkt: 17.01.2003
 bron: ejustice.just.fgov.be (B.S. originele publicatie — NL-kolom)
+bron_rol: normatief
 chunk:
   level: 2
-  type: Art.
   sub_strategy:
+  type: Art.
+itaa-lex-sectie: I
 provenance:
+  generated_at: '2026-05-11T16:21:30Z'
   inputs:
     - id: resources/raw/wetteksten/KB-voorafgaande-beslissingen-art22-p1.pdf
       sha256: d84794542548059dd7bb2c9b9bcf5ec2be34976991d598042199562d12e46115
@@ -24,33 +22,36 @@ provenance:
     - id: resources/raw/wetteksten/KB-voorafgaande-beslissingen-art22-p4.pdf
       sha256: 61231d2dcd2b394894c83c45582158ec8ddeb3d7533eac13cb6d52a58244424d
       version: 17.01.2003
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 7a134f4
-    model:
-    prompt_version:
-  generated_at: '2026-05-09T16:15:49Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
-    status: trusted
     confirmed_at: '2026-05-09T21:27:46Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: L1=pass
     layer1:
       status: pass
-      run_id: 20260511-134044
-      run_at: '2026-05-11T13:40:45Z'
+      run_id: 20260511-162232
+      run_at: '2026-05-11T16:22:33Z'
       heading_count: 3
       max_section_chars: 1314
-      file_size_chars: 1718
+      file_size_chars: 1719
       flags: []
     layer2:
-      status: trusted
       agent:
-      run_at:
-      rationale: Korte KB (3.1KB), 3 artikelen op H2, frontmatter met multi-input provenance (4 PDF-pagina's). Body leesbaar NL, geen artefacten.
       concrete_problemen: []
+      rationale: Korte KB (3.1KB), 3 artikelen op H2, frontmatter met multi-input provenance (4 PDF-pagina's). Body leesbaar NL, geen artefacten.
+      run_at:
+      status: trusted
+    rationale: L1=pass
+    status: trusted
+status: beschikbaar
+tags:
+  - I
+wet: K.B. 17 januari 2003 tot uitvoering van artikel 22, tweede lid, van de wet van 24 december 2002 tot instelling van een systeem van voorafgaande beslissingen in fiscale zaken
 ---
 
 # K.B. 17 januari 2003 tot uitvoering van artikel 22, tweede lid, van de wet van 24 december 2002 tot instelling van een systeem van voorafgaande beslissingen in fiscale zaken

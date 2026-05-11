@@ -192,16 +192,23 @@ def _detect_heading_levels(blocks: list[Block]) -> dict[float, int]:
 # ─── Block-classificatie en rendering ─────────────────────────────────────────
 
 _ART_HEAD_RE = re.compile(
-    r"^\s*(Art(?:ikel)?\.?)\s+\d+(?:bis|ter|quater|quinquies|sexies|septies)?"
-    r"(?:/\d+)?\s*\.?\s*$",
+    # Belgisch art-num: `Art. 5`, `Art. 5bis`, `Art. 5/2`, ofwel
+    # `Art.XV.125`, `Art. XV.125/4/1` (WER-stijl met roman-prefix)
+    r"^\s*(Art(?:ikel)?\.?)\s*"
+    r"(?:[IVXLCDM]+\.?\s*)?"          # optioneel romeins boek/titel-prefix
+    r"\d+(?:[\./]\d+)*"                # nummer, eventueel met /N segmenten
+    r"(?:bis|ter|quater|quinquies|sexies|septies)?"
+    r"\s*\.?\s*$",
     re.I,
 )
 # Inline-art-pattern: `Art. N . Heading-tekst` aan het begin van een regel,
-# eventueel gevolgd door body op zelfde-of-volgende-regel. Captures het
-# art-nummer + suffix + de heading-titel-tekst.
+# eventueel gevolgd door body op zelfde-of-volgende-regel.
 _ART_INLINE_RE = re.compile(
-    r"^\s*(Art(?:ikel)?\.?)\s+(\d+(?:bis|ter|quater|quinquies|sexies|septies)?"
-    r"(?:/\d+)?)\s*[\.\s]\s*(.+?)$",
+    r"^\s*(Art(?:ikel)?\.?)\s*"
+    r"((?:[IVXLCDM]+\.?\s*)?"
+    r"\d+(?:[\./]\d+)*"
+    r"(?:bis|ter|quater|quinquies|sexies|septies)?)"
+    r"\s*[\.\s]\s*(.+?)$",
     re.I,
 )
 _STRUCT_HEAD_RE = re.compile(

@@ -1,165 +1,91 @@
 ---
-tags: [IX, '2.6']
-itaa-lex-sectie: IX
-wet: Wetboek der Successierechten — Waals Gewest
-status: beschikbaar
 bijgewerkt: 16.03.2026
 bron: Fisconetplus.be (officieuze gecoördineerde versie)
-provenance:
-  inputs:
-    - id: resources/raw/wetteksten/successie-waals.pdf
-      sha256: f52087a58cf1869bf7c58c3399e5f16f7d973788bf9fb3d16d433ce397926c1c
-      version: 16.03.2026
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 732fcc0
-    model:
-    prompt_version:
-  generated_at: '2026-05-07T13:37:30Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T11:41:57Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "A2: 24 TOC-stippenregels verspreid door de body (bijv. regel 88: 'te verzekeren ....................................................... 81') — onverwijderd TOC-residu. A3: het TOC-blok (regels 86–138) staat niet apart maar is direct gevolgd door de eigenlijke wettekst zonder scheiding, waardoor TOC en body door elkaar lopen. C3: tarief-tabellen (regels 993–998, 1017–1021) zijn als aaneengesloten platte tekst geëxtraheerd i.p.v. markdown-tabellen — zware pseudo-tabel en kolom-bleed (A8). B4: 'Eerste afdeling - ...' komt als plain-text voor in de body (regels 613, 977, 1002, 1737, …) i.p.v. #### heading. Dubbele koppen door TOEKOMSTIG RECHT-constructie (bijv. HOOFDSTUK VI op regels 975 en 1000, Art. 17 op regels 331 en 342)."
-    layer1:
-      status: warn
-      run_id: 20260511-134044
-      run_at: '2026-05-11T13:40:46Z'
-      heading_count: 395
-      max_section_chars: 57678
-      file_size_chars: 470842
-      flags:
-        - name: max_section_size
-          status: warn
-          detail: 'langste sectie op #####-niveau: 57678 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
-          samples: []
-        - name: no_toc_dots
-          status: warn
-          detail: 24 TOC-stippen-regel(s) gevonden
-          samples:
-            - "....................................................... 81\n"
-            - '................................................................................'
-            - '................................................................................'
-        - name: no_column_bleed
-          status: warn
-          detail: 2 kolom-bleed-patroon/-en gevonden buiten tabellen (twee-kolom PDF-extractie?)
-          samples:
-            - 'regel 949: Gedeelte van het netto-aandeel                                         Rechte lijn – tussen echtgenoten tussen wettelijk'
-            - 'regel 1513: Tabel met betrekking tot het preferentiele tarief voor de netto-aandelen in woningen Schijf van het netto-aandeel       '
-    layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T11:41:57Z'
-      rationale: "A2: 24 TOC-stippenregels verspreid door de body (bijv. regel 88: 'te verzekeren ....................................................... 81') — onverwijderd TOC-residu. A3: het TOC-blok (regels 86–138) staat niet apart maar is direct gevolgd door de eigenlijke wettekst zonder scheiding, waardoor TOC en body door elkaar lopen. C3: tarief-tabellen (regels 993–998, 1017–1021) zijn als aaneengesloten platte tekst geëxtraheerd i.p.v. markdown-tabellen — zware pseudo-tabel en kolom-bleed (A8). B4: 'Eerste afdeling - ...' komt als plain-text voor in de body (regels 613, 977, 1002, 1737, …) i.p.v. #### heading. Dubbele koppen door TOEKOMSTIG RECHT-constructie (bijv. HOOFDSTUK VI op regels 975 en 1000, Art. 17 op regels 331 en 342)."
-      concrete_problemen:
-        - regel: 67
-          categorie: A1
-          type: other
-          voorbeeld: WETBOEK DER SUCCESSIERECHTEN\n\nWAALS GEWEST\n\nWETBOEK DER SUCCESSIERECHTEN (drievoudige titelrepetitie)
-        - regel: 88
-          categorie: A2
-          type: dotted-leader
-          voorbeeld: te verzekeren ....................................................... 81
-        - regel: 90
-          categorie: A2
-          type: dotted-leader
-          voorbeeld: '### HOOFDSTUK XII - Bewijsmiddelen .............................................................................................  95'
-        - regel: 613
-          categorie: B4
-          type: other
-          voorbeeld: Eerste afdeling - Verplichting tot aangifte
-        - regel: 975
-          categorie: B3
-          type: other
-          voorbeeld: '### HOOFDSTUK VI - Tarief der rechten (duplicaat op regel 1000)'
-        - regel: 993
-          categorie: C3
-          type: pseudo-table
-          voorbeeld: Gedeelte van het netto-aandeel                            Rechte lijn - tussen echtgenoten...
-        - regel: 993
-          categorie: A8
-          type: column-bleed
-          voorbeeld: 0,01 EUR                      12.500,00 EUR               3%               - 12.500,01 EUR...
 chunk:
   level: 5
+  sub_strategy: null
   type: Art.
-  sub_strategy:
+itaa-lex-sectie: IX
+provenance:
+  generated_at: '2026-05-11T16:21:48Z'
+  inputs:
+  - id: resources/raw/wetteksten/successie-waals.pdf
+    sha256: f52087a58cf1869bf7c58c3399e5f16f7d973788bf9fb3d16d433ce397926c1c
+    version: 16.03.2026
+  stale: false
+  stale_reason: null
+  tooling:
+    model: null
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version: null
+  trust:
+    confirmed_at: null
+    confirmed_by: null
+    layer1:
+      file_size_chars: 470842
+      flags:
+      - detail: 'langste sectie op #####-niveau: 57678 chars (>24000); chunker splitst
+          auto op alinea-grenzen via split_long_chunk'
+        name: max_section_size
+        samples: []
+        status: warn
+      - detail: 24 TOC-stippen-regel(s) gevonden
+        name: no_toc_dots
+        samples:
+        - '....................................................... 81
+
+          '
+        - '................................................................................'
+        - '................................................................................'
+        status: warn
+      - detail: 2 kolom-bleed-patroon/-en gevonden buiten tabellen (twee-kolom PDF-extractie?)
+        name: no_column_bleed
+        samples:
+        - 'regel 949: Gedeelte van het netto-aandeel                                         Rechte
+          lijn – tussen echtgenoten tussen wettelijk'
+        - 'regel 1513: Tabel met betrekking tot het preferentiele tarief voor de netto-aandelen
+          in woningen Schijf van het netto-aandeel       '
+        status: warn
+      heading_count: 395
+      max_section_chars: 57678
+      run_at: '2026-05-11T13:40:46Z'
+      run_id: 20260511-134044
+      status: warn
+    layer2:
+      agent: null
+      concrete_problemen: []
+      rationale: null
+      run_at: null
+      status: not_run
+    rationale: 'Trust gereset 2026-05-11: ETL-fix wetteksten met content-diff > 5%'
+    status: unreviewed
+status: beschikbaar
+tags:
+- IX
+- '2.6'
+wet: Wetboek der Successierechten — Waals Gewest
 ---
 
 # Successierechten — Waals Gewest
 
-*Bijgewerkt tot en met 16.03.2026 — officieuze gecoördineerde versie. Bron: Fisconetplus.be.*
+*Bijgewerkt tot en met 16.03.2026 — gecoördineerde versie.*
 
-WETBOEK DER SUCCESSIERECHTEN
+## WETBOEK DER SUCCESSIERECHTEN
 
-WAALS GEWEST
+## WAALS GEWEST
 
-WETBOEK DER SUCCESSIERECHTEN
+## WETBOEK DER SUCCESSIERECHTEN
 
 Wetgeving van toepassing in het WAALS GEWEST
 
-WETBOEK DER SUCCESSIERECHTEN
+## WETBOEK DER SUCCESSIERECHTEN
 
 Wetgeving van toepassing in het Waals Gewest
 (officieuze coördinatie)
 
 (K.B. nr. 308 van 31.03.1936 (B.S., 07.04.1936) en err. (B.S., 26.04.1936), genomen in uitvoering van art. 1, § 1, litt. a, van de wet van 31 jul. 1934, verlengd en vervolledigd door deze van 7 dec. 1934, van 15 mrt. en van 30 mrt. 1935. Bekrachtigd door de wet van 4 mei 1936)
 
-### HOOFDSTUK XI - Aan derden opgelegde verplichtingen ten einde de juiste heffing der ingevolge het
-
-overlijden van rijksinwoners verschuldigde successierechten te verzekeren ....................................................... 81
-
-### HOOFDSTUK XII - Bewijsmiddelen ..................................................................................................................................... 95
-
-Eerste afdeling - Bewijsmiddelen van gemeen recht .............................................................................................. 95
-
-#### Afdeling II - Bijzondere bewijsmiddelen ....................................................................................................................... 96
-
-#### Afdeling III - Controle-schatting ..................................................................................................................................... 97
-
-### HOOFDSTUK XIII - Strafbepalingen ................................................................................................................................. 103
-
-Eerste afdeling - Fiscale boeten .................................................................................................................................. 103
-
-#### Afdeling II - Correctionele straffen.............................................................................................................................. 107
-
-### HOOFDSTUK XIV - Teruggave van de rechten ............................................................................................................. 111
-
-### HOOFDSTUK XV - Verjaring ............................................................................................................................................... 117
-
-### HOOFDSTUK XVI - Vervolgingen en gedingen ............................................................................................................. 120
-
-### HOOFDSTUK XVII - Door de Algemene Administratie van de Patrimoniumdocumentatie te verstrekken
-
-inlichtingen .............................................................................................................................................................................. 122
-
-### HOOFDSTUK XVIII - Aan alle belastingen gemene bepalingen ............................................................................... 126
-
-## BOEK II - TAKS TOT VERGOEDING DER SUCCESSIERECHTEN ....................................................................... 156
-
-### HOOFDSTUK I - Vestiging van de taks ........................................................................................................................... 156
-
-### HOOFDSTUK II - Zetting der taks ..................................................................................................................................... 158
-
-### HOOFDSTUK III - Aangifte .................................................................................................................................................. 161
-
-### HOOFDSTUK IV - Verevening en betaling van de taks .............................................................................................. 162
-
-### HOOFDSTUK V - Diverse bepalingen .............................................................................................................................. 164
-
-## BOEK IIBIS - (…) .................................................................................................................................................. 179
-
-## BOEK III - DIGITALISATIE VAN DE RELATIES TUSSEN DE FEDERALE OVERHEIDSDIENST FINANCIËN, DE BURGERS, DE BEDRIJVEN, DE RECHTSPERSONEN EN BEPAALDE DERDEN ................................................ 181
-
-(…) .............................................................................................................................................................................................. 188 (…) .............................................................................................................................................................................................. 188
-Eerste afdeling - (…) ........................................................................................................................................................ 189
-
-#### Afdeling II - (…) .................................................................................................................................................................. 191
-
-*                              *
-*
 ## BOEK I - RECHTEN VAN SUCCESSIE EN VAN OVERGANG BIJ OVERLIJDEN
 
 ### HOOFDSTUK I - Vestiging van de rechten
@@ -224,7 +150,9 @@ Worden met het oog op de heffing van het successierecht als legaten beschouwd:
 
 (vervangen bij art. 16 van het decreet van 01.06.2017 (B.S., 10.07.2017). Inwerkingtreding op 01.07.2017 en van toepassing op alle aangiften van nalatenschappen, ingediend vanaf 01.07.2017 en enkel voor de beoogde huwelijksovereenkomsten aangegaan vanaf 01.07.2014 (art. 23, 2°))
 
-De overlevende echtgenoot, wie een huwelijksovereenkomst, die niet aan de regelen betreffende de schenkingen onderworpen is, meer dan de helft van het gemeenschappelijk vermogen toekent, wordt voor de heffing der rechten van successie en van overgang bij overlijden, gelijkgesteld met de overlevende echtgenoot die, wanneer niet wordt afgeweken van de gelijke verdeling van het gemeenschappelijk vermogen, het deel van de andere echtgenoot krachtens een schenking of een uiterste wilsbeschikking geheel of gedeeltelijk verkrijgt.
+De overlevende echtgenoot, wie een huwelijksovereenkomst, die niet aan de regelen betreffende de schenkingen onderworpen is, meer dan de helft van het gemeenschappelijk vermogen toekent, wordt voor de heffing der rechten van successie en van overgang bij overlijden, gelijkgesteld met de overlevende echtgenoot die, wanneer niet wordt afgeweken van de gelijke verdeling van het gemeenschappelijk vermogen, het deel
+
+van de andere echtgenoot krachtens een schenking of een uiterste wilsbeschikking geheel of gedeeltelijk verkrijgt.
 
 ##### Art. 6
 
@@ -255,6 +183,7 @@ De vrijstelling van de schenkbelasting bedoeld in artikel 131sexies, eerste lid,
 (gewijzigd bij art. 3 van het decreet van 22.12.2021 (B.S., 12.01.2022). Tekst van toepassing vanaf 01.01.2022 (art. 55, lid 1))
 
 Worden geacht als legaat te zijn verkregen, de sommen, renten of waarden die een persoon geroepen is kosteloos te ontvangen, bij het overlijden van de overledene, ingevolge een contract bevattende een door de overledene of door een derde ten behoeve van de verkrijger gemaakt beding.
+
 Worden eveneens geacht als legaat te zijn verkregen, de sommen, renten of waarden, die een persoon geroepen was kosteloos te ontvangen binnen vijf jaar vóór het overlijden van de overledene, ingevolge een contract bevattende een door de overledene ten behoeve van de verkrijger gemaakt beding.
 
 Als de erflater een contract had afgesloten op grond waarvan er pas een uitkering kan gebeuren na het overlijden van de erflater, worden de sommen, renten of waarden geacht kosteloos te worden verkregen en als legaat te zijn verkregen, al naar gelang:
@@ -276,6 +205,7 @@ In het geval van een levensverzekeringscontract wordt de belastbare grondslag va
 Dit artikel is niet van toepassing:
 
 1° op de sommen, renten of waarden, verkregen ingevolge een beding dat aan het registratierecht gevestigd voor de schenkingen werd onderworpen;
+
 2° op de renten en kapitalen gevestigd tot uitvoering van een wettelijke verplichting;
 
 3° op de renten en kapitalen die door tussenkomst van de werkgever van de overledene werden gevestigd ten behoeve van de overlevende echtgenoot van de overledene of, bij gebreke, ten behoeve van zijn kinderen die de leeftijd van eenentwintig jaar niet hebben bereikt, tot uitvoering hetzij van een groepsverzekeringscontract onderschreven ingevolge een bindend reglement van de onderneming en beantwoordende aan de voorwaarden gesteld door de reglementering betreffende de controle van zulke contracten, hetzij van het bindend reglement van een voorzorgsfonds opgericht ten behoeve van het personeel van de onderneming;
@@ -340,7 +270,8 @@ Artikelen 9 tot 13 zijn niet van toepassing:
 
 (van toepassing vanaf 17.04.1936)
 
-Het successierecht is verschuldigd op de algemeenheid der aan de overledene of aan de afwezige toebehorende goederen, waar ook ze zich bevinden, na aftrekking der schulden en behoudens toepassing van artikelen 16 en 17.
+Het successierecht is verschuldigd op de algemeenheid der aan de overledene of aan de afwezige toebehorende goederen, waar ook ze zich bevinden, na aftrekking der schulden en behoudens toepassing van artikelen 16 en
+17.
 
 ##### Art. 16
 
@@ -355,6 +286,7 @@ TOEKOMSTIG RECHT (vanaf 01.01.2028)
 ##### Art. 17
 
 (van toepassing vanaf 01.01.2028)
+
 (gewijzigd bij art. 84 van de wet van 12.05.2024 (B.S., 30.05.2024 – ed. 2). Tekst van toepassing voor alle of bepaalde categorieën van houders van een ondernemingsnummer, evenals voor natuurlijke personen, op een datum respectievelijk te bepalen door de Koning, en ten laatste op 01.01.2028 (art. 222))
 
 Wanneer het actief der nalatenschap van een Rijksinwoner buitenslands gelegen goederen begrijpt, welke aanleiding geven tot het heffen, in het land der ligging, van een erfrecht, wordt het in België opvorderbaar successierecht, in de mate waarin het deze goederen treft, verminderd met het bedrag van de in het land der ligging geheven belasting, deze omgerekend in euro op de datum van de betaling dier belasting.
@@ -406,6 +338,7 @@ TOEKOMSTIG RECHT (vanaf 01.01.2028)
 (gewijzigd bij art. 85 van de wet van 12.05.2024 (B.S., 30.05.2024 – ed. 2). Tekst van toepassing voor alle of bepaalde categorieën van houders van een ondernemingsnummer, evenals voor natuurlijke personen, op een datum respectievelijk te bepalen door de Koning, en ten laatste op 01.01.2028 (art. 222))
 
 De erfgenamen, algemene legatarissen en begiftigden, en, in het algemeen, al wie gehouden is tot de verzending van een aangifte van nalatenschap, mogen vragen vóór het verstrijken van de verzendingstermijn, dat, op hun kosten, de waardering gebeurt van het geheel of van een deel van de erfgoederen die zich in België bevinden en die voor hun verkoopwaarde moeten of kunnen aangegeven worden.
+
 Zij geven dienaangaande hun beslissing te kennen bij aangetekende zending verzonden aan het kantoor waarnaar de aangifte verzonden moet worden.
 
 Er wordt gehandeld overeenkomstig artikelen 113 tot 120 en 122.
@@ -437,6 +370,7 @@ De waardering is definitief en dient tot grondslag voor de verevening der belast
 In afwijking van artikel 19, wordt de belastbare waarde der tot de nalatenschap behorende goederen als volgt vastgesteld:
 
 I. Voor de in het buitenland gelegen onroerende goederen, indien de verkoopwaarde niet blijkt uit akten en bescheiden, door twintig of dertigmaal de jaarlijkse opbrengst der goederen of de prijs der lopende huurcelen, zonder aftrekking van de lasten aan de huurder of aan de pachter opgelegd, naar gelang het gaat om bebouwde eigendommen of onbebouwde eigendommen; in geen geval, mag de belastbare waarde lager zijn dan deze die tot grondslag gediend heeft voor de heffing van de belasting in het buitenland.
+
 II. Voor het kapitaal en de interesten vervallen of verkregen van de schuldvorderingen, door het nominaal bedrag van dit kapitaal en van deze interesten, onder voorbehoud voor de aangevers de schuldvordering op haar verkoopwaarde te schatten, in geval van onvermogen van de schuldenaar of van het bestaan van alle andere oorzaak van waardevermindering.
 
 III. (1) Voor financiële instrumenten die tot de verhandeling zijn toegelaten op Belgische of buitenlandse gereglementeerde markten als vermeld in artikel 2, lid 1, 5° en 6°, van de wet van 2 augustus 2002 betreffende het toezicht op de financiële sector en de financiële diensten en de Belgische of buitenlandse multilaterale handelsfaciliteiten bedoeld in artikel 2, lid 1, 4°, van dezelfde wet, volgens de beurswaarden ervan.
@@ -464,6 +398,7 @@ V. Voor de op het hoofd van een derde gevestigde lijfrenten en andere levenslang
 11, indien hij, op wiens hoofd de rente is gevestigd, boven de 55 tot 60 jaren oud is;
 9.5, indien hij, op wiens hoofd de rente is gevestigd, boven de 60 tot 65 jaren oud is;
 8, indien hij, op wiens hoofd de rente is gevestigd, boven de 65 tot 70 jaren oud is;
+
 6, indien hij, op wiens hoofd de rente is gevestigd, boven de 70 tot 75 jaren oud is;
 4, indien hij, op wiens hoofd de rente is gevestigd, boven de 75 tot 80 jaren oud is;
 2, indien hij, op wiens hoofd de rente is gevestigd boven de 80 jaren oud is.
@@ -492,6 +427,7 @@ Indien de lijfrente, de levenslange prestatie of het vruchtgebruik op het hoofd 
 ##### Art. 23
 
 (van toepassing vanaf 17.04.1936)
+
 Het jaarlijks bedrag in geld der periodieke renten en prestaties betaalbaar in natura wordt geregeld naar het gemiddeld bedrag van de marktprijzen der twee jongste jaren van de markt die het naast bij de tot waarborg aangewende goederen en, bij ontstentenis van bezwaarde goederen, bij de woonplaats van de schuldenaar gelegen is; indien geen marktprijzen bestaan, wordt dit bedrag door de aangevende partijen begroot.
 
 ##### Art. 24
@@ -522,7 +458,9 @@ In de in artikel 37, 2°, 3°, 4° en 6°, bedoelde gevallen moet als belastbare
 
 (van toepassing vanaf 17.04.1936)
 
-Voor de heffing der rechten van successie en van overgang bij overlijden, in rechte lijn of tussen echtgenoten die één of meer gemene kinderen of afstammelingen van hen nalaten, wordt de regering ertoe gemachtigd een wijze van waardering der in België gelegen onroerende goederen vast te stellen, gegrond op de kadastrale opbrengst dier goederen vermenigvuldigd door een naar de gemiddelde verhouding tussen kadastrale opbrengsten en verkoopprijzen periodiek vast te stellen coëfficiënt
+Voor de heffing der rechten van successie en van overgang bij overlijden, in rechte lijn of tussen echtgenoten die één of meer gemene kinderen of afstammelingen van hen nalaten, wordt de regering ertoe gemachtigd een wijze van waardering der in België gelegen onroerende goederen vast te stellen, gegrond op de kadastrale opbrengst
+
+dier goederen vermenigvuldigd door een naar de gemiddelde verhouding tussen kadastrale opbrengsten en verkoopprijzen periodiek vast te stellen coëfficiënt
 
 ### HOOFDSTUK IV - Aannemelijk passief
 
@@ -555,6 +493,7 @@ In afwijking van het eerste lid wordt het forfaitair bedrag voor de schulden van
 De in de eerste en tweede leden bedoelde forfaitaire bedragen mogen niet worden gecombineerd of gecumuleerd.
 
 Schulden die specifiek zijn aangegaan voor de verwerving of het behoud van onroerende goederen zijn uitgesloten van het in de eerste en tweede leden bedoelde forfaitaire bedrag.
+
 Het bedrag van de begrafeniskosten is forfaitair vastgesteld op 5.000 euro. Deze bepaling is niet van toepassing als de overledene een begrafenisverzekering had afgesloten.
 
 Vanaf 2029 worden de in de leden 1, 2 en 5 bedoelde bedragen jaarlijks op 1 januari aangepast aan het indexcijfer van de consumptieprijzen volgens de volgende formule: bedrag voor het lopende jaar vermenigvuldigd met het indexcijfer voor juli van dat jaar gedeeld door het indexcijfer voor juli van het voorgaande jaar. De verkregen bedragen worden afgerond naar de hogere euro.
@@ -624,6 +563,7 @@ Evenwel, worden bedoelde schulden aangenomen:
 ##### Art. 34
 
 (van toepassing vanaf 17.04.1936)
+
 Het bestuur is, in al de gevallen, bevoegd om van de aangevers het overleggen te vorderen van een verklaring van de schuldeiser, waarbij wordt bevestigd dat een in het passief opgenomen schuld ten laste van den overledene op de dag van dezes overlijden bestond. De verklaring dient ondertekend door de schuldeiser, door deze wettelijke vertegenwoordiger of door een te dien einde aangestelde gevolmachtigde.
 
 Zij mag door de schuldeiser niet worden geweigerd, op straffe van schadevergoeding, wanneer zij wettig wordt aangevraagd.
@@ -655,6 +595,7 @@ Er bestaat een verplichting tot verzending van deze aangifte in al de gevallen d
 ##### Art. 36
 
 (van toepassing vanaf 17.04.1936)
+
 Er bestaat verplichting tot inlevering van deze aangifte in al de gevallen dat een goed overgedragen wordt onder de voorwaarden voorzien onder artikelen 1 tot 14.
 
 TOEKOMSTIG RECHT (vanaf 01.01.2028)
@@ -737,7 +678,9 @@ Zo de door eenzelfde erfgenaam, legataris of begiftigde verkregen onroerende goe
 
 4 in het geval voorzien in artikel 37, 1: door de ingestelden rechtspersoon, ten kantore waar de belasting nog te betalen blijft;
 
-5 in de gevallen bedoeld in artikel 37, 2 tot 4 door de hiervoren aangewezen personen, tenzij slechts bepaalde erfgenamen, legatarissen of begiftigden uit de gebeurtenis voordeel trekken, in welk geval deze alleen tot aangifte zijn verplicht. De aangifte moet worden ingeleverd ten kantore waar de eerste aangifte werd neergelegd;
+5 in de gevallen bedoeld in artikel 37, 2 tot 4 door de hiervoren aangewezen personen, tenzij slechts bepaalde erfgenamen, legatarissen of begiftigden uit de gebeurtenis voordeel trekken, in welk geval deze
+
+alleen tot aangifte zijn verplicht. De aangifte moet worden ingeleverd ten kantore waar de eerste aangifte werd neergelegd;
 
 6 in geval van ophouding van vruchtgebruik: door de erfgenamen blote eigenaars of hun rechtverkrijgenden, ten kantore waar de voor de overdracht van de blote eigendom verschuldigde rechten in schorsing gebleven zijn;
 
@@ -761,7 +704,9 @@ De aangifte van successie dient ingeleverd:
 
 1 bij overlijden van een Rijksinwoner: door de erfgenamen, de algemene legatarissen en begiftigden, met uitsluiting van alle andere legatarissen of begiftigden, op het bevoegde kantoor van de Algemene Administratie van de Patrimoniumdocumentatie binnen welk gebied de overledene zijn laatste fiscale woonplaats had. Als de fiscale woonplaats van de overledene tijdens de periode van vijf jaar voor zijn overlijden in meer dan één gewest gevestigd was, moet de aangifte worden ingediend op het kantoor van de laatste fiscale woonplaats binnen het gewest waarin de fiscale woonplaats van de overledene tijdens de vermelde periode het langst gevestigd was.
 
-Evenwel, in geval van stilzitten der erfgenamen, algemene legatarissen en begiftigden, zijn de legatarissen en begiftigden ten algemenen of bijzondere titel ertoe gehouden, op aanzoek van de ontvanger bij aangetekende brief, de aangifte in te leveren voor datgene wat hen betreft, en zulks uiterlijk binnen de maand na de afgifte van het stuk ter post.
+Evenwel, in geval van stilzitten der erfgenamen, algemene legatarissen en begiftigden, zijn de legatarissen en begiftigden ten algemenen of bijzondere titel ertoe gehouden, op aanzoek van de ontvanger bij aangetekende
+
+brief, de aangifte in te leveren voor datgene wat hen betreft, en zulks uiterlijk binnen de maand na de afgifte van het stuk ter post.
 
 In geval van devolutie van geheel de gemeenschap aan de overlevende echtgenoot, krachtens een niet aan de regelen betreffende de schenkingen onderworpen huwelijksovereenkomst, is de genieter ertoe gehouden het actief en het passief der gemeenschap aan te geven;
 
@@ -815,7 +760,9 @@ In geval van ophouding van vruchtgebruik, loopt de termijn te rekenen van de dat
 
 In geval van fideï-commis, loopt de termijn te rekenen van de datum der door het overlijden van de bezwaarde of anders teweeggebrachte devolutie. Zo de devolutie krachtens een contract bij vervroeging geschiedt, worden datum en plaats van het contract met datum en plaats van het overlijden gelijkgesteld.
 
-In geval van intrekking van de vrijstelling bedoeld in artikel 55bis, § 1, b), gaat de termijn voor de nieuwe aangifte bedoeld in artikel 37, 7°, in te rekenen van de datum van de beslissing waarbij alle erfgenamen, legatarissen of begiftigden die het voordeel van de vrijstelling genieten erover ingelicht zijn dat de goederen opgenomen in de omtrek van de site die in aanmerking komt voor het Natura 2000-netwerk uiteindelijk niet besloten liggen in de omtrek van een gebied aangewezen als Natura 2000-gebied in de zin van de wet van 12 juli 1973 of, bij ontstentenis, te rekenen van de uiterste datum voor het verkrijgen van een aanwijzingsbesluit zoals bedoeld in § 4 van artikel 55bis.
+In geval van intrekking van de vrijstelling bedoeld in artikel 55bis, § 1, b), gaat de termijn voor de nieuwe aangifte bedoeld in artikel 37, 7°, in te rekenen van de datum van de beslissing waarbij alle erfgenamen,
+
+legatarissen of begiftigden die het voordeel van de vrijstelling genieten erover ingelicht zijn dat de goederen opgenomen in de omtrek van de site die in aanmerking komt voor het Natura 2000-netwerk uiteindelijk niet besloten liggen in de omtrek van een gebied aangewezen als Natura 2000-gebied in de zin van de wet van 12 juli 1973 of, bij ontstentenis, te rekenen van de uiterste datum voor het verkrijgen van een aanwijzingsbesluit zoals bedoeld in § 4 van artikel 55bis.
 
 In geval van gehele of gedeeltelijke intrekking van de vrijstelling bepaald in artikel 55sexies, gaat de termijn voor de nieuwe aangifte bepaald in artikel 37, 8°, in te rekenen van ofwel de datum vanaf welke de voorwaarden vermeld in artikel 55sexies, § 3, niet meer in acht genomen zijn ofwel het verstrijken van een termijn van tien jaar vanaf het overlijden.
 
@@ -840,6 +787,7 @@ In geval van intreden van voorvallen voorzien in artikel 37, 2° tot 4°, loopt 
 In geval van ophouding van vruchtgebruik, loopt de termijn te rekenen van de datum van de onder artikel 37, 5°, bedoelde vermenging.
 
 In geval van fideï-commis, loopt de termijn te rekenen van de datum der door het overlijden van de bezwaarde of anders teweeggebrachte devolutie. Zo de devolutie krachtens een contract bij vervroeging geschiedt, worden datum en plaats van het contract met datum en plaats van het overlijden gelijkgesteld.
+
 In geval van intrekking van de vrijstelling bedoeld in artikel 55bis, § 1, b), gaat de termijn voor de nieuwe aangifte bedoeld in artikel 37, 7°, in te rekenen van de datum van de beslissing waarbij alle erfgenamen, legatarissen of begiftigden die het voordeel van de vrijstelling genieten erover ingelicht zijn dat de goederen opgenomen in de omtrek van de site die in aanmerking komt voor het Natura 2000-netwerk uiteindelijk niet besloten liggen in de omtrek van een gebied aangewezen als Natura 2000-gebied in de zin van de wet van 12 juli 1973 of, bij ontstentenis, te rekenen van de uiterste datum voor het verkrijgen van een aanwijzingsbesluit zoals bedoeld in § 4 van artikel 55bis.
 
 In geval van gehele of gedeeltelijke intrekking van de vrijstelling bepaald in artikel 55sexies, gaat de termijn voor de nieuwe aangifte bepaald in artikel 37, 8°, in te rekenen van ofwel de datum vanaf welke de voorwaarden vermeld in artikel 55sexies, § 3, niet meer in acht genomen zijn ofwel het verstrijken van een termijn van tien jaar vanaf het overlijden.
@@ -894,7 +842,9 @@ VII. De aanwijzing van sectie en nummer van het kadaster van elkeen der onroeren
 
 VIII. De aanduiding van elk der schulden die in mindering van het belastbaar actief kunnen toegelaten worden, met opgave van naam, voornamen en domicilie van de schuldeiser, van de oorzaak der schuld en van de datum der akte, zoo er een bestaat en als de vrijstelling bedoeld in artikel 55quinquies, zevende lid, van toepassing is, moet bij de schulden die specifiek zijn aangegaan om het hoofdverblijf te verwerven of te behouden uitdrukkelijk worden vermeld dat ze met dat doel zijn aangegaan;
 
-VIIIbis. De aangifte vermeldt of de overledene ten bate van zijn erfgenamen, legatarissen of begiftigden schenkingen onder levenden heeft gedaan die vastgesteld werden door akten, welke dagtekenen van minder dan drie jaar vóór de datum van het overlijden en vóór dezelfde datum tot de formaliteit der registratie aangeboden werden of verplichtend registreerbaar geworden zijn; zoo ja, duidt zij de begunstigden persoon aan en geeft de datum der akten of aangiften op alsmede de grondslag waarop het registratierecht werd of dient geheven. Die bepaling is toepasselijk welke ook de datum van de akte weze, indien de schenking gedaan werd onder een schorsende voorwaarde die vervuld werd ingevolge het overlijden van de schenker of minder dan drie jaar vóór dit overlijden;
+VIIIbis. De aangifte vermeldt of de overledene ten bate van zijn erfgenamen, legatarissen of begiftigden schenkingen onder levenden heeft gedaan die vastgesteld werden door akten, welke dagtekenen van minder dan drie jaar vóór de datum van het overlijden en vóór dezelfde datum tot de formaliteit der registratie aangeboden werden of verplichtend registreerbaar geworden zijn; zoo ja, duidt zij de begunstigden persoon aan en geeft de datum der akten of aangiften op alsmede de grondslag waarop het registratierecht werd of dient
+
+geheven. Die bepaling is toepasselijk welke ook de datum van de akte weze, indien de schenking gedaan werd onder een schorsende voorwaarde die vervuld werd ingevolge het overlijden van de schenker of minder dan drie jaar vóór dit overlijden;
 
 IX. De aangifte vermeldt of de overledene het vruchtgebruik van enige goederen gehad heeft ofwel met fideïcommis bezwaarde goederen verkregen heeft en, zo ja, waarin deze goederen bestaan, met aanduiding van de personen die tot het genot van de volle eigendom zijn gekomen ofwel voordeel getrokken hebben uit het fideïcommis ten gevolge van het overlijden van de aflijvige;
 
@@ -957,6 +907,7 @@ De Koning kan:
 1° de nadere regels voor de verzending van de aangifte bepalen alsmede de noodzakelijke maatregelen voor de juiste heffing van de rechten. Hierbij mag hij afwijken van de artikelen 38 en 1232;
 
 2° onder voorbehoud van de bepalingen van de Archiefwet van 24 juni 1955, de bewaartermijn en de wijze van bewaring van de aangiften van nalatenschap bepalen.
+
 Nota: Art. 92, 2° brengt een wijziging aan in het derde lid, 1°, worden de woorden "de indiening" vervangen door de woorden "de verzending". De tekst werd reeds aangepast bij art. 73 van de wet van 12.05.2024 (B.S., 29.05.2024).
 
 ##### Art. 45
@@ -990,6 +941,7 @@ Waren de goederen in kwestie niet verzekerd op de overlijdensdag, dan moeten de 
 ##### Art. 47
 
 (van toepassing vanaf 24.11.1942)
+
 (impliciet gewijzigd bij art. 29 van het besluit van de secretaris generaal van 07.10.1942 (B.S., 14.11.1942). Tekst van toepassing vanaf 24.11.1942 (art. -))
 
 Bij niet-inlevering van aangifte binnen de bepaalde termijn, mag het bestuur van ambtswege, behoudens latere regeling, het bedrag der verschuldigde sommen begroten en de invordering er van vervolgen overeenkomstig artikel 1421.
@@ -1015,8 +967,15 @@ Hierin wordt vermeld:
 - onder b: het totale bedrag van de belasting over de voorgaande gedeelten, de vrijstellingen bepaald in artikel 54 buiten beschouwing gelaten.
 
 Tabel I
-Gedeelte van het netto-aandeel                            Rechte lijn - tussen echtgenoten en tussen wettelijke samenwonenden Van                           tot inbegrepen              a                b 0,01 EUR                      12.500,00 EUR               3%               - 12.500,01 EUR                 25.000,00 EUR               4%               375,00 EUR 25.000,01 EUR                 150.000,00 EUR              5%               875,00 EUR 150.000,01 EUR                200.000,00 EUR              7%               7.125,00 EUR 200.000,01 EUR                250.000,00 EUR              9%               10.625,00 EUR 250.000,01 EUR                500.000,00 EUR              12%              15.125,00 EUR Boven de 500.000,00 EUR                                   15%              45.125,00 EUR Tabel II Gedeelte van het netto-aandeel           Tussen broers en zussen            Tussen ooms of tantes en neven of nichten Van                 tot inbegrepen       a               b                  a             b 0,01 EUR            12.500,00 EUR        tegen 10        -                  13 % %.
-12.500,01           25.000,00 EUR        13 %            1.250,00 EUR       15 %          1.625,00 EUR EUR 25.000,01           75.000,00 EUR        18 %            2.875,00 EUR       20 %          3.500,00 EUR EUR 75.000,01           175.000,00           25 %            11.875,00          28 %          13.500,00 EUR EUR                 EUR                                  EUR Boven de 175.000 EUR                     33 %            36.875,00          35 %          41.500,00 EUR EUR
+Gedeelte van het netto-aandeel                            Rechte lijn - tussen echtgenoten en tussen wettelijke samenwonenden Van                           tot inbegrepen              a                b 0,01 EUR                      12.500,00 EUR               3%               - 12.500,01 EUR                 25.000,00 EUR               4%               375,00 EUR 25.000,01 EUR                 150.000,00 EUR              5%               875,00 EUR 150.000,01 EUR                200.000,00 EUR              7%               7.125,00 EUR 200.000,01 EUR                250.000,00 EUR              9%               10.625,00 EUR 250.000,01 EUR                500.000,00 EUR              12%              15.125,00 EUR Boven de 500.000,00 EUR                                   15%              45.125,00 EUR
+
+Tabel II
+Gedeelte van het netto-aandeel           Tussen broers en zussen            Tussen ooms of tantes en neven of nichten Van                 tot inbegrepen       a               b                  a             b 0,01 EUR            12.500,00 EUR        tegen 10        -                  13 % %.
+12.500,01           25.000,00 EUR        13 %            1.250,00 EUR       15 %          1.625,00 EUR EUR 25.000,01           75.000,00 EUR        18 %            2.875,00 EUR       20 %          3.500,00 EUR EUR 75.000,01           175.000,00           25 %            11.875,00          28 %          13.500,00 EUR
+
+## EUR                 EUR                                  EUR
+
+Boven de 175.000 EUR                     33 %            36.875,00          35 %          41.500,00 EUR EUR
 
 Tabel III
 Gedeelte van het netto-aandeel                                    Tussen alle andere personen Van                              tot inbegrepen                   a                b 0,01 EUR                         12.500,00 EUR                    15 %             - 12.500,01 EUR                    25.000,00 EUR                    18 %             1.875,00 EUR 25.000,01 EUR                    75.000,00 EUR                    30 %             4.125,00 EUR Boven de 75.000 EUR                                               40 %             19.125,00 EUR
@@ -1036,11 +995,12 @@ De rechten van successie en van overgang bij overlijden worden over het netto-aa
 Hierin wordt vermeld:
 
 onder a: het percentage dat toepasselijk is op het overeenstemmend gedeelte; onder b: het totale bedrag van de belasting over de voorgaande gedeelten, de vrijstellingen bepaald in artikel 54 buiten beschouwing gelaten.
-TABEL I
+
+## TABEL I
 
 Gedeelte van het netto-aandeel                                         Rechte lijn – tussen echtgenoten tussen wettelijke samenwonenden Van                              tot inbegrepen                      a                                       b EUR                              EUR                                    t.h.                                      EUR 0,01                                                 12.500,00                         3 12.500,01                                            25.000,00                         4                                                   375,00 25.000,01                                            50.000,00                         5                                                   875,00 50.000,01                                         100.000,00                           7                                                  2.125,00 100.000,01                                        150.000,00                          10                                                  5.625,00 150.000,01                                        200.000,00                          14                                              10.625,00 200.000,01                                        250.000,00                          18                                              17.625,00 250.000,01                                        500.000,00                          24                                              26.625,00 Boven de 500.000,00                                                                   30                                              86.625,00
 
-TABEL II
+## TABEL II
 
 Gedeelte van het netto-                    Tussen broeders en                Tussen ooms of tantes                   Tussen alle andere personen aandeel                              zusters                       en neven of nichten Van             tot inbegrepen           a                 b                   a                   b                   a                    b EUR                     EUR                 t.h.              EUR                 t.h.                EUR                t.h.                     EUR 0,01                       12.500,00           20                                   25                                     30 12.500,01                  25.000,00           25               2.500,00            30                  3.125,00           35                        3.750,00 25.000,01                  75.000,00           35               5.625,00            40                  6.875,00           60                        8.125,00 75.000,01                 175.000,00           50              23.125,00            55                 26.875,00           80                       38.125,00 boven de 175.000,00                            65              73.125,00            70                 81.875,00           80   (*) 118.125,00
 
@@ -1123,6 +1083,7 @@ Voor de toepassing van dit Wetboek worden de volgende personen gelijkgesteld met
 3° een persoon die geen afstammeling is van de overledene en die op het tijdstip van overlijden ten minste een jaar onafgebroken heeft samengewoond met de overledene, en die de bijstand en zorg heeft ontvangen die kinderen gewoonlijk van hun ouders ontvangen, voornamelijk:
 
 a) van de overledene;
+
 b) van de echtgenoot of wettelijk samenwonende van de overledene;
 
 c) van de overledene en zijn echtgenoot of wettelijk samenwonende;
@@ -1150,6 +1111,7 @@ Voor de toepassing van dit Wetboek worden de volgende verkrijgingen gelijkgestel
 ##### Art. 53
 
 (van toepassing vanaf 17.04.1936)
+
 Wanneer een met fideïcommis bezwaard goed op de gesubstitueerde overgaat, zomede in geval van aanwas van toepassing vanaf 17.04.1936 of terugvalling van eigendom, vruchtgebruik of van elk tijdelijk of levenslang recht, zijn de rechten van successie en van overgang bij overlijden verschuldigd naar de graad van verwantschap tussen de overledene en de gesubstitueerde of andere verkrijger.
 
 In deze verscheidene gevallen, blijven de ten laste van de bezwaarde of van de ingestelde in eerste rang geheven rechten aan de Staat vervallen, tenzij de substitutie, de aanwas of de terugvalling binnen het jaar na het overlijden van de beschikker plaats hebben, in welk geval de eerste geheven rechten op de eisbaar geworden rechten worden aangerekend, zonder dat er evenwel aanleiding tot restitutie kunnen zijn, en behoudens eventuele toepassing van artikel 67.
@@ -1173,6 +1135,7 @@ Van het recht van successie en van overgang bij overlijden wordt vrijgesteld:
 Het vrijgestelde totaalbedrag wordt ten gunste van de kinderen van de overledene die de leeftijd van eenentwintig jaar niet hebben bereikt, vermeerderd met 2.500,00 EUR voor elk vol jaar dat nog moet verlopen tot zij de leeftijd van eenentwintig jaar bereiken en, ten gunste van de overlevende wettelijk samenwonende of echtgenoot, met de helft der bijabattementen welke de gemene kinderen samen genieten.
 
 Het vrijgestelde totaalbedrag, eventueel vermeerderd, wordt bij voorrang toegerekend op de opeenvolgende schijven van het netto-aandeel in een onroerend goed bedoeld bij het specifieke tarief van artikel 60ter, te beginnen met de laagste schijf, waarbij het saldo eventueel aangerekend wordt op de opeenvolgende schijven van het netto-aandeel in de andere goederen die onderworpen zijn aan het normale tarief van artikel 48, tabel I, te beginnen met de laagste schijf van laatstgenoemd tarief dat werkelijk van toepassing op die andere goederen na toepassing van het progressief karakter van artikel 66ter.
+
 2° hetgeen verkregen wordt door alle andere erfgenamen, legatarissen of begiftigden uit de erfenissen waarvan het zuiver bedrag 5.000,00 EUR niet overschrijdt.
 
 3° hetgeen verkregen wordt door een bij wet tot de erfenis geroepen erfgenaam in de zijlijn tot in de tweede graad van een minderjarige erflater, tegen een bedrag van 25.000,00 EUR.
@@ -1202,6 +1165,7 @@ Het vrijgestelde totaalbedrag wordt ten gunste van de kinderen van de overledene
 Het vrijgestelde totaalbedrag, eventueel vermeerderd, wordt bij voorrang toegerekend op de opeenvolgende schijven van het netto-aandeel in een onroerend goed bedoeld bij het specifieke tarief van artikel 60ter, te beginnen met de laagste schijf, waarbij het saldo eventueel aangerekend wordt op de opeenvolgende schijven van het netto-aandeel in de andere goederen die onderworpen zijn aan het normale tarief van artikel 48, tabel I, te beginnen met de laagste schijf van laatstgenoemd tarief dat werkelijk van toepassing op die andere goederen na toepassing van het progressief karakter van artikel 66ter.
 
 2° hetgeen verkregen wordt door alle andere erfgenamen, legatarissen of begiftigden uit de erfenissen waarvan het zuiver bedrag 620,00 EUR niet overschrijdt.
+
 3° hetgeen verkregen wordt door een bij wet tot de erfenis geroepen erfgenaam in de zijlijn tot in de tweede graad van een minderjarige erflater:
 
 - tegen een bedrag van 12.500,00 euro;
@@ -1237,6 +1201,7 @@ Van de rechten van successie en van overgang bij overlijden worden vrijgesteld d
 § 1. Vrijgesteld wordt van de successierechten en rechten bij overdracht door overlijden:
 
 a) de waarde van de onroerende goederen opgenomen in de omtrek van een Natura 2000-gebied;
+
 b) de waarde van de onroerende goederen opgenomen in de omtrek van een gebied dat in aanmerking komt voor het Natura 2000-netwerk en onderworpen is aan de primaire beschermingsregeling en waarvoor de successierechten en de rechten bij overdracht door overlijden geacht worden in het Waalse Gewest gelegen te zijn.
 
 § 2. De vrijstellingen dienen het voorwerp uit te maken van een schriftelijke verklaring, gedateerd en ondertekend door alle erfgenamen, legatarissen of begiftigden van die vrijstellingen, die gevoegd moet worden bij de aangifte van nalatenschap.
@@ -1277,6 +1242,7 @@ Zolang het Wetboek van vennootschappen en verenigingen, overeenkomstig hoofdstuk
 (gewijzigd bij art. 46 van het decreet van 22.12.2021 (B.S., 12.01.2022). Tekst van toepassing vanaf 01.01.2022 (art. 55, lid 1))(1)
 
 § 1. Van successierechten of rechten van overgang bij overlijden kan worden vrijgesteld, tegen een bedrag van 250.000 euro, hetgeen verkregen wordt door een erfgenaam in rechte lijn of tussen echtgenoten of wettelijk samenwonenden bedoeld in artikel 48 of door een erfgenaam in de zijlijn tot de tweede graad, evenals door hun bloedverwanten in nederdalende lijn in de eerste graad die bij wet tot de erfenis worden geroepen, van een slachtoffer dat overleden is ten gevolge van een uitzonderlijke daad van geweld.
+
 Als uitzonderlijke daad van geweld wordt beschouwd, elke intentioneel gepleegde daad van geweld uitgaande van één enkele persoon of van een groep personen waarbij onder de bevolking een gevoel van vrees en onveiligheid ontstond wegens enerzijds de gewelddaad op zich en anderzijds de ernstige gevolgen ervan, zoals de aanslag op de fysieke en/of morele integriteit van de op het ogenblik van de daad aanwezige bevolking.
 
 § 2. De vrijstelling bedoeld in het eerste lid heeft geen vrijstelling van indiening van de successieaangifte tot gevolg. Deze vrijstelling wordt de erfgenaam bedoeld in § 1, lid 1, enkel toegestaan indien laatstgenoemde de bevoegde ontvanger een attest overmaakt, afgegeven door de Waalse Overheidsdienst Financiën waarbij bevestigd wordt dat de overledene wel degelijk overleden is aan de gevolgen van een buitengewone daad van geweld zoals omschreven in § 1, lid 2.
@@ -1325,6 +1291,7 @@ Het aandeel van de langstlevende echtgenoot of wettelijk samenwonende in de over
 (van toepassing vanaf 01.01.2018)
 
 (ingevoegd bij art. 3 van het decreet van 13.12.2017 (B.S., 22.12.2017). Tekst van toepassing vanaf 01.01.2018 (art. 40))
+
 § 1. Van het recht van successie en van overgang bij overlijden wordt vrijgesteld, het netto-aandeel van de rechtverkrijgende echtgenoot/echtgenote of wettelijk samenwonende in de woning die de overledene en de echtgenoot/echtgenote of wettelijk samenwonende tot hoofdverblijf diende sinds minstens vijf jaar op de datum van het overlijden.
 
 Voor de toepassing van het eerste lid blijkt het feit dat de overledene en de echtgenoot of wettelijk samenwonende hun hoofdverblijfplaats hadden in kwestieus onroerend goed, behoudens bewijs van het tegendeel, uit een uittreksel van het bevolkingsregister of van het vreemdelingenregister.
@@ -1346,7 +1313,9 @@ Het aandeel van de langstlevende echtgenoot of wettelijk samenwonende in de over
 (ingevoegd bij art. 5 (lees 6) van het decreet van 26.04.2018 (B.S., 17.05.2018). Tekst van toepassing vanaf 01.01.2019 (art.
 7 (lees 8)))
 
-§ 1. Van successierechten of rechten van overgang bij overlijden kan worden vrijgesteld, het netto-aandeel van de als monument beschermde onroerende goederen in de zin van Boek III van het Waals Erfgoedwetboek in eigendom of in vruchtgebruik verkregen door een erfgenaam, een legataris of een begiftigde in de rechte lijn, tussen echtgenoten, tussen wettelijk samenwonenden bedoeld in artikel 48 van het Wetboek der successierechten of in de zijlijn tot in de derde graad.
+§ 1. Van successierechten of rechten van overgang bij overlijden kan worden vrijgesteld, het netto-aandeel van de als monument beschermde onroerende goederen in de zin van Boek III van het Waals Erfgoedwetboek in eigendom of in vruchtgebruik verkregen door een erfgenaam, een legataris of een begiftigde in de rechte
+
+lijn, tussen echtgenoten, tussen wettelijk samenwonenden bedoeld in artikel 48 van het Wetboek der successierechten of in de zijlijn tot in de derde graad.
 
 Onder netto-aandeel bedoeld in § 1, eerste lid, dient te worden verstaan, de waarde van het deel dat de erfgenaam, de legataris of de begiftigde in het goed verkrijgt, na aftrek van hun aandeel in de schulden van de erfopvolging die speciaal zijn aangegaan om het beschermd onroerend goed te verwerven of te bewaren.
 
@@ -1370,7 +1339,9 @@ De Regering bepaalt de nadere regels voor de aanvraag en het verstrekken van de 
 
 § 3. De vrijstelling bedoeld in lid 1 wordt enkel behouden als:
 
-1° een bedrag dat gelijkstaat met het totaal aan vrijgestelde successierechten of rechten van overgang door overlijden, zoals opgenomen in de lijst bedoeld in paragraaf 2, derde lid, geïnvesteerd wordt in de instandhoudingsverrichtingen, de voorafgaandelijke onderzoeken en de herstelwerken van het als monument beschermd onroerend goed dat het voorwerp van de vrijstelling heeft uitgemaakt, overeenkomstig de listing bedoeld in paragraaf 2, lid 2, binnen een termijn die de tien jaar niet mag overschrijden te rekenen van het overlijden.   De   eventueel    toegekende      subsidies   met   het   oog    op   het    uitvoeren   van       de instandhoudingsverrichtingen, de voorafgaandelijke onderzoeken of de herstelwerken in de zin van Boek V, Titel III, Hoofdstuk III/2 van het Waals Erfgoedwetboek worden niet in overweging genomen om het bedrag van de verrichte investering te beoordelen;
+1° een bedrag dat gelijkstaat met het totaal aan vrijgestelde successierechten of rechten van overgang door overlijden, zoals opgenomen in de lijst bedoeld in paragraaf 2, derde lid, geïnvesteerd wordt in de instandhoudingsverrichtingen, de voorafgaandelijke onderzoeken en de herstelwerken van het als monument beschermd onroerend goed dat het voorwerp van de vrijstelling heeft uitgemaakt, overeenkomstig de listing bedoeld in paragraaf 2, lid 2, binnen een termijn die de tien jaar niet mag overschrijden te rekenen van het overlijden.   De   eventueel    toegekende      subsidies   met   het   oog    op   het    uitvoeren   van       de instandhoudingsverrichtingen, de voorafgaandelijke onderzoeken of de herstelwerken in de zin van Boek V,
+
+Titel III, Hoofdstuk III/2 van het Waals Erfgoedwetboek worden niet in overweging genomen om het bedrag van de verrichte investering te beoordelen;
 
 2° het als monument beschermd onroerend goed waarvoor de vrijstelling is verkregen maakt het voorwerp uit van een attest door de dienst aangewezen door de Waalse Regering waarbij de voltooiing vastgesteld wordt van de instandhoudingsverrichtingen, de voorafgaandelijke onderzoeken en de herstelwerken ter hoogte van een bedrag dat gelijk is aan of hoger is dan het bedrag vermeld in paragraaf 2, lid 3. De Regering bepaalt de nadere regels voor de aanvraag en het verstrekken van dat attest, evenals de bijbehorende stukken;
 
@@ -1385,6 +1356,7 @@ Bij een gedeeltelijke investering wordt de vrijstelling volgens de nadere regels
 2° bij de nieuwe aangifte de lijst voegt, bedoeld in paragraaf 2, lid 3, evenals een attest van werken, verstrekt door de dienst aangewezen door de Waalse Regering, waarin het bedrag dat overeenkomstig paragraaf 3 in het onroerend goed geïnvesteerd wordt, buiten eventuele subsidies om, op de datum van de aanvraag van bedoeld attest nauwkeurig vermeld wordt.
 
 De Regering bepaalt de nadere regels voor de aanvraag en het verstrekken van het attest van de werken, evenals de daarbijhorende stukken.
+
 Bij gehele of gedeeltelijke intrekking van de vrijstelling wordt het recht vermeerderd met een geldboete gelijk aan één tiende van het bedrag ervan en van de intresten tegen de wettelijke rentevoet in fiscale zaken bepaald bij de wet van 5 mei 1865 betreffende de lening tegen intrest, zonder dat die hoger mogen zijn dan vijf jaar intrest.
 
 Deze paragraaf is niet van toepassing op de vrijstellingsgerechtigden die gebruik maken van de mogelijkheid om het verschuldigd recht te betalen zoals bepaald in paragraaf 5. Niettemin worden de rechten in deze hypothese vermeerderd met de intresten tegen de wettelijke rentevoet in fiscale zaken bepaald bij de wet van 5 mei 1865 betreffende de lening tegen intrest, zonder dat die hoger mogen zijn dan vijf jaar intrest.
@@ -1434,6 +1406,7 @@ Wanneer een goed in blote eigendom vóór het vervallen van het vruchtgebruik me
 ##### Art. 59
 
 (van toepassing vanaf 02.11.2023)
+
 (2°, gewijzigd bij art. 2 van het decreet van 06.04.2023 (B.S., 23.10.2023 – ed. 2). Tekst van toepassing vanaf 02.11.2023 (art. -) en overgangsbepaling (1))
 
 De successierechten en rechten van overgang bij overlijden worden verlaagd tot:
@@ -1457,6 +1430,7 @@ Zolang het Wetboek van vennootschappen en verenigingen, overeenkomstig hoofdstuk
 (van toepassing vanaf 01.01.2012)
 
 (vervangen bij art. 6 van het decreet van 10.05.2012 (B.S., 29.05.2012). Tekst van toepassing vanaf 01.01.2012 (art. 19))
+
 Artikel 59, 2°, is enkel van toepassing op de rechtspersonen en de stichtingen die aan volgende voorwaarden voldoen:
 
 a. de rechtspersoon of de stichting moet een bedrijfszetel hebben in de Europese Economische Ruimte;
@@ -1478,6 +1452,7 @@ c. de rechtspersoon of de stichting moet zijn statutaire zetel, zijn hoofdbestuu
 Het in de artikelen 48 tot 60 en 60ter vastgestelde recht blijft niettemin toepasselijk op de overdrachten van zakelijke rechten op onroerende goederen die geheel tot bewoning worden aangewend op het ogenblik van het overlijden. Het in de artikelen 48 tot 60 en 60ter vastgestelde recht blijft eveneens toepasselijk op de overdrachten van zakelijke rechten op onroerende goederen die gedeeltelijk tot bewoning worden aangewend op het ogenblik van het overlijden, in de mate van de verkoopwaarde van het deel van het onroerend goed dat voor bewoning wordt aangewend in verhouding tot de totale verkoopwaarde van het onroerend goed;
 
 In geval van successorale overdracht van landbouwgronden aan de uitbater of medeuitbater van de landbouwactiviteit die er uitgeoefend wordt, alsook in rechtstreekse lijn, tussen echtgenoten en wettelijke samenwonenden, worden die gronden, afgezien van de overdracht van elke quotiteit van de landbouwactiviteit die er uitgeoefend wordt, desalniettemin beschouwd als goederen die een universaliteit van goederen of een bedrijfstak of een handelsfonds uitmaken, waarmee de de cujus, alleen of samen met andere personen, op de overlijdensdatum een landbouwactiviteit uitoefende, op voorwaarde dat die goederen op de overlijdensdatum het voorwerp van een pacht uitmaken overeenkomstig Afdeling 3 van Boek III, Titel VIII, Hoofdstuk II, van het Burgerlijk Wetboek. In dat geval is de onderneming, in de zin van de voorwaarden van § 1bis, 1°, en van § 3, 1°,
+
 2° en 3°, het landbouwbedrijf van de effectieve uitbater van de landbouwactiviteit die op die gronden uitgeoefend wordt, waarbij die onderneming beschouwd wordt in haar geheel en in haar toestand na overdracht van de gronden.
 
 2° een zakelijk recht bevat op:
@@ -1500,7 +1475,9 @@ b) schuldvorderingen op een in voorgaande a) bedoelde vennootschap.
 
 - als het geheel van de bij bedoelde successie overgedragen effecten minder bedraagt dan 50 % van de stemrechten in de algemene vergadering, moet bovendien een aandeelhouderschapsovereenkomst gesloten worden voor een minimumperiode van vijf jaar die ingaat op de overlijdensdatum, en betrekking hebben op minstens 50 % van de stemrechten in de algemene vergadering. Door het sluiten van deze overeenkomst verplichten de partijen zich ertoe te voldoen aan de voorwaarden bedoeld in § 3.
 
-Dit streepje is evenwel niet toepasselijk als het geheel van de stemrechten van de algemene vergadering in het bezit van de overledene, zijn echtgeno(o)t(e) of wettelijke samenwonende, door de bloedverwanten in de opgaande lijn of de afstammelingen van de overledene en zijn echtgeno(o)t(e) of wettelijke samenwonende, alsook hun echtgenoten of wettelijke samenwonenden, door broers en zusters van de overledene en zijn echtgeno(o)t(e) of wettelijke samenwonende, alsook hun echtgenoten of wettelijke samenwonenden, en door de afstammelingen van de broers en zusters van de overledene en zijn echtgeno(o)t(e) of wettelijke samenwonende, alsook hun echtgenoten of wettelijke samenwonenden, minstens 50 % bereikt op de dag van het overlijden;
+Dit streepje is evenwel niet toepasselijk als het geheel van de stemrechten van de algemene vergadering in het bezit van de overledene, zijn echtgeno(o)t(e) of wettelijke samenwonende, door de bloedverwanten in de opgaande lijn of de afstammelingen van de overledene en zijn echtgeno(o)t(e) of wettelijke samenwonende, alsook hun echtgenoten of wettelijke samenwonenden, door broers en zusters van de overledene en zijn
+
+echtgeno(o)t(e) of wettelijke samenwonende, alsook hun echtgenoten of wettelijke samenwonenden, en door de afstammelingen van de broers en zusters van de overledene en zijn echtgeno(o)t(e) of wettelijke samenwonende, alsook hun echtgenoten of wettelijke samenwonenden, minstens 50 % bereikt op de dag van het overlijden;
 
 3° de erfgenamen, legatarissen en begiftigden die om de toepassing van het verlaagde recht verzoeken, dienen de bevoegde ontvanger een attest afgeleverd door de Regering van het Waalse Gewest over te maken waarin bevestigd wordt dat de vereiste voorwaarden voor de daarin vermelde erfgenamen, legatarissen en begiftigden vervuld zijn. Wanneer het attest niet overgemaakt wordt aan de ontvanger uiterlijk terzelfder tijd als de successieaangifte, worden de rechten berekend tegen het tarief van de artikelen 48 tot 60 en 60ter onder voorbehoud van een teruggave onder de voorwaarden van artikel 135, 8°, in welk geval artikel 60bis van toepassing is op de goederen waarvoor het recht teruggeven wordt.
 
@@ -1523,6 +1500,7 @@ b. de certificaten die betrekking hebben op effecten bedoeld onder a.:
 § 1quater. Onder "schuldvorderingen" wordt verstaan elke geldlening al dan niet in de vorm van effecten, gegeven door de overledene aan een vennootschap waarvan hij aandelen of effecten bezit, wanneer deze lening rechtstreeks is gebonden aan de behoeften van de industriële, handels-, ambachts-, landbouw- of bosbouwactiviteit, van het vrij beroep of van het ambt of post uitgeoefend ofwel door de vennootschap ofwel door de vennootschap zelf en haar dochtervennootschappen.
 
 De bovenvermelde schuldvorderingen worden evenwel uitgesloten voor zover het totale nominale bedrag van de schuldvorderingen hoger is dan:
+
 1° het deel van het sociaal kapitaal dat werkelijk vrijgemaakt wordt en dat niet het voorwerp uitmaakt van een vermindering, noch van een terugbetaling in hoofde van de overledene op de datum van diens overlijden.
 De andere winsten dan de verdeelde en als dusdanig belaste winsten die in het kapitaal worden ingelijfd, worden niet beschouwd als vrijgemaakt kapitaal;
 
@@ -1544,6 +1522,7 @@ De andere winsten dan de verdeelde en als dusdanig belaste winsten die in het ka
 Als een jaargemiddelde van de voltijdse eenheden geen geheel getal is, wordt het afgerond naar beneden of naar boven al naar gelang zijn eerste decimaal al dan niet gelijk is aan of hoger is dan 5;
 
 3° het tegoed dat in een activiteit, een vrij beroep of een ambt of post zoals bedoeld in § 1, 1°, geïnvesteerd wordt, niet afneemt ten gevolge van vooruitnemingen in de eerste vijf jaar te rekenen van het overlijden van de de cujus of, in het geval van een in § 1, 2°, bedoelde vennootschap, het kapitaal of het bedrag van de gestorte bijdragen in geld of in natura zoals vermeld in de jaarrekening, wanneer die vennootschap een rechtsvorm heeft waarvoor het Belgische of buitenlandse recht dat de vennootschap beheerst, niet voorziet in het begrip kapitaal of een daarmee gelijkgesteld begrip, niet afneemt ten gevolge van vooruitnemingen of verdelingen tijdens de vijf eerste jaren te rekenen van het overlijden van de de cujus;
+
 4° de opvolgers die niet aangeboden hebben om het verschuldigde recht zoals bedoeld in § 5 te betalen, na afloop van de periode van vijf jaar na het overlijden bedoeld onder de nrs. 1° tot en met 3° hierboven, een ondertekend attest verstrekken waaruit blijkt dat de voorwaarden bedoeld onder de nrs. 1° tot en met 3° hierboven en in lid 2 verder nageleefd worden. De wijze waarop dat attest wordt opgemaakt, wordt door de Regering van het Waalse Gewest bepaald;
 
 5° bij elke vordering door de personeelsleden aangewezen door de Waalse Regering tijdens de periode van vijf jaar na het overlijden bedoeld onder de nrs. 1° tot en met 3° hierboven, delen de opvolgers die niet aangeboden hebben om het verschuldigde recht te betalen zoals bedoeld in § 5 schriftelijk binnen de maand na de datum waarop de aanvraag is verstuurd, waarbij die termijn om gegronde redenen verlengd kan worden, de bestanddelen aan de hand waarvan vastgesteld kan worden dat de voorwaarden om in aanmerking te komen voor het verlengde recht verder nageleefd worden indien uit aanwijzingen kan blijken dat de voorwaarden bedoeld onder de nrs. 1° tot en met 3° hierboven of in lid 2, niet meer vervuld zouden zijn.
@@ -1558,7 +1537,9 @@ Indien het overeenkomstig de artikelen 48 tot en met 60 en 60ter verschuldigde r
 
 § 5. Elke opvolger die in aanmerking is gekomen voor de verlaging van het recht kan voorstellen om het verschuldigde recht te betalen overeenkomstig de artikelen 48 tot en met 60 en 60ter vóór verstrijken van de termijn van vijf jaar waarin de voorwaarden van § 3 in stand gehouden moeten worden en vóór aanbreken van het ogenblik vermeld in § 4, lid 1.
 
-In dit geval moet de opvolger die in aanmerking is gekomen voor de verlaging van het recht bij het kantoor waar het verschuldigde recht geheven is, een nieuwe aangifte in de zin van artikel 37 indienen waarmee de samenstelling en de waarde van de goederen waarvoor hij het overeenkomstig de artikelen 48 tot en met 60 en 60ter wenst te betalen, bepaald wordt.
+In dit geval moet de opvolger die in aanmerking is gekomen voor de verlaging van het recht bij het kantoor waar het verschuldigde recht geheven is, een nieuwe aangifte in de zin van artikel 37 indienen waarmee de
+
+samenstelling en de waarde van de goederen waarvoor hij het overeenkomstig de artikelen 48 tot en met 60 en 60ter wenst te betalen, bepaald wordt.
 
 § 6. De verklaringen bepaald bij de §§ 4 en 5, ondertekend door de betrokken opvolger(s), worden in twee exemplaren opgemaakt, waarvan één in het registratiekantoor blijft en het andere, voorzien door het registratiekantoor van een bericht van ontvangst van die nieuwe verklaring, door de betrokken opvolger(s) verstuurd wordt naar de dienst van de Waalse Regering die het attest bedoeld in § 1bis, 3°, afgeleverd heeft.
 
@@ -1580,7 +1561,9 @@ Hierin wordt vermeld:
 
 - onder littera b: het totaalbedrag van de belasting op de voorgaande schijven.
 
-Tabel met betrekking tot het preferentiële tarief voor de netto-aandelen in woningen Schijf van het netto-aandeel                  Erfgenaam, begiftigde, legataris in de rechte lijn Van                            tot en met                  a               b 0,01 EUR                       25.000,00 EUR               1%              - 25.000,01 EUR                  50.000,00 EUR               2%              250,00 EUR 50.000,01 EUR                  175.000,00 EUR              5%              750,00 EUR 175.000,01 EUR                 250.000,00 EUR              7%              7.000,00 EUR 250.000,01 EUR                 500.000,00 EUR              12 %            12.250,00 EUR Boven de 500.000,00 EUR                                        15 %             42.250,00 EUR
+Tabel met betrekking tot het preferentiële tarief voor de netto-aandelen in woningen Schijf van het netto-aandeel                  Erfgenaam, begiftigde, legataris in de rechte lijn Van                            tot en met                  a               b 0,01 EUR                       25.000,00 EUR               1%              - 25.000,01 EUR                  50.000,00 EUR               2%              250,00 EUR 50.000,01 EUR                  175.000,00 EUR              5%              750,00 EUR 175.000,01 EUR                 250.000,00 EUR              7%              7.000,00 EUR 250.000,01 EUR                 500.000,00 EUR              12 %            12.250,00 EUR
+
+Boven de 500.000,00 EUR                                        15 %             42.250,00 EUR
 
 § 2. Voor de toepassing van § 1 blijkt het feit dat de overledene zijn hoofdverblijfplaats had in kwestieus onroerend goed, behoudens bewijs van het tegendeel, uit een uittreksel van het bevolkingsregister of van het vreemdelingenregister.
 
@@ -1602,7 +1585,9 @@ Hierin wordt vermeld:
 
 onder littera a: het percentage geldend voor de overeenstemmende schijf; onder littera b: het totaalbedrag van de belasting op de voorgaande schijven.
 
-Tabel met betrekking tot het preferentiele tarief voor de netto-aandelen in woningen Schijf van het netto-aandeel                                   Erfgenaam, begiftigde legataris in de rechte lijn Van                      tot en met                    A                           B EUR                         EUR                      Pct.                        EUR 0,01                                          25.000,00              1                                            - 25.000,01                                     50.000,00              2                                     250,00 50.000,01                                    160.000,00              5                                     750,00 160.000,01                                   175.000,00              5                                   6.250,00 175.000,01                                   250.000,00             12                                   7.000,00 250.000,01                                   500.000,00             24                                 16.000,00 Meer dan 500.000,00                                                 30                                 76.000,00
+Tabel met betrekking tot het preferentiele tarief voor de netto-aandelen in woningen Schijf van het netto-aandeel                                   Erfgenaam, begiftigde legataris in de rechte lijn
+
+Van                      tot en met                    A                           B EUR                         EUR                      Pct.                        EUR 0,01                                          25.000,00              1                                            - 25.000,01                                     50.000,00              2                                     250,00 50.000,01                                    160.000,00              5                                     750,00 160.000,01                                   175.000,00              5                                   6.250,00 175.000,01                                   250.000,00             12                                   7.000,00 250.000,01                                   500.000,00             24                                 16.000,00 Meer dan 500.000,00                                                 30                                 76.000,00
 
 § 2. Voor de toepassing van § 1 blijkt het feit dat de overledene zijn hoofdverblijfplaats had in kwestieus onroerend goed, behoudens bewijs van het tegendeel, uit een uittreksel van het bevolkingsregister of van het vreemdelingenregister.
 
@@ -1621,6 +1606,7 @@ Het voordeel van het verlaagd tarief blijft behouden zelfs indien de overledene 
 In afwijking van artikel 48 wordt er een vermindering op de bedragen van de verschuldigde rechten als volgt toegepast:
 
 1° wanneer een onbebouwd onroerend goed, gelegen in het Waalse Gewest, dat het voorwerp uitmaakt van een successie, bezwaard is met een langdurige pacht in de zin van artikel 8, § 2, van afdeling 3 ("Regels betreffende de pacht in het bijzonder") van boek III, titel VIII, hoofdstuk II van het Burgerlijk Wetboek:
+
 a) vijfenvijftig percent op de eerste vier overgedragen hectaren die het voorwerp van deze pacht vormen;
 
 b) dertig percent op de overgedragen hectaren die het voorwerp van deze pacht vormen, na de hectaren bedoeld onder a);
@@ -1653,7 +1639,9 @@ Het toe te passen tarief is dit van kracht ten dage van het overlijden.
 
 (van toepassing vanaf 01.01.2002)
 
-(gewijzigd bij art. 12, 2° van het KB van 13.07.2001 (B.S., 11.08.2001). Dit K.B. werd bekrachtigd door art. 3, 6° van de wet van 26 jun. 2002 (B.S., 20.07.2002 – ed. 2). Tekst van toepassing vanaf 01.01.2002 (art. 45)) Het bedrag der verevende rechten wordt, desvoorkomend, tot de hogere cent afgerond.
+(gewijzigd bij art. 12, 2° van het KB van 13.07.2001 (B.S., 11.08.2001). Dit K.B. werd bekrachtigd door art. 3, 6° van de wet van 26 jun. 2002 (B.S., 20.07.2002 – ed. 2). Tekst van toepassing vanaf 01.01.2002 (art. 45))
+
+Het bedrag der verevende rechten wordt, desvoorkomend, tot de hogere cent afgerond.
 
 ##### Art. 63
 
@@ -1684,6 +1672,7 @@ In geval van legaat van een som of van legaat van een periodieke rente of pensio
 Wanneer een erfgenaam, legataris of begiftigde het vruchtgebruik of de blote eigendom verkrijgt van een goed waarvan de volle eigendom van de erfenis afhangt, of wanneer hij een door de overledene gevestigde periodieke rente of pensioen ontvangt, wordt de belastbare grondslag overeenkomstig de bij artikelen 21, 22 en 23 voorgeschreven regelen bepaald.
 
 Wanneer de door de overledene gevestigde rente of prestatie voor een onbepaalde tijd op het hoofd van een rechtspersoon wordt aangelegd, bedraagt de belastbare grondslag twintigmaal het jaarlijks bedrag.
+
 Is die rente of prestatie voor een bepaalden tijd gevestigd, zo is de belastbare grondslag de som welke de kapitalisatie op de datum van het overlijden ad 4 t.h. van de jaarlijkse rente of prestatie vertegenwoordigt, zonder dat deze som twintigmaal de rente of prestatie mag te boven gaan.
 
 Dezelfde regelen zijn van toepassing zo het gaat om een op het hoofd van een rechtspersoon gevestigd vruchtgebruik, met dien verstande dat als grondslag van raming de jaarlijkse opbrengst van de goederen dient genomen zoals in artikel 21, nummer VI, is gezegd.
@@ -1744,6 +1733,7 @@ De waarde waarmee geen rekening wordt gehouden in hoofde van de erfgenaam, legat
 ##### Art. 68
 
 (van toepassing vanaf 01.01.2025)
+
 (opgeheven bij art. 8 van het decreet van 05.12.2024 (B.S., 13.12.2024). Tekst van toepassing op alle overlijdens die plaatsvinden op of na 01.01.2025. Rechten, interesten en boetes die werden geheven vóór de inwerkingtreding ervan, kunnen uitsluitend in gevallen waarin een erfgenaam een belastingvrijstelling heeft verloren als gevolg van de toepassing van artikel 68 W.Succ., worden terugbetaald door binnen een termijn van twee jaar vanaf 01.01.2025 een aangifte met vermelding van het feit dat aanleiding geeft tot de terugbetaling, in te dienen bij het Rechtszekerheidsbureau dat in het bezit is van de aangiften van nalatenschap (art. 30, lid 4))
 
 (…)
@@ -1803,6 +1793,7 @@ TOEKOMSTIG RECHT (vanaf 01.01.2028)
 (lid 1, gewijzigd bij art. 94 van de wet van 12.05.2024 (B.S., 30.05.2024 – ed. 2). Tekst van toepassing voor alle of bepaalde categorieën van houders van een ondernemingsnummer, evenals voor natuurlijke personen, op een datum respectievelijk te bepalen door de Koning, en ten laatste op 01.01.2028 (art. 222))
 
 De met erfstelling bezwaarde erfgenaam die de in nummer 6 van artikel 37 voorgeschreven aangifte niet verzendt en de personen die werden veroordeeld als daders of medeplichtigen van misdrijven bedoeld in de artikelen 133 en 133bis, zijn met de belastingplichtigen hoofdelijk aansprakelijk voor de belasting van de door het feit van de inbreuk ontdoken rechten en, des voorkomend van de interesten en belastingboeten.
+
 De personen beschuldigd als daders of als medeplichtigen van misdrijven bedoeld in de artikelen 133 en 133bis zijn eveneens gehouden tot betaling van de ontdoken rechten, de interesten en de fiscale boeten wanneer de bestanddelen van de misdrijven bewezen verklaard zijn, wanneer ze genieten van:
 
 1° een opschorting van de uitspraak van de veroordeling of een uitstel van de tenuitvoerlegging van de straffen voorzien in de wet van 29 juni 1964 betreffende de opschorting, het uitstel en de probatie;
@@ -1834,6 +1825,7 @@ De personen beschuldigd als daders of als medeplichtigen van misdrijven bedoeld 
 ##### Art. 73
 
 (van toepassing vanaf 01.11.1970)
+
 (aangevuld bij art.3/art. 131 van de wet van 10.10.1967 (B.S., 31.10.1967). Tekst van toepassing vanaf 01.11.1970 (art. 5))
 
 Het aanvaarden onder voorrecht van boedelbeschrijving van een nalatenschap ontheft de erfgenaam van geen der bij dit wetboek voorgeschreven verplichtingen.
@@ -1861,6 +1853,7 @@ De vertegenwoordigers der erfgenamen, legatarissen en begiftigden, de curators v
 ##### Art. 75
 
 (van toepassing vanaf 17.04.1936)
+
 In zover er geen andersluidende beschikkingen bestaan, worden de rechten van successie en van overgang bij overlijden gedragen door de erfgenamen, legatarissen en begiftigden, ieder voor datgeen wat door hem verkregen wordt.
 
 ##### Art. 76
@@ -1885,7 +1878,9 @@ De administrateur-generaal van de Algemene Administratie van de Patrimoniumdocum
 
 (van toepassing vanaf 30.04.1967)
 
-(gewijzigd bij art. 12 van het KB nr. 12 van 18.04.1967 (M.B., 20.04.1967). Tekst van toepassing vanaf 30.04.1967 (art. -)) In geval van achtereenvolgende overgangen door overlijden van een onder opschortende voorwaarde verkregen goed of van een door de derde bezeten doch door de nalatenschap teruggeëist goed, is de belasting verschuldigd, onder de voorwaarden bepaald bij de artikelen 25, 37 en 40, alleenlijk wegens de jongste overgang.
+(gewijzigd bij art. 12 van het KB nr. 12 van 18.04.1967 (M.B., 20.04.1967). Tekst van toepassing vanaf 30.04.1967 (art. -))
+
+In geval van achtereenvolgende overgangen door overlijden van een onder opschortende voorwaarde verkregen goed of van een door de derde bezeten doch door de nalatenschap teruggeëist goed, is de belasting verschuldigd, onder de voorwaarden bepaald bij de artikelen 25, 37 en 40, alleenlijk wegens de jongste overgang.
 
 Indien de achtereenvolgende overgangen tot voorwerp hebben een betwist goed in het bezit van de overledene of een goed toebehorende aan evenbedoelde onder ontbindende voorwaarde, is de belasting onmiddellijk opvorderbaar bij elk overlijden, behoudens eventuele teruggaaf van de verscheidene geïnde rechten.
 
@@ -1979,6 +1974,7 @@ Deze uitzonderlijke betalingswijze is afhankelijk van de formele aanvaarding van
 
 Het met de rechten begunstigde gewest, vermeldt door zijn vertegenwoordiger in de speciale Commissie en vóór het overzenden van het advies van de commissie aan de Minister van Financiën, dat het de betaling door middel van de aangeboden kunstwerken verkiest en vermeldt in voorkomend geval de aan te nemen werken.
 In dit geval zal het betreffende gewest geacht worden, zodra de werken formeel ter betaling aangenomen werden door de Minister van Financiën, de verschuldigde successierechten ontvangen te hebben, tot beloop van de waarde van de aangenomen werken.
+
 Ingeval het gewest de betaling in kunstwerken slechts verkiest voor een deel van de aangeboden werken, betekent de voorzitter van de Commissie dit aan de aanvrager(s). Deze heeft (hebben) één maand te rekenen van de betekening om aan de voorzitter mee te delen of hij (zij) zijn (hun) aanbod van afgifte intrekt (ken) of aanpast (sen).
 
 Ingeval het gewest de betaling door middel van kunstwerken weigert, betekent de voorzitter van de Commissie aan de aanvrager(s) de verwerping van het aanbod van de afgifte.
@@ -2000,6 +1996,7 @@ Aanvullende regels betreffende de inbetalinggeving worden vastgelegd bij koninkl
 Iedere erfgenaam, legataris of begiftigde kan, mits hij daartoe civielrechtelijk bevoegd is, verzoeken de uit hoofde van de nalatenschap invorderbare rechten geheel of ten dele te voldoen door de afgifte van kunstwerken waarvan de minister van Financiën, op eensluidend advies van de in artikel 83 4 bedoelde bijzondere commissie, erkent dat zij tot het roerend cultureel erfgoed van het land behoren of dat zij internationale faam genieten.
 
 Om ter betaling te kunnen worden aangeboden, moeten de kunstwerken in hun geheel deel uitmaken van de nalatenschap of op de dag van het overlijden in hun geheel toebehoren aan de overledene en/of aan zijn overlevende echtgenoot of aan de erfgenamen, legatarissen of begiftigden.
+
 Deze uitzonderlijke betalingswijze is afhankelijk van de formele aanvaarding van het aanbod door de Minister van Financiën.
 
 Het met de rechten begunstigde gewest, vermeldt door zijn vertegenwoordiger in de speciale Commissie en vóór het overzenden van het advies van de commissie aan de Minister van Financiën, dat het de betaling door middel van de aangeboden kunstwerken verkiest en vermeldt in voorkomend geval de aan te nemen werken.
@@ -2021,7 +2018,9 @@ Aanvullende regels betreffende de inbetalinggeving worden vastgelegd bij koninkl
 
 (van toepassing vanaf 16.05.2014)
 
-(gewijzigd bij art. 73 van de wet van 25.04.2014 (B.S., 16.05.2014). Tekst van toepassing vanaf 16.05.2014 (art. 99)) De in artikel 833 bedoelde bijzondere commissie heeft tot taak de Minister van Financiën een bindend advies te geven over:
+(gewijzigd bij art. 73 van de wet van 25.04.2014 (B.S., 16.05.2014). Tekst van toepassing vanaf 16.05.2014 (art. 99))
+
+De in artikel 833 bedoelde bijzondere commissie heeft tot taak de Minister van Financiën een bindend advies te geven over:
 
 1° de vraag of de ter betaling aangeboden kunstwerken tot het roerend cultureel erfgoed van het land behoren of internationaal befaamd zijn;
 
@@ -2054,6 +2053,7 @@ Eerste afdeling - Zakelijke zekerheden
 (gewijzigd bij art. 17 van de wet van 07.02.2021 (B.S., 19.02.2021). Tekst van toepassing vanaf 01.03.2021 (art. -))
 
 Om de invordering van het successierecht te waarborgen, wordt, ten bate van de Staat, op al de nagelaten roerende goederen een algemeen voorrecht gesteld, onmiddellijk rang nemende na deze vermeld onder artikelen 19 en 20 der wet van 16 december 1851 en onder artikel 23 van het Wetboek van bepaalde voorrechten op zeeschepen en diverse bepalingen.
+
 Bovendien, wordt de invordering der rechten van successie en van overgang bij overlijden gewaarborgd door een wettelijke hypotheek op al de voor hypotheek vatbare goederen door de overledene in het Rijk nagelaten.
 
 Deze waarborgen dekken insgelijks de interesten, alsmede de kosten van vervolging en van geding.
@@ -2085,6 +2085,7 @@ De inschrijving heeft plaats, niettegenstaande verzet, betwisting of beroep, kra
 Onverminderd de toepassing van artikel 87 der wet van 16 December 1851, mag de inschrijving worden gevorderd voor een door de ontvanger te begroten som welke al de interesten vertegenwoordigd welke vóór de kwijting van de belasting mochten verschuldigd zijn.
 
 Bij ontstentenis van een der akten of beslissingen waarvan sprake in de tweede alinea van onderhavig artikel, heeft de inschrijving slechts plaats tegen de op verzoek gegeven toelating vanwege de vrederechter van het kanton waarin het ontvangstkantoor ligt. In dergelijk geval, bepaalt het bevel de bezwaarde goederen en de som ten belope waarvan de inschrijving mag genomen worden.
+
 In het geval van artikel 94, mag de ontvanger zowel vóór als na de invorderbaarheid van de rechten inschrijving vorderen op zicht van het bevel van de vrederechter houdende bepaling van het bedrag van de borgtocht.
 
 ##### Art. 88
@@ -2114,6 +2115,7 @@ Wanneer, binnen de achttien maanden na het openvallen der nalatenschap, een derd
 Deze bepaling is evenwel niet toepasselijk indien, vóór de verkrijging, een verbeterende aangifte verzonden werd of een gerechtelijke vervolging door de ontvanger ingespannen werd wegens de invordering van bijrechten en van de bijhorigheden, of indien een inschrijving ten bate van de Staat reeds uit dien hoofde genomen werd.
 
 De erfgenamen, legatarissen en begiftigden, alsmede de openbare ambtenaren die belast zijn met de verkoop van goederen van de nalatenschap of met het vestigen van hypotheek daarop, zijn ertoe gerechtigd van de ontvanger een attest te vorderen, dat vermelding houdt van de wegens de ingeleverde aangiften verschuldigde sommen, alsmede van die waaromtrent vervolgingen ingespannen zijn.
+
 Dit attest wordt binnen de maand van de aanvraag per aangetekende zending verzonden.
 
 ##### Art. 90
@@ -2172,7 +2174,9 @@ De bevoegde adviseur-generaal van de Algemene Administratie van de Patrimoniumdo
 
 (van toepassing vanaf 16.05.2011)
 
-(gewijzigd bij art. 66 van de wet van 14.04.2011 (B.S., 06.05.2011). Tekst van toepassing vanaf 16.05.2011 (art. -)) De inschrijvingen, effecten op naam of aan toonder, sommen, waarden, gesloten koffers, omslagen en colli's, waarvan sprake in artikelen 96 tot 99, mogen het voorwerp niet uitmaken van een conversie, een overdracht, een teruggave of een betaling, indien zij geheel of gedeeltelijk toekomen aan een erfgenaam, legataris, begiftigde of anderen rechthebbende die buiten de Europese Economische Ruimte woont, voordat de door artikel 94 voorgeschreven waarborg is gesteld.
+(gewijzigd bij art. 66 van de wet van 14.04.2011 (B.S., 06.05.2011). Tekst van toepassing vanaf 16.05.2011 (art. -))
+
+De inschrijvingen, effecten op naam of aan toonder, sommen, waarden, gesloten koffers, omslagen en colli's, waarvan sprake in artikelen 96 tot 99, mogen het voorwerp niet uitmaken van een conversie, een overdracht, een teruggave of een betaling, indien zij geheel of gedeeltelijk toekomen aan een erfgenaam, legataris, begiftigde of anderen rechthebbende die buiten de Europese Economische Ruimte woont, voordat de door artikel 94 voorgeschreven waarborg is gesteld.
 
 Zo, in de gevallen voorzien in artikel 101 onder de rechthebbenden één of meer personen zijn die buiten de Europese Economische Ruimte wonen, mag de verhuurder van de brandkast of de notaris die de door gezegd artikel voorgeschreven lijst of inventaris heeft opgemaakt, de inbezitneming door de rechthebbenden van de in de kast liggende zaken niet toestaan voordat de door artikel 94 opgelegde waarborg wordt gesteld.
 
@@ -2191,6 +2195,7 @@ TOEKOMSTIG RECHT (vanaf 01.01.2028)
 (gewijzigd bij art. 98 van de wet van 12.05.2024 (B.S., 30.05.2024 – ed. 2). Tekst van toepassing voor alle of bepaalde categorieën van houders van een ondernemingsnummer, evenals voor natuurlijke personen, op een datum respectievelijk te bepalen door de Koning, en ten laatste op 01.01.2028 (art. 222))
 
 De besturen en de openbare instellingen, de stichtingen van openbaar nut en de private stichtingen, alle verenigingen of vennootschappen die in België hun voornaamste instelling, een bijhuis of een om 't even welken zetel van verrichtingen hebben, mogen, na het overlijden van iemand die titularis van een inschrijving of effect op naam is, de overdracht, de overgang, de conversie of de betaling daarvan slechts bewerkstelligen, na de daartoe aangestelde ambtenaar van de Algemene Administratie van de Patrimoniumdocumentatie bericht te hebben gegeven, binnen drie maanden na het overlijden, van het bestaan van de inschrijving of het effect op naam waarvan de overledene eigenaar is. In afwijking van het voorafgaande wordt het bericht gegeven binnen de maand na de dag waarop de betrokken inrichting kennis heeft van het overlijden, wanneer die kennis wordt verkregen meer dan twee maanden na het overlijden.
+
 Wanneer de titularis van een inschrijving of effect op naam de overdracht, de overgang, de conversie of de betaling daarvan aanzoekt na het overlijden van zijn echtgenoot, moet hij dit overlijden ter kennis der betrokken inrichting brengen, en deze mag het aanzoek slechts inwilligen na de bevoegden ambtenaar bericht te hebben gegeven van het bestaan van de inschrijving of het effect waarvan de aanzoeker titularis was op de dag van het overlijden van zijn echtgenoot.
 
 Indien de betrokken inrichting, na het overlijden van de echtgenoot van de titularis van een inschrijving of effect op naam en in de onwetendheid van dit overlijden, een overdracht, overgang, conversie of betaling heeft bewerkstelligd, is zij ertoe gehouden, zodra zij kennis heeft van dit overlijden, de bevoegde ambtenaar bericht te geven van het bestaan van de inschrijving of het effect op de overlijdensdag.
@@ -2210,7 +2215,9 @@ De Koning kan de aanvullende modaliteiten van de in het eerste tot vijfde lid be
 (gewijzigd bij art. 74 en 79 van de wet van 25.04.2014 (B.S., 16.05.2014). Tekst van toepassing vanaf 16.05.2014 (art. 99).
 Het 1ste lid, met inwerkingtreding op 01.01.2015, werd gewijzigd voorafgaand de inwerkingtreding ervan))
 
-De besturen en de openbare instellingen, de stichtingen van openbaar nut en de private stichtingen, alle verenigingen of vennootschappen die in België hun voornaamste instelling, een bijhuis of een om 't even welken zetel van verrichtingen hebben, mogen, na het overlijden van iemand die titularis van een inschrijving of effect op naam is, de overdracht, de overgang, de conversie of de betaling daarvan slechts bewerkstelligen, na de daartoe aangestelde ambtenaar van de Algemene Administratie van de Patrimoniumdocumentatie bericht te hebben gegeven, binnen drie maanden na het overlijden, van het bestaan van de inschrijving of het effect op naam waarvan de overledene eigenaar is. In afwijking van het voorafgaande wordt het bericht gegeven binnen de maand na de dag waarop de betrokken inrichting kennis heeft van het overlijden, wanneer die kennis wordt verkregen meer dan twee maanden na het overlijden.
+De besturen en de openbare instellingen, de stichtingen van openbaar nut en de private stichtingen, alle verenigingen of vennootschappen die in België hun voornaamste instelling, een bijhuis of een om 't even welken zetel van verrichtingen hebben, mogen, na het overlijden van iemand die titularis van een inschrijving of effect op naam is, de overdracht, de overgang, de conversie of de betaling daarvan slechts bewerkstelligen, na de daartoe aangestelde ambtenaar van de Algemene Administratie van de Patrimoniumdocumentatie bericht te hebben gegeven, binnen drie maanden na het overlijden, van het bestaan van de inschrijving of het
+
+effect op naam waarvan de overledene eigenaar is. In afwijking van het voorafgaande wordt het bericht gegeven binnen de maand na de dag waarop de betrokken inrichting kennis heeft van het overlijden, wanneer die kennis wordt verkregen meer dan twee maanden na het overlijden.
 
 Wanneer de titularis van een inschrijving of effect op naam de overdracht, de overgang, de conversie of de betaling daarvan aanzoekt na het overlijden van zijn echtgenoot, moet hij dit overlijden ter kennis der betrokken inrichting brengen, en deze mag het aanzoek slechts inwilligen na de bevoegden ambtenaar bericht te hebben gegeven van het bestaan van de inschrijving of het effect waarvan de aanzoeker titularis was op de dag van het overlijden van zijn echtgenoot.
 
@@ -2231,7 +2238,9 @@ In afwijking van het eerste lid wordt, in geval het bericht op elektronische wij
 (gewijzigd bij art. 75 en 80 van de wet van 25.04.2014 (B.S., 16.05.2014). Tekst van toepassing vanaf 16.05.2014 (art. 99).
 Het 1ste lid, met inwerkingtreding op 01.01.2015, werd gewijzigd voorafgaand de inwerkingtreding ervan))
 
-De besturen en de openbare instellingen, de stichtingen van openbaar nut en de private stichtingen, alle verenigingen of vennootschappen die in België hun voornaamste instelling, een bijhuis of een om 't even welken zetel van verrichtingen hebben, de bankiers, de wisselagenten, de wisselagent-correspondenten, de zaakwaarnemers en de openbare of ministerieele ambtenaren die houders of schuldenaars zijn, uit welken hoofde ook, van effecten, sommen of waarden welke toekomen aan een erfgenaam, legataris, begiftigde of anderen rechthebbende ingevolge het overlijden van iemand, mogen de teruggaaf, de betaling of de overdracht daarvan slechts doen na de echt en deugdelijk verklaarde lijst der effecten, sommen of waarden aan de daartoe aangewezen ambtenaar van de Algemene Administratie van de Patrimoniumdocumentatie te hebben afgegeven binnen drie maanden na de dag van het overlijden. In afwijking van het voorafgaande, wordt de lijst bezorgd binnen de maand na de dag waarop de betrokken inrichting of persoon kennis heeft van het overlijden, wanneer die kennis wordt verkregen meer dan twee maanden na het overlijden.
+De besturen en de openbare instellingen, de stichtingen van openbaar nut en de private stichtingen, alle verenigingen of vennootschappen die in België hun voornaamste instelling, een bijhuis of een om 't even welken zetel van verrichtingen hebben, de bankiers, de wisselagenten, de wisselagent-correspondenten, de
+
+zaakwaarnemers en de openbare of ministerieele ambtenaren die houders of schuldenaars zijn, uit welken hoofde ook, van effecten, sommen of waarden welke toekomen aan een erfgenaam, legataris, begiftigde of anderen rechthebbende ingevolge het overlijden van iemand, mogen de teruggaaf, de betaling of de overdracht daarvan slechts doen na de echt en deugdelijk verklaarde lijst der effecten, sommen of waarden aan de daartoe aangewezen ambtenaar van de Algemene Administratie van de Patrimoniumdocumentatie te hebben afgegeven binnen drie maanden na de dag van het overlijden. In afwijking van het voorafgaande, wordt de lijst bezorgd binnen de maand na de dag waarop de betrokken inrichting of persoon kennis heeft van het overlijden, wanneer die kennis wordt verkregen meer dan twee maanden na het overlijden.
 
 Het eerste lid is van toepassing op de sommen, renten of waarden, die na het overlijden worden verkregen ingevolge een contract bevattende een door de overledene gemaakt beding.
 
@@ -2253,7 +2262,9 @@ TOEKOMSTIG RECHT (vanaf 01.01.2028)
 
 (van toepassing vanaf 01.01.2028)
 
-(gewijzigd bij art. 99 van de wet van 12.05.2024 (B.S., 30.05.2024 – ed. 2). Tekst van toepassing voor alle of bepaalde categorieën van houders van een ondernemingsnummer, evenals voor natuurlijke personen, op een datum respectievelijk te bepalen door de Koning, en ten laatste op 01.01.2028 (art. 222)) Wanneer het voorwerpen geldt die in een gesloten koffer, omslag of colli aan een der in artikel 97 bedoelde houders toevertrouwd werden, mogen, na het overlijden van de deponent of van dezes echtgenoot, de koffer, de omslag of het colli aan de rechthebbenden slechts teruggeven of op hun naam overgedragen worden na in tegenwoordigheid van de houder te zijn geopend, opdat deze de bij hetzelfde artikel voorgeschreven lijst zou kunnen opmaken.
+(gewijzigd bij art. 99 van de wet van 12.05.2024 (B.S., 30.05.2024 – ed. 2). Tekst van toepassing voor alle of bepaalde categorieën van houders van een ondernemingsnummer, evenals voor natuurlijke personen, op een datum respectievelijk te bepalen door de Koning, en ten laatste op 01.01.2028 (art. 222))
+
+Wanneer het voorwerpen geldt die in een gesloten koffer, omslag of colli aan een der in artikel 97 bedoelde houders toevertrouwd werden, mogen, na het overlijden van de deponent of van dezes echtgenoot, de koffer, de omslag of het colli aan de rechthebbenden slechts teruggeven of op hun naam overgedragen worden na in tegenwoordigheid van de houder te zijn geopend, opdat deze de bij hetzelfde artikel voorgeschreven lijst zou kunnen opmaken.
 
 De tweede alinea van artikel 96 wordt toepasselijk gemaakt op de hiervoor bedoelde koffers, omslagen en colli's.
 
@@ -2273,7 +2284,9 @@ Wanneer het voorwerpen geldt die in een gesloten koffer, omslag of colli aan een
 
 De tweede alinea van artikel 96 wordt toepasselijk gemaakt op de hiervoor bedoelde koffers, omslagen en colli's.
 
-Indien de lasthebber van de deponent of de wettelijke vertegenwoordiger van een onbekwame, na de dood van de lastgever of van de onbekwame en in de onwetendheid daarvan, zaken heeft teruggenomen die aan de houder in een gesloten koffer, omslag of colli werden toevertrouwd, ofwel de koffer, omslag of colli op naam van een derde heeft doen overdragen, dan is de lasthebber of de wettelijke vertegenwoordiger gehouden, zodra het overlijden van de lastgever of van de onbekwame hem bekend is, een overeenkomstig artikel 97 opgemaakte lijst van de in de koffer, omslag of colli vervatte zaken aan de bevoegden ambtenaar af te geven.
+Indien de lasthebber van de deponent of de wettelijke vertegenwoordiger van een onbekwame, na de dood van de lastgever of van de onbekwame en in de onwetendheid daarvan, zaken heeft teruggenomen die aan de
+
+houder in een gesloten koffer, omslag of colli werden toevertrouwd, ofwel de koffer, omslag of colli op naam van een derde heeft doen overdragen, dan is de lasthebber of de wettelijke vertegenwoordiger gehouden, zodra het overlijden van de lastgever of van de onbekwame hem bekend is, een overeenkomstig artikel 97 opgemaakte lijst van de in de koffer, omslag of colli vervatte zaken aan de bevoegden ambtenaar af te geven.
 
 De door de houder overeenkomstig onderhavig artikel op te maken lijst mag worden vervangen door een getrouwen en nauwkeurige inventaris van de effecten, sommen, waarden of welke voorwerpen ook, die zich in de koffer, omslag of colli bevinden, inventaris opgemaakt door een notaris in de vormen bepaald door de artikelen 1175 tot 1184 van het Gerechtelijk Wetboek. De houder is niet verplicht bij het opmaken van de inventaris aanwezig te zijn.
 
@@ -2294,6 +2307,7 @@ Zo in de door artikelen 97 en 98 voorziene gevallen de gehouden zaken of de vers
 2° Zodra het overlijden van een der medebelanghebbenden of van de echtgenoot van een hunner hem bekend is: a) overeenkomstig artikel 97 aan de bevoegden ambtenaar de lijst te verzenden van de ten dage van het overlijden verschuldigde of gehouden sommen, effecten, waarden of voorwerpen; b) de teruggave of de overdracht der gesloten koffers, omslagen of colli's waarvan hij houder is te weigeren alvorens aan de bevoegde ambtenaar de lijst der daarin vervatte voorwerpen te hebben verzonden.
 
 Elke medebelanghebbende die, na het overlijden van zijn echtgenoot, na het overlijden van een zijner medebelanghebbenden of dezes echtgenoot, de teruggave der gehouden voorwerpen, de betaling der verschuldigde sommen of de overdracht van het deposito of van de schuldvordering vraagt, moet vooraf het overlijden ter kennis van de houder of van de schuldenaar brengen.
+
 Indien, na het overlijden van een der medebelanghebbenden of van dezes echtgenoot en in de onwetendheid van dit overlijden een hunner een terugneming gedaan, een betaling ontvangen of een overdracht doen uitvoeren heeft, moet hij, zodra hij kennis heeft van het overlijden: a) daarvan bericht geven aan de houder of aan de schuldenaar, die van dat ogenblik af verplicht is aan de bevoegde ambtenaar de lijst van de ten dage van het overlijden verschuldigde of gehouden sommen, effecten, waarden of voorwerpen te verzenden, b) een overeenkomstig artikel 97 opgemaakte lijst van de in de gesloten koffer, omslag of colli vervatte zaken aan de bevoegde ambtenaar afgeven.
 
 De bepalingen van de laatste twee alinea's van artikel 98 zijn van toepassing wat betreft de aan de houder in een gesloten koffer, omslag of colli toevertrouwde zaken.
@@ -2319,6 +2333,7 @@ Elke medebelanghebbende die, na het overlijden van zijn echtgenoot, na het overl
 Indien, na het overlijden van een der medebelanghebbenden of van dezes echtgenoot en in de onwetendheid van dit overlijden een hunner een terugneming gedaan, een betaling ontvangen of een overdracht doen uitvoeren heeft, moet hij, zodra hij kennis heeft van het overlijden:
 
 a) daarvan bericht geven aan de houder of aan de schuldenaar, die van dat ogenblik af verplicht is aan de bevoegde ambtenaar de lijst van de ten dage van het overlijden verschuldigde of gehouden sommen, effecten, waarden of voorwerpen af te geven,
+
 b) een overeenkomstig artikel 97 opgemaakte lijst van de in de gesloten koffer, omslag of colli vervatte zaken aan de bevoegde ambtenaar afgeven.
 
 De bepalingen van de laatste twee alinea's van artikel 98 zijn van toepassing wat betreft de aan de houder in een gesloten koffer, omslag of colli toevertrouwde zaken.
@@ -2340,6 +2355,7 @@ De inlichtingen moeten worden verschaft binnen drie maanden na de datum waarop z
 De ambtenaren van de Algemene Administratie van de Patrimoniumdocumentatie kunnen zich eveneens, in het kader van het bankonderzoek, richten tot het Centraal Aanspreekpunt van de Nationale Bank zoals bepaald in artikel 322, § 3, eerste lid, van het Wetboek van de inkomstenbelastingen 1992. Deze toegang is voorzien mits machtiging van een ambtenaar met minimum de graad van adviseur-generaal.
 
 Enkel in het kader van de aangiften van nalatenschap kunnen de ambtenaren van Algemene Administratie van de Patrimoniumdocumentatie het Centraal Aanspreekpunt gehouden door de Nationale Bank van België om informatie vragen na voorafgaande machtiging door een ambtenaar met minstens de graad van adviseurgeneraal.
+
 TOEKOMSTIG RECHT (vanaf 01.01.2028)
 
 ##### Art. 101
@@ -2363,6 +2379,7 @@ Elke persoon die na het overlijden in de onwetendheid daarvan zaken heeft terugg
 (gewijzigd bij art. 78 van de wet van 25.04.2014 (B.S., 16.05.2014). Tekst van toepassing vanaf 16.05.2014 (art. 99))
 
 Geen brandkast, in huur gehouden bij een persoon of bij een vereniging, gemeenschap of vennootschap die gewoonlijk brandkasten verhuurt, mag, na het overlijden van de huurder of van zijn echtgenoot, van een der medehuurders of van zijn echtgenoot, worden geopend tenzij in tegenwoordigheid van de verhuurder die er toe gehouden is, vóór de inbezitneming door de rechthebbenden, de echt en deugdelijk verklaarde lijst van alle in de kast berustende effecten, sommen, waarden en hoe ook genaamde voorwerpen op te maken en ze aan de daartoe aangewezen ambtenaar van de Algemene Administratie van de Patrimoniumdocumentatie af te geven. Deze lijst moet de effecten, sommen, waarden en hoe ook genaamde voorwerpen vermelden, die zouden geborgen zijn in gesloten omslagen, colli's, dozen en koffertjes, welke zich in de brandkast bevinden.
+
 De laatste twee alinea's van artikel 98 worden toepasselijk gemaakt.
 
 Elke persoon die de brandkast wil openen of doen openen na het overlijden van de huurder of van dezes echtgenoot, van een der medehuurders of van dezes echtgenoot, moet vooraf het overlijden ter kennis van de verhuurder brengen.
@@ -2398,6 +2415,7 @@ b) Nummer of kenteken waarover het gaat in 1 , litt. b, hierboven;
 c) Naam, voornamen en domicilie van den ondertekenaar;
 
 3° Door middel van een gedagtekend en ondertekend geschrift vaststellen of doen vaststellen:
+
 a) De ontvangst van een gesloten koffer, omslag of colli of de terbeschikkingstelling van een brandkast;
 
 b) Het recht voor een lasthebber of vertegenwoordiger toegang te hebben tot de gesloten koffer, omslag of colli, of tot de brandkast;
@@ -2429,6 +2447,7 @@ b) Nummer of kenteken van de gesloten koffers, omslagen of colli's, of van de br
 2° Een ander register houden, waarin de lasthebber of de medehuurder die toegang vraagt tot de gesloten koffer, omslag of colli of tot de brandkast bij elk bezoek zijn handtekening moet plaatsen.
 
 In dit register worden ingeschreven naar volgorde van den datum, zonder wit vak of tussenruimte:
+
 a) Dag en uur van het bezoek;
 
 b) Nummer of kenteken waarover het gaat in 1 , litt. b, hierboven;
@@ -2460,6 +2479,7 @@ Voor de toepassing van onderhavig Wetboek wordt met een verhuurder van brandkast
 Wordt met hetzelfde doel gelijkgesteld met een huurder van een brandkast, elke Rijksinwoner die het recht bezit voor zichzelf gebruik te maken van een brandkast welke zich bevindt bij de verhuurder in de zin van vorige alinea.
 
 Elke Rijksinwoner wordt geacht huurder te zijn van de brandkast(en) waartoe hij te welken titel ook toegang heeft, wanneer de verhuring werd toegestaan aan een rechtspersoon die geen zetel van verrichtingen in België bezit.
+
 Worden als brandkasten aangezien, de kamers, galerijen en andere veiligheidsinrichtingen.
 
 De brandkasten of inrichtingen met eigen afzonderlijk slot, die zich in een veiligheidskamer of galerij bevinden, dienen als afzonderlijke brandkasten beschouwd.
@@ -2491,6 +2511,7 @@ TOEKOMSTIG RECHT (vanaf 01.01.2028)
 ##### Art. 1031
 
 (van toepassing vanaf 01.01.2028)
+
 (lid 2, vervangen bij art. 104 van de wet van 12.05.2024 (B.S., 30.05.2024 – ed. 2). Tekst van toepassing voor alle of bepaalde categorieën van houders van een ondernemingsnummer, evenals voor natuurlijke personen, op een datum respectievelijk te bepalen door de Koning, en ten laatste op 01.01.2028 (art. 222))
 
 De beroepsverzekeraars die in België hun voornaamste instelling, een bijhuis, een vertegenwoordiger of een om 't even welke zetel van verrichtingen hebben, zijn er toe gehouden binnen de maand na de dag waarop zij kennis hebben van het overlijden van een persoon of van de echtgenoot van een persoon, met wie zij een der verzekeringscontracten hebben afgesloten waarover het gaat in artikel 46, aan de daartoe aangewezen ambtenaar bericht te geven van het bestaan van het contract dat werd afgesloten hetzij met de overledene, hetzij met dezes echtgenoot, met aanduiding van:
@@ -2518,6 +2539,7 @@ De beroepsverzekeraars die in België hun voornaamste instelling, een bijhuis, e
 2° naam, voornamen en domicilie van de verzekerde, alsook de datum van zijn overlijden of van het overlijden van zijn echtgenoot:
 
 3° datum nummer en duur van de van kracht zijnde polis of polissen en de waarde waarvoor de voorwerpen verzekerd zijn:
+
 4° in geval van meerdere verzekeraars, op nauwkeurige wijze, de verscheidene medeverzekeraars.
 
 De Koning kan bepalen dat de inlichtingen op elektronische wijze moeten worden toegezonden en de nadere regels daarvan bepalen.
@@ -2583,11 +2605,12 @@ Deze processen-verbaal gelden als bewijs tot het tegendeel bewezen is. Zij zulle
 ##### Art. 106
 
 (van toepassing vanaf 01.01.2003)
+
 (gewijzigd bij art. 28 van de wet van 24.12.2002 (B.S., 31.12.2002 – ed. 2). Tekst van toepassing vanaf 01.01.2003 (art. 32))
 
 Tegenbrieven kunnen de Staat niet tegengesteld worden, in zover zij vermindering van actief of vermeerdering van het passief der nalatenschap ten gevolge mochten hebben.
 
-###### Paragraaf 2 van artikel 18 van het Wetboek der Registratie-, Hypotheek- en Griffierechten is mutatis mutandis van toepassing.
+Paragraaf 2 van artikel 18 van het Wetboek der Registratie-, Hypotheek- en Griffierechten is mutatis mutandis van toepassing.
 
 #### Afdeling II - Bijzondere bewijsmiddelen
 
@@ -2614,6 +2637,7 @@ Edoch, ten opzichte van lichamelijke roerende goederen, contant geld en effecten
 ##### Art. 109
 
 (van toepassing vanaf 30.07.2018)
+
 (gewijzigd bij art. 105 van de wet van 11.07.2018 (B.S., 20.07.2018 – ed. 2). Tekst van toepassing vanaf 30.07.2018))
 
 Er bestaat insgelijks, tot de levering van het tegenbewijs, een wettelijk vermoeden van eigendom voor eis tot betaling der rechten van successie en van overgang bij overlijden en der boeten in de volgende gevallen:
@@ -2672,7 +2696,9 @@ TOEKOMSTIG RECHT (vanaf 01.01.2028)
 
 (van toepassing vanaf 01.01.2028)
 
-(lid 1, gewijzigd bij art. 107 van de wet van 12.05.2024 (B.S., 30.05.2024 – ed. 2). Tekst van toepassing voor alle of bepaalde categorieën van houders van een ondernemingsnummer, evenals voor natuurlijke personen, op een datum respectievelijk te bepalen door de Koning, en ten laatste op 01.01.2028 (art. 222)) Binnen de vijftien dagen vanaf de verzending na de kennisgeving voorzien onder artikel 112, kunnen ontvanger en partij overeenkomen dat de beraming door een of door drie schatters te hunner keuze zal worden gedaan.
+(lid 1, gewijzigd bij art. 107 van de wet van 12.05.2024 (B.S., 30.05.2024 – ed. 2). Tekst van toepassing voor alle of bepaalde categorieën van houders van een ondernemingsnummer, evenals voor natuurlijke personen, op een datum respectievelijk te bepalen door de Koning, en ten laatste op 01.01.2028 (art. 222))
+
+Binnen de vijftien dagen vanaf de verzending na de kennisgeving voorzien onder artikel 112, kunnen ontvanger en partij overeenkomen dat de beraming door een of door drie schatters te hunner keuze zal worden gedaan.
 
 In dit geval, wordt de overeenkomst geconstateerd door een proces-verbaal dat het voorwerp der schatting aangeeft en de verkozen schatter(s) aanduidt.
 
@@ -2705,6 +2731,7 @@ De rechter beslist binnen de vijftien dagen na de aanvraag; hij beveelt de schat
 (gewijzigd bij art. 74 van de wet van 27.04.2016 (B.S., 06.05.2016). Tekst van toepassing vanaf 16.05.2016 (art. -))
 
 Kunnen niet als schatters gekozen of daartoe benoemd worden:
+
 1° De ambtenaren van de Algemene Administratie van de Patrimoniumdocumentatie;
 
 2° De openbare of ministeriële ambtenaren opstellers van de aangifte van successie of van overgang bij overlijden;
@@ -2776,6 +2803,7 @@ De minuut van het verslag wordt ter griffie van het onder artikel 114 aangeduid 
 ##### Art. 119
 
 (van toepassing vanaf 17.04.1936)
+
 Het verslag wordt door de meest gerede partij gelicht en aan de andere partij betekend.
 
 De door de schatters gegeven begroting en, in geval van niet-overeenstemming, de begroting van de meerderheid of, bij gemis van meerderheid, de tussenbegroting bepaalt de verkoopwaarde van het goed ten opzichte van de heffing der belasting.
@@ -2810,7 +2838,9 @@ TOEKOMSTIG RECHT (vanaf 01.01.2028)
 
 (van toepassing vanaf 01.01.2028)
 
-(gewijzigd bij art. 109 van de wet van 12.05.2024 (B.S., 30.05.2024 – ed. 2). Tekst van toepassing voor alle of bepaalde categorieën van houders van een ondernemingsnummer, evenals voor natuurlijke personen, op een datum respectievelijk te bepalen door de Koning, en ten laatste op 01.01.2028 (art. 222)) De betekeningen en notificaties te doen krachtens de bepalingen van deze afdeling, hetzij aan de partijen of aan de schatters, hetzij door de partijen of door de schatters, geschieden met een aangetekende zending.
+(gewijzigd bij art. 109 van de wet van 12.05.2024 (B.S., 30.05.2024 – ed. 2). Tekst van toepassing voor alle of bepaalde categorieën van houders van een ondernemingsnummer, evenals voor natuurlijke personen, op een datum respectievelijk te bepalen door de Koning, en ten laatste op 01.01.2028 (art. 222))
+
+De betekeningen en notificaties te doen krachtens de bepalingen van deze afdeling, hetzij aan de partijen of aan de schatters, hetzij door de partijen of door de schatters, geschieden met een aangetekende zending.
 
 De betekeningen en notificaties te doen aan de aangevers mogen, welke ook het getal dezer weze, het voorwerp uitmaken van één enkele briefwisseling gericht naar de in de aangifte verkozen woonplaats.
 
@@ -2874,6 +2904,7 @@ De erfgenaam, legataris of begiftigde die ten achteren is met de betaling van de
 ##### Art. 126
 
 (van toepassing vanaf 30.07.2018)
+
 (gewijzigd bij art. 106 van de wet van 11.07.2018 (B.S., 20.07.2018 – ed. 2). Tekst van toepassing vanaf 30.07.2018 (art. -))
 
 De erfgenaam, legataris of begiftigde, die verzuimd heeft in België gelegen onroerende goederen of renten en schuldvorderingen aan te geven, die in de in België gehouden registers van de hypothecaire openbaarmaking ingeschreven zijn, betaalt, boven de rechten, een gelijke som als boete.
@@ -2940,7 +2971,9 @@ De partijen worden vrijgesteld van de boeten voorzien in de artikelen 126 tot 12
 
 (van toepassing vanaf 31.12.2024)
 
-(gewijzigd bij art. 13 van de wet van 20.12.2024 (B.S., 31.12.2024). Tekst van toepassing vanaf 31.12.2024 (art. 19)) De door de bevoegde adviseur-generaal gemachtigde ambtenaar kan voor de overtreding van de bepalingen van de artikelen 146sexies met 146quaterdecies, evenals van de ter uitvoering ervan genomen besluiten, die bestaat uit het onvolledig verstrekken van de inlichtingen bedoeld in artikel 146quater, § 6/3, een boete opleggen van 1 250 euro tot 12 500 euro. Voor dergelijke overtredingen gedaan met bedrieglijk opzet of het oogmerk te schaden wordt een boete van 2 500 euro tot 25 000 euro opgelegd.
+(gewijzigd bij art. 13 van de wet van 20.12.2024 (B.S., 31.12.2024). Tekst van toepassing vanaf 31.12.2024 (art. 19))
+
+De door de bevoegde adviseur-generaal gemachtigde ambtenaar kan voor de overtreding van de bepalingen van de artikelen 146sexies met 146quaterdecies, evenals van de ter uitvoering ervan genomen besluiten, die bestaat uit het onvolledig verstrekken van de inlichtingen bedoeld in artikel 146quater, § 6/3, een boete opleggen van 1 250 euro tot 12 500 euro. Voor dergelijke overtredingen gedaan met bedrieglijk opzet of het oogmerk te schaden wordt een boete van 2 500 euro tot 25 000 euro opgelegd.
 
 De door de bevoegde adviseur-generaal gemachtigde ambtenaar kan voor de overtreding van de bepalingen van de artikelen 146sexies tot en met 146quaterdecies, evenals van de ter uitvoering ervan genomen besluiten, die bestaat uit het niet of laattijdig verstrekken van de inlichtingen bedoeld in artikel 146quater, § 6/3 een boete opleggen van 5 000 euro tot 50 000 euro. Voor dergelijke overtredingen gedaan met bedrieglijk opzet of het oogmerk te schaden wordt een boete van 12 500 euro tot 100 000 euro opgelegd.
 
@@ -2965,6 +2998,7 @@ Onverminderd de fiscale geldboeten, wordt hij die met bedrieglijk opzet of met h
 (gewijzigd bij art. 18 van het decreet van 01.06.2017 (B.S., 10.07.2017). Tekst van toepassing vanaf 01.07.2017 (art. 23))
 
 Met gevangenisstraf van een maand tot vijf jaar en met geldboete van 250 tot 500.000 EUR of met één van die straffen alleen wordt gestraft hij die, met het oogmerk om een van de in artikel 133 bedoelde misdrijven te plegen, in openbare geschriften, in handelsgeschriften of in private geschriften valsheid pleegt, of die van een zodanig vals geschrift gebruik maakt. In het geval waarin de overtreding een proceduregel betreft, wordt het maximum van de boete vastgesteld op 12.500 euro.
+
 Hij die wetens en willens een vals getuigschrift opstelt dat de belangen van de Schatkist kan schaden of die van een dergelijk getuigschrift gebruik maakt, wordt gestraft met gevangenisstraf van acht dagen tot twee jaar en met geldboete van 250 tot 500.000 EUR of met één van die straffen alleen. In het geval waarin dat vals getuigschrift opgesteld of gebruikt is in het kader van een overtreding van een proceduregel, wordt het maximum van de boete vastgesteld op 12.500 euro.
 
 ##### Art. 133bis/1
@@ -2993,7 +3027,9 @@ Artikel 42, 3°, van het Strafwetboek vindt geen toepassing op de vermogensvoord
 
 4° of enig ander beroep dat tot doel heeft voor een of meer belastingplichtigen boek te houden of te helpen houden, ofwel voor eigen rekening ofwel als hoofd, lid of bediende van enigerlei vennootschap, vereniging, groepering of onderneming;
 
-5° of, meer in het algemeen, het beroep dat erin bestaat een of meer belastingplichtigen raad te geven of bij te staan bij het vervullen van de verplichtingen opgelegd bij dit Wetboek of bij de ter uitvoering ervan vastgestelde besluiten, wordt veroordeeld wegens een van de misdrijven bedoeld in de artikelen 133 en 133bis, kan het vonnis hem verbod opleggen om gedurende drie maanden tot vijf jaar rechtstreeks of onrechtstreeks de hiervoren bedoelde beroepen op welke wijze ook uit te oefenen.
+5° of, meer in het algemeen, het beroep dat erin bestaat een of meer belastingplichtigen raad te geven of bij te staan bij het vervullen van de verplichtingen opgelegd bij dit Wetboek of bij de ter uitvoering ervan vastgestelde besluiten,
+
+wordt veroordeeld wegens een van de misdrijven bedoeld in de artikelen 133 en 133bis, kan het vonnis hem verbod opleggen om gedurende drie maanden tot vijf jaar rechtstreeks of onrechtstreeks de hiervoren bedoelde beroepen op welke wijze ook uit te oefenen.
 
 De rechter kan bovendien, mits hij zijn beslissing op dat stuk motiveert, voor een duur van drie maanden tot vijf jaar de sluiting bevelen van de inrichtingen van de vennootschap, vereniging, groepering of onderneming waarvan de veroordeelde hoofd, lid of bediende is.
 
@@ -3025,7 +3061,9 @@ Hij die, rechtstreeks of onrechtstreeks, het verbod of de sluiting, uitgesproken
 
 (van toepassing vanaf 09.04.2018)
 
-(gewijzigd bij art. 89 van de wet van 26.03.2018 (B.S., 30.03.2018 – ed. 2). Tekst van toepassing vanaf 09.04.2018 (art. -)) De natuurlijke personen of rechtspersonen zijn burgerlijk en hoofdelijk aansprakelijk voor de geldboeten en kosten die het gevolg zijn van de veroordelingen welke krachtens de artikelen 133 tot 133quater tegen hun aangestelden of hun bestuurders, zaakvoerders of vereffenaars, in het kader van de uitoefening van hun functie, in rechte of in feite zijn uitgesproken.
+(gewijzigd bij art. 89 van de wet van 26.03.2018 (B.S., 30.03.2018 – ed. 2). Tekst van toepassing vanaf 09.04.2018 (art. -))
+
+De natuurlijke personen of rechtspersonen zijn burgerlijk en hoofdelijk aansprakelijk voor de geldboeten en kosten die het gevolg zijn van de veroordelingen welke krachtens de artikelen 133 tot 133quater tegen hun aangestelden of hun bestuurders, zaakvoerders of vereffenaars, in het kader van de uitoefening van hun functie, in rechte of in feite zijn uitgesproken.
 
 ##### Art. 133septies
 
@@ -3056,6 +3094,7 @@ De schending van het bij artikel 146bis bepaalde beroepsgeheim wordt gestraft ov
 § 2. Het openbaar ministerie kan geen vervolging instellen indien het kennis heeft gekregen van de feiten ten gevolge van een klacht of een aangifte van een ambtenaar die niet de machtiging had waarvan sprake is in artikel 29, § 2, van het Wetboek van strafvordering.
 
 Het openbaar ministerie beslist om al dan niet de strafvervolging in te stellen van de feiten waarvan het kennis heeft genomen gedurende het overleg bedoeld in artikel 29, § 3, tweede lid, van het Wetboek van strafvordering binnen de 3 maanden na de initiële aangifte bedoeld in artikel 29, § 3, eerste lid, van hetzelfde Wetboek.
+
 § 3. Onverminderd het in artikel 29, § 3, tweede lid, van het Wetboek van strafvordering bedoelde overleg, kan de procureur des Konings, indien hij een vervolging instelt wegens feiten die strafrechtelijk strafbaar zijn ingevolge de bepalingen van dit Wetboek of van de ter uitvoering ervan genomen besluiten, het advies vragen van de bevoegde adviseur-generaal. De procureur des Konings voegt het feitenmateriaal waarover hij beschikt bij zijn verzoek om advies. De adviseur-generaal antwoordt op dit verzoek binnen vier maanden na de ontvangst ervan.
 
 In geen geval schorst het verzoek om advies de strafvordering.
@@ -3085,6 +3124,7 @@ De gekweten rechten van successie en van overgang bij overlijden, de interesten 
 1° Wanneer de wet slecht toegepast werd;
 
 2° Wanneer het bestaan van wegens gemis aan bewijzen verworpen schulden binnen de twee jaar na de betaling der belasting vastgesteld wordt.
+
 TOEKOMSTIG RECHT (vanaf 01.01.2028)
 
 ##### Art. 135
@@ -3116,6 +3156,7 @@ c) aangaande de hoedanigheid van Rijksinwoner in hoofde van de overledene;
 7° wanneer, in de gevallen voorzien onder artikel 49, de belanghebbende erin slaagt de werkelijke toestand vast te stellen en er daaruit een vermindering van belasting voortspruit;
 
 8° wanneer in het geval bedoeld in artikel 60bis, § 1bis, 3°, het erin bedoelde attest overgemaakt wordt aan de ontvanger binnen twee jaar na de betaling van de belasting;
+
 9° wanneer in het geval bedoeld in artikel 55quater, § 2, lid 1, het daar bedoeld attest ingediend wordt binnen de twee jaar na betaling van de belasting;
 
 10° wanneer in het geval bedoeld in artikel 55sexies, § 2, lid 3, de vrijstelling niet is aangevraagd, worden de documenten bedoeld in lid 2 ingediend in de twee jaar van de betaling van de belasting;
@@ -3147,6 +3188,7 @@ a) aangaande de graad van verwantschap bestaande tussen de overledene en dezes e
 b) aangaande de wettelijke of testamentaire devolutie der nalatenschap;
 
 c) aangaande de hoedanigheid van Rijksinwoner in hoofde van de overledene;
+
 7° wanneer, in de gevallen voorzien onder artikel 49, de belanghebbende erin slaagt de werkelijke toestand vast te stellen en er daaruit een vermindering van belasting voortspruit;
 
 8° wanneer in het geval bedoeld in artikel 60bis, § 1bis, 3°, het erin bedoelde attest overgemaakt wordt aan de ontvanger binnen twee jaar na de betaling van de belasting;
@@ -3174,6 +3216,7 @@ In het geval van de erfopvolging van een onroerend goed gelegen in het Waals Gew
 4° de erfgenaam heeft binnen de drie jaar na de datum van indiening van de aangifte uitgaven gemaakt en betaald om energie in het onroerend goed te besparen;
 
 5° de erfgenaam heeft de werkzaamheden waarop de in punt 4 bedoelde uitgaven betrekking hebben, verricht binnen drie jaar na de datum van indiening van de aangifte van nalatenschap;
+
 6° de erfgenaam bezorgt de ontvanger een attest waarin bepaald wordt dat hij aan de voorwaarden van dit artikel voldoet.
 
 Wanneer de erfgenaam zijn hoofdverblijfplaats niet in kwestieus onroerend goed heeft kunnen handhaven wegens overmacht of om dwingende reden van medische, familiale, beroeps- of maatschappelijke aard, moet de voorwaarde bedoeld in het eerste lid, 3°, niet langer worden vervuld te rekenen van die overmacht of dwingende reden.
@@ -3205,6 +3248,7 @@ TOEKOMSTIG RECHT (vanaf 01.01.2028)
 (gewijzigd bij art. 112 van de wet van 12.05.2024 (B.S., 30.05.2024 – ed. 2). Tekst van toepassing voor alle of bepaalde categorieën van houders van een ondernemingsnummer, evenals voor natuurlijke personen, op een datum respectievelijk te bepalen door de Koning, en ten laatste op 01.01.2028 (art. 222))
 
 Er is verjaring voor de eis:
+
 1° Van de rechten, interesten en boeten verschuldigd op een aangifte, na twee jaar te rekenen van de dag van de verzending van de aangifte;
 
 2° Van de vordering tot schatting der goederen onderworpen aan dergelijke controle en van de rechten, interesten en boeten in geval van te lage waardering van bedoelde goederen, na twee jaar; van de rechten, interesten en boeten in geval van te lage waardering van niet aan schatting onderworpen goederen, na tien jaar; dit alles te rekenen van de dag van de verzending van de aangifte;
@@ -3253,6 +3297,7 @@ In geval van overlijden in het buitenland, loopt de verjaring eerst van de dag v
 7° Van de boete gesteld bij artikel 125, na twee jaar te rekenen van de datum van de betekening van het dwangbevel.
 
 8°   van    de    rechten,     interesten   en   boeten,     een    jaar   na   de    definitieve   beslissing    in   een geschillenbeslechtingsprocedure bedoeld in de artikelen 3, 4, 6, 10 of 15 van de wet van 2 mei 2019 tot omzetting van de Richtlijn (EU) 2017/1852 van de Raad van 10 oktober 2017 betreffende mechanismen ter beslechting van belastinggeschillen in de Europese Unie, op voorwaarde dat de betrokkene heeft afgezien van het recht om enig rechtsmiddel aan te wenden en behalve in het geval bepaald in artikel 15, § 4, derde lid, van de voormelde wet .
+
 Wanneer, overeenkomstig artikel 833, een aanbod tot inbetalinggeving wordt gedaan, gaat de in het eerste lid,
 1°, bedoelde termijn slechts in, ten aanzien van de sommen die niet door de inbetalinggeving zijn voldaan ingevolge weigering of gedeeltelijke aanvaarding van het aanbod, vanaf de dag waarop het aanbod wordt geweigerd, of maar gedeeltelijk wordt aanvaard, hetzij qua goederen, hetzij qua waarde.
 
@@ -3287,6 +3332,7 @@ De invordering der rechten, interesten en boeten, opvorderbaar hoofdens de door 
 ##### Art. 1401
 
 (van toepassing vanaf 17.01.1959)
+
 (oorspronkelijk genummerd als art. 140. Vernummerd in art. 1401 en gewijzigd bij art. 38 van de wet van 23.12.1958 (B.S., 07.01.1959))
 
 De verjaringen, voor de invordering van rechten, interesten en boeten, worden gestuit op de wijze en onder de voorwaarden voorzien door de artikelen 2244 en volgende van het Burgerlijk Wetboek. In dit geval is er een nieuwe verjaring, die op dezelfde wijze kan worden gestuit, verworven twee jaar na de laatste akte of handeling waardoor de vorige verjaring werd gestuit, indien er geen geding aanhangig is vóór het gerecht.
@@ -3312,7 +3358,9 @@ Nota: Art. 113, 1° brengt een wijziging aan in het eerste lid, de woorden "bij 
 
 (gewijzigd bij art. 79 van de wet van 27.04.2016 (B.S., 06.05.2016). Tekst van toepassing vanaf 16.05.2016 (art. -))
 
-De verjaringen voor de teruggaaf van rechten, interesten en boeten worden gestuit door een met redenen omklede aanvraag genotificeerd bij ter post aangetekend schrijven aan de ontvanger die de ontvangst heeft gedaan     of   aan     de    bevoegde      adviseur-generaal        van    de    Algemene       Administratie      van    de Patrimoniumdocumentatie; ze worden eveneens gestuit op de wijze en onder de voorwaarden voorzien door artikelen 2244 en volgende van het Burgerlijk Wetboek.
+De verjaringen voor de teruggaaf van rechten, interesten en boeten worden gestuit door een met redenen omklede aanvraag genotificeerd bij ter post aangetekend schrijven aan de ontvanger die de ontvangst heeft gedaan     of   aan     de    bevoegde      adviseur-generaal        van    de    Algemene       Administratie      van    de
+
+Patrimoniumdocumentatie; ze worden eveneens gestuit op de wijze en onder de voorwaarden voorzien door artikelen 2244 en volgende van het Burgerlijk Wetboek.
 
 Zo de verjaring gestuit werd door de aan de ontvanger of adviseur-generaal genotificeerde aanvraag, is er een nieuwe verjaring van twee jaar, die slechts op de wijze en onder de voorwaarden voorzien bij artikelen 2244 en volgende van het Burgerlijk Wetboek kan worden gestuit, verworven twee jaar na de datum waarop de beslissing, waarbij de aanvraag werd verworpen, aan belanghebbende bij ter post aangetekend schrijven genotificeerd werd.
 
@@ -3339,6 +3387,7 @@ De schorsing vangt aan met het op gang brengen van de strafvordering, en eindigt
 De oplossing der moeilijkheden, die met betrekking tot de heffing of de invordering der rechten van successie en van overgang bij overlijden vóór het inleiden der gedingen kunnen oprijzen, komt de Minister van Financiën of de door hem gemachtigde ambtenaar toe.
 
 Indien, na onderhandelingen met de minister of met de door hem gemachtigde ambtenaar geen akkoord wordt bereikt over een moeilijkheid als bedoeld in het eerste lid, kan de belastingplichtige een aanvraag tot bemiddeling indienen bij de fiscale bemiddelingsdienst bedoeld bij artikel 116 van de wet van 25 april 2007 houdende diverse bepalingen (IV).
+
 Ingeval de moeilijkheid de verkoopwaarde betreft van een goed dat aan de in artikel 111 bedoelde schatting is onderworpen, kan de bemiddeling van de fiscale bemiddelingsdienst daarover niet meer gevraagd of voortgezet worden van zodra de vordering tot controleschatting is ingesteld. De Koning kan bepalen voor welke moeilijkheden in verband met de heffing en invordering van de “successierechten” bemiddeling door de fiscale bemiddelingsdienst is uitgesloten.
 
 De Minister van Financiën of de door hem gemachtigde ambtenaar gaat de transacties met de belastingplichtigen aan, voor zoveel zij geen vrijstelling of verlichting van belasting in zich sluiten.
@@ -3367,7 +3416,9 @@ Edoch, voor al de vorderingen en vervolgingen, krachtens het wetboek tegen de er
 
 (van toepassing vanaf 14.07.2016)
 
-(ingevoegd bij art. 73 van de programmawet van 01.07.2016 (B.S., 04.07.2016 – ed. 2). Tekst van toepassing vanaf 14.07.2016 (art. -)) In geval van niet-betaling van een schuld voortvloeiende uit de toepassing van dit Wetboek, kan de ambtenaar die belast is met de inning van die schuld, bij het Centraal Aanspreekpunt van de Nationale Bank bedoeld in artikel 322, § 3, eerste lid, van het Wetboek van de inkomstenbelastingen 1992, de gegevens opvragen die ten aanzien van die schuldenaar beschikbaar zijn zonder de beperkingen van artikel 322, §§ 2 tot 4, van hetzelfde Wetboek. De machtiging hiertoe wordt verleend door een ambtenaar met minstens de graad van adviseur–generaal.
+(ingevoegd bij art. 73 van de programmawet van 01.07.2016 (B.S., 04.07.2016 – ed. 2). Tekst van toepassing vanaf 14.07.2016 (art. -))
+
+In geval van niet-betaling van een schuld voortvloeiende uit de toepassing van dit Wetboek, kan de ambtenaar die belast is met de inning van die schuld, bij het Centraal Aanspreekpunt van de Nationale Bank bedoeld in artikel 322, § 3, eerste lid, van het Wetboek van de inkomstenbelastingen 1992, de gegevens opvragen die ten aanzien van die schuldenaar beschikbaar zijn zonder de beperkingen van artikel 322, §§ 2 tot 4, van hetzelfde Wetboek. De machtiging hiertoe wordt verleend door een ambtenaar met minstens de graad van adviseur–generaal.
 
 ##### Art. 1422
 
@@ -3428,6 +3479,7 @@ In afwijking van het eerste lid, is de aflevering van een eigendomstitel kostelo
 (aangevuld bij art. 75 van de wet van 12.05.2024 (B.S., 29.05.2024). Tekst van toepassing vanaf 01.01.2024 (art. 80))
 
 De ambtenaren van de Algemene administratie van de patrimoniumdocumentatie zijn ertoe gehouden, op eenvoudig verzoek, aan eenieder, tegen een retributie, de eigendomstitels van de onroerende goederen te doen kennen.
+
 In afwijking van het eerste lid, is de aflevering van een eigendomstitel kosteloos wanneer deze titel bestemd is om een akte van erfopvolging op te stellen, de instrumenterende ambtenaar voor het opstellen van de akte geen vacaties of kosten vraagt en de akte opgesteld wordt binnen de 6 maanden na het overlijden.
 
 ##### Art. 144/1
@@ -3455,6 +3507,7 @@ De verstrekte inlichtingen mogen niet langer worden bewaard dan noodzakelijk is 
 (vervangen bij art. 6 van de wet van 31.07.2023 (B.S., 24.08.2023). Tekst van toepassing vanaf 01.01.2024 (art. 14, lid 1, 4°, gewijzigd bij art. 11, 2° van de wet van 22.12.2023 (B.S., 29.12.2023 – ed. 2)). De Koning kan evenwel een datum van inwerkingtreding bepalen voorafgaand aan de datum vermeld in het eerste lid (art. 14, lid 2))
 
 De ambtenaren van de Algemene administratie van de patrimoniumdocumentatie zijn ertoe gehouden, tegen een retributie, op vordering van de erfgenamen, legatarissen of begiftigden hetzij van een overleden echtgenoot, hetzij van een van zijn vertegenwoordigers, de terugnemingen en vergoedingen aan te duiden die deze echtgenoot aanbelangen en die voortkomen van overeenkomsten houdende overdracht of aanwijzing van onroerende goederen.
+
 In dat geval kunnen de ambtenaren eisen dat de verzoekers hun de datum van het huwelijk en het huwelijksvermogensstelsel doen kennen van de echtgenoot wiens terugnemingen en vergoedingen moeten worden opgezocht.
 
 ##### Art. 146
@@ -3487,7 +3540,9 @@ De Koning kan ter uitvoering van dit hoofdstuk:
 
 Hij die, uit welken hoofde ook, optreedt bij de toepassing van de belastingwetten of die toegang heeft tot de ambtsvertrekken van de Algemene Administratie van de Patrimoniumdocumentatie, is, buiten het uitoefenen van zijn ambt, verplicht tot de meest volstrekte geheimhouding aangaande alle zaken waarvan hij wegens de uitvoering van zijn opdracht kennis heeft.
 
-Personen die deel uitmaken van diensten of openbare instellingen of inrichtingen waaraan inlichtingen, afschriften of uittreksels afgeleverd werden overeenkomstig de bepalingen van dit hoofdstuk, zijn tot dezelfde geheimhouding verplicht en mogen ze niet gebruiken buiten het kader van de wettelijke bepalingen voor de uitvoering waarvan zij zijn afgeleverd.
+Personen die deel uitmaken van diensten of openbare instellingen of inrichtingen waaraan inlichtingen, afschriften of uittreksels afgeleverd werden overeenkomstig de bepalingen van dit hoofdstuk, zijn tot dezelfde
+
+geheimhouding verplicht en mogen ze niet gebruiken buiten het kader van de wettelijke bepalingen voor de uitvoering waarvan zij zijn afgeleverd.
 
 De ambtenaren van de Algemene administratie van de patrimoniumdocumentatie, oefenen hun ambt uit wanneer zij overeenkomstig de bepalingen van dit hoofdstuk inlichtingen, afschriften of uittreksels afleveren.
 
@@ -3512,6 +3567,7 @@ Onder openbare instellingen of inrichtingen worden verstaan de instellingen, maa
 ##### Art. 146quater
 
 (van toepassing vanaf 11.04.2026)
+
 (§§ 6, 6/1, 6/2, 6/3, gewijzigd en § 17, vervangen bij art. 22 van de wet van 16.03.2026 (B.S., 01.04.2026). Tekst van toepassing vanaf 11.04.2026 (art. -))
 
 § 1. Dit artikel legt de voorschriften en procedures vast voor de samenwerking tussen België en de andere lidstaten van de Europese Unie met het oog op de uitwisseling van inlichtingen die naar verwachting van belang zijn voor de administratie en de handhaving van de nationale wetgeving van alle lidstaten met betrekking tot de rechten van successie en van overgang bij overlijden.
@@ -3537,6 +3593,7 @@ Dit artikel laat de toepassing van de regels inzake wederzijdse rechtshulp in st
 7° "buitenlandse bevoegde autoriteit": de door een lidstaat andere dan België, als zodanig aangewezen autoriteit. Het centraal verbindingsbureau, de verbindingsdiensten en de bevoegde ambtenaren van deze lidstaat worden eveneens als buitenlandse bevoegde autoriteit bij delegatie beschouwd;
 
 8° "verzoekende autoriteit": het centraal verbindingsbureau, een verbindingsdienst, of elke bevoegde ambtenaar van een lidstaat die namens de Belgische of een buitenlandse bevoegde autoriteit om bijstand verzoekt;
+
 9° "aangezochte autoriteit": het centraal verbindingsbureau, een verbindingsdienst of elke bevoegde ambtenaar van een lidstaat die namens de Belgische of een buitenlandse bevoegde autoriteit om bijstand wordt verzocht;
 
 10° "administratief onderzoek": alle door de lidstaten bij het vervullen van hun taken verrichte controles, onderzoeken en acties ter waarborging van de juiste toepassing van de belastingwetgeving;
@@ -3566,6 +3623,7 @@ d. een andere juridische constructie, ongeacht de aard of de vorm, met of zonder
 16° ″grensoverschrijdende voorafgaande fiscale beslissing″: elk akkoord, elke mededeling of enig ander instrument of handeling met soortgelijke effecten, inbegrepen deze verstrekt, gewijzigd of hernieuwd, in het kader van een belastingcontrole, en die aan de volgende cumulatieve voorwaarden voldoen:
 
 a) verstrekt, gewijzigd of hernieuwd door de FOD Financiën, ongeacht of deze beslissingen effectief gebruikt worden;
+
 b) verstrekt, gewijzigd of hernieuwd, voor een welbepaalde persoon of groep van personen, en voor zover deze persoon of groep van personen er zich kan op beroepen;
 
 c) betreft de interpretatie of toepassing van een wettelijke of administratieve bepaling betreffende de handhaving of de toepassing van dit Wetboek en de met de successierechten verband houdende autonome bepalingen;
@@ -3595,6 +3653,7 @@ d) een persoon heeft recht op 25 % of meer van de winsten van een andere persoon
 Indien meer dan één persoon deelneemt, als bedoeld onder a) tot en met d), aan de leiding van, aan de zeggenschap over of in het kapitaal of de winsten van dezelfde persoon, worden alle betrokken personen als verbonden ondernemingen beschouwd.
 
 Indien dezelfde personen deelnemen, als bedoeld onder a) tot en met d), aan de leiding van, aan de zeggenschap over of in het kapitaal of de winsten van meer dan één persoon, worden alle betrokken personen als verbonden ondernemingen beschouwd.
+
 Voor de toepassing van dit punt wordt een persoon die met betrekking tot de stemrechten of het kapitaalbezit van een entiteit samen met een andere persoon optreedt, beschouwd als houder van een deelneming in alle stemrechten of het volledige kapitaalbezit dat die andere persoon in de genoemde entiteit heeft.
 
 Bij middellijke deelneming wordt vastgesteld of aan de eisen onder c) is voldaan door vermenigvuldiging van de deelnemingspercentages door de opeenvolgende niveaus heen. Een persoon die meer dan 50 % van de stemrechten houdt, wordt geacht 100 % te houden.
@@ -3618,6 +3677,7 @@ In voorkomend geval deelt de Belgische bevoegde autoriteit de verzoekende autori
 Voor het verkrijgen van de gevraagde inlichtingen of het verrichten van het gevraagde administratief onderzoek gaat de Belgische bevoegde autoriteit te werk volgens dezelfde procedures als handelde zij uit eigen beweging of op verzoek van een andere Belgische instantie.
 
 Op specifiek verzoek van de verzoekende autoriteit verstrekt de Belgische bevoegde autoriteit de originele stukken, tenzij de Belgische voorschriften zich hiertegen verzetten.
+
 De inlichtingen worden door de Belgische bevoegde autoriteit zo spoedig mogelijk, doch uiterlijk drie maanden na de datum van ontvangst van het verzoek verstrekt. Indien de Belgische bevoegde autoriteit evenwel de inlichtingen al in haar bezit heeft, verstrekt zij deze binnen twee maanden. In bijzondere gevallen kunnen de Belgische bevoegde autoriteit en de verzoekende autoriteit een andere termijn overeenkomen.
 
 De ontvangst van het verzoek wordt door de Belgische bevoegde autoriteit aan de verzoekende autoriteit onmiddellijk, en in elk geval uiterlijk zeven werkdagen na ontvangst, indien mogelijk langs elektronische weg, bevestigd.
@@ -3642,6 +3702,7 @@ b) een specificering van de inlichtingen die nodig zijn voor de uitvoering of ha
 In dergelijke gevallen, verstrekt de verzoekende autoriteit de volgende informatie aan de aangezochte autoriteit:
 
 a) een gedetailleerde beschrijving van de groep;
+
 b) een toelichting bij de toepasselijke wetgeving en bij de feiten op basis waarvan redelijkerwijze vermoed kan worden dat de belastingplichtigen in de groep de toepasselijke wetgeving niet hebben nageleefd;
 
 c) een toelichting bij de manier waarop de gevraagde inlichtingen zouden bijdragen tot het bepalen van de mate waarin de belastingplichtigen in de groep aan hun verplichtingen voldoen;
@@ -3671,6 +3732,7 @@ België stelt de Commissie jaarlijks in kennis van ten minste twee inkomsten- en
 België stelt de Commissie vóór 1 januari 2026 in kennis van ten minste vijf categorieën die zijn opgenomen in het eerste lid, ten aanzien waarvan de bevoegde autoriteit van elk ander rechtsgebied automatisch inlichtingen verstrekt over ingezetenen van die andere lidstaat. Deze inlichtingen hebben betrekking op belastingtijdvakken die ingaan op of na 1 januari 2026.
 
 De inlichtingen worden ten minste eenmaal per jaar verstrekt, binnen zes maanden na het verstrijken van het kalenderjaar in de loop waarvan de inlichtingen beschikbaar zijn geworden.
+
 "Beschikbare    inlichtingen"   betekent   inlichtingen     die   zich   in   de   belastingdossiers   van   de inlichtingenverstrekkende lidstaat bevinden en die opvraagbaar zijn overeenkomstig de procedures voor het verzamelen en verwerken van inlichtingen in die lidstaat.
 
 § 6/1. In het kader van de verplichte automatische uitwisseling van inlichtingen over grensoverschrijdende voorafgaande fiscale beslissingen, zijn de voorwaarden de volgende:
@@ -3691,6 +3753,7 @@ b) de voorafgaande grensoverschrijdende ruling bepaalt of een persoon al dan nie
 
 Voor de toepassing van punt a), en onverminderd het in de voorafgaande grensoverschrijdende ruling bedoelde bedrag, omvat het bedrag van de voorafgaande grensoverschrijdende ruling bij een reeks transacties met betrekking tot verschillende goederen, diensten of activa, de totale onderliggende waarde.
 De bedragen worden niet geaggregeerd indien dezelfde goederen, diensten of activa meerdere malen worden verhandeld.
+
 Niettegenstaande het bepaalde in punt b), vallen voorafgaande grensoverschrijdende rulings inzake bronbelasting op inkomsten uit arbeid, tantièmes en presentiegelden of pensioenen van niet-ingezetenen niet onder de uitwisseling van inlichtingen over voorafgaande grensoverschrijdende rulings met betrekking tot natuurlijke personen.
 
 4° De uitwisseling van inlichtingen geschiedt als volgt:
@@ -3716,6 +3779,7 @@ f) het type grensoverschrijdende voorafgaande fiscale beslissing;
 g) het bedrag van de verrichting of reeks van verrichtingen van de grensoverschrijdende voorafgaande beslissing, indien vermeld in de grensoverschrijdende voorafgaande fiscale beslissing;
 
 h) in voorkomend geval, de identificatie van de andere lidstaten die mogelijks betrokken zijn bij de grensoverschrijdende voorafgaande fiscale beslissing;
+
 i) rechtspersonen, tenzij de voorafgaande grensoverschrijdende ruling betrekking heeft op een natuurlijke persoon en overeenkomstig de bepalingen 1° en 4° wordt verstrekt, in de andere lidstaten, indien die er zijn, waarop de voorafgaande grensoverschrijdende ruling of de voorafgaande verrekenprijsafspraak naar alle waarschijnlijkheid van invloed zal zijn waarbij vermeld dient te worden met welke lidstaten de getroffen personen verbonden zijn; en
 
 6° Inlichtingen gedefinieerd in de bepaling onder 5°, a), b), en i) van deze paragraaf worden niet medegedeeld aan de Europese Commissie.
@@ -3737,7 +3801,9 @@ De Belgische bevoegde autoriteit controleert en evalueert de efficiëntie van de
 De door de Belgische bevoegde autoriteit uit hoofde van het vorige lid mee te delen gegevens zijn de volgende, voor zover van toepassing:
 
 1° de identificatiegegevens van intermediairs, en relevante belastingplichtigen, bedoeld in artikel 146sexies,
-4° et 5°, met uitzondering van intermediairs die op grond van het juridisch beroepsgeheim van de meldingsplicht vrijgesteld zijn overeenkomstig artikel 146duodecies, met inbegrip van hun naam, geboortedatum en -plaats (in het geval van een natuurlijk persoon), fiscale woonplaats, fiscaal identificatienummer, en, in voorkomend geval, van de personen die overeenkomstig paragraaf 2, 21° een verbonden onderneming vormen met de relevante belastingplichtige;
+4° et 5°, met uitzondering van intermediairs die op grond van het juridisch beroepsgeheim van de
+
+meldingsplicht vrijgesteld zijn overeenkomstig artikel 146duodecies, met inbegrip van hun naam, geboortedatum en -plaats (in het geval van een natuurlijk persoon), fiscale woonplaats, fiscaal identificatienummer, en, in voorkomend geval, van de personen die overeenkomstig paragraaf 2, 21° een verbonden onderneming vormen met de relevante belastingplichtige;
 
 2° nadere bijzonderheden over de wezenskenmerken bedoeld in artikel 146septies op grond waarvan de grensoverschrijdende constructie gemeld moet worden;
 
@@ -3762,6 +3828,7 @@ Voor de belastbare tijdperken die aanvangen op 1 januari 2028 of later, bevat de
 § 7. De Belgische bevoegde autoriteit verstrekt spontaan, in elk van de volgende gevallen, de in de eerste § bedoelde inlichtingen aan de buitenlandse bevoegde autoriteit:
 
 1° de Belgische bevoegde autoriteit heeft redenen om aan te nemen dat in de andere lidstaat een derving van belasting kan bestaan;
+
 2° een belastingplichtige verkrijgt in België een vrijstelling of vermindering van belasting die voor hem een belastingplicht of een hogere belasting in de andere lidstaat zou moeten meebrengen;
 
 3° transacties tussen een belastingplichtige in België en een belastingplichtige in een andere lidstaat worden over één of meer andere landen geleid, op zodanige wijze dat daardoor in één van beide of in beide lidstaten een belastingbesparing kan ontstaan;
@@ -3785,6 +3852,7 @@ De in het eerste lid bedoelde inlichtingen worden door de Belgische bevoegde aut
 3° deelnemen aan de administratieve onderzoeken die worden uitgevoerd op het grondgebied van de andere lidstaat, met gebruikmaking van elektronische communicatiemiddelen, in voorkomend geval.
 
 In de gevallen waarin de door België gemachtigde ambtenaren aanwezig zijn bij de administratieve onderzoeken of eraan deelnemen door middel van elektronische communicatiemiddelen, kunnen zij personen ondervragen en bescheiden onderzoeken, onder voorbehoud van de door de buitenlandse bevoegde autoriteit gedefinieerde proceduremodaliteiten.
+
 § 10. Met het oog op de uitwisseling van de in § 1 bedoelde inlichtingen kan de bevoegde autoriteit van een lidstaat de Belgische bevoegde autoriteit verzoeken dat door eerstgenoemde gemachtigde ambtenaren onder de voorwaarden die zijn vastgesteld door de Belgische bevoegde autoriteit mogen:
 
 1° aanwezig zijn, in België, in de kantoren waar de FOD Financiën zijn taken vervult;
@@ -3808,6 +3876,7 @@ De door de verzoekende lidstaat gemachtigde ambtenaren die overeenkomstig het ee
 De Belgische bevoegde autoriteit bepaalt autonoom welke personen zij voor een gelijktijdige controle wil voorstellen. Zij deelt de buitenlandse bevoegde autoriteit van de betrokken lidstaten met opgave van redenen mee welke dossiers zij voor een gelijktijdige controle voorstelt. Zij bepaalt binnen welke termijn de controle moet plaatsvinden.
 
 Wanneer aan de Belgische bevoegde autoriteit een gelijktijdige controle wordt voorgesteld, beslist zij of ze aan de gelijktijdige controle wenst deel te nemen. Zij doet de buitenlandse bevoegde autoriteit die de controle voorstelt een bevestiging van deelname of een gemotiveerde weigering toekomen binnen een termijn van 60 dagen, te rekenen vanaf de ontvangst van het voorstel.
+
 De Belgische bevoegde autoriteit wijst een vertegenwoordiger aan die wordt belast met de leiding en de coördinatie van de controle.
 
 § 11/1. De bevoegde autoriteit van een of meer lidstaten kan de Belgische bevoegde autoriteit verzoeken een gezamenlijke audit uit te voeren. De Belgische bevoegde autoriteit aanvaardt of weigert het verzoek om een gezamenlijke audit binnen een termijn van 60 dagen, te rekenen vanaf de ontvangst van het verzoek en motiveert haar beslissing ingeval ze het verzoek verwerpt.
@@ -3823,6 +3892,7 @@ Onverminderd het tweede en derde lid en voor de toepassing van de in het eerste 
 Onverminderd het tweede en derde lid en voor de toepassing van de in het eerste lid bedoelde gezamenlijke audits, gerealiseerd op Belgisch grondgebied, genieten personen die aan een gezamenlijke audit worden onderworpen of erdoor worden geraakt, dezelfde rechten en hebben ze dezelfde plichten als in het geval van een klassieke audit waaraan alleen Belgische ambtenaren deelnemen, onder meer in de loop van een bezwaar- , herzienings- of beroepsprocedures.
 
 Indien de Belgische bevoegde autoriteit en de bevoegde autoriteit van een of meer lidstaten een gezamenlijke audit verrichten, trachten zij het eens te worden over de feiten en omstandigheden die relevant zijn voor de gezamenlijke audit, en streven zij naar overeenstemming over de fiscale positie van de geaudite persoon of personen op basis van de resultaten van de gezamenlijke audit. De bevindingen van de gezamenlijke audit worden neergelegd in een eindverslag. Punten waarover de bevoegde autoriteiten het eens zijn, worden in de conclusies van het eindverslag opgenomen en worden in aanmerking genomen in de relevante instrumenten die de bevoegde autoriteiten van de deelnemende lidstaten naar aanleiding van die gezamenlijke audit uitvaardigen.
+
 De geaudite persoon of personen word(t)en in kennis gesteld van het resultaat van de gezamenlijke audit en krijgt/krijgen een kopie van het eindverslag binnen 60 dagen na het uitbrengen van het eindverslag.
 
 § 11/2. De Belgische bevoegde autoriteit kan de bevoegde autoriteit van een andere of meerdere lidstaten verzoeken een gezamenlijke audit uit te voeren.
@@ -3841,7 +3911,9 @@ De geaudite persoon of personen worden in kennis gesteld van het resultaat van d
 
 Het verzoek tot kennisgeving vermeldt de naam en het adres van de geadresseerde, evenals alle overige informatie ter identificatie van de geadresseerde, en het onderwerp van de akte of het besluit waarvan de geadresseerde kennis moet worden gegeven.
 
-Het verzoek tot kennisgeving wordt door de Belgische bevoegde autoriteit slechts gedaan indien de kennisgeving van de akten niet volgens de Belgische regels kan geschieden, of buitensporige problemen zou veroorzaken. De Belgische bevoegde autoriteit kan een document, per aangetekende brief of langs elektronische weg, rechtstreeks ter kennis brengen aan een persoon op het grondgebied van een andere lidstaat.
+Het verzoek tot kennisgeving wordt door de Belgische bevoegde autoriteit slechts gedaan indien de kennisgeving van de akten niet volgens de Belgische regels kan geschieden, of buitensporige problemen zou
+
+veroorzaken. De Belgische bevoegde autoriteit kan een document, per aangetekende brief of langs elektronische weg, rechtstreeks ter kennis brengen aan een persoon op het grondgebied van een andere lidstaat.
 
 § 13. Op verzoek van een buitenlandse bevoegde autoriteit gaat de Belgische bevoegde autoriteit, overeenkomstig de Belgische voorschriften voor de kennisgeving van soortgelijke akten, over tot kennisgeving aan de geadresseerde van alle door de administratieve overheden van de verzoekende lidstaat afgegeven akten en besluiten die betrekking hebben op de toepassing op haar grondgebied van wetgeving betreffende rechten van successie en van overgang bij overlijden.
 
@@ -3861,7 +3933,9 @@ Deze inlichtingen mogen worden gebruikt:
 
 1° door de administratie voor de vaststelling, de toepassing en de handhaving van het nationale recht met betrekking tot de in artikel 2 van de richtlijn bedoelde belastingen, alsmede de btw, andere indirecte belastingen, douanerechten, de bestrijding van het witwassen van geld en van de financiering van terrorisme;
 
-2° voor de vestiging en de invordering van de andere belastingen en rechten met betrekking tot artikel 3 van de wet van 9 januari 2012 houdende omzetting van Richtlijn 2010/24/EU van de Raad van 16 maart 2010 betreffende de wederzijdse bijstand inzake de invordering van schuldvorderingen die voortvloeien uit belastingen, rechten en andere maatregelen, en voor het vestigen en invorderen van de verplichte sociale bijdragen;
+2° voor de vestiging en de invordering van de andere belastingen en rechten met betrekking tot artikel 3 van de wet van 9 januari 2012 houdende omzetting van Richtlijn 2010/24/EU van de Raad van 16 maart 2010 betreffende de wederzijdse bijstand inzake de invordering van schuldvorderingen die voortvloeien uit
+
+belastingen, rechten en andere maatregelen, en voor het vestigen en invorderen van de verplichte sociale bijdragen;
 
 3° ter gelegenheid van gerechtelijke en administratieve procedures die kunnen leiden tot sancties, geheven ten gevolge van inbreuken op de fiscale wetgeving, onverminderd algemene regels en wettelijke bepalingen die de rechten van beklaagden en getuigen in het kader van dergelijke procedures beheersen.
 
@@ -3878,6 +3952,7 @@ De Belgische bevoegde autoriteit deelt aan de bevoegde autoriteiten van alle and
 De Belgische bevoegde autoriteit kan het gebruik overeenkomstig de in § 17, derde lid beoogde doelen van de inlichtingen afkomstig uit België die door een buitenlandse bevoegde autoriteit aan een buitenlandse bevoegde autoriteit van een derde lidstaat werden doorgegeven, in die derde lidstaat toestaan.
 
 § 19. Alvorens om de in § 4 bedoelde inlichtingen te verzoeken, tracht de Belgische bevoegde autoriteit eerst de inlichtingen te verkrijgen uit alle gebruikelijke bronnen die zij in de gegeven omstandigheden kan aanspreken zonder dat het beoogde resultaat in het gedrang dreigt te komen.
+
 De in § 5 bedoelde inlichtingen worden door de Belgische bevoegde autoriteit aan een buitenlandse bevoegde autoriteit verstrekt, op voorwaarde dat de buitenlandse bevoegde autoriteit eerst de inlichtingen tracht te verkrijgen uit alle gebruikelijke bronnen die zij in de gegeven omstandigheden kon aanspreken zonder dat het beoogde resultaat in het gedrang dreigt te komen.
 
 § 20. Het is de Belgische bevoegde autoriteit niet toegelaten onderzoek in te stellen of inlichtingen te verstrekken wanneer de Belgische wetgeving haar niet toestaat voor eigen doeleinden het onderzoek in te stellen of de gevraagde inlichtingen te verzamelen.
@@ -3898,7 +3973,9 @@ Onverminderd het tweede lid kan de Belgische bevoegde autoriteit weigeren de gev
 
 § 22. Indien de Belgische overheid voorziet in een samenwerking met een derde land welke verder reikt dan de bij de richtlijn geregelde samenwerking, kan de Belgische overheid de verderreikende samenwerking niet weigeren aan een andere lidstaat die met haar deze verderreikende, wederzijdse samenwerking wenst aan te gaan.
 
-§ 23. Verzoeken om inlichtingen en de administratieve onderzoeken die zijn ingediend op grond van § 4, alsook de antwoorden op grond van § 5, de ontvangstbevestigingen, de verzoeken om inlichtingen van algemene aard en de verklaringen van ongeschiktheid of weigering krachtens § 5 worden, voor zover mogelijk, overgemaakt door middel van een door de Commissie goedgekeurd standaardformulier. Er mogen rapporten, certificaten en andere bescheiden, of andere voor eensluidend verklaarde afschriften of uittreksels daarvan bij de standaardformulieren gevoegd worden.
+§ 23. Verzoeken om inlichtingen en de administratieve onderzoeken die zijn ingediend op grond van § 4, alsook de antwoorden op grond van § 5, de ontvangstbevestigingen, de verzoeken om inlichtingen van algemene aard en de verklaringen van ongeschiktheid of weigering krachtens § 5 worden, voor zover mogelijk, overgemaakt door middel van een door de Commissie goedgekeurd standaardformulier. Er mogen rapporten, certificaten en
+
+andere bescheiden, of andere voor eensluidend verklaarde afschriften of uittreksels daarvan bij de standaardformulieren gevoegd worden.
 
 De in het eerste lid bedoelde standaardformulieren bevatten ten minste de volgende gegevens, die de verzoekende autoriteit moet verstrekken:
 
@@ -3921,7 +3998,9 @@ Om te voldoen aan de automatische uitwisseling als bedoeld in § 6/1, 1° en 2°
 In afwachting dat dat beveiligd centraal gegevensbestand operationeel wordt, geschiedt de in § 6/1, 1° en
 2°, bedoelde automatische uitwisseling van gegevens, volgens lid 1 van deze paragraaf en de toepasselijke praktische modaliteiten.
 
-§ 25. De Belgische bevoegde autoriteit die van een derde land inlichtingen ontvangt welke naar verwachting van belang zijn voor haar administratie en de handhaving van de Belgische wetgeving betreffende rechten van successie en van overgang bij overlijden, kan deze inlichtingen verstrekken aan de buitenlandse bevoegde autoriteiten van de lidstaten voor wie die inlichtingen van nut kunnen zijn, en aan elke buitenlandse bevoegde autoriteit die erom verzoekt, mits dat krachtens een overeenkomst met dat derde land is toegestaan.
+§ 25. De Belgische bevoegde autoriteit die van een derde land inlichtingen ontvangt welke naar verwachting van belang zijn voor haar administratie en de handhaving van de Belgische wetgeving betreffende rechten van successie en van overgang bij overlijden, kan deze inlichtingen verstrekken aan de buitenlandse bevoegde
+
+autoriteiten van de lidstaten voor wie die inlichtingen van nut kunnen zijn, en aan elke buitenlandse bevoegde autoriteit die erom verzoekt, mits dat krachtens een overeenkomst met dat derde land is toegestaan.
 
 De Belgische bevoegde autoriteit kan, met inachtneming van de wet van 8 december 1992 tot bescherming van de persoonlijke levenssfeer ten opzichte van de verwerking van persoonsgegevens en de wet van 3 augustus 2012 houdende bepalingen betreffende de verwerking van persoonsgegevens door de Federale doorgeven aan een derde land, op voorwaarde dat aan elk van de volgende voorwaarden is voldaan:
 
@@ -3939,7 +4018,9 @@ In geval van gegevensinbreuk, onderzoekt, beperkt en verhelpt de Belgische bevoe
 
 De Belgische bevoegde autoriteit stelt, in geval van een gegevensinbreuk, de Commissie op de hoogte wanneer zij deze inbreuk heeft verholpen. Indien een of meer lidstaten de Commissie verzoeken om gezamenlijk te verifiëren of de gegevensinbreuk is verholpen, geeft de Commissie pas na die verificatie de betrokken lidstaat of lidstaten opnieuw toegang tot het CCN-netwerk voor de toepassing van de richtlijn.
 
-Indien voor de toepassing van deze richtlijn een gegevensinbreuk in het centrale gegevensbestand of het CCNnetwerk plaatsvindt die nadelige gevolgen kan hebben voor de uitwisseling van inlichtingen door de lidstaten via het CCN-netwerk, stelt de Commissie de lidstaten zonder onnodige vertraging in kennis van de gegevensinbreuk en van eventuele corrigerende maatregelen die zijn genomen. Zulke corrigerende maatregelen kunnen inhouden dat de toegang tot het centrale gegevensbestand of het CCN-netwerk voor de toepassing van de richtlijn wordt geschorst totdat de gegevensinbreuk is verholpen.
+Indien voor de toepassing van deze richtlijn een gegevensinbreuk in het centrale gegevensbestand of het CCNnetwerk plaatsvindt die nadelige gevolgen kan hebben voor de uitwisseling van inlichtingen door de lidstaten via het CCN-netwerk, stelt de Commissie de lidstaten zonder onnodige vertraging in kennis van de gegevensinbreuk en van eventuele corrigerende maatregelen die zijn genomen. Zulke corrigerende
+
+maatregelen kunnen inhouden dat de toegang tot het centrale gegevensbestand of het CCN-netwerk voor de toepassing van de richtlijn wordt geschorst totdat de gegevensinbreuk is verholpen.
 
 ##### Art. 146quinquies
 
@@ -3972,6 +4053,7 @@ e) een dergelijke constructie heeft mogelijk gevolgen voor de automatische uitwi
 Een constructie betekent ook een reeks constructies. Een constructie kan uit verscheidene stappen of onderdelen bestaan.
 
 2° "meldingsplichtige grensoverschrijdende constructie": iedere grensoverschrijdende constructie die ten minste één van de in artikel 146septies vermelde wezenskenmerken bezit;
+
 3° "wezenskenmerk": een in artikel 146septies vermelde eigenschap of kenmerk van een grensoverschrijdende constructie die geldt als een indicatie van een mogelijk risico op belastingontwijking;
 
 4° "intermediair": een persoon die een meldingsplichtige grensoverschrijdende constructie bedenkt, aanbiedt, opzet, beschikbaar maakt voor implementatie of de implementatie ervan beheert.
@@ -4022,6 +4104,7 @@ b) de vraag of de constructie daadwerkelijk een belastingvoordeel heeft opgeleve
 3° een constructie waarbij gebruik wordt gemaakt van gestandaardiseerde documenten en/of een gestandaardiseerde structuur en die beschikbaar is voor meer dan een relevante belastingplichtige zonder dat er voor implementatie wezenlijke aanpassingen nodig zijn.
 
 Wordt beschouwd als een specifiek wezenskenmerk van categorie B:
+
 1° een constructie waarbij een deelnemer aan de constructie een reeks geplande stappen onderneemt die erin bestaan een verlieslijdende onderneming te verwerven, de hoofdactiviteit van die onderneming stop te zetten en de verliezen ervan te gebruiken om de door hem verschuldigde belastingen te verminderen, onder meer door overdracht van die verliezen naar een ander rechtsgebied of door een versneld gebruik van die verliezen;
 
 2° een constructie die tot gevolg heeft dat inkomsten worden omgezet in vermogen, schenkingen of andere inkomstencategorieën die lager worden belast of van belasting worden vrijgesteld;
@@ -4052,7 +4135,9 @@ d) de betaling geniet een fiscaal gunstregime in het rechtsgebied waar de ontvan
 
 Wordt beschouwd als een specifiek wezenskenmerk van categorie D:
 
-1° een constructie die kan leiden tot het ondermijnen van de rapportageverplichting uit hoofde van de wetgeving ter omzetting van Uniewetgeving of evenwaardige overeenkomsten inzake de automatische uitwisseling van inlichtingen over financiële rekeningen, waaronder overeenkomsten met derde landen, of die profiteert van het gebrek aan die wetgeving of overeenkomsten. Dergelijke constructies omvatten ten minste het volgende:
+1° een constructie die kan leiden tot het ondermijnen van de rapportageverplichting uit hoofde van de wetgeving ter omzetting van Uniewetgeving of evenwaardige overeenkomsten inzake de automatische uitwisseling van inlichtingen over financiële rekeningen, waaronder overeenkomsten met derde landen, of die
+
+profiteert van het gebrek aan die wetgeving of overeenkomsten. Dergelijke constructies omvatten ten minste het volgende:
 
 a) het gebruik van een rekening, product of belegging die geen financiële rekening is of niet als zodanig te boek staat, maar die over eigenschappen beschikt die in wezen vergelijkbaar zijn met die van een financiële rekening;
 
@@ -4077,6 +4162,7 @@ c) indien de uiteindelijk begunstigden van die personen, juridische constructies
 Wordt beschouwd als een specifiek wezenskenmerk van categorie E:
 
 1° een constructie met gebruik van unilaterale veiligehavenregels;
+
 2° een constructie met overdracht van moeilijk te waarderen immateriële activa. De term "moeilijk te waarderen immateriële activa" omvat immateriële activa of rechten op immateriële activa waarvoor, op het tijdstip van de overdracht ervan tussen verbonden ondernemingen:
 
 a) geen betrouwbare vergelijkbare activa bestaan; en
@@ -4104,6 +4190,7 @@ Onverminderd het eerste lid moeten de intermediairs bedoeld in artikel 146septie
 § 2. Wanneer de intermediair inlichtingen over meldingsplichtige grensoverschrijdende constructies moet verstrekken aan de bevoegde autoriteiten van meer dan één lidstaat dan verstrekt hij deze inlichtingen enkel aan de Belgische bevoegde autoriteit indien België als eerste op de onderstaande, aflopende lijst voorkomt:
 
 1° de lidstaat waar de intermediair fiscaal inwoner is;
+
 2° de lidstaat waar de intermediair een vaste inrichting heeft via welke de diensten met betrekking tot de constructie worden verstrekt;
 
 3° de lidstaat waar de intermediair is opgericht of onder toepassing van de wetten valt;
@@ -4134,7 +4221,9 @@ De intermediair die het uniek referentienummer van de bevoegde instanties ontvan
 
 (van toepassing vanaf 01.07.2020)
 
-(ingevoegd bij art. 40 van de wet van 20.12.2019 (B.S., 30.12.2019). Tekst van toepassing vanaf 01.07.2020 (art. 61, lid 1) en overgangsbepalingen (art. 61, lid 2)) Wanneer meerdere intermediairs betrokken zijn bij dezelfde meldingsplichtige grensoverschrijdende constructie, moeten alle betrokken intermediairs de inlichtingen verstrekken over de meldingsplichtige grensoverschrijdende constructie.
+(ingevoegd bij art. 40 van de wet van 20.12.2019 (B.S., 30.12.2019). Tekst van toepassing vanaf 01.07.2020 (art. 61, lid 1) en overgangsbepalingen (art. 61, lid 2))
+
+Wanneer meerdere intermediairs betrokken zijn bij dezelfde meldingsplichtige grensoverschrijdende constructie, moeten alle betrokken intermediairs de inlichtingen verstrekken over de meldingsplichtige grensoverschrijdende constructie.
 
 Een intermediair wordt ontheven van de verplichting tot het verstrekken van inlichtingen indien hij een schriftelijk bewijs voorlegt dat een andere intermediair de inlichtingen bedoeld in artikel 146quater, § 6/3, tweede lid, reeds heeft verstrekt.
 
@@ -4163,6 +4252,7 @@ Indien de relevante belastingplichtige geen instemming verleent blijft de meldin
 ##### Art. 146terdecies
 
 (van toepassing vanaf 01.07.2020)
+
 (ingevoegd bij art. 42 van de wet van 20.12.2019 (B.S., 30.12.2019). Tekst van toepassing vanaf 01.07.2020 (art. 61, lid 1) en overgangsbepalingen (art. 61, lid 2))
 
 § 1. In de volgende gevallen ligt de meldingsplicht bij de relevante belastingplichtige:
@@ -4190,6 +4280,7 @@ Indien de relevante belastingplichtige geen instemming verleent blijft de meldin
 3° de lidstaat waar de relevante belastingplichtige inkomsten ontvangt of winsten genereert, hoewel de relevante belastingplichtige geen fiscaal inwoner van een lidstaat is noch een vaste inrichting in een lidstaat heeft;
 
 4° de lidstaat waar de relevante belastingplichtige een activiteit uitoefent, hoewel de relevante belastingplichtige geen fiscaal inwoner van een lidstaat is noch een vaste inrichting in een lidstaat heeft.
+
 Wanneer er op grond van het eerste lid een meervoudige meldingsplicht bestaat, wordt de relevante belastingplichtige ontheven van het verstrekken van de inlichtingen als hij een schriftelijk bewijs voorlegt dat dezelfde inlichtingen in een andere lidstaat zijn verstrekt.
 
 ##### Art. 146quaterdecies
@@ -4218,6 +4309,7 @@ Het KB van 03.07.2020 (B.S., 14.07.2020) voorziet dat de Minister van Financiën
 ##### Art. 146sedecies
 
 (van toepassing vanaf 01.07.2020)
+
 (ingevoegd bij art. 45 van de wet van 20.12.2019 (B.S., 30.12.2019). Tekst van toepassing vanaf 01.07.2020 (art. 61, lid 1) en overgangsbepalingen (art. 61, lid 2))
 
 De Koning bepaalt het formulier waarop de intermediair of de relevante belastingplichtige de verplichtingen opgenomen in de artikelen 146sexies tot en met 146quindecies moeten naleven.
@@ -4243,7 +4335,9 @@ De beroepen tot gehele of gedeeltelijke vernietiging van de wet van 20.12.2019 (
 
 (van toepassing vanaf 01.01.2024)
 
-(gewijzigd bij art. 11 van de wet van 28.12.2023 (B.S., 29.12.2023 – ed. 2). Tekst van toepassing vanaf 01.01.2024 (art. 26)) De verenigingen zonder winstoogmerk, de internationale verenigingen zonder winstoogmerk en de private stichtingen, beheerst door het Wetboek van vennootschappen en verenigingen, zijn vanaf 1 januari volgend op de datum van hun oprichting onderworpen aan een jaarlijkse taks tot vergoeding van de successierechten.
+(gewijzigd bij art. 11 van de wet van 28.12.2023 (B.S., 29.12.2023 – ed. 2). Tekst van toepassing vanaf 01.01.2024 (art. 26))
+
+De verenigingen zonder winstoogmerk, de internationale verenigingen zonder winstoogmerk en de private stichtingen, beheerst door het Wetboek van vennootschappen en verenigingen, zijn vanaf 1 januari volgend op de datum van hun oprichting onderworpen aan een jaarlijkse taks tot vergoeding van de successierechten.
 
 ##### Art. 148
 
@@ -4277,7 +4371,9 @@ Zijn van de taks vrijgesteld:
 
 4° de inrichtende machten van het gemeenschapsonderwijs of het gesubsidieerd onderwijs, voor wat betreft de onroerende goederen die uitsluitend bestemd zijn voor onderwijs en de verenigingen zonder winstoogmerk voor patrimoniaal beheer die tot uitsluitend doel hebben onroerende goederen ter beschikking te stellen voor onderwijs dat door de voornoemde inrichtende machten wordt verstrekt.
 
-5° de verenigingen zonder winstoogmerk, private stichtingen of internationale verenigingen zonder winstoogmerk voor patrimoniaal beheer die door de bevoegde overheid zijn erkend als terreinbeherende natuurverenigingen en die tot uitsluitend doel hebben natuurpatrimonium aan te kopen en te beheren in functie van het behoud van het natuurlijk erfgoed van België, en voor zover dit patrimonium als natuurgebied wordt beheerd en, desgevallend begeleid, toegankelijk is voor het publiek.
+5° de verenigingen zonder winstoogmerk, private stichtingen of internationale verenigingen zonder winstoogmerk voor patrimoniaal beheer die door de bevoegde overheid zijn erkend als terreinbeherende natuurverenigingen en die tot uitsluitend doel hebben natuurpatrimonium aan te kopen en te beheren in functie
+
+van het behoud van het natuurlijk erfgoed van België, en voor zover dit patrimonium als natuurgebied wordt beheerd en, desgevallend begeleid, toegankelijk is voor het publiek.
 
 6° de instellingen voor bedrijfspensioenvoorziening die onderworpen zijn aan de vennootschapsbelasting.
 
@@ -4306,6 +4402,7 @@ Daaronder zijn evenwel niet begrepen:
 5° de effecten uitgegeven door vennootschappen waarvan de vereniging of stichting als bezitter-emittent wordt aangemerkt krachtens het Wetboek van vennootschappen en verenigingen of, indien de vennootschap niet door dat Wetboek wordt beheerst, overeenkomstig de bepalingen van het recht dat haar beheerst, op voorwaarde dat de certificaten krachtens artikel 13, § 1, eerste lid, van de wet van 15 juli 1998 betreffende de certificatie van effecten uitgegeven door handelsvennootschappen voor de toepassing van het Wetboek van de Inkomstenbelastingen 1992 gelijkgesteld worden met de effecten waarop ze betrekking hebben;
 
 6° tot beloop van 62,3 percent van hun waarde, de bezittingen van een belastingplichtige die in aanmerking komt voor de in artikel 44, § 2, 1°, 2°, 3°, 4°, a), of 9°, van het Wetboek van de belasting over de toegevoegde waarde bedoelde vrijstelling van de belasting over de toegevoegde waarde en die, voor meer dan de helft van zijn omzet, handelingen verricht die van de belasting op de toegevoegde waarde zijn vrijgesteld op grond van dat artikel;
+
 7° tot beloop van 62,3 percent van hun waarde, de bezittingen van een belastingplichtige waarvan minstens 75 percent van het patrimonium wordt aangewend door een instelling bedoeld in de bepaling onder 6° tot de realisatie van handelingen bedoeld in artikel 44, § 2, 1°, 2°, 3°, 4°, a), of 9°, van het Wetboek van de belasting over de toegevoegde waarde;
 
 8° tot beloop van 62,3 percent van hun waarde, de bezittingen van de maatwerkbedrijven die opgericht of erkend zijn door de bevoegde gewestelijke regering of instelling;
@@ -4332,6 +4429,7 @@ b) de andere medische huizen, geïntegreerde gezondheidsverenigingen en wijkgezo
 Van het in het eerste lid bedoelde geheel van de bezittingen kunnen geen lasten in mindering worden gebracht, met uitzondering van:
 
 1° de nog niet betaalde termijnen van hypothecaire leningen, mits de hypotheek is gevestigd op goederen van de vereniging of stichting en minstens 50 % van de hoofdsom van de lening waarborgt;
+
 2° de door de vereniging of stichting als algemene legataris van een nalatenschap nog uit te voeren legaten van een geldsom.
 
 Op de taks ingesteld bij artikel 147 zijn de bepalingen van boek I betreffende de belastinggrondslag van overeenkomstige toepassing, met uitzondering evenwel van artikel 21, III. Voor financiële instrumenten die toegelaten zijn tot verhandeling op Belgische of buitenlandse gereglementeerde markten als bedoeld in artikel 2, eerste lid, 5° en 6°, van de wet van 2 augustus 2002 betreffende het toezicht op de financiële sector en de financiële diensten en voor Belgische of buitenlandse multilaterale handelsfaciliteiten als bedoeld in artikel 2, eerste lid, 4°, van de voormelde wet, bestaat de belastinggrondslag in de beurswaarde ervan. Onder beurswaarde wordt verstaan de slotkoers van een financieel instrument, zoals die als koersinformatie beschikbaar is in de gespecialiseerde pers of in gespecialiseerde elektronisch raadpleegbare bronnen. De waarden moeten worden aangegeven overeenkomstig de beurswaarde ervan op de eerste openingsdag van de beurs in de maanden januari, februari of maart. Wanneer er op een van die data geen notering is, kunnen de waarden ook worden aangegeven volgens de beurswaarde ervan op de eerstvolgende dag waarop er opnieuw een notering wordt vastgesteld. Indien er op de gekozen datum voor bepaalde van de aan te geven waarden wel en voor andere geen notering is, moeten laatstbedoelde waarden worden aangegeven volgens de beurswaarden op de eerstvolgende dag waarop er wel een notering is. De aangever mag slechts een van de voormelde data kiezen, die zal gelden voor al de aan te geven waarden. De aangever geeft zijn keuze op in de aangifte, waarin hij tevens de door hen geraadpleegde bron voor de opgegeven beurswaarden vermeldt.
@@ -4353,6 +4451,7 @@ De vermindering is onderworpen aan de gelijktijdige neerlegging op het bevoegde 
 2° de kwijting van de buitenlandse belasting, naar behoren gedagtekend;
 
 3° een door de bevoegde vreemde autoriteit gewaarmerkt afschrift van de aangifte die zij ontvangen heeft en van de verevening die zij opgemaakt heeft.
+
 Bij gebreke van gelijktijdige neerlegging kan de vermindering overeenkomstig artikel 135, 2°, worden bekomen.
 
 TOEKOMSTIG RECHT (vanaf 01.01.2028)
@@ -4383,7 +4482,9 @@ De bepalingen van artikelen 42, nummers VI en VII, 43, 45, eerste en tweede lid,
 
 (van toepassing vanaf 08.06.2024)
 
-(lid 2, vervangen bij art. 77 van de wet van 12.05.2024 (B.S., 29.05.2024). Tekst van toepassing vanaf 08.06.2024 (art. -)) De belastingplichtigen dienen uiterlijk op 31 maart van het aanslagjaar, bij het bevoegde kantoor een aangifte in waarin de samenstelling en de waarde van hun bezittingen op de eerste januari van hetzelfde jaar worden opgegeven.
+(lid 2, vervangen bij art. 77 van de wet van 12.05.2024 (B.S., 29.05.2024). Tekst van toepassing vanaf 08.06.2024 (art. -))
+
+De belastingplichtigen dienen uiterlijk op 31 maart van het aanslagjaar, bij het bevoegde kantoor een aangifte in waarin de samenstelling en de waarde van hun bezittingen op de eerste januari van hetzelfde jaar worden opgegeven.
 
 De Koning kan:
 
@@ -4420,6 +4521,7 @@ De taks wordt geheven volgens het tarief in de onderstaande tabel aangeduid:
 - op de schijf van 250.000,01 tot 500.000 euro: 0,30 percent;
 
 - boven 500.000 euro: 0,45 percent.
+
 TOEKOMSTIG RECHT (vanaf 01.01.2028)
 
 ##### Art. 153
@@ -4456,7 +4558,9 @@ Voor de berekening van de interest, wordt artikel 82 toegepast.
 
 (van toepassing vanaf 01.01.1990)
 
-(opgeheven bij art. 226 van de wet van 22.12.1989 (B.S., 29.12.1989). Tekst van toepassing vanaf 01.01.1990 (art. 244)) (…)
+(opgeheven bij art. 226 van de wet van 22.12.1989 (B.S., 29.12.1989). Tekst van toepassing vanaf 01.01.1990 (art. 244))
+
+(…)
 
 ##### Art. 156
 
@@ -4484,9 +4588,11 @@ Voor de berekening van de interest, wordt artikel 82 toegepast.
 
 (gewijzigd bij art. 22 van de wet van 28.12.2023 (B.S., 29.12.2023 – ed. 2). Tekst van toepassing vanaf 01.01.2024 (art. 26))
 
-Ten einde een tekort in de waardering van de in artikel 111 aangeduide goederen aan te tonen, kan de ontvanger een controleschatting vorderen op de wijze en in de vorm voorgeschreven bij de artikelen 112 tot 122.
+Ten einde een tekort in de waardering van de in artikel 111 aangeduide goederen aan te tonen, kan de ontvanger een controleschatting vorderen op de wijze en in de vorm voorgeschreven bij de artikelen 112 tot
+122.
 
 Volgens de gevallen, is de bevoegde rechter of rechtbank deze, binnen wiens ambtsgebied de belastingplichtige haar zetel heeft.
+
 TOEKOMSTIG RECHT (vanaf 01.01.2028)
 
 ##### Art. 158bis
@@ -4521,7 +4627,9 @@ In geval van verzuim van goederen of van te lage waardering vastgesteld in de aa
 
 (van toepassing vanaf 01.01.2024)
 
-(gewijzigd bij art. 24 van de wet van 28.12.2023 (B.S., 29.12.2023 – ed. 2). Tekst van toepassing vanaf 01.01.2024 (art. 26)) Zijn van toepassing, op de bij artikel 147 gevestigde taks, de bepalingen van het eerste boek betreffende de bewijsmiddelen, de verjaringen, de teruggave, de regiekosten, de vervolgingen en gedingen en de correctionele straffen.
+(gewijzigd bij art. 24 van de wet van 28.12.2023 (B.S., 29.12.2023 – ed. 2). Tekst van toepassing vanaf 01.01.2024 (art. 26))
+
+Zijn van toepassing, op de bij artikel 147 gevestigde taks, de bepalingen van het eerste boek betreffende de bewijsmiddelen, de verjaringen, de teruggave, de regiekosten, de vervolgingen en gedingen en de correctionele straffen.
 
 Het maximumbedrag van de tussen een minimumbedrag en een maximumbedrag vast te stellen geldstraffen als bepaald in het eerste boek, wordt voor de toepassing ervan in het kader van dit boek gebracht op 125.000,00 EUR.
 
@@ -4531,7 +4639,8 @@ Het maximumbedrag van de tussen een minimumbedrag en een maximumbedrag vast te s
 
 (lid 2, aangevuld bij art. 78 van de wet van 12.05.2024 (B.S., 29.05.2024). Tekst van toepassing vanaf 08.06.2024 (art. -))
 
-De ambtenaren van de Algemene administratie van de patrimoniumdocumentatie kunnen afschriften van of uittreksels uit de jaarlijkse aangiften afleveren, met inachtneming van de bepalingen van artikelen 143 en 146.
+De ambtenaren van de Algemene administratie van de patrimoniumdocumentatie kunnen afschriften van of uittreksels uit de jaarlijkse aangiften afleveren, met inachtneming van de bepalingen van artikelen 143 en
+146.
 
 De Koning kan:
 
@@ -4552,6 +4661,7 @@ De Koning kan:
 § 1. Dit artikel legt de voorschriften en procedures vast voor de samenwerking tussen België en de andere lidstaten van de Europese Unie met het oog op de uitwisseling van inlichtingen die naar verwachting van belang zijn voor de administratie en de handhaving van de nationale wetgeving van alle lidstaten met betrekking tot de taks tot vergoeding der successierechten.
 
 Dit artikel legt tevens de bepalingen vast voor de elektronische uitwisseling van de in het eerste lid bedoelde inlichtingen.
+
 Dit artikel laat de toepassing van de regels inzake wederzijdse rechtshulp in strafzaken onverlet. Zij laat eveneens onverlet de verplichtingen van de lidstaten inzake ruimere administratieve samenwerking, welke voortvloeien uit andere rechtsinstrumenten, waaronder bilaterale en multilaterale overeenkomsten.
 
 § 2. Voor de toepassing van dit artikel wordt verstaan onder:
@@ -4579,6 +4689,7 @@ Dit artikel laat de toepassing van de regels inzake wederzijdse rechtshulp in st
 11° "automatische uitwisseling":
 
 a) voor de toepassing van §§ 6, eerste lid en 6/1, de systematische mededeling met regelmatige, vooraf vastgestelde tussenpozen, zonder voorafgaand verzoek, van vooraf bepaalde inlichtingen aan een andere lidstaat;
+
 b) voor de toepassing van alle andere bepalingen van dit artikel, andere dan deze van voormelde §§ 6, eerste lid, en 6/1, de systematische mededeling van vooraf bepaalde inlichtingen, verstrekt overeenkomstig punt a);
 
 12° "spontane uitwisseling": het niet-systematisch, te eniger tijd en ongevraagd verstrekken van inlichtingen aan een andere lidstaat;
@@ -4608,6 +4719,7 @@ c) betreft de interpretatie of toepassing van een wettelijke of administratieve 
 d) heeft betrekking op een grensoverschrijdende verrichting en
 
 e) is tot stand gekomen voorafgaand aan de indiening van een belastingaangifte voor het tijdvak waarin de verrichting of reeks verrichtingen of de activiteiten hebben plaatsgevonden.
+
 17° ″grensoverschrijdende verrichting″ als vermeld in de bepaling onder 16°: een verrichting of reeks van verrichtingen die voldoen aan een of meer van de volgende voorwaarden:
 
 a) waarbij niet alle partijen betrokken bij de verrichting of reeks van verrichtingen fiscaal inwoner zijn van België dat de grensoverschrijdende voorafgaande beslissing heeft verstrekt, gewijzigd of hernieuwd;
@@ -4633,6 +4745,7 @@ Op specifiek verzoek van de verzoekende autoriteit verstrekt de Belgische bevoeg
 De inlichtingen worden door de Belgische bevoegde autoriteit zo spoedig mogelijk, doch uiterlijk zes maanden na de datum van ontvangst van het verzoek verstrekt. Indien de Belgische bevoegde autoriteit evenwel de inlichtingen al in haar bezit heeft, verstrekt zij deze binnen twee maanden. In bijzondere gevallen kunnen de Belgische bevoegde autoriteit en de verzoekende autoriteit een andere termijn overeenkomen.
 
 De ontvangst van het verzoek wordt door de Belgische bevoegde autoriteit aan de verzoekende autoriteit onmiddellijk, en in elk geval uiterlijk zeven werkdagen na ontvangst, indien mogelijk langs elektronische weg, bevestigd.
+
 De Belgische bevoegde autoriteit laat in voorkomend geval, uiterlijk een maand na ontvangst van het verzoek, aan de verzoekende autoriteit weten welke tekortkomingen het verzoek vertoont en preciseert welke aanvullende achtergrondinformatie zij verlangt. In dit geval gaan de in het vijfde lid gestelde termijnen in op de datum waarop de Belgische bevoegde autoriteit de aanvullende informatie ontvangt.
 
 Indien de Belgische bevoegde autoriteit niet binnen de gestelde termijn aan het verzoek kan voldoen, deelt zij de redenen hiervoor onmiddellijk, en in elk geval uiterlijk drie maanden na ontvangst van het verzoek, aan de verzoekende autoriteit mee, met vermelding van de datum waarop zij meent aan het verzoek te kunnen voldoen.
@@ -4658,6 +4771,7 @@ De inlichtingen worden ten minste eenmaal per jaar verstrekt, binnen zes maanden
 § 6/1. In het kader van de verplichte automatische uitwisseling van inlichtingen over grensoverschrijdende voorafgaande fiscale beslissingen, zijn de voorwaarden de volgende:
 
 1° uitgezonderd in de gevallen bedoeld in de bepaling onder 6° van deze paragraaf, verstrekt de Belgische bevoegde autoriteit automatisch inlichtingen aan de bevoegde autoriteiten van alle andere lidstaten en de Europese Commissie, zulks overeenkomstig de volgens § 24 vastgestelde van toepassing zijnde praktische modaliteiten wanneer een grensoverschrijdende voorafgaande fiscale beslissing werd verstrekt, gewijzigd of hernieuwd na 31 december 2016.
+
 2° de Belgische bevoegde autoriteit verstrekt eveneens, overeenkomstig de volgens § 24 vastgestelde van toepassing zijnde praktische modaliteiten, aan de bevoegde autoriteiten van alle andere lidstaten, evenals aan de Europese Commissie, de inlichtingen over grensoverschrijdende voorafgaande fiscale beslissingen die zijn verstrekt, gewijzigd of hernieuwd binnen de periode beginnend vijf jaar vóór 1 januari 2017, met uitzondering van de gevallen bedoeld in de bepaling onder 6° van deze paragraaf.
 
 Indien de grensoverschrijdende voorafgaande fiscale beslissingen werden verstrekt, gewijzigd of hernieuwd tussen 1 januari 2012 en 31 december 2013, worden deze inlichtingen verstrekt op voorwaarde dat die grensoverschrijdende voorafgaande fiscale beslissingen nog geldig waren op 1 januari 2014.
@@ -4683,6 +4797,7 @@ c) de data van de aflevering, wijziging of hernieuwing van de grensoverschrijden
 d) de aanvangsdatum van de geldigheidsperiode van de grensoverschrijdende voorafgaande fiscale beslissing, indien vermeld;
 
 e) de einddatum van de geldigheidsperiode van de grensoverschrijdende voorafgaande fiscale beslissing, indien vermeld;
+
 f) het type grensoverschrijdende voorafgaande fiscale beslissing;
 
 g) het bedrag van de verrichting of reeks van verrichtingen van de grensoverschrijdende voorafgaande fiscale beslissing, indien vermeld in de grensoverschrijdende voorafgaande fiscale beslissing;
@@ -4708,6 +4823,7 @@ i) in voorkomend geval, de identificatie van personen in de andere lidstaten die
 3° transacties tussen een belastingplichtige in België en een belastingplichtige in een andere lidstaat worden over één of meer andere landen geleid, op zodanige wijze dat daardoor in één van beide of in beide lidstaten een belastingbesparing kan ontstaan;
 
 4° de Belgische bevoegde autoriteit heeft redenen om aan te nemen dat er belastingbesparing kan ontstaan door een kunstmatige verschuiving van winsten binnen een groep van ondernemingen;
+
 5° de aan de Belgische bevoegde autoriteit verstrekte inlichtingen door een buitenlandse bevoegde autoriteit, hebben informatie opgeleverd die voor de vaststelling van de belastingschuld in die andere lidstaat toereikend, ter zake dienend en niet overmatig is.
 
 De Belgische bevoegde autoriteit kan een buitenlandse bevoegde autoriteit spontaan alle inlichtingen meedelen waarvan zij kennis heeft en die voor deze buitenlandse bevoegde autoriteit toereikend, ter zake dienend en niet overmatig zijn.
@@ -4733,6 +4849,7 @@ Indien de verlangde inlichtingen vermeld staan in bescheiden waartoe de ambtenar
 Op grond van de in het eerste lid bedoelde overeenkomst, mogen de bij een administratief onderzoek aanwezige ambtenaren van de verzoekende autoriteit in België geen personen ondervragen en geen bescheiden onderzoeken.
 
 De door de verzoekende lidstaat gemachtigde ambtenaren die overeenkomstig het eerste lid in België aanwezig zijn, moeten te allen tijde een schriftelijke opdracht kunnen overleggen waaruit hun identiteit en hun officiële hoedanigheid blijken.
+
 § 11. In de gevallen waarin België met één of meer lidstaten overeenkomt om gelijktijdig, elk op het eigen grondgebied, bij een of meer personen te wier aanzien zij een gezamenlijk of complementair belang hebben, controles te verrichten en de aldus verkregen inlichtingen uit te wisselen, is deze § van toepassing.
 
 De Belgische bevoegde autoriteit bepaalt autonoom welke personen zij voor een gelijktijdige controle wil voorstellen. Zij deelt de buitenlandse bevoegde autoriteit van de betrokken lidstaten met opgave van redenen mee welke dossiers zij voor een gelijktijdige controle voorstelt. Zij bepaalt binnen welke termijn de controle moet plaatsvinden.
@@ -4751,7 +4868,9 @@ Het verzoek tot kennisgeving wordt door de Belgische bevoegde autoriteit slechts
 
 De Belgische bevoegde autoriteit stelt de verzoekende autoriteit onverwijld in kennis van het aan het verzoek gegeven gevolg en, in het bijzonder, van de datum waarop de akte of het besluit aan de geadresseerde ter kennis is gebracht.
 
-§ 14. Indien een buitenlandse bevoegde autoriteit inlichtingen overeenkomstig §§ 4 of 8 heeft verstrekt en terugmelding betreffende de ontvangen inlichtingen verzoekt, doet de ontvangende Belgische bevoegde autoriteit, zonder afbreuk te doen aan de Belgische voorschriften inzake beroepsgeheim en gegevensbescherming, zo spoedig mogelijk, doch uiterlijk drie maanden nadat het resultaat van het gebruik van de verlangde inlichtingen bekend is, een terugmelding aan de buitenlandse bevoegde autoriteit die de inlichtingen heeft verzonden.
+§ 14. Indien een buitenlandse bevoegde autoriteit inlichtingen overeenkomstig §§ 4 of 8 heeft verstrekt en terugmelding betreffende de ontvangen inlichtingen verzoekt, doet de ontvangende Belgische bevoegde autoriteit, zonder afbreuk te doen aan de Belgische voorschriften inzake beroepsgeheim en
+
+gegevensbescherming, zo spoedig mogelijk, doch uiterlijk drie maanden nadat het resultaat van het gebruik van de verlangde inlichtingen bekend is, een terugmelding aan de buitenlandse bevoegde autoriteit die de inlichtingen heeft verzonden.
 
 De Belgische bevoegde autoriteit doet eenmaal per jaar, overeenkomstig bilateraal overeengekomen praktische afspraken, een terugmelding over de automatische inlichtingenuitwisseling naar de betrokken lidstaten.
 
@@ -4771,7 +4890,9 @@ Deze inlichtingen kunnen worden gebruikt:
 
 Mits toestemming van de buitenlandse bevoegde autoriteit die de inlichtingen overeenkomstig de richtlijn heeft verstrekt en voor zover het in België wettelijk is toegestaan, kunnen de inlichtingen en bescheiden ontvangen van deze autoriteit voor andere dan de in het tweede lid bedoelde doeleinden worden gebruikt.
 
-Wanneer de Belgische bevoegde autoriteit van oordeel is dat de van een buitenlandse bevoegde autoriteit verkregen inlichtingen de buitenlandse bevoegde autoriteit van een derde lidstaat van nut kunnen zijn voor de in het tweede lid beoogde doelen, stelt zij de bevoegde autoriteit van de inlichtingenverstrekkende lidstaat in kennis van haar voornemen om die inlichtingen met een derde lidstaat te delen. Indien de bevoegde autoriteit van de inlichtingenverstrekkende lidstaat zich niet binnen tien werkdagen na de datum van ontvangst van de kennisgeving verzet heeft tegen die inlichtingenuitwisseling, geeft de Belgische bevoegde autoriteit de inlichtingen door aan de buitenlandse bevoegde autoriteit van de derde lidstaat, op voorwaarde dat dit in overeenstemming is met de in dit artikel vastgelegde voorschriften en procedures.
+Wanneer de Belgische bevoegde autoriteit van oordeel is dat de van een buitenlandse bevoegde autoriteit verkregen inlichtingen de buitenlandse bevoegde autoriteit van een derde lidstaat van nut kunnen zijn voor de in het tweede lid beoogde doelen, stelt zij de bevoegde autoriteit van de inlichtingenverstrekkende lidstaat
+
+in kennis van haar voornemen om die inlichtingen met een derde lidstaat te delen. Indien de bevoegde autoriteit van de inlichtingenverstrekkende lidstaat zich niet binnen tien werkdagen na de datum van ontvangst van de kennisgeving verzet heeft tegen die inlichtingenuitwisseling, geeft de Belgische bevoegde autoriteit de inlichtingen door aan de buitenlandse bevoegde autoriteit van de derde lidstaat, op voorwaarde dat dit in overeenstemming is met de in dit artikel vastgelegde voorschriften en procedures.
 
 Indien de Belgische bevoegde autoriteit van oordeel is dat de door een buitenlandse bevoegde autoriteit doorgegeven inlichtingen gebruikt kunnen worden overeenkomstig de in het derde lid beoogde doelen, vraagt zij hiervoor toestemming aan de bevoegde autoriteit van de lidstaat waarvan de inlichtingen afkomstig zijn.
 
@@ -4788,6 +4909,7 @@ De Belgische bevoegde autoriteit kan het gebruik overeenkomstig de in § 17, der
 De in § 5 bedoelde inlichtingen worden door de Belgische bevoegde autoriteit aan een buitenlandse bevoegde autoriteit verstrekt, op voorwaarde dat de buitenlandse bevoegde autoriteit eerst de inlichtingen tracht te verkrijgen uit alle gebruikelijke bronnen die zij in de gegeven omstandigheden kon aanspreken zonder dat het beoogde resultaat in het gedrang dreigt te komen.
 
 § 20. Het is de Belgische bevoegde autoriteit niet toegelaten onderzoek in te stellen of inlichtingen te verstrekken wanneer de Belgische wetgeving haar niet toestaat voor eigen doeleinden het onderzoek in te stellen of de gevraagde inlichtingen te verzamelen.
+
 De Belgische bevoegde autoriteit kan weigeren inlichtingen te verstrekken indien:
 
 1° de verzoekende lidstaat, op juridische gronden, soortgelijke inlichtingen niet kan verstrekken;
@@ -4812,6 +4934,7 @@ Het in het eerste lid bedoelde standaardformulier bevat tenminste de volgende do
 a) de identiteit van de persoon naar wie het onderzoek of de controle is ingesteld;
 
 b) het fiscale doel waarvoor de informatie wordt opgevraagd.
+
 De Belgische bevoegde autoriteit kan namen en adressen van personen die worden verondersteld in het bezit te zijn van de verlangde informatie, alsook andere elementen die het verzamelen van de informatie door de aangezochte autoriteit vereenvoudigen, doorgeven, voor zover deze bekend zijn en deze praktijk aansluit bij internationale ontwikkelingen.
 
 Voor de spontane uitwisseling van inlichtingen en de desbetreffende ontvangstbevestiging, op grond van respectievelijk de §§ 7 en 8, het in de §§ 12 en 13 bedoelde verzoek tot administratieve kennisgeving, en de in de §§ 14 en 15 bedoelde terugmelding, wordt gebruik gemaakt van het door de Commissie vastgestelde standaardformulier.
@@ -4830,6 +4953,7 @@ In afwachting dat dat beveiligd centraal gegevensbestand operationeel wordt, ges
 § 25. De Belgische bevoegde autoriteit die van een derde land inlichtingen ontvangt welke naar verwachting van belang zijn voor haar administratie en de handhaving van de Belgische wetgeving betreffende de taks tot vergoeding der successierechten, kan deze inlichtingen verstrekken aan de buitenlandse bevoegde autoriteiten van de lidstaten voor wie die inlichtingen van nut kunnen zijn, en aan elke buitenlandse bevoegde autoriteit die erom verzoekt, mits dat krachtens een overeenkomst met dat derde land is toegestaan.
 
 De Belgische bevoegde autoriteit kan, met inachtneming van de wet van 8 december 1992 tot bescherming van de persoonlijke levenssfeer ten opzichte van de verwerking van persoonsgegevens en de wet van 3 augustus 2012 houdende bepalingen betreffende de verwerking van persoonsgegevens door de Federale voorwaarden is voldaan:
+
 a) de buitenlandse bevoegde autoriteit van de lidstaat waaruit de inlichtingen afkomstig zijn, heeft daarin toegestemd;
 
 b) het derde land heeft zich ertoe verbonden de medewerking te verlenen die nodig is om bewijsmateriaal bijeen te brengen omtrent het ongeoorloofde of onwettige karakter van verrichtingen die blijken in strijd te zijn met of een misbruik te vormen van de belastingwetgeving.
@@ -4869,6 +4993,7 @@ b) het derde land heeft zich ertoe verbonden de medewerking te verlenen die nodi
 ##### Art. 161quater
 
 (van toepassing vanaf 01.01.2020)
+
 (opgeheven bij art. 109 van de wet van 13.04.2019 (B.S., 30.04.2019 - ed. 1). Tekst van toepassing vanaf 01.01.2020 (art.
 139, lid 1))
 
@@ -4913,6 +5038,7 @@ b) het derde land heeft zich ertoe verbonden de medewerking te verlenen die nodi
 ##### Art. 161nonies
 
 (van toepassing vanaf 01.01.2020)
+
 (opgeheven bij art. 109 van de wet van 13.04.2019 (B.S., 30.04.2019 - ed. 1). Tekst van toepassing vanaf 01.01.2020 (art.
 139, lid 1))
 
@@ -4949,6 +5075,7 @@ TOEKOMSTIG RECHT (vanaf 01.01.2028)
 (hersteld bij art. 119 van de wet van 12.05.2024 (B.S., 30.05.2024 – ed. 2). Tekst van toepassing voor alle of bepaalde categorieën van houders van een ondernemingsnummer, evenals voor natuurlijke personen, op een datum respectievelijk te bepalen door de Koning, en ten laatste op 01.01.2028 (art. 222))
 
 Voor de toepassing van de bepalingen van dit Wetboek, van de bijzondere wetsbepalingen op het stuk van de successierechten of van de tot uitvoering ervan genomen besluiten, wordt verstaan onder:
+
 1° aangetekende zending: hetzij de briefwisseling, al dan niet vergezeld van een ontvangstbevestiging, neergelegd bij de aanbieder van de universele postdienst, een aanbieder van postdiensten of een gekwalificeerde verlener van vertrouwensdiensten die voldoet aan de vereisten van artikel 44 van Verordening (EU) nr. 910 /2014 van het Europees Parlement en de Raad van 23 juli 2014 betreffende elektronische identificatie en vertrouwensdiensten voor elektronische transacties binnen de interne markt en tot intrekking van Richtlijn 1999/93/CE, en al dan niet elektronisch verzonden door een van hen naar een vooraf aangewezen ontvanger, die toelaat om de datum van verzending en ontvangst van de briefwisseling door de bestemmeling aan te tonen, hetzij het bericht dat door de Federale Overheidsdienst Financiën is verzonden in het kader van de uitoefening van haar taak van openbare dienst door middel van de dienst voor het versturen en ontvangen van elektronische berichten door bepaalde overheidsdiensten aangeboden aan de natuurlijke personen of hun vertegenwoordigers door de Federale Overheidsdienst belast met de Digitale Agenda en aan houders van een ondernemingsnummer zoals gedefinieerd in artikel III.16 van het Wetboek van economisch recht of aan hun vertegenwoordigers door de Rijksdienst voor Sociale Zekerheid;
 
 2° beveiligd elektronisch platform: elke computertoepassing ter beschikking gesteld door de Federale derden elektronische diensten aanbiedt om elektronische berichten uit te wisselen met de Federale toepassing van hoofdstuk 4 van de wet van 18 juli 2017 inzake elektronische identificatie door middel van een stelsel voor elektronische identificatie zoals bedoeld in art. 8., 2., van Verordening (EU) nr. 910/2014 van het Europees Parlement en de Raad van 23 juli 2014 betreffende elektronische identificatie en vertrouwensdiensten voor elektronische transacties in de interne markt en tot intrekking van Richtlijn (EG) 1999/93, dat ten minste een substantieel veiligheidsniveau in de zin van artikel 8., 2., b) van bovengenoemde Verordening inzake de integriteit van de inhoud, de tijdsaanduiding, en zo ook de bewaring van het verzonden bericht garandeert;
@@ -4966,6 +5093,7 @@ Voor de toepassing van de bepalingen van dit Wetboek, van de bijzondere wetsbepa
 (opgeheven bij art. 95 van de wet van 21.12.2013 (B.S., 31.12.2013 – ed. 2). Tekst van toepassing vanaf 01.01.2011 (art. 95))
 
 (…) (1)
+
 (1) De bepalingen van boek III blijven echter van toepassing voor de taksen geheven tot 31.12.2010 (art. 95).
 
 TOEKOMSTIG RECHT (vanaf 01.01.2028)
@@ -4989,6 +5117,7 @@ De Koning bepaalt de toepassingsmodaliteiten van de uitwisselingsprocedure van b
 Bij het ontbreken van een uitdrukkelijke verklaring overeenkomstig het eerste lid, wordt elk bericht onder gesloten omslag verzonden.
 
 Wanneer het bericht van de Federale Overheidsdienst Financiën aan een burger, natuurlijke persoon, betrekking heeft op meerdere burgers en niet al deze burgers expliciet gekozen hebben om langs elektronische weg met de Federale Overheidsdienst Financiën te communiceren, wordt het bericht altijd onder gesloten omslag verzonden naar al deze burgers.
+
 § 3. De keuze van een natuurlijke persoon die geen houder is van een ondernemingsnummer om langs elektronische weg met de Federale Overheidsdienst Financiën te communiceren gebeurt door de uitdrukkelijke en voorafgaande aanvaarding van het elektronische communicatieproces met de Federale uitdrukkelijke toestemming moet vrij, weloverwogen en ondubbelzinnig zijn. De natuurlijk persoon die geen houder is van een ondernemingsnummer kan zijn instemming op elk moment intrekken. Het bericht zal dan voor de toekomst onder gesloten omslag worden verstuurd en deze intrekking van toestemming zal onmiddellijk van kracht worden.
 
 ##### Art. 162ter
@@ -5016,7 +5145,9 @@ Behoudens indien de wettelijke of reglementaire bepalingen anders bepalen, wordt
 
 (van toepassing vanaf 01.01.2011)
 
-(opgeheven bij art. 95 van de wet van 21.12.2013 (B.S., 31.12.2013 – ed. 2). Tekst van toepassing vanaf 01.01.2011 (art. 95)) (…) (1)
+(opgeheven bij art. 95 van de wet van 21.12.2013 (B.S., 31.12.2013 – ed. 2). Tekst van toepassing vanaf 01.01.2011 (art. 95))
+
+(…) (1)
 (1) De bepalingen van boek III blijven echter van toepassing voor de taksen geheven tot 31.12.2010 (art. 95).
 
 TOEKOMSTIG RECHT (vanaf 01.01.2028)
@@ -5047,6 +5178,7 @@ TOEKOMSTIG RECHT (vanaf 01.01.2028)
 (van toepassing vanaf 01.01.2028)
 
 (hersteld bij art. 123 van de wet van 12.05.2024 (B.S., 30.05.2024 – ed. 2). Tekst van toepassing voor alle of bepaalde categorieën van houders van een ondernemingsnummer, evenals voor natuurlijke personen, op een datum respectievelijk te bepalen door de Koning, en ten laatste op 01.01.2028 (art. 222))
+
 § 1. Behoudens indien de wettelijke of reglementaire bepalingen anders bepalen, wordt elk bericht door een persoon verzonden door middel van een beveiligd elektronisch platform, onmiddellijk ter beschikking gesteld op het beveiligd elektronisch platform van de Federale Overheidsdienst Financiën. De datum van de terbeschikkingstelling geldt als datum van de ontvangst van het bericht door de Federale Overheidsdienst Financiën.
 
 Elk bericht door de Federale Overheidsdienst Financiën verzonden door middel van een beveiligd elektronisch platform bevat in het opschrift van het bericht op het beveiligd elektronisch platform van de Federale
@@ -5071,6 +5203,7 @@ TOEKOMSTIG RECHT (vanaf 01.01.2028)
 ##### Art. 162septies
 
 (van toepassing vanaf 01.01.2028)
+
 (hersteld bij art. 124 van de wet van 12.05.2024 (B.S., 30.05.2024 – ed. 2). Tekst van toepassing voor alle of bepaalde categorieën van houders van een ondernemingsnummer, evenals voor natuurlijke personen, op een datum respectievelijk te bepalen door de Koning, en ten laatste op 01.01.2028 (art. 222))
 
 De rechtsgevolgen van een bericht verzonden door middel van een beveiligd elektronisch platform of onder gesloten omslag zijn dezelfde.
@@ -5100,7 +5233,9 @@ Wanneer een document elektronisch wordt ondertekend door middel van het stelsel 
 
 (van toepassing vanaf 01.01.2011)
 
-(opgeheven bij art. 95 van de wet van 21.12.2013 (B.S., 31.12.2013 – ed. 2). Tekst van toepassing vanaf 01.01.2011 (art. 95)) (…) (1)
+(opgeheven bij art. 95 van de wet van 21.12.2013 (B.S., 31.12.2013 – ed. 2). Tekst van toepassing vanaf 01.01.2011 (art. 95))
+
+(…) (1)
 (1) De bepalingen van boek III blijven echter van toepassing voor de taksen geheven tot 31.12.2010 (art. 95).
 
 ##### Art. 162nonies
@@ -5134,6 +5269,7 @@ Wanneer een document elektronisch wordt ondertekend door middel van het stelsel 
 (…)
 
 (…) (van toepassing vanaf 01.03.2021)
+
 (opgeheven bij art. 25 van de wet van 07.02.2021 (B.S., 19.02.2021). Tekst van toepassing vanaf 01.03.2021 (art. -))
 
 Eerste afdeling - (…) (van toepassing vanaf 01.03.2021)
@@ -5176,7 +5312,9 @@ Eerste afdeling - (…) (van toepassing vanaf 01.03.2021)
 
 (van toepassing vanaf 01.03.2021)
 
-(opgeheven bij art. 25 van de wet van 07.02.2021 (B.S., 19.02.2021). Tekst van toepassing vanaf 01.03.2021 (art. -)) (…)
+(opgeheven bij art. 25 van de wet van 07.02.2021 (B.S., 19.02.2021). Tekst van toepassing vanaf 01.03.2021 (art. -))
+
+(…)
 
 ##### Art. 169
 
@@ -5222,7 +5360,9 @@ Eerste afdeling - (…) (van toepassing vanaf 01.03.2021)
 
 (van toepassing vanaf 01.03.2021)
 
-(opgeheven bij art. 25 van de wet van 07.02.2021 (B.S., 19.02.2021). Tekst van toepassing vanaf 01.03.2021 (art. -)) (…)
+(opgeheven bij art. 25 van de wet van 07.02.2021 (B.S., 19.02.2021). Tekst van toepassing vanaf 01.03.2021 (art. -))
+
+(…)
 
 ##### Art. 175
 
@@ -5264,7 +5404,9 @@ Eerste afdeling - (…) (van toepassing vanaf 01.03.2021)
 
 (van toepassing vanaf 01.03.2021)
 
-(opgeheven bij art. 25 van de wet van 07.02.2021 (B.S., 19.02.2021). Tekst van toepassing vanaf 01.03.2021 (art. -)) (…)
+(opgeheven bij art. 25 van de wet van 07.02.2021 (B.S., 19.02.2021). Tekst van toepassing vanaf 01.03.2021 (art. -))
+
+(…)
 
 ##### Art. 180
 

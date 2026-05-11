@@ -1,47 +1,57 @@
 ---
-tags: [VI.C, '2.4']
-itaa-lex-sectie: VI.C
-wet: M.B. nr. 12 van 28 augustus 1973, met betrekking tot de automatische weegtoestellen te gebruiken in slachthuizen voor de toepassing van de belasting over de toegevoegde waarde
-bron_rol: itaa_lex
-status: beschikbaar
 bijgewerkt: 28.08.1973
 bron: Afgesplitst uit Fisconet-compilatie (pdftotext_compilatie_btw)
+bron_rol: itaa_lex
 chunk:
   level: 2
+  sub_strategy: null
   type: Art.
-  sub_strategy:
+itaa-lex-sectie: VI.C
 provenance:
+  generated_at: '2026-05-11T16:21:51Z'
   inputs:
-    - id: resources/raw/wetteksten/btw-kbs/WBTW-MB-compilatie.pdf
-      sha256: e2e322b0d748d0314e5f16d11a0aac6c964d684451d00738c9352b4f32f9171c
-      version: 29.04.2024
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 7a134f4
-    model:
-    prompt_version:
-  generated_at: '2026-05-09T16:15:20Z'
+  - id: resources/raw/wetteksten/btw-kbs/WBTW-MB-compilatie.pdf
+    sha256: e2e322b0d748d0314e5f16d11a0aac6c964d684451d00738c9352b4f32f9171c
+    version: 29.04.2024
   stale: false
-  stale_reason:
+  stale_reason: null
+  tooling:
+    model: null
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version: null
   trust:
-    status: trusted
     confirmed_at: '2026-05-11T11:46:29Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: 'MB met volledige technische inhoud (weegtoestellen-specificaties). Art. 1 en Art. 2 staan correct als ## headings op regels 60 en 84. Genummerde opsomming (1°–8°) consistent in Belgische wetstijl. Geen PDF-artefacten, geen kolom-bleed, geen scrambled text. Laag-1 pass.'
     layer1:
-      status: pass
-      run_id: 20260511-134044
-      run_at: '2026-05-11T13:40:48Z'
-      heading_count: 2
-      max_section_chars: 1597
       file_size_chars: 2218
       flags: []
+      heading_count: 2
+      max_section_chars: 1597
+      run_at: '2026-05-11T13:40:48Z'
+      run_id: 20260511-134044
+      status: pass
     layer2:
-      status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T11:46:29Z'
-      rationale: 'MB met volledige technische inhoud (weegtoestellen-specificaties). Art. 1 en Art. 2 staan correct als ## headings op regels 60 en 84. Genummerde opsomming (1°–8°) consistent in Belgische wetstijl. Geen PDF-artefacten, geen kolom-bleed, geen scrambled text. Laag-1 pass.'
       concrete_problemen: []
+      rationale: 'MB met volledige technische inhoud (weegtoestellen-specificaties).
+        Art. 1 en Art. 2 staan correct als ## headings op regels 60 en 84. Genummerde
+        opsomming (1°–8°) consistent in Belgische wetstijl. Geen PDF-artefacten, geen
+        kolom-bleed, geen scrambled text. Laag-1 pass.'
+      run_at: '2026-05-11T11:46:29Z'
+      status: trusted
+    rationale: 'MB met volledige technische inhoud (weegtoestellen-specificaties).
+      Art. 1 en Art. 2 staan correct als ## headings op regels 60 en 84. Genummerde
+      opsomming (1°–8°) consistent in Belgische wetstijl. Geen PDF-artefacten, geen
+      kolom-bleed, geen scrambled text. Laag-1 pass.'
+    status: trusted
+status: beschikbaar
+tags:
+- VI.C
+- '2.4'
+wet: M.B. nr. 12 van 28 augustus 1973, met betrekking tot de automatische weegtoestellen
+  te gebruiken in slachthuizen voor de toepassing van de belasting over de toegevoegde
+  waarde
 ---
 
 # M.B. nr. 12 van 28 augustus 1973, met betrekking tot de automatische weegtoestellen te gebruiken in slachthuizen voor de toepassing van de belasting over de toegevoegde waarde

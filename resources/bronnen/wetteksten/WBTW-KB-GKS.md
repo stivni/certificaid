@@ -4,47 +4,47 @@ bron: Fisconetplus.be (officieuze gecoördineerde versie)
 bron_rol: itaa_lex
 chunk:
   level: 2
-  sub_strategy:
+  sub_strategy: null
   type: Art.
 itaa-lex-sectie: VI.B
 provenance:
-  generated_at: '2026-05-11T13:40:00Z'
+  generated_at: '2026-05-11T16:21:50Z'
   inputs:
-    - id: resources/raw/wetteksten/btw-kbs/WBTW-KB-GKS.pdf
-      sha256: da9aaad56c0edfe76ed480b9a7332ba627aeedb8cbe72c3f3fc83d074d9b459a
-      version: '2024'
+  - id: resources/raw/wetteksten/btw-kbs/WBTW-KB-GKS.pdf
+    sha256: da9aaad56c0edfe76ed480b9a7332ba627aeedb8cbe72c3f3fc83d074d9b459a
+    version: '2024'
   stale: false
-  stale_reason:
+  stale_reason: null
   tooling:
-    model:
+    model: null
     pipeline: tools/etl/convert.py
-    pipeline_version: 7a134f4
-    prompt_version:
+    pipeline_version: 11f9196
+    prompt_version: null
   trust:
-    confirmed_at: '2026-05-09T21:27:46Z'
-    confirmed_by: subagent-sonnet-4-6
+    confirmed_at: null
+    confirmed_by: null
     layer1:
-      status: pass
-      run_id: 20260511-134044
-      run_at: '2026-05-11T13:40:47Z'
-      heading_count: 6
-      max_section_chars: 2847
       file_size_chars: 7558
       flags: []
+      heading_count: 6
+      max_section_chars: 2847
+      run_at: '2026-05-11T13:40:47Z'
+      run_id: 20260511-134044
+      status: pass
     layer2:
-      agent:
-      concrete_problemen:
-        - '## Art. 2.Het — heading bevat eerste woord van body'
-      rationale: 'Kleine KB, 6 ## Art.-headings (Art. 1 t/m Art. 4 + N-bijlage). Inline ''Art. 2.Het'' op heading-regel is licht maar tolerabel. Body inhoudelijk volledig.'
-      run_at:
-      status: trusted
-    rationale: 'L1=pass; L1.5=improvement (Auto-synthesized: heading-injection (inject_wbtw_headings.py) — staging is structureel beter dan resources-versie.); L2=trusted (ETL-fix toegepast: inject_wbtw_headings.py heeft TOC-strip + Artikel-N → ## Art. heading-injectie + AFDELING-normalisatie uitgevoerd. Eerdere needs-rework op ''missing-section'' opgeheven.)'
-    status: trusted
+      agent: null
+      concrete_problemen: []
+      rationale: null
+      run_at: null
+      status: not_run
+    rationale: 'Trust gereset 2026-05-11: ETL-fix wetteksten met content-diff > 5%'
+    status: unreviewed
 status: beschikbaar
 tags:
-  - VI.B
-  - '2.4'
-wet: K.B. 30 december 2009 tot het bepalen van de definitie en de voorwaarden waaraan een geregistreerd kassasysteem moet voldoen
+- VI.B
+- '2.4'
+wet: K.B. 30 december 2009 tot het bepalen van de definitie en de voorwaarden waaraan
+  een geregistreerd kassasysteem moet voldoen
 ---
 
 # BTW KB — Geregistreerd kassasysteem (GKS)
@@ -57,25 +57,6 @@ Titel
 
 Bron : FINANCIEN
 
-## Art. 1
-
-Onder een geregistreerd kassasysteem wordt verstaan het elektronische kasregister, de terminal met kassasoftware, de computer met kassasoftware of gelijk welk ander gelijkaardig apparaat, dat gebruikt wordt voor de registratie van uitgaande handelingen.
-
-## Art. 2.Het
-
-geregistreerd kassasysteem dient te voldoen aan volgende minimale technische vereisten en dient volgende waarborgen te bieden :
-1. de onveranderlijkheid van de ingebrachte gegevens, vanaf het moment van invoer in het kassasysteem tot op het einde van de wettelijke bewaartermijnen;
-2. de bewaring van alle ingebrachte gegevens, gelijktijdig met de aanmaak van het kasticket [1 in de zin van artikel 21bis]1 van het koninklijk besluit nr. 1 van 29 december 1992, in een elektronisch journaal of journaalbestand; dit bevat tevens elke wijziging van de software of programmaparameters en elk gebruik van specifieke functionaliteiten;
-3. de mogelijkheid tot controle door de ambtenaren van [2 de administratie belast met de belasting over de toegevoegde waarde]2;
-4. een minimum verplichte inhoud van het kasticket bepaald als volgt :
-a) de volledige benaming " BTW-kasticket ";
-b) de datum en het uur van de [uitreiking van het kasticket]; (ERRATUM, zie B.St. 26-01-2010, p. 6161)
-c) het volgnummer van het kasticket, genomen uit een ononderbroken reeks;
-d) de identificatie van de belastingplichtige dienstverrichter, door vermelding van zijn naam of maatschappelijke benaming, zijn adres en zijn [in artikel 50 van het BTW-Wetboek bedoeld btw-identificatienummer]; (ERRATUM, zie B.St. 26-01-2010, p. 6161)
-e) de identificatie van de gebruiker;
-f) [1 de gebruikelijke benaming en de prijs van de geleverde goederen en van de verstrekte diensten;]1
-g) het bedrag van de verschuldigde belasting en de gegevens aan de hand waarvan dat bedrag kan worden berekend;
-h) de korting en teruggegeven bedragen;
 i) de identificatie van de kassa/terminal;
 j) het algoritme berekend op basis van de vermeldingen opgenomen in de voorgaande punten a) tot en met i) ;
 5. een verplichte aanmaak van een dagelijks financieel rapport en een dagelijks gebruiker rapport die de verkopen en het gebruik van de andere functionaliteiten van de kassa tijdens deze openingsperiode samenvatten (Z-rapporten);
@@ -113,7 +94,9 @@ j) [3 de digitale handtekening;]3
 ## Art. 2bis
 
 [1 Elke belastingplichtige die gehouden is een kasticket op te maken overeenkomstig artikel 21bis van het koninklijk besluit nr. 1 van 29 december 1992 met betrekking tot de regeling voor de voldoening van de belasting over de toegevoegde waarde, door middel van een in de artikelen 1 en 2 bedoeld geregistreerd kassasysteem, dient zich eerst als dusdanig te registreren bij de door de Minister van Financiën aangewezen dienst.
-Voorafgaand aan de ingebruikneming ervan dient hij aan de in het eerste lid beoogde dienst de kenmerken mee te delen van het geregistreerde kassasysteem dat in elke plaats van uitbating wordt gebruikt.
+Voorafgaand aan de ingebruikneming ervan dient hij aan de in het eerste lid beoogde dienst de kenmerken mee
+
+te delen van het geregistreerde kassasysteem dat in elke plaats van uitbating wordt gebruikt.
 In geval van wijziging van de kenmerken van het gebruikte geregistreerde kassasysteem of van een onderdeel ervan of in geval van gebruik van een nieuw geregistreerd kassasysteem, is de belastingplichtige er toe gehouden de in het eerste lid beoogde dienst hiervan onverwijld in kennis te stellen.
 De toepassingsmodaliteiten van dit artikel worden geregeld door de Minister van Financiën of zijn gemachtigde ]1 (1)<Ingevoegd bij KB 2013-06-17/04, art. 1, 003; Inwerkingtreding : 27-06-2013>
 

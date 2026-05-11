@@ -1,47 +1,48 @@
 ---
-tags: [XII]
-itaa-lex-sectie: XII
-wet: Wetboek 29 februari 2024 Strafwetboek 2024 — Boek 2
-bron_rol: itaa_lex
-status: beschikbaar
 bijgewerkt: 29.02.2024
 bron: Fisconetplus.be (officieuze gecoördineerde versie)
+bron_rol: itaa_lex
 chunk:
   level: 6
+  sub_strategy: null
   type: Art.
-  sub_strategy:
+itaa-lex-sectie: XII
 provenance:
+  generated_at: '2026-05-11T16:21:48Z'
   inputs:
-    - id: resources/raw/wetteksten/Strafwetboek2024-boek2.pdf
-      sha256: 899110ee793493998bab356a96b02017934b111864ed6bd1e5fe344a9b02b437
-      version: 29.02.2024
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 7a134f4
-    model:
-    prompt_version:
-  generated_at: '2026-05-09T16:15:15Z'
+  - id: resources/raw/wetteksten/Strafwetboek2024-boek2.pdf
+    sha256: 899110ee793493998bab356a96b02017934b111864ed6bd1e5fe344a9b02b437
+    version: 29.02.2024
   stale: false
-  stale_reason:
+  stale_reason: null
+  tooling:
+    model: null
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version: null
   trust:
-    status: trusted
-    confirmed_at: '2026-05-09T21:27:46Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: L1=pass
+    confirmed_at: null
+    confirmed_by: null
     layer1:
-      status: pass
-      run_id: 20260511-134044
-      run_at: '2026-05-11T13:40:46Z'
-      heading_count: 924
-      max_section_chars: 11480
       file_size_chars: 466327
       flags: []
+      heading_count: 924
+      max_section_chars: 11480
+      run_at: '2026-05-11T13:40:46Z'
+      run_id: 20260511-134044
+      status: pass
     layer2:
-      status: trusted
-      agent:
-      run_at:
-      rationale: '732 ###### Art.-headings consistent, structurele Hoofdstuk-blokken aanwezig, slotbepaling Art. 119 inwerkingtreding correct. Geen kolom-bleed of OCR-artefacten gespot.'
+      agent: null
       concrete_problemen: []
+      rationale: null
+      run_at: null
+      status: not_run
+    rationale: 'Trust gereset 2026-05-11: ETL-fix wetteksten met content-diff > 5%'
+    status: unreviewed
+status: beschikbaar
+tags:
+- XII
+wet: Wetboek 29 februari 2024 Strafwetboek 2024 — Boek 2
 ---
 
 # Strafwetboek 2024 — Boek 2
@@ -51,6 +52,456 @@ provenance:
 Titel
 
 29 FEBRUARI 2024. - Wet tot invoering van boek II van het Strafwetboek
+
+###### Art. 1
+
+### HOOFDSTUK 2. - Boek II van het Strafwetboek
+
+###### Art. 2
+
+Voorafgaande titel. Gemeenschappelijke bepalingen
+
+## Titel I. Ernstige schendingen van het internationaal humanitair recht
+
+## Titel 2. Misdaad van ecocide
+
+###### Art. 94
+
+## Titel 3. Misdrijven tegen de persoon
+
+###### Art. 95
+
+### Hoofdstuk 1. Misdrijven tegen het leven
+
+#### Afdeling 1. Doden met het oogmerk om te doden
+
+#### Afdeling 2. Doden door een ernstig gebrek aan voorzorg of voorzichtigheid
+
+#### Afdeling 3. Aanzetting tot zelfdoding
+
+### Hoofdstuk 2. Foltering, onmenselijke behandeling en onterende behandeling
+
+#### Afdeling 1. Foltering
+
+#### Afdeling 2. Onmenselijke behandeling
+
+#### Afdeling 3. Onterende behandeling
+
+#### Afdeling 4. Gemeenschappelijke bepaling
+
+###### Art. 131
+
+### Hoofdstuk 3. Misdrijven tegen de seksuele integriteit, het seksueel zelfbeschikkingsrecht en de goede zeden
+
+#### Afdeling 1. Aantasting van de seksuele integriteit, voyeurisme, niet-consensuele verspreiding van seksueel getinte inhoud en verkrachting
+
+##### Onderafdeling 1. Toestemming met betrekking tot het seksueel zelfbeschikkingsrecht
+
+##### Onderafdeling 2. Basismisdrijven
+
+##### Onderafdeling 3. Verzwaarde misdrijven
+
+##### Onderafdeling 4. Algemene bepaling
+
+###### Art. 150
+
+#### Afdeling 2. Seksuele uitbuiting van minderjarigen
+
+##### Onderafdeling 1. Benaderen van een minderjarige voor seksuele doeleinden
+
+###### Art. 151
+
+##### Onderafdeling 2. Seksuele uitbuiting van minderjarigen met het oog op prostitutie
+
+##### Onderafdeling 3. Beelden van seksueel misbruik van minderjarigen
+
+##### Onderafdeling 4. Inhoud die bedoeld is om het plegen van seksueel misbruik of seksuele uitbuiting ten nadele van een minderjarige te bevorderen
+
+##### Onderafdeling 5. Algemene bepaling
+
+###### Art. 181
+
+#### Afdeling 3. Openbare zedenschennis
+
+#### Afdeling 4. Gemeenschappelijke bepalingen
+
+### Hoofdstuk 4. Misdrijven tegen de fysieke of psychische integriteit
+
+#### Afdeling 1. Opzettelijke misdrijven tegen de fysieke of psychische integriteit
+
+##### Onderafdeling 1. Gewelddaden
+
+##### Onderafdeling 2. Vrouwelijke genitale verminking
+
+##### Onderafdeling 3. Zwangerschapsverlies zonder toestemming
+
+#### Afdeling 2. Aantasting van de fysieke of psychische integriteit door een ernstig gebrek aan voorzorg of voorzichtigheid
+
+### Hoofdstuk 5. Misdrijven tegen de persoonlijke vrijheid
+
+#### Afdeling 1. Vrijheidsberoving
+
+#### Afdeling 2. Ontvoering
+
+#### Afdeling 3. Gijzeling
+
+#### Afdeling 4. Gemeenschappelijke bepalingen
+
+### Hoofdstuk 6. Misdrijven tegen de persoonlijke rust en de morele integriteit
+
+#### Afdeling 1. Bedreiging
+
+#### Afdeling 2. Belaging
+
+#### Afdeling 3. Laster en belediging
+
+#### Afdeling 4. Smaad
+
+### Hoofdstuk 7. Schendingen van de persoonlijke waardigheid en misbruik van de kwetsbare positie van het slachtoffer
+
+#### Afdeling 1. Misdrijven inzake de bestraffing van de discriminatie, de aanzetting tot haat en het negationisme
+
+#### Afdeling 2. Mensenhandel en mensensmokkel
+
+#### Afdeling 3. Misbruik van prostitutie
+
+#### Afdeling 4. Verkoop van kinderen
+
+#### Afdeling 5. Handel in menselijke organen
+
+#### Afdeling 6. Uitbuiting van bedelarij
+
+#### Afdeling 7. Wanpraktijken van huisjesmelkers
+
+#### Afdeling 8. Gedwongen huwelijk en gedwongen wettelijke samenwoning
+
+#### Afdeling 9. Gemeenschappelijke bepalingen
+
+### Hoofdstuk 8. Misdrijven met betrekking tot het in gevaar brengen van personen
+
+#### Afdeling 1. Hulpverzuim
+
+#### Afdeling 2. Misbruik van de zwakke toestand van personen
+
+#### Afdeling 3. Conversiepraktijken
+
+#### Afdeling 4. Verkeersbelemmering
+
+#### Afdeling 5. Het in gevaar brengen van de volksgezondheid
+
+#### Afdeling 6. Het in gevaar brengen van minderjarigen of personen in een kwetsbare toestand
+
+##### Onderafdeling 1. Verlaten of in behoeftige toestand achterlaten
+
+##### Onderafdeling 2. Gebrek aan voeding of verzorging
+
+##### Onderafdeling 3. Gebruik of lokken met het oog op het plegen van een misdrijf
+
+### Hoofdstuk 9. Misdrijven tegen het privéleven
+
+#### Afdeling 1. Misdrijven betreffende het geheim van communicatie, privégegevens van een informaticasysteem en brieven
+
+#### Afdeling 2. Schending van plaatsen die tot woning dienen
+
+#### Afdeling 3. Bescherming van het beroepsgeheim
+
+#### Afdeling 4. Misdrijven betreffende de vrije uitoefening van de erediensten
+
+#### Afdeling 5. Bescherming van de persoonlijke levenssfeer van de minderjarigen in het kader van de gerechtelijke procedures
+
+###### Art. 356
+
+#### Afdeling 6. Gemeenschappelijke bepaling
+
+###### Art. 357
+
+### Hoofdstuk 10. Misdrijven tegen de burgerlijke staat van personen
+
+#### Afdeling 1. Misdrijven met betrekking tot het bewijs van de burgerlijke staat van kinderen
+
+#### Afdeling 2. Misdrijven met betrekking tot de adoptie
+
+#### Afdeling 3. Misdrijven met betrekking tot het huwelijk
+
+###### Art. 366
+
+#### Afdeling 4. Gemeenschappelijke bepaling
+
+###### Art. 367
+
+### Hoofdstuk 11. Misdrijven tegen het lijk en de lijk- bezorging
+
+#### Afdeling 1. Zonder voorafgaande toestemming een begraving of crematie verrichten
+
+###### Art. 368
+
+#### Afdeling 2. Lijk- en grafschennis
+
+## Titel 4. Misdrijven tegen de openbare veiligheid
+
+### Hoofdstuk 1. Terrorisme
+
+### Hoofdstuk 2. Aanslag op en samenspanning tegen de burgerlijke vrede
+
+### Hoofdstuk 3. Vorming van gewapende groepen en deelneming aan dergelijke groepen
+
+### Hoofdstuk 4. Vereniging met het oog op het plegen van een misdrijf en criminele organisatie
+
+#### Afdeling 1. Vereniging met het oog op het plegen van een misdrijf
+
+#### Afdeling 2. Criminele organisatie
+
+### Hoofdstuk 5. Externe beveiliging van kernmateriaal en ander radioactief materiaal
+
+### Hoofdstuk 6. Schending van havengebieden of binnendringen van een voertuig
+
+### Hoofdstuk 7. Verbod van gezichtsbedekking in de publieke ruimte
+
+## Titel 5. Valsheden
+
+### Hoofdstuk 1. Bescherming van de munt, van de effecten, van de veiligheidskenmerken en van de zegels, stempels, keurstempels en merken en van de niet-contante betaalinstrumenten.
+
+#### Afdeling 1. Betekenis van enkele in dit hoofdstuk gebruikte termen
+
+###### Art. 425
+
+#### Afdeling 2. Bescherming van de munt, van de effecten, van het materiaal voor het vervaardigen van de munt of de effecten en van de veiligheidskenmerken
+
+#### Afdeling 3. Illegaal in omloop brengen van de munt en vervaardigen en in omloop brengen van de drukwerken of formulieren die een munt, effecten, plakpostzegels en andere zegels nabootsen
+
+#### Afdeling 4. Bescherming van niet-contante betaalinstrumenten
+
+#### Afdeling 5. Bescherming van `s Lands zegel, van de rijksstempels en van de keurstempels die dienen voor het merken van goud, zilver en platina
+
+#### Afdeling 6. Bescherming van de keurmerken van het waarborgkantoor
+
+#### Afdeling 7. Bescherming van de zegels, de stempels en de merken van de overheden en van particulieren
+
+###### Art. 445
+
+#### Afdeling 8. Bescherming van plakpostzegels en andere zegels
+
+#### Afdeling 9. Bescherming van de naam van de fabrikant en van de handelsnaam van een fabriek
+
+#### Afdeling 10. Gemeenschappelijke bepaling
+
+###### Art. 450
+
+### Hoofdstuk 2. Valsheid in geschriften of op andere duurzame dragers en het gebruik van valse stukken
+
+### Hoofdstuk 3. Aanmatiging van functies, titels of een naam
+
+## Titel 6. Misdrijven tegen het vermogen
+
+### Hoofdstuk 1. Misdrijven met betrekking tot de onrechtmatige toe-eigening van goederen
+
+#### Afdeling 1. Diefstal en afpersing
+
+##### Onderafdeling 1. Definities
+
+##### Onderafdeling 2. Diefstal zonder geweld of bedreiging
+
+##### Onderafdeling 3. Diefstal met geweld of bedreiging en afpersing
+
+##### Onderafdeling 4. Diefstal en afpersing van kernmateriaal
+
+##### Onderafdeling 5. Gemeenschappelijke bepaling
+
+###### Art. 474
+
+#### Afdeling 2. Bedrog
+
+##### Onderafdeling 1. Misbruik van vertrouwen of andermans kwetsbare toestand
+
+##### Onderafdeling 2. Oplichting en bedriegerij
+
+##### Onderafdeling 3. Private omkoping
+
+###### Art. 487
+
+##### Onderafdeling 4. Bedrog met behulp van een informaticasysteem
+
+###### Art. 488
+
+##### Onderafdeling 5. Misdrijven die verband houden met de insolventie van ondernemingen
+
+##### Onderafdeling 6. Overige vormen van bedrog
+
+#### Afdeling 3. Heling en witwassen
+
+### Hoofdstuk 2. Misdrijven met betrekking tot de beschadiging en vernieling van goederen
+
+#### Afdeling 1. Misdrijven die een maatschappelijk gevaar doen ontstaan
+
+#### Afdeling 2. Vandalisme
+
+### Hoofdstuk 3. Misdrijven betreffende informatica- systemen
+
+#### Afdeling 1. Hacking
+
+#### Afdeling 2. Aantasting van de integriteit van een informaticasysteem
+
+## Titel 7. Economische misdrijven
+
+### Hoofdstuk 1. Overtreding van de wetten op de loterijen en op de pandhuizen
+
+### Hoofdstuk 2. Misdrijven betreffende nijverheid en koophandel
+
+## Titel 8. Misdrijven tegen de Staat en zijn functioneren
+
+### Hoofdstuk 1. Misdrijven tegen de staatsordening en de staatsmachten
+
+#### Afdeling 1. Misdrijven tegen de staatsordening
+
+#### Afdeling 2. Misdrijven tegen een wetgevende vergadering
+
+#### Afdeling 3. Misdrijven tegen de monarchie
+
+#### Afdeling 4. Gemeenschappelijke bepalingen
+
+### Hoofdstuk 2. Misdrijven tegen de landsverdediging en de essentiële belangen van België
+
+#### Afdeling 1. Definities
+
+###### Art. 564
+
+#### Afdeling 2. Uitlokken of veroorzaken van oorlog
+
+#### Afdeling 3. Militaire collaboratie
+
+#### Afdeling 4. Economische collaboratie
+
+#### Afdeling 5. Politieke en intellectuele collaboratie
+
+#### Afdeling 6. Misdrijven met betrekking tot staatsgeheimen
+
+#### Afdeling 7. Aangifte aan de vijand
+
+#### Afdeling 8. Verberging van vijanden of plegers van misdrijven tegen de landsverdediging
+
+#### Afdeling 9. Vernieling of brandstichting in strijd met de landsverdediging
+
+###### Art. 607
+
+#### Afdeling 10. Samenspanning tegen de landsverdediging
+
+#### Afdeling 11. Aanzetten tot misdrijven tegen de landsverdediging
+
+###### Art. 613
+
+### Hoofdstuk 3. Misdrijven tegen de internationale betrekkingen
+
+#### Afdeling 1. Aanslagen tegen een vreemde Staat of buitenlands staatshoofd
+
+#### Afdeling 2. Misdrijven tegen diplomatieke en consulaire vertegenwoordigers van vreemde staten
+
+#### Afdeling 3. Huurlingschap
+
+### Hoofdstuk 4. Ambtsmisdrijven
+
+#### Afdeling 1. Schending van fundamentele rechten van de burgers
+
+#### Afdeling 2. Gedragingen met het oog op het ontwrichten van de openbare dienst
+
+#### Afdeling 3. Aanmatiging van macht
+
+#### Afdeling 4. Misbruik van gezag
+
+#### Afdeling 5. Rechtsweigering
+
+###### Art. 633
+
+#### Afdeling 6. Verduistering, knevelarij en belangenneming
+
+#### Afdeling 7. Publieke omkoping
+
+#### Afdeling 8. Misdrijven met betrekking tot het houden van de akten van de burgerlijke stand
+
+#### Afdeling 9. Algemene bepaling
+
+###### Art. 643
+
+### Hoofdstuk 5. Misdrijven tegen de rechtsbedeling
+
+#### Afdeling 1. Belemmering van onderzoeksdaden en beveiligings- of bewaringsmaatregelen
+
+##### Onderafdeling 1. Weerspannigheid
+
+##### Onderafdeling 2. Valse getuigenis, valse verklaring en meineed
+
+##### Onderafdeling 3. Weigeren van medewerking aan het onderzoek
+
+##### Onderafdeling 4. Verberging van een vervolgde persoon, een lijk of bewijs
+
+##### Onderafdeling 5. De verborgen ruimte
+
+##### Onderafdeling 6. Misdrijven tegen procedurestukken of goederen waarop een maatregel rust
+
+##### Onderafdeling 7. Zegelverbreking
+
+##### Onderafdeling 8. Inbreuken op het geheim karakter van het strafrechtelijk onderzoek
+
+##### Onderafdeling 9. Uitgeven of verspreiden van geschriften zonder vermelding van de oorsprong
+
+#### Afdeling 2. Belemmering van de rechterlijke uitspraak
+
+#### Afdeling 3. Belemmering van de uitvoering of niet-naleving van de rechterlijke beslissing
+
+##### Onderafdeling 1. Familieverlating
+
+###### Art. 676
+
+##### Onderafdeling 2. Niet-afgeven van kinderen
+
+##### Onderafdeling 3. Niet-naleving van de voorwaarden bij de opheffing van een opsporings- of onderzoekshandeling
+
+###### Art. 683
+
+##### Onderafdeling 4. Belemmering van de uitvoering of niet-naleving van een straf of een vrijheidsbenemende maatregel
+
+##### Onderafdeling 5. Het overgooien van voorwerpen over de muren of afsluitingen van een gevangenis, een
+
+afdeling of een inrichting tot bescherming van de maatschappij
+
+###### Art. 687
+
+##### Onderafdeling 6. Niet-naleving van een beslissing tot overlegging van een stuk
+
+###### Art. 688
+
+### Hoofdstuk 6. Belemmering van openbare werken
+
+### Hoofdstuk 7. Subsidiefraude
+
+###### Art. 691
+
+### HOOFDSTUK 3. - Wijzigingsbepalingen
+
+#### Afdeling 1. - Wijzigingen van het Militair Strafwetboek
+
+#### Afdeling 2. - Wijzigingen van de voorafgaande titel van het Wetboek van strafvordering
+
+#### Afdeling 3. - Wijzigingen van het Wetboek van strafvordering
+
+#### Afdeling 4. - Wijzigingen van het Gerechtelijk Wetboek
+
+#### Afdeling 5. - Wijzigingen van het Sociaal strafwetboek
+
+#### Afdeling 6. - Wijzigingen van de wet van 17 mei 2006 betreffende de externe rechtspositie van de veroordeelden tot een vrijheidsstraf en de aan het slachtoffer toegekende rechten in het raam van de strafuitvoeringsmodaliteiten
+
+#### Afdeling 7. - Wijzigingen van het Wetboek van economisch recht
+
+#### Afdeling 8. - Wijzigingen van verscheidene teksten die nodig zijn wegens de hervorming van het Strafwetboek
+
+### HOOFDSTUK 4. - Opheffingsbepalingen
+
+###### Art. 118
+
+### HOOFDSTUK 5. - Inwerkingtredingsbepaling
+
+###### Art. 119
+
+Tekst
 
 ### HOOFDSTUK 1. - Voorafgaande bepaling
 
@@ -98,7 +549,9 @@ Voor de toepassing van dit Wetboek wordt verstaan onder:
 - een persoon die een openbare dienst of opdracht uitoefent waarbij zijn handelingen zijn bepaald en gereglementeerd door een wet, besluit of rechterlijke beslissing;
 6° parlementslid: een lid van de Kamer van volksvertegenwoordigers, een senator, een lid van een parlement van een gemeenschap of een gewest of een lid van het Europees Parlement;
 7° minister of staatssecretaris: een lid van de federale regering, van een regering van een gemeenschap of een gewest;
-8° magistraat: een rechter in het Grondwettelijk Hof, een raadsheer of rechter in een hof of rechtbank van de rechterlijke orde, een lid van het openbaar ministerie, een plaatsvervangende of toegevoegde magistraat, een lid van de Raad van State of het auditoraat bij de Raad van State, een lid van het Rekenhof, een lid van een administratief rechtscollege of een lid van een internationaal rechtscollege waarbij België partij is;
+8° magistraat: een rechter in het Grondwettelijk Hof, een raadsheer of rechter in een hof of rechtbank van de rechterlijke orde, een lid van het openbaar ministerie, een plaatsvervangende of toegevoegde magistraat, een lid
+
+van de Raad van State of het auditoraat bij de Raad van State, een lid van het Rekenhof, een lid van een administratief rechtscollege of een lid van een internationaal rechtscollege waarbij België partij is;
 9° juridisch medewerker van een rechtscollege of het openbaar ministerie: een magistraat in opleiding, een kandidaat magistraat, een parketjurist als bedoeld in artikel 162, paragraaf 2, derde lid, van het Gerechtelijk Wetboek of een griffier;
 10° jurylid: een lid van de jury in het hof van assisen;
 11° getuige: elke persoon die door een rechter wordt gehoord, zonder dat hij partij is in het betrokken geding of verdacht wordt van het plegen van het strafbaar feit;
@@ -126,6 +579,7 @@ Voor de toepassing van dit Wetboek wordt verstaan onder:
 28° radioactief materiaal: alle kernmateriaal of andere radioactieve stoffen met nucliden die spontaan worden gespleten, proces dat gepaard gaat met de emissie van een of meer soorten ioniserende straling, zoals alfa-, bèta-, gamma- en neutronenstraling, en die wegens de radiologische of splijtbare eigenschappen ervan de dood, ernstig lichamelijk letsel of aanzienlijke schade aan goederen of aan het milieu zouden kunnen veroorzaken;
 29° kernmateriaal: plutonium, met uitzondering van plutonium waarvan de concentratie van de isotoop plutonium 238 hoger is dan 80 procent, uranium 233, uranium verrijkt in uranium 235 of 233, uranium dat het mengsel van isotopen bevat in de natuur aanwezig onder een andere vorm dan erts of ertsresidu, en iedere stof die één of meer van de hierboven genoemde isotopen bevat. Hierbij moet onder "uranium verrijkt in de isotopen 235 of 233" worden begrepen: uranium dat hetzij uranium 235 hetzij uranium 233 bevat, dan wel deze beide isotopen in een zodanige hoeveelheid dat de verhouding tussen de som van beide isotopen en de isotoop 238 groter is dan de verhouding tussen de isotoop 235 en de isotoop 238 in natuurlijk uranium;
 30° nucleair instrument:
+
 a) alle nucleaire explosiemiddelen, of;
 b) alle instrumenten ter verspreiding van radioactief materiaal of alle instrumenten die straling uitzenden en die, wegens de radiologische eigenschappen ervan, de dood, ernstig lichamelijk letsel of aanzienlijke schade aan goederen of aan het milieu veroorzaken;
 31° nucleaire installatie:
@@ -170,7 +624,9 @@ De misdaad tegen de mensheid, zoals hierna omschreven, gepleegd zowel in vredes-
 5° gevangenneming of elke andere vorm van ernstige beroving van de lichamelijke vrijheid met schending van de fundamentele bepalingen van het internationaal recht;
 6° foltering;
 7° verkrachting, seksuele slavernij, gedwongen prostitutie, gedwongen zwangerschap, gedwongen sterilisatie en elke andere vorm van seksueel geweld met een vergelijk-bare ernst;
-8° vervolging van enige groep of van enige identificeerbare collectiviteit wegens politieke, raciale, nationale, etnische, culturele, godsdienstige of seksistische redenen of wegens andere universeel als onaanvaardbaar erkende criteria voor het internationaal recht, in samenhang met iedere handeling bedoeld in de artikelen 82 en 84 tot 88;
+8° vervolging van enige groep of van enige identificeerbare collectiviteit wegens politieke, raciale, nationale, etnische, culturele, godsdienstige of seksistische redenen of wegens andere universeel als onaanvaardbaar erkende criteria voor het internationaal recht, in samenhang met iedere handeling bedoeld in de artikelen 82 en
+
+84 tot 88;
 9° gedwongen verdwijningen van personen;
 10° apartheid;
 11° andere onmenselijke handelingen van vergelijkbare aard waardoor opzettelijk ernstig lijden of ernstig lichamelijk letsel of schade aan de geestelijke of lichamelijke gezondheid wordt veroorzaakt.
@@ -205,7 +661,9 @@ Deze misdrijven worden bestraft met een straf van niveau 8.
 ###### Art. 86
 
 Oorlogsmisdaden van categorie 2
-§ 1. De oorlogsmisdaden van categorie 2 zijn de oorlogsmisdaden bedoeld in de Verdragen van Genève van 12 augustus 1949 en in het Eerste en het Tweede Aanvullend Protocol bij die Verdragen, aangenomen te Genève op 8 juni 1977, in de wetten en gebruiken die gelden in geval van gewapende conflicten, zoals omschreven in artikel 2 van de Verdragen van Genève van 12 augustus 1949, in artikel 1 van het Eerste en het Tweede Aanvullend Protocol bij die Verdragen, aangenomen te Genève op 8 juni 1977, alsook in artikel 8, § 2, f), van het Statuut van het Internationaal Strafhof, wanneer die opzettelijke misdaden door handelingen of nalatigheden inbreuk maken op de bescherming die aan de personen en de goederen is gewaarborgd door voornoemde Verdragen, Protocollen, wetten en gewoonten:
+§ 1. De oorlogsmisdaden van categorie 2 zijn de oorlogsmisdaden bedoeld in de Verdragen van Genève van 12 augustus 1949 en in het Eerste en het Tweede Aanvullend Protocol bij die Verdragen, aangenomen te Genève op 8 juni 1977, in de wetten en gebruiken die gelden in geval van gewapende conflicten, zoals omschreven in artikel 2 van de Verdragen van Genève van 12 augustus 1949, in artikel 1 van het Eerste en het Tweede Aanvullend Protocol bij die Verdragen, aangenomen te Genève op 8 juni 1977, alsook in artikel 8, § 2, f), van het Statuut van
+
+het Internationaal Strafhof, wanneer die opzettelijke misdaden door handelingen of nalatigheden inbreuk maken op de bescherming die aan de personen en de goederen is gewaarborgd door voornoemde Verdragen, Protocollen, wetten en gewoonten:
 a) moedwillig veroorzaken van hevig lijden of toebrengen van ernstig lichamelijk letsel dan wel van ernstige schade aan de gezondheid;
 b) verkrachting, seksuele slavernij, gedwongen prostitutie, gedwongen zwangerschap, gedwongen sterilisatie en elke andere vorm van seksueel geweld, die een ernstige schending van de Verdragen van Genève of een ernstige schending van het gemeenschappelijke artikel 3 van die Verdragen oplevert;
 c) opzettelijk gebruik maken van uithongering van burgers als methode van oorlogvoering door hun voorwerpen te onthouden die onontbeerlijk zijn voor hun overleving, daaronder begrepen het opzettelijk belemmeren van de aanvoer van hulpgoederen waarin is voorzien in de Verdragen van Genève;
@@ -232,7 +690,9 @@ a) vernietigen of in beslag nemen van eigendommen van de vijand in geval van een
 b) vernieling en de toe-eigening van goederen, niet gerechtvaardigd door militaire noodzaak zoals aanvaard in het volkenrecht en uitgevoerd op grote schaal en op onrechtmatige en willekeurige wijze;
 c) opzettelijk richten van aanvallen op burgerdoelen, die geen militaire doelen zijn;
 d) plunderen van een stad of plaats, ook wanneer deze bij een aanval wordt ingenomen;
-2° de ernstige schendingen gedefinieerd in artikel 15 van het Tweede Protocol inzake het Verdrag van `s-Gravenhage van 1954 inzake de bescherming van culturele goederen in geval van een gewapend conflict, goedgekeurd te `s-Gravenhage op 26 maart 1999, gepleegd in geval van een gewapend conflict zoals omschreven in artikel 18, §§ 1 en 2, van het Verdrag van `s-Gravenhage van 1954 en in artikel 22 van voornoemd Tweede Protocol, wanneer deze schendingen opzettelijk, door handelingen of nalatigheden inbreuk maken op de bescherming die aan goederen is gewaarborgd door dit Verdrag en Protocol:
+2° de ernstige schendingen gedefinieerd in artikel 15 van het Tweede Protocol inzake het Verdrag van `s-Gravenhage van 1954 inzake de bescherming van culturele goederen in geval van een gewapend conflict, goedgekeurd te `s-Gravenhage op 26 maart 1999, gepleegd in geval van een gewapend conflict zoals omschreven in artikel 18, §§ 1 en 2, van het Verdrag van `s-Gravenhage van 1954 en in artikel 22 van
+
+voornoemd Tweede Protocol, wanneer deze schendingen opzettelijk, door handelingen of nalatigheden inbreuk maken op de bescherming die aan goederen is gewaarborgd door dit Verdrag en Protocol:
 a) een aanval richten op een cultureel goed onder versterkte bescherming;
 b) een cultureel goed onder versterkte bescherming of de onmiddellijke omgeving ervan aanwenden ter ondersteuning van een militaire actie;
 c) de door het Verdrag en het Tweede Protocol beschermde culturele goederen op grote schaal vernietigen of zich toe-eigenen;
@@ -264,7 +724,9 @@ l) onrechtmatige handelingen en nalatigheden, niet wettelijk gerechtvaardigd, di
 m) gerechtelijk vervallen verklaren, schorsen of niet-ontvankelijk verklaren van de rechten en handelingen van de personen die tot de vijandige partij behoren;
 2° de hierna beschreven ernstige schendingen van het gemeenschappelijk artikel 3 van de Verdragen van Genève van 12 augustus 1949, gepleegd in geval van een gewapend conflict zoals gedefinieerd in voornoemd artikel 3, wanneer deze schendingen opzettelijk, door handelingen of nalatigheden inbreuk maken op de bescherming die aan personen is gewaarborgd door die Verdragen:
 a) aantasting van de persoonlijke waardigheid, inzonderheid vernederende en onterende behandeling;
-b) uitspreken van veroordelingen en ten uitvoer leggen van executies zonder voorafgaand vonnis uitgesproken door een op regelmatige wijze samengesteld rechtscollege dat alle gerechtelijke waarborgen biedt die algemeen als onmisbaar worden erkend;
+b) uitspreken van veroordelingen en ten uitvoer leggen van executies zonder voorafgaand vonnis uitgesproken
+
+door een op regelmatige wijze samengesteld rechtscollege dat alle gerechtelijke waarborgen biedt die algemeen als onmisbaar worden erkend;
 c) nemen van gijzelaars.
 Deze misdrijven worden bestraft met een straf van niveau 4, onverminderd, voor de misdrijven gedefinieerd onder 1°, g) tot k), en 2°, de toepassing van de strengere strafbepalingen tot bestraffing van ernstige schendingen van de waardigheid van de persoon.
 § 2. Het misdrijf bedoeld in paragraaf 1, 1°, l), wordt bestraft met een straf van niveau 5 indien het heeft geleid tot ernstige gevolgen voor de volksgezondheid.
@@ -314,7 +776,9 @@ Uitsluiting van de rechtvaardiging en verschoning
 
 Misdaad van ecocide
 § 1. De misdaad van ecocide, zoals hierna omschreven, gepleegd zowel in vredes- als in oorlogstijd, wordt bestraft volgens de bepalingen van deze titel.
-De misdaad van ecocide is het opzettelijk plegen, door handelen of nalaten, van een illegale handeling, die ernstige, grootschalige en langdurige schade aan het milieu veroorzaakt, wetende dat deze handeling dergelijke schade toebrengt, voor zover deze handeling betrekking heeft op een inbreuk op federale wetgeving of internationale wetgeving die bindend is voor de federale overheid of zover de handeling niet in België kan gelokaliseerd worden.
+De misdaad van ecocide is het opzettelijk plegen, door handelen of nalaten, van een illegale handeling, die ernstige, grootschalige en langdurige schade aan het milieu veroorzaakt, wetende dat deze handeling dergelijke
+
+schade toebrengt, voor zover deze handeling betrekking heeft op een inbreuk op federale wetgeving of internationale wetgeving die bindend is voor de federale overheid of zover de handeling niet in België kan gelokaliseerd worden.
 Voor de toepassing van het tweede lid wordt verstaan onder:
 a) ernstige schade : schade die leidt tot negatieve zeer nadelige veranderingen, verstoringen of effecten aan enigerlei onderdeel van het milieu, met inbegrip van aanzienlijke gevolgen voor het leven of de gezondheid van de mens, op de biodiversiteit of op natuurlijke, culturele of economische hulpbronnen voor de samenleving;
 b) grootschalige schade: schade die zich uitstrekt tot buiten een beperkt geografisch gebied, die de grenzen van een regio of een staat overschrijdt of die wordt geleden door een volledig ecosysteem of een volledige soort of door een aanzienlijk aantal mensen;
@@ -375,7 +839,9 @@ De doodslag gepleegd op een bloedverwant of aanverwant in de rechte opgaande of 
 ###### Art. 102
 
 Doodslag gepleegd op een persoon met een maatschappelijke functie
-Doodslag gepleegd op een persoon met een maatschappelijke functie wordt bestraft met een straf van niveau 8 indien het misdrijf is gepleegd naar aanleiding van de uitoefening van deze functie.
+Doodslag gepleegd op een persoon met een maatschappelijke functie wordt bestraft met een straf van niveau 8
+
+indien het misdrijf is gepleegd naar aanleiding van de uitoefening van deze functie.
 
 ###### Art. 103
 
@@ -426,7 +892,9 @@ In afwijking van artikel 52, § 1, tweede lid, bedraagt de geldboete ten hoogste
 ###### Art. 108.Verzwarende
 
 factor
-Bij de keuze van de straf of de maatregel en de zwaarte ervan voor de [1 in de artikelen 106 tot 107/1]1 bedoelde misdrijven neemt de rechter in overweging dat het misdrijf werd gepleegd in het bijzijn van een minderjarige.
+Bij de keuze van de straf of de maatregel en de zwaarte ervan voor de [1 in de artikelen 106 tot 107/1]1 bedoelde misdrijven neemt de rechter in overweging dat het misdrijf werd gepleegd in het bijzijn van een
+
+minderjarige.
 (1)<W 2026-02-08/04, art. 74, 003; Inwerkingtreding : 26-02-2026>
 
 #### Afdeling 3. Aanzetting tot zelfdoding
@@ -556,7 +1024,9 @@ Dit misdrijf wordt bestraft met een straf van niveau 2.
 ###### Art. 129
 
 Onterende behandeling van een minderjarige of een persoon in een kwetsbare toestand De onterende behandeling van een minderjarige of een persoon in een kwetsbare toestand wordt bestraft met een straf van niveau 3.
-Bij de keuze van de straf of de maatregel en de zwaarte ervan neemt de rechter in overweging dat de dader de vader, de moeder of een andere bloed- of aanverwant in de rechte lijn, dan wel in de zijlijn tot de derde graad, is van het slachtoffer, dat hij de partner is van het slachtoffer, dat hij gezag heeft over het slachtoffer, hem onder zijn bewaring heeft of occasioneel of gewoonlijk met het slachtoffer samenwoont.
+Bij de keuze van de straf of de maatregel en de zwaarte ervan neemt de rechter in overweging dat de dader de
+
+vader, de moeder of een andere bloed- of aanverwant in de rechte lijn, dan wel in de zijlijn tot de derde graad, is van het slachtoffer, dat hij de partner is van het slachtoffer, dat hij gezag heeft over het slachtoffer, hem onder zijn bewaring heeft of occasioneel of gewoonlijk met het slachtoffer samenwoont.
 
 ###### Art. 130
 
@@ -604,7 +1074,9 @@ Er is geen misdrijf tussen minderjarigen die de volle leeftijd van veertien jaar
 
 Aantasting van de seksuele integriteit
 Aantasting van de seksuele integriteit is het opzettelijk stellen van een seksuele handeling op een persoon die daar niet in toestemt, al dan niet met behulp van een derde persoon die daar niet in toestemt, dan wel het laten stellen van een seksuele handeling door een persoon die daar niet in toestemt. Dit misdrijf wordt bestraft met een straf van niveau 3.
-Wordt met aantasting van de seksuele integriteit gelijkgesteld het opzettelijk bewerkstelligen dat een persoon die daarmee niet instemt, getuige is van seksuele handelingen, of van seksueel misbruik, ook zonder dat deze daaraan hoeft deel te nemen.
+Wordt met aantasting van de seksuele integriteit gelijkgesteld het opzettelijk bewerkstelligen dat een persoon die daarmee niet instemt, getuige is van seksuele handelingen, of van seksueel misbruik, ook zonder dat deze
+
+daaraan hoeft deel te nemen.
 Aantasting bestaat zodra er een begin van uitvoering is.
 
 ###### Art. 135
@@ -658,7 +1130,9 @@ Niet-consensuele seksuele handelingen gepleegd onder bedreiging van een wapen of
 
 ###### Art. 142
 
-Niet-consensuele seksuele handelingen gepleegd ten nadele van een persoon in een kwetsbare toestand Niet-consensuele seksuele handelingen gepleegd ten nadele van een persoon in een kwetsbare toestand, worden als volgt bestraft: - aantasting van de seksuele integriteit wordt bestraft met een straf van niveau 5;
+Niet-consensuele seksuele handelingen gepleegd ten nadele van een persoon in een kwetsbare toestand Niet-consensuele seksuele handelingen gepleegd ten nadele van een persoon in een kwetsbare toestand, worden als volgt bestraft:
+
+- aantasting van de seksuele integriteit wordt bestraft met een straf van niveau 5;
 - voyeurisme wordt bestraft met een straf van niveau 4;
 - niet-consensuele verspreiding van seksueel getinte inhoud wordt bestraft met een straf van niveau 5;
 - niet-consensuele verspreiding, met kwaadwillig opzet of uit winstbejag, van seksueel getinte inhoud wordt bestraft met een straf van niveau 5;
@@ -712,7 +1186,10 @@ Dezelfde straffen worden opgelegd wanneer een van de drijfveren van de dader eri
 
 ###### Art. 148
 
-Niet-consensuele seksuele handelingen gepleegd door een persoon die zich in een gezags- of vertrouwenspositie bevindt ten aanzien van het slachtoffer Niet-consensuele seksuele handelingen gepleegd door een persoon die zich in een erkende positie van vertrouwen, gezag of invloed ten aanzien van het slachtoffer bevindt, worden als volgt bestraft: - aantasting van de seksuele integriteit wordt bestraft met een straf van niveau 4;
+Niet-consensuele seksuele handelingen gepleegd door een persoon die zich in een gezags- of
+
+vertrouwenspositie bevindt ten aanzien van het slachtoffer
+Niet-consensuele seksuele handelingen gepleegd door een persoon die zich in een erkende positie van vertrouwen, gezag of invloed ten aanzien van het slachtoffer bevindt, worden als volgt bestraft: - aantasting van de seksuele integriteit wordt bestraft met een straf van niveau 4;
 - voyeurisme wordt bestraft met een straf van niveau 3;
 - niet-consensuele verspreiding van seksueel getinte inhoud wordt bestraft met een straf van niveau 4;
 - niet-consensuele verspreiding, met kwaadwillig opzet of uit winstbejag, van seksueel getinte inhoud wordt bestraft met een straf van niveau 4;
@@ -764,6 +1241,7 @@ Bewegen van een minderjarige beneden de volle leeftijd van zestien jaar tot het 
 
 Werven van een minderjarige voor ontucht of prostitutie
 Werven van een minderjarige voor ontucht of prostitutie is het, onverminderd de in artikel 258 bedoelde gevallen, rechtstreeks of via een tussenpersoon, opzettelijk aanwerven, meenemen, wegbrengen of bij zich houden van een minderjarige met het oog op het plegen van ontucht of prostitutie.
+
 Dit misdrijf wordt bestraft een straf van niveau 4.
 De geldboete wordt zo veel keer toegepast als er slachtoffers zijn.
 
@@ -825,6 +1303,7 @@ Het eerste lid is van toepassing op:
 - het bewegen van een minderjarige tot het plegen van ontucht of prostitutie bedoeld in de artikelen 152 en 153;
 - het werven van een minderjarige voor ontucht of prostitutie bedoeld in de artikelen 154 en 155;
 - het houden van een huis van ontucht of prostitutie waar een minderjarige ontucht of prostitutie pleegt bedoeld in de artikelen 156 en 157;
+
 - het ter beschikking stellen van een ruimte aan een minderjarige met het oog op ontucht of prostitutie bedoeld in de artikelen 158 en 159;
 - de exploitatie van de ontucht of prostitutie van een minderjarige bedoeld in de artikelen 160 en 161; en - het verkrijgen van de ontucht of de prostitutie van een minderjarige bedoeld in de artikelen 162 en 163.
 
@@ -876,7 +1355,9 @@ Dit misdrijf wordt bestraft met een straf van niveau 3.
 
 ###### Art. 172
 
-Vervaardigen of verspreiden van beelden van seksueel misbruik van minderjarigen in vereniging Indien het vervaardigen of het verspreiden van beelden van seksueel misbruik van minderjarigen een daad van deelneming aan de hoofd- of bijkomende bedrijvigheid van een vereniging betreft, ongeacht of de dader de hoedanigheid van leidend persoon heeft of niet, wordt dit misdrijf bestraft met een straf van niveau 4.
+Vervaardigen of verspreiden van beelden van seksueel misbruik van minderjarigen in vereniging
+
+Indien het vervaardigen of het verspreiden van beelden van seksueel misbruik van minderjarigen een daad van deelneming aan de hoofd- of bijkomende bedrijvigheid van een vereniging betreft, ongeacht of de dader de hoedanigheid van leidend persoon heeft of niet, wordt dit misdrijf bestraft met een straf van niveau 4.
 
 ###### Art. 173
 
@@ -918,7 +1399,9 @@ Dit misdrijf wordt bestraft met een straf van niveau 3.
 
 ###### Art. 178
 
-Bezitten of verwerven van inhoud die bedoeld is om het plegen van een strafbaar feit van seksueel misbruik of seksuele uitbuiting ten nadele van een minderjarige te bevorderen Het bezitten of verwerven van inhoud die bedoeld is om het plegen van een strafbaar feit van seksueel misbruik of seksuele uitbuiting ten nadele van een minderjarige te bevorderen, is het bezitten of verwerven van inhoud die bedoeld is om het plegen van een strafbaar feit van seksueel misbruik of seksuele uitbuiting ten nadele van een minderjarige te bevorderen, te vergemakkelijken of aan te moedigen, met het oogmerk om ten nadele van een minderjarige een strafbaar feit te plegen als bedoeld in dit hoofdstuk.
+Bezitten of verwerven van inhoud die bedoeld is om het plegen van een strafbaar feit van seksueel misbruik of seksuele uitbuiting ten nadele van een minderjarige te bevorderen Het bezitten of verwerven van inhoud die bedoeld is om het plegen van een strafbaar feit van seksueel misbruik of seksuele uitbuiting ten nadele van een minderjarige te bevorderen, is het bezitten of verwerven van inhoud die
+
+bedoeld is om het plegen van een strafbaar feit van seksueel misbruik of seksuele uitbuiting ten nadele van een minderjarige te bevorderen, te vergemakkelijken of aan te moedigen, met het oogmerk om ten nadele van een minderjarige een strafbaar feit te plegen als bedoeld in dit hoofdstuk.
 Dit misdrijf wordt bestraft met een straf van niveau 3.
 
 ###### Art. 179
@@ -966,7 +1449,9 @@ Exhibitionisme in aanwezigheid van een minderjarige of een persoon in een kwetsb
 ###### Art. 186
 
 Verzwarende factoren
-Bij de keuze van de straf of de maatregel en de zwaarte ervan voor een misdrijf bedoeld in deze afdeling houdt de rechter in het bijzonder rekening met het feit dat: - het misdrijf werd gepleegd door een persoon met een openbare functie in het kader van de uitoefening van deze functie;
+Bij de keuze van de straf of de maatregel en de zwaarte ervan voor een misdrijf bedoeld in deze afdeling houdt de rechter in het bijzonder rekening met het feit dat:
+
+- het misdrijf werd gepleegd door een persoon met een openbare functie in het kader van de uitoefening van deze functie;
 - het misdrijf werd gepleegd door een persoon die zich in een gezags- of vertrouwenspositie bevindt ten opzichte van het slachtoffer;
 - het misdrijf werd gepleegd op een minderjarige beneden de volle leeftijd van zestien jaar;
 - het misdrijf werd gepleegd op een minderjarige beneden de volle leeftijd van zestien jaar en is voorafgegaan door een benadering van deze minderjarige vanwege de dader met het oogmerk om op een later tijdstip de in deze afdeling bepaalde feiten te plegen;
@@ -1002,6 +1487,7 @@ Indien daartoe grond bestaat, kan de strafuitvoeringsrechtbank beslissen een in 
 
 Specifieke verboden en ontzettingen
 § 1. In de gevallen omschreven in dit hoofdstuk worden de schuldigen veroordeeld tot de ontzetting uit de rechten bedoeld in artikel 47, eerste lid.
+
 § 2. Onverminderd andere wettelijke bepalingen, kan de rechter in de in dit hoofdstuk bedoelde gevallen de veroordeelde verbieden tijdelijk of levenslang, rechtstreeks of onrechtstreeks een rusthuis, een home, een bejaardenverblijf of elke andere structuur voor gemeenschappelijk verblijf van personen in een kwetsbare toestand uit te baten, of als vrijwilliger, contractueel of statutair personeelslid dan wel als lid van de bestuurs- en beheersorganen deel uit te maken van enige instelling of vereniging waarvan de hoofdactiviteit gericht is op personen in een kwetsbare toestand.
 Onverminderd andere wettelijke bepalingen, kan de rechter in de in dit hoofdstuk bedoelde gevallen wegens feiten gepleegd ten nadele van een minderjarige of met zijn deelneming, de ontzetting uitspreken uit het recht om, voor een termijn van een jaar tot twintig jaar: - in welke hoedanigheid ook deel te nemen aan onderwijs in een openbare of particuliere instelling die minderjarigen opvangt;
 - deel uit te maken, als vrijwilliger, lid van het statutair of contractueel personeel dan wel als lid van de bestuursen beheersorganen, van elke rechtspersoon of feitelijke vereniging waarvan de activiteit in hoofdzaak op minderjarigen gericht is;
@@ -1101,7 +1587,9 @@ Gewelddaden gepleegd op een persoon met een maatschappelijke functie worden, ind
 ###### Art. 203
 
 Uitgelokte gewelddaden
-De gewelddaden zijn uitgelokt indien deze werden gepleegd onder de onmiddellijke invloed van opzettelijk gepleegd, onrechtmatig, ernstig en ogenblikkelijk fysiek of psychisch geweld tegen de persoon van de dader of tegen een derde.
+De gewelddaden zijn uitgelokt indien deze werden gepleegd onder de onmiddellijke invloed van opzettelijk
+
+gepleegd, onrechtmatig, ernstig en ogenblikkelijk fysiek of psychisch geweld tegen de persoon van de dader of tegen een derde.
 Indien op de gewelddaden een straf van niveau 5, 4 of 3 is gesteld, wordt deze vervangen door een straf van niveau 2 wanneer zij zijn uitgelokt.
 Indien op de gewelddaden een straf van niveau 2 is gesteld, wordt deze vervangen door een straf van niveau 1 wanneer zij zijn uitgelokt.
 Indien op de gewelddaden een straf van niveau 1 is gesteld, kan deze straf worden vervangen door een op het misdrijf gestelde bijkomende straf wanneer zij zijn uitgelokt.
@@ -1212,6 +1700,7 @@ De in de bepaling onder 5° bedoelde omstandigheid is niet van toepassing op de 
 
 Vrijheidsberoving
 De vrijheidsberoving is elke opzettelijk gestelde gedraging waardoor men een persoon wederrechtelijk zijn vrijheid van komen en gaan ontneemt of onthoudt door hem te overmeesteren, op te sluiten of enige andere hindernis op te werpen.
+
 Dit misdrijf wordt bestraft met een straf van niveau 3.
 
 ###### Art. 220
@@ -1278,7 +1767,9 @@ Verzwarende factoren
 Bij de keuze van de straf of de maatregel en de zwaarte ervan voor een misdrijf omschreven in dit hoofdstuk neemt de rechter de volgende omstandigheden in overweging:
 1° het feit dat de dader het misdrijf heeft gepleegd door zich te beroepen op een vals bevel van het openbaar gezag of door gebruik te maken van de kledij, herkenningstekens, de naam of hoedanigheid van een agent van het openbaar gezag;
 2° het feit dat de dader het slachtoffer met de dood heeft bedreigd;
-3° het feit dat het misdrijf werd gepleegd door een persoon met een openbare functie, in het kader van de uitoefening van deze functie;
+3° het feit dat het misdrijf werd gepleegd door een persoon met een openbare functie, in het kader van de
+
+uitoefening van deze functie;
 4° het feit dat het misdrijf werd gepleegd omwille van culturele drijfveren, gewoontes, tradities, religie of de zogenaamde "eer".
 
 ### Hoofdstuk 6. Misdrijven tegen de persoonlijke rust en de morele integriteit
@@ -1336,7 +1827,9 @@ Dit misdrijf wordt bestraft met een straf van niveau 2.
 Verzwaarde belaging
 Belaging wordt bestraft met een straf van niveau 3 indien:
 1° het slachtoffer een minderjarige of een persoon in een kwetsbare toestand is;
-2° het misdrijf werd gepleegd door een persoon die zich in een gezags- of vertrouwenspositie bevindt ten opzichte van het slachtoffer;
+2° het misdrijf werd gepleegd door een persoon die zich in een gezags- of vertrouwenspositie bevindt ten
+
+opzichte van het slachtoffer;
 3° het misdrijf werd gepleegd door twee of meer personen.
 
 ###### Art. 239
@@ -1398,6 +1891,7 @@ Lasterlijke of beledigende tenlasteleggingen die aan de zaak of aan de partijen 
 
 Smaad
 Smaad is het met het oogmerk de beschermde persoon belachelijk te maken, smaden door daden, woorden, gebaren of bedreigingen van een minister of staatssecretaris, een parlementslid, een magistraat, een juridisch medewerker van een rechtscollege of het openbaar ministerie, een persoon met een openbare functie, een getuige, een jurylid, een bedienaar van de eredienst of een voorganger in plechtigheden van een nietconfessionele levensbeschouwing, indien het misdrijf is gepleegd naar aanleiding van de uitoefening van deze functie.
+
 Dit misdrijf wordt bestraft met een straf van niveau 1.
 
 ###### Art. 248
@@ -1444,6 +1938,7 @@ Dit misdrijf wordt bestraft met een straf van niveau 2.
 Discriminatie gepleegd door een persoon die een openbare functie uitoefent of in zijn naam gepleegd door middel van een valse handtekening
 § 1. De discriminatie gepleegd door een persoon die een openbare functie uitoefent is het plegen van een discriminatie jegens een persoon, een groep, een gemeenschap of de leden ervan op grond van een of meer beschermde criteria bedoeld in artikel 249, tweede lid, door een persoon met een openbare functie in het kader van de uitoefening van deze functie.
 Dit misdrijf wordt bestraft met een straf van niveau 2.
+
 § 2. Indien de dader bewijst dat hij heeft gehandeld op bevel van zijn meerderen, in zaken die tot hun bevoegdheid behoren en waarin hij hun als ondergeschikte gehoorzaamheid verschuldigd was, worden de straffen enkel toegepast op de meerderen die het bevel hebben gegeven.
 § 3. Indien personen met een openbare functie ervan beticht worden een van voormelde daden van willekeur te hebben bevolen, toegelaten of vergemakkelijkt, en zij beweren dat hun handtekening bij verrassing is verkregen, zijn zij in voorkomend geval verplicht de daad van willekeur te doen ophouden en de schuldige aan te geven; anders worden zij zelf vervolgd.
 § 4. Indien een van voormelde daden van willekeur wordt gepleegd door middel van de valse handtekening van een persoon met een openbare functie, worden de daders van de valsheid en zij die er kwaadwillig of bedrieglijk gebruik van maken, bestraft met een straf van niveau 3.
@@ -1501,6 +1996,7 @@ Mensensmokkel
 ###### Art. 260
 
 Verzwaarde mensenhandel en mensensmokkel
+
 § 1. Mensenhandel en mensensmokkel worden bestraft met een straf van niveau 4 indien:
 1° het misdrijf is gepleegd ten opzichte van een minderjarige of een persoon in een kwetsbare toestand;
 2° het misdrijf is gepleegd door misbruik te maken van de kwetsbare toestand waarin een persoon verkeert ten gevolge van zijn onwettige of precaire administratieve toestand, zijn precaire sociale toestand, zijn leeftijd, zwangerschap, een ziekte dan wel een lichamelijk of een geestelijk gebrek, zodanig dat de betrokken persoon in feite geen andere echte en aanvaardbare keuze heeft dan zich te laten misbruiken;
@@ -1546,6 +2042,7 @@ Het opleggen van die maatregel moet bijzonder gemotiveerd worden en er moet in d
 ###### Art. 264
 
 Verschoningsgrond ten gunste van het slachtoffer van mensenhandel
+
 Het slachtoffer van mensenhandel dat deelneemt aan misdrijven waarop door de wet een straf van niveau 1, 2, 3, 4, 5 of 6 is gesteld als direct gevolg van zijn uitbuiting wordt niet gestraft voor die misdrijven.
 
 #### Afdeling 3. Misbruik van prostitutie
@@ -1594,6 +2091,7 @@ In het geval van misbruik van prostitutie bedoeld in artikel 265, wordt de boete
 Sluiting van de inrichting
 Onverminderd andere wettelijke bepalingen, kan de rechter in de in dit hoofdstuk bedoelde gevallen, ongeacht de hoedanigheid van natuurlijke- of rechtspersoon, van de uitbater, eigenaar, huurder of zaakvoerder, de sluiting van de inrichting bevelen waar de inbreuken werden gepleegd, voor een termijn van één maand tot drie jaar.
 Wanneer de veroordeelde niet de eigenaar, uitbater, huurder of zaakvoerder van de inrichting is, kan de sluiting slechts worden bevolen indien de ernst van de specifieke omstandigheden dit vereist, en dit voor een periode van ten hoogste twee jaar, na dagvaarding op verzoek van het openbaar ministerie, de eigenaar, uitbater, huurder of zaakvoerder van de inrichting.
+
 De dagvaarding voor de rechtbank wordt op verzoek van de gerechtsdeurwaarder die de dagvaarding heeft uitgebracht, overgeschreven in het bevoegde kantoor van de Algemene Administratie van de Patrimoniumdocumentatie van de plaats waar het goed zich bevindt.
 De dagvaarding bevat de gegevens van het betrokken onroerend goed bedoeld in artikel 141 van de Hypotheekwet en de identificatiegegevens van de eigenaar ervan bedoeld in de artikelen 139 en 140 van de Hypotheekwet.
 Elke beslissing wordt op de kant van de overschrijving van het proces-verbaal van de dagvaarding vermeld overeenkomstig de procedure van artikel 84 van de Hypotheekwet. De griffier van het gerecht zendt de uittreksels en de verklaring dat geen hoger beroep werd ingesteld toe aan het bevoegde kantoor van de Algemene Administratie van de Patrimoniumdocumentatie.
@@ -1635,6 +2133,7 @@ Verzwaarde verkoop van kinderen
 § 1. De verkoop van kinderen wordt bestraft met een straf van niveau 4 wanneer deze als doel heeft:
 1° de uitbuiting van prostitutie of andere vormen van seksuele uitbuiting;
 2° de uitbuiting van bedelarij;
+
 3° het verrichten van werk of het verlenen van diensten, in omstandigheden die in strijd zijn met de menselijke waardigheid;
 4° de uitbuiting door het wegnemen van organen of van menselijk lichaamsmateriaal;
 5° deze persoon tegen zijn wil een misdrijf te doen plegen.
@@ -1689,6 +2188,7 @@ Dit misdrijf wordt bestraft met een straf van niveau 4.
 ###### Art. 280
 
 Verzwaard illegaal wegnemen, transplanteren, gebruiken of beheren en ongeoorloofd ronselen van een donor of ontvanger van menselijke organen
+
 § 1. Het illegaal wegnemen, illegaal transplanteren of gebruiken, illegaal beheren en het ongeoorloofd ronselen van een donor of ontvanger van menselijke organen wordt bestraft met een straf van niveau 5 wanneer:
 1° het misdrijf is gepleegd op een minderjarige of een persoon in een kwetsbare toestand;
 2° het misdrijf is gepleegd door een persoon die misbruik heeft gemaakt van het gezag of de faciliteiten die zijn functies hem verlenen;
@@ -1794,6 +2294,7 @@ Verzwaarde huisjesmelkerij
 Huisjesmelkerij wordt bestraft met een straf van niveau 3 wanneer:
 1° van de betrokken activiteit een gewoonte wordt gemaakt;
 2° het een daad van deelneming aan de hoofd- of bijkomende bedrijvigheid van een vereniging betreft, ongeacht of de schuldige de hoedanigheid van leidend persoon heeft of niet.
+
 De geldboete als bijkomende straf bedoeld in artikel 52 kan zo veel keer worden toegepast als er slachtoffers zijn.
 
 ###### Art. 292
@@ -1844,7 +2345,9 @@ De ambtenaar van de burgerlijke stand maakt onverwijld melding van de nietigverk
 Sluiting van de inrichting
 In geval van veroordeling wegens een in dit hoofdstuk omschreven misdrijf kan de rechter daarenboven de definitieve gehele of gedeeltelijke sluiting bevelen van de inrichting waarin het misdrijf werd gepleegd.
 In afwijking van artikel 59 kan de sluiting worden bevolen zonder rekening te houden met de hoedanigheid van de natuurlijke persoon of rechtspersoon als uitbater, eigenaar, huurder of zaakvoerder.
-Wanneer de veroordeelde niet de uitbater, eigenaar, huurder of zaakvoerder van de inrichting is, kan de sluiting enkel worden bevolen indien de ernst van de concrete omstandigheden zulks vereist en na de uitbater, eigenaar, huurder of zaakvoerder van de inrichting te hebben gehoord.
+Wanneer de veroordeelde niet de uitbater, eigenaar, huurder of zaakvoerder van de inrichting is, kan de sluiting
+
+enkel worden bevolen indien de ernst van de concrete omstandigheden zulks vereist en na de uitbater, eigenaar, huurder of zaakvoerder van de inrichting te hebben gehoord.
 
 ###### Art. 298
 
@@ -1962,6 +2465,7 @@ Het verzwaard aanzetten om conversiepraktijken te ondergaan of om andere persone
 ###### Art. 316
 
 Specifiek verbod
+
 De rechtbanken kunnen de personen die veroordeeld zijn voor feiten bedoeld in deze afdeling, voor een maximale duur van vijf jaar, verbieden een beroepsactiviteit of sociale activiteit uit te oefenen die verband houdt met het plegen van de in deze afdeling strafbaar gestelde feiten.
 
 #### Afdeling 4. Verkeersbelemmering
@@ -2035,6 +2539,7 @@ Bij de keuze van de straf of de maatregel en de zwaarte ervan neemt de rechter i
 ###### Art. 328
 
 Verlating van personen
+
 Verlating van personen is het opzettelijk verlaten van een minderjarige of een persoon in een kwetsbare toestand die niet in staat is om in zijn onderhoud te voorzien, waardoor er een onderbreking is van het toezicht of de zorgen die het slachtoffer nodig heeft.
 Dit misdrijf wordt bestraft met een straf van niveau 2.
 
@@ -2144,7 +2649,9 @@ Dit misdrijf wordt bestraft met een straf van niveau 2.
 
 ###### Art. 345
 
-Verzwaard bedrieglijk gebruik van wettig gemaakte opnamen van privécommunicatie of privégegevens van een informaticasysteem Bedrieglijk gebruik van wettig gemaakte opnamen van privécommunicatie of privégegevens van een informaticasysteem wordt bestraft met een straf van niveau 3 wanneer het wordt gepleegd door een persoon met een openbare functie in het kader van de uitoefening van deze functie.
+Verzwaard bedrieglijk gebruik van wettig gemaakte opnamen van privécommunicatie of privégegevens van een informaticasysteem Bedrieglijk gebruik van wettig gemaakte opnamen van privécommunicatie of privégegevens van een
+
+informaticasysteem wordt bestraft met een straf van niveau 3 wanneer het wordt gepleegd door een persoon met een openbare functie in het kader van de uitoefening van deze functie.
 
 ###### Art. 346
 
@@ -2196,7 +2703,9 @@ Dit misdrijf wordt bestraft met een straf van niveau 2.
 ###### Art. 353
 
 Afwijkingen van het beroepsgeheim
-§ 1. Eenieder, die uit hoofde van zijn staat of beroep houder is van geheimen en hierdoor kennis heeft van een misdrijf zoals omschreven in de artikelen 96 tot 101, 134 tot 149, 151 tot 165, 171 tot 174, 194 tot 202, 206 tot 211, 258, 310 tot 315, 328 tot 330, en 333 tot 337, gepleegd op een minderjarige, op een persoon in een kwetsbare toestand in de zin van artikel 79, 2°, of op een persoon in een kwetsbare toestand ten gevolge van partnergeweld of het gebruiken van geweld in naam van culturele drijfveren, gewoontes, religie, tradities of de zogenaamde "eer", kan, onverminderd de verplichtingen hem opgelegd door artikel 299, het misdrijf ter kennis brengen van de procureur des Konings in de volgende gevallen: - hetzij wanneer er een ernstig en dreigend gevaar bestaat voor de fysieke of psychische integriteit van de minderjarige of de bedoelde persoon in een kwetsbare toestand en hij deze integriteit niet zelf of met hulp van anderen kan beschermen;
+§ 1. Eenieder, die uit hoofde van zijn staat of beroep houder is van geheimen en hierdoor kennis heeft van een misdrijf zoals omschreven in de artikelen 96 tot 101, 134 tot 149, 151 tot 165, 171 tot 174, 194 tot 202, 206 tot 211, 258, 310 tot 315, 328 tot 330, en 333 tot 337, gepleegd op een minderjarige, op een persoon in een kwetsbare toestand in de zin van artikel 79, 2°, of op een persoon in een kwetsbare toestand ten gevolge van partnergeweld of het gebruiken van geweld in naam van culturele drijfveren, gewoontes, religie, tradities of de
+
+zogenaamde "eer", kan, onverminderd de verplichtingen hem opgelegd door artikel 299, het misdrijf ter kennis brengen van de procureur des Konings in de volgende gevallen: - hetzij wanneer er een ernstig en dreigend gevaar bestaat voor de fysieke of psychische integriteit van de minderjarige of de bedoelde persoon in een kwetsbare toestand en hij deze integriteit niet zelf of met hulp van anderen kan beschermen;
 - hetzij wanneer er aanwijzingen zijn van een gewichtig en reëel gevaar dat andere minderjarigen of zoals hierboven bedoelde personen in een kwetsbare toestand het slachtoffer zouden worden van de in voormelde artikelen bedoelde misdrijven en hij deze integriteit niet zelf of met hulp van anderen kan beschermen.
 § 2. Er is geen misdrijf wanneer iemand die uit hoofde van zijn staat of beroep houder is van geheimen, deze meedeelt in het kader van een overleg dat wordt georganiseerd, hetzij bij of krachtens een wet, hetzij bij een met redenen omklede toestemming van de procureur des Konings.
 Dit overleg kan uitsluitend worden georganiseerd, hetzij met het oog op de bescherming van de fysieke en psychische integriteit van de persoon of van derden, hetzij ter voorkoming van de terroristische misdrijven bedoeld in titel 4, hoofdstuk 1, of van de misdrijven gepleegd in het raam van een criminele organisatie, bedoeld in artikel 406.
@@ -2236,6 +2745,7 @@ Dit misdrijf wordt bestraft met een straf van niveau 2.
 
 Strafuitsluitende verschoningsgrond
 De in dit hoofdstuk bedoelde gedragingen kunnen niet worden bestraft indien de persoon met een openbare functie die een niet-manifest onrechtmatig bevel uitvoert, heeft gehandeld op bevel van zijn meerderen, in zaken die tot hun bevoegdheid behoren en waarin hij zijn meerdere als ondergeschikte gehoorzaamheid verschuldigd was.
+
 ### Hoofdstuk 10. Misdrijven tegen de burgerlijke staat van personen
 
 #### Afdeling 1. Misdrijven met betrekking tot het bewijs van de burgerlijke staat van kinderen
@@ -2354,7 +2864,9 @@ Terroristisch misdrijf
 13° de poging, in de zin van artikel 9, § 1, tot het plegen van een van de misdrijven bedoeld in de bepalingen onder 1° tot 12°.
 Behalve indien het misdrijf strafbaar is met een straf van niveau 8, worden de straffen voorzien voor de misdrijven opgesomd in het voorgaande lid, vervangen door een straf van het onmiddellijk hoger niveau .
 § 3. Als terroristisch misdrijf wordt onder de voorwaarden bedoeld in paragraaf 1 eveneens aangemerkt:
-1° andere dan in paragraaf 2 bedoelde grootschalige vernieling of beschadiging, of het veroorzaken van een overstroming van een infrastructurele voorziening, een vervoerssysteem, een publiek of privaat eigendom, waardoor mensenlevens in gevaar worden gebracht of aanzienlijke economische schade wordt aangericht;
+1° andere dan in paragraaf 2 bedoelde grootschalige vernieling of beschadiging, of het veroorzaken van een
+
+overstroming van een infrastructurele voorziening, een vervoerssysteem, een publiek of privaat eigendom, waardoor mensenlevens in gevaar worden gebracht of aanzienlijke economische schade wordt aangericht;
 2° het kapen van andere transportmiddelen dan die bedoeld in de bepalingen onder 7° en 8° van paragraaf 2;
 3° het vervaardigen, bezitten, verwerven, vervoeren, of leveren van kernwapens, radiologische wapens of chemische wapens, het gebruik van kernwapens, biologische, radiologische of chemische wapens, alsmede het verrichten van onderzoek in en het ontwikkelen van radiologische of chemische wapens;
 4° het laten ontsnappen van gevaarlijke stoffen waardoor mensenlevens in gevaar worden gebracht;
@@ -2666,7 +3178,10 @@ Dit misdrijf wordt gestraft met een straf van niveau 4.
 
 ###### Art. 417
 
-Gebruik van dwang met het oog op de overdracht van radioactief materiaal of radioactieve instrumenten of van nucleaire installaties Het gebruik van dwang met het oog op de overdracht van radioactief materiaal of radioactieve instrumenten of van nucleaire installaties is dat een persoon opzettelijk en zonder door het bevoegd gezag verleende vergunning, of buiten de hierin gestelde voorwaarden, de overdracht van radioactief materiaal of radioactieve instrumenten of van nucleaire installaties eist door bedreiging, in omstandigheden die deze geloofwaardig maken, of door gebruik van geweld.
+Gebruik van dwang met het oog op de overdracht van radioactief materiaal of radioactieve
+
+instrumenten of van nucleaire installaties
+Het gebruik van dwang met het oog op de overdracht van radioactief materiaal of radioactieve instrumenten of van nucleaire installaties is dat een persoon opzettelijk en zonder door het bevoegd gezag verleende vergunning, of buiten de hierin gestelde voorwaarden, de overdracht van radioactief materiaal of radioactieve instrumenten of van nucleaire installaties eist door bedreiging, in omstandigheden die deze geloofwaardig maken, of door gebruik van geweld.
 Dit misdrijf wordt gestraft met een straf van niveau 3.
 
 ###### Art. 418
@@ -2720,7 +3235,9 @@ Er is geen misdrijf wanneer diegenen die zich op plaatsen die voor het publiek t
 
 ## Titel 5. Valsheden
 
-### Hoofdstuk 1. Bescherming van de munt, van de effecten, van de veiligheidskenmerken en van de zegels, stempels, keurstempels en merken en van de niet-contante betaalinstrumenten.
+### Hoofdstuk 1. Bescherming van de munt, van de effecten, van de veiligheidskenmerken en van de zegels,
+
+stempels, keurstempels en merken en van de niet-contante betaalinstrumenten.
 
 #### Afdeling 1. Betekenis van enkele in dit hoofdstuk gebruikte termen
 
@@ -2766,6 +3283,7 @@ Dit misdrijf wordt bestraft met een straf van niveau 3.
 ###### Art. 430
 
 Overdracht van materiaal bestemd tot het vervaardigen van de munt of van de veiligheidskenmerken Overdracht van materiaal bestemd tot het vervaardigen van de munt of van de veiligheidskenmerken is het met bedrieglijk opzet ontvangen, zich aanschaffen of in bezit hebben van: - het nagemaakte of vervalste materiaal bestemd tot het vervaardigen van de munt;
+
 - het echte materiaal bestemd tot het vervaardigen van de munt;
 - de veiligheidskenmerken.
 Dit misdrijf wordt bestraft met een straf van niveau 2.
@@ -2930,7 +3448,10 @@ Dit misdrijf wordt bestraft met een straf van niveau 1.
 
 ###### Art. 454
 
-Niet-eerbiediging van een beslissing tot intrekking van een paspoort, een identiteitskaart of een als zodanig geldend document Niet-eerbiediging van een beslissing tot intrekking van een paspoort, een identiteitskaart of een als zodanig geldend document is het opzettelijk geen gevolg geven aan een door de bevoegde overheid genomen beslissing tot intrekking van een paspoort, een identiteitskaart of een als zodanig geldend document binnen de opgelegde termijn.
+Niet-eerbiediging van een beslissing tot intrekking van een paspoort, een identiteitskaart of een als
+
+zodanig geldend document
+Niet-eerbiediging van een beslissing tot intrekking van een paspoort, een identiteitskaart of een als zodanig geldend document is het opzettelijk geen gevolg geven aan een door de bevoegde overheid genomen beslissing tot intrekking van een paspoort, een identiteitskaart of een als zodanig geldend document binnen de opgelegde termijn.
 Dit misdrijf wordt bestraft met een straf van niveau 1.
 
 ### Hoofdstuk 3. Aanmatiging van functies, titels of een naam
@@ -3069,6 +3590,7 @@ Diefstal van kernmateriaal met geweld of bedreiging en afpersing van kernmateria
 
 Verzwaarde diefstal van kernmateriaal met geweld of bedreiging en verzwaarde afpersing van kernmateriaal
 § 1. Diefstal van kernmateriaal met geweld of bedreiging en afpersing van kernmateriaal wordt bestraft met een straf van niveau 5 indien:
+
 1° de daders of een van hen een valse identiteit of hoedanigheid hebben aangenomen of een vals bevel van het openbaar gezag hebben ingeroepen;
 2° het misdrijf werd gepleegd bij nacht;
 3° het misdrijf werd gepleegd door twee of meer personen.
@@ -3124,7 +3646,9 @@ In de gevallen bedoeld in dit artikel vermindert de rechter, op vordering van ee
 ###### Art. 479
 
 Oplichting
-Oplichting is het met bedrieglijk opzet beogen te verwerven van een onrechtmatig economisch voordeel voor zichzelf of voor een ander, hetzij door gebruik te maken van valse namen of valse hoedanigheden, hetzij door listige kunstgrepen aan te wenden om andermans vertrouwen op slinkse wijze te winnen.
+Oplichting is het met bedrieglijk opzet beogen te verwerven van een onrechtmatig economisch voordeel voor zichzelf of voor een ander, hetzij door gebruik te maken van valse namen of valse hoedanigheden, hetzij door
+
+listige kunstgrepen aan te wenden om andermans vertrouwen op slinkse wijze te winnen.
 Dit misdrijf wordt bestraft met een straf van niveau 3.
 
 ###### Art. 480
@@ -3181,7 +3705,9 @@ Dit misdrijf wordt bestraft met een straf van niveau 1.
 
 Actieve en passieve private omkoping
 § 1. Passieve private omkoping is het opzettelijk, door een bestuurder of zaakvoerder van een rechtspersoon of door een lasthebber of aangestelde van een rechtspersoon of van een natuurlijke persoon, rechtstreeks of door tussenpersonen, voor zichzelf of voor een derde, vragen, aannemen of ontvangen van een aanbod, een belofte of een voordeel van welke aard dan ook, om zonder medeweten en zonder machtiging van, naar gelang van het geval, de raad van bestuur of de algemene vergadering, de lastgever of de werkgever, een handeling van zijn functie of een door zijn functie vergemakkelijkte handeling te verrichten of na te laten.
-§ 2. Actieve private omkoping is het opzettelijk, rechtstreeks of door tussenpersonen, voorstellen aan een bestuurder of zaakvoerder van een rechtspersoon of aan een lasthebber of aangestelde van een rechtspersoon of van een natuurlijke persoon, van een aanbod, een belofte of een voordeel van welke aard dan ook voor zichzelf of voor een derde, om zonder medeweten en zonder machtiging van, naar gelang van het geval, de raad van bestuur of de algemene vergadering, de lastgever of de werkgever, een handeling van zijn functie of een door zijn functie vergemakkelijkte handeling te verrichten of na te laten.
+§ 2. Actieve private omkoping is het opzettelijk, rechtstreeks of door tussenpersonen, voorstellen aan een bestuurder of zaakvoerder van een rechtspersoon of aan een lasthebber of aangestelde van een rechtspersoon of van een natuurlijke persoon, van een aanbod, een belofte of een voordeel van welke aard dan ook voor zichzelf of voor een derde, om zonder medeweten en zonder machtiging van, naar gelang van het geval, de raad van bestuur of de algemene vergadering, de lastgever of de werkgever, een handeling van zijn functie of een
+
+door zijn functie vergemakkelijkte handeling te verrichten of na te laten.
 § 3. Actieve of passieve private omkoping wordt bestraft met een straf van niveau 2.
 
 ##### Onderafdeling 4. Bedrog met behulp van een informaticasysteem
@@ -3233,7 +3759,9 @@ De poging tot het misdrijf bedoeld in dit artikel is niet strafbaar.
 ###### Art. 493
 
 Ontrouw in het beheer van het faillissement
-Ontrouw in het beheer van het faillissement is het, met bedrieglijk opzet, aantasten van de belangen die door het instituut van het faillissement moeten worden beschermd door een curator in het kader van de uitoefening van deze functie.
+Ontrouw in het beheer van het faillissement is het, met bedrieglijk opzet, aantasten van de belangen die door
+
+het instituut van het faillissement moeten worden beschermd door een curator in het kader van de uitoefening van deze functie.
 Dit misdrijf wordt bestraft met een straf van niveau 3.
 De curator wordt daarenboven veroordeeld tot teruggave en schadeloosstelling die aan de boedel zijn verschuldigd.
 
@@ -3292,6 +3820,7 @@ Uitgifte van cheques zonder dekking
 Uitgifte van cheques zonder dekking is een van de volgende gedragingen:
 1° het opzettelijk uitgeven van een cheque of enig andere titel die gelijkgesteld is met een cheque, zonder toereikende en beschikbare dekking;
 2° het opzettelijk overdragen van een van deze titels, wetende dat de dekking niet toereikend en beschikbaar is;
+
 3° het, na een van deze titels te hebben uitgegeven, opzettelijk geheel of gedeeltelijk afhalen van hun dekking in de loop van de aanbiedingstermijn;
 4° het, na een van deze titels te hebben uitgegeven, met bedrieglijk opzet of met het oogmerk te schaden, geheel of ten dele onbeschikbaar maken of afhalen van de dekking.
 Dit misdrijf wordt bestraft met een straf van niveau 1.
@@ -3409,6 +3938,7 @@ Vandalisme met ernstige schade tot gevolg wordt bestraft met een straf van nivea
 
 Vandalisme aan een goed met een bijzonder belang
 Vandalisme aan een goed met een bijzonder belang is het vandalisme aan een gebouw, maatschappelijke infrastructuur, een vervoermiddel, één of meer bomen, een bos, een natuurgebied, een boomgaard of een akker.
+
 Dit misdrijf wordt bestraft met een straf van niveau 2.
 Indien het misdrijf ernstige schade tot gevolg heeft, wordt het bestraft met een straf van niveau 3.
 
@@ -3478,7 +4008,9 @@ In afwijking van artikel 9, § 1, vierde lid, wordt de poging tot het plegen van
 
 ###### Art. 528
 
-Bezit of terbeschikkingstelling van een instrument dat hacking mogelijk moet maken Bezit of terbeschikkingstelling van een instrument dat hacking mogelijk moet maken is het onrechtmatig, opzettelijk, bezitten, produceren, verkopen, verkrijgen met het oog op het gebruik ervan, invoeren, verspreiden of op enige andere manier ter beschikking stellen van een instrument, met inbegrip van informaticagegevens, dat hoofdzakelijk is ontworpen of aangepast om het plegen van een van de misdrijven bedoeld in de artikelen 524 tot 527 mogelijk te maken.
+Bezit of terbeschikkingstelling van een instrument dat hacking mogelijk moet maken Bezit of terbeschikkingstelling van een instrument dat hacking mogelijk moet maken is het onrechtmatig,
+
+opzettelijk, bezitten, produceren, verkopen, verkrijgen met het oog op het gebruik ervan, invoeren, verspreiden of op enige andere manier ter beschikking stellen van een instrument, met inbegrip van informaticagegevens, dat hoofdzakelijk is ontworpen of aangepast om het plegen van een van de misdrijven bedoeld in de artikelen 524 tot 527 mogelijk te maken.
 Dit misdrijf wordt bestraft met een straf van niveau 2.
 
 ###### Art. 529
@@ -3541,6 +4073,7 @@ Dit misdrijf wordt bestraft met een straf van niveau 1.
 ###### Art. 537
 
 Reclame maken voor een illegale loterij
+
 Reclame maken voor een illegale loterij is het opzettelijk in het openbaar verspreiden van aankondigingen of reclame voor een illegale loterij.
 Dit misdrijf wordt bestraft met een straf van niveau 1.
 
@@ -3605,7 +4138,9 @@ Dit misdrijf wordt bestraft met een straf van niveau 2.
 
 ###### Art. 546
 
-Aanvaarding van buitenlandse steun aan ondermijning van de essentiële nationale belangen Aanvaarding van buitenlandse steun aan ondermijning van de essentiële nationale belangen is het beïnvloeden of trachten te beïnvloeden van een democratisch beslissingsproces, met het oogmerk om de democratische en grondwettelijke orde, de soevereiniteit of onafhankelijkheid van het Rijk, de veiligheid van de Staat, de verdediging van het Rijk, de internationale betrekkingen, het economisch of wetenschappelijk potentieel van het land of de werking van de besluitvormingsorganen van de Staat aan te tasten, ten dienste van een vreemde Staat of een persoon, onderneming of organisatie, uit het buitenland of onder controle van een vreemde Staat of van een persoon, onderneming of organisatie uit het buitenland:
+Aanvaarding van buitenlandse steun aan ondermijning van de essentiële nationale belangen Aanvaarding van buitenlandse steun aan ondermijning van de essentiële nationale belangen is het beïnvloeden
+
+of trachten te beïnvloeden van een democratisch beslissingsproces, met het oogmerk om de democratische en grondwettelijke orde, de soevereiniteit of onafhankelijkheid van het Rijk, de veiligheid van de Staat, de verdediging van het Rijk, de internationale betrekkingen, het economisch of wetenschappelijk potentieel van het land of de werking van de besluitvormingsorganen van de Staat aan te tasten, ten dienste van een vreemde Staat of een persoon, onderneming of organisatie, uit het buitenland of onder controle van een vreemde Staat of van een persoon, onderneming of organisatie uit het buitenland:
 1° door onwettige of frauduleuze middelen;
 2° het ontvangen van giften of enig ander voordeel van een buitenlandse persoon of organisatie dat geheel of gedeeltelijk bestemd is om in het Rijk activiteiten die de voormelde belangen kunnen aantasten, te ontplooien.
 Dit misdrijf wordt bestraft met een straf van niveau 3.
@@ -3650,6 +4185,7 @@ Er is geen sprake van een demonstratie in de buurt van een wetgevende vergaderin
 
 Aanslag op het leven van de Koning of de vermoedelijke troonopvolger
 De aanslag op het leven van de Koning of de vermoedelijke troonopvolger is elke aanslag die gericht is tegen het leven van de Koning of de vermoedelijke troonopvolger.
+
 Dit misdrijf wordt bestraft met een straf van niveau 8.
 
 ###### Art. 552
@@ -3715,6 +4251,7 @@ Dit misdrijf wordt bestraft met een straf van:
 
 Voorstel tot samenspanning tegen de monarchie
 Het voorstel tot samenspanning tegen de monarchie is het opzettelijk voorstellen om samen te spannen tegen het leven of de persoon van de Koning of de vermoedelijke troonopvolger, zonder dat dit voorstel wordt aangenomen.
+
 Dit misdrijf wordt bestraft met een straf van niveau 2.
 
 ###### Art. 561
@@ -3830,7 +4367,9 @@ Dit misdrijf, alsook de poging tot het plegen van het misdrijf vermeld onder 2°
 ###### Art. 575
 
 Propaganderen tegen het verzet
-Propaganderen tegen het verzet is het opzettelijk leiden, voeren, uitlokken, helpen of begunstigen van enige propaganda gericht tegen het verzet tegen de vijand of zijn bondgenoten of die ertoe strekt steun aan de politiek of doelstellingen van de vijand of het doen wankelen van de trouw van de burgers aan de Staat en zijn grondwettelijke instellingen in oorlogstijd te verwekken.
+Propaganderen tegen het verzet is het opzettelijk leiden, voeren, uitlokken, helpen of begunstigen van enige
+
+propaganda gericht tegen het verzet tegen de vijand of zijn bondgenoten of die ertoe strekt steun aan de politiek of doelstellingen van de vijand of het doen wankelen van de trouw van de burgers aan de Staat en zijn grondwettelijke instellingen in oorlogstijd te verwekken.
 Dit misdrijf wordt bestraft met een straf van niveau 6.
 
 #### Afdeling 6. Misdrijven met betrekking tot staatsgeheimen
@@ -3876,7 +4415,9 @@ Dit misdrijf wordt bestraft met een straf van niveau 4.
 
 Reproductie, bekendmaking of overdacht aan onbevoegden van een staatsgeheim met betrekking tot de verdediging van het grondgebied of de uitwendige veiligheid van de Staat Reproductie, bekendmaking of overdracht aan onbevoegden van een staatsgeheim met betrekking tot de verdediging van het grondgebied of de uitwendige veiligheid van de Staat is het opzettelijk, geheel of ten dele
 1° in origineel of reproductie, overleveren of meedelen aan een persoon die onbevoegd is om die in ontvangst te nemen of er kennis van te nemen;
-2° zonder toelating van de bevoegde overheid reproduceren, openbaar of bekendmaken; van een staatsgeheim dat geheim moeten worden gehouden in het belang van de verdediging van het grondgebied of van de uitwendige veiligheid van de Staat, alsook de poging om dit te doen.
+2° zonder toelating van de bevoegde overheid reproduceren, openbaar of bekendmaken;
+
+van een staatsgeheim dat geheim moeten worden gehouden in het belang van de verdediging van het grondgebied of van de uitwendige veiligheid van de Staat, alsook de poging om dit te doen.
 Dit misdrijf wordt bestraft met een straf van niveau 4.
 
 ###### Art. 584
@@ -3922,6 +4463,7 @@ Deze bepaling laat de toepassing van artikel 19 onverlet.
 ###### Art. 591
 
 Opnames of opmetingen maken van militaire installaties, militaire domeinen of militaire communicatie of de verspreiding hiervan Opnames of opmetingen maken van militaire installaties, militaire domeinen of militaire communicatie of de verspreiding hiervan is het opzettelijk, zonder vergunning van de militaire overheid afgeleverd onder de voorwaarden bepaald door de minister van Landsverdediging:
+
 1° maken van beeld- of andere opnames, het beschrijven van of doen van topografische of andere opmetingen of verrichtingen van een militaire installatie of een militair domein, ongeacht het procedé waarmee deze installaties of domeinen worden afgebeeld, geregistreerd of opgemeten, alsook de poging daartoe;
 2° publiceren, reproduceren, uitgeven, tentoonstellen, verkopen of verspreiden van al dan niet volledige opnames, beschrijvingen, opmetingen of andere verrichtingen bedoeld in de bepaling onder 1°, ongeacht het gebruikte medium, alsook de poging daartoe;
 3° maken van opnames of beschrijven van communicatie met betrekking tot de uitvoering van militaire operaties of oefeningen, alsook het publiceren, reproduceren, uitgeven, verkopen of verspreiden van deze opnames of beschrijvingen, alsook de poging daartoe.
@@ -4044,6 +4586,7 @@ Dit misdrijf wordt bestraft met een straf van niveau 3.
 
 Voorbereiding van de ondersteuning van de vijand
 Voorbereiding van de ondersteuning van de vijand is de samenspanning ter ondersteuning van de vijand die is gevolgd door enige opzettelijk aangenomen gedraging om de uitvoering ervan voor te bereiden.
+
 Dit misdrijf wordt bestraft met een straf van niveau 5.
 
 ###### Art. 610
@@ -4162,7 +4705,9 @@ Dit misdrijf wordt bestraft met een straf van niveau 2.
 ###### Art. 627
 
 Beramen van maatregelen in strijd met de geldende normen
-Het beramen van maatregelen in strijd met de geldende normen is het beramen van maatregelen in strijd met de vigerende wetten of uitvoeringsbesluiten door een persoon met een openbare functie, hetzij op bijeenkomsten, hetzij via onderlinge communicatie, met kwaad opzet of met het oogmerk de openbare dienst te ontwrichten door de normale werking ervan lam te leggen.
+Het beramen van maatregelen in strijd met de geldende normen is het beramen van maatregelen in strijd met
+
+de vigerende wetten of uitvoeringsbesluiten door een persoon met een openbare functie, hetzij op bijeenkomsten, hetzij via onderlinge communicatie, met kwaad opzet of met het oogmerk de openbare dienst te ontwrichten door de normale werking ervan lam te leggen.
 Dit misdrijf wordt bestraft met een straf van niveau 2.
 
 ###### Art. 628
@@ -4331,7 +4876,9 @@ Dit misdrijf wordt bestraft met een straf van niveau 3.
 ###### Art. 648
 
 Valse verklaring
-Valse verklaring is het met bedrieglijk opzet of met het oogmerk om te schaden afleggen van een verklaring als inlichting tegenover een onderzoeksrechter of een vonnisgerecht, waarbij de waarheid wordt verdraaid en die een voordeel of nadeel kan opleveren voor een van de andere partijen in het geding.
+Valse verklaring is het met bedrieglijk opzet of met het oogmerk om te schaden afleggen van een verklaring als inlichting tegenover een onderzoeksrechter of een vonnisgerecht, waarbij de waarheid wordt verdraaid en die
+
+een voordeel of nadeel kan opleveren voor een van de andere partijen in het geding.
 Dit misdrijf wordt bestraft met een straf van niveau 2.
 
 ###### Art. 649
@@ -4459,6 +5006,7 @@ Dit misdrijf wordt bestraft met een straf van niveau 2.
 ###### Art. 667
 
 Verzwaarde zegelverbreking
+
 De zegelverbreking wordt bestraft met een straf van niveau 3 indien:
 1° dit misdrijf wordt gepleegd met gebruik van geweld of bedreigingen, of;
 2° het misdrijf wordt gepleegd door de bewaarder van de verzegelde zaak of de persoon met een openbare functie die de verzegeling heeft gelast of verricht.
@@ -4578,7 +5126,9 @@ Niet-naleving van de regeling omtrent het omgangsrecht is het opzettelijk door e
 1° de rechterlijke beslissing over de bewaring van het minderjarig kind genomen tijdens of ten gevolge van een geding tot echtscheiding of tot scheiding van tafel en bed, hetzij in andere bij de wet bepaalde omstandigheden, of;
 2° de aan de rechtspleging voorafgaande minnelijke schikking over de bewaring van het minderjarig kind, vanaf de datum van de overschrijving van de echtscheiding door onderlinge toestemming.
 Deze gedraging is strafbaar indien dit gebeurt door:
-1° het minderjarig kind te onttrekken aan de bewaring van hen aan wie het krachtens de rechterlijke beslissing of minnelijke schikking is toevertrouwd, of de poging daartoe;
+1° het minderjarig kind te onttrekken aan de bewaring van hen aan wie het krachtens de rechterlijke beslissing
+
+of minnelijke schikking is toevertrouwd, of de poging daartoe;
 2° het minderjarig kind niet af te geven aan diegene die het recht heeft het op te eisen, of;
 3° het minderjarig kind te ontvoeren, zelfs met zijn toestemming.
 Dit misdrijf wordt bestraft met een straf van niveau 2.
@@ -4618,6 +5168,7 @@ Onder elektronisch toezichtsmateriaal moet worden verstaan het geheel aan elektr
 
 Niet-naleving van een straf bestaande uit een verbod
 Niet-naleving van een straf bestaande uit een verbod is het opzettelijk overtreden van een van de volgende straffen:
+
 1° het verbod om een activiteit die deel uitmaakt van het voorwerp uit te oefenen, bedoeld in artikel 57;
 2° het beroepsverbod, bedoeld in artikel 48 of enig ander beroepsverbod dat op basis van dit wetboek kan worden opgelegd;
 3° het verval van het recht tot sturen, bedoeld in artikel 49;
@@ -4730,7 +5281,9 @@ In artikel 7, § 2, tweede lid, van dezelfde voorafgaande titel , vervangen bij 
 
 ###### Art. 14
 
-In artikel 10 van dezelfde voorafgaande titel , laatstelijk gewijzigd bij de wet van 15 juli 2013, worden de volgende wijzigingen aangebracht:
+In artikel 10 van dezelfde voorafgaande titel , laatstelijk gewijzigd bij de wet van 15 juli 2013, worden de
+
+volgende wijzigingen aangebracht:
 1° in de bepaling onder 1°, worden de woorden "Aan een misdaad of een wanbedrijf tegen de veiligheid van de Staat" vervangen door de woorden "Aan een misdrijf tegen de landsverdediging en de essentiële belangen van België of tegen de internationale betrekkingen";
 2° in de bepaling onder 1° bis, eerste lid, worden de woorden "in boek II, titel Ibis van het Strafwetboek" vervangen door de woorden "in boek II, titel 1, van het Strafwetboek";
 3° in de bepaling onder 1° bis, derde lid, 2°, worden de woorden "bedoeld in boek II, titel Ibis, van het Strafwetboek" vervangen door de woorden "bedoeld in boek II, titel 1, van het Strafwetboek";
@@ -4831,7 +5384,9 @@ In artikel 47novies/1 van hetzelfde Wetboek, ingevoegd bij de wet van 22 juli 20
 
 ###### Art. 31
 
-In artikel 47novies/2, § 4, van hetzelfde Wetboek, ingevoegd bij de wet van 22 juli 2018, worden de woorden "artikel 458" vervangen door de woorden "artikel 352".
+In artikel 47novies/2, § 4, van hetzelfde Wetboek, ingevoegd bij de wet van 22 juli 2018, worden de
+
+woorden "artikel 458" vervangen door de woorden "artikel 352".
 
 ###### Art. 32
 
@@ -4897,6 +5452,7 @@ In artikel 90ter van hetzelfde Wetboek, ingevoegd bij de wet van 30 juni 1994 en
 14° de artikelen 134 tot 149 van hetzelfde Wetboek;
 15° artikel 151 van hetzelfde Wetboek;
 16° de artikelen 152 tot 165, 171 en 172, 265, 268 van hetzelfde Wetboek;
+
 17° artikel 96 van hetzelfde Wetboek;
 18° de artikelen 97 en 98 van hetzelfde Wetboek;
 19° de artikelen 223 tot 225 van hetzelfde Wetboek;
@@ -4937,7 +5493,9 @@ In artikel 90quater van hetzelfde Wetboek ingevoegd bij de wet van 30 juni 1994,
 
 ###### Art. 44
 
-In artikel 91bis, eerste lid, van hetzelfde Wetboek, hersteld bij de wet van 13 april 1995 en laatstelijk gewijzigd bij de wet van 21 maart 2022, worden de woorden "artikelen 347bis, 417/7 tot 417/22, 417/24 tot 417/47, 417/52 tot 417/54, 417/56, 433quater/1, 433quater/4, 398 tot 405ter, 409, 410, 422bis, 422ter, 423, 425, 426, 428, 433quinquies tot 433octies van het Strafwetboek, en de artikelen 77bis tot 77quinquies van de wet van 15 december 1980 betreffende de toegang tot het grondgebied, het verblijf, de vestiging en de verwijdering van vreemdelingen" vervangen door de woorden "artikelen 134 tot 149, 151 tot 174, 183 tot 185, 187, 194 tot 198, 200, 201, 206 tot 211, 223 tot 225, 226 tot 229, 265, 268, 299 tot 304, 328 tot 330, 333 tot 335, 336 en 337 van het Strafwetboek".
+In artikel 91bis, eerste lid, van hetzelfde Wetboek, hersteld bij de wet van 13 april 1995 en laatstelijk gewijzigd bij de wet van 21 maart 2022, worden de woorden "artikelen 347bis, 417/7 tot 417/22, 417/24 tot
+
+417/47, 417/52 tot 417/54, 417/56, 433quater/1, 433quater/4, 398 tot 405ter, 409, 410, 422bis, 422ter, 423, 425, 426, 428, 433quinquies tot 433octies van het Strafwetboek, en de artikelen 77bis tot 77quinquies van de wet van 15 december 1980 betreffende de toegang tot het grondgebied, het verblijf, de vestiging en de verwijdering van vreemdelingen" vervangen door de woorden "artikelen 134 tot 149, 151 tot 174, 183 tot 185, 187, 194 tot 198, 200, 201, 206 tot 211, 223 tot 225, 226 tot 229, 265, 268, 299 tot 304, 328 tot 330, 333 tot 335, 336 en 337 van het Strafwetboek".
 
 ###### Art. 45
 
@@ -4994,7 +5552,9 @@ In artikel 216bis, § 2, van hetzelfde Wetboek, worden in het tiende lid, ingevo
 
 ###### Art. 57
 
-In artikel 216ter, § 6, zevende lid, van hetzelfde Wetboek, ingevoegd bij de wet van 10 februari 1994 en vervangen bij de wet van 18 maart 2018, worden de woorden "in artikel 460ter" vervangen door de woorden "in artikel 669".
+In artikel 216ter, § 6, zevende lid, van hetzelfde Wetboek, ingevoegd bij de wet van 10 februari 1994 en
+
+vervangen bij de wet van 18 maart 2018, worden de woorden "in artikel 460ter" vervangen door de woorden "in artikel 669".
 
 ###### Art. 58
 
@@ -5122,7 +5682,9 @@ In artikel 1253ter/5, derde lid, van hetzelfde Wetboek, ingevoegd bij de wet van
 
 ###### Art. 85
 
-In artikel 1253sexies, § 2, van hetzelfde Wetboek, ingevoegd bij de wet van 14 juli 1976, worden de woorden "van artikel 507 van het Strafwetboek" vervangen door de woorden "van artikel 665 van het Strafwetboek".
+In artikel 1253sexies, § 2, van hetzelfde Wetboek, ingevoegd bij de wet van 14 juli 1976, worden de woorden "van artikel 507 van het Strafwetboek" vervangen door de woorden "van artikel 665 van het
+
+Strafwetboek".
 
 ###### Art. 86
 
@@ -5183,7 +5745,9 @@ In artikel 25, § 2, d), van de wet van 17 mei 2006 betreffende de externe recht
 
 In artikel 26, § 2, d), van dezelfde wet, laatstelijk gewijzigd bij de wet van 4 mei 2020, worden de volgende wijzigingen aangebracht:
 1° het eerste streepje wordt vervangen als volgt:
-"artikelen 82 tot 88, 90 tot 92, 96 tot 98, 100, 101, 112 tot 119, 121 tot 127, 134 tot 149, 151 tot 166, 171 tot 174, 183, 185, 196, 197, 198, 200, eerste lid, 2° tot 4°, 201, eerste lid, 2° tot 4°, 202, 2° tot 4°, 206 tot 212, 214, 215, 219 tot 222, 223 tot 225, 227 tot 229, 230, 231, 232, 233, 236, 258 tot 261, 265, 288, 289, 290, 291, 307 en 308, 318 tot 321, 322 tot 324, 328 tot 331, 333 tot 335, 338, 339, 371, 373 tot 375, 384 tot 386, 404 en 405, 407 tot 409, 413, §§ 1, 1° en 2, 464, 469, §§ 1, 4°, 2 en 3, 473, §§ 2, 3° en 3, 509, 520, 523, 552, 557 tot 560, 685, tweede streepje van het Strafwetboek";
+"artikelen 82 tot 88, 90 tot 92, 96 tot 98, 100, 101, 112 tot 119, 121 tot 127, 134 tot 149, 151 tot 166, 171 tot 174, 183, 185, 196, 197, 198, 200, eerste lid, 2° tot 4°, 201, eerste lid, 2° tot 4°, 202, 2° tot 4°, 206 tot 212, 214, 215, 219 tot 222, 223 tot 225, 227 tot 229, 230, 231, 232, 233, 236, 258 tot 261, 265, 288, 289, 290, 291, 307 en 308, 318 tot 321, 322 tot 324, 328 tot 331, 333 tot 335, 338, 339, 371, 373 tot 375, 384 tot 386, 404 en 405, 407 tot 409, 413, §§ 1, 1° en 2, 464, 469, §§ 1, 4°, 2 en 3, 473, §§ 2, 3° en 3, 509, 520, 523, 552,
+
+557 tot 560, 685, tweede streepje van het Strafwetboek";
 2° het tweede streepje en het zesde streepje worden opgeheven.
 
 ###### Art. 99
@@ -5246,7 +5810,9 @@ In artikel XX.25, § 3, tweede lid, van hetzelfde Wetboek, ingevoegd bij de wet 
 
 ###### Art. 112
 
-In artikel XX.154 van hetzelfde Wetboek, ingevoegd bij de wet van 11 augustus 2017, worden de woorden "in de artikelen 489, 489bis, 489ter, 490bis of 492bis" vervangen door de woorden "in de artikelen 476, 490, 491 of 496".
+In artikel XX.154 van hetzelfde Wetboek, ingevoegd bij de wet van 11 augustus 2017, worden de
+
+woorden "in de artikelen 489, 489bis, 489ter, 490bis of 492bis" vervangen door de woorden "in de artikelen 476, 490, 491 of 496".
 
 #### Afdeling 8. - Wijzigingen van verscheidene teksten die nodig zijn wegens de hervorming van het Strafwetboek
 
@@ -5298,6 +5864,7 @@ r) artikel 450, laatste lid;
 s) in artikel 453, de woorden ", en onder dezelfde straffen";
 t) in artikel 463, tweede lid, de woorden ", op straffe van geldboete van vijftig frank tegen de griffier";
 u) artikel 464/12, § 3, tweede en derde lid, ingevoegd bij de wet van 11 februari 2014 en gewijzigd bij wet van 28 november 2021;
+
 v) artikel 464/24, § 3, eerste lid, ingevoegd bij de wet van 11 februari 2014 en gewijzigd bij de wet van 18 maart 2018;
 3° de wet van 12 december 1817 houdende bepaling van straffen tegen de genen, die niet aan den militairen rechtsdwang onderworpen, de desertie van het krijgsvolk begunstigen;
 4° in het decreet van 20 juli 1831 op de drukpers:

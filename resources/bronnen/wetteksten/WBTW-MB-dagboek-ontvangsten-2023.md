@@ -1,47 +1,50 @@
 ---
-tags: [VI.C, '2.4']
-itaa-lex-sectie: VI.C
-wet: M.B. 17 maart 2023 betreffende de vaststelling van de modaliteiten voor het bijhouden van een elektronisch dagboek van ontvangsten en de bewaring van elektronische kastickets
-bron_rol: itaa_lex
-status: beschikbaar
 bijgewerkt: '2023'
 bron: Fisconetplus.be (officieuze gecoördineerde versie)
+bron_rol: itaa_lex
 chunk:
   level: 2
+  sub_strategy: null
   type: Art.
-  sub_strategy:
+itaa-lex-sectie: VI.C
 provenance:
+  generated_at: '2026-05-11T16:21:51Z'
   inputs:
-    - id: resources/raw/wetteksten/btw-kbs/WBTW-MB-dagboek-ontvangsten-2023.pdf
-      sha256: cd61a57a107e3959efafea39d3a999979703da0be22e70f146d17fdce3c0d927
-      version: '2023'
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 7a134f4
-    model:
-    prompt_version:
-  generated_at: '2026-05-09T16:15:20Z'
+  - id: resources/raw/wetteksten/btw-kbs/WBTW-MB-dagboek-ontvangsten-2023.pdf
+    sha256: cd61a57a107e3959efafea39d3a999979703da0be22e70f146d17fdce3c0d927
+    version: '2023'
   stale: false
-  stale_reason:
+  stale_reason: null
+  tooling:
+    model: null
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version: null
   trust:
-    status: trusted
-    confirmed_at: '2026-05-09T21:27:46Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "L1=pass; L1.5=improvement (Auto-synthesized: heading-injection (inject_wbtw_headings.py) — staging is structureel beter dan resources-versie.); L2=trusted (ETL-fix toegepast: inject_wbtw_headings.py heeft TOC-strip + Artikel-N → ## Art. heading-injectie + AFDELING-normalisatie uitgevoerd. Eerdere needs-rework op 'missing-section' opgeheven.)"
+    confirmed_at: null
+    confirmed_by: null
     layer1:
-      status: pass
-      run_id: 20260511-134044
-      run_at: '2026-05-11T13:40:48Z'
-      heading_count: 9
-      max_section_chars: 3942
       file_size_chars: 7405
       flags: []
+      heading_count: 9
+      max_section_chars: 3942
+      run_at: '2026-05-11T13:40:48Z'
+      run_id: 20260511-134044
+      status: pass
     layer2:
-      status: trusted
-      agent:
-      run_at:
-      rationale: 'Korte MB met 9 ##-Art. headings, max sectie 3942 chars. Inhoud leesbaar, slot Art. 9 (inwerkingtreding) aanwezig.'
+      agent: null
       concrete_problemen: []
+      rationale: null
+      run_at: null
+      status: not_run
+    rationale: 'Trust gereset 2026-05-11: ETL-fix wetteksten met content-diff > 5%'
+    status: unreviewed
+status: beschikbaar
+tags:
+- VI.C
+- '2.4'
+wet: M.B. 17 maart 2023 betreffende de vaststelling van de modaliteiten voor het bijhouden
+  van een elektronisch dagboek van ontvangsten en de bewaring van elektronische kastickets
 ---
 
 # BTW MB 17/03/2023 — Elektronisch dagboek ontvangsten en kastickets
@@ -54,30 +57,7 @@ Titel
 
 Bron : FINANCIEN
 
-## Art. 1
-
-Het dagboek van ontvangsten, bedoeld in artikel 14, § 2, 3°, van het koninklijk besluit nr. 1 van 29 december 1992 met betrekking tot de regeling voor de voldoening van de belasting over de toegevoegde waarde, kan gehouden worden door middel van een elektronisch systeem. "Door middel van een elektronisch systeem" betekent de rechtstreekse vestiging van dit dagboek op een digitale drager.
-
-## Art. 2
-
-De keuze voor het houden van een dagboek van ontvangsten door middel van een elektronisch systeem geldt voor het geheel van de activiteiten van de bedrijfszetel.
-
-## Art. 3
-
-De belastingplichtige die beschikt over meerdere bedrijfszetels en die ervoor kiest het dagboek van ontvangsten van minstens een van deze zetels door middel van een elektronisch systeem te houden, moet eveneens het centralisatieboek, bedoeld in artikel 14, § 2, 3°, achtste lid, van het koninklijk besluit nr. 1 van 29 december 1992 met betrekking tot de regeling voor de voldoening van de belasting over de toegevoegde waarde door middel van een elektronisch systeem houden.
-
-## Art. 4
-
-Wanneer het dagboek van ontvangsten en/of het centralisatieboek wordt (worden) gehouden door middel van een elektronisch systeem moet, ongeacht de plaats waar de betrokken gegevens zich digitaal bevinden, een volledige en online toegang tot deze gegevens worden verzekerd door de belastingplichtige op de bedrijfszetel tot het verstrijken van de derde maand die volgt op het afsluiten van dit dagboek (deze dagboeken) en op de fiscale woonplaats na deze termijn.
-
-## Art. 5
-
-De belastingplichtige die een dagboek van ontvangsten moet houden en, in voorkomend geval, het centralisatieboek, en die ervoor kiest om deze te houden door middel van een elektronisch systeem, moet vanaf het moment van de inschrijving tot het einde van de wettelijke bewaringsperiode de integriteit van de inhoud en de leesbaarheid van het dagboek van ontvangsten en/of het centralisatieboek verzekeren;
-De belastingplichtige heeft de vrije keuze op welke manier het naleven van de integriteit van de inhoud en de leesbaarheid van het dagboek van ontvangsten en/of het centralisatieboek wordt verzekerd. Het bewijs van het naleven van beide voorwaarden komt hem toe.
-
-## Art. 6
-
-De gegevens van de kastickets gegenereerd door een elektronische kassa waarvan het gebruik wordt gelijkgesteld met het digitaal bijhouden van een dagboek van ontvangsten overeenkomstig artikel 14, § 2, 3°, derde lid, van het koninklijk besluit nr. 1 van 29 december 1992 met betrekking tot de regeling voor de voldoening van de belasting over de toegevoegde waarde worden digitaal bewaard.
+derde lid, van het koninklijk besluit nr. 1 van 29 december 1992 met betrekking tot de regeling voor de voldoening van de belasting over de toegevoegde waarde worden digitaal bewaard.
 
 ## Art. 7
 

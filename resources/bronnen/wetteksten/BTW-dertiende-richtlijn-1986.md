@@ -1,50 +1,52 @@
 ---
-tags: [VI.A, '2.4']
-itaa-lex-sectie: VI.A
-wet: Dertiende Richtlijn 86/560/EEG van de Raad inzake de teruggaaf van btw aan niet in de Gemeenschap gevestigde belastingplichtigen
-bron_rol: itaa_lex
-status: beschikbaar
 bijgewerkt: 21.11.1986
 bron: ejustice.just.fgov.be (gecoördineerde versie)
+bron_rol: itaa_lex
 chunk:
   level: 2
-  type: Art.
   sub_strategy:
+  type: Art.
+itaa-lex-sectie: VI.A
 provenance:
+  generated_at: '2026-05-11T16:21:22Z'
   inputs:
     - id: resources/raw/wetteksten/BTW-dertiende-richtlijn-1986.pdf
       sha256: 500090ffe975351fb9d05ba7d8c2671af0719a04c83068be54c467d33f45b96a
       version: 21.11.1986
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 7a134f4
-    model:
-    prompt_version:
-  generated_at: '2026-05-09T16:15:42Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
-    status: trusted
     confirmed_at: '2026-05-09T21:27:46Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: L1=pass
     layer1:
       status: pass
-      run_id: 20260511-134044
-      run_at: '2026-05-11T13:40:44Z'
+      run_id: 20260511-162232
+      run_at: '2026-05-11T16:22:32Z'
       heading_count: 8
       max_section_chars: 2527
-      file_size_chars: 7776
+      file_size_chars: 7775
       flags: []
     layer2:
-      status: trusted
       agent:
-      run_at:
-      rationale: Compacte richtlijn (8.6KB), alle 8 artikelen aanwezig op H2 (zoals chunk.level=2). Soft hyphens uit PDF-extractie (bv. 'belasting­ plichtigen') maar woordbreaks zijn intact en leesbaar. Footnote-nummers verspreid over body maar niet hinderlijk.
       concrete_problemen:
         - regel: 88
           type: other
           voorbeeld: H PB nr. L 331 van 27. 12. 1979, blz. 11 — voetnootnummer als 'H' i.p.v. cijfer (cosmetisch)
+      rationale: Compacte richtlijn (8.6KB), alle 8 artikelen aanwezig op H2 (zoals chunk.level=2). Soft hyphens uit PDF-extractie (bv. 'belasting­ plichtigen') maar woordbreaks zijn intact en leesbaar. Footnote-nummers verspreid over body maar niet hinderlijk.
+      run_at:
+      status: trusted
+    rationale: L1=pass
+    status: trusted
+status: beschikbaar
+tags:
+  - VI.A
+  - '2.4'
+wet: Dertiende Richtlijn 86/560/EEG van de Raad inzake de teruggaaf van btw aan niet in de Gemeenschap gevestigde belastingplichtigen
 ---
 
 # Dertiende Richtlijn 86/560/EEG van de Raad inzake de teruggaaf van btw aan niet in de Gemeenschap gevestigde belastingplichtigen
@@ -187,4 +189,3 @@ van de teruggaaf.
 N. LAWSON
 
 De Voorzitter
-

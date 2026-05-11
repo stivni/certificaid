@@ -1,151 +1,120 @@
 ---
-tags: [IX, '2.6']
-itaa-lex-sectie: IX
-wet: Wetboek der Successierechten — Brussels Hoofdstedelijk Gewest
-status: beschikbaar
 bijgewerkt: 16.03.2026
 bron: Fisconetplus.be (officieuze gecoördineerde versie)
-provenance:
-  inputs:
-    - id: resources/raw/wetteksten/successie-brussel.pdf
-      sha256: 657d96f879eaa0099e68a066d2e56de7dce5b67d36cce8f324576a992028a015
-      version: 16.03.2026
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 732fcc0
-    model:
-    prompt_version:
-  generated_at: '2026-05-07T13:37:30Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T11:41:57Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "A3: de body opent met 3× herhaalde WETBOEK DER SUCCESSIERECHTEN-titel (r.65-75) gevolgd door een TOC-blok met 24 dotted-lines (A2). B3: vijf hoofdstukken zijn gedupliceerd (HOOFDSTUK III, IX, XI, XII, XV), wat wijst op een gedeeltelijke TOC-herhaling midden in het corps. D-onzeker: dubbele Art. 17-blokken op r.342 en r.354 voor verschillende inwerkingtredingsdata ('TOEKOMSTIG RECHT' vs 'van toepassing vanaf 01.08.2022') zijn inhoudelijk correct maar zonder discriminator-heading voor RAG verwarrend. G2: decoratieve asterisk-separatoren op r.131-132 (`*` en `*`) zijn PDF-glyphs."
-    layer1:
-      status: warn
-      run_id: 20260511-134044
-      run_at: '2026-05-11T13:40:46Z'
-      heading_count: 382
-      max_section_chars: 57698
-      file_size_chars: 429038
-      flags:
-        - name: max_section_size
-          status: warn
-          detail: 'langste sectie op #####-niveau: 57698 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
-          samples: []
-        - name: no_toc_dots
-          status: warn
-          detail: 24 TOC-stippen-regel(s) gevonden
-          samples:
-            - "....................................................... 69\n"
-            - '................................................................................'
-            - '................................................................................'
-    layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T11:41:57Z'
-      rationale: "A3: de body opent met 3× herhaalde WETBOEK DER SUCCESSIERECHTEN-titel (r.65-75) gevolgd door een TOC-blok met 24 dotted-lines (A2). B3: vijf hoofdstukken zijn gedupliceerd (HOOFDSTUK III, IX, XI, XII, XV), wat wijst op een gedeeltelijke TOC-herhaling midden in het corps. D-onzeker: dubbele Art. 17-blokken op r.342 en r.354 voor verschillende inwerkingtredingsdata ('TOEKOMSTIG RECHT' vs 'van toepassing vanaf 01.08.2022') zijn inhoudelijk correct maar zonder discriminator-heading voor RAG verwarrend. G2: decoratieve asterisk-separatoren op r.131-132 (`*` en `*`) zijn PDF-glyphs."
-      concrete_problemen:
-        - regel: 65
-          categorie: A3
-          type: other
-          voorbeeld: WETBOEK DER SUCCESSIERECHTEN (3× herhaald op r.65, 69, 73)
-        - regel: 82
-          categorie: A2
-          type: dotted-leader
-          voorbeeld: '### HOOFDSTUK XI - Aan derden... ....................................................... 69'
-        - regel: 131
-          categorie: G2
-          type: other
-          voorbeeld: "*                              *\n*"
-        - regel: 342
-          categorie: B3
-          type: other
-          voorbeeld: '##### Art. 17 (r.342) en ##### Art. 17 (r.354) — zelfde artikel-nummer, twee versies zonder discriminator'
-        - regel: 1977
-          categorie: A3
-          type: other
-          voorbeeld: '### HOOFDSTUK XI - Aan derden... (duplicaat van r.1955)'
 chunk:
   level: 5
+  sub_strategy: null
   type: Art.
-  sub_strategy:
+itaa-lex-sectie: IX
+provenance:
+  generated_at: '2026-05-11T16:21:48Z'
+  inputs:
+  - id: resources/raw/wetteksten/successie-brussel.pdf
+    sha256: 657d96f879eaa0099e68a066d2e56de7dce5b67d36cce8f324576a992028a015
+    version: 16.03.2026
+  stale: false
+  stale_reason: null
+  tooling:
+    model: null
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version: null
+  trust:
+    confirmed_at: '2026-05-11T11:41:57Z'
+    confirmed_by: subagent-sonnet-4-6
+    layer1:
+      file_size_chars: 429038
+      flags:
+      - detail: 'langste sectie op #####-niveau: 57698 chars (>24000); chunker splitst
+          auto op alinea-grenzen via split_long_chunk'
+        name: max_section_size
+        samples: []
+        status: warn
+      - detail: 24 TOC-stippen-regel(s) gevonden
+        name: no_toc_dots
+        samples:
+        - '....................................................... 69
+
+          '
+        - '................................................................................'
+        - '................................................................................'
+        status: warn
+      heading_count: 382
+      max_section_chars: 57698
+      run_at: '2026-05-11T13:40:46Z'
+      run_id: 20260511-134044
+      status: warn
+    layer2:
+      agent: subagent-sonnet-4-6
+      concrete_problemen:
+      - categorie: A3
+        regel: 65
+        type: other
+        voorbeeld: WETBOEK DER SUCCESSIERECHTEN (3× herhaald op r.65, 69, 73)
+      - categorie: A2
+        regel: 82
+        type: dotted-leader
+        voorbeeld: '### HOOFDSTUK XI - Aan derden... .......................................................
+          69'
+      - categorie: G2
+        regel: 131
+        type: other
+        voorbeeld: '*                              *
+
+          *'
+      - categorie: B3
+        regel: 342
+        type: other
+        voorbeeld: '##### Art. 17 (r.342) en ##### Art. 17 (r.354) — zelfde artikel-nummer,
+          twee versies zonder discriminator'
+      - categorie: A3
+        regel: 1977
+        type: other
+        voorbeeld: '### HOOFDSTUK XI - Aan derden... (duplicaat van r.1955)'
+      rationale: 'A3: de body opent met 3× herhaalde WETBOEK DER SUCCESSIERECHTEN-titel
+        (r.65-75) gevolgd door een TOC-blok met 24 dotted-lines (A2). B3: vijf hoofdstukken
+        zijn gedupliceerd (HOOFDSTUK III, IX, XI, XII, XV), wat wijst op een gedeeltelijke
+        TOC-herhaling midden in het corps. D-onzeker: dubbele Art. 17-blokken op r.342
+        en r.354 voor verschillende inwerkingtredingsdata (''TOEKOMSTIG RECHT'' vs
+        ''van toepassing vanaf 01.08.2022'') zijn inhoudelijk correct maar zonder
+        discriminator-heading voor RAG verwarrend. G2: decoratieve asterisk-separatoren
+        op r.131-132 (`*` en `*`) zijn PDF-glyphs.'
+      run_at: '2026-05-11T11:41:57Z'
+      status: needs-rework
+    rationale: 'A3: de body opent met 3× herhaalde WETBOEK DER SUCCESSIERECHTEN-titel
+      (r.65-75) gevolgd door een TOC-blok met 24 dotted-lines (A2). B3: vijf hoofdstukken
+      zijn gedupliceerd (HOOFDSTUK III, IX, XI, XII, XV), wat wijst op een gedeeltelijke
+      TOC-herhaling midden in het corps. D-onzeker: dubbele Art. 17-blokken op r.342
+      en r.354 voor verschillende inwerkingtredingsdata (''TOEKOMSTIG RECHT'' vs ''van
+      toepassing vanaf 01.08.2022'') zijn inhoudelijk correct maar zonder discriminator-heading
+      voor RAG verwarrend. G2: decoratieve asterisk-separatoren op r.131-132 (`*`
+      en `*`) zijn PDF-glyphs.'
+    status: needs-rework
+status: beschikbaar
+tags:
+- IX
+- '2.6'
+wet: Wetboek der Successierechten — Brussels Hoofdstedelijk Gewest
 ---
 
 # Successierechten — Brussels Hoofdstedelijk Gewest
 
-*Bijgewerkt tot en met 16.03.2026 — officieuze gecoördineerde versie. Bron: Fisconetplus.be.*
+*Bijgewerkt tot en met 16.03.2026 — gecoördineerde versie.*
 
-WETBOEK DER SUCCESSIERECHTEN
+## WETBOEK DER SUCCESSIERECHTEN
 
-BRUSSELS HOOFDSTEDELIJK GEWEST
+## BRUSSELS HOOFDSTEDELIJK GEWEST
 
-WETBOEK DER SUCCESSIERECHTEN
+## WETBOEK DER SUCCESSIERECHTEN
 
 Wetgeving van toepassing in het BRUSSELSE HOOFDSTEDELIJK GEWEST
 
-WETBOEK DER SUCCESSIERECHTEN
+## WETBOEK DER SUCCESSIERECHTEN
 
 Wetgeving van toepassing in het Brusselse Hoofdstedelijk Gewest
 (officieuze coördinatie)
 
 (KB nr. 308 van 31.03.1936 (B.S., 07.04.1936) en err. (B.S., 26.04.1936), genomen in uitvoering van art. 1, § 1, litt. a, van de wet van 31 jul. 1934, verlengd en vervolledigd door deze van 7 dec. 1934, van 15 mrt. en van 30 mrt. 1935. Bekrachtigd door de wet van 4 mei 1936)
-
-### HOOFDSTUK XI - Aan derden opgelegde verplichtingen ten einde de juiste heffing der ingevolge het
-
-overlijden van rijksinwoners verschuldigde successierechten te verzekeren ....................................................... 69
-
-### HOOFDSTUK XII - Bewijsmiddelen ..................................................................................................................................... 83
-
-Eerste afdeling - Bewijsmiddelen van gemeen recht .............................................................................................. 83
-
-#### Afdeling II - Bijzondere bewijsmiddelen ....................................................................................................................... 84
-
-#### Afdeling III - Controle-schatting ..................................................................................................................................... 86
-
-### HOOFDSTUK XIII - Strafbepalingen .................................................................................................................................... 91
-
-Eerste afdeling - Fiscale boeten ..................................................................................................................................... 91
-
-#### Afdeling II - Correctionele straffen................................................................................................................................. 95
-
-### HOOFDSTUK XIV - Teruggave van de rechten ............................................................................................................. 100
-
-### HOOFDSTUK XV - Verjaring ............................................................................................................................................... 104
-
-### HOOFDSTUK XVI - Vervolgingen en gedingen ............................................................................................................. 107
-
-### HOOFDSTUK XVII - Door de Algemene Administratie van de Patrimoniumdocumentatie te verstrekken
-
-inlichtingen .............................................................................................................................................................................. 110
-
-### HOOFDSTUK XVIII - Aan alle belastingen gemene bepalingen ............................................................................... 113
-
-## BOEK II - TAKS TOT VERGOEDING DER SUCCESSIERECHTEN ....................................................................... 143
-
-### HOOFDSTUK I - Vestiging van de taks ........................................................................................................................... 143
-
-### HOOFDSTUK II - Zetting der taks ..................................................................................................................................... 145
-
-### HOOFDSTUK III - Aangifte .................................................................................................................................................. 148
-
-### HOOFDSTUK IV - Verevening en betaling van de taks .............................................................................................. 149
-
-### HOOFDSTUK V - Diverse bepalingen .............................................................................................................................. 151
-
-## BOEK IIBIS - (…) .................................................................................................................................................. 166
-
-## BOEK III - DIGITALISATIE VAN DE RELATIES TUSSEN DE FEDERALE OVERHEIDSDIENST FINANCIËN, DE BURGERS, DE BEDRIJVEN, DE RECHTSPERSONEN EN BEPAALDE DERDEN ................................................ 168
-
-(…) .............................................................................................................................................................................................. 175 (…) .............................................................................................................................................................................................. 176
-Eerste afdeling – (…) ....................................................................................................................................................... 176
-
-#### Afdeling II - (…) .................................................................................................................................................................. 179
-
-*                              *
-*
 
 ## BOEK I - RECHTEN VAN SUCCESSIE EN VAN OVERGANG BIJ OVERLIJDEN
 
@@ -991,23 +960,33 @@ Tabel IV bevat het tarief tussen alle andere personen. Dit tarief wordt toegepas
 
 Het bedrag waarop het tarief moet worden toegepast wordt opgesplitst volgens de schijven vermeld in kolom A van de toepasselijke tarieftabel. Van elk aldus bekomen bedrag wordt het overeenstemmende percentage in kolom B geheven. Kolom C vermeldt het totale bedrag van de belasting over de voorgaande gedeelten.
 
-TABEL I
+## TABEL I
+
 Tarief in rechte lijn, en tussen partners
 A                                          B                                       C Belastingschijven                      per schijf toepasselijk              totale bedrag van de belasting heffingspercentage                   over de voorgaande schijven van                tot 0,01 EUR           - 50.000 EUR                             3% 50.000 EUR         - 100.000 EUR                            8%                                  1.500 EUR 100.000 EUR        - 175.000 EUR                            9%                                  5.500 EUR 175.000 EUR        - 250.000 EUR                            18 %                               12.250 EUR 250.000 EUR        - 500.000 EUR                            24 %                               25.750 EUR boven de 500.000 EUR                                        30 %                               85.750 EUR
 
-TABEL II
+## TABEL II
+
 Tarief tussen broers en zussen
 A                                          B                                       C Belastingschijven                      per schijf toepasselijk              totale bedrag van de belasting
 
 heffingspercentage             over de voorgaande schijven van               tot 0,01 EUR          - 12.500 EUR                        20 % 12.500 EUR        - 25.000 EUR                        25 %                            2.500 EUR 25.000 EUR        - 50.000 EUR                        30 %                            5.625 EUR 50.000 EUR        - 100.000 EUR                       40 %                            13.125 EUR 100.000 EUR       - 175.000 EUR                       55 %                            33.125 EUR 175.000 EUR       - 250.000 EUR                       60 %                            74.375 EUR boven de 250.000 EUR                                  65 %                           119.375 EUR
 
-TABEL III
-Tarief tussen ooms of tantes en neven en nichten
-A                                     B                                  C Belastingschijven                   per schijf toepasselijk        totale bedrag van de belasting heffingspercentage             over de voorgaande schijven van               tot 0,01 EUR          - 50.000 EUR                        35 % 50.000 EUR        - 100.000 EUR                       50 %                            17.500 EUR 100.000 EUR       - 175.000 EUR                       60 %                            42.500 EUR boven de 175.000 EUR                                  70 %                            87.500 EUR
+## TABEL III
 
-TABEL IV
+Tarief tussen ooms of tantes en neven en nichten
+
+## A                                     B                                  C
+
+Belastingschijven                   per schijf toepasselijk        totale bedrag van de belasting heffingspercentage             over de voorgaande schijven van               tot 0,01 EUR          - 50.000 EUR                        35 % 50.000 EUR        - 100.000 EUR                       50 %                            17.500 EUR 100.000 EUR       - 175.000 EUR                       60 %                            42.500 EUR boven de 175.000 EUR                                  70 %                            87.500 EUR
+
+## TABEL IV
+
 Tarief tussen alle andere personen
-A                                     B                                  C Belastingschijven                   per schijf toepasselijk        totale bedrag van de belasting heffingspercentage             over de voorgaande schijven van               tot 0,01 EUR          - 50.000 EUR                        40 % 50.000 EUR        - 75.000 EUR                        55 %                            20.000 EUR 75.000 EUR        - 175.000 EUR                       65 %                            33.750 EUR boven de 175.000 EUR                                  80 %                           98.750 EUR
+
+## A                                     B                                  C
+
+Belastingschijven                   per schijf toepasselijk        totale bedrag van de belasting heffingspercentage             over de voorgaande schijven van               tot 0,01 EUR          - 50.000 EUR                        40 % 50.000 EUR        - 75.000 EUR                        55 %                            20.000 EUR 75.000 EUR        - 175.000 EUR                       65 %                            33.750 EUR boven de 175.000 EUR                                  80 %                           98.750 EUR
 
 Voor de toepassing van hoofdstukken VI en VII, verstaat men onder « partner »:
 
@@ -2393,7 +2372,7 @@ Deze processen-verbaal gelden als bewijs tot het tegendeel bewezen is. Zij zulle
 
 Tegenbrieven kunnen de Staat niet tegengesteld worden, in zover zij vermindering van actief of vermeerdering van het passief der nalatenschap ten gevolge mochten hebben.
 
-###### Paragraaf 2 van artikel 18 van het Wetboek der Registratie-, Hypotheek- en Griffierechten is mutatis mutandis van toepassing.
+Paragraaf 2 van artikel 18 van het Wetboek der Registratie-, Hypotheek- en Griffierechten is mutatis mutandis van toepassing.
 
 #### Afdeling II - Bijzondere bewijsmiddelen
 

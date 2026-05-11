@@ -4,70 +4,88 @@ bron: Afgesplitst uit Fisconet-compilatie (pdftotext_compilatie_btw)
 bron_rol: itaa_lex
 chunk:
   level: 3
-  sub_strategy:
+  sub_strategy: null
   type: Art.
 itaa-lex-sectie: VI.B
 provenance:
-  generated_at: '2026-05-11T13:40:00Z'
+  generated_at: '2026-05-11T16:21:50Z'
   inputs:
-    - id: resources/raw/wetteksten/btw-kbs/WBTW-KB-compilatie.pdf
-      sha256: 5f1bad7278d1f8e1f5c00efb5d792f61342d3f7a14a7950caca2937924bfa91c
-      version: 06.03.2020
+  - id: resources/raw/wetteksten/btw-kbs/WBTW-KB-compilatie.pdf
+    sha256: 5f1bad7278d1f8e1f5c00efb5d792f61342d3f7a14a7950caca2937924bfa91c
+    version: 06.03.2020
   stale: false
-  stale_reason:
+  stale_reason: null
   tooling:
-    model:
+    model: null
     pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    prompt_version:
+    pipeline_version: 11f9196
+    prompt_version: null
   trust:
     confirmed_at: '2026-05-11T11:46:28Z'
     confirmed_by: subagent-sonnet-4-6
     layer1:
-      status: warn
-      run_id: 20260511-134044
-      run_at: '2026-05-11T13:40:47Z'
-      heading_count: 9
-      max_section_chars: 128566
       file_size_chars: 143226
       flags:
-        - name: max_section_size
-          status: warn
-          detail: 'langste sectie op ###-niveau: 128566 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
-          samples: []
+      - detail: 'langste sectie op ###-niveau: 128566 chars (>24000); chunker splitst
+          auto op alinea-grenzen via split_long_chunk'
+        name: max_section_size
+        samples: []
+        status: warn
+      heading_count: 9
+      max_section_chars: 128566
+      run_at: '2026-05-11T13:40:47Z'
+      run_id: 20260511-134044
+      status: warn
     layer2:
       agent: subagent-sonnet-4-6
       concrete_problemen:
-        - categorie: A1
-          regel: 121
-          type: form-feed
-          voorbeeld: Tarieven                                       www.fisconetplus.be                             KB20   pg. I/1
-        - categorie: A1
-          regel: 348
-          type: form-feed
-          voorbeeld: T. A - Goederen 6 pct.                       www.fisconetplus.be                          KB20      pg. II/1
-        - categorie: B4
-          regel: 276
-          type: other
-          voorbeeld: BIJLAGE / Tabel A – Goederen en diensten onderworpen aan het tarief van 6 pct. als plain text
-        - categorie: B4
-          regel: 293
-          type: other
-          voorbeeld: 'I.     Levende dieren. (plain text rubriek zonder ##-prefix)'
-        - categorie: B7
-          regel: 100
-          type: dotted-leader
-          voorbeeld: '## AFDELING 5.       Slotbepalingen.                                                    Art. 22 - 24'
-      rationale: 'A1: 30+ pagina-kopteksten (''Tarieven www.fisconetplus.be KB20 pg. I/1'' enz.) doorheen de body op vaste pagina-intervallen — nooit door een mens zo getypt. B4: tabel-rubrieken I t/m XL en Tabel A/B/C staan als plain text zonder ##-prefix; alleen ### Art. 1-artikelen en één ## Afdeling II zijn als headings gemarkeerd. B7: TOC-heading ''## AFDELING 5. Slotbepalingen. Art. 22 - 24'' eindigt op artikelbereik. Inhoud en volgorde zijn inhoudelijk compleet.'
+      - categorie: A1
+        regel: 121
+        type: form-feed
+        voorbeeld: Tarieven                                       www.fisconetplus.be                             KB20   pg.
+          I/1
+      - categorie: A1
+        regel: 348
+        type: form-feed
+        voorbeeld: T. A - Goederen 6 pct.                       www.fisconetplus.be                          KB20      pg.
+          II/1
+      - categorie: B4
+        regel: 276
+        type: other
+        voorbeeld: BIJLAGE / Tabel A – Goederen en diensten onderworpen aan het tarief
+          van 6 pct. als plain text
+      - categorie: B4
+        regel: 293
+        type: other
+        voorbeeld: 'I.     Levende dieren. (plain text rubriek zonder ##-prefix)'
+      - categorie: B7
+        regel: 100
+        type: dotted-leader
+        voorbeeld: '## AFDELING 5.       Slotbepalingen.                                                    Art.
+          22 - 24'
+      rationale: 'A1: 30+ pagina-kopteksten (''Tarieven www.fisconetplus.be KB20 pg.
+        I/1'' enz.) doorheen de body op vaste pagina-intervallen — nooit door een
+        mens zo getypt. B4: tabel-rubrieken I t/m XL en Tabel A/B/C staan als plain
+        text zonder ##-prefix; alleen ### Art. 1-artikelen en één ## Afdeling II zijn
+        als headings gemarkeerd. B7: TOC-heading ''## AFDELING 5. Slotbepalingen.
+        Art. 22 - 24'' eindigt op artikelbereik. Inhoud en volgorde zijn inhoudelijk
+        compleet.'
       run_at: '2026-05-11T11:46:28Z'
       status: needs-rework
-    rationale: 'A1: 30+ pagina-kopteksten (''Tarieven www.fisconetplus.be KB20 pg. I/1'' enz.) doorheen de body op vaste pagina-intervallen — nooit door een mens zo getypt. B4: tabel-rubrieken I t/m XL en Tabel A/B/C staan als plain text zonder ##-prefix; alleen ### Art. 1-artikelen en één ## Afdeling II zijn als headings gemarkeerd. B7: TOC-heading ''## AFDELING 5. Slotbepalingen. Art. 22 - 24'' eindigt op artikelbereik. Inhoud en volgorde zijn inhoudelijk compleet.'
+    rationale: 'A1: 30+ pagina-kopteksten (''Tarieven www.fisconetplus.be KB20 pg.
+      I/1'' enz.) doorheen de body op vaste pagina-intervallen — nooit door een mens
+      zo getypt. B4: tabel-rubrieken I t/m XL en Tabel A/B/C staan als plain text
+      zonder ##-prefix; alleen ### Art. 1-artikelen en één ## Afdeling II zijn als
+      headings gemarkeerd. B7: TOC-heading ''## AFDELING 5. Slotbepalingen. Art. 22
+      - 24'' eindigt op artikelbereik. Inhoud en volgorde zijn inhoudelijk compleet.'
     status: needs-rework
 status: beschikbaar
 tags:
-  - VI.B
-  - '2.4'
-wet: K.B. nr. 20 van 20 juli 1970, tot vaststelling van de tarieven van de belasting over de toegevoegde waarde en tot indeling van de goederen en de diensten bij die tarieven
+- VI.B
+- '2.4'
+wet: K.B. nr. 20 van 20 juli 1970, tot vaststelling van de tarieven van de belasting
+  over de toegevoegde waarde en tot indeling van de goederen en de diensten bij die
+  tarieven
 ---
 
 # K.B. nr. 20 van 20 juli 1970, tot vaststelling van de tarieven van de belasting over de toegevoegde waarde en tot indeling van de goederen en de diensten bij die tarieven

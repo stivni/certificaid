@@ -1,63 +1,49 @@
 ---
-tags: [XIV]
-itaa-lex-sectie: XIV
-wet: Wet 2 augustus 2002 betreffende de bestrijding van de betalingsachterstand bij handelstransacties
-bron_rol: itaa_lex
-status: beschikbaar
 bijgewerkt: 02.08.2002
 bron: Fisconetplus.be (officieuze gecoördineerde versie)
+bron_rol: itaa_lex
 chunk:
   level: 3
+  sub_strategy: null
   type: Art.
-  sub_strategy:
+itaa-lex-sectie: XIV
 provenance:
+  generated_at: '2026-05-11T16:22:16Z'
   inputs:
-    - id: resources/raw/wetteksten/Wet-betalingsachterstand-2002.pdf
-      sha256: 1eb986525442599552419e8c273eeff7a930609d1070e5f7f967dee900f359a1
-      version: 02.08.2002
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 7a134f4
-    model:
-    prompt_version:
-  generated_at: '2026-05-09T16:15:14Z'
+  - id: resources/raw/wetteksten/Wet-betalingsachterstand-2002.pdf
+    sha256: 1eb986525442599552419e8c273eeff7a930609d1070e5f7f967dee900f359a1
+    version: 02.08.2002
   stale: false
-  stale_reason:
+  stale_reason: null
+  tooling:
+    model: null
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version: null
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T11:51:18Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "B5: Minstens 9 van de 15 artikelen fuseren heading en eerste zin op één regel (bv. regel 63 '### Art. 1.Deze wet regelt...', regel 88 '### Art. 4.[1 § 1. Indien er...', regel 102 '### Art. 5.[1 [2 Indien de schuldeiser...'). De afkapping tussen heading en body is volledig verloren gegaan — het patroon is stelselmatig. Art. 10, 11, 12 en 15 zijn correct (heading op aparte regel), maar de meerderheid is fout. Verdere inhoud (5 hoofdstukken, 15 artikelen) is compleet."
+    confirmed_at: null
+    confirmed_by: null
     layer1:
-      status: pass
-      run_id: 20260511-134044
-      run_at: '2026-05-11T13:40:50Z'
-      heading_count: 19
-      max_section_chars: 4129
       file_size_chars: 16137
       flags: []
+      heading_count: 19
+      max_section_chars: 4129
+      run_at: '2026-05-11T13:40:50Z'
+      run_id: 20260511-134044
+      status: pass
     layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T11:51:18Z'
-      rationale: "B5: Minstens 9 van de 15 artikelen fuseren heading en eerste zin op één regel (bv. regel 63 '### Art. 1.Deze wet regelt...', regel 88 '### Art. 4.[1 § 1. Indien er...', regel 102 '### Art. 5.[1 [2 Indien de schuldeiser...'). De afkapping tussen heading en body is volledig verloren gegaan — het patroon is stelselmatig. Art. 10, 11, 12 en 15 zijn correct (heading op aparte regel), maar de meerderheid is fout. Verdere inhoud (5 hoofdstukken, 15 artikelen) is compleet."
-      concrete_problemen:
-        - regel: 63
-          categorie: B5
-          type: other
-          voorbeeld: '### Art. 1.Deze wet regelt een aangelegenheid als bedoeld in artikel 78...'
-        - regel: 88
-          categorie: B5
-          type: other
-          voorbeeld: '### Art. 4.[1 § 1. Indien er in de overeenkomst geen datum of termijn...'
-        - regel: 102
-          categorie: B5
-          type: other
-          voorbeeld: '### Art. 5.[1 [2 Indien de schuldeiser zijn contractuele en wettelijke...'
-        - regel: 108
-          categorie: B5
-          type: other
-          voorbeeld: '### Art. 7.Contractuele bedingen die afwijken van de bepalingen...'
+      agent: null
+      concrete_problemen: []
+      rationale: null
+      run_at: null
+      status: not_run
+    rationale: 'Trust gereset 2026-05-11: ETL-fix wetteksten met content-diff > 5%'
+    status: unreviewed
+status: beschikbaar
+tags:
+- XIV
+wet: Wet 2 augustus 2002 betreffende de bestrijding van de betalingsachterstand bij
+  handelstransacties
 ---
 
 # Wet betalingsachterstand handelstransacties
@@ -68,19 +54,7 @@ Titel
 
 2 AUGUSTUS 2002. - Wet betreffende de bestrijding van de betalingsachterstand bij handelstransacties.
 
-## HOOFDSTUK I. - Algemene bepalingen.
-
-### Art. 1.Deze
-
-wet regelt een aangelegenheid als bedoeld in artikel 78 van de Grondwet.
-[1 Zij zet Richtlijn 2011/7/EU van het Europees Parlement en de Raad van 16 februari 2011 betreffende bestrijding van betalingsachterstand bij handelstransacties om.]1 (1)<W 2013-11-22/12, art. 2, 004; Inwerkingtreding : 16-03-2013>
-
-### Art. 2.Voor
-
-de toepassing van deze wet wordt verstaan onder :
-1. [1 " handelstransactie " : een transactie tussen ondernemingen of tussen ondernemingen en overheidsinstanties die leidt tot het leveren van goederen, het verrichten van diensten of het ontwerp en de uitvoering van openbare werken en bouw- en civieltechnische werken tegen vergoeding;]1
-2. " onderneming " : elke organisatie [1 , met uitsluiting van overheidsinstanties,]1 die handelt in het kader van haar zelfstandige economische of beroepsmatige activiteit, ook wanneer deze door slechts één persoon wordt uitgeoefend;
-3. [1 " overheidsinstantie " : elke aanbestedende dienst, zoals omschreven in artikel 2, lid 1, onder a), van Richtlijn 2004/17/EG en in artikel 1, lid 9, van Richtlijn 2004/18/EG, ongeacht het voorwerp of de waarde van de opdracht;]1
+Richtlijn 2004/17/EG en in artikel 1, lid 9, van Richtlijn 2004/18/EG, ongeacht het voorwerp of de waarde van de opdracht;]1
 4. [1 " referentie-interestvoet " : de interestvoet die door de Europese Centrale Bank wordt toegepast voor haar meest recente basisherfinancieringstransactie en die, ingeval de betrokken transactie wordt uitgevoerd door middel van een vaste-rentetender, voor de eerste helft van het desbetreffende jaar de interestvoet is die op 1 januari van dat jaar geldt en die voor de tweede helft van het desbetreffende jaar de interestvoet is die op 1 juli van dat jaar geldt.]1 Ingeval de betrokken transactie wordt uitgevoerd door middel van een variabele-rentetender is de referentie-interestvoet de uit deze tender voortvloeiende marginale interestvoet, zowel bij toewijzingen op basis van een enkelvoudige rentevoet, als bij toewijzing op basis van een meervoudige rentevoet;
 5. " beroepsregulerende overheid " : de beroepsorde die of het beroepsinstituut dat krachtens de wet bevoegd is om de beroepsactiviteit van een bepaald vrij beroep te reguleren;
 [1 6. " verschuldigd bedrag " : de hoofdsom die binnen de contractuele of wettelijke betalingstermijn had moeten voldaan, inclusief toepasselijke belastingen, rechten, heffingen of kosten als vermeld in de factuur of in een gelijkwaardig verzoek tot betaling;]1 [2 7. "kmo": een onderneming die op het ogenblik van het sluiten van een handelstransactie valt binnen de criteria vastgesteld in artikel 1:24, § 1, van het Wetboek van vennootschappen en verenigingen.]2 (1)<W 2013-11-22/12, art. 3, 004; Inwerkingtreding : 16-03-2013> (2)<W 2019-05-28/16, art. 2, 009; Inwerkingtreding : 29-04-2020>
@@ -101,6 +75,7 @@ Zij doet geen afbreuk aan de bijzondere regels inzake insolventieprocedures en i
 3° [3 ...]3
 [3 Onverminderd artikel 7, kunnen partijen een betalingstermijn overeenkomen die niet meer dan zestig kalenderdagen mag bedragen. Een beding in een overeenkomst dat voorziet in een langere betalingstermijn wordt voor niet geschreven gehouden.]3 [3 Onverminderd artikel 7, kan de Koning in afwijking van het tweede lid, na advies van de Hoge Raad voor de Zelfstandigen en de Kleine en Middelgrote Ondernemingen, bedoeld in artikel 2, 3°, van de wet van 24 april 2014 betreffende de organisatie van de vertegenwoordiging van de zelfstandigen en de kmo's, voor bepaalde sectoren een langere betalingstermijn dan zestig kalenderdagen toestaan.]3 [3 Indien de wet of de overeenkomst voorziet in een procedure voor aanvaarding of controle ter verificatie van de conformiteit van de goederen of diensten met de overeenkomst, maakt de termijn voor deze verificatie integraal deel uit van de betalingstermijn bedoeld in het eerste, tweede of derde lid.]3 [3 In geen geval mag de ontvangstdatum van de factuur bij contractuele overeenkomst tussen schuldenaar en schuldeiser worden vastgelegd. Uiterlijk op het moment van ontvangst van de goederen of prestatie van de diensten voorziet de schuldenaar de schuldeiser van alle informatie die nodig is om de factuur te kunnen uitreiken.]3
 § 2. Indien er in de overeenkomst geen datum of termijn voor betaling is vastgesteld, dient elke betaling tot vergoeding van een handelstransactie tussen ondernemingen en overheidsinstanties, waarbij de schuldenaar een overheidsinstantie is, te gebeuren binnen een termijn van dertig kalenderdagen te rekenen vanaf de dag volgend op die :
+
 1° van de ontvangst door de schuldenaar van de factuur of een gelijkwaardig verzoek tot betaling, of
 2° van de ontvangst van de goederen of diensten, indien de datum van ontvangst van de factuur of het gelijkwaardig verzoek tot betaling niet vaststaat of indien de schuldenaar de factuur of het gelijkwaardig verzoek tot betaling eerder ontvangt dan [3 de goederen of diensten.]3
 3° [3 ...]3
@@ -121,6 +96,7 @@ bedingen die afwijken van de bepalingen van dit hoofdstuk worden door de rechter
 Bij de beoordeling van het kennelijke onbillijk karakter in de zin van het vorige lid zal de rechter onder meer nagaan [1 of het contractueel beding een kennelijk onevenwicht schept tussen de rechten en plichten van de partijen ten nadele van de schuldeiser en]1 of de schuldenaar objectieve redenen heeft om af te wijken van de bepalingen van dit hoofdstuk.
 [1 Voor de toepassing van het eerste lid worden contractuele bedingen of praktijken die de betaling van interest voor betalingsachterstand uitsluiten, als kennelijk onbillijk beschouwd.
 Voor de toepassing van het eerste lid worden contractuele bedingen of praktijken die een vergoeding van invorderingskosten als bedoeld in artikel 6 uitsluiten, vermoed kennelijk onbillijk te zijn.]1 Ieder beding dat strijdig is met de bepalingen van dit artikel wordt voor niet-geschreven gehouden.
+
 (1)<W 2013-11-22/12, art. 9, 004; Inwerkingtreding : 16-03-2013>
 
 ## HOOFDSTUK III. - Vordering tot staking.

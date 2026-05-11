@@ -4,48 +4,47 @@ bron: ejustice.just.fgov.be (gecoördineerde versie)
 bron_rol: itaa_lex
 chunk:
   level: 4
-  sub_strategy: null
+  sub_strategy:
   type: Art.
 itaa-lex-sectie: III
 provenance:
-  generated_at: '2026-05-11T16:03:42Z'
+  generated_at: '2026-05-11T16:21:34Z'
   inputs:
-  - id: resources/raw/wetteksten/MIGB-Wallonie.pdf
-    sha256: daf4cff482a1eeddd5158b2c39c88d39577fb3c60e4850f9514e7943dbdb000d
-    version: 30.05.2025
+    - id: resources/raw/wetteksten/MIGB-Wallonie.pdf
+      sha256: daf4cff482a1eeddd5158b2c39c88d39577fb3c60e4850f9514e7943dbdb000d
+      version: 30.05.2025
   stale: false
-  stale_reason: null
+  stale_reason:
   tooling:
-    model: null
+    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 11f9196
-    prompt_version: null
+    prompt_version:
   trust:
-    confirmed_at: null
-    confirmed_by: null
+    confirmed_at:
+    confirmed_by:
     layer1:
-      file_size_chars: 203844
-      flags: []
-      heading_count: 217
-      max_section_chars: 22853
-      run_at: '2026-05-11T15:59:47Z'
-      run_id: 20260511-155947
       status: pass
+      run_id: 20260511-162232
+      run_at: '2026-05-11T16:22:33Z'
+      heading_count: 208
+      max_section_chars: 22853
+      file_size_chars: 203089
+      flags: []
     layer2:
-      agent: null
+      agent:
       concrete_problemen: []
-      rationale: null
-      run_at: null
+      rationale:
+      run_at:
       status: not_run
     rationale: 'Trust gereset 2026-05-11: ETL-fix wetteksten met content-diff > 5%'
     status: unreviewed
 status: beschikbaar
 tags:
-- III
-- '2.2'
-- '2.3'
-wet: Wetboek van de met de inkomstenbelastingen gelijkgestelde belastingen — Waals
-  Gewest
+  - III
+  - '2.2'
+  - '2.3'
+wet: Wetboek van de met de inkomstenbelastingen gelijkgestelde belastingen — Waals Gewest
 ---
 
 # Wetboek van de met de inkomstenbelastingen gelijkgestelde belastingen — Waals Gewest
@@ -219,7 +218,9 @@ lichte vrachtauto » genoemd, voor zover het ingeschreven is ofwel op naam van e
 
 bedoeld in artikel I.1, lid 1, 1°, a), van het Wetboek van economisch recht en geregistreerd overeenkomstig
 
-artikel III.17 van hetzelfde Wetboek, ofwel op naam van een rechtspersoon, elke auto opgevat en gebouwd
+#### Art. III.17
+
+van hetzelfde Wetboek, ofwel op naam van een rechtspersoon, elke auto opgevat en gebouwd
 
 voor het vervoer van zaken waarvan de maximaal toegelaten massa 3.500 kg niet overschrijdt:
 

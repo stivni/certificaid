@@ -1,52 +1,82 @@
 ---
-tags: [XI, '3.1']
-itaa-lex-sectie: XI
-wet: Burgerlijk Wetboek — Boek 5 — Verbintenissen
-bron_rol: itaa_lex
-status: beschikbaar
 bijgewerkt: 24.12.2025
 bron: ejustice.just.fgov.be (gecoördineerde versie)
+bron_rol: itaa_lex
 chunk:
   level: 4
-  type: Art.
   sub_strategy:
+  type: Art.
+itaa-lex-sectie: XI
 provenance:
+  generated_at: '2026-05-11T16:21:26Z'
   inputs:
     - id: resources/raw/wetteksten/BW-boek5-verbintenissen.pdf
       sha256: e2c7abdb1eb57605aad65d318bd39b5332ec67f7c3349b5e57e4c75f11e0cc14
       version: 24.12.2025
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 7a134f4
-    model:
-    prompt_version:
-  generated_at: '2026-05-09T16:15:41Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-09T21:27:46Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: L1=pass
+    confirmed_at:
+    confirmed_by:
     layer1:
       status: pass
-      run_id: 20260511-134044
-      run_at: '2026-05-11T13:40:45Z'
-      heading_count: 97
-      max_section_chars: 2121
-      file_size_chars: 20766
+      run_id: 20260511-162232
+      run_at: '2026-05-11T16:22:33Z'
+      heading_count: 105
+      max_section_chars: 929
+      file_size_chars: 18082
       flags: []
     layer2:
-      status: trusted
       agent:
-      run_at:
-      rationale: BW-boek 5, 65 Art.-vermeldingen, hoofdstukken op H2, Art. op H4. Geen kolom-bleed, schoon NL.
       concrete_problemen: []
+      rationale:
+      run_at:
+      status: not_run
+    rationale: 'Trust gereset 2026-05-11: ETL-fix wetteksten met content-diff > 5%'
+    status: unreviewed
+status: beschikbaar
+tags:
+  - XI
+  - '3.1'
+wet: Burgerlijk Wetboek — Boek 5 — Verbintenissen
 ---
 
 # Burgerlijk Wetboek — Boek 5 — Verbintenissen
 
 *Bijgewerkt tot en met 24.12.2025 — gecoördineerde versie.*
+
+### Afdeling XXIII. - Wijziging van de wet van 23 november 2017 tot wijziging van de naam van de Belgische Technische Coöperatie en tot vaststelling van de opdrachten en de werking van Enabel, Belgisch Ontwikkelingsagentschap
+
+#### Art. 60
+
+### Afdeling XXIV. - Wijziging van de wet van 13 april 2019 tot invoering van een Burgerlijk Wetboek en tot invoeging van boek 8 "Bewijs" in dat Wetboek
+
+#### Art. 61
+
+## HOOFDSTUK 4. - Opheffingsbepalingen
+
+### Afdeling I. - Opheffingen in het oud Burgerlijk Wetboek
+
+#### Art. 62
+
+### Afdeling II. - Opheffing in het Gerechtelijk Wetboek
+
+#### Art. 63
+
+## HOOFDSTUK 5. - Overgangsbepalingen
+
+#### Art. 64
+
+## HOOFDSTUK 6. - Inwerkingtreding
+
+#### Art. 65
+
+Tekst
 
 ## HOOFDSTUK 1. - Inleidende bepaling
 
@@ -58,7 +88,7 @@ Deze wet regelt een aangelegenheid als bedoeld in artikel 74 van de Grondwet.
 
 #### Art. 2
 
-Boek 5 van het Burgerlijk Wetboek, ingevoerd bij artikel 2 van de wet van 13 april 2019 tot invoering van een Burgerlijk Wetboek en tot invoeging van boek 8 "Bewijs" in dat Wetboek, bevat de volgende bepalingen: (voor boek 5, zie 2022-04-28/27)
+Boek 5 van het Burgerlijk Wetboek, ingevoerd bij artikel 2 van de wet van 13 april 2019 tot invoering van een Burgerlijk Wetboek en tot invoeging van boek 8 "Bewijs" in dat Wetboek, bevat de volgende bepalingen:  (voor boek 5, zie 2022-04-28/27)
 
 ## HOOFDSTUK 3. - Wijzigingsbepalingen
 
@@ -82,13 +112,7 @@ In artikel 1394/21, tweede lid, 2°, van hetzelfde Wetboek, ingevoegd bij de wet
 
 #### Art. 7
 
-In artikel 1394/24 van hetzelfde Wetboek, ingevoegd bij de wet van 19 oktober 2015, worden de volgende wijzigingen aangebracht:
-  1° in paragraaf 1, tweede lid, wordt het woord "strafbeding" vervangen door het woord "schadebeding";
-  2° in paragraaf 4 wordt het woord "strafbedingen" vervangen door het woord "schadebedingen".
-
-#### Art. 8
-
-In artikel 1445, tweede lid, van hetzelfde Wetboek wordt het cijfer "1166" vervangen door het cijfer "5.242".
+In artikel 1394/24 van hetzelfde Wetboek, ingevoegd bij de wet van 19 oktober 2015, worden de volgende wijzigingen aangebracht:  1° in paragraaf 1, tweede lid, wordt het woord "strafbeding" vervangen door het woord "schadebeding";  2° in paragraaf 4 wordt het woord "strafbedingen" vervangen door het woord "schadebedingen".
 
 #### Art. 9
 
@@ -168,21 +192,13 @@ In artikel XX.201, tweede lid, van hetzelfde Wetboek, ingevoegd bij de wet van 1
 
 In artikel 1475, § 2, eerste lid, 2°, van het oud Burgerlijk Wetboek, ingevoegd bij de wet van 23 november 1998 en laatstelijk gewijzigd bij de wet van 21 december 2018, worden de woorden "de artikelen 1123 en 1124" vervangen door de woorden "de artikelen 5.40 tot 5.41".
 
-#### Art. 27
-
-In artikel 60, derde lid, van boek III, titel XVII, van het oud Burgerlijk Wetboek, ingevoegd bij de wet van 11 juli 2013 en gewijzigd bij de wet van 25 december 2016, worden de woorden "De artikelen 1690, § 1, derde en vierde lid, en 1691" vervangen door de woorden "De artikelen 3.28, § 2, 5.179, derde lid en 5 181, tweede en derde lid".
-
-#### Art. 28
-
-In artikel 2244, § 2, eerste lid, van hetzelfde Wetboek, ingevoegd bij de wet van 23 mei 2013, worden de woorden "artikel 1146" vervangen door de woorden "de artikelen 5.231 en 5.233".
-
 ### Afdeling V. - Wijziging van het Burgerlijk Wetboek
 
 #### Art. 29
 
-Artikel 4.126 van het Burgerlijk Wetboek, ingevoegd bij de wet van 19 januari 2022, wordt aangevuld met een paragraaf 3, luidende: " § 3. De griffier van het rechtscollege dat ze heeft uitgesproken, stelt het centraal erfrechtregister in kennis van de in paragraaf 1, 6°, bedoelde vonnissen of arresten.
-  De griffier van het rechtscollege dat het in het eerste lid bedoelde vonnis of arrest heeft uitgesproken, stelt het centraal erfrechtregister in kennis van elk verzet, elk hoger beroep of elke voorziening tegen dit vonnis of arrest.
-  De griffier van het rechtscollege dat ze heeft uitgesproken stelt het centraal erfrechtregister in kennis van de rechterlijke beslissingen waarbij een in het eerste lid bedoeld vonnis of arrest wordt vernietigd of hervormd.".
+#### Art. 4
+
+126 van het Burgerlijk Wetboek, ingevoegd bij de wet van 19 januari 2022, wordt aangevuld met een paragraaf 3, luidende:  " § 3. De griffier van het rechtscollege dat ze heeft uitgesproken, stelt het centraal erfrechtregister in kennis van de in paragraaf 1, 6°, bedoelde vonnissen of arresten.  De griffier van het rechtscollege dat het in het eerste lid bedoelde vonnis of arrest heeft uitgesproken, stelt het centraal erfrechtregister in kennis van elk verzet, elk hoger beroep of elke voorziening tegen dit vonnis of arrest.  De griffier van het rechtscollege dat ze heeft uitgesproken stelt het centraal erfrechtregister in kennis van de rechterlijke beslissingen waarbij een in het eerste lid bedoeld vonnis of arrest wordt vernietigd of hervormd.".
 
 ### Afdeling VI. - Wijziging van de wet van 2 april 1962 betreffende de Federale Participatie- en Investeringsmaatschappij en de gewestelijke investeringsmaatschappijen
 
@@ -212,9 +228,7 @@ In artikel 13, eerste lid, van de wet van 1 april 1976 betreffende de verticale 
 
 #### Art. 34
 
-In artikel 72, derde lid, van de gecoördineerde wet van 14 juli 1994, betreffende de verplichte verzekering voor geneeskundige verzorging en uitkeringen gecoördineerd op 14 juli 1994, laatstelijk gewijzigd bij de wet van 17 februari 2012, worden de volgende wijzigingen aangebracht:
-  1° de woorden "de artikelen 1226 tot en met 1233" worden vervangen door de woorden "artikel 5.88";
-  2° het woord "strafbedingen" wordt vervangen door het woord "schadebedingen".
+In artikel 72, derde lid, van de gecoördineerde wet van 14 juli 1994, betreffende de verplichte verzekering voor geneeskundige verzorging en uitkeringen gecoördineerd op 14 juli 1994, laatstelijk gewijzigd bij de wet van 17 februari 2012, worden de volgende wijzigingen aangebracht:  1° de woorden "de artikelen 1226 tot en met 1233" worden vervangen door de woorden "artikel 5.88";  2° het woord "strafbedingen" wordt vervangen door het woord "schadebedingen".
 
 ### Afdeling XI. - Wijziging van de wet van 17 juli 1997 betreffende het gerechtelijk akkoord
 
@@ -229,10 +243,6 @@ In artikel 28, tweede lid, van de wet van 17 juli 1997 betreffende het gerechtel
 In artikel 4bis, § 3, tweede lid, van de wet van 3 november 2001 tot oprichting van de Belgische Investeringsmaatschappij voor Ontwikkelingslanden, ingevoegd bij de wet van 20 januari 2014, worden de woorden "Artikel 1184 van het Burgerlijk Wetboek is" vervangen door de woorden "De artikelen 5.90 tot 5.96 van het Burgerlijk Wetboek zijn".
 
 ### Afdeling XIII. - Wijziging van de wet van 2 augustus 2002 betreffende het toezicht op de financiële sector en de financiële diensten
-
-#### Art. 37
-
-In artikel 31, § 4, derde lid, van de wet van 2 augustus 2002 betreffende het toezicht op de financiële sector en de financiële diensten, gewijzigd bij de wet van 30 juli 2018, wordt het cijfer "1254" vervangen door het woord "5.210".
 
 ### Afdeling XIV. - Wijziging van de wet van 11 juni 2004 betreffende de informatieverstrekking bij de verkoop van tweedehandsvoertuigen
 
@@ -270,9 +280,7 @@ In artikel 13, § 2, tweede lid, van dezelfde wet, wordt het cijfer "1254" verva
 
 #### Art. 45
 
-In artikel 35, § 3, eerste lid, van de wet van 31 januari 2009 betreffende de continuïteit van de ondernemingen, opgeheven bij de wet van 11 augustus 2017 uitgezonderd voor de gevallen bedoeld in artikel 71 van die wet, worden de volgende wijzigingen aangebracht:
-  1° het woord "strafbedingen" wordt vervangen door het woord "schadebedingen";
-  2° het woord "strafbeding" wordt vervangen door het woord "schadebeding".
+In artikel 35, § 3, eerste lid, van de wet van 31 januari 2009 betreffende de continuïteit van de ondernemingen, opgeheven bij de wet van 11 augustus 2017 uitgezonderd voor de gevallen bedoeld in artikel 71 van die wet, worden de volgende wijzigingen aangebracht:  1° het woord "strafbedingen" wordt vervangen door het woord "schadebedingen";  2° het woord "strafbeding" wordt vervangen door het woord "schadebeding".
 
 #### Art. 46
 
@@ -301,10 +309,6 @@ In artikel 6 van de wet van 30 juli 2013 betreffende de verkoop van toegangsbewi
 In artikel 12, derde lid, van de wet van 21 december 2013 betreffende diverse bepalingen inzake de financiering voor kleine en middelgrote ondernemingen, wordt het woord "strafbeding" vervangen door het woord "schadebeding".
 
 ### Afdeling XX. - Wijzigingen van de wet van 4 april 2014 betreffende de verzekeringen
-
-#### Art. 51
-
-In artikel 139, tweede lid, van de wet van 4 april 2014 betreffende de verzekeringen worden de woorden "De artikelen 1689 tot 1701 en 2075 van het Burgerlijk Wetboek" vervangen door de woorden "Boek 5, titel 3, ondertitel 4, hoofdstuk 1, van het Burgerlijk Wetboek en artikel 60, derde lid, van boek III, titel XVII, van het oud Burgerlijk Wetboek".
 
 #### Art. 52
 
@@ -352,64 +356,11 @@ In artikel 32, § 3, tweede lid, van de wet van 23 november 2017 tot wijziging v
 
 #### Art. 61
 
-In artikel 2 van de wet van 13 april 2019 tot invoering van een Burgerlijk Wetboek en tot invoeging van boek 8 "Bewijs" in dat Wetboek wordt het eerste lid vervangen als volgt: "Er wordt een Burgerlijk Wetboek ingevoerd, bestaande uit de volgende boeken:
-  1° Boek 1. Algemene bepalingen;
-  2° Boek 2. Personen, familie en relatievermogensrecht;
-  3° Boek 3. Goederen;
-  4° Boek 4. Nalatenschappen, schenkingen en testamenten;
-  5° Boek 5. Verbintenissen;
-  6° Boek 6. Buitencontractuele aansprakelijkheid;
-  7° Boek 7. Bijzondere overeenkomsten;
-  8° Boek 8. Bewijs;
-  9° Boek 9. Zekerheden;
-  10° Boek 10. Verjaring.".
+In artikel 2 van de wet van 13 april 2019 tot invoering van een Burgerlijk Wetboek en tot invoeging van boek 8 "Bewijs" in dat Wetboek wordt het eerste lid vervangen als volgt:  "Er wordt een Burgerlijk Wetboek ingevoerd, bestaande uit de volgende boeken:  1° Boek 1. Algemene bepalingen;  2° Boek 2. Personen, familie en relatievermogensrecht;  3° Boek 3. Goederen;  4° Boek 4. Nalatenschappen, schenkingen en testamenten;  5° Boek 5. Verbintenissen;  6° Boek 6. Buitencontractuele aansprakelijkheid;  7° Boek 7. Bijzondere overeenkomsten;  8° Boek 8. Bewijs;  9° Boek 9. Zekerheden;  10° Boek 10. Verjaring.".
 
 ## HOOFDSTUK 4. - Opheffingsbepalingen
 
 ### Afdeling I. - Opheffingen in het oud Burgerlijk Wetboek
-
-#### Art. 62
-
-In het oud Burgerlijk Wetboek worden de volgende artikelen opgeheven:
-  1° artikel 2;
-  2° de artikelen 1101 tot 1123;
-  3° de artikelen 1124 en 1125, gewijzigd bij de wet van 30 april 1958 en de wet van 17 maart 2013;
-  4° de artikelen 1126 tot 1129;
-  5° artikel 1130, laatstelijk gewijzigd bij de wet van 31 juli 2017;
-  6° de artikelen 1131 tot 1137;
-  7° artikel 1138, vervangen bij de wet van 4 februari 2020;
-  8° de artikelen 1139 tot 1151 ;
-  9° artikel 1153, vervangen bij de wet van 1 mei 1913 en gewijzigd bij de wet van 23 november 1998;
-  10° de artikelen 1154 en 1155, gewijzigd bij de wet van 1 mei 1913;
-  11° de artikelen 1156 tot 1166;
-  12° artikel 1167, gewijzigd bij de wet van 14 juli 1976;
-  13° de artikelen 1168 tot 1225;
-  14° artikel 1226, gewijzigd bij de wet van 23 november 1998;
-  15° de artikelen 1227 tot 1230;
-  16° artikel 1231, vervangen bij de wet van 23 november 1998;
-  17° de artikelen 1232 tot 1240;
-  18° de artikelen 1241 tot 1243;
-  19° artikel 1244, vervangen bij de wet van 10 oktober 1967;
-  20° de artikelen 1245 tot 1294;
-  21° artikel 1295, vervangen bij de wet van 6 juli 1994;
-  22° de artikelen 1296 tot 1303;
-  23° artikel 1304, gewijzigd bij de wet van 14 juli 1976 en de wet van 17 maart 2013;
-  24° de artikelen 1305 tot 1307;
-  25° artikel 1309, vervangen bij de wet van 19 januari 1990 en gewijzigd bij de wet van 30 juli 2013;
-  26° de artikelen 1310 en 1311;
-  27° artikel 1312, vervangen bij de wet van 30 april 1958 en gewijzigd bij de wet van 17 maart 2013;
-  28° artikel 1313;
-  29° artikel 1314, gewijzigd bij de wet van 17 maart 2013;
-  30° artikel 1321;
-  31° artikel 1338;
-  32° artikel 1370, gewijzigd bij de wet van 29 april 2001;
-  33° de artikelen 1371 tot 1381;
-  34° artikel 1689;
-  35° artikel 1690, laatstelijk gewijzigd bij de wet van 4 februari 2020;
-  36° artikel 1691, vervangen bij de wet van 6 juli 1994;
-  37° de artikelen 1692 tot 1695;
-  38° de artikelen 1699 tot 1701;
-  39° artikel 2281, hersteld bij de wet van 20 oktober 2000 en gewijzigd bij de wet van 13 april 2019.
 
 ### Afdeling II. - Opheffing in het Gerechtelijk Wetboek
 
@@ -421,15 +372,10 @@ In het vierde deel, boek IV, van het Gerechtelijk Wetboek wordt hoofdstuk XVIII,
 
 #### Art. 64
 
-De bepalingen van boek 5 van het Burgerlijk Wetboek zijn van toepassing op alle rechtshandelingen en rechtsfeiten die hebben plaatsgevonden na de inwerkingtreding van deze wet.
-   Tenzij partijen anders zijn overeengekomen, zijn die bepalingen niet van toepassing en blijven de vorige regels van toepassing:
-   1° op de toekomstige gevolgen van rechtshandelingen en rechtsfeiten die hebben plaatsgevonden voor de inwerkingtreding van deze wet;
-   2° in afwijking van het eerste lid, op rechtshandelingen en rechtsfeiten die hebben plaatsgevonden na de inwerkingtreding van deze wet die betrekking hebben op een verbintenis ontstaan uit een rechtshandeling of rechtsfeit dat heeft plaatsgevonden voor de inwerkingtreding van deze wet.
+De bepalingen van boek 5 van het Burgerlijk Wetboek zijn van toepassing op alle rechtshandelingen en rechtsfeiten die hebben plaatsgevonden na de inwerkingtreding van deze wet.  Tenzij partijen anders zijn overeengekomen, zijn die bepalingen niet van toepassing en blijven de vorige regels van toepassing:  1° op de toekomstige gevolgen van rechtshandelingen en rechtsfeiten die hebben plaatsgevonden voor de inwerkingtreding van deze wet;  2° in afwijking van het eerste lid, op rechtshandelingen en rechtsfeiten die hebben plaatsgevonden na de inwerkingtreding van deze wet die betrekking hebben op een verbintenis ontstaan uit een rechtshandeling of rechtsfeit dat heeft plaatsgevonden voor de inwerkingtreding van deze wet.
 
 ## HOOFDSTUK 6. - Inwerkingtreding
 
 #### Art. 65
 
-Deze wet treedt in werking op de eerste dag van de zesde maand na die waarin ze is bekendgemaakt in het Belgisch Staatsblad.
-  Onverminderd het eerste lid, treedt artikel 29 in werking op 1 juli 2022.
-
+Deze wet treedt in werking op de eerste dag van de zesde maand na die waarin ze is bekendgemaakt in het Belgisch Staatsblad.  Onverminderd het eerste lid, treedt artikel 29 in werking op 1 juli 2022.

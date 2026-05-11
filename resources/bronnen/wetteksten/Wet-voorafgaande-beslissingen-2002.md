@@ -1,50 +1,50 @@
 ---
-tags: [I, '2.1']
-itaa-lex-sectie: I
-wet: Wet 24 december 2002 tot wijziging van de vennootschapsregeling inzake inkomstenbelastingen en tot instelling van een systeem van voorafgaande beslissingen in fiscale zaken
-bron_rol: itaa_lex
-status: beschikbaar
 bijgewerkt: 24.12.2002
 bron: Fisconetplus.be (officieuze gecoördineerde versie)
+bron_rol: itaa_lex
 chunk:
   level: 4
+  sub_strategy: null
   type: Art.
-  sub_strategy:
+itaa-lex-sectie: I
 provenance:
+  generated_at: '2026-05-11T16:22:16Z'
   inputs:
-    - id: resources/raw/wetteksten/Wet-voorafgaande-beslissingen-2002.pdf
-      sha256: 2e02ac9cf2dee1a314196a6d19cc0d294c9c35c2f5d0c8422c728699d9615bd9
-      version: 24.12.2002
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 7a134f4
-    model:
-    prompt_version:
-  generated_at: '2026-05-09T16:15:14Z'
+  - id: resources/raw/wetteksten/Wet-voorafgaande-beslissingen-2002.pdf
+    sha256: 2e02ac9cf2dee1a314196a6d19cc0d294c9c35c2f5d0c8422c728699d9615bd9
+    version: 24.12.2002
   stale: false
-  stale_reason:
+  stale_reason: null
+  tooling:
+    model: null
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version: null
   trust:
-    status: trusted
-    confirmed_at: '2026-05-09T21:27:46Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: L1=pass
+    confirmed_at: null
+    confirmed_by: null
     layer1:
-      status: pass
-      run_id: 20260511-134044
-      run_at: '2026-05-11T13:40:50Z'
-      heading_count: 46
-      max_section_chars: 4243
       file_size_chars: 29902
       flags: []
+      heading_count: 46
+      max_section_chars: 4243
+      run_at: '2026-05-11T13:40:50Z'
+      run_id: 20260511-134044
+      status: pass
     layer2:
-      status: trusted
-      agent:
-      run_at:
-      rationale: 46 headings, max 4243 chars, slot Art. 35 (Rekenhof-evaluatie) aanwezig. Inhoud leesbaar.
-      concrete_problemen:
-        - regel: 36
-          type: other
-          voorbeeld: Loose 'Titel' regel direct onder titel — cosmetisch, geen blok-impact
+      agent: null
+      concrete_problemen: []
+      rationale: null
+      run_at: null
+      status: not_run
+    rationale: 'Trust gereset 2026-05-11: ETL-fix wetteksten met content-diff > 5%'
+    status: unreviewed
+status: beschikbaar
+tags:
+- I
+- '2.1'
+wet: Wet 24 december 2002 tot wijziging van de vennootschapsregeling inzake inkomstenbelastingen
+  en tot instelling van een systeem van voorafgaande beslissingen in fiscale zaken
 ---
 
 # Wet voorafgaande beslissingen in fiscale zaken
@@ -56,6 +56,24 @@ Titel
 24 DECEMBER 2002. - Wet tot wijziging van de vennootschapsregeling inzake inkomstenbelastingen en tot instelling van een systeem van voorafgaande beslissingen in fiscale zaken.
 
 Bron : FINANCIEN
+
+#### Art. 1
+
+## TITEL II. - Wetboek van de inkomstenbelastingen 1992.
+
+## TITEL III. - Voorafgaande beslissingen in fiscale zaken.
+
+## TITEL IV. - Diverse bepalingen.
+
+### HOOFDSTUK 1. - Wijziging van het koninklijk besluit nr. 187 van 30 december 1982 betreffende de oprichting van coördinatiecentra en van de wet van 11 april 1983 houdende fiscale en begrotingsbepalingen.
+
+### HOOFDSTUK 2. - Actieplan dat tot doel heeft een doeltreffende inning van de vennootschapsbelasting te waarborgen.
+
+#### Art. 31
+
+## TITEL V. - Inwerkingtreding en overgangsbepalingen.
+
+Tekst
 
 ## TITEL I. - Algemene bepaling.
 
@@ -105,7 +123,9 @@ b) binnen een termijn van drie jaar die aanvangt op de eerste dag van het belast
 De vaste activa die als herbelegging in aanmerking worden genomen krachtens artikel 47, worden voor de toepassing van het vorige lid uitgesloten als investering.
 § 4. Indien niet wordt geïnvesteerd op de wijze en binnen de termijn gesteld in § 3 wordt de voorheen vrijgestelde investeringsreserve aangemerkt als winst van het belastbare tijdperk waarin de investeringstermijn verstreken is.
 De voorheen vrijgestelde investeringsreserve wordt aangemerkt als winst van het belastbare tijdperk waarin de in § 3 in aanmerking genomen investering, wordt vervreemd, wanneer die investering op het ogenblik van de vervreemding minder dan drie jaar in de vennootschap is belegd, en zulks, naar verhouding tot de nog niet aangenomen afschrijvingen op die investering. Deze bepaling is niet van toepassing wanneer de vervreemding geschiedt naar aanleiding van een schadegeval, een onteigening, een opeising in eigendom of een andere gelijkaardige gebeurtenis.
-§ 5. Om het voordeel van de investeringsreserve te rechtvaardigen moet de vennootschap bij haar aangifte in de vennootschapsbelasting een opgave voegen waarvan het model door de Minister van Financiën of zijn afgevaardigde wordt vastgesteld, voor het aanslagjaar waarvoor de reserve wordt aangelegd en de erop volgende aanslagjaren tot wanneer de investering moet zijn verricht.
+§ 5. Om het voordeel van de investeringsreserve te rechtvaardigen moet de vennootschap bij haar aangifte in de vennootschapsbelasting een opgave voegen waarvan het model door de Minister van Financiën of zijn
+
+afgevaardigde wordt vastgesteld, voor het aanslagjaar waarvoor de reserve wordt aangelegd en de erop volgende aanslagjaren tot wanneer de investering moet zijn verricht.
 § 6. De Koning bepaalt de investeringsmodaliteiten als vermeld in § 3, in geval van inbreng van een tak van werkzaamheid of een bedrijfsafdeling of van een algemeenheid van goederen als vermeld in artikel 46, § 1, eerste lid, 2°, en ingeval van fusie of splitsing als vermeld in artikel 211, § 1.
 De Koning kan, bij een na overleg in de Ministerraad vastgesteld besluit, een bedrag vaststellen dat hoger is dan 37.500 EUR. "
 
@@ -147,7 +167,9 @@ In artikel 203 van hetzelfde Wetboek, gewijzigd bij de wetten van 28 december 19
 1° paragraaf 1, eerste lid, 4°, wordt vervangen als volgt :
 "4° een vennootschap voor zover ze winsten verwezenlijkt door tussenkomst van een of meer buitenlandse inrichtingen die globaal genomen zijn onderworpen aan een aanslagregeling die aanzienlijk gunstiger is dan in België;";
 2° paragraaf 1 wordt aangevuld met de volgende leden :
-"De gemeenrechtelijke bepalingen inzake belastingen als vermeld in het eerste lid, 1°, worden geacht aanzienlijk gunstiger te zijn dan in België, wanneer in de gevallen bepaald door de Koning, bij een na overleg in de Ministerraad vastgesteld besluit : - hetzij, het gemeenrechtelijk nominaal tarief op de winsten van de vennootschap, lager is dan 15 pct.;
+"De gemeenrechtelijke bepalingen inzake belastingen als vermeld in het eerste lid, 1°, worden geacht aanzienlijk
+
+gunstiger te zijn dan in België, wanneer in de gevallen bepaald door de Koning, bij een na overleg in de Ministerraad vastgesteld besluit : - hetzij, het gemeenrechtelijk nominaal tarief op de winsten van de vennootschap, lager is dan 15 pct.;
 - hetzij, gemeenrechtelijk, het tarief dat met de werkelijke belastingdruk overeenstemt, lager is dan 15 pct.
 Voor de toepassing van het eerste lid, 1°, worden de gemeenrechtelijke bepalingen inzake belastingen die van toepassing zijn op vennootschappen gevestigd in een Lidstaat van de Europese Unie geacht niet aanzienlijk gunstiger te zijn dan in België.";
 3° paragraaf 2, vierde lid, wordt vervangen als volgt :
@@ -235,6 +257,7 @@ voorafgaande beslissing kan niet worden gegeven wanneer :
 Inzake inkomstenbelastingen kan bovendien geen voorafgaande beslissing worden gegeven wanneer :
 1° [1 bij het indienen van de aanvraag, essentiële elementen van de beschreven verrichting of situatie betrekking hebben op een vluchtland dat niet samenwerkt met de OESO of op een land opgenomen in de lijst van staten zonder of met een lage belasting bedoeld in artikel 307, § 1/2, derde lid, van het Wetboek van de inkomstenbelastingen 1992 tenzij met dit land een overeenkomst ter voorkoming van dubbele belasting werd gesloten en op voorwaarde dat deze overeenkomst of enig verdrag in de uitwisseling van inlichtingen voorziet die nodig zijn om uitvoering te geven aan de bepalingen van de nationale wetten van de overeenkomstsluitende staten;]1
 2° de beschreven verrichting of situatie geen economische substantie heeft in België.
+
 (1)<W 2019-02-11/10, art. 32, 004; Inwerkingtreding : 01-04-2019>
 (2)<W 2023-12-19/07, art. 62, 005; Inwerkingtreding : 31-12-2023>
 
@@ -289,7 +312,9 @@ Artikel 106, tweede lid, van het Wetboek der successierechten wordt vervangen do
 
 #### Art. 31
 
-Binnen de Federale Overheidsdienst Financiën wordt een cel opgericht die belast is met het uitwerken en het opvolgen van een actieplan om : - de verenigingen zonder winstoogmerk en andere rechtspersonen die geen winstoogmerk nastreven, die zich met een exploitatie of met verrichtingen van winstgevende aard bezighouden, onverminderd de uitzonderingen vermeld in de artikelen 181 en 182 van het Wetboek van de inkomstenbelastingen 1992, daadwerkelijk te onderwerpen aan de vennootschapsbelasting;
+Binnen de Federale Overheidsdienst Financiën wordt een cel opgericht die belast is met het uitwerken en het opvolgen van een actieplan om : - de verenigingen zonder winstoogmerk en andere rechtspersonen die geen winstoogmerk nastreven, die zich
+
+met een exploitatie of met verrichtingen van winstgevende aard bezighouden, onverminderd de uitzonderingen vermeld in de artikelen 181 en 182 van het Wetboek van de inkomstenbelastingen 1992, daadwerkelijk te onderwerpen aan de vennootschapsbelasting;
 - de strijd op te voeren tegen de praktijken die werden vastgesteld ten name van kasgeldvennootschappen;
 - en de strijd tegen de misbruiken op het stuk van de rechtspersoonlijkheid te versterken.
 

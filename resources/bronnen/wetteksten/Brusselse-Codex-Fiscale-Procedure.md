@@ -1,50 +1,49 @@
 ---
-tags: [IV.B, '2.5']
-itaa-lex-sectie: IV.B
-wet: Ordonnantie 6 maart 2019 betreffende de Brusselse Codex Fiscale Procedure
-bron_rol: itaa_lex
-status: beschikbaar
 bijgewerkt: 04.06.2024
 bron: Fisconetplus.be (officieuze gecoördineerde versie)
+bron_rol: itaa_lex
 chunk:
   level: 6
-  type: Art.
   sub_strategy:
+  type: Art.
+itaa-lex-sectie: IV.B
 provenance:
+  generated_at: '2026-05-11T16:21:26Z'
   inputs:
     - id: resources/raw/wetteksten/Brusselse-Codex-Fiscale-Procedure.pdf
       sha256: d342b5b00bfe42e3793a0afc56ab1d9d1256e4f99ddac0e6d4b3f65c764ca4eb
       version: 04.06.2024
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 7a134f4
-    model:
-    prompt_version:
-  generated_at: '2026-05-09T16:15:12Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-09T21:27:46Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: L1=pass
+    confirmed_at:
+    confirmed_by:
     layer1:
       status: pass
-      run_id: 20260511-134044
-      run_at: '2026-05-11T13:40:45Z'
-      heading_count: 200
-      max_section_chars: 6429
-      file_size_chars: 151149
+      run_id: 20260511-162232
+      run_at: '2026-05-11T16:22:33Z'
+      heading_count: 265
+      max_section_chars: 6431
+      file_size_chars: 153960
       flags: []
     layer2:
-      status: trusted
       agent:
+      concrete_problemen: []
+      rationale:
       run_at:
-      rationale: Brusselse Codex met 151 Art.-vermeldingen, structuur intact. Heading-injectie heeft enkele Art.-titels als 'Art. 3.De' (gevolgd door body op nieuwe regel) wat cosmetisch is maar leesbaarheid behoudt.
-      concrete_problemen:
-        - regel: 52
-          type: other
-          voorbeeld: "###### Art. 3.De / bepalingen die deze Codex inhouden — newline-split tussen 'De' en rest van zin"
+      status: not_run
+    rationale: 'Trust gereset 2026-05-11: ETL-fix wetteksten met content-diff > 5%'
+    status: unreviewed
+status: beschikbaar
+tags:
+  - IV.B
+  - '2.5'
+wet: Ordonnantie 6 maart 2019 betreffende de Brusselse Codex Fiscale Procedure
 ---
 
 # Brusselse Codex Fiscale Procedure
@@ -54,6 +53,138 @@ provenance:
 Titel
 
 6 MAART 2019. - Ordonnantie betreffende de Brusselse Codex Fiscale Procedure
+
+###### Art. 9
+
+#### Afdeling 3. - Ambtshalve heffing
+
+###### Art. 10
+
+### HOOFDSTUK 2. - Vestiging van de belasting
+
+#### Afdeling 1. - Algemene bepaling
+
+#### Afdeling 2. - Aanslagtermijn
+
+#### Afdeling 3. - Kohieren
+
+###### Art. 17
+
+#### Afdeling 4. - Aanslagbiljet
+
+#### Afdeling 5. - Aanvullende heffing
+
+###### Art. 21
+
+#### Afdeling 6. - Onverdeeldheden en hoofdelijkheden
+
+### HOOFDSTUK 3. - Betaling van de belasting
+
+#### Afdeling 1. - Algemene bepalingen
+
+###### Art. 31
+
+#### Afdeling 2. - Betalingstermijn
+
+#### Afdeling 3.. - Betalingsmodaliteiten
+
+#### Afdeling 4. - Interesten
+
+### HOOFDSTUK 4. - Invordering
+
+#### Afdeling 1. - Termijn
+
+#### Afdeling 2. - Zekerheden
+
+##### Onderafdeling 1. - Waarborg
+
+##### Onderafdeling 2. - Voorrecht
+
+###### Art. 44
+
+##### Onderafdeling 3. - Wettelijke hypotheek
+
+#### Afdeling 3. - Vervolgingen
+
+###### Art. 51
+
+### HOOFDSTUK 5. - Bewijsmiddelen en onderzoeksbevoegdheden
+
+#### Afdeling 1. - Bewijsmiddelen en anti-misbruik bepaling
+
+#### Afdeling 2. - Onderzoeken
+
+#### Afdeling 3. - Informatieverplichtingen van derden
+
+#### Afdeling 4. . - Dading, uitstel van invordering en kwijtschelding
+
+### HOOFDSTUK 6. - Sancties
+
+#### Afdeling 1. - Verlies van het recht op vertegenwoordiging
+
+###### Art. 80
+
+#### Afdeling 2. - Administratieve sancties
+
+#### Afdeling 3. - Strafrechtelijke sancties
+
+### HOOFDSTUK 7. - Betwisting van de belastingplichtige
+
+#### Afdeling 1. - Administratieve beroepsmogelijkheden
+
+#### Afdeling 2. - Beslissing tot verwerping van het geheel van bezwaarschriften en van prejudiciaire beroepen
+
+###### Art. 106
+
+## TITEL 3. - Samenwerking tussen het Gewest en de gemeenten
+
+### HOOFDSTUK 1. - Gemeentelijke opcentiemen op de gewestelijke belastingen
+
+###### Art. 107
+
+### HOOFDSTUK 2. - De overname van de dienst van de gemeentelijke belastingen
+
+#### Afdeling 1. - Algemene bepaling
+
+###### Art. 108
+
+#### Afdeling 2. - De verhouding tussen de gemeente en de gewestelijke fiscale administratie
+
+#### Afdeling 3. - Procedure
+
+### HOOFDSTUK 3. - De overname van de dienst van de gemeentelijke premies
+
+### HOOFDSTUK 4. - De gedwongen invordering van bedragen verschuldigd aan de gemeenten
+
+###### Art. 118
+
+## TITEL 4. - Werking van de gewestelijke fiscale administratie
+
+### HOOFDSTUK 1. [1 - Internationale en Europeesrechtelijke verplichtingen in fiscale zaken en invordering.]1
+
+###### Art. 119
+
+### HOOFDSTUK 2. - Elektronisch beheer
+
+### HOOFDSTUK 3. - Beroepsgeheim
+
+### HOOFDSTUK 4. - Niet-fiscale invordering
+
+###### Art. 129
+
+### HOOFDSTUK 5. - Schuldvergelijking
+
+###### Art. 130
+
+### HOOFDSTUK 6. - Bevoegdheid van de agenten om in rechte te verschijnen
+
+###### Art. 131
+
+## TITEL 5. - Wijzigingsbepalingen
+
+## TITEL 6. - Opheffings-, inwerkingtredingsbepalingen en overgangsmaatregelen
+
+Tekst
 
 ## TITEL 1. - Algemene bepalingen
 
@@ -87,7 +218,9 @@ de toepassing van deze Codex wordt verstaan onder :
 [1 1° /1 het WIGB : het Wetboek van de met inkomstenbelastingen gelijkgestelde belastingen ;]1
 2° de belastingplichtige : elke natuurlijke of rechtspersoon die, overeenkomstig deze Codex of het gemeen recht, een belasting dient te betalen;
 3° de belasting en haar toebehoren : de belasting in hoofdzaak op dewelke deze Codex van toepassing is, met inbegrip van de aanvullende opcentiemen, de interesten, de administratieve boetes, de kosten van vervolging of tenuitvoerlegging, de rechtsplegingsvergoeding, de gerechtelijke kosten en de kosten van betekening;
-4° de elektronisch aangetekende zending : de elektronisch aangetekende zending zoals gedefinieerd in de Verordening (EU) nr. 910/2014 van het Europees Parlement en de Raad van 23 juli 2014 betreffende elektronische identificatie en vertrouwensdiensten voor elektronische transacties in de interne markt en tot intrekking van Richtlijn 1999/93/EG;
+4° de elektronisch aangetekende zending : de elektronisch aangetekende zending zoals gedefinieerd in de Verordening (EU) nr. 910/2014 van het Europees Parlement en de Raad van 23 juli 2014 betreffende
+
+elektronische identificatie en vertrouwensdiensten voor elektronische transacties in de interne markt en tot intrekking van Richtlijn 1999/93/EG;
 5° de elektronische handtekening : de elektronische handtekening zoals gedefinieerd in de Verordening (EU) nr.
 910/2014 van het Europees Parlement en de Raad van 23 juli 2014 betreffende elektronische identificatie en vertrouwensdiensten voor elektronische transacties in de interne markt en tot intrekking van Richtlijn 1999/93/EG;
 6° de Regering : de Regering van het Brussels Hoofdstedelijk Gewest;
@@ -122,7 +255,9 @@ De aangiften mogen ook worden overgelegd door een lasthebber, die alsdan van de 
 
 ###### Art. 8.§ 1. De persoon gehouden tot het indienen van een aangifte bij de gewestelijke fiscale administratie vult het aangifteformulier in, dagtekent en ondertekent het.
 De documenten, inlichtingen of informatie, waarvan de overlegging in het formulier wordt gevraagd, maken integraal deel uit van de aangifte en moeten worden bijgevoegd.
-Het aangifteformulier, volledig ingevuld, gedagtekend en ondertekend, moet binnen de 62 dagen na het ter beschikking stellen van het formulier worden verzonden naar de gewestelijke fiscale administratie.
+Het aangifteformulier, volledig ingevuld, gedagtekend en ondertekend, moet binnen de 62 dagen na het ter
+
+beschikking stellen van het formulier worden verzonden naar de gewestelijke fiscale administratie.
 Als de aangifte ter beschikking werd gesteld per post, is de eerste dag van deze termijn de dag volgend op de dag waarop de geadresseerde, naar alle waarschijnlijkheid, kennis heeft kunnen nemen van het naar hem toegezonden aangifteformulier, dit wil zeggen de zevende dag volgend op de datum van verzending van het aangifteformulier, zoals deze vermeld is op het verzonden stuk, tenzij de geadresseerde het tegendeel bewijst.
 [1 In afwijking van het derde en vierde lid, voor de belasting bedoeld in artikel 3, 9°, moet de belastingplichtige, voor de voertuigen bedoeld in artikel 36bis van het WIGB, vóór de ingebruikname op de openbare weg, een aangifte onderschrijven die alle gegevens moet behelzen die nodig zijn voor het berekenen van de belasting en voor het toezicht.
 Het voertuig wordt verondersteld in gebruik te blijven op de openbare weg zolang de belastingplichtige geen tegengestelde kennisgeving heeft gedaan.
@@ -159,7 +294,9 @@ De heffing kan slechts worden gevestigd voor het verstrijken van deze termijn al
 Als de belastingplichtige ambtshalve belast wordt, komt het hem toe, in het geval van betwisting, het bewijs aan te brengen van het onjuiste karakter van de ambtshalve heffing.
 Deze bewijslast komt echter toe aan de administratie wanneer :
 - de belastingplichtige aantoont dat hij verhinderd werd om ofwel tijdig de krachtens artikel 54 gevraagde inlichtingen te verstrekken ofwel binnen de in artikel 9 gestelde termijn te antwoorden op de kennisgeving van rechtzetting;
-- de belasting werd gevestigd op de grondslag vermeld in de in artikel 9 bedoelde kennisgeving vóór het verstrijken van de in dat artikel vermelde termijn omdat de rechten van het Gewest in gevaar verkeerden.
+- de belasting werd gevestigd op de grondslag vermeld in de in artikel 9 bedoelde kennisgeving vóór het
+
+verstrijken van de in dat artikel vermelde termijn omdat de rechten van het Gewest in gevaar verkeerden.
 § 3. Ten laatste op de dag van de vestiging van de heffing, maakt de administratie aan de belastingplichtige, per schrijven, de opmerkingen over, die deze heeft geformuleerd overeenkomstig paragraaf 2 en waarmee ze geen rekening hield, met vermelding van de motieven die haar beslissing rechtvaardigen.
 
 ### HOOFDSTUK 2. - Vestiging van de belasting
@@ -194,6 +331,7 @@ Gedurende die termijn van zes maanden die de termijnen om verzet of hoger beroep
 Als de gewestelijke fiscale administratie een subsidiaire aanslag binnen de voornoemde termijn van zes maanden voorlegt aan de rechter, beginnen, in afwijking van het vorige lid, de termijnen om verzet of hoger beroep aan te tekenen of om een voorziening in cassatie in te dienen te lopen vanaf de betekening van de rechterlijke beslissing betreffende de subsidiaire aanslag.
 De subsidiaire aanslag is alleen invorderbaar of terugbetaalbaar ter uitvoering van de rechterlijke beslissing.
 Als de subsidiaire aanslag gevestigd wordt in hoofde van een overeenkomstig paragraaf 3 gelijkgestelde belastingplichtige, wordt die aanslag aan de rechter onderworpen door een aan de gelijkgestelde belastingplichtige betekend verzoekschrift met dagvaarding om te verschijnen.
+
 § 3. Voor de toepassing van paragraaf 2 worden met dezelfde belastingplichtige gelijkgesteld :
 1° de erfgenamen van de belastingplichtige die de erfenis aanvaard hebben en in verhouding tot hun universele rechten of onder algemene titel in de erfenis;
 2° de overnemende of de verkrijgende vennootschappen, naar gelang het geval.
@@ -359,6 +497,7 @@ De som van de geëiste interesten wordt afgerond op de bovenste of op de onderst
 terugbetaling van de belasting en haar toebehoren, worden moratoire interesten toegekend op de verschuldigde sommen. Geen moratoire interesten worden echter toegekend wanneer de terugbetaling voortvloeit uit de kwijtschelding of de vermindering van een boete toegekend als genademaatregel.
 De interest wordt berekend per kalendermaand, op een twaalfde van 4 %; hij wordt berekend op het terug te betalen bedrag, met inbegrip van de kosten en boetes, met uitsluiting van telkens de berekende interesten van voorgaande maanden.
 De interest begint te lopen :
+
 1) [1 ofwel vanaf de eerste dag van de kalendermaand die volgt op de betaling van de teveel betaalde bedragen door de betrokken persoon ;]1 2) ofwel vanaf de eerste dag van de kalendermaand die volgt op de voorgaande betaling van het Gewest in het kader van de terugbetaling.
 Hij wordt gerekend tot de laatste dag van de kalendermaand waarin de betaling heeft plaatsgevonden van het Gewest. Ieder gedeelte van de maand wordt voor een volledige maand gerekend.
 De som van de geëiste interesten wordt afgerond op de bovenste cent of op de onderste naargelang het duizendste van de euro al dan niet 5 bereikt. De interesten worden enkel teruggestort indien ze minimum 5 euro bedragen.
@@ -404,7 +543,9 @@ De rechtspleging geschiedt zoals in kort geding.
 
 ###### Art. 43
 
-Het stellen van een zakelijke zekerheid of van een persoonlijke borg bedoeld in artikel 42 moet gebeuren binnen de twee maanden na de kennisgeving van de beslissing van de bevoegde agent of na de datum waarop de rechterlijke beslissing kracht van gewijsde heeft verkregen.
+Het stellen van een zakelijke zekerheid of van een persoonlijke borg bedoeld in artikel 42 moet gebeuren
+
+binnen de twee maanden na de kennisgeving van de beslissing van de bevoegde agent of na de datum waarop de rechterlijke beslissing kracht van gewijsde heeft verkregen.
 
 ##### Onderafdeling 2. - Voorrecht
 
@@ -456,6 +597,7 @@ De dwangbevelen worden uitgevaardigd, geviseerd en uitvoerbaar verklaard door de
 § 2. De bevoegde agent moet een herinneringsbrief sturen ten minste een maand voordat de belasting en haar toebehoren kunnen worden ingevorderd door een eerste middel van tenuitvoerlegging, behalve als de rechten van het Gewest in het gedrang komen.
 Vormen een middel van tenuitvoerlegging in de zin van het eerste lid, de middelen van tenuitvoerlegging bedoeld in het vijfde deel, titel III van het Gerechtelijk Wetboek en het uitvoerend beslag onder derden ingevoegd in uitvoering van dit artikel.
 De uitvoering van het dwangbevel kan slechts worden geschorst door een gemotiveerd verzet vanwege de belastingplichtige, die een vordering instelt overeenkomstig de bepalingen van het Gerechtelijk Wetboek inzake geschillen betreffende de toepassing van een belastingwet.
+
 § 3. De Regering bepaalt de modaliteiten van :
 1° de rechtstreekse vervolging;
 2° de onrechtstreekse vervolging;
@@ -497,7 +639,9 @@ De voormelde agenten, voorzien van hun aanstellingsbewijs, mogen door middel van
 
 ###### Art. 57
 
-Elke agent van de gewestelijke fiscale administratie, die regelmatig werd belast met een controle- of onderzoeksopdracht, is van rechtswege gemachtigd alle toereikende, relevante en niet-excessieve inlichtingen te vragen, op te zoeken of in te zamelen die bijdragen tot de vestiging of de invordering van de belasting en haar toebehoren alsook van elk ander bedrag verschuldigd aan het Gewest.
+Elke agent van de gewestelijke fiscale administratie, die regelmatig werd belast met een controle- of
+
+onderzoeksopdracht, is van rechtswege gemachtigd alle toereikende, relevante en niet-excessieve inlichtingen te vragen, op te zoeken of in te zamelen die bijdragen tot de vestiging of de invordering van de belasting en haar toebehoren alsook van elk ander bedrag verschuldigd aan het Gewest.
 
 bevoegde agenten meer bepaald gemachtigd om :
 a) zonder enige bijstand, garages, hangars, en berg- en aanmeerplaatsen te onderzoeken ;
@@ -527,7 +671,9 @@ De gerechtskosten, het bedrag van belasting bedoeld in artikel 3, 9° en 10°, a
 4° op de verschuldigde belastingen en de opcentiemen of de opdeciemen ;
 5° op de bedragen waarvan de inning of invordering worden verzekerd door de gewestelijke fiscale administratie in toepassing van Titel 3, hoofdstukken 2 tot 5.
 § 5. De agenten belast met de beslagprocedure worden aangewezen door de Regering.
-§ 6. Onder voorbehoud van de bevoegdheden toegekend aan de andere officieren of agenten van gerechtelijke politie en aan de leden van het operationeel kader van de lokale en federale politie, hebben de agenten die belast zijn met de taken bedoeld in de paragrafen 1 en 2 de hoedanigheid van agent of officier van de gerechtelijke politie.
+§ 6. Onder voorbehoud van de bevoegdheden toegekend aan de andere officieren of agenten van gerechtelijke politie en aan de leden van het operationeel kader van de lokale en federale politie, hebben de agenten die belast zijn met de taken bedoeld in de paragrafen 1 en 2 de hoedanigheid van agent of officier van de gerechtelijke
+
+politie.
 De agenten bedoeld in het eerste lid hebben slechts de hoedanigheid van agent of officier van de gerechtelijke politie nadat ze de eed hebben afgelegd.
 De formule van de af te leggen eed is de volgende : " Ik zweer de verplichtingen van mijn ambt trouw na te komen ".
 De Regering bepaalt de modaliteiten van de eedaflegging.
@@ -571,7 +717,9 @@ Een eensluidend verklaard afschrift van het proces-verbaal wordt aan de belastin
 3° de Gemeenschappen;
 4° de ondergeschikte besturen, bedoeld in artikel 6, § 1, VIII van de bijzondere wet van 8 augustus 1980 tot hervorming der instellingen.
 § 2. De bestuursdiensten van de staatsorganen, alsook de openbare instellingen en inrichtingen hiervan, zijn gehouden, wanneer zij daartoe worden aangezocht door een bevoegde agent, hem alle in hun bezit zijnde inlichtingen te verstrekken, hem, zonder verplaatsing, van alle in hun bezit zijnde akten, stukken, registers en om het even welke bescheiden inzage te verlenen, en hem alle inlichtingen, afschriften of uittreksels te laten nemen, welke de bevoegde agent nodig acht voor de vestiging of invordering van de belasting en haar toebehoren.
-Onder openbare instellingen of inrichtingen van de staatsorganen wordt verstaan : de instellingen, maatschappijen, verenigingen, inrichtingen en diensten welke de staatsorganen mede beheren, waaraan de staatsorganen een waarborg verstrekken, op de werkzaamheden waarvan de staatsorganen toezicht uitoefenen of waarvan het bestuurspersoneel wordt aangewezen door de staatsorganen, op hun voordracht of met hun goedkeuring.
+Onder openbare instellingen of inrichtingen van de staatsorganen wordt verstaan : de instellingen,
+
+maatschappijen, verenigingen, inrichtingen en diensten welke de staatsorganen mede beheren, waaraan de staatsorganen een waarborg verstrekken, op de werkzaamheden waarvan de staatsorganen toezicht uitoefenen of waarvan het bestuurspersoneel wordt aangewezen door de staatsorganen, op hun voordracht of met hun goedkeuring.
 § 3. In geen geval mogen de akten, stukken, registers en om het even welke bescheiden of elke andere informatie betreffende de gerechtelijke procedures worden overlegd of gekopieerd dan met uitdrukkelijke toestemming van het openbaar ministerie.
 De ontvangen originelen en de attesten van verstrekte hulp, uitgekeerd door geneesheren, tandartsen en paramedische medewerkers, kunnen niet worden overlegd dan in het geval de Nationale Raad van de Orde van Geneesheren of provinciale medische commissie de mogelijkheid hebben gekregen om te verzekeren dat de gewestelijke fiscale administratie geen informatie verwerft over de identiteit van de zieken en andere verzekerde personen.
 § 4. De Kansspelcommissie, vermeld in artikel 9 van de wet van 7 mei 1999 op de kansspelen, de weddenschappen, de kansspelinrichtingen en de bescherming van de spelers, moet de Regering er onverwijld van op de hoogte brengen dat ze bij een orgaan dat ze controleert, concrete elementen heeft vastgesteld die vermoedelijk wijzen op het bestaan of op de voorbereiding van een mechanisme, gericht op fiscale fraude.
@@ -600,7 +748,9 @@ De Regering regelt de toepassingsmodaliteiten van dit artikel.
 
 ###### Art. 67
 
-Met behoud van de rechten van derden en behalve in geval van de toepassing van artikel 1627 tot en met 1638 van het Gerechtelijk Wetboek, zijn de openbare ambtenaren of ministeriële officieren gehouden de bedragen en waarden die ze onder zich houden, uiterlijk de achtste werkdag die volgt op de verkoping, te betalen aan de gewestelijke fiscale administratie ten bedrage van de belastingen en hun toebehoren die de openbare ambtenaar of de ministeriële officier ter uitvoering van artikel 66 ter kennis zijn gebracht en in zoverre deze belastingen en hun toebehoren niet betwist worden.
+Met behoud van de rechten van derden en behalve in geval van de toepassing van artikel 1627 tot en met 1638 van het Gerechtelijk Wetboek, zijn de openbare ambtenaren of ministeriële officieren gehouden de bedragen en waarden die ze onder zich houden, uiterlijk de achtste werkdag die volgt op de verkoping, te betalen aan de gewestelijke fiscale administratie ten bedrage van de belastingen en hun toebehoren die de openbare
+
+ambtenaar of de ministeriële officier ter uitvoering van artikel 66 ter kennis zijn gebracht en in zoverre deze belastingen en hun toebehoren niet betwist worden.
 
 ###### Art. 68
 
@@ -627,7 +777,9 @@ het verstrijken van de [2 tiende]2 werkdag volgend op de verzending van de in ar
 § 3. Onverminderd de rechten van derden, is de notaris ertoe gehouden, wanneer de in artikel 69 bedoelde akte verleden is, behoudens toepassing van de artikelen 1639 tot 1654 van het Gerechtelijk Wetboek, de bedragen en waarden die hij krachtens de akte onder zich houdt voor rekening of ten bate van de belastingplichtige, uiterlijk de [2 zevende]2 werkdag die volgt op het verlijden van de akte, aan de bevoegde agent te storten tot beloop van het bedrag van de [2 schuldvorderingen]2 die hem ter uitvoering van artikel 70 ter kennis werden gebracht en in zoverre deze belastingen en bijbehoren, een zekere en vaststaande schuld vormen.
 [1 § 4. De Regering legt de toepassingsmodaliteiten van dit artikel vast.]1 (1)<ORD 2019-12-17/06, art. 14, 002; Inwerkingtreding : 01-04-2020> (2)<ORD 2023-07-06/01, art. 17, 008; Inwerkingtreding : 10-08-2023>
 
-###### Art. 72.§ 1. Onverminderd de rechten van derden, kan de overschrijving of de inschrijving van de akte, niet tegen het Gewest ingeroepen worden indien de inschrijving van de wettelijke hypotheek geschiedt binnen [1 zeven]1 werkdagen van de datum van de inlichting bedoeld in artikel 71.
+###### Art. 72.§ 1. Onverminderd de rechten van derden, kan de overschrijving of de inschrijving van de akte, niet tegen het Gewest ingeroepen worden indien de inschrijving van de wettelijke hypotheek geschiedt binnen [1
+
+zeven]1 werkdagen van de datum van de inlichting bedoeld in artikel 71.
 Zijn zonder uitwerking ten opzichte van de schuldvorderingen [1 ...]1, welke in uitvoering van artikel 70 werden ter kennis gegeven, alle niet ingeschreven schuldvorderingen waarvoor slechts na het verstrijken van de in artikel 71 voorziene termijn beslag wordt gelegd of verzet aangetekend.
 § 2. De inschrijvingen genomen na de termijn voorzien in paragraaf 1, of voor zekerstelling van de [1 schuldvorderingen]1 die niet gekend zijn overeenkomstig artikel 70, zijn niet tegenstelbaar aan de hypothecaire schuldeiser, noch aan de verwerver die de opheffing kan eisen.
 § 3. De Regering bepaalt de voorwaarden en toepassingsmodaliteiten van dit artikel.
@@ -670,7 +822,9 @@ De gegevens opgenomen in de kennisgevingen en de inlichting respectievelijk bedo
 
 ###### Art. 76
 
-Met het akkoord van de belastingplichtige zijn de banken, onderworpen aan de wet van 25 april 2014 op het statuut van en het toezicht op de kredietinstellingen en beursvennootschappen, de ondernemingen, onderworpen aan het boek VII van het Wetboek van economisch recht en de hypotheekondernemingen, onderworpen aan de wet van 4 augustus 1992 op het hypothecair krediet, gemachtigd het in artikel 69 voorziene bericht toe te sturen en in staat om de in artikel 70 bedoelde kennisgeving te ontvangen.
+Met het akkoord van de belastingplichtige zijn de banken, onderworpen aan de wet van 25 april 2014
+
+op het statuut van en het toezicht op de kredietinstellingen en beursvennootschappen, de ondernemingen, onderworpen aan het boek VII van het Wetboek van economisch recht en de hypotheekondernemingen, onderworpen aan de wet van 4 augustus 1992 op het hypothecair krediet, gemachtigd het in artikel 69 voorziene bericht toe te sturen en in staat om de in artikel 70 bedoelde kennisgeving te ontvangen.
 De afgifte van een attest door die instellingen aan de notaris betreffende de verzending van het bericht en het gevolg dat daaraan gegeven wordt door de bevoegde agent, vervangt de aansprakelijkheid van deze instellingen in de plaats van deze van de notaris.
 
 ###### Art. 77
@@ -760,7 +914,9 @@ De eerste dag van de betalingstermijn van de boetes bedoelde in deze afdeling is
 
 De administratieve boete kan worden opgelegd door de gewestelijke fiscale administratie, los van alle communicatie vanuit het openbaar ministerie.
 Zonder afbreuk te doen aan de geldigheid van de bestuurs- of gerechtelijke handelingen, verricht met het oog op de vestiging of de invordering van de belasting en haar toebehoren, wordt de mogelijkheid om een administratieve geldboete als vermeld in dit hoofdstuk, op te leggen of in te vorderen en het verloop van de verjaring van de vordering tot voldoening ervan geschorst als het openbaar ministerie de strafvordering overeenkomstig artikel 96 uitoefent. De aanhangigmaking bij de correctionele rechtbank maakt het opleggen van of het invorderen van een administratieve geldboete definitief onmogelijk. Daarentegen maakt de beschikking van buitenvervolgingstelling een einde aan deze schorsing.
-Zodra een administratieve geldboete, opgelegd met toepassing van de bepalingen van dit hoofdstuk, definitief is geworden, vervalt de strafvordering.
+Zodra een administratieve geldboete, opgelegd met toepassing van de bepalingen van dit hoofdstuk, definitief is
+
+geworden, vervalt de strafvordering.
 
 bedoeld in artikel 8, § 1, vijfde lid, in geval van een onvolledige aangifte of in geval van schending van artikel 54 wordt de ontdoken belasting op het drievoudige gebracht wanneer zij een tiende van de oorspronkelijke belasting overschrijdt. Deze verhoogde belasting is onmiddellijk betaalbaar.]1 (1)<Ingevoegd bij ORD 2019-12-17/06, art. 17, 002; Inwerkingtreding : 01-01-2020>
 
@@ -806,7 +962,9 @@ De wet van 5 maart 1952, gewijzigd bij de wetten van 22 december 1989 en 20 juli
 
 ###### Art. 94
 
-Personen die als daders of als medeplichtigen van misdrijven bedoeld in de artikelen 87 tot 90 werden veroordeeld, zijn hoofdelijk gehouden tot betaling van de ontdoken belasting. De natuurlijke personen of de rechtspersonen zijn burgerlijk en hoofdelijk aansprakelijk voor de geldboeten en kosten die het gevolg zijn van de veroordelingen welke krachtens de artikelen van deze afdeling tegen hun gemachtigden of bedrijfsleiders zijn uitgesproken.
+Personen die als daders of als medeplichtigen van misdrijven bedoeld in de artikelen 87 tot 90 werden veroordeeld, zijn hoofdelijk gehouden tot betaling van de ontdoken belasting. De natuurlijke personen of de rechtspersonen zijn burgerlijk en hoofdelijk aansprakelijk voor de geldboeten en kosten die het gevolg zijn van de
+
+veroordelingen welke krachtens de artikelen van deze afdeling tegen hun gemachtigden of bedrijfsleiders zijn uitgesproken.
 
 ###### Art. 95
 
@@ -857,7 +1015,9 @@ De beslissing moet in gesloten omslag aan de indiener van het bezwaarschrift gez
 
 § 1. Een prejudiciair beroep kan schriftelijk worden ingediend bij de bevoegde agent door :
 1° de belastingplichtige, alsmede de persoon op wiens goederen de verschuldigde bedragen werden of zouden kunnen worden ingevorderd;
-2° de persoon aan wie de administratieve boete wordt opgelegd of de persoon op wiens goederen de verschuldigde bedragen werden of zouden kunnen worden ingevorderd;
+2° de persoon aan wie de administratieve boete wordt opgelegd of de persoon op wiens goederen de
+
+verschuldigde bedragen werden of zouden kunnen worden ingevorderd;
 3° de indiener van het bezwaarschrift.
 Het prejudiciair beroep kan worden ingediend tegen :
 1° de vraag tot betaling van interesten;
@@ -903,7 +1063,9 @@ Voor de toepassing van dit artikel omvat de rechtsvordering met betrekking tot d
 
 De bevoegde agent kan, door een enkele gemotiveerde beslissing, een geheel van bezwaarschriften en prejudiciaire beroepen verwerpen indien aan alle volgende voorwaarden is voldaan :
 1° de bezwaarschriften en prejudiciaire beroepen zijn exclusief gebaseerd op één of meerdere grieven van ongrondwettelijkheid van één of meerdere bepalingen van deze Codex of van de fiscale wetgeving;
-2° het Grondwettelijk Hof, gevat voor dezelfde grief of dezelfde grieven, het vernietigingsberoep tegen de aangevochten bepaling heeft verworpen of een prejudicieel arrest heeft geveld die de geldigheid van deze bepaling heeft vastgesteld.
+2° het Grondwettelijk Hof, gevat voor dezelfde grief of dezelfde grieven, het vernietigingsberoep tegen de
+
+aangevochten bepaling heeft verworpen of een prejudicieel arrest heeft geveld die de geldigheid van deze bepaling heeft vastgesteld.
 De beslissing wordt gepubliceerd in het Belgisch Staatsblad. De publicatie geldt als bekendmaking van de beslissing aan de indieners van de bezwaarschriften en de prejudiciaire beroepen.
 Deze beslissing is onherroepelijk, behalve wat betreft diegene die een vordering instelt op basis van artikel 1385undecies van het Gerechtelijk Wetboek binnen de termijn bepaald door dit artikel. Geen enkel prejudiciair beroep kan worden ingesteld tegen deze beslissing.
 
@@ -946,6 +1108,7 @@ Voor de toepassing van dit hoofdstuk wordt verstaan onder :
 § 1. De overname van de dienst van een gemeentelijke belasting door de gewestelijke fiscale administratie wordt voorafgegaan door een beslissing van de gemeenteraad om de onderhandelingsprocedure voor een akkoordprotocol met de gewestelijke fiscale administratie, op te starten.
 De Regering bepaalt de modaliteiten met betrekking tot de kennisgeving van deze beslissing door de gemeente aan het Gewest.
 § 2. Na de vaststelling en kennisgeving van de in paragraaf 1 bedoelde beslissing, onderhandelen de gemeente en de gewestelijke fiscale administratie vrijelijk over een akkoordprotocol dat als doel heeft om de voorwaarden en modaliteiten van de beoogde overname van de dienst van de belasting door de gewestelijke fiscale administratie, toe te lichten.
+
 Bij ontvangst van de in paragraaf 1 bedoelde beslissing, of in het kader van de in deze paragraaf bedoelde onderhandelingen, kan de Regering aan de gemeente de redenen betekenen waarom zij niet voornemens is om de dienst over te nemen van de belasting waarvan sprake in de voornoemde beslissing.
 Het akkoordprotocol bevat met name :
 1° de praktische modaliteiten van de overname van de dienst van voornoemde belasting;
@@ -1036,6 +1199,7 @@ De Regering legt de modaliteiten vast van deze gedwongen terugvordering.
 De Regering bepaalt de modaliteiten van de kennisgeving van deze beslissing door de gemeente aan het Gewest.
 § 3. Na de vaststelling en kennisgeving van de in paragraaf 2 bedoelde beslissing, onderhandelen de gemeente en de gewestelijke fiscale administratie vrijelijk over een akkoordprotocol dat met name toelaat om de voorwaarden en de modaliteiten van ten laste neming door de gewestelijke fiscale administratie van de gedwongen invordering van de bedragen verschuldigd aan de gemeente vast te stellen.
 Dit akkoordprotocol bevat met name :
+
 1° de praktische modaliteiten van de overname en de uitoefening van de gewestelijke fiscale administratie van de gedwongen invordering van de aan de gemeente verschuldigde bedragen;
 2° de voorwaarden waaraan moet worden voldaan opdat de gewestelijke fiscale administratie de gedwongen invordering van aan de gemeente verschuldigde bedragen gemakkelijk kan verzekeren.
 De Regering bepaalt de modaliteiten van de onderhandeling en de ondertekening van het akkoordprotocol.
@@ -1059,7 +1223,9 @@ De gewestelijke fiscale administratie kan, in dit kader ook een beroep doen op d
 [2 Wanneer de uitvoering van de verplichtingen bedoeld in het eerste lid vereist om bij het centraal aanspreekpunt gehouden bij de Nationale Bank van België overeenkomstig de wet van 8 juli 2018 houdende organisatie van een centraal aanspreekpunt van rekeningen en financiële contracten en tot uitbreiding van de toegang tot het centraal bestand van berichten van beslag, delegatie, overdracht, collectieve schuldenregeling en protest, de beschikbare gegevens bedoeld in artikel 4 van dezelfde wet te vragen met het oog op de mededeling ervan aan de verzoekende buitenlandse staat, geeft de agent bedoeld in artikel 65/1, § 2, tweede lid machtiging aan de agent bedoeld in artikel 65/1, § 2, eerste lid om het centraal aanspreekpunt te verzoeken, op basis van de gedane aanvraag door de buitenlandse staat.]2
 § 2. De bevoegde agent mag, in het kader van de in paragraaf 1 omschreven omstandigheden, [1 wat betreft de uitvoering van de internationale en de Europeesrechtelijke verplichtingen tot hulp- en bijstand in fiscale zaken van het Gewest,]1 geschreven attesten inzamelen, derden horen, een onderzoek instellen, en binnen de door hem bepaalde termijn - welke in geval van overmacht kan worden verlengd - van natuurlijke of rechtspersonen, alsook van verenigingen zonder rechtspersoonlijkheid alle inlichtingen vorderen die hij nodig acht om aan de hulp en bijstandsverplichtingen van het Gewest te kunnen voldoen.
 [1 De bevoegde agent mag, in het kader van de in de paragraaf 1 omschreven omstandigheden, wat betreft de ordonnantie betreffende de administratieve samenwerking op het gebied van de belastingen, geschreven attesten inzamelen, derden horen, onderzoeken instellen, en binnen de door hem bepaalde termijn - welke in geval van overmacht kan worden verlengd - van natuurlijke of rechtspersonen, alsook van verenigingen zonder rechtspersoonlijkheid alle inlichtingen vorderen die hij nodig acht om alle informatie die de relevante belastingplichtige zelf, dan wel middels zijn intermediair, in toepassing van de artikelen 5, 19° tot en met 26°, 5/1, 9/2, §§ 1 tot en met 9 van de ordonnantie betreffende de administratieve samenwerking op het gebied van de belastingen heeft gemeld of diende te melden aan de in artikel 5, 6°, van de voormelde ordonnantie bedoelde binnenlandse bevoegde autoriteit, met inbegrip van de onderliggende documenten die hij voor of na de melding van diens intermediair heeft ontvangen, of die hij zelf heeft opgesteld met betrekking tot de meldingsplichtige constructie.
-De bevoegde agent mag, binnen de door hem bepaalde termijn, welke wegens wettige redenen kan worden verlengd, voor zover hij die informatie nodig acht om de correcte naleving van de artikelen 5, 19° tot en met 26°, 5/1, 9/2, §§ 1 tot en met 9 van de ordonnantie betreffende de administratieve samenwerking op het gebied van de belastingen, van de betrokken intermediair of intermediairs alle informatie vorderen die in toepassing van de artikelen 5, 19° tot en met 26°, 5/1, 9/2, §§ 1 tot en met 9 van de voormelde ordonnantie diende te worden gemeld aan de in artikel 5, 6°, van de voormelde ordonnantie bedoelde binnenlandse bevoegde autoriteit, met inbegrip van de onderliggende documenten die de intermediair heeft opgesteld met betrekking tot een meldingsplichtige constructie en die na toepassing te hebben gemaakt van het tweede lid, niet werden overgemaakt.]1 Een bank-, wissel-, krediet- of spaarinstelling wordt als een derde beschouwd waarop de bepalingen van het eerste [1 en tweede]1 lid onverminderd van toepassing zijn.
+De bevoegde agent mag, binnen de door hem bepaalde termijn, welke wegens wettige redenen kan worden verlengd, voor zover hij die informatie nodig acht om de correcte naleving van de artikelen 5, 19° tot en met 26°, 5/1, 9/2, §§ 1 tot en met 9 van de ordonnantie betreffende de administratieve samenwerking op het gebied van de belastingen, van de betrokken intermediair of intermediairs alle informatie vorderen die in toepassing van de
+
+artikelen 5, 19° tot en met 26°, 5/1, 9/2, §§ 1 tot en met 9 van de voormelde ordonnantie diende te worden gemeld aan de in artikel 5, 6°, van de voormelde ordonnantie bedoelde binnenlandse bevoegde autoriteit, met inbegrip van de onderliggende documenten die de intermediair heeft opgesteld met betrekking tot een meldingsplichtige constructie en die na toepassing te hebben gemaakt van het tweede lid, niet werden overgemaakt.]1 Een bank-, wissel-, krediet- of spaarinstelling wordt als een derde beschouwd waarop de bepalingen van het eerste [1 en tweede]1 lid onverminderd van toepassing zijn.
 § 3. De bevoegde agent [1 , bedoeld in paragraaf 2, eerste lid,]1 kan een administratieve geldboete van 125 euro tot 50.000 euro opleggen aan :
 1° de personen die weigeren mee te werken aan het in paragraaf 2 [1 , eerste lid,]1 bedoelde onderzoek;
 2° personen die de krachtens paragraaf 2 [1 , eerste lid,]1 ingevorderde inlichtingen niet of niet tijdig verschaffen.
@@ -1132,7 +1298,9 @@ De bevoegdheden van de in het tweede lid bedoelde agenten worden eveneens uitgeo
 ###### Art. 130.De
 
 bepalingen van [2 boek 5, titel 3, ondertitel 8, hoofdstuk 4,]2 van het Burgerlijk Wetboek zijn niet van toepassing op de belastingen en hun toebehoren.
-[1 Elk bedrag dat door de gewestelijke fiscale administratie moet worden terugbetaald of betaald aan een persoon, hetzij ingevolge of krachtens een ordonnantie, hetzij in het kader van de toepassing van de regelgeving met betrekking tot de onverschuldigde betaling, kan naar keuze van de bevoegde agent en zonder formaliteit worden aangewend ter betaling van de door deze persoon verschuldigde bedragen, waarvan de inning of invordering zijn verzekerd door de gewestelijke fiscale administratie.]1 De aanwending met toepassing van het tweede lid kan voor betwiste aanslagen verricht worden als bewarende maatregel.
+[1 Elk bedrag dat door de gewestelijke fiscale administratie moet worden terugbetaald of betaald aan een persoon, hetzij ingevolge of krachtens een ordonnantie, hetzij in het kader van de toepassing van de regelgeving met betrekking tot de onverschuldigde betaling, kan naar keuze van de bevoegde agent en zonder formaliteit worden aangewend ter betaling van de door deze persoon verschuldigde bedragen, waarvan de inning of invordering zijn verzekerd door de gewestelijke fiscale administratie.]1 De aanwending met toepassing van het tweede lid kan voor betwiste aanslagen verricht worden als bewarende
+
+maatregel.
 Dit artikel blijft van toepassing in geval van beslag, overdracht, samenloop of een insolvabiliteitsprocedure.
 (1)<ORD 2019-12-17/06, art. 19, 002; Inwerkingtreding : 19-03-2019>
 (2)<ORD 2023-06-01/21, art. 14, 007; Inwerkingtreding : 01-01-2023>
@@ -1176,7 +1344,9 @@ Voor de toepassing van de Codex dient onder de begrippen " belasting en haar toe
 In geval van niet-betaling van de geldboete vermeld in artikel 29, binnen de in het vorige lid vermelde termijn, vaardigt de ambtenaar door de Regering belast met de invordering van de kilometerheffing een dwangbevel uit overeenkomstig artikel 51 van de Brusselse Codex Fiscale Procedure. ".
 § 3. Artikel 32 van dezelfde ordonnantie wordt vervangen als volgt :
 " Art. 32. De persoon aan wie een administratieve geldboete als bedoeld in artikel 29 werd opgelegd en degene die hoofdelijk gehouden is tot betaling ervan, kunnen tegen het bedrag van de boete en zijn toebehoren een prejudiciair beroep indienen overeenkomstig artikel 101 van de Brusselse Codex Fiscale Procedure.
-De houder van het voertuig kan tegen de beslissing van de gewestelijke fiscale administratie tot weigering van zijn aanvraag tot vrijstelling met betrekking tot een van de vrijstellingen vermeld in artikel 11, § 1, 2° tot 4°, prejudiciair beroep indienen overeenkomstig artikel 101 van de Brusselse Codex Fiscale Procedure. ".
+De houder van het voertuig kan tegen de beslissing van de gewestelijke fiscale administratie tot weigering van zijn aanvraag tot vrijstelling met betrekking tot een van de vrijstellingen vermeld in artikel 11, § 1, 2° tot 4°,
+
+prejudiciair beroep indienen overeenkomstig artikel 101 van de Brusselse Codex Fiscale Procedure. ".
 
 ###### Art. 136
 
@@ -1218,6 +1388,7 @@ Deze vordering dient te worden ingesteld overeenkomstig de artikelen 1034bis tot
 § 5. Artikel 3.2.26. van dezelfde Codex wordt vervangen als volgt :
 " Art. 3.2.26. - De volgende bepalingen van de Brusselse Codex Fiscale Procedure zijn van toepassing op dit hoofdstuk betreffende de lage emissiezones :
 1° titel 3;
+
 2° titel 4, behalve hoofdstuk 2. ".
 (1)<ORD 2022-11-17/05, art. 5, 006; Inwerkingtreding : 01-01-2023>
 
@@ -1262,6 +1433,8 @@ In afwijking van het eerste en tweede lid, treden de niet in het eerste lid bedo
 1° de verkeersbelasting op de autovoertuigen ;
 2° de belasting op de inverkeerstelling.]1
 
-(NOTA : Inwerkingtreding van artikel 141 vastgesteld op 01-01-2020 door BESL 2019-12-12/14, art. 1) (NOTA : Inwerkingtreding van artikel 39 tot 51 vastgesteld op 01-01-2020 door BESL 2019-11-28/04, art. 1, voor wat betreft de invordering van bedragen verschuldigd aan gemeenten) (NOTA : Inwerkingtreding van artikel 114 tot 118 vastgesteld op 01-01-2020 door BESL 2019-11-28/04, art. 1) (NOTA : Inwerkingtreding van artikel 69 tot 77 vastgesteld op 01-04-2020 door BESL 2020-03-05/12, art. 3) (NOTA : Inwerkingtreding van artikelen 1 tot en met 131, 143, eerste lid, 2° en 143, tweede lid vanaf het aanslagjaar 2022 voor wat betreft de belastingen bedoeld in artikel 3, 2° tot 8°, door BESL 2021-12-16/12, art. 1 en 5) (NOTA : Inwerkingtreding van artikel 136, 138, 139 vanaf het aanslagjaar 2022, door BESL 2021-12-16/12, art.
+(NOTA : Inwerkingtreding van artikel 141 vastgesteld op 01-01-2020 door BESL 2019-12-12/14, art. 1)
+
+(NOTA : Inwerkingtreding van artikel 39 tot 51 vastgesteld op 01-01-2020 door BESL 2019-11-28/04, art. 1, voor wat betreft de invordering van bedragen verschuldigd aan gemeenten) (NOTA : Inwerkingtreding van artikel 114 tot 118 vastgesteld op 01-01-2020 door BESL 2019-11-28/04, art. 1) (NOTA : Inwerkingtreding van artikel 69 tot 77 vastgesteld op 01-04-2020 door BESL 2020-03-05/12, art. 3) (NOTA : Inwerkingtreding van artikelen 1 tot en met 131, 143, eerste lid, 2° en 143, tweede lid vanaf het aanslagjaar 2022 voor wat betreft de belastingen bedoeld in artikel 3, 2° tot 8°, door BESL 2021-12-16/12, art. 1 en 5) (NOTA : Inwerkingtreding van artikel 136, 138, 139 vanaf het aanslagjaar 2022, door BESL 2021-12-16/12, art.
 2, 3 en 4)
 (1)<ORD 2019-12-17/06, art. 20, 002; Inwerkingtreding : 01-01-2020>

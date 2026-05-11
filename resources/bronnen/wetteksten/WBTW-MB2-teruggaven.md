@@ -1,47 +1,54 @@
 ---
-tags: [VI.C, '2.4']
-itaa-lex-sectie: VI.C
-wet: M.B. nr. 2 van 21 december 2010, met betrekking tot de teruggaven inzake belasting over de toegevoegde waarde
-bron_rol: itaa_lex
-status: beschikbaar
 bijgewerkt: 21.12.2010
 bron: Afgesplitst uit Fisconet-compilatie (pdftotext_compilatie_btw)
+bron_rol: itaa_lex
 chunk:
   level: 2
+  sub_strategy: null
   type: Art.
-  sub_strategy:
+itaa-lex-sectie: VI.C
 provenance:
+  generated_at: '2026-05-11T16:21:51Z'
   inputs:
-    - id: resources/raw/wetteksten/btw-kbs/WBTW-MB-compilatie.pdf
-      sha256: e2e322b0d748d0314e5f16d11a0aac6c964d684451d00738c9352b4f32f9171c
-      version: 29.04.2024
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 7a134f4
-    model:
-    prompt_version:
-  generated_at: '2026-05-09T16:15:20Z'
+  - id: resources/raw/wetteksten/btw-kbs/WBTW-MB-compilatie.pdf
+    sha256: e2e322b0d748d0314e5f16d11a0aac6c964d684451d00738c9352b4f32f9171c
+    version: 29.04.2024
   stale: false
-  stale_reason:
+  stale_reason: null
+  tooling:
+    model: null
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version: null
   trust:
-    status: trusted
     confirmed_at: '2026-05-11T11:46:29Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "MB met volledige inhoud. Art. 1, 2 en 3 staan correct als ## headings op regels 63, 80 en 85. Geen PDF-artefacten, geen kolom-bleed, geen scrambled text. De eerdere layer2-notitie '0 ##-headings' was incorrect. Laag-1 pass."
     layer1:
-      status: pass
-      run_id: 20260511-134044
-      run_at: '2026-05-11T13:40:48Z'
-      heading_count: 3
-      max_section_chars: 1220
       file_size_chars: 2200
       flags: []
+      heading_count: 3
+      max_section_chars: 1220
+      run_at: '2026-05-11T13:40:48Z'
+      run_id: 20260511-134044
+      status: pass
     layer2:
-      status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T11:46:29Z'
-      rationale: "MB met volledige inhoud. Art. 1, 2 en 3 staan correct als ## headings op regels 63, 80 en 85. Geen PDF-artefacten, geen kolom-bleed, geen scrambled text. De eerdere layer2-notitie '0 ##-headings' was incorrect. Laag-1 pass."
       concrete_problemen: []
+      rationale: 'MB met volledige inhoud. Art. 1, 2 en 3 staan correct als ## headings
+        op regels 63, 80 en 85. Geen PDF-artefacten, geen kolom-bleed, geen scrambled
+        text. De eerdere layer2-notitie ''0 ##-headings'' was incorrect. Laag-1 pass.'
+      run_at: '2026-05-11T11:46:29Z'
+      status: trusted
+    rationale: 'MB met volledige inhoud. Art. 1, 2 en 3 staan correct als ## headings
+      op regels 63, 80 en 85. Geen PDF-artefacten, geen kolom-bleed, geen scrambled
+      text. De eerdere layer2-notitie ''0 ##-headings'' was incorrect. Laag-1 pass.'
+    status: trusted
+status: beschikbaar
+tags:
+- VI.C
+- '2.4'
+wet: M.B. nr. 2 van 21 december 2010, met betrekking tot de teruggaven inzake belasting
+  over de toegevoegde waarde
 ---
 
 # M.B. nr. 2 van 21 december 2010, met betrekking tot de teruggaven inzake belasting over de toegevoegde waarde

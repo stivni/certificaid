@@ -1,47 +1,61 @@
 ---
-tags: [VI.C, '2.4']
-itaa-lex-sectie: VI.C
-wet: M.B. nr. 6 van 4 maart 1993, waarbij uitstel wordt verleend voor de voldoening van de ter zake van de invoer van goederen verschuldigde belasting over de toegevoegde waarde
-bron_rol: itaa_lex
-status: beschikbaar
 bijgewerkt: 04.03.1993
 bron: Afgesplitst uit Fisconet-compilatie (pdftotext_compilatie_btw)
+bron_rol: itaa_lex
 chunk:
   level: 2
+  sub_strategy: null
   type: Art.
-  sub_strategy:
+itaa-lex-sectie: VI.C
 provenance:
+  generated_at: '2026-05-11T16:21:51Z'
   inputs:
-    - id: resources/raw/wetteksten/btw-kbs/WBTW-MB-compilatie.pdf
-      sha256: e2e322b0d748d0314e5f16d11a0aac6c964d684451d00738c9352b4f32f9171c
-      version: 29.04.2024
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 7a134f4
-    model:
-    prompt_version:
-  generated_at: '2026-05-09T16:15:20Z'
+  - id: resources/raw/wetteksten/btw-kbs/WBTW-MB-compilatie.pdf
+    sha256: e2e322b0d748d0314e5f16d11a0aac6c964d684451d00738c9352b4f32f9171c
+    version: 29.04.2024
   stale: false
-  stale_reason:
+  stale_reason: null
+  tooling:
+    model: null
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version: null
   trust:
-    status: trusted
     confirmed_at: '2026-05-11T11:51:18Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "Kort besluit (4 artikelen, 1744 tekens). Laag-1 meldt 'pass' en de layer2-prenotitie over '0 ##-headings' is onjuist: het bestand heeft precies 4 ## Art.-headings correct aangemaakt. Structuur klopt, inhoud compleet, geen extractie-artefacten zichtbaar. Opmaak is zuiver, geen OCR-fouten, de lettersgewijze lijst (a–d) in Art. 2 is correct ingesprongen met ruimte maar dat is acceptabel in een wettekst van deze omvang."
     layer1:
-      status: pass
-      run_id: 20260511-134044
-      run_at: '2026-05-11T13:40:48Z'
-      heading_count: 4
-      max_section_chars: 671
       file_size_chars: 1744
       flags: []
+      heading_count: 4
+      max_section_chars: 671
+      run_at: '2026-05-11T13:40:48Z'
+      run_id: 20260511-134044
+      status: pass
     layer2:
-      status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T11:51:18Z'
-      rationale: "Kort besluit (4 artikelen, 1744 tekens). Laag-1 meldt 'pass' en de layer2-prenotitie over '0 ##-headings' is onjuist: het bestand heeft precies 4 ## Art.-headings correct aangemaakt. Structuur klopt, inhoud compleet, geen extractie-artefacten zichtbaar. Opmaak is zuiver, geen OCR-fouten, de lettersgewijze lijst (a–d) in Art. 2 is correct ingesprongen met ruimte maar dat is acceptabel in een wettekst van deze omvang."
       concrete_problemen: []
+      rationale: 'Kort besluit (4 artikelen, 1744 tekens). Laag-1 meldt ''pass'' en
+        de layer2-prenotitie over ''0 ##-headings'' is onjuist: het bestand heeft
+        precies 4 ## Art.-headings correct aangemaakt. Structuur klopt, inhoud compleet,
+        geen extractie-artefacten zichtbaar. Opmaak is zuiver, geen OCR-fouten, de
+        lettersgewijze lijst (a–d) in Art. 2 is correct ingesprongen met ruimte maar
+        dat is acceptabel in een wettekst van deze omvang.'
+      run_at: '2026-05-11T11:51:18Z'
+      status: trusted
+    rationale: 'Kort besluit (4 artikelen, 1744 tekens). Laag-1 meldt ''pass'' en
+      de layer2-prenotitie over ''0 ##-headings'' is onjuist: het bestand heeft precies
+      4 ## Art.-headings correct aangemaakt. Structuur klopt, inhoud compleet, geen
+      extractie-artefacten zichtbaar. Opmaak is zuiver, geen OCR-fouten, de lettersgewijze
+      lijst (a–d) in Art. 2 is correct ingesprongen met ruimte maar dat is acceptabel
+      in een wettekst van deze omvang.'
+    status: trusted
+status: beschikbaar
+tags:
+- VI.C
+- '2.4'
+wet: M.B. nr. 6 van 4 maart 1993, waarbij uitstel wordt verleend voor de voldoening
+  van de ter zake van de invoer van goederen verschuldigde belasting over de toegevoegde
+  waarde
 ---
 
 # M.B. nr. 6 van 4 maart 1993, waarbij uitstel wordt verleend voor de voldoening van de ter zake van de invoer van goederen verschuldigde belasting over de toegevoegde waarde

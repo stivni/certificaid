@@ -4,62 +4,76 @@ bron: Afgesplitst uit Fisconet-compilatie (pdftotext_compilatie_btw)
 bron_rol: itaa_lex
 chunk:
   level: 2
-  sub_strategy:
+  sub_strategy: null
   type: Art.
 itaa-lex-sectie: VI.B
 provenance:
-  generated_at: '2026-05-11T13:40:00Z'
+  generated_at: '2026-05-11T16:21:51Z'
   inputs:
-    - id: resources/raw/wetteksten/btw-kbs/WBTW-KB-compilatie.pdf
-      sha256: 5f1bad7278d1f8e1f5c00efb5d792f61342d3f7a14a7950caca2937924bfa91c
-      version: 06.03.2020
+  - id: resources/raw/wetteksten/btw-kbs/WBTW-KB-compilatie.pdf
+    sha256: 5f1bad7278d1f8e1f5c00efb5d792f61342d3f7a14a7950caca2937924bfa91c
+    version: 06.03.2020
   stale: false
-  stale_reason:
+  stale_reason: null
   tooling:
-    model:
+    model: null
     pipeline: tools/etl/convert.py
-    pipeline_version: 3b788cd
-    prompt_version:
+    pipeline_version: 11f9196
+    prompt_version: null
   trust:
     confirmed_at: '2026-05-11T11:46:29Z'
     confirmed_by: subagent-sonnet-4-6
     layer1:
-      status: pass
-      run_id: 20260511-134044
-      run_at: '2026-05-11T13:40:48Z'
-      heading_count: 9
-      max_section_chars: 3892
       file_size_chars: 15706
       flags: []
+      heading_count: 9
+      max_section_chars: 3892
+      run_at: '2026-05-11T13:40:48Z'
+      run_id: 20260511-134044
+      status: pass
     layer2:
       agent: subagent-sonnet-4-6
       concrete_problemen:
-        - categorie: A5
-          regel: 186
-          type: other
-          voorbeeld: § 1en § 2, eerste lid, bedoeld controlekantoor vaststelt
-        - categorie: A5
-          regel: 191
-          type: other
-          voorbeeld: Als het hoofd van het in § 1en § 2, eerste lid bedoeld controlekantoor
-        - categorie: A5
-          regel: 227
-          type: other
-          voorbeeld: Er is van rechtswege uittreding van een lid uit de BTW eenheid
-        - categorie: C3
-          regel: 282
-          type: pseudo-table
-          voorbeeld: Bijwerking       t.e.m. B.S. van                       Te vervangen pagina's
-      rationale: 'Body heeft ## Art. 1-9 correct — layer2-notitie ''0 ##-headings'' was ook hier onjuist. Twee technische artefacten: (1) regel 186 en 191 bevatten ''§ 1en § 2'' zonder spatie (samenplakking door PDF-extractie, A5/D); (2) regels 227 en 233 schrijven ''BTW eenheid'' zonder koppelteken, inconsistent met ''BTW-eenheid'' overal elders (A5). Bijwerkingstabel (regels 282-284) als plain-text kolom-alignment (C3). Inhoud volledig en de wettekst is de meest complexe van de batch met correcte §-structuur.'
+      - categorie: A5
+        regel: 186
+        type: other
+        voorbeeld: § 1en § 2, eerste lid, bedoeld controlekantoor vaststelt
+      - categorie: A5
+        regel: 191
+        type: other
+        voorbeeld: Als het hoofd van het in § 1en § 2, eerste lid bedoeld controlekantoor
+      - categorie: A5
+        regel: 227
+        type: other
+        voorbeeld: Er is van rechtswege uittreding van een lid uit de BTW eenheid
+      - categorie: C3
+        regel: 282
+        type: pseudo-table
+        voorbeeld: Bijwerking       t.e.m. B.S. van                       Te vervangen
+          pagina's
+      rationale: 'Body heeft ## Art. 1-9 correct — layer2-notitie ''0 ##-headings''
+        was ook hier onjuist. Twee technische artefacten: (1) regel 186 en 191 bevatten
+        ''§ 1en § 2'' zonder spatie (samenplakking door PDF-extractie, A5/D); (2)
+        regels 227 en 233 schrijven ''BTW eenheid'' zonder koppelteken, inconsistent
+        met ''BTW-eenheid'' overal elders (A5). Bijwerkingstabel (regels 282-284)
+        als plain-text kolom-alignment (C3). Inhoud volledig en de wettekst is de
+        meest complexe van de batch met correcte §-structuur.'
       run_at: '2026-05-11T11:46:29Z'
       status: needs-rework
-    rationale: 'Body heeft ## Art. 1-9 correct — layer2-notitie ''0 ##-headings'' was ook hier onjuist. Twee technische artefacten: (1) regel 186 en 191 bevatten ''§ 1en § 2'' zonder spatie (samenplakking door PDF-extractie, A5/D); (2) regels 227 en 233 schrijven ''BTW eenheid'' zonder koppelteken, inconsistent met ''BTW-eenheid'' overal elders (A5). Bijwerkingstabel (regels 282-284) als plain-text kolom-alignment (C3). Inhoud volledig en de wettekst is de meest complexe van de batch met correcte §-structuur.'
+    rationale: 'Body heeft ## Art. 1-9 correct — layer2-notitie ''0 ##-headings''
+      was ook hier onjuist. Twee technische artefacten: (1) regel 186 en 191 bevatten
+      ''§ 1en § 2'' zonder spatie (samenplakking door PDF-extractie, A5/D); (2) regels
+      227 en 233 schrijven ''BTW eenheid'' zonder koppelteken, inconsistent met ''BTW-eenheid''
+      overal elders (A5). Bijwerkingstabel (regels 282-284) als plain-text kolom-alignment
+      (C3). Inhoud volledig en de wettekst is de meest complexe van de batch met correcte
+      §-structuur.'
     status: needs-rework
 status: beschikbaar
 tags:
-  - VI.B
-  - '2.4'
-wet: K.B. nr. 55 van 9 maart 2007, met betrekking tot de regeling voor belastingplichtingen die een BTW-eenheid vormen
+- VI.B
+- '2.4'
+wet: K.B. nr. 55 van 9 maart 2007, met betrekking tot de regeling voor belastingplichtingen
+  die een BTW-eenheid vormen
 ---
 
 # K.B. nr. 55 van 9 maart 2007, met betrekking tot de regeling voor belastingplichtingen die een BTW-eenheid vormen

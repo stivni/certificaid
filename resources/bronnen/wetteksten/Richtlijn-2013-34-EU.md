@@ -1,74 +1,114 @@
 ---
-tags: [XIII, '1.1', '1.2']
-itaa-lex-sectie: XIII
-wet: Richtlijn 2013/34/EU van het Europees Parlement en de Raad van 26 juni 2013 betreffende de jaarlijkse financiële overzichten, geconsolideerde financiële overzichten en aanverwante verslagen van bepaalde ondernemingsvormen
-status: beschikbaar
 bijgewerkt: 28.05.2024
 bron: ejustice.just.fgov.be (gecoördineerde versie)
-provenance:
-  inputs:
-    - id: resources/raw/wetteksten/Richtlijn-2013-34-EU.pdf
-      sha256: 1739649adf3be652e5b35bb7a0017df2157080ca392e4fc26f277741b5928954
-      version: 28.05.2024
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 732fcc0
-    model:
-    prompt_version:
-  generated_at: '2026-05-07T13:37:32Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T11:41:57Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "A1: 112 keer een pagina-header '02013L0034 — NL — 28.05.2024 — 006.001 — N' verspreid door de body (elke ca. 35-40 regels een nieuwe). G2/A1: EUR-Lex wijzigings-markers (▼B, ▼M1-▼M6, ►B, ►M) staan als losse regels in de body — 169 keer ▼-markers en 11 keer ►-markers; dit zijn EUR-Lex-formaat-artefacten. Tail van het bestand (concordantietabel r.4180+) bevat lege ### Art. N headings gevolgd door alleen '—' — dit is tabelinhoud die als losse headings gerenderd is (B1/E1). Artikelen 50/51 met echte inhoud zijn aanwezig (r.2145-2157). Het kerncorpus (Art. 1-49) is inhoudelijk intact maar sterk vervuild."
-    layer1:
-      status: warn
-      run_id: 20260511-134044
-      run_at: '2026-05-11T13:40:46Z'
-      heading_count: 163
-      max_section_chars: 31271
-      file_size_chars: 281757
-      flags:
-        - name: max_section_size
-          status: warn
-          detail: 'langste sectie op ###-niveau: 31271 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
-          samples: []
-    layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T11:41:57Z'
-      rationale: "A1: 112 keer een pagina-header '02013L0034 — NL — 28.05.2024 — 006.001 — N' verspreid door de body (elke ca. 35-40 regels een nieuwe). G2/A1: EUR-Lex wijzigings-markers (▼B, ▼M1-▼M6, ►B, ►M) staan als losse regels in de body — 169 keer ▼-markers en 11 keer ►-markers; dit zijn EUR-Lex-formaat-artefacten. Tail van het bestand (concordantietabel r.4180+) bevat lege ### Art. N headings gevolgd door alleen '—' — dit is tabelinhoud die als losse headings gerenderd is (B1/E1). Artikelen 50/51 met echte inhoud zijn aanwezig (r.2145-2157). Het kerncorpus (Art. 1-49) is inhoudelijk intact maar sterk vervuild."
-      concrete_problemen:
-        - regel: 57
-          categorie: A1
-          type: form-feed
-          voorbeeld: 02013L0034 — NL — 28.05.2024 — 006.001 — 1
-        - regel: 60
-          categorie: G2
-          type: other
-          voorbeeld: ►B
-        - regel: 149
-          categorie: G2
-          type: other
-          voorbeeld: ▼M3
-        - regel: 4239
-          categorie: B1
-          type: other
-          voorbeeld: "### Art. 35\n\n—\n\nArtikel 37, lid 2"
-        - regel: 4357
-          categorie: B3
-          type: other
-          voorbeeld: "### Art. 48\n\n### Art. 51"
-        - regel: 393
-          categorie: A7
-          type: scrambled-words
-          voorbeeld: "### Art. 7\nAlternatieve\n\nwaarderingsgrondslag voor vaste geherwaardeerde bedragen\n\nactiva\n\ntegen"
 chunk:
   level: 3
+  sub_strategy: null
   type: Art.
-  sub_strategy:
+itaa-lex-sectie: XIII
+provenance:
+  generated_at: '2026-05-11T16:21:47Z'
+  inputs:
+  - id: resources/raw/wetteksten/Richtlijn-2013-34-EU.pdf
+    sha256: 1739649adf3be652e5b35bb7a0017df2157080ca392e4fc26f277741b5928954
+    version: 28.05.2024
+  stale: false
+  stale_reason: null
+  tooling:
+    model: null
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version: null
+  trust:
+    confirmed_at: '2026-05-11T11:41:57Z'
+    confirmed_by: subagent-sonnet-4-6
+    layer1:
+      file_size_chars: 281757
+      flags:
+      - detail: 'langste sectie op ###-niveau: 31271 chars (>24000); chunker splitst
+          auto op alinea-grenzen via split_long_chunk'
+        name: max_section_size
+        samples: []
+        status: warn
+      heading_count: 163
+      max_section_chars: 31271
+      run_at: '2026-05-11T13:40:46Z'
+      run_id: 20260511-134044
+      status: warn
+    layer2:
+      agent: subagent-sonnet-4-6
+      concrete_problemen:
+      - categorie: A1
+        regel: 57
+        type: form-feed
+        voorbeeld: 02013L0034 — NL — 28.05.2024 — 006.001 — 1
+      - categorie: G2
+        regel: 60
+        type: other
+        voorbeeld: ►B
+      - categorie: G2
+        regel: 149
+        type: other
+        voorbeeld: ▼M3
+      - categorie: B1
+        regel: 4239
+        type: other
+        voorbeeld: '### Art. 35
+
+
+          —
+
+
+          Artikel 37, lid 2'
+      - categorie: B3
+        regel: 4357
+        type: other
+        voorbeeld: '### Art. 48
+
+
+          ### Art. 51'
+      - categorie: A7
+        regel: 393
+        type: scrambled-words
+        voorbeeld: '### Art. 7
+
+          Alternatieve
+
+
+          waarderingsgrondslag voor vaste geherwaardeerde bedragen
+
+
+          activa
+
+
+          tegen'
+      rationale: 'A1: 112 keer een pagina-header ''02013L0034 — NL — 28.05.2024 —
+        006.001 — N'' verspreid door de body (elke ca. 35-40 regels een nieuwe). G2/A1:
+        EUR-Lex wijzigings-markers (▼B, ▼M1-▼M6, ►B, ►M) staan als losse regels in
+        de body — 169 keer ▼-markers en 11 keer ►-markers; dit zijn EUR-Lex-formaat-artefacten.
+        Tail van het bestand (concordantietabel r.4180+) bevat lege ### Art. N headings
+        gevolgd door alleen ''—'' — dit is tabelinhoud die als losse headings gerenderd
+        is (B1/E1). Artikelen 50/51 met echte inhoud zijn aanwezig (r.2145-2157).
+        Het kerncorpus (Art. 1-49) is inhoudelijk intact maar sterk vervuild.'
+      run_at: '2026-05-11T11:41:57Z'
+      status: needs-rework
+    rationale: 'A1: 112 keer een pagina-header ''02013L0034 — NL — 28.05.2024 — 006.001
+      — N'' verspreid door de body (elke ca. 35-40 regels een nieuwe). G2/A1: EUR-Lex
+      wijzigings-markers (▼B, ▼M1-▼M6, ►B, ►M) staan als losse regels in de body —
+      169 keer ▼-markers en 11 keer ►-markers; dit zijn EUR-Lex-formaat-artefacten.
+      Tail van het bestand (concordantietabel r.4180+) bevat lege ### Art. N headings
+      gevolgd door alleen ''—'' — dit is tabelinhoud die als losse headings gerenderd
+      is (B1/E1). Artikelen 50/51 met echte inhoud zijn aanwezig (r.2145-2157). Het
+      kerncorpus (Art. 1-49) is inhoudelijk intact maar sterk vervuild.'
+    status: needs-rework
+status: beschikbaar
+tags:
+- XIII
+- '1.1'
+- '1.2'
+wet: Richtlijn 2013/34/EU van het Europees Parlement en de Raad van 26 juni 2013 betreffende
+  de jaarlijkse financiële overzichten, geconsolideerde financiële overzichten en
+  aanverwante verslagen van bepaalde ondernemingsvormen
 ---
 
 # Richtlijn 2013/34/EU van het Europees Parlement en de Raad van 26 juni 2013 betreffende de jaarlijkse financiële overzichten, geconsolideerde financiële overzichten en aanverwante verslagen van bepaalde ondernemingsvormen
@@ -3679,7 +3719,7 @@ Artikel 27, lid 9
 
 —
 
-### Art. 60a
+Artikel 60a
 
 —
 
@@ -4393,7 +4433,7 @@ Artikel 41, leden 2 t/m 5
 
 —
 
-### Art. 50a
+Artikel 50a
 
 —
 
@@ -4404,4 +4444,3 @@ Artikel 41, leden 2 t/m 5
 ### Art. 55
 
 —
-

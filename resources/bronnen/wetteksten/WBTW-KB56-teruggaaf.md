@@ -4,46 +4,47 @@ bron: Fisconetplus.be (officieuze gecoördineerde versie)
 bron_rol: itaa_lex
 chunk:
   level: 4
-  sub_strategy:
+  sub_strategy: null
   type: Art.
 itaa-lex-sectie: VI.B
 provenance:
-  generated_at: '2026-05-11T13:40:00Z'
+  generated_at: '2026-05-11T16:21:51Z'
   inputs:
-    - id: resources/raw/wetteksten/btw-kbs/WBTW-KB56-teruggaaf.pdf
-      sha256: 2c30d5ca59bd9a6f0cffb6d83dcf687edd57a193b2534a8d9a596f233d32d803
-      version: '2022'
+  - id: resources/raw/wetteksten/btw-kbs/WBTW-KB56-teruggaaf.pdf
+    sha256: 2c30d5ca59bd9a6f0cffb6d83dcf687edd57a193b2534a8d9a596f233d32d803
+    version: '2022'
   stale: false
-  stale_reason:
+  stale_reason: null
   tooling:
-    model:
+    model: null
     pipeline: tools/etl/convert.py
-    pipeline_version: 7a134f4
-    prompt_version:
+    pipeline_version: 11f9196
+    prompt_version: null
   trust:
-    confirmed_at: '2026-05-09T21:27:46Z'
-    confirmed_by: subagent-sonnet-4-6
+    confirmed_at: null
+    confirmed_by: null
     layer1:
-      status: pass
-      run_id: 20260511-134044
-      run_at: '2026-05-11T13:40:48Z'
-      heading_count: 54
-      max_section_chars: 2999
       file_size_chars: 35505
       flags: []
+      heading_count: 54
+      max_section_chars: 2999
+      run_at: '2026-05-11T13:40:48Z'
+      run_id: 20260511-134044
+      status: pass
     layer2:
-      agent:
+      agent: null
       concrete_problemen: []
-      rationale: 'Modern PDF-extract met 54 headings (48× #### Art.). Frontmatter consistent met body. Eindigt netjes op slot-artikel ''## Art. 48 — De minister bevoegd voor Financiën''. Klaar voor RAG.'
-      run_at:
-      status: trusted
-    rationale: 'L1=pass; L1.5=improvement (Auto-synthesized: heading-injection (inject_wbtw_headings.py) — staging is structureel beter dan resources-versie.); L2=trusted (ETL-fix toegepast: inject_wbtw_headings.py heeft TOC-strip + Artikel-N → ## Art. heading-injectie + AFDELING-normalisatie uitgevoerd. Eerdere needs-rework op ''missing-section'' opgeheven.)'
-    status: trusted
+      rationale: null
+      run_at: null
+      status: not_run
+    rationale: 'Trust gereset 2026-05-11: ETL-fix wetteksten met content-diff > 5%'
+    status: unreviewed
 status: beschikbaar
 tags:
-  - VI.B
-  - '2.4'
-wet: K.B. nr. 56, 10 april 2022, met betrekking tot de teruggaaf inzake btw aan belastingplichtigen gevestigd in een andere lidstaat dan de lidstaat van teruggaaf
+- VI.B
+- '2.4'
+wet: K.B. nr. 56, 10 april 2022, met betrekking tot de teruggaaf inzake btw aan belastingplichtigen
+  gevestigd in een andere lidstaat dan de lidstaat van teruggaaf
 ---
 
 # BTW KB nr. 56 — Teruggaaf aan buitenlandse belastingplichtigen
@@ -56,11 +57,7 @@ Titel
 
 Bron : FINANCIEN
 
-## HOOFDSTUK 1. - Algemene bepalingen
-
-#### Art. 1
-
-Dit koninklijk besluit voorziet in de omzetting van de Richtlijn 2008/9/EG van de Raad van 12 februari 2008 tot vaststelling van nadere voorschriften voor de in Richtlijn 2006/112/EG vastgestelde teruggaaf van de belasting over de toegevoegde waarde aan belastingplichtigen die niet in de lidstaat van teruggaaf maar in een andere lidstaat gevestigd zijn en in de omzetting van de Richtlijn 86/560/EEG van de Raad van 17 november 1986 betreffende de harmonisatie van de wetgevingen der Lid-Staten inzake omzetbelasting - Regeling voor de teruggaaf van de belasting over de toegevoegde waarde aan niet op het grondgebied van de Gemeenschap gevestigde belastingplichtigen.
+teruggaaf van de belasting over de toegevoegde waarde aan niet op het grondgebied van de Gemeenschap gevestigde belastingplichtigen.
 
 #### Art. 2
 
@@ -157,7 +154,9 @@ Als het teruggaafverzoek betrekking heeft op een kalenderjaar of het resterende 
 
 #### Art. 12
 
-Het teruggaafverzoek wordt uiterlijk op 30 september van het kalenderjaar volgend op het teruggaaftijdvak bij de lidstaat van vestiging ingediend. Het teruggaafverzoek wordt alleen als ingediend aangemerkt indien de aanvrager alle in de artikelen 6, 7 en 9 gevraagde gegevens heeft verstrekt.
+Het teruggaafverzoek wordt uiterlijk op 30 september van het kalenderjaar volgend op het
+
+teruggaaftijdvak bij de lidstaat van vestiging ingediend. Het teruggaafverzoek wordt alleen als ingediend aangemerkt indien de aanvrager alle in de artikelen 6, 7 en 9 gevraagde gegevens heeft verstrekt.
 
 #### Art. 13
 
@@ -205,7 +204,9 @@ Wanneer fiscale geldboeten of nalatigheidsinteresten opgelegd maar niet betaald 
 
 #### Art. 21
 
-Correcties betreffende een eerder teruggaafverzoek als bedoeld in artikel 10, worden door de administratie in meer of in min met het teruggaafbedrag verrekend of, in geval van toezending van een afzonderlijke verklaring, afzonderlijk ingevorderd of terugbetaald.
+Correcties betreffende een eerder teruggaafverzoek als bedoeld in artikel 10, worden door de administratie in meer of in min met het teruggaafbedrag verrekend of, in geval van toezending van een
+
+afzonderlijke verklaring, afzonderlijk ingevorderd of terugbetaald.
 
 ### Afdeling 2. - België is de lidstaat van vestiging
 
@@ -256,6 +257,7 @@ administratie stuurt het verzoek niet door aan de lidstaat van teruggaaf wanneer
 1° niet aan de belasting over de toegevoegde waarde is onderworpen;
 2° slechts overeenkomstig het Wetboek vrijgestelde leveringen van goederen of diensten verricht zonder recht op aftrek;
 3° valt onder de vrijstellingsregeling van belasting [1 bedoeld in de artikelen 56bis tot en met 56undecies van het Wetboek]1;
+
 4° valt onder de forfaitaire regeling voor landbouwondernemers als bedoeld in artikel 57 van het Wetboek.
 De administratie stelt de aanvrager langs elektronische weg in kennis van haar krachtens het eerste lid genomen beslissing.
 (1)<KB 2024-12-15/05, art. 10, 002; Inwerkingtreding : 01-01-2025>
@@ -300,7 +302,9 @@ De in artikel 28 bedoelde belastingplichtige die in België teruggaaf van de bel
 9° een verklaring van de aanvrager dat hij er zich toe verbindt alle ten onrechte ontvangen bedragen terug te betalen.
 Behalve de in het eerste lid bedoelde gegevens worden in het teruggaafverzoek voor iedere factuur en ieder invoerdocument de volgende gegevens vermeld:
 1° een volgnummer;
-2° behalve in het geval van invoer, de naam en het volledige adres en het btw-identificatienummer dat de letters BE bevat van de leverancier of dienstverrichter bedoeld in artikel 50 van het Wetboek;
+2° behalve in het geval van invoer, de naam en het volledige adres en het btw-identificatienummer dat de letters
+
+BE bevat van de leverancier of dienstverrichter bedoeld in artikel 50 van het Wetboek;
 3° de datum en het nummer van de factuur of het invoerdocument;
 4° de maatstaf van heffing en het bedrag van de belasting, uitgedrukt in euro;
 5° het bedrag van de aftrekbare belasting berekend volgens artikel 29, §§ 1 en 2, en uitgedrukt in euro;
@@ -353,7 +357,9 @@ Binnen een termijn van vier maanden vanaf de datum bedoeld in artikel 38 deelt d
 
 #### Art. 40
 
-§ 1. Ingeval de administratie meent niet alle dienstige informatie te hebben ontvangen om met betrekking tot het geheel of een deel van het teruggaafverzoek een uitspraak te kunnen doen, kan zij binnen de in artikel 39 genoemde termijn van vier maanden, langs elektronische weg de aanvrager om aanvullende gegevens verzoeken. Indien de aanvullende gegevens worden opgevraagd bij een andere persoon dan de aanvrager wordt alleen langs elektronische weg om gegevens verzocht indien de bestemmeling van het verzoek over de desbetreffende apparatuur beschikt.
+§ 1. Ingeval de administratie meent niet alle dienstige informatie te hebben ontvangen om met betrekking tot het geheel of een deel van het teruggaafverzoek een uitspraak te kunnen doen, kan zij binnen de in artikel 39 genoemde termijn van vier maanden, langs elektronische weg de aanvrager om aanvullende gegevens verzoeken. Indien de aanvullende gegevens worden opgevraagd bij een andere persoon dan de aanvrager wordt alleen langs elektronische weg om gegevens verzocht indien de bestemmeling van het verzoek
+
+over de desbetreffende apparatuur beschikt.
 Zo nodig kan de administratie om verdere aanvullende gegevens verzoeken.
 De gevraagde gegevens kunnen ook het overleggen van het origineel of een afschrift van de factuur of het invoerdocument omvatten wanneer de administratie redenen heeft om te twijfelen aan het bestaan van een bepaalde vordering. In dat geval zijn de drempelbedragen van artikel 33 niet van toepassing.
 § 2. De krachtens paragraaf 1 gevraagde gegevens worden binnen een maand na ontvangst van het verzoek om informatie door de bestemmeling van het verzoek aan de administratie verstrekt.
