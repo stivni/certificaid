@@ -21,9 +21,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T15:15:33Z'
+    confirmed_at: '2026-05-11T17:05:21Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "B1/B2 (regels 119, 125, 130): wiskundige formules zijn als ### headings gerenderd ('### 1.000.000 = 747.258', '### 40.000 + 40.000 + ...'). B2 (regel 84): eerste heading in body is #### zonder voorafgaande ## of ###. B3 (regel 169): '### c) Bij de terugbetaling van de lening' is als heading gemarkeerd terwijl secties a) en b) (regels 152, 160) als plain tekst staan — inconsistente heading-behandeling."
+    rationale: 'B1 (regels 119, 125, 130): drie wiskundige formules staan nog steeds als ### headings. B5 (regel 152) en B3 (regel 169): subsecties a) en b) zijn plain tekst terwijl c) een ### heading heeft — inconsistent. B2-probleem (#### zonder ##/###) lijkt gecorrigeerd naar ## in huidige versie. Kernproblemen B1 en B5/B3 blijven aanwezig.'
     layer1:
       file_size_chars: 22091
       flags: []
@@ -35,13 +35,9 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:15:33Z'
-      rationale: "B1/B2 (regels 119, 125, 130): wiskundige formules zijn als ### headings gerenderd ('### 1.000.000 = 747.258', '### 40.000 + 40.000 + ...'). B2 (regel 84): eerste heading in body is #### zonder voorafgaande ## of ###. B3 (regel 169): '### c) Bij de terugbetaling van de lening' is als heading gemarkeerd terwijl secties a) en b) (regels 152, 160) als plain tekst staan — inconsistente heading-behandeling."
+      run_at: '2026-05-11T17:05:21Z'
+      rationale: 'B1 (regels 119, 125, 130): drie wiskundige formules staan nog steeds als ### headings. B5 (regel 152) en B3 (regel 169): subsecties a) en b) zijn plain tekst terwijl c) een ### heading heeft — inconsistent. B2-probleem (#### zonder ##/###) lijkt gecorrigeerd naar ## in huidige versie. Kernproblemen B1 en B5/B3 blijven aanwezig.'
       concrete_problemen:
-        - regel: 84
-          categorie: B2
-          type: other
-          voorbeeld: '#### Uitgifte van obligaties met het recht tot inschrijving op aandelen'
         - regel: 119
           categorie: B1
           type: other
@@ -50,14 +46,18 @@ provenance:
           categorie: B1
           type: other
           voorbeeld: '### 40.000 + 40.000 + 40.000 + 40.000 + 40.000 = 168.494'
-        - regel: 169
-          categorie: B3
+        - regel: 130
+          categorie: B1
           type: other
-          voorbeeld: '### c) Bij de terugbetaling van de lening'
+          voorbeeld: '### 60.000 + 60.000 + 60.000 + 60.000 + 60.000 = 252.742'
         - regel: 152
           categorie: B5
           type: other
           voorbeeld: 'a) Bij de uitgifte van de lening :'
+        - regel: 169
+          categorie: B3
+          type: other
+          voorbeeld: '### c) Bij de terugbetaling van de lening'
 themas:
   - uitgegeven convertereerbare obligaties
   - uitgegeven inschrijvingsrechten

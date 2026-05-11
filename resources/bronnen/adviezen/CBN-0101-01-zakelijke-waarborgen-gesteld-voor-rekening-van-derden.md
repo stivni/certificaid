@@ -30,9 +30,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T15:15:32Z'
+    confirmed_at: '2026-05-11T17:05:20Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "E2: twee markdown-tabellen (r66-74) hebben een malformed structuur — subrekeningen (014, 015, 022, 023) staan in rijen met extra lege kolommen ('| | | 014 | | Debiteuren... |') die niet overeenstemmen met de header (3 kolommen: 01/blank/omschrijving). Dit is een pseudo-tabel artefact: een mens zou ofwel een geneste lijst gebruiken ofwel een consistente tabel met passende headers. De ETL heeft de originele hiërarchische rekeningstructuur niet correct vertaald naar markdown."
+    rationale: "E2: twee markdown-tabellen (regels 74-82) zijn structureel incorrect — subrekening-rijen (014, 015, 022, 023) bevatten 5 cellen ('| | | 014 | | Omschrijving |') terwijl de header slechts 3 kolommen ('| 01 | | Omschrijving |') definieert. Dit is een ETL-artefact: de originele hiërarchische rekeningstructuur is niet correct naar pipe-markdown vertaald. Body-tekst en voetnoten zijn clean."
     layer1:
       file_size_chars: 3553
       flags: []
@@ -44,17 +44,17 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:15:32Z'
-      rationale: "E2: twee markdown-tabellen (r66-74) hebben een malformed structuur — subrekeningen (014, 015, 022, 023) staan in rijen met extra lege kolommen ('| | | 014 | | Debiteuren... |') die niet overeenstemmen met de header (3 kolommen: 01/blank/omschrijving). Dit is een pseudo-tabel artefact: een mens zou ofwel een geneste lijst gebruiken ofwel een consistente tabel met passende headers. De ETL heeft de originele hiërarchische rekeningstructuur niet correct vertaald naar markdown."
+      run_at: '2026-05-11T17:05:20Z'
+      rationale: "E2: twee markdown-tabellen (regels 74-82) zijn structureel incorrect — subrekening-rijen (014, 015, 022, 023) bevatten 5 cellen ('| | | 014 | | Omschrijving |') terwijl de header slechts 3 kolommen ('| 01 | | Omschrijving |') definieert. Dit is een ETL-artefact: de originele hiërarchische rekeningstructuur is niet correct naar pipe-markdown vertaald. Body-tekst en voetnoten zijn clean."
       concrete_problemen:
-        - regel: 66
+        - regel: 74
           categorie: E2
           type: pseudo-table
           voorbeeld: '| 01 | | Waarborgen gesteld voor rekening van derden | — 3-koloms header'
-        - regel: 68
+        - regel: 76
           categorie: E2
           type: pseudo-table
-          voorbeeld: '| | | 014 | | Debiteuren wegens zakelijke zekerheden | — 5 kolommen ipv 3, mismatcht header'
+          voorbeeld: '| | | 014 | | Debiteuren wegens zakelijke zekerheden | — 5 kolommen, mismatcht 3-koloms header'
 themas:
   - niet in de balans opgenomen rechten en verplichtingen
   - rekeningenstelsel

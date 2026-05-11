@@ -20,10 +20,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T15:26:40Z'
+    status: trusted
+    confirmed_at: '2026-05-11T17:13:31Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "A3: de inhoudsopgave staat als genummerde lijst in de body (regels 61-74) vóór de inhoudelijke secties. Op regel 75 volgt een aaneengesloten TOC-restant '-- Vrijwillige uittreding (artikel 6:120 WVV)-- Uittreding van rechtswege...' met '--'-scheiders — dit is een duplicaat TOC-fragment dat niet werd verwijderd. Tabellen correct, alle 31 voetnoten aanwezig. (Herbevestiging van eerdere beoordeling.)"
+    rationale: "Ronde-3 herlezing: geen TOC-fragment of '--'-restant meer aanwezig in de body. De structuur is correct met ## en ### headings, drie boekingstabellen in pipe-syntax, alle 31 voetnoten intact. Inhoud volledig: BV en CV uittreding/uitsluiting procedures en boekhoudkundige verwerking. Geen ETL-artefacten aangetroffen in de volledige tekst."
     layer1:
       file_size_chars: 21477
       flags: []
@@ -33,19 +33,11 @@ provenance:
       run_id: 20260511-150547
       status: pass
     layer2:
-      status: needs-rework
+      status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:26:40Z'
-      rationale: "A3: de inhoudsopgave staat als genummerde lijst in de body (regels 61-74) vóór de inhoudelijke secties. Op regel 75 volgt een aaneengesloten TOC-restant '-- Vrijwillige uittreding (artikel 6:120 WVV)-- Uittreding van rechtswege...' met '--'-scheiders — dit is een duplicaat TOC-fragment dat niet werd verwijderd. Tabellen correct, alle 31 voetnoten aanwezig. (Herbevestiging van eerdere beoordeling.)"
-      concrete_problemen:
-        - regel: 61
-          categorie: A3
-          type: other
-          voorbeeld: "1. Inleiding \n2. Uittreding en uitsluiting lastens het vennootschapsvermogen bij de BV"
-        - regel: 75
-          categorie: A3
-          type: other
-          voorbeeld: -- Vrijwillige uittreding (artikel 6:120 WVV)-- Uittreding van rechtswege...Boekhoudkundige verwerking...
+      run_at: '2026-05-11T17:13:31Z'
+      rationale: "Ronde-3 herlezing: geen TOC-fragment of '--'-restant meer aanwezig in de body. De structuur is correct met ## en ### headings, drie boekingstabellen in pipe-syntax, alle 31 voetnoten intact. Inhoud volledig: BV en CV uittreding/uitsluiting procedures en boekhoudkundige verwerking. Geen ETL-artefacten aangetroffen in de volledige tekst."
+      concrete_problemen: []
 themas:
   - uittreding
   - scheidingsaandeel

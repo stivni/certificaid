@@ -27,9 +27,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T15:23:43Z'
+    confirmed_at: '2026-05-11T17:13:30Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: 'A6/C2: de genummerde opsomming (punten 1-8) op regels 119-156 is niet als markdown-lijst opgemaakt — elk item staat als een getal gevolgd door een lege regel en dan de tekst met tab-inspringing, wat geen standaard markdown-lijst is. E2: voorbeeld-blok op regels 178-188 bevat het `| \n\n*Voorbeeld*\n\n  |` patroon — scraper-artefact, zelfde als CBN-2018-07.'
+    rationale: "C2/A6: de genummerde opsomming (punten 1-8, regels 108-145) is niet als markdown-lijst opgemaakt — elk item staat als een getal gevolgd door lege regel en tekst met tab-inspringing, wat geen standaard markdown-lijst is (zou '1. tekst' moeten zijn). E2: voorbeeld-blok op regels 167-177 bevat het '| \\n\\n*Voorbeeld*\\n\\n  |' scraper-artefact."
     layer1:
       file_size_chars: 21547
       flags: []
@@ -41,21 +41,21 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:23:43Z'
-      rationale: 'A6/C2: de genummerde opsomming (punten 1-8) op regels 119-156 is niet als markdown-lijst opgemaakt — elk item staat als een getal gevolgd door een lege regel en dan de tekst met tab-inspringing, wat geen standaard markdown-lijst is. E2: voorbeeld-blok op regels 178-188 bevat het `| \n\n*Voorbeeld*\n\n  |` patroon — scraper-artefact, zelfde als CBN-2018-07.'
+      run_at: '2026-05-11T17:13:30Z'
+      rationale: "C2/A6: de genummerde opsomming (punten 1-8, regels 108-145) is niet als markdown-lijst opgemaakt — elk item staat als een getal gevolgd door lege regel en tekst met tab-inspringing, wat geen standaard markdown-lijst is (zou '1. tekst' moeten zijn). E2: voorbeeld-blok op regels 167-177 bevat het '| \\n\\n*Voorbeeld*\\n\\n  |' scraper-artefact."
       concrete_problemen:
-        - regel: 119
-          categorie: A6
-          type: other
-          voorbeeld: 1. \n\nHet bepalen, ten gevolge van een gebeurtenis na afsluitingsdatum...
-        - regel: 132
+        - regel: 108
           categorie: C2
           type: other
-          voorbeeld: 2. \n\nDe minnelijke schikking voor een geschil...
-        - regel: 178
+          voorbeeld: "1. \n\nHet bepalen, ten gevolge van een gebeurtenis na afsluitingsdatum..."
+        - regel: 121
+          categorie: C2
+          type: other
+          voorbeeld: "2. \n\nDe minnelijke schikking voor een geschil..."
+        - regel: 167
           categorie: E2
           type: pseudo-table
-          voorbeeld: '| \n\n*Voorbeeld*\n\n  |'
+          voorbeeld: "| \n\n*Voorbeeld*\n\n  |"
 themas:
   - balansdatum
   - afsluitdatum

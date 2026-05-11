@@ -17,9 +17,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T15:19:36Z'
+    confirmed_at: '2026-05-11T17:09:38Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "D4 bevestigd: r73 en r85 'Voorbeeld'-labels opgemaakt als ***Voorbeeld*** (triple asterisk = bold+italic gecombineerd) — ETL-artefact, inconsistent met standaard heading of plain label in andere adviezen. Voetnoot [^1] is gedefinieerd (redactionele noot over publieke consultatie) maar heeft geen body-callout; dit is een randgeval dat acceptabel kan zijn als redactionele annotatie maar is onconventioneel. Verder correct en volledig."
+    rationale: "D4 bevestigd: r61 en r73 bevatten '***Voorbeeld***' (triple asterisk = bold+italic gecombineerd) als sectielabel — ETL-artefact, inconsistent met standaard plain-text label of heading zoals in andere adviezen. Voetnoot [^1] heeft geen body-callout (redactionele noot over publieke consultatie zonder referentie in de body) maar dit is een randgeval met beperkte retrieval-impact. De pipe-tabel en overige inhoud zijn correct."
     layer1:
       file_size_chars: 2040
       flags: []
@@ -31,14 +31,14 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:19:36Z'
-      rationale: "D4 bevestigd: r73 en r85 'Voorbeeld'-labels opgemaakt als ***Voorbeeld*** (triple asterisk = bold+italic gecombineerd) — ETL-artefact, inconsistent met standaard heading of plain label in andere adviezen. Voetnoot [^1] is gedefinieerd (redactionele noot over publieke consultatie) maar heeft geen body-callout; dit is een randgeval dat acceptabel kan zijn als redactionele annotatie maar is onconventioneel. Verder correct en volledig."
+      run_at: '2026-05-11T17:09:38Z'
+      rationale: "D4 bevestigd: r61 en r73 bevatten '***Voorbeeld***' (triple asterisk = bold+italic gecombineerd) als sectielabel — ETL-artefact, inconsistent met standaard plain-text label of heading zoals in andere adviezen. Voetnoot [^1] heeft geen body-callout (redactionele noot over publieke consultatie zonder referentie in de body) maar dit is een randgeval met beperkte retrieval-impact. De pipe-tabel en overige inhoud zijn correct."
       concrete_problemen:
-        - regel: 73
+        - regel: 61
           categorie: D4
           type: other
           voorbeeld: '***Voorbeeld***'
-        - regel: 85
+        - regel: 73
           categorie: D4
           type: other
           voorbeeld: '***Voorbeeld***'

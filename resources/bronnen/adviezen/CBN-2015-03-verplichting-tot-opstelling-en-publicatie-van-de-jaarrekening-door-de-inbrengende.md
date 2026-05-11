@@ -21,9 +21,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T15:23:42Z'
+    confirmed_at: '2026-05-11T17:09:38Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "A3+B3: TOC-fragmenten en scrape-artefacten in de body. Regel 72: '# COMMISIE VOOR BOEKHOUDKUNDIGE NORMEN' is een extra H1 met typofout (COMMISIE). Regel 74: 'Periode na de datum van boekhoudkundige retroactiviteitOpenbaarmakingsformaliteiten' — twee sectietitels samengevoegd zonder witruimte, typisch scrape-artefact. Inhoud anderszins volledig."
+    rationale: "B3 bevestigd: regel 58 '# COMMISIE VOOR BOEKHOUDKUNDIGE NORMEN' is een extra H1 scrape-artefact (de werkelijke adviestitel ontbreekt als H1 volledig). A3/A6 bevestigd: regel 60 'Periode na de datum van boekhoudkundige retroactiviteitOpenbaarmakingsformaliteiten' toont twee sectietitels samengevoegd zonder spatie — typisch scrape-artefact. Beide zijn ETL-bugs, geen source-typo's."
     layer1:
       file_size_chars: 10866
       flags: []
@@ -35,17 +35,17 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:23:42Z'
-      rationale: "A3+B3: TOC-fragmenten en scrape-artefacten in de body. Regel 72: '# COMMISIE VOOR BOEKHOUDKUNDIGE NORMEN' is een extra H1 met typofout (COMMISIE). Regel 74: 'Periode na de datum van boekhoudkundige retroactiviteitOpenbaarmakingsformaliteiten' — twee sectietitels samengevoegd zonder witruimte, typisch scrape-artefact. Inhoud anderszins volledig."
+      run_at: '2026-05-11T17:09:38Z'
+      rationale: "B3 bevestigd: regel 58 '# COMMISIE VOOR BOEKHOUDKUNDIGE NORMEN' is een extra H1 scrape-artefact (de werkelijke adviestitel ontbreekt als H1 volledig). A3/A6 bevestigd: regel 60 'Periode na de datum van boekhoudkundige retroactiviteitOpenbaarmakingsformaliteiten' toont twee sectietitels samengevoegd zonder spatie — typisch scrape-artefact. Beide zijn ETL-bugs, geen source-typo's."
       concrete_problemen:
-        - regel: 72
+        - regel: 58
           categorie: B3
           type: other
-          voorbeeld: "# COMMISIE VOOR BOEKHOUDKUNDIGE NORMEN — extra H1 met typofout (bron-artefact: 'COMMISIE' vs 'COMMISSIE')"
-        - regel: 74
+          voorbeeld: '# COMMISIE VOOR BOEKHOUDKUNDIGE NORMEN — extra H1 scrape-artefact (ook met typofout)'
+        - regel: 60
           categorie: A3
-          type: other
-          voorbeeld: Periode na de datum van boekhoudkundige retroactiviteitOpenbaarmakingsformaliteiten — samengevoegde sectietitels zonder spatie
+          type: scrambled-words
+          voorbeeld: Periode na de datum van boekhoudkundige retroactiviteitOpenbaarmakingsformaliteiten — twee titels samengevoegd
 themas:
   - Inbreng van een algemeenheid
   - openbaarmaking

@@ -17,9 +17,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T15:15:33Z'
+    confirmed_at: '2026-05-11T17:05:21Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "E2: boekingstabellen zijn structureel inconsistent. In het ene patroon staat 'aan' als aparte cel in kolom 1 ('| aan | 440 Leveranciers |'), in het andere is 'aan' samengevoegd met de rekeningnaam in kolom 2 ('| | aan 55 Kredietinstellingen |'). Dit wisselt door het gehele bestand (L83, L90, L98, L108, L116, L118). Bevestiging van eerder layer2-verdict."
+    rationale: "E2: boekingstabellen zijn structureel inconsistent door het gehele bestand — in sommige tabellen staat 'aan' als aparte cel in kolom 1 (L83, L98, L108), in andere is 'aan' samengevoegd met de rekeningnaam in kolom 2 (L90, L116, L118). Dit wisselt willekeurig en is een ETL-artefact dat de tabel-parsing verstoort."
     layer1:
       file_size_chars: 3514
       flags: []
@@ -31,13 +31,13 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:15:33Z'
-      rationale: "E2: boekingstabellen zijn structureel inconsistent. In het ene patroon staat 'aan' als aparte cel in kolom 1 ('| aan | 440 Leveranciers |'), in het andere is 'aan' samengevoegd met de rekeningnaam in kolom 2 ('| | aan 55 Kredietinstellingen |'). Dit wisselt door het gehele bestand (L83, L90, L98, L108, L116, L118). Bevestiging van eerder layer2-verdict."
+      run_at: '2026-05-11T17:05:21Z'
+      rationale: "E2: boekingstabellen zijn structureel inconsistent door het gehele bestand — in sommige tabellen staat 'aan' als aparte cel in kolom 1 (L83, L98, L108), in andere is 'aan' samengevoegd met de rekeningnaam in kolom 2 (L90, L116, L118). Dit wisselt willekeurig en is een ETL-artefact dat de tabel-parsing verstoort."
       concrete_problemen:
         - regel: 83
           categorie: E2
           type: other
-          voorbeeld: "| aan | 440 Leveranciers | | | | — 'aan' in cel 1"
+          voorbeeld: "| aan | 440 Leveranciers | | | | — 'aan' als aparte cel 1"
         - regel: 90
           categorie: E2
           type: other

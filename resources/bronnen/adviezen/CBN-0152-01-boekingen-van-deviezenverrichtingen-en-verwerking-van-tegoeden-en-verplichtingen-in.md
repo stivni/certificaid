@@ -30,9 +30,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T15:15:33Z'
+    confirmed_at: '2026-05-11T17:05:21Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "A9: regel 390 '| | 55 | Bank USA | 41.100 | |' — 'Bank USA' i.p.v. 'Bank USD' zoals consequent elders (regels 379, 418). E2: regels 1018-1026 bevatten een vergelijkingstabel Effect A/B waarbij de headerrij 6 cellen heeft maar de datarijen 8 cellen — inconsistente celtellingen. B4: regel 98 bevat een all-caps subtitel 'VAN NIET SPECIFIEK GEDEKTE TEGOEDEN EN VERPLICHTINGEN...' als plain-text-alinea direct na de H1-heading in plaats van een ## heading."
+    rationale: "Vorig verdict bevestigd. A9 r.390: 'Bank USA' i.p.v. 'Bank USD' (consequent in rest van het document). E2 r.1018-1026: vergelijkingstabel Effect A/B heeft headerrij met 6 cellen maar datarijen met 8 cellen — inconsistente celtellingen. B4 r.98: all-caps structuurlabel 'VAN NIET SPECIFIEK GEDEKTE TEGOEDEN EN VERPLICHTINGEN...' als plain-text-alinea direct na H1-heading in plaats van ## heading."
     layer1:
       file_size_chars: 106079
       flags: []
@@ -44,8 +44,8 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:15:33Z'
-      rationale: "A9: regel 390 '| | 55 | Bank USA | 41.100 | |' — 'Bank USA' i.p.v. 'Bank USD' zoals consequent elders (regels 379, 418). E2: regels 1018-1026 bevatten een vergelijkingstabel Effect A/B waarbij de headerrij 6 cellen heeft maar de datarijen 8 cellen — inconsistente celtellingen. B4: regel 98 bevat een all-caps subtitel 'VAN NIET SPECIFIEK GEDEKTE TEGOEDEN EN VERPLICHTINGEN...' als plain-text-alinea direct na de H1-heading in plaats van een ## heading."
+      run_at: '2026-05-11T17:05:21Z'
+      rationale: "Vorig verdict bevestigd. A9 r.390: 'Bank USA' i.p.v. 'Bank USD' (consequent in rest van het document). E2 r.1018-1026: vergelijkingstabel Effect A/B heeft headerrij met 6 cellen maar datarijen met 8 cellen — inconsistente celtellingen. B4 r.98: all-caps structuurlabel 'VAN NIET SPECIFIEK GEDEKTE TEGOEDEN EN VERPLICHTINGEN...' als plain-text-alinea direct na H1-heading in plaats van ## heading."
       concrete_problemen:
         - regel: 390
           categorie: A9
@@ -58,7 +58,7 @@ provenance:
         - regel: 98
           categorie: B4
           type: other
-          voorbeeld: VAN NIET SPECIFIEK GEDEKTE TEGOEDEN EN VERPLICHTINGEN IN DEVIEZEN EN VERWERKING VAN DE OMREKENINGSVERSCHILLEN - ALGEMENE ASPECTEN
+          voorbeeld: VAN NIET SPECIFIEK GEDEKTE TEGOEDEN EN VERPLICHTINGEN IN DEVIEZEN EN VERWERKING VAN DE OMREKENINGSVERSCHILLEN
 themas:
   - bestellingen in uitvoering
   - contant wisselverrichting

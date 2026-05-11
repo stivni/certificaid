@@ -17,9 +17,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T15:15:32Z'
+    confirmed_at: '2026-05-11T17:05:20Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "G2: HTML-entity '&#039;' aanwezig in frontmatter themas op regel 41 ('voorzieningen voor risico&#039;s en kosten') — ETL-artefact. Body is verder volledig en goed leesbaar, voetnoot [^1] correct gedefinieerd."
+    rationale: "G2: frontmatter themas-veld op regel 45 bevat ongeparseerde HTML-entity '&#039;' ('voorzieningen voor risico&#039;s en kosten') — ETL-bug, HTML niet gedecode. Body-tekst is volledig clean en inhoudelijk correct."
     layer1:
       file_size_chars: 3517
       flags: []
@@ -31,13 +31,13 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:15:32Z'
-      rationale: "G2: HTML-entity '&#039;' aanwezig in frontmatter themas op regel 41 ('voorzieningen voor risico&#039;s en kosten') — ETL-artefact. Body is verder volledig en goed leesbaar, voetnoot [^1] correct gedefinieerd."
+      run_at: '2026-05-11T17:05:20Z'
+      rationale: "G2: frontmatter themas-veld op regel 45 bevat ongeparseerde HTML-entity '&#039;' ('voorzieningen voor risico&#039;s en kosten') — ETL-bug, HTML niet gedecode. Body-tekst is volledig clean en inhoudelijk correct."
       concrete_problemen:
-        - regel: 41
+        - regel: 45
           categorie: G2
           type: other
-          voorbeeld: voorzieningen voor risico&#039;s en kosten
+          voorbeeld: voorzieningen voor risico&#039;s en kosten — HTML-entity &#039; niet gedecode in YAML
 themas:
   - betwisting
   - opbrengsten waarover betwisting bestaat

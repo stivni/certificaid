@@ -30,9 +30,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T15:26:40Z'
+    confirmed_at: '2026-05-11T17:13:30Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "E2/A7: Op meerdere plaatsen zijn complexe tabellen met sublijsten niet correct als markdown weergegeven — regels 561-576 tonen een gebroken tabelrij waarbij bullet-list items buiten de tabelcellen vallen, met losse |---|---| separators op eigen regels, wat duidelijk een extractie-artefact is van een geneste tabelstructuur. Dezelfde problemen op regels 843-847 en 890-894 (tabelrij gesplitst over meerdere regels met '18.380' als losstaande plain-text regel buiten de tabel). Overige tabellen (10+ balansoverzichten) zijn correct."
+    rationale: "E2/A7: Op meerdere plaatsen zijn complexe tabellen met sublijsten niet correct als markdown weergegeven — regels 561-576 tonen een gebroken tabelrij waarbij bullet-list items buiten de tabelcellen vallen met losse |---|---| separators op eigen regels, wat een extractie-artefact is van een geneste tabelstructuur in de HTML-bron. Dezelfde problemen op regels 843-847 en 890-894 waarbij een tabelrij gesplitst is over meerdere regels met '18.380' als losstaande plain-text buiten de tabel. Overige 10+ balansoverzichten zijn correct."
     layer1:
       file_size_chars: 77227
       flags: []
@@ -44,8 +44,8 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:26:40Z'
-      rationale: "E2/A7: Op meerdere plaatsen zijn complexe tabellen met sublijsten niet correct als markdown weergegeven — regels 561-576 tonen een gebroken tabelrij waarbij bullet-list items buiten de tabelcellen vallen, met losse |---|---| separators op eigen regels, wat duidelijk een extractie-artefact is van een geneste tabelstructuur. Dezelfde problemen op regels 843-847 en 890-894 (tabelrij gesplitst over meerdere regels met '18.380' als losstaande plain-text regel buiten de tabel). Overige tabellen (10+ balansoverzichten) zijn correct."
+      run_at: '2026-05-11T17:13:30Z'
+      rationale: "E2/A7: Op meerdere plaatsen zijn complexe tabellen met sublijsten niet correct als markdown weergegeven — regels 561-576 tonen een gebroken tabelrij waarbij bullet-list items buiten de tabelcellen vallen met losse |---|---| separators op eigen regels, wat een extractie-artefact is van een geneste tabelstructuur in de HTML-bron. Dezelfde problemen op regels 843-847 en 890-894 waarbij een tabelrij gesplitst is over meerdere regels met '18.380' als losstaande plain-text buiten de tabel. Overige 10+ balansoverzichten zijn correct."
       concrete_problemen:
         - regel: 561
           categorie: E2
@@ -54,11 +54,11 @@ provenance:
         - regel: 843
           categorie: E2
           type: other
-          voorbeeld: '| | | 18.380 | | |\n\n18.380\n\n  | — tabelslot gesplitst over 3 regels'
+          voorbeeld: "| | | 18.380 | | |\n\n18.380\n\n  | — tabelslot gesplitst over 3 regels"
         - regel: 890
           categorie: E2
           type: other
-          voorbeeld: '| | | 18.380 | | |\n\n18.380\n\n  | — idem voor voorbeeld 12'
+          voorbeeld: "| | | 18.380 | | |\n\n18.380\n\n  | — idem voor voorbeeld 12"
 themas:
   - fusie
   - reorganisatie

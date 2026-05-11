@@ -17,9 +17,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T15:23:43Z'
+    confirmed_at: '2026-05-11T17:13:30Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "B5: twee sectiehoofdingen staan als plain-text in de body zonder ## prefix: regel 111 ('Opname van de jaarrekening van de ondernemingen waarvoor de onbeperkte aansprakelijkheid geldt') en regel 143 ('Op welke wijze moeten de jaarrekeningen in het apart document of in de toelichting worden gepresenteerd') — beiden zijn secties in de inhoudstafel maar missen de heading-markering. B3: regel 72 herhaalt 'vermeldingen in de jaarrekening' als orphan-zin direct na de # heading."
+    rationale: "B5: regels 96 en 128 (body) bevatten sectiehoofdingen als plain-text zonder ## prefix: 'Opname van de jaarrekening van de ondernemingen waarvoor de onbeperkte aansprakelijkheid geldt' en 'Op welke wijze moeten de jaarrekeningen in het apart document of in de toelichting worden gepresenteerd' — beiden zijn secties met inhoudstafel-equivalent niveau maar missen de heading-markering. B3: regel 57 (body) herhaalt 'vermeldingen in de jaarrekening' als orphan-zin direct na de H1."
     layer1:
       file_size_chars: 20462
       flags: []
@@ -31,18 +31,18 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:23:43Z'
-      rationale: "B5: twee sectiehoofdingen staan als plain-text in de body zonder ## prefix: regel 111 ('Opname van de jaarrekening van de ondernemingen waarvoor de onbeperkte aansprakelijkheid geldt') en regel 143 ('Op welke wijze moeten de jaarrekeningen in het apart document of in de toelichting worden gepresenteerd') — beiden zijn secties in de inhoudstafel maar missen de heading-markering. B3: regel 72 herhaalt 'vermeldingen in de jaarrekening' als orphan-zin direct na de # heading."
+      run_at: '2026-05-11T17:13:30Z'
+      rationale: "B5: regels 96 en 128 (body) bevatten sectiehoofdingen als plain-text zonder ## prefix: 'Opname van de jaarrekening van de ondernemingen waarvoor de onbeperkte aansprakelijkheid geldt' en 'Op welke wijze moeten de jaarrekeningen in het apart document of in de toelichting worden gepresenteerd' — beiden zijn secties met inhoudstafel-equivalent niveau maar missen de heading-markering. B3: regel 57 (body) herhaalt 'vermeldingen in de jaarrekening' als orphan-zin direct na de H1."
       concrete_problemen:
-        - regel: 111
+        - regel: 96
           categorie: B5
           type: other
           voorbeeld: Opname van de jaarrekening van de ondernemingen waarvoor de onbeperkte aansprakelijkheid geldt
-        - regel: 143
+        - regel: 128
           categorie: B5
           type: other
           voorbeeld: Op welke wijze moeten de jaarrekeningen in het apart document of in de toelichting worden gepresenteerd
-        - regel: 72
+        - regel: 57
           categorie: B3
           type: other
           voorbeeld: vermeldingen in de jaarrekening

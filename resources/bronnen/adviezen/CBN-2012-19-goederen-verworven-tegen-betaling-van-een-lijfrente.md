@@ -30,9 +30,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T15:19:36Z'
+    confirmed_at: '2026-05-11T17:09:38Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "B5: 'Inleiding' op regel 91 staat als plain-text regel zonder ##-prefix (de eigenlijke ## heading 'Vaststelling van het initiële kapitaal' staat pas op regel 105). C3: actuariële formule op regels 172–174 gebruikt spatie-uitlijning ('an/i = 1- (1 + i)-n \\n\\n       i') als pseudo-kolom. E2: de toelichting-tabel op regels 246–254 heeft een gebroken celrij waarbij '472.685,12' na tab-insprong op een aparte regel staat, buiten de pipe-tabel structuur."
+    rationale: "B5: 'Inleiding' op regel 68 staat als plain-text alinea-opener zonder ##-prefix, terwijl de eerste echte ## heading pas op regel 82 staat. C3: actuariële formule op regels 149–151 gebruikt spatie-uitlijning als pseudo-kolom ('an/i = 1- (1 + i)-n \\n\\n       i'). E2: de toelichting-tabel op regels 223–231 heeft een gebroken celrij waarbij '472.685,12' na tab-insprong op een aparte regel staat, buiten de pipe-tabel structuur."
     layer1:
       file_size_chars: 22547
       flags: []
@@ -44,21 +44,21 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:19:36Z'
-      rationale: "B5: 'Inleiding' op regel 91 staat als plain-text regel zonder ##-prefix (de eigenlijke ## heading 'Vaststelling van het initiële kapitaal' staat pas op regel 105). C3: actuariële formule op regels 172–174 gebruikt spatie-uitlijning ('an/i = 1- (1 + i)-n \\n\\n       i') als pseudo-kolom. E2: de toelichting-tabel op regels 246–254 heeft een gebroken celrij waarbij '472.685,12' na tab-insprong op een aparte regel staat, buiten de pipe-tabel structuur."
+      run_at: '2026-05-11T17:09:38Z'
+      rationale: "B5: 'Inleiding' op regel 68 staat als plain-text alinea-opener zonder ##-prefix, terwijl de eerste echte ## heading pas op regel 82 staat. C3: actuariële formule op regels 149–151 gebruikt spatie-uitlijning als pseudo-kolom ('an/i = 1- (1 + i)-n \\n\\n       i'). E2: de toelichting-tabel op regels 223–231 heeft een gebroken celrij waarbij '472.685,12' na tab-insprong op een aparte regel staat, buiten de pipe-tabel structuur."
       concrete_problemen:
-        - regel: 91
+        - regel: 68
           categorie: B5
           type: other
           voorbeeld: 'Inleiding '
-        - regel: 172
+        - regel: 149
           categorie: C3
           type: pseudo-table
-          voorbeeld: "an/i = 1- (1 + i)-n \n\n       i"
-        - regel: 249
+          voorbeeld: an/i = 1- (1 + i)-n \n\n       i
+        - regel: 226
           categorie: E2
           type: other
-          voorbeeld: "| lijfrentebetaling van de voorziening afgenomen bedrag | - 14.888,08\n\n\t\t\t 472.685,12 | | |"
+          voorbeeld: '| | lijfrentebetaling van de voorziening afgenomen bedrag | - 14.888,08\n\n\t\t\t 472.685,12 | | |'
 themas:
   - lijfrente
 ---

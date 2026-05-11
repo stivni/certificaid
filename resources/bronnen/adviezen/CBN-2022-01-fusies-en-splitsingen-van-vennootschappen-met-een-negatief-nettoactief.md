@@ -30,9 +30,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T15:26:40Z'
+    confirmed_at: '2026-05-11T17:13:31Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "D2: op regel 87 kondigt de tekst 'wordt deze verhouding via volgende formule berekend:' aan, maar de formule zelf ontbreekt volledig (was een afbeelding/tabel in het origineel). Regel 89 verwijst opnieuw naar 'Bovenstaande formule' zonder dat die zichtbaar is — inhoud is onbegrijpelijk zonder de formule. Tabellen en voetnoten overigens correct."
+    rationale: "D2: regel 92 kondigt 'wordt deze verhouding via volgende formule berekend:' aan, maar de formule zelf ontbreekt volledig in de body — was een afbeelding in het originele advies. Regel 94 verwijst naar 'Bovenstaande formule' die niet zichtbaar is, waardoor de redenering over ruilverhouding niet te volgen is. De 9 balans-tabellen in markdown-pipe-syntax zijn correct."
     layer1:
       file_size_chars: 24824
       flags: []
@@ -44,14 +44,14 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:26:40Z'
-      rationale: "D2: op regel 87 kondigt de tekst 'wordt deze verhouding via volgende formule berekend:' aan, maar de formule zelf ontbreekt volledig (was een afbeelding/tabel in het origineel). Regel 89 verwijst opnieuw naar 'Bovenstaande formule' zonder dat die zichtbaar is — inhoud is onbegrijpelijk zonder de formule. Tabellen en voetnoten overigens correct."
+      run_at: '2026-05-11T17:13:31Z'
+      rationale: "D2: regel 92 kondigt 'wordt deze verhouding via volgende formule berekend:' aan, maar de formule zelf ontbreekt volledig in de body — was een afbeelding in het originele advies. Regel 94 verwijst naar 'Bovenstaande formule' die niet zichtbaar is, waardoor de redenering over ruilverhouding niet te volgen is. De 9 balans-tabellen in markdown-pipe-syntax zijn correct."
       concrete_problemen:
-        - regel: 87
+        - regel: 92
           categorie: D2
           type: missing-section
           voorbeeld: 'wordt deze verhouding via volgende formule berekend: [formule ontbreekt]'
-        - regel: 89
+        - regel: 94
           categorie: D2
           type: missing-section
           voorbeeld: Bovenstaande formule geldt als vertrekpunt voor de berekening... [geen formule zichtbaar]

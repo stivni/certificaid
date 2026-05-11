@@ -27,9 +27,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T15:15:33Z'
+    confirmed_at: '2026-05-11T17:05:21Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "A7 (regel 112): heading '## Type-gevallen voor de activering de activering en rubricering van software-uitgaven' heeft dubbele frase 'de activering de activering' — extractie-artefact. B5 (regel 114): 'Bij derden aangekochte, of via gebruiksrecht (tegen éénmalige vergoeding) verkregen toepassingssoftware' staat als plain tekst terwijl A.1 en A.2 wél als ### headings zijn opgemaakt. A6/D4 (regel 171): twee bullet-items samengevoegd op één regel. D4 (regels 173, 181): gebroken italics ('*testing *en' en 'rekening 72* Geactiveerde interne productie*')."
+    rationale: 'Vier ETL-bugs ongewijzigd t.o.v. ronde 2: A7 (regel 112) dubbele frase in heading; B5 (regel 114) subsectie-titel als plain tekst; A6 (regel 171) twee bullets samengesmolten op één regel; D4 (regels 173 en 181) gebroken italics-markers. Structureel en inhoudelijk verder volledig.'
     layer1:
       file_size_chars: 12718
       flags: []
@@ -41,8 +41,8 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:15:33Z'
-      rationale: "A7 (regel 112): heading '## Type-gevallen voor de activering de activering en rubricering van software-uitgaven' heeft dubbele frase 'de activering de activering' — extractie-artefact. B5 (regel 114): 'Bij derden aangekochte, of via gebruiksrecht (tegen éénmalige vergoeding) verkregen toepassingssoftware' staat als plain tekst terwijl A.1 en A.2 wél als ### headings zijn opgemaakt. A6/D4 (regel 171): twee bullet-items samengevoegd op één regel. D4 (regels 173, 181): gebroken italics ('*testing *en' en 'rekening 72* Geactiveerde interne productie*')."
+      run_at: '2026-05-11T17:05:21Z'
+      rationale: 'Vier ETL-bugs ongewijzigd t.o.v. ronde 2: A7 (regel 112) dubbele frase in heading; B5 (regel 114) subsectie-titel als plain tekst; A6 (regel 171) twee bullets samengesmolten op één regel; D4 (regels 173 en 181) gebroken italics-markers. Structureel en inhoudelijk verder volledig.'
       concrete_problemen:
         - regel: 112
           categorie: A7

@@ -30,9 +30,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T15:23:43Z'
+    confirmed_at: '2026-05-11T17:13:30Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: 'Bevestiging van bestaand verdict. B5: regel 157 bevat `Rekening 77 Regularisering van belastingen en terugneming van fiscale voorzieningen` als plain-text alinea zonder heading-prefix, terwijl omliggende subrekeningen elk een `####`-heading hebben. D4: stelselmatige malformed italic bij rekeningnamen (spatie vóór sluitende asterisk) op minstens regels 121, 135, 155, 164, 190 en 261.'
+    rationale: "B5: regel 142 bevat 'Rekening 77 Regularisering van belastingen en terugneming van fiscale voorzieningen' als plain-text alinea zonder heading-prefix, terwijl omliggende subrekeningen elk een ####-heading hebben — structurele inconsistentie. D4: stelselmatige malformed italic bij rekeningnamen (spatie vóór sluitende asterisk) op regels 106, 120, 135, 140, 149 en meerdere andere — dit patroon is zo frequent dat het de leesbaarheid aantast."
     layer1:
       file_size_chars: 45124
       flags: []
@@ -44,26 +44,26 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:23:43Z'
-      rationale: 'Bevestiging van bestaand verdict. B5: regel 157 bevat `Rekening 77 Regularisering van belastingen en terugneming van fiscale voorzieningen` als plain-text alinea zonder heading-prefix, terwijl omliggende subrekeningen elk een `####`-heading hebben. D4: stelselmatige malformed italic bij rekeningnamen (spatie vóór sluitende asterisk) op minstens regels 121, 135, 155, 164, 190 en 261.'
+      run_at: '2026-05-11T17:13:30Z'
+      rationale: "B5: regel 142 bevat 'Rekening 77 Regularisering van belastingen en terugneming van fiscale voorzieningen' als plain-text alinea zonder heading-prefix, terwijl omliggende subrekeningen elk een ####-heading hebben — structurele inconsistentie. D4: stelselmatige malformed italic bij rekeningnamen (spatie vóór sluitende asterisk) op regels 106, 120, 135, 140, 149 en meerdere andere — dit patroon is zo frequent dat het de leesbaarheid aantast."
       concrete_problemen:
-        - regel: 157
+        - regel: 142
           categorie: B5
           type: other
           voorbeeld: Rekening 77 Regularisering van belastingen en terugneming van fiscale voorzieningen
-        - regel: 121
+        - regel: 106
           categorie: D4
           type: other
           voorbeeld: rekening 640* Bedrijfsbelastingen*. Als tweede voorbeeld
-        - regel: 135
+        - regel: 120
           categorie: D4
           type: other
           voorbeeld: daartoe gecreëerd een rekening 6703* Gevormde fiscale voorziening*
-        - regel: 155
+        - regel: 140
           categorie: D4
           type: other
-          voorbeeld: rekening 640 *Bedrijfsbelastingen *wanneer ze negatief is
-        - regel: 261
+          voorbeeld: rekening 673* Buitenlandse belastingen op het resultaat van vorige boekjaren*
+        - regel: 149
           categorie: D4
           type: other
           voorbeeld: fictief karakter van de *vordering *op de overheid

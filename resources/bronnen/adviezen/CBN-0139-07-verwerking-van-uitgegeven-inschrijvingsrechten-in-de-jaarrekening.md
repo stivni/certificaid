@@ -17,9 +17,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T15:15:33Z'
+    confirmed_at: '2026-05-11T17:05:21Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "A4 (regel 64): heading '### Kosteloos uitgegeven warrants' heeft drie U+200B zero-width spaces als trailing whitespace — onzichtbaar unicode-artefact uit de HTML-scraper. Verder is de inhoud volledig en de heading-structuur (##, ###) correct."
+    rationale: "A4 (regel 68): heading '### Kosteloos uitgegeven warrants' bevat nog steeds drie U+200B zero-width spaces als trailing whitespace — ongewijzigd t.o.v. ronde 2. Verder geen andere artefacten; heading-structuur en inhoud volledig."
     layer1:
       file_size_chars: 4281
       flags: []
@@ -31,13 +31,13 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:15:33Z'
-      rationale: "A4 (regel 64): heading '### Kosteloos uitgegeven warrants' heeft drie U+200B zero-width spaces als trailing whitespace — onzichtbaar unicode-artefact uit de HTML-scraper. Verder is de inhoud volledig en de heading-structuur (##, ###) correct."
+      run_at: '2026-05-11T17:05:21Z'
+      rationale: "A4 (regel 68): heading '### Kosteloos uitgegeven warrants' bevat nog steeds drie U+200B zero-width spaces als trailing whitespace — ongewijzigd t.o.v. ronde 2. Verder geen andere artefacten; heading-structuur en inhoud volledig."
       concrete_problemen:
-        - regel: 64
+        - regel: 68
           categorie: A4
           type: other
-          voorbeeld: '### Kosteloos uitgegeven warrants \u200b\u200b\u200b'
+          voorbeeld: '### Kosteloos uitgegeven warrants ​​​'
 themas:
   - converteerbare obligatie
   - inschrijvingsrecht

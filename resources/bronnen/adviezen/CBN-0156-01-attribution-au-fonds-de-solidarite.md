@@ -17,9 +17,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T15:15:33Z'
+    confirmed_at: '2026-05-11T17:05:21Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "D4: regel 54 bevat '*Solidariteitsfonds *' en '*Financieringsfonds *' met een spatie vóór de sluitende asterisk — malformed italic, klassiek ETL-conversie-artefact. Overige inhoud volledig en coherent; geen andere artefacten aangetroffen."
+    rationale: "Vorig verdict bevestigd. D4 r.54: '*Solidariteitsfonds *' en '*Financieringsfonds *' bevatten een spatie vóór de sluitende asterisk — malformed italic-markers, ETL-conversie-artefact. Overige inhoud volledig en coherent."
     layer1:
       file_size_chars: 1300
       flags: []
@@ -31,8 +31,8 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:15:33Z'
-      rationale: "D4: regel 54 bevat '*Solidariteitsfonds *' en '*Financieringsfonds *' met een spatie vóór de sluitende asterisk — malformed italic, klassiek ETL-conversie-artefact. Overige inhoud volledig en coherent; geen andere artefacten aangetroffen."
+      run_at: '2026-05-11T17:05:21Z'
+      rationale: "Vorig verdict bevestigd. D4 r.54: '*Solidariteitsfonds *' en '*Financieringsfonds *' bevatten een spatie vóór de sluitende asterisk — malformed italic-markers, ETL-conversie-artefact. Overige inhoud volledig en coherent."
       concrete_problemen:
         - regel: 54
           categorie: D4

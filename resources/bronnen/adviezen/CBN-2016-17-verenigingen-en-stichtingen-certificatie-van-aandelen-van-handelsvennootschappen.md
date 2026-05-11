@@ -30,9 +30,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T15:23:43Z'
+    confirmed_at: '2026-05-11T17:09:39Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: 'B5: regel 115 `Boekhoudkundige verwerking van de opbrengsten en inkomsten van de gecertificeerde aandelen` staat als plain-text-regel zonder `##` of `###` prefix — structuurlabel dat een heading hoort te zijn. D4: regel 116 `post* Andere uitgaven*` bevat spatie vóór openende `*` waardoor italic malformed is. De A6 op regel 123 (spurious line-break) lijkt opgelost na re-scrape.'
+    rationale: 'B5: regel 90 `Boekhoudkundige verwerking van de opbrengsten en inkomsten van de gecertificeerde aandelen` staat als plain-text-paragraaf zonder `##` of `###` prefix — structuurlabel dat een heading hoort te zijn gezien de parallelstructuur met de heading op regel 79. D4: regel 91 `post* Andere uitgaven*` bevat spatie vóór openende `*` waardoor italic malformed is.'
     layer1:
       file_size_chars: 9787
       flags: []
@@ -44,17 +44,17 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:23:43Z'
-      rationale: 'B5: regel 115 `Boekhoudkundige verwerking van de opbrengsten en inkomsten van de gecertificeerde aandelen` staat als plain-text-regel zonder `##` of `###` prefix — structuurlabel dat een heading hoort te zijn. D4: regel 116 `post* Andere uitgaven*` bevat spatie vóór openende `*` waardoor italic malformed is. De A6 op regel 123 (spurious line-break) lijkt opgelost na re-scrape.'
+      run_at: '2026-05-11T17:09:39Z'
+      rationale: 'B5: regel 90 `Boekhoudkundige verwerking van de opbrengsten en inkomsten van de gecertificeerde aandelen` staat als plain-text-paragraaf zonder `##` of `###` prefix — structuurlabel dat een heading hoort te zijn gezien de parallelstructuur met de heading op regel 79. D4: regel 91 `post* Andere uitgaven*` bevat spatie vóór openende `*` waardoor italic malformed is.'
       concrete_problemen:
-        - regel: 115
+        - regel: 90
           categorie: B5
           type: other
-          voorbeeld: 'Boekhoudkundige verwerking van de opbrengsten en inkomsten... (plain text zonder ## prefix)'
-        - regel: 116
+          voorbeeld: 'Boekhoudkundige verwerking van de opbrengsten en inkomsten van de gecertificeerde aandelen (plain text zonder ## prefix)'
+        - regel: 91
           categorie: D4
           type: other
-          voorbeeld: post* Andere uitgaven*. (spatie voor openende asterisk — malformed italic)
+          voorbeeld: post* Andere uitgaven* (spatie vóór openende asterisk — malformed italic)
 themas:
   - aandelen
   - certificatie

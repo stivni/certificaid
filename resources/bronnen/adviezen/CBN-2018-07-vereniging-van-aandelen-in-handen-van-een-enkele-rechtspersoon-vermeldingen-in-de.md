@@ -17,9 +17,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T15:23:43Z'
+    confirmed_at: '2026-05-11T17:13:30Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: 'E2: twee voorbeeld-blokken (regels 77-83 en 98-119) zijn verpakt in `| \n\n*Voorbeeld*\n\n  |` constructies — losse tabelcellen zonder header of separator, een scraper-artefact waarbij call-out boxes als tabel-fragmenten zijn gerenderd. Een mens zou een blockquote (>) of gewone alinea schrijven. Verdere inhoud en heading-structuur correct.'
+    rationale: "E2: twee voorbeeld-blokken (regels 69-75 en 167-177) zijn verpakt in '|\\n\\n*Voorbeeld*\\n\\n  |' constructies — losse tabelcellen zonder header of separator, een scraper-artefact waarbij call-out boxes als tabel-fragmenten zijn gerenderd. Een mens zou een blockquote (>) of gewone alinea schrijven. Verder inhoud en heading-structuur correct."
     layer1:
       file_size_chars: 7549
       flags: []
@@ -31,17 +31,17 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:23:43Z'
-      rationale: 'E2: twee voorbeeld-blokken (regels 77-83 en 98-119) zijn verpakt in `| \n\n*Voorbeeld*\n\n  |` constructies — losse tabelcellen zonder header of separator, een scraper-artefact waarbij call-out boxes als tabel-fragmenten zijn gerenderd. Een mens zou een blockquote (>) of gewone alinea schrijven. Verdere inhoud en heading-structuur correct.'
+      run_at: '2026-05-11T17:13:30Z'
+      rationale: "E2: twee voorbeeld-blokken (regels 69-75 en 167-177) zijn verpakt in '|\\n\\n*Voorbeeld*\\n\\n  |' constructies — losse tabelcellen zonder header of separator, een scraper-artefact waarbij call-out boxes als tabel-fragmenten zijn gerenderd. Een mens zou een blockquote (>) of gewone alinea schrijven. Verder inhoud en heading-structuur correct."
       concrete_problemen:
-        - regel: 77
+        - regel: 69
           categorie: E2
           type: pseudo-table
-          voorbeeld: '| \n\n*Voorbeeld*\n\n  |'
-        - regel: 98
+          voorbeeld: "| \n\n*Voorbeeld*\n\n  |"
+        - regel: 167
           categorie: E2
           type: pseudo-table
-          voorbeeld: '| \n\n*Voorbeeld*\n\n  |'
+          voorbeeld: "| \n\n*Voorbeeld*\n\n  |"
 themas:
   - vereniging van aandelen in één hand
   - eenhoofdigheid

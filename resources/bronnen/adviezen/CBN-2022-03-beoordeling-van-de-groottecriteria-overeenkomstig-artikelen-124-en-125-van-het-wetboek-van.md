@@ -30,9 +30,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T15:26:40Z'
+    confirmed_at: '2026-05-11T17:13:31Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "E1: de voorbeeldtabellen op regels 246-263 (omzet/balanstotaal per vennootschap + berekeningstabellen) zijn pseudo-pipe-tabellen zonder markdown header+separator-rij. B1: op regel 117 staat '708 *Toegekende kortingen, ristorno's en rabatten (-)' als plain tekst zonder heading-prefix terwijl regel 115 '### 700 tot 707 *Verkopen en dienstprestaties*' wél een heading is — inconsistente behandeling van dezelfde structuurlaag. (Herbevestiging van eerdere beoordeling.)"
+    rationale: "E1: de berekeningsexempels op regels 258-277 gebruiken pseudo-pipe-tabellen zonder markdown header+separator-rij (bv. '| Vennootschap A | | Vennootschap B |' zonder scheidingslijn). B1: regel 129 bevat '708 *Toegekende kortingen, ristorno's en rabatten (-)* ' als plain text terwijl regel 127 '### 700 tot 707 *Verkopen en dienstprestaties*' een ### heading is — inconsistente behandeling van dezelfde structuurlaag."
     layer1:
       file_size_chars: 31336
       flags: []
@@ -44,18 +44,18 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:26:40Z'
-      rationale: "E1: de voorbeeldtabellen op regels 246-263 (omzet/balanstotaal per vennootschap + berekeningstabellen) zijn pseudo-pipe-tabellen zonder markdown header+separator-rij. B1: op regel 117 staat '708 *Toegekende kortingen, ristorno's en rabatten (-)' als plain tekst zonder heading-prefix terwijl regel 115 '### 700 tot 707 *Verkopen en dienstprestaties*' wél een heading is — inconsistente behandeling van dezelfde structuurlaag. (Herbevestiging van eerdere beoordeling.)"
+      run_at: '2026-05-11T17:13:31Z'
+      rationale: "E1: de berekeningsexempels op regels 258-277 gebruiken pseudo-pipe-tabellen zonder markdown header+separator-rij (bv. '| Vennootschap A | | Vennootschap B |' zonder scheidingslijn). B1: regel 129 bevat '708 *Toegekende kortingen, ristorno's en rabatten (-)* ' als plain text terwijl regel 127 '### 700 tot 707 *Verkopen en dienstprestaties*' een ### heading is — inconsistente behandeling van dezelfde structuurlaag."
       concrete_problemen:
-        - regel: 117
+        - regel: 129
           categorie: B1
           type: other
           voorbeeld: 708 *Toegekende kortingen, ristorno's en rabatten (-)*
-        - regel: 246
+        - regel: 258
           categorie: E1
           type: pseudo-table
           voorbeeld: "| Vennootschap A | | Vennootschap B | \n| Omzet excl. btw | | 1.000.000 | | Omzet excl. btw | | 8.500.000 |"
-        - regel: 253
+        - regel: 266
           categorie: E1
           type: pseudo-table
           voorbeeld: '| Omzet excl. btw: | | 1.000.000 + 8.500.000 - 300.000 = 9.200.000 > 9.000.000 |'

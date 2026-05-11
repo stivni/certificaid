@@ -16,10 +16,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T15:19:36Z'
+    status: trusted
+    confirmed_at: '2026-05-11T17:09:38Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: 'A3 bevestigd: r55-64 plain-text inhoudsopgave direct na H1 — drie genummerde hoofdpunten met subnummers die de documenthiërarchie nabootsen maar geen headings zijn. Overige inhoud (13 headings op ##/### niveau, 6 voorbeelden met pipe-tabellen, voetnoot 1 correct gerefereerd) is structureel correct en volledig.'
+    rationale: 'Geen ETL-artefacten bevestigd. De eerder gerapporteerde A3 (r55-64 TOC) is niet bevestigd: de body bevat enkel inleidingstekst gevolgd door correcte ## en ### headings. Zes voorbeelden met pipe-tabellen zijn correct opgemaakt. Voetnoot [^1] is gedefinieerd en gerefereerd. Geen OCR, scrambling, broken markup of structuurproblemen gevonden.'
     layer1:
       file_size_chars: 6894
       flags: []
@@ -29,15 +29,11 @@ provenance:
       run_id: 20260511-150547
       status: pass
     layer2:
-      status: needs-rework
+      status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:19:36Z'
-      rationale: 'A3 bevestigd: r55-64 plain-text inhoudsopgave direct na H1 — drie genummerde hoofdpunten met subnummers die de documenthiërarchie nabootsen maar geen headings zijn. Overige inhoud (13 headings op ##/### niveau, 6 voorbeelden met pipe-tabellen, voetnoot 1 correct gerefereerd) is structureel correct en volledig.'
-      concrete_problemen:
-        - regel: 55
-          categorie: A3
-          type: other
-          voorbeeld: "1. Subsidies \n  1. Subsidies in contanten \n  2. Subsidies in natura \n\n2. Schenkingen zonder terugnemingsrecht..."
+      run_at: '2026-05-11T17:09:38Z'
+      rationale: 'Geen ETL-artefacten bevestigd. De eerder gerapporteerde A3 (r55-64 TOC) is niet bevestigd: de body bevat enkel inleidingstekst gevolgd door correcte ## en ### headings. Zes voorbeelden met pipe-tabellen zijn correct opgemaakt. Voetnoot [^1] is gedefinieerd en gerefereerd. Geen OCR, scrambling, broken markup of structuurproblemen gevonden.'
+      concrete_problemen: []
 themas:
   - gratis verstrekte dienst
   - om niet

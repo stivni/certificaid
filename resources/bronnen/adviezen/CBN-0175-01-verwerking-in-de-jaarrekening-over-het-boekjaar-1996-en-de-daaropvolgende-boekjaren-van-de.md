@@ -30,9 +30,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T15:19:36Z'
+    confirmed_at: '2026-05-11T17:05:21Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "Bevestiging van vorige QA (ronde 1). C1: '•' bullet-glyph op r.114 en r.129 in plaats van markdown '-'. A6: bullets op r.117, 122, 125, 128 beginnen met '- \\n\\n' waarbij de bulletinhoud na een lege regel staat — regelbreuk in lijstcontext die bullets ontkoppelt van hun inhoud. Overige structuur en voetnoten correct."
+    rationale: "C1 bevestigd r.102 en r.117: '•' bullet-glyphs (PDF-iconen) in plaats van markdown '-'. A6 bevestigd r.105-116: bullets beginnen met '- ' gevolgd door een lege regel ('- \\n\\nde Belgische Staat is de voornoemde...') waardoor bulletinhoud is losgekoppeld van het bullet-teken — zichtbare regelbreukpatroon in lijstcontext. Twee afzonderlijke categorieën met duidelijke artefacten. Overige structuur en zes voetnoten correct."
     layer1:
       file_size_chars: 18053
       flags: []
@@ -44,21 +44,21 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:19:36Z'
-      rationale: "Bevestiging van vorige QA (ronde 1). C1: '•' bullet-glyph op r.114 en r.129 in plaats van markdown '-'. A6: bullets op r.117, 122, 125, 128 beginnen met '- \\n\\n' waarbij de bulletinhoud na een lege regel staat — regelbreuk in lijstcontext die bullets ontkoppelt van hun inhoud. Overige structuur en voetnoten correct."
+      run_at: '2026-05-11T17:05:21Z'
+      rationale: "C1 bevestigd r.102 en r.117: '•' bullet-glyphs (PDF-iconen) in plaats van markdown '-'. A6 bevestigd r.105-116: bullets beginnen met '- ' gevolgd door een lege regel ('- \\n\\nde Belgische Staat is de voornoemde...') waardoor bulletinhoud is losgekoppeld van het bullet-teken — zichtbare regelbreukpatroon in lijstcontext. Twee afzonderlijke categorieën met duidelijke artefacten. Overige structuur en zes voetnoten correct."
       concrete_problemen:
-        - regel: 114
+        - regel: 102
           categorie: C1
           type: bullet-glyph
           voorbeeld: • In het PBEG van 6 augustus 1996 staat een mededeling...
-        - regel: 117
+        - regel: 105
           categorie: A6
           type: other
-          voorbeeld: "- \n\nde Belgische Staat is de voornoemde verplichtingen..."
-        - regel: 129
+          voorbeeld: "- \n\nde Belgische Staat is de voornoemde verplichtingen inzake..."
+        - regel: 117
           categorie: C1
           type: bullet-glyph
-          voorbeeld: • In haar beschikking van 4 december 1996...
+          voorbeeld: • In haar beschikking van 4 december 1996 kondigt de Europese Commissie aan...
 themas:
   - toelichting
   - voorziening

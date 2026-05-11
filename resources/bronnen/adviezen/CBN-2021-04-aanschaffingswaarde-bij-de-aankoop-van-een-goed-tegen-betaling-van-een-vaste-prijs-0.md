@@ -30,9 +30,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T15:26:39Z'
+    confirmed_at: '2026-05-11T17:13:30Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "D3: Zes orphan footnote-markers ([^6] t/m [^11]) staan als losstaande regels tussen de boekingstabellen (regels 116, 123, 132, 139, 153, 160) — anchor-verwijzingen naar tabel-contextuele voetnoten op een eigen lege regel zonder bijbehorende inline tekst, consistent extractie-artefact. A6: Regel 129 breekt de zin 'De financiële component[^4] van de verrichting...' over twee regels doordat het voetnootanker een regelbreuk injecteert."
+    rationale: "D3: Zes orphan footnote-markers ([^6] t/m [^11]) staan als losstaande regels na boekingstabellen (regels 215-225 tonen de definities correct, maar de anchors zelf staan als losse regels in de body na tabellen) — consistent extractie-artefact waarbij footnote-anchors bedoeld voor tabel-context als aparte para's zijn weergegeven. A6: Regel 117 bevat een regelbreuk na '[^4]' midden in de zin 'De financiële component[^4] van de verrichting wordt gespreid...' waarbij het voetnootanker een linebreak injecteert."
     layer1:
       file_size_chars: 11955
       flags: []
@@ -44,8 +44,8 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:26:39Z'
-      rationale: "D3: Zes orphan footnote-markers ([^6] t/m [^11]) staan als losstaande regels tussen de boekingstabellen (regels 116, 123, 132, 139, 153, 160) — anchor-verwijzingen naar tabel-contextuele voetnoten op een eigen lege regel zonder bijbehorende inline tekst, consistent extractie-artefact. A6: Regel 129 breekt de zin 'De financiële component[^4] van de verrichting...' over twee regels doordat het voetnootanker een regelbreuk injecteert."
+      run_at: '2026-05-11T17:13:30Z'
+      rationale: "D3: Zes orphan footnote-markers ([^6] t/m [^11]) staan als losstaande regels na boekingstabellen (regels 215-225 tonen de definities correct, maar de anchors zelf staan als losse regels in de body na tabellen) — consistent extractie-artefact waarbij footnote-anchors bedoeld voor tabel-context als aparte para's zijn weergegeven. A6: Regel 117 bevat een regelbreuk na '[^4]' midden in de zin 'De financiële component[^4] van de verrichting wordt gespreid...' waarbij het voetnootanker een linebreak injecteert."
       concrete_problemen:
         - regel: 116
           categorie: D3
@@ -71,7 +71,7 @@ provenance:
           categorie: D3
           type: other
           voorbeeld: '[^11] (idem)'
-        - regel: 129
+        - regel: 117
           categorie: A6
           type: other
           voorbeeld: "De financiële component[^4]\n van de verrichting wordt gespreid..."

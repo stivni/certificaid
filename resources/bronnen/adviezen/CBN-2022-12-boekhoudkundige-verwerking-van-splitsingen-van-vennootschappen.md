@@ -30,9 +30,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T15:26:40Z'
+    confirmed_at: '2026-05-11T17:13:31Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "E1/A7: meerdere balans-tabellen hebben een eigen-vermogen-waarde op een losse regel buiten de tabelrij (bv. regels 386-394, 473-481, 593-598) — het getal staat als zelfstandige tekstregel na de cel-header in plaats van in dezelfde tabelrij. B5: 'Voorbeeld 3' (regel 449) en 'Voorbeeld 5' (regel 640) zijn als plain-text-alinea's zonder ### heading-prefix, terwijl Voorbeeld 1, 2 en 4 wél als ### heading zijn opgemaakt. B4/B5: 'Aanwezigheid van gespreid te belasten meerwaarden alsook van een andere soort vrijgestelde reserves' (regel 448) en 'Eén van de verkrijgende vennootschappen is aandeelhouder van de gesplitste vennootschap' (regel 639) staan als plain text in plaats van als sectie-headings."
+    rationale: "B5: 'Voorbeeld 3' (regel 449) en 'Voorbeeld 5' (regel 640) zijn plain-text alinea's zonder ### heading-prefix, terwijl Voorbeeld 1, 2 en 4 wél als ### heading zijn opgemaakt — inconsistente extractie. B4: op regels 133 en 162 worden eigenvermogenscomponenten ('70 = inbreng van aandeelhouders', '40 = inbrengen door aandeelhouders in geld') als ### heading opgemaakt in plaats van als opsommingsregel — PDF-layout-artefact waarbij de getallen als sectietitel zijn herkend. E1: meerdere balans-tabellen bevatten eigen-vermogen-waarden als zelfstandige tekstregels buiten de tabelrij (bv. regel 386, 473, 593)."
     layer1:
       file_size_chars: 68695
       flags: []
@@ -44,33 +44,29 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:26:40Z'
-      rationale: "E1/A7: meerdere balans-tabellen hebben een eigen-vermogen-waarde op een losse regel buiten de tabelrij (bv. regels 386-394, 473-481, 593-598) — het getal staat als zelfstandige tekstregel na de cel-header in plaats van in dezelfde tabelrij. B5: 'Voorbeeld 3' (regel 449) en 'Voorbeeld 5' (regel 640) zijn als plain-text-alinea's zonder ### heading-prefix, terwijl Voorbeeld 1, 2 en 4 wél als ### heading zijn opgemaakt. B4/B5: 'Aanwezigheid van gespreid te belasten meerwaarden alsook van een andere soort vrijgestelde reserves' (regel 448) en 'Eén van de verkrijgende vennootschappen is aandeelhouder van de gesplitste vennootschap' (regel 639) staan als plain text in plaats van als sectie-headings."
+      run_at: '2026-05-11T17:13:31Z'
+      rationale: "B5: 'Voorbeeld 3' (regel 449) en 'Voorbeeld 5' (regel 640) zijn plain-text alinea's zonder ### heading-prefix, terwijl Voorbeeld 1, 2 en 4 wél als ### heading zijn opgemaakt — inconsistente extractie. B4: op regels 133 en 162 worden eigenvermogenscomponenten ('70 = inbreng van aandeelhouders', '40 = inbrengen door aandeelhouders in geld') als ### heading opgemaakt in plaats van als opsommingsregel — PDF-layout-artefact waarbij de getallen als sectietitel zijn herkend. E1: meerdere balans-tabellen bevatten eigen-vermogen-waarden als zelfstandige tekstregels buiten de tabelrij (bv. regel 386, 473, 593)."
       concrete_problemen:
+        - regel: 133
+          categorie: B4
+          type: other
+          voorbeeld: '### 70 = inbreng van aandeelhouders (eigenvermogenscomponent als H3 heading)'
+        - regel: 162
+          categorie: B4
+          type: other
+          voorbeeld: '### 40 = inbrengen door aandeelhouders in geld (idem, BV-voorbeeld)'
         - regel: 386
           categorie: E1
           type: pseudo-table
-          voorbeeld: "| C |\n|---|\n| Activum 1 | | 2.000 | | *Eigen vermogen* | | \n\n5.500\n\n  |"
-        - regel: 473
-          categorie: E1
-          type: pseudo-table
-          voorbeeld: "| C |\n|---|\n| Activum 1 | | 2.000 | | *Eigen vermogen* | | \n\n8.500\n\n  |"
-        - regel: 593
-          categorie: E1
-          type: pseudo-table
-          voorbeeld: "| C |\n|---|\n| Activa | | 12.000 | | *Eigen vermogen* | | \n\n9.000\n\n  |"
+          voorbeeld: '| C |\n|---|\n| Activum 1 | | 2.000 | | *Eigen vermogen* | |\n\n5.500\n\n  | (waarde buiten tabelrij)'
         - regel: 449
           categorie: B5
           type: other
-          voorbeeld: 'Voorbeeld 3 – Aanwezigheid van gespreid te belasten meerwaarden alsook van een andere soort... (plain text, geen ### heading)'
+          voorbeeld: 'Voorbeeld 3 – Aanwezigheid van gespreid te belasten meerwaarden... (plain text, geen ### heading)'
         - regel: 640
           categorie: B5
           type: other
-          voorbeeld: 'Voorbeeld 5 – Één van de verkrijgende vennootschappen is aandeelhouder van de gesplitste vennootschap (plain text, geen ### heading)'
-        - regel: 112
-          categorie: B5
-          type: other
-          voorbeeld: '### 70 = inbreng van aandeelhouders (getal als heading-label i.p.v. onderdeel van voorbeeldtekst)'
+          voorbeeld: 'Voorbeeld 5 – Één van de verkrijgende vennootschappen is aandeelhouder... (plain text, geen ### heading)'
 themas:
   - splitsing
   - herstructurering

@@ -24,9 +24,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T15:26:39Z'
+    confirmed_at: '2026-05-11T17:13:30Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "B5: Regel 78 bevat '### De Koning kan het model van de staat van activa en passiva vaststellen.' als ### heading, maar dit is de afsluitende zin van het geciteerde artikel 14:30 WVV binnen een blockquote — ETL heeft de ### prefix ten onrechte op deze wetszin geplakt. Overige inhoud (2 echte headings, 2 voetnoten) is volledig en correct."
+    rationale: "B5: Regel 66 bevat '### De Koning kan het model van de staat van activa en passiva vaststellen.' als ### heading, maar deze zin is de afsluitende zin van het geciteerde artikel 14:30 WVV binnen een blockquote — de ETL heeft de ### prefix ten onrechte op deze wetszin geplakt in plaats van hem als plain-text binnen de blockquote te laten staan. Overige inhoud (2 echte headings, 2 voetnoten, correct standpunt Commissie) is volledig en correct."
     layer1:
       file_size_chars: 3922
       flags: []
@@ -38,10 +38,10 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:26:39Z'
-      rationale: "B5: Regel 78 bevat '### De Koning kan het model van de staat van activa en passiva vaststellen.' als ### heading, maar dit is de afsluitende zin van het geciteerde artikel 14:30 WVV binnen een blockquote — ETL heeft de ### prefix ten onrechte op deze wetszin geplakt. Overige inhoud (2 echte headings, 2 voetnoten) is volledig en correct."
+      run_at: '2026-05-11T17:13:30Z'
+      rationale: "B5: Regel 66 bevat '### De Koning kan het model van de staat van activa en passiva vaststellen.' als ### heading, maar deze zin is de afsluitende zin van het geciteerde artikel 14:30 WVV binnen een blockquote — de ETL heeft de ### prefix ten onrechte op deze wetszin geplakt in plaats van hem als plain-text binnen de blockquote te laten staan. Overige inhoud (2 echte headings, 2 voetnoten, correct standpunt Commissie) is volledig en correct."
       concrete_problemen:
-        - regel: 78
+        - regel: 66
           categorie: B5
           type: other
           voorbeeld: '### De Koning kan het model van de staat van activa en passiva vaststellen."'

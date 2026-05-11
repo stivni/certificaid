@@ -17,9 +17,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T15:23:43Z'
+    confirmed_at: '2026-05-11T17:13:30Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: 'B2: `## In hoofde van de begunstigde (artiest)` op regel 419 staat op ##-niveau terwijl alle omliggende subsecties van Voorbeeld 2 (2019–2022) plain-text zijn — hiërarchie-sprong. E2: tabelcel `Rekening-couran` op regel 510 is afgekapt (ontbrekende `t`). A5: spatie ontbreekt na em-dash in H1-titel (regel 71: `2019/08 –Boekhoudkundige`). Inhoud inhoudelijk compleet en tabellen grotendeels correct.'
+    rationale: 'B2: `## In hoofde van de begunstigde (artiest)` op regel 409 staat op ##-niveau terwijl alle omliggende sub-items van Voorbeeld 2 plain-text zijn — inconsistente hiërarchie. E2: tabelcel op regel 500 is afgekapt: `Kredietinstellingen – Rekening-couran` (ontbrekende `t`). A5: H1-titel regel 61 mist spatie na em-dash: `2019/08 –Boekhoudkundige`.'
     layer1:
       file_size_chars: 30428
       flags: []
@@ -31,18 +31,18 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:23:43Z'
-      rationale: 'B2: `## In hoofde van de begunstigde (artiest)` op regel 419 staat op ##-niveau terwijl alle omliggende subsecties van Voorbeeld 2 (2019–2022) plain-text zijn — hiërarchie-sprong. E2: tabelcel `Rekening-couran` op regel 510 is afgekapt (ontbrekende `t`). A5: spatie ontbreekt na em-dash in H1-titel (regel 71: `2019/08 –Boekhoudkundige`). Inhoud inhoudelijk compleet en tabellen grotendeels correct.'
+      run_at: '2026-05-11T17:13:30Z'
+      rationale: 'B2: `## In hoofde van de begunstigde (artiest)` op regel 409 staat op ##-niveau terwijl alle omliggende sub-items van Voorbeeld 2 plain-text zijn — inconsistente hiërarchie. E2: tabelcel op regel 500 is afgekapt: `Kredietinstellingen – Rekening-couran` (ontbrekende `t`). A5: H1-titel regel 61 mist spatie na em-dash: `2019/08 –Boekhoudkundige`.'
       concrete_problemen:
-        - regel: 71
+        - regel: 61
           categorie: A5
           type: other
           voorbeeld: '# CBN-advies 2019/08 –Boekhoudkundige verwerking van crowdfunding'
-        - regel: 419
+        - regel: 409
           categorie: B2
           type: other
           voorbeeld: '## In hoofde van de begunstigde (artiest)'
-        - regel: 510
+        - regel: 500
           categorie: E2
           type: abrupt-cutoff
           voorbeeld: '| | 5500 | Kredietinstellingen – Rekening-couran | 7.000 | |'

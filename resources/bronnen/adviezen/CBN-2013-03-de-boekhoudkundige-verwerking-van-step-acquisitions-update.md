@@ -30,9 +30,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T15:19:36Z'
+    confirmed_at: '2026-05-11T17:09:38Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "D4: regel 99 bevat 'I*I.A.' waarbij de asterisk een italic-marker opent die niet correct sluit en de referentie naar 'paragraaf II.A.' vermangelt. B5: regel 103 'Verhoging van belang in een geassocieerde onderneming die na de verhoging nog steeds een geassocieerde onderneming blijft' is een sectie-titel als plain text zonder heading-prefix. E2: de tabellen op regels 153–155 en 161–164 missen een correcte header-separator rij of hebben onjuiste kolomaantallen."
+    rationale: "D4: regel 85 bevat 'paragraaf I*I.A.' waarbij een asterisk mid-woord een italic-blok opent dat de sectiereferentie 'II.A.' verminkt. B5: regels 89–90 bevatten twee sectietitels als plain-text zonder ##-prefix ('Verhoging van belang in een geassocieerde onderneming die na de verhoging...'). E2: tabellen op regels 139–165 ontberen correcte |---|---| separator-rij en hebben inconsistent kolomaantal."
     layer1:
       file_size_chars: 16103
       flags: []
@@ -44,25 +44,25 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:19:36Z'
-      rationale: "D4: regel 99 bevat 'I*I.A.' waarbij de asterisk een italic-marker opent die niet correct sluit en de referentie naar 'paragraaf II.A.' vermangelt. B5: regel 103 'Verhoging van belang in een geassocieerde onderneming die na de verhoging nog steeds een geassocieerde onderneming blijft' is een sectie-titel als plain text zonder heading-prefix. E2: de tabellen op regels 153–155 en 161–164 missen een correcte header-separator rij of hebben onjuiste kolomaantallen."
+      run_at: '2026-05-11T17:09:38Z'
+      rationale: "D4: regel 85 bevat 'paragraaf I*I.A.' waarbij een asterisk mid-woord een italic-blok opent dat de sectiereferentie 'II.A.' verminkt. B5: regels 89–90 bevatten twee sectietitels als plain-text zonder ##-prefix ('Verhoging van belang in een geassocieerde onderneming die na de verhoging...'). E2: tabellen op regels 139–165 ontberen correcte |---|---| separator-rij en hebben inconsistent kolomaantal."
       concrete_problemen:
-        - regel: 99
+        - regel: 85
           categorie: D4
           type: other
           voorbeeld: paragraaf I*I.A. Verhoging van belang in een geassocieerde onderneming*
-        - regel: 103
+        - regel: 89
           categorie: B5
           type: other
           voorbeeld: Verhoging van belang in een geassocieerde onderneming die na de verhoging nog steeds een geassocieerde onderneming blijft
-        - regel: 153
+        - regel: 139
           categorie: E2
           type: other
-          voorbeeld: '| Overgedragen winst – lopend boekjaar *[Balans]* | | 16 | | | '
-        - regel: 161
-          categorie: E2
+          voorbeeld: '| Overgedragen winst – lopend boekjaar *[Balans]* | | 16 | | |'
+        - regel: 182
+          categorie: B5
           type: other
-          voorbeeld: '| Investering 2 | | 100 |  (geen header + geen |---| separator rij)'
+          voorbeeld: Verhoging van belang in een geassocieerde onderneming, die na de verhoging een integraal geconsolideerde dochteronderneming wordt
 themas:
   - consolidatie
   - stapsgewijze verwerving

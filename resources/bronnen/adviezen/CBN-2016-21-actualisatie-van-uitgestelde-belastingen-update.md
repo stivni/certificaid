@@ -17,9 +17,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T15:23:43Z'
+    confirmed_at: '2026-05-11T17:09:39Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "G3/A6: regel 70 bevat ', bijgewerkt op 10 september 2025[^2]' als losstaand fragment direct na H1-titel — bijwerkingsartefact van de CBN-scraper. Inhoud verder als één aaneengesloten blok zonder headings (heading_count=0), wat voor dit korte één-vraag-advies acceptabel is. Artefact op regel 70 is een duidelijke ETL-bug."
+    rationale: 'A6/G3: regel 56 `, bijgewerkt op 10 september 2025[^2]` staat als losstaand fragment direct na H1-titel — bijwerkingsartefact van de CBN-scraper (identiek patroon als 2016/19). Inhoud verder als één aaneengesloten blok (heading_count=0) wat voor dit korte één-vraag-advies acceptabel is. Het artefact op regel 56 is een duidelijke ETL-bug.'
     layer1:
       file_size_chars: 4563
       flags: []
@@ -31,13 +31,13 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:23:43Z'
-      rationale: "G3/A6: regel 70 bevat ', bijgewerkt op 10 september 2025[^2]' als losstaand fragment direct na H1-titel — bijwerkingsartefact van de CBN-scraper. Inhoud verder als één aaneengesloten blok zonder headings (heading_count=0), wat voor dit korte één-vraag-advies acceptabel is. Artefact op regel 70 is een duidelijke ETL-bug."
+      run_at: '2026-05-11T17:09:39Z'
+      rationale: 'A6/G3: regel 56 `, bijgewerkt op 10 september 2025[^2]` staat als losstaand fragment direct na H1-titel — bijwerkingsartefact van de CBN-scraper (identiek patroon als 2016/19). Inhoud verder als één aaneengesloten blok (heading_count=0) wat voor dit korte één-vraag-advies acceptabel is. Het artefact op regel 56 is een duidelijke ETL-bug.'
       concrete_problemen:
-        - regel: 70
+        - regel: 56
           categorie: A6
           type: other
-          voorbeeld: ', bijgewerkt op 10 september 2025[^2]'
+          voorbeeld: ', bijgewerkt op 10 september 2025[^2] (bijwerkingsannotatie als losstaand body-fragment na H1)'
 themas:
   - actualisatie
   - gerealiseerde meerwaarde

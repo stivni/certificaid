@@ -30,9 +30,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T15:23:43Z'
+    confirmed_at: '2026-05-11T17:13:30Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "A7: Regels 94-96 bevatten twee weesregels (`van de jaarrekening`) vóór `## Inleiding` — fragmenten van de ondertitel die bij extractie los kwamen. D2: Regels 118, 120, 124 en 197 bevatten italic plaatshouders voor figuren (`*Volledig, verkort en micromodel van de jaarrekening...*`) zonder de eigenlijke figuur of tabel — grafische inhoud is verdwenen bij extractie. De kern van het advies (schema's eigen vermogen) is daardoor niet leesbaar."
+    rationale: "A7: regels 78–80 bevatten twee weesregels `van de jaarrekening` — fragmenten van de ondertitel losgeraakt bij extractie. D2: regels 102, 104, 108 bevatten italic plaatshouders voor figuren (`*Volledig, verkort en micromodel...samenstelling van het eigen vermogen*`) maar de eigenlijke schema's ontbreken — de kern van het advies (nieuwe jaarrekeningmodellen) is daardoor niet leesbaar."
     layer1:
       file_size_chars: 22973
       flags: []
@@ -44,21 +44,21 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:23:43Z'
-      rationale: "A7: Regels 94-96 bevatten twee weesregels (`van de jaarrekening`) vóór `## Inleiding` — fragmenten van de ondertitel die bij extractie los kwamen. D2: Regels 118, 120, 124 en 197 bevatten italic plaatshouders voor figuren (`*Volledig, verkort en micromodel van de jaarrekening...*`) zonder de eigenlijke figuur of tabel — grafische inhoud is verdwenen bij extractie. De kern van het advies (schema's eigen vermogen) is daardoor niet leesbaar."
+      run_at: '2026-05-11T17:13:30Z'
+      rationale: "A7: regels 78–80 bevatten twee weesregels `van de jaarrekening` — fragmenten van de ondertitel losgeraakt bij extractie. D2: regels 102, 104, 108 bevatten italic plaatshouders voor figuren (`*Volledig, verkort en micromodel...samenstelling van het eigen vermogen*`) maar de eigenlijke schema's ontbreken — de kern van het advies (nieuwe jaarrekeningmodellen) is daardoor niet leesbaar."
       concrete_problemen:
-        - regel: 94
+        - regel: 78
           categorie: A7
           type: scrambled-words
           voorbeeld: "van de jaarrekening \n\n van de jaarrekening"
-        - regel: 118
+        - regel: 102
           categorie: D2
           type: missing-section
           voorbeeld: '*Volledig, verkort en micromodel van de jaarrekening: samenstelling van het eigen vermogen van kapitaalvennootschappen[^15]*'
-        - regel: 197
+        - regel: 108
           categorie: D2
           type: missing-section
-          voorbeeld: "'Nieuw' model van de jaarrekening voor kapitaalloze vennootschappen*"
+          voorbeeld: '*Volledig model van de jaarrekening: samenstelling van de rubriek Onbeschikbare reserves van kapitaalloze vennootschappen[^17]*'
 themas:
   - neerlegging van de jaarrekening
   - publicatie

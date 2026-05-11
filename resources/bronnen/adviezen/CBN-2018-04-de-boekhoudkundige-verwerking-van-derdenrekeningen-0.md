@@ -21,9 +21,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T15:23:43Z'
+    confirmed_at: '2026-05-11T17:13:30Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "B5: regel 92 bevat 'Verplichtingen van advocaten, notarissen, gerechtsdeurwaarders en vastgoedmakelaars met betrekking tot het houden van derdenrekeningen' als plain-text in de body zonder ## prefix — het is een sectie-heading die als aaneengeplakte tekst met de volgende zin staat. A6: regel 93 eindigt op twee spaties gevolgd door een lege regel midden in een zin ('is een rekening waarbij bij de  \\n\\ntenaamstelling...') — spurious line-break."
+    rationale: "B5: regel 78 bevat 'Verplichtingen van advocaten, notarissen, gerechtsdeurwaarders en vastgoedmakelaars met betrekking tot het houden van derdenrekeningen' als plain-text zonder ## prefix — het is een subsectie-heading die als aaneengeplakte paragraaf staat. A6: regel 79-81 heeft 'is een rekening waarbij bij de \\n\\ntenaamstelling wordt aangegeven' — spurious line-break midden in een zin met dubbele lege regel ertussen."
     layer1:
       file_size_chars: 20255
       flags: []
@@ -35,17 +35,17 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:23:43Z'
-      rationale: "B5: regel 92 bevat 'Verplichtingen van advocaten, notarissen, gerechtsdeurwaarders en vastgoedmakelaars met betrekking tot het houden van derdenrekeningen' als plain-text in de body zonder ## prefix — het is een sectie-heading die als aaneengeplakte tekst met de volgende zin staat. A6: regel 93 eindigt op twee spaties gevolgd door een lege regel midden in een zin ('is een rekening waarbij bij de  \\n\\ntenaamstelling...') — spurious line-break."
+      run_at: '2026-05-11T17:13:30Z'
+      rationale: "B5: regel 78 bevat 'Verplichtingen van advocaten, notarissen, gerechtsdeurwaarders en vastgoedmakelaars met betrekking tot het houden van derdenrekeningen' als plain-text zonder ## prefix — het is een subsectie-heading die als aaneengeplakte paragraaf staat. A6: regel 79-81 heeft 'is een rekening waarbij bij de \\n\\ntenaamstelling wordt aangegeven' — spurious line-break midden in een zin met dubbele lege regel ertussen."
       concrete_problemen:
-        - regel: 92
+        - regel: 78
           categorie: B5
           type: other
           voorbeeld: Verplichtingen van advocaten, notarissen, gerechtsdeurwaarders en vastgoedmakelaars met betrekking tot het houden van derdenrekeningen
-        - regel: 93
+        - regel: 79
           categorie: A6
           type: other
-          voorbeeld: is een rekening waarbij bij de  \n\ntenaamstelling wordt aangegeven
+          voorbeeld: "is een rekening waarbij bij de \n\ntenaamstelling wordt aangegeven"
 themas:
   - derdenrekening
   - advocaat

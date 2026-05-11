@@ -30,9 +30,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T15:23:43Z'
+    confirmed_at: '2026-05-11T17:13:30Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "Bevestiging van bestaand verdict. D4: malformed italic op regels 153 (`*inrichter *`), 155 (`*pensioeninstelling *`), 224 (`***Samenvattend ***`) en 242 (`**Geen externalisering van* alle *risico's **`) — spatie vóór sluitende asterisk, inconsistent gemengd bold/italic. Scraper-fix heeft dit patroon niet opgelost."
+    rationale: "D4: regel 146 heeft '*inrichter *' en regel 148 heeft '*pensioeninstelling *' — spatie vóór sluitende asterisk, malformed italic. Regel 217: '***Samenvattend** *kan dus besloten worden' — inconsistent gemengd bold/italic waarbij de sluitende markers in verkeerde volgorde staan. Regel 235: '**Geen externalisering van* alle *risico's **' — inconsistente nesting van bold en italic markers."
     layer1:
       file_size_chars: 23596
       flags: []
@@ -44,22 +44,22 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:23:43Z'
-      rationale: "Bevestiging van bestaand verdict. D4: malformed italic op regels 153 (`*inrichter *`), 155 (`*pensioeninstelling *`), 224 (`***Samenvattend ***`) en 242 (`**Geen externalisering van* alle *risico's **`) — spatie vóór sluitende asterisk, inconsistent gemengd bold/italic. Scraper-fix heeft dit patroon niet opgelost."
+      run_at: '2026-05-11T17:13:30Z'
+      rationale: "D4: regel 146 heeft '*inrichter *' en regel 148 heeft '*pensioeninstelling *' — spatie vóór sluitende asterisk, malformed italic. Regel 217: '***Samenvattend** *kan dus besloten worden' — inconsistent gemengd bold/italic waarbij de sluitende markers in verkeerde volgorde staan. Regel 235: '**Geen externalisering van* alle *risico's **' — inconsistente nesting van bold en italic markers."
       concrete_problemen:
-        - regel: 153
+        - regel: 146
           categorie: D4
           type: other
           voorbeeld: de pensioentoezegging die door de *inrichter *wordt gegeven
-        - regel: 155
+        - regel: 148
           categorie: D4
           type: other
           voorbeeld: Opdat de *pensioeninstelling *ook effectief in staat zou zijn
-        - regel: 224
+        - regel: 217
           categorie: D4
           type: other
-          voorbeeld: '***Samenvattend ***kan dus besloten worden'
-        - regel: 242
+          voorbeeld: '***Samenvattend** *kan dus besloten worden'
+        - regel: 235
           categorie: D4
           type: other
           voorbeeld: "**Geen externalisering van* alle *risico's **"

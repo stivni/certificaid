@@ -17,9 +17,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T15:23:43Z'
+    confirmed_at: '2026-05-11T17:13:30Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: 'Bevestiging van bestaand verdict. D4: malformed italic op regels 80 en 82 — `die* in vast dienstverband[^4] *` en `rekening 444 *Te ontvangen facturen. *` met spatie vóór sluitende asterisk. Patroon stelselmatig consistent met ETL-batch; scraper-fix heeft dit niet opgelost. Inhoud en structuur zijn verder correct en volledig.'
+    rationale: "D4: regel 74 heeft 'Voor werknemers die* in vast dienstverband[^4] * werken' — de italic-markering opent na 'die' en sluit met spatie voor het asterisk, wat een malformed italic span is. Regel 76 heeft 'rekening 444 *Te ontvangen facturen. *' met spatie voor sluitende asterisk. Patroon stelselmatig consistent met ETL-batch; scraper-fix heeft dit niet opgelost."
     layer1:
       file_size_chars: 5162
       flags: []
@@ -31,14 +31,14 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:23:43Z'
-      rationale: 'Bevestiging van bestaand verdict. D4: malformed italic op regels 80 en 82 — `die* in vast dienstverband[^4] *` en `rekening 444 *Te ontvangen facturen. *` met spatie vóór sluitende asterisk. Patroon stelselmatig consistent met ETL-batch; scraper-fix heeft dit niet opgelost. Inhoud en structuur zijn verder correct en volledig.'
+      run_at: '2026-05-11T17:13:30Z'
+      rationale: "D4: regel 74 heeft 'Voor werknemers die* in vast dienstverband[^4] * werken' — de italic-markering opent na 'die' en sluit met spatie voor het asterisk, wat een malformed italic span is. Regel 76 heeft 'rekening 444 *Te ontvangen facturen. *' met spatie voor sluitende asterisk. Patroon stelselmatig consistent met ETL-batch; scraper-fix heeft dit niet opgelost."
       concrete_problemen:
-        - regel: 80
+        - regel: 74
           categorie: D4
           type: other
           voorbeeld: Voor werknemers die* in vast dienstverband[^4] * werken
-        - regel: 82
+        - regel: 76
           categorie: D4
           type: other
           voorbeeld: rekening 444 *Te ontvangen facturen. *

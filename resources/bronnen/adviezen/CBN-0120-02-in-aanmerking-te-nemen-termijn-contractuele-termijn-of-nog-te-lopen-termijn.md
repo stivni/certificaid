@@ -21,9 +21,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T15:15:32Z'
+    confirmed_at: '2026-05-11T17:05:20Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "F1: frontmatter-regel 6 bevat ongedecodeëerd HTML-entity '&quot;' in gerelateerde_adviezen titel ('Het begrip &quot;financiële instelling&quot;') — ETL-bug, niet een source-typo. Body (1 paragraaf) is inhoudelijk schoon en compleet."
+    rationale: "F1: frontmatter regel 6 bevat ongedecodeerde HTML-entity '&quot;' in het veld gerelateerde_adviezen.titel ('Het begrip &quot;financiële instelling&quot;') — ETL-bug (scraper decoded niet). Body (één paragraaf) is volledig schoon en inhoudelijk compleet."
     layer1:
       file_size_chars: 1126
       flags: []
@@ -35,8 +35,8 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:15:32Z'
-      rationale: "F1: frontmatter-regel 6 bevat ongedecodeëerd HTML-entity '&quot;' in gerelateerde_adviezen titel ('Het begrip &quot;financiële instelling&quot;') — ETL-bug, niet een source-typo. Body (1 paragraaf) is inhoudelijk schoon en compleet."
+      run_at: '2026-05-11T17:05:20Z'
+      rationale: "F1: frontmatter regel 6 bevat ongedecodeerde HTML-entity '&quot;' in het veld gerelateerde_adviezen.titel ('Het begrip &quot;financiële instelling&quot;') — ETL-bug (scraper decoded niet). Body (één paragraaf) is volledig schoon en inhoudelijk compleet."
       concrete_problemen:
         - regel: 6
           categorie: F1

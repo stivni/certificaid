@@ -30,9 +30,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T15:19:35Z'
+    confirmed_at: '2026-05-11T17:05:21Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "B5/B2: regel 81 bevat '## aanschaffingswaarde van de obligatie met warrant x [koers van de warrant / ...]' — een rekenformule is als ## heading gemarkeerd terwijl een mens dit als vetgedrukte inline-tekst of code-blok zou schrijven; geen sectietitel. Verder geen andere extractie-artefacten: inhoud volledig, één H1, tekst leesbaar."
+    rationale: "B5/B2 (regel 82): rekenformule '## aanschaffingswaarde van de obligatie met warrant x [koers van de warrant / ...]' staat nog steeds als ## heading — ongewijzigd t.o.v. ronde 2. Geen andere artefacten; inhoud volledig."
     layer1:
       file_size_chars: 6404
       flags: []
@@ -44,13 +44,13 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:19:35Z'
-      rationale: "B5/B2: regel 81 bevat '## aanschaffingswaarde van de obligatie met warrant x [koers van de warrant / ...]' — een rekenformule is als ## heading gemarkeerd terwijl een mens dit als vetgedrukte inline-tekst of code-blok zou schrijven; geen sectietitel. Verder geen andere extractie-artefacten: inhoud volledig, één H1, tekst leesbaar."
+      run_at: '2026-05-11T17:05:21Z'
+      rationale: "B5/B2 (regel 82): rekenformule '## aanschaffingswaarde van de obligatie met warrant x [koers van de warrant / ...]' staat nog steeds als ## heading — ongewijzigd t.o.v. ronde 2. Geen andere artefacten; inhoud volledig."
       concrete_problemen:
-        - regel: 81
+        - regel: 82
           categorie: B5
           type: other
-          voorbeeld: '## aanschaffingswaarde van de obligatie met warrant x [koers van de warrant / (koers...'
+          voorbeeld: '## aanschaffingswaarde van de obligatie met warrant x [koers van de warrant / (koers van de obligatie ex-warrant + koers van de warrant)]'
 themas:
   - financiële vaste activa
   - inschrijvingsrecht

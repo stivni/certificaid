@@ -30,9 +30,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T15:26:40Z'
+    confirmed_at: '2026-05-11T17:13:31Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "A3: op regel 95 staat 'Sluiting van het bijkantoor' als plain-text-alinea onmiddellijk na de H1-titel en vóór ## Inleiding — dit is een TOC-fragment of navigatie-relic dat niet in de body-inhoud thuishoort (de werkelijke sectie 'Sluiting van het bijkantoor' staat pas op regel 352). Laag-2 ronde 1 identificeerde al een TOC-duplicaat (regels 134-135); bij herlezing is dit A3-artefact nog steeds aanwezig. Overige inhoud volledig; 77 voetnoten correct."
+    rationale: "A3: de tekst 'Sluiting van het bijkantoor' staat als losstaande plain-text alinea op regel 87, tussen de H1-titel en ## Inleiding — een TOC-navigatie-relic dat niet thuishoort in de body; de werkelijke sectie met die titel staat pas op regel 344 als ## heading. Dit is een klassiek scraper-artefact waarbij een inhoudsopgave-link werd meegekopieerd. Verder is de inhoud volledig en zijn de 77 voetnoten correct."
     layer1:
       file_size_chars: 47375
       flags: []
@@ -44,17 +44,13 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:26:40Z'
-      rationale: "A3: op regel 95 staat 'Sluiting van het bijkantoor' als plain-text-alinea onmiddellijk na de H1-titel en vóór ## Inleiding — dit is een TOC-fragment of navigatie-relic dat niet in de body-inhoud thuishoort (de werkelijke sectie 'Sluiting van het bijkantoor' staat pas op regel 352). Laag-2 ronde 1 identificeerde al een TOC-duplicaat (regels 134-135); bij herlezing is dit A3-artefact nog steeds aanwezig. Overige inhoud volledig; 77 voetnoten correct."
+      run_at: '2026-05-11T17:13:31Z'
+      rationale: "A3: de tekst 'Sluiting van het bijkantoor' staat als losstaande plain-text alinea op regel 87, tussen de H1-titel en ## Inleiding — een TOC-navigatie-relic dat niet thuishoort in de body; de werkelijke sectie met die titel staat pas op regel 344 als ## heading. Dit is een klassiek scraper-artefact waarbij een inhoudsopgave-link werd meegekopieerd. Verder is de inhoud volledig en zijn de 77 voetnoten correct."
       concrete_problemen:
-        - regel: 95
+        - regel: 87
           categorie: A3
           type: other
-          voorbeeld: 'Sluiting van het bijkantoor (losse tekstregel tussen H1-titel en ## Inleiding, TOC-relic)'
-        - regel: 138
-          categorie: A6
-          type: other
-          voorbeeld: '## Publicatieverplichtingen van buitenlandse verenigingen en stichtingen (heading zonder lege regel na voorgaande paragraaf)'
+          voorbeeld: 'Sluiting van het bijkantoor (losse tekstregel tussen H1-titel op regel 85 en ## Inleiding op regel 89 — TOC-relic)'
 themas:
   - bijkantoor
   - publicatie

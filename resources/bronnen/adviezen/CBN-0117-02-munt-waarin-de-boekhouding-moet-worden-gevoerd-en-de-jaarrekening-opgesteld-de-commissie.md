@@ -30,9 +30,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T15:15:32Z'
+    confirmed_at: '2026-05-11T17:05:20Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "A9: regel 89 bevat 'Belgiëë' (dubbele ë) voor 'België' en regel 93 bevat 'ingschakeld' (ontbrekende 'e') voor 'ingeschakeld' — OCR-extractie-artefacten. A6: regel 101 bevat 'der halve' (gesplitst woord) voor 'derhalve' — spurious word-split. Drie bevestigde artefacten; inhoud verder volledig."
+    rationale: "A9: regel 89 bevat 'Belgiëë' (dubbele ë) voor 'België' — encoding-artefact. Regel 93 bevat 'ingschakeld' voor 'ingeschakeld' — ontbrekende letter, OCR-artefact. A6: regel 101 bevat 'der halve' (gesplitst woord) voor 'derhalve' — spurious word-split. Drie bevestigde ETL-artefacten; overige inhoud volledig."
     layer1:
       file_size_chars: 4790
       flags: []
@@ -44,8 +44,8 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:15:32Z'
-      rationale: "A9: regel 89 bevat 'Belgiëë' (dubbele ë) voor 'België' en regel 93 bevat 'ingschakeld' (ontbrekende 'e') voor 'ingeschakeld' — OCR-extractie-artefacten. A6: regel 101 bevat 'der halve' (gesplitst woord) voor 'derhalve' — spurious word-split. Drie bevestigde artefacten; inhoud verder volledig."
+      run_at: '2026-05-11T17:05:20Z'
+      rationale: "A9: regel 89 bevat 'Belgiëë' (dubbele ë) voor 'België' — encoding-artefact. Regel 93 bevat 'ingschakeld' voor 'ingeschakeld' — ontbrekende letter, OCR-artefact. A6: regel 101 bevat 'der halve' (gesplitst woord) voor 'derhalve' — spurious word-split. Drie bevestigde ETL-artefacten; overige inhoud volledig."
       concrete_problemen:
         - regel: 89
           categorie: A9

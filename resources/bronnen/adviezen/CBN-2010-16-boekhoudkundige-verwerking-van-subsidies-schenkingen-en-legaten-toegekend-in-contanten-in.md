@@ -17,9 +17,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T15:19:36Z'
+    confirmed_at: '2026-05-11T17:09:38Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "A3 bevestigd: r72-79 plain-text genummerde inhoudsopgave in body (zelfde patroon als 2010/15). D4 bevestigd: r119 '(1)** oorzaak:**' heeft bold-marker ná de haakjes i.p.v. eromheen (gebroken bold-opmaakartefact). R96 '*Lidgeld, schenkingen, legaten en subsidies[^6]*' heeft voetnootmarkering binnen het italic-blok waardoor closing asterisk na de puntkomma staat. Inhoud en 8 voorbeelden met pipe-tabellen overigens volledig."
+    rationale: "D4 bevestigd: r106 '(1)** oorzaak:**' heeft bold-marker direct na de haakjes zonder spatie, inconsistent met r108 '(2) **vorm:**' en r110 '(3) **doel:**' — gebroken bold-opmaakartefact. De eerder gerapporteerde A3 (r72-79 inhoudsopgave) is niet bevestigd: de betrokken regels zijn gewone inleidingstekst, geen TOC. Overige inhoud (8 voorbeelden met pipe-tabellen, voetnoten 1-23 volledig) correct."
     layer1:
       file_size_chars: 27033
       flags: []
@@ -31,18 +31,10 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:19:36Z'
-      rationale: "A3 bevestigd: r72-79 plain-text genummerde inhoudsopgave in body (zelfde patroon als 2010/15). D4 bevestigd: r119 '(1)** oorzaak:**' heeft bold-marker ná de haakjes i.p.v. eromheen (gebroken bold-opmaakartefact). R96 '*Lidgeld, schenkingen, legaten en subsidies[^6]*' heeft voetnootmarkering binnen het italic-blok waardoor closing asterisk na de puntkomma staat. Inhoud en 8 voorbeelden met pipe-tabellen overigens volledig."
+      run_at: '2026-05-11T17:09:38Z'
+      rationale: "D4 bevestigd: r106 '(1)** oorzaak:**' heeft bold-marker direct na de haakjes zonder spatie, inconsistent met r108 '(2) **vorm:**' en r110 '(3) **doel:**' — gebroken bold-opmaakartefact. De eerder gerapporteerde A3 (r72-79 inhoudsopgave) is niet bevestigd: de betrokken regels zijn gewone inleidingstekst, geen TOC. Overige inhoud (8 voorbeelden met pipe-tabellen, voetnoten 1-23 volledig) correct."
       concrete_problemen:
-        - regel: 72
-          categorie: A3
-          type: other
-          voorbeeld: "1. Basisbeginselen \n2. Soorten subsidies \n  1. Subsidies, schenkingen en legaten in contanten... (plain-text TOC in body)"
-        - regel: 96
-          categorie: D4
-          type: other
-          voorbeeld: post I.D. *Lidgeld, schenkingen, legaten en subsidies[^6]* ;
-        - regel: 119
+        - regel: 106
           categorie: D4
           type: other
           voorbeeld: (1)** oorzaak:** het gaat om de reden

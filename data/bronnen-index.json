@@ -2903,10 +2903,10 @@
       "titel": "CBN-advies 107/12",
       "korte_naam": "CBN-advies 107/12",
       "tags": [],
-      "trust_status": "needs-rework",
+      "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": "pass",
-      "layer2_status": "needs-rework"
+      "layer2_status": "trusted"
     },
     {
       "bestand": "CBN-0107-13-voorzieningen-voor-geindexeerde-pensioenen-en-brugpensioenen.md",
@@ -4775,10 +4775,10 @@
       "titel": "CBN-advies 2009/7",
       "korte_naam": "CBN-advies 2009/7",
       "tags": [],
-      "trust_status": "needs-rework",
+      "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": "pass",
-      "layer2_status": "needs-rework"
+      "layer2_status": "trusted"
     },
     {
       "bestand": "CBN-2009-09-boekhoudkundige-gevolgen-van-de-aanvaardingsplicht-inzake-afgedankte-elektrische-en.md",
@@ -4835,10 +4835,10 @@
       "titel": "CBN-advies 2009/13",
       "korte_naam": "CBN-advies 2009/13",
       "tags": [],
-      "trust_status": "needs-rework",
+      "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": "pass",
-      "layer2_status": "needs-rework"
+      "layer2_status": "trusted"
     },
     {
       "bestand": "CBN-2009-14-boekhoudkundige-verwerking-van-groenestroom-en-warmtekrachtcertificaten.md",
@@ -4955,10 +4955,10 @@
       "titel": "CBN-advies 2010/10",
       "korte_naam": "CBN-advies 2010/10",
       "tags": [],
-      "trust_status": "needs-rework",
+      "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": "pass",
-      "layer2_status": "needs-rework"
+      "layer2_status": "trusted"
     },
     {
       "bestand": "CBN-2010-11-boekhoudkundige-verwerking-van-loontussenkomst-door-de-overheid-in-hoofde-van-de-werkgever.md",
@@ -5051,10 +5051,10 @@
       "titel": "CBN-advies 2010/18",
       "korte_naam": "CBN-advies 2010/18",
       "tags": [],
-      "trust_status": "needs-rework",
+      "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": "pass",
-      "layer2_status": "needs-rework"
+      "layer2_status": "trusted"
     },
     {
       "bestand": "CBN-2010-20-gebruik-van-uniforme-boekhoudsoftware-door-internationale-ondernemingen.md",
@@ -5063,10 +5063,10 @@
       "titel": "CBN-advies 2010/20",
       "korte_naam": "CBN-advies 2010/20",
       "tags": [],
-      "trust_status": "needs-rework",
+      "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": "pass",
-      "layer2_status": "needs-rework"
+      "layer2_status": "trusted"
     },
     {
       "bestand": "CBN-2010-21-de-boekhoudkundige-verwerking-van-transfervergoedingen-betaald-bij-de-mutatie-van.md",
@@ -5183,10 +5183,10 @@
       "titel": "CBN-advies 2011/12",
       "korte_naam": "CBN-advies 2011/12",
       "tags": [],
-      "trust_status": "needs-rework",
+      "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": "pass",
-      "layer2_status": "needs-rework"
+      "layer2_status": "trusted"
     },
     {
       "bestand": "CBN-2011-13-overheidssubsidies.md",
@@ -5255,10 +5255,10 @@
       "titel": "CBN-advies 2011/19",
       "korte_naam": "CBN-advies 2011/19",
       "tags": [],
-      "trust_status": "needs-rework",
+      "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": "pass",
-      "layer2_status": "needs-rework"
+      "layer2_status": "trusted"
     },
     {
       "bestand": "CBN-2011-20-verbonden-ondernemingen.md",
@@ -7175,10 +7175,10 @@
       "titel": "CBN-advies 2022/02",
       "korte_naam": "CBN-advies 2022/02",
       "tags": [],
-      "trust_status": "needs-rework",
+      "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": "pass",
-      "layer2_status": "needs-rework"
+      "layer2_status": "trusted"
     },
     {
       "bestand": "CBN-2022-03-beoordeling-van-de-groottecriteria-overeenkomstig-artikelen-124-en-125-van-het-wetboek-van.md",

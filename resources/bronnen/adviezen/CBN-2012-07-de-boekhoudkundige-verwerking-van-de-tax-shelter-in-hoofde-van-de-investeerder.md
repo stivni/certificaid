@@ -30,9 +30,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T15:19:36Z'
+    confirmed_at: '2026-05-11T17:09:38Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "B5: regels 147 en 164 tonen sectie-titels ('Boekhoudkundige kwalificatie van de rechten verbonden aan de productie en de exploitatie van het audiovisueel werk' en 'Te verrichten boekingen tijdens de verschillende fasen van het vrijstellingsmechanisme van de tax shelter') als plain-text zonder heading-prefix — terwijl dit duidelijk sectie-koppen zijn op hetzelfde niveau als de ## secties erboven. E2: regels 198-199 tonen een broken tabelrij waarbij de omschrijving over twee regels loopt met tab-uitlijning ('| | 51 | Aandelen (rechten op de opbrengsten van het \\n\\t\\t\\taudiovisueel werk [X] ) | 60 |'). Zelfde patroon op regels 220-223."
+    rationale: "B5: regels 130 en 147 tonen sectie-titels ('Boekhoudkundige kwalificatie van de rechten...' en 'Te verrichten boekingen tijdens de verschillende fasen...') als plain-text alinea's zonder heading-prefix, terwijl dit duidelijk sectieniveaus zijn op ## niveau. E2: regels 181-182 en 203-206 tonen gebroken tabelrijen met omschrijvingen die over meerdere regels lopen met tab-inspringing buiten de cellen."
     layer1:
       file_size_chars: 28752
       flags: []
@@ -44,21 +44,25 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:19:36Z'
-      rationale: "B5: regels 147 en 164 tonen sectie-titels ('Boekhoudkundige kwalificatie van de rechten verbonden aan de productie en de exploitatie van het audiovisueel werk' en 'Te verrichten boekingen tijdens de verschillende fasen van het vrijstellingsmechanisme van de tax shelter') als plain-text zonder heading-prefix — terwijl dit duidelijk sectie-koppen zijn op hetzelfde niveau als de ## secties erboven. E2: regels 198-199 tonen een broken tabelrij waarbij de omschrijving over twee regels loopt met tab-uitlijning ('| | 51 | Aandelen (rechten op de opbrengsten van het \\n\\t\\t\\taudiovisueel werk [X] ) | 60 |'). Zelfde patroon op regels 220-223."
+      run_at: '2026-05-11T17:09:38Z'
+      rationale: "B5: regels 130 en 147 tonen sectie-titels ('Boekhoudkundige kwalificatie van de rechten...' en 'Te verrichten boekingen tijdens de verschillende fasen...') als plain-text alinea's zonder heading-prefix, terwijl dit duidelijk sectieniveaus zijn op ## niveau. E2: regels 181-182 en 203-206 tonen gebroken tabelrijen met omschrijvingen die over meerdere regels lopen met tab-inspringing buiten de cellen."
       concrete_problemen:
-        - regel: 147
+        - regel: 130
           categorie: B5
           type: other
           voorbeeld: Boekhoudkundige kwalificatie van de rechten verbonden aan de productie en de exploitatie van het audiovisueel werk
-        - regel: 164
+        - regel: 147
           categorie: B5
           type: other
           voorbeeld: Te verrichten boekingen tijdens de verschillende fasen van het vrijstellingsmechanisme van de tax shelter
-        - regel: 198
+        - regel: 181
           categorie: E2
           type: pseudo-table
           voorbeeld: "| | 51 | Aandelen (rechten op de opbrengsten van het \n\t\t\taudiovisueel werk [X] ) | 60 | |"
+        - regel: 203
+          categorie: E2
+          type: pseudo-table
+          voorbeeld: "| | 09 | Verkoopoptie van de rechten op de opbrengsten van het \n\t\t\taudiovisueel werk [X] | 15 | |"
 themas:
   - tax shelter
   - belastingvrije reserves

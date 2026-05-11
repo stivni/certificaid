@@ -17,9 +17,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T15:15:33Z'
+    confirmed_at: '2026-05-11T17:05:21Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "B3: regel 52 bevat de volledige paginatitel 'CBN-advies 154/1 - Wijziging van de waarderingsregels als gevolg van gewijzigde wetgeving-Informatieverstrekking' als plain-text-alinea direct na de identieke H1-heading op r.50 — een duplicate page-title artefact. Inhoud verder volledig; drie voetnoten correct verbonden."
+    rationale: "Vorig verdict bevestigd. B3 r.52: paginatitel 'CBN-advies 154/1 - Wijziging van de waarderingsregels als gevolg van gewijzigde wetgeving-Informatieverstrekking' herhaald als plain-text alinea direct na de identieke H1-heading op r.50 — klassiek HTML-scrape-artefact (duplicate page-title). Inhoud verder volledig; drie voetnoten correct verbonden."
     layer1:
       file_size_chars: 4639
       flags: []
@@ -31,8 +31,8 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:15:33Z'
-      rationale: "B3: regel 52 bevat de volledige paginatitel 'CBN-advies 154/1 - Wijziging van de waarderingsregels als gevolg van gewijzigde wetgeving-Informatieverstrekking' als plain-text-alinea direct na de identieke H1-heading op r.50 — een duplicate page-title artefact. Inhoud verder volledig; drie voetnoten correct verbonden."
+      run_at: '2026-05-11T17:05:21Z'
+      rationale: "Vorig verdict bevestigd. B3 r.52: paginatitel 'CBN-advies 154/1 - Wijziging van de waarderingsregels als gevolg van gewijzigde wetgeving-Informatieverstrekking' herhaald als plain-text alinea direct na de identieke H1-heading op r.50 — klassiek HTML-scrape-artefact (duplicate page-title). Inhoud verder volledig; drie voetnoten correct verbonden."
       concrete_problemen:
         - regel: 52
           categorie: B3

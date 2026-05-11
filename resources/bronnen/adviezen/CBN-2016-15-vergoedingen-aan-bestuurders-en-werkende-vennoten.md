@@ -17,9 +17,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T15:23:43Z'
+    confirmed_at: '2026-05-11T17:09:39Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: 'E2: regels 140–142 bevatten een multi-line tabelcel met tab-inspringing voor rekeningomschrijving 618 — breekt pipe-tabel-rendering. D4: regel 91 `goederen[^7]* .` heeft een spatie vóór de afsluitende `*` in inline italic. D4: regel 99 `*Directiepersoneel*` is correct, maar eerder op regel 87 staat de lange rekeningomschrijving als plain-text paragraaf buiten heading-context — structureel verwacht als B5.'
+    rationale: 'E2: regels 128–130 bevatten een multiline tabelcel voor rekeningomschrijving 618 met tab-inspringing — breekt pipe-tabel-rendering. D4: regel 79 `diensten en diverse goederen[^7]* .` heeft een spatie vóór de afsluitende `*` in inline italic — broken italic-markering. B5: regel 74 bevat `618 Bezoldigingen, premies...` als plain-text-paragraaf zonder `##`/`###` prefix — sectielabel dat een heading hoort te zijn.'
     layer1:
       file_size_chars: 17653
       flags: []
@@ -31,21 +31,21 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:23:43Z'
-      rationale: 'E2: regels 140–142 bevatten een multi-line tabelcel met tab-inspringing voor rekeningomschrijving 618 — breekt pipe-tabel-rendering. D4: regel 91 `goederen[^7]* .` heeft een spatie vóór de afsluitende `*` in inline italic. D4: regel 99 `*Directiepersoneel*` is correct, maar eerder op regel 87 staat de lange rekeningomschrijving als plain-text paragraaf buiten heading-context — structureel verwacht als B5.'
+      run_at: '2026-05-11T17:09:39Z'
+      rationale: 'E2: regels 128–130 bevatten een multiline tabelcel voor rekeningomschrijving 618 met tab-inspringing — breekt pipe-tabel-rendering. D4: regel 79 `diensten en diverse goederen[^7]* .` heeft een spatie vóór de afsluitende `*` in inline italic — broken italic-markering. B5: regel 74 bevat `618 Bezoldigingen, premies...` als plain-text-paragraaf zonder `##`/`###` prefix — sectielabel dat een heading hoort te zijn.'
       concrete_problemen:
-        - regel: 140
+        - regel: 128
           categorie: E2
           type: other
-          voorbeeld: '| | 618 | Bezoldigingen, premies voor buitenwettelijke \n\t\t\t\tverzekeringen... (multi-line cel)'
-        - regel: 91
+          voorbeeld: '| | 618 | Bezoldigingen, premies voor buitenwettelijke \n\t\t\t\tverzekeringen... (multiline tabelcel)'
+        - regel: 79
           categorie: D4
           type: other
-          voorbeeld: goederen[^7]* . (spatie voor afsluitende asterisk in italic)
-        - regel: 86
+          voorbeeld: diensten en diverse goederen[^7]* . (spatie vóór afsluitende asterisk in italic)
+        - regel: 74
           categorie: B5
           type: other
-          voorbeeld: '618 Bezoldigingen, premies... die niet worden toegekend... (rekening-label als plain text zonder ## prefix)'
+          voorbeeld: '618 Bezoldigingen, premies voor buitenwettelijke verzekeringen... (plain text zonder ## prefix)'
 themas:
   - arbeidsovereenkomst
   - bestuurder

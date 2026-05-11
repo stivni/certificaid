@@ -17,9 +17,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T15:23:43Z'
+    confirmed_at: '2026-05-11T17:13:30Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "E1/E2: De twee grote tabellen met de eigen-vermogenssamenstelling (regels 130-431 en 448-782) zijn niet als markdown-pipe-tabellen geëxtraheerd maar als een reeks gefragmenteerde enkelvoudige `| tekst |\n|---|` cellen — duidelijk PDF-tabel extractie-bug. Elke cel staat op een aparte regel met lege regels ertussen zodat de tabelstructuur volledig verloren gaat. Hetzelfde patroon herhaalt zich voor het derde voorbeeld (regels 845-1044). Tekst en boeking-tabellen zijn correct."
+    rationale: 'E1/E2: drie grote eigen-vermogen-overzichtstabellen (regels 141–442, 459–792, 856–1055) zijn volledig gefragmenteerd als enkelvoudige single-cell blokken — tabelstructuur volledig verloren. Journaalpost-tabellen en tekst zijn correct.'
     layer1:
       file_size_chars: 24508
       flags: []
@@ -31,18 +31,18 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:23:43Z'
-      rationale: "E1/E2: De twee grote tabellen met de eigen-vermogenssamenstelling (regels 130-431 en 448-782) zijn niet als markdown-pipe-tabellen geëxtraheerd maar als een reeks gefragmenteerde enkelvoudige `| tekst |\n|---|` cellen — duidelijk PDF-tabel extractie-bug. Elke cel staat op een aparte regel met lege regels ertussen zodat de tabelstructuur volledig verloren gaat. Hetzelfde patroon herhaalt zich voor het derde voorbeeld (regels 845-1044). Tekst en boeking-tabellen zijn correct."
+      run_at: '2026-05-11T17:13:30Z'
+      rationale: 'E1/E2: drie grote eigen-vermogen-overzichtstabellen (regels 141–442, 459–792, 856–1055) zijn volledig gefragmenteerd als enkelvoudige single-cell blokken — tabelstructuur volledig verloren. Journaalpost-tabellen en tekst zijn correct.'
       concrete_problemen:
-        - regel: 130
+        - regel: 141
           categorie: E1
           type: pseudo-table
           voorbeeld: "| \n\n  | | \n|---|\n\nSamenstelling van het eigen vermogen op boekhoudkundig vlak"
-        - regel: 448
+        - regel: 459
           categorie: E1
           type: pseudo-table
-          voorbeeld: "| \n\n  | | \n|---|\n\nBegin-toestand\n\n  | | \n|---|"
-        - regel: 845
+          voorbeeld: "| \n\n  | | \n|---|\n\nSamenstelling van het eigen vermogen op boekhoudkundig vlak"
+        - regel: 856
           categorie: E1
           type: pseudo-table
           voorbeeld: "| \n\n  | | \n|---|\n\nSamenstelling van het eigen vermogen op boekhoudkundig vlak"

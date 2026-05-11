@@ -30,9 +30,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T15:15:33Z'
+    confirmed_at: '2026-05-11T17:05:21Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "F1: regel 9 in gerelateerde_adviezen-veld bevat 'Risico&#039;s verbonden aan bestellingen van vaste activa' — HTML-entiteit &#039; (apostrof) niet gedecodeeerd door de scraper. Dit schaadt YAML-parsecorrectheid. Body zelf is inhoudelijk volledig en schoon."
+    rationale: "Vorig verdict bevestigd. F1 r.9: HTML-entiteit '&#039;' (apostrof) niet gedecodeerd door de scraper in het gerelateerde_adviezen-veld — ETL-bug (niet source-typo). Body zelf volledig en schoon; één voetnoot correct verbonden."
     layer1:
       file_size_chars: 1238
       flags: []
@@ -44,8 +44,8 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:15:33Z'
-      rationale: "F1: regel 9 in gerelateerde_adviezen-veld bevat 'Risico&#039;s verbonden aan bestellingen van vaste activa' — HTML-entiteit &#039; (apostrof) niet gedecodeeerd door de scraper. Dit schaadt YAML-parsecorrectheid. Body zelf is inhoudelijk volledig en schoon."
+      run_at: '2026-05-11T17:05:21Z'
+      rationale: "Vorig verdict bevestigd. F1 r.9: HTML-entiteit '&#039;' (apostrof) niet gedecodeerd door de scraper in het gerelateerde_adviezen-veld — ETL-bug (niet source-typo). Body zelf volledig en schoon; één voetnoot correct verbonden."
       concrete_problemen:
         - regel: 9
           categorie: F1

@@ -30,9 +30,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T15:26:40Z'
+    confirmed_at: '2026-05-11T17:13:31Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: 'E1: tabellen op regels 143-147, 201-205 en 240-245 missen de verplichte separator-rij (|---|) na de header-rij; de tabel op regel 240 heeft bovendien tientallen lege ghost-kolommen (afwisselende lege `| |` cellen). D3: voetnoot [^1] staat in het voetnoetenblok (regel 257) maar heeft geen corresponderend anker in de bodytekst. Overige inhoud volledig; voorbeelden structureel aanwezig als ### headings.'
+    rationale: "E2: de Voorbeeld 4-tabel (regel 215) heeft 35 kolommen met afwisselende lege ghost-kolommen (bv. '| **Einde 31.12** | | | | **31.12.2021** | | | | | |...') — de PDF-lay-out van de meerkolommentabel is niet genormaliseerd naar een compacte pipe-tabel; dit schaadt de leesbaarheid. D3: voetnoot [^1] staat in het voetnoetenblok (regel 232) maar heeft geen corresponderend [^1]-anker in de bodytekst. A6: regel 212 begint met '22. Veronderstel...' — een losstaand randnummer dat als gevolg van PDF-extractie voor de alinea staat in plaats van inline als opsomming."
     layer1:
       file_size_chars: 16629
       flags: []
@@ -44,25 +44,21 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:26:40Z'
-      rationale: 'E1: tabellen op regels 143-147, 201-205 en 240-245 missen de verplichte separator-rij (|---|) na de header-rij; de tabel op regel 240 heeft bovendien tientallen lege ghost-kolommen (afwisselende lege `| |` cellen). D3: voetnoot [^1] staat in het voetnoetenblok (regel 257) maar heeft geen corresponderend anker in de bodytekst. Overige inhoud volledig; voorbeelden structureel aanwezig als ### headings.'
+      run_at: '2026-05-11T17:13:31Z'
+      rationale: "E2: de Voorbeeld 4-tabel (regel 215) heeft 35 kolommen met afwisselende lege ghost-kolommen (bv. '| **Einde 31.12** | | | | **31.12.2021** | | | | | |...') — de PDF-lay-out van de meerkolommentabel is niet genormaliseerd naar een compacte pipe-tabel; dit schaadt de leesbaarheid. D3: voetnoot [^1] staat in het voetnoetenblok (regel 232) maar heeft geen corresponderend [^1]-anker in de bodytekst. A6: regel 212 begint met '22. Veronderstel...' — een losstaand randnummer dat als gevolg van PDF-extractie voor de alinea staat in plaats van inline als opsomming."
       concrete_problemen:
-        - regel: 143
-          categorie: E1
+        - regel: 215
+          categorie: E2
           type: pseudo-table
-          voorbeeld: '| | | 31/12/2023 | | 31/12/2024 | | 31/12/2025 | (geen separator-rij na header)'
-        - regel: 201
-          categorie: E1
-          type: pseudo-table
-          voorbeeld: '| | | 30/06/2024 | | 30/06/2025 | | 30/06/2026 | (geen separator-rij na header)'
-        - regel: 240
-          categorie: E1
-          type: pseudo-table
-          voorbeeld: '| **Einde 31.12** | | | | **31.12.2021** | | | | | | **31.12.2022** | ... (30+ cellen, geen separator, ghost-kolommen)'
-        - regel: 257
+          voorbeeld: '| **Einde 31.12** | | | | **31.12.2021** | | | | | | **31.12.2022** | ... (35 kolommen met lege ghost-kolommen)'
+        - regel: 232
           categorie: D3
           type: other
-          voorbeeld: '[^1]: Onderhavig advies is tot stand gekomen... (geen [^1] anker in bodytekst)'
+          voorbeeld: '[^1]: Onderhavig advies is tot stand gekomen... (geen [^1]-anker in bodytekst)'
+        - regel: 212
+          categorie: A6
+          type: other
+          voorbeeld: 22. Veronderstel een stichting... (randnummer als losstaand prefix voor de alinea)
 themas:
   - groottecriteria
   - verenigingen en stichtingen

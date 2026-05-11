@@ -30,9 +30,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T15:23:43Z'
+    confirmed_at: '2026-05-11T17:09:38Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: 'D4: regel 63 opent een bold-marker `# **COMMISSIE...` zonder sluiting; regel 65 `## **CBN-advies 2016/2...` idem; regel 69 `## Inleiding**` heeft een sluitende `**` zonder opening — stray bold-markers verspreid over de headings. B3: regel 75 is een lege heading `## ` zonder tekst. Regel 77: `**Analyse****` heeft dubbele sluitende `**` (malformed). Tabellen en inhoud verder correct.'
+    rationale: "D4 bevestigd: regel 79 '# **COMMISSIE VOOR BOEKHOUDKUNDIGE NORMEN' opent ** zonder sluiting; regel 81 '## **CBN-advies 2016/2...' idem; regel 85 '## Inleiding**' heeft sluitende ** zonder opening — stray bold-markers verspreid over drie headings. B3: regel 91 is een lege ## heading zonder tekst. Regel 93 '**Analyse****' heeft dubbele sluitende **. Allen ETL-artefacten."
     layer1:
       file_size_chars: 3163
       flags: []
@@ -44,26 +44,26 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:23:43Z'
-      rationale: 'D4: regel 63 opent een bold-marker `# **COMMISSIE...` zonder sluiting; regel 65 `## **CBN-advies 2016/2...` idem; regel 69 `## Inleiding**` heeft een sluitende `**` zonder opening — stray bold-markers verspreid over de headings. B3: regel 75 is een lege heading `## ` zonder tekst. Regel 77: `**Analyse****` heeft dubbele sluitende `**` (malformed). Tabellen en inhoud verder correct.'
+      run_at: '2026-05-11T17:09:38Z'
+      rationale: "D4 bevestigd: regel 79 '# **COMMISSIE VOOR BOEKHOUDKUNDIGE NORMEN' opent ** zonder sluiting; regel 81 '## **CBN-advies 2016/2...' idem; regel 85 '## Inleiding**' heeft sluitende ** zonder opening — stray bold-markers verspreid over drie headings. B3: regel 91 is een lege ## heading zonder tekst. Regel 93 '**Analyse****' heeft dubbele sluitende **. Allen ETL-artefacten."
       concrete_problemen:
-        - regel: 63
+        - regel: 79
           categorie: D4
           type: other
           voorbeeld: '# **COMMISSIE VOOR BOEKHOUDKUNDIGE NORMEN (openende ** zonder sluiting)'
-        - regel: 65
+        - regel: 81
           categorie: D4
           type: other
           voorbeeld: '## **CBN-advies 2016/2 – Boekhoudkundige verwerking... (openende ** zonder sluiting)'
-        - regel: 69
+        - regel: 85
           categorie: D4
           type: other
           voorbeeld: '## Inleiding** (sluitende ** zonder opening)'
-        - regel: 75
+        - regel: 91
           categorie: B3
           type: other
           voorbeeld: '## (lege heading zonder tekst)'
-        - regel: 77
+        - regel: 93
           categorie: D4
           type: other
           voorbeeld: '**Analyse**** (dubbele sluitende ** — malformed bold)'

@@ -17,9 +17,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T15:15:32Z'
+    confirmed_at: '2026-05-11T17:05:20Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "F1: frontmatter-veld nummer is 'CBN-advies 105-5' (koppelteken) terwijl de body-heading op regel 52 'CBN-advies 105/5' schrijft (schuine streep) — onopgeloste inconsistentie na scraper-fixes. F3: bestandsnaam eindigt op '-door-0.md', afgekapte URL-slug die de bron verkeerd identificeert."
+    rationale: "F1: frontmatter-veld 'nummer' bevat 'CBN-advies 105-5' (koppelteken) terwijl de body-heading op regel 52 'CBN-advies 105/5' schrijft (schuine streep) — de schuine streep is de correcte advies-notatie; de scraper heeft de URL-slug-hyphen overgenomen in het nummer-veld, wat een ETL-normaliseringsflout is. Body-tekst is clean en volledig."
     layer1:
       file_size_chars: 1623
       flags: []
@@ -31,17 +31,13 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:15:32Z'
-      rationale: "F1: frontmatter-veld nummer is 'CBN-advies 105-5' (koppelteken) terwijl de body-heading op regel 52 'CBN-advies 105/5' schrijft (schuine streep) — onopgeloste inconsistentie na scraper-fixes. F3: bestandsnaam eindigt op '-door-0.md', afgekapte URL-slug die de bron verkeerd identificeert."
+      run_at: '2026-05-11T17:05:20Z'
+      rationale: "F1: frontmatter-veld 'nummer' bevat 'CBN-advies 105-5' (koppelteken) terwijl de body-heading op regel 52 'CBN-advies 105/5' schrijft (schuine streep) — de schuine streep is de correcte advies-notatie; de scraper heeft de URL-slug-hyphen overgenomen in het nummer-veld, wat een ETL-normaliseringsflout is. Body-tekst is clean en volledig."
       concrete_problemen:
         - regel: 4
           categorie: F1
           type: naam-mismatch
-          voorbeeld: 'nummer: CBN-advies 105-5 (frontmatter) vs # CBN-advies 105/5 (body regel 52)'
-        - regel: 1
-          categorie: F3
-          type: naam-mismatch
-          voorbeeld: 'bestandsnaam: CBN-0105-05-...-door-0.md — afgekapte slug'
+          voorbeeld: 'nummer: CBN-advies 105-5 (frontmatter, koppelteken) vs # CBN-advies 105/5 (body, schuine streep)'
 themas:
   - vennootschap behorende tot dezelfde groep
   - aanrekening van vergoedingen door vennootschappen behorende tot dezelfde groep

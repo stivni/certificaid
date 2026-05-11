@@ -27,9 +27,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T15:19:36Z'
+    confirmed_at: '2026-05-11T17:09:38Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "A9/B3: H1-titel (r84) bevat 'bedrijfstak1' — superscript-voetnootnummer niet geparsed als [^1] en kleeft aan het woord. R86 bevat 'of van een algemeenheid van goederen' als losstaande plain-text regel — een titelfragment dat bij extractie losraakte (duplicate fragmentregel). B2: subkoppen ### Principe (r106) en ### Enkele bijzonderheden (r113) zijn H3 direct onder H2 wat correct is, maar eerder gerapporteerde #### sprong is niet aanwezig in deze versie (scraper-fix gedeeltelijk verholpen)."
+    rationale: "A9: H1-titel (r62) bevat 'bedrijfstak1' — superscript voetnootnummer [^1] niet geparsed, kleeft aan het woord als cijfer. B3/A6: r64 bevat 'of van een algemeenheid van goederen' als losstaande plain-text regel direct na de H1-titel — dit is een extractie-duplicaatfragment van de H1-titel. Beide zijn ETL-bugs die herstel vereisen."
     layer1:
       file_size_chars: 15701
       flags: []
@@ -41,17 +41,17 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:19:36Z'
-      rationale: "A9/B3: H1-titel (r84) bevat 'bedrijfstak1' — superscript-voetnootnummer niet geparsed als [^1] en kleeft aan het woord. R86 bevat 'of van een algemeenheid van goederen' als losstaande plain-text regel — een titelfragment dat bij extractie losraakte (duplicate fragmentregel). B2: subkoppen ### Principe (r106) en ### Enkele bijzonderheden (r113) zijn H3 direct onder H2 wat correct is, maar eerder gerapporteerde #### sprong is niet aanwezig in deze versie (scraper-fix gedeeltelijk verholpen)."
+      run_at: '2026-05-11T17:09:38Z'
+      rationale: "A9: H1-titel (r62) bevat 'bedrijfstak1' — superscript voetnootnummer [^1] niet geparsed, kleeft aan het woord als cijfer. B3/A6: r64 bevat 'of van een algemeenheid van goederen' als losstaande plain-text regel direct na de H1-titel — dit is een extractie-duplicaatfragment van de H1-titel. Beide zijn ETL-bugs die herstel vereisen."
       concrete_problemen:
-        - regel: 84
+        - regel: 62
           categorie: A9
           type: other
-          voorbeeld: bedrijfstak1 of van een algemeenheid van goederen
-        - regel: 86
+          voorbeeld: bedrijfstak1 or van een algemeenheid van goederen (superscript [^1] niet geparsed)
+        - regel: 64
           categorie: B3
           type: other
-          voorbeeld: of van een algemeenheid van goederen
+          voorbeeld: of van een algemeenheid van goederen (losstaand titelfragment duplicate)
 themas:
   - continuïteitsbeginsel
   - fiscale aspecten

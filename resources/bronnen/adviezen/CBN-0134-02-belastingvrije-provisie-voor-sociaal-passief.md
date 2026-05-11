@@ -21,9 +21,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T15:15:33Z'
+    confirmed_at: '2026-05-11T17:05:21Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: HTML-entiteit '&#039;' in frontmatter themas-veld op L55 ('voorzieningen voor risico&#039;s en kosten') — scraper heeft de HTML-entiteit niet gedecodeerd naar het correcte apostrof-teken. Body is schoon. Eén artefact maar in machine-leesbare metadata en dus ETL-fixeerbaar. Bevestiging van eerder layer2-verdict.
+    rationale: "F1 op L55: frontmatter-veld themas bevat ongedecodeerde HTML-entiteit '&#039;' (apostrof) in 'voorzieningen voor risico&#039;s en kosten' — ETL-bug die machine-leesbare metadata corrumpeert voor retrieval. Body (L59-L72) is volledig schoon."
     layer1:
       file_size_chars: 2126
       flags: []
@@ -35,13 +35,13 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:15:33Z'
-      rationale: HTML-entiteit '&#039;' in frontmatter themas-veld op L55 ('voorzieningen voor risico&#039;s en kosten') — scraper heeft de HTML-entiteit niet gedecodeerd naar het correcte apostrof-teken. Body is schoon. Eén artefact maar in machine-leesbare metadata en dus ETL-fixeerbaar. Bevestiging van eerder layer2-verdict.
+      run_at: '2026-05-11T17:05:21Z'
+      rationale: "F1 op L55: frontmatter-veld themas bevat ongedecodeerde HTML-entiteit '&#039;' (apostrof) in 'voorzieningen voor risico&#039;s en kosten' — ETL-bug die machine-leesbare metadata corrumpeert voor retrieval. Body (L59-L72) is volledig schoon."
       concrete_problemen:
         - regel: 55
-          categorie: G2
+          categorie: F1
           type: other
-          voorbeeld: voorzieningen voor risico&#039;s en kosten (HTML-entiteit niet gedecodeerd)
+          voorbeeld: voorzieningen voor risico&#039;s en kosten (HTML-entiteit niet gedecodeerd in frontmatter)
 themas:
   - afdanking van personeel
   - belastingen

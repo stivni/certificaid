@@ -30,9 +30,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T15:19:36Z'
+    confirmed_at: '2026-05-11T17:05:21Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "D4: r.130 'hetzij bij de* Geldbeleggingen*, hetzij bij de* Financiële vaste activa*' — opening asterisk grenst aan 'de' zonder spatie-na-asterisk (malformed italic). R.154 'het risico [^10]\\n-in de jaarrekening' toont een voetnootreferentie midden in een zin gevolgd door een koppelteken aan het begin van de volgende regel — mogelijk inline-voetnoot-artefact (G3). Overige heading-hiërarchie (##/###/####) en 11 voetnoten zijn correct."
+    rationale: "D4 bevestigd r.136: 'hetzij bij de* Geldbeleggingen*, hetzij bij de* Financiële vaste activa*' — de opening asterisk grenst direct aan 'de' zonder spatie, wat een malformed italic-patroon is dat een mens nooit zo zou typen. G3 bevestigd r.160-161: 'het risico [^10]\\n-in de jaarrekening' — voetnootreferentie midden in zin gevolgd door een koppelteken aan het begin van de volgende regel (inline-voetnoot artefact). Heading-hiërarchie (##/###/####) en 11 voetnoten correct."
     layer1:
       file_size_chars: 19958
       flags: []
@@ -44,14 +44,14 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:19:36Z'
-      rationale: "D4: r.130 'hetzij bij de* Geldbeleggingen*, hetzij bij de* Financiële vaste activa*' — opening asterisk grenst aan 'de' zonder spatie-na-asterisk (malformed italic). R.154 'het risico [^10]\\n-in de jaarrekening' toont een voetnootreferentie midden in een zin gevolgd door een koppelteken aan het begin van de volgende regel — mogelijk inline-voetnoot-artefact (G3). Overige heading-hiërarchie (##/###/####) en 11 voetnoten zijn correct."
+      run_at: '2026-05-11T17:05:21Z'
+      rationale: "D4 bevestigd r.136: 'hetzij bij de* Geldbeleggingen*, hetzij bij de* Financiële vaste activa*' — de opening asterisk grenst direct aan 'de' zonder spatie, wat een malformed italic-patroon is dat een mens nooit zo zou typen. G3 bevestigd r.160-161: 'het risico [^10]\\n-in de jaarrekening' — voetnootreferentie midden in zin gevolgd door een koppelteken aan het begin van de volgende regel (inline-voetnoot artefact). Heading-hiërarchie (##/###/####) en 11 voetnoten correct."
       concrete_problemen:
-        - regel: 130
+        - regel: 136
           categorie: D4
           type: other
           voorbeeld: hetzij bij de* Geldbeleggingen*, hetzij bij de* Financiële vaste activa*
-        - regel: 154
+        - regel: 160
           categorie: G3
           type: other
           voorbeeld: "het risico [^10]\n-in de jaarrekening in een afzonderlijke post"

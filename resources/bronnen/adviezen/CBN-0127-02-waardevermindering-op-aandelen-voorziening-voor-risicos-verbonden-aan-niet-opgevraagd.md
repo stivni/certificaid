@@ -30,9 +30,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T15:15:33Z'
+    confirmed_at: '2026-05-11T17:05:20Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "F1: frontmatter-regel 59 bevat ongedecodeëerd HTML-entity '&#039;' (apostrof) in themas-lijst ('voorzieningen voor risico&#039;s en kosten') — ETL-bug die metadata voor retrieval corrumpeert. Body (2723 chars) is volledig schoon en inhoudelijk compleet."
+    rationale: "F1 op L59: frontmatter-veld themas bevat ongedecodeerde HTML-entiteit '&#039;' (apostrof) in 'voorzieningen voor risico&#039;s en kosten' — ETL-bug die machine-leesbare metadata corrumpeert. Body (L63-L76) is volledig schoon en inhoudelijk compleet voor dit korte advies."
     layer1:
       file_size_chars: 2723
       flags: []
@@ -44,13 +44,13 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:15:33Z'
-      rationale: "F1: frontmatter-regel 59 bevat ongedecodeëerd HTML-entity '&#039;' (apostrof) in themas-lijst ('voorzieningen voor risico&#039;s en kosten') — ETL-bug die metadata voor retrieval corrumpeert. Body (2723 chars) is volledig schoon en inhoudelijk compleet."
+      run_at: '2026-05-11T17:05:20Z'
+      rationale: "F1 op L59: frontmatter-veld themas bevat ongedecodeerde HTML-entiteit '&#039;' (apostrof) in 'voorzieningen voor risico&#039;s en kosten' — ETL-bug die machine-leesbare metadata corrumpeert. Body (L63-L76) is volledig schoon en inhoudelijk compleet voor dit korte advies."
       concrete_problemen:
         - regel: 59
           categorie: F1
           type: other
-          voorbeeld: '- voorzieningen voor risico&#039;s en kosten'
+          voorbeeld: '- voorzieningen voor risico&#039;s en kosten (HTML-entiteit niet gedecodeerd)'
 themas:
   - aandelen
   - niet-opgevraagd gedeelte van aandelen

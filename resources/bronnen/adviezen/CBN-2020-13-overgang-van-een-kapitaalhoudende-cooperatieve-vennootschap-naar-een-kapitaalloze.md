@@ -17,9 +17,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T15:23:43Z'
+    confirmed_at: '2026-05-11T17:13:30Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: 'D4: Systematisch patroon van malformed italic doorheen het document — sluit-asterisk regelmatig voorafgegaan door een spatie (regels 93, 77, 101) of een letter valt buiten de italic span (regel 153: `rekening 110 *Beschikbare inbreng buiten kapitaa*l`). B5: Regels 105, 108, 135, 161 bevatten subsectie-titels (`CVBA die beantwoordt aan de definitie...`, `CVBA die niet beantwoordt...`) als plain-text paragrafen zonder heading-prefix, terwijl `#### Algemene regel` op regel 136 wél een heading heeft — inconsistente structuur.'
+    rationale: "D4: Systematisch patroon malformed italic doorheen het document — regel 73: 'Ingevolge de* wet van 23 maart 2019*' (spatie vóór opening-asterisk), regel 133: '*Beschikbare inbreng buiten kapitaa*l' (letter 'l' buiten de italic span). B5: Regels 85, 88, 115, 141 bevatten subsectietitels ('CVBA die beantwoordt aan de definitie...' en 'CVBA die niet beantwoordt...') als plain-text paragrafen zonder heading-prefix, terwijl aangrenzende secties (### CVOA, #### Algemene regel) wél headings hebben."
     layer1:
       file_size_chars: 24319
       flags: []
@@ -31,25 +31,33 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:23:43Z'
-      rationale: 'D4: Systematisch patroon van malformed italic doorheen het document — sluit-asterisk regelmatig voorafgegaan door een spatie (regels 93, 77, 101) of een letter valt buiten de italic span (regel 153: `rekening 110 *Beschikbare inbreng buiten kapitaa*l`). B5: Regels 105, 108, 135, 161 bevatten subsectie-titels (`CVBA die beantwoordt aan de definitie...`, `CVBA die niet beantwoordt...`) als plain-text paragrafen zonder heading-prefix, terwijl `#### Algemene regel` op regel 136 wél een heading heeft — inconsistente structuur.'
+      run_at: '2026-05-11T17:13:30Z'
+      rationale: "D4: Systematisch patroon malformed italic doorheen het document — regel 73: 'Ingevolge de* wet van 23 maart 2019*' (spatie vóór opening-asterisk), regel 133: '*Beschikbare inbreng buiten kapitaa*l' (letter 'l' buiten de italic span). B5: Regels 85, 88, 115, 141 bevatten subsectietitels ('CVBA die beantwoordt aan de definitie...' en 'CVBA die niet beantwoordt...') als plain-text paragrafen zonder heading-prefix, terwijl aangrenzende secties (### CVOA, #### Algemene regel) wél headings hebben."
       concrete_problemen:
-        - regel: 93
+        - regel: 73
           categorie: D4
           type: other
           voorbeeld: Ingevolge de* wet van 23 maart 2019* *tot invoering...
-        - regel: 153
+        - regel: 133
           categorie: D4
           type: other
           voorbeeld: rekening 110 *Beschikbare inbreng buiten kapitaa*l
-        - regel: 105
+        - regel: 85
           categorie: B5
           type: other
           voorbeeld: CVBA die beantwoordt aan de definitie van een coöperatieve vennootschap in artikel 6:1 WVV
-        - regel: 108
+        - regel: 88
           categorie: B5
           type: other
           voorbeeld: CVBA die niet beantwoordt aan de definitie van een coöperatieve vennootschap in artikel 6:1 WVV
+        - regel: 115
+          categorie: B5
+          type: other
+          voorbeeld: CVBA die beantwoordt aan de definitie van een coöperatieve vennootschap in artikel 6:1 WVV (tweede keer plain text)
+        - regel: 141
+          categorie: B5
+          type: other
+          voorbeeld: CVBA die niet beantwoordt aan de definitie van een coöperatieve vennootschap in artikel 6:1 WVV (tweede keer plain text)
 themas:
   - CVBA
   - coöperatieve vennootschap

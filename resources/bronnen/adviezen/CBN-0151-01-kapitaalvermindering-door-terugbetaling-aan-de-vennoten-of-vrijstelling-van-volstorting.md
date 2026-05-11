@@ -30,9 +30,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T15:15:33Z'
+    confirmed_at: '2026-05-11T17:05:21Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "E2: alle drie boekingstabellen (regels 77-80, 90-93, 96-99) hebben volledig lege debet- en creditkolommen — de cijferbedragen ontbreken, wat duidelijk niet de opzet is van het advies. Bovendien staat regel 99 '| aan | | 101 | | Niet-opgevraagd kapitaal |' met een extra lege cel waardoor de kolommen verschuiven ten opzichte van de header."
+    rationale: "E2: alle drie boekingstabellen (regels 77-80, 90-93, 96-99) hebben volledig lege debet- en creditkolommen — bedragen ontbreken volledig, ongewijzigd t.o.v. ronde 2. Regel 99 '| aan | | 101 | | Niet-opgevraagd kapitaal |' heeft bovendien een extra lege cel die de kolomuitlijning verbreekt."
     layer1:
       file_size_chars: 3764
       flags: []
@@ -44,13 +44,17 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:15:33Z'
-      rationale: "E2: alle drie boekingstabellen (regels 77-80, 90-93, 96-99) hebben volledig lege debet- en creditkolommen — de cijferbedragen ontbreken, wat duidelijk niet de opzet is van het advies. Bovendien staat regel 99 '| aan | | 101 | | Niet-opgevraagd kapitaal |' met een extra lege cel waardoor de kolommen verschuiven ten opzichte van de header."
+      run_at: '2026-05-11T17:05:21Z'
+      rationale: "E2: alle drie boekingstabellen (regels 77-80, 90-93, 96-99) hebben volledig lege debet- en creditkolommen — bedragen ontbreken volledig, ongewijzigd t.o.v. ronde 2. Regel 99 '| aan | | 101 | | Niet-opgevraagd kapitaal |' heeft bovendien een extra lege cel die de kolomuitlijning verbreekt."
       concrete_problemen:
         - regel: 79
           categorie: E2
           type: other
           voorbeeld: '| | 100 | Geplaatst kapitaal | | |'
+        - regel: 80
+          categorie: E2
+          type: other
+          voorbeeld: '| aan | 48 | Diverse | | |'
         - regel: 99
           categorie: E2
           type: other

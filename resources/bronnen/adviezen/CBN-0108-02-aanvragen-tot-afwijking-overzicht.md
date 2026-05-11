@@ -17,9 +17,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T15:15:32Z'
+    confirmed_at: '2026-05-11T17:05:20Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: 'B2: heading-hiërarchie springt direct van # (regel 63) naar #### (regels 69, 91, 126) zonder tussenliggende ## en ### niveaus. Een mensgeschreven markdown gebruikt #### nooit als eerste sub-niveau na #. Drie secties worden hierdoor structureel fout weergegeven. Inhoud verder volledig.'
+    rationale: "De eerder gerapporteerde B2-bug (heading-hiërarchie #### zonder ##) is OPGELOST — regels 69, 91 en 126 zijn nu correct ## headings. Echter: A6 op regels 112-114: zin 'Ze werd echter afhankelijk gemaakt ... met het oog op de statistische verwerking, van' (r112) eindigt midden in een bijzin, gevolgd door een lege regel, waarna 'het bedrag der verschillende samengevoegde rubrieken.' (r114) de zin afsluit als aparte paragraaf — een pagina-breuk-artefact uit de originele drukversie die als lege alinea-scheiding is gerenderd."
     layer1:
       file_size_chars: 12815
       flags: []
@@ -31,21 +31,13 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:15:32Z'
-      rationale: 'B2: heading-hiërarchie springt direct van # (regel 63) naar #### (regels 69, 91, 126) zonder tussenliggende ## en ### niveaus. Een mensgeschreven markdown gebruikt #### nooit als eerste sub-niveau na #. Drie secties worden hierdoor structureel fout weergegeven. Inhoud verder volledig.'
+      run_at: '2026-05-11T17:05:20Z'
+      rationale: "De eerder gerapporteerde B2-bug (heading-hiërarchie #### zonder ##) is OPGELOST — regels 69, 91 en 126 zijn nu correct ## headings. Echter: A6 op regels 112-114: zin 'Ze werd echter afhankelijk gemaakt ... met het oog op de statistische verwerking, van' (r112) eindigt midden in een bijzin, gevolgd door een lege regel, waarna 'het bedrag der verschillende samengevoegde rubrieken.' (r114) de zin afsluit als aparte paragraaf — een pagina-breuk-artefact uit de originele drukversie die als lege alinea-scheiding is gerenderd."
       concrete_problemen:
-        - regel: 69
-          categorie: B2
+        - regel: 112
+          categorie: A6
           type: other
-          voorbeeld: '#### AANVRAGEN TOT AFWIJKING DIE EEN AANPASSING BEOGEN VAN HET SCHEMA...'
-        - regel: 91
-          categorie: B2
-          type: other
-          voorbeeld: '#### EIGENLIJKE AFWIJKINGEN VAN HET K.B. VAN 8 OKTOBER 1976'
-        - regel: 126
-          categorie: B2
-          type: other
-          voorbeeld: '#### PROCEDURE'
+          voorbeeld: '...met het oog op de statistische verwerking, van [lege regel] het bedrag der verschillende samengevoegde rubrieken. — zin gesplitst over twee paragrafen'
 themas:
   - aanpassing schema van de jaarrekening
   - aanvragen tot afwijking

@@ -17,9 +17,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T15:15:32Z'
+    confirmed_at: '2026-05-11T17:05:20Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "E2: de markdown-tabel op r58-61 heeft een lege eerste kolom ('| |') op elke rij zonder corresponderende header-label — een inconsistente tabelstructuur die een mens nooit zo zou typen. De header heeft 5 kolommen maar de eerste is leeg; de sub-rijen (460, 461) herhalen dat lege veld. ETL heeft de originele rekeningnummering niet correct in pipe-markdown vertaald."
+    rationale: "E2: markdown-tabel (regels 62-65) heeft een lege eerste kolom zonder header-label — elke rij (inclusief de sub-rijen 460 en 461) begint met '| |' waarvoor geen overeenkomstige header bestaat. ETL heeft de originele rekeningstructuur niet correct naar pipe-markdown vertaald. De overige body-tekst is volledig en clean."
     layer1:
       file_size_chars: 1220
       flags: []
@@ -31,17 +31,17 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:15:32Z'
-      rationale: "E2: de markdown-tabel op r58-61 heeft een lege eerste kolom ('| |') op elke rij zonder corresponderende header-label — een inconsistente tabelstructuur die een mens nooit zo zou typen. De header heeft 5 kolommen maar de eerste is leeg; de sub-rijen (460, 461) herhalen dat lege veld. ETL heeft de originele rekeningnummering niet correct in pipe-markdown vertaald."
+      run_at: '2026-05-11T17:05:20Z'
+      rationale: "E2: markdown-tabel (regels 62-65) heeft een lege eerste kolom zonder header-label — elke rij (inclusief de sub-rijen 460 en 461) begint met '| |' waarvoor geen overeenkomstige header bestaat. ETL heeft de originele rekeningstructuur niet correct naar pipe-markdown vertaald. De overige body-tekst is volledig en clean."
       concrete_problemen:
-        - regel: 58
+        - regel: 62
           categorie: E2
           type: pseudo-table
           voorbeeld: '| | Rekening | Omschrijving | Debet | Credit | — lege eerste kolom zonder header-label'
-        - regel: 60
+        - regel: 64
           categorie: E2
           type: pseudo-table
-          voorbeeld: '| | 460 | Te ontvangen | | | — lege eerste kolom herhaald op elke datarij'
+          voorbeeld: '| | 460 | Te ontvangen | | | — lege eerste kolom herhaald op datarij'
 themas:
   - gefactureerde voorschotten en vooruitbetalingen
   - nog niet ontvangen voorschotten en vooruitbetalingen

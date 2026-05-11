@@ -30,9 +30,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T15:23:43Z'
+    confirmed_at: '2026-05-11T17:09:39Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: 'G3/A6: regel 73 `, bijgewerkt op 10 september 2025 [^2]` staat als alleenstaande body-alinea direct na de H1-titel — bijwerkingsannotatie die in de frontmatter (bijv. `bijgewerkt` veld) thuishoort maar door de scraper als body-tekst is ingevoegd. Verdere inhoud volledig correct: 4 headings, voetnoten [^1]–[^7] aanwezig, geen andere artefacten.'
+    rationale: 'G3/A6: regel 66 `, bijgewerkt op 10 september 2025 [^2]` staat als alleenstaande body-alinea direct na de H1-titel — bijwerkingsannotatie die door de CBN-scraper als body-tekst is ingevoegd in plaats van als frontmatter-veld. Dit is een systematisch ETL-artefact (zelfde patroon als 2016/21). Verdere inhoud volledig correct: 4 headings, voetnoten [^1]–[^7] aanwezig.'
     layer1:
       file_size_chars: 5053
       flags: []
@@ -44,10 +44,10 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:23:43Z'
-      rationale: 'G3/A6: regel 73 `, bijgewerkt op 10 september 2025 [^2]` staat als alleenstaande body-alinea direct na de H1-titel — bijwerkingsannotatie die in de frontmatter (bijv. `bijgewerkt` veld) thuishoort maar door de scraper als body-tekst is ingevoegd. Verdere inhoud volledig correct: 4 headings, voetnoten [^1]–[^7] aanwezig, geen andere artefacten.'
+      run_at: '2026-05-11T17:09:39Z'
+      rationale: 'G3/A6: regel 66 `, bijgewerkt op 10 september 2025 [^2]` staat als alleenstaande body-alinea direct na de H1-titel — bijwerkingsannotatie die door de CBN-scraper als body-tekst is ingevoegd in plaats van als frontmatter-veld. Dit is een systematisch ETL-artefact (zelfde patroon als 2016/21). Verdere inhoud volledig correct: 4 headings, voetnoten [^1]–[^7] aanwezig.'
       concrete_problemen:
-        - regel: 73
+        - regel: 66
           categorie: G3
           type: other
           voorbeeld: ', bijgewerkt op 10 september 2025 [^2] (bijwerkingsannotatie als body-tekst i.p.v. frontmatter)'

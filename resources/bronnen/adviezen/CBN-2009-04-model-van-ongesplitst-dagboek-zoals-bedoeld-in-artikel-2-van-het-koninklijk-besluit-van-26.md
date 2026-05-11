@@ -17,9 +17,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T15:19:36Z'
+    confirmed_at: '2026-05-11T17:05:21Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "D4: r.61 toont 'tot* \"de registratie van de verrichtingen...' — sluitende asterisk van italic staat direct vóór een spatie ('beperkt is tot* \"de registratie'), wat een malformed italic-patroon is. Overige structuur (drie ##-headings, twee voetnoten) is correct. Inhoud volledig. Één D4-artefact is reden voor needs-rework conform vuistregel."
+    rationale: "D4 bevestigd r.64: 'beperkt is tot* \"de registratie van de verrichtingen' — sluitende asterisk van italic staat direct vóór een aanhalingsteken zonder spatie-na-asterisk (malformed italic). Aanvullend nieuw in deze ronde: B4 r.56/70: twee ##-headings in all-caps ('## SCHRAPPING VAN HET WOORD « MINIMAAL »' en '## HET ONGESPLITSTE DAGBOEK HOUDEN') die in vorige ronde niet waren gerapporteerd maar duidelijke all-caps structuurlabels zijn. Inhoud volledig; twee voetnoten correct."
     layer1:
       file_size_chars: 6250
       flags: []
@@ -31,13 +31,21 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:19:36Z'
-      rationale: "D4: r.61 toont 'tot* \"de registratie van de verrichtingen...' — sluitende asterisk van italic staat direct vóór een spatie ('beperkt is tot* \"de registratie'), wat een malformed italic-patroon is. Overige structuur (drie ##-headings, twee voetnoten) is correct. Inhoud volledig. Één D4-artefact is reden voor needs-rework conform vuistregel."
+      run_at: '2026-05-11T17:05:21Z'
+      rationale: "D4 bevestigd r.64: 'beperkt is tot* \"de registratie van de verrichtingen' — sluitende asterisk van italic staat direct vóór een aanhalingsteken zonder spatie-na-asterisk (malformed italic). Aanvullend nieuw in deze ronde: B4 r.56/70: twee ##-headings in all-caps ('## SCHRAPPING VAN HET WOORD « MINIMAAL »' en '## HET ONGESPLITSTE DAGBOEK HOUDEN') die in vorige ronde niet waren gerapporteerd maar duidelijke all-caps structuurlabels zijn. Inhoud volledig; twee voetnoten correct."
       concrete_problemen:
-        - regel: 61
+        - regel: 64
           categorie: D4
           type: other
           voorbeeld: beperkt is tot* "de registratie van de verrichtingen met betrekking tot de mutaties
+        - regel: 56
+          categorie: B4
+          type: other
+          voorbeeld: '## SCHRAPPING VAN HET WOORD « MINIMAAL » IN ARTIKEL 2 EN BIJLAGE A VAN HET BESLUIT (all-caps ##)'
+        - regel: 70
+          categorie: B4
+          type: other
+          voorbeeld: '## HET ONGESPLITSTE DAGBOEK HOUDEN DOOR MIDDEL VAN GEINFORMATISEERDE SYSTEMEN (all-caps ##)'
 themas:
   - centraal boek
   - ongesplitst dagboek

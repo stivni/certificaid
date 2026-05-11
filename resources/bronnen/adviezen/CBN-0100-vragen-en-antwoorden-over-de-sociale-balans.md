@@ -17,9 +17,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T15:15:32Z'
+    confirmed_at: '2026-05-11T17:05:20Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "Drie ETL-bugs: (1) B4: 'DE ZIEKENHUIZEN DIE AFHANGEN VAN DE OCMW' op r222 is all-caps plain-text die een heading had moeten zijn. (2) E2: de markdown-tabel op r700-744 is zwaar verminkt — multi-line cellen met gesplitste tabelwaarden ('(Som A) + (Som B.b)' verspreid over 3 regels, r720-744) die een mens nooit zo zou typen. (3) C-structuur: r263-269 heeft een genummerde lijst (1. en 2.) waarvan de items over meerdere alinea's gespat zijn in plaats van als doorlopende listpunten. Inhoud verder volledig."
+    rationale: "Drie ETL-bugs bevestigd in huidige body: (1) B4: regel 239 'DE ZIEKENHUIZEN DIE AFHANGEN VAN DE OCMW' staat als plain-text zonder heading-prefix (vergelijking met omliggende ##### headings toont dat dit een subsectie-heading had moeten zijn). (2) E2: tabel regels 717-750 is zwaar verminkt — header gesplitst over twee regels (r717-719) en totaalrij met cel-inhoud verspreid over meerdere regels met tabs (r735-754). (3) C4: regels 280-286 tonen genummerde list-items '1.' en '2.' die elk als aparte paragraaf staan in plaats van als doorlopende list-items."
     layer1:
       file_size_chars: 121443
       flags:
@@ -35,25 +35,25 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:15:32Z'
-      rationale: "Drie ETL-bugs: (1) B4: 'DE ZIEKENHUIZEN DIE AFHANGEN VAN DE OCMW' op r222 is all-caps plain-text die een heading had moeten zijn. (2) E2: de markdown-tabel op r700-744 is zwaar verminkt — multi-line cellen met gesplitste tabelwaarden ('(Som A) + (Som B.b)' verspreid over 3 regels, r720-744) die een mens nooit zo zou typen. (3) C-structuur: r263-269 heeft een genummerde lijst (1. en 2.) waarvan de items over meerdere alinea's gespat zijn in plaats van als doorlopende listpunten. Inhoud verder volledig."
+      run_at: '2026-05-11T17:05:20Z'
+      rationale: "Drie ETL-bugs bevestigd in huidige body: (1) B4: regel 239 'DE ZIEKENHUIZEN DIE AFHANGEN VAN DE OCMW' staat als plain-text zonder heading-prefix (vergelijking met omliggende ##### headings toont dat dit een subsectie-heading had moeten zijn). (2) E2: tabel regels 717-750 is zwaar verminkt — header gesplitst over twee regels (r717-719) en totaalrij met cel-inhoud verspreid over meerdere regels met tabs (r735-754). (3) C4: regels 280-286 tonen genummerde list-items '1.' en '2.' die elk als aparte paragraaf staan in plaats van als doorlopende list-items."
       concrete_problemen:
-        - regel: 222
+        - regel: 239
           categorie: B4
           type: other
           voorbeeld: DE ZIEKENHUIZEN DIE AFHANGEN VAN DE OCMW — all-caps plain-text, geen heading-prefix
-        - regel: 700
+        - regel: 717
           categorie: E2
           type: pseudo-table
-          voorbeeld: '| *Op het einde\n\t\t\t\tvan de maand* | — tabelcel gesplitst over meerdere regels, irregular pipe-syntax'
-        - regel: 720
+          voorbeeld: '| *Op het einde \n\t\t\t\tvan de maand* | — tabelkop gesplitst over twee regels'
+        - regel: 735
           categorie: E2
           type: pseudo-table
-          voorbeeld: '| Totaal | | Som A | | Som B.a | | Som B.b | | Som C\n\t\t\t\t= (Som A) + — cel-inhoud over meerdere regels'
-        - regel: 263
+          voorbeeld: '| **Totaal** | | Som A | ... Som C \n\t\t\t\t= (Som A) + \n\t\t\t\t(Som B.b) | — cel-inhoud over meerdere regels'
+        - regel: 280
           categorie: C4
           type: other
-          voorbeeld: 1.\n\nonafhankelijk van de grootte... — genummerd listpunt gespat over separate alinea's
+          voorbeeld: 1. \n\nonafhankelijk van de grootte... — genummerd listpunt als aparte paragraaf gespat
 themas:
   - ter beschikking van de onderneming gestelde personen
   - statutair

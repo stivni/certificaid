@@ -24,9 +24,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T15:19:36Z'
+    confirmed_at: '2026-05-11T17:05:21Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "E2: de twee RESULTATENREKENING-tabellen op r.162-170 zijn ernstig verminkt — de tabelcellen zijn niet in pipe-syntax maar als losstaande regels met wisselende witruimte, waardoor de samenvatting onleesbaar is. D3/G3: voetnoot 4 eindigt mid-zin op r.182 ('conform voetnoot') en voetnoot 5 op r.184 begint met 'van advies 173/1 over...' — de splitsing is een extractie-artefact waarbij de voetnootreferentie en -tekst zijn opgeknipt over twee afzonderlijke voetnoten."
+    rationale: "E2 bevestigd r.176-184: de twee RESULTATENREKENING-samenvattingstabellen zijn ernstig verminkt — cellen staan als losstaande regels met wisselende inspringing buiten de pipe-tabel, waardoor de samenvatting onleesbaar is ('60.000 | | 47.872,3' op r.178 en '15.000 |' op r.180 als losstaande tabfragmenten). D3 r.196-198: voetnoot 4 eindigt mid-zin ('conform voetnoot') en voetnoot 5 begint met 'van advies 173/1 over...' — de voetnootreferentie en -tekst zijn opgeknipt over twee afzonderlijke voetnoten door een extractieartefact."
     layer1:
       file_size_chars: 11738
       flags: []
@@ -38,22 +38,22 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:19:36Z'
-      rationale: "E2: de twee RESULTATENREKENING-tabellen op r.162-170 zijn ernstig verminkt — de tabelcellen zijn niet in pipe-syntax maar als losstaande regels met wisselende witruimte, waardoor de samenvatting onleesbaar is. D3/G3: voetnoot 4 eindigt mid-zin op r.182 ('conform voetnoot') en voetnoot 5 op r.184 begint met 'van advies 173/1 over...' — de splitsing is een extractie-artefact waarbij de voetnootreferentie en -tekst zijn opgeknipt over twee afzonderlijke voetnoten."
+      run_at: '2026-05-11T17:05:21Z'
+      rationale: "E2 bevestigd r.176-184: de twee RESULTATENREKENING-samenvattingstabellen zijn ernstig verminkt — cellen staan als losstaande regels met wisselende inspringing buiten de pipe-tabel, waardoor de samenvatting onleesbaar is ('60.000 | | 47.872,3' op r.178 en '15.000 |' op r.180 als losstaande tabfragmenten). D3 r.196-198: voetnoot 4 eindigt mid-zin ('conform voetnoot') en voetnoot 5 begint met 'van advies 173/1 over...' — de voetnootreferentie en -tekst zijn opgeknipt over twee afzonderlijke voetnoten door een extractieartefact."
       concrete_problemen:
-        - regel: 162
+        - regel: 176
           categorie: E2
           type: pseudo-table
-          voorbeeld: "| **RESULTATENREKENING OP 31/12/1998**  | \n|---|\n| 60.000 | | 47.872,3 "
-        - regel: 166
+          voorbeeld: "| **RESULTATENREKENING OP 31/12/1998**  | \n|---|\n| 60.000 | | 47.872,3"
+        - regel: 180
           categorie: E2
           type: pseudo-table
-          voorbeeld: "\t\t\t\t15.000 | "
-        - regel: 182
+          voorbeeld: "\t\t\t\t15.000 |"
+        - regel: 196
           categorie: D3
           type: abrupt-cutoff
           voorbeeld: In dit verband wenst de Commissie, conform voetnoot
-        - regel: 184
+        - regel: 198
           categorie: D3
           type: other
           voorbeeld: van advies 173/1 over de boekhoudrechtelijke aspecten van de overschakeling...

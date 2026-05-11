@@ -17,9 +17,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T15:23:43Z'
+    confirmed_at: '2026-05-11T17:13:30Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "A6/G3: regel 71 bevat ', bijgewerkt op 10 september 2025[^2]' als losstaand fragment direct na H1 — bijwerkingsartefact. D4: regel 83 bevat 'De rekeningen 750* Opbrengsten uit financiële vaste activa*' waarbij de asterisk direct aan het getal kleeft zonder spatie — broken italic openingsmarkering. Klein advies, inhoud verder volledig."
+    rationale: "A6/G3: regel 55 (body) bevat ', bijgewerkt op 10 september 2025[^2]' als losstaand fragment direct na H1 — scraper-artefact. D4: regel 67 (body) bevat '750* Opbrengsten uit financiële vaste activa*' waarbij de asterisk direct aan het rekeningsnummer kleeft zonder spatie — broken italic openingsmarkering. Klein advies, inhoud verder volledig."
     layer1:
       file_size_chars: 2566
       flags: []
@@ -31,14 +31,14 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:23:43Z'
-      rationale: "A6/G3: regel 71 bevat ', bijgewerkt op 10 september 2025[^2]' als losstaand fragment direct na H1 — bijwerkingsartefact. D4: regel 83 bevat 'De rekeningen 750* Opbrengsten uit financiële vaste activa*' waarbij de asterisk direct aan het getal kleeft zonder spatie — broken italic openingsmarkering. Klein advies, inhoud verder volledig."
+      run_at: '2026-05-11T17:13:30Z'
+      rationale: "A6/G3: regel 55 (body) bevat ', bijgewerkt op 10 september 2025[^2]' als losstaand fragment direct na H1 — scraper-artefact. D4: regel 67 (body) bevat '750* Opbrengsten uit financiële vaste activa*' waarbij de asterisk direct aan het rekeningsnummer kleeft zonder spatie — broken italic openingsmarkering. Klein advies, inhoud verder volledig."
       concrete_problemen:
-        - regel: 71
+        - regel: 55
           categorie: A6
           type: other
           voorbeeld: ', bijgewerkt op 10 september 2025[^2]'
-        - regel: 83
+        - regel: 67
           categorie: D4
           type: other
           voorbeeld: De rekeningen 750* Opbrengsten uit financiële vaste activa* en 751

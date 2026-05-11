@@ -17,9 +17,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T15:23:43Z'
+    confirmed_at: '2026-05-11T17:09:38Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: 'D4: regels 77–81 bevatten een multi-line italic-blok (`* Onder omzet...` opent op regel 77 en sluit op regel 81 met `*`) dat lege regels overspant — in vrijwel alle markdown-parsers breekt een `*...*` span bij een lege regel, waardoor de rendering onvoorspelbaar wordt. Regels 95–98 gebruiken `- *tekst*` als italic-bullet, wat correct is, maar door de voorafgaande multiline-italic context conflicteert dit. Overige inhoud inhoudelijk volledig.'
+    rationale: 'D4: regels 61–65 bevatten een wetsartikel-citaat waarbij de extractor een `*`-italic-span opent op regel 61 (`* Onder omzet...`) en sluit op regel 65 (`...voor hun bedrijf.*`) over meerdere alinea-breaks heen — in standaard markdown-parsers breekt een inline `*...*` span bij een lege regel, waardoor de rendering onvoorspelbaar is. Overige inhoud inhoudelijk volledig; voetnoten [^1]–[^13] aanwezig.'
     layer1:
       file_size_chars: 8277
       flags: []
@@ -31,17 +31,17 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:23:43Z'
-      rationale: 'D4: regels 77–81 bevatten een multi-line italic-blok (`* Onder omzet...` opent op regel 77 en sluit op regel 81 met `*`) dat lege regels overspant — in vrijwel alle markdown-parsers breekt een `*...*` span bij een lege regel, waardoor de rendering onvoorspelbaar wordt. Regels 95–98 gebruiken `- *tekst*` als italic-bullet, wat correct is, maar door de voorafgaande multiline-italic context conflicteert dit. Overige inhoud inhoudelijk volledig.'
+      run_at: '2026-05-11T17:09:38Z'
+      rationale: 'D4: regels 61–65 bevatten een wetsartikel-citaat waarbij de extractor een `*`-italic-span opent op regel 61 (`* Onder omzet...`) en sluit op regel 65 (`...voor hun bedrijf.*`) over meerdere alinea-breaks heen — in standaard markdown-parsers breekt een inline `*...*` span bij een lege regel, waardoor de rendering onvoorspelbaar is. Overige inhoud inhoudelijk volledig; voetnoten [^1]–[^13] aanwezig.'
       concrete_problemen:
-        - regel: 77
+        - regel: 61
           categorie: D4
           type: other
-          voorbeeld: '* Onder omzet wordt verstaan... (opent multiline italic over lege regels heen)'
-        - regel: 81
+          voorbeeld: '* Onder omzet wordt verstaan het bedrag van de verkoop... (opent multiline italic over lege regels heen)'
+        - regel: 65
           categorie: D4
           type: other
-          voorbeeld: '...voor hun bedrijf.* (sluit multiline italic na lege regels)'
+          voorbeeld: '...voor hun bedrijf.* (sluit multiline italic na meerdere lege regels)'
 themas:
   - franchiseovereenkomst
   - franchising

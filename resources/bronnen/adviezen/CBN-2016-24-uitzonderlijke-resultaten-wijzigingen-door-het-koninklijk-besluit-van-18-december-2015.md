@@ -17,9 +17,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T15:23:43Z'
+    confirmed_at: '2026-05-11T17:13:30Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "A6: meerdere spurious line-breaks na voetnootreferenties midden in zinnen — regels 84-85 ('*mutatis mutandis*[^9]\\n Ook het schema') en 87-88 ('[^11]\\n De Commissie meent') zijn kenmerkend voor dit structureel ETL-patroon. Tabel correct in pipe-syntax; inhoud compleet."
+    rationale: "A6: structureel patroon van spurious line-breaks na voetnootreferenties midden in lopende zinnen — regels 75-76 (' Dit geldt *mutatis mutandis*[^9]\\n Ook het schema') en 78-79 ('[^11]\\n De Commissie meent') zijn kenmerkend voor dit ETL-patroon. Tabel correct in pipe-syntax; inhoud en voetnoten compleet."
     layer1:
       file_size_chars: 11118
       flags: []
@@ -31,25 +31,25 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:23:43Z'
-      rationale: "A6: meerdere spurious line-breaks na voetnootreferenties midden in zinnen — regels 84-85 ('*mutatis mutandis*[^9]\\n Ook het schema') en 87-88 ('[^11]\\n De Commissie meent') zijn kenmerkend voor dit structureel ETL-patroon. Tabel correct in pipe-syntax; inhoud compleet."
+      run_at: '2026-05-11T17:13:30Z'
+      rationale: "A6: structureel patroon van spurious line-breaks na voetnootreferenties midden in lopende zinnen — regels 75-76 (' Dit geldt *mutatis mutandis*[^9]\\n Ook het schema') en 78-79 ('[^11]\\n De Commissie meent') zijn kenmerkend voor dit ETL-patroon. Tabel correct in pipe-syntax; inhoud en voetnoten compleet."
       concrete_problemen:
-        - regel: 84
+        - regel: 75
           categorie: A6
           type: other
-          voorbeeld: Dit geldt *mutatis mutandis* voor het microschema van de resultatenrekening.[^9]
-        - regel: 85
+          voorbeeld: ' Dit geldt *mutatis mutandis* voor het microschema van de resultatenrekening.[^9]'
+        - regel: 76
           categorie: A6
           type: other
           voorbeeld: ' Ook het schema van de resultatenrekening van de geconsolideerde jaarrekening'
-        - regel: 87
+        - regel: 78
           categorie: A6
           type: other
-          voorbeeld: zijn opgenomen onder de niet-recurrente bedrijfs- of financiële resultaten.[^15]
-        - regel: 88
+          voorbeeld: zijn opgenomen onder de niet-recurrente bedrijfs- of financiële resultaten.[^11]
+        - regel: 79
           categorie: A6
           type: other
-          voorbeeld: ' De Commissie wijst erop dat een uitzonderlijk hoge omzet'
+          voorbeeld: ' De Commissie meent dus dat in deze context in de praktijk geen verschil'
 themas:
   - niet-recurrente kosten
   - niet-recurrente opbrengsten

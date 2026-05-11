@@ -17,9 +17,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T15:19:36Z'
+    confirmed_at: '2026-05-11T17:09:38Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "Meerdere ETL-problemen: A3 r62-88 uitgebreide plain-text TOC; B1 r138/r172/r191/r322/r420/r434 headings bevatten italic-markup binnenin (bv. '### *Tijdstip waarop de subsidie moet geboekt worden*', '### *Interestsubidies*'); D4 r199 'post* Kapitaalsubsidies*' — italic-marker midden in woord 'post'; A6 r385 '-Inventarisboeking' ontbrekende spatie na koppelteken (geen geldige bullet). Schrijffout 'Interestsubidies' op r322 is source-typo (wordt als zodanig gemarkeerd). Ondanks omvangrijke correcte inhoud zijn de ETL-structuurproblemen substantieel."
+    rationale: "Meerdere ETL-problemen bevestigd: B1 op r119 '### *Tijdstip waarop de subsidie moet geboekt worden*' en r303 '### *Interestsubidies*' — italic-markup binnenin heading-label (ETL-artefact); D4 op r180 'post* Kapitaalsubsidies*' — italic-marker midden in woord 'post'; A6 op r366 '-Inventarisboeking' — ontbrekende spatie na koppelteken (geen geldige bullet/inline-marker). Schrijffout 'Interestsubidies' op r303 is een source-typo (markeert als (source), telt niet als grond voor needs-rework). De eerder gerapporteerde A3 (r62-88 TOC) is niet bevestigd in de body."
     layer1:
       file_size_chars: 40793
       flags: []
@@ -31,30 +31,26 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:19:36Z'
-      rationale: "Meerdere ETL-problemen: A3 r62-88 uitgebreide plain-text TOC; B1 r138/r172/r191/r322/r420/r434 headings bevatten italic-markup binnenin (bv. '### *Tijdstip waarop de subsidie moet geboekt worden*', '### *Interestsubidies*'); D4 r199 'post* Kapitaalsubsidies*' — italic-marker midden in woord 'post'; A6 r385 '-Inventarisboeking' ontbrekende spatie na koppelteken (geen geldige bullet). Schrijffout 'Interestsubidies' op r322 is source-typo (wordt als zodanig gemarkeerd). Ondanks omvangrijke correcte inhoud zijn de ETL-structuurproblemen substantieel."
+      run_at: '2026-05-11T17:09:38Z'
+      rationale: "Meerdere ETL-problemen bevestigd: B1 op r119 '### *Tijdstip waarop de subsidie moet geboekt worden*' en r303 '### *Interestsubidies*' — italic-markup binnenin heading-label (ETL-artefact); D4 op r180 'post* Kapitaalsubsidies*' — italic-marker midden in woord 'post'; A6 op r366 '-Inventarisboeking' — ontbrekende spatie na koppelteken (geen geldige bullet/inline-marker). Schrijffout 'Interestsubidies' op r303 is een source-typo (markeert als (source), telt niet als grond voor needs-rework). De eerder gerapporteerde A3 (r62-88 TOC) is niet bevestigd in de body."
       concrete_problemen:
-        - regel: 62
-          categorie: A3
-          type: other
-          voorbeeld: "1. Toepassingsgebied \n2. Algemeen \n  1. Tijdstip waarop de subsidie moet geboekt worden..."
-        - regel: 138
+        - regel: 119
           categorie: B1
           type: other
           voorbeeld: '### *Tijdstip waarop de subsidie moet geboekt worden*'
-        - regel: 322
+        - regel: 303
           categorie: B1
           type: other
           voorbeeld: '### *Interestsubidies*'
-        - regel: 322
+        - regel: 303
           categorie: (source)
           type: source-typo
           voorbeeld: "Interestsubidies (source-typo: 'Interestsubidies' i.p.v. 'Interestsubsidies')"
-        - regel: 199
+        - regel: 180
           categorie: D4
           type: other
           voorbeeld: post* Kapitaalsubsidies* opgenomen onder
-        - regel: 385
+        - regel: 366
           categorie: A6
           type: other
           voorbeeld: -Inventarisboeking

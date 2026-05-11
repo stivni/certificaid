@@ -17,9 +17,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T15:26:40Z'
+    confirmed_at: '2026-05-11T17:13:31Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "E1/A7: de resultatenrekening-tabellen ('Invloed van de vermogensmutatiemethode') zijn niet als markdown-pipe-tabel opgemaakt maar als een reeks losse regels met labels en getallen elk op een eigen regel, omringd door lege |---| rijen — dit is een duidelijk tabel-extractie-artefact (zie regels 204–229, 274–303, 347–388, 433–476, 514–541, 647–672). B2: '## Herberekening van het bedrag van de deelneming waarop de vermogensmutatiemethode wordt toegepast:' verschijnt meerdere keren als H2-heading (regels 257, 330, 415) terwijl het structureel een subonderdeel is van een #### Hypothese-blok — hiërarchiesprong van ### naar ## zonder aanleiding. Laag-1-flag max_section_size warn bevestigt de grote onbewerkte sectie."
+    rationale: "E1: de resultatenrekening-tabellen ('Invloed van de vermogensmutatiemethode') zijn geen echte markdown-pipe-tabellen — labels en getallen staan elk op een aparte regel, omringd door losse |---| fragmenten (bv. regels 214-239, 285-300), een typisch PDF-extractie-artefact. B2: de heading '## Herberekening van het bedrag van de deelneming...' verschijnt meerdere keren als H2 (bv. regel 267) binnen Hypothese-subblokken die structureel op ### of ####-niveau zitten — hiërarchiesprong zonder aanleiding. Layer-1 max_section_size warn (33861 chars) bevestigt de grote onbewerkte sectie."
     layer1:
       file_size_chars: 67184
       flags:
@@ -35,21 +35,21 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:26:40Z'
-      rationale: "E1/A7: de resultatenrekening-tabellen ('Invloed van de vermogensmutatiemethode') zijn niet als markdown-pipe-tabel opgemaakt maar als een reeks losse regels met labels en getallen elk op een eigen regel, omringd door lege |---| rijen — dit is een duidelijk tabel-extractie-artefact (zie regels 204–229, 274–303, 347–388, 433–476, 514–541, 647–672). B2: '## Herberekening van het bedrag van de deelneming waarop de vermogensmutatiemethode wordt toegepast:' verschijnt meerdere keren als H2-heading (regels 257, 330, 415) terwijl het structureel een subonderdeel is van een #### Hypothese-blok — hiërarchiesprong van ### naar ## zonder aanleiding. Laag-1-flag max_section_size warn bevestigt de grote onbewerkte sectie."
+      run_at: '2026-05-11T17:13:31Z'
+      rationale: "E1: de resultatenrekening-tabellen ('Invloed van de vermogensmutatiemethode') zijn geen echte markdown-pipe-tabellen — labels en getallen staan elk op een aparte regel, omringd door losse |---| fragmenten (bv. regels 214-239, 285-300), een typisch PDF-extractie-artefact. B2: de heading '## Herberekening van het bedrag van de deelneming...' verschijnt meerdere keren als H2 (bv. regel 267) binnen Hypothese-subblokken die structureel op ### of ####-niveau zitten — hiërarchiesprong zonder aanleiding. Layer-1 max_section_size warn (33861 chars) bevestigt de grote onbewerkte sectie."
       concrete_problemen:
-        - regel: 204
+        - regel: 214
           categorie: E1
           type: pseudo-table
-          voorbeeld: "| \n\nKosten\n\n  | | \n|---|\n\nOpbrengsten\n\n  | (resultatenrekening als losse regels)"
-        - regel: 274
+          voorbeeld: '| \n\nKosten\n\n  | | \n|---|\n\nOpbrengsten\n\n  | (resultatenrekening als losse regelblokken)'
+        - regel: 285
           categorie: E1
           type: pseudo-table
-          voorbeeld: "Aandeel in de winst van de vennootschappen waarop vermogensmutatie is toegepast\n\n  | | \n|---|\n\n300"
-        - regel: 257
+          voorbeeld: Financiële kosten – Afschrijving 'Consolidatieverschillen'\n\n  | | \n|---|\n\n280 (getal los van tabelrij)
+        - regel: 267
           categorie: B2
           type: other
-          voorbeeld: '## Herberekening van het bedrag van de deelneming... (H2 binnen Hypothese-subblok, hiërarchiesprong)'
+          voorbeeld: '## Herberekening van het bedrag van de deelneming... (H2 binnen Hypothese-subblok; herhaald op regels 330 en 415)'
 themas:
   - vermogensmutatie
   - vermogensmutatiemethode

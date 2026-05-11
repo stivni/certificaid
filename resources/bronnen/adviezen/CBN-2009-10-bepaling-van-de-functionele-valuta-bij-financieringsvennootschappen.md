@@ -17,9 +17,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T15:19:36Z'
+    confirmed_at: '2026-05-11T17:09:38Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "A2: r82-83 bevat een genummerde TOC-lijst ('1. Definitie treasury vennootschappen...' / '2. Bepaling van de functionele valuta...') direct na de H1-titel als plain-text body — dit is een TOC-fragment dat niet verwijderd werd. B2: heading-hiërarchie springt direct van H1 naar ## (geen sprong aanwezig) — de twee ## headings op r88 en r108 zijn correct, maar de eerder gerapporteerde #### headings zijn in deze versie niet aanwezig (scraper-fix verholpen). Echter de TOC op r82-83 is nog steeds aanwezig als ETL-artefact."
+    rationale: "A3: r56-57 (na de H1-titel) bevatten een genummerde plain-text inhoudsopgave ('1. Definitie treasury vennootschappen…' / '2. Bepaling van de functionele valuta…') die niet verwijderd werd — TOC-fragment in body terwijl de inhoud als ## headings op r62 en r82 volgt. Overige inhoud correct: 2 headings, 2 voetnoten, geen broken tables."
     layer1:
       file_size_chars: 7309
       flags: []
@@ -31,17 +31,17 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:19:36Z'
-      rationale: "A2: r82-83 bevat een genummerde TOC-lijst ('1. Definitie treasury vennootschappen...' / '2. Bepaling van de functionele valuta...') direct na de H1-titel als plain-text body — dit is een TOC-fragment dat niet verwijderd werd. B2: heading-hiërarchie springt direct van H1 naar ## (geen sprong aanwezig) — de twee ## headings op r88 en r108 zijn correct, maar de eerder gerapporteerde #### headings zijn in deze versie niet aanwezig (scraper-fix verholpen). Echter de TOC op r82-83 is nog steeds aanwezig als ETL-artefact."
+      run_at: '2026-05-11T17:09:38Z'
+      rationale: "A3: r56-57 (na de H1-titel) bevatten een genummerde plain-text inhoudsopgave ('1. Definitie treasury vennootschappen…' / '2. Bepaling van de functionele valuta…') die niet verwijderd werd — TOC-fragment in body terwijl de inhoud als ## headings op r62 en r82 volgt. Overige inhoud correct: 2 headings, 2 voetnoten, geen broken tables."
       concrete_problemen:
-        - regel: 82
-          categorie: A2
-          type: dotted-leader
-          voorbeeld: 1. Definitie treasury vennootschappen of financieringsvennootschappen
-        - regel: 83
-          categorie: A2
-          type: dotted-leader
-          voorbeeld: 2. Bepaling van de functionele valuta bij financieringsvennootschappen
+        - regel: 56
+          categorie: A3
+          type: other
+          voorbeeld: '1. Definitie treasury vennootschappen of financieringsvennootschappen '
+        - regel: 57
+          categorie: A3
+          type: other
+          voorbeeld: '2. Bepaling van de functionele valuta bij financieringsvennootschappen '
 themas:
   - financieringsvennootschappen
   - functionele munt

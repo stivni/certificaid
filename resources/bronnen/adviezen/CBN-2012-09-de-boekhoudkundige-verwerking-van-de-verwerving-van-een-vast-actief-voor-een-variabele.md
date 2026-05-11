@@ -24,9 +24,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T15:19:36Z'
+    confirmed_at: '2026-05-11T17:09:38Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "E1/E2: de afschrijvingstabel voor Voorbeeld 4 (regels 147-316) is volledig uiteengevallen in tientallen aparte eencellige pipe-tabellen met multi-line tekst en tab-ingesprongen content — de complexe multi-kolom tabel is door ETL in fragmenten gesplitst. B5: regel 128 toont 'Afschrijven van vaste activa met beperkte levensduur...' als plain-text alinea zonder heading-prefix (sectie-titel). Regel 318 toont 'Overeenstemming tussen de boekhoudkundige verwerking...' eveneens als plain-text sectie-titel zonder heading-prefix."
+    rationale: "E1/E2: de afschrijvingstabel voor Voorbeeld 4 (regels 155-324) is volledig uiteengevallen in tientallen losse eencellige pipe-tabellen met multi-line content en tab-ingesprongen tekst — een complexe multi-kolom spreadsheet-tabel die ETL niet kon reconstrueren. B5: regels 136 en 326 tonen sectie-titels ('Afschrijven van vaste activa met beperkte levensduur...' en 'Overeenstemming tussen de boekhoudkundige verwerking...') als plain-text alinea's zonder heading-prefix."
     layer1:
       file_size_chars: 20623
       flags: []
@@ -38,18 +38,18 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:19:36Z'
-      rationale: "E1/E2: de afschrijvingstabel voor Voorbeeld 4 (regels 147-316) is volledig uiteengevallen in tientallen aparte eencellige pipe-tabellen met multi-line tekst en tab-ingesprongen content — de complexe multi-kolom tabel is door ETL in fragmenten gesplitst. B5: regel 128 toont 'Afschrijven van vaste activa met beperkte levensduur...' als plain-text alinea zonder heading-prefix (sectie-titel). Regel 318 toont 'Overeenstemming tussen de boekhoudkundige verwerking...' eveneens als plain-text sectie-titel zonder heading-prefix."
+      run_at: '2026-05-11T17:09:38Z'
+      rationale: "E1/E2: de afschrijvingstabel voor Voorbeeld 4 (regels 155-324) is volledig uiteengevallen in tientallen losse eencellige pipe-tabellen met multi-line content en tab-ingesprongen tekst — een complexe multi-kolom spreadsheet-tabel die ETL niet kon reconstrueren. B5: regels 136 en 326 tonen sectie-titels ('Afschrijven van vaste activa met beperkte levensduur...' en 'Overeenstemming tussen de boekhoudkundige verwerking...') als plain-text alinea's zonder heading-prefix."
       concrete_problemen:
-        - regel: 147
+        - regel: 155
           categorie: E1
           type: pseudo-table
           voorbeeld: "| | | \n|---|---|\n\nVaste betaalde prijs: 300\n\n  | | \n|---|"
-        - regel: 128
+        - regel: 136
           categorie: B5
           type: other
           voorbeeld: Afschrijven van vaste activa met beperkte levensduur die zijn verworven voor een prijs die (deels) bestaat uit een variabele gedeelte
-        - regel: 318
+        - regel: 326
           categorie: B5
           type: other
           voorbeeld: Overeenstemming tussen de boekhoudkundige verwerking van goederen verworven tegen betaling van een lijfrente en de activatie van de variabele prijs

@@ -17,9 +17,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T15:23:43Z'
+    confirmed_at: '2026-05-11T17:09:39Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "B3: regel 93 bevat 'bij een geïnformatiseerde boekhouding' als losstaande alinea direct na H1 — duplicaat van de ondertitel, extractie-artefact. D4: systematisch patroon van broken italics met spatie vóór sluitende asterisk op meerdere plaatsen (regels 154, 186, 188) — bv. 'de* onveranderlijkheid *en de* toegankelijkheid *'. Structuur met 14 headings is overigens uitstekend."
+    rationale: 'B3: regel 72 bevat `bij een geïnformatiseerde boekhouding` als losstaande alinea direct na H1 — duplicaat van de subtitle als extractie-artefact. D4: systematisch patroon van broken italics met spaties rond asterisken op regels 133, 165 en 167 — bv. `de* onveranderlijkheid *en de* toegankelijkheid *` en `verplichting tot bewaring* in origineel *` — ETL genereert spaaties rondom de `*`-markers wat italic rendering verbreekt. Structuur met 14 headings is overigens uitstekend.'
     layer1:
       file_size_chars: 24471
       flags: []
@@ -31,25 +31,25 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:23:43Z'
-      rationale: "B3: regel 93 bevat 'bij een geïnformatiseerde boekhouding' als losstaande alinea direct na H1 — duplicaat van de ondertitel, extractie-artefact. D4: systematisch patroon van broken italics met spatie vóór sluitende asterisk op meerdere plaatsen (regels 154, 186, 188) — bv. 'de* onveranderlijkheid *en de* toegankelijkheid *'. Structuur met 14 headings is overigens uitstekend."
+      run_at: '2026-05-11T17:09:39Z'
+      rationale: 'B3: regel 72 bevat `bij een geïnformatiseerde boekhouding` als losstaande alinea direct na H1 — duplicaat van de subtitle als extractie-artefact. D4: systematisch patroon van broken italics met spaties rond asterisken op regels 133, 165 en 167 — bv. `de* onveranderlijkheid *en de* toegankelijkheid *` en `verplichting tot bewaring* in origineel *` — ETL genereert spaaties rondom de `*`-markers wat italic rendering verbreekt. Structuur met 14 headings is overigens uitstekend.'
       concrete_problemen:
-        - regel: 93
+        - regel: 72
           categorie: B3
           type: other
-          voorbeeld: bij een geïnformatiseerde boekhouding
-        - regel: 154
+          voorbeeld: bij een geïnformatiseerde boekhouding (duplicaat subtitle als losstaande alinea na H1)
+        - regel: 133
           categorie: D4
           type: other
-          voorbeeld: de* onveranderlijkheid *en de* toegankelijkheid *te waarborgen
-        - regel: 186
+          voorbeeld: de* onveranderlijkheid *en de* toegankelijkheid *te waarborgen (spaties rond asterisken)
+        - regel: 165
           categorie: D4
           type: other
-          voorbeeld: verplichting tot bewaring* in origineel *en met inachtneming van de *onveranderlijkheid *
-        - regel: 188
+          voorbeeld: verplichting tot bewaring* in origineel *en met inachtneming van de *onveranderlijkheid * (broken italic)
+        - regel: 167
           categorie: D4
           type: other
-          voorbeeld: '*drager *beoogd die de *onveranderlijkheid *en de *toegankelijkheid *'
+          voorbeeld: '*drager *beoogd die de *onveranderlijkheid *en de *toegankelijkheid * (systematisch broken italic)'
 themas:
   - archivering
   - bewaring

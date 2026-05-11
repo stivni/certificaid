@@ -30,9 +30,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T15:23:43Z'
+    confirmed_at: '2026-05-11T17:13:30Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "E2: tabelcel op regel 181 bevat een spurious line-break midden in de celinhoud ('Terreinen die volle eigendom\\n zijn van de vereniging'), waardoor de markdown-tabel niet correct rendert. D4: regel 135 bevat '*getrapte[^8]*  overdracht' met een dubbele spatie voor het sluitende asterisk — ETL-artefact. Overige tabellen en inhoud zijn volledig intact."
+    rationale: "E2: tabelcel op regels 165-166 (body) bevat een spurious line-break midden in de celinhoud ('Terreinen die volle eigendom\\n zijn van de vereniging'), waardoor de markdown-tabel niet correct rendert. D4: regel 119 (body) bevat '*getrapte[^8]*  overdracht' met dubbele spatie na de sluitende asterisk — ETL-artefact. Overige tabellen en inhoud volledig intact."
     layer1:
       file_size_chars: 19391
       flags: []
@@ -44,14 +44,14 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:23:43Z'
-      rationale: "E2: tabelcel op regel 181 bevat een spurious line-break midden in de celinhoud ('Terreinen die volle eigendom\\n zijn van de vereniging'), waardoor de markdown-tabel niet correct rendert. D4: regel 135 bevat '*getrapte[^8]*  overdracht' met een dubbele spatie voor het sluitende asterisk — ETL-artefact. Overige tabellen en inhoud zijn volledig intact."
+      run_at: '2026-05-11T17:13:30Z'
+      rationale: "E2: tabelcel op regels 165-166 (body) bevat een spurious line-break midden in de celinhoud ('Terreinen die volle eigendom\\n zijn van de vereniging'), waardoor de markdown-tabel niet correct rendert. D4: regel 119 (body) bevat '*getrapte[^8]*  overdracht' met dubbele spatie na de sluitende asterisk — ETL-artefact. Overige tabellen en inhoud volledig intact."
       concrete_problemen:
-        - regel: 181
+        - regel: 165
           categorie: E2
           type: other
           voorbeeld: "| 2201 | Terreinen die volle eigendom\n zijn van de vereniging | 100 | |"
-        - regel: 135
+        - regel: 119
           categorie: D4
           type: other
           voorbeeld: '*getrapte[^8]*  overdracht van de volle eigendom'

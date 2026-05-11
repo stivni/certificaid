@@ -21,9 +21,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T15:15:33Z'
+    confirmed_at: '2026-05-11T17:05:21Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "B5 (regel 79): derde subsectietitel 'Renteloze vordering of vordering met een abnormaal lage rente, terugbetaalbaar anders dan op vaste termijn...' staat als plain tekst terwijl de andere twee subsecties wél als ### headings zijn gemarkeerd. D2 (regels 147-165): berekenings- en evolutietabellen in het voorbeeldgedeelte zijn volledig weggevallen — enkel voetnootreferenties (1), (2), (3) en één rekenlijn blijven over; de eigenlijke tabelinhoud ontbreekt. C3 (regel 141): terugbetalingsschema '20 000 op 31 december 1986 30 000 op 31 december 1987 50 000 op 31 december 1988' staat als één pseudo-tabelregel."
+    rationale: "B5 op L95: derde subsectie 'Renteloze vordering of vordering met een abnormaal lage rente, terugbetaalbaar anders dan op vaste termijn...' staat als plain tekst terwijl de twee andere subsecties (L86, L91) wél als ### headings zijn opgemaakt. D2 op L163-189: het voorbeeldgedeelte bevat berekenings- en evolutietabellen die volledig ontbreken — enkel voetnootreferenties (1), (2), (3) en één berekening blijven over. C3 op L157: terugbetalingsschema staat als één aaneengesloten pseudo-tabelregel."
     layer1:
       file_size_chars: 8363
       flags: []
@@ -35,25 +35,25 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:15:33Z'
-      rationale: "B5 (regel 79): derde subsectietitel 'Renteloze vordering of vordering met een abnormaal lage rente, terugbetaalbaar anders dan op vaste termijn...' staat als plain tekst terwijl de andere twee subsecties wél als ### headings zijn gemarkeerd. D2 (regels 147-165): berekenings- en evolutietabellen in het voorbeeldgedeelte zijn volledig weggevallen — enkel voetnootreferenties (1), (2), (3) en één rekenlijn blijven over; de eigenlijke tabelinhoud ontbreekt. C3 (regel 141): terugbetalingsschema '20 000 op 31 december 1986 30 000 op 31 december 1987 50 000 op 31 december 1988' staat als één pseudo-tabelregel."
+      run_at: '2026-05-11T17:05:21Z'
+      rationale: "B5 op L95: derde subsectie 'Renteloze vordering of vordering met een abnormaal lage rente, terugbetaalbaar anders dan op vaste termijn...' staat als plain tekst terwijl de twee andere subsecties (L86, L91) wél als ### headings zijn opgemaakt. D2 op L163-189: het voorbeeldgedeelte bevat berekenings- en evolutietabellen die volledig ontbreken — enkel voetnootreferenties (1), (2), (3) en één berekening blijven over. C3 op L157: terugbetalingsschema staat als één aaneengesloten pseudo-tabelregel."
       concrete_problemen:
-        - regel: 79
+        - regel: 95
           categorie: B5
           type: other
-          voorbeeld: Renteloze vordering of vordering met een abnormaal lage rente, terugbetaalbaar anders dan op vaste termijn...
-        - regel: 147
-          categorie: D2
-          type: missing-section
-          voorbeeld: '### Actuele waarde van de kasstromen — sectie heeft geen tabelinhoud, alleen (1) Art. 25bis en één berekening'
-        - regel: 161
-          categorie: D2
-          type: missing-section
-          voorbeeld: '#### Evolutie van de actuele waarde en van het disconto — tabel volledig weggevallen, alleen (1) en (2) restanten'
-        - regel: 141
+          voorbeeld: 'Renteloze vordering of vordering met een abnormaal lage rente, terugbetaalbaar anders dan op vaste termijn... (plain tekst, geen ### heading)'
+        - regel: 157
           categorie: C3
           type: pseudo-table
           voorbeeld: 20 000 op 31 december 1986 30 000 op 31 december 1987 50 000 op 31 december 1988.
+        - regel: 163
+          categorie: D2
+          type: missing-section
+          voorbeeld: '### Actuele waarde van de kasstromen — sectie heeft geen tabelinhoud, alleen (1) Art. 25bis en één berekening'
+        - regel: 177
+          categorie: D2
+          type: missing-section
+          voorbeeld: '### Evolutie van de actuele waarde en van het disconto — tabel volledig weggevallen, alleen (1) en (2) restanten'
 themas:
   - Vorderingen met een abnormaal lage rente
   - disconto

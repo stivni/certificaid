@@ -30,9 +30,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T15:15:32Z'
+    confirmed_at: '2026-05-11T17:05:20Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "E2: tabelrijen 'Theoretische eindinventaris' (regels 92-93) en 'Fysieke eindinventaris' (regels 96-97) zijn gesplitst over twee regels met tab-inspringing — breekt de pipe-table. C3: regels 85, 88, 91 bevatten '--------- | -------------' als gewone tabelcellen (ASCII-art scheidingsrijen), geen correcte markdown-tabelseparatoren."
+    rationale: "C3: regels 85, 88, 91 bevatten '--------- | -------------' als gewone tabelcellen — ASCII-art scheidingsrijen die geen valide markdown-tabelseparatoren zijn. E2: tabelrijen 'Theoretische eindinventaris' (regels 92-93) en 'Fysieke eindinventaris' (regels 96-97) zijn gesplitst over twee regels met tab-inspringing — breekt de pipe-table structuur."
     layer1:
       file_size_chars: 4692
       flags: []
@@ -44,8 +44,8 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:15:32Z'
-      rationale: "E2: tabelrijen 'Theoretische eindinventaris' (regels 92-93) en 'Fysieke eindinventaris' (regels 96-97) zijn gesplitst over twee regels met tab-inspringing — breekt de pipe-table. C3: regels 85, 88, 91 bevatten '--------- | -------------' als gewone tabelcellen (ASCII-art scheidingsrijen), geen correcte markdown-tabelseparatoren."
+      run_at: '2026-05-11T17:05:20Z'
+      rationale: "C3: regels 85, 88, 91 bevatten '--------- | -------------' als gewone tabelcellen — ASCII-art scheidingsrijen die geen valide markdown-tabelseparatoren zijn. E2: tabelrijen 'Theoretische eindinventaris' (regels 92-93) en 'Fysieke eindinventaris' (regels 96-97) zijn gesplitst over twee regels met tab-inspringing — breekt de pipe-table structuur."
       concrete_problemen:
         - regel: 85
           categorie: C3
@@ -54,11 +54,11 @@ provenance:
         - regel: 92
           categorie: E2
           type: other
-          voorbeeld: "| | Theoretische eindinventaris\n\t\t\t(tegen detailprijs) | 22.000 | | |"
+          voorbeeld: '| | Theoretische eindinventaris\n\t\t\t(tegen detailprijs) | 22.000 | | |'
         - regel: 96
           categorie: E2
           type: other
-          voorbeeld: "| | Fysieke eindinventaris\n\t\t\t(tegen detailprijs) | 20.000 | | |"
+          voorbeeld: '| | Fysieke eindinventaris\n\t\t\t(tegen detailprijs) | 20.000 | | |'
 themas:
   - aanschaffingsprijs
   - aftrekmethode

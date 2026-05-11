@@ -30,9 +30,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T15:26:40Z'
+    confirmed_at: '2026-05-11T17:13:31Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "D2: regel 152 verwijst naar een schematisch tijdlijn-overzicht ('Schematisch kunnen de volgende termijnen worden onderscheiden:') dat niet volgt — was een afbeelding in het originele advies. Geen TOC-fragment in body. Inhoud verder compleet. (Herbevestiging van eerdere beoordeling.)"
+    rationale: "D2: regel 144 kondigt 'Schematisch kunnen de volgende termijnen worden onderscheiden:' aan maar het tijdslijn-schema ontbreekt volledig — de tekst gaat direct verder met een bullet-opsomming zonder de beloofde schematische voorstelling. Geen TOC-fragmenten of andere artefacten aangetroffen."
     layer1:
       file_size_chars: 23689
       flags: []
@@ -44,13 +44,13 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:26:40Z'
-      rationale: "D2: regel 152 verwijst naar een schematisch tijdlijn-overzicht ('Schematisch kunnen de volgende termijnen worden onderscheiden:') dat niet volgt — was een afbeelding in het originele advies. Geen TOC-fragment in body. Inhoud verder compleet. (Herbevestiging van eerdere beoordeling.)"
+      run_at: '2026-05-11T17:13:31Z'
+      rationale: "D2: regel 144 kondigt 'Schematisch kunnen de volgende termijnen worden onderscheiden:' aan maar het tijdslijn-schema ontbreekt volledig — de tekst gaat direct verder met een bullet-opsomming zonder de beloofde schematische voorstelling. Geen TOC-fragmenten of andere artefacten aangetroffen."
       concrete_problemen:
-        - regel: 152
+        - regel: 144
           categorie: D2
           type: missing-section
-          voorbeeld: 'Schematisch kunnen de volgende termijnen worden onderscheiden: [tijdlijn-schema ontbreekt]'
+          voorbeeld: 'Schematisch kunnen de volgende termijnen worden onderscheiden: [tijdslijn-schema ontbreekt]'
 themas:
   - sluiting vereffening
   - ontbinding

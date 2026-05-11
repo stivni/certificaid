@@ -21,9 +21,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T15:19:36Z'
+    confirmed_at: '2026-05-11T17:05:21Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "Bevestiging van vorige QA (ronde 1). B4: vier #### headings in all-caps (INLEIDING, OVERZICHT, BEOORDELING, VOORBEELDEN) i.p.v. ##. E2: drie tabellen volledig afwezig — enkel 'Tabel 1' (r.205), 'Tabel 2' (r.211), 'Tabel 3' (r.284) als plain-text placeholders; dit is significante inhoudsverlies. D4: r.189 '***a) Voorbeeld 1...**' heeft ongematcht triple/double asterisk; r.203 '*Kapitaalsubsidies *' heeft spatie voor sluitende asterisk."
+    rationale: "Meerdere artefacten bevestigd: B4 r.76/84/95/142: vier ##-headings in all-caps ('## INLEIDING', '## OVERZICHT VAN DE ALGEMENE BEGINSELEN', '## BEOORDELING VAN HET VASTSTAAND KARAKTER', '## VOORBEELDEN') i.p.v. normale schrijfwijze. E2 r.146/162/180/186/259: drie tabellen volledig afwezig — 'Tabel 1' (r.180), 'Tabel 2' (r.186), 'Tabel 3' (r.259) zijn plain-text placeholders zonder tabelinhoud; dit is significante inhoudsverlies. D4 r.164: '***a) Voorbeeld 1...**' heeft ongematcht triple/double asterisk. Ook r.170: '## ii. Inresultaatneming' is een ##-heading voor een subpunt binnen een opsomming (B2)."
     layer1:
       file_size_chars: 19651
       flags: []
@@ -35,33 +35,33 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:19:36Z'
-      rationale: "Bevestiging van vorige QA (ronde 1). B4: vier #### headings in all-caps (INLEIDING, OVERZICHT, BEOORDELING, VOORBEELDEN) i.p.v. ##. E2: drie tabellen volledig afwezig — enkel 'Tabel 1' (r.205), 'Tabel 2' (r.211), 'Tabel 3' (r.284) als plain-text placeholders; dit is significante inhoudsverlies. D4: r.189 '***a) Voorbeeld 1...**' heeft ongematcht triple/double asterisk; r.203 '*Kapitaalsubsidies *' heeft spatie voor sluitende asterisk."
+      run_at: '2026-05-11T17:05:21Z'
+      rationale: "Meerdere artefacten bevestigd: B4 r.76/84/95/142: vier ##-headings in all-caps ('## INLEIDING', '## OVERZICHT VAN DE ALGEMENE BEGINSELEN', '## BEOORDELING VAN HET VASTSTAAND KARAKTER', '## VOORBEELDEN') i.p.v. normale schrijfwijze. E2 r.146/162/180/186/259: drie tabellen volledig afwezig — 'Tabel 1' (r.180), 'Tabel 2' (r.186), 'Tabel 3' (r.259) zijn plain-text placeholders zonder tabelinhoud; dit is significante inhoudsverlies. D4 r.164: '***a) Voorbeeld 1...**' heeft ongematcht triple/double asterisk. Ook r.170: '## ii. Inresultaatneming' is een ##-heading voor een subpunt binnen een opsomming (B2)."
       concrete_problemen:
-        - regel: 101
+        - regel: 76
           categorie: B4
           type: other
-          voorbeeld: '## INLEIDING (all-caps ## i.p.v. ## Inleiding)'
-        - regel: 205
+          voorbeeld: '## INLEIDING (all-caps ##-heading)'
+        - regel: 180
           categorie: E2
           type: other
-          voorbeeld: Tabel 1 (placeholder zonder tabelinhoud — numerieke inresultaatnemingstabel)
-        - regel: 211
+          voorbeeld: Tabel 1 (plain-text placeholder zonder tabelinhoud — inresultaatnemingstabel kapitaalsubsidie)
+        - regel: 186
           categorie: E2
           type: other
-          voorbeeld: Tabel 2 (placeholder zonder tabelinhoud — aflossingsplan)
-        - regel: 284
+          voorbeeld: Tabel 2 (plain-text placeholder zonder tabelinhoud — aflossingsplan krediet)
+        - regel: 259
           categorie: E2
           type: other
-          voorbeeld: Tabel 3 (placeholder zonder tabelinhoud — inresultaatneming voorbeeld 2)
-        - regel: 189
+          voorbeeld: Tabel 3 (plain-text placeholder zonder tabelinhoud — inresultaatneming voorbeeld 2)
+        - regel: 164
           categorie: D4
           type: other
           voorbeeld: '***a) Voorbeeld 1 : Subsidie verkregen...** * (ongematcht *** vs **)'
-        - regel: 203
-          categorie: D4
+        - regel: 170
+          categorie: B2
           type: other
-          voorbeeld: '*Kapitaalsubsidies * en a rato van 25% (spatie voor sluitende *)'
+          voorbeeld: '## ii. Inresultaatneming van de kapitaalsubsidie (## voor subpunt binnen opsomming)'
 themas:
   - eventuele rechten
   - kapitaalsubsidie

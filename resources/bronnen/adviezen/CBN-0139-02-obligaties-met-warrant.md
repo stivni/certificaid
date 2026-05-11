@@ -30,9 +30,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T15:15:33Z'
+    confirmed_at: '2026-05-11T17:05:21Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "F1 (regel 11): HTML-entity '&#039;' in frontmatter-veld gerelateerde_adviezen titel ('CPC&#039;s') is een niet-gedecodeerd scraper-artefact. Body is inhoudelijk volledig en correct geformatteerd zonder verdere artefacten."
+    rationale: "F1 (regel 11): HTML-entity '&#039;' in frontmatter-veld 'gerelateerde_adviezen.titel' staat nog steeds niet gedecodeerd — scraper-artefact ongewijzigd t.o.v. ronde 2. Body volledig schoon: tabel correct, voetnoot correct, geen verdere artefacten."
     layer1:
       file_size_chars: 3657
       flags: []
@@ -44,8 +44,8 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:15:33Z'
-      rationale: "F1 (regel 11): HTML-entity '&#039;' in frontmatter-veld gerelateerde_adviezen titel ('CPC&#039;s') is een niet-gedecodeerd scraper-artefact. Body is inhoudelijk volledig en correct geformatteerd zonder verdere artefacten."
+      run_at: '2026-05-11T17:05:21Z'
+      rationale: "F1 (regel 11): HTML-entity '&#039;' in frontmatter-veld 'gerelateerde_adviezen.titel' staat nog steeds niet gedecodeerd — scraper-artefact ongewijzigd t.o.v. ronde 2. Body volledig schoon: tabel correct, voetnoot correct, geen verdere artefacten."
       concrete_problemen:
         - regel: 11
           categorie: F1

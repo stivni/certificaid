@@ -30,9 +30,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T15:26:39Z'
+    confirmed_at: '2026-05-11T17:13:30Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "D4: Regel 88 bevat 'rekening 744 *Huuropbrengsten *of rekening 70 *Omzet[^2] *' waarbij spaties staan vóór de sluit-asterisken van beide italic spans — voetnootmarker doorkruist de italic-span en injecteert een spatie. Geïsoleerd probleem; rest van het document is inhoudelijk volledig en correct gestructureerd met 7 headings."
+    rationale: "D4: Regel 78 bevat 'rekening 744 *Huuropbrengsten *of rekening 70 *Omzet[^2] *' waarbij spaties staan vóór de sluit-asterisken van beide italic spans — het voetnootmarker [^2] doorkruist de tweede italic-span en injecteert een spatie. Geïsoleerd extractie-artefact; rest van het document is inhoudelijk volledig en correct gestructureerd met 7 headings en 3 voetnootdefinities."
     layer1:
       file_size_chars: 10492
       flags: []
@@ -44,10 +44,10 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:26:39Z'
-      rationale: "D4: Regel 88 bevat 'rekening 744 *Huuropbrengsten *of rekening 70 *Omzet[^2] *' waarbij spaties staan vóór de sluit-asterisken van beide italic spans — voetnootmarker doorkruist de italic-span en injecteert een spatie. Geïsoleerd probleem; rest van het document is inhoudelijk volledig en correct gestructureerd met 7 headings."
+      run_at: '2026-05-11T17:13:30Z'
+      rationale: "D4: Regel 78 bevat 'rekening 744 *Huuropbrengsten *of rekening 70 *Omzet[^2] *' waarbij spaties staan vóór de sluit-asterisken van beide italic spans — het voetnootmarker [^2] doorkruist de tweede italic-span en injecteert een spatie. Geïsoleerd extractie-artefact; rest van het document is inhoudelijk volledig en correct gestructureerd met 7 headings en 3 voetnootdefinities."
       concrete_problemen:
-        - regel: 88
+        - regel: 78
           categorie: D4
           type: other
           voorbeeld: rekening 744 *Huuropbrengsten *of rekening 70 *Omzet[^2] * wordt gecrediteerd

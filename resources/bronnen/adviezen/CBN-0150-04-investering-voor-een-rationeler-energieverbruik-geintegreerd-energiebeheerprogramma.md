@@ -17,9 +17,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T15:15:33Z'
+    confirmed_at: '2026-05-11T17:05:21Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "A6: regel 60 bevat 'de werkelijke kost van de energie- aankopen' met een spatie na het afbreekstreepje — PDF-afbreekstreepje dat niet is samengevoegd door de ETL-pipeline. De rest van het document (heading_count=0, één blok proza) is inhoudelijk volledig en schoon."
+    rationale: "A6 (regel 60): afbreekstreepje 'energie- aankopen' staat nog steeds met een spatie na het koppelteken — PDF-afbreekstreepje niet samengevoegd door ETL, ongewijzigd t.o.v. ronde 2. Enige bug in dit korte document; inhoud verder volledig."
     layer1:
       file_size_chars: 2951
       flags: []
@@ -31,8 +31,8 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:15:33Z'
-      rationale: "A6: regel 60 bevat 'de werkelijke kost van de energie- aankopen' met een spatie na het afbreekstreepje — PDF-afbreekstreepje dat niet is samengevoegd door de ETL-pipeline. De rest van het document (heading_count=0, één blok proza) is inhoudelijk volledig en schoon."
+      run_at: '2026-05-11T17:05:21Z'
+      rationale: "A6 (regel 60): afbreekstreepje 'energie- aankopen' staat nog steeds met een spatie na het koppelteken — PDF-afbreekstreepje niet samengevoegd door ETL, ongewijzigd t.o.v. ronde 2. Enige bug in dit korte document; inhoud verder volledig."
       concrete_problemen:
         - regel: 60
           categorie: A6

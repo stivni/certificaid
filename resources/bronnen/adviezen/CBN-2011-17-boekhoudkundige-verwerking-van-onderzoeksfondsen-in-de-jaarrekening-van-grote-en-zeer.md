@@ -30,9 +30,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T15:19:36Z'
+    confirmed_at: '2026-05-11T17:09:38Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "E2: tabel op regels 241-246 heeft rij-labels die buiten de tabelcellen lopen ('6620', 'en kosten', 'met terugnemingsrecht' elk als losse tabelrijen). Zelfde patroon op regels 262-267 ('168', 'met terugnemingsrecht', '6621', 'risico's en kosten (-)' buiten cellen). E2: regels 293-294 en 301-302 tonen 'Aanschaffingswaarde' als een losse tabelrij onder de eigenlijke rekening-rij in plaats van in dezelfde cel. Alle voetnoten [^1]-[^12] correct gedefinieerd."
+    rationale: "E2: meerdere tabelrijen zijn gefragmenteerd. Regel 219-222: rekening 6620 en de omschrijving 'en kosten' staan als aparte rijen buiten de tabelcel. Regels 241-243: rekening 168 en 'met terugnemingsrecht' idem. Regels 269-270 en 277-278: 'Aanschaffingswaarde' als losse tabelrij na de hoofd-rekeningrij. Regels 313-316 en 329-334: zelfde patroon voor 7171/371. Inhoud inhoudelijk volledig en alle voetnoten [^1]-[^12] correct."
     layer1:
       file_size_chars: 18931
       flags: []
@@ -44,18 +44,18 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:19:36Z'
-      rationale: "E2: tabel op regels 241-246 heeft rij-labels die buiten de tabelcellen lopen ('6620', 'en kosten', 'met terugnemingsrecht' elk als losse tabelrijen). Zelfde patroon op regels 262-267 ('168', 'met terugnemingsrecht', '6621', 'risico's en kosten (-)' buiten cellen). E2: regels 293-294 en 301-302 tonen 'Aanschaffingswaarde' als een losse tabelrij onder de eigenlijke rekening-rij in plaats van in dezelfde cel. Alle voetnoten [^1]-[^12] correct gedefinieerd."
+      run_at: '2026-05-11T17:09:38Z'
+      rationale: "E2: meerdere tabelrijen zijn gefragmenteerd. Regel 219-222: rekening 6620 en de omschrijving 'en kosten' staan als aparte rijen buiten de tabelcel. Regels 241-243: rekening 168 en 'met terugnemingsrecht' idem. Regels 269-270 en 277-278: 'Aanschaffingswaarde' als losse tabelrij na de hoofd-rekeningrij. Regels 313-316 en 329-334: zelfde patroon voor 7171/371. Inhoud inhoudelijk volledig en alle voetnoten [^1]-[^12] correct."
       concrete_problemen:
-        - regel: 243
+        - regel: 219
           categorie: E2
           type: pseudo-table
           voorbeeld: "| | 6620 | Voorzieningen voor uitzonderlijke risico's | | |\n| | en kosten | 100.000 | | |"
-        - regel: 264
+        - regel: 241
           categorie: E2
           type: pseudo-table
           voorbeeld: "| | 168 | Voorzieningen voor schenkingen en legaten | | |\n| | met terugnemingsrecht | 100.000 | | |"
-        - regel: 293
+        - regel: 269
           categorie: E2
           type: pseudo-table
           voorbeeld: "| aan | 7170 | Wijziging in de bestellingen in uitvoering: | | 70.000 |\n| | Aanschaffingswaarde | | | |"

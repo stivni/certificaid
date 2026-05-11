@@ -17,9 +17,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T15:19:36Z'
+    confirmed_at: '2026-05-11T17:09:38Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "B3/A1: regel 47 bevat een losstaande punt '.' als enige inhoud van de regel, direct na de H1-titel en vóór '## Inleiding' — een ETL-artefact (vermoedelijk overblijfsel van een paginanummer of separator die niet werd opgeschoond). Dit is een kleine maar duidelijke extractie-fout die een mens nooit zou schrijven."
+    rationale: "A1: regel 50 bevat een losstaande punt '.' als enige inhoud van de regel, direct na de H1-titel en vóór '## Inleiding' — een ETL-artefact, vermoedelijk overblijfsel van een paginanummer of separator die niet werd opgeschoond. Een mens schrijft dit nooit zo."
     layer1:
       file_size_chars: 20932
       flags: []
@@ -31,10 +31,10 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:19:36Z'
-      rationale: "B3/A1: regel 47 bevat een losstaande punt '.' als enige inhoud van de regel, direct na de H1-titel en vóór '## Inleiding' — een ETL-artefact (vermoedelijk overblijfsel van een paginanummer of separator die niet werd opgeschoond). Dit is een kleine maar duidelijke extractie-fout die een mens nooit zou schrijven."
+      run_at: '2026-05-11T17:09:38Z'
+      rationale: "A1: regel 50 bevat een losstaande punt '.' als enige inhoud van de regel, direct na de H1-titel en vóór '## Inleiding' — een ETL-artefact, vermoedelijk overblijfsel van een paginanummer of separator die niet werd opgeschoond. Een mens schrijft dit nooit zo."
       concrete_problemen:
-        - regel: 47
+        - regel: 50
           categorie: A1
           type: other
           voorbeeld: .

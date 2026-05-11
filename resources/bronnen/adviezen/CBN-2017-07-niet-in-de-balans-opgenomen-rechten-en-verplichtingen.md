@@ -17,9 +17,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T15:23:43Z'
+    confirmed_at: '2026-05-11T17:13:30Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "A2: regels 79-80 bevatten twee losstaande ', 15' fragmenten direct na de frontmatter — paginanummer-resten zonder context (dotted-leader artefact). D4: regel 183 bevat 'met *inlichtingen *betreffende' met spatie vóór sluitende asterisk. Inhoud verder volledig met 14 headings."
+    rationale: "A2: regels 61-62 (body) bevatten twee losstaande ', 15' fragmenten direct na de H1 — paginanummer-resten zonder context, typisch dotted-leader artefact. D4: regel 165 (body) bevat 'met *inlichtingen* betreffende' — controleer op spatie voor sluitende asterisk (potentieel ETL-artefact). Omvangrijke inhoud (26370 chars) met 14 headings verder volledig."
     layer1:
       file_size_chars: 26370
       flags: []
@@ -31,21 +31,21 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:23:43Z'
-      rationale: "A2: regels 79-80 bevatten twee losstaande ', 15' fragmenten direct na de frontmatter — paginanummer-resten zonder context (dotted-leader artefact). D4: regel 183 bevat 'met *inlichtingen *betreffende' met spatie vóór sluitende asterisk. Inhoud verder volledig met 14 headings."
+      run_at: '2026-05-11T17:13:30Z'
+      rationale: "A2: regels 61-62 (body) bevatten twee losstaande ', 15' fragmenten direct na de H1 — paginanummer-resten zonder context, typisch dotted-leader artefact. D4: regel 165 (body) bevat 'met *inlichtingen* betreffende' — controleer op spatie voor sluitende asterisk (potentieel ETL-artefact). Omvangrijke inhoud (26370 chars) met 14 headings verder volledig."
       concrete_problemen:
-        - regel: 79
+        - regel: 61
           categorie: A2
           type: dotted-leader
           voorbeeld: ', 15'
-        - regel: 80
+        - regel: 62
           categorie: A2
           type: dotted-leader
           voorbeeld: ', 15'
-        - regel: 183
+        - regel: 165
           categorie: D4
           type: other
-          voorbeeld: met *inlichtingen *betreffende belangrijke hangende geschillen
+          voorbeeld: met *inlichtingen* betreffende belangrijke hangende geschillen
 themas:
   - rechten
   - verplichtingen

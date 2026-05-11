@@ -17,9 +17,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T15:19:36Z'
+    confirmed_at: '2026-05-11T17:05:21Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "Meerdere extractie-artefacten: (1) r.152 bevat 'Handelsdebiteuren/ TD>' — een HTML-tag-fragment dat is doorgelekt (G2/ETL). (2) r.109 toont een losstaande '|' als tabelrij vóór de heading van de balans — pseudo-tabel constructie (E2). (3) r.164-166 toont A6-regelbreuk: 'gedurende of een gedeelte\n\nervan ook de mogelijkheid'. (4) r.130: heading `## A. Afsluiting...` en `## B. (Her)opening...` zijn sectieletters binnen een opsomming die als ##-headings zijn gezet — te zwaar niveau voor onderdelen van een enkel voorbeeld (B2)."
+    rationale: "Meerdere ETL-artefacten bevestigd: G2 r.167: 'Handelsdebiteuren/ TD>' bevat een doorgelekt HTML-tag-fragment. E2 r.124-126: een losstaande '|' op r.124 staat vóór de '## Balans in BEF'-heading als een weesopeningsteken van een pseudo-tabel. B2 r.147/162: '## A. Afsluiting...' en '## B. (Her)opening...' zijn als ##-headings gezet voor subonderdelen van één enkel voorbeeld — te zwaar headin-niveau (men zou ### gebruiken). A6 r.179-181: 'of een gedeelte' eindigt zonder leesteken gevolgd door een lege regel voor 'ervan ook de mogelijkheid...'."
     layer1:
       file_size_chars: 16261
       flags: []
@@ -31,25 +31,25 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:19:36Z'
-      rationale: "Meerdere extractie-artefacten: (1) r.152 bevat 'Handelsdebiteuren/ TD>' — een HTML-tag-fragment dat is doorgelekt (G2/ETL). (2) r.109 toont een losstaande '|' als tabelrij vóór de heading van de balans — pseudo-tabel constructie (E2). (3) r.164-166 toont A6-regelbreuk: 'gedurende of een gedeelte\n\nervan ook de mogelijkheid'. (4) r.130: heading `## A. Afsluiting...` en `## B. (Her)opening...` zijn sectieletters binnen een opsomming die als ##-headings zijn gezet — te zwaar niveau voor onderdelen van een enkel voorbeeld (B2)."
+      run_at: '2026-05-11T17:05:21Z'
+      rationale: "Meerdere ETL-artefacten bevestigd: G2 r.167: 'Handelsdebiteuren/ TD>' bevat een doorgelekt HTML-tag-fragment. E2 r.124-126: een losstaande '|' op r.124 staat vóór de '## Balans in BEF'-heading als een weesopeningsteken van een pseudo-tabel. B2 r.147/162: '## A. Afsluiting...' en '## B. (Her)opening...' zijn als ##-headings gezet voor subonderdelen van één enkel voorbeeld — te zwaar headin-niveau (men zou ### gebruiken). A6 r.179-181: 'of een gedeelte' eindigt zonder leesteken gevolgd door een lege regel voor 'ervan ook de mogelijkheid...'."
       concrete_problemen:
-        - regel: 152
+        - regel: 167
           categorie: G2
           type: other
           voorbeeld: '| | 400 | Handelsdebiteuren/ TD> | 10,61 | |'
-        - regel: 109
+        - regel: 124
           categorie: E2
           type: pseudo-table
           voorbeeld: "| \n\n## Balans in BEF op 30/4/99"
-        - regel: 164
-          categorie: A6
-          type: other
-          voorbeeld: "Ondernemingen naar Belgisch recht hebben tijdens de gehele duur van de overgangsperiode of een gedeelte \n\nervan ook de mogelijkheid..."
-        - regel: 132
+        - regel: 147
           categorie: B2
           type: other
           voorbeeld: '## A. Afsluiting van de boekhouding in BEF (## voor subonderdeel van voorbeeld)'
+        - regel: 179
+          categorie: A6
+          type: other
+          voorbeeld: "Ondernemingen naar Belgisch recht hebben tijdens de gehele duur van de overgangsperiode of een gedeelte \n\nervan ook de mogelijkheid..."
 themas:
   - verwerking van afrondingsverschillen
   - afronding

@@ -27,9 +27,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T15:23:43Z'
+    confirmed_at: '2026-05-11T17:09:38Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: 'E2: regels 255–256 bevatten een multi-line tabelcel met tab-inspringing (`| aan | 756 | Diverse financiële opbrengsten\n\t\t\t\t(Cross currency swap – vlottend) |`) wat pipe-tabel-rendering breekt. Regel 291: `| aan | 657 | Diverse financiële kosten) |` bevat een overtollige `)` in de cel. De eerder gerapporteerde A3 (TOC-duplicaat op regel 93) is niet meer aanwezig in de huidige versie na re-scrape.'
+    rationale: 'E2: regel 237–238 bevat een multiline tabelcel waarbij de omschrijving `(Cross currency swap – vlottend)` op een nieuwe regel met tab-inspringing staat — breekt pipe-tabel-rendering. Regel 273: `| aan | 657 | Diverse financiële kosten) |` bevat een overtollige `)` in de cel als ETL-artefact. Inhoud en rekenkundige voorbeelden verder volledig correct.'
     layer1:
       file_size_chars: 23519
       flags: []
@@ -41,14 +41,14 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:23:43Z'
-      rationale: 'E2: regels 255–256 bevatten een multi-line tabelcel met tab-inspringing (`| aan | 756 | Diverse financiële opbrengsten\n\t\t\t\t(Cross currency swap – vlottend) |`) wat pipe-tabel-rendering breekt. Regel 291: `| aan | 657 | Diverse financiële kosten) |` bevat een overtollige `)` in de cel. De eerder gerapporteerde A3 (TOC-duplicaat op regel 93) is niet meer aanwezig in de huidige versie na re-scrape.'
+      run_at: '2026-05-11T17:09:38Z'
+      rationale: 'E2: regel 237–238 bevat een multiline tabelcel waarbij de omschrijving `(Cross currency swap – vlottend)` op een nieuwe regel met tab-inspringing staat — breekt pipe-tabel-rendering. Regel 273: `| aan | 657 | Diverse financiële kosten) |` bevat een overtollige `)` in de cel als ETL-artefact. Inhoud en rekenkundige voorbeelden verder volledig correct.'
       concrete_problemen:
-        - regel: 255
+        - regel: 237
           categorie: E2
           type: other
-          voorbeeld: '| aan | 756 | Diverse financiële opbrengsten\n\t(Cross currency swap...) | (multi-line cel)'
-        - regel: 291
+          voorbeeld: '| aan | 756 | Diverse financiële opbrengsten\n\t\t\t\t(Cross currency swap – vlottend) | (multiline tabelcel)'
+        - regel: 273
           categorie: E2
           type: other
           voorbeeld: '| aan | 657 | Diverse financiële kosten) | | 4.375 | (overtollige ) in cel)'

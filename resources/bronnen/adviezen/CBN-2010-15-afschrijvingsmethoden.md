@@ -17,9 +17,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T15:19:36Z'
+    confirmed_at: '2026-05-11T17:09:38Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "A3 bevestigd: r61-75 plain-text genummerde inhoudsopgave direct na H1, terwijl inhoud als ##/### headings verder staat. D4 bevestigd: r197 '*Voorbeeld ' heeft trailing spatie na opening asterisk (malformed italic opener); r213 'het* pro rata*' heeft asterisk direct na 'het' zonder scheidende spatie. Overige inhoud (13 headings, voetnoten 1-34 volledig, voorbeelden compleet) correct."
+    rationale: "D4 bevestigd op twee plaatsen: r183 '*Voorbeeld ' heeft een opening asterisk gevolgd door spatie (malformed italic opener); r199 'het* pro rata*' heeft een asterisk direct na 'het' zonder scheidende spatie (gebroken italic-markup). De eerder gerapporteerde A3 is niet bevestigd: de body bevat geen plain-text TOC, de themas-lijst staat enkel in de frontmatter. Overige inhoud (13 headings, voetnoten 1-34 volledig, voorbeelden compleet) correct."
     layer1:
       file_size_chars: 23556
       flags: []
@@ -31,18 +31,14 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:19:36Z'
-      rationale: "A3 bevestigd: r61-75 plain-text genummerde inhoudsopgave direct na H1, terwijl inhoud als ##/### headings verder staat. D4 bevestigd: r197 '*Voorbeeld ' heeft trailing spatie na opening asterisk (malformed italic opener); r213 'het* pro rata*' heeft asterisk direct na 'het' zonder scheidende spatie. Overige inhoud (13 headings, voetnoten 1-34 volledig, voorbeelden compleet) correct."
+      run_at: '2026-05-11T17:09:38Z'
+      rationale: "D4 bevestigd op twee plaatsen: r183 '*Voorbeeld ' heeft een opening asterisk gevolgd door spatie (malformed italic opener); r199 'het* pro rata*' heeft een asterisk direct na 'het' zonder scheidende spatie (gebroken italic-markup). De eerder gerapporteerde A3 is niet bevestigd: de body bevat geen plain-text TOC, de themas-lijst staat enkel in de frontmatter. Overige inhoud (13 headings, voetnoten 1-34 volledig, voorbeelden compleet) correct."
       concrete_problemen:
-        - regel: 61
-          categorie: A3
-          type: other
-          voorbeeld: "1. Waarderingsregels \n  1. Algemeen \n  2. Oprichtingskosten \n...\n4. Afschrijvingsmethoden (plain-text TOC in body)"
-        - regel: 197
+        - regel: 183
           categorie: D4
           type: other
           voorbeeld: '*Voorbeeld  (trailing spatie na opening asterisk, malformed italic opener)'
-        - regel: 213
+        - regel: 199
           categorie: D4
           type: other
           voorbeeld: en wordt het* pro rata* van het gebruik

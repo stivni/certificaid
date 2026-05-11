@@ -24,9 +24,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T15:23:42Z'
+    confirmed_at: '2026-05-11T17:09:38Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "B3: regel 83 '# COMMISSIE VOOR BOEKHOUDKUNDIGE NORMEN' is een extra H1 scrape-artefact bovenaan de body (de eigenlijke H1 ontbreekt — de adviestitel staat als ## op regel 85). D4: regel 108 'de* productievennootschap*' heeft asterisk die direct na 'de' kleeft zonder spatie. Regel 111 heeft spurious line break na voetnoot-referentie. Inhoud volledig met correcte boekhoudtabellen."
+    rationale: "B3 bevestigd: regel 65 '# COMMISSIE VOOR BOEKHOUDKUNDIGE NORMEN' is een extra scrape-artefact H1 bovenaan de body — de eigenlijke adviestitel staat als ## op regel 67. D4 bevestigd: regel 90 'de* productievennootschap*' heeft asterisk die direct na 'de' kleeft zonder spatie, waardoor de italic-markup breekt. A6: regel 93 begint een nieuwe zin op een nieuwe regel direct na de vorige zin zonder alinea-break. Alle ETL-artefacten, geen source-typo."
     layer1:
       file_size_chars: 24458
       flags: []
@@ -38,21 +38,21 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:23:42Z'
-      rationale: "B3: regel 83 '# COMMISSIE VOOR BOEKHOUDKUNDIGE NORMEN' is een extra H1 scrape-artefact bovenaan de body (de eigenlijke H1 ontbreekt — de adviestitel staat als ## op regel 85). D4: regel 108 'de* productievennootschap*' heeft asterisk die direct na 'de' kleeft zonder spatie. Regel 111 heeft spurious line break na voetnoot-referentie. Inhoud volledig met correcte boekhoudtabellen."
+      run_at: '2026-05-11T17:09:38Z'
+      rationale: "B3 bevestigd: regel 65 '# COMMISSIE VOOR BOEKHOUDKUNDIGE NORMEN' is een extra scrape-artefact H1 bovenaan de body — de eigenlijke adviestitel staat als ## op regel 67. D4 bevestigd: regel 90 'de* productievennootschap*' heeft asterisk die direct na 'de' kleeft zonder spatie, waardoor de italic-markup breekt. A6: regel 93 begint een nieuwe zin op een nieuwe regel direct na de vorige zin zonder alinea-break. Alle ETL-artefacten, geen source-typo."
       concrete_problemen:
-        - regel: 83
+        - regel: 65
           categorie: B3
           type: other
-          voorbeeld: '# COMMISSIE VOOR BOEKHOUDKUNDIGE NORMEN — extra H1 scrape-artefact'
-        - regel: 108
+          voorbeeld: '# COMMISSIE VOOR BOEKHOUDKUNDIGE NORMEN — extra H1 scrape-artefact boven werkelijke adviestitel'
+        - regel: 90
           categorie: D4
           type: other
-          voorbeeld: de* productievennootschap* — asterisk kleeft direct aan 'de'
-        - regel: 111
+          voorbeeld: de* productievennootschap* — asterisk kleeft direct aan 'de' zonder spatie (malformed italic)
+        - regel: 93
           categorie: A6
           type: other
-          voorbeeld: '...beperkt tot:[^10]\n Het bedrag dat kan worden vrijgesteld — spurious line break'
+          voorbeeld: ' Het bedrag dat kan worden vrijgesteld is... — spurious line break na voetnootreferentie [^9]'
 themas:
   - belastingbesparing
   - belastingvoordeel

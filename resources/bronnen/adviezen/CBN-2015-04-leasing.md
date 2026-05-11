@@ -24,9 +24,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T15:23:42Z'
+    confirmed_at: '2026-05-11T17:09:38Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "Meerdere categorieën: B3 (regel 99: '# COMMISSIE VOOR BOEKHOUDKUNDIGE NORMEN' als extra H1), B5 (meerdere subsectietitels als plain tekst zonder #-prefix), B2 (heading-hiërarchie springt van ## naar #### zonder ###), D4 (malformed italics op meerdere regels), D1 (zin afgebroken mid-tekst op regel 290). Groot advies (39 headings, 77124 chars) met systematische ETL-issues."
+    rationale: "Meerdere categorieën bevestigd: B3 (regel 76 '# COMMISSIE VOOR BOEKHOUDKUNDIGE NORMEN' als extra H1), B5 (regel 108 'Overeenkomsten die kwalificeren als leasing...' en regel 239 'Overeenkomsten die niet kwalificeren...' als plain tekst zonder heading-prefix), B2 (regel 109 '#### Algemene principes' direct na plain tekst op regel 108 zonder ## of ### tussenniveau), D4 (regel 129 en 188 met malformed italic '* ... *.'). Allen ETL-artefacten."
     layer1:
       file_size_chars: 77124
       flags: []
@@ -38,29 +38,29 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:23:42Z'
-      rationale: "Meerdere categorieën: B3 (regel 99: '# COMMISSIE VOOR BOEKHOUDKUNDIGE NORMEN' als extra H1), B5 (meerdere subsectietitels als plain tekst zonder #-prefix), B2 (heading-hiërarchie springt van ## naar #### zonder ###), D4 (malformed italics op meerdere regels), D1 (zin afgebroken mid-tekst op regel 290). Groot advies (39 headings, 77124 chars) met systematische ETL-issues."
+      run_at: '2026-05-11T17:09:38Z'
+      rationale: "Meerdere categorieën bevestigd: B3 (regel 76 '# COMMISSIE VOOR BOEKHOUDKUNDIGE NORMEN' als extra H1), B5 (regel 108 'Overeenkomsten die kwalificeren als leasing...' en regel 239 'Overeenkomsten die niet kwalificeren...' als plain tekst zonder heading-prefix), B2 (regel 109 '#### Algemene principes' direct na plain tekst op regel 108 zonder ## of ### tussenniveau), D4 (regel 129 en 188 met malformed italic '* ... *.'). Allen ETL-artefacten."
       concrete_problemen:
-        - regel: 99
+        - regel: 76
           categorie: B3
           type: other
           voorbeeld: '# COMMISSIE VOOR BOEKHOUDKUNDIGE NORMEN — extra H1 scrape-artefact'
-        - regel: 88
+        - regel: 108
           categorie: B5
           type: other
           voorbeeld: Overeenkomsten die kwalificeren als leasing volgens artikel 95 KB W.Venn. — plain tekst, geen heading
-        - regel: 89
+        - regel: 109
           categorie: B2
           type: other
-          voorbeeld: '## sectie gevolgd direct door #### zonder tussenliggend ### niveau'
-        - regel: 109
+          voorbeeld: '#### Algemene principes — sprongt van plain tekst naar ####, geen ## of ### tussenlaag'
+        - regel: 129
           categorie: D4
           type: other
-          voorbeeld: (zie punt* B. Overeenkomsten die niet kwalificeren...).* — asterisk midden in tekst
-        - regel: 290
-          categorie: D1
-          type: abrupt-cutoff
-          voorbeeld: '...geactiveerd onder de desbetreffende rubriek van de — zin eindigt mid-tekst'
+          voorbeeld: zie punt* B. Overeenkomsten die niet kwalificeren als leasing...).* — spatie voor asterisk
+        - regel: 239
+          categorie: B5
+          type: other
+          voorbeeld: Overeenkomsten die niet kwalificeren als leasing volgens artikel 95 KB W.Venn. — plain tekst
 themas:
   - aankoopoptie
   - financiële leasing

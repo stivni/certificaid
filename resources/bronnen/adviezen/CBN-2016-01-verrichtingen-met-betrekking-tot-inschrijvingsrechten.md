@@ -30,9 +30,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T15:23:42Z'
+    confirmed_at: '2026-05-11T17:09:38Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: 'E2: de tabel op regels 152–164 is structureel gebroken — rij 154 is leeg (geen cel-inhoud), en regels 156–158 bevatten bullet-items buiten pipe-syntax als cel-inhoud, waardoor de pipe-tabel syntactisch ongeldig is. Eerste tabel (regels 144–148) is correct. Overige inhoud volledig.'
+    rationale: 'E2 bevestigd: tabel op regels 141–153 bevat bullets buiten pipe-syntax als cel-inhoud (regels 144–148 zijn bullet-items die losgehangen zijn van de omringende pipe-tabel) — HTML-tabel extractie-artefact waarbij geneste lijst in cel niet correct werd omgezet. Eerste tabel (regels 133–137) is correct. ETL-artefact.'
     layer1:
       file_size_chars: 12535
       flags: []
@@ -44,14 +44,14 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:23:42Z'
-      rationale: 'E2: de tabel op regels 152–164 is structureel gebroken — rij 154 is leeg (geen cel-inhoud), en regels 156–158 bevatten bullet-items buiten pipe-syntax als cel-inhoud, waardoor de pipe-tabel syntactisch ongeldig is. Eerste tabel (regels 144–148) is correct. Overige inhoud volledig.'
+      run_at: '2026-05-11T17:09:38Z'
+      rationale: 'E2 bevestigd: tabel op regels 141–153 bevat bullets buiten pipe-syntax als cel-inhoud (regels 144–148 zijn bullet-items die losgehangen zijn van de omringende pipe-tabel) — HTML-tabel extractie-artefact waarbij geneste lijst in cel niet correct werd omgezet. Eerste tabel (regels 133–137) is correct. ETL-artefact.'
       concrete_problemen:
-        - regel: 154
+        - regel: 141
           categorie: E2
           type: other
-          voorbeeld: '| \n (lege rij direct na header zonder separator-logica)'
-        - regel: 156
+          voorbeeld: '| **Boekwaarde van het oud effect** | | **Bedrag** |\n| \n\n- waarmee de boekwaarde... — bullets buiten pipe-cell'
+        - regel: 144
           categorie: E2
           type: other
           voorbeeld: '- waarmee de boekwaarde van het oud effect moet worden verminderd (bullet buiten tabelcel)'

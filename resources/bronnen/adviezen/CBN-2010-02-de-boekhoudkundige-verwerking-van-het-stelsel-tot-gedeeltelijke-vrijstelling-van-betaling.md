@@ -17,9 +17,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T15:19:36Z'
+    confirmed_at: '2026-05-11T17:09:38Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "D4: r85 bevat 'hoewel* \"de bedoelde instellingen...' — asterisk direct vóór aanhalingsteken gevolgd door spatie, wat een malformed italic-marker is (patroon '* \"' na een woord). R79 bevat '151 *Kapitaalsubsidies ontvangen in contanten* van de vereniging of van rekening 150 *Kapitaalsubsidie* van de vennootschap' — het italic-blok voor 'Kapitaalsubsidie' sluit correct, maar dit is hetzelfde ETL-patroon als 2009/13 en verdient ETL-fix."
+    rationale: "D4: r70 bevat 'hoewel* \"de bedoelde instellingen de vrijheid behouden om te beoordelen hoe de vrijgekomen sommen het best geherinvesteerd worden\"*' — asterisk na 'hoewel' opent italic zonder voorafgaande sluitende spatie-separator, waardoor 'hoewel*' een malformed opener is (space vóór de *-sluitmarker van het vorige italic-blok ont-breekt niet, maar de opener staat mid-woord). Dit is een ETL italic-parsingfout."
     layer1:
       file_size_chars: 4770
       flags: []
@@ -31,13 +31,13 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:19:36Z'
-      rationale: "D4: r85 bevat 'hoewel* \"de bedoelde instellingen...' — asterisk direct vóór aanhalingsteken gevolgd door spatie, wat een malformed italic-marker is (patroon '* \"' na een woord). R79 bevat '151 *Kapitaalsubsidies ontvangen in contanten* van de vereniging of van rekening 150 *Kapitaalsubsidie* van de vennootschap' — het italic-blok voor 'Kapitaalsubsidie' sluit correct, maar dit is hetzelfde ETL-patroon als 2009/13 en verdient ETL-fix."
+      run_at: '2026-05-11T17:09:38Z'
+      rationale: "D4: r70 bevat 'hoewel* \"de bedoelde instellingen de vrijheid behouden om te beoordelen hoe de vrijgekomen sommen het best geherinvesteerd worden\"*' — asterisk na 'hoewel' opent italic zonder voorafgaande sluitende spatie-separator, waardoor 'hoewel*' een malformed opener is (space vóór de *-sluitmarker van het vorige italic-blok ont-breekt niet, maar de opener staat mid-woord). Dit is een ETL italic-parsingfout."
       concrete_problemen:
-        - regel: 85
+        - regel: 70
           categorie: D4
           type: other
-          voorbeeld: hoewel* "de bedoelde instellingen de vrijheid behouden
+          voorbeeld: hoewel* "de bedoelde instellingen de vrijheid behouden...
 themas:
   - bedrijfsvoorheffing
   - compensatie

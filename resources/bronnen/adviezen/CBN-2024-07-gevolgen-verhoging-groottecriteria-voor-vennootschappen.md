@@ -30,9 +30,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T15:26:40Z'
+    confirmed_at: '2026-05-11T17:13:31Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "B5: Voorbeeld 3 (regel 200) en Voorbeeld 4 (regel 221) staan als plain-text-alinea's zonder ### heading-prefix, terwijl Voorbeeld 1 (regel 129), Voorbeeld 2 (regel 162) en Voorbeeld 5 (regel 242) wél als ### heading zijn opgemaakt — inconsistente heading-behandeling is een extractie-artefact. Inhoud verder volledig; 36 voetnoten correct."
+    rationale: "B5: Voorbeeld 3 (regel 186) en Voorbeeld 4 (regel 207) staan als plain-text alinea's zonder ### heading-prefix, terwijl Voorbeeld 1 (regel 115), Voorbeeld 2 (regel 148) en Voorbeeld 5 (regel 228) wél als ### heading zijn opgemaakt — inconsistente extractie van sectie-titels. Inhoud verder volledig; 36 voetnoten correct."
     layer1:
       file_size_chars: 25989
       flags: []
@@ -44,17 +44,17 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:26:40Z'
-      rationale: "B5: Voorbeeld 3 (regel 200) en Voorbeeld 4 (regel 221) staan als plain-text-alinea's zonder ### heading-prefix, terwijl Voorbeeld 1 (regel 129), Voorbeeld 2 (regel 162) en Voorbeeld 5 (regel 242) wél als ### heading zijn opgemaakt — inconsistente heading-behandeling is een extractie-artefact. Inhoud verder volledig; 36 voetnoten correct."
+      run_at: '2026-05-11T17:13:31Z'
+      rationale: "B5: Voorbeeld 3 (regel 186) en Voorbeeld 4 (regel 207) staan als plain-text alinea's zonder ### heading-prefix, terwijl Voorbeeld 1 (regel 115), Voorbeeld 2 (regel 148) en Voorbeeld 5 (regel 228) wél als ### heading zijn opgemaakt — inconsistente extractie van sectie-titels. Inhoud verder volledig; 36 voetnoten correct."
       concrete_problemen:
-        - regel: 200
+        - regel: 186
           categorie: B5
           type: other
-          voorbeeld: 'Voorbeeld 3: impact van de verhoging van de criteria op langere termijn waarbij het boekjaar gelijk loopt met het kalenderjaar (plain text, geen ### heading)'
-        - regel: 221
+          voorbeeld: 'Voorbeeld 3: impact van de verhoging van de criteria op langere termijn waarbij het boekjaar gelijk loopt met het kalenderjaar (plain text, geen ### prefix)'
+        - regel: 207
           categorie: B5
           type: other
-          voorbeeld: 'Voorbeeld 4: impact van de verhoging van de criteria op langere termijn waarbij het boekjaar niet gelijk loopt met het kalenderjaar (plain text, geen ### heading)'
+          voorbeeld: 'Voorbeeld 4: impact van de verhoging van de criteria op langere termijn waarbij het boekjaar niet gelijk loopt met het kalenderjaar (plain text, geen ### prefix)'
 themas:
   - groottecriteria
   - drempels

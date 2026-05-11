@@ -27,9 +27,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T15:15:32Z'
+    confirmed_at: '2026-05-11T17:05:20Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "D3: voetnoten [^5] (regel 98) en [^6] (regel 100) bevatten identieke definitie 'Rubrieken 7301 tot 7312.' — één ervan is inhoudelijk onjuist (in het bronadvies verwijst [^5] naar schulden en [^6] naar financiële opbrengsten). Extractiefout die foutieve verwijzingen geeft aan de lezer."
+    rationale: "D3: voetnoten [^5] (regel 98) en [^6] (regel 100) zijn identiek ('Rubrieken 7301 tot 7312.'), maar de body-tekst refereert [^5] aan schulden en [^6] aan financiële opbrengsten bekomen van verbonden ondernemingen — rubriek 73xx is financiële opbrengsten, dus [^5] is inhoudelijk onjuist. ETL-extractiefout die foutieve definitie geeft aan de lezer."
     layer1:
       file_size_chars: 4444
       flags: []
@@ -41,17 +41,17 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:15:32Z'
-      rationale: "D3: voetnoten [^5] (regel 98) en [^6] (regel 100) bevatten identieke definitie 'Rubrieken 7301 tot 7312.' — één ervan is inhoudelijk onjuist (in het bronadvies verwijst [^5] naar schulden en [^6] naar financiële opbrengsten). Extractiefout die foutieve verwijzingen geeft aan de lezer."
+      run_at: '2026-05-11T17:05:20Z'
+      rationale: "D3: voetnoten [^5] (regel 98) en [^6] (regel 100) zijn identiek ('Rubrieken 7301 tot 7312.'), maar de body-tekst refereert [^5] aan schulden en [^6] aan financiële opbrengsten bekomen van verbonden ondernemingen — rubriek 73xx is financiële opbrengsten, dus [^5] is inhoudelijk onjuist. ETL-extractiefout die foutieve definitie geeft aan de lezer."
       concrete_problemen:
         - regel: 98
           categorie: D3
           type: other
-          voorbeeld: '[^5]: Rubrieken 7301 tot 7312. — identiek aan [^6]'
+          voorbeeld: '[^5]: Rubrieken 7301 tot 7312. — identiek aan [^6], maar context = schulden'
         - regel: 100
           categorie: D3
           type: other
-          voorbeeld: '[^6]: Rubrieken 7301 tot 7312. — duplicaat van [^5], inhoudelijk onjuist'
+          voorbeeld: '[^6]: Rubrieken 7301 tot 7312. — duplicaat van [^5], context = financiële opbrengsten'
 themas:
   - deelnemingsverhouding
   - financiële vaste activa

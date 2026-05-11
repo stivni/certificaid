@@ -27,9 +27,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T15:19:36Z'
+    confirmed_at: '2026-05-11T17:09:38Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "A9: H1-titel (r92) heeft 'instrumenten1' — superscript-voetnootnummer niet geparsed als [^1], plus ontbrekende spatie in '2010/12 -De' (koppelteken zonder spatiëring). D4: r96 bevat '*Het ontbreken van een conceptueel kader...*' als italic-blok direct na ## Inleiding heading zonder newline-separator (ETL-artefact: de cursieve sectietitel staat als plain-text italic in de body). Alle ### subkoppen gebruiken '*tekst*' italic wrapper (r113, r121, r135, r146) — dit is consistente PDF-artefact-styling die een mens nooit zo zou schrijven."
+    rationale: "A9: H1-titel (r74) bevat 'instrumenten1' — superscript voetnootnummer niet geparsed als [^1], plus '2010/12 -De' zonder spatie. B2/D4: r78 heeft '*Het ontbreken van een conceptueel kader...*' als standalone italic-regel die als subsectietitel fungeert — PDF-artefact, niet als heading gemarkeerd. Alle vier ### subkoppen (r95, r103, r117, r128) gebruiken '*italic wrapper*' — consistent PDF-extractieartefact dat een mens nooit zo schrijft."
     layer1:
       file_size_chars: 17383
       flags: []
@@ -41,22 +41,22 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:19:36Z'
-      rationale: "A9: H1-titel (r92) heeft 'instrumenten1' — superscript-voetnootnummer niet geparsed als [^1], plus ontbrekende spatie in '2010/12 -De' (koppelteken zonder spatiëring). D4: r96 bevat '*Het ontbreken van een conceptueel kader...*' als italic-blok direct na ## Inleiding heading zonder newline-separator (ETL-artefact: de cursieve sectietitel staat als plain-text italic in de body). Alle ### subkoppen gebruiken '*tekst*' italic wrapper (r113, r121, r135, r146) — dit is consistente PDF-artefact-styling die een mens nooit zo zou schrijven."
+      run_at: '2026-05-11T17:09:38Z'
+      rationale: "A9: H1-titel (r74) bevat 'instrumenten1' — superscript voetnootnummer niet geparsed als [^1], plus '2010/12 -De' zonder spatie. B2/D4: r78 heeft '*Het ontbreken van een conceptueel kader...*' als standalone italic-regel die als subsectietitel fungeert — PDF-artefact, niet als heading gemarkeerd. Alle vier ### subkoppen (r95, r103, r117, r128) gebruiken '*italic wrapper*' — consistent PDF-extractieartefact dat een mens nooit zo schrijft."
       concrete_problemen:
-        - regel: 92
+        - regel: 74
           categorie: A9
           type: other
-          voorbeeld: CBN-advies 2010/12 -De toepassing van de algemene boekhoudprincipes op afgeleide financiële instrumenten1
-        - regel: 96
-          categorie: D4
+          voorbeeld: instrumenten1 Advies van 8 september 2010 (superscript [^1] niet geparsed)
+        - regel: 78
+          categorie: B4
           type: other
-          voorbeeld: '*Het ontbreken van een conceptueel kader inzake de boekhoudkundige verwerking van afgeleide financiële instrumenten*'
-        - regel: 113
+          voorbeeld: '*Het ontbreken van een conceptueel kader inzake de boekhoudkundige verwerking...*'
+        - regel: 95
           categorie: B2
           type: other
-          voorbeeld: '### *Doelstelling van het advies* (italic wrapper in heading is PDF-artefact)'
-        - regel: 135
+          voorbeeld: '### *Doelstelling van het advies* (italic wrapper in ### heading)'
+        - regel: 117
           categorie: D4
           type: other
           voorbeeld: '*Voorrang van het boekhoudkundig realisatiebeginsel op het overeenstemmingsprincipe*'

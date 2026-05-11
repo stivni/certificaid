@@ -17,9 +17,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T15:23:43Z'
+    confirmed_at: '2026-05-11T17:13:30Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "Nieuw verdict (was unreviewed). E1/E2: de RSU-voorbeeldtabellen op regels 95–232 (methode A) en 319–420 (methode B) zijn niet gerenderd als pipe-tabellen maar als gefragmenteerde aaneengekoppelde single-cell blokken (`|` + lege regels + `|---|` + losse celinhoud op afzonderlijke regels). Dit is een stelselmatig tabelextractie-artefact. B5: regels 71–72 en 86–87 bevatten methode-koppen als plain-text alinea's (`Erkenning van de kost op basis van…`) die headings hadden moeten zijn."
+    rationale: "E1/E2: RSU-tabellen (regels 110–247 methode A, 333–435 methode B) zijn niet als pipe-tabellen gerenderd maar als losse single-cell fragmenten (`| \n\n  | | \n|---|`). B5: methode-koppen op regels 86 en 101 zijn plain-text alinea's zonder heading-prefix. Overige inhoud en journaalpost-tabellen zijn correct."
     layer1:
       file_size_chars: 20386
       flags: []
@@ -31,25 +31,25 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:23:43Z'
-      rationale: "Nieuw verdict (was unreviewed). E1/E2: de RSU-voorbeeldtabellen op regels 95–232 (methode A) en 319–420 (methode B) zijn niet gerenderd als pipe-tabellen maar als gefragmenteerde aaneengekoppelde single-cell blokken (`|` + lege regels + `|---|` + losse celinhoud op afzonderlijke regels). Dit is een stelselmatig tabelextractie-artefact. B5: regels 71–72 en 86–87 bevatten methode-koppen als plain-text alinea's (`Erkenning van de kost op basis van…`) die headings hadden moeten zijn."
+      run_at: '2026-05-11T17:13:30Z'
+      rationale: "E1/E2: RSU-tabellen (regels 110–247 methode A, 333–435 methode B) zijn niet als pipe-tabellen gerenderd maar als losse single-cell fragmenten (`| \n\n  | | \n|---|`). B5: methode-koppen op regels 86 en 101 zijn plain-text alinea's zonder heading-prefix. Overige inhoud en journaalpost-tabellen zijn correct."
       concrete_problemen:
-        - regel: 95
+        - regel: 110
           categorie: E1
           type: other
-          voorbeeld: "| \n\n  | | \n|---|\n\nBeurskoers\n\n  | | \n|---|\n\nVerwachte beurskoers..."
-        - regel: 319
+          voorbeeld: "| \n\n  | | \n|---|\n\nBeurskoers\n\n  | | \n|---|\n\nVerwachte beurskoers op 1 maart 20x6"
+        - regel: 333
           categorie: E1
           type: other
           voorbeeld: "| \n\n  | | \n|---|\n\nBeurskoers\n\n  | | \n|---|\n\nVerwachte retentiegraad"
-        - regel: 71
-          categorie: B5
-          type: other
-          voorbeeld: Erkenning van de kost op basis van de verwachte beurskoers of verwachte reële waarde...
         - regel: 86
           categorie: B5
           type: other
-          voorbeeld: Erkenning van de kost op basis van de effectieve beurskoers of reële waarde per balansdatum
+          voorbeeld: Erkenning van de kost op basis van de verwachte beurskoers of verwachte reële waarde op de datum van terbeschikkingstelling van de aandelen (methode A)
+        - regel: 101
+          categorie: B5
+          type: other
+          voorbeeld: Erkenning van de kost op basis van de effectieve beurskoers of reële waarde per balansdatum (methode B)
 themas:
   - restricted stock unit
   - RSU

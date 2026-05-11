@@ -17,9 +17,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T15:15:32Z'
+    confirmed_at: '2026-05-11T17:05:20Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "B2: heading-hiërarchie springt van H1 (titel) direct naar H4 (regel 58) en H5 (regel 60), H2 en H3 ontbreken volledig. B3: titel op regel 45 bevat 'verkoper1' — voetnootcijfer '1' is samengesmolten met de titel-tekst (ETL-bug, geen markdown superscript). Tabellen zijn correct als pipe-tables. Body inhoudelijk compleet."
+    rationale: "B3: de H1-titel op regel 53 eindigt op 'verkoper1' — het voetnootcijfer '1' is samengesmolten met de titeltekst (ETL-bug, geen markdown superscript). Heading-hiërarchie is correct (H1 → H2 → H2); eerdere B2-claim was onjuist. Tabellen zijn correct als pipe-tables; overige inhoud compleet."
     layer1:
       file_size_chars: 7872
       flags: []
@@ -31,17 +31,13 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:15:32Z'
-      rationale: "B2: heading-hiërarchie springt van H1 (titel) direct naar H4 (regel 58) en H5 (regel 60), H2 en H3 ontbreken volledig. B3: titel op regel 45 bevat 'verkoper1' — voetnootcijfer '1' is samengesmolten met de titel-tekst (ETL-bug, geen markdown superscript). Tabellen zijn correct als pipe-tables. Body inhoudelijk compleet."
+      run_at: '2026-05-11T17:05:20Z'
+      rationale: "B3: de H1-titel op regel 53 eindigt op 'verkoper1' — het voetnootcijfer '1' is samengesmolten met de titeltekst (ETL-bug, geen markdown superscript). Heading-hiërarchie is correct (H1 → H2 → H2); eerdere B2-claim was onjuist. Tabellen zijn correct als pipe-tables; overige inhoud compleet."
       concrete_problemen:
-        - regel: 45
+        - regel: 53
           categorie: B3
           type: other
-          voorbeeld: '# CBN-advies 126/12 - Boeking van ... de kost van werken ten laste van de verkoper1'
-        - regel: 58
-          categorie: B2
-          type: other
-          voorbeeld: '#### DE BETALING VAN EEN UITZETTINGSVERGOEDING — H4 direct onder H1, H2/H3 ontbreken'
+          voorbeeld: '# CBN-advies 126/12 - ...kost van werken ten laste van de verkoper1'
 themas:
   - kost van werken ten laste van de verkoper
   - materiële vaste activa

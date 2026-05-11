@@ -29,10 +29,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T15:19:36Z'
+    status: trusted
+    confirmed_at: '2026-05-11T17:09:38Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: 'A3 bevestigd: r70-72 plain-text inhoudsopgave direct na H1 — drie genummerde punten die de drie ## secties nabootsen maar geen headings zijn. Verder structureel correct: vier headings op ## niveau, voetnoten 1-9 volledig gedefinieerd en gerefereerd, geen tabellen, geen OCR-artefacten.'
+    rationale: 'Geen ETL-artefacten bevestigd. De eerder gerapporteerde A3 (r70-72 TOC) is niet bevestigd: de body bevat geen plain-text inhoudsopgave; de vier ## headings (Inleiding, Omrekening..., Afwijkingsaanvragen..., Aanvragen tot verlenging...) volgen direct zonder tussenliggend TOC-blok. Voetnoten 1-9 zijn volledig gedefinieerd en gerefereerd. Geen tabellen, geen OCR-problemen, geen broken markup.'
     layer1:
       file_size_chars: 8490
       flags: []
@@ -42,15 +42,11 @@ provenance:
       run_id: 20260511-150547
       status: pass
     layer2:
-      status: needs-rework
+      status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:19:36Z'
-      rationale: 'A3 bevestigd: r70-72 plain-text inhoudsopgave direct na H1 — drie genummerde punten die de drie ## secties nabootsen maar geen headings zijn. Verder structureel correct: vier headings op ## niveau, voetnoten 1-9 volledig gedefinieerd en gerefereerd, geen tabellen, geen OCR-artefacten.'
-      concrete_problemen:
-        - regel: 70
-          categorie: A3
-          type: other
-          voorbeeld: "1. Omrekening van activa, passiva, kosten en opbrengsten naar aanleiding van het verkrijgen van de afwijking...\n2. Afwijkingsaanvragen ingediend door vennootschappen..."
+      run_at: '2026-05-11T17:09:38Z'
+      rationale: 'Geen ETL-artefacten bevestigd. De eerder gerapporteerde A3 (r70-72 TOC) is niet bevestigd: de body bevat geen plain-text inhoudsopgave; de vier ## headings (Inleiding, Omrekening..., Afwijkingsaanvragen..., Aanvragen tot verlenging...) volgen direct zonder tussenliggend TOC-blok. Voetnoten 1-9 zijn volledig gedefinieerd en gerefereerd. Geen tabellen, geen OCR-problemen, geen broken markup.'
+      concrete_problemen: []
 themas:
   - afwijking
   - afwijkingsaanvraag

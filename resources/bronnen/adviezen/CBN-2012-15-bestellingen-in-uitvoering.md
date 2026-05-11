@@ -30,9 +30,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T15:19:36Z'
+    confirmed_at: '2026-05-11T17:09:38Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "E2: de vergelijkingstabel 'percentage of completion vs completed contract' op regels 164–186 heeft multi-line celinhoud met lege regels ertussen — dit is geen geldige markdown-pipe-tabel en zal niet correct renderen. E2: de journaalboekingstabel op regels 489–492 heeft twee debet-regels zonder 'aan'-prefix op de credit-zijde (rekening 370 én 7170 beiden als debet-rij in dezelfde tabel zonder tegenboekingsstructuur)."
+    rationale: "E2: de vergelijkingstabel op regels 150–172 heeft multi-line celinhoud met lege regels ertussen — geen geldige markdown-pipe-tabel, zal niet correct renderen. E2: de journaalboekingstabel op regels 475–478 heeft rekening 370 én 7170 beiden als debet-rij zonder 'aan'-prefix op de tweede rij, waardoor de debet/credit-structuur ontbreekt."
     layer1:
       file_size_chars: 41221
       flags: []
@@ -44,17 +44,17 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:19:36Z'
-      rationale: "E2: de vergelijkingstabel 'percentage of completion vs completed contract' op regels 164–186 heeft multi-line celinhoud met lege regels ertussen — dit is geen geldige markdown-pipe-tabel en zal niet correct renderen. E2: de journaalboekingstabel op regels 489–492 heeft twee debet-regels zonder 'aan'-prefix op de credit-zijde (rekening 370 én 7170 beiden als debet-rij in dezelfde tabel zonder tegenboekingsstructuur)."
+      run_at: '2026-05-11T17:09:38Z'
+      rationale: "E2: de vergelijkingstabel op regels 150–172 heeft multi-line celinhoud met lege regels ertussen — geen geldige markdown-pipe-tabel, zal niet correct renderen. E2: de journaalboekingstabel op regels 475–478 heeft rekening 370 én 7170 beiden als debet-rij zonder 'aan'-prefix op de tweede rij, waardoor de debet/credit-structuur ontbreekt."
       concrete_problemen:
-        - regel: 164
+        - regel: 150
           categorie: E2
           type: pseudo-table
-          voorbeeld: '| | | *Percentage of completion methode* | | *Completed contract methode* |'
-        - regel: 489
+          voorbeeld: '| | | *Percentage of completion methode* | | *Completed contract methode* |\n|---|---|---|---|---|\n| Zekerheid... | |\n\nDe geanticipeerde winst...'
+        - regel: 478
           categorie: E2
           type: other
-          voorbeeld: "| | 370 | Bestellingen in uitvoering – Aanschaffingswaarde | 40.000 | |\n| | 7170 | Wijzigingen... | 40.000 | |"
+          voorbeeld: '| | 370 | Bestellingen in uitvoering – Aanschaffingswaarde | 40.000 | |\n| | 7170 | Wijzigingen... | 40.000 | |'
 themas:
   - bestellingen in uitvoering
   - completed contract method

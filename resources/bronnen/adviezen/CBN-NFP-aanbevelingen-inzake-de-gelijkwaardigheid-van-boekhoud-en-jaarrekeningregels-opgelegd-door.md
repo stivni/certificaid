@@ -17,9 +17,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T15:26:40Z'
+    confirmed_at: '2026-05-11T17:13:31Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "B4: sectie A (Inleiding) is opgemaakt als `**A. INLEIDING**` bold-tekst op regel 101 in plaats van als ## heading, terwijl secties B, C en D wél als ## heading zijn opgemaakt — inconsistente heading-structuur die een mens nooit zo zou schrijven. B3: regel 99 bevat een tweede # H1-heading '## Januari 2007' onmiddellijk na de hoofd-H1 op regel 97, zonder sectie-inhoud — een lege sectionering. A6/C2: de genummerde criteria 1-9 in sectie D (regels 180-206) staan elk als een geïsoleerd getal op een eigen regel gevolgd door de tekst op de volgende alinea (`1.\n\nEen patrimoniale boekhouding...`), in plaats van als `1. tekst` op één regel — PDF-extractie-artefact."
+    rationale: "B4: sectie A (Inleiding) is als '**A. INLEIDING**' bold-tekst opgemaakt (regel 71) in plaats van als ## heading, terwijl secties B (regel 112), C (regel 129) en D (regel 144) wél als ## heading zijn opgemaakt — inconsistente heading-behandeling is een extractie-artefact. B3: '## Januari 2007' (regel 69) staat onmiddellijk na de H1-titel zonder eigen inhoud — lege sectionering. A6/C2: de genummerde criteria 1-9 in sectie D (regels 150-176) staan elk als een geïsoleerd getal op een eigen regel gevolgd door de tekst in een aparte alinea, in plaats van als '1. tekst' op één regel — PDF-reflow-artefact."
     layer1:
       file_size_chars: 23501
       flags: []
@@ -31,21 +31,21 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:26:40Z'
-      rationale: "B4: sectie A (Inleiding) is opgemaakt als `**A. INLEIDING**` bold-tekst op regel 101 in plaats van als ## heading, terwijl secties B, C en D wél als ## heading zijn opgemaakt — inconsistente heading-structuur die een mens nooit zo zou schrijven. B3: regel 99 bevat een tweede # H1-heading '## Januari 2007' onmiddellijk na de hoofd-H1 op regel 97, zonder sectie-inhoud — een lege sectionering. A6/C2: de genummerde criteria 1-9 in sectie D (regels 180-206) staan elk als een geïsoleerd getal op een eigen regel gevolgd door de tekst op de volgende alinea (`1.\n\nEen patrimoniale boekhouding...`), in plaats van als `1. tekst` op één regel — PDF-extractie-artefact."
+      run_at: '2026-05-11T17:13:31Z'
+      rationale: "B4: sectie A (Inleiding) is als '**A. INLEIDING**' bold-tekst opgemaakt (regel 71) in plaats van als ## heading, terwijl secties B (regel 112), C (regel 129) en D (regel 144) wél als ## heading zijn opgemaakt — inconsistente heading-behandeling is een extractie-artefact. B3: '## Januari 2007' (regel 69) staat onmiddellijk na de H1-titel zonder eigen inhoud — lege sectionering. A6/C2: de genummerde criteria 1-9 in sectie D (regels 150-176) staan elk als een geïsoleerd getal op een eigen regel gevolgd door de tekst in een aparte alinea, in plaats van als '1. tekst' op één regel — PDF-reflow-artefact."
       concrete_problemen:
-        - regel: 99
+        - regel: 69
           categorie: B3
           type: other
-          voorbeeld: '## Januari 2007 (tweede H1/H2 onmiddellijk na hoofd-H1, lege sectie-heading)'
-        - regel: 101
+          voorbeeld: '## Januari 2007 (lege H2-heading onmiddellijk na H1, geen sectie-inhoud)'
+        - regel: 71
           categorie: B4
           type: other
-          voorbeeld: '**A. INLEIDING** (bold tekst als sectie-label i.p.v. ## heading, inconsistent met ## B, ## C, ## D)'
-        - regel: 180
+          voorbeeld: '**A. INLEIDING** (bold-tekst als sectielabel i.p.v. ## heading; inconsistent met ## B, ## C, ## D)'
+        - regel: 150
           categorie: A6
           type: other
-          voorbeeld: "1. \n\nEen patrimoniale boekhouding voeren... (getal op eigen regel, tekst op volgende alinea — criteria 1-9 allemaal zo)"
+          voorbeeld: 1. \n\nEen patrimoniale boekhouding voeren... (getal op eigen regel, tekst in aparte alinea — criteria 1-9 allemaal zo)
 themas:
   - gelijkwaardigheid
   - zeer grote verenigingen en stichtingen

@@ -24,9 +24,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T15:19:36Z'
+    confirmed_at: '2026-05-11T17:09:38Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "E2/A6: tabel op r91-99 (balans EUR vs USD) heeft een gebroken rij — r94 bevat '| *Kapitaal* | | *1.000* | | *1.500' zonder sluitende pipe, gevolgd door r95-96 als insprong '\\n\\n\\t\\t\\t\\t-300* |' wat een ETL tabel-rendering-bug is waarbij een cel met newline-inhoud niet correct geparsed werd. B2: heading_count = 0 per Laag 1 — het gehele advies staat als één blok tekst zonder enige ## subheading, maar dit kan overeenstemmen met het originele document dat ook geen expliciete subsecties heeft (kort advies van ~1 pagina). Gezien de tabelbreuk is needs-rework gerechtvaardigd."
+    rationale: "E2/A6: tabel op r97-105 (balans EUR vs USD) heeft een gebroken rij — r100 eindigt met '| | *1.500' zonder sluitende pipe, en r102 heeft '\\t\\t\\t\\t-300* |' als verdrongen celinhoud op een aparte insprong-regel. ETL tabel-rendering-bug waarbij een cel met een newline-karakter niet correct geparsed werd."
     layer1:
       file_size_chars: 7531
       flags: []
@@ -38,17 +38,17 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:19:36Z'
-      rationale: "E2/A6: tabel op r91-99 (balans EUR vs USD) heeft een gebroken rij — r94 bevat '| *Kapitaal* | | *1.000* | | *1.500' zonder sluitende pipe, gevolgd door r95-96 als insprong '\\n\\n\\t\\t\\t\\t-300* |' wat een ETL tabel-rendering-bug is waarbij een cel met newline-inhoud niet correct geparsed werd. B2: heading_count = 0 per Laag 1 — het gehele advies staat als één blok tekst zonder enige ## subheading, maar dit kan overeenstemmen met het originele document dat ook geen expliciete subsecties heeft (kort advies van ~1 pagina). Gezien de tabelbreuk is needs-rework gerechtvaardigd."
+      run_at: '2026-05-11T17:09:38Z'
+      rationale: "E2/A6: tabel op r97-105 (balans EUR vs USD) heeft een gebroken rij — r100 eindigt met '| | *1.500' zonder sluitende pipe, en r102 heeft '\\t\\t\\t\\t-300* |' als verdrongen celinhoud op een aparte insprong-regel. ETL tabel-rendering-bug waarbij een cel met een newline-karakter niet correct geparsed werd."
       concrete_problemen:
-        - regel: 94
+        - regel: 100
           categorie: E2
           type: other
-          voorbeeld: '| *Kapitaal* | | *1.000* | | *1.500 → cel breekt naar volgende regels zonder sluitende pipe'
-        - regel: 95
+          voorbeeld: '| *Kapitaal* | | *1.000* | | *1.500 — cel breekt naar volgende regel zonder sluitende pipe'
+        - regel: 102
           categorie: A6
           type: other
-          voorbeeld: "\n\n\t\t\t\t-300* |"
+          voorbeeld: "\t\t\t\t-300* |"
 themas:
   - functionele munt
   - functionele valuta

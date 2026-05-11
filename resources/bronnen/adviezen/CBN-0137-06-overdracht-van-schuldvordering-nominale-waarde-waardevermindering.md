@@ -30,9 +30,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T15:15:33Z'
+    confirmed_at: '2026-05-11T17:05:21Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "E2/G3 (regel 107): voetnootlabel '1' is in de tabelcel gelekt — '6331 | Handelsvorderingen op meer dan 1 jaar -terugneming van waardeverminderingen 1 | 10 |' — dit is een ETL-artefact. De heading '### Op de vervandag' (regel 98) bevat 'vervandag' i.p.v. 'vervaldag'; dit is vermoedelijk een source-typo op de CBN-website en telt op zichzelf niet als needs-rework-grond, maar het ingelekte voetnoomlabel is een duidelijke ETL-bug."
+    rationale: "E2 (regel 108): voetnootlabel '1' lekt nog steeds in de tabelcel — '6331 | Handelsvorderingen op meer dan 1 jaar -terugneming van waardeverminderingen 1 | 10 |' — ETL-bug ongewijzigd t.o.v. ronde 2. Heading '### Op de vervandag' (regel 99) blijft een source-typo (telt niet als needs-rework-grond). Geen nieuwe problemen gevonden."
     layer1:
       file_size_chars: 3515
       flags: []
@@ -44,17 +44,17 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:15:33Z'
-      rationale: "E2/G3 (regel 107): voetnootlabel '1' is in de tabelcel gelekt — '6331 | Handelsvorderingen op meer dan 1 jaar -terugneming van waardeverminderingen 1 | 10 |' — dit is een ETL-artefact. De heading '### Op de vervandag' (regel 98) bevat 'vervandag' i.p.v. 'vervaldag'; dit is vermoedelijk een source-typo op de CBN-website en telt op zichzelf niet als needs-rework-grond, maar het ingelekte voetnoomlabel is een duidelijke ETL-bug."
+      run_at: '2026-05-11T17:05:21Z'
+      rationale: "E2 (regel 108): voetnootlabel '1' lekt nog steeds in de tabelcel — '6331 | Handelsvorderingen op meer dan 1 jaar -terugneming van waardeverminderingen 1 | 10 |' — ETL-bug ongewijzigd t.o.v. ronde 2. Heading '### Op de vervandag' (regel 99) blijft een source-typo (telt niet als needs-rework-grond). Geen nieuwe problemen gevonden."
       concrete_problemen:
-        - regel: 107
+        - regel: 108
           categorie: E2
           type: other
-          voorbeeld: 6331 | Handelsvorderingen op meer dan 1 jaar -terugneming van waardeverminderingen 1 | 10 |
-        - regel: 98
+          voorbeeld: 6331 | Handelsvorderingen op meer dan 1 jaar -terugneming van waardeverminderingen 1 | 10 | |
+        - regel: 99
           categorie: (source)
           type: source-typo
-          voorbeeld: "### Op de vervandag  (vermoedelijk 'vervaldag' in bron)"
+          voorbeeld: "### Op de vervandag  (vermoedelijk 'vervaldag' in bronpagina)"
 themas:
   - Waardevermindering
   - waardevermindering op vorderingen

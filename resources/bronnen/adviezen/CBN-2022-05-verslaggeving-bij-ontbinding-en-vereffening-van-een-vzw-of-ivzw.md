@@ -30,9 +30,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T15:26:40Z'
+    confirmed_at: '2026-05-11T17:13:31Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "A3: TOC-fragment in body (regels 101-119) en aaneengesloten TOC-restant op regel 120. D2: regel 225 verwijst naar een schema ('Schematisch kunnen de volgende termijnen worden onderscheiden:') dat niet volgt — was een afbeelding in het origineel. (Herbevestiging van eerdere beoordeling.)"
+    rationale: "D2: regel 200 kondigt 'Schematisch kunnen de volgende termijnen worden onderscheiden:' aan maar het schema ontbreekt — identiek patroon als in CBN-2022-04. Ronde-3 herlezing: het eerder gemelde A3 TOC-fragment is niet aanwezig; de bullet-lijst op regels 101-107 is correcte document-inhoud (ontbindingsvormen), geen TOC-duplicaat."
     layer1:
       file_size_chars: 33400
       flags: []
@@ -44,21 +44,13 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:26:40Z'
-      rationale: "A3: TOC-fragment in body (regels 101-119) en aaneengesloten TOC-restant op regel 120. D2: regel 225 verwijst naar een schema ('Schematisch kunnen de volgende termijnen worden onderscheiden:') dat niet volgt — was een afbeelding in het origineel. (Herbevestiging van eerdere beoordeling.)"
+      run_at: '2026-05-11T17:13:31Z'
+      rationale: "D2: regel 200 kondigt 'Schematisch kunnen de volgende termijnen worden onderscheiden:' aan maar het schema ontbreekt — identiek patroon als in CBN-2022-04. Ronde-3 herlezing: het eerder gemelde A3 TOC-fragment is niet aanwezig; de bullet-lijst op regels 101-107 is correcte document-inhoud (ontbindingsvormen), geen TOC-duplicaat."
       concrete_problemen:
-        - regel: 101
-          categorie: A3
-          type: other
-          voorbeeld: 1. Ontbinding \n  1. Vrijwillige ontbinding \n  2. Ontbinding van rechtswege ... (TOC-fragment zonder heading-prefix)
-        - regel: 120
-          categorie: A3
-          type: other
-          voorbeeld: -- Sluiting vereffening na vrijwillige ontbinding-- Sluiting vereffening na ontbinding van rechtswege-- Sluiting vereffening na gerechtelijke ontbindingVoorbeeldAfwijkend...
-        - regel: 225
+        - regel: 200
           categorie: D2
           type: missing-section
-          voorbeeld: 'Schematisch kunnen de volgende termijnen worden onderscheiden: [schema/tijdlijn ontbreekt]'
+          voorbeeld: 'Schematisch kunnen de volgende termijnen worden onderscheiden: [tijdslijn-schema ontbreekt]'
 themas:
   - verslaggeving
   - ontbinding

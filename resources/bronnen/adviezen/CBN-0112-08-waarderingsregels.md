@@ -30,9 +30,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T15:15:32Z'
+    confirmed_at: '2026-05-11T17:05:20Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "A6: spurious line-break midden in een zin op regel 65-67: 'om duidelijk het' eindigt een blok, daarna lege regel, dan 'onderscheid te laten blijken' — typisch PDF-kolom-extractie-artefact. E2: de tabel (regels 71-78) bevat lege tussencellen (| | |) als visuele spacers uit het bronformaat, niet als valide markdown-tabelkolommen."
+    rationale: "A6: paragraaf op regels 73-75 is gesplitst over een lege regel midden in een zin ('om duidelijk het' → lege regel → 'onderscheid te laten blijken') — typisch PDF-kolom-extractie-artefact. E2: tabel (regels 79-86) bevat lege spacer-cellen (| | |) als visuele opvulling uit het bronformaat, geen valide markdown-tabelkolommen."
     layer1:
       file_size_chars: 1899
       flags: []
@@ -44,17 +44,17 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:15:32Z'
-      rationale: "A6: spurious line-break midden in een zin op regel 65-67: 'om duidelijk het' eindigt een blok, daarna lege regel, dan 'onderscheid te laten blijken' — typisch PDF-kolom-extractie-artefact. E2: de tabel (regels 71-78) bevat lege tussencellen (| | |) als visuele spacers uit het bronformaat, niet als valide markdown-tabelkolommen."
+      run_at: '2026-05-11T17:05:20Z'
+      rationale: "A6: paragraaf op regels 73-75 is gesplitst over een lege regel midden in een zin ('om duidelijk het' → lege regel → 'onderscheid te laten blijken') — typisch PDF-kolom-extractie-artefact. E2: tabel (regels 79-86) bevat lege spacer-cellen (| | |) als visuele opvulling uit het bronformaat, geen valide markdown-tabelkolommen."
       concrete_problemen:
-        - regel: 65
+        - regel: 73
           categorie: A6
           type: other
           voorbeeld: om duidelijk het [LEGE REGEL] onderscheid te laten blijken
-        - regel: 71
+        - regel: 79
           categorie: E2
           type: pseudo-table
-          voorbeeld: '| | | **Lineair afschrijvingspercentage...** | | **Aanvankelijk...** |'
+          voorbeeld: '| | | **Lineair afschrijvingspercentage op aanschaffingswaarde** | | **Aanvankelijk...**'
 themas:
   - afschrijvingen
   - degressieve afschrijving

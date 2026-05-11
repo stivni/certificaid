@@ -30,9 +30,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T15:23:43Z'
+    confirmed_at: '2026-05-11T17:13:30Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: 'A7: Regel 67 bevat een weesregel `) bestemd om duurzaam bij te dragen aan de activiteit van de VZW` direct vóór `## Inleiding` — fragment van een sectie-titel dat bij extractie los is gekomen. B2: Heading-hiërarchie-sprong op regels 196-200: `#### Niet-geregistreerde schenking` → `##### Waardering...` → `### Voorbeeld 5` — `###` staat hoger dan `####` wat een terugsprong van 2 niveaus is zonder tussenliggende heading.'
+    rationale: "A7: Regel 71 (body) bevat een weesregel ') bestemd om duurzaam bij te dragen aan de activiteit van de VZW' als los fragment vóór ## Inleiding — duidelijk extractie-artefact van een afgebroken sectie-titel. B2: Heading-hiërarchie-terugsprong op regels 200-204: #### Niet-geregistreerde schenking → ##### Waardering → ### Voorbeeld 5 — ### staat structureel hoger dan #### en #####, wat een onmogelijke hiërarchische terugkeer is zonder tussenliggende headings."
     layer1:
       file_size_chars: 33295
       flags: []
@@ -44,10 +44,10 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:23:43Z'
-      rationale: 'A7: Regel 67 bevat een weesregel `) bestemd om duurzaam bij te dragen aan de activiteit van de VZW` direct vóór `## Inleiding` — fragment van een sectie-titel dat bij extractie los is gekomen. B2: Heading-hiërarchie-sprong op regels 196-200: `#### Niet-geregistreerde schenking` → `##### Waardering...` → `### Voorbeeld 5` — `###` staat hoger dan `####` wat een terugsprong van 2 niveaus is zonder tussenliggende heading.'
+      run_at: '2026-05-11T17:13:30Z'
+      rationale: "A7: Regel 71 (body) bevat een weesregel ') bestemd om duurzaam bij te dragen aan de activiteit van de VZW' als los fragment vóór ## Inleiding — duidelijk extractie-artefact van een afgebroken sectie-titel. B2: Heading-hiërarchie-terugsprong op regels 200-204: #### Niet-geregistreerde schenking → ##### Waardering → ### Voorbeeld 5 — ### staat structureel hoger dan #### en #####, wat een onmogelijke hiërarchische terugkeer is zonder tussenliggende headings."
       concrete_problemen:
-        - regel: 67
+        - regel: 71
           categorie: A7
           type: scrambled-words
           voorbeeld: ) bestemd om duurzaam bij te dragen aan de activiteit van de VZW

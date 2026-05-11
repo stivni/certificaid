@@ -16,10 +16,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T15:19:36Z'
+    status: trusted
+    confirmed_at: '2026-05-11T17:09:38Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "D4: regels 71 en 74 tonen geciteerde wetsartikelen in italic met trailing spatie vóór de sluitende asterisk ('*\"Een Belgische of buitenlandse onderneming:* ' op regel 71 en '...elektronisch geld.\"* ' op regel 74) — het spatie-voor-sluitende-asterisk patroon maakt de italic-markup ongeldig in de meeste markdown-parsers. Kort document (5053 chars), verder volledig schoon."
+    rationale: 'Eerder gemelde D4 (spatie voor sluitende asterisk op regels 60 en 63) is een source-typo: de CBN-website formatteert geciteerde wetteksten als italic met een spatie voor de sluiting — een mens die de HTML opent ziet hetzelfde. Geen echte ETL-artefacten (categorieën A-G) aanwezig. Document is compact (5053 chars, 2 headings), inhoudelijk volledig, alle 6 voetnoten correct.'
     layer1:
       file_size_chars: 5053
       flags: []
@@ -29,19 +29,15 @@ provenance:
       run_id: 20260511-150547
       status: pass
     layer2:
-      status: needs-rework
+      status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:19:36Z'
-      rationale: "D4: regels 71 en 74 tonen geciteerde wetsartikelen in italic met trailing spatie vóór de sluitende asterisk ('*\"Een Belgische of buitenlandse onderneming:* ' op regel 71 en '...elektronisch geld.\"* ' op regel 74) — het spatie-voor-sluitende-asterisk patroon maakt de italic-markup ongeldig in de meeste markdown-parsers. Kort document (5053 chars), verder volledig schoon."
+      run_at: '2026-05-11T17:09:38Z'
+      rationale: 'Eerder gemelde D4 (spatie voor sluitende asterisk op regels 60 en 63) is een source-typo: de CBN-website formatteert geciteerde wetteksten als italic met een spatie voor de sluiting — een mens die de HTML opent ziet hetzelfde. Geen echte ETL-artefacten (categorieën A-G) aanwezig. Document is compact (5053 chars, 2 headings), inhoudelijk volledig, alle 6 voetnoten correct.'
       concrete_problemen:
-        - regel: 71
-          categorie: D4
-          type: other
+        - regel: 60
+          categorie: (source)
+          type: source-typo
           voorbeeld: '*"Een Belgische of buitenlandse onderneming:* '
-        - regel: 74
-          categorie: D4
-          type: other
-          voorbeeld: '*waarvan de werkzaamheden bestaan in het uitgeven van betaalinstrumenten in de vorm van elektronisch geld."* '
 themas:
   - erkende kredietmaatschappij
   - kredietmaatschappij

@@ -17,9 +17,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T15:19:36Z'
+    confirmed_at: '2026-05-11T17:09:38Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "A9: regels 490 en 499 tonen 'ndekkings-IRS' (leading 'I' weggevallen) — OCR-verwarring consistent op twee plaatsen. B5: regel 350 heeft 'De IRS als indekkingsverrichting van een lening of ontlening tegen variabele rentevoet' als plain-text alinea zonder heading-prefix terwijl dit een sectie-titel is (er staat wel een ### Principes eronder op regel 352, maar de sectie-opener zelf mist een ###-prefix). Evenzo regel 395: 'De IRS als indekkingsverrichting van een vastrentend effect opgenomen onder de geldbeleggingen' is plain-text zonder heading-prefix."
+    rationale: "A9: regels 477 en 486 tonen 'ndekkings-IRS' — de leidende 'I' van 'Indekkings-IRS' is weggevallen, consistent op twee plaatsen (OCR-verwarring). B5: regels 337 en 382 tonen sectie-titels ('De IRS als indekkingsverrichting van een lening of ontlening tegen variabele rentevoet' en 'De IRS als indekkingsverrichting van een vastrentend effect opgenomen onder de geldbeleggingen') als plain-text alinea zonder ### prefix, terwijl de paragrafen er direct onder wel ### subheadings hebben."
     layer1:
       file_size_chars: 36098
       flags: []
@@ -31,22 +31,22 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:19:36Z'
-      rationale: "A9: regels 490 en 499 tonen 'ndekkings-IRS' (leading 'I' weggevallen) — OCR-verwarring consistent op twee plaatsen. B5: regel 350 heeft 'De IRS als indekkingsverrichting van een lening of ontlening tegen variabele rentevoet' als plain-text alinea zonder heading-prefix terwijl dit een sectie-titel is (er staat wel een ### Principes eronder op regel 352, maar de sectie-opener zelf mist een ###-prefix). Evenzo regel 395: 'De IRS als indekkingsverrichting van een vastrentend effect opgenomen onder de geldbeleggingen' is plain-text zonder heading-prefix."
+      run_at: '2026-05-11T17:09:38Z'
+      rationale: "A9: regels 477 en 486 tonen 'ndekkings-IRS' — de leidende 'I' van 'Indekkings-IRS' is weggevallen, consistent op twee plaatsen (OCR-verwarring). B5: regels 337 en 382 tonen sectie-titels ('De IRS als indekkingsverrichting van een lening of ontlening tegen variabele rentevoet' en 'De IRS als indekkingsverrichting van een vastrentend effect opgenomen onder de geldbeleggingen') als plain-text alinea zonder ### prefix, terwijl de paragrafen er direct onder wel ### subheadings hebben."
       concrete_problemen:
-        - regel: 490
+        - regel: 477
           categorie: A9
           type: ocr-confusion
-          voorbeeld: '| | ndekkings-IRS (notioneel van 10.000.000 €, netto balanswaarde van -7.500 €) |'
-        - regel: 499
+          voorbeeld: '| | ndekkings-IRS (notioneel van 10.000.000 €, netto balanswaarde van -7.500 €) | -50.000 | | |'
+        - regel: 486
           categorie: A9
           type: ocr-confusion
           voorbeeld: '| | ndekkings-IRS (notioneel van 10.000.000 €) | -42.500 | | |'
-        - regel: 350
+        - regel: 337
           categorie: B5
           type: other
           voorbeeld: De IRS als indekkingsverrichting van een lening of ontlening tegen variabele rentevoet
-        - regel: 395
+        - regel: 382
           categorie: B5
           type: other
           voorbeeld: De IRS als indekkingsverrichting van een vastrentend effect opgenomen onder de geldbeleggingen

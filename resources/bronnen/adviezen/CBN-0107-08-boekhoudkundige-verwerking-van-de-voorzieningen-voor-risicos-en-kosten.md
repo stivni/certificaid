@@ -17,9 +17,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T15:15:32Z'
+    confirmed_at: '2026-05-11T17:05:20Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "G2: HTML-entity '&#039;' staat nog steeds in de frontmatter themas op regel 45 ('voorzieningen voor risico&#039;s en kosten') — ETL-artefact niet opgelost door scraper-fixes. Body en voetnoten zijn schoon."
+    rationale: "G2: frontmatter themas-veld op regel 45 bevat ongeparseerde HTML-entity '&#039;' ('voorzieningen voor risico&#039;s en kosten') — ETL-bug, HTML niet gedecode. Body-tekst is volledig clean en goed leesbaar."
     layer1:
       file_size_chars: 2994
       flags: []
@@ -31,13 +31,13 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:15:32Z'
-      rationale: "G2: HTML-entity '&#039;' staat nog steeds in de frontmatter themas op regel 45 ('voorzieningen voor risico&#039;s en kosten') — ETL-artefact niet opgelost door scraper-fixes. Body en voetnoten zijn schoon."
+      run_at: '2026-05-11T17:05:20Z'
+      rationale: "G2: frontmatter themas-veld op regel 45 bevat ongeparseerde HTML-entity '&#039;' ('voorzieningen voor risico&#039;s en kosten') — ETL-bug, HTML niet gedecode. Body-tekst is volledig clean en goed leesbaar."
       concrete_problemen:
         - regel: 45
           categorie: G2
           type: other
-          voorbeeld: voorzieningen voor risico&#039;s en kosten
+          voorbeeld: voorzieningen voor risico&#039;s en kosten — HTML-entity &#039; niet gedecode in YAML
 themas:
   - fiscale voorziening
   - voorziening

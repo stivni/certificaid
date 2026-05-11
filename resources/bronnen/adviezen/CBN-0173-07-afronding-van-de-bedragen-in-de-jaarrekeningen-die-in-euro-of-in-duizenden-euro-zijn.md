@@ -30,9 +30,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T15:19:36Z'
+    confirmed_at: '2026-05-11T17:05:21Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "Bevestiging van vorige QA (ronde 1). F1: frontmatter-thema 'opslag van afvalstoffen' (r.69) is een scraping-artefact — inhoudelijk totaal vreemd aan dit advies over afronding in euro. De body zelf is schoon en volledig; geen structuur- of extractie-artefacten in de tekst."
+    rationale: "F1 frontmatter-artefact bevestigd r.59: thema 'opslag van afvalstoffen' staat in de themalijst maar is inhoudelijk totaal vreemd aan dit advies over afronding van bedragen in euro — duidelijk een scraping-artefact waarbij een thema van een ander advies is meegenomen. Body is schoon: geen headings (heading_count=0 is correct voor dit korte advies), drie voetnoten correct, tekst volledig."
     layer1:
       file_size_chars: 2636
       flags: []
@@ -44,13 +44,13 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:19:36Z'
-      rationale: "Bevestiging van vorige QA (ronde 1). F1: frontmatter-thema 'opslag van afvalstoffen' (r.69) is een scraping-artefact — inhoudelijk totaal vreemd aan dit advies over afronding in euro. De body zelf is schoon en volledig; geen structuur- of extractie-artefacten in de tekst."
+      run_at: '2026-05-11T17:05:21Z'
+      rationale: "F1 frontmatter-artefact bevestigd r.59: thema 'opslag van afvalstoffen' staat in de themalijst maar is inhoudelijk totaal vreemd aan dit advies over afronding van bedragen in euro — duidelijk een scraping-artefact waarbij een thema van een ander advies is meegenomen. Body is schoon: geen headings (heading_count=0 is correct voor dit korte advies), drie voetnoten correct, tekst volledig."
       concrete_problemen:
-        - regel: 69
+        - regel: 59
           categorie: F1
           type: naam-mismatch
-          voorbeeld: '- opslag van afvalstoffen (thema staat in frontmatter, hoort niet bij dit advies)'
+          voorbeeld: '- opslag van afvalstoffen (thema staat in frontmatter, hoort niet bij dit advies over euro-afronding)'
 themas:
   - afronding
   - euro

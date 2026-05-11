@@ -30,9 +30,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T15:19:35Z'
+    confirmed_at: '2026-05-11T17:05:21Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "A3/B3: regel 74 herhaalt de volledige H1-titel als plain-text alinea direct onder de heading ('CBN-advies 157/1 - Tijdstip waarop de winst is gerealiseerd '), inclusief trailing spatie — duplicate page-title patroon afkomstig van HTML-scraping. Dit artefact is na de scraper-fixes nog steeds aanwezig in het bestand. Inhoud overigens volledig en correct."
+    rationale: "Vorig verdict bevestigd. A3 r.66: volledige H1-titel 'CBN-advies 157/1 - Tijdstip waarop de winst is gerealiseerd ' (met trailing spatie) herhaald als plain-text alinea direct na de H1-heading op r.64 — HTML-scrape-artefact. Inhoud overigens volledig en correct."
     layer1:
       file_size_chars: 1603
       flags: []
@@ -44,10 +44,10 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:19:35Z'
-      rationale: "A3/B3: regel 74 herhaalt de volledige H1-titel als plain-text alinea direct onder de heading ('CBN-advies 157/1 - Tijdstip waarop de winst is gerealiseerd '), inclusief trailing spatie — duplicate page-title patroon afkomstig van HTML-scraping. Dit artefact is na de scraper-fixes nog steeds aanwezig in het bestand. Inhoud overigens volledig en correct."
+      run_at: '2026-05-11T17:05:21Z'
+      rationale: "Vorig verdict bevestigd. A3 r.66: volledige H1-titel 'CBN-advies 157/1 - Tijdstip waarop de winst is gerealiseerd ' (met trailing spatie) herhaald als plain-text alinea direct na de H1-heading op r.64 — HTML-scrape-artefact. Inhoud overigens volledig en correct."
       concrete_problemen:
-        - regel: 74
+        - regel: 66
           categorie: A3
           type: other
           voorbeeld: 'CBN-advies 157/1 - Tijdstip waarop de winst is gerealiseerd '

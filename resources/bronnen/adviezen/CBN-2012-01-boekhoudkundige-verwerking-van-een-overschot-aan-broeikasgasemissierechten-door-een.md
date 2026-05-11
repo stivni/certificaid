@@ -21,9 +21,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T15:19:36Z'
+    confirmed_at: '2026-05-11T17:09:38Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "B5: regels 98 en 103 tonen subsectie-titels ('De onderneming behoudt het overschot van emissierechten en heeft dus niet de intentie...' en 'De onderneming heeft de intentie om het overschot van emissierechten te verkopen...') als plain-text alinea-openers zonder heading-prefix — conform de genummerde TOC op regels 1-2 hadden dit ### headings moeten zijn. D1: voetnoot [^5] op regel 145 eindigt abrupt mid-woord: 'hetgeen een onverantwoorde schending zou zijn van het bestendigheidsbeginse' (ontbreekt 'l') — mogelijk bron-afkapfout maar ook mogelijk ETL-truncatie."
+    rationale: "B5: regels 84 en 89 tonen subsectie-titels ('De onderneming behoudt het overschot...' en 'De onderneming heeft de intentie...') als plain-text alinea-openers zonder ### prefix — conform de genummerde TOC (regels 1-2 in het document ontbreken, maar de structuur impliceert twee subsecties). D1: voetnoot [^5] op regel 131 eindigt op 'bestendigheidsbeginse' — één letter afgehakt; mogelijk source-truncatie op CBN-website maar visueel abrupt."
     layer1:
       file_size_chars: 7509
       flags: []
@@ -35,18 +35,18 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:19:36Z'
-      rationale: "B5: regels 98 en 103 tonen subsectie-titels ('De onderneming behoudt het overschot van emissierechten en heeft dus niet de intentie...' en 'De onderneming heeft de intentie om het overschot van emissierechten te verkopen...') als plain-text alinea-openers zonder heading-prefix — conform de genummerde TOC op regels 1-2 hadden dit ### headings moeten zijn. D1: voetnoot [^5] op regel 145 eindigt abrupt mid-woord: 'hetgeen een onverantwoorde schending zou zijn van het bestendigheidsbeginse' (ontbreekt 'l') — mogelijk bron-afkapfout maar ook mogelijk ETL-truncatie."
+      run_at: '2026-05-11T17:09:38Z'
+      rationale: "B5: regels 84 en 89 tonen subsectie-titels ('De onderneming behoudt het overschot...' en 'De onderneming heeft de intentie...') als plain-text alinea-openers zonder ### prefix — conform de genummerde TOC (regels 1-2 in het document ontbreken, maar de structuur impliceert twee subsecties). D1: voetnoot [^5] op regel 131 eindigt op 'bestendigheidsbeginse' — één letter afgehakt; mogelijk source-truncatie op CBN-website maar visueel abrupt."
       concrete_problemen:
-        - regel: 98
+        - regel: 84
           categorie: B5
           type: other
           voorbeeld: De onderneming behoudt het overschot van emissierechten en heeft dus niet de intentie om deze emissierechten te verkopen op een actieve markt
-        - regel: 103
+        - regel: 89
           categorie: B5
           type: other
           voorbeeld: De onderneming heeft de intentie om het overschot van emissierechten te verkopen op een actieve markt
-        - regel: 145
+        - regel: 131
           categorie: D1
           type: abrupt-cutoff
           voorbeeld: hetgeen een onverantwoorde schending zou zijn van het bestendigheidsbeginse

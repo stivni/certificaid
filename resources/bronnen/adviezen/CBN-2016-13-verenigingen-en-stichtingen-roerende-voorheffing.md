@@ -27,9 +27,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T15:23:43Z'
+    confirmed_at: '2026-05-11T17:09:38Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: 'G3: regel 146 bevat ` [^18][^19][^20][^21]` als alleenstaande alinea tussen de boldtitel op regel 144 en de tabel op regel 148 — losgeraakte voetnootcluster die in de ankerzin op regel 144 hoort. Mineure D4: regel 120 gebruikt `**Boeking op 31/03/2013...**` als bold-paragraaf terwijl de equivalente boekingen op regels 105, 112, 128, 136 wél `##`-headings zijn — structuurinconsistentie.'
+    rationale: 'G3: regel 135 bevat ` [^18][^19][^20][^21]` als alleenstaande alinea direct na de boldtitel op regel 133 — losgeraakte voetnootcluster die in de ankerzin thuishoort maar door de extractor als eigen alinea is ingevoegd. B4: regel 109 gebruikt `**Boeking op 31/03/2013...**` als bold-paragraaf terwijl equivalente boekingen (regels 101, 117, 125) wél `##`-headings zijn — structuurinconsistentie die een heading-extractie-bug aanduidt.'
     layer1:
       file_size_chars: 9842
       flags: []
@@ -41,14 +41,14 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:23:43Z'
-      rationale: 'G3: regel 146 bevat ` [^18][^19][^20][^21]` als alleenstaande alinea tussen de boldtitel op regel 144 en de tabel op regel 148 — losgeraakte voetnootcluster die in de ankerzin op regel 144 hoort. Mineure D4: regel 120 gebruikt `**Boeking op 31/03/2013...**` als bold-paragraaf terwijl de equivalente boekingen op regels 105, 112, 128, 136 wél `##`-headings zijn — structuurinconsistentie.'
+      run_at: '2026-05-11T17:09:38Z'
+      rationale: 'G3: regel 135 bevat ` [^18][^19][^20][^21]` als alleenstaande alinea direct na de boldtitel op regel 133 — losgeraakte voetnootcluster die in de ankerzin thuishoort maar door de extractor als eigen alinea is ingevoegd. B4: regel 109 gebruikt `**Boeking op 31/03/2013...**` als bold-paragraaf terwijl equivalente boekingen (regels 101, 117, 125) wél `##`-headings zijn — structuurinconsistentie die een heading-extractie-bug aanduidt.'
       concrete_problemen:
-        - regel: 146
+        - regel: 135
           categorie: G3
           type: other
-          voorbeeld: ' [^18][^19][^20][^21] (losstaande voetnootcluster als eigen alinea)'
-        - regel: 120
+          voorbeeld: ' [^18][^19][^20][^21] (losstaande voetnootcluster als eigen alinea na boldtitel)'
+        - regel: 109
           categorie: B4
           type: other
           voorbeeld: '**Boeking op 31/03/2013 (tarief roerende voorheffing bedraagt 25[^10] procent)** (bold ipv ## heading)'

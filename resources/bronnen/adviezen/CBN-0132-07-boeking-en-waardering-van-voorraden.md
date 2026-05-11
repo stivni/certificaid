@@ -30,9 +30,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T15:15:33Z'
+    confirmed_at: '2026-05-11T17:05:21Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "Meerdere ETL-artefacten over het lange bestand: A9 op L144 ('Commussue' ipv 'Commissie' — OCR-letterverwarring). E2: talrijke tabellen met incomplete structuur — enkelvoudige rij met enkel de debetrekening als tabelheader zonder 'aan'-rij in de tabel (L269-274, L536-538, L639-645). C3-adjacent: breukformules met underscore-lijn als ASCII-art (L374-385). D4: L279 'Vooraadwijzgingen' (typisch OCR-slordigheid, missing letters)."
+    rationale: "Meerdere ETL-artefacten over het lange bestand: A9 op L168 ('Commussue' i.p.v. 'Commissie') en L303 ('Voorraadwijzgingen' missing letters). E2: enkelvoudige tabelrijen gevolgd door 'aan'-regels buiten de tabel op L293-295, L560-562, L663-667. C3 op L399 en L407: ASCII-art scheidingslijnen als breukformule-weergave. Duplicate tabel op L769-774 (zelfde boeking als L764-767)."
     layer1:
       file_size_chars: 75512
       flags: []
@@ -44,33 +44,37 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:15:33Z'
-      rationale: "Meerdere ETL-artefacten over het lange bestand: A9 op L144 ('Commussue' ipv 'Commissie' — OCR-letterverwarring). E2: talrijke tabellen met incomplete structuur — enkelvoudige rij met enkel de debetrekening als tabelheader zonder 'aan'-rij in de tabel (L269-274, L536-538, L639-645). C3-adjacent: breukformules met underscore-lijn als ASCII-art (L374-385). D4: L279 'Vooraadwijzgingen' (typisch OCR-slordigheid, missing letters)."
+      run_at: '2026-05-11T17:05:21Z'
+      rationale: "Meerdere ETL-artefacten over het lange bestand: A9 op L168 ('Commussue' i.p.v. 'Commissie') en L303 ('Voorraadwijzgingen' missing letters). E2: enkelvoudige tabelrijen gevolgd door 'aan'-regels buiten de tabel op L293-295, L560-562, L663-667. C3 op L399 en L407: ASCII-art scheidingslijnen als breukformule-weergave. Duplicate tabel op L769-774 (zelfde boeking als L764-767)."
       concrete_problemen:
-        - regel: 144
+        - regel: 168
           categorie: A9
           type: ocr-confusion
-          voorbeeld: Naar het oordeel van de Commussue moeten aan deze post...
-        - regel: 269
+          voorbeeld: 'Naar het oordeel van de Commussue moeten aan deze post... (OCR: Commussue i.p.v. Commissie)'
+        - regel: 293
           categorie: E2
           type: other
-          voorbeeld: "| 34 Handelsgoederen | (enkelvoudige tabelrij, 'aan 6094'-regel buiten tabel)"
-        - regel: 279
+          voorbeeld: "| 34 Handelsgoederen | (enkelvoudige tabelrij; 'aan 6094'-regel staat buiten tabel op L295)"
+        - regel: 303
           categorie: A9
           type: ocr-confusion
-          voorbeeld: 6094 Vooraadwijzgingen van handelsgoederen (missing letters)
-        - regel: 374
+          voorbeeld: '6094 Voorraadwijzgingen van handelsgoederen (missing letters: Voorraadwijzgingen)'
+        - regel: 399
           categorie: C3
           type: pseudo-table
           voorbeeld: ________________________________________________________________________________________________ (ASCII-art scheidingslijn voor breukformule)
-        - regel: 536
+        - regel: 560
           categorie: E2
           type: other
-          voorbeeld: "| 34 Voorraden | (enkelvoudige rij, 'aan 6094'-regel staat buiten de tabel)"
-        - regel: 639
+          voorbeeld: "| 34 Voorraden | (enkelvoudige rij; 'aan 6094'-regel staat buiten de tabel op L562)"
+        - regel: 663
           categorie: E2
           type: other
-          voorbeeld: "| 330 Gereed product - aanschaffingswaarde | gevolgd door lege rij en stray 'aan 713...' buiten tabel"
+          voorbeeld: "| 330 Gereed product - aanschaffingswaarde | (enkelvoudige rij; 'aan 713'-regel staat buiten tabel op L667)"
+        - regel: 769
+          categorie: E2
+          type: other
+          voorbeeld: Duplicate tabel 'bij vooruitbetaling' (L769-774 identiek aan L764-767) — ETL-duplicaat
 themas:
   - aanschaffingswaarde
   - aanschaffingsprijs

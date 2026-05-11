@@ -17,9 +17,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T15:26:40Z'
+    confirmed_at: '2026-05-11T17:13:31Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "D4: Drie italic-spans met spatie-artefacten door voetnootankers: L74 '*Wet van 19 november 2020 … [^2]*  ' (spatie vóór sluitende asterisk), L101 '*  een bedrag is opgenomen' (spatie na opening-asterisk), L148 'rekening* 1109 Andere beschikbare inbreng buiten kapitaal*' (leading asterisk zonder prefix-spatie). Consistent extractie-artefact in heel het advies."
+    rationale: "D4: drie italic-spans met spatie-artefacten door voetnootankers in de body: L74 sluit af met twee trailing spaces na de asterisk, L88 heeft hetzelfde patroon, L156 produceert 'rekening* 1109 Andere beschikbare inbreng buiten kapitaal*' met een losstaande asterisk voor '1109' — consistent extractie-artefact, geen source-typo. Laag-1-flags leeg, inhoud verder volledig met 24 voetnoten en correcte tabellen."
     layer1:
       file_size_chars: 17538
       flags: []
@@ -31,21 +31,21 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:26:40Z'
-      rationale: "D4: Drie italic-spans met spatie-artefacten door voetnootankers: L74 '*Wet van 19 november 2020 … [^2]*  ' (spatie vóór sluitende asterisk), L101 '*  een bedrag is opgenomen' (spatie na opening-asterisk), L148 'rekening* 1109 Andere beschikbare inbreng buiten kapitaal*' (leading asterisk zonder prefix-spatie). Consistent extractie-artefact in heel het advies."
+      run_at: '2026-05-11T17:13:31Z'
+      rationale: "D4: drie italic-spans met spatie-artefacten door voetnootankers in de body: L74 sluit af met twee trailing spaces na de asterisk, L88 heeft hetzelfde patroon, L156 produceert 'rekening* 1109 Andere beschikbare inbreng buiten kapitaal*' met een losstaande asterisk voor '1109' — consistent extractie-artefact, geen source-typo. Laag-1-flags leeg, inhoud verder volledig met 24 voetnoten en correcte tabellen."
       concrete_problemen:
         - regel: 74
           categorie: D4
           type: other
           voorbeeld: '*Wet van 19 november 2020 houdende de invoering van een wederopbouwreserve voor vennootschappen[^2]*  '
-        - regel: 101
+        - regel: 88
           categorie: D4
           type: other
-          voorbeeld: '*  een bedrag is opgenomen onder een drempel van 85 procent'
-        - regel: 170
+          voorbeeld: '*Bezoldigingen en rechtstreekse sociale voordelen[^15]*  een bedrag is opgenomen'
+        - regel: 156
           categorie: D4
           type: other
-          voorbeeld: rekening* 1109 Andere beschikbare inbreng buiten kapitaal*
+          voorbeeld: overboeking op rekening* 1109 Andere beschikbare inbreng buiten kapitaal*
 themas:
   - wederopbouwreserve
   - COVID-19

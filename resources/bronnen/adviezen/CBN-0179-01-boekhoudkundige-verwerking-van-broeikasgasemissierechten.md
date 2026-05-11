@@ -21,9 +21,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T15:19:36Z'
+    confirmed_at: '2026-05-11T17:05:21Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "Bevestiging van vorige QA (ronde 1). B4: '(Update november 2008)' op r.90 als plain tekst na H1 i.p.v. als subkopje. B2: IFRIC/Bruto/Nettomethode-secties staan als #### terwijl bovenliggende secties ## zijn — sprong ## → #### zonder ###. D4: meerdere malformed italic-patronen (r.180, r.182, r.188). Inhoud volledig maar structuurhiërarchie systematisch fout."
+    rationale: "B4 bevestigd r.73: '(Update november 2008)' als plain tekst direct na de H1-titel in plaats van als subkopje. D4 bevestigd r.163/165: 'Bij de* Interpretation 3 Emission Rights*' en 'In verband met de* Interpretation 3 Emission Rights*' — opening asterisk grenst direct aan 'de' zonder spatie (malformed italic). D4 ook r.180: ',* sui generis* rechten' toont spatie voor opening asterisk. Noot: de B2-sprong die in vorige ronde werd gemeld is niet meer zichtbaar in de huidige body (IFRIC/Bruto/Nettomethode staan als ###, correct onder ##), maar D4 en B4 volstaan voor needs-rework."
     layer1:
       file_size_chars: 25275
       flags: []
@@ -35,26 +35,22 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:19:36Z'
-      rationale: "Bevestiging van vorige QA (ronde 1). B4: '(Update november 2008)' op r.90 als plain tekst na H1 i.p.v. als subkopje. B2: IFRIC/Bruto/Nettomethode-secties staan als #### terwijl bovenliggende secties ## zijn — sprong ## → #### zonder ###. D4: meerdere malformed italic-patronen (r.180, r.182, r.188). Inhoud volledig maar structuurhiërarchie systematisch fout."
+      run_at: '2026-05-11T17:05:21Z'
+      rationale: "B4 bevestigd r.73: '(Update november 2008)' als plain tekst direct na de H1-titel in plaats van als subkopje. D4 bevestigd r.163/165: 'Bij de* Interpretation 3 Emission Rights*' en 'In verband met de* Interpretation 3 Emission Rights*' — opening asterisk grenst direct aan 'de' zonder spatie (malformed italic). D4 ook r.180: ',* sui generis* rechten' toont spatie voor opening asterisk. Noot: de B2-sprong die in vorige ronde werd gemeld is niet meer zichtbaar in de huidige body (IFRIC/Bruto/Nettomethode staan als ###, correct onder ##), maar D4 en B4 volstaan voor needs-rework."
       concrete_problemen:
-        - regel: 90
+        - regel: 73
           categorie: B4
           type: other
-          voorbeeld: (Update november 2008) — plain tekst direct na H1-titel
-        - regel: 167
-          categorie: B2
-          type: other
-          voorbeeld: '### IFRIC Interpretation 3 Emission Rights (sprong ## → ### ontbreekt ####)'
-        - regel: 180
+          voorbeeld: (Update november 2008) — plain tekst direct na H1-titel, geen heading-prefix
+        - regel: 163
           categorie: D4
           type: other
           voorbeeld: Bij de* Interpretation 3 Emission Rights* worden ook voorbeelden gegeven
-        - regel: 182
+        - regel: 165
           categorie: D4
           type: other
-          voorbeeld: In verband met de* Interpretation 3 Emission Rights* werden...
-        - regel: 197
+          voorbeeld: In verband met de* Interpretation 3 Emission Rights* werden een aantal kritieken
+        - regel: 180
           categorie: D4
           type: other
           voorbeeld: ',* sui generis* rechten en roerende rechten'

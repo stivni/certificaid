@@ -27,9 +27,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T15:19:36Z'
+    confirmed_at: '2026-05-11T17:09:38Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "B5: 'Onderliggende doelstellingen van optiecontracten.' op regel 118 staat als plain-text alinea-opener in plaats van als heading — de zin introduceert een nieuw subsectiethema maar heeft geen ##/###-prefix. D4: regel 108 bevat 'cfr*.* infra' waarbij een stray italic-asterisk de tekst vermangelt ('cfr.*. infra*' — het sluit-asterisk staat na de punt in plaats van er voor)."
+    rationale: "D4: regel 113 bevat 'de optie is dan \"in the money\", *cfr*.* infra*' waarbij een stray italic-asterisk de tekst vermangelt — het sluit-asterisk van '*cfr*' staat vóór de punt, waarna een nieuw italic-blok '* infra*' opent met een spatie na het asterisk. B5: regel 123 'Onderliggende doelstellingen van optiecontracten.' staat als plain-text alinea-opener terwijl het duidelijk een nieuw subsectie-thema introduceert."
     layer1:
       file_size_chars: 39045
       flags: []
@@ -41,17 +41,17 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:19:36Z'
-      rationale: "B5: 'Onderliggende doelstellingen van optiecontracten.' op regel 118 staat als plain-text alinea-opener in plaats van als heading — de zin introduceert een nieuw subsectiethema maar heeft geen ##/###-prefix. D4: regel 108 bevat 'cfr*.* infra' waarbij een stray italic-asterisk de tekst vermangelt ('cfr.*. infra*' — het sluit-asterisk staat na de punt in plaats van er voor)."
+      run_at: '2026-05-11T17:09:38Z'
+      rationale: "D4: regel 113 bevat 'de optie is dan \"in the money\", *cfr*.* infra*' waarbij een stray italic-asterisk de tekst vermangelt — het sluit-asterisk van '*cfr*' staat vóór de punt, waarna een nieuw italic-blok '* infra*' opent met een spatie na het asterisk. B5: regel 123 'Onderliggende doelstellingen van optiecontracten.' staat als plain-text alinea-opener terwijl het duidelijk een nieuw subsectie-thema introduceert."
       concrete_problemen:
-        - regel: 118
-          categorie: B5
-          type: other
-          voorbeeld: "Onderliggende doelstellingen van optiecontracten.\nVerschillende strategieën kunnen aan de basis liggen"
-        - regel: 108
+        - regel: 113
           categorie: D4
           type: other
           voorbeeld: (de optie is dan "in the money", *cfr*.* infra*)
+        - regel: 123
+          categorie: B5
+          type: other
+          voorbeeld: Onderliggende doelstellingen van optiecontracten.\nVerschillende strategieën kunnen aan de basis liggen
 themas:
   - aandelenopties
   - call-optie

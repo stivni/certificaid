@@ -30,9 +30,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T15:15:33Z'
+    confirmed_at: '2026-05-11T17:05:20Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "B2: heading-hiërarchie springt van H1 direct naar H4 ('#### Over de stijving...' op L72, '#### Over onttrekkingen...' op L78) zonder tussenliggende H2/H3 — onnatuurlijk voor mens-geschreven markdown. Aanvullend: L68 heeft 'een speciale rubriek* Overboeking...' zonder spatie voor de openende asterisk, wat italic-parsing kan breken (D4-adjacent). Bevestiging van eerder layer2-verdict."
+    rationale: "D4 op L72: 'een speciale rubriek* Overboeking naar de belastingvrije reserves*' — de openende asterisk staat direct tegen 'rubriek' geplakt zonder spatie, wat de italic-span niet correct parseert. Heading-hiërarchie in de huidige body is correct (H1→H2→H2), dus B2 van eerdere ronde is niet meer aanwezig of was fout. Één D4-artefact is voldoende reden voor needs-rework."
     layer1:
       file_size_chars: 4059
       flags: []
@@ -44,21 +44,13 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:15:33Z'
-      rationale: "B2: heading-hiërarchie springt van H1 direct naar H4 ('#### Over de stijving...' op L72, '#### Over onttrekkingen...' op L78) zonder tussenliggende H2/H3 — onnatuurlijk voor mens-geschreven markdown. Aanvullend: L68 heeft 'een speciale rubriek* Overboeking...' zonder spatie voor de openende asterisk, wat italic-parsing kan breken (D4-adjacent). Bevestiging van eerder layer2-verdict."
+      run_at: '2026-05-11T17:05:20Z'
+      rationale: "D4 op L72: 'een speciale rubriek* Overboeking naar de belastingvrije reserves*' — de openende asterisk staat direct tegen 'rubriek' geplakt zonder spatie, wat de italic-span niet correct parseert. Heading-hiërarchie in de huidige body is correct (H1→H2→H2), dus B2 van eerdere ronde is niet meer aanwezig of was fout. Één D4-artefact is voldoende reden voor needs-rework."
       concrete_problemen:
         - regel: 72
-          categorie: B2
-          type: other
-          voorbeeld: '#### Over de stijving van de belastingvrije reserves (H1 → H4, geen H2/H3)'
-        - regel: 78
-          categorie: B2
-          type: other
-          voorbeeld: '#### Over onttrekkingen aan de belastingvrije reserves (idem)'
-        - regel: 68
           categorie: D4
           type: other
-          voorbeeld: een speciale rubriek* Overboeking naar de belastingvrije reserves* (geen spatie na 'rubriek')
+          voorbeeld: een speciale rubriek* Overboeking naar de belastingvrije reserves* (spatie ontbreekt voor openende *)
 themas:
   - belastingvrije reserves
   - onttrekking aan de belastingvrije reserves

@@ -21,9 +21,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T15:23:43Z'
+    confirmed_at: '2026-05-11T17:13:30Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: 'Bevestiging van bestaand verdict. D4: regel 76 heeft `*groepsbijdrage*regeling` — ontbrekende spatie tussen italic-close en aangrenzend woord. B2: `## Bij de eindejaarsverrichtingen op 31/12/N` (regels 136, 152) en `## Bij het sluiten van de groepsbijdrage-overeenkomst` (regels 143, 156) staan op `##`-niveau terwijl hun ouder-heading `### In hoofde van vennootschap B/A` op `###`-niveau staat — hiërarchie-sprong omhoog.'
+    rationale: 'D4: regel 64 heeft `*groepsbijdrage*regeling` — ontbrekende spatie tussen italic-sluit en aangrenzend woord. B2: `## Bij de eindejaarsverrichtingen op 31/12/N` (regels 124, 140) en `## Bij het sluiten van de groepsbijdrage-overeenkomst` (regels 131, 144) staan op ##-niveau terwijl hun logische ouder-heading `### In hoofde van vennootschap B/A` op ###-niveau staat — omgekeerde hiërarchieverhouding.'
     layer1:
       file_size_chars: 13873
       flags: []
@@ -35,18 +35,18 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:23:43Z'
-      rationale: 'Bevestiging van bestaand verdict. D4: regel 76 heeft `*groepsbijdrage*regeling` — ontbrekende spatie tussen italic-close en aangrenzend woord. B2: `## Bij de eindejaarsverrichtingen op 31/12/N` (regels 136, 152) en `## Bij het sluiten van de groepsbijdrage-overeenkomst` (regels 143, 156) staan op `##`-niveau terwijl hun ouder-heading `### In hoofde van vennootschap B/A` op `###`-niveau staat — hiërarchie-sprong omhoog.'
+      run_at: '2026-05-11T17:13:30Z'
+      rationale: 'D4: regel 64 heeft `*groepsbijdrage*regeling` — ontbrekende spatie tussen italic-sluit en aangrenzend woord. B2: `## Bij de eindejaarsverrichtingen op 31/12/N` (regels 124, 140) en `## Bij het sluiten van de groepsbijdrage-overeenkomst` (regels 131, 144) staan op ##-niveau terwijl hun logische ouder-heading `### In hoofde van vennootschap B/A` op ###-niveau staat — omgekeerde hiërarchieverhouding.'
       concrete_problemen:
-        - regel: 76
+        - regel: 64
           categorie: D4
           type: other
           voorbeeld: de *groepsbijdrage*regeling[^2] in de statutaire jaarrekening
-        - regel: 136
+        - regel: 124
           categorie: B2
           type: other
           voorbeeld: '## Bij de eindejaarsverrichtingen op 31/12/N (kind van ### In hoofde van vennootschap B)'
-        - regel: 143
+        - regel: 131
           categorie: B2
           type: other
           voorbeeld: '## Bij het sluiten van de groepsbijdrage-overeenkomst (in boekjaar N+1)'

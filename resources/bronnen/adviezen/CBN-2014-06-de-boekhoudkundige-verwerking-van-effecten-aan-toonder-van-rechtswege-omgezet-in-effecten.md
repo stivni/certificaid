@@ -17,9 +17,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T15:23:42Z'
+    confirmed_at: '2026-05-11T17:09:38Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "A6/B5: regel 58 bevat 'op 1 januari 2014' als losstaande tekstregel direct na de H1-titel — fragment van de volledige originele titel die door de scraper werd gesplitst. Hoort geïntegreerd te zijn in de H1-heading. Inhoud verder volledig en helder."
+    rationale: "A6/B5 bevestigd: regel 52 bevat 'op 1 januari 2014' als losstaande tekstregel direct na de H1-titel die dezelfde woorden al bevat — fragment van de volledige originele titel die door de scraper werd gesplitst. ETL-artefact, geen source-typo. Overige inhoud volledig en voetnoten correct."
     layer1:
       file_size_chars: 7553
       flags: []
@@ -31,13 +31,13 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:23:42Z'
-      rationale: "A6/B5: regel 58 bevat 'op 1 januari 2014' als losstaande tekstregel direct na de H1-titel — fragment van de volledige originele titel die door de scraper werd gesplitst. Hoort geïntegreerd te zijn in de H1-heading. Inhoud verder volledig en helder."
+      run_at: '2026-05-11T17:09:38Z'
+      rationale: "A6/B5 bevestigd: regel 52 bevat 'op 1 januari 2014' als losstaande tekstregel direct na de H1-titel die dezelfde woorden al bevat — fragment van de volledige originele titel die door de scraper werd gesplitst. ETL-artefact, geen source-typo. Overige inhoud volledig en voetnoten correct."
       concrete_problemen:
-        - regel: 58
+        - regel: 52
           categorie: A6
           type: other
-          voorbeeld: op 1 januari 2014 — losstaand fragment na H1-heading
+          voorbeeld: op 1 januari 2014 — losstaand fragment na H1-heading (duplicaat van titelelement)
 themas:
   - aandelen aan toonder
   - aandelen op naam

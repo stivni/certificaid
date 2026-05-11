@@ -17,9 +17,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T15:19:36Z'
+    confirmed_at: '2026-05-11T17:09:38Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "E2: regel 133 toont '| | of 623 Andere personeelskosten | | | |' als losse tabelrij — dit is een inline alternatieve rekening die als aparte tabelrij is gerenderd in plaats van in dezelfde cel als rekening 61. ETL-artefact waarbij een parenthetische opmerking in de source (zoals '(of 623)') als een extra tabelrij is geëxtraheerd."
+    rationale: "E2: regel 136 toont '| | of 623 Andere personeelskosten | | | |' als een losstaande tabelrij — een parenthetisch alternatief '(of 623)' uit de brondocument-tabel is als aparte rij geëxtraheerd in plaats van in dezelfde cel als rekening 61. Verder is het document (10392 chars, 6 headings) inhoudelijk volledig."
     layer1:
       file_size_chars: 10392
       flags: []
@@ -31,10 +31,10 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:19:36Z'
-      rationale: "E2: regel 133 toont '| | of 623 Andere personeelskosten | | | |' als losse tabelrij — dit is een inline alternatieve rekening die als aparte tabelrij is gerenderd in plaats van in dezelfde cel als rekening 61. ETL-artefact waarbij een parenthetische opmerking in de source (zoals '(of 623)') als een extra tabelrij is geëxtraheerd."
+      run_at: '2026-05-11T17:09:38Z'
+      rationale: "E2: regel 136 toont '| | of 623 Andere personeelskosten | | | |' als een losstaande tabelrij — een parenthetisch alternatief '(of 623)' uit de brondocument-tabel is als aparte rij geëxtraheerd in plaats van in dezelfde cel als rekening 61. Verder is het document (10392 chars, 6 headings) inhoudelijk volledig."
       concrete_problemen:
-        - regel: 133
+        - regel: 136
           categorie: E2
           type: pseudo-table
           voorbeeld: "| | 61 | Diensten en diverse goederen | 160 | |\n| | of 623 Andere personeelskosten | | | |"

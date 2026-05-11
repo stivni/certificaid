@@ -17,9 +17,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T15:23:43Z'
+    confirmed_at: '2026-05-11T17:13:30Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: 'B2: Systematische heading-hiërarchie-sprongen doorheen het voorbeeldendeel: `## Bij de eindejaarsverrichtingen` (regels 178, 209, 216, 225, 232, 246, 250) en `### In hoofde van vennootschap X/Y` (regels 190, 205, 244, 267, 278, 284, 302) staan op resp. ##- en ###-niveau terwijl ze genest zijn binnen #####-secties — sprongen van 3-4 niveaus omhoog. Dit is een structureel extractieprobleem waarbij section-titels in het voorbeeldendeel als top-level headings zijn gerenderd.'
+    rationale: 'B2: systematische heading-hiërarchiesprongen doorheen het voorbeeldendeel — `## Bij de eindejaarsverrichtingen` (regels 170, 184, 201, 208, 217, 224, 238, 242) en `### In hoofde van vennootschap X/Y` (regels 182, 191, 197, 215, 236, 259, 270, 276, 294) staan op ##/###-niveau terwijl hun logische ouder-headings op #####-niveau staan. Dit is een structureel extractieprobleem waarbij sub-sectietitels als top-level headings zijn gerenderd.'
     layer1:
       file_size_chars: 30060
       flags: []
@@ -31,18 +31,18 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:23:43Z'
-      rationale: 'B2: Systematische heading-hiërarchie-sprongen doorheen het voorbeeldendeel: `## Bij de eindejaarsverrichtingen` (regels 178, 209, 216, 225, 232, 246, 250) en `### In hoofde van vennootschap X/Y` (regels 190, 205, 244, 267, 278, 284, 302) staan op resp. ##- en ###-niveau terwijl ze genest zijn binnen #####-secties — sprongen van 3-4 niveaus omhoog. Dit is een structureel extractieprobleem waarbij section-titels in het voorbeeldendeel als top-level headings zijn gerenderd.'
+      run_at: '2026-05-11T17:13:30Z'
+      rationale: 'B2: systematische heading-hiërarchiesprongen doorheen het voorbeeldendeel — `## Bij de eindejaarsverrichtingen` (regels 170, 184, 201, 208, 217, 224, 238, 242) en `### In hoofde van vennootschap X/Y` (regels 182, 191, 197, 215, 236, 259, 270, 276, 294) staan op ##/###-niveau terwijl hun logische ouder-headings op #####-niveau staan. Dit is een structureel extractieprobleem waarbij sub-sectietitels als top-level headings zijn gerenderd.'
       concrete_problemen:
-        - regel: 178
+        - regel: 170
           categorie: B2
           type: other
           voorbeeld: '## Bij de eindejaarsverrichtingen op 31/12/N en het sluiten van de interestaftrekovereenkomst'
-        - regel: 190
+        - regel: 182
           categorie: B2
           type: other
           voorbeeld: '### In hoofde van vennootschap Y (ontvanger van de vergoeding)'
-        - regel: 209
+        - regel: 201
           categorie: B2
           type: other
           voorbeeld: '## Bij de eindejaarsverrichtingen op 31/12/N'

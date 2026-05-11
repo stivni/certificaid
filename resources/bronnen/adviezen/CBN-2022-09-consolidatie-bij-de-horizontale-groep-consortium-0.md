@@ -30,9 +30,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T15:26:40Z'
+    confirmed_at: '2026-05-11T17:13:31Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "B5/B2: regels 139 en 148 bevatten '### a (natuurlijke persoon) bezit 25 %' en '### a (natuurlijke persoon) bezit 5 %' als ###-headings — dit zijn aandeelhouderspercentages in een opsomming die onterecht als structuur-heading zijn gemarkeerd door de extractor. De overige aandeelhouders (b, c, d, e) op dezelfde regels staan als plain text met inspringen — inconsistente behandeling van dezelfde lijst. C3: de inspringende regels (5 spaties voor b/c/d/e) zijn pseudo-kolom-uitlijning."
+    rationale: "B2: regels 149 en 158 bevatten '### a (natuurlijke persoon) bezit 25 %' en '### a (natuurlijke persoon) bezit 5 %' als ###-headings — aandeelhouderspercentages in een opsomming onterecht als structuur-heading opgemaakt door de extractor; de overige aandeelhouders (b, c, d, e) staan als plain text met 5-spaties inspringen. C3: die inspringende regels zijn pseudo-kolom-uitlijning (bv. '     b (natuurlijke persoon) bezit 24 %')."
     layer1:
       file_size_chars: 50801
       flags: []
@@ -44,18 +44,18 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:26:40Z'
-      rationale: "B5/B2: regels 139 en 148 bevatten '### a (natuurlijke persoon) bezit 25 %' en '### a (natuurlijke persoon) bezit 5 %' als ###-headings — dit zijn aandeelhouderspercentages in een opsomming die onterecht als structuur-heading zijn gemarkeerd door de extractor. De overige aandeelhouders (b, c, d, e) op dezelfde regels staan als plain text met inspringen — inconsistente behandeling van dezelfde lijst. C3: de inspringende regels (5 spaties voor b/c/d/e) zijn pseudo-kolom-uitlijning."
+      run_at: '2026-05-11T17:13:31Z'
+      rationale: "B2: regels 149 en 158 bevatten '### a (natuurlijke persoon) bezit 25 %' en '### a (natuurlijke persoon) bezit 5 %' als ###-headings — aandeelhouderspercentages in een opsomming onterecht als structuur-heading opgemaakt door de extractor; de overige aandeelhouders (b, c, d, e) staan als plain text met 5-spaties inspringen. C3: die inspringende regels zijn pseudo-kolom-uitlijning (bv. '     b (natuurlijke persoon) bezit 24 %')."
       concrete_problemen:
-        - regel: 139
+        - regel: 149
           categorie: B2
           type: other
           voorbeeld: '### a (natuurlijke persoon) bezit 25 % [lijst-item als ###-heading; b/c/d als plain-text met inspringen]'
-        - regel: 148
+        - regel: 158
           categorie: B2
           type: other
-          voorbeeld: '### a (natuurlijke persoon) bezit 5 % [zelfde patroon voor vennootschap Y]'
-        - regel: 141
+          voorbeeld: '### a (natuurlijke persoon) bezit 5 % [zelfde patroon vennootschap Y]'
+        - regel: 151
           categorie: C3
           type: pseudo-table
           voorbeeld: '     b (natuurlijke persoon) bezit 24 % [5 spaties inspringen als pseudo-kolom]'

@@ -17,9 +17,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T15:23:43Z'
+    confirmed_at: '2026-05-11T17:13:30Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "A3: regels 76-78 bevatten TOC-resten als plain text bovenin de body ('vereniging of stichting\\n\\n vereniging of stichtingOndernemingen en niet-kleine...') inclusief een aaneengeplakte regel waarbij twee TOC-items zijn samengevoegd zonder scheidingsteken. D4: regels 84, 90 en 92 bevatten italic-markers met spatie voor het sluitende asterisk (*term *). E2: drie voorbeeld-blokken zijn verpakt in `| \\n\\n*Voorbeeld*\\n\\n  |` constructies (regels 98, 123, 123-136)."
+    rationale: "A3: regels 67-69 bevatten TOC-resten als plain text bovenin de body ('vereniging of stichting\\n\\n vereniging of stichtingOndernemingen en niet-kleine...') inclusief een aaneengeplakte regel met twee TOC-items zonder scheidingsteken. D4: regels 75 en 81 bevatten italic-markers met spatie voor het sluitende asterisk. E2: twee voorbeeld-blokken verpakt als '| \\n\\n*Voorbeeld*\\n\\n  |' (regels 89-110 en 114-127)."
     layer1:
       file_size_chars: 8012
       flags: []
@@ -31,29 +31,25 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:23:43Z'
-      rationale: "A3: regels 76-78 bevatten TOC-resten als plain text bovenin de body ('vereniging of stichting\\n\\n vereniging of stichtingOndernemingen en niet-kleine...') inclusief een aaneengeplakte regel waarbij twee TOC-items zijn samengevoegd zonder scheidingsteken. D4: regels 84, 90 en 92 bevatten italic-markers met spatie voor het sluitende asterisk (*term *). E2: drie voorbeeld-blokken zijn verpakt in `| \\n\\n*Voorbeeld*\\n\\n  |` constructies (regels 98, 123, 123-136)."
+      run_at: '2026-05-11T17:13:30Z'
+      rationale: "A3: regels 67-69 bevatten TOC-resten als plain text bovenin de body ('vereniging of stichting\\n\\n vereniging of stichtingOndernemingen en niet-kleine...') inclusief een aaneengeplakte regel met twee TOC-items zonder scheidingsteken. D4: regels 75 en 81 bevatten italic-markers met spatie voor het sluitende asterisk. E2: twee voorbeeld-blokken verpakt als '| \\n\\n*Voorbeeld*\\n\\n  |' (regels 89-110 en 114-127)."
       concrete_problemen:
-        - regel: 76
+        - regel: 67
           categorie: A3
           type: other
-          voorbeeld: vereniging of stichting
-        - regel: 78
+          voorbeeld: 'vereniging of stichting '
+        - regel: 69
           categorie: A3
           type: other
-          voorbeeld: vereniging of stichtingOndernemingen en niet-kleine verenigingen en stichtingen
-        - regel: 84
+          voorbeeld: ' vereniging of stichtingOndernemingen en niet-kleine verenigingen en stichtingen'
+        - regel: 75
           categorie: D4
           type: other
           voorbeeld: '*vouchers voor enkelvoudig gebruik[^2] *'
-        - regel: 90
-          categorie: D4
-          type: other
-          voorbeeld: '*Genormaliseerd minimaal schema van de Staat van de ontvangsten en uitgaven[^5] *'
-        - regel: 98
+        - regel: 89
           categorie: E2
           type: pseudo-table
-          voorbeeld: '| \n\n*Voorbeeld*\n\n  |'
+          voorbeeld: "| \n\n*Voorbeeld*\n\n  |"
 themas:
   - betaalkaart
   - oplaadbare betaalkaart

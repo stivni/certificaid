@@ -24,9 +24,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T15:19:36Z'
+    confirmed_at: '2026-05-11T17:09:38Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "E2/A6: tabel op r299-311 (balans B na partiële splitsing in Voorbeeld 3) heeft een gebroken rij — de cel '9.500' staat op r308 als losse tekstregel buiten de tabel-pipes, gevolgd door een gedeeltelijke piprij op r310. Zelfde ETL tabel-rendering-bug als in 2009/7. Overige tabellen, 6 headings en 14 voetnoten zijn correct."
+    rationale: "E2/A6: tabel 'B na partiële splitsing' in Voorbeeld 3 (r311-316) heeft een gebroken rij — cel '9.500' staat op r313 als standalone tekstregel buiten de tabel-pipes, gevolgd door een gedeeltelijke piprij op r315. ETL tabel-rendering-bug identiek aan eerdere bevindingen. Overige tabellen, 6 headings en 14 voetnoten zijn correct."
     layer1:
       file_size_chars: 26932
       flags: []
@@ -38,14 +38,14 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:19:36Z'
-      rationale: "E2/A6: tabel op r299-311 (balans B na partiële splitsing in Voorbeeld 3) heeft een gebroken rij — de cel '9.500' staat op r308 als losse tekstregel buiten de tabel-pipes, gevolgd door een gedeeltelijke piprij op r310. Zelfde ETL tabel-rendering-bug als in 2009/7. Overige tabellen, 6 headings en 14 voetnoten zijn correct."
+      run_at: '2026-05-11T17:09:38Z'
+      rationale: "E2/A6: tabel 'B na partiële splitsing' in Voorbeeld 3 (r311-316) heeft een gebroken rij — cel '9.500' staat op r313 als standalone tekstregel buiten de tabel-pipes, gevolgd door een gedeeltelijke piprij op r315. ETL tabel-rendering-bug identiek aan eerdere bevindingen. Overige tabellen, 6 headings en 14 voetnoten zijn correct."
       concrete_problemen:
-        - regel: 306
+        - regel: 311
           categorie: E2
           type: other
-          voorbeeld: "| | | \\n9.500\\n  | | | | 9.500 | → tabelrij gebroken, cel '9.500' staat op losse regel r308"
-        - regel: 308
+          voorbeeld: "| | | \\n(cel breekt naar losse regel 313: '9.500')"
+        - regel: 313
           categorie: A6
           type: other
           voorbeeld: '9.500'

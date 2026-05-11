@@ -27,9 +27,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T15:23:43Z'
+    confirmed_at: '2026-05-11T17:13:30Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "A6: structureel patroon van spurious line-breaks na voetnootreferenties midden in zinnen, verspreid door de tekst (regels 91, 95-96, 100-101, 123-125, 158-160). A6/G3: regel 87 bevat ', bijgewerkt op 10 september 2025[^2]' als los fragment na H1. B2: 'Geval 2' op regels 143 en 178 staat als ## heading terwijl het een sub-element is van een Voorbeeld-sectie (zou ### moeten zijn)."
+    rationale: "A6/G3: regel 70 (body) bevat ', bijgewerkt op 10 september 2025[^2]' als losstaande orphan-zin direct na de H1 — bijwerkingsartefact van de scraper. A6: meerdere spurious line-breaks na voetnootreferenties midden in zinnen (regels 79, 84, 107, 108, 142-143). B2: 'Geval 2' op regels 126 en 161 staat als ## heading terwijl het een sub-element is van een Voorbeeld-sectie (structureel onjuiste hiërarchie)."
     layer1:
       file_size_chars: 16240
       flags: []
@@ -41,18 +41,22 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:23:43Z'
-      rationale: "A6: structureel patroon van spurious line-breaks na voetnootreferenties midden in zinnen, verspreid door de tekst (regels 91, 95-96, 100-101, 123-125, 158-160). A6/G3: regel 87 bevat ', bijgewerkt op 10 september 2025[^2]' als los fragment na H1. B2: 'Geval 2' op regels 143 en 178 staat als ## heading terwijl het een sub-element is van een Voorbeeld-sectie (zou ### moeten zijn)."
+      run_at: '2026-05-11T17:13:30Z'
+      rationale: "A6/G3: regel 70 (body) bevat ', bijgewerkt op 10 september 2025[^2]' als losstaande orphan-zin direct na de H1 — bijwerkingsartefact van de scraper. A6: meerdere spurious line-breaks na voetnootreferenties midden in zinnen (regels 79, 84, 107, 108, 142-143). B2: 'Geval 2' op regels 126 en 161 staat als ## heading terwijl het een sub-element is van een Voorbeeld-sectie (structureel onjuiste hiërarchie)."
       concrete_problemen:
-        - regel: 87
+        - regel: 70
           categorie: A6
           type: other
           voorbeeld: ', bijgewerkt op 10 september 2025[^2]'
-        - regel: 95
+        - regel: 84
           categorie: A6
           type: other
-          voorbeeld: "geldt een wettelijk en onweerlegbaar vermoeden[^5]\n Bijgevolg zijn"
-        - regel: 143
+          voorbeeld: moet zijn. Opdat er sprake zou zijn van een gezamenlijke controle is een overeenkomst noodzakelijk.[^8]
+        - regel: 107
+          categorie: A6
+          type: other
+          voorbeeld: "controle uitoefent over de vennootschap X.[^11]\n Hieruit volgt dat"
+        - regel: 126
           categorie: B2
           type: other
           voorbeeld: '## Geval 2: De vennootschap A en de vennootschap B hebben geen overeenkomst'

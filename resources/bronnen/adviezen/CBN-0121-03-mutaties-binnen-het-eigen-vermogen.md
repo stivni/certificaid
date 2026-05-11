@@ -30,9 +30,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T15:15:32Z'
+    confirmed_at: '2026-05-11T17:05:20Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "A6: regel 138 bevat 'de doctrine is verdeeld' (lowercase 'd' na punt, nieuwe zin zonder hoofdletter op zelfde regel); regel 140 heeft '. enerzijds kan' (lowercase 'e' na punt). A6: regel 156 'in de resultaat verwerking' — samengesteld woord 'resultaatverwerking' gesplitst. Heading-hiërarchie (H1→H2→H3) is correct na scraper-fix."
+    rationale: "A6: regel 138 bevat 'meer. de doctrine is verdeeld' — nieuwe zin begint met lowercase 'd' na punt, typisch mid-sentence merge uit PDF-extractie. Regel 140 heeft 'dient te gebeuren. enerzijds kan' — lowercase 'e' na punt. Regel 156 bevat 'in de resultaat verwerking' — samengesteld woord 'resultaatverwerking' ten onrechte gesplitst."
     layer1:
       file_size_chars: 13622
       flags: []
@@ -44,13 +44,13 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:15:32Z'
-      rationale: "A6: regel 138 bevat 'de doctrine is verdeeld' (lowercase 'd' na punt, nieuwe zin zonder hoofdletter op zelfde regel); regel 140 heeft '. enerzijds kan' (lowercase 'e' na punt). A6: regel 156 'in de resultaat verwerking' — samengesteld woord 'resultaatverwerking' gesplitst. Heading-hiërarchie (H1→H2→H3) is correct na scraper-fix."
+      run_at: '2026-05-11T17:05:20Z'
+      rationale: "A6: regel 138 bevat 'meer. de doctrine is verdeeld' — nieuwe zin begint met lowercase 'd' na punt, typisch mid-sentence merge uit PDF-extractie. Regel 140 heeft 'dient te gebeuren. enerzijds kan' — lowercase 'e' na punt. Regel 156 bevat 'in de resultaat verwerking' — samengesteld woord 'resultaatverwerking' ten onrechte gesplitst."
       concrete_problemen:
         - regel: 138
           categorie: A6
           type: other
-          voorbeeld: meer. de doctrine is verdeeld — lowercase 'd' na punt op zelfde regel
+          voorbeeld: meer. de doctrine is verdeeld — lowercase 'd' na punt, merge-artefact
         - regel: 140
           categorie: A6
           type: other

@@ -30,9 +30,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T15:23:43Z'
+    confirmed_at: '2026-05-11T17:09:38Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: 'D4: regel 69 `## Advies van 13 april 2016**[^1]** ` bevat stray `**` die de footnote-referentie omhult als bold-marker zonder dat de heading zelf is opgemaakt als bold — de `**` is een ETL-artefact rond de voetnootref. Inhoud en structuur verder volledig correct: 5 headings correct genest, voetnoten [^1]–[^8] aanwezig, geen OCR-fouten, geen pagina-artefacten.'
+    rationale: 'D4: regel 68 `## Advies van 13 april 2016**[^1]** ` bevat stray `**` die de footnote-referentie omhult als bold-marker in een heading — onzichtbaar voor de lezer maar syntactisch een ETL-artefact. Inhoud volledig correct: 5 headings genest, voetnoten [^1]–[^8] aanwezig, geen pagina-artefacten of OCR-fouten.'
     layer1:
       file_size_chars: 7907
       flags: []
@@ -44,13 +44,13 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:23:43Z'
-      rationale: 'D4: regel 69 `## Advies van 13 april 2016**[^1]** ` bevat stray `**` die de footnote-referentie omhult als bold-marker zonder dat de heading zelf is opgemaakt als bold — de `**` is een ETL-artefact rond de voetnootref. Inhoud en structuur verder volledig correct: 5 headings correct genest, voetnoten [^1]–[^8] aanwezig, geen OCR-fouten, geen pagina-artefacten.'
+      run_at: '2026-05-11T17:09:38Z'
+      rationale: 'D4: regel 68 `## Advies van 13 april 2016**[^1]** ` bevat stray `**` die de footnote-referentie omhult als bold-marker in een heading — onzichtbaar voor de lezer maar syntactisch een ETL-artefact. Inhoud volledig correct: 5 headings genest, voetnoten [^1]–[^8] aanwezig, geen pagina-artefacten of OCR-fouten.'
       concrete_problemen:
-        - regel: 69
+        - regel: 68
           categorie: D4
           type: other
-          voorbeeld: '## Advies van 13 april 2016**[^1]** (stray ** rond voetnootref in heading)'
+          voorbeeld: '## Advies van 13 april 2016**[^1]**  (stray ** rond voetnootref in heading)'
 themas:
   - legaat
   - meerjarige toekenningen

@@ -30,9 +30,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T15:15:33Z'
+    confirmed_at: '2026-05-11T17:05:21Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "F1: HTML-entiteit &#039; (apostrof) niet gedecodeerd door de scraper, zowel in gerelateerde_adviezen-veld (r.9) als in themas-veld (r.60): 'risico&#039;s verbonden aan bestellingen van vaste activa'. YAML-parsecorrectheid geschaad. Body zelf volledig en schoon."
+    rationale: "Vorig verdict bevestigd. F1 r.60: HTML-entiteit '&#039;' niet gedecodeerd in het themas-veld ('risico&#039;s verbonden aan bestellingen van vaste activa') — ETL-bug. Body volledig en schoon."
     layer1:
       file_size_chars: 2433
       flags: []
@@ -44,13 +44,9 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:15:33Z'
-      rationale: "F1: HTML-entiteit &#039; (apostrof) niet gedecodeerd door de scraper, zowel in gerelateerde_adviezen-veld (r.9) als in themas-veld (r.60): 'risico&#039;s verbonden aan bestellingen van vaste activa'. YAML-parsecorrectheid geschaad. Body zelf volledig en schoon."
+      run_at: '2026-05-11T17:05:21Z'
+      rationale: "Vorig verdict bevestigd. F1 r.60: HTML-entiteit '&#039;' niet gedecodeerd in het themas-veld ('risico&#039;s verbonden aan bestellingen van vaste activa') — ETL-bug. Body volledig en schoon."
       concrete_problemen:
-        - regel: 9
-          categorie: F1
-          type: other
-          voorbeeld: 'titel: Risico&#039;s verbonden aan bestellingen van vaste activa'
         - regel: 60
           categorie: F1
           type: other

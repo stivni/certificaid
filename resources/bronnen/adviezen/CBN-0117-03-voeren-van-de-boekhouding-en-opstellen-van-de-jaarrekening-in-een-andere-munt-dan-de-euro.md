@@ -30,9 +30,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T15:15:32Z'
+    confirmed_at: '2026-05-11T17:05:20Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "B2: heading-hiërarchie springt van H1 (regel 76) direct naar H4 (regels 94, 99, 128) — H2 en H3 ontbreken volledig. A6: regels 97 en 118 beginnen met een leading space (' Bij de opstelling...' en ' Tenzij de transacties...') — spurious line-break artefacten, typisch PDF-extractie. Voetnoten en italics zijn correct gesloten na scraper-fix."
+    rationale: "A6: regel 97 en 118 beginnen met een leading space (' Bij de opstelling...' en ' Tenzij de transacties...') — spurious line-break artefacten, typisch PDF-extractie waarbij een alinea-opening een spatie-prefix meekreeg. Heading-hiërarchie is correct (H1 → H2 → H2 → H2); eerdere B2-claim was onjuist."
     layer1:
       file_size_chars: 11466
       flags: []
@@ -44,21 +44,17 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:15:32Z'
-      rationale: "B2: heading-hiërarchie springt van H1 (regel 76) direct naar H4 (regels 94, 99, 128) — H2 en H3 ontbreken volledig. A6: regels 97 en 118 beginnen met een leading space (' Bij de opstelling...' en ' Tenzij de transacties...') — spurious line-break artefacten, typisch PDF-extractie. Voetnoten en italics zijn correct gesloten na scraper-fix."
+      run_at: '2026-05-11T17:05:20Z'
+      rationale: "A6: regel 97 en 118 beginnen met een leading space (' Bij de opstelling...' en ' Tenzij de transacties...') — spurious line-break artefacten, typisch PDF-extractie waarbij een alinea-opening een spatie-prefix meekreeg. Heading-hiërarchie is correct (H1 → H2 → H2 → H2); eerdere B2-claim was onjuist."
       concrete_problemen:
-        - regel: 94
-          categorie: B2
-          type: other
-          voorbeeld: '#### Definitie van de functionele valuta — H4 direct onder H1, H2/H3 ontbreken'
         - regel: 97
           categorie: A6
           type: other
-          voorbeeld: ' Bij de opstelling van de jaarrekening bepaalt iedere entiteit'
+          voorbeeld: "' Bij de opstelling van de jaarrekening bepaalt iedere entiteit'"
         - regel: 118
           categorie: A6
           type: other
-          voorbeeld: ' Tenzij de transacties steevast in een andere munt dan de euro'
+          voorbeeld: "' Tenzij de transacties steevast in een andere munt dan de euro'"
 themas:
   - afwijking
   - functionele munt

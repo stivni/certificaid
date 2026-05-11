@@ -21,9 +21,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T15:23:43Z'
+    confirmed_at: '2026-05-11T17:09:39Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "D4: regel 67 bevat 'vorderingen[^3]*  is duidelijk' — stray asterisk direct na de voetnootreferentie met dubbele spatie, gebroken italic-markering (ETL-artefact). Inhoud compleet, 2 headings, tekst verder leesbaar."
+    rationale: 'D4: regel 55 `vorderingen[^3]*  is duidelijk omtrent de classificatie` bevat een stray asterisk direct na de voetnootreferentie met dubbele spatie — gebroken italic-markering als ETL-artefact. De asterisk hoort bij het cursief van de titelbeschrijving maar is losgeraakt van de sluit-markering. Inhoud compleet: 2 headings, tekst leesbaar, voetnoten [^1]–[^4] aanwezig.'
     layer1:
       file_size_chars: 3806
       flags: []
@@ -35,13 +35,13 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:23:43Z'
-      rationale: "D4: regel 67 bevat 'vorderingen[^3]*  is duidelijk' — stray asterisk direct na de voetnootreferentie met dubbele spatie, gebroken italic-markering (ETL-artefact). Inhoud compleet, 2 headings, tekst verder leesbaar."
+      run_at: '2026-05-11T17:09:39Z'
+      rationale: 'D4: regel 55 `vorderingen[^3]*  is duidelijk omtrent de classificatie` bevat een stray asterisk direct na de voetnootreferentie met dubbele spatie — gebroken italic-markering als ETL-artefact. De asterisk hoort bij het cursief van de titelbeschrijving maar is losgeraakt van de sluit-markering. Inhoud compleet: 2 headings, tekst leesbaar, voetnoten [^1]–[^4] aanwezig.'
       concrete_problemen:
-        - regel: 67
+        - regel: 55
           categorie: D4
           type: other
-          voorbeeld: vorderingen[^3]*  is duidelijk omtrent de classificatie
+          voorbeeld: vorderingen[^3]*  is duidelijk omtrent de classificatie (stray asterisk na voetnootref met dubbele spatie)
 themas:
   - schulden aan de overheid
 ---

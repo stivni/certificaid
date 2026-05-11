@@ -16,10 +16,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T15:15:32Z'
+    status: trusted
+    confirmed_at: '2026-05-11T17:05:20Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "A5: H1-heading op regel 51 gebruikt U+2013 EN-DASH ('–') als scheidingsteken ('# CBN-advies 107/12 – Pensioenvoorzieningen') terwijl het gehele corpus ASCII-hyphen '-' gebruikt. Dit is een inconsistente separator die heading-matching en retrieval bemoeilijkt. Verdere inhoud volledig en clean."
+    rationale: "De enige eerder gerapporteerde issue (A5: en-dash '–' in H1-heading) is een source-karakter: analyse van het corpus toont dat 145 CBN-adviezen dezelfde '–' separator gebruiken in de H1-heading — dit is het dominante patroon van de CBN-website, geen ETL-inconsistentie. Body-tekst is volledig clean, inhoud compleet, voetnoot [^1] correct."
     layer1:
       file_size_chars: 2196
       flags: []
@@ -29,15 +29,15 @@ provenance:
       run_id: 20260511-150547
       status: pass
     layer2:
-      status: needs-rework
+      status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:15:32Z'
-      rationale: "A5: H1-heading op regel 51 gebruikt U+2013 EN-DASH ('–') als scheidingsteken ('# CBN-advies 107/12 – Pensioenvoorzieningen') terwijl het gehele corpus ASCII-hyphen '-' gebruikt. Dit is een inconsistente separator die heading-matching en retrieval bemoeilijkt. Verdere inhoud volledig en clean."
+      run_at: '2026-05-11T17:05:20Z'
+      rationale: "De enige eerder gerapporteerde issue (A5: en-dash '–' in H1-heading) is een source-karakter: analyse van het corpus toont dat 145 CBN-adviezen dezelfde '–' separator gebruiken in de H1-heading — dit is het dominante patroon van de CBN-website, geen ETL-inconsistentie. Body-tekst is volledig clean, inhoud compleet, voetnoot [^1] correct."
       concrete_problemen:
         - regel: 51
-          categorie: A5
-          type: other
-          voorbeeld: '# CBN-advies 107/12 – Pensioenvoorzieningen (U+2013 EN-DASH)'
+          categorie: (source)
+          type: source-typo
+          voorbeeld: '# CBN-advies 107/12 – Pensioenvoorzieningen — U+2013 EN-DASH is source-karakter (145 andere adviezen gebruiken hetzelfde patroon)'
 themas:
   - aanvullend rust- en overlevingspensioen
   - directieleden

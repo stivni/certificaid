@@ -17,9 +17,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T15:19:36Z'
+    confirmed_at: '2026-05-11T17:05:21Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "Bevestiging van vorige QA (ronde 1). A6: zin op r.95-97 breekt na 'mogen dus niet' met een lege regel voor 'langer, voor het overeenstemmende bedrag...' — duidelijke PDF-regelbreuk midden in alinea. Thema 'erfpa' (r.59) in frontmatter is een afgekapt scraping-artefact. Overige inhoud volledig."
+    rationale: "A6 bevestigd r.85-87: de zin 'Die schulden en vorderingen mogen dus niet' eindigt zonder leesteken, gevolgd door een lege regel, waarna 'langer, voor het overeenstemmende bedrag...' begint — een PDF-regelbreuk midden in een logische alinea. Frontmatter thema 'erfpa' (r.49) is een afgekapt scraping-artefact (bron-typo categorie); telt niet als ETL-reden voor needs-rework maar de A6-regelbreuk volstaat. Overige inhoud volledig en correct."
     layer1:
       file_size_chars: 7820
       flags: []
@@ -31,17 +31,17 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:19:36Z'
-      rationale: "Bevestiging van vorige QA (ronde 1). A6: zin op r.95-97 breekt na 'mogen dus niet' met een lege regel voor 'langer, voor het overeenstemmende bedrag...' — duidelijke PDF-regelbreuk midden in alinea. Thema 'erfpa' (r.59) in frontmatter is een afgekapt scraping-artefact. Overige inhoud volledig."
+      run_at: '2026-05-11T17:05:21Z'
+      rationale: "A6 bevestigd r.85-87: de zin 'Die schulden en vorderingen mogen dus niet' eindigt zonder leesteken, gevolgd door een lege regel, waarna 'langer, voor het overeenstemmende bedrag...' begint — een PDF-regelbreuk midden in een logische alinea. Frontmatter thema 'erfpa' (r.49) is een afgekapt scraping-artefact (bron-typo categorie); telt niet als ETL-reden voor needs-rework maar de A6-regelbreuk volstaat. Overige inhoud volledig en correct."
       concrete_problemen:
-        - regel: 95
+        - regel: 85
           categorie: A6
           type: other
           voorbeeld: "Die schulden en vorderingen mogen dus niet \n\nlanger, voor het overeenstemmende bedrag..."
-        - regel: 59
+        - regel: 49
           categorie: F1
-          type: other
-          voorbeeld: '- erfpa (afgekapt thema-label in frontmatter)'
+          type: source-typo
+          voorbeeld: '- erfpa (afgekapt thema-label in frontmatter — source-typo, niet ETL)'
 themas:
   - verrekening van vorderingen en schulden
   - vordering

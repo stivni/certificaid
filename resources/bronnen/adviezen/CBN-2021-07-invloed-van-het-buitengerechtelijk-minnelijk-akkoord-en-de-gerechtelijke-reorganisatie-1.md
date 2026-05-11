@@ -27,9 +27,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T15:26:39Z'
+    confirmed_at: '2026-05-11T17:13:30Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "D3: Zeven orphan footnote-markers als losstaande regels tussen boekingstabellen (L101, L288, L295, L368, L375, L440, L449) — exact hetzelfde extractie-artefact als CBN-2021-04. A6: Voetnootanker op L121 splitst een zin over twee regels ('Boek XX... toegevoegd[^2]\\n samenhangender te maken...'). De rest van het advies is inhoudelijk compleet met 29 headings en alle 47 voetnootdefinities aanwezig."
+    rationale: "D3: Zeven orphan footnote-markers als losstaande regels na boekingstabellen (L101, L288, L295, L368, L375, L440, L449) — exact hetzelfde extractie-artefact als CBN-2021-04, waarbij footnote-anchors bedoeld als tabel-context als aparte paragrafen zijn weergegeven. A6: Voetnootanker op L104 splitst een zin over twee regels ('Boek XX... toegevoegd[^2]\n samenhangender te maken...'). De rest van het advies is inhoudelijk compleet met 29 headings en alle 47 voetnootdefinities aanwezig."
     layer1:
       file_size_chars: 40218
       flags: []
@@ -41,8 +41,8 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:26:39Z'
-      rationale: "D3: Zeven orphan footnote-markers als losstaande regels tussen boekingstabellen (L101, L288, L295, L368, L375, L440, L449) — exact hetzelfde extractie-artefact als CBN-2021-04. A6: Voetnootanker op L121 splitst een zin over twee regels ('Boek XX... toegevoegd[^2]\\n samenhangender te maken...'). De rest van het advies is inhoudelijk compleet met 29 headings en alle 47 voetnootdefinities aanwezig."
+      run_at: '2026-05-11T17:13:30Z'
+      rationale: "D3: Zeven orphan footnote-markers als losstaande regels na boekingstabellen (L101, L288, L295, L368, L375, L440, L449) — exact hetzelfde extractie-artefact als CBN-2021-04, waarbij footnote-anchors bedoeld als tabel-context als aparte paragrafen zijn weergegeven. A6: Voetnootanker op L104 splitst een zin over twee regels ('Boek XX... toegevoegd[^2]\n samenhangender te maken...'). De rest van het advies is inhoudelijk compleet met 29 headings en alle 47 voetnootdefinities aanwezig."
       concrete_problemen:
         - regel: 101
           categorie: D3
@@ -72,10 +72,10 @@ provenance:
           categorie: D3
           type: other
           voorbeeld: '[^47] (idem)'
-        - regel: 121
+        - regel: 104
           categorie: A6
           type: other
-          voorbeeld: toegevoegd[^2]\n samenhangender te maken...
+          voorbeeld: "toegevoegd[^2]\n samenhangender te maken..."
 themas:
   - minnelijk akkoord
   - gerechtelijke reorganisatie

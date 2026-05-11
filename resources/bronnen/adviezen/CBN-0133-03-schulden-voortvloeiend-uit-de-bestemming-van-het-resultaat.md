@@ -24,9 +24,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T15:15:33Z'
+    confirmed_at: '2026-05-11T17:05:21Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "Drie ETL-artefacten: D4 op L75: '*Belastingen *' heeft een spatie vóór de sluitende asterisk (trailing space in italic span). A6 op L75: 'bruto- bedrag' is een hyphen-spatie word-split. A4 op L89: U+00AC (¬) als koppelteken in 'bruto¬schulden' — PDF-extractie-artefact. Bevestiging van eerder layer2-verdict."
+    rationale: "Drie ETL-artefacten bevestigd: D4 op L75: '*Belastingen *' heeft een spatie vóór de sluitende asterisk. A6 op L75: 'bruto- bedrag' is een hyphen-spatie word-split. A4 op L89: eerdere claim over U+00AC-teken in 'bruto¬schulden' niet visueel bevestigd in leesuitvoer maar niet weerlegbaar zonder binaire scan — status needs-rework gehandhaafd op basis van D4 en A6 alleen."
     layer1:
       file_size_chars: 4040
       flags: []
@@ -38,21 +38,21 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:15:33Z'
-      rationale: "Drie ETL-artefacten: D4 op L75: '*Belastingen *' heeft een spatie vóór de sluitende asterisk (trailing space in italic span). A6 op L75: 'bruto- bedrag' is een hyphen-spatie word-split. A4 op L89: U+00AC (¬) als koppelteken in 'bruto¬schulden' — PDF-extractie-artefact. Bevestiging van eerder layer2-verdict."
+      run_at: '2026-05-11T17:05:21Z'
+      rationale: "Drie ETL-artefacten bevestigd: D4 op L75: '*Belastingen *' heeft een spatie vóór de sluitende asterisk. A6 op L75: 'bruto- bedrag' is een hyphen-spatie word-split. A4 op L89: eerdere claim over U+00AC-teken in 'bruto¬schulden' niet visueel bevestigd in leesuitvoer maar niet weerlegbaar zonder binaire scan — status needs-rework gehandhaafd op basis van D4 en A6 alleen."
       concrete_problemen:
         - regel: 75
           categorie: D4
           type: other
-          voorbeeld: rubriek IX, E, 1 *Belastingen *en in het algemeen rekeningenstelsel
+          voorbeeld: rubriek IX, E, 1 *Belastingen *en in het algemeen rekeningenstelsel (spatie voor sluitende *)
         - regel: 75
           categorie: A6
           type: other
-          voorbeeld: '...of het bruto- bedrag moet worden vermeld...'
+          voorbeeld: of het bruto- bedrag moet worden vermeld (hyphen-spatie word-split)
         - regel: 89
           categorie: A4
           type: other
-          voorbeeld: De boeking van de bruto¬schulden die voortvloeien... (U+00AC)
+          voorbeeld: bruto¬schulden — mogelijk U+00AC als koppelteken (niet visueel bevestigd, wel eerder gemeld)
 themas:
   - bestemming van het resultaat van het boekjaar
   - betaalbaarstelling

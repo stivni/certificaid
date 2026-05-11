@@ -30,9 +30,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T15:23:43Z'
+    confirmed_at: '2026-05-11T17:13:30Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: 'Nieuw verdict (was unreviewed). E1/E2: alle voorbeeldtabellen (Voorbeeld 1–4, regels 95–640) zijn gefragmenteerd als single-cell blokken — identieke extractor-bug als CBN-2018-16/17. B5: de subsectiekopjes `### Vennootschap A: 205.000` op regels 177 en vergelijkbare regels (473, 555, 621) zijn feitelijk rekenresultaten als pseudo-heading gerenderd; en `## Geconsolideerd bedrag` op regel 268 en `## Geaggregeerde cijfers` op regels 372 en 456 dienen als tabelrij-labels maar staan als `##`-headings. B2: `## Geconsolideerd bedrag` en `## Geaggregeerde cijfers` als niveau-2-headings terwijl ze logisch sub-tabelrijen zijn.'
+    rationale: 'E1/E2: alle voorbeeldtabellen (Voorbeeld 1–4, regels 104–625) zijn gefragmenteerd als single-cell blokken. B2: `## Geconsolideerd bedrag` (regel 277) en `## Geaggregeerde cijfers` (regels 381, 465) staan als ##-headings maar zijn logisch tabelrij-labels. B5: `### Vennootschap A: 205.000` e.d. op regels 186, 482, 564, 630 zijn rekenresultaten als pseudo-headings.'
     layer1:
       file_size_chars: 19071
       flags: []
@@ -44,18 +44,18 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:23:43Z'
-      rationale: 'Nieuw verdict (was unreviewed). E1/E2: alle voorbeeldtabellen (Voorbeeld 1–4, regels 95–640) zijn gefragmenteerd als single-cell blokken — identieke extractor-bug als CBN-2018-16/17. B5: de subsectiekopjes `### Vennootschap A: 205.000` op regels 177 en vergelijkbare regels (473, 555, 621) zijn feitelijk rekenresultaten als pseudo-heading gerenderd; en `## Geconsolideerd bedrag` op regel 268 en `## Geaggregeerde cijfers` op regels 372 en 456 dienen als tabelrij-labels maar staan als `##`-headings. B2: `## Geconsolideerd bedrag` en `## Geaggregeerde cijfers` als niveau-2-headings terwijl ze logisch sub-tabelrijen zijn.'
+      run_at: '2026-05-11T17:13:30Z'
+      rationale: 'E1/E2: alle voorbeeldtabellen (Voorbeeld 1–4, regels 104–625) zijn gefragmenteerd als single-cell blokken. B2: `## Geconsolideerd bedrag` (regel 277) en `## Geaggregeerde cijfers` (regels 381, 465) staan als ##-headings maar zijn logisch tabelrij-labels. B5: `### Vennootschap A: 205.000` e.d. op regels 186, 482, 564, 630 zijn rekenresultaten als pseudo-headings.'
       concrete_problemen:
-        - regel: 95
+        - regel: 104
           categorie: E1
           type: other
           voorbeeld: "| \n\n  | | \n|---|\n\n**Rekening 70[^9]** \n\n  | | \n|---|\n\n**Rekening 74[^10]**"
-        - regel: 268
+        - regel: 277
           categorie: B2
           type: other
           voorbeeld: '## Geconsolideerd bedrag[^19] (staat als ##-heading, is tabelrij-label)'
-        - regel: 177
+        - regel: 186
           categorie: B5
           type: other
           voorbeeld: '### Vennootschap A: 205.000 (d.i. 200.000 + 5.000)[^12]'

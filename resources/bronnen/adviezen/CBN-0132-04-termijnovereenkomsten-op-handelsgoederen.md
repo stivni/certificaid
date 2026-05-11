@@ -17,9 +17,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T15:15:33Z'
+    confirmed_at: '2026-05-11T17:05:21Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "B2: heading-hiërarchie springt van H1 direct naar H3 ('### Beginselen') zonder tussenliggende H2 — de sectie 'Niet gedekte verrichtingen op termijn' (L64) is H3 in plaats van H2. Aanvullend A6: meerdere hyphen-spatie word-splits door het bestand: 'in-resultaat- neming' (L82), 'prijs- risico' (L97), 'niet- gerealiseerde' (L109) — PDF-regelbreuk-artefact."
+    rationale: "A6 op meerdere regels: hyphen-spatie word-splits 'in-resultaat- neming' (L101, L113), 'prijs- risico' (L117), 'niet- gerealiseerde' (L129) — PDF-regelbreuk-artefacten consistent door het bestand. Heading-hiërarchie in de huidige body is correct (H1→H2→H3), dus B2 van eerdere ronde is niet meer van toepassing."
     layer1:
       file_size_chars: 12180
       flags: []
@@ -31,26 +31,22 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:15:33Z'
-      rationale: "B2: heading-hiërarchie springt van H1 direct naar H3 ('### Beginselen') zonder tussenliggende H2 — de sectie 'Niet gedekte verrichtingen op termijn' (L64) is H3 in plaats van H2. Aanvullend A6: meerdere hyphen-spatie word-splits door het bestand: 'in-resultaat- neming' (L82), 'prijs- risico' (L97), 'niet- gerealiseerde' (L109) — PDF-regelbreuk-artefact."
+      run_at: '2026-05-11T17:05:21Z'
+      rationale: "A6 op meerdere regels: hyphen-spatie word-splits 'in-resultaat- neming' (L101, L113), 'prijs- risico' (L117), 'niet- gerealiseerde' (L129) — PDF-regelbreuk-artefacten consistent door het bestand. Heading-hiërarchie in de huidige body is correct (H1→H2→H3), dus B2 van eerdere ronde is niet meer van toepassing."
       concrete_problemen:
-        - regel: 52
-          categorie: B2
-          type: other
-          voorbeeld: '### Beginselen (H1 → H3 zonder H2)'
-        - regel: 82
+        - regel: 101
           categorie: A6
           type: other
           voorbeeld: niet voor in-resultaat- neming vatbaar is
-        - regel: 93
+        - regel: 113
           categorie: A6
           type: other
           voorbeeld: niet voor in-resultaat- neming vatbaar is
-        - regel: 97
+        - regel: 117
           categorie: A6
           type: other
           voorbeeld: het hieraan verbonden prijs- risico gedekt
-        - regel: 109
+        - regel: 129
           categorie: A6
           type: other
           voorbeeld: een niet- gerealiseerde winst (niet in resultaat te nemen)

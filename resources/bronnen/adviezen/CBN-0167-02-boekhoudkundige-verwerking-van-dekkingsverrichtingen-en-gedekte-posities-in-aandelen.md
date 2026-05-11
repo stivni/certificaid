@@ -30,9 +30,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T15:19:35Z'
+    confirmed_at: '2026-05-11T17:05:21Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "Meerdere ETL-artefacten bevestigd na re-QA: D4 op r.435 en r.442 ('** 20.09.91**' / '** 01.10.91**' met spatie na openings-**); A9 op r.474 ('Aanschaffigswaarde', ontbrekende 't') en r.498 ('op terminijn', dubbele 'i'); E2 op r.252-254 en r.515 (multi-line tabelcellen die kolommen splitsen over meerdere regels, standaard markdown-rendering breekt). Structuur en inhoud omvangrijk maar herkenbaar."
+    rationale: "Vorig verdict bevestigd. D4 r.425/r.432: '** 20.09.91**' / '** 01.10.91**' met spatie na openings-** — malformed bold. A9 r.464: 'Aanschaffigswaarde' (ontbrekende 't'); r.488: 'op terminijn' (extra 'i'). E2 r.242-244: tabelheader met multi-line cell splits over drie regels — standaard markdown-rendering breekt."
     layer1:
       file_size_chars: 41254
       flags: []
@@ -44,26 +44,26 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:19:35Z'
-      rationale: "Meerdere ETL-artefacten bevestigd na re-QA: D4 op r.435 en r.442 ('** 20.09.91**' / '** 01.10.91**' met spatie na openings-**); A9 op r.474 ('Aanschaffigswaarde', ontbrekende 't') en r.498 ('op terminijn', dubbele 'i'); E2 op r.252-254 en r.515 (multi-line tabelcellen die kolommen splitsen over meerdere regels, standaard markdown-rendering breekt). Structuur en inhoud omvangrijk maar herkenbaar."
+      run_at: '2026-05-11T17:05:21Z'
+      rationale: "Vorig verdict bevestigd. D4 r.425/r.432: '** 20.09.91**' / '** 01.10.91**' met spatie na openings-** — malformed bold. A9 r.464: 'Aanschaffigswaarde' (ontbrekende 't'); r.488: 'op terminijn' (extra 'i'). E2 r.242-244: tabelheader met multi-line cell splits over drie regels — standaard markdown-rendering breekt."
       concrete_problemen:
-        - regel: 435
+        - regel: 425
           categorie: D4
           type: other
           voorbeeld: '** 20.09.91**'
-        - regel: 442
+        - regel: 432
           categorie: D4
           type: other
           voorbeeld: '** 01.10.91**'
-        - regel: 474
+        - regel: 464
           categorie: A9
           type: ocr-confusion
-          voorbeeld: 510... | Aandelen - Aanschaffigswaarde | 12.600
-        - regel: 498
+          voorbeeld: '| | 510... | Aandelen - Aanschaffigswaarde | 12.600 | |'
+        - regel: 488
           categorie: A9
           type: ocr-confusion
           voorbeeld: op terminijn verkochte effecten | 100 |
-        - regel: 252
+        - regel: 242
           categorie: E2
           type: pseudo-table
           voorbeeld: '| Noteringsdata | | Koers van de optie \n | | Koers van het aandeel...'

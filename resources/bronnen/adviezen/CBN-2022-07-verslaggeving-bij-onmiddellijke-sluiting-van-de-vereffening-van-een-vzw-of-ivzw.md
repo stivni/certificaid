@@ -30,9 +30,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T15:26:40Z'
+    confirmed_at: '2026-05-11T17:13:31Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "D2: regel 158 verwijst naar een schematisch tijdlijn-overzicht dat niet volgt. Bijkomend: regel 127 bevat 'gecertificeerd, accountant' met een spurious komma — ETL-interpunctie-artefact. Inhoud verder compleet. (Herbevestiging van eerdere beoordeling.)"
+    rationale: "D2: regel 148 kondigt 'Schematisch kunnen de volgende termijnen worden onderscheiden:' aan maar het tijdslijn-schema ontbreekt. D4/A5: regel 117 bevat 'de bedrijfsrevisor of een gecertificeerd, accountant bevestigt' — spurious komma na 'gecertificeerd' is een ETL-interpunctie-artefact (vergelijk CBN-2022-06 regel 111 zonder komma). Geen source-typo: de overeenkomstige bepaling in CBN-2022-06 art. 2:80 heeft geen komma."
     layer1:
       file_size_chars: 22206
       flags: []
@@ -44,17 +44,17 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:26:40Z'
-      rationale: "D2: regel 158 verwijst naar een schematisch tijdlijn-overzicht dat niet volgt. Bijkomend: regel 127 bevat 'gecertificeerd, accountant' met een spurious komma — ETL-interpunctie-artefact. Inhoud verder compleet. (Herbevestiging van eerdere beoordeling.)"
+      run_at: '2026-05-11T17:13:31Z'
+      rationale: "D2: regel 148 kondigt 'Schematisch kunnen de volgende termijnen worden onderscheiden:' aan maar het tijdslijn-schema ontbreekt. D4/A5: regel 117 bevat 'de bedrijfsrevisor of een gecertificeerd, accountant bevestigt' — spurious komma na 'gecertificeerd' is een ETL-interpunctie-artefact (vergelijk CBN-2022-06 regel 111 zonder komma). Geen source-typo: de overeenkomstige bepaling in CBN-2022-06 art. 2:80 heeft geen komma."
       concrete_problemen:
-        - regel: 158
-          categorie: D2
-          type: missing-section
-          voorbeeld: 'Schematisch kunnen de volgende termijnen worden onderscheiden: [tijdlijn-schema ontbreekt]'
-        - regel: 127
+        - regel: 117
           categorie: A5
           type: other
-          voorbeeld: gecertificeerd, accountant bevestigt dit schriftelijk akkoord (spurious komma na 'gecertificeerd')
+          voorbeeld: de bedrijfsrevisor of een gecertificeerd, accountant bevestigt dit schriftelijk akkoord
+        - regel: 148
+          categorie: D2
+          type: missing-section
+          voorbeeld: 'Schematisch kunnen de volgende termijnen worden onderscheiden: [tijdslijn-schema ontbreekt]'
 themas:
   - sluiting vereffening
   - ontbinding

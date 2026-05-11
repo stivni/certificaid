@@ -30,9 +30,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T15:26:40Z'
+    confirmed_at: '2026-05-11T17:13:30Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "E2: Regel 98 bevat een asymmetrische tabelrij '| | (of 764 tot 768 | Andere niet-recurrente bedrijfsopbrengsten | 2.000 | |' waarbij '(of 764 tot 768' als extra eerste kolom-cel staat — alternatieve boeking correct weergegeven maar zonder geldige markdown-tabelstructuur. Overige tabellen correct. Inhoud volledig, 6 headings correct, alle 17 voetnootdefinities aanwezig."
+    rationale: "E2: Regel 86 bevat '| | (of 764 tot 768 | Andere niet-recurrente bedrijfsopbrengsten | 2.000 | |' waarbij '(of 764 tot 768' als extra eerste kolom-cel staat — alternatieve boeking correct bedoeld maar zonder geldige markdown-tabelstructuur (extra pipe-cell). Geïsoleerd artefact; overige tabellen correct, inhoud volledig, 6 headings correct, alle 17 voetnootdefinities aanwezig."
     layer1:
       file_size_chars: 12670
       flags: []
@@ -44,10 +44,10 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:26:40Z'
-      rationale: "E2: Regel 98 bevat een asymmetrische tabelrij '| | (of 764 tot 768 | Andere niet-recurrente bedrijfsopbrengsten | 2.000 | |' waarbij '(of 764 tot 768' als extra eerste kolom-cel staat — alternatieve boeking correct weergegeven maar zonder geldige markdown-tabelstructuur. Overige tabellen correct. Inhoud volledig, 6 headings correct, alle 17 voetnootdefinities aanwezig."
+      run_at: '2026-05-11T17:13:30Z'
+      rationale: "E2: Regel 86 bevat '| | (of 764 tot 768 | Andere niet-recurrente bedrijfsopbrengsten | 2.000 | |' waarbij '(of 764 tot 768' als extra eerste kolom-cel staat — alternatieve boeking correct bedoeld maar zonder geldige markdown-tabelstructuur (extra pipe-cell). Geïsoleerd artefact; overige tabellen correct, inhoud volledig, 6 headings correct, alle 17 voetnootdefinities aanwezig."
       concrete_problemen:
-        - regel: 98
+        - regel: 86
           categorie: E2
           type: other
           voorbeeld: '| | (of 764 tot 768 | Andere niet-recurrente bedrijfsopbrengsten | 2.000 | |'

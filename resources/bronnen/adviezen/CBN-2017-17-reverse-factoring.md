@@ -17,9 +17,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T15:23:43Z'
+    confirmed_at: '2026-05-11T17:13:30Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "D4: regel 75 bevat 'factoringovereenkomsten[^2]*  behandelt' — dubbele spatie voor het sluitende asterisk is een ETL-artefact. Regel 83 bevat '*Financiële schulden – Overige leningen moet worden gereclasseerd.*' waarbij de italic-markering de volledige proza-zin omvat inclusief punt — een mens zou enkel de rekeningnaam cursiveren, niet de omringende zin."
+    rationale: "D4: regel 65 heeft 'factoringovereenkomsten[^2]*  behandelt' waarbij na de footnote-marker de italic-sluiting gevolgd wordt door twee spaties voor 'behandelt' — ETL-artefact. Regel 73: '*Financiële schulden – Overige leningen moet worden gereclasseerd.*' omvat de volledige proza-zin inclusief punt in italic in plaats van enkel de rekeningnaam — een mens italiciseert enkel de naam, niet de omliggende zin."
     layer1:
       file_size_chars: 4590
       flags: []
@@ -31,14 +31,14 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:23:43Z'
-      rationale: "D4: regel 75 bevat 'factoringovereenkomsten[^2]*  behandelt' — dubbele spatie voor het sluitende asterisk is een ETL-artefact. Regel 83 bevat '*Financiële schulden – Overige leningen moet worden gereclasseerd.*' waarbij de italic-markering de volledige proza-zin omvat inclusief punt — een mens zou enkel de rekeningnaam cursiveren, niet de omringende zin."
+      run_at: '2026-05-11T17:13:30Z'
+      rationale: "D4: regel 65 heeft 'factoringovereenkomsten[^2]*  behandelt' waarbij na de footnote-marker de italic-sluiting gevolgd wordt door twee spaties voor 'behandelt' — ETL-artefact. Regel 73: '*Financiële schulden – Overige leningen moet worden gereclasseerd.*' omvat de volledige proza-zin inclusief punt in italic in plaats van enkel de rekeningnaam — een mens italiciseert enkel de naam, niet de omliggende zin."
       concrete_problemen:
-        - regel: 75
+        - regel: 65
           categorie: D4
           type: other
           voorbeeld: factoringovereenkomsten[^2]*  behandelt
-        - regel: 83
+        - regel: 73
           categorie: D4
           type: other
           voorbeeld: '*Financiële schulden – Overige leningen moet worden gereclasseerd.*'

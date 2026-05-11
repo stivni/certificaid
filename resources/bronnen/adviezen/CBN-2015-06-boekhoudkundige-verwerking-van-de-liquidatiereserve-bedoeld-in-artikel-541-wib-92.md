@@ -30,9 +30,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T15:23:42Z'
+    confirmed_at: '2026-05-11T17:09:38Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "D4: regel 174 '(artikel 184*quater *WIB 92)' heeft spatie vóór sluit-asterisk (malformed italic). Regel 83: H1-titel eindigt op literal '1' — voetnootcijfer niet als [^1] geparsed. D3: regel 272 '[^23]' is een losstaande voetnoot-definitie waarvan de body-referentie ontbreekt in de tekst."
+    rationale: "D4 bevestigd: regel 161 '(artikel 184*quater* WIB 92)[^21] **' heeft een stray '**' na de voetnootreferentie die geen bijbehorende opening heeft. Regel 70 H1-titel eindigt op literal '1' (voetnootcijfer niet als [^1] geparsed). D3: [^23] voetnootdefinitie aanwezig maar heeft geen body-referentie in de lopende tekst. ETL-artefacten."
     layer1:
       file_size_chars: 18731
       flags: []
@@ -44,21 +44,21 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:23:42Z'
-      rationale: "D4: regel 174 '(artikel 184*quater *WIB 92)' heeft spatie vóór sluit-asterisk (malformed italic). Regel 83: H1-titel eindigt op literal '1' — voetnootcijfer niet als [^1] geparsed. D3: regel 272 '[^23]' is een losstaande voetnoot-definitie waarvan de body-referentie ontbreekt in de tekst."
+      run_at: '2026-05-11T17:09:38Z'
+      rationale: "D4 bevestigd: regel 161 '(artikel 184*quater* WIB 92)[^21] **' heeft een stray '**' na de voetnootreferentie die geen bijbehorende opening heeft. Regel 70 H1-titel eindigt op literal '1' (voetnootcijfer niet als [^1] geparsed). D3: [^23] voetnootdefinitie aanwezig maar heeft geen body-referentie in de lopende tekst. ETL-artefacten."
       concrete_problemen:
-        - regel: 83
+        - regel: 70
           categorie: D4
           type: other
-          voorbeeld: "...bijzondere aanslag op deze liquidatiereserve1 — literal '1' i.p.v. [^1]"
-        - regel: 174
+          voorbeeld: "...bijzondere aanslag op deze liquidatiereserve1 — literal '1' i.p.v. [^1] in H1-titel"
+        - regel: 161
           categorie: D4
           type: other
-          voorbeeld: (artikel 184*quater *WIB 92)[^21] — spatie vóór sluit-asterisk
-        - regel: 272
+          voorbeeld: (artikel 184*quater* WIB 92)[^21] ** — stray sluitende ** zonder opening
+        - regel: 259
           categorie: D3
           type: other
-          voorbeeld: '[^23]: Onderhavig voorbeeld gaat uit... — voetnoot zonder zichtbare body-referentie [^23]'
+          voorbeeld: '[^23]: Onderhavig voorbeeld... — voetnootdefinitie zonder zichtbare [^23] referentie in body'
 themas:
   - Onaantastbaarheidsvoorwaarde
   - bijzondere aanslag

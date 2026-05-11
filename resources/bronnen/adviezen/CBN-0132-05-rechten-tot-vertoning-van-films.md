@@ -30,9 +30,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T15:15:33Z'
+    confirmed_at: '2026-05-11T17:05:21Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "A6 op L75: voetnootmarker [^1] gecombineerd met een leading-space line-break breekt de zin midden in ('...te worden gebruikt[^1] en derhalve niet...'). D4 op L89: 'onder* Diensten en diverse goederen*' — openende asterisk staat zonder spatie na 'onder', wat de italic-span slecht formatteert. Bevestiging van eerder layer2-verdict."
+    rationale: "D4 op L85: 'wanneer de uitzendrechten onder* Diensten en diverse goederen* werden geboekt' — openende asterisk staat direct tegen 'onder' geplakt zonder spatie, wat de italic-span niet correct parseert. Eerdere A6-claim over L75 niet bevestigd: [^1] mid-zin is standaard markdown-voetnootnotatie, geen extractie-artefact."
     layer1:
       file_size_chars: 3015
       flags: []
@@ -44,17 +44,13 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:15:33Z'
-      rationale: "A6 op L75: voetnootmarker [^1] gecombineerd met een leading-space line-break breekt de zin midden in ('...te worden gebruikt[^1] en derhalve niet...'). D4 op L89: 'onder* Diensten en diverse goederen*' — openende asterisk staat zonder spatie na 'onder', wat de italic-span slecht formatteert. Bevestiging van eerder layer2-verdict."
+      run_at: '2026-05-11T17:05:21Z'
+      rationale: "D4 op L85: 'wanneer de uitzendrechten onder* Diensten en diverse goederen* werden geboekt' — openende asterisk staat direct tegen 'onder' geplakt zonder spatie, wat de italic-span niet correct parseert. Eerdere A6-claim over L75 niet bevestigd: [^1] mid-zin is standaard markdown-voetnootnotatie, geen extractie-artefact."
       concrete_problemen:
-        - regel: 75
-          categorie: A6
-          type: other
-          voorbeeld: '...te worden gebruikt[^1] en derhalve niet als een vast actief...'
-        - regel: 89
+        - regel: 85
           categorie: D4
           type: other
-          voorbeeld: '...wanneer de uitzendrechten onder* Diensten en diverse goederen* werden geboekt.'
+          voorbeeld: wanneer de uitzendrechten onder* Diensten en diverse goederen* werden geboekt (spatie ontbreekt voor *)
 themas:
   - diensten en diverse goederen
   - immateriële vaste activa

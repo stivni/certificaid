@@ -17,9 +17,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T15:23:43Z'
+    confirmed_at: '2026-05-11T17:13:30Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "B3: regel 70 bevat ', bijgewerkt op 10 september 2025[^2]' als orphan-zin direct na de # heading — geen alinea-break, geen heading, losse tekst die een mens nooit zo zou schrijven. E1/E2: de drie balans-tabellen (regels 82-87, 91-94, 98-104) hebben weliswaar een |---| separator na de headerrij, maar de structuur is malformed — meerdere data-kolommen zijn aaneengeregen in één pipe-rij zonder correcte kolom-uitlijning, waardoor de tabel niet als multi-kolom tabel rendert."
+    rationale: "A6/G3: regel 59 (body) bevat ', bijgewerkt op 10 september 2025[^2]' als orphan-zin direct na de H1 — scraper-artefact. E1/E2: de drie balans-tabellen (regels 73-76, 82-83, 89-93) zijn malformed — meerdere data-kolommen aaneengeregen in één pipe-rij zonder correcte kolom-scheiding, tabel rendert niet als multi-kolom tabel. D4: regel 104 bevat '*pooling of interest[^5]*  methode' met dubbele spatie na sluitende asterisk."
     layer1:
       file_size_chars: 8767
       flags: []
@@ -31,17 +31,21 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:23:43Z'
-      rationale: "B3: regel 70 bevat ', bijgewerkt op 10 september 2025[^2]' als orphan-zin direct na de # heading — geen alinea-break, geen heading, losse tekst die een mens nooit zo zou schrijven. E1/E2: de drie balans-tabellen (regels 82-87, 91-94, 98-104) hebben weliswaar een |---| separator na de headerrij, maar de structuur is malformed — meerdere data-kolommen zijn aaneengeregen in één pipe-rij zonder correcte kolom-uitlijning, waardoor de tabel niet als multi-kolom tabel rendert."
+      run_at: '2026-05-11T17:13:30Z'
+      rationale: "A6/G3: regel 59 (body) bevat ', bijgewerkt op 10 september 2025[^2]' als orphan-zin direct na de H1 — scraper-artefact. E1/E2: de drie balans-tabellen (regels 73-76, 82-83, 89-93) zijn malformed — meerdere data-kolommen aaneengeregen in één pipe-rij zonder correcte kolom-scheiding, tabel rendert niet als multi-kolom tabel. D4: regel 104 bevat '*pooling of interest[^5]*  methode' met dubbele spatie na sluitende asterisk."
       concrete_problemen:
-        - regel: 70
-          categorie: B3
+        - regel: 59
+          categorie: A6
           type: other
           voorbeeld: ', bijgewerkt op 10 september 2025[^2]'
-        - regel: 84
-          categorie: E1
+        - regel: 73
+          categorie: E2
           type: other
           voorbeeld: '| Positief consolidatieverschil | | 100 | | Eigen vermogen | | 80 |'
+        - regel: 104
+          categorie: D4
+          type: other
+          voorbeeld: '*pooling of interest[^5]*  methode te gebruiken bij een bedrijfscombinatie'
 themas:
   - bedrijfscombinatie
   - common control transactie

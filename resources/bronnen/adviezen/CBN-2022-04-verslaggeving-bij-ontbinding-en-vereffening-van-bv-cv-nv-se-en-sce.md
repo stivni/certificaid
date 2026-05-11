@@ -30,9 +30,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T15:26:40Z'
+    confirmed_at: '2026-05-11T17:13:31Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "A3: de inhoudsopgave staat als genummerde lijst in de body (regels 94-110) vóór de inhoudelijke secties — TOC-fragment niet verwijderd. D2: op regel 210 wordt 'Schematisch kunnen de volgende termijnen worden onderscheiden:' aangekondigd maar het schema (tijdslijn-afbeelding) ontbreekt. (Herbevestiging van eerdere beoordeling.)"
+    rationale: "D2: regel 193 kondigt 'Schematisch kunnen de volgende termijnen worden onderscheiden:' aan maar het schema (tijdslijn-afbeelding) ontbreekt volledig — de tekst gaat direct verder met een bullet-lijst zonder de beloofde visuele voorstelling. Ronde-3 herlezing: het eerder gemelde A3 TOC-fragment (vorige pass) is niet aanwezig in de huidige body; de structuur start correct met ## headings."
     layer1:
       file_size_chars: 30206
       flags: []
@@ -44,17 +44,13 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:26:40Z'
-      rationale: "A3: de inhoudsopgave staat als genummerde lijst in de body (regels 94-110) vóór de inhoudelijke secties — TOC-fragment niet verwijderd. D2: op regel 210 wordt 'Schematisch kunnen de volgende termijnen worden onderscheiden:' aangekondigd maar het schema (tijdslijn-afbeelding) ontbreekt. (Herbevestiging van eerdere beoordeling.)"
+      run_at: '2026-05-11T17:13:31Z'
+      rationale: "D2: regel 193 kondigt 'Schematisch kunnen de volgende termijnen worden onderscheiden:' aan maar het schema (tijdslijn-afbeelding) ontbreekt volledig — de tekst gaat direct verder met een bullet-lijst zonder de beloofde visuele voorstelling. Ronde-3 herlezing: het eerder gemelde A3 TOC-fragment (vorige pass) is niet aanwezig in de huidige body; de structuur start correct met ## headings."
       concrete_problemen:
-        - regel: 94
-          categorie: A3
-          type: other
-          voorbeeld: "1. Ontbinding \n  1. Vrijwillige ontbinding \n  2. Ontbinding van rechtswege  (TOC-fragment in body)"
-        - regel: 210
+        - regel: 193
           categorie: D2
           type: missing-section
-          voorbeeld: 'Schematisch kunnen de volgende termijnen worden onderscheiden: [schema/tijdslijn ontbreekt]'
+          voorbeeld: 'Schematisch kunnen de volgende termijnen worden onderscheiden: [tijdslijn-schema ontbreekt]'
 themas:
   - verslaggeving
   - ontbinding

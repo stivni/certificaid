@@ -24,9 +24,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T15:19:36Z'
+    confirmed_at: '2026-05-11T17:09:38Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "A3/B3: regel 70 bevat 'de Waalse regering gecreëerde opleidingscheques' als losstaande plain-text regel direct na de H1-titel — een gedupliceerd titelfragment dat niet werd opgeschoond. E2: de tabelrij op regel 100 ('| | of 623 Andere personeelskosten | | | |') heeft een extra trailing pipe waardoor de rij meer cellen heeft dan de header-rij, en maakt de tabel malformed."
+    rationale: "A3: regel 59 bevat 'de Waalse regering gecreëerde opleidingscheques' als losstaande plain-text regel direct na de H1-titel — een gedupliceerd titelfragment dat niet werd opgeschoond. E2: de tabelrij op regel 89 ('| | of 623 Andere personeelskosten | | | |') heeft een extra trailing pipe waardoor de rij meer cellen heeft dan de header-rij, wat de tabel malformed maakt."
     layer1:
       file_size_chars: 3779
       flags: []
@@ -38,14 +38,14 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:19:36Z'
-      rationale: "A3/B3: regel 70 bevat 'de Waalse regering gecreëerde opleidingscheques' als losstaande plain-text regel direct na de H1-titel — een gedupliceerd titelfragment dat niet werd opgeschoond. E2: de tabelrij op regel 100 ('| | of 623 Andere personeelskosten | | | |') heeft een extra trailing pipe waardoor de rij meer cellen heeft dan de header-rij, en maakt de tabel malformed."
+      run_at: '2026-05-11T17:09:38Z'
+      rationale: "A3: regel 59 bevat 'de Waalse regering gecreëerde opleidingscheques' als losstaande plain-text regel direct na de H1-titel — een gedupliceerd titelfragment dat niet werd opgeschoond. E2: de tabelrij op regel 89 ('| | of 623 Andere personeelskosten | | | |') heeft een extra trailing pipe waardoor de rij meer cellen heeft dan de header-rij, wat de tabel malformed maakt."
       concrete_problemen:
-        - regel: 70
+        - regel: 59
           categorie: A3
           type: other
           voorbeeld: de Waalse regering gecreëerde opleidingscheques
-        - regel: 100
+        - regel: 89
           categorie: E2
           type: other
           voorbeeld: '| | of 623 Andere personeelskosten | | | |'

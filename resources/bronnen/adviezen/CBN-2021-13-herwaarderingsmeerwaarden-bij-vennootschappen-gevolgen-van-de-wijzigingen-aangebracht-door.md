@@ -30,9 +30,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T15:26:40Z'
+    confirmed_at: '2026-05-11T17:13:31Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "B2: Regel 136 bevat '### 1° verhoogd met het bedrag van de omgezette herwaarderingsmeerwaarde, en' — een genummerd lijstelement ('1°') is als ### heading opgemaakt in plaats van als list item, hiërarchiesprong veroorzakend (H3 zonder logische sectionering). D4: Regel 170 bevat 'rekening* 1109 Andere beschikbare inbreng buiten kapitaal*' met spatie na 'rekening' vóór de italic-opener. Verder 12 headings correct, 28 voetnoten aanwezig."
+    rationale: "B2: regel 122 bevat '### 1° verhoogd met het bedrag van de omgezette herwaarderingsmeerwaarde, en' — een genummerd lid van art. 7:208 WVV werd als ###-heading opgemaakt in plaats van als list-item, waardoor er een hiërarchiesprong ontstaat (H3 onder H2 zonder structuurlogica). D4: regel 156 bevat 'rekening* 1109 Andere beschikbare inbreng buiten kapitaal*' — losstaande asterisk, zelfde ETL-artefact als in 2021/12."
     layer1:
       file_size_chars: 21893
       flags: []
@@ -44,14 +44,14 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:26:40Z'
-      rationale: "B2: Regel 136 bevat '### 1° verhoogd met het bedrag van de omgezette herwaarderingsmeerwaarde, en' — een genummerd lijstelement ('1°') is als ### heading opgemaakt in plaats van als list item, hiërarchiesprong veroorzakend (H3 zonder logische sectionering). D4: Regel 170 bevat 'rekening* 1109 Andere beschikbare inbreng buiten kapitaal*' met spatie na 'rekening' vóór de italic-opener. Verder 12 headings correct, 28 voetnoten aanwezig."
+      run_at: '2026-05-11T17:13:31Z'
+      rationale: "B2: regel 122 bevat '### 1° verhoogd met het bedrag van de omgezette herwaarderingsmeerwaarde, en' — een genummerd lid van art. 7:208 WVV werd als ###-heading opgemaakt in plaats van als list-item, waardoor er een hiërarchiesprong ontstaat (H3 onder H2 zonder structuurlogica). D4: regel 156 bevat 'rekening* 1109 Andere beschikbare inbreng buiten kapitaal*' — losstaande asterisk, zelfde ETL-artefact als in 2021/12."
       concrete_problemen:
-        - regel: 136
+        - regel: 122
           categorie: B2
           type: other
           voorbeeld: '### 1° verhoogd met het bedrag van de omgezette herwaarderingsmeerwaarde, en'
-        - regel: 170
+        - regel: 156
           categorie: D4
           type: other
           voorbeeld: rekening* 1109 Andere beschikbare inbreng buiten kapitaal*

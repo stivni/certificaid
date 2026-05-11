@@ -30,9 +30,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T15:26:40Z'
+    confirmed_at: '2026-05-11T17:13:31Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "E1/B2: de balans-tabellen voor 'Beginvermogen' zijn gebroken over meerdere losse blokken — het beginvermogen-bedrag staat als H3-heading ('### Beginvermogen') gevolgd door de passief-kolommen als losse tabel, in plaats van als één samenhangende pipe-tabel (bv. regels 134-142, 149-155, 164-172). Dit is een systematisch tabel-extractie-artefact dat door het hele document terugkeert in alle 4 voorbeelden. De journaalboekingen (regels 323-331) zijn correct als pipe-tabel opgemaakt."
+    rationale: "E1/B2: 'Beginvermogen' verschijnt 11× als ### heading (bv. regels 145, 160, 175, 242, 257, 273, 292, 307, 322, 349, 372) terwijl het structureel een rij-label in een balans-tabel is — de linker-passief-kolom van elke balans is uit de tabelstructuur gelicht en als heading opgemaakt. Dit systematisch artefact trekt door alle 4 voorbeelden. De journaalboekingen (bv. regels 334-342) zijn wél correct als pipe-tabel opgemaakt."
     layer1:
       file_size_chars: 33364
       flags: []
@@ -44,21 +44,21 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:26:40Z'
-      rationale: "E1/B2: de balans-tabellen voor 'Beginvermogen' zijn gebroken over meerdere losse blokken — het beginvermogen-bedrag staat als H3-heading ('### Beginvermogen') gevolgd door de passief-kolommen als losse tabel, in plaats van als één samenhangende pipe-tabel (bv. regels 134-142, 149-155, 164-172). Dit is een systematisch tabel-extractie-artefact dat door het hele document terugkeert in alle 4 voorbeelden. De journaalboekingen (regels 323-331) zijn correct als pipe-tabel opgemaakt."
+      run_at: '2026-05-11T17:13:31Z'
+      rationale: "E1/B2: 'Beginvermogen' verschijnt 11× als ### heading (bv. regels 145, 160, 175, 242, 257, 273, 292, 307, 322, 349, 372) terwijl het structureel een rij-label in een balans-tabel is — de linker-passief-kolom van elke balans is uit de tabelstructuur gelicht en als heading opgemaakt. Dit systematisch artefact trekt door alle 4 voorbeelden. De journaalboekingen (bv. regels 334-342) zijn wél correct als pipe-tabel opgemaakt."
       concrete_problemen:
-        - regel: 134
+        - regel: 145
           categorie: E1
           type: pseudo-table
-          voorbeeld: "### Beginvermogen\n\n  | | 5.000 | \n|---|---|\n| | | | | Bestemde fondsen | | 3.500 |"
-        - regel: 149
+          voorbeeld: '### Beginvermogen\n\n  | | 5.000 |\n|---|---|\n| | | | | Bestemde fondsen | | 3.500 | (balansrij als heading)'
+        - regel: 160
           categorie: E1
           type: pseudo-table
-          voorbeeld: "### Beginvermogen\n\n  | | 8.000 | \n|---|---|\n| | | | | Bestemde fondsen | | 5.000 |"
-        - regel: 231
+          voorbeeld: '### Beginvermogen\n\n  | | 8.000 |\n|---|---| (Voorbeeld 1, balans B — zelfde patroon)'
+        - regel: 242
           categorie: B2
           type: other
-          voorbeeld: '### Beginvermogen (H3 heading als tabel-rij-label i.p.v. inhoud van tabelcel; herhaald 8x)'
+          voorbeeld: '### Beginvermogen (H3 heading als tabel-rij-label; herhaald 11× door het document)'
 themas:
   - fusie
   - verenigingen en stichtingen

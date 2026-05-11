@@ -30,9 +30,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T15:23:42Z'
+    confirmed_at: '2026-05-11T17:09:38Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "B3: de H1-titel is enkel '# Advies 30 september 2015' zonder het CBN-advies-nummer — het officiële nummer (2015/8) ontbreekt in de body. B2: regels 126–128 hebben '## Voorbeeldboekingen' direct gevolgd door '## Boeking van de aankoop...' waarbij de tweede ## conceptueel een subsectie is van de eerste (inconsistente heading-hiërarchie). Inhoud volledig."
+    rationale: "B3 bevestigd: H1 op regel 68 is '# Advies 30 september 2015' zonder CBN-advies-nummer (2015/8 ontbreekt in body) — structureel onvolledig als heading. B2 bevestigd: regels 110 en 112 bevatten twee opeenvolgende ## Voorbeeldboekingen en ## Boeking van de aankoop... die conceptueel een nesting vereisen maar beide ## zijn. ETL-artefacten."
     layer1:
       file_size_chars: 12533
       flags: []
@@ -44,17 +44,17 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:23:42Z'
-      rationale: "B3: de H1-titel is enkel '# Advies 30 september 2015' zonder het CBN-advies-nummer — het officiële nummer (2015/8) ontbreekt in de body. B2: regels 126–128 hebben '## Voorbeeldboekingen' direct gevolgd door '## Boeking van de aankoop...' waarbij de tweede ## conceptueel een subsectie is van de eerste (inconsistente heading-hiërarchie). Inhoud volledig."
+      run_at: '2026-05-11T17:09:38Z'
+      rationale: "B3 bevestigd: H1 op regel 68 is '# Advies 30 september 2015' zonder CBN-advies-nummer (2015/8 ontbreekt in body) — structureel onvolledig als heading. B2 bevestigd: regels 110 en 112 bevatten twee opeenvolgende ## Voorbeeldboekingen en ## Boeking van de aankoop... die conceptueel een nesting vereisen maar beide ## zijn. ETL-artefacten."
       concrete_problemen:
-        - regel: 84
+        - regel: 68
           categorie: B3
           type: other
-          voorbeeld: '# Advies 30 september 2015 — H1 zonder CBN-advies-nummer (2015/8 ontbreekt in body)'
-        - regel: 126
+          voorbeeld: '# Advies 30 september 2015 — H1 zonder CBN-advies-nummer 2015/8'
+        - regel: 110
           categorie: B2
           type: other
-          voorbeeld: '## Voorbeeldboekingen gevolgd direct door ## Boeking van de aankoop... (subsectie als zelfde ##-niveau)'
+          voorbeeld: '## Voorbeeldboekingen gevolgd door ## Boeking van de aankoop... (subsectie als zelfde niveau)'
 themas:
   - bestellingen in uitvoering
   - bouwprojecten

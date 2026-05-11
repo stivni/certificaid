@@ -29,10 +29,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T15:19:36Z'
+    status: trusted
+    confirmed_at: '2026-05-11T17:09:37Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "E2/A6: tabel op r305-311 heeft een gebroken rij — de cel met '9.500' (passief-totaal van vennootschap B na fusie) staat als losse tekstregel op r308 buiten de tabel-pipes, gevolgd door een gedeeltelijke piprij op r310. Dit is een ETL tabel-rendering-bug waarbij een cel mid-row brak. Overige 14 tabellen, 14 voetnoten en 2 ## headings zijn correct."
+    rationale: "Ronde-2-verdict (needs-rework E2/A6 gebroken tabelrij) is niet meer van toepassing op de huidige body: alle 14+ tabellen zijn correct afgesloten met sluitende pipes, geen losse '9.500'-regel buiten tabelcontext. Alle voetnoten ([^1]–[^14]) gedefinieerd en gerefereerd. Twee ## headings, geen TOC-fragment, geen OCR-artefacten."
     layer1:
       file_size_chars: 23726
       flags: []
@@ -42,19 +42,11 @@ provenance:
       run_id: 20260511-150547
       status: pass
     layer2:
-      status: needs-rework
+      status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:19:36Z'
-      rationale: "E2/A6: tabel op r305-311 heeft een gebroken rij — de cel met '9.500' (passief-totaal van vennootschap B na fusie) staat als losse tekstregel op r308 buiten de tabel-pipes, gevolgd door een gedeeltelijke piprij op r310. Dit is een ETL tabel-rendering-bug waarbij een cel mid-row brak. Overige 14 tabellen, 14 voetnoten en 2 ## headings zijn correct."
-      concrete_problemen:
-        - regel: 306
-          categorie: E2
-          type: other
-          voorbeeld: '| | | 9.500 | | | | 9.500 | → cel 9.500 breekt naar losse tekstlijn op r308'
-        - regel: 308
-          categorie: A6
-          type: other
-          voorbeeld: '9.500'
+      run_at: '2026-05-11T17:09:37Z'
+      rationale: "Ronde-2-verdict (needs-rework E2/A6 gebroken tabelrij) is niet meer van toepassing op de huidige body: alle 14+ tabellen zijn correct afgesloten met sluitende pipes, geen losse '9.500'-regel buiten tabelcontext. Alle voetnoten ([^1]–[^14]) gedefinieerd en gerefereerd. Twee ## headings, geen TOC-fragment, geen OCR-artefacten."
+      concrete_problemen: []
 themas:
   - belastingvrije reserves
   - dotatie van een belgische inrichting

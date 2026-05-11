@@ -30,9 +30,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T15:23:43Z'
+    confirmed_at: '2026-05-11T17:13:30Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: 'E1/E2: de uitgebreide vergelijkingstabellen en rekenkundige voorbeeldtabellen (regels 79-1600) zijn volledig gedecomposeerd in losse `| waarde |` celfragmenten waarbij elke cel in een afzonderlijk `| \n\n[tekst]\n\n  |` blokje staat — de originele multi-kolom tabelstructuur (jaren X t/m X+4 als kolommen) is onleesbaar. Dit is een ernstig structureel ETL-artefact dat het volledige tweede deel van het document onbruikbaar maakt voor RAG. Regel 79-94 bevat wel een gedeeltelijk correcte vergelijkingstabel (Zevende Richtlijn vs 2013/34/EU) maar ook die heeft spurious line-breaks in cellen (regels 82-93).'
+    rationale: "E1/E2: de volledige voorbeeldtabellen (regels 128-869 en 875-1611) zijn gedecomposeerd in losse '| waarde |' celfragmenten waarbij elke numerieke waarde in een afzonderlijk '| \\n\\n[waarde]\\n\\n  |' blokje staat — de originele multi-kolom tabelstructuur (jaren X t/m X+4) is volledig onleesbaar. Dit ernstig ETL-artefact maakt het tweede deel van het document onbruikbaar voor RAG. A6: regel 93-95 heeft een gebroken tabelcel ('Art. 29 \\n\\n\\t\\t\\t\\t§ 4') met tab-inspringing."
     layer1:
       file_size_chars: 15505
       flags: []
@@ -44,21 +44,21 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:23:43Z'
-      rationale: 'E1/E2: de uitgebreide vergelijkingstabellen en rekenkundige voorbeeldtabellen (regels 79-1600) zijn volledig gedecomposeerd in losse `| waarde |` celfragmenten waarbij elke cel in een afzonderlijk `| \n\n[tekst]\n\n  |` blokje staat — de originele multi-kolom tabelstructuur (jaren X t/m X+4 als kolommen) is onleesbaar. Dit is een ernstig structureel ETL-artefact dat het volledige tweede deel van het document onbruikbaar maakt voor RAG. Regel 79-94 bevat wel een gedeeltelijk correcte vergelijkingstabel (Zevende Richtlijn vs 2013/34/EU) maar ook die heeft spurious line-breaks in cellen (regels 82-93).'
+      run_at: '2026-05-11T17:13:30Z'
+      rationale: "E1/E2: de volledige voorbeeldtabellen (regels 128-869 en 875-1611) zijn gedecomposeerd in losse '| waarde |' celfragmenten waarbij elke numerieke waarde in een afzonderlijk '| \\n\\n[waarde]\\n\\n  |' blokje staat — de originele multi-kolom tabelstructuur (jaren X t/m X+4) is volledig onleesbaar. Dit ernstig ETL-artefact maakt het tweede deel van het document onbruikbaar voor RAG. A6: regel 93-95 heeft een gebroken tabelcel ('Art. 29 \\n\\n\\t\\t\\t\\t§ 4') met tab-inspringing."
       concrete_problemen:
-        - regel: 118
+        - regel: 128
           categorie: E1
           type: pseudo-table
-          voorbeeld: '| \n\nBoekhoudkundige afschrijving in 5 jaar\n\n  |'
-        - regel: 123
+          voorbeeld: "| \n\nBoekhoudkundige afschrijving in 5 jaar\n\n  |"
+        - regel: 134
           categorie: E1
           type: pseudo-table
-          voorbeeld: '| \n\nJaren\n\n  | | \n|---|\n\nX\n\n  | | \n|---|\n\nX+1\n\n  |'
-        - regel: 82
+          voorbeeld: "| \n\nJaren\n\n  | | \n|---|\n\nX\n\n  | | \n|---|\n\nX+1\n\n  |"
+        - regel: 93
           categorie: A6
           type: other
-          voorbeeld: '| Art. 29 \n\n\t\t\t\t§ 4 | | In de geconsolideerde balans...'
+          voorbeeld: "| Art. 29 \n\n\t\t\t\t§ 4 | | In de geconsolideerde balans..."
 themas:
   - belasting
   - uitgestelde belastingen

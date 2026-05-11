@@ -30,9 +30,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T15:15:32Z'
+    confirmed_at: '2026-05-11T17:05:20Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "A5: regel 87 bevat '«VVPR-strips' zonder sluitend '»' (open guillemet). B1: heading op regel 113 bevat typo 'VVPS-strip' i.p.v. 'VVPR-strip' — vermoedelijk OCR/HTML-artefact (A9). Verder is het document inhoudelijk omvangrijk en compleet."
+    rationale: "A5 op L87: heading '## Beschrijving van het mechanisme van de «VVPR-strips' opent een guillemet «  maar sluit die niet — ETL-artefact. B5 op L135: 'Vragen in verband met de vaststelling van de «aanschaffingswaarde» van «VVPR-strips»' staat als plain tekst paragraaf terwijl het in de TOC (L78) als subsectie 3.2 is opgenomen en een ### heading had moeten zijn. Typo 'VVPS-strip' (L74, L113) lijkt source-typo (consistent in TOC en heading)."
     layer1:
       file_size_chars: 20985
       flags: []
@@ -44,17 +44,21 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:15:32Z'
-      rationale: "A5: regel 87 bevat '«VVPR-strips' zonder sluitend '»' (open guillemet). B1: heading op regel 113 bevat typo 'VVPS-strip' i.p.v. 'VVPR-strip' — vermoedelijk OCR/HTML-artefact (A9). Verder is het document inhoudelijk omvangrijk en compleet."
+      run_at: '2026-05-11T17:05:20Z'
+      rationale: "A5 op L87: heading '## Beschrijving van het mechanisme van de «VVPR-strips' opent een guillemet «  maar sluit die niet — ETL-artefact. B5 op L135: 'Vragen in verband met de vaststelling van de «aanschaffingswaarde» van «VVPR-strips»' staat als plain tekst paragraaf terwijl het in de TOC (L78) als subsectie 3.2 is opgenomen en een ### heading had moeten zijn. Typo 'VVPS-strip' (L74, L113) lijkt source-typo (consistent in TOC en heading)."
       concrete_problemen:
         - regel: 87
           categorie: A5
           type: other
-          voorbeeld: '#### Beschrijving van het mechanisme van de «VVPR-strips'
-        - regel: 113
-          categorie: B1
+          voorbeeld: '## Beschrijving van het mechanisme van de «VVPR-strips (openend guillemet niet gesloten)'
+        - regel: 135
+          categorie: B5
           type: other
-          voorbeeld: '#### Juridisch statuut van de "VVPS-strip" (typo: VVPS i.p.v. VVPR)'
+          voorbeeld: 'Vragen in verband met de vaststelling van de «aanschaffingswaarde» van «VVPR-strips» (plain tekst, geen ### heading)'
+        - regel: 74
+          categorie: B5
+          type: source-typo
+          voorbeeld: 2. Juridisch statuut van de "VVPS-strip" (VVPS i.p.v. VVPR — vermoedelijk source-typo)
 themas:
   - aandelen
   - aanschaffingswaarde

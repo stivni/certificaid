@@ -24,9 +24,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T15:23:43Z'
+    confirmed_at: '2026-05-11T17:13:30Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "B3: regel 73 bevat 'bij opmaak jaarrekening volgens nieuw model' als losstaande alinea direct na H1 — duplicaat van de ondertitel, extractie-artefact. A6: regels 79-80 en 86-87 bevatten spurious line-breaks na voetnootreferenties ('plaatsvindt.[^3]\\n Daarnaast' en '[^5]\\n Dit leidt ertoe') midden in zinnen. Klein advies, inhoud compleet."
+    rationale: "B3: regel 63 (body) bevat 'bij opmaak jaarrekening volgens nieuw model' als losstaande orphan-zin direct na de H1 — duplicaat van de ondertitel, extractie-artefact. A6: regels 69-70 en 76-77 bevatten spurious line-breaks na voetnootreferenties midden in zinnen ('[^3]\\n Daarnaast' en '[^5]\\n Dit leidt ertoe'). Klein advies, inhoud compleet."
     layer1:
       file_size_chars: 4127
       flags: []
@@ -38,18 +38,18 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:23:43Z'
-      rationale: "B3: regel 73 bevat 'bij opmaak jaarrekening volgens nieuw model' als losstaande alinea direct na H1 — duplicaat van de ondertitel, extractie-artefact. A6: regels 79-80 en 86-87 bevatten spurious line-breaks na voetnootreferenties ('plaatsvindt.[^3]\\n Daarnaast' en '[^5]\\n Dit leidt ertoe') midden in zinnen. Klein advies, inhoud compleet."
+      run_at: '2026-05-11T17:13:30Z'
+      rationale: "B3: regel 63 (body) bevat 'bij opmaak jaarrekening volgens nieuw model' als losstaande orphan-zin direct na de H1 — duplicaat van de ondertitel, extractie-artefact. A6: regels 69-70 en 76-77 bevatten spurious line-breaks na voetnootreferenties midden in zinnen ('[^3]\\n Daarnaast' en '[^5]\\n Dit leidt ertoe'). Klein advies, inhoud compleet."
       concrete_problemen:
-        - regel: 73
+        - regel: 63
           categorie: B3
           type: other
           voorbeeld: bij opmaak jaarrekening volgens nieuw model
-        - regel: 79
+        - regel: 70
           categorie: A6
           type: other
           voorbeeld: "wijziging plaatsvindt.[^3]\n Daarnaast wordt er voor het volledige"
-        - regel: 86
+        - regel: 77
           categorie: A6
           type: other
           voorbeeld: "die aanvatten op of na 1 januari 2016.[^5]\n Dit leidt ertoe"

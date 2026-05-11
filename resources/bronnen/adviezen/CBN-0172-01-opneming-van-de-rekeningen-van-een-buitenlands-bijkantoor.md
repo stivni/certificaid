@@ -30,9 +30,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T15:19:35Z'
+    confirmed_at: '2026-05-11T17:05:21Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "Meerdere ETL-artefacten: r.77-79 duplicate openingszin (identieke zin twee keer na de H1); r.466-471 gebroken tabelstructuur in Voorbeeld 2 (balanstotaal '**11.550.000**' staat op een losstaande regel buiten de tabelmarkering); r.614-616 'Handelsschulden[^68]' staat op een zelfstandige regel die een tabelcel onderbreekt; r.638 '*Opmerking*en' (woordsamentrekking door defecte italic-sluiting). Hoofdstructuur met 59 headings en drie voorbeelden is verder intact."
+    rationale: "A3/D4 bevestigd in huidige body: r.87-89 duplicate openingszin (identieke zin tweemaal direct na H1 vóór de inhoudsopbouw). E2 r.477-481: balanstotaal '**11.550.000**' staat op een losstaande regel buiten de tabelmarkering, waardoor de cel van de balansrij kapot is. E2 r.623-628: 'Handelsschulden[^68]' staat op een zelfstandige regel die een tabelrij onderbreekt. D4 r.649: '*Opmerking*en' (defecte italic-sluiting, woordsamentrekking). Hoofdstructuur (59 headings, 3 voorbeelden, 94 voetnoten) is verder intact."
     layer1:
       file_size_chars: 55283
       flags: []
@@ -44,22 +44,22 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:19:35Z'
-      rationale: "Meerdere ETL-artefacten: r.77-79 duplicate openingszin (identieke zin twee keer na de H1); r.466-471 gebroken tabelstructuur in Voorbeeld 2 (balanstotaal '**11.550.000**' staat op een losstaande regel buiten de tabelmarkering); r.614-616 'Handelsschulden[^68]' staat op een zelfstandige regel die een tabelcel onderbreekt; r.638 '*Opmerking*en' (woordsamentrekking door defecte italic-sluiting). Hoofdstructuur met 59 headings en drie voorbeelden is verder intact."
+      run_at: '2026-05-11T17:05:21Z'
+      rationale: "A3/D4 bevestigd in huidige body: r.87-89 duplicate openingszin (identieke zin tweemaal direct na H1 vóór de inhoudsopbouw). E2 r.477-481: balanstotaal '**11.550.000**' staat op een losstaande regel buiten de tabelmarkering, waardoor de cel van de balansrij kapot is. E2 r.623-628: 'Handelsschulden[^68]' staat op een zelfstandige regel die een tabelrij onderbreekt. D4 r.649: '*Opmerking*en' (defecte italic-sluiting, woordsamentrekking). Hoofdstructuur (59 headings, 3 voorbeelden, 94 voetnoten) is verder intact."
       concrete_problemen:
-        - regel: 77
+        - regel: 87
           categorie: A3
           type: other
-          voorbeeld: de waarde van het £ bedraagt, aan het einde van de periode (x+1), 1 € (twee keer)
-        - regel: 466
+          voorbeeld: 'de waarde van het £ bedraagt, aan het einde van de periode (x+1), 1 € (twee keer na elkaar voor ## Inleiding)'
+        - regel: 477
           categorie: E2
           type: pseudo-table
-          voorbeeld: '| | \n\n**11.550.000**\n\n  | | | | **11.550.000** |'
-        - regel: 614
+          voorbeeld: "| | | | | |\n\n**11.550.000**\n\n  | | | | **11.550.000** |"
+        - regel: 625
           categorie: E2
           type: pseudo-table
-          voorbeeld: Handelsschulden[^68] \n\n  | | 600.000 |
-        - regel: 638
+          voorbeeld: "Handelsschulden[^68] \n\n  | | 600.000 |"
+        - regel: 649
           categorie: D4
           type: other
           voorbeeld: '*Opmerking*en'

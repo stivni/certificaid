@@ -30,9 +30,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T15:19:36Z'
+    confirmed_at: '2026-05-11T17:09:38Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "B1/D1: de H1-titel op regel 59 luidt enkel '# Technische nota bij' zonder verdere specificatie — een afgekapte titel die niet aangeeft bij welk advies de nota hoort. Een mens zou '# Technische nota bij CBN-advies 2013/14' schrijven. Dit is een ETL-artefact waarbij de volledigere titeltekst niet werd overgenomen."
+    rationale: "B1/D1: de H1-titel op regel 60 luidt enkel '# Technische nota bij' zonder verdere tekst — een afgekapte titel die niet aangeeft bij welk advies de nota hoort. Een mens zou '# Technische nota bij CBN-advies 2013/14 – ...' schrijven. Dit is een ETL-artefact waarbij de titeltekst na de eerste twee woorden niet werd overgenomen."
     layer1:
       file_size_chars: 20154
       flags: []
@@ -44,10 +44,10 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:19:36Z'
-      rationale: "B1/D1: de H1-titel op regel 59 luidt enkel '# Technische nota bij' zonder verdere specificatie — een afgekapte titel die niet aangeeft bij welk advies de nota hoort. Een mens zou '# Technische nota bij CBN-advies 2013/14' schrijven. Dit is een ETL-artefact waarbij de volledigere titeltekst niet werd overgenomen."
+      run_at: '2026-05-11T17:09:38Z'
+      rationale: "B1/D1: de H1-titel op regel 60 luidt enkel '# Technische nota bij' zonder verdere tekst — een afgekapte titel die niet aangeeft bij welk advies de nota hoort. Een mens zou '# Technische nota bij CBN-advies 2013/14 – ...' schrijven. Dit is een ETL-artefact waarbij de titeltekst na de eerste twee woorden niet werd overgenomen."
       concrete_problemen:
-        - regel: 59
+        - regel: 60
           categorie: B1
           type: abrupt-cutoff
           voorbeeld: '# Technische nota bij'

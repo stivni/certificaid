@@ -21,9 +21,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T15:23:42Z'
+    confirmed_at: '2026-05-11T17:09:38Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "D4: twee malformed italic-markers bevestigd. Regel 104: '489X O*ntvangen voorschotten op kapitaal*' — asterisk kleeft direct aan de 'O' (opening italic zonder spatie na gewone letter). Regel 140: '*Boeking bij de betaalbaarstelling[^8] *' — spatie vóór sluit-asterisk. Inhoud en tabellen volledig, geen andere artefacten."
+    rationale: "D4: twee malformed italic-markers. Regel 96: '489X O*ntvangen voorschotten op kapitaal*' — asterisk kleeft direct aan de 'O' (geen spatie na reguliere tekst, opent italic mid-woord). Regel 132: '*Boeking bij de betaalbaarstelling[^8] *' — spatie vóór sluit-asterisk, wat de italic niet correct sluit in de meeste renderers."
     layer1:
       file_size_chars: 16925
       flags: []
@@ -35,17 +35,17 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:23:42Z'
-      rationale: "D4: twee malformed italic-markers bevestigd. Regel 104: '489X O*ntvangen voorschotten op kapitaal*' — asterisk kleeft direct aan de 'O' (opening italic zonder spatie na gewone letter). Regel 140: '*Boeking bij de betaalbaarstelling[^8] *' — spatie vóór sluit-asterisk. Inhoud en tabellen volledig, geen andere artefacten."
+      run_at: '2026-05-11T17:09:38Z'
+      rationale: "D4: twee malformed italic-markers. Regel 96: '489X O*ntvangen voorschotten op kapitaal*' — asterisk kleeft direct aan de 'O' (geen spatie na reguliere tekst, opent italic mid-woord). Regel 132: '*Boeking bij de betaalbaarstelling[^8] *' — spatie vóór sluit-asterisk, wat de italic niet correct sluit in de meeste renderers."
       concrete_problemen:
-        - regel: 104
+        - regel: 96
           categorie: D4
           type: other
-          voorbeeld: 489X O*ntvangen voorschotten op kapitaal* — asterisk kleeft aan 'O'
-        - regel: 140
+          voorbeeld: 489X O*ntvangen voorschotten op kapitaal*
+        - regel: 132
           categorie: D4
           type: other
-          voorbeeld: '*Boeking bij de betaalbaarstelling[^8] * — spatie vóór sluit-asterisk'
+          voorbeeld: '*Boeking bij de betaalbaarstelling[^8] *'
 themas:
   - belaste reserves
   - belastingen op het resultaat

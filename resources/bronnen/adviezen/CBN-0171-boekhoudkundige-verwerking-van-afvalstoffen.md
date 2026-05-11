@@ -17,9 +17,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T15:19:35Z'
+    confirmed_at: '2026-05-11T17:05:21Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "A9: regel 89 bevat 'AAankopen van diensten' (dubbele 'A' — OCR-duplicatie). A6/D1: regels 191-193 splitsen de slotzin 'zal enkel voor de tweede benadering kunnen' met 'geopteerd.' op een nieuwe alinea, wat een afgebroken alinea-patroon is. Overige tabellen inhoudelijk correct met lege Debet/Credit-kolommen (intentioneel)."
+    rationale: "Vorig verdict bevestigd. A9 r.96: '| | 602 | AAankopen van diensten of | | |' — dubbele 'A' (OCR-duplicatie). A6 r.198-200: slotzin 'zal enkel voor de tweede benadering kunnen worden' gevolgd door een lege regel en 'geopteerd.' op een nieuwe alinea — afgebroken alinea-patroon."
     layer1:
       file_size_chars: 12033
       flags: []
@@ -31,17 +31,17 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:19:35Z'
-      rationale: "A9: regel 89 bevat 'AAankopen van diensten' (dubbele 'A' — OCR-duplicatie). A6/D1: regels 191-193 splitsen de slotzin 'zal enkel voor de tweede benadering kunnen' met 'geopteerd.' op een nieuwe alinea, wat een afgebroken alinea-patroon is. Overige tabellen inhoudelijk correct met lege Debet/Credit-kolommen (intentioneel)."
+      run_at: '2026-05-11T17:05:21Z'
+      rationale: "Vorig verdict bevestigd. A9 r.96: '| | 602 | AAankopen van diensten of | | |' — dubbele 'A' (OCR-duplicatie). A6 r.198-200: slotzin 'zal enkel voor de tweede benadering kunnen worden' gevolgd door een lege regel en 'geopteerd.' op een nieuwe alinea — afgebroken alinea-patroon."
       concrete_problemen:
-        - regel: 89
+        - regel: 96
           categorie: A9
           type: ocr-confusion
           voorbeeld: '| | 602 | AAankopen van diensten of | | |'
-        - regel: 191
+        - regel: 198
           categorie: A6
           type: other
-          voorbeeld: '...zal enkel voor de tweede benadering kunnen \n\ngeopteerd.'
+          voorbeeld: '...zal enkel voor de tweede benadering kunnen worden \n\ngeopteerd.'
 themas:
   - afvaldienstenonderneming
   - afvalstoffen

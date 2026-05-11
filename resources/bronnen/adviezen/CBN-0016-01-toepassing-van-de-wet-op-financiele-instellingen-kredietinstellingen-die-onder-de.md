@@ -24,9 +24,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T15:15:32Z'
+    confirmed_at: '2026-05-11T17:05:20Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "ETL-bug blijft aanwezig: in de YAML-frontmatter staat een ongeparseerde HTML-entity op r9 ('Het begrip &quot;financiële instelling&quot;') die downstream YAML-parsing kan breken — dit is een ETL-bug, geen source-typo. De typo 'valln' (r67) is een source-typo. De koppelteken in de heading (r61 '- Kredietinstellingen') is vermoedelijk bron-karakter."
+    rationale: Frontmatter regel 9 bevat ongeparseerde HTML-entity '&quot;' in de YAML-waarde van gerelateerde_adviezen[1].titel ('Het begrip &quot;financiële instelling&quot;') — dit is een ETL-bug (HTML niet gedecode), geen source-typo. De typo 'valln' op regel 63 in de body-tekst is een source-typo (staat letterlijk op de CBN-website). Body zelf is verder volledig en clean.
     layer1:
       file_size_chars: 1668
       flags: []
@@ -38,14 +38,14 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:15:32Z'
-      rationale: "ETL-bug blijft aanwezig: in de YAML-frontmatter staat een ongeparseerde HTML-entity op r9 ('Het begrip &quot;financiële instelling&quot;') die downstream YAML-parsing kan breken — dit is een ETL-bug, geen source-typo. De typo 'valln' (r67) is een source-typo. De koppelteken in de heading (r61 '- Kredietinstellingen') is vermoedelijk bron-karakter."
+      run_at: '2026-05-11T17:05:20Z'
+      rationale: Frontmatter regel 9 bevat ongeparseerde HTML-entity '&quot;' in de YAML-waarde van gerelateerde_adviezen[1].titel ('Het begrip &quot;financiële instelling&quot;') — dit is een ETL-bug (HTML niet gedecode), geen source-typo. De typo 'valln' op regel 63 in de body-tekst is een source-typo (staat letterlijk op de CBN-website). Body zelf is verder volledig en clean.
       concrete_problemen:
         - regel: 9
           categorie: G2
           type: other
           voorbeeld: 'titel: Het begrip &quot;financiële instelling&quot; — HTML-entity niet gedecode in YAML'
-        - regel: 67
+        - regel: 63
           categorie: (source)
           type: source-typo
           voorbeeld: ondernemingen die onder de toepassing valln van het koninklijk besluit nr. 64

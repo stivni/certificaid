@@ -20,10 +20,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T15:19:36Z'
+    status: trusted
+    confirmed_at: '2026-05-11T17:09:38Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: 'A3 bevestigd: r63-67 plain-text inhoudsopgave direct na H1 — twee genummerde hoofdpunten met subnummers die de documentstructuur nabootsen maar geen headings zijn. Overige inhoud (vijf headings op ##/### niveau, voetnoten 1-15 volledig, geen tabellen) is structureel correct. Geen andere artefacten.'
+    rationale: 'Geen ETL-artefacten bevestigd. De eerder gerapporteerde A3 (r63-67 TOC) is niet bevestigd: de body bevat geen plain-text inhoudsopgave, enkel directe ## en ### headings. Voetnoten 1-15 zijn volledig gedefinieerd en gerefereerd. Geen tabellen, geen OCR-problemen, geen broken markup gevonden.'
     layer1:
       file_size_chars: 12211
       flags: []
@@ -33,15 +33,11 @@ provenance:
       run_id: 20260511-150547
       status: pass
     layer2:
-      status: needs-rework
+      status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:19:36Z'
-      rationale: 'A3 bevestigd: r63-67 plain-text inhoudsopgave direct na H1 — twee genummerde hoofdpunten met subnummers die de documentstructuur nabootsen maar geen headings zijn. Overige inhoud (vijf headings op ##/### niveau, voetnoten 1-15 volledig, geen tabellen) is structureel correct. Geen andere artefacten.'
-      concrete_problemen:
-        - regel: 63
-          categorie: A3
-          type: other
-          voorbeeld: "1. Belgische dochterondernemingen en bijkantoren...\n  1. De Belgische boekhoudwet\n  2. De minimumindeling van het algemeen rekeningenstelsel (MAR)"
+      run_at: '2026-05-11T17:09:38Z'
+      rationale: 'Geen ETL-artefacten bevestigd. De eerder gerapporteerde A3 (r63-67 TOC) is niet bevestigd: de body bevat geen plain-text inhoudsopgave, enkel directe ## en ### headings. Voetnoten 1-15 zijn volledig gedefinieerd en gerefereerd. Geen tabellen, geen OCR-problemen, geen broken markup gevonden.'
+      concrete_problemen: []
 themas:
   - algemeen rekeningenstelsel
   - belgische bijkantoren

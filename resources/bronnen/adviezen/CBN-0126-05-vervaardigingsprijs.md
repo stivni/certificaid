@@ -24,9 +24,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T15:15:32Z'
+    confirmed_at: '2026-05-11T17:05:20Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "D1: bestand eindigt abrupt mid-zin op regel 55 ('zou de vervaardigingsprijs trouwens') zonder afronding — duidelijke afkapfout in de extractie. Geen voetnoten, geen slotconclusie. Body is inhoudelijk onvolledig."
+    rationale: "D1: bestand eindigt abrupt mid-zin op regel 59 ('zou de vervaardigingsprijs trouwens') — de zin is onafgewerkt en er ontbreekt een slotconclusie. Duidelijke afkapfout in de extractie; inhoud inhoudelijk onvolledig."
     layer1:
       file_size_chars: 1111
       flags: []
@@ -38,13 +38,13 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:15:32Z'
-      rationale: "D1: bestand eindigt abrupt mid-zin op regel 55 ('zou de vervaardigingsprijs trouwens') zonder afronding — duidelijke afkapfout in de extractie. Geen voetnoten, geen slotconclusie. Body is inhoudelijk onvolledig."
+      run_at: '2026-05-11T17:05:20Z'
+      rationale: "D1: bestand eindigt abrupt mid-zin op regel 59 ('zou de vervaardigingsprijs trouwens') — de zin is onafgewerkt en er ontbreekt een slotconclusie. Duidelijke afkapfout in de extractie; inhoud inhoudelijk onvolledig."
       concrete_problemen:
-        - regel: 55
+        - regel: 59
           categorie: D1
           type: abrupt-cutoff
-          voorbeeld: De methode moet ... zou de vervaardigingsprijs trouwens
+          voorbeeld: zou de vervaardigingsprijs trouwens [einde bestand, zin onafgewerkt]
 themas:
   - financiële kosten
   - vervaardigingsprijs

@@ -30,9 +30,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T15:23:43Z'
+    confirmed_at: '2026-05-11T17:13:30Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: 'D4: Regel 128 bevat twee keer een malformed italic: `rekening 700* Verkopen en dienstprestaties*` (spatie ontbreekt na opening-asterisk) — een patroon dat twee keer voorkomt op dezelfde regel. Het document is verder inhoudelijk volledig en correct gestructureerd; heading-hiërarchie, opsommingen en de journaalpost-tabel zijn in orde.'
+    rationale: 'D4: regel 111 bevat twee keer malformed italic `rekening 700* Verkopen en dienstprestaties*` (spatie ontbreekt na opening-asterisk). Patroon herhaalt zich twee keer op dezelfde regel. Rest van het document is inhoudelijk volledig en correct opgemaakt.'
     layer1:
       file_size_chars: 11763
       flags: []
@@ -44,13 +44,13 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:23:43Z'
-      rationale: 'D4: Regel 128 bevat twee keer een malformed italic: `rekening 700* Verkopen en dienstprestaties*` (spatie ontbreekt na opening-asterisk) — een patroon dat twee keer voorkomt op dezelfde regel. Het document is verder inhoudelijk volledig en correct gestructureerd; heading-hiërarchie, opsommingen en de journaalpost-tabel zijn in orde.'
+      run_at: '2026-05-11T17:13:30Z'
+      rationale: 'D4: regel 111 bevat twee keer malformed italic `rekening 700* Verkopen en dienstprestaties*` (spatie ontbreekt na opening-asterisk). Patroon herhaalt zich twee keer op dezelfde regel. Rest van het document is inhoudelijk volledig en correct opgemaakt.'
       concrete_problemen:
-        - regel: 128
+        - regel: 111
           categorie: D4
           type: other
-          voorbeeld: rekening 700* Verkopen en dienstprestaties*
+          voorbeeld: geboekt op het debet van rekening 700* Verkopen en dienstprestaties*. Indien dit verschil echter positief is, wordt het verschil geboekt op het credit van rekening 700* Verkopen en dienstprestaties*.
 themas:
   - afronding
   - betaling

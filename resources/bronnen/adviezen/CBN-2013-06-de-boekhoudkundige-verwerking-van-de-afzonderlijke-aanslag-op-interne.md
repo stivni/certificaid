@@ -24,9 +24,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T15:19:36Z'
+    confirmed_at: '2026-05-11T17:09:38Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "B4: het structuurlabel 'Boeking eerste jaar' op regel 73 staat als **bold** inline-tekst in plaats van als ##/###-heading, terwijl het tweede structuurlabel 'Boeking in het jaar waarin wordt uitgedrukt...' op regel 80 wél correct als ## heading staat. Inconsistente heading-behandeling in één document — een mens zou beide als heading schrijven."
+    rationale: "B4: 'Boeking eerste jaar' op regel 66 staat als **bold** inline-tekst in plaats van ##/###-heading, terwijl 'Boeking in het jaar waarin wordt uitgedrukt...' op regel 73 wél correct als ## heading is opgemaakt. Deze inconsistente heading-behandeling binnen één document is een ETL-artefact — een mens zou beide als heading schrijven."
     layer1:
       file_size_chars: 3432
       flags: []
@@ -38,10 +38,10 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:19:36Z'
-      rationale: "B4: het structuurlabel 'Boeking eerste jaar' op regel 73 staat als **bold** inline-tekst in plaats van als ##/###-heading, terwijl het tweede structuurlabel 'Boeking in het jaar waarin wordt uitgedrukt...' op regel 80 wél correct als ## heading staat. Inconsistente heading-behandeling in één document — een mens zou beide als heading schrijven."
+      run_at: '2026-05-11T17:09:38Z'
+      rationale: "B4: 'Boeking eerste jaar' op regel 66 staat als **bold** inline-tekst in plaats van ##/###-heading, terwijl 'Boeking in het jaar waarin wordt uitgedrukt...' op regel 73 wél correct als ## heading is opgemaakt. Deze inconsistente heading-behandeling binnen één document is een ETL-artefact — een mens zou beide als heading schrijven."
       concrete_problemen:
-        - regel: 73
+        - regel: 66
           categorie: B4
           type: other
           voorbeeld: '**Boeking eerste jaar**'

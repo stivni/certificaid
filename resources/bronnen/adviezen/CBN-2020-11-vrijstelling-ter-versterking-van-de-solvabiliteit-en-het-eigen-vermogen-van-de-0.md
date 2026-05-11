@@ -30,9 +30,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T15:23:43Z'
+    confirmed_at: '2026-05-11T17:13:30Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "D4: Systematisch malformed italic op regels 102-103: `*enerzijds*` en `*anderzijds *` (spatie vóór sluit-asterisk), en `'*flat'*'` (smart-quote binnen italic span). B5: Regel 121-122 bevat `In het boekjaar volgend op datgene waarin de belastbare gereserveerde winst wordt verminderd` als plain-text paragraaf zonder heading-prefix, gevolgd door een directe herhaling van dezelfde zin als inleiding op de volgende paragraaf — structuurniveau ontbreekt."
+    rationale: "D4: Regel 91 bevat '*enerzijds*' correct maar '*anderzijds *' (spatie vóór sluit-asterisk) en \"'*flat'*\" (smart-quote doorkruist italic span) — malformed italic op dezelfde regel. B5: Regel 109 bevat 'In het boekjaar volgend op datgene waarin de belastbare gereserveerde winst wordt verminderd' als plain-text zonder heading-prefix, waarna regel 110 dezelfde zin herhaalt als inleiding op de inhoudelijke paragraaf — structuurniveau ontbreekt terwijl ### In het boekjaar waarin... op regel 97 wél een heading heeft."
     layer1:
       file_size_chars: 15122
       flags: []
@@ -44,25 +44,21 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:23:43Z'
-      rationale: "D4: Systematisch malformed italic op regels 102-103: `*enerzijds*` en `*anderzijds *` (spatie vóór sluit-asterisk), en `'*flat'*'` (smart-quote binnen italic span). B5: Regel 121-122 bevat `In het boekjaar volgend op datgene waarin de belastbare gereserveerde winst wordt verminderd` als plain-text paragraaf zonder heading-prefix, gevolgd door een directe herhaling van dezelfde zin als inleiding op de volgende paragraaf — structuurniveau ontbreekt."
+      run_at: '2026-05-11T17:13:30Z'
+      rationale: "D4: Regel 91 bevat '*enerzijds*' correct maar '*anderzijds *' (spatie vóór sluit-asterisk) en \"'*flat'*\" (smart-quote doorkruist italic span) — malformed italic op dezelfde regel. B5: Regel 109 bevat 'In het boekjaar volgend op datgene waarin de belastbare gereserveerde winst wordt verminderd' als plain-text zonder heading-prefix, waarna regel 110 dezelfde zin herhaalt als inleiding op de inhoudelijke paragraaf — structuurniveau ontbreekt terwijl ### In het boekjaar waarin... op regel 97 wél een heading heeft."
       concrete_problemen:
-        - regel: 102
-          categorie: D4
-          type: other
-          voorbeeld: Indien *enerzijds* het tarief...
-        - regel: 103
+        - regel: 91
           categorie: D4
           type: other
           voorbeeld: Indien *anderzijds *het effectief gerealiseerde verlies
-        - regel: 103
+        - regel: 91
           categorie: D4
           type: other
           voorbeeld: onderworpen is aan het '*flat'* tarief
-        - regel: 121
+        - regel: 109
           categorie: B5
           type: other
-          voorbeeld: In het boekjaar volgend op datgene waarin de belastbare gereserveerde winst wordt verminderd
+          voorbeeld: In het boekjaar volgend op datgene waarin de belastbare gereserveerde winst wordt verminderd (plain text, geen heading)
 themas:
   - COVID-19
   - tijdelijke vrijstelling

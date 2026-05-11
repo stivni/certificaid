@@ -17,9 +17,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T15:23:42Z'
+    confirmed_at: '2026-05-11T17:09:38Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "E2: tabelrij op regels 232–233 is gesplitst — '| | 2230 | Overige zakelijke rechten op onroerende goederen: |' gevolgd door '| | aanschaffingswaarde | 100.800 | | |' — cel over twee regels. A10/onregelmatige witruimte: regel 66 bevat meerdere tabs vóór de tekst als gevolg van HTML-tabel-extractie. Structuurbox (regels 52–68) met lone '|'-regels is een HTML-table scrape-artefact. Inhoud (42 secties) verder volledig."
+    rationale: "E2/A10 bevestigd: regel 63 toont lone '|' als openingsregel van de samenvatting-box (HTML-tabel artefact), regel 77 bevat een '|' sluitregel. Regel 77 (na regel 77 in body: '\\t\\t\\t\\tDe Commissie onderstreept...') heeft meerdere tabs vóór de tekst — HTML-tabel extractie-artefact. Verder bevat het grote advies (42 secties) een gesplitste tabelrij. Allen ETL-artefacten."
     layer1:
       file_size_chars: 77997
       flags: []
@@ -31,21 +31,17 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:23:42Z'
-      rationale: "E2: tabelrij op regels 232–233 is gesplitst — '| | 2230 | Overige zakelijke rechten op onroerende goederen: |' gevolgd door '| | aanschaffingswaarde | 100.800 | | |' — cel over twee regels. A10/onregelmatige witruimte: regel 66 bevat meerdere tabs vóór de tekst als gevolg van HTML-tabel-extractie. Structuurbox (regels 52–68) met lone '|'-regels is een HTML-table scrape-artefact. Inhoud (42 secties) verder volledig."
+      run_at: '2026-05-11T17:09:38Z'
+      rationale: "E2/A10 bevestigd: regel 63 toont lone '|' als openingsregel van de samenvatting-box (HTML-tabel artefact), regel 77 bevat een '|' sluitregel. Regel 77 (na regel 77 in body: '\\t\\t\\t\\tDe Commissie onderstreept...') heeft meerdere tabs vóór de tekst — HTML-tabel extractie-artefact. Verder bevat het grote advies (42 secties) een gesplitste tabelrij. Allen ETL-artefacten."
       concrete_problemen:
-        - regel: 52
+        - regel: 63
           categorie: G2
           type: other
-          voorbeeld: '| \n\n## Samenvatting — lone pipe als openingsregel van summary-box (HTML-tabel artefact)'
-        - regel: 66
+          voorbeeld: '| \n\n## Samenvatting — lone pipe als openingsregel van samenvatting-box (HTML-tabel artefact)'
+        - regel: 77
           categorie: A10
           type: other
-          voorbeeld: \t\t\t\tDe Commissie onderstreept... — meerdere tabs vóór tekst (HTML-tabel extractie-artefact)
-        - regel: 232
-          categorie: E2
-          type: other
-          voorbeeld: '| | 2230 | Overige zakelijke rechten op onroerende goederen: |\n| | aanschaffingswaarde | 100.800 | — tabelcel over twee regels'
+          voorbeeld: \t\t\t\tDe Commissie onderstreept... — meerdere tabs vóór tekst (HTML-tabel extractie)
 themas:
   - blote eigendom
   - bouwwerken op andermans eigendom

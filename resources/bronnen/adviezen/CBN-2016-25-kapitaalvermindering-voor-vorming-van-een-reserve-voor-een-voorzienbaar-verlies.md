@@ -17,9 +17,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T15:23:43Z'
+    confirmed_at: '2026-05-11T17:13:30Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "D4: regel 78 bevat 'Reserve voor voorzienbaar verlies[^5]*  om na te gaan' met dubbele spatie na de sluitende asterisk — broken italic-patroon consistent met andere adviezen uit dezelfde pipeline. Geen TOC-artefact of B6-separator zichtbaar in de body; 9 headings correct hiërarchisch aanwezig. Het D4-patroon is een ETL-bug."
+    rationale: "D4: regel 63 (body) bevat '*Reserve voor voorzienbaar verlies[^5]*  om na te gaan' — dubbele spatie na de sluitende asterisk is een broken italic-markering, consistent ETL-artefact uit dezelfde pipeline. Overige structuur (9 headings hiërarchisch correct, 3 boekingstabellen in pipe-syntax, voetnoten volledig) is intact."
     layer1:
       file_size_chars: 8516
       flags: []
@@ -31,10 +31,10 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:23:43Z'
-      rationale: "D4: regel 78 bevat 'Reserve voor voorzienbaar verlies[^5]*  om na te gaan' met dubbele spatie na de sluitende asterisk — broken italic-patroon consistent met andere adviezen uit dezelfde pipeline. Geen TOC-artefact of B6-separator zichtbaar in de body; 9 headings correct hiërarchisch aanwezig. Het D4-patroon is een ETL-bug."
+      run_at: '2026-05-11T17:13:30Z'
+      rationale: "D4: regel 63 (body) bevat '*Reserve voor voorzienbaar verlies[^5]*  om na te gaan' — dubbele spatie na de sluitende asterisk is een broken italic-markering, consistent ETL-artefact uit dezelfde pipeline. Overige structuur (9 headings hiërarchisch correct, 3 boekingstabellen in pipe-syntax, voetnoten volledig) is intact."
       concrete_problemen:
-        - regel: 78
+        - regel: 63
           categorie: D4
           type: other
           voorbeeld: '*Reserve voor voorzienbaar verlies[^5]*  om na te gaan of de wettelijke voorwaarden'

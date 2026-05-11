@@ -24,9 +24,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T15:23:42Z'
+    confirmed_at: '2026-05-11T17:09:38Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "A6/B5: regel 60 bevat ', bijgewerkt op 25 juni 2025[^2]' als losstaand fragment direct na de H1-titel — dit is een scrape-artefact waarbij de bijwerkingsdatum als separate tekstregel terechtkwam in de body in plaats van geïntegreerd in de heading of verwijderd. Inhoud anderszins volledig met correcte tabellen en voetnoten."
+    rationale: "A6: regel 61 bevat ', bijgewerkt op 25 juni 2025[^2]' als losstaand tekstfragment direct na de H1-heading — een scrape-artefact waarbij de bijwerkingsdatum als aparte tekstregel terechtkwam in de body. Een mens zou dit nooit zo schrijven; het hoort in de frontmatter of geïntegreerd in de titel."
     layer1:
       file_size_chars: 9651
       flags: []
@@ -38,13 +38,13 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:23:42Z'
-      rationale: "A6/B5: regel 60 bevat ', bijgewerkt op 25 juni 2025[^2]' als losstaand fragment direct na de H1-titel — dit is een scrape-artefact waarbij de bijwerkingsdatum als separate tekstregel terechtkwam in de body in plaats van geïntegreerd in de heading of verwijderd. Inhoud anderszins volledig met correcte tabellen en voetnoten."
+      run_at: '2026-05-11T17:09:38Z'
+      rationale: "A6: regel 61 bevat ', bijgewerkt op 25 juni 2025[^2]' als losstaand tekstfragment direct na de H1-heading — een scrape-artefact waarbij de bijwerkingsdatum als aparte tekstregel terechtkwam in de body. Een mens zou dit nooit zo schrijven; het hoort in de frontmatter of geïntegreerd in de titel."
       concrete_problemen:
-        - regel: 60
+        - regel: 61
           categorie: A6
           type: other
-          voorbeeld: ', bijgewerkt op 25 juni 2025[^2] — losstaand fragment na H1-heading'
+          voorbeeld: ', bijgewerkt op 25 juni 2025[^2]'
 themas:
   - geassocieerde onderneming
   - mutaties binnen het eigen vermogen

@@ -17,9 +17,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T15:23:42Z'
+    confirmed_at: '2026-05-11T17:09:38Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "E2: tabelrij op regels 196–197 is gesplitst over twee regels — '| | 130X | Wettelijke reserve – artikel 184quater WIB 92\\n (31/12/N) | | 40 |' — de cel breekt midden in de tekst, wat de pipe-tabel syntactisch ongeldig maakt. Inhoud en overige tabellen volledig correct."
+    rationale: "E2 bevestigd: tabelrij op regels 189–190 is gesplitst over twee regels — '| | 130X | Wettelijke reserve – artikel 184quater WIB 92' gevolgd door '(31/12/N) | | 40 |' — de pipe-tabel is syntactisch ongeldig door de cell-break. ETL-artefact. Overige tabellen en de volledige inhoud zijn correct."
     layer1:
       file_size_chars: 13785
       flags: []
@@ -31,13 +31,13 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:23:42Z'
-      rationale: "E2: tabelrij op regels 196–197 is gesplitst over twee regels — '| | 130X | Wettelijke reserve – artikel 184quater WIB 92\\n (31/12/N) | | 40 |' — de cel breekt midden in de tekst, wat de pipe-tabel syntactisch ongeldig maakt. Inhoud en overige tabellen volledig correct."
+      run_at: '2026-05-11T17:09:38Z'
+      rationale: "E2 bevestigd: tabelrij op regels 189–190 is gesplitst over twee regels — '| | 130X | Wettelijke reserve – artikel 184quater WIB 92' gevolgd door '(31/12/N) | | 40 |' — de pipe-tabel is syntactisch ongeldig door de cell-break. ETL-artefact. Overige tabellen en de volledige inhoud zijn correct."
       concrete_problemen:
-        - regel: 196
+        - regel: 189
           categorie: E2
           type: other
-          voorbeeld: '| | 130X | Wettelijke reserve – artikel 184quater WIB 92\n (31/12/N) | | 40 | — cel over twee regels'
+          voorbeeld: "| | 130X | Wettelijke reserve – artikel 184quater WIB 92\n (31/12/N) | | 40 | — cel over twee regels"
 themas:
   - afzonderlijke aanslag
   - belastingen

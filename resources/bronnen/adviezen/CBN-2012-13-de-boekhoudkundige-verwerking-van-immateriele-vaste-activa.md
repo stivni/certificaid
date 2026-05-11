@@ -30,9 +30,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T15:19:36Z'
+    confirmed_at: '2026-05-11T17:09:38Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "D3/G3: regel 231 bevat '[^13][^14][^15][^16]' als vier aaneengeplakte voetnootmarkers zonder tussenliggende tekst — de bijbehorende voetnootdefinities staan pas op regels 354–362. Dit is een ETL-artefact waarbij de voetnootmarkers los van hun context in de body terechtkwamen. De vorige A3-flag (regel 110 als TOC-blob) was fout: regel 110-111 is gewone body-tekst van de eerste body-paragraaf van '#### Aanschaffingsprijs'."
+    rationale: "D3: regel 216 toont '[^13][^14][^15][^16]' als een losstaande regel zonder omringende tekst — vier voetnootmarkers zijn door ETL uit hun inline-context gerukt en als een aparte blokregel geplaatst, vlak voor de boeking. De voetnootdefinities staan correct op regels 339-345, maar de markers hangen hier in het niets. Verder is het document (30261 chars, 26 headings) inhoudelijk volledig."
     layer1:
       file_size_chars: 30261
       flags: []
@@ -44,10 +44,10 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:19:36Z'
-      rationale: "D3/G3: regel 231 bevat '[^13][^14][^15][^16]' als vier aaneengeplakte voetnootmarkers zonder tussenliggende tekst — de bijbehorende voetnootdefinities staan pas op regels 354–362. Dit is een ETL-artefact waarbij de voetnootmarkers los van hun context in de body terechtkwamen. De vorige A3-flag (regel 110 als TOC-blob) was fout: regel 110-111 is gewone body-tekst van de eerste body-paragraaf van '#### Aanschaffingsprijs'."
+      run_at: '2026-05-11T17:09:38Z'
+      rationale: "D3: regel 216 toont '[^13][^14][^15][^16]' als een losstaande regel zonder omringende tekst — vier voetnootmarkers zijn door ETL uit hun inline-context gerukt en als een aparte blokregel geplaatst, vlak voor de boeking. De voetnootdefinities staan correct op regels 339-345, maar de markers hangen hier in het niets. Verder is het document (30261 chars, 26 headings) inhoudelijk volledig."
       concrete_problemen:
-        - regel: 231
+        - regel: 216
           categorie: D3
           type: other
           voorbeeld: '[^13][^14][^15][^16]'

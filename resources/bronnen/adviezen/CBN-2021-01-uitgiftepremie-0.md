@@ -30,9 +30,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T15:26:39Z'
+    confirmed_at: '2026-05-11T17:13:30Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "F1: H1-titel luidt '# COMMISSIE VOOR BOEKHOUDKUNDIGE NORMEN' i.p.v. de verwachte '# CBN-advies 2021/01 – Uitgiftepremie' — advies-identificatie ontbreekt in body-titel. D4: Regel 117 bevat ':* I.B. Inbreng - Onbeschikbaar*.' met spatie na opening-asterisk (italic niet correct geopend). B5: Regels 178 en 184 bevatten subsectietitels 'b) Indien...' en 'c) Bij een latere...' als plain-text vóór tabellen zonder heading-prefix, terwijl 'a)' op regel 171 wél een ### heading heeft."
+    rationale: "F1: H1-titel luidt '# COMMISSIE VOOR BOEKHOUDKUNDIGE NORMEN' zonder advies-nummer of -titel — bron-identificatie ontbreekt in body (frontmatter heeft het correct als 'CBN-advies 2021/01' maar body-kop klopt niet). D4: Regel 97 bevat ':* I.B. Inbreng - Onbeschikbaar*.' met spatie na het dubbele punt vóór opening-asterisk — italic niet correct geopend. B5: Regels 158 en 164 bevatten 'b) Indien...' en 'c) Bij een latere...' als plain-text vóór tabellen zonder heading-prefix, terwijl 'a)' op regel 151 wél een ### heading heeft."
     layer1:
       file_size_chars: 16099
       flags: []
@@ -44,22 +44,22 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:26:39Z'
-      rationale: "F1: H1-titel luidt '# COMMISSIE VOOR BOEKHOUDKUNDIGE NORMEN' i.p.v. de verwachte '# CBN-advies 2021/01 – Uitgiftepremie' — advies-identificatie ontbreekt in body-titel. D4: Regel 117 bevat ':* I.B. Inbreng - Onbeschikbaar*.' met spatie na opening-asterisk (italic niet correct geopend). B5: Regels 178 en 184 bevatten subsectietitels 'b) Indien...' en 'c) Bij een latere...' als plain-text vóór tabellen zonder heading-prefix, terwijl 'a)' op regel 171 wél een ### heading heeft."
+      run_at: '2026-05-11T17:13:30Z'
+      rationale: "F1: H1-titel luidt '# COMMISSIE VOOR BOEKHOUDKUNDIGE NORMEN' zonder advies-nummer of -titel — bron-identificatie ontbreekt in body (frontmatter heeft het correct als 'CBN-advies 2021/01' maar body-kop klopt niet). D4: Regel 97 bevat ':* I.B. Inbreng - Onbeschikbaar*.' met spatie na het dubbele punt vóór opening-asterisk — italic niet correct geopend. B5: Regels 158 en 164 bevatten 'b) Indien...' en 'c) Bij een latere...' als plain-text vóór tabellen zonder heading-prefix, terwijl 'a)' op regel 151 wél een ### heading heeft."
       concrete_problemen:
-        - regel: 94
+        - regel: 74
           categorie: F1
           type: other
           voorbeeld: '# COMMISSIE VOOR BOEKHOUDKUNDIGE NORMEN (geen advies-nummer of titel in H1)'
-        - regel: 117
+        - regel: 97
           categorie: D4
           type: other
           voorbeeld: '- bij de andere dan de NV, SE, SCE:* I.B. Inbreng - Onbeschikbaar*.'
-        - regel: 178
+        - regel: 158
           categorie: B5
           type: other
-          voorbeeld: 'b) Indien de statuten niets vermelden... (plain text, geen heading — terwijl a) op r. 171 wel ### heeft)'
-        - regel: 184
+          voorbeeld: 'b) Indien de statuten niets vermelden... (plain text, geen heading — terwijl a) op r. 151 wel ### heeft)'
+        - regel: 164
           categorie: B5
           type: other
           voorbeeld: c) Bij een latere statutenwijziging... (idem — plain text)

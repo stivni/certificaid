@@ -29,10 +29,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T15:19:36Z'
+    status: trusted
+    confirmed_at: '2026-05-11T17:09:38Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "B2: heading_count = 0 per Laag 1 — het gehele advies staat als één doorlopend tekstblok onder de H1-titel zonder enige ## subheading, terwijl de inhoud meerdere logisch onderscheiden kwesties behandelt (definitie boekjaar, uitzonderlijkheid, verlenging/verkorting, timing, aantal wijzigingen). A4: r86 bevat 'niet‐naleving' met U+2010 (Unicode HYPHEN, niet ASCII-koppelteken), typisch scraping-artefact van de CBN-website."
+    rationale: 'Ronde-2-verdict (B2 geen headings + A4 Unicode HYPHEN) herbeoordeeld op huidige body. Heading_count=0 is correct voor dit korte advies — de CBN-bronpagina bevat geen expliciete sectieopdeling en het document is één vloeiende argumentatieve tekst van ~650 woorden. Geen ETL-artefact. De A4-claim (U+2010 in body) is onjuist: body r74 gebruikt ASCII koppelteken U+002D; U+2010 komt alleen voor in de frontmatter-rationale-tekst van de vorige review. Geen andere ETL-problemen gevonden.'
     layer1:
       file_size_chars: 4201
       flags: []
@@ -42,19 +42,11 @@ provenance:
       run_id: 20260511-150547
       status: pass
     layer2:
-      status: needs-rework
+      status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:19:36Z'
-      rationale: "B2: heading_count = 0 per Laag 1 — het gehele advies staat als één doorlopend tekstblok onder de H1-titel zonder enige ## subheading, terwijl de inhoud meerdere logisch onderscheiden kwesties behandelt (definitie boekjaar, uitzonderlijkheid, verlenging/verkorting, timing, aantal wijzigingen). A4: r86 bevat 'niet‐naleving' met U+2010 (Unicode HYPHEN, niet ASCII-koppelteken), typisch scraping-artefact van de CBN-website."
-      concrete_problemen:
-        - regel: 80
-          categorie: B2
-          type: other
-          voorbeeld: 'Volledig advies als één tekstblok zonder ## subheadings (heading_count=0)'
-        - regel: 86
-          categorie: A4
-          type: other
-          voorbeeld: niet‐naleving (U+2010 Unicode HYPHEN i.p.v. ASCII-koppelteken U+002D)
+      run_at: '2026-05-11T17:09:38Z'
+      rationale: 'Ronde-2-verdict (B2 geen headings + A4 Unicode HYPHEN) herbeoordeeld op huidige body. Heading_count=0 is correct voor dit korte advies — de CBN-bronpagina bevat geen expliciete sectieopdeling en het document is één vloeiende argumentatieve tekst van ~650 woorden. Geen ETL-artefact. De A4-claim (U+2010 in body) is onjuist: body r74 gebruikt ASCII koppelteken U+002D; U+2010 komt alleen voor in de frontmatter-rationale-tekst van de vorige review. Geen andere ETL-problemen gevonden.'
+      concrete_problemen: []
 themas:
   - duur van het boekjaar
   - inventaris

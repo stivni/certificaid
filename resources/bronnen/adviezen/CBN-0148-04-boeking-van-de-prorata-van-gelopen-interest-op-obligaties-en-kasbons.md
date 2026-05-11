@@ -21,9 +21,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T15:15:33Z'
+    confirmed_at: '2026-05-11T17:05:21Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "E2: regel 234 bevat '| aan | | 52 | Vastrentende effecten | 1.000.000 |' waarbij 'aan' een extra cel creëert en de tabelstructuur verbreekt. A9: regel 280 '| | 55 | Kreditinstellingen |' — 'Kreditinstellingen' i.p.v. 'Kredietinstellingen' zoals consequent elders in het document. D3: voetnootdefinities [^3] en [^4] aanwezig (regels 292-294) maar geen overeenkomstige inline-referenties in de body. B1: heading '### 31.12.1987 : 80 000' (r.189) bevat alleen datum+getal, geen omschrijvende tekst."
+    rationale: "Vier ETL-bugs ongewijzigd t.o.v. ronde 2: E2 (regel 234) 'aan' als losse cel breekt tabelstructuur; A9 (regel 280) 'Kreditinstellingen' i.p.v. 'Kredietinstellingen'; D3 (regels 292-294) voetnoten [^3] en [^4] zonder inline-referentie in body; B1 (regel 189) heading bevat enkel datum en bedrag zonder omschrijving."
     layer1:
       file_size_chars: 11425
       flags: []
@@ -35,8 +35,8 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:15:33Z'
-      rationale: "E2: regel 234 bevat '| aan | | 52 | Vastrentende effecten | 1.000.000 |' waarbij 'aan' een extra cel creëert en de tabelstructuur verbreekt. A9: regel 280 '| | 55 | Kreditinstellingen |' — 'Kreditinstellingen' i.p.v. 'Kredietinstellingen' zoals consequent elders in het document. D3: voetnootdefinities [^3] en [^4] aanwezig (regels 292-294) maar geen overeenkomstige inline-referenties in de body. B1: heading '### 31.12.1987 : 80 000' (r.189) bevat alleen datum+getal, geen omschrijvende tekst."
+      run_at: '2026-05-11T17:05:21Z'
+      rationale: "Vier ETL-bugs ongewijzigd t.o.v. ronde 2: E2 (regel 234) 'aan' als losse cel breekt tabelstructuur; A9 (regel 280) 'Kreditinstellingen' i.p.v. 'Kredietinstellingen'; D3 (regels 292-294) voetnoten [^3] en [^4] zonder inline-referentie in body; B1 (regel 189) heading bevat enkel datum en bedrag zonder omschrijving."
       concrete_problemen:
         - regel: 234
           categorie: E2
@@ -49,11 +49,11 @@ provenance:
         - regel: 292
           categorie: D3
           type: other
-          voorbeeld: '[^3]: Roerende voorheffing van 25 %. (geen inline-referentie in body)'
+          voorbeeld: '[^3]: Roerende voorheffing van 25 %.  (geen inline-referentie in body)'
         - regel: 189
           categorie: B1
           type: other
-          voorbeeld: '### 31.12.1987 : 80 000'
+          voorbeeld: '## 31.12.1987 : 80 000'
 themas:
   - kapitalisatiebon
   - kasbon

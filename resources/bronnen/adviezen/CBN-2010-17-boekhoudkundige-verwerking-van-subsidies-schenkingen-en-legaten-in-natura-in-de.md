@@ -30,9 +30,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T15:19:36Z'
+    confirmed_at: '2026-05-11T17:09:38Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "A3 bevestigd: r81-87 plain-text inhoudsopgave direct na H1 (genummerde lijst met inspringing). E2 bevestigd: r300-301 tabelrij gebroken over twee regels met tabs — '22119 | 751 | Gebouwen die volle eigendom zijn van de vereniging -\\n\\t\\t\\t\\tGeboekte afschrijvingen | 1.515,15 |' doorbreekt de pipe-delimiters. Overige 10 voorbeelden en voetnoten 1-20 correct."
+    rationale: "E2 bevestigd: r282-283 tabelrij van Voorbeeld 7 (afschrijving gebouw) is gebroken over twee regels met tab-inspringing — '| | 22119 | 751 | Gebouwen die volle eigendom zijn van de vereniging -\\n\\t\\t\\t\\tGeboekte afschrijvingen | 1.515,15 |' doorbreekt de pipe-delimiters. De eerder gerapporteerde A3 (r81-87 TOC) is niet bevestigd: die regels bevatten inleidende tekst, geen plain-text inhoudsopgave. Overige 9 voorbeelden en voetnoten 1-20 correct."
     layer1:
       file_size_chars: 20534
       flags: []
@@ -44,14 +44,10 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:19:36Z'
-      rationale: "A3 bevestigd: r81-87 plain-text inhoudsopgave direct na H1 (genummerde lijst met inspringing). E2 bevestigd: r300-301 tabelrij gebroken over twee regels met tabs — '22119 | 751 | Gebouwen die volle eigendom zijn van de vereniging -\\n\\t\\t\\t\\tGeboekte afschrijvingen | 1.515,15 |' doorbreekt de pipe-delimiters. Overige 10 voorbeelden en voetnoten 1-20 correct."
+      run_at: '2026-05-11T17:09:38Z'
+      rationale: "E2 bevestigd: r282-283 tabelrij van Voorbeeld 7 (afschrijving gebouw) is gebroken over twee regels met tab-inspringing — '| | 22119 | 751 | Gebouwen die volle eigendom zijn van de vereniging -\\n\\t\\t\\t\\tGeboekte afschrijvingen | 1.515,15 |' doorbreekt de pipe-delimiters. De eerder gerapporteerde A3 (r81-87 TOC) is niet bevestigd: die regels bevatten inleidende tekst, geen plain-text inhoudsopgave. Overige 9 voorbeelden en voetnoten 1-20 correct."
       concrete_problemen:
-        - regel: 81
-          categorie: A3
-          type: other
-          voorbeeld: "1. Goederen \n  1. Subsidies, schenkingen en legaten bestemd om duurzaam bij te dragen..."
-        - regel: 300
+        - regel: 282
           categorie: E2
           type: other
           voorbeeld: "| | 22119 | 751 | Gebouwen die volle eigendom zijn van de vereniging -\n\t\t\t\tGeboekte afschrijvingen | 1.515,15 |"

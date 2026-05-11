@@ -17,9 +17,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T15:19:35Z'
+    confirmed_at: '2026-05-11T17:05:21Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "A9: twee ETL-tikfouten in ## headings die na scraper-fixes nog steeds aanwezig zijn: r.151 '## (Oordpronkelijke) cedent van het aandeel' (corruptie van 'Oorspronkelijke') en r.214 '## (Ooorspronkelijke) cessionaris van het aandeel' (extra 'o'). Beide zijn duidelijke extractie-artefacten. Rest van het document inhoudelijk volledig en structureel correct."
+    rationale: "Vorig verdict bevestigd. A9 r.145: '## (Oordpronkelijke) cedent van het aandeel' — 'Oordpronkelijke' is een scrambled-words ETL-artefact (corruptie van 'Oorspronkelijke'). A9 r.208: '## (Ooorspronkelijke) cessionaris van het aandeel' — extra 'o'. Rest van het document inhoudelijk volledig en structureel correct."
     layer1:
       file_size_chars: 29738
       flags: []
@@ -31,14 +31,14 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:19:35Z'
-      rationale: "A9: twee ETL-tikfouten in ## headings die na scraper-fixes nog steeds aanwezig zijn: r.151 '## (Oordpronkelijke) cedent van het aandeel' (corruptie van 'Oorspronkelijke') en r.214 '## (Ooorspronkelijke) cessionaris van het aandeel' (extra 'o'). Beide zijn duidelijke extractie-artefacten. Rest van het document inhoudelijk volledig en structureel correct."
+      run_at: '2026-05-11T17:05:21Z'
+      rationale: "Vorig verdict bevestigd. A9 r.145: '## (Oordpronkelijke) cedent van het aandeel' — 'Oordpronkelijke' is een scrambled-words ETL-artefact (corruptie van 'Oorspronkelijke'). A9 r.208: '## (Ooorspronkelijke) cessionaris van het aandeel' — extra 'o'. Rest van het document inhoudelijk volledig en structureel correct."
       concrete_problemen:
-        - regel: 151
+        - regel: 145
           categorie: A9
           type: ocr-confusion
           voorbeeld: '## (Oordpronkelijke) cedent van het aandeel'
-        - regel: 214
+        - regel: 208
           categorie: A9
           type: ocr-confusion
           voorbeeld: '## (Ooorspronkelijke) cessionaris van het aandeel'

@@ -21,9 +21,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T15:19:36Z'
+    confirmed_at: '2026-05-11T17:09:38Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: 'D3 bevestigd: voetnoot [^4] is gedefinieerd op r163 (redactionele noot over voorgestelde naamswijziging rekening 790) maar heeft geen overeenkomstige [^4]-callout in de body — de referentie die in de originele bron bij de eerste Boeking-sectie stond is verloren gegaan bij de extractie. Overige voetnoten (1-3, 5-10) correct gerefereerd. Drie voorbeelden met pipe-tabellen correct. Boeking-template r77-80 heeft lege bedragen (geen getallen), wat de originele document-opzet weerspiegelt.'
+    rationale: 'D3 bevestigd: voetnoot [^4] is gedefinieerd op r150 (redactionele noot over voorgestelde naamswijziging rekening 790) maar heeft geen overeenkomstige [^4]-callout in de body — de referentie die in de originele bron bij de Boeking-sectie stond is verloren gegaan bij de extractie. Overige voetnoten (1-3, 5-10) correct gerefereerd. Drie voorbeelden met pipe-tabellen correct. Boeking-template r64-67 heeft lege bedragen wat de originele document-opzet weerspiegelt.'
     layer1:
       file_size_chars: 8712
       flags: []
@@ -35,10 +35,10 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:19:36Z'
-      rationale: 'D3 bevestigd: voetnoot [^4] is gedefinieerd op r163 (redactionele noot over voorgestelde naamswijziging rekening 790) maar heeft geen overeenkomstige [^4]-callout in de body — de referentie die in de originele bron bij de eerste Boeking-sectie stond is verloren gegaan bij de extractie. Overige voetnoten (1-3, 5-10) correct gerefereerd. Drie voorbeelden met pipe-tabellen correct. Boeking-template r77-80 heeft lege bedragen (geen getallen), wat de originele document-opzet weerspiegelt.'
+      run_at: '2026-05-11T17:09:38Z'
+      rationale: 'D3 bevestigd: voetnoot [^4] is gedefinieerd op r150 (redactionele noot over voorgestelde naamswijziging rekening 790) maar heeft geen overeenkomstige [^4]-callout in de body — de referentie die in de originele bron bij de Boeking-sectie stond is verloren gegaan bij de extractie. Overige voetnoten (1-3, 5-10) correct gerefereerd. Drie voorbeelden met pipe-tabellen correct. Boeking-template r64-67 heeft lege bedragen wat de originele document-opzet weerspiegelt.'
       concrete_problemen:
-        - regel: 163
+        - regel: 150
           categorie: D3
           type: other
           voorbeeld: '[^4]: De Commissie zal voorstellen om de benaming van rekening 790 aan te passen...'

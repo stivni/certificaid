@@ -30,9 +30,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T15:23:43Z'
+    confirmed_at: '2026-05-11T17:13:30Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "B1: heading_count=0 — het volledige advies heeft geen enkele ## heading; de inhoud staat als één ongestructureerd blok, wat RAG-chunking ernstig bemoeilijkt (ETL-bug, niet source-fout: de CBN-website toont paragrafen die als secties hadden kunnen worden geëxtraheerd). A4: regel 101 in de voetnoten bevat 'CBN-advies 2015/9 ‐' met een U+2010 non-breaking hyphen die een gewone koppelteken vervangt."
+    rationale: "B1: heading_count=0 — het volledige advies heeft geen enkele ## heading; de inhoud staat als één ongestructureerd blok, wat RAG-chunking ernstig bemoeilijkt (ETL-bug: de CBN-website toont paragrafen die als secties hadden kunnen worden geëxtraheerd). A4: voetnoot 84 bevat 'CBN-advies 2015/9 ‐' met een U+2010 non-breaking hyphen die een gewone koppelteken vervangt."
     layer1:
       file_size_chars: 3155
       flags: []
@@ -44,14 +44,14 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:23:43Z'
-      rationale: "B1: heading_count=0 — het volledige advies heeft geen enkele ## heading; de inhoud staat als één ongestructureerd blok, wat RAG-chunking ernstig bemoeilijkt (ETL-bug, niet source-fout: de CBN-website toont paragrafen die als secties hadden kunnen worden geëxtraheerd). A4: regel 101 in de voetnoten bevat 'CBN-advies 2015/9 ‐' met een U+2010 non-breaking hyphen die een gewone koppelteken vervangt."
+      run_at: '2026-05-11T17:13:30Z'
+      rationale: "B1: heading_count=0 — het volledige advies heeft geen enkele ## heading; de inhoud staat als één ongestructureerd blok, wat RAG-chunking ernstig bemoeilijkt (ETL-bug: de CBN-website toont paragrafen die als secties hadden kunnen worden geëxtraheerd). A4: voetnoot 84 bevat 'CBN-advies 2015/9 ‐' met een U+2010 non-breaking hyphen die een gewone koppelteken vervangt."
       concrete_problemen:
-        - regel: 83
+        - regel: 64
           categorie: B1
           type: other
           voorbeeld: 'Volledig advies zonder ## headings (heading_count=0); inhoud als één ongestructureerd blok'
-        - regel: 101
+        - regel: 84
           categorie: A4
           type: other
           voorbeeld: CBN-advies 2015/9 ‐ Boekhoudkundige verwerking (U+2010 non-breaking hyphen)

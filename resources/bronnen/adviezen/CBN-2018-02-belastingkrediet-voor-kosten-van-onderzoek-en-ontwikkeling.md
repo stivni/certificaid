@@ -17,9 +17,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T15:23:43Z'
+    confirmed_at: '2026-05-11T17:13:30Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "A6/E2: regels 148-149 bevatten een spurious line-break midden in een tabelcel ('Regularisering van\\n\\t\\t\\t\\tbelastingen en terugneming van fiscale voorzieningen') met tab-inspringing op de vervolgregels — ETL-artefact dat de tabel breekt. D4: regel 69 heeft '*Kosten van onderzoek en ontwikkeling:* *wijzigingen door het koninklijk besluit' waarbij na de dubbele punt een tweede afzonderlijke italic-span opent — dubbelspatie-grens door PDF-conversie."
+    rationale: "A6/E2: regel 136-137 bevat een gebroken tabelcel — 'Regularisering van\\n\\t\\t\\t\\tbelastingen en terugneming van fiscale voorzieningen' met tab-inspringing op de vervolgregels, wat de tabelstructuur breekt. D4: regel 57 heeft '*Kosten van onderzoek en ontwikkeling:* *wijzigingen door het koninklijk besluit' waarbij na de dubbele punt een tweede afzonderlijke italic-span opent, door PDF-conversie."
     layer1:
       file_size_chars: 12892
       flags: []
@@ -31,14 +31,14 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:23:43Z'
-      rationale: "A6/E2: regels 148-149 bevatten een spurious line-break midden in een tabelcel ('Regularisering van\\n\\t\\t\\t\\tbelastingen en terugneming van fiscale voorzieningen') met tab-inspringing op de vervolgregels — ETL-artefact dat de tabel breekt. D4: regel 69 heeft '*Kosten van onderzoek en ontwikkeling:* *wijzigingen door het koninklijk besluit' waarbij na de dubbele punt een tweede afzonderlijke italic-span opent — dubbelspatie-grens door PDF-conversie."
+      run_at: '2026-05-11T17:13:30Z'
+      rationale: "A6/E2: regel 136-137 bevat een gebroken tabelcel — 'Regularisering van\\n\\t\\t\\t\\tbelastingen en terugneming van fiscale voorzieningen' met tab-inspringing op de vervolgregels, wat de tabelstructuur breekt. D4: regel 57 heeft '*Kosten van onderzoek en ontwikkeling:* *wijzigingen door het koninklijk besluit' waarbij na de dubbele punt een tweede afzonderlijke italic-span opent, door PDF-conversie."
       concrete_problemen:
-        - regel: 148
+        - regel: 136
           categorie: A6
           type: other
-          voorbeeld: "| aan | 67/77 | Belastingen op het resultaat/Regularisering van\n\t\t\t\tbelastingen..."
-        - regel: 69
+          voorbeeld: "| aan | 67/77 | Belastingen op het resultaat/Regularisering van\n\t\t\t\tbelastingen en terugneming van fiscale voorzieningen"
+        - regel: 57
           categorie: D4
           type: other
           voorbeeld: '*Kosten van onderzoek en ontwikkeling:* *wijzigingen door het koninklijk besluit'

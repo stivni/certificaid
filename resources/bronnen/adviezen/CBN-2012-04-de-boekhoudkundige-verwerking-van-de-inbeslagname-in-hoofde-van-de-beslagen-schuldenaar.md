@@ -17,9 +17,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T15:19:36Z'
+    confirmed_at: '2026-05-11T17:09:38Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "B5: regel 139 toont '** 2. Kantonnement**' als bold plain-text pseudo-heading in plaats van een ### heading — structureel inconsistent met de andere subsecties die wel ### headings gebruiken. E2: regels 162-164 en 170-172 tonen gebroken tabelrijen waarbij rekeningnummers en -namen over meerdere regels buiten de tabelcellen lopen met tab-uitlijning ('700-707\\n\\t\\t\\t(of 499 | Verkopen en dienstprestaties\\n\\t\\t\\tVerkopen materiële vaste activa)')."
+    rationale: "B5: regel 123 toont '** 2. Kantonnement**' als bold pseudo-heading — structureel inconsistent met de andere subsecties die wel ### headings gebruiken (bv. '### 1. Uitvoerend beslag' op regel 111). E2: regels 146-148 en 154-156 tonen tabelrijen waarbij rekeningnummers '700-707' en '700 – 707' plus de omschrijving over meerdere regels met tab-inspringing lopen, buiten de tabelcellen."
     layer1:
       file_size_chars: 16330
       flags: []
@@ -31,18 +31,18 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:19:36Z'
-      rationale: "B5: regel 139 toont '** 2. Kantonnement**' als bold plain-text pseudo-heading in plaats van een ### heading — structureel inconsistent met de andere subsecties die wel ### headings gebruiken. E2: regels 162-164 en 170-172 tonen gebroken tabelrijen waarbij rekeningnummers en -namen over meerdere regels buiten de tabelcellen lopen met tab-uitlijning ('700-707\\n\\t\\t\\t(of 499 | Verkopen en dienstprestaties\\n\\t\\t\\tVerkopen materiële vaste activa)')."
+      run_at: '2026-05-11T17:09:38Z'
+      rationale: "B5: regel 123 toont '** 2. Kantonnement**' als bold pseudo-heading — structureel inconsistent met de andere subsecties die wel ### headings gebruiken (bv. '### 1. Uitvoerend beslag' op regel 111). E2: regels 146-148 en 154-156 tonen tabelrijen waarbij rekeningnummers '700-707' en '700 – 707' plus de omschrijving over meerdere regels met tab-inspringing lopen, buiten de tabelcellen."
       concrete_problemen:
-        - regel: 139
+        - regel: 123
           categorie: B5
           type: other
           voorbeeld: '** 2. Kantonnement**'
-        - regel: 162
+        - regel: 146
           categorie: E2
           type: pseudo-table
           voorbeeld: "| | 700-707\n\t\t\t(of 499 | Verkopen en dienstprestaties \n\t\t\tVerkopen materiële vaste activa) | 4.750,00 | |"
-        - regel: 170
+        - regel: 154
           categorie: E2
           type: pseudo-table
           voorbeeld: "| | 700 – 707\n\t\t\t(of 499 | Verkopen en dienstprestaties \n\t\t\tVerkopen materiële vaste activa) | 4.750,00 | |"

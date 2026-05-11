@@ -17,9 +17,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T15:23:43Z'
+    confirmed_at: '2026-05-11T17:13:30Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: 'Bevestiging van bestaand verdict. A3: regel 70 bevat `vereniging of stichting` als losstaande plain-text regel direct na de frontmatter — TOC-residu dat niet door de scraper-fix is verwijderd. D4: stelselmatig malformed italic voor `*duolegaat *` (spatie vóór sluitende asterisk) op minstens regels 74, 78, 82, 83, 87, 91, 93, 97, 101, 103, 115–120, 124, 150.'
+    rationale: 'A3: regel 60 bevat `vereniging of stichting` als losstaande plain-text regel — TOC-residu. D4: stelselmatig malformed italic voor `duolegaat`-varianten: zowel `*duolegaat *` (spatie vóór sluitende asterisk) als `Bij een* omgekeerd duolegaat*` (spatie na opening-asterisk) op minstens regels 64, 68, 73, 87, 114, 140. Journaalpost-tabellen correct.'
     layer1:
       file_size_chars: 14263
       flags: []
@@ -31,21 +31,21 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:23:43Z'
-      rationale: 'Bevestiging van bestaand verdict. A3: regel 70 bevat `vereniging of stichting` als losstaande plain-text regel direct na de frontmatter — TOC-residu dat niet door de scraper-fix is verwijderd. D4: stelselmatig malformed italic voor `*duolegaat *` (spatie vóór sluitende asterisk) op minstens regels 74, 78, 82, 83, 87, 91, 93, 97, 101, 103, 115–120, 124, 150.'
+      run_at: '2026-05-11T17:13:30Z'
+      rationale: 'A3: regel 60 bevat `vereniging of stichting` als losstaande plain-text regel — TOC-residu. D4: stelselmatig malformed italic voor `duolegaat`-varianten: zowel `*duolegaat *` (spatie vóór sluitende asterisk) als `Bij een* omgekeerd duolegaat*` (spatie na opening-asterisk) op minstens regels 64, 68, 73, 87, 114, 140. Journaalpost-tabellen correct.'
       concrete_problemen:
-        - regel: 70
+        - regel: 60
           categorie: A3
           type: other
           voorbeeld: vereniging of stichting
-        - regel: 78
-          categorie: D4
-          type: other
-          voorbeeld: Bij het *klassieke duolegaat *wordt de nalatenschap volledig toebedeeld
-        - regel: 83
+        - regel: 73
           categorie: D4
           type: other
           voorbeeld: Bij een* omgekeerd duolegaat* wordt het begunstigde verre familielid
+        - regel: 68
+          categorie: D4
+          type: other
+          voorbeeld: Bij het *klassieke duolegaat *wordt de nalatenschap volledig toebedeeld
 themas:
   - duolegaat
   - nalatenschap

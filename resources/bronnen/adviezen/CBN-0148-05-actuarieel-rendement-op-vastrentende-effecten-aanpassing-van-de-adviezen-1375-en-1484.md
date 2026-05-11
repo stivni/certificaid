@@ -21,9 +21,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T15:15:33Z'
+    confirmed_at: '2026-05-11T17:05:21Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "E2: regel 245 bevat '| | aan 751 Opbrengsten uit vlottende activa | 13.027 | | |' waarbij 'aan' is samengesmolten met de rekening- en omschrijvingscel in één tabelcel, waardoor de rij niet meer uitlijnt met de header. Regel 256 bevat '| | 124.553 | | | |' — een losse cijferrij buiten tabelcontext die als afzonderlijke tabelrij is geboekt."
+    rationale: "E2 (regel 245): 'aan 751 Opbrengsten uit vlottende activa' samengesmolten in één tabelcel — ongewijzigd t.o.v. ronde 2. E2 (regel 256): losse cijferrij '| | 124.553 | | | |' buiten tabelcontext — ongewijzigd. Nieuw gevonden: E2 (regel 234) rekening '52' gelabeld als 'Kredietinstellingen' i.p.v. '55'; B1 (regel 71) heading '## 1 jaar : 80 000' bevat enkel jaar en bedrag."
     layer1:
       file_size_chars: 9362
       flags: []
@@ -35,8 +35,8 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:15:33Z'
-      rationale: "E2: regel 245 bevat '| | aan 751 Opbrengsten uit vlottende activa | 13.027 | | |' waarbij 'aan' is samengesmolten met de rekening- en omschrijvingscel in één tabelcel, waardoor de rij niet meer uitlijnt met de header. Regel 256 bevat '| | 124.553 | | | |' — een losse cijferrij buiten tabelcontext die als afzonderlijke tabelrij is geboekt."
+      run_at: '2026-05-11T17:05:21Z'
+      rationale: "E2 (regel 245): 'aan 751 Opbrengsten uit vlottende activa' samengesmolten in één tabelcel — ongewijzigd t.o.v. ronde 2. E2 (regel 256): losse cijferrij '| | 124.553 | | | |' buiten tabelcontext — ongewijzigd. Nieuw gevonden: E2 (regel 234) rekening '52' gelabeld als 'Kredietinstellingen' i.p.v. '55'; B1 (regel 71) heading '## 1 jaar : 80 000' bevat enkel jaar en bedrag."
       concrete_problemen:
         - regel: 245
           categorie: E2
@@ -46,6 +46,14 @@ provenance:
           categorie: E2
           type: other
           voorbeeld: '| | 124.553 | | | |'
+        - regel: 234
+          categorie: E2
+          type: other
+          voorbeeld: '| aan | 52 | Kredietinstellingen | | 1.205.000 |'
+        - regel: 71
+          categorie: B1
+          type: other
+          voorbeeld: '## 1 jaar : 80 000'
 themas:
   - actuarieel rendement op vastrentende effecten
   - actuariële rendement

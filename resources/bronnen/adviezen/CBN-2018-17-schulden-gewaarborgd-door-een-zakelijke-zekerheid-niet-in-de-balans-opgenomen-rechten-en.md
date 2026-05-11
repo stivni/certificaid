@@ -21,9 +21,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T15:23:43Z'
+    confirmed_at: '2026-05-11T17:13:30Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "Nieuw verdict (was unreviewed). E1/E2: de samenvattende tabellen in bijlagen 1 en 2 (regels 289–1099) zijn gefragmenteerd als single-cell blokken met `| \n\n  | | \n|---|` — zelfde extractor-bug als CBN-2018-16/22. B5: regel 95–96 bevat `De zakelijke zekerheden bedoeld in KB W.Venn.` als plain-text subsectie-label zonder heading-prefix; regel 230 idem (`De staat over de betrekkingen met verbonden...`). B3: `## Onherroepelijk beloofd of gesteld` op regels 298, 486, 669, 829, 987 staat als `##`-heading midden in gefragmenteerde tabelinhoud — logisch onjuiste heading-positie."
+    rationale: 'E1/E2: samenvattende bijlagetabellen (regels 289–1099) zijn volledig gefragmenteerd als single-cell blokken — identieke extractor-bug als CBN-2018-16. B5: subsectielabels op regels 95 en 230 staan als plain-text zonder heading-prefix. B3: `## Onherroepelijk beloofd of gesteld` verschijnt midden in gefragmenteerde tabelinhoud op regels 298, 486, 669, 829, 987.'
     layer1:
       file_size_chars: 53077
       flags: []
@@ -35,9 +35,13 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:23:43Z'
-      rationale: "Nieuw verdict (was unreviewed). E1/E2: de samenvattende tabellen in bijlagen 1 en 2 (regels 289–1099) zijn gefragmenteerd als single-cell blokken met `| \n\n  | | \n|---|` — zelfde extractor-bug als CBN-2018-16/22. B5: regel 95–96 bevat `De zakelijke zekerheden bedoeld in KB W.Venn.` als plain-text subsectie-label zonder heading-prefix; regel 230 idem (`De staat over de betrekkingen met verbonden...`). B3: `## Onherroepelijk beloofd of gesteld` op regels 298, 486, 669, 829, 987 staat als `##`-heading midden in gefragmenteerde tabelinhoud — logisch onjuiste heading-positie."
+      run_at: '2026-05-11T17:13:30Z'
+      rationale: 'E1/E2: samenvattende bijlagetabellen (regels 289–1099) zijn volledig gefragmenteerd als single-cell blokken — identieke extractor-bug als CBN-2018-16. B5: subsectielabels op regels 95 en 230 staan als plain-text zonder heading-prefix. B3: `## Onherroepelijk beloofd of gesteld` verschijnt midden in gefragmenteerde tabelinhoud op regels 298, 486, 669, 829, 987.'
       concrete_problemen:
+        - regel: 291
+          categorie: E1
+          type: other
+          voorbeeld: "| \n\n**Soort zekerheid**\n\n  | | \n|---|\n\n## Onherroepelijk beloofd of gesteld"
         - regel: 95
           categorie: B5
           type: other
@@ -46,10 +50,6 @@ provenance:
           categorie: B5
           type: other
           voorbeeld: De staat over de betrekkingen met verbonden, geassocieerde ondernemingen...
-        - regel: 291
-          categorie: E1
-          type: other
-          voorbeeld: "| \n\n**Soort zekerheid**\n\n  | | \n|---|\n\n## Onherroepelijk beloofd of gesteld"
         - regel: 298
           categorie: B3
           type: other

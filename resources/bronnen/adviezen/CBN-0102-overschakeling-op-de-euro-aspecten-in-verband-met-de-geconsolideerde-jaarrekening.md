@@ -21,9 +21,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T15:15:32Z'
+    confirmed_at: '2026-05-11T17:05:20Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "Drie ETL-bugs blijven aanwezig na scraper-fixes: (1) G3/spurious bracket: r111 bevat '] verantwoorden' met losstaand ] midden in geciteerde passage ('te ] verantwoorden»') — verminkt de geciteerde tekst. (2) D3: voetnoot [^14] op r204 bevat dezelfde zin tweemaal aaneengesloten zonder separator. (3) A6/A4: 'niet- monetaire' met spatie na koppelteken op r149, r153 en r208 naast correct 'niet-monetaire' elders — inconsistentie typisch voor extractie-artefact."
+    rationale: "Drie ETL-bugs bevestigd: (1) G3/spurious bracket: regel 111 bevat '] verantwoorden»[^8]' met losstaand ']' midden in geciteerde passage — verminkt de geciteerde tekst. (2) D3: voetnoot [^14] op regel 204 bevat dezelfde definitiezin tweemaal aaneengesloten zonder separator. (3) A6: 'niet- monetaire' met spatie na koppelteken op regels 149, 153 en 208 naast correct 'niet-monetaire' elders — inconsistentie typisch voor extractie-artefact."
     layer1:
       file_size_chars: 26659
       flags: []
@@ -35,8 +35,8 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:15:32Z'
-      rationale: "Drie ETL-bugs blijven aanwezig na scraper-fixes: (1) G3/spurious bracket: r111 bevat '] verantwoorden' met losstaand ] midden in geciteerde passage ('te ] verantwoorden»') — verminkt de geciteerde tekst. (2) D3: voetnoot [^14] op r204 bevat dezelfde zin tweemaal aaneengesloten zonder separator. (3) A6/A4: 'niet- monetaire' met spatie na koppelteken op r149, r153 en r208 naast correct 'niet-monetaire' elders — inconsistentie typisch voor extractie-artefact."
+      run_at: '2026-05-11T17:05:20Z'
+      rationale: "Drie ETL-bugs bevestigd: (1) G3/spurious bracket: regel 111 bevat '] verantwoorden»[^8]' met losstaand ']' midden in geciteerde passage — verminkt de geciteerde tekst. (2) D3: voetnoot [^14] op regel 204 bevat dezelfde definitiezin tweemaal aaneengesloten zonder separator. (3) A6: 'niet- monetaire' met spatie na koppelteken op regels 149, 153 en 208 naast correct 'niet-monetaire' elders — inconsistentie typisch voor extractie-artefact."
       concrete_problemen:
         - regel: 111
           categorie: G3
@@ -45,7 +45,7 @@ provenance:
         - regel: 204
           categorie: D3
           type: other
-          voorbeeld: "[^14]: Voor een definitie van monetaire en niet-monetaire posten, zie pagina's 5 en 12 van advies 152/1 Voor een definitie... — tekst tweemaal"
+          voorbeeld: "[^14]: Voor een definitie van monetaire en niet-monetaire posten, zie pagina's 5 en 12 van advies 152/1 Voor een definitie van monetaire en niet-monetaire posten, zie pagina's 5 en 12 van advies 152/1"
         - regel: 149
           categorie: A6
           type: other

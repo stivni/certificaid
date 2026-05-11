@@ -17,9 +17,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T15:19:35Z'
+    confirmed_at: '2026-05-11T17:05:21Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "Meerdere ETL-artefacten bevestigd: r.89-91 duplicate intro-zin (identieke zin twee keer); r.297 'effectenverordening' (ETL-corruptie voor 'effectenvordering'); multi-line tabelcellen (r.271-273, r.302-304, r.377-378, r.463-464); r.406 'Op 16.13.199n' (onmogelijke datum, maand 13 — ETL-artefact); r.554 '50.0000' (extra nul). Structuur en inhoud overigens volledig."
+    rationale: "Vorig verdict bevestigd. A3 r.72-74: identieke intro-zin twee keer. A9 r.280: 'effectenverordening' (ETL-corruptie voor 'effectenvordering' zoals correct op r.440); r.389: 'Op 16.13.199n' (maand 13 — onmogelijke datum); r.373: credit-bedrag 1.016 vs debet 1.015 in afwikkelingsboeking. E2 r.254-257: multi-line tabelcellen in meerdere schema's."
     layer1:
       file_size_chars: 47395
       flags: []
@@ -31,29 +31,25 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:19:35Z'
-      rationale: "Meerdere ETL-artefacten bevestigd: r.89-91 duplicate intro-zin (identieke zin twee keer); r.297 'effectenverordening' (ETL-corruptie voor 'effectenvordering'); multi-line tabelcellen (r.271-273, r.302-304, r.377-378, r.463-464); r.406 'Op 16.13.199n' (onmogelijke datum, maand 13 — ETL-artefact); r.554 '50.0000' (extra nul). Structuur en inhoud overigens volledig."
+      run_at: '2026-05-11T17:05:21Z'
+      rationale: "Vorig verdict bevestigd. A3 r.72-74: identieke intro-zin twee keer. A9 r.280: 'effectenverordening' (ETL-corruptie voor 'effectenvordering' zoals correct op r.440); r.389: 'Op 16.13.199n' (maand 13 — onmogelijke datum); r.373: credit-bedrag 1.016 vs debet 1.015 in afwikkelingsboeking. E2 r.254-257: multi-line tabelcellen in meerdere schema's."
       concrete_problemen:
-        - regel: 89
+        - regel: 72
           categorie: A3
           type: other
           voorbeeld: een tussentijdse afsluiting en de inning van een coupon tijdens de looptijd van de lening/ontlening
-        - regel: 297
+        - regel: 280
           categorie: A9
           type: ocr-confusion
           voorbeeld: 5250 | Geleende vastrentende effecten A, "effectenverordening"
-        - regel: 406
+        - regel: 389
           categorie: A9
           type: ocr-confusion
           voorbeeld: Op 16.13.199n sluit een handelsonderneming na verkoop van staatsobligaties...
-        - regel: 554
-          categorie: A9
-          type: ocr-confusion
-          voorbeeld: '* Onttrekkingen aan de voorraden... | | (50.0000) |'
-        - regel: 271
+        - regel: 254
           categorie: E2
           type: pseudo-table
-          voorbeeld: '| | 5200 | Vastrentende effecten A | 1.000 | |\n| aan | 5209 | Vastrentende effecten A\n(geboekte waardeverminderingen)'
+          voorbeeld: '| aan | 5209 | Vastrentende effecten A\n(geboekte waardeverminderingen) | | 10 |'
 themas:
   - coupon
   - effecten

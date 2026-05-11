@@ -21,9 +21,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T15:19:36Z'
+    confirmed_at: '2026-05-11T17:09:38Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "A3: r82-84 bevat een plain-text genummerde inhoudsopgave ('1. Stockdividenden versus bonusaandelen / 2. Vorderingsrecht... / 3. Boekhoudkundige verwerking') als body-tekst terwijl de eigenlijke inhoud als ## headings op r84, r99 en r105 volgt — TOC-fragment niet verwijderd. G3: voetnootankers [^10] en [^12] komen voor als verwees ankertekens: [^10] is gedefinieerd op r179 (voetnoot met inhoud) maar het anker staat op r120 in een losse zin — dit is correct. Echter [^12] anker is aanwezig in r159 als tabelcel-context — dit lijkt correct. Hercheck: de vorige beoordeling meldde verweesde ankers op r90 en r118, maar in de huidige versie (na scraper-fix) staan deze in normale zinscontext. TOC-artefact op r82-84 is nog aanwezig."
+    rationale: "Ronde-2-verdict TOC-artefact (A3) is verholpen door scraper-fix: geen TOC-fragment meer aanwezig in body. Echter nieuw gevonden: D3: voetnoot [^10] is gedefinieerd (r164: 'In het geval uiteraard roerende voorheffing verschuldigd is') maar heeft geen overeenkomstig anker in de body — orphaned footnote definition. Ook H1-titel (r61) bevat '2010/3 -De' zonder spatie na koppelteken (ETL-formatteerfout). Twee issues."
     layer1:
       file_size_chars: 7989
       flags: []
@@ -35,21 +35,17 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:19:36Z'
-      rationale: "A3: r82-84 bevat een plain-text genummerde inhoudsopgave ('1. Stockdividenden versus bonusaandelen / 2. Vorderingsrecht... / 3. Boekhoudkundige verwerking') als body-tekst terwijl de eigenlijke inhoud als ## headings op r84, r99 en r105 volgt — TOC-fragment niet verwijderd. G3: voetnootankers [^10] en [^12] komen voor als verwees ankertekens: [^10] is gedefinieerd op r179 (voetnoot met inhoud) maar het anker staat op r120 in een losse zin — dit is correct. Echter [^12] anker is aanwezig in r159 als tabelcel-context — dit lijkt correct. Hercheck: de vorige beoordeling meldde verweesde ankers op r90 en r118, maar in de huidige versie (na scraper-fix) staan deze in normale zinscontext. TOC-artefact op r82-84 is nog aanwezig."
+      run_at: '2026-05-11T17:09:38Z'
+      rationale: "Ronde-2-verdict TOC-artefact (A3) is verholpen door scraper-fix: geen TOC-fragment meer aanwezig in body. Echter nieuw gevonden: D3: voetnoot [^10] is gedefinieerd (r164: 'In het geval uiteraard roerende voorheffing verschuldigd is') maar heeft geen overeenkomstig anker in de body — orphaned footnote definition. Ook H1-titel (r61) bevat '2010/3 -De' zonder spatie na koppelteken (ETL-formatteerfout). Twee issues."
       concrete_problemen:
-        - regel: 82
-          categorie: A3
+        - regel: 164
+          categorie: D3
           type: other
-          voorbeeld: 1. Stockdividenden versus bonusaandelen
-        - regel: 83
-          categorie: A3
+          voorbeeld: '[^10]: In het geval uiteraard roerende voorheffing verschuldigd is. — geen anker [^10] in body'
+        - regel: 61
+          categorie: B1
           type: other
-          voorbeeld: 2. Vorderingsrecht in hoofde van de aandeelhouder
-        - regel: 84
-          categorie: A3
-          type: other
-          voorbeeld: 3. Boekhoudkundige verwerking
+          voorbeeld: '# CBN-advies 2010/3 -De boekhoudkundige verwerking... (spatie ontbreekt na koppelteken)'
 themas:
   - bonusaandelen
   - dividenden

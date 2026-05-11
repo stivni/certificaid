@@ -17,9 +17,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T15:19:36Z'
+    confirmed_at: '2026-05-11T17:09:38Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "B2: regels 142, 148 en 154 tonen '## Terreinen en gebouwen', '## Meubilair en rollend materieel' en '## Financiële vaste activa' als ## headings die inhoudelijk subsecties zijn van een genummerd Voorbeeld — ze hadden ### of #### niveau moeten hebben. E1: de balanstabel op regels 135-140 is niet in markdown pipe-syntax maar in space-aligned tekst (pseudo-tabel met | als kolom-afbakening maar zonder standaard header-separator rij). D4: regel 125 eindigt op '2/7.\" *' met trailing asterisk-spatie die de italic-sluiting ongeldig maakt."
+    rationale: "E1: de balanstabel op regels 123-128 is niet in standaard markdown pipe-syntax met header-separator — de rijen hebben geen `|---|` scheidingsrij en zijn onvolledig uitgebalanceerd. B2: regels 130, 136 en 142 tonen '## Terreinen en gebouwen', '## Meubilair en rollend materieel' en '## Financiële vaste activa' als ## headings terwijl dit inhoudelijk subsecties van een Voorbeeld zijn — ze hadden ### niveau moeten hebben, waardoor de heading-hiërarchie springt. D4: regel 113 eindigt op '2/7.\" *' met spatie vóór de sluitende asterisk, waardoor de italic-markup ongeldig is in de meeste parsers."
     layer1:
       file_size_chars: 12678
       flags: []
@@ -31,18 +31,18 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T15:19:36Z'
-      rationale: "B2: regels 142, 148 en 154 tonen '## Terreinen en gebouwen', '## Meubilair en rollend materieel' en '## Financiële vaste activa' als ## headings die inhoudelijk subsecties zijn van een genummerd Voorbeeld — ze hadden ### of #### niveau moeten hebben. E1: de balanstabel op regels 135-140 is niet in markdown pipe-syntax maar in space-aligned tekst (pseudo-tabel met | als kolom-afbakening maar zonder standaard header-separator rij). D4: regel 125 eindigt op '2/7.\" *' met trailing asterisk-spatie die de italic-sluiting ongeldig maakt."
+      run_at: '2026-05-11T17:09:38Z'
+      rationale: "E1: de balanstabel op regels 123-128 is niet in standaard markdown pipe-syntax met header-separator — de rijen hebben geen `|---|` scheidingsrij en zijn onvolledig uitgebalanceerd. B2: regels 130, 136 en 142 tonen '## Terreinen en gebouwen', '## Meubilair en rollend materieel' en '## Financiële vaste activa' als ## headings terwijl dit inhoudelijk subsecties van een Voorbeeld zijn — ze hadden ### niveau moeten hebben, waardoor de heading-hiërarchie springt. D4: regel 113 eindigt op '2/7.\" *' met spatie vóór de sluitende asterisk, waardoor de italic-markup ongeldig is in de meeste parsers."
       concrete_problemen:
-        - regel: 142
+        - regel: 123
+          categorie: E1
+          type: pseudo-table
+          voorbeeld: "| Balans vennootschap A (aandeel in de maatschap : 4/7) | \n|---|\n| Terreinen en gebouwen | | 228.571,43 | | | | |"
+        - regel: 130
           categorie: B2
           type: other
           voorbeeld: '## Terreinen en gebouwen'
-        - regel: 135
-          categorie: E1
-          type: pseudo-table
-          voorbeeld: "| Balans vennootschap A (aandeel in de maatschap : 4/7) | \n| Terreinen en gebouwen | | 228.571,43 | | | | | "
-        - regel: 125
+        - regel: 113
           categorie: D4
           type: other
           voorbeeld: Het aandeel van vennootschap C in de maatschap bedraagt 2/7." *
