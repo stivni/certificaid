@@ -354,7 +354,7 @@ sources:
     titel: Strafwetboek 2024 — Boek 1
     status: volledig
     extract:
-      method: custom_wetboek
+      method: pymupdf_wetboek
   Strafwetboek2024-boek2:
     bron_rol: itaa_lex
     raw: resources/raw/wetteksten/Strafwetboek2024-boek2.pdf

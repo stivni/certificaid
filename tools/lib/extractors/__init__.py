@@ -31,6 +31,7 @@ from . import (
     justel_html,
     pdftotext_compilatie_btw,
     pdftotext_ejustice,
+    pymupdf_wetboek,
 )
 
 # Een handler levert ofwel een string (1-op-1 bron→MD) ofwel een
@@ -48,6 +49,7 @@ METHOD_HANDLERS: dict[str, ExtractFn] = {
     "pdftotext_compilatie_btw": pdftotext_compilatie_btw.extract,
     "cbn_advies": cbn_advies.extract,
     "extract_norm": itaa_norm.extract,
+    "pymupdf_wetboek": pymupdf_wetboek.extract,
 }
 
 # Methodes die een dict retourneren (1-op-N output). De orchestrator gebruikt

@@ -236,6 +236,10 @@ def _cleanup_steps_for(cfg: dict, method: str) -> list[str]:
     if method == "pdftotext_ejustice":
         steps = list(DEFAULT_STEPS) + list(cfg.get("cleanup", []))
         return steps
+    if method == "pymupdf_wetboek":
+        # Extractor levert al schone output (headings + noise-filter + col-detect).
+        # Alleen blank-line collapse + eventuele bron-specifieke stappen.
+        return ["collapse_blank_lines"] + list(cfg.get("cleanup", []))
     if method in ("custom_wetboek", "custom_wib92"):
         # Body is al grotendeels schoon; geen toc-removal of artefact-stripping
         # die het reeds geconverteerde markdown zou kunnen breken.
