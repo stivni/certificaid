@@ -4,63 +4,84 @@ bron: ejustice.just.fgov.be (gecoördineerde versie)
 bron_rol: itaa_lex
 chunk:
   level: 5
-  sub_strategy:
+  sub_strategy: null
   type: Art.
 itaa-lex-sectie: II
 provenance:
+  generated_at: '2026-05-11T16:33:56Z'
   inputs:
-    - id: resources/raw/wetteksten/KB-WIB92.pdf
-      sha256: 16156af9b49f6a5968dd3c818f3cb0ac36a1c2a60ad68fe9b273aafde371749c
-      version: 24.12.2025
+  - id: resources/raw/wetteksten/KB-WIB92.pdf
+    sha256: 16156af9b49f6a5968dd3c818f3cb0ac36a1c2a60ad68fe9b273aafde371749c
+    version: 24.12.2025
+  stale: false
+  stale_reason: null
   tooling:
+    model: null
     pipeline: tools/etl/convert.py
     pipeline_version: 11f9196
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T16:21:30Z'
-  stale: false
-  stale_reason:
+    prompt_version: null
   trust:
-    status: needs-rework
     confirmed_at: '2026-05-11T16:30:30Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "B4/A6: Losse 'Titel' (regel 55) en 'Inhoudstafel' (regel 67) als plain-text regels zonder heading-prefix. Verder staan enkele artikel-koppen gesplitst: de ##### heading bevat alleen het artikelnummer en de eigenlijke tekst staat direct erna op de volgende regel zonder witruimte (bv. 'Art. 2.De'). De bijlagentabel (BIJLAGE I, regels 1966+) is als ASCII-spatie-uitlijning weergegeven (C3, pseudo-tabel) in plaats van markdown pipe-syntax. Laag-1 pass zonder flags — qua structuur is de body grotendeels in orde."
     layer1:
-      status: pass
-      run_id: 20260511-162232
-      run_at: '2026-05-11T16:22:33Z'
-      heading_count: 468
-      max_section_chars: 8860
       file_size_chars: 216919
       flags: []
+      heading_count: 468
+      max_section_chars: 8860
+      run_at: '2026-05-11T16:22:33Z'
+      run_id: 20260511-162232
+      status: pass
     layer2:
-      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T16:30:30Z'
-      rationale: "B4/A6: Losse 'Titel' (regel 55) en 'Inhoudstafel' (regel 67) als plain-text regels zonder heading-prefix. Verder staan enkele artikel-koppen gesplitst: de ##### heading bevat alleen het artikelnummer en de eigenlijke tekst staat direct erna op de volgende regel zonder witruimte (bv. 'Art. 2.De'). De bijlagentabel (BIJLAGE I, regels 1966+) is als ASCII-spatie-uitlijning weergegeven (C3, pseudo-tabel) in plaats van markdown pipe-syntax. Laag-1 pass zonder flags — qua structuur is de body grotendeels in orde."
       concrete_problemen:
-        - regel: 55
-          categorie: B4
-          type: other
-          voorbeeld: "### Titel\n\n27 AUGUSTUS 1993. - KONINKLIJK BESLUIT..."
-        - regel: 67
-          categorie: B4
-          type: other
-          voorbeeld: "Inhoudstafel\n\n## HOOFDSTUK I."
-        - regel: 1966
-          categorie: C3
-          type: pseudo-table
-          voorbeeld: '----------------- ------------ --------- --------- --------- --------- --------'
-        - regel: 2004
-          categorie: A7
-          type: scrambled-words
-          voorbeeld: '<KB 1996-03-06/3 4, art. 4, 0 27; Inwerkingtreding : 01-01-199 5>'
+      - categorie: B4
+        regel: 55
+        type: other
+        voorbeeld: '### Titel
+
+
+          27 AUGUSTUS 1993. - KONINKLIJK BESLUIT...'
+      - categorie: B4
+        regel: 67
+        type: other
+        voorbeeld: 'Inhoudstafel
+
+
+          ## HOOFDSTUK I.'
+      - categorie: C3
+        regel: 1966
+        type: pseudo-table
+        voorbeeld: '----------------- ------------ --------- --------- --------- ---------
+          --------'
+      - categorie: A7
+        regel: 2004
+        type: scrambled-words
+        voorbeeld: '<KB 1996-03-06/3 4, art. 4, 0 27; Inwerkingtreding : 01-01-199
+          5>'
+      rationale: 'B4/A6: Losse ''Titel'' (regel 55) en ''Inhoudstafel'' (regel 67)
+        als plain-text regels zonder heading-prefix. Verder staan enkele artikel-koppen
+        gesplitst: de ##### heading bevat alleen het artikelnummer en de eigenlijke
+        tekst staat direct erna op de volgende regel zonder witruimte (bv. ''Art.
+        2.De''). De bijlagentabel (BIJLAGE I, regels 1966+) is als ASCII-spatie-uitlijning
+        weergegeven (C3, pseudo-tabel) in plaats van markdown pipe-syntax. Laag-1
+        pass zonder flags — qua structuur is de body grotendeels in orde.'
+      run_at: '2026-05-11T16:30:30Z'
+      status: needs-rework
+    rationale: 'B4/A6: Losse ''Titel'' (regel 55) en ''Inhoudstafel'' (regel 67) als
+      plain-text regels zonder heading-prefix. Verder staan enkele artikel-koppen
+      gesplitst: de ##### heading bevat alleen het artikelnummer en de eigenlijke
+      tekst staat direct erna op de volgende regel zonder witruimte (bv. ''Art. 2.De'').
+      De bijlagentabel (BIJLAGE I, regels 1966+) is als ASCII-spatie-uitlijning weergegeven
+      (C3, pseudo-tabel) in plaats van markdown pipe-syntax. Laag-1 pass zonder flags
+      — qua structuur is de body grotendeels in orde.'
+    status: needs-rework
 status: beschikbaar
 tags:
-  - II
-  - '2.2'
-  - '2.3'
-wet: Koninklijk besluit tot uitvoering van het Wetboek van de Inkomstenbelastingen 1992 (KB/WIB92)
+- II
+- '2.2'
+- '2.3'
+wet: Koninklijk besluit tot uitvoering van het Wetboek van de Inkomstenbelastingen
+  1992 (KB/WIB92)
 ---
 
 # Koninklijk besluit tot uitvoering van het Wetboek van de Inkomstenbelastingen 1992 (KB/WIB92)
@@ -68,8 +89,6 @@ wet: Koninklijk besluit tot uitvoering van het Wetboek van de Inkomstenbelasting
 *Bijgewerkt tot en met 24.12.2025 — gecoördineerde versie.*
 
 Dossiernummer : 1993-08-27/49
-
-### Titel
 
 27 AUGUSTUS 1993. - KONINKLIJK BESLUIT TOT UITVOERING VAN HET WETBOEK VAN DE INKOMSTENBELASTINGEN 1992, AFGEKORT ALS "KB/WIB 92". (OPGELET : het bijwerken van deze tekst is tijdelijk uitgesteld : gelieve de laatste wijzigingsreferentie in de tabel na te kijken, of de databank "FisconetPlus" raad te plegen)
 
@@ -80,8 +99,6 @@ Bron : FINANCIEN
 Publicatie : Belgisch Staatsblad van 13-09-1993 bladzijde : 20105
 
 Inwerkingtreding : 01-01-1992
-
-Inhoudstafel
 
 ## HOOFDSTUK I. - GRONDSLAG EN BEREKENING VAN DE BELASTINGEN.
 
@@ -341,13 +358,9 @@ B. Aanwending van sommen die aan een belastingschuldige moeten worden teruggegev
 
 ### Afdeling II. - Herschatting voor de berekening van de afschrijving van bepaalde activa die zijn verkregen of tot stand gebracht voor de normale datum van afsluiting van de laatste jaarbalans opgemaakt voor 31 december 1940 en die nog in gebruik waren op de normale datum van afsluiting van de laatste jaarbalans opgemaakt voor 31 december 1946. (Wetboek van de inkomstenbelastingen 1992, artikel 511, § 2)
 
-Bijlagen.
-
 ##### Art. N1-25N2, N2bis, N3-N5
 
 OVEREENSTEMMINGSTABELLEN.
-
-Tekst
 
 ## HOOFDSTUK I. - GRONDSLAG EN BEREKENING VAN DE BELASTINGEN.
 
@@ -1974,8 +1987,6 @@ De herschatting van outillage en ermee gelijkgestelde nijverheidsgebouwen mag vo
 ##### Art. 253
 
 Het koninklijk besluit van 12 oktober 1930, tot berekening van de afschrijvingen op een herschatte kostprijs inzake inkomstenbelastingen blijft van toepassing voor het vaststellen van de vrij van belasting aanvaardbare afschrijving op outillage en ermee gelijkgestelde nijverheidsgebouwen waarvan de kostprijs, herschat overeenkomstig het bepaalde in dat besluit en opgenomen in de balansen afgesloten sedert 1931, niet opnieuw herschat is overeenkomstig de artikelen 235 tot 252.
-
-Bijlagen.
 
 ##### Art. N1 . BIJLAGE I. (Afdeling I. - Maandelijkse referteïndexen voor hypothecaire leningen, toegestaan vanaf 1 januari 1995, waarin een veranderlijke rentevoet is bedongen. (Koninklijk besluit tot uitvoering van het Wetboek van de inkomstenbelastingen 1992, artikel 18, § 3, 1, b, 3e lid).
 

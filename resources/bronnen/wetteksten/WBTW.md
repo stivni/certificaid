@@ -8,7 +8,7 @@ chunk:
   type: Art.
 itaa-lex-sectie: VI.A
 provenance:
-  generated_at: '2026-05-11T16:21:51Z'
+  generated_at: '2026-05-11T16:34:24Z'
   inputs:
   - id: resources/raw/wetteksten/WBTW-2026.pdf
     sha256: 4892c9b4107878d21a7dc984c82a6e6f8619d05bb3fd058f34bfc144b0cf4d1e

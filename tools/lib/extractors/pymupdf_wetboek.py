@@ -313,6 +313,24 @@ def _is_noise_block(text: str) -> bool:
     # Art-range alleen (typisch TOC-vermelding): "Art. 24-26"
     if re.fullmatch(r"\s*Art(?:ikel)?\.?\s+\d+\s*[-–]\s*\d+\s*", text, re.I):
         return True
+    # Plain-text Justel-structuurlabels die NIET informatief zijn:
+    # "Tekst", "Titel", "Inhoudstafel", "BIJLAGEN.", "Bijlage" zonder nummer.
+    # Deze duiken op als sectiesplitser in Justel-PDFs en horen niet als
+    # heading of body-content.
+    if re.fullmatch(
+        r"\s*(?:Tekst|Titel|Inhoudstafel|BIJLAGEN\.?|Bijlage|"
+        r"Aanhef|Aanvang|Wijzigingsbepalingen|"
+        r"Table\s+des\s+matières|Texte|Préambule)\s*",
+        text, re.I,
+    ):
+        return True
+    # Standalone "Boek X. -" of "Hoofdstuk X. -" als label (incompleet zonder titel)
+    if re.fullmatch(
+        r"\s*(?:Boek|Hoofdstuk|Titel|Deel|Afdeling|Onderafdeling)\s+"
+        r"[IVXLCDM\d]+\.?\s*-?\s*",
+        text, re.I,
+    ):
+        return True
     return False
 
 

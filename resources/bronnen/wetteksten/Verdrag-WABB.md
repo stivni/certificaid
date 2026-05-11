@@ -8,7 +8,7 @@ chunk:
   type: Art.
 itaa-lex-sectie: I
 provenance:
-  generated_at: '2026-05-11T16:21:50Z'
+  generated_at: '2026-05-11T16:34:24Z'
   inputs:
   - id: resources/raw/wetteksten/Verdrag-WABB.pdf
     sha256: ecfc8f00db22913505065b92b1e46272baa3cb95594f27889156b720b2cbb1bb

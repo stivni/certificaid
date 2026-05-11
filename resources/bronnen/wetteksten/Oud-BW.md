@@ -3,7 +3,7 @@ bijgewerkt: 27.01.2026
 bron: ejustice.just.fgov.be (Justel, gecoördineerde versie)
 itaa-lex-sectie: XI
 provenance:
-  generated_at: '2026-05-11T16:21:47Z'
+  generated_at: '2026-05-11T16:34:21Z'
   tooling:
     pipeline: tools/etl/convert.py
     pipeline_version: 11f9196

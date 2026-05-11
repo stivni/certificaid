@@ -8,7 +8,7 @@ chunk:
   type: Art.
 itaa-lex-sectie: VI.B
 provenance:
-  generated_at: '2026-05-11T16:21:51Z'
+  generated_at: '2026-05-11T16:34:24Z'
   inputs:
   - id: resources/raw/wetteksten/btw-kbs/WBTW-KB54-entrepot.pdf
     sha256: 9193c568255efce6d1fdc5d07f353f94cc5bba2a9c0edd2ee8ab27861b669549

@@ -7,7 +7,7 @@ chunk:
   type: Art.
 itaa-lex-sectie: XIII
 provenance:
-  generated_at: '2026-05-11T16:21:53Z'
+  generated_at: '2026-05-11T16:34:26Z'
   inputs:
   - id: resources/raw/wetteksten/WER-Boek-VIII-normalisatie.pdf
     sha256: d26ab874052bcbe9c00e472d83d0fee1a6c75d6ac5cc3f220e43d02905f4ae95
@@ -87,8 +87,6 @@ Note
 (1) Référence au Moniteur belge : Loi du 5 décembre 1968, Moniteur belge du 15 janvier 1969.
 
 Annexe
-
-Bijlage
 
 Sous-commission paritaire pour le commerce du métal
 
@@ -322,8 +320,6 @@ Nota
 
 Annexe
 
-Bijlage
-
 Commission paritaire de la coiffure et des soins de beauté
 
 Paritair Comité voor het kappersbedrijf en de schoonheidszorgen
@@ -527,8 +523,6 @@ Vu pour être annexé à l’arrêté royal du 20 décembre 2012.
 Nota
 
 (1) Verwijzing naar het Belgisch Staatsblad : Wet van 5 december 1968, Belgisch Staatsblad van 15 januari 1969.
-
-Bijlage
 
 Paritair Comité voor de uitzendarbeid en de erkende ondernemingen die buurtwerken of -diensten leveren
 

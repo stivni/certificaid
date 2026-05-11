@@ -8,7 +8,7 @@ chunk:
   type: Art.
 itaa-lex-sectie: XIV
 provenance:
-  generated_at: '2026-05-11T16:22:16Z'
+  generated_at: '2026-05-11T16:34:49Z'
   inputs:
   - id: resources/raw/wetteksten/Wet-betalingsachterstand-2002.pdf
     sha256: 1eb986525442599552419e8c273eeff7a930609d1070e5f7f967dee900f359a1

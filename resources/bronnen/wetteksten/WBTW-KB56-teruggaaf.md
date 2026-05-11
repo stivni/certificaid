@@ -8,7 +8,7 @@ chunk:
   type: Art.
 itaa-lex-sectie: VI.B
 provenance:
-  generated_at: '2026-05-11T16:21:51Z'
+  generated_at: '2026-05-11T16:34:24Z'
   inputs:
   - id: resources/raw/wetteksten/btw-kbs/WBTW-KB56-teruggaaf.pdf
     sha256: 2c30d5ca59bd9a6f0cffb6d83dcf687edd57a193b2534a8d9a596f233d32d803

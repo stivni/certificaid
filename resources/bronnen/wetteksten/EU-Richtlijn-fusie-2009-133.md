@@ -4,46 +4,49 @@ bron: ejustice.just.fgov.be (gecoördineerde versie)
 bron_rol: itaa_lex
 chunk:
   level: 3
-  sub_strategy:
+  sub_strategy: null
   type: Art.
 itaa-lex-sectie: X
 provenance:
-  generated_at: '2026-05-11T16:21:26Z'
+  generated_at: '2026-05-11T16:33:51Z'
   inputs:
-    - id: resources/raw/wetteksten/EU-Richtlijn-fusie-2009-133.pdf
-      sha256: 5fff924203fcc785ca08213b7b43ca58dddc4caf14881882119732358b8c9bf2
-      version: 25.11.2009
+  - id: resources/raw/wetteksten/EU-Richtlijn-fusie-2009-133.pdf
+    sha256: 5fff924203fcc785ca08213b7b43ca58dddc4caf14881882119732358b8c9bf2
+    version: 25.11.2009
   stale: false
-  stale_reason:
+  stale_reason: null
   tooling:
-    model:
+    model: null
     pipeline: tools/etl/convert.py
     pipeline_version: 11f9196
-    prompt_version:
+    prompt_version: null
   trust:
     confirmed_at: '2026-05-09T21:27:46Z'
     confirmed_by: subagent-sonnet-4-6
     layer1:
-      status: pass
-      run_id: 20260511-162232
-      run_at: '2026-05-11T16:22:33Z'
-      heading_count: 42
-      max_section_chars: 10168
       file_size_chars: 44137
       flags: []
+      heading_count: 42
+      max_section_chars: 10168
+      run_at: '2026-05-11T16:22:33Z'
+      run_id: 20260511-162232
+      status: pass
     layer2:
-      agent:
+      agent: null
       concrete_problemen: []
-      rationale: Richtlijn 2009/133/EG met 32 Art.-vermeldingen. Body leesbaar NL met soft hyphens. Frontmatter en structuur kloppen.
-      run_at:
+      rationale: Richtlijn 2009/133/EG met 32 Art.-vermeldingen. Body leesbaar NL
+        met soft hyphens. Frontmatter en structuur kloppen.
+      run_at: null
       status: trusted
     rationale: L1=pass
     status: trusted
 status: beschikbaar
 tags:
-  - X
-  - '2.8'
-wet: Richtlijn 2009/133/EG van de Raad van 19 oktober 2009 betreffende de gemeenschappelijke fiscale regeling voor fusies, splitsingen, gedeeltelijke splitsingen, inbreng van activa en aandelenruil (gecodificeerde versie)
+- X
+- '2.8'
+wet: Richtlijn 2009/133/EG van de Raad van 19 oktober 2009 betreffende de gemeenschappelijke
+  fiscale regeling voor fusies, splitsingen, gedeeltelijke splitsingen, inbreng van
+  activa en aandelenruil (gecodificeerde versie)
 ---
 
 # Richtlijn 2009/133/EG van de Raad van 19 oktober 2009 betreffende de gemeenschappelijke fiscale regeling voor fusies, splitsingen, gedeeltelijke splitsingen, inbreng van activa en aandelenruil (gecodificeerde versie)

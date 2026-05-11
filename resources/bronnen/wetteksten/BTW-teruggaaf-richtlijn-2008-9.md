@@ -4,46 +4,49 @@ bron: ejustice.just.fgov.be (gecoördineerde versie)
 bron_rol: itaa_lex
 chunk:
   level: 2
-  sub_strategy:
+  sub_strategy: null
   type: Art.
 itaa-lex-sectie: VI.A
 provenance:
-  generated_at: '2026-05-11T16:21:26Z'
+  generated_at: '2026-05-11T16:33:51Z'
   inputs:
-    - id: resources/raw/wetteksten/BTW-teruggaaf-richtlijn-2008-9.pdf
-      sha256: c14c751cfe2f7ab14422c6a44d67fbd36b40d1191726240a6f118ef63da29ac9
-      version: 01.10.2010
+  - id: resources/raw/wetteksten/BTW-teruggaaf-richtlijn-2008-9.pdf
+    sha256: c14c751cfe2f7ab14422c6a44d67fbd36b40d1191726240a6f118ef63da29ac9
+    version: 01.10.2010
   stale: false
-  stale_reason:
+  stale_reason: null
   tooling:
-    model:
+    model: null
     pipeline: tools/etl/convert.py
     pipeline_version: 11f9196
-    prompt_version:
+    prompt_version: null
   trust:
     confirmed_at: '2026-05-09T21:27:46Z'
     confirmed_by: subagent-sonnet-4-6
     layer1:
-      status: pass
-      run_id: 20260511-162232
-      run_at: '2026-05-11T16:22:33Z'
-      heading_count: 31
-      max_section_chars: 4515
       file_size_chars: 25655
       flags: []
+      heading_count: 31
+      max_section_chars: 4515
+      run_at: '2026-05-11T16:22:33Z'
+      run_id: 20260511-162232
+      status: pass
     layer2:
-      agent:
+      agent: null
       concrete_problemen: []
-      rationale: Korte richtlijn (26KB), 31 artikelen op H2 zoals chunk.level=2. Frontmatter compleet, geen kolom-bleed, geen TOC-residu in body.
-      run_at:
+      rationale: Korte richtlijn (26KB), 31 artikelen op H2 zoals chunk.level=2. Frontmatter
+        compleet, geen kolom-bleed, geen TOC-residu in body.
+      run_at: null
       status: trusted
     rationale: L1=pass
     status: trusted
 status: beschikbaar
 tags:
-  - VI.A
-  - '2.4'
-wet: Richtlijn 2008/9/EG van de Raad tot vaststelling van nadere voorschriften voor de in Richtlijn 2006/112/EG vastgestelde teruggaaf van btw aan belastingplichtigen die niet in de lidstaat van teruggaaf maar in een andere lidstaat gevestigd zijn
+- VI.A
+- '2.4'
+wet: Richtlijn 2008/9/EG van de Raad tot vaststelling van nadere voorschriften voor
+  de in Richtlijn 2006/112/EG vastgestelde teruggaaf van btw aan belastingplichtigen
+  die niet in de lidstaat van teruggaaf maar in een andere lidstaat gevestigd zijn
 ---
 
 # Richtlijn 2008/9/EG van de Raad tot vaststelling van nadere voorschriften voor de in Richtlijn 2006/112/EG vastgestelde teruggaaf van btw aan belastingplichtigen die niet in de lidstaat van teruggaaf maar in een andere lidstaat gevestigd zijn

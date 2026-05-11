@@ -8,7 +8,7 @@ chunk:
   type: Art.
 itaa-lex-sectie: ''
 provenance:
-  generated_at: '2026-05-11T16:22:16Z'
+  generated_at: '2026-05-11T16:34:50Z'
   inputs:
   - id: www.ejustice.just.fgov.be (Justel, gecoördineerde versie)
     sha256: null

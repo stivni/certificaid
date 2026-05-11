@@ -8,7 +8,7 @@ chunk:
   type: Art.
 itaa-lex-sectie: II
 provenance:
-  generated_at: '2026-05-11T16:22:16Z'
+  generated_at: '2026-05-11T16:34:49Z'
   inputs:
   - id: resources/raw/wetteksten/WIB92.pdf
     sha256: 3283429e179aaf3780ec95af9b04d3597d4987f4a0bef6f36f196f6c7c582938

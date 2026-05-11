@@ -8,7 +8,7 @@ chunk:
   type: Art.
 itaa-lex-sectie: VI.B
 provenance:
-  generated_at: '2026-05-11T16:21:50Z'
+  generated_at: '2026-05-11T16:34:24Z'
   inputs:
   - id: resources/raw/wetteksten/btw-kbs/WBTW-KB22jun2020-e-notariaat.pdf
     sha256: be45dc386b376439de59378c86082c733e467259a0ac3b2762a84ac514054d31

@@ -8,7 +8,7 @@ chunk:
   type: Art.
 itaa-lex-sectie: IX
 provenance:
-  generated_at: '2026-05-11T16:21:48Z'
+  generated_at: '2026-05-11T16:34:22Z'
   inputs:
   - id: resources/raw/wetteksten/successie-federaal.pdf
     sha256: 560a39e50be62bd622658de7f5f95b029cf3f7b25ab4618814a9ad4649771b7c

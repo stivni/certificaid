@@ -4,53 +4,67 @@ bron: ejustice.just.fgov.be (gecoördineerde versie)
 bron_rol: itaa_lex
 chunk:
   level: 5
-  sub_strategy:
+  sub_strategy: null
   type: Art.
 itaa-lex-sectie: XI
 provenance:
+  generated_at: '2026-05-11T16:33:51Z'
   inputs:
-    - id: resources/raw/wetteksten/BW-boek3-goederen.pdf
-      sha256: ca4d76f69819a31bf460a475bb0b651d3e8dec3da8d6f15350cccabd7f97564d
-      version: 24.12.2025
+  - id: resources/raw/wetteksten/BW-boek3-goederen.pdf
+    sha256: ca4d76f69819a31bf460a475bb0b651d3e8dec3da8d6f15350cccabd7f97564d
+    version: 24.12.2025
+  stale: false
+  stale_reason: null
   tooling:
+    model: null
     pipeline: tools/etl/convert.py
     pipeline_version: 11f9196
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T16:21:26Z'
-  stale: false
-  stale_reason:
+    prompt_version: null
   trust:
-    status: needs-rework
     confirmed_at: '2026-05-11T16:30:30Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "D2: het bestand bevat uitsluitend de wijzigings- en overgangsbepalingen (HOOFDSTUK 3–6) — de inhoudelijke artikelen van Boek 3 zelf ontbreken volledig; de body begint mid-paragraaf (§ 2.) zonder voorafgaande sectietitel. B5: Art. 25 op regel 167 heeft een heading die doorloopt in de artikeltekst ('#### Art. 25. In artikel 2, 5°, i, van de wet van 12 mei 2014 betreffende de gereglementeerde') — de heading is niet afgesloten voor de body. Afdeling XI (regel 145–146) heeft een sectietitel zonder bijbehorend artikel."
     layer1:
-      status: pass
-      run_id: 20260511-162232
-      run_at: '2026-05-11T16:22:33Z'
-      heading_count: 55
-      max_section_chars: 1767
       file_size_chars: 15877
       flags: []
+      heading_count: 55
+      max_section_chars: 1767
+      run_at: '2026-05-11T16:22:33Z'
+      run_id: 20260511-162232
+      status: pass
     layer2:
-      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T16:30:30Z'
-      rationale: "D2: het bestand bevat uitsluitend de wijzigings- en overgangsbepalingen (HOOFDSTUK 3–6) — de inhoudelijke artikelen van Boek 3 zelf ontbreken volledig; de body begint mid-paragraaf (§ 2.) zonder voorafgaande sectietitel. B5: Art. 25 op regel 167 heeft een heading die doorloopt in de artikeltekst ('#### Art. 25. In artikel 2, 5°, i, van de wet van 12 mei 2014 betreffende de gereglementeerde') — de heading is niet afgesloten voor de body. Afdeling XI (regel 145–146) heeft een sectietitel zonder bijbehorend artikel."
       concrete_problemen:
-        - regel: 53
-          categorie: D2
-          type: missing-section
-          voorbeeld: § 2. In geval van gehele of gedeeltelijke vernietiging... (document begint mid-paragaaf, geen inhoudelijke Boek 3-artikelen aanwezig)
-        - regel: 167
-          categorie: B5
-          type: other
-          voorbeeld: '#### Art. 25. In artikel 2, 5°, i, van de wet van 12 mei 2014 betreffende de gereglementeerde'
+      - categorie: D2
+        regel: 53
+        type: missing-section
+        voorbeeld: § 2. In geval van gehele of gedeeltelijke vernietiging... (document
+          begint mid-paragaaf, geen inhoudelijke Boek 3-artikelen aanwezig)
+      - categorie: B5
+        regel: 167
+        type: other
+        voorbeeld: '#### Art. 25. In artikel 2, 5°, i, van de wet van 12 mei 2014
+          betreffende de gereglementeerde'
+      rationale: 'D2: het bestand bevat uitsluitend de wijzigings- en overgangsbepalingen
+        (HOOFDSTUK 3–6) — de inhoudelijke artikelen van Boek 3 zelf ontbreken volledig;
+        de body begint mid-paragraaf (§ 2.) zonder voorafgaande sectietitel. B5: Art.
+        25 op regel 167 heeft een heading die doorloopt in de artikeltekst (''####
+        Art. 25. In artikel 2, 5°, i, van de wet van 12 mei 2014 betreffende de gereglementeerde'')
+        — de heading is niet afgesloten voor de body. Afdeling XI (regel 145–146)
+        heeft een sectietitel zonder bijbehorend artikel.'
+      run_at: '2026-05-11T16:30:30Z'
+      status: needs-rework
+    rationale: 'D2: het bestand bevat uitsluitend de wijzigings- en overgangsbepalingen
+      (HOOFDSTUK 3–6) — de inhoudelijke artikelen van Boek 3 zelf ontbreken volledig;
+      de body begint mid-paragraaf (§ 2.) zonder voorafgaande sectietitel. B5: Art.
+      25 op regel 167 heeft een heading die doorloopt in de artikeltekst (''#### Art.
+      25. In artikel 2, 5°, i, van de wet van 12 mei 2014 betreffende de gereglementeerde'')
+      — de heading is niet afgesloten voor de body. Afdeling XI (regel 145–146) heeft
+      een sectietitel zonder bijbehorend artikel.'
+    status: needs-rework
 status: beschikbaar
 tags:
-  - XI
-  - '3.1'
+- XI
+- '3.1'
 wet: Burgerlijk Wetboek — Boek 3 — Goederen
 ---
 

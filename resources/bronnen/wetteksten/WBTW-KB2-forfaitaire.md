@@ -8,7 +8,7 @@ chunk:
   type: Art.
 itaa-lex-sectie: VI.B
 provenance:
-  generated_at: '2026-05-11T16:21:50Z'
+  generated_at: '2026-05-11T16:34:24Z'
   inputs:
   - id: resources/raw/wetteksten/btw-kbs/WBTW-KB2-forfaitaire.pdf
     sha256: 8ea70cb7a624d686abb875837eabc7cae788dfc2aaa922fd6983c395de790570

@@ -7,7 +7,7 @@ chunk:
   type: Art.
 itaa-lex-sectie: V
 provenance:
-  generated_at: '2026-05-11T16:21:51Z'
+  generated_at: '2026-05-11T16:34:24Z'
   inputs:
   - id: resources/raw/wetteksten/WDRT.pdf
     sha256: 773ab29790de4e0f592dae0d42f63c94fd675a81c748e3df65c36215754eb568
@@ -56,8 +56,6 @@ wet: Wetboek Diverse Rechten en Taksen
 *Bijgewerkt tot en met 24.12.2025 — gecoördineerde versie.*
 
 ##### Art. 212
-
-Tekst
 
 ## Boek I. [Rechten op geschriften] <Opschrift ingevoegd bij W 2006-12-19/33, art. 3, Inwerkingtreding : 01-01- 2007>
 

@@ -3,77 +3,99 @@ bijgewerkt: 01.04.2026
 bron: Fisconetplus.be (officieuze gecoördineerde versie)
 chunk:
   level: 6
-  sub_strategy:
+  sub_strategy: null
   type: Art.
 itaa-lex-sectie: VIII
 provenance:
+  generated_at: '2026-05-11T16:34:21Z'
   inputs:
-    - id: resources/raw/wetteksten/Registratierechten-federaal.pdf
-      sha256: 768b62551dcd235cd7e3859626df172408bca181bdd6aceb8c7f153ced5d65c2
-      version: 01.04.2026
+  - id: resources/raw/wetteksten/Registratierechten-federaal.pdf
+    sha256: 768b62551dcd235cd7e3859626df172408bca181bdd6aceb8c7f153ced5d65c2
+    version: 01.04.2026
+  stale: false
+  stale_reason: null
   tooling:
+    model: null
     pipeline: tools/etl/convert.py
     pipeline_version: 11f9196
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T16:21:47Z'
-  stale: false
-  stale_reason:
+    prompt_version: null
   trust:
-    status: needs-rework
     confirmed_at: '2026-05-11T16:30:31Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "A8: doorheen het volledige bestand staat kolom-bleed: elke artikeltekst bevat twee kolommen (NL links, FR rechts) die op dezelfde regel gemengd zijn — bv. regel 71: 'KB nr. 64 van 30.11.1939, bevattende het Wetboek der registratie- (A hypotheek-...' of regel 81: 'Registratie is een formaliteit bestaande in het afschrijven... L'e vermelden van een akte...'. Dit is een systematisch A8-kolom-bleed-artefact door tweetalig PDF-extract. B4: regel 67 '## EN GRIFFIERECHTEN' is een losstaand heading-fragment (titelrest). F1: de `bron_rol`-veld ontbreekt in de frontmatter (wel `bron` aanwezig, maar `bron_rol` is leeg)."
     layer1:
       file_size_chars: 1123028
       flags:
-        - detail: 'langste sectie op ######-niveau: 128584 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
-          name: max_section_size
-          samples: []
-          status: warn
-        - detail: 3 kolom-bleed-patroon/-en gevonden buiten tabellen (twee-kolom PDF-extractie?)
-          name: no_column_bleed
-          samples:
-            - 'regel 171: Wordt, voor de toepassing van dit wetboek, met een aan een                        Pour l’application du présent code, es'
-            - 'regel 240: De exequaturs der scheidsrechterlijke uitspraken en die der                            Les exequatur des sentences arbit'
-            - 'regel 1985: Wanneer er niet anderszins bij deze titel over beschikt is, mag het                    Lorsqu’il n’en est pas disposé au'
-          status: warn
+      - detail: 'langste sectie op ######-niveau: 128584 chars (>24000); chunker splitst
+          auto op alinea-grenzen via split_long_chunk'
+        name: max_section_size
+        samples: []
+        status: warn
+      - detail: 3 kolom-bleed-patroon/-en gevonden buiten tabellen (twee-kolom PDF-extractie?)
+        name: no_column_bleed
+        samples:
+        - 'regel 171: Wordt, voor de toepassing van dit wetboek, met een aan een                        Pour
+          l’application du présent code, es'
+        - 'regel 240: De exequaturs der scheidsrechterlijke uitspraken en die der                            Les
+          exequatur des sentences arbit'
+        - 'regel 1985: Wanneer er niet anderszins bij deze titel over beschikt is,
+          mag het                    Lorsqu’il n’en est pas disposé au'
+        status: warn
       heading_count: 525
       max_section_chars: 128584
       run_at: '2026-05-11T13:40:46Z'
       run_id: 20260511-134044
       status: warn
     layer2:
-      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T16:30:31Z'
-      rationale: "A8: doorheen het volledige bestand staat kolom-bleed: elke artikeltekst bevat twee kolommen (NL links, FR rechts) die op dezelfde regel gemengd zijn — bv. regel 71: 'KB nr. 64 van 30.11.1939, bevattende het Wetboek der registratie- (A hypotheek-...' of regel 81: 'Registratie is een formaliteit bestaande in het afschrijven... L'e vermelden van een akte...'. Dit is een systematisch A8-kolom-bleed-artefact door tweetalig PDF-extract. B4: regel 67 '## EN GRIFFIERECHTEN' is een losstaand heading-fragment (titelrest). F1: de `bron_rol`-veld ontbreekt in de frontmatter (wel `bron` aanwezig, maar `bron_rol` is leeg)."
       concrete_problemen:
-        - regel: 67
-          categorie: B4
-          type: other
-          voorbeeld: '## EN GRIFFIERECHTEN'
-        - regel: 71
-          categorie: A8
-          type: column-bleed
-          voorbeeld: KB nr. 64 van 30.11.1939, bevattende het Wetboek der registratie-              (A hypotheek-
-        - regel: 81
-          categorie: A8
-          type: column-bleed
-          voorbeeld: Registratie is een formaliteit bestaande in het afschrijven...        L'e vermelden van een akte
-        - regel: 171
-          categorie: A8
-          type: column-bleed
-          voorbeeld: Wordt, voor de toepassing van dit wetboek, met een aan een                        Pour l'application du présent code, es
-        - regel: 240
-          categorie: A8
-          type: column-bleed
-          voorbeeld: De exequaturs der scheidsrechterlijke uitspraken en die der                            Les exequatur des sentences arbit
+      - categorie: B4
+        regel: 67
+        type: other
+        voorbeeld: '## EN GRIFFIERECHTEN'
+      - categorie: A8
+        regel: 71
+        type: column-bleed
+        voorbeeld: KB nr. 64 van 30.11.1939, bevattende het Wetboek der registratie-              (A
+          hypotheek-
+      - categorie: A8
+        regel: 81
+        type: column-bleed
+        voorbeeld: Registratie is een formaliteit bestaande in het afschrijven...        L'e
+          vermelden van een akte
+      - categorie: A8
+        regel: 171
+        type: column-bleed
+        voorbeeld: Wordt, voor de toepassing van dit wetboek, met een aan een                        Pour
+          l'application du présent code, es
+      - categorie: A8
+        regel: 240
+        type: column-bleed
+        voorbeeld: De exequaturs der scheidsrechterlijke uitspraken en die der                            Les
+          exequatur des sentences arbit
+      rationale: 'A8: doorheen het volledige bestand staat kolom-bleed: elke artikeltekst
+        bevat twee kolommen (NL links, FR rechts) die op dezelfde regel gemengd zijn
+        — bv. regel 71: ''KB nr. 64 van 30.11.1939, bevattende het Wetboek der registratie-
+        (A hypotheek-...'' of regel 81: ''Registratie is een formaliteit bestaande
+        in het afschrijven... L''e vermelden van een akte...''. Dit is een systematisch
+        A8-kolom-bleed-artefact door tweetalig PDF-extract. B4: regel 67 ''## EN GRIFFIERECHTEN''
+        is een losstaand heading-fragment (titelrest). F1: de `bron_rol`-veld ontbreekt
+        in de frontmatter (wel `bron` aanwezig, maar `bron_rol` is leeg).'
+      run_at: '2026-05-11T16:30:31Z'
+      status: needs-rework
+    rationale: 'A8: doorheen het volledige bestand staat kolom-bleed: elke artikeltekst
+      bevat twee kolommen (NL links, FR rechts) die op dezelfde regel gemengd zijn
+      — bv. regel 71: ''KB nr. 64 van 30.11.1939, bevattende het Wetboek der registratie-
+      (A hypotheek-...'' of regel 81: ''Registratie is een formaliteit bestaande in
+      het afschrijven... L''e vermelden van een akte...''. Dit is een systematisch
+      A8-kolom-bleed-artefact door tweetalig PDF-extract. B4: regel 67 ''## EN GRIFFIERECHTEN''
+      is een losstaand heading-fragment (titelrest). F1: de `bron_rol`-veld ontbreekt
+      in de frontmatter (wel `bron` aanwezig, maar `bron_rol` is leeg).'
+    status: needs-rework
 status: beschikbaar
 tags:
-  - VIII
-  - '2.5'
-  - '2.6'
+- VIII
+- '2.5'
+- '2.6'
 wet: Wetboek der Registratie-, Hypotheek- en Griffierechten — federaal
 ---
 

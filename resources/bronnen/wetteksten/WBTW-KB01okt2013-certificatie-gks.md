@@ -4,27 +4,25 @@ bron: Afgesplitst uit Fisconet-compilatie (pdftotext_compilatie_btw)
 bron_rol: itaa_lex
 chunk:
   level: 2
-  sub_strategy:
+  sub_strategy: null
   type: Art.
 itaa-lex-sectie: VI.B
 provenance:
+  generated_at: '2026-05-11T16:34:24Z'
   inputs:
-    - id: resources/raw/wetteksten/btw-kbs/WBTW-KB-compilatie.pdf
-      sha256: 5f1bad7278d1f8e1f5c00efb5d792f61342d3f7a14a7950caca2937924bfa91c
-      version: 06.03.2020
+  - id: resources/raw/wetteksten/btw-kbs/WBTW-KB-compilatie.pdf
+    sha256: 5f1bad7278d1f8e1f5c00efb5d792f61342d3f7a14a7950caca2937924bfa91c
+    version: 06.03.2020
+  stale: false
+  stale_reason: null
   tooling:
+    model: null
     pipeline: tools/etl/convert.py
     pipeline_version: 11f9196
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T16:21:50Z'
-  stale: false
-  stale_reason:
+    prompt_version: null
   trust:
-    status: needs-rework
     confirmed_at: '2026-05-11T16:30:31Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "A1: drie pagina-voetregels als plain text in de body (regels 149, 215, 261): 'KB 01.10.2013                                        pg. 1             Certificatie geregistreerde kassa'. C3: overmatige leading-spatie-inspringing in alinea's (regels 97–121, 140–173) die PDF-layout weerspiegelt — geen valide markdown-inspringing."
     layer1:
       file_size_chars: 11972
       flags: []
@@ -34,32 +32,45 @@ provenance:
       run_id: 20260511-134044
       status: pass
     layer2:
-      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T16:30:31Z'
-      rationale: "A1: drie pagina-voetregels als plain text in de body (regels 149, 215, 261): 'KB 01.10.2013                                        pg. 1             Certificatie geregistreerde kassa'. C3: overmatige leading-spatie-inspringing in alinea's (regels 97–121, 140–173) die PDF-layout weerspiegelt — geen valide markdown-inspringing."
       concrete_problemen:
-        - regel: 149
-          categorie: A1
-          type: other
-          voorbeeld: KB 01.10.2013                                        pg. 1             Certificatie geregistreerde kassa
-        - regel: 215
-          categorie: A1
-          type: other
-          voorbeeld: KB 01.10.2013                                       pg. 2             Certificatie geregistreerde kassa
-        - regel: 261
-          categorie: A1
-          type: other
-          voorbeeld: KB 01.10.2013                                     pg. 3            Certificatie geregistreerde kassa
-        - regel: 97
-          categorie: C3
-          type: pseudo-table
-          voorbeeld: '      Het kassasysteem en de controlemodule bedoeld in artikel 2... (overmatige leading-spatie door PDF-layout)'
+      - categorie: A1
+        regel: 149
+        type: other
+        voorbeeld: KB 01.10.2013                                        pg. 1             Certificatie
+          geregistreerde kassa
+      - categorie: A1
+        regel: 215
+        type: other
+        voorbeeld: KB 01.10.2013                                       pg. 2             Certificatie
+          geregistreerde kassa
+      - categorie: A1
+        regel: 261
+        type: other
+        voorbeeld: KB 01.10.2013                                     pg. 3            Certificatie
+          geregistreerde kassa
+      - categorie: C3
+        regel: 97
+        type: pseudo-table
+        voorbeeld: '      Het kassasysteem en de controlemodule bedoeld in artikel
+          2... (overmatige leading-spatie door PDF-layout)'
+      rationale: 'A1: drie pagina-voetregels als plain text in de body (regels 149,
+        215, 261): ''KB 01.10.2013                                        pg. 1             Certificatie
+        geregistreerde kassa''. C3: overmatige leading-spatie-inspringing in alinea''s
+        (regels 97–121, 140–173) die PDF-layout weerspiegelt — geen valide markdown-inspringing.'
+      run_at: '2026-05-11T16:30:31Z'
+      status: needs-rework
+    rationale: 'A1: drie pagina-voetregels als plain text in de body (regels 149,
+      215, 261): ''KB 01.10.2013                                        pg. 1             Certificatie
+      geregistreerde kassa''. C3: overmatige leading-spatie-inspringing in alinea''s
+      (regels 97–121, 140–173) die PDF-layout weerspiegelt — geen valide markdown-inspringing.'
+    status: needs-rework
 status: beschikbaar
 tags:
-  - VI.B
-  - '2.4'
-wet: K.B. 1 oktober 2013 met betrekking tot de toepassingsmodaliteiten ten aanzien van de certificatie van een geregistreerd kassasysteem in de horecasector
+- VI.B
+- '2.4'
+wet: K.B. 1 oktober 2013 met betrekking tot de toepassingsmodaliteiten ten aanzien
+  van de certificatie van een geregistreerd kassasysteem in de horecasector
 ---
 
 # K.B. 1 oktober 2013 met betrekking tot de toepassingsmodaliteiten ten aanzien van de certificatie van een geregistreerd kassasysteem in de horecasector

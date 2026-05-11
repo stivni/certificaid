@@ -8,7 +8,7 @@ chunk:
   type: Art.
 itaa-lex-sectie: VI.C
 provenance:
-  generated_at: '2026-05-11T16:21:51Z'
+  generated_at: '2026-05-11T16:34:24Z'
   inputs:
   - id: resources/raw/wetteksten/btw-kbs/WBTW-MB-dagboek-ontvangsten-2023.pdf
     sha256: cd61a57a107e3959efafea39d3a999979703da0be22e70f146d17fdce3c0d927

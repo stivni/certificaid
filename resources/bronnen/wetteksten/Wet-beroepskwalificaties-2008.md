@@ -8,7 +8,7 @@ chunk:
   type: Art.
 itaa-lex-sectie: XXI
 provenance:
-  generated_at: '2026-05-11T16:22:16Z'
+  generated_at: '2026-05-11T16:34:49Z'
   inputs:
   - id: resources/raw/wetteksten/Wet-beroepskwalificaties-2008.pdf
     sha256: fe4f1e1b818010808e2a344c8347de20df00a60f8dda57b1d00b56f4ef1d460c
@@ -456,8 +456,6 @@ Inwerkingtreding.
 #### Art. 30
 
 Deze wet treedt in werking de dag waarop ze in het Belgisch Staatsblad wordt bekendgemaakt.
-
-BIJLAGEN.
 
 #### Art. N2 .  <Opgeheven bij W 2016-12-25/44, art. 35, 002; Inwerkingtreding : 10-02-2017>
 

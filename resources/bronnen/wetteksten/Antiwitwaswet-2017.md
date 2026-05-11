@@ -8,54 +8,64 @@ chunk:
   type: Art.
 itaa-lex-sectie: XVII
 provenance:
+  generated_at: '2026-05-11T16:33:47Z'
   inputs:
-    - id: resources/raw/wetteksten/Antiwitwaswet-2017.pdf
-      sha256: 24e4cb84451345095e884a21da95b774053f428172076efae4444cefa7d8baa6
-      version: 24.12.2025
+  - id: resources/raw/wetteksten/Antiwitwaswet-2017.pdf
+    sha256: 24e4cb84451345095e884a21da95b774053f428172076efae4444cefa7d8baa6
+    version: 24.12.2025
+  stale: false
+  stale_reason: null
   tooling:
+    model: null
     pipeline: tools/etl/convert.py
     pipeline_version: 11f9196
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T16:21:22Z'
-  stale: false
-  stale_reason:
+    prompt_version: null
   trust:
-    status: needs-rework
     confirmed_at: '2026-05-11T16:30:30Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "B4: 'BIJLAGEN.' (regel 121) staat als plain text zonder heading-prefix. Verder staan 'Tekst' (regel 125) als losse artefactregel. Laag-1 geeft max_section_size warn (27233 chars) voor de langste sectie; dit is een chunker-issue, geen ETL-bug. Inhoud is volledig (BOEK I–VI aanwezig, 288 headings). De twee plain-text artefacten zijn minimaal maar voldoende voor needs-rework."
     layer1:
-      status: warn
-      run_id: 20260511-162232
-      run_at: '2026-05-11T16:22:32Z'
-      heading_count: 288
-      max_section_chars: 27233
       file_size_chars: 242711
       flags:
-        - name: max_section_size
-          status: warn
-          detail: 'langste sectie op ######-niveau: 27233 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
-          samples: []
+      - detail: 'langste sectie op ######-niveau: 27233 chars (>24000); chunker splitst
+          auto op alinea-grenzen via split_long_chunk'
+        name: max_section_size
+        samples: []
+        status: warn
+      heading_count: 288
+      max_section_chars: 27233
+      run_at: '2026-05-11T16:22:32Z'
+      run_id: 20260511-162232
+      status: warn
     layer2:
-      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T16:30:30Z'
-      rationale: "B4: 'BIJLAGEN.' (regel 121) staat als plain text zonder heading-prefix. Verder staan 'Tekst' (regel 125) als losse artefactregel. Laag-1 geeft max_section_size warn (27233 chars) voor de langste sectie; dit is een chunker-issue, geen ETL-bug. Inhoud is volledig (BOEK I–VI aanwezig, 288 headings). De twee plain-text artefacten zijn minimaal maar voldoende voor needs-rework."
       concrete_problemen:
-        - regel: 121
-          categorie: B4
-          type: other
-          voorbeeld: BIJLAGEN.
-        - regel: 125
-          categorie: B4
-          type: other
-          voorbeeld: Tekst
+      - categorie: B4
+        regel: 121
+        type: other
+        voorbeeld: BIJLAGEN.
+      - categorie: B4
+        regel: 125
+        type: other
+        voorbeeld: Tekst
+      rationale: 'B4: ''BIJLAGEN.'' (regel 121) staat als plain text zonder heading-prefix.
+        Verder staan ''Tekst'' (regel 125) als losse artefactregel. Laag-1 geeft max_section_size
+        warn (27233 chars) voor de langste sectie; dit is een chunker-issue, geen
+        ETL-bug. Inhoud is volledig (BOEK I–VI aanwezig, 288 headings). De twee plain-text
+        artefacten zijn minimaal maar voldoende voor needs-rework.'
+      run_at: '2026-05-11T16:30:30Z'
+      status: needs-rework
+    rationale: 'B4: ''BIJLAGEN.'' (regel 121) staat als plain text zonder heading-prefix.
+      Verder staan ''Tekst'' (regel 125) als losse artefactregel. Laag-1 geeft max_section_size
+      warn (27233 chars) voor de langste sectie; dit is een chunker-issue, geen ETL-bug.
+      Inhoud is volledig (BOEK I–VI aanwezig, 288 headings). De twee plain-text artefacten
+      zijn minimaal maar voldoende voor needs-rework.'
+    status: needs-rework
 status: beschikbaar
 tags:
-  - XVII
-  - '4.0'
-wet: Wet 18 september 2017 tot voorkoming van het witwassen van geld en de financiering van terrorisme
+- XVII
+- '4.0'
+wet: Wet 18 september 2017 tot voorkoming van het witwassen van geld en de financiering
+  van terrorisme
 ---
 
 # Wet 18 september 2017 tot voorkoming van het witwassen van geld en de financiering van terrorisme
@@ -126,11 +136,7 @@ wet: Wet 18 september 2017 tot voorkoming van het witwassen van geld en de finan
 
 ###### Art. 192
 
-BIJLAGEN.
-
 ###### Art. N1-N4
-
-Tekst
 
 ## BOEK I. - ALGEMENE BEPALINGEN
 
@@ -1268,8 +1274,6 @@ De artikelen 69 tot 71 van de wet van 29 december 2010 houdende diverse bepaling
 ###### Art. 192
 
 De koninklijke besluiten, de reglementen en alle andere handelingen van reglementaire aard die in uitvoering van de wet van 11 januari 1993 tot voorkoming van het gebruik van het financiële stelsel voor het witwassen van geld en de financiering van terrorisme zijn vastgesteld, blijven van toepassing in de mate dat de bepalingen van deze wet voorzien in de algemene of specifieke juridische machtigingen die nodig zijn voor deze reglementaire handelingen en dat hun inhoud niet in strijd is met deze wet.
-
-BIJLAGEN.
 
 ###### Art. N1 . Bijlage 1.  Artikel 1. De variabelen die de onderworpen entiteiten ten minste in overweging nemen in hun integrale risicobeoordeling bedoeld in artikel 16, tweede lid, zijn de volgende :  1° het doel van een rekening of een relatie;  2° de omvang van de activa die door een cliënt worden gedeponeerd of de omvang van de gesloten verrichtingen;  3° de regelmaat of de duur van de zakelijke relatie.
 

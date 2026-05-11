@@ -4,60 +4,78 @@ bron: ejustice.just.fgov.be (gecoördineerde versie)
 bron_rol: itaa_lex
 chunk:
   level: 6
-  sub_strategy:
+  sub_strategy: null
   type: Art.
 itaa-lex-sectie: XV
 provenance:
+  generated_at: '2026-05-11T16:33:56Z'
   inputs:
-    - id: resources/raw/wetteksten/KB-WVV-2019.pdf
-      sha256: 2d9f15cf99469452fb1ab8d567f7243cc5d020e89a7fdd2002458be64e991f3d
-      version: 24.12.2025
+  - id: resources/raw/wetteksten/KB-WVV-2019.pdf
+    sha256: 2d9f15cf99469452fb1ab8d567f7243cc5d020e89a7fdd2002458be64e991f3d
+    version: 24.12.2025
+  stale: false
+  stale_reason: null
   tooling:
+    model: null
     pipeline: tools/etl/convert.py
     pipeline_version: 11f9196
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T16:21:30Z'
-  stale: false
-  stale_reason:
+    prompt_version: null
   trust:
-    status: needs-rework
     confirmed_at: '2026-05-11T16:30:30Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "B4: Losse plain-text labels 'BIJLAGEN.' (regel 58) en 'Tekst' (begin body) zonder heading-prefix. Verder is de TOC bovenaan (regels 54-60) aanwezig met slechts 2 headings, waarna direct de Tekst-body volgt — structuur is dus dubbel (TOC + body). Art. N1 en N2 (bijlagen, regels 764-765) bevatten '(Beeld niet opgenomen om technische redenen...)' wat een ontbrekende sectie aanduidt (D2). Laag-1 pass zonder flags."
     layer1:
-      status: pass
-      run_id: 20260511-162232
-      run_at: '2026-05-11T16:22:33Z'
-      heading_count: 302
-      max_section_chars: 2366
       file_size_chars: 171158
       flags: []
+      heading_count: 302
+      max_section_chars: 2366
+      run_at: '2026-05-11T16:22:33Z'
+      run_id: 20260511-162232
+      status: pass
     layer2:
-      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T16:30:30Z'
-      rationale: "B4: Losse plain-text labels 'BIJLAGEN.' (regel 58) en 'Tekst' (begin body) zonder heading-prefix. Verder is de TOC bovenaan (regels 54-60) aanwezig met slechts 2 headings, waarna direct de Tekst-body volgt — structuur is dus dubbel (TOC + body). Art. N1 en N2 (bijlagen, regels 764-765) bevatten '(Beeld niet opgenomen om technische redenen...)' wat een ontbrekende sectie aanduidt (D2). Laag-1 pass zonder flags."
       concrete_problemen:
-        - regel: 58
-          categorie: B4
-          type: other
-          voorbeeld: "BIJLAGEN.\n\n###### Art. N1-N9"
-        - regel: 62
-          categorie: B4
-          type: other
-          voorbeeld: "Tekst\n\n## BOEK 1. - Oprichting en formaliteiten"
-        - regel: 764
-          categorie: D2
-          type: missing-section
-          voorbeeld: '###### Art. N1 . Bijlage 1. ... (Beeld niet opgenomen om technische redenen, zie B.St. van 30-04-2019)'
+      - categorie: B4
+        regel: 58
+        type: other
+        voorbeeld: 'BIJLAGEN.
+
+
+          ###### Art. N1-N9'
+      - categorie: B4
+        regel: 62
+        type: other
+        voorbeeld: 'Tekst
+
+
+          ## BOEK 1. - Oprichting en formaliteiten'
+      - categorie: D2
+        regel: 764
+        type: missing-section
+        voorbeeld: '###### Art. N1 . Bijlage 1. ... (Beeld niet opgenomen om technische
+          redenen, zie B.St. van 30-04-2019)'
+      rationale: 'B4: Losse plain-text labels ''BIJLAGEN.'' (regel 58) en ''Tekst''
+        (begin body) zonder heading-prefix. Verder is de TOC bovenaan (regels 54-60)
+        aanwezig met slechts 2 headings, waarna direct de Tekst-body volgt — structuur
+        is dus dubbel (TOC + body). Art. N1 en N2 (bijlagen, regels 764-765) bevatten
+        ''(Beeld niet opgenomen om technische redenen...)'' wat een ontbrekende sectie
+        aanduidt (D2). Laag-1 pass zonder flags.'
+      run_at: '2026-05-11T16:30:30Z'
+      status: needs-rework
+    rationale: 'B4: Losse plain-text labels ''BIJLAGEN.'' (regel 58) en ''Tekst''
+      (begin body) zonder heading-prefix. Verder is de TOC bovenaan (regels 54-60)
+      aanwezig met slechts 2 headings, waarna direct de Tekst-body volgt — structuur
+      is dus dubbel (TOC + body). Art. N1 en N2 (bijlagen, regels 764-765) bevatten
+      ''(Beeld niet opgenomen om technische redenen...)'' wat een ontbrekende sectie
+      aanduidt (D2). Laag-1 pass zonder flags.'
+    status: needs-rework
 status: beschikbaar
 tags:
-  - XV
-  - '1.5'
-  - '3.1'
-  - '3.2'
-wet: Koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen
+- XV
+- '1.5'
+- '3.1'
+- '3.2'
+wet: Koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen
+  en verenigingen
 ---
 
 # Koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen
@@ -68,11 +86,7 @@ wet: Koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van ven
 
 ###### Art. 9:13
 
-BIJLAGEN.
-
 ###### Art. N1-N9
-
-Tekst
 
 ## BOEK 1. - Oprichting en formaliteiten inzake openbaarmaking
 
@@ -770,8 +784,6 @@ Voor de toepassing van het eerste [ 1 en vijfde] 1 lid wordt onder "in termen va
 ### TITEL 4. - Uitvoeringsbepaling
 
 ###### Art. 9:13 . De minister van Economie, de minister van Justitie, de minister van Financiën en de Minister van Middenstand zijn, ieder wat hem betreft, belast met de uitvoering van dit besluit.
-
-BIJLAGEN.
 
 ###### Art. N1 . Bijlage 1. - Aanvraagformulier I tot inschrijving (luiken A en C) en tot bekendmaking in de Bijlagen bij het Belgisch Staatsblad (luik B).    (Beeld niet opgenomen om technische redenen, zie B.St. van 30-04-2019, p. 42396)
 

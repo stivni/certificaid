@@ -4,49 +4,54 @@ bron: ejustice.just.fgov.be (gecoördineerde versie)
 bron_rol: itaa_lex
 chunk:
   level: 2
-  sub_strategy:
+  sub_strategy: null
   type: Art.
 itaa-lex-sectie: VI.A
 provenance:
-  generated_at: '2026-05-11T16:21:22Z'
+  generated_at: '2026-05-11T16:33:47Z'
   inputs:
-    - id: resources/raw/wetteksten/BTW-dertiende-richtlijn-1986.pdf
-      sha256: 500090ffe975351fb9d05ba7d8c2671af0719a04c83068be54c467d33f45b96a
-      version: 21.11.1986
+  - id: resources/raw/wetteksten/BTW-dertiende-richtlijn-1986.pdf
+    sha256: 500090ffe975351fb9d05ba7d8c2671af0719a04c83068be54c467d33f45b96a
+    version: 21.11.1986
   stale: false
-  stale_reason:
+  stale_reason: null
   tooling:
-    model:
+    model: null
     pipeline: tools/etl/convert.py
     pipeline_version: 11f9196
-    prompt_version:
+    prompt_version: null
   trust:
     confirmed_at: '2026-05-09T21:27:46Z'
     confirmed_by: subagent-sonnet-4-6
     layer1:
-      status: pass
-      run_id: 20260511-162232
-      run_at: '2026-05-11T16:22:32Z'
-      heading_count: 8
-      max_section_chars: 2527
       file_size_chars: 7775
       flags: []
+      heading_count: 8
+      max_section_chars: 2527
+      run_at: '2026-05-11T16:22:32Z'
+      run_id: 20260511-162232
+      status: pass
     layer2:
-      agent:
+      agent: null
       concrete_problemen:
-        - regel: 88
-          type: other
-          voorbeeld: H PB nr. L 331 van 27. 12. 1979, blz. 11 — voetnootnummer als 'H' i.p.v. cijfer (cosmetisch)
-      rationale: Compacte richtlijn (8.6KB), alle 8 artikelen aanwezig op H2 (zoals chunk.level=2). Soft hyphens uit PDF-extractie (bv. 'belasting­ plichtigen') maar woordbreaks zijn intact en leesbaar. Footnote-nummers verspreid over body maar niet hinderlijk.
-      run_at:
+      - regel: 88
+        type: other
+        voorbeeld: H PB nr. L 331 van 27. 12. 1979, blz. 11 — voetnootnummer als 'H'
+          i.p.v. cijfer (cosmetisch)
+      rationale: Compacte richtlijn (8.6KB), alle 8 artikelen aanwezig op H2 (zoals
+        chunk.level=2). Soft hyphens uit PDF-extractie (bv. 'belasting­ plichtigen')
+        maar woordbreaks zijn intact en leesbaar. Footnote-nummers verspreid over
+        body maar niet hinderlijk.
+      run_at: null
       status: trusted
     rationale: L1=pass
     status: trusted
 status: beschikbaar
 tags:
-  - VI.A
-  - '2.4'
-wet: Dertiende Richtlijn 86/560/EEG van de Raad inzake de teruggaaf van btw aan niet in de Gemeenschap gevestigde belastingplichtigen
+- VI.A
+- '2.4'
+wet: Dertiende Richtlijn 86/560/EEG van de Raad inzake de teruggaaf van btw aan niet
+  in de Gemeenschap gevestigde belastingplichtigen
 ---
 
 # Dertiende Richtlijn 86/560/EEG van de Raad inzake de teruggaaf van btw aan niet in de Gemeenschap gevestigde belastingplichtigen

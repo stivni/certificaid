@@ -4,46 +4,48 @@ bron: ejustice.just.fgov.be (gecoördineerde versie)
 bron_rol: normatief
 chunk:
   level: 2
-  sub_strategy:
+  sub_strategy: null
   type: Art.
 itaa-lex-sectie: ''
 provenance:
-  generated_at: '2026-05-11T16:21:26Z'
+  generated_at: '2026-05-11T16:33:51Z'
   inputs:
-    - id: resources/raw/wetteksten/EU-Richtlijn-witwassen-2018-1673.pdf
-      sha256: 5ddc01ecaee55f528a3a359f734cbab5c30d0077178d052830d13bcba2a0db8a
-      version: 12.11.2018
+  - id: resources/raw/wetteksten/EU-Richtlijn-witwassen-2018-1673.pdf
+    sha256: 5ddc01ecaee55f528a3a359f734cbab5c30d0077178d052830d13bcba2a0db8a
+    version: 12.11.2018
   stale: false
-  stale_reason:
+  stale_reason: null
   tooling:
-    model:
+    model: null
     pipeline: tools/etl/convert.py
     pipeline_version: 11f9196
-    prompt_version:
+    prompt_version: null
   trust:
     confirmed_at: '2026-05-09T21:27:46Z'
     confirmed_by: subagent-sonnet-4-6
     layer1:
-      status: pass
-      run_id: 20260511-162232
-      run_at: '2026-05-11T16:22:33Z'
-      heading_count: 16
-      max_section_chars: 20495
       file_size_chars: 39733
       flags: []
+      heading_count: 16
+      max_section_chars: 20495
+      run_at: '2026-05-11T16:22:33Z'
+      run_id: 20260511-162232
+      status: pass
     layer2:
-      agent:
+      agent: null
       concrete_problemen: []
-      rationale: Richtlijn 2018/1673 met 16 Art.-vermeldingen op H2. Body leesbaar, geen artefacten.
-      run_at:
+      rationale: Richtlijn 2018/1673 met 16 Art.-vermeldingen op H2. Body leesbaar,
+        geen artefacten.
+      run_at: null
       status: trusted
     rationale: L1=pass
     status: trusted
 status: beschikbaar
 tags:
-  - '1.2'
-  - '4.0'
-wet: Richtlijn (EU) 2018/1673 van het Europees Parlement en de Raad van 23 oktober 2018 inzake de strafrechtelijke bestrijding van het witwassen van geld
+- '1.2'
+- '4.0'
+wet: Richtlijn (EU) 2018/1673 van het Europees Parlement en de Raad van 23 oktober
+  2018 inzake de strafrechtelijke bestrijding van het witwassen van geld
 ---
 
 # Richtlijn (EU) 2018/1673 van het Europees Parlement en de Raad van 23 oktober 2018 inzake de strafrechtelijke bestrijding van het witwassen van geld

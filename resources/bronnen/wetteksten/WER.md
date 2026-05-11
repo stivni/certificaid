@@ -7,7 +7,7 @@ chunk:
   type: Art.
 itaa-lex-sectie: XIII
 provenance:
-  generated_at: '2026-05-11T16:22:08Z'
+  generated_at: '2026-05-11T16:34:41Z'
   inputs:
   - id: resources/raw/wetteksten/WER.pdf
     sha256: f1253ed1adb2f84082517dca7b9d6a9a98d457cda4c373b694f201c2ef3b48d5
@@ -191,8 +191,6 @@ VOORAFGAANDE TITEL. [ 1 - Aan titel 1 en titel 2 gemeenschappelijke bepalingen.]
 
 ###### Art. XVII.25/1, XVII.25/2, XVII.25/3, XVII.25/4, XVII.25/5
 
-#### HOOFDSTUK 6.
-
 ###### Art. XVII.26-XVII.29, XVII.29/1, XVII.30-XVII.34
 
 ### TITEL 1/1. [ 1 - Voorlopige maatregelen in geval van inbreuken op het auteursrecht, op een naburig recht, op het recht van een producent van databanken gepleegd op het internet of in geval van de exploitatie van een onwettig onlinekansspel] 1
@@ -211,8 +209,6 @@ VOORAFGAANDE TITEL. [ 1 - Aan titel 1 en titel 2 gemeenschappelijke bepalingen.]
 ##### Afdeling 2. - [ 1 Ontvankelijkheidsvoorwaarden] 1
 ###### Art. XVII.36-XVII.37
 
-
-##### Afdeling 3.
 ###### Art. XVII.38
 
 
@@ -450,16 +446,12 @@ VOORAFGAANDE TITEL. [ 1 - Aan titel 1 en titel 2 gemeenschappelijke bepalingen.]
 
 #### HOOFDSTUK 1. [ 1 - Inleidende bepalingen betreffende titel V/I en V/II] 1
 
-
-##### Afdeling 1.
 ###### Art. XX.39
 
 ##### Afdeling 1/1.
 
 ###### Art. XX.39/1, XX.39/2
 
-
-##### Afdeling 2.
 ###### Art. XX.40
 
 #### HOOFDSTUK 2. [ 1 - Gemeenschappelijke bepalingen betreffende de procedures van openbare gerechtelijke reorganisatie en overdracht van onderneming onder gerechtelijk gezag] 1
@@ -700,8 +692,6 @@ Art.
 BIJLAGE.
 
 ###### Art. N
-
-Tekst
 
 ## BOEK I. - Definities
 

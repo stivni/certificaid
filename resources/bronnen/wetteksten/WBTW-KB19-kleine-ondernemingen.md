@@ -8,7 +8,7 @@ chunk:
   type: Art.
 itaa-lex-sectie: VI.B
 provenance:
-  generated_at: '2026-05-11T16:21:50Z'
+  generated_at: '2026-05-11T16:34:24Z'
   inputs:
   - id: resources/raw/wetteksten/btw-kbs/WBTW-KB19-kleine-ondernemingen.pdf
     sha256: fe0e59d7fafe2333aae726edf2bb85097ffd04dc2e919e24225dc4c7f8466960

@@ -8,7 +8,7 @@ chunk:
   type: Art.
 itaa-lex-sectie: XV
 provenance:
-  generated_at: '2026-05-11T16:22:16Z'
+  generated_at: '2026-05-11T16:34:49Z'
   inputs:
   - id: resources/raw/wetteksten/WVV.pdf
     sha256: 961fd384c0aa3d4d139917d7ede8fa8b9f4f126d5ed47025c5735c9b6156ad96

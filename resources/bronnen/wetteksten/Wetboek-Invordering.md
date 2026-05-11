@@ -8,7 +8,7 @@ chunk:
   type: Art.
 itaa-lex-sectie: VII
 provenance:
-  generated_at: '2026-05-11T16:22:16Z'
+  generated_at: '2026-05-11T16:34:50Z'
   inputs:
   - id: resources/raw/wetteksten/Wetboek-Invordering.pdf
     sha256: c73b84f709753a3bae653ec5aa128ed53cdfc7a3dde79edf2a3671df996e4963
@@ -78,8 +78,6 @@ wet: Wetboek van de minnelijke en gedwongen invordering van fiscale en niet-fisc
 ### HOOFDSTUK 2. - De strafrechtelijke en bijzondere sancties
 
 ###### Art. 85-86, 86/1, 87-96
-
-Tekst
 
 ## TITEL 1. - Algemene bepalingen
 

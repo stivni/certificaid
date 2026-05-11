@@ -8,10 +8,10 @@ Auto-gegenereerd door `tools/lib/bronnen_index.py`. **Niet handmatig editen** �
 
 | Type | Totaal | Trusted | Unreviewed | Needs-rework | Rejected | Unknown |
 |---|---|---|---|---|---|---|
-| Wetteksten | 129 | 26 | 20 | 81 | 1 | 1 |
+| Wetteksten | 129 | 25 | 22 | 80 | 1 | 1 |
 | Normen | 19 | 8 | — | 9 | 2 | — |
 | Adviezen | 436 | 258 | — | 177 | 1 | — |
-| **Totaal** | **584** | 292 | 20 | 267 | 4 | 1 |
+| **Totaal** | **584** | 291 | 22 | 266 | 4 | 1 |
 
 ## Wetteksten (129)
 
@@ -23,7 +23,6 @@ Auto-gegenereerd door `tools/lib/bronnen_index.py`. **Niet handmatig editen** �
 | `belastinggids-aclvb-2025.md` | ⚠️ needs-rework | warn | needs-rework | subagent-sonnet-4-6 | Belastinggids 2025 — ACLVB |
 | `Brusselse-Codex-Fiscale-Procedure.md` | ⚠️ needs-rework | pass | needs-rework | subagent-sonnet-4-6 | Ordonnantie 6 maart 2019 betreffende de Brusselse Codex Fiscale Procedure |
 | `BTW-richtlijn-2006-112.md` | ⚠️ needs-rework | pass | needs-rework | subagent-sonnet-4-6 | Richtlijn 2006/112/EG van de Raad betreffende het gemeenschappelijke stelsel van belast… |
-| `BTW-uitvoeringsverordening-282-2011.md` | ⚠️ needs-rework | warn | needs-rework | subagent-sonnet-4-6 | Uitvoeringsverordening (EU) nr. 282/2011 van de Raad houdende maatregelen ter uitvoerin… |
 | `BW-boek1-algemene-bepalingen.md` | ⚠️ needs-rework | pass | needs-rework | subagent-sonnet-4-6 | Burgerlijk Wetboek — Boek 1 — Algemene bepalingen |
 | `BW-boek2-relatievermogensrecht.md` | ⚠️ needs-rework | pass | needs-rework | subagent-sonnet-4-6 | Burgerlijk Wetboek — Boek 2 — Relatievermogensrecht |
 | `BW-boek3-goederen.md` | ⚠️ needs-rework | pass | needs-rework | subagent-sonnet-4-6 | Burgerlijk Wetboek — Boek 3 — Goederen |
@@ -99,6 +98,8 @@ Auto-gegenereerd door `tools/lib/bronnen_index.py`. **Niet handmatig editen** �
 | `WBTW-MB28okt2009-model-berichten-93ter.md` | ⚠️ needs-rework | pass | needs-rework | subagent-sonnet-4-6 | M.B. van 28 oktober 2009, tot bepaling van het model der berichten en kennisgevingen al… |
 | `WBTW-MB29apr2024-certificatie-kassasysteem.md` | ⚠️ needs-rework | pass | needs-rework | subagent-sonnet-4-6 | M.B. van 29 april 2024, betreffende de technische aspecten ten aanzien van de certifica… |
 | `X-oeso-model-verdrag.md` | ⚠️ needs-rework | pass | needs-rework | subagent-sonnet-4-6 | OECD Model Tax Convention on Income and on Capital (as it read on 21 November 2017) |
+| `BTW-uitvoeringsverordening-282-2011.md` | ◻️ unreviewed | warn | not_run | — | Uitvoeringsverordening (EU) nr. 282/2011 van de Raad houdende maatregelen ter uitvoerin… |
+| `Strafwetboek2024-boek1.md` | ◻️ unreviewed | pass | not_run | — | Wetboek 29 februari 2024 Strafwetboek 2024 — Boek 1 |
 | `WBTW-KB1-voldoening.md` | ◻️ unreviewed | pass | not_run | — | K.B. nr. 1, 29 december 1992, met betrekking tot de regeling voor de voldoening van de … |
 | `WBTW-KB19-kleine-ondernemingen.md` | ◻️ unreviewed | pass | not_run | — | K.B. nr. 19, 15 december 2024, met betrekking tot de vrijstellingsregeling van belastin… |
 | `WBTW-KB2-forfaitaire.md` | ◻️ unreviewed | pass | not_run | — | K.B. nr. 2, 19 december 2018, met betrekking tot de forfaitaire regeling inzake btw |
@@ -133,7 +134,6 @@ Auto-gegenereerd door `tools/lib/bronnen_index.py`. **Niet handmatig editen** �
 | `KB-1998-plichtenleer.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | Koninklijk besluit van 1 maart 1998 tot vaststelling van het reglement van plichtenleer… |
 | `KB-voorafgaande-beslissingen-art22-2003.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | K.B. 17 januari 2003 tot uitvoering van artikel 22, tweede lid, van de wet van 24 decem… |
 | `Strafwetboek-1867.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | Strafwetboek 8 juni 1867 (Oud Strafwetboek) |
-| `Strafwetboek2024-boek1.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | Wetboek 29 februari 2024 Strafwetboek 2024 — Boek 1 |
 | `Successierechten-federaal.md` | ✅ trusted | warn | trusted | subagent-sonnet-4-6 | Wetboek der Successierechten — federaal |
 | `Verdrag-WABB.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | Verdrag inzake wederzijdse administratieve bijstand in fiscale aangelegenheden (WABB/CM… |
 | `WBTW-KB-GKS.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | K.B. 30 december 2009 tot het bepalen van de definitie en de voorwaarden waaraan een ge… |

@@ -8,7 +8,7 @@ chunk:
   type: Art.
 itaa-lex-sectie: XVI
 provenance:
-  generated_at: '2026-05-11T16:22:16Z'
+  generated_at: '2026-05-11T16:34:49Z'
   inputs:
   - id: resources/raw/wetteksten/Wet-arbeidsovereenkomsten-1978.pdf
     sha256: c2bc8270cd3dd103e34066197790057edfcc50c512815decc06b6e9aea640116

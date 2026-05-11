@@ -8,7 +8,7 @@ chunk:
   type: Art.
 itaa-lex-sectie: VI.B
 provenance:
-  generated_at: '2026-05-11T16:21:50Z'
+  generated_at: '2026-05-11T16:34:24Z'
   inputs:
   - id: resources/raw/wetteksten/btw-kbs/WBTW-KB2bis-cafehouders.pdf
     sha256: a9f53f40b741a7edfcdec7d2dfba39c190bd63c7504f05d871a2903f6f96b3f3

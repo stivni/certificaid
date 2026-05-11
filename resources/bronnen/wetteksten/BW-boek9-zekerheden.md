@@ -4,49 +4,57 @@ bron: ejustice.just.fgov.be (gecoördineerde versie)
 bron_rol: itaa_lex
 chunk:
   level: 4
-  sub_strategy:
+  sub_strategy: null
   type: Art.
 itaa-lex-sectie: XI
 provenance:
+  generated_at: '2026-05-11T16:33:51Z'
   inputs:
-    - id: resources/raw/wetteksten/BW-boek9-zekerheden.pdf
-      sha256: 0cdda1f59b5365bef4360430f98282c83749ca03be30d363f81311b292e10a3e
-      version: 24.12.2025
+  - id: resources/raw/wetteksten/BW-boek9-zekerheden.pdf
+    sha256: 0cdda1f59b5365bef4360430f98282c83749ca03be30d363f81311b292e10a3e
+    version: 24.12.2025
+  stale: false
+  stale_reason: null
   tooling:
+    model: null
     pipeline: tools/etl/convert.py
     pipeline_version: 11f9196
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T16:21:26Z'
-  stale: false
-  stale_reason:
+    prompt_version: null
   trust:
-    status: needs-rework
     confirmed_at: '2026-05-11T16:30:30Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "D2: Afdeling 5 op regel 115 ('Wijziging van de programmawet van 10 februari 1998') heeft een sectietitel maar geen artikelinhoud — Art. 17 ontbreekt volledig onder Hoofdstuk 3. De overige inhoud (Hoofdstuk 3-5) is wel correct aanwezig en de structuur is overigens schoon."
     layer1:
-      status: pass
-      run_id: 20260511-162232
-      run_at: '2026-05-11T16:22:33Z'
-      heading_count: 23
-      max_section_chars: 875
       file_size_chars: 6063
       flags: []
+      heading_count: 23
+      max_section_chars: 875
+      run_at: '2026-05-11T16:22:33Z'
+      run_id: 20260511-162232
+      status: pass
     layer2:
-      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T16:30:30Z'
-      rationale: "D2: Afdeling 5 op regel 115 ('Wijziging van de programmawet van 10 februari 1998') heeft een sectietitel maar geen artikelinhoud — Art. 17 ontbreekt volledig onder Hoofdstuk 3. De overige inhoud (Hoofdstuk 3-5) is wel correct aanwezig en de structuur is overigens schoon."
       concrete_problemen:
-        - regel: 115
-          categorie: D2
-          type: missing-section
-          voorbeeld: '### Afdeling 5. - Wijziging van de programmawet van 10 februari 1998 tot bevordering van het zelfstandig ondernemerschap (geen artikelinhoud volgt)'
+      - categorie: D2
+        regel: 115
+        type: missing-section
+        voorbeeld: '### Afdeling 5. - Wijziging van de programmawet van 10 februari
+          1998 tot bevordering van het zelfstandig ondernemerschap (geen artikelinhoud
+          volgt)'
+      rationale: 'D2: Afdeling 5 op regel 115 (''Wijziging van de programmawet van
+        10 februari 1998'') heeft een sectietitel maar geen artikelinhoud — Art. 17
+        ontbreekt volledig onder Hoofdstuk 3. De overige inhoud (Hoofdstuk 3-5) is
+        wel correct aanwezig en de structuur is overigens schoon.'
+      run_at: '2026-05-11T16:30:30Z'
+      status: needs-rework
+    rationale: 'D2: Afdeling 5 op regel 115 (''Wijziging van de programmawet van 10
+      februari 1998'') heeft een sectietitel maar geen artikelinhoud — Art. 17 ontbreekt
+      volledig onder Hoofdstuk 3. De overige inhoud (Hoofdstuk 3-5) is wel correct
+      aanwezig en de structuur is overigens schoon.'
+    status: needs-rework
 status: beschikbaar
 tags:
-  - XI
-  - '3.1'
+- XI
+- '3.1'
 wet: Burgerlijk Wetboek — Boek 9 — Zekerheden
 ---
 

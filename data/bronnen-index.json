@@ -86,10 +86,10 @@
         "VI.A",
         "2.4"
       ],
-      "trust_status": "needs-rework",
-      "trust_confirmed_by": "subagent-sonnet-4-6",
+      "trust_status": "unreviewed",
+      "trust_confirmed_by": null,
       "layer1_status": "warn",
-      "layer2_status": "needs-rework"
+      "layer2_status": "not_run"
     },
     {
       "bestand": "BW-boek1-algemene-bepalingen.md",
@@ -590,10 +590,10 @@
       "tags": [
         "XII"
       ],
-      "trust_status": "trusted",
-      "trust_confirmed_by": "subagent-sonnet-4-6",
+      "trust_status": "unreviewed",
+      "trust_confirmed_by": null,
       "layer1_status": "pass",
-      "layer2_status": "trusted"
+      "layer2_status": "not_run"
     },
     {
       "bestand": "Strafwetboek2024-boek2.md",

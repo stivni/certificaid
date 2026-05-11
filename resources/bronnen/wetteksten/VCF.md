@@ -3,85 +3,104 @@ bijgewerkt: 03.04.2026
 bron: Fisconetplus.be (officieuze gecoördineerde versie)
 chunk:
   level: 6
-  sub_strategy:
+  sub_strategy: null
   type: Art.
 itaa-lex-sectie: IV.A
 provenance:
+  generated_at: '2026-05-11T16:34:24Z'
   inputs:
-    - id: resources/raw/wetteksten/VCF-2026.pdf
-      sha256: e48d80794da796d8b9822a99acf06ce70e7302f277f0973bd7e942acd3a59aa0
-      version: 03.04.2026
+  - id: resources/raw/wetteksten/VCF-2026.pdf
+    sha256: e48d80794da796d8b9822a99acf06ce70e7302f277f0973bd7e942acd3a59aa0
+    version: 03.04.2026
+  stale: false
+  stale_reason: null
   tooling:
+    model: null
     pipeline: tools/etl/convert.py
     pipeline_version: 11f9196
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T16:21:50Z'
-  stale: false
-  stale_reason:
+    prompt_version: null
   trust:
-    status: needs-rework
     confirmed_at: '2026-05-11T16:30:31Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "A8: pervasief kolom-bleed door het volledige document — vrijwel elke paragraaf van elke alinea heeft een Franse kolom-fragment aan het einde van de regel (patroon: 'NL-tekst      FR-fragment'). Dit is een twee-kolom PDF-extractiefout die het gehele bestand onleesbaar maakt voor RAG. Voorbeelden op regels 78–145 (Art. 1.1.0.0.2 definities), 571–593 (Art. 2.1.5.0.1), 630–693 (Art. 2.1.5.0.2) en door de volledige rest van het document."
     layer1:
       file_size_chars: 2079746
       flags:
-        - detail: 'langste sectie op ######-niveau: 79657 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
-          name: max_section_size
-          samples: []
-          status: warn
-        - detail: 3 kolom-bleed-patroon/-en gevonden buiten tabellen (twee-kolom PDF-extractie?)
-          name: no_column_bleed
-          samples:
-            - 'regel 941: #### Afdeling 3 - Belastbare grondslag                              Section 3 - Base imposable'
-            - 'regel 1038: Benzine en andere brand- stoffen, met uitzondering van                         Benzine plug-          Diesel plugaardgas'
-            - 'regel 4959: #### Afdeling 4 - Aanslagbiljet                                   Section 4 - Feuille d''imposition'
-          status: warn
+      - detail: 'langste sectie op ######-niveau: 79657 chars (>24000); chunker splitst
+          auto op alinea-grenzen via split_long_chunk'
+        name: max_section_size
+        samples: []
+        status: warn
+      - detail: 3 kolom-bleed-patroon/-en gevonden buiten tabellen (twee-kolom PDF-extractie?)
+        name: no_column_bleed
+        samples:
+        - 'regel 941: #### Afdeling 3 - Belastbare grondslag                              Section
+          3 - Base imposable'
+        - 'regel 1038: Benzine en andere brand- stoffen, met uitzondering van                         Benzine
+          plug-          Diesel plugaardgas'
+        - 'regel 4959: #### Afdeling 4 - Aanslagbiljet                                   Section
+          4 - Feuille d''imposition'
+        status: warn
       heading_count: 1545
       max_section_chars: 79657
       run_at: '2026-05-11T13:40:47Z'
       run_id: 20260511-134044
       status: warn
     layer2:
-      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T16:30:31Z'
-      rationale: "A8: pervasief kolom-bleed door het volledige document — vrijwel elke paragraaf van elke alinea heeft een Franse kolom-fragment aan het einde van de regel (patroon: 'NL-tekst      FR-fragment'). Dit is een twee-kolom PDF-extractiefout die het gehele bestand onleesbaar maakt voor RAG. Voorbeelden op regels 78–145 (Art. 1.1.0.0.2 definities), 571–593 (Art. 2.1.5.0.1), 630–693 (Art. 2.1.5.0.2) en door de volledige rest van het document."
       concrete_problemen:
-        - regel: 72
-          categorie: A8
-          type: column-bleed
-          voorbeeld: Deze codex regelt een gewestaangelegenheid.               L
-        - regel: 78
-          categorie: A8
-          type: column-bleed
-          voorbeeld: hoofdsom waarop deze codex van toepassing is, in          a voorkomend geval...
-        - regel: 571
-          categorie: A8
-          type: column-bleed
-          voorbeeld: 5° 100% van de onroerende voorheffing gedurende vijf        5 jaar voor gebouwde onroerende goederen waarvoor de          p
-        - regel: 586
-          categorie: A8
-          type: column-bleed
-          voorbeeld: De termijn van tien jaar, vermeld in het eerste lid, 1° tot   L en met 3°, neemt een aanvang...
-        - regel: 630
-          categorie: A8
-          type: column-bleed
-          voorbeeld: '§ 1. Op aanvraag van de belastingschuldige wordt :          §'
-        - regel: 569
-          categorie: E1
-          type: pseudo-table
-          voorbeeld: datum aanvraag stedenbouwkundige vergunning...   N / date de la demande d'autorisation urbanistique...
-        - regel: 154
-          categorie: A8
-          type: column-bleed
-          voorbeeld: '28° Wetboek van Successierechten : het wetboek van 31 maart 1936 der Succes|Upsierechten.'
+      - categorie: A8
+        regel: 72
+        type: column-bleed
+        voorbeeld: Deze codex regelt een gewestaangelegenheid.               L
+      - categorie: A8
+        regel: 78
+        type: column-bleed
+        voorbeeld: hoofdsom waarop deze codex van toepassing is, in          a voorkomend
+          geval...
+      - categorie: A8
+        regel: 571
+        type: column-bleed
+        voorbeeld: 5° 100% van de onroerende voorheffing gedurende vijf        5 jaar
+          voor gebouwde onroerende goederen waarvoor de          p
+      - categorie: A8
+        regel: 586
+        type: column-bleed
+        voorbeeld: De termijn van tien jaar, vermeld in het eerste lid, 1° tot   L
+          en met 3°, neemt een aanvang...
+      - categorie: A8
+        regel: 630
+        type: column-bleed
+        voorbeeld: '§ 1. Op aanvraag van de belastingschuldige wordt :          §'
+      - categorie: E1
+        regel: 569
+        type: pseudo-table
+        voorbeeld: datum aanvraag stedenbouwkundige vergunning...   N / date de la
+          demande d'autorisation urbanistique...
+      - categorie: A8
+        regel: 154
+        type: column-bleed
+        voorbeeld: '28° Wetboek van Successierechten : het wetboek van 31 maart 1936
+          der Succes|Upsierechten.'
+      rationale: 'A8: pervasief kolom-bleed door het volledige document — vrijwel
+        elke paragraaf van elke alinea heeft een Franse kolom-fragment aan het einde
+        van de regel (patroon: ''NL-tekst      FR-fragment''). Dit is een twee-kolom
+        PDF-extractiefout die het gehele bestand onleesbaar maakt voor RAG. Voorbeelden
+        op regels 78–145 (Art. 1.1.0.0.2 definities), 571–593 (Art. 2.1.5.0.1), 630–693
+        (Art. 2.1.5.0.2) en door de volledige rest van het document.'
+      run_at: '2026-05-11T16:30:31Z'
+      status: needs-rework
+    rationale: 'A8: pervasief kolom-bleed door het volledige document — vrijwel elke
+      paragraaf van elke alinea heeft een Franse kolom-fragment aan het einde van
+      de regel (patroon: ''NL-tekst      FR-fragment''). Dit is een twee-kolom PDF-extractiefout
+      die het gehele bestand onleesbaar maakt voor RAG. Voorbeelden op regels 78–145
+      (Art. 1.1.0.0.2 definities), 571–593 (Art. 2.1.5.0.1), 630–693 (Art. 2.1.5.0.2)
+      en door de volledige rest van het document.'
+    status: needs-rework
 status: beschikbaar
 tags:
-  - IV.A
-  - '2.5'
-  - '2.6'
+- IV.A
+- '2.5'
+- '2.6'
 wet: Decreet 13 december 2013 houdende de Vlaamse Codex Fiscaliteit (VCF)
 ---
 

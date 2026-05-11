@@ -8,7 +8,7 @@ chunk:
   type: Art.
 itaa-lex-sectie: I
 provenance:
-  generated_at: '2026-05-11T16:22:16Z'
+  generated_at: '2026-05-11T16:34:50Z'
   inputs:
   - id: resources/raw/wetteksten/Wet-voorafgaande-beslissingen-2002.pdf
     sha256: 2e02ac9cf2dee1a314196a6d19cc0d294c9c35c2f5d0c8422c728699d9615bd9

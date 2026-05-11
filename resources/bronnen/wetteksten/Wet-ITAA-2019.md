@@ -8,7 +8,7 @@ chunk:
   type: Art.
 itaa-lex-sectie: XXI
 provenance:
-  generated_at: '2026-05-11T16:22:16Z'
+  generated_at: '2026-05-11T16:34:49Z'
   inputs:
   - id: resources/raw/wetteksten/Wet-ITAA-2019.pdf
     sha256: d8e074afec249aa6819b22493d5c85bebc4d30251de41ec2eed3b455e8b05b0c

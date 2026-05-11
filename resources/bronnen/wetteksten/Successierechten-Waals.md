@@ -3,96 +3,114 @@ bijgewerkt: 16.03.2026
 bron: Fisconetplus.be (officieuze gecoördineerde versie)
 chunk:
   level: 5
-  sub_strategy:
+  sub_strategy: null
   type: Art.
 itaa-lex-sectie: IX
 provenance:
+  generated_at: '2026-05-11T16:34:22Z'
   inputs:
-    - id: resources/raw/wetteksten/successie-waals.pdf
-      sha256: f52087a58cf1869bf7c58c3399e5f16f7d973788bf9fb3d16d433ce397926c1c
-      version: 16.03.2026
+  - id: resources/raw/wetteksten/successie-waals.pdf
+    sha256: f52087a58cf1869bf7c58c3399e5f16f7d973788bf9fb3d16d433ce397926c1c
+    version: 16.03.2026
+  stale: false
+  stale_reason: null
   tooling:
+    model: null
     pipeline: tools/etl/convert.py
     pipeline_version: 11f9196
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T16:21:48Z'
-  stale: false
-  stale_reason:
+    prompt_version: null
   trust:
-    status: needs-rework
     confirmed_at: '2026-05-11T16:30:31Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "E1/A8: alle tarieftabellen (art. 48 oud en nieuw, art. 60ter) zijn als één lange pseudo-tabel-regel gerenderd in plaats van markdown-pipe-tabellen (regels 970, 973, 981, 1001, 1003–1005, 1564, 1588). B3: triplicate '## WETBOEK DER SUCCESSIERECHTEN' headings bovenaan (regels 74, 78, 82) en spurious '## EUR' en '## TABEL I/II' headings midden in de tarieftabellen (regels 976, 999, 1003). De prosatekst is overigens volledig en clean."
     layer1:
       file_size_chars: 470842
       flags:
-        - detail: 'langste sectie op #####-niveau: 57678 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
-          name: max_section_size
-          samples: []
-          status: warn
-        - detail: 24 TOC-stippen-regel(s) gevonden
-          name: no_toc_dots
-          samples:
-            - '....................................................... 81
+      - detail: 'langste sectie op #####-niveau: 57678 chars (>24000); chunker splitst
+          auto op alinea-grenzen via split_long_chunk'
+        name: max_section_size
+        samples: []
+        status: warn
+      - detail: 24 TOC-stippen-regel(s) gevonden
+        name: no_toc_dots
+        samples:
+        - '....................................................... 81
 
-              '
-            - '................................................................................'
-            - '................................................................................'
-          status: warn
-        - detail: 2 kolom-bleed-patroon/-en gevonden buiten tabellen (twee-kolom PDF-extractie?)
-          name: no_column_bleed
-          samples:
-            - 'regel 949: Gedeelte van het netto-aandeel                                         Rechte lijn – tussen echtgenoten tussen wettelijk'
-            - 'regel 1513: Tabel met betrekking tot het preferentiele tarief voor de netto-aandelen in woningen Schijf van het netto-aandeel       '
-          status: warn
+          '
+        - '................................................................................'
+        - '................................................................................'
+        status: warn
+      - detail: 2 kolom-bleed-patroon/-en gevonden buiten tabellen (twee-kolom PDF-extractie?)
+        name: no_column_bleed
+        samples:
+        - 'regel 949: Gedeelte van het netto-aandeel                                         Rechte
+          lijn – tussen echtgenoten tussen wettelijk'
+        - 'regel 1513: Tabel met betrekking tot het preferentiele tarief voor de netto-aandelen
+          in woningen Schijf van het netto-aandeel       '
+        status: warn
       heading_count: 395
       max_section_chars: 57678
       run_at: '2026-05-11T13:40:46Z'
       run_id: 20260511-134044
       status: warn
     layer2:
-      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T16:30:31Z'
-      rationale: "E1/A8: alle tarieftabellen (art. 48 oud en nieuw, art. 60ter) zijn als één lange pseudo-tabel-regel gerenderd in plaats van markdown-pipe-tabellen (regels 970, 973, 981, 1001, 1003–1005, 1564, 1588). B3: triplicate '## WETBOEK DER SUCCESSIERECHTEN' headings bovenaan (regels 74, 78, 82) en spurious '## EUR' en '## TABEL I/II' headings midden in de tarieftabellen (regels 976, 999, 1003). De prosatekst is overigens volledig en clean."
       concrete_problemen:
-        - regel: 74
-          categorie: B3
-          type: other
-          voorbeeld: '## WETBOEK DER SUCCESSIERECHTEN (driemaal herhaald op regels 74, 78, 82)'
-        - regel: 970
-          categorie: E1
-          type: pseudo-table
-          voorbeeld: Gedeelte van het netto-aandeel                            Rechte lijn - tussen echtgenoten... Van    tot inbegrepen    a    b 0,01 EUR...
-        - regel: 973
-          categorie: E1
-          type: pseudo-table
-          voorbeeld: Gedeelte van het netto-aandeel           Tussen broers en zussen            Tussen ooms of tantes...
-        - regel: 976
-          categorie: B3
-          type: other
-          voorbeeld: '## EUR                 EUR                                  EUR'
-        - regel: 999
-          categorie: B3
-          type: other
-          voorbeeld: '## TABEL I'
-        - regel: 1003
-          categorie: B3
-          type: other
-          voorbeeld: '## TABEL II'
-        - regel: 1001
-          categorie: E1
-          type: pseudo-table
-          voorbeeld: Gedeelte van het netto-aandeel ... Rechte lijn - tussen echtgenoten ... Van tot inbegrepen a b EUR EUR t.h. EUR 0,01...
-        - regel: 1564
-          categorie: E1
-          type: pseudo-table
-          voorbeeld: Tabel met betrekking tot het preferentiële tarief voor de netto-aandelen in woningen Schijf van het netto-aandeel... Van tot en met a b 0,01 EUR...
+      - categorie: B3
+        regel: 74
+        type: other
+        voorbeeld: '## WETBOEK DER SUCCESSIERECHTEN (driemaal herhaald op regels 74,
+          78, 82)'
+      - categorie: E1
+        regel: 970
+        type: pseudo-table
+        voorbeeld: Gedeelte van het netto-aandeel                            Rechte
+          lijn - tussen echtgenoten... Van    tot inbegrepen    a    b 0,01 EUR...
+      - categorie: E1
+        regel: 973
+        type: pseudo-table
+        voorbeeld: Gedeelte van het netto-aandeel           Tussen broers en zussen            Tussen
+          ooms of tantes...
+      - categorie: B3
+        regel: 976
+        type: other
+        voorbeeld: '## EUR                 EUR                                  EUR'
+      - categorie: B3
+        regel: 999
+        type: other
+        voorbeeld: '## TABEL I'
+      - categorie: B3
+        regel: 1003
+        type: other
+        voorbeeld: '## TABEL II'
+      - categorie: E1
+        regel: 1001
+        type: pseudo-table
+        voorbeeld: Gedeelte van het netto-aandeel ... Rechte lijn - tussen echtgenoten
+          ... Van tot inbegrepen a b EUR EUR t.h. EUR 0,01...
+      - categorie: E1
+        regel: 1564
+        type: pseudo-table
+        voorbeeld: Tabel met betrekking tot het preferentiële tarief voor de netto-aandelen
+          in woningen Schijf van het netto-aandeel... Van tot en met a b 0,01 EUR...
+      rationale: 'E1/A8: alle tarieftabellen (art. 48 oud en nieuw, art. 60ter) zijn
+        als één lange pseudo-tabel-regel gerenderd in plaats van markdown-pipe-tabellen
+        (regels 970, 973, 981, 1001, 1003–1005, 1564, 1588). B3: triplicate ''## WETBOEK
+        DER SUCCESSIERECHTEN'' headings bovenaan (regels 74, 78, 82) en spurious ''##
+        EUR'' en ''## TABEL I/II'' headings midden in de tarieftabellen (regels 976,
+        999, 1003). De prosatekst is overigens volledig en clean.'
+      run_at: '2026-05-11T16:30:31Z'
+      status: needs-rework
+    rationale: 'E1/A8: alle tarieftabellen (art. 48 oud en nieuw, art. 60ter) zijn
+      als één lange pseudo-tabel-regel gerenderd in plaats van markdown-pipe-tabellen
+      (regels 970, 973, 981, 1001, 1003–1005, 1564, 1588). B3: triplicate ''## WETBOEK
+      DER SUCCESSIERECHTEN'' headings bovenaan (regels 74, 78, 82) en spurious ''##
+      EUR'' en ''## TABEL I/II'' headings midden in de tarieftabellen (regels 976,
+      999, 1003). De prosatekst is overigens volledig en clean.'
+    status: needs-rework
 status: beschikbaar
 tags:
-  - IX
-  - '2.6'
+- IX
+- '2.6'
 wet: Wetboek der Successierechten — Waals Gewest
 ---
 

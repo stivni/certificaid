@@ -3,68 +3,87 @@ bijgewerkt: 16.03.2026
 bron: Fisconetplus.be (officieuze gecoördineerde versie)
 chunk:
   level: 6
-  sub_strategy:
+  sub_strategy: null
   type: Art.
 itaa-lex-sectie: VIII
 provenance:
+  generated_at: '2026-05-11T16:34:21Z'
   inputs:
-    - id: resources/raw/wetteksten/Registratierechten-Waals.pdf
-      sha256: a2c239adbf6000aaa82c66c263fc70bc8a360cdc6ce462da3a548998b9d0864c
-      version: 16.03.2026
+  - id: resources/raw/wetteksten/Registratierechten-Waals.pdf
+    sha256: a2c239adbf6000aaa82c66c263fc70bc8a360cdc6ce462da3a548998b9d0864c
+    version: 16.03.2026
+  stale: false
+  stale_reason: null
   tooling:
+    model: null
     pipeline: tools/etl/convert.py
     pipeline_version: 11f9196
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T16:21:47Z'
-  stale: false
-  stale_reason:
+    prompt_version: null
   trust:
-    status: needs-rework
     confirmed_at: '2026-05-11T16:30:31Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "Bevestiging van eerdere layer2-beoordeling. Duplicate cover-intro regels bovenaan (A3, r.107-108: 'Wetgeving van toepassing in het WAALS GEWEST' tweemaal; r.111-113: KB-citaat tweemaal). Zelfde B2-probleem als Brussel: '## HYPOTHEEK- EN GRIFFIERECHTEN' en '## WAALS GEWEST' als losse headings voor TITEL I. TIJDELIJKE BEPALINGEN (r.7145-equivalent), OVERGANGSBEPALINGEN en INWERKINGTREDING zijn hier wél als ## headings gemarkeerd — correct. Tarieftabellen met kolom-bleed (NL/FR tabelkoppen op afzonderlijke regels, grenseval)."
     layer1:
       file_size_chars: 609384
       flags:
-        - detail: 'langste sectie op ######-niveau: 58101 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
-          name: max_section_size
-          samples: []
-          status: warn
-        - detail: 74 TOC-stippen-regel(s) gevonden
-          name: no_toc_dots
-          samples:
-            - '................................................................................'
-            - '................................................................................'
-            - '................................................................................'
-          status: warn
+      - detail: 'langste sectie op ######-niveau: 58101 chars (>24000); chunker splitst
+          auto op alinea-grenzen via split_long_chunk'
+        name: max_section_size
+        samples: []
+        status: warn
+      - detail: 74 TOC-stippen-regel(s) gevonden
+        name: no_toc_dots
+        samples:
+        - '................................................................................'
+        - '................................................................................'
+        - '................................................................................'
+        status: warn
       heading_count: 609
       max_section_chars: 58101
       run_at: '2026-05-11T13:40:46Z'
       run_id: 20260511-134044
       status: warn
     layer2:
-      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T16:30:31Z'
-      rationale: "Bevestiging van eerdere layer2-beoordeling. Duplicate cover-intro regels bovenaan (A3, r.107-108: 'Wetgeving van toepassing in het WAALS GEWEST' tweemaal; r.111-113: KB-citaat tweemaal). Zelfde B2-probleem als Brussel: '## HYPOTHEEK- EN GRIFFIERECHTEN' en '## WAALS GEWEST' als losse headings voor TITEL I. TIJDELIJKE BEPALINGEN (r.7145-equivalent), OVERGANGSBEPALINGEN en INWERKINGTREDING zijn hier wél als ## headings gemarkeerd — correct. Tarieftabellen met kolom-bleed (NL/FR tabelkoppen op afzonderlijke regels, grenseval)."
       concrete_problemen:
-        - regel: 107
-          categorie: A3
-          type: other
-          voorbeeld: "Wetgeving van toepassing in het WAALS GEWEST\n\nWetgeving van toepassing in het WAALS GEWEST"
-        - regel: 111
-          categorie: A3
-          type: other
-          voorbeeld: (KB nr. 64 van 30.11.1939...) [tweemaal identiek herhaald]
-        - regel: 101
-          categorie: B2
-          type: other
-          voorbeeld: "## HYPOTHEEK- EN GRIFFIERECHTEN\n\n## WAALS GEWEST"
+      - categorie: A3
+        regel: 107
+        type: other
+        voorbeeld: 'Wetgeving van toepassing in het WAALS GEWEST
+
+
+          Wetgeving van toepassing in het WAALS GEWEST'
+      - categorie: A3
+        regel: 111
+        type: other
+        voorbeeld: (KB nr. 64 van 30.11.1939...) [tweemaal identiek herhaald]
+      - categorie: B2
+        regel: 101
+        type: other
+        voorbeeld: '## HYPOTHEEK- EN GRIFFIERECHTEN
+
+
+          ## WAALS GEWEST'
+      rationale: 'Bevestiging van eerdere layer2-beoordeling. Duplicate cover-intro
+        regels bovenaan (A3, r.107-108: ''Wetgeving van toepassing in het WAALS GEWEST''
+        tweemaal; r.111-113: KB-citaat tweemaal). Zelfde B2-probleem als Brussel:
+        ''## HYPOTHEEK- EN GRIFFIERECHTEN'' en ''## WAALS GEWEST'' als losse headings
+        voor TITEL I. TIJDELIJKE BEPALINGEN (r.7145-equivalent), OVERGANGSBEPALINGEN
+        en INWERKINGTREDING zijn hier wél als ## headings gemarkeerd — correct. Tarieftabellen
+        met kolom-bleed (NL/FR tabelkoppen op afzonderlijke regels, grenseval).'
+      run_at: '2026-05-11T16:30:31Z'
+      status: needs-rework
+    rationale: 'Bevestiging van eerdere layer2-beoordeling. Duplicate cover-intro
+      regels bovenaan (A3, r.107-108: ''Wetgeving van toepassing in het WAALS GEWEST''
+      tweemaal; r.111-113: KB-citaat tweemaal). Zelfde B2-probleem als Brussel: ''##
+      HYPOTHEEK- EN GRIFFIERECHTEN'' en ''## WAALS GEWEST'' als losse headings voor
+      TITEL I. TIJDELIJKE BEPALINGEN (r.7145-equivalent), OVERGANGSBEPALINGEN en INWERKINGTREDING
+      zijn hier wél als ## headings gemarkeerd — correct. Tarieftabellen met kolom-bleed
+      (NL/FR tabelkoppen op afzonderlijke regels, grenseval).'
+    status: needs-rework
 status: beschikbaar
 tags:
-  - VIII
-  - '2.6'
+- VIII
+- '2.6'
 wet: Wetboek der Registratie-, Hypotheek- en Griffierechten — Waals Gewest
 ---
 
