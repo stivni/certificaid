@@ -1,63 +1,65 @@
 ---
-tags: [VI.B, '2.4']
-itaa-lex-sectie: VI.B
-wet: K.B. nr. 3 van 10 december 1969, met betrekking tot de aftrekken voor de toepassing van de belasting over de toegevoegde waarde
-bron_rol: itaa_lex
-status: beschikbaar
 bijgewerkt: 10.12.1969
 bron: Afgesplitst uit Fisconet-compilatie (pdftotext_compilatie_btw)
+bron_rol: itaa_lex
 chunk:
   level: 3
-  type: Art.
   sub_strategy:
+  type: Art.
+itaa-lex-sectie: VI.B
 provenance:
+  generated_at: '2026-05-11T13:40:00Z'
   inputs:
     - id: resources/raw/wetteksten/btw-kbs/WBTW-KB-compilatie.pdf
       sha256: 5f1bad7278d1f8e1f5c00efb5d792f61342d3f7a14a7950caca2937924bfa91c
       version: 06.03.2020
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 7a134f4
-    model:
-    prompt_version:
-  generated_at: '2026-05-09T16:15:18Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
   trust:
-    status: needs-rework
     confirmed_at: '2026-05-11T11:46:29Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "Systematisch PDF-kolom-alignment-artefact (C3/A6) verspreid door het volledige document: meerdere regels tonen excessieve interne witruimte (tot 15+ spaties) in de inline-datumverwijzingen van wijzigingsmarkers, bv. regel 499, 520, 581, 625, 640. Dit is een consistente extractie-bug die als 'pseudo-tabel' uitlijning door chunkers verkeerd kan worden geïnterpreteerd. De ##/### heading-hiërarchie (Afdeling/Art.) is goed, inhoud volledig (Art. 1-23 + bijlagen)."
     layer1:
       status: pass
-      run_id: 20260509-214924
-      run_at:
+      run_id: 20260511-134044
+      run_at: '2026-05-11T13:40:47Z'
       heading_count: 32
       max_section_chars: 4838
       file_size_chars: 48429
       flags: []
     layer2:
-      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T11:46:29Z'
-      rationale: "Systematisch PDF-kolom-alignment-artefact (C3/A6) verspreid door het volledige document: meerdere regels tonen excessieve interne witruimte (tot 15+ spaties) in de inline-datumverwijzingen van wijzigingsmarkers, bv. regel 499, 520, 581, 625, 640. Dit is een consistente extractie-bug die als 'pseudo-tabel' uitlijning door chunkers verkeerd kan worden geïnterpreteerd. De ##/### heading-hiërarchie (Afdeling/Art.) is goed, inhoud volledig (Art. 1-23 + bijlagen)."
       concrete_problemen:
-        - regel: 499
-          categorie: C3
+        - categorie: C3
+          regel: 499
           type: pseudo-table
           voorbeeld: (De tekst van KB nr. 3, artikel 12, is   van   toepassing    met   ingang     van    01.01.1971
-        - regel: 520
-          categorie: C3
+        - categorie: C3
+          regel: 520
           type: pseudo-table
           voorbeeld: In afwijking van het vorige artikel worden                 voor    de   berekening     van    het    algemeen
-        - regel: 68
-          categorie: A6
+        - categorie: A6
+          regel: 68
           type: pseudo-table
           voorbeeld: "## AFDELING I\n       Voorwaarden waaraan het uitoefenen van het recht op aftrek"
-        - regel: 581
-          categorie: C3
+        - categorie: C3
+          regel: 581
           type: pseudo-table
           voorbeeld: (De tekst van KB        nr.   3,   artikel   17,   is   van   toepassing    met   ingang     van    01.01.1971
+      rationale: 'Systematisch PDF-kolom-alignment-artefact (C3/A6) verspreid door het volledige document: meerdere regels tonen excessieve interne witruimte (tot 15+ spaties) in de inline-datumverwijzingen van wijzigingsmarkers, bv. regel 499, 520, 581, 625, 640. Dit is een consistente extractie-bug die als ''pseudo-tabel'' uitlijning door chunkers verkeerd kan worden geïnterpreteerd. De ##/### heading-hiërarchie (Afdeling/Art.) is goed, inhoud volledig (Art. 1-23 + bijlagen).'
+      run_at: '2026-05-11T11:46:29Z'
+      status: needs-rework
+    rationale: 'Systematisch PDF-kolom-alignment-artefact (C3/A6) verspreid door het volledige document: meerdere regels tonen excessieve interne witruimte (tot 15+ spaties) in de inline-datumverwijzingen van wijzigingsmarkers, bv. regel 499, 520, 581, 625, 640. Dit is een consistente extractie-bug die als ''pseudo-tabel'' uitlijning door chunkers verkeerd kan worden geïnterpreteerd. De ##/### heading-hiërarchie (Afdeling/Art.) is goed, inhoud volledig (Art. 1-23 + bijlagen).'
+    status: needs-rework
+status: beschikbaar
+tags:
+  - VI.B
+  - '2.4'
+wet: K.B. nr. 3 van 10 december 1969, met betrekking tot de aftrekken voor de toepassing van de belasting over de toegevoegde waarde
 ---
 
 # K.B. nr. 3 van 10 december 1969, met betrekking tot de aftrekken voor de toepassing van de belasting over de toegevoegde waarde

@@ -25,8 +25,8 @@ provenance:
     rationale: "A1: 112 keer een pagina-header '02013L0034 — NL — 28.05.2024 — 006.001 — N' verspreid door de body (elke ca. 35-40 regels een nieuwe). G2/A1: EUR-Lex wijzigings-markers (▼B, ▼M1-▼M6, ►B, ►M) staan als losse regels in de body — 169 keer ▼-markers en 11 keer ►-markers; dit zijn EUR-Lex-formaat-artefacten. Tail van het bestand (concordantietabel r.4180+) bevat lege ### Art. N headings gevolgd door alleen '—' — dit is tabelinhoud die als losse headings gerenderd is (B1/E1). Artikelen 50/51 met echte inhoud zijn aanwezig (r.2145-2157). Het kerncorpus (Art. 1-49) is inhoudelijk intact maar sterk vervuild."
     layer1:
       status: warn
-      run_id: 20260509-212552
-      run_at:
+      run_id: 20260511-134044
+      run_at: '2026-05-11T13:40:46Z'
       heading_count: 163
       max_section_chars: 31271
       file_size_chars: 281757

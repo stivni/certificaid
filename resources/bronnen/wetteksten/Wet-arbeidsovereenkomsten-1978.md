@@ -30,8 +30,8 @@ provenance:
     rationale: "B5: Tal van ##### Art.-headings fuseren de eerste zin van de body op dezelfde regel als de heading, bv. regel 67 '##### Art. 1.Deze wet regelt...', regel 220 '##### Art. 17.De werknemer is verplicht...', regel 232 '##### Art. 18.Ingeval de werknemer...'. Dit is een stelselmatig extractie-artefact: de heading-anchor sluit body-tekst in, waardoor RAG-chunk-grenzen corrupt worden. Minimaal 10 artikelen getroffen (Art. 1, 2bis, 3bis, 3ter, 11bis, 11ter, 12, 14, 17, 18, 38, 39, 52, 54, ...); patroon is systematisch, niet incidenteel."
     layer1:
       status: pass
-      run_id: 20260509-212552
-      run_at:
+      run_id: 20260511-134044
+      run_at: '2026-05-11T13:40:50Z'
       heading_count: 209
       max_section_chars: 22805
       file_size_chars: 255432

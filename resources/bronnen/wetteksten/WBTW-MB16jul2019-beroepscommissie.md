@@ -30,8 +30,8 @@ provenance:
     rationale: "Art. 1–5 staan correct als ## headings. Op regel 99 staat een A8 kolom-bleed-artefact: 'adviseur-generaal ad                  interim   van    het regionaal' met grote witruimte-blokken die wijzen op twee-kolom PDF-extractie. De eerdere layer2-notitie '0 ##-headings' was incorrect, maar het kolom-bleed-probleem rechtvaardigt toch needs-rework."
     layer1:
       status: pass
-      run_id: 20260509-212552
-      run_at:
+      run_id: 20260511-134044
+      run_at: '2026-05-11T13:40:48Z'
       heading_count: 5
       max_section_chars: 2175
       file_size_chars: 4604

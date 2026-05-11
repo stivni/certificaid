@@ -25,23 +25,23 @@ provenance:
     rationale: "Ernstige A8 kolom-bleed doorheen het hele corpus: elke artikeltekst bevat NL-tekst en FR-tekst naast elkaar op dezelfde regel (twee-kolom PDF-layout). Dit maakt elke chunk onleesbaar voor RAG — de zinnen zijn doorheen elkaar: 'De aanbieding ter registratie van ... La présentation à l'enregistrement des ...'. Laag-1 meldt 3 bevestigde kolom-bleed samples, maar de eigenlijke omvang is structureel (elk artikel, niet incidenteel). B4: plain-text structuurlabels ontbreken `#`-prefix. Alle overige structuurproblemen zijn identiek aan Brussel/Waals."
     layer1:
       status: warn
-      run_id: 20260509-212552
-      run_at:
-      heading_count: 524
-      max_section_chars: 74658
-      file_size_chars: 669434
+      run_id: 20260511-134044
+      run_at: '2026-05-11T13:40:46Z'
+      heading_count: 525
+      max_section_chars: 128584
+      file_size_chars: 1123028
       flags:
         - name: max_section_size
           status: warn
-          detail: 'langste sectie op ######-niveau: 74658 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
+          detail: 'langste sectie op ######-niveau: 128584 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
           samples: []
         - name: no_column_bleed
           status: warn
           detail: 3 kolom-bleed-patroon/-en gevonden buiten tabellen (twee-kolom PDF-extractie?)
           samples:
-            - 'regel 132: Wordt, voor de toepassing van dit wetboek, met een aan een                        Po schorsende voorwaarde onderworpen h'
-            - 'regel 188: De exequaturs der scheidsrechterlijke uitspraken en die der                            Le buitenslands gewezen rechterli'
-            - 'regel 676: Het registratierecht op de openbare verkopingen van lichamelijke                      Le roerende goederen is een federa'
+            - 'regel 171: Wordt, voor de toepassing van dit wetboek, met een aan een                        Pour l’application du présent code, es'
+            - 'regel 240: De exequaturs der scheidsrechterlijke uitspraken en die der                            Les exequatur des sentences arbit'
+            - 'regel 1985: Wanneer er niet anderszins bij deze titel over beschikt is, mag het                    Lorsqu’il n’en est pas disposé au'
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6

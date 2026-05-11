@@ -30,8 +30,8 @@ provenance:
     rationale: 'L1=warn; L1.5=improvement (Auto-synthesized: ETL-fixes vandaag (NBSP, sub_strategy, justel-extractor, etc.) verbeteren bestaande versie.); L2=trusted (KB-WVV met 276 Art.-vermeldingen (genummerd 1:x, 2:x, ...), structuur op H6 zoals chunk.level=6. Body schoon NL, geen kolom-bleed. Warn op max_section_size suggereert lange artikelen wat normaal is voor WVV-uitvoeringsbesluit.)'
     layer1:
       status: warn
-      run_id: 20260509-212552
-      run_at:
+      run_id: 20260511-134044
+      run_at: '2026-05-11T13:40:45Z'
       heading_count: 371
       max_section_chars: 37257
       file_size_chars: 513858

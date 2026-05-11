@@ -25,15 +25,15 @@ provenance:
     rationale: "A1/A2: Lange inhoudstafel (regels 60-386) met dotted leaders is als ## / ### / #### / ##### headings in de body opgenomen, waardoor de TOC verdubbelt met de echte body-secties. A1: Pagina-footers 'NL', 'Publicatieblad van de Europese Unie' en 'L 347/x' staan als losse regels verspreid door de body (226 NL/L347-regels geteld). B2: Hiërarchiesprong: body-artikelen starten op ###### terwijl TITEL op ### staat. Inhoud is overigens volledig en leesbaar NL."
     layer1:
       status: warn
-      run_id: 20260509-212552
-      run_at:
-      heading_count: 888
-      max_section_chars: 28649
-      file_size_chars: 390117
+      run_id: 20260511-134044
+      run_at: '2026-05-11T13:40:44Z'
+      heading_count: 904
+      max_section_chars: 27576
+      file_size_chars: 388992
       flags:
         - name: max_section_size
           status: warn
-          detail: 'langste sectie op ######-niveau: 28649 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
+          detail: 'langste sectie op ######-niveau: 27576 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
           samples: []
     layer2:
       status: needs-rework

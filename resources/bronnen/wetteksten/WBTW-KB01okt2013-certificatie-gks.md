@@ -1,63 +1,65 @@
 ---
-tags: [VI.B, '2.4']
-itaa-lex-sectie: VI.B
-wet: K.B. 1 oktober 2013 met betrekking tot de toepassingsmodaliteiten ten aanzien van de certificatie van een geregistreerd kassasysteem in de horecasector
-bron_rol: itaa_lex
-status: beschikbaar
 bijgewerkt: 01.10.2013
 bron: Afgesplitst uit Fisconet-compilatie (pdftotext_compilatie_btw)
+bron_rol: itaa_lex
 chunk:
   level: 2
-  type: Art.
   sub_strategy:
+  type: Art.
+itaa-lex-sectie: VI.B
 provenance:
+  generated_at: '2026-05-11T13:40:00Z'
   inputs:
     - id: resources/raw/wetteksten/btw-kbs/WBTW-KB-compilatie.pdf
       sha256: 5f1bad7278d1f8e1f5c00efb5d792f61342d3f7a14a7950caca2937924bfa91c
       version: 06.03.2020
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 7a134f4
-    model:
-    prompt_version:
-  generated_at: '2026-05-09T16:15:19Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
   trust:
-    status: needs-rework
     confirmed_at: '2026-05-11T11:41:58Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "A1: drie pagina-voetregels als plain text in de body (regels 113, 179, 225): 'KB 01.10.2013                                        pg. 1             Certificatie geregistreerde kassa'. De voetregels breken de tekstflow na een alinea mid-artikel. Verder heeft het bestand overmatige leading-spatie-indentatie in alinea's (C3: pseudo-tabel-achtige opmaak in meerdere paragrafen, bijv. regels 61–83) die PDF-sprongen weerspiegelt. Layer2-frontmatter vermeldt al 'geen ## Art.-headings', maar na manueel lezen: de ## Art.-headings zijn WEL aanwezig (Art. 1 t/m Art. 9). Het layer2-verdict in frontmatter is dus incorrect voor dit specifieke punt."
     layer1:
       status: pass
-      run_id: 20260509-212552
-      run_at:
+      run_id: 20260511-134044
+      run_at: '2026-05-11T13:40:47Z'
       heading_count: 9
       max_section_chars: 2709
       file_size_chars: 11972
       flags: []
     layer2:
-      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T11:41:58Z'
-      rationale: "A1: drie pagina-voetregels als plain text in de body (regels 113, 179, 225): 'KB 01.10.2013                                        pg. 1             Certificatie geregistreerde kassa'. De voetregels breken de tekstflow na een alinea mid-artikel. Verder heeft het bestand overmatige leading-spatie-indentatie in alinea's (C3: pseudo-tabel-achtige opmaak in meerdere paragrafen, bijv. regels 61–83) die PDF-sprongen weerspiegelt. Layer2-frontmatter vermeldt al 'geen ## Art.-headings', maar na manueel lezen: de ## Art.-headings zijn WEL aanwezig (Art. 1 t/m Art. 9). Het layer2-verdict in frontmatter is dus incorrect voor dit specifieke punt."
       concrete_problemen:
-        - regel: 113
-          categorie: A1
+        - categorie: A1
+          regel: 113
           type: other
           voorbeeld: KB 01.10.2013                                        pg. 1             Certificatie geregistreerde kassa
-        - regel: 179
-          categorie: A1
+        - categorie: A1
+          regel: 179
           type: other
           voorbeeld: KB 01.10.2013                                       pg. 2             Certificatie geregistreerde kassa
-        - regel: 225
-          categorie: A1
+        - categorie: A1
+          regel: 225
           type: other
           voorbeeld: KB 01.10.2013                                     pg. 3            Certificatie geregistreerde kassa
-        - regel: 61
-          categorie: C3
+        - categorie: C3
+          regel: 61
           type: pseudo-table
           voorbeeld: '      Het kassasysteem en de controlemodule bedoeld in artikel 2... (overmatige inspringing door PDF-layout)'
+      rationale: 'A1: drie pagina-voetregels als plain text in de body (regels 113, 179, 225): ''KB 01.10.2013                                        pg. 1             Certificatie geregistreerde kassa''. De voetregels breken de tekstflow na een alinea mid-artikel. Verder heeft het bestand overmatige leading-spatie-indentatie in alinea''s (C3: pseudo-tabel-achtige opmaak in meerdere paragrafen, bijv. regels 61–83) die PDF-sprongen weerspiegelt. Layer2-frontmatter vermeldt al ''geen ## Art.-headings'', maar na manueel lezen: de ## Art.-headings zijn WEL aanwezig (Art. 1 t/m Art. 9). Het layer2-verdict in frontmatter is dus incorrect voor dit specifieke punt.'
+      run_at: '2026-05-11T11:41:58Z'
+      status: needs-rework
+    rationale: 'A1: drie pagina-voetregels als plain text in de body (regels 113, 179, 225): ''KB 01.10.2013                                        pg. 1             Certificatie geregistreerde kassa''. De voetregels breken de tekstflow na een alinea mid-artikel. Verder heeft het bestand overmatige leading-spatie-indentatie in alinea''s (C3: pseudo-tabel-achtige opmaak in meerdere paragrafen, bijv. regels 61–83) die PDF-sprongen weerspiegelt. Layer2-frontmatter vermeldt al ''geen ## Art.-headings'', maar na manueel lezen: de ## Art.-headings zijn WEL aanwezig (Art. 1 t/m Art. 9). Het layer2-verdict in frontmatter is dus incorrect voor dit specifieke punt.'
+    status: needs-rework
+status: beschikbaar
+tags:
+  - VI.B
+  - '2.4'
+wet: K.B. 1 oktober 2013 met betrekking tot de toepassingsmodaliteiten ten aanzien van de certificatie van een geregistreerd kassasysteem in de horecasector
 ---
 
 # K.B. 1 oktober 2013 met betrekking tot de toepassingsmodaliteiten ten aanzien van de certificatie van een geregistreerd kassasysteem in de horecasector

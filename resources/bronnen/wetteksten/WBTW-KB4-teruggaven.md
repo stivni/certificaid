@@ -1,67 +1,69 @@
 ---
-tags: [VI.B, '2.4']
-itaa-lex-sectie: VI.B
-wet: K.B. nr. 4 van 29 december 1969, met betrekking tot de teruggaven inzake belasting over de toegevoegde waarde
-bron_rol: itaa_lex
-status: beschikbaar
 bijgewerkt: 29.12.1969
 bron: Afgesplitst uit Fisconet-compilatie (pdftotext_compilatie_btw)
+bron_rol: itaa_lex
 chunk:
   level: 2
-  type: Art.
   sub_strategy: per_definitieblok
+  type: Art.
+itaa-lex-sectie: VI.B
 provenance:
+  generated_at: '2026-05-11T13:40:00Z'
   inputs:
     - id: resources/raw/wetteksten/btw-kbs/WBTW-KB-compilatie.pdf
       sha256: 5f1bad7278d1f8e1f5c00efb5d792f61342d3f7a14a7950caca2937924bfa91c
       version: 06.03.2020
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 7a134f4
-    model:
-    prompt_version:
-  generated_at: '2026-05-09T16:15:18Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
   trust:
-    status: needs-rework
     confirmed_at: '2026-05-11T11:46:29Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "B1/B2: artikel 81, 82, 83 verschijnen als headings '## Art. 81', '## Art. 82', '## Art. 83' — de nummering loopt niet in volgorde na Art. 7 en is vermoedelijk een extractie-artefact (artikelnummers met ingebedde slash: Art. 8/1, 8/2, 8/3 werden samengevoegd). A6: op regel 687/694 staat sterk uitgerekte spatie-uitlijning binnen de wijzigingsnotitie van Art. 15 en 16 ('De tekst van KB        nr.   4,   artikel   15,   is   van   toepassing    met   ingang     van    01.01.1971') — typisch PDF-tab-extractieartefact. C1: bullets in bijlage gebruiken '*' (markdown-conform) maar zijn niet consequent — sommige genummerde subitems ontbreken markdown-li-niveau. Inhoud is volledig aanwezig en de 18 ##-headings op Art.-niveau zijn een sterke basis."
     layer1:
       status: pass
-      run_id: 20260509-212552
-      run_at:
+      run_id: 20260511-134044
+      run_at: '2026-05-11T13:40:47Z'
       heading_count: 18
-      max_section_chars: 5352
+      max_section_chars: 15909
       file_size_chars: 47217
       flags: []
     layer2:
-      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T11:46:29Z'
-      rationale: "B1/B2: artikel 81, 82, 83 verschijnen als headings '## Art. 81', '## Art. 82', '## Art. 83' — de nummering loopt niet in volgorde na Art. 7 en is vermoedelijk een extractie-artefact (artikelnummers met ingebedde slash: Art. 8/1, 8/2, 8/3 werden samengevoegd). A6: op regel 687/694 staat sterk uitgerekte spatie-uitlijning binnen de wijzigingsnotitie van Art. 15 en 16 ('De tekst van KB        nr.   4,   artikel   15,   is   van   toepassing    met   ingang     van    01.01.1971') — typisch PDF-tab-extractieartefact. C1: bullets in bijlage gebruiken '*' (markdown-conform) maar zijn niet consequent — sommige genummerde subitems ontbreken markdown-li-niveau. Inhoud is volledig aanwezig en de 18 ##-headings op Art.-niveau zijn een sterke basis."
       concrete_problemen:
-        - regel: 227
-          categorie: B1
+        - categorie: B1
+          regel: 227
           type: other
           voorbeeld: '## Art. 81 — verwacht was ## Art. 8/1 (slash-artikel samengevoegd in headingnummer)'
-        - regel: 456
-          categorie: B1
+        - categorie: B1
+          regel: 456
           type: other
           voorbeeld: '## Art. 82 — verwacht was ## Art. 8/2'
-        - regel: 483
-          categorie: B1
+        - categorie: B1
+          regel: 483
           type: other
           voorbeeld: '## Art. 83 — verwacht was ## Art. 8/3'
-        - regel: 687
-          categorie: A6
+        - categorie: A6
+          regel: 687
           type: other
           voorbeeld: De tekst van KB        nr.   4,   artikel   15,   is   van   toepassing    met   ingang     van    01.01.1971
-        - regel: 694
-          categorie: A6
+        - categorie: A6
+          regel: 694
           type: other
           voorbeeld: De tekst van KB        nr.   4,   artikel   16,   is   van   toepassing    met   ingang     van    01.01.1971
+      rationale: 'B1/B2: artikel 81, 82, 83 verschijnen als headings ''## Art. 81'', ''## Art. 82'', ''## Art. 83'' — de nummering loopt niet in volgorde na Art. 7 en is vermoedelijk een extractie-artefact (artikelnummers met ingebedde slash: Art. 8/1, 8/2, 8/3 werden samengevoegd). A6: op regel 687/694 staat sterk uitgerekte spatie-uitlijning binnen de wijzigingsnotitie van Art. 15 en 16 (''De tekst van KB        nr.   4,   artikel   15,   is   van   toepassing    met   ingang     van    01.01.1971'') — typisch PDF-tab-extractieartefact. C1: bullets in bijlage gebruiken ''*'' (markdown-conform) maar zijn niet consequent — sommige genummerde subitems ontbreken markdown-li-niveau. Inhoud is volledig aanwezig en de 18 ##-headings op Art.-niveau zijn een sterke basis.'
+      run_at: '2026-05-11T11:46:29Z'
+      status: needs-rework
+    rationale: 'B1/B2: artikel 81, 82, 83 verschijnen als headings ''## Art. 81'', ''## Art. 82'', ''## Art. 83'' — de nummering loopt niet in volgorde na Art. 7 en is vermoedelijk een extractie-artefact (artikelnummers met ingebedde slash: Art. 8/1, 8/2, 8/3 werden samengevoegd). A6: op regel 687/694 staat sterk uitgerekte spatie-uitlijning binnen de wijzigingsnotitie van Art. 15 en 16 (''De tekst van KB        nr.   4,   artikel   15,   is   van   toepassing    met   ingang     van    01.01.1971'') — typisch PDF-tab-extractieartefact. C1: bullets in bijlage gebruiken ''*'' (markdown-conform) maar zijn niet consequent — sommige genummerde subitems ontbreken markdown-li-niveau. Inhoud is volledig aanwezig en de 18 ##-headings op Art.-niveau zijn een sterke basis.'
+    status: needs-rework
+status: beschikbaar
+tags:
+  - VI.B
+  - '2.4'
+wet: K.B. nr. 4 van 29 december 1969, met betrekking tot de teruggaven inzake belasting over de toegevoegde waarde
 ---
 
 # K.B. nr. 4 van 29 december 1969, met betrekking tot de teruggaven inzake belasting over de toegevoegde waarde

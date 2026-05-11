@@ -1,59 +1,61 @@
 ---
-tags: [VI.B, '2.4']
-itaa-lex-sectie: VI.B
-wet: K.B. nr. 46 van 29 december 1992, tot regeling van de aangifte van de intracommunautaire verwerving van vervoermiddelen en van de betaling van de ter zake verschuldigde BTW
-bron_rol: itaa_lex
-status: beschikbaar
 bijgewerkt: 29.12.1992
 bron: Afgesplitst uit Fisconet-compilatie (pdftotext_compilatie_btw)
+bron_rol: itaa_lex
 chunk:
   level: 2
-  type: Art.
   sub_strategy:
+  type: Art.
+itaa-lex-sectie: VI.B
 provenance:
+  generated_at: '2026-05-11T13:40:00Z'
   inputs:
     - id: resources/raw/wetteksten/btw-kbs/WBTW-KB-compilatie.pdf
       sha256: 5f1bad7278d1f8e1f5c00efb5d792f61342d3f7a14a7950caca2937924bfa91c
       version: 06.03.2020
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 7a134f4
-    model:
-    prompt_version:
-  generated_at: '2026-05-09T16:15:19Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
   trust:
-    status: needs-rework
     confirmed_at: '2026-05-11T11:46:29Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "A6: op regels 66, 182 en 188 staan uitgerekte tab-spaties in de wijzigingsnotities van Art. 1, 9 en 10: 'De tekst van KB         nr.   46,   artikel    1,   is   van   toepassing     met   ingang     van    01.01.1993' — typisch PDF-tab-extractieartefact dat ook in KB4 voorkomt. De headings zijn correct (## Art. 1 t/m 10), inhoud is volledig en er zijn geen paginaresten of kolom-bleed gedetecteerd. Laag-1 pass zonder flags bevestigt de beperkte ernst."
     layer1:
       status: pass
-      run_id: 20260509-212552
-      run_at:
+      run_id: 20260511-134044
+      run_at: '2026-05-11T13:40:47Z'
       heading_count: 10
       max_section_chars: 1545
       file_size_chars: 9431
       flags: []
     layer2:
-      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T11:46:29Z'
-      rationale: "A6: op regels 66, 182 en 188 staan uitgerekte tab-spaties in de wijzigingsnotities van Art. 1, 9 en 10: 'De tekst van KB         nr.   46,   artikel    1,   is   van   toepassing     met   ingang     van    01.01.1993' — typisch PDF-tab-extractieartefact dat ook in KB4 voorkomt. De headings zijn correct (## Art. 1 t/m 10), inhoud is volledig en er zijn geen paginaresten of kolom-bleed gedetecteerd. Laag-1 pass zonder flags bevestigt de beperkte ernst."
       concrete_problemen:
-        - regel: 66
-          categorie: A6
+        - categorie: A6
+          regel: 66
           type: other
           voorbeeld: De tekst van KB         nr.   46,   artikel    1,   is   van   toepassing     met   ingang     van    01.01.1993
-        - regel: 182
-          categorie: A6
+        - categorie: A6
+          regel: 182
           type: other
           voorbeeld: De tekst van KB        nr.   46,   artikel    9,   is   van   toepassing     met   ingang     van    01.01.1993
-        - regel: 188
-          categorie: A6
+        - categorie: A6
+          regel: 188
           type: other
           voorbeeld: De tekst van KB        nr.   46,   artikel   10,   is   van   toepassing     met    ingang    van    01.01.1993
+      rationale: 'A6: op regels 66, 182 en 188 staan uitgerekte tab-spaties in de wijzigingsnotities van Art. 1, 9 en 10: ''De tekst van KB         nr.   46,   artikel    1,   is   van   toepassing     met   ingang     van    01.01.1993'' — typisch PDF-tab-extractieartefact dat ook in KB4 voorkomt. De headings zijn correct (## Art. 1 t/m 10), inhoud is volledig en er zijn geen paginaresten of kolom-bleed gedetecteerd. Laag-1 pass zonder flags bevestigt de beperkte ernst.'
+      run_at: '2026-05-11T11:46:29Z'
+      status: needs-rework
+    rationale: 'A6: op regels 66, 182 en 188 staan uitgerekte tab-spaties in de wijzigingsnotities van Art. 1, 9 en 10: ''De tekst van KB         nr.   46,   artikel    1,   is   van   toepassing     met   ingang     van    01.01.1993'' — typisch PDF-tab-extractieartefact dat ook in KB4 voorkomt. De headings zijn correct (## Art. 1 t/m 10), inhoud is volledig en er zijn geen paginaresten of kolom-bleed gedetecteerd. Laag-1 pass zonder flags bevestigt de beperkte ernst.'
+    status: needs-rework
+status: beschikbaar
+tags:
+  - VI.B
+  - '2.4'
+wet: K.B. nr. 46 van 29 december 1992, tot regeling van de aangifte van de intracommunautaire verwerving van vervoermiddelen en van de betaling van de ter zake verschuldigde BTW
 ---
 
 # K.B. nr. 46 van 29 december 1992, tot regeling van de aangifte van de intracommunautaire verwerving van vervoermiddelen en van de betaling van de ter zake verschuldigde BTW

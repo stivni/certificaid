@@ -30,8 +30,8 @@ provenance:
     rationale: "Art. 1 t/m Art. 5 staan correct als ## headings. Echter: op regel 75 staat een amenderingsnotitie met meerdere interne spaties als kolom-uitlijning (C3-pseudo-tabel-artefact). Op regels 97 en 128 staan paginamarkeringen '- KB nr. 13 / 1 -' en '- KB nr. 13 / 2 -' die PDF-pagina-nummering zijn (A1-type)."
     layer1:
       status: pass
-      run_id: 20260509-212552
-      run_at:
+      run_id: 20260511-134044
+      run_at: '2026-05-11T13:40:48Z'
       heading_count: 6
       max_section_chars: 1558
       file_size_chars: 4786

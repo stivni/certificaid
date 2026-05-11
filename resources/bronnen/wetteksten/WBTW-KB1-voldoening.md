@@ -1,47 +1,49 @@
 ---
-tags: [VI.B, '2.4']
-itaa-lex-sectie: VI.B
-wet: K.B. nr. 1, 29 december 1992, met betrekking tot de regeling voor de voldoening van de belasting over de toegevoegde waarde
-bron_rol: itaa_lex
-status: beschikbaar
 bijgewerkt: '2024'
 bron: Fisconetplus.be (officieuze gecoördineerde versie)
+bron_rol: itaa_lex
 chunk:
   level: 4
-  type: Art.
   sub_strategy:
+  type: Art.
+itaa-lex-sectie: VI.B
 provenance:
+  generated_at: '2026-05-11T13:40:00Z'
   inputs:
     - id: resources/raw/wetteksten/btw-kbs/WBTW-KB1-voldoening.pdf
       sha256: a658fe034ecb79721ad2b7d66e6990e3209b6143a294d8f7316538595efc98fb
       version: '2024'
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 7a134f4
-    model:
-    prompt_version:
-  generated_at: '2026-05-09T16:15:16Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 7a134f4
+    prompt_version:
   trust:
-    status: trusted
     confirmed_at: '2026-05-09T21:27:46Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "L1=pass; L1.5=improvement (Auto-synthesized: heading-injection (inject_wbtw_headings.py) — staging is structureel beter dan resources-versie.); L2=trusted (ETL-fix toegepast: inject_wbtw_headings.py heeft TOC-strip + Artikel-N → ## Art. heading-injectie + AFDELING-normalisatie uitgevoerd. Eerdere needs-rework op 'missing-section' opgeheven.)"
     layer1:
       status: pass
-      run_id: 20260509-212552
-      run_at:
+      run_id: 20260511-134044
+      run_at: '2026-05-11T13:40:47Z'
       heading_count: 62
       max_section_chars: 9652
-      file_size_chars: 109659
+      file_size_chars: 109660
       flags: []
     layer2:
-      status: trusted
       agent:
-      run_at:
-      rationale: 'Goed gestructureerd: 51 #### Art.-headings, Hoofdstuk/Afdeling-blokken intact. Tail-Art. N4 met opgeheven-marker is correcte juridische notatie. Geen kolom-bleed gespot in samples.'
       concrete_problemen: []
+      rationale: 'Goed gestructureerd: 51 #### Art.-headings, Hoofdstuk/Afdeling-blokken intact. Tail-Art. N4 met opgeheven-marker is correcte juridische notatie. Geen kolom-bleed gespot in samples.'
+      run_at:
+      status: trusted
+    rationale: 'L1=pass; L1.5=improvement (Auto-synthesized: heading-injection (inject_wbtw_headings.py) — staging is structureel beter dan resources-versie.); L2=trusted (ETL-fix toegepast: inject_wbtw_headings.py heeft TOC-strip + Artikel-N → ## Art. heading-injectie + AFDELING-normalisatie uitgevoerd. Eerdere needs-rework op ''missing-section'' opgeheven.)'
+    status: trusted
+status: beschikbaar
+tags:
+  - VI.B
+  - '2.4'
+wet: K.B. nr. 1, 29 december 1992, met betrekking tot de regeling voor de voldoening van de belasting over de toegevoegde waarde
 ---
 
 # BTW KB nr. 1 — Voldoening

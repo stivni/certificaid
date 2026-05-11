@@ -30,8 +30,8 @@ provenance:
     rationale: "B5: 'Enig artikel' staat op regel 60 als gecentreerde plain-text regel (met grote witruimte-inspringing) zonder ##-prefix — een mens zou schrijven '## Enig artikel'. Dat is een duidelijk extractie-artefact. Het bestand is verder inhoudelijk compleet (één artikel, volledig) en de frontmatter klopt. Het is een zeer kort MB (1.2KB) waarbij de enige structuurhiërarchie de artikelkop is, die ontbreekt."
     layer1:
       status: pass
-      run_id: 20260509-212552
-      run_at:
+      run_id: 20260511-134044
+      run_at: '2026-05-11T13:40:48Z'
       heading_count: 0
       max_section_chars: 1201
       file_size_chars: 1201

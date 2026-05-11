@@ -21,13 +21,17 @@ provenance:
     confirmed_by: subagent-sonnet-4-6
     rationale: "B2: Ernstige heading-hiërarchie-mismatch: alle 2935 Art.-headings staan op niveau ## (bv. '## Art. 1') terwijl de structuurlagen TITEL (###), HOOFDSTUK (####) en AFDELING (#####) dieper zitten — Art. staat dus hoger dan zijn eigen container-secties. D1: Meerdere Art.-headings beginnen met een onvolledige zin doordat de eerste zin-woorden op de vorige PDF-pagina stonden (bv. '## Art. 21' gevolgd door ', met uitzondering van de huwelijksakte...'; '## Art. 24' gevolgd door 'in de DABS opgenomen akten...'; '## Art. 38' gevolgd door 'burgerrechtelijk aansprakelijk...'). Laag-1 was 'not_run'."
     layer1:
-      file_size_chars:
-      flags: []
-      heading_count:
-      max_section_chars:
-      run_at:
-      run_id:
-      status: not_run
+      status: warn
+      run_id: 20260511-134044
+      run_at: '2026-05-11T13:40:46Z'
+      heading_count: 3430
+      max_section_chars: 57640
+      file_size_chars: 1496726
+      flags:
+        - name: max_section_size
+          status: warn
+          detail: 'langste sectie op ##-niveau: 57640 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
+          samples: []
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6

@@ -1,48 +1,50 @@
 ---
-tags: [VI.B, '2.4']
-itaa-lex-sectie: VI.B
-wet: K.B. 30 december 2009 tot het bepalen van de definitie en de voorwaarden waaraan een geregistreerd kassasysteem moet voldoen
-bron_rol: itaa_lex
-status: beschikbaar
 bijgewerkt: '2024'
 bron: Fisconetplus.be (officieuze gecoördineerde versie)
+bron_rol: itaa_lex
 chunk:
   level: 2
-  type: Art.
   sub_strategy:
+  type: Art.
+itaa-lex-sectie: VI.B
 provenance:
+  generated_at: '2026-05-11T13:40:00Z'
   inputs:
     - id: resources/raw/wetteksten/btw-kbs/WBTW-KB-GKS.pdf
       sha256: da9aaad56c0edfe76ed480b9a7332ba627aeedb8cbe72c3f3fc83d074d9b459a
       version: '2024'
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 7a134f4
-    model:
-    prompt_version:
-  generated_at: '2026-05-09T16:15:16Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 7a134f4
+    prompt_version:
   trust:
-    status: trusted
     confirmed_at: '2026-05-09T21:27:46Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "L1=pass; L1.5=improvement (Auto-synthesized: heading-injection (inject_wbtw_headings.py) — staging is structureel beter dan resources-versie.); L2=trusted (ETL-fix toegepast: inject_wbtw_headings.py heeft TOC-strip + Artikel-N → ## Art. heading-injectie + AFDELING-normalisatie uitgevoerd. Eerdere needs-rework op 'missing-section' opgeheven.)"
     layer1:
       status: pass
-      run_id: 20260509-212552
-      run_at:
+      run_id: 20260511-134044
+      run_at: '2026-05-11T13:40:47Z'
       heading_count: 6
       max_section_chars: 2847
-      file_size_chars: 7557
+      file_size_chars: 7558
       flags: []
     layer2:
-      status: trusted
       agent:
-      run_at:
-      rationale: "Kleine KB, 6 ## Art.-headings (Art. 1 t/m Art. 4 + N-bijlage). Inline 'Art. 2.Het' op heading-regel is licht maar tolerabel. Body inhoudelijk volledig."
       concrete_problemen:
         - '## Art. 2.Het — heading bevat eerste woord van body'
+      rationale: 'Kleine KB, 6 ## Art.-headings (Art. 1 t/m Art. 4 + N-bijlage). Inline ''Art. 2.Het'' op heading-regel is licht maar tolerabel. Body inhoudelijk volledig.'
+      run_at:
+      status: trusted
+    rationale: 'L1=pass; L1.5=improvement (Auto-synthesized: heading-injection (inject_wbtw_headings.py) — staging is structureel beter dan resources-versie.); L2=trusted (ETL-fix toegepast: inject_wbtw_headings.py heeft TOC-strip + Artikel-N → ## Art. heading-injectie + AFDELING-normalisatie uitgevoerd. Eerdere needs-rework op ''missing-section'' opgeheven.)'
+    status: trusted
+status: beschikbaar
+tags:
+  - VI.B
+  - '2.4'
+wet: K.B. 30 december 2009 tot het bepalen van de definitie en de voorwaarden waaraan een geregistreerd kassasysteem moet voldoen
 ---
 
 # BTW KB — Geregistreerd kassasysteem (GKS)

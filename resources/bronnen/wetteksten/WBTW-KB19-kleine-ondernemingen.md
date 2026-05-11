@@ -1,48 +1,50 @@
 ---
-tags: [VI.B, '2.4']
-itaa-lex-sectie: VI.B
-wet: K.B. nr. 19, 15 december 2024, met betrekking tot de vrijstellingsregeling van belasting over de toegevoegde waarde in het voordeel van kleine ondernemingen
-bron_rol: itaa_lex
-status: beschikbaar
 bijgewerkt: '2024'
 bron: Fisconetplus.be (officieuze gecoördineerde versie)
+bron_rol: itaa_lex
 chunk:
   level: 3
-  type: Art.
   sub_strategy:
+  type: Art.
+itaa-lex-sectie: VI.B
 provenance:
+  generated_at: '2026-05-11T13:40:00Z'
   inputs:
     - id: resources/raw/wetteksten/btw-kbs/WBTW-KB19-kleine-ondernemingen.pdf
       sha256: fe0e59d7fafe2333aae726edf2bb85097ffd04dc2e919e24225dc4c7f8466960
       version: '2024'
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 7a134f4
-    model:
-    prompt_version:
-  generated_at: '2026-05-09T16:15:16Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 7a134f4
+    prompt_version:
   trust:
-    status: trusted
     confirmed_at: '2026-05-09T21:27:46Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "L1=pass; L1.5=improvement (Auto-synthesized: heading-injection (inject_wbtw_headings.py) — staging is structureel beter dan resources-versie.); L2=trusted (ETL-fix toegepast: inject_wbtw_headings.py heeft TOC-strip + Artikel-N → ## Art. heading-injectie + AFDELING-normalisatie uitgevoerd. Eerdere needs-rework op 'missing-section' opgeheven.)"
     layer1:
       status: pass
-      run_id: 20260509-212552
-      run_at:
+      run_id: 20260511-134044
+      run_at: '2026-05-11T13:40:47Z'
       heading_count: 20
       max_section_chars: 4293
-      file_size_chars: 22551
+      file_size_chars: 22552
       flags: []
     layer2:
-      status: trusted
       agent:
-      run_at:
-      rationale: "Recente KB (2024) met ## HOOFDSTUK / ### Art.-structuur, 16 ### Art.-headings, frontmatter correct. Tail bevat verwijzings-bijlage maar zonder duidelijke breakage. Cosmetisch: 'Art. 2.Voor' inline-content op heading-regel."
       concrete_problemen:
         - '### Art. 2.Voor — heading bevat eerste woord van body'
+      rationale: 'Recente KB (2024) met ## HOOFDSTUK / ### Art.-structuur, 16 ### Art.-headings, frontmatter correct. Tail bevat verwijzings-bijlage maar zonder duidelijke breakage. Cosmetisch: ''Art. 2.Voor'' inline-content op heading-regel.'
+      run_at:
+      status: trusted
+    rationale: 'L1=pass; L1.5=improvement (Auto-synthesized: heading-injection (inject_wbtw_headings.py) — staging is structureel beter dan resources-versie.); L2=trusted (ETL-fix toegepast: inject_wbtw_headings.py heeft TOC-strip + Artikel-N → ## Art. heading-injectie + AFDELING-normalisatie uitgevoerd. Eerdere needs-rework op ''missing-section'' opgeheven.)'
+    status: trusted
+status: beschikbaar
+tags:
+  - VI.B
+  - '2.4'
+wet: K.B. nr. 19, 15 december 2024, met betrekking tot de vrijstellingsregeling van belasting over de toegevoegde waarde in het voordeel van kleine ondernemingen
 ---
 
 # BTW KB nr. 19 — Vrijstellingsregeling kleine ondernemingen

@@ -1,47 +1,49 @@
 ---
-tags: [VI.B, '2.4']
-itaa-lex-sectie: VI.B
-wet: K.B. nr. 54, 21 december 2023, met betrekking tot de andere regeling van entrepot dan douane-entrepot bedoeld in artikel 39quater van het WBTW
-bron_rol: itaa_lex
-status: beschikbaar
 bijgewerkt: '2023'
 bron: Fisconetplus.be (officieuze gecoördineerde versie)
+bron_rol: itaa_lex
 chunk:
   level: 2
-  type: Art.
   sub_strategy:
+  type: Art.
+itaa-lex-sectie: VI.B
 provenance:
+  generated_at: '2026-05-11T13:40:00Z'
   inputs:
     - id: resources/raw/wetteksten/btw-kbs/WBTW-KB54-entrepot.pdf
       sha256: 9193c568255efce6d1fdc5d07f353f94cc5bba2a9c0edd2ee8ab27861b669549
       version: '2023'
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 7a134f4
-    model:
-    prompt_version:
-  generated_at: '2026-05-09T16:15:16Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 7a134f4
+    prompt_version:
   trust:
-    status: trusted
     confirmed_at: '2026-05-09T21:27:46Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "L1=pass; L1.5=improvement (Auto-synthesized: heading-injection (inject_wbtw_headings.py) — staging is structureel beter dan resources-versie.); L2=trusted (ETL-fix toegepast: inject_wbtw_headings.py heeft TOC-strip + Artikel-N → ## Art. heading-injectie + AFDELING-normalisatie uitgevoerd. Eerdere needs-rework op 'missing-section' opgeheven.)"
     layer1:
       status: pass
-      run_id: 20260509-212552
-      run_at:
+      run_id: 20260511-134044
+      run_at: '2026-05-11T13:40:47Z'
       heading_count: 9
       max_section_chars: 11789
-      file_size_chars: 21117
+      file_size_chars: 21118
       flags: []
     layer2:
-      status: trusted
       agent:
-      run_at:
-      rationale: "Modern PDF-extract met 9 ## Art-headings en duidelijk slot-artikel ('## Art. 9 — De minister bevoegd voor Financiën is belast'). Frontmatter consistent, body compleet."
       concrete_problemen: []
+      rationale: 'Modern PDF-extract met 9 ## Art-headings en duidelijk slot-artikel (''## Art. 9 — De minister bevoegd voor Financiën is belast''). Frontmatter consistent, body compleet.'
+      run_at:
+      status: trusted
+    rationale: 'L1=pass; L1.5=improvement (Auto-synthesized: heading-injection (inject_wbtw_headings.py) — staging is structureel beter dan resources-versie.); L2=trusted (ETL-fix toegepast: inject_wbtw_headings.py heeft TOC-strip + Artikel-N → ## Art. heading-injectie + AFDELING-normalisatie uitgevoerd. Eerdere needs-rework op ''missing-section'' opgeheven.)'
+    status: trusted
+status: beschikbaar
+tags:
+  - VI.B
+  - '2.4'
+wet: K.B. nr. 54, 21 december 2023, met betrekking tot de andere regeling van entrepot dan douane-entrepot bedoeld in artikel 39quater van het WBTW
 ---
 
 # BTW KB nr. 54 — Entrepot (art. 39quater)

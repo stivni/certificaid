@@ -25,11 +25,11 @@ provenance:
     rationale: "Zelfde TOC-dotted-leaders probleem als Brussel (74 regels, A2/B7). Bovendien: A1-artefact op r.143 — een alleenstaande 'I' (vermoedelijk een paginanummer of TOC-letter uit de PDF-extractie). B4: plain-text all-caps structuurlabels in het corps (TIJDELIJKE BEPALINGEN r.7145, OVERGANGSBEPALINGEN r.7357, BIJBEPALINGEN r.7471, INWERKINGTREDING r.7497). De tarieftabel rond r.2130 bevat kolom-bleed waarbij NL en FR kolomtitels op afzonderlijke regels staan ('Van / De', 'tot inbegrepen a / à … inclus') maar geen echte interleaving van zinnen — dit is grensgevaal maar acceptabel als PDF-tabelextractie."
     layer1:
       status: warn
-      run_id: 20260509-212552
-      run_at:
-      heading_count: 607
+      run_id: 20260511-134044
+      run_at: '2026-05-11T13:40:46Z'
+      heading_count: 609
       max_section_chars: 58101
-      file_size_chars: 609340
+      file_size_chars: 609384
       flags:
         - name: max_section_size
           status: warn

@@ -19,13 +19,17 @@ provenance:
     confirmed_by: subagent-sonnet-4-6
     rationale: 'Eveneens manueel aangemaakt; geen PDF-extractiesporen. Tabellen correct in pipe-syntax, heading-hiërarchie consistent (## Vak XXI/XVII/XVIII, ### Rubriek). Tarief-samenvatting aan het einde is helder. Kruisreferenties naar WIB92-artikelen correct. Frontmatter stemt overeen met inhoud.'
     layer1:
-      file_size_chars:
-      flags: []
-      heading_count:
-      max_section_chars:
-      run_at:
-      run_id:
-      status: not_run
+      status: fail
+      run_id: 20260511-134044
+      run_at: '2026-05-11T13:40:50Z'
+      heading_count: 16
+      max_section_chars: 1484
+      file_size_chars: 7720
+      flags:
+        - name: frontmatter_complete
+          status: fail
+          detail: "ontbrekende velden: ['bron']"
+          samples: []
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6

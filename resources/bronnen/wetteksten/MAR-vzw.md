@@ -25,13 +25,13 @@ provenance:
     confirmed_by: subagent-sonnet-4-6
     rationale: "A7/C3: Het bestand is een rekeningplan-lijst waarbij de kolom-layout van het PDF totaal verloren is gegaan. Rekeningnummers (3- en 4-cijferig) staan als losse regels, gevolgd door de rekeningnaam op een volgende regel, soms met sub-nummers (bv. '2800' op één regel, 'Aanschaffingswaarde' op de volgende). Dit is geen markdown-conventie maar een directe PDF-column-extractie. A1: Paginanummer-resten staan als body-regels door het bestand ('1 | Minimum Algemeen Rekeningstelsel...', '2 | ...', enz. op 12 plaatsen). B4: Secties 1 t/m 7 (Klassen) staan als plain-text paragrafen ('1.', '2.', enz.) zonder ## of ### heading. Laag-1 was 'not_run'."
     layer1:
-      file_size_chars:
+      status: pass
+      run_id: 20260511-134044
+      run_at: '2026-05-11T13:40:45Z'
+      heading_count: 0
+      max_section_chars: 19323
+      file_size_chars: 19323
       flags: []
-      heading_count:
-      max_section_chars:
-      run_at:
-      run_id:
-      status: not_run
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6

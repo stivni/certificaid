@@ -70,6 +70,18 @@ _BODY_NOISE = [
     re.compile(r'^www\.fisconetplus\.be\b'),
     # Lijst-van-MB's pagina (TOC-footer in MB-compilatie).
     re.compile(r'^-\s*Lijst van de MB.s\s*/\s*\d+\s*-\s*$'),
+    # Catch-all running header met fisconetplus URL ergens in de regel,
+    # gevolgd door page-nummer-info (`pg. I/1`, `KBxx pg. yy`). Dekt
+    # patronen zoals:
+    #   "Tarieven                       www.fisconetplus.be          KB20   pg. I/1"
+    #   "T. A - Goederen 6 pct.         www.fisconetplus.be          KB20   pg. II/1"
+    # Vereist dat 'fisconetplus' ergens in de regel staat samen met `pg.\s*`
+    # of `KB\d+`-marker, zodat we body-paragrafen die fisconet citeren niet
+    # per ongeluk strippen.
+    re.compile(
+        r'^.*?\bwww\.fisconetplus\b.*?\b(?:pg\.|KB\d+|MB\d+).*$',
+        re.I,
+    ),
 ]
 
 

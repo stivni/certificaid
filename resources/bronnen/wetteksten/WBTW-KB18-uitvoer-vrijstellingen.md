@@ -1,75 +1,77 @@
 ---
-tags: [VI.B, '2.4']
-itaa-lex-sectie: VI.B
-wet: K.B. nr. 18 van 29 december 1992, met betrekking tot de vrijstellingen ten aanzien van de uitvoer van goederen en diensten naar een plaats buiten de Gemeenschap, op het stuk van de belasting over de toegevoegde waarde
-bron_rol: itaa_lex
-status: beschikbaar
 bijgewerkt: 29.12.1992
 bron: Afgesplitst uit Fisconet-compilatie (pdftotext_compilatie_btw)
+bron_rol: itaa_lex
 chunk:
   level: 4
-  type: Art.
   sub_strategy:
+  type: Art.
+itaa-lex-sectie: VI.B
 provenance:
+  generated_at: '2026-05-11T13:40:00Z'
   inputs:
     - id: resources/raw/wetteksten/btw-kbs/WBTW-KB-compilatie.pdf
       sha256: 5f1bad7278d1f8e1f5c00efb5d792f61342d3f7a14a7950caca2937924bfa91c
       version: 06.03.2020
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 7a134f4
-    model:
-    prompt_version:
-  generated_at: '2026-05-09T16:15:18Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
   trust:
-    status: needs-rework
     confirmed_at: '2026-05-11T11:41:58Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "Ernstigste problemen in deze batch: (1) A3: dubbele TOC mid-body — inhoudstafel op regels 65-85 (met lege afdeling-stubs) wordt daarna HERHAALD als echte headings/secties, wat verdubbeling geeft; (2) A1: meerdere pagina-footers mid-body ('Regeling kleine ondernemingen  www.fisconetplus.be  pg. N' op regels 465, 527, 589, 653, 725); (3) G3: KB nr. 19 (kleine ondernemingen) begint plotseling op regel 408 midden in de bijlage van KB 18 — het bestand bevat inhoud van twee KBs door elkaar; (4) C3: Bijlage-tabellen als ASCII-pseudo-tabel; (5) A8: 7-spaties-inspringing in wijzigings-annotaties. De KB19-contaminatie is een structureel probleem."
     layer1:
       status: pass
-      run_id: 20260509-212552
-      run_at:
+      run_id: 20260511-134044
+      run_at: '2026-05-11T13:40:47Z'
       heading_count: 50
-      max_section_chars: 9082
-      file_size_chars: 39850
+      max_section_chars: 8877
+      file_size_chars: 39322
       flags: []
     layer2:
-      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T11:41:58Z'
-      rationale: "Ernstigste problemen in deze batch: (1) A3: dubbele TOC mid-body — inhoudstafel op regels 65-85 (met lege afdeling-stubs) wordt daarna HERHAALD als echte headings/secties, wat verdubbeling geeft; (2) A1: meerdere pagina-footers mid-body ('Regeling kleine ondernemingen  www.fisconetplus.be  pg. N' op regels 465, 527, 589, 653, 725); (3) G3: KB nr. 19 (kleine ondernemingen) begint plotseling op regel 408 midden in de bijlage van KB 18 — het bestand bevat inhoud van twee KBs door elkaar; (4) C3: Bijlage-tabellen als ASCII-pseudo-tabel; (5) A8: 7-spaties-inspringing in wijzigings-annotaties. De KB19-contaminatie is een structureel probleem."
       concrete_problemen:
-        - regel: 65
-          categorie: A3
+        - categorie: A3
+          regel: 65
           type: other
           voorbeeld: '## HOOFDSTUK I — Vrijstelling ingesteld bij artikel 39, § 1, van het Wetboek (TOC-stub)'
-        - regel: 86
-          categorie: A3
+        - categorie: A3
+          regel: 86
           type: other
           voorbeeld: '## HOOFDSTUK I\n          Vrijstelling ingesteld bij artikel 39, § 1 (herhaling als echte sectie)'
-        - regel: 408
-          categorie: G3
+        - categorie: G3
+          regel: 408
           type: other
           voorbeeld: Koninklijk besluit nr. 19, van 29 juni 2014, met betrekking tot de vrijstellingsregeling...
-        - regel: 465
-          categorie: A1
+        - categorie: A1
+          regel: 465
           type: form-feed
           voorbeeld: Regeling kleine ondernemingen                  www.fisconetplus.be                                      pg.1
-        - regel: 527
-          categorie: A1
+        - categorie: A1
+          regel: 527
           type: form-feed
           voorbeeld: Regeling kleine ondernemingen                 www.fisconetplus.be                                      pg.2
-        - regel: 599
-          categorie: C3
+        - categorie: C3
+          regel: 599
           type: pseudo-table
           voorbeeld: '                                 Omschrijving                                  GN-Code'
-        - regel: 90
-          categorie: A6
+        - categorie: A6
+          regel: 90
           type: other
           voorbeeld: (De tekst van KB        nr.   18,   artikel    1,   is   van   toepassing     met    ingang    van    01.01.1993
+      rationale: 'Ernstigste problemen in deze batch: (1) A3: dubbele TOC mid-body — inhoudstafel op regels 65-85 (met lege afdeling-stubs) wordt daarna HERHAALD als echte headings/secties, wat verdubbeling geeft; (2) A1: meerdere pagina-footers mid-body (''Regeling kleine ondernemingen  www.fisconetplus.be  pg. N'' op regels 465, 527, 589, 653, 725); (3) G3: KB nr. 19 (kleine ondernemingen) begint plotseling op regel 408 midden in de bijlage van KB 18 — het bestand bevat inhoud van twee KBs door elkaar; (4) C3: Bijlage-tabellen als ASCII-pseudo-tabel; (5) A8: 7-spaties-inspringing in wijzigings-annotaties. De KB19-contaminatie is een structureel probleem.'
+      run_at: '2026-05-11T11:41:58Z'
+      status: needs-rework
+    rationale: 'Ernstigste problemen in deze batch: (1) A3: dubbele TOC mid-body — inhoudstafel op regels 65-85 (met lege afdeling-stubs) wordt daarna HERHAALD als echte headings/secties, wat verdubbeling geeft; (2) A1: meerdere pagina-footers mid-body (''Regeling kleine ondernemingen  www.fisconetplus.be  pg. N'' op regels 465, 527, 589, 653, 725); (3) G3: KB nr. 19 (kleine ondernemingen) begint plotseling op regel 408 midden in de bijlage van KB 18 — het bestand bevat inhoud van twee KBs door elkaar; (4) C3: Bijlage-tabellen als ASCII-pseudo-tabel; (5) A8: 7-spaties-inspringing in wijzigings-annotaties. De KB19-contaminatie is een structureel probleem.'
+    status: needs-rework
+status: beschikbaar
+tags:
+  - VI.B
+  - '2.4'
+wet: K.B. nr. 18 van 29 december 1992, met betrekking tot de vrijstellingen ten aanzien van de uitvoer van goederen en diensten naar een plaats buiten de Gemeenschap, op het stuk van de belasting over de toegevoegde waarde
 ---
 
 # K.B. nr. 18 van 29 december 1992, met betrekking tot de vrijstellingen ten aanzien van de uitvoer van goederen en diensten naar een plaats buiten de Gemeenschap, op het stuk van de belasting over de toegevoegde waarde
@@ -87,7 +89,7 @@ over de toegevoegde waarde.
 Laatstelijk gewijzigd, met ingang van 01.01.2020 (KB 07.11.2019, B.S. 20.11.2019,
 pg. 106949
 
-## HOOFDSTUK I — Vrijstelling ingesteld bij artikel 39, § 1, van het Wetboek
+## HOOFDSTUK I:        Vrijstelling ingesteld bij artikel 39, § 1, van het Wetboek.
 
 ### Afdeling 1:    Uitvoer van goederen door of voor rekening van de verkoper. Vrijstelling
                     ingesteld bij artikel 39, § 1, 1°, van het Wetboek.
@@ -100,13 +102,13 @@ pg. 106949
 ### Afdeling 4:    Goederen uit te voeren in de persoonlijke bagage van de reizigers. Vrijstelling
                     ingesteld bij artikel 39, § 1, 4°, van het Wetboek.
 
-## HOOFDSTUK II — Vrijstelling ingesteld bij artikel 39, § 2, van het Wetboek
+## HOOFDSTUK II: Vrijstelling ingesteld bij artikel 39, § 2, van het Wetboek.
 
-## HOOFDSTUK III — Algemene bepaling betreffende de hoofdstukken I en II
+## HOOFDSTUK III: Algemene bepaling betreffende de hoofdstukken I en II.
 
-## HOOFDSTUK IV — Vrijstelling ingesteld bij artikel 40, § 1, 3°, van het Wetboek
+## HOOFDSTUK IV: Vrijstelling ingesteld bij artikel 40, § 1, 3°, van het Wetboek.
 
-## HOOFDSTUK V — Algemene bepalingen
+## HOOFDSTUK V: Algemene bepalingen.
 
 ## HOOFDSTUK I
           Vrijstelling ingesteld bij artikel 39, § 1, van het Wetboek.
@@ -487,8 +489,6 @@ maar vóór 15 december van het lopend jaar.
 gemaakt van het bedrag van de omzet van de eerste drie kwartalen van het lopend jaar, alsmede een
 raming van de omzet van het vierde kwartaal.
 
-Regeling kleine ondernemingen                  www.fisconetplus.be                                      pg.1
-
 #### Art. 3
        (De tekst van KB nr. 19-2014, art. 3, werd ingevoerd met ingang van 01.04.2014
        (Art. 3, KB 29.06.2014, B.S 09.07.2014, pg. 52811))
@@ -549,8 +549,6 @@ bedrag bedoeld in artikel 56bis, § 1, van het Wetboek, is de belastingplichtige
 regeling van de belasting of eventueel aan de forfaitaire regeling van artikel 56 van het Wetboek, vanaf de
 eerste handeling, in haar geheel genomen, waarvoor het bovenbedoeld bedrag wordt overschreden.
 
-Regeling kleine ondernemingen                 www.fisconetplus.be                                      pg.2
-
         Deze belastingplichtige stelt het hoofd van het controlekantoor van de belasting over de toegevoegde
 waarde waaronder hij ressorteert hiervan onmiddellijk in kennis bij een ter post aangetekende brief waarin
 hij in voorkomend geval aangeeft te opteren voor de forfaitaire regeling van de belasting in de mate dat de
@@ -610,8 +608,6 @@ van kleine ondernemingen wordt opgeheven.
        (Art. 9, KB 29.06.2014, B.S 09.07.2014, pg. 52811))
 
        Dit besluit heeft uitwerking met ingang van 1 april 2014.
-
-Regeling kleine ondernemingen                 www.fisconetplus.be                                        pg.3
 
 #### Art. 10
      (De tekst van KB nr. 19-2014, art. 10, werd ingevoerd met ingang van 01.04.2014 (Art.
@@ -674,8 +670,6 @@ Regeling kleine ondernemingen                 www.fisconetplus.be               
          touw of van kabel
 
          Resten en afval, van gietijzer, van ijzer of van staal                   7204
-
-Regeling kleine ondernemingen               www.fisconetplus.be                                  pg.4
 
                                    Omschrijving                               GN-Code
 
@@ -746,8 +740,6 @@ Regeling kleine ondernemingen               www.fisconetplus.be                 
          Mangaan en werken daarvan, resten en afval                           8111.00.19
 
          Cermets en werken daarvan, resten en afval                           8113.00.40
-
-Regeling kleine ondernemingen              www.fisconetplus.be                                  pg.5
 
 Bijlage A
 

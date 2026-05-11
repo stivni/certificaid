@@ -1,71 +1,73 @@
 ---
-tags: [VI.B, '2.4']
-itaa-lex-sectie: VI.B
-wet: K.B. nr. 20 van 20 juli 1970, tot vaststelling van de tarieven van de belasting over de toegevoegde waarde en tot indeling van de goederen en de diensten bij die tarieven
-bron_rol: itaa_lex
-status: beschikbaar
 bijgewerkt: 20.07.1970
 bron: Afgesplitst uit Fisconet-compilatie (pdftotext_compilatie_btw)
+bron_rol: itaa_lex
 chunk:
   level: 3
-  type: Art.
   sub_strategy:
+  type: Art.
+itaa-lex-sectie: VI.B
 provenance:
+  generated_at: '2026-05-11T13:40:00Z'
   inputs:
     - id: resources/raw/wetteksten/btw-kbs/WBTW-KB-compilatie.pdf
       sha256: 5f1bad7278d1f8e1f5c00efb5d792f61342d3f7a14a7950caca2937924bfa91c
       version: 06.03.2020
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 7a134f4
-    model:
-    prompt_version:
-  generated_at: '2026-05-09T16:15:18Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
   trust:
-    status: needs-rework
     confirmed_at: '2026-05-11T11:46:28Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "A1: 30+ pagina-kopteksten ('Tarieven www.fisconetplus.be KB20 pg. I/1' enz.) doorheen de body op vaste pagina-intervallen — nooit door een mens zo getypt. B4: tabel-rubrieken I t/m XL en Tabel A/B/C staan als plain text zonder ##-prefix; alleen ### Art. 1-artikelen en één ## Afdeling II zijn als headings gemarkeerd. B7: TOC-heading '## AFDELING 5. Slotbepalingen. Art. 22 - 24' eindigt op artikelbereik. Inhoud en volgorde zijn inhoudelijk compleet."
     layer1:
       status: warn
-      run_id: 20260509-212552
-      run_at:
+      run_id: 20260511-134044
+      run_at: '2026-05-11T13:40:47Z'
       heading_count: 9
-      max_section_chars: 131526
-      file_size_chars: 146517
+      max_section_chars: 128566
+      file_size_chars: 143226
       flags:
         - name: max_section_size
           status: warn
-          detail: 'langste sectie op ###-niveau: 131526 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
+          detail: 'langste sectie op ###-niveau: 128566 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
           samples: []
     layer2:
-      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T11:46:28Z'
-      rationale: "A1: 30+ pagina-kopteksten ('Tarieven www.fisconetplus.be KB20 pg. I/1' enz.) doorheen de body op vaste pagina-intervallen — nooit door een mens zo getypt. B4: tabel-rubrieken I t/m XL en Tabel A/B/C staan als plain text zonder ##-prefix; alleen ### Art. 1-artikelen en één ## Afdeling II zijn als headings gemarkeerd. B7: TOC-heading '## AFDELING 5. Slotbepalingen. Art. 22 - 24' eindigt op artikelbereik. Inhoud en volgorde zijn inhoudelijk compleet."
       concrete_problemen:
-        - regel: 121
-          categorie: A1
+        - categorie: A1
+          regel: 121
           type: form-feed
           voorbeeld: Tarieven                                       www.fisconetplus.be                             KB20   pg. I/1
-        - regel: 348
-          categorie: A1
+        - categorie: A1
+          regel: 348
           type: form-feed
           voorbeeld: T. A - Goederen 6 pct.                       www.fisconetplus.be                          KB20      pg. II/1
-        - regel: 276
-          categorie: B4
+        - categorie: B4
+          regel: 276
           type: other
           voorbeeld: BIJLAGE / Tabel A – Goederen en diensten onderworpen aan het tarief van 6 pct. als plain text
-        - regel: 293
-          categorie: B4
+        - categorie: B4
+          regel: 293
           type: other
           voorbeeld: 'I.     Levende dieren. (plain text rubriek zonder ##-prefix)'
-        - regel: 100
-          categorie: B7
+        - categorie: B7
+          regel: 100
           type: dotted-leader
           voorbeeld: '## AFDELING 5.       Slotbepalingen.                                                    Art. 22 - 24'
+      rationale: 'A1: 30+ pagina-kopteksten (''Tarieven www.fisconetplus.be KB20 pg. I/1'' enz.) doorheen de body op vaste pagina-intervallen — nooit door een mens zo getypt. B4: tabel-rubrieken I t/m XL en Tabel A/B/C staan als plain text zonder ##-prefix; alleen ### Art. 1-artikelen en één ## Afdeling II zijn als headings gemarkeerd. B7: TOC-heading ''## AFDELING 5. Slotbepalingen. Art. 22 - 24'' eindigt op artikelbereik. Inhoud en volgorde zijn inhoudelijk compleet.'
+      run_at: '2026-05-11T11:46:28Z'
+      status: needs-rework
+    rationale: 'A1: 30+ pagina-kopteksten (''Tarieven www.fisconetplus.be KB20 pg. I/1'' enz.) doorheen de body op vaste pagina-intervallen — nooit door een mens zo getypt. B4: tabel-rubrieken I t/m XL en Tabel A/B/C staan als plain text zonder ##-prefix; alleen ### Art. 1-artikelen en één ## Afdeling II zijn als headings gemarkeerd. B7: TOC-heading ''## AFDELING 5. Slotbepalingen. Art. 22 - 24'' eindigt op artikelbereik. Inhoud en volgorde zijn inhoudelijk compleet.'
+    status: needs-rework
+status: beschikbaar
+tags:
+  - VI.B
+  - '2.4'
+wet: K.B. nr. 20 van 20 juli 1970, tot vaststelling van de tarieven van de belasting over de toegevoegde waarde en tot indeling van de goederen en de diensten bij die tarieven
 ---
 
 # K.B. nr. 20 van 20 juli 1970, tot vaststelling van de tarieven van de belasting over de toegevoegde waarde en tot indeling van de goederen en de diensten bij die tarieven
@@ -132,8 +134,6 @@ aanvangt voor en eindigt na het tijdstip van de tariefwijziging op 1 september 2
 heffing met betrekking tot het volledige verbruik tijdens die periode per onderscheiden btw-tarief
 omgeslagen en dit rekening houdend met het verbruik voor en na het tijdstip van de tariefwijziging.
 
-Tarieven                                       www.fisconetplus.be                             KB20   pg. I/1
-
       De berekening van het verbruik met het oog op de in het tweede lid bedoelde omslag per btw-tarief,
 wordt uitgevoerd aan de hand van het in de elektriciteitsmarkt vastgelegde verbruiksprofiel (SLP of
 synthetisch lastprofiel) dat per kwartier of per uur van een volledig jaar het relatieve gebruik weergeeft van
@@ -196,8 +196,6 @@ de bouwheer die er zonder uitstel zijn domicilie zal hebben.
               ontlast de verklaring van de afnemer de dienstverrichter van de aansprakelijkheid betreffende
               de vaststelling van het tarief.
 
-Tarieven                                       www.fisconetplus.be                            KB20   pg. I/2
-
        6°     de aanvraag voor de stedenbouwkundige vergunning met betrekking tot bedoelde werken
               moet worden ingediend bij de bevoegde overheid vóór 1 april 2010.
 
@@ -258,8 +256,6 @@ waardoor de voorwaarden bedoeld onder § 1, eerste lid en § 2, eerste lid, niet
               reeds het voorwerp heeft uitgemaakt van een onder paragraaf 2 bedoelde handeling met
               toepassing van het verlaagd tarief van zes percent.
 
-Tarieven                                       www.fisconetplus.be                            KB20   pg. I/3
-
 ### Art. 1sexies
 
        (KB nr. 20, artikel 1sexies, werd gewijzigd met ingang van 01.01.2010 (Art. 3,
@@ -296,8 +292,6 @@ Tabel A – Goederen en diensten onderworpen aan het tarief van 6 pct.
 Tabel B – Goederen en diensten onderworpen aan het tarief van 12 pct. ...................................                     IV/1
 
 Tabel C – Goederen en diensten onderworpen aan het tarief van 0 pct. .....................................                    V/1
-
-Tarieven                                                www.fisconetplus.be                                         KB20      pg. I/4
 
                                                TABEL A
             Goederen en diensten onderworpen aan het tarief van 6 pct.
@@ -358,8 +352,6 @@ VII.   Plantaardige produkten.
        2°    Oliehoudende zaden en vruchten, ook indien gebroken.
        3°    Zaaigoed, sporen daaronder begrepen.
        4°    Suikerbieten, ook indien gesneden; suikerriet.
-
-T. A - Goederen 6 pct.                       www.fisconetplus.be                          KB20      pg. II/1
 
       5°    Cichoreiwortels.
       6°    Hop.
@@ -423,8 +415,6 @@ X.    Andere voedingsmiddelen.
             bakkerswaren, gebak en biscuits; hosties, ouwels voor geneesmiddelen en dergelijke
             produkten.
 
-T. A - Goederen 6 pct.                       www.fisconetplus.be                                KB20   pg. II/2
-
        7°    Jam, gelei, marmelade, vruchtenmoes en vruchtenpasta.
        8°    Gebrande cichorei, andere gebrande koffiesurrogaten, en extracten daarvan.
        9°    Extracten en essences, van koffie, van thee of van maté; preparaten van deze extracten en
@@ -486,8 +476,6 @@ XVII. Geneesmiddelen en medische hulpmiddelen
                     die de Volksgezondheid onder zijn bevoegdheid heeft of waarvoor de vergunning voor
                     het in de handel brengen bedoeld in artikel 1, § 1, eerste lid, 1) van het koninklijk
 
-T. A - Goederen 6 pct.                        www.fisconetplus.be                           KB20   pg. II/3
-
                       besluit van 3 juli 1969 betreffende de registratie van geneesmiddelen ter kennis is
                       gegeven aan de Minister die de Volksgezondheid onder zijn bevoegdheid heeft.
               b)      Bloed, bloedplaatjes, plasma en witte en rode bloedlichaampjes bestemd om te worden
@@ -548,8 +536,6 @@ XXI.   Kunstvoorwerpen, voorwerpen voor verzamelingen en antiquiteiten.
                       belastingplichtige zelf zijn ingevoerd of hem zijn geleverd door de maker of diens
                       rechthebbenden of wanneer ze te zijnen gunste het recht op volledige aftrek van de
                       belasting over de toegevoegde waarde hebben doen ontstaan;
-
-T. A - Goederen 6 pct.                         www.fisconetplus.be                            KB20   pg. II/4
 
      2°     op de intracommunautaire verwervingen van in § 2, 1°, hieronder omschreven
             kunstvoorwerpen wanneer de verkoper in de Lid-Staat van vertrek van de verzending of het
@@ -613,8 +599,6 @@ XXII. Automobielen voor personenvervoer voor invaliden. Onderdelen, uitrustingss
      2°     personen die volledig blind zijn, volledig verlamd zijn aan de bovenste ledematen of wier
             bovenste ledematen zijn geamputeerd, en personen met een blijvende invaliditeit die
             rechtstreeks toe te schrijven is aan de onderste ledematen en ten minste 50 pct. bedraagt.
-
-T. A - Goederen 6 pct.                        www.fisconetplus.be                            KB20   pg. II/5
 
      § 2.    Het voordeel van het verlaagd tarief kan slechts worden ingeroepen voor één enkel voertuig
      tegelijk en veronderstelt het gebruik van het ingevoerd, intracommunautair verworven of hier te
@@ -681,8 +665,6 @@ T. A - Goederen 6 pct.                        www.fisconetplus.be               
      volledig te lopen maanden zijn tussen de datum van de wijziging van de bestemming of de datum
      van de afstand en de datum van het verstrijken van de periode van drie jaar.
 
-T. A - Goederen 6 pct.                     www.fisconetplus.be                         KB20   pg. II/6
-
       Deze storting dient evenwel niet te gebeuren:
       1°    in geval van overlijden van de invalide of gehandicapte of bij elke behoorlijk
             verrechtvaardigde oorzaak, onafhankelijk van zijn wil, welke hem definitief verhindert het
@@ -746,8 +728,6 @@ XXIII. Diversen
             ontworpen uitrusting voor dergelijke honden zoals harnassen.
             Als assistentiehonden worden aangemerkt: de blindengeleidehonden, de hulphonden, de
             hoorhonden, de meldhonden en de therapiehonden.
-
-T. A - Goederen 6 pct.                       www.fisconetplus.be                          KB20   pg. II/7
 
       10.    Maandverbanden, tampons, inlegkruisjes en gelijkaardige producten bestemd voor de
              hygiënische bescherming van de vrouw en de intieme tissues bestemd voor de hygiënische
@@ -814,8 +794,6 @@ XXIIIbis. Leveringen van goederen door instellingen met sociaal oogmerk
       5°     en die daartoe erkend zijn door de overheid die door die decreten, besluiten of ordonnantie
              bevoegd wordt verklaard.
 
-T. A - Goederen 6 pct.                       www.fisconetplus.be                          KB20   pg. II/8
-
      § 3.  De toepassing van het verlaagd tarief van 6 pct. is eveneens onderworpen aan de volgende
      voorwaarden waaraan samen moet worden voldaan:
      1°     de in § 2 beoogde instelling moet haar werkzaamheden uitsluitend beperken tot de verkoop
@@ -838,8 +816,6 @@ T. A - Goederen 6 pct.                       www.fisconetplus.be                
      de door deze overheden verleende, ingetrokken of opgeschorte erkenningen. Hij licht diezelfde
      overheden in van gedane vaststellingen waarbij de toepassing van het verlaagd tarief vervalt of is
      komen te vervallen wegens het niet naleven van één of meerdere in § 3 bepaalde voorwaarden.
-
-T. A - Goederen 6 pct.                      www.fisconetplus.be                           KB20   pg. II/9
 
                                               DIENSTEN
 
@@ -904,8 +880,6 @@ XXX. Hotels, camping.
       1°    Het verschaffen van gemeubeld logies met of zonder ontbijt.
       2°    De terbeschikkingstelling van plaats om te kamperen.
 
-T. A - Diensten 6 pct.                      www.fisconetplus.be                        KB20   pg. III/1
-
 XXXI. Werk in onroerende staat met betrekking tot privé-woningen.
 
      (De tekst van KB nr. 20, Tabel A, rubriek XXXI, § 1, werd gewijzigd met ingang van
@@ -969,8 +943,6 @@ XXXI. Werk in onroerende staat met betrekking tot privé-woningen.
             d)     van de bestanddelen of een gedeelte van de bestanddelen van een elektrische
                    belinstallatie, van brandalarmtoestellen, van alarmtoestellen tegen diefstal en van een
                    huistelefoon;
-
-T. A - Diensten 6 pct.                      www.fisconetplus.be                         KB20      pg. III/2
 
             e)     van opbergkasten, gootstenen, gootsteenkasten en meubels met ingebouwde
                    gootsteen, wastafels en meubels met ingebouwde wasbak, zuigkappen, ventilators en
@@ -1041,8 +1013,6 @@ XXXII. Privé-woningen voor gehandicapten.
             bestanddelen of een gedeelte van de bestanddelen van zwembaden, sauna's, midget-
             golfbanen, tennisterreinen en dergelijke installaties.
 
-T. A - Diensten 6 pct.                      www.fisconetplus.be                         KB20   pg. III/3
-
       § 3.    Het verlaagd tarief is eveneens van toepassing op de leveringen van goederen bedoeld in
       artikel 1, § 9, van het Wetboek alsook op de vestigingen, overdrachten en wederoverdrachten van
       zakelijke rechten op zulke goederen die niet overeenkomstig artikel 44, § 3, 1°, van het Wetboek
@@ -1103,8 +1073,6 @@ XXXIII. Instellingen voor gehandicapten.
       bedoeld in artikel 44, § 3, 2°, d), van het Wetboek, die betrekking hebben op woningcomplexen
       bestemd om te worden gebruikt voor de huisvesting van gehandicapten, wanneer de afnemer een in
       § 1, 2°, genoemde publiekrechtelijke of privaatrechtelijke persoon is.
-
-T. A - Diensten 6 pct.                       www.fisconetplus.be                         KB20   pg. III/4
 
 XXXIV. Diversen.
 
@@ -1172,8 +1140,6 @@ XXXV. Diensten verricht door instellingen met sociaal oogmerk
              -      van het besluit van de Vlaamse regering van 10 november 1998 houdende doorvoering
                     van experimenten in verband met invoegbedrijven;
 
-T. A - Diensten 6 pct.                        www.fisconetplus.be                         KB20   pg. III/5
-
              -      van de ordonnantie van de Raad van het Brusselse Hoofdstedelijk Gewest en van de
                     Brusselse Hoofdstedelijke Regering van 22 april 1999 betreffende de erkenning en de
                     financiering van de inschakelingsondernemingen;
@@ -1238,8 +1204,6 @@ XXXVI. Huisvesting in het kader van het sociaal beleid
                     huisvesting en door het Vlaams Woningfonds, "le Fonds du Logement des Familles
                     nombreuses de Wallonie" en het Woningfonds van het Brussels Hoofdstedelijk Gewest;
 
-T. A - Diensten 6 pct.                       www.fisconetplus.be                          KB20   pg. III/6
-
      2°     werk in onroerende staat in de zin van artikel 19, § 2, tweede lid, van het Wetboek, met
             uitsluiting van het reinigen, en de andere handelingen opgesomd in rubriek XXXI, § 3, 3° tot
             6°, van tabel A met betrekking tot de onder 1° genoemde privé-woningen mits die worden
@@ -1303,8 +1267,6 @@ XXXVII. Afbraak en heropbouw van gebouwen in stadsgebieden
      1°     werk in onroerende staat en andere onroerende handelingen die geen betrekking hebben op
             de eigenlijke woning, zoals bebouwingswerkzaamheden, tuinaanleg en oprichten van
             afsluitingen;
-
-T. A - Diensten 6 pct.                       www.fisconetplus.be                         KB20   pg. III/7
 
      2°     werk in onroerende staat en andere onroerende handelingen die tot voorwerp hebben de
             bestanddelen of een gedeelte van de bestanddelen van zwembaden, sauna's, midget-
@@ -1371,8 +1333,6 @@ XXXVIII. Renovatie en herstel van privéwoningen
                    van een gebouw en, meer algemeen, van al de vaste toestellen voor sanitair of
                    hygiënisch gebruik aangesloten op een waterleiding of een riool;
 
-T. A - Diensten 6 pct.                      www.fisconetplus.be                         KB20      pg. III/8
-
              c)     van de bestanddelen of een gedeelte van de bestanddelen van een elektrische
                     installatie van een gebouw, met uitzondering van toestellen voor de verlichting en van
                     lampen;
@@ -1437,8 +1397,6 @@ XL.   Gebouwen bestemd voor onderwijs en leerlingenbegeleiding
              het Wetboek en de onroerende verhuur bedoeld in artikel 44, § 3, 2°, d), van het Wetboek,
              die betrekking hebben op de onder 1° en 2° bedoelde gebouwen.
 
-T. A - Diensten 6 pct.                        www.fisconetplus.be                              KB20    pg. III/9
-
                                                   TABEL B
 
               Goederen en diensten onderworpen aan het tarief van 12 pct.
@@ -1496,8 +1454,6 @@ X.     Huisvesting in het kader van het sociaal beleid
        § 1.    Het verlaagd tarief van 12 pct., is van toepassing op:
        A)      de leveringen van nagenoemde goederen bedoeld in artikel 1, § 9, van het Wetboek alsook de
                vestigingen, overdrachten en wederoverdrachten van zakelijke rechten op zulke goederen die
-
-T. B - Goederen en diensten 12 pct.             www.fisconetplus.be                        KB20   pg. IV/1
 
              niet overeenkomstig artikel 44, § 3, 1°, van het Wetboek van de belasting zijn vrijgesteld,
              wanneer die goederen bestemd zijn voor de huisvesting in het kader van het sociaal beleid:
@@ -1565,8 +1521,6 @@ XI.   Huisvesting in het kader van het sociaal beleid - Privé-initiatief
       1°     de privéwoningen die worden verhuurd aan navolgende publiekrechtelijke of privaatrechtelijke
              rechtspersonen en die door hen worden bestemd om te worden verhuurd:
 
-T. B - Goederen en diensten 12 pct.          www.fisconetplus.be                           KB20   pg. IV/2
-
             a)     de provincies, de autonome            provinciebedrijven   en   de   provinciale   extern
                    verzelfstandigde agentschappen;
             b)     de intercommunales en andere intergemeentelijke samenwerkingsverbanden, de
@@ -1632,8 +1586,6 @@ T. B - Goederen en diensten 12 pct.          www.fisconetplus.be                
                    paragraaf 1, eerste lid, bedoelde publiekrechtelijke of privaatrechtelijke rechtspersoon,
                    voorleggen bij het controlekantoor bedoeld in de bepaling onder a), binnen de maand
                    vanaf de ondertekening van het contract;
-
-T. B - Goederen en diensten 12 pct.          www.fisconetplus.be                           KB20   pg. IV/3
 
      2°     de eigenaar of de hoofdhuurder van een privéwoning of een woningcomplex voor wie andere
             werken in onroerende staat dan bedoeld in de bepaling onder 1° worden verricht, is ertoe
@@ -1701,8 +1653,6 @@ T. B - Goederen en diensten 12 pct.          www.fisconetplus.be                
                    publiekrechtelijke of privaatrechtelijke rechtspersoon; deze verklaring moet eveneens
                    worden ondertekend door laatstgenoemde;
 
-T. B - Goederen en diensten 12 pct.          www.fisconetplus.be                           KB20   pg. IV/4
-
             b)     aan de vervreemder, dienstverrichter of leasinggever een kopie van de verklaring
                    bedoeld in de bepaling onder a) overhandigen;
             c)     een voor eensluidend verklaard afschrift van het verhuurcontract voorleggen bij het
@@ -1751,8 +1701,6 @@ T. B - Goederen en diensten 12 pct.          www.fisconetplus.be                
      2°     werk in onroerende staat en andere onroerende handelingen die tot voorwerp hebben de
             bestanddelen of een gedeelte van de bestanddelen van zwembaden, sauna's,
             midgetgolfbanen, tennisterreinen en dergelijke installaties.".
-
-T. B - Goederen en diensten 12 pct.           www.fisconetplus.be                             KB20    pg. IV/5
 
                                                  TABEL C
 
@@ -1816,8 +1764,6 @@ I. Periodieke publicaties
               muziek;
       11°     de publicaties die als oud papier of karton worden verkocht.
 
-T. C - Goederen en diensten 0 pct.             www.fisconetplus.be                               KB20    pg. V/1
-
      § 3.   Het verlaagd tarief is van toepassing op digitale publicaties die:
      1°     beantwoorden aan de voorwaarden bedoeld in paragraaf 1, 1° tot 3°;
      2°     beantwoorden aan de voorwaarde bedoeld in paragraaf 1, 4°, of die geregeld en voldoende
@@ -1826,8 +1772,6 @@ T. C - Goederen en diensten 0 pct.             www.fisconetplus.be              
 
      § 4.   Het verlaagd tarief is niet van toepassing op digitale publicaties bedoeld in paragraaf 2, 1°
      tot 10°.
-
-T. C - Goederen en diensten 0 pct.            www.fisconetplus.be                        KB20   pg. V/2
 
    Overzicht van de nog geldende verlaagde tarieven (officieuze toevoeging)
      Tabel A – Goederen en diensten onderworpen aan het tarief van 6 pct.
@@ -1881,8 +1825,6 @@ T. C - Goederen en diensten 0 pct.            www.fisconetplus.be               
 
      Tabel C – Goederen en diensten onderworpen aan het tarief van 0 pct.
           I.           Periodieke publicaties.
-
-Overzicht verlaagde tarieven                  www.fisconetplus.be                             KB20   pg. VI/1
 
 Bijlage A
 Lijst van de bijwerkingen

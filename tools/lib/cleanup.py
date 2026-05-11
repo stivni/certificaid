@@ -198,6 +198,8 @@ def remove_toc(text: str) -> str:
 # ---------------------------------------------------------------------------
 
 _PAGE_NUMBER_RE = re.compile(r"^\s*\d{1,4}\s*$")
+# Pagina-nummer omkaderd door dashes/spaties: "- 1 -", "-  12 -", "- pg 3 -"
+_PAGE_NUMBER_DASHED_RE = re.compile(r"^\s*[-–—]\s*(?:pg\s*)?\d{1,4}\s*[-–—]\s*$", re.I)
 _URL_FRAGMENT_RE = re.compile(r"^\s*(net|fisconet|www\.|ejustice|belgisch\s+staatsblad)", re.I)
 _DECORATION_RE = re.compile(r"^\s*[—–]{3,}\s*$")  # enkel em/en-dashes, NIET --- (YAML)
 _FORM_FEED_RE = re.compile(r"\x0c")
@@ -207,6 +209,16 @@ _STAATSBLAD_FOOTER_RE = re.compile(
     r"^\s*Pagina\s+\d+\s+van\s+\d+\s+Copyright\s+Belgisch\s+S?\s*taatsblad\b",
     re.IGNORECASE,
 )
+# Fisconet PDF-paginavoetregel: "FOD Financiën (AABEO) www.fisconetplus.be Btw KB nr. 3 - bijw. nr. 7 / 23.11.2019"
+# Match elke regel die "fisconetplus" bevat (vermeldt het hele doc-pad of bijw-info).
+_FISCONET_FOOTER_RE = re.compile(r"fisconetplus", re.IGNORECASE)
+# "FOD Financiën (AABEO)" prefix als alleenstaande regel (vaak deel-2 van fisconet-voetregel)
+_FOD_FOOTER_RE = re.compile(
+    r"^\s*FOD\s+Financi[eë]n\b.*?(?:AABEO|AAFIsc|fisconet|www\.|bijw)",
+    re.IGNORECASE,
+)
+# Kale URL-regels (resterend uit fisconet/justel exports)
+_BARE_URL_RE = re.compile(r"^\s*(?:https?://)?www\.\S+\s*$", re.IGNORECASE)
 
 
 def remove_page_artifacts(text: str) -> str:
@@ -223,11 +235,21 @@ def remove_page_artifacts(text: str) -> str:
             continue
         if _PAGE_NUMBER_RE.match(stripped):
             continue
+        if _PAGE_NUMBER_DASHED_RE.match(stripped):
+            continue
         if _URL_FRAGMENT_RE.match(stripped):
+            continue
+        if _BARE_URL_RE.match(stripped):
             continue
         if _DECORATION_RE.match(stripped):
             continue
         if _STAATSBLAD_FOOTER_RE.match(line):
+            continue
+        # Fisconet PDF-paginavoetregels — vaak op één regel met FOD Financiën +
+        # www.fisconetplus.be + KB-info, of als losse FOD-regel.
+        if _FISCONET_FOOTER_RE.search(stripped):
+            continue
+        if _FOD_FOOTER_RE.match(stripped):
             continue
         lines.append(line)
     return "\n".join(lines)

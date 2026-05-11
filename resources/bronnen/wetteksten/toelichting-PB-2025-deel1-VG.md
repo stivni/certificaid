@@ -24,13 +24,17 @@ provenance:
     confirmed_by: subagent-sonnet-4-6
     rationale: "Twee structurele problemen: (1) B1/B3: herhaalde 'Vak II', 'Vak III', 'Vak IV'-labels als losse plain-text regels zonder heading-prefix (45+ voorkomens), bedoeld als sectie-etiketten van de PDF maar niet als heading gerenderd — dit veroorzaakt structuurverlies in RAG-chunking. (2) B1: '### I.' zonder bijbehorende tekst op dezelfde regel (regels 139, 154): de ondertitel staat op de volgende regel als plain text. Daarnaast staat de volledige inhoudstafel bovenaan (regels 63-222) als pseudo-inhoudsopgave met VAK-termen zonder dotted-leaders, wat TOC-redundantie geeft (A3). 'II. FEDERAAL' en 'A. ...' sub-labels na '### I.' staan als ongeformatteerde plain text (B4/B5). Ondanks deze problemen is de inhoud compleet en goed leesbaar."
     layer1:
-      status: not_run
-      run_id:
-      run_at:
-      heading_count:
-      max_section_chars:
-      file_size_chars:
-      flags: []
+      status: warn
+      run_id: 20260511-134044
+      run_at: '2026-05-11T13:40:50Z'
+      heading_count: 63
+      max_section_chars: 103442
+      file_size_chars: 357378
+      flags:
+        - name: max_section_size
+          status: warn
+          detail: 'langste sectie op ###-niveau: 103442 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
+          samples: []
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6

@@ -25,11 +25,11 @@ provenance:
     rationale: "A2: 24 TOC-stippenregels verspreid door de body (bijv. regel 88: 'te verzekeren ....................................................... 81') — onverwijderd TOC-residu. A3: het TOC-blok (regels 86–138) staat niet apart maar is direct gevolgd door de eigenlijke wettekst zonder scheiding, waardoor TOC en body door elkaar lopen. C3: tarief-tabellen (regels 993–998, 1017–1021) zijn als aaneengesloten platte tekst geëxtraheerd i.p.v. markdown-tabellen — zware pseudo-tabel en kolom-bleed (A8). B4: 'Eerste afdeling - ...' komt als plain-text voor in de body (regels 613, 977, 1002, 1737, …) i.p.v. #### heading. Dubbele koppen door TOEKOMSTIG RECHT-constructie (bijv. HOOFDSTUK VI op regels 975 en 1000, Art. 17 op regels 331 en 342)."
     layer1:
       status: warn
-      run_id: 20260509-212552
-      run_at:
-      heading_count: 394
+      run_id: 20260511-134044
+      run_at: '2026-05-11T13:40:46Z'
+      heading_count: 395
       max_section_chars: 57678
-      file_size_chars: 470801
+      file_size_chars: 470842
       flags:
         - name: max_section_size
           status: warn
@@ -46,8 +46,8 @@ provenance:
           status: warn
           detail: 2 kolom-bleed-patroon/-en gevonden buiten tabellen (twee-kolom PDF-extractie?)
           samples:
-            - 'regel 950: Gedeelte van het netto-aandeel                                         Rechte lijn – tussen echtgenoten tussen wettelijk'
-            - 'regel 1514: Tabel met betrekking tot het preferentiele tarief voor de netto-aandelen in woningen Schijf van het netto-aandeel       '
+            - 'regel 949: Gedeelte van het netto-aandeel                                         Rechte lijn – tussen echtgenoten tussen wettelijk'
+            - 'regel 1513: Tabel met betrekking tot het preferentiele tarief voor de netto-aandelen in woningen Schijf van het netto-aandeel       '
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6

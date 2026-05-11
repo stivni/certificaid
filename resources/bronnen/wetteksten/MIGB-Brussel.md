@@ -30,8 +30,8 @@ provenance:
     rationale: "B5: Bestand opent direct met '§ 1.' op regel 53 zonder Art. 1 heading — het eerste artikel ontbreekt als heading. E1/C3: Tarieftabellen (Art. 9) zijn volledig samengeperst tot één lange pseudo-tabelregel met spatie-alignment ipv markdown pipe-syntax: alle kolommen (aantal PK, assen, luchtvering, andere ophanging, bedragen) staan als één aaneengesloten tekst met meerdere spaties als scheiding. Laag-1 rapporteerde 'pass' maar de tariefblok-structuur is niet RAG-proof."
     layer1:
       status: pass
-      run_id: 20260509-212552
-      run_at:
+      run_id: 20260511-134044
+      run_at: '2026-05-11T13:40:45Z'
       heading_count: 174
       max_section_chars: 9206
       file_size_chars: 118961

@@ -25,11 +25,11 @@ provenance:
     rationale: "A3: de body opent met 3× herhaalde WETBOEK DER SUCCESSIERECHTEN-titel (r.65-75) gevolgd door een TOC-blok met 24 dotted-lines (A2). B3: vijf hoofdstukken zijn gedupliceerd (HOOFDSTUK III, IX, XI, XII, XV), wat wijst op een gedeeltelijke TOC-herhaling midden in het corps. D-onzeker: dubbele Art. 17-blokken op r.342 en r.354 voor verschillende inwerkingtredingsdata ('TOEKOMSTIG RECHT' vs 'van toepassing vanaf 01.08.2022') zijn inhoudelijk correct maar zonder discriminator-heading voor RAG verwarrend. G2: decoratieve asterisk-separatoren op r.131-132 (`*` en `*`) zijn PDF-glyphs."
     layer1:
       status: warn
-      run_id: 20260509-212552
-      run_at:
-      heading_count: 381
+      run_id: 20260511-134044
+      run_at: '2026-05-11T13:40:46Z'
+      heading_count: 382
       max_section_chars: 57698
-      file_size_chars: 428997
+      file_size_chars: 429038
       flags:
         - name: max_section_size
           status: warn

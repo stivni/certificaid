@@ -25,16 +25,23 @@ provenance:
     rationale: 'L2-agent verdict: rejected. PDF-extractie heeft de tweekoloms NL/FR-layout niet gescheiden: rechter-kolom (Franstalige tekst) bleedt als losse beginletters door in de Nederlandse content (1571 regels eindigen met stray single-letter). Definitielijsten (Art. 1.1.0.0.2) zijn op één regel geconcatenateerd waardoor items 1°, 1°/1, 1°/2, ... onleesbaar samenklitten. Onbruikbaar voor RAG zonder volledige re-extract.'
     layer1:
       status: warn
-      run_id: 20260509-212552
-      run_at:
-      heading_count: 900
-      max_section_chars: 38251
-      file_size_chars: 1181491
+      run_id: 20260511-134044
+      run_at: '2026-05-11T13:40:47Z'
+      heading_count: 1545
+      max_section_chars: 79657
+      file_size_chars: 2079746
       flags:
         - name: max_section_size
           status: warn
-          detail: 'langste sectie op ######-niveau: 38251 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
+          detail: 'langste sectie op ######-niveau: 79657 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
           samples: []
+        - name: no_column_bleed
+          status: warn
+          detail: 3 kolom-bleed-patroon/-en gevonden buiten tabellen (twee-kolom PDF-extractie?)
+          samples:
+            - 'regel 941: #### Afdeling 3 - Belastbare grondslag                              Section 3 - Base imposable'
+            - 'regel 1038: Benzine en andere brand- stoffen, met uitzondering van                         Benzine plug-          Diesel plugaardgas'
+            - "regel 4959: #### Afdeling 4 - Aanslagbiljet                                   Section 4 - Feuille d'imposition"
     layer2:
       status: rejected
       agent:

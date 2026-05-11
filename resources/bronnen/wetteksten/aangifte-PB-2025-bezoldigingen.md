@@ -19,13 +19,17 @@ provenance:
     confirmed_by: subagent-sonnet-4-6
     rationale: 'Dit bestand is manueel aangemaakt (pipeline: manual-import) en ziet er als zodanig uit: alle tabellen zijn in correcte pipe-syntax, headings zijn logisch hiërarchisch, inhoud is volledig en intern consistent. Geen zichtbare PDF-extractieartefacten. De informatienotitie over overlappende code 1271-87 (A.21 en F.3) is een bewuste redactionele keuze, geen artefact. Frontmatter matcht de inhoud.'
     layer1:
-      file_size_chars:
-      flags: []
-      heading_count:
-      max_section_chars:
-      run_at:
-      run_id:
-      status: not_run
+      status: fail
+      run_id: 20260511-134044
+      run_at: '2026-05-11T13:40:50Z'
+      heading_count: 9
+      max_section_chars: 3541
+      file_size_chars: 10141
+      flags:
+        - name: frontmatter_complete
+          status: fail
+          detail: "ontbrekende velden: ['bron']"
+          samples: []
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6

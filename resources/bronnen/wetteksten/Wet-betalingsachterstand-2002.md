@@ -30,8 +30,8 @@ provenance:
     rationale: "B5: Minstens 9 van de 15 artikelen fuseren heading en eerste zin op één regel (bv. regel 63 '### Art. 1.Deze wet regelt...', regel 88 '### Art. 4.[1 § 1. Indien er...', regel 102 '### Art. 5.[1 [2 Indien de schuldeiser...'). De afkapping tussen heading en body is volledig verloren gegaan — het patroon is stelselmatig. Art. 10, 11, 12 en 15 zijn correct (heading op aparte regel), maar de meerderheid is fout. Verdere inhoud (5 hoofdstukken, 15 artikelen) is compleet."
     layer1:
       status: pass
-      run_id: 20260509-212552
-      run_at:
+      run_id: 20260511-134044
+      run_at: '2026-05-11T13:40:50Z'
       heading_count: 19
       max_section_chars: 4129
       file_size_chars: 16137

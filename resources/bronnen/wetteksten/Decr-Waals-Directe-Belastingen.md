@@ -25,11 +25,11 @@ provenance:
     rationale: "B5: 'Artikel 1' op regel 74 staat als plain-text paragraaf zonder heading-prefix; alle volgende artikelen zijn correct als ##### Art. X opgenomen maar de heading-injectie splitst het eerste woord van de articelinhoud mee in het heading-label (bv. '##### Art. 2.De', '##### Art. 3.De'). D1: Meerdere art.-headings bevatten de eerste woorden van de body-zin als onderdeel van de heading-tekst, waardoor de zin mid-woord begint na de heading. Decreet inhoudelijk compleet (139 artikelen) — structurele ETL-fix vereist."
     layer1:
       status: warn
-      run_id: 20260509-212552
-      run_at:
+      run_id: 20260511-134044
+      run_at: '2026-05-11T13:40:45Z'
       heading_count: 183
       max_section_chars: 31064
-      file_size_chars: 330525
+      file_size_chars: 330559
       flags:
         - name: max_section_size
           status: warn

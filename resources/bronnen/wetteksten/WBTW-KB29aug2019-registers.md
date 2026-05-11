@@ -1,59 +1,61 @@
 ---
-tags: [VI.B, '2.4']
-itaa-lex-sectie: VI.B
-wet: K.B. van 29 augustus 2019, tot uitvoering van artikel 85, § 2, derde lid van het Wetboek van de belasting over de toegevoegde waarde met betrekking tot de opmaak van innings- en invorderingsregisters
-bron_rol: itaa_lex
-status: beschikbaar
 bijgewerkt: 29.08.2019
 bron: Afgesplitst uit Fisconet-compilatie (pdftotext_compilatie_btw)
+bron_rol: itaa_lex
 chunk:
   level: 2
-  type: Art.
   sub_strategy:
+  type: Art.
+itaa-lex-sectie: VI.B
 provenance:
+  generated_at: '2026-05-11T13:40:00Z'
   inputs:
     - id: resources/raw/wetteksten/btw-kbs/WBTW-KB-compilatie.pdf
       sha256: 5f1bad7278d1f8e1f5c00efb5d792f61342d3f7a14a7950caca2937924bfa91c
       version: 06.03.2020
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 7a134f4
-    model:
-    prompt_version:
-  generated_at: '2026-05-09T16:15:19Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
   trust:
-    status: needs-rework
     confirmed_at: '2026-05-11T11:46:29Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "Twee problemen: (1) A1: regels 76-78 bevatten een Fisconet-paginavoet ('Innings- en invorderingsregister www.fisconetplus.be pg. 1' en 'FOD Financiën (AABEO) www.fisconetplus.be Btw Koninklijke besluiten - 18.03.2020') die midden in de body staan en niet zijn gestript. (2) A6/C3: regels 63-66 tonen diep ingesprongen tekst met meerdere leading spaces als pseudo-uitlijning. De 3 artikelen zijn wel aanwezig als ##-headings."
     layer1:
       status: pass
-      run_id: 20260509-212552
-      run_at:
+      run_id: 20260511-134044
+      run_at: '2026-05-11T13:40:47Z'
       heading_count: 3
-      max_section_chars: 1666
-      file_size_chars: 2799
+      max_section_chars: 1561
+      file_size_chars: 2694
       flags: []
     layer2:
-      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T11:46:29Z'
-      rationale: "Twee problemen: (1) A1: regels 76-78 bevatten een Fisconet-paginavoet ('Innings- en invorderingsregister www.fisconetplus.be pg. 1' en 'FOD Financiën (AABEO) www.fisconetplus.be Btw Koninklijke besluiten - 18.03.2020') die midden in de body staan en niet zijn gestript. (2) A6/C3: regels 63-66 tonen diep ingesprongen tekst met meerdere leading spaces als pseudo-uitlijning. De 3 artikelen zijn wel aanwezig als ##-headings."
       concrete_problemen:
-        - regel: 76
-          categorie: A1
+        - categorie: A1
+          regel: 76
           type: form-feed
           voorbeeld: Innings- en invorderingsregister           www.fisconetplus.be                                    pg. 1
-        - regel: 78
-          categorie: A1
+        - categorie: A1
+          regel: 78
           type: form-feed
           voorbeeld: FOD Financiën (AABEO)                         www.fisconetplus.be          Btw Koninklijke besluiten - 18.03.2020
-        - regel: 63
-          categorie: A6
+        - categorie: A6
+          regel: 63
           type: pseudo-table
           voorbeeld: '       De belastingschuld wordt op naam van de belastingschuldige opgenomen in een innings- en'
+      rationale: 'Twee problemen: (1) A1: regels 76-78 bevatten een Fisconet-paginavoet (''Innings- en invorderingsregister www.fisconetplus.be pg. 1'' en ''FOD Financiën (AABEO) www.fisconetplus.be Btw Koninklijke besluiten - 18.03.2020'') die midden in de body staan en niet zijn gestript. (2) A6/C3: regels 63-66 tonen diep ingesprongen tekst met meerdere leading spaces als pseudo-uitlijning. De 3 artikelen zijn wel aanwezig als ##-headings.'
+      run_at: '2026-05-11T11:46:29Z'
+      status: needs-rework
+    rationale: 'Twee problemen: (1) A1: regels 76-78 bevatten een Fisconet-paginavoet (''Innings- en invorderingsregister www.fisconetplus.be pg. 1'' en ''FOD Financiën (AABEO) www.fisconetplus.be Btw Koninklijke besluiten - 18.03.2020'') die midden in de body staan en niet zijn gestript. (2) A6/C3: regels 63-66 tonen diep ingesprongen tekst met meerdere leading spaces als pseudo-uitlijning. De 3 artikelen zijn wel aanwezig als ##-headings.'
+    status: needs-rework
+status: beschikbaar
+tags:
+  - VI.B
+  - '2.4'
+wet: K.B. van 29 augustus 2019, tot uitvoering van artikel 85, § 2, derde lid van het Wetboek van de belasting over de toegevoegde waarde met betrekking tot de opmaak van innings- en invorderingsregisters
 ---
 
 # K.B. van 29 augustus 2019, tot uitvoering van artikel 85, § 2, derde lid van het Wetboek van de belasting over de toegevoegde waarde met betrekking tot de opmaak van innings- en invorderingsregisters
@@ -81,8 +83,6 @@ invorderingsregister op zijn naam, voorafgegaan door het woord "Nalatenschap".
 ## Art. 3
 
       De minister bevoegd voor Financiën is belast met de uitvoering van dit besluit.
-
-Innings- en invorderingsregister           www.fisconetplus.be                                    pg. 1
 
 FOD Financiën (AABEO)                         www.fisconetplus.be          Btw Koninklijke besluiten - 18.03.2020
 

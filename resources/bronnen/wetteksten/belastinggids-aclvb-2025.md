@@ -24,13 +24,24 @@ provenance:
     confirmed_by: subagent-sonnet-4-6
     rationale: "Zware TOC-residu aan het begin (regels 66-213): de inhoudsopgave met dotted-leaders staat volledig als plain text in de body en is niet verwijderd, inclusief paginanummers ('9', '11', '12', ...). Daarnaast staan paginatellers verspreid door de body ('Belastinggids 2025 • 9', '10 • Brochure A5', '12 • Belastinggids 2025', enz.) — dit zijn klassieke A1/A2-artefacten. De TOC is bovendien deels verdubbeld (A3): de geïntegreerde inhoudstafel bovenaan plus de sectionering als headings geeft redundantie. Paragraafnummers '2.', '3.' op regels 500-501 zijn als ### headings gemarkeerd in plaats van als lijstpunten (B2 bug: '### 2. Voor uw tweede woning...' is een opsommingspunt dat als heading is gerenderd). Ook B5-artefact: sectie-labels 'a. Bezoldigingen', 'b. Beroepskosten' staan als plain text zonder heading-prefix. Inhoud zelf is overigens volledig en correct."
     layer1:
-      status: not_run
-      run_id:
-      run_at:
-      heading_count:
-      max_section_chars:
-      file_size_chars:
-      flags: []
+      status: warn
+      run_id: 20260511-134044
+      run_at: '2026-05-11T13:40:50Z'
+      heading_count: 39
+      max_section_chars: 30837
+      file_size_chars: 155045
+      flags:
+        - name: max_section_size
+          status: warn
+          detail: 'langste sectie op ###-niveau: 30837 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
+          samples: []
+        - name: no_toc_dots
+          status: warn
+          detail: 126 TOC-stippen-regel(s) gevonden
+          samples:
+            - '................................................................................'
+            - '................................................................................'
+            - '................................................................................'
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6

@@ -1,67 +1,69 @@
 ---
-tags: [VI.B, '2.4']
-itaa-lex-sectie: VI.B
-wet: K.B. nr. 14 van 3 juni 1970, met betrekking tot de vervreemdingen van gebouwen, gedeelten van gebouwen en het bijhorende terrein
-bron_rol: itaa_lex
-status: beschikbaar
 bijgewerkt: 03.06.1970
 bron: Afgesplitst uit Fisconet-compilatie (pdftotext_compilatie_btw)
+bron_rol: itaa_lex
 chunk:
   level: 2
-  type: Art.
   sub_strategy:
+  type: Art.
+itaa-lex-sectie: VI.B
 provenance:
+  generated_at: '2026-05-11T13:40:00Z'
   inputs:
     - id: resources/raw/wetteksten/btw-kbs/WBTW-KB-compilatie.pdf
       sha256: 5f1bad7278d1f8e1f5c00efb5d792f61342d3f7a14a7950caca2937924bfa91c
       version: 06.03.2020
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 7a134f4
-    model:
-    prompt_version:
-  generated_at: '2026-05-09T16:15:18Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
   trust:
-    status: needs-rework
     confirmed_at: '2026-05-11T11:41:58Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "Artikelen hebben ## Art.-headings (Art. 1 t/m Art. 7). Problemen: (1) A1: twee pagina-footer-regels mid-body ('Onroerende zakelijke rechten  www.fisconetplus.be  pg. 1' op regel 106 en 'pg. 2' op regel 160) — klassiek PDF-paginascheiding-artefact; (2) B4: 'Bijlage A' zonder heading-prefix; (3) C3: Bijlage A heeft pseudo-tabel; (4) A6: 7-spaties-inspringing in de wijzigings-annotaties. Inhoud inhoudelijk compleet."
     layer1:
       status: pass
-      run_id: 20260509-212552
-      run_at:
+      run_id: 20260511-134044
+      run_at: '2026-05-11T13:40:47Z'
       heading_count: 7
       max_section_chars: 1774
-      file_size_chars: 8401
+      file_size_chars: 8177
       flags: []
     layer2:
-      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T11:41:58Z'
-      rationale: "Artikelen hebben ## Art.-headings (Art. 1 t/m Art. 7). Problemen: (1) A1: twee pagina-footer-regels mid-body ('Onroerende zakelijke rechten  www.fisconetplus.be  pg. 1' op regel 106 en 'pg. 2' op regel 160) — klassiek PDF-paginascheiding-artefact; (2) B4: 'Bijlage A' zonder heading-prefix; (3) C3: Bijlage A heeft pseudo-tabel; (4) A6: 7-spaties-inspringing in de wijzigings-annotaties. Inhoud inhoudelijk compleet."
       concrete_problemen:
-        - regel: 106
-          categorie: A1
+        - categorie: A1
+          regel: 106
           type: form-feed
           voorbeeld: Onroerende zakelijke rechten                   www.fisconetplus.be                                      pg. 1
-        - regel: 160
-          categorie: A1
+        - categorie: A1
+          regel: 160
           type: form-feed
           voorbeeld: Onroerende zakelijke rechten                   www.fisconetplus.be                                        pg. 2
-        - regel: 162
-          categorie: B4
+        - categorie: B4
+          regel: 162
           type: other
           voorbeeld: Bijlage A
-        - regel: 164
-          categorie: C3
+        - categorie: C3
+          regel: 164
           type: pseudo-table
-          voorbeeld: "     Bijwerking                                         Te vervangen pagina's"
-        - regel: 148
-          categorie: A6
+          voorbeeld: '     Bijwerking                                         Te vervangen pagina''s'
+        - categorie: A6
+          regel: 148
           type: other
           voorbeeld: '       (De tekst van KB        nr.   14,   artikel    6,    werd     ingevoegd   met   ingang   van   01.01.1971'
+      rationale: 'Artikelen hebben ## Art.-headings (Art. 1 t/m Art. 7). Problemen: (1) A1: twee pagina-footer-regels mid-body (''Onroerende zakelijke rechten  www.fisconetplus.be  pg. 1'' op regel 106 en ''pg. 2'' op regel 160) — klassiek PDF-paginascheiding-artefact; (2) B4: ''Bijlage A'' zonder heading-prefix; (3) C3: Bijlage A heeft pseudo-tabel; (4) A6: 7-spaties-inspringing in de wijzigings-annotaties. Inhoud inhoudelijk compleet.'
+      run_at: '2026-05-11T11:41:58Z'
+      status: needs-rework
+    rationale: 'Artikelen hebben ## Art.-headings (Art. 1 t/m Art. 7). Problemen: (1) A1: twee pagina-footer-regels mid-body (''Onroerende zakelijke rechten  www.fisconetplus.be  pg. 1'' op regel 106 en ''pg. 2'' op regel 160) — klassiek PDF-paginascheiding-artefact; (2) B4: ''Bijlage A'' zonder heading-prefix; (3) C3: Bijlage A heeft pseudo-tabel; (4) A6: 7-spaties-inspringing in de wijzigings-annotaties. Inhoud inhoudelijk compleet.'
+    status: needs-rework
+status: beschikbaar
+tags:
+  - VI.B
+  - '2.4'
+wet: K.B. nr. 14 van 3 juni 1970, met betrekking tot de vervreemdingen van gebouwen, gedeelten van gebouwen en het bijhorende terrein
 ---
 
 # K.B. nr. 14 van 3 juni 1970, met betrekking tot de vervreemdingen van gebouwen, gedeelten van gebouwen en het bijhorende terrein
@@ -122,8 +124,6 @@ ontvangstmelding bekleed en aan de belastingplichtige teruggegeven.
       De belastingplichtige ressorteert onder het controlekantoor in het ambtsgebied waarvan hij zijn
 woonplaats of zijn maatschappelijke zetel heeft.
 
-Onroerende zakelijke rechten                   www.fisconetplus.be                                      pg. 1
-
 ## Art. 4
        (De tekst van KB nr. 14, artikel 4, eerste lid, werd gewijzigd met ingang van
        27.05.2019 (Art. 8, KB 12.05.2019, B.S. 27.05.2019, Ed. 1, pg. 50443))
@@ -175,8 +175,6 @@ Wetboek van de belasting over de toegevoegde waarde.
        (KB 03.06.1970))
 
        Onze Minister van Financiën is belast met de uitvoering van dit besluit.
-
-Onroerende zakelijke rechten                   www.fisconetplus.be                                        pg. 2
 
 Bijlage A
 

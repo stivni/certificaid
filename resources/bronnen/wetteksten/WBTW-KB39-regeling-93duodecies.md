@@ -1,59 +1,61 @@
 ---
-tags: [VI.B, '2.4']
-itaa-lex-sectie: VI.B
-wet: K.B. nr. 39 van 17 oktober 1980, tot regeling van de toepassingsmodaliteiten van artikel 93duodecies van het Wetboek van de belasting over de toegevoegde waarde
-bron_rol: itaa_lex
-status: beschikbaar
 bijgewerkt: 17.10.1980
 bron: Afgesplitst uit Fisconet-compilatie (pdftotext_compilatie_btw)
+bron_rol: itaa_lex
 chunk:
   level: 2
-  type: Art.
   sub_strategy:
+  type: Art.
+itaa-lex-sectie: VI.B
 provenance:
+  generated_at: '2026-05-11T13:40:00Z'
   inputs:
     - id: resources/raw/wetteksten/btw-kbs/WBTW-KB-compilatie.pdf
       sha256: 5f1bad7278d1f8e1f5c00efb5d792f61342d3f7a14a7950caca2937924bfa91c
       version: 06.03.2020
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 7a134f4
-    model:
-    prompt_version:
-  generated_at: '2026-05-09T16:15:19Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
   trust:
-    status: needs-rework
     confirmed_at: '2026-05-11T11:46:29Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "Kritisch structuurprobleem: regel 106 bevat '## Art. 139: De Koning kan voor iedere categorie van schuldvordering een vroegere datum van inwerkingtreding bepalen' — dit is een artikel uit een andere wet (W 13.04.2019) dat als voetnoot-citaat (1) midden in de body terechtgekomen is, maar door de ETL-pipeline incorrect als ##-heading gepromoot is (B5/G3). Hierdoor staat de voetnoot-body (regels 96-107) door de eigenlijke tekst van Art. 3 (B6/G3). Voorts: dit KB is opgeheven per 01.01.2020 — status-veld vermeldt dit niet."
     layer1:
       status: pass
-      run_id: 20260509-212552
-      run_at:
+      run_id: 20260511-134044
+      run_at: '2026-05-11T13:40:47Z'
       heading_count: 8
       max_section_chars: 1409
       file_size_chars: 6553
       flags: []
     layer2:
-      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T11:46:29Z'
-      rationale: "Kritisch structuurprobleem: regel 106 bevat '## Art. 139: De Koning kan voor iedere categorie van schuldvordering een vroegere datum van inwerkingtreding bepalen' — dit is een artikel uit een andere wet (W 13.04.2019) dat als voetnoot-citaat (1) midden in de body terechtgekomen is, maar door de ETL-pipeline incorrect als ##-heading gepromoot is (B5/G3). Hierdoor staat de voetnoot-body (regels 96-107) door de eigenlijke tekst van Art. 3 (B6/G3). Voorts: dit KB is opgeheven per 01.01.2020 — status-veld vermeldt dit niet."
       concrete_problemen:
-        - regel: 106
-          categorie: B5
+        - categorie: B5
+          regel: 106
           type: other
           voorbeeld: '## Art. 139: De Koning kan voor iedere categorie van schuldvordering een vroegere datum van inwerkingtreding bepalen'
-        - regel: 96
-          categorie: G3
+        - categorie: G3
+          regel: 96
           type: other
           voorbeeld: '(1) Art. 138: Deze wet is niet van toepassing: 1° op het administratieve dwangbevel...'
-        - regel: 109
-          categorie: A6
+        - categorie: A6
+          regel: 109
           type: other
           voorbeeld: 'Er moet evenwel een nieuw attest worden overgelegd... (staat na de verkeerd geplaatste ## Art. 139)'
+      rationale: 'Kritisch structuurprobleem: regel 106 bevat ''## Art. 139: De Koning kan voor iedere categorie van schuldvordering een vroegere datum van inwerkingtreding bepalen'' — dit is een artikel uit een andere wet (W 13.04.2019) dat als voetnoot-citaat (1) midden in de body terechtgekomen is, maar door de ETL-pipeline incorrect als ##-heading gepromoot is (B5/G3). Hierdoor staat de voetnoot-body (regels 96-107) door de eigenlijke tekst van Art. 3 (B6/G3). Voorts: dit KB is opgeheven per 01.01.2020 — status-veld vermeldt dit niet.'
+      run_at: '2026-05-11T11:46:29Z'
+      status: needs-rework
+    rationale: 'Kritisch structuurprobleem: regel 106 bevat ''## Art. 139: De Koning kan voor iedere categorie van schuldvordering een vroegere datum van inwerkingtreding bepalen'' — dit is een artikel uit een andere wet (W 13.04.2019) dat als voetnoot-citaat (1) midden in de body terechtgekomen is, maar door de ETL-pipeline incorrect als ##-heading gepromoot is (B5/G3). Hierdoor staat de voetnoot-body (regels 96-107) door de eigenlijke tekst van Art. 3 (B6/G3). Voorts: dit KB is opgeheven per 01.01.2020 — status-veld vermeldt dit niet.'
+    status: needs-rework
+status: beschikbaar
+tags:
+  - VI.B
+  - '2.4'
+wet: K.B. nr. 39 van 17 oktober 1980, tot regeling van de toepassingsmodaliteiten van artikel 93duodecies van het Wetboek van de belasting over de toegevoegde waarde
 ---
 
 # K.B. nr. 39 van 17 oktober 1980, tot regeling van de toepassingsmodaliteiten van artikel 93duodecies van het Wetboek van de belasting over de toegevoegde waarde

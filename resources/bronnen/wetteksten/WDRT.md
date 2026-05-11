@@ -25,8 +25,8 @@ provenance:
     rationale: "B3/D2: Art. 17 (regel 64) en Art. 20 (regel 81) zijn lege ##### Art.-headings zonder enige body — de artikeltekst ontbreekt volledig, niet als '[opgeheven]' gemarkeerd. Dit is geen opgeheven bepaling (de wetsbron vermeldt geen opheffing op die nummers); de extractie heeft de body gemist. Max-sectie van 55659 tekens op #####-niveau (Laag-1 warn) bevestigt ongelijke structuur. Verdere opmaak is degelijk."
     layer1:
       status: warn
-      run_id: 20260509-212552
-      run_at:
+      run_id: 20260511-134044
+      run_at: '2026-05-11T13:40:48Z'
       heading_count: 377
       max_section_chars: 55659
       file_size_chars: 313896

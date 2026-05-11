@@ -30,8 +30,8 @@ provenance:
     rationale: "B5: Zelfde patroon als MIGB-Brussel: bestand opent met '§ 1.' zonder Art. 1 heading op regel 53. B3: Duplicate heading op regels 179 en 181: '### HOOFDSTUK V - Bedrag der belasting of belastingvoet' staat twee keer achter elkaar. E1/A8: Tarieftabellen (Art. 9) als spatie-uitgelijnde pseudo-tabellen met kolommen door elkaar (MTM, luchtvering, andere ophanging, bedragen), niet als markdown pipe-tables. Inhoud overigens volledig en up-to-date (30.05.2025)."
     layer1:
       status: pass
-      run_id: 20260509-212552
-      run_at:
+      run_id: 20260511-134044
+      run_at: '2026-05-11T13:40:45Z'
       heading_count: 192
       max_section_chars: 19938
       file_size_chars: 194854

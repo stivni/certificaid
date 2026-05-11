@@ -30,8 +30,8 @@ provenance:
     rationale: 'Klein MB (816 chars) met volledige inhoud. Tegenstelling met eerdere layer2-notitie: Art. 1 en Art. 2 staan correct als ## headings op regels 60 en 65. Geen PDF-artefacten, geen kolom-bleed, geen scrambled text. Laag-1 pass. Ziet eruit alsof een mens het van nul heeft geschreven.'
     layer1:
       status: pass
-      run_id: 20260509-212552
-      run_at:
+      run_id: 20260511-134044
+      run_at: '2026-05-11T13:40:48Z'
       heading_count: 2
       max_section_chars: 537
       file_size_chars: 816

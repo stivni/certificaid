@@ -1,79 +1,81 @@
 ---
-tags: [VI.B, '2.4']
-itaa-lex-sectie: VI.B
-wet: K.B. nr. 41 van 30 januari 1987, tot vaststelling van het bedrag van de proportionele fiscale geldboeten op het stuk van de belasting over de toegevoegde waarde
-bron_rol: itaa_lex
-status: beschikbaar
 bijgewerkt: 30.01.1987
 bron: Afgesplitst uit Fisconet-compilatie (pdftotext_compilatie_btw)
+bron_rol: itaa_lex
 chunk:
   level: 3
-  type: Art.
   sub_strategy:
+  type: Art.
+itaa-lex-sectie: VI.B
 provenance:
+  generated_at: '2026-05-11T13:40:00Z'
   inputs:
     - id: resources/raw/wetteksten/btw-kbs/WBTW-KB-compilatie.pdf
       sha256: 5f1bad7278d1f8e1f5c00efb5d792f61342d3f7a14a7950caca2937924bfa91c
       version: 06.03.2020
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 7a134f4
-    model:
-    prompt_version:
-  generated_at: '2026-05-09T16:15:19Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
   trust:
-    status: needs-rework
     confirmed_at: '2026-05-11T11:46:29Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "A1: pagina-scheidingsresten aanwezig op regels 117, 171, 240, 312, 385, 458, 529 als 'Proportionele fiscale geldboeten              www.fisconetplus.be                            Bijlage pg. N' — leesbaar als kop-/voetregel die niet is verwijderd. C3/A8: de bijlage-tabellen zijn gerenderd als pseudo-tabellen met spatie-uitlijning (3+ spaties als kolom-separator) in plaats van markdown-pipe-syntax. De heading-hiërarchie wisselt onlogisch tussen ### (Art.) en ## (Afdeling in bijlage), wat de indruk wekt van inconsistente extractie. Laag-1 meldt max_section_size 73k >> 24k; één sectie bevat alle tabellen ongesplitst."
     layer1:
       status: warn
-      run_id: 20260509-212552
-      run_at:
+      run_id: 20260511-134044
+      run_at: '2026-05-11T13:40:47Z'
       heading_count: 18
-      max_section_chars: 68792
-      file_size_chars: 72978
+      max_section_chars: 29664
+      file_size_chars: 70838
       flags:
         - name: max_section_size
           status: warn
-          detail: 'langste sectie op ###-niveau: 68792 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
+          detail: 'langste sectie op ##-niveau: 29664 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
           samples: []
     layer2:
-      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T11:46:29Z'
-      rationale: "A1: pagina-scheidingsresten aanwezig op regels 117, 171, 240, 312, 385, 458, 529 als 'Proportionele fiscale geldboeten              www.fisconetplus.be                            Bijlage pg. N' — leesbaar als kop-/voetregel die niet is verwijderd. C3/A8: de bijlage-tabellen zijn gerenderd als pseudo-tabellen met spatie-uitlijning (3+ spaties als kolom-separator) in plaats van markdown-pipe-syntax. De heading-hiërarchie wisselt onlogisch tussen ### (Art.) en ## (Afdeling in bijlage), wat de indruk wekt van inconsistente extractie. Laag-1 meldt max_section_size 73k >> 24k; één sectie bevat alle tabellen ongesplitst."
       concrete_problemen:
-        - regel: 117
-          categorie: A1
+        - categorie: A1
+          regel: 117
           type: form-feed
           voorbeeld: Proportionele fiscale geldboeten              www.fisconetplus.be                            Bijlage pg. 1
-        - regel: 171
-          categorie: A1
+        - categorie: A1
+          regel: 171
           type: form-feed
           voorbeeld: Proportionele fiscale geldboeten             www.fisconetplus.be                       Bijlage pg. 2
-        - regel: 240
-          categorie: A1
+        - categorie: A1
+          regel: 240
           type: form-feed
           voorbeeld: Proportionele fiscale geldboeten            www.fisconetplus.be                          Bijlage pg. 1
-        - regel: 312
-          categorie: A1
+        - categorie: A1
+          regel: 312
           type: form-feed
           voorbeeld: Proportionele fiscale geldboeten             www.fisconetplus.be                          Bijlage pg. 2
-        - regel: 385
-          categorie: A1
+        - categorie: A1
+          regel: 385
           type: form-feed
           voorbeeld: Proportionele fiscale geldboeten          www.fisconetplus.be                                Bijlage pg. 3
-        - regel: 192
-          categorie: C3
+        - categorie: C3
+          regel: 192
           type: pseudo-table
           voorbeeld: A)     belasting  en     voorschotten     waarvan     de    per maand vertraging (1), een
-        - regel: 0
-          categorie: E1
+        - categorie: E1
+          regel: 0
           type: pseudo-table
           voorbeeld: Bijlage-tabellen als spatie-uitgelijnde kolommen, niet als markdown-pipe-tabellen
+      rationale: 'A1: pagina-scheidingsresten aanwezig op regels 117, 171, 240, 312, 385, 458, 529 als ''Proportionele fiscale geldboeten              www.fisconetplus.be                            Bijlage pg. N'' — leesbaar als kop-/voetregel die niet is verwijderd. C3/A8: de bijlage-tabellen zijn gerenderd als pseudo-tabellen met spatie-uitlijning (3+ spaties als kolom-separator) in plaats van markdown-pipe-syntax. De heading-hiërarchie wisselt onlogisch tussen ### (Art.) en ## (Afdeling in bijlage), wat de indruk wekt van inconsistente extractie. Laag-1 meldt max_section_size 73k >> 24k; één sectie bevat alle tabellen ongesplitst.'
+      run_at: '2026-05-11T11:46:29Z'
+      status: needs-rework
+    rationale: 'A1: pagina-scheidingsresten aanwezig op regels 117, 171, 240, 312, 385, 458, 529 als ''Proportionele fiscale geldboeten              www.fisconetplus.be                            Bijlage pg. N'' — leesbaar als kop-/voetregel die niet is verwijderd. C3/A8: de bijlage-tabellen zijn gerenderd als pseudo-tabellen met spatie-uitlijning (3+ spaties als kolom-separator) in plaats van markdown-pipe-syntax. De heading-hiërarchie wisselt onlogisch tussen ### (Art.) en ## (Afdeling in bijlage), wat de indruk wekt van inconsistente extractie. Laag-1 meldt max_section_size 73k >> 24k; één sectie bevat alle tabellen ongesplitst.'
+    status: needs-rework
+status: beschikbaar
+tags:
+  - VI.B
+  - '2.4'
+wet: K.B. nr. 41 van 30 januari 1987, tot vaststelling van het bedrag van de proportionele fiscale geldboeten op het stuk van de belasting over de toegevoegde waarde
 ---
 
 # K.B. nr. 41 van 30 januari 1987, tot vaststelling van het bedrag van de proportionele fiscale geldboeten op het stuk van de belasting over de toegevoegde waarde
@@ -139,8 +141,6 @@ naargelang het kleiner of groter is dan 250 EUR.
 § 2.  Wanneer de geldboete wordt verhoogd overeenkomstig de bepalingen van artikel 2 van dit besluit,
 wordt het resultaat niet opnieuw afgerond.
 
-Proportionele fiscale geldboeten              www.fisconetplus.be                            Bijlage pg. 1
-
 ### Art. 5
 
       (De tekst van KB nr. 41, artikel 5, is van toepassing met ingang van 01.02.1987
@@ -156,8 +156,6 @@ Proportionele fiscale geldboeten              www.fisconetplus.be               
       Onze Minister van Financiën is belast met de uitvoering van dit besluit.
 
                                                  Bijlage
-
-                                    Inhoudstafel van de bijlage
 
 TABEL A: Geldboeten voor overtredingen beoogd in artikel 70, § 1, van het wetboek
 
@@ -192,8 +190,6 @@ TABEL H: Geldboeten voor overtredingen beoogd in artikel 70, § 1bis, van het we
 TABEL I: Geldboeten voor overtredingen beoogd in artikel 70, § 3, van het wetboek
 
 TABEL J: Geldboeten voor overtredingen beoogd in artikel 71 van het wetboek
-
-Proportionele fiscale geldboeten             www.fisconetplus.be                       Bijlage pg. 2
 
                                                 BIJLAGE
 
@@ -261,8 +257,6 @@ II.    Onjuistheden vastgesteld bij het nazicht van de boekhouding
        voldoening van de belasting over de toegevoegde waarde.
 
 (1) Ieder begonnen tijdvak van een maand wordt voor een gehele maand gerekend.
-
-Proportionele fiscale geldboeten            www.fisconetplus.be                          Bijlage pg. 1
 
         Het bedrag van de verschuldigde          belasting   voor   een
         controleperiode van één jaar (2) is :
@@ -333,8 +327,6 @@ VII.    Overtredingen van de verplichting de goederen aan te geven
 (2)    Om het bedrag van de voor de periode van één jaar verschuldigde belasting te
        berekenen, wordt het totaal van de verschuldigde belasting gedeeld door het aantal
        gecontroleerde jaren.
-
-Proportionele fiscale geldboeten             www.fisconetplus.be                          Bijlage pg. 2
 
         3.    Andere gevallen                                                200 pct. van de verschuldigde
                                                                              belasting
@@ -407,8 +399,6 @@ VIII.   Overtredingen van de verplichting de goederen aan te geven
               degene op wiens naam de terzake van invoer
               verschuldigde belasting mag of moet worden voldaan
 
-Proportionele fiscale geldboeten            www.fisconetplus.be                                Bijlage pg. 3
-
       7.     Overtredingen in verband met het weekkrediet                 1 pct. van de verschuldigde
                                                                           belasting per maand vertraging
                                                                           (3)
@@ -480,8 +470,6 @@ X.     Overtredingen op het stuk van de tijdelijke invoer van
 
 (3) Ieder begonnen tijdvak van een maand wordt voor een gehele maand gerekend.
 
-Proportionele fiscale geldboeten           www.fisconetplus.be                           Bijlage pg. 4
-
                    3°     de frauduleuze bedoeling is niet volledig    100 pct. van de verschuldigde
                           uit te sluiten                               belasting
 
@@ -550,8 +538,6 @@ XI.    Overtredingen inzake de toepassing van artikel 39 van het
                                  heeft de regularisatie gedaan in      belasting
                                  overeenstemming       met     de
                                  voorwaarden van de vergunning
-
-Proportionele fiscale geldboeten          www.fisconetplus.be                          Bijlage pg. 5
 
                            b)     de houder van de vergunning            20 pct. van de te regulariseren
                                   heeft op het tijdstip van de           belasting
@@ -624,8 +610,6 @@ XII.   Overtredingen inzake de toepassing van artikel 40, § 1, 3°, b,
              A.      Op de vergunning is aanspraak gemaakt voor
                      handelingen waarvoor ze niet van toepassing
                      is:
-
-Proportionele fiscale geldboeten           www.fisconetplus.be                          Bijlage pg. 6
 
                      1°    de belasting waarvan de vrijstelling ten     5 pct. van        de belasting
                            onrechte is verkregen, is aftrekbaar         waarvan de vrijstelling ten
@@ -700,8 +684,6 @@ XIII.   Overtredingen inzake de toepassing van artikel 42, § 3, 8°,
                      ambtenaar om het register of de boekhouding
                      binnen een redelijke termijn aan te leggen of
 
-Proportionele fiscale geldboeten           www.fisconetplus.be                        Bijlage pg. 7
-
                    aan te passen
 
              C.    De goederen worden niet uitgevoerd binnen de
@@ -773,8 +755,6 @@ XIV.   Overtredingen in verband met de toepassing van artikel 43
                           verplicht geworden regularisatie nog niet   belasting
                           uitgevoerd
 
-Proportionele fiscale geldboeten         www.fisconetplus.be                         Bijlage pg. 8
-
                                                TABEL B
 
              GELDBOETEN VAN TOEPASSING VOOR DE OVERTREDINGEN
@@ -836,8 +816,6 @@ naleving van de voorwaarden bepaald in artikel 51 van het Wetboek.
 belasting te berekenen, wordt het totaal van de verkeerdelijk in aftrek gebrachte belasting
 gedeeld door het aantal gecontroleerde jaren.
 
-Proportionele fiscale geldboeten            www.fisconetplus.be                          Bijlage pg. 9
-
 4.     Andere overtredingen met betrekking tot het aangeven van          200 pct. van de op de
        de aard of de hoeveelheid van de ingevoerde goederen              handeling verschuldigde belas-
                                                                          ting
@@ -893,8 +871,6 @@ werkelijk uitgevoerde hoeveelheid, hetzij van een hogere prijs of        bereken
 waarde dan de werkelijke prijs of waarde van de uitgevoerde              verschuldigd zou zijn geweest
 goederen, hetzij van de uitgevoerde goederen onder een valse
 benaming
-
-Proportionele fiscale geldboeten           www.fisconetplus.be                          Bijlage pg. 10
 
                                                  TABEL G
 
@@ -965,8 +941,6 @@ III.     Gehele of gedeeltelijke niet-betaling of niet-tijdige betaling
 
 (5) Ieder begonnen tijdvak van een maand wordt voor een gehele maand gerekend.
 
-Proportionele fiscale geldboeten             www.fisconetplus.be                        Bijlage pg. 11
-
 IV.    Gebrekkige toepassing van de btw-reglementering, andere
        dan die hierna aangeduid, vastgesteld bij het nazicht van de
        voorgelegde boeken en stukken.
@@ -1029,8 +1003,6 @@ VII.   1.     Ten onrechte toepassen van artikel 25ter, § 1, tweede       10 pc
     EUR proportioneel verminderd of verhoogd.
 (7) Indien de controleperiode korter of langer is dan één jaar wordt het bedrag van 1.250
     EUR proportioneel verminderd of verhoogd.
-
-Proportionele fiscale geldboeten            www.fisconetplus.be                        Bijlage pg. 12
 
 ## Afdeling 2.- Invoer.
 
@@ -1096,8 +1068,6 @@ VIII.   Overtredingen van de verplichting de goederen aan te geven
 (8) Moet onder "louter toevallige overtredingen" worden verstaan, de onregelmatigheden die
     te wijten zijn aan onwetendheid, vergissingen of nalatigheid en waarbij aan de goede
     trouw van de overtreder niet kan worden getwijfeld.
-
-Proportionele fiscale geldboeten               www.fisconetplus.be                          Bijlage pg. 13
 
       3.    Overtredingen inzake het aangeven van de aard of de
             hoeveelheid van de ingevoerde goederen.
@@ -1167,8 +1137,6 @@ Proportionele fiscale geldboeten               www.fisconetplus.be              
 (10) Indien de controleperiode korter of langer is dan één jaar wordt het bedrag van
      1.250 EUR proportioneel verminderd of verhoogd.
 (11) Ieder begonnen tijdvak van een maand wordt voor een gehele maand gerekend.
-
-Proportionele fiscale geldboeten          www.fisconetplus.be                           Bijlage pg. 14
 
         6.    Laattijdige voldoening van de belasting ingevolge            10 pct. van de verschuldigde
               overtredingen in verband met de opschortende                 belasting
@@ -1241,8 +1209,6 @@ XII.    Overtredingen inzake de toepassing van artikel 39 van het
        die te wijten zijn aan onwetendheid, vergissingen of nalatigheid en waarbij aan de
        goede trouw van de overtreder niet kan worden getwijfeld.
 
-Proportionele fiscale geldboeten              www.fisconetplus.be                       Bijlage pg. 15
-
               B)      De goederen krijgen een andere bestemming          10 pct. van de verschuldigde
                       dan die voorzien onder het stelsel van             belasting
                       opschorting, waarvoor de belasting opeisbaar
@@ -1295,8 +1261,6 @@ XIV.    Overtredingen inzake de toepassing van artikel 42, § 3, 8°,
 
 XV.     Overtredingen begaan bij de toepassing van artikel 39quater      10 pct. van de verschuldigde
         van het Wetboek                                                  belasting.
-
-Proportionele fiscale geldboeten            www.fisconetplus.be                       Bijlage pg. 16
 
                                                   TABEL H
 
@@ -1355,8 +1319,6 @@ Het invoerdocument bevat onjuiste vermeldingen ten aanzien van :
        die te wijten zijn aan onwetendheid, vergissingen of nalatigheid en waarbij aan de
        goede trouw van de overtreder niet kan worden getwijfeld.
 
-Proportionele fiscale geldboeten              www.fisconetplus.be                        Bijlage pg. 17
-
                                              TABEL J
 
             GELDBOETEN VAN TOEPASSING VOOR DE OVERTREDINGEN
@@ -1368,8 +1330,6 @@ werkelijk uitgevoerde hoeveelheid, hetzij van een hogere prijs of    berekende b
 waarde dan de werkelijke prijs of waarde van de uitgevoerde          schuldigd zou zijn geweest, met
 goederen, hetzij van de uitgevoerde goederen onder een valse         een minimum van 50 EUR
 benaming
-
-Proportionele fiscale geldboeten         www.fisconetplus.be                      Bijlage pg. 18
 
 Bijlage A
 Lijst van de bijwerkingen

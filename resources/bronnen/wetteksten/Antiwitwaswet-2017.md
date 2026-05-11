@@ -29,13 +29,17 @@ provenance:
     confirmed_by: subagent-sonnet-4-6
     rationale: L1=pass
     layer1:
-      status: pass
-      run_id: 20260509-212552
-      run_at:
+      status: warn
+      run_id: 20260511-134044
+      run_at: '2026-05-11T13:40:44Z'
       heading_count: 305
-      max_section_chars: 6412
+      max_section_chars: 31948
       file_size_chars: 379952
-      flags: []
+      flags:
+        - name: max_section_size
+          status: warn
+          detail: 'langste sectie op ######-niveau: 31948 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
+          samples: []
     layer2:
       status: trusted
       agent:

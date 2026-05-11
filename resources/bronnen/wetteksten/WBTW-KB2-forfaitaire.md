@@ -1,48 +1,50 @@
 ---
-tags: [VI.B, '2.4']
-itaa-lex-sectie: VI.B
-wet: K.B. nr. 2, 19 december 2018, met betrekking tot de forfaitaire regeling inzake btw
-bron_rol: itaa_lex
-status: beschikbaar
 bijgewerkt: '2018'
 bron: Fisconetplus.be (officieuze gecoördineerde versie)
+bron_rol: itaa_lex
 chunk:
   level: 2
-  type: Art.
   sub_strategy:
+  type: Art.
+itaa-lex-sectie: VI.B
 provenance:
+  generated_at: '2026-05-11T13:40:00Z'
   inputs:
     - id: resources/raw/wetteksten/btw-kbs/WBTW-KB2-forfaitaire.pdf
       sha256: 8ea70cb7a624d686abb875837eabc7cae788dfc2aaa922fd6983c395de790570
       version: '2018'
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 7a134f4
-    model:
-    prompt_version:
-  generated_at: '2026-05-09T16:15:16Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 7a134f4
+    prompt_version:
   trust:
-    status: trusted
     confirmed_at: '2026-05-09T21:27:46Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "L1=pass; L1.5=improvement (Auto-synthesized: heading-injection (inject_wbtw_headings.py) — staging is structureel beter dan resources-versie.); L2=trusted (ETL-fix toegepast: inject_wbtw_headings.py heeft TOC-strip + Artikel-N → ## Art. heading-injectie + AFDELING-normalisatie uitgevoerd. Eerdere needs-rework op 'missing-section' opgeheven.)"
     layer1:
       status: pass
-      run_id: 20260509-212552
-      run_at:
+      run_id: 20260511-134044
+      run_at: '2026-05-11T13:40:47Z'
       heading_count: 12
       max_section_chars: 2228
-      file_size_chars: 11317
+      file_size_chars: 11318
       flags: []
     layer2:
-      status: trusted
       agent:
-      run_at:
-      rationale: "Recente KB (2018), 12 ## Art.-headings, ## HOOFDSTUK-structuur impliciet via Bijlage-blok. Inline 'Art. 2.De' / 'Art. 3.§ 1.' op heading-regels is licht; body-flow blijft leesbaar."
       concrete_problemen:
         - 'enkele ## Art.-headings bevatten beginwoord van body'
+      rationale: 'Recente KB (2018), 12 ## Art.-headings, ## HOOFDSTUK-structuur impliciet via Bijlage-blok. Inline ''Art. 2.De'' / ''Art. 3.§ 1.'' op heading-regels is licht; body-flow blijft leesbaar.'
+      run_at:
+      status: trusted
+    rationale: 'L1=pass; L1.5=improvement (Auto-synthesized: heading-injection (inject_wbtw_headings.py) — staging is structureel beter dan resources-versie.); L2=trusted (ETL-fix toegepast: inject_wbtw_headings.py heeft TOC-strip + Artikel-N → ## Art. heading-injectie + AFDELING-normalisatie uitgevoerd. Eerdere needs-rework op ''missing-section'' opgeheven.)'
+    status: trusted
+status: beschikbaar
+tags:
+  - VI.B
+  - '2.4'
+wet: K.B. nr. 2, 19 december 2018, met betrekking tot de forfaitaire regeling inzake btw
 ---
 
 # BTW KB nr. 2 — Forfaitaire regeling

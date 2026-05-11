@@ -30,8 +30,8 @@ provenance:
     rationale: "MB met volledige inhoud. Art. 1, 2 en 3 staan correct als ## headings op regels 63, 80 en 85. Geen PDF-artefacten, geen kolom-bleed, geen scrambled text. De eerdere layer2-notitie '0 ##-headings' was incorrect. Laag-1 pass."
     layer1:
       status: pass
-      run_id: 20260509-212552
-      run_at:
+      run_id: 20260511-134044
+      run_at: '2026-05-11T13:40:48Z'
       heading_count: 3
       max_section_chars: 1220
       file_size_chars: 2200

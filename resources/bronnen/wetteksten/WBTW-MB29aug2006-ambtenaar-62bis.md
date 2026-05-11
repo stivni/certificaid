@@ -30,8 +30,8 @@ provenance:
     rationale: 'Alle drie artikelen zijn correct als ## headings gemarkeerd. De preamble-tekst op regels 54–59 is aaneengesmolten maar dat is een cosmetisch haarscheurtje dat geen leesbaarheid of structuur raakt. Inhoud compleet: Art. 1 (ambtenaar WBTW), Art. 2 (ambtenaar WIB92), Art. 3 (inwerkingtreding). Frontmatter consistent. Geen detecteerbare OCR-fouten, geen kolom-bleed, geen artefacten.'
     layer1:
       status: pass
-      run_id: 20260509-212552
-      run_at:
+      run_id: 20260511-134044
+      run_at: '2026-05-11T13:40:48Z'
       heading_count: 3
       max_section_chars: 668
       file_size_chars: 1325

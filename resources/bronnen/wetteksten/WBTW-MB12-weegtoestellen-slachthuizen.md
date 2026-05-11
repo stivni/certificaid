@@ -30,8 +30,8 @@ provenance:
     rationale: 'MB met volledige technische inhoud (weegtoestellen-specificaties). Art. 1 en Art. 2 staan correct als ## headings op regels 60 en 84. Genummerde opsomming (1°–8°) consistent in Belgische wetstijl. Geen PDF-artefacten, geen kolom-bleed, geen scrambled text. Laag-1 pass.'
     layer1:
       status: pass
-      run_id: 20260509-212552
-      run_at:
+      run_id: 20260511-134044
+      run_at: '2026-05-11T13:40:48Z'
       heading_count: 2
       max_section_chars: 1597
       file_size_chars: 2218

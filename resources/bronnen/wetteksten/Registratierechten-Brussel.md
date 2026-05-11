@@ -25,11 +25,11 @@ provenance:
     rationale: "A2/B7: de eerste 180+ regels bevatten de volledige TOC met dotted-leaders (paginanummers) die niet verwijderd zijn; dit zijn pure extractie-artefacten die als RAG-chunks zouden meekomen. B4: vier structuurlabels in de body verschijnen als plain-text all-caps regels zonder `#`-prefix (TIJDELIJKE BEPALINGEN r.6513, OVERGANGSBEPALINGEN r.6717, BIJBEPALINGEN r.6829, INWERKINGTREDING r.6858). Het eigenlijke artikel-corpus na de TOC (vanaf r.241) is inhoudelijk goed: correcte `######` Art.-headings, alinea's intact, geen OCR-fouten vastgesteld."
     layer1:
       status: warn
-      run_id: 20260509-212552
-      run_at:
-      heading_count: 602
+      run_id: 20260511-134044
+      run_at: '2026-05-11T13:40:46Z'
+      heading_count: 604
       max_section_chars: 58083
-      file_size_chars: 543714
+      file_size_chars: 543758
       flags:
         - name: max_section_size
           status: warn

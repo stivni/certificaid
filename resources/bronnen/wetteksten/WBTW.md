@@ -30,8 +30,8 @@ provenance:
     rationale: 'L1=warn; L1.5=improvement (Auto-synthesized: ETL-fixes vandaag (NBSP, sub_strategy, justel-extractor, etc.) verbeteren bestaande versie.); L2=trusted (Grote wettekst (620KB) met 283 headings tot ##### Art.-niveau; max sectie 58337 chars (chunker splitst auto). Inhoud leesbaar, geen NL/FR-mengelmoes, slot bijlages aanwezig.)'
     layer1:
       status: warn
-      run_id: 20260509-212552
-      run_at:
+      run_id: 20260511-134044
+      run_at: '2026-05-11T13:40:48Z'
       heading_count: 283
       max_section_chars: 58337
       file_size_chars: 620256

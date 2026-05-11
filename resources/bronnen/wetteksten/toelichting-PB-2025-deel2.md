@@ -24,13 +24,22 @@ provenance:
     confirmed_by: subagent-sonnet-4-6
     rationale: "Drie klassen van extractie-artefacten aanwezig. (1) A1/A2: de INHOUDSTAFEL staat volledig in de body met losstaande paginanummers op eigen regels (3, 5, 6, 8, 21, 27 ...) door het hele TOC-blok heen (regels 59–110). (2) B4/B5: secties als 'Vak XV', 'Vak XVI', 'Vak XVII' enz. worden 66× als plain-text herhaald als pagina-koptekst in plaats van heading (bijv. regels 207, 247, 320 ...); ook 'INHOUDSTAFEL' en 'ALGEMENE INLICHTINGEN' zijn plain-text in plaats van ##-heading. (3) A6/A7: twee bevestigde woord-afkappingen over pagina-grenzen heen: 'be10\\n\\nVak XV\\n\\ntaald' (regel 460) en 'beroepswerkzaam51\\n\\nVak XVIII' (regel 2438), waarbij het paginanummer midden in het woord is geplakt. Inhoud (alle vakken XIV–XXII aanwezig) en wetsvolgorde zijn verder correct."
     layer1:
-      status: not_run
-      run_id:
-      run_at:
-      heading_count:
-      max_section_chars:
-      file_size_chars:
-      flags: []
+      status: warn
+      run_id: 20260511-134044
+      run_at: '2026-05-11T13:40:50Z'
+      heading_count: 10
+      max_section_chars: 186051
+      file_size_chars: 187244
+      flags:
+        - name: max_section_size
+          status: warn
+          detail: 'langste sectie op ##-niveau: 186051 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
+          samples: []
+        - name: no_toc_dots
+          status: warn
+          detail: 1 TOC-stippen-regel(s) gevonden
+          samples:
+            - '................................................................................'
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6

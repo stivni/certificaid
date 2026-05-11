@@ -30,8 +30,8 @@ provenance:
     rationale: 'D2: de bijlagen 1, 2 en 3 (modellen van de berichten en kennisgevingen) worden in de artikelen 1–3 expliciet vermeld als inhoud van dit MB, maar staan op regels 98–102 als gecentreerde plain-text placeholders zonder enige inhoud — de modellen zelf zijn niet geëxtraheerd. Dit is een duidelijke ontbrekende sectie die de bruikbaarheid voor RAG beperkt. Art. 1–5 hebben wel correcte ## headings en de artikelstructuur is verder compleet.'
     layer1:
       status: pass
-      run_id: 20260509-212552
-      run_at:
+      run_id: 20260511-134044
+      run_at: '2026-05-11T13:40:48Z'
       heading_count: 5
       max_section_chars: 1371
       file_size_chars: 2461

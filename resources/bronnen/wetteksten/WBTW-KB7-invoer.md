@@ -1,67 +1,69 @@
 ---
-tags: [VI.B, '2.4']
-itaa-lex-sectie: VI.B
-wet: K.B. nr. 7 van 29 december 1992, met betrekking tot de invoer van goederen voor de toepassing van de belasting over de toegevoegde waarde
-bron_rol: itaa_lex
-status: beschikbaar
 bijgewerkt: 29.12.1992
 bron: Afgesplitst uit Fisconet-compilatie (pdftotext_compilatie_btw)
+bron_rol: itaa_lex
 chunk:
   level: 4
-  type: Art.
   sub_strategy:
+  type: Art.
+itaa-lex-sectie: VI.B
 provenance:
+  generated_at: '2026-05-11T13:40:00Z'
   inputs:
     - id: resources/raw/wetteksten/btw-kbs/WBTW-KB-compilatie.pdf
       sha256: 5f1bad7278d1f8e1f5c00efb5d792f61342d3f7a14a7950caca2937924bfa91c
       version: 06.03.2020
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 7a134f4
-    model:
-    prompt_version:
-  generated_at: '2026-05-09T16:15:18Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
   trust:
-    status: needs-rework
     confirmed_at: '2026-05-11T11:46:29Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "Meerdere PDF-extractieartefacten in dit grote bestand (48 artikelen + bijlage). (1) C3: regels 1762-1908 en de bijlage (2053+) bevatten uitgebreide pseudo-tabellen met spatie-alignment voor hoeveelheden tabaksproducten/alcohol en tariefcodes. (2) A6: regel 1308 toont onverklaarbare extra witruimte midden in een zin ('voortkomen uit                           de'). (3) A3/B7: regels 67-87 bovenaan de body bevatten TOC-fragmenten (Afdeling 2-7 headers als ###) vóór het daadwerkelijke HOOFDSTUK I — dit is een dubbele inhoudsopgave die door de extractie is verspreid. (4) G1: regel 2055 bevat kale URL 'www.fisconetplus.be'. Inhoud is structureel volledig (art. 1-48 + bijlage aanwezig)."
     layer1:
       status: pass
-      run_id: 20260509-212552
-      run_at:
-      heading_count: 69
+      run_id: 20260511-134044
+      run_at: '2026-05-11T13:40:48Z'
+      heading_count: 61
       max_section_chars: 9795
-      file_size_chars: 113124
+      file_size_chars: 112236
       flags: []
     layer2:
-      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T11:46:29Z'
-      rationale: "Meerdere PDF-extractieartefacten in dit grote bestand (48 artikelen + bijlage). (1) C3: regels 1762-1908 en de bijlage (2053+) bevatten uitgebreide pseudo-tabellen met spatie-alignment voor hoeveelheden tabaksproducten/alcohol en tariefcodes. (2) A6: regel 1308 toont onverklaarbare extra witruimte midden in een zin ('voortkomen uit                           de'). (3) A3/B7: regels 67-87 bovenaan de body bevatten TOC-fragmenten (Afdeling 2-7 headers als ###) vóór het daadwerkelijke HOOFDSTUK I — dit is een dubbele inhoudsopgave die door de extractie is verspreid. (4) G1: regel 2055 bevat kale URL 'www.fisconetplus.be'. Inhoud is structureel volledig (art. 1-48 + bijlage aanwezig)."
       concrete_problemen:
-        - regel: 67
-          categorie: A3
+        - categorie: A3
+          regel: 67
           type: other
           voorbeeld: '### Afdeling 2: Vrijstelling ingesteld bij artikel 40, § 1, 1°, b (art. 12-37) [TOC-fragment vóór body]'
-        - regel: 1308
-          categorie: A6
+        - categorie: A6
+          regel: 1308
           type: other
           voorbeeld: Onder "overblijvende producten" wordt verstaan, producten die voortkomen uit                           de
-        - regel: 1762
-          categorie: C3
+        - categorie: C3
+          regel: 1762
           type: pseudo-table
           voorbeeld: '      a)   tabaksprodukten:\n           -     sigaretten                                                   200 stuks'
-        - regel: 1972
-          categorie: C3
+        - categorie: C3
+          regel: 1972
           type: pseudo-table
           voorbeeld: '     Code van het Tarief                       Omschrijving van invoerrechten'
-        - regel: 2055
-          categorie: G1
+        - categorie: G1
+          regel: 2055
           type: url-plaintext
           voorbeeld: De historische versies kunnen geraadpleegd worden op www.fisconetplus.be
+      rationale: 'Meerdere PDF-extractieartefacten in dit grote bestand (48 artikelen + bijlage). (1) C3: regels 1762-1908 en de bijlage (2053+) bevatten uitgebreide pseudo-tabellen met spatie-alignment voor hoeveelheden tabaksproducten/alcohol en tariefcodes. (2) A6: regel 1308 toont onverklaarbare extra witruimte midden in een zin (''voortkomen uit                           de''). (3) A3/B7: regels 67-87 bovenaan de body bevatten TOC-fragmenten (Afdeling 2-7 headers als ###) vóór het daadwerkelijke HOOFDSTUK I — dit is een dubbele inhoudsopgave die door de extractie is verspreid. (4) G1: regel 2055 bevat kale URL ''www.fisconetplus.be''. Inhoud is structureel volledig (art. 1-48 + bijlage aanwezig).'
+      run_at: '2026-05-11T11:46:29Z'
+      status: needs-rework
+    rationale: 'Meerdere PDF-extractieartefacten in dit grote bestand (48 artikelen + bijlage). (1) C3: regels 1762-1908 en de bijlage (2053+) bevatten uitgebreide pseudo-tabellen met spatie-alignment voor hoeveelheden tabaksproducten/alcohol en tariefcodes. (2) A6: regel 1308 toont onverklaarbare extra witruimte midden in een zin (''voortkomen uit                           de''). (3) A3/B7: regels 67-87 bovenaan de body bevatten TOC-fragmenten (Afdeling 2-7 headers als ###) vóór het daadwerkelijke HOOFDSTUK I — dit is een dubbele inhoudsopgave die door de extractie is verspreid. (4) G1: regel 2055 bevat kale URL ''www.fisconetplus.be''. Inhoud is structureel volledig (art. 1-48 + bijlage aanwezig).'
+    status: needs-rework
+status: beschikbaar
+tags:
+  - VI.B
+  - '2.4'
+wet: K.B. nr. 7 van 29 december 1992, met betrekking tot de invoer van goederen voor de toepassing van de belasting over de toegevoegde waarde
 ---
 
 # K.B. nr. 7 van 29 december 1992, met betrekking tot de invoer van goederen voor de toepassing van de belasting over de toegevoegde waarde
@@ -77,26 +79,6 @@ waarde.
 
 Laatstelijk gewijzigd, met ingang van 05.12.2019 (KB 07.11.2019, B.S. 25.11.2019,
 pg. 108072)
-
-### Afdeling 2:      Vrijstelling ingesteld bij artikel 40, § 1, 1°, b, van het Wetboek. (art. 12 –
-                    art. 37)
-
-### Afdeling 3:      Vrijstelling ingesteld bij artikel 40, § 1, 1°, c, § 2, 1°, b, en 2°, b, van het
-                    Wetboek. (art. 38)
-
-### Afdeling 4:      Vrijstelling ingesteld bij artikel 40, § 1, 1°, d, van het Wetboek. (art. 39)
-
-### Afdeling 5:      Vrijstelling ingesteld bij artikel 40, § 1, 2°, van het Wetboek. (art. 40 –
-                    art. 41)
-
-### Afdeling 6:      Vrijstelling ingesteld bij artikel 40, § 2, van het Wetboek. (art. 42)
-
-### Afdeling 7:      Vrijstelling ingesteld bij artikel 40, § 4, van het Wetboek. (art. 43 – art. 44)
-
-## HOOFDSTUK V — VOORZIENING OM DE INVORDERING VAN DE BELASTING TE VERZEKEREN
-                    (art. 45)
-
-## HOOFDSTUK VI:       OPHEFFINGSBEPALING EN INWERKINGTREDING. (art. 46 – art. 48)
 
 Bijlage: Materiaal bedoeld in artikel 36, 21°, van het besluit
 

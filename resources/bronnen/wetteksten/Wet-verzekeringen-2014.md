@@ -26,17 +26,17 @@ provenance:
     confirmed_by: subagent-sonnet-4-6
     rationale: "D1/D2: Het bestand eindigt abrupt op regel 2189 met '## Art.' — geen artikelnummer, geen body. De laatste volledige artikelen zijn Art. 120–121 (schadeverzekering); het slot van DEEL 4 (Art. 122 e.v.) en verdere delen ontbreken. Laag-1 bevestigt dit ('abrupt-cutoff'). F2: bron_rol is 'normatief' terwijl het bestand in de map 'wetteksten/' staat — dit is een lichte inconsistentie. F1: itaa-lex-sectie is leeg (''), wat voor een itaa_lex-bron ongebruikelijk is. De [ ...]- amendment-markers zonder artikelnummer (regels 105 en 555) zijn mogelijk geredacteerde tekst maar zijn borderline."
     layer1:
-      file_size_chars: 195375
-      flags:
-        - detail: 'langste sectie op ######-niveau: 32357 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
-          name: max_section_size
-          samples: []
-          status: warn
-      heading_count: 192
-      max_section_chars: 32357
-      run_at:
-      run_id: 20260509-212552
       status: warn
+      run_id: 20260511-134044
+      run_at: '2026-05-11T13:40:50Z'
+      heading_count: 195
+      max_section_chars: 32357
+      file_size_chars: 194422
+      flags:
+        - name: max_section_size
+          status: warn
+          detail: 'langste sectie op ##-niveau: 32357 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
+          samples: []
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6

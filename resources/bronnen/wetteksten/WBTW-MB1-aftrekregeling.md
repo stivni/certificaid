@@ -30,8 +30,8 @@ provenance:
     rationale: 'Het bestand bevat ~180 regels Fisconet-compilatie-introductie (volledige MB-lijst met datumkolom rechts van de tekst, A8) vóór de eigenlijke MB nr. 1-inhoud begint. Dit is een A3-patroon: TOC/metapagina verspreid door de body. De drie werkelijke artikelen (Art. 1–3) staan wél correct als ## headings aan het einde, maar de omvangrijke voorblad-tekst is niet thuishoort in deze individuele MB-MD.'
     layer1:
       status: warn
-      run_id: 20260509-212552
-      run_at:
+      run_id: 20260511-134044
+      run_at: '2026-05-11T13:40:48Z'
       heading_count: 3
       max_section_chars: 10770
       file_size_chars: 11543

@@ -25,13 +25,13 @@ provenance:
     confirmed_by: subagent-sonnet-4-6
     rationale: "33 HISTORY-blokken zijn volledig in de body opgenomen: de historische annotaties van het OESO-modelverdrag staan na elk artikel als plain text, inclusief letterlijke wetsteksten van eerdere versies (bv. regels 124-128, 183-189, 234-261). Dit is geen redactionele keuze maar extractie-artefact: een mens zou deze historische noten scheiden of weglaten. Daarnaast springt Art. 14 (Independent Personal Services) volledig ontbrekend, terwijl Arts. 13 en 15 wel aanwezig zijn — de bron-URL claimt 'Art. 1–32'; Art. 14 is in 2000 bewust verwijderd uit het OESO-model maar dat is niet gedocumenteerd in de MD. Verder: paragraafnummers staan als losse regels ('1.\n', '2.\n') zonder bijbehorende tekst op dezelfde regel (A6), wat spurious line-breaks zijn van de PDF-extractie."
     layer1:
-      file_size_chars:
+      status: pass
+      run_id: 20260511-134044
+      run_at: '2026-05-11T13:40:50Z'
+      heading_count: 40
+      max_section_chars: 8296
+      file_size_chars: 73624
       flags: []
-      heading_count:
-      max_section_chars:
-      run_at:
-      run_id:
-      status: not_run
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6

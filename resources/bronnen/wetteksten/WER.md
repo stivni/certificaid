@@ -25,15 +25,15 @@ provenance:
     rationale: "B3/D2: In het BOEK XIV-blok (regels ~20056–20107) zijn meerdere opeenvolgende ###### Art.-headings zonder body: Art. XIV.1 t/m XIV.16 hebben elk geen lichaamstekst — de richtlijn-bepalingen zijn volledig weg. Laag-1 rapporteert 145/2456 lege Art.-headings (~6%) en een max-sectie van 43776 chars. Daarnaast verschijnt 'HOOFDSTUK 2/1.' als plain-text-inspringing (regel 4053, 6019, 6099 e.a.) in plaats van als markdown-heading (B4). Verder inhoudelijk sterk."
     layer1:
       status: warn
-      run_id: 20260509-212552
-      run_at:
-      heading_count: 3272
-      max_section_chars: 43776
-      file_size_chars: 3475611
+      run_id: 20260511-134044
+      run_at: '2026-05-11T13:40:49Z'
+      heading_count: 3316
+      max_section_chars: 43778
+      file_size_chars: 3469071
       flags:
         - name: max_section_size
           status: warn
-          detail: 'langste sectie op ######-niveau: 43776 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
+          detail: 'langste sectie op ######-niveau: 43778 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
           samples: []
     layer2:
       status: needs-rework

@@ -30,8 +30,8 @@ provenance:
     rationale: "Meerdere categorie B en C problemen. B5: tenminste 12 artikelen staan als gecentreerde plain-text regels (met 38–42 spaties inspringing) zonder heading-prefix: Artikel 5 t.m. 12 (regels 215–275), Artikel 46 (regel 580), Artikel 64 (regel 711), Artikel 86 (regel 891), Artikel 132 (regel 1437). B2: de heading-hiërarchie springt van ## direct naar ###### voor artkel-nummers, wat onnatuurlijk is. C3: pseudo-tabel BTW-codes op regels 309–323 (ASCII column-alignment met grote witruimte). A6: 'GEREGISTREERD KASSASYSTEEM' op regel 188 staat als gecentreerde plain-text over twee regels in plaats van als heading. De rest van het MB (122 ####### Art.-nummers) is correct gestructureerd maar de inconsistentie is significant."
     layer1:
       status: pass
-      run_id: 20260509-212552
-      run_at:
+      run_id: 20260511-134044
+      run_at: '2026-05-11T13:40:48Z'
       heading_count: 182
       max_section_chars: 5443
       file_size_chars: 80846

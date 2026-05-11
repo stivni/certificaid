@@ -30,8 +30,8 @@ provenance:
     rationale: 'Alle drie artikelen zijn correct als ## headings gemarkeerd. De preamble-tekst op regels 54–69 is aaneengesmolten maar dat is marginaal (de afwijking tussen alinea-scheiding in preamble tegenover de nette artikel-structuur is acceptabel voor een Belgisch MB van dit type). De inhoud bevat de relevante juridische context (opheffingsbesluit KB 22 juni 2020), de drie artikelen zijn volledig en de frontmatter klopt. Geen A-artefacten, geen B-bugs in de eigenlijke artikelen.'
     layer1:
       status: pass
-      run_id: 20260509-212552
-      run_at:
+      run_id: 20260511-134044
+      run_at: '2026-05-11T13:40:48Z'
       heading_count: 3
       max_section_chars: 1550
       file_size_chars: 2550

@@ -24,13 +24,17 @@ provenance:
     confirmed_by: subagent-sonnet-4-6
     rationale: "Vier klassen van artefacten. (1) B4: alle 25 hoofdsecties ('VAK - RESERVES', 'VAK - VERWORPEN UITGAVEN', 'VOORAFGAANDE OPMERKINGEN', 'GEBRUIKTE AFKORTINGEN', 'DEFINITIES', 'ONDERWORPEN BELASTINGPLICHTIGEN', 'BANKINFORMATIE', etc.) zijn als plain-text all-caps regels in de body in plaats van ## headings; dit maakt chunking onmogelijk. (2) B5: twee artikelverwijzingen zijn ten onrechte als ## heading gemarkeerd: 'Art. 307, § 1/2, WIB 92...' (regel 1461) en 'Art. 207, WIB 92...' (regel 1851) — dit zijn proza-zinnen, geen sectie-titels. (3) A1: losstaand 'be' op regel 63 (fragment van 'fin.belgium.be' gesplitst over de regel) plus '• \\n\\n' als PDF-glyph-artefact direct erna. (4) A1: '- 18 -' paginanummer embedded midden in een zin (regel 1189): '...CO2- 18 -\\n\\nuitstootgehalte...', wat de zin breekt. Inhoud (alle aangiftevakken aanwezig t/m Diamant Stelsel) is verder compleet."
     layer1:
-      status: not_run
-      run_id:
-      run_at:
-      heading_count:
-      max_section_chars:
-      file_size_chars:
-      flags: []
+      status: warn
+      run_id: 20260511-134044
+      run_at: '2026-05-11T13:40:50Z'
+      heading_count: 2
+      max_section_chars: 112946
+      file_size_chars: 246723
+      flags:
+        - name: max_section_size
+          status: warn
+          detail: 'langste sectie op ##-niveau: 112946 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
+          samples: []
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6

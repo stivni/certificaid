@@ -30,15 +30,15 @@ provenance:
     rationale: "L1=warn; L1.5=improvement (Auto-synthesized: ETL-fixes vandaag (NBSP, sub_strategy, justel-extractor, etc.) verbeteren bestaande versie.); L2=trusted (AVG-verordening (395KB) met 110 H2-headings. Soft hyphens uit PDF (bv. 'persoons­ gegevens') zonder woordbreuk. Body leesbaar, geen kolom-bleed. Warn op max_section_size is verklaarbaar door lange overwegingen-blok bovenaan. Inhoudelijk klaar voor RAG.)"
     layer1:
       status: warn
-      run_id: 20260509-212552
-      run_at:
+      run_id: 20260511-134044
+      run_at: '2026-05-11T13:40:45Z'
       heading_count: 110
-      max_section_chars: 394723
+      max_section_chars: 180369
       file_size_chars: 394723
       flags:
         - name: max_section_size
           status: warn
-          detail: 'langste sectie op ###-niveau: 394723 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
+          detail: 'langste sectie op ##-niveau: 180369 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
           samples: []
     layer2:
       status: trusted

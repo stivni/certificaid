@@ -24,13 +24,29 @@ provenance:
     confirmed_by: subagent-sonnet-4-6
     rationale: "Ernstige A6/A7-problemen door de gehele body: zinnen zijn op woordniveau gesplitst over afzonderlijke regels (689 single-word lijnen vastgesteld, bv. regels 81-100: 'acht', 'hoofdstukken', 'behandelen', 'de', 'directe', 'belastingen:', 'de', 'personenbelasting,'). Dit is kenmerkend voor kolom-extractie van een tweekolomme PDF. De afkortingenlijst (regels 267-762) heeft hetzelfde probleem: elke afkorting en definitie staat op aparte regels. TOC-residu (A2) aanwezig op regels 151-265 met dotted-leaders. Paginatellers door de body (regels 407, 561, 712, 954, 1028, ...). De pseudo-tabellen in de 'Cijfers per Hoofdstuk'-sectie zijn met spaties uitgelijnd in plaats van markdown pipe-tabellen (E1-schending). De inhoud zelf is na alle ETL-artefacten nog grotendeels aanwezig, maar de RAG-retrievability is zwaar aangetast door de woordopsplitsing."
     layer1:
-      status: not_run
-      run_id:
-      run_at:
-      heading_count:
-      max_section_chars:
-      file_size_chars:
-      flags: []
+      status: warn
+      run_id: 20260511-134044
+      run_at: '2026-05-11T13:40:50Z'
+      heading_count: 135
+      max_section_chars: 102361
+      file_size_chars: 1057216
+      flags:
+        - name: max_section_size
+          status: warn
+          detail: 'langste sectie op ###-niveau: 102361 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
+          samples: []
+        - name: no_toc_dots
+          status: warn
+          detail: 102 TOC-stippen-regel(s) gevonden
+          samples:
+            - '................................................................................'
+            - '................................................................................'
+            - '................................................................................'
+        - name: no_page_footer
+          status: warn
+          detail: 1 paginavoetregel(s) gevonden
+          samples:
+            - 12/2024
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6

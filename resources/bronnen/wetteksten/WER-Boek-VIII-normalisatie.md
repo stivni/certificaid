@@ -25,15 +25,15 @@ provenance:
     rationale: 'L2-agent verdict: rejected. Catastrofale ETL-output: het hele bestand is een PDF-OCR van een Belgisch Staatsblad-bundel waarin NL+FR (en op meerdere plaatsen Duits) systematisch op elkaar geplakt staan binnen iedere alinea. Bovendien bevat het bestand massaal off-topic content (Waalse personeelsformaties, Cour Constitutionnelle-arresten over waterheffing, CPI-indices, jobvacatures Wonen-Vlaanderen) die niets met WER Boek VIII normalisatie te maken heeft. Onbruikbaar voor RAG; zal de hele index vervuilen.'
     layer1:
       status: warn
-      run_id: 20260509-212552
-      run_at:
-      heading_count: 276
-      max_section_chars: 199327
-      file_size_chars: 863645
+      run_id: 20260511-134044
+      run_at: '2026-05-11T13:40:48Z'
+      heading_count: 267
+      max_section_chars: 351006
+      file_size_chars: 863665
       flags:
         - name: max_section_size
           status: warn
-          detail: 'langste sectie op ####-niveau: 199327 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
+          detail: 'langste sectie op ####-niveau: 351006 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
           samples: []
     layer2:
       status: rejected

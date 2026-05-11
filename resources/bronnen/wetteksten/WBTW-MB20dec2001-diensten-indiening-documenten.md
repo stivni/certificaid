@@ -30,8 +30,8 @@ provenance:
     rationale: "B5: Artikel 1 en Artikel 2 hebben wel ##-headings ('## Art. 1', '## Art. 2'), dus die structuur klopt. Maar regel 55 bevat '53ter,1°,' zonder spaties rond de komma — minor spacing artefact uit extractie. Ernstiger: de preamble-tekst (regels 54–69) staat als doorlopende proza-blokken zonder enige alinea-scheiding, waarbij het opschrift van het MB (regels 54–57) en de wetsgrondslag (regels 61–67) en de coordinatienoot (regels 68–69) aaneengesmolten zijn — dat is extractie-artefact (A6: spurious line-breaks / ontbrekende alinea-scheiding). Verder is de preamble-tekst inhoudelijk volledig en zijn de artikelen leesbaar."
     layer1:
       status: pass
-      run_id: 20260509-212552
-      run_at:
+      run_id: 20260511-134044
+      run_at: '2026-05-11T13:40:48Z'
       heading_count: 2
       max_section_chars: 1490
       file_size_chars: 2516

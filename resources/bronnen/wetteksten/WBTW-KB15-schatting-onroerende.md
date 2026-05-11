@@ -1,83 +1,85 @@
 ---
-tags: [VI.B, '2.4']
-itaa-lex-sectie: VI.B
-wet: K.B. nr. 15 van 3 juni 1970, tot regeling van de schattings- procedure waarin artikel 59, § 2, van het Wetboek van de belasting over de toegevoegde waarde voorziet
-bron_rol: itaa_lex
-status: beschikbaar
 bijgewerkt: 03.06.1970
 bron: Afgesplitst uit Fisconet-compilatie (pdftotext_compilatie_btw)
+bron_rol: itaa_lex
 chunk:
   level: 4
-  type: Art.
   sub_strategy:
+  type: Art.
+itaa-lex-sectie: VI.B
 provenance:
+  generated_at: '2026-05-11T13:40:00Z'
   inputs:
     - id: resources/raw/wetteksten/btw-kbs/WBTW-KB-compilatie.pdf
       sha256: 5f1bad7278d1f8e1f5c00efb5d792f61342d3f7a14a7950caca2937924bfa91c
       version: 06.03.2020
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 7a134f4
-    model:
-    prompt_version:
-  generated_at: '2026-05-09T16:15:18Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
   trust:
-    status: needs-rework
     confirmed_at: '2026-05-11T11:41:58Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "Structuur is deels aanwezig: 2 hoofdstuktitels als ## heading en afdelingen als ### heading, artikelen als #### Art.-headings. Echter: (1) A1: zes pagina-footer-regels mid-body ('Deskundige schatting  www.fisconetplus.be  pg. N' op regels 107, 165, 225, 282, 338, 353); (2) B4: 'EERSTE HOOFDSTUK' op regel 60 is plain-text in ALL-CAPS zonder ##-prefix (terwijl ## HOOFDSTUK II op regel 295 wél een heading is — inconsistentie); (3) A7: 'EERSTE HOOFDSTUK' gespreid over 3 regels met centrering (regels 60-62); (4) C3: Bijlage A pseudo-tabel met spatie-alignment; (5) chunk.level=4 in frontmatter maar ## staat ook in body (niveau-inconsistentie). Inhoud volledig: 23 artikelen aanwezig."
     layer1:
       status: pass
-      run_id: 20260509-212552
-      run_at:
+      run_id: 20260511-134044
+      run_at: '2026-05-11T13:40:47Z'
       heading_count: 26
-      max_section_chars: 2053
-      file_size_chars: 19354
+      max_section_chars: 1951
+      file_size_chars: 18710
       flags: []
     layer2:
-      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T11:41:58Z'
-      rationale: "Structuur is deels aanwezig: 2 hoofdstuktitels als ## heading en afdelingen als ### heading, artikelen als #### Art.-headings. Echter: (1) A1: zes pagina-footer-regels mid-body ('Deskundige schatting  www.fisconetplus.be  pg. N' op regels 107, 165, 225, 282, 338, 353); (2) B4: 'EERSTE HOOFDSTUK' op regel 60 is plain-text in ALL-CAPS zonder ##-prefix (terwijl ## HOOFDSTUK II op regel 295 wél een heading is — inconsistentie); (3) A7: 'EERSTE HOOFDSTUK' gespreid over 3 regels met centrering (regels 60-62); (4) C3: Bijlage A pseudo-tabel met spatie-alignment; (5) chunk.level=4 in frontmatter maar ## staat ook in body (niveau-inconsistentie). Inhoud volledig: 23 artikelen aanwezig."
       concrete_problemen:
-        - regel: 60
-          categorie: B4
+        - categorie: B4
+          regel: 60
           type: other
           voorbeeld: '                                         EERSTE HOOFDSTUK'
-        - regel: 107
-          categorie: A1
+        - categorie: A1
+          regel: 107
           type: form-feed
           voorbeeld: Deskundige schatting                           www.fisconetplus.be                                   pg. 1
-        - regel: 165
-          categorie: A1
+        - categorie: A1
+          regel: 165
           type: form-feed
           voorbeeld: Deskundige schatting                         www.fisconetplus.be                                     pg. 2
-        - regel: 225
-          categorie: A1
+        - categorie: A1
+          regel: 225
           type: form-feed
           voorbeeld: Deskundige schatting                         www.fisconetplus.be                                      pg. 3
-        - regel: 282
-          categorie: A1
+        - categorie: A1
+          regel: 282
           type: form-feed
           voorbeeld: Deskundige schatting                         www.fisconetplus.be                                     pg. 4
-        - regel: 338
-          categorie: A1
+        - categorie: A1
+          regel: 338
           type: form-feed
           voorbeeld: Deskundige schatting                          www.fisconetplus.be                                     pg. 5
-        - regel: 353
-          categorie: A1
+        - categorie: A1
+          regel: 353
           type: form-feed
           voorbeeld: Deskundige schatting                         www.fisconetplus.be                               pg. 6
-        - regel: 362
-          categorie: C3
+        - categorie: C3
+          regel: 362
           type: pseudo-table
-          voorbeeld: "     Bijwerking                                       Te vervangen pagina's"
-        - regel: 64
-          categorie: A7
+          voorbeeld: '     Bijwerking                                       Te vervangen pagina''s'
+        - categorie: A7
+          regel: 64
           type: scrambled-words
           voorbeeld: '       (Het opschrift van hoofdstuk 1, van KB nr. 15, werd gewijzigd met                       ingang   van'
+      rationale: 'Structuur is deels aanwezig: 2 hoofdstuktitels als ## heading en afdelingen als ### heading, artikelen als #### Art.-headings. Echter: (1) A1: zes pagina-footer-regels mid-body (''Deskundige schatting  www.fisconetplus.be  pg. N'' op regels 107, 165, 225, 282, 338, 353); (2) B4: ''EERSTE HOOFDSTUK'' op regel 60 is plain-text in ALL-CAPS zonder ##-prefix (terwijl ## HOOFDSTUK II op regel 295 wél een heading is — inconsistentie); (3) A7: ''EERSTE HOOFDSTUK'' gespreid over 3 regels met centrering (regels 60-62); (4) C3: Bijlage A pseudo-tabel met spatie-alignment; (5) chunk.level=4 in frontmatter maar ## staat ook in body (niveau-inconsistentie). Inhoud volledig: 23 artikelen aanwezig.'
+      run_at: '2026-05-11T11:41:58Z'
+      status: needs-rework
+    rationale: 'Structuur is deels aanwezig: 2 hoofdstuktitels als ## heading en afdelingen als ### heading, artikelen als #### Art.-headings. Echter: (1) A1: zes pagina-footer-regels mid-body (''Deskundige schatting  www.fisconetplus.be  pg. N'' op regels 107, 165, 225, 282, 338, 353); (2) B4: ''EERSTE HOOFDSTUK'' op regel 60 is plain-text in ALL-CAPS zonder ##-prefix (terwijl ## HOOFDSTUK II op regel 295 wél een heading is — inconsistentie); (3) A7: ''EERSTE HOOFDSTUK'' gespreid over 3 regels met centrering (regels 60-62); (4) C3: Bijlage A pseudo-tabel met spatie-alignment; (5) chunk.level=4 in frontmatter maar ## staat ook in body (niveau-inconsistentie). Inhoud volledig: 23 artikelen aanwezig.'
+    status: needs-rework
+status: beschikbaar
+tags:
+  - VI.B
+  - '2.4'
+wet: K.B. nr. 15 van 3 juni 1970, tot regeling van de schattings- procedure waarin artikel 59, § 2, van het Wetboek van de belasting over de toegevoegde waarde voorziet
 ---
 
 # K.B. nr. 15 van 3 juni 1970, tot regeling van de schattings- procedure waarin artikel 59, § 2, van het Wetboek van de belasting over de toegevoegde waarde voorziet
@@ -138,8 +140,6 @@ goederen te bepalen. Dat tijdstip is de datum van de overeenkomst.
       Wanneer een belastingplichtige voor een niet gesplitste prijs een gebouw of een gedeelte van een
 gebouw en het bijhorende terrein met voldoening van de belasting vervreemdt samen met een andere
 
-Deskundige schatting                           www.fisconetplus.be                                   pg. 1
-
 grond dan het bijhorende terrein, vermeldt de vordering tot schatting bovendien de waarde van
 respectievelijk het gebouw of een gedeelte van het gebouw en van het bijhorende terrein, en van de andere
 grond dan het bijhorende terrein, zoals geschat overeenkomstig de artikelen 30 en 36, § 1, a), van het
@@ -195,8 +195,6 @@ Gerechtelijk Wetboek.
 nader worden bepaald. De rechter beslist na de betrokkenen te hebben gehoord. Bij hetzelfde vonnis
 vervangt hij de gewraakte deskundigen.
       Deze nieuwe beslissing wordt aan de tegenpartij betekend.
-
-Deskundige schatting                         www.fisconetplus.be                                     pg. 2
 
 #### Art. 8
       (De tekst van KB nr. 15, artikel 8 is van toepassing met ingang van 01.01.1971
@@ -256,8 +254,6 @@ daaropvolgende dag.
 rechtsvordering. Deze rechtsvordering dient ingeleid te worden, op straffe van verval, binnen de termijn van
 één maand te rekenen van de betekening van het verslag.
 
-Deskundige schatting                         www.fisconetplus.be                                      pg. 3
-
 #### Art. 13
       (De tekst van KB nr. 15, artikel 13, tweede lid, werd gewijzigd met ingang van
       01.04.2019 (Art. 8, KB 17.03.2019, B.S. 08.04.2019, pg. 35699). Dit besluit (KB
@@ -313,8 +309,6 @@ geldboete, alsmede het tijdstip waarop de deskundigen zich moeten plaatsen om de
 diensten te bepalen. Dat tijdstip is 1 januari van het jaar waarin het gebouw waarop de te schatten diensten
 betrekking hebben geheel of gedeeltelijk in gebruik genomen werd.
 
-Deskundige schatting                         www.fisconetplus.be                                     pg. 4
-
 #### Art. 17
        (De tekst van KB nr. 15, artikel 17 is van toepassing met ingang van 01.01.1971
        (Art.98, KB 03.07.1969))
@@ -369,8 +363,6 @@ schatting te doen.
        De artikelen 4 tot 13 en 17 zijn van toepassing op de in dit hoofdstuk bedoelde vordering tot
 schatting.
 
-Deskundige schatting                          www.fisconetplus.be                                     pg. 5
-
 #### Art. 22
       (De tekst van KB nr. 15, artikel 22 is van toepassing met ingang van 01.01.1971
       (Art.98, KB 03.07.1969))
@@ -383,8 +375,6 @@ Wetboek van de belasting over de toegevoegde waarde.
       (Art.98, KB 03.07.1969))
 
       Onze Minister van Financiën is belast met de uitvoering van dit besluit.
-
-Deskundige schatting                         www.fisconetplus.be                               pg. 6
 
 Bijlage A
 KB nr. 15 - Lijst van de bijwerkingen

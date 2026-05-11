@@ -30,8 +30,8 @@ provenance:
     rationale: "Kort besluit (4 artikelen, 1744 tekens). Laag-1 meldt 'pass' en de layer2-prenotitie over '0 ##-headings' is onjuist: het bestand heeft precies 4 ## Art.-headings correct aangemaakt. Structuur klopt, inhoud compleet, geen extractie-artefacten zichtbaar. Opmaak is zuiver, geen OCR-fouten, de lettersgewijze lijst (a–d) in Art. 2 is correct ingesprongen met ruimte maar dat is acceptabel in een wettekst van deze omvang."
     layer1:
       status: pass
-      run_id: 20260509-212552
-      run_at:
+      run_id: 20260511-134044
+      run_at: '2026-05-11T13:40:48Z'
       heading_count: 4
       max_section_chars: 671
       file_size_chars: 1744

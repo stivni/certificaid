@@ -24,13 +24,17 @@ provenance:
     confirmed_by: subagent-sonnet-4-6
     rationale: "A1: 311 pagina-voet-regels in de body van het type '    - 1 -\\nFOD Financiën (AABEO) www.fisconetplus.be Btw KB nr. 3 - bijw. nr. 7 / 23.11.2019' (elke ~28 regels). D2: de body begint direct met '§ 1. Onder voorbehoud...' — de titel van KB nr. 3 en Art. 1 heading ontbreken; het bestand start structureel halverwege KB nr. 3 zonder KB-titel heading. G1: 'www.fisconetplus.be' als plain-text URL op elke voetregelregel (311 keer). Het bestand is een compilatie van meerdere KBs (nr. 3, nr. 4 en meer) zonder structurele scheiding tussen de afzonderlijke KBs; elke KB heeft zijn eigen reeks paginavoet-artefacten."
     layer1:
-      status: not_run
-      run_id:
-      run_at:
-      heading_count:
-      max_section_chars:
-      file_size_chars:
-      flags: []
+      status: warn
+      run_id: 20260511-134044
+      run_at: '2026-05-11T13:40:47Z'
+      heading_count: 661
+      max_section_chars: 114430
+      file_size_chars: 830947
+      flags:
+        - name: max_section_size
+          status: warn
+          detail: 'langste sectie op #####-niveau: 114430 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
+          samples: []
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
