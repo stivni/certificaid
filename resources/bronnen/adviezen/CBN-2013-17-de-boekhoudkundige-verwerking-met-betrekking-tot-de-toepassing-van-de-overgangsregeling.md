@@ -7,7 +7,7 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-splitsingen-van-vennootschappen
 nummer: CBN-advies 2013/17
 provenance:
-  generated_at: '2026-05-11T17:48:39Z'
+  generated_at: '2026-05-11T19:17:26Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-met-betrekking-tot-de-toepassing-van-de-overgangsregeling
       sha256: 1a6411054d36a7a026011c946b13ba3d5f0e4b599782ecd7277c8c295fbb3907
@@ -24,8 +24,8 @@ provenance:
     confirmed_by: subagent-sonnet-4-6
     layer1:
       status: pass
-      run_id: 20260511-174840
-      run_at: '2026-05-11T17:48:43Z'
+      run_id: 20260511-191727
+      run_at: '2026-05-11T19:17:31Z'
       heading_count: 12
       max_section_chars: 8761
       file_size_chars: 16913

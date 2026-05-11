@@ -819,6 +819,16 @@ def _normalize_heading_hierarchy(md: str) -> str:
     impliciete title-H1. `### Sub` direct na de body-start wordt dan
     `## Sub` (demoted), wat klopt met de feitelijke hiërarchie.
     """
+    # Eerste pass: welke niveaus komen voor in het document?
+    # Als `###` bestaat maar `##` niet — schrijver gaf `###` een betekenis,
+    # dan demoten we `####` naar `###` (i.p.v. naar `##`). Anders demoten
+    # we strikt naar last_level+1.
+    levels_present = set()
+    for ln in md.split('\n'):
+        m = re.match(r'^(#{1,6})\s+\S', ln)
+        if m:
+            levels_present.add(len(m.group(1)))
+
     lines = md.split('\n')
     out = []
     last_level = 1  # Impliciete H1 vanuit orchestrator
@@ -855,18 +865,25 @@ def _normalize_heading_hierarchy(md: str) -> str:
             else:
                 seen_h1 = True
 
-        # Hierarchy-demote met level-map. Eerste keer dat we level X zien:
-        # demote naar min(X, last_level+1). Vervolg-occurrences: hergebruik
-        # de eerdere mapping zodat siblings op zelfde niveau blijven.
+        # Hierarchy-demote: forceer geen-skip (= demote naar last_level+1).
+        # Exceptie: als er INTERMEDIAIRE levels elders in het document
+        # voorkomen, behoud een dieper level — de schrijver heeft die
+        # extra hiërarchie-laag een betekenis gegeven.
         if level in level_map:
             mapped = level_map[level]
-            # Edge-case: als de eerdere mapping te diep is t.o.v. huidige
-            # context (bv. na een `##`-reset), gebruik dan de nieuwe min.
             if mapped > last_level + 1:
                 mapped = last_level + 1
                 level_map[level] = mapped
         else:
-            mapped = min(level, last_level + 1)
+            # Default: demote naar last_level+1 (geen skip toegestaan).
+            target = last_level + 1
+            # Maar als ALLE intermediaire levels (last_level+1 t/m level-1)
+            # ELDERS in het document voorkomen, mag het oorspronkelijke
+            # level behouden blijven (de schrijver maakt onderscheid).
+            intermediates = list(range(last_level + 1, level))
+            if intermediates and all(i in levels_present for i in intermediates):
+                target = level  # alle tussenlagen bestaan → keep level
+            mapped = min(level, target)
             level_map[level] = mapped
         level = mapped
 
@@ -922,6 +939,25 @@ def _cleanup_markdown(md: str) -> str:
     md = re.sub(
         r'(\[\^\d+\])\n(?=[a-zéèêëàâîïôûüçñ])',
         r'\1 ', md
+    )
+
+    # ─── 4b. PDF-pagina-overgang line-break normalisatie (A6) ────────────────
+    # Patroon: zin breekt midden door PDF-pagina-grens binnen één paragraaf.
+    # VOORZICHTIG: alleen joinen bij EXACT één newline (geen blank line),
+    # gevolgd door non-empty content met kleine letter / leesteken. Behoudt
+    # paragraph-breaks (`\n\n`) ongemoeid.
+    # "stelt vast dat de\n  voorwaarden niet" → "stelt vast dat de voorwaarden niet"
+    md = re.sub(
+        r'(\b[a-zéèêëàâîïôûüçñ]{3,})\n[ \t]+(?=[a-zéèêëàâîïôûüçñ])',
+        r'\1 ',
+        md,
+    )
+    # Joined woord-met-trailing-hyphen op regelgrens: "be-\nstaande" → "bestaande"
+    # (vereist hyphenated lower-case continuation, geen blank line)
+    md = re.sub(
+        r'(\b[a-zéèêëàâîïôûüçñ]{2,})-\n[ \t]*(?=[a-zéèêëàâîïôûüçñ])',
+        r'\1',
+        md,
     )
 
     # ─── 5. Malformed italic/bold (D4) ───────────────────────────────────────

@@ -10,8 +10,8 @@ Auto-gegenereerd door `tools/lib/bronnen_index.py`. **Niet handmatig editen** �
 |---|---|---|---|---|---|---|
 | Wetteksten | 129 | 20 | — | 106 | 2 | 1 |
 | Normen | 19 | 8 | — | 9 | 2 | — |
-| Adviezen | 436 | 274 | — | 161 | 1 | — |
-| **Totaal** | **584** | 302 | — | 276 | 5 | 1 |
+| Adviezen | 436 | 273 | 2 | 160 | 1 | — |
+| **Totaal** | **584** | 301 | 2 | 275 | 5 | 1 |
 
 ## Wetteksten (129)
 
@@ -228,7 +228,6 @@ Auto-gegenereerd door `tools/lib/bronnen_index.py`. **Niet handmatig editen** �
 | `CBN-0173-05-toelichting-bij-de-boekhoudkundige-verwerking-van-termijnwisselverrichtingen-tussen-de.md` | ⚠️ needs-rework | pass | needs-rework | subagent-sonnet-4-6 | CBN-advies 173/5 |
 | `CBN-0173-06-verrekening-van-vorderingen-en-schulden-die-oorspronkelijk-zijn-uitgedrukt-in-munten-die.md` | ⚠️ needs-rework | pass | needs-rework | subagent-sonnet-4-6 | CBN-advies 173/6 |
 | `CBN-0173-07-afronding-van-de-bedragen-in-de-jaarrekeningen-die-in-euro-of-in-duizenden-euro-zijn.md` | ⚠️ needs-rework | pass | needs-rework | subagent-sonnet-4-6 | CBN-advies 173/7 |
-| `CBN-0173-08-aanvullende-aspecten-in-verband-met-de-boekhoudkundige-verwerking-van.md` | ⚠️ needs-rework | pass | needs-rework | subagent-sonnet-4-6 | CBN-advies 173/8 |
 | `CBN-0175-01-verwerking-in-de-jaarrekening-over-het-boekjaar-1996-en-de-daaropvolgende-boekjaren-van-de.md` | ⚠️ needs-rework | pass | needs-rework | subagent-sonnet-4-6 | CBN-advies 175/1 |
 | `CBN-0177-01-boekhoudkundige-verwerking-van-de-mini-bel-20.md` | ⚠️ needs-rework | pass | needs-rework | subagent-sonnet-4-6 | CBN-advies 177/1 |
 | `CBN-0179-01-boekhoudkundige-verwerking-van-broeikasgasemissierechten.md` | ⚠️ needs-rework | pass | needs-rework | subagent-sonnet-4-6 | CBN-advies 179/1 |
@@ -337,6 +336,8 @@ Auto-gegenereerd door `tools/lib/bronnen_index.py`. **Niet handmatig editen** �
 | `CBN-2024-07-gevolgen-verhoging-groottecriteria-voor-vennootschappen.md` | ⚠️ needs-rework | pass | needs-rework | subagent-sonnet-4-6 | CBN-advies 2024/07 |
 | `CBN-2024-08-gevolgen-verhoging-groottecriteria-voor-ivzws-en-stichtingen.md` | ⚠️ needs-rework | pass | needs-rework | subagent-sonnet-4-6 | CBN-advies 2024/08 |
 | `CBN-NFP-aanbevelingen-inzake-de-gelijkwaardigheid-van-boekhoud-en-jaarrekeningregels-opgelegd-door.md` | ⚠️ needs-rework | pass | needs-rework | subagent-sonnet-4-6 | CBN-advies NFP |
+| `CBN-0158-01-boekhoudkundige-verwerking-van-de-aankoop-afschrijving-en-ontginning-in-concessie-van.md` | ◻️ unreviewed | pass | not_run | — | CBN-advies 158/1 |
+| `CBN-0173-08-aanvullende-aspecten-in-verband-met-de-boekhoudkundige-verwerking-van.md` | ◻️ unreviewed | pass | not_run | — | CBN-advies 173/8 |
 | `CBN-0003-01-tijdstip-waarop-de-aan-of-verkoop-van-een-onroerend-goed-in-de-boekhouding-dient.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | CBN-advies 3/1 |
 | `CBN-0003-02-niet-in-de-balans-opgenomen-rechten-en-verplichtingen-0.md` | ✅ trusted | pass | trusted | subagent-laag2-ronde2 | CBN-advies 3/2 |
 | `CBN-0003-03-advies-inzake-de-boekhoudkundige-verwerking-van-verrichtingen-van-tijdelijk.md` | ✅ trusted | pass | trusted | subagent-laag2-ronde2 | CBN-advies 3/3 |
@@ -467,7 +468,6 @@ Auto-gegenereerd door `tools/lib/bronnen_index.py`. **Niet handmatig editen** �
 | `CBN-0153-02-loonmatiging-bezoldigingen-van-bestuurders.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | CBN-advies 153/2 |
 | `CBN-0155-01-boeking-van-commissies.md` | ✅ trusted | pass | not_run | human | CBN-advies 155/1 |
 | `CBN-0157-02-realisatiebeginsel-behalve-bij-fusie.md` | ✅ trusted | pass | trusted | subagent-laag2-ronde2 | CBN-advies 157/2 |
-| `CBN-0158-01-boekhoudkundige-verwerking-van-de-aankoop-afschrijving-en-ontginning-in-concessie-van.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | CBN-advies 158/1 |
 | `CBN-0159-01-schulden-op-meer-dan-een-jaar-waarvoor-geen-of-slechts-een-abnormaal-lage-rente.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | CBN-advies 159/1 |
 | `CBN-0159-02-specifiek-achtergestelde-leningen.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | CBN-advies 159/2 |
 | `CBN-0160-01-toepassing-van-artikel-40-van-het-koninklijk-besluit-van-8-oktober-1976-op-de-jaarrekening.md` | ✅ trusted | pass | trusted | subagent-laag2-ronde2 | CBN-advies 160/1 |

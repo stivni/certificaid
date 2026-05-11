@@ -13,7 +13,7 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/van-een-kapitaalhoudende-bvba-naar-een-kapitaalloze-bv
 nummer: CBN-advies 2018/05
 provenance:
-  generated_at: '2026-05-11T17:48:39Z'
+  generated_at: '2026-05-11T19:17:26Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/rekening-130-wettelijke-reserve
       sha256: c8b2728d90556558c16d9f39b6121f16ab151d0d0a9bb9262e99fc90de4a8f59
@@ -30,8 +30,8 @@ provenance:
     confirmed_by: subagent-sonnet-4-6
     layer1:
       status: pass
-      run_id: 20260511-174840
-      run_at: '2026-05-11T17:48:44Z'
+      run_id: 20260511-191727
+      run_at: '2026-05-11T19:17:31Z'
       heading_count: 6
       max_section_chars: 1704
       file_size_chars: 5970

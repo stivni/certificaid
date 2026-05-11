@@ -13,37 +13,37 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/advies-met-betrekking-tot-de-jaarrekeningrechtelijke-aspecten-van-de-certificatie-van
 nummer: CBN-advies 2017/02
 provenance:
+  generated_at: '2026-05-11T19:17:26Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/gezamenlijke-controle-over-een-vennootschap-groottecriteria-update
       sha256: 23569f6d8d8f426a4e3878ef9b3499a08fea2d3154af13436086d01edb07dcb3
       version:
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T17:48:39Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
-    status: trusted
     confirmed_at: '2026-05-11T17:51:53Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: Lang advies (16k chars) met genummerde voorbeelden en tabellen. Pipe-tabellen correct gerenderd. Heading-hiërarchie consistent (## voor secties en gevallen). Voetnoten [^1]–[^28] volledig. Geen ETL-artefacten.
     layer1:
       status: pass
-      run_id: 20260511-174840
-      run_at: '2026-05-11T17:48:44Z'
+      run_id: 20260511-191727
+      run_at: '2026-05-11T19:17:31Z'
       heading_count: 6
       max_section_chars: 5355
       file_size_chars: 16193
       flags: []
     layer2:
-      status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T17:51:53Z'
-      rationale: Lang advies (16k chars) met genummerde voorbeelden en tabellen. Pipe-tabellen correct gerenderd. Heading-hiërarchie consistent (## voor secties en gevallen). Voetnoten [^1]–[^28] volledig. Geen ETL-artefacten.
       concrete_problemen: []
+      rationale: Lang advies (16k chars) met genummerde voorbeelden en tabellen. Pipe-tabellen correct gerenderd. Heading-hiërarchie consistent (## voor secties en gevallen). Voetnoten [^1]–[^28] volledig. Geen ETL-artefacten.
+      run_at: '2026-05-11T17:51:53Z'
+      status: trusted
+    rationale: Lang advies (16k chars) met genummerde voorbeelden en tabellen. Pipe-tabellen correct gerenderd. Heading-hiërarchie consistent (## voor secties en gevallen). Voetnoten [^1]–[^28] volledig. Geen ETL-artefacten.
+    status: trusted
 themas:
   - controle
   - gemeenschappelijke dochtervennootschap

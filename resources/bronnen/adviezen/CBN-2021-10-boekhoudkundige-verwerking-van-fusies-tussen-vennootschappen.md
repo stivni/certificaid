@@ -16,7 +16,7 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/begin-van-het-boekjaar
 nummer: CBN-advies 2021/10
 provenance:
-  generated_at: '2026-05-11T17:48:39Z'
+  generated_at: '2026-05-11T19:17:26Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-fusies-tussen-vennootschappen
       sha256: 3790a16041b65701836ff1734be487b952cc0233a7b050a8232a2df96c20b8e3
@@ -33,8 +33,8 @@ provenance:
     confirmed_by: subagent-sonnet-4-6
     layer1:
       status: pass
-      run_id: 20260511-174840
-      run_at: '2026-05-11T17:48:45Z'
+      run_id: 20260511-191727
+      run_at: '2026-05-11T19:17:32Z'
       heading_count: 21
       max_section_chars: 18994
       file_size_chars: 77206

@@ -3,7 +3,7 @@ bron: https://www.cbn-cnc.be/nl/adviezen/vervaardigingsprijs-correctie-van-de-ne
 datum: 1986-01-01
 nummer: CBN-advies 126/4
 provenance:
-  generated_at: '2026-05-11T17:48:38Z'
+  generated_at: '2026-05-11T19:17:25Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/vervaardigingsprijs-correctie-van-de-nederlandse-tekst-van-artikel-22-van-het-koninklijk
       sha256: fa9980bf60756ad14415af326b0f34768c54639aabea7f774475290d4444a570
@@ -20,8 +20,8 @@ provenance:
     confirmed_by: subagent-sonnet-4-6
     layer1:
       status: pass
-      run_id: 20260511-174840
-      run_at: '2026-05-11T17:48:41Z'
+      run_id: 20260511-191727
+      run_at: '2026-05-11T19:17:28Z'
       heading_count: 0
       max_section_chars: 2095
       file_size_chars: 2095

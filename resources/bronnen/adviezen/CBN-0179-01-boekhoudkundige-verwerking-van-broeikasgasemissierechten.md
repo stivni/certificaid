@@ -7,7 +7,7 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-een-overschot-aan-broeikasgasemissierechten-door-een
 nummer: CBN-advies 179/1
 provenance:
-  generated_at: '2026-05-11T17:48:38Z'
+  generated_at: '2026-05-11T19:17:26Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-broeikasgasemissierechten
       sha256: 318b60ea7b396ab94915e412a3588e4ba56412cb3fd533851ebf265b424273f2
@@ -24,11 +24,11 @@ provenance:
     confirmed_by: subagent-sonnet-4-6
     layer1:
       status: pass
-      run_id: 20260511-174840
-      run_at: '2026-05-11T17:48:42Z'
+      run_id: 20260511-191727
+      run_at: '2026-05-11T19:17:30Z'
       heading_count: 9
       max_section_chars: 9185
-      file_size_chars: 25263
+      file_size_chars: 25266
       flags: []
     layer2:
       agent: subagent-sonnet-4-6
@@ -138,7 +138,7 @@ Naar het oordeel van de Commissie blijken er, na onderzoek van de boekhouddoctri
 
 Hieronder worden die drie boekingswijzen beschreven.
 
-### IFRIC Interpretation 3 Emission Rights
+#### IFRIC Interpretation 3 Emission Rights
 De IASB heeft op 2 december 2004 de *Interpretation 3 Emission Rights* uitgevaardigd, waarin emissierechten als volgt worden verwerkt: 
 
 - Emissierechten die op de markt zijn gekocht of van de overheid zijn verkregen tegen een lagere waarde dan hun reële waarde[^13] (bij voorbeeld, kosteloos), worden overeenkomstig de norm IAS 38 aan actiefzijde bij de immateriële vaste activa geboekt. 
@@ -160,7 +160,7 @@ Na onderzoek van de kritiek op de *Interpretation* en ondanks de vaststelling, e
 
 Met betrekking tot de verwerking van emissierechten in de geconsolideerde jaarrekening van genoteerde vennootschappen heeft de intrekking van de *Interpretation* tot gevolg dat de raad van bestuur van de betrokken vennootschappen zal moeten uitmaken welke de passende verwerkingswijze is, op basis van de hiërarchie vastgelegd in de norm IAS 8, *Accounting Policies, Changes* in *Accounting Estimates and Errors*, zoals goedgekeurd door de verordening van de Commissie (EG) nr 2238/2004 van 29 december 2004.
 
-### Brutomethode
+#### Brutomethode
 Volgens deze op het Belgische jaarrekeningrecht gebaseerde methode: 
 
 - worden de toegewezen of verkregen emissierechten geboekt als immateriële vaste activa. 
@@ -178,7 +178,7 @@ De voorstanders van deze methode zijn onder andere van oordeel dat die het voord
 
 Deze methode blijkt overigens bijzonder geschikt voor ondernemingen met een industrieel bedrijf waarvoor het emissierechtensysteem geldt en die bovendien voornemens zijn om zich tot de emissierechtenmarkt te wenden. 
 
-### Nettomethode
+#### Nettomethode
 De voorstanders van deze methode – eveneens gebaseerd op het Belgisch jaarrekeningrecht – zijn van oordeel het emissierechtensysteem niet leidt tot een vergroting of verkleining van het vermogen van de ondernemingen, omdat de toegewezen of verkregen emissierechten enkel dienen om de ondernemingen in staat te stellen hun bedrijf voort te zetten.
 
 Op grond daarvan wordt ervan uitgegaan dat de toegewezen emissierechten meestal overeenstemmen met de in te leveren rechten en dat het beroep op de markt voor de aan- of verkoop van emissierechten, marginaal zal zijn.

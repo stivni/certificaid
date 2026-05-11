@@ -3,7 +3,7 @@ bron: https://www.cbn-cnc.be/nl/adviezen/jaarrekening-schema-van-de-balanscentra
 datum: 1989-09-01
 nummer: CBN-advies 110/9
 provenance:
-  generated_at: '2026-05-11T17:48:38Z'
+  generated_at: '2026-05-11T19:17:25Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/jaarrekening-schema-van-de-balanscentrale-omvang-van-de-bedrijven
       sha256: c8fd688b587bbb38aadcd62f198584a390974665316dacb04cd02b303c0aa7e5
@@ -20,8 +20,8 @@ provenance:
     confirmed_by: human
     layer1:
       status: pass
-      run_id: 20260511-174840
-      run_at: '2026-05-11T17:48:40Z'
+      run_id: 20260511-191727
+      run_at: '2026-05-11T19:17:28Z'
       heading_count: 0
       max_section_chars: 4929
       file_size_chars: 4929

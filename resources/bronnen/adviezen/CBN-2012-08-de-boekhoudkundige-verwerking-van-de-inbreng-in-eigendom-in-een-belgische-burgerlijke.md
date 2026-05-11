@@ -3,7 +3,7 @@ bron: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-in
 datum: 2012-06-06
 nummer: CBN-advies 2012/8
 provenance:
-  generated_at: '2026-05-11T17:48:39Z'
+  generated_at: '2026-05-11T19:17:26Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-inbreng-in-eigendom-in-een-belgische-burgerlijke
       sha256: cf24aa3f760d50dc1b488d09cc2327fdf8077a89461654915c14c249c627b655
@@ -20,8 +20,8 @@ provenance:
     confirmed_by: subagent-sonnet-4-6
     layer1:
       status: pass
-      run_id: 20260511-174840
-      run_at: '2026-05-11T17:48:43Z'
+      run_id: 20260511-191727
+      run_at: '2026-05-11T19:17:30Z'
       heading_count: 6
       max_section_chars: 4882
       file_size_chars: 12427

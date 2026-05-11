@@ -16,7 +16,7 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/schulden-op-meer-dan-een-jaar-waarvoor-geen-of-slechts-een-abnormaal-lage-rente
 nummer: CBN-advies 137/5
 provenance:
-  generated_at: '2026-05-11T17:48:38Z'
+  generated_at: '2026-05-11T19:17:25Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/vorderingen-en-schulden-waarvan-de-rente-uitsluitend-bestaat-uit-het-verschil-tussen-de
       sha256: 9bc74326dd3c0b83505ac7e0ed2677f8405c30dc5d4a5da2356828a4245f91f0
@@ -33,8 +33,8 @@ provenance:
     confirmed_by: subagent-sonnet-4-6
     layer1:
       status: pass
-      run_id: 20260511-174840
-      run_at: '2026-05-11T17:48:41Z'
+      run_id: 20260511-191727
+      run_at: '2026-05-11T19:17:29Z'
       heading_count: 0
       max_section_chars: 3878
       file_size_chars: 3878

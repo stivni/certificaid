@@ -16,7 +16,7 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-onderzoeksfondsen-in-de-jaarrekening-van-grote-en-zeer
 nummer: CBN-advies 2012/15
 provenance:
-  generated_at: '2026-05-11T17:48:39Z'
+  generated_at: '2026-05-11T19:17:26Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/bestellingen-in-uitvoering
       sha256: e7c8732010a53e5a333cad2c30c9046775d75d9eb76bbb45f901921a4a6d05b3
@@ -33,8 +33,8 @@ provenance:
     confirmed_by: subagent-sonnet-4-6
     layer1:
       status: pass
-      run_id: 20260511-174840
-      run_at: '2026-05-11T17:48:43Z'
+      run_id: 20260511-191727
+      run_at: '2026-05-11T19:17:30Z'
       heading_count: 28
       max_section_chars: 7133
       file_size_chars: 41188

@@ -16,7 +16,7 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-buitenlandse-verenigingen-en-stichtingen-toepassing-van-het-0
 nummer: CBN-advies 110/3
 provenance:
-  generated_at: '2026-05-11T17:48:38Z'
+  generated_at: '2026-05-11T19:17:25Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/openbaarmaking-van-de-jaarrekening-van-vennootschappen-die-niet-aan-het-kb-van-8-oktober
       sha256: 04c3efcf26b53359a937e4cc47321b07d2c2efb6885af5bc79b805678053142c
@@ -33,8 +33,8 @@ provenance:
     confirmed_by: subagent-sonnet-4-6
     layer1:
       status: pass
-      run_id: 20260511-174840
-      run_at: '2026-05-11T17:48:40Z'
+      run_id: 20260511-191727
+      run_at: '2026-05-11T19:17:28Z'
       heading_count: 0
       max_section_chars: 4598
       file_size_chars: 4598

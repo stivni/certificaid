@@ -3,7 +3,7 @@ bron: https://www.cbn-cnc.be/nl/adviezen/risicos-en-verliezen-waarvan-de-waarder
 datum: 1988-01-01
 nummer: CBN-advies 107/7
 provenance:
-  generated_at: '2026-05-11T17:48:38Z'
+  generated_at: '2026-05-11T19:17:25Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/risicos-en-verliezen-waarvan-de-waardering-aleatoir-is
       sha256: 1af9677f73da4bfeca988d20212ee89f19fa6e3dd247e6c4aa1da377b9667a7c
@@ -20,8 +20,8 @@ provenance:
     confirmed_by: subagent-laag2-ronde2
     layer1:
       status: pass
-      run_id: 20260511-174840
-      run_at: '2026-05-11T17:48:40Z'
+      run_id: 20260511-191727
+      run_at: '2026-05-11T19:17:28Z'
       heading_count: 0
       max_section_chars: 7055
       file_size_chars: 7055

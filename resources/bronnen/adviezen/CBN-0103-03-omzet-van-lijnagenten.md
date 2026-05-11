@@ -7,7 +7,7 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/omzet-tussenpersonen
 nummer: CBN-advies 103/3
 provenance:
-  generated_at: '2026-05-11T17:48:38Z'
+  generated_at: '2026-05-11T19:17:25Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/omzet-van-lijnagenten
       sha256: 2648f6d828657e492f73a3dd5ae3dd9e826af14e97235075369a52161c3df90d
@@ -24,8 +24,8 @@ provenance:
     confirmed_by: subagent-sonnet-4-6
     layer1:
       status: pass
-      run_id: 20260511-174840
-      run_at: '2026-05-11T17:48:40Z'
+      run_id: 20260511-191727
+      run_at: '2026-05-11T19:17:27Z'
       heading_count: 0
       max_section_chars: 1996
       file_size_chars: 1996

@@ -3,7 +3,7 @@ bron: https://www.cbn-cnc.be/nl/adviezen/toekenning-van-gratis-aandelen-restrict
 datum: 2018-11-14
 nummer: CBN-advies 2018/16
 provenance:
-  generated_at: '2026-05-11T17:48:39Z'
+  generated_at: '2026-05-11T19:17:26Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/toekenning-van-gratis-aandelen-restricted-stock-units-als-bonus
       sha256: 1a9f3240acadc2fb454cb3eff60fdbf3d4c1a4809610431cba5f163fdc28958b
@@ -20,8 +20,8 @@ provenance:
     confirmed_by: subagent-sonnet-4-6
     layer1:
       status: pass
-      run_id: 20260511-174840
-      run_at: '2026-05-11T17:48:44Z'
+      run_id: 20260511-191727
+      run_at: '2026-05-11T19:17:32Z'
       heading_count: 4
       max_section_chars: 7679
       file_size_chars: 20380

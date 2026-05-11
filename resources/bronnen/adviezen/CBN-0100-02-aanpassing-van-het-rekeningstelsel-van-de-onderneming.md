@@ -3,7 +3,7 @@ bron: https://www.cbn-cnc.be/nl/adviezen/aanpassing-van-het-rekeningstelsel-van-
 datum: 1979-05-01
 nummer: CBN-advies R100/2
 provenance:
-  generated_at: '2026-05-11T17:48:38Z'
+  generated_at: '2026-05-11T19:17:25Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/aanpassing-van-het-rekeningstelsel-van-de-onderneming
       sha256: 4c1e0333d19dfa08069f1dce3ba2d7919a22b6963e8b41f4044ada97b08669b9
@@ -20,8 +20,8 @@ provenance:
     confirmed_by: subagent-laag2-ronde2
     layer1:
       status: pass
-      run_id: 20260511-174840
-      run_at: '2026-05-11T17:48:40Z'
+      run_id: 20260511-191727
+      run_at: '2026-05-11T19:17:27Z'
       heading_count: 0
       max_section_chars: 6867
       file_size_chars: 6867

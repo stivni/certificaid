@@ -16,57 +16,57 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/verrichtingen-met-betrekking-tot-inschrijvingsrechten
 nummer: CBN-advies 167/2
 provenance:
+  generated_at: '2026-05-11T19:17:25Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-dekkingsverrichtingen-en-gedekte-posities-in-aandelen
       sha256: aeaa0dec08e7842f94598d4cbb8e08274e27672f835f77e02013b4f75fc77e72
       version:
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T17:48:38Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
-    status: needs-rework
     confirmed_at: '2026-05-11T17:51:53Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: 'A6: meerdere zinsbreuken midden in een zin (regel 104-106: zin loopt door over twee alinea-grenzen; regel 109-111: vergelijkbaar). E2: de grote resultaattabellen op regel 238-286 (en vergelijkbaar op 463-478) gebruiken multi-line cel-content met tabs als regelterugloop binnen een tabelrij, wat geen geldige markdown-pipe-syntax is en door elke renderer anders wordt geïnterpreteerd. Dubbele lijstitem op regel 170-172 (copy van regel 167-169).'
     layer1:
       status: pass
-      run_id: 20260511-174840
-      run_at: '2026-05-11T17:48:42Z'
+      run_id: 20260511-191727
+      run_at: '2026-05-11T19:17:29Z'
       heading_count: 29
       max_section_chars: 11219
       file_size_chars: 41207
       flags: []
     layer2:
-      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T17:51:53Z'
-      rationale: 'A6: meerdere zinsbreuken midden in een zin (regel 104-106: zin loopt door over twee alinea-grenzen; regel 109-111: vergelijkbaar). E2: de grote resultaattabellen op regel 238-286 (en vergelijkbaar op 463-478) gebruiken multi-line cel-content met tabs als regelterugloop binnen een tabelrij, wat geen geldige markdown-pipe-syntax is en door elke renderer anders wordt geïnterpreteerd. Dubbele lijstitem op regel 170-172 (copy van regel 167-169).'
       concrete_problemen:
-        - regel: 104
-          categorie: A6
+        - categorie: A6
+          regel: 104
           type: other
           voorbeeld: "worden geïdentificeerd Bij de als dekking \n\nbestemde verrichtingen moet een onderscheid"
-        - regel: 109
-          categorie: A6
+        - categorie: A6
+          regel: 109
           type: other
           voorbeeld: "2. de onderneming wapenen...waarbij zij evenwel\n\n\tgeheel of gedeeltelijk de voordelen"
-        - regel: 167
-          categorie: B3
+        - categorie: B3
+          regel: 167
           type: other
           voorbeeld: een call-optie bezit...verkocht. (regel 167-169 en opnieuw identiek op 170-172)
-        - regel: 241
-          categorie: E2
+        - categorie: E2
+          regel: 241
           type: other
           voorbeeld: "| - Van 20.09.91 \n\n\t\t\t\ttot 1.10.91 \n\n\t\t\t\t100 x (128 - 126,4)"
-        - regel: 447
-          categorie: E2
+        - categorie: E2
+          regel: 447
           type: other
           voorbeeld: '| | (tijdswaarde) | 150 | | |'
+      rationale: 'A6: meerdere zinsbreuken midden in een zin (regel 104-106: zin loopt door over twee alinea-grenzen; regel 109-111: vergelijkbaar). E2: de grote resultaattabellen op regel 238-286 (en vergelijkbaar op 463-478) gebruiken multi-line cel-content met tabs als regelterugloop binnen een tabelrij, wat geen geldige markdown-pipe-syntax is en door elke renderer anders wordt geïnterpreteerd. Dubbele lijstitem op regel 170-172 (copy van regel 167-169).'
+      run_at: '2026-05-11T17:51:53Z'
+      status: needs-rework
+    rationale: 'A6: meerdere zinsbreuken midden in een zin (regel 104-106: zin loopt door over twee alinea-grenzen; regel 109-111: vergelijkbaar). E2: de grote resultaattabellen op regel 238-286 (en vergelijkbaar op 463-478) gebruiken multi-line cel-content met tabs als regelterugloop binnen een tabelrij, wat geen geldige markdown-pipe-syntax is en door elke renderer anders wordt geïnterpreteerd. Dubbele lijstitem op regel 170-172 (copy van regel 167-169).'
+    status: needs-rework
 themas:
   - aandelen
   - aandelenopties

@@ -10,7 +10,7 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/voorstelling-van-een-tabel-met-de-wijzigingen-in-het-eigen-vermogen-en-de-bestemming-van
 nummer: CBN-advies 133/3
 provenance:
-  generated_at: '2026-05-11T17:48:38Z'
+  generated_at: '2026-05-11T19:17:25Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/schulden-voortvloeiend-uit-de-bestemming-van-het-resultaat
       sha256: eeb181a25313d2f946b103d6ce4abb096651f4ec8382f7eec6018d461461c4ee
@@ -27,8 +27,8 @@ provenance:
     confirmed_by: subagent-sonnet-4-6
     layer1:
       status: pass
-      run_id: 20260511-174840
-      run_at: '2026-05-11T17:48:41Z'
+      run_id: 20260511-191727
+      run_at: '2026-05-11T19:17:28Z'
       heading_count: 0
       max_section_chars: 4040
       file_size_chars: 4040

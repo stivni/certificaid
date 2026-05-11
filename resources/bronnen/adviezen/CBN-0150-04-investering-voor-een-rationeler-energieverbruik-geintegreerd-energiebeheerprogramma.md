@@ -3,7 +3,7 @@ bron: https://www.cbn-cnc.be/nl/adviezen/investering-voor-een-rationeler-energie
 datum: 1988-06-01
 nummer: CBN-advies 150/4
 provenance:
-  generated_at: '2026-05-11T17:48:38Z'
+  generated_at: '2026-05-11T19:17:25Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/investering-voor-een-rationeler-energieverbruik-geintegreerd-energiebeheerprogramma
       sha256: 1fc7b7bd9e51b597389bca924c94891da92c68a7424020649eeecab3bd0a68d9
@@ -20,8 +20,8 @@ provenance:
     confirmed_by: subagent-sonnet-4-6
     layer1:
       status: pass
-      run_id: 20260511-174840
-      run_at: '2026-05-11T17:48:41Z'
+      run_id: 20260511-191727
+      run_at: '2026-05-11T19:17:29Z'
       heading_count: 0
       max_section_chars: 2951
       file_size_chars: 2951

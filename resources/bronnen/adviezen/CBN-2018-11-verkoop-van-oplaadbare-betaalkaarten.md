@@ -3,53 +3,53 @@ bron: https://www.cbn-cnc.be/nl/adviezen/verkoop-van-oplaadbare-betaalkaarten
 datum: 2018-05-30
 nummer: CBN-advies 2018/11
 provenance:
+  generated_at: '2026-05-11T19:17:26Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/verkoop-van-oplaadbare-betaalkaarten
       sha256: f053794d73bf6c56003c22777a980d226e59c1ca1a3b1e51e0f0b1075766901f
       version:
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T17:48:39Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
-    status: needs-rework
     confirmed_at: '2026-05-11T17:51:53Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "E2/C3: regels 62, 81, 85 en 97 bevatten stray single-pipe tekens ('| ') als losstaande regels tussen secties — artefacten van HTML-tabel-extractie die de markdown-structuur verbreken. Een mens zou dit nooit zo typen. Verdere inhoud correct; tabellen zijn verder goed gerenderd in pipe-syntax."
     layer1:
       status: pass
-      run_id: 20260511-174840
-      run_at: '2026-05-11T17:48:44Z'
+      run_id: 20260511-191727
+      run_at: '2026-05-11T19:17:32Z'
       heading_count: 6
       max_section_chars: 4093
       file_size_chars: 7894
       flags: []
     layer2:
-      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T17:51:53Z'
-      rationale: "E2/C3: regels 62, 81, 85 en 97 bevatten stray single-pipe tekens ('| ') als losstaande regels tussen secties — artefacten van HTML-tabel-extractie die de markdown-structuur verbreken. Een mens zou dit nooit zo typen. Verdere inhoud correct; tabellen zijn verder goed gerenderd in pipe-syntax."
       concrete_problemen:
-        - regel: 62
-          categorie: E2
+        - categorie: E2
+          regel: 62
           type: pseudo-table
           voorbeeld: "| \n\n*Voorbeeld*"
-        - regel: 81
-          categorie: E2
+        - categorie: E2
+          regel: 81
           type: pseudo-table
           voorbeeld: " | \n\nIndien de betaalkaart niet terugbetaalbaar is"
-        - regel: 85
-          categorie: E2
+        - categorie: E2
+          regel: 85
           type: pseudo-table
           voorbeeld: "| \n\n*Voorbeeld*"
-        - regel: 97
-          categorie: E2
+        - categorie: E2
+          regel: 97
           type: pseudo-table
           voorbeeld: " | \n\n De natuurlijke personen die koopman zijn"
+      rationale: 'E2/C3: regels 62, 81, 85 en 97 bevatten stray single-pipe tekens (''| '') als losstaande regels tussen secties — artefacten van HTML-tabel-extractie die de markdown-structuur verbreken. Een mens zou dit nooit zo typen. Verdere inhoud correct; tabellen zijn verder goed gerenderd in pipe-syntax.'
+      run_at: '2026-05-11T17:51:53Z'
+      status: needs-rework
+    rationale: 'E2/C3: regels 62, 81, 85 en 97 bevatten stray single-pipe tekens (''| '') als losstaande regels tussen secties — artefacten van HTML-tabel-extractie die de markdown-structuur verbreken. Een mens zou dit nooit zo typen. Verdere inhoud correct; tabellen zijn verder goed gerenderd in pipe-syntax.'
+    status: needs-rework
 themas:
   - betaalkaart
   - oplaadbare betaalkaart

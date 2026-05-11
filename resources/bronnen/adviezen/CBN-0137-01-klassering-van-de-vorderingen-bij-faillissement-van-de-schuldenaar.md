@@ -10,7 +10,7 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/invloed-van-een-gerechtelijk-akkoord-op-de-schulden-en-vorderingen
 nummer: CBN-advies 137/1
 provenance:
-  generated_at: '2026-05-11T17:48:38Z'
+  generated_at: '2026-05-11T19:17:25Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/klassering-van-de-vorderingen-bij-faillissement-van-de-schuldenaar
       sha256: 7c727a106b42b295f46eb425b96664656442d4af624e28750caf8f604060b13a
@@ -27,8 +27,8 @@ provenance:
     confirmed_by: subagent-sonnet-4-6
     layer1:
       status: pass
-      run_id: 20260511-174840
-      run_at: '2026-05-11T17:48:41Z'
+      run_id: 20260511-191727
+      run_at: '2026-05-11T19:17:29Z'
       heading_count: 0
       max_section_chars: 2107
       file_size_chars: 2107

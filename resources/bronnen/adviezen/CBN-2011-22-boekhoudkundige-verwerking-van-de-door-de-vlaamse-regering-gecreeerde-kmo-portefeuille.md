@@ -3,7 +3,7 @@ bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-door-
 datum: 2011-10-05
 nummer: CBN-advies 2011/22
 provenance:
-  generated_at: '2026-05-11T17:48:39Z'
+  generated_at: '2026-05-11T19:17:26Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-door-de-vlaamse-regering-gecreeerde-kmo-portefeuille
       sha256: 6e925ea83ee592735035416d840b6c46af53b964cc33ac88a183f6826f4242ba
@@ -20,11 +20,11 @@ provenance:
     confirmed_by: subagent-sonnet-4-6
     layer1:
       status: pass
-      run_id: 20260511-174840
-      run_at: '2026-05-11T17:48:43Z'
+      run_id: 20260511-191727
+      run_at: '2026-05-11T19:17:30Z'
       heading_count: 6
-      max_section_chars: 4620
-      file_size_chars: 10212
+      max_section_chars: 8495
+      file_size_chars: 10214
       flags: []
     layer2:
       agent: subagent-sonnet-4-6
@@ -55,13 +55,13 @@ Door middel van deze steunmaatregel kunnen kmo’s aanspraak maken op subsidies 
 
 Zowel de aanvraag als de verwerking, de toekenning en het beheer van de subsidie gebeuren via de elektronische ondernemerschapsportefeuille of kmo-portefeuille. 
 
-### Procedure
+#### Procedure
 Na het afsluiten van een overeenkomst met een erkende dienstverlener of na de inschrijving bij een erkende dienstverlener, dient de onderneming via de webapplicatie een subsidieaanvraag in.[^8]
  Bij een eerste subsidieaanvraag wordt via deze webapplicatie een ondernemerschapsportefeuille op naam van de onderneming aangemaakt.[^9] 
 
 Als de onderneming voldoet aan de voorwaarden vermeld in het decreet van 31 januari 2003, het Besluit van de Vlaamse Regering van 19 december 2008 en de uitvoeringsbesluiten, wordt de subsidie toegekend aan de onderneming door de toekenning van een projectbedrag in de ondernemerschapsportefeuille op naam van de onderneming, waarvan, naargelang het steunpercentage, respectievelijk 50 % of 75 % wordt betaald door het Vlaamse Gewest en 50 % of 25 % door de onderneming. [^10] 
 
-### Boekhoudkundige verwerking
+#### Boekhoudkundige verwerking
 Naar het oordeel van de Commissie voor Boekhoudkundige Normen dient de subsidieverlening in het kader van de kmo-portefeuille als volgt verwerkt te worden in de boekhouding van de onderneming. 
 
 ### Eigen bijdrage van de onderneming

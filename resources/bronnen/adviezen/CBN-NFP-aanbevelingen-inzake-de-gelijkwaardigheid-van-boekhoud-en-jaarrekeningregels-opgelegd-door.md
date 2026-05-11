@@ -3,7 +3,7 @@ bron: https://www.cbn-cnc.be/nl/adviezen/aanbevelingen-inzake-de-gelijkwaardighe
 datum: 2007-01-01
 nummer: CBN-advies NFP
 provenance:
-  generated_at: '2026-05-11T17:48:40Z'
+  generated_at: '2026-05-11T19:17:27Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/aanbevelingen-inzake-de-gelijkwaardigheid-van-boekhoud-en-jaarrekeningregels-opgelegd-door
       sha256: f9afefc503221aa54eb11710768c07d716aacd5e1f5e6c0216584985fb2fca83
@@ -20,8 +20,8 @@ provenance:
     confirmed_by: subagent-sonnet-4-6
     layer1:
       status: pass
-      run_id: 20260511-174840
-      run_at: '2026-05-11T17:48:45Z'
+      run_id: 20260511-191727
+      run_at: '2026-05-11T19:17:33Z'
       heading_count: 5
       max_section_chars: 9108
       file_size_chars: 23494

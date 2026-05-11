@@ -3,7 +3,7 @@ bron: https://www.cbn-cnc.be/nl/adviezen/beding-van-eigendomsvoorbehoud-uitdrukk
 datum: 1985-09-01
 nummer: CBN-advies 106/4
 provenance:
-  generated_at: '2026-05-11T17:48:38Z'
+  generated_at: '2026-05-11T19:17:25Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/beding-van-eigendomsvoorbehoud-uitdrukkelijk-ontbindend-beding-boekhoudkundige-verwerking
       sha256: 451809518250a07e8fb49ee7552ca201a1ae2beff859e8089ca71cf7fed80052
@@ -20,8 +20,8 @@ provenance:
     confirmed_by: human
     layer1:
       status: pass
-      run_id: 20260511-174840
-      run_at: '2026-05-11T17:48:40Z'
+      run_id: 20260511-191727
+      run_at: '2026-05-11T19:17:27Z'
       heading_count: 2
       max_section_chars: 4169
       file_size_chars: 8997

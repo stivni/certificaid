@@ -13,7 +13,7 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/vermeldingen-in-het-centralisatieboek
 nummer: CBN-advies 4/3
 provenance:
-  generated_at: '2026-05-11T17:48:38Z'
+  generated_at: '2026-05-11T19:17:25Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/over-het-centraal-boek
       sha256: c64abd6195b7a76fb1fdc7ef22baf5c9d72a8d45088cae8d7bbe79d1f6bffced
@@ -30,8 +30,8 @@ provenance:
     confirmed_by: subagent-sonnet-4-6
     layer1:
       status: pass
-      run_id: 20260511-174840
-      run_at: '2026-05-11T17:48:40Z'
+      run_id: 20260511-191727
+      run_at: '2026-05-11T19:17:27Z'
       heading_count: 1
       max_section_chars: 2602
       file_size_chars: 2602

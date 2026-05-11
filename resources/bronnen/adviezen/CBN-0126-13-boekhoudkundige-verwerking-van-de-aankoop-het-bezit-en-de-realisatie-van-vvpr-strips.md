@@ -16,7 +16,7 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/verrichtingen-met-betrekking-tot-inschrijvingsrechten
 nummer: CBN-advies 126/13
 provenance:
-  generated_at: '2026-05-11T17:48:38Z'
+  generated_at: '2026-05-11T19:17:25Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-aankoop-het-bezit-en-de-realisatie-van-vvpr-strips
       sha256: 0d6a48c52faec16cb2f9a9dfdd10fd5b8637def5f098e159716dd410db165dea
@@ -33,11 +33,11 @@ provenance:
     confirmed_by: subagent-sonnet-4-6
     layer1:
       status: pass
-      run_id: 20260511-174840
-      run_at: '2026-05-11T17:48:41Z'
-      heading_count: 8
-      max_section_chars: 8017
-      file_size_chars: 20275
+      run_id: 20260511-191727
+      run_at: '2026-05-11T19:17:28Z'
+      heading_count: 9
+      max_section_chars: 8024
+      file_size_chars: 20289
       flags: []
     layer2:
       agent: subagent-sonnet-4-6
@@ -106,7 +106,7 @@ Zoals de Commissie voor het Bank- en Financiewezen reeds aanstipte in haar jaarv
 » 
 
 ## Boekhoudkundige verwerking
-### Boekhoudrechtelijke kwalificatie van «VVPR-strips»
+##### Boekhoudrechtelijke kwalificatie van «VVPR-strips»
 Door het strippen van het VVPR-voordeel, wordt het couponblad met de vermelding VVPR-strip ten opzichte van het «onderliggend» aandeel een apart financieel actief dat ook afzonderlijk wordt genoteerd. Het lijkt dan ook volkomen onlogisch de boekhoudrechtelijke kwalificatie van VVPR-strips af te stemmen op die van aandelen (krachtens het beginsel «Accessorium sequitur principale»[^6]). 
 
 Getoetst aan de boekhoudnormen van het I.A.S.C., het zogenaamde «conceptual framework», blijkt duidelijk dat een VVPR-strip voldoet aan alle voorwaarden om als een actief gekwalificeerd te kunnen worden. Voor de onderneming is het immers een inkomst die voortvloeit uit een eerdere beslissing (namelijk om haar aandelen te strippen), met economische voordelen voor de toekomst. Belangrijk in een dergelijke benadering is dat het begrip «economisch voordeel verbonden aan een actief» overeenstemt met het vermogen van dat actief om rechtstreeks of onrechtstreeks bij te dragen tot een stroom van liquide of gelijkwaardige middelen ten bate van de onderneming. Dit is het geval bij een VVPR-strip. Het feit dat de strip kosteloos is verworven, doet overigens niets af aan een dergelijke kwalificatie; het I.A.S.C. onderstreept in dit verband trouwens het volgende : 
@@ -120,19 +120,19 @@ Zij bevatten evenwel geen vorderingsrecht op de Staat voor een welbepaald bedrag
 
 Het lijkt daarentegen aangewezen strips onder te brengen in een subrekening «Overige effecten» van klasse 5 van het algemeen rekeningenstelsel, waarin ook de niet in de andere rekeningen bedoelde beleggingseffecten, inzonderheid de vastgoedcertificaten en de rechten van deelneming in gemeenschappelijke beleggingsfondsen, zouden kunnen worden opgenomen. 
 
-Vragen in verband met de vaststelling van de «aanschaffingswaarde» van «VVPR-strips»
+#### Vragen in verband met de vaststelling van de «aanschaffingswaarde» van «VVPR-strips»
 Drie gevallen lijken te moeten worden onderscheiden :
 
 - strips afzonderlijk verworven op de secundaire markt; 
 - strips ontstaan uit de splitsing van een oud VVPR-aandeel in een «gewoon» aandeel en een strip; 
 - strips verkregen samen met nieuwe gewone aandelen waarop is ingeschreven ingevolge een openbaar beroep op het spaarderspubliek. 
 
-#### Strips afzonderlijk verworven op de secundaire markt
+###### Strips afzonderlijk verworven op de secundaire markt
 Wanneer de strip afzonderlijk is verworven op de secundaire markt, kan de koper de aanschaffingswaarde zonder problemen bepalen. De aanschaffingswaarde is immers gelijk aan de aankoopprijs, verhoogd met de bijkomende kosten, behalve wanneer die kosten onmiddellijk in resultaat worden genomen met toepassing van artikel 29, § 3 van het Koninklijk Besluit van 8 oktober 1976. Bovendien zullen op de aanschaffingswaarde van de strip, in voorkomend geval, waardeverminderingen moeten worden toegepast wanneer de afzonderlijke beurswaarde[^8] van de strip daalt. 
 
 In de overige twee gevallen rijst de vraag hoe de aanschaffingswaarde van het gewone aandeel, enerzijds, en de strip, anderzijds, moet worden bepaald. In beide gevallen hebben beide afzonderlijke stukken immers aanvankelijk een gezamenlijke aanschaffingswaarde.
 
-#### Bepaling van de respectieve aanschaffingswaarde van het gewone aandeel en van de strip ontstaan uit de splitsing van een VVPR-aandeel
+###### Bepaling van de respectieve aanschaffingswaarde van het gewone aandeel en van de strip ontstaan uit de splitsing van een VVPR-aandeel
 Omdat hier één gezamenlijke aanschaffingswaarde over twee stukken wordt uitgesplitst, kan zo'n verrichting noch juridisch, noch financieel als een swap worden beschouwd waarop artikel 21, § 2 van het Koninklijk Besluit van 8 oktober 1976 van toepassing zou zijn. Bij stripping blijft het recht van de houder ongewijzigd, zij het voortaan uitgesplitst over twee afzonderlijke stukken. Hier is dus geen sprake van overdracht of realisatie. Bovendien zijn bij een swap per definitie twee afzonderlijke partijen aanwezig die twee verschillende activa ruilen, wat nooit het geval is bij een VVPR-stripping. 
 
 Om de aan die twee stukken toe te wijzen aanschaffingswaarde te bepalen, lijken twee benaderingen mogelijk : 
@@ -189,12 +189,12 @@ Deze alternatieve methode zou er bijgevolg in bestaan het gewone aandeel te boek
 
 De Commissie is van oordeel dat beide voornoemde benaderingen op zich coherent zijn. 
 
-#### Strips verkregen samen met nieuwe gewone aandelen waarop is ingeschreven ingevolge een openbaar beroep op het spaarderspubliek
+###### Strips verkregen samen met nieuwe gewone aandelen waarop is ingeschreven ingevolge een openbaar beroep op het spaarderspubliek
 Hier wordt het geval bedoeld waarbij nieuwe aandelen worden uitgegeven via een openbaar beroep op het spaarderspubliek en waarbij de inschrijver tegelijkertijd een «gewoon» aandeel en een strip ontvangt. In dat geval heeft men eigenlijk te maken met een gezamenlijke aankoop waarbij de koper één enkele inschrijvingsprijs betaalt voor twee afzonderlijke stukken. Wanneer de onderneming beslist om tegelijkertijd op beide stukken in te schrijven, zal zij normaliter rekening houden met de inherente realisatiewaarde van de strip. 
 
 De Commissie is van oordeel dat in dit geval de voorkeur moet worden gegeven aan een uitsplitsing, zoals bij de eerste benadering, van de gezamenlijke inschrijvingsprijs tussen het gewone aandeel, enerzijds, en de strip, anderzijds. 
 
-### Vragen in verband met de realisatie van "VVPR-strips"
+#### Vragen in verband met de realisatie van "VVPR-strips"
 In boekhoudrechtelijk opzicht zullen bij een eventuele doorverkoop van dergelijke strips op de secundaire markt in de boekhouding meer- of minderwaarden bij de realisatie van «Geldbeleggingen» moeten worden uitgedrukt.
 
 [^1]: Ingevoegd in het Wetboek bij de Wet van 30 maart 1994.

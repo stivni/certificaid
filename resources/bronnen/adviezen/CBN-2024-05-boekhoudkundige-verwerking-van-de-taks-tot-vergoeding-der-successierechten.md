@@ -16,7 +16,7 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/belastingkrediet-voor-kosten-van-onderzoek-en-ontwikkeling
 nummer: CBN-advies 2024/05
 provenance:
-  generated_at: '2026-05-11T17:48:40Z'
+  generated_at: '2026-05-11T19:17:27Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-taks-tot-vergoeding-der-successierechten
       sha256: 9afefe28e589eba3c3c1648830286c681e6ca2d7bbfe05a4ea56534a34d83b51
@@ -33,8 +33,8 @@ provenance:
     confirmed_by: subagent-sonnet-4-6
     layer1:
       status: pass
-      run_id: 20260511-174840
-      run_at: '2026-05-11T17:48:45Z'
+      run_id: 20260511-191727
+      run_at: '2026-05-11T19:17:33Z'
       heading_count: 4
       max_section_chars: 3231
       file_size_chars: 5481

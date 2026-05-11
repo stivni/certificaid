@@ -16,7 +16,7 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/gevolgen-op-gebied-van-financiele-rapportering-als-gevolg-van-de-brexit-0
 nummer: CBN-advies 2024/02
 provenance:
-  generated_at: '2026-05-11T17:48:40Z'
+  generated_at: '2026-05-11T19:17:27Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-buitenlandse-verenigingen-en-stichtingen-toepassing-van-het-0
       sha256: 7b9a8a629ece5b431808799881a666da1acf93156fb67b32a4601de36a6b777a
@@ -33,8 +33,8 @@ provenance:
     confirmed_by: subagent-sonnet-4-6
     layer1:
       status: pass
-      run_id: 20260511-174840
-      run_at: '2026-05-11T17:48:45Z'
+      run_id: 20260511-191727
+      run_at: '2026-05-11T19:17:33Z'
       heading_count: 39
       max_section_chars: 20175
       file_size_chars: 47292

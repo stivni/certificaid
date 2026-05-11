@@ -3,7 +3,7 @@ bron: https://www.cbn-cnc.be/nl/adviezen/pensioenvoorzieningen
 datum: 1987-11-24
 nummer: CBN-advies 107/12
 provenance:
-  generated_at: '2026-05-11T17:48:38Z'
+  generated_at: '2026-05-11T19:17:25Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/pensioenvoorzieningen
       sha256: 7cae9d96e7c8ebc8a0c451cf51977d4b9534ff2d00cc5a2ddf9057a1c1db7fe3
@@ -20,8 +20,8 @@ provenance:
     confirmed_by: subagent-sonnet-4-6
     layer1:
       status: pass
-      run_id: 20260511-174840
-      run_at: '2026-05-11T17:48:40Z'
+      run_id: 20260511-191727
+      run_at: '2026-05-11T19:17:28Z'
       heading_count: 0
       max_section_chars: 2196
       file_size_chars: 2196

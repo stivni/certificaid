@@ -3,37 +3,37 @@ bron: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-wente
 datum: 2012-11-07
 nummer: CBN-advies 2012/16
 provenance:
+  generated_at: '2026-05-11T19:17:26Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-wentelkredieten
       sha256: 7013e5464299052fde76798683ffe4624bacba1c24fde624e8e7cc98f671ea1d
       version:
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T17:48:39Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
-    status: trusted
     confirmed_at: '2026-05-11T17:51:53Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: Schoon advies (6846 chars, 3 headings). Voorbeeld-sectie in prosa zonder tabellen. Drie voetnoten correct geformatteerd met berekende bedragen. Cursief voor technische termen consistent. Geen artefacten van enige categorie.
     layer1:
       status: pass
-      run_id: 20260511-174840
-      run_at: '2026-05-11T17:48:43Z'
+      run_id: 20260511-191727
+      run_at: '2026-05-11T19:17:30Z'
       heading_count: 3
       max_section_chars: 2935
       file_size_chars: 6846
       flags: []
     layer2:
-      status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T17:51:53Z'
-      rationale: Schoon advies (6846 chars, 3 headings). Voorbeeld-sectie in prosa zonder tabellen. Drie voetnoten correct geformatteerd met berekende bedragen. Cursief voor technische termen consistent. Geen artefacten van enige categorie.
       concrete_problemen: []
+      rationale: Schoon advies (6846 chars, 3 headings). Voorbeeld-sectie in prosa zonder tabellen. Drie voetnoten correct geformatteerd met berekende bedragen. Cursief voor technische termen consistent. Geen artefacten van enige categorie.
+      run_at: '2026-05-11T17:51:53Z'
+      status: trusted
+    rationale: Schoon advies (6846 chars, 3 headings). Voorbeeld-sectie in prosa zonder tabellen. Drie voetnoten correct geformatteerd met berekende bedragen. Cursief voor technische termen consistent. Geen artefacten van enige categorie.
+    status: trusted
 themas:
   - wentelkredieten
   - revolving krediet

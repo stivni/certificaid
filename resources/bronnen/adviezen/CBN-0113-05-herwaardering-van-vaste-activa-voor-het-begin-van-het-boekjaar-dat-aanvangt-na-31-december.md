@@ -16,37 +16,37 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/afschrijvingsmethoden
 nummer: CBN-advies 113/5
 provenance:
+  generated_at: '2026-05-11T19:17:25Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/herwaardering-van-vaste-activa-voor-het-begin-van-het-boekjaar-dat-aanvangt-na-31-december
       sha256: 1cf5aff861f5346d111cb0f8bcb4bed221f788d17e89713f24e56a69581dac4a
       version:
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T17:48:38Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
-    status: trusted
     confirmed_at: '2026-05-11T17:51:53Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: Volledig schone extractie. Drie headings (H1 titel + H2 voor de twee sub-vragen a/b) zijn wat minimaal maar weerspiegelen de bronstructuur van dit korte advies. Alle vier voetnoten correct als markdown [^n]-definitie onderaan. Geen PDF-artefacten, geen broken tables, geen truncatie.
     layer1:
       status: pass
-      run_id: 20260511-174840
-      run_at: '2026-05-11T17:48:40Z'
+      run_id: 20260511-191727
+      run_at: '2026-05-11T19:17:28Z'
       heading_count: 3
       max_section_chars: 5850
       file_size_chars: 7297
       flags: []
     layer2:
-      status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T17:51:53Z'
-      rationale: Volledig schone extractie. Drie headings (H1 titel + H2 voor de twee sub-vragen a/b) zijn wat minimaal maar weerspiegelen de bronstructuur van dit korte advies. Alle vier voetnoten correct als markdown [^n]-definitie onderaan. Geen PDF-artefacten, geen broken tables, geen truncatie.
       concrete_problemen: []
+      rationale: Volledig schone extractie. Drie headings (H1 titel + H2 voor de twee sub-vragen a/b) zijn wat minimaal maar weerspiegelen de bronstructuur van dit korte advies. Alle vier voetnoten correct als markdown [^n]-definitie onderaan. Geen PDF-artefacten, geen broken tables, geen truncatie.
+      run_at: '2026-05-11T17:51:53Z'
+      status: trusted
+    rationale: Volledig schone extractie. Drie headings (H1 titel + H2 voor de twee sub-vragen a/b) zijn wat minimaal maar weerspiegelen de bronstructuur van dit korte advies. Alle vier voetnoten correct als markdown [^n]-definitie onderaan. Geen PDF-artefacten, geen broken tables, geen truncatie.
+    status: trusted
 themas:
   - afschrijvingen
   - gebruiksduur

@@ -3,7 +3,7 @@ bron: https://www.cbn-cnc.be/nl/adviezen/passende-boekhoudkundige-verwerking-van
 datum: 1991-03-01
 nummer: CBN-advies 164
 provenance:
-  generated_at: '2026-05-11T17:48:38Z'
+  generated_at: '2026-05-11T19:17:25Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/passende-boekhoudkundige-verwerking-van-de-tegenwaarde-van-participatiecertificaten-cpcs
       sha256: 3535a812b2e54ae3dcb7d33c0395e4b30f14b153cb808580927da92a12fae800
@@ -20,8 +20,8 @@ provenance:
     confirmed_by: subagent-sonnet-4-6
     layer1:
       status: pass
-      run_id: 20260511-174840
-      run_at: '2026-05-11T17:48:42Z'
+      run_id: 20260511-191727
+      run_at: '2026-05-11T19:17:29Z'
       heading_count: 0
       max_section_chars: 2275
       file_size_chars: 2275

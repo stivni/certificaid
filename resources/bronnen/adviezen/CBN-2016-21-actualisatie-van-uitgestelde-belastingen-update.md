@@ -3,7 +3,7 @@ bron: https://www.cbn-cnc.be/nl/adviezen/actualisatie-van-uitgestelde-belastinge
 datum: 2016-09-28
 nummer: CBN-advies 2016/21
 provenance:
-  generated_at: '2026-05-11T17:48:39Z'
+  generated_at: '2026-05-11T19:17:26Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/actualisatie-van-uitgestelde-belastingen-update
       sha256: 06f83943967c5156ac3f0fd9e5a8010d8afed43963a2eb67364d2ad85afabfe2
@@ -20,8 +20,8 @@ provenance:
     confirmed_by: subagent-sonnet-4-6
     layer1:
       status: pass
-      run_id: 20260511-174840
-      run_at: '2026-05-11T17:48:44Z'
+      run_id: 20260511-191727
+      run_at: '2026-05-11T19:17:31Z'
       heading_count: 0
       max_section_chars: 4563
       file_size_chars: 4563

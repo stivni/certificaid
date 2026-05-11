@@ -3,7 +3,7 @@ bron: https://www.cbn-cnc.be/nl/adviezen/vermogensmutatiemethode
 datum: 2022-09-09
 nummer: CBN-advies 2022/11
 provenance:
-  generated_at: '2026-05-11T17:48:40Z'
+  generated_at: '2026-05-11T19:17:27Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/vermogensmutatiemethode
       sha256: 00703b083c62932ad00a467870a3bc5061468db96a297ded9921ed568509a7ad
@@ -20,8 +20,8 @@ provenance:
     confirmed_by: subagent-sonnet-4-6
     layer1:
       status: warn
-      run_id: 20260511-174840
-      run_at: '2026-05-11T17:48:45Z'
+      run_id: 20260511-191727
+      run_at: '2026-05-11T19:17:33Z'
       heading_count: 19
       max_section_chars: 33856
       file_size_chars: 67144

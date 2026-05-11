@@ -3,37 +3,37 @@ bron: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-het-s
 datum: 2010-02-10
 nummer: CBN-advies 2010/2
 provenance:
+  generated_at: '2026-05-11T19:17:26Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-het-stelsel-tot-gedeeltelijke-vrijstelling-van-betaling
       sha256: 4ca6ce7a38ebe388884f6c7802f6c703a384627e824c29020c4668e937c641c5
       version:
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T17:48:38Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
-    status: trusted
     confirmed_at: '2026-05-11T17:51:53Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: 'Kort en schoon advies (4765 chars, 4 headings). Trefwoorden-sectie als ## heading aanwezig. Vier voetnoten correct geformatteerd. Geciteerde wetsartikelen in cursief correct gemarkeerd. Geen artefacten.'
     layer1:
       status: pass
-      run_id: 20260511-174840
-      run_at: '2026-05-11T17:48:42Z'
+      run_id: 20260511-191727
+      run_at: '2026-05-11T19:17:30Z'
       heading_count: 4
       max_section_chars: 1482
       file_size_chars: 4765
       flags: []
     layer2:
-      status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T17:51:53Z'
-      rationale: 'Kort en schoon advies (4765 chars, 4 headings). Trefwoorden-sectie als ## heading aanwezig. Vier voetnoten correct geformatteerd. Geciteerde wetsartikelen in cursief correct gemarkeerd. Geen artefacten.'
       concrete_problemen: []
+      rationale: 'Kort en schoon advies (4765 chars, 4 headings). Trefwoorden-sectie als ## heading aanwezig. Vier voetnoten correct geformatteerd. Geciteerde wetsartikelen in cursief correct gemarkeerd. Geen artefacten.'
+      run_at: '2026-05-11T17:51:53Z'
+      status: trusted
+    rationale: 'Kort en schoon advies (4765 chars, 4 headings). Trefwoorden-sectie als ## heading aanwezig. Vier voetnoten correct geformatteerd. Geciteerde wetsartikelen in cursief correct gemarkeerd. Geen artefacten.'
+    status: trusted
 themas:
   - bedrijfsvoorheffing
   - compensatie

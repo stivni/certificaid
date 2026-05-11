@@ -3,7 +3,7 @@ bron: https://www.cbn-cnc.be/nl/adviezen/specifiek-achtergestelde-leningen
 datum: 1989-09-01
 nummer: CBN-advies 159/2
 provenance:
-  generated_at: '2026-05-11T17:48:38Z'
+  generated_at: '2026-05-11T19:17:25Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/specifiek-achtergestelde-leningen
       sha256: a23060a0ddd0f6b9290bde1222b9de08ac692ef2be3ce09ffd66107fdfa2111a
@@ -20,8 +20,8 @@ provenance:
     confirmed_by: subagent-sonnet-4-6
     layer1:
       status: pass
-      run_id: 20260511-174840
-      run_at: '2026-05-11T17:48:42Z'
+      run_id: 20260511-191727
+      run_at: '2026-05-11T19:17:29Z'
       heading_count: 0
       max_section_chars: 3094
       file_size_chars: 3094

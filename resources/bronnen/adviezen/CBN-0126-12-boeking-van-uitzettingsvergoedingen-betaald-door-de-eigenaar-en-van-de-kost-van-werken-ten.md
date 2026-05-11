@@ -3,7 +3,7 @@ bron: https://www.cbn-cnc.be/nl/adviezen/boeking-van-uitzettingsvergoedingen-bet
 datum: 1993-02-01
 nummer: CBN-advies 126/12
 provenance:
-  generated_at: '2026-05-11T17:48:38Z'
+  generated_at: '2026-05-11T19:17:25Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/boeking-van-uitzettingsvergoedingen-betaald-door-de-eigenaar-en-van-de-kost-van-werken-ten
       sha256: dee182c834e178d07ddd553ef3a8fc93f6f80ff886fcb9e7c324449e9e02c9d0
@@ -20,8 +20,8 @@ provenance:
     confirmed_by: subagent-sonnet-4-6
     layer1:
       status: pass
-      run_id: 20260511-174840
-      run_at: '2026-05-11T17:48:41Z'
+      run_id: 20260511-191727
+      run_at: '2026-05-11T19:17:28Z'
       heading_count: 2
       max_section_chars: 3471
       file_size_chars: 7833

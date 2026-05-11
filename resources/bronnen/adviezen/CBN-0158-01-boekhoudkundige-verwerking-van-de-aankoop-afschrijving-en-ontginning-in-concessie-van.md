@@ -7,7 +7,7 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-immateriele-vaste-activa
 nummer: CBN-advies 158/1
 provenance:
-  generated_at: '2026-05-11T17:48:38Z'
+  generated_at: '2026-05-11T19:17:25Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-aankoop-afschrijving-en-ontginning-in-concessie-van
       sha256: 08e46100637031f687700017facf7e19aed6f6f370c0da7b2d8a08fc11f758d4
@@ -20,24 +20,24 @@ provenance:
     pipeline_version: 11f9196
     prompt_version:
   trust:
-    confirmed_at: '2026-05-11T15:19:35Z'
-    confirmed_by: subagent-sonnet-4-6
+    confirmed_at:
+    confirmed_by:
     layer1:
       status: pass
-      run_id: 20260511-174840
-      run_at: '2026-05-11T17:48:42Z'
+      run_id: 20260511-191727
+      run_at: '2026-05-11T19:17:29Z'
       heading_count: 8
-      max_section_chars: 1899
-      file_size_chars: 5821
+      max_section_chars: 3161
+      file_size_chars: 5824
       flags: []
     layer2:
-      agent: subagent-sonnet-4-6
+      agent:
       concrete_problemen: []
-      rationale: 'Schoon document: ## / ### heading-hiërarchie correct (eigendom → aanschaffingswaarde / afschrijving / herwaardering → concessie), voetnoot aanwezig en correct, geen form-feeds, geen OCR-fouten, geen duplicate content. Inhoud volledig en goed leesbaar.'
-      run_at: '2026-05-11T15:19:35Z'
-      status: trusted
-    rationale: 'Schoon document: ## / ### heading-hiërarchie correct (eigendom → aanschaffingswaarde / afschrijving / herwaardering → concessie), voetnoot aanwezig en correct, geen form-feeds, geen OCR-fouten, geen duplicate content. Inhoud volledig en goed leesbaar.'
-    status: trusted
+      rationale:
+      run_at:
+      status: not_run
+    rationale: 'Trust gereset 2026-05-11: re-scrape met scraper-fixes, content-diff > 5%'
+    status: unreviewed
 themas:
   - concessie
   - materiële vaste activa
@@ -49,10 +49,10 @@ themas:
 Meestal wordt een natuurlijke rijkdom in eigendom verworven of in concessie ontvangen.
 
 ## Verwerving in eigendom van het terrein met de natuurlijke rijkdom
-### Aanschaffingswaarde
+#### Aanschaffingswaarde
 Rekening houdend met het meestal duurzame karakter van de ontginning moet de verwerving van het terrein met de natuurlijke rijkdom niet worden beschouwd als de aanschaffing van een voorraad grondstoffen of goederen, maar als de aanschaffing van een materieel vast actief[^1]. De aanschaffingswaarde omvat behalve de prijs voor de verwerving van het terrein, ook de kosten om het effectief bedrijfsklaar te maken.
 
-### Afschrijving
+#### Afschrijving
 1. De natuurlijke rijkdom 
 
 	Gaat het om een natuurlijke rijkdom van onbeperkte omvang (behoudens onvoorziene omstandigheden, in welk geval eventueel op dat tijdstip een uitzonderlijke afschrijving wordt toegepast), moet zijn aanschaffingswaarde niet ten laste worden genomen en hoven derhalve geen afschrijvingen te worden geboekt. Boekhoudkundig wordt hij dan op identieke wijze verwerkt als een terrein. 
@@ -65,7 +65,7 @@ Rekening houdend met het meestal duurzame karakter van de ontginning moet de ver
 
 	Investeringen, bijvoorbeeld voor het stutwerk in mijnen of voor liften om het erts naar de oppervlakte te brengen, en de aanschaffingskost van de natuurlijke rijkdom moeten afzonderlijk worden geboekt. Dergelijke werken en uitrustingen worden afgeschreven op dezelfde wijze als het actief - de natuurlijke rijkdom - waarop zij betrekking hebben, als zij tijdens de hele ontginningsperiode dienstig zijn. Zij moeten daarentegen sneller worden afgeschreven wanneer hun levensduur korter is dan die van de natuurlijke rijkdom. 
 
-### Herwaardering
+#### Herwaardering
 Wanneer de waarde van de natuurlijke rijkdom, vastgesteld op grond van zijn nut voor de onderneming, op vaste en duurzame wijze uitstijgt boven zijn boekwaarde en inzonderheid wanneer de ertslaag rijker is dan verwacht, mag de onderneming herwaarderen overeenkomstig artikel 34 van het Koninklijk Besluit van 8 oktober 1976. 
 
 ## Concessie

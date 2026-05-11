@@ -3,7 +3,7 @@ bron: https://www.cbn-cnc.be/nl/adviezen/te-verwaarlozen-betekenis
 datum: 2012-07-04
 nummer: CBN-advies 2012/10
 provenance:
-  generated_at: '2026-05-11T17:48:39Z'
+  generated_at: '2026-05-11T19:17:26Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/te-verwaarlozen-betekenis
       sha256: 6b99fb366e6ded06b001c98cccac8e5f1d7de48d1cd863427e16c406d60f1cf2
@@ -20,8 +20,8 @@ provenance:
     confirmed_by: subagent-sonnet-4-6
     layer1:
       status: pass
-      run_id: 20260511-174840
-      run_at: '2026-05-11T17:48:43Z'
+      run_id: 20260511-191727
+      run_at: '2026-05-11T19:17:30Z'
       heading_count: 6
       max_section_chars: 3283
       file_size_chars: 10964

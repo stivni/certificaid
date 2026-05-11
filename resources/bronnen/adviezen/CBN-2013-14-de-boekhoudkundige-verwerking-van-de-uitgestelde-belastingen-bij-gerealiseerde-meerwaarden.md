@@ -16,7 +16,7 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/herwaarderingen-verricht-met-toepassing-van-de-wet-van-20-augustus-1947
 nummer: CBN-advies 2013/14
 provenance:
-  generated_at: '2026-05-11T17:48:39Z'
+  generated_at: '2026-05-11T19:17:26Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-uitgestelde-belastingen-bij-gerealiseerde-meerwaarden
       sha256: 1797f2099973db21019f401c77a91e8d1096ae56217d8dc0e573e7ac01d20547
@@ -33,11 +33,11 @@ provenance:
     confirmed_by: subagent-sonnet-4-6
     layer1:
       status: pass
-      run_id: 20260511-174840
-      run_at: '2026-05-11T17:48:43Z'
+      run_id: 20260511-191727
+      run_at: '2026-05-11T19:17:31Z'
       heading_count: 21
       max_section_chars: 15060
-      file_size_chars: 22452
+      file_size_chars: 22448
       flags: []
     layer2:
       agent: subagent-sonnet-4-6
@@ -275,8 +275,7 @@ Eind 20X4 moet evenwel in de jaarrekening de weerslag worden uitgedrukt van de v
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-| | 1682 | Uitgestelde belastingen op gerealiseerde meerwaarden
-				op materiële vaste activa | 30 | |
+| | 1682 | Uitgestelde belastingen op gerealiseerde meerwaarden op materiële vaste activa | 30 | |
 | aan | 132 | Belastingvrije reserves | | 30 |
 |---|---|---|---|---|
 

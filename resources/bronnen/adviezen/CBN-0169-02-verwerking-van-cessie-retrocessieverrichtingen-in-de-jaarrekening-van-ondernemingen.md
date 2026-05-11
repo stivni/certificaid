@@ -3,7 +3,7 @@ bron: https://www.cbn-cnc.be/nl/adviezen/verwerking-van-cessie-retrocessieverric
 datum: 1995-02-01
 nummer: CBN-advies 169/2
 provenance:
-  generated_at: '2026-05-11T17:48:38Z'
+  generated_at: '2026-05-11T19:17:26Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/verwerking-van-cessie-retrocessieverrichtingen-in-de-jaarrekening-van-ondernemingen
       sha256: 7bdd2ddf62dc20d396997a39b3d2ba81e680484b21ead22a1e47bc44248fb977
@@ -20,8 +20,8 @@ provenance:
     confirmed_by: subagent-sonnet-4-6
     layer1:
       status: pass
-      run_id: 20260511-174840
-      run_at: '2026-05-11T17:48:42Z'
+      run_id: 20260511-191727
+      run_at: '2026-05-11T19:17:29Z'
       heading_count: 19
       max_section_chars: 18069
       file_size_chars: 29719

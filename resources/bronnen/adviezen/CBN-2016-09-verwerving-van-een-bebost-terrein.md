@@ -3,7 +3,7 @@ bron: https://www.cbn-cnc.be/nl/adviezen/verwerving-van-een-bebost-terrein
 datum: 2016-06-15
 nummer: CBN-advies 2016/9
 provenance:
-  generated_at: '2026-05-11T17:48:39Z'
+  generated_at: '2026-05-11T19:17:26Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/verwerving-van-een-bebost-terrein
       sha256: 5b16ac8f98d0ccf87b4a2e899560fbb7dc951a0c4c35c87aeaadf4e72e6d9702
@@ -20,8 +20,8 @@ provenance:
     confirmed_by: subagent-sonnet-4-6
     layer1:
       status: pass
-      run_id: 20260511-174840
-      run_at: '2026-05-11T17:48:43Z'
+      run_id: 20260511-191727
+      run_at: '2026-05-11T19:17:31Z'
       heading_count: 3
       max_section_chars: 1428
       file_size_chars: 3327

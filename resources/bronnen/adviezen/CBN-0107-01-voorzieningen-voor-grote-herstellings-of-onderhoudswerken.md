@@ -3,7 +3,7 @@ bron: https://www.cbn-cnc.be/nl/adviezen/voorzieningen-voor-grote-herstellings-o
 datum: 1977-08-01
 nummer: CBN-advies 107/1
 provenance:
-  generated_at: '2026-05-11T17:48:38Z'
+  generated_at: '2026-05-11T19:17:25Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/voorzieningen-voor-grote-herstellings-of-onderhoudswerken
       sha256: 69ce4d9ffa509f8b14692db444383872c9441ce2977831e235bb825fd7b3d51d
@@ -20,8 +20,8 @@ provenance:
     confirmed_by: subagent-sonnet-4-6
     layer1:
       status: pass
-      run_id: 20260511-174840
-      run_at: '2026-05-11T17:48:40Z'
+      run_id: 20260511-191727
+      run_at: '2026-05-11T19:17:27Z'
       heading_count: 0
       max_section_chars: 700
       file_size_chars: 700

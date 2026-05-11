@@ -3,7 +3,7 @@ bron: https://www.cbn-cnc.be/nl/adviezen/verbintenissen-van-een-moedervennootsch
 datum: 1977-08-01
 nummer: CBN-advies 106/3
 provenance:
-  generated_at: '2026-05-11T17:48:38Z'
+  generated_at: '2026-05-11T19:17:25Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/verbintenissen-van-een-moedervennootschap-met-betrekking-tot-de-solvabiliteit-van-haar
       sha256: 9f3851dc7ad19a708f07fa6a1ea41ade1494ba86f29fd6a71bf411a977032b7a
@@ -20,8 +20,8 @@ provenance:
     confirmed_by: subagent-sonnet-4-6
     layer1:
       status: pass
-      run_id: 20260511-174840
-      run_at: '2026-05-11T17:48:40Z'
+      run_id: 20260511-191727
+      run_at: '2026-05-11T19:17:27Z'
       heading_count: 0
       max_section_chars: 722
       file_size_chars: 722

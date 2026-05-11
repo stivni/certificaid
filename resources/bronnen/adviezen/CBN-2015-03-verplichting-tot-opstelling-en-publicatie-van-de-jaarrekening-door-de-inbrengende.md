@@ -7,37 +7,37 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/begin-van-het-boekjaar
 nummer: CBN-advies 2015/3
 provenance:
+  generated_at: '2026-05-11T19:17:26Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/verplichting-tot-opstelling-en-publicatie-van-de-jaarrekening-door-de-inbrengende
       sha256: 51d0a7ca555ba03fa07a8ae71f03ce700531508f625947a1472d123f16fc1587
       version:
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T17:48:39Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
-    status: trusted
     confirmed_at: '2026-05-11T17:51:53Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: 'Geen detecteerbare ETL-artefacten. Heading-hiërarchie correct (## en ###), voetnoten volledig en gekoppeld via [^n], lijsten met standaard markdown-bullets, geen spurious line-breaks of OCR-issues. Een buitenstaander zou dit voor mens-geschreven markdown houden.'
     layer1:
       status: pass
-      run_id: 20260511-174840
-      run_at: '2026-05-11T17:48:43Z'
+      run_id: 20260511-191727
+      run_at: '2026-05-11T19:17:31Z'
       heading_count: 5
       max_section_chars: 3896
       file_size_chars: 10880
       flags: []
     layer2:
-      status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T17:51:53Z'
-      rationale: 'Geen detecteerbare ETL-artefacten. Heading-hiërarchie correct (## en ###), voetnoten volledig en gekoppeld via [^n], lijsten met standaard markdown-bullets, geen spurious line-breaks of OCR-issues. Een buitenstaander zou dit voor mens-geschreven markdown houden.'
       concrete_problemen: []
+      rationale: 'Geen detecteerbare ETL-artefacten. Heading-hiërarchie correct (## en ###), voetnoten volledig en gekoppeld via [^n], lijsten met standaard markdown-bullets, geen spurious line-breaks of OCR-issues. Een buitenstaander zou dit voor mens-geschreven markdown houden.'
+      run_at: '2026-05-11T17:51:53Z'
+      status: trusted
+    rationale: 'Geen detecteerbare ETL-artefacten. Heading-hiërarchie correct (## en ###), voetnoten volledig en gekoppeld via [^n], lijsten met standaard markdown-bullets, geen spurious line-breaks of OCR-issues. Een buitenstaander zou dit voor mens-geschreven markdown houden.'
+    status: trusted
 themas:
   - Inbreng van een algemeenheid
   - openbaarmaking

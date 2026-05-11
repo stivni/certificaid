@@ -16,53 +16,53 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/groottecriteria-boekjaar-korter-of-langer-dan-12-maanden-update
 nummer: CBN-advies 2018/22
 provenance:
+  generated_at: '2026-05-11T19:17:26Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/groottecriteria-alternatieve-berekening-van-de-omzet-op-geconsolideerde-of-geaggregeerde
       sha256: e8239fb06e706232d9098b2caebfc6f6cf3844c3bac3088e4d6e403cb306efac
       version:
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T17:48:39Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
-    status: needs-rework
     confirmed_at: '2026-05-11T17:51:53Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "B1/B4: de tabellen met rekening-gegevens (regels 86-357 en verder) zijn volledig uiteengevallen in losse ## headings per tabelcel ('## Rekening 70', '## Vennootschap A', '## Geconsolideerd bedrag', etc.) afgewisseld met stray pipe-tekens. Layer 1 meldt 60 headings voor 18k chars — dit is het directe symptoom. De tabellen zijn onleesbaar als zodanig en de heading-count is structureel verstoord door de extractiebug."
     layer1:
       status: pass
-      run_id: 20260511-174840
-      run_at: '2026-05-11T17:48:44Z'
+      run_id: 20260511-191727
+      run_at: '2026-05-11T19:17:32Z'
       heading_count: 60
       max_section_chars: 6210
       file_size_chars: 18874
       flags: []
     layer2:
-      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T17:51:53Z'
-      rationale: "B1/B4: de tabellen met rekening-gegevens (regels 86-357 en verder) zijn volledig uiteengevallen in losse ## headings per tabelcel ('## Rekening 70', '## Vennootschap A', '## Geconsolideerd bedrag', etc.) afgewisseld met stray pipe-tekens. Layer 1 meldt 60 headings voor 18k chars — dit is het directe symptoom. De tabellen zijn onleesbaar als zodanig en de heading-count is structureel verstoord door de extractiebug."
       concrete_problemen:
-        - regel: 91
-          categorie: B1
+        - categorie: B1
+          regel: 91
           type: other
           voorbeeld: "## Rekening 70\n  | |"
-        - regel: 95
-          categorie: B1
+        - categorie: B1
+          regel: 95
           type: other
           voorbeeld: "## Rekening 74\n  | |"
-        - regel: 103
-          categorie: B1
+        - categorie: B1
+          regel: 103
           type: other
           voorbeeld: "## Vennootschap A\n  | |"
-        - regel: 86
-          categorie: E1
+        - categorie: E1
+          regel: 86
           type: pseudo-table
           voorbeeld: "| \n\n | | \n|---|\n\n## Rekening 70"
+      rationale: 'B1/B4: de tabellen met rekening-gegevens (regels 86-357 en verder) zijn volledig uiteengevallen in losse ## headings per tabelcel (''## Rekening 70'', ''## Vennootschap A'', ''## Geconsolideerd bedrag'', etc.) afgewisseld met stray pipe-tekens. Layer 1 meldt 60 headings voor 18k chars — dit is het directe symptoom. De tabellen zijn onleesbaar als zodanig en de heading-count is structureel verstoord door de extractiebug.'
+      run_at: '2026-05-11T17:51:53Z'
+      status: needs-rework
+    rationale: 'B1/B4: de tabellen met rekening-gegevens (regels 86-357 en verder) zijn volledig uiteengevallen in losse ## headings per tabelcel (''## Rekening 70'', ''## Vennootschap A'', ''## Geconsolideerd bedrag'', etc.) afgewisseld met stray pipe-tekens. Layer 1 meldt 60 headings voor 18k chars — dit is het directe symptoom. De tabellen zijn onleesbaar als zodanig en de heading-count is structureel verstoord door de extractiebug.'
+    status: needs-rework
 themas:
   - criteria
   - groottecriteria

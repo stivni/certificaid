@@ -3,53 +3,53 @@ bron: https://www.cbn-cnc.be/nl/adviezen/verwerking-van-leningen-en-ontleningen-
 datum: 1995-02-01
 nummer: CBN-advies 169/1
 provenance:
+  generated_at: '2026-05-11T19:17:26Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/verwerking-van-leningen-en-ontleningen-van-effecten-in-de-jaarrekening-van-ondernemingen
       sha256: becb90a513b6601dde80ef71d42c2fc123218f5918b7d032f8108f2bdcab550a
       version:
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T17:48:38Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
-    status: trusted
     confirmed_at: '2026-05-11T17:51:53Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "Structuur en tabellen zijn overwegend correct voor dit omvangrijke advies (47k chars, 44 headings). De drie gevonden tekstuele afwijkingen zijn source-typo's: 'effectenverordening' (2x) en 'mogeljkheid' zijn schrijffouten die al in de gepubliceerde HTML-brontekst staan; '16.13.199n' is eveneens een typefout in het originele document. Geen ETL-artefacten (A-G) gevonden die reparatie vereisen."
     layer1:
       status: pass
-      run_id: 20260511-174840
-      run_at: '2026-05-11T17:48:42Z'
+      run_id: 20260511-191727
+      run_at: '2026-05-11T19:17:29Z'
       heading_count: 44
       max_section_chars: 10300
       file_size_chars: 47117
       flags: []
     layer2:
-      status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T17:51:53Z'
-      rationale: "Structuur en tabellen zijn overwegend correct voor dit omvangrijke advies (47k chars, 44 headings). De drie gevonden tekstuele afwijkingen zijn source-typo's: 'effectenverordening' (2x) en 'mogeljkheid' zijn schrijffouten die al in de gepubliceerde HTML-brontekst staan; '16.13.199n' is eveneens een typefout in het originele document. Geen ETL-artefacten (A-G) gevonden die reparatie vereisen."
       concrete_problemen:
-        - regel: 237
-          categorie: (source)
+        - categorie: (source)
+          regel: 237
           type: source-typo
           voorbeeld: Geleende vastrentende effecten A, "effectenverordening" (ipv effectenvordering)
-        - regel: 304
-          categorie: (source)
+        - categorie: (source)
+          regel: 304
           type: source-typo
           voorbeeld: Geleende vastrentende effecten A, effectenverordening (tweede voorkomen)
-        - regel: 338
-          categorie: (source)
+        - categorie: (source)
+          regel: 338
           type: source-typo
           voorbeeld: 'Op 16.13.199n (onmogelijke datum: maand 13)'
-        - regel: 592
-          categorie: (source)
+        - categorie: (source)
+          regel: 592
           type: source-typo
           voorbeeld: '"mogeljkheid" (ipv mogelijkheid)'
+      rationale: 'Structuur en tabellen zijn overwegend correct voor dit omvangrijke advies (47k chars, 44 headings). De drie gevonden tekstuele afwijkingen zijn source-typo''s: ''effectenverordening'' (2x) en ''mogeljkheid'' zijn schrijffouten die al in de gepubliceerde HTML-brontekst staan; ''16.13.199n'' is eveneens een typefout in het originele document. Geen ETL-artefacten (A-G) gevonden die reparatie vereisen.'
+      run_at: '2026-05-11T17:51:53Z'
+      status: trusted
+    rationale: 'Structuur en tabellen zijn overwegend correct voor dit omvangrijke advies (47k chars, 44 headings). De drie gevonden tekstuele afwijkingen zijn source-typo''s: ''effectenverordening'' (2x) en ''mogeljkheid'' zijn schrijffouten die al in de gepubliceerde HTML-brontekst staan; ''16.13.199n'' is eveneens een typefout in het originele document. Geen ETL-artefacten (A-G) gevonden die reparatie vereisen.'
+    status: trusted
 themas:
   - coupon
   - effecten

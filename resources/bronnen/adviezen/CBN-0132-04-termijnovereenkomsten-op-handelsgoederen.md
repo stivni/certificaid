@@ -3,7 +3,7 @@ bron: https://www.cbn-cnc.be/nl/adviezen/termijnovereenkomsten-op-handelsgoedere
 datum: 1988-06-01
 nummer: CBN-advies 132/4
 provenance:
-  generated_at: '2026-05-11T17:48:38Z'
+  generated_at: '2026-05-11T19:17:25Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/termijnovereenkomsten-op-handelsgoederen
       sha256: fba281e0eaf4069ff985457ce4e9bcd65ae43e05810f2cb55639e7daa3afe6f7
@@ -20,11 +20,11 @@ provenance:
     confirmed_by: subagent-sonnet-4-6
     layer1:
       status: pass
-      run_id: 20260511-174840
-      run_at: '2026-05-11T17:48:41Z'
+      run_id: 20260511-191727
+      run_at: '2026-05-11T19:17:28Z'
       heading_count: 8
-      max_section_chars: 4051
-      file_size_chars: 12166
+      max_section_chars: 9069
+      file_size_chars: 12171
       flags: []
     layer2:
       agent: subagent-sonnet-4-6
@@ -65,7 +65,7 @@ themas:
 
 # CBN-advies 132/4 - Termijnovereenkomsten op handelsgoederen
 
-## Beginselen
+### Beginselen
 1. Handelsgoederen in voorraad worden krachtens artikel 27, § 1 van het koninklijk besluit van 8 oktober 1976 met betrekking tot de jaarrekening van de ondernemingen, gewaardeerd tegen aanschaffingswaarde of tegen de marktwaarde op balansdatum als die lager is. 
 
 2. Krachtens artikel 19, 3de lid van het koninklijk besluit van 8 oktober 1976 moet rekening worden gehouden met alle voorzienbare risico's, mogelijke verliezen en ontwaardingen ontstaan tijdens het boekjaar waarop de jaarrekening betrekking heeft. 
@@ -76,8 +76,8 @@ Artikel 19, 5de lid van dit besluit bepaalt : «Voorzieningen moeten, onder meer
 2. ... 
 3. de verlies- of kostenrisico's die voortvloeien uit ... termijnposities of -overeenkomsten op goederen». 
 
-## Niet gedekte verrichtingen op termijn
-### Aankoopverrichtingen
+### Niet gedekte verrichtingen op termijn
+#### Aankoopverrichtingen
 Ten aanzien van het prijsrisico, maakt het voor een onderneming geen verschil uit of zij goederen op termijn heeft gekocht dan wel in voorraad heeft. Inderdaad, wanneer een onderneming goederen op termijn heeft gekocht en daarna de marktwaarde daalt, dan is het potentieel verlies op deze verrichting hetzelfde als indien deze goederen in voorraad waren. 
 
 Zolang de op termijn gekochte goederen niet zijn geleverd, worden zij niet op de balans onder de activa geboekt, maar in de *Niet in de balans opgenomen rechten en verplichtingen*, met name op rekening 060 van het algemeen rekeningenstelsel. Hieruit volgt dat deze «minderwaarde» op termijn gekochte goederen niet ten laste kan worden genomen door toepassing van het beginsel van de waardering in de balans tegen lagere marktwaarde; zulks moet gebeuren via de vorming van een voorziening voor risico's en kosten (cf. artikelen 13 en 19, 5de lid van het besluit van 8 oktober 1976). 
@@ -93,7 +93,7 @@ Hieruit volgen twee conclusies :
 
 Indien op balansdatum de marktprijs hoger is dan de in de termijnaankoopovereenkomst bedongen prijs, is er een latente winst die echter niet gerealiseerd is en die derhalve niet voor in-resultaat- neming vatbaar is. 
 
-### Verkoopverrichtingen
+#### Verkoopverrichtingen
 Wanneer een onderneming goederen op termijn heeft verkocht die zij niet in voorraad heeft noch op termijn heeft gekocht, dan heeft zij een baissepositie. Dit betekent dat zij een daling van de prijzen verwacht en goederen heeft verkocht met de hoop om op een later tijdstip de te leveren goederen goedkoper te kunnen aankopen. 
 
 Het risico is hier dat de prijs van de goederen stijgt en dat de onderneming de koopwaren duurder moet kopen dan de prijs bedongen in de termijnverkoopovereenkomst. 
@@ -104,7 +104,7 @@ Zoals hierboven gezegd is in casu de algemene regeling inzake voorzieningen van 
 
 Indien op balansdatum de marktprijs lager is dan de in de termijnverkoopovereenkomst bedongen prijs, is er een latente winst die echter niet gerealiseerd is en die derhalve niet voor in-resultaat- neming vatbaar is. 
 
-## Gedekte verrichtingen
+### Gedekte verrichtingen
 Als op een bepaald ogenblik een onderneming goederen in voorraad heeft dan wel op termijn heeft gekocht en tegelijkertijd soortgelijke goederen contant dan wel op termijn verkoopt, dan is het hieraan verbonden prijs- risico gedekt ten belope van het kleinste van de twee betrokken hoeveelheden. 
 
 ## Voorbeelden

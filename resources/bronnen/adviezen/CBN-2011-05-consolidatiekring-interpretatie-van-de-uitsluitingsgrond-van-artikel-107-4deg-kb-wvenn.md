@@ -16,41 +16,41 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/verrichtingen-met-betrekking-tot-inschrijvingsrechten
 nummer: CBN-advies 2011/5
 provenance:
+  generated_at: '2026-05-11T19:17:26Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/consolidatiekring-interpretatie-van-de-uitsluitingsgrond-van-artikel-107-4deg-kb-wvenn
       sha256: 19ae099a4947ba1cd38dcf0fb2668319275361ee3938d1510602b6969f3f99af
       version:
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T17:48:39Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
-    status: needs-rework
     confirmed_at: '2026-05-11T17:51:53Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "B5: regel 94 bevat de sub-sectie-titel 'Aandelen die krachtens een beslissing van de vennootschap bestemd zijn om binnen het jaar te worden vervreemd' als plain-text alinea zonder heading-prefix, terwijl de vorige sub-sectie op regel 87 wel als ### heading staat ('### Aandelen waarop is ingeschreven met het oog op wederafstand ervan'). Dit is een gemiste heading in de extractie — het document heeft structureel twee parallelle sub-secties."
     layer1:
       status: pass
-      run_id: 20260511-174840
-      run_at: '2026-05-11T17:48:42Z'
+      run_id: 20260511-191727
+      run_at: '2026-05-11T19:17:30Z'
       heading_count: 4
       max_section_chars: 3635
       file_size_chars: 5702
       flags: []
     layer2:
-      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T17:51:53Z'
-      rationale: "B5: regel 94 bevat de sub-sectie-titel 'Aandelen die krachtens een beslissing van de vennootschap bestemd zijn om binnen het jaar te worden vervreemd' als plain-text alinea zonder heading-prefix, terwijl de vorige sub-sectie op regel 87 wel als ### heading staat ('### Aandelen waarop is ingeschreven met het oog op wederafstand ervan'). Dit is een gemiste heading in de extractie — het document heeft structureel twee parallelle sub-secties."
       concrete_problemen:
-        - regel: 94
-          categorie: B5
+        - categorie: B5
+          regel: 94
           type: other
           voorbeeld: Aandelen die krachtens een beslissing van de vennootschap bestemd zijn om binnen het jaar te worden vervreemd
+      rationale: 'B5: regel 94 bevat de sub-sectie-titel ''Aandelen die krachtens een beslissing van de vennootschap bestemd zijn om binnen het jaar te worden vervreemd'' als plain-text alinea zonder heading-prefix, terwijl de vorige sub-sectie op regel 87 wel als ### heading staat (''### Aandelen waarop is ingeschreven met het oog op wederafstand ervan''). Dit is een gemiste heading in de extractie — het document heeft structureel twee parallelle sub-secties.'
+      run_at: '2026-05-11T17:51:53Z'
+      status: needs-rework
+    rationale: 'B5: regel 94 bevat de sub-sectie-titel ''Aandelen die krachtens een beslissing van de vennootschap bestemd zijn om binnen het jaar te worden vervreemd'' als plain-text alinea zonder heading-prefix, terwijl de vorige sub-sectie op regel 87 wel als ### heading staat (''### Aandelen waarop is ingeschreven met het oog op wederafstand ervan''). Dit is een gemiste heading in de extractie — het document heeft structureel twee parallelle sub-secties.'
+    status: needs-rework
 themas:
   - aandelen
   - aandelen uitsluitend gehouden met het oog op latere vervreemding

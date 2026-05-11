@@ -10,37 +10,37 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/groottecriteria-verenigingen-en-stichtingen-schema-van-de-jaarrekening-begroting
 nummer: CBN-advies 2017/08
 provenance:
+  generated_at: '2026-05-11T19:17:26Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/cijfers-van-het-vorig-boekjaar-bij-opmaak-jaarrekening-volgens-nieuw-model
       sha256: aa0dbd637f6bd1d94798fa80f37ddfbbfe3c609ad14a91465da7f47257dc3f56
       version:
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T17:48:39Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
-    status: trusted
     confirmed_at: '2026-05-11T17:51:53Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: 'Kort advies (4k chars, 2 headings). Volledig schoon: inleiding en kern correct gestructureerd. Voetnoten [^1]–[^6] aanwezig en verankerd. Geen ETL-artefacten.'
     layer1:
       status: pass
-      run_id: 20260511-174840
-      run_at: '2026-05-11T17:48:44Z'
+      run_id: 20260511-191727
+      run_at: '2026-05-11T19:17:31Z'
       heading_count: 2
       max_section_chars: 2046
       file_size_chars: 4080
       flags: []
     layer2:
-      status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T17:51:53Z'
-      rationale: 'Kort advies (4k chars, 2 headings). Volledig schoon: inleiding en kern correct gestructureerd. Voetnoten [^1]–[^6] aanwezig en verankerd. Geen ETL-artefacten.'
       concrete_problemen: []
+      rationale: 'Kort advies (4k chars, 2 headings). Volledig schoon: inleiding en kern correct gestructureerd. Voetnoten [^1]–[^6] aanwezig en verankerd. Geen ETL-artefacten.'
+      run_at: '2026-05-11T17:51:53Z'
+      status: trusted
+    rationale: 'Kort advies (4k chars, 2 headings). Volledig schoon: inleiding en kern correct gestructureerd. Voetnoten [^1]–[^6] aanwezig en verankerd. Geen ETL-artefacten.'
+    status: trusted
 themas:
   - consistentiebeginsel
   - vergelijkende cijfers

@@ -3,7 +3,7 @@ bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-afvalsto
 datum: 1995-03-01
 nummer: CBN-advies 171
 provenance:
-  generated_at: '2026-05-11T17:48:38Z'
+  generated_at: '2026-05-11T19:17:26Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-afvalstoffen
       sha256: ef019e5fa8d5ff93cfeecf2422b2fa22e0858ffe7d0bbce9d35b95e64f9dcf00
@@ -20,11 +20,11 @@ provenance:
     confirmed_by: subagent-sonnet-4-6
     layer1:
       status: pass
-      run_id: 20260511-174840
-      run_at: '2026-05-11T17:48:42Z'
-      heading_count: 5
-      max_section_chars: 4534
-      file_size_chars: 12002
+      run_id: 20260511-191727
+      run_at: '2026-05-11T19:17:29Z'
+      heading_count: 6
+      max_section_chars: 10337
+      file_size_chars: 12010
       flags: []
     layer2:
       agent: subagent-sonnet-4-6
@@ -65,12 +65,12 @@ Dit advies slaat echter niet op de waardering van de voorzieningen die de ondern
 Dit advies zal achtereenvolgens aandacht besteden aan de ondernemingen die afvalstoffen "produceren", de ondernemingen die diensten verstrekken op het vlak van de ophaling of de verwerking van afvalstoffen en, ten slotte, de ondernemingen waarvan de exploitatie een terrein aantast of vervuilt. 
 
 ## Ondernemingen die afvalstoffen "produceren"
-De onderneming verwerkt haar afvalstoffen niet zelf, maar belast een derde met de ophaling ervan
+##### De onderneming verwerkt haar afvalstoffen niet zelf, maar belast een derde met de ophaling ervan
 Voor die onderneming is de ophaling van haar afvalstoffen door een derde een dienst die haar wordt verleend, waarvan de kost als bedrijfskost onder *Diensten en diverse goederen* (rekening 61) moet worden geboekt.
 
 Voor de afvalstoffen die, aan het einde van de boekhoudperiode, nog niet zouden zijn opgehaald, zal een voorziening moeten worden gevormd om de ophalingskosten te dekken. 
 
-### De onderneming verwerkt zelf haar afvalstoffen
+##### De onderneming verwerkt zelf haar afvalstoffen
     Voor die onderneming vormt de kost voor de afvalverwerking een bedrijfskost die wordt geboekt in de verschillende rekeningen van kosten naar hun aard. 
 
    Voor de afvalstoffen die, aan het einde van de boekhoudperiode, nog niet zouden zijn verwerkt, zal een voorziening moeten worden gevormd om de verwerkingskosten te dekken. 

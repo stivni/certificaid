@@ -220,25 +220,35 @@ positief schaadt RAG-precisie meer dan een fout negatief.
 ## Belangrijke uitzondering — source-document fouten
 
 **Typefouten en fouten die letterlijk in het bron-document (HTML, PDF)
-voorkomen zijn GEEN reden voor `needs-rework`.** Voorbeelden:
+voorkomen zijn GEEN reden voor `needs-rework`** — ongeacht of ze in
+headings of in body-tekst staan. Voorbeelden:
 
-- Typo "vervandag" op de CBN-website → de scraper neemt dat correct over;
-  het zit in de officiële bron-tekst.
+- Typo "vervandag" op de CBN-website → de scraper neemt dat correct over.
 - Spelfout "Belgiëë" in een ITAA-norm-PDF → fout in originele PDF.
+- OCR-confusion "Kreditinstellingen" / "Oordpronkelijke" / "AAankopen" in body
+  → scraper neemt het correct over uit de bron (de bron-PDF heeft de OCR-fout).
 - Verkeerde datum of referentie in oorspronkelijke wettekst.
 - Inconsistente nummering in de gepubliceerde norm.
 
-Als je een fout vermoedt die in de bron zelf zit (i.e. een mens die de
-PDF/HTML zou openen zou diezelfde fout zien), markeer dat in
-`concrete_problemen` met `type: source-typo` en `categorie: "(source)"`,
-maar **dat alleen telt niet als grond voor `needs-rework`**. Status
-blijft `trusted` tenzij er ÓÓK ETL-artefacten (categorieën A-G) zijn.
+Markeer in `concrete_problemen` met `type: source-typo` en
+`categorie: "(source)"`, maar dat alleen telt **niet** als grond voor
+`needs-rework`. Status blijft `trusted` tenzij er ÓÓK ETL-artefacten
+(categorieën A-G) zijn die WEL door de ETL zijn geïntroduceerd.
 
 ETL-bug vs source-fout onderscheiden:
-- Letterlijke woordfouten, verkeerde datums, foute nummering → source
-- Scrambled volgorde, kolom-bleed, OCR-confusion (l↔I), HTML-entities,
-  ontbrekende headings die er WEL hadden moeten zijn op basis van
-  document-structuur → ETL
+- Letterlijke woordfouten in body, verkeerde datums, foute nummering,
+  OCR-typos die ook in de PDF zelf staan → source (geen needs-rework)
+- Scrambled volgorde, kolom-bleed, ontbrekende headings die er WEL
+  hadden moeten zijn op basis van document-structuur, HTML-entities die
+  in YAML-frontmatter blijven, footnote-markers binnen heading-tekst,
+  multi-line tabel-cellen → ETL (wel needs-rework)
+
+## Speciale uitzonderingen op de heading-check
+
+- **Korte adviezen (< 2000 chars body)**: het is normaal dat een kort
+  advies (1-2 paragrafen) GEEN `##`-headings heeft. Flagging "B1 nul
+  headings" voor zulke korte bronnen is een false positive — markeer
+  hoogstens als minor en blijf `trusted` als verder schoon.
 
 # Output-formaat
 

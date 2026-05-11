@@ -3,7 +3,7 @@ bron: https://www.cbn-cnc.be/nl/adviezen/overeenkomsten-waarin-gespreide-of-opee
 datum: 1984-10-01
 nummer: CBN-advies 148/1
 provenance:
-  generated_at: '2026-05-11T17:48:38Z'
+  generated_at: '2026-05-11T19:17:25Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/overeenkomsten-waarin-gespreide-of-opeenvolgende-prestaties-worden-voorzien
       sha256: c010bda2afe42e6eeff2a45fd07e56fd1d50f6cdcfb556cd4dec47b8be9ef48e
@@ -20,8 +20,8 @@ provenance:
     confirmed_by: subagent-sonnet-4-6
     layer1:
       status: pass
-      run_id: 20260511-174840
-      run_at: '2026-05-11T17:48:41Z'
+      run_id: 20260511-191727
+      run_at: '2026-05-11T19:17:29Z'
       heading_count: 0
       max_section_chars: 3798
       file_size_chars: 3798

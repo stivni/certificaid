@@ -3,7 +3,7 @@ bron: https://www.cbn-cnc.be/nl/adviezen/belastingkrediet-voor-kosten-van-onderz
 datum: 2018-03-21
 nummer: CBN-advies 2018/02
 provenance:
-  generated_at: '2026-05-11T17:48:39Z'
+  generated_at: '2026-05-11T19:17:26Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/belastingkrediet-voor-kosten-van-onderzoek-en-ontwikkeling
       sha256: 03181e2a0d186a99b17dcc95fb7356e567d8df51b94f9e4f9f905c617969f555
@@ -20,11 +20,11 @@ provenance:
     confirmed_by: subagent-sonnet-4-6
     layer1:
       status: pass
-      run_id: 20260511-174840
-      run_at: '2026-05-11T17:48:44Z'
+      run_id: 20260511-191727
+      run_at: '2026-05-11T19:17:31Z'
       heading_count: 13
       max_section_chars: 5210
-      file_size_chars: 12879
+      file_size_chars: 12876
       flags: []
     layer2:
       agent: subagent-sonnet-4-6
@@ -123,8 +123,7 @@ Op het ogenblik van de investering die recht geeft op het belastingkrediet wordt
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 412 | Terug te vorderen belastingen en voorheffingen | 5.000 | |
-| aan | 67/77 | Belastingen op het resultaat/Regularisering van
-			belastingen en terugneming van fiscale voorzieningen | | 5.000 |
+| aan | 67/77 | Belastingen op het resultaat/Regularisering van belastingen en terugneming van fiscale voorzieningen | | 5.000 |
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|

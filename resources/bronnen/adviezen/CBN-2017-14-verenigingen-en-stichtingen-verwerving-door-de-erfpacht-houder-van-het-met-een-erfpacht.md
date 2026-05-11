@@ -16,7 +16,7 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-erfpachtcontracten-in-not-for-profit-organisaties
 nummer: CBN-advies 2017/14
 provenance:
-  generated_at: '2026-05-11T17:48:39Z'
+  generated_at: '2026-05-11T19:17:26Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/verenigingen-en-stichtingen-verwerving-door-de-erfpacht-houder-van-het-met-een-erfpacht
       sha256: 5cbd681fd8472fc6e422e3e7abbf6654d621e4aa16abd64891dfe87a8c086955
@@ -33,11 +33,11 @@ provenance:
     confirmed_by: subagent-sonnet-4-6
     layer1:
       status: pass
-      run_id: 20260511-174840
-      run_at: '2026-05-11T17:48:44Z'
+      run_id: 20260511-191727
+      run_at: '2026-05-11T19:17:31Z'
       heading_count: 17
-      max_section_chars: 12031
-      file_size_chars: 19371
+      max_section_chars: 12030
+      file_size_chars: 19370
       flags: []
     layer2:
       agent: subagent-sonnet-4-6
@@ -150,8 +150,7 @@ Een vzw heeft destijds een erfpacht op een terrein verworven tegen een symbolisc
 ## Boeking bij de verwerving van de tréfonds
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-| | 2201 | Terreinen die volle eigendom
- zijn van de vereniging | 100 | |
+| | 2201 | Terreinen die volle eigendom zijn van de vereniging | 100 | |
 | aan | 5500 | Kredietinstellingen: rekening-courant | | 5 |
 |---|---|---|---|---|
 | | 1012 | Permanente financiering ontvangen in natura | 95 | |

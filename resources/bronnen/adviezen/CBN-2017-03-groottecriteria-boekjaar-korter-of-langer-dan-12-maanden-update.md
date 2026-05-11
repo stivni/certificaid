@@ -16,37 +16,37 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/verslaggeving-bij-ontbinding-en-vereffening-van-bv-cv-nv-se-en-sce
 nummer: CBN-advies 2017/03
 provenance:
+  generated_at: '2026-05-11T19:17:26Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/groottecriteria-boekjaar-korter-of-langer-dan-12-maanden-update
       sha256: 7246b24275436240f8e58897b25965ca4740deb95dfb50770445841f85806bff
       version:
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T17:48:39Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
-    status: trusted
     confirmed_at: '2026-05-11T17:51:53Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: 'Zeer kort advies (2.5k chars, 3 headings). Volledig schoon: vraag, antwoord en voorbeelden helder gestructureerd. Voetnoten [^1]–[^3] correct. Geen artefacten.'
     layer1:
       status: pass
-      run_id: 20260511-174840
-      run_at: '2026-05-11T17:48:44Z'
+      run_id: 20260511-191727
+      run_at: '2026-05-11T19:17:31Z'
       heading_count: 3
       max_section_chars: 862
       file_size_chars: 2561
       flags: []
     layer2:
-      status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T17:51:53Z'
-      rationale: 'Zeer kort advies (2.5k chars, 3 headings). Volledig schoon: vraag, antwoord en voorbeelden helder gestructureerd. Voetnoten [^1]–[^3] correct. Geen artefacten.'
       concrete_problemen: []
+      rationale: 'Zeer kort advies (2.5k chars, 3 headings). Volledig schoon: vraag, antwoord en voorbeelden helder gestructureerd. Voetnoten [^1]–[^3] correct. Geen artefacten.'
+      run_at: '2026-05-11T17:51:53Z'
+      status: trusted
+    rationale: 'Zeer kort advies (2.5k chars, 3 headings). Volledig schoon: vraag, antwoord en voorbeelden helder gestructureerd. Voetnoten [^1]–[^3] correct. Geen artefacten.'
+    status: trusted
 themas:
   - boekjaar
   - criteria

@@ -3,7 +3,7 @@ bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-crowdfun
 datum: 2019-07-31
 nummer: CBN-advies 2019/08
 provenance:
-  generated_at: '2026-05-11T17:48:39Z'
+  generated_at: '2026-05-11T19:17:26Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-crowdfunding-0
       sha256: 0619330477c4da91affa08f9ceff354dc4e9271cd86cf439ef6f1cc76ec4454e
@@ -20,11 +20,11 @@ provenance:
     confirmed_by: subagent-sonnet-4-6
     layer1:
       status: pass
-      run_id: 20260511-174840
-      run_at: '2026-05-11T17:48:44Z'
+      run_id: 20260511-191727
+      run_at: '2026-05-11T19:17:32Z'
       heading_count: 24
-      max_section_chars: 9167
-      file_size_chars: 30388
+      max_section_chars: 18795
+      file_size_chars: 30391
       flags: []
     layer2:
       agent: subagent-sonnet-4-6
@@ -421,7 +421,7 @@ De aldus ingezamelde gelden dienen in de jaarrekening als kapitaal (met of zonde
 
 Het onderstaande voorbeeld betreft een kapitaalvennootschap. In het geval van een kapitaalloze vennootschap moeten de rekeningen 110 en 111 Beschikbare/onbeschikbare inbreng buiten kapitaal worden gebruikt in plaats van rekening 100 Geplaatst kapitaal.
 
-#### Uitgifte van aandelen a pari
+##### Uitgifte van aandelen a pari
 *Volstorting* 
 In hoofde van de begunstigde
 
@@ -454,7 +454,7 @@ In hoofde van de investeerder
 | aan | 511 | Aandelen – Niet-opgevraagde bedragen | | 4.000 |
 | | 5500 | Kredietinstellingen – Rekening-courant | 6.000 | |
 
-#### Uitgifte van aandelen boven pari
+##### Uitgifte van aandelen boven pari
 *Volstorting* 
 In hoofde van de begunstigde
 
@@ -489,7 +489,7 @@ In hoofde van de investeerder
 | aan | 511 | Aandelen – Niet-opgevraagde kapitalen | | 4.000 |
 | | 5500 | Kredietinstellingen – Rekening-courant | 7.000 | |
 
-#### Uitgifte van obligaties
+##### Uitgifte van obligaties
 In hoofde van de begunstigde
 
 | | Rekening | Omschrijving | Debet | Credit |

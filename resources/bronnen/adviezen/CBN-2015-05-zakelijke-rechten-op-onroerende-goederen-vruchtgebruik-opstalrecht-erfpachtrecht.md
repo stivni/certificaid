@@ -3,45 +3,45 @@ bron: https://www.cbn-cnc.be/nl/adviezen/zakelijke-rechten-op-onroerende-goedere
 datum: 2015-07-08
 nummer: CBN-advies 2015/5
 provenance:
+  generated_at: '2026-05-11T19:17:26Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/zakelijke-rechten-op-onroerende-goederen-vruchtgebruik-opstalrecht-erfpachtrecht
       sha256: e42d98ea9631d91fa32198a5fc40f1dba0e70b80b63a615042de95c134542e01
       version:
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T17:48:39Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 11f9196
+    prompt_version:
   trust:
-    status: needs-rework
     confirmed_at: '2026-05-11T17:51:53Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "G1: regel 706 bevat 'www.cass.be' als kale URL zonder markdown-link in een voetnoot. B5: regel 442 ('Overdracht en einde van het vruchtgebruik vóór het verstrijken van de initieel voorziene duur') staat als gewone alineatekst terwijl het een subsectie-heading had moeten zijn op grond van de documentstructuur. Overige inhoud is inhoudelijk correct en compleet."
     layer1:
       status: pass
-      run_id: 20260511-174840
-      run_at: '2026-05-11T17:48:43Z'
+      run_id: 20260511-191727
+      run_at: '2026-05-11T19:17:31Z'
       heading_count: 40
       max_section_chars: 15183
-      file_size_chars: 75463
+      file_size_chars: 75464
       flags: []
     layer2:
-      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T17:51:53Z'
-      rationale: "G1: regel 706 bevat 'www.cass.be' als kale URL zonder markdown-link in een voetnoot. B5: regel 442 ('Overdracht en einde van het vruchtgebruik vóór het verstrijken van de initieel voorziene duur') staat als gewone alineatekst terwijl het een subsectie-heading had moeten zijn op grond van de documentstructuur. Overige inhoud is inhoudelijk correct en compleet."
       concrete_problemen:
-        - regel: 706
-          categorie: G1
+        - categorie: G1
+          regel: 706
           type: url-plaintext
           voorbeeld: '[^41]: www.cass.be'
-        - regel: 442
-          categorie: B5
+        - categorie: B5
+          regel: 442
           type: other
           voorbeeld: Overdracht en einde van het vruchtgebruik vóór het verstrijken van de initieel voorziene duur
+      rationale: 'G1: regel 706 bevat ''www.cass.be'' als kale URL zonder markdown-link in een voetnoot. B5: regel 442 (''Overdracht en einde van het vruchtgebruik vóór het verstrijken van de initieel voorziene duur'') staat als gewone alineatekst terwijl het een subsectie-heading had moeten zijn op grond van de documentstructuur. Overige inhoud is inhoudelijk correct en compleet.'
+      run_at: '2026-05-11T17:51:53Z'
+      status: needs-rework
+    rationale: 'G1: regel 706 bevat ''www.cass.be'' als kale URL zonder markdown-link in een voetnoot. B5: regel 442 (''Overdracht en einde van het vruchtgebruik vóór het verstrijken van de initieel voorziene duur'') staat als gewone alineatekst terwijl het een subsectie-heading had moeten zijn op grond van de documentstructuur. Overige inhoud is inhoudelijk correct en compleet.'
+    status: needs-rework
 themas:
   - blote eigendom
   - bouwwerken op andermans eigendom
@@ -226,7 +226,7 @@ In het KB W.Venn. worden de beginselen die ten grondslag liggen aan de waarderin
 
 Wanneer de blote eigendom van een onroerend goed wordt verworven moet een onderscheid worden gemaakt tussen het geval waarin de vruchtgebruiker periodieke vergoedingen verschuldigd is aan de blote eigenaar en het geval waarin geen periodieke vergoedingen verschuldigd zijn.
 
-#### Vruchtgebruiker betaalt geen vergoedingen
+##### Vruchtgebruiker betaalt geen vergoedingen
 Wanneer een onderneming de blote eigendom van een onroerend goed verwerft zonder dat deze onderneming recht heeft op vergoedingen van de vruchtgebruiker, is volgens de Commissie de onderstaande boekhoudkundige verwerking van toepassing. Een vaak voorkomend geval is de gesplitste aankoop waarbij een derde een onroerend goed verkoopt en de kopende partijen hun aankoop uitsplitsen in een aankoop van het vruchtgebruik enerzijds, en een aankoop van de blote eigendom anderzijds. In dergelijk geval zal de blote eigenaar tijdens de duur van het vruchtgebruik meestal geen recht hebben op vergoedingen van de vruchtgebruiker. 
 
 *Boekingen bij de verwerving van de blote eigendom*

@@ -7,7 +7,7 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/actuarieel-rendement-op-vastrentende-effecten-aanpassing-van-de-adviezen-1375-en-1484
 nummer: CBN-advies 148/4
 provenance:
-  generated_at: '2026-05-11T17:48:38Z'
+  generated_at: '2026-05-11T19:17:25Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/boeking-van-de-prorata-van-gelopen-interest-op-obligaties-en-kasbons
       sha256: 271cb09439663de1bf18f686e3ae538c62fcc7f80f360d78bad5764e2d849ceb
@@ -24,11 +24,11 @@ provenance:
     confirmed_by: subagent-sonnet-4-6
     layer1:
       status: pass
-      run_id: 20260511-174840
-      run_at: '2026-05-11T17:48:41Z'
+      run_id: 20260511-191727
+      run_at: '2026-05-11T19:17:29Z'
       heading_count: 5
-      max_section_chars: 4644
-      file_size_chars: 11414
+      max_section_chars: 6724
+      file_size_chars: 11418
       flags: []
     layer2:
       agent: subagent-sonnet-4-6
@@ -75,7 +75,7 @@ Krachtens de boekhoudwetgeving moeten de kosten en opbrengsten steeds worden toe
 
 Dit beginsel krijgt in het algemeen rekeningenstelsel gestalte met volgende overlopende rekeningen : 
 
-## 490 Over te dragen kosten
+### 490 Over te dragen kosten
 491 Verkregen opbrengsten 
 
 492 Toe te rekenen kosten 
@@ -183,7 +183,7 @@ Hypothese : Een kapitalisatiebon wordt uitgegeven en er wordt aanvankelijk op in
 
 Op grond hiervan wordt de prorata van de gekapitaliseerde rente op :
 
-## 31.12.1987 : 80 000
+### 31.12.1987 : 80 000
 31.12.1988 : 166 400 
 
 1.12.1989 : 259 700 
@@ -194,7 +194,7 @@ Op grond hiervan wordt de prorata van de gekapitaliseerde rente op :
 
 De kapitalisatiebon wordt op 31 december 1989 aan een andere vennootschap overgedragen voor een totaalprijs van 1 205 000 F. 
 
-## BOEKINGEN BIJ DE OORSPRONKELIJKE INSCHRIJVER
+### BOEKINGEN BIJ DE OORSPRONKELIJKE INSCHRIJVER
 1. Bij de verwerving 
 
 | | Rekening | Omschrijving | Debet | Credit |
@@ -230,7 +230,7 @@ De kapitalisatiebon wordt op 31 december 1989 aan een andere vennootschap overge
 | | 491 | Verkregen opbrengsten | 259.700 | |
 | | 752 | Meerwaarden op de realisatie van vlottende activa | 10.225 | |
 
-## BOEKINGEN BIJ DE KOPER
+### BOEKINGEN BIJ DE KOPER
 1. Bij de verwerving :
 
 | | Rekening | Omschrijving | Debet | Credit |

@@ -7,7 +7,7 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/actualisering-van-vorderingen-en-schulden-op-korte-termijn-update
 nummer: CBN-advies 137/4
 provenance:
-  generated_at: '2026-05-11T17:48:38Z'
+  generated_at: '2026-05-11T19:17:25Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/renteloze-vorderingen-schulden-en-vorderingen-schulden-met-een-abnormaal-lage-rente-op
       sha256: 83a65bba87ad55a209a297397675381773d2a0fa8645a76b1147c23efa2f0782
@@ -24,11 +24,11 @@ provenance:
     confirmed_by: subagent-sonnet-4-6
     layer1:
       status: pass
-      run_id: 20260511-174840
-      run_at: '2026-05-11T17:48:41Z'
+      run_id: 20260511-191727
+      run_at: '2026-05-11T19:17:29Z'
       heading_count: 12
-      max_section_chars: 2534
-      file_size_chars: 8348
+      max_section_chars: 7693
+      file_size_chars: 8351
       flags: []
     layer2:
       agent: subagent-sonnet-4-6
@@ -151,7 +151,7 @@ Een vordering van 100 000 BEF, verkregen op 30 september 1985 tegen een interest
 
 De interest wordt jaarlijks op 31 december geïnd, te beginnen vanaf 1986. De marktrente bedraagt 9 %.
 
-### Vaststelling van de actuele waarde en van het disconto
+#### Vaststelling van de actuele waarde en van het disconto
 ### Actuele waarde van de kasstromen
 *- Op 31 december 1985*
 
@@ -164,12 +164,12 @@ De interest wordt jaarlijks op 31 december geïnd, te beginnen vanaf 1986. De ma
 ### Disconto op 30 september 1985
 100 000 (nominale waarde) - 86 931 (actuele waarde) = 13 069 
 
-### Evolutie van de actuele waarde en van het disconto
+#### Evolutie van de actuele waarde en van het disconto
 (1) (32.400 x 0,9174) + (51.500 x 0,8416)
 
 (2) (51.500 x 0,9174)
 
-### Boekingen
+#### Boekingen
 (1) 3 750 (interest) + 4 243 (vermindering van het disconto). 
 
 (2) 2 400 (interest) + 4 180 (vermindering van het disconto). 

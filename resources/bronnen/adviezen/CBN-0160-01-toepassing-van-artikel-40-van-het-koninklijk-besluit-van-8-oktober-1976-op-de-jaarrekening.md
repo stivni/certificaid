@@ -3,7 +3,7 @@ bron: https://www.cbn-cnc.be/nl/adviezen/toepassing-van-artikel-40-van-het-konin
 datum: 1990-06-01
 nummer: CBN-advies 160/1
 provenance:
-  generated_at: '2026-05-11T17:48:38Z'
+  generated_at: '2026-05-11T19:17:25Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/toepassing-van-artikel-40-van-het-koninklijk-besluit-van-8-oktober-1976-op-de-jaarrekening
       sha256: fb1a7021e967635895c9d63ac483f514e73f7b784a0799efbf1c74354591140d
@@ -20,8 +20,8 @@ provenance:
     confirmed_by: subagent-laag2-ronde2
     layer1:
       status: pass
-      run_id: 20260511-174840
-      run_at: '2026-05-11T17:48:42Z'
+      run_id: 20260511-191727
+      run_at: '2026-05-11T19:17:29Z'
       heading_count: 0
       max_section_chars: 6300
       file_size_chars: 6300

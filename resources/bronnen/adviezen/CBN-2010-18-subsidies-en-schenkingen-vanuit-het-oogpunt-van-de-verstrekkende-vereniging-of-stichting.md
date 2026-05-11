@@ -3,7 +3,7 @@ bron: https://www.cbn-cnc.be/nl/adviezen/subsidies-en-schenkingen-vanuit-het-oog
 datum: 2010-11-10
 nummer: CBN-advies 2010/18
 provenance:
-  generated_at: '2026-05-11T17:48:39Z'
+  generated_at: '2026-05-11T19:17:26Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/subsidies-en-schenkingen-vanuit-het-oogpunt-van-de-verstrekkende-vereniging-of-stichting
       sha256: c7b39235700056bc5c9e144ded0d7577e9a7c51b767eb849ff0fc187fb8e6cb7
@@ -20,8 +20,8 @@ provenance:
     confirmed_by: subagent-sonnet-4-6
     layer1:
       status: pass
-      run_id: 20260511-174840
-      run_at: '2026-05-11T17:48:42Z'
+      run_id: 20260511-191727
+      run_at: '2026-05-11T19:17:30Z'
       heading_count: 13
       max_section_chars: 3833
       file_size_chars: 6881

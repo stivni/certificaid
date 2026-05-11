@@ -7,7 +7,7 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/verwerking-van-uitgegeven-inschrijvingsrechten-in-de-jaarrekening
 nummer: CBN-advies 139/8
 provenance:
-  generated_at: '2026-05-11T17:48:38Z'
+  generated_at: '2026-05-11T19:17:25Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/uitgifte-van-obligaties-met-inschrijvingsrechten-die-in-aandelen-converteerbaar-of
       sha256: 71f2fc6846b0a42b29c0df5f6db38b2e372ff7c0647f3636876c31b454bb11a9
@@ -24,11 +24,11 @@ provenance:
     confirmed_by: subagent-sonnet-4-6
     layer1:
       status: pass
-      run_id: 20260511-174840
-      run_at: '2026-05-11T17:48:41Z'
-      heading_count: 8
-      max_section_chars: 12280
-      file_size_chars: 22061
+      run_id: 20260511-191727
+      run_at: '2026-05-11T19:17:29Z'
+      heading_count: 10
+      max_section_chars: 11087
+      file_size_chars: 22073
       flags: []
     layer2:
       agent: subagent-sonnet-4-6
@@ -173,10 +173,10 @@ Er moet worden onderstreept dat de voornoemde 84.248 verder in post 11 «Uitgift
 Onverminderd de fiscale verwerking die voortvloeit uit de door de betrokken onderneming gemaakte keuze, is de Commissie van oordeel dat bij de tweede benadering de financiële realiteit en de bedoelingen van de partijen correcter worden weergegeven. Die benadering verdient als dusdanig dan ook de voorkeur. Niettemin spreekt het voor zich dat ook de eerste benadering coherent en logisch en bijgevolg ook aanvaardbaar is.
 
 ## In aandelen converteerbare obligaties
-Aandelen die uitsluitend op de vervaldatum van de lening kunnen worden geconverteerd
+##### Aandelen die uitsluitend op de vervaldatum van de lening kunnen worden geconverteerd
 Dezelfde redenering en dezelfde conclusies zijn - mutatis mutandis - van toepassing op de uitgiften van in aandelen converteerbare leningen. Zoals bij de uitgifte van leningen met inschrijvingsrechten blijft het in de post *Uitgiftepremie* geboekte bedrag in die post behouden ongeacht of de obligatie, op terugbetalingsdatum, in aandelen wordt geconverteerd. Die stijging van het eigen vermogen is eigenlijk de "kristallisatie" van de winst die de uitgevende vennootschap boekt door zich te financieren tegen een lager lastenpercentage dan de marktrente voor soortgelijke, niet-converteerbare instrumenten.
 
-Obligaties die, naar keuze van de houder, op om het even welk ogenblik tussen de uitgifte en de vervaldatum van de lening kunnen worden geconverteerd
+##### Obligaties die, naar keuze van de houder, op om het even welk ogenblik tussen de uitgifte en de vervaldatum van de lening kunnen worden geconverteerd
 De in het vorige punt van dit advies ontwikkelde redenering kan niet mutatis mutandis worden toegepast op het (op dit moment weinig frequente) geval van obligaties die, naar keuze van de houder, op om het even welk ogenblik tussen de uitgifte- en de vervaldatum van de lening kunnen worden geconverteerd[^5].
 
 Immers, de aanbevolen uitsplitsing (voor obligaties die uitsluitend kunnen worden geconverteerd op de vervaldatum van de lening) waarvan sprake in de tweede benadering die de Commissie voorstelt, berust met name op een mechanisme waarbij, op het ogenblik van de uitgifte van het effect, wordt overgegaan tot een actualisering van het renteverschil tussen, enerzijds, de effectieve rente van de lening en, anderzijds, de marktrente van een niet-converteerbare lening die overigens dezelfde kenmerken vertoont.

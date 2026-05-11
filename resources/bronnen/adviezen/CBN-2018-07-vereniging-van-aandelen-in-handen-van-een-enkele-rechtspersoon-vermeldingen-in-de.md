@@ -3,7 +3,7 @@ bron: https://www.cbn-cnc.be/nl/adviezen/vereniging-van-aandelen-in-handen-van-e
 datum: 2018-05-09
 nummer: CBN-advies 2018/07
 provenance:
-  generated_at: '2026-05-11T17:48:39Z'
+  generated_at: '2026-05-11T19:17:26Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/vereniging-van-aandelen-in-handen-van-een-enkele-rechtspersoon-vermeldingen-in-de
       sha256: 0bfff4849299f0c0eca7f7080f32ac0ae00d5919809aed787b8629fb17d28435
@@ -20,8 +20,8 @@ provenance:
     confirmed_by: subagent-sonnet-4-6
     layer1:
       status: pass
-      run_id: 20260511-174840
-      run_at: '2026-05-11T17:48:44Z'
+      run_id: 20260511-191727
+      run_at: '2026-05-11T19:17:31Z'
       heading_count: 4
       max_section_chars: 2617
       file_size_chars: 7545

@@ -16,7 +16,7 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-subsidies-schenkingen-en-legaten-in-natura-in-de
 nummer: CBN-advies 2020/10
 provenance:
-  generated_at: '2026-05-11T17:48:39Z'
+  generated_at: '2026-05-11T19:17:26Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/schenkingen-en-legaten-voor-vzws-ivzws-en-stichtingen-die-een-dubbele-boekhouding-voeren
       sha256: c984caf31f75abd5f138b2db04093e70c7c9b68b198ea22891f583d93ed20e50
@@ -33,11 +33,11 @@ provenance:
     confirmed_by: subagent-sonnet-4-6
     layer1:
       status: pass
-      run_id: 20260511-174840
-      run_at: '2026-05-11T17:48:44Z'
+      run_id: 20260511-191727
+      run_at: '2026-05-11T19:17:32Z'
       heading_count: 50
-      max_section_chars: 21323
-      file_size_chars: 33146
+      max_section_chars: 12051
+      file_size_chars: 33147
       flags: []
     layer2:
       agent: subagent-sonnet-4-6
@@ -179,7 +179,7 @@ We hernemen de gegevens van het eerste voorbeeld, met als enige verschil dat het
 ### Schenkingen
 #### Schenking van een roerend goed bestemd om duurzaam bij te dragen tot de activiteit van de VZW
 #### Niet-geregistreerde schenking
-##### Waardering tegen aanschaffingswaarde
+###### Waardering tegen aanschaffingswaarde
 ### Voorbeeld 5
 Een autohandel schenkt een auto aan een VZW die zich ontfermt over personen met een beperkte mobiliteit. De schenking is bestemd om duurzaam bij te dragen tot de activiteit van de VZW. De auto heeft een marktwaarde van 24.500 euro. De aanschaffingswaarde van de auto is gelijk aan 0 euro.[^27] 
 
