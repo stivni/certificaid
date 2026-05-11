@@ -16,65 +16,57 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/verrichtingen-met-betrekking-tot-inschrijvingsrechten
 nummer: CBN-advies 167/2
 provenance:
-  generated_at: '2026-05-11T13:05:06Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-dekkingsverrichtingen-en-gedekte-posities-in-aandelen
       sha256: aeaa0dec08e7842f94598d4cbb8e08274e27672f835f77e02013b4f75fc77e72
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:10Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T12:04:42Z'
+    status: needs-rework
+    confirmed_at: '2026-05-11T13:23:04Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: "Meerdere problemen: D4 op r.437 en r.444 ('** 20.09.91**' / '** 01.10.91**' met spatie na openings-**); A9 op r.475 ('Aanschaffigswaarde' = ontbrekende 't') en r.499 ('op terminijn' = dubbele 'i'); E2/multi-line tabellen in de resultaatschema's (r.261-328) hebben celinhoudsplitsing over meerdere regels wat standaard markdown-rendering breekt. Inhoud omvangrijk maar qua structuur herkenbaar."
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:26Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:15Z'
       heading_count: 14
       max_section_chars: 17419
       file_size_chars: 41626
       flags: []
     layer2:
+      status: needs-rework
       agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:23:04Z'
+      rationale: "Meerdere problemen: D4 op r.437 en r.444 ('** 20.09.91**' / '** 01.10.91**' met spatie na openings-**); A9 op r.475 ('Aanschaffigswaarde' = ontbrekende 't') en r.499 ('op terminijn' = dubbele 'i'); E2/multi-line tabellen in de resultaatschema's (r.261-328) hebben celinhoudsplitsing over meerdere regels wat standaard markdown-rendering breekt. Inhoud omvangrijk maar qua structuur herkenbaar."
       concrete_problemen:
-        - categorie: B3
-          regel: 67
+        - regel: 437
+          categorie: D4
           type: other
-          voorbeeld: '# Boekhoudkundige verwerking van dekkingsverrichtingen... (duplicate heading)'
-        - categorie: B1
-          regel: 182
+          voorbeeld: '** 20.09.91**'
+        - regel: 444
+          categorie: D4
           type: other
-          voorbeeld: '##### Opties ter dekking van vaste rechten en verplichtingen (contant of op termijn'
-        - categorie: D4
-          regel: 417
-          type: other
-          voorbeeld: '** 20.09.91** (spatie na opening **)'
-        - categorie: D4
-          regel: 424
-          type: other
-          voorbeeld: '** 01.10.91** (spatie na opening **)'
-        - categorie: A9
-          regel: 455
+          voorbeeld: '** 01.10.91**'
+        - regel: 475
+          categorie: A9
           type: ocr-confusion
           voorbeeld: Aandelen - Aanschaffigswaarde
-        - categorie: A9
-          regel: 479
+        - regel: 499
+          categorie: A9
           type: ocr-confusion
-          voorbeeld: verlies op op terminijn verkochte effecten
-        - categorie: E2
-          regel: 260
+          voorbeeld: op terminijn verkochte effecten
+        - regel: 261
+          categorie: E2
           type: pseudo-table
-          voorbeeld: 'Multi-line celinhoud in tabelrijen (regels 260-309): cellen bevatten lijnsprongen'
-      rationale: 'B3: regels 65-67 bevatten duplicate # heading (zelfde titel tweemaal). D4: regels 417 en 424 hebben ''** 20.09.91**'' en ''** 01.10.91**'' met spurieuze spatie na opening-**, waardoor bold niet correct rendert. A9: regel 455 ''Aanschaffigswaarde'' (ontbrekende ''t'') en regel 479 ''terminijn'' zijn OCR/typfouten. B2: heading ##### op regel 182 heeft onafgesloten haakje (''(contant of op termijn'' zonder sluitende '')''). Tabellen met multi-line celinhoud (regels 260-309) zijn niet standaard markdown en breken rendering.'
-      run_at: '2026-05-11T12:04:42Z'
-      status: needs-rework
-    rationale: 'B3: regels 65-67 bevatten duplicate # heading (zelfde titel tweemaal). D4: regels 417 en 424 hebben ''** 20.09.91**'' en ''** 01.10.91**'' met spurieuze spatie na opening-**, waardoor bold niet correct rendert. A9: regel 455 ''Aanschaffigswaarde'' (ontbrekende ''t'') en regel 479 ''terminijn'' zijn OCR/typfouten. B2: heading ##### op regel 182 heeft onafgesloten haakje (''(contant of op termijn'' zonder sluitende '')''). Tabellen met multi-line celinhoud (regels 260-309) zijn niet standaard markdown en breken rendering.'
-    status: needs-rework
+          voorbeeld: "| Noteringsdata | | Koers van de optie \n | | Koers van het aandeel..."
 themas:
   - aandelen
   - aandelenopties

@@ -16,7 +16,7 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/effect-in-de-tijd-van-de-verlaging-van-de-vrijstellingscriteria
 nummer: CBN-advies 12/4
 provenance:
-  generated_at: '2026-05-11T13:05:05Z'
+  generated_at: '2026-05-11T13:15:10Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/omvangcriteria-berekening-op-geconsolideerde-basis
       sha256: 5423d4abd1986e840ece123e53d1deb40b5f016942649440833c0e9be91328be
@@ -33,8 +33,8 @@ provenance:
     confirmed_by: subagent-laag2-ronde2
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:24Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:13Z'
       heading_count: 0
       max_section_chars: 6812
       file_size_chars: 6812
@@ -51,7 +51,7 @@ themas:
   - omvangcriteria
 ---
 
-# CBN-advies 12-4 - Omvangcriteria ‐ Berekening op geconsolideerde basis
+# CBN-advies 12-4 - Omvangcriteria - Berekening op geconsolideerde basis
 
 Dit advies is verouderd als gevolg van publicatie van het koninklijk besluit 6 maart 1990 (B.S. 27 maart 1990) en de inwerkingtreding van artikel 141 van het Wetboek van vennootschappen 
 

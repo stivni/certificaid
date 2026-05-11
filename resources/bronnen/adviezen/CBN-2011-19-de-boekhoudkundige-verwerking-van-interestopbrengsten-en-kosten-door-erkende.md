@@ -3,45 +3,45 @@ bron: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-inter
 datum: 2011-10-05
 nummer: CBN-advies 2011/19
 provenance:
-  generated_at: '2026-05-11T13:05:08Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-interestopbrengsten-en-kosten-door-erkende
       sha256: 6e6268271b2b7aa39644cb41d0ad3b69eced439bd52ae437e23c2be5296875e9
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:12Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T12:09:18Z'
+    status: needs-rework
+    confirmed_at: '2026-05-11T13:30:32Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: "D4: regels 60 en 62 tonen geciteerde wetsartikelen in italic met trailing spatie voor closing asterisk: '*\"Een Belgische of buitenlandse onderneming:* ' en '*waarvan de werkzaamheden bestaan in het uitgeven van betaalinstrumenten in de vorm van elektronisch geld.\"* ' — het patroon met spatie voor de sluitende `*` maakt de italic-markup ongeldig in de meeste markdown-parsers. Kort document, verder schoon."
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:28Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:16Z'
       heading_count: 2
       max_section_chars: 2386
       file_size_chars: 5053
       flags: []
     layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: D4
-          regel: 55
-          type: other
-          voorbeeld: '*"Een Belgische of buitenlandse onderneming: *'
-        - categorie: D4
-          regel: 57
-          type: other
-          voorbeeld: '*waarvan de werkzaamheden bestaan in het van het publiek... of * '
-      rationale: 'D4: regels 55–58 tonen het bekende `*term *`-patroon (spatie voor closing asterisk): `*"Een Belgische of buitenlandse onderneming: *` en `*waarvan de werkzaamheden... of * ` — malformed italic die een mens nooit zo zou typen. Het gaat om het geciteerde wetsartikel dat in italics staat maar door de spaties-voor-closing-asterisk misrendered kan worden door markdown-parsers.'
-      run_at: '2026-05-11T12:09:18Z'
       status: needs-rework
-    rationale: 'D4: regels 55–58 tonen het bekende `*term *`-patroon (spatie voor closing asterisk): `*"Een Belgische of buitenlandse onderneming: *` en `*waarvan de werkzaamheden... of * ` — malformed italic die een mens nooit zo zou typen. Het gaat om het geciteerde wetsartikel dat in italics staat maar door de spaties-voor-closing-asterisk misrendered kan worden door markdown-parsers.'
-    status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:30:32Z'
+      rationale: "D4: regels 60 en 62 tonen geciteerde wetsartikelen in italic met trailing spatie voor closing asterisk: '*\"Een Belgische of buitenlandse onderneming:* ' en '*waarvan de werkzaamheden bestaan in het uitgeven van betaalinstrumenten in de vorm van elektronisch geld.\"* ' — het patroon met spatie voor de sluitende `*` maakt de italic-markup ongeldig in de meeste markdown-parsers. Kort document, verder schoon."
+      concrete_problemen:
+        - regel: 60
+          categorie: D4
+          type: other
+          voorbeeld: '*"Een Belgische of buitenlandse onderneming:* '
+        - regel: 62
+          categorie: D4
+          type: other
+          voorbeeld: '*waarvan de werkzaamheden bestaan in het uitgeven van betaalinstrumenten in de vorm van elektronisch geld."* '
 themas:
   - erkende kredietmaatschappij
   - kredietmaatschappij

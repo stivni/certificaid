@@ -10,37 +10,65 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/roerende-leasing-definitie
 nummer: CBN-advies 2015/4
 provenance:
-  generated_at: '2026-05-11T13:05:08Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/leasing
       sha256: 994069d2d9c8d9a586845e90715415891f988cd32d291df3cee47605596eb26c
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:12Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at:
-    confirmed_by:
+    status: needs-rework
+    confirmed_at: '2026-05-11T13:30:32Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "Meerdere categorieën: B3 (regel 56: '# COMMISSIE VOOR BOEKHOUDKUNDIGE NORMEN' als extra H1), B5 (regels 88, 219, 226, 422: subsectietitels als plain tekst zonder #-prefix), B2 (heading-hiërarchie springt van ## naar #### zonder ### op regels 89/91), D4 (regels 109, 356, 401: malformed italics met asterisk mid-woord of spatie voor sluit-*), D1 (regel 290: zin afgebroken mid-tekst '...worden geactiveerd onder de desbetreffende rubriek van de')."
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:29Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:17Z'
       heading_count: 39
       max_section_chars: 13468
       file_size_chars: 77145
       flags: []
     layer2:
-      agent:
-      concrete_problemen: []
-      rationale:
-      run_at:
-      status: not_run
-    rationale: 'Trust gereset 2026-05-11: re-scrape met scraper-fixes, content-diff > 5%'
-    status: unreviewed
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:30:32Z'
+      rationale: "Meerdere categorieën: B3 (regel 56: '# COMMISSIE VOOR BOEKHOUDKUNDIGE NORMEN' als extra H1), B5 (regels 88, 219, 226, 422: subsectietitels als plain tekst zonder #-prefix), B2 (heading-hiërarchie springt van ## naar #### zonder ### op regels 89/91), D4 (regels 109, 356, 401: malformed italics met asterisk mid-woord of spatie voor sluit-*), D1 (regel 290: zin afgebroken mid-tekst '...worden geactiveerd onder de desbetreffende rubriek van de')."
+      concrete_problemen:
+        - regel: 56
+          categorie: B3
+          type: other
+          voorbeeld: '# COMMISSIE VOOR BOEKHOUDKUNDIGE NORMEN — extra H1 scrape-artefact'
+        - regel: 88
+          categorie: B5
+          type: other
+          voorbeeld: Overeenkomsten die kwalificeren als leasing volgens artikel 95 KB W.Venn. — plain tekst, geen heading
+        - regel: 89
+          categorie: B2
+          type: other
+          voorbeeld: '## sectie gevolgd direct door #### zonder tussenlliggend ### niveau'
+        - regel: 109
+          categorie: D4
+          type: other
+          voorbeeld: (zie punt* B. Overeenkomsten die niet kwalificeren...).* — asterisk midden in tekst
+        - regel: 290
+          categorie: D1
+          type: abrupt-cutoff
+          voorbeeld: '...geactiveerd onder de desbetreffende rubriek van de — zin eindigt mid-tekst'
+        - regel: 356
+          categorie: D4
+          type: other
+          voorbeeld: '*en 053* Verplichtingen tot verkoop.* — asterisk sluit niet consistent'
+        - regel: 401
+          categorie: D4
+          type: other
+          voorbeeld: '*IV.B. Opbrengsten uit vlottende activa *of I.D.* — spatie voor sluit-asterisk'
 themas:
   - aankoopoptie
   - financiële leasing

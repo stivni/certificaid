@@ -16,37 +16,37 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/gegeven-borgtochten-in-contanten-en-effecten-update
 nummer: CBN-advies 139/5
 provenance:
-  generated_at: '2026-05-11T13:05:06Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/obligaties-met-warrant-0
       sha256: 1aee70e4105d459ef905cdaa50f31c213898395d930893f2ca763ff4304c8eda
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:10Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at:
-    confirmed_by:
+    status: trusted
+    confirmed_at: '2026-05-11T13:23:03Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "Geen headings (heading_count: 0) is correct voor dit proza-advies — het bevat geen subsecties. Inhoud volledig: drie methoden voor waarderingsopsplitsing uitgebreid behandeld. Geen zichtbare ETL-artefacten. 'snel volg' (regel 79) lijkt een werkwoord zonder -t — waarschijnlijk een brontekst-fout, geen extractie-artefact."
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:26Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:14Z'
       heading_count: 0
       max_section_chars: 6404
       file_size_chars: 6404
       flags: []
     layer2:
-      agent:
+      status: trusted
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:23:03Z'
+      rationale: "Geen headings (heading_count: 0) is correct voor dit proza-advies — het bevat geen subsecties. Inhoud volledig: drie methoden voor waarderingsopsplitsing uitgebreid behandeld. Geen zichtbare ETL-artefacten. 'snel volg' (regel 79) lijkt een werkwoord zonder -t — waarschijnlijk een brontekst-fout, geen extractie-artefact."
       concrete_problemen: []
-      rationale:
-      run_at:
-      status: not_run
-    rationale: 'Trust gereset 2026-05-11: re-scrape met scraper-fixes, content-diff > 5%'
-    status: unreviewed
 themas:
   - financiële vaste activa
   - inschrijvingsrecht

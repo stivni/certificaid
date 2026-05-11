@@ -16,45 +16,45 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-factoringovereenkomsten
 nummer: CBN-advies 137/6
 provenance:
-  generated_at: '2026-05-11T13:05:06Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/overdracht-van-schuldvordering-nominale-waarde-waardevermindering
       sha256: 25fd1bb0d0ab515b3701d5cd67f1da2fb53847742ea2754c819febb7703658ab
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:10Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T12:04:41Z'
+    status: needs-rework
+    confirmed_at: '2026-05-11T13:16:02Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: "Twee problemen: (1) D4/andere op L98: heading '### Op de vervandag' bevat typefout 'vervandag' i.p.v. 'vervaldag' — consistent met OCR- of scraper-artefact. (2) E2 op L107: tabelcel bevat '6331 | Handelsvorderingen op meer dan 1 jaar -terugneming van waardeverminderingen 1 | 10 |' — het cijfer '1' (voetnootlabel) is in de cel gelekt en de koppelteken voor 'terugneming' mist een spatie."
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:26Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:14Z'
       heading_count: 2
       max_section_chars: 1418
       file_size_chars: 3516
       flags: []
     layer2:
+      status: needs-rework
       agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:16:02Z'
+      rationale: "Twee problemen: (1) D4/andere op L98: heading '### Op de vervandag' bevat typefout 'vervandag' i.p.v. 'vervaldag' — consistent met OCR- of scraper-artefact. (2) E2 op L107: tabelcel bevat '6331 | Handelsvorderingen op meer dan 1 jaar -terugneming van waardeverminderingen 1 | 10 |' — het cijfer '1' (voetnootlabel) is in de cel gelekt en de koppelteken voor 'terugneming' mist een spatie."
       concrete_problemen:
-        - categorie: D4
-          regel: 91
+        - regel: 98
+          categorie: D4
           type: other
-          voorbeeld: '### Op de vervandag'
-        - categorie: E2
-          regel: 100
+          voorbeeld: "### Op de vervandag (typefout: 'vervandag' i.p.v. 'vervaldag')"
+        - regel: 107
+          categorie: E2
           type: other
           voorbeeld: '| 6331 | Handelsvorderingen op meer dan 1 jaar -terugneming van waardeverminderingen 1 | 10 |'
-      rationale: 'Twee problemen: (1) D4/andere: heading ''### Op de vervandag'' (regel 91) bevat een typefout ''vervandag'' i.p.v. ''vervaldag'' — consistent met een OCR- of scraper-artefact. (2) E2: tabelcel op regel 100 bevat ''6331 | Handelsvorderingen op meer dan 1 jaar -terugneming van waardeverminderingen 1 |'' — het cijfer ''1'' is een voetnootlabel dat in de cel gelekt is.'
-      run_at: '2026-05-11T12:04:41Z'
-      status: needs-rework
-    rationale: 'Twee problemen: (1) D4/andere: heading ''### Op de vervandag'' (regel 91) bevat een typefout ''vervandag'' i.p.v. ''vervaldag'' — consistent met een OCR- of scraper-artefact. (2) E2: tabelcel op regel 100 bevat ''6331 | Handelsvorderingen op meer dan 1 jaar -terugneming van waardeverminderingen 1 |'' — het cijfer ''1'' is een voetnootlabel dat in de cel gelekt is.'
-    status: needs-rework
 themas:
   - Waardevermindering
   - waardevermindering op vorderingen

@@ -16,7 +16,7 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-factoringovereenkomsten
 nummer: CBN-advies 2012/5
 provenance:
-  generated_at: '2026-05-11T13:05:08Z'
+  generated_at: '2026-05-11T13:15:12Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/betaling-van-vorderingen-in-natura
       sha256: b6becb28377bf7a9825c8260f33f2666068c9283a33ae494dc8007ab3e099751
@@ -33,8 +33,8 @@ provenance:
     confirmed_by: human
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:28Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:16Z'
       heading_count: 5
       max_section_chars: 3539
       file_size_chars: 6753

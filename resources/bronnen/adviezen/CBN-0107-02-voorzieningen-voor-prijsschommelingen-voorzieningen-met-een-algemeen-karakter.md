@@ -3,7 +3,7 @@ bron: https://www.cbn-cnc.be/nl/adviezen/voorzieningen-voor-prijsschommelingen-v
 datum: 1979-05-05
 nummer: CBN-advies 107/2
 provenance:
-  generated_at: '2026-05-11T13:05:05Z'
+  generated_at: '2026-05-11T13:15:10Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/voorzieningen-voor-prijsschommelingen-voorzieningen-met-een-algemeen-karakter
       sha256: 9f3ada3b7be31f21eaf5d9b4331e2ae9c898993acf2800646ac72f816dbcaca9
@@ -20,8 +20,8 @@ provenance:
     confirmed_by: subagent-laag2-ronde2
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:24Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:13Z'
       heading_count: 0
       max_section_chars: 5081
       file_size_chars: 5081

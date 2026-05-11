@@ -16,7 +16,7 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/wijziging-van-het-boekhoudkundig-referentiestelsel
 nummer: CBN-advies 2013/1
 provenance:
-  generated_at: '2026-05-11T13:05:08Z'
+  generated_at: '2026-05-11T13:15:12Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-pseudo-fusies-van-verenigingen-en-stichtingen
       sha256: 5aa8dcdf4c97a2bdf548c669cc8917246b4e429e13c3f83c28dd849a769fe9a6
@@ -33,8 +33,8 @@ provenance:
     confirmed_by: subagent-sonnet-4-6
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:28Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:16Z'
       heading_count: 11
       max_section_chars: 12635
       file_size_chars: 39605

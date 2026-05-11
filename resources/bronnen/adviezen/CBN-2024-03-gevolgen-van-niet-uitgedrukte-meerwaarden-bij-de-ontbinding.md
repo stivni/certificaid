@@ -16,7 +16,7 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/verslaggeving-bij-ontbinding-en-vereffening-van-bv-cv-nv-se-en-sce
 nummer: CBN-advies 2024/03
 provenance:
-  generated_at: '2026-05-11T13:05:09Z'
+  generated_at: '2026-05-11T13:15:12Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/gevolgen-van-niet-uitgedrukte-meerwaarden-bij-de-ontbinding
       sha256: 5e6db05c468c4f702b469948fe212f35f9a2e631860812c8abc57e0af42c5c9c
@@ -33,8 +33,8 @@ provenance:
     confirmed_by: subagent-laag2-ronde2
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:31Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:18Z'
       heading_count: 0
       max_section_chars: 10404
       file_size_chars: 10404

@@ -381,6 +381,28 @@ def _extract_advice_content(html: str) -> str:
     return html
 
 
+def _normalize_unicode_title(text: str) -> str:
+    """Vervang Unicode-hyphens / soft-hyphens in een titel-string door ASCII.
+
+    Wordt gebruikt door `select_title` en `_select_title_html`. De body
+    krijgt deze normalisatie via `_cleanup_markdown`, maar de title gaat
+    apart door de orchestrator naar de H1 — zonder deze pas zou U+2010
+    in titels overleven.
+    """
+    if not text:
+        return text
+    return (text
+            .replace('‐', '-')   # U+2010 HYPHEN
+            .replace('¬', '-')   # U+00AC NOT SIGN (pseudo-soft-hyphen)
+            .replace(' ', ' ')   # U+00A0 NBSP → ASCII space
+            .replace('ĳ', 'ij')
+            .replace('Ĳ', 'IJ')
+            .replace('&amp;quot;', '"')
+            .replace('&amp;#039;', "'")
+            .replace('&amp;amp;', '&')
+            .replace('&amp;', '&'))
+
+
 def select_title(text: str) -> str:
     """Strip 'COMMISSIE VOOR ... NORMEN' prefix en 'Advies van DD ...' suffix.
 
@@ -389,7 +411,8 @@ def select_title(text: str) -> str:
     """
     if text is None:
         return ""
-    cleaned = re.sub(r'\s+', ' ', text).strip()
+    cleaned = _normalize_unicode_title(text)
+    cleaned = re.sub(r'\s+', ' ', cleaned).strip()
     # Strip "COMMISSIE VOOR ... NORMEN" of "COMMISSION DES NORMES ..." prefix
     cleaned = re.sub(
         r'^(?:COMMISSIE\s+VOOR\b.*?NORMEN|COMMISSION\s+DES\s+NORMES[^\n]*?)\s+',
@@ -430,7 +453,7 @@ def _select_title_html(html: str) -> str | None:
         candidates.append(text)
     if not candidates:
         return None
-    return max(candidates, key=len)
+    return _normalize_unicode_title(max(candidates, key=len))
 
 
 def _extract_gerelateerde_adviezen(html: str) -> list[_GerelateerdAdvies]:
@@ -451,7 +474,7 @@ def _extract_gerelateerde_adviezen(html: str) -> list[_GerelateerdAdvies]:
         link_m = re.search(r'<a[^>]+href="(/nl/adviezen/[^"]+)"[^>]*>([^<]+)</a>', row_html)
         if link_m:
             href = link_m.group(1)
-            titel = link_m.group(2).strip()
+            titel = _normalize_unicode_title(link_m.group(2).strip())
             url = f"https://www.cbn-cnc.be{href}"
             refs.append(_GerelateerdAdvies(titel=titel, url=url, datum=datum))
     return refs

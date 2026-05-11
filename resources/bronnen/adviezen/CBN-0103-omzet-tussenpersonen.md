@@ -7,41 +7,37 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/omzet-van-expediteurs
 nummer: CBN-advies 103
 provenance:
-  generated_at: '2026-05-11T13:05:05Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/omzet-tussenpersonen
       sha256: 9fe8f8368372e19e030cfb6ebe21f487d98bd122381c58765b829588ca177520
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:10Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T11:57:44Z'
+    status: trusted
+    confirmed_at: '2026-05-11T13:16:02Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: "Bug B3 (duplicate heading) is opgelost: body bevat één heading '# CBN advies 103 - Omzet - Tussenpersonen'. Inhoud is volledig (uitgebreide analyse van makelaar/mandataris/commissionair). Geen artefacten, geen unicode-issues, geen broken markup. Ziet eruit als mens-geschreven."
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:24Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:13Z'
       heading_count: 0
       max_section_chars: 4390
       file_size_chars: 4390
       flags: []
     layer2:
+      status: trusted
       agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: B3
-          regel: 54
-          type: other
-          voorbeeld: '# CBN advies 103 - Omzet - Tussenpersonen (identiek aan regel 52)'
-      rationale: 'B3: de page-title heading is volledig gedupliceerd op regels 52 en 54 — een klassiek web-scrape-artefact waarbij de paginatitel en de content-heading beide worden meegenomen. Verder is de body inhoudelijk volledig en kwalitatief goed.'
-      run_at: '2026-05-11T11:57:44Z'
-      status: needs-rework
-    rationale: 'B3: de page-title heading is volledig gedupliceerd op regels 52 en 54 — een klassiek web-scrape-artefact waarbij de paginatitel en de content-heading beide worden meegenomen. Verder is de body inhoudelijk volledig en kwalitatief goed.'
-    status: needs-rework
+      run_at: '2026-05-11T13:16:02Z'
+      rationale: "Bug B3 (duplicate heading) is opgelost: body bevat één heading '# CBN advies 103 - Omzet - Tussenpersonen'. Inhoud is volledig (uitgebreide analyse van makelaar/mandataris/commissionair). Geen artefacten, geen unicode-issues, geen broken markup. Ziet eruit als mens-geschreven."
+      concrete_problemen: []
 themas:
   - commissionair
   - expediteur

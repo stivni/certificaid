@@ -10,37 +10,37 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/invloed-van-een-gerechtelijk-akkoord-op-de-schulden-en-vorderingen
 nummer: CBN-advies 137/1
 provenance:
-  generated_at: '2026-05-11T13:05:06Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/klassering-van-de-vorderingen-bij-faillissement-van-de-schuldenaar
       sha256: 7c727a106b42b295f46eb425b96664656442d4af624e28750caf8f604060b13a
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:10Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at:
-    confirmed_by:
+    status: trusted
+    confirmed_at: '2026-05-11T13:16:02Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: 'Korte proza-tekst (2109 chars, vier paragrafen, heading_count 0). Geen headings nodig voor dit korte advies. Geen artefacten gevonden: geen spurious line-breaks, geen onzichtbare unicode, geen OCR-fouten, geen afgekapte zinnen. Inhoud volledig: vraagstelling, verwijzing artikel 450 Faillissementswet, CBN-conclusie over klassering en aanvullende opmerking over toelichting.'
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:26Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:14Z'
       heading_count: 0
       max_section_chars: 2109
       file_size_chars: 2109
       flags: []
     layer2:
-      agent:
+      status: trusted
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:16:02Z'
+      rationale: 'Korte proza-tekst (2109 chars, vier paragrafen, heading_count 0). Geen headings nodig voor dit korte advies. Geen artefacten gevonden: geen spurious line-breaks, geen onzichtbare unicode, geen OCR-fouten, geen afgekapte zinnen. Inhoud volledig: vraagstelling, verwijzing artikel 450 Faillissementswet, CBN-conclusie over klassering en aanvullende opmerking over toelichting.'
       concrete_problemen: []
-      rationale:
-      run_at:
-      status: not_run
-    rationale: 'Trust gereset 2026-05-11: re-scrape met scraper-fixes, content-diff > 5%'
-    status: unreviewed
 themas:
   - faillissement
   - faillissement van de schuldenaar

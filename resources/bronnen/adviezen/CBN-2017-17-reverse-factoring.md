@@ -3,45 +3,45 @@ bron: https://www.cbn-cnc.be/nl/adviezen/reverse-factoring
 datum: 2017-09-13
 nummer: CBN-advies 2017/17
 provenance:
-  generated_at: '2026-05-11T13:05:08Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/reverse-factoring
       sha256: 7d0d3618b625430845800efb1502ad04dde9ffe0a8eedc32deb3f511d81ad5a0
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:12Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T12:21:40Z'
+    status: needs-rework
+    confirmed_at: '2026-05-11T13:30:33Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: "D4: regel 65 bevat 'De boekhoudkundige verwerking van factoringovereenkomsten[^2]*  behandelt' — de italic sluit met spatie voor het asterisk, wat een ETL-artefact is. Regel 73 bevat '*Financiële schulden – Overige leningen moet worden gereclasseerd.*' waarbij de italic-markering een te lang tekstblok omvat inclusief prose-tekst wat onnatuurlijk is voor mens-geschreven markdown."
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:29Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:17Z'
       heading_count: 2
       max_section_chars: 3510
       file_size_chars: 4590
       flags: []
     layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: D4
-          regel: 57
-          type: other
-          voorbeeld: factoringovereenkomsten[^2] * behandelt de relatie
-        - categorie: D4
-          regel: 65
-          type: other
-          voorbeeld: '*Financiële schulden – Overige leningen moet worden gereclasseerd.*'
-      rationale: 'D4: twee gevallen van malformed italic met spatie voor sluitende asterisk op regel 57 (`factoringovereenkomsten[^2] *`) en regel 65 (`*Financiële schulden – Overige leningen moet worden gereclasseerd.*` sluit italic te laat, omvat ook prose-tekst). Klein advies (heading_count 2), maar de italic-fouten zijn zichtbare ETL-artefacten.'
-      run_at: '2026-05-11T12:21:40Z'
       status: needs-rework
-    rationale: 'D4: twee gevallen van malformed italic met spatie voor sluitende asterisk op regel 57 (`factoringovereenkomsten[^2] *`) en regel 65 (`*Financiële schulden – Overige leningen moet worden gereclasseerd.*` sluit italic te laat, omvat ook prose-tekst). Klein advies (heading_count 2), maar de italic-fouten zijn zichtbare ETL-artefacten.'
-    status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:30:33Z'
+      rationale: "D4: regel 65 bevat 'De boekhoudkundige verwerking van factoringovereenkomsten[^2]*  behandelt' — de italic sluit met spatie voor het asterisk, wat een ETL-artefact is. Regel 73 bevat '*Financiële schulden – Overige leningen moet worden gereclasseerd.*' waarbij de italic-markering een te lang tekstblok omvat inclusief prose-tekst wat onnatuurlijk is voor mens-geschreven markdown."
+      concrete_problemen:
+        - regel: 65
+          categorie: D4
+          type: other
+          voorbeeld: factoringovereenkomsten[^2]*  behandelt (spatie voor sluitende asterisk)
+        - regel: 73
+          categorie: D4
+          type: other
+          voorbeeld: '*Financiële schulden – Overige leningen moet worden gereclasseerd.* (italic omvat te lange span)'
 themas:
   - factor
   - factoring

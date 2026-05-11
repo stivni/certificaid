@@ -10,61 +10,53 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/verwerking-in-de-boekhouding-en-de-jaarrekening-van-de-belastingbesparing-ingevoerd-door
 nummer: CBN-advies 2015/1
 provenance:
-  generated_at: '2026-05-11T13:05:08Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-tax-shelter-in-hoofde-van-de-investeerder
       sha256: 67fafb8ab12a60b28c7bae3b215010737b1e7a8d288a71d0da5ef8114d159e0d
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:12Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T12:16:34Z'
+    status: needs-rework
+    confirmed_at: '2026-05-11T13:30:32Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: "B3: drie opeenvolgende #-level headings op regels 77–81 ('# COMMISSIE VOOR BOEKHOUDKUNDIGE NORMEN', '# CBN-advies 2015/1 - ...', '# Advies van 13 mei 2015[^1]') zijn duplicate body-titels — scrape-artefact. D4: regel 81 '**Advies van 13 mei 2015[^1] **' heeft spatie voor sluit-asterisken. A6: regel 105 '...beperkt tot:\\n Het bedrag...' — regeleinde na voetnoot-referentie vóór haakje-context."
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:29Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:16Z'
       heading_count: 11
       max_section_chars: 6349
       file_size_chars: 24470
       flags: []
     layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: B3
-          regel: 55
-          type: other
-          voorbeeld: '# **COMMISSIE VOOR BOEKHOUDKUNDIGE NORMEN**'
-        - categorie: B3
-          regel: 57
-          type: other
-          voorbeeld: '# **CBN-advies 2015/1 - Boekhoudkundige verwerking van de tax shelter...'
-        - categorie: D4
-          regel: 59
-          type: other
-          voorbeeld: '# **Advies van 13 mei 2015[^1] **'
-        - categorie: A6
-          regel: 83
-          type: other
-          voorbeeld: '*investerende vennootschap*[^7]\n (hierna: de investeerder)'
-        - categorie: D4
-          regel: 151
-          type: other
-          voorbeeld: rekening 6702 *Geraamde belastingen *wordt door de Commissie
-        - categorie: D3
-          regel: 144
-          type: other
-          voorbeeld: ' [^19]'
-      rationale: 'B3: drie duplicate #-level headings (regels 55–59) herhalen de advies-titel en datumaanduiding — typisch TOC-scrape-artefact. D4: malformed bold/italic op regels 59 en 151 (''*Geraamde belastingen *'' met spatie voor sluiter). A6: spurious line breaks na footnote-referenties (regels 83, 95, 100) waarbij de zin wordt afgebroken vóór het haakje.'
-      run_at: '2026-05-11T12:16:34Z'
       status: needs-rework
-    rationale: 'B3: drie duplicate #-level headings (regels 55–59) herhalen de advies-titel en datumaanduiding — typisch TOC-scrape-artefact. D4: malformed bold/italic op regels 59 en 151 (''*Geraamde belastingen *'' met spatie voor sluiter). A6: spurious line breaks na footnote-referenties (regels 83, 95, 100) waarbij de zin wordt afgebroken vóór het haakje.'
-    status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:30:32Z'
+      rationale: "B3: drie opeenvolgende #-level headings op regels 77–81 ('# COMMISSIE VOOR BOEKHOUDKUNDIGE NORMEN', '# CBN-advies 2015/1 - ...', '# Advies van 13 mei 2015[^1]') zijn duplicate body-titels — scrape-artefact. D4: regel 81 '**Advies van 13 mei 2015[^1] **' heeft spatie voor sluit-asterisken. A6: regel 105 '...beperkt tot:\\n Het bedrag...' — regeleinde na voetnoot-referentie vóór haakje-context."
+      concrete_problemen:
+        - regel: 77
+          categorie: B3
+          type: other
+          voorbeeld: '# **COMMISSIE VOOR BOEKHOUDKUNDIGE NORMEN** — duplicate H1 scrape-artefact'
+        - regel: 79
+          categorie: B3
+          type: other
+          voorbeeld: '# **CBN-advies 2015/1 - Boekhoudkundige verwerking...** — tweede duplicate H1'
+        - regel: 81
+          categorie: D4
+          type: other
+          voorbeeld: '# **Advies van 13 mei 2015[^1] ** — spatie voor sluit-** (malformed bold)'
+        - regel: 105
+          categorie: A6
+          type: other
+          voorbeeld: '...beperkt tot:[^10]\n Het bedrag dat kan worden vrijgesteld — spurious line break'
 themas:
   - belastingbesparing
   - belastingvoordeel

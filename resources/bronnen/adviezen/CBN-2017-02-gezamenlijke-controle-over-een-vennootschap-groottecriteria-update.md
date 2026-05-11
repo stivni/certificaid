@@ -13,53 +13,53 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/advies-met-betrekking-tot-de-jaarrekeningrechtelijke-aspecten-van-de-certificatie-van
 nummer: CBN-advies 2017/02
 provenance:
-  generated_at: '2026-05-11T13:05:08Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/gezamenlijke-controle-over-een-vennootschap-groottecriteria-update
       sha256: 23569f6d8d8f426a4e3878ef9b3499a08fea2d3154af13436086d01edb07dcb3
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:12Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T12:16:34Z'
+    status: needs-rework
+    confirmed_at: '2026-05-11T13:30:33Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: "A6: meerdere spurious line-breaks na voetnootreferenties midden in zinnen (regels 78, 82-83, 87-88, 109-111, 144-146) — structureel PDF-extractiepatroon. A6/G3: regel 74 bevat ', bijgewerkt op 10 september 2025[^2]' als los fragment na H1. B2: 'Geval 2' op regel 129 en 164 staat als ## heading terwijl het een sub-geval is van een Voorbeeld (zou ### moeten zijn)."
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:29Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:17Z'
       heading_count: 4
       max_section_chars: 5356
       file_size_chars: 16210
       flags: []
     layer2:
+      status: needs-rework
       agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:30:33Z'
+      rationale: "A6: meerdere spurious line-breaks na voetnootreferenties midden in zinnen (regels 78, 82-83, 87-88, 109-111, 144-146) — structureel PDF-extractiepatroon. A6/G3: regel 74 bevat ', bijgewerkt op 10 september 2025[^2]' als los fragment na H1. B2: 'Geval 2' op regel 129 en 164 staat als ## heading terwijl het een sub-geval is van een Voorbeeld (zou ### moeten zijn)."
       concrete_problemen:
-        - categorie: A6
-          regel: 58
+        - regel: 74
+          categorie: A6
           type: other
           voorbeeld: ', bijgewerkt op 10 september 2025[^2]'
-        - categorie: A6
-          regel: 62
+        - regel: 78
+          categorie: A6
           type: other
-          voorbeeld: groottecriteria[^3]\n wanneer sprake is van een gezamenlijke controle
-        - categorie: A6
-          regel: 67
+          voorbeeld: "de berekening van de groottecriteria[^3]\n wanneer sprake is van een gezamenlijke controle"
+        - regel: 82
+          categorie: A6
           type: other
-          voorbeeld: geldt een wettelijk en onweerlegbaar vermoeden[^5]\n Bijgevolg zijn
-        - categorie: A6
-          regel: 101
+          voorbeeld: "geldt een wettelijk en onweerlegbaar vermoeden[^5]\n Bijgevolg zijn"
+        - regel: 129
+          categorie: B2
           type: other
-          voorbeeld: 'Aldus heeft de vennootschap A op geconsolideerde[^15]\n basis:'
-      rationale: 'A6: Talrijke spurious line-breaks midden in zinnen — voetnootreferentie [^N] staat aan het eind van een regel, de zin loopt door op de volgende regel met een spatie-inspringing (bv. regel 62-63, 67-68, 101-102, 110-111). Dit is een PDF-extractie-artefact dat rendering breekt. Verder: regel 58 bevat '', bijgewerkt op 10 september 2025[^2]'' als los fragment direct na de H1, zonder eigen heading of context. Inhoud en structuur zijn volledig; headings en tabellen zijn correct.'
-      run_at: '2026-05-11T12:16:34Z'
-      status: needs-rework
-    rationale: 'A6: Talrijke spurious line-breaks midden in zinnen — voetnootreferentie [^N] staat aan het eind van een regel, de zin loopt door op de volgende regel met een spatie-inspringing (bv. regel 62-63, 67-68, 101-102, 110-111). Dit is een PDF-extractie-artefact dat rendering breekt. Verder: regel 58 bevat '', bijgewerkt op 10 september 2025[^2]'' als los fragment direct na de H1, zonder eigen heading of context. Inhoud en structuur zijn volledig; headings en tabellen zijn correct.'
-    status: needs-rework
+          voorbeeld: '## Geval 2: De vennootschap A en de vennootschap B hebben geen overeenkomst...'
 themas:
   - controle
   - gemeenschappelijke dochtervennootschap

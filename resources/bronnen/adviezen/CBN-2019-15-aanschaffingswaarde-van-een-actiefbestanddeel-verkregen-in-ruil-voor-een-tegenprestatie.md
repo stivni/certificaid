@@ -7,7 +7,7 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-een-ruilverrichting-en-een-aanbod-tot-inschrijving-door
 nummer: CBN-advies 2019/15
 provenance:
-  generated_at: '2026-05-11T13:05:08Z'
+  generated_at: '2026-05-11T13:15:12Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/aanschaffingswaarde-van-een-actiefbestanddeel-verkregen-in-ruil-voor-een-tegenprestatie
       sha256: bbb6a8771bd8588544978cda660da6cb388db0d391bb158485cfd5c5e2079459
@@ -24,8 +24,8 @@ provenance:
     confirmed_by: subagent-sonnet-4-6
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:30Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:18Z'
       heading_count: 4
       max_section_chars: 5375
       file_size_chars: 11437

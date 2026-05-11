@@ -3,41 +3,41 @@ bron: https://www.cbn-cnc.be/nl/adviezen/investering-voor-een-rationeler-energie
 datum: 1988-06-01
 nummer: CBN-advies 150/4
 provenance:
-  generated_at: '2026-05-11T13:05:06Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/investering-voor-een-rationeler-energieverbruik-geintegreerd-energiebeheerprogramma
       sha256: 1fc7b7bd9e51b597389bca924c94891da92c68a7424020649eeecab3bd0a68d9
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:10Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T12:04:41Z'
+    status: needs-rework
+    confirmed_at: '2026-05-11T13:23:03Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: "A6: regel 60 bevat 'energie- aankopen' (met spatie na het afbreekstreepje) — PDF-afbreekstreepje dat niet is samengevoegd; 'energie-aankopen' staat correct in de zin op regel 58. Enig gevonden artefact; inhoud verder volledig."
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:26Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:15Z'
       heading_count: 0
       max_section_chars: 2951
       file_size_chars: 2951
       flags: []
     layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: A6
-          regel: 56
-          type: other
-          voorbeeld: werkelijke kost van de energie- aankopen is bestemd voor de verkoper
-      rationale: 'A6: ''energie- aankopen'' op regel 56 toont een PDF-afbreekstreepje dat niet is samengevoegd — de zin bevat ''energie-aankopen'' correct op regel 54 maar ''energie- aankopen'' (met extra spatie) op regel 56, een typisch hyphenation-artefact van de scraper. Verder inhoud volledig en geen andere issues.'
-      run_at: '2026-05-11T12:04:41Z'
       status: needs-rework
-    rationale: 'A6: ''energie- aankopen'' op regel 56 toont een PDF-afbreekstreepje dat niet is samengevoegd — de zin bevat ''energie-aankopen'' correct op regel 54 maar ''energie- aankopen'' (met extra spatie) op regel 56, een typisch hyphenation-artefact van de scraper. Verder inhoud volledig en geen andere issues.'
-    status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:23:03Z'
+      rationale: "A6: regel 60 bevat 'energie- aankopen' (met spatie na het afbreekstreepje) — PDF-afbreekstreepje dat niet is samengevoegd; 'energie-aankopen' staat correct in de zin op regel 58. Enig gevonden artefact; inhoud verder volledig."
+      concrete_problemen:
+        - regel: 60
+          categorie: A6
+          type: other
+          voorbeeld: de werkelijke kost van de energie- aankopen is bestemd voor de verkoper
 themas:
   - energiebesparende investeringen
   - geïntegreerd energiebeheerprogramma

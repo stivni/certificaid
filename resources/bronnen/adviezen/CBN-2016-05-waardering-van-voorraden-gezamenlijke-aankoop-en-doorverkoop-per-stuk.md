@@ -7,7 +7,7 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/waardering-van-de-aanschaffingsprijs-van-de-voorraden-op-grond-van-de-verkoopprijs
 nummer: CBN-advies 2016/5
 provenance:
-  generated_at: '2026-05-11T13:05:08Z'
+  generated_at: '2026-05-11T13:15:12Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/waardering-van-voorraden-gezamenlijke-aankoop-en-doorverkoop-per-stuk
       sha256: e3615402540f4ab313f289d0f842228b7e8e816f54c662f9fd08dc0a74bd34b0
@@ -24,8 +24,8 @@ provenance:
     confirmed_by: subagent-sonnet-4-6
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:29Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:17Z'
       heading_count: 3
       max_section_chars: 7245
       file_size_chars: 10065

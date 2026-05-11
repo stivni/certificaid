@@ -3,7 +3,7 @@ bron: https://www.cbn-cnc.be/nl/adviezen/afsluitingsdatum-van-het-boekjaar
 datum: 2014-04-23
 nummer: CBN-advies 2014/5
 provenance:
-  generated_at: '2026-05-11T13:05:08Z'
+  generated_at: '2026-05-11T13:15:12Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/afsluitingsdatum-van-het-boekjaar
       sha256: 2c47eb840e00d394a7b0d827c1f25e2935694f1535011a5c01bb48914d8dad4f
@@ -20,8 +20,8 @@ provenance:
     confirmed_by: subagent-sonnet-4-6
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:29Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:16Z'
       heading_count: 2
       max_section_chars: 3305
       file_size_chars: 3838

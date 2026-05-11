@@ -16,45 +16,45 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/boeking-en-waardering-van-voorraden
 nummer: CBN-advies 2012/13
 provenance:
-  generated_at: '2026-05-11T13:05:08Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-immateriele-vaste-activa
       sha256: 67a3d88a28e5f96ab6003fd3e7c83b626e8511afd470d5ff4def5332c7710318
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:12Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T12:09:18Z'
+    status: needs-rework
+    confirmed_at: '2026-05-11T13:30:32Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: "A3: regel 110 bevat een duplicate TOC als één lange aaneengesloten plain-text blob met '---- ' als separator — scraper-fix A3 heeft dit niet opgelost, het artefact staat nog steeds in de body. D3/G3: regel 253 heeft '[^13][^14][^15][^16]' als vier aaneengeplakte footnote-markers zonder tussenliggende tekst, terwijl de bijbehorende voetnootdefinities wél aanwezig zijn onderaan (regels 376–383)."
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:28Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:16Z'
       heading_count: 26
       max_section_chars: 18890
       file_size_chars: 32463
       flags: []
     layer2:
+      status: needs-rework
       agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:30:32Z'
+      rationale: "A3: regel 110 bevat een duplicate TOC als één lange aaneengesloten plain-text blob met '---- ' als separator — scraper-fix A3 heeft dit niet opgelost, het artefact staat nog steeds in de body. D3/G3: regel 253 heeft '[^13][^14][^15][^16]' als vier aaneengeplakte footnote-markers zonder tussenliggende tekst, terwijl de bijbehorende voetnootdefinities wél aanwezig zijn onderaan (regels 376–383)."
       concrete_problemen:
-        - categorie: A3
-          regel: 102
+        - regel: 110
+          categorie: A3
           type: other
           voorbeeld: '---- Aanschaffingsprijs---- Vervaardigingsprijs---- Inbrengwaarde-- Afschrijvingen en waardeverminderingen...'
-        - categorie: G3
-          regel: 246
+        - regel: 253
+          categorie: G3
           type: other
           voorbeeld: ' [^13][^14][^15][^16]'
-      rationale: 'A3: regel 102 bevat een duplicate TOC als lange aaneengesloten plain-text-blob (''---- Aanschaffingsprijs---- Vervaardigingsprijs---- Inbrengwaarde-- Afschrijvingen...Goodwill-- Inleiding en begrippen -- Afschrijvingen op goodwill'') die de volledige TOC herhaalt als extractie-artefact. D4: regel 246 heeft ''[^13][^14][^15][^16]'' als vier aaneengeplakte footnote-markers zonder tussenliggende tekst — dit zijn inline footnote-markers die normaal verspreid zouden staan.'
-      run_at: '2026-05-11T12:09:18Z'
-      status: needs-rework
-    rationale: 'A3: regel 102 bevat een duplicate TOC als lange aaneengesloten plain-text-blob (''---- Aanschaffingsprijs---- Vervaardigingsprijs---- Inbrengwaarde-- Afschrijvingen...Goodwill-- Inleiding en begrippen -- Afschrijvingen op goodwill'') die de volledige TOC herhaalt als extractie-artefact. D4: regel 246 heeft ''[^13][^14][^15][^16]'' als vier aaneengeplakte footnote-markers zonder tussenliggende tekst — dit zijn inline footnote-markers die normaal verspreid zouden staan.'
-    status: needs-rework
 themas:
   - aanschaffingsprijs
   - aanschaffingswaarde

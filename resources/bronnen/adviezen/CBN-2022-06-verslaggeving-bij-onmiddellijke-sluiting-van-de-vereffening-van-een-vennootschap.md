@@ -16,41 +16,41 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/boekingswijze-van-een-voorschot-op-de-verdeling-van-het-netto-actief
 nummer: CBN-advies 2022/06
 provenance:
-  generated_at: '2026-05-11T13:05:08Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/verslaggeving-bij-onmiddellijke-sluiting-van-de-vereffening-van-een-vennootschap
       sha256: ca798a8aebd702ff295f370653cd9e6fc4a85a86f45252acf0db20c89a773a4f
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:12Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T12:24:33Z'
+    status: needs-rework
+    confirmed_at: '2026-05-11T13:34:12Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: "D2: regel 144 verwijst naar een schematisch tijdlijn-overzicht ('Schematisch kunnen de volgende termijnen worden onderscheiden:') dat niet volgt — was een afbeelding in het originele advies. Geen TOC-fragment in body. Inhoud verder compleet; 55 voetnoten correct opgemaakt."
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:30Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:18Z'
       heading_count: 7
       max_section_chars: 17540
       file_size_chars: 23689
       flags: []
     layer2:
+      status: needs-rework
       agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:34:12Z'
+      rationale: "D2: regel 144 verwijst naar een schematisch tijdlijn-overzicht ('Schematisch kunnen de volgende termijnen worden onderscheiden:') dat niet volgt — was een afbeelding in het originele advies. Geen TOC-fragment in body. Inhoud verder compleet; 55 voetnoten correct opgemaakt."
       concrete_problemen:
-        - categorie: D2
-          regel: 154
+        - regel: 144
+          categorie: D2
           type: missing-section
           voorbeeld: 'Schematisch kunnen de volgende termijnen worden onderscheiden: [tijdlijn-schema ontbreekt]'
-      rationale: 'D2: op regel 154 wordt verwezen naar een schematisch tijdlijn-overzicht (''Schematisch kunnen de volgende termijnen worden onderscheiden:'') dat ontbreekt — was een afbeelding in het originele advies. Geen TOC-fragment in body. Inhoud verder compleet, headings correct, 55 footnotes correct.'
-      run_at: '2026-05-11T12:24:33Z'
-      status: needs-rework
-    rationale: 'D2: op regel 154 wordt verwezen naar een schematisch tijdlijn-overzicht (''Schematisch kunnen de volgende termijnen worden onderscheiden:'') dat ontbreekt — was een afbeelding in het originele advies. Geen TOC-fragment in body. Inhoud verder compleet, headings correct, 55 footnotes correct.'
-    status: needs-rework
 themas:
   - sluiting vereffening
   - ontbinding

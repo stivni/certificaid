@@ -3,7 +3,7 @@ bron: https://www.cbn-cnc.be/nl/adviezen/de-interpretatie-van-de-openbaarmakings
 datum: 2010-01-13
 nummer: CBN-advies 2010/1
 provenance:
-  generated_at: '2026-05-11T13:05:07Z'
+  generated_at: '2026-05-11T13:15:11Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/de-interpretatie-van-de-openbaarmakingsverplichting-van-transacties-van-enige-betekenis
       sha256: f8cb0768ae41a60178408e84719465b10aa085621e8b1f65eda22c87b97a02e3
@@ -20,8 +20,8 @@ provenance:
     confirmed_by: human
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:27Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:15Z'
       heading_count: 7
       max_section_chars: 9089
       file_size_chars: 14145

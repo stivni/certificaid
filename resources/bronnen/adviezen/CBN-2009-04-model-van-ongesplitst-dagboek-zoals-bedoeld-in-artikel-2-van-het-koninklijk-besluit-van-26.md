@@ -3,53 +3,53 @@ bron: https://www.cbn-cnc.be/nl/adviezen/model-van-ongesplitst-dagboek-zoals-bed
 datum: 2009-02-11
 nummer: CBN-advies 2009/4
 provenance:
-  generated_at: '2026-05-11T13:05:06Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/model-van-ongesplitst-dagboek-zoals-bedoeld-in-artikel-2-van-het-koninklijk-besluit-van-26
       sha256: 6f30587cbf2f8a2ac685ed3b4a90b51536ee9416c8fa0f16d54d06a311b623e7
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:10Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T12:09:17Z'
+    status: needs-rework
+    confirmed_at: '2026-05-11T13:23:04Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: 'B4: drie ### headings in all-caps (INLEIDING r.62, SCHRAPPING VAN HET WOORD r.68, HET ONGESPLITSTE DAGBOEK r.82) — mens schrijft dit als ## met normale kapitalisatie. B2: heading-hiërarchie springt van H1 direct naar ### zonder enig ## tussenniveau. Inhoud verder volledig en correct; geen andere artefacten.'
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:27Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:15Z'
       heading_count: 3
       max_section_chars: 3333
       file_size_chars: 6250
       flags: []
     layer2:
+      status: needs-rework
       agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:23:04Z'
+      rationale: 'B4: drie ### headings in all-caps (INLEIDING r.62, SCHRAPPING VAN HET WOORD r.68, HET ONGESPLITSTE DAGBOEK r.82) — mens schrijft dit als ## met normale kapitalisatie. B2: heading-hiërarchie springt van H1 direct naar ### zonder enig ## tussenniveau. Inhoud verder volledig en correct; geen andere artefacten.'
       concrete_problemen:
-        - categorie: B4
-          regel: 46
+        - regel: 62
+          categorie: B4
           type: other
           voorbeeld: '### INLEIDING (all-caps ### zonder bovenliggend ## niveau)'
-        - categorie: B4
-          regel: 53
+        - regel: 68
+          categorie: B4
           type: other
-          voorbeeld: '### SCHRAPPING VAN HET WOORD « MINIMAAL » IN ARTIKEL 2 EN BIJLAGE A VAN HET BESLUIT'
-        - categorie: B4
-          regel: 67
+          voorbeeld: '### SCHRAPPING VAN HET WOORD « MINIMAAL » IN ARTIKEL 2 EN BIJLAGE A VAN HET BESLUIT (all-caps ###)'
+        - regel: 82
+          categorie: B4
           type: other
-          voorbeeld: '### HET ONGESPLITSTE DAGBOEK HOUDEN DOOR MIDDEL VAN GEINFORMATISEERDE SYSTEMEN'
-        - categorie: B2
-          regel: 46
+          voorbeeld: '### HET ONGESPLITSTE DAGBOEK HOUDEN DOOR MIDDEL VAN GEINFORMATISEERDE SYSTEMEN (all-caps ###)'
+        - regel: 62
+          categorie: B2
           type: other
-          voorbeeld: 'H1 -> ### zonder tussenniveau ## (heading-hiërarchie springt)'
-      rationale: 'B4: drie ### headings in all-caps (INLEIDING, SCHRAPPING VAN HET WOORD «MINIMAAL» ..., HET ONGESPLITSTE DAGBOEK HOUDEN ...) — mens schrijft dit als ## met normale kapitalisatie. Verder is de heading-hiërarchie inconsistent: de twee inhoudelijke secties staan als ### terwijl er geen ## bovenliggend niveau is (B2). Inhoud verder volledig en geen andere artefacten.'
-      run_at: '2026-05-11T12:09:17Z'
-      status: needs-rework
-    rationale: 'B4: drie ### headings in all-caps (INLEIDING, SCHRAPPING VAN HET WOORD «MINIMAAL» ..., HET ONGESPLITSTE DAGBOEK HOUDEN ...) — mens schrijft dit als ## met normale kapitalisatie. Verder is de heading-hiërarchie inconsistent: de twee inhoudelijke secties staan als ### terwijl er geen ## bovenliggend niveau is (B2). Inhoud verder volledig en geen andere artefacten.'
-    status: needs-rework
+          voorbeeld: 'H1 → ### zonder tussenniveau ## (heading-hiërarchie springt)'
 themas:
   - centraal boek
   - ongesplitst dagboek

@@ -16,7 +16,7 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/loonmatiging-bezoldigingen-van-bestuurders
 nummer: CBN-advies 111/1
 provenance:
-  generated_at: '2026-05-11T13:05:05Z'
+  generated_at: '2026-05-11T13:15:10Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/bezoldigingen-toegekend-aan-bestuurders-en-commissarissen-bedoelde-bezoldigingen
       sha256: 1fd5a084f02de977a3750e07d9e78909d8790a4c3597cea96439159545d07cc2
@@ -33,8 +33,8 @@ provenance:
     confirmed_by: subagent-sonnet-4-6
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:24Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:13Z'
       heading_count: 0
       max_section_chars: 1401
       file_size_chars: 1401

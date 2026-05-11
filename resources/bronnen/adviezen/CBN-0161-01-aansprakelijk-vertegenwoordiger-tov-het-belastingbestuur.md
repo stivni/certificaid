@@ -3,41 +3,41 @@ bron: https://www.cbn-cnc.be/nl/adviezen/aansprakelijk-vertegenwoordiger-tov-het
 datum: 1990-06-01
 nummer: CBN-advies 161/1
 provenance:
-  generated_at: '2026-05-11T13:05:06Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/aansprakelijk-vertegenwoordiger-tov-het-belastingbestuur
       sha256: abcb28ece9c7beefc6ee0c4d39c2bdf237de35986da436f53e7af5c569f1a11c
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:10Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T12:04:42Z'
+    status: needs-rework
+    confirmed_at: '2026-05-11T13:23:04Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: "D1/A9: regel 56 bevat 'Volgens boekingen geven een beeld van de relaties...' — het woord 'Volgende' is weggevallen (OCR- of brontext-artefact), waardoor de zin grammaticaal fout is. De vier boekhoudschema's in markdown pipe-syntax zijn aanwezig en structureel correct; lege Debet/Credit-kolommen zijn inhoudelijk intentioneel."
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:26Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:15Z'
       heading_count: 0
       max_section_chars: 3630
       file_size_chars: 3630
       flags: []
     layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: A9
-          regel: 53
-          type: ocr-confusion
-          voorbeeld: Volgens boekingen geven een beeld van de relaties...
-      rationale: 'D1/D4: Regel 53 bevat ''Volgens boekingen geven een beeld...'' — vermoedelijk ontbreekt ''Volgende'' (brontext-artefact of OCR-fout). Tabellen in markdown pipe-syntax aanwezig maar de Debet/Credit kolommen zijn leeg (geen bedragen), wat in dit advies intentioneel is (illustratieve schema''s zonder cijfers). Voetnoot correct.'
-      run_at: '2026-05-11T12:04:42Z'
       status: needs-rework
-    rationale: 'D1/D4: Regel 53 bevat ''Volgens boekingen geven een beeld...'' — vermoedelijk ontbreekt ''Volgende'' (brontext-artefact of OCR-fout). Tabellen in markdown pipe-syntax aanwezig maar de Debet/Credit kolommen zijn leeg (geen bedragen), wat in dit advies intentioneel is (illustratieve schema''s zonder cijfers). Voetnoot correct.'
-    status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:23:04Z'
+      rationale: "D1/A9: regel 56 bevat 'Volgens boekingen geven een beeld van de relaties...' — het woord 'Volgende' is weggevallen (OCR- of brontext-artefact), waardoor de zin grammaticaal fout is. De vier boekhoudschema's in markdown pipe-syntax zijn aanwezig en structureel correct; lege Debet/Credit-kolommen zijn inhoudelijk intentioneel."
+      concrete_problemen:
+        - regel: 56
+          categorie: A9
+          type: ocr-confusion
+          voorbeeld: Volgens boekingen geven een beeld van de relaties die ten aanzien van...
 themas:
   - aansprakelijk vertegenwoordiger
   - aansprakelijk vertegenwoordiger t.o.v. het belastingbestuur

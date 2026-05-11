@@ -7,49 +7,41 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-inbeslagname-in-hoofde-van-de-beslagen-schuldenaar
 nummer: CBN-advies 12/1
 provenance:
-  generated_at: '2026-05-11T13:05:05Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/toepassingsgebied-van-de-uitvoeringsbesluiten-bedoelde-ondernemingen
       sha256: 851f88bac6c753745e09aeeb0d2dfef6363d5a0d13cf668f0cbfe5140d3098c9
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:10Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T11:51:19Z'
+    status: needs-rework
+    confirmed_at: '2026-05-11T13:16:01Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: "D1: spelfout 'oger' (r61, moet 'hoger' zijn) staat nog steeds in de body — dit is een bron-fout die bij de scraper-fix niet is gecorrigeerd. A6-bug (zin gesplitst na footnote-referentie) lijkt verholpen: de zin 'In zijn antwoord op een parlementaire vraag[^1] over de al dan niet cumulatieve aard...' staat nu op één regel (r63). A4-status kan niet zonder hex-inspectie worden bevestigd. De 'verouderd'-notitie (r59) bevat de bulletin-verwijzing als aparte paragraaf; dit is een lichte structuuronduidelijkheid maar geen blocker."
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:24Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:13Z'
       heading_count: 0
       max_section_chars: 1709
       file_size_chars: 1709
       flags: []
     layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: A6
-          regel: 51
-          type: other
-          voorbeeld: parlementaire vraag[^1]\n  over de al dan niet cumulatieve
-        - categorie: D1
-          regel: 49
-          type: other
-          voorbeeld: en het totaal van hun balans bij het einde van het boekjaar niet oger
-        - categorie: A4
-          regel: 47
-          type: other
-          voorbeeld: bulletin 1‐24 augustus 1977‐september 1989
-      rationale: 'A6: de zin ''In zijn antwoord op een parlementaire vraag[^1]\n  over de al dan niet cumulatieve aard...'' is gesplitst over twee regels door een harde newline na de footnote-referentie (r51-52). Dit breekt de zin midden in de verwijzing. Verder: spelfout ''oger'' (r49, moet zijn ''hoger'') en A4: 4 gevallen U+2010 HYPHEN in r47 en r54. Inhoud correct maar structureel beïnvloed door de split-zin.'
-      run_at: '2026-05-11T11:51:19Z'
       status: needs-rework
-    rationale: 'A6: de zin ''In zijn antwoord op een parlementaire vraag[^1]\n  over de al dan niet cumulatieve aard...'' is gesplitst over twee regels door een harde newline na de footnote-referentie (r51-52). Dit breekt de zin midden in de verwijzing. Verder: spelfout ''oger'' (r49, moet zijn ''hoger'') en A4: 4 gevallen U+2010 HYPHEN in r47 en r54. Inhoud correct maar structureel beïnvloed door de split-zin.'
-    status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:16:01Z'
+      rationale: "D1: spelfout 'oger' (r61, moet 'hoger' zijn) staat nog steeds in de body — dit is een bron-fout die bij de scraper-fix niet is gecorrigeerd. A6-bug (zin gesplitst na footnote-referentie) lijkt verholpen: de zin 'In zijn antwoord op een parlementaire vraag[^1] over de al dan niet cumulatieve aard...' staat nu op één regel (r63). A4-status kan niet zonder hex-inspectie worden bevestigd. De 'verouderd'-notitie (r59) bevat de bulletin-verwijzing als aparte paragraaf; dit is een lichte structuuronduidelijkheid maar geen blocker."
+      concrete_problemen:
+        - regel: 61
+          categorie: D1
+          type: other
+          voorbeeld: het totaal van hun balans bij het einde van het boekjaar niet oger is dan 25 miljoen frank
 themas:
   - uitvoerend beslag
 ---

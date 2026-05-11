@@ -3,7 +3,7 @@ bron: https://www.cbn-cnc.be/nl/adviezen/zakelijke-rechten-op-onroerende-goedere
 datum: 2015-07-08
 nummer: CBN-advies 2015/5
 provenance:
-  generated_at: '2026-05-11T13:05:08Z'
+  generated_at: '2026-05-11T13:15:12Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/zakelijke-rechten-op-onroerende-goederen-vruchtgebruik-opstalrecht-erfpachtrecht
       sha256: e42d98ea9631d91fa32198a5fc40f1dba0e70b80b63a615042de95c134542e01
@@ -20,8 +20,8 @@ provenance:
     confirmed_by: subagent-laag2-ronde2
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:29Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:17Z'
       heading_count: 42
       max_section_chars: 23704
       file_size_chars: 81363

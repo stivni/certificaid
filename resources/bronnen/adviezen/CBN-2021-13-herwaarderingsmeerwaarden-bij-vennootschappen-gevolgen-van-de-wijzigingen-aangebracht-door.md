@@ -16,37 +16,45 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-fusies-tussen-vennootschappen
 nummer: CBN-advies 2021/13
 provenance:
-  generated_at: '2026-05-11T13:05:08Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/herwaarderingsmeerwaarden-bij-vennootschappen-gevolgen-van-de-wijzigingen-aangebracht-door
       sha256: 3404a5a64eca3f15bc7f710f31423f847aae9a6d9d904376821ec4f9a166b287
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:12Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at:
-    confirmed_by:
+    status: needs-rework
+    confirmed_at: '2026-05-11T13:34:12Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "B2: op regel 114 staat '### 1° verhoogd met het bedrag van de omgezette herwaarderingsmeerwaarde' — een genummerd lijstelement ('1°') is als ### heading opgemaakt i.p.v. als list item, wat een hiërarchiesprong veroorzaakt (H3 zonder voorafgaande logische sectionering). D4: op regel 148 staat 'rekening* 1109 Andere beschikbare inbreng buiten kapitaal*' met een spatie na 'rekening' vóór de italic-opener. Verder zijn inhoud, voetnoten (28 aanwezig) en alle overige headings (12) correct."
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:30Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:18Z'
       heading_count: 12
       max_section_chars: 7266
       file_size_chars: 21904
       flags: []
     layer2:
-      agent:
-      concrete_problemen: []
-      rationale:
-      run_at:
-      status: not_run
-    rationale: 'Trust gereset 2026-05-11: re-scrape met scraper-fixes, content-diff > 5%'
-    status: unreviewed
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:34:12Z'
+      rationale: "B2: op regel 114 staat '### 1° verhoogd met het bedrag van de omgezette herwaarderingsmeerwaarde' — een genummerd lijstelement ('1°') is als ### heading opgemaakt i.p.v. als list item, wat een hiërarchiesprong veroorzaakt (H3 zonder voorafgaande logische sectionering). D4: op regel 148 staat 'rekening* 1109 Andere beschikbare inbreng buiten kapitaal*' met een spatie na 'rekening' vóór de italic-opener. Verder zijn inhoud, voetnoten (28 aanwezig) en alle overige headings (12) correct."
+      concrete_problemen:
+        - regel: 114
+          categorie: B2
+          type: other
+          voorbeeld: '### 1° verhoogd met het bedrag van de omgezette herwaarderingsmeerwaarde, en'
+        - regel: 148
+          categorie: D4
+          type: other
+          voorbeeld: rekening* 1109 Andere beschikbare inbreng buiten kapitaal*
 themas:
   - herwaarderingsmeerwaarde
   - niet-gerealiseerde meerwaarde

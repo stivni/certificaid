@@ -3,53 +3,49 @@ bron: https://www.cbn-cnc.be/nl/adviezen/duolegaat-vereniging-en-stichting
 datum: 2018-12-10
 nummer: CBN-advies 2018/24
 provenance:
-  generated_at: '2026-05-11T13:05:08Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/duolegaat-vereniging-en-stichting
       sha256: 0baac9477a5f841ed3e769b0073d43138b4b533987a1590f4990f4c6088b39f4
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:12Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T12:21:40Z'
+    status: needs-rework
+    confirmed_at: '2026-05-11T13:34:12Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: 'A3: TOC op regels 64-74 staat als plain-text nummerlijst in de body; regel 74 bevat een aaneengesloten TOC-concatenatie (`vereniging of stichting-- Duolegaat in geld-- Duolegaat in natura...`) die niet werd opgeschoond. D4: `*duolegaat *` (spatie vóór sluitende asterisk) op regels 80, 82, 87, 95, 97, 101, 103, 105, 119, 128, 154 — stelselmatig fout italic-sluiting.'
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:30Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:17Z'
       heading_count: 7
       max_section_chars: 4775
       file_size_chars: 14726
       flags: []
     layer2:
+      status: needs-rework
       agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:34:12Z'
+      rationale: 'A3: TOC op regels 64-74 staat als plain-text nummerlijst in de body; regel 74 bevat een aaneengesloten TOC-concatenatie (`vereniging of stichting-- Duolegaat in geld-- Duolegaat in natura...`) die niet werd opgeschoond. D4: `*duolegaat *` (spatie vóór sluitende asterisk) op regels 80, 82, 87, 95, 97, 101, 103, 105, 119, 128, 154 — stelselmatig fout italic-sluiting.'
       concrete_problemen:
-        - categorie: A3
-          regel: 58
+        - regel: 74
+          categorie: A3
           type: other
           voorbeeld: vereniging of stichting-- Duolegaat in geld-- Duolegaat in naturaBoekhoudkundige verwerking...
-        - categorie: D4
-          regel: 64
+        - regel: 80
+          categorie: D4
           type: other
-          voorbeeld: Het *duolegaat *is een bepaling in het testament
-        - categorie: D4
-          regel: 66
+          voorbeeld: 'Het *duolegaat* is een bepaling... (correct) vs regel 82: Bij het *klassieke duolegaat *wordt'
+        - regel: 87
+          categorie: D4
           type: other
-          voorbeeld: Bij het *klassieke duolegaat *wordt de nalatenschap
-        - categorie: D4
-          regel: 79
-          type: other
-          voorbeeld: De door een kleine vereniging of stichting als *duolegaat *ontvangen sommen
-      rationale: 'A3: TOC op regels 48-58 staat als plain-text in de body; regel 58 bevat een aaneengesloten concatenatie van alle TOC-subpunten op één regel (`vereniging of stichting-- Duolegaat in geld-- Duolegaat in natura...`). D4: `*duolegaat *` (spatie vóór sluitende `*`) op meerdere plaatsen (regels 64, 66, 67, 71, 79, 80, 82, 88, 90). Tabellen en inhoud zijn volledig correct.'
-      run_at: '2026-05-11T12:21:40Z'
-      status: needs-rework
-    rationale: 'A3: TOC op regels 48-58 staat als plain-text in de body; regel 58 bevat een aaneengesloten concatenatie van alle TOC-subpunten op één regel (`vereniging of stichting-- Duolegaat in geld-- Duolegaat in natura...`). D4: `*duolegaat *` (spatie vóór sluitende `*`) op meerdere plaatsen (regels 64, 66, 67, 71, 79, 80, 82, 88, 90). Tabellen en inhoud zijn volledig correct.'
-    status: needs-rework
+          voorbeeld: Bij een* omgekeerd duolegaat* wordt — spatie voor openende asterisk
 themas:
   - duolegaat
   - nalatenschap

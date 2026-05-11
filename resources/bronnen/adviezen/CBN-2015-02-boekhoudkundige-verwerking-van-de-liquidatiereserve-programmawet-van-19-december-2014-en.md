@@ -3,41 +3,41 @@ bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-liqui
 datum: 2015-05-13
 nummer: CBN-advies 2015/2
 provenance:
-  generated_at: '2026-05-11T13:05:08Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-liquidatiereserve-programmawet-van-19-december-2014-en
       sha256: 284bcf355d8ced868b3296ca519b49b8f00b40e11883ddf22d0d7408caf4b298
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:12Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T12:16:34Z'
+    status: needs-rework
+    confirmed_at: '2026-05-11T13:30:32Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: "E2: tabelrij op regels 189–190 is gesplitst over twee regels — '| aan | 130X | Wettelijke reserve – artikel 184quater WIB 92\\n (31/12/N) | | 40 |' — de cel breekt midden in de tekst, wat de pipe-tabel syntactisch ongeldig maakt. Overige inhoud en tabellen volledig correct."
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:29Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:16Z'
       heading_count: 15
       max_section_chars: 9286
       file_size_chars: 13763
       flags: []
     layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: E2
-          regel: 193
-          type: other
-          voorbeeld: '| aan | 130X | Wettelijke reserve – artikel 184quater WIB 92\n (31/12/N) | | 40 |'
-      rationale: 'E2: tabelrij op regel 193–194 is gesplitst over twee regels (''Wettelijke reserve – artikel 184quater WIB 92\n (31/12/N)''), waardoor de pipe-tabel syntactisch breekt en één cel verdeeld is over twee regels. Verder is de inhoud volledig en geen andere artefacten zichtbaar.'
-      run_at: '2026-05-11T12:16:34Z'
       status: needs-rework
-    rationale: 'E2: tabelrij op regel 193–194 is gesplitst over twee regels (''Wettelijke reserve – artikel 184quater WIB 92\n (31/12/N)''), waardoor de pipe-tabel syntactisch breekt en één cel verdeeld is over twee regels. Verder is de inhoud volledig en geen andere artefacten zichtbaar.'
-    status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:30:32Z'
+      rationale: "E2: tabelrij op regels 189–190 is gesplitst over twee regels — '| aan | 130X | Wettelijke reserve – artikel 184quater WIB 92\\n (31/12/N) | | 40 |' — de cel breekt midden in de tekst, wat de pipe-tabel syntactisch ongeldig maakt. Overige inhoud en tabellen volledig correct."
+      concrete_problemen:
+        - regel: 189
+          categorie: E2
+          type: other
+          voorbeeld: '| aan | 130X | Wettelijke reserve – artikel 184quater WIB 92\n (31/12/N) | | 40 | — cel over twee regels'
 themas:
   - afzonderlijke aanslag
   - belastingen

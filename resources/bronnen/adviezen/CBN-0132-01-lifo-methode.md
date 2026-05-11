@@ -7,37 +7,37 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/boeking-en-waardering-van-voorraden
 nummer: CBN-advies 132/1
 provenance:
-  generated_at: '2026-05-11T13:05:06Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/lifo-methode
       sha256: 9f5dad87edeed60e2c6f4377a949f8eaa9c5cf16599cade262c83a1c4d968415
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:10Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at:
-    confirmed_by:
+    status: trusted
+    confirmed_at: '2026-05-11T13:16:02Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: 'Korte maar volledige proza-tekst (6967 chars, één sectie). Geen headings nodig voor dit formaat — het advies is één aaneengesloten redenering. Geen A- of B-categorie-artefacten gevonden: geen spurious line-breaks, geen onzichtbare unicode, geen OCR-fouten, geen afgekapte zinnen. Inhoud sluit logisch af met de conclusie over artikel 43 KB W.Venn.'
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:25Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:14Z'
       heading_count: 0
       max_section_chars: 6967
       file_size_chars: 6967
       flags: []
     layer2:
-      agent:
+      status: trusted
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:16:02Z'
+      rationale: 'Korte maar volledige proza-tekst (6967 chars, één sectie). Geen headings nodig voor dit formaat — het advies is één aaneengesloten redenering. Geen A- of B-categorie-artefacten gevonden: geen spurious line-breaks, geen onzichtbare unicode, geen OCR-fouten, geen afgekapte zinnen. Inhoud sluit logisch af met de conclusie over artikel 43 KB W.Venn.'
       concrete_problemen: []
-      rationale:
-      run_at:
-      status: not_run
-    rationale: 'Trust gereset 2026-05-11: re-scrape met scraper-fixes, content-diff > 5%'
-    status: unreviewed
 themas:
   - fifo-methode
   - gewogen gemiddelde prijs

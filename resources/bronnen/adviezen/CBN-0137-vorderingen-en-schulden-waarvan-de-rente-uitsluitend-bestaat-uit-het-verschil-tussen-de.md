@@ -16,45 +16,37 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/schulden-op-meer-dan-een-jaar-waarvoor-geen-of-slechts-een-abnormaal-lage-rente
 nummer: CBN-advies 137/5
 provenance:
-  generated_at: '2026-05-11T13:05:06Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/vorderingen-en-schulden-waarvan-de-rente-uitsluitend-bestaat-uit-het-verschil-tussen-de
       sha256: 9bc74326dd3c0b83505ac7e0ed2677f8405c30dc5d4a5da2356828a4245f91f0
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:10Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T12:04:41Z'
+    status: trusted
+    confirmed_at: '2026-05-11T13:23:03Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: 'Vorige verdict (B3 duplicate) was onjuist: de body bevat slechts één H1 (regel 63) en daarna aaneengesloten proza zonder verdere headings. Geen ETL-artefacten, geen afgekapte zinnen, italics correct (*bis*, *cf*). Inhoud volledig voor dit advies uit 1986 dat geen voetnoten bevat.'
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:26Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:14Z'
       heading_count: 0
       max_section_chars: 3879
       file_size_chars: 3879
       flags: []
     layer2:
+      status: trusted
       agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: B3
-          regel: 55
-          type: other
-          voorbeeld: '# CBN advies 137/5 - Vorderingen (en schulden) waarvan de rente uitsluitend bestaat uit het verschil tussen de nominale waarde (of terugbetalingsprijs) en de uitgifteprijs'
-        - categorie: B3
-          regel: 57
-          type: other
-          voorbeeld: '# CBN advies 137/5 - Vorderingen (en schulden) waarvan de rente uitsluitend bestaat uit het verschil tussen de nominale waarde (of terugbetalingsprijs) en de uitgifteprijs'
-      rationale: 'B3: duplicate page-title-heading op regels 55 en 57 (identieke H1 tweemaal). Verder is de inhoud compleet en goed leesbaar; geen voetnoten aanwezig wat correct is voor dit advies uit 1986.'
-      run_at: '2026-05-11T12:04:41Z'
-      status: needs-rework
-    rationale: 'B3: duplicate page-title-heading op regels 55 en 57 (identieke H1 tweemaal). Verder is de inhoud compleet en goed leesbaar; geen voetnoten aanwezig wat correct is voor dit advies uit 1986.'
-    status: needs-rework
+      run_at: '2026-05-11T13:23:03Z'
+      rationale: 'Vorige verdict (B3 duplicate) was onjuist: de body bevat slechts één H1 (regel 63) en daarna aaneengesloten proza zonder verdere headings. Geen ETL-artefacten, geen afgekapte zinnen, italics correct (*bis*, *cf*). Inhoud volledig voor dit advies uit 1986 dat geen voetnoten bevat.'
+      concrete_problemen: []
 themas:
   - nominale waarde
   - vordering

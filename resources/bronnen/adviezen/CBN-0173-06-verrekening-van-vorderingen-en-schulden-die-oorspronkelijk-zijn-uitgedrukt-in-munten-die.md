@@ -3,45 +3,45 @@ bron: https://www.cbn-cnc.be/nl/adviezen/verrekening-van-vorderingen-en-schulden
 datum: 1998-02-01
 nummer: CBN-advies 173/6
 provenance:
-  generated_at: '2026-05-11T13:05:06Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/verrekening-van-vorderingen-en-schulden-die-oorspronkelijk-zijn-uitgedrukt-in-munten-die
       sha256: c41f6a3cb0ae587f1e4b5b000235dc2a3bbe9337683fe765717feeee60ab3365
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:10Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T12:09:17Z'
+    status: needs-rework
+    confirmed_at: '2026-05-11T13:23:04Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: "A6: zin op r.85-87 breekt na 'mogen dus niet' met een lege regel, vervolgt op de volgende regel met 'langer, voor het overeenstemmende bedrag...' — duidelijke PDF-regelbreuk midden in een alinea. F1: frontmatter-thema 'erfpa' (r.49) is een afgekapt label, vermoedelijk 'erfpacht' of een aanverwant concept — extractie-artefact in de thema-scraping. Overige inhoud volledig en correct."
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:26Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:15Z'
       heading_count: 3
       max_section_chars: 3425
       file_size_chars: 7820
       flags: []
     layer2:
+      status: needs-rework
       agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:23:04Z'
+      rationale: "A6: zin op r.85-87 breekt na 'mogen dus niet' met een lege regel, vervolgt op de volgende regel met 'langer, voor het overeenstemmende bedrag...' — duidelijke PDF-regelbreuk midden in een alinea. F1: frontmatter-thema 'erfpa' (r.49) is een afgekapt label, vermoedelijk 'erfpacht' of een aanverwant concept — extractie-artefact in de thema-scraping. Overige inhoud volledig en correct."
       concrete_problemen:
-        - categorie: F1
-          regel: 8
+        - regel: 85
+          categorie: A6
+          type: other
+          voorbeeld: "...mogen dus niet \n\nlanger, voor het overeenstemmende bedrag, voorkomen in de balans..."
+        - regel: 49
+          categorie: F1
           type: other
           voorbeeld: '- erfpa (afgekapt thema-label in frontmatter)'
-        - categorie: A6
-          regel: 77
-          type: other
-          voorbeeld: '...mogen dus niet\n\nlanger, voor het overeenstemmende bedrag, voorkomen...'
-      rationale: 'Twee problemen: (1) A6: zin op r.77-79 breekt na ''mogen dus niet'' met witregel, vervolgt op r.79 met ''langer...'' — duidelijke PDF-regelbreuk. (2) Frontmatter-thema ''erfpa'' op r.8 is een afgekapt label (vermoedelijk ''erfpacht'' of gerelateerd concept), wat wijst op een extractie-bug in de thema-scraping.'
-      run_at: '2026-05-11T12:09:17Z'
-      status: needs-rework
-    rationale: 'Twee problemen: (1) A6: zin op r.77-79 breekt na ''mogen dus niet'' met witregel, vervolgt op r.79 met ''langer...'' — duidelijke PDF-regelbreuk. (2) Frontmatter-thema ''erfpa'' op r.8 is een afgekapt label (vermoedelijk ''erfpacht'' of gerelateerd concept), wat wijst op een extractie-bug in de thema-scraping.'
-    status: needs-rework
 themas:
   - verrekening van vorderingen en schulden
   - vordering

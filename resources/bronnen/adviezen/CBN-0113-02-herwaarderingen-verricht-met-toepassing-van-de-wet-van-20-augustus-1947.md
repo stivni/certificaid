@@ -16,7 +16,7 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/gerealiseerde-meerwaarden-waarvoor-de-uitgestelde-belastingregeling-geldt
 nummer: CBN-advies 113/2
 provenance:
-  generated_at: '2026-05-11T13:05:05Z'
+  generated_at: '2026-05-11T13:15:10Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/herwaarderingen-verricht-met-toepassing-van-de-wet-van-20-augustus-1947
       sha256: b926b44b89a5bd144b86ff6e7bf5966d956a51c30621cb87e84db438af66d14f
@@ -33,8 +33,8 @@ provenance:
     confirmed_by: human
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:24Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:13Z'
       heading_count: 0
       max_section_chars: 2781
       file_size_chars: 2781

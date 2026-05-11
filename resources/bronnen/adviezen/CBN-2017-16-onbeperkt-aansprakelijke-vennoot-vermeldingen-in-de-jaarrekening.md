@@ -3,37 +3,49 @@ bron: https://www.cbn-cnc.be/nl/adviezen/onbeperkt-aansprakelijke-vennoot-vermel
 datum: 2017-09-13
 nummer: CBN-advies 2017/16
 provenance:
-  generated_at: '2026-05-11T13:05:08Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/onbeperkt-aansprakelijke-vennoot-vermeldingen-in-de-jaarrekening
       sha256: 20d910d026c92012c57fcec04e4d61a64ca89bb59dcdd172671d0fee330df66f
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:12Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at:
-    confirmed_by:
+    status: needs-rework
+    confirmed_at: '2026-05-11T13:30:33Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "B5: twee heading-achtige regels zonder ## prefix: regel 105 ('Opname van de jaarrekening van de ondernemingen waarvoor de onbeperkte aansprakelijkheid geldt') en regel 137 ('Op welke wijze moeten de jaarrekeningen in het apart document of in de toelichting worden gepresenteerd') — beiden staan als plain-text in de body terwijl ze in de inhoudstafel als sectiehoofd vermeld staan. A3: de genummerde inhoudstafel op regels 47-66 staat als body-tekst vóór de eerste ## heading, maar is ook al inhoud van de TOC — dubbele presentatie van structuur."
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:29Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:17Z'
       heading_count: 15
       max_section_chars: 11951
       file_size_chars: 21300
       flags: []
     layer2:
-      agent:
-      concrete_problemen: []
-      rationale:
-      run_at:
-      status: not_run
-    rationale: 'Trust gereset 2026-05-11: re-scrape met scraper-fixes, content-diff > 5%'
-    status: unreviewed
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:30:33Z'
+      rationale: "B5: twee heading-achtige regels zonder ## prefix: regel 105 ('Opname van de jaarrekening van de ondernemingen waarvoor de onbeperkte aansprakelijkheid geldt') en regel 137 ('Op welke wijze moeten de jaarrekeningen in het apart document of in de toelichting worden gepresenteerd') — beiden staan als plain-text in de body terwijl ze in de inhoudstafel als sectiehoofd vermeld staan. A3: de genummerde inhoudstafel op regels 47-66 staat als body-tekst vóór de eerste ## heading, maar is ook al inhoud van de TOC — dubbele presentatie van structuur."
+      concrete_problemen:
+        - regel: 105
+          categorie: B5
+          type: other
+          voorbeeld: Opname van de jaarrekening van de ondernemingen waarvoor de onbeperkte aansprakelijkheid geldt
+        - regel: 137
+          categorie: B5
+          type: other
+          voorbeeld: Op welke wijze moeten de jaarrekeningen in het apart document of in de toelichting worden gepresenteerd
+        - regel: 47
+          categorie: A3
+          type: other
+          voorbeeld: "1. Inleiding \n2. Onbeperkte aansprakelijkheid: overzicht \n... (inhoudsopgave als plain-text body)"
 themas:
   - onbeperkt aansprakelijk vennoot
   - toelichting

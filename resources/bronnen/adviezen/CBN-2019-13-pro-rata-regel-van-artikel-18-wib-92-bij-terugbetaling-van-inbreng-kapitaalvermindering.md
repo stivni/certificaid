@@ -3,53 +3,53 @@ bron: https://www.cbn-cnc.be/nl/adviezen/pro-rata-regel-van-artikel-18-wib-92-bi
 datum: 2019-11-21
 nummer: CBN-advies 2019/13
 provenance:
-  generated_at: '2026-05-11T13:05:08Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/pro-rata-regel-van-artikel-18-wib-92-bij-terugbetaling-van-inbreng-kapitaalvermindering
       sha256: 693c54c6facd7de15d4aa790eaee7926680f1bab37510af71555627545a6f0db
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:12Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T12:21:40Z'
+    status: needs-rework
+    confirmed_at: '2026-05-11T13:34:12Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: 'E1/E2: De drie grote HTML-tabellen (eigen vermogen boekhoudkundig vs fiscaal) zijn geëxtraheerd als sterk gefragmenteerde pipe-tabellen waarbij elke cel op een aparte lege rij staat (regels 159-403, 420-668, 756-919) — volledig onleesbaar als markdown. A3: TOC-artefact `-- Voorbeeld` op regel 74.'
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:30Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:18Z'
       heading_count: 9
       max_section_chars: 11083
       file_size_chars: 24013
       flags: []
     layer2:
+      status: needs-rework
       agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:34:12Z'
+      rationale: 'E1/E2: De drie grote HTML-tabellen (eigen vermogen boekhoudkundig vs fiscaal) zijn geëxtraheerd als sterk gefragmenteerde pipe-tabellen waarbij elke cel op een aparte lege rij staat (regels 159-403, 420-668, 756-919) — volledig onleesbaar als markdown. A3: TOC-artefact `-- Voorbeeld` op regel 74.'
       concrete_problemen:
-        - categorie: A3
-          regel: 58
+        - regel: 74
+          categorie: A3
           type: other
           voorbeeld: -- Voorbeeld
-        - categorie: E1
-          regel: 143
-          type: other
-          voorbeeld: '| \n\n  | | \n\nSamenstelling van het eigen vermogen op boekhoudkundig vlak\n\n  | | \n\nSamenstelling...'
-        - categorie: E1
-          regel: 405
-          type: other
-          voorbeeld: 'Tabel dividenduitkering 2019: cellen elk op aparte lege rij, onleesbare pipe-structuur'
-        - categorie: E1
-          regel: 741
-          type: other
-          voorbeeld: 'Tabel vrijwillige toepassing: zelfde patroon, ~160 gefragmenteerde rijen voor 5 datakolommen'
-      rationale: 'E1/E2: De HTML-tabellen zijn geëxtraheerd als sterk gefragmenteerde markdown-pipe-tabellen waarbij elke cel op een aparte lege rij staat (bijv. regels 143-388 en 405-651). Dit maakt de tabel onleesbaar als markdown — een mens zou de tabel in één blok schrijven. Daarnaast bevat de TOC (regels 46-58) een artefact-regel ''-- Voorbeeld'' die niet werd opgeschoond (A3).'
-      run_at: '2026-05-11T12:21:40Z'
-      status: needs-rework
-    rationale: 'E1/E2: De HTML-tabellen zijn geëxtraheerd als sterk gefragmenteerde markdown-pipe-tabellen waarbij elke cel op een aparte lege rij staat (bijv. regels 143-388 en 405-651). Dit maakt de tabel onleesbaar als markdown — een mens zou de tabel in één blok schrijven. Daarnaast bevat de TOC (regels 46-58) een artefact-regel ''-- Voorbeeld'' die niet werd opgeschoond (A3).'
-    status: needs-rework
+        - regel: 159
+          categorie: E1
+          type: pseudo-table
+          voorbeeld: "| \n\n  | | \n\nSamenstelling van het eigen vermogen op boekhoudkundig vlak\n\n  | |"
+        - regel: 420
+          categorie: E1
+          type: pseudo-table
+          voorbeeld: 'Dividenduitkering 2019-tabel: ~248 fragmentrijen voor 5 kolommen'
+        - regel: 756
+          categorie: E1
+          type: pseudo-table
+          voorbeeld: 'Vrijwillige toepassing-tabel: ~163 fragmentrijen voor 6 kolommen'
 themas:
   - terugbetaling inbreng
   - kapitaalvermindering

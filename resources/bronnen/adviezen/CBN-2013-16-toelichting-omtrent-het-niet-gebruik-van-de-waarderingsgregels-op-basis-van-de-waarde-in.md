@@ -13,7 +13,7 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/de-toepassing-van-de-algemene-boekhoudprincipes-op-afgeleide-financiele-instrumenten
 nummer: CBN-advies 2013/16
 provenance:
-  generated_at: '2026-05-11T13:05:08Z'
+  generated_at: '2026-05-11T13:15:12Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/toelichting-omtrent-het-niet-gebruik-van-de-waarderingsgregels-op-basis-van-de-waarde-in
       sha256: fe2d27317cdd6987339e2633ddabafb6344517363a83c3fd19f4b741d3f4c3b7
@@ -30,8 +30,8 @@ provenance:
     confirmed_by: human
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:28Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:16Z'
       heading_count: 4
       max_section_chars: 5542
       file_size_chars: 14859

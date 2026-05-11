@@ -7,37 +7,41 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/overboeking-van-winsten-naar-de-belastingvrije-reserves-verwerking-in-de-jaarrekening-van
 nummer: CBN-advies 128/5
 provenance:
-  generated_at: '2026-05-11T13:05:06Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/vrijstelling-investeringsreserves-controle-op-de-toepassing-van-het-boekhoudrecht
       sha256: 1f6cbbb2dc9091c13e3acd7ca6db923a1d5098e683b5a6f341ec91c68ac30ab7
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:10Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at:
-    confirmed_by:
+    status: needs-rework
+    confirmed_at: '2026-05-11T13:16:02Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "B3/B5: L49 bevat de titel als plain-text-alinea direct na de H1-heading (zelfde tekst, zonder '#'-prefix) — een ETL-artefact waarbij de paginatitel dubbel werd geëxtraheerd. Dit is een unreviewed bron; Laag 2 werd nog niet eerder uitgevoerd. Verder is de inhoud volledig en schoon."
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:25Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:14Z'
       heading_count: 1
       max_section_chars: 3913
       file_size_chars: 3913
       flags: []
     layer2:
-      agent:
-      concrete_problemen: []
-      rationale:
-      run_at:
-      status: not_run
-    rationale: 'Trust gereset 2026-05-11: re-scrape met scraper-fixes, content-diff > 5%'
-    status: unreviewed
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:16:02Z'
+      rationale: "B3/B5: L49 bevat de titel als plain-text-alinea direct na de H1-heading (zelfde tekst, zonder '#'-prefix) — een ETL-artefact waarbij de paginatitel dubbel werd geëxtraheerd. Dit is een unreviewed bron; Laag 2 werd nog niet eerder uitgevoerd. Verder is de inhoud volledig en schoon."
+      concrete_problemen:
+        - regel: 49
+          categorie: B3
+          type: other
+          voorbeeld: CBN-advies 128/5 - Vrijstelling investeringsreserves - Controle op de toepassing van het boekhoudrecht (plain text duplicate van H1)
 themas:
   - investeringreserve
   - leasing

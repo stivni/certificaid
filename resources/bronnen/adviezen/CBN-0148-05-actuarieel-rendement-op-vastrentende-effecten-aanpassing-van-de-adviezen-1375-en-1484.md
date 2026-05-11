@@ -7,49 +7,45 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/inresultaatneming-van-het-actuariele-rendement-van-vastrentende-effecten
 nummer: CBN-advies 148/5
 provenance:
-  generated_at: '2026-05-11T13:05:06Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/actuarieel-rendement-op-vastrentende-effecten-aanpassing-van-de-adviezen-1375-en-1484
       sha256: 9a05429dbe510b4e87feb0e2aabca76f9ed492da6f32da5e1fac2cd203f35761
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:10Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T12:04:41Z'
+    status: needs-rework
+    confirmed_at: '2026-05-11T13:23:03Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: "E2: regel 249 bevat een orphaned tabelrij '| | aan 751 Opbrengsten uit vlottende activa | 13.027 | | |' waarbij de 'aan'-cel is samengevoegd met rekening + omschrijving; regel 260 bevat een losstaande cijferrij '| | 124.553 | | | |' buiten tabelcontext. D4 bold-space-issue (10 instanties) is gefixeerd."
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:26Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:15Z'
       heading_count: 7
       max_section_chars: 4403
       file_size_chars: 9364
       flags: []
     layer2:
+      status: needs-rework
       agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:23:03Z'
+      rationale: "E2: regel 249 bevat een orphaned tabelrij '| | aan 751 Opbrengsten uit vlottende activa | 13.027 | | |' waarbij de 'aan'-cel is samengevoegd met rekening + omschrijving; regel 260 bevat een losstaande cijferrij '| | 124.553 | | | |' buiten tabelcontext. D4 bold-space-issue (10 instanties) is gefixeerd."
       concrete_problemen:
-        - categorie: D4
-          regel: 77
-          type: other
-          voorbeeld: '**Bij uitgifte ** (spatie vóór sluitende **, patroon herhaald op r.124,175,194,202,210,221,229,239,250)'
-        - categorie: E2
-          regel: 237
+        - regel: 249
+          categorie: E2
           type: other
           voorbeeld: '| | aan 751 Opbrengsten uit vlottende activa | 13.027 | | |'
-        - categorie: E2
-          regel: 248
+        - regel: 260
+          categorie: E2
           type: other
-          voorbeeld: '| | 124.553 | | | | (orphaned cijfer-rij buiten tabelverband)'
-      rationale: 'D4: talrijke bold-labels met spatie vóór sluitende ** (''**Bij uitgifte **'', ''**Bij de terugbetaling **'', etc. — 10 instanties). E2: regel 237 bevat een malformed tabelrij ''| | aan 751 Opbrengsten uit vlottende activa | 13.027 | | |'' waar de ''aan''-cel is samengevoegd met rekening+omschrijving. E2: regel 248 bevat orphaned ''| | 124.553 | | | |'' als standalone cijfer-rij buiten tabelcontext.'
-      run_at: '2026-05-11T12:04:41Z'
-      status: needs-rework
-    rationale: 'D4: talrijke bold-labels met spatie vóór sluitende ** (''**Bij uitgifte **'', ''**Bij de terugbetaling **'', etc. — 10 instanties). E2: regel 237 bevat een malformed tabelrij ''| | aan 751 Opbrengsten uit vlottende activa | 13.027 | | |'' waar de ''aan''-cel is samengevoegd met rekening+omschrijving. E2: regel 248 bevat orphaned ''| | 124.553 | | | |'' als standalone cijfer-rij buiten tabelcontext.'
-    status: needs-rework
+          voorbeeld: '| | 124.553 | | | |'
 themas:
   - actuarieel rendement op vastrentende effecten
   - actuariële rendement

@@ -7,61 +7,53 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/actuarieel-rendement-op-vastrentende-effecten-aanpassing-van-de-adviezen-1375-en-1484
 nummer: CBN-advies 148/4
 provenance:
-  generated_at: '2026-05-11T13:05:06Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/boeking-van-de-prorata-van-gelopen-interest-op-obligaties-en-kasbons
       sha256: 271cb09439663de1bf18f686e3ae538c62fcc7f80f360d78bad5764e2d849ceb
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:10Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T12:04:41Z'
+    status: needs-rework
+    confirmed_at: '2026-05-11T13:23:03Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: "E2: regel 242 bevat een extra pipe ('| aan | | 52 | Vastrentende effecten | 1.000.000 |') waardoor de tabelstructuur afwijkt van de header. A9: regel 288 '| | 55 | Kreditinstellingen | 1.351.975 | |' — 'Kreditinstellingen' i.p.v. 'Kredietinstellingen' zoals consequent elders. D3: voetnootdefinities [^3] en [^4] aanwezig op regels 300-302 maar hebben geen overeenkomstige inline-referenties in de body (omgekeerd weesje). B1: heading '### 31.12.1987 : 80 000' op regel 197 is alleen een datum en getal, geen omschrijvende heading-tekst."
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:26Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:15Z'
       heading_count: 4
       max_section_chars: 6728
       file_size_chars: 11430
       flags: []
     layer2:
+      status: needs-rework
       agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:23:03Z'
+      rationale: "E2: regel 242 bevat een extra pipe ('| aan | | 52 | Vastrentende effecten | 1.000.000 |') waardoor de tabelstructuur afwijkt van de header. A9: regel 288 '| | 55 | Kreditinstellingen | 1.351.975 | |' — 'Kreditinstellingen' i.p.v. 'Kredietinstellingen' zoals consequent elders. D3: voetnootdefinities [^3] en [^4] aanwezig op regels 300-302 maar hebben geen overeenkomstige inline-referenties in de body (omgekeerd weesje). B1: heading '### 31.12.1987 : 80 000' op regel 197 is alleen een datum en getal, geen omschrijvende heading-tekst."
       concrete_problemen:
-        - categorie: B3
-          regel: 59
-          type: other
-          voorbeeld: '# CBN advies 148-4 - Boeking van de prorata... (identiek herhaald op r.57 en r.59)'
-        - categorie: E2
-          regel: 223
+        - regel: 242
+          categorie: E2
           type: other
           voorbeeld: '| aan | | 52 | Vastrentende effecten | 1.000.000 |'
-        - categorie: D3
-          regel: 118
-          type: other
-          voorbeeld: ' [^3] (standalone regel als caption, geen inline referentie)'
-        - categorie: D3
-          regel: 199
-          type: other
-          voorbeeld: "\t[^4] (standalone regel als caption, geen inline referentie)"
-        - categorie: D4
-          regel: 114
-          type: other
-          voorbeeld: '**Voor de verkoper ** (spatie vóór sluitende **)'
-        - categorie: A9
-          regel: 269
+        - regel: 288
+          categorie: A9
           type: ocr-confusion
           voorbeeld: '| | 55 | Kreditinstellingen | 1.351.975 | |'
-      rationale: 'B3: regels 57-59 bevatten een exacte duplicate page-title-heading (bekend patroon). E2: regel 223 heeft een malformed tabelrij ''aan | | 52'' met een extra pipe. D3: regels 118 en 199 bevatten orphaned '' [^3]'' en ''[^4]'' als standalone regels midden in de body in plaats van inline in de zin. D4: regel 114 heeft ''**Voor de verkoper **'' met spatie vóór sluitende **. A9: regel 269 ''Kreditinstellingen'' vs ''Kredietinstellingen'' elders.'
-      run_at: '2026-05-11T12:04:41Z'
-      status: needs-rework
-    rationale: 'B3: regels 57-59 bevatten een exacte duplicate page-title-heading (bekend patroon). E2: regel 223 heeft een malformed tabelrij ''aan | | 52'' met een extra pipe. D3: regels 118 en 199 bevatten orphaned '' [^3]'' en ''[^4]'' als standalone regels midden in de body in plaats van inline in de zin. D4: regel 114 heeft ''**Voor de verkoper **'' met spatie vóór sluitende **. A9: regel 269 ''Kreditinstellingen'' vs ''Kredietinstellingen'' elders.'
-    status: needs-rework
+        - regel: 300
+          categorie: D3
+          type: other
+          voorbeeld: '[^3]: Roerende voorheffing van 25 %. (geen inline-referentie in body)'
+        - regel: 197
+          categorie: B1
+          type: other
+          voorbeeld: '### 31.12.1987 : 80 000'
 themas:
   - kapitalisatiebon
   - kasbon

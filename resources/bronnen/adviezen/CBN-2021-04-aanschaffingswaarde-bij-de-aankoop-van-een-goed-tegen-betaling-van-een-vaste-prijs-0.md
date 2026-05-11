@@ -16,65 +16,65 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-immateriele-vaste-activa
 nummer: CBN-advies 2021/04
 provenance:
-  generated_at: '2026-05-11T13:05:08Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/aanschaffingswaarde-bij-de-aankoop-van-een-goed-tegen-betaling-van-een-vaste-prijs-0
       sha256: c4e6106b615995e9ac67c66426827f415bfb5b91cf0f66808d2b180c1b720ad6
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:12Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T12:21:40Z'
+    status: needs-rework
+    confirmed_at: '2026-05-11T13:34:12Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: "D3: Zes orphan footnote-markers ([^6], [^7], [^8], [^9], [^10], [^11]) staan als losstaande regels tussen de boekingstabellen (regels 116, 123, 132, 139, 153, 160) — anchor-verwijzingen naar tabel-contextuele noten op een eigen lege regel zonder bijbehorende inline tekst. A6: Regel 117 breekt de zin 'De financiële component[^4]\\n van de verrichting...' over twee regels doordat het footnote-anker de regelbreuk veroorzaakt."
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:30Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:18Z'
       heading_count: 7
       max_section_chars: 4853
       file_size_chars: 11956
       flags: []
     layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: D3
-          regel: 116
-          type: other
-          voorbeeld: ' [^6]'
-        - categorie: D3
-          regel: 123
-          type: other
-          voorbeeld: '[^7]'
-        - categorie: D3
-          regel: 132
-          type: other
-          voorbeeld: ' [^8]'
-        - categorie: D3
-          regel: 139
-          type: other
-          voorbeeld: '[^9]'
-        - categorie: D3
-          regel: 153
-          type: other
-          voorbeeld: ' [^10]'
-        - categorie: D3
-          regel: 160
-          type: other
-          voorbeeld: '[^11]'
-        - categorie: A6
-          regel: 91
-          type: other
-          voorbeeld: De financiële component[^4]\n van de verrichting wordt gespreid…
-      rationale: 'D3: zes orphan footnote-markers ([^6], [^7], [^8], [^9], [^10], [^11]) staan als losstaande regels tussen de boekingstabellen (L116, L123, L132, L139, L153, L160); ze zijn anchor-verwijzingen die de tabel-contextuele noot aanduiden maar er is geen bijbehorende voetnootdefinitie op dezelfde plek — een mens zou dat nooit zo typen. A6: footnote-anker splitst een zin over twee regels (L91–L92: ''De financiële component[^4]\n van de verrichting…''). Inhoud is volledig en correct gestructureerd.'
-      run_at: '2026-05-11T12:21:40Z'
       status: needs-rework
-    rationale: 'D3: zes orphan footnote-markers ([^6], [^7], [^8], [^9], [^10], [^11]) staan als losstaande regels tussen de boekingstabellen (L116, L123, L132, L139, L153, L160); ze zijn anchor-verwijzingen die de tabel-contextuele noot aanduiden maar er is geen bijbehorende voetnootdefinitie op dezelfde plek — een mens zou dat nooit zo typen. A6: footnote-anker splitst een zin over twee regels (L91–L92: ''De financiële component[^4]\n van de verrichting…''). Inhoud is volledig en correct gestructureerd.'
-    status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:34:12Z'
+      rationale: "D3: Zes orphan footnote-markers ([^6], [^7], [^8], [^9], [^10], [^11]) staan als losstaande regels tussen de boekingstabellen (regels 116, 123, 132, 139, 153, 160) — anchor-verwijzingen naar tabel-contextuele noten op een eigen lege regel zonder bijbehorende inline tekst. A6: Regel 117 breekt de zin 'De financiële component[^4]\\n van de verrichting...' over twee regels doordat het footnote-anker de regelbreuk veroorzaakt."
+      concrete_problemen:
+        - regel: 116
+          categorie: D3
+          type: other
+          voorbeeld: '[^6] (orphan footnote-marker als losstaande regel na boekingstabel)'
+        - regel: 123
+          categorie: D3
+          type: other
+          voorbeeld: '[^7] (idem)'
+        - regel: 132
+          categorie: D3
+          type: other
+          voorbeeld: '[^8] (idem)'
+        - regel: 139
+          categorie: D3
+          type: other
+          voorbeeld: '[^9] (idem)'
+        - regel: 153
+          categorie: D3
+          type: other
+          voorbeeld: '[^10] (idem)'
+        - regel: 160
+          categorie: D3
+          type: other
+          voorbeeld: '[^11] (idem)'
+        - regel: 117
+          categorie: A6
+          type: other
+          voorbeeld: De financiële component[^4]\n van de verrichting wordt gespreid...
 themas:
   - aanschaffingswaarde
   - abnormaal lage rente

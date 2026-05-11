@@ -3,37 +3,37 @@ bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-interest
 datum: 2022-08-29
 nummer: CBN-advies 2022/10
 provenance:
-  generated_at: '2026-05-11T13:05:09Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-interesten-en-andere-bedragen-verschuldigd-wegens
       sha256: 075e298a2435b2d63709d0aba4d9917bdc9017d10a07a1c9b57b150012a3505e
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:12Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at:
-    confirmed_by:
+    status: trusted
+    confirmed_at: '2026-05-11T13:34:13Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: Geen artefacten gevonden in alle categorieën A–G. Headings correct hiërarchisch (4 niveaus consistent). Journaalboekingen correct in pipe-tabel syntax. 39 voetnoten volledig aanwezig. Afwijkend standpunt correct als eigen sectie opgenomen. Een buitenstaander zou dit voor mens-geschreven houden.
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:30Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:18Z'
       heading_count: 19
       max_section_chars: 8455
       file_size_chars: 25835
       flags: []
     layer2:
-      agent:
+      status: trusted
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:34:13Z'
+      rationale: Geen artefacten gevonden in alle categorieën A–G. Headings correct hiërarchisch (4 niveaus consistent). Journaalboekingen correct in pipe-tabel syntax. 39 voetnoten volledig aanwezig. Afwijkend standpunt correct als eigen sectie opgenomen. Een buitenstaander zou dit voor mens-geschreven houden.
       concrete_problemen: []
-      rationale:
-      run_at:
-      status: not_run
-    rationale: 'Trust gereset 2026-05-11: re-scrape met scraper-fixes, content-diff > 5%'
-    status: unreviewed
 themas:
   - betalingsachterstand
   - laattijdige betaling

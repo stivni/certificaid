@@ -16,41 +16,37 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/verplichtingen-voortvloeiend-uit-brugpensioen
 nummer: CBN-advies 107/9
 provenance:
-  generated_at: '2026-05-11T13:05:05Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/vaststelling-van-het-bedrag-van-een-voorziening-voor-pensioenen-of-brugpensioenen
       sha256: 026465f0ae0b5f1a6459175ff87cf60dcfb40d52954cccd1acadd0d1b91ffc21
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:10Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T11:57:45Z'
+    status: trusted
+    confirmed_at: '2026-05-11T13:16:02Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: "Prior layer2 verdict (needs-rework, D4) is onjuist: '1987[^1] tot wijziging van het jaarrekeningbesluit...' staat volledig inline op regel 70 — geen gebroken newline. Voetnoot [^1] heeft definitie op regel 76. Body is volledig, geen artefacten aangetroffen."
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:24Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:13Z'
       heading_count: 0
       max_section_chars: 2215
       file_size_chars: 2215
       flags: []
     layer2:
+      status: trusted
       agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: D4
-          regel: 66
-          type: other
-          voorbeeld: "koninklijk besluit van 6 november 1987[^1]\n tot wijziging van het jaarrekeningbesluit..."
-      rationale: 'D4-artefact op regel 66-67: de lange zin eindigend op ''1987[^1]'' gevolgd door newline + spatie + '' tot wijziging van het jaarrekeningbesluit...'' — zelfde broken-footnote-marker-newline-spatie-patroon als in drie andere adviezen uit deze batch. ETL-fixbaar.'
-      run_at: '2026-05-11T11:57:45Z'
-      status: needs-rework
-    rationale: 'D4-artefact op regel 66-67: de lange zin eindigend op ''1987[^1]'' gevolgd door newline + spatie + '' tot wijziging van het jaarrekeningbesluit...'' — zelfde broken-footnote-marker-newline-spatie-patroon als in drie andere adviezen uit deze batch. ETL-fixbaar.'
-    status: needs-rework
+      run_at: '2026-05-11T13:16:02Z'
+      rationale: "Prior layer2 verdict (needs-rework, D4) is onjuist: '1987[^1] tot wijziging van het jaarrekeningbesluit...' staat volledig inline op regel 70 — geen gebroken newline. Voetnoot [^1] heeft definitie op regel 76. Body is volledig, geen artefacten aangetroffen."
+      concrete_problemen: []
 themas:
   - brugpensioen
   - pensioen

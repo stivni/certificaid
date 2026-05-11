@@ -10,49 +10,49 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/voorstelling-van-een-tabel-met-de-wijzigingen-in-het-eigen-vermogen-en-de-bestemming-van
 nummer: CBN-advies 133/3
 provenance:
-  generated_at: '2026-05-11T13:05:06Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/schulden-voortvloeiend-uit-de-bestemming-van-het-resultaat
       sha256: eeb181a25313d2f946b103d6ce4abb096651f4ec8382f7eec6018d461461c4ee
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:10Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T12:04:41Z'
+    status: needs-rework
+    confirmed_at: '2026-05-11T13:16:02Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: "Drie ETL-artefacten: (1) D4 op L75: '*Belastingen *' heeft een spatie vóór de sluitende asterisk (trailing space in italic span). (2) A6 op L75: 'bruto- bedrag' is een hyphen-spatie word-split. (3) A4 op L89: U+00AC (¬) als koppelteken in 'bruto¬schulden' — PDF-extractie-artefact. Alle drie zijn ETL-fixeerbaar."
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:25Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:14Z'
       heading_count: 0
       max_section_chars: 4040
       file_size_chars: 4040
       flags: []
     layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: D4
-          regel: 63
-          type: other
-          voorbeeld: '...onder de rubriek IX, E, 1 *Belastingen *en in het algemeen...'
-        - categorie: A6
-          regel: 63
-          type: other
-          voorbeeld: '...het bruto- bedrag moet worden vermeld...'
-        - categorie: A4
-          regel: 77
-          type: other
-          voorbeeld: '...De boeking van de bruto¬schulden die voortvloeien... (U+00AC)'
-      rationale: 'D4 op L63: *Belastingen * heeft een spatie vóór de sluitende asterisk. A4 op L77: U+00AC (¬) als koppelteken in ''bruto¬schulden''. A6 op L63: ''bruto- bedrag'' (hyphen-spatie word-split). Drie afzonderlijke categorieën met artefacten die elk ETL-fixeerbaar zijn.'
-      run_at: '2026-05-11T12:04:41Z'
       status: needs-rework
-    rationale: 'D4 op L63: *Belastingen * heeft een spatie vóór de sluitende asterisk. A4 op L77: U+00AC (¬) als koppelteken in ''bruto¬schulden''. A6 op L63: ''bruto- bedrag'' (hyphen-spatie word-split). Drie afzonderlijke categorieën met artefacten die elk ETL-fixeerbaar zijn.'
-    status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:16:02Z'
+      rationale: "Drie ETL-artefacten: (1) D4 op L75: '*Belastingen *' heeft een spatie vóór de sluitende asterisk (trailing space in italic span). (2) A6 op L75: 'bruto- bedrag' is een hyphen-spatie word-split. (3) A4 op L89: U+00AC (¬) als koppelteken in 'bruto¬schulden' — PDF-extractie-artefact. Alle drie zijn ETL-fixeerbaar."
+      concrete_problemen:
+        - regel: 75
+          categorie: D4
+          type: other
+          voorbeeld: rubriek IX, E, 1 *Belastingen *en in het algemeen rekeningenstelsel
+        - regel: 75
+          categorie: A6
+          type: other
+          voorbeeld: '...of het bruto- bedrag moet worden vermeld...'
+        - regel: 89
+          categorie: A4
+          type: other
+          voorbeeld: De boeking van de bruto¬schulden die voortvloeien... (U+00AC)
 themas:
   - bestemming van het resultaat van het boekjaar
   - betaalbaarstelling

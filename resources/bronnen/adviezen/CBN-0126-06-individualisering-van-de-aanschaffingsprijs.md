@@ -16,41 +16,37 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/bepaling-van-de-aanschaffingswaarde-van-activa-verkregen-onder-bezwarende-titel-of-om-niet
 nummer: CBN-advies 126/6
 provenance:
-  generated_at: '2026-05-11T13:05:05Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/individualisering-van-de-aanschaffingsprijs
       sha256: 6e700565eb112f2c86e015c9db3299cb25a551c4e7743f73c7274ecbba23ba17
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:10Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T11:57:45Z'
+    status: trusted
+    confirmed_at: '2026-05-11T13:16:02Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: Vorige Laag-2-ronde flagde B3 (duplicate heading op L58+60), maar bij her-lezing staat de enkelvoudige H1-heading correct op L62 in de body. De verwarring ontstond doordat de thema-entries in de frontmatter lijken op een titelherhaling, maar dat zijn metadata-velden. Geen duplicaat in de body. Inhoud volledig afgesloten met complete redenering.
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:25Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:14Z'
       heading_count: 0
       max_section_chars: 3053
       file_size_chars: 3053
       flags: []
     layer2:
+      status: trusted
       agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: B3
-          regel: 58
-          type: other
-          voorbeeld: '# CBN advies 126-6 - Individualisering van de aanschaffingsprijs (dubbel op regel 58+60)'
-      rationale: 'B3: dubbele page-title-heading op regels 58 en 60 (identieke tekst, duplicate-title-patroon). De rest van de inhoud is correct en volledig afgesloten — enkel de heading-duplicatie is een ETL-bug die eenvoudig te fixen is.'
-      run_at: '2026-05-11T11:57:45Z'
-      status: needs-rework
-    rationale: 'B3: dubbele page-title-heading op regels 58 en 60 (identieke tekst, duplicate-title-patroon). De rest van de inhoud is correct en volledig afgesloten — enkel de heading-duplicatie is een ETL-bug die eenvoudig te fixen is.'
-    status: needs-rework
+      run_at: '2026-05-11T13:16:02Z'
+      rationale: Vorige Laag-2-ronde flagde B3 (duplicate heading op L58+60), maar bij her-lezing staat de enkelvoudige H1-heading correct op L62 in de body. De verwarring ontstond doordat de thema-entries in de frontmatter lijken op een titelherhaling, maar dat zijn metadata-velden. Geen duplicaat in de body. Inhoud volledig afgesloten met complete redenering.
+      concrete_problemen: []
 themas:
   - aanschaffingsprijs
   - individualisering van de aanschaffingsprijs

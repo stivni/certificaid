@@ -10,7 +10,7 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/overheidssubsidies
 nummer: CBN-advies 2014/7
 provenance:
-  generated_at: '2026-05-11T13:05:08Z'
+  generated_at: '2026-05-11T13:15:12Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-subsidies-waarvan-de-toekenning-niet-gegarandeerd-is
       sha256: 129dce5ffd8bae1274c5c90703f3a21c45b14d1e92c28e39261279fbedb589d9
@@ -27,8 +27,8 @@ provenance:
     confirmed_by: subagent-sonnet-4-6
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:29Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:16Z'
       heading_count: 2
       max_section_chars: 4325
       file_size_chars: 7753

@@ -3,37 +3,57 @@ bron: https://www.cbn-cnc.be/nl/adviezen/aanvullende-aspecten-in-verband-met-de-
 datum: 1999-02-01
 nummer: CBN-advies 173/8
 provenance:
-  generated_at: '2026-05-11T13:05:06Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/aanvullende-aspecten-in-verband-met-de-boekhoudkundige-verwerking-van
       sha256: 878ca1049fadc02cc82f266a5b5ad4227e34e1134ca9e1336da3f1a305b8c127
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:10Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at:
-    confirmed_by:
+    status: needs-rework
+    confirmed_at: '2026-05-11T13:23:04Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "Meerdere extractie-artefacten: A6 op r.160-162 (zin breekt na 'overgangsperiode of een gedeelte' met lege regel, vervolgt met 'ervan ook de mogelijkheid'); tabel op r.105 heeft een losstaande '|' als headerrij zonder kolommen (E2); r.126 heeft een ###### H6-heading — extreme hiërarchiediepte (B2); r.148 bevat HTML-restant 'TD>' in een tabelcel (A4/other); r.158 bevat een onlosse datarij zonder kolomkopstructuur; r.273 eindigt met onafgesloten '***' (D4)."
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:26Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:15Z'
       heading_count: 6
       max_section_chars: 7434
       file_size_chars: 16241
       flags: []
     layer2:
-      agent:
-      concrete_problemen: []
-      rationale:
-      run_at:
-      status: not_run
-    rationale: 'Trust gereset 2026-05-11: re-scrape met scraper-fixes, content-diff > 5%'
-    status: unreviewed
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:23:04Z'
+      rationale: "Meerdere extractie-artefacten: A6 op r.160-162 (zin breekt na 'overgangsperiode of een gedeelte' met lege regel, vervolgt met 'ervan ook de mogelijkheid'); tabel op r.105 heeft een losstaande '|' als headerrij zonder kolommen (E2); r.126 heeft een ###### H6-heading — extreme hiërarchiediepte (B2); r.148 bevat HTML-restant 'TD>' in een tabelcel (A4/other); r.158 bevat een onlosse datarij zonder kolomkopstructuur; r.273 eindigt met onafgesloten '***' (D4)."
+      concrete_problemen:
+        - regel: 105
+          categorie: E2
+          type: other
+          voorbeeld: "| \\n\\n## Balans in BEF op 30/4/99 — losstaande | als 'headerrij' zonder kolommen"
+        - regel: 126
+          categorie: B2
+          type: other
+          voorbeeld: '###### Overschakeling van de boekhouding op de euro op 1/5/99 (H6 — extreme dieptesprong)'
+        - regel: 148
+          categorie: A4
+          type: other
+          voorbeeld: '| | Handelsdebiteuren/ TD> | 10,61 | | (HTML-tag TD> in tabelcel)'
+        - regel: 160
+          categorie: A6
+          type: other
+          voorbeeld: Ondernemingen naar Belgisch recht hebben tijdens de gehele duur van de overgangsperiode of een gedeelte \n\nervan ook de mogelijkheid...
+        - regel: 273
+          categorie: D4
+          type: other
+          voorbeeld: '***Boekingen tijdens het eerste jaar (t) (onafgesloten triple-asterisk aan einde van bestand)'
 themas:
   - verwerking van afrondingsverschillen
   - afronding

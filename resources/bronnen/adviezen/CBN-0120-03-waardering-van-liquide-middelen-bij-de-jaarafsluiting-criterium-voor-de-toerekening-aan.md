@@ -16,41 +16,41 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/het-begrip-financiele-instelling
 nummer: CBN-advies 120/3
 provenance:
-  generated_at: '2026-05-11T13:05:05Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/waardering-van-liquide-middelen-bij-de-jaarafsluiting-criterium-voor-de-toerekening-aan
       sha256: 9b228a02403c5f83e9d2b075be3d077a4325cade444337b1ec1b217fd3a814d8
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:10Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T11:57:45Z'
+    status: needs-rework
+    confirmed_at: '2026-05-11T13:16:02Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: "G2/F1: frontmatter regel 15 bevat ongedecodeëerd HTML-entity '&quot;' in gerelateerde_adviezen titel ('Het begrip &quot;financiële instelling&quot;'). Body inhoudelijk volledig en schoon (2839 chars, drie alinea's), één correct gesloten italic '*pro rata temporis*'. HTML-entity maakt metadata onbetrouwbaar."
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:25Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:14Z'
       heading_count: 0
       max_section_chars: 2839
       file_size_chars: 2839
       flags: []
     layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: G2
-          regel: 54
-          type: other
-          voorbeeld: '  - titel: Het begrip &quot;financiële instelling&quot;'
-      rationale: 'G-categorie: frontmatter regel 54 bevat een ongedecodeërd HTML-entity (&quot;) in het titel-veld van gerelateerde_adviezen. Body is verder inhoudelijk volledig en vrij van extractie-artefacten, maar de HTML-entity maakt de metadata onbetrouwbaar voor downstream verwerking. Laag-1 pass is terecht: geen structurele flags.'
-      run_at: '2026-05-11T11:57:45Z'
       status: needs-rework
-    rationale: 'G-categorie: frontmatter regel 54 bevat een ongedecodeërd HTML-entity (&quot;) in het titel-veld van gerelateerde_adviezen. Body is verder inhoudelijk volledig en vrij van extractie-artefacten, maar de HTML-entity maakt de metadata onbetrouwbaar voor downstream verwerking. Laag-1 pass is terecht: geen structurele flags.'
-    status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:16:02Z'
+      rationale: "G2/F1: frontmatter regel 15 bevat ongedecodeëerd HTML-entity '&quot;' in gerelateerde_adviezen titel ('Het begrip &quot;financiële instelling&quot;'). Body inhoudelijk volledig en schoon (2839 chars, drie alinea's), één correct gesloten italic '*pro rata temporis*'. HTML-entity maakt metadata onbetrouwbaar."
+      concrete_problemen:
+        - regel: 15
+          categorie: G2
+          type: other
+          voorbeeld: '    titel: Het begrip &quot;financiële instelling&quot;'
 themas:
   - liquide middelen
   - thesauriebelegging

@@ -3,37 +3,37 @@ bron: https://www.cbn-cnc.be/nl/adviezen/verwerking-van-uitgegeven-inschrijvings
 datum: 1995-03-01
 nummer: CBN-advies 139/7
 provenance:
-  generated_at: '2026-05-11T13:05:06Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/verwerking-van-uitgegeven-inschrijvingsrechten-in-de-jaarrekening
       sha256: d7cc7231e7ba165a07ecdb818bfd59a4691c760209f111e9bb6bd2a2d13576e0
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:10Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at:
-    confirmed_by:
+    status: trusted
+    confirmed_at: '2026-05-11T13:23:03Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: '5 headings correct aanwezig (##, ###). Structuur volledig: Autonoom uitgegeven warrants → kosteloos + onder bezwarende titel, Uitgegeven warrants verbonden aan aandelen, Converteerbare obligaties. Inhoud compleet. Geen ETL-artefacten zichtbaar.'
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:26Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:14Z'
       heading_count: 5
       max_section_chars: 2085
       file_size_chars: 4283
       flags: []
     layer2:
-      agent:
+      status: trusted
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:23:03Z'
+      rationale: '5 headings correct aanwezig (##, ###). Structuur volledig: Autonoom uitgegeven warrants → kosteloos + onder bezwarende titel, Uitgegeven warrants verbonden aan aandelen, Converteerbare obligaties. Inhoud compleet. Geen ETL-artefacten zichtbaar.'
       concrete_problemen: []
-      rationale:
-      run_at:
-      status: not_run
-    rationale: 'Trust gereset 2026-05-11: re-scrape met scraper-fixes, content-diff > 5%'
-    status: unreviewed
 themas:
   - converteerbare obligatie
   - inschrijvingsrecht

@@ -16,41 +16,45 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/boekingswijze-van-een-voorschot-op-de-verdeling-van-het-netto-actief
 nummer: CBN-advies 2022/07
 provenance:
-  generated_at: '2026-05-11T13:05:08Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/verslaggeving-bij-onmiddellijke-sluiting-van-de-vereffening-van-een-vzw-of-ivzw
       sha256: e8dfa13d03ae374219649275661e6dc1c8721d2a6b24041bcc50eaf408afb88a
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:12Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T12:24:33Z'
+    status: needs-rework
+    confirmed_at: '2026-05-11T13:34:12Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: "D2: regel 144 verwijst naar een schematisch tijdlijn-overzicht ('Schematisch kunnen de volgende termijnen worden onderscheiden:') dat niet volgt — was een afbeelding in het origineel. Bijkomend: regel 113 bevat 'gecertificeerd, accountant' met een spurious komma (A5-adjacent typefout door extractie). Inhoud verder compleet; 51 voetnoten correct."
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:30Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:18Z'
       heading_count: 7
       max_section_chars: 16201
       file_size_chars: 22206
       flags: []
     layer2:
+      status: needs-rework
       agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:34:12Z'
+      rationale: "D2: regel 144 verwijst naar een schematisch tijdlijn-overzicht ('Schematisch kunnen de volgende termijnen worden onderscheiden:') dat niet volgt — was een afbeelding in het origineel. Bijkomend: regel 113 bevat 'gecertificeerd, accountant' met een spurious komma (A5-adjacent typefout door extractie). Inhoud verder compleet; 51 voetnoten correct."
       concrete_problemen:
-        - categorie: D2
-          regel: 156
+        - regel: 144
+          categorie: D2
           type: missing-section
           voorbeeld: 'Schematisch kunnen de volgende termijnen worden onderscheiden: [tijdlijn-schema ontbreekt]'
-      rationale: 'D2: op regel 156 wordt verwezen naar een schematisch tijdlijn-overzicht (''Schematisch kunnen de volgende termijnen worden onderscheiden:'') dat ontbreekt — was een afbeelding in het originele advies. Geen TOC-fragment in body. Inhoud verder compleet, headings correct, 51 footnotes correct.'
-      run_at: '2026-05-11T12:24:33Z'
-      status: needs-rework
-    rationale: 'D2: op regel 156 wordt verwezen naar een schematisch tijdlijn-overzicht (''Schematisch kunnen de volgende termijnen worden onderscheiden:'') dat ontbreekt — was een afbeelding in het originele advies. Geen TOC-fragment in body. Inhoud verder compleet, headings correct, 51 footnotes correct.'
-    status: needs-rework
+        - regel: 113
+          categorie: A5
+          type: other
+          voorbeeld: gecertificeerd, accountant bevestigt dit schriftelijk akkoord (spurious komma na 'gecertificeerd')
 themas:
   - sluiting vereffening
   - ontbinding

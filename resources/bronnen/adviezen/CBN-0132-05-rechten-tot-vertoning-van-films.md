@@ -16,49 +16,49 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/materiele-vaste-activa-onderscheid-met-voorraden
 nummer: CBN-advies 132/5
 provenance:
-  generated_at: '2026-05-11T13:05:06Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/rechten-tot-vertoning-van-films
       sha256: 01839fec25050d00ee08d40374ee0706fef1ac979531ff432708d211921e7e43
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:10Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T12:04:41Z'
+    status: needs-rework
+    confirmed_at: '2026-05-11T13:16:02Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: "A6 op L75: voetnootmarker [^1] breekt de zin midden in ('...te worden gebruikt[^1] en derhalve niet...') — de footnote-anker in de body is niet problematisch op zichzelf maar gecombineerd met een leading-space line-break is het een scraper-artefact. D4 op L89: 'onder* Diensten en diverse goederen*' — de openende asterisk staat zonder spatie na 'onder', wat de italic-span slecht formatteert. Voetnoten [^1] en [^2] zijn wel aanwezig onderaan (L91-93), dus D3 is niet van toepassing."
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:25Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:14Z'
       heading_count: 0
       max_section_chars: 3015
       file_size_chars: 3015
       flags: []
     layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: D4
-          regel: 77
-          type: other
-          voorbeeld: '...via de rekening *Voorraadwijzigingen *voor de uitzendrechten...'
-        - categorie: A6
-          regel: 63
-          type: other
-          voorbeeld: '...bioscoopuitbater te worden gebruikt[^1]\n en derhalve niet...'
-        - categorie: A6
-          regel: 72
-          type: other
-          voorbeeld: '...de daaruit voortvloeiende opbrengsten[^2]\n ten gunste van...'
-      rationale: 'D4 op L77: *Voorraadwijzigingen * heeft een spatie vóór de sluitende asterisk. A6 op L63-64 en L72-73: twee paragrafen zijn gebroken door een mid-zin footnote-marker ([^1] en [^2]), waarna de volgende regel met een leading space verder gaat — scraping-artefact.'
-      run_at: '2026-05-11T12:04:41Z'
       status: needs-rework
-    rationale: 'D4 op L77: *Voorraadwijzigingen * heeft een spatie vóór de sluitende asterisk. A6 op L63-64 en L72-73: twee paragrafen zijn gebroken door een mid-zin footnote-marker ([^1] en [^2]), waarna de volgende regel met een leading space verder gaat — scraping-artefact.'
-    status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:16:02Z'
+      rationale: "A6 op L75: voetnootmarker [^1] breekt de zin midden in ('...te worden gebruikt[^1] en derhalve niet...') — de footnote-anker in de body is niet problematisch op zichzelf maar gecombineerd met een leading-space line-break is het een scraper-artefact. D4 op L89: 'onder* Diensten en diverse goederen*' — de openende asterisk staat zonder spatie na 'onder', wat de italic-span slecht formatteert. Voetnoten [^1] en [^2] zijn wel aanwezig onderaan (L91-93), dus D3 is niet van toepassing."
+      concrete_problemen:
+        - regel: 75
+          categorie: A6
+          type: other
+          voorbeeld: "...te worden gebruikt[^1]\n en derhalve niet als een vast actief..."
+        - regel: 83
+          categorie: A6
+          type: other
+          voorbeeld: "...de daaruit voortvloeiende opbrengsten[^2]\n ten gunste van een volgend boekjaar..."
+        - regel: 89
+          categorie: D4
+          type: other
+          voorbeeld: '...wanneer de uitzendrechten onder* Diensten en diverse goederen* werden geboekt.'
 themas:
   - diensten en diverse goederen
   - immateriële vaste activa

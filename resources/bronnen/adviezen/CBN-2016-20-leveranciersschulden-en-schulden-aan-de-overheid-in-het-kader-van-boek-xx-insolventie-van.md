@@ -7,45 +7,45 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/leveranciersschulden-en-schulden-aan-de-overheid-in-het-kader-van-een-wco
 nummer: CBN-advies 2016/20 – UPDATE
 provenance:
-  generated_at: '2026-05-11T13:05:08Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/leveranciersschulden-en-schulden-aan-de-overheid-in-het-kader-van-boek-xx-insolventie-van
       sha256: 419a282ec29b37329a6bff8f40a70c1205c9500b9e4de3465addbc4c32628165
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:12Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T12:16:34Z'
+    status: needs-rework
+    confirmed_at: '2026-05-11T13:30:32Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: "A6: regel 57 bevat een spurious line-break na '[^2]' midden in de zin — 'van het Wetboek van economisch recht[^2]\\n kan worden besloten' met kleine letter na de regelovergang. Verder bevat regel 59 'vorderingen[^3]*  is duidelijk' waarbij twee spaties en het patroon rond de voetnootreferentie wijzen op een extractie-artefact in de inline italic-opmaak. Inhoud compleet."
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:29Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:17Z'
       heading_count: 2
       max_section_chars: 2669
       file_size_chars: 3806
       flags: []
     layer2:
+      status: needs-rework
       agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:30:32Z'
+      rationale: "A6: regel 57 bevat een spurious line-break na '[^2]' midden in de zin — 'van het Wetboek van economisch recht[^2]\\n kan worden besloten' met kleine letter na de regelovergang. Verder bevat regel 59 'vorderingen[^3]*  is duidelijk' waarbij twee spaties en het patroon rond de voetnootreferentie wijzen op een extractie-artefact in de inline italic-opmaak. Inhoud compleet."
       concrete_problemen:
-        - categorie: A6
-          regel: 50
+        - regel: 57
+          categorie: A6
           type: other
           voorbeeld: "van het Wetboek van economisch recht[^2]\n kan worden besloten"
-        - categorie: D4
-          regel: 52
+        - regel: 59
+          categorie: D4
           type: other
-          voorbeeld: vorderingen[^3] * is duidelijk omtrent de classificatie
-      rationale: 'Twee extractie-artefacten: (1) regel 50 heeft een spurious line-break midden in een zin na ''[^2]'' gevolgd door een spatie en kleine letter (A6); (2) regel 52 heeft ''*'' met spatie na ''[^3]'' waardoor de italic-markering niet sluit — het patroon ''[^3] * is'' is een broken italic (D4). Inhoud is compleet.'
-      run_at: '2026-05-11T12:16:34Z'
-      status: needs-rework
-    rationale: 'Twee extractie-artefacten: (1) regel 50 heeft een spurious line-break midden in een zin na ''[^2]'' gevolgd door een spatie en kleine letter (A6); (2) regel 52 heeft ''*'' met spatie na ''[^3]'' waardoor de italic-markering niet sluit — het patroon ''[^3] * is'' is een broken italic (D4). Inhoud is compleet.'
-    status: needs-rework
+          voorbeeld: vorderingen[^3]*  is duidelijk omtrent de classificatie
 themas:
   - schulden aan de overheid
 ---

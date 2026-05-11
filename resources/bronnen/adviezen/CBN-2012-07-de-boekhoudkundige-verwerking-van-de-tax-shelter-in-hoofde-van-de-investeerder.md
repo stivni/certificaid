@@ -16,41 +16,49 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-tax-shelter-in-hoofde-van-de-productievennootschap
 nummer: CBN-advies 2012/7
 provenance:
-  generated_at: '2026-05-11T13:05:08Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-tax-shelter-in-hoofde-van-de-investeerder
       sha256: dc95420e9c652b744e721087806cdbf2d4fac9f260be6e391e05124393bf9444
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:12Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T12:09:18Z'
+    status: needs-rework
+    confirmed_at: '2026-05-11T13:30:32Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: "A3: regel 86 bevat een grote duplicate TOC-blob als aaneengesloten plain-text ('-- Toepassingsvoorwaarden-- Fiscaal voordeel-- Procedure---- Eerste fase---- Tweede faseBoekhoudkundige verwerking...') — extractie-artefact waarbij de geneste TOC dubbel in de body is terechtgekomen. B5: regels 148-149 en 165-166 tonen sectie-titels als plain-text zonder heading-prefix ('Boekhoudkundige kwalificatie van de rechten verbonden aan...' en 'Te verrichten boekingen tijdens de verschillende fasen...')."
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:28Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:16Z'
       heading_count: 19
       max_section_chars: 15315
       file_size_chars: 30947
       flags: []
     layer2:
+      status: needs-rework
       agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:30:32Z'
+      rationale: "A3: regel 86 bevat een grote duplicate TOC-blob als aaneengesloten plain-text ('-- Toepassingsvoorwaarden-- Fiscaal voordeel-- Procedure---- Eerste fase---- Tweede faseBoekhoudkundige verwerking...') — extractie-artefact waarbij de geneste TOC dubbel in de body is terechtgekomen. B5: regels 148-149 en 165-166 tonen sectie-titels als plain-text zonder heading-prefix ('Boekhoudkundige kwalificatie van de rechten verbonden aan...' en 'Te verrichten boekingen tijdens de verschillende fasen...')."
       concrete_problemen:
-        - categorie: A3
-          regel: 82
+        - regel: 86
+          categorie: A3
           type: other
           voorbeeld: -- Toepassingsvoorwaarden-- Fiscaal voordeel-- Procedure---- Eerste fase---- Tweede faseBoekhoudkundige verwerking...
-      rationale: 'A3: regel 82 bevat een duplicate TOC als aaneengesloten plain-text-blob (''-- Toepassingsvoorwaarden-- Fiscaal voordeel-- Procedure---- Eerste fase...'') — dit is een tweede inhoudstafel die verspreid in de body terechtkwam na extractie. De genummerde TOC bovenaan (regels 58-81) is correct; dit tweede blok had verwijderd moeten worden.'
-      run_at: '2026-05-11T12:09:18Z'
-      status: needs-rework
-    rationale: 'A3: regel 82 bevat een duplicate TOC als aaneengesloten plain-text-blob (''-- Toepassingsvoorwaarden-- Fiscaal voordeel-- Procedure---- Eerste fase...'') — dit is een tweede inhoudstafel die verspreid in de body terechtkwam na extractie. De genummerde TOC bovenaan (regels 58-81) is correct; dit tweede blok had verwijderd moeten worden.'
-    status: needs-rework
+        - regel: 148
+          categorie: B5
+          type: other
+          voorbeeld: Boekhoudkundige kwalificatie van de rechten verbonden aan de productie en de exploitatie van het audiovisueel werk
+        - regel: 165
+          categorie: B5
+          type: other
+          voorbeeld: Te verrichten boekingen tijdens de verschillende fasen van het vrijstellingsmechanisme van de tax shelter
 themas:
   - tax shelter
   - belastingvrije reserves

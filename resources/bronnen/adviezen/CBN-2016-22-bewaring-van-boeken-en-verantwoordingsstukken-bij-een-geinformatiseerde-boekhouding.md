@@ -3,61 +3,61 @@ bron: https://www.cbn-cnc.be/nl/adviezen/bewaring-van-boeken-en-verantwoordingss
 datum: 2016-09-28
 nummer: CBN-advies 2016/22
 provenance:
-  generated_at: '2026-05-11T13:05:08Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/bewaring-van-boeken-en-verantwoordingsstukken-bij-een-geinformatiseerde-boekhouding
       sha256: 9f3f8a4363d75980f1f743c9e48767f600c6d8c853bc861b06e69958c692677f
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:12Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T12:16:34Z'
+    status: needs-rework
+    confirmed_at: '2026-05-11T13:30:32Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: "B3: regel 80 bevat 'bij een geïnformatiseerde boekhouding' als losstaande alinea direct na de H1-titel — duplicaat van de ondertitel, extractie-artefact. D4: systematisch patroon van broken italics met spatie vóór sluitende asterisk op minstens 5 plaatsen (regels 141, 143, 173, 175, 195) — bv. 'de* onveranderlijkheid *en de* toegankelijkheid *'. Structuur (14 headings, ####-hiërarchie) is overigens uitstekend."
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:29Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:17Z'
       heading_count: 14
       max_section_chars: 12657
       file_size_chars: 24471
       flags: []
     layer2:
+      status: needs-rework
       agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:30:32Z'
+      rationale: "B3: regel 80 bevat 'bij een geïnformatiseerde boekhouding' als losstaande alinea direct na de H1-titel — duplicaat van de ondertitel, extractie-artefact. D4: systematisch patroon van broken italics met spatie vóór sluitende asterisk op minstens 5 plaatsen (regels 141, 143, 173, 175, 195) — bv. 'de* onveranderlijkheid *en de* toegankelijkheid *'. Structuur (14 headings, ####-hiërarchie) is overigens uitstekend."
       concrete_problemen:
-        - categorie: B3
-          regel: 56
+        - regel: 80
+          categorie: B3
           type: other
           voorbeeld: bij een geïnformatiseerde boekhouding
-        - categorie: D4
-          regel: 117
+        - regel: 141
+          categorie: D4
           type: other
-          voorbeeld: '*onveranderlijkheid *en de *toegankelijkheid *te waarborgen'
-        - categorie: D4
-          regel: 143
+          voorbeeld: de* onveranderlijkheid *en de* toegankelijkheid *te waarborgen
+        - regel: 143
+          categorie: D4
           type: other
-          voorbeeld: De *onveranderlijkheid *van de boekingen
-        - categorie: D4
-          regel: 149
+          voorbeeld: 'De *onveranderlijkheid* en *toegankelijkheid* — maar elders: de *onveranderlijkheid *van'
+        - regel: 173
+          categorie: D4
           type: other
-          voorbeeld: bewaring* in origineel *en met inachtneming van de *onveranderlijkheid *precies
-        - categorie: D4
-          regel: 151
+          voorbeeld: verplichting tot bewaring* in origineel *en met inachtneming van de *onveranderlijkheid *
+        - regel: 175
+          categorie: D4
           type: other
           voorbeeld: '*drager *beoogd die de *onveranderlijkheid *en de *toegankelijkheid *'
-        - categorie: D4
-          regel: 171
+        - regel: 195
+          categorie: D4
           type: other
           voorbeeld: de *leesbaarheid *en het *origineel karakter ervan*[^17]
-      rationale: 'Systematisch broken italic patroon ''*term *'' (spatie vóór sluitende *) op minstens 6 plaatsen door het document (regels 117, 143, 149, 151, 171 — categorie D4). Bovendien staat regel 56 een duplicaat van de ondertitel (''bij een geïnformatiseerde boekhouding'') als losse alinea direct na de ##-titel — extractie-artefact (B3). De rest van de structuur (14 headings, ####-hiërarchie) is uitstekend.'
-      run_at: '2026-05-11T12:16:34Z'
-      status: needs-rework
-    rationale: 'Systematisch broken italic patroon ''*term *'' (spatie vóór sluitende *) op minstens 6 plaatsen door het document (regels 117, 143, 149, 151, 171 — categorie D4). Bovendien staat regel 56 een duplicaat van de ondertitel (''bij een geïnformatiseerde boekhouding'') als losse alinea direct na de ##-titel — extractie-artefact (B3). De rest van de structuur (14 headings, ####-hiërarchie) is uitstekend.'
-    status: needs-rework
 themas:
   - archivering
   - bewaring

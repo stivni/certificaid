@@ -7,7 +7,7 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-virtuele-munten-ontwerp
 nummer: CBN-advies 2021/16
 provenance:
-  generated_at: '2026-05-11T13:05:08Z'
+  generated_at: '2026-05-11T13:15:12Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/waarderen-en-boeken-van-cryptomunten-gebruikt-als-betaalmiddel
       sha256: 93817b0a58155c7cf3900e7005139b5fa9fdce3a655d921559deef8a09c48bc0
@@ -24,8 +24,8 @@ provenance:
     confirmed_by: subagent-sonnet-4-6
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:30Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:18Z'
       heading_count: 2
       max_section_chars: 6084
       file_size_chars: 7410

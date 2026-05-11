@@ -16,45 +16,45 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/consolidatiekring-interpretatie-van-de-uitsluitingsgrond-van-artikel-107-4deg-kb-wvenn
 nummer: CBN-advies 2016/1
 provenance:
-  generated_at: '2026-05-11T13:05:08Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/verrichtingen-met-betrekking-tot-inschrijvingsrechten
       sha256: dad4b233d963a4855c96703b21c8580530bead33ca10a1724540264c6e72f907
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:12Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T12:16:34Z'
+    status: needs-rework
+    confirmed_at: '2026-05-11T13:30:32Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: "E2: de tabel op regels 140–150 is structureel gebroken — de header mist een separator-rij (geen |---|---|), en de cellen op regels 143–147 bevatten geneste bullet-items ('- waarmee de boekwaarde...', '- dat bij de aanschaffingswaarde...') in plaats van cel-inhoud, waardoor de pipe-tabel syntactisch ongeldig is. Inhoud en overige tabellen volledig correct."
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:29Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:17Z'
       heading_count: 6
       max_section_chars: 3941
       file_size_chars: 12489
       flags: []
     layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: E2
-          regel: 132
-          type: other
-          voorbeeld: '| **Boekwaarde van het oud effect** | | **Bedrag** | \n| \n- waarmee de boekwaarde...'
-        - categorie: E2
-          regel: 135
-          type: other
-          voorbeeld: '- waarmee de boekwaarde van het oud effect moet worden verminderd'
-      rationale: 'E2: de tabel op regels 132–142 (''Naar gelang de boekwaarde...'') is structureel gebroken — cellen bevatten geneste bullet-items (regels 135–138) waardoor de pipe-tabel syntactisch ongeldig is en renderers dit verkeerd zullen tonen. De tabel-header op regel 132 mist bovendien een correcte scheidingslijn.'
-      run_at: '2026-05-11T12:16:34Z'
       status: needs-rework
-    rationale: 'E2: de tabel op regels 132–142 (''Naar gelang de boekwaarde...'') is structureel gebroken — cellen bevatten geneste bullet-items (regels 135–138) waardoor de pipe-tabel syntactisch ongeldig is en renderers dit verkeerd zullen tonen. De tabel-header op regel 132 mist bovendien een correcte scheidingslijn.'
-    status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:30:32Z'
+      rationale: "E2: de tabel op regels 140–150 is structureel gebroken — de header mist een separator-rij (geen |---|---|), en de cellen op regels 143–147 bevatten geneste bullet-items ('- waarmee de boekwaarde...', '- dat bij de aanschaffingswaarde...') in plaats van cel-inhoud, waardoor de pipe-tabel syntactisch ongeldig is. Inhoud en overige tabellen volledig correct."
+      concrete_problemen:
+        - regel: 140
+          categorie: E2
+          type: other
+          voorbeeld: '| **Boekwaarde van het oud effect** | | **Bedrag** | — geen separator-rij na header'
+        - regel: 143
+          categorie: E2
+          type: other
+          voorbeeld: '- waarmee de boekwaarde van het oud effect moet worden verminderd — bullet in tabelcel'
 themas:
   - aandelen
   - effecten

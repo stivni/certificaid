@@ -7,37 +7,49 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/negatieve-fondsen-in-de-beginbalans-van-een-vereniging-zonder-winstoogmerk
 nummer: CBN-advies 2021/15
 provenance:
-  generated_at: '2026-05-11T13:05:08Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/verenigingen-en-stichtingen-compensatie-van-negatieve-fondsen
       sha256: f0474628f8efb15438554003a161662d28e56c8e131df30eeb2092d50cf6321b
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:12Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at:
-    confirmed_by:
+    status: needs-rework
+    confirmed_at: '2026-05-11T13:34:12Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "A3: de inhoudsopgave van het advies staat als genummerde/gebulletde lijst in de body (regels 57-68) vóór de inhoudelijke secties. Op regel 70 volgt een aaneengesloten TOC-restant '---- Omzetting van een vennootschap...' met '----' en '--'-scheiders in plaats van markdown — dubbele TOC in de body. B5: regel 179 'Mogelijkheid tot compensatie van negatieve fondsen met een positief resultaat van een VZW, IVZW of stichting' staat als plain tekst zonder ## prefix terwijl het een hoofdsectie had moeten zijn."
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:30Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:18Z'
       heading_count: 14
       max_section_chars: 11180
       file_size_chars: 21732
       flags: []
     layer2:
-      agent:
-      concrete_problemen: []
-      rationale:
-      run_at:
-      status: not_run
-    rationale: 'Trust gereset 2026-05-11: re-scrape met scraper-fixes, content-diff > 5%'
-    status: unreviewed
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:34:12Z'
+      rationale: "A3: de inhoudsopgave van het advies staat als genummerde/gebulletde lijst in de body (regels 57-68) vóór de inhoudelijke secties. Op regel 70 volgt een aaneengesloten TOC-restant '---- Omzetting van een vennootschap...' met '----' en '--'-scheiders in plaats van markdown — dubbele TOC in de body. B5: regel 179 'Mogelijkheid tot compensatie van negatieve fondsen met een positief resultaat van een VZW, IVZW of stichting' staat als plain tekst zonder ## prefix terwijl het een hoofdsectie had moeten zijn."
+      concrete_problemen:
+        - regel: 57
+          categorie: A3
+          type: other
+          voorbeeld: "1. Inleiding \n2. Negatieve fondsen en de mogelijkheid om negatieve fondsen te compenseren"
+        - regel: 70
+          categorie: A3
+          type: other
+          voorbeeld: '---- Omzetting van een vennootschap in een VZW of IVZW-- Mogelijkheid tot compensatie...'
+        - regel: 179
+          categorie: B5
+          type: other
+          voorbeeld: Mogelijkheid tot compensatie van negatieve fondsen met een positief resultaat van een VZW, IVZW of stichting
 themas:
   - negatieve fondsen
   - beginvermogen

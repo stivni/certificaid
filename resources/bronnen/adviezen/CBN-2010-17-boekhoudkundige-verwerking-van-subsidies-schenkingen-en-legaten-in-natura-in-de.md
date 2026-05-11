@@ -16,49 +16,45 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-subsidies-schenkingen-en-legaten-toegekend-in-contanten-in
 nummer: CBN-advies 2010/17
 provenance:
-  generated_at: '2026-05-11T13:05:08Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-subsidies-schenkingen-en-legaten-in-natura-in-de
       sha256: 279c3bba870d7298015aae568c39c23e8ca58504e4df0819d27b7b6f09a50f79
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:11Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T12:09:18Z'
+    status: needs-rework
+    confirmed_at: '2026-05-11T13:23:04Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: "Regels 81–87: plain-text inhoudsopgave direct na H1 (A3) — genummerde lijst met inspringing die de documentstructuur nabootst maar geen headings zijn. Regels 292–294: tabelrij gebroken over twee regels met tabs in de pipe-structuur (E2): de omschrijving 'Gebouwen die volle eigendom zijn van de vereniging - Geboekte afschrijvingen' staat verspreid over twee regels terwijl de pipe-delimiters de rijstructuur doorbreken. Overige inhoud (10 genummerde voorbeelden, voetnoten 1–20 volledig gedefinieerd en gerefereerd) is correct."
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:27Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:16Z'
       heading_count: 12
       max_section_chars: 3433
       file_size_chars: 20943
       flags: []
     layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: A3
-          regel: 69
-          type: other
-          voorbeeld: 1. Goederen \n  1. Subsidies, schenkingen en legaten bestemd om duurzaam...
-        - categorie: G3
-          regel: 173
-          type: other
-          voorbeeld: ' [^12]'
-        - categorie: E2
-          regel: 288
-          type: other
-          voorbeeld: '| | 22119 | 751 | Gebouwen die volle eigendom zijn van de vereniging -\n\t\t\t\tGeboekte afschrijvingen | 1.515,15 |'
-      rationale: 'Regel 69–73: plain-text inhoudsopgave in de body (A3). Regel 173: losstaande voetnootreferentie ''[^12]'' op een lege regel net boven een tabel — zelfde patroon als 2010/13 (G3). Regels 288–289: verbrokkelde tabelrij — de omschrijving ''Gebouwen die volle eigendom zijn van de vereniging - Geboekte afschrijvingen'' staat verspreid over twee regels en de pipe-structuur is gebroken (E2).'
-      run_at: '2026-05-11T12:09:18Z'
       status: needs-rework
-    rationale: 'Regel 69–73: plain-text inhoudsopgave in de body (A3). Regel 173: losstaande voetnootreferentie ''[^12]'' op een lege regel net boven een tabel — zelfde patroon als 2010/13 (G3). Regels 288–289: verbrokkelde tabelrij — de omschrijving ''Gebouwen die volle eigendom zijn van de vereniging - Geboekte afschrijvingen'' staat verspreid over twee regels en de pipe-structuur is gebroken (E2).'
-    status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:23:04Z'
+      rationale: "Regels 81–87: plain-text inhoudsopgave direct na H1 (A3) — genummerde lijst met inspringing die de documentstructuur nabootst maar geen headings zijn. Regels 292–294: tabelrij gebroken over twee regels met tabs in de pipe-structuur (E2): de omschrijving 'Gebouwen die volle eigendom zijn van de vereniging - Geboekte afschrijvingen' staat verspreid over twee regels terwijl de pipe-delimiters de rijstructuur doorbreken. Overige inhoud (10 genummerde voorbeelden, voetnoten 1–20 volledig gedefinieerd en gerefereerd) is correct."
+      concrete_problemen:
+        - regel: 81
+          categorie: A3
+          type: other
+          voorbeeld: "1. Goederen \n  1. Subsidies, schenkingen en legaten bestemd om duurzaam bij te dragen..."
+        - regel: 292
+          categorie: E2
+          type: other
+          voorbeeld: "| | 22119 | 751 | Gebouwen die volle eigendom zijn van de vereniging -\n\t\t\t\tGeboekte afschrijvingen | 1.515,15 |"
 themas:
   - exploitatiesubsidie
   - fondsen van de vereniging

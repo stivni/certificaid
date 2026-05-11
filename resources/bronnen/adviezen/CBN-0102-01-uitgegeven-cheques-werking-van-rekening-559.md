@@ -7,7 +7,7 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/te-innen-cheques-rekening-53
 nummer: CBN-advies R102/1
 provenance:
-  generated_at: '2026-05-11T13:05:05Z'
+  generated_at: '2026-05-11T13:15:10Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/uitgegeven-cheques-werking-van-rekening-559
       sha256: 70b071a96560b388ad774dbc0e108ed5683420ec698e8cdd573883ade65c9e1a
@@ -24,8 +24,8 @@ provenance:
     confirmed_by: subagent-laag2-ronde2
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:24Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:13Z'
       heading_count: 0
       max_section_chars: 5247
       file_size_chars: 5247

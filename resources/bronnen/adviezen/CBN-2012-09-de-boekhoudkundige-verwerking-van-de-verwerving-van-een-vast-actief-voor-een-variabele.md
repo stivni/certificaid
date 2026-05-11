@@ -10,45 +10,49 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/verwerving-van-een-vast-actief-voor-een-prijs-die-bestaat-uit-een-vast-contant-te-betalen
 nummer: CBN-advies 2012/9
 provenance:
-  generated_at: '2026-05-11T13:05:08Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-verwerving-van-een-vast-actief-voor-een-variabele
       sha256: bf4eeb3bbe53a79b3ed20c981361938a3d6d79fa6d298ad2bdd8a0bdfa8f723d
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:12Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T12:09:18Z'
+    status: needs-rework
+    confirmed_at: '2026-05-11T13:30:32Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: "E1/E2: Voorbeeld 4 (regels 151-292) heeft een volledig kapotte tabel waarbij elke cel als losstaande tekstregel is weergegeven met lege pipe-rijen ertussen — volledig onleesbaar als markdown-tabel. B5: regel 132-133 toont de sectiontitel 'Afschrijven van vaste activa met beperkte levensduur...' als plain-text zonder heading-prefix. B2: de document-H1 op regel 58 bevat enkel de datum ('# Advies 6 juni 2012, bijgewerkt op 10 september 2025') zonder CBN-adviesnummer — afwijkend van alle andere adviezen."
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:28Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:16Z'
       heading_count: 7
       max_section_chars: 16010
       file_size_chars: 20060
       flags: []
     layer2:
+      status: needs-rework
       agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:30:32Z'
+      rationale: "E1/E2: Voorbeeld 4 (regels 151-292) heeft een volledig kapotte tabel waarbij elke cel als losstaande tekstregel is weergegeven met lege pipe-rijen ertussen — volledig onleesbaar als markdown-tabel. B5: regel 132-133 toont de sectiontitel 'Afschrijven van vaste activa met beperkte levensduur...' als plain-text zonder heading-prefix. B2: de document-H1 op regel 58 bevat enkel de datum ('# Advies 6 juni 2012, bijgewerkt op 10 september 2025') zonder CBN-adviesnummer — afwijkend van alle andere adviezen."
       concrete_problemen:
-        - categorie: B2
-          regel: 52
-          type: other
-          voorbeeld: '# Advies 6 juni 2012, bijgewerkt op 10 september 2025[^1]'
-        - categorie: E1
-          regel: 149
+        - regel: 151
+          categorie: E1
           type: pseudo-table
           voorbeeld: "| | | \n\nVaste betaalde prijs: 300\n\n  | | \n\nVariabele \n\nprijs jaar \n\n20X1: 27"
-      rationale: 'B2: regel 52 heeft een tweede ''#''-level heading (''# Advies 6 juni 2012, bijgewerkt...'') midden in het document — een mens zou dit nooit als tweede H1 schrijven. E1/E2: Voorbeeld 4 (regels 149-290) heeft een volledig kapotte tabel waarbij elke cel als losstaande regel is weergegeven met lege pipe-rijen ertussen — onleesbaar als markdown-tabel.'
-      run_at: '2026-05-11T12:09:18Z'
-      status: needs-rework
-    rationale: 'B2: regel 52 heeft een tweede ''#''-level heading (''# Advies 6 juni 2012, bijgewerkt...'') midden in het document — een mens zou dit nooit als tweede H1 schrijven. E1/E2: Voorbeeld 4 (regels 149-290) heeft een volledig kapotte tabel waarbij elke cel als losstaande regel is weergegeven met lege pipe-rijen ertussen — onleesbaar als markdown-tabel.'
-    status: needs-rework
+        - regel: 132
+          categorie: B5
+          type: other
+          voorbeeld: Afschrijven van vaste activa met beperkte levensduur die zijn verworven voor een prijs die (deels) bestaat uit een variabele gedeelte...
+        - regel: 58
+          categorie: B2
+          type: other
+          voorbeeld: '# Advies 6 juni 2012, bijgewerkt op 10 september 2025[^1]'
 themas:
   - variabele prijs
   - financiële vaste activa

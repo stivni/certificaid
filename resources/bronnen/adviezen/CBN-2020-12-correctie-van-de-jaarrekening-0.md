@@ -7,7 +7,7 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/correctie-van-de-jaarrekening
 nummer: CBN-advies 2020/12
 provenance:
-  generated_at: '2026-05-11T13:05:08Z'
+  generated_at: '2026-05-11T13:15:12Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/correctie-van-de-jaarrekening-0
       sha256: bd532c81178e67e06992b6e31e5ae2bf7e33611997008b2a1c78e9483cdf994d
@@ -24,8 +24,8 @@ provenance:
     confirmed_by: subagent-laag2-ronde2
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:30Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:18Z'
       heading_count: 19
       max_section_chars: 23324
       file_size_chars: 49106

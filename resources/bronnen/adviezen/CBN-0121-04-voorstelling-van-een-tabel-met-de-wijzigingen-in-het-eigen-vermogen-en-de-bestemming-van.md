@@ -3,7 +3,7 @@ bron: https://www.cbn-cnc.be/nl/adviezen/voorstelling-van-een-tabel-met-de-wijzi
 datum: 1995-03-01
 nummer: CBN-advies 121/4
 provenance:
-  generated_at: '2026-05-11T13:05:05Z'
+  generated_at: '2026-05-11T13:15:10Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/voorstelling-van-een-tabel-met-de-wijzigingen-in-het-eigen-vermogen-en-de-bestemming-van
       sha256: d63a3c5e3ff8c274dc4649c2e281793ac45b5d16ea5ef36a1462186f3a1a3554
@@ -20,8 +20,8 @@ provenance:
     confirmed_by: human
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:25Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:14Z'
       heading_count: 0
       max_section_chars: 5241
       file_size_chars: 5241

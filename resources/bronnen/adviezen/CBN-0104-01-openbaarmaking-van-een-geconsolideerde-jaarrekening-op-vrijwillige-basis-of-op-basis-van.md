@@ -3,7 +3,7 @@ bron: https://www.cbn-cnc.be/nl/adviezen/openbaarmaking-van-een-geconsolideerde-
 datum: 1999-02-01
 nummer: CBN-advies C104/1
 provenance:
-  generated_at: '2026-05-11T13:05:05Z'
+  generated_at: '2026-05-11T13:15:10Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/openbaarmaking-van-een-geconsolideerde-jaarrekening-op-vrijwillige-basis-of-op-basis-van
       sha256: 2fb05ad757c30814edf40f7f6d07a8c6706298af1501a3327a02e8982ae233d9
@@ -20,8 +20,8 @@ provenance:
     confirmed_by: subagent-laag2-ronde2
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:24Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:13Z'
       heading_count: 0
       max_section_chars: 5919
       file_size_chars: 5919

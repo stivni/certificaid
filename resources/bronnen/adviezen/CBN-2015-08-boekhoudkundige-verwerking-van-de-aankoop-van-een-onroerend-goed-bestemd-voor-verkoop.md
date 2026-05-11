@@ -16,49 +16,45 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-onderzoeksfondsen-in-de-jaarrekening-van-grote-en-zeer
 nummer: CBN-advies 2015/8
 provenance:
-  generated_at: '2026-05-11T13:05:08Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-aankoop-van-een-onroerend-goed-bestemd-voor-verkoop
       sha256: 953d75e99ef043526de7c91c7e325638643e154c2d56c484308010f4b0891eda
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:12Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T12:16:34Z'
+    status: needs-rework
+    confirmed_at: '2026-05-11T13:30:32Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: "B3: de H1-titel is nu enkel '# Advies 30 september 2015' (regel 72) zonder het CBN-advies-nummer — de eerdere duplicate heading '# CBN-advies 2015/8...' is verdwenen (scraper-fix) maar de overblijvende H1 identificeert het document niet door zijn officiële CBN-nummer. B2: regel 114-116 heeft '## Voorbeeldboekingen' direct gevolgd door '## Boeking van...' waarbij de tweede ## conceptueel een subsectie is van de eerste (heading-hiërarchie niet consequent). Inhoud volledig."
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:29Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:17Z'
       heading_count: 7
       max_section_chars: 5928
       file_size_chars: 12534
       flags: []
     layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: B3
-          regel: 60
-          type: other
-          voorbeeld: '# CBN-advies 2015/8 Boekhoudkundige verwerking...bestemd voor verkoop1'
-        - categorie: B3
-          regel: 62
-          type: other
-          voorbeeld: '# Advies 30 september 2015'
-        - categorie: D4
-          regel: 83
-          type: other
-          voorbeeld: post *Onroerende goederen bestemd voor verkoop *is dus niet toegestaan
-      rationale: 'B3: twee opeenvolgende #-level headings op regels 60–62 (''# CBN-advies 2015/8 ...1'' en ''# Advies 30 september 2015'') zijn duplicate body-titels, typisch scrape-artefact. Tevens eindigt de eerste H1 op een literal ''1'' (voetnoot niet geparsed als [^1]). D4: regel 83 bevat ''Onroerende goederen bestemd voor verkoop *'' met spatie voor sluitende `*` (malformed italic).'
-      run_at: '2026-05-11T12:16:34Z'
       status: needs-rework
-    rationale: 'B3: twee opeenvolgende #-level headings op regels 60–62 (''# CBN-advies 2015/8 ...1'' en ''# Advies 30 september 2015'') zijn duplicate body-titels, typisch scrape-artefact. Tevens eindigt de eerste H1 op een literal ''1'' (voetnoot niet geparsed als [^1]). D4: regel 83 bevat ''Onroerende goederen bestemd voor verkoop *'' met spatie voor sluitende `*` (malformed italic).'
-    status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:30:32Z'
+      rationale: "B3: de H1-titel is nu enkel '# Advies 30 september 2015' (regel 72) zonder het CBN-advies-nummer — de eerdere duplicate heading '# CBN-advies 2015/8...' is verdwenen (scraper-fix) maar de overblijvende H1 identificeert het document niet door zijn officiële CBN-nummer. B2: regel 114-116 heeft '## Voorbeeldboekingen' direct gevolgd door '## Boeking van...' waarbij de tweede ## conceptueel een subsectie is van de eerste (heading-hiërarchie niet consequent). Inhoud volledig."
+      concrete_problemen:
+        - regel: 72
+          categorie: B3
+          type: other
+          voorbeeld: '# Advies 30 september 2015 — H1 zonder CBN-advies-nummer (nummer enkel in frontmatter)'
+        - regel: 114
+          categorie: B2
+          type: other
+          voorbeeld: '## Voorbeeldboekingen gevolgd direct door ## Boeking van de aankoop... (conceptuele subsectie als zelfde niveau)'
 themas:
   - bestellingen in uitvoering
   - bouwprojecten

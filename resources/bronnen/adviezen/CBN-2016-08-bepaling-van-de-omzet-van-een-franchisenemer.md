@@ -3,45 +3,49 @@ bron: https://www.cbn-cnc.be/nl/adviezen/bepaling-van-de-omzet-van-een-franchise
 datum: 2016-06-15
 nummer: CBN-advies 2016/8
 provenance:
-  generated_at: '2026-05-11T13:05:08Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/bepaling-van-de-omzet-van-een-franchisenemer
       sha256: 407c616f79f88d89f2f91835aa4df7d710fee8284d31d361e93fe77c83f16221
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:12Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T12:16:34Z'
+    status: needs-rework
+    confirmed_at: '2026-05-11T13:30:32Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: "Regels 61–65: de definitie van 'omzet' staat in een multi-line italic-blok: `* Onder omzet...` opent italic en sluit met `*` op regel 65, maar de bullet-items op regels 79–83 gebruiken ook `*` als bullet-marker terwijl ze in een aparte italic-context staan, wat markdown-rendering breekt (D4). Het italicblok op regels 61–65 is inhoudelijk correct maar sluit op een wijze die markdown-parsers inconsistent interpreteren. Overige inhoud compleet."
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:29Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:17Z'
       heading_count: 2
       max_section_chars: 8072
       file_size_chars: 8277
       flags: []
     layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: D4
-          regel: 53
-          type: other
-          voorbeeld: '* Onder omzet wordt verstaan het bedrag van de verkoop... (italic block opens here)'
-        - categorie: D4
-          regel: 57
-          type: other
-          voorbeeld: '...voor hun bedrijf.*  (italic sluit met asterisk na punt, maar bullet-items ertussen breken italic)'
-      rationale: 'Regel 53–57: een groot blok tekst (definitie van ''omzet'' uit KB W.Venn.) is in italic opgemaakt met openingsasterisk op regel 53 en afsluitende asterisk op het einde van regel 57, maar de sluiting is onregelmatig — de slotasterisk staat direct na de punt van de laatste zin (D4, malformed italic). Bovendien zijn de bullet-items binnen dit italic-blok (regels 71–74) ook met een asterisk-bullet gemarkeerd terwijl de omringende tekst reeds in italic staat, wat markdown-rendering problemen kan geven. Verder kwalitatief goed: 2 headings, voetnoten [^1]–[^13] correct.'
-      run_at: '2026-05-11T12:16:34Z'
       status: needs-rework
-    rationale: 'Regel 53–57: een groot blok tekst (definitie van ''omzet'' uit KB W.Venn.) is in italic opgemaakt met openingsasterisk op regel 53 en afsluitende asterisk op het einde van regel 57, maar de sluiting is onregelmatig — de slotasterisk staat direct na de punt van de laatste zin (D4, malformed italic). Bovendien zijn de bullet-items binnen dit italic-blok (regels 71–74) ook met een asterisk-bullet gemarkeerd terwijl de omringende tekst reeds in italic staat, wat markdown-rendering problemen kan geven. Verder kwalitatief goed: 2 headings, voetnoten [^1]–[^13] correct.'
-    status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:30:32Z'
+      rationale: "Regels 61–65: de definitie van 'omzet' staat in een multi-line italic-blok: `* Onder omzet...` opent italic en sluit met `*` op regel 65, maar de bullet-items op regels 79–83 gebruiken ook `*` als bullet-marker terwijl ze in een aparte italic-context staan, wat markdown-rendering breekt (D4). Het italicblok op regels 61–65 is inhoudelijk correct maar sluit op een wijze die markdown-parsers inconsistent interpreteren. Overige inhoud compleet."
+      concrete_problemen:
+        - regel: 61
+          categorie: D4
+          type: other
+          voorbeeld: '* Onder omzet wordt verstaan... (multi-line italic opent hier)'
+        - regel: 65
+          categorie: D4
+          type: other
+          voorbeeld: '...voor hun bedrijf.* (italic sluit, maar bullet-items ertussen gebruiken ook *)'
+        - regel: 79
+          categorie: D4
+          type: other
+          voorbeeld: '- *een gemeenschappelijk uithangbord;* (italic bullet in apart blok, verwarring met vorig block)'
 themas:
   - franchiseovereenkomst
   - franchising

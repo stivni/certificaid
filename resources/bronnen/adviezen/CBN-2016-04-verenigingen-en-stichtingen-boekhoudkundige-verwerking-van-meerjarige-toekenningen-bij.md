@@ -16,37 +16,49 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-subsidies-schenkingen-en-legaten-toegekend-in-contanten-in
 nummer: CBN-advies 2016/4
 provenance:
-  generated_at: '2026-05-11T13:05:08Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/verenigingen-en-stichtingen-boekhoudkundige-verwerking-van-meerjarige-toekenningen-bij
       sha256: b5b6831d4910ee12494fe88b705196852c0afd9d02d642847e82d5fe4b6e5783
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:12Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at:
-    confirmed_by:
+    status: needs-rework
+    confirmed_at: '2026-05-11T13:30:32Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: 'Regel 64: `# **Advies van 13 april 2016**[^1]** **` heeft overtollige bold-markers na de voetnootverwijzing (D4 — `** **` is een malformed italic/bold afsluitmarker). Regels 52–53 en 94: spurious line-breaks midden in een zin (A6) — de zin `verbintenis.[^6]` wordt gevolgd door een nieuwe regel die met `Op die manier` begint met een kleine letter. Verder structureel correct.'
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:29Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:17Z'
       heading_count: 3
       max_section_chars: 3489
       file_size_chars: 7917
       flags: []
     layer2:
-      agent:
-      concrete_problemen: []
-      rationale:
-      run_at:
-      status: not_run
-    rationale: 'Trust gereset 2026-05-11: re-scrape met scraper-fixes, content-diff > 5%'
-    status: unreviewed
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:30:32Z'
+      rationale: 'Regel 64: `# **Advies van 13 april 2016**[^1]** **` heeft overtollige bold-markers na de voetnootverwijzing (D4 — `** **` is een malformed italic/bold afsluitmarker). Regels 52–53 en 94: spurious line-breaks midden in een zin (A6) — de zin `verbintenis.[^6]` wordt gevolgd door een nieuwe regel die met `Op die manier` begint met een kleine letter. Verder structureel correct.'
+      concrete_problemen:
+        - regel: 64
+          categorie: D4
+          type: other
+          voorbeeld: '# **Advies van 13 april 2016**[^1]** ** (overbodige ** ** na voetnootref)'
+        - regel: 53
+          categorie: A6
+          type: other
+          voorbeeld: verbintenis.[^6]\n Op die manier zal een toekenning... (regelbreuk midden zin)
+        - regel: 94
+          categorie: A6
+          type: other
+          voorbeeld: schuld ook als zodanig worden geboekt.[^8]\n Op die manier zal... (regelbreuk)
 themas:
   - legaat
   - meerjarige toekenningen

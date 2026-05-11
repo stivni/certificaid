@@ -16,37 +16,53 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/consolidatiekring-interpretatie-van-de-uitsluitingsgrond-van-artikel-107-4deg-kb-wvenn
 nummer: CBN-advies 2016/17
 provenance:
-  generated_at: '2026-05-11T13:05:08Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/verenigingen-en-stichtingen-certificatie-van-aandelen-van-handelsvennootschappen
       sha256: 72e8ba1e43c6167b2d3a6758e6876c39c537df510ed6b9bd77f5f8351ef3cd4a
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:12Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at:
-    confirmed_by:
+    status: needs-rework
+    confirmed_at: '2026-05-11T13:30:32Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "Regel 82: `Boekhoudkundige verwerking van de opbrengsten en inkomsten van de gecertificeerde aandelen` staat als plain-text-regel zonder `##` of `###` prefix — dit is een structuurlabel dat een heading had moeten zijn (B5). Regels 83 en 84: `post* Andere ontvangsten*` en `post* Andere uitgaven*` bevatten een spatie vóór de openende asterisk, wat malformed italic geeft (D4). Regel 90: spurious line-break na voetnootref `mits[^13]\n de aanpassingen` midden in een zin (A6)."
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:29Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:17Z'
       heading_count: 4
       max_section_chars: 4526
       file_size_chars: 9787
       flags: []
     layer2:
-      agent:
-      concrete_problemen: []
-      rationale:
-      run_at:
-      status: not_run
-    rationale: 'Trust gereset 2026-05-11: re-scrape met scraper-fixes, content-diff > 5%'
-    status: unreviewed
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:30:32Z'
+      rationale: "Regel 82: `Boekhoudkundige verwerking van de opbrengsten en inkomsten van de gecertificeerde aandelen` staat als plain-text-regel zonder `##` of `###` prefix — dit is een structuurlabel dat een heading had moeten zijn (B5). Regels 83 en 84: `post* Andere ontvangsten*` en `post* Andere uitgaven*` bevatten een spatie vóór de openende asterisk, wat malformed italic geeft (D4). Regel 90: spurious line-break na voetnootref `mits[^13]\n de aanpassingen` midden in een zin (A6)."
+      concrete_problemen:
+        - regel: 82
+          categorie: B5
+          type: other
+          voorbeeld: 'Boekhoudkundige verwerking van de opbrengsten en inkomsten van de gecertificeerde aandelen (geen ## prefix)'
+        - regel: 83
+          categorie: D4
+          type: other
+          voorbeeld: ingeschreven onder de post* Andere ontvangsten*. (spatie voor openende *)
+        - regel: 84
+          categorie: D4
+          type: other
+          voorbeeld: ingeschreven onder de post* Andere uitgaven*. (spatie voor openende *)
+        - regel: 90
+          categorie: A6
+          type: other
+          voorbeeld: mits[^13]\n de aanpassingen waarin voorzien is... (regelbreuk midden zin)
 themas:
   - aandelen
   - certificatie

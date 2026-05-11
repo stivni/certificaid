@@ -16,41 +16,37 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/actuarieel-rendement-op-vastrentende-effecten-aanpassing-van-de-adviezen-1375-en-1484
 nummer: CBN-advies 148/2
 provenance:
-  generated_at: '2026-05-11T13:05:06Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/vakantiegeld
       sha256: 741d030d6b6ba24bf9ad15b73181dc19b7d0f11020739f2638d999710c7bc4a6
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:10Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T12:04:41Z'
+    status: trusted
+    confirmed_at: '2026-05-11T13:23:03Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: Vorige D4-issue (*littera *d) met spatie vóór sluitende asterisk) is gefixeerd — body toont nu correct *littera* d). Inhoud volledig (4 paragrafen, geen voetnoten), geen artefacten van andere categorieën aangetroffen.
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:26Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:15Z'
       heading_count: 0
       max_section_chars: 2224
       file_size_chars: 2224
       flags: []
     layer2:
+      status: trusted
       agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: D4
-          regel: 57
-          type: other
-          voorbeeld: artikel 31, § 1, *littera *d), van de vierde EEG-richtlijn
-      rationale: 'D4: regel 57 bevat ''*littera *d)'' — spatie vóór de sluitende asterisk (bekend ETL-patroon ''*term *''). Geen voetnoten in dit advies, inhoud verder volledig.'
-      run_at: '2026-05-11T12:04:41Z'
-      status: needs-rework
-    rationale: 'D4: regel 57 bevat ''*littera *d)'' — spatie vóór de sluitende asterisk (bekend ETL-patroon ''*term *''). Geen voetnoten in dit advies, inhoud verder volledig.'
-    status: needs-rework
+      run_at: '2026-05-11T13:23:03Z'
+      rationale: Vorige D4-issue (*littera *d) met spatie vóór sluitende asterisk) is gefixeerd — body toont nu correct *littera* d). Inhoud volledig (4 paragrafen, geen voetnoten), geen artefacten van andere categorieën aangetroffen.
+      concrete_problemen: []
 themas:
   - toerekening van kosten en opbrengsten
   - vakentiegeld

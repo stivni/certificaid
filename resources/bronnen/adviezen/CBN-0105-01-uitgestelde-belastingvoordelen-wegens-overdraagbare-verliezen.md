@@ -16,49 +16,45 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/afwijking-inzake-functionele-valuta-praktische-implicaties-en-procedure
 nummer: CBN-advies C105/1
 provenance:
-  generated_at: '2026-05-11T13:05:05Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/uitgestelde-belastingvoordelen-wegens-overdraagbare-verliezen
       sha256: 41a5930b23518a778e7c593efaebc62700a8921b45e82c67adaf09d760fd5cdf
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:10Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T11:57:44Z'
+    status: needs-rework
+    confirmed_at: '2026-05-11T13:16:02Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: "Bug A6 (spurious line-break na FAS 109[^5]) is opgelost: regel 125 toont de volledige zin aaneengesloten. Maar B2 blijft: de twee subkoppen '## **De Belgische regelgeving**' (regel 109) en '## **Buitenlandse regelgeving**' (regel 117) bevatten nog steeds onnodig **bold**-markup binnen de heading — een mens schrijft '## De Belgische regelgeving'."
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:24Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:13Z'
       heading_count: 3
       max_section_chars: 5928
       file_size_chars: 11216
       flags: []
     layer2:
+      status: needs-rework
       agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:16:02Z'
+      rationale: "Bug A6 (spurious line-break na FAS 109[^5]) is opgelost: regel 125 toont de volledige zin aaneengesloten. Maar B2 blijft: de twee subkoppen '## **De Belgische regelgeving**' (regel 109) en '## **Buitenlandse regelgeving**' (regel 117) bevatten nog steeds onnodig **bold**-markup binnen de heading — een mens schrijft '## De Belgische regelgeving'."
       concrete_problemen:
-        - categorie: A6
-          regel: 113
-          type: other
-          voorbeeld: '...bepaalt FAS 109[^5]\n dat een uitgesteld belastingvoordeel — zin breekt na voetnootmarker'
-        - categorie: B2
-          regel: 97
+        - regel: 109
+          categorie: B2
           type: other
           voorbeeld: '## **De Belgische regelgeving** — bold-markup onnodig binnen heading'
-        - categorie: B2
-          regel: 105
+        - regel: 117
+          categorie: B2
           type: other
           voorbeeld: '## **Buitenlandse regelgeving** — idem'
-      rationale: 'A6: op regel 113 breekt een zin midden na `FAS 109[^5]` af, en vervolgt op regel 114 met een leading spatie — een spurious line-break die er op wijst dat de scraper een newline midden in een zin heeft ingevoegd. B-categorie: twee subkoppen (`## **De Belgische regelgeving**` en `## **Buitenlandse regelgeving**`) hebben onnodig `**` bold-markup inside de heading — een mens zou `## De Belgische regelgeving` schrijven.'
-      run_at: '2026-05-11T11:57:44Z'
-      status: needs-rework
-    rationale: 'A6: op regel 113 breekt een zin midden na `FAS 109[^5]` af, en vervolgt op regel 114 met een leading spatie — een spurious line-break die er op wijst dat de scraper een newline midden in een zin heeft ingevoegd. B-categorie: twee subkoppen (`## **De Belgische regelgeving**` en `## **Buitenlandse regelgeving**`) hebben onnodig `**` bold-markup inside de heading — een mens zou `## De Belgische regelgeving` schrijven.'
-    status: needs-rework
 themas:
   - toelichting
   - uitgestelde belastingvoordelen

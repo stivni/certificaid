@@ -3,57 +3,53 @@ bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-afvalsto
 datum: 1995-03-01
 nummer: CBN-advies 171
 provenance:
-  generated_at: '2026-05-11T13:05:06Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-afvalstoffen
       sha256: ef019e5fa8d5ff93cfeecf2422b2fa22e0858ffe7d0bbce9d35b95e64f9dcf00
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:10Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T12:09:17Z'
+    status: needs-rework
+    confirmed_at: '2026-05-11T13:23:04Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: "Drie structuurproblemen: (1) B2: heading-hiërarchie springt van # (r.72) direct naar #### en ##### zonder tussenliggend ## of ### — geen enkel ##/### heading in de volledige body. (2) C3: r.90-92 zijn 4-spaties ingesprongen waardoor ze als code-blok renderen in markdown. (3) A9: 'AAankopen' (r.110) in tabellabel. (4) A6: zin breekt over alinea-grens op r.214-216 ('kan worden \n\ngeopteerd')."
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:26Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:15Z'
       heading_count: 9
       max_section_chars: 4182
       file_size_chars: 12052
       flags: []
     layer2:
+      status: needs-rework
       agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:23:04Z'
+      rationale: "Drie structuurproblemen: (1) B2: heading-hiërarchie springt van # (r.72) direct naar #### en ##### zonder tussenliggend ## of ### — geen enkel ##/### heading in de volledige body. (2) C3: r.90-92 zijn 4-spaties ingesprongen waardoor ze als code-blok renderen in markdown. (3) A9: 'AAankopen' (r.110) in tabellabel. (4) A6: zin breekt over alinea-grens op r.214-216 ('kan worden \n\ngeopteerd')."
       concrete_problemen:
-        - categorie: B3
-          regel: 54
+        - regel: 80
+          categorie: B2
           type: other
-          voorbeeld: '# CBN advies 171 - Boekhoudkundige verwerking van afvalstoffen (duplicate H1)'
-        - categorie: B2
-          regel: 62
-          type: other
-          voorbeeld: '# direct naar #### zonder tussenniveaus ## en ###'
-        - categorie: C3
-          regel: 72
+          voorbeeld: '# CBN advies 171 (r.72) → #### Ondernemingen die afvalstoffen (r.80): overgeslagen ##/###'
+        - regel: 90
+          categorie: C3
           type: pseudo-table
-          voorbeeld: '    Voor die onderneming vormt de kost... (4-spatie indent → code-blok)'
-        - categorie: A9
-          regel: 92
+          voorbeeld: '    Voor die onderneming vormt de kost voor de afvalverwerking...'
+        - regel: 110
+          categorie: A9
           type: ocr-confusion
           voorbeeld: '| | 602 | AAankopen van diensten of | | |'
-        - categorie: A6
-          regel: 197
+        - regel: 214
+          categorie: A6
           type: other
-          voorbeeld: '...enkel voor de tweede benadering kunnen worden\n\ngeopteerd.'
-      rationale: 'Drie problemen: (1) B3: duplicate H1 op r.52 en r.54. (2) B2: heading-hiërarchie springt van # direct naar #### en ##### — geen ## of ### aanwezig in de volledige body (heading_count: 8 zijn allemaal ####/##### niveau). (3) C3: twee alinea''s op r.72 en r.74 zijn 4-spaties ingesprongen waardoor ze als code-blok worden gerenderd in markdown. (4) Tikfout ''AAankopen'' (r.92) in tabellabel. (5) Zin op r.197-199 breekt ''kan worden'' en ''geopteerd'' over een alinea-grens.'
-      run_at: '2026-05-11T12:09:17Z'
-      status: needs-rework
-    rationale: 'Drie problemen: (1) B3: duplicate H1 op r.52 en r.54. (2) B2: heading-hiërarchie springt van # direct naar #### en ##### — geen ## of ### aanwezig in de volledige body (heading_count: 8 zijn allemaal ####/##### niveau). (3) C3: twee alinea''s op r.72 en r.74 zijn 4-spaties ingesprongen waardoor ze als code-blok worden gerenderd in markdown. (4) Tikfout ''AAankopen'' (r.92) in tabellabel. (5) Zin op r.197-199 breekt ''kan worden'' en ''geopteerd'' over een alinea-grens.'
-    status: needs-rework
+          voorbeeld: "...zal enkel voor de tweede benadering kunnen worden\n\ngeopteerd."
 themas:
   - afvaldienstenonderneming
   - afvalstoffen

@@ -13,7 +13,7 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/verbonden-ondernemingen-ondernemingen-met-deelnemingsverhouding
 nummer: CBN-advies 114/6
 provenance:
-  generated_at: '2026-05-11T13:05:05Z'
+  generated_at: '2026-05-11T13:15:10Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/uitdrukking-van-verrichtingen-tussen-ondernemingen-uit-eenzelfde-groep
       sha256: a2e68aed61782b8862affb864cca224727baf8b2a6f5226ed041927ed8560f25
@@ -30,8 +30,8 @@ provenance:
     confirmed_by: subagent-sonnet-4-6
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:25Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:13Z'
       heading_count: 0
       max_section_chars: 1999
       file_size_chars: 1999

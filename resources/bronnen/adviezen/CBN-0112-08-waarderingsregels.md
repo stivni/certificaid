@@ -16,45 +16,45 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/afschrijvingsmethoden
 nummer: CBN-advies 112/8
 provenance:
-  generated_at: '2026-05-11T13:05:05Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/waarderingsregels
       sha256: 5f9735a6cc71f59d06a1d68dce41ce8103eaf065ab88ae29197085c9ba315c0f
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:10Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T11:57:45Z'
+    status: needs-rework
+    confirmed_at: '2026-05-11T13:16:02Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: "Twee problemen: (1) A6: spurious paragrafbreuk midden in een zin op regels 73-75 — 'om op een bondige wijze de uitwerking van het degressieve systeem toe te lichten, om duidelijk het [lege regel] onderscheid te laten blijken' is één zin gesplitst over een blanco regel; een mens schrijft dit nooit zo. (2) E2: de tabel op regels 79-85 heeft geen header-separator rij (|---|...|) na de header; dit is geen geldige markdown-tabel."
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:24Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:13Z'
       heading_count: 0
       max_section_chars: 1877
       file_size_chars: 1877
       flags: []
     layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: A6
-          regel: 65
-          type: other
-          voorbeeld: om duidelijk het \n\nonderscheid te laten blijken
-        - categorie: E2
-          regel: 71
-          type: other
-          voorbeeld: '| | | **Lineair afschrijvingspercentage...** | — geen |---|---| rij'
-      rationale: 'Twee problemen. A6/D1: de alinea op regels 65-67 bevat een spurious paragraafbreuk midden in de zin (''om duidelijk het [lege regel] onderscheid te laten blijken'') — een mens zou dit nooit zo typen. E2: de tabel op regels 71-77 mist een header-separator rij (|---|---| na de header); zonder separator is dit geen valide markdown-tabel.'
-      run_at: '2026-05-11T11:57:45Z'
       status: needs-rework
-    rationale: 'Twee problemen. A6/D1: de alinea op regels 65-67 bevat een spurious paragraafbreuk midden in de zin (''om duidelijk het [lege regel] onderscheid te laten blijken'') — een mens zou dit nooit zo typen. E2: de tabel op regels 71-77 mist een header-separator rij (|---|---| na de header); zonder separator is dit geen valide markdown-tabel.'
-    status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:16:02Z'
+      rationale: "Twee problemen: (1) A6: spurious paragrafbreuk midden in een zin op regels 73-75 — 'om op een bondige wijze de uitwerking van het degressieve systeem toe te lichten, om duidelijk het [lege regel] onderscheid te laten blijken' is één zin gesplitst over een blanco regel; een mens schrijft dit nooit zo. (2) E2: de tabel op regels 79-85 heeft geen header-separator rij (|---|...|) na de header; dit is geen geldige markdown-tabel."
+      concrete_problemen:
+        - regel: 73
+          categorie: A6
+          type: other
+          voorbeeld: '...uitwerking van het degressieve systeem toe te lichten, om duidelijk het [blanco regel] onderscheid...'
+        - regel: 79
+          categorie: E2
+          type: other
+          voorbeeld: '| | | **Lineair afschrijvingspercentage...** | (geen |---|---| separator rij)'
 themas:
   - afschrijvingen
   - degressieve afschrijving

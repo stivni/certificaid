@@ -16,49 +16,49 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/verwerking-van-verrichtingen-voor-de-verwerving-of-verkoop-van-een-recht-op-vruchtgebruik
 nummer: CBN-advies 3/1
 provenance:
-  generated_at: '2026-05-11T13:05:05Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/tijdstip-waarop-de-aan-of-verkoop-van-een-onroerend-goed-in-de-boekhouding-dient
       sha256: f889ff2db1f7768b2b5fef9fe2cafaf1672df48450823863fe5a2afa7045cfeb
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:10Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T11:51:19Z'
+    status: needs-rework
+    confirmed_at: '2026-05-11T13:16:01Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: "A4: consistente aanwezigheid van Unicode HYPHEN (U+2010) in plaats van ASCII-hyphen in de heading (r69: 'aan‐ of verkoop') en in de body (r73: 'verkoopscompromis ‐ of', r80: 'trouwens niet aan bod gekomen ‐ kwestie'). Scraper-fix heeft dit specifieke artefact niet verholpen: de CBN-website gebruikt typografische koppeltekens die nog steeds als U+2010 worden overgenomen. Inhoud volledig correct, voetnoot [^1] goed geformateerd."
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:24Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:13Z'
       heading_count: 0
       max_section_chars: 1876
       file_size_chars: 1876
       flags: []
     layer2:
+      status: needs-rework
       agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:16:01Z'
+      rationale: "A4: consistente aanwezigheid van Unicode HYPHEN (U+2010) in plaats van ASCII-hyphen in de heading (r69: 'aan‐ of verkoop') en in de body (r73: 'verkoopscompromis ‐ of', r80: 'trouwens niet aan bod gekomen ‐ kwestie'). Scraper-fix heeft dit specifieke artefact niet verholpen: de CBN-website gebruikt typografische koppeltekens die nog steeds als U+2010 worden overgenomen. Inhoud volledig correct, voetnoot [^1] goed geformateerd."
       concrete_problemen:
-        - categorie: A4
-          regel: 57
+        - regel: 69
+          categorie: A4
           type: other
-          voorbeeld: '# CBN-advies 3-1 Tijdstip waarop de aan‐ of verkoop...'
-        - categorie: A4
-          regel: 61
+          voorbeeld: de aan‐ of verkoop van een onroerend goed
+        - regel: 73
+          categorie: A4
           type: other
           voorbeeld: verkoopscompromis ‐ of, algemeen genomen, de akte
-        - categorie: A4
-          regel: 68
+        - regel: 80
+          categorie: A4
           type: other
-          voorbeeld: over de ‐ trouwens niet aan bod gekomen ‐ kwestie
-      rationale: 'A4: consistente aanwezigheid van Unicode HYPHEN (U+2010) in plaats van gewone ASCII-hyphen (-): 7 gevallen verspreid door body en heading (r57, r61, r68). Dit is een web-scraping-artefact (de CBN-website gebruikt typografische koppeltekens). Voor RAG is dit cosmetisch maar niet ideaal; een mens typt nooit U+2010 zelf. Inhoud verder compleet en correct gestructureerd met voetnoot.'
-      run_at: '2026-05-11T11:51:19Z'
-      status: needs-rework
-    rationale: 'A4: consistente aanwezigheid van Unicode HYPHEN (U+2010) in plaats van gewone ASCII-hyphen (-): 7 gevallen verspreid door body en heading (r57, r61, r68). Dit is een web-scraping-artefact (de CBN-website gebruikt typografische koppeltekens). Voor RAG is dit cosmetisch maar niet ideaal; een mens typt nooit U+2010 zelf. Inhoud verder compleet en correct gestructureerd met voetnoot.'
-    status: needs-rework
+          voorbeeld: de ‐ trouwens niet aan bod gekomen ‐ kwestie
 themas:
   - materiële vaste activa
   - onroerend goed
@@ -66,7 +66,7 @@ themas:
   - tijdstip van inschrijving in de boekhouding
 ---
 
-# CBN-advies 3-1 Tijdstip waarop de aan‐ of verkoop van een onroerend goed in de boekhouding dient ingeschreven te worden
+# CBN-advies 3-1 Tijdstip waarop de aan- of verkoop van een onroerend goed in de boekhouding dient ingeschreven te worden
 
 Aan de Commissie werd gevraagd waarmee bij de boekhoudkundige registratie van de overdracht van een onroerend goed moet worden rekening gehouden : met de eigendomsoverdracht tussen de betrokken partijen die bij verkoop geschiedt zodra er overeenkomst is omtrent zaak en prijs en meestal wordt vastgelegd in een verkoopscompromis, of met de tegenwerpelijkheid van die overdracht aan derden na overschrijving van de akte op het hypotheekkantoor. 
 

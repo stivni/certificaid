@@ -16,45 +16,49 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-vennootschappen-naar-buitenlands-recht-eigen-boekhoudkundige-0
 nummer: CBN-advies 117/2
 provenance:
-  generated_at: '2026-05-11T13:05:05Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/munt-waarin-de-boekhouding-moet-worden-gevoerd-en-de-jaarrekening-opgesteld-de-commissie
       sha256: bae5e73feda46fb6a5b2fc1e8076fece4ac486ba8958478ed4e6eaf1257ccbde
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:10Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T11:57:45Z'
+    status: needs-rework
+    confirmed_at: '2026-05-11T13:16:02Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: "A9: regel 85 bevat 'Belgiëë' (dubbeld ë) — extractie-artefact voor 'België'. A6: regel 97 bevat 'der halve' (gesplitst woord) voor 'derhalve'. Bovendien regel 89: 'ingschakeld' (ontbrekende 'e') — derde extractiefout niet gesignaleerd door vorige L2. Drie bevestigde artefacten; inhoud verder volledig."
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:25Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:14Z'
       heading_count: 0
       max_section_chars: 4790
       file_size_chars: 4790
       flags: []
     layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: A9
-          regel: 77
-          type: ocr-confusion
-          voorbeeld: succursalen in Belgiëë van ondernemingen — dubbel ë, hoort 'België' te zijn
-        - categorie: A6
-          regel: 89
-          type: other
-          voorbeeld: dienen zij der halve te worden omgezet — 'derhalve' gesplitst door extractie
-      rationale: 'Twee duidelijke extractie-artefacten in de body: (1) regel 77 bevat ''Belgiëë'' (dubbel ë) — OCR/extractie-artefact voor ''België''; (2) regel 89 bevat ''der halve'' (gesplitst woord) — extractiefout voor het woord ''derhalve''. Beide zijn inhoudelijk-storende artefacten die ETL kan corrigeren.'
-      run_at: '2026-05-11T11:57:45Z'
       status: needs-rework
-    rationale: 'Twee duidelijke extractie-artefacten in de body: (1) regel 77 bevat ''Belgiëë'' (dubbel ë) — OCR/extractie-artefact voor ''België''; (2) regel 89 bevat ''der halve'' (gesplitst woord) — extractiefout voor het woord ''derhalve''. Beide zijn inhoudelijk-storende artefacten die ETL kan corrigeren.'
-    status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:16:02Z'
+      rationale: "A9: regel 85 bevat 'Belgiëë' (dubbeld ë) — extractie-artefact voor 'België'. A6: regel 97 bevat 'der halve' (gesplitst woord) voor 'derhalve'. Bovendien regel 89: 'ingschakeld' (ontbrekende 'e') — derde extractiefout niet gesignaleerd door vorige L2. Drie bevestigde artefacten; inhoud verder volledig."
+      concrete_problemen:
+        - regel: 85
+          categorie: A9
+          type: ocr-confusion
+          voorbeeld: succursalen in Belgiëë van ondernemingen
+        - regel: 97
+          categorie: A6
+          type: other
+          voorbeeld: dienen zij der halve te worden omgezet
+        - regel: 89
+          categorie: A9
+          type: ocr-confusion
+          voorbeeld: volledig ingschakeld zijn in het economische
 themas:
   - afwijking
   - bedrijfszetel

@@ -16,41 +16,41 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/bouwwerken-op-andermans-grond
 nummer: CBN-advies 2021/05
 provenance:
-  generated_at: '2026-05-11T13:05:08Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudrechtelijke-behandeling-van-kwijtschelding-van-huur-ten-gevolge-van-de-covid-19
       sha256: a6a835235f4de2ac37139702cfe01c84e595a9ff09f053496214f4c98aaa6179
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:12Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T12:21:40Z'
+    status: needs-rework
+    confirmed_at: '2026-05-11T13:34:12Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: "D4: Regel 78 bevat '*Huuropbrengsten *of rekening 70 *Omzet[^2] *' waarbij een spatie staat vóór het sluit-asterisk van beide italic spans — duidelijk extractie-artefact waarbij een footnote-marker de italic-span doorkruist en een spatie injecteert. Het is een geïsoleerd probleem; de rest van het document is inhoudelijk volledig en correct gestructureerd."
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:30Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:18Z'
       heading_count: 7
       max_section_chars: 2238
       file_size_chars: 10492
       flags: []
     layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: D4
-          regel: 74
-          type: other
-          voorbeeld: rekening 744 *Huuropbrengsten *of rekening 70 *Omzet[^2] *wordt gecrediteerd
-      rationale: 'D4: malformed italic op L74 — ''*Huuropbrengsten *of rekening 70 *Omzet[^2] *'' heeft een spatie vóór de afsluitende asterisk waardoor de italic niet correct sluit; dit patroon duidt op een extractieartefact waarbij een footnote-marker de italic-span doorkruist. Geen andere structurele problemen; inhoud is volledig en alle zeven headings zijn correct.'
-      run_at: '2026-05-11T12:21:40Z'
       status: needs-rework
-    rationale: 'D4: malformed italic op L74 — ''*Huuropbrengsten *of rekening 70 *Omzet[^2] *'' heeft een spatie vóór de afsluitende asterisk waardoor de italic niet correct sluit; dit patroon duidt op een extractieartefact waarbij een footnote-marker de italic-span doorkruist. Geen andere structurele problemen; inhoud is volledig en alle zeven headings zijn correct.'
-    status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:34:12Z'
+      rationale: "D4: Regel 78 bevat '*Huuropbrengsten *of rekening 70 *Omzet[^2] *' waarbij een spatie staat vóór het sluit-asterisk van beide italic spans — duidelijk extractie-artefact waarbij een footnote-marker de italic-span doorkruist en een spatie injecteert. Het is een geïsoleerd probleem; de rest van het document is inhoudelijk volledig en correct gestructureerd."
+      concrete_problemen:
+        - regel: 78
+          categorie: D4
+          type: other
+          voorbeeld: rekening 744 *Huuropbrengsten *of rekening 70 *Omzet[^2] *wordt gecrediteerd — spatie voor sluit-asterisk
 themas:
   - Huur
   - COVID-19

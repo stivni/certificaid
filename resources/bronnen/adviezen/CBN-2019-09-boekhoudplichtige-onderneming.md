@@ -10,41 +10,41 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-en-jaarrekeningrechtelijke-verplichtingen-van-een-beoefenaar-van-een-0
 nummer: CBN-advies 2019/09
 provenance:
-  generated_at: '2026-05-11T13:05:08Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudplichtige-onderneming
       sha256: d5cf095e91fad06fe74a290994e695a7dd043f59d198ff5b395bc18669aa0e4b
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:12Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T12:21:40Z'
+    status: needs-rework
+    confirmed_at: '2026-05-11T13:34:12Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: 'A3: TOC op regels 55-71 staat als plain-text geneste nummerlijst in de body vóór `## Algemeen` — klassiek TOC-artefact. Verder is de inhoud volledig, de heading-hiërarchie correct, en zijn er geen andere extractie-artefacten aangetroffen.'
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:30Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:18Z'
       heading_count: 14
       max_section_chars: 7295
       file_size_chars: 23919
       flags: []
     layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: A3
-          regel: 72
-          type: other
-          voorbeeld: -- Nieuwe onderneming -- Bestaande onderneming – voorheen niet onderworpen-- Bestaande onderneming – voorheen onderworpen
-      rationale: 'A3: TOC-fragment op regel 72 — aaneengesloten `--`-reeks (`-- Nieuwe onderneming -- Bestaande onderneming – voorheen niet onderworpen-- Bestaande onderneming – voorheen onderworpen`). Eén regel, beperkte impact, maar duidelijk extractie-artefact van de geneste inhoudstafel. Inhoud en heading-hiërarchie zijn verder volledig correct.'
-      run_at: '2026-05-11T12:21:40Z'
       status: needs-rework
-    rationale: 'A3: TOC-fragment op regel 72 — aaneengesloten `--`-reeks (`-- Nieuwe onderneming -- Bestaande onderneming – voorheen niet onderworpen-- Bestaande onderneming – voorheen onderworpen`). Eén regel, beperkte impact, maar duidelijk extractie-artefact van de geneste inhoudstafel. Inhoud en heading-hiërarchie zijn verder volledig correct.'
-    status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:34:12Z'
+      rationale: 'A3: TOC op regels 55-71 staat als plain-text geneste nummerlijst in de body vóór `## Algemeen` — klassiek TOC-artefact. Verder is de inhoud volledig, de heading-hiërarchie correct, en zijn er geen andere extractie-artefacten aangetroffen.'
+      concrete_problemen:
+        - regel: 55
+          categorie: A3
+          type: other
+          voorbeeld: "1. Algemeen \n2. Wettelijke definities \n  1. Onderneming – algemene definitie \n  2. Boekhoudplichtige onderneming"
 themas:
   - boekhoudplichtige onderneming
   - vrij beroep

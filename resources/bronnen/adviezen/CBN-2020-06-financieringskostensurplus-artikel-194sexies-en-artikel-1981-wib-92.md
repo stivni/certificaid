@@ -3,49 +3,45 @@ bron: https://www.cbn-cnc.be/nl/adviezen/financieringskostensurplus-artikel-194s
 datum: 2020-05-27
 nummer: CBN-advies 2020/06
 provenance:
-  generated_at: '2026-05-11T13:05:08Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/financieringskostensurplus-artikel-194sexies-en-artikel-1981-wib-92
       sha256: 83563083987172e5387a3f35944819c0eeb009df6968445d048464f0747c5ccc
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:12Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T12:21:40Z'
+    status: needs-rework
+    confirmed_at: '2026-05-11T13:34:12Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: "A3: Regels 56–95 bevatten de volledige inhoudsopgave als plain-text ingesprongen lijst direct na de H1-titel, vóór de eerste ## heading op regel 98. Regel 96 bevat een aaneengesloten TOC-blob ('---- Overdracht van het niet-benutte deel van de aftrekcapaciteit ---- Mogelijkheid...') als één some plain-text regel — typisch extract-artefact. De rest van het document (body, tabellen, voetnoten) is inhoudelijk compleet en correct gestructureerd."
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:30Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:18Z'
       heading_count: 37
       max_section_chars: 13930
       file_size_chars: 31751
       flags: []
     layer2:
+      status: needs-rework
       agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:34:12Z'
+      rationale: "A3: Regels 56–95 bevatten de volledige inhoudsopgave als plain-text ingesprongen lijst direct na de H1-titel, vóór de eerste ## heading op regel 98. Regel 96 bevat een aaneengesloten TOC-blob ('---- Overdracht van het niet-benutte deel van de aftrekcapaciteit ---- Mogelijkheid...') als één some plain-text regel — typisch extract-artefact. De rest van het document (body, tabellen, voetnoten) is inhoudelijk compleet en correct gestructureerd."
       concrete_problemen:
-        - categorie: A3
-          regel: 84
+        - regel: 56
+          categorie: A3
+          type: other
+          voorbeeld: 1. Inleiding \n2. Boekhoudkundige verwerking \n  1. Overdracht van het niet-aftrekbaar...
+        - regel: 96
+          categorie: A3
           type: other
           voorbeeld: '---- Overdracht van het niet-benutte deel van de aftrekcapaciteit ---- Mogelijkheid voor de partijen...'
-        - categorie: A3
-          regel: 85
-          type: other
-          voorbeeld: '------ De partijen hebben in de interestaftrekovereenkomst een vergoeding voorzien-------- In hoofde van...'
-        - categorie: A3
-          regel: 44
-          type: other
-          voorbeeld: 1. Inleiding \n2. Boekhoudkundige verwerking... (uitgebreide nested TOC in body)
-      rationale: 'A3: Twee TOC-fragmenten staan in de body (regels 44-86). Op regels 84-86 staat een aaneengesloten collapsed TOC-string over meerdere niveaus (''---- Overdracht van het niet-benutte deel...------ De partijen hebben...'') als ruwe tekst. Dit is een duidelijk extractie-artefact dat de body vervuilt. Verder bevat ook de geneste TOC op regels 44-83 meerdere niveaus inline in het document.'
-      run_at: '2026-05-11T12:21:40Z'
-      status: needs-rework
-    rationale: 'A3: Twee TOC-fragmenten staan in de body (regels 44-86). Op regels 84-86 staat een aaneengesloten collapsed TOC-string over meerdere niveaus (''---- Overdracht van het niet-benutte deel...------ De partijen hebben...'') als ruwe tekst. Dit is een duidelijk extractie-artefact dat de body vervuilt. Verder bevat ook de geneste TOC op regels 44-83 meerdere niveaus inline in het document.'
-    status: needs-rework
 themas:
   - financieringskostensurplus
   - interestaftrekovereenkomst

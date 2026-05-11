@@ -3,25 +3,27 @@ bron: https://www.cbn-cnc.be/nl/adviezen/vragen-en-antwoorden-over-de-sociale-ba
 datum: 1997-04-01
 nummer: CBN-advies S100
 provenance:
-  generated_at: '2026-05-11T13:05:05Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/vragen-en-antwoorden-over-de-sociale-balans
       sha256: cb84fe1ae9d8be8471967c71bfe887a1b47653223a98da9e947667eef91b128f
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:10Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at:
-    confirmed_by:
+    status: needs-rework
+    confirmed_at: '2026-05-11T13:16:01Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "Laag 2 was 'not_run' vóór deze re-QA. Grote file (1440 regels, 127k chars) met meerdere structuurproblemen: (1) B4: meerdere secties die als **vetgedrukte tekst** beginnen in plaats van als heading, o.a. r752 ('**Rubriek 100...**' gevolgd direct door #### op r753), r955, r977, r1078, r1235, r1242. (2) B4: 'DE ZIEKENHUIZEN DIE AFHANGEN VAN DE OCMW' (r332) als all-caps plain text zonder heading. (3) D4/B1: heading r463 '###### Stagiairs** **' bevat stray bold-markers na de heading-tekst. (4) E1/E2: tabel r809-851 heeft ernstig gebroken pipe-syntax met multi-line cellen, gecombineerde rijen en verloren cel-grenzen — onleesbaar als markdown-tabel. Inhoud inhoudelijk volledig en diepgaand."
     layer1:
       status: warn
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:24Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:13Z'
       heading_count: 86
       max_section_chars: 25951
       file_size_chars: 127399
@@ -31,13 +33,39 @@ provenance:
           detail: 'langste sectie op ###-niveau: 25951 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
           samples: []
     layer2:
-      agent:
-      concrete_problemen: []
-      rationale:
-      run_at:
-      status: not_run
-    rationale: 'Trust gereset 2026-05-11: re-scrape met scraper-fixes, content-diff > 5%'
-    status: unreviewed
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:16:01Z'
+      rationale: "Laag 2 was 'not_run' vóór deze re-QA. Grote file (1440 regels, 127k chars) met meerdere structuurproblemen: (1) B4: meerdere secties die als **vetgedrukte tekst** beginnen in plaats van als heading, o.a. r752 ('**Rubriek 100...**' gevolgd direct door #### op r753), r955, r977, r1078, r1235, r1242. (2) B4: 'DE ZIEKENHUIZEN DIE AFHANGEN VAN DE OCMW' (r332) als all-caps plain text zonder heading. (3) D4/B1: heading r463 '###### Stagiairs** **' bevat stray bold-markers na de heading-tekst. (4) E1/E2: tabel r809-851 heeft ernstig gebroken pipe-syntax met multi-line cellen, gecombineerde rijen en verloren cel-grenzen — onleesbaar als markdown-tabel. Inhoud inhoudelijk volledig en diepgaand."
+      concrete_problemen:
+        - regel: 332
+          categorie: B4
+          type: other
+          voorbeeld: DE ZIEKENHUIZEN DIE AFHANGEN VAN DE OCMW
+        - regel: 463
+          categorie: D4
+          type: other
+          voorbeeld: '###### Stagiairs** **'
+        - regel: 752
+          categorie: B4
+          type: other
+          voorbeeld: '**Rubriek 100 - "Gemiddeld aantal werknemers", met onderscheid tussen voltijds en deeltijds**'
+        - regel: 809
+          categorie: E2
+          type: pseudo-table
+          voorbeeld: '| *Op het einde \n\t\t\t\tvan de maand* | | A. Voltijds | ...'
+        - regel: 955
+          categorie: B4
+          type: other
+          voorbeeld: '**Uitsplitsing per beroepscategorie van de in het personeelsregister ingeschreven werknemers**'
+        - regel: 977
+          categorie: B4
+          type: other
+          voorbeeld: '**Uitzendkrachten in de sociale balans van de gebruikende ondernemingen ...**'
+        - regel: 1078
+          categorie: B4
+          type: other
+          voorbeeld: '**Staat III over het gebruik van de maatregelen ten gunste van de werkgelegenheid ...**'
 themas:
   - ter beschikking van de onderneming gestelde personen
   - statutair

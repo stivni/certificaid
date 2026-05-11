@@ -3,49 +3,49 @@ bron: https://www.cbn-cnc.be/nl/adviezen/stukken-die-tegelijk-met-de-jaarrekenin
 datum: 1978-12-01
 nummer: CBN-advies 110/2
 provenance:
-  generated_at: '2026-05-11T13:05:05Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/stukken-die-tegelijk-met-de-jaarrekening-dienen-neergelegd-te-worden-artikel-80-venn-w
       sha256: a859f50e1d95639cecf3850a874ab41a26e0173bc95ecf7d0a8f404af3224c6c
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:10Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T11:57:45Z'
+    status: needs-rework
+    confirmed_at: '2026-05-11T13:16:02Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: "B3: twee lege headings '## ' zonder tekst op regels 62 en 86 — een mens schrijft nooit een lege heading; dit zijn extractie-artefacten waarbij de sectietitels verloren zijn gegaan. D4: '*sexto *' (spatie voor sluitende asterisk, regel 64 en andere) is technisch gesloten maar inconsistent met markdown-conventie en kan rendering-problemen geven."
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:24Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:13Z'
       heading_count: 2
       max_section_chars: 3093
       file_size_chars: 5989
       flags: []
     layer2:
+      status: needs-rework
       agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:16:02Z'
+      rationale: "B3: twee lege headings '## ' zonder tekst op regels 62 en 86 — een mens schrijft nooit een lege heading; dit zijn extractie-artefacten waarbij de sectietitels verloren zijn gegaan. D4: '*sexto *' (spatie voor sluitende asterisk, regel 64 en andere) is technisch gesloten maar inconsistent met markdown-conventie en kan rendering-problemen geven."
       concrete_problemen:
-        - categorie: B3
-          regel: 50
+        - regel: 62
+          categorie: B3
           type: other
           voorbeeld: '## '
-        - categorie: B3
-          regel: 75
+        - regel: 86
+          categorie: B3
           type: other
           voorbeeld: '## '
-        - categorie: D4
-          regel: 52
+        - regel: 64
+          categorie: D4
           type: other
           voorbeeld: '*sexto *van het tweede lid'
-      rationale: 'B3: twee lege headings op regels 50 en 75 (enkel ''## '' zonder tekst) die de twee secties van het advies zouden moeten labelen. Mens schrijft nooit een lege heading. D4: italic markers zoals ''*sexto *'' (met spatie voor sluitende asterisk) zijn technisch gesloten maar inconsistent met standaard markdown-conventie; kan rendering-problemen geven in sommige parsers. Inhoud verder volledig.'
-      run_at: '2026-05-11T11:57:45Z'
-      status: needs-rework
-    rationale: 'B3: twee lege headings op regels 50 en 75 (enkel ''## '' zonder tekst) die de twee secties van het advies zouden moeten labelen. Mens schrijft nooit een lege heading. D4: italic markers zoals ''*sexto *'' (met spatie voor sluitende asterisk) zijn technisch gesloten maar inconsistent met standaard markdown-conventie; kan rendering-problemen geven in sommige parsers. Inhoud verder volledig.'
-    status: needs-rework
 themas:
   - achterstallig
   - bijkantoor

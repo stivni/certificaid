@@ -16,41 +16,41 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/bestellingen-in-uitvoering
 nummer: CBN-advies 157/1
 provenance:
-  generated_at: '2026-05-11T13:05:06Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/tijdstip-waarop-de-winst-is-gerealiseerd
       sha256: 947de518276cc54f43cb9d8fc1f073c58445cbd6a249cd913dcdacb205927dc1
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:10Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T12:04:42Z'
+    status: needs-rework
+    confirmed_at: '2026-05-11T13:23:04Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: "B3/A3: regel 66 herhaalt de volledige H1-titel als plain-text alinea direct onder de heading ('CBN-advies 157/1 - Tijdstip waarop de winst is gerealiseerd '), inclusief trailing spatie — duplicate-page-title patroon afkomstig van HTML-scraping. Inhoud verder volledig en correct."
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:26Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:15Z'
       heading_count: 0
       max_section_chars: 1603
       file_size_chars: 1603
       flags: []
     layer2:
+      status: needs-rework
       agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:23:04Z'
+      rationale: "B3/A3: regel 66 herhaalt de volledige H1-titel als plain-text alinea direct onder de heading ('CBN-advies 157/1 - Tijdstip waarop de winst is gerealiseerd '), inclusief trailing spatie — duplicate-page-title patroon afkomstig van HTML-scraping. Inhoud verder volledig en correct."
       concrete_problemen:
-        - categorie: B3
-          regel: 62
+        - regel: 66
+          categorie: B3
           type: other
           voorbeeld: 'CBN-advies 157/1 - Tijdstip waarop de winst is gerealiseerd '
-      rationale: 'B3: regel 62 herhaalt de paginatitel als plain-text alinea direct onder de # heading (duplicate-page-title-heading patroon, identiek aan CBN-0154). Inhoud volledig en voetnoten afwezig (geen citaties in de body), wat klopt voor dit korte advies.'
-      run_at: '2026-05-11T12:04:42Z'
-      status: needs-rework
-    rationale: 'B3: regel 62 herhaalt de paginatitel als plain-text alinea direct onder de # heading (duplicate-page-title-heading patroon, identiek aan CBN-0154). Inhoud volledig en voetnoten afwezig (geen citaties in de body), wat klopt voor dit korte advies.'
-    status: needs-rework
 themas:
   - bestellingen in uitvoering
   - realisatie

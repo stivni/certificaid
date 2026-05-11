@@ -16,7 +16,7 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/afronding-van-de-bedragen-in-de-jaarrekeningen-die-in-euro-of-in-duizenden-euro-zijn
 nummer: CBN-advies 173/2
 provenance:
-  generated_at: '2026-05-11T13:05:06Z'
+  generated_at: '2026-05-11T13:15:10Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-afrondingen-bij-conversie
       sha256: 28016f3fc0c35028cd22dc3bc24fc507ebec22791830fdca82512e66e7639507
@@ -33,8 +33,8 @@ provenance:
     confirmed_by: subagent-sonnet-4-6
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:26Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:15Z'
       heading_count: 0
       max_section_chars: 2040
       file_size_chars: 2040

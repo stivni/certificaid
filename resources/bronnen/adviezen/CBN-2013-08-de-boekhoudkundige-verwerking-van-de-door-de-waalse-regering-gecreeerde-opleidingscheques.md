@@ -10,45 +10,45 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-het-stelsel-tot-gedeeltelijke-vrijstelling-van-0
 nummer: CBN-advies 2013/8
 provenance:
-  generated_at: '2026-05-11T13:05:08Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-door-de-waalse-regering-gecreeerde-opleidingscheques
       sha256: e38bfddbd610fc108a5e18a82365dacd18dca9065a2026646c8e146a367dcc71
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:12Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T12:16:34Z'
+    status: needs-rework
+    confirmed_at: '2026-05-11T13:30:32Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: "A3/B3: regel 59 bevat 'de Waalse regering gecreëerde opleidingscheques' als losstaande plain-text regel direct na de H1-titel — dit is een extractie-artefact van een gedupliceerd titelfragment dat niet verwijderd werd. E2: tabelrij op regel 89 ('| | of 623 Andere personeelskosten | | | |') heeft een extra trailing pipe en een 'of 623...' notatie die de tabel malformed maakt."
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:28Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:16Z'
       heading_count: 2
       max_section_chars: 2907
       file_size_chars: 3779
       flags: []
     layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: A3
-          regel: 51
-          type: other
-          voorbeeld: de Waalse regering gecreëerde opleidingscheques (titel-duplicaat als plain text)
-        - categorie: E2
-          regel: 83
-          type: other
-          voorbeeld: '| | of 623 Andere personeelskosten | | | | (extra trailing pipe)'
-      rationale: 'A3/B3: regel 51 bevat ''de Waalse regering gecreëerde opleidingscheques'' als losstaande plain-text regel direct na de H1-titel — dit is een duplicaatfragment van de titel dat door de extractor dubbel werd opgenomen. E2: tabelrij op regel 83 (''| | of 623 Andere personeelskosten | | | |'') heeft een extra trailing pipe wat de tabel malformed maakt.'
-      run_at: '2026-05-11T12:16:34Z'
       status: needs-rework
-    rationale: 'A3/B3: regel 51 bevat ''de Waalse regering gecreëerde opleidingscheques'' als losstaande plain-text regel direct na de H1-titel — dit is een duplicaatfragment van de titel dat door de extractor dubbel werd opgenomen. E2: tabelrij op regel 83 (''| | of 623 Andere personeelskosten | | | |'') heeft een extra trailing pipe wat de tabel malformed maakt.'
-    status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:30:32Z'
+      rationale: "A3/B3: regel 59 bevat 'de Waalse regering gecreëerde opleidingscheques' als losstaande plain-text regel direct na de H1-titel — dit is een extractie-artefact van een gedupliceerd titelfragment dat niet verwijderd werd. E2: tabelrij op regel 89 ('| | of 623 Andere personeelskosten | | | |') heeft een extra trailing pipe en een 'of 623...' notatie die de tabel malformed maakt."
+      concrete_problemen:
+        - regel: 59
+          categorie: A3
+          type: other
+          voorbeeld: de Waalse regering gecreëerde opleidingscheques
+        - regel: 89
+          categorie: E2
+          type: other
+          voorbeeld: '| | of 623 Andere personeelskosten | | | |'
 themas:
   - bedrijfssubsidie
   - opleidingscheques

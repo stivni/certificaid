@@ -7,7 +7,7 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/belastingvrije-provisie-voor-sociaal-passief
 nummer: CBN-advies 2018/21
 provenance:
-  generated_at: '2026-05-11T13:05:08Z'
+  generated_at: '2026-05-11T13:15:12Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/vrijstelling-mbt-het-sociaal-passief-ingevolge-het-eenheidsstatuut
       sha256: c71ec7d9c8f537088d54151d46dea7a11d4210e362c8b7e4ea7ea4a8398c69dc
@@ -24,8 +24,8 @@ provenance:
     confirmed_by: subagent-sonnet-4-6
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:30Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:17Z'
       heading_count: 3
       max_section_chars: 4073
       file_size_chars: 6589

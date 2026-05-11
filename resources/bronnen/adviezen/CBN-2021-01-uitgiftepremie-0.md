@@ -16,37 +16,53 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/uitgiftepremie
 nummer: CBN-advies 2021/01
 provenance:
-  generated_at: '2026-05-11T13:05:08Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/uitgiftepremie-0
       sha256: 62cf2752f2d3c6fc437d4fd18bf5273a8fe23b7773e7571d947cf9a9065fe896
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:12Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at:
-    confirmed_by:
+    status: needs-rework
+    confirmed_at: '2026-05-11T13:34:12Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "D4: Regel 82 bevat ':* I.B. Inbreng - Onbeschikbaar*.' waarbij een spatie staat tussen de opening-asterisk en 'I.B.' — de italic sluit niet correct. B5: Regels 142 en 148 bevatten subsectietitels 'b) Indien...' en 'c) Bij een latere...' als plain-text vóór tabellen zonder heading-prefix, terwijl 'a)' op regel 135 wél een ### heading heeft — inconsistent patroon. F1: De H1-titel luidt '# COMMISSIE VOOR BOEKHOUDKUNDIGE NORMEN' in plaats van de verwachte '# CBN-advies 2021/01 – Uitgiftepremie' — ontbreekt advies-identificatie in de body-titel."
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:30Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:18Z'
       heading_count: 10
       max_section_chars: 8218
       file_size_chars: 16100
       flags: []
     layer2:
-      agent:
-      concrete_problemen: []
-      rationale:
-      run_at:
-      status: not_run
-    rationale: 'Trust gereset 2026-05-11: re-scrape met scraper-fixes, content-diff > 5%'
-    status: unreviewed
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:34:12Z'
+      rationale: "D4: Regel 82 bevat ':* I.B. Inbreng - Onbeschikbaar*.' waarbij een spatie staat tussen de opening-asterisk en 'I.B.' — de italic sluit niet correct. B5: Regels 142 en 148 bevatten subsectietitels 'b) Indien...' en 'c) Bij een latere...' als plain-text vóór tabellen zonder heading-prefix, terwijl 'a)' op regel 135 wél een ### heading heeft — inconsistent patroon. F1: De H1-titel luidt '# COMMISSIE VOOR BOEKHOUDKUNDIGE NORMEN' in plaats van de verwachte '# CBN-advies 2021/01 – Uitgiftepremie' — ontbreekt advies-identificatie in de body-titel."
+      concrete_problemen:
+        - regel: 82
+          categorie: D4
+          type: other
+          voorbeeld: '- bij de andere dan de NV, SE, SCE:* I.B. Inbreng - Onbeschikbaar*. — spatie na opening-asterisk'
+        - regel: 142
+          categorie: B5
+          type: other
+          voorbeeld: 'b) Indien de statuten niets vermelden... (plain text, geen heading — terwijl a) op regel 135 wel ### heeft)'
+        - regel: 148
+          categorie: B5
+          type: other
+          voorbeeld: c) Bij een latere statutenwijziging... (idem — plain text)
+        - regel: 58
+          categorie: F1
+          type: other
+          voorbeeld: '# COMMISSIE VOOR BOEKHOUDKUNDIGE NORMEN (geen advies-nummer of titel in H1)'
 themas:
   - uitgiftepremie
   - beschikbare inbreng

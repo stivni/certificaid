@@ -3,7 +3,7 @@ bron: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-facto
 datum: 2011-10-05
 nummer: CBN-advies 2011/23
 provenance:
-  generated_at: '2026-05-11T13:05:08Z'
+  generated_at: '2026-05-11T13:15:12Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-factoringovereenkomsten
       sha256: f9f408af8346f92956d05b367918d33f55a545bfdd5e0bf4d868809655a2cb28
@@ -20,8 +20,8 @@ provenance:
     confirmed_by: subagent-laag2-ronde2
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:28Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:16Z'
       heading_count: 11
       max_section_chars: 13236
       file_size_chars: 32362

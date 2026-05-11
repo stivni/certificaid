@@ -13,53 +13,53 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/verwerking-in-de-jaarrekening-van-bepaalde-verrichtingen-als-bedoeld-in-artikel-677-van
 nummer: CBN-advies 2009/15
 provenance:
-  generated_at: '2026-05-11T13:05:07Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-inbreng-van-een-bedrijfstak-of-van-een-algemeenheid
       sha256: 040d3c605891795bded2e48e8a8839bb399079cfc2f275c721df16354f76a6d7
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:11Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T12:09:17Z'
+    status: needs-rework
+    confirmed_at: '2026-05-11T13:23:04Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: "B3/A9: H1-titel (r70) bevat 'bedrijfstak1' — het superscript-cijfer '1' is niet geparsed als [^1] en kleeft aan het woord vast. Direct op r72 staat 'of van een algemeenheid van goederen' nogmaals als losstaande plain-text regel — een titelfragment dat bij extractie losraakte (duplicate titelfragment). B2: subkoppen op r92 '#### Principe' en r99 '#### Enkele bijzonderheden' gebruiken H4 direct onder H2 (sprong H2→H4 zonder H3). Inhoud en voorbeelden zijn volledig."
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:27Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:15Z'
       heading_count: 4
       max_section_chars: 12126
       file_size_chars: 15642
       flags: []
     layer2:
+      status: needs-rework
       agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:23:04Z'
+      rationale: "B3/A9: H1-titel (r70) bevat 'bedrijfstak1' — het superscript-cijfer '1' is niet geparsed als [^1] en kleeft aan het woord vast. Direct op r72 staat 'of van een algemeenheid van goederen' nogmaals als losstaande plain-text regel — een titelfragment dat bij extractie losraakte (duplicate titelfragment). B2: subkoppen op r92 '#### Principe' en r99 '#### Enkele bijzonderheden' gebruiken H4 direct onder H2 (sprong H2→H4 zonder H3). Inhoud en voorbeelden zijn volledig."
       concrete_problemen:
-        - categorie: B1
-          regel: 54
+        - regel: 70
+          categorie: A9
           type: other
-          voorbeeld: '# CBN-advies 2009/15 - De boekhoudkundige verwerking van de inbreng van een bedrijfstak1 of van'
-        - categorie: B3
-          regel: 56
+          voorbeeld: CBN-advies 2009/15 - De boekhoudkundige verwerking van de inbreng van een bedrijfstak1 of van
+        - regel: 72
+          categorie: B3
           type: other
           voorbeeld: of van een algemeenheid van goederen
-        - categorie: B2
-          regel: 76
+        - regel: 92
+          categorie: B2
           type: other
-          voorbeeld: '#### Principe  (direct onder ## zonder tussenniveau)'
-        - categorie: B2
-          regel: 83
+          voorbeeld: '#### Principe  (H4 direct onder H2, zonder tussenniveau H3)'
+        - regel: 99
+          categorie: B2
           type: other
           voorbeeld: '#### Enkele bijzonderheden  (H4 direct onder H2)'
-      rationale: 'B3: de H1-titel op r54 bevat een inline voetnootaanduiding ''bedrijfstak1'' (het cijfer ''1'' is een escaped superscript uit HTML dat niet als [^1] werd geparsed), en direct op r56 staat ''of van een algemeenheid van goederen'' nogmaals als losse plain-text regel — een duplicate titelfragment dat bij extractie losraakte. B2: subkoppen op r76 en r83 gebruiken #### direct onder ## (H2→H4 zonder H3), een heading-hiërarchiefout. Inhoud verder volledig.'
-      run_at: '2026-05-11T12:09:17Z'
-      status: needs-rework
-    rationale: 'B3: de H1-titel op r54 bevat een inline voetnootaanduiding ''bedrijfstak1'' (het cijfer ''1'' is een escaped superscript uit HTML dat niet als [^1] werd geparsed), en direct op r56 staat ''of van een algemeenheid van goederen'' nogmaals als losse plain-text regel — een duplicate titelfragment dat bij extractie losraakte. B2: subkoppen op r76 en r83 gebruiken #### direct onder ## (H2→H4 zonder H3), een heading-hiërarchiefout. Inhoud verder volledig.'
-    status: needs-rework
 themas:
   - continuïteitsbeginsel
   - fiscale aspecten

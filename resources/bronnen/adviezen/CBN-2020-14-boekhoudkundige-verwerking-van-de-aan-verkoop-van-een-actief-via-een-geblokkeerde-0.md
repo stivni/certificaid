@@ -3,7 +3,7 @@ bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-aan-v
 datum: 2020-12-11
 nummer: CBN-advies 2020/14
 provenance:
-  generated_at: '2026-05-11T13:05:08Z'
+  generated_at: '2026-05-11T13:15:12Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-aan-verkoop-van-een-actief-via-een-geblokkeerde-0
       sha256: ed74afcdef9799397ca53683b6c66f0d3608f5b8b3457b0d7e4d25674a0fab43
@@ -20,8 +20,8 @@ provenance:
     confirmed_by: subagent-sonnet-4-6
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:30Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:18Z'
       heading_count: 4
       max_section_chars: 15873
       file_size_chars: 23042

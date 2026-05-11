@@ -7,7 +7,7 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/pro-rata-regel-van-artikel-18-wib-92-bij-terugbetaling-van-inbreng-kapitaalvermindering
 nummer: CBN-advies 2019/01
 provenance:
-  generated_at: '2026-05-11T13:05:08Z'
+  generated_at: '2026-05-11T13:15:12Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/dividenduitkering-en-kapitaalvermindering-in-natura-0
       sha256: 2a27321595711abf20073bd1a09dce17d12ae08358e12ff0a6bf1872bd2a8f58
@@ -24,8 +24,8 @@ provenance:
     confirmed_by: human
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:30Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:17Z'
       heading_count: 19
       max_section_chars: 11666
       file_size_chars: 25125

@@ -16,7 +16,7 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/berekening-criteria-artikel-15-wvenn
 nummer: CBN-advies 2011/20
 provenance:
-  generated_at: '2026-05-11T13:05:08Z'
+  generated_at: '2026-05-11T13:15:12Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/verbonden-ondernemingen
       sha256: 58b980c3a3de0f06d8dd374311a2d68742227957040e8d80495d4d538a4310a0
@@ -33,8 +33,8 @@ provenance:
     confirmed_by: subagent-sonnet-4-6
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:28Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:16Z'
       heading_count: 6
       max_section_chars: 1527
       file_size_chars: 5032

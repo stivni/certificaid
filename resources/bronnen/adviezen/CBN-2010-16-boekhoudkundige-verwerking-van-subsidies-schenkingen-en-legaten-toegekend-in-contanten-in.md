@@ -3,53 +3,49 @@ bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-subsidie
 datum: 2010-11-10
 nummer: CBN-advies 2010/16
 provenance:
-  generated_at: '2026-05-11T13:05:08Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-subsidies-schenkingen-en-legaten-toegekend-in-contanten-in
       sha256: b66cf497d0127797f6e2ad5f488d4a6171e035dbf5fe77f441d95017d0a9090c
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:11Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T12:09:17Z'
+    status: needs-rework
+    confirmed_at: '2026-05-11T13:23:04Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: "A3: r72-79 bevat een plain-text genummerde inhoudsopgave in de body (zelfde patroon als 2010/15) die niet verwijderd werd. D4: r96 'post I.D. *Lidgeld, schenkingen, legaten en subsidies[^6]* ;' — de voetnootmarkering [^6] staat binnen het italic-blok waardoor de closing asterisk na de puntkomma komt, wat als malformed kan renderen. R119 '(1)** oorzaak:**' — bold-marker staat ná de haakjes in plaats van eromheen, wat een gebroken bold-opmaakartefact is. Inhoud en 8 voorbeelden zijn overigens volledig."
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:27Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:16Z'
       heading_count: 14
       max_section_chars: 11054
       file_size_chars: 27530
       flags: []
     layer2:
+      status: needs-rework
       agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:23:04Z'
+      rationale: "A3: r72-79 bevat een plain-text genummerde inhoudsopgave in de body (zelfde patroon als 2010/15) die niet verwijderd werd. D4: r96 'post I.D. *Lidgeld, schenkingen, legaten en subsidies[^6]* ;' — de voetnootmarkering [^6] staat binnen het italic-blok waardoor de closing asterisk na de puntkomma komt, wat als malformed kan renderen. R119 '(1)** oorzaak:**' — bold-marker staat ná de haakjes in plaats van eromheen, wat een gebroken bold-opmaakartefact is. Inhoud en 8 voorbeelden zijn overigens volledig."
       concrete_problemen:
-        - categorie: A3
-          regel: 56
+        - regel: 72
+          categorie: A3
           type: other
-          voorbeeld: 1. Basisbeginselen \n2. Soorten subsidies \n  1. Subsidies, ...
-        - categorie: D4
-          regel: 83
+          voorbeeld: "1. Basisbeginselen \n2. Soorten subsidies \n  1. Subsidies, schenkingen en legaten in contanten... (plain-text TOC in body)"
+        - regel: 96
+          categorie: D4
           type: other
-          voorbeeld: Lidgeld, schenkingen, legaten en subsidies[^6] *;
-        - categorie: D4
-          regel: 84
-          type: other
-          voorbeeld: de post VI. *Kapitaalsubsidies* in artikel 19, § 2, 3°
-        - categorie: D4
-          regel: 106
+          voorbeeld: post I.D. *Lidgeld, schenkingen, legaten en subsidies[^6]* ;
+        - regel: 119
+          categorie: D4
           type: other
           voorbeeld: (1)** oorzaak:** het gaat om de reden
-      rationale: 'Regel 56–64: plain-text genummerde inhoudsopgave in de body (A3-patroon, net als 2010/15). Regel 83: malformed italic met spatie vóór sluit-asterisk: ''Lidgeld, schenkingen, legaten en subsidies[^6] *'' (D4). Regel 84: zelfde patroon ''Kapitaalsubsidies* in artikel''. Regel 106: bold/italic gecombineerd mislopen: ''(1)** oorzaak:**'' — de bold-marker staat ná de haakjes in plaats van eromheen. Inhoud en tabellen overigens volledig.'
-      run_at: '2026-05-11T12:09:17Z'
-      status: needs-rework
-    rationale: 'Regel 56–64: plain-text genummerde inhoudsopgave in de body (A3-patroon, net als 2010/15). Regel 83: malformed italic met spatie vóór sluit-asterisk: ''Lidgeld, schenkingen, legaten en subsidies[^6] *'' (D4). Regel 84: zelfde patroon ''Kapitaalsubsidies* in artikel''. Regel 106: bold/italic gecombineerd mislopen: ''(1)** oorzaak:**'' — de bold-marker staat ná de haakjes in plaats van eromheen. Inhoud en tabellen overigens volledig.'
-    status: needs-rework
 themas:
   - compenserende bedragen ter vermindering van de loonkost
   - exploitatiesubsidie

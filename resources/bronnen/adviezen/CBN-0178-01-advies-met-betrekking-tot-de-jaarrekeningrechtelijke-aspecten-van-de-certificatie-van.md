@@ -10,7 +10,7 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-mini-bel-20
 nummer: CBN-advies 178/1
 provenance:
-  generated_at: '2026-05-11T13:05:06Z'
+  generated_at: '2026-05-11T13:15:10Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/advies-met-betrekking-tot-de-jaarrekeningrechtelijke-aspecten-van-de-certificatie-van
       sha256: 04afdcb126a2343ef1d3e80d715762bcc4ec8a9373b222253ea9020277927ee1
@@ -27,8 +27,8 @@ provenance:
     confirmed_by: subagent-laag2-ronde2
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:27Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:15Z'
       heading_count: 8
       max_section_chars: 17584
       file_size_chars: 35751

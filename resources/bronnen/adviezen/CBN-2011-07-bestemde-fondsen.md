@@ -7,41 +7,41 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/verenigingen-en-stichtingen-compensatie-van-negatieve-fondsen
 nummer: CBN-advies 2011/7
 provenance:
-  generated_at: '2026-05-11T13:05:08Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/bestemde-fondsen
       sha256: aaf3d6eb8ebd7055b7296f9ee9efb1f17a8c0e2814922dfdda9aee7efb275a30
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:11Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T12:09:18Z'
+    status: needs-rework
+    confirmed_at: '2026-05-11T13:23:04Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: "Voetnoot [^4] is gedefinieerd (regel 150: redactionele noot over voorgestelde naamswijziging van rekening 790) maar heeft geen overeenkomstige referentie in de body — de [^4]-callout die in de originele PDF bij de boekingtabel stond (vermoedelijk bij de eerste 'Boeking'-sectie) is verloren gegaan bij de extractie (D3-patroon: definitie zonder body-referentie, of body-referentie zonder definitie). Verdere inhoud correct: drie ## headings, drie voorbeelden met correcte pipe-tabellen, voetnoten 1–3 en 5–10 correct gerefereerd."
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:28Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:16Z'
       heading_count: 3
       max_section_chars: 2826
       file_size_chars: 8712
       flags: []
     layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: D3
-          regel: 71
-          type: other
-          voorbeeld: ' [^4]'
-      rationale: 'D3: op regel 71 staat een orphaned `[^4]` als standalone regel tussen twee alinea''s — een losstaande voetnootreferentie zonder bijbehorende zin, typisch extractie-artefact waarbij de callout in de PDF los van de tekst stond. Verdere inhoud compleet, headings correct, tabellen in pipe-syntax.'
-      run_at: '2026-05-11T12:09:18Z'
       status: needs-rework
-    rationale: 'D3: op regel 71 staat een orphaned `[^4]` als standalone regel tussen twee alinea''s — een losstaande voetnootreferentie zonder bijbehorende zin, typisch extractie-artefact waarbij de callout in de PDF los van de tekst stond. Verdere inhoud compleet, headings correct, tabellen in pipe-syntax.'
-    status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:23:04Z'
+      rationale: "Voetnoot [^4] is gedefinieerd (regel 150: redactionele noot over voorgestelde naamswijziging van rekening 790) maar heeft geen overeenkomstige referentie in de body — de [^4]-callout die in de originele PDF bij de boekingtabel stond (vermoedelijk bij de eerste 'Boeking'-sectie) is verloren gegaan bij de extractie (D3-patroon: definitie zonder body-referentie, of body-referentie zonder definitie). Verdere inhoud correct: drie ## headings, drie voorbeelden met correcte pipe-tabellen, voetnoten 1–3 en 5–10 correct gerefereerd."
+      concrete_problemen:
+        - regel: 150
+          categorie: D3
+          type: other
+          voorbeeld: '[^4]: De Commissie zal voorstellen om de benaming van rekening 790 aan te passen...'
 themas:
   - bestemde fondsen
   - fondsen bestemd voor investeringen

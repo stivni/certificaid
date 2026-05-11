@@ -16,7 +16,7 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/afschrijvingsmethoden
 nummer: CBN-advies 113/5
 provenance:
-  generated_at: '2026-05-11T13:05:05Z'
+  generated_at: '2026-05-11T13:15:10Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/herwaardering-van-vaste-activa-voor-het-begin-van-het-boekjaar-dat-aanvangt-na-31-december
       sha256: 1cf5aff861f5346d111cb0f8bcb4bed221f788d17e89713f24e56a69581dac4a
@@ -33,8 +33,8 @@ provenance:
     confirmed_by: subagent-laag2-ronde2
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:24Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:13Z'
       heading_count: 1
       max_section_chars: 7304
       file_size_chars: 7304

@@ -16,7 +16,7 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/herwaarderingsmeerwaarden
 nummer: CBN-advies 121/2
 provenance:
-  generated_at: '2026-05-11T13:05:05Z'
+  generated_at: '2026-05-11T13:15:10Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/verlies-gedragen-door-vennoten-of-derden
       sha256: a548e625e9e9642720e9a702993fc1be329ccb0738c0f2e26d1e247c253e793a
@@ -33,8 +33,8 @@ provenance:
     confirmed_by: subagent-laag2-ronde2
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:25Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:14Z'
       heading_count: 0
       max_section_chars: 5042
       file_size_chars: 5042

@@ -13,49 +13,53 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/toelichting-omtrent-het-niet-gebruik-van-de-waarderingsgregels-op-basis-van-de-waarde-in
 nummer: CBN-advies 2010/12
 provenance:
-  generated_at: '2026-05-11T13:05:07Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/de-toepassing-van-de-algemene-boekhoudprincipes-op-afgeleide-financiele-instrumenten
       sha256: c9f6f8f0f467c420a15edda62e9915a8a8db08424d27efbe262d4331fcff25ef
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:11Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T12:09:17Z'
+    status: needs-rework
+    confirmed_at: '2026-05-11T13:23:04Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: "B1/A9: H1-titel (r70) heeft 'instrumenten1' — superscript-voetnootnummer niet geparsed als [^1], plus ontbrekende spatie in '2010/12 -De' (koppelteken zonder spatiëring). B2/D4: alle ### subkoppen gebruiken '### ***tekst***' of '### ***tekst** *' (bold-italic wrapper binnenin heading) — dit is een PDF-artefact van dikgedrukte koppen; r74 heeft trailing spatie voor de closing *** ('** *') wat een malformed marker is. Inhoud is volledig en inhoudelijk goed."
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:27Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:16Z'
       heading_count: 6
       max_section_chars: 8987
       file_size_chars: 17405
       flags: []
     layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: B1
-          regel: 58
-          type: other
-          voorbeeld: '# CBN-advies 2010/12 -De toepassing...instrumenten1 Advies van 8 september 2010'
-        - categorie: B2
-          regel: 62
-          type: other
-          voorbeeld: '### ***Het ontbreken van een conceptueel kader...***'
-        - categorie: D4
-          regel: 106
-          type: other
-          voorbeeld: '### ***Voorrang van het boekhoudkundig realisatiebeginsel op het overeenstemmingsprincipe ***'
-      rationale: 'B1: H1-titel (r58) bevat ''2010/12 -De toepassing...'' zonder spatie na de koppelstreep en eindigt op ''instrumenten1'' (superscript voetnootnummer niet geparsed als [^1]). B2: H3-subkoppen gebruiken ''### ***tekst***'' — triple-asterisk bold-italic binnen een heading is ongebruikelijk en een extractie-artefact van de PDF (dikgedrukte koppen in PDF). De heading ''### ***Voorrang... ***'' op r106 heeft ook een spatie voor de closing *** (malformed). Verder is de inhoud volledig en inhoudelijk goed.'
-      run_at: '2026-05-11T12:09:17Z'
       status: needs-rework
-    rationale: 'B1: H1-titel (r58) bevat ''2010/12 -De toepassing...'' zonder spatie na de koppelstreep en eindigt op ''instrumenten1'' (superscript voetnootnummer niet geparsed als [^1]). B2: H3-subkoppen gebruiken ''### ***tekst***'' — triple-asterisk bold-italic binnen een heading is ongebruikelijk en een extractie-artefact van de PDF (dikgedrukte koppen in PDF). De heading ''### ***Voorrang... ***'' op r106 heeft ook een spatie voor de closing *** (malformed). Verder is de inhoud volledig en inhoudelijk goed.'
-    status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:23:04Z'
+      rationale: "B1/A9: H1-titel (r70) heeft 'instrumenten1' — superscript-voetnootnummer niet geparsed als [^1], plus ontbrekende spatie in '2010/12 -De' (koppelteken zonder spatiëring). B2/D4: alle ### subkoppen gebruiken '### ***tekst***' of '### ***tekst** *' (bold-italic wrapper binnenin heading) — dit is een PDF-artefact van dikgedrukte koppen; r74 heeft trailing spatie voor de closing *** ('** *') wat een malformed marker is. Inhoud is volledig en inhoudelijk goed."
+      concrete_problemen:
+        - regel: 70
+          categorie: A9
+          type: other
+          voorbeeld: CBN-advies 2010/12 -De toepassing van de algemene boekhoudprincipes op afgeleide financiële instrumenten1
+        - regel: 74
+          categorie: D4
+          type: other
+          voorbeeld: '***Het ontbreken van een conceptueel kader inzake de boekhoudkundige verwerking van afgeleide financiële instrumenten** *'
+        - regel: 91
+          categorie: B2
+          type: other
+          voorbeeld: '### ***Doelstelling van het advies***  (bold-italic wrapper in heading is PDF-artefact)'
+        - regel: 113
+          categorie: D4
+          type: other
+          voorbeeld: '***Voorrang van het boekhoudkundig realisatiebeginsel op het overeenstemmingsprincipe** *'
 themas:
   - afgeleide financiële instrumenten
   - boekhoudprincipes

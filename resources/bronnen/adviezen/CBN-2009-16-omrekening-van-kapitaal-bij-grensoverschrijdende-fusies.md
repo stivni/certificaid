@@ -16,7 +16,7 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-fusies-tussen-vennootschappen
 nummer: CBN-advies 2009/16
 provenance:
-  generated_at: '2026-05-11T13:05:07Z'
+  generated_at: '2026-05-11T13:15:11Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/omrekening-van-kapitaal-bij-grensoverschrijdende-fusies
       sha256: 83dc21653a6c045697a3cc20ede1abb140dfde829e847e94ef0aef58d448ddef
@@ -33,8 +33,8 @@ provenance:
     confirmed_by: subagent-sonnet-4-6
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:27Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:15Z'
       heading_count: 5
       max_section_chars: 4266
       file_size_chars: 10643

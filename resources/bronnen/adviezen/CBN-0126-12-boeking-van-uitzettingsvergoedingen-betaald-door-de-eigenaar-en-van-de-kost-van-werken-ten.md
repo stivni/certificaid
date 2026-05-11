@@ -3,49 +3,45 @@ bron: https://www.cbn-cnc.be/nl/adviezen/boeking-van-uitzettingsvergoedingen-bet
 datum: 1993-02-01
 nummer: CBN-advies 126/12
 provenance:
-  generated_at: '2026-05-11T13:05:06Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/boeking-van-uitzettingsvergoedingen-betaald-door-de-eigenaar-en-van-de-kost-van-werken-ten
       sha256: dee182c834e178d07ddd553ef3a8fc93f6f80ff886fcb9e7c324449e9e02c9d0
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:10Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T11:57:45Z'
+    status: needs-rework
+    confirmed_at: '2026-05-11T13:16:02Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: "B7: H1-titel op L57 eindigt op '...ten laste van de verkoper1' — het cijfer '1' is een losgeraakt voetnootmarker die in de heading is terechtgekomen. B2: heading-hiërarchie springt van H1 (L57) direct naar H4 (L70: '#### DE BETALING...') zonder H2/H3 ertussen. Beide issues zijn reëel en bevestigd ten opzichte van de vorige Laag-2-ronde."
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:25Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:14Z'
       heading_count: 6
       max_section_chars: 2587
       file_size_chars: 7877
       flags: []
     layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: B7
-          regel: 45
-          type: other
-          voorbeeld: '# ...kost van werken ten laste van de verkoper1'
-        - categorie: B2
-          regel: 58
-          type: other
-          voorbeeld: '# (niveau 1) -> #### DE BETALING... (niveau 4), geen ## of ### ertussen'
-        - categorie: G3
-          regel: 87
-          type: other
-          voorbeeld: ' [^4][^5] (losstaande footnote-markers als paragraaf vóór tabel)'
-      rationale: 'B7: de H1-title op regel 45 eindigt op ''...ten laste van de verkoper1'' — het cijfer ''1'' is een losgekoppeld voetnootmarker die in de heading terecht is gekomen. B2: heading-hiërarchie springt van # (niveau 1) naar #### (niveau 4) zonder ## of ### ertussen. G3: inline-footnote-markers ''[^4][^5]'' en ''[^7]'' staan als losstaande blokregel vóór de tabel (regels 87 en 103) in plaats van in de tekst.'
-      run_at: '2026-05-11T11:57:45Z'
       status: needs-rework
-    rationale: 'B7: de H1-title op regel 45 eindigt op ''...ten laste van de verkoper1'' — het cijfer ''1'' is een losgekoppeld voetnootmarker die in de heading terecht is gekomen. B2: heading-hiërarchie springt van # (niveau 1) naar #### (niveau 4) zonder ## of ### ertussen. G3: inline-footnote-markers ''[^4][^5]'' en ''[^7]'' staan als losstaande blokregel vóór de tabel (regels 87 en 103) in plaats van in de tekst.'
-    status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:16:02Z'
+      rationale: "B7: H1-titel op L57 eindigt op '...ten laste van de verkoper1' — het cijfer '1' is een losgeraakt voetnootmarker die in de heading is terechtgekomen. B2: heading-hiërarchie springt van H1 (L57) direct naar H4 (L70: '#### DE BETALING...') zonder H2/H3 ertussen. Beide issues zijn reëel en bevestigd ten opzichte van de vorige Laag-2-ronde."
+      concrete_problemen:
+        - regel: 57
+          categorie: B7
+          type: other
+          voorbeeld: '# CBN-advies 126/12 - ...kost van werken ten laste van de verkoper1'
+        - regel: 70
+          categorie: B2
+          type: other
+          voorbeeld: '#### DE BETALING VAN EEN UITZETTINGSVERGOEDING DOOR DE EIGENAAR (H1 → H4, geen H2/H3)'
 themas:
   - kost van werken ten laste van de verkoper
   - materiële vaste activa

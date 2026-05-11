@@ -3,45 +3,45 @@ bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-levering
 datum: 2011-01-12
 nummer: CBN-advies 2011/4
 provenance:
-  generated_at: '2026-05-11T13:05:08Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-leveringontvangst-van-handelsgoederen-om-niet-update-0
       sha256: 72aa22e5a94a24cef31611e115d2507720b175904234b657608a618a50f5119c
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:11Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T12:09:18Z'
+    status: needs-rework
+    confirmed_at: '2026-05-11T13:23:04Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: "Regels 61 en 73: 'Voorbeeld'-labels zijn opgemaakt als ***Voorbeeld*** (bold+italic gecombineerd via triple asterisk) in plaats van een heading of consistente inline-stijl (D4/stijlinconsistentie tov overige adviezen die ## of plain 'Voorbeeld' gebruiken). Voetnoot [^1] is gedefinieerd (redactionele noot over publieke consultatie) maar heeft geen body-referentie — dit is acceptabel als redactionele annotatie maar het ontbreken van een [^1]-callout in de body is onconventioneel. Verder is het advies correct en volledig."
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:28Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:16Z'
       heading_count: 2
       max_section_chars: 1351
       file_size_chars: 2041
       flags: []
     layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: D4
-          regel: 53
-          type: other
-          voorbeeld: '***Voorbeeld***'
-        - categorie: D4
-          regel: 66
-          type: other
-          voorbeeld: '***Voorbeeld***'
-      rationale: 'Regel 53: ''***Voorbeeld***'' gebruikt drievoudige asterisk (bold+italic gecombineerd) terwijl regel 66 hetzelfde patroon herhaalt. Dit is een inconsistentie tov de andere adviezen die ''*Voorbeeld*'' of ''*Voorbeeld'' gebruiken (D4/stijl-inconsistentie). Anderzijds is dit een zeer kort advies (2042 chars) met slechts twee headings en één tabel — laag 1 meldt heading_count 2 wat klopt. Voetnoot [^1] is gedefinieerd maar er is geen [^1]-referentie in de body (de footnote is een redactionele noot over de publieke consultatie, wat in orde is). Toch wijst het triple-asterisk patroon op een ETL-stijlinconsistentie ten opzichte van de rest van de batch.'
-      run_at: '2026-05-11T12:09:18Z'
       status: needs-rework
-    rationale: 'Regel 53: ''***Voorbeeld***'' gebruikt drievoudige asterisk (bold+italic gecombineerd) terwijl regel 66 hetzelfde patroon herhaalt. Dit is een inconsistentie tov de andere adviezen die ''*Voorbeeld*'' of ''*Voorbeeld'' gebruiken (D4/stijl-inconsistentie). Anderzijds is dit een zeer kort advies (2042 chars) met slechts twee headings en één tabel — laag 1 meldt heading_count 2 wat klopt. Voetnoot [^1] is gedefinieerd maar er is geen [^1]-referentie in de body (de footnote is een redactionele noot over de publieke consultatie, wat in orde is). Toch wijst het triple-asterisk patroon op een ETL-stijlinconsistentie ten opzichte van de rest van de batch.'
-    status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:23:04Z'
+      rationale: "Regels 61 en 73: 'Voorbeeld'-labels zijn opgemaakt als ***Voorbeeld*** (bold+italic gecombineerd via triple asterisk) in plaats van een heading of consistente inline-stijl (D4/stijlinconsistentie tov overige adviezen die ## of plain 'Voorbeeld' gebruiken). Voetnoot [^1] is gedefinieerd (redactionele noot over publieke consultatie) maar heeft geen body-referentie — dit is acceptabel als redactionele annotatie maar het ontbreken van een [^1]-callout in de body is onconventioneel. Verder is het advies correct en volledig."
+      concrete_problemen:
+        - regel: 61
+          categorie: D4
+          type: other
+          voorbeeld: '***Voorbeeld***'
+        - regel: 73
+          categorie: D4
+          type: other
+          voorbeeld: '***Voorbeeld***'
 themas:
   - gratis handelsgoederen
   - levering handelsgoederen om niet

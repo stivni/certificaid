@@ -16,7 +16,7 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-een-herziening-van-de-btw-op-een-aangekocht
 nummer: CBN-advies 126/8
 provenance:
-  generated_at: '2026-05-11T13:05:06Z'
+  generated_at: '2026-05-11T13:15:10Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/financiele-vaste-activa-waardering-aanschaffingswaarde-met-prijstoeslag
       sha256: 4b57bfa3765f48385641a5aefa9eb18e738cb29aedb726a08575ea39621299ee
@@ -33,8 +33,8 @@ provenance:
     confirmed_by: subagent-sonnet-4-6
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:25Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:14Z'
       heading_count: 2
       max_section_chars: 3013
       file_size_chars: 6925

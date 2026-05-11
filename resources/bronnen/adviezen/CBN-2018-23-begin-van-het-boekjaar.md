@@ -16,53 +16,45 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/verslaggeving-bij-ontbinding-en-vereffening-van-bv-cv-nv-se-en-sce
 nummer: CBN-advies 2018/23
 provenance:
-  generated_at: '2026-05-11T13:05:08Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/begin-van-het-boekjaar
       sha256: b442dbac8ff7b7731072ff57be43236eeeae2d8e535166126b18c96d96018a75
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:12Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T12:21:40Z'
+    status: needs-rework
+    confirmed_at: '2026-05-11T13:34:12Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: 'A3: TOC-blok op regels 83-94 staat als plain-text nummerlijst in de body (geen heading-prefix), gevolgd door een dubbele afgebroken TOC-regel op regel 94 (`-- Inbreng van algemeenheid en inbreng van bedrijfstak tijdens de oprichting van een nieuwe vennootschap`). Structuur en inhoud zijn verder volledig correct; alle tabellen intact en voetnoten [^23]/[^24] hebben correcte definities.'
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:30Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:17Z'
       heading_count: 7
       max_section_chars: 13207
       file_size_chars: 28430
       flags: []
     layer2:
+      status: needs-rework
       agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:34:12Z'
+      rationale: 'A3: TOC-blok op regels 83-94 staat als plain-text nummerlijst in de body (geen heading-prefix), gevolgd door een dubbele afgebroken TOC-regel op regel 94 (`-- Inbreng van algemeenheid en inbreng van bedrijfstak tijdens de oprichting van een nieuwe vennootschap`). Structuur en inhoud zijn verder volledig correct; alle tabellen intact en voetnoten [^23]/[^24] hebben correcte definities.'
       concrete_problemen:
-        - categorie: A3
-          regel: 67
+        - regel: 83
+          categorie: A3
           type: other
-          voorbeeld: '1. Inleiding \n2. Het principe: het boekjaar start op de datum...'
-        - categorie: A3
-          regel: 78
+          voorbeeld: "1. Inleiding \n2. Het principe: het boekjaar start op de datum..."
+        - regel: 94
+          categorie: A3
           type: other
           voorbeeld: -- Inbreng van algemeenheid en inbreng van bedrijfstak tijdens de oprichting van een nieuwe vennootschap
-        - categorie: D3
-          regel: 227
-          type: other
-          voorbeeld: ' [^23]'
-        - categorie: D3
-          regel: 244
-          type: other
-          voorbeeld: ' [^24]'
-      rationale: 'A3: TOC-blok op regels 67-78 staat als plain-text nummering in de body (geen heading-prefix), met een extra gedupliceerde en afgebroken TOC-regel op lijn 78 (`-- Inbreng van algemeenheid...`). D3: Losstaande `[^23]` en `[^24]` op respectievelijk regels 227 en 244 zonder voorgaande aankondigingstekst — worden als verweesd anker gerenderd vóór de tabel. Tabellen en inhoud zijn verder volledig en goed opgemaakt.'
-      run_at: '2026-05-11T12:21:40Z'
-      status: needs-rework
-    rationale: 'A3: TOC-blok op regels 67-78 staat als plain-text nummering in de body (geen heading-prefix), met een extra gedupliceerde en afgebroken TOC-regel op lijn 78 (`-- Inbreng van algemeenheid...`). D3: Losstaande `[^23]` en `[^24]` op respectievelijk regels 227 en 244 zonder voorgaande aankondigingstekst — worden als verweesd anker gerenderd vóór de tabel. Tabellen en inhoud zijn verder volledig en goed opgemaakt.'
-    status: needs-rework
 themas:
   - boekjaar
   - begin van het boekjaar

@@ -3,7 +3,7 @@ bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-gevolgen-van-de-aanvaar
 datum: 2009-03-11
 nummer: CBN-advies 2009/9
 provenance:
-  generated_at: '2026-05-11T13:05:07Z'
+  generated_at: '2026-05-11T13:15:11Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-gevolgen-van-de-aanvaardingsplicht-inzake-afgedankte-elektrische-en
       sha256: 21e9fb5214140e5447af42694896cb77b881beec36b81428df1d6534429f19cf
@@ -20,8 +20,8 @@ provenance:
     confirmed_by: human
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:27Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:15Z'
       heading_count: 48
       max_section_chars: 18279
       file_size_chars: 112190

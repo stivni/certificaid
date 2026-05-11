@@ -16,61 +16,49 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/verlies-gedragen-door-vennoten-of-derden
 nummer: CBN-advies 121/3
 provenance:
-  generated_at: '2026-05-11T13:05:05Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/mutaties-binnen-het-eigen-vermogen
       sha256: a494a51dc41c670cd4c09f0ab8e895eaf42e573697f0b32ef9126a0f635717da
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:10Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T11:57:45Z'
+    status: needs-rework
+    confirmed_at: '2026-05-11T13:16:02Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: "A6/D1: regel 150 begint een nieuwe zin met 'de doctrine' (lowercase na punt, zelfde regel); regel 152 heeft '. enerzijds' (lowercase na punt — losstaande zin begint zonder hoofdletter). Regel 168: 'in de resultaat verwerking' — samengesteld woord gesplitst (moet 'resultaatverwerking' zijn). B4/bold-naar-heading was opgelost door scraper-fix. A4 NOT SIGN (¬) niet meer aangetroffen in body."
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:25Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:14Z'
       heading_count: 11
       max_section_chars: 6114
       file_size_chars: 13628
       flags: []
     layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: B4
-          regel: 142
-          type: other
-          voorbeeld: '**RESULTAATVERWERKING **'
-        - categorie: B4
-          regel: 149
-          type: other
-          voorbeeld: '**SAMENVATTING VAN MUTATIES BINNEN HET EIGEN VERMOGEN **'
-        - categorie: B4
-          regel: 153
-          type: other
-          voorbeeld: '**I. MUTATIES BINNEN HET EIGEN VERMOGEN MET TEGENBOEKING IN EEN BALANSPOST **'
-        - categorie: B4
-          regel: 182
-          type: other
-          voorbeeld: '**II. MUTATIES BINNEN HET EIGEN VERMOGEN MET TEGENBOEKING IN EEN RESULTATENREKENING **'
-        - categorie: B4
-          regel: 187
-          type: other
-          voorbeeld: '**III. MUTATIES BINNEN HET EIGEN VERMOGEN MET TEGENBOEKING IN EEN OF MEER POSTEN VAN D'
-        - categorie: A4
-          regel: 100
-          type: other
-          voorbeeld: eigen¬vermogensbestanddelen (U+00AC NOT SIGN i.p.v. koppelteken)
-      rationale: 'Twee categorieën problemen: (1) B4: vijf sectie-titels zijn als **BOLD** opgemaakt in plaats van als ## heading (regels 142, 149, 153, 182, 187) — dit zijn duidelijk structuurniveaus (RESULTAATVERWERKING, SAMENVATTING, I./II./III.) die als headings bedoeld zijn. (2) A4: U+00AC (NOT SIGN, ¬) op regel 100 in ''eigen¬vermogensbestanddelen'' — PDF-extractie-artefact, waarschijnlijk een koppelteken dat fout gelezen werd. Rest van de tekst inhoudelijk volledig en coherent.'
-      run_at: '2026-05-11T11:57:45Z'
       status: needs-rework
-    rationale: 'Twee categorieën problemen: (1) B4: vijf sectie-titels zijn als **BOLD** opgemaakt in plaats van als ## heading (regels 142, 149, 153, 182, 187) — dit zijn duidelijk structuurniveaus (RESULTAATVERWERKING, SAMENVATTING, I./II./III.) die als headings bedoeld zijn. (2) A4: U+00AC (NOT SIGN, ¬) op regel 100 in ''eigen¬vermogensbestanddelen'' — PDF-extractie-artefact, waarschijnlijk een koppelteken dat fout gelezen werd. Rest van de tekst inhoudelijk volledig en coherent.'
-    status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:16:02Z'
+      rationale: "A6/D1: regel 150 begint een nieuwe zin met 'de doctrine' (lowercase na punt, zelfde regel); regel 152 heeft '. enerzijds' (lowercase na punt — losstaande zin begint zonder hoofdletter). Regel 168: 'in de resultaat verwerking' — samengesteld woord gesplitst (moet 'resultaatverwerking' zijn). B4/bold-naar-heading was opgelost door scraper-fix. A4 NOT SIGN (¬) niet meer aangetroffen in body."
+      concrete_problemen:
+        - regel: 150
+          categorie: A6
+          type: other
+          voorbeeld: meer. de doctrine is verdeeld — lowercase 'd' na punt, nieuwe zin zonder hoofdletter
+        - regel: 152
+          categorie: A6
+          type: other
+          voorbeeld: dient te gebeuren. enerzijds kan — lowercase 'e' na punt
+        - regel: 168
+          categorie: A6
+          type: other
+          voorbeeld: in de resultaat verwerking slechts — samengesteld woord gesplitst
 themas:
   - verlies
   - aanzuivering overgedragen verlies

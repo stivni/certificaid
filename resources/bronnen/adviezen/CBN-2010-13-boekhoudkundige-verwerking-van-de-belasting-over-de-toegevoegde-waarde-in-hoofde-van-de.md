@@ -10,49 +10,45 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/prestaties-geleverd-aan-overheid-verschuldigde-btw
 nummer: CBN-advies 2010/13
 provenance:
-  generated_at: '2026-05-11T13:05:08Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-belasting-over-de-toegevoegde-waarde-in-hoofde-van-de
       sha256: 756db94869f927c4b46b7cf51c063da0b0ec4779826778b0b1fd161f31c2995c
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:11Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T12:09:17Z'
+    status: trusted
+    confirmed_at: '2026-05-11T13:23:04Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: "Na scraper-fixes zijn de eerder gemelde zwevende voetnootankers ([^14], [^15], [^16][^17]) niet meer aanwezig in de huidige versie — de body is schoon. Heading-structuur correct (H1 + 4 ## secties). Alle voorbeeldboekingen in pipe-tabellen. Kleinere restpunten: r90 mist een punt aan het einde van een zin ('worden geacht door de btw-eenheid te worden verwezenlijkt' — geen punt) en r170 heeft 'aangesproken wordenvoor' (ontbrekende spatie), maar dit zijn cosmetische haarscheurtjes die leesbaarheid niet raken. Inhoud volledig."
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:27Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:16Z'
       heading_count: 4
       max_section_chars: 4021
       file_size_chars: 10140
       flags: []
     layer2:
+      status: trusted
       agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:23:04Z'
+      rationale: "Na scraper-fixes zijn de eerder gemelde zwevende voetnootankers ([^14], [^15], [^16][^17]) niet meer aanwezig in de huidige versie — de body is schoon. Heading-structuur correct (H1 + 4 ## secties). Alle voorbeeldboekingen in pipe-tabellen. Kleinere restpunten: r90 mist een punt aan het einde van een zin ('worden geacht door de btw-eenheid te worden verwezenlijkt' — geen punt) en r170 heeft 'aangesproken wordenvoor' (ontbrekende spatie), maar dit zijn cosmetische haarscheurtjes die leesbaarheid niet raken. Inhoud volledig."
       concrete_problemen:
-        - categorie: G3
-          regel: 132
+        - regel: 90
+          categorie: D1
+          type: abrupt-cutoff
+          voorbeeld: worden geacht door de btw-eenheid te worden verwezenlijkt (zin eindigt zonder punt)
+        - regel: 170
+          categorie: D1
           type: other
-          voorbeeld: ' [^14]'
-        - categorie: G3
-          regel: 141
-          type: other
-          voorbeeld: ' [^15]'
-        - categorie: G3
-          regel: 150
-          type: other
-          voorbeeld: ' [^16][^17]'
-      rationale: 'D4: regel 132 bevat een losstaande voetnootreferentie ''[^14]'' op een lege regel tussen twee alinea''s — dit is een inline-fragment dat in de PDF als voetnootanker aan een tabel was gekoppeld maar nu zweeft als zinloze regel. Hetzelfde patroon op regels 141 en 150. Verder is de inhoud compleet en structureel goed.'
-      run_at: '2026-05-11T12:09:17Z'
-      status: needs-rework
-    rationale: 'D4: regel 132 bevat een losstaande voetnootreferentie ''[^14]'' op een lege regel tussen twee alinea''s — dit is een inline-fragment dat in de PDF als voetnootanker aan een tabel was gekoppeld maar nu zweeft als zinloze regel. Hetzelfde patroon op regels 141 en 150. Verder is de inhoud compleet en structureel goed.'
-    status: needs-rework
+          voorbeeld: aangesproken wordenvoor de eventuele navordering (ontbrekende spatie tussen woorden)
 themas:
   - btw
   - btw-eenheid

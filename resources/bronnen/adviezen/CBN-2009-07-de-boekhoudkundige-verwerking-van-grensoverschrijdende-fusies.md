@@ -16,49 +16,57 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/aftrek-voor-innovatie-inkomsten
 nummer: CBN-advies 2009/7
 provenance:
-  generated_at: '2026-05-11T13:05:06Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-grensoverschrijdende-fusies
       sha256: a16ec48ec2d1eaf87fef3210eb3df4a5df458952af1726a2701f0734072812d8
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:10Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T12:09:17Z'
+    status: needs-rework
+    confirmed_at: '2026-05-11T13:23:04Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: 'B4: twee ## headings in all-caps (INLEIDING r.74, BOEKHOUDKUNDIGE VERWERKING r.90) — mens schrijft dit als ## Inleiding. E1/E2: tientallen balans-tabellen (r.101-106, 112-117, 129-141, enz.) missen de verplichte |---|---| scheidingsrij na de header-rij — technisch ongeldige markdown-tabellen die door renderers niet als tabel worden herkend. Veertien voetnoten correct; inhoud volledig.'
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:27Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:15Z'
       heading_count: 2
       max_section_chars: 19589
       file_size_chars: 23498
       flags: []
     layer2:
+      status: needs-rework
       agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:23:04Z'
+      rationale: 'B4: twee ## headings in all-caps (INLEIDING r.74, BOEKHOUDKUNDIGE VERWERKING r.90) — mens schrijft dit als ## Inleiding. E1/E2: tientallen balans-tabellen (r.101-106, 112-117, 129-141, enz.) missen de verplichte |---|---| scheidingsrij na de header-rij — technisch ongeldige markdown-tabellen die door renderers niet als tabel worden herkend. Veertien voetnoten correct; inhoud volledig.'
       concrete_problemen:
-        - categorie: B4
-          regel: 62
+        - regel: 74
+          categorie: B4
           type: other
           voorbeeld: '## INLEIDING (all-caps H2)'
-        - categorie: B4
-          regel: 78
+        - regel: 90
+          categorie: B4
           type: other
           voorbeeld: '## BOEKHOUDKUNDIGE VERWERKING (all-caps H2)'
-        - categorie: E1
-          regel: 90
+        - regel: 101
+          categorie: E1
           type: other
-          voorbeeld: '| A (Belgische overgenomen vennootschap) | — geen |---|---| scheidingsrij na header'
-      rationale: 'B4: twee ## headings in all-caps (INLEIDING, BOEKHOUDKUNDIGE VERWERKING op regels 62 en 78) — mens schrijft Inleiding niet in caps. E1/E2: 127 tabelregels aanwezig maar slechts 2 scheidingsregels (|---|) — de meeste balans-tabellen hebben geen markdown header-separator, wat technisch geen geldige markdown-tabellen zijn. Inhoud volledig en voetnoten correct.'
-      run_at: '2026-05-11T12:09:17Z'
-      status: needs-rework
-    rationale: 'B4: twee ## headings in all-caps (INLEIDING, BOEKHOUDKUNDIGE VERWERKING op regels 62 en 78) — mens schrijft Inleiding niet in caps. E1/E2: 127 tabelregels aanwezig maar slechts 2 scheidingsregels (|---|) — de meeste balans-tabellen hebben geen markdown header-separator, wat technisch geen geldige markdown-tabellen zijn. Inhoud volledig en voetnoten correct.'
-    status: needs-rework
+          voorbeeld: '| A (Belgische overgenomen vennootschap) | \n| Vaste activa | | 5.500 | — geen |---|---| scheidingsrij na header'
+        - regel: 129
+          categorie: E1
+          type: other
+          voorbeeld: '| A (Belgische overgenomen vennootschap) | \n| Vaste activa | | 5.500 | — tweede tabel zonder |---|---| separator'
+        - regel: 160
+          categorie: E1
+          type: other
+          voorbeeld: '| A (Belgische overgenomen vennootschap) | \n| Vaste activa | | 5.500 | — derde tabel zonder separator'
 themas:
   - belastingvrije reserves
   - dotatie van een belgische inrichting

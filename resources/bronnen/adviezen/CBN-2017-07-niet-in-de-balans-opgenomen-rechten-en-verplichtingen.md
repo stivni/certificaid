@@ -3,57 +3,57 @@ bron: https://www.cbn-cnc.be/nl/adviezen/niet-in-de-balans-opgenomen-rechten-en-
 datum: 2017-03-15
 nummer: CBN-advies 2017/07
 provenance:
-  generated_at: '2026-05-11T13:05:08Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/niet-in-de-balans-opgenomen-rechten-en-verplichtingen
       sha256: f6470ed1e68c46c270e00f166224818bc6700a337a8f39ddfb0840dc88b5f528
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:12Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T12:16:34Z'
+    status: needs-rework
+    confirmed_at: '2026-05-11T13:30:33Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: "A3: regels 69-86 bevatten een volledige genummerde inhoudsopgave direct na H1 die niet werd verwijderd. A2: regels 80 en 86 bevatten ', 15' als losse paginanummer-resten (dotted-leader artefact zonder de dots zelf). B6: regel 82-85 bevat TOC-subfragmenten met '--' als separator. D4: regel 188 bevat '*inlichtingen *' met spatie vóór sluitende asterisk."
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:29Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:17Z'
       heading_count: 14
       max_section_chars: 11917
       file_size_chars: 27048
       flags: []
     layer2:
+      status: needs-rework
       agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:30:33Z'
+      rationale: "A3: regels 69-86 bevatten een volledige genummerde inhoudsopgave direct na H1 die niet werd verwijderd. A2: regels 80 en 86 bevatten ', 15' als losse paginanummer-resten (dotted-leader artefact zonder de dots zelf). B6: regel 82-85 bevat TOC-subfragmenten met '--' als separator. D4: regel 188 bevat '*inlichtingen *' met spatie vóór sluitende asterisk."
       concrete_problemen:
-        - categorie: A3
-          regel: 49
+        - regel: 69
+          categorie: A3
           type: other
-          voorbeeld: 1. Hypothese en vraag \n2. Wetgevend en reglementair kader \n  1. Vermelding van rechten...
-        - categorie: A2
-          regel: 60
+          voorbeeld: "1. Hypothese en vraag \n2. Wetgevend en reglementair kader \n  1. Vermelding van rechten..."
+        - regel: 80
+          categorie: A2
           type: dotted-leader
           voorbeeld: ', 15'
-        - categorie: A2
-          regel: 66
+        - regel: 82
+          categorie: B6
+          type: other
+          voorbeeld: '  2. Boeking van rechten en verplichtingen onder de rekeningen van de klasse 0'
+        - regel: 86
+          categorie: A2
           type: dotted-leader
           voorbeeld: ', 15'
-        - categorie: A3
-          regel: 67
-          type: other
-          voorbeeld: '  -- Boeking van rechten en verplichtingen onder de rekeningen van de klasse 0---- Boeking door...'
-        - categorie: D4
-          regel: 169
+        - regel: 188
+          categorie: D4
           type: other
           voorbeeld: met *inlichtingen *betreffende belangrijke hangende geschillen
-      rationale: 'A2/A3: De inhoudsopgave is aanwezig bovenaan (regels 49-66) maar is niet verwijderd uit de body; bovendien bevat regel 67 een TOC-fragmentregel die direct voor de eerste ## heading staat: ''-- Boeking van rechten en verplichtingen onder de rekeningen van de klasse 0---- Boeking door de onderneming...''. Regels 60 en 66 bevatten '', 15'' als paginanummer-rest (dotted-leader artefact zonder dots). D4: regel 169 bevat ''*inlichtingen *'' met spatie voor sluitende asterisk.'
-      run_at: '2026-05-11T12:16:34Z'
-      status: needs-rework
-    rationale: 'A2/A3: De inhoudsopgave is aanwezig bovenaan (regels 49-66) maar is niet verwijderd uit de body; bovendien bevat regel 67 een TOC-fragmentregel die direct voor de eerste ## heading staat: ''-- Boeking van rechten en verplichtingen onder de rekeningen van de klasse 0---- Boeking door de onderneming...''. Regels 60 en 66 bevatten '', 15'' als paginanummer-rest (dotted-leader artefact zonder dots). D4: regel 169 bevat ''*inlichtingen *'' met spatie voor sluitende asterisk.'
-    status: needs-rework
 themas:
   - rechten
   - verplichtingen

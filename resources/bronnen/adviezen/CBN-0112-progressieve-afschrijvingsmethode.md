@@ -16,45 +16,37 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/afschrijvingsmethoden
 nummer: CBN-advies 112/5
 provenance:
-  generated_at: '2026-05-11T13:05:05Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/progressieve-afschrijvingsmethode
       sha256: e755a65edaf94c50284ba2ae6d610d7d90eac6f75714c7e81936b93780882a67
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:10Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T11:57:45Z'
+    status: trusted
+    confirmed_at: '2026-05-11T13:16:02Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: "Prior layer2 verdict (needs-rework, B3 duplicate headings op L57 en L59) is onjuist: die regelnummers vallen in de frontmatter. De body heeft slechts één H1-heading op regel 65. De heading-tekst 'CBN advies 112/5' mist een koppelteken na 'CBN' vergeleken met de conventie, maar dit is cosmetisch. Geen ETL-artefacten in de body aangetroffen."
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:24Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:13Z'
       heading_count: 0
       max_section_chars: 4476
       file_size_chars: 4476
       flags: []
     layer2:
+      status: trusted
       agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: B3
-          regel: 57
-          type: other
-          voorbeeld: '# CBN advies 112/5 - Progressieve afschrijvingsmethode'
-        - categorie: B3
-          regel: 59
-          type: other
-          voorbeeld: '# CBN advies 112/5 - Progressieve afschrijvingsmethode'
-      rationale: 'B3: duplicate page-title heading op regels 57 en 59 (''# CBN advies 112/5 - Progressieve afschrijvingsmethode'' tweemaal identiek). Typisch B3-patroon dat bij scrapen ontstaat als de title-tag en de H1 beide worden overgenomen. Inhoud verder volledig en kwalitatief.'
-      run_at: '2026-05-11T11:57:45Z'
-      status: needs-rework
-    rationale: 'B3: duplicate page-title heading op regels 57 en 59 (''# CBN advies 112/5 - Progressieve afschrijvingsmethode'' tweemaal identiek). Typisch B3-patroon dat bij scrapen ontstaat als de title-tag en de H1 beide worden overgenomen. Inhoud verder volledig en kwalitatief.'
-    status: needs-rework
+      run_at: '2026-05-11T13:16:02Z'
+      rationale: "Prior layer2 verdict (needs-rework, B3 duplicate headings op L57 en L59) is onjuist: die regelnummers vallen in de frontmatter. De body heeft slechts één H1-heading op regel 65. De heading-tekst 'CBN advies 112/5' mist een koppelteken na 'CBN' vergeleken met de conventie, maar dit is cosmetisch. Geen ETL-artefacten in de body aangetroffen."
+      concrete_problemen: []
 themas:
   - afschrijvingen
   - afschrijvingsplan

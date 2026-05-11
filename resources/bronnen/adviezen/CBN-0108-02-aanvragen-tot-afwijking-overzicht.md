@@ -3,49 +3,49 @@ bron: https://www.cbn-cnc.be/nl/adviezen/aanvragen-tot-afwijking-overzicht
 datum: 1978-12-01
 nummer: CBN-advies 108/2
 provenance:
-  generated_at: '2026-05-11T13:05:05Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/aanvragen-tot-afwijking-overzicht
       sha256: ba3a343ddfa87e81faaa7171277264e63ed339d662ec9109a0ca6d56e85ac63b
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:10Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T11:57:45Z'
+    status: needs-rework
+    confirmed_at: '2026-05-11T13:16:02Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: 'B2: heading-hiërarchie springt direct van # (regel 63) naar #### (regels 69, 91, 126) zonder tussenliggende ## en ### niveaus. Een mens-geschreven markdown gebruikt #### nooit als eerste sub-niveau na #. Inhoud is verder volledig en goed leesbaar.'
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:24Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:13Z'
       heading_count: 3
       max_section_chars: 6783
       file_size_chars: 12815
       flags: []
     layer2:
+      status: needs-rework
       agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:16:02Z'
+      rationale: 'B2: heading-hiërarchie springt direct van # (regel 63) naar #### (regels 69, 91, 126) zonder tussenliggende ## en ### niveaus. Een mens-geschreven markdown gebruikt #### nooit als eerste sub-niveau na #. Inhoud is verder volledig en goed leesbaar.'
       concrete_problemen:
-        - categorie: B2
-          regel: 57
+        - regel: 69
+          categorie: B2
           type: other
           voorbeeld: '#### AANVRAGEN TOT AFWIJKING DIE EEN AANPASSING BEOGEN VAN HET SCHEMA...'
-        - categorie: B2
-          regel: 79
+        - regel: 91
+          categorie: B2
           type: other
           voorbeeld: '#### EIGENLIJKE AFWIJKINGEN VAN HET K.B. VAN 8 OKTOBER 1976'
-        - categorie: B2
-          regel: 114
+        - regel: 126
+          categorie: B2
           type: other
           voorbeeld: '#### PROCEDURE'
-      rationale: 'B2: heading-hiërarchie springt van # (regel 51) direct naar #### (regels 57, 79, 114) — ##-niveau en ###-niveau ontbreken volledig. Mens-geschreven markdown zou #### nooit als eerste sub-niveau gebruiken na #. Inhoud is verder volledig en vlot leesbaar; voetnoten correct met definitie.'
-      run_at: '2026-05-11T11:57:45Z'
-      status: needs-rework
-    rationale: 'B2: heading-hiërarchie springt van # (regel 51) direct naar #### (regels 57, 79, 114) — ##-niveau en ###-niveau ontbreken volledig. Mens-geschreven markdown zou #### nooit als eerste sub-niveau gebruiken na #. Inhoud is verder volledig en vlot leesbaar; voetnoten correct met definitie.'
-    status: needs-rework
 themas:
   - aanpassing schema van de jaarrekening
   - aanvragen tot afwijking

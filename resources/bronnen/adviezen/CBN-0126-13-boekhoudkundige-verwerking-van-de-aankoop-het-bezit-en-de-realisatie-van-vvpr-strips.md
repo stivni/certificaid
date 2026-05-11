@@ -16,57 +16,45 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/verrichtingen-met-betrekking-tot-inschrijvingsrechten
 nummer: CBN-advies 126/13
 provenance:
-  generated_at: '2026-05-11T13:05:06Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-aankoop-het-bezit-en-de-realisatie-van-vvpr-strips
       sha256: 0d6a48c52faec16cb2f9a9dfdd10fd5b8637def5f098e159716dd410db165dea
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:10Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T11:57:45Z'
+    status: needs-rework
+    confirmed_at: '2026-05-11T13:16:02Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: "B1: heading op L125 bevat typo 'VVPS-strip' i.p.v. 'VVPR-strip'. A5: L85 bevat '«VVPR-strips' zonder sluitende '»' (open guillemet); in dezelfde alinea worden ook ASCII-aanhalingstekens gebruikt naast guillemets — inconsistente quote-stijl. Inhoud is inhoudelijk volledig en omvangrijk, maar deze extractie-artefacten zijn zichtbaar voor een buitenstaander."
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:25Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:14Z'
       heading_count: 9
       max_section_chars: 8720
       file_size_chars: 20993
       flags: []
     layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: A3
-          regel: 77
-          type: other
-          voorbeeld: '------ Boekhoudrechtelijke kwalificatie...------ Vragen in verband... (nav-blob dubbelt TOC)'
-        - categorie: A4
-          regel: 183
-          type: other
-          voorbeeld: VVPR¬aandelen (U+00AC NOT SIGN als koppelstreep)
-        - categorie: A5
-          regel: 107
-          type: other
-          voorbeeld: '#### Juridisch statuut van de "VVPS-strip" (typo + ASCII-quotes naast «»-guillemets)'
-        - categorie: G3
-          regel: 139
-          type: other
-          voorbeeld: '...beurswaarde[^8]\n van de strip daalt. (footnote-marker breekt regel)'
-        - categorie: B1
-          regel: 81
-          type: other
-          voorbeeld: '#### Beschrijving van het mechanisme van de «VVPR-strips (ontbrekend sluitend »)'
-      rationale: 'Meerdere problemen: A3: dubbele TOC (regel 65-75 als genummerde lijst + regel 77 als aaneengesloten nav-blob met ''------''-separatoren). A4: U+00AC (NOT SIGN) op regels 183 en 185 als pseudo-koppelstreep in ''VVPR¬aandelen'' — duidelijk OCR/extractie-artefact. A5: inconsistente quotes (''VVPS-strip'' met ASCII-aanhalingstekens naast «VVPR-strips» met guillemets). G3: footnote [^8] breekt de zin op regel 139 (de footnote-marker staat als losse regel met een spatie ervoor). B1/woordfout: de heading op regel 107 bevat typo ''VVPS-strip'' i.p.v. ''VVPR-strip''.'
-      run_at: '2026-05-11T11:57:45Z'
       status: needs-rework
-    rationale: 'Meerdere problemen: A3: dubbele TOC (regel 65-75 als genummerde lijst + regel 77 als aaneengesloten nav-blob met ''------''-separatoren). A4: U+00AC (NOT SIGN) op regels 183 en 185 als pseudo-koppelstreep in ''VVPR¬aandelen'' — duidelijk OCR/extractie-artefact. A5: inconsistente quotes (''VVPS-strip'' met ASCII-aanhalingstekens naast «VVPR-strips» met guillemets). G3: footnote [^8] breekt de zin op regel 139 (de footnote-marker staat als losse regel met een spatie ervoor). B1/woordfout: de heading op regel 107 bevat typo ''VVPS-strip'' i.p.v. ''VVPR-strip''.'
-    status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:16:02Z'
+      rationale: "B1: heading op L125 bevat typo 'VVPS-strip' i.p.v. 'VVPR-strip'. A5: L85 bevat '«VVPR-strips' zonder sluitende '»' (open guillemet); in dezelfde alinea worden ook ASCII-aanhalingstekens gebruikt naast guillemets — inconsistente quote-stijl. Inhoud is inhoudelijk volledig en omvangrijk, maar deze extractie-artefacten zijn zichtbaar voor een buitenstaander."
+      concrete_problemen:
+        - regel: 85
+          categorie: A5
+          type: other
+          voorbeeld: 1. Beschrijving van het mechanisme van de «VVPR-strips (ontbrekend sluitend »)
+        - regel: 125
+          categorie: B1
+          type: other
+          voorbeeld: '#### Juridisch statuut van de "VVPS-strip" (typo: VVPS i.p.v. VVPR)'
 themas:
   - aandelen
   - aanschaffingswaarde

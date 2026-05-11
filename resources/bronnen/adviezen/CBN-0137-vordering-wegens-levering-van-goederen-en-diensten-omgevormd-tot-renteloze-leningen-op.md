@@ -16,45 +16,41 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-factoringovereenkomsten
 nummer: CBN-advies 137/8
 provenance:
-  generated_at: '2026-05-11T13:05:06Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/vordering-wegens-levering-van-goederen-en-diensten-omgevormd-tot-renteloze-leningen-op
       sha256: 769f4617e11b5a28206ff0326add0ad51253e94df5587892276f3a2206d85f82
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:10Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T12:04:41Z'
+    status: needs-rework
+    confirmed_at: '2026-05-11T13:23:03Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: 'B2: twee H1-headings bovenaan (regel 70 = tittel, regel 72 = datum/update-lijn), waar de tweede eerder H2 of plain tekst zou moeten zijn. Vorige verdict (B3 duplicate) was onjuist: het zijn twee verschillende inhoudelijke regels, geen echte duplicaten. Inhoud verder volledig en clean, beide voetnoten correct gedefinieerd.'
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:26Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:14Z'
       heading_count: 0
       max_section_chars: 3977
       file_size_chars: 3977
       flags: []
     layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: B3
-          regel: 62
-          type: other
-          voorbeeld: '# CBN advies 137/8 - Vordering wegens levering van goederen en diensten omgevormd tot renteloze leningen op meer dan 1 jaar (update)'
-        - categorie: B3
-          regel: 64
-          type: other
-          voorbeeld: '# CBN advies 137/8 - Vordering wegens levering van goederen en diensten omgevormd tot renteloze leningen op meer dan 1 jaar (update)'
-      rationale: 'B3: duplicate page-title-heading op regels 62 en 64 (identieke H1 tweemaal). Inhoud volledig aanwezig en inhoudelijk correct met twee voetnoten. Enkel het dubbele heading-artefact vereist ETL-fix.'
-      run_at: '2026-05-11T12:04:41Z'
       status: needs-rework
-    rationale: 'B3: duplicate page-title-heading op regels 62 en 64 (identieke H1 tweemaal). Inhoud volledig aanwezig en inhoudelijk correct met twee voetnoten. Enkel het dubbele heading-artefact vereist ETL-fix.'
-    status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:23:03Z'
+      rationale: 'B2: twee H1-headings bovenaan (regel 70 = tittel, regel 72 = datum/update-lijn), waar de tweede eerder H2 of plain tekst zou moeten zijn. Vorige verdict (B3 duplicate) was onjuist: het zijn twee verschillende inhoudelijke regels, geen echte duplicaten. Inhoud verder volledig en clean, beide voetnoten correct gedefinieerd.'
+      concrete_problemen:
+        - regel: 72
+          categorie: B2
+          type: other
+          voorbeeld: '# Advies van december 1998, bijgewerkt op 10 september 2025[^1]'
 themas:
   - Waardevermindering
   - waardevermindering op vorderingen

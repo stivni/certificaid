@@ -3,45 +3,41 @@ bron: https://www.cbn-cnc.be/nl/adviezen/verwerving-van-een-bedrijfstak-tegen-ee
 datum: 2016-06-15
 nummer: CBN-advies 2016/7
 provenance:
-  generated_at: '2026-05-11T13:05:08Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/verwerving-van-een-bedrijfstak-tegen-een-symbolische-euro
       sha256: 8714c2cb098402345c61501cc36ea0f46964f8f7631755557c65da7e7798f5ef
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:12Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T12:16:34Z'
+    status: needs-rework
+    confirmed_at: '2026-05-11T13:30:32Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: 'Regel 309: `Materiële vaste avtiva` — typewriter/OCR-fout (`avtiva` i.p.v. `activa`) in een balanstabel (A9). Dit is het enige concrete probleem; de vorige QA-ronde signaleerde ook een orphan `[^8]` maar dat is in de huidige versie niet meer aanwezig als losstaande regel. Verdere structuur (20+ headings correct genest, voetnoten [^1]–[^9] aanwezig) is goed.'
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:29Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:17Z'
       heading_count: 20
       max_section_chars: 5021
       file_size_chars: 24401
       flags: []
     layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: G3
-          regel: 395
-          type: other
-          voorbeeld: ' [^8]'
-        - categorie: A9
-          regel: 301
-          type: ocr-confusion
-          voorbeeld: Materiële vaste avtiva
-      rationale: 'Twee concrete problemen: (1) Regel 395 bevat een losstaande voetnootverwijzing '' [^8]'' als hele alinea, zonder voorafgaande zin — dit is een inline-footnote-artefact (G3/D3) waarbij de voetnootinhoud in de body belandde zonder contextzin. (2) Regel 301 bevat een typfout in de tabel (''Materiële vaste avtiva'' ipv ''activa''), wat waarschijnlijk een OCR-letterverwarring of kopieer-fout uit de bron is (A9). Verder is het bestand kwalitatief goed: 21 headings correct genest, alle voetnoten [^1]–[^9] aanwezig, tabellen in pipe-syntax.'
-      run_at: '2026-05-11T12:16:34Z'
       status: needs-rework
-    rationale: 'Twee concrete problemen: (1) Regel 395 bevat een losstaande voetnootverwijzing '' [^8]'' als hele alinea, zonder voorafgaande zin — dit is een inline-footnote-artefact (G3/D3) waarbij de voetnootinhoud in de body belandde zonder contextzin. (2) Regel 301 bevat een typfout in de tabel (''Materiële vaste avtiva'' ipv ''activa''), wat waarschijnlijk een OCR-letterverwarring of kopieer-fout uit de bron is (A9). Verder is het bestand kwalitatief goed: 21 headings correct genest, alle voetnoten [^1]–[^9] aanwezig, tabellen in pipe-syntax.'
-    status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:30:32Z'
+      rationale: 'Regel 309: `Materiële vaste avtiva` — typewriter/OCR-fout (`avtiva` i.p.v. `activa`) in een balanstabel (A9). Dit is het enige concrete probleem; de vorige QA-ronde signaleerde ook een orphan `[^8]` maar dat is in de huidige versie niet meer aanwezig als losstaande regel. Verdere structuur (20+ headings correct genest, voetnoten [^1]–[^9] aanwezig) is goed.'
+      concrete_problemen:
+        - regel: 309
+          categorie: A9
+          type: ocr-confusion
+          voorbeeld: '| Materiële vaste avtiva | | 0 | (avtiva ipv activa)'
 themas:
   - badwill
   - bedrijfstak

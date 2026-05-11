@@ -3,53 +3,49 @@ bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-crowdfun
 datum: 2019-07-31
 nummer: CBN-advies 2019/08
 provenance:
-  generated_at: '2026-05-11T13:05:08Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-crowdfunding-0
       sha256: 0619330477c4da91affa08f9ceff354dc4e9271cd86cf439ef6f1cc76ec4454e
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:12Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T12:21:40Z'
+    status: needs-rework
+    confirmed_at: '2026-05-11T13:34:12Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: 'A3: TOC-concatenatie op regels 70-71 (`-- Donatie ---- Donatie zonder tegenprestatie...`) staat als aaneengesloten string in de body. E2: tabelcel `Rekening-couran` op regel 523 is afgekapt (ontbrekende `t`). B2: `## In hoofde van de begunstigde (artiest)` op regel 432 staat op `##`-niveau terwijl de sectie genest is onder `#### Profit-sharing` — hiërarchie-sprong.'
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:30Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:18Z'
       heading_count: 19
       max_section_chars: 19466
       file_size_chars: 31074
       flags: []
     layer2:
+      status: needs-rework
       agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:34:12Z'
+      rationale: 'A3: TOC-concatenatie op regels 70-71 (`-- Donatie ---- Donatie zonder tegenprestatie...`) staat als aaneengesloten string in de body. E2: tabelcel `Rekening-couran` op regel 523 is afgekapt (ontbrekende `t`). B2: `## In hoofde van de begunstigde (artiest)` op regel 432 staat op `##`-niveau terwijl de sectie genest is onder `#### Profit-sharing` — hiërarchie-sprong.'
       concrete_problemen:
-        - categorie: A3
-          regel: 70
+        - regel: 70
+          categorie: A3
           type: other
           voorbeeld: -- Donatie ---- Donatie zonder tegenprestatie – Donation-based crowdfunding...
-        - categorie: A3
-          regel: 71
-          type: other
-          voorbeeld: '------ Uitgifte van obligaties---- Participatory notes'
-        - categorie: D3
-          regel: 584
-          type: other
-          voorbeeld: ' [^23]'
-        - categorie: E2
-          regel: 516
+        - regel: 523
+          categorie: E2
           type: other
           voorbeeld: '| | 5500 | Kredietinstellingen – Rekening-couran | 7.000 | |'
-      rationale: 'A3: TOC-fragment op regels 70-71 — lange aaneengesloten `--`-reeks van het geneste TOC. D3: Losstaande `[^23]` op regel 584 als verweesd anker. E2: Tabelcel op regel 516 `Rekening-couran` is afgekapt (missing `t`). Max_section van 19.981 chars suggereert één zeer grote sectie zonder verdere opsplitsing, maar inhoud is volledig aanwezig.'
-      run_at: '2026-05-11T12:21:40Z'
-      status: needs-rework
-    rationale: 'A3: TOC-fragment op regels 70-71 — lange aaneengesloten `--`-reeks van het geneste TOC. D3: Losstaande `[^23]` op regel 584 als verweesd anker. E2: Tabelcel op regel 516 `Rekening-couran` is afgekapt (missing `t`). Max_section van 19.981 chars suggereert één zeer grote sectie zonder verdere opsplitsing, maar inhoud is volledig aanwezig.'
-    status: needs-rework
+        - regel: 432
+          categorie: B2
+          type: other
+          voorbeeld: '## In hoofde van de begunstigde (artiest) (onder #### Profit-sharing sectie)'
 themas:
   - crowdfunding
   - publieksfinanciering

@@ -16,49 +16,49 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/begin-van-het-boekjaar
 nummer: CBN-advies 2025/01
 provenance:
-  generated_at: '2026-05-11T13:05:08Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-splitsingen-van-vennootschappen-negatief-fiscaal
       sha256: 54c11456d0480a715274c3e22199ab824c1c3b0ff0ab0fd4355b45dc67f1fdc4
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:12Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T12:24:33Z'
+    status: needs-rework
+    confirmed_at: '2026-05-11T13:34:12Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: "E1/E2: alle balansen en verdelingstabellen zijn pseudo-pipe-tabellen zonder markdown header+separator-rij (regels 86-91, 99-106, 139-145, 152-155, 159-165, 175-185, 191-194) — één naamrij of datakoprij gevolgd door datarijen, geen '|---|' scheiding. De tabellen zijn niet parseerbaar als geldige markdown. Inhoud en footnotes (17) zijn correct."
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:30Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:18Z'
       heading_count: 6
       max_section_chars: 4674
       file_size_chars: 15659
       flags: []
     layer2:
+      status: needs-rework
       agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:34:12Z'
+      rationale: "E1/E2: alle balansen en verdelingstabellen zijn pseudo-pipe-tabellen zonder markdown header+separator-rij (regels 86-91, 99-106, 139-145, 152-155, 159-165, 175-185, 191-194) — één naamrij of datakoprij gevolgd door datarijen, geen '|---|' scheiding. De tabellen zijn niet parseerbaar als geldige markdown. Inhoud en footnotes (17) zijn correct."
       concrete_problemen:
-        - categorie: E1
-          regel: 74
+        - regel: 86
+          categorie: E1
           type: pseudo-table
           voorbeeld: "| Vennootschap A (te splitsen vennootschap) | \n| Activum 1 | | 130 | | Kapitaal/Inbreng | | 60 |"
-        - categorie: E1
-          regel: 88
+        - regel: 139
+          categorie: E1
           type: pseudo-table
-          voorbeeld: "| Vennootschap B | \n| Activum 1 | | 130 | | *Eigen vermogen* | | *130* |"
-        - categorie: E1
-          regel: 129
+          voorbeeld: '| | | Eigen vermogen van vennootschap A | | Aan vennootschap B fiscaal overgedragen eigen vermogen |'
+        - regel: 191
+          categorie: E2
           type: pseudo-table
-          voorbeeld: '| | | Eigen vermogen van vennootschap A | | Aan vennootschap B fiscaal... zonder separator-rij'
-      rationale: 'E1/E2: alle balansen zijn als pseudo-pipe-tabellen zonder correcte markdown header+separator-rij — elke tabelrij heeft enkel data-cellen zonder scheidingslijn. De tabellen zijn niet parseerbaar als echte markdown-tabellen. Verder is de inhoud compleet en zijn de footnotes correct.'
-      run_at: '2026-05-11T12:24:33Z'
-      status: needs-rework
-    rationale: 'E1/E2: alle balansen zijn als pseudo-pipe-tabellen zonder correcte markdown header+separator-rij — elke tabelrij heeft enkel data-cellen zonder scheidingslijn. De tabellen zijn niet parseerbaar als echte markdown-tabellen. Verder is de inhoud compleet en zijn de footnotes correct.'
-    status: needs-rework
+          voorbeeld: '| Totaal eigen vermogen na fiscale verdeling | | 220 | | 100 | | 120 |'
 themas:
   - splitsing
 ---

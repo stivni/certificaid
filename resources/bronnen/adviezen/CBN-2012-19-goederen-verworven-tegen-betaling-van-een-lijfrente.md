@@ -16,61 +16,57 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/inwerkingtreding-van-artikel-26-paragraaf-2-van-het-koninklijk-besluit-van-8-oktober-1976
 nummer: CBN-advies 2012/19
 provenance:
-  generated_at: '2026-05-11T13:05:08Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/goederen-verworven-tegen-betaling-van-een-lijfrente
       sha256: 2cd8f92de27086cad9c9aba0626d18cf297100f0dafb460f69a62c8c50cb4e49
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:12Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T12:16:34Z'
+    status: needs-rework
+    confirmed_at: '2026-05-11T13:30:32Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: "A3: een genummerde plain-text TOC staat op regels 80–95 vóór de body zonder markdown-structuur. B5: 'Inleiding' op regel 96 en 'Tweede methode' op regel 262 zijn plain-text structuurlabels zonder ##-prefix. C3: actuariële formule op regels 180–182 gebruikt spatie-uitlijning als pseudo-tabel. E2: de toelichting-tabel op regels 253–260 heeft een gebroken celrij waarbij '472.685,12' na tab-insprong op een aparte regel staat."
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:28Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:16Z'
       heading_count: 18
       max_section_chars: 13218
       file_size_chars: 23547
       flags: []
     layer2:
+      status: needs-rework
       agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:30:32Z'
+      rationale: "A3: een genummerde plain-text TOC staat op regels 80–95 vóór de body zonder markdown-structuur. B5: 'Inleiding' op regel 96 en 'Tweede methode' op regel 262 zijn plain-text structuurlabels zonder ##-prefix. C3: actuariële formule op regels 180–182 gebruikt spatie-uitlijning als pseudo-tabel. E2: de toelichting-tabel op regels 253–260 heeft een gebroken celrij waarbij '472.685,12' na tab-insprong op een aparte regel staat."
       concrete_problemen:
-        - categorie: A3
-          regel: 56
+        - regel: 80
+          categorie: A3
           type: other
           voorbeeld: 1. Vaststelling van het initiële kapitaal...\n2. Aanpassing van de voorziening...
-        - categorie: B5
-          regel: 72
+        - regel: 96
+          categorie: B5
           type: other
           voorbeeld: 'Inleiding '
-        - categorie: A4
-          regel: 106
-          type: other
-          voorbeeld: bruto¬marktrentevoet (U+00AC in plaats van koppelteken)
-        - categorie: C3
-          regel: 158
+        - regel: 180
+          categorie: C3
           type: pseudo-table
           voorbeeld: an/i = 1- (1 + i)-n \n\n       i
-        - categorie: E2
-          regel: 235
+        - regel: 256
+          categorie: E2
           type: other
-          voorbeeld: '| lijfrentebetaling... | - 14.888,08\n\n\t\t\t 472.685,12 | | |'
-        - categorie: B5
-          regel: 241
+          voorbeeld: '| | lijfrentebetaling van de voorziening afgenomen bedrag | - 14.888,08\n\n\t\t\t 472.685,12 | | |'
+        - regel: 262
+          categorie: B5
           type: other
           voorbeeld: Tweede methode
-      rationale: 'A3: een genummerde inhoudsopgave (regels 56–70) staat als plain-text blok vóór de body in plaats van als markdown-TOC of weggelaten; regel 72 ''Inleiding'' is een structuurlabel als plain text (B5). A4: U+00AC (NOT SIGN) op regel 106 in ''bruto¬marktrentevoet'' — vermoedelijk foutief geconverteerd koppelteken. E2: gebroken tabelrij op regels 235–237 waarbij celinhoud over twee regels loopt (tab-insprong ''\t\t\t 472.685,12''). C3: actuariële formule op regels 158–160 als pseudo-tabel met spatie-uitlijning. Regel 241 ''Tweede methode'' is een structuurlabel als plain text (B5).'
-      run_at: '2026-05-11T12:16:34Z'
-      status: needs-rework
-    rationale: 'A3: een genummerde inhoudsopgave (regels 56–70) staat als plain-text blok vóór de body in plaats van als markdown-TOC of weggelaten; regel 72 ''Inleiding'' is een structuurlabel als plain text (B5). A4: U+00AC (NOT SIGN) op regel 106 in ''bruto¬marktrentevoet'' — vermoedelijk foutief geconverteerd koppelteken. E2: gebroken tabelrij op regels 235–237 waarbij celinhoud over twee regels loopt (tab-insprong ''\t\t\t 472.685,12''). C3: actuariële formule op regels 158–160 als pseudo-tabel met spatie-uitlijning. Regel 241 ''Tweede methode'' is een structuurlabel als plain text (B5).'
-    status: needs-rework
 themas:
   - lijfrente
 ---

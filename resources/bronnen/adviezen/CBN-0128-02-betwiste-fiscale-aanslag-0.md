@@ -16,7 +16,7 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-moratoriuminterest
 nummer: CBN-advies 128/2
 provenance:
-  generated_at: '2026-05-11T13:05:06Z'
+  generated_at: '2026-05-11T13:15:10Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/betwiste-fiscale-aanslag-0
       sha256: dd4a00b064fa97e158d18679d1579cd863a214ffe438f15204d51704df48df41
@@ -33,8 +33,8 @@ provenance:
     confirmed_by: subagent-sonnet-4-6
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:25Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:14Z'
       heading_count: 0
       max_section_chars: 1415
       file_size_chars: 1415

@@ -16,37 +16,45 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/consolidatie-bij-de-horizontale-groep-consortium-0
 nummer: CBN-advies 2024/07
 provenance:
-  generated_at: '2026-05-11T13:05:09Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/gevolgen-verhoging-groottecriteria-voor-vennootschappen
       sha256: 299811b111c18f8c8ab27667595381f3bb927885bed18c9fd42286b366236b9e
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:12Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at:
-    confirmed_by:
+    status: needs-rework
+    confirmed_at: '2026-05-11T13:34:13Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: 'B5: Voorbeeld 3 (regel 176) en Voorbeeld 4 (regel 196) staan als plain-text-alinea zonder ### heading-prefix, terwijl Voorbeeld 1 (regel 107), Voorbeeld 2 (regel 139) en Voorbeeld 5 (regel 216) wel als ### heading zijn opgemaakt. Inconsistente heading-behandeling van voorbeelden is een extractie-artefact. Inhoud verder volledig; 36 voetnoten correct.'
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:31Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:19Z'
       heading_count: 7
       max_section_chars: 9443
       file_size_chars: 25645
       flags: []
     layer2:
-      agent:
-      concrete_problemen: []
-      rationale:
-      run_at:
-      status: not_run
-    rationale: 'Trust gereset 2026-05-11: re-scrape met scraper-fixes, content-diff > 5%'
-    status: unreviewed
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:34:13Z'
+      rationale: 'B5: Voorbeeld 3 (regel 176) en Voorbeeld 4 (regel 196) staan als plain-text-alinea zonder ### heading-prefix, terwijl Voorbeeld 1 (regel 107), Voorbeeld 2 (regel 139) en Voorbeeld 5 (regel 216) wel als ### heading zijn opgemaakt. Inconsistente heading-behandeling van voorbeelden is een extractie-artefact. Inhoud verder volledig; 36 voetnoten correct.'
+      concrete_problemen:
+        - regel: 176
+          categorie: B5
+          type: other
+          voorbeeld: 'Voorbeeld 3: impact van de verhoging van de criteria op langere termijn waarbij het boekjaar gelijk loopt met het kalenderjaar (plain text, geen ### heading)'
+        - regel: 196
+          categorie: B5
+          type: other
+          voorbeeld: 'Voorbeeld 4: impact van de verhoging van de criteria op langere termijn waarbij het boekjaar niet gelijk loopt met het kalenderjaar (plain text, geen ### heading)'
 themas:
   - groottecriteria
   - drempels

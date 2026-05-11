@@ -16,7 +16,7 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/bestellingen-in-uitvoering-wijzigingen-door-het-koninklijk-besluit-van-18-december-2015
 nummer: CBN-advies 105/1
 provenance:
-  generated_at: '2026-05-11T13:05:05Z'
+  generated_at: '2026-05-11T13:15:10Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/compensatie-tussen-debet-en-creditsaldi-bij-eenzelfde-bankinstelling
       sha256: efcb0de695d8b8a23cbd4477e144e838a996eb39774b5775e6b7b807d3977663
@@ -33,8 +33,8 @@ provenance:
     confirmed_by: subagent-sonnet-4-6
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:24Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:13Z'
       heading_count: 0
       max_section_chars: 1298
       file_size_chars: 1298

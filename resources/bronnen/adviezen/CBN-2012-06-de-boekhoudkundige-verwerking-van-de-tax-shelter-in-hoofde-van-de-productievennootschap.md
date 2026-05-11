@@ -16,7 +16,7 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/kosten-van-onderzoek-en-ontwikkeling-onderscheid-tussen-onderzoek-en-ontwikkeling
 nummer: CBN-advies 2012/6
 provenance:
-  generated_at: '2026-05-11T13:05:08Z'
+  generated_at: '2026-05-11T13:15:12Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-tax-shelter-in-hoofde-van-de-productievennootschap
       sha256: 12abeb2f8f991f826eab0cc96d473615b3719e6dfe4011df92eb462d6c90fd2c
@@ -33,8 +33,8 @@ provenance:
     confirmed_by: human
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:28Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:16Z'
       heading_count: 6
       max_section_chars: 12302
       file_size_chars: 34163

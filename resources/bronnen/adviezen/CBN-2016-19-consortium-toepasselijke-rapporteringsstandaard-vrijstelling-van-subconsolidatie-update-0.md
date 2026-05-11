@@ -16,41 +16,41 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/consolidatie-bij-de-horizontale-groep-consortium
 nummer: CBN-advies 2016/19
 provenance:
-  generated_at: '2026-05-11T13:05:08Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/consortium-toepasselijke-rapporteringsstandaard-vrijstelling-van-subconsolidatie-update-0
       sha256: 65d15596052ca2d02b89fb1d796bc2ea30c852156292e7cfdeb5ef9df53c6f2c
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:12Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T12:16:34Z'
+    status: needs-rework
+    confirmed_at: '2026-05-11T13:30:32Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: "A6/G3: regel 66 bevat ', bijgewerkt op 10 september 2025 [^2]' als losstaande alinea direct na de H1-titel — de bijwerkingsannotatie belandde als inline tekst in de body in plaats van in de frontmatter. Verdere inhoud is volledig en correct: 4 headings, voetnoten intact, logische alinea's."
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:29Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:17Z'
       heading_count: 4
       max_section_chars: 2104
       file_size_chars: 5053
       flags: []
     layer2:
+      status: needs-rework
       agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:30:32Z'
+      rationale: "A6/G3: regel 66 bevat ', bijgewerkt op 10 september 2025 [^2]' als losstaande alinea direct na de H1-titel — de bijwerkingsannotatie belandde als inline tekst in de body in plaats van in de frontmatter. Verdere inhoud is volledig en correct: 4 headings, voetnoten intact, logische alinea's."
       concrete_problemen:
-        - categorie: A6
-          regel: 62
+        - regel: 66
+          categorie: A6
           type: other
           voorbeeld: ', bijgewerkt op 10 september 2025 [^2]'
-      rationale: 'Regel 62: na de ##-titel staat een losstaand fragment '', bijgewerkt op 10 september 2025 [^2]'' dat begint met een komma — dit is een HTML-extractie-artefact waarbij de ''bijgewerkt''-annotatie niet in de frontmatter maar als inline tekst voor de eerste sectie belandde (categorie A6/G3). De inhoud is verder volledig en correct.'
-      run_at: '2026-05-11T12:16:34Z'
-      status: needs-rework
-    rationale: 'Regel 62: na de ##-titel staat een losstaand fragment '', bijgewerkt op 10 september 2025 [^2]'' dat begint met een komma — dit is een HTML-extractie-artefact waarbij de ''bijgewerkt''-annotatie niet in de frontmatter maar als inline tekst voor de eerste sectie belandde (categorie A6/G3). De inhoud is verder volledig en correct.'
-    status: needs-rework
 themas:
   - consolidatie
   - subconsolidatie

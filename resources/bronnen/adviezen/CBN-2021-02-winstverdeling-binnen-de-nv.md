@@ -3,7 +3,7 @@ bron: https://www.cbn-cnc.be/nl/adviezen/winstverdeling-binnen-de-nv
 datum: 2021-03-09
 nummer: CBN-advies 2021/02
 provenance:
-  generated_at: '2026-05-11T13:05:08Z'
+  generated_at: '2026-05-11T13:15:12Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/winstverdeling-binnen-de-nv
       sha256: 0db24257c2c89ef51c46bc7347b9aee620d224f716aaa7e1f506923e22527b31
@@ -20,8 +20,8 @@ provenance:
     confirmed_by: subagent-laag2-ronde2
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:30Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:18Z'
       heading_count: 18
       max_section_chars: 21672
       file_size_chars: 45473

@@ -7,49 +7,45 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-splitsingen-van-vennootschappen
 nummer: CBN-advies 2013/17
 provenance:
-  generated_at: '2026-05-11T13:05:08Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-met-betrekking-tot-de-toepassing-van-de-overgangsregeling
       sha256: 1a6411054d36a7a026011c946b13ba3d5f0e4b599782ecd7277c8c295fbb3907
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:12Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T12:16:34Z'
+    status: needs-rework
+    confirmed_at: '2026-05-11T13:30:32Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: "D4: malformed italic-markers blijven aanwezig. Regel 100: '489X O*ntvangen voorschotten op kapitaal*' — asterisk plakt aan de 'O' (opening italic na gewone letter zonder spatie). Regel 135: '*Boeking bij de betaalbaarstelling[^8] *' — spatie vóór sluit-asterisk. Inhoud en tabellen volledig, geen andere artefacten."
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:29Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:16Z'
       heading_count: 12
       max_section_chars: 8747
       file_size_chars: 16903
       flags: []
     layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: D4
-          regel: 93
-          type: other
-          voorbeeld: 489X *Ontvangen voorschotten op kapitaal *plaatsvinden.
-        - categorie: D4
-          regel: 126
-          type: other
-          voorbeeld: '*Boeking bij de betaalbaarstelling[^8] *'
-        - categorie: D4
-          regel: 89
-          type: other
-          voorbeeld: 489X O*ntvangen voorschotten op kapitaal* (open-asterisk zonder spatie voor 'n')
-      rationale: 'D4: meerdere malformed italic-markers met spatie vóór sluit-asterisk op regels 93, 126 en 89 (''489X *Ontvangen voorschotten op kapitaal *'', ''*Boeking bij de betaalbaarstelling[^8] *''). Dit is het bekende ''*term *''-patroon. De inhoud is volledig en de tabellen zijn correct.'
-      run_at: '2026-05-11T12:16:34Z'
       status: needs-rework
-    rationale: 'D4: meerdere malformed italic-markers met spatie vóór sluit-asterisk op regels 93, 126 en 89 (''489X *Ontvangen voorschotten op kapitaal *'', ''*Boeking bij de betaalbaarstelling[^8] *''). Dit is het bekende ''*term *''-patroon. De inhoud is volledig en de tabellen zijn correct.'
-    status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:30:32Z'
+      rationale: "D4: malformed italic-markers blijven aanwezig. Regel 100: '489X O*ntvangen voorschotten op kapitaal*' — asterisk plakt aan de 'O' (opening italic na gewone letter zonder spatie). Regel 135: '*Boeking bij de betaalbaarstelling[^8] *' — spatie vóór sluit-asterisk. Inhoud en tabellen volledig, geen andere artefacten."
+      concrete_problemen:
+        - regel: 100
+          categorie: D4
+          type: other
+          voorbeeld: 489X O*ntvangen voorschotten op kapitaal* — asterisk kleeft aan 'O'
+        - regel: 135
+          categorie: D4
+          type: other
+          voorbeeld: '*Boeking bij de betaalbaarstelling[^8] * — spatie voor sluit-asterisk'
 themas:
   - belaste reserves
   - belastingen op het resultaat

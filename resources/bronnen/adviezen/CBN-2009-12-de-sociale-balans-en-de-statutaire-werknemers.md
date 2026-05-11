@@ -3,7 +3,7 @@ bron: https://www.cbn-cnc.be/nl/adviezen/de-sociale-balans-en-de-statutaire-werk
 datum: 2009-10-14
 nummer: CBN-advies 2009/12
 provenance:
-  generated_at: '2026-05-11T13:05:07Z'
+  generated_at: '2026-05-11T13:15:11Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/de-sociale-balans-en-de-statutaire-werknemers
       sha256: 8b84092b1fd2d33b748a4d77317c8d9f60a53215a661f2da5d2d1b780f2b0948
@@ -20,8 +20,8 @@ provenance:
     confirmed_by: subagent-sonnet-4-6
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:27Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:15Z'
       heading_count: 4
       max_section_chars: 3482
       file_size_chars: 7056

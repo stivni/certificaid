@@ -16,41 +16,41 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-een-kapitaalverhoging-als-gevolg-van-de-conversie-in
 nummer: CBN-advies 152/3
 provenance:
-  generated_at: '2026-05-11T13:05:06Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-een-kapitaalverhoging-als-gevolg-van-de-inbreng-van-een
       sha256: b33bd9c7898649e8a60fe8ed7105489c54bf26d8cdf67647953b7678fc311985
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:10Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T12:04:41Z'
+    status: needs-rework
+    confirmed_at: '2026-05-11T13:23:04Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: "F1/G1: HTML-entiteit '&#039;' (apostrof) in het gerelateerde_adviezen-veld op regel 9 ('Risico&#039;s verbonden aan bestellingen van vaste activa') — scraper heeft de HTML-escape niet gedecodeeerd, wat YAML-parsecorrectheid schaadt. Body zelf is inhoudelijk volledig en schoon."
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:26Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:15Z'
       heading_count: 0
       max_section_chars: 1238
       file_size_chars: 1238
       flags: []
     layer2:
+      status: needs-rework
       agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:23:04Z'
+      rationale: "F1/G1: HTML-entiteit '&#039;' (apostrof) in het gerelateerde_adviezen-veld op regel 9 ('Risico&#039;s verbonden aan bestellingen van vaste activa') — scraper heeft de HTML-escape niet gedecodeeerd, wat YAML-parsecorrectheid schaadt. Body zelf is inhoudelijk volledig en schoon."
       concrete_problemen:
-        - categorie: G1
-          regel: 48
+        - regel: 9
+          categorie: F1
           type: other
           voorbeeld: 'titel: Risico&#039;s verbonden aan bestellingen van vaste activa'
-      rationale: 'G1/F1: HTML-entiteit ''&#039;'' in het gerelateerde advies-veld op regel 48 (''Risico&#039;s verbonden aan bestellingen'') — een URL/HTML-escape die niet gedecodeeerd is door de scraper. Staat alleen in frontmatter-metadata, niet in de body, maar schaadt YAML-parse-correctheid. Body zelf is inhoudelijk volledig en schoon.'
-      run_at: '2026-05-11T12:04:41Z'
-      status: needs-rework
-    rationale: 'G1/F1: HTML-entiteit ''&#039;'' in het gerelateerde advies-veld op regel 48 (''Risico&#039;s verbonden aan bestellingen'') — een URL/HTML-escape die niet gedecodeeerd is door de scraper. Staat alleen in frontmatter-metadata, niet in de body, maar schaadt YAML-parse-correctheid. Body zelf is inhoudelijk volledig en schoon.'
-    status: needs-rework
 themas:
   - deviezen
   - inbreng

@@ -7,37 +7,49 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-broeikasgasemissierechten
 nummer: CBN-advies 2012/1
 provenance:
-  generated_at: '2026-05-11T13:05:08Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-een-overschot-aan-broeikasgasemissierechten-door-een
       sha256: a5e15ff6d0abe3c9b6af01ecf3511538573fd4ce60f6dae2ac4ad950f1434fbe
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:12Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at:
-    confirmed_by:
+    status: needs-rework
+    confirmed_at: '2026-05-11T13:30:32Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "B5: regels 77 en 82 tonen subsectie-titels als plain-text alinea-openers zonder heading-prefix ('De onderneming behoudt het overschot van emissierechten...' en 'De onderneming heeft de intentie om het overschot van emissierechten te verkopen...') — deze hadden ### headings moeten zijn conform de TOC op regels 54-56. D1: voetnoot [^5] op regel 124 eindigt abrupt mid-woord: 'hetgeen een onverantwoorde schending zou zijn van het bestendigheidsbeginse' (ontbreekt 'l')."
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:28Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:16Z'
       heading_count: 3
       max_section_chars: 4108
       file_size_chars: 7902
       flags: []
     layer2:
-      agent:
-      concrete_problemen: []
-      rationale:
-      run_at:
-      status: not_run
-    rationale: 'Trust gereset 2026-05-11: re-scrape met scraper-fixes, content-diff > 5%'
-    status: unreviewed
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:30:32Z'
+      rationale: "B5: regels 77 en 82 tonen subsectie-titels als plain-text alinea-openers zonder heading-prefix ('De onderneming behoudt het overschot van emissierechten...' en 'De onderneming heeft de intentie om het overschot van emissierechten te verkopen...') — deze hadden ### headings moeten zijn conform de TOC op regels 54-56. D1: voetnoot [^5] op regel 124 eindigt abrupt mid-woord: 'hetgeen een onverantwoorde schending zou zijn van het bestendigheidsbeginse' (ontbreekt 'l')."
+      concrete_problemen:
+        - regel: 77
+          categorie: B5
+          type: other
+          voorbeeld: De onderneming behoudt het overschot van emissierechten en heeft dus niet de intentie om deze emissierechten te verkopen op een actieve markt
+        - regel: 82
+          categorie: B5
+          type: other
+          voorbeeld: De onderneming heeft de intentie om het overschot van emissierechten te verkopen op een actieve markt
+        - regel: 124
+          categorie: D1
+          type: abrupt-cutoff
+          voorbeeld: hetgeen een onverantwoorde schending zou zijn van het bestendigheidsbeginse
 themas:
   - broeikasgasemissierechten
   - bruto-methode

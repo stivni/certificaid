@@ -16,37 +16,49 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/afwijking-inzake-functionele-valuta-praktische-implicaties-en-procedure
 nummer: CBN-advies 175/1
 provenance:
-  generated_at: '2026-05-11T13:05:06Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/verwerking-in-de-jaarrekening-over-het-boekjaar-1996-en-de-daaropvolgende-boekjaren-van-de
       sha256: ac39eb27c4481b2805ab1d3e8ee1db6cc109c61d1e30539a1c11d288f497f387
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:10Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at:
-    confirmed_by:
+    status: needs-rework
+    confirmed_at: '2026-05-11T13:23:04Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "C1: opsomming op r.90 gebruikt '•' bullet-glyph i.p.v. markdown '-' (PDF-glyph). A6/C-structuur: bullets op r.93, 97, 100, 103 beginnen met '- \\n\\n' waarbij de bullet-inhoud op een volgende regel staat na een lege regel — dit is een A6-regelbreuk in lijstcontext die de bullets ontkoppelt van hun inhoud. Zes voetnoten correct opgemaakt; inhoud volledig."
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:26Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:15Z'
       heading_count: 7
       max_section_chars: 9239
       file_size_chars: 18054
       flags: []
     layer2:
-      agent:
-      concrete_problemen: []
-      rationale:
-      run_at:
-      status: not_run
-    rationale: 'Trust gereset 2026-05-11: re-scrape met scraper-fixes, content-diff > 5%'
-    status: unreviewed
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:23:04Z'
+      rationale: "C1: opsomming op r.90 gebruikt '•' bullet-glyph i.p.v. markdown '-' (PDF-glyph). A6/C-structuur: bullets op r.93, 97, 100, 103 beginnen met '- \\n\\n' waarbij de bullet-inhoud op een volgende regel staat na een lege regel — dit is een A6-regelbreuk in lijstcontext die de bullets ontkoppelt van hun inhoud. Zes voetnoten correct opgemaakt; inhoud volledig."
+      concrete_problemen:
+        - regel: 90
+          categorie: C1
+          type: bullet-glyph
+          voorbeeld: • In het PBEG van 6 augustus 1996 staat een mededeling van de Commissie...
+        - regel: 93
+          categorie: A6
+          type: other
+          voorbeeld: '- \n\nde Belgische Staat is de voornoemde verplichtingen... (bulletinhoud na lege regel)'
+        - regel: 97
+          categorie: A6
+          type: other
+          voorbeeld: '- \n\nlos van deze aspecten «houdt het uitsluitend toekennen...» (bulletinhoud na lege regel)'
 themas:
   - toelichting
   - voorziening

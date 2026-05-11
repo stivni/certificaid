@@ -16,7 +16,7 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/aansluitingskosten-en-installatiekosten-waarbij-derden-de-eigendom-van-de-installatie
 nummer: CBN-advies 2016/6
 provenance:
-  generated_at: '2026-05-11T13:05:08Z'
+  generated_at: '2026-05-11T13:15:12Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/verbeteringswerken-aan-gehuurde-gebouwen
       sha256: 8ac351fe3e7cb8c9b7afb7aaeafaf9938044284f6ac2fab960ce1bc0246797ab
@@ -33,8 +33,8 @@ provenance:
     confirmed_by: human
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:29Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:17Z'
       heading_count: 6
       max_section_chars: 2920
       file_size_chars: 6854

@@ -16,7 +16,7 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-een-herziening-van-de-btw-op-een-aangekocht
 nummer: CBN-advies 132/7
 provenance:
-  generated_at: '2026-05-11T13:05:06Z'
+  generated_at: '2026-05-11T13:15:10Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/boeking-en-waardering-van-voorraden
       sha256: d73c47ba8ea46d281b831bb8deee7fd1176686795ce91e18dd9c1f2040ddf8d9
@@ -33,8 +33,8 @@ provenance:
     confirmed_by: subagent-laag2-ronde2
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:25Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:14Z'
       heading_count: 47
       max_section_chars: 15618
       file_size_chars: 75478

@@ -3,37 +3,53 @@ bron: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-in
 datum: 2012-01-11
 nummer: CBN-advies 2012/4
 provenance:
-  generated_at: '2026-05-11T13:05:08Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-inbeslagname-in-hoofde-van-de-beslagen-schuldenaar
       sha256: 4325b86bb9e88219e2116194f27bc2a303cf2a3c2f5d2e38addf25adad2bd7cc
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:12Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at:
-    confirmed_by:
+    status: needs-rework
+    confirmed_at: '2026-05-11T13:30:32Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "D4/B3: regel 65 toont '### * Algemene kenmerken*' met asterisken rondom de heading-tekst — malformed italic-markup binnen een heading. B5: regel 120 toont '** 2. Kantonnement**' als bold plain-text pseudo-heading in plaats van een ### heading. E2: regels 143-145 en 151-153 tonen gebroken tabelrijen waarbij rekeningnummers en -namen over meerdere regels buiten de tabelcellen lopen (tabs gebrukt als uitlijning)."
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:28Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:16Z'
       heading_count: 9
       max_section_chars: 7110
       file_size_chars: 16482
       flags: []
     layer2:
-      agent:
-      concrete_problemen: []
-      rationale:
-      run_at:
-      status: not_run
-    rationale: 'Trust gereset 2026-05-11: re-scrape met scraper-fixes, content-diff > 5%'
-    status: unreviewed
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:30:32Z'
+      rationale: "D4/B3: regel 65 toont '### * Algemene kenmerken*' met asterisken rondom de heading-tekst — malformed italic-markup binnen een heading. B5: regel 120 toont '** 2. Kantonnement**' als bold plain-text pseudo-heading in plaats van een ### heading. E2: regels 143-145 en 151-153 tonen gebroken tabelrijen waarbij rekeningnummers en -namen over meerdere regels buiten de tabelcellen lopen (tabs gebrukt als uitlijning)."
+      concrete_problemen:
+        - regel: 65
+          categorie: D4
+          type: other
+          voorbeeld: '### * Algemene kenmerken*'
+        - regel: 120
+          categorie: B5
+          type: other
+          voorbeeld: '** 2. Kantonnement**'
+        - regel: 143
+          categorie: E2
+          type: pseudo-table
+          voorbeeld: "| | 700-707\n\t\t\t(of 499 | Verkopen en dienstprestaties \n\t\t\tVerkopen materiële vaste activa) | 4.750,00 | |"
+        - regel: 151
+          categorie: E2
+          type: pseudo-table
+          voorbeeld: "| | 700 – 707\n\t\t\t(of 499 | Verkopen en dienstprestaties \n\t\t\tVerkopen materiële vaste activa) | 4.750,00 | |"
 themas:
   - bewarend beslag
   - inbeslagname

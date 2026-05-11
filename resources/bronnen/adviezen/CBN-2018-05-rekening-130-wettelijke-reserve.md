@@ -13,37 +13,37 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/van-een-kapitaalhoudende-bvba-naar-een-kapitaalloze-bv
 nummer: CBN-advies 2018/05
 provenance:
-  generated_at: '2026-05-11T13:05:08Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/rekening-130-wettelijke-reserve
       sha256: c8b2728d90556558c16d9f39b6121f16ab151d0d0a9bb9262e99fc90de4a8f59
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:12Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at:
-    confirmed_by:
+    status: trusted
+    confirmed_at: '2026-05-11T13:34:11Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: Volledig schone extractie. Zes headings correct genest, twee pipe-tabellen correct opgebouwd, alle voetnoten [^1]–[^12] aanwezig met definitie. Geen PDF-artefacten, geen onzichtbare unicode, geen spurious line-breaks. Inhoud compact en compleet.
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:29Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:17Z'
       heading_count: 6
       max_section_chars: 1705
       file_size_chars: 5976
       flags: []
     layer2:
-      agent:
+      status: trusted
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:34:11Z'
+      rationale: Volledig schone extractie. Zes headings correct genest, twee pipe-tabellen correct opgebouwd, alle voetnoten [^1]–[^12] aanwezig met definitie. Geen PDF-artefacten, geen onzichtbare unicode, geen spurious line-breaks. Inhoud compact en compleet.
       concrete_problemen: []
-      rationale:
-      run_at:
-      status: not_run
-    rationale: 'Trust gereset 2026-05-11: re-scrape met scraper-fixes, content-diff > 5%'
-    status: unreviewed
 themas:
   - wettelijke reserve
   - reservefonds

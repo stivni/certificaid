@@ -16,41 +16,37 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/verplichtingen-voortvloeiend-uit-brugpensioen
 nummer: CBN-advies 107/3 bis
 provenance:
-  generated_at: '2026-05-11T13:05:05Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/verplichtingen-voortvloeiend-uit-brugpensioen-0
       sha256: 373f4f7f7f5ae4191a73a94e8827c04332b5eea7cf27a57ed171e2b06fe76725
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:10Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T11:57:45Z'
+    status: trusted
+    confirmed_at: '2026-05-11T13:16:02Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: "Bug D4 (voetnootmarker [^1] op eigen regel met leading spatie) is opgelost: body regel 64 toont 'In een vorig advies[^1] onderstreepte de Commissie dat...' correct inline. Inhoud volledig. Geen andere artefacten."
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:24Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:13Z'
       heading_count: 0
       max_section_chars: 1930
       file_size_chars: 1930
       flags: []
     layer2:
+      status: trusted
       agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: D4
-          regel: 60
-          type: other
-          voorbeeld: "In een vorig advies[^1]\n onderstreepte de Commissie dat, wanneer..."
-      rationale: 'D4-artefact: footnote-marker `[^1]` op regel 60 staat op een eigen regel gevolgd door een newline en een leading spatie, waardoor de zin gebroken is over twee regels (''In een vorig advies[^1]\n onderstreepte de Commissie...''). Een mens zou dat nooit zo typen — de marker hoort inline te zitten. Verder inhoud compleet.'
-      run_at: '2026-05-11T11:57:45Z'
-      status: needs-rework
-    rationale: 'D4-artefact: footnote-marker `[^1]` op regel 60 staat op een eigen regel gevolgd door een newline en een leading spatie, waardoor de zin gebroken is over twee regels (''In een vorig advies[^1]\n onderstreepte de Commissie...''). Een mens zou dat nooit zo typen — de marker hoort inline te zitten. Verder inhoud compleet.'
-    status: needs-rework
+      run_at: '2026-05-11T13:16:02Z'
+      rationale: "Bug D4 (voetnootmarker [^1] op eigen regel met leading spatie) is opgelost: body regel 64 toont 'In een vorig advies[^1] onderstreepte de Commissie dat...' correct inline. Inhoud volledig. Geen andere artefacten."
+      concrete_problemen: []
 themas:
   - brugpensioen
   - conventioneel brugpensioen

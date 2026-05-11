@@ -16,53 +16,49 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/mogelijkheid-tot-uitstel-van-de-gewone-algemene-vergadering-en-van-de-neerlegging-van-de
 nummer: CBN-advies 2020/11
 provenance:
-  generated_at: '2026-05-11T13:05:08Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/vrijstelling-ter-versterking-van-de-solvabiliteit-en-het-eigen-vermogen-van-de-0
       sha256: a4e4fa6047464374dcdd9f99e415b10e78c57870f32dce88f69b63bcd9375be2
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:12Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T12:21:40Z'
+    status: needs-rework
+    confirmed_at: '2026-05-11T13:34:12Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: "D4: Systematisch malformed italic op regels 90–91: '*enerzijds*' en '*anderzijds*' hebben een spatie vóór het sluit-asterisk, en '*flat'*' combineert een smart-quote binnen een italic span. B5: Regel 109–110 bevat een sectie-omschrijving ('In het boekjaar volgend op datgene...') als plain-text paragraaf zonder heading-prefix terwijl het inhoudelijk een gelijkwaardig subsectieniveau is aan de ### heading op regel 97."
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:30Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:18Z'
       heading_count: 6
       max_section_chars: 5775
       file_size_chars: 15126
       flags: []
     layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: D4
-          regel: 77
-          type: other
-          voorbeeld: Indien *enerzijds *het tarief van de vennootschapsbelasting...
-        - categorie: D4
-          regel: 79
-          type: other
-          voorbeeld: Indien *anderzijds *het effectief gerealiseerde verlies...
-        - categorie: D4
-          regel: 78
-          type: other
-          voorbeeld: belast aan het '*flat'* tarief
-        - categorie: D3
-          regel: 111
-          type: other
-          voorbeeld: ' [^16] (orphaned voetnoot-referentie op eigen regel na sectie-label)'
-      rationale: 'D4: Malformed italic op regels 77 en 79: `*enerzijds *` en `*anderzijds *` hebben een spatie vóór het sluit-asterisk — geen mens typt dit zo. Ook `*flat''*` (regel 78) combineert een smart-quote binnen een italic span. Verder zijn er orphaned footnote-referenties op eigen regels (bijv. regel 111 `[^16]`, regel 131 `[^18][^19]`) die syntactisch correct zijn maar door de scraper los van hun anker zijn gezet.'
-      run_at: '2026-05-11T12:21:40Z'
       status: needs-rework
-    rationale: 'D4: Malformed italic op regels 77 en 79: `*enerzijds *` en `*anderzijds *` hebben een spatie vóór het sluit-asterisk — geen mens typt dit zo. Ook `*flat''*` (regel 78) combineert een smart-quote binnen een italic span. Verder zijn er orphaned footnote-referenties op eigen regels (bijv. regel 111 `[^16]`, regel 131 `[^18][^19]`) die syntactisch correct zijn maar door de scraper los van hun anker zijn gezet.'
-    status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:34:12Z'
+      rationale: "D4: Systematisch malformed italic op regels 90–91: '*enerzijds*' en '*anderzijds*' hebben een spatie vóór het sluit-asterisk, en '*flat'*' combineert een smart-quote binnen een italic span. B5: Regel 109–110 bevat een sectie-omschrijving ('In het boekjaar volgend op datgene...') als plain-text paragraaf zonder heading-prefix terwijl het inhoudelijk een gelijkwaardig subsectieniveau is aan de ### heading op regel 97."
+      concrete_problemen:
+        - regel: 90
+          categorie: D4
+          type: other
+          voorbeeld: "Indien *enerzijds* het tarief... (sluit-* correct) maar ook: '*flat'*' (smart-quote binnen italic)"
+        - regel: 91
+          categorie: D4
+          type: other
+          voorbeeld: Indien *anderzijds *het effectief gerealiseerde verlies — spatie voor sluit-asterisk
+        - regel: 109
+          categorie: B5
+          type: other
+          voorbeeld: In het boekjaar volgend op datgene waarin de belastbare gereserveerde winst wordt verminderd
 themas:
   - COVID-19
   - tijdelijke vrijstelling

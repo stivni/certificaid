@@ -13,53 +13,41 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/schulden-uit-de-resultaatbestemming-dividenduitkering-aan-een-onderneming-die-ten-minste
 nummer: CBN-advies 2016/13
 provenance:
-  generated_at: '2026-05-11T13:05:08Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/verenigingen-en-stichtingen-roerende-voorheffing
       sha256: a429da8d0b7fd51c4e9fb99e3d9b487cf8cd7b50dea8dc8478aea7b801603b16
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:12Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T12:16:34Z'
+    status: needs-rework
+    confirmed_at: '2026-05-11T13:30:32Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: 'Regel 143: ` [^18][^19][^20][^21]` staat als alleenstaande lege alinea direct vóór de aflooptabel — losgeraakte voetnootcluster (G3) waarvan de ankerzin op regel 141 staat (`**Boeking bij afloop op 31/03/2016 (tarief roerende voorheffing bedraagt 27[^17] procent)**`). De voetnootverwijzingen [^18]–[^21] horen in of bij de tabelregel, niet als losse alinea. De eerder gerapporteerde problemen op regels 101, 111, 121, 131 zijn na de re-scrape opgelost en zijn nu correcte headings.'
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:29Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:17Z'
       heading_count: 9
       max_section_chars: 4378
       file_size_chars: 9842
       flags: []
     layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: G3
-          regel: 101
-          type: other
-          voorbeeld: ' [^11][^12]'
-        - categorie: G3
-          regel: 111
-          type: other
-          voorbeeld: ' [^13][^14]'
-        - categorie: G3
-          regel: 121
-          type: other
-          voorbeeld: ' [^15][^16]'
-        - categorie: G3
-          regel: 131
-          type: other
-          voorbeeld: ' [^18][^19][^20][^21]'
-      rationale: Regels 101, 111, 121, 131 bevatten telkens een alleenstaande regel met meerdere voetnootverwijzingen aaneengesloten (' [^11][^12]', ' [^13][^14]', ' [^15][^16]', ' [^18][^19][^20][^21]') als losse alinea zonder zin — dit is het inline-footnote-artefact (G3) waarbij de PDF-voetnootmarkeringen zijn losgeraakt van hun ankerzin. Elke boekingregel in het voorbeeld heeft zijn voetnoten op een aparte lege regel boven de tabel gezet. Inhoud en tabellen zijn verder correct.
-      run_at: '2026-05-11T12:16:34Z'
       status: needs-rework
-    rationale: Regels 101, 111, 121, 131 bevatten telkens een alleenstaande regel met meerdere voetnootverwijzingen aaneengesloten (' [^11][^12]', ' [^13][^14]', ' [^15][^16]', ' [^18][^19][^20][^21]') als losse alinea zonder zin — dit is het inline-footnote-artefact (G3) waarbij de PDF-voetnootmarkeringen zijn losgeraakt van hun ankerzin. Elke boekingregel in het voorbeeld heeft zijn voetnoten op een aparte lege regel boven de tabel gezet. Inhoud en tabellen zijn verder correct.
-    status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:30:32Z'
+      rationale: 'Regel 143: ` [^18][^19][^20][^21]` staat als alleenstaande lege alinea direct vóór de aflooptabel — losgeraakte voetnootcluster (G3) waarvan de ankerzin op regel 141 staat (`**Boeking bij afloop op 31/03/2016 (tarief roerende voorheffing bedraagt 27[^17] procent)**`). De voetnootverwijzingen [^18]–[^21] horen in of bij de tabelregel, niet als losse alinea. De eerder gerapporteerde problemen op regels 101, 111, 121, 131 zijn na de re-scrape opgelost en zijn nu correcte headings.'
+      concrete_problemen:
+        - regel: 143
+          categorie: G3
+          type: other
+          voorbeeld: ' [^18][^19][^20][^21] (losstaande voetnootcluster zonder ankerzin)'
 themas:
   - roerende voorheffing
   - toerekening van kosten en opbrengsten

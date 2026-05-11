@@ -10,45 +10,45 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-loontussenkomst-door-de-overheid-in-hoofde-van-de-werkgever
 nummer: CBN-advies 2009/13
 provenance:
-  generated_at: '2026-05-11T13:05:07Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-het-stelsel-tot-gedeeltelijke-vrijstelling-van-0
       sha256: da1c0f17729bbe08a1ea44d889165553e64b1cc9f8b3643ce7a53b176d16b3d2
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:11Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T12:09:17Z'
+    status: needs-rework
+    confirmed_at: '2026-05-11T13:23:04Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: "D4: r148 bevat 'rekening 151 *Kapitaalsubsidies ontvangen in contanten* van de vereniging of 150 *Kapitaalsubsidie *van de vennootschap' — de closing asterisk van het tweede italic-blok staat na een spatie (patroon '*tekst *'), wat een malformed italic-marker is. Tevens r146 'rekening 740* Bedrijfssubsidies...' — asterisk direct na accountnummer zonder opening asterisk. Beide zijn ETL-spatie-artefacten. Verder is het advies inhoudelijk volledig en structureel correct."
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:27Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:15Z'
       heading_count: 5
       max_section_chars: 9839
       file_size_chars: 15365
       flags: []
     layer2:
+      status: needs-rework
       agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:23:04Z'
+      rationale: "D4: r148 bevat 'rekening 151 *Kapitaalsubsidies ontvangen in contanten* van de vereniging of 150 *Kapitaalsubsidie *van de vennootschap' — de closing asterisk van het tweede italic-blok staat na een spatie (patroon '*tekst *'), wat een malformed italic-marker is. Tevens r146 'rekening 740* Bedrijfssubsidies...' — asterisk direct na accountnummer zonder opening asterisk. Beide zijn ETL-spatie-artefacten. Verder is het advies inhoudelijk volledig en structureel correct."
       concrete_problemen:
-        - categorie: D4
-          regel: 141
+        - regel: 148
+          categorie: D4
           type: other
           voorbeeld: rekening 150 *Kapitaalsubsidie *van de vennootschap
-        - categorie: D4
-          regel: 61
+        - regel: 146
+          categorie: D4
           type: other
-          voorbeeld: rekening 151 *Kapitaalsubsidies ontvangen in contanten* van de vereniging of 150 *Kapitaalsubsidie *
-      rationale: 'D4: op r141 staat ''rekening 150 *Kapitaalsubsidie *van de vennootschap'' — spatie voor de closing asterisk geeft een malformed italic-marker (patroon: ''tekst *''); dit is een bekende ETL-spatie-artefact. Zelfde patroon op r61 ''rekening 151 *Kapitaalsubsidies ontvangen in contanten* van de vereniging of 150 *Kapitaalsubsidie *van de vennootschap''. Verder is de inhoud compleet en goed gestructureerd.'
-      run_at: '2026-05-11T12:09:17Z'
-      status: needs-rework
-    rationale: 'D4: op r141 staat ''rekening 150 *Kapitaalsubsidie *van de vennootschap'' — spatie voor de closing asterisk geeft een malformed italic-marker (patroon: ''tekst *''); dit is een bekende ETL-spatie-artefact. Zelfde patroon op r61 ''rekening 151 *Kapitaalsubsidies ontvangen in contanten* van de vereniging of 150 *Kapitaalsubsidie *van de vennootschap''. Verder is de inhoud compleet en goed gestructureerd.'
-    status: needs-rework
+          voorbeeld: rekening 740* Bedrijfssubsidies en compenserende bedragen*
 themas:
   - bedrijfssubsidie
   - compensatie

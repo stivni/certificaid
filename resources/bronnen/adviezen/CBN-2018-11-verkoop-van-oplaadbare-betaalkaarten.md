@@ -3,57 +3,57 @@ bron: https://www.cbn-cnc.be/nl/adviezen/verkoop-van-oplaadbare-betaalkaarten
 datum: 2018-05-30
 nummer: CBN-advies 2018/11
 provenance:
-  generated_at: '2026-05-11T13:05:08Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/verkoop-van-oplaadbare-betaalkaarten
       sha256: f053794d73bf6c56003c22777a980d226e59c1ca1a3b1e51e0f0b1075766901f
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:12Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T12:21:40Z'
+    status: needs-rework
+    confirmed_at: '2026-05-11T13:34:12Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: "Bevestiging van bestaand verdict. A3: TOC-fragment op regels 67-72 staat als plain text boven de inhoud (niet verwijderd door scraper), inclusief geconcateneerde regel 'vereniging of stichtingOndernemingen…'. D4: malformed italic op regels 78, 84, 86 met spatie voor sluitende asterisk (*term *)."
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:29Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:17Z'
       heading_count: 6
       max_section_chars: 4094
       file_size_chars: 8098
       flags: []
     layer2:
+      status: needs-rework
       agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:34:12Z'
+      rationale: "Bevestiging van bestaand verdict. A3: TOC-fragment op regels 67-72 staat als plain text boven de inhoud (niet verwijderd door scraper), inclusief geconcateneerde regel 'vereniging of stichtingOndernemingen…'. D4: malformed italic op regels 78, 84, 86 met spatie voor sluitende asterisk (*term *)."
       concrete_problemen:
-        - categorie: A3
-          regel: 47
+        - regel: 67
+          categorie: A3
           type: other
           voorbeeld: 1. Algemeen \n2. Kleine\n vereniging of stichting \n3. Ondernemingen...
-        - categorie: A3
-          regel: 52
+        - regel: 72
+          categorie: A3
           type: other
-          voorbeeld: ' vereniging of stichtingOndernemingen en niet-kleine verenigingen en stichtingen'
-        - categorie: D4
-          regel: 58
+          voorbeeld: vereniging of stichtingOndernemingen en niet-kleine verenigingen en stichtingen
+        - regel: 78
+          categorie: D4
           type: other
           voorbeeld: '*vouchers voor enkelvoudig gebruik[^2] *'
-        - categorie: D4
-          regel: 65
+        - regel: 84
+          categorie: D4
           type: other
           voorbeeld: '*Genormaliseerd minimaal schema van de Staat van de ontvangsten en uitgaven[^5] *'
-        - categorie: D4
-          regel: 67
+        - regel: 86
+          categorie: D4
           type: other
           voorbeeld: '*Andere schulden *in het* Genormaliseerd minimaal schema van de staat van het vermogen*'
-      rationale: 'D4: meerdere gevallen van malformed italic met spatie voor sluitende asterisk (categorie *term *) op regels 58, 65, 67. B3: de TOC-fragmenten op regels 47-52 bevatten een duplicate regel (''vereniging of stichtingOndernemingen en niet-kleine verenigingen en stichtingen'') zonder heading-prefix, wat een aaneengesmeten TOC-rest is. Verdere inhoud structureel intact.'
-      run_at: '2026-05-11T12:21:40Z'
-      status: needs-rework
-    rationale: 'D4: meerdere gevallen van malformed italic met spatie voor sluitende asterisk (categorie *term *) op regels 58, 65, 67. B3: de TOC-fragmenten op regels 47-52 bevatten een duplicate regel (''vereniging of stichtingOndernemingen en niet-kleine verenigingen en stichtingen'') zonder heading-prefix, wat een aaneengesmeten TOC-rest is. Verdere inhoud structureel intact.'
-    status: needs-rework
 themas:
   - betaalkaart
   - oplaadbare betaalkaart

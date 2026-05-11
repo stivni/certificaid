@@ -16,41 +16,37 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/neerlegging-van-de-enkelvoudige-jaarrekening-bij-de-nationale-bank-van-belgie-nieuwe
 nummer: CBN-advies 126/2
 provenance:
-  generated_at: '2026-05-11T13:05:05Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/inbrengprijs
       sha256: b780564a7b1f0eed2709b1d3d3858fbf8e12a265541a5de2098929a68176c846
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:10Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T11:57:45Z'
+    status: trusted
+    confirmed_at: '2026-05-11T13:16:02Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: Vorige L2 flagde D4 broken italic op regel 61 ('*Oprichtingskosten *als'), maar de werkelijke body toont '*Oprichtingskosten* als *Kosten van oprichting en kapitaalverhoging*' correct gesloten — scraper-fix D4 effectief. Body kort (1653 chars), twee alinea's, drie voetnoten correct. Geen extractie-artefacten.
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:25Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:14Z'
       heading_count: 0
       max_section_chars: 1653
       file_size_chars: 1653
       flags: []
     layer2:
+      status: trusted
       agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: D4
-          regel: 61
-          type: other
-          voorbeeld: geboekt in de post *Oprichtingskosten *als *Kosten van oprichting en kapitaalverhoging*
-      rationale: 'D4: regel 61 bevat malgevormde italic-opmaak ''*Oprichtingskosten *als *Kosten van oprichting en kapitaalverhoging*'' — spatie vóór tweede asterisk sluit de eerste italic niet in CommonMark, waardoor drie asterisks onbedoeld interageren. De bedoeling is duidelijk (twee aparte term-italics), maar de rendering is incorrect. Drie voetnoten correct. Rest volledig en correct.'
-      run_at: '2026-05-11T11:57:45Z'
-      status: needs-rework
-    rationale: 'D4: regel 61 bevat malgevormde italic-opmaak ''*Oprichtingskosten *als *Kosten van oprichting en kapitaalverhoging*'' — spatie vóór tweede asterisk sluit de eerste italic niet in CommonMark, waardoor drie asterisks onbedoeld interageren. De bedoeling is duidelijk (twee aparte term-italics), maar de rendering is incorrect. Drie voetnoten correct. Rest volledig en correct.'
-    status: needs-rework
+      run_at: '2026-05-11T13:16:02Z'
+      rationale: Vorige L2 flagde D4 broken italic op regel 61 ('*Oprichtingskosten *als'), maar de werkelijke body toont '*Oprichtingskosten* als *Kosten van oprichting en kapitaalverhoging*' correct gesloten — scraper-fix D4 effectief. Body kort (1653 chars), twee alinea's, drie voetnoten correct. Geen extractie-artefacten.
+      concrete_problemen: []
 themas:
   - inbreng
   - inbrengprijs

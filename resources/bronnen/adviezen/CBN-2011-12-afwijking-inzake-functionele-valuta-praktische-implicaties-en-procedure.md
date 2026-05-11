@@ -16,37 +16,41 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-vennootschappen-naar-buitenlands-recht-eigen-boekhoudkundige-0
 nummer: CBN-advies 2011/12
 provenance:
-  generated_at: '2026-05-11T13:05:08Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/afwijking-inzake-functionele-valuta-praktische-implicaties-en-procedure
       sha256: c2257273e04e873a3695a27be7117365919032c17a63a1102ff1ae3817652f12
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:11Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at:
-    confirmed_by:
+    status: needs-rework
+    confirmed_at: '2026-05-11T13:23:04Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: 'Regels 70–72: plain-text inhoudsopgave direct na H1 (A3) — drie genummerde punten die de drie ## secties van het advies nabootsen maar geen headings zijn. Verder is het advies structureel correct: vier headings op ## niveau, voetnoten 1–9 volledig gedefinieerd en gerefereerd, geen tabellen, geen OCR-artefacten.'
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:28Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:16Z'
       heading_count: 4
       max_section_chars: 3161
       file_size_chars: 8819
       flags: []
     layer2:
-      agent:
-      concrete_problemen: []
-      rationale:
-      run_at:
-      status: not_run
-    rationale: 'Trust gereset 2026-05-11: re-scrape met scraper-fixes, content-diff > 5%'
-    status: unreviewed
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:23:04Z'
+      rationale: 'Regels 70–72: plain-text inhoudsopgave direct na H1 (A3) — drie genummerde punten die de drie ## secties van het advies nabootsen maar geen headings zijn. Verder is het advies structureel correct: vier headings op ## niveau, voetnoten 1–9 volledig gedefinieerd en gerefereerd, geen tabellen, geen OCR-artefacten.'
+      concrete_problemen:
+        - regel: 70
+          categorie: A3
+          type: other
+          voorbeeld: "1. Omrekening van activa, passiva, kosten en opbrengsten naar aanleiding van het verkrijgen van de afwijking...\n2. Afwijkingsaanvragen ingediend door vennootschappen..."
 themas:
   - afwijking
   - afwijkingsaanvraag

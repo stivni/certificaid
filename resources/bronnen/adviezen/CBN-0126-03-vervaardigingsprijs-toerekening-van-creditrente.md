@@ -16,45 +16,37 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/actuarieel-rendement-op-vastrentende-effecten-aanpassing-van-de-adviezen-1375-en-1484
 nummer: CBN-advies 126/3
 provenance:
-  generated_at: '2026-05-11T13:05:05Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/vervaardigingsprijs-toerekening-van-creditrente
       sha256: c0be8b50c0783a49b530949e9774a323bc28b67bbc3d68f1f7c3ece3584e95ac
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:10Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T11:57:45Z'
+    status: trusted
+    confirmed_at: '2026-05-11T13:16:02Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: "Vorige Laag-2-ronde flagde D4 (italic niet gesloten op L73 en L79), maar bij her-lezing van de actuele body sluiten beide italic-spans correct: 'via de rubriek *Wijziging in de voorraad ... in uitvoering*, zonder' en '*Wijziging in de bestellingen in uitvoering* (717)' — de asterisk staat vóór de spatie/komma. Scraper-fix heeft dit opgelost. Inhoud volledig, voetnoot correct, geen andere artefacten."
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:25Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:14Z'
       heading_count: 0
       max_section_chars: 4208
       file_size_chars: 4208
       flags: []
     layer2:
+      status: trusted
       agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: D4
-          regel: 65
-          type: other
-          voorbeeld: via de rubriek *Wijziging in de voorraad goederen in bewerking en gereed produkt...*, zonder
-        - categorie: D4
-          regel: 71
-          type: other
-          voorbeeld: via de rekening *Wijziging in de bestellingen in uitvoering *(717)
-      rationale: 'D4: twee regels (65 en 71) bevatten malgevormde italic-opmaak waarbij de sluitende asterisk wordt voorafgegaan door een spatie (''*Wijziging in de voorraad... *, zonder'' en ''*Wijziging in de bestellingen in uitvoering *(717)'') — in CommonMark sluit dit de italic niet. De gebruikte termen zijn boekhoudkundige rubrieksnamen die italics verdienen, maar de opmaak is fout. Eén voetnoot correct. Rest inhoudelijk volledig.'
-      run_at: '2026-05-11T11:57:45Z'
-      status: needs-rework
-    rationale: 'D4: twee regels (65 en 71) bevatten malgevormde italic-opmaak waarbij de sluitende asterisk wordt voorafgegaan door een spatie (''*Wijziging in de voorraad... *, zonder'' en ''*Wijziging in de bestellingen in uitvoering *(717)'') — in CommonMark sluit dit de italic niet. De gebruikte termen zijn boekhoudkundige rubrieksnamen die italics verdienen, maar de opmaak is fout. Eén voetnoot correct. Rest inhoudelijk volledig.'
-    status: needs-rework
+      run_at: '2026-05-11T13:16:02Z'
+      rationale: "Vorige Laag-2-ronde flagde D4 (italic niet gesloten op L73 en L79), maar bij her-lezing van de actuele body sluiten beide italic-spans correct: 'via de rubriek *Wijziging in de voorraad ... in uitvoering*, zonder' en '*Wijziging in de bestellingen in uitvoering* (717)' — de asterisk staat vóór de spatie/komma. Scraper-fix heeft dit opgelost. Inhoud volledig, voetnoot correct, geen andere artefacten."
+      concrete_problemen: []
 themas:
   - toerekening van kosten en opbrengsten
   - vervaardigingsprijs

@@ -16,37 +16,45 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/begin-van-het-boekjaar
 nummer: CBN-advies 2022/13
 provenance:
-  generated_at: '2026-05-11T13:05:09Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-fusies-tussen-verenigingen-en-stichtingen
       sha256: c58fc7633ae3984e4b62ea0f13577d3e0332f79efb9c0cf8c2a3fd747d8f5873
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:12Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at:
-    confirmed_by:
+    status: needs-rework
+    confirmed_at: '2026-05-11T13:34:13Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "B3: de tekst '### Beginvermogen' verschijnt 13 maal als zelfstandige heading (regels 132, 145, 158, 223, 236, 250, 267, 279, 293, 318, 339, 352, 366) — dit is een extractie-artefact waarbij een balansrij-label als heading werd opgemaakt. Een mens zou dit als tabel-inhoud of cursief label schrijven, niet als genummerde sectie. Inhoud verder compleet; 38 voetnoten correct."
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:30Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:18Z'
       heading_count: 29
       max_section_chars: 14805
       file_size_chars: 33169
       flags: []
     layer2:
-      agent:
-      concrete_problemen: []
-      rationale:
-      run_at:
-      status: not_run
-    rationale: 'Trust gereset 2026-05-11: re-scrape met scraper-fixes, content-diff > 5%'
-    status: unreviewed
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:34:13Z'
+      rationale: "B3: de tekst '### Beginvermogen' verschijnt 13 maal als zelfstandige heading (regels 132, 145, 158, 223, 236, 250, 267, 279, 293, 318, 339, 352, 366) — dit is een extractie-artefact waarbij een balansrij-label als heading werd opgemaakt. Een mens zou dit als tabel-inhoud of cursief label schrijven, niet als genummerde sectie. Inhoud verder compleet; 38 voetnoten correct."
+      concrete_problemen:
+        - regel: 132
+          categorie: B3
+          type: other
+          voorbeeld: '### Beginvermogen (balansrij-label als heading, herhaalt 13× door document)'
+        - regel: 145
+          categorie: B3
+          type: other
+          voorbeeld: '### Beginvermogen (tweede voorkomen binnen voorbeeld 1)'
 themas:
   - fusie
   - verenigingen en stichtingen

@@ -16,41 +16,41 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/verrichtingen-met-betrekking-tot-inschrijvingsrechten
 nummer: CBN-advies 127/2
 provenance:
-  generated_at: '2026-05-11T13:05:06Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/waardevermindering-op-aandelen-voorziening-voor-risicos-verbonden-aan-niet-opgevraagd
       sha256: dd176ad07335dc8869f9254b82ab3b39e8c35527699586e1bdfa3e7620dc91e6
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:10Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T11:57:45Z'
+    status: needs-rework
+    confirmed_at: '2026-05-11T13:16:02Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: "F1: frontmatter-thema op L59 bevat HTML-entity '&#039;' (apostrof) die niet gedecodeerd is door de ETL-pipeline: 'voorzieningen voor risico&#039;s en kosten'. Dit corrumpeert metadata die voor retrieval wordt gebruikt. Body is volledig schoon en inhoudelijk compleet."
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:25Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:14Z'
       heading_count: 0
       max_section_chars: 2723
       file_size_chars: 2723
       flags: []
     layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: F1
-          regel: 9
-          type: other
-          voorbeeld: '- voorzieningen voor risico&#039;s en kosten (HTML-entity niet gedecodeerd)'
-      rationale: 'F1/G1: HTML-entity ''&#039;'' (apostrof) op regel 9 in frontmatter-thema (''voorzieningen voor risico&#039;s en kosten'') — dit is een HTML-escape die niet gedecodeerd werd door de ETL-pipeline. Hoewel dit in de frontmatter staat (niet de body), corrumpeert het de metadata die voor retrieval wordt gebruikt. De body zelf is schoon en volledig.'
-      run_at: '2026-05-11T11:57:45Z'
       status: needs-rework
-    rationale: 'F1/G1: HTML-entity ''&#039;'' (apostrof) op regel 9 in frontmatter-thema (''voorzieningen voor risico&#039;s en kosten'') — dit is een HTML-escape die niet gedecodeerd werd door de ETL-pipeline. Hoewel dit in de frontmatter staat (niet de body), corrumpeert het de metadata die voor retrieval wordt gebruikt. De body zelf is schoon en volledig.'
-    status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:16:02Z'
+      rationale: "F1: frontmatter-thema op L59 bevat HTML-entity '&#039;' (apostrof) die niet gedecodeerd is door de ETL-pipeline: 'voorzieningen voor risico&#039;s en kosten'. Dit corrumpeert metadata die voor retrieval wordt gebruikt. Body is volledig schoon en inhoudelijk compleet."
+      concrete_problemen:
+        - regel: 59
+          categorie: F1
+          type: other
+          voorbeeld: '- voorzieningen voor risico&#039;s en kosten'
 themas:
   - aandelen
   - niet-opgevraagd gedeelte van aandelen

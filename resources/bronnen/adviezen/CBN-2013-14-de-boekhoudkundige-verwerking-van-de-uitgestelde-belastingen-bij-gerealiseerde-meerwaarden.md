@@ -16,49 +16,37 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/herwaarderingen-verricht-met-toepassing-van-de-wet-van-20-augustus-1947
 nummer: CBN-advies 2013/14
 provenance:
-  generated_at: '2026-05-11T13:05:08Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-uitgestelde-belastingen-bij-gerealiseerde-meerwaarden
       sha256: 1797f2099973db21019f401c77a91e8d1096ae56217d8dc0e573e7ac01d20547
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:12Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T12:16:34Z'
+    status: trusted
+    confirmed_at: '2026-05-11T13:30:32Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: Geen extractie-artefacten gevonden. Heading-hiërarchie (##/###/####/#####/######) correct en volledig opgebouwd. Alle journaalboekingstabellen correct pipe-syntax met |---| separator. Beide scenario's (meerwaarde + kapitaalsubsidie) voor alle boekjaren (20X1, 20X2, 20X4) inhoudelijk compleet aanwezig. Voetnoten correct gematcht.
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:28Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:16Z'
       heading_count: 21
       max_section_chars: 15877
       file_size_chars: 23172
       flags: []
     layer2:
+      status: trusted
       agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: A3
-          regel: 58
-          type: other
-          voorbeeld: 1. Inleiding \n2. Boekhoudkundige verwerking...\n3. Voorbeeld (TOC-fragment in body)
-        - categorie: A7
-          regel: 86
-          type: scrambled-words
-          voorbeeld: -- Gegevens-- Boekingschema---- Jaar 20X1------ Meerwaarde op materieel vast actief...
-        - categorie: A7
-          regel: 87
-          type: scrambled-words
-          voorbeeld: '---- Jaar 20X2------ Balans op 31 december 20X2-------- In geval van een meerwaarde...'
-      rationale: 'A3/A7: regels 58–87 bevatten een genummerde TOC-lijst gevolgd door een scrambled-text versie van dezelfde TOC als aaneengeregen string (''-- Gegevens-- Boekingschema----...''). Dit is een duidelijk extractie-artefact: de inhoudsopgave van het originele PDF is tweemaal in de body terechtgekomen, waarvan één keer als onleesbare aaneengesloten string. Verder is het advies inhoudelijk volledig met correcte tabellen en footnotes.'
-      run_at: '2026-05-11T12:16:34Z'
-      status: needs-rework
-    rationale: 'A3/A7: regels 58–87 bevatten een genummerde TOC-lijst gevolgd door een scrambled-text versie van dezelfde TOC als aaneengeregen string (''-- Gegevens-- Boekingschema----...''). Dit is een duidelijk extractie-artefact: de inhoudsopgave van het originele PDF is tweemaal in de body terechtgekomen, waarvan één keer als onleesbare aaneengesloten string. Verder is het advies inhoudelijk volledig met correcte tabellen en footnotes.'
-    status: needs-rework
+      run_at: '2026-05-11T13:30:32Z'
+      rationale: Geen extractie-artefacten gevonden. Heading-hiërarchie (##/###/####/#####/######) correct en volledig opgebouwd. Alle journaalboekingstabellen correct pipe-syntax met |---| separator. Beide scenario's (meerwaarde + kapitaalsubsidie) voor alle boekjaren (20X1, 20X2, 20X4) inhoudelijk compleet aanwezig. Voetnoten correct gematcht.
+      concrete_problemen: []
 themas:
   - gerealiseerde meerwaarde
   - kapitaalsubsidie

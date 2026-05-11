@@ -7,41 +7,37 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/uitgegeven-cheques-werking-van-rekening-559
 nummer: CBN-advies R102/3
 provenance:
-  generated_at: '2026-05-11T13:05:05Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/te-innen-cheques-rekening-53
       sha256: 12b8080766e2af5298adf3b6eb47536b6f89ad40b946bb4389913aacb249e578
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:10Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T11:51:19Z'
+    status: trusted
+    confirmed_at: '2026-05-11T13:16:01Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: "Bug D4 (gebroken italic '*Kredietinstellingen *') is opgelost: body regel 56 toont correct gesloten '*Kredietinstellingen*'. Het advies is inhoudelijk volledig (één kernparagraaf), geen artefacten zichtbaar. Schoon genoeg om voor mens-geschreven door te gaan."
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:24Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:13Z'
       heading_count: 0
       max_section_chars: 497
       file_size_chars: 497
       flags: []
     layer2:
+      status: trusted
       agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: D4
-          regel: 52
-          type: other
-          voorbeeld: rekening *Kredietinstellingen *zodra het krediet werd verleend
-      rationale: 'D4: op regel 52 staat ''*Kredietinstellingen *'' — de sluitende asterisk heeft een spatie vóór zich waardoor de italic niet correct sluit in de meeste markdown-parsers (''rekening *Kredietinstellingen *zodra''). Verder is het advies erg kort maar volledig.'
-      run_at: '2026-05-11T11:51:19Z'
-      status: needs-rework
-    rationale: 'D4: op regel 52 staat ''*Kredietinstellingen *'' — de sluitende asterisk heeft een spatie vóór zich waardoor de italic niet correct sluit in de meeste markdown-parsers (''rekening *Kredietinstellingen *zodra''). Verder is het advies erg kort maar volledig.'
-    status: needs-rework
+      run_at: '2026-05-11T13:16:01Z'
+      rationale: "Bug D4 (gebroken italic '*Kredietinstellingen *') is opgelost: body regel 56 toont correct gesloten '*Kredietinstellingen*'. Het advies is inhoudelijk volledig (één kernparagraaf), geen artefacten zichtbaar. Schoon genoeg om voor mens-geschreven door te gaan."
+      concrete_problemen: []
 themas:
   - cheque
   - kredietinstelling

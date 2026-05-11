@@ -3,45 +3,45 @@ bron: https://www.cbn-cnc.be/nl/adviezen/kapitaalvermindering-voor-vorming-van-e
 datum: 2016-11-16
 nummer: CBN-advies 2016/25
 provenance:
-  generated_at: '2026-05-11T13:05:08Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/kapitaalvermindering-voor-vorming-van-een-reserve-voor-een-voorzienbaar-verlies
       sha256: a323708d78caf2ee9141cb9671a5de95cd86d4b34ceb78162f913b715816dbc4
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:12Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T12:16:34Z'
+    status: needs-rework
+    confirmed_at: '2026-05-11T13:30:32Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: "A3: regels 53-64 bevatten een volledige genummerde inhoudsopgave direct na de H1-titel, vóór de eerste echte ## Inleiding — klassiek HTML-TOC extractie-artefact dat niet werd verwijderd. B6: regel 64 bevat '------ Opvolging van de reserve voor voorzienbaar verlies' als een horizontale lijn met tekst — geen valide markdown-separator. Inhoud na de TOC is structureel correct (9 headings, tabellen in pipe-syntax)."
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:29Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:17Z'
       heading_count: 9
       max_section_chars: 3537
       file_size_chars: 9131
       flags: []
     layer2:
+      status: needs-rework
       agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:30:32Z'
+      rationale: "A3: regels 53-64 bevatten een volledige genummerde inhoudsopgave direct na de H1-titel, vóór de eerste echte ## Inleiding — klassiek HTML-TOC extractie-artefact dat niet werd verwijderd. B6: regel 64 bevat '------ Opvolging van de reserve voor voorzienbaar verlies' als een horizontale lijn met tekst — geen valide markdown-separator. Inhoud na de TOC is structureel correct (9 headings, tabellen in pipe-syntax)."
       concrete_problemen:
-        - categorie: A3
-          regel: 45
+        - regel: 53
+          categorie: A3
           type: other
           voorbeeld: "1. Inleiding \n2. Analyse \n  1. Wettelijk en reglementair kader ..."
-        - categorie: B6
-          regel: 56
+        - regel: 64
+          categorie: B6
           type: other
           voorbeeld: '------ Opvolging van de reserve voor voorzienbaar verlies'
-      rationale: 'A3: regels 45–56 bevatten een TOC-fragment in de body — een genummerde inhoudsopgave direct na de #-titel, vóór de echte ## Inleiding op regel 58. Dit is een klassiek extractie-artefact waarbij de HTML-TOC niet werd verwijderd. Regel 56 heeft bovendien een ''------''-lijn met tekst (''------ Opvolging van de reserve voor voorzienbaar verlies'') die een B6-artefact is (HR als pagina-scheiding/TOC-rest). Inhoud na de TOC is structureel correct.'
-      run_at: '2026-05-11T12:16:34Z'
-      status: needs-rework
-    rationale: 'A3: regels 45–56 bevatten een TOC-fragment in de body — een genummerde inhoudsopgave direct na de #-titel, vóór de echte ## Inleiding op regel 58. Dit is een klassiek extractie-artefact waarbij de HTML-TOC niet werd verwijderd. Regel 56 heeft bovendien een ''------''-lijn met tekst (''------ Opvolging van de reserve voor voorzienbaar verlies'') die een B6-artefact is (HR als pagina-scheiding/TOC-rest). Inhoud na de TOC is structureel correct.'
-    status: needs-rework
 themas:
   - voorzienbaar verlies
   - kapitaalvermindering

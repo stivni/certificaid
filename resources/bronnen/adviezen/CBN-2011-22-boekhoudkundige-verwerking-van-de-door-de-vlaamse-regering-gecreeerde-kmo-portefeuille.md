@@ -3,49 +3,49 @@ bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-door-
 datum: 2011-10-05
 nummer: CBN-advies 2011/22
 provenance:
-  generated_at: '2026-05-11T13:05:08Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-door-de-vlaamse-regering-gecreeerde-kmo-portefeuille
       sha256: 6e925ea83ee592735035416d840b6c46af53b964cc33ac88a183f6826f4242ba
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:12Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T12:09:18Z'
+    status: needs-rework
+    confirmed_at: '2026-05-11T13:30:32Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: "B2: heading-hiërarchie springt op regels 71 en 78 van ## naar #### zonder tussenliggend ### niveau (## Inleiding → #### Procedure → #### Boekhoudkundige verwerking) — een mens zou dit niet zo schrijven. D4: regel 88 toont '*Voorbeeld* ' met trailing spatie na closing asterisk — potentieel renderen als malformed italic afhankelijk van parser."
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:28Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:16Z'
       heading_count: 6
       max_section_chars: 8499
       file_size_chars: 10393
       flags: []
     layer2:
+      status: needs-rework
       agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:30:32Z'
+      rationale: "B2: heading-hiërarchie springt op regels 71 en 78 van ## naar #### zonder tussenliggend ### niveau (## Inleiding → #### Procedure → #### Boekhoudkundige verwerking) — een mens zou dit niet zo schrijven. D4: regel 88 toont '*Voorbeeld* ' met trailing spatie na closing asterisk — potentieel renderen als malformed italic afhankelijk van parser."
       concrete_problemen:
-        - categorie: B2
-          regel: 60
+        - regel: 71
+          categorie: B2
           type: other
           voorbeeld: '#### Procedure'
-        - categorie: B2
-          regel: 67
+        - regel: 78
+          categorie: B2
           type: other
           voorbeeld: '#### Boekhoudkundige verwerking'
-        - categorie: D4
-          regel: 77
+        - regel: 88
+          categorie: D4
           type: other
-          voorbeeld: '*Voorbeeld *'
-      rationale: 'B2: heading-hiërarchie springt op regel 60 en 67 van ## naar #### zonder tussenliggend ### niveau — een mens zou dat niet zo schrijven. D4: regel 77 bevat ''*Voorbeeld *'' met een spatie voor de sluitende asterisk (malformed italic). Inhoud en voetnoten zijn volledig en correct.'
-      run_at: '2026-05-11T12:09:18Z'
-      status: needs-rework
-    rationale: 'B2: heading-hiërarchie springt op regel 60 en 67 van ## naar #### zonder tussenliggend ### niveau — een mens zou dat niet zo schrijven. D4: regel 77 bevat ''*Voorbeeld *'' met een spatie voor de sluitende asterisk (malformed italic). Inhoud en voetnoten zijn volledig en correct.'
-    status: needs-rework
+          voorbeeld: '*Voorbeeld* '
 themas:
   - kmo-portefeuille
   - ondernemerschapsportefeuille

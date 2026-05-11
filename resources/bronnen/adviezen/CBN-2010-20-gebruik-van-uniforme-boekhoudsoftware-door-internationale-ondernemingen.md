@@ -7,37 +7,41 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/overeenstemming-tussen-de-boekhouding-en-de-jaarrekening
 nummer: CBN-advies 2010/20
 provenance:
-  generated_at: '2026-05-11T13:05:08Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/gebruik-van-uniforme-boekhoudsoftware-door-internationale-ondernemingen
       sha256: 07041df6efac5d52376c66e78adaa33de0519e3008490ad523f5b7dcea3b4b87
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:11Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at:
-    confirmed_by:
+    status: needs-rework
+    confirmed_at: '2026-05-11T13:23:04Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: 'Regels 63–67: plain-text inhoudsopgave direct na H1 (A3) — twee genummerde hoofdpunten met subnummers die de documentstructuur nabootsen maar geen headings zijn. De overige inhoud (vijf headings op ##/### niveau, voetnoten 1–15 volledig gedefinieerd en gerefereerd, geen tabellen) is structureel correct. Geen andere artefacten gevonden.'
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:28Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:16Z'
       heading_count: 5
       max_section_chars: 11034
       file_size_chars: 12476
       flags: []
     layer2:
-      agent:
-      concrete_problemen: []
-      rationale:
-      run_at:
-      status: not_run
-    rationale: 'Trust gereset 2026-05-11: re-scrape met scraper-fixes, content-diff > 5%'
-    status: unreviewed
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:23:04Z'
+      rationale: 'Regels 63–67: plain-text inhoudsopgave direct na H1 (A3) — twee genummerde hoofdpunten met subnummers die de documentstructuur nabootsen maar geen headings zijn. De overige inhoud (vijf headings op ##/### niveau, voetnoten 1–15 volledig gedefinieerd en gerefereerd, geen tabellen) is structureel correct. Geen andere artefacten gevonden.'
+      concrete_problemen:
+        - regel: 63
+          categorie: A3
+          type: other
+          voorbeeld: "1. Belgische dochterondernemingen en bijkantoren...\n  1. De Belgische boekhoudwet\n  2. De minimumindeling van het algemeen rekeningenstelsel (MAR)"
 themas:
   - algemeen rekeningenstelsel
   - belgische bijkantoren

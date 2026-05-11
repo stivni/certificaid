@@ -7,45 +7,37 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/omzet-tussenpersonen
 nummer: CBN-advies 103/2
 provenance:
-  generated_at: '2026-05-11T13:05:05Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/omzet-van-expediteurs
       sha256: 0fcedc7f243f950032bc4e7d023cbbc343cbbdbd46b67fc118a0782b048bf7c0
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:10Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T11:57:44Z'
+    status: trusted
+    confirmed_at: '2026-05-11T13:16:02Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: "Bugs B3 (duplicate heading) en D4 (gebroken italic '*Bulletin *') zijn beide opgelost: body bevat één heading op regel 58 en '*Bulletin*' is correct gesloten op regel 60. Inhoud is volledig met voetnoten en antwoord van de Minister. Ziet eruit als mens-geschreven."
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:24Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:13Z'
       heading_count: 0
       max_section_chars: 3952
       file_size_chars: 3952
       flags: []
     layer2:
+      status: trusted
       agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: B3
-          regel: 52
-          type: other
-          voorbeeld: '# CBN advies 103/2 - Omzet van expediteurs (identiek aan regel 50)'
-        - categorie: D4
-          regel: 54
-          type: other
-          voorbeeld: In het *Bulletin *van de Commissie — spatie voor sluitende * breekt italic-markup
-      rationale: 'B3: duplicate page-title heading op regels 50 en 52. D4/A5: gebroken italic-markering `*Bulletin *` op regel 54 — spatie vóór de sluitende `*` waardoor de markup niet correct sluit (een mens zou `*Bulletin*` schrijven). Twee aparte problemen die ETL kan fixen.'
-      run_at: '2026-05-11T11:57:44Z'
-      status: needs-rework
-    rationale: 'B3: duplicate page-title heading op regels 50 en 52. D4/A5: gebroken italic-markering `*Bulletin *` op regel 54 — spatie vóór de sluitende `*` waardoor de markup niet correct sluit (een mens zou `*Bulletin*` schrijven). Twee aparte problemen die ETL kan fixen.'
-    status: needs-rework
+      run_at: '2026-05-11T13:16:02Z'
+      rationale: "Bugs B3 (duplicate heading) en D4 (gebroken italic '*Bulletin *') zijn beide opgelost: body bevat één heading op regel 58 en '*Bulletin*' is correct gesloten op regel 60. Inhoud is volledig met voetnoten en antwoord van de Minister. Ziet eruit als mens-geschreven."
+      concrete_problemen: []
 themas:
   - commissionair
   - expediteur

@@ -3,53 +3,49 @@ bron: https://www.cbn-cnc.be/nl/adviezen/vergoedingen-aan-bestuurders-en-werkend
 datum: 2016-09-07
 nummer: CBN-advies 2016/15
 provenance:
-  generated_at: '2026-05-11T13:05:08Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/vergoedingen-aan-bestuurders-en-werkende-vennoten
       sha256: 286a7bf84cdb376aac13f0f8a43abd19fb274ead9a2b49c4902b4536eec9f532
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:12Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T12:16:34Z'
+    status: needs-rework
+    confirmed_at: '2026-05-11T13:30:32Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: 'Regels 132–134: de tabelcel met rekeningomschrijving 618 loopt over drie inspringende regels (multi-line celinhoud buiten pipe-syntax), wat markdown-tabelrendering breekt (E2). Regel 79: `6201 *Directiepersoneel *worden` — spatie vóór de afsluitende asterisk in inline italic (D4). Regel 83: zelfde patroon `61 *Diensten en diverse goederen[^7]* .` — spatie voor afsluitende italic. Dit zijn vaste ETL-bugs in de account-name italic.'
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:29Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:17Z'
       heading_count: 11
       max_section_chars: 8234
       file_size_chars: 17632
       flags: []
     layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: D4
-          regel: 79
-          type: other
-          voorbeeld: 6201 *Directiepersoneel *worden de bezoldigingen geboekt
-        - categorie: G3
-          regel: 116
-          type: other
-          voorbeeld: ' [^17][^18][^19]'
-        - categorie: E2
-          regel: 120
-          type: other
-          voorbeeld: '| | 618 | Bezoldigingen, premies voor buitenwettelijke \n\t\t\t\tverzekeringen, ouderdoms- en overlevingspensioenen \n\t\t\t\tvan bestuurders...'
-        - categorie: G3
-          regel: 144
-          type: other
-          voorbeeld: ' [^20][^21][^22]'
-      rationale: 'Drie gevallen van malformed italic (D4): (1) regel 79 ''6201 *Directiepersoneel *'' — spatie voor afsluitende asterisk; (2) regel 83 ''6201 *Directiepersoneel *'' — idem; (3) regel 116 '' [^17][^18][^19]'' als losstaande alinea (G3). Verder bevat regel 120–122 en 131–133 multi-line celinhoud in tabel (cel tekst loopt door op volgende inspringing-regels), wat markdown-tabelrendering kan breken (E2). Dit patroon zit ook in de journaalposten op regels 120–125.'
-      run_at: '2026-05-11T12:16:34Z'
       status: needs-rework
-    rationale: 'Drie gevallen van malformed italic (D4): (1) regel 79 ''6201 *Directiepersoneel *'' — spatie voor afsluitende asterisk; (2) regel 83 ''6201 *Directiepersoneel *'' — idem; (3) regel 116 '' [^17][^18][^19]'' als losstaande alinea (G3). Verder bevat regel 120–122 en 131–133 multi-line celinhoud in tabel (cel tekst loopt door op volgende inspringing-regels), wat markdown-tabelrendering kan breken (E2). Dit patroon zit ook in de journaalposten op regels 120–125.'
-    status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:30:32Z'
+      rationale: 'Regels 132–134: de tabelcel met rekeningomschrijving 618 loopt over drie inspringende regels (multi-line celinhoud buiten pipe-syntax), wat markdown-tabelrendering breekt (E2). Regel 79: `6201 *Directiepersoneel *worden` — spatie vóór de afsluitende asterisk in inline italic (D4). Regel 83: zelfde patroon `61 *Diensten en diverse goederen[^7]* .` — spatie voor afsluitende italic. Dit zijn vaste ETL-bugs in de account-name italic.'
+      concrete_problemen:
+        - regel: 79
+          categorie: D4
+          type: other
+          voorbeeld: 6201 *Directiepersoneel *worden de bezoldigingen... (spatie voor *)
+        - regel: 83
+          categorie: D4
+          type: other
+          voorbeeld: rekening 61 *Diensten en diverse goederen[^7]* . (spatie voor *)
+        - regel: 132
+          categorie: E2
+          type: other
+          voorbeeld: '| | 618 | Bezoldigingen, premies voor buitenwettelijke \n\t\t\t\tverzekeringen... (multi-line cel)'
 themas:
   - arbeidsovereenkomst
   - bestuurder

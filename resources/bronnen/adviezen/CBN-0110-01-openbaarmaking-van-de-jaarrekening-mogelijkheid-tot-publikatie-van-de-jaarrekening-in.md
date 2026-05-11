@@ -16,7 +16,7 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/interne-en-externe-jaarrekening-begrippen
 nummer: CBN-advies 110/1
 provenance:
-  generated_at: '2026-05-11T13:05:05Z'
+  generated_at: '2026-05-11T13:15:10Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/openbaarmaking-van-de-jaarrekening-mogelijkheid-tot-publikatie-van-de-jaarrekening-in
       sha256: 1ef9820459b50de3ce91e1b2c40e8b3caaa390057c0b656e38b89ef70efe6af6
@@ -33,8 +33,8 @@ provenance:
     confirmed_by: subagent-sonnet-4-6
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:24Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:13Z'
       heading_count: 0
       max_section_chars: 3325
       file_size_chars: 3325

@@ -7,7 +7,7 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/aanrekening-van-vergoedingen-van-beheerders-of-leden-van-het-personeel-toegekend-door-0
 nummer: CBN-advies 111/2
 provenance:
-  generated_at: '2026-05-11T13:05:05Z'
+  generated_at: '2026-05-11T13:15:10Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/toepassing-van-de-uitzondering-waarin-punt-17-van-de-toelichting-voorziet
       sha256: 71eaf53729d83c363ff2809e9a6bd995830cabd9cfe41d520f0bedb1874f892f
@@ -24,8 +24,8 @@ provenance:
     confirmed_by: human
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:24Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:13Z'
       heading_count: 0
       max_section_chars: 3328
       file_size_chars: 3328

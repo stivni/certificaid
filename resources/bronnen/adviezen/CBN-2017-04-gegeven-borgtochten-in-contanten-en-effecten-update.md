@@ -3,49 +3,49 @@ bron: https://www.cbn-cnc.be/nl/adviezen/gegeven-borgtochten-in-contanten-en-eff
 datum: 2017-02-01
 nummer: CBN-advies 2017/04
 provenance:
-  generated_at: '2026-05-11T13:05:08Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/gegeven-borgtochten-in-contanten-en-effecten-update
       sha256: 43a9e497b9a01bd3cd9f1045f41cc40ead351e4b7b5c88168b7d0b195b380ac5
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:12Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T12:16:34Z'
+    status: needs-rework
+    confirmed_at: '2026-05-11T13:30:33Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: "A6/G3: regel 59 bevat ', bijgewerkt op 10 september 2025[^2]' als los fragment na H1. D4: regel 71 bevat 'De rekeningen 750* Opbrengsten uit financiële vaste activa*' waarbij '750*' direct aansluit op het getal zonder spatie — broken italic openingsmarkering. Verder in regel 71: 'rekening 418 *Borgtochten betaald in contanten* corresponderen' — hier is het italic correct, maar eerder in de zin staat '750*' fout. Klein advies, inhoud volledig."
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:29Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:17Z'
       heading_count: 2
       max_section_chars: 1989
       file_size_chars: 2566
       flags: []
     layer2:
+      status: needs-rework
       agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:30:33Z'
+      rationale: "A6/G3: regel 59 bevat ', bijgewerkt op 10 september 2025[^2]' als los fragment na H1. D4: regel 71 bevat 'De rekeningen 750* Opbrengsten uit financiële vaste activa*' waarbij '750*' direct aansluit op het getal zonder spatie — broken italic openingsmarkering. Verder in regel 71: 'rekening 418 *Borgtochten betaald in contanten* corresponderen' — hier is het italic correct, maar eerder in de zin staat '750*' fout. Klein advies, inhoud volledig."
       concrete_problemen:
-        - categorie: A6
-          regel: 47
+        - regel: 59
+          categorie: A6
           type: other
           voorbeeld: ', bijgewerkt op 10 september 2025[^2]'
-        - categorie: D4
-          regel: 60
+        - regel: 71
+          categorie: D4
           type: other
-          voorbeeld: rekening 418 *Borgtochten betaald in contanten *corresponderen
-        - categorie: D4
-          regel: 62
+          voorbeeld: De rekeningen 750* Opbrengsten uit financiële vaste activa* en 751 *Opbrengsten
+        - regel: 71
+          categorie: D4
           type: other
-          voorbeeld: Op de rekening 288 *Borgtochten betaald in contanten *en 418 *Borgtochten betaald in
-      rationale: 'D4: Meerdere malformed italics — spatie vóór het sluitende asterisk: ''*Borgtochten betaald in contanten *'' (regel 60 en 62) en ''*Borgtochten betaald in contanten *'' (regel 62). Dit is een gekend PDF-extractiepatroon waarbij spaties rond cursief-markering niet correct worden gesloten. Verder staat '', bijgewerkt op 10 september 2025[^2]'' als los fragment na H1 (regel 47).'
-      run_at: '2026-05-11T12:16:34Z'
-      status: needs-rework
-    rationale: 'D4: Meerdere malformed italics — spatie vóór het sluitende asterisk: ''*Borgtochten betaald in contanten *'' (regel 60 en 62) en ''*Borgtochten betaald in contanten *'' (regel 62). Dit is een gekend PDF-extractiepatroon waarbij spaties rond cursief-markering niet correct worden gesloten. Verder staat '', bijgewerkt op 10 september 2025[^2]'' als los fragment na H1 (regel 47).'
-    status: needs-rework
+          voorbeeld: 418 *Borgtochten betaald in contanten* corresponderen respectievelijk met de rekeningen 288 *Borgtochten betaald in contanten *en
 themas:
   - borgtochten
   - borgtochten in contanten

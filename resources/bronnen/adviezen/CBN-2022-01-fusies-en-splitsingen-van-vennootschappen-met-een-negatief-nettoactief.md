@@ -16,37 +16,49 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/winstverdeling-binnen-de-nv
 nummer: CBN-advies 2022/01
 provenance:
-  generated_at: '2026-05-11T13:05:08Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/fusies-en-splitsingen-van-vennootschappen-met-een-negatief-nettoactief
       sha256: 9daea3fd6ca339f48d1fc62283441749091d877578b706b9786d76e6c532cc30
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:12Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at:
-    confirmed_by:
+    status: needs-rework
+    confirmed_at: '2026-05-11T13:34:12Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "E1: alle balansen (regels 116-120, 123-126, 130-133, 138-143, 176-180, 183-186, 191-198, 203-212, 222-226, 232-237, 241-244) zijn pseudo-pipe-tabellen zonder markdown header+separator-rij. D2: op regel 84-86 wordt een formule ('via volgende formule berekend:') aangekondigd maar de formule zelf ontbreekt — was waarschijnlijk een wiskundige afbeelding in de PDF. Inhoud 9 headings correct. 29 voetnoten aanwezig."
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:30Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:18Z'
       heading_count: 9
       max_section_chars: 7859
       file_size_chars: 24713
       flags: []
     layer2:
-      agent:
-      concrete_problemen: []
-      rationale:
-      run_at:
-      status: not_run
-    rationale: 'Trust gereset 2026-05-11: re-scrape met scraper-fixes, content-diff > 5%'
-    status: unreviewed
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:34:12Z'
+      rationale: "E1: alle balansen (regels 116-120, 123-126, 130-133, 138-143, 176-180, 183-186, 191-198, 203-212, 222-226, 232-237, 241-244) zijn pseudo-pipe-tabellen zonder markdown header+separator-rij. D2: op regel 84-86 wordt een formule ('via volgende formule berekend:') aangekondigd maar de formule zelf ontbreekt — was waarschijnlijk een wiskundige afbeelding in de PDF. Inhoud 9 headings correct. 29 voetnoten aanwezig."
+      concrete_problemen:
+        - regel: 116
+          categorie: E1
+          type: pseudo-table
+          voorbeeld: "| Balans A | \n| Activa | | 2.000 | | Kapitaal | | 1.000 |"
+        - regel: 84
+          categorie: D2
+          type: missing-section
+          voorbeeld: 'wordt deze verhouding via volgende formule berekend: [formule ontbreekt]'
+        - regel: 86
+          categorie: D2
+          type: missing-section
+          voorbeeld: Bovenstaande formule geldt als vertrekpunt voor de berekening... [formule ontbreekt]
 themas:
   - nettoactief
   - fusie

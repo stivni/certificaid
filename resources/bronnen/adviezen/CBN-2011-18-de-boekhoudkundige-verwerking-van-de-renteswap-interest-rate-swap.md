@@ -3,49 +3,53 @@ bron: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-re
 datum: 2011-10-05
 nummer: CBN-advies 2011/18
 provenance:
-  generated_at: '2026-05-11T13:05:08Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-renteswap-interest-rate-swap
       sha256: 09901efc13cc8117f278f027696548e4d44bbfecffcaa205aeb03b4e74210752
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:11Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T12:09:18Z'
+    status: needs-rework
+    confirmed_at: '2026-05-11T13:30:32Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: "A3: regel 85 bevat een grote aaneengesloten TOC-blob ('---- Boekhoudkundige verwerking-- Back-to-back IRS-- De IRS als indekkingsverrichting...') als plain-text body-regel — gedupliceerde TOC door extractie in de body terechtgekomen. A9: regels 499 en 508 tonen 'ndekkings-IRS' (leading 'I' weggevallen). B5: regel 359 heeft 'De IRS als indekkingsverrichting van een lening of ontlening tegen variabele rentevoet' als plain-text alinea zonder heading-prefix."
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:28Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:16Z'
       heading_count: 16
       max_section_chars: 9482
       file_size_chars: 37342
       flags: []
     layer2:
+      status: needs-rework
       agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:30:32Z'
+      rationale: "A3: regel 85 bevat een grote aaneengesloten TOC-blob ('---- Boekhoudkundige verwerking-- Back-to-back IRS-- De IRS als indekkingsverrichting...') als plain-text body-regel — gedupliceerde TOC door extractie in de body terechtgekomen. A9: regels 499 en 508 tonen 'ndekkings-IRS' (leading 'I' weggevallen). B5: regel 359 heeft 'De IRS als indekkingsverrichting van een lening of ontlening tegen variabele rentevoet' als plain-text alinea zonder heading-prefix."
       concrete_problemen:
-        - categorie: A3
-          regel: 73
-          type: scrambled-words
+        - regel: 85
+          categorie: A3
+          type: other
           voorbeeld: '---- Boekhoudkundige verwerking-- Back-to-back IRS-- De IRS als indekkingsverrichting...'
-        - categorie: A9
-          regel: 490
+        - regel: 499
+          categorie: A9
           type: ocr-confusion
           voorbeeld: '| | ndekkings-IRS (notioneel van 10.000.000 €, netto balanswaarde van -7.500 €) | -50.000 | | |'
-        - categorie: A9
-          regel: 499
+        - regel: 508
+          categorie: A9
           type: ocr-confusion
           voorbeeld: '| | ndekkings-IRS (notioneel van 10.000.000 €) | -42.500 | | |'
-      rationale: 'A3/A7: regel 73 bevat een aaneengesloten garbled TOC-string (`---- Boekhoudkundige verwerking-- Back-to-back IRS--...`) als plain-text body-regel — dit is een gedupliceerde TOC die door extractie in de body is terechtgekomen in geconcateneerde vorm, een duidelijk extractie-artefact. A9/B5: regels 490 en 499 bevatten `ndekkings-IRS` (leading ''I'' weggevallen), een OCR-like drop in tabellen.'
-      run_at: '2026-05-11T12:09:18Z'
-      status: needs-rework
-    rationale: 'A3/A7: regel 73 bevat een aaneengesloten garbled TOC-string (`---- Boekhoudkundige verwerking-- Back-to-back IRS--...`) als plain-text body-regel — dit is een gedupliceerde TOC die door extractie in de body is terechtgekomen in geconcateneerde vorm, een duidelijk extractie-artefact. A9/B5: regels 490 en 499 bevatten `ndekkings-IRS` (leading ''I'' weggevallen), een OCR-like drop in tabellen.'
-    status: needs-rework
+        - regel: 359
+          categorie: B5
+          type: other
+          voorbeeld: De IRS als indekkingsverrichting van een lening of ontlening tegen variabele rentevoet
 themas:
   - cash flow hedge
   - fair value hedge

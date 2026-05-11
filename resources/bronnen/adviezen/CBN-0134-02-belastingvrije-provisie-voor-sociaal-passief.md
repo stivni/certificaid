@@ -7,41 +7,41 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/voorzieningen-voor-de-schulden-ten-opzichte-van-het-personeel-bij-sluiting-van-de
 nummer: CBN-advies 134/2
 provenance:
-  generated_at: '2026-05-11T13:05:06Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/belastingvrije-provisie-voor-sociaal-passief
       sha256: 938d859daac2fd8d5c51f728bb891bcb6c39abf197dd7efcb74f735ab792253e
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:10Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T12:04:41Z'
+    status: needs-rework
+    confirmed_at: '2026-05-11T13:16:02Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: "G2-variant: HTML-entiteit '&#039;' in frontmatter themas-veld op L55 ('voorzieningen voor risico&#039;s en kosten') — scraper heeft de HTML-entiteit niet gedecodeerd naar het correcte apostrof-teken. Body is schoon: correct apostrof-gebruik in 'voorzieningen voor risico's en lasten'. Eén artefact, maar in de machine-leesbare metadata en dus ETL-fixeerbaar."
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:25Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:14Z'
       heading_count: 0
       max_section_chars: 2126
       file_size_chars: 2126
       flags: []
     layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: G2
-          regel: 14
-          type: other
-          voorbeeld: '  - voorzieningen voor risico&#039;s en kosten'
-      rationale: 'G2/andere: HTML-entiteit &#039; in frontmatter-themas-veld (regel 14) is een scraper-artefact dat niet ontsnapt is naar correcte Unicode. Body is inhoudelijk schoon en volledig.'
-      run_at: '2026-05-11T12:04:41Z'
       status: needs-rework
-    rationale: 'G2/andere: HTML-entiteit &#039; in frontmatter-themas-veld (regel 14) is een scraper-artefact dat niet ontsnapt is naar correcte Unicode. Body is inhoudelijk schoon en volledig.'
-    status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:16:02Z'
+      rationale: "G2-variant: HTML-entiteit '&#039;' in frontmatter themas-veld op L55 ('voorzieningen voor risico&#039;s en kosten') — scraper heeft de HTML-entiteit niet gedecodeerd naar het correcte apostrof-teken. Body is schoon: correct apostrof-gebruik in 'voorzieningen voor risico's en lasten'. Eén artefact, maar in de machine-leesbare metadata en dus ETL-fixeerbaar."
+      concrete_problemen:
+        - regel: 55
+          categorie: G2
+          type: other
+          voorbeeld: '  - voorzieningen voor risico&#039;s en kosten (HTML-entiteit in frontmatter)'
 themas:
   - afdanking van personeel
   - belastingen

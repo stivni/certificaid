@@ -3,7 +3,7 @@ bron: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-wente
 datum: 2012-11-07
 nummer: CBN-advies 2012/16
 provenance:
-  generated_at: '2026-05-11T13:05:08Z'
+  generated_at: '2026-05-11T13:15:12Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-wentelkredieten
       sha256: 7013e5464299052fde76798683ffe4624bacba1c24fde624e8e7cc98f671ea1d
@@ -20,8 +20,8 @@ provenance:
     confirmed_by: subagent-sonnet-4-6
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:28Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:16Z'
       heading_count: 2
       max_section_chars: 3798
       file_size_chars: 6850

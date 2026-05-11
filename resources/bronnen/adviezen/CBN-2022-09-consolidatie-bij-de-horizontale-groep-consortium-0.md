@@ -16,37 +16,49 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/gezamenlijke-controle-over-een-vennootschap-groottecriteria-update
 nummer: CBN-advies 2022/09
 provenance:
-  generated_at: '2026-05-11T13:05:08Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/consolidatie-bij-de-horizontale-groep-consortium-0
       sha256: 12683d44b1bc9f6374c629327b3f9306330182fbca42de0ad727f6cacf952408
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:12Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at:
-    confirmed_by:
+    status: needs-rework
+    confirmed_at: '2026-05-11T13:34:13Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "A3: regel 96 bevat een aaneengesloten TOC-restant ('-- Horizontale consolidatie -- Verticale consolidatie voorafgaand aan de horizontale consolidatie Belangen van derden Bezit van eigen aandelen') zonder opmaak, direct na een geïndenteerde TOC-sectie (regels 70–95). B1/B2: regels 165, 174, 181 gebruiken ### als heading voor 'a (natuurlijke persoon) bezit 25 %' — aandeelhoudersverdeling als sectie-heading is een extractie-artefact; dit is gewone lijstcontent. Inhoud verder compleet."
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:30Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:18Z'
       heading_count: 29
       max_section_chars: 18592
       file_size_chars: 51884
       flags: []
     layer2:
-      agent:
-      concrete_problemen: []
-      rationale:
-      run_at:
-      status: not_run
-    rationale: 'Trust gereset 2026-05-11: re-scrape met scraper-fixes, content-diff > 5%'
-    status: unreviewed
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:34:13Z'
+      rationale: "A3: regel 96 bevat een aaneengesloten TOC-restant ('-- Horizontale consolidatie -- Verticale consolidatie voorafgaand aan de horizontale consolidatie Belangen van derden Bezit van eigen aandelen') zonder opmaak, direct na een geïndenteerde TOC-sectie (regels 70–95). B1/B2: regels 165, 174, 181 gebruiken ### als heading voor 'a (natuurlijke persoon) bezit 25 %' — aandeelhoudersverdeling als sectie-heading is een extractie-artefact; dit is gewone lijstcontent. Inhoud verder compleet."
+      concrete_problemen:
+        - regel: 96
+          categorie: A3
+          type: other
+          voorbeeld: -- Horizontale consolidatie -- Verticale consolidatie voorafgaand aan de horizontale consolidatie Belangen van derden Bezit van eigen aandelen
+        - regel: 165
+          categorie: B1
+          type: other
+          voorbeeld: '### a (natuurlijke persoon) bezit 25 % (aandeelhoudersverdeling als heading, geen sectie-titel)'
+        - regel: 174
+          categorie: B1
+          type: other
+          voorbeeld: '### a (natuurlijke persoon) bezit 5 % (idem)'
 themas:
   - consolidatie
   - horizontale groep

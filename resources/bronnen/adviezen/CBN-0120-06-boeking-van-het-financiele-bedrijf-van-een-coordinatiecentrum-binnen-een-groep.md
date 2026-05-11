@@ -7,45 +7,37 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/coordinatiecentrum-financiele-instelling
 nummer: CBN-advies 120/6
 provenance:
-  generated_at: '2026-05-11T13:05:05Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/boeking-van-het-financiele-bedrijf-van-een-coordinatiecentrum-binnen-een-groep
       sha256: 8290e7bbdbc95df2debedbba375ee4787fa3b05144feb08ee4e91cb56fe3b925
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:10Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T11:57:45Z'
+    status: trusted
+    confirmed_at: '2026-05-11T13:16:02Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: Vorige L2 flagde D4 broken italic op regels 53 en 57 ('*Bull. CBN *nr.'), maar de werkelijke body toont '*Bull. CBN*' correct gesloten op regels 61 en 65 — scraper-fix D4 heeft gewerkt. Body is kort (1910 chars), drie alinea's, voetnoot [^1] correct. Geen extractie-artefacten.
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:25Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:14Z'
       heading_count: 0
       max_section_chars: 1910
       file_size_chars: 1910
       flags: []
     layer2:
+      status: trusted
       agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: D4
-          regel: 53
-          type: other
-          voorbeeld: advies 147/1 in *Bull. CBN *nr. 15 (oktober 1984)
-        - categorie: D4
-          regel: 57
-          type: other
-          voorbeeld: in *Bull. CBN *nr. 6 van januari 1980, p. 14
-      rationale: 'D4/G-categorie: twee regels (53 en 57) bevatten malgevormde italic-opmaak ''*Bull. CBN *nr. X'' waarbij een spatie vóór de sluitende asterisk staat — in CommonMark sluit '' *'' de italic niet, wat resulteert in onbedoeld rendergedrag. Voetnoot [^1] correct aanwezig en gekoppeld. Body verder volledig en zonder andere artefacten.'
-      run_at: '2026-05-11T11:57:45Z'
-      status: needs-rework
-    rationale: 'D4/G-categorie: twee regels (53 en 57) bevatten malgevormde italic-opmaak ''*Bull. CBN *nr. X'' waarbij een spatie vóór de sluitende asterisk staat — in CommonMark sluit '' *'' de italic niet, wat resulteert in onbedoeld rendergedrag. Voetnoot [^1] correct aanwezig en gekoppeld. Body verder volledig en zonder andere artefacten.'
-    status: needs-rework
+      run_at: '2026-05-11T13:16:02Z'
+      rationale: Vorige L2 flagde D4 broken italic op regels 53 en 57 ('*Bull. CBN *nr.'), maar de werkelijke body toont '*Bull. CBN*' correct gesloten op regels 61 en 65 — scraper-fix D4 heeft gewerkt. Body is kort (1910 chars), drie alinea's, voetnoot [^1] correct. Geen extractie-artefacten.
+      concrete_problemen: []
 themas:
   - coördinatiecentrum
   - financiële bedrijf

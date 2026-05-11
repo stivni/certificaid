@@ -3,49 +3,45 @@ bron: https://www.cbn-cnc.be/nl/adviezen/actualisatie-van-uitgestelde-belastinge
 datum: 2016-09-28
 nummer: CBN-advies 2016/21
 provenance:
-  generated_at: '2026-05-11T13:05:08Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/actualisatie-van-uitgestelde-belastingen-update
       sha256: 06f83943967c5156ac3f0fd9e5a8010d8afed43963a2eb67364d2ad85afabfe2
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:12Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T12:16:34Z'
+    status: needs-rework
+    confirmed_at: '2026-05-11T13:30:32Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: "A6/G3: regel 64 bevat ', bijgewerkt op 10 september 2025[^2]' als losstaande alinea direct na de H1-titel — zelfde bijwerkingsartefact als andere update-adviezen. Tevens A6 op regel 75: 'renteloze schulden op meer dan één[^3]\\n jaar niet in aanmerking' — spurious line-break na footnote-ref midden in zin. heading_count=0 is inhoudelijk verdedigbaar voor dit korte één-vraag-één-antwoord-advies, maar de twee artefacten zijn duidelijke ETL-bugs."
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:29Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:17Z'
       heading_count: 0
       max_section_chars: 4563
       file_size_chars: 4563
       flags: []
     layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: A6
-          regel: 52
-          type: other
-          voorbeeld: ', bijgewerkt op 10 september 2025[^2] '
-        - categorie: B2
-          regel: 51
-          type: other
-          voorbeeld: 'heading_count=0: gehele body is één platte sectie zonder ##-subheadings'
-        - categorie: A6
-          regel: 63
-          type: other
-          voorbeeld: "meer dan één[^3]\n jaar niet in aanmerking"
-      rationale: 'Twee problemen: (1) heading_count=0 — de volledige body na de ##-titel heeft geen subheadings; één platte sectie van 4564 tekens is geen goede RAG-segmentatie en contrasteert met andere adviezen van vergelijkbare omvang (B2); (2) regel 52 heeft hetzelfde ''bijgewerkt''-fragment als artefact direct na de titel (A6); (3) regel 63 heeft een spurious line-break na ''[^3]'' midden in de zin (A6).'
-      run_at: '2026-05-11T12:16:34Z'
       status: needs-rework
-    rationale: 'Twee problemen: (1) heading_count=0 — de volledige body na de ##-titel heeft geen subheadings; één platte sectie van 4564 tekens is geen goede RAG-segmentatie en contrasteert met andere adviezen van vergelijkbare omvang (B2); (2) regel 52 heeft hetzelfde ''bijgewerkt''-fragment als artefact direct na de titel (A6); (3) regel 63 heeft een spurious line-break na ''[^3]'' midden in de zin (A6).'
-    status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:30:32Z'
+      rationale: "A6/G3: regel 64 bevat ', bijgewerkt op 10 september 2025[^2]' als losstaande alinea direct na de H1-titel — zelfde bijwerkingsartefact als andere update-adviezen. Tevens A6 op regel 75: 'renteloze schulden op meer dan één[^3]\\n jaar niet in aanmerking' — spurious line-break na footnote-ref midden in zin. heading_count=0 is inhoudelijk verdedigbaar voor dit korte één-vraag-één-antwoord-advies, maar de twee artefacten zijn duidelijke ETL-bugs."
+      concrete_problemen:
+        - regel: 64
+          categorie: A6
+          type: other
+          voorbeeld: ', bijgewerkt op 10 september 2025[^2]'
+        - regel: 75
+          categorie: A6
+          type: other
+          voorbeeld: "renteloze schulden op meer dan één[^3]\n jaar niet in aanmerking"
 themas:
   - actualisatie
   - gerealiseerde meerwaarde

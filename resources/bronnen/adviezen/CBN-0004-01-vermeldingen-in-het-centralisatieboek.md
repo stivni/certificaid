@@ -13,53 +13,57 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/over-het-centraal-boek
 nummer: CBN-advies 4/1
 provenance:
-  generated_at: '2026-05-11T13:05:05Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/vermeldingen-in-het-centralisatieboek
       sha256: 8a7a28268d29da0fe3a1111a6ecb81357935da4c8cf8d0c1e63356b3cc2e3153
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:10Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T11:51:19Z'
+    status: needs-rework
+    confirmed_at: '2026-05-11T13:16:01Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: "Meerdere typefouten die al in de web-bron aanwezig waren en door de scraper worden overgenomen: 'berokken' (r71), 'dee vermelding' en 'wttelijke' (r79), 'centraisatieboek' (r81), 'bewegingn' en 'angegeven' (r83). Daarnaast A4: U+2010 HYPHEN in r83 ('hebben ondergaan ‐gelet op de moeilijkheid'). De scraper-fix heeft de typefouten niet gecorrigeerd (verwacht: bron-fidelity). Inhoud inhoudelijk volledig, voetnoot intact."
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:24Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:13Z'
       heading_count: 0
       max_section_chars: 2831
       file_size_chars: 2831
       flags: []
     layer2:
+      status: needs-rework
       agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:16:01Z'
+      rationale: "Meerdere typefouten die al in de web-bron aanwezig waren en door de scraper worden overgenomen: 'berokken' (r71), 'dee vermelding' en 'wttelijke' (r79), 'centraisatieboek' (r81), 'bewegingn' en 'angegeven' (r83). Daarnaast A4: U+2010 HYPHEN in r83 ('hebben ondergaan ‐gelet op de moeilijkheid'). De scraper-fix heeft de typefouten niet gecorrigeerd (verwacht: bron-fidelity). Inhoud inhoudelijk volledig, voetnoot intact."
       concrete_problemen:
-        - categorie: D1
-          regel: 55
+        - regel: 71
+          categorie: D1
           type: other
           voorbeeld: diverse berokken rekeningen gecentraliseerd
-        - categorie: D1
-          regel: 63
+        - regel: 79
+          categorie: D1
           type: other
           voorbeeld: dee vermelding betrekking moet hebben ... wttelijke vereisten
-        - categorie: D1
-          regel: 65
+        - regel: 81
+          categorie: D1
           type: other
-          voorbeeld: tot het totaal ... centraisatieboek
-        - categorie: A4
-          regel: 67
+          voorbeeld: inschrijving in het centraisatieboek te beperken
+        - regel: 83
+          categorie: D1
           type: other
-          voorbeeld: ondergaan ‐gelet op de moeilijkheid ... register ‐ kan niet
-      rationale: 'Meerdere typefouten in de body die waarschijnlijk al in de web-bron aanwezig waren maar door de scraper niet gecorrigeerd zijn: ''dee vermelding'' (r63), ''centraisatieboek'' (r65), ''wttelijke'' (r63), ''berokken'' (r55), ''angegeven'' (r67), ''bewegingn'' (r67). Daarnaast A4: 4 gevallen van U+2010 HYPHEN in r65 en r67. De typefouten zijn geen ETL-artefact in de strikte zin maar verlagen de tekst-kwaliteit voor RAG. Categorie D1 (tekstkwaliteit) is aangetast.'
-      run_at: '2026-05-11T11:51:19Z'
-      status: needs-rework
-    rationale: 'Meerdere typefouten in de body die waarschijnlijk al in de web-bron aanwezig waren maar door de scraper niet gecorrigeerd zijn: ''dee vermelding'' (r63), ''centraisatieboek'' (r65), ''wttelijke'' (r63), ''berokken'' (r55), ''angegeven'' (r67), ''bewegingn'' (r67). Daarnaast A4: 4 gevallen van U+2010 HYPHEN in r65 en r67. De typefouten zijn geen ETL-artefact in de strikte zin maar verlagen de tekst-kwaliteit voor RAG. Categorie D1 (tekstkwaliteit) is aangetast.'
-    status: needs-rework
+          voorbeeld: de bewegingn die elk ervan hebben ondergaan
+        - regel: 83
+          categorie: A4
+          type: other
+          voorbeeld: hebben ondergaan ‐gelet op de moeilijkheid
 themas:
   - boeken
 ---

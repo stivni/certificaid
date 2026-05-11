@@ -3,7 +3,7 @@ bron: https://www.cbn-cnc.be/nl/adviezen/financiele-steunverlening
 datum: 2010-06-16
 nummer: CBN-advies 2010/8
 provenance:
-  generated_at: '2026-05-11T13:05:07Z'
+  generated_at: '2026-05-11T13:15:11Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/financiele-steunverlening
       sha256: 98c92f3867505770312107fa899f81320ce9a695177f32151e75e09f3caa7d6a
@@ -20,8 +20,8 @@ provenance:
     confirmed_by: subagent-sonnet-4-6
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:27Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:16Z'
       heading_count: 2
       max_section_chars: 6074
       file_size_chars: 8524

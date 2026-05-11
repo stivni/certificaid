@@ -3,7 +3,7 @@ bron: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-en-jaarrekeningrecht
 datum: 2019-09-30
 nummer: CBN-advies 2019/10
 provenance:
-  generated_at: '2026-05-11T13:05:08Z'
+  generated_at: '2026-05-11T13:15:12Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-en-jaarrekeningrechtelijke-verplichtingen-van-een-beoefenaar-van-een-0
       sha256: 7d925eef4c564534b49c0be59c27ce430bea5653fea0641887cda8ac5c889f72
@@ -20,8 +20,8 @@ provenance:
     confirmed_by: subagent-sonnet-4-6
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:30Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:18Z'
       heading_count: 7
       max_section_chars: 6504
       file_size_chars: 19094

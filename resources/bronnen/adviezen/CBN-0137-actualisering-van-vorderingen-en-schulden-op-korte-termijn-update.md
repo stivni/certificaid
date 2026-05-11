@@ -7,45 +7,45 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/renteloze-vorderingen-schulden-en-vorderingen-schulden-met-een-abnormaal-lage-rente-op
 nummer: CBN-advies 137/9
 provenance:
-  generated_at: '2026-05-11T13:05:06Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/actualisering-van-vorderingen-en-schulden-op-korte-termijn-update
       sha256: f80fc19159bc3be038cb0b293c47843b630ae221af7b778a1e39123a9f3af147
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:10Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T12:04:41Z'
+    status: needs-rework
+    confirmed_at: '2026-05-11T13:16:02Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: "B3-variant: twee H1-headings bovenaan het bestand (L61 en L63). De eerste is de titels ('# CBN advies 137/9 - Actualisering...'), de tweede is een datumregel ('# Advies van februari 1993, bijgewerkt op 10 september 2025[^1]') die als H1 gerenderd is — een structuurartefact; een bijwerkingsdatum hoort plain text of een subtitle te zijn, niet een tweede H1. Inhoud verder volledig en correct afgerond."
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:26Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:14Z'
       heading_count: 0
       max_section_chars: 1759
       file_size_chars: 1759
       flags: []
     layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: B3
-          regel: 53
-          type: other
-          voorbeeld: '# CBN advies 137/9 - Actualisering van vorderingen en schulden op korte termijn (update)'
-        - categorie: B3
-          regel: 55
-          type: other
-          voorbeeld: '# CBN advies 137/9 - Actualisering van vorderingen en schulden op korte termijn (update)'
-      rationale: 'B3: duplicate page-title-heading op regels 53 en 55 (identieke H1 twee keer). Inhoud is volledig en correct; de tekst is kort maar afgerond met voetnoot. Enkel het dubbele heading-artefact moet gefixed worden door ETL.'
-      run_at: '2026-05-11T12:04:41Z'
       status: needs-rework
-    rationale: 'B3: duplicate page-title-heading op regels 53 en 55 (identieke H1 twee keer). Inhoud is volledig en correct; de tekst is kort maar afgerond met voetnoot. Enkel het dubbele heading-artefact moet gefixed worden door ETL.'
-    status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:16:02Z'
+      rationale: "B3-variant: twee H1-headings bovenaan het bestand (L61 en L63). De eerste is de titels ('# CBN advies 137/9 - Actualisering...'), de tweede is een datumregel ('# Advies van februari 1993, bijgewerkt op 10 september 2025[^1]') die als H1 gerenderd is — een structuurartefact; een bijwerkingsdatum hoort plain text of een subtitle te zijn, niet een tweede H1. Inhoud verder volledig en correct afgerond."
+      concrete_problemen:
+        - regel: 61
+          categorie: B3
+          type: other
+          voorbeeld: '# CBN advies 137/9 - Actualisering van vorderingen en schulden op korte termijn (update)'
+        - regel: 63
+          categorie: B3
+          type: other
+          voorbeeld: '# Advies van februari 1993, bijgewerkt op 10 september 2025[^1] (datumregel als H1)'
 themas:
   - Vorderingen met een abnormaal lage rente
   - waardering

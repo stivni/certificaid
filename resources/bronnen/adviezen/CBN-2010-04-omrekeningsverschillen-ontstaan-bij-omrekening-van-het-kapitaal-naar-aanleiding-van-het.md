@@ -10,7 +10,7 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/voeren-van-de-boekhouding-en-opstellen-van-de-jaarrekening-in-een-andere-munt-dan-de-euro
 nummer: CBN-advies 2010/4
 provenance:
-  generated_at: '2026-05-11T13:05:07Z'
+  generated_at: '2026-05-11T13:15:11Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/omrekeningsverschillen-ontstaan-bij-omrekening-van-het-kapitaal-naar-aanleiding-van-het
       sha256: 11a931f8df073fd3e894e1f3203b0b4bda80b7d8ed85d68db8f1b8524f54b970
@@ -27,8 +27,8 @@ provenance:
     confirmed_by: subagent-laag2-ronde2
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:27Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:16Z'
       heading_count: 0
       max_section_chars: 7441
       file_size_chars: 7441

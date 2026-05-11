@@ -13,37 +13,57 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/vervaardigingsprijs-correctie-van-de-nederlandse-tekst-van-artikel-22-van-het-koninklijk
 nummer: CBN-advies 138/5
 provenance:
-  generated_at: '2026-05-11T13:05:06Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/software
       sha256: ebff870067b0ffe7325d9400ce25b349b5144743046d2d6da127a68f34c820c3
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:10Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at:
-    confirmed_by:
+    status: needs-rework
+    confirmed_at: '2026-05-11T13:23:03Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "A7: heading op regel 92 bevat dubbel woord 'de activering de activering' — typisch copy-extractie-artefact. B5: regel 94 is een sectietitel ('Bij derden aangekochte... toepassingssoftware') zonder heading-prefix, terwijl A.1 en A.2 wél als subheadings zijn gemarkeerd. A6/D4: regel 151 bevat twee afzonderlijke bullets samengetrokken op één regel; regel 153 heeft malformed italic '*testing *en' (spatie voor sluitende asterisk). Regel 161 heeft broken italic 'rekening 72* Geactiveerde interne productie*'."
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:26Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:14Z'
       heading_count: 11
       max_section_chars: 4536
       file_size_chars: 12721
       flags: []
     layer2:
-      agent:
-      concrete_problemen: []
-      rationale:
-      run_at:
-      status: not_run
-    rationale: 'Trust gereset 2026-05-11: re-scrape met scraper-fixes, content-diff > 5%'
-    status: unreviewed
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:23:03Z'
+      rationale: "A7: heading op regel 92 bevat dubbel woord 'de activering de activering' — typisch copy-extractie-artefact. B5: regel 94 is een sectietitel ('Bij derden aangekochte... toepassingssoftware') zonder heading-prefix, terwijl A.1 en A.2 wél als subheadings zijn gemarkeerd. A6/D4: regel 151 bevat twee afzonderlijke bullets samengetrokken op één regel; regel 153 heeft malformed italic '*testing *en' (spatie voor sluitende asterisk). Regel 161 heeft broken italic 'rekening 72* Geactiveerde interne productie*'."
+      concrete_problemen:
+        - regel: 92
+          categorie: A7
+          type: scrambled-words
+          voorbeeld: '## Type-gevallen voor de activering de activering en rubricering van software-uitgaven'
+        - regel: 94
+          categorie: B5
+          type: other
+          voorbeeld: Bij derden aangekochte, of via gebruiksrecht (tegen éénmalige vergoeding) verkregen toepassingssoftware
+        - regel: 151
+          categorie: A6
+          type: other
+          voorbeeld: (*coding*); - het onderhoud van het programma en de opleiding van de gebruiker (*maintenance*).
+        - regel: 153
+          categorie: D4
+          type: other
+          voorbeeld: '*testing *en - in bepaalde gevallen - van* maintenance *'
+        - regel: 161
+          categorie: D4
+          type: other
+          voorbeeld: via het credit van rekening 72* Geactiveerde interne productie*
 themas:
   - gereed produkt
   - immateriële vaste activa

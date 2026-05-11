@@ -13,37 +13,49 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/berekening-criteria-artikel-15-wvenn
 nummer: CBN-advies 2018/08
 provenance:
-  generated_at: '2026-05-11T13:05:08Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/gebeurtenissen-na-afsluitingsdatum-van-het-boekjaar
       sha256: 74a69f07fac32c70f0adfdc99ef68a659721a0189c87dfc139b990f3ab6fae9f
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:12Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at:
-    confirmed_by:
+    status: needs-rework
+    confirmed_at: '2026-05-11T13:34:11Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: 'C2/A6: de genummerde opsomming (punten 1–8) op regels 96–133 is niet als markdown genummerde lijst opgemaakt — elk item staat als `1. ` gevolgd door een blanco regel en dan de tekst met tab-inspringing. Dit is geen standaard markdown-lijstopmaak en een mens zou `1.`, `2.`, ... schrijven als aaneengesloten lijst. Ook regels 155-165 bevatten `| ` / `| ` voorbeeld-blok, zelfde patroon als CBN-2018-07. Inhoud inhoudelijk compleet.'
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:29Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:17Z'
       heading_count: 4
       max_section_chars: 8553
       file_size_chars: 21547
       flags: []
     layer2:
-      agent:
-      concrete_problemen: []
-      rationale:
-      run_at:
-      status: not_run
-    rationale: 'Trust gereset 2026-05-11: re-scrape met scraper-fixes, content-diff > 5%'
-    status: unreviewed
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:34:11Z'
+      rationale: 'C2/A6: de genummerde opsomming (punten 1–8) op regels 96–133 is niet als markdown genummerde lijst opgemaakt — elk item staat als `1. ` gevolgd door een blanco regel en dan de tekst met tab-inspringing. Dit is geen standaard markdown-lijstopmaak en een mens zou `1.`, `2.`, ... schrijven als aaneengesloten lijst. Ook regels 155-165 bevatten `| ` / `| ` voorbeeld-blok, zelfde patroon als CBN-2018-07. Inhoud inhoudelijk compleet.'
+      concrete_problemen:
+        - regel: 96
+          categorie: C2
+          type: other
+          voorbeeld: 1. \n\nHet bepalen, ten gevolge van een gebeurtenis...
+        - regel: 109
+          categorie: C2
+          type: other
+          voorbeeld: 2. \n\nDe minnelijke schikking voor een geschil...
+        - regel: 155
+          categorie: E2
+          type: pseudo-table
+          voorbeeld: '| \n\n*Voorbeeld*\n\n  | '
 themas:
   - balansdatum
   - afsluitdatum

@@ -7,49 +7,49 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/begin-van-het-boekjaar
 nummer: CBN-advies 2015/3
 provenance:
-  generated_at: '2026-05-11T13:05:08Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/verplichting-tot-opstelling-en-publicatie-van-de-jaarrekening-door-de-inbrengende
       sha256: 51d0a7ca555ba03fa07a8ae71f03ce700531508f625947a1472d123f16fc1587
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:12Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T12:16:34Z'
+    status: needs-rework
+    confirmed_at: '2026-05-11T13:30:32Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: "A3+B3: TOC-fragmenten in de body op regels 62–69: '# COMMISIE VOOR BOEKHOUDKUNDIGE NORMEN' (typo + extra H1), genummerde inhoudsopgave-resten ('1. Periode tot...', '2. Periode na...'), en een samengestelde foutlijn 'Periode na de datum van boekhoudkundige retroactiviteitOpenbaarmakingsformaliteiten' zonder witruimte — typische scrape-artefacten die in de body terechtkwamen."
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:29Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:16Z'
       heading_count: 4
       max_section_chars: 3897
       file_size_chars: 11022
       flags: []
     layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: B3
-          regel: 52
-          type: other
-          voorbeeld: '# COMMISIE VOOR BOEKHOUDKUNDIGE NORMEN'
-        - categorie: A3
-          regel: 54
-          type: other
-          voorbeeld: 1. Periode tot de datum van boekhoudkundige retroactiviteit
-        - categorie: A3
-          regel: 59
-          type: other
-          voorbeeld: Periode na de datum van boekhoudkundige retroactiviteitOpenbaarmakingsformaliteiten
-      rationale: 'A3+B3: TOC-fragmenten verspreid in de body op regels 52–59: na de body-titel verschijnt ''# COMMISIE VOOR BOEKHOUDKUNDIGE NORMEN'' (typo in heading) gevolgd door een gesplitste genummerde inhoudsopgave (''1. Periode tot...'', ''2. Periode na...'', ''3. Openbaarmakingsformaliteiten'') en een samengestelde restlijn ''Periode na de datum van boekhoudkundige retroactiviteitOpenbaarmakingsformaliteiten'' zonder witruimte. Dit zijn duidelijke TOC-scrape-artefacten die in de body terechtgekomen zijn.'
-      run_at: '2026-05-11T12:16:34Z'
       status: needs-rework
-    rationale: 'A3+B3: TOC-fragmenten verspreid in de body op regels 52–59: na de body-titel verschijnt ''# COMMISIE VOOR BOEKHOUDKUNDIGE NORMEN'' (typo in heading) gevolgd door een gesplitste genummerde inhoudsopgave (''1. Periode tot...'', ''2. Periode na...'', ''3. Openbaarmakingsformaliteiten'') en een samengestelde restlijn ''Periode na de datum van boekhoudkundige retroactiviteitOpenbaarmakingsformaliteiten'' zonder witruimte. Dit zijn duidelijke TOC-scrape-artefacten die in de body terechtgekomen zijn.'
-    status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:30:32Z'
+      rationale: "A3+B3: TOC-fragmenten in de body op regels 62–69: '# COMMISIE VOOR BOEKHOUDKUNDIGE NORMEN' (typo + extra H1), genummerde inhoudsopgave-resten ('1. Periode tot...', '2. Periode na...'), en een samengestelde foutlijn 'Periode na de datum van boekhoudkundige retroactiviteitOpenbaarmakingsformaliteiten' zonder witruimte — typische scrape-artefacten die in de body terechtkwamen."
+      concrete_problemen:
+        - regel: 62
+          categorie: B3
+          type: other
+          voorbeeld: '# COMMISIE VOOR BOEKHOUDKUNDIGE NORMEN — extra H1 + typo (COMMISIE)'
+        - regel: 64
+          categorie: A3
+          type: other
+          voorbeeld: 1. Periode tot de datum van boekhoudkundige retroactiviteit — TOC-fragment in body
+        - regel: 69
+          categorie: A3
+          type: other
+          voorbeeld: Periode na de datum van boekhoudkundige retroactiviteitOpenbaarmakingsformaliteiten — samengevoegde TOC-rest
 themas:
   - Inbreng van een algemeenheid
   - openbaarmaking

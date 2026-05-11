@@ -7,45 +7,45 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/overgang-van-een-kapitaalhoudende-cooperatieve-vennootschap-naar-een-kapitaalloze
 nummer: CBN-advies 2022/02
 provenance:
-  generated_at: '2026-05-11T13:05:08Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/uittreding-en-uitsluiting-lastens-het-vennootschapsvermogen-bij-de-bv-en-cv
       sha256: afa832f20d1fea68e50cdedd0168f13361f755a0f7ff1b8f83e4fbfcf4012b5a
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:12Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T12:24:33Z'
+    status: needs-rework
+    confirmed_at: '2026-05-11T13:34:12Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: "A3: de inhoudsopgave staat als genummerde lijst in de body (regels 61-74) vóór de inhoudelijke secties. Op regel 75 volgt een aaneengesloten TOC-restant '-- Vrijwillige uittreding (artikel 6:120 WVV)-- Uittreding van rechtswege...' met '--'-scheiders — dit is een duplicaat TOC-fragment dat niet werd verwijderd. Tabellen (regels 218-233) zijn correct opgemaakt. Alle 31 voetnoten aanwezig."
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:30Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:18Z'
       heading_count: 8
       max_section_chars: 8652
       file_size_chars: 22391
       flags: []
     layer2:
+      status: needs-rework
       agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:34:12Z'
+      rationale: "A3: de inhoudsopgave staat als genummerde lijst in de body (regels 61-74) vóór de inhoudelijke secties. Op regel 75 volgt een aaneengesloten TOC-restant '-- Vrijwillige uittreding (artikel 6:120 WVV)-- Uittreding van rechtswege...' met '--'-scheiders — dit is een duplicaat TOC-fragment dat niet werd verwijderd. Tabellen (regels 218-233) zijn correct opgemaakt. Alle 31 voetnoten aanwezig."
       concrete_problemen:
-        - categorie: A3
-          regel: 53
+        - regel: 61
+          categorie: A3
           type: other
-          voorbeeld: "1. Inleiding \n2. Uittreding en uitsluiting lastens het vennootschapsvermogen bij de BV \n  1. Vrijwillige uittreding..."
-        - categorie: A3
-          regel: 67
+          voorbeeld: "1. Inleiding \n2. Uittreding en uitsluiting lastens het vennootschapsvermogen bij de BV"
+        - regel: 75
+          categorie: A3
           type: other
           voorbeeld: -- Vrijwillige uittreding (artikel 6:120 WVV)-- Uittreding van rechtswege...Boekhoudkundige verwerking...
-      rationale: 'A3: de inhoudsopgave van het advies staat als plaintext in de body (regels 53-67) vóór de inhoudelijke secties, inclusief een tweede aaneengesloten TOC-restant op regel 67 met ''--''-scheiders in plaats van markdown-bullets. Dit is een TOC-fragment in de body dat niet verwijderd werd. Tabellen correct. Footnotes correct.'
-      run_at: '2026-05-11T12:24:33Z'
-      status: needs-rework
-    rationale: 'A3: de inhoudsopgave van het advies staat als plaintext in de body (regels 53-67) vóór de inhoudelijke secties, inclusief een tweede aaneengesloten TOC-restant op regel 67 met ''--''-scheiders in plaats van markdown-bullets. Dit is een TOC-fragment in de body dat niet verwijderd werd. Tabellen correct. Footnotes correct.'
-    status: needs-rework
 themas:
   - uittreding
   - scheidingsaandeel

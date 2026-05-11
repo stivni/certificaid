@@ -7,7 +7,7 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/de-interpretatie-van-de-openbaarmakingsverplichting-van-transacties-van-enige-betekenis
 nummer: CBN-advies 2010/9
 provenance:
-  generated_at: '2026-05-11T13:05:07Z'
+  generated_at: '2026-05-11T13:15:11Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/toepassingsgebied-van-het-koninklijk-besluit-van-10-augustus-2009
       sha256: 98e748542d61d3ab3789245576c0388f0d8dc5e3a8e1403f14f127e53d8d97bb
@@ -24,8 +24,8 @@ provenance:
     confirmed_by: subagent-laag2-ronde2
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:27Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:16Z'
       heading_count: 0
       max_section_chars: 6148
       file_size_chars: 6148

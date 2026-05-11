@@ -3,45 +3,45 @@ bron: https://www.cbn-cnc.be/nl/adviezen/toekenning-van-gratis-aandelen-restrict
 datum: 2018-11-14
 nummer: CBN-advies 2018/16
 provenance:
-  generated_at: '2026-05-11T13:05:08Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/toekenning-van-gratis-aandelen-restricted-stock-units-als-bonus
       sha256: 1a9f3240acadc2fb454cb3eff60fdbf3d4c1a4809610431cba5f163fdc28958b
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:12Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T12:21:40Z'
+    status: needs-rework
+    confirmed_at: '2026-05-11T13:34:12Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: 'Bevestiging van bestaand verdict. F1: HTML-entity `&#039;` ongedecodeerd in frontmatter-thema (regel 50). E1/E2: methode B voorbeeld-tabel (regels 304–392) gebruikt cel-per-regel patroon. Methode A voorbeeld-tabellen (regels 227–293) zijn correct als pipe-tabellen — inconsistentie wijst op partieel extractieprobleem.'
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:29Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:17Z'
       heading_count: 4
       max_section_chars: 7597
       file_size_chars: 20176
       flags: []
     layer2:
+      status: needs-rework
       agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:34:12Z'
+      rationale: 'Bevestiging van bestaand verdict. F1: HTML-entity `&#039;` ongedecodeerd in frontmatter-thema (regel 50). E1/E2: methode B voorbeeld-tabel (regels 304–392) gebruikt cel-per-regel patroon. Methode A voorbeeld-tabellen (regels 227–293) zijn correct als pipe-tabellen — inconsistentie wijst op partieel extractieprobleem.'
       concrete_problemen:
-        - categorie: F1
-          regel: 9
+        - regel: 50
+          categorie: F1
           type: other
-          voorbeeld: '- voorziening voor risico&#039;s en kosten'
-        - categorie: E1
-          regel: 298
+          voorbeeld: voorziening voor risico&#039;s en kosten
+        - regel: 304
+          categorie: E1
           type: pseudo-table
           voorbeeld: '| \n\n  | | \n\nBeurskoers\n\n  | | \n\nVerwachte retentiegraad\n\n  |'
-      rationale: 'F1/G2: HTML-entity ''&#039;'' in frontmatter op regel 9 (''voorziening voor risico&#039;s en kosten'') — dit is een niet-gedecodeerde HTML-escape die in de frontmatter-thema-tag terechtgekomen is. De tabellen voor methode B (regels 298–386) herhalen het verminkende cel-per-regel patroon (zelfde als CBN-2018-12 maar minder ernstig). Verder structureel intact.'
-      run_at: '2026-05-11T12:21:40Z'
-      status: needs-rework
-    rationale: 'F1/G2: HTML-entity ''&#039;'' in frontmatter op regel 9 (''voorziening voor risico&#039;s en kosten'') — dit is een niet-gedecodeerde HTML-escape die in de frontmatter-thema-tag terechtgekomen is. De tabellen voor methode B (regels 298–386) herhalen het verminkende cel-per-regel patroon (zelfde als CBN-2018-12 maar minder ernstig). Verder structureel intact.'
-    status: needs-rework
 themas:
   - restricted stock unit
   - RSU

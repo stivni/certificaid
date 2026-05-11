@@ -16,37 +16,37 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/kosten-van-onderzoek-en-ontwikkeling-onderscheid-tussen-onderzoek-en-ontwikkeling
 nummer: CBN-advies 2016/16
 provenance:
-  generated_at: '2026-05-11T13:05:08Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/kosten-van-onderzoek-en-ontwikkeling-wijzigingen-door-het-koninklijk-besluit-van-18
       sha256: c009b0557cab54eeb87dd8a0583fc25602cfbfeecfbfd754605bcced159abb57
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:12Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at:
-    confirmed_by:
+    status: trusted
+    confirmed_at: '2026-05-11T13:30:32Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: 'Volledig schone markdown: 10 headings correct genest (##/###/####), lijsten consistent met `-` bullets en `(a)/(b)` labels, geen lege of dubbele headings, geen bold/italic-artefacten, geen TOC-residu. Voetnoten [^1]–[^12] volledig aanwezig. Inhoud compleet: inleiding, activeringsvoorwaarden, onderscheid onderzoek/ontwikkeling, toelichting en overgangsbepalingen. Een buitenstaander zou dit voor handgeschreven markdown kunnen aanzien.'
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:29Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:17Z'
       heading_count: 10
       max_section_chars: 10103
       file_size_chars: 17046
       flags: []
     layer2:
-      agent:
+      status: trusted
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:30:32Z'
+      rationale: 'Volledig schone markdown: 10 headings correct genest (##/###/####), lijsten consistent met `-` bullets en `(a)/(b)` labels, geen lege of dubbele headings, geen bold/italic-artefacten, geen TOC-residu. Voetnoten [^1]–[^12] volledig aanwezig. Inhoud compleet: inleiding, activeringsvoorwaarden, onderscheid onderzoek/ontwikkeling, toelichting en overgangsbepalingen. Een buitenstaander zou dit voor handgeschreven markdown kunnen aanzien.'
       concrete_problemen: []
-      rationale:
-      run_at:
-      status: not_run
-    rationale: 'Trust gereset 2026-05-11: re-scrape met scraper-fixes, content-diff > 5%'
-    status: unreviewed
 themas:
   - immateriële vaste activa
   - kosten van onderzoek en ontwikkeling

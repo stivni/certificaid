@@ -16,53 +16,53 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-buitenlandse-verenigingen-en-stichtingen-toepassing-van-het-0
 nummer: CBN-advies 2020/09
 provenance:
-  generated_at: '2026-05-11T13:05:08Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/vermelding-in-de-jaarrekening-van-de-gegevens-van-de-bestuurders-en-de-commissaris
       sha256: eae22de5c623f612d3cb68cc81753ac2f932cda35649d778696ee1749d7c29ee
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:12Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T12:21:40Z'
+    status: needs-rework
+    confirmed_at: '2026-05-11T13:34:12Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: "B2: De vier voorbeeldsecties ('### *Voorbeeld 1*' t/m '### *Voorbeeld 4*') staan op ### niveau terwijl ze zijn genest binnen een ##### of #### sectie — de hiërarchie springt van ##### terug naar ###. Een mens zou deze als ###### of als vetgedrukte alinea markeren. Verder is de body inhoudelijk volledig met correcte frontmatter en voetnoten."
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:30Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:18Z'
       heading_count: 15
       max_section_chars: 8590
       file_size_chars: 15685
       flags: []
     layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: B2
-          regel: 93
-          type: other
-          voorbeeld: '## Voorbeeld 1 (verschijnt binnen een ##### sectie — hiërarchiesprong)'
-        - categorie: B2
-          regel: 104
-          type: other
-          voorbeeld: '## Voorbeeld 2 (idem — ## op hetzelfde niveau als hoofdsecties)'
-        - categorie: B2
-          regel: 116
-          type: other
-          voorbeeld: '## Voorbeeld 3 (idem)'
-        - categorie: B2
-          regel: 124
-          type: other
-          voorbeeld: '## Voorbeeld 4 (idem)'
-      rationale: 'B2: Voorbeelden (## Voorbeeld 1 t/m 4, regels 93, 104, 116, 124) staan op ## niveau terwijl ze genest zijn binnen een ##### sectie — de hiërarchie springt van ##### terug naar ##. Een mens zou deze als ###### of als vetgedrukte alinea markeren. Verder schoon: frontmatter klopt, voetnoten intact, inhoud compleet.'
-      run_at: '2026-05-11T12:21:40Z'
       status: needs-rework
-    rationale: 'B2: Voorbeelden (## Voorbeeld 1 t/m 4, regels 93, 104, 116, 124) staan op ## niveau terwijl ze genest zijn binnen een ##### sectie — de hiërarchie springt van ##### terug naar ##. Een mens zou deze als ###### of als vetgedrukte alinea markeren. Verder schoon: frontmatter klopt, voetnoten intact, inhoud compleet.'
-    status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:34:12Z'
+      rationale: "B2: De vier voorbeeldsecties ('### *Voorbeeld 1*' t/m '### *Voorbeeld 4*') staan op ### niveau terwijl ze zijn genest binnen een ##### of #### sectie — de hiërarchie springt van ##### terug naar ###. Een mens zou deze als ###### of als vetgedrukte alinea markeren. Verder is de body inhoudelijk volledig met correcte frontmatter en voetnoten."
+      concrete_problemen:
+        - regel: 108
+          categorie: B2
+          type: other
+          voorbeeld: '### *Voorbeeld 1* (genest binnen ##### sectie — hiërarchiesprong van ##### naar ###)'
+        - regel: 118
+          categorie: B2
+          type: other
+          voorbeeld: '### *Voorbeeld 2* (idem)'
+        - regel: 129
+          categorie: B2
+          type: other
+          voorbeeld: '### *Voorbeeld 3* (idem)'
+        - regel: 137
+          categorie: B2
+          type: other
+          voorbeeld: '### *Voorbeeld 4* (idem)'
 themas:
   - jaarrekening
   - gegevens bestuurder

@@ -3,7 +3,7 @@ bron: https://www.cbn-cnc.be/nl/adviezen/prestaties-geleverd-aan-overheid-versch
 datum: 2016-09-07
 nummer: CBN-advies 2016/18
 provenance:
-  generated_at: '2026-05-11T13:05:08Z'
+  generated_at: '2026-05-11T13:15:12Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/prestaties-geleverd-aan-overheid-verschuldigde-btw
       sha256: 715bff8867faddd422570e50039bcd071efc96661e150312323d2b3917573b70
@@ -20,8 +20,8 @@ provenance:
     confirmed_by: subagent-sonnet-4-6
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:29Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:17Z'
       heading_count: 2
       max_section_chars: 2894
       file_size_chars: 3951

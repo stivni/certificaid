@@ -16,49 +16,49 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/aanwending-van-herwaarderingsmeerwaarden-0
 nummer: CBN-advies 2015/6
 provenance:
-  generated_at: '2026-05-11T13:05:08Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-liquidatiereserve-bedoeld-in-artikel-541-wib-92
       sha256: f75947a777e67970e2d3551b28d529ee94c0c42cdd01b6cf19a7e08704e40481
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:12Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T12:16:34Z'
+    status: needs-rework
+    confirmed_at: '2026-05-11T13:30:32Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: "D4: regel 161 '...(artikel 184*quater *WIB 92)[^21] **' heeft spatie vóór sluit-asterisk (malformed italic). Regel 70: H1-titel eindigt op literal '1' — het voetnootcijfer werd niet als [^1] geparsed. D3: regel 260 '[^23]' is een losstaande voetnoot-definitie zonder bijhorende body-tekst die ernaar verwijst (of verwijst naar inhoud buiten dit bestand)."
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:29Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:17Z'
       heading_count: 6
       max_section_chars: 10344
       file_size_chars: 18731
       flags: []
     layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: D4
-          regel: 58
-          type: other
-          voorbeeld: '...en de bijzondere aanslag op deze liquidatiereserve1'
-        - categorie: D4
-          regel: 152
-          type: other
-          voorbeeld: artikel 184*quater *WIB 92)[^21]
-        - categorie: D3
-          regel: 200
-          type: other
-          voorbeeld: ' [^23]'
-      rationale: 'D4: regel 152 bevat ''artikel 184*quater *WIB 92'' — spatie vóór sluitende `*` is een malformed italic (D4). Regel 58: de H1-titel eindigt op een loshangende ''1'' (het footnote-cijfer is niet als [^1] geparsed maar als literal karakter). Regel 200: losse ''[^23]'' op een aparte lege regel zonder omringende zin (D3-achtig: broken footnote-anchor).'
-      run_at: '2026-05-11T12:16:34Z'
       status: needs-rework
-    rationale: 'D4: regel 152 bevat ''artikel 184*quater *WIB 92'' — spatie vóór sluitende `*` is een malformed italic (D4). Regel 58: de H1-titel eindigt op een loshangende ''1'' (het footnote-cijfer is niet als [^1] geparsed maar als literal karakter). Regel 200: losse ''[^23]'' op een aparte lege regel zonder omringende zin (D3-achtig: broken footnote-anchor).'
-    status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:30:32Z'
+      rationale: "D4: regel 161 '...(artikel 184*quater *WIB 92)[^21] **' heeft spatie vóór sluit-asterisk (malformed italic). Regel 70: H1-titel eindigt op literal '1' — het voetnootcijfer werd niet als [^1] geparsed. D3: regel 260 '[^23]' is een losstaande voetnoot-definitie zonder bijhorende body-tekst die ernaar verwijst (of verwijst naar inhoud buiten dit bestand)."
+      concrete_problemen:
+        - regel: 70
+          categorie: D4
+          type: other
+          voorbeeld: "...bijzondere aanslag op deze liquidatiereserve1 — literal '1' i.p.v. [^1]"
+        - regel: 161
+          categorie: D4
+          type: other
+          voorbeeld: (artikel 184*quater *WIB 92)[^21] — spatie voor sluit-asterisk
+        - regel: 260
+          categorie: D3
+          type: other
+          voorbeeld: '[^23]: Onderhavig voorbeeld gaat uit... — voetnoot zonder zichtbare body-referentie [^23]'
 themas:
   - Onaantastbaarheidsvoorwaarde
   - bijzondere aanslag

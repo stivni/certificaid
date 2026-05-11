@@ -16,53 +16,57 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-liquidatiereserve-bedoeld-in-artikel-541-wib-92
 nummer: CBN-advies 2018/14
 provenance:
-  generated_at: '2026-05-11T13:05:08Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/belastingen
       sha256: 37257a82ec205759256316f09d50c8ffe643b65db8b5b0d3e2b75e62eea7df9b
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:12Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T12:21:40Z'
+    status: needs-rework
+    confirmed_at: '2026-05-11T13:34:12Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: 'Bevestiging van bestaand verdict + aanvullend B5-probleem: regel 138 bevat `Rekening 77 Regularisering van belastingen en terugneming van fiscale voorzieningen` als plain-text-alinea zonder heading-prefix, terwijl het duidelijk een subsectie-kop betreft (vergelijk directe buren #### Rekening 6710... enz.). D4: stelselmatige malformed italic door het hele document bij rekeningnamen (spatie voor sluitende asterisk).'
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:29Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:17Z'
       heading_count: 42
       max_section_chars: 21167
       file_size_chars: 45124
       flags: []
     layer2:
+      status: needs-rework
       agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:34:12Z'
+      rationale: 'Bevestiging van bestaand verdict + aanvullend B5-probleem: regel 138 bevat `Rekening 77 Regularisering van belastingen en terugneming van fiscale voorzieningen` als plain-text-alinea zonder heading-prefix, terwijl het duidelijk een subsectie-kop betreft (vergelijk directe buren #### Rekening 6710... enz.). D4: stelselmatige malformed italic door het hele document bij rekeningnamen (spatie voor sluitende asterisk).'
       concrete_problemen:
-        - categorie: D4
-          regel: 97
+        - regel: 138
+          categorie: B5
+          type: other
+          voorbeeld: Rekening 77 Regularisering van belastingen en terugneming van fiscale voorzieningen
+        - regel: 97
+          categorie: D4
           type: other
           voorbeeld: rekening 450 *Geraamd bedrag der belastingschulden*... rekening 6702 *Geraamde belastingen *wordt
-        - categorie: D4
-          regel: 129
+        - regel: 129
+          categorie: D4
           type: other
           voorbeeld: een verantwoorde waardering van deze *vordering *vereist
-        - categorie: D4
-          regel: 155
+        - regel: 155
+          categorie: D4
           type: other
           voorbeeld: rekening 640 *Bedrijfsbelastingen *wanneer ze negatief is
-        - categorie: D4
-          regel: 225
+        - regel: 243
+          categorie: D4
           type: other
           voorbeeld: fictief karakter van de *vordering *op de overheid
-      rationale: 'D4: stelselmatige malformed italic door het hele document — spatie voor sluitende asterisk bij rekeningnamen (bijv. ''*Geraamde belastingen *'', ''*Bedrijfsbelastingen *'', ''*vordering *'') op tientallen regels (o.a. 97, 99, 129, 155, 171, 225). Dit is een patroon dat het volledige document doorkruist en een ETL-fix vereist. Inhoud en structuur zijn verder volledig en correct.'
-      run_at: '2026-05-11T12:21:40Z'
-      status: needs-rework
-    rationale: 'D4: stelselmatige malformed italic door het hele document — spatie voor sluitende asterisk bij rekeningnamen (bijv. ''*Geraamde belastingen *'', ''*Bedrijfsbelastingen *'', ''*vordering *'') op tientallen regels (o.a. 97, 99, 129, 155, 171, 225). Dit is een patroon dat het volledige document doorkruist en een ETL-fix vereist. Inhoud en structuur zijn verder volledig en correct.'
-    status: needs-rework
 themas:
   - belastingen
   - actieve belastinglatentie

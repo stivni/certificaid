@@ -16,49 +16,45 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-subsidies-schenkingen-en-legaten-in-natura-in-de
 nummer: CBN-advies 2020/10
 provenance:
-  generated_at: '2026-05-11T13:05:08Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/schenkingen-en-legaten-voor-vzws-ivzws-en-stichtingen-die-een-dubbele-boekhouding-voeren
       sha256: c984caf31f75abd5f138b2db04093e70c7c9b68b198ea22891f583d93ed20e50
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:12Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T12:21:40Z'
+    status: needs-rework
+    confirmed_at: '2026-05-11T13:34:12Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: "A3: Regels 75–110 bevatten de volledige inhoudsopgave als ingesprongen plain-text lijst vóór ## Inleiding op regel 112. A6: Regel 109–110 breekt '(geldbeleggingen\\n)' over twee regels midden in een heading-label — extractie-artefact waarbij een haakje-sluiting op een aparte regel staat."
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:30Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:18Z'
       heading_count: 50
       max_section_chars: 13375
       file_size_chars: 34849
       flags: []
     layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: A3
-          regel: 63
-          type: other
-          voorbeeld: '1. Inleiding \n  1. Schenkingen en legaten: nieuwe waarderingsregel ...'
-        - categorie: A3
-          regel: 107
-          type: other
-          voorbeeld: ' -------- Waardering tegen aanschaffingswaarde -------- Waardering tegen werkelijke waarde...'
-        - categorie: A6
-          regel: 97
-          type: other
-          voorbeeld: Schenking van aandelen (geldbeleggingen\n) bestemd om duurzaam bij te dragen
-      rationale: 'A3: Regels 63-108 bevatten een inhoudsopgave als plain-text ingesprongen lijst die midden in de body staat (vóór ## Inleiding op regel 110) — dit is een TOC-fragment dat niet werd verwijderd. Regel 107-108 bevat een aaneengesloten blob van gedupliceerde TOC-tekst (`-------- Waardering...`) als single line, duidelijk een extractie-artefact. A6: regel 97-98 breekt `(geldbeleggingen` en `)` over twee regels midden in een heading-label.'
-      run_at: '2026-05-11T12:21:40Z'
       status: needs-rework
-    rationale: 'A3: Regels 63-108 bevatten een inhoudsopgave als plain-text ingesprongen lijst die midden in de body staat (vóór ## Inleiding op regel 110) — dit is een TOC-fragment dat niet werd verwijderd. Regel 107-108 bevat een aaneengesloten blob van gedupliceerde TOC-tekst (`-------- Waardering...`) als single line, duidelijk een extractie-artefact. A6: regel 97-98 breekt `(geldbeleggingen` en `)` over twee regels midden in een heading-label.'
-    status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:34:12Z'
+      rationale: "A3: Regels 75–110 bevatten de volledige inhoudsopgave als ingesprongen plain-text lijst vóór ## Inleiding op regel 112. A6: Regel 109–110 breekt '(geldbeleggingen\\n)' over twee regels midden in een heading-label — extractie-artefact waarbij een haakje-sluiting op een aparte regel staat."
+      concrete_problemen:
+        - regel: 75
+          categorie: A3
+          type: other
+          voorbeeld: '1. Inleiding \n  1. Schenkingen en legaten: nieuwe waarderingsregel \n  2. Subsidies...'
+        - regel: 109
+          categorie: A6
+          type: other
+          voorbeeld: 3. Schenking van aandelen (geldbeleggingen\n) bestemd om duurzaam bij te dragen...
 themas:
   - schenking
   - legaat

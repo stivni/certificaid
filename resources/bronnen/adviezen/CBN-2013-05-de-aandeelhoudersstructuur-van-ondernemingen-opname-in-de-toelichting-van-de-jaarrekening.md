@@ -3,49 +3,45 @@ bron: https://www.cbn-cnc.be/nl/adviezen/de-aandeelhoudersstructuur-van-ondernem
 datum: 2013-03-04
 nummer: CBN-advies 2013/5
 provenance:
-  generated_at: '2026-05-11T13:05:08Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/de-aandeelhoudersstructuur-van-ondernemingen-opname-in-de-toelichting-van-de-jaarrekening
       sha256: fd754b63baa9e3701702ab5cd56aec1ae9f1426254c1fd8c687f8b8201805636
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:12Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T12:16:34Z'
+    status: needs-rework
+    confirmed_at: '2026-05-11T13:30:32Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: "A3: regel 83 bevat een samengeperste duplicaat-TOC als één lange run-on tekstregel met '---- ' als separator — scraper-fix A3 heeft dit niet opgelost. A9: regel 106 bevat 'stenmrechtverlenende' (ontbrekende 'r') — OCR-typefout die niet gecorrigeerd werd door de scraper-fix."
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:28Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:16Z'
       heading_count: 17
       max_section_chars: 14783
       file_size_chars: 22298
       flags: []
     layer2:
+      status: needs-rework
       agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:30:32Z'
+      rationale: "A3: regel 83 bevat een samengeperste duplicaat-TOC als één lange run-on tekstregel met '---- ' als separator — scraper-fix A3 heeft dit niet opgelost. A9: regel 106 bevat 'stenmrechtverlenende' (ontbrekende 'r') — OCR-typefout die niet gecorrigeerd werd door de scraper-fix."
       concrete_problemen:
-        - categorie: A3
-          regel: 71
+        - regel: 83
+          categorie: A3
           type: other
-          voorbeeld: . ---- Kennisgeving van belangrijke deelnemingen in naamloze vennootschappen... [run-on TOC-residu]
-        - categorie: A3
-          regel: 72
-          type: other
-          voorbeeld: '---- Anti-witwaswetgeving-- Kruisparticipaties---- Kennisgeving op grond van...'
-        - categorie: A9
-          regel: 96
+          voorbeeld: . ---- Kennisgeving van belangrijke deelnemingen in naamloze vennootschappen die niet genoteerd zijn...
+        - regel: 106
+          categorie: A9
           type: ocr-confusion
           voorbeeld: 'stenmrechtverlenende effecten (moet: stemrechtverlenende)'
-      rationale: 'A3: een TOC-blok staat als plain-text genummerde lijst op regels 46–70 (acceptabel als inhoudsopgave), maar regels 71–72 bevatten een samengeperste duplicaat-TOC als één lange run-on tekstregel met `---- ` als separator — dit is een extractie-artefact van de tweede TOC-instantie. A9: regel 96 bevat ''stenmrechtverlenende'' — OCR-verwisseling (ontbrekende ''r'' in ''stemrecht'').'
-      run_at: '2026-05-11T12:16:34Z'
-      status: needs-rework
-    rationale: 'A3: een TOC-blok staat als plain-text genummerde lijst op regels 46–70 (acceptabel als inhoudsopgave), maar regels 71–72 bevatten een samengeperste duplicaat-TOC als één lange run-on tekstregel met `---- ` als separator — dit is een extractie-artefact van de tweede TOC-instantie. A9: regel 96 bevat ''stenmrechtverlenende'' — OCR-verwisseling (ontbrekende ''r'' in ''stemrecht'').'
-    status: needs-rework
 themas:
   - aandeelhoudersstructuur
   - kennisgevingsplicht

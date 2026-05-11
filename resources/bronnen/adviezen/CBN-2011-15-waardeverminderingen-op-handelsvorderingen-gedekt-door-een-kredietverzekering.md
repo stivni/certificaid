@@ -13,37 +13,57 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/beginsel-van-het-dubbel-boekhouden
 nummer: CBN-advies 2011/15
 provenance:
-  generated_at: '2026-05-11T13:05:08Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/waardeverminderingen-op-handelsvorderingen-gedekt-door-een-kredietverzekering
       sha256: fabe8cebfc4d54bf18c08cd31e9f2447b5fd4870fed263588ded5bc50a6ba214
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:11Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at:
-    confirmed_by:
+    status: needs-rework
+    confirmed_at: '2026-05-11T13:23:04Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "Meerdere structuur- en stijlproblemen: (1) Regels 62–74: plain-text inhoudsopgave direct na H1 (A3). (2) Headings op ### niveau bevatten triple-asterisk markup: '### ***Boeking van de verkoopfactuur***' — ETL heeft bold-italic markers niet gestript van heading-tekst (B1-patroon). (3) Regel 126: '### ***Overboeking naar dubieuze debiteuren** *' en regel 135: '### ***Boeking van de waardevermindering** *' hebben een spatie vóór de sluitende '*' waardoor de bold+italic niet correct gesloten is (D4). (4) Regel 148: '#### ** De klant betaalt daadwerkelijk niets**' heeft een extra spatie na de opening '**' (D4). Overige inhoud correct en volledig."
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:28Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:16Z'
       heading_count: 12
       max_section_chars: 9854
       file_size_chars: 14211
       flags: []
     layer2:
-      agent:
-      concrete_problemen: []
-      rationale:
-      run_at:
-      status: not_run
-    rationale: 'Trust gereset 2026-05-11: re-scrape met scraper-fixes, content-diff > 5%'
-    status: unreviewed
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:23:04Z'
+      rationale: "Meerdere structuur- en stijlproblemen: (1) Regels 62–74: plain-text inhoudsopgave direct na H1 (A3). (2) Headings op ### niveau bevatten triple-asterisk markup: '### ***Boeking van de verkoopfactuur***' — ETL heeft bold-italic markers niet gestript van heading-tekst (B1-patroon). (3) Regel 126: '### ***Overboeking naar dubieuze debiteuren** *' en regel 135: '### ***Boeking van de waardevermindering** *' hebben een spatie vóór de sluitende '*' waardoor de bold+italic niet correct gesloten is (D4). (4) Regel 148: '#### ** De klant betaalt daadwerkelijk niets**' heeft een extra spatie na de opening '**' (D4). Overige inhoud correct en volledig."
+      concrete_problemen:
+        - regel: 62
+          categorie: A3
+          type: other
+          voorbeeld: "1. Waardeverminderingen op verzekerde handelsvorderingen \n2. Tussenkomst kredietverzekeringsmaatschappij \n  1. Overdracht ter incasso..."
+        - regel: 118
+          categorie: B1
+          type: other
+          voorbeeld: '### ***Boeking van de verkoopfactuur***'
+        - regel: 126
+          categorie: D4
+          type: other
+          voorbeeld: '### ***Overboeking naar dubieuze debiteuren** *'
+        - regel: 135
+          categorie: D4
+          type: other
+          voorbeeld: '### ***Boeking van de waardevermindering** *'
+        - regel: 148
+          categorie: D4
+          type: other
+          voorbeeld: '#### ** De klant betaalt daadwerkelijk niets**'
 themas:
   - compensatieverbod
   - dubieuze debiteuren

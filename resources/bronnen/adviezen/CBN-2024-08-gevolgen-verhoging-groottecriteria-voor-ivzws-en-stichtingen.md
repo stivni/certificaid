@@ -16,57 +16,57 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/consolidatie-bij-de-horizontale-groep-consortium-0
 nummer: CBN-advies 2024/08
 provenance:
-  generated_at: '2026-05-11T13:05:09Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/gevolgen-verhoging-groottecriteria-voor-ivzws-en-stichtingen
       sha256: 6de1272699f26002e279dc23b8980b5366bd9173ebd3e64b7c543a252fb2a982
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:12Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T12:24:34Z'
+    status: needs-rework
+    confirmed_at: '2026-05-11T13:34:13Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: 'E1: alle drie tabellen (regels 122-125, 179-182, 217-221) missen de verplichte `|---|---|` separator-rij na de headerrij — niet gecorrigeerd door de scraper-fix. Regel 217 heeft bovendien tientallen lege ghost-kolommen (alternerende `| |` zonder inhoud), wat de tabel onleesbaar maakt. D3: voetnoten [^1], [^19], [^20] en [^21] staan in de voetnoetenblok (regels 233, 204-208) maar hebben géén corresponderend anker in de body-tekst — waarschijnlijk verdwenen bij de re-scrape. De eerder genoteerde D4-problemen (malformed bold) zijn wél gecorrigeerd in de huidige versie.'
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:31Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:19Z'
       heading_count: 8
       max_section_chars: 4799
       file_size_chars: 16428
       flags: []
     layer2:
+      status: needs-rework
       agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:34:13Z'
+      rationale: 'E1: alle drie tabellen (regels 122-125, 179-182, 217-221) missen de verplichte `|---|---|` separator-rij na de headerrij — niet gecorrigeerd door de scraper-fix. Regel 217 heeft bovendien tientallen lege ghost-kolommen (alternerende `| |` zonder inhoud), wat de tabel onleesbaar maakt. D3: voetnoten [^1], [^19], [^20] en [^21] staan in de voetnoetenblok (regels 233, 204-208) maar hebben géén corresponderend anker in de body-tekst — waarschijnlijk verdwenen bij de re-scrape. De eerder genoteerde D4-problemen (malformed bold) zijn wél gecorrigeerd in de huidige versie.'
       concrete_problemen:
-        - categorie: D4
-          regel: 77
-          type: other
-          voorbeeld: verhoogd van 9.000.000 euro naar **11.250.000 **euro en het bedrag van het balanstotaal
-        - categorie: D4
-          regel: 79
-          type: other
-          voorbeeld: verhoogd van 700.000 euro naar **900.000 **euro en het bedrag van het balanstotaal
-        - categorie: D4
-          regel: 83
-          type: other
-          voorbeeld: wordt verhoogd van 334.500 euro naar **391.000 **euro, en de bedragen van de schulden
-        - categorie: E1
-          regel: 101
+        - regel: 122
+          categorie: E1
           type: pseudo-table
           voorbeeld: '| | | 31/12/2023 | | 31/12/2024 | | 31/12/2025 | (geen separator-rij, ghost-kolommen)'
-        - categorie: A7
-          regel: 193
+        - regel: 179
+          categorie: E1
+          type: pseudo-table
+          voorbeeld: '| | | 30/06/2024 | | 30/06/2025 | | 30/06/2026 | (geen separator-rij, ghost-kolommen)'
+        - regel: 217
+          categorie: E1
+          type: pseudo-table
+          voorbeeld: '| **Einde 31.12** | | | | **31.12.2021** | | | | | | **31.12.2022** | ... (30+ cellen, geen separator)'
+        - regel: 233
+          categorie: D3
           type: other
-          voorbeeld: 22. Veronderstel een stichting met een einde boekjaardatum van 31 december.
-      rationale: 'D4: op regels 77, 79 en 83 staan malformed bold-markers `**getal **euro` met een spatie vóór de sluitende `**` — een mens schrijft nooit `**11.250.000 **euro`. E1: alle tabellen (regels 101-104, 158-161, 195-199) missen de `|---|---|` separator na de headerrij en bevatten alternerende lege ghost-kolommen, identiek aan het patroon in CBN-2024-07. Bovendien staat op regel 193 een stray randnummer `22.` als prefix vóór een alinea (PDF-nummering-artefact).'
-      run_at: '2026-05-11T12:24:34Z'
-      status: needs-rework
-    rationale: 'D4: op regels 77, 79 en 83 staan malformed bold-markers `**getal **euro` met een spatie vóór de sluitende `**` — een mens schrijft nooit `**11.250.000 **euro`. E1: alle tabellen (regels 101-104, 158-161, 195-199) missen de `|---|---|` separator na de headerrij en bevatten alternerende lege ghost-kolommen, identiek aan het patroon in CBN-2024-07. Bovendien staat op regel 193 een stray randnummer `22.` als prefix vóór een alinea (PDF-nummering-artefact).'
-    status: needs-rework
+          voorbeeld: '[^1]: Onderhavig advies is tot stand gekomen nadat... (geen [^1] anker in body)'
+        - regel: 204
+          categorie: D3
+          type: other
+          voorbeeld: '[^19], [^20], [^21] in voetnoetenblok maar geen anker in body (verloren bij re-scrape)'
 themas:
   - groottecriteria
   - verenigingen en stichtingen

@@ -16,57 +16,57 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/bouwwerken-op-andermans-grond
 nummer: CBN-advies 2016/2
 provenance:
-  generated_at: '2026-05-11T13:05:08Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-ontvangen-subsidies-voor-de-aankoop-van-activa-die-worden
       sha256: 074350628fb9f6a0648fb610e585e68c7bac08b5f35a1156be111a403d2c830a
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:12Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T12:16:34Z'
+    status: needs-rework
+    confirmed_at: '2026-05-11T13:30:32Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: 'Regels 59–65: de drie titels zijn gemarkeerd als `# **COMMISSIE...` en `# **CBN-advies...` zonder sluitende `**`, en `## **Inleiding****` bevat overtollige asterisken — malformed bold/italic (D4). Regel 72: lege heading `## ` zonder tekst (B3). Inhoud zelf is correct en voetnoten [^1] en [^2] zijn aanwezig.'
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:29Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:17Z'
       heading_count: 2
       max_section_chars: 2264
       file_size_chars: 3169
       flags: []
     layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: D4
-          regel: 61
-          type: other
-          voorbeeld: '# **COMMISSIE VOOR BOEKHOUDKUNDIGE NORMEN'
-        - categorie: B3
-          regel: 63
-          type: other
-          voorbeeld: '# **CBN-advies 2016/2 – Boekhoudkundige verwerking van ontvangen subsidies...'
-        - categorie: D4
-          regel: 67
-          type: other
-          voorbeeld: '## **Inleiding****'
-        - categorie: B3
-          regel: 73
-          type: other
-          voorbeeld: '## '
-        - categorie: D4
-          regel: 75
-          type: other
-          voorbeeld: '**Analyse****'
-      rationale: 'B3+D4: regels 61–65 bevatten drie duplicate #-level headings met ongesloten bold-markers (''# **COMMISSIE VOOR BOEKHOUDKUNDIGE NORMEN'' zonder sluiter-`**`). Regel 67: ''## **Inleiding****'' met dubbele sluiter — malformed heading. Regel 73: lege ## heading (''## '') gevolgd door ''**Analyse****'' als plain-text bold in de body (B3+D4). Dit zijn duidelijke scrape-artefacten.'
-      run_at: '2026-05-11T12:16:34Z'
       status: needs-rework
-    rationale: 'B3+D4: regels 61–65 bevatten drie duplicate #-level headings met ongesloten bold-markers (''# **COMMISSIE VOOR BOEKHOUDKUNDIGE NORMEN'' zonder sluiter-`**`). Regel 67: ''## **Inleiding****'' met dubbele sluiter — malformed heading. Regel 73: lege ## heading (''## '') gevolgd door ''**Analyse****'' als plain-text bold in de body (B3+D4). Dit zijn duidelijke scrape-artefacten.'
-    status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:30:32Z'
+      rationale: 'Regels 59–65: de drie titels zijn gemarkeerd als `# **COMMISSIE...` en `# **CBN-advies...` zonder sluitende `**`, en `## **Inleiding****` bevat overtollige asterisken — malformed bold/italic (D4). Regel 72: lege heading `## ` zonder tekst (B3). Inhoud zelf is correct en voetnoten [^1] en [^2] zijn aanwezig.'
+      concrete_problemen:
+        - regel: 59
+          categorie: D4
+          type: other
+          voorbeeld: '# **COMMISSIE VOOR BOEKHOUDKUNDIGE NORMEN (geen sluitende **)'
+        - regel: 61
+          categorie: D4
+          type: other
+          voorbeeld: '# **CBN-advies 2016/2 – Boekhoudkundige verwerking... (geen sluitende **)'
+        - regel: 63
+          categorie: D4
+          type: other
+          voorbeeld: '# **Advies van 9 maart 2016** (sluit wel, maar titelbold in heading is onnatuurlijk)'
+        - regel: 65
+          categorie: D4
+          type: other
+          voorbeeld: '## **Inleiding**** (dubbele afsluitende asterisken)'
+        - regel: 72
+          categorie: B3
+          type: other
+          voorbeeld: '## (lege heading zonder tekst)'
 themas:
   - materiële vaste activa
   - overige materiële vaste activa

@@ -3,7 +3,7 @@ bron: https://www.cbn-cnc.be/nl/adviezen/schulden-op-meer-dan-een-jaar-prefinanc
 datum: 1986-03-01
 nummer: CBN-advies 137/3
 provenance:
-  generated_at: '2026-05-11T13:05:06Z'
+  generated_at: '2026-05-11T13:15:10Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/schulden-op-meer-dan-een-jaar-prefinanciering-van-langlopende-leningen
       sha256: 2cba114a45e58cc130f8caade7b3c1a58ac0efc21f116a912e7eb6e348c481b4
@@ -20,8 +20,8 @@ provenance:
     confirmed_by: subagent-sonnet-4-6
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:26Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:14Z'
       heading_count: 0
       max_section_chars: 1406
       file_size_chars: 1406

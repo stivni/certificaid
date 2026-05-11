@@ -16,53 +16,49 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/going-concern-waarderingsregels-bij-de-stopzetting-of-gedeeltelijke-stopzetting-van-het
 nummer: CBN-advies 2022/05
 provenance:
-  generated_at: '2026-05-11T13:05:08Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/verslaggeving-bij-ontbinding-en-vereffening-van-een-vzw-of-ivzw
       sha256: 8cd05b05f7a5bb251084598b2bde8a816f7753a58592dd89cc82f1ac4b3a8a3b
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:12Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T12:24:33Z'
+    status: needs-rework
+    confirmed_at: '2026-05-11T13:34:12Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: "A3: TOC-fragment in body: regels 101–119 bevatten een geïndenteerde inhoudsopgave die direct na de hoofdtitel staat (geen heading-marker), en regel 120 bevat een aaneengesloten TOC-restant ('-- Sluiting vereffening na vrijwillige ontbinding-- Sluiting...') zonder opmaak. D2: regel 225 verwijst naar een schema ('Schematisch kunnen de volgende termijnen worden onderscheiden:') dat niet volgt — was vermoedelijk een afbeelding in het origineel. Inhoud verder compleet; 68 voetnoten correct."
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:30Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:18Z'
       heading_count: 14
       max_section_chars: 19924
       file_size_chars: 34465
       flags: []
     layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: A3
-          regel: 85
-          type: other
-          voorbeeld: "1. Ontbinding \n  1. Vrijwillige ontbinding ...  (TOC-fragment vóór body-inhoud)"
-        - categorie: A3
-          regel: 104
-          type: other
-          voorbeeld: -- Sluiting vereffening na vrijwillige ontbinding-- Sluiting vereffening na ontbinding van rechtswege--...
-        - categorie: D3
-          regel: 199
-          type: other
-          voorbeeld: "gecertificeerd[^52]\n accountant.  ([^52] bevat enkel 'gecertificeerd', split over twee footnotes)"
-        - categorie: D2
-          regel: 221
-          type: missing-section
-          voorbeeld: 'Schematisch kunnen de volgende termijnen worden onderscheiden: [schema ontbreekt]'
-      rationale: 'A3: TOC-fragment in body op regels 85-104, met op regel 104 een aaneengesloten restant ''-- Sluiting vereffening na vrijwillige ontbinding-- Sluiting...'' D2: verwijzing naar ontbrekend schema op regel 221. D3: footnote [^52] in de body bevat slechts het woord ''gecertificeerd'' — de voetnoot is gesplitst over twee noten ([^51]/[^52]) door een extractie-fout.'
-      run_at: '2026-05-11T12:24:33Z'
       status: needs-rework
-    rationale: 'A3: TOC-fragment in body op regels 85-104, met op regel 104 een aaneengesloten restant ''-- Sluiting vereffening na vrijwillige ontbinding-- Sluiting...'' D2: verwijzing naar ontbrekend schema op regel 221. D3: footnote [^52] in de body bevat slechts het woord ''gecertificeerd'' — de voetnoot is gesplitst over twee noten ([^51]/[^52]) door een extractie-fout.'
-    status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:34:12Z'
+      rationale: "A3: TOC-fragment in body: regels 101–119 bevatten een geïndenteerde inhoudsopgave die direct na de hoofdtitel staat (geen heading-marker), en regel 120 bevat een aaneengesloten TOC-restant ('-- Sluiting vereffening na vrijwillige ontbinding-- Sluiting...') zonder opmaak. D2: regel 225 verwijst naar een schema ('Schematisch kunnen de volgende termijnen worden onderscheiden:') dat niet volgt — was vermoedelijk een afbeelding in het origineel. Inhoud verder compleet; 68 voetnoten correct."
+      concrete_problemen:
+        - regel: 101
+          categorie: A3
+          type: other
+          voorbeeld: 1. Ontbinding \n  1. Vrijwillige ontbinding \n  2. Ontbinding van rechtswege ... (TOC-fragment zonder heading-prefix)
+        - regel: 120
+          categorie: A3
+          type: other
+          voorbeeld: -- Sluiting vereffening na vrijwillige ontbinding-- Sluiting vereffening na ontbinding van rechtswege-- Sluiting vereffening na gerechtelijke ontbindingVoorbeeldAfwijkend...
+        - regel: 225
+          categorie: D2
+          type: missing-section
+          voorbeeld: 'Schematisch kunnen de volgende termijnen worden onderscheiden: [schema/tijdlijn ontbreekt]'
 themas:
   - verslaggeving
   - ontbinding

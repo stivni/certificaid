@@ -16,47 +16,45 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-onderzoeksfondsen-in-de-jaarrekening-van-grote-en-zeer
 nummer: CBN-advies 2012/15
 provenance:
-  generated_at: '2026-05-11T13:05:08Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/bestellingen-in-uitvoering
       sha256: e7c8732010a53e5a333cad2c30c9046775d75d9eb76bbb45f901921a4a6d05b3
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:12Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T12:09:18Z'
+    status: needs-rework
+    confirmed_at: '2026-05-11T13:30:32Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: "E2: de vergelijkingstabel percentage-of-completion vs completed-contract op regels 152–170 heeft multi-line celinhoud met lege regels ertussen — dit is geen geldige markdown-pipe-tabel. E2: de tabel op regels 470–473 heeft beide boekingsregels als debet (rekening 370 én rekening 7170 beiden in debet-kolom) zonder 'aan'-prefix op de credit-zijde — inhoudelijk fout en structureel incorrect."
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:28Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:16Z'
       heading_count: 28
       max_section_chars: 7063
       file_size_chars: 41075
       flags: []
     layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: E2
-          regel: 143
-          type: pseudo-table
-          voorbeeld: "| | | *Percentage of completion methode* | | *Completed contract methode* | \n| Zekerheid van het erkende resultaat | | \n\nDe geanticipeerde winst..."
-        - categorie: E2
-          regel: 464
-          type: other
-          voorbeeld: '| | 370 | Bestellingen in uitvoering – Aanschaffingswaarde | 40.000 | |
-
-            | | 7170 | Wijzigingen... | 40.000 | |'
-      rationale: 'E2/C3: regels 143-161 bevatten een vergelijkingstabel (percentage of completion vs completed contract) met multiline celinhoud die niet correct in markdown-pipe-syntax past — cellen lopen over meerdere regels met lege regels ertussen. Regel 464: boeking heeft beide regels als debet zonder ''aan''-prefix voor de credit-zijde. Inhoud overigens uitzonderlijk volledig.'
-      run_at: '2026-05-11T12:09:18Z'
       status: needs-rework
-    rationale: 'E2/C3: regels 143-161 bevatten een vergelijkingstabel (percentage of completion vs completed contract) met multiline celinhoud die niet correct in markdown-pipe-syntax past — cellen lopen over meerdere regels met lege regels ertussen. Regel 464: boeking heeft beide regels als debet zonder ''aan''-prefix voor de credit-zijde. Inhoud overigens uitzonderlijk volledig.'
-    status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:30:32Z'
+      rationale: "E2: de vergelijkingstabel percentage-of-completion vs completed-contract op regels 152–170 heeft multi-line celinhoud met lege regels ertussen — dit is geen geldige markdown-pipe-tabel. E2: de tabel op regels 470–473 heeft beide boekingsregels als debet (rekening 370 én rekening 7170 beiden in debet-kolom) zonder 'aan'-prefix op de credit-zijde — inhoudelijk fout en structureel incorrect."
+      concrete_problemen:
+        - regel: 152
+          categorie: E2
+          type: pseudo-table
+          voorbeeld: '| | | *Percentage of completion methode* | | *Completed contract methode* |\n| Zekerheid van het erkende resultaat | |'
+        - regel: 470
+          categorie: E2
+          type: other
+          voorbeeld: '| | 370 | Bestellingen in uitvoering – Aanschaffingswaarde | 40.000 | |\n| | 7170 | Wijzigingen... | 40.000 | |'
 themas:
   - bestellingen in uitvoering
   - completed contract method

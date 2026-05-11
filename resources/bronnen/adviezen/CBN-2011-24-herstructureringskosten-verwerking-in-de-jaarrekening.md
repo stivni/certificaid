@@ -3,7 +3,7 @@ bron: https://www.cbn-cnc.be/nl/adviezen/herstructureringskosten-verwerking-in-d
 datum: 2011-11-09
 nummer: CBN-advies 2011/24
 provenance:
-  generated_at: '2026-05-11T13:05:08Z'
+  generated_at: '2026-05-11T13:15:12Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/herstructureringskosten-verwerking-in-de-jaarrekening
       sha256: 8a486b86c5b96214843fa82ca23a90b0cbf88fe1f636d2fb093ab86a1f9d582d
@@ -20,8 +20,8 @@ provenance:
     confirmed_by: subagent-laag2-ronde2
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:28Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:16Z'
       heading_count: 0
       max_section_chars: 7596
       file_size_chars: 7596

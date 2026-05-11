@@ -16,45 +16,37 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/rechten-tot-vertoning-van-films
 nummer: CBN-advies 150/1
 provenance:
-  generated_at: '2026-05-11T13:05:06Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/materiele-vaste-activa-onderscheid-met-voorraden
       sha256: 6da50ea2d8309abf067107fdc8cb41cc0da5a41fb9ed4b4e54574eefb073a1c2
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:10Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T12:04:41Z'
+    status: trusted
+    confirmed_at: '2026-05-11T13:23:03Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: Vorige D4-issue (*Voorraadwijziging * met spatie vóór asterisk) is gefixeerd — body toont nu correct *Voorraadwijziging* (bv. 6096) zonder trailing space. Vier inhoudelijke secties volledig aanwezig, voetnoot [^1] correct gelinkt.
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:26Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:15Z'
       heading_count: 4
       max_section_chars: 1913
       file_size_chars: 7474
       flags: []
     layer2:
+      status: trusted
       agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: D4
-          regel: 88
-          type: other
-          voorbeeld: via rekening 609 *Voorraadwijziging *(bv. 6096)
-        - categorie: D4
-          regel: 88
-          type: other
-          voorbeeld: via de rekening *Voorraadwijziging *ten laste genomen
-      rationale: 'D4: twee gevallen van malformed italic op regel 88 — ''*Voorraadwijziging *(bv. 6096)'' en ''*Voorraadwijziging *ten laste genomen'': sluitende asterisk staat direct vóór een spatie in plaats van na het woord, waardoor Markdown de italic niet correct sluit. Verder inhoud compleet en structuur in orde.'
-      run_at: '2026-05-11T12:04:41Z'
-      status: needs-rework
-    rationale: 'D4: twee gevallen van malformed italic op regel 88 — ''*Voorraadwijziging *(bv. 6096)'' en ''*Voorraadwijziging *ten laste genomen'': sluitende asterisk staat direct vóór een spatie in plaats van na het woord, waardoor Markdown de italic niet correct sluit. Verder inhoud compleet en structuur in orde.'
-    status: needs-rework
+      run_at: '2026-05-11T13:23:03Z'
+      rationale: Vorige D4-issue (*Voorraadwijziging * met spatie vóór asterisk) is gefixeerd — body toont nu correct *Voorraadwijziging* (bv. 6096) zonder trailing space. Vier inhoudelijke secties volledig aanwezig, voetnoot [^1] correct gelinkt.
+      concrete_problemen: []
 themas:
   - diensten en diverse goederen
   - dieren

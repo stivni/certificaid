@@ -16,7 +16,7 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/toekenning-van-gratis-aandelen-restricted-stock-units-als-bonus
 nummer: CBN-advies 107/6
 provenance:
-  generated_at: '2026-05-11T13:05:05Z'
+  generated_at: '2026-05-11T13:15:10Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/waarborgen-verbonden-aan-de-verkoop-van-goederen-of-het-leveren-van-diensten
       sha256: 3c6bb203772ae565a7e0c086eb61a89cc3ea4da79869e94f964196ab3800db4f
@@ -33,8 +33,8 @@ provenance:
     confirmed_by: subagent-sonnet-4-6
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:24Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:13Z'
       heading_count: 0
       max_section_chars: 3060
       file_size_chars: 3060

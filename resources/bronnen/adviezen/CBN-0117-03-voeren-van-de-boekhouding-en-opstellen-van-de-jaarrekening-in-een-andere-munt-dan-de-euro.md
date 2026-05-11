@@ -16,49 +16,49 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-vennootschappen-naar-buitenlands-recht-eigen-boekhoudkundige-0
 nummer: CBN-advies 117/3
 provenance:
-  generated_at: '2026-05-11T13:05:05Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/voeren-van-de-boekhouding-en-opstellen-van-de-jaarrekening-in-een-andere-munt-dan-de-euro
       sha256: 31318435a29991bcbeb515e0d31d19760d5c140e282ad7e8200b3872787c2071
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:10Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T11:57:45Z'
+    status: needs-rework
+    confirmed_at: '2026-05-11T13:16:02Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: "B2: Heading-hiërarchie springt van H1 (regel 76) direct naar H4 (regels 94, 99, 128) — H2 en H3 ontbreken volledig. A6: regels 97 en 118 beginnen met een leading space (' Bij de opstelling...' en ' Tenzij de transacties...') — spurious line-break artefacten. Italics op regels 84 en 86 zijn nu correct gesloten na scraper-fix."
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:25Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:14Z'
       heading_count: 3
       max_section_chars: 3970
       file_size_chars: 11466
       flags: []
     layer2:
+      status: needs-rework
       agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:16:02Z'
+      rationale: "B2: Heading-hiërarchie springt van H1 (regel 76) direct naar H4 (regels 94, 99, 128) — H2 en H3 ontbreken volledig. A6: regels 97 en 118 beginnen met een leading space (' Bij de opstelling...' en ' Tenzij de transacties...') — spurious line-break artefacten. Italics op regels 84 en 86 zijn nu correct gesloten na scraper-fix."
       concrete_problemen:
-        - categorie: B2
-          regel: 82
+        - regel: 94
+          categorie: B2
           type: other
           voorbeeld: '#### Definitie van de functionele valuta — H4 direct onder H1, H2/H3 ontbreken'
-        - categorie: D4
-          regel: 72
+        - regel: 97
+          categorie: A6
           type: other
-          voorbeeld: '*enerzijds *volgens — spatie voor sluitende asterisk, gebrekkige italic'
-        - categorie: A6
-          regel: 85
+          voorbeeld: ' Bij de opstelling van de jaarrekening bepaalt iedere entiteit'
+        - regel: 118
+          categorie: A6
           type: other
-          voorbeeld: ''' Bij de opstelling van de jaarrekening...'' — zin begint met spatie, spurious line-break'
-      rationale: 'Drie problemen: (1) B2: Heading-hiërarchie springt van H1 (regel 64) direct naar H4 (regels 82, 87, 116) — H2 en H3 ontbreken volledig. (2) D4: Regel 72 heeft ''*enerzijds *'' met spatie voor sluitende asterisk — technisch gebrekkige italic-opmaak. (3) A6: Regel 85 begint met een spatie ('' Bij de opstelling...'') — spurious line-break binnen een alinea die begint direct na een vorige zin op regel 84.'
-      run_at: '2026-05-11T11:57:45Z'
-      status: needs-rework
-    rationale: 'Drie problemen: (1) B2: Heading-hiërarchie springt van H1 (regel 64) direct naar H4 (regels 82, 87, 116) — H2 en H3 ontbreken volledig. (2) D4: Regel 72 heeft ''*enerzijds *'' met spatie voor sluitende asterisk — technisch gebrekkige italic-opmaak. (3) A6: Regel 85 begint met een spatie ('' Bij de opstelling...'') — spurious line-break binnen een alinea die begint direct na een vorige zin op regel 84.'
-    status: needs-rework
+          voorbeeld: ' Tenzij de transacties steevast in een andere munt dan de euro'
 themas:
   - afwijking
   - functionele munt

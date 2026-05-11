@@ -3,37 +3,37 @@ bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-aanko
 datum: 2011-03-16
 nummer: CBN-advies 2011/6
 provenance:
-  generated_at: '2026-05-11T13:05:08Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-aankoop-van-goud-en-kunstwerken
       sha256: b8b176840e084369b96e16c7b04d86f0f271224a1ca2cfcb9c5d12df2a10a879
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:11Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at:
-    confirmed_by:
+    status: trusted
+    confirmed_at: '2026-05-11T13:23:04Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "Geen plain-text TOC, geen form-feeds, geen OCR-artefacten, geen broken tabellen. Headingstructuur (H1 > ## > ### > ####) is consistent en zonder hiërarchiesprongen. Nummering '### 1. Voorraden' en '### 2. Geldbeleggingen' herhaalt zich in de sectie Kunstwerken — dit spiegelt de documentstructuur van het origineel en is geen extractie-artefact. Alle 20 voetnoten correct gedefinieerd en gerefereerd vanuit de body. Inhoud volledig (Goud + Kunstwerken beide behandeld, met vlottende activa en vaste activa sub-secties)."
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:28Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:16Z'
       heading_count: 11
       max_section_chars: 4218
       file_size_chars: 12624
       flags: []
     layer2:
-      agent:
+      status: trusted
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:23:04Z'
+      rationale: "Geen plain-text TOC, geen form-feeds, geen OCR-artefacten, geen broken tabellen. Headingstructuur (H1 > ## > ### > ####) is consistent en zonder hiërarchiesprongen. Nummering '### 1. Voorraden' en '### 2. Geldbeleggingen' herhaalt zich in de sectie Kunstwerken — dit spiegelt de documentstructuur van het origineel en is geen extractie-artefact. Alle 20 voetnoten correct gedefinieerd en gerefereerd vanuit de body. Inhoud volledig (Goud + Kunstwerken beide behandeld, met vlottende activa en vaste activa sub-secties)."
       concrete_problemen: []
-      rationale:
-      run_at:
-      status: not_run
-    rationale: 'Trust gereset 2026-05-11: re-scrape met scraper-fixes, content-diff > 5%'
-    status: unreviewed
 themas:
   - aankoop van goud
   - aankoop van kunstwerken

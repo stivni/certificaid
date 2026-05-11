@@ -3,7 +3,7 @@ bron: https://www.cbn-cnc.be/nl/adviezen/interne-en-externe-jaarrekening-begripp
 datum: 1981-04-01
 nummer: CBN-advies 7/2
 provenance:
-  generated_at: '2026-05-11T13:05:05Z'
+  generated_at: '2026-05-11T13:15:10Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/interne-en-externe-jaarrekening-begrippen
       sha256: 2f2bd2508b071ea8c821b9b284c8c28935df3eef7f5a02f2a63ed5ab9b56734e
@@ -20,8 +20,8 @@ provenance:
     confirmed_by: subagent-laag2-ronde2
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:24Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:13Z'
       heading_count: 1
       max_section_chars: 6899
       file_size_chars: 6899

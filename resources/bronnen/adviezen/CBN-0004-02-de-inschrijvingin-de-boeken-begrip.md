@@ -7,7 +7,7 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/ondernemingen-naar-buitenlands-recht-houden-en-bewaren-in-belgie-van-de-boeken-rekeningen
 nummer: CBN-advies 4/2
 provenance:
-  generated_at: '2026-05-11T13:05:05Z'
+  generated_at: '2026-05-11T13:15:10Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/de-inschrijvingin-de-boeken-begrip
       sha256: 42257df52c4263379a387f095e6f506ad1f838a0867f6581bf7e6b6caa3b229f
@@ -24,8 +24,8 @@ provenance:
     confirmed_by: subagent-sonnet-4-6
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:24Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:13Z'
       heading_count: 0
       max_section_chars: 2554
       file_size_chars: 2554

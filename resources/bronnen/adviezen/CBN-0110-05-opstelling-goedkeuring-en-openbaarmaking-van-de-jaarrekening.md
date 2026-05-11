@@ -16,7 +16,7 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/afwijkingen-van-de-bepalingen-van-het-kb-van-8-oktober-1976-procedure
 nummer: CBN-advies 110/5
 provenance:
-  generated_at: '2026-05-11T13:05:05Z'
+  generated_at: '2026-05-11T13:15:10Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/opstelling-goedkeuring-en-openbaarmaking-van-de-jaarrekening
       sha256: ed252b48ceaecbb9125813b4bd2c2d3c8785fbd8d4de0b2a29a12114196d279b
@@ -33,8 +33,8 @@ provenance:
     confirmed_by: subagent-laag2-ronde2
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:24Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:13Z'
       heading_count: 0
       max_section_chars: 5680
       file_size_chars: 5680

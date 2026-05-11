@@ -16,37 +16,41 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/verslaggeving-bij-onmiddellijke-sluiting-van-de-vereffening-van-een-vennootschap
 nummer: CBN-advies 2024/10
 provenance:
-  generated_at: '2026-05-11T13:05:09Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/verslaggeving-bij-de-heropening-van-de-vereffening-van-ivzws-die-een-dubbele-boekhouding
       sha256: d890612ad02a0fd7aceb09a037b130b54c0b9dcb02864b8735cc43a03bac28d8
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:12Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at:
-    confirmed_by:
+    status: trusted
+    confirmed_at: '2026-05-11T13:34:13Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: 'Geen A- of B-categorie artefacten gevonden. Tabellen (regels 114-148) zijn correct opgemaakt met pipe-syntax én separator-rijen. Heading-hiërarchie klopt: # titel, ## secties, ### subsecties. Voetnoten [^1]–[^35] zijn aanwezig; [^19], [^20], [^21] staan in het voetnoetenblok maar ontbreken als anker in de body — dit zijn waarschijnlijk voetnoten bij de journaalposten die de scraper niet heeft opgepikt, maar het is een beperkte imperfectie zonder leesbaarheidsimpact. Geen OCR-verwarring, geen form-feeds, geen kolom-bleed. Inhoud compleet: Inleiding, wettekst art. 2:138 integraal geciteerd, twee voorbeelden met journaalboekingen.'
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:31Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:19Z'
       heading_count: 5
       max_section_chars: 9537
       file_size_chars: 18553
       flags: []
     layer2:
-      agent:
-      concrete_problemen: []
-      rationale:
-      run_at:
-      status: not_run
-    rationale: 'Trust gereset 2026-05-11: re-scrape met scraper-fixes, content-diff > 5%'
-    status: unreviewed
+      status: trusted
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:34:13Z'
+      rationale: 'Geen A- of B-categorie artefacten gevonden. Tabellen (regels 114-148) zijn correct opgemaakt met pipe-syntax én separator-rijen. Heading-hiërarchie klopt: # titel, ## secties, ### subsecties. Voetnoten [^1]–[^35] zijn aanwezig; [^19], [^20], [^21] staan in het voetnoetenblok maar ontbreken als anker in de body — dit zijn waarschijnlijk voetnoten bij de journaalposten die de scraper niet heeft opgepikt, maar het is een beperkte imperfectie zonder leesbaarheidsimpact. Geen OCR-verwarring, geen form-feeds, geen kolom-bleed. Inhoud compleet: Inleiding, wettekst art. 2:138 integraal geciteerd, twee voorbeelden met journaalboekingen.'
+      concrete_problemen:
+        - regel: 204
+          categorie: D3
+          type: other
+          voorbeeld: '[^19]: In dit voorbeeld wordt ervan uitgegaan... — geen [^19] anker zichtbaar in body-tekst van Voorbeeld 1'
 themas:
   - vereffening
   - vereniging

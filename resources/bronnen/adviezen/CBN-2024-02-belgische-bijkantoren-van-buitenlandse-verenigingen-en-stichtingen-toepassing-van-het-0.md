@@ -16,41 +16,41 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/gevolgen-op-gebied-van-financiele-rapportering-als-gevolg-van-de-brexit-0
 nummer: CBN-advies 2024/02
 provenance:
-  generated_at: '2026-05-11T13:05:09Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-buitenlandse-verenigingen-en-stichtingen-toepassing-van-het-0
       sha256: 7b9a8a629ece5b431808799881a666da1acf93156fb67b32a4601de36a6b777a
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:12Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T12:24:34Z'
+    status: needs-rework
+    confirmed_at: '2026-05-11T13:34:13Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: "A3: de inhoudsopgave verschijnt tweemaal — eenmaal als geïndenteerde lijst (regels 83–132) en eenmaal als aaneengesloten platte tekst zonder opmaak op regels 134–135 ('-- Verplichtingen eigen aan buitenlandse verenigingen en stichtingen...'). Dit is een duidelijk TOC-duplicaat. Inhoud verder inhoudelijk volledig en uitgebreid; voetnoten [^1]–[^77] volledig."
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:31Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:18Z'
       heading_count: 39
       max_section_chars: 20184
       file_size_chars: 50429
       flags: []
     layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: A3
-          regel: 130
-          type: other
-          voorbeeld: -- Verplichtingen eigen aan buitenlandse verenigingen en stichtingenHet begrip 'bijkantoor'Publicatieverplichtingen van buitenlandse verenigingen en stichtingen...
-      rationale: 'A3: de inhoudsopgave verschijnt tweemaal — eenmaal als genummerde/geïndenteerde lijst (regels 79–131) en eenmaal als aaneengesloten platte tekst zonder opmaak op regels 130–132 (''-- Verplichtingen eigen aan buitenlandse...''). Dit is een duidelijk TOC-duplicaat. Overigens is het document inhoudelijk volledig en zeer uitgebreid (40 headings per layer1). Voetnoten [^1]–[^77] volledig.'
-      run_at: '2026-05-11T12:24:34Z'
       status: needs-rework
-    rationale: 'A3: de inhoudsopgave verschijnt tweemaal — eenmaal als genummerde/geïndenteerde lijst (regels 79–131) en eenmaal als aaneengesloten platte tekst zonder opmaak op regels 130–132 (''-- Verplichtingen eigen aan buitenlandse...''). Dit is een duidelijk TOC-duplicaat. Overigens is het document inhoudelijk volledig en zeer uitgebreid (40 headings per layer1). Voetnoten [^1]–[^77] volledig.'
-    status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:34:13Z'
+      rationale: "A3: de inhoudsopgave verschijnt tweemaal — eenmaal als geïndenteerde lijst (regels 83–132) en eenmaal als aaneengesloten platte tekst zonder opmaak op regels 134–135 ('-- Verplichtingen eigen aan buitenlandse verenigingen en stichtingen...'). Dit is een duidelijk TOC-duplicaat. Inhoud verder inhoudelijk volledig en uitgebreid; voetnoten [^1]–[^77] volledig."
+      concrete_problemen:
+        - regel: 134
+          categorie: A3
+          type: other
+          voorbeeld: -- Verplichtingen eigen aan buitenlandse verenigingen en stichtingenHet begrip 'bijkantoor'Publicatieverplichtingen van buitenlandse verenigingen en stichtingen-- Voorafgaand...
 themas:
   - bijkantoor
   - publicatie

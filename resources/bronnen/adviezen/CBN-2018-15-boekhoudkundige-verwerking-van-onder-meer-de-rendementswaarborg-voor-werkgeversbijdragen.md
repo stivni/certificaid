@@ -16,53 +16,53 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/toekenning-van-gratis-aandelen-restricted-stock-units-als-bonus
 nummer: CBN-advies 2018/15
 provenance:
-  generated_at: '2026-05-11T13:05:08Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-onder-meer-de-rendementswaarborg-voor-werkgeversbijdragen
       sha256: 64830a3e26e539c0098498821c4e375822e63ee6e3d5f4c5b58cf9c352e75272
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:12Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T12:21:40Z'
+    status: needs-rework
+    confirmed_at: '2026-05-11T13:34:12Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: "Bevestiging van bestaand verdict. D4: malformed italic op regels 146, 148, 217 en 235 — spatie voor sluitende asterisk (`*inrichter *`, `*pensioeninstelling *`, `***Samenvattend ***`). Regel 235 combineert bold en italic met `*alle *risico's **`. Patroon consistent met ETL-batch."
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:29Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:17Z'
       heading_count: 11
       max_section_chars: 5025
       file_size_chars: 23596
       flags: []
     layer2:
+      status: needs-rework
       agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:34:12Z'
+      rationale: "Bevestiging van bestaand verdict. D4: malformed italic op regels 146, 148, 217 en 235 — spatie voor sluitende asterisk (`*inrichter *`, `*pensioeninstelling *`, `***Samenvattend ***`). Regel 235 combineert bold en italic met `*alle *risico's **`. Patroon consistent met ETL-batch."
       concrete_problemen:
-        - categorie: D4
-          regel: 131
+        - regel: 146
+          categorie: D4
           type: other
           voorbeeld: de pensioentoezegging die door de *inrichter *wordt gegeven
-        - categorie: D4
-          regel: 133
+        - regel: 148
+          categorie: D4
           type: other
           voorbeeld: Opdat de *pensioeninstelling *ook effectief in staat zou zijn
-        - categorie: D4
-          regel: 202
+        - regel: 217
+          categorie: D4
           type: other
           voorbeeld: '***Samenvattend ***kan dus besloten worden'
-        - categorie: D4
-          regel: 220
+        - regel: 235
+          categorie: D4
           type: other
-          voorbeeld: '**Geen externalisering van *alle *risico''s **'
-      rationale: 'D4: malformed italic op regels 131, 133 en 202 (''de *inrichter *wordt gegeven'', ''*pensioeninstelling *ook effectief'', ''***Samenvattend ***''). Regel 220 heeft ''*alle *risico''s **'' met spatie voor asterisk binnen bold+italic constructie. Dit patroon is consistent met de andere 2018-adviezen uit dezelfde ETL-batch. Inhoud en structuur zijn verder volledig.'
-      run_at: '2026-05-11T12:21:40Z'
-      status: needs-rework
-    rationale: 'D4: malformed italic op regels 131, 133 en 202 (''de *inrichter *wordt gegeven'', ''*pensioeninstelling *ook effectief'', ''***Samenvattend ***''). Regel 220 heeft ''*alle *risico''s **'' met spatie voor asterisk binnen bold+italic constructie. Dit patroon is consistent met de andere 2018-adviezen uit dezelfde ETL-batch. Inhoud en structuur zijn verder volledig.'
-    status: needs-rework
+          voorbeeld: "**Geen externalisering van *alle *risico's **"
 themas:
   - voorziening
   - pensioentoezegging

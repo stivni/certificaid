@@ -16,65 +16,49 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/bestellingen-in-uitvoering
 nummer: CBN-advies 152/1
 provenance:
-  generated_at: '2026-05-11T13:05:06Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/boekingen-van-deviezenverrichtingen-en-verwerking-van-tegoeden-en-verplichtingen-in
       sha256: abfb76c50150627c208c3fca7723f5e345ecdf9199d967e5694ef08b8239b916
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:10Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T12:04:41Z'
+    status: needs-rework
+    confirmed_at: '2026-05-11T13:23:04Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: "A9: regel 470 '| | 55 | Bank USA | 41.100 | |' — 'Bank USA' i.p.v. 'Bank USD' zoals consequent elders (regels 459, 498). E2: regels 1097-1100 bevatten een tabel met inconsistente celtellingen (lege tussenkolommen als pseudo-alignment). A6: regel 159-160 bevat een mid-tekst regelbreuk in TOC-item 7 ('DEEL VII. WAARDERING AAN HET EINDE VAN HET BOEKJAAR' op r.159, vervolg op r.160). A3-issue (tweede TOC met '--' separatoren) en A9 'niet¬monetaire' (U+00AC) zijn beide gefixeerd."
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:26Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:15Z'
       heading_count: 51
       max_section_chars: 19458
       file_size_chars: 109015
       flags: []
     layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: A3
-          regel: 152
-          type: other
-          voorbeeld: -- ALGEMEEN -- DE OMREKENINGSKOERS -- VERRICHTINGEN WAARUIT...
-        - categorie: A9
-          regel: 199
-          type: ocr-confusion
-          voorbeeld: vermogensbestanddelen zijn niet¬monetaire posten
-        - categorie: A9
-          regel: 1167
-          type: ocr-confusion
-          voorbeeld: risico verbonden aan niet¬samenvallende vervaldagen
-        - categorie: G3
-          regel: 288
-          type: other
-          voorbeeld: '[^6]  (alleenstaande footnote-ref zonder body-context)'
-        - categorie: A9
-          regel: 450
-          type: ocr-confusion
-          voorbeeld: '| | 55 | Bank USA | 41.100 | | (i.p.v. Bank USD)'
-        - categorie: C3
-          regel: 624
-          type: pseudo-table
-          voorbeeld: 493 Over te dragen opbrengsten / aan 756 Diverse financiële opbrengsten
-        - categorie: E2
-          regel: 1087
-          type: other
-          voorbeeld: '| | | **Effect A (geldbelegging) ** | | **Effect B...** | (lege tussencellen als kolom-alignment)'
-      rationale: 'Meerdere categorieën aangetroffen. A3: regels 152-153 bevatten een tweede volledige TOC als doorlopende tekst met ''--''-separatoren in plaats van de gestructureerde genummerde TOC op regels 86-149 — dit is een dubbel TOC-artefact. A9: ''niet¬monetaire'' (U+00AC NOT SIGN) op regels 199 en 1167 i.p.v. een gewone koppelteken. G3: op regel 288 staat ''[^6]'' als alleenstaande regel zonder volgend footnote-definitie-blok (de definitie staat verderop bij de eindnoten), wat in de body als orphaned inline footnote-ref verschijnt. D4: ''Bank USA'' op regel 450 i.p.v. ''Bank USD'' zoals consequent elders gebruikt — inconsistentie die een OCR/scrape-fout suggereert. C3: journaalboeking op regel 624 zonder pipe-table (''493 Over te dragen opbrengsten / aan 756 ...''), terwijl alle andere boekingen wél als tabel zijn opgemaakt. Tabel op regels 1087-1094 heeft inconsistente celtellingen (dubbele lege cellen als pseudo-kolom-alignment).'
-      run_at: '2026-05-11T12:04:41Z'
       status: needs-rework
-    rationale: 'Meerdere categorieën aangetroffen. A3: regels 152-153 bevatten een tweede volledige TOC als doorlopende tekst met ''--''-separatoren in plaats van de gestructureerde genummerde TOC op regels 86-149 — dit is een dubbel TOC-artefact. A9: ''niet¬monetaire'' (U+00AC NOT SIGN) op regels 199 en 1167 i.p.v. een gewone koppelteken. G3: op regel 288 staat ''[^6]'' als alleenstaande regel zonder volgend footnote-definitie-blok (de definitie staat verderop bij de eindnoten), wat in de body als orphaned inline footnote-ref verschijnt. D4: ''Bank USA'' op regel 450 i.p.v. ''Bank USD'' zoals consequent elders gebruikt — inconsistentie die een OCR/scrape-fout suggereert. C3: journaalboeking op regel 624 zonder pipe-table (''493 Over te dragen opbrengsten / aan 756 ...''), terwijl alle andere boekingen wél als tabel zijn opgemaakt. Tabel op regels 1087-1094 heeft inconsistente celtellingen (dubbele lege cellen als pseudo-kolom-alignment).'
-    status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:23:04Z'
+      rationale: "A9: regel 470 '| | 55 | Bank USA | 41.100 | |' — 'Bank USA' i.p.v. 'Bank USD' zoals consequent elders (regels 459, 498). E2: regels 1097-1100 bevatten een tabel met inconsistente celtellingen (lege tussenkolommen als pseudo-alignment). A6: regel 159-160 bevat een mid-tekst regelbreuk in TOC-item 7 ('DEEL VII. WAARDERING AAN HET EINDE VAN HET BOEKJAAR' op r.159, vervolg op r.160). A3-issue (tweede TOC met '--' separatoren) en A9 'niet¬monetaire' (U+00AC) zijn beide gefixeerd."
+      concrete_problemen:
+        - regel: 470
+          categorie: A9
+          type: ocr-confusion
+          voorbeeld: '| | 55 | Bank USA | 41.100 | |'
+        - regel: 1097
+          categorie: E2
+          type: other
+          voorbeeld: '| | | **Effect A (geldbelegging)**  | | **Effect B (geldbelegging)** |'
+        - regel: 159
+          categorie: A6
+          type: other
+          voorbeeld: 7. DEEL VII. WAARDERING AAN HET EINDE VAN HET BOEKJAAR\n VAN NIET SPECIFIEK GEDEKTE...
 themas:
   - bestellingen in uitvoering
   - contant wisselverrichting

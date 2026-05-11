@@ -16,49 +16,49 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-immateriele-vaste-activa
 nummer: CBN-advies 2017/13
 provenance:
-  generated_at: '2026-05-11T13:05:08Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-vergoeding-voor-een-borg-in-het-kader-van-de
       sha256: a5072da0a6f51c6e36822312fb6e24f53efabd76b5b4c74bf8b5e87ad25b178c
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:12Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T12:16:35Z'
+    status: needs-rework
+    confirmed_at: '2026-05-11T13:30:33Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: "B1/B2: heading_count = 0 — het volledige advies heeft geen enkele ## heading; de inhoud staat als één ongestructureerd blok wat RAG-chunking ernstig bemoeilijkt. D4: regel 78 bevat '*rente* op vreemd vermogen' waarbij de italic om één woord staat maar de spatiëring in een eerder deel van de zin afwijkend is. A4: voetnoot-referentie op regel 74 bevat 'CBN-advies 2015/9 ‐' met een U+2010 non-breaking hyphen in plaats van gewone koppelteken."
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:29Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:17Z'
       heading_count: 0
       max_section_chars: 3155
       file_size_chars: 3155
       flags: []
     layer2:
+      status: needs-rework
       agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:30:33Z'
+      rationale: "B1/B2: heading_count = 0 — het volledige advies heeft geen enkele ## heading; de inhoud staat als één ongestructureerd blok wat RAG-chunking ernstig bemoeilijkt. D4: regel 78 bevat '*rente* op vreemd vermogen' waarbij de italic om één woord staat maar de spatiëring in een eerder deel van de zin afwijkend is. A4: voetnoot-referentie op regel 74 bevat 'CBN-advies 2015/9 ‐' met een U+2010 non-breaking hyphen in plaats van gewone koppelteken."
       concrete_problemen:
-        - categorie: B1
-          regel: 56
+        - regel: 68
+          categorie: B1
           type: other
           voorbeeld: 'Volledig advies zonder ## headings (heading_count=0); inhoud als één blok'
-        - categorie: D4
-          regel: 66
+        - regel: 78
+          categorie: D4
           type: other
-          voorbeeld: '"*rente *op vreemd vermogen"[^5] beoogd'
-        - categorie: A4
-          regel: 76
+          voorbeeld: '"*rente* op vreemd vermogen"[^5] beoogd'
+        - regel: 74
+          categorie: A4
           type: other
-          voorbeeld: CBN-advies 2015/9 ‐ Boekhoudkundige verwerking (U+2010 non-breaking hyphen)
-      rationale: 'B1/B2: heading_count = 0 — het volledige advies heeft geen enkele ## heading. Inhoud staat als één ongestructureerde blok, wat RAG-chunking ernstig bemoeilijkt. A4: Regel 76 bevat U+2010 (non-breaking hyphen) in ''2015/9 ‐ Boekhoudkundige'' — onzichtbaar unicode-artefact. D4: Regel 66 bevat ''*rente *op vreemd vermogen'' met spatie voor sluitende asterisk.'
-      run_at: '2026-05-11T12:16:35Z'
-      status: needs-rework
-    rationale: 'B1/B2: heading_count = 0 — het volledige advies heeft geen enkele ## heading. Inhoud staat als één ongestructureerde blok, wat RAG-chunking ernstig bemoeilijkt. A4: Regel 76 bevat U+2010 (non-breaking hyphen) in ''2015/9 ‐ Boekhoudkundige'' — onzichtbaar unicode-artefact. D4: Regel 66 bevat ''*rente *op vreemd vermogen'' met spatie voor sluitende asterisk.'
-    status: needs-rework
+          voorbeeld: CBN-advies 2015/9 ‐ Boekhoudkundige (U+2010 non-breaking hyphen)
 themas:
   - aanschaffingswaarde
   - borgstelling

@@ -7,37 +7,57 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/verwerking-van-uitgegeven-inschrijvingsrechten-in-de-jaarrekening
 nummer: CBN-advies 139/8
 provenance:
-  generated_at: '2026-05-11T13:05:06Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/uitgifte-van-obligaties-met-inschrijvingsrechten-die-in-aandelen-converteerbaar-of
       sha256: 71f2fc6846b0a42b29c0df5f6db38b2e372ff7c0647f3636876c31b454bb11a9
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:10Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at:
-    confirmed_by:
+    status: needs-rework
+    confirmed_at: '2026-05-11T13:23:03Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "B1/B2: wiskundige formules zijn als ### headings gerenderd (regels 99, 105, 110: '### 1.000.000 = 747.258', '### 40.000 + ...'). B2: eerste subheading is #### (regel 64) zonder voorafgaande ## of ### in de body. Regel 148 heeft '### c) Bij de terugbetaling' als heading terwijl secties a) en b) (regels 131, 139) niet als headings zijn gemarkeerd — inconsistente heading-behandeling. Formule-fragmenten op losse regels (regels 101, 107, 112) zijn A6-artefacten van wiskundige layout."
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:26Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:14Z'
       heading_count: 10
       max_section_chars: 11062
       file_size_chars: 22057
       flags: []
     layer2:
-      agent:
-      concrete_problemen: []
-      rationale:
-      run_at:
-      status: not_run
-    rationale: 'Trust gereset 2026-05-11: re-scrape met scraper-fixes, content-diff > 5%'
-    status: unreviewed
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:23:03Z'
+      rationale: "B1/B2: wiskundige formules zijn als ### headings gerenderd (regels 99, 105, 110: '### 1.000.000 = 747.258', '### 40.000 + ...'). B2: eerste subheading is #### (regel 64) zonder voorafgaande ## of ### in de body. Regel 148 heeft '### c) Bij de terugbetaling' als heading terwijl secties a) en b) (regels 131, 139) niet als headings zijn gemarkeerd — inconsistente heading-behandeling. Formule-fragmenten op losse regels (regels 101, 107, 112) zijn A6-artefacten van wiskundige layout."
+      concrete_problemen:
+        - regel: 64
+          categorie: B2
+          type: other
+          voorbeeld: '#### Uitgifte van obligaties met het recht tot inschrijving op aandelen'
+        - regel: 99
+          categorie: B1
+          type: other
+          voorbeeld: '### 1.000.000 = 747.258'
+        - regel: 101
+          categorie: A6
+          type: other
+          voorbeeld: '   (1,06)5'
+        - regel: 105
+          categorie: B1
+          type: other
+          voorbeeld: '### 40.000 + 40.000 + 40.000 + 40.000 + 40.000 = 168.494'
+        - regel: 148
+          categorie: B3
+          type: other
+          voorbeeld: '### c) Bij de terugbetaling van de lening'
 themas:
   - uitgegeven convertereerbare obligaties
   - uitgegeven inschrijvingsrechten

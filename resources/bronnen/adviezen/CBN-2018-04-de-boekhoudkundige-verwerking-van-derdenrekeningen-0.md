@@ -7,41 +7,45 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-derdenrekeningen
 nummer: CBN-advies 2018/04
 provenance:
-  generated_at: '2026-05-11T13:05:08Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-derdenrekeningen-0
       sha256: a366f879a7345a1d8665d99dce6b52b517921b7e86c9660a386e51fb72df8ce5
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:12Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T12:21:40Z'
+    status: needs-rework
+    confirmed_at: '2026-05-11T13:30:33Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: "A6: regels 75-77 bevatten een spurious line-break midden in een zin — 'is een rekening waarbij bij de  \\n\\ntenaamstelling wordt aangegeven' met twee spaties aan het einde van regel 75 en een extra lege regel voor de zinszet verder loopt. B5: regel 74 ('Verplichtingen van advocaten, notarissen, gerechtsdeurwaarders en vastgoedmakelaars met betrekking tot het houden van derdenrekeningen') staat als plain-text in de body terwijl het qua positie en structuur een sectie-heading had moeten zijn."
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:29Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:17Z'
       heading_count: 3
       max_section_chars: 18601
       file_size_chars: 20255
       flags: []
     layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: A6
-          regel: 72
-          type: other
-          voorbeeld: is een rekening waarbij bij de  \n\ntenaamstelling wordt aangegeven
-      rationale: 'A6: regel 72-74 bevat een gebroken zin midden in een alinea — ''is een rekening waarbij bij de  \n\ntenaamstelling'' met twee spaties aan het einde van regel 72 en een blanco regel voor de volgende zin begint, wat een spurious line-break is binnen één logische zin. Verder is de inhoud volledig en de structuur correct.'
-      run_at: '2026-05-11T12:21:40Z'
       status: needs-rework
-    rationale: 'A6: regel 72-74 bevat een gebroken zin midden in een alinea — ''is een rekening waarbij bij de  \n\ntenaamstelling'' met twee spaties aan het einde van regel 72 en een blanco regel voor de volgende zin begint, wat een spurious line-break is binnen één logische zin. Verder is de inhoud volledig en de structuur correct.'
-    status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:30:33Z'
+      rationale: "A6: regels 75-77 bevatten een spurious line-break midden in een zin — 'is een rekening waarbij bij de  \\n\\ntenaamstelling wordt aangegeven' met twee spaties aan het einde van regel 75 en een extra lege regel voor de zinszet verder loopt. B5: regel 74 ('Verplichtingen van advocaten, notarissen, gerechtsdeurwaarders en vastgoedmakelaars met betrekking tot het houden van derdenrekeningen') staat als plain-text in de body terwijl het qua positie en structuur een sectie-heading had moeten zijn."
+      concrete_problemen:
+        - regel: 75
+          categorie: A6
+          type: other
+          voorbeeld: is een rekening waarbij bij de  \n\ntenaamstelling wordt aangegeven (spurious break mid-sentence)
+        - regel: 74
+          categorie: B5
+          type: other
+          voorbeeld: 'Verplichtingen van advocaten, notarissen, gerechtsdeurwaarders... (heading zonder ## prefix)'
 themas:
   - derdenrekening
   - advocaat

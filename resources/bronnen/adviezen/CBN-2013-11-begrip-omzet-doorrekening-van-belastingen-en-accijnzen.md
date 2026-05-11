@@ -10,7 +10,7 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/overeenkomsten-waarin-gespreide-of-opeenvolgende-prestaties-worden-voorzien
 nummer: CBN-advies 2013/11
 provenance:
-  generated_at: '2026-05-11T13:05:08Z'
+  generated_at: '2026-05-11T13:15:12Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/begrip-omzet-doorrekening-van-belastingen-en-accijnzen
       sha256: abd494a3aeb8a5a9898b68118ce3c2e69b9aa2ed976034badbc563d23c00c926
@@ -27,8 +27,8 @@ provenance:
     confirmed_by: subagent-sonnet-4-6
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:28Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:16Z'
       heading_count: 3
       max_section_chars: 2495
       file_size_chars: 4016

@@ -16,49 +16,37 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/loonmatiging-bezoldigingen-van-bestuurders
 nummer: CBN-advies 128/8
 provenance:
-  generated_at: '2026-05-11T13:05:06Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/boeking-van-voordelen-van-alle-aard
       sha256: 3377a5382b98d5739afd52a9d08f17c433ac02189e1042ca5c2664f306f5c9f9
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:10Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T12:04:41Z'
+    status: trusted
+    confirmed_at: '2026-05-11T13:16:02Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: "Vorige Laag-2-ronde flagde D4 (italic '*Bezoldigingen *' met spatie voor sluitende asterisk op L63/65/67). Bij her-lezing van de actuele body zijn alle drie italic-spans correct gesloten: '*Bezoldigingen*' zonder trailing spatie. Scraper-fix heeft dit opgelost. Inhoud volledig, geen andere artefacten."
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:25Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:14Z'
       heading_count: 0
       max_section_chars: 1875
       file_size_chars: 1875
       flags: []
     layer2:
+      status: trusted
       agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: D4
-          regel: 63
-          type: other
-          voorbeeld: '...kwalificatie *Bezoldigingen *vallen...'
-        - categorie: D4
-          regel: 65
-          type: other
-          voorbeeld: '...in de rekening *Bezoldigingen *in de boekhouding...'
-        - categorie: D4
-          regel: 67
-          type: other
-          voorbeeld: '...in de rekening *Bezoldigingen *worden geboekt...'
-      rationale: 'D4 op L63, L65 en L67: het woord *Bezoldigingen * heeft een spatie vóór de sluitende asterisk — *Bezoldigingen * in plaats van *Bezoldigingen*. Dit is een consistent scraping-patroon dat drie keer optreedt en in elke markdown-renderer resulteert in niet-gesloten italic of letterlijk zichtbare asterisk.'
-      run_at: '2026-05-11T12:04:41Z'
-      status: needs-rework
-    rationale: 'D4 op L63, L65 en L67: het woord *Bezoldigingen * heeft een spatie vóór de sluitende asterisk — *Bezoldigingen * in plaats van *Bezoldigingen*. Dit is een consistent scraping-patroon dat drie keer optreedt en in elke markdown-renderer resulteert in niet-gesloten italic of letterlijk zichtbare asterisk.'
-    status: needs-rework
+      run_at: '2026-05-11T13:16:02Z'
+      rationale: "Vorige Laag-2-ronde flagde D4 (italic '*Bezoldigingen *' met spatie voor sluitende asterisk op L63/65/67). Bij her-lezing van de actuele body zijn alle drie italic-spans correct gesloten: '*Bezoldigingen*' zonder trailing spatie. Scraper-fix heeft dit opgelost. Inhoud volledig, geen andere artefacten."
+      concrete_problemen: []
 themas:
   - bezoldiging
   - voordelen van alle aard

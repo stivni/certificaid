@@ -10,49 +10,49 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/overdracht-van-eigen-vermogen-in-het-kader-van-een-fusie-splitsing-of-partiele-splitsing
 nummer: CBN-advies 2009/11
 provenance:
-  generated_at: '2026-05-11T13:05:07Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-partiele-splitsingen
       sha256: 6bed029a7b84487dfafe91c768ee462d42a9123ae5f14f16a1bddabc7c1fad22
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:11Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T12:09:17Z'
+    status: needs-rework
+    confirmed_at: '2026-05-11T13:23:04Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: "E2: tabel Voorbeeld 3 (r300-304) is gebroken — de celwaarde '9.500' staat op een eigen lege regel gevolgd door een verweesde pipe-rij, wat een extractie-artefact is waarbij een getal uit de tabelcel losraakte. B5: r108 'In hoofde van A en B wordt dan als volgt gehandeld' en r155 'In hoofde van aandeelhouder D wordt als volgt gehandeld' zijn functionele tussenkopjes zonder heading-markup (plain text). Overige 4 voorbeelden en voetnoten zijn volledig en correct."
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:27Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:15Z'
       heading_count: 6
       max_section_chars: 8510
       file_size_chars: 26776
       flags: []
     layer2:
+      status: needs-rework
       agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:23:04Z'
+      rationale: "E2: tabel Voorbeeld 3 (r300-304) is gebroken — de celwaarde '9.500' staat op een eigen lege regel gevolgd door een verweesde pipe-rij, wat een extractie-artefact is waarbij een getal uit de tabelcel losraakte. B5: r108 'In hoofde van A en B wordt dan als volgt gehandeld' en r155 'In hoofde van aandeelhouder D wordt als volgt gehandeld' zijn functionele tussenkopjes zonder heading-markup (plain text). Overige 4 voorbeelden en voetnoten zijn volledig en correct."
       concrete_problemen:
-        - categorie: E2
-          regel: 288
+        - regel: 300
+          categorie: E2
           type: other
-          voorbeeld: '| | | \n\n9.500\n\n  | | | | 9.500 |'
-        - categorie: B5
-          regel: 96
+          voorbeeld: "| | | \n\n9.500\n\n  | | | | 9.500 |"
+        - regel: 108
+          categorie: B5
           type: other
           voorbeeld: In hoofde van A en B wordt dan als volgt gehandeld
-        - categorie: B5
-          regel: 143
+        - regel: 155
+          categorie: B5
           type: other
           voorbeeld: In hoofde van aandeelhouder D wordt als volgt gehandeld
-      rationale: 'E2: tabel in Voorbeeld 3 is gebroken op r288-292: de afsluitende cel ''9.500'' staat op een aparte lege regel gevolgd door een verweesde pipe-rij, vermoedelijk een extractie-artefact waarbij een getalswaarde uit de tabelcel gelicht werd. B3: lege heading ''In hoofde van A en B wordt dan als volgt gehandeld'' (r96) en ''In hoofde van aandeelhouder D wordt als volgt gehandeld'' (r143) zijn plain-text tussenkopjes zonder heading-markup. Inhoud verder compleet en goed gestructureerd.'
-      run_at: '2026-05-11T12:09:17Z'
-      status: needs-rework
-    rationale: 'E2: tabel in Voorbeeld 3 is gebroken op r288-292: de afsluitende cel ''9.500'' staat op een aparte lege regel gevolgd door een verweesde pipe-rij, vermoedelijk een extractie-artefact waarbij een getalswaarde uit de tabelcel gelicht werd. B3: lege heading ''In hoofde van A en B wordt dan als volgt gehandeld'' (r96) en ''In hoofde van aandeelhouder D wordt als volgt gehandeld'' (r143) zijn plain-text tussenkopjes zonder heading-markup. Inhoud verder compleet en goed gestructureerd.'
-    status: needs-rework
 themas:
   - partiële splitsing
 ---

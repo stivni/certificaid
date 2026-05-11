@@ -13,49 +13,45 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-dekkingsverrichtingen-en-gedekte-posities-in-aandelen
 nummer: CBN-advies 2012/18
 provenance:
-  generated_at: '2026-05-11T13:05:08Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-aandelenopties-als-zodanig
       sha256: fc78f1e6b4713cd70bf6ff7237844f6824545cbb67521c65005f9e111f846db1
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:12Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T12:16:34Z'
+    status: needs-rework
+    confirmed_at: '2026-05-11T13:30:32Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: "D4: heading-labels op regels 269 en 279 bevatten malformed italic ('######  * Uitoefening van een call-optie*' resp. '######  * Uitoefening van een put-optie *') — spatie na/voor de `*` maakt de italic syntactisch incorrect en verhindert rendering. B3: de H1-titel op regel 65 is slechts eenmaal aanwezig (B3-fix bevestigd — duplicaat verwijderd), maar de D4-problemen zijn nog aanwezig."
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:28Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:16Z'
       heading_count: 32
       max_section_chars: 19888
       file_size_chars: 39083
       flags: []
     layer2:
+      status: needs-rework
       agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:30:32Z'
+      rationale: "D4: heading-labels op regels 269 en 279 bevatten malformed italic ('######  * Uitoefening van een call-optie*' resp. '######  * Uitoefening van een put-optie *') — spatie na/voor de `*` maakt de italic syntactisch incorrect en verhindert rendering. B3: de H1-titel op regel 65 is slechts eenmaal aanwezig (B3-fix bevestigd — duplicaat verwijderd), maar de D4-problemen zijn nog aanwezig."
       concrete_problemen:
-        - categorie: B3
-          regel: 53
-          type: other
-          voorbeeld: '# CBN advies 2012/18 – De boekhoudkundige verwerking van aandelenopties (als zodanig) [dubbel op r53 en r55]'
-        - categorie: D4
-          regel: 264
+        - regel: 269
+          categorie: D4
           type: other
           voorbeeld: '###### * Uitoefening van een call-optie*'
-        - categorie: D4
-          regel: 274
+        - regel: 279
+          categorie: D4
           type: other
           voorbeeld: '###### * Uitoefening van een put-optie *'
-      rationale: 'B3: de H1-titel wordt dubbel herhaald op regels 53 en 55 (twee opeenvolgende identieke `# CBN advies 2012/18 ...` regels). D4: heading-labels op regels 264 en 274 bevatten malformed italic (`###### * Uitoefening van een call-optie*` resp. `###### * Uitoefening van een put-optie *`) — spatie na/voor de `*` maakt de italic syntactisch incorrect.'
-      run_at: '2026-05-11T12:16:34Z'
-      status: needs-rework
-    rationale: 'B3: de H1-titel wordt dubbel herhaald op regels 53 en 55 (twee opeenvolgende identieke `# CBN advies 2012/18 ...` regels). D4: heading-labels op regels 264 en 274 bevatten malformed italic (`###### * Uitoefening van een call-optie*` resp. `###### * Uitoefening van een put-optie *`) — spatie na/voor de `*` maakt de italic syntactisch incorrect.'
-    status: needs-rework
 themas:
   - aandelenopties
   - call-optie

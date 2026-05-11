@@ -3,53 +3,65 @@ bron: https://www.cbn-cnc.be/nl/adviezen/termijnovereenkomsten-op-handelsgoedere
 datum: 1988-06-01
 nummer: CBN-advies 132/4
 provenance:
-  generated_at: '2026-05-11T13:05:06Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/termijnovereenkomsten-op-handelsgoederen
       sha256: fba281e0eaf4069ff985457ce4e9bcd65ae43e05810f2cb55639e7daa3afe6f7
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:10Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T12:04:41Z'
+    status: needs-rework
+    confirmed_at: '2026-05-11T13:16:02Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: "B2: heading-hiërarchie inconsistent — document opent met ### Beginselen (H3) zonder voorafgaand H2, en ## Voorbeelden (H2) bevat direct #### Specifieke dekkingsverrichtingen (H4) zonder H3 ertussen. A4 op L162: U+00AC (¬) als koppelteken in 'in-resultaat¬neming'. A6: meerdere hyphen-spatie word-splits ('in-resultaat- neming' op L97 en L109, 'prijs- risico' op L113, 'niet- samenvallen' op L172, 'niet- gerealiseerde' op L125)."
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:25Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:14Z'
       heading_count: 8
       max_section_chars: 4052
       file_size_chars: 12188
       flags: []
     layer2:
+      status: needs-rework
       agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:16:02Z'
+      rationale: "B2: heading-hiërarchie inconsistent — document opent met ### Beginselen (H3) zonder voorafgaand H2, en ## Voorbeelden (H2) bevat direct #### Specifieke dekkingsverrichtingen (H4) zonder H3 ertussen. A4 op L162: U+00AC (¬) als koppelteken in 'in-resultaat¬neming'. A6: meerdere hyphen-spatie word-splits ('in-resultaat- neming' op L97 en L109, 'prijs- risico' op L113, 'niet- samenvallen' op L172, 'niet- gerealiseerde' op L125)."
       concrete_problemen:
-        - categorie: B2
-          regel: 52
+        - regel: 68
+          categorie: B2
           type: other
-          voorbeeld: '### Beginselen (H1 → H3, geen H2)'
-        - categorie: B2
-          regel: 113
+          voorbeeld: '### Beginselen (H3 direct na H1, geen H2 ertussen)'
+        - regel: 115
+          categorie: B2
           type: other
-          voorbeeld: '#### Specifieke dekkingsverrichtingen (H2 → H4, geen H3)'
-        - categorie: A4
-          regel: 154
+          voorbeeld: '## Voorbeelden → #### Specifieke dekkingsverrichtingen (H2→H4, geen H3)'
+        - regel: 97
+          categorie: A6
           type: other
-          voorbeeld: in-resultaat¬neming (U+00AC als koppelteken)
-        - categorie: A6
-          regel: 97
+          voorbeeld: '...niet voor in-resultaat- neming vatbaar is.'
+        - regel: 113
+          categorie: A6
           type: other
           voorbeeld: '...het hieraan verbonden prijs- risico gedekt...'
-      rationale: 'B2: heading-hiërarchie inconsistent (H1 → H3 op L52; H2 ''Voorbeelden'' → H4 op L113 zonder H3). A4 op L154: U+00AC (¬) gebruikt als koppelteken in ''in-resultaat¬neming'' — een PDF-extractie-artefact. Meerdere ''woord- splitstukken'' (''prijs- risico'', ''in-resultaat- neming'', ''niet- samenvallen'') zijn licht maar consistent aanwezig.'
-      run_at: '2026-05-11T12:04:41Z'
-      status: needs-rework
-    rationale: 'B2: heading-hiërarchie inconsistent (H1 → H3 op L52; H2 ''Voorbeelden'' → H4 op L113 zonder H3). A4 op L154: U+00AC (¬) gebruikt als koppelteken in ''in-resultaat¬neming'' — een PDF-extractie-artefact. Meerdere ''woord- splitstukken'' (''prijs- risico'', ''in-resultaat- neming'', ''niet- samenvallen'') zijn licht maar consistent aanwezig.'
-    status: needs-rework
+        - regel: 125
+          categorie: A6
+          type: other
+          voorbeeld: '...zowel een niet-gerealiseerd verlies... als een niet- gerealiseerde winst...'
+        - regel: 162
+          categorie: A4
+          type: other
+          voorbeeld: in-resultaat¬neming (U+00AC als koppelteken)
+        - regel: 172
+          categorie: A6
+          type: other
+          voorbeeld: '...wegens het niet- samenvallen van de vervaldagen (mismatching).'
 themas:
   - gedekte verrichting
   - handelsgoederen

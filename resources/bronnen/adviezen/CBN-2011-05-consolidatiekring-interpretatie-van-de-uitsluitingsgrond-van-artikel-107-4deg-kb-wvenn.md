@@ -16,41 +16,45 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/verrichtingen-met-betrekking-tot-inschrijvingsrechten
 nummer: CBN-advies 2011/5
 provenance:
-  generated_at: '2026-05-11T13:05:08Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/consolidatiekring-interpretatie-van-de-uitsluitingsgrond-van-artikel-107-4deg-kb-wvenn
       sha256: 19ae099a4947ba1cd38dcf0fb2668319275361ee3938d1510602b6969f3f99af
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:11Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T12:09:18Z'
+    status: needs-rework
+    confirmed_at: '2026-05-11T13:23:04Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: "Regel 73: 'artikel 107, 4° KB W.Venn.' staat als geïsoleerde plain-text regel direct na H1 en vóór de eerste ## heading (B5) — een zweefzin die noch heading noch inleiding-alinea is. Regel 104: 'Aandelen die krachtens een beslissing van de vennootschap bestemd zijn om binnen het jaar te worden vervreemd' staat als plain-text sectietitel direct vóór een alinea, zonder ##/### prefix (B5) — dit had een ### heading moeten zijn conform de structuur van het advies. Overige inhoud correct en volledig."
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:28Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:16Z'
       heading_count: 4
       max_section_chars: 3637
       file_size_chars: 5734
       flags: []
     layer2:
+      status: needs-rework
       agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:23:04Z'
+      rationale: "Regel 73: 'artikel 107, 4° KB W.Venn.' staat als geïsoleerde plain-text regel direct na H1 en vóór de eerste ## heading (B5) — een zweefzin die noch heading noch inleiding-alinea is. Regel 104: 'Aandelen die krachtens een beslissing van de vennootschap bestemd zijn om binnen het jaar te worden vervreemd' staat als plain-text sectietitel direct vóór een alinea, zonder ##/### prefix (B5) — dit had een ### heading moeten zijn conform de structuur van het advies. Overige inhoud correct en volledig."
       concrete_problemen:
-        - categorie: B5
-          regel: 69
+        - regel: 73
+          categorie: B5
           type: other
           voorbeeld: artikel 107, 4° KB W.Venn.
-      rationale: 'Regel 69: ''artikel 107, 4° KB W.Venn.'' staat als plain text na de H1-titel maar vóór de eerste ## heading — dit is een losse sub-titelregel die als heading had moeten worden opgenomen of als inleiding-alinea, niet als zweefzin (B5/B1-patroon). Inhoud en vijf headings zijn overigens correct en volledig.'
-      run_at: '2026-05-11T12:09:18Z'
-      status: needs-rework
-    rationale: 'Regel 69: ''artikel 107, 4° KB W.Venn.'' staat als plain text na de H1-titel maar vóór de eerste ## heading — dit is een losse sub-titelregel die als heading had moeten worden opgenomen of als inleiding-alinea, niet als zweefzin (B5/B1-patroon). Inhoud en vijf headings zijn overigens correct en volledig.'
-    status: needs-rework
+        - regel: 104
+          categorie: B5
+          type: other
+          voorbeeld: Aandelen die krachtens een beslissing van de vennootschap bestemd zijn om binnen het jaar te worden vervreemd
 themas:
   - aandelen
   - aandelen uitsluitend gehouden met het oog op latere vervreemding

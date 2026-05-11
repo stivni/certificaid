@@ -3,37 +3,45 @@ bron: https://www.cbn-cnc.be/nl/adviezen/transacties-onder-gemeenschappelijke-le
 datum: 2017-09-13
 nummer: CBN-advies 2017/15
 provenance:
-  generated_at: '2026-05-11T13:05:08Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/transacties-onder-gemeenschappelijke-leiding-common-control-transactions-update
       sha256: e34d71c0b915d2915bedf5f2e0faf1e45742e2108099e419f5bcf364e08f69b4
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:12Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at:
-    confirmed_by:
+    status: needs-rework
+    confirmed_at: '2026-05-11T13:30:33Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "E1/E2: de drie balans-tabellen op regels 63-67, 71-73 en 77-83 missen de verplichte markdown-tabel-separator-rij (|---|---|). Ze zijn enkel als pipe-separated rijen geschreven zonder headeronderstreep, waardoor ze niet renderen als markdown-tabellen. Bijkomend: regel 51 bevat ', bijgewerkt op 10 september 2025[^2]' als losse regel direct na de #-titel — een orphan-zin die geen heading-inhoud is maar ook niet als alinea herkend wordt."
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:29Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:17Z'
       heading_count: 3
       max_section_chars: 4117
       file_size_chars: 8749
       flags: []
     layer2:
-      agent:
-      concrete_problemen: []
-      rationale:
-      run_at:
-      status: not_run
-    rationale: 'Trust gereset 2026-05-11: re-scrape met scraper-fixes, content-diff > 5%'
-    status: unreviewed
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:30:33Z'
+      rationale: "E1/E2: de drie balans-tabellen op regels 63-67, 71-73 en 77-83 missen de verplichte markdown-tabel-separator-rij (|---|---|). Ze zijn enkel als pipe-separated rijen geschreven zonder headeronderstreep, waardoor ze niet renderen als markdown-tabellen. Bijkomend: regel 51 bevat ', bijgewerkt op 10 september 2025[^2]' als losse regel direct na de #-titel — een orphan-zin die geen heading-inhoud is maar ook niet als alinea herkend wordt."
+      concrete_problemen:
+        - regel: 63
+          categorie: E1
+          type: other
+          voorbeeld: "| 31 december 20X0 | \n| Positief consolidatieverschil | | 100 | (geen |---|---| separator)"
+        - regel: 51
+          categorie: B3
+          type: other
+          voorbeeld: ', bijgewerkt op 10 september 2025[^2] (orphan-zin na # heading)'
 themas:
   - bedrijfscombinatie
   - common control transactie

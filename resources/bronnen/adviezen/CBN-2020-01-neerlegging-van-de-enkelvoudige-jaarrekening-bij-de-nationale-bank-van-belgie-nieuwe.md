@@ -16,49 +16,49 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-buitenlandse-vennootschappen-eigen-boekhoudkundige
 nummer: CBN-advies 2020/01
 provenance:
-  generated_at: '2026-05-11T13:05:08Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/neerlegging-van-de-enkelvoudige-jaarrekening-bij-de-nationale-bank-van-belgie-nieuwe
       sha256: 14f15fd95e33712adef5480cf5cefebadebb5694dcea904d867d50597eddc1f2
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:12Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T12:21:40Z'
+    status: needs-rework
+    confirmed_at: '2026-05-11T13:34:12Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: 'A3: Twee TOC-artefacten: geneste nummerlijst op regels 79-89, en aaneengesloten TOC-concatenatie op regel 91 (`Inwerkingtreding WVV en KB WVVDe te gebruiken modellen...-- Aanpassing...`). D2: Op regels 114, 116, 120 en 191-193 staan italic plaatshouders voor figuren (`*Volledig, verkort en micromodel van de jaarrekening: samenstelling...*`) zonder de eigenlijke figuur of tabel — figuurinhoud verdwenen bij extractie.'
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:30Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:18Z'
       heading_count: 10
       max_section_chars: 10887
       file_size_chars: 23769
       flags: []
     layer2:
+      status: needs-rework
       agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:34:12Z'
+      rationale: 'A3: Twee TOC-artefacten: geneste nummerlijst op regels 79-89, en aaneengesloten TOC-concatenatie op regel 91 (`Inwerkingtreding WVV en KB WVVDe te gebruiken modellen...-- Aanpassing...`). D2: Op regels 114, 116, 120 en 191-193 staan italic plaatshouders voor figuren (`*Volledig, verkort en micromodel van de jaarrekening: samenstelling...*`) zonder de eigenlijke figuur of tabel — figuurinhoud verdwenen bij extractie.'
       concrete_problemen:
-        - categorie: A3
-          regel: 79
+        - regel: 91
+          categorie: A3
           type: other
           voorbeeld: Inwerkingtreding WVV en KB WVVDe te gebruiken modellen van de jaarrekening-- Aanpassing...
-        - categorie: A3
-          regel: 66
-          type: other
-          voorbeeld: 1. Inleiding \n2. Schema van de enkelvoudige jaarrekening... (TOC in body)
-        - categorie: D2
-          regel: 109
-          type: other
-          voorbeeld: 'Volledig, verkort en micromodel...: samenstelling van het eigen vermogen van kapitaalloze vennootschappen[^16] *'
-      rationale: 'A3: Twee TOC-fragmenten staan in de body. Regels 66-80 bevatten een geneste TOC-lijst en dan op regel 79 een aaneengesloten TOC-string (''Inwerkingtreding WVV en KB WVVDe te gebruiken modellen...-- Aanpassing...'') die niet werd opgeschoond. Tevens verwijzen regels 107-115 naar figuren via placeholder-tekst (''Volledig, verkort en micromodel van de jaarrekening: samenstelling...'') die niet als heading zijn opgemaakt maar als italic inline-tekst, zonder de eigenlijke figuur/tabel.'
-      run_at: '2026-05-11T12:21:40Z'
-      status: needs-rework
-    rationale: 'A3: Twee TOC-fragmenten staan in de body. Regels 66-80 bevatten een geneste TOC-lijst en dan op regel 79 een aaneengesloten TOC-string (''Inwerkingtreding WVV en KB WVVDe te gebruiken modellen...-- Aanpassing...'') die niet werd opgeschoond. Tevens verwijzen regels 107-115 naar figuren via placeholder-tekst (''Volledig, verkort en micromodel van de jaarrekening: samenstelling...'') die niet als heading zijn opgemaakt maar als italic inline-tekst, zonder de eigenlijke figuur/tabel.'
-    status: needs-rework
+        - regel: 114
+          categorie: D2
+          type: missing-section
+          voorbeeld: '*Volledig, verkort en micromodel van de jaarrekening: samenstelling van het eigen vermogen van kapitaalvennootschappen[^15]*'
+        - regel: 193
+          categorie: D2
+          type: missing-section
+          voorbeeld: "'Nieuw' model van de jaarrekening voor kapitaalloze vennootschappen*"
 themas:
   - neerlegging van de jaarrekening
   - publicatie

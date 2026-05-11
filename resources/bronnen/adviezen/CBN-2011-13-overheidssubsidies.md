@@ -3,37 +3,61 @@ bron: https://www.cbn-cnc.be/nl/adviezen/overheidssubsidies
 datum: 2011-05-04
 nummer: CBN-advies 2011/13
 provenance:
-  generated_at: '2026-05-11T13:05:08Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/overheidssubsidies
       sha256: f994ee22711e985d88df6a643db5ad06c0f9102fb6dcbdaeb8dfcd2296467fab
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:11Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at:
-    confirmed_by:
+    status: needs-rework
+    confirmed_at: '2026-05-11T13:23:04Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "Meerdere structuur- en stijlproblemen: (1) Regels 62–88: uitgebreide plain-text inhoudsopgave direct na H1 (A3). (2) Headings bevatten extra bold/bold-italic markup binnenin: '## **Toepassingsgebied**', '### ***Tijdstip waarop de subsidie moet geboekt worden***', '### ***Interestsubidies***' — ETL heeft bold-markers niet gestript van heading-tekst (B1-patroon). (3) Regel 343: '### ***Begrip en voorstelling in de jaarrekening** *' — extra spatie vóór sluitende '*' maakt de bold+italic open (D4). (4) Regel 369: '-Inventarisboeking' — ontbrekende spatie na koppelteken maakt dit geen geldige bullet maar een samengekleefde label. (5) Regel 306: '### ***Interestsubidies***' — schrijffout in heading ('Interestsubidies' i.p.v. 'Interestsubsidies')."
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:28Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:16Z'
       heading_count: 25
       max_section_chars: 13822
       file_size_chars: 41804
       flags: []
     layer2:
-      agent:
-      concrete_problemen: []
-      rationale:
-      run_at:
-      status: not_run
-    rationale: 'Trust gereset 2026-05-11: re-scrape met scraper-fixes, content-diff > 5%'
-    status: unreviewed
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:23:04Z'
+      rationale: "Meerdere structuur- en stijlproblemen: (1) Regels 62–88: uitgebreide plain-text inhoudsopgave direct na H1 (A3). (2) Headings bevatten extra bold/bold-italic markup binnenin: '## **Toepassingsgebied**', '### ***Tijdstip waarop de subsidie moet geboekt worden***', '### ***Interestsubidies***' — ETL heeft bold-markers niet gestript van heading-tekst (B1-patroon). (3) Regel 343: '### ***Begrip en voorstelling in de jaarrekening** *' — extra spatie vóór sluitende '*' maakt de bold+italic open (D4). (4) Regel 369: '-Inventarisboeking' — ontbrekende spatie na koppelteken maakt dit geen geldige bullet maar een samengekleefde label. (5) Regel 306: '### ***Interestsubidies***' — schrijffout in heading ('Interestsubidies' i.p.v. 'Interestsubsidies')."
+      concrete_problemen:
+        - regel: 62
+          categorie: A3
+          type: other
+          voorbeeld: "1. Toepassingsgebied \n2. Algemeen \n  1. Tijdstip waarop de subsidie moet geboekt worden..."
+        - regel: 99
+          categorie: B1
+          type: other
+          voorbeeld: '## **Toepassingsgebied**'
+        - regel: 122
+          categorie: B1
+          type: other
+          voorbeeld: '### ***Tijdstip waarop de subsidie moet geboekt worden***'
+        - regel: 343
+          categorie: D4
+          type: other
+          voorbeeld: '### ***Begrip en voorstelling in de jaarrekening** *'
+        - regel: 306
+          categorie: B1
+          type: other
+          voorbeeld: '### ***Interestsubidies***'
+        - regel: 369
+          categorie: A6
+          type: other
+          voorbeeld: -Inventarisboeking
 themas:
   - administratieve overheid
   - exploitatiesubsidie

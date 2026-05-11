@@ -3,7 +3,7 @@ bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundig-niet-compensatiebeginsel
 datum: 2018-11-23
 nummer: CBN-advies 2018/20
 provenance:
-  generated_at: '2026-05-11T13:05:08Z'
+  generated_at: '2026-05-11T13:15:12Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundig-niet-compensatiebeginsel
       sha256: 568d1613dc26b400815af270a80f04670188bb30393feef47a163c9c9d37c243
@@ -20,8 +20,8 @@ provenance:
     confirmed_by: subagent-sonnet-4-6
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:30Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:17Z'
       heading_count: 4
       max_section_chars: 2848
       file_size_chars: 7717

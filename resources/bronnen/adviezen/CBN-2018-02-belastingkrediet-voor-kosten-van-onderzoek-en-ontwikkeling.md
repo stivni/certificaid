@@ -3,53 +3,45 @@ bron: https://www.cbn-cnc.be/nl/adviezen/belastingkrediet-voor-kosten-van-onderz
 datum: 2018-03-21
 nummer: CBN-advies 2018/02
 provenance:
-  generated_at: '2026-05-11T13:05:08Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/belastingkrediet-voor-kosten-van-onderzoek-en-ontwikkeling
       sha256: 03181e2a0d186a99b17dcc95fb7356e567d8df51b94f9e4f9f905c617969f555
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:12Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T12:21:40Z'
+    status: needs-rework
+    confirmed_at: '2026-05-11T13:30:33Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: "A6/E2: regels 144-145 bevatten een spurious line-break midden in een tabelcel ('Regularisering van\\n\\t\\t\\t\\tbelastingen en terugneming...') wat de tabel breekt. D4: regel 65 heeft 'CBN-advies 2016/16 - *Kosten van onderzoek en ontwikkeling:* *wijzigingen door het koninklijk besluit' waarbij na de dubbele punt een tweede italicmarkering opent, wat een ETL-artefact is (dubbelspatie-grenzen door PDF-conversie)."
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:29Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:17Z'
       heading_count: 13
       max_section_chars: 5213
       file_size_chars: 12892
       flags: []
     layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: D4
-          regel: 49
-          type: other
-          voorbeeld: '*Kosten van onderzoek en ontwikkeling:* *wijzigingen door het koninklijk besluit'
-        - categorie: D3
-          regel: 83
-          type: other
-          voorbeeld: ' [^8]'
-        - categorie: D3
-          regel: 125
-          type: other
-          voorbeeld: ' [^11]'
-        - categorie: A6
-          regel: 130
-          type: other
-          voorbeeld: '| aan | 67/77 | Belastingen op het resultaat/Regularisering van\n\t\t\t\tbelastingen...'
-      rationale: "Drie problemen: (1) D4: malformed italic op regel 49 (`*Kosten van onderzoek en ontwikkeling:* *wijzigingen...`) met dubbele asterisk-grens na de dubbele punt; (2) A6: regels 130-131 bevatten een regelbreuk midden in een tabelcel (`Regularisering van\n\t\t\t\tbelastingen...`) wat een extractie-artefact is; (3) twee zwevende voetnoot-referenties op regels 83 en 125 (` [^8]` en ` [^11]`) als losse regels zonder omringende tabelinhoud — vermoedelijk stonden hier oorspronkelijk tabelkopnoten die zijn weggevallen."
-      run_at: '2026-05-11T12:21:40Z'
       status: needs-rework
-    rationale: "Drie problemen: (1) D4: malformed italic op regel 49 (`*Kosten van onderzoek en ontwikkeling:* *wijzigingen...`) met dubbele asterisk-grens na de dubbele punt; (2) A6: regels 130-131 bevatten een regelbreuk midden in een tabelcel (`Regularisering van\n\t\t\t\tbelastingen...`) wat een extractie-artefact is; (3) twee zwevende voetnoot-referenties op regels 83 en 125 (` [^8]` en ` [^11]`) als losse regels zonder omringende tabelinhoud — vermoedelijk stonden hier oorspronkelijk tabelkopnoten die zijn weggevallen."
-    status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:30:33Z'
+      rationale: "A6/E2: regels 144-145 bevatten een spurious line-break midden in een tabelcel ('Regularisering van\\n\\t\\t\\t\\tbelastingen en terugneming...') wat de tabel breekt. D4: regel 65 heeft 'CBN-advies 2016/16 - *Kosten van onderzoek en ontwikkeling:* *wijzigingen door het koninklijk besluit' waarbij na de dubbele punt een tweede italicmarkering opent, wat een ETL-artefact is (dubbelspatie-grenzen door PDF-conversie)."
+      concrete_problemen:
+        - regel: 144
+          categorie: A6
+          type: other
+          voorbeeld: "| aan | 67/77 | Belastingen op het resultaat/Regularisering van\n\t\t\t\tbelastingen... (regelbreuk in tabelcel)"
+        - regel: 65
+          categorie: D4
+          type: other
+          voorbeeld: '*Kosten van onderzoek en ontwikkeling:* *wijzigingen door het koninklijk besluit (dubbele asterisk-grens)'
 themas:
   - belastingkrediet
   - belasting

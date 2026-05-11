@@ -16,7 +16,7 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/aansluitingskosten-en-installatiekosten-waarbij-derden-de-eigendom-van-de-installatie
 nummer: CBN-advies 2021/09
 provenance:
-  generated_at: '2026-05-11T13:05:08Z'
+  generated_at: '2026-05-11T13:15:12Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/rekening-26-overige-materiele-vaste-activa
       sha256: be4ebe2add6f9dadcf20b4514d83355b8ca1e178901f445fb910c8d2c410e956
@@ -33,8 +33,8 @@ provenance:
     confirmed_by: subagent-sonnet-4-6
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:30Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:18Z'
       heading_count: 3
       max_section_chars: 5041
       file_size_chars: 6761

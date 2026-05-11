@@ -3,45 +3,45 @@ bron: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-het-s
 datum: 2010-02-10
 nummer: CBN-advies 2010/2
 provenance:
-  generated_at: '2026-05-11T13:05:07Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-het-stelsel-tot-gedeeltelijke-vrijstelling-van-betaling
       sha256: 4ca6ce7a38ebe388884f6c7802f6c703a384627e824c29020c4668e937c641c5
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:11Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T12:09:17Z'
+    status: needs-rework
+    confirmed_at: '2026-05-11T13:23:04Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: "D4: r74 bevat 'hoewel* \"de bedoelde instellingen...' — asterisk direct vóór aanhalingsteken met spatie na de asterisk, wat een malformed italic-marker is (opening-asterisk-patroon '* \"'). R68 bevat 'rekening 150 *Kapitaalsubsidie* van de vennootschap' — hier ziet de italic er correct uit, maar dit is hetzelfde ETL-patroon als in 2009/13 en verdient verificatie. Klein bestand met slechts 3 inhoudssecties, maar de artefacten zijn reëel."
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:27Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:15Z'
       heading_count: 3
       max_section_chars: 1483
       file_size_chars: 4774
       flags: []
     layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: D4
-          regel: 67
-          type: other
-          voorbeeld: '*" het steeds de bedoeling van de wetgever is geweest...'
-        - categorie: D4
-          regel: 61
-          type: other
-          voorbeeld: 150 *Kapitaalsubsidie *van de vennootschap
-      rationale: 'D4: op r67 staat ''*" het steeds de bedoeling...'' — de opening asterisk voor een aanhalingsteken gevolgd door een spatie is een malformed italic-marker (patroon ''* "''). Zelfde patroon op r61: ''rekening 150 *Kapitaalsubsidie *van de vennootschap''. Klein bestand (3 secties), maar beide instances zijn echt ETL-spatie-artefacten.'
-      run_at: '2026-05-11T12:09:17Z'
       status: needs-rework
-    rationale: 'D4: op r67 staat ''*" het steeds de bedoeling...'' — de opening asterisk voor een aanhalingsteken gevolgd door een spatie is een malformed italic-marker (patroon ''* "''). Zelfde patroon op r61: ''rekening 150 *Kapitaalsubsidie *van de vennootschap''. Klein bestand (3 secties), maar beide instances zijn echt ETL-spatie-artefacten.'
-    status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:23:04Z'
+      rationale: "D4: r74 bevat 'hoewel* \"de bedoelde instellingen...' — asterisk direct vóór aanhalingsteken met spatie na de asterisk, wat een malformed italic-marker is (opening-asterisk-patroon '* \"'). R68 bevat 'rekening 150 *Kapitaalsubsidie* van de vennootschap' — hier ziet de italic er correct uit, maar dit is hetzelfde ETL-patroon als in 2009/13 en verdient verificatie. Klein bestand met slechts 3 inhoudssecties, maar de artefacten zijn reëel."
+      concrete_problemen:
+        - regel: 74
+          categorie: D4
+          type: other
+          voorbeeld: hoewel* "de bedoelde instellingen de vrijheid behouden om te beoordelen
+        - regel: 68
+          categorie: D4
+          type: other
+          voorbeeld: rekening 150 *Kapitaalsubsidie *van de vennootschap (trailing space voor closing *)
 themas:
   - bedrijfsvoorheffing
   - compensatie

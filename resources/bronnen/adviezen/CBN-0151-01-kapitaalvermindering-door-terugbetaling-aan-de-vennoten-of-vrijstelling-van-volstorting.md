@@ -16,45 +16,45 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/van-een-kapitaalhoudende-bvba-naar-een-kapitaalloze-bv
 nummer: CBN-advies 151/1
 provenance:
-  generated_at: '2026-05-11T13:05:06Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/kapitaalvermindering-door-terugbetaling-aan-de-vennoten-of-vrijstelling-van-volstorting
       sha256: 2c34d7979e80bfbd6561058adfafea05e047e5a8132eff5aa7e6653a664220fc
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:10Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T12:04:41Z'
+    status: needs-rework
+    confirmed_at: '2026-05-11T13:23:04Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: "E2: alle journaalboekingstabellen hebben lege debet- en creditkolommen (regels 79-80, 92-93, 97-99) — de cijfers ontbreken volledig, wat niet de opzet van het brondocument is. Bovendien staat op regel 99 '| aan | | 101 | | Niet-opgevraagd kapitaal |' met een extra lege cel, wat een structuurverschuiving veroorzaakt ten opzichte van de header."
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:26Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:15Z'
       heading_count: 1
       max_section_chars: 3764
       file_size_chars: 3764
       flags: []
     layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: E2
-          regel: 71
-          type: other
-          voorbeeld: '| | 100 | Geplaatst kapitaal | | | (debet/credit leeg)'
-        - categorie: E2
-          regel: 92
-          type: other
-          voorbeeld: '| aan | | 101 | | Niet-opgevraagd kapitaal | (cel-offset)'
-      rationale: 'E2: de journaalboekingstabellen zijn structureel incompleet — debet- en creditkolommen zijn leeg voor alle boekingsregels (regels 71-72, 84-85, 91-92), wat niet de opzet van het brondocument is (cijfers ontbreken). Bovendien staat op regel 92 ''aan | | 101 | | Niet-opgevraagd kapitaal'' met een extra lege cel, wat een tabelstructuurfout is (cel verschoven ten opzichte van de header). Inhoud en argumentatie wel compleet.'
-      run_at: '2026-05-11T12:04:41Z'
       status: needs-rework
-    rationale: 'E2: de journaalboekingstabellen zijn structureel incompleet — debet- en creditkolommen zijn leeg voor alle boekingsregels (regels 71-72, 84-85, 91-92), wat niet de opzet van het brondocument is (cijfers ontbreken). Bovendien staat op regel 92 ''aan | | 101 | | Niet-opgevraagd kapitaal'' met een extra lege cel, wat een tabelstructuurfout is (cel verschoven ten opzichte van de header). Inhoud en argumentatie wel compleet.'
-    status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:23:04Z'
+      rationale: "E2: alle journaalboekingstabellen hebben lege debet- en creditkolommen (regels 79-80, 92-93, 97-99) — de cijfers ontbreken volledig, wat niet de opzet van het brondocument is. Bovendien staat op regel 99 '| aan | | 101 | | Niet-opgevraagd kapitaal |' met een extra lege cel, wat een structuurverschuiving veroorzaakt ten opzichte van de header."
+      concrete_problemen:
+        - regel: 79
+          categorie: E2
+          type: other
+          voorbeeld: '| | 100 | Geplaatst kapitaal | | |'
+        - regel: 99
+          categorie: E2
+          type: other
+          voorbeeld: '| aan | | 101 | | Niet-opgevraagd kapitaal |'
 themas:
   - kapitaal
   - kapitaalvermindering

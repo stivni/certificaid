@@ -7,49 +7,49 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/boeking-van-bonusaandelen
 nummer: CBN-advies 2010/3
 provenance:
-  generated_at: '2026-05-11T13:05:07Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-stockdividenden
       sha256: c15147cac20fa5f43b85a2ac282cdc0c16a2365199873b4b4135ab42e1634a48
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:11Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T12:09:17Z'
+    status: needs-rework
+    confirmed_at: '2026-05-11T13:23:04Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: "A3: r63-65 bevat een plain-text genummerde inhoudsopgave ('1. Stockdividenden versus bonusaandelen / 2. Vorderingsrecht... / 3. Boekhoudkundige verwerking') direct in de body, terwijl de eigenlijke inhoud als ## headings verder staat (r73, r88, r94) — een TOC-fragment dat niet verwijderd werd bij extractie. G3: voetnootankers [^10] en [^12] komen los voor in de tekst als verweesde ankertekens zonder omringende zin (r90-gebied en r118-gebied) — inline footnote-content die bij extractie losraakte. De overige footenootteksten zijn correct gedefinieerd."
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:27Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:15Z'
       heading_count: 3
       max_section_chars: 4673
       file_size_chars: 8113
       flags: []
     layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: A2
-          regel: 51
-          type: dotted-leader
-          voorbeeld: 1. Stockdividenden versus bonusaandelen \n2. Vorderingsrecht in hoofde van de aandeelhouder
-        - categorie: G3
-          regel: 90
-          type: other
-          voorbeeld: ' [^10]  (verweest voetnootanker als losse regel vóór tabel)'
-        - categorie: G3
-          regel: 118
-          type: other
-          voorbeeld: ' [^12]  (verweest voetnootanker als losse regel vóór tabel)'
-      rationale: 'A2/B7: op r51-53 staat een genummerde lijst ''1. Stockdividenden versus bonusaandelen / 2. Vorderingsrecht... / 3. Boekhoudkundige verwerking'' als plain text in de body — dit is een TOC-fragment dat niet verwijderd werd bij extractie, terwijl de echte inhoud als ## headings verder volgt. G3: r90 en r118 bevatten verweesde voetnootankers '' [^10]'' en '' [^12]'' als losse regels midden in de tekst (zonder context-zin), vermoedelijk inline footnote-content die bij PDF-extractie los raakte.'
-      run_at: '2026-05-11T12:09:17Z'
       status: needs-rework
-    rationale: 'A2/B7: op r51-53 staat een genummerde lijst ''1. Stockdividenden versus bonusaandelen / 2. Vorderingsrecht... / 3. Boekhoudkundige verwerking'' als plain text in de body — dit is een TOC-fragment dat niet verwijderd werd bij extractie, terwijl de echte inhoud als ## headings verder volgt. G3: r90 en r118 bevatten verweesde voetnootankers '' [^10]'' en '' [^12]'' als losse regels midden in de tekst (zonder context-zin), vermoedelijk inline footnote-content die bij PDF-extractie los raakte.'
-    status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:23:04Z'
+      rationale: "A3: r63-65 bevat een plain-text genummerde inhoudsopgave ('1. Stockdividenden versus bonusaandelen / 2. Vorderingsrecht... / 3. Boekhoudkundige verwerking') direct in de body, terwijl de eigenlijke inhoud als ## headings verder staat (r73, r88, r94) — een TOC-fragment dat niet verwijderd werd bij extractie. G3: voetnootankers [^10] en [^12] komen los voor in de tekst als verweesde ankertekens zonder omringende zin (r90-gebied en r118-gebied) — inline footnote-content die bij extractie losraakte. De overige footenootteksten zijn correct gedefinieerd."
+      concrete_problemen:
+        - regel: 63
+          categorie: A3
+          type: other
+          voorbeeld: "1. Stockdividenden versus bonusaandelen \n2. Vorderingsrecht in hoofde van de aandeelhouder \n3. Boekhoudkundige verwerking"
+        - regel: 90
+          categorie: G3
+          type: other
+          voorbeeld: '[^10]  (verweest voetnootanker als losse positie vóór tabel, zonder context-zin)'
+        - regel: 118
+          categorie: G3
+          type: other
+          voorbeeld: '[^12]  (verweest voetnootanker als losse positie vóór tabel, zonder context-zin)'
 themas:
   - bonusaandelen
   - dividenden

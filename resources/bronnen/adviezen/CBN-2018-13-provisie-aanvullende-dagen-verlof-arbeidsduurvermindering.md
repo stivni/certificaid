@@ -3,45 +3,45 @@ bron: https://www.cbn-cnc.be/nl/adviezen/provisie-aanvullende-dagen-verlof-arbei
 datum: 2018-05-30
 nummer: CBN-advies 2018/13
 provenance:
-  generated_at: '2026-05-11T13:05:08Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/provisie-aanvullende-dagen-verlof-arbeidsduurvermindering
       sha256: b628cdfb65bc905f228c256ec3eeaec820ce3d97ccddc11bc7973be31a7556d8
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:12Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T12:21:40Z'
+    status: needs-rework
+    confirmed_at: '2026-05-11T13:34:12Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: 'Bevestiging van bestaand verdict. D4: malformed italic op regels 74 en 76 — `die* in vast dienstverband[^4] *` en `rekening 444 *Te ontvangen facturen. *` met spatie voor sluitende asterisk. Patroon consistent met andere 2018-adviezen uit dezelfde ETL-batch.'
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:29Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:17Z'
       heading_count: 2
       max_section_chars: 2519
       file_size_chars: 5162
       flags: []
     layer2:
+      status: needs-rework
       agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:34:12Z'
+      rationale: 'Bevestiging van bestaand verdict. D4: malformed italic op regels 74 en 76 — `die* in vast dienstverband[^4] *` en `rekening 444 *Te ontvangen facturen. *` met spatie voor sluitende asterisk. Patroon consistent met andere 2018-adviezen uit dezelfde ETL-batch.'
       concrete_problemen:
-        - categorie: D4
-          regel: 66
+        - regel: 74
+          categorie: D4
           type: other
           voorbeeld: Voor werknemers die* in vast dienstverband[^4] * werken
-        - categorie: D4
-          regel: 68
+        - regel: 76
+          categorie: D4
           type: other
           voorbeeld: rekening 444 *Te ontvangen facturen. *
-      rationale: 'D4: drie gevallen van malformed italic op regels 66 en 68 (''die* in vast dienstverband[^4] *'', ''*Te ontvangen facturen. *'') waarbij de spatie vóór de sluitende asterisk staat. Regel 66 heeft ook een asterisk vóór de tekst (opens middenin een zin). Verder inhoud structureel compleet en correct.'
-      run_at: '2026-05-11T12:21:40Z'
-      status: needs-rework
-    rationale: 'D4: drie gevallen van malformed italic op regels 66 en 68 (''die* in vast dienstverband[^4] *'', ''*Te ontvangen facturen. *'') waarbij de spatie vóór de sluitende asterisk staat. Regel 66 heeft ook een asterisk vóór de tekst (opens middenin een zin). Verder inhoud structureel compleet en correct.'
-    status: needs-rework
 themas:
   - arbeidsduurvermindering
   - adv-dagen

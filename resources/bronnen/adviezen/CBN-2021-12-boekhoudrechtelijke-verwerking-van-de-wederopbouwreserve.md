@@ -3,41 +3,49 @@ bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudrechtelijke-verwerking-van-de-w
 datum: 2021-07-12
 nummer: CBN-advies 2021/12
 provenance:
-  generated_at: '2026-05-11T13:05:08Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudrechtelijke-verwerking-van-de-wederopbouwreserve
       sha256: 3feb5c08df659031ce4ad5a7979f068cea92f3e4bb5854713c6db51fef10d85b
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:12Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T12:21:41Z'
+    status: needs-rework
+    confirmed_at: '2026-05-11T13:34:12Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: "D4: op L49 staat '*Wet van 19 november 2020 … [^2]*  ' met spatie vóór de afsluitende asterisk doordat een voetnootanker binnen de italic-span staat — extractie-artefact. Zelfde patroon op L80 ('*  een bedrag is opgenomen') en L81 ('*Bezoldigingen en rechtstreekse sociale voordelen*' met afsluitende spatie). Op L148: 'rekening* 1109 Andere beschikbare inbreng buiten kapitaal*' — leading asterisk zonder prefix-spatie maar met spatie na 'rekening'. Inhoud volledig, alle tabellen correct, 24 voetnoten aanwezig."
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:30Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:18Z'
       heading_count: 6
       max_section_chars: 6995
       file_size_chars: 17538
       flags: []
     layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: D4
-          regel: 49
-          type: other
-          voorbeeld: '*Wet van 19 november 2020 houdende de invoering van een wederopbouwreserve voor vennootschappen[^2] *'
-      rationale: 'D4: malformed italic op L49 — ''*Wet van 19 november 2020 … [^2] *'' heeft een spatie vóór de afsluitende asterisk doordat een footnote-anker binnen de italic-span staat; extractie-artefact. Inhoud is volledig en de zes headings zijn correct met alle 24 voetnootdefinities aanwezig.'
-      run_at: '2026-05-11T12:21:41Z'
       status: needs-rework
-    rationale: 'D4: malformed italic op L49 — ''*Wet van 19 november 2020 … [^2] *'' heeft een spatie vóór de afsluitende asterisk doordat een footnote-anker binnen de italic-span staat; extractie-artefact. Inhoud is volledig en de zes headings zijn correct met alle 24 voetnootdefinities aanwezig.'
-    status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:34:12Z'
+      rationale: "D4: op L49 staat '*Wet van 19 november 2020 … [^2]*  ' met spatie vóór de afsluitende asterisk doordat een voetnootanker binnen de italic-span staat — extractie-artefact. Zelfde patroon op L80 ('*  een bedrag is opgenomen') en L81 ('*Bezoldigingen en rechtstreekse sociale voordelen*' met afsluitende spatie). Op L148: 'rekening* 1109 Andere beschikbare inbreng buiten kapitaal*' — leading asterisk zonder prefix-spatie maar met spatie na 'rekening'. Inhoud volledig, alle tabellen correct, 24 voetnoten aanwezig."
+      concrete_problemen:
+        - regel: 49
+          categorie: D4
+          type: other
+          voorbeeld: '*Wet van 19 november 2020 houdende de invoering van een wederopbouwreserve voor vennootschappen[^2]*  '
+        - regel: 80
+          categorie: D4
+          type: other
+          voorbeeld: '*  een bedrag is opgenomen onder een drempel van 85 procent'
+        - regel: 148
+          categorie: D4
+          type: other
+          voorbeeld: rekening* 1109 Andere beschikbare inbreng buiten kapitaal*
 themas:
   - wederopbouwreserve
   - COVID-19

@@ -16,61 +16,61 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/interimdividend-versus-tussentijds-dividend
 nummer: CBN-advies 177/1
 provenance:
-  generated_at: '2026-05-11T13:05:06Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-mini-bel-20
       sha256: 6d2235a17fd87aaf0a7dcf0318f20a09d38522928c5597a0786a41f8a11535eb
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:10Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T12:09:17Z'
+    status: needs-rework
+    confirmed_at: '2026-05-11T13:23:04Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: "B3: vier lege ##### headings op r.148, 154, 195, 201 — structuurlabels zonder tekst, een mens schrijft nooit een kopje zonder titel. A4: U+00AC (¬) op r.114 en r.128 als pseudo-koppelteken (bv. 'IPU¬emittenten', '(50 jaar) ¬niet als') — geen standaard markdown-teken, PDF-artefact. Beide types zijn ETL-fixeerbaar."
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:27Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:15Z'
       heading_count: 16
       max_section_chars: 9933
       file_size_chars: 19992
       flags: []
     layer2:
+      status: needs-rework
       agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:23:04Z'
+      rationale: "B3: vier lege ##### headings op r.148, 154, 195, 201 — structuurlabels zonder tekst, een mens schrijft nooit een kopje zonder titel. A4: U+00AC (¬) op r.114 en r.128 als pseudo-koppelteken (bv. 'IPU¬emittenten', '(50 jaar) ¬niet als') — geen standaard markdown-teken, PDF-artefact. Beide types zijn ETL-fixeerbaar."
       concrete_problemen:
-        - categorie: B3
-          regel: 125
+        - regel: 148
+          categorie: B3
           type: other
-          voorbeeld: '##### (lege heading zonder tekst)'
-        - categorie: B3
-          regel: 131
+          voorbeeld: "##### (lege heading zonder tekst na 'Sluiten van de positie')"
+        - regel: 154
+          categorie: B3
           type: other
-          voorbeeld: '##### (lege heading zonder tekst)'
-        - categorie: B3
-          regel: 173
+          voorbeeld: '##### (tweede lege heading zonder tekst)'
+        - regel: 195
+          categorie: B3
           type: other
-          voorbeeld: '##### (lege heading zonder tekst)'
-        - categorie: B3
-          regel: 179
+          voorbeeld: '##### (derde lege heading zonder tekst)'
+        - regel: 201
+          categorie: B3
           type: other
-          voorbeeld: '##### (lege heading zonder tekst)'
-        - categorie: A4
-          regel: 90
+          voorbeeld: '##### (vierde lege heading zonder tekst)'
+        - regel: 114
+          categorie: A4
           type: other
-          voorbeeld: IPU¬emittenten (U+00AC i.p.v. koppelteken of gewone hyphen)
-        - categorie: A4
-          regel: 105
+          voorbeeld: IPU¬emittenten de aandelenkorf (U+00AC als pseudo-koppelteken)
+        - regel: 128
+          categorie: A4
           type: other
           voorbeeld: (50 jaar) ¬niet als "financiële vaste activa" (U+00AC voor woordgrens)
-      rationale: 'B3: vier lege ##### headings (regels 125, 131, 173, 179) zijn structuurlabels zonder tekst — een mens schrijft nooit een kopje zonder titel. A4: U+00AC (¬) op regel 90 en 105 als pseudo-soft-hyphen (bv. ''IPU¬emittenten'', ''(50 jaar) ¬niet'') — geen standaard markdown-teken, PDF-artefact. Beide problemen zijn ETL-fixeerbaar.'
-      run_at: '2026-05-11T12:09:17Z'
-      status: needs-rework
-    rationale: 'B3: vier lege ##### headings (regels 125, 131, 173, 179) zijn structuurlabels zonder tekst — een mens schrijft nooit een kopje zonder titel. A4: U+00AC (¬) op regel 90 en 105 als pseudo-soft-hyphen (bv. ''IPU¬emittenten'', ''(50 jaar) ¬niet'') — geen standaard markdown-teken, PDF-artefact. Beide problemen zijn ETL-fixeerbaar.'
-    status: needs-rework
 themas:
   - dividenduitkering
   - geldbeleggingen

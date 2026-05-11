@@ -3,37 +3,49 @@ bron: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-in
 datum: 2012-06-06
 nummer: CBN-advies 2012/8
 provenance:
-  generated_at: '2026-05-11T13:05:08Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-inbreng-in-eigendom-in-een-belgische-burgerlijke
       sha256: cf24aa3f760d50dc1b488d09cc2327fdf8077a89461654915c14c249c627b655
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:12Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at:
-    confirmed_by:
+    status: needs-rework
+    confirmed_at: '2026-05-11T13:30:32Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "B2: regels 117, 123 en 129 tonen drie ## headings ('## Terreinen en gebouwen', '## Meubilair en rollend materieel', '## Financiële vaste activa') die inhoudelijk subsecties zijn van het Voorbeeld en op ### of #### niveau hadden moeten staan — heading-niveaus zijn onjuist. E1: de balanstabel op regels 111-115 is niet in markdown pipe-syntax maar in space-aligned tekst (pseudo-tabel). D4: regel 101 eindigt op '2/7.\" *' met trailing asterisk-spatie."
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:28Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:16Z'
       heading_count: 6
       max_section_chars: 4883
       file_size_chars: 12672
       flags: []
     layer2:
-      agent:
-      concrete_problemen: []
-      rationale:
-      run_at:
-      status: not_run
-    rationale: 'Trust gereset 2026-05-11: re-scrape met scraper-fixes, content-diff > 5%'
-    status: unreviewed
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:30:32Z'
+      rationale: "B2: regels 117, 123 en 129 tonen drie ## headings ('## Terreinen en gebouwen', '## Meubilair en rollend materieel', '## Financiële vaste activa') die inhoudelijk subsecties zijn van het Voorbeeld en op ### of #### niveau hadden moeten staan — heading-niveaus zijn onjuist. E1: de balanstabel op regels 111-115 is niet in markdown pipe-syntax maar in space-aligned tekst (pseudo-tabel). D4: regel 101 eindigt op '2/7.\" *' met trailing asterisk-spatie."
+      concrete_problemen:
+        - regel: 111
+          categorie: E1
+          type: pseudo-table
+          voorbeeld: "| Balans vennootschap A (aandeel in de maatschap : 4/7) | \n| Terreinen en gebouwen | | 228.571,43 | | | | | "
+        - regel: 117
+          categorie: B2
+          type: other
+          voorbeeld: '## Terreinen en gebouwen'
+        - regel: 101
+          categorie: D4
+          type: other
+          voorbeeld: '"Het aandeel van vennootschap C in de maatschap bedraagt 2/7." *'
 themas:
   - burgerlijke maatschap
   - inbreng

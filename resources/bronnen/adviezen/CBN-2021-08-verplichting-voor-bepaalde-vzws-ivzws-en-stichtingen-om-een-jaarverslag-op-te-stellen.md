@@ -16,37 +16,49 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/gevolgen-op-gebied-van-financiele-rapportering-als-gevolg-van-de-brexit-0
 nummer: CBN-advies 2021/08
 provenance:
-  generated_at: '2026-05-11T13:05:08Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/verplichting-voor-bepaalde-vzws-ivzws-en-stichtingen-om-een-jaarverslag-op-te-stellen
       sha256: 3a8f3ccacc5c204762cb16e509b2b635fe4df2f26e2af17cdab3d30d1198569a
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:12Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at:
-    confirmed_by:
+    status: needs-rework
+    confirmed_at: '2026-05-11T13:34:12Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "E1/E2: alle vier tabellen (regels 117-120, 134-137, 161-164, 177-180) zijn pseudo-pipe-tabellen zonder markdown header+separator-rij — elke tabel heeft enkel één naamrij gevolgd door datarijen zonder '|---|' scheidingslijn. D4: op regel 102 en 126 staat '* Bijlagen bij het Belgisch Staatsblad*' met een spatie vóór de afsluitende asterisk (italic-marker niet correct afgesloten). Inhoud is volledig: 14 headings correct, alle 22 voetnootdefinities aanwezig, 5 voorbeelden intact."
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:30Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:18Z'
       heading_count: 14
       max_section_chars: 8223
       file_size_chars: 16874
       flags: []
     layer2:
-      agent:
-      concrete_problemen: []
-      rationale:
-      run_at:
-      status: not_run
-    rationale: 'Trust gereset 2026-05-11: re-scrape met scraper-fixes, content-diff > 5%'
-    status: unreviewed
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:34:12Z'
+      rationale: "E1/E2: alle vier tabellen (regels 117-120, 134-137, 161-164, 177-180) zijn pseudo-pipe-tabellen zonder markdown header+separator-rij — elke tabel heeft enkel één naamrij gevolgd door datarijen zonder '|---|' scheidingslijn. D4: op regel 102 en 126 staat '* Bijlagen bij het Belgisch Staatsblad*' met een spatie vóór de afsluitende asterisk (italic-marker niet correct afgesloten). Inhoud is volledig: 14 headings correct, alle 22 voetnootdefinities aanwezig, 5 voorbeelden intact."
+      concrete_problemen:
+        - regel: 117
+          categorie: E1
+          type: pseudo-table
+          voorbeeld: '| Groottecriteria (artikel 1 :28, § 1 WVV) | | 31/12/2017 | | 31/12/2018 |'
+        - regel: 102
+          categorie: D4
+          type: other
+          voorbeeld: '* Bijlagen bij het Belgisch Staatsblad*'
+        - regel: 126
+          categorie: D4
+          type: other
+          voorbeeld: '* Bijlagen bij het Belgisch Staatsblad*'
 themas:
   - jaarverslag
   - opstelling jaarverslag

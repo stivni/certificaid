@@ -16,7 +16,7 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/definiering-van-ebit-ebitda-na-omzetting-van-de-accountingrichtlijn-201334eu
 nummer: CBN-advies C106/1
 provenance:
-  generated_at: '2026-05-11T13:05:05Z'
+  generated_at: '2026-05-11T13:15:10Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/advies-horizontale-consolidatie-in-combinatie-met-administratiekantoren
       sha256: be916b2cd3a4b916c2cbea83965e47a2df06dfe3f31e8059d892d882558f4fbe
@@ -33,8 +33,8 @@ provenance:
     confirmed_by: subagent-laag2-ronde2
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:24Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:13Z'
       heading_count: 0
       max_section_chars: 9083
       file_size_chars: 9083

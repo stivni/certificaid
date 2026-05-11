@@ -16,7 +16,7 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/de-rentabiliteitsvoorwaarde-bij-herwaarderingsmeerwaarden
 nummer: CBN-advies 2011/14
 provenance:
-  generated_at: '2026-05-11T13:05:08Z'
+  generated_at: '2026-05-11T13:15:11Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/herwaarderingsmeerwaarden
       sha256: e23beb51f09bf7badebca573fe28d0c78b67196e7d54283c81a3e6579e66b094
@@ -33,8 +33,8 @@ provenance:
     confirmed_by: subagent-laag2-ronde2
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:28Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:16Z'
       heading_count: 24
       max_section_chars: 16404
       file_size_chars: 52327

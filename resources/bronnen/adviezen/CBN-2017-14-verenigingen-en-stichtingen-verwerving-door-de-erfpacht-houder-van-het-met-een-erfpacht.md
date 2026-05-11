@@ -16,49 +16,45 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-erfpachtcontracten-in-not-for-profit-organisaties
 nummer: CBN-advies 2017/14
 provenance:
-  generated_at: '2026-05-11T13:05:08Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/verenigingen-en-stichtingen-verwerving-door-de-erfpacht-houder-van-het-met-een-erfpacht
       sha256: 5cbd681fd8472fc6e422e3e7abbf6654d621e4aa16abd64891dfe87a8c086955
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:12Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T12:16:35Z'
+    status: needs-rework
+    confirmed_at: '2026-05-11T13:30:33Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: "E2: tabel op regels 167-172 heeft een gebroken rij — cel 'Terreinen die volle eigendom' op regel 169 loopt door naar regel 170 (' zijn van de vereniging | 100 | |') via een spurious line-break midden in de tabelcel; dit breekt de markdown-tabel en verhindert correct renderen. D4: regel 123 bevat '*getrapte[^8]*  overdracht' met een extra spatie voor het sluitende asterisk. De overige tabellen en de inhoud zijn verder compleet."
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:29Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:17Z'
       heading_count: 14
       max_section_chars: 12022
       file_size_chars: 19369
       flags: []
     layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: D3
-          regel: 157
-          type: other
-          voorbeeld: ' [^18]  (orphan footnote-referentie zonder omringende zin)'
-        - categorie: E2
-          regel: 161
-          type: other
-          voorbeeld: '| | 2201 | Terreinen die volle eigendom\n zijn van de vereniging | 100 | |'
-        - categorie: D4
-          regel: 113
-          type: other
-          voorbeeld: '*getrapte[^8] * overdracht van de volle eigendom'
-      rationale: 'E2: Eerste tabel (regels 159-164) heeft een gebroken rij — de omschrijving ''Terreinen die volle eigendom'' staat op regel 161 en '' zijn van de vereniging | 100 | |'' loopt door op regel 162 door een spurious line-break midden in een tabelcel; dit breekt de markdown-tabel. Verder: regel 157 bevat '' [^18]'' als enige celinhoud vóór de tabel — een orphan footnote-referentie zonder context. D4: regel 113 bevat ''*getrapte[^8] *'' met spatie voor het sluitende asterisk.'
-      run_at: '2026-05-11T12:16:35Z'
       status: needs-rework
-    rationale: 'E2: Eerste tabel (regels 159-164) heeft een gebroken rij — de omschrijving ''Terreinen die volle eigendom'' staat op regel 161 en '' zijn van de vereniging | 100 | |'' loopt door op regel 162 door een spurious line-break midden in een tabelcel; dit breekt de markdown-tabel. Verder: regel 157 bevat '' [^18]'' als enige celinhoud vóór de tabel — een orphan footnote-referentie zonder context. D4: regel 113 bevat ''*getrapte[^8] *'' met spatie voor het sluitende asterisk.'
-    status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:30:33Z'
+      rationale: "E2: tabel op regels 167-172 heeft een gebroken rij — cel 'Terreinen die volle eigendom' op regel 169 loopt door naar regel 170 (' zijn van de vereniging | 100 | |') via een spurious line-break midden in de tabelcel; dit breekt de markdown-tabel en verhindert correct renderen. D4: regel 123 bevat '*getrapte[^8]*  overdracht' met een extra spatie voor het sluitende asterisk. De overige tabellen en de inhoud zijn verder compleet."
+      concrete_problemen:
+        - regel: 169
+          categorie: E2
+          type: other
+          voorbeeld: "| | 2201 | Terreinen die volle eigendom\n zijn van de vereniging | 100 | |"
+        - regel: 123
+          categorie: D4
+          type: other
+          voorbeeld: '*getrapte[^8]*  overdracht van de volle eigendom (extra spatie voor sluiting)'
 themas:
   - erfpacht
   - onroerende goederen

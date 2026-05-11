@@ -10,41 +10,41 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/advies-inzake-de-boekhoudkundige-verwerking-van-verrichtingen-van-tijdelijk
 nummer: CBN-advies 2014/3
 provenance:
-  generated_at: '2026-05-11T13:05:08Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-mutaties-binnen-het-eigen-vermogen-van-een-geassocieerde
       sha256: dfeb550b2cb94ee3571ce6b1aa301cb8ad20d7a65283f1bbc78e5798432fb03e
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:12Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T12:16:34Z'
+    status: needs-rework
+    confirmed_at: '2026-05-11T13:30:32Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: "Regel 61: ', bijgewerkt op 25 juni 2025[^2]' staat als losstaande body-tekstregel direct na de H1-titel — dit is een update-vermelding die door de scraper niet in de frontmatter is verwerkt en als plain-text fragment in de body terechtkwam (B5/A6). Verder is het advies inhoudelijk volledig met uitgewerkte geconsolideerde-balansvoorbeelden."
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:29Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:16Z'
       heading_count: 2
       max_section_chars: 7436
       file_size_chars: 9595
       flags: []
     layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: B5
-          regel: 57
-          type: other
-          voorbeeld: ', bijgewerkt op 25 juni 2025[^2]'
-      rationale: 'Regel 57: '', bijgewerkt op 25 juni 2025[^2]'' staat als losse tekstregel direct na de H1-titel, zonder heading of verklarende context. Dit is een extractie-artefact van een updatevermelding die door de scraper als body-tekst werd opgenomen. Hoort verwerkt te worden in de frontmatter of als cursieve subkop. Verder is het advies inhoudelijk volledig.'
-      run_at: '2026-05-11T12:16:34Z'
       status: needs-rework
-    rationale: 'Regel 57: '', bijgewerkt op 25 juni 2025[^2]'' staat als losse tekstregel direct na de H1-titel, zonder heading of verklarende context. Dit is een extractie-artefact van een updatevermelding die door de scraper als body-tekst werd opgenomen. Hoort verwerkt te worden in de frontmatter of als cursieve subkop. Verder is het advies inhoudelijk volledig.'
-    status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:30:32Z'
+      rationale: "Regel 61: ', bijgewerkt op 25 juni 2025[^2]' staat als losstaande body-tekstregel direct na de H1-titel — dit is een update-vermelding die door de scraper niet in de frontmatter is verwerkt en als plain-text fragment in de body terechtkwam (B5/A6). Verder is het advies inhoudelijk volledig met uitgewerkte geconsolideerde-balansvoorbeelden."
+      concrete_problemen:
+        - regel: 61
+          categorie: B5
+          type: other
+          voorbeeld: ', bijgewerkt op 25 juni 2025[^2] — losstaande tekstregel direct na H1'
 themas:
   - geassocieerde onderneming
   - mutaties binnen het eigen vermogen

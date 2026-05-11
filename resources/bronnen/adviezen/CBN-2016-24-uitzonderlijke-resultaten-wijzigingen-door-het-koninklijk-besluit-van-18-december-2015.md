@@ -3,37 +3,53 @@ bron: https://www.cbn-cnc.be/nl/adviezen/uitzonderlijke-resultaten-wijzigingen-d
 datum: 2016-10-26
 nummer: CBN-advies 2016/24
 provenance:
-  generated_at: '2026-05-11T13:05:08Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/uitzonderlijke-resultaten-wijzigingen-door-het-koninklijk-besluit-van-18-december-2015
       sha256: 47168dbcf84b23ac15058c02ea32c39d3c630a6666dd441455dcc6fa521caf50
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:12Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at:
-    confirmed_by:
+    status: needs-rework
+    confirmed_at: '2026-05-11T13:30:32Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "A6: meerdere spurious line-breaks na footnote-referenties midden in zinnen: regel 58-59 ('*niet-recurrent*[^3]\\n Dit geldt'), 59 ('resultatenrekening.[^9]\\n Ook het schema'), 62-63 ('[^11]\\n De Commissie'), 63 ('*i.e.*[^11]\\n De Commissie meent'). Dit is een structureel PDF-extractiepatroon. Tabel is correct in pipe-syntax; inhoud compleet."
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:29Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:17Z'
       heading_count: 3
       max_section_chars: 4922
       file_size_chars: 11112
       flags: []
     layer2:
-      agent:
-      concrete_problemen: []
-      rationale:
-      run_at:
-      status: not_run
-    rationale: 'Trust gereset 2026-05-11: re-scrape met scraper-fixes, content-diff > 5%'
-    status: unreviewed
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:30:32Z'
+      rationale: "A6: meerdere spurious line-breaks na footnote-referenties midden in zinnen: regel 58-59 ('*niet-recurrent*[^3]\\n Dit geldt'), 59 ('resultatenrekening.[^9]\\n Ook het schema'), 62-63 ('[^11]\\n De Commissie'), 63 ('*i.e.*[^11]\\n De Commissie meent'). Dit is een structureel PDF-extractiepatroon. Tabel is correct in pipe-syntax; inhoud compleet."
+      concrete_problemen:
+        - regel: 58
+          categorie: A6
+          type: other
+          voorbeeld: "uitzonderlijk* en *niet-recurrent*.[^3]\n Dit geldt *mutatis mutandis*"
+        - regel: 59
+          categorie: A6
+          type: other
+          voorbeeld: "schema van de resultatenrekening.[^9]\n Ook het schema van de resultatenrekening"
+        - regel: 62
+          categorie: A6
+          type: other
+          voorbeeld: "resultatenrekening zijn opgenomen.[^11]\n De Commissie meent"
+        - regel: 63
+          categorie: A6
+          type: other
+          voorbeeld: "*i.e.*[^11]\n De Commissie meent"
 themas:
   - niet-recurrente kosten
   - niet-recurrente opbrengsten

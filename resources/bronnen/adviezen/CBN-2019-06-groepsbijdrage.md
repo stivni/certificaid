@@ -7,49 +7,49 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-vergoeding-voor-de-groepsbijdrage-in-hoofde-van-de
 nummer: CBN-advies 2019/06
 provenance:
-  generated_at: '2026-05-11T13:05:08Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/groepsbijdrage
       sha256: 23705bc5a0cc0c91cfed3d7152f078d8b8915286af9c9a392d809d9d1c9bd7bf
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:12Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T12:21:40Z'
+    status: needs-rework
+    confirmed_at: '2026-05-11T13:34:12Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: 'D4: `de *groepsbijdrage*regeling` op regel 64 — ontbrekende spatie tussen italic close en aangrenzend woord. B2: sub-headings `## Bij de eindejaarsverrichtingen` (regels 124, 131, 140, 144) staan op `##`-niveau terwijl hun ouder-heading `### In hoofde van vennootschap B` op `###`-niveau staat — hiërarchie-sprong omhoog. Inhoud en tabellen zijn verder volledig correct.'
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:30Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:18Z'
       heading_count: 12
       max_section_chars: 4497
       file_size_chars: 13873
       flags: []
     layer2:
+      status: needs-rework
       agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:34:12Z'
+      rationale: 'D4: `de *groepsbijdrage*regeling` op regel 64 — ontbrekende spatie tussen italic close en aangrenzend woord. B2: sub-headings `## Bij de eindejaarsverrichtingen` (regels 124, 131, 140, 144) staan op `##`-niveau terwijl hun ouder-heading `### In hoofde van vennootschap B` op `###`-niveau staat — hiërarchie-sprong omhoog. Inhoud en tabellen zijn verder volledig correct.'
       concrete_problemen:
-        - categorie: D3
-          regel: 112
-          type: other
-          voorbeeld: ' [^17]'
-        - categorie: D3
-          regel: 134
-          type: other
-          voorbeeld: ' [^18]'
-        - categorie: D4
-          regel: 52
+        - regel: 64
+          categorie: D4
           type: other
           voorbeeld: de *groepsbijdrage*regeling[^2] in de statutaire jaarrekening
-      rationale: 'D3: Losstaande `[^17]` op regel 112 en `[^18]` op regel 134 staan als verweesd anker direct boven de tabel, zonder voorgaande tekst — identiek patroon als in batch-23. A6: `groepsbijdrage*`regeling` op regel 52 (ontbrekende spatie tussen italic close en volgende woord) is een mild opmaakartefact. Inhoud en structuur zijn verder volledig correct.'
-      run_at: '2026-05-11T12:21:40Z'
-      status: needs-rework
-    rationale: 'D3: Losstaande `[^17]` op regel 112 en `[^18]` op regel 134 staan als verweesd anker direct boven de tabel, zonder voorgaande tekst — identiek patroon als in batch-23. A6: `groepsbijdrage*`regeling` op regel 52 (ontbrekende spatie tussen italic close en volgende woord) is een mild opmaakartefact. Inhoud en structuur zijn verder volledig correct.'
-    status: needs-rework
+        - regel: 124
+          categorie: B2
+          type: other
+          voorbeeld: '## Bij de eindejaarsverrichtingen op 31/12/N (ouder: ### In hoofde van vennootschap B)'
+        - regel: 131
+          categorie: B2
+          type: other
+          voorbeeld: '## Bij het sluiten van de groepsbijdrage-overeenkomst (in boekjaar N+1)'
 themas:
   - groepsbijdrage
   - fiscale consolidatie

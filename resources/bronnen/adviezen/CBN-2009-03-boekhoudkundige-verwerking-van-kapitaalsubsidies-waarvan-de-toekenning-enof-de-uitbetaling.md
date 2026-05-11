@@ -7,69 +7,69 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-subsidies-waarvan-de-toekenning-niet-gegarandeerd-is
 nummer: CBN-advies 2009/3
 provenance:
-  generated_at: '2026-05-11T13:05:06Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-kapitaalsubsidies-waarvan-de-toekenning-enof-de-uitbetaling
       sha256: 0d2e9abf1e2373b5da82f777a4eb4ecb1d4cbe61ee161a4f7847c6d2f1c1a0e5
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:10Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T12:09:17Z'
+    status: needs-rework
+    confirmed_at: '2026-05-11T13:23:04Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: "B4: vier #### headings in all-caps (INLEIDING r.84, OVERZICHT r.92, BEOORDELING r.103, VOORBEELDEN r.150) die mens als ## of ### zou schrijven. E2: drie tabellen zijn volledig afwezig — enkel 'Tabel 1' (r.188), 'Tabel 2' (r.194), 'Tabel 3' (r.267) als plain text placeholders zonder tabelinhoud; dit is significante content-loss. D4: r.172 '***a) Voorbeeld 1 ...**' heeft opening *** en sluitende ** — ongematcht (triple vs double). D4: r.154 '*Kapitaalsubsidies *' heeft spatie voor sluitende asterisk."
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:27Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:15Z'
       heading_count: 12
       max_section_chars: 11793
       file_size_chars: 19652
       flags: []
     layer2:
+      status: needs-rework
       agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:23:04Z'
+      rationale: "B4: vier #### headings in all-caps (INLEIDING r.84, OVERZICHT r.92, BEOORDELING r.103, VOORBEELDEN r.150) die mens als ## of ### zou schrijven. E2: drie tabellen zijn volledig afwezig — enkel 'Tabel 1' (r.188), 'Tabel 2' (r.194), 'Tabel 3' (r.267) als plain text placeholders zonder tabelinhoud; dit is significante content-loss. D4: r.172 '***a) Voorbeeld 1 ...**' heeft opening *** en sluitende ** — ongematcht (triple vs double). D4: r.154 '*Kapitaalsubsidies *' heeft spatie voor sluitende asterisk."
       concrete_problemen:
-        - categorie: B4
-          regel: 52
+        - regel: 84
+          categorie: B4
           type: other
           voorbeeld: '#### INLEIDING (all-caps #### i.p.v. ## Inleiding)'
-        - categorie: B4
-          regel: 60
+        - regel: 92
+          categorie: B4
           type: other
-          voorbeeld: '#### OVERZICHT VAN DE ALGEMENE BEGINSELEN'
-        - categorie: B4
-          regel: 71
+          voorbeeld: '#### OVERZICHT VAN DE ALGEMENE BEGINSELEN (all-caps ####)'
+        - regel: 103
+          categorie: B4
           type: other
-          voorbeeld: '#### BEOORDELING VAN HET VASTSTAAND KARAKTER VAN HET RECHT OP EEN SUBSIDIE'
-        - categorie: B4
-          regel: 118
+          voorbeeld: '#### BEOORDELING VAN HET VASTSTAAND KARAKTER VAN HET RECHT OP EEN SUBSIDIE (all-caps ####)'
+        - regel: 150
+          categorie: B4
           type: other
-          voorbeeld: '#### VOORBEELDEN'
-        - categorie: D4
-          regel: 154
+          voorbeeld: '#### VOORBEELDEN (all-caps ####)'
+        - regel: 188
+          categorie: E2
           type: other
-          voorbeeld: '*Kapitaalsubsidies *en a rato van 25% (spatie voor sluitende *)'
-        - categorie: E2
-          regel: 157
+          voorbeeld: Tabel 1 (placeholder — numerieke inresultaatnemingstabel volledig afwezig)
+        - regel: 194
+          categorie: E2
           type: other
-          voorbeeld: Tabel 1 (placeholder zonder tabelinhoud — numerieke tabel ontbreekt)
-        - categorie: E2
-          regel: 163
+          voorbeeld: Tabel 2 (placeholder — aflossingsplan tabel volledig afwezig)
+        - regel: 267
+          categorie: E2
           type: other
-          voorbeeld: Tabel 2 (placeholder zonder tabelinhoud)
-        - categorie: E2
-          regel: 236
+          voorbeeld: Tabel 3 (placeholder — inresultaatneming voorbeeld 2 tabel volledig afwezig)
+        - regel: 154
+          categorie: D4
           type: other
-          voorbeeld: Tabel 3 (placeholder zonder tabelinhoud)
-      rationale: 'B4: vier #### headings in all-caps (INLEIDING, OVERZICHT VAN DE ALGEMENE BEGINSELEN, BEOORDELING VAN HET VASTSTAAND KARAKTER, VOORBEELDEN) zonder onderliggende ##/### niveau — mens schrijft dit als ## of ###, niet als ####. D4: regel 154 heeft ''*Kapitaalsubsidies *'' met spatie voor sluitende asterisk (malformed italic). Structureel: tabellen zijn afwezig (vervangen door ''Tabel 1 / Tabel 2 / Tabel 3'' als plain text op regels 157, 163, 236) — de eigenlijke numerieke tabellen ontbreken in de extractie.'
-      run_at: '2026-05-11T12:09:17Z'
-      status: needs-rework
-    rationale: 'B4: vier #### headings in all-caps (INLEIDING, OVERZICHT VAN DE ALGEMENE BEGINSELEN, BEOORDELING VAN HET VASTSTAAND KARAKTER, VOORBEELDEN) zonder onderliggende ##/### niveau — mens schrijft dit als ## of ###, niet als ####. D4: regel 154 heeft ''*Kapitaalsubsidies *'' met spatie voor sluitende asterisk (malformed italic). Structureel: tabellen zijn afwezig (vervangen door ''Tabel 1 / Tabel 2 / Tabel 3'' als plain text op regels 157, 163, 236) — de eigenlijke numerieke tabellen ontbreken in de extractie.'
-    status: needs-rework
+          voorbeeld: '*Kapitaalsubsidies * en a rato van 25% (spatie voor sluitende *)'
 themas:
   - eventuele rechten
   - kapitaalsubsidie

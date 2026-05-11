@@ -7,53 +7,61 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/actualisering-van-vorderingen-en-schulden-op-korte-termijn-update
 nummer: CBN-advies 137/4
 provenance:
-  generated_at: '2026-05-11T13:05:06Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/renteloze-vorderingen-schulden-en-vorderingen-schulden-met-een-abnormaal-lage-rente-op
       sha256: 83a65bba87ad55a209a297397675381773d2a0fa8645a76b1147c23efa2f0782
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:10Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T12:04:41Z'
+    status: needs-rework
+    confirmed_at: '2026-05-11T13:16:02Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: "Meerdere ernstige problemen: (1) D2 op L86-95: headings '### Renteloze vordering, éénmalig terugbetaalbaar na n jaar' en gerelateerde sub-headings hebben geen body met formules — PDF-afbeeldingen niet geëxtraheerd, kritische wiskundige content ontbreekt. (2) E2 op L128-139: boekingstabellen hebben lege Debet/Credit-cellen — bedragen ontbreken. (3) A6 op L114-116: spurious paragraph-break midden in een zin ('als\n\nzodanig geboekt'). (4) D2/B2 op L161-177: voorbeeld-sectie heeft losstaande berekeningen zonder bijbehorende tabellen; heading-hiërarchie #### → ### is ook een sprong."
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:26Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:14Z'
       heading_count: 12
       max_section_chars: 7707
       file_size_chars: 8375
       flags: []
     layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: D2
-          regel: 70
-          type: missing-section
-          voorbeeld: '### Renteloze vordering, éénmalig terugbetaalbaar na n jaar\n\n### Vordering met een abnormaal lage rente'
-        - categorie: E2
-          regel: 116
-          type: other
-          voorbeeld: '| | 493 | Over te dragen opbrengsten | | |'
-        - categorie: A6
-          regel: 100
-          type: other
-          voorbeeld: '...als\n\nzodanig geboekt.'
-        - categorie: D2
-          regel: 147
-          type: missing-section
-          voorbeeld: '#### Vaststelling van de actuele waarde en van het disconto\n\n### Actuele waarde...'
-      rationale: 'Meerdere problemen: (1) D2: ### heading ''Renteloze vordering, éénmalig terugbetaalbaar na n jaar'' (regel 70) heeft geen body — de formule ontbreekt volledig, waarschijnlijk een afbeelding in de PDF die niet geëxtraheerd kon worden; zelfde voor headings op regels 72, 76, 80. (2) E2: boekingstabellen (regels 114-125) hebben lege Debet/Credit-cellen — waarden ontbreken. (3) A6: spurious line-break midden in een zin op regels 100-102 (''als \n\n zodanig geboekt''). (4) D2: voorbeeld-sectie (regels 147-175) heeft losstaande berekeningen zonder de bijhorende tabellen die in de PDF stonden.'
-      run_at: '2026-05-11T12:04:41Z'
       status: needs-rework
-    rationale: 'Meerdere problemen: (1) D2: ### heading ''Renteloze vordering, éénmalig terugbetaalbaar na n jaar'' (regel 70) heeft geen body — de formule ontbreekt volledig, waarschijnlijk een afbeelding in de PDF die niet geëxtraheerd kon worden; zelfde voor headings op regels 72, 76, 80. (2) E2: boekingstabellen (regels 114-125) hebben lege Debet/Credit-cellen — waarden ontbreken. (3) A6: spurious line-break midden in een zin op regels 100-102 (''als \n\n zodanig geboekt''). (4) D2: voorbeeld-sectie (regels 147-175) heeft losstaande berekeningen zonder de bijhorende tabellen die in de PDF stonden.'
-    status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:16:02Z'
+      rationale: "Meerdere ernstige problemen: (1) D2 op L86-95: headings '### Renteloze vordering, éénmalig terugbetaalbaar na n jaar' en gerelateerde sub-headings hebben geen body met formules — PDF-afbeeldingen niet geëxtraheerd, kritische wiskundige content ontbreekt. (2) E2 op L128-139: boekingstabellen hebben lege Debet/Credit-cellen — bedragen ontbreken. (3) A6 op L114-116: spurious paragraph-break midden in een zin ('als\n\nzodanig geboekt'). (4) D2/B2 op L161-177: voorbeeld-sectie heeft losstaande berekeningen zonder bijbehorende tabellen; heading-hiërarchie #### → ### is ook een sprong."
+      concrete_problemen:
+        - regel: 86
+          categorie: D2
+          type: missing-section
+          voorbeeld: '### Renteloze vordering, éénmalig terugbetaalbaar na n jaar — geen formule in body'
+        - regel: 91
+          categorie: D2
+          type: missing-section
+          voorbeeld: '### Vordering terugbetaalbaar via vaste annuïteiten — geen formule in body'
+        - regel: 114
+          categorie: A6
+          type: other
+          voorbeeld: "...en als\n\nzodanig geboekt. (spurious paragraph-break mid-zin)"
+        - regel: 128
+          categorie: E2
+          type: other
+          voorbeeld: '| | 493 | Over te dragen opbrengsten | | | — lege Debet/Credit-cellen'
+        - regel: 161
+          categorie: D2
+          type: missing-section
+          voorbeeld: '#### Vaststelling van de actuele waarde... — bijbehorende tabel ontbreekt'
+        - regel: 163
+          categorie: B2
+          type: other
+          voorbeeld: '#### Vaststelling... → ### Actuele waarde... (H4→H3 hierarchie-sprong)'
 themas:
   - Vorderingen met een abnormaal lage rente
   - disconto

@@ -3,7 +3,7 @@ bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-het-vruc
 datum: 1990-06-01
 nummer: CBN-advies 162/1
 provenance:
-  generated_at: '2026-05-11T13:05:06Z'
+  generated_at: '2026-05-11T13:15:10Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-het-vruchtgebruik-van-aandelen-dat-onder-bezwarende-titel
       sha256: cb2d6cef0a7256635456a2255088bbbd139ebc29da7875d2b912f2bf776e6f9f
@@ -20,8 +20,8 @@ provenance:
     confirmed_by: subagent-laag2-ronde2
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:26Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:15Z'
       heading_count: 0
       max_section_chars: 5433
       file_size_chars: 5433

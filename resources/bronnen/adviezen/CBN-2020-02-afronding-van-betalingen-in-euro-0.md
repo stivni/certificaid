@@ -16,37 +16,49 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-afrondingen-bij-conversie
 nummer: CBN-advies 2020/02
 provenance:
-  generated_at: '2026-05-11T13:05:08Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/afronding-van-betalingen-in-euro-0
       sha256: a2ed168cbce2a03f05d3b93a39aa870ad77ec4cd1bed60eb13e2f785ce36c0ce
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:12Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at:
-    confirmed_by:
+    status: needs-rework
+    confirmed_at: '2026-05-11T13:34:12Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: 'A3: TOC op regels 58-67 staat als plain-text geneste nummerlijst in de body, met TOC-artefact `-- Tweede methode` op regel 67. D4: `rekening 700* Verkopen` op regel 118 — spatie ontbreekt na openende asterisk bij italic. Inhoud volledig en logisch gestructureerd.'
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:30Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:18Z'
       heading_count: 10
       max_section_chars: 5095
       file_size_chars: 12003
       flags: []
     layer2:
-      agent:
-      concrete_problemen: []
-      rationale:
-      run_at:
-      status: not_run
-    rationale: 'Trust gereset 2026-05-11: re-scrape met scraper-fixes, content-diff > 5%'
-    status: unreviewed
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:34:12Z'
+      rationale: 'A3: TOC op regels 58-67 staat als plain-text geneste nummerlijst in de body, met TOC-artefact `-- Tweede methode` op regel 67. D4: `rekening 700* Verkopen` op regel 118 — spatie ontbreekt na openende asterisk bij italic. Inhoud volledig en logisch gestructureerd.'
+      concrete_problemen:
+        - regel: 58
+          categorie: A3
+          type: other
+          voorbeeld: "1. Inleiding \n  1. Afronding van het te betalen bedrag tot 30 november 2019..."
+        - regel: 67
+          categorie: A3
+          type: other
+          voorbeeld: -- Tweede methode
+        - regel: 118
+          categorie: D4
+          type: other
+          voorbeeld: rekening 700* Verkopen en dienstprestaties*
 themas:
   - afronding
   - betaling

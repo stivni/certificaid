@@ -3,45 +3,41 @@ bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-uitgi
 datum: 2019-07-11
 nummer: CBN-advies 2019/07
 provenance:
-  generated_at: '2026-05-11T13:05:08Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-uitgifte-van-een-obligatielening
       sha256: e202a1be947f8d1631a1dc4341ddb81214015a1152489e3dbfa7f684cda940ea
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:12Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T12:21:40Z'
+    status: needs-rework
+    confirmed_at: '2026-05-11T13:34:12Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: 'A3: De TOC op regels 53-99 staat als uitgebreide geneste plain-text nummerlijst in de body vóór de eerste `## Inleiding` heading — een klassiek TOC-artefact. Inhoud, tabellen en voetnoten zijn verder volledig en correct opgemaakt; 36 headings correct hiërarchisch gelaagd.'
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:30Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:18Z'
       heading_count: 36
       max_section_chars: 6546
       file_size_chars: 22115
       flags: []
     layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: A3
-          regel: 100
-          type: other
-          voorbeeld: -- Kosten bij uitgifte van leningen-- Agio en disagio---- Lening zonder verschil...
-        - categorie: A3
-          regel: 101
-          type: other
-          voorbeeld: '---- Vervaldag van de rente (1 april 2020)\n---- Regularisering einde boekjaar 2020--...'
-      rationale: 'A3: Grote TOC-fragmenten op regels 100-102 — de volledige geneste inhoudsopgave is aaneengeregen op twee lange regels met `--`-scheidingstekens (`-- Kosten bij uitgifte van leningen-- Agio en disagio----...`). Dit is een duidelijk extractie-artefact van een gegenereerd TOC dat mee geëxtraheerd werd. Inhoud en heading-hiërarchie (36 headings) zijn verder volledig correct.'
-      run_at: '2026-05-11T12:21:40Z'
       status: needs-rework
-    rationale: 'A3: Grote TOC-fragmenten op regels 100-102 — de volledige geneste inhoudsopgave is aaneengeregen op twee lange regels met `--`-scheidingstekens (`-- Kosten bij uitgifte van leningen-- Agio en disagio----...`). Dit is een duidelijk extractie-artefact van een gegenereerd TOC dat mee geëxtraheerd werd. Inhoud en heading-hiërarchie (36 headings) zijn verder volledig correct.'
-    status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:34:12Z'
+      rationale: 'A3: De TOC op regels 53-99 staat als uitgebreide geneste plain-text nummerlijst in de body vóór de eerste `## Inleiding` heading — een klassiek TOC-artefact. Inhoud, tabellen en voetnoten zijn verder volledig en correct opgemaakt; 36 headings correct hiërarchisch gelaagd.'
+      concrete_problemen:
+        - regel: 53
+          categorie: A3
+          type: other
+          voorbeeld: "1. Inleiding \n2. Boekhoudkundige verwerking in hoofde van de uitgevende vennootschap \n  1. Obligatielening..."
 themas:
   - obligatielening
   - obligaties

@@ -7,7 +7,7 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/niet-in-de-balans-opgenomen-rechten-en-verplichtingen
 nummer: CBN-advies 3/2
 provenance:
-  generated_at: '2026-05-11T13:05:05Z'
+  generated_at: '2026-05-11T13:15:10Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/niet-in-de-balans-opgenomen-rechten-en-verplichtingen-0
       sha256: 9cb5fc236fcf116896c53d7729c5102ef151474280391fee0125c0d5949753e8
@@ -24,8 +24,8 @@ provenance:
     confirmed_by: subagent-laag2-ronde2
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:24Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:13Z'
       heading_count: 0
       max_section_chars: 9295
       file_size_chars: 9295

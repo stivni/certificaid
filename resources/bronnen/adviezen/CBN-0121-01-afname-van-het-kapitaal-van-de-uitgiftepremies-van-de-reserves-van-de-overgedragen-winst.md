@@ -3,7 +3,7 @@ bron: https://www.cbn-cnc.be/nl/adviezen/afname-van-het-kapitaal-van-de-uitgifte
 datum: 1980-01-01
 nummer: CBN-advies 121/1
 provenance:
-  generated_at: '2026-05-11T13:05:05Z'
+  generated_at: '2026-05-11T13:15:10Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/afname-van-het-kapitaal-van-de-uitgiftepremies-van-de-reserves-van-de-overgedragen-winst
       sha256: 09543ae874771c49c0064a175dba633d7557e26d33c53f80af31d71c677b28c1
@@ -20,8 +20,8 @@ provenance:
     confirmed_by: subagent-sonnet-4-6
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:25Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:14Z'
       heading_count: 0
       max_section_chars: 1372
       file_size_chars: 1372

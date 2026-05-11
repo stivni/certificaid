@@ -16,49 +16,49 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/bestellingen-in-uitvoering
 nummer: CBN-advies 2011/17
 provenance:
-  generated_at: '2026-05-11T13:05:08Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-onderzoeksfondsen-in-de-jaarrekening-van-grote-en-zeer
       sha256: b28435f5f77a0ad5b6b19eb05ff737fafd55d49bf2953afc6c1b8ffb6e617a0f
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:11Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T12:09:18Z'
+    status: needs-rework
+    confirmed_at: '2026-05-11T13:30:32Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: "E2: tabel op regels 217-222 heeft rij-labels die buiten de tabelcellen lopen ('6620', 'en kosten', 'met terugnemingsrecht' elk op aparte regels als losse tabelrijen); zelfde patroon op regels 238-243 ('168', 'met terugnemingsrecht', '6621', 'risico's en kosten (-)' buiten cellen). Alle voetnoten [^1]-[^12] zijn correct gedefinieerd onderaan — het vorige verdict over 'orphaned markers' was onjuist, de markers zijn correct gekoppeld. De tabelstructuurproblemen blijven."
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:28Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:16Z'
       heading_count: 7
       max_section_chars: 5056
       file_size_chars: 18931
       flags: []
     layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: D3
-          regel: 92
-          type: other
-          voorbeeld: '[^3]'
-        - categorie: D3
-          regel: 119
-          type: other
-          voorbeeld: '[^4]'
-        - categorie: E2
-          regel: 224
-          type: pseudo-table
-          voorbeeld: '| | 6620 | Voorzieningen voor uitzonderlijke risico''s | | |\n| | en kosten | 100.000 | | |'
-      rationale: 'D3: acht orphaned `[^N]`-markers (regels 92, 119, 146, 162, 178, 194, 211, 220) staan als losse regels tussen tabel-introductie en de bijbehorende tabel — callouts zonder ankerzin. C/E: in tabel op regels 224–228 en 244–248 lopen rij-labels over meerdere regels buiten de tabelcellen (`6620`, `en kosten`, `met terugnemingsrecht`), wat tabelstructuur breekt.'
-      run_at: '2026-05-11T12:09:18Z'
       status: needs-rework
-    rationale: 'D3: acht orphaned `[^N]`-markers (regels 92, 119, 146, 162, 178, 194, 211, 220) staan als losse regels tussen tabel-introductie en de bijbehorende tabel — callouts zonder ankerzin. C/E: in tabel op regels 224–228 en 244–248 lopen rij-labels over meerdere regels buiten de tabelcellen (`6620`, `en kosten`, `met terugnemingsrecht`), wat tabelstructuur breekt.'
-    status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:30:32Z'
+      rationale: "E2: tabel op regels 217-222 heeft rij-labels die buiten de tabelcellen lopen ('6620', 'en kosten', 'met terugnemingsrecht' elk op aparte regels als losse tabelrijen); zelfde patroon op regels 238-243 ('168', 'met terugnemingsrecht', '6621', 'risico's en kosten (-)' buiten cellen). Alle voetnoten [^1]-[^12] zijn correct gedefinieerd onderaan — het vorige verdict over 'orphaned markers' was onjuist, de markers zijn correct gekoppeld. De tabelstructuurproblemen blijven."
+      concrete_problemen:
+        - regel: 217
+          categorie: E2
+          type: pseudo-table
+          voorbeeld: "| | 6620 | Voorzieningen voor uitzonderlijke risico's | | |\n| | en kosten | 100.000 | | |"
+        - regel: 238
+          categorie: E2
+          type: pseudo-table
+          voorbeeld: "| | 168 | Voorzieningen voor schenkingen en legaten | | |\n| | met terugnemingsrecht | 100.000 | | |"
+        - regel: 290
+          categorie: E2
+          type: pseudo-table
+          voorbeeld: "| | 7170 | Wijziging in de bestellingen in uitvoering: | 130.000 | |\n| | Aanschaffingswaarde | | | |\n| aan | 370 | Bestellingen in uitvoering: | | |\n| | aanschaffingswaarde | 130.000 | | |"
 themas:
   - bestellingen in uitvoering
   - completed contract method

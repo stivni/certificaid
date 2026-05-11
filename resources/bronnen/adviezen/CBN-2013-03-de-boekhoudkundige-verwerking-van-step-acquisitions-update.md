@@ -16,49 +16,53 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/consolidatie-bij-de-horizontale-groep-consortium
 nummer: CBN-advies 2013/3
 provenance:
-  generated_at: '2026-05-11T13:05:08Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-step-acquisitions-update
       sha256: 416a6e032a3b9e9c52a207133ec7e93ef185e166cd850a9459913c5ebf538e62
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:12Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T12:16:34Z'
+    status: needs-rework
+    confirmed_at: '2026-05-11T13:30:32Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: "E2: meerdere journaalboekingstabellen (regels 135–136, 142–144, 148–150, 154–157) missen de `|---|` header-separator rij — ze worden niet als markdown-tabellen herkend. D4: regel 81 bevat 'I*I.A.' waarbij de `*` een italic-markup opent die niet gesloten wordt en tegelijk de referentie naar 'paragraaf II.A.' vermangelt. B5: regel 85 'Verhoging van belang in een geassocieerde onderneming...' is een sectie-titel als plain text zonder heading-prefix."
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:28Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:16Z'
       heading_count: 2
       max_section_chars: 15042
       file_size_chars: 15973
       flags: []
     layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: E2
-          regel: 125
-          type: other
-          voorbeeld: '| Overgedragen winst – lopend boekjaar *[Balans]* | | 16 | | | (geen |---|)'
-        - categorie: E2
-          regel: 132
-          type: other
-          voorbeeld: '| Investering 2 | | 100 | (geen header + geen |---| rij)'
-        - categorie: D4
-          regel: 69
-          type: other
-          voorbeeld: paragraaf I*I.A. Verhoging van belang...
-      rationale: 'E2: meerdere journaalboekingstabellen (regels 125–126, 132–134, 138–140, 144–147) missen de `|---|` header-separator rij — ze worden niet als markdown-tabellen herkend. D4: regel 69 bevat `I*I.A.` — de `*` is onderdeel van een italic-markup die niet gesloten wordt en tegelijk een structuurverwijd naar ''paragraaf II.A.'' verminkt.'
-      run_at: '2026-05-11T12:16:34Z'
       status: needs-rework
-    rationale: 'E2: meerdere journaalboekingstabellen (regels 125–126, 132–134, 138–140, 144–147) missen de `|---|` header-separator rij — ze worden niet als markdown-tabellen herkend. D4: regel 69 bevat `I*I.A.` — de `*` is onderdeel van een italic-markup die niet gesloten wordt en tegelijk een structuurverwijd naar ''paragraaf II.A.'' verminkt.'
-    status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:30:32Z'
+      rationale: "E2: meerdere journaalboekingstabellen (regels 135–136, 142–144, 148–150, 154–157) missen de `|---|` header-separator rij — ze worden niet als markdown-tabellen herkend. D4: regel 81 bevat 'I*I.A.' waarbij de `*` een italic-markup opent die niet gesloten wordt en tegelijk de referentie naar 'paragraaf II.A.' vermangelt. B5: regel 85 'Verhoging van belang in een geassocieerde onderneming...' is een sectie-titel als plain text zonder heading-prefix."
+      concrete_problemen:
+        - regel: 81
+          categorie: D4
+          type: other
+          voorbeeld: paragraaf I*I.A. Verhoging van belang in een geassocieerde onderneming*
+        - regel: 85
+          categorie: B5
+          type: other
+          voorbeeld: Verhoging van belang in een geassocieerde onderneming die na de verhoging nog steeds een geassocieerde onderneming blijft
+        - regel: 135
+          categorie: E2
+          type: other
+          voorbeeld: '| Overgedragen winst – lopend boekjaar *[Balans]* | | 16 | | |  (geen |---| separator)'
+        - regel: 142
+          categorie: E2
+          type: other
+          voorbeeld: '| Investering 2 | | 100 |  (geen header + geen |---| rij)'
 themas:
   - consolidatie
   - stapsgewijze verwerving

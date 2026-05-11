@@ -7,7 +7,7 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/mogelijkheid-tot-uitstel-van-de-goedkeuring-en-neerlegging-van-de-jaarrekening-vzws-0
 nummer: CBN-advies 2020/08
 provenance:
-  generated_at: '2026-05-11T13:05:08Z'
+  generated_at: '2026-05-11T13:15:12Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/mogelijkheid-tot-uitstel-van-de-gewone-algemene-vergadering-en-van-de-neerlegging-van-de
       sha256: b2dfc18f72c8b3503a034b0831a8b39e4ee7f92599fd960098276382a266cfc1
@@ -24,8 +24,8 @@ provenance:
     confirmed_by: subagent-sonnet-4-6
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:30Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:18Z'
       heading_count: 5
       max_section_chars: 5862
       file_size_chars: 11311

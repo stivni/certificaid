@@ -7,65 +7,57 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-een-overschot-aan-broeikasgasemissierechten-door-een
 nummer: CBN-advies 179/1
 provenance:
-  generated_at: '2026-05-11T13:05:06Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-broeikasgasemissierechten
       sha256: 318b60ea7b396ab94915e412a3588e4ba56412cb3fd533851ebf265b424273f2
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:10Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T12:09:17Z'
+    status: needs-rework
+    confirmed_at: '2026-05-11T13:23:04Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: "B4/B3: '(Update november 2008)' staat als plain tekst op r.81 direct na de H1-titel in plaats van als een subkopje of deel van de titel — structuurlabel als plain tekst. B2: de IFRIC/Brutomethode/Nettomethode-secties staan als #### (r.158, 181, 200) terwijl de bovenliggende secties ## zijn — sprong van ## naar #### zonder ### tussenniveau. D4: meerdere malformed italic-patronen: r.171 'Bij de* Interpretation', r.173 'de *Interpretation *en', r.188 ',* sui generis*' — opening-asterisk grenst aan spatie of leesteken."
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:27Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:15Z'
       heading_count: 9
       max_section_chars: 9190
       file_size_chars: 25278
       flags: []
     layer2:
+      status: needs-rework
       agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:23:04Z'
+      rationale: "B4/B3: '(Update november 2008)' staat als plain tekst op r.81 direct na de H1-titel in plaats van als een subkopje of deel van de titel — structuurlabel als plain tekst. B2: de IFRIC/Brutomethode/Nettomethode-secties staan als #### (r.158, 181, 200) terwijl de bovenliggende secties ## zijn — sprong van ## naar #### zonder ### tussenniveau. D4: meerdere malformed italic-patronen: r.171 'Bij de* Interpretation', r.173 'de *Interpretation *en', r.188 ',* sui generis*' — opening-asterisk grenst aan spatie of leesteken."
       concrete_problemen:
-        - categorie: B3
-          regel: 51
+        - regel: 81
+          categorie: B4
           type: other
-          voorbeeld: '# CBN-advies 179/1 van 26 november 2008 (Update november 2008) — dubbele H1'
-        - categorie: B3
-          regel: 53
+          voorbeeld: (Update november 2008) — als plain tekst na H1-titel i.p.v. onderdeel van heading of subkopje
+        - regel: 158
+          categorie: B2
           type: other
-          voorbeeld: '# Boekhoudkundige verwerking van broeikasgasemissierechten — tweede H1'
-        - categorie: B4
-          regel: 55
+          voorbeeld: '#### IFRIC Interpretation 3 Emission Rights (sprong ## → #### zonder ### tussenniveau)'
+        - regel: 171
+          categorie: D4
           type: other
-          voorbeeld: (Update november 2008) als plain tekst regel na H1
-        - categorie: B2
-          regel: 135
+          voorbeeld: Bij de* Interpretation 3 Emission Rights* worden ook voorbeelden gegeven (spatie na opening *)
+        - regel: 173
+          categorie: D4
           type: other
-          voorbeeld: '#### IFRIC Interpretation 3 Emission Rights (sprong ## → ####)'
-        - categorie: D4
-          regel: 149
-          type: other
-          voorbeeld: Bij de* Interpretation 3 Emission Rights* worden ook voorbeelden gegeven.
-        - categorie: D4
-          regel: 155
-          type: other
-          voorbeeld: de *Interpretation *en ondanks de vaststelling (trailing spatie voor sluitende *)
-        - categorie: D4
-          regel: 169
+          voorbeeld: de *Interpretation *en ondanks de vaststelling (spatie vóór sluitende *)
+        - regel: 188
+          categorie: D4
           type: other
           voorbeeld: ',* sui generis* rechten (opening * grenst aan komma+spatie)'
-      rationale: 'B3: twee opeenvolgende # H1-headings (regels 51 en 53) — de titel staat dubbel, plus ''(Update november 2008)'' als plain tekst op regel 55. D4: meerdere malformed italic-patronen (categorie ''*term *'' of '',* term*''), bv. regel 149 ''Bij de* Interpretation'' en regel 169 '',* sui generis*'' — opening-asterisk grenst aan een spatie of leesteken in plaats van aan de tekst. H4-headings (IFRIC, Brutomethode, Nettomethode) staan als #### terwijl de bovenliggende secties ## zijn — sprong van ## naar #### zonder ### tussenniveau (B2).'
-      run_at: '2026-05-11T12:09:17Z'
-      status: needs-rework
-    rationale: 'B3: twee opeenvolgende # H1-headings (regels 51 en 53) — de titel staat dubbel, plus ''(Update november 2008)'' als plain tekst op regel 55. D4: meerdere malformed italic-patronen (categorie ''*term *'' of '',* term*''), bv. regel 149 ''Bij de* Interpretation'' en regel 169 '',* sui generis*'' — opening-asterisk grenst aan een spatie of leesteken in plaats van aan de tekst. H4-headings (IFRIC, Brutomethode, Nettomethode) staan als #### terwijl de bovenliggende secties ## zijn — sprong van ## naar #### zonder ### tussenniveau (B2).'
-    status: needs-rework
 themas:
   - broeikasgasemissierechten
   - bruto-methode

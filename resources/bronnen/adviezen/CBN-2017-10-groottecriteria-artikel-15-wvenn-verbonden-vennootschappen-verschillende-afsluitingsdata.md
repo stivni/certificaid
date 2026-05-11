@@ -10,37 +10,37 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/gebeurtenissen-na-afsluitingsdatum-van-het-boekjaar
 nummer: CBN-advies 2017/10
 provenance:
-  generated_at: '2026-05-11T13:05:08Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/groottecriteria-artikel-15-wvenn-verbonden-vennootschappen-verschillende-afsluitingsdata
       sha256: 8127dbd2686b09042a052daebefc4c2f3d9dbf73237678837d7436bd6e1c7fb4
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:12Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at:
-    confirmed_by:
+    status: trusted
+    confirmed_at: '2026-05-11T13:30:33Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: 'Drie heldere ## headings, volledige en doorlopende tekst, alle 13 voetnoten correct gedefinieerd. Geen PDF-extractie-artefacten aangetroffen: geen form-feeds, geen spurious line-breaks, geen broken italic, geen pseudo-tabellen. De legende-symbolen (<< < >) op regels 109-113 zijn authentieke CBN-notatie, geen glyph-artefact.'
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:29Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:17Z'
       heading_count: 3
       max_section_chars: 7249
       file_size_chars: 10734
       flags: []
     layer2:
-      agent:
+      status: trusted
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:30:33Z'
+      rationale: 'Drie heldere ## headings, volledige en doorlopende tekst, alle 13 voetnoten correct gedefinieerd. Geen PDF-extractie-artefacten aangetroffen: geen form-feeds, geen spurious line-breaks, geen broken italic, geen pseudo-tabellen. De legende-symbolen (<< < >) op regels 109-113 zijn authentieke CBN-notatie, geen glyph-artefact.'
       concrete_problemen: []
-      rationale:
-      run_at:
-      status: not_run
-    rationale: 'Trust gereset 2026-05-11: re-scrape met scraper-fixes, content-diff > 5%'
-    status: unreviewed
 themas:
   - afsluitdatum
   - artikel 15 W.Venn.

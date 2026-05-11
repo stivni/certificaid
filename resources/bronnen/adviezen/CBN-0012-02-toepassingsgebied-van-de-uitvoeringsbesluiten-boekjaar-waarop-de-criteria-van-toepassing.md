@@ -16,53 +16,53 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/verslaggeving-bij-ontbinding-en-vereffening-van-bv-cv-nv-se-en-sce
 nummer: CBN-advies 12/2
 provenance:
-  generated_at: '2026-05-11T13:05:05Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/toepassingsgebied-van-de-uitvoeringsbesluiten-boekjaar-waarop-de-criteria-van-toepassing
       sha256: 26ca679519de6ac24c5bd8d0c5f98ce1e83aa35f7077241e7354b85fbcebf4db
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:10Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T11:51:19Z'
+    status: needs-rework
+    confirmed_at: '2026-05-11T13:16:01Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: "Meerdere typefouten (vermoedelijk al in de bron) die de scraper-fix niet heeft gecorrigeerd: 'inzae tewerkgesteld personeel' (r76), 'ter uitvering van de wet' (r80), 'cjfers' en 'interpretate' (r82). Structureel: de 'verouderd'-notitie op r72 en de bulletin-verwijzing op r74 staan als twee aparte alinea's — dit kan een A6-achtig scraping-artefact zijn. A4-status niet zonder hex-inspectie verifieerbaar."
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:24Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:13Z'
       heading_count: 0
       max_section_chars: 2657
       file_size_chars: 2657
       flags: []
     layer2:
+      status: needs-rework
       agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:16:01Z'
+      rationale: "Meerdere typefouten (vermoedelijk al in de bron) die de scraper-fix niet heeft gecorrigeerd: 'inzae tewerkgesteld personeel' (r76), 'ter uitvering van de wet' (r80), 'cjfers' en 'interpretate' (r82). Structureel: de 'verouderd'-notitie op r72 en de bulletin-verwijzing op r74 staan als twee aparte alinea's — dit kan een A6-achtig scraping-artefact zijn. A4-status niet zonder hex-inspectie verifieerbaar."
       concrete_problemen:
-        - categorie: A6
-          regel: 58
-          type: other
-          voorbeeld: (zie lijst van gepubliceerde adviezen, bulletin 1‐24 augustus 1977‐september 1989)
-        - categorie: D1
-          regel: 60
+        - regel: 76
+          categorie: D1
           type: other
           voorbeeld: criteria inzae tewerkgesteld personeel, omzetcijfer en balanstotaal
-        - categorie: D1
-          regel: 64
+        - regel: 80
+          categorie: D1
           type: other
           voorbeeld: besluiten die ter uitvering van de wet worden genomen
-        - categorie: D1
-          regel: 66
+        - regel: 82
+          categorie: D1
           type: other
           voorbeeld: dat de cjfers in de loop van het boekjaar overschreden worden ... interpretate
-      rationale: 'Twee problemen: (1) r58 bevat een losse parenthese-paragraaf ''(zie lijst van gepubliceerde adviezen, bulletin 1‐24...)'' die structureel los staat van de ''verouderd''-notitie op r56 — dit is een A6-achtig scraping-artefact waarbij de tweede zin van de verouderd-notitie als aparte alinea belandde. (2) Meerdere typefouten in de body: ''inzae tewerkgesteld'' (r60), ''ter uitvering'' (r64), ''interpretate'' (r66), ''cjfers'' (r66). A4: 2 gevallen U+2010 in r58.'
-      run_at: '2026-05-11T11:51:19Z'
-      status: needs-rework
-    rationale: 'Twee problemen: (1) r58 bevat een losse parenthese-paragraaf ''(zie lijst van gepubliceerde adviezen, bulletin 1‐24...)'' die structureel los staat van de ''verouderd''-notitie op r56 — dit is een A6-achtig scraping-artefact waarbij de tweede zin van de verouderd-notitie als aparte alinea belandde. (2) Meerdere typefouten in de body: ''inzae tewerkgesteld'' (r60), ''ter uitvering'' (r64), ''interpretate'' (r66), ''cjfers'' (r66). A4: 2 gevallen U+2010 in r58.'
-    status: needs-rework
+        - regel: 74
+          categorie: A6
+          type: other
+          voorbeeld: (zie lijst van gepubliceerde adviezen, bulletin 1-24 augustus 1977-september 1989)
 themas:
   - boekjaar
 ---

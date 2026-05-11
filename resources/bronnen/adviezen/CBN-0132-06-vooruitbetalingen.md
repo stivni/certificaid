@@ -3,45 +3,53 @@ bron: https://www.cbn-cnc.be/nl/adviezen/vooruitbetalingen
 datum: 1993-12-01
 nummer: CBN-advies 132/6
 provenance:
-  generated_at: '2026-05-11T13:05:06Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/vooruitbetalingen
       sha256: f39529e8410b2cd371795a771f1e28a0d40fdd73287e098c06b0fef08e3a1f37
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:10Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T12:04:41Z'
+    status: needs-rework
+    confirmed_at: '2026-05-11T13:16:02Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: "E2: boekingstabellen zijn structureel inconsistent opgebouwd. In het ene patroon staat 'aan' als aparte cel in kolom 1 ('| aan | 440 Leveranciers |'), in het andere patroon staat 'aan' samengevoegd met de rekeningnaam in kolom 2 ('| | aan 55 Kredietinstellingen |' en '| | aan 440 Leveranciers |'). Dit wisselt door het gehele bestand (L75, L82, L90, L100, L108-110). Debet/Credit-kolommen zijn structureel leeg, maar dat is acceptabel voor een illustratief advies zonder bedragen."
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:25Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:14Z'
       heading_count: 0
       max_section_chars: 3514
       file_size_chars: 3514
       flags: []
     layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: E2
-          regel: 67
-          type: other
-          voorbeeld: '| aan | 440 Leveranciers | | | | vs. | | aan 55 Kredietinstellingen | | | |'
-        - categorie: E2
-          regel: 74
-          type: other
-          voorbeeld: '| | aan 55 Kredietinstellingen | | | | (inconsistent met L67-patroon)'
-      rationale: 'E2: de boekingstabellen zijn inconsistent opgebouwd. ''Aan''-rijen wisselen tussen twee patronen: soms ''| aan | 440 Leveranciers |'' (aan in cel 1) en soms ''| | aan 55 Kredietinstellingen |'' (aan samengevoegd in cel 2). Bovendien zijn de Debet- en Credit-kolommen structureel leeg — de tabellen tonen de rekeningnummers maar geen bedragen. Dit is acceptabel voor een advies dat de structuur illustreert, maar de inconsistentie in de ''aan''-plaatsing is een echte E2-issue.'
-      run_at: '2026-05-11T12:04:41Z'
       status: needs-rework
-    rationale: 'E2: de boekingstabellen zijn inconsistent opgebouwd. ''Aan''-rijen wisselen tussen twee patronen: soms ''| aan | 440 Leveranciers |'' (aan in cel 1) en soms ''| | aan 55 Kredietinstellingen |'' (aan samengevoegd in cel 2). Bovendien zijn de Debet- en Credit-kolommen structureel leeg — de tabellen tonen de rekeningnummers maar geen bedragen. Dit is acceptabel voor een advies dat de structuur illustreert, maar de inconsistentie in de ''aan''-plaatsing is een echte E2-issue.'
-    status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:16:02Z'
+      rationale: "E2: boekingstabellen zijn structureel inconsistent opgebouwd. In het ene patroon staat 'aan' als aparte cel in kolom 1 ('| aan | 440 Leveranciers |'), in het andere patroon staat 'aan' samengevoegd met de rekeningnaam in kolom 2 ('| | aan 55 Kredietinstellingen |' en '| | aan 440 Leveranciers |'). Dit wisselt door het gehele bestand (L75, L82, L90, L100, L108-110). Debet/Credit-kolommen zijn structureel leeg, maar dat is acceptabel voor een illustratief advies zonder bedragen."
+      concrete_problemen:
+        - regel: 75
+          categorie: E2
+          type: other
+          voorbeeld: "| aan | 440 Leveranciers | | | | — 'aan' in cel 1"
+        - regel: 82
+          categorie: E2
+          type: other
+          voorbeeld: "| | aan 55 Kredietinstellingen | | | | — 'aan' samengevoegd in cel 2"
+        - regel: 108
+          categorie: E2
+          type: other
+          voorbeeld: '| | aan 440 Leveranciers | | | | — inconsistent patroon (cel 2)'
+        - regel: 110
+          categorie: E2
+          type: other
+          voorbeeld: '| | aan 36 Vooruitbetalingen op voorraadinkopen | | | | — inconsistent patroon'
 themas:
   - gefactureerde vooruitbetalingen
   - voorraden

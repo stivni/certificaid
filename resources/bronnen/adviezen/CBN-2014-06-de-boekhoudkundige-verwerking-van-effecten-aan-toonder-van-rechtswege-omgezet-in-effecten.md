@@ -3,41 +3,41 @@ bron: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-effec
 datum: 2014-04-23
 nummer: CBN-advies 2014/6
 provenance:
-  generated_at: '2026-05-11T13:05:08Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-effecten-aan-toonder-van-rechtswege-omgezet-in-effecten
       sha256: 96a637b0198c56439326c067bc3fa16af11e8354f95f69eb043dfc588197858f
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:12Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T12:16:34Z'
+    status: needs-rework
+    confirmed_at: '2026-05-11T13:30:32Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: "Regel 52: 'op 1 januari 2014' staat als losstaande tekstregel direct na de H1-titel — dit is een fragment van de volledige originele titel die door de scraper werd gesplitst (A6/B5). Hoort in de H1-heading of verwijderd te worden. Inhoud verder volledig."
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:29Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:16Z'
       heading_count: 5
       max_section_chars: 3101
       file_size_chars: 7553
       flags: []
     layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: B5
-          regel: 48
-          type: other
-          voorbeeld: op 1 januari 2014
-      rationale: 'Regel 48: ''op 1 januari 2014'' staat als losstaande tekstregel direct na de H1-titel — dit is een fragment van de volledige originele titel dat door de scraper gesplitst werd en als body-tekst terechtkwam. Hoort ofwel onderdeel te zijn van de H1-heading ofwel verwijderd te worden. Verdere inhoud is volledig.'
-      run_at: '2026-05-11T12:16:34Z'
       status: needs-rework
-    rationale: 'Regel 48: ''op 1 januari 2014'' staat als losstaande tekstregel direct na de H1-titel — dit is een fragment van de volledige originele titel dat door de scraper gesplitst werd en als body-tekst terechtkwam. Hoort ofwel onderdeel te zijn van de H1-heading ofwel verwijderd te worden. Verdere inhoud is volledig.'
-    status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:30:32Z'
+      rationale: "Regel 52: 'op 1 januari 2014' staat als losstaande tekstregel direct na de H1-titel — dit is een fragment van de volledige originele titel die door de scraper werd gesplitst (A6/B5). Hoort in de H1-heading of verwijderd te worden. Inhoud verder volledig."
+      concrete_problemen:
+        - regel: 52
+          categorie: B5
+          type: other
+          voorbeeld: op 1 januari 2014 — losstaand fragment na H1-heading
 themas:
   - aandelen aan toonder
   - aandelen op naam

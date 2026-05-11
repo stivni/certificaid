@@ -16,45 +16,41 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/vastrentende-effecten-financiele-vaste-activa-of-geldbeleggingen-criteria
 nummer: CBN-advies 139/2
 provenance:
-  generated_at: '2026-05-11T13:05:06Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/obligaties-met-warrant
       sha256: b62f014465cf143e0fa22c5f4b0c68c37d7e64724a3b959597911a6abe560eeb
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:10Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T12:04:41Z'
+    status: needs-rework
+    confirmed_at: '2026-05-11T13:23:03Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: "F1: HTML-entity '&#039;' in frontmatter (gerelateerde_adviezen titel 'CPC&#039;s') is een niet-gedecodeeerd scraper-artefact. D4-probleem uit vorig verdict (*Bull. CBN *) is niet zichtbaar in huidige versie — de italic ziet er correct uit ('*Bull. CBN* nr. 13'). Eén resterend artefact in frontmatter vereist ETL-fix."
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:26Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:14Z'
       heading_count: 0
       max_section_chars: 3657
       file_size_chars: 3657
       flags: []
     layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: G1
-          regel: 45
-          type: other
-          voorbeeld: '- titel: Passende boekhoudkundige verwerking van de tegenwaarde van participatiecertificaten CPC&#039;s'
-        - categorie: D4
-          regel: 62
-          type: other
-          voorbeeld: '...naar advies 139/1 gepubliceerd in *Bull. CBN *nr. 13 van januari 1984 (pp. 14-18).'
-      rationale: 'G1/F1: HTML-entity &#039; in frontmatter (regel 45: ''CPC&#039;s'') — dit is een scraper-artefact dat niet gedecodeeerd werd. D4: *Bull. CBN * op regel 62 heeft spatie voor sluitende * (malformed italic). Tabel op regels 84-88 is correct pipe-syntax. Inhoud volledig.'
-      run_at: '2026-05-11T12:04:41Z'
       status: needs-rework
-    rationale: 'G1/F1: HTML-entity &#039; in frontmatter (regel 45: ''CPC&#039;s'') — dit is een scraper-artefact dat niet gedecodeeerd werd. D4: *Bull. CBN * op regel 62 heeft spatie voor sluitende * (malformed italic). Tabel op regels 84-88 is correct pipe-syntax. Inhoud volledig.'
-    status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:23:03Z'
+      rationale: "F1: HTML-entity '&#039;' in frontmatter (gerelateerde_adviezen titel 'CPC&#039;s') is een niet-gedecodeeerd scraper-artefact. D4-probleem uit vorig verdict (*Bull. CBN *) is niet zichtbaar in huidige versie — de italic ziet er correct uit ('*Bull. CBN* nr. 13'). Eén resterend artefact in frontmatter vereist ETL-fix."
+      concrete_problemen:
+        - regel: 9
+          categorie: F1
+          type: other
+          voorbeeld: 'titel: Passende boekhoudkundige verwerking van de tegenwaarde van participatiecertificaten CPC&#039;s'
 themas:
   - obligaties
   - obligaties met warrant

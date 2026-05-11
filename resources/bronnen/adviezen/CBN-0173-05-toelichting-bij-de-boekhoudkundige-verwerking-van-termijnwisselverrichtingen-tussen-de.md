@@ -10,53 +10,53 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/overschakeling-op-de-euro-aspecten-in-verband-met-de-geconsolideerde-jaarrekening
 nummer: CBN-advies 173/5
 provenance:
-  generated_at: '2026-05-11T13:05:06Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/toelichting-bij-de-boekhoudkundige-verwerking-van-termijnwisselverrichtingen-tussen-de
       sha256: 1590a40d3e4a3e9423ec4a2ad25bbb84ad2d65d6c11eee4f0d14b9d61cfb9337
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:10Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T12:09:17Z'
+    status: needs-rework
+    confirmed_at: '2026-05-11T13:23:04Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: "Vier problemen: (1) A8: r.133 bevat een Franse zin 'A la conclusion de cette opération au premier avril 1998' als plain-text in een NL-body — kolom-bleed uit tweetalige bron. (2) C3: de resultatenrekening-samenvatting op r.176-182 is geen geldige pipe-tabel maar een defect fragment met inline tabs/newlines. (3) D1: voetnoot [^4] op r.194 eindigt abrupt na 'conform voetnoot' — inhoud weggesneden; r.196 bevat [^5] die de echte vervolgtekst van [^4] lijkt te bevatten (hernummering-bug). (4) F1: thema 'termijnaanko' in frontmatter (r.68) is afgekapt."
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:26Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:15Z'
       heading_count: 3
       max_section_chars: 7318
       file_size_chars: 11729
       flags: []
     layer2:
+      status: needs-rework
       agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:23:04Z'
+      rationale: "Vier problemen: (1) A8: r.133 bevat een Franse zin 'A la conclusion de cette opération au premier avril 1998' als plain-text in een NL-body — kolom-bleed uit tweetalige bron. (2) C3: de resultatenrekening-samenvatting op r.176-182 is geen geldige pipe-tabel maar een defect fragment met inline tabs/newlines. (3) D1: voetnoot [^4] op r.194 eindigt abrupt na 'conform voetnoot' — inhoud weggesneden; r.196 bevat [^5] die de echte vervolgtekst van [^4] lijkt te bevatten (hernummering-bug). (4) F1: thema 'termijnaanko' in frontmatter (r.68) is afgekapt."
       concrete_problemen:
-        - categorie: F1
-          regel: 12
-          type: other
-          voorbeeld: '- termijnaanko (afgekapt thema-label in frontmatter)'
-        - categorie: A8
-          regel: 119
+        - regel: 133
+          categorie: A8
           type: column-bleed
           voorbeeld: A la conclusion de cette opération au premier avril 1998
-        - categorie: C3
-          regel: 162
+        - regel: 176
+          categorie: C3
           type: pseudo-table
-          voorbeeld: '| 60.000 | | 47.872,3\n\t\t\t15.000 |'
-        - categorie: D1
-          regel: 180
+          voorbeeld: "| **RESULTATENREKENING OP 31/12/1998**  | \n| 60.000 | | 47.872,3\n\t\t\t15.000 |"
+        - regel: 194
+          categorie: D1
           type: abrupt-cutoff
-          voorbeeld: '[^4]: ...de Commissie, conform voetnoot (definitie onvolledig)'
-      rationale: 'Vier problemen: (1) A8/kolom-bleed: op r.119 staat een Franse zin ''A la conclusion de cette opération au premier avril 1998'' als plain-text regel, vermoedelijk een fragment uit de tweetalige bron dat niet is weggefilterd. (2) C3: de resultatenrekening-samenvatting op r.162-168 is geen geldige markdown-tabel maar een defecte pipe-reeks met inline tabs (r.165 toont ingesprongen ''15.000 |''). (3) D4: voetnoot [^4] definitie op r.180 eindigt abrupt met ''conform voetnoot'' zonder verdere tekst — de inhoud is weggesneden. (4) Frontmatter-thema ''termijnaanko'' is afgekapt (r.12).'
-      run_at: '2026-05-11T12:09:17Z'
-      status: needs-rework
-    rationale: 'Vier problemen: (1) A8/kolom-bleed: op r.119 staat een Franse zin ''A la conclusion de cette opération au premier avril 1998'' als plain-text regel, vermoedelijk een fragment uit de tweetalige bron dat niet is weggefilterd. (2) C3: de resultatenrekening-samenvatting op r.162-168 is geen geldige markdown-tabel maar een defecte pipe-reeks met inline tabs (r.165 toont ingesprongen ''15.000 |''). (3) D4: voetnoot [^4] definitie op r.180 eindigt abrupt met ''conform voetnoot'' zonder verdere tekst — de inhoud is weggesneden. (4) Frontmatter-thema ''termijnaanko'' is afgekapt (r.12).'
-    status: needs-rework
+          voorbeeld: '[^4]: In dit verband wenst de Commissie, conform voetnoot'
+        - regel: 68
+          categorie: F1
+          type: other
+          voorbeeld: '- termijnaanko'
 themas:
   - bilaterale wisselkoersen
   - contantrentevoet

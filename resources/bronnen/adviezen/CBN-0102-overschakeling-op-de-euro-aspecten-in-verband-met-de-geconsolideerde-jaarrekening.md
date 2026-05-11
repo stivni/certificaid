@@ -7,49 +7,49 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/opneming-van-de-rekeningen-van-een-buitenlands-bijkantoor
 nummer: CBN-advies C102
 provenance:
-  generated_at: '2026-05-11T13:05:05Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/overschakeling-op-de-euro-aspecten-in-verband-met-de-geconsolideerde-jaarrekening
       sha256: ab2bfec3e927b5ec40d7ee28060050ff1cc7740d622ffac9dde0c1ebb0dbd7d9
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:10Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T11:51:19Z'
+    status: needs-rework
+    confirmed_at: '2026-05-11T13:16:01Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: "Drie bugs blijven aanwezig in de body. G3/A4: spurious '] ' midden in de geciteerde passage op regel 111 ('te ] verantwoorden»') — een bracket-artefact dat de zin verminkt. D3: voetnoot [^14] op regel 204 bevat de volledige tekst tweemaal aaneengesloten zonder separator. A4/A6: inconsistente koppeltekens 'niet- monetaire' (met spatie na koppelteken) op regels 153 en 208 naast correct 'niet-monetaire' elders — typisch extractie-artefact. De U+00AC (¬) in de vorige verdict zat uitsluitend in frontmatter YAML, niet in de body."
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:24Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:13Z'
       heading_count: 6
       max_section_chars: 15757
       file_size_chars: 26661
       flags: []
     layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: G3
-          regel: 101
-          type: other
-          voorbeeld: te ] verantwoorden»[^8]. — spurious bracket in geciteerde passage
-        - categorie: A4
-          regel: 210
-          type: other
-          voorbeeld: niet¬monetaire actief — U+00AC NOT SIGN i.p.v. koppelstreepje
-        - categorie: D3
-          regel: 198
-          type: other
-          voorbeeld: '[^14]: ...advies 152/1 Voor een definitie...advies 152/1 (tekst tweemaal)'
-      rationale: 'Drie concrete problemen: (1) A4/G3 op regel 101: spurious ''] '' midden in een geciteerde zin (''te ] verantwoorden»'') — een bracket-artefact uit de bronpagina dat de zin verminkt; (2) A4 op regel 210: U+00AC (NOT SIGN ¬) in plaats van koppelstreepje in ''niet¬monetaire'' — onzichtbaar unicode-artefact; (3) D3 op regel 198: voetnoot [^14] bevat de volledige tekst tweemaal aaneengesloten zonder separator — scraping-duplicaat. Heading-hiërarchie (## › ### › ####) is structureel correct. Inhoud is overigens inhoudelijk volledig.'
-      run_at: '2026-05-11T11:51:19Z'
       status: needs-rework
-    rationale: 'Drie concrete problemen: (1) A4/G3 op regel 101: spurious ''] '' midden in een geciteerde zin (''te ] verantwoorden»'') — een bracket-artefact uit de bronpagina dat de zin verminkt; (2) A4 op regel 210: U+00AC (NOT SIGN ¬) in plaats van koppelstreepje in ''niet¬monetaire'' — onzichtbaar unicode-artefact; (3) D3 op regel 198: voetnoot [^14] bevat de volledige tekst tweemaal aaneengesloten zonder separator — scraping-duplicaat. Heading-hiërarchie (## › ### › ####) is structureel correct. Inhoud is overigens inhoudelijk volledig.'
-    status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:16:01Z'
+      rationale: "Drie bugs blijven aanwezig in de body. G3/A4: spurious '] ' midden in de geciteerde passage op regel 111 ('te ] verantwoorden»') — een bracket-artefact dat de zin verminkt. D3: voetnoot [^14] op regel 204 bevat de volledige tekst tweemaal aaneengesloten zonder separator. A4/A6: inconsistente koppeltekens 'niet- monetaire' (met spatie na koppelteken) op regels 153 en 208 naast correct 'niet-monetaire' elders — typisch extractie-artefact. De U+00AC (¬) in de vorige verdict zat uitsluitend in frontmatter YAML, niet in de body."
+      concrete_problemen:
+        - regel: 111
+          categorie: G3
+          type: other
+          voorbeeld: te ] verantwoorden»[^8] — spurious bracket in geciteerde passage
+        - regel: 204
+          categorie: D3
+          type: other
+          voorbeeld: '[^14]: ...advies 152/1 Voor een definitie...advies 152/1 (volledige tekst tweemaal)'
+        - regel: 153
+          categorie: A4
+          type: other
+          voorbeeld: niet- monetaire posten — spatie na koppelteken (ook regel 208)
 themas:
   - slotkoers
   - slotkoersmethode

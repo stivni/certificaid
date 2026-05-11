@@ -10,55 +10,55 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/het-begrip-financiele-instelling
 nummer: CBN-advies 16/1
 provenance:
-  generated_at: '2026-05-11T13:05:05Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/toepassing-van-de-wet-op-financiele-instellingen-kredietinstellingen-die-onder-de
       sha256: f8e4652436db7b0cecba38ff5200255e61355b17c7d905b26369463da1ad4923
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:10Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T11:51:19Z'
+    status: needs-rework
+    confirmed_at: '2026-05-11T13:16:01Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: "Twee hardnekkige problemen niet opgelost door scraper-fix: (1) G2/frontmatter: in de YAML-sectie gerelateerde_adviezen staat nog steeds een ongeparseerde HTML-entity op r9 ('Het begrip &quot;financiële instelling&quot;') — downstream YAML-parsing kan hier falen. (2) D1: typo 'valln' (r67) in de body. A4 (U+2010 in de heading r61 '‐ Kredietinstellingen') lijkt nog aanwezig gezien de heading tekst. Geen duplicate headings."
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:24Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:13Z'
       heading_count: 0
       max_section_chars: 1668
       file_size_chars: 1668
       flags: []
     layer2:
+      status: needs-rework
       agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:16:01Z'
+      rationale: "Twee hardnekkige problemen niet opgelost door scraper-fix: (1) G2/frontmatter: in de YAML-sectie gerelateerde_adviezen staat nog steeds een ongeparseerde HTML-entity op r9 ('Het begrip &quot;financiële instelling&quot;') — downstream YAML-parsing kan hier falen. (2) D1: typo 'valln' (r67) in de body. A4 (U+2010 in de heading r61 '‐ Kredietinstellingen') lijkt nog aanwezig gezien de heading tekst. Geen duplicate headings."
       concrete_problemen:
-        - categorie: G2
-          regel: 44
+        - regel: 9
+          categorie: G2
           type: other
           voorbeeld: 'titel: Het begrip &quot;financiële instelling&quot;'
-        - categorie: D1
-          regel: 55
+        - regel: 61
+          categorie: A4
           type: other
-          voorbeeld: de ondernemingen die onder toepassing valln van het koninklijk besluit
-        - categorie: A4
-          regel: 49
+          voorbeeld: CBN-advies 16-1 Toepassing van de wet op financiële instellingen ‐ Kredietinstellingen
+        - regel: 67
+          categorie: D1
           type: other
-          voorbeeld: financiële instellingen ‐ Kredietinstellingen die onder de toepassing
-      rationale: 'G1/G2: in de frontmatter-sectie gerelateerde_adviezen staat op r44 een ongeparseerde HTML-entity: ''Het begrip &quot;financiële instelling&quot;'' — de scraper heeft de HTML-entities niet gedecodeerd. Dit is een frontmatter-kwaliteitsdefect dat voor downstream YAML-parsing problemen kan geven. Verder: A4: 7 gevallen U+2010 HYPHEN in r49 en r55 (titels van instellingen zoals ''Spaar‐ en Lijfrentekas''). Spelfout ''valln'' (r55). Geen duplicate headings.'
-      run_at: '2026-05-11T11:51:19Z'
-      status: needs-rework
-    rationale: 'G1/G2: in de frontmatter-sectie gerelateerde_adviezen staat op r44 een ongeparseerde HTML-entity: ''Het begrip &quot;financiële instelling&quot;'' — de scraper heeft de HTML-entities niet gedecodeerd. Dit is een frontmatter-kwaliteitsdefect dat voor downstream YAML-parsing problemen kan geven. Verder: A4: 7 gevallen U+2010 HYPHEN in r49 en r55 (titels van instellingen zoals ''Spaar‐ en Lijfrentekas''). Spelfout ''valln'' (r55). Geen duplicate headings.'
-    status: needs-rework
+          voorbeeld: die onder de toepassing valln van het koninklijk besluit nr. 64
 themas:
   - financiële instelling
   - kredietinstelling
 ---
 
-# CBN-advies 16-1 Toepassing van de wet op financiële instellingen ‐ Kredietinstellingen die onder de toepassing vallen van een bijzondere wet
+# CBN-advies 16-1 Toepassing van de wet op financiële instellingen - Kredietinstellingen die onder de toepassing vallen van een bijzondere wet
 
 Dit advies is verouderd als gevolg van de aangebrachte wijzigingen aan de betrokken bepalingen, actueel artikel 15 van de wet
 

@@ -3,57 +3,57 @@ bron: https://www.cbn-cnc.be/nl/adviezen/bepaling-van-de-functionele-valuta-bij-
 datum: 2009-09-16
 nummer: CBN-advies 2009/10
 provenance:
-  generated_at: '2026-05-11T13:05:07Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/bepaling-van-de-functionele-valuta-bij-financieringsvennootschappen
       sha256: 0d99ed3da1c845b15c6d59f468f49f333307bc37fdc538f29da9b2b82ff3505b
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:11Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T12:09:17Z'
+    status: needs-rework
+    confirmed_at: '2026-05-11T13:23:04Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: "A2: regels 68-69 bevatten een genummerde TOC-lijst ('1. Definitie treasury vennootschappen...' / '2. Bepaling van de functionele valuta...') direct na de H1-titel — dit is een TOC-fragment dat als body-tekst staat terwijl de inhoud daarna als #### headings wordt herhaald. B4: twee #### headings in all-caps (r.74, r.94) zonder enig bovenliggend ## niveau. B2: heading-hiërarchie springt van H1 naar #### zonder ## of ### tussenniveau."
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:27Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:15Z'
       heading_count: 2
       max_section_chars: 4440
       file_size_chars: 7309
       flags: []
     layer2:
+      status: needs-rework
       agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:23:04Z'
+      rationale: "A2: regels 68-69 bevatten een genummerde TOC-lijst ('1. Definitie treasury vennootschappen...' / '2. Bepaling van de functionele valuta...') direct na de H1-titel — dit is een TOC-fragment dat als body-tekst staat terwijl de inhoud daarna als #### headings wordt herhaald. B4: twee #### headings in all-caps (r.74, r.94) zonder enig bovenliggend ## niveau. B2: heading-hiërarchie springt van H1 naar #### zonder ## of ### tussenniveau."
       concrete_problemen:
-        - categorie: A2
-          regel: 48
+        - regel: 68
+          categorie: A2
           type: dotted-leader
           voorbeeld: 1. Definitie treasury vennootschappen of financieringsvennootschappen (TOC-residu als body-tekst)
-        - categorie: A2
-          regel: 49
+        - regel: 69
+          categorie: A2
           type: dotted-leader
           voorbeeld: 2. Bepaling van de functionele valuta bij financieringsvennootschappen (TOC-residu)
-        - categorie: B4
-          regel: 54
+        - regel: 74
+          categorie: B4
           type: other
           voorbeeld: '#### Definitie treasury vennootschappen of financieringsvennootschappen (#### zonder ## bovenliggend)'
-        - categorie: B4
-          regel: 74
+        - regel: 94
+          categorie: B4
           type: other
           voorbeeld: '#### Bepaling van de functionele valuta bij financieringsvennootschappen (#### zonder ##)'
-        - categorie: B2
-          regel: 54
+        - regel: 74
+          categorie: B2
           type: other
           voorbeeld: 'H1 → #### zonder ## of ### tussenniveau (hiërarchiesprong)'
-      rationale: 'A2/B7: regels 48–49 bevatten een genummerde lijst ''1. Definitie... / 2. Bepaling...'' direct na de H1-titel — dit is een TOC-fragment dat mee-geëxtraheerd is en nu als body-tekst staat i.p.v. te worden weggelaten (de inhoud wordt daarna als #### headings herhaald). B4: twee #### headings in all-caps (regels 54, 74) zonder bovenliggend ## niveau (B2-sprong: H1 → #### zonder ##/### tussenniveau).'
-      run_at: '2026-05-11T12:09:17Z'
-      status: needs-rework
-    rationale: 'A2/B7: regels 48–49 bevatten een genummerde lijst ''1. Definitie... / 2. Bepaling...'' direct na de H1-titel — dit is een TOC-fragment dat mee-geëxtraheerd is en nu als body-tekst staat i.p.v. te worden weggelaten (de inhoud wordt daarna als #### headings herhaald). B4: twee #### headings in all-caps (regels 54, 74) zonder bovenliggend ## niveau (B2-sprong: H1 → #### zonder ##/### tussenniveau).'
-    status: needs-rework
 themas:
   - financieringsvennootschappen
   - functionele munt

@@ -3,45 +3,41 @@ bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-voorz
 datum: 1988-06-01
 nummer: CBN-advies 107/8
 provenance:
-  generated_at: '2026-05-11T13:05:05Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-voorzieningen-voor-risicos-en-kosten
       sha256: d753bc74c5fd679b41db4da5185b9d315db89113f7fc81e0cf1c003ccd4d619d
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:10Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T11:57:45Z'
+    status: needs-rework
+    confirmed_at: '2026-05-11T13:16:02Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: "G2/frontmatter: HTML-entity '&#039;' in themas-veld (regel 49: 'voorzieningen voor risico&#039;s en kosten') is een ETL-artefact. De eerder gerapporteerde D4-claim (gebroken footnote op regel 54) is onjuist — 'deviezen[^1] zijn de hypotheses...' staat inline op dezelfde regel, geen newline ertussen. Enkel de frontmatter-entiteit vereist rework."
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:24Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:13Z'
       heading_count: 0
       max_section_chars: 2994
       file_size_chars: 2994
       flags: []
     layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: G2
-          regel: 8
-          type: other
-          voorbeeld: '- voorzieningen voor risico&#039;s en kosten'
-        - categorie: D4
-          regel: 54
-          type: other
-          voorbeeld: "verplichtingen in deviezen[^1]\n zijn de hypotheses..."
-      rationale: 'Twee problemen: (1) G2: HTML-entity `&#039;` in frontmatter themas-veld (regel 8: ''voorzieningen voor risico&#039;s en kosten'') in plaats van een apostrof. (2) D4-artefact op regel 54: ''deviezen[^1]\n zijn de hypotheses...'' — footnote-marker gevolgd door newline + spatie, identiek patroon als in 107/3bis en 107/5. Beide zijn ETL-fixbaar.'
-      run_at: '2026-05-11T11:57:45Z'
       status: needs-rework
-    rationale: 'Twee problemen: (1) G2: HTML-entity `&#039;` in frontmatter themas-veld (regel 8: ''voorzieningen voor risico&#039;s en kosten'') in plaats van een apostrof. (2) D4-artefact op regel 54: ''deviezen[^1]\n zijn de hypotheses...'' — footnote-marker gevolgd door newline + spatie, identiek patroon als in 107/3bis en 107/5. Beide zijn ETL-fixbaar.'
-    status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:16:02Z'
+      rationale: "G2/frontmatter: HTML-entity '&#039;' in themas-veld (regel 49: 'voorzieningen voor risico&#039;s en kosten') is een ETL-artefact. De eerder gerapporteerde D4-claim (gebroken footnote op regel 54) is onjuist — 'deviezen[^1] zijn de hypotheses...' staat inline op dezelfde regel, geen newline ertussen. Enkel de frontmatter-entiteit vereist rework."
+      concrete_problemen:
+        - regel: 49
+          categorie: G2
+          type: other
+          voorbeeld: voorzieningen voor risico&#039;s en kosten
 themas:
   - fiscale voorziening
   - voorziening

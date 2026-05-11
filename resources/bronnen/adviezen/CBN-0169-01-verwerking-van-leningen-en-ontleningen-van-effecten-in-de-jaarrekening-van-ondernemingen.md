@@ -3,65 +3,61 @@ bron: https://www.cbn-cnc.be/nl/adviezen/verwerking-van-leningen-en-ontleningen-
 datum: 1995-02-01
 nummer: CBN-advies 169/1
 provenance:
-  generated_at: '2026-05-11T13:05:06Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/verwerking-van-leningen-en-ontleningen-van-effecten-in-de-jaarrekening-van-ondernemingen
       sha256: becb90a513b6601dde80ef71d42c2fc123218f5918b7d032f8108f2bdcab550a
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:10Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T12:09:17Z'
+    status: needs-rework
+    confirmed_at: '2026-05-11T13:23:04Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: "Meerdere A9 OCR-tikfouten verspreid: 'Tegerlijkertijd' (r.135), 'financïele' (r.256), 'balansdatrum' (r.521), 'lengsovereenkomst' (r.698); 'effectenverordening' (r.311) is OCR-verwarring voor 'effectenvordering'. A6: r.260-262 splitst de zin 'hoe de effectenlening in de jaarrekening moet worden verwerkt, wanneer :' over twee regels. Multi-line tabelcellen in basisversie (r.286-288). Structuur en inhoud overigens volledig."
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:26Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:15Z'
       heading_count: 18
       max_section_chars: 10321
       file_size_chars: 48487
       flags: []
     layer2:
+      status: needs-rework
       agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:23:04Z'
+      rationale: "Meerdere A9 OCR-tikfouten verspreid: 'Tegerlijkertijd' (r.135), 'financïele' (r.256), 'balansdatrum' (r.521), 'lengsovereenkomst' (r.698); 'effectenverordening' (r.311) is OCR-verwarring voor 'effectenvordering'. A6: r.260-262 splitst de zin 'hoe de effectenlening in de jaarrekening moet worden verwerkt, wanneer :' over twee regels. Multi-line tabelcellen in basisversie (r.286-288). Structuur en inhoud overigens volledig."
       concrete_problemen:
-        - categorie: A9
-          regel: 107
+        - regel: 135
+          categorie: A9
           type: ocr-confusion
           voorbeeld: Tegerlijkertijd wordt op hem ook het risico...
-        - categorie: A6
-          regel: 234
-          type: other
-          voorbeeld: '...moet worden\n\nverwerkt, wanneer :'
-        - categorie: A9
-          regel: 230
+        - regel: 256
+          categorie: A9
           type: ocr-confusion
           voorbeeld: financïele kosten waar hij normaliter...
-        - categorie: A9
-          regel: 285
+        - regel: 260
+          categorie: A6
+          type: other
+          voorbeeld: "...hoe de effectenlening in de jaarrekening moet worden\n\nverwerkt, wanneer :"
+        - regel: 311
+          categorie: A9
           type: ocr-confusion
           voorbeeld: Geleende vastrentende effecten A, "effectenverordening"
-        - categorie: G3
-          regel: 478
-          type: other
-          voorbeeld: '[^6] als losstaande regel midden tussen boekingsblokken'
-        - categorie: A9
-          regel: 498
+        - regel: 521
+          categorie: A9
           type: ocr-confusion
           voorbeeld: Op balansdatrum moet de geprorateerde vergoeding...
-        - categorie: A9
-          regel: 677
+        - regel: 698
+          categorie: A9
           type: ocr-confusion
           voorbeeld: lengsovereenkomst lange tijd vóór de afwikkelingsdatum...
-      rationale: 'Meerdere A6-breuken (zin gesplitst over twee regels zonder leesteken aan het einde, r.234-236) en twee G3-instanties (voetnootinhoud in mid-tekst via [^6] en [^7] die als standalone regels verschijnen midden in de boekings-reeksen). Daarnaast D4-equivalent: ''effectenverordening'' (r.285/360) is OCR-verwarring voor ''effectenvordering'' (A9). Losse tikfouten ''financïele'' (r.230), ''balansdatrum'' (r.498), ''lengsovereenkomst'' (r.677) en ''Tegerlijkertijd'' (r.107) wijzen op onvoldoende post-processing. De tabel-structuur (markdown pipe) zelf is intact.'
-      run_at: '2026-05-11T12:09:17Z'
-      status: needs-rework
-    rationale: 'Meerdere A6-breuken (zin gesplitst over twee regels zonder leesteken aan het einde, r.234-236) en twee G3-instanties (voetnootinhoud in mid-tekst via [^6] en [^7] die als standalone regels verschijnen midden in de boekings-reeksen). Daarnaast D4-equivalent: ''effectenverordening'' (r.285/360) is OCR-verwarring voor ''effectenvordering'' (A9). Losse tikfouten ''financïele'' (r.230), ''balansdatrum'' (r.498), ''lengsovereenkomst'' (r.677) en ''Tegerlijkertijd'' (r.107) wijzen op onvoldoende post-processing. De tabel-structuur (markdown pipe) zelf is intact.'
-    status: needs-rework
 themas:
   - coupon
   - effecten

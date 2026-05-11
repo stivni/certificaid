@@ -16,41 +16,41 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/mogelijkheid-tot-uitstel-van-de-gewone-algemene-vergadering-en-van-de-neerlegging-van-de
 nummer: CBN-advies 2021/11
 provenance:
-  generated_at: '2026-05-11T13:05:08Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-covid-19-tegemoetkomingen-en-van-kosten-gemaakt-ten-gevolge
       sha256: 4dbc8abbe69e46fb2249e4292bfe7878344a23222a30d726f5ebd3a59a02c27d
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:12Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T12:21:41Z'
+    status: needs-rework
+    confirmed_at: '2026-05-11T13:34:12Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: "E2: tabelrij op L84 heeft '(of 764 tot 768' als extra eerste kolom-cel waardoor de tabel asymmetrisch is — alternatieve boeking correct geboekt als aparte rij maar zonder geldige markdown-tabelstructuur. Overige tabellen (L105-108, L117-129) zijn wél correct opgemaakt met header+separator. Inhoud volledig, 6 headings correct, alle 17 voetnootdefinities aanwezig."
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:30Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:18Z'
       heading_count: 6
       max_section_chars: 8633
       file_size_chars: 12678
       flags: []
     layer2:
+      status: needs-rework
       agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:34:12Z'
+      rationale: "E2: tabelrij op L84 heeft '(of 764 tot 768' als extra eerste kolom-cel waardoor de tabel asymmetrisch is — alternatieve boeking correct geboekt als aparte rij maar zonder geldige markdown-tabelstructuur. Overige tabellen (L105-108, L117-129) zijn wél correct opgemaakt met header+separator. Inhoud volledig, 6 headings correct, alle 17 voetnootdefinities aanwezig."
       concrete_problemen:
-        - categorie: E2
-          regel: 84
+        - regel: 86
+          categorie: E2
           type: other
           voorbeeld: '| | (of 764 tot 768 | Andere niet-recurrente bedrijfsopbrengsten | 2.000 | |'
-      rationale: 'E2: tabelrij op L84 heeft een extra cel ''(of 764 tot 768'' als eerste kolom-inhoud, waardoor de tabel asymmetrisch is — het is een alternatieve boeking die als aparte rij in de tabel terechtkwam maar niet correct is opgemaakt. Inhoud is verder volledig, zes headings correct, alle 17 voetnootdefinities aanwezig.'
-      run_at: '2026-05-11T12:21:41Z'
-      status: needs-rework
-    rationale: 'E2: tabelrij op L84 heeft een extra cel ''(of 764 tot 768'' als eerste kolom-inhoud, waardoor de tabel asymmetrisch is — het is een alternatieve boeking die als aparte rij in de tabel terechtkwam maar niet correct is opgemaakt. Inhoud is verder volledig, zes headings correct, alle 17 voetnootdefinities aanwezig.'
-    status: needs-rework
 themas:
   - COVID-19
   - tegemoetkoming

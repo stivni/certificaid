@@ -13,7 +13,7 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/toerekening-door-de-aandeelhouder-van-een-terugbetaling-van-kapitaal-of-een-uitgiftepremie
 nummer: CBN-advies 114/3
 provenance:
-  generated_at: '2026-05-11T13:05:05Z'
+  generated_at: '2026-05-11T13:15:10Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/resultaten-uit-verrichtingen-met-dochterondernemingen
       sha256: d152908b90018acf998826b351f506fee4d353f740a2246484bd2e6f3f7c62c3
@@ -30,8 +30,8 @@ provenance:
     confirmed_by: subagent-laag2-ronde2
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:25Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:13Z'
       heading_count: 0
       max_section_chars: 8930
       file_size_chars: 8930

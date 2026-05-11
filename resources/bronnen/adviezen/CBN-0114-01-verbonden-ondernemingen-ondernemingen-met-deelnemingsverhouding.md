@@ -13,45 +13,45 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/bezit-van-maatschappelijke-rechten-in-verbonden-ondernemingen-of-in-ondernemingen-waarmee
 nummer: CBN-advies 114/1
 provenance:
-  generated_at: '2026-05-11T13:05:05Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/verbonden-ondernemingen-ondernemingen-met-deelnemingsverhouding
       sha256: 92658798ac58ca0952215a8a51c2ca208fa3e115667cbc28b417364235c0c23a
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:10Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T11:57:45Z'
+    status: needs-rework
+    confirmed_at: '2026-05-11T13:16:02Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: "D3: voetnoten [^5] (regel 98) en [^6] (regel 100) bevatten identieke definitie 'Rubrieken 7301 tot 7312.' — één ervan is inhoudelijk onjuist (in het bronadvies verwijst [^5] naar schulden en [^6] naar financiële opbrengsten). Dit is een extractiefout die de inhoud aantast en foutieve verwijzingen geeft aan de lezer."
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:25Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:13Z'
       heading_count: 0
       max_section_chars: 4444
       file_size_chars: 4444
       flags: []
     layer2:
+      status: needs-rework
       agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:16:02Z'
+      rationale: "D3: voetnoten [^5] (regel 98) en [^6] (regel 100) bevatten identieke definitie 'Rubrieken 7301 tot 7312.' — één ervan is inhoudelijk onjuist (in het bronadvies verwijst [^5] naar schulden en [^6] naar financiële opbrengsten). Dit is een extractiefout die de inhoud aantast en foutieve verwijzingen geeft aan de lezer."
       concrete_problemen:
-        - categorie: D3
-          regel: 91
+        - regel: 98
+          categorie: D3
           type: other
-          voorbeeld: '[^5]: Rubrieken 7301 tot 7312. — identiek aan [^6] op regel 93'
-        - categorie: D3
-          regel: 93
+          voorbeeld: '[^5]: Rubrieken 7301 tot 7312. — identiek aan [^6] op regel 100'
+        - regel: 100
+          categorie: D3
           type: other
           voorbeeld: '[^6]: Rubrieken 7301 tot 7312. — duplicaat van [^5], inhoudelijk onjuist'
-      rationale: 'D3/D: Voetnoten [^5] (regel 91) en [^6] (regel 93) bevatten identieke definitie ''Rubrieken 7301 tot 7312.'' — één van beide is bijna zeker verkeerd (in het bronadvies verwijst [^5] naar schulden en [^6] naar financiële opbrengsten). Dit is een extractiefout die de inhoud aantast. Verder geen heading-structuur (alle tekst is één blok; Laag-1 meldt heading_count: 0), wat voor RAG-chunking suboptimaal maar niet noodzakelijk een rework-grond is. De duplicate footnote is het doorslaggevende probleem.'
-      run_at: '2026-05-11T11:57:45Z'
-      status: needs-rework
-    rationale: 'D3/D: Voetnoten [^5] (regel 91) en [^6] (regel 93) bevatten identieke definitie ''Rubrieken 7301 tot 7312.'' — één van beide is bijna zeker verkeerd (in het bronadvies verwijst [^5] naar schulden en [^6] naar financiële opbrengsten). Dit is een extractiefout die de inhoud aantast. Verder geen heading-structuur (alle tekst is één blok; Laag-1 meldt heading_count: 0), wat voor RAG-chunking suboptimaal maar niet noodzakelijk een rework-grond is. De duplicate footnote is het doorslaggevende probleem.'
-    status: needs-rework
 themas:
   - deelnemingsverhouding
   - financiële vaste activa

@@ -7,49 +7,49 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-immateriele-vaste-activa
 nummer: CBN-advies 158/1
 provenance:
-  generated_at: '2026-05-11T13:05:06Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-aankoop-afschrijving-en-ontginning-in-concessie-van
       sha256: 08e46100637031f687700017facf7e19aed6f6f370c0da7b2d8a08fc11f758d4
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:10Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T12:04:42Z'
+    status: needs-rework
+    confirmed_at: '2026-05-11T13:23:04Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: "D4+B2: regel 65 heeft '#### *Aanschaffingswaarde* ' (trailing spatie vóór sluitende asterisk in heading-label); regel 106 heeft '*Aankopen van grondstoffen of handelsgoederen *' met spatie vóór sluitende asterisk. B2: heading-hiërarchie springt van ## (r.63/87) direct naar #### (r.65/69/83) zonder tussenliggend ###. Inhoud en voetnoot correct."
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:26Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:15Z'
       heading_count: 8
       max_section_chars: 3169
       file_size_chars: 5840
       flags: []
     layer2:
+      status: needs-rework
       agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:23:04Z'
+      rationale: "D4+B2: regel 65 heeft '#### *Aanschaffingswaarde* ' (trailing spatie vóór sluitende asterisk in heading-label); regel 106 heeft '*Aankopen van grondstoffen of handelsgoederen *' met spatie vóór sluitende asterisk. B2: heading-hiërarchie springt van ## (r.63/87) direct naar #### (r.65/69/83) zonder tussenliggend ###. Inhoud en voetnoot correct."
       concrete_problemen:
-        - categorie: D4
-          regel: 53
+        - regel: 65
+          categorie: D4
           type: other
-          voorbeeld: '#### *Aanschaffingswaarde *'
-        - categorie: B2
-          regel: 53
+          voorbeeld: '#### *Aanschaffingswaarde* '
+        - regel: 65
+          categorie: B2
           type: other
-          voorbeeld: '## Verwerving in eigendom... → #### *Aanschaffingswaarde * (overgeslagen ###)'
-        - categorie: D4
-          regel: 94
+          voorbeeld: '## Verwerving in eigendom (r.63) → #### *Aanschaffingswaarde* (r.65): overgeslagen ###'
+        - regel: 106
+          categorie: D4
           type: other
           voorbeeld: '*Aankopen van grondstoffen of handelsgoederen *'
-      rationale: 'D4: regel 53 heeft ''#### *Aanschaffingswaarde *'' — malformed italic met spatie vóór sluitende asterisk in een heading. Regel 94 idem: ''*Aankopen van grondstoffen of handelsgoederen *''. B2: heading-hiërarchie springt van ## (regel 51) naar #### (regel 53) zonder tussenliggend ###. Sterke punten: subheadings correct aanwezig, voetnoot correct gelinkt.'
-      run_at: '2026-05-11T12:04:42Z'
-      status: needs-rework
-    rationale: 'D4: regel 53 heeft ''#### *Aanschaffingswaarde *'' — malformed italic met spatie vóór sluitende asterisk in een heading. Regel 94 idem: ''*Aankopen van grondstoffen of handelsgoederen *''. B2: heading-hiërarchie springt van ## (regel 51) naar #### (regel 53) zonder tussenliggend ###. Sterke punten: subheadings correct aanwezig, voetnoot correct gelinkt.'
-    status: needs-rework
 themas:
   - concessie
   - materiële vaste activa

@@ -16,53 +16,53 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/begin-van-het-boekjaar
 nummer: CBN-advies 2022/12
 provenance:
-  generated_at: '2026-05-11T13:05:09Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-splitsingen-van-vennootschappen
       sha256: b1c6d804ad0f7ca698210c0500acaee66fc2fe1f3ac5e18ad6d919fe12697b5e
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:12Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T12:24:34Z'
+    status: needs-rework
+    confirmed_at: '2026-05-11T13:34:13Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: "A7: op meerdere plaatsen (regels 383–388, 463–471, 572–578) staat tabelcel-inhoud voor 'Eigen vermogen' afgebroken over meerdere afzonderlijke regels buiten de pipe-syntax — kolom-extractie-artefact. C3: regel 630 bevat een pseudo-tabelregel als plain text ('   7.500 Inbreng / Kapitaal 7.500'). D4: regel 675 heeft malformed bold-inline ('20 % **+ 400**') met onnodige inspringing. Voetnoten compleet, inhoud omvangrijk maar volledig."
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:30Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:18Z'
       heading_count: 23
       max_section_chars: 11964
       file_size_chars: 68247
       flags: []
     layer2:
+      status: needs-rework
       agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:34:13Z'
+      rationale: "A7: op meerdere plaatsen (regels 383–388, 463–471, 572–578) staat tabelcel-inhoud voor 'Eigen vermogen' afgebroken over meerdere afzonderlijke regels buiten de pipe-syntax — kolom-extractie-artefact. C3: regel 630 bevat een pseudo-tabelregel als plain text ('   7.500 Inbreng / Kapitaal 7.500'). D4: regel 675 heeft malformed bold-inline ('20 % **+ 400**') met onnodige inspringing. Voetnoten compleet, inhoud omvangrijk maar volledig."
       concrete_problemen:
-        - categorie: A7
-          regel: 383
+        - regel: 383
+          categorie: A7
           type: scrambled-words
-          voorbeeld: "| C |\n| Activum 1 | | 2.000 | | *Eigen vermogen* | |\n\n5.500\n\n  |"
-        - categorie: A7
-          regel: 463
+          voorbeeld: '| C |\n| Activum 1 | | 2.000 | | *Eigen vermogen* | |\n\n5.500\n\n  |'
+        - regel: 463
+          categorie: A7
           type: scrambled-words
-          voorbeeld: "| C |\n| Activum 1 | | 2.000 | | *Eigen vermogen* | |\n\n8.500\n\n  |"
-        - categorie: C3
-          regel: 630
+          voorbeeld: '| C |\n| Activum 1 | | 2.000 | | *Eigen vermogen* | |\n\n8.500\n\n  |'
+        - regel: 630
+          categorie: C3
           type: pseudo-table
           voorbeeld: '   7.500 Inbreng / Kapitaal 7.500'
-        - categorie: D4
-          regel: 675
+        - regel: 675
+          categorie: D4
           type: other
           voorbeeld: 20 % **+ 400**) | | 560 |
-      rationale: 'A6/A7: op meerdere plaatsen (regels 383–388, 463–471, 572–578) staat een tabelcel met de tekst van het eigen vermogen afgebroken over meerdere afzonderlijke regels buiten de pipe-syntax (bv. `| *Eigen vermogen* |` gevolgd door een lege regel en dan `5.500` op een nieuwe regel). Dit is een kolom-extractie-artefact: de cel-inhoud is niet op één regel gebleven. Voorbeeld 5 (regels 630) bevat een pseudotabel-regel (`   7.500 Inbreng / Kapitaal 7.500`) als plain text. Voorbeeld 5 (regels 673–676, 702–704) heeft ook malformed bold/italic met inspringing (`20 % **+ 400**`). Voetnoten compleet, inhoud omvangrijk maar volledig.'
-      run_at: '2026-05-11T12:24:34Z'
-      status: needs-rework
-    rationale: 'A6/A7: op meerdere plaatsen (regels 383–388, 463–471, 572–578) staat een tabelcel met de tekst van het eigen vermogen afgebroken over meerdere afzonderlijke regels buiten de pipe-syntax (bv. `| *Eigen vermogen* |` gevolgd door een lege regel en dan `5.500` op een nieuwe regel). Dit is een kolom-extractie-artefact: de cel-inhoud is niet op één regel gebleven. Voorbeeld 5 (regels 630) bevat een pseudotabel-regel (`   7.500 Inbreng / Kapitaal 7.500`) als plain text. Voorbeeld 5 (regels 673–676, 702–704) heeft ook malformed bold/italic met inspringing (`20 % **+ 400**`). Voetnoten compleet, inhoud omvangrijk maar volledig.'
-    status: needs-rework
 themas:
   - splitsing
   - herstructurering

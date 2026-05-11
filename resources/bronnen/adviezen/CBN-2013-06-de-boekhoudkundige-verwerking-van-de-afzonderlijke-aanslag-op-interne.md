@@ -10,45 +10,41 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/verwerking-in-de-jaarrekening-van-de-door-de-vlaamse-regering-gecreeerde-opleidingscheques
 nummer: CBN-advies 2013/6
 provenance:
-  generated_at: '2026-05-11T13:05:08Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-afzonderlijke-aanslag-op-interne
       sha256: b4049ba8b65296af7fe55261e3f7301d271578a23683196b0b39b803b32f232b
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:12Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T12:16:34Z'
+    status: needs-rework
+    confirmed_at: '2026-05-11T13:30:32Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: "B4: het structuurlabel 'Boeking eerste jaar' op regel 70 staat als **bold** inline-tekst in plaats van als ##/###-heading. Het tweede structuurlabel op regel 77 is wel correct als ## heading. Inconsistente heading-behandeling in één document — mens zou beide als heading schrijven."
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:28Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:16Z'
       heading_count: 1
       max_section_chars: 3432
       file_size_chars: 3432
       flags: []
     layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: B4
-          regel: 63
-          type: other
-          voorbeeld: '**Boeking eerste jaar** (structuurlabel als bold ipv ## heading)'
-        - categorie: B4
-          regel: 70
-          type: other
-          voorbeeld: '**Boeking in het jaar waarin wordt uitgedrukt om de afzonderlijke aanslag te spreiden over drie aanslagjaren**'
-      rationale: 'B4: de twee structuurlabels ''Boeking eerste jaar'' (regel 63) en ''Boeking in het jaar waarin...'' (regel 70) staan als `**bold**` inline-tekst in plaats van als markdown-headings. Een mens die dit van nul schrijft zou hier `###`-kopjes gebruiken. Heading_count=0 bevestigt dit: het document heeft na de H1-titel geen enkele heading, terwijl er twee duidelijke subsecties zijn.'
-      run_at: '2026-05-11T12:16:34Z'
       status: needs-rework
-    rationale: 'B4: de twee structuurlabels ''Boeking eerste jaar'' (regel 63) en ''Boeking in het jaar waarin...'' (regel 70) staan als `**bold**` inline-tekst in plaats van als markdown-headings. Een mens die dit van nul schrijft zou hier `###`-kopjes gebruiken. Heading_count=0 bevestigt dit: het document heeft na de H1-titel geen enkele heading, terwijl er twee duidelijke subsecties zijn.'
-    status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:30:32Z'
+      rationale: "B4: het structuurlabel 'Boeking eerste jaar' op regel 70 staat als **bold** inline-tekst in plaats van als ##/###-heading. Het tweede structuurlabel op regel 77 is wel correct als ## heading. Inconsistente heading-behandeling in één document — mens zou beide als heading schrijven."
+      concrete_problemen:
+        - regel: 70
+          categorie: B4
+          type: other
+          voorbeeld: '**Boeking eerste jaar**'
 themas:
   - bedrijfsbelastingen
   - interne pensioenvoorziening

@@ -16,7 +16,7 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/model-van-ongesplitst-dagboek-zoals-bedoeld-in-artikel-2-van-het-koninklijk-besluit-van-26
 nummer: CBN-advies 2019/11
 provenance:
-  generated_at: '2026-05-11T13:05:08Z'
+  generated_at: '2026-05-11T13:15:12Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/de-vereenvoudigde-boekhouding-van-een-natuurlijke-persoon-maatschap-vennootschap-onder
       sha256: 3c04ef6d99ed0ab7b0f356366bbe3e31bd0434fcdcddeef4b7e86c115df5f0cc
@@ -33,8 +33,8 @@ provenance:
     confirmed_by: subagent-sonnet-4-6
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:30Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:18Z'
       heading_count: 14
       max_section_chars: 9540
       file_size_chars: 13811

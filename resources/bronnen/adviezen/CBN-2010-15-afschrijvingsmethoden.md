@@ -3,53 +3,49 @@ bron: https://www.cbn-cnc.be/nl/adviezen/afschrijvingsmethoden
 datum: 2010-10-06
 nummer: CBN-advies 2010/15
 provenance:
-  generated_at: '2026-05-11T13:05:08Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/afschrijvingsmethoden
       sha256: 05e9e21fba9ce48c9b7b4a9124423c7ed3139d641800094a23c7b2e73604d6d0
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:11Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T12:09:17Z'
+    status: needs-rework
+    confirmed_at: '2026-05-11T13:23:04Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: "A3: r61-75 bevat een plain-text genummerde inhoudsopgave in de body (patroon identiek aan 2010/16) — TOC-fragment niet verwijderd bij extractie, terwijl de eigenlijke inhoud als ## en ### headings verder staat. D4: r186 '*Voorbeeld ' heeft een trailing spatie na de opening asterisk (malformed italic opener). R202 'en wordt het* pro rata* van het gebruik' — asterisk direct na 'het' zonder spatie, gecombineerd met een italic-marker, is een malformed-patroon. Overige inhoud en structuur zijn goed."
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:27Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:16Z'
       heading_count: 13
       max_section_chars: 6418
       file_size_chars: 23989
       flags: []
     layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: A3
-          regel: 61
-          type: other
-          voorbeeld: 1. Waarderingsregels \n  1. Algemeen \n  2. Oprichtingskosten ...
-        - categorie: A3
-          regel: 76
-          type: other
-          voorbeeld: -- Lineaire afschrijvingsmethoden-- Boekhoudkundige degressieve afschrijvingsmethoden-- ...
-        - categorie: D4
-          regel: 190
-          type: other
-          voorbeeld: '*Voorbeeld '
-        - categorie: D4
-          regel: 204
-          type: other
-          voorbeeld: '- *Gemengde bedrijfsdrukte * '
-      rationale: 'Regel 61–76: een genummerde inhoudsopgave staat als plain text in de body, inclusief een samengeperste dubbele TOC-regel op regel 76 (''-- Lineaire afschrijvingsmethoden-- Boekhoudkundige...''). Dit is een A3/A2-artefact (TOC-fragment verdubbeld en als plain text gerenderd). Regel 190: opening italic-marker ''*Voorbeeld'' zonder sluit-asterisk op diezelfde regel (D4). Regel 204: ''*Gemengde bedrijfsdrukte *'' — spatie voor sluit-asterisk geeft malformed italic. Inhoud zelf compleet.'
-      run_at: '2026-05-11T12:09:17Z'
       status: needs-rework
-    rationale: 'Regel 61–76: een genummerde inhoudsopgave staat als plain text in de body, inclusief een samengeperste dubbele TOC-regel op regel 76 (''-- Lineaire afschrijvingsmethoden-- Boekhoudkundige...''). Dit is een A3/A2-artefact (TOC-fragment verdubbeld en als plain text gerenderd). Regel 190: opening italic-marker ''*Voorbeeld'' zonder sluit-asterisk op diezelfde regel (D4). Regel 204: ''*Gemengde bedrijfsdrukte *'' — spatie voor sluit-asterisk geeft malformed italic. Inhoud zelf compleet.'
-    status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:23:04Z'
+      rationale: "A3: r61-75 bevat een plain-text genummerde inhoudsopgave in de body (patroon identiek aan 2010/16) — TOC-fragment niet verwijderd bij extractie, terwijl de eigenlijke inhoud als ## en ### headings verder staat. D4: r186 '*Voorbeeld ' heeft een trailing spatie na de opening asterisk (malformed italic opener). R202 'en wordt het* pro rata* van het gebruik' — asterisk direct na 'het' zonder spatie, gecombineerd met een italic-marker, is een malformed-patroon. Overige inhoud en structuur zijn goed."
+      concrete_problemen:
+        - regel: 61
+          categorie: A3
+          type: other
+          voorbeeld: "1. Waarderingsregels \n  1. Algemeen \n  2. Oprichtingskosten \n...\n4. Afschrijvingsmethoden (plain-text TOC in body)"
+        - regel: 186
+          categorie: D4
+          type: other
+          voorbeeld: '*Voorbeeld  (trailing spatie na opening asterisk, malformed italic opener)'
+        - regel: 202
+          categorie: D4
+          type: other
+          voorbeeld: en wordt het* pro rata* van het gebruik
 themas:
   - af te schrijven waarde
   - afschrijvingen

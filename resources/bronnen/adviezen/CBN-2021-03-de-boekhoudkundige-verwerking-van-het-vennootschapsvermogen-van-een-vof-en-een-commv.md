@@ -3,7 +3,7 @@ bron: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-het-v
 datum: 2021-03-11
 nummer: CBN-advies 2021/03
 provenance:
-  generated_at: '2026-05-11T13:05:08Z'
+  generated_at: '2026-05-11T13:15:12Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-het-vennootschapsvermogen-van-een-vof-en-een-commv
       sha256: 6e31fafb6649d97e2827f0bc0eb53056734b456f97847d592d95a2a7f6f49904
@@ -20,8 +20,8 @@ provenance:
     confirmed_by: subagent-sonnet-4-6
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:30Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:18Z'
       heading_count: 0
       max_section_chars: 4061
       file_size_chars: 4061

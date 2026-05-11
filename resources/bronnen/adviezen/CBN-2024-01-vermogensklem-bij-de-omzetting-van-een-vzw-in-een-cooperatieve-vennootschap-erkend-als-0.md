@@ -7,7 +7,7 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/vermogensklem-bij-de-omzetting-van-een-vzw-in-een-cooperatieve-vennootschap-erkend-als
 nummer: CBN-advies 2024/01
 provenance:
-  generated_at: '2026-05-11T13:05:09Z'
+  generated_at: '2026-05-11T13:15:12Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/vermogensklem-bij-de-omzetting-van-een-vzw-in-een-cooperatieve-vennootschap-erkend-als-0
       sha256: 5575df12a9bbe6f93803184ffd4066df548821de9ef02f078e4c552989ee70d5
@@ -24,8 +24,8 @@ provenance:
     confirmed_by: subagent-sonnet-4-6
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:31Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:18Z'
       heading_count: 6
       max_section_chars: 15034
       file_size_chars: 22981

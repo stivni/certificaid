@@ -3,49 +3,57 @@ bron: https://www.cbn-cnc.be/nl/adviezen/overgang-van-een-kapitaalhoudende-coope
 datum: 2020-12-09
 nummer: CBN-advies 2020/13
 provenance:
-  generated_at: '2026-05-11T13:05:08Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/overgang-van-een-kapitaalhoudende-cooperatieve-vennootschap-naar-een-kapitaalloze
       sha256: 7a6ccd926ff977a1552595e8ab0cb3da97a206538ddac53916548b750f5c742b
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:12Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T12:21:40Z'
+    status: needs-rework
+    confirmed_at: '2026-05-11T13:34:12Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: "D4: Systematisch patroon van malformed italic doorheen het hele document — sluit-asterisk wordt regelmatig voorafgegaan door een spatie of er valt een letter buiten de italic span (bv. 'rekening 110 *Beschikbare inbreng buiten kapitaa*l' op regel 129 waarbij 'l' buiten de span valt). B4/B5: Regels 81, 84, 111, 137 bevatten subsectie-titels ('CVBA die beantwoordt aan de definitie...', 'CVBA die niet beantwoordt...') als plain-text paragrafen zonder heading-prefix."
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:30Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:18Z'
       heading_count: 11
       max_section_chars: 12992
       file_size_chars: 24321
       flags: []
     layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: D4
-          regel: 57
-          type: other
-          voorbeeld: Ingevolge de* wet van 23 maart 2019* *tot invoering van het Wetboek...
-        - categorie: D4
-          regel: 124
-          type: other
-          voorbeeld: rekening 110 *Beschikbare inbreng buiten kapitaa*l (l valt buiten italic)
-        - categorie: D4
-          regel: 65
-          type: other
-          voorbeeld: '*Overgangsregeling...houdende diverse bepalingen[^3] * (spatie voor sluit-*)'
-      rationale: 'D4: Systematisch patroon van malformed italic doorheen het hele document — sluit-asterisk wordt voorafgegaan door een spatie (`*wet van 23 maart 2019* *tot invoering...* `, `rekening 110 *Beschikbare inbreng buiten kapitaa*l` op regel 124 waarbij `l` buiten het italic-span valt). Minstens 10+ gevallen van `* ` (space voor closing asterisk) als wetstitels worden gecursiveerd. Dit is een consistent scraperpatroon, niet incidenteel.'
-      run_at: '2026-05-11T12:21:40Z'
       status: needs-rework
-    rationale: 'D4: Systematisch patroon van malformed italic doorheen het hele document — sluit-asterisk wordt voorafgegaan door een spatie (`*wet van 23 maart 2019* *tot invoering...* `, `rekening 110 *Beschikbare inbreng buiten kapitaa*l` op regel 124 waarbij `l` buiten het italic-span valt). Minstens 10+ gevallen van `* ` (space voor closing asterisk) als wetstitels worden gecursiveerd. Dit is een consistent scraperpatroon, niet incidenteel.'
-    status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:34:12Z'
+      rationale: "D4: Systematisch patroon van malformed italic doorheen het hele document — sluit-asterisk wordt regelmatig voorafgegaan door een spatie of er valt een letter buiten de italic span (bv. 'rekening 110 *Beschikbare inbreng buiten kapitaa*l' op regel 129 waarbij 'l' buiten de span valt). B4/B5: Regels 81, 84, 111, 137 bevatten subsectie-titels ('CVBA die beantwoordt aan de definitie...', 'CVBA die niet beantwoordt...') als plain-text paragrafen zonder heading-prefix."
+      concrete_problemen:
+        - regel: 69
+          categorie: D4
+          type: other
+          voorbeeld: Ingevolge de* wet van 23 maart 2019* *tot invoering... — spatie na opening-asterisk
+        - regel: 77
+          categorie: D4
+          type: other
+          voorbeeld: '*tot invoering van het Wetboek van vennootschappen en verenigingen en houdende diverse bepalingen[^3] * — spatie voor sluit-*'
+        - regel: 129
+          categorie: D4
+          type: other
+          voorbeeld: rekening 110 *Beschikbare inbreng buiten kapitaa*l — 'l' valt buiten italic span
+        - regel: 81
+          categorie: B5
+          type: other
+          voorbeeld: CVBA die beantwoordt aan de definitie van een coöperatieve vennootschap in artikel 6:1 WVV (plain text, geen heading)
+        - regel: 84
+          categorie: B5
+          type: other
+          voorbeeld: CVBA die niet beantwoordt aan de definitie van een coöperatieve vennootschap in artikel 6:1 WVV (plain text)
 themas:
   - CVBA
   - coöperatieve vennootschap

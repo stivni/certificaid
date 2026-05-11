@@ -16,45 +16,49 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/bepaling-van-de-aanschaffingswaarde-van-activa-verkregen-onder-bezwarende-titel-of-om-niet
 nummer: CBN-advies 126/7
 provenance:
-  generated_at: '2026-05-11T13:05:05Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/waardering-van-de-aanschaffingsprijs-van-de-voorraden-op-grond-van-de-verkoopprijs
       sha256: a116e35af0dd89b793235e46cdd8b2a8b8bdfc379ce3aee5c522c23738e79043
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:10Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T11:57:45Z'
+    status: needs-rework
+    confirmed_at: '2026-05-11T13:16:02Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: "E2: tabelrijen 'Theoretische eindinventaris' (L88-89) en 'Fysieke eindinventaris' (L91-92) zijn gesplitst over twee regels met tab-inspringing — dit breekt de pipe-table. C3: L81, L84, L87 en L90 bevatten ASCII-art scheidingsrijen ('--------- | -------------') als gewone tabelcellen in plaats van als echte tabel-rijen, wat RAG-parsing verstoort."
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:25Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:14Z'
       heading_count: 2
       max_section_chars: 2159
       file_size_chars: 4670
       flags: []
     layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: E2
-          regel: 80
-          type: other
-          voorbeeld: '| | Theoretische eindinventaris\n\t\t\t(tegen detailprijs) | 22.000 | | |'
-        - categorie: C3
-          regel: 73
-          type: pseudo-table
-          voorbeeld: '| | --------- | ------------- | | | (ASCII-art scheidingsrij als tabelcel)'
-      rationale: 'E2: twee tabelrijen zijn gesplitst over twee markdown-regels met tab-inspringing (regels 80-81 en 83-84 — ''Theoretische eindinventaris\n\t\t\t(tegen detailprijs)''), wat de markdown-tabel breekt en RAG-parsing verstoort. C3: de tabel bevat ASCII-art scheidingsrijen (''--------- | -------------'') als table-body-cellen in plaats van als echte tabel-rijen.'
-      run_at: '2026-05-11T11:57:45Z'
       status: needs-rework
-    rationale: 'E2: twee tabelrijen zijn gesplitst over twee markdown-regels met tab-inspringing (regels 80-81 en 83-84 — ''Theoretische eindinventaris\n\t\t\t(tegen detailprijs)''), wat de markdown-tabel breekt en RAG-parsing verstoort. C3: de tabel bevat ASCII-art scheidingsrijen (''--------- | -------------'') als table-body-cellen in plaats van als echte tabel-rijen.'
-    status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:16:02Z'
+      rationale: "E2: tabelrijen 'Theoretische eindinventaris' (L88-89) en 'Fysieke eindinventaris' (L91-92) zijn gesplitst over twee regels met tab-inspringing — dit breekt de pipe-table. C3: L81, L84, L87 en L90 bevatten ASCII-art scheidingsrijen ('--------- | -------------') als gewone tabelcellen in plaats van als echte tabel-rijen, wat RAG-parsing verstoort."
+      concrete_problemen:
+        - regel: 81
+          categorie: C3
+          type: pseudo-table
+          voorbeeld: '| | --------- | ------------- | | |'
+        - regel: 88
+          categorie: E2
+          type: other
+          voorbeeld: "| | Theoretische eindinventaris\n\t\t\t(tegen detailprijs) | 22.000 | | |"
+        - regel: 91
+          categorie: E2
+          type: other
+          voorbeeld: "| | Fysieke eindinventaris\n\t\t\t(tegen detailprijs) | 20.000 | | |"
 themas:
   - aanschaffingsprijs
   - aftrekmethode

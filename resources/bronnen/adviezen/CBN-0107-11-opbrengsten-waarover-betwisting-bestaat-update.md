@@ -3,49 +3,45 @@ bron: https://www.cbn-cnc.be/nl/adviezen/opbrengsten-waarover-betwisting-bestaat
 datum: 1989-09-01
 nummer: CBN-advies 107/11
 provenance:
-  generated_at: '2026-05-11T13:05:05Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/opbrengsten-waarover-betwisting-bestaat-update
       sha256: a825f5803d0f039826d922fc8be983950b805af35c15c92916d08be43e25f0cf
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:10Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T11:57:45Z'
+    status: needs-rework
+    confirmed_at: '2026-05-11T13:16:02Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: "Drie problemen: (1) B3/heading: regel 61 bevat een [^1]-marker direct in de H1-heading zelf ('# Advies van september 1989, bijgewerkt op 10 september 2025[^1]') — een mens typt nooit een footnote-referentie in een # heading. (2) G2/frontmatter: HTML-entity '&#039;' in themas op regel 53. (3) De H1-heading vermijdt het adviesnummer CBN-advies 107/11 volledig, wat de identificeerbaarheid schaadt. De eerder gerapporteerde 'duplicate headings op regels 49 en 51' zijn onjuist — dat waren frontmatter-regels; de body heeft slechts één heading."
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:24Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:13Z'
       heading_count: 0
       max_section_chars: 3518
       file_size_chars: 3518
       flags: []
     layer2:
+      status: needs-rework
       agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:16:02Z'
+      rationale: "Drie problemen: (1) B3/heading: regel 61 bevat een [^1]-marker direct in de H1-heading zelf ('# Advies van september 1989, bijgewerkt op 10 september 2025[^1]') — een mens typt nooit een footnote-referentie in een # heading. (2) G2/frontmatter: HTML-entity '&#039;' in themas op regel 53. (3) De H1-heading vermijdt het adviesnummer CBN-advies 107/11 volledig, wat de identificeerbaarheid schaadt. De eerder gerapporteerde 'duplicate headings op regels 49 en 51' zijn onjuist — dat waren frontmatter-regels; de body heeft slechts één heading."
       concrete_problemen:
-        - categorie: A5
-          regel: 49
-          type: other
-          voorbeeld: '# CBN-advies 107/11 − Opbrengsten... (U+2212 MINUS SIGN, niet hyphen)'
-        - categorie: B3
-          regel: 51
+        - regel: 61
+          categorie: B3
           type: other
           voorbeeld: '# Advies van september 1989, bijgewerkt op 10 september 2025[^1]'
-        - categorie: G2
-          regel: 8
+        - regel: 53
+          categorie: G2
           type: other
-          voorbeeld: '- voorzieningen voor risico&#039;s en kosten'
-      rationale: 'Twee problemen: (1) B3: duplicate `#`-level headings op regels 49 en 51 — een tweede `# Advies van september 1989...` direct na de paginatitel, met bovendien een `[^1]`-marker in de heading zelf (geen mens typt een footnote-referentie in een # heading). (2) A5: U+2212 MINUS SIGN (−, U+2212) in de titel-heading op regel 49 in plaats van een gewone hyphen of en-dash — inconsistent met alle andere adviezen in de batch. (3) G2: HTML-entity `&#039;` in frontmatter op regel 8.'
-      run_at: '2026-05-11T11:57:45Z'
-      status: needs-rework
-    rationale: 'Twee problemen: (1) B3: duplicate `#`-level headings op regels 49 en 51 — een tweede `# Advies van september 1989...` direct na de paginatitel, met bovendien een `[^1]`-marker in de heading zelf (geen mens typt een footnote-referentie in een # heading). (2) A5: U+2212 MINUS SIGN (−, U+2212) in de titel-heading op regel 49 in plaats van een gewone hyphen of en-dash — inconsistent met alle andere adviezen in de batch. (3) G2: HTML-entity `&#039;` in frontmatter op regel 8.'
-    status: needs-rework
+          voorbeeld: voorzieningen voor risico&#039;s en kosten
 themas:
   - betwisting
   - opbrengsten waarover betwisting bestaat

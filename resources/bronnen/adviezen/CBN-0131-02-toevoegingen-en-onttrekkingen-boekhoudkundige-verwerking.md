@@ -16,45 +16,49 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/aftrek-voor-innovatie-inkomsten
 nummer: CBN-advies 131/2
 provenance:
-  generated_at: '2026-05-11T13:05:06Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/toevoegingen-en-onttrekkingen-boekhoudkundige-verwerking
       sha256: e5d9c1109c84f82c4e79ce025649017333d189c32af26b16f1980baf13296ab2
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:10Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T12:04:41Z'
+    status: needs-rework
+    confirmed_at: '2026-05-11T13:16:02Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: "B2: heading-hiërarchie springt van H1 direct naar H4 ('#### Over de stijving...' op L72, '#### Over onttrekkingen...' op L78) zonder tussenliggende H2/H3 — onnatuurlijk voor mens-geschreven markdown. Additioneel: L68 heeft 'een speciale rubriek* Overboeking...' zonder spatie voor de openende '*', wat italic-parsing kan breken (D4-adjacent). B2 is het primaire ETL-bug."
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:25Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:14Z'
       heading_count: 2
       max_section_chars: 2629
       file_size_chars: 4060
       flags: []
     layer2:
+      status: needs-rework
       agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:16:02Z'
+      rationale: "B2: heading-hiërarchie springt van H1 direct naar H4 ('#### Over de stijving...' op L72, '#### Over onttrekkingen...' op L78) zonder tussenliggende H2/H3 — onnatuurlijk voor mens-geschreven markdown. Additioneel: L68 heeft 'een speciale rubriek* Overboeking...' zonder spatie voor de openende '*', wat italic-parsing kan breken (D4-adjacent). B2 is het primaire ETL-bug."
       concrete_problemen:
-        - categorie: B2
-          regel: 64
+        - regel: 72
+          categorie: B2
           type: other
           voorbeeld: '#### Over de stijving van de belastingvrije reserves (H1 → H4, geen H2/H3)'
-        - categorie: B2
-          regel: 70
+        - regel: 78
+          categorie: B2
           type: other
           voorbeeld: '#### Over onttrekkingen aan de belastingvrije reserves (idem)'
-      rationale: 'B2 op L64 en L70: heading-hiërarchie springt van H1 direct naar H4 (#### Over de stijving... / #### Over onttrekkingen...) zonder tussenliggende H2/H3 — onnatuurlijk voor mens-geschreven MD. D4 op L60: *Winst (verlies) van het boekjaar* is wél correct gesloten (false positive in checker); geen echt D4-probleem. De B2-sprong is echter reëel.'
-      run_at: '2026-05-11T12:04:41Z'
-      status: needs-rework
-    rationale: 'B2 op L64 en L70: heading-hiërarchie springt van H1 direct naar H4 (#### Over de stijving... / #### Over onttrekkingen...) zonder tussenliggende H2/H3 — onnatuurlijk voor mens-geschreven MD. D4 op L60: *Winst (verlies) van het boekjaar* is wél correct gesloten (false positive in checker); geen echt D4-probleem. De B2-sprong is echter reëel.'
-    status: needs-rework
+        - regel: 68
+          categorie: D4
+          type: other
+          voorbeeld: een speciale rubriek* Overboeking naar de belastingvrije reserves* (geen spatie na 'rubriek')
 themas:
   - belastingvrije reserves
   - onttrekking aan de belastingvrije reserves

@@ -10,7 +10,7 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/advies-horizontale-consolidatie-in-combinatie-met-administratiekantoren
 nummer: CBN-advies 2009/14
 provenance:
-  generated_at: '2026-05-11T13:05:07Z'
+  generated_at: '2026-05-11T13:15:11Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-groenestroom-en-warmtekrachtcertificaten
       sha256: 85136cbdeddd74f045516293aabbc109e971c34503da8aee4b443e3d933d8c60
@@ -27,8 +27,8 @@ provenance:
     confirmed_by: human
     layer1:
       status: warn
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:27Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:15Z'
       heading_count: 18
       max_section_chars: 30136
       file_size_chars: 71732

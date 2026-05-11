@@ -16,37 +16,45 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/gegeven-borgtochten-in-contanten-en-effecten-update
 nummer: CBN-advies 120/4
 provenance:
-  generated_at: '2026-05-11T13:05:05Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/overheidsfondsen
       sha256: 15a694b2be8548376b7e9370809fd2a0bc3a62b4af1aa92042f8652d46fd6d96
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:10Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at:
-    confirmed_by:
+    status: needs-rework
+    confirmed_at: '2026-05-11T13:16:02Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "D4: regel 88 bevat een complexe reeks gebroken italic-markers: '2.* Vastrentende effecten; *anderzijds de rubriek IX.* Thesauriebeleggingen *A.* Genoteerde vastrentende effecten*' — meerdere asterisks in de verkeerde volgorde met spaties, resulteert in willekeurig rendering. B2: twee H3-headings (regels 66, 84) staan direct onder H1 zonder tussenliggende H2. Inhoud inhoudelijk volledig."
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:25Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:14Z'
       heading_count: 2
       max_section_chars: 2776
       file_size_chars: 6801
       flags: []
     layer2:
-      agent:
-      concrete_problemen: []
-      rationale:
-      run_at:
-      status: not_run
-    rationale: 'Trust gereset 2026-05-11: re-scrape met scraper-fixes, content-diff > 5%'
-    status: unreviewed
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:16:02Z'
+      rationale: "D4: regel 88 bevat een complexe reeks gebroken italic-markers: '2.* Vastrentende effecten; *anderzijds de rubriek IX.* Thesauriebeleggingen *A.* Genoteerde vastrentende effecten*' — meerdere asterisks in de verkeerde volgorde met spaties, resulteert in willekeurig rendering. B2: twee H3-headings (regels 66, 84) staan direct onder H1 zonder tussenliggende H2. Inhoud inhoudelijk volledig."
+      concrete_problemen:
+        - regel: 88
+          categorie: D4
+          type: other
+          voorbeeld: 2.* Vastrentende effecten; *anderzijds de rubriek IX.* Thesauriebeleggingen *A.*
+        - regel: 66
+          categorie: B2
+          type: other
+          voorbeeld: '### I. ONDERNEMINGEN WAAROP HET BESLUIT VAN 8 OKTOBER 1976 TOEPASSELIJK IS — H3 direct onder H1'
 themas:
   - financiële vaste activa
   - geldbeleggingen

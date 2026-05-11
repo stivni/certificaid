@@ -16,49 +16,49 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/belastingkrediet-voor-kosten-van-onderzoek-en-ontwikkeling
 nummer: CBN-advies 2018/12
 provenance:
-  generated_at: '2026-05-11T13:05:08Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/interpretatie-van-code-99084-in-de-toelichting-514-van-de-geconsolideerde-jaarrekening
       sha256: 341e869a5772c57309a88b90943ac582d84e1ff11174619f8e67928cb20a98f7
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:12Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T12:21:40Z'
+    status: needs-rework
+    confirmed_at: '2026-05-11T13:34:12Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: 'Bevestiging van bestaand verdict. E1/E2: alle tabellen (regels 90–1360) zijn volledig verminkt — elke cel staat op een aparte regel met lege regels ertussen (patroon `| \n\nInhoud\n\n  | `). Dit is een fundamenteel extractie-artefact dat de volledige tweede helft van het document beslaat en de tabellen onleesbaar maakt voor een RAG-parser.'
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:29Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:17Z'
       heading_count: 5
       max_section_chars: 6637
       file_size_chars: 13643
       flags: []
     layer2:
+      status: needs-rework
       agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:34:12Z'
+      rationale: 'Bevestiging van bestaand verdict. E1/E2: alle tabellen (regels 90–1360) zijn volledig verminkt — elke cel staat op een aparte regel met lege regels ertussen (patroon `| \n\nInhoud\n\n  | `). Dit is een fundamenteel extractie-artefact dat de volledige tweede helft van het document beslaat en de tabellen onleesbaar maakt voor een RAG-parser.'
       concrete_problemen:
-        - categorie: E1
-          regel: 78
+        - regel: 90
+          categorie: E1
           type: pseudo-table
           voorbeeld: '| Zevende Richtlijn | | Richtlijn 2013/34/EU | \n| Balans | \n| Art. 29 \n\n\t\t\t\t§ 4 |'
-        - categorie: E1
-          regel: 114
+        - regel: 128
+          categorie: E1
           type: pseudo-table
           voorbeeld: '| \n\nBoekhoudkundige afschrijving in 5 jaar\n\n  | \n| \n\nJaren\n\n  | | \n\nX\n\n  |'
-        - categorie: E2
-          regel: 219
+        - regel: 231
+          categorie: E2
           type: other
           voorbeeld: '| | | | | | | | | | | |  (lege separator-rijen verspreid door tabellen)'
-      rationale: 'E1/E2: de tabellen zijn volledig verminkt — elke cel staat op een aparte regel met lege regels ertussen (patroon ''| \n\nInhoud\n\n  |''), waardoor de pipe-tabel-structuur visueel én semantisch onleesbaar is voor een RAG-parser (regels 78–1348). Dit is een fundamenteel extractie-artefact dat de hele tweede helft van het document beslaat. Tekst en voetnoten zijn inhoudelijk intact.'
-      run_at: '2026-05-11T12:21:40Z'
-      status: needs-rework
-    rationale: 'E1/E2: de tabellen zijn volledig verminkt — elke cel staat op een aparte regel met lege regels ertussen (patroon ''| \n\nInhoud\n\n  |''), waardoor de pipe-tabel-structuur visueel én semantisch onleesbaar is voor een RAG-parser (regels 78–1348). Dit is een fundamenteel extractie-artefact dat de hele tweede helft van het document beslaat. Tekst en voetnoten zijn inhoudelijk intact.'
-    status: needs-rework
 themas:
   - belasting
   - uitgestelde belastingen

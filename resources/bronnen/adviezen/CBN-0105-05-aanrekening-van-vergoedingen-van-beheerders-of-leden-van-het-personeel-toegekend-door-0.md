@@ -3,41 +3,45 @@ bron: https://www.cbn-cnc.be/nl/adviezen/aanrekening-van-vergoedingen-van-beheer
 datum: 1977-08-01
 nummer: CBN-advies 105-5
 provenance:
-  generated_at: '2026-05-11T13:05:05Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/aanrekening-van-vergoedingen-van-beheerders-of-leden-van-het-personeel-toegekend-door-0
       sha256: 1be95bcf721b9668f270171df616a7e70c5338c8a49feb9bd492179f2356a47d
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:10Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T11:57:45Z'
+    status: needs-rework
+    confirmed_at: '2026-05-11T13:16:02Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: "F1: het 'nummer'-veld in frontmatter is 'CBN-advies 105-5' (koppelteken) terwijl de body-heading 'CBN-advies 105/5' schrijft (schuine streep) — inconsistentie niet opgelost door de scraper-fixes. F3: bestandsnaam eindigt op '-door-0.md' wat een afgekapte slug suggereert."
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:24Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:13Z'
       heading_count: 0
       max_section_chars: 1623
       file_size_chars: 1623
       flags: []
     layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: F1
-          regel: 3
-          type: naam-mismatch
-          voorbeeld: 'nummer: CBN-advies 105-5 (frontmatter) vs # CBN-advies 105/5 (body heading)'
-      rationale: 'F1/F3: het `nummer`-veld in frontmatter is `CBN-advies 105-5` (met koppelteken) terwijl de body-heading `CBN-advies 105/5` schrijft (met schuine streep) — inconsistentie tussen frontmatter en heading. De bestandsnaam eindigt op `-door-0.md` wat een afgekapte slug suggereert (de volledige titel was te lang). Deze twee problemen zijn ETL-fixable.'
-      run_at: '2026-05-11T11:57:45Z'
       status: needs-rework
-    rationale: 'F1/F3: het `nummer`-veld in frontmatter is `CBN-advies 105-5` (met koppelteken) terwijl de body-heading `CBN-advies 105/5` schrijft (met schuine streep) — inconsistentie tussen frontmatter en heading. De bestandsnaam eindigt op `-door-0.md` wat een afgekapte slug suggereert (de volledige titel was te lang). Deze twee problemen zijn ETL-fixable.'
-    status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:16:02Z'
+      rationale: "F1: het 'nummer'-veld in frontmatter is 'CBN-advies 105-5' (koppelteken) terwijl de body-heading 'CBN-advies 105/5' schrijft (schuine streep) — inconsistentie niet opgelost door de scraper-fixes. F3: bestandsnaam eindigt op '-door-0.md' wat een afgekapte slug suggereert."
+      concrete_problemen:
+        - regel: 4
+          categorie: F1
+          type: naam-mismatch
+          voorbeeld: 'nummer: CBN-advies 105-5 (frontmatter) vs # CBN-advies 105/5 (body regel 48)'
+        - regel: 1
+          categorie: F3
+          type: naam-mismatch
+          voorbeeld: bestandsnaam eindigt op '-door-0.md' — afgekapte slug
 themas:
   - vennootschap behorende tot dezelfde groep
   - aanrekening van vergoedingen door vennootschappen behorende tot dezelfde groep

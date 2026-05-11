@@ -16,45 +16,45 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/going-concern-waarderingsregels-bij-de-stopzetting-of-gedeeltelijke-stopzetting-van-het
 nummer: CBN-advies 2022/04
 provenance:
-  generated_at: '2026-05-11T13:05:08Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/verslaggeving-bij-ontbinding-en-vereffening-van-bv-cv-nv-se-en-sce
       sha256: 60fddc17498aa2acf9fb6b1937ec85208cc2d26dae275d8514e5543466c0f5ce
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:12Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T12:24:33Z'
+    status: needs-rework
+    confirmed_at: '2026-05-11T13:34:12Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: "A3: de inhoudsopgave staat als genummerde lijst in de body (regels 94-110) vóór de inhoudelijke secties — TOC-fragment dat niet werd verwijderd. D2: op regel 210 wordt 'Schematisch kunnen de volgende termijnen worden onderscheiden:' aangekondigd maar het schema ontbreekt (was waarschijnlijk een tijdslijn-afbeelding in het origineel). Inhoud conceptueel volledig, 13 headings correct, alle 75 voetnoten aanwezig."
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:30Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:18Z'
       heading_count: 13
       max_section_chars: 16267
       file_size_chars: 30681
       flags: []
     layer2:
+      status: needs-rework
       agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:34:12Z'
+      rationale: "A3: de inhoudsopgave staat als genummerde lijst in de body (regels 94-110) vóór de inhoudelijke secties — TOC-fragment dat niet werd verwijderd. D2: op regel 210 wordt 'Schematisch kunnen de volgende termijnen worden onderscheiden:' aangekondigd maar het schema ontbreekt (was waarschijnlijk een tijdslijn-afbeelding in het origineel). Inhoud conceptueel volledig, 13 headings correct, alle 75 voetnoten aanwezig."
       concrete_problemen:
-        - categorie: A3
-          regel: 86
+        - regel: 94
+          categorie: A3
           type: other
           voorbeeld: "1. Ontbinding \n  1. Vrijwillige ontbinding \n  2. Ontbinding van rechtswege  (TOC-fragment in body)"
-        - categorie: D2
-          regel: 225
+        - regel: 210
+          categorie: D2
           type: missing-section
-          voorbeeld: 'Schematisch kunnen de volgende termijnen worden onderscheiden: [schema/afbeelding ontbreekt]'
-      rationale: 'A3: de inhoudsopgave van het advies staat als genummerde lijst in de body (regels 86-101) vóór de inhoudelijke secties. D2: op regel 225 wordt verwezen naar ''Schematisch kunnen de volgende termijnen worden onderscheiden:'' maar het schema ontbreekt (was waarschijnlijk een afbeelding in het origineel). 75 footnotes correct. Inhoud overigens volledig.'
-      run_at: '2026-05-11T12:24:33Z'
-      status: needs-rework
-    rationale: 'A3: de inhoudsopgave van het advies staat als genummerde lijst in de body (regels 86-101) vóór de inhoudelijke secties. D2: op regel 225 wordt verwezen naar ''Schematisch kunnen de volgende termijnen worden onderscheiden:'' maar het schema ontbreekt (was waarschijnlijk een afbeelding in het origineel). 75 footnotes correct. Inhoud overigens volledig.'
-    status: needs-rework
+          voorbeeld: 'Schematisch kunnen de volgende termijnen worden onderscheiden: [schema/tijdslijn ontbreekt]'
 themas:
   - verslaggeving
   - ontbinding

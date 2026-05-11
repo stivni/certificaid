@@ -16,45 +16,45 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/herwaarderingen-verricht-met-toepassing-van-de-wet-van-20-augustus-1947
 nummer: CBN-advies 2013/14 NT
 provenance:
-  generated_at: '2026-05-11T13:05:08Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-uitgestelde-belastingen-bij-gerealiseerde-0
       sha256: cece8804e52dd038152c883b88548a1e1db6bfaf5a6e420cc76d109c6bd23d88
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T13:15:12Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T12:16:34Z'
+    status: needs-rework
+    confirmed_at: '2026-05-11T13:30:32Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: "B2/B3: de H1 op regel 64 is 'Technische nota bij' — dit is een afgekapte heading (het volledige advies-onderwerp ontbreekt). Bovendien: dit bestand bevat enkel de technische nota (IFRS/IAS-context), terwijl de advies-H1 van het hoofd-advies 2013/14 ontbreekt. Twee opeenvolgende H1-headings zouden vermeden moeten worden; de tweede had een H2 moeten zijn."
     layer1:
       status: pass
-      run_id: 20260511-130524
-      run_at: '2026-05-11T13:05:28Z'
+      run_id: 20260511-131513
+      run_at: '2026-05-11T13:15:16Z'
       heading_count: 14
       max_section_chars: 5282
       file_size_chars: 20167
       flags: []
     layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: B2
-          regel: 58
-          type: other
-          voorbeeld: '# Technische nota bij'
-        - categorie: B2
-          regel: 60
-          type: other
-          voorbeeld: '## Inleiding (direct na tweede H1, heading-hiërarchie inconsistent met document)'
-      rationale: 'B2/B3: twee opeenvolgende H1-headings op regels 57–58 (''# CBN-advies 2013/14 – ...'' en ''# Technische nota bij'') — een H1 mag slechts één keer voorkomen. De tweede H1 had een H2 moeten zijn. Verder is de tekst van de technische nota inhoudelijk compleet en zonder verdere artefacten.'
-      run_at: '2026-05-11T12:16:34Z'
       status: needs-rework
-    rationale: 'B2/B3: twee opeenvolgende H1-headings op regels 57–58 (''# CBN-advies 2013/14 – ...'' en ''# Technische nota bij'') — een H1 mag slechts één keer voorkomen. De tweede H1 had een H2 moeten zijn. Verder is de tekst van de technische nota inhoudelijk compleet en zonder verdere artefacten.'
-    status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T13:30:32Z'
+      rationale: "B2/B3: de H1 op regel 64 is 'Technische nota bij' — dit is een afgekapte heading (het volledige advies-onderwerp ontbreekt). Bovendien: dit bestand bevat enkel de technische nota (IFRS/IAS-context), terwijl de advies-H1 van het hoofd-advies 2013/14 ontbreekt. Twee opeenvolgende H1-headings zouden vermeden moeten worden; de tweede had een H2 moeten zijn."
+      concrete_problemen:
+        - regel: 64
+          categorie: B2
+          type: other
+          voorbeeld: '# Technische nota bij  (afgekapte H1, volledig advies-onderwerp ontbreekt)'
+        - regel: 64
+          categorie: B3
+          type: other
+          voorbeeld: 'Twee H1-headings in document: vorige run detecteerde dit als dubbele H1 — nog steeds aanwezig'
 themas:
   - gerealiseerde meerwaarde
   - kapitaalsubsidie
