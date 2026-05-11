@@ -1,6 +1,49 @@
 ---
-nummer: CBN-advies 2011/15
+bron: https://www.cbn-cnc.be/nl/adviezen/waardeverminderingen-op-handelsvorderingen-gedekt-door-een-kredietverzekering
 datum: 2011-07-06
+gerelateerde_adviezen:
+  - datum: '2018-05-30'
+    titel: Omzet – RIZIV-heffingen op de omzet van terugbetaalbare geneesmiddelen
+    url: https://www.cbn-cnc.be/nl/adviezen/omzet-riziv-heffingen-op-de-omzet-van-terugbetaalbare-geneesmiddelen
+  - datum: '1978-12-01'
+    titel: Ledenbijdrage in een coöperatieve vennootschap
+    url: https://www.cbn-cnc.be/nl/adviezen/ledenbijdrage-in-een-cooperatieve-vennootschap
+  - datum: '1993-02-01'
+    titel: Beginsel van het dubbel boekhouden
+    url: https://www.cbn-cnc.be/nl/adviezen/beginsel-van-het-dubbel-boekhouden
+nummer: CBN-advies 2011/15
+provenance:
+  generated_at: '2026-05-11T13:05:08Z'
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/waardeverminderingen-op-handelsvorderingen-gedekt-door-een-kredietverzekering
+      sha256: fabe8cebfc4d54bf18c08cd31e9f2447b5fd4870fed263588ded5bc50a6ba214
+      version:
+  stale: false
+  stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
+  trust:
+    confirmed_at:
+    confirmed_by:
+    layer1:
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:28Z'
+      heading_count: 12
+      max_section_chars: 9854
+      file_size_chars: 14211
+      flags: []
+    layer2:
+      agent:
+      concrete_problemen: []
+      rationale:
+      run_at:
+      status: not_run
+    rationale: 'Trust gereset 2026-05-11: re-scrape met scraper-fixes, content-diff > 5%'
+    status: unreviewed
 themas:
   - compensatieverbod
   - dubieuze debiteuren
@@ -12,61 +55,6 @@ themas:
   - schadevergoeding
   - subrogatie
   - Waardevermindering
-bron: https://www.cbn-cnc.be/nl/adviezen/waardeverminderingen-op-handelsvorderingen-gedekt-door-een-kredietverzekering
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/waardeverminderingen-op-handelsvorderingen-gedekt-door-een-kredietverzekering
-      sha256: fabe8cebfc4d54bf18c08cd31e9f2447b5fd4870fed263588ded5bc50a6ba214
-      version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:36:14Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T12:09:18Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: 'D4: heading op regel 126 heeft `*** ***` malformed italic met spatie voor closing: `### ***Overboeking naar dubieuze debiteuren ***`. Zelfde patroon op regel 135 (`### ***Boeking van de waardevermindering ***`). Regel 148: `#### ** De klant betaalt daadwerkelijk niets**` — spatie na opening `**`. Dit zijn de bekende `*term *`-patronen die RAG-parsers kunnen verstoren.'
-    layer1:
-      status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 12
-      max_section_chars: 9854
-      file_size_chars: 14211
-      flags: []
-    layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:09:18Z'
-      rationale: 'D4: heading op regel 126 heeft `*** ***` malformed italic met spatie voor closing: `### ***Overboeking naar dubieuze debiteuren ***`. Zelfde patroon op regel 135 (`### ***Boeking van de waardevermindering ***`). Regel 148: `#### ** De klant betaalt daadwerkelijk niets**` — spatie na opening `**`. Dit zijn de bekende `*term *`-patronen die RAG-parsers kunnen verstoren.'
-      concrete_problemen:
-        - regel: 126
-          categorie: D4
-          type: other
-          voorbeeld: '### ***Overboeking naar dubieuze debiteuren ***'
-        - regel: 135
-          categorie: D4
-          type: other
-          voorbeeld: '### ***Boeking van de waardevermindering ***'
-        - regel: 148
-          categorie: D4
-          type: other
-          voorbeeld: '#### ** De klant betaalt daadwerkelijk niets**'
-gerelateerde_adviezen:
-  - titel: Omzet – RIZIV-heffingen op de omzet van terugbetaalbare geneesmiddelen
-    url: https://www.cbn-cnc.be/nl/adviezen/omzet-riziv-heffingen-op-de-omzet-van-terugbetaalbare-geneesmiddelen
-    datum: '2018-05-30'
-  - titel: Ledenbijdrage in een coöperatieve vennootschap
-    url: https://www.cbn-cnc.be/nl/adviezen/ledenbijdrage-in-een-cooperatieve-vennootschap
-    datum: '1978-12-01'
-  - titel: Beginsel van het dubbel boekhouden
-    url: https://www.cbn-cnc.be/nl/adviezen/beginsel-van-het-dubbel-boekhouden
-    datum: '1993-02-01'
 ---
 
 # CBN-advies 2011/15 - Waardeverminderingen op handelsvorderingen, gedekt door een kredietverzekering
@@ -135,7 +123,7 @@ Een onderneming heeft een vordering van 1.210 euro (incl. btw) op een klant. Dez
 | aan | 700-707 | Verkopen en dienstprestaties | | 1.000 |
 | | 451 | Te betalen btw | 210 | |
 
-### ***Overboeking naar dubieuze debiteuren ***
+### ***Overboeking naar dubieuze debiteuren** *
 
 De volledige vordering (inclusief btw) wordt overgeboekt naar de dubieuze debiteuren.
 
@@ -144,7 +132,7 @@ De volledige vordering (inclusief btw) wordt overgeboekt naar de dubieuze debite
 | | 407 | Dubieuze debiteuren | 1.210 | |
 | aan | 400 | Handelsdebiteuren | | 1.210 |
 
-### ***Boeking van de waardevermindering ***
+### ***Boeking van de waardevermindering** *
 
 Ten laatste op het moment waarop de onderneming de vordering ter incasso afstaat aan de kredietverzekeraar, boekt zij een waardevermindering ten belope van het niet-gedekte gedeelte van de vordering excl. btw. 
 

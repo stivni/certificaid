@@ -1,6 +1,68 @@
 ---
-nummer: CBN-advies 2020/09
+bron: https://www.cbn-cnc.be/nl/adviezen/vermelding-in-de-jaarrekening-van-de-gegevens-van-de-bestuurders-en-de-commissaris
 datum: 2020-08-05
+gerelateerde_adviezen:
+  - datum: '2024-11-14'
+    titel: Verslaggeving bij de heropening van de vereffening van (i)vzw’s die een dubbele boekhouding voeren
+    url: https://www.cbn-cnc.be/nl/adviezen/verslaggeving-bij-de-heropening-van-de-vereffening-van-ivzws-die-een-dubbele-boekhouding
+  - datum: '2024-11-13'
+    titel: Verslaggeving bij de heropening van de vereffening van de vennootschappen
+    url: https://www.cbn-cnc.be/nl/adviezen/verslaggeving-bij-de-heropening-van-de-vereffening-van-de-vennootschappen
+  - datum: '2024-06-10'
+    titel: Openbaarmakingsverplichtingen in hoofde van de vennootschap onder firma en de commanditaire vennootschap bij onmiddellijke sluiting van de vereffening
+    url: https://www.cbn-cnc.be/nl/adviezen/openbaarmakingsverplichtingen-in-hoofde-van-de-vennootschap-onder-firma-en-de
+  - datum: '2024-02-08'
+    titel: 'Belgische bijkantoren van buitenlandse verenigingen en stichtingen: toepassing van het Belgisch boekhoudrecht – begrip ‘bijkantoor’ – publicatieplicht – eigen boekhoudkundige verplichtingen'
+    url: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-buitenlandse-verenigingen-en-stichtingen-toepassing-van-het-0
+nummer: CBN-advies 2020/09
+provenance:
+  generated_at: '2026-05-11T13:05:08Z'
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/vermelding-in-de-jaarrekening-van-de-gegevens-van-de-bestuurders-en-de-commissaris
+      sha256: eae22de5c623f612d3cb68cc81753ac2f932cda35649d778696ee1749d7c29ee
+      version:
+  stale: false
+  stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
+  trust:
+    confirmed_at: '2026-05-11T12:21:40Z'
+    confirmed_by: subagent-sonnet-4-6
+    layer1:
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:30Z'
+      heading_count: 15
+      max_section_chars: 8590
+      file_size_chars: 15685
+      flags: []
+    layer2:
+      agent: subagent-sonnet-4-6
+      concrete_problemen:
+        - categorie: B2
+          regel: 93
+          type: other
+          voorbeeld: '## Voorbeeld 1 (verschijnt binnen een ##### sectie — hiërarchiesprong)'
+        - categorie: B2
+          regel: 104
+          type: other
+          voorbeeld: '## Voorbeeld 2 (idem — ## op hetzelfde niveau als hoofdsecties)'
+        - categorie: B2
+          regel: 116
+          type: other
+          voorbeeld: '## Voorbeeld 3 (idem)'
+        - categorie: B2
+          regel: 124
+          type: other
+          voorbeeld: '## Voorbeeld 4 (idem)'
+      rationale: 'B2: Voorbeelden (## Voorbeeld 1 t/m 4, regels 93, 104, 116, 124) staan op ## niveau terwijl ze genest zijn binnen een ##### sectie — de hiërarchie springt van ##### terug naar ##. Een mens zou deze als ###### of als vetgedrukte alinea markeren. Verder schoon: frontmatter klopt, voetnoten intact, inhoud compleet.'
+      run_at: '2026-05-11T12:21:40Z'
+      status: needs-rework
+    rationale: 'B2: Voorbeelden (## Voorbeeld 1 t/m 4, regels 93, 104, 116, 124) staan op ## niveau terwijl ze genest zijn binnen een ##### sectie — de hiërarchie springt van ##### terug naar ##. Een mens zou deze als ###### of als vetgedrukte alinea markeren. Verder schoon: frontmatter klopt, voetnoten intact, inhoud compleet.'
+    status: needs-rework
 themas:
   - jaarrekening
   - gegevens bestuurder
@@ -11,68 +73,6 @@ themas:
   - monistisch bestuur
   - duaal bestuur
   - gecoöpteerd bestuurder
-bron: https://www.cbn-cnc.be/nl/adviezen/vermelding-in-de-jaarrekening-van-de-gegevens-van-de-bestuurders-en-de-commissaris
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/vermelding-in-de-jaarrekening-van-de-gegevens-van-de-bestuurders-en-de-commissaris
-      sha256: eae22de5c623f612d3cb68cc81753ac2f932cda35649d778696ee1749d7c29ee
-      version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:37:51Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T12:21:40Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: 'B2: Voorbeelden (## Voorbeeld 1 t/m 4, regels 93, 104, 116, 124) staan op ## niveau terwijl ze genest zijn binnen een ##### sectie — de hiërarchie springt van ##### terug naar ##. Een mens zou deze als ###### of als vetgedrukte alinea markeren. Verder schoon: frontmatter klopt, voetnoten intact, inhoud compleet.'
-    layer1:
-      status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 15
-      max_section_chars: 8589
-      file_size_chars: 15676
-      flags: []
-    layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:21:40Z'
-      rationale: 'B2: Voorbeelden (## Voorbeeld 1 t/m 4, regels 93, 104, 116, 124) staan op ## niveau terwijl ze genest zijn binnen een ##### sectie — de hiërarchie springt van ##### terug naar ##. Een mens zou deze als ###### of als vetgedrukte alinea markeren. Verder schoon: frontmatter klopt, voetnoten intact, inhoud compleet.'
-      concrete_problemen:
-        - regel: 93
-          categorie: B2
-          type: other
-          voorbeeld: '## Voorbeeld 1 (verschijnt binnen een ##### sectie — hiërarchiesprong)'
-        - regel: 104
-          categorie: B2
-          type: other
-          voorbeeld: '## Voorbeeld 2 (idem — ## op hetzelfde niveau als hoofdsecties)'
-        - regel: 116
-          categorie: B2
-          type: other
-          voorbeeld: '## Voorbeeld 3 (idem)'
-        - regel: 124
-          categorie: B2
-          type: other
-          voorbeeld: '## Voorbeeld 4 (idem)'
-gerelateerde_adviezen:
-  - titel: Verslaggeving bij de heropening van de vereffening van (i)vzw’s die een dubbele boekhouding voeren
-    url: https://www.cbn-cnc.be/nl/adviezen/verslaggeving-bij-de-heropening-van-de-vereffening-van-ivzws-die-een-dubbele-boekhouding
-    datum: '2024-11-14'
-  - titel: Verslaggeving bij de heropening van de vereffening van de vennootschappen
-    url: https://www.cbn-cnc.be/nl/adviezen/verslaggeving-bij-de-heropening-van-de-vereffening-van-de-vennootschappen
-    datum: '2024-11-13'
-  - titel: Openbaarmakingsverplichtingen in hoofde van de vennootschap onder firma en de commanditaire vennootschap bij onmiddellijke sluiting van de vereffening
-    url: https://www.cbn-cnc.be/nl/adviezen/openbaarmakingsverplichtingen-in-hoofde-van-de-vennootschap-onder-firma-en-de
-    datum: '2024-06-10'
-  - titel: 'Belgische bijkantoren van buitenlandse verenigingen en stichtingen: toepassing van het Belgisch boekhoudrecht – begrip ‘bijkantoor’ – publicatieplicht – eigen boekhoudkundige verplichtingen'
-    url: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-buitenlandse-verenigingen-en-stichtingen-toepassing-van-het-0
-    datum: '2024-02-08'
 ---
 
 # CBN-advies 2020/09 – Vermelding in de jaarrekening van de gegevens van de bestuurders en de commissaris
@@ -95,8 +95,7 @@ In onderhavig advies maakt de Commissie een onderscheid tussen de verschillende 
 
 ### Gegevens van de leden van het bestuursorgaan 
 
-De Commissie is van oordeel dat de bestuursvorm (klassiek (monistisch)[^8]
- of duaal[^9]) bepaalt welke bestuurders van vennootschappen in de jaarrekening moeten worden vermeld.
+De Commissie is van oordeel dat de bestuursvorm (klassiek (monistisch)[^8] of duaal[^9]) bepaalt welke bestuurders van vennootschappen in de jaarrekening moeten worden vermeld.
 
 #### Klassiek of monistisch bestuur
 
@@ -106,30 +105,28 @@ Volgens de definitie van ‘bestuurders in functie’, moeten de bestuurders die
 
 Sedert een aantal jaren is het een courante praktijk geworden om de gegevens van ontslagnemende bestuurders op te nemen in de jaarrekening (met vermelding van de aanvangs- en einddatum van hun mandaat), ook al droegen zij niet bij aan de vaststelling van de jaarrekening. Deze praktijk vergemakkelijkt het bepalen van hun aansprakelijkheid voor de fouten begaan in de uitoefening van hun opdracht. Maar dit is geen wettelijke verplichting[^10].
 
-## Voorbeeld 1
+### *Voorbeeld 1* 
 
 De heer A is bestuurder van een vennootschap. Deze bestuurder heeft tijdens boekjaar dat samenvalt met het kalenderjaar 2020 ontslag genomen (op 20 december 2020). Het boekjaar wordt afgesloten op 31 december 2020. Op het moment van de vaststelling van de jaarrekening (25 januari 2021) is deze bestuurder niet meer in functie en moet hij daarom niet worden vermeld aangezien hij niet de auteur is van de jaarrekening van de vennootschap. 
 
 ##### Wijziging van de samenstelling van het bestuursorgaan tussen de datum van afsluiting van het boekjaar en vóór de datum van de vaststelling van de jaarrekening
 
-Een bestuurder die benoemd is tussen de afsluiting van het boekjaar en vóór de datum van de vaststelling van de jaarrekening, moet worden vermeld in de jaarrekening. Deze is immers bestuurder[^11]
- op de datum waarop de jaarrekening wordt vastgesteld en ter goedkeuring wordt voorgelegd aan de algemene vergadering.
+Een bestuurder die benoemd is tussen de afsluiting van het boekjaar en vóór de datum van de vaststelling van de jaarrekening, moet worden vermeld in de jaarrekening. Deze is immers bestuurder[^11] op de datum waarop de jaarrekening wordt vastgesteld en ter goedkeuring wordt voorgelegd aan de algemene vergadering.
 
 De Commissie is van oordeel dat de bestuurders die in functie zijn op het moment van de vaststelling van de jaarrekening moeten worden opgenomen in de jaarrekening.
 
-## Voorbeeld 2
+### *Voorbeeld 2* 
 
 Mevrouw X werd op 5 januari 2020 benoemd tot bestuurder. Het boekjaar werd afgesloten op 31 december 2019. De jaarrekening werd door het bestuursorgaan vastgesteld op 25 januari 2020. Mevrouw X dient vermeld te worden in de jaarrekening aangezien ze in functie was op het moment van de vaststelling van de jaarrekening.
 
-Hoewel ze nog geen bestuurder was in boekjaar 2019, is ze wel aansprakelijk voor de aan de algemene vergadering voorgelegde jaarrekening. Ze kan echter niet aansprakelijk worden gesteld voor fouten begaan door het bestuursorgaan tijdens het boekjaar 2019 aangezien ze tijdens boekjaar 2019 nog geen bestuurder was. 
-
+Hoewel ze nog geen bestuurder was in boekjaar 2019, is ze wel aansprakelijk voor de aan de algemene vergadering voorgelegde jaarrekening. Ze kan echter niet aansprakelijk worden gesteld voor fouten begaan door het bestuursorgaan tijdens het boekjaar 2019 aangezien ze tijdens boekjaar 2019 nog geen bestuurder was.
 In dit voorbeeld was mevrouw X bestuurder gedurende slechts een deel van de periode tussen de afsluitdatum van het boekjaar en de datum van vaststelling van de jaarrekening. Voor deze bestuurders kan het nuttig zijn de begindatum te vermelden van de uitoefening van hun mandaat. Volgens de Minister van Justitie is dit slechts een mogelijkheid en geen verplichting[^12].
 
 Na de vaststelling van de jaarrekening overleden bestuurders die evenwel nog in functie waren op moment van de vaststelling van de jaarrekening en zodoende hiertoe bijdroegen moeten worden vermeld in de jaarrekening.
 
 Overleden bestuurders of bestuurders die reeds ontslag namen vóór de vaststelling van de jaarrekening (en die dus niet hebben deelgenomen aan de goedkeuring van de jaarrekening) moeten echter niet in de jaarrekening worden vermeld. Zij zijn immers niet degene die de jaarrekening van de vennootschap hebben opgemaakt en zijn bijgevolg ook niet aansprakelijk voor de jaarrekening die aan de algemene vergadering ter goedkeuring werd voorgelegd.
 
-## Voorbeeld 3
+### *Voorbeeld 3* 
 
 De heer Y nam op 12 april 2020 ontslag als bestuurder. De jaarrekening werd vastgesteld op 20 mei 2020. De heer Y moet niet in de jaarrekening worden vermeld aangezien hij niet heeft bijgedragen aan de vaststelling van de jaarrekening. 
 
@@ -137,14 +134,13 @@ De heer Y nam op 12 april 2020 ontslag als bestuurder. De jaarrekening werd vast
 
 De bestuurders die door de algemene vergadering nieuw aangesteld zijn na de vaststelling van de jaarrekening, moeten niet worden vermeld in de jaarrekening[^13].
 
-## Voorbeeld 4
+### *Voorbeeld 4* 
 
 Mevrouw Z werd op 2 juni 2020 als bestuurder aangesteld. De jaarrekening werd vastgesteld op 20 mei 2020. Mevrouw Z moet bijgevolg niet worden vermeld in de jaarrekening. 
 
 #### Duaal bestuur
 
-Het WVV maakt het voor naamloze vennootschappen mogelijk een duaal bestuur[^14]
- te vormen. Het bestuursorgaan wordt hierbij gesplitst in een raad van toezicht en een directieraad. De bevoegdheden die in een monistisch systeem door het WVV specifiek worden voorbehouden aan het bestuursorgaan worden bij een duaal bestuur toegewezen aan de raad van toezicht[^15].
+Het WVV maakt het voor naamloze vennootschappen mogelijk een duaal bestuur[^14] te vormen. Het bestuursorgaan wordt hierbij gesplitst in een raad van toezicht en een directieraad. De bevoegdheden die in een monistisch systeem door het WVV specifiek worden voorbehouden aan het bestuursorgaan worden bij een duaal bestuur toegewezen aan de raad van toezicht[^15].
 
 De vaststelling van de jaarrekening behoort tot één van de opdrachten die exclusief aan de raad van toezicht worden voorbehouden. Deze raad van toezicht kan echter wel de voorbereiding en de uitvoering van de vaststelling van de jaarrekening aan de directieraad delegeren, maar blijft aansprakelijk voor de vaststelling van de jaarrekening[^16].
 
@@ -168,9 +164,7 @@ Hetgeen is uiteengezet onder punt II.A geldt, *mutatis mutandis*, ook voor de co
 
 ## Gegevens van de bestuurders en de commissaris in de jaarrekening van VZW’s, IVZW’s en stichtingen die een dubbele boekhouding voeren
 
-De artikelen die van toepassing zijn op VZW’s[^19], IVZW’s[^20]
- en stichtingen[^21]
- bepalen eveneens dat het de bestuurders en commissaris in functie zijn die moeten worden vermeld in de jaarrekening.
+De artikelen die van toepassing zijn op VZW’s[^19], IVZW’s[^20] en stichtingen[^21] bepalen eveneens dat het de bestuurders en commissaris in functie zijn die moeten worden vermeld in de jaarrekening.
 
 Bijgevolg verwijst de Commissie naar wat hierboven in punt II.A.1 werd uiteengezet[^22].
 

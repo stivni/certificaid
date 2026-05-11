@@ -1,56 +1,56 @@
 ---
-nummer: CBN-advies C100
-datum: 1991-03-01
-themas:
-  - geconsolideerde jaarrekening
-  - resultaten
-  - verwerking van vermogensbestanddelen
 bron: https://www.cbn-cnc.be/nl/adviezen/verwerking-in-de-geconsolideerde-jaarrekening-van-de-vermogensbestanddelen-en-de
+datum: 1991-03-01
+gerelateerde_adviezen:
+  - datum: '2022-11-08'
+    titel: 'Belgische bijkantoren van buitenlandse vennootschappen: toepassing van het Belgisch boekhoudrecht - begrip “bijkantoor” – publicatieplicht (update)'
+    url: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-buitenlandse-vennootschappen-toepassing-van-het-belgisch
+  - datum: '2022-09-09'
+    titel: Vermogensmutatiemethode
+    url: https://www.cbn-cnc.be/nl/adviezen/vermogensmutatiemethode
+  - datum: '2018-05-09'
+    titel: 'Belgische bijkantoren van vennootschappen naar buitenlands recht: toepassing van het Belgisch boekhoudrecht - begrip “bijkantoor” - publicatieplicht'
+    url: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-vennootschappen-naar-buitenlands-recht-toepassing-van-het
+  - datum: '2012-09-05'
+    titel: Vrijstelling van subconsolidatie
+    url: https://www.cbn-cnc.be/nl/adviezen/vrijstelling-van-subconsolidatie
+nummer: CBN-advies C100
 provenance:
+  generated_at: '2026-05-11T13:05:05Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/verwerking-in-de-geconsolideerde-jaarrekening-van-de-vermogensbestanddelen-en-de
       sha256: 12ca3d583e24f034d7620e86f5c24ff39894b85432fc6e2cf470c04b0478a4ba
       version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:33:37Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
   trust:
-    status: trusted
     confirmed_at: '2026-05-11T11:51:19Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: Drie alinea's, geen headings (heading_count=0, correct). Wetsartikel geciteerd als prose, geen tabellen of lijsten nodig. Geen artefacten, inhoud volledig en afgerond.
     layer1:
       status: pass
-      run_id: 20260511-083333
-      run_at:
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:24Z'
       heading_count: 0
       max_section_chars: 1701
       file_size_chars: 1701
       flags: []
     layer2:
-      status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T11:51:19Z'
-      rationale: Drie alinea's, geen headings (heading_count=0, correct). Wetsartikel geciteerd als prose, geen tabellen of lijsten nodig. Geen artefacten, inhoud volledig en afgerond.
       concrete_problemen: []
-gerelateerde_adviezen:
-  - titel: 'Belgische bijkantoren van buitenlandse vennootschappen: toepassing van het Belgisch boekhoudrecht - begrip “bijkantoor” – publicatieplicht (update)'
-    url: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-buitenlandse-vennootschappen-toepassing-van-het-belgisch
-    datum: '2022-11-08'
-  - titel: Vermogensmutatiemethode
-    url: https://www.cbn-cnc.be/nl/adviezen/vermogensmutatiemethode
-    datum: '2022-09-09'
-  - titel: 'Belgische bijkantoren van vennootschappen naar buitenlands recht: toepassing van het Belgisch boekhoudrecht - begrip “bijkantoor” - publicatieplicht'
-    url: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-vennootschappen-naar-buitenlands-recht-toepassing-van-het
-    datum: '2018-05-09'
-  - titel: Vrijstelling van subconsolidatie
-    url: https://www.cbn-cnc.be/nl/adviezen/vrijstelling-van-subconsolidatie
-    datum: '2012-09-05'
+      rationale: Drie alinea's, geen headings (heading_count=0, correct). Wetsartikel geciteerd als prose, geen tabellen of lijsten nodig. Geen artefacten, inhoud volledig en afgerond.
+      run_at: '2026-05-11T11:51:19Z'
+      status: trusted
+    rationale: Drie alinea's, geen headings (heading_count=0, correct). Wetsartikel geciteerd als prose, geen tabellen of lijsten nodig. Geen artefacten, inhoud volledig en afgerond.
+    status: trusted
+themas:
+  - geconsolideerde jaarrekening
+  - resultaten
+  - verwerking van vermogensbestanddelen
 ---
 
 # CBN-advies C100 - Verwerking in de geconsolideerde jaarrekening van de vermogensbestanddelen en de resultaten op de datum waarop de geconsolideerde jaarrekening wordt afgesloten

@@ -1,6 +1,49 @@
 ---
-nummer: CBN-advies 2018/08
+bron: https://www.cbn-cnc.be/nl/adviezen/gebeurtenissen-na-afsluitingsdatum-van-het-boekjaar
 datum: 2018-05-09
+gerelateerde_adviezen:
+  - datum: '2022-03-15'
+    titel: Beoordeling van de groottecriteria overeenkomstig artikelen 1:24 en 1:25 van het Wetboek van vennootschappen en verenigingen
+    url: https://www.cbn-cnc.be/nl/adviezen/beoordeling-van-de-groottecriteria-overeenkomstig-artikelen-124-en-125-van-het-wetboek-van
+  - datum: '2014-04-23'
+    titel: Afsluitingsdatum van het boekjaar
+    url: https://www.cbn-cnc.be/nl/adviezen/afsluitingsdatum-van-het-boekjaar
+  - datum: '2010-05-19'
+    titel: Berekening criteria artikel 15 W.Venn.
+    url: https://www.cbn-cnc.be/nl/adviezen/berekening-criteria-artikel-15-wvenn
+nummer: CBN-advies 2018/08
+provenance:
+  generated_at: '2026-05-11T13:05:08Z'
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/gebeurtenissen-na-afsluitingsdatum-van-het-boekjaar
+      sha256: 74a69f07fac32c70f0adfdc99ef68a659721a0189c87dfc139b990f3ab6fae9f
+      version:
+  stale: false
+  stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
+  trust:
+    confirmed_at:
+    confirmed_by:
+    layer1:
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:29Z'
+      heading_count: 4
+      max_section_chars: 8553
+      file_size_chars: 21547
+      flags: []
+    layer2:
+      agent:
+      concrete_problemen: []
+      rationale:
+      run_at:
+      status: not_run
+    rationale: 'Trust gereset 2026-05-11: re-scrape met scraper-fixes, content-diff > 5%'
+    status: unreviewed
 themas:
   - balansdatum
   - afsluitdatum
@@ -10,61 +53,6 @@ themas:
   - gebeurtenissen na balansdatum
   - gebeurtenissen na afsluitdatum
   - gebeurtenissen na afsluitingsdatum
-bron: https://www.cbn-cnc.be/nl/adviezen/gebeurtenissen-na-afsluitingsdatum-van-het-boekjaar
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/gebeurtenissen-na-afsluitingsdatum-van-het-boekjaar
-      sha256: 74a69f07fac32c70f0adfdc99ef68a659721a0189c87dfc139b990f3ab6fae9f
-      version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:37:21Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T12:21:40Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: 'Zelfde patroon als 2018/07: de twee voorbeeld-blokken op regels 96-103 en 160-170 worden omsloten door losse pipe-tekens (`|  ` en `  |`) als mislukte callout-rendering (B3/artefact). Bovendien staan de genummerde voorbeelden 1-8 (regels 96-138) als gebroken paragrafen met lege regels en inspring (A6/A10) — een mens zou deze als gewone genummerde lijst schrijven.'
-    layer1:
-      status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 4
-      max_section_chars: 8554
-      file_size_chars: 21575
-      flags: []
-    layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:21:40Z'
-      rationale: 'Zelfde patroon als 2018/07: de twee voorbeeld-blokken op regels 96-103 en 160-170 worden omsloten door losse pipe-tekens (`|  ` en `  |`) als mislukte callout-rendering (B3/artefact). Bovendien staan de genummerde voorbeelden 1-8 (regels 96-138) als gebroken paragrafen met lege regels en inspring (A6/A10) — een mens zou deze als gewone genummerde lijst schrijven.'
-      concrete_problemen:
-        - regel: 96
-          categorie: B3
-          type: other
-          voorbeeld: 1.  \n\nHet bepalen, ten gevolge van een gebeurtenis...
-        - regel: 160
-          categorie: B3
-          type: other
-          voorbeeld: '|  \n\n*Voorbeeld*\n\nEen vennootschap voert haar boekhouding...'
-        - regel: 170
-          categorie: B3
-          type: other
-          voorbeeld: '  | '
-gerelateerde_adviezen:
-  - titel: Beoordeling van de groottecriteria overeenkomstig artikelen 1:24 en 1:25 van het Wetboek van vennootschappen en verenigingen
-    url: https://www.cbn-cnc.be/nl/adviezen/beoordeling-van-de-groottecriteria-overeenkomstig-artikelen-124-en-125-van-het-wetboek-van
-    datum: '2022-03-15'
-  - titel: Afsluitingsdatum van het boekjaar
-    url: https://www.cbn-cnc.be/nl/adviezen/afsluitingsdatum-van-het-boekjaar
-    datum: '2014-04-23'
-  - titel: Berekening criteria artikel 15 W.Venn.
-    url: https://www.cbn-cnc.be/nl/adviezen/berekening-criteria-artikel-15-wvenn
-    datum: '2010-05-19'
 ---
 
 # CBN-advies 2018/08 – Gebeurtenissen na afsluitingsdatum van het boekjaar
@@ -105,59 +93,54 @@ Het bestuursverslag bevat daarentegen enkel de belangrijke gebeurtenissen die zi
 
 Bij wijze van voorbeeld, wordt voor de gebeurtenissen na afsluitingsdatum van het boekjaar die aanleiding geven tot een aanpassing van de balans en/of de resultatenrekening van het afgesloten boekjaar, het volgende aangehaald:
 
-1.  
+1. 
 
-Het bepalen, ten gevolge van een gebeurtenis na afsluitingsdatum van het boekjaar, van het bedrag van de opbrengst van het afgesloten boekjaar, die zeker is op de afsluitingsdatum van het betrokken boekjaar.  
+Het bepalen, ten gevolge van een gebeurtenis na afsluitingsdatum van het boekjaar, van het bedrag van de opbrengst van het afgesloten boekjaar, die zeker is op de afsluitingsdatum van het betrokken boekjaar.
+	Indien de opbrengst daarentegen slechts waarschijnlijk is op afsluitingsdatum, maar zeker wordt als gevolg van een gebeurtenis na afsluiting, kan ze niet worden opgenomen in de jaarrekening van het afgesloten boekjaar, aangezien die opbrengst in beginsel niet zeker is op afsluitingsdatum van het betrokken boekjaar.[^14]
+ In dat geval, moeten haar aard en financiële gevolgen, indien de gebeurtenis van materieel belang is, worden vermeld in de toelichting van het volledig schema onder “*Aard en financiële gevolgen van materiële gebeurtenissen die zich na balansdatum hebben voorgedaan en die niet in de resultatenrekening of balans worden weergegeven*”.[^15]
+ Als de financiële gevolgen niet kunnen worden ingeschat, dient het bestuursorgaan dit volgens de Commissie in de toelichting te verantwoorden. De Commissie is van mening dat het beginsel van het getrouwe beeld voorschrijft dat deze materiële gebeurtenissen desgevallend eveneens in de toelichting van het verkort en van het micromodel onder “*Andere in de toelichting te vermelden inlichtingen” meegedeeld worden*.[^16] 
 
-	Indien de opbrengst daarentegen slechts waarschijnlijk is op afsluitingsdatum, maar zeker wordt als gevolg van een gebeurtenis na afsluiting, kan ze niet worden opgenomen in de jaarrekening van het afgesloten boekjaar, aangezien die opbrengst in beginsel niet zeker is op afsluitingsdatum van het betrokken boekjaar.[^14] In dat geval, moeten haar aard en financiële gevolgen, indien de gebeurtenis van materieel belang is, worden vermeld in de toelichting van het volledig schema onder “*Aard en financiële gevolgen van materiële gebeurtenissen die zich na balansdatum hebben voorgedaan en die niet in de resultatenrekening of balans worden weergegeven*”.[^15] Als de financiële gevolgen niet kunnen worden ingeschat, dient het bestuursorgaan dit volgens de Commissie in de toelichting te verantwoorden. De Commissie is van mening dat het beginsel van het getrouwe beeld voorschrijft dat deze materiële gebeurtenissen desgevallend eveneens in de toelichting van het verkort en van het micromodel onder “*Andere in de toelichting te vermelden inlichtingen” meegedeeld worden*.[^16]   
+	Er wordt echter een uitzondering gemaakt indien aan een opschortende voorwaarde in een tijdens het afgesloten boekjaar ondertekend contract wordt voldaan na afsluiting (maar voordat de jaarrekening wordt vastgesteld door het bestuursorgaan) omwille van de retroactieve werking van de vervulling van de voorwaarde[^17]. In dat geval moet het bestuursorgaan de desbetreffende opbrengst boeken in de jaarrekening van het afgesloten boekjaar.[^18] 
 
-	Er wordt echter een uitzondering gemaakt indien aan een opschortende voorwaarde in een tijdens het afgesloten boekjaar ondertekend contract wordt voldaan na afsluiting (maar voordat de jaarrekening wordt vastgesteld door het bestuursorgaan) omwille van de retroactieve werking van de vervulling van de voorwaarde[^17]. In dat geval moet het bestuursorgaan de desbetreffende opbrengst boeken in de jaarrekening van het afgesloten boekjaar.[^18]   
-
-*Voorbeeld*  
+*Voorbeeld* 
 
 	In 2017 ondertekent een vennootschap een licentieovereenkomst waarvoor ze in de loop van 2018 periodieke vergoedingen zal ontvangen, die worden berekend op de bij de medecontractant in 2017 gerealiseerde omzet. Deze omzet wordt verondersteld pas begin 2018 gekend te zijn, doch voordat het bestuursorgaan van de vennootschap de jaarrekening van het boekjaar 2017 vaststelt. Deze vennootschap dient de opbrengst van de in 2018 ontvangen vergoedingen op te nemen in de resultatenrekening van het boekjaar 2017, want de opbrengst is in beginsel zeker bij de afsluiting van het boekjaar.
 
-2.  
+2. 
 
-De minnelijke schikking voor een geschil ontstaan tijdens het afgesloten boekjaar of een vorig boekjaar, die zich heeft voorgedaan na afsluiting van het betrokken boekjaar, bevestigt dat de vennootschap een bestaande verplichting had bij de afsluitingsdatum van het betrokken boekjaar.  
+De minnelijke schikking voor een geschil ontstaan tijdens het afgesloten boekjaar of een vorig boekjaar, die zich heeft voorgedaan na afsluiting van het betrokken boekjaar, bevestigt dat de vennootschap een bestaande verplichting had bij de afsluitingsdatum van het betrokken boekjaar.
+	Het bestuursorgaan moet desgevallend een voorziening boeken voor het hangend geschil of de bestaande voorziening verhogen. De waardering moet rekening houden met “*alle bijkomende aanwijzingen* [...]* die gebeurtenissen na de balansdatum hebben opgeleverd*”.[^19] 
 
-	Het bestuursorgaan moet desgevallend een voorziening boeken voor het hangend geschil of de bestaande voorziening verhogen. De waardering moet rekening houden met “*alle bijkomende aanwijzingen *[...]* die gebeurtenissen na de balansdatum hebben opgeleverd*”.[^19] 
-
-3.  
+3. 
 
 De bepaling na afsluiting van het boekjaar van het bedrag m.b.t. werknemersparticipatie in de winst van de vennootschap, in de bonussen en/of winstpremies m.b.t. het afgesloten boekjaar.
+4. 
 
-4.  
-
-Het ontdekken van fouten of vergissingen in de balans en/of resultatenrekening van het afgesloten boekjaar na afsluiting van het boekjaar.  
-
+Het ontdekken van fouten of vergissingen in de balans en/of resultatenrekening van het afgesloten boekjaar na afsluiting van het boekjaar.
 	Een dergelijk geval zal zich met name voordoen wanneer het bestuursorgaan van oordeel is dat de boeking van een verrichting gerealiseerd tijdens het afgesloten boekjaar niet correct is ten gevolge van een beslissing van de Dienst voorafgaande beslissingen in fiscale zaken m.b.t. deze verrichting, die na de afsluiting van het betrokken boekjaar wordt genomen, maar voordat de jaarrekening door het bestuursorgaan wordt vastgesteld.
 
-5.  
+5. 
 
-Aanslag na afsluiting van het boekjaar voor inkomstenbelastingen met betrekking tot vorige boekjaren. Indien de vennootschap deze aanslag betwist, moet het bestuursorgaan desgevallend voor het afgesloten boekjaar een bedrag provisioneren dat de vermoedelijke fiscale schuld zo goed mogelijk inschat.[^20] 
+Aanslag na afsluiting van het boekjaar voor inkomstenbelastingen met betrekking tot vorige boekjaren. Indien de vennootschap deze aanslag betwist, moet het bestuursorgaan desgevallend voor het afgesloten boekjaar een bedrag provisioneren dat de vermoedelijke fiscale schuld zo goed mogelijk inschat.[^20]
+6. 
 
-6.  
+Na de afsluiting van het boekjaar wordt vastgesteld dat de vennootschap de ondergrond van zijn fabriek tijdens het afgesloten boekjaar onvrijwillig heeft verontreinigd. Het bestuursorgaan moet in de jaarrekening van het afgesloten boekjaar een voorziening boeken voor milieuverplichtingen. Deze voorziening dekt de vermoedelijke saneringskosten.[^21]
+7. 
 
-Na de afsluiting van het boekjaar wordt vastgesteld dat de vennootschap de ondergrond van zijn fabriek tijdens het afgesloten boekjaar onvrijwillig heeft verontreinigd. Het bestuursorgaan moet in de jaarrekening van het afgesloten boekjaar een voorziening boeken voor milieuverplichtingen. Deze voorziening dekt de vermoedelijke saneringskosten.[^21] 
-
-7.  
-
-Vervulling van een opschortende voorwaarde over een aangegane verbintenis tijdens het afgesloten boekjaar, ná afsluiting van het boekjaar. Het bestuursorgaan moet de hieraan verbonden kosten boeken in de jaarrekening van het afgesloten boekjaar.[^22] 
-
-8.  
+Vervulling van een opschortende voorwaarde over een aangegane verbintenis tijdens het afgesloten boekjaar, ná afsluiting van het boekjaar. Het bestuursorgaan moet de hieraan verbonden kosten boeken in de jaarrekening van het afgesloten boekjaar.[^22]
+8. 
 
 Het vonnis van faillietverklaring van een klant dat werd uitgesproken na afsluiting van het boekjaar en dat bevestigt dat de klant insolvent was bij de afsluitingsdatum van het betreffende boekjaar. Het bestuursorgaan moet desgevallend een (bijkomende) waardevermindering op deze vordering boeken in de jaarrekening van het afgesloten boekjaar.
-
 ## Gebeurtenissen na afsluitingsdatum van het boekjaar die informatie geven over de evaluatie van één of meerdere activa- of passivabestanddelen zoals ze bestaan ná de afsluitingsdatum van het boekjaar
 
 De gebeurtenissen na afsluitingsdatum van het boekjaar die informatie geven over de evaluatie van één of meerdere activa- of passivabestanddelen zoals ze bestaan ná de afsluitingsdatum van het boekjaar hebben betrekking op informatie die ontstaan is na de afsluitingsdatum van het betrokken boekjaar en die pas gekend is na deze datum (maar voordat de jaarrekening wordt vastgesteld door het bestuursorgaan).
 
-Deze gebeurtenissen geven geen aanleiding tot een aanpassing van de balans of de resultatenrekening van het afgesloten boekjaar, maar indien ze van materieel belang zijn, tot een vermelding van hun aard en financiële gevolgen in de toelichting van het volledig model onder “*Aard en financiële gevolgen van materiële gebeurtenissen die zich na balansdatum hebben voorgedaan en die niet in de resultatenrekening of balans worden weergegeven*”.[^23] Als de financiële gevolgen niet kunnen worden ingeschat, dient het bestuursorgaan dit volgens de Commissie in de toelichting te verantwoorden.
+Deze gebeurtenissen geven geen aanleiding tot een aanpassing van de balans of de resultatenrekening van het afgesloten boekjaar, maar indien ze van materieel belang zijn, tot een vermelding van hun aard en financiële gevolgen in de toelichting van het volledig model onder “*Aard en financiële gevolgen van materiële gebeurtenissen die zich na balansdatum hebben voorgedaan en die niet in de resultatenrekening of balans worden weergegeven*”.[^23]
+ Als de financiële gevolgen niet kunnen worden ingeschat, dient het bestuursorgaan dit volgens de Commissie in de toelichting te verantwoorden.
 
 Als deze gebeurtenissen belangrijk zijn, moet het bestuursorgaan ze eveneens vermelden in zijn jaarverslag.[^24] 
 
-De Commissie is van mening dat het beginsel van het getrouwe beeld voorschrijft dat deze materiële gebeurtenissen desgevallend in de toelichting van het verkort model en het micromodel onder “*Andere in de toelichting te vermelden inlichtingen” *meegedeeld worden.[^25] 
+De Commissie is van mening dat het beginsel van het getrouwe beeld voorschrijft dat deze materiële gebeurtenissen desgevallend in de toelichting van het verkort model en het micromodel onder “*Andere in de toelichting te vermelden inlichtingen”* meegedeeld worden.[^25] 
 
 De Commissie herinnert eraan dat de verplichting om rekening te houden met gebeurtenissen na afsluitingsdatum van het boekjaar, het bestuursorgaan niet toelaat om onbestaande risico’s op de afsluitingsdatum van het boekjaar te provisioneren, door zich te baseren op een feit ontstaan tussen de afsluitingsdatum en het ogenblik waarop de jaarrekening werd vastgesteld.
 
@@ -169,7 +152,7 @@ Ingeval van materiële gebeurtenissen die plaatsvinden tussen het ogenblik waaro
 
 Als een nieuwe vaststelling van de jaarrekening echter niet mogelijk is, omdat de jaarrekening reeds werd meegedeeld aan de vennoten/aandeelhouders, licht het bestuursorgaan deze gebeurtenissen mondeling toe tijdens de algemene vergadering en wordt er melding van gemaakt in het verslag van de algemene vergadering. Indien de jaarrekening moet worden aangepast, mag het bestuursorgaan de beslissing van de algemene vergadering met betrekking tot de goedkeuring van de jaarrekening uitstellen met drie weken, zodat een volgende algemene vergadering de jaarrekening definitief goedkeurt.[^27] 
 
-|  
+| 
 
 *Voorbeeld*
 

@@ -1,6 +1,59 @@
 ---
-nummer: CBN-advies 2009/10
+bron: https://www.cbn-cnc.be/nl/adviezen/bepaling-van-de-functionele-valuta-bij-financieringsvennootschappen
 datum: 2009-09-16
+nummer: CBN-advies 2009/10
+provenance:
+  generated_at: '2026-05-11T13:05:07Z'
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/bepaling-van-de-functionele-valuta-bij-financieringsvennootschappen
+      sha256: 0d99ed3da1c845b15c6d59f468f49f333307bc37fdc538f29da9b2b82ff3505b
+      version:
+  stale: false
+  stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
+  trust:
+    confirmed_at: '2026-05-11T12:09:17Z'
+    confirmed_by: subagent-sonnet-4-6
+    layer1:
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:27Z'
+      heading_count: 2
+      max_section_chars: 4440
+      file_size_chars: 7309
+      flags: []
+    layer2:
+      agent: subagent-sonnet-4-6
+      concrete_problemen:
+        - categorie: A2
+          regel: 48
+          type: dotted-leader
+          voorbeeld: 1. Definitie treasury vennootschappen of financieringsvennootschappen (TOC-residu als body-tekst)
+        - categorie: A2
+          regel: 49
+          type: dotted-leader
+          voorbeeld: 2. Bepaling van de functionele valuta bij financieringsvennootschappen (TOC-residu)
+        - categorie: B4
+          regel: 54
+          type: other
+          voorbeeld: '#### Definitie treasury vennootschappen of financieringsvennootschappen (#### zonder ## bovenliggend)'
+        - categorie: B4
+          regel: 74
+          type: other
+          voorbeeld: '#### Bepaling van de functionele valuta bij financieringsvennootschappen (#### zonder ##)'
+        - categorie: B2
+          regel: 54
+          type: other
+          voorbeeld: 'H1 → #### zonder ## of ### tussenniveau (hiërarchiesprong)'
+      rationale: 'A2/B7: regels 48–49 bevatten een genummerde lijst ''1. Definitie... / 2. Bepaling...'' direct na de H1-titel — dit is een TOC-fragment dat mee-geëxtraheerd is en nu als body-tekst staat i.p.v. te worden weggelaten (de inhoud wordt daarna als #### headings herhaald). B4: twee #### headings in all-caps (regels 54, 74) zonder bovenliggend ## niveau (B2-sprong: H1 → #### zonder ##/### tussenniveau).'
+      run_at: '2026-05-11T12:09:17Z'
+      status: needs-rework
+    rationale: 'A2/B7: regels 48–49 bevatten een genummerde lijst ''1. Definitie... / 2. Bepaling...'' direct na de H1-titel — dit is een TOC-fragment dat mee-geëxtraheerd is en nu als body-tekst staat i.p.v. te worden weggelaten (de inhoud wordt daarna als #### headings herhaald). B4: twee #### headings in all-caps (regels 54, 74) zonder bovenliggend ## niveau (B2-sprong: H1 → #### zonder ##/### tussenniveau).'
+    status: needs-rework
 themas:
   - financieringsvennootschappen
   - functionele munt
@@ -8,59 +61,6 @@ themas:
   - special purpose entity
   - treasury vennootschappen
   - afwijking
-bron: https://www.cbn-cnc.be/nl/adviezen/bepaling-van-de-functionele-valuta-bij-financieringsvennootschappen
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/bepaling-van-de-functionele-valuta-bij-financieringsvennootschappen
-      sha256: 0d99ed3da1c845b15c6d59f468f49f333307bc37fdc538f29da9b2b82ff3505b
-      version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:35:51Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T12:09:17Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "A2/B7: regels 48–49 bevatten een genummerde lijst '1. Definitie... / 2. Bepaling...' direct na de H1-titel — dit is een TOC-fragment dat mee-geëxtraheerd is en nu als body-tekst staat i.p.v. te worden weggelaten (de inhoud wordt daarna als #### headings herhaald). B4: twee #### headings in all-caps (regels 54, 74) zonder bovenliggend ## niveau (B2-sprong: H1 → #### zonder ##/### tussenniveau)."
-    layer1:
-      status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 2
-      max_section_chars: 4440
-      file_size_chars: 7309
-      flags: []
-    layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:09:17Z'
-      rationale: "A2/B7: regels 48–49 bevatten een genummerde lijst '1. Definitie... / 2. Bepaling...' direct na de H1-titel — dit is een TOC-fragment dat mee-geëxtraheerd is en nu als body-tekst staat i.p.v. te worden weggelaten (de inhoud wordt daarna als #### headings herhaald). B4: twee #### headings in all-caps (regels 54, 74) zonder bovenliggend ## niveau (B2-sprong: H1 → #### zonder ##/### tussenniveau)."
-      concrete_problemen:
-        - regel: 48
-          categorie: A2
-          type: dotted-leader
-          voorbeeld: 1. Definitie treasury vennootschappen of financieringsvennootschappen (TOC-residu als body-tekst)
-        - regel: 49
-          categorie: A2
-          type: dotted-leader
-          voorbeeld: 2. Bepaling van de functionele valuta bij financieringsvennootschappen (TOC-residu)
-        - regel: 54
-          categorie: B4
-          type: other
-          voorbeeld: '#### Definitie treasury vennootschappen of financieringsvennootschappen (#### zonder ## bovenliggend)'
-        - regel: 74
-          categorie: B4
-          type: other
-          voorbeeld: '#### Bepaling van de functionele valuta bij financieringsvennootschappen (#### zonder ##)'
-        - regel: 54
-          categorie: B2
-          type: other
-          voorbeeld: 'H1 → #### zonder ## of ### tussenniveau (hiërarchiesprong)'
 ---
 
 # CBN-advies 2009/10 - Bepaling van de functionele valuta bij financieringsvennootschappen
@@ -107,7 +107,7 @@ Zo zal de Belgische financieringsvennootschap als functionele valuta deze van de
 
 In dat geval als functionele valuta de euro gebruiken, zou een vertekend beeld geven van de economische werkelijkheid. Tevens worden dergelijke Belgische financieringsvennootschappen vaak aangestuurd binnen het kader van het groepsbestuur.
 
-In de keuze van de functionele valuta zal in deze de derde primaire voorwaarde uit advies 117/3 een belangrijke beslissingsfactor uitmaken. De valuta waarin middelen uit (inzonderheid intragroeps‐) financieringsactiviteiten (dat wil zeggen bij uitgifte van schuldbewijzen en eigen‐vermogensinstrumenten) worden gegenereerd, is in deze context vaak een bepalende factor om uit te maken welke valuta gehanteerd dient te worden.
+In de keuze van de functionele valuta zal in deze de derde primaire voorwaarde uit advies 117/3 een belangrijke beslissingsfactor uitmaken. De valuta waarin middelen uit (inzonderheid intragroeps-) financieringsactiviteiten (dat wil zeggen bij uitgifte van schuldbewijzen en eigen-vermogensinstrumenten) worden gegenereerd, is in deze context vaak een bepalende factor om uit te maken welke valuta gehanteerd dient te worden.
 
 Daarbij moet het geheel en dus de samenhang van de ingenomen posities bekeken worden. 
 

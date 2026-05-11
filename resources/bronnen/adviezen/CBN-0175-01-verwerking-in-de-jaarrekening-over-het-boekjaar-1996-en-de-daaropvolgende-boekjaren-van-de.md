@@ -1,6 +1,52 @@
 ---
-nummer: CBN-advies 175/1
+bron: https://www.cbn-cnc.be/nl/adviezen/verwerking-in-de-jaarrekening-over-het-boekjaar-1996-en-de-daaropvolgende-boekjaren-van-de
 datum: 1998-03-01
+gerelateerde_adviezen:
+  - datum: '2018-05-09'
+    titel: 'Vereniging van aandelen in handen van één enkele rechtspersoon: vermeldingen in de toelichting'
+    url: https://www.cbn-cnc.be/nl/adviezen/vereniging-van-aandelen-in-handen-van-een-enkele-rechtspersoon-vermeldingen-in-de
+  - datum: '2017-09-13'
+    titel: 'Onbeperkt aansprakelijke vennoot: vermeldingen in de jaarrekening'
+    url: https://www.cbn-cnc.be/nl/adviezen/onbeperkt-aansprakelijke-vennoot-vermeldingen-in-de-jaarrekening
+  - datum: '2017-05-31'
+    titel: Opname van financiële vaste activa geboekt tegen een hoger bedrag dan hun reële waarde in de toelichting van de jaarrekening
+    url: https://www.cbn-cnc.be/nl/adviezen/opname-van-financiele-vaste-activa-geboekt-tegen-een-hoger-bedrag-dan-hun-reele-waarde-in
+  - datum: '2011-05-04'
+    titel: 'Afwijking inzake functionele valuta: praktische implicaties en procedure'
+    url: https://www.cbn-cnc.be/nl/adviezen/afwijking-inzake-functionele-valuta-praktische-implicaties-en-procedure
+nummer: CBN-advies 175/1
+provenance:
+  generated_at: '2026-05-11T13:05:06Z'
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/verwerking-in-de-jaarrekening-over-het-boekjaar-1996-en-de-daaropvolgende-boekjaren-van-de
+      sha256: ac39eb27c4481b2805ab1d3e8ee1db6cc109c61d1e30539a1c11d288f497f387
+      version:
+  stale: false
+  stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
+  trust:
+    confirmed_at:
+    confirmed_by:
+    layer1:
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:26Z'
+      heading_count: 7
+      max_section_chars: 9239
+      file_size_chars: 18054
+      flags: []
+    layer2:
+      agent:
+      concrete_problemen: []
+      rationale:
+      run_at:
+      status: not_run
+    rationale: 'Trust gereset 2026-05-11: re-scrape met scraper-fixes, content-diff > 5%'
+    status: unreviewed
 themas:
   - toelichting
   - voorziening
@@ -9,52 +55,6 @@ themas:
   - minnelijk akkoord
   - steunmaatregel van de lidstaten
   - lastenverlaging
-bron: https://www.cbn-cnc.be/nl/adviezen/verwerking-in-de-jaarrekening-over-het-boekjaar-1996-en-de-daaropvolgende-boekjaren-van-de
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/verwerking-in-de-jaarrekening-over-het-boekjaar-1996-en-de-daaropvolgende-boekjaren-van-de
-      sha256: ac39eb27c4481b2805ab1d3e8ee1db6cc109c61d1e30539a1c11d288f497f387
-      version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:35:43Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: trusted
-    confirmed_at: '2026-05-11T12:09:17Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "Laag-1 pass, geen flags. Inhoud volledig: 7 secties herkenbaar als ## headings, voetnoten [^1]–[^6] correct gedefinieerd en gesloten, opsomming via '-'-bullets consistent, geen PDF-artefacten, geen scrambled tekst, geen lege regels-clusters. Kopregel en staart compleet."
-    layer1:
-      status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 7
-      max_section_chars: 9249
-      file_size_chars: 18070
-      flags: []
-    layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:09:17Z'
-      rationale: "Laag-1 pass, geen flags. Inhoud volledig: 7 secties herkenbaar als ## headings, voetnoten [^1]–[^6] correct gedefinieerd en gesloten, opsomming via '-'-bullets consistent, geen PDF-artefacten, geen scrambled tekst, geen lege regels-clusters. Kopregel en staart compleet."
-      concrete_problemen: []
-gerelateerde_adviezen:
-  - titel: 'Vereniging van aandelen in handen van één enkele rechtspersoon: vermeldingen in de toelichting'
-    url: https://www.cbn-cnc.be/nl/adviezen/vereniging-van-aandelen-in-handen-van-een-enkele-rechtspersoon-vermeldingen-in-de
-    datum: '2018-05-09'
-  - titel: 'Onbeperkt aansprakelijke vennoot: vermeldingen in de jaarrekening'
-    url: https://www.cbn-cnc.be/nl/adviezen/onbeperkt-aansprakelijke-vennoot-vermeldingen-in-de-jaarrekening
-    datum: '2017-09-13'
-  - titel: Opname van financiële vaste activa geboekt tegen een hoger bedrag dan hun reële waarde in de toelichting van de jaarrekening
-    url: https://www.cbn-cnc.be/nl/adviezen/opname-van-financiele-vaste-activa-geboekt-tegen-een-hoger-bedrag-dan-hun-reele-waarde-in
-    datum: '2017-05-31'
-  - titel: 'Afwijking inzake functionele valuta: praktische implicaties en procedure'
-    url: https://www.cbn-cnc.be/nl/adviezen/afwijking-inzake-functionele-valuta-praktische-implicaties-en-procedure
-    datum: '2011-05-04'
 ---
 
 # CBN-advies 175/1 - Verwerking in de jaarrekening over het boekjaar 1996 en de daaropvolgende boekjaren, van de «Maribel bis en ter»-steun toegekend voor de boekjaren 1993, 1994, 1995 en 1996
@@ -89,24 +89,19 @@ Het Verdrag wijdt verschillende bepalingen aan steunmaatregelen van Staten.
 
 • In het PBEG van 6 augustus 1996 staat een mededeling van de Commissie «aan de overige Lid-Staten en overige belanghebbenden inzake de «Maribel bis (ter)»-operatie.» 
 
-In die mededeling stelt de Commissie het volgende : 
-
+In die mededeling stelt de Commissie het volgende :
 - 
 
-de Belgische Staat is de voornoemde verplichtingen inzake voorafgaande aanmelding bij de Commissie van de «Maribel bis (ter)-operatie» vooraleer die in werking te stellen, niet nagekomen; 
-
+de Belgische Staat is de voornoemde verplichtingen inzake voorafgaande aanmelding bij de Commissie van de «Maribel bis (ter)-operatie» vooraleer die in werking te stellen, niet nagekomen;
 - 
 
-los van deze aspecten «houdt het uitsluitend toekennen van een verhoogde vermindering van sociale-zekerheidsbijdragen aan bepaalde bedrijfstakken zonder enige twijfel een voordeel in dat moet worden beschouwd als staatssteun die onder de toepassing van artikel 92, lid 1, van het EG-Verdrag valt (...) en kan de Commissie uit de informatie waarover zij beschikt vooralsnog niet afleiden dat deze steunmaatregel in aanmerking zou kunnen komen voor de toepassing van een van de uitzonderingen waarin artikel 92, leden 2 en 3 van het EG-Verdrag voorziet»; 
-
+los van deze aspecten «houdt het uitsluitend toekennen van een verhoogde vermindering van sociale-zekerheidsbijdragen aan bepaalde bedrijfstakken zonder enige twijfel een voordeel in dat moet worden beschouwd als staatssteun die onder de toepassing van artikel 92, lid 1, van het EG-Verdrag valt (...) en kan de Commissie uit de informatie waarover zij beschikt vooralsnog niet afleiden dat deze steunmaatregel in aanmerking zou kunnen komen voor de toepassing van een van de uitzonderingen waarin artikel 92, leden 2 en 3 van het EG-Verdrag voorziet»;
 - 
 
-de Commissie heeft de procedure van artikel 93, lid 2, van het EG-Verdrag ingeleid ten aanzien van de Belgische beslissing waarbij deze «Maribel bis (ter)»-steunmaatregelen worden ingevoerd; in het kader van deze procedure maant de Commissie de Regering aan haar binnen de maand na dagtekening van deze brief haar opmerkingen te doen toekomen; 
-
+de Commissie heeft de procedure van artikel 93, lid 2, van het EG-Verdrag ingeleid ten aanzien van de Belgische beslissing waarbij deze «Maribel bis (ter)»-steunmaatregelen worden ingevoerd; in het kader van deze procedure maant de Commissie de Regering aan haar binnen de maand na dagtekening van deze brief haar opmerkingen te doen toekomen;
 - 
 
-ten slotte maant de Commissie de Lid-Staten en andere belanghebbenden aan, haar hun opmerkingen over de betrokken maatregelen voor 6 september 1996 kenbaar te maken. 
-
+ten slotte maant de Commissie de Lid-Staten en andere belanghebbenden aan, haar hun opmerkingen over de betrokken maatregelen voor 6 september 1996 kenbaar te maken.
 • In haar beschikking van 4 december 1996 kondigt de Europese Commissie aan dat zij, overeenkomstig artikel 93, lid 2, na afloop van de termijn voor de mededeling van de eventuele opmerkingen van belanghebbenden, haar beslissing zal bevestigen waarbij zij de «Maribel bis (ter)»-steunmaatregelen strijdig verklaart met de voorschriften van artikel 92, lid 1 van het Verdrag. «België dient [overigens] passende maatregelen te nemen om de verhoogde vermindering van de sociale bijdragen (...) ongedaan te maken en dient de illegaal verleende steun bij de ontvangende ondernemingen terug te vorderen (...)»[^1]. Dit is het soort beslissing waarvan sprake in artikel 189 van het Verdrag en is dus «verbindend in al haar onderdelen voor degenen toe wie zij uitdrukkelijk is gericht», met andere woorden, de instellingen van de Belgische Staat. 
 
 ## Beknopt overzicht van de beslissingen van de Belgische federale Regering naar aanleiding van de voornoemde beslissing van de Europese Commissie
@@ -129,14 +124,11 @@ Die mogelijkheden kunnen als volgt worden geschetst.
 
 - De Regering kon beslissen niets te wijzigen aan de door de beslissing van de Europese Commissie gewraakte «Maribel bis en ter»-steun en ervoor te zorgen dat die nauwgezet wordt uitgevoerd, waarbij zij ondermeer de uitgekeerde toelage van de betrokken ondernemingen zou terugvorderen. In die hypothese zouden de begunstigde ondernemingen een voorziening moeten vormen voor het totaal bedrag van de verleende toelage in het kader van de «Maribel bis en ter»-steun (de basistegemoetkomingen in de Maribelregeling voor alle sectoren worden immers niet aangevochten in de beslissing van de Europese Commissie)[^5]. 
 
-De reden waarom een voorziening moet worden gevormd en geen schuld geboekt, is dat in een aantal vroegere beslissingen van de Commissie over reeds verleende staatshulp, de terugvordering slechts ten dele is gebeurd. 
-
-De vorming van een voorziening zou in casu trouwens stroken met de voorwaarden van de Belgische boekhoudregeling zijn vervuld (het gaat om een risico waarvan de aard is gekend; de handeling op grond waarvan de verplichting ontstaat tot teruggave van een bedrag dat onzeker is bij het afsluiten van het boekjaar, is gesteld in de loop van het boekjaar 1996). 
-
+De reden waarom een voorziening moet worden gevormd en geen schuld geboekt, is dat in een aantal vroegere beslissingen van de Commissie over reeds verleende staatshulp, de terugvordering slechts ten dele is gebeurd.
+De vorming van een voorziening zou in casu trouwens stroken met de voorwaarden van de Belgische boekhoudregeling zijn vervuld (het gaat om een risico waarvan de aard is gekend; de handeling op grond waarvan de verplichting ontstaat tot teruggave van een bedrag dat onzeker is bij het afsluiten van het boekjaar, is gesteld in de loop van het boekjaar 1996).
 - De tweede hypothese is die van de Belgische Regering in haar beslissing, namelijk dat «die eventuele terugvordering voor het verleden nooit de vorm zal (zou) aannemen van een werkelijke terugvordering bij de ondernemingen die Maribel bis en ter genoten in het verleden (...) en dat indien blijkt dat de terugvordering juridisch onvermijdelijk is, de Regering een compromis zal (zou) nastreven met de Commissie opdat de ondernemingen die in het verleden (1993 tot 1996) de Maribel bis en ter vermindering niet genoten, een compensatie zouden krijgen». 
 
-Met andere woorden, hierdoor zou een extra verlaging van de werkgeversbijdragen (voor handarbeiders) retroactief worden uitgebreid tot andere sectoren dan de sectoren van ondernemingen die hun hoofdactiviteiten uitoefenen in één van de sectoren die het meest zijn blootgesteld aan de internationale concurrentie. Dit zou dan ook neerkomen op een herschikking van de «Maribel bis en ter»-steun van in het conceptiestadium. 
-
+Met andere woorden, hierdoor zou een extra verlaging van de werkgeversbijdragen (voor handarbeiders) retroactief worden uitgebreid tot andere sectoren dan de sectoren van ondernemingen die hun hoofdactiviteiten uitoefenen in één van de sectoren die het meest zijn blootgesteld aan de internationale concurrentie. Dit zou dan ook neerkomen op een herschikking van de «Maribel bis en ter»-steun van in het conceptiestadium.
 Aangezien blijkt uit de Regeringsbeslissing dat er van de ondernemingen die in het verleden «Maribel bis en ter»-steun ontvingen, hoe dan ook niets zal worden teruggevorderd, is er boekhoudrechtelijk gezien geen reden om voorzieningen te vormen voor de kost verbonden aan een dergelijke terugbetaling, a fortiori een schuld te boeken voor het overeenstemmende bedrag. 
 
 Niettemin is op basis van de tekst zelf van de regeringsbeslissing gewezen op een mogelijk risico dat de Belgische Staat tot geen compromis zou kunnen komen met de Europese Commissie waarbij in de toekomst aan de andere ondernemingen een compensatie zou worden verleend. De Belgische Staat zou zich dan ook juridisch kunnen verplicht zien, tegen de wil in van de Regering, de betrokken bedragen toch te moeten terugvorderen; op grond van het voorzichtigheidsbeginsel zou ten aanzien van dit risico de vorming van een voorziening verantwoord zijn[^6]. 

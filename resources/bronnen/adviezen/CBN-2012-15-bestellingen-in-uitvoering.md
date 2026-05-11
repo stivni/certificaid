@@ -1,6 +1,62 @@
 ---
-nummer: CBN-advies 2012/15
+bron: https://www.cbn-cnc.be/nl/adviezen/bestellingen-in-uitvoering
 datum: 2012-10-10
+gerelateerde_adviezen:
+  - datum: '2019-04-12'
+    titel: Gevolgen op gebied van financiële rapportering als gevolg van de brexit
+    url: https://www.cbn-cnc.be/nl/adviezen/gevolgen-op-gebied-van-financiele-rapportering-als-gevolg-van-de-brexit-0
+  - datum: '2016-09-07'
+    titel: 'Bestellingen in uitvoering: wijzigingen door het koninklijk besluit van 18 december 2015'
+    url: https://www.cbn-cnc.be/nl/adviezen/bestellingen-in-uitvoering-wijzigingen-door-het-koninklijk-besluit-van-18-december-2015
+  - datum: '2015-09-30'
+    titel: Boekhoudkundige verwerking van de aankoop van een onroerend goed bestemd voor verkoop
+    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-aankoop-van-een-onroerend-goed-bestemd-voor-verkoop
+  - datum: '2011-07-20'
+    titel: Boekhoudkundige verwerking van “onderzoeksfondsen” in de jaarrekening van grote en zeer grote verenigingen en stichtingen
+    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-onderzoeksfondsen-in-de-jaarrekening-van-grote-en-zeer
+nummer: CBN-advies 2012/15
+provenance:
+  generated_at: '2026-05-11T13:05:08Z'
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/bestellingen-in-uitvoering
+      sha256: e7c8732010a53e5a333cad2c30c9046775d75d9eb76bbb45f901921a4a6d05b3
+      version:
+  stale: false
+  stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
+  trust:
+    confirmed_at: '2026-05-11T12:09:18Z'
+    confirmed_by: subagent-sonnet-4-6
+    layer1:
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:28Z'
+      heading_count: 28
+      max_section_chars: 7063
+      file_size_chars: 41075
+      flags: []
+    layer2:
+      agent: subagent-sonnet-4-6
+      concrete_problemen:
+        - categorie: E2
+          regel: 143
+          type: pseudo-table
+          voorbeeld: "| | | *Percentage of completion methode* | | *Completed contract methode* | \n| Zekerheid van het erkende resultaat | | \n\nDe geanticipeerde winst..."
+        - categorie: E2
+          regel: 464
+          type: other
+          voorbeeld: '| | 370 | Bestellingen in uitvoering – Aanschaffingswaarde | 40.000 | |
+
+            | | 7170 | Wijzigingen... | 40.000 | |'
+      rationale: 'E2/C3: regels 143-161 bevatten een vergelijkingstabel (percentage of completion vs completed contract) met multiline celinhoud die niet correct in markdown-pipe-syntax past — cellen lopen over meerdere regels met lege regels ertussen. Regel 464: boeking heeft beide regels als debet zonder ''aan''-prefix voor de credit-zijde. Inhoud overigens uitzonderlijk volledig.'
+      run_at: '2026-05-11T12:09:18Z'
+      status: needs-rework
+    rationale: 'E2/C3: regels 143-161 bevatten een vergelijkingstabel (percentage of completion vs completed contract) met multiline celinhoud die niet correct in markdown-pipe-syntax past — cellen lopen over meerdere regels met lege regels ertussen. Regel 464: boeking heeft beide regels als debet zonder ''aan''-prefix voor de credit-zijde. Inhoud overigens uitzonderlijk volledig.'
+    status: needs-rework
 themas:
   - bestellingen in uitvoering
   - completed contract method
@@ -8,60 +64,6 @@ themas:
   - percentage of completion method
   - vervaardigingsprijs
   - voorziening
-bron: https://www.cbn-cnc.be/nl/adviezen/bestellingen-in-uitvoering
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/bestellingen-in-uitvoering
-      sha256: e7c8732010a53e5a333cad2c30c9046775d75d9eb76bbb45f901921a4a6d05b3
-      version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:36:30Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T12:09:18Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "E2/C3: regels 143-161 bevatten een vergelijkingstabel (percentage of completion vs completed contract) met multiline celinhoud die niet correct in markdown-pipe-syntax past — cellen lopen over meerdere regels met lege regels ertussen. Regel 464: boeking heeft beide regels als debet zonder 'aan'-prefix voor de credit-zijde. Inhoud overigens uitzonderlijk volledig."
-    layer1:
-      status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 18
-      max_section_chars: 7063
-      file_size_chars: 41037
-      flags: []
-    layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:09:18Z'
-      rationale: "E2/C3: regels 143-161 bevatten een vergelijkingstabel (percentage of completion vs completed contract) met multiline celinhoud die niet correct in markdown-pipe-syntax past — cellen lopen over meerdere regels met lege regels ertussen. Regel 464: boeking heeft beide regels als debet zonder 'aan'-prefix voor de credit-zijde. Inhoud overigens uitzonderlijk volledig."
-      concrete_problemen:
-        - regel: 143
-          categorie: E2
-          type: pseudo-table
-          voorbeeld: "| | | *Percentage of completion methode* | | *Completed contract methode* | \n| Zekerheid van het erkende resultaat | | \n\nDe geanticipeerde winst..."
-        - regel: 464
-          categorie: E2
-          type: other
-          voorbeeld: "| | 370 | Bestellingen in uitvoering – Aanschaffingswaarde | 40.000 | |\n| | 7170 | Wijzigingen... | 40.000 | |"
-gerelateerde_adviezen:
-  - titel: Gevolgen op gebied van financiële rapportering als gevolg van de brexit
-    url: https://www.cbn-cnc.be/nl/adviezen/gevolgen-op-gebied-van-financiele-rapportering-als-gevolg-van-de-brexit-0
-    datum: '2019-04-12'
-  - titel: 'Bestellingen in uitvoering: wijzigingen door het koninklijk besluit van 18 december 2015'
-    url: https://www.cbn-cnc.be/nl/adviezen/bestellingen-in-uitvoering-wijzigingen-door-het-koninklijk-besluit-van-18-december-2015
-    datum: '2016-09-07'
-  - titel: Boekhoudkundige verwerking van de aankoop van een onroerend goed bestemd voor verkoop
-    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-aankoop-van-een-onroerend-goed-bestemd-voor-verkoop
-    datum: '2015-09-30'
-  - titel: Boekhoudkundige verwerking van “onderzoeksfondsen” in de jaarrekening van grote en zeer grote verenigingen en stichtingen
-    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-onderzoeksfondsen-in-de-jaarrekening-van-grote-en-zeer
-    datum: '2011-07-20'
 ---
 
 # CBN-advies 2012/15 – Bestellingen in uitvoering
@@ -76,8 +78,7 @@ Dit heeft tot gevolg dat bestellingen in uitvoering, met uitzondering van “cos
 
 Volgens het jaarrekeningbesluit wordt onder deze rubriek opgenomen[^1]: 
 
-a) het onderhanden werk dat voor rekening van een derde op bestelling wordt uitgevoerd en waarvoor nog geen oplevering heeft plaatsgevonden. Voorbeelden hiervan zijn bouwprojecten, aangenomen loonwerk, enz.; 
-
+a) het onderhanden werk dat voor rekening van een derde op bestelling wordt uitgevoerd en waarvoor nog geen oplevering heeft plaatsgevonden. Voorbeelden hiervan zijn bouwprojecten, aangenomen loonwerk, enz.;
 b) de goederen in bewerking die voor rekening van een derde op bestelling worden gemaakt en die nog niet werden geleverd. Deze goederen moeten afwijken van de gewone productie, m.a.w. geen seriewerk. Voorbeelden hiervan zijn betongevelelementen, treinstellen, enz.; 
 
 c) dienstenprestaties die voor rekening van derden op bestelling worden uitgevoerd en die nog niet werden geleverd, tenzij het gaat om een standaardtype van dienstprestaties. Voorbeelden hiervan zijn specifieke researchprojecten, op maat geschreven software, enz.
@@ -138,9 +139,9 @@ Een onderneming kan er tevens voor opteren om naast “full costing” de zogena
 
 In de vervaardigingprijs van bestellingen in uitvoering mag de rente op vreemd vermogen dat wordt gebruikt voor de financiering ervan worden opgenomen, voor zover de productie of uitvoering meer dan één jaar bestrijkt. De opname van de rente op vreemd vermogen in de vervaardigingsprijs van de bestellingen in uitvoering moet bij de waarderingsregels in de toelichting worden vermeld.
 
-Tevens stelt de Commissie in haar advies 126/5 *Vervaardigingsprijs[^5] * dat de financiële kosten verbonden aan leningen die werden aangegaan voor de financiering van bestellingen in uitvoering waarvan de productie meer dan één jaar bestrijkt, mogen worden opgenomen in de vervaardigingprijs van de betrokken activa, ongeacht de looptijd van de betrokken lening. Doorslaggevend is de band tussen de financiële kosten van de ontleende kapitalen en de te financieren activa.
+Tevens stelt de Commissie in haar advies 126/5 *Vervaardigingsprijs[^5]*  dat de financiële kosten verbonden aan leningen die werden aangegaan voor de financiering van bestellingen in uitvoering waarvan de productie meer dan één jaar bestrijkt, mogen worden opgenomen in de vervaardigingprijs van de betrokken activa, ongeacht de looptijd van de betrokken lening. Doorslaggevend is de band tussen de financiële kosten van de ontleende kapitalen en de te financieren activa.
 
-Indien een onderneming voorschotten ontvangt op bestellingen en deze voorlopig belegt, dan mag de renteopbrengst van deze voorlopige beleggingen niet worden toegerekend aan de vervaardigingprijs van de betreffende bestellingen. De Commissie laat hierop weliswaar een uitzondering toe in haar advies 126/3 *Vervaardigingsprijs: toerekening van creditrente[^6] * in het geval waarin de onderneming bij bepaling van de prijsofferte effectief heeft rekening gehouden met deze opbrengst. 
+Indien een onderneming voorschotten ontvangt op bestellingen en deze voorlopig belegt, dan mag de renteopbrengst van deze voorlopige beleggingen niet worden toegerekend aan de vervaardigingprijs van de betreffende bestellingen. De Commissie laat hierop weliswaar een uitzondering toe in haar advies 126/3 *Vervaardigingsprijs: toerekening van creditrente[^6]*  in het geval waarin de onderneming bij bepaling van de prijsofferte effectief heeft rekening gehouden met deze opbrengst. 
 
 ### Bespreking van de “percentage of completion” en “completed contract” methode
 
@@ -245,13 +246,13 @@ De NV ABC sluit een overeenkomst af met de NV XYZ voor de bouw van enkele treins
 | | | ** Jaar N** | | **Jaar N+1** | | **Jaar N+2** | 
 | **Cumulatieve kosten (A)** | | 3.000.000 | | 4.200.000 | | 5.400.000 | 
 | **Geraamde cumulatieve kosten bij voltooiing (B)** | | 4.500.000 | | 5.200.000 | | 5.400.000 | 
-| **Voortschrijdingsgraad (A/B) ** | | 66,67 % | | 81 % | | 100 % | 
+| **Voortschrijdingsgraad (A/B)**  | | 66,67 % | | 81 % | | 100 % | 
 | **Winst (B-A)** | | 3.500.000 | | 2.800.000 | | 2.600.000 | 
 | **Toe te rekenen winst** | | 2.333.333 | | 2.261.538 | | 2.600.000 | 
 | **Toerekening** | | 2.333.333 | | | | 338.462 | 
 | **Terugname** | | | | 71.795 | | | 
 
-*Boekhoudkundige verwerking per 31 december N*
+### *Boekhoudkundige verwerking per 31 december N*
 
 Tijdens het boekjaar werden de kosten (voor een bedrag van 3.000.000 EUR) ten laste van de resultatenrekening gelegd via de respectievelijke 60-, 61-, 62-, 63- of 64-rekeningen.
 
@@ -269,7 +270,7 @@ Indien de onderneming ABC ervoor opteert om de “percentage of completion” me
 | | 371 | Bestellingen in uitvoering – Toegerekende winst | 2.333.333 | |
 | aan | 7171 | Wijzigingen in de bestellingen in uitvoering – Toegerekende winst | | 2.333.333 |
 
-*Boekhoudkundige verwerking per 31 december N+1*
+### *Boekhoudkundige verwerking per 31 december N+1*
 
 Tijdens het boekjaar werden de kosten (voor een bedrag van 1.200.000 EUR) ten laste van de resultatenrekening gelegd via de respectievelijke 60-, 61-, 62-, 63- of 64-rekeningen.
 
@@ -289,7 +290,7 @@ Indien de onderneming ABC ervoor opteert om de “percentage of completion” me
 | | 7171 | Wijzigingen in de bestellingen in uitvoering – Toegerekende winst | 71.795 | |
 | aan | 371 | Bestellingen in uitvoering – Toegerekende winst | | 71.795 |
 
-* Boekhoudkundige verwerking per 31 december N+2*
+### * Boekhoudkundige verwerking per 31 december N+2*
 
 Tijdens het boekjaar werden de kosten (voor een bedrag van 1.200.000 EUR) ten laste van de resultatenrekening gelegd via de respectievelijke 60-, 61-, 62-, 63- of 64-rekeningen.
 
@@ -336,7 +337,7 @@ Een onderneming kent op balansdatum de volgende situatie met betrekking tot een 
 | | Contractuele prijs | 100.000 EUR | | |
 | | Verlies | 30.000 EUR | | |
 
-*Boekhoudkundige verwerking per 31 december N*
+### *Boekhoudkundige verwerking per 31 december N*
 
 Tijdens het boekjaar werden de kosten (voor een bedrag van 90.000 EUR) ten laste van de resultatenrekening gelegd via de respectievelijke 60-, 61-, 62-, 63- of 64-rekeningen.
 
@@ -356,7 +357,7 @@ Daar de contractuele prijs 100.000 EUR bedraagt ten opzichte van een cumulatieve
 
 Voorgaande boeking zou zowel bij toepassing van de “percentage of completion” methode als bij toepassing van de “completed contract” methode moeten worden doorgevoerd. 
 
-*Boekhoudkundige verwerking per 31 december N+ 1*
+### *Boekhoudkundige verwerking per 31 december N+ 1*
 
 Tijdens het boekjaar werden de kosten (voor een bedrag van 40.000 EUR) ten laste van de resultatenrekening gelegd via de respectievelijke 60-, 61-, 62-, 63- of 64-rekeningen.
 
@@ -398,7 +399,7 @@ Een onderneming ontvangt van een klant in het jaar N een bestelling om een machi
 
 De onderneming past de “completed contract” methode toe. De cumulatieve kost voor de constructie van de machine bedraagt in het jaar N 80.000 EUR en in het jaar N+1 100.000 EUR. De onderneming zal bij oplevering derhalve een winst van 120.000 EUR realiseren (300.000 EUR – 180.000 EUR).
 
-*Boekhoudkundige verwerking per 31 december N*
+### *Boekhoudkundige verwerking per 31 december N*
 
 Het ontvangen voorschot wordt als volgt geboekt:
 
@@ -417,7 +418,7 @@ Bij de toepassing van de “completed contract” methode worden deze kosten als
 | | 370 | Bestellingen in uitvoering – Aanschaffingswaarde | 80.000 | |
 | aan | 7170 | Wijzigingen in de bestellingen in uitvoering – Aanschaffingswaarde | | 80.000 |
 
-*Boekhoudkundige verwerking per 31 december N+*1
+### *Boekhoudkundige verwerking per 31 december N+*1
 
 De slotfactuur wordt als volgt boekhoudkundig verwerkt:
 
@@ -489,13 +490,13 @@ De NV GYZ heeft een contract afgesloten met BVBA TTT voor een bouwproject op een
 
 Gezien de aard van de activiteiten kan de voortschrijdingsgraad niet betrouwbaar worden ingeschat daar de NV GYZ geen historiek heeft voor dergelijke bouwprojecten. Derhalve zal er, door toepassing van de zero profit margin techniek in het jaar N en N+1 geen winst worden toegerekend daar de cumulatieve kost bij voltooiing onbekend is op dat ogenblik. 
 
-| | | **Jaar N ** | | **Jaar N+1 ** | | **Jaar N+2** | | **Jaar n+3** | 
+| | | **Jaar N**  | | **Jaar N+1**  | | **Jaar N+2** | | **Jaar n+3** | 
 | **Cumulatieve kosten (A)** | | 3.000.000 | | 4.200.000 | | 8.000.000 | | 10.000.000 | 
 | **Cumulatieve kosten bij voltooiing (B)** | | Onbekend | | Onbekend | | 10.000.000 | | 10.000.000 | 
 | **Voortschrijdingsgraad** | | Onbekend | | Onbekend | | 80 % | | 100 % | 
 | **Winst** | | Minimum 400.000 | | Minimum 400.000 | | 2.000.000 | | 2.000.000 | 
 | **Toe te rekenen winst** | | Onbekend | | Onbekend | | 1.600.000 | | 2.000.000 | 
-| **Toerekening ** | | | | | | 1.600.000 | | 400.000 | 
+| **Toerekening**  | | | | | | 1.600.000 | | 400.000 | 
 | **Terugname** | | | | | | | | | 
 
  Boekhoudkundige verwerking per 31 december N
@@ -507,7 +508,7 @@ Tijdens het boekjaar werden de kosten (voor een bedrag van 3.000.000 EUR) ten la
 | | 370 | Bestellingen in uitvoering – Aanschaffingswaarde | 3.000.000 | |
 | aan | 7170 | Wijzigingen in de bestellingen in uitvoering – Aanschaffingswaarde | | 3.000.000 |
 
-*Boekhoudkundige verwerking per 31 december N+1*
+### *Boekhoudkundige verwerking per 31 december N+1*
 
 Tijdens het boekjaar werden de kosten (voor een bedrag van 1.200.000 EUR) ten laste van de resultatenrekening gelegd via de respectievelijke 60-, 61-, 62-, 63- of 64-rekeningen. Per 31 december N+1 wordt geen marge met betrekking tot dit contract erkend.
 
@@ -516,7 +517,7 @@ Tijdens het boekjaar werden de kosten (voor een bedrag van 1.200.000 EUR) ten la
 | | 370 | Bestellingen in uitvoering – Aanschaffingswaarde | 1.200.000 | |
 | aan | 7170 | Wijzigingen in de bestellingen in uitvoering – Aanschaffingswaarde | | 1.200.000 |
 
-*Boekhoudkundige verwerking per 31 december N+2*
+### *Boekhoudkundige verwerking per 31 december N+2*
 
 Tijdens het boekjaar werden de kosten (voor een bedrag van 3.800.000 EUR) ten laste van de resultatenrekening gelegd via de respectievelijke 60-, 61-, 62-, 63- of 64-rekeningen.
 
@@ -532,7 +533,7 @@ Tijdens het boekjaar werden de kosten (voor een bedrag van 3.800.000 EUR) ten la
 | | 371 | Bestellingen in uitvoering – Toegerekende winst | 1.600.000 | |
 | aan | 7171 | Wijzigingen in de bestellingen in uitvoering – Toegerekende winst | | 1.600.000 |
 
-*Boekhoudkundige verwerking per 31 december N+3*
+### *Boekhoudkundige verwerking per 31 december N+3*
 
 Voor de boekhoudkundige verwerking in het jaar N+3 kan verwezen worden naar het voorbeeld opgenomen onder randnummer 26. 
 

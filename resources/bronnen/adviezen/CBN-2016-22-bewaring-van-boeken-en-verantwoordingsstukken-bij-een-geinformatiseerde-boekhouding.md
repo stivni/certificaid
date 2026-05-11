@@ -1,6 +1,63 @@
 ---
-nummer: CBN-advies 2016/22
+bron: https://www.cbn-cnc.be/nl/adviezen/bewaring-van-boeken-en-verantwoordingsstukken-bij-een-geinformatiseerde-boekhouding
 datum: 2016-09-28
+nummer: CBN-advies 2016/22
+provenance:
+  generated_at: '2026-05-11T13:05:08Z'
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/bewaring-van-boeken-en-verantwoordingsstukken-bij-een-geinformatiseerde-boekhouding
+      sha256: 9f3f8a4363d75980f1f743c9e48767f600c6d8c853bc861b06e69958c692677f
+      version:
+  stale: false
+  stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
+  trust:
+    confirmed_at: '2026-05-11T12:16:34Z'
+    confirmed_by: subagent-sonnet-4-6
+    layer1:
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:29Z'
+      heading_count: 14
+      max_section_chars: 12657
+      file_size_chars: 24471
+      flags: []
+    layer2:
+      agent: subagent-sonnet-4-6
+      concrete_problemen:
+        - categorie: B3
+          regel: 56
+          type: other
+          voorbeeld: bij een geïnformatiseerde boekhouding
+        - categorie: D4
+          regel: 117
+          type: other
+          voorbeeld: '*onveranderlijkheid *en de *toegankelijkheid *te waarborgen'
+        - categorie: D4
+          regel: 143
+          type: other
+          voorbeeld: De *onveranderlijkheid *van de boekingen
+        - categorie: D4
+          regel: 149
+          type: other
+          voorbeeld: bewaring* in origineel *en met inachtneming van de *onveranderlijkheid *precies
+        - categorie: D4
+          regel: 151
+          type: other
+          voorbeeld: '*drager *beoogd die de *onveranderlijkheid *en de *toegankelijkheid *'
+        - categorie: D4
+          regel: 171
+          type: other
+          voorbeeld: de *leesbaarheid *en het *origineel karakter ervan*[^17]
+      rationale: 'Systematisch broken italic patroon ''*term *'' (spatie vóór sluitende *) op minstens 6 plaatsen door het document (regels 117, 143, 149, 151, 171 — categorie D4). Bovendien staat regel 56 een duplicaat van de ondertitel (''bij een geïnformatiseerde boekhouding'') als losse alinea direct na de ##-titel — extractie-artefact (B3). De rest van de structuur (14 headings, ####-hiërarchie) is uitstekend.'
+      run_at: '2026-05-11T12:16:34Z'
+      status: needs-rework
+    rationale: 'Systematisch broken italic patroon ''*term *'' (spatie vóór sluitende *) op minstens 6 plaatsen door het document (regels 117, 143, 149, 151, 171 — categorie D4). Bovendien staat regel 56 een duplicaat van de ondertitel (''bij een geïnformatiseerde boekhouding'') als losse alinea direct na de ##-titel — extractie-artefact (B3). De rest van de structuur (14 headings, ####-hiërarchie) is uitstekend.'
+    status: needs-rework
 themas:
   - archivering
   - bewaring
@@ -16,63 +73,6 @@ themas:
   - materiële continuïteit
   - verantwoordingsstukken
   - toegankelijkheid
-bron: https://www.cbn-cnc.be/nl/adviezen/bewaring-van-boeken-en-verantwoordingsstukken-bij-een-geinformatiseerde-boekhouding
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/bewaring-van-boeken-en-verantwoordingsstukken-bij-een-geinformatiseerde-boekhouding
-      sha256: 9f3f8a4363d75980f1f743c9e48767f600c6d8c853bc861b06e69958c692677f
-      version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:37:06Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T12:16:34Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "Systematisch broken italic patroon '*term *' (spatie vóór sluitende *) op minstens 6 plaatsen door het document (regels 117, 143, 149, 151, 171 — categorie D4). Bovendien staat regel 56 een duplicaat van de ondertitel ('bij een geïnformatiseerde boekhouding') als losse alinea direct na de ##-titel — extractie-artefact (B3). De rest van de structuur (14 headings, ####-hiërarchie) is uitstekend."
-    layer1:
-      status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 14
-      max_section_chars: 12657
-      file_size_chars: 24471
-      flags: []
-    layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:16:34Z'
-      rationale: "Systematisch broken italic patroon '*term *' (spatie vóór sluitende *) op minstens 6 plaatsen door het document (regels 117, 143, 149, 151, 171 — categorie D4). Bovendien staat regel 56 een duplicaat van de ondertitel ('bij een geïnformatiseerde boekhouding') als losse alinea direct na de ##-titel — extractie-artefact (B3). De rest van de structuur (14 headings, ####-hiërarchie) is uitstekend."
-      concrete_problemen:
-        - regel: 56
-          categorie: B3
-          type: other
-          voorbeeld: bij een geïnformatiseerde boekhouding
-        - regel: 117
-          categorie: D4
-          type: other
-          voorbeeld: '*onveranderlijkheid *en de *toegankelijkheid *te waarborgen'
-        - regel: 143
-          categorie: D4
-          type: other
-          voorbeeld: De *onveranderlijkheid *van de boekingen
-        - regel: 149
-          categorie: D4
-          type: other
-          voorbeeld: bewaring* in origineel *en met inachtneming van de *onveranderlijkheid *precies
-        - regel: 151
-          categorie: D4
-          type: other
-          voorbeeld: '*drager *beoogd die de *onveranderlijkheid *en de *toegankelijkheid *'
-        - regel: 171
-          categorie: D4
-          type: other
-          voorbeeld: de *leesbaarheid *en het *origineel karakter ervan*[^17]
 ---
 
 # CBN-advies 2016/22 - Bewaring van boeken en verantwoordingsstukken bij een geïnformatiseerde boekhouding
@@ -138,9 +138,9 @@ Elke boekhoudstaat moet immers gedurende de minimale bewaringstermijn kunnen wor
 
 Gelet op de snelle technologische evolutie in dit domein, onderzoekt de Regering momenteel de mogelijkheid om de minimale bewaringstermijn van tien jaar die is bepaald in de wet van 17 juli 1975 te verminderen .”.[^11] 
 
-Uit de lezing van het verslag aan de Koning bij het KB van 25 januari 2005 en uit de *eis tot behoud van de programma's en systemen waarmee deze bestanden kunnen worden gelezen*[^12], blijkt dat de bedoeling van de wetgever voornamelijk erin bestond de *onveranderlijkheid *en de *toegankelijkheid *te waarborgen van de gegevens gedurende de bewaringstermijn die nu is beperkt tot zeven jaar.
+Uit de lezing van het verslag aan de Koning bij het KB van 25 januari 2005 en uit de *eis tot behoud van de programma's en systemen waarmee deze bestanden kunnen worden gelezen*[^12], blijkt dat de bedoeling van de wetgever voornamelijk erin bestond de* onveranderlijkheid *en de* toegankelijkheid *te waarborgen van de gegevens gedurende de bewaringstermijn die nu is beperkt tot zeven jaar.
 
-Uit de samenlezing van deze bepalingen volgt dat het waarborgen van de *onveranderlijkheid *en *toegankelijkheid *van de gegevens tevens moet gepaard gaan met het waarborgen van de *materiële continuïteit, de regelmatigheid en de onveranderlijkheid van de boekingen* die gepaard gaan met het bijhouden van boeken en dagboeken.
+Uit de samenlezing van deze bepalingen volgt dat het waarborgen van de *onveranderlijkheid* en *toegankelijkheid* van de gegevens tevens moet gepaard gaan met het waarborgen van de *materiële continuïteit, de regelmatigheid en de onveranderlijkheid van de boekingen* die gepaard gaan met het bijhouden van boeken en dagboeken.
 
 ### Toepassing op het onderhavige geval
 
@@ -164,21 +164,21 @@ In dit laatste geval dient er niettemin te worden gecontroleerd in hoeverre al d
 
 De verplichting tot materiële continuïteit en regelmatigheid wordt meer bepaald omschreven in artikelen III. 84 en III.85 van het WER waarin onder andere wordt bepaald dat de boekingen doorlopend moeten worden genummerd in de verschillende dagboeken en dat deze doorlopende nummering moet worden gecontroleerd door de boekhoudsoftware.[^14] 
 
-De *onveranderlijkheid *van de boekingen wordt in het boekhoudrecht als volgt omschreven:[^15] 
+De *onveranderlijkheid* van de boekingen wordt in het boekhoudrecht als volgt omschreven:[^15] 
 
 “De boeken worden naar tijdsorde bijgehouden, zonder enig wit vak of enige weglating. In geval van correctie moet het oorspronkelijk geschrevene leesbaar blijven.”.
 
 Het wettelijk voorschrift kan echter niet meteen worden vertaald naar een geïnformatiseerde boekhouding.
 
-Bij een geïnformatiseerde boekhouding stelt zich immers de vraag wat de verplichting tot bewaring* in origineel* en met inachtneming van de *onveranderlijkheid *precies omvat.
+Bij een geïnformatiseerde boekhouding stelt zich immers de vraag wat de verplichting tot bewaring* in origineel* en met inachtneming van de *onveranderlijkheid* precies omvat.
 
-In artikel 9, tweede lid van het voormelde KB van 12 september 1983 wordt de voor het bewaren van de boeken en dagboeken gebruikte *drager *beoogd die de *onveranderlijkheid *en de *toegankelijkheid *van de gegevens die erin geregistreerd zijn, moet verzekeren gedurende de volledige opgelegde bewaringstermijn zoals bedoeld in artikel 9, eerste lid van hetzelfde KB.
+In artikel 9, tweede lid van het voormelde KB van 12 september 1983 wordt de voor het bewaren van de boeken en dagboeken gebruikte *drager* beoogd die de *onveranderlijkheid* en de *toegankelijkheid* van de gegevens die erin geregistreerd zijn, moet verzekeren gedurende de volledige opgelegde bewaringstermijn zoals bedoeld in artikel 9, eerste lid van hetzelfde KB.
 
 Bij een geïnformatiseerde boekhouding houdt de onveranderlijkheid in de praktijk in dat het niet meer mogelijk mag zijn om boekingen te wijzigen, te schrappen of toe te voegen.
 
 Eerst en vooral moeten de principes per definitie worden nageleefd bij het gebruik van een geïnformatiseerde boekhouding voordat ze kunnen worden nageleefd bij de update of overdracht van de gegevens naar een nieuwe boekhoudtoepassing ingeval van wijziging van de toepassing.
 
-Wat betreft meer bepaald het *bestandsformaat *voor de bewaring, stelt zich de vraag of de informaticabestanden verplicht moeten worden bewaard in hun originele versie of voldoen ook geüpgradede bestanden in een nieuwe versie van het originele programma of zelfs bestanden die zijn geïmporteerd in een andere informaticatoepassing (software, ERP-systeem, cloud accounting, enz.)?
+Wat betreft meer bepaald het *bestandsformaat* voor de bewaring, stelt zich de vraag of de informaticabestanden verplicht moeten worden bewaard in hun originele versie of voldoen ook geüpgradede bestanden in een nieuwe versie van het originele programma of zelfs bestanden die zijn geïmporteerd in een andere informaticatoepassing (software, ERP-systeem, cloud accounting, enz.)?
 
 In de praktijk komen vaak situaties voor die aanleiding geven tot dergelijke omzettingen.
 
@@ -192,7 +192,7 @@ De onveranderlijkheid van de gegevens die zijn geregistreerd in de informaticato
 
 ##### Behoud van de initiële, eventueel geüpdatete informaticatoepassing
 
-In plaats van de bewaring van een identieke versie van de informaticatoepassing en van de originele boeken van deze toepassing te verplichten, moet men zich ervan verzekeren dat de informaticatoepassing een *specifieke archivering* mogelijk maakt die de toegang tot de gearchiveerde gegevens, de *leesbaarheid *en het *origineel karakter ervan*[^17] op duurzame wijze garandeert en zelfs waarborgt dat de gearchiveerde gegevens kunnen worden gerecupereerd aan de hand van latere versies van de informaticatoepassing om de staten te kunnen opleveren die naar aanleiding van een controle worden opgevraagd.[^18] 
+In plaats van de bewaring van een identieke versie van de informaticatoepassing en van de originele boeken van deze toepassing te verplichten, moet men zich ervan verzekeren dat de informaticatoepassing een *specifieke archivering* mogelijk maakt die de toegang tot de gearchiveerde gegevens, de *leesbaarheid* en het *origineel karakter ervan*[^17] op duurzame wijze garandeert en zelfs waarborgt dat de gearchiveerde gegevens kunnen worden gerecupereerd aan de hand van latere versies van de informaticatoepassing om de staten te kunnen opleveren die naar aanleiding van een controle worden opgevraagd.[^18] 
 
 ##### Wijziging van de informaticatoepassing: archivering en overdracht van gegevens
 
@@ -206,7 +206,7 @@ De Commissie herhaalt dat, in ieder geval, het nemen van een volledige back-up v
 
 De naleving van deze verschillende vereisten betreffende de raadpleging, de bewaring en de integriteit van de boekhoudgegevens kan in voorkomend geval worden nagegaan voor de gecontroleerde vennootschappen door de benoemde commissaris of, bij ontstentenis, een individuele vennoot die overeenkomstig artikel 166 van het Wetboek van vennootschappen wordt bijgestaan of vertegenwoordigd door een accountant.[^19] 
 
-In het algemeen kan aan de beroepsbeoefenaar, die binnen een onderneming met een boekhoudkundige opdracht is belast en die het gepaste karakter van de gebruikte boekhoudsystemen moet onderzoeken en aanbevelingen moet formuleren om desgevallend noodzakelijke aanpassingen door te voeren[^20], ook worden gevraagd om de overeenstemming te controleren van de bijgewerkte of overgedragen bestanden met de originele bestanden.  
+In het algemeen kan aan de beroepsbeoefenaar, die binnen een onderneming met een boekhoudkundige opdracht is belast en die het gepaste karakter van de gebruikte boekhoudsystemen moet onderzoeken en aanbevelingen moet formuleren om desgevallend noodzakelijke aanpassingen door te voeren[^20], ook worden gevraagd om de overeenstemming te controleren van de bijgewerkte of overgedragen bestanden met de originele bestanden. 
 
 Kortom, het behoud van de informaticabestanden in een strikt identieke versie gedurende de wettelijke bewaringstermijn van zeven jaar is niet vereist van zodra de onveranderlijkheid en de leesbaarheid van de boeken en de gegevens die ze bevatten, is gegarandeerd.
 
@@ -220,7 +220,8 @@ Hierna worden niettemin, louter bij wijze van voorbeeld, een aantal bijzondere a
 
 ##### Fiscale draagwijdte van de verplichting tot bewaring inzake fiscaliteit
 
-In de fiscale wetgeving kan de verplichting tot bewaring een ruimere draagwijdte hebben dan in boekhoudkundige wetgeving.[^21] Bovendien kan een onderneming een specifiek belang hebben om haar boekhoudkundige bestanden en gegevens alsook andere verwante bestanden (bijvoorbeeld bepaalde overeenkomsten) langer te bewaren dan de wettelijke bewaringstermijn om haar rechten te laten gelden.[^22] 
+In de fiscale wetgeving kan de verplichting tot bewaring een ruimere draagwijdte hebben dan in boekhoudkundige wetgeving.[^21]
+ Bovendien kan een onderneming een specifiek belang hebben om haar boekhoudkundige bestanden en gegevens alsook andere verwante bestanden (bijvoorbeeld bepaalde overeenkomsten) langer te bewaren dan de wettelijke bewaringstermijn om haar rechten te laten gelden.[^22] 
 
 ##### Elektronische facturering
 

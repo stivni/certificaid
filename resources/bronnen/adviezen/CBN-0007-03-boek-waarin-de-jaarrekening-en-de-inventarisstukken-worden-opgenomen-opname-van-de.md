@@ -1,64 +1,62 @@
 ---
-nummer: CBN-advies 7/3
+bron: https://www.cbn-cnc.be/nl/adviezen/boek-waarin-de-jaarrekening-en-de-inventarisstukken-worden-opgenomen-opname-van-de
 datum: 1981-04-01
+gerelateerde_adviezen:
+  - datum: '2010-07-14'
+    titel: Duur van het boekjaar
+    url: https://www.cbn-cnc.be/nl/adviezen/duur-van-het-boekjaar
+  - datum: '1997-02-01'
+    titel: Beginselen van een regelmatige boekhouding
+    url: https://www.cbn-cnc.be/nl/adviezen/beginselen-van-een-regelmatige-boekhouding
+  - datum: '1996-11-01'
+    titel: Boeking en waardering van voorraden
+    url: https://www.cbn-cnc.be/nl/adviezen/boeking-en-waardering-van-voorraden
+  - datum: '1977-12-01'
+    titel: Duur van het boekjaar
+    url: https://www.cbn-cnc.be/nl/adviezen/duur-van-het-boekjaar-0
+nummer: CBN-advies 7/3
+provenance:
+  generated_at: '2026-05-11T13:05:05Z'
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/boek-waarin-de-jaarrekening-en-de-inventarisstukken-worden-opgenomen-opname-van-de
+      sha256: e35b96d4655ff00b9a460b23d13f3fbe2ab7b00ce92adcb097759721ca36af50
+      version:
+  stale: false
+  stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
+  trust:
+    confirmed_at: '2026-05-11T11:51:19Z'
+    confirmed_by: subagent-sonnet-4-6
+    layer1:
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:24Z'
+      heading_count: 0
+      max_section_chars: 2738
+      file_size_chars: 2738
+      flags: []
+    layer2:
+      agent: subagent-sonnet-4-6
+      concrete_problemen:
+        - categorie: B3
+          regel: 59
+          type: other
+          voorbeeld: '# CBN advies 7-3 - Boek waarin de jaarrekening en de inventarisstukken worden opgenomen [duplicaat]'
+      rationale: 'B3: duplicate heading op r57-59 — de volledige H1-titel (''# CBN advies 7-3 - Boek waarin de jaarrekening...'') staat letterlijk twee maal achter elkaar. Dit is een duidelijk scraping-artefact (waarschijnlijk dubbele extractie van de page-title). Geen verdere artefacten; inhoud otherwise compleet.'
+      run_at: '2026-05-11T11:51:19Z'
+      status: needs-rework
+    rationale: 'B3: duplicate heading op r57-59 — de volledige H1-titel (''# CBN advies 7-3 - Boek waarin de jaarrekening...'') staat letterlijk twee maal achter elkaar. Dit is een duidelijk scraping-artefact (waarschijnlijk dubbele extractie van de page-title). Geen verdere artefacten; inhoud otherwise compleet.'
+    status: needs-rework
 themas:
   - inventaris
   - jaarrekening
   - opname waarderingsregels
   - waarderingsregels
-bron: https://www.cbn-cnc.be/nl/adviezen/boek-waarin-de-jaarrekening-en-de-inventarisstukken-worden-opgenomen-opname-van-de
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/boek-waarin-de-jaarrekening-en-de-inventarisstukken-worden-opgenomen-opname-van-de
-      sha256: e35b96d4655ff00b9a460b23d13f3fbe2ab7b00ce92adcb097759721ca36af50
-      version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:33:28Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T11:51:19Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "B3: duplicate heading op r57-59 — de volledige H1-titel ('# CBN advies 7-3 - Boek waarin de jaarrekening...') staat letterlijk twee maal achter elkaar. Dit is een duidelijk scraping-artefact (waarschijnlijk dubbele extractie van de page-title). Geen verdere artefacten; inhoud otherwise compleet."
-    layer1:
-      status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 0
-      max_section_chars: 2861
-      file_size_chars: 2861
-      flags: []
-    layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T11:51:19Z'
-      rationale: "B3: duplicate heading op r57-59 — de volledige H1-titel ('# CBN advies 7-3 - Boek waarin de jaarrekening...') staat letterlijk twee maal achter elkaar. Dit is een duidelijk scraping-artefact (waarschijnlijk dubbele extractie van de page-title). Geen verdere artefacten; inhoud otherwise compleet."
-      concrete_problemen:
-        - regel: 59
-          categorie: B3
-          type: other
-          voorbeeld: '# CBN advies 7-3 - Boek waarin de jaarrekening en de inventarisstukken worden opgenomen [duplicaat]'
-gerelateerde_adviezen:
-  - titel: Duur van het boekjaar
-    url: https://www.cbn-cnc.be/nl/adviezen/duur-van-het-boekjaar
-    datum: '2010-07-14'
-  - titel: Beginselen van een regelmatige boekhouding
-    url: https://www.cbn-cnc.be/nl/adviezen/beginselen-van-een-regelmatige-boekhouding
-    datum: '1997-02-01'
-  - titel: Boeking en waardering van voorraden
-    url: https://www.cbn-cnc.be/nl/adviezen/boeking-en-waardering-van-voorraden
-    datum: '1996-11-01'
-  - titel: Duur van het boekjaar
-    url: https://www.cbn-cnc.be/nl/adviezen/duur-van-het-boekjaar-0
-    datum: '1977-12-01'
 ---
-
-# CBN advies 7-3 - Boek waarin de jaarrekening en de inventarisstukken worden opgenomen - Opname van de waarderingsregels
 
 # CBN advies 7-3 - Boek waarin de jaarrekening en de inventarisstukken worden opgenomen - Opname van de waarderingsregels
 

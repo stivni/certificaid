@@ -1,6 +1,39 @@
 ---
-nummer: CBN-advies 2022/10
+bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-interesten-en-andere-bedragen-verschuldigd-wegens
 datum: 2022-08-29
+nummer: CBN-advies 2022/10
+provenance:
+  generated_at: '2026-05-11T13:05:09Z'
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-interesten-en-andere-bedragen-verschuldigd-wegens
+      sha256: 075e298a2435b2d63709d0aba4d9917bdc9017d10a07a1c9b57b150012a3505e
+      version:
+  stale: false
+  stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
+  trust:
+    confirmed_at:
+    confirmed_by:
+    layer1:
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:30Z'
+      heading_count: 19
+      max_section_chars: 8455
+      file_size_chars: 25835
+      flags: []
+    layer2:
+      agent:
+      concrete_problemen: []
+      rationale:
+      run_at:
+      status: not_run
+    rationale: 'Trust gereset 2026-05-11: re-scrape met scraper-fixes, content-diff > 5%'
+    status: unreviewed
 themas:
   - betalingsachterstand
   - laattijdige betaling
@@ -9,43 +42,6 @@ themas:
   - invorderingskost
   - kredietbeperkingstoeslag
   - financiële korting
-bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-interesten-en-andere-bedragen-verschuldigd-wegens
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-interesten-en-andere-bedragen-verschuldigd-wegens
-      sha256: 075e298a2435b2d63709d0aba4d9917bdc9017d10a07a1c9b57b150012a3505e
-      version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:38:13Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T12:24:34Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: 'D3: regel 198 bevat een losstaande voetnoot-aanroep `[^35][^36]` op een volledig lege regel, zonder tekst eromheen — dit is een floating-footnote-artefact dat niet bij een zin hoort. B3: de heading `## Voorbeeld 1` (regel 140) en `## Voorbeeld 2` (regel 188) zijn op hetzelfde niveau als inhoudelijke secties zoals `## Boekhoudkundige verwerking`, wat een inconsistente hiërarchie geeft maar geen harde fout. Verder is het document inhoudelijk volledig en goed gestructureerd.'
-    layer1:
-      status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 13
-      max_section_chars: 8456
-      file_size_chars: 25837
-      flags: []
-    layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:24:34Z'
-      rationale: 'D3: regel 198 bevat een losstaande voetnoot-aanroep `[^35][^36]` op een volledig lege regel, zonder tekst eromheen — dit is een floating-footnote-artefact dat niet bij een zin hoort. B3: de heading `## Voorbeeld 1` (regel 140) en `## Voorbeeld 2` (regel 188) zijn op hetzelfde niveau als inhoudelijke secties zoals `## Boekhoudkundige verwerking`, wat een inconsistente hiërarchie geeft maar geen harde fout. Verder is het document inhoudelijk volledig en goed gestructureerd.'
-      concrete_problemen:
-        - regel: 198
-          categorie: D3
-          type: other
-          voorbeeld: ' [^35][^36]'
 ---
 
 # CBN-advies 2022/10 – Boekhoudkundige verwerking van interesten en andere bedragen verschuldigd wegens betalingsachterstand
@@ -58,15 +54,13 @@ De Commissie begint onderhavig advies met een kort overzicht van de verschillend
 
 ## Interesten op vorderingen
 
-Vooreerst wordt er herhaald dat interesten - burgerlijke vruchten zoals bepaald in artikel 3:42 van het Burgerlijk Wetboek[^4]
- (hierna: BW) - worden geacht van dag tot dag te worden verkregen. 
+Vooreerst wordt er herhaald dat interesten - burgerlijke vruchten zoals bepaald in artikel 3:42 van het Burgerlijk Wetboek[^4] (hierna: BW) - worden geacht van dag tot dag te worden verkregen. 
 
 Vervolgens moet er een onderscheid gemaakt worden tussen de bepalingen die van toepassing zijn op, enerzijds, verhoudingen tussen een onderneming en een consument en, anderzijds, op verhoudingen tussen ondernemingen onderling.
 
 ### Verhoudingen tussen een onderneming en een consument
 
-Artikel 5:240 BW[^5]
- bepaalt dat een betalingsachterstand moet worden vergoed via verwijlinteresten tegen de wettelijke rentevoet. Bovendien wordt er bepaald dat deze interesten verschuldigd zijn te rekenen van de dag der aanmaning tot betaling.
+Artikel 5:240 BW[^5] bepaalt dat een betalingsachterstand moet worden vergoed via verwijlinteresten tegen de wettelijke rentevoet. Bovendien wordt er bepaald dat deze interesten verschuldigd zijn te rekenen van de dag der aanmaning tot betaling.
 
 Partijen die een overeenkomst hebben gesloten, zijn evenwel vrij om van deze regel af te wijken[^6].
 
@@ -76,13 +70,11 @@ De regelgeving inzake verwijlinteresten binnen verhoudingen tussen ondernemingen
 
 Deze wet bepaalt dat, indien er in de overeenkomst geen termijn voor betaling werd vastgesteld, elke betaling tot vergoeding van een handelstransactie tussen ondernemingen dient te gebeuren binnen een termijn van dertig kalenderdagen te rekenen vanaf de dag volgend op die (i) van de ontvangst door de schuldenaar van de factuur of (ii) op die van de ontvangst van de goederen of diensten indien de schuldenaar de factuur eerder ontvangt dan de goederen of diensten.[^9] 
 
-Met inachtneming van bepaalde limieten[^10]
- kunnen de partijen een andere betalingstermijn overeenkomen die niet langer is dan zestig kalenderdagen. Elke contractuele bepaling die een langere termijn voorziet, wordt voor niet geschreven gehouden.[^11] 
+Met inachtneming van bepaalde limieten[^10] kunnen de partijen een andere betalingstermijn overeenkomen die niet langer is dan zestig kalenderdagen. Elke contractuele bepaling die een langere termijn voorziet, wordt voor niet geschreven gehouden.[^11] 
 
 Indien het verschuldigde bedrag niet op de vervaldag werd betaald, wordt bij dit bedrag, vanaf de volgende dag, van rechtswege en zonder een ingebrekestelling een interest gerekend, behalve wanneer de schuldenaar kan aantonen dat hij niet verantwoordelijk is voor de achterstand. Deze interest stemt overeen met de interest tegen de referentie-interestvoet vermeerderd met acht procentpunten en afgerond tot het hogere halve procentpunt.[^12] 
 
-Met inachtneming van de limieten zoals bepaald in artikel 7[^13]
- van de wet van 2 augustus 2002 staat het de partijen vrij om af te wijken van voormelde voorschriften.
+Met inachtneming van de limieten zoals bepaald in artikel 7[^13] van de wet van 2 augustus 2002 staat het de partijen vrij om af te wijken van voormelde voorschriften.
 
 ## Forfaitaire vergoeding voor invorderingskosten en andere bedragen verschuldigd wegens achterstand
 
@@ -102,7 +94,7 @@ De boekhoudkundige verwerking van facturen met een kredietbeperkingstoeslag kan 
 | Btw[^17] | | 84 euro | 
 | Prijs incl. btw | | 484 euro | 
 | Kredietbeperkingstoeslag | | 10 euro | 
-| **Totaalbedrag ** | | **494 euro** | 
+| **Totaalbedrag**  | | **494 euro** | 
 
 Rekening houdende met de twijfels die verschillende ondernemingen hierrond hebben, wordt hieronder de geschikte boekhoudkundige verwerking voor dergelijke facturen weergegeven.
 
@@ -110,52 +102,44 @@ Rekening houdende met de twijfels die verschillende ondernemingen hierrond hebbe
 
 ### Verwijlinteresten en forfaitaire vergoedingen voor invorderingskosten
 
-De Commissie is van oordeel dat er bij het bepalen van een passende boekhoudkundige verwerking van deze bedragen, een evenwicht moet worden gevonden tussen, enerzijds, de wil van de wetgever om een regeling in te voeren die bepaalt dat de verschuldigde bedragen automatisch te betalen zijn[^18]
- en, anderzijds, de voorschriften van CBN-advies 2012/17 – *Erkenning van opbrengsten en kosten*, alsook het voorzichtigheidsbeginsel.
+De Commissie is van oordeel dat er bij het bepalen van een passende boekhoudkundige verwerking van deze bedragen, een evenwicht moet worden gevonden tussen, enerzijds, de wil van de wetgever om een regeling in te voeren die bepaalt dat de verschuldigde bedragen automatisch te betalen zijn[^18] en, anderzijds, de voorschriften van CBN-advies 2012/17 – *Erkenning van opbrengsten en kosten*, alsook het voorzichtigheidsbeginsel.
 
 Vooreerst moet er in het bijzonder aandacht geschonken worden aan de recente wetswijziging van 2 augustus 2002. Terwijl de oude versie van de wet slechts in een recht voorzag voor de schuldeiser, bepaalt de nieuwe versie dat het verschuldigde bedrag automatisch moet worden vermeerderd met een interest of forfaitaire vergoeding. De voorbereidende werken van de wijzigingswet verduidelijken dat de wil van de wetgever om ervoor te zorgen dat de bedragen automatisch moeten worden betaald, tot doel heeft te vermijden dat ondernemingen druk zetten op hun schuldeiser om geen interest of forfaitaire vergoeding te vragen als het verschuldigde bedrag niet op de vervaldag wordt betaald.[^19] 
 
 Rekening houdende met de duidelijk uitgesproken wil van de wetgever, moet de interest worden beschouwd als zeker en is deze verschuldigd van rechtswege zodra de betalingstermijn is verstreken. Bijgevolg is de Commissie van oordeel dat de interesten en forfaitaire vergoedingen in hoofde van de schuldenaar in kosten moeten worden genomen vanaf de eerste dag na de vervaldag van de betaling.[^20] 
 
-Te rekenen vanaf het ogenblik waarop deze bedragen moeten worden opgenomen in de boekhouding, moet er in hoofde van de schuldenaar een schuld worden geboekt op rekening 440 *Leveranciers*. Als tegenboeking worden de bedragen in resultaat genomen op rekening 6500 *Rente, commissies en kosten verbonden aan schulden*[^21]
- of op rekening 668 *Andere niet-recurrente financiële kosten*[^22].[^23] 
+Te rekenen vanaf het ogenblik waarop deze bedragen moeten worden opgenomen in de boekhouding, moet er in hoofde van de schuldenaar een schuld worden geboekt op rekening 440 *Leveranciers*. Als tegenboeking worden de bedragen in resultaat genomen op rekening 6500* Rente, commissies en kosten verbonden aan schulden*[^21] of op rekening 668* Andere niet-recurrente financiële kosten*[^22].[^23] 
 
 Voor wat betreft de schuldeiser wordt er in herinnering gebracht dat artikel 3:11, tweede lid KB WVV uitdrukkelijk bepaalt dat de opbrengsten niet in de boekhouding mogen worden opgenomen wanneer de effectieve inning ervan onzeker is. De opname van een opbrengst in de boekhouding moet bijgevolg steeds plaatsvinden met inachtneming van een voorzichtigheidslogica[^24]. In dit opzicht kan de inresultaatname door de schuldeiser van de bedragen verschuldigd wegens betalingsachterstand niet op automatische wijze worden uitgevoerd, zoals bij de schuldenaar wel het geval is. De opname van een opbrengst vereist dus steeds grote omzichtigheid.
 
 Indien de schuldenaar bijvoorbeeld dubieus is en de effectieve inning van de interesten of andere bedragen die ontegensprekelijk verschuldigd zijn, onzeker is of in het gedrang komt, mogen gelet op de situatie van de schuldenaar deze interesten of bedragen in dergelijk geval niet als opbrengsten worden geboekt in de resultatenrekening.[^25]
  Deze bedragen mogen slechts in resultaat worden genomen vanaf het ogenblik waarop – op basis van de vereisten van voorzichtigheid, eerlijkheid en goede trouw – hun effectieve inning opnieuw zeker wordt.
 
-Te rekenen vanaf het ogenblik waarop deze bedragen moeten worden opgenomen in de boekhouding, dient de leverancier de interestvordering te boeken op rekening 400 *Handelsdebiteuren*, met als tegenboeking een inresultaatname op rekening 751[^26] *Opbrengsten uit vlottende activa*[^27]
- of op rekening 769 *Andere niet-recurrente financiële opbrengsten*[^28].
+Te rekenen vanaf het ogenblik waarop deze bedragen moeten worden opgenomen in de boekhouding, dient de leverancier de interestvordering te boeken op rekening 400 *Handelsdebiteuren*, met als tegenboeking een inresultaatname op rekening 751[^26]* Opbrengsten uit vlottende activa*[^27] of op rekening 769* Andere niet-recurrente financiële opbrengsten*[^28].
 
-### Specifieke overwegingen betreffende de boekhoudkundige verwerking van facturen met een kredietbeperkingstoeslag 
-
+Specifieke overwegingen betreffende de boekhoudkundige verwerking van facturen met een kredietbeperkingstoeslag
 Zoals eerder vermeld, kan de boeking van facturen met een kredietbeperkingstoeslag moeilijkheden met zich meebrengen daar het bedrag van de kredietbeperkingstoeslag, wegens uiteenlopende redenen, over het algemeen inbegrepen is in het totaalbedrag van de factuur (*cf.* randnummer 12 van onderhavig advies). Nadat de Commissie een vraag mocht ontvangen rond deze kwestie, wordt hieronder de boekhoudkundige verwerking weergegeven die in deze gevallen moet worden toegepast.
 
 Vooreerst moet er worden benadrukt dat de analyse van de Commissie aansluit bij de naleving van de principes van het getrouwe beeld. Ongeacht de manier waarop de factuur wordt weergegeven, moet de boekhoudkundige verwerking van de factuur overeenstemmen met de economische werkelijkheid van de verrichting.[^29] 
 
 Overigens meent de Commissie dat de volgende situaties moeten worden onderscheiden: enerzijds, de gevallen waarin de vervaldag van de kredietbeperkingstoeslag overeenstemt met de uiterste betaaldatum en, anderzijds, de gevallen waarin deze twee data van elkaar verschillen.
 
-Wanneer beide data overeenstemmen, is de Commissie van oordeel dat de boekhoudkundige verwerking van de kredietbeperkingstoeslag moet worden gelijkgesteld met deze van de forfaitaire vergoedingen voor betalingsachterstand zoals hierboven[^30]
- uiteengezet.
+Wanneer beide data overeenstemmen, is de Commissie van oordeel dat de boekhoudkundige verwerking van de kredietbeperkingstoeslag moet worden gelijkgesteld met deze van de forfaitaire vergoedingen voor betalingsachterstand zoals hierboven[^30] uiteengezet.
 
 Hieruit blijkt dat bij de opmaak of bij de ontvangst van de factuur in principe enkel het bedrag van het verkochte of verkregen goed moet worden opgenomen in de boekhouding van de ondernemingen die deel uitmaken van de overeenkomst[^31]. Enkel wanneer de betaling wordt uitgevoerd na de vervaldag en het bestuursorgaan van de vennootschap van oordeel is dat het bedrag van de kredietbeperkingstoeslag moet worden betaald, zal het bedrag van de kredietbeperkingstoeslag ook in de boekhouding worden opgenomen. 
 
-## Voorbeeld 1
+### *Voorbeeld 1*
 
 Het hierboven reeds vermelde voorbeeld wordt hier verder uitgewerkt.
-
 Op een factuur betreffende de aankoop van handelsgoederen ter waarde van 400 euro, staat vermeld dat de klant 30 dagen de tijd heeft om de betaling uit te voeren. Bovendien wordt er bepaald dat indien de klant op de vervaldag van de factuur nog steeds niet betaald heeft, deze een kredietbeperkingstoeslag ter waarde van 10 EUR verschuldigd is. De factuur wordt als volgt opgesteld:
-
 | Prijs excl. btw | | 400 euro | 
 | Btw[^32] | | 84 euro | 
 | Prijs incl. btw | | 484 euro | 
 | Kredietbeperkingstoeslag | | 10 euro | 
-| **Totaalbedrag ** | | **494 euro** | 
+| **Totaalbedrag**  | | **494 euro** | 
 
 Volgende boekingen moeten door de koper worden uitgevoerd[^33]:
-
-Bij ontvangst van de factuur
+### Bij ontvangst van de factuur
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
@@ -163,21 +147,21 @@ Bij ontvangst van de factuur
 | | 411 | Terug te vorderen btw | 84 | |
 | aan | 440 | Leveranciers | | 484 |
 
-Indien de betaling binnen de 30 dagen gebeurt
+### Indien de betaling binnen de 30 dagen gebeurt
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 440 | Leveranciers | 484 | |
 | aan | 550 | Kredietinstellingen: rekening-courant | | 484 |
 
-Indien de betaling na 30 dagen gebeurt
+### Indien de betaling na 30 dagen gebeurt
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 6500 | Rente, commissies en kosten verbonden aan schulden | 10 | |
 | aan | 440 | Leveranciers | | 10 |
 
-Ogenblik van de betaling
+### Ogenblik van de betaling
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
@@ -186,20 +170,14 @@ Ogenblik van de betaling
 
 Indien de vervaldatum van de kredietbeperkingstoeslag vóór de effectieve betaaldatum valt, is de Commissie van oordeel dat de boekhoudkundige verwerking van deze kredietbeperkingstoeslag moet worden gelijkgesteld met deze van een financiële korting.
 
-Hieruit blijkt dat bij ontvangst van de factuur het totaalbedrag zoals vermeld op de factuur in de boekhouding moet worden opgenomen. Bij betaling van de factuur vóór de vervaldatum van de kredietbeperkingstoeslag, moet de boekhoudkundige verwerking worden toegepast die algemeen ook aanvaard wordt voor financiële kortingen. In dit geval zal de leverancier een kost moeten boeken op rekening 657 tot 658 *Diverse financiële kosten*[^34]
- en zal de klant een opbrengst boeken op rekening 756 tot 759 *Diverse financiële opbrengsten*.
+Hieruit blijkt dat bij ontvangst van de factuur het totaalbedrag zoals vermeld op de factuur in de boekhouding moet worden opgenomen. Bij betaling van de factuur vóór de vervaldatum van de kredietbeperkingstoeslag, moet de boekhoudkundige verwerking worden toegepast die algemeen ook aanvaard wordt voor financiële kortingen. In dit geval zal de leverancier een kost moeten boeken op rekening 657 tot 658 *Diverse financiële kosten*[^34] en zal de klant een opbrengst boeken op rekening 756 tot 759* Diverse financiële opbrengsten*.
 
-## Voorbeeld 2
+### *Voorbeeld 2*
 
-Op een factuur van de aankoop van handelsgoederen ter waarde van 400 euro, staat vermeld dat de klant 60 dagen de tijd heeft om de betaling uit te voeren. Bovendien wordt er bepaald dat indien de klant na 30 dagen nog steeds niet betaald heeft, deze een kredietbeperkingstoeslag ter waarde van 10 EUR verschuldigd is. 
-
+Op een factuur van de aankoop van handelsgoederen ter waarde van 400 euro, staat vermeld dat de klant 60 dagen de tijd heeft om de betaling uit te voeren. Bovendien wordt er bepaald dat indien de klant na 30 dagen nog steeds niet betaald heeft, deze een kredietbeperkingstoeslag ter waarde van 10 EUR verschuldigd is.
 Rekening houdend met de verschillende termijnen, wordt de factuur op dezelfde manier weergegeven als in het vorige voorbeeld.
-
 Volgende boekingen moeten door de koper worden uitgevoerd:
-
-Bij ontvangst van de factuur
-
- [^35][^36]
+### Bij ontvangst van de factuur
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
@@ -207,7 +185,7 @@ Bij ontvangst van de factuur
 | | 411 | Terug te vorderen btw | 84 | |
 | aan | 440 | Leveranciers | | 494 |
 
-Indien de betaling binnen de 30 dagen wordt uitgevoerd
+### Indien de betaling binnen de 30 dagen wordt uitgevoerd
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
@@ -215,7 +193,7 @@ Indien de betaling binnen de 30 dagen wordt uitgevoerd
 | aan | 550 | Kredietinstellingen: rekening-courant | | 484 |
 | | 756 tot 759 | Diverse financiële opbrengsten | 10 | |
 
-Indien de betaling na 30 dagen wordt uitgevoerd
+### Indien de betaling na 30 dagen wordt uitgevoerd
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
@@ -228,7 +206,7 @@ Nalatigheidsintresten[^37], verhogingen (vb. 10% forfaitaire verhoging op het fa
 
 ### Intresten en verhogingen
 
-De schuldeiser, titularis van een schuldvordering op zijn klant ten belope van het nominaal factuurbedrag, heeft het *beschikkingsrecht *over zijn schuldvordering. Hij *kan *de intresten en de verhogingen wegens laattijdige betaling eisen wanneer deze wettelijk of contractueel voorzien zijn, maar hij *moet *niet. Immers, hij wil niet alleen graag tijdig betaald worden, hij wil evenzeer zijn goede klantenrelatie behouden en zal meestal maar al te graag bereid zijn om intresten en verhogingen te laten vallen. Deze accessoria zijn veelal enkel een drukkingsmiddel tot betaling van de hoofdsom, dus een stok achter de deur. Welnu, een *stok achter de deur *moet niet geboekt worden. 
+De schuldeiser, titularis van een schuldvordering op zijn klant ten belope van het nominaal factuurbedrag, heeft het *beschikkingsrecht* over zijn schuldvordering. Hij *kan* de intresten en de verhogingen wegens laattijdige betaling eisen wanneer deze wettelijk of contractueel voorzien zijn, maar hij *moet* niet. Immers, hij wil niet alleen graag tijdig betaald worden, hij wil evenzeer zijn goede klantenrelatie behouden en zal meestal maar al te graag bereid zijn om intresten en verhogingen te laten vallen. Deze accessoria zijn veelal enkel een drukkingsmiddel tot betaling van de hoofdsom, dus een stok achter de deur. Welnu, een *stok achter de deur* moet niet geboekt worden. 
 
 De schuldenaar is, van de weeromstuit, er evenmin toe gehouden de intresten en verhogingen als bijkomende kost te boeken. Het boeken van de hoofdsom is voldoende voor het getrouw beeld. 
 
@@ -236,10 +214,9 @@ De fiscale en sociale schulden zijn hierop een uitzondering. De Staat heeft geen
 
 ### De kredietbeperkingstoeslag
 
-De leverancier kan een kredietbeperkingstoeslag[^38]
- voorzien. Deze is dan in het factuurbedrag inbegrepen[^39]. Zowel de schuldeiser als de schuldenaar zijn vrij deze te boeken of niet. Niet boeken zal wellicht de algemene regel zijn. Voor de schuldenaar is de meest praktische oplossing te anticiperen op zijn eigen later betalingsgedrag. Is hij voornemens de factuur te betalen vóór de vervaldag, dan is hij de kredietbeperkingstoeslag niet verschuldigd en mag hij die in mindering brengen van het factuurbedrag. Er is dan ook geen enkele reden om hem te boeken. Is hij voornemens te betalen nà de vervaldag, dan kan hij beter meteen ook de kredietbeperkingstoeslag boeken.
+De leverancier kan een kredietbeperkingstoeslag[^38] voorzien. Deze is dan in het factuurbedrag inbegrepen[^39]. Zowel de schuldeiser als de schuldenaar zijn vrij deze te boeken of niet. Niet boeken zal wellicht de algemene regel zijn. Voor de schuldenaar is de meest praktische oplossing te anticiperen op zijn eigen later betalingsgedrag. Is hij voornemens de factuur te betalen vóór de vervaldag, dan is hij de kredietbeperkingstoeslag niet verschuldigd en mag hij die in mindering brengen van het factuurbedrag. Er is dan ook geen enkele reden om hem te boeken. Is hij voornemens te betalen nà de vervaldag, dan kan hij beter meteen ook de kredietbeperkingstoeslag boeken.
 
-**Onderhavig advies vervangt CBN-advies 137/7 – *Interesten op vorderingen*.**
+**Onderhavig advies vervangt CBN-advies 137/7 –* Interesten op vorderingen*.**
 
 [^1]: Onderhavig advies is tot stand gekomen nadat het ontwerpadvies op 13 augustus 2021 ter publieke consultatie werd gepubliceerd op de website van de CBN.
 

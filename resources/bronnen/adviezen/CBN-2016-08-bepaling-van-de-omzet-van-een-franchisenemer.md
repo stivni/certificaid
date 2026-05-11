@@ -1,51 +1,51 @@
 ---
-nummer: CBN-advies 2016/8
-datum: 2016-06-15
-themas:
-  - franchiseovereenkomst
-  - franchising
-  - omzet
 bron: https://www.cbn-cnc.be/nl/adviezen/bepaling-van-de-omzet-van-een-franchisenemer
+datum: 2016-06-15
+nummer: CBN-advies 2016/8
 provenance:
+  generated_at: '2026-05-11T13:05:08Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/bepaling-van-de-omzet-van-een-franchisenemer
       sha256: 407c616f79f88d89f2f91835aa4df7d710fee8284d31d361e93fe77c83f16221
       version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:36:56Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
   trust:
-    status: needs-rework
     confirmed_at: '2026-05-11T12:16:34Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "Regel 53–57: een groot blok tekst (definitie van 'omzet' uit KB W.Venn.) is in italic opgemaakt met openingsasterisk op regel 53 en afsluitende asterisk op het einde van regel 57, maar de sluiting is onregelmatig — de slotasterisk staat direct na de punt van de laatste zin (D4, malformed italic). Bovendien zijn de bullet-items binnen dit italic-blok (regels 71–74) ook met een asterisk-bullet gemarkeerd terwijl de omringende tekst reeds in italic staat, wat markdown-rendering problemen kan geven. Verder kwalitatief goed: 2 headings, voetnoten [^1]–[^13] correct."
     layer1:
       status: pass
-      run_id: 20260511-083333
-      run_at:
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:29Z'
       heading_count: 2
-      max_section_chars: 8071
-      file_size_chars: 8276
+      max_section_chars: 8072
+      file_size_chars: 8277
       flags: []
     layer2:
-      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:16:34Z'
-      rationale: "Regel 53–57: een groot blok tekst (definitie van 'omzet' uit KB W.Venn.) is in italic opgemaakt met openingsasterisk op regel 53 en afsluitende asterisk op het einde van regel 57, maar de sluiting is onregelmatig — de slotasterisk staat direct na de punt van de laatste zin (D4, malformed italic). Bovendien zijn de bullet-items binnen dit italic-blok (regels 71–74) ook met een asterisk-bullet gemarkeerd terwijl de omringende tekst reeds in italic staat, wat markdown-rendering problemen kan geven. Verder kwalitatief goed: 2 headings, voetnoten [^1]–[^13] correct."
       concrete_problemen:
-        - regel: 53
-          categorie: D4
+        - categorie: D4
+          regel: 53
           type: other
           voorbeeld: '* Onder omzet wordt verstaan het bedrag van de verkoop... (italic block opens here)'
-        - regel: 57
-          categorie: D4
+        - categorie: D4
+          regel: 57
           type: other
           voorbeeld: '...voor hun bedrijf.*  (italic sluit met asterisk na punt, maar bullet-items ertussen breken italic)'
+      rationale: 'Regel 53–57: een groot blok tekst (definitie van ''omzet'' uit KB W.Venn.) is in italic opgemaakt met openingsasterisk op regel 53 en afsluitende asterisk op het einde van regel 57, maar de sluiting is onregelmatig — de slotasterisk staat direct na de punt van de laatste zin (D4, malformed italic). Bovendien zijn de bullet-items binnen dit italic-blok (regels 71–74) ook met een asterisk-bullet gemarkeerd terwijl de omringende tekst reeds in italic staat, wat markdown-rendering problemen kan geven. Verder kwalitatief goed: 2 headings, voetnoten [^1]–[^13] correct.'
+      run_at: '2026-05-11T12:16:34Z'
+      status: needs-rework
+    rationale: 'Regel 53–57: een groot blok tekst (definitie van ''omzet'' uit KB W.Venn.) is in italic opgemaakt met openingsasterisk op regel 53 en afsluitende asterisk op het einde van regel 57, maar de sluiting is onregelmatig — de slotasterisk staat direct na de punt van de laatste zin (D4, malformed italic). Bovendien zijn de bullet-items binnen dit italic-blok (regels 71–74) ook met een asterisk-bullet gemarkeerd terwijl de omringende tekst reeds in italic staat, wat markdown-rendering problemen kan geven. Verder kwalitatief goed: 2 headings, voetnoten [^1]–[^13] correct.'
+    status: needs-rework
+themas:
+  - franchiseovereenkomst
+  - franchising
+  - omzet
 ---
 
 # CBN-advies 2016/8 - Bepaling van de omzet van een franchisenemer
@@ -93,7 +93,8 @@ De voorwaarde om op te treden in eigen naam en voor eigen rekening is een fundam
 
 Overeenkomstig dit advies hebben de inkomsten en uitgaven van een franchisenemer in zijn hoofde het karakter van opbrengsten en kosten en moeten als dusdanig worden geboekt in de resultatenrekening van deze franchisenemer.
 
-In de praktijk kan het echter voorkomen dat een overeenkomst in soortgelijke omstandigheden als een franchiseovereenkomst, geen echte franchiseovereenkomst is maar dichter aanleunt bij een andere overeenkomst van commerciële samenwerking.[^10] Dit kan bijvoorbeeld het geval zijn als een commissionair bij de verkoop van producten een commerciële formule van de committent zou gebruiken.[^11] 
+In de praktijk kan het echter voorkomen dat een overeenkomst in soortgelijke omstandigheden als een franchiseovereenkomst, geen echte franchiseovereenkomst is maar dichter aanleunt bij een andere overeenkomst van commerciële samenwerking.[^10]
+ Dit kan bijvoorbeeld het geval zijn als een commissionair bij de verkoop van producten een commerciële formule van de committent zou gebruiken.[^11] 
 
 Voor een correcte boeking van de omzet in dit geval moet de precieze aard van de commerciële samenwerkingsovereenkomst worden bepaald, in functie van de specifieke uitvoeringsmodaliteiten van de overeenkomst en moet meer bepaald worden nagegaan of de verrichtingen al dan niet worden uitgevoerd voor rekening van een opdrachtgever.
 

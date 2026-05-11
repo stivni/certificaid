@@ -1,6 +1,56 @@
 ---
-nummer: CBN-advies 2021/05
+bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudrechtelijke-behandeling-van-kwijtschelding-van-huur-ten-gevolge-van-de-covid-19
 datum: 2021-04-06
+gerelateerde_adviezen:
+  - datum: '2021-06-23'
+    titel: Rekening 26 Overige materiële vaste activa
+    url: https://www.cbn-cnc.be/nl/adviezen/rekening-26-overige-materiele-vaste-activa
+  - datum: '2015-06-24'
+    titel: Leasing
+    url: https://www.cbn-cnc.be/nl/adviezen/leasing
+  - datum: '2012-01-11'
+    titel: De boekhoudkundige verwerking van toegekende voordelen bij het afsluiten van een huurovereenkomst
+    url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-toegekende-voordelen-bij-het-afsluiten-van-een
+  - datum: '1986-07-01'
+    titel: Bouwwerken op andermans grond
+    url: https://www.cbn-cnc.be/nl/adviezen/bouwwerken-op-andermans-grond
+nummer: CBN-advies 2021/05
+provenance:
+  generated_at: '2026-05-11T13:05:08Z'
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudrechtelijke-behandeling-van-kwijtschelding-van-huur-ten-gevolge-van-de-covid-19
+      sha256: a6a835235f4de2ac37139702cfe01c84e595a9ff09f053496214f4c98aaa6179
+      version:
+  stale: false
+  stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
+  trust:
+    confirmed_at: '2026-05-11T12:21:40Z'
+    confirmed_by: subagent-sonnet-4-6
+    layer1:
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:30Z'
+      heading_count: 7
+      max_section_chars: 2238
+      file_size_chars: 10492
+      flags: []
+    layer2:
+      agent: subagent-sonnet-4-6
+      concrete_problemen:
+        - categorie: D4
+          regel: 74
+          type: other
+          voorbeeld: rekening 744 *Huuropbrengsten *of rekening 70 *Omzet[^2] *wordt gecrediteerd
+      rationale: 'D4: malformed italic op L74 — ''*Huuropbrengsten *of rekening 70 *Omzet[^2] *'' heeft een spatie vóór de afsluitende asterisk waardoor de italic niet correct sluit; dit patroon duidt op een extractieartefact waarbij een footnote-marker de italic-span doorkruist. Geen andere structurele problemen; inhoud is volledig en alle zeven headings zijn correct.'
+      run_at: '2026-05-11T12:21:40Z'
+      status: needs-rework
+    rationale: 'D4: malformed italic op L74 — ''*Huuropbrengsten *of rekening 70 *Omzet[^2] *'' heeft een spatie vóór de afsluitende asterisk waardoor de italic niet correct sluit; dit patroon duidt op een extractieartefact waarbij een footnote-marker de italic-span doorkruist. Geen andere structurele problemen; inhoud is volledig en alle zeven headings zijn correct.'
+    status: needs-rework
 themas:
   - Huur
   - COVID-19
@@ -11,56 +61,6 @@ themas:
   - opbrengsterkenning
   - leasevergoeding
   - verlenging huur
-bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudrechtelijke-behandeling-van-kwijtschelding-van-huur-ten-gevolge-van-de-covid-19
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudrechtelijke-behandeling-van-kwijtschelding-van-huur-ten-gevolge-van-de-covid-19
-      sha256: a6a835235f4de2ac37139702cfe01c84e595a9ff09f053496214f4c98aaa6179
-      version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:37:58Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T12:21:40Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "D4: malformed italic op L74 — '*Huuropbrengsten *of rekening 70 *Omzet[^2] *' heeft een spatie vóór de afsluitende asterisk waardoor de italic niet correct sluit; dit patroon duidt op een extractieartefact waarbij een footnote-marker de italic-span doorkruist. Geen andere structurele problemen; inhoud is volledig en alle zeven headings zijn correct."
-    layer1:
-      status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 7
-      max_section_chars: 2238
-      file_size_chars: 10492
-      flags: []
-    layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:21:40Z'
-      rationale: "D4: malformed italic op L74 — '*Huuropbrengsten *of rekening 70 *Omzet[^2] *' heeft een spatie vóór de afsluitende asterisk waardoor de italic niet correct sluit; dit patroon duidt op een extractieartefact waarbij een footnote-marker de italic-span doorkruist. Geen andere structurele problemen; inhoud is volledig en alle zeven headings zijn correct."
-      concrete_problemen:
-        - regel: 74
-          categorie: D4
-          type: other
-          voorbeeld: rekening 744 *Huuropbrengsten *of rekening 70 *Omzet[^2] *wordt gecrediteerd
-gerelateerde_adviezen:
-  - titel: Rekening 26 Overige materiële vaste activa
-    url: https://www.cbn-cnc.be/nl/adviezen/rekening-26-overige-materiele-vaste-activa
-    datum: '2021-06-23'
-  - titel: Leasing
-    url: https://www.cbn-cnc.be/nl/adviezen/leasing
-    datum: '2015-06-24'
-  - titel: De boekhoudkundige verwerking van toegekende voordelen bij het afsluiten van een huurovereenkomst
-    url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-toegekende-voordelen-bij-het-afsluiten-van-een
-    datum: '2012-01-11'
-  - titel: Bouwwerken op andermans grond
-    url: https://www.cbn-cnc.be/nl/adviezen/bouwwerken-op-andermans-grond
-    datum: '1986-07-01'
 ---
 
 # CBN-advies 2021/05 - Boekhoudrechtelijke behandeling van kwijtschelding van huur ten gevolge van de COVID-19-pandemie
@@ -75,7 +75,7 @@ In onderhavig advies tracht de Commissie een antwoord te bieden op de ontvangen 
 
 De Commissie brengt in herinnering dat de boekhoudkundige verwerking van huurgelden die niet kwalificeren als een boekhoudrechtelijke financiële leasing over het algemeen gebeurt via de resultatenrekening:
 
-- in hoofde van de verhuurder: rekening 744 *Huuropbrengsten *of rekening 70 *Omzet[^2] *wordt gecrediteerd ten belope van het bedrag van de huur en rekening 550 *Kredietinstellingen: Rekening-courant* wordt gedebiteerd ten belope van hetzelfde bedrag; 
+- in hoofde van de verhuurder: rekening 744 *Huuropbrengsten* of rekening 70 *Omzet[^2]* wordt gecrediteerd ten belope van het bedrag van de huur en rekening 550 *Kredietinstellingen: Rekening-courant* wordt gedebiteerd ten belope van hetzelfde bedrag; 
 - in hoofde van de huurder: rekening 610 *Huur en huurlasten* wordt gedebiteerd ten belope van het bedrag van de huur en rekening 550 *Kredietinstellingen: Rekening-courant* wordt gecrediteerd ten belope van hetzelfde bedrag. 
 
 ## Toepasselijkheid CBN-advies 2012/2

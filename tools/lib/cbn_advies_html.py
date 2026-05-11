@@ -480,6 +480,11 @@ _BODY_NOISE_LINE_PATTERNS = [
     re.compile(r'^[ \t]*#\s+CBN-advies\s.*$', re.IGNORECASE),
     re.compile(r'^[ \t]*#\s+Avis\s+CNC\s.*$', re.IGNORECASE),
     re.compile(r'^[ \t]*#[ \t]*[\xa0\s]*$'),
+    # TOC-blob met `--`-separators: `-- Item -- Item -- Item ...` of
+    # `1. Item -- 2. Item -- 3. Item ...` — geconcateneerde TOC die de
+    # scraper uit de dropdown-navigatie haalt.
+    re.compile(r'^\s*-{2,}\s+\S.*?\s+-{2,}\s+\S.*?\s+-{2,}\s+\S'),
+    re.compile(r'^\s*\S.*?\s+-{2,}\s+\S.*?\s+-{2,}\s+\S.*?\s+-{2,}\s+\S'),
 ]
 
 
@@ -612,25 +617,123 @@ def _promote_implicit_headings(md: str) -> str:
 
 
 def _cleanup_markdown(md: str) -> str:
+    # ─── 1. Unicode-normalisatie (A4) ────────────────────────────────────────
     # Vervang non-breaking spaces (U+00A0) door gewone spaties.
-    # CBN-HTML gebruikt &nbsp; vaak als woord-scheidingsteken; voor markdown/RAG
-    # is dat schadelijk (verstoort tokenization en search). Eén opeenvolgende
-    # NBSP → één spatie (collapse meerdere NBSPs).
     md = re.sub(r'\xa0+', ' ', md)
+    # U+2010 HYPHEN → ASCII hyphen-minus. CBN-HTML gebruikt soms U+2010
+    # i.p.v. U+002D, wat tokenization en search verstoort.
+    md = md.replace('‐', '-')
+    # U+00AC NOT SIGN (¬) wordt door sommige CBN-pagina's gebruikt als
+    # pseudo-soft-hyphen (bv. `VVPR¬aandelen`); normaliseer naar gewone hyphen.
+    md = md.replace('¬', '-')
+    # U+0133 IJ-ligatuur → "ij" (komt voor in oudere PDF-extractie).
+    md = md.replace('ĳ', 'ij').replace('Ĳ', 'IJ')
     # Eventuele dubbele spaties die ontstaan door collapse weer normaliseren,
     # behalve aan begin van regel (markdown indent kan betekenisvol zijn).
     md = re.sub(r'(?<=\S)  +', ' ', md)
 
+    # ─── 2. HTML-entities decoderen (G2) ─────────────────────────────────────
+    # convert_charrefs=True in de parser dekt enkelvoudig-gecodeerde entities,
+    # maar dubbel-gecodeerde entities (`&amp;quot;`, `&amp;#039;`) komen door
+    # in body en frontmatter. Decodeer ze hier post-hoc.
+    md = (md
+          .replace('&amp;quot;', '"')
+          .replace('&amp;#039;', "'")
+          .replace('&amp;apos;', "'")
+          .replace('&amp;amp;', '&')
+          .replace('&amp;lt;', '<')
+          .replace('&amp;gt;', '>')
+          .replace('&amp;nbsp;', ' ')
+          # Standalone `&amp;` (literal "&") als laatste — orde belangrijk.
+          .replace('&amp;', '&'))
+
+    # ─── 3. Whitespace normalisatie ──────────────────────────────────────────
     lines = [(l if l.strip() else '') for l in md.split('\n')]
     md = '\n'.join(lines)
 
+    # ─── 4. Footnote-marker line-break-fixes (A6) ────────────────────────────
+    # `[^N]\n.` of `[^N]\n,` etc — punctuatie op nieuwe regel: trek terug.
     md = re.sub(r'(\[\^\d+\])\s*\n\s*([\.\,\;\:\)\]])', r'\1\2', md)
+    # `[^N]\n<leading-ws><kleinletter>` — zin loopt door, vervang break met spatie.
     md = re.sub(
-        r'(\[\^\d+\])[ \t]*\n[ \t]+(?=[A-Za-zéèêëàâîïôûüçñ"“”\(\[])',
+        r'(\[\^\d+\])[ \t]*\n[ \t]+(?=[a-zéèêëàâîïôûüçñ"“”\(\[])',
+        r'\1 ', md
+    )
+    # `[^N]\n<kleinletter>` — zelfde, zonder leading whitespace.
+    md = re.sub(
+        r'(\[\^\d+\])\n(?=[a-zéèêëàâîïôûüçñ])',
         r'\1 ', md
     )
 
+    # ─── 5. Malformed italic/bold (D4) ───────────────────────────────────────
+    # `*text *` (spatie voor sluitende `*`) → `*text* ` — verschuif spatie
+    # naar buiten zodat italic-span CommonMark-compliant sluit.
+    # Content moet starten met non-whitespace (anders matched de regex
+    # spuriously over twee aangrenzende italic-spans heen).
+    md = re.sub(
+        r'\*(\S[^*\n]{0,200}?)([ \t]+)\*(?!\*)',
+        lambda m: '*' + m.group(1).rstrip() + '*' + m.group(2),
+        md,
+    )
+    # Idem voor bold `**text **`.
+    md = re.sub(
+        r'\*\*(\S[^*\n]{0,200}?)([ \t]+)\*\*',
+        lambda m: '**' + m.group(1).rstrip() + '**' + m.group(2),
+        md,
+    )
+
+    # ─── 6. Losse asterisk-regels strippen ───────────────────────────────────
     md = re.sub(r'^\s*\*+(\s*\*+)*\s*$', '', md, flags=re.MULTILINE)
+
+    # ─── 7. Losse `[^N]` op eigen regel als artefact (D3) ────────────────────
+    # Een regel die enkel uit footnote-markers bestaat is meestal een floating
+    # artefact dat de scraper na een tabel-cel kwijt is geraakt. Verwijder
+    # (de definitie blijft onderaan in de footnotes-sectie).
+    md = re.sub(r'^\s*(?:\[\^\d+\]\s*){1,3}\s*$', '', md, flags=re.MULTILINE)
+
+    # ─── 8. TOC-blob met `--`-separators op één regel ────────────────────────
+    # Patroon (a): `1. Inleiding ------ 2. Toepassing ------ 3. ...` —
+    # plain-text concatenatie van een TOC. Geen body-content; strippen.
+    md = re.sub(
+        r'^\s*\d+\.\s+\S[^\n]{0,80}(?:\s*-{2,}\s*\d+\.\s+\S[^\n]{0,80}){2,}\s*$',
+        '', md, flags=re.MULTILINE,
+    )
+    # Patroon (b): `-- Eerste -- Tweede -- Derde ...` — TOC zonder nummering,
+    # met `-- ` als prefix-separator. Vereist ≥3 items zodat we geen normale
+    # zin met enkele em-dashes raken.
+    md = re.sub(
+        r'^\s*-{2,}[ \t]+\S[^\n]{0,80}(?:\s*-{2,}[ \t]+\S[^\n]{0,80}){2,}\s*$',
+        '', md, flags=re.MULTILINE,
+    )
+
+    # ─── 8b. Demote misclassified `### <full sentence>` (B1/B5) ──────────────
+    # De parser zet `<p class="indented">` om naar `### `. Voor korte labels
+    # ("Voorbeeld 1", "Casus") is dat correct, maar voor volledige zinnen
+    # (typisch >80 chars of eindigend op leesteken) is dat een bug. Demote
+    # terug naar plain paragraaf.
+    def _demote_sentence_h3(m: re.Match) -> str:
+        body = m.group(1).rstrip()
+        if len(body) > 80 or re.search(r'[\.\,\;\:\?]$', body):
+            return body
+        return m.group(0)
+    md = re.sub(r'^###\s+(.+?)\s*$', _demote_sentence_h3, md, flags=re.MULTILINE)
+
+    # ─── 9. Duplicate top-level H1 wegwerken (B3) ────────────────────────────
+    # Als er twee opeenvolgende `# Title`-regels staan met identieke tekst,
+    # houd de eerste.
+    lines = md.split('\n')
+    out = []
+    last_h1 = None
+    for ln in lines:
+        m = re.match(r'^#\s+(.+?)\s*$', ln)
+        if m and last_h1 is not None and m.group(1).strip() == last_h1:
+            continue  # skip duplicate
+        out.append(ln)
+        if m:
+            last_h1 = m.group(1).strip()
+        elif ln.strip():
+            last_h1 = None  # reset tussen niet-blanke regels
+    md = '\n'.join(out)
 
     md = re.sub(r'\n{3,}', '\n\n', md)
     return md.strip() + '\n'

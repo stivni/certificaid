@@ -1,6 +1,58 @@
 ---
-nummer: CBN-advies 2010/13
+bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-belasting-over-de-toegevoegde-waarde-in-hoofde-van-de
 datum: 2010-09-08
+gerelateerde_adviezen:
+  - datum: '2017-02-01'
+    titel: 'Invoer: douanerechten en verlegging van de heffing van de btw'
+    url: https://www.cbn-cnc.be/nl/adviezen/invoer-douanerechten-en-verlegging-van-de-heffing-van-de-btw
+  - datum: '2016-09-07'
+    titel: Prestaties geleverd aan overheid – verschuldigde btw
+    url: https://www.cbn-cnc.be/nl/adviezen/prestaties-geleverd-aan-overheid-verschuldigde-btw
+nummer: CBN-advies 2010/13
+provenance:
+  generated_at: '2026-05-11T13:05:08Z'
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-belasting-over-de-toegevoegde-waarde-in-hoofde-van-de
+      sha256: 756db94869f927c4b46b7cf51c063da0b0ec4779826778b0b1fd161f31c2995c
+      version:
+  stale: false
+  stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
+  trust:
+    confirmed_at: '2026-05-11T12:09:17Z'
+    confirmed_by: subagent-sonnet-4-6
+    layer1:
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:27Z'
+      heading_count: 4
+      max_section_chars: 4021
+      file_size_chars: 10140
+      flags: []
+    layer2:
+      agent: subagent-sonnet-4-6
+      concrete_problemen:
+        - categorie: G3
+          regel: 132
+          type: other
+          voorbeeld: ' [^14]'
+        - categorie: G3
+          regel: 141
+          type: other
+          voorbeeld: ' [^15]'
+        - categorie: G3
+          regel: 150
+          type: other
+          voorbeeld: ' [^16][^17]'
+      rationale: 'D4: regel 132 bevat een losstaande voetnootreferentie ''[^14]'' op een lege regel tussen twee alinea''s — dit is een inline-fragment dat in de PDF als voetnootanker aan een tabel was gekoppeld maar nu zweeft als zinloze regel. Hetzelfde patroon op regels 141 en 150. Verder is de inhoud compleet en structureel goed.'
+      run_at: '2026-05-11T12:09:17Z'
+      status: needs-rework
+    rationale: 'D4: regel 132 bevat een losstaande voetnootreferentie ''[^14]'' op een lege regel tussen twee alinea''s — dit is een inline-fragment dat in de PDF als voetnootanker aan een tabel was gekoppeld maar nu zweeft als zinloze regel. Hetzelfde patroon op regels 141 en 150. Verder is de inhoud compleet en structureel goed.'
+    status: needs-rework
 themas:
   - btw
   - btw-eenheid
@@ -9,58 +61,6 @@ themas:
   - levering van goederen
   - toelichting
   - wachtrekening
-bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-belasting-over-de-toegevoegde-waarde-in-hoofde-van-de
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-belasting-over-de-toegevoegde-waarde-in-hoofde-van-de
-      sha256: 756db94869f927c4b46b7cf51c063da0b0ec4779826778b0b1fd161f31c2995c
-      version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:36:01Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T12:09:17Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "D4: regel 132 bevat een losstaande voetnootreferentie '[^14]' op een lege regel tussen twee alinea's — dit is een inline-fragment dat in de PDF als voetnootanker aan een tabel was gekoppeld maar nu zweeft als zinloze regel. Hetzelfde patroon op regels 141 en 150. Verder is de inhoud compleet en structureel goed."
-    layer1:
-      status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 4
-      max_section_chars: 4051
-      file_size_chars: 10171
-      flags: []
-    layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:09:17Z'
-      rationale: "D4: regel 132 bevat een losstaande voetnootreferentie '[^14]' op een lege regel tussen twee alinea's — dit is een inline-fragment dat in de PDF als voetnootanker aan een tabel was gekoppeld maar nu zweeft als zinloze regel. Hetzelfde patroon op regels 141 en 150. Verder is de inhoud compleet en structureel goed."
-      concrete_problemen:
-        - regel: 132
-          categorie: G3
-          type: other
-          voorbeeld: ' [^14]'
-        - regel: 141
-          categorie: G3
-          type: other
-          voorbeeld: ' [^15]'
-        - regel: 150
-          categorie: G3
-          type: other
-          voorbeeld: ' [^16][^17]'
-gerelateerde_adviezen:
-  - titel: 'Invoer: douanerechten en verlegging van de heffing van de btw'
-    url: https://www.cbn-cnc.be/nl/adviezen/invoer-douanerechten-en-verlegging-van-de-heffing-van-de-btw
-    datum: '2017-02-01'
-  - titel: Prestaties geleverd aan overheid – verschuldigde btw
-    url: https://www.cbn-cnc.be/nl/adviezen/prestaties-geleverd-aan-overheid-verschuldigde-btw
-    datum: '2016-09-07'
 ---
 
 # CBN-advies 2010-13 - Boekhoudkundige verwerking van de belasting over de toegevoegde waarde in hoofde van de leden van een btw-eenheid Advies van 8 september 2010
@@ -69,8 +69,7 @@ gerelateerde_adviezen:
 
 Onder de naam belasting over de toegevoegde waarde (hierna: btw) werd een omzetbelasting ingevoerd, die geheven wordt onder de voorwaarden en met inachtneming van de regelen bepaald in het Wetboek van de belasting over de toegevoegde waarde (hierna: Wbtw)[^1].
 
-De belastingplichtigen moeten periodiek aangifte doen van het bedrag van de opeisbare belasting, van de te verrichten aftrek en van de te verrichten herzieningen[^2]
- en een aan de omvang van hun activiteiten aangepaste boekhouding voeren om de btw te kunnen toepassen en controleren[^3].
+De belastingplichtigen moeten periodiek aangifte doen van het bedrag van de opeisbare belasting, van de te verrichten aftrek en van de te verrichten herzieningen[^2] en een aan de omvang van hun activiteiten aangepaste boekhouding voeren om de btw te kunnen toepassen en controleren[^3].
 
 ## Btw-eenheid
 
@@ -110,8 +109,7 @@ De leveringen van goederen en diensten tussen de leden van een btw-eenheid valle
 | | 604 | Handelsgoederen | 1.000 | |
 | aan | 440 | Leveranciers | | 1.000 |
 
-De leveringen door derden van goederen en diensten aan een lid van de btw-eenheid, gebeuren, voor de toepassing van de btw, aan de btw-eenheid. In hoofde van het lid ontstaat op het moment van de btw-aangifte een vordering op de vertegenwoordiger van de btw-eenheid (qualitate qua). Totdat de aangifte wordt ingediend, dient deze vordering op een wachtrekening[^13]
- geboekt te worden.
+De leveringen door derden van goederen en diensten aan een lid van de btw-eenheid, gebeuren, voor de toepassing van de btw, aan de btw-eenheid. In hoofde van het lid ontstaat op het moment van de btw-aangifte een vordering op de vertegenwoordiger van de btw-eenheid (qualitate qua). Totdat de aangifte wordt ingediend, dient deze vordering op een wachtrekening[^13] geboekt te worden.
 
 *Voorbeeld*
 
@@ -141,8 +139,6 @@ Op het moment van het indienen van de btw-aangifte door de vertegenwoordiger van
 
 *Lid A beschikt, na saldering van de wachtrekeningen, over een vordering van 210 ten opzichte van de vertegenwoordiger van de btw-eenheid, aangezien deze de btw dient terug te vorderen van de Staat.*
 
- [^14]
-
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 411 | Terug te vorderen btw | 210 | |
@@ -150,16 +146,12 @@ Op het moment van het indienen van de btw-aangifte door de vertegenwoordiger van
 
 *Lid B heeft, na saldering van de wachtrekeningen, een schuld van 210 ten aanzien van de vertegenwoordiger van de btw-eenheid, aangezien deze de btw dient te storten aan de Staat.*
 
- [^15]
-
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 499 | Wachtrekeningen | 420 | |
 | aan | 451 | Te betalen btw | | 420 |
 
 *Lid C, in de hoedanigheid van vertegenwoordiger van de btw-eenheid, heeft een schuld van 210 ten opzichte van de Staat.*
-
- [^16][^17]
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|

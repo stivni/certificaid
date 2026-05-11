@@ -3,50 +3,52 @@ bron: https://www.cbn-cnc.be/nl/adviezen/vragen-en-antwoorden-over-de-sociale-ba
 datum: 1997-04-01
 nummer: CBN-advies S100
 provenance:
-  generated_at: '2026-05-08T18:33:38Z'
+  generated_at: '2026-05-11T13:05:05Z'
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/vragen-en-antwoorden-over-de-sociale-balans
-    sha256: cb84fe1ae9d8be8471967c71bfe887a1b47653223a98da9e947667eef91b128f
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/vragen-en-antwoorden-over-de-sociale-balans
+      sha256: cb84fe1ae9d8be8471967c71bfe887a1b47653223a98da9e947667eef91b128f
+      version:
   stale: false
-  stale_reason: null
+  stale_reason:
   tooling:
-    model: null
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    prompt_version: null
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
   trust:
-    confirmed_at: '2026-05-08T19:02:27Z'
-    confirmed_by: subagent-laag2-ronde2
+    confirmed_at:
+    confirmed_by:
     layer1:
-      file_size_chars: 127425
-      flags: []
-      heading_count: 91
-      max_section_chars: 22123
-      run_at: null
-      run_id: 20260511-083333
-      status: pass
+      status: warn
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:24Z'
+      heading_count: 86
+      max_section_chars: 25951
+      file_size_chars: 127399
+      flags:
+        - name: max_section_size
+          status: warn
+          detail: 'langste sectie op ###-niveau: 25951 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
+          samples: []
     layer2:
-      agent: subagent-laag2-ronde2
+      agent:
       concrete_problemen: []
-      rationale: '[Laag-2-R2 2026-05-08] 91 geneste Markdown-headings zorgen voor
-        fijnkorrelige chunking buiten de lange sectie. Inhoud volledig coherent; grote
-        sectie is gevolg van rijke Q&A structuur, niet van scraping-fout.'
-      run_at: '2026-05-08T19:02:27Z'
-      status: trusted
-    rationale: Laag-2 trusted door subagent-laag2-ronde2 (zie layer2.rationale)
-    status: trusted
+      rationale:
+      run_at:
+      status: not_run
+    rationale: 'Trust gereset 2026-05-11: re-scrape met scraper-fixes, content-diff > 5%'
+    status: unreviewed
 themas:
-- ter beschikking van de onderneming gestelde personen
-- statutair
-- personeel
-- personeelskosten
-- aantal daadwerkelijk gepresteerde uren
-- gemiddeld aantal werknemers
-- maatregelen ten gunste van de werkgelegenheid
-- uitzendkracht
-- sociale balans
-- voordelen bovenop het loon
+  - ter beschikking van de onderneming gestelde personen
+  - statutair
+  - personeel
+  - personeelskosten
+  - aantal daadwerkelijk gepresteerde uren
+  - gemiddeld aantal werknemers
+  - maatregelen ten gunste van de werkgelegenheid
+  - uitzendkracht
+  - sociale balans
+  - voordelen bovenop het loon
 ---
 
 # CBN-advies S100 - Vragen en antwoorden over de sociale balans
@@ -162,7 +164,7 @@ themas:
 
 ## Inleiding
 
-De sociale balans werd ingevoerd door het koninklijk besluit van 4 augustus 1996, dat is verschenen in het *Belgisch Staatsblad *van 30 augustus 1996. 
+De sociale balans werd ingevoerd door het koninklijk besluit van 4 augustus 1996, dat is verschenen in het *Belgisch Staatsblad* van 30 augustus 1996. 
 
 De eerste toepassing ervan met betrekking tot de staat van het tewerkgestelde personeel per einde 1995 en de maatregelen ten gunste van de werkgelegenheid (die de ondernemingen tijdens dat jaar genoten hebben) heeft aanleiding gegeven tot heel wat interpretatievragen. sommige betroffen de overgangsregeling over het jaar 1995; de meeste hadden echter betrekking op de organieke regeling die van toepassing is vanaf het eerste boekjaar dat na 31 december 1995 begonnen is.
 
@@ -176,8 +178,7 @@ De gestelde vragen en de uitdieping van de tekst van het koninklijk besluit hebb
 
 ## Ondernemingen die in aanmerking komen voor de sociale balans
 
-De verplichting tot het opmaken van een sociale balans[^1]
- geldt voor de ondernemingen die bedoeld zijn in artikel 44 van de Wet van 22 december 1995 houdende maatregelen tot uitvoering van het meerjarenplan voor de werkgelegenheid[^2] en in het uitvoeringsbesluit van 4 augustus 1996 betreffende de sociale balans.[^3] 
+De verplichting tot het opmaken van een sociale balans[^1] geldt voor de ondernemingen die bedoeld zijn in artikel 44 van de Wet van 22 december 1995 houdende maatregelen tot uitvoering van het meerjarenplan voor de werkgelegenheid[^2] en in het uitvoeringsbesluit van 4 augustus 1996 betreffende de sociale balans.[^3] 
 
 In de praktijk moeten bij de huidige stand van de wetgeving en reglementering, verschillende gevallen worden onderscheiden: 
 
@@ -194,8 +195,7 @@ Zowel naar de Nationale Bank van België (NBB) toe, die de gegevens overeenkomst
 - met "openbaarmaking" wordt hierna bedoeld : openbaarmaking (in casu van de jaarrekening en van de sociale balans als onderdeel daarvan) door neerlegging bij de NBB, overeenkomstig de bepalingen van het KB van 25 november 1991 op de openbaarmaking van akten en stukken van vennootschappen en ondernemingen. De betrokken documenten worden door de NBB beschikbaar gesteld voor het publiek, in de vorm bepaald in artikel 21 van het vermelde KB; 
 - met "bezorgen aan de NBB" wordt hierna bedoeld : het feitelijk doen toekomen (van de sociale balans, buiten de jaarrekening, voor zover die laatste bestaat) bij de NBB buiten de context van de openbaarmaking. De NBB is niet gemachtigd om de betrokken documenten ter beschikking te stellen van het publiek. 
 
-Ondernemingen die hun sociale balans overeenkomstig artikel 20 van het KB betreffende de sociale balans aan de NBB moeten bezorgen, kunnen bij de NBB een aangepast formulier verkrijgen waarop ze hun sociale balans kunnen invullen en sturen bij voorkeur het ingevulde formulier[^4]
- terug met de post, naar : 
+Ondernemingen die hun sociale balans overeenkomstig artikel 20 van het KB betreffende de sociale balans aan de NBB moeten bezorgen, kunnen bij de NBB een aangepast formulier verkrijgen waarop ze hun sociale balans kunnen invullen en sturen bij voorkeur het ingevulde formulier[^4] terug met de post, naar : 
 
 Nationale Bank van België Balanscentrale - "Sociale balans" de Berlaimontlaan 14 1000 Brussel 
 
@@ -257,8 +257,7 @@ Ook hier moet een onderscheid worden gemaakt naargelang de jaarrekening al dan n
 
 1. De interbedrijfsgeneeskundige diensten die volgens de Boekhoudwet van 17 juli 1975 als groot worden beschouwd, moeten hun jaarrekening openbaar maken. Hun sociale balans, die van de jaarrekening deel uitmaakt, moet opgemaakt zijn volgens het volledig schema (van sociale balans). 
 
-	Het feit dat deze interbedrijfsgeneeskundige diensten voor de openbaarmaking van hun jaarrekening kunnen genieten van het verlaagd neerleggingstarief[^16]
- doet daar geen afbreuk aan. 
+	Het feit dat deze interbedrijfsgeneeskundige diensten voor de openbaarmaking van hun jaarrekening kunnen genieten van het verlaagd neerleggingstarief[^16] doet daar geen afbreuk aan. 
 2. De interbedrijfsgeneeskundige diensten die volgens de Boekhoudwet als KMO's worden beschouwd zijn niet verplicht hun jaarrekening openbaar te maken. Zij moeten wel hun sociale balans aan de NBB bezorgen binnen zeven maanden na afsluiting van hun boekjaar. 
 
 	Deze kan volgens het "Verkort schema" worden opgesteld. 
@@ -302,7 +301,8 @@ Gezien de omvang van deze ondernemingen zal hun sociale balans doorgaans volgens
 
 ##### De intercommunales 
 
-Intercommunales zijn rechtspersonen die onderworpen zijn aan het publiek recht.[^24] Als een intercommunale een rechtsvorm[^25] heeft die tot gevolg heeft dat zij haar jaarrekening openbaar moet maken, overeenkomstig het KB van 8 oktober 1976 met betrekking tot de jaarrekeningen van de ondernemingen, moet die jaarrekening in principe een sociale balans omvatten.
+Intercommunales zijn rechtspersonen die onderworpen zijn aan het publiek recht.[^24]
+ Als een intercommunale een rechtsvorm[^25] heeft die tot gevolg heeft dat zij haar jaarrekening openbaar moet maken, overeenkomstig het KB van 8 oktober 1976 met betrekking tot de jaarrekeningen van de ondernemingen, moet die jaarrekening in principe een sociale balans omvatten.
 
 De intercommunales zijn echter als "openbare instellingen die ressorteren onder (...) de gemeenten", op grond van hetzelfde KB als de instellingen van openbaar nut, vrijgesteld van het bijhouden van een personeelsregister; als ze effectief geen personeelsregister bijhouden, zijn de vermeldingen van de sociale balans met betrekking tot de "in het personeelsregister ingeschreven werknemers" zonder voorwerp, zelfs ingeval er naast "statutaire werknemers" ook andere werknemers met een arbeidsovereenkomst te werk worden gesteld.
 
@@ -384,7 +384,7 @@ onafhankelijk van de grootte van de onderneming alle onbeperkt aansprakelijke ve
 
 Ze vallen niet onder toepassing van het KB betreffende de sociale balans. 
 
-#### **De ondernemingen zonder afzonderlijke rechtspersoonlijkheid **
+#### **De ondernemingen zonder afzonderlijke rechtspersoonlijkheid** 
 
 Volgende ondernemingen zonder afzonderlijke rechtspersoonlijkheid vallen, om die reden buiten de toepassing van het KB betreffende de sociale balans : 
 
@@ -392,9 +392,10 @@ Volgende ondernemingen zonder afzonderlijke rechtspersoonlijkheid vallen, om die
 - tijdelijke handelsverenigingen en handelsverenigingen bij wijze van deelneming[^34]; 
 - vakbonden. 
 
-De vakbonden zijn in principe feitelijke verenigingen. De wet heeft niettemin de vakbonden die als representatief worden erkend,[^35] de bevoegdheid verleend bepaalde rechtshandelingen te stellen en, in bepaalde gevallen, in rechte op te treden.[^36] Dit heeft echter niet tot gevolg dat aan de representatieve werknemersorganisaties een eigen rechtspersoonlijkheid wordt toegekend (hetzelfde geldt in hoofde van de representatieve werkgeversorganisaties). 
+De vakbonden zijn in principe feitelijke verenigingen. De wet heeft niettemin de vakbonden die als representatief worden erkend,[^35] de bevoegdheid verleend bepaalde rechtshandelingen te stellen en, in bepaalde gevallen, in rechte op te treden.[^36]
+ Dit heeft echter niet tot gevolg dat aan de representatieve werknemersorganisaties een eigen rechtspersoonlijkheid wordt toegekend (hetzelfde geldt in hoofde van de representatieve werkgeversorganisaties). 
 
-#### **Ondernemingen die een geconsolideerde jaarrekening openbaar moeten maken **
+#### **Ondernemingen die een geconsolideerde jaarrekening openbaar moeten maken** 
 
 Ondernemingen die in uitvoering van het KB van 6 maart 1990 op de geconsolideerde jaarrekening van de ondernemingen, een geconsolideerde jaarrekening openbaar moeten maken, nemen hun sociale balans op in hun enkelvoudige jaarrekening. De geconsolideerde jaarrekening omvat geen geconsolideerde sociale balans.
 
@@ -404,9 +405,9 @@ Voor de ondernemingen die verplicht zijn een sociale balans op te maken, komt he
 
 In de mate dat hierna specifieke categorieën van werknemers worden behandeld, wordt systematisch vermeld hoe ze verder in de diverse delen van de sociale balans al dan niet worden vermeld.
 
-### **Onderworpen werknemers **
+### **Onderworpen werknemers** 
 
-#### **Principes **
+#### **Principes** 
 
 Het artikel 45 van de Wet van 22 december 1995 bepaalt dat de sociale balans betrekking heeft op het personeelsbestand, dat overeenkomt met "alle personen die, uit hoofde van een overeenkomst, arbeidsprestaties leveren onder gezag van een andere persoon en de personen die arbeidsprestaties leveren onder gezag van een andere persoon dan hun werkgever". 
 
@@ -417,7 +418,7 @@ Het KB van 4 augustus 1996, genomen in uitvoering van de Wet van 22 december 199
 
 Deze twee categorieën moeten duidelijk worden onderscheiden vermits in het volledig schema van de sociale balans de werknemers van de eerste categorie vermeld moeten worden onder het punt I.A. van de "Staat van de tewerkgestelde personen", terwijl de personen van de tweede categorie voorkomen onder het punt I.B van dezelfde staat (enkel in het "volledig schema" van de sociale balans). 
 
-#### **Werknemers ingeschreven in het personeelsregister **
+#### **Werknemers ingeschreven in het personeelsregister** 
 
 ##### Principes 
 
@@ -446,7 +447,7 @@ Bestuurders, zaakvoerders en werkende vennoten worden slechts in aanmerking geno
 Bezoldigingen, premies voor buitenwettelijke verzekeringen, ouderdoms- en overlevingspensioenen van bestuurders, zaakvoerders en werkende vennoten, die niet worden toegekend uit hoofde van een arbeidsovereenkomst, worden (vanaf het boekjaar dat begint na 31 december 1995) :
 
 - geboekt op de (nieuwe) gelijknamige rekening 618; 
-- niet opgenomen in de rubriek 102 - *Personeelskosten *van de sociale balans. 
+- niet opgenomen in de rubriek 102 - *Personeelskosten* van de sociale balans. 
 
 Het overeenkomstig aantal daadwerkelijk gepresteerde uren wordt dus evenmin opgenomen in de gelijknamige rubriek 101 van de sociale balans. 
 
@@ -496,11 +497,12 @@ Een leerling wordt beschouwd als "deeltijds" gelet op de tijd die gebruikt wordt
 
 Het aantal daadwerkelijk gepresteerde uren van de leerling worden opgenomen in de rubriek 101 van de sociale balans[^49] (de dagen waarop een leerling lessen volgt, worden voor de sociale balans niet als arbeidsdagen meegeteld, in tegenstelling met wat voor de RSZ-kwartaalaangiften het geval is), terwijl de maandelijkse toelage of vergoeding[^50] wordt opgenomen in de rubriek 102 *Personeelskosten* van de sociale balans.
 
-Hetzelfde geldt voor personen die werken onder het stelsel van een "Individuele Beroepsopleiding" (IBO) in uitvoering van artikel 120-127 van het besluit van de Vlaamse Executieve van 21 december 1988.[^51] Het verplichte (geschreven) IBO-contract, dat wordt gesloten tussen de ondernemer-opleider, de toegelaten werkloze en de bemiddelingsinstelling (VBDA, BGDA of FOREM), is onderworpen aan het KB nr. 5 van 23 oktober 1978 betreffende het bijhouden van sociale documenten. Deze personen moeten dus ingeschreven worden in het personeelsregister, zodat ze in aanmerking moeten worden genomen voor de sociale balans.
+Hetzelfde geldt voor personen die werken onder het stelsel van een "Individuele Beroepsopleiding" (IBO) in uitvoering van artikel 120-127 van het besluit van de Vlaamse Executieve van 21 december 1988.[^51]
+ Het verplichte (geschreven) IBO-contract, dat wordt gesloten tussen de ondernemer-opleider, de toegelaten werkloze en de bemiddelingsinstelling (VBDA, BGDA of FOREM), is onderworpen aan het KB nr. 5 van 23 oktober 1978 betreffende het bijhouden van sociale documenten. Deze personen moeten dus ingeschreven worden in het personeelsregister, zodat ze in aanmerking moeten worden genomen voor de sociale balans.
 
 Bij een IBO verbindt de onderneming die de opleiding verschaft, er zich toe om de stagiair aan het einde van de opleiding als loontrekkende aan te werven en hem in dienst te houden voor een duur die ten minste gelijk is aan de duur van de opleiding. Na de opleiding (van minimum 4 weken en normaliter maximum 6 maand) wordt een arbeidsovereenkomst van onbepaalde duur gesloten.
 
-De IBO-stagiair behoudt zijn werkloosheidspremie en krijgt een bijkomende vergoeding van de onderneming, een «productiviteitspremie» genoemd; deze bijkomende vergoeding wordt geboekt als 62 - *Personeelskosten *en ook opgenomen in de rubriek 102 - *Personeelskosten* van de sociale balans. 
+De IBO-stagiair behoudt zijn werkloosheidspremie en krijgt een bijkomende vergoeding van de onderneming, een «productiviteitspremie» genoemd; deze bijkomende vergoeding wordt geboekt als 62 - *Personeelskosten* en ook opgenomen in de rubriek 102 - *Personeelskosten* van de sociale balans. 
 
 Het past hier te herhalen dat o.m. dit maakt dat de vergelijking tussen de personeelskosten enerzijds en het gemiddeld aantal werknemers anderzijds met het nodige voorbehoud moet gebeuren.
 
@@ -533,7 +535,7 @@ Conventioneel halftijds brugpensioen veronderstelt dat een voltijdse werknemer m
 
 De behandeling van deze werknemers zal verder onder punt 2.4.2. van dit advies uitgelegd worden.
 
-#### **Uitzendkrachten en ter beschikking van de onderneming gestelde personen **
+#### **Uitzendkrachten en ter beschikking van de onderneming gestelde personen** 
 
 ##### Uitzendkrachten 
 
@@ -579,9 +581,9 @@ Als een onderneming in de praktijk toch statutairen in haar personeelsregister i
 
 Werknemers wiens toestand niet uitdrukkelijk statutair is geregeld, zijn te beschouwen als werknemers verbonden met een arbeidsovereenkomst.[^57] 
 
-#### **Schoolstages **
+#### **Schoolstages** 
 
-Een student die in het kader van een schoolstage met het oog op het behalen van het diploma, werkzaam is in een onderneming, heeft normaliter geen contract met die onderneming; hij wordt niet ingeschreven in het personeelsregister van die onderneming en wordt dus niet vermeld in het deel I.A. *Staat van de werknemers ingeschreven in het personeelsregister*; vermits zo'n stage in principe niet bezoldigd is, wordt voor de rubriek 101 - *Aantal daadwerkelijk gepresteerde uren* geen rekening gehouden met het aantal daadwerkelijk door de (school)stagiair gepresteerde uren. Als de onderneming in zo'n geval toch beslist een "(school)stagevergoeding" toe te kennen, vertegenwoordigt deze vergoeding geen bezoldiging op te nemen in de rekening 620 van het genormaliseerd rekeningenstelsel.
+Een student die in het kader van een schoolstage met het oog op het behalen van het diploma, werkzaam is in een onderneming, heeft normaliter geen contract met die onderneming; hij wordt niet ingeschreven in het personeelsregister van die onderneming en wordt dus niet vermeld in het deel I.A. *Staat van de werknemers ingeschreven in het personeelsregister*; vermits zo'n stage in principe niet bezoldigd is, wordt voor de rubriek 101 -* Aantal daadwerkelijk gepresteerde uren* geen rekening gehouden met het aantal daadwerkelijk door de (school)stagiair gepresteerde uren. Als de onderneming in zo'n geval toch beslist een "(school)stagevergoeding" toe te kennen, vertegenwoordigt deze vergoeding geen bezoldiging op te nemen in de rekening 620 van het genormaliseerd rekeningenstelsel.
 
 #### **Voltijds conventioneel brugpensioen**
 
@@ -666,7 +668,8 @@ Er zijn twee soorten van brugpensioen, en meteen ook twee soorten van bruggepens
 
 Voltijds conventioneel brugpensioen veronderstelt ontslag door de werkgever, dus beëindiging van de arbeidsovereenkomst.
 
-Oudere werknemers die ontslagen worden, kunnen aanspraak maken op een aanvullende vergoeding bovenop hun werkloosheidsvergoeding tot aan de pensioengerechtigde leeftijd.[^58] Voor bepaalde bruggepensioneerden dient de werkgever de RSZ een bijzondere werkgeversbijdrage te storten.
+Oudere werknemers die ontslagen worden, kunnen aanspraak maken op een aanvullende vergoeding bovenop hun werkloosheidsvergoeding tot aan de pensioengerechtigde leeftijd.[^58]
+ Voor bepaalde bruggepensioneerden dient de werkgever de RSZ een bijzondere werkgeversbijdrage te storten.
 
 In principe moet de bruggepensioneerde (die dus de onderneming definitief verlaat, en met een datum van beëindiging van de arbeidsovereenkomst wordt ingeschreven in het personeelsregister) vervangen worden door één of meer volledig uitkeringsgerechtigde werklozen, aangeworven voor ten minste het zelfde aantal uren als de bruggepensioneerde. De vervanger moet in principe ten minste 36 maand in dienst blijven. Er zijn uitzonderingen op de vervangingsverplichting.[^59] 
 
@@ -691,7 +694,8 @@ D. Rubriek 506 - *(Voltijds) Conventioneel brugpensioen*
 In deze rubriek van de *Staat over het gebruik van de maatregelen ten gunste van de werkgelegenheid tijdens het boekjaar* worden vermeld :
 
 - niet : die werknemers welke met (voltijds) conventioneel brugpensioen vertrokken zijn (gedurende het boekjaar of voordien, tot ze de pensioengerechtigde leeftijd bereiken); 
-- maar wel : de verschillende werknemers die op om het even welk moment tijdens het boekjaar de status hebben gehad van vervanger van een werknemer die de onderneming tijdens het boekjaar of een vorig boekjaar met (voltijds) conventioneel brugpensioen heeft verlaten.[^60] In de kolommen “Aantal” en “In VTE” mag evenwel geen dubbel gebruik zijn (indien een vervanger tijdens het boekjaar wordt vervangen door een andere vervanger, dan wordt enkel rekening gehouden met de laatste). De verschillende vervangers blijven vermeld zolang de vervangingsplicht blijft gelden, dit is in principe zolang de conventioneel bruggepensioneerden niet de pensioengerechtigde leeftijd hebben bereikt. 
+- maar wel : de verschillende werknemers die op om het even welk moment tijdens het boekjaar de status hebben gehad van vervanger van een werknemer die de onderneming tijdens het boekjaar of een vorig boekjaar met (voltijds) conventioneel brugpensioen heeft verlaten.[^60]
+ In de kolommen “Aantal” en “In VTE” mag evenwel geen dubbel gebruik zijn (indien een vervanger tijdens het boekjaar wordt vervangen door een andere vervanger, dan wordt enkel rekening gehouden met de laatste). De verschillende vervangers blijven vermeld zolang de vervangingsplicht blijft gelden, dit is in principe zolang de conventioneel bruggepensioneerden niet de pensioengerechtigde leeftijd hebben bereikt. 
 
 Voor de maatregel “conventioneel brugpensioen” wordt op die manier gewerkt naar analogie met de maatregelen “conventioneel halftijds brugpensioen”, “vermindering van de arbeidsprestaties (deeltijdse loopbaanonderbreking)”en “volledige loopbaanonderbreking”(zie verder). Zoals reeds gezegd heeft de werkgever voor de vervangers van conventioneel bruggepensioneerden geen recht op RSZ-bijdrageverminderingen,[^61] in tegenstelling met wat voor de voornoemde maatregelen het geval is.
 
@@ -745,8 +749,7 @@ Het doel is te tonen hoeveel werknemers tijdens het boekjaar in de onderneming w
 
 ## **Rubrieken van de sociale balans**
 
-### **Rubriek 100 - “Gemiddeld aantal werknemers”, met onderscheid tussen voltijds en deeltijds**
-
+**Rubriek 100 - “Gemiddeld aantal werknemers”, met onderscheid tussen voltijds en deeltijds**
 #### **Onderscheid voltijds - deeltijds**
 
 In de staat van de tewerkgestelde personen en in de tabel van het personeelsverloop tijdens het boekjaar wordt een systematisch onderscheid gemaakt tussen “Voltijds” en “Deeltijds”.
@@ -849,8 +852,7 @@ Het verdient aanbeveling tijdens het boekjaar de volgende samenvattende tabel ma
 
 Het totaal aantal op de afsluitingsdatum van het boekjaar (rubriek met code 9086) is dan de som van het aantal voltijdsen (T1) en het nominaal aantal deeltijdsen (T2).
 
-### **Rubriek 101 - “Aantal daadwerkelijk gepresteerde uren”, met onderscheid tussen voltijds en deeltijds**
-
+**Rubriek 101 - “Aantal daadwerkelijk gepresteerde uren”, met onderscheid tussen voltijds en deeltijds**
 #### **Het begrip “Aantal daadwerkelijk gepresteerde uren”**
 
 De methodologische toelichting betreffende de sociale balans die in het *Belgisch Staatsblad* van 30 augustus 1996 werd gepubliceerd preciseert dat het aantal effectief gepresteerde uren (rubriek 101) omvat : “het totale aantal tijdens het jaar effectief gepresteerde en bezoldigde uren, d.w.z. dat geen rekening wordt gehouden met niet-bezoldigde overuren,[^67] jaarlijkse vakantie, ziekteverlof, klein verlet[^68] en de wegens staking of om andere redenen verloren gegane uren”.
@@ -919,7 +921,7 @@ In het tweede geval moet het personeelslid worden beschouwd als deeltijds tewerk
 
 E. Uitzendkrachten
 
-Door de wijzigingen die door het KB betreffende de sociale balans werden aangebracht aan het KB van 8 oktober 1976 met betrekking tot de jaarrekening van de ondernemingen, worden de diensten gepresteerd door uitzendkrachten beschouwd als diensten waarvan de kost wordt geboekt op een subrekening van rekening 61 - *Diensten en diverse goederen*, en niet op de rekening 62 - *Bezoldigingen, sociale lasten en pensioenen*. Er wordt geen onderscheid gemaakt naargelang deze uitzendkrachten al dan niet in het personeelsregister ingeschreven werknemers vervangen.
+Door de wijzigingen die door het KB betreffende de sociale balans werden aangebracht aan het KB van 8 oktober 1976 met betrekking tot de jaarrekening van de ondernemingen, worden de diensten gepresteerd door uitzendkrachten beschouwd als diensten waarvan de kost wordt geboekt op een subrekening van rekening 61 - *Diensten en diverse goederen*, en niet op de rekening 62 -* Bezoldigingen, sociale lasten en pensioenen*. Er wordt geen onderscheid gemaakt naargelang deze uitzendkrachten al dan niet in het personeelsregister ingeschreven werknemers vervangen.
 
 Deze kosten worden vermeld in de rubriek 152 van de sociale balans.
 
@@ -950,8 +952,7 @@ Een niet-exhaustieve lijst van deze voordelen is opgenomen in de administratieve
 
 In concreto zal de fiscale kwalificatie van een voordeel als “sociaal voordeel” bepalend zijn voor de vermelding van dit voordeel onder de rubriek 103 van de sociale balans, in de mate dat dit voordeel niet reeds onder de rubriek 102 - *Personeelskosten* is opgenomen.
 
-### **Uitsplitsing per beroepscategorie van de in het personeelsregister ingeschreven werknemers**
-
+**Uitsplitsing per beroepscategorie van de in het personeelsregister ingeschreven werknemers**
 De werknemers moeten worden uitgesplitst in vier categorieën :
 
 - het directiepersoneel (rubriek 130); 
@@ -961,20 +962,19 @@ De werknemers moeten worden uitgesplitst in vier categorieën :
 
 De begrippen “arbeiders” en “bedienden” vormen geen enkel probleem, vermits de Wet van 3 juli 1978 betreffende de arbeidsovereenkomsten duidelijke definities bevat.
 
-#### **Rubriek 130 - *Directiepersoneel***
+#### **Rubriek 130 -* Directiepersoneel***
 
 Onder de rubriek 130 van de sociale balans te vermelden directiepersoneel moet worden verstaan, de (in het personeelsregister ingeschreven) werknemers “belast met het dagelijks beheer van de onderneming, die gemachtigd zijn om de werkgever te vertegenwoordigen en te verbinden, alsmede de personeelsleden, onmiddellijk ondergeschikt aan die personen, wanneer zij eveneens opdrachten van dagelijks beheer vervullen".[^73] 
 
 De bestuurders en zaakvoerders met een arbeidsovereenkomst worden, in de sociale balans opgenomen onder de rubriek *Directiepersoneel*.
 
-#### **Rubriek 133 - *Anderen***
+#### **Rubriek 133 -* Anderen***
 
 Dit is een restcategorie en omvat dus alle werknemers die noch bedienden noch arbeiders zijn in de zin van de Wet van 3 juli 1978 en die niet behoren tot het directiepersoneel zoals hierboven gedefinieerd.
 
 Het betreft onder meer de stagiairs en de leerlingen.
 
-### **Uitzendkrachten in de sociale balans van de gebruikende ondernemingen (berekening van het gemiddeld aantal tewerkgestelde uitzendkrachten (rubriek 151, kolom 1)**
-
+**Uitzendkrachten in de sociale balans van de gebruikende ondernemingen (berekening van het gemiddeld aantal tewerkgestelde uitzendkrachten (rubriek 151, kolom 1)**
 Gelet op de bijzondere modaliteiten van de uitzendarbeid enerzijds, en de gewone berekeningswijze die uitgaande van de toestanden per einde maand voor in het personeelsregister ingeschreven werknemers wél maar voor uitzendkrachten geen betekenisvolle cijfers oplevert, wordt voorgesteld het aantal dat moet worden vermeld voor de rubriek 150, kolom 1, te berekenen door :
 
 - het aantal daadwerkelijk door uitzendkrachten gepresteerde (en door het uitzendbureau aan de gebruiker gefactureerde) uren tijdens het boekjaar, vermeld in kolom 1 van de rubriek 151; 
@@ -982,7 +982,7 @@ Gelet op de bijzondere modaliteiten van de uitzendarbeid enerzijds, en de gewone
 
 De uitzendbureaus bezorgen normaliter het aantal daadwerkelijk door uitzendkrachten gepresteerde uren aan hun cliënten-gebruikers, die dan de voorgestelde berekening kunnen uitvoeren.
 
-De kosten die aan het uitzendbureau worden betaald, en moeten worden vermeld in de eerste kolom van rubriek 152 worden niet geboekt op de rekening 62 - *Personeelskosten*, maar op de rekening 617 - *Uitzendkrachten en personen ter beschikking gesteld van de onderneming*, die een subrekening is van 61 - *Diensten en diverse goederen*.
+De kosten die aan het uitzendbureau worden betaald, en moeten worden vermeld in de eerste kolom van rubriek 152 worden niet geboekt op de rekening 62 - *Personeelskosten*, maar op de rekening 617 -* Uitzendkrachten en personen ter beschikking gesteld van de onderneming*, die een subrekening is van 61 -* Diensten en diverse goederen*.
 
 Het saldo van deze rekening 617 komt dus overeen met de som van de bedragen die in de sociale balans vermeld worden in de kolommen 1 en 2 van de rubriek 152.
 
@@ -1075,8 +1075,7 @@ Een werknemer die vervroegd op pensioen gaat is gelijkgesteld met een werknemer 
 
 In de rubriek 350 moet, in voorkomend geval, het “Aantal werknemers dat als zelfstandige ten minste op halftijdse basis diensten blijft verlenen aan de onderneming" worden vermeld. Het minimum van “halftijdse basis” komt overeen met de helft van het aantal uren dat normaliter door een voltijdse werknemer in de onderneming wordt gepresteerd. Indien de betrokken werknemer die diensten aan de onderneming verleent via een rechtspersoon, wordt die oud-werknemer niet in aanmerking genomen voor die rubriek 350. In dat geval verleent immers niet de oud-werknemer, maar zijn vennootschap diensten aan de onderneming. De vermelding is maar éénmalig, namelijk voor het boekjaar waarin de uittreding gebeurt; ze is in elk geval een onderrubriek van de rubriek *Andere reden*.
 
-### **Staat III over het gebruik van de maatregelen ten gunste van de werkgelegenheid tijdens het boekjaar**
-
+**Staat III over het gebruik van de maatregelen ten gunste van de werkgelegenheid tijdens het boekjaar**
 #### **Soorten van maatregelen**
 
 Voor een goed begrip naar het invullen van de tabel toe, worden de verschillende maatregelen van de staat III hierna in verschillende groepen verdeeld :
@@ -1091,8 +1090,7 @@ Voor de werknemers die moeten worden vermeld voor de maatregel “volledige loop
 
 We herinneren er hier aan dat voor de maatregelen “Conventioneel halftijds brugpensioen”, “Vermindering van de arbeidsprestaties (deeltijdse loopbaanonderbreking)”en “Volledige loopbaanonderbreking”:
 
-- de bedoelde vervangers in de staat III[^81]
- blijven vermeld zolang de verplichting tot vervanging of aanvulling blijft gelden. De vermelde werknemers werden dus niet noodzakelijk aangeworven tijdens het boekjaar, maar kunnen ook vroeger zijn aangeworven. Er mag echter geen dubbel gebruik zijn voor het aantal en het aantal in VTE in geval van een vervanging van een vervanger; 
+- de bedoelde vervangers in de staat III[^81] blijven vermeld zolang de verplichting tot vervanging of aanvulling blijft gelden. De vermelde werknemers werden dus niet noodzakelijk aangeworven tijdens het boekjaar, maar kunnen ook vroeger zijn aangeworven. Er mag echter geen dubbel gebruik zijn voor het aantal en het aantal in VTE in geval van een vervanging van een vervanger; 
 - de staat III op die manier een beperkt cumulatief karakter heeft. 
 
 Het netto meer- of mindergebruik[^82] van een maatregel kan dan worden afgeleid uit de vergelijking van twee opeenvolgende staten III.
@@ -1106,14 +1104,13 @@ B. Andere maatregelen
 
 Voor de “Andere maatregelen”(in de staat III. van de sociale balans volgens het volledig schema) moet, in de gevallen dat er een financieel voordeel is, geen financieel voordeel worden vermeld.
 
-*B1. “Andere maatregelen” die betrekking hebben op de vermelde werknemers*
+### *B1. “Andere maatregelen” die betrekking hebben op de vermelde werknemers*
 
 Het is de regel dat de maatregelen betrekking hebben op de vermelde werknemers. Alleen “conventioneel brugpensioen”(zie 2.4.2.) is daarop een uitzondering.
 
 In vergelijking met de andere maatregelen, heeft de maatregel “Opeenvolgende arbeidsovereenkomsten voor een bepaalde duur” een bijzonder karakter. Het is de mogelijkheid die aan de werkgever wordt geboden om “Opeenvolgende arbeidsovereenkomsten voor een bepaalde tijd” af te sluiten in een aantal gevallen waarin dat voordien reglementair niet toegelaten was (zie verder). Er is geen vermindering van de RSZ-bijdragen voorzien.
 
 *B2. “Andere maatregel” waarvoor de vervangers van werknemers moeten worden vermeld*
-
 Voor de te vermelden werknemers voor de maatregel “Conventioneel brugpensioen”, wordt verwezen naar punt 2.4.2.
 
 #### **De kolom “Aantal”**
@@ -1163,8 +1160,7 @@ In beide gevallen kunnen voor de onderverdeling in mannen en vrouwen, de persone
 
 Opeenvolgende arbeidsovereenkomsten voor een bepaalde tijd zonder dat er een onderbreking is toe te schrijven aan de werknemer, zijn slechts beperkt mogelijk. Zij worden geacht een arbeidsovereenkomst voor onbepaalde tijd te zijn, behalve wanneer de werkgever het bewijs levert dat deze overeenkomsten gerechtvaardigd zijn wegens de aard van het werk of wegens andere wettige redenen.[^84] 
 
-Door de Wet van 30 maart 1994[^85]
- wordt de mogelijkheid om opeenvolgende arbeidsovereenkomsten voor een bepaalde tijd te sluiten, versoepeld voor overeenkomsten gesloten vanaf 31 maart 1994 tot uiterlijk 31 december 1997.[^86] 
+Door de Wet van 30 maart 1994[^85] wordt de mogelijkheid om opeenvolgende arbeidsovereenkomsten voor een bepaalde tijd te sluiten, versoepeld voor overeenkomsten gesloten vanaf 31 maart 1994 tot uiterlijk 31 december 1997.[^86] 
 
 De vermelding moet toelaten te evalueren hoeveel verschillende werknemers tijdens het boekjaar in de onderneming werkzaam waren op grond van “opeenvolgende arbeidsovereenkomsten voor een bepaalde tijd”. Op die manier wordt nagegaan in welke mate van die versoepeling effectief gebruik wordt gemaakt.[^87] 
 
@@ -1178,7 +1174,7 @@ Het KB over de sociale balans voorziet in de vermelding van de overeenstemmende 
 
 A. Rubrieken van het volledig schema
 
-*De rubrieken van de punten C1. en G. van de Staat XII. - “Bedrijfsresultaten”: *
+*De rubrieken van de punten C1. en G. van de Staat XII. - “Bedrijfsresultaten”:* 
 
 C1. Werknemers ingeschreven in het personeelsregister
 
@@ -1236,13 +1232,12 @@ Dit gezegd zijnde, verdient wel het aanbeveling, voor zover deze cijfers beschik
 
 Dit is o.m. het geval voor het totaal aantal in het personeelsregister ingeschreven werknemers per jaarultimo (rubriek 9086).
 
-### **Vergelijkbaarheid van de bedragen van het vorige boekjaar met die welke eerder werden openbaar gemaakt**
-
+**Vergelijkbaarheid van de bedragen van het vorige boekjaar met die welke eerder werden openbaar gemaakt**
 Eerder openbaar gemaakte bedragen kunnen verschillen van de bedragen die in de jaarrekening in de kolom “Vorig boekjaar” openbaar worden gemaakt; dit kan het geval zijn door de invoering van de nieuwe rekeningen 617[^88] en 618[^89] en de verschuiving (in 1996 in vergelijking met 1995) van gegevens van de rekening 62 - *Personeelskosten* naar de nieuwe rekeningen 617 en/of 618.
 
 Als de bedragen van het recentste boekjaar niet vergelijkbaar zijn met de gegevens van het vorige boekjaar, zoals die eerder werden openbaar gemaakt, dan heeft de onderneming in toepassing van artikel 11 van het KB van 8 oktober 1976 de mogelijkheid om in haar nieuw openbaar te maken jaarrekening de bedragen van het vorige boekjaar aan te passen. Of zij van deze mogelijkheid gebruik heeft gemaakt, wordt aangeduid op het eerste blad van de recentste jaarrekening op papier of bij de start van het programma wanneer de jaarrekening wordt opgesteld op diskette. (“De bedragen van het vorig boekjaar zijn identiek met die welke eerder openbaar werden gemaakt : ja /neen.”). Gebeurlijke aanpassingen dienen, behalve indien zij onbelangrijk zijn, in de toelichting te worden vermeld en, onder verwijzing naar de betrokken rubrieken, te worden toegelicht. Worden de bedragen van het vorige boekjaar niet aangepast, dan moet de toelichting de nodige gegevens bevatten om een vergelijking mogelijk te maken.[^90] 
 
-## **Gemiddelde personeelsbestand als criterium voor de grootte van de onderneming **
+## **Gemiddelde personeelsbestand als criterium voor de grootte van de onderneming** 
 
 **Bijlage**
 
@@ -1254,7 +1249,8 @@ Het artikel 7 van het KB betreffende de sociale balans voert evenwel een nieuwe 
 
 Voordien (voor de ten laatste op 31 december 1995 begonnen boekjaren) kwam het “gemiddelde aantal werknemers” overeen met “het gewone rekenkundig gemiddelde van het aantal tijdens het boekjaar tewerkgestelde personen, bekomen door het totaal der gedurende het jaar gepresteerde arbeidsdagen en daarmee gelijkgestelde dagen te delen door het aantal arbeidsdagen in de onderneming; daarbij wordt elke prestatie, ongeacht de duur ervan, beschouwd als een werkelijke arbeidsdag”.[^91] 
 
-Voor de boekjaren die beginnen na 31 december 1995 wordt het gemiddelde aantal werknemers gedefinieerd als “het gemiddelde van het per einde van elke maand van het boekjaar in het krachtens het KB van 23 oktober 1978 gehouden personeelsregister ingeschreven aantal werknemers uitgedrukt in voltijdse equivalenten. Het aantal werknemers uitgedrukt in voltijdse equivalenten is gelijk aan het arbeidsvolume teruggebracht tot voltijds tewerkgestelde equivalenten, te berekenen voor de deeltijdse werknemers op basis van het conventioneel aantal te presteren uren, gerelateerd ten opzichte van de normale arbeidsduur van een vergelijkbare voltijdse werknemer (referentiewerknemer)”.[^92] Het betreft dus het gemiddeld aantal werknemers uit de rubriek 100, derde kolom, van de sociale balans.
+Voor de boekjaren die beginnen na 31 december 1995 wordt het gemiddelde aantal werknemers gedefinieerd als “het gemiddelde van het per einde van elke maand van het boekjaar in het krachtens het KB van 23 oktober 1978 gehouden personeelsregister ingeschreven aantal werknemers uitgedrukt in voltijdse equivalenten. Het aantal werknemers uitgedrukt in voltijdse equivalenten is gelijk aan het arbeidsvolume teruggebracht tot voltijds tewerkgestelde equivalenten, te berekenen voor de deeltijdse werknemers op basis van het conventioneel aantal te presteren uren, gerelateerd ten opzichte van de normale arbeidsduur van een vergelijkbare voltijdse werknemer (referentiewerknemer)”.[^92]
+ Het betreft dus het gemiddeld aantal werknemers uit de rubriek 100, derde kolom, van de sociale balans.
 
 De nieuwe wijze van berekening van het gemiddelde aantal werknemers houdt dus enkel rekening met in het personeelsregister ingeschreven werknemers. Voor de berekening van dit gemiddelde wordt dus geen rekening gehouden met de uitzendkrachten, de ter beschikking van de onderneming gestelde personen en alle andere personen die prestaties uitvoeren voor de onderneming zonder met de onderneming verbonden te zijn door een arbeidsovereenkomst. 
 

@@ -1,45 +1,45 @@
 ---
-nummer: CBN-advies 163
+bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-in-substance-defeasance
 datum: 1991-03-01
+nummer: CBN-advies 163
+provenance:
+  generated_at: '2026-05-11T13:05:06Z'
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-in-substance-defeasance
+      sha256: afb75ddb259a9325a97dcc88ff928e050701eedd2d6202322628b7dcf6766288
+      version:
+  stale: false
+  stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
+  trust:
+    confirmed_at: '2026-05-11T12:04:42Z'
+    confirmed_by: subagent-sonnet-4-6
+    layer1:
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:26Z'
+      heading_count: 0
+      max_section_chars: 3776
+      file_size_chars: 3776
+      flags: []
+    layer2:
+      agent: subagent-sonnet-4-6
+      concrete_problemen: []
+      rationale: 'Geen ETL-artefacten. Proza coherent, geen OCR-fouten, geen malformed markdown. Inhoud volledig: techniek beschreven, juridische analyse en conclusie aanwezig. Geen subheadings nodig voor dit korte advies.'
+      run_at: '2026-05-11T12:04:42Z'
+      status: trusted
+    rationale: 'Geen ETL-artefacten. Proza coherent, geen OCR-fouten, geen malformed markdown. Inhoud volledig: techniek beschreven, juridische analyse en conclusie aanwezig. Geen subheadings nodig voor dit korte advies.'
+    status: trusted
 themas:
   - in-substance defeasance
   - onherroepelijke overdracht van activa
   - schulden
   - trustee
   - vastrentende effecten
-bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-in-substance-defeasance
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-in-substance-defeasance
-      sha256: afb75ddb259a9325a97dcc88ff928e050701eedd2d6202322628b7dcf6766288
-      version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:35:31Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: trusted
-    confirmed_at: '2026-05-11T12:04:42Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: 'Geen ETL-artefacten. Proza coherent, geen OCR-fouten, geen malformed markdown. Inhoud volledig: techniek beschreven, juridische analyse en conclusie aanwezig. Geen subheadings nodig voor dit korte advies.'
-    layer1:
-      status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 0
-      max_section_chars: 3776
-      file_size_chars: 3776
-      flags: []
-    layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:04:42Z'
-      rationale: 'Geen ETL-artefacten. Proza coherent, geen OCR-fouten, geen malformed markdown. Inhoud volledig: techniek beschreven, juridische analyse en conclusie aanwezig. Geen subheadings nodig voor dit korte advies.'
-      concrete_problemen: []
 ---
 
 # CBN-advies 163 - Boekhoudkundige verwerking van in-substance defeasance

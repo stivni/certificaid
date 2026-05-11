@@ -1,55 +1,53 @@
 ---
-nummer: CBN-advies 12/3
+bron: https://www.cbn-cnc.be/nl/adviezen/toepassingsgebied-van-de-uitvoeringsbesluiten-gemiddeld-aantal-jaarlijks-tewerkgestelde
 datum: 1979-05-01
+nummer: CBN-advies 12/3
+provenance:
+  generated_at: '2026-05-11T13:05:05Z'
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/toepassingsgebied-van-de-uitvoeringsbesluiten-gemiddeld-aantal-jaarlijks-tewerkgestelde
+      sha256: c30b11e8f6ea09cb21a53e7702fb6c211469e2f1ae15a369f21938c195d047ad
+      version:
+  stale: false
+  stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
+  trust:
+    confirmed_at: '2026-05-11T11:51:19Z'
+    confirmed_by: subagent-sonnet-4-6
+    layer1:
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:24Z'
+      heading_count: 0
+      max_section_chars: 2259
+      file_size_chars: 2259
+      flags: []
+    layer2:
+      agent: subagent-sonnet-4-6
+      concrete_problemen:
+        - categorie: B3
+          regel: 46
+          type: other
+          voorbeeld: '# CBN advies 12-3 - Toepassingsgebied van de uitvoeringsbesluiten - Gemiddeld... [duplicaat]'
+        - categorie: D4
+          regel: 50
+          type: other
+          voorbeeld: koninklijk besluit van 18 oktober 1978[^1] ,[^2].
+      rationale: 'B3: duplicate heading op r44-46 — de H1-titel ''# CBN advies 12-3 - Toepassingsgebied van de uitvoeringsbesluiten - Gemiddeld aantal jaarlijks tewerkgestelde personen'' staat twee maal achter elkaar. Identiek scraping-artefact als CBN-0007-03. Verder: footnote-formatting r50 heeft ongebruikelijke ''[^1] ,[^2]'' met spatie voor de komma (minor). Inhoud volledig.'
+      run_at: '2026-05-11T11:51:19Z'
+      status: needs-rework
+    rationale: 'B3: duplicate heading op r44-46 — de H1-titel ''# CBN advies 12-3 - Toepassingsgebied van de uitvoeringsbesluiten - Gemiddeld aantal jaarlijks tewerkgestelde personen'' staat twee maal achter elkaar. Identiek scraping-artefact als CBN-0007-03. Verder: footnote-formatting r50 heeft ongebruikelijke ''[^1] ,[^2]'' met spatie voor de komma (minor). Inhoud volledig.'
+    status: needs-rework
 themas:
   - gemiddeld aantal tewerkgestelde personen
   - omvangcriteria
   - tewerkgestelde personen
   - uitzendkracht
-bron: https://www.cbn-cnc.be/nl/adviezen/toepassingsgebied-van-de-uitvoeringsbesluiten-gemiddeld-aantal-jaarlijks-tewerkgestelde
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/toepassingsgebied-van-de-uitvoeringsbesluiten-gemiddeld-aantal-jaarlijks-tewerkgestelde
-      sha256: c30b11e8f6ea09cb21a53e7702fb6c211469e2f1ae15a369f21938c195d047ad
-      version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:33:31Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T11:51:19Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "B3: duplicate heading op r44-46 — de H1-titel '# CBN advies 12-3 - Toepassingsgebied van de uitvoeringsbesluiten - Gemiddeld aantal jaarlijks tewerkgestelde personen' staat twee maal achter elkaar. Identiek scraping-artefact als CBN-0007-03. Verder: footnote-formatting r50 heeft ongebruikelijke '[^1] ,[^2]' met spatie voor de komma (minor). Inhoud volledig."
-    layer1:
-      status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 0
-      max_section_chars: 2379
-      file_size_chars: 2379
-      flags: []
-    layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T11:51:19Z'
-      rationale: "B3: duplicate heading op r44-46 — de H1-titel '# CBN advies 12-3 - Toepassingsgebied van de uitvoeringsbesluiten - Gemiddeld aantal jaarlijks tewerkgestelde personen' staat twee maal achter elkaar. Identiek scraping-artefact als CBN-0007-03. Verder: footnote-formatting r50 heeft ongebruikelijke '[^1] ,[^2]' met spatie voor de komma (minor). Inhoud volledig."
-      concrete_problemen:
-        - regel: 46
-          categorie: B3
-          type: other
-          voorbeeld: '# CBN advies 12-3 - Toepassingsgebied van de uitvoeringsbesluiten - Gemiddeld... [duplicaat]'
-        - regel: 50
-          categorie: D4
-          type: other
-          voorbeeld: koninklijk besluit van 18 oktober 1978[^1] ,[^2].
 ---
-
-# CBN advies 12-3 - Toepassingsgebied van de uitvoeringsbesluiten - Gemiddeld aantal jaarlijks tewerkgestelde personen
 
 # CBN advies 12-3 - Toepassingsgebied van de uitvoeringsbesluiten - Gemiddeld aantal jaarlijks tewerkgestelde personen
 

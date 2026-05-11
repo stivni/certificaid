@@ -1,56 +1,56 @@
 ---
-nummer: CBN-advies 2012/6
-datum: 2012-03-21
-themas:
-  - immateriële vaste activa
-  - niet in de balans opgenomen rechten en verplichtingen
-  - tax shelter
 bron: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-tax-shelter-in-hoofde-van-de-productievennootschap
+datum: 2012-03-21
+gerelateerde_adviezen:
+  - datum: '2025-07-14'
+    titel: De boekhoudkundige verwerking van immateriële vaste activa (update) [ONTWERP]
+    url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-immateriele-vaste-activa-update-ontwerp
+  - datum: '2018-05-30'
+    titel: Tax shelter voor podiumkunsten
+    url: https://www.cbn-cnc.be/nl/adviezen/tax-shelter-voor-podiumkunsten
+  - datum: '2018-03-21'
+    titel: Aftrek voor innovatie-inkomsten
+    url: https://www.cbn-cnc.be/nl/adviezen/aftrek-voor-innovatie-inkomsten
+  - datum: '2016-12-14'
+    titel: 'Kosten van onderzoek en ontwikkeling: onderscheid tussen onderzoek en ontwikkeling - verduidelijking'
+    url: https://www.cbn-cnc.be/nl/adviezen/kosten-van-onderzoek-en-ontwikkeling-onderscheid-tussen-onderzoek-en-ontwikkeling
+nummer: CBN-advies 2012/6
 provenance:
+  generated_at: '2026-05-11T13:05:08Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-tax-shelter-in-hoofde-van-de-productievennootschap
       sha256: 12abeb2f8f991f826eab0cc96d473615b3719e6dfe4011df92eb462d6c90fd2c
       version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T21:17:25Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
   trust:
-    status: trusted
     confirmed_at: '2026-05-08T21:19:09Z'
     confirmed_by: human
-    rationale: 'Heading-structuur hersteld: 10 genummerde ### subsecties via promote_implicit_headings (bold numbered titles). max_section_size warn benign: langste ## sectie 28K, maar H3 chunks elk ~2-3K. 19 journaalposten correct.'
     layer1:
       status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 12
-      max_section_chars: 8782
-      file_size_chars: 34202
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:28Z'
+      heading_count: 6
+      max_section_chars: 12302
+      file_size_chars: 34163
       flags: []
     layer2:
-      status: not_run
       agent:
-      run_at:
-      rationale:
       concrete_problemen: []
-gerelateerde_adviezen:
-  - titel: De boekhoudkundige verwerking van immateriële vaste activa (update) [ONTWERP]
-    url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-immateriele-vaste-activa-update-ontwerp
-    datum: '2025-07-14'
-  - titel: Tax shelter voor podiumkunsten
-    url: https://www.cbn-cnc.be/nl/adviezen/tax-shelter-voor-podiumkunsten
-    datum: '2018-05-30'
-  - titel: Aftrek voor innovatie-inkomsten
-    url: https://www.cbn-cnc.be/nl/adviezen/aftrek-voor-innovatie-inkomsten
-    datum: '2018-03-21'
-  - titel: 'Kosten van onderzoek en ontwikkeling: onderscheid tussen onderzoek en ontwikkeling - verduidelijking'
-    url: https://www.cbn-cnc.be/nl/adviezen/kosten-van-onderzoek-en-ontwikkeling-onderscheid-tussen-onderzoek-en-ontwikkeling
-    datum: '2016-12-14'
+      rationale:
+      run_at:
+      status: not_run
+    rationale: 'Heading-structuur hersteld: 10 genummerde ### subsecties via promote_implicit_headings (bold numbered titles). max_section_size warn benign: langste ## sectie 28K, maar H3 chunks elk ~2-3K. 19 journaalposten correct.'
+    status: trusted
+themas:
+  - immateriële vaste activa
+  - niet in de balans opgenomen rechten en verplichtingen
+  - tax shelter
 ---
 
 # CBN-advies 2012/6 – De boekhoudkundige verwerking van de tax shelter in hoofde van de productievennootschap
@@ -63,10 +63,7 @@ Een audiovisueel werk is een reproductie van het werk van de auteur en van de pr
 
 De productievennootschap is de tussenpersoon die de verantwoordelijkheid draagt voor de opname van het audiovisueel werk en die vervolgens de exploitatie van dit werk op zich neemt (door voorstelling of reproductie). 
 
-Om haar opdracht tot een goed einde te brengen, dient de productievennootschap van de auteur[^1]
-  en van de vertolkers[^2]
-  de auteursrechten te bekomen die noodzakelijk zijn voor de productie[^3]
-  en de exploitatie van het werk[^4]. 
+Om haar opdracht tot een goed einde te brengen, dient de productievennootschap van de auteur[^1] en van de vertolkers[^2] de auteursrechten te bekomen die noodzakelijk zijn voor de productie[^3] en de exploitatie van het werk[^4]. 
 
 De wet betreffende het auteursrecht en de naburige rechten kent overigens aan de producent een eigen auteursrecht toe op het audiovisueel werk dat hij produceert (het betreft hier geen auteursrecht naar Belgisch recht in de strikte zin van het woord maar een “naburig” recht). Dit recht bestaat uit het exclusief recht om zijn werk, dat hij op een drager heeft vastgelegd, te reproduceren of de reproductie ervan toe te staan, op welke wijze en in welke vorm dan ook. Dit recht omvat tevens het recht om de verhuur of de uitlening ervan toe te staan, evenals het exclusieve distributierecht van het werk. Alleen de producent heeft overigens het recht om het werk aan het publiek mee te delen[^5]. 
 
@@ -78,8 +75,7 @@ Er wordt een onderscheid gemaakt tussen de fabricagefase (of productiefase) en d
 
 Zoals verder in dit advies zal blijken, brengt het tax shelter-mechanisme bepaalde bijzonderheden met zich mee in hoofde van de productievennootschap die op boekhoudkundig vlak aangepaste oplossingen vereisen. 
 
-Ter herinnering: de tax shelter laat vennootschappen - investeerders[^7]
- toe te genieten van een vrijstelling van hun winst van 150 % van de sommen aangewend ter financiering van de productie van een “in aanmerking komend werk”[^8]. 
+Ter herinnering: de tax shelter laat vennootschappen - investeerders[^7] toe te genieten van een vrijstelling van hun winst van 150 % van de sommen aangewend ter financiering van de productie van een “in aanmerking komend werk”[^8]. 
 
 De investering die een Belgische audiovisuele productievennootschap (of een Belgische inrichting van een buitenlandse vennootschap) tot voordeel strekt, dient geregeld te worden door een raamovereenkomst, gesloten tussen de investeerder en de productievennootschap[^9] ,[^10]. 
 
@@ -153,12 +149,10 @@ Aangezien een audiovisueel werk een beperkte gebruiksduur heeft, zal het overeen
 
 De afschrijving van het audiovisueel werk zal in principe aanvangen op het ogenblik dat de productievennootschap de effectieve exploitatie ervan kan starten, met andere woorden, wanneer het voltooide werk vorm heeft gekregen door de standaardkopie. Het is deze hypothese die in het vervolg van dit advies wordt aangehouden. Het is echter niet uitgesloten dat de afschrijving vóór deze datum kan aanvangen.
 
-### 3. Verkoop van de rechten verbonden aan de productie en de exploitatie van het audiovisueel werk (rechten op de opbrengsten)
-
+3. Verkoop van de rechten verbonden aan de productie en de exploitatie van het audiovisueel werk (rechten op de opbrengsten)
 Voor zover de investering in de tax shelter niet bestaat uit de toekenning van leningen (aangezien deze niet meer mogen bedragen dan 40 % van het totaal van het volgens de raamovereenkomst geïnvesteerde bedrag), bestaat de tegenprestatie uit de verwerving van productie- en exploitatierechten van het in aanmerking komend audiovisueel werk. 
 
-In dit advies wordt uitgegaan van de in de praktijk meest voorkomende hypothese dat de productie- en exploitatierechten van het in aanmerking komend audiovisueel werk bestaan uit de rechten op de (toekomstige) exploitatie-opbrengsten die het werk zal opleveren[^21]
- (zie *supra*, nr. 4).
+In dit advies wordt uitgegaan van de in de praktijk meest voorkomende hypothese dat de productie- en exploitatierechten van het in aanmerking komend audiovisueel werk bestaan uit de rechten op de (toekomstige) exploitatie-opbrengsten die het werk zal opleveren[^21] (zie *supra*, nr. 4).
 
 De financiering van de audiovisuele werken door de tax shelter houdt in dat de productievennootschap de rechten op de toekomstige opbrengsten verkoopt aan de investeerder, op een ogenblik waarop het werk zich nog maar in een staat van productie bevindt. 
 
@@ -199,7 +193,7 @@ De verkoop van de rechten op de toekomstige opbrengsten zal in principe een uitz
 
 Immateriële vaste activa moeten immers worden afgeschreven via aanvullende of uitzonderlijke afschrijvingen wanneer, als gevolg van hun technische ontwaarding of de wijziging van economische of technologische omstandigheden, hun boekhoudkundige waarde hoger is dan hun gebruikswaarde voor de vennootschap (artikel 61, § 1, 2de lid KB W.Venn.).
 
-Deze afschrijving zal (hypothetisch gezien, zie *supra *nr. 8) eveneens slechts worden toegepast vanaf het ogenblik dat het werk (de standaardkopie) wordt voltooid: d.i. wanneer het volledig zal zijn geactiveerd en aan zijn economisch leven kan beginnen[^24].
+Deze afschrijving zal (hypothetisch gezien, zie *supra* nr. 8) eveneens slechts worden toegepast vanaf het ogenblik dat het werk (de standaardkopie) wordt voltooid: d.i. wanneer het volledig zal zijn geactiveerd en aan zijn economisch leven kan beginnen[^24].
 
 Om het bedrag van de uitzonderlijke afschrijving te bepalen, zal in principe eveneens rekening worden gehouden met het feit dat de productievennootschap aan de investeerder een doorverkoopoptie toekent van zijn rechten voor een prijs van 15 (zie onze hypothese, infra, nr. 14 e.v.). Indien de uitzonderlijke afschrijving die verbonden is aan de verkoop van de rechten, bijvoorbeeld op 60 wordt geschat (waarbij er geen rekening wordt gehouden met de optie), zal de volgende boeking worden verricht.
 
@@ -210,8 +204,7 @@ Om het bedrag van de uitzonderlijke afschrijving te bepalen, zal in principe eve
 
 Ten slotte moet worden opgemerkt dat de verplichting tot doorstorting van de toekomstige opbrengsten van het werk (ten gevolge van de verkoop van het recht op deze opbrengsten) dient te worden vermeld in de toelichting onder bij de *Overige belangrijke verplichtingen* (artikel 25, § 3 en artikel 94, A, VIII, B KB W.Venn.) vanaf het jaar waarin de raamovereenkomst wordt gesloten.
 
-### 4. De (door)verkoopoptie, toegekend aan de investeerders, van hun rechten verbonden aan de productie en de exploitatie van het werk (de rechten op de opbrengsten) 
-
+4. De (door)verkoopoptie, toegekend aan de investeerders, van hun rechten verbonden aan de productie en de exploitatie van het werk (de rechten op de opbrengsten)
 Om de investeerder te beschermen tegen een te groot verlies op zijn investering in de opbrengstrechten, werd een optiemechanisme in het leven geroepen ten voordele van deze investeerder. Door dit mechanisme kan de investeerder, op een bepaald ogenblik of tijdens een bepaalde periode, de voornoemde rechten doorverkopen tegen een vooraf bepaalde prijs (een “stop loss” optie), zijnde de uitoefenprijs van de optie. Deze optie kan door de productievennootschap zelf worden toegekend of door een derde. In dit advies wordt ervan uitgegaan dat het de productievennootschap is die de verkoopoptie toekent aan de investeerders en dat deze optie wordt toegekend op het moment dat de raamovereenkomst wordt gesloten[^25].
 
 De optie zal tegen de waarde van de uitoefenprijs worden opgenomen onder de niet in de balans opgenomen rechten en verplichtingen (de rekening 09 *Diverse rechten en verplichtingen*) door middel van de volgende boeking (veronderstel een uitoefenprijs van de optie gelijk aan 15[^26]): 
@@ -223,8 +216,7 @@ De optie zal tegen de waarde van de uitoefenprijs worden opgenomen onder de niet
 
 Er zal overigens rekening worden gehouden met deze optie in de boeking waarin de opbrengst wordt erkend die verbonden is aan de verkoop van de opbrengstrechten (zie *supra*, nr. 10 en 11) en, om de uitzonderlijke afschrijving te bepalen, de opbrengst die verbonden is aan de verkoop van deze rechten (*supra*, nr. 12).
 
-### 5. Terugkoop, in het kader van de uitoefening van de optie, van de rechten verbonden aan de productie en de exploitatie van het werk (de rechten op de opbrengsten) of niet-oefening van de optie
-
+5. Terugkoop, in het kader van de uitoefening van de optie, van de rechten verbonden aan de productie en de exploitatie van het werk (de rechten op de opbrengsten) of niet-oefening van de optie
 Door de optie uit te oefenen, verplicht de investeerder de productievennootschap om de opbrengstrechten terug te kopen aan een vooraf vastgelegde prijs, zijnde de uitoefenprijs van de optie. 
 
 De terugkoop van de rechten zal als volgt tot uitdrukking worden gebracht in de boekhouding van de productievennootschap, voor een uitoefenprijs van de optie van 15[^27]:
@@ -257,8 +249,7 @@ Bovendien zal de uitzonderlijke afschrijving worden geboekt die niet werd geboek
 | | 6601 | Uitzonderlijke afschrijvingen en waardeverminderingen op immateriële vaste activa (toevoegingen) | 15 | |
 | aan | 211X9 | Immateriële vaste activa – Werk [ ] – geboekte afschrijvingen | | 15 |
 
-### 6. Opbrengsten die de exploitatie van het audiovisueel werk oplevert en de retrocessie van deze opbrengsten aan de titularissen van de rechten op deze opbrengsten
-
+6. Opbrengsten die de exploitatie van het audiovisueel werk oplevert en de retrocessie van deze opbrengsten aan de titularissen van de rechten op deze opbrengsten
 De exploitatie-opbrengsten van het werk komen voort uit de sommen die aan de productievennootschap worden overgemaakt door de verschillende distributeurs, als tegenprestatie voor de exploitatierechten op het werk (verspreiding in de cinema, op de televisie, op de televisie op aanvraag, op DVD, enz.). 
 
 Deze opbrengsten worden doorgaans periodiek toegekend. 
@@ -323,14 +314,12 @@ De storting van de geleende sommen aan de productievennootschap wordt door de vo
 
 De boeking van de kredietverplichting onder de niet in de balans opgenomen rechten en verplichtingen (09) wordt vervolgens tegengeboekt. 
 
-### 9. Interesten betaald op de leningen toegekend door de investeerders onder de vorm van de tax shelter
-
+9. Interesten betaald op de leningen toegekend door de investeerders onder de vorm van de tax shelter
 De interesten op de leningen worden op dezelfde manier verwerkt als de andere kosten waarmee de productievennootschap wordt geconfronteerd voor de productie van het audiovisueel werk (zie *supra,* nr. 6). 
 
 Ze zullen kunnen worden geactiveerd als vervaardigingskost van het audiovisueel werk, maar enkel voor zover ze betrekking hebben op de periode die aan de bedrijfsklaarheid van het audiovisueel werk voorafgaat. Met andere woorden, tot aan het drukken van de standaardkopie (volgens onze hypothese, zie supra, nr. 8). De activering van de interesten dient te worden vermeld in de toelichting. 
 
-### 10. Subsidies ontvangen door de productievennootschap ter financiering van het audiovisueel werk
-
+10. Subsidies ontvangen door de productievennootschap ter financiering van het audiovisueel werk
 De boeking met betrekking tot de subsidies vertoont geen bijzonderheden. De Commissie verwijst in dit verband naar haar advies 2011/13 betreffende overheidssubsidies. 
 
 [^1]: Voor wat audiovisuele werken betreft, kent de wet betreffende het auteursrecht en de naburige rechten, naast de hoofdregisseur, ook aan andere personen die hebben meegewerkt, de hoedanigheid toe van auteur. Behoudens tegenbewijs, worden volgens deze wet geacht auteurs te zijn van een in samenwerking tot stand gebracht audiovisueel werk: a) de scenarioschrijver; b) de bewerker; c) de tekstschrijver; d) de grafische ontwerper van animatiewerken of van animatiesequenties in een audiovisueel werk, die een belangrijk deel van dat werk uitmaken; e) de auteur van muziekwerken, met of zonder woorden, die speciaal voor het audiovisueel werk gemaakt zijn (art. 14 van de wet betreffende het auteursrecht en de naburige rechten). De auteur behoudt in principe alle rechten om zijn werk te reproduceren, de reproductie ervan toe te staan, de verhuur of uitlening ervan toe te staan, het aan het publiek mee te delen en de distributie ervan toe te staan. De wet bepaalt echter dat de auteurs van een audiovisueel werk (met uitzondering van auteurs van muziekwerken), behoudens andersluidend beding, aan de producenten het exclusieve recht op de audiovisuele exploitatie van het werk overdragen, met inbegrip van de rechten die voor deze exploitatie noodzakelijk zijn (zoals het recht om het werk van ondertiteling te voorzien of het na te synchroniseren) (art. 18 van de wet betreffende het auteursrecht en de naburige rechten).

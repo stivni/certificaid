@@ -1,62 +1,62 @@
 ---
-nummer: CBN-advies 2017/03
+bron: https://www.cbn-cnc.be/nl/adviezen/groottecriteria-boekjaar-korter-of-langer-dan-12-maanden-update
 datum: 2017-02-01
+gerelateerde_adviezen:
+  - datum: '2024-09-19'
+    titel: Gevolgen verhoging groottecriteria voor (I)VZW’s en stichtingen
+    url: https://www.cbn-cnc.be/nl/adviezen/gevolgen-verhoging-groottecriteria-voor-ivzws-en-stichtingen
+  - datum: '2024-09-19'
+    titel: Gevolgen verhoging groottecriteria voor vennootschappen
+    url: https://www.cbn-cnc.be/nl/adviezen/gevolgen-verhoging-groottecriteria-voor-vennootschappen
+  - datum: '2022-04-27'
+    titel: Verslaggeving bij ontbinding en vereffening van een VZW of IVZW
+    url: https://www.cbn-cnc.be/nl/adviezen/verslaggeving-bij-ontbinding-en-vereffening-van-een-vzw-of-ivzw
+  - datum: '2022-04-01'
+    titel: Verslaggeving bij ontbinding en vereffening van BV, CV, NV, SE en SCE
+    url: https://www.cbn-cnc.be/nl/adviezen/verslaggeving-bij-ontbinding-en-vereffening-van-bv-cv-nv-se-en-sce
+nummer: CBN-advies 2017/03
+provenance:
+  generated_at: '2026-05-11T13:05:08Z'
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/groottecriteria-boekjaar-korter-of-langer-dan-12-maanden-update
+      sha256: 7246b24275436240f8e58897b25965ca4740deb95dfb50770445841f85806bff
+      version:
+  stale: false
+  stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
+  trust:
+    confirmed_at: '2026-05-11T12:16:34Z'
+    confirmed_by: subagent-sonnet-4-6
+    layer1:
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:29Z'
+      heading_count: 3
+      max_section_chars: 863
+      file_size_chars: 2603
+      flags: []
+    layer2:
+      agent: subagent-sonnet-4-6
+      concrete_problemen:
+        - categorie: A6
+          regel: 60
+          type: other
+          voorbeeld: ', bijgewerkt op 10 september 2025[^2]'
+      rationale: Kort advies (2.605 chars), drie headings, geen artefacten. Regel 60 bevat ', bijgewerkt op 10 september 2025[^2]' als los fragment direct na H1 — cosmetisch probleem gedeeld met andere update-adviezen, maar raakt de leesbaarheid en RAG-indexering minimaal. Inhoud volledig, voetnoten correct, geen PDF-sporen.
+      run_at: '2026-05-11T12:16:34Z'
+      status: trusted
+    rationale: Kort advies (2.605 chars), drie headings, geen artefacten. Regel 60 bevat ', bijgewerkt op 10 september 2025[^2]' als los fragment direct na H1 — cosmetisch probleem gedeeld met andere update-adviezen, maar raakt de leesbaarheid en RAG-indexering minimaal. Inhoud volledig, voetnoten correct, geen PDF-sporen.
+    status: trusted
 themas:
   - boekjaar
   - criteria
   - groottecriteria
   - verlenging van het boekjaar
   - verkorting van het boekjaar
-bron: https://www.cbn-cnc.be/nl/adviezen/groottecriteria-boekjaar-korter-of-langer-dan-12-maanden-update
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/groottecriteria-boekjaar-korter-of-langer-dan-12-maanden-update
-      sha256: 7246b24275436240f8e58897b25965ca4740deb95dfb50770445841f85806bff
-      version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:37:10Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: trusted
-    confirmed_at: '2026-05-11T12:16:34Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: Kort advies (2.605 chars), drie headings, geen artefacten. Regel 60 bevat ', bijgewerkt op 10 september 2025[^2]' als los fragment direct na H1 — cosmetisch probleem gedeeld met andere update-adviezen, maar raakt de leesbaarheid en RAG-indexering minimaal. Inhoud volledig, voetnoten correct, geen PDF-sporen.
-    layer1:
-      status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 3
-      max_section_chars: 865
-      file_size_chars: 2605
-      flags: []
-    layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:16:34Z'
-      rationale: Kort advies (2.605 chars), drie headings, geen artefacten. Regel 60 bevat ', bijgewerkt op 10 september 2025[^2]' als los fragment direct na H1 — cosmetisch probleem gedeeld met andere update-adviezen, maar raakt de leesbaarheid en RAG-indexering minimaal. Inhoud volledig, voetnoten correct, geen PDF-sporen.
-      concrete_problemen:
-        - regel: 60
-          categorie: A6
-          type: other
-          voorbeeld: ', bijgewerkt op 10 september 2025[^2]'
-gerelateerde_adviezen:
-  - titel: Gevolgen verhoging groottecriteria voor (I)VZW’s en stichtingen
-    url: https://www.cbn-cnc.be/nl/adviezen/gevolgen-verhoging-groottecriteria-voor-ivzws-en-stichtingen
-    datum: '2024-09-19'
-  - titel: Gevolgen verhoging groottecriteria voor vennootschappen
-    url: https://www.cbn-cnc.be/nl/adviezen/gevolgen-verhoging-groottecriteria-voor-vennootschappen
-    datum: '2024-09-19'
-  - titel: Verslaggeving bij ontbinding en vereffening van een VZW of IVZW
-    url: https://www.cbn-cnc.be/nl/adviezen/verslaggeving-bij-ontbinding-en-vereffening-van-een-vzw-of-ivzw
-    datum: '2022-04-27'
-  - titel: Verslaggeving bij ontbinding en vereffening van BV, CV, NV, SE en SCE
-    url: https://www.cbn-cnc.be/nl/adviezen/verslaggeving-bij-ontbinding-en-vereffening-van-bv-cv-nv-se-en-sce
-    datum: '2022-04-01'
 ---
 
 # CBN-advies 2017/03 – Groottecriteria – Boekjaar korter of langer dan 12 maanden (update)
@@ -65,11 +65,9 @@ gerelateerde_adviezen:
 
 ## Vraag
 
-Aan de Commissie werd de vraag gesteld op welke wijze de groottecriteria moeten worden beoordeeld wanneer het boekjaar een duur heeft van minder of meer dan twaalf maanden. Het Wetboek van vennootschappen en verenigingen[^3]
- (hierna: WVV) vermeldt hierover het volgende:
+Aan de Commissie werd de vraag gesteld op welke wijze de groottecriteria moeten worden beoordeeld wanneer het boekjaar een duur heeft van minder of meer dan twaalf maanden. Het Wetboek van vennootschappen en verenigingen[^3] (hierna: WVV) vermeldt hierover het volgende:
 
 “Heeft het boekjaar uitzonderlijk een duur van minder of meer dan twaalf maanden, waarbij deze duur niet langer kan zijn dan vierentwintig maanden min één kalenderdag, dan wordt het bedrag van de netto-omzet exclusief de belasting over de toegevoegde waarde bedoeld in paragraaf 1, vermenigvuldigd met een breuk waarvan de noemer twaalf is en de teller het aantal maanden van het betrokken boekjaar, waarbij elke begonnen maand voor een volle maand wordt geteld.”
-
 Concreet wordt de vraag gesteld op welke wijze het aantal maanden in de teller van bovenvermelde breuk moet worden bepaald.
 
 ## Aantal maanden in de teller

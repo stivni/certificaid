@@ -1,6 +1,51 @@
 ---
-nummer: CBN-advies 103/2
+bron: https://www.cbn-cnc.be/nl/adviezen/omzet-van-expediteurs
 datum: 1988-06-01
+gerelateerde_adviezen:
+  - datum: '1977-08-01'
+    titel: Omzet - Tussenpersonen
+    url: https://www.cbn-cnc.be/nl/adviezen/omzet-tussenpersonen
+nummer: CBN-advies 103/2
+provenance:
+  generated_at: '2026-05-11T13:05:05Z'
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/omzet-van-expediteurs
+      sha256: 0fcedc7f243f950032bc4e7d023cbbc343cbbdbd46b67fc118a0782b048bf7c0
+      version:
+  stale: false
+  stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
+  trust:
+    confirmed_at: '2026-05-11T11:57:44Z'
+    confirmed_by: subagent-sonnet-4-6
+    layer1:
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:24Z'
+      heading_count: 0
+      max_section_chars: 3952
+      file_size_chars: 3952
+      flags: []
+    layer2:
+      agent: subagent-sonnet-4-6
+      concrete_problemen:
+        - categorie: B3
+          regel: 52
+          type: other
+          voorbeeld: '# CBN advies 103/2 - Omzet van expediteurs (identiek aan regel 50)'
+        - categorie: D4
+          regel: 54
+          type: other
+          voorbeeld: In het *Bulletin *van de Commissie — spatie voor sluitende * breekt italic-markup
+      rationale: 'B3: duplicate page-title heading op regels 50 en 52. D4/A5: gebroken italic-markering `*Bulletin *` op regel 54 — spatie vóór de sluitende `*` waardoor de markup niet correct sluit (een mens zou `*Bulletin*` schrijven). Twee aparte problemen die ETL kan fixen.'
+      run_at: '2026-05-11T11:57:44Z'
+      status: needs-rework
+    rationale: 'B3: duplicate page-title heading op regels 50 en 52. D4/A5: gebroken italic-markering `*Bulletin *` op regel 54 — spatie vóór de sluitende `*` waardoor de markup niet correct sluit (een mens zou `*Bulletin*` schrijven). Twee aparte problemen die ETL kan fixen.'
+    status: needs-rework
 themas:
   - commissionair
   - expediteur
@@ -8,58 +53,11 @@ themas:
   - omzet
   - mandataris
   - tussenpersoon
-bron: https://www.cbn-cnc.be/nl/adviezen/omzet-van-expediteurs
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/omzet-van-expediteurs
-      sha256: 0fcedc7f243f950032bc4e7d023cbbc343cbbdbd46b67fc118a0782b048bf7c0
-      version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:33:45Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T11:57:44Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: 'B3: duplicate page-title heading op regels 50 en 52. D4/A5: gebroken italic-markering `*Bulletin *` op regel 54 — spatie vóór de sluitende `*` waardoor de markup niet correct sluit (een mens zou `*Bulletin*` schrijven). Twee aparte problemen die ETL kan fixen.'
-    layer1:
-      status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 0
-      max_section_chars: 3996
-      file_size_chars: 3996
-      flags: []
-    layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T11:57:44Z'
-      rationale: 'B3: duplicate page-title heading op regels 50 en 52. D4/A5: gebroken italic-markering `*Bulletin *` op regel 54 — spatie vóór de sluitende `*` waardoor de markup niet correct sluit (een mens zou `*Bulletin*` schrijven). Twee aparte problemen die ETL kan fixen.'
-      concrete_problemen:
-        - regel: 52
-          categorie: B3
-          type: other
-          voorbeeld: '# CBN advies 103/2 - Omzet van expediteurs (identiek aan regel 50)'
-        - regel: 54
-          categorie: D4
-          type: other
-          voorbeeld: In het *Bulletin *van de Commissie — spatie voor sluitende * breekt italic-markup
-gerelateerde_adviezen:
-  - titel: Omzet - Tussenpersonen
-    url: https://www.cbn-cnc.be/nl/adviezen/omzet-tussenpersonen
-    datum: '1977-08-01'
 ---
 
 # CBN advies 103/2 - Omzet van expediteurs
 
-# CBN advies 103/2 - Omzet van expediteurs
-
-In het *Bulletin *van de Commissie voor Boekhoudkundige Normen nr. 1 van augustus 1977, blz. 12 tot en met 14, heeft hoger vermeld orgaan zich uitgesproken over het op te geven omzetcijfer door tussenpersonen. 
+In het *Bulletin* van de Commissie voor Boekhoudkundige Normen nr. 1 van augustus 1977, blz. 12 tot en met 14, heeft hoger vermeld orgaan zich uitgesproken over het op te geven omzetcijfer door tussenpersonen. 
 
 Volgens deze omschrijving, alinea 2, moet onderscheid gemaakt worden tussen omzet, kosten en opbrengsten van respectievelijk de makelaar en de andere ondernemingen. 
 

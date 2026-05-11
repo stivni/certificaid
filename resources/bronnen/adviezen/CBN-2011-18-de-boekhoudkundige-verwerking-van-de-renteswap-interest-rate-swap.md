@@ -1,6 +1,51 @@
 ---
-nummer: CBN-advies 2011/18
+bron: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-renteswap-interest-rate-swap
 datum: 2011-10-05
+nummer: CBN-advies 2011/18
+provenance:
+  generated_at: '2026-05-11T13:05:08Z'
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-renteswap-interest-rate-swap
+      sha256: 09901efc13cc8117f278f027696548e4d44bbfecffcaa205aeb03b4e74210752
+      version:
+  stale: false
+  stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
+  trust:
+    confirmed_at: '2026-05-11T12:09:18Z'
+    confirmed_by: subagent-sonnet-4-6
+    layer1:
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:28Z'
+      heading_count: 16
+      max_section_chars: 9482
+      file_size_chars: 37342
+      flags: []
+    layer2:
+      agent: subagent-sonnet-4-6
+      concrete_problemen:
+        - categorie: A3
+          regel: 73
+          type: scrambled-words
+          voorbeeld: '---- Boekhoudkundige verwerking-- Back-to-back IRS-- De IRS als indekkingsverrichting...'
+        - categorie: A9
+          regel: 490
+          type: ocr-confusion
+          voorbeeld: '| | ndekkings-IRS (notioneel van 10.000.000 €, netto balanswaarde van -7.500 €) | -50.000 | | |'
+        - categorie: A9
+          regel: 499
+          type: ocr-confusion
+          voorbeeld: '| | ndekkings-IRS (notioneel van 10.000.000 €) | -42.500 | | |'
+      rationale: 'A3/A7: regel 73 bevat een aaneengesloten garbled TOC-string (`---- Boekhoudkundige verwerking-- Back-to-back IRS--...`) als plain-text body-regel — dit is een gedupliceerde TOC die door extractie in de body is terechtgekomen in geconcateneerde vorm, een duidelijk extractie-artefact. A9/B5: regels 490 en 499 bevatten `ndekkings-IRS` (leading ''I'' weggevallen), een OCR-like drop in tabellen.'
+      run_at: '2026-05-11T12:09:18Z'
+      status: needs-rework
+    rationale: 'A3/A7: regel 73 bevat een aaneengesloten garbled TOC-string (`---- Boekhoudkundige verwerking-- Back-to-back IRS--...`) als plain-text body-regel — dit is een gedupliceerde TOC die door extractie in de body is terechtgekomen in geconcateneerde vorm, een duidelijk extractie-artefact. A9/B5: regels 490 en 499 bevatten `ndekkings-IRS` (leading ''I'' weggevallen), een OCR-like drop in tabellen.'
+    status: needs-rework
 themas:
   - cash flow hedge
   - fair value hedge
@@ -9,51 +54,6 @@ themas:
   - interest Rate Swap
   - IRS
   - renteswap
-bron: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-renteswap-interest-rate-swap
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-renteswap-interest-rate-swap
-      sha256: 09901efc13cc8117f278f027696548e4d44bbfecffcaa205aeb03b4e74210752
-      version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:36:16Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T12:09:18Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "A3/A7: regel 73 bevat een aaneengesloten garbled TOC-string (`---- Boekhoudkundige verwerking-- Back-to-back IRS--...`) als plain-text body-regel — dit is een gedupliceerde TOC die door extractie in de body is terechtgekomen in geconcateneerde vorm, een duidelijk extractie-artefact. A9/B5: regels 490 en 499 bevatten `ndekkings-IRS` (leading 'I' weggevallen), een OCR-like drop in tabellen."
-    layer1:
-      status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 18
-      max_section_chars: 9488
-      file_size_chars: 37353
-      flags: []
-    layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:09:18Z'
-      rationale: "A3/A7: regel 73 bevat een aaneengesloten garbled TOC-string (`---- Boekhoudkundige verwerking-- Back-to-back IRS--...`) als plain-text body-regel — dit is een gedupliceerde TOC die door extractie in de body is terechtgekomen in geconcateneerde vorm, een duidelijk extractie-artefact. A9/B5: regels 490 en 499 bevatten `ndekkings-IRS` (leading 'I' weggevallen), een OCR-like drop in tabellen."
-      concrete_problemen:
-        - regel: 73
-          categorie: A3
-          type: scrambled-words
-          voorbeeld: '---- Boekhoudkundige verwerking-- Back-to-back IRS-- De IRS als indekkingsverrichting...'
-        - regel: 490
-          categorie: A9
-          type: ocr-confusion
-          voorbeeld: '| | ndekkings-IRS (notioneel van 10.000.000 €, netto balanswaarde van -7.500 €) | -50.000 | | |'
-        - regel: 499
-          categorie: A9
-          type: ocr-confusion
-          voorbeeld: '| | ndekkings-IRS (notioneel van 10.000.000 €) | -42.500 | | |'
 ---
 
 # CBN-advies 2011/18 – De boekhoudkundige verwerking van de renteswap (Interest Rate Swap)
@@ -218,8 +218,7 @@ De te ontvangen en te betalen interesten maken het voorwerp uit van een inresult
 
 Er dient opgemerkt te worden dat de opbrengsten en kosten die voortvloeien uit de interesten, in de resultatenrekening voorgesteld kunnen worden als een netto financiële kost of opbrengst en dat de prorata van de te ontvangen en te betalen interesten op de twee componenten van de IRS eveneens op nettobasis voorgesteld kan worden. 
 
-Op 31 december 2010 is de marktwaarde[^11]
- van de IRS negatief ten belope van 150.000 EUR en genereert deze een latent verlies dat als volgt berekend wordt:
+Op 31 december 2010 is de marktwaarde[^11] van de IRS negatief ten belope van 150.000 EUR en genereert deze een latent verlies dat als volgt berekend wordt:
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
@@ -357,8 +356,7 @@ In dit geval dient de onderneming de notionele bedragen van deze twee swaps op t
 
 Voor wat de latente resultaten betreft, is de Commissie de mening toegedaan dat de IRS die op zulke wijze verbonden zijn met elkaar een globale positie uitmaken die als dusdanig verwerkt dient te worden. Enkel de eventuele latente minderwaarden op deze globale positie worden in resultaat genomen (*Lower of Cost or Market*). Het eventueel netto latent verlies dient opgenomen te worden in de resultatenrekening door de rekening 657 of 6560 te debiteren en 492 of 165 te crediteren (zie III.A.2 & 3). 
 
-### De IRS als indekkingsverrichting van een lening of ontlening tegen variabele rentevoet
-
+De IRS als indekkingsverrichting van een lening of ontlening tegen variabele rentevoet
 #### Principes
 
 In dit geval beoogt de onderneming zich in te dekken tegen een renteschommeling die zou kunnen leiden tot een stijging of daling van een bepaalde intereststroom. 
@@ -399,12 +397,11 @@ De boekingen zijn dus gelijkaardig aan deze die werden toegepast op het vorige g
 
 ### De IRS als indekkingsverrichting van een toekomstige schuld
 
-Een onderneming kan een prospectieve IRS (*forward starting swap*) afsluiten teneinde een schuld in te dekken (tegen vaste of variabele rentevoet) die ze in de toekomst zal moeten aflossen. In dit geval beginnen de interesten op de swap pas in de toekomst te lopen en worden er dus geen intresten tussen de contractdatum (*contract date*) van de IRS en de *value date* van de IRS (zijnde de datum waarop de intresten op de swap beginnen te lopen) in de resultatenrekening erkend. De IRS wordt echter wel opgenomen in de orderekeningen. Zolang het aangaan van de toekomstige schuld waarschijnlijk blijft, moet er geen voorziening worden geboekt in het geval van een eventueel latente minderwaarde op de IRS. Indien het daarentegen niet meer waarschijnlijk is dat de schuld zal worden aangegaan, dient de IRS verwerkt te worden als een speculatieve verrichting. 
+Een onderneming kan een prospectieve IRS (*forward starting swap*) afsluiten teneinde een schuld in te dekken (tegen vaste of variabele rentevoet) die ze in de toekomst zal moeten aflossen. In dit geval beginnen de interesten op de swap pas in de toekomst te lopen en worden er dus geen intresten tussen de contractdatum (*contract date*) van de IRS en de* value date* van de IRS (zijnde de datum waarop de intresten op de swap beginnen te lopen) in de resultatenrekening erkend. De IRS wordt echter wel opgenomen in de orderekeningen. Zolang het aangaan van de toekomstige schuld waarschijnlijk blijft, moet er geen voorziening worden geboekt in het geval van een eventueel latente minderwaarde op de IRS. Indien het daarentegen niet meer waarschijnlijk is dat de schuld zal worden aangegaan, dient de IRS verwerkt te worden als een speculatieve verrichting. 
 
 Eenmaal de schuld wordt opgenomen, zal de onderneming zich in één van de twee voorgaande situaties (geval III.C of III.D) bevinden en zal ze de IRS dienovereenkomstig verwerken. 
 
-### De IRS als indekkingsverrichting van een vastrentend effect opgenomen onder de geldbeleggingen
-
+De IRS als indekkingsverrichting van een vastrentend effect opgenomen onder de geldbeleggingen
 #### Principes
 
 Deze vastrentende effecten worden gewaardeerd tegen aanschaffingswaarde (in voorkomend geval gecorrigeerd op basis van het actuariële rendement van het effect) en ze maken het voorwerp uit van waardeverminderingen indien hun realisatiewaarde op balansdatum lager is dan hun aanschaffingswaarde (art. 73 en 74 van het KB W.Venn.).

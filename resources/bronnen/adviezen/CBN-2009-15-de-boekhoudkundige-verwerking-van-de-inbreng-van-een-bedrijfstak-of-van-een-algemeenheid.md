@@ -1,70 +1,70 @@
 ---
-nummer: CBN-advies 2009/15
-datum: 2009-12-16
-themas:
-  - continuïteitsbeginsel
-  - fiscale aspecten
-  - inbreng van een algemeenheid van goederen
-  - inbreng van een onderdeel van een onderneming
 bron: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-inbreng-van-een-bedrijfstak-of-van-een-algemeenheid
+datum: 2009-12-16
+gerelateerde_adviezen:
+  - datum: '2022-09-23'
+    titel: Boekhoudkundige verwerking van fusies tussen verenigingen en stichtingen
+    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-fusies-tussen-verenigingen-en-stichtingen
+  - datum: '2022-07-20'
+    titel: Wijziging van het boekhoudkundig referentiestelsel
+    url: https://www.cbn-cnc.be/nl/adviezen/wijziging-van-het-boekhoudkundig-referentiestelsel
+  - datum: '2002-05-01'
+    titel: Verwerking in de jaarrekening van bepaalde verrichtingen als bedoeld in artikel 677 van het Wetboek van vennootschappen
+    url: https://www.cbn-cnc.be/nl/adviezen/verwerking-in-de-jaarrekening-van-bepaalde-verrichtingen-als-bedoeld-in-artikel-677-van
+nummer: CBN-advies 2009/15
 provenance:
+  generated_at: '2026-05-11T13:05:07Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-inbreng-van-een-bedrijfstak-of-van-een-algemeenheid
       sha256: 040d3c605891795bded2e48e8a8839bb399079cfc2f275c721df16354f76a6d7
       version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:35:54Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
   trust:
-    status: needs-rework
     confirmed_at: '2026-05-11T12:09:17Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "B3: de H1-titel op r54 bevat een inline voetnootaanduiding 'bedrijfstak1' (het cijfer '1' is een escaped superscript uit HTML dat niet als [^1] werd geparsed), en direct op r56 staat 'of van een algemeenheid van goederen' nogmaals als losse plain-text regel — een duplicate titelfragment dat bij extractie losraakte. B2: subkoppen op r76 en r83 gebruiken #### direct onder ## (H2→H4 zonder H3), een heading-hiërarchiefout. Inhoud verder volledig."
     layer1:
       status: pass
-      run_id: 20260511-083333
-      run_at:
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:27Z'
       heading_count: 4
       max_section_chars: 12126
       file_size_chars: 15642
       flags: []
     layer2:
-      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:09:17Z'
-      rationale: "B3: de H1-titel op r54 bevat een inline voetnootaanduiding 'bedrijfstak1' (het cijfer '1' is een escaped superscript uit HTML dat niet als [^1] werd geparsed), en direct op r56 staat 'of van een algemeenheid van goederen' nogmaals als losse plain-text regel — een duplicate titelfragment dat bij extractie losraakte. B2: subkoppen op r76 en r83 gebruiken #### direct onder ## (H2→H4 zonder H3), een heading-hiërarchiefout. Inhoud verder volledig."
       concrete_problemen:
-        - regel: 54
-          categorie: B1
+        - categorie: B1
+          regel: 54
           type: other
           voorbeeld: '# CBN-advies 2009/15 - De boekhoudkundige verwerking van de inbreng van een bedrijfstak1 of van'
-        - regel: 56
-          categorie: B3
+        - categorie: B3
+          regel: 56
           type: other
           voorbeeld: of van een algemeenheid van goederen
-        - regel: 76
-          categorie: B2
+        - categorie: B2
+          regel: 76
           type: other
           voorbeeld: '#### Principe  (direct onder ## zonder tussenniveau)'
-        - regel: 83
-          categorie: B2
+        - categorie: B2
+          regel: 83
           type: other
           voorbeeld: '#### Enkele bijzonderheden  (H4 direct onder H2)'
-gerelateerde_adviezen:
-  - titel: Boekhoudkundige verwerking van fusies tussen verenigingen en stichtingen
-    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-fusies-tussen-verenigingen-en-stichtingen
-    datum: '2022-09-23'
-  - titel: Wijziging van het boekhoudkundig referentiestelsel
-    url: https://www.cbn-cnc.be/nl/adviezen/wijziging-van-het-boekhoudkundig-referentiestelsel
-    datum: '2022-07-20'
-  - titel: Verwerking in de jaarrekening van bepaalde verrichtingen als bedoeld in artikel 677 van het Wetboek van vennootschappen
-    url: https://www.cbn-cnc.be/nl/adviezen/verwerking-in-de-jaarrekening-van-bepaalde-verrichtingen-als-bedoeld-in-artikel-677-van
-    datum: '2002-05-01'
+      rationale: 'B3: de H1-titel op r54 bevat een inline voetnootaanduiding ''bedrijfstak1'' (het cijfer ''1'' is een escaped superscript uit HTML dat niet als [^1] werd geparsed), en direct op r56 staat ''of van een algemeenheid van goederen'' nogmaals als losse plain-text regel — een duplicate titelfragment dat bij extractie losraakte. B2: subkoppen op r76 en r83 gebruiken #### direct onder ## (H2→H4 zonder H3), een heading-hiërarchiefout. Inhoud verder volledig.'
+      run_at: '2026-05-11T12:09:17Z'
+      status: needs-rework
+    rationale: 'B3: de H1-titel op r54 bevat een inline voetnootaanduiding ''bedrijfstak1'' (het cijfer ''1'' is een escaped superscript uit HTML dat niet als [^1] werd geparsed), en direct op r56 staat ''of van een algemeenheid van goederen'' nogmaals als losse plain-text regel — een duplicate titelfragment dat bij extractie losraakte. B2: subkoppen op r76 en r83 gebruiken #### direct onder ## (H2→H4 zonder H3), een heading-hiërarchiefout. Inhoud verder volledig.'
+    status: needs-rework
+themas:
+  - continuïteitsbeginsel
+  - fiscale aspecten
+  - inbreng van een algemeenheid van goederen
+  - inbreng van een onderdeel van een onderneming
 ---
 
 # CBN-advies 2009/15 - De boekhoudkundige verwerking van de inbreng van een bedrijfstak1 of van een algemeenheid van goederen

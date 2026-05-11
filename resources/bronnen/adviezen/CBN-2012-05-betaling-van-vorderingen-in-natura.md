@@ -1,55 +1,55 @@
 ---
-nummer: CBN-advies 2012/5
-datum: 2012-02-15
-themas:
-  - vordering
-  - inbetalinggeving
 bron: https://www.cbn-cnc.be/nl/adviezen/betaling-van-vorderingen-in-natura
+datum: 2012-02-15
+gerelateerde_adviezen:
+  - datum: '2025-06-10'
+    titel: Klassering van de vorderingen bij faillissement van de schuldenaar (update) [ONTWERP]
+    url: https://www.cbn-cnc.be/nl/adviezen/klassering-van-de-vorderingen-bij-faillissement-van-de-schuldenaar-update-ontwerp
+  - datum: '2021-12-06'
+    titel: Waarderen en boeken van cryptomunten gebruikt als betaalmiddel
+    url: https://www.cbn-cnc.be/nl/adviezen/waarderen-en-boeken-van-cryptomunten-gebruikt-als-betaalmiddel
+  - datum: '2016-07-06'
+    titel: 'Schulden en vorderingen: gevolgen van de wijzigingen aan artikel 67 KB W.Venn. door het koninklijk besluit van 18 december 2015'
+    url: https://www.cbn-cnc.be/nl/adviezen/schulden-en-vorderingen-gevolgen-van-de-wijzigingen-aan-artikel-67-kb-wvenn-door-het
+  - datum: '2011-10-05'
+    titel: De boekhoudkundige verwerking van factoringovereenkomsten
+    url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-factoringovereenkomsten
+nummer: CBN-advies 2012/5
 provenance:
+  generated_at: '2026-05-11T13:05:08Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/betaling-van-vorderingen-in-natura
       sha256: b6becb28377bf7a9825c8260f33f2666068c9283a33ae494dc8007ab3e099751
       version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T21:30:09Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
   trust:
-    status: trusted
     confirmed_at: '2026-05-08T21:31:11Z'
     confirmed_by: human
-    rationale: 'Herscraped na fix select_title(): gecombineerde H1 (COMMISSIE + titel) correct gesplitst. Inhoud ongewijzigd t.o.v. vorig vertrouwd verdict. Laag 1 pass (of benign max_section warn).'
     layer1:
       status: pass
-      run_id: 20260511-083333
-      run_at:
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:28Z'
       heading_count: 5
-      max_section_chars: 3553
-      file_size_chars: 6774
+      max_section_chars: 3539
+      file_size_chars: 6753
       flags: []
     layer2:
-      status: not_run
       agent:
-      run_at:
-      rationale:
       concrete_problemen: []
-gerelateerde_adviezen:
-  - titel: Klassering van de vorderingen bij faillissement van de schuldenaar (update) [ONTWERP]
-    url: https://www.cbn-cnc.be/nl/adviezen/klassering-van-de-vorderingen-bij-faillissement-van-de-schuldenaar-update-ontwerp
-    datum: '2025-06-10'
-  - titel: Waarderen en boeken van cryptomunten gebruikt als betaalmiddel
-    url: https://www.cbn-cnc.be/nl/adviezen/waarderen-en-boeken-van-cryptomunten-gebruikt-als-betaalmiddel
-    datum: '2021-12-06'
-  - titel: 'Schulden en vorderingen: gevolgen van de wijzigingen aan artikel 67 KB W.Venn. door het koninklijk besluit van 18 december 2015'
-    url: https://www.cbn-cnc.be/nl/adviezen/schulden-en-vorderingen-gevolgen-van-de-wijzigingen-aan-artikel-67-kb-wvenn-door-het
-    datum: '2016-07-06'
-  - titel: De boekhoudkundige verwerking van factoringovereenkomsten
-    url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-factoringovereenkomsten
-    datum: '2011-10-05'
+      rationale:
+      run_at:
+      status: not_run
+    rationale: 'Herscraped na fix select_title(): gecombineerde H1 (COMMISSIE + titel) correct gesplitst. Inhoud ongewijzigd t.o.v. vorig vertrouwd verdict. Laag 1 pass (of benign max_section warn).'
+    status: trusted
+themas:
+  - vordering
+  - inbetalinggeving
 ---
 
 # CBN-advies 2012/5 – Betaling van vorderingen in natura
@@ -89,8 +89,6 @@ Een onderneming levert onderhoudsdiensten aan een afnemer voor een bedrag van 1.
 
 Gezien de aard van het onderliggende goed, wordt deze inbetalinggeving als volgt boekhoudkundig verwerkt in hoofde van de schuldeiser:
 
- [^3]
-
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 23 | Installaties, machines en uitrusting | 1.000 | |
@@ -104,8 +102,6 @@ Gezien de aard van het onderliggende goed, wordt deze inbetalinggeving als volgt
 Een onderneming levert onderhoudsdiensten aan een afnemer voor een bedrag van 100 EUR, exclusief BTW. Initieel werd er voorzien in een monetaire betaling. Na overleg tussen de schuldenaar en schuldeiser wordt er besloten dat de schuldenaar schoonmaakproducten voor 100 EUR exclusief BTW in betaling geeft voor de openstaande schuld. 
 
 Gezien de aard van het onderliggende goed, wordt deze inbetalinggeving als volgt boekhoudkundig verwerkt in hoofde van de schuldeiser:
-
- [^4]
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
@@ -129,8 +125,6 @@ Voor wat betreft de inbetalinggeving door levering van een dienst is de Commissi
 Een onderneming levert in 20X1 een machine aan een afnemer voor een bedrag van 1.000 EUR, exclusief BTW. Initieel werd er voorzien in een monetaire betaling. Eind 20X1 wordt er, na overleg tussen de schuldenaar en schuldeiser, besloten dat de schuldenaar beveiligingsdiensten voor één jaar in betaling zal geven voor een waarde van 1.000 EUR exclusief BTW. Gezien het overleg pas in oktober 20X1 plaatsvond, worden er in 20X1 slechts 2 maanden diensten geleverd. 
 
 *Boekingen per 31 december 20X1*
-
- [^5]
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|

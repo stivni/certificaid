@@ -1,6 +1,46 @@
 ---
-nummer: CBN-advies 2013/12
+bron: https://www.cbn-cnc.be/nl/adviezen/erkenning-van-de-opbrengsten-en-kosten-die-overeenstemmen-met-interesten-en-royaltys
 datum: 2013-09-04
+gerelateerde_adviezen:
+  - datum: '2015-12-09'
+    titel: Boekhoudkundige verwerking van geactiveerde intercalaire interesten
+    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-geactiveerde-intercalaire-interesten
+  - datum: '1988-06-22'
+    titel: Interesten op vorderingen
+    url: https://www.cbn-cnc.be/nl/adviezen/interesten-op-vorderingen
+nummer: CBN-advies 2013/12
+provenance:
+  generated_at: '2026-05-11T13:05:08Z'
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/erkenning-van-de-opbrengsten-en-kosten-die-overeenstemmen-met-interesten-en-royaltys
+      sha256: a886b9442607f70a17719fb9c9671b2b78efcc1f34b64094e15769e9297b45af
+      version:
+  stale: false
+  stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
+  trust:
+    confirmed_at: '2026-05-11T12:16:34Z'
+    confirmed_by: subagent-sonnet-4-6
+    layer1:
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:28Z'
+      heading_count: 4
+      max_section_chars: 6161
+      file_size_chars: 13031
+      flags: []
+    layer2:
+      agent: subagent-sonnet-4-6
+      concrete_problemen: []
+      rationale: 8 headings met correcte hiërarchie (H1, H2, H3). Footnotes [^1]–[^18] aanwezig en gedefinieerd. Voetnoot [^4] is inhoudelijk zeer lang maar dit is de letterlijke tekst van art. 73 KB W.Venn. — geen artefact. Geen extractiesporen.
+      run_at: '2026-05-11T12:16:34Z'
+      status: trusted
+    rationale: 8 headings met correcte hiërarchie (H1, H2, H3). Footnotes [^1]–[^18] aanwezig en gedefinieerd. Voetnoot [^4] is inhoudelijk zeer lang maar dit is de letterlijke tekst van art. 73 KB W.Venn. — geen artefact. Geen extractiesporen.
+    status: trusted
 themas:
   - interesten
   - opbrengsterkenning
@@ -8,54 +48,13 @@ themas:
   - royalties
   - tantièmes
   - voorzichtigheidsbeginsel
-bron: https://www.cbn-cnc.be/nl/adviezen/erkenning-van-de-opbrengsten-en-kosten-die-overeenstemmen-met-interesten-en-royaltys
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/erkenning-van-de-opbrengsten-en-kosten-die-overeenstemmen-met-interesten-en-royaltys
-      sha256: a886b9442607f70a17719fb9c9671b2b78efcc1f34b64094e15769e9297b45af
-      version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:36:40Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: trusted
-    confirmed_at: '2026-05-11T12:16:34Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: 8 headings met correcte hiërarchie (H1, H2, H3). Footnotes [^1]–[^18] aanwezig en gedefinieerd. Voetnoot [^4] is inhoudelijk zeer lang maar dit is de letterlijke tekst van art. 73 KB W.Venn. — geen artefact. Geen extractiesporen.
-    layer1:
-      status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 8
-      max_section_chars: 6876
-      file_size_chars: 13058
-      flags: []
-    layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:16:34Z'
-      rationale: 8 headings met correcte hiërarchie (H1, H2, H3). Footnotes [^1]–[^18] aanwezig en gedefinieerd. Voetnoot [^4] is inhoudelijk zeer lang maar dit is de letterlijke tekst van art. 73 KB W.Venn. — geen artefact. Geen extractiesporen.
-      concrete_problemen: []
-gerelateerde_adviezen:
-  - titel: Boekhoudkundige verwerking van geactiveerde intercalaire interesten
-    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-geactiveerde-intercalaire-interesten
-    datum: '2015-12-09'
-  - titel: Interesten op vorderingen
-    url: https://www.cbn-cnc.be/nl/adviezen/interesten-op-vorderingen
-    datum: '1988-06-22'
 ---
 
 # CBN-advies 2013/12 - Erkenning van de opbrengsten en kosten die overeenstemmen met interesten en royalty's, evenals de toewijzing van de resultaten in de vorm van dividenden en tantièmes en de opbrengsten die overeenstemmen met dividenden en tantièmes
 
 ## Onderwerp van het advies 
 
-In het artikel 31, § 1 van de Vierde Europese Richtlijn betreffende de jaarrekening van bepaalde vennootschapsvormen[^2]
- wordt het volgende bepaald: “c) het voorzichtigheidsbeginsel moet steeds in acht worden genomen en in het bijzonder geldt het volgende: aa) winsten mogen slechts worden opgenomen voor zover zij op de balansdatum gerealiseerd zijn” en “d) lasten en baten betreffende het boekjaar waarop de jaarrekening betrekking heeft, moeten in aanmerking worden genomen, ongeacht het tijdstip van betaling van deze lasten of ontvangst van deze baten”.
+In het artikel 31, § 1 van de Vierde Europese Richtlijn betreffende de jaarrekening van bepaalde vennootschapsvormen[^2] wordt het volgende bepaald: “c) het voorzichtigheidsbeginsel moet steeds in acht worden genomen en in het bijzonder geldt het volgende: aa) winsten mogen slechts worden opgenomen voor zover zij op de balansdatum gerealiseerd zijn” en “d) lasten en baten betreffende het boekjaar waarop de jaarrekening betrekking heeft, moeten in aanmerking worden genomen, ongeacht het tijdstip van betaling van deze lasten of ontvangst van deze baten”.
 
 In het artikel 33, tweede lid, van het Koninklijk besluit tot uitvoering van het wetboek van vennootschappen (KB W. Venn.) wordt het volgende bepaald: “*Er moet rekening worden gehouden met de kosten en de opbrengsten die betrekking hebben op het boekjaar of op voorgaande boekjaren, ongeacht de dag waarop deze kosten en opbrengsten worden betaald of geïnd, behalve indien de effectieve inning van deze opbrengsten onzeker is*.”
 
@@ -65,23 +64,17 @@ Met dit advies beoogt de Commissie voor Boekhoudkundige Normen de regels te bepa
 
 ## Interesten en royalty's
 
-### Boekhoudkundige verwerking van interesten en royalty's, in de vorm van opbrengsten, in hoofde van de begunstigde
-
+Boekhoudkundige verwerking van interesten en royalty's, in de vorm van opbrengsten, in hoofde van de begunstigde
 In dit advies worden enkel de interesten van leningen behandeld die geen onzekerheid inhouden over het verwachte rendement.
 
 De interesten die in dit advies worden beoogd, zijn burgerlijke vruchten die overeenkomstig artikel 586 van het Burgerlijk Wetboek worden geacht van dag tot dag te worden verkregen. De begunstigde onderneming moet de pro rata van de verlopen interest als opbrengst boeken op afsluitingsdatum van het boekjaar[^3], zonder de vervaldag van de interesten af te wachten. In dat geval zal de overlopende rekening van de actiefzijde 491 *Verkregen opbrengsten* worden gedebiteerd. 
 
-In het artikel 73 van het KB W.Venn. [^4]
- worden de regels bepaald voor de inresultaatneming van vastrentende effecten die berekend zijn op basis van het actuariële rendement. Deze regels gelden zowel voor de inschrijver of koper van de effecten (schuldeiser), als voor de emittent van het effect (schuldenaar)[^5]. 
+In het artikel 73 van het KB W.Venn. [^4] worden de regels bepaald voor de inresultaatneming van vastrentende effecten die berekend zijn op basis van het actuariële rendement. Deze regels gelden zowel voor de inschrijver of koper van de effecten (schuldeiser), als voor de emittent van het effect (schuldenaar)[^5]. 
 
 De Commissie heeft deze regels in het bijzonder toegelicht in het advies 148/5 *Actuarieel rendement op vastrentende effecten*[^6]
- - Aanpassing van de adviezen 137/5[^7]
- en 148/4[^8]
- en in het advies 147/2 *Inresultaatneming van het actuariële rendement van vastrentende effecten*[^9].
+ - Aanpassing van de adviezen 137/5[^7] en 148/4[^8] en in het advies 147/2 *Inresultaatneming van het actuariële rendement van vastrentende effecten*[^9].
 
-Overigens worden in het artikel 67, § 2 van het KB W.Venn. [^10]
- de regels bepaald betreffende de inresultaatneming van interesten op vorderingen en schulden[^11]
- volgens de methode van de samengestelde interest. 
+Overigens worden in het artikel 67, § 2 van het KB W.Venn. [^10] de regels bepaald betreffende de inresultaatneming van interesten op vorderingen en schulden[^11] volgens de methode van de samengestelde interest. 
 
 Voor het overige verwijst de Commissie naar het advies 137/7 *Interesten op vorderingen*[^12].
 
@@ -91,12 +84,10 @@ De opbrengsten die voortvloeien uit royalty's moeten, in beginsel, eveneens word
 
 Voor het overige verwijst de Commissie naar het advies 104 *Royalty's*[^13].
 
-### Boekhoudkundige verwerking van interesten en royalty’s, onder de vorm van kosten, in hoofde van de schuldenaar
-
+Boekhoudkundige verwerking van interesten en royalty’s, onder de vorm van kosten, in hoofde van de schuldenaar
 De onderneming die de interesten is verschuldigd, moet deze interesten als kost boeken naarmate ze zijn verlopen, zonder de vervaldag van de interesten af te wachten. Aan het einde van het boekjaar dient de vennootschap de interestkosten *pro rata temporis* te boeken (hiervoor wordt de overlopende rekening van de passiefzijde 492 *Toe te rekenen kosten* gecrediteerd).
 
-De artikelen 67, § 2 en 73 van het KB W.Venn. [^14]
- (zie punt 4 hierboven) bepalen de specifieke regels voor de inresultaatneming van interesten van, respectievelijk, vorderingen en schulden en van vastrentende effecten. Zoals hierboven werd gesteld, gelden deze regels zowel voor de inschrijver of koper van de effecten (schuldenaar), als voor de emittent van de effecten (schuldeiser).
+De artikelen 67, § 2 en 73 van het KB W.Venn. [^14] (zie punt 4 hierboven) bepalen de specifieke regels voor de inresultaatneming van interesten van, respectievelijk, vorderingen en schulden en van vastrentende effecten. Zoals hierboven werd gesteld, gelden deze regels zowel voor de inschrijver of koper van de effecten (schuldenaar), als voor de emittent van de effecten (schuldeiser).
 
 De royalty's moeten in beginsel, net als de interesten, worden geboekt als kosten naarmate ze verlopen zijn, zonder hun vervaldag af te wachten. In dat geval wordt eveneens de overlopende rekening van de passiefzijde 492 *Toe te rekenen kosten* gebruikt.
 
@@ -104,16 +95,14 @@ De Commissie verwijst eveneens naar het voornoemde advies 104 *Royalty's*[^15].
 
 ## Dividenden en tantièmes
 
-### Boekhoudkundige verwerking van dividenden en tantièmes, in de vorm van opbrengsten, in hoofde van de begunstigde
-
+Boekhoudkundige verwerking van dividenden en tantièmes, in de vorm van opbrengsten, in hoofde van de begunstigde
 Strikt genomen moeten de opbrengsten die overeenstemmen met dividenden in beginsel worden geboekt op het moment dat de algemene vergadering (of de raad van bestuur, in geval van een interimdividend) beslist om de dividenden uit te keren. 
 
 Het is immers op dat moment dat de vordering ontstaat van de aandeelhouders ten aanzien van de vennootschap. 
 
 De opbrengsten die voortvloeien uit tantièmes moeten eveneens worden geboekt op het moment dat de algemene vergadering van de vennootschap die de tantièmes uitkeert, beslist om de tantièmes uit te keren.
 
-### Boekhoudkundige verwerking van de resultaatsbestemming, in de vorm van dividenden of tantièmes, in hoofde van de vennootschap die het dividend uitkeert
-
+Boekhoudkundige verwerking van de resultaatsbestemming, in de vorm van dividenden of tantièmes, in hoofde van de vennootschap die het dividend uitkeert
 De dividenden en tantièmes vormen een winstbestemming voor de vennootschap die ze verschuldigd is.
 
 De jaarrekening wordt opgesteld na de resultaatsbestemming: de dividenden en tantièmes die door de algemene vergadering zullen worden gedecreteerd, zullen bij de opstelling van de jaarrekening worden geboekt door, respectievelijk, de overlopende rekeningen 694 *Vergoeding van het kapitaal* en 695 *Bestuurders of zaakvoerders* te debiteren en de schuldenrekening 47 *Schulden uit de bestemming van het resultaat* te crediteren. 

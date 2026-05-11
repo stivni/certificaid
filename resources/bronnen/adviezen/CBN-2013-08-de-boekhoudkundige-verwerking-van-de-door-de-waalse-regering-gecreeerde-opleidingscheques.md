@@ -1,57 +1,57 @@
 ---
-nummer: CBN-advies 2013/8
-datum: 2013-04-24
-themas:
-  - bedrijfssubsidie
-  - opleidingscheques
 bron: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-door-de-waalse-regering-gecreeerde-opleidingscheques
+datum: 2013-04-24
+gerelateerde_adviezen:
+  - datum: '2010-09-08'
+    titel: Boekhoudkundige verwerking van loontussenkomst door de overheid in hoofde van de werkgever (update)
+    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-loontussenkomst-door-de-overheid-in-hoofde-van-de-werkgever
+  - datum: '2009-11-18'
+    titel: De boekhoudkundige verwerking van het stelsel tot gedeeltelijke vrijstelling van betaling van de bedrijfsvoorheffing, zoals geregeld door artikel 275/3 van het Wetboek van de Inkomstenbelastingen 1992
+    url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-het-stelsel-tot-gedeeltelijke-vrijstelling-van-0
+nummer: CBN-advies 2013/8
 provenance:
+  generated_at: '2026-05-11T13:05:08Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-door-de-waalse-regering-gecreeerde-opleidingscheques
       sha256: e38bfddbd610fc108a5e18a82365dacd18dca9065a2026646c8e146a367dcc71
       version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:36:38Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
   trust:
-    status: needs-rework
     confirmed_at: '2026-05-11T12:16:34Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "A3/B3: regel 51 bevat 'de Waalse regering gecreëerde opleidingscheques' als losstaande plain-text regel direct na de H1-titel — dit is een duplicaatfragment van de titel dat door de extractor dubbel werd opgenomen. E2: tabelrij op regel 83 ('| | of 623 Andere personeelskosten | | | |') heeft een extra trailing pipe wat de tabel malformed maakt."
     layer1:
       status: pass
-      run_id: 20260511-083333
-      run_at:
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:28Z'
       heading_count: 2
       max_section_chars: 2907
-      file_size_chars: 3781
+      file_size_chars: 3779
       flags: []
     layer2:
-      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:16:34Z'
-      rationale: "A3/B3: regel 51 bevat 'de Waalse regering gecreëerde opleidingscheques' als losstaande plain-text regel direct na de H1-titel — dit is een duplicaatfragment van de titel dat door de extractor dubbel werd opgenomen. E2: tabelrij op regel 83 ('| | of 623 Andere personeelskosten | | | |') heeft een extra trailing pipe wat de tabel malformed maakt."
       concrete_problemen:
-        - regel: 51
-          categorie: A3
+        - categorie: A3
+          regel: 51
           type: other
           voorbeeld: de Waalse regering gecreëerde opleidingscheques (titel-duplicaat als plain text)
-        - regel: 83
-          categorie: E2
+        - categorie: E2
+          regel: 83
           type: other
           voorbeeld: '| | of 623 Andere personeelskosten | | | | (extra trailing pipe)'
-gerelateerde_adviezen:
-  - titel: Boekhoudkundige verwerking van loontussenkomst door de overheid in hoofde van de werkgever (update)
-    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-loontussenkomst-door-de-overheid-in-hoofde-van-de-werkgever
-    datum: '2010-09-08'
-  - titel: De boekhoudkundige verwerking van het stelsel tot gedeeltelijke vrijstelling van betaling van de bedrijfsvoorheffing, zoals geregeld door artikel 275/3 van het Wetboek van de Inkomstenbelastingen 1992
-    url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-het-stelsel-tot-gedeeltelijke-vrijstelling-van-0
-    datum: '2009-11-18'
+      rationale: 'A3/B3: regel 51 bevat ''de Waalse regering gecreëerde opleidingscheques'' als losstaande plain-text regel direct na de H1-titel — dit is een duplicaatfragment van de titel dat door de extractor dubbel werd opgenomen. E2: tabelrij op regel 83 (''| | of 623 Andere personeelskosten | | | |'') heeft een extra trailing pipe wat de tabel malformed maakt.'
+      run_at: '2026-05-11T12:16:34Z'
+      status: needs-rework
+    rationale: 'A3/B3: regel 51 bevat ''de Waalse regering gecreëerde opleidingscheques'' als losstaande plain-text regel direct na de H1-titel — dit is een duplicaatfragment van de titel dat door de extractor dubbel werd opgenomen. E2: tabelrij op regel 83 (''| | of 623 Andere personeelskosten | | | |'') heeft een extra trailing pipe wat de tabel malformed maakt.'
+    status: needs-rework
+themas:
+  - bedrijfssubsidie
+  - opleidingscheques
 ---
 
 # CBN-advies 2013/8 – De boekhoudkundige verwerking van de door de Waalse regering gecreëerde opleidingscheques
@@ -60,9 +60,7 @@ de Waalse regering gecreëerde opleidingscheques
 
 ## Inleiding
 
-Het decreet van 10 april 2003[^1]
- en het besluit van de Waalse regering van 1 april 2004[^2]
- creëren in Wallonië het systeem van *opleidingscheques*. Kleine of middelgrote ondernemingen die op basis van de voorwaarden in het decreet voor opleidingscheques in aanmerking komen, kunnen, afhankelijk van het aantal werknemers dat de onderneming heeft ingeschreven bij de R.S.Z., een maximumaantal opleidingscheques met een zichtwaarde van 30 euro per cheque aankopen. Deze cheques worden aangekocht bij de emittent, aangewezen door de Regering op voordracht van de “Office wallon de la Formation professionnelle et de l’Emploi” tegen de prijs van 15 euro per cheque. 
+Het decreet van 10 april 2003[^1] en het besluit van de Waalse regering van 1 april 2004[^2] creëren in Wallonië het systeem van *opleidingscheques*. Kleine of middelgrote ondernemingen die op basis van de voorwaarden in het decreet voor opleidingscheques in aanmerking komen, kunnen, afhankelijk van het aantal werknemers dat de onderneming heeft ingeschreven bij de R.S.Z., een maximumaantal opleidingscheques met een zichtwaarde van 30 euro per cheque aankopen. Deze cheques worden aangekocht bij de emittent, aangewezen door de Regering op voordracht van de “Office wallon de la Formation professionnelle et de l’Emploi” tegen de prijs van 15 euro per cheque. 
 
 ## Boekhoudkundige verwerking
 

@@ -1,52 +1,52 @@
 ---
-nummer: CBN-advies 107/8
+bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-voorzieningen-voor-risicos-en-kosten
 datum: 1988-06-01
+nummer: CBN-advies 107/8
+provenance:
+  generated_at: '2026-05-11T13:05:05Z'
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-voorzieningen-voor-risicos-en-kosten
+      sha256: d753bc74c5fd679b41db4da5185b9d315db89113f7fc81e0cf1c003ccd4d619d
+      version:
+  stale: false
+  stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
+  trust:
+    confirmed_at: '2026-05-11T11:57:45Z'
+    confirmed_by: subagent-sonnet-4-6
+    layer1:
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:24Z'
+      heading_count: 0
+      max_section_chars: 2994
+      file_size_chars: 2994
+      flags: []
+    layer2:
+      agent: subagent-sonnet-4-6
+      concrete_problemen:
+        - categorie: G2
+          regel: 8
+          type: other
+          voorbeeld: '- voorzieningen voor risico&#039;s en kosten'
+        - categorie: D4
+          regel: 54
+          type: other
+          voorbeeld: "verplichtingen in deviezen[^1]\n zijn de hypotheses..."
+      rationale: 'Twee problemen: (1) G2: HTML-entity `&#039;` in frontmatter themas-veld (regel 8: ''voorzieningen voor risico&#039;s en kosten'') in plaats van een apostrof. (2) D4-artefact op regel 54: ''deviezen[^1]\n zijn de hypotheses...'' — footnote-marker gevolgd door newline + spatie, identiek patroon als in 107/3bis en 107/5. Beide zijn ETL-fixbaar.'
+      run_at: '2026-05-11T11:57:45Z'
+      status: needs-rework
+    rationale: 'Twee problemen: (1) G2: HTML-entity `&#039;` in frontmatter themas-veld (regel 8: ''voorzieningen voor risico&#039;s en kosten'') in plaats van een apostrof. (2) D4-artefact op regel 54: ''deviezen[^1]\n zijn de hypotheses...'' — footnote-marker gevolgd door newline + spatie, identiek patroon als in 107/3bis en 107/5. Beide zijn ETL-fixbaar.'
+    status: needs-rework
 themas:
   - fiscale voorziening
   - voorziening
   - voorzieningen met een financieel karakter
   - voorzieningen voor risico&#039;s en kosten
-bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-voorzieningen-voor-risicos-en-kosten
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-voorzieningen-voor-risicos-en-kosten
-      sha256: d753bc74c5fd679b41db4da5185b9d315db89113f7fc81e0cf1c003ccd4d619d
-      version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:33:59Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T11:57:45Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "Twee problemen: (1) G2: HTML-entity `&#039;` in frontmatter themas-veld (regel 8: 'voorzieningen voor risico&#039;s en kosten') in plaats van een apostrof. (2) D4-artefact op regel 54: 'deviezen[^1]\\n zijn de hypotheses...' — footnote-marker gevolgd door newline + spatie, identiek patroon als in 107/3bis en 107/5. Beide zijn ETL-fixbaar."
-    layer1:
-      status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 0
-      max_section_chars: 2995
-      file_size_chars: 2995
-      flags: []
-    layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T11:57:45Z'
-      rationale: "Twee problemen: (1) G2: HTML-entity `&#039;` in frontmatter themas-veld (regel 8: 'voorzieningen voor risico&#039;s en kosten') in plaats van een apostrof. (2) D4-artefact op regel 54: 'deviezen[^1]\\n zijn de hypotheses...' — footnote-marker gevolgd door newline + spatie, identiek patroon als in 107/3bis en 107/5. Beide zijn ETL-fixbaar."
-      concrete_problemen:
-        - regel: 8
-          categorie: G2
-          type: other
-          voorbeeld: '- voorzieningen voor risico&#039;s en kosten'
-        - regel: 54
-          categorie: D4
-          type: other
-          voorbeeld: "verplichtingen in deviezen[^1]\n zijn de hypotheses..."
 ---
 
 # CBN-advies 107/8 - Boekhoudkundige verwerking van de voorzieningen voor risico's en kosten
@@ -59,8 +59,7 @@ Op deze regel werden een drietal uitzonderingen vastgesteld.
 
 Een eerste uitzondering slaat op de voorzieningen met een financieel karakter. Inderdaad, daar waar inzake bedrijfsresultaten de nodige rekeningen inzake voorzieningen zijn opgenomen, ontbreken die rekeningen (toevoeging, besteding, terugneming) wat de financiële resultaten betreft.
 
-De Commissie is van oordeel dat deze uitzondering een vrij beperkte draagwijdte heeft, daar de voorzieningen met een financieel karakter uitzonderlijk zijn. Met de definitieve goedkeuring van het advies inzake verrichtingen, tegoeden en verplichtingen in deviezen[^1]
- zijn de hypotheses waarin voorzieningen met een financieel karakter kunnen of moeten worden gevormd nog beperkter dan voorheen[^2].
+De Commissie is van oordeel dat deze uitzondering een vrij beperkte draagwijdte heeft, daar de voorzieningen met een financieel karakter uitzonderlijk zijn. Met de definitieve goedkeuring van het advies inzake verrichtingen, tegoeden en verplichtingen in deviezen[^1] zijn de hypotheses waarin voorzieningen met een financieel karakter kunnen of moeten worden gevormd nog beperkter dan voorheen[^2].
 
 In het algemeen rekeningenstelsel komt een bijzondere rekening voor met betrekking tot de tenlasteneming van fiscale voorzieningen (rekening 6712 *Gevormde fiscale voorzieningen*) en een bijzondere rekening voor de terugnemingen van fiscale voorzieningen (rekening 7712). In de jaarrekening worden de gevormde fiscale voorzieningen evenwel samengevoegd met de andere bestanddelen van belastingen op het resultaat (post X, A) en de terugnemingen van fiscale voorzieningen met de regulariseringen van belastingen op het resultaat. Ook deze uitzondering heeft een beperkte draagwijdte daar de fiscale voorzieningen afzonderlijk op het passief verschijnen en daar sinds de wijziging in september 1983 van het jaarrekeningbesluit, de vorming van dergelijke voorzieningen bovendien slechts in een vrij beperkt aantal gevallen voorkomt[^3].
 

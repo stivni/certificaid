@@ -1,54 +1,54 @@
 ---
-nummer: CBN-advies 2020/06
-datum: 2020-05-27
-themas:
-  - financieringskostensurplus
-  - interestaftrekovereenkomst
 bron: https://www.cbn-cnc.be/nl/adviezen/financieringskostensurplus-artikel-194sexies-en-artikel-1981-wib-92
+datum: 2020-05-27
+nummer: CBN-advies 2020/06
 provenance:
+  generated_at: '2026-05-11T13:05:08Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/financieringskostensurplus-artikel-194sexies-en-artikel-1981-wib-92
       sha256: 83563083987172e5387a3f35944819c0eeb009df6968445d048464f0747c5ccc
       version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:37:48Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
   trust:
-    status: needs-rework
     confirmed_at: '2026-05-11T12:21:40Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "A3: Twee TOC-fragmenten staan in de body (regels 44-86). Op regels 84-86 staat een aaneengesloten collapsed TOC-string over meerdere niveaus ('---- Overdracht van het niet-benutte deel...------ De partijen hebben...') als ruwe tekst. Dit is een duidelijk extractie-artefact dat de body vervuilt. Verder bevat ook de geneste TOC op regels 44-83 meerdere niveaus inline in het document."
     layer1:
       status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 29
-      max_section_chars: 13951
-      file_size_chars: 32861
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:30Z'
+      heading_count: 37
+      max_section_chars: 13930
+      file_size_chars: 31751
       flags: []
     layer2:
-      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:21:40Z'
-      rationale: "A3: Twee TOC-fragmenten staan in de body (regels 44-86). Op regels 84-86 staat een aaneengesloten collapsed TOC-string over meerdere niveaus ('---- Overdracht van het niet-benutte deel...------ De partijen hebben...') als ruwe tekst. Dit is een duidelijk extractie-artefact dat de body vervuilt. Verder bevat ook de geneste TOC op regels 44-83 meerdere niveaus inline in het document."
       concrete_problemen:
-        - regel: 84
-          categorie: A3
+        - categorie: A3
+          regel: 84
           type: other
           voorbeeld: '---- Overdracht van het niet-benutte deel van de aftrekcapaciteit ---- Mogelijkheid voor de partijen...'
-        - regel: 85
-          categorie: A3
+        - categorie: A3
+          regel: 85
           type: other
           voorbeeld: '------ De partijen hebben in de interestaftrekovereenkomst een vergoeding voorzien-------- In hoofde van...'
-        - regel: 44
-          categorie: A3
+        - categorie: A3
+          regel: 44
           type: other
           voorbeeld: 1. Inleiding \n2. Boekhoudkundige verwerking... (uitgebreide nested TOC in body)
+      rationale: 'A3: Twee TOC-fragmenten staan in de body (regels 44-86). Op regels 84-86 staat een aaneengesloten collapsed TOC-string over meerdere niveaus (''---- Overdracht van het niet-benutte deel...------ De partijen hebben...'') als ruwe tekst. Dit is een duidelijk extractie-artefact dat de body vervuilt. Verder bevat ook de geneste TOC op regels 44-83 meerdere niveaus inline in het document.'
+      run_at: '2026-05-11T12:21:40Z'
+      status: needs-rework
+    rationale: 'A3: Twee TOC-fragmenten staan in de body (regels 44-86). Op regels 84-86 staat een aaneengesloten collapsed TOC-string over meerdere niveaus (''---- Overdracht van het niet-benutte deel...------ De partijen hebben...'') als ruwe tekst. Dit is een duidelijk extractie-artefact dat de body vervuilt. Verder bevat ook de geneste TOC op regels 44-83 meerdere niveaus inline in het document.'
+    status: needs-rework
+themas:
+  - financieringskostensurplus
+  - interestaftrekovereenkomst
 ---
 
 # CBN-advies 2020/06 – Financieringskostensurplus (artikel 194sexies en artikel 198/1 WIB 92)
@@ -94,26 +94,18 @@ provenance:
       2. In hoofde van vennootschap Y 
 
 ---- Overdracht van het niet-benutte deel van de aftrekcapaciteit ---- Mogelijkheid voor de partijen om een vergoeding te voorzien in de interestaftrekovereenkomst
------- De partijen hebben in de interestaftrekovereenkomst een vergoeding voorzien-------- In hoofde van de betaler van de vergoeding -------- In hoofde van de ontvanger van de vergoeding ------ De partijen hebben in de interestaftrekovereenkomst géén vergoeding voorzienVoorbeeld
--- Interestaftrekovereenkomst met vergoeding---- Overeenkomst gesloten in boekjaar N------ In hoofde van vennootschap X (betaler van de vergoeding)------ In hoofde van vennootschap Y (ontvanger van de vergoeding)---- Overeenkomst gesloten in boekjaar N+1------ In hoofde van vennootschap X (betaler van de vergoeding)-------- Eerste methode-------- Tweede methode------ In hoofde van vennootschap Y (ontvanger van de vergoeding)-- Interestaftrekovereenkomst zonder vergoeding---- Overeenkomst of principeakkoord gesloten vóór afsluiting van het boekjaar ------ In hoofde van vennootschap X------ In hoofde van vennootschap Y ---- Overeenkomst gesloten na afsluiting van het boekjaar------ In hoofde van vennootschap X ------ In hoofde van vennootschap Y 
 
 ## Inleiding
 
-Op 12 juli 2016 heeft de Raad van de Europese Unie de ATAD-richtlijn (*Anti-Tax Avoidance Directive*) aangenomen, die kadert in de uitvoering van het BEPS-actieplan (*Base Erosion and Profit Shifting*). Deze richtlijn heeft als doel te strijden tegen belastingontwijkingspraktijken[^2]
- en bevat met name een regeling inzake de beperking van de aftrekbaarheid van rente[^3]
- (interestaftrekbeperking).
+Op 12 juli 2016 heeft de Raad van de Europese Unie de ATAD-richtlijn (*Anti-Tax Avoidance Directive*) aangenomen, die kadert in de uitvoering van het BEPS-actieplan (*Base Erosion and Profit Shifting*). Deze richtlijn heeft als doel te strijden tegen belastingontwijkingspraktijken[^2] en bevat met name een regeling inzake de beperking van de aftrekbaarheid van rente[^3] (interestaftrekbeperking).
 
 De invoering van een richtlijn hieromtrent was noodzakelijk: “*In een poging om hun totale belastingschuld te verlagen, zijn concerns door middel van buitensporige rentebetalingen steeds meer aan BEPS gaan doen*”.[^4]
  Om dergelijke praktijken te ontmoedigen, vond de Europese wetgever het noodzakelijk een regeling in te voeren inzake interestaftrekbeperking.
 
 Sedert 25 december 2017 heeft de Belgische wetgever deze richtlijn omgezet en werd er in het Wetboek van de inkomstenbelastingen (hierna: WIB 92) een artikel ingevoerd over interestaftrekbeperking (artikel 198/1 WIB 92)[^5]. 
 
-Artikel 198/1 van het WIB 92[^6]
- bepaalt dat het financieringskostensurplus slechts aftrekbaar is tot een bepaald bedrag, ook wel ‘grensbedrag’ genoemd[^7]. Onder ‘financieringskostensurplus’ wordt verstaan: het positieve verschil tussen betaalde[^8]
- en ontvangen[^9]
- interesten. Dit positieve verschil is niet aftrekbaar wanneer het financieringskostensurplus het hoogste grensbedrag van volgende twee bedragen overschrijdt: 3.000.000[^10]
- EUR of 30 % van de fiscaal gedefinieerde EBITDA[^11]
- (*earnings before interests, taxation, depreciation and amortization* met een eigen definitie in het WIB 92). 
+Artikel 198/1 van het WIB 92[^6] bepaalt dat het financieringskostensurplus slechts aftrekbaar is tot een bepaald bedrag, ook wel ‘grensbedrag’ genoemd[^7]. Onder ‘financieringskostensurplus’ wordt verstaan: het positieve verschil tussen betaalde[^8] en ontvangen[^9] interesten. Dit positieve verschil is niet aftrekbaar wanneer het financieringskostensurplus het hoogste grensbedrag van volgende twee bedragen overschrijdt: 3.000.000[^10]
+ EUR of 30 % van de fiscaal gedefinieerde EBITDA[^11] (*earnings before interests, taxation, depreciation and amortization* met een eigen definitie in het WIB 92). 
 
 Het financieringskostensurplus dat overeenkomstig artikel 198/1 van het WIB 92 niet aftrekbaar was in een vorig belastbaar tijdperk, wordt, zonder tijdsbeperking, krachtens artikel 194sexies van het WIB 92, alsnog met de winst verrekend in een later tijdperk.[^12] 
 
@@ -137,8 +129,7 @@ In de toelichting van de Belgische statutaire jaarrekening moeten evenwel de act
 
 #### Geconsolideerde jaarrekening
 
-De vennootschappen die een geconsolideerde jaarrekening[^19]
- opmaken, mogen de actieve belastinglatenties aan de actiefzijde van de balans boeken.[^20] 
+De vennootschappen die een geconsolideerde jaarrekening[^19] opmaken, mogen de actieve belastinglatenties aan de actiefzijde van de balans boeken.[^20] 
 
 ### Interestaftrekovereenkomst [^21] 
 
@@ -146,14 +137,12 @@ Krachtens artikel 198/1, § 4 van het WIB 92 kan een vennootschap met een niet-b
 
 Via deze overdracht kan de vennootschap of inrichting die de niet-benutte aftrekcapaciteit van de andere vennootschap ontvangt, haar financieringskostensurplus verminderen. Als gevolg van de overdracht zal de ontvangende vennootschap of inrichting ook minder belastingen betalen dan wanneer zij de niet-benutte aftrekcapaciteit van de andere vennootschap niet zou hebben ontvangen. 
 
-Daarnaast kunnen[^23]
- de partijen in hoofde van de ontvangende vennootschap voorzien in de betaling van een vergoeding die gelijk moet zijn aan de belastingbesparing die voortvloeit uit de overdracht. 
+Daarnaast kunnen[^23] de partijen in hoofde van de ontvangende vennootschap voorzien in de betaling van een vergoeding die gelijk moet zijn aan de belastingbesparing die voortvloeit uit de overdracht. 
 
 #### Overdracht van het niet-benutte deel van de aftrekcapaciteit 
 
 Deze overdracht heeft enkel gevolgen voor de belastingaangifte. De partijen zullen het overgedragen grensbedrag verwerken in de aangifte van de vennootschapsbelasting of van de belasting van niet-inwoners van het belastbaar tijdperk dat verbonden is met het in de overeenkomst vermelde aanslagjaar.[^24]
- Bijgevolg vindt de fiscale verschuiving plaats buiten de boekhouding en vergt deze geen verdere verduidelijking[^25]
- van de Commissie.
+ Bijgevolg vindt de fiscale verschuiving plaats buiten de boekhouding en vergt deze geen verdere verduidelijking[^25] van de Commissie.
 
 #### Mogelijkheid voor de partijen om een vergoeding te voorzien in de interestaftrekovereenkomst[^26] 
 
@@ -169,17 +158,15 @@ Hierna verduidelijkt de Commissie de boekhoudkundige verwerking van deze vergoed
 
 De partijen kunnen in de interestaftrekovereenkomst een vergoeding voorzien. Deze zal gelijk zijn aan de belastingbesparing die voortvloeit uit de overdracht.
 
-De rekening 67 *Belastingen op het resultaat *wordt gebruikt voor alle uitgaven of kosten die de onderneming heeft gedaan of ondergaan ter voldoening van de winstbelastingen die geheven worden over het resultaat en die met deze winstbelastingen verrekenbaar zijn.[^28] 
+De rekening 67 *Belastingen op het resultaat* wordt gebruikt voor alle uitgaven of kosten die de onderneming heeft gedaan of ondergaan ter voldoening van de winstbelastingen die geheven worden over het resultaat en die met deze winstbelastingen verrekenbaar zijn.[^28] 
 
 De interestaftrekovereenkomst wordt gesloten na afsluiting van het boekjaar (N). In de regel wordt deze overeenkomst bijgevolg pas verwerkt in de jaarrekening in de loop van boekjaar N+1. Op de afsluitingsdatum van boekjaar N worden de geraamde belastingen geboekt zonder rekening te houden met een interestaftrekovereenkomst die in een volgend boekjaar wordt gesloten[^29]. 
 
 De partijen kunnen de interestaftrekovereenkomst echter ook vóór afsluiting van boekjaar N hebben gesloten. In dit geval moet hier rekening mee worden gehouden bij het bepalen van de geraamde belastingen voor boekjaar N.
 
-De Commissie is van mening dat de vergoeding op twee verschillende wijzen kan worden geboekt wanneer de interestaftrekovereenkomst in boekjaar N+1 werd gesloten. In de eerste plaats zal de vennootschap bij afsluiting van boekjaar N haar fiscale lasten beoordelen en deze geraamde belastingschuld van boekjaar N boeken door debitering van rekening 6702 *Geraamde belastingen *met als tegenpost rekening 4500* Belgische winstbelastingen*[^30]. Vervolgens moet in de loop van het volgende boekjaar (N+1)[^31]
- rekening 4500* Belgische winstbelastingen* gedebiteerd worden met als tegenpost de boeking van een schuld aan de groepsvennootschap waarmee de interestaftrekovereenkomst werd gesloten.
+De Commissie is van mening dat de vergoeding op twee verschillende wijzen kan worden geboekt wanneer de interestaftrekovereenkomst in boekjaar N+1 werd gesloten. In de eerste plaats zal de vennootschap bij afsluiting van boekjaar N haar fiscale lasten beoordelen en deze geraamde belastingschuld van boekjaar N boeken door debitering van rekening 6702 *Geraamde belastingen* met als tegenpost rekening 4500* Belgische winstbelastingen*[^30]. Vervolgens moet in de loop van het volgende boekjaar (N+1)[^31] rekening 4500* Belgische winstbelastingen* gedebiteerd worden met als tegenpost de boeking van een schuld aan de groepsvennootschap waarmee de interestaftrekovereenkomst werd gesloten.
 
-De vergoeding kan eveneens als volgt worden geboekt: de vergoeding wordt in boekjaar N+1 geboekt door debitering van rekening 668 *Andere niet-recurrente financiële kosten* met als tegenpost rekening 489 *Andere diverse schulden*[^32]. Bovendien zal de vennootschap eveneens een “belastingvermindering”[^33]
- boeken door debitering van rekening 4500 *Belgische winstbelastingen* met als tegenpost rekening 769 *Andere niet-recurrente financiële opbrengsten: overdracht van het financieringskostensurplus*.
+De vergoeding kan eveneens als volgt worden geboekt: de vergoeding wordt in boekjaar N+1 geboekt door debitering van rekening 668 *Andere niet-recurrente financiële kosten* met als tegenpost rekening 489 *Andere diverse schulden*[^32]. Bovendien zal de vennootschap eveneens een “belastingvermindering”[^33] boeken door debitering van rekening 4500* Belgische winstbelastingen* met als tegenpost rekening 769 *Andere niet-recurrente financiële opbrengsten: overdracht van het financieringskostensurplus*.
 
 Indien de overeenkomst in boekjaar N werd gesloten, zal de vennootschap die de niet-benutte aftrekcapaciteit ontvangt in de geraamde belastingen meteen rekening houden met de belastingvermindering. De vergoeding zal tijdens dit boekjaar (N) worden geboekt op rekening 668 *Andere niet-recurrente financiële kosten* met als tegenpost rekening 489 *Diverse schulden*.
 
@@ -187,7 +174,7 @@ Indien de overeenkomst in boekjaar N werd gesloten, zal de vennootschap die de n
 
 In hoofde van de ontvanger van de vergoeding vormt het ontvangen bedrag in principe de compensatie van de aanwending van een actieve belastinglatentie. Zoals eerder vermeld in dit advies wordt een actieve belastinglatentie nooit aan de actiefzijde van de balans geboekt.
 
-Deze vergoeding is aldus niet het gevolg van een voorheen reeds betaalde belasting en kan niet als belasting worden gekwalificeerd. De ontvangen vergoeding kan niet worden geboekt als een regularisering van voorheen betaalde belastingen en wordt dus niet geboekt op de rekening 77 *Regularisering van belastingen en terugneming van fiscale voorzieningen*. De vergoeding wordt daarentegen geboekt op de rekening 769 *Andere niet-recurrente financiële opbrengsten: overdracht van het financieringskostensurplus*[^34]. 
+Deze vergoeding is aldus niet het gevolg van een voorheen reeds betaalde belasting en kan niet als belasting worden gekwalificeerd. De ontvangen vergoeding kan niet worden geboekt als een regularisering van voorheen betaalde belastingen en wordt dus niet geboekt op de rekening 77 *Regularisering van belastingen en terugneming van fiscale voorzieningen*. De vergoeding wordt daarentegen geboekt op de rekening 769* Andere niet-recurrente financiële opbrengsten: overdracht van het financieringskostensurplus*[^34]. 
 
 Zoals hierboven reeds werd vermeld, kan de interestaftrekovereenkomst zowel in boekjaar N als in boekjaar N+1 worden gesloten. Of de boeking van de vergoeding in de jaarrekening van boekjaar N of in die van boekjaar N+1 gebeurt, zal afhangen van het boekjaar waarin de overeenkomst werd gesloten.
 
@@ -199,11 +186,9 @@ Zoals hierboven werd vermeld, vindt de overdracht van de niet-benutte aftrekcapa
 
 Als gevolg van de overdracht van de niet-benutte aftrekcapaciteit zal de ontvangende vennootschap echter minder belastingen betalen. 
 
-Volgens de Commissie moet er een onderscheid worden gemaakt naargelang er vóór of na afsluiting van het boekjaar een interestaftrekovereenkomst of een principeakkoord[^35]
- werd gesloten. 
+Volgens de Commissie moet er een onderscheid worden gemaakt naargelang er vóór of na afsluiting van het boekjaar een interestaftrekovereenkomst of een principeakkoord[^35] werd gesloten. 
 
-Indien de overeenkomst wordt gesloten vóór afsluiting van het boekjaar, houdt de vennootschap bij de raming van de te betalen belastingen rekening met deze belastingvermindering opdat de jaarrekening een getrouw beeld[^36]
- zou geven van de vennootschap. Op deze manier zal de fiscale last die in de jaarrekening van de vennootschap wordt opgenomen, beter aansluiten bij de fiscale last die blijkt uit de belastingaangifte. Indien de partijen een principeakkoord hebben gesloten vóór afsluiting van het boekjaar waarin zij zijn overeengekomen na afsluiting van het boekjaar een interestaftrekovereenkomst te sluiten, kan deze belastingvermindering eveneens in rekening worden genomen bij het bepalen van de geraamde belastingen van het betrokken boekjaar zelf[^37]. 
+Indien de overeenkomst wordt gesloten vóór afsluiting van het boekjaar, houdt de vennootschap bij de raming van de te betalen belastingen rekening met deze belastingvermindering opdat de jaarrekening een getrouw beeld[^36] zou geven van de vennootschap. Op deze manier zal de fiscale last die in de jaarrekening van de vennootschap wordt opgenomen, beter aansluiten bij de fiscale last die blijkt uit de belastingaangifte. Indien de partijen een principeakkoord hebben gesloten vóór afsluiting van het boekjaar waarin zij zijn overeengekomen na afsluiting van het boekjaar een interestaftrekovereenkomst te sluiten, kan deze belastingvermindering eveneens in rekening worden genomen bij het bepalen van de geraamde belastingen van het betrokken boekjaar zelf[^37]. 
 
 In het geval waarin de overeenkomst wordt gesloten na afsluiting van het boekjaar, zal deze vennootschap in de rekeningen van het daaropvolgende boekjaar overgaan tot een regularisering van belastingen die overeenstemt met de belastingvermindering die de vennootschap bekomt naar aanleiding van de overdracht van de niet-benutte aftrekcapaciteit.
 
@@ -215,29 +200,21 @@ In het geval waarin de overeenkomst wordt gesloten na afsluiting van het boekjaa
 
 Vóór afsluiting van het boekjaar (31/12/N) stelt vennootschap X vast dat zij beschikt over een niet-aftrekbaar financieringskostensurplus. Vennootschap Y behoort tot dezelfde groep als X en beschikt over een niet-benutte aftrekcapaciteit. 
 
-Vennootschap X heeft een fiscale EBITDA van 30.000.000 euro en haar netto-interestkosten bedragen 20.000.000 euro. Het grensbedrag van vennootschap X bedraagt 9.000.000 euro[^39]. Deze vennootschap beschikt met andere woorden over een niet-aftrekbaar financieringskostensurplus van 11.000.000 euro. Bij vennootschap Y bedraagt de fiscale EBITDA 100.000.000 euro[^40]
- en de netto-interestkosten 10.000.000 euro.
+Vennootschap X heeft een fiscale EBITDA van 30.000.000 euro en haar netto-interestkosten bedragen 20.000.000 euro. Het grensbedrag van vennootschap X bedraagt 9.000.000 euro[^39]. Deze vennootschap beschikt met andere woorden over een niet-aftrekbaar financieringskostensurplus van 11.000.000 euro. Bij vennootschap Y bedraagt de fiscale EBITDA 100.000.000 euro[^40] en de netto-interestkosten 10.000.000 euro.
 
-Teneinde het niet-aftrekbaar financieringskostensurplus van vennootschap X te verminderen, sluiten de twee vennootschappen (vóór afsluiting van boekjaar N) een interestaftrekovereenkomst waarin zij zijn overeengekomen dat vennootschap X een vergoeding[^41]
- verschuldigd is aan vennootschap Y. Vennootschap Y verbindt zich ertoe een bedrag van 11.000.000 euro “over te dragen[^42]
-” aan vennootschap X, aangezien vennootschap Y over een niet-benutte aftrekcapaciteit van 20.000.000 euro[^43]
- beschikt.
+Teneinde het niet-aftrekbaar financieringskostensurplus van vennootschap X te verminderen, sluiten de twee vennootschappen (vóór afsluiting van boekjaar N) een interestaftrekovereenkomst waarin zij zijn overeengekomen dat vennootschap X een vergoeding[^41] verschuldigd is aan vennootschap Y. Vennootschap Y verbindt zich ertoe een bedrag van 11.000.000 euro “over te dragen[^42]
+” aan vennootschap X, aangezien vennootschap Y over een niet-benutte aftrekcapaciteit van 20.000.000 euro[^43] beschikt.
 
-In de loop van het boekjaar dat afsluit op 31/12/N, behaalde vennootschap X een fiscaal resultaat van 34.000.000[^44]
- euro. 
+In de loop van het boekjaar dat afsluit op 31/12/N, behaalde vennootschap X een fiscaal resultaat van 34.000.000[^44] euro. 
 
 ##### In hoofde van vennootschap X (betaler van de vergoeding)
 
-**Bij de eindejaarsverrichtingen op 31/12/N en het sluiten van de interestaftrekovereenkomst**
-
- [^45]
+## Bij de eindejaarsverrichtingen op 31/12/N en het sluiten van de interestaftrekovereenkomst
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 6702 | Geraamde belastingen | 8.500.000 | |
 | aan | 4500 | Belgische winstbelastingen | | 8.500.000 |
-
-[^46]
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
@@ -246,7 +223,7 @@ In de loop van het boekjaar dat afsluit op 31/12/N, behaalde vennootschap X een 
 
 ##### In hoofde van vennootschap Y (ontvanger van de vergoeding)
 
-**Bij het sluiten van de interestaftrekovereenkomst **
+## Bij het sluiten van de interestaftrekovereenkomst
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
@@ -263,18 +240,14 @@ Aangezien de overeenkomst werd gesloten in boekjaar N+1, heeft de vennootschap b
 
 ###### Eerste methode
 
-**Bij de eindejaarsverrichtingen op 31/12/N**
-
- [^47]
+## Bij de eindejaarsverrichtingen op 31/12/N
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 6702 | Geraamde belastingen | 11.250.000 | |
 | aan | 4500 | Belgische winstbelastingen | | 11.250.000 |
 
-**Bij het sluiten van de interestaftrekovereenkomst (in boekjaar N+1)**
-
- [^48]
+## Bij het sluiten van de interestaftrekovereenkomst (in boekjaar N+1)
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
@@ -283,14 +256,14 @@ Aangezien de overeenkomst werd gesloten in boekjaar N+1, heeft de vennootschap b
 
 ###### Tweede methode
 
-**Bij de eindejaarsverrichtingen op 31/12/N**
+## Bij de eindejaarsverrichtingen op 31/12/N
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 6702 | Geraamde belastingen | 11.250.000 | |
 | aan | 4500 | Belgische winstbelastingen | | 11.250.000 |
 
-**Bij het sluiten van de interestaftrekovereenkomst (in boekjaar N+1)**
+## Bij het sluiten van de interestaftrekovereenkomst (in boekjaar N+1)
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
@@ -304,11 +277,11 @@ Aangezien de overeenkomst werd gesloten in boekjaar N+1, heeft de vennootschap b
 
 ##### In hoofde van vennootschap Y (ontvanger van de vergoeding)
 
-**Bij de eindejaarsverrichtingen op 31/12/N **
+## Bij de eindejaarsverrichtingen op 31/12/N
 
 Geen boeking
 
-**Bij het sluiten van de interestaftrekovereenkomst (in boekjaar N+1)**
+## Bij het sluiten van de interestaftrekovereenkomst (in boekjaar N+1)
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
@@ -328,8 +301,6 @@ De overdracht heeft wel gevolgen voor de fiscale lasten van de ontvangende venno
 ##### In hoofde van vennootschap X
 
 Indien de overeenkomst of het principeakkoord werd gesloten vóór afsluiting van boekjaar N, worden de fiscale lasten van vennootschap X bij afsluiting van boekjaar N als volgt weergegeven: 
-
- [^49]
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
@@ -356,8 +327,6 @@ Aangezien er geen overeenkomst of principeakkoord werd gesloten vóór afsluitin
 In boekjaar N+1 beslissen vennootschappen X en Y om een interestaftrekovereenkomst te sluiten. 
 
 Na de overdracht geniet vennootschap X een belastingvermindering. Aangezien de jaarrekening van boekjaar N van vennootschap X werd afgesloten, gaat vennootschap X over tot een regularisering van geraamde belastingen[^50]. De boekhoudkundige verwerking wordt als volgt weergegeven:
-
- [^51]
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|

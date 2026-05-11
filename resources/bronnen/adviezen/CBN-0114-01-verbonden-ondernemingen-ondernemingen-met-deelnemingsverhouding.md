@@ -1,69 +1,68 @@
 ---
-nummer: CBN-advies 114/1
+bron: https://www.cbn-cnc.be/nl/adviezen/verbonden-ondernemingen-ondernemingen-met-deelnemingsverhouding
 datum: 1978-12-01
+gerelateerde_adviezen:
+  - datum: '1986-01-01'
+    titel: Uitdrukking van verrichtingen tussen ondernemingen uit eenzelfde groep
+    url: https://www.cbn-cnc.be/nl/adviezen/uitdrukking-van-verrichtingen-tussen-ondernemingen-uit-eenzelfde-groep
+  - datum: '1986-01-01'
+    titel: Over het begrip verbonden onderneming
+    url: https://www.cbn-cnc.be/nl/adviezen/over-het-begrip-verbonden-onderneming
+  - datum: '1980-01-06'
+    titel: Bezit van maatschappelijke rechten in verbonden ondernemingen of in ondernemingen waarmee een deelnemingsverhouding bestaat - Begrip deelneming
+    url: https://www.cbn-cnc.be/nl/adviezen/bezit-van-maatschappelijke-rechten-in-verbonden-ondernemingen-of-in-ondernemingen-waarmee
+nummer: CBN-advies 114/1
+provenance:
+  generated_at: '2026-05-11T13:05:05Z'
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/verbonden-ondernemingen-ondernemingen-met-deelnemingsverhouding
+      sha256: 92658798ac58ca0952215a8a51c2ca208fa3e115667cbc28b417364235c0c23a
+      version:
+  stale: false
+  stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
+  trust:
+    confirmed_at: '2026-05-11T11:57:45Z'
+    confirmed_by: subagent-sonnet-4-6
+    layer1:
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:25Z'
+      heading_count: 0
+      max_section_chars: 4444
+      file_size_chars: 4444
+      flags: []
+    layer2:
+      agent: subagent-sonnet-4-6
+      concrete_problemen:
+        - categorie: D3
+          regel: 91
+          type: other
+          voorbeeld: '[^5]: Rubrieken 7301 tot 7312. — identiek aan [^6] op regel 93'
+        - categorie: D3
+          regel: 93
+          type: other
+          voorbeeld: '[^6]: Rubrieken 7301 tot 7312. — duplicaat van [^5], inhoudelijk onjuist'
+      rationale: 'D3/D: Voetnoten [^5] (regel 91) en [^6] (regel 93) bevatten identieke definitie ''Rubrieken 7301 tot 7312.'' — één van beide is bijna zeker verkeerd (in het bronadvies verwijst [^5] naar schulden en [^6] naar financiële opbrengsten). Dit is een extractiefout die de inhoud aantast. Verder geen heading-structuur (alle tekst is één blok; Laag-1 meldt heading_count: 0), wat voor RAG-chunking suboptimaal maar niet noodzakelijk een rework-grond is. De duplicate footnote is het doorslaggevende probleem.'
+      run_at: '2026-05-11T11:57:45Z'
+      status: needs-rework
+    rationale: 'D3/D: Voetnoten [^5] (regel 91) en [^6] (regel 93) bevatten identieke definitie ''Rubrieken 7301 tot 7312.'' — één van beide is bijna zeker verkeerd (in het bronadvies verwijst [^5] naar schulden en [^6] naar financiële opbrengsten). Dit is een extractiefout die de inhoud aantast. Verder geen heading-structuur (alle tekst is één blok; Laag-1 meldt heading_count: 0), wat voor RAG-chunking suboptimaal maar niet noodzakelijk een rework-grond is. De duplicate footnote is het doorslaggevende probleem.'
+    status: needs-rework
 themas:
   - deelnemingsverhouding
   - financiële vaste activa
   - ondernemingen met deelnemingsverhouding
   - participatieverhouding
   - verbonden onderneming
-bron: https://www.cbn-cnc.be/nl/adviezen/verbonden-ondernemingen-ondernemingen-met-deelnemingsverhouding
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/verbonden-ondernemingen-ondernemingen-met-deelnemingsverhouding
-      sha256: 92658798ac58ca0952215a8a51c2ca208fa3e115667cbc28b417364235c0c23a
-      version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:34:18Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T11:57:45Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "D3/D: Voetnoten [^5] (regel 91) en [^6] (regel 93) bevatten identieke definitie 'Rubrieken 7301 tot 7312.' — één van beide is bijna zeker verkeerd (in het bronadvies verwijst [^5] naar schulden en [^6] naar financiële opbrengsten). Dit is een extractiefout die de inhoud aantast. Verder geen heading-structuur (alle tekst is één blok; Laag-1 meldt heading_count: 0), wat voor RAG-chunking suboptimaal maar niet noodzakelijk een rework-grond is. De duplicate footnote is het doorslaggevende probleem."
-    layer1:
-      status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 0
-      max_section_chars: 4445
-      file_size_chars: 4445
-      flags: []
-    layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T11:57:45Z'
-      rationale: "D3/D: Voetnoten [^5] (regel 91) en [^6] (regel 93) bevatten identieke definitie 'Rubrieken 7301 tot 7312.' — één van beide is bijna zeker verkeerd (in het bronadvies verwijst [^5] naar schulden en [^6] naar financiële opbrengsten). Dit is een extractiefout die de inhoud aantast. Verder geen heading-structuur (alle tekst is één blok; Laag-1 meldt heading_count: 0), wat voor RAG-chunking suboptimaal maar niet noodzakelijk een rework-grond is. De duplicate footnote is het doorslaggevende probleem."
-      concrete_problemen:
-        - regel: 91
-          categorie: D3
-          type: other
-          voorbeeld: '[^5]: Rubrieken 7301 tot 7312. — identiek aan [^6] op regel 93'
-        - regel: 93
-          categorie: D3
-          type: other
-          voorbeeld: '[^6]: Rubrieken 7301 tot 7312. — duplicaat van [^5], inhoudelijk onjuist'
-gerelateerde_adviezen:
-  - titel: Uitdrukking van verrichtingen tussen ondernemingen uit eenzelfde groep
-    url: https://www.cbn-cnc.be/nl/adviezen/uitdrukking-van-verrichtingen-tussen-ondernemingen-uit-eenzelfde-groep
-    datum: '1986-01-01'
-  - titel: Over het begrip verbonden onderneming
-    url: https://www.cbn-cnc.be/nl/adviezen/over-het-begrip-verbonden-onderneming
-    datum: '1986-01-01'
-  - titel: Bezit van maatschappelijke rechten in verbonden ondernemingen of in ondernemingen waarmee een deelnemingsverhouding bestaat - Begrip deelneming
-    url: https://www.cbn-cnc.be/nl/adviezen/bezit-van-maatschappelijke-rechten-in-verbonden-ondernemingen-of-in-ondernemingen-waarmee
-    datum: '1980-01-06'
 ---
 
 # CBN-advies 114/1 - Verbonden ondernemingen - Ondernemingen met deelnemingsverhouding
 
-Het koninklijk besluit van 8 oktober 1976 legt de verplichting op om in de jaarrekening de belangrijkste verhoudingen tot uiting te doen komen die bestaan tussen de onderneming enerzijds en de ondernemingen die met haar verbonden zijn of waarmee een participatieverhouding bestaat anderzijds. Deze verhoudingen hebben betrekking op de participaties[^1], de vorderingen[^2], de waarborgen verstrekt in hun voordeel[^3]
- en de bekomen waarborgen[^4], de schulden[^5], de financiële opbrengsten bekomen van dergelijke ondernemingen ([^6]) en de financiële opbrengsten toegekend aan die ondernemingen[^7]. 
+Het koninklijk besluit van 8 oktober 1976 legt de verplichting op om in de jaarrekening de belangrijkste verhoudingen tot uiting te doen komen die bestaan tussen de onderneming enerzijds en de ondernemingen die met haar verbonden zijn of waarmee een participatieverhouding bestaat anderzijds. Deze verhoudingen hebben betrekking op de participaties[^1], de vorderingen[^2], de waarborgen verstrekt in hun voordeel[^3] en de bekomen waarborgen[^4], de schulden[^5], de financiële opbrengsten bekomen van dergelijke ondernemingen ([^6]) en de financiële opbrengsten toegekend aan die ondernemingen[^7]. 
 
 De verbonden ondernemingen en de ondernemingen waarmee een participatieverhouding bestaat, worden, voor de toepassing van het koninklijk besluit van 8 oktober 1976, in de bijlage bij dit besluit gedefinieerd. 
 

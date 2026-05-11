@@ -1,6 +1,80 @@
 ---
-nummer: CBN-advies 167/2
+bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-dekkingsverrichtingen-en-gedekte-posities-in-aandelen
 datum: 1992-11-01
+gerelateerde_adviezen:
+  - datum: '2024-03-13'
+    titel: Terugbetaling van kapitaal in vreemde valuta aan de aandeelhouders
+    url: https://www.cbn-cnc.be/nl/adviezen/terugbetaling-van-kapitaal-in-vreemde-valuta-aan-de-aandeelhouders
+  - datum: '2019-03-12'
+    titel: Dividenduitkering en kapitaalvermindering in natura
+    url: https://www.cbn-cnc.be/nl/adviezen/dividenduitkering-en-kapitaalvermindering-in-natura-0
+  - datum: '2016-09-07'
+    titel: 'Verenigingen en stichtingen: certificatie van aandelen van handelsvennootschappen'
+    url: https://www.cbn-cnc.be/nl/adviezen/verenigingen-en-stichtingen-certificatie-van-aandelen-van-handelsvennootschappen
+  - datum: '2016-03-09'
+    titel: Verrichtingen met betrekking tot inschrijvingsrechten
+    url: https://www.cbn-cnc.be/nl/adviezen/verrichtingen-met-betrekking-tot-inschrijvingsrechten
+nummer: CBN-advies 167/2
+provenance:
+  generated_at: '2026-05-11T13:05:06Z'
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-dekkingsverrichtingen-en-gedekte-posities-in-aandelen
+      sha256: aeaa0dec08e7842f94598d4cbb8e08274e27672f835f77e02013b4f75fc77e72
+      version:
+  stale: false
+  stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
+  trust:
+    confirmed_at: '2026-05-11T12:04:42Z'
+    confirmed_by: subagent-sonnet-4-6
+    layer1:
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:26Z'
+      heading_count: 14
+      max_section_chars: 17419
+      file_size_chars: 41626
+      flags: []
+    layer2:
+      agent: subagent-sonnet-4-6
+      concrete_problemen:
+        - categorie: B3
+          regel: 67
+          type: other
+          voorbeeld: '# Boekhoudkundige verwerking van dekkingsverrichtingen... (duplicate heading)'
+        - categorie: B1
+          regel: 182
+          type: other
+          voorbeeld: '##### Opties ter dekking van vaste rechten en verplichtingen (contant of op termijn'
+        - categorie: D4
+          regel: 417
+          type: other
+          voorbeeld: '** 20.09.91** (spatie na opening **)'
+        - categorie: D4
+          regel: 424
+          type: other
+          voorbeeld: '** 01.10.91** (spatie na opening **)'
+        - categorie: A9
+          regel: 455
+          type: ocr-confusion
+          voorbeeld: Aandelen - Aanschaffigswaarde
+        - categorie: A9
+          regel: 479
+          type: ocr-confusion
+          voorbeeld: verlies op op terminijn verkochte effecten
+        - categorie: E2
+          regel: 260
+          type: pseudo-table
+          voorbeeld: 'Multi-line celinhoud in tabelrijen (regels 260-309): cellen bevatten lijnsprongen'
+      rationale: 'B3: regels 65-67 bevatten duplicate # heading (zelfde titel tweemaal). D4: regels 417 en 424 hebben ''** 20.09.91**'' en ''** 01.10.91**'' met spurieuze spatie na opening-**, waardoor bold niet correct rendert. A9: regel 455 ''Aanschaffigswaarde'' (ontbrekende ''t'') en regel 479 ''terminijn'' zijn OCR/typfouten. B2: heading ##### op regel 182 heeft onafgesloten haakje (''(contant of op termijn'' zonder sluitende '')''). Tabellen met multi-line celinhoud (regels 260-309) zijn niet standaard markdown en breken rendering.'
+      run_at: '2026-05-11T12:04:42Z'
+      status: needs-rework
+    rationale: 'B3: regels 65-67 bevatten duplicate # heading (zelfde titel tweemaal). D4: regels 417 en 424 hebben ''** 20.09.91**'' en ''** 01.10.91**'' met spurieuze spatie na opening-**, waardoor bold niet correct rendert. A9: regel 455 ''Aanschaffigswaarde'' (ontbrekende ''t'') en regel 479 ''terminijn'' zijn OCR/typfouten. B2: heading ##### op regel 182 heeft onafgesloten haakje (''(contant of op termijn'' zonder sluitende '')''). Tabellen met multi-line celinhoud (regels 260-309) zijn niet standaard markdown en breken rendering.'
+    status: needs-rework
 themas:
   - aandelen
   - aandelenopties
@@ -14,83 +88,7 @@ themas:
   - put-optie
   - waardering
   - koersschommeling
-bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-dekkingsverrichtingen-en-gedekte-posities-in-aandelen
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-dekkingsverrichtingen-en-gedekte-posities-in-aandelen
-      sha256: aeaa0dec08e7842f94598d4cbb8e08274e27672f835f77e02013b4f75fc77e72
-      version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:35:33Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T12:04:42Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "B3: regels 65-67 bevatten duplicate # heading (zelfde titel tweemaal). D4: regels 417 en 424 hebben '** 20.09.91**' en '** 01.10.91**' met spurieuze spatie na opening-**, waardoor bold niet correct rendert. A9: regel 455 'Aanschaffigswaarde' (ontbrekende 't') en regel 479 'terminijn' zijn OCR/typfouten. B2: heading ##### op regel 182 heeft onafgesloten haakje ('(contant of op termijn' zonder sluitende ')'). Tabellen met multi-line celinhoud (regels 260-309) zijn niet standaard markdown en breken rendering."
-    layer1:
-      status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 14
-      max_section_chars: 17429
-      file_size_chars: 41781
-      flags: []
-    layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:04:42Z'
-      rationale: "B3: regels 65-67 bevatten duplicate # heading (zelfde titel tweemaal). D4: regels 417 en 424 hebben '** 20.09.91**' en '** 01.10.91**' met spurieuze spatie na opening-**, waardoor bold niet correct rendert. A9: regel 455 'Aanschaffigswaarde' (ontbrekende 't') en regel 479 'terminijn' zijn OCR/typfouten. B2: heading ##### op regel 182 heeft onafgesloten haakje ('(contant of op termijn' zonder sluitende ')'). Tabellen met multi-line celinhoud (regels 260-309) zijn niet standaard markdown en breken rendering."
-      concrete_problemen:
-        - regel: 67
-          categorie: B3
-          type: other
-          voorbeeld: '# Boekhoudkundige verwerking van dekkingsverrichtingen... (duplicate heading)'
-        - regel: 182
-          categorie: B1
-          type: other
-          voorbeeld: '##### Opties ter dekking van vaste rechten en verplichtingen (contant of op termijn'
-        - regel: 417
-          categorie: D4
-          type: other
-          voorbeeld: '** 20.09.91** (spatie na opening **)'
-        - regel: 424
-          categorie: D4
-          type: other
-          voorbeeld: '** 01.10.91** (spatie na opening **)'
-        - regel: 455
-          categorie: A9
-          type: ocr-confusion
-          voorbeeld: Aandelen - Aanschaffigswaarde
-        - regel: 479
-          categorie: A9
-          type: ocr-confusion
-          voorbeeld: verlies op op terminijn verkochte effecten
-        - regel: 260
-          categorie: E2
-          type: pseudo-table
-          voorbeeld: 'Multi-line celinhoud in tabelrijen (regels 260-309): cellen bevatten lijnsprongen'
-gerelateerde_adviezen:
-  - titel: Terugbetaling van kapitaal in vreemde valuta aan de aandeelhouders
-    url: https://www.cbn-cnc.be/nl/adviezen/terugbetaling-van-kapitaal-in-vreemde-valuta-aan-de-aandeelhouders
-    datum: '2024-03-13'
-  - titel: Dividenduitkering en kapitaalvermindering in natura
-    url: https://www.cbn-cnc.be/nl/adviezen/dividenduitkering-en-kapitaalvermindering-in-natura-0
-    datum: '2019-03-12'
-  - titel: 'Verenigingen en stichtingen: certificatie van aandelen van handelsvennootschappen'
-    url: https://www.cbn-cnc.be/nl/adviezen/verenigingen-en-stichtingen-certificatie-van-aandelen-van-handelsvennootschappen
-    datum: '2016-09-07'
-  - titel: Verrichtingen met betrekking tot inschrijvingsrechten
-    url: https://www.cbn-cnc.be/nl/adviezen/verrichtingen-met-betrekking-tot-inschrijvingsrechten
-    datum: '2016-03-09'
 ---
-
-# Boekhoudkundige verwerking van dekkingsverrichtingen en gedekte posities in aandelen (Err., Bull. CBN, nr. 30, februari 1993, p. 8)
 
 # Boekhoudkundige verwerking van dekkingsverrichtingen en gedekte posities in aandelen (Err., Bull. CBN, nr. 30, februari 1993, p. 8)
 
@@ -109,8 +107,7 @@ gerelateerde_adviezen:
 
 ## Inleiding
 
-Het koninklijk besluit van 8 oktober 1976 bepaalt dat als geldbelegging verworven effecten tegen aanschaffingswaarde in de balans moeten worden opgenomen[^1], na aftrek van de waardeverminderingen die zijn toegepast om rekening te houden met hun lagere realisatiewaarde op balansdatum[^2]
- en met de risico's bij realisatie[^3].
+Het koninklijk besluit van 8 oktober 1976 bepaalt dat als geldbelegging verworven effecten tegen aanschaffingswaarde in de balans moeten worden opgenomen[^1], na aftrek van de waardeverminderingen die zijn toegepast om rekening te houden met hun lagere realisatiewaarde op balansdatum[^2] en met de risico's bij realisatie[^3].
 
 Met toepassing van artikel 33 van hetzelfde besluit wordt de aanschaffingswaarde van identieke effecten bepaald, hetzij door individualisering van de prijs van elk bestanddeel, hetzij volgens de methode van gewogen gemiddelde prijzen, volgens de methode "Fifo" of volgens de methode "Lifo".
 
@@ -131,8 +128,7 @@ Dit expliciete beginsel voor identieke actief bestanddelen kan evenwel volkomen 
 
 Naast dit argument dat steunt op het beginsel van voornoemd artikel 18 van het KB van 8 oktober 1976 is er nog een andere vaststelling. Aangezien het hier gaat om verrichtingen in tegengestelde zin op een zelfde onderliggend actief, zal de waarde van deze tegoeden, rechten en verplichtingen grotendeels in tegengestelde zin evolueren, zelfs al verloopt deze evolutie in de ene en de andere zin niet volkomen gelijk. Op grond van het vereiste getrouwe beeld in verband met het vermogen en de resultaten moet het uitgedrukte resultaat rekening houden met het neutraliserend effect van deze diverse verrichtingen
 
-In deze context weze eraan herinnerd dat de Commissie, in haar advies over de deviezenverrichtingen[^6]
- achtereenvolgens de afzonderlijk beschouwde verrichtingen heeft onderzocht, de specifieke dekkingsverrichtingen en het geval waarbij een onderneming een aantal verbintenissen heeft aangegaan die zijn uitgedrukt in een zelfde vreemde munt. Op dezelfde wijze heeft de Commissie in haar advies over termijnverrichtingen op handelsgoederen achtereenvolgens de blanco termijnverrichtingen onderzocht, de specifieke dekkingsverrichtingen en, ten slotte, de verrichtingen in groter aantal[^7].
+In deze context weze eraan herinnerd dat de Commissie, in haar advies over de deviezenverrichtingen[^6] achtereenvolgens de afzonderlijk beschouwde verrichtingen heeft onderzocht, de specifieke dekkingsverrichtingen en het geval waarbij een onderneming een aantal verbintenissen heeft aangegaan die zijn uitgedrukt in een zelfde vreemde munt. Op dezelfde wijze heeft de Commissie in haar advies over termijnverrichtingen op handelsgoederen achtereenvolgens de blanco termijnverrichtingen onderzocht, de specifieke dekkingsverrichtingen en, ten slotte, de verrichtingen in groter aantal[^7].
 
 ## Deel I : Reeksen van verrichtingen op eenzelfde onderliggend aandeel
 
@@ -176,7 +172,7 @@ In dergelijk geval van volkomen dekking :
 - moet het resultaat uit het verschil tussen de aanschaffingswaarde (de boekwaarde) en de verkoopprijs van de overgedragen effecten als vast worden beschouwd zodra de dekking volkomen is, dit is, op het tijdstip van de overdracht van de voorheen gehouden of verworven 
 - effecten, dan wel op het tijdstip dat de effecten die vast worden verkocht, zijn verworven; hoeven er derhalve geen waardeverminderingen of voorzieningen meer te worden geboekt om rekening te houden met de koersevolutie sinds de afsluiting van de dekkingsverrichting. 
 
-*Voorbeeld : *
+*Voorbeeld :* 
 
 5 juli 1992 : een onderneming 
 
@@ -237,8 +233,7 @@ Hieruit volgt dat, wanneer het effect in portefeuille, het op termijn gekochte o
 
 In de bovenstaande voorbeelden werd er uitgegaan van een vergelijking tussen de koers en de uitoefenprijs, zonder rekening te houden met de twee factoren die de waarde van de optiepremie bepalen, namelijk[^8]: 
 
-- enerzijds, een zogenoemde intrinsieke waarde, die overeenstemt met het positieve verschil[^9]
- tussen de dagkoers van het onderliggend effect en de uitoefenprijs van de optie; 
+- enerzijds, een zogenoemde intrinsieke waarde, die overeenstemt met het positieve verschil[^9] tussen de dagkoers van het onderliggend effect en de uitoefenprijs van de optie; 
 - anderzijds, een zogenoemde "tijdswaarde", die overeenstemt met het speculatieve element van de optie. 
 
 Hieruit vloeit voort dat de schommelingen van de optiekoers nooit integraal zullen overeenstemmen met de schommelingen van de koers van het onderliggende effect. 
@@ -331,7 +326,7 @@ Afhankelijk van de periode ziet het resultaat er als volgt uit:
 | | | | | | | | | + 860 | | | 
 | 100 x (0 - 3,4) | | | | | | - 340 | | | | | 
 
-| **Samengevoegde werkelijke**** ****resultaten** | | | | | | | | | | | 
+| **Samengevoegde werkelijke****** **resultaten** | | | | | | | | | | | 
 | Vóór de dekkingsverrichting | | + 160 | | - | | - | | - | | + 160 | 
 | Sedert de dekkingsverrichting | | - 2.410 | | + 2.050 | | - 530 | | + 1.520 | | - 890 | 
 | | | - 2.250 | | + 2.050 | | - 530 | | + 1.520 | | - 730 | 
@@ -389,14 +384,12 @@ Schematisch zien de boekingen er als volgt uit :
 | | 651 | Toevoeging aan waardeverminderingen op vlottende activa | 190 | |
 | aan | 51. ..9 | Geboekte waardeverminderingen op vlottende activa (waardevermindering op tijdswaarde) | | 190 |
 
-**20.01.92 Uitoefening van de optie:**
+## 20.01.92 Uitoefening van de optie:
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 510 | Aandelen - Aanschaffingswaarde | 530 | |
 | aan | 51.. | Gekochte opties | | 530 |
-
-[^11]
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
@@ -426,7 +419,7 @@ Afwikkeling van de termijn verkoop
 
 Les opérations sont, au départ, les mêmes que dans l'exemple 1, mais l'évolution des cours est inverse.
 
-| **Noteringsdata** | | **Koers van de optie** | | **Koers van het aandeel** | | **Intrinsieke waarde** | | **Tijdswaarde ** | 
+| **Noteringsdata** | | **Koers van de optie** | | **Koers van het aandeel** | | **Intrinsieke waarde** | | **Tijdswaarde**  | 
 | 01/10/1991 | | 5,3 | | 133 | | 3 | | 2,3 | 
 | 01/11/1991 | | 3,9 | | 132 | | 2 | | 1,9 | 
 | 01/12/1991 | | 1,3 | | 130 | | - | | 1,3 | 
@@ -439,8 +432,7 @@ Op 31 december 1991 verkeert de onderneming in een risicopositie van 100 (100 x 
 
 Op de vervaldag ligt de uitoefenprijs hoger dan de marktprijs, zodat de onderneming de optie niet zal uitoefenen maar de te leveren effecten tegen de dagkoers in de markt zal kopen. 
 
-In dit tweede voorbeeld zien de boekingen[^12]
- er schematisch als volgt uit :
+In dit tweede voorbeeld zien de boekingen[^12] er schematisch als volgt uit :
 
 ** 20.09.91**
 
@@ -569,8 +561,7 @@ Schematisch zien de boekingen er als volgt uit:
 
 ##### Opties ter dekking van geschreven opties 
 
-In deze context hoort ook de nodige aandacht te gaan naar de verrichtingen die zowel de risico's van een prijsschommeling alsook de voordelen van een gunstige koersevolutie, tot bepaalde bedragen[^13]
- beperken, zonder ze evenwel op het heffen.
+In deze context hoort ook de nodige aandacht te gaan naar de verrichtingen die zowel de risico's van een prijsschommeling alsook de voordelen van een gunstige koersevolutie, tot bepaalde bedragen[^13] beperken, zonder ze evenwel op het heffen.
 
 Dat kan inzonderheid het geval zijn voor een onderneming die werkt met een combinatie van call-en put-opties op hetzelfde onderliggende effect met dezelfde vervaldag, die evenwel tegen verschillende prijzen kunnen worden uitgeoefend ("spread").
 
@@ -585,8 +576,7 @@ Het eindresultaat zal gelegen zijn tussen :
 
 In deze gevallen wordt voor de (geschreven) optie die met een gekochte optie wordt gedekt, geen voorziening gevormd vanaf het ogenblik waarop het risico door de optie is "gedekt". In tegenstelling met het beginsel van punt 1.2.1. worden op resultaatniveau door de dekking via de aankoop van de optie de koersdalingen, hetzij van de gedekte optie hetzij van de optie die als dekking dient, geneutraliseerd ten belope van de stijging van de marktwaarde van de andere optie sinds de datum waarop de dekking is ingetreden.
 
-### Reeksen van situaties en verrichtingen in tegengestelde zin op een zelfde onderliggend actief, buiten de dekkingsverrichtingen waarvan sprake sub 1 
-
+Reeksen van situaties en verrichtingen in tegengestelde zin op een zelfde onderliggend actief, buiten de dekkingsverrichtingen waarvan sprake sub 1
 Buiten de dekkingsverrichtingen als bedoeld sub 1, waarop hierboven nader is ingegaan, kan het voorkomen dat een onderneming diverse verrichtingen in tegengestelde zin op een zelfde onderliggende waarde heeft afgesloten. 
 
 Dergelijke situatie kan voortvloeien uit hetzij de afsluiting van verrichtingen zonder onderling verband op het tijdstip dat zij worden afgesloten, hetzij uit ingewikkelde combinaties van verrichtingen die niet beantwoorden aan de voorwaarden om te kunnen worden beschouwd als dekkingsverrichtingen. 
@@ -616,8 +606,7 @@ Deze methode is weliswaar minder nauwkeurig en minder verantwoord op het vlak va
 
 ## Gevolgen wanneer er geen georganiseerde en liquide markt bestaat
 
-Reeksen van verrichtingen als bedoeld in dit advies - op bepaalde verrichtingen in het kader van dergelijke reeksen - die onderhands of op een niet-liquide markt[^15]
- worden afgesloten, vergen op grond van het voorzichtigheidsbeginsel een bijzondere benadering. 
+Reeksen van verrichtingen als bedoeld in dit advies - op bepaalde verrichtingen in het kader van dergelijke reeksen - die onderhands of op een niet-liquide markt[^15] worden afgesloten, vergen op grond van het voorzichtigheidsbeginsel een bijzondere benadering. 
 
 Bij reeksen van verrichtingen in tegengestelde zin wordt voor de verrekening van meer- met minderwaarden zoals uiteengezet in dit advies ervan uitgegaan dat er een georganiseerde en liquide markt bestaat waarop niet-gerealiseerde meerwaarden zonder weerslag op de koers in gerealiseerde meerwaarden kunnen worden omgezet. Wanneer de criteria voor de beoordeling van een georganiseerde en liquide markt niet worden nageleefd, moet er voor elke verrichting dus van worden uitgegaan dat zij een afzonderlijke positie doet ontstaan die dan ook afzonderlijk moet worden verwerkt volgens de terzake algemeen aanvaarde regels : 
 

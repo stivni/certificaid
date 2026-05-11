@@ -1,6 +1,68 @@
 ---
-nummer: CBN-advies 2022/12
+bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-splitsingen-van-vennootschappen
 datum: 2022-09-19
+gerelateerde_adviezen:
+  - datum: '2025-04-15'
+    titel: Boekhoudkundige verwerking van splitsingen van vennootschappen – negatief fiscaal nettoactief – herwaarderingsmeerwaarde (addendum bij CBN-advies 2022/01 en 2022/12)
+    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-splitsingen-van-vennootschappen-negatief-fiscaal
+  - datum: '2022-02-15'
+    titel: Fusies en splitsingen van vennootschappen met een negatief nettoactief
+    url: https://www.cbn-cnc.be/nl/adviezen/fusies-en-splitsingen-van-vennootschappen-met-een-negatief-nettoactief
+  - datum: '2021-11-22'
+    titel: 'Verenigingen en stichtingen: compensatie van negatieve fondsen'
+    url: https://www.cbn-cnc.be/nl/adviezen/verenigingen-en-stichtingen-compensatie-van-negatieve-fondsen
+  - datum: '2018-12-07'
+    titel: Begin van het boekjaar
+    url: https://www.cbn-cnc.be/nl/adviezen/begin-van-het-boekjaar
+nummer: CBN-advies 2022/12
+provenance:
+  generated_at: '2026-05-11T13:05:09Z'
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-splitsingen-van-vennootschappen
+      sha256: b1c6d804ad0f7ca698210c0500acaee66fc2fe1f3ac5e18ad6d919fe12697b5e
+      version:
+  stale: false
+  stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
+  trust:
+    confirmed_at: '2026-05-11T12:24:34Z'
+    confirmed_by: subagent-sonnet-4-6
+    layer1:
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:30Z'
+      heading_count: 23
+      max_section_chars: 11964
+      file_size_chars: 68247
+      flags: []
+    layer2:
+      agent: subagent-sonnet-4-6
+      concrete_problemen:
+        - categorie: A7
+          regel: 383
+          type: scrambled-words
+          voorbeeld: "| C |\n| Activum 1 | | 2.000 | | *Eigen vermogen* | |\n\n5.500\n\n  |"
+        - categorie: A7
+          regel: 463
+          type: scrambled-words
+          voorbeeld: "| C |\n| Activum 1 | | 2.000 | | *Eigen vermogen* | |\n\n8.500\n\n  |"
+        - categorie: C3
+          regel: 630
+          type: pseudo-table
+          voorbeeld: '   7.500 Inbreng / Kapitaal 7.500'
+        - categorie: D4
+          regel: 675
+          type: other
+          voorbeeld: 20 % **+ 400**) | | 560 |
+      rationale: 'A6/A7: op meerdere plaatsen (regels 383–388, 463–471, 572–578) staat een tabelcel met de tekst van het eigen vermogen afgebroken over meerdere afzonderlijke regels buiten de pipe-syntax (bv. `| *Eigen vermogen* |` gevolgd door een lege regel en dan `5.500` op een nieuwe regel). Dit is een kolom-extractie-artefact: de cel-inhoud is niet op één regel gebleven. Voorbeeld 5 (regels 630) bevat een pseudotabel-regel (`   7.500 Inbreng / Kapitaal 7.500`) als plain text. Voorbeeld 5 (regels 673–676, 702–704) heeft ook malformed bold/italic met inspringing (`20 % **+ 400**`). Voetnoten compleet, inhoud omvangrijk maar volledig.'
+      run_at: '2026-05-11T12:24:34Z'
+      status: needs-rework
+    rationale: 'A6/A7: op meerdere plaatsen (regels 383–388, 463–471, 572–578) staat een tabelcel met de tekst van het eigen vermogen afgebroken over meerdere afzonderlijke regels buiten de pipe-syntax (bv. `| *Eigen vermogen* |` gevolgd door een lege regel en dan `5.500` op een nieuwe regel). Dit is een kolom-extractie-artefact: de cel-inhoud is niet op één regel gebleven. Voorbeeld 5 (regels 630) bevat een pseudotabel-regel (`   7.500 Inbreng / Kapitaal 7.500`) als plain text. Voorbeeld 5 (regels 673–676, 702–704) heeft ook malformed bold/italic met inspringing (`20 % **+ 400**`). Voetnoten compleet, inhoud omvangrijk maar volledig.'
+    status: needs-rework
 themas:
   - splitsing
   - herstructurering
@@ -27,68 +89,6 @@ themas:
   - aandelenruil
   - gespreid te belasten meerwaarde
   - fiscaal nettoactief
-bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-splitsingen-van-vennootschappen
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-splitsingen-van-vennootschappen
-      sha256: b1c6d804ad0f7ca698210c0500acaee66fc2fe1f3ac5e18ad6d919fe12697b5e
-      version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:38:15Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T12:24:34Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: 'A6/A7: op meerdere plaatsen (regels 383–388, 463–471, 572–578) staat een tabelcel met de tekst van het eigen vermogen afgebroken over meerdere afzonderlijke regels buiten de pipe-syntax (bv. `| *Eigen vermogen* |` gevolgd door een lege regel en dan `5.500` op een nieuwe regel). Dit is een kolom-extractie-artefact: de cel-inhoud is niet op één regel gebleven. Voorbeeld 5 (regels 630) bevat een pseudotabel-regel (`   7.500 Inbreng / Kapitaal 7.500`) als plain text. Voorbeeld 5 (regels 673–676, 702–704) heeft ook malformed bold/italic met inspringing (`20 % **+ 400**`). Voetnoten compleet, inhoud omvangrijk maar volledig.'
-    layer1:
-      status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 22
-      max_section_chars: 11325
-      file_size_chars: 68246
-      flags: []
-    layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:24:34Z'
-      rationale: 'A6/A7: op meerdere plaatsen (regels 383–388, 463–471, 572–578) staat een tabelcel met de tekst van het eigen vermogen afgebroken over meerdere afzonderlijke regels buiten de pipe-syntax (bv. `| *Eigen vermogen* |` gevolgd door een lege regel en dan `5.500` op een nieuwe regel). Dit is een kolom-extractie-artefact: de cel-inhoud is niet op één regel gebleven. Voorbeeld 5 (regels 630) bevat een pseudotabel-regel (`   7.500 Inbreng / Kapitaal 7.500`) als plain text. Voorbeeld 5 (regels 673–676, 702–704) heeft ook malformed bold/italic met inspringing (`20 % **+ 400**`). Voetnoten compleet, inhoud omvangrijk maar volledig.'
-      concrete_problemen:
-        - regel: 383
-          categorie: A7
-          type: scrambled-words
-          voorbeeld: "| C |\n| Activum 1 | | 2.000 | | *Eigen vermogen* | |\n\n5.500\n\n  |"
-        - regel: 463
-          categorie: A7
-          type: scrambled-words
-          voorbeeld: "| C |\n| Activum 1 | | 2.000 | | *Eigen vermogen* | |\n\n8.500\n\n  |"
-        - regel: 630
-          categorie: C3
-          type: pseudo-table
-          voorbeeld: '   7.500 Inbreng / Kapitaal 7.500'
-        - regel: 675
-          categorie: D4
-          type: other
-          voorbeeld: 20 % **+ 400**) | | 560 |
-gerelateerde_adviezen:
-  - titel: Boekhoudkundige verwerking van splitsingen van vennootschappen – negatief fiscaal nettoactief – herwaarderingsmeerwaarde (addendum bij CBN-advies 2022/01 en 2022/12)
-    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-splitsingen-van-vennootschappen-negatief-fiscaal
-    datum: '2025-04-15'
-  - titel: Fusies en splitsingen van vennootschappen met een negatief nettoactief
-    url: https://www.cbn-cnc.be/nl/adviezen/fusies-en-splitsingen-van-vennootschappen-met-een-negatief-nettoactief
-    datum: '2022-02-15'
-  - titel: 'Verenigingen en stichtingen: compensatie van negatieve fondsen'
-    url: https://www.cbn-cnc.be/nl/adviezen/verenigingen-en-stichtingen-compensatie-van-negatieve-fondsen
-    datum: '2021-11-22'
-  - titel: Begin van het boekjaar
-    url: https://www.cbn-cnc.be/nl/adviezen/begin-van-het-boekjaar
-    datum: '2018-12-07'
 ---
 
 # CBN-advies 2022/12 – Boekhoudkundige verwerking van splitsingen van vennootschappen
@@ -119,22 +119,19 @@ De verkrijgende vennootschappen worden geacht de rechtspersoonlijkheid van de ge
 
 Wanneer één van de verkrijgende vennootschappen een kapitaalhoudende vennootschap is, mag het bedrag van de eventuele opleg in geld niet meer bedragen dan één tiende van de nominale waarde of, bij gebrek hieraan, van de fractiewaarde van de toegekende aandelen[^6]. De Memorie van toelichting van de *wet tot invoering van het Wetboek van vennootschappen en verenigingen en houdende diverse bepalingen* wijst er op dat de fractiewaarde van elk aandeel van een vennootschap bekomen wordt door het kapitaal van de vennootschap te delen door het aantal bestaande aandelen[^7]. Bij verwijzing naar de definitie van de rubriek ‘Kapitaal’ zoals bepaald in artikel 3:89, § 2, I, 1° van het *koninklijk besluit tot uitvoering van het Wetboek van vennootschappen en verenigingen* (hierna: KB WVV), stemt de teller van de breuk overeen met “het bedrag van het kapitaal, bestaande uit het deel van het kapitaal dat werd gevormd door (a) de inbreng vanwege de aandeelhouders in het kapitaal; (b) in voorkomend geval de omzetting van uitgiftepremies; en (c) in voorkomend geval de omzetting van geboekte herwaarderingsmeerwaarden of van reserves; indien niet terugbetaald of verminderd via een kapitaalvermindering”.
 
-*Voorbeeld*
+### *Voorbeeld*
 
 Vennootschap A is een NV met een eigen vermogen dat als volgt wordt samengesteld:
-
-70 = inbreng van aandeelhouders 
+### 70 = inbreng van aandeelhouders 
 
 10 = in kapitaal opgenomen herwaarderingsmeerwaarden 
 
 20 = in kapitaal opgenomen reserves
 
 Overeenkomstig artikel 3:89, § 2, I, 1° KB WVV bedraagt het kapitaal van A aldus 100. Indien het kapitaal wordt vertegenwoordigd door 100 aandelen, bedraagt de fractiewaarde 100/100 = 1 per aandeel.
-
 In de veronderstelling dat één van de verkrijgende vennootschappen een vennootschap zonder kapitaal is, wordt het begrip ‘fractiewaarde’ conform artikelen 12:4, tweede lid en 12:5, tweede lid WVV gelijkgesteld met:
 
-[...] de inbrengwaarde, zoals die blijkt uit de jaarrekening, van alle door de vennoten of aandeelhouders toegezegde inbrengen in geld of in natura, met uitzondering van de inbrengen in nijverheid, in voorkomend geval verhoogd met de reserves die op grond van een statutaire bepaling slechts aan de vennoten of aandeelhouders kunnen worden uitgekeerd mits een statutenwijziging, dit alles gedeeld door het aantal aandelen. 
-
+[...] de inbrengwaarde, zoals die blijkt uit de jaarrekening, van alle door de vennoten of aandeelhouders toegezegde inbrengen in geld of in natura, met uitzondering van de inbrengen in nijverheid, in voorkomend geval verhoogd met de reserves die op grond van een statutaire bepaling slechts aan de vennoten of aandeelhouders kunnen worden uitgekeerd mits een statutenwijziging, dit alles gedeeld door het aantal aandelen.
 De teller van de breuk ter berekening van de fractiewaarde wordt aldus samengesteld uit de volgende elementen:
 
 - de inbrengwaarde, zoals deze blijkt uit de jaarrekening, van alle inbrengen in geld en in natura van de vennoten of aandeelhouders, met uitzondering van de inbrengen in nijverheid; 
@@ -151,11 +148,10 @@ De uitsluiting van de moeilijk te waarderen inbreng in nijverheid uit de breuk, 
 
 Deze berekeningsmethode heeft tot doel de gelijkwaardigheid met het begrip ‘fractiewaarde’ te verzekeren.[^10] 
 
-*Voorbeeld*
+### *Voorbeeld*
 
 Vennootschap B is een BV met een eigen vermogen dat als volgt wordt samengesteld:
-
-40 = inbrengen door aandeelhouders in geld 
+### 40 = inbrengen door aandeelhouders in geld 
 
 10 = inbrengen in natura 
 
@@ -164,10 +160,8 @@ Vennootschap B is een BV met een eigen vermogen dat als volgt wordt samengesteld
 20 = reserves die, op grond van een statutaire bepaling, slechts aan de vennoten of aandeelhouders kunnen worden uitgekeerd mits een statutenwijziging
 
 Het aantal aandelen van de BV bedraagt 100.
-
 Vermits de inbreng in nijverheid niet in aanmerking wordt genomen, bedraagt het equivalent van de fractiewaarde (40 + 10 + 20) / 100 = 0,7 per aandeel.
-
-Aangezien deze definitie van *Inbreng *enkel betrekking heeft op BV’s en CV’s, en niet op de CommV en de VOF, is de Commissie van oordeel dat het voor de gevallen waarin één van de verkrijgende vennootschappen de rechtsvorm aanneemt van een CommV of VOF, aangewezen is om de samenstellende delen van *Inbreng *zoals vermeld in artikel 3:89, § 2, I, 3° KB WVV, te nemen als basis voor de berekening. Met ‘samenstellende delen’ wordt conform het geciteerd artikel het volgende bedoeld: “het vennootschapsvermogen dat bestaat uit het bedongen bedrag van de in de vennootschap ingebrachte of nog in te brengen waarden, in voorkomend geval zoals statutair vastgelegd”.
+Aangezien deze definitie van *Inbreng* enkel betrekking heeft op BV’s en CV’s, en niet op de CommV en de VOF, is de Commissie van oordeel dat het voor de gevallen waarin één van de verkrijgende vennootschappen de rechtsvorm aanneemt van een CommV of VOF, aangewezen is om de samenstellende delen van *Inbreng* zoals vermeld in artikel 3:89, § 2, I, 3° KB WVV, te nemen als basis voor de berekening. Met ‘samenstellende delen’ wordt conform het geciteerd artikel het volgende bedoeld: “het vennootschapsvermogen dat bestaat uit het bedongen bedrag van de in de vennootschap ingebrachte of nog in te brengen waarden, in voorkomend geval zoals statutair vastgelegd”.
 
 De verdeling van de actief- en passiefbestanddelen, alsook van de rechten van aandeelhouders van de overgenomen vennootschap in de verkrijgende vennootschappen wordt vrij vastgelegd in het splitsingsvoorstel[^11]. Het is dus niet noodzakelijk dat de overgedragen elementen een bedrijfstak vormen zoals bepaald in artikel 12:11 WVV. De verdeling van de rechten van de aandeelhouders van de gesplitste vennootschap moet bovendien niet noodzakelijk gebeuren in verhouding met de rechten die zij hadden in het kapitaal van deze vennootschap, of, indien het een kapitaalloze vennootschap betreft, met hun aandeel in het eigen vermogen[^12].
 
@@ -181,8 +175,7 @@ Bij de overdracht van de balansposten van de gesplitste vennootschap aan de verk
 
 Indien een kapitaalhoudende of kapitaalloze vennootschap gesplitst wordt ten behoeve van één of meerdere bestaande vennootschappen van dezelfde soort, worden de verschillende posten van het eigen vermogen (kapitaal/inbreng, herwaarderingsmeerwaarden, reserves, overgedragen resultaat en kapitaalsubsidies) bij elkaar opgeteld en ondergebracht bij dezelfde balansposten van de verkrijgende vennootschap(pen).
 
-Bij de splitsing van een kapitaalhoudende vennootschap ten behoeve van één of meerdere bestaande kapitaalloze vennootschappen worden het kapitaal en de wettelijke reserve van de eerste vennootschap omgezet in beschikbare of onbeschikbare inbreng[^14]
- conform de beslissing die de algemene vergadering die tot de splitsing beslist, neemt, terwijl de rubrieken die volgen gewoon worden opgeteld.[^15] 
+Bij de splitsing van een kapitaalhoudende vennootschap ten behoeve van één of meerdere bestaande kapitaalloze vennootschappen worden het kapitaal en de wettelijke reserve van de eerste vennootschap omgezet in beschikbare of onbeschikbare inbreng[^14] conform de beslissing die de algemene vergadering die tot de splitsing beslist, neemt, terwijl de rubrieken die volgen gewoon worden opgeteld.[^15] 
 
 Wanneer een bestaande kapitaalhoudende vennootschap daarentegen een deel van het vermogen van een kapitaalloze vennootschap overneemt, wordt de inbreng van deze kapitaalloze vennootschap niet noodzakelijk omgezet in kapitaal. De inbreng kan eveneens worden opgenomen op de balans onder de rubriek *Andere* bij de inbreng buiten kapitaal. In de splitsingsakte moet er dus worden voorzien naar welke balanspost de inbreng van de overgenomen vennootschap moet worden overgedragen. 
 
@@ -241,8 +234,7 @@ Dezelfde principes gelden *mutatis mutandis* voor het vrijgesteld gedeelte van d
 
 De Commissie merkt overigens op dat het beginsel van “toewijzing bij voorrang” enkel betrekking heeft op de verdeling van de vrijgestelde reserves zoals bepaald in artikel 47 WIB 92 en op de kapitaalsubsidies. Het zou niet toegestaan mogen zijn de liquidatiereserve, die een belaste reserve uitmaakt, te verdelen in functie van de anciënniteit en/of in functie van de liquiditeit van de verkrijgende vennootschappen. In een antwoord op een parlementaire vraag verklaarde de minister van Financiën in deze zin dat:
 
-[...] de bepalingen in verband met de liquidatiereserve [geen afbreuk] doen […] aan de toepassing van de huidige wettelijke en administratieve bepalingen die betrekking hebben op de verdeling van de belaste reserves in het kader van een belastingvrije of partiële splitsing. Dat houdt in principe in dat de liquidatiereserve van de gesplitste vennootschap moet worden verdeeld overeenkomstig de fiscale nettowaarde van de bestanddelen die door de overnemende of verkrijgende vennootschappen worden overgenomen of verkregen.[^27] 
-
+[...] de bepalingen in verband met de liquidatiereserve [geen afbreuk] doen […] aan de toepassing van de huidige wettelijke en administratieve bepalingen die betrekking hebben op de verdeling van de belaste reserves in het kader van een belastingvrije of partiële splitsing. Dat houdt in principe in dat de liquidatiereserve van de gesplitste vennootschap moet worden verdeeld overeenkomstig de fiscale nettowaarde van de bestanddelen die door de overnemende of verkrijgende vennootschappen worden overgenomen of verkregen.[^27]
 Op basis van wat voorafgaat en teneinde de overdracht van het boekhoudkundig eigen vermogen af te stemmen op de overdracht van het fiscaal eigen vermogen, zou de toewijzing van het eigen vermogen aan de verkrijgende vennootschappen van de splitsing als volgt moeten worden voltrokken:
 
 - het kapitaal of de inbreng van de gesplitste vennootschap, met uitzondering van de hierin opgenomen reserves, wordt overgedragen aan de verkrijgende vennootschappen in dezelfde verhouding als het fiscaal gestort kapitaal; 
@@ -277,7 +269,7 @@ Indien de zekerheid niet binnen de bepaalde termijn is gesteld, wordt de schuldv
 
 De verkrijgende vennootschappen van de splitsing zullen eveneens hoofdelijk aansprakelijk zijn voor volgende schulden: 
 
-- zekere en opeisbare schulden die bestaan op de dag dat de akten houdende vaststelling van het besluit tot deelneming aan de splitsing in de *Bijlagen bij het Belgisch Staatsblad *worden bekendgemaakt en die overgaan op een andere vennootschap die door de splitsing tot stand is gekomen; 
+- zekere en opeisbare schulden die bestaan op de dag dat de akten houdende vaststelling van het besluit tot deelneming aan de splitsing in de *Bijlagen bij het Belgisch Staatsblad* worden bekendgemaakt en die overgaan op een andere vennootschap die door de splitsing tot stand is gekomen; 
 
 - de schulden waarvoor de schuldeiser een vordering in rechte of via arbitrage heeft ingesteld vóór de akte houdende vaststelling van de splitsing. 
 
@@ -310,7 +302,7 @@ In onderstaande voorbeelden wordt er, tenzij anders bepaald, vanuit gegaan dat:
 
 ### Herwaarderingsmeerwaarden 
 
-## Voorbeeld 1 – Herwaarderingsmeerwaarden
+### *Voorbeeld 1 – Herwaarderingsmeerwaarden*
 
 Vennootschap A wordt gesplitst in twee op te richten vennootschappen B en C. 
 
@@ -369,7 +361,7 @@ Na afloop van de splitsing zullen de vermogens van B en C er als volgt uitzien:
 
 ### Gespreid te belasten meerwaarden of kapitaalsubsidies
 
-## Voorbeeld 2 – Aanwezigheid van gespreid te belasten meerwaarden[^39]
+### *Voorbeeld 2 – Aanwezigheid van gespreid te belasten meerwaarden[^39]* 
 
 Vennootschap A wordt gesplitst in twee op te richten vennootschappen B en C.
 
@@ -453,10 +445,8 @@ In hoofde van D wordt de aandelenruil naar aanleiding van de splitsing dan als v
 | | Deelneming C | 4.125 | | |
 | aan | | Deelneming A | | 7.500 |
 
-### Aanwezigheid van gespreid te belasten meerwaarden alsook van een andere soort vrijgestelde reserves
-
-Voorbeeld 3 – Aanwezigheid van gespreid te belasten meerwaarden alsook van een andere soort vrijgestelde reserves[^44] 
-
+Aanwezigheid van gespreid te belasten meerwaarden alsook van een andere soort vrijgestelde reserves
+Voorbeeld 3 – Aanwezigheid van gespreid te belasten meerwaarden alsook van een andere soort vrijgestelde reserves[^44]
 Vennootschap A wordt gesplitst in twee op te richten vennootschappen B en C. Nadat een actiefbestanddeel volledig was afgeschreven, werd het verkocht voor 2.000. A besloot de meerwaarde gespreid te laten belasten en heeft de verkoopprijs wederbelegd in activum 1. Daar het tarief van de vennootschapsbelasting 25 % bedraagt, wordt er een bedrag van 500 geboekt onder de rubriek *Uitgestelde belastingen*. De belastingvrije reserves van A zijn enerzijds samengesteld uit het gedeelte van de meerwaarde dat overblijft na boeking van de uitgestelde belastingen en dat 1.500 bedraagt, en anderzijds uit een bedrag van 2.000 dat overeenstemt met afschrijvingen boven de aanschaffings- of beleggingswaarde.[^45] 
 
 | A | 
@@ -563,7 +553,7 @@ Vanuit boekhoudkundig oogpunt zou het volgende zijn verkregen:
 
 ### Liquidatiereserves
 
-## Voorbeeld 4 – Liquidatiereserves
+### *Voorbeeld 4 – Liquidatiereserves*
 
 Vennootschap A wordt gesplitst in twee op te richten vennootschappen B en C.
 
@@ -628,11 +618,9 @@ Naar aanleiding van de splitsing wordt het boekhoudkundig eigen vermogen als vol
 | | | | | Schulden | | 3.000 | 
 | | | 12.000 | | | | 12.000 | 
 
-### Eén van de verkrijgende vennootschappen is aandeelhouder van de gesplitste vennootschap
-
-## Voorbeeld 5 – Één van de verkrijgende vennootschappen is aandeelhouder van de gesplitste vennootschap
-
-Onderstaande vennootschap A wordt gesplitst waarbij een deel van haar vermogen wordt overgedragen aan een bestaande vennootschap B welke 80 % van de aandelen van A bezit. De rest van het vermogen van A wordt overgedragen aan een nieuw op te richten vennootschap C. De belastingvrije reserves stemmen overeen met de vrijgestelde reserves die proportioneel worden overdragen overeenkomstig nr. 211/55, b), tweede streepje Com.IB 92 (*supra *randnummer 20).
+Eén van de verkrijgende vennootschappen is aandeelhouder van de gesplitste vennootschap
+*Voorbeeld 5 – Één van de verkrijgende vennootschappen is aandeelhouder van de gesplitste vennootschap*
+Onderstaande vennootschap A wordt gesplitst waarbij een deel van haar vermogen wordt overgedragen aan een bestaande vennootschap B welke 80 % van de aandelen van A bezit. De rest van het vermogen van A wordt overgedragen aan een nieuw op te richten vennootschap C. De belastingvrije reserves stemmen overeen met de vrijgestelde reserves die proportioneel worden overdragen overeenkomstig nr. 211/55, b), tweede streepje Com.IB 92 (*supra* randnummer 20).
 
 | A | 
 | Activa | | 14.000 | | Inbreng / Kapitaal | | 3.000 | 
@@ -677,7 +665,7 @@ Boekhoudkundig ziet het aan vennootschap C overgedragen vermogen er dan als volg
 | | | | | Schulden | | 2.500 | 
 | | | 8.500 | | | | 8.500 | 
 
-De overdracht van het vermogen van A naar B wordt als volgt geboekt: de waarde van het gedeelte van de aandelen van A die overeenstemmen met het aan B overgedragen vermogen (7.500 x 9.000/20.000 = 3.375) wordt in mindering gebracht van het gedeelte van het eigen vermogen dat B aanhoudt in A vóór de splitsing (3.200 = 80 % x 4.000). Overeenkomstig artikel 3:77, § 5, a) KB WVV wordt het verschil tussen beide bedragen (3.375 – 3.200 = 175) hetzij ten laste genomen, hetzij als *goodwill *geboekt. In dit geval wordt er verondersteld dat het bestuursorgaan beslist het verschil onmiddellijk en voor het geheel in kosten te nemen.[^48] 
+De overdracht van het vermogen van A naar B wordt als volgt geboekt: de waarde van het gedeelte van de aandelen van A die overeenstemmen met het aan B overgedragen vermogen (7.500 x 9.000/20.000 = 3.375) wordt in mindering gebracht van het gedeelte van het eigen vermogen dat B aanhoudt in A vóór de splitsing (3.200 = 80 % x 4.000). Overeenkomstig artikel 3:77, § 5, a) KB WVV wordt het verschil tussen beide bedragen (3.375 – 3.200 = 175) hetzij ten laste genomen, hetzij als *goodwill* geboekt. In dit geval wordt er verondersteld dat het bestuursorgaan beslist het verschil onmiddellijk en voor het geheel in kosten te nemen.[^48] 
 
 Bij B zullen de aan haar toegewezen eigenvermogensbestanddelen van A slechts worden overgenomen ten belope van 20 %, d.i. het percentage van A dat niet in bezit is van B, met inbegrip van de belastingvrije reserves. Op fiscaal vlak worden deze reserves meestal wedersamengesteld om te vermijden dat er een belasting wordt geheven ten belope van het verdwenen bedrag. Boekhoudkundig kan via artikel 3:56, § 4 KB WVV afgeweken worden van een proportionele overname van verschillende eigenvermogensbestanddelen om zo de samenstelling en fiscale kwalificatie van het eigen vermogen van de gesplitste vennootschap in rekening te nemen. Dit artikel maakt het ook mogelijk om in hoofde van verkrijgende vennootschap B de belastingvrije reserves van de gesplitste vennootschap A weder samen te stellen.
 
@@ -763,8 +751,7 @@ Als we deze verdeling op boekhoudkundig vlak volgen, wordt het eigen vermogen in
 
 In dergelijke situatie is het mogelijk om de overdracht van het boekhoudkundig eigen vermogen af te stemmen op de overdracht van het fiscaal eigen vermogen en om, tijdens het proces van de splitsing (of onmiddellijk na de splitsing), een kapitaalverhoging door te voeren binnen de nieuw opgerichte vennootschap B door incorporatie van de belaste reserves om zo het wettelijke minimum te bekomen. 
 
-De Commissie is van oordeel dat het eveneens mogelijk zou moeten zijn om af te wijken van de boekhoudkundige verdeling die zou voortvloeien uit de toepassing van het fiscaal recht. Dit zou vermijden dat er een kapitaalverhoging plaatsvindt. Aangezien vennootschap C bij oprichting de vorm van een besloten vennootschap (BV) aanneemt, is zij, wat betreft de inbreng, niet onderworpen aan de vereisten inzake minimumkapitaal waaraan naamloze vennootschappen wel zijn onderworpen. Bijgevolg heeft A het recht om slechts 1[^49]
- van haar kapitaal over te dragen aan C, hetgeen toelaat het kapitaal boven het wettelijk minimum te houden in hoofde van vennootschap B. Het bedrag van de aan C overgedragen beschikbare reserves wordt vastgelegd op zodanige wijze dat de activa en passiva van de balans van beide vennootschappen op basis van de eerder vastgelegde verdeling van het vermogen van A (d.i. 30 % voor B en 70 % voor C), in evenwicht wordt gebracht. De balansen van B en C worden naar aanleiding van de splitsing als volgt weergegeven:
+De Commissie is van oordeel dat het eveneens mogelijk zou moeten zijn om af te wijken van de boekhoudkundige verdeling die zou voortvloeien uit de toepassing van het fiscaal recht. Dit zou vermijden dat er een kapitaalverhoging plaatsvindt. Aangezien vennootschap C bij oprichting de vorm van een besloten vennootschap (BV) aanneemt, is zij, wat betreft de inbreng, niet onderworpen aan de vereisten inzake minimumkapitaal waaraan naamloze vennootschappen wel zijn onderworpen. Bijgevolg heeft A het recht om slechts 1[^49] van haar kapitaal over te dragen aan C, hetgeen toelaat het kapitaal boven het wettelijk minimum te houden in hoofde van vennootschap B. Het bedrag van de aan C overgedragen beschikbare reserves wordt vastgelegd op zodanige wijze dat de activa en passiva van de balans van beide vennootschappen op basis van de eerder vastgelegde verdeling van het vermogen van A (d.i. 30 % voor B en 70 % voor C), in evenwicht wordt gebracht. De balansen van B en C worden naar aanleiding van de splitsing als volgt weergegeven:
 
 | Aan B (NV) overgedragen vermogen | 
 | Activa | | 120 | | Kapitaal | | 62 | 
@@ -780,7 +767,7 @@ In hoofde van C kan het verschil tussen het fiscaal kapitaal en de inbreng buite
 
 In hoofde van vennootschap B wordt er eveneens een belaste reserve van 43,1 ingeschreven, om zo het verschil tussen het fiscaal kapitaal (18,9) en het boekhoudkundig kapitaal (62) te corrigeren. 
 
-De Commissie is van oordeel dat het niet vereist is om afzonderlijke subrekeningen van de rekening *Kapitaal *te creëren aangezien de onaantastbaarheidsvoorwaarde niet moet worden nageleefd bij de belaste reserves. 
+De Commissie is van oordeel dat het niet vereist is om afzonderlijke subrekeningen van de rekening *Kapitaal* te creëren aangezien de onaantastbaarheidsvoorwaarde niet moet worden nageleefd bij de belaste reserves. 
 
 [^1]: Onderhavig advies is tot stand gekomen nadat het ontwerp van dit advies op 22 oktober 2021 ter publieke consultatie werd gepubliceerd op de website van de CBN.
 

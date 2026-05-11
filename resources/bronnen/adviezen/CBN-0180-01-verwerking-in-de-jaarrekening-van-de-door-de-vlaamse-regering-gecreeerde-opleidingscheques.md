@@ -1,55 +1,55 @@
 ---
-nummer: CBN-advies 180/1
-datum: 2008-12-01
-themas:
-  - bedrijfsbelastingen
-  - financiële kosten
-  - liquide middelen
-  - opleidingscheques
 bron: https://www.cbn-cnc.be/nl/adviezen/verwerking-in-de-jaarrekening-van-de-door-de-vlaamse-regering-gecreeerde-opleidingscheques
+datum: 2008-12-01
+gerelateerde_adviezen:
+  - datum: '2024-05-22'
+    titel: Boekhoudkundige verwerking van de taks tot vergoeding der successierechten
+    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-taks-tot-vergoeding-der-successierechten
+  - datum: '2013-03-06'
+    titel: De boekhoudkundige verwerking van de afzonderlijke aanslag op interne pensioenvoorzieningen
+    url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-afzonderlijke-aanslag-op-interne
+nummer: CBN-advies 180/1
 provenance:
+  generated_at: '2026-05-11T13:05:06Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/verwerking-in-de-jaarrekening-van-de-door-de-vlaamse-regering-gecreeerde-opleidingscheques
       sha256: 1110304768ecaf861bbc2d54b573c7e32725c912557e2eb4e7fa90359a4f62dc
       version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:35:47Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
   trust:
-    status: trusted
     confirmed_at: '2026-05-11T12:09:17Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "Laag-1 pass, heading_count 0 klopt: het advies is één doorlopend tekstblok zonder expliciete secties (zo ook in het origineel — kort advies van één paragraaf). Inhoud volledig, geen artefacten, geen voetnoten nodig, geen bullets. Eén typ-artefact ('daaarentegen' met drie a's op regel 61) maar dat is waarschijnlijk originele tekst."
     layer1:
       status: pass
-      run_id: 20260511-083333
-      run_at:
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:27Z'
       heading_count: 0
       max_section_chars: 2307
       file_size_chars: 2307
       flags: []
     layer2:
-      status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:09:17Z'
-      rationale: "Laag-1 pass, heading_count 0 klopt: het advies is één doorlopend tekstblok zonder expliciete secties (zo ook in het origineel — kort advies van één paragraaf). Inhoud volledig, geen artefacten, geen voetnoten nodig, geen bullets. Eén typ-artefact ('daaarentegen' met drie a's op regel 61) maar dat is waarschijnlijk originele tekst."
       concrete_problemen:
-        - regel: 61
-          categorie: D1
+        - categorie: D1
+          regel: 61
           type: other
           voorbeeld: wanneer daaarentegen de aankoop (driemaal 'a' — vermoedelijk tikfout in origineel)
-gerelateerde_adviezen:
-  - titel: Boekhoudkundige verwerking van de taks tot vergoeding der successierechten
-    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-taks-tot-vergoeding-der-successierechten
-    datum: '2024-05-22'
-  - titel: De boekhoudkundige verwerking van de afzonderlijke aanslag op interne pensioenvoorzieningen
-    url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-afzonderlijke-aanslag-op-interne
-    datum: '2013-03-06'
+      rationale: 'Laag-1 pass, heading_count 0 klopt: het advies is één doorlopend tekstblok zonder expliciete secties (zo ook in het origineel — kort advies van één paragraaf). Inhoud volledig, geen artefacten, geen voetnoten nodig, geen bullets. Eén typ-artefact (''daaarentegen'' met drie a''s op regel 61) maar dat is waarschijnlijk originele tekst.'
+      run_at: '2026-05-11T12:09:17Z'
+      status: trusted
+    rationale: 'Laag-1 pass, heading_count 0 klopt: het advies is één doorlopend tekstblok zonder expliciete secties (zo ook in het origineel — kort advies van één paragraaf). Inhoud volledig, geen artefacten, geen voetnoten nodig, geen bullets. Eén typ-artefact (''daaarentegen'' met drie a''s op regel 61) maar dat is waarschijnlijk originele tekst.'
+    status: trusted
+themas:
+  - bedrijfsbelastingen
+  - financiële kosten
+  - liquide middelen
+  - opleidingscheques
 ---
 
 # CBN-advies 180/1 - Verwerking in de jaarrekening van de door de Vlaamse regering gecreëerde opleidingscheques
@@ -58,7 +58,7 @@ Het besluit van de Vlaamse regering van 14 december 2001 en het ministerieel bes
 
 Naar het oordeel van de Commissie voor Boekhoudkundige Normen dienen deze opleidingscheques als volgt verwerkt te worden in de jaarrekening van de vennootschap die ze aankoopt.
 
-Bij aankoop boekt de vennootschap de opleidingscheque als een actief in post IX van de activa: *Liquide middelen*. De tussenkomst van de Vlaamse overheid in de aankoopprijs ervan (15 euro) wordt geboekt als een opbrengst in post I,D van de resultatenrekening: *Andere bedrijfsopbrengsten*.
+Bij aankoop boekt de vennootschap de opleidingscheque als een actief in post IX van de activa: *Liquide middelen*. De tussenkomst van de Vlaamse overheid in de aankoopprijs ervan (15 euro) wordt geboekt als een opbrengst in post I,D van de resultatenrekening:* Andere bedrijfsopbrengsten*.
 
 Na het volgen van de gekozen opleiding wordt de door de opleidingsverstrekker aangerekende prijs ten laste genomen.De geactiveerde opleidingscheque wordt afgeboekt wanneer hij als betaalmiddel wordt gebruikt.
 

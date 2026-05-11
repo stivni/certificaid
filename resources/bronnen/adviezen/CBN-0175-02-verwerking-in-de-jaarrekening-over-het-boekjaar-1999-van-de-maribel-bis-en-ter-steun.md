@@ -1,6 +1,52 @@
 ---
-nummer: CBN-advies 175/2
+bron: https://www.cbn-cnc.be/nl/adviezen/verwerking-in-de-jaarrekening-over-het-boekjaar-1999-van-de-maribel-bis-en-ter-steun
 datum: 2000-02-01
+gerelateerde_adviezen:
+  - datum: '2018-05-09'
+    titel: 'Vereniging van aandelen in handen van één enkele rechtspersoon: vermeldingen in de toelichting'
+    url: https://www.cbn-cnc.be/nl/adviezen/vereniging-van-aandelen-in-handen-van-een-enkele-rechtspersoon-vermeldingen-in-de
+  - datum: '2017-09-13'
+    titel: 'Onbeperkt aansprakelijke vennoot: vermeldingen in de jaarrekening'
+    url: https://www.cbn-cnc.be/nl/adviezen/onbeperkt-aansprakelijke-vennoot-vermeldingen-in-de-jaarrekening
+  - datum: '2017-05-31'
+    titel: Opname van financiële vaste activa geboekt tegen een hoger bedrag dan hun reële waarde in de toelichting van de jaarrekening
+    url: https://www.cbn-cnc.be/nl/adviezen/opname-van-financiele-vaste-activa-geboekt-tegen-een-hoger-bedrag-dan-hun-reele-waarde-in
+  - datum: '2011-05-04'
+    titel: 'Afwijking inzake functionele valuta: praktische implicaties en procedure'
+    url: https://www.cbn-cnc.be/nl/adviezen/afwijking-inzake-functionele-valuta-praktische-implicaties-en-procedure
+nummer: CBN-advies 175/2
+provenance:
+  generated_at: '2026-05-11T13:05:06Z'
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/verwerking-in-de-jaarrekening-over-het-boekjaar-1999-van-de-maribel-bis-en-ter-steun
+      sha256: 6efb7cfc7d3011cbd60b383d4b42c44c3ad372c00a923d92f23bd7b598ec9e9e
+      version:
+  stale: false
+  stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
+  trust:
+    confirmed_at: '2026-05-11T12:09:17Z'
+    confirmed_by: subagent-sonnet-4-6
+    layer1:
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:26Z'
+      heading_count: 3
+      max_section_chars: 3179
+      file_size_chars: 9457
+      flags: []
+    layer2:
+      agent: subagent-sonnet-4-6
+      concrete_problemen: []
+      rationale: 'Laag-1 pass, geen flags. Drie ## headings met volledige titels, voetnoten [^1]–[^2] intact, inhoud compleet (verwijst correct naar advies 175/1 en bespreekt de afwikkeling). Geen artefacten zichtbaar.'
+      run_at: '2026-05-11T12:09:17Z'
+      status: trusted
+    rationale: 'Laag-1 pass, geen flags. Drie ## headings met volledige titels, voetnoten [^1]–[^2] intact, inhoud compleet (verwijst correct naar advies 175/1 en bespreekt de afwikkeling). Geen artefacten zichtbaar.'
+    status: trusted
 themas:
   - toelichting
   - voorzichtigheidsbeginsel
@@ -8,52 +54,6 @@ themas:
   - maribel bis en ter steun
   - minimis-regel
   - lastenverlaging
-bron: https://www.cbn-cnc.be/nl/adviezen/verwerking-in-de-jaarrekening-over-het-boekjaar-1999-van-de-maribel-bis-en-ter-steun
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/verwerking-in-de-jaarrekening-over-het-boekjaar-1999-van-de-maribel-bis-en-ter-steun
-      sha256: 6efb7cfc7d3011cbd60b383d4b42c44c3ad372c00a923d92f23bd7b598ec9e9e
-      version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:35:44Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: trusted
-    confirmed_at: '2026-05-11T12:09:17Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: 'Laag-1 pass, geen flags. Drie ## headings met volledige titels, voetnoten [^1]–[^2] intact, inhoud compleet (verwijst correct naar advies 175/1 en bespreekt de afwikkeling). Geen artefacten zichtbaar.'
-    layer1:
-      status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 3
-      max_section_chars: 3179
-      file_size_chars: 9457
-      flags: []
-    layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:09:17Z'
-      rationale: 'Laag-1 pass, geen flags. Drie ## headings met volledige titels, voetnoten [^1]–[^2] intact, inhoud compleet (verwijst correct naar advies 175/1 en bespreekt de afwikkeling). Geen artefacten zichtbaar.'
-      concrete_problemen: []
-gerelateerde_adviezen:
-  - titel: 'Vereniging van aandelen in handen van één enkele rechtspersoon: vermeldingen in de toelichting'
-    url: https://www.cbn-cnc.be/nl/adviezen/vereniging-van-aandelen-in-handen-van-een-enkele-rechtspersoon-vermeldingen-in-de
-    datum: '2018-05-09'
-  - titel: 'Onbeperkt aansprakelijke vennoot: vermeldingen in de jaarrekening'
-    url: https://www.cbn-cnc.be/nl/adviezen/onbeperkt-aansprakelijke-vennoot-vermeldingen-in-de-jaarrekening
-    datum: '2017-09-13'
-  - titel: Opname van financiële vaste activa geboekt tegen een hoger bedrag dan hun reële waarde in de toelichting van de jaarrekening
-    url: https://www.cbn-cnc.be/nl/adviezen/opname-van-financiele-vaste-activa-geboekt-tegen-een-hoger-bedrag-dan-hun-reele-waarde-in
-    datum: '2017-05-31'
-  - titel: 'Afwijking inzake functionele valuta: praktische implicaties en procedure'
-    url: https://www.cbn-cnc.be/nl/adviezen/afwijking-inzake-functionele-valuta-praktische-implicaties-en-procedure
-    datum: '2011-05-04'
 ---
 
 # CBN-advies 175/2 - Verwerking in de jaarrekening over het boekjaar 1999 van de "Maribel bis en ter"-steun toegekend voor de boekjaren 1993, 1994,1995 en 1996

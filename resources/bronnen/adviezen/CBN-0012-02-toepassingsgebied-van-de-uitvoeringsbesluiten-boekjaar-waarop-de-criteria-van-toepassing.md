@@ -1,77 +1,77 @@
 ---
-nummer: CBN-advies 12/2
-datum: 1977-12-01
-themas:
-  - boekjaar
 bron: https://www.cbn-cnc.be/nl/adviezen/toepassingsgebied-van-de-uitvoeringsbesluiten-boekjaar-waarop-de-criteria-van-toepassing
+datum: 1977-12-01
+gerelateerde_adviezen:
+  - datum: '2024-09-19'
+    titel: Gevolgen verhoging groottecriteria voor (I)VZW’s en stichtingen
+    url: https://www.cbn-cnc.be/nl/adviezen/gevolgen-verhoging-groottecriteria-voor-ivzws-en-stichtingen
+  - datum: '2024-09-19'
+    titel: Gevolgen verhoging groottecriteria voor vennootschappen
+    url: https://www.cbn-cnc.be/nl/adviezen/gevolgen-verhoging-groottecriteria-voor-vennootschappen
+  - datum: '2022-04-27'
+    titel: Verslaggeving bij ontbinding en vereffening van een VZW of IVZW
+    url: https://www.cbn-cnc.be/nl/adviezen/verslaggeving-bij-ontbinding-en-vereffening-van-een-vzw-of-ivzw
+  - datum: '2022-04-01'
+    titel: Verslaggeving bij ontbinding en vereffening van BV, CV, NV, SE en SCE
+    url: https://www.cbn-cnc.be/nl/adviezen/verslaggeving-bij-ontbinding-en-vereffening-van-bv-cv-nv-se-en-sce
+nummer: CBN-advies 12/2
 provenance:
+  generated_at: '2026-05-11T13:05:05Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/toepassingsgebied-van-de-uitvoeringsbesluiten-boekjaar-waarop-de-criteria-van-toepassing
       sha256: 26ca679519de6ac24c5bd8d0c5f98ce1e83aa35f7077241e7354b85fbcebf4db
       version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:33:31Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
   trust:
-    status: needs-rework
     confirmed_at: '2026-05-11T11:51:19Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "Twee problemen: (1) r58 bevat een losse parenthese-paragraaf '(zie lijst van gepubliceerde adviezen, bulletin 1‐24...)' die structureel los staat van de 'verouderd'-notitie op r56 — dit is een A6-achtig scraping-artefact waarbij de tweede zin van de verouderd-notitie als aparte alinea belandde. (2) Meerdere typefouten in de body: 'inzae tewerkgesteld' (r60), 'ter uitvering' (r64), 'interpretate' (r66), 'cjfers' (r66). A4: 2 gevallen U+2010 in r58."
     layer1:
       status: pass
-      run_id: 20260511-083333
-      run_at:
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:24Z'
       heading_count: 0
       max_section_chars: 2657
       file_size_chars: 2657
       flags: []
     layer2:
-      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T11:51:19Z'
-      rationale: "Twee problemen: (1) r58 bevat een losse parenthese-paragraaf '(zie lijst van gepubliceerde adviezen, bulletin 1‐24...)' die structureel los staat van de 'verouderd'-notitie op r56 — dit is een A6-achtig scraping-artefact waarbij de tweede zin van de verouderd-notitie als aparte alinea belandde. (2) Meerdere typefouten in de body: 'inzae tewerkgesteld' (r60), 'ter uitvering' (r64), 'interpretate' (r66), 'cjfers' (r66). A4: 2 gevallen U+2010 in r58."
       concrete_problemen:
-        - regel: 58
-          categorie: A6
+        - categorie: A6
+          regel: 58
           type: other
           voorbeeld: (zie lijst van gepubliceerde adviezen, bulletin 1‐24 augustus 1977‐september 1989)
-        - regel: 60
-          categorie: D1
+        - categorie: D1
+          regel: 60
           type: other
           voorbeeld: criteria inzae tewerkgesteld personeel, omzetcijfer en balanstotaal
-        - regel: 64
-          categorie: D1
+        - categorie: D1
+          regel: 64
           type: other
           voorbeeld: besluiten die ter uitvering van de wet worden genomen
-        - regel: 66
-          categorie: D1
+        - categorie: D1
+          regel: 66
           type: other
           voorbeeld: dat de cjfers in de loop van het boekjaar overschreden worden ... interpretate
-gerelateerde_adviezen:
-  - titel: Gevolgen verhoging groottecriteria voor (I)VZW’s en stichtingen
-    url: https://www.cbn-cnc.be/nl/adviezen/gevolgen-verhoging-groottecriteria-voor-ivzws-en-stichtingen
-    datum: '2024-09-19'
-  - titel: Gevolgen verhoging groottecriteria voor vennootschappen
-    url: https://www.cbn-cnc.be/nl/adviezen/gevolgen-verhoging-groottecriteria-voor-vennootschappen
-    datum: '2024-09-19'
-  - titel: Verslaggeving bij ontbinding en vereffening van een VZW of IVZW
-    url: https://www.cbn-cnc.be/nl/adviezen/verslaggeving-bij-ontbinding-en-vereffening-van-een-vzw-of-ivzw
-    datum: '2022-04-27'
-  - titel: Verslaggeving bij ontbinding en vereffening van BV, CV, NV, SE en SCE
-    url: https://www.cbn-cnc.be/nl/adviezen/verslaggeving-bij-ontbinding-en-vereffening-van-bv-cv-nv-se-en-sce
-    datum: '2022-04-01'
+      rationale: 'Twee problemen: (1) r58 bevat een losse parenthese-paragraaf ''(zie lijst van gepubliceerde adviezen, bulletin 1‐24...)'' die structureel los staat van de ''verouderd''-notitie op r56 — dit is een A6-achtig scraping-artefact waarbij de tweede zin van de verouderd-notitie als aparte alinea belandde. (2) Meerdere typefouten in de body: ''inzae tewerkgesteld'' (r60), ''ter uitvering'' (r64), ''interpretate'' (r66), ''cjfers'' (r66). A4: 2 gevallen U+2010 in r58.'
+      run_at: '2026-05-11T11:51:19Z'
+      status: needs-rework
+    rationale: 'Twee problemen: (1) r58 bevat een losse parenthese-paragraaf ''(zie lijst van gepubliceerde adviezen, bulletin 1‐24...)'' die structureel los staat van de ''verouderd''-notitie op r56 — dit is een A6-achtig scraping-artefact waarbij de tweede zin van de verouderd-notitie als aparte alinea belandde. (2) Meerdere typefouten in de body: ''inzae tewerkgesteld'' (r60), ''ter uitvering'' (r64), ''interpretate'' (r66), ''cjfers'' (r66). A4: 2 gevallen U+2010 in r58.'
+    status: needs-rework
+themas:
+  - boekjaar
 ---
 
 # CBN-advies 12-2 - Toepassingsgebied van de uitvoeringsbesluiten: Boekjaar waarop de criteria van toepassing zijn
 
 Dit advies is verouderd gezien het nieuwe artikel 12 van de wet 17 juli 1975 (artikel 8 van de wet van 1 juli 1983) 
 
-(zie lijst van gepubliceerde adviezen, bulletin 1‐24 augustus 1977‐september 1989) 
+(zie lijst van gepubliceerde adviezen, bulletin 1-24 augustus 1977-september 1989) 
 
 De vraag werd gesteld welk boekjaar en welke balans in aanmerking genomen moeten worden voor de toepassing van de criteria inzae tewerkgesteld personeel, omzetcijfer en balanstotaal zoals voorzien in artikel 12 van de wet van 17 juli 1975. Gaat het hier om het lopende boekjaar, het boekjaar waarop de jaarrekening betrekking heeft of het voorgaande boekjaar ? 
 

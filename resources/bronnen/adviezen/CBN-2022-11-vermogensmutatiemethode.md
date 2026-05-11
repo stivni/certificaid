@@ -3,81 +3,58 @@ bron: https://www.cbn-cnc.be/nl/adviezen/vermogensmutatiemethode
 datum: 2022-09-09
 nummer: CBN-advies 2022/11
 provenance:
-  generated_at: '2026-05-08T18:38:14Z'
+  generated_at: '2026-05-11T13:05:09Z'
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/vermogensmutatiemethode
-    sha256: 00703b083c62932ad00a467870a3bc5061468db96a297ded9921ed568509a7ad
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/vermogensmutatiemethode
+      sha256: 00703b083c62932ad00a467870a3bc5061468db96a297ded9921ed568509a7ad
+      version:
   stale: false
-  stale_reason: null
+  stale_reason:
   tooling:
-    model: null
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    prompt_version: null
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
   trust:
     confirmed_at: '2026-05-08T19:02:28Z'
     confirmed_by: subagent-laag2-ronde2
     layer1:
-      file_size_chars: 67935
-      flags:
-      - detail: 'langste sectie op ###-niveau: 33532 chars (>24000); chunker splitst
-          auto op alinea-grenzen via split_long_chunk'
-        name: max_section_size
-        samples: []
-        status: warn
-      heading_count: 15
-      max_section_chars: 33532
-      run_at: null
-      run_id: 20260511-083333
       status: warn
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:30Z'
+      heading_count: 19
+      max_section_chars: 33532
+      file_size_chars: 66524
+      flags:
+        - name: max_section_size
+          status: warn
+          detail: 'langste sectie op ###-niveau: 33532 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
+          samples: []
     layer2:
       agent: subagent-laag2-ronde2
       concrete_problemen: []
-      rationale: '[Laag-2-R2 2026-05-08] 15 headings voor technisch-diep advies over
-        vermogensmutatiemethode. Grote sectie bevat consistente voorbeelden 1-4 met
-        balansschema''s als Markdown-tabellen.'
+      rationale: '[Laag-2-R2 2026-05-08] 15 headings voor technisch-diep advies over vermogensmutatiemethode. Grote sectie bevat consistente voorbeelden 1-4 met balansschema''s als Markdown-tabellen.'
       run_at: '2026-05-08T19:02:28Z'
       status: trusted
     rationale: Laag-2 trusted door subagent-laag2-ronde2 (zie layer2.rationale)
     status: trusted
 themas:
-- vermogensmutatie
-- vermogensmutatiemethode
-- consolidatie
-- mutaties binnen het eigen vermogen
-- intragroepstransactie
-- direct-to-equity mutatie
-- upstream sale
-- downstream sale
-- intragroepsdividend
-- invloed van betekenis
-- geconsolideerde jaarrekening
-- one-line-consolidation
-- intragroepsverkoop
+  - vermogensmutatie
+  - vermogensmutatiemethode
+  - consolidatie
+  - mutaties binnen het eigen vermogen
+  - intragroepstransactie
+  - direct-to-equity mutatie
+  - upstream sale
+  - downstream sale
+  - intragroepsdividend
+  - invloed van betekenis
+  - geconsolideerde jaarrekening
+  - one-line-consolidation
+  - intragroepsverkoop
 ---
 
 # CBN-advies 2022/11 – Vermogensmutatiemethode
-
-1. Toepassingsgebied 
-2. Toepassing van de vermogensmutatiemethode
-
-  1. Eerste consolidatie 
-  2. Latere consolidaties 
-  3. Voorbeeld 1: waardering volgens de vermogensmutatiemethode 
-  4. Voorbeeld 2: verkoop van de deelnemingen waarop vermogensmutatie is toegepast 
-
-3. Boekhoudkundige verwerking van directe mutaties binnen het eigen vermogen van de geassocieerde vennootschap en van intra-groepstransacties (verkopen en dividenden) 
-  1. Directe mutaties binnen het eigen vermogen van de geassocieerde vennootschap 
-  2. Intra-groepsverkopen (upstream & downstream sales) 
-  3. Intra-groepsdividenden 
-  4. Voorbeeld 3 
-    1. Upstream sales 
-    2. Downstream sales 
-    3. Intra-groepsdividenden 
-    4. Aandeel in een ‘direct-to-equity’ mutatie 
-
--- Eerste consolidatie -- Latere consolidaties -- Voorbeeld 1: waardering volgens de vermogensmutatiemethode-- Voorbeeld 2: verkoop van de deelnemingen waarop vermogensmutatie is toegepastBoekhoudkundige verwerking van directe mutaties binnen het eigen vermogen van de geassocieerde vennootschap en van intra-groepstransacties (verkopen en dividenden)-- Directe mutaties binnen het eigen vermogen van de geassocieerde vennootschap-- Intra-groepsverkopen (upstream &amp; downstream sales)-- Intra-groepsdividenden-- Voorbeeld 3---- Upstream sales---- Downstream sales---- Intra-groepsdividenden ---- Aandeel in een ‘direct-to-equity’ mutatie 
 
 ## Toepassingsgebied
 
@@ -114,8 +91,7 @@ De Commissie wenst te benadrukken dat de toepassing van de vermogensmutatiemetho
 
 ### Eerste consolidatie 
 
-Volgens de vermogensmutatiemethode worden de door de moedervennootschap aangehouden deelnemingen naar aanleiding van de opstelling van de geconsolideerde jaarrekening opnieuw gewaardeerd: de historische aanschaffingswaarde van de deelnemingen wordt hierdoor telkens vervangen door het bedrag dat overeenkomt met het deel van het eigen vermogen van de betrokken vennootschap, inclusief het resultaat over het boekjaar, dat deze deelneming belichaamt[^18]. Het eigen vermogen van de betrokken vennootschap bestaat uit het verschil tussen de boekwaarde van de activa en de boekwaarde van de voorzieningen[^19]
- en schulden van deze vennootschap. Dit eigen vermogen omvat het resultaat van het boekjaar op datum van verwerving, behalve in zoverre hierop vóór de verwerving een interimdividend is toegekend.[^20]
+Volgens de vermogensmutatiemethode worden de door de moedervennootschap aangehouden deelnemingen naar aanleiding van de opstelling van de geconsolideerde jaarrekening opnieuw gewaardeerd: de historische aanschaffingswaarde van de deelnemingen wordt hierdoor telkens vervangen door het bedrag dat overeenkomt met het deel van het eigen vermogen van de betrokken vennootschap, inclusief het resultaat over het boekjaar, dat deze deelneming belichaamt[^18]. Het eigen vermogen van de betrokken vennootschap bestaat uit het verschil tussen de boekwaarde van de activa en de boekwaarde van de voorzieningen[^19] en schulden van deze vennootschap. Dit eigen vermogen omvat het resultaat van het boekjaar op datum van verwerving, behalve in zoverre hierop vóór de verwerving een interimdividend is toegekend.[^20]
  Dit laatste geldt praktisch ook bij de toekenning van een tussentijds dividend vóór de verwerving.
 
 Indien binnen de groep geen uniforme waarderingsregels worden toegepast voor de waardering van de actief- en passiefbestanddelen van de geassocieerde vennootschap en voor de consolidatie, kunnen deze conform artikel 3:142, § 2, tweede lid van het koninklijk besluit tot uitvoering van het Wetboek van vennootschappen en verenigingen (hierna: KB WVV) opnieuw worden gewaardeerd volgens de voor de consolidatie gehanteerde methoden. Wordt niet opnieuw gewaardeerd, dan moet zulks in toelichting bij de geconsolideerde jaarrekening onder de waarderingsregels worden vermeld.
@@ -126,12 +102,10 @@ Voor zover het verschil tussen de boekwaarde van de deelneming en de hiermee ove
 
 Het resterende, niet-toerekenbare verschil wordt opgenomen onder de post “Consolidatieverschillen” in de geconsolideerde balans, aan de actiefzijde bij een positief consolidatieverschil, aan de passiefzijde in geval van een negatief consolidatieverschil. Deze consolidatieverschillen mogen niet worden gecompenseerd, behalve indien zij betrekking hebben op eenzelfde geassocieerde vennootschap. In dit laatste geval is compensatie verplicht.[^22] 
 
-*Voorbeeld*
+### *Voorbeeld*
 
-Stel dat de boekwaarde van de deelneming in de geassocieerde vennootschap 100 bedraagt en dat de fractie van het eigen vermogen van de geassocieerde vennootschap 80 is. Het verschil tussen de boekwaarde van de deelneming (100) en de hiermee overeenstemmende fractie van het eigen vermogen (80) bedraagt dus 20 (100 – 80). 
-
-Dit verschil (20) kan voor een gedeelte (5) worden toegerekend aan terreinen die in werkelijkheid een grotere waarde hebben dan de boekwaarde waartegen ze in de balans van de geassocieerde vennootschap worden uitgedrukt. Desgevallend wordt de deelneming in de geassocieerde vennootschap in de geconsolideerde jaarrekening opgenomen onder de rubriek "Vennootschappen waarop vermogensmutatie is toegepast" onder de "Financiële vaste activa" voor een bedrag van 80 + 5 = 85. Het resterend verschil (20 - 5 = 15) is dan het positief consolidatieverschil. 
-
+Stel dat de boekwaarde van de deelneming in de geassocieerde vennootschap 100 bedraagt en dat de fractie van het eigen vermogen van de geassocieerde vennootschap 80 is. Het verschil tussen de boekwaarde van de deelneming (100) en de hiermee overeenstemmende fractie van het eigen vermogen (80) bedraagt dus 20 (100 – 80).
+Dit verschil (20) kan voor een gedeelte (5) worden toegerekend aan terreinen die in werkelijkheid een grotere waarde hebben dan de boekwaarde waartegen ze in de balans van de geassocieerde vennootschap worden uitgedrukt. Desgevallend wordt de deelneming in de geassocieerde vennootschap in de geconsolideerde jaarrekening opgenomen onder de rubriek "Vennootschappen waarop vermogensmutatie is toegepast" onder de "Financiële vaste activa" voor een bedrag van 80 + 5 = 85. Het resterend verschil (20 - 5 = 15) is dan het positief consolidatieverschil.
 Positieve consolidatieverschillen worden afgeschreven ten laste van de geconsolideerde resultatenrekening. Worden ze afgeschreven over meer dan vijf jaar, dan moet zulks worden gemotiveerd in de toelichting. Op deze verschillen worden aanvullende of niet-recurrente afschrijvingen toegepast wanneer het, ingevolge wijzigingen in de economische omstandigheden, niet langer economisch verantwoord is ze tegen die waarde te handhaven in de geconsolideerde balans. De afschrijvingen worden in de resultatenrekening geboekt in een afzonderlijke post van de bedrijfskosten of van de financiële kosten.[^23] 
 
 Negatieve consolidatieverschillen worden in beginsel niet in de geconsolideerde resultatenrekening opgenomen. Wanneer evenwel het negatieve consolidatieverschil te verklaren valt door een op de datum van verwerving van de deelneming of een nabij zijnde datum verwachte ongunstige ontwikkeling van de resultaten van de geassocieerde vennootschap of uit kosten die deze geassocieerde vennootschap naar verwachting zal veroorzaken, wordt het in de geconsolideerde resultatenrekening opgenomen voor zover en op het ogenblik dat deze vooruitzichten werkelijkheid worden.[^24]
@@ -143,7 +117,7 @@ De deelneming in vennootschappen waarop de vermogensmutatiemethode is toegepast,
 
 De waarde waartegen de deelneming in de geconsolideerde jaarrekening, overeenkomstig artikel 3:142, § 1 en 2 KB WVV, is opgenomen, wordt vervolgens, naar gelang van het geval, verhoogd of verminderd met het bedrag van de tijdens het boekjaar of het gedeelte van het boekjaar opgetreden verandering in het deel van het eigen vermogen van de betrokken vennootschap dat deze deelneming belichaamt. Dit eigen vermogen omvat, naast het resultaat van het boekjaar, met uitsluiting evenwel van het gedeelte hiervan dat bij bestemming anderszins dan als dividend wordt toegekend, tevens de uitdrukking van een herwaarderingsmeerwaarde, de verkrijging van een kapitaalsubsidie, de overboeking van een gerealiseerde meerwaarde naar de belastingvrije reserves en de boeking van een uitgiftepremie naar aanleiding van de uitgifte van een converteerbare obligatielening.[^27] 
 
-De vermogensmutatiemethode wordt vaak omschreven als een *one-line consolidation[^28] *, daar slechts één bedrag, op één lijn gerapporteerd wordt in de geconsolideerde balans van de consoliderende vennootschap. Ook voor het resultaat van de vennootschap waarop de vermogensmutatiemethode wordt toegepast, wordt slechts één bedrag, op één lijn, gerapporteerd in de resultatenrekening.
+De vermogensmutatiemethode wordt vaak omschreven als een *one-line consolidation[^28]* , daar slechts één bedrag, op één lijn gerapporteerd wordt in de geconsolideerde balans van de consoliderende vennootschap. Ook voor het resultaat van de vennootschap waarop de vermogensmutatiemethode wordt toegepast, wordt slechts één bedrag, op één lijn, gerapporteerd in de resultatenrekening.
 
 Er moet worden opgemerkt dat er in de toelichting melding zal worden gemaakt van de informatie zoals vereist door artikel 3:15, I, IV, X, XI en XII KB WVV.
 
@@ -157,7 +131,7 @@ Neem bijvoorbeeld vennootschappen X en Y waarvan de balansen op 31.12.20X0 als v
 | *Materiële vaste activa* | | 15.000 | | *Eigen vermogen* | | | 
 | *Financiële vaste activa* | | | | Kapitaal | | 30.000 | 
 | Deelneming in vennootschap Z | | 10.000 | | Reserves | | 14.000 | 
-| *Andere activa* | | 34.000 | | *Schulden * | | 15.000 | 
+| *Andere activa* | | 34.000 | | *Schulden*  | | 15.000 | 
 | **Totaal** | | **59.000** | | **Totaal** | | **59.000** | 
 
 *Vennootschap Y – Enkelvoudige balans op 31.12.20X0*
@@ -166,11 +140,10 @@ Neem bijvoorbeeld vennootschappen X en Y waarvan de balansen op 31.12.20X0 als v
 | *Materiële vaste activa* | | 10.000 | | *Eigen vermogen* | | | 
 | *Financiële vaste activa* | | 2.000 | | Kapitaal | | 8.000 | 
 | *Andere activa* | | 4.500 | | Reserves | | 4.500 | 
-| | | | | *Schulden * | | 4.000 | 
+| | | | | *Schulden*  | | 4.000 | 
 | **Totaal** | | **16.500** | | **Totaal** | | **16.500** | 
 
-Op 27 december 20X1 verwerft naamloze vennootschap X 20 % van de aandelen van naamloze vennootschap Y. De aanschaffingsprijs van deze deelneming bedraagt 4.000 euro. Op deze datum boekten vennootschapen X en Y een winst van respectievelijk 1.000 en 500[^29]
- euro.
+Op 27 december 20X1 verwerft naamloze vennootschap X 20 % van de aandelen van naamloze vennootschap Y. De aanschaffingsprijs van deze deelneming bedraagt 4.000 euro. Op deze datum boekten vennootschapen X en Y een winst van respectievelijk 1.000 en 500[^29] euro.
 
 De balansen van vennootschappen X en Y worden op 31.12.20X1 als volgt opgesteld:
 
@@ -190,11 +163,10 @@ De balansen van vennootschappen X en Y worden op 31.12.20X1 als volgt opgesteld:
 | *Materiële vaste activa* | | 10.000 | | *Eigen vermogen* | | | 
 | *Financiële vaste activa* | | 2.000 | | Kapitaal | | 8.000 | 
 | *Andere activa* | | 5.000[^32] | | Reserves | | 5.000[^33] | 
-| | | | | *Schulden * | | 4.000 | 
+| | | | | *Schulden*  | | 4.000 | 
 | **Totaal** | | **17.000** | | **Totaal** | | **17.000** | 
 
-Naar aanleiding van de consolidatie[^34]
- wordt het verschil berekend tussen de boekwaarde van de deelneming van vennootschap X in vennootschap Y (4.000) en het bedrag dat overeenstemt met 20 % van het eigen vermogen van vennootschap Y op het ogenblik van de verwerving[^35], d.i. 20 % van 13.000[^36]
+Naar aanleiding van de consolidatie[^34] wordt het verschil berekend tussen de boekwaarde van de deelneming van vennootschap X in vennootschap Y (4.000) en het bedrag dat overeenstemt met 20 % van het eigen vermogen van vennootschap Y op het ogenblik van de verwerving[^35], d.i. 20 % van 13.000[^36]
  = 2.600 euro.
 
 Vervolgens wordt nagegaan in hoeverre dit verschil kan worden toegerekend aan identificeerbare actief- of passiefbestanddelen van de betrokken vennootschap Y, die mogelijks een grotere of kleinere waarde hebben dan waartegen zij in de boekhouding van vennootschap Y staan geboekt[^37]. 
@@ -220,7 +192,7 @@ De nieuwe boekwaarde van de deelneming wordt in de geconsolideerde balans opgeno
 | *Andere activa* | | 31.000 | | * * | | | 
 | **Totaal** | | **59.720** | | **Totaal** | | **59.720** | 
 
-*Invloed van de vermogensmutatiemethode op de geconsolideerde resultatenrekening 20X1[^40] *
+*Invloed van de vermogensmutatiemethode op de geconsolideerde resultatenrekening 20X1[^40]* 
 
 | 
 
@@ -249,7 +221,7 @@ Latere consolidaties
 
 Hypothese 1: vennootschap Y maakt in het volgende boekjaar (20X2) 1.500 euro winst die wordt gereserveerd.
 
-*Vennootschap X – Enkelvoudige balans op 31.12.20X2[^41] *
+*Vennootschap X – Enkelvoudige balans op 31.12.20X2[^41]* 
 
 | ACTIVA PASSIVA | 
 | *Materiële vaste activa* | | 15.000 | | *Eigen vermogen* | | | 
@@ -259,17 +231,17 @@ Hypothese 1: vennootschap Y maakt in het volgende boekjaar (20X2) 1.500 euro win
 | *Andere activa* | | 31.000 | | * * | | | 
 | **Totaal** | | **60.000** | | **Totaal** | | **60.000** | 
 
-*Vennootschap Y – Enkelvoudige balans op 31.12.20X2 *
+*Vennootschap Y – Enkelvoudige balans op 31.12.20X2* 
 
 | ACTIVA PASSIVA | 
 | *Materiële vaste activa* | | 10.000 | | *Eigen vermogen* | | | 
 | *Financiële vaste activa* | | 2.000 | | Kapitaal | | 8.000 | 
 | *Andere activa* | | 6.500 | | Reserves | | 5.000 | 
 | | | | | Resultaat van het boekjaar | | 1.500 | 
-| | | | | *Schulden * | | 4.000 | 
+| | | | | *Schulden*  | | 4.000 | 
 | **Totaal** | | **18.500** | | **Totaal** | | **18.500** | 
 
-**Herberekening van het bedrag van de deelneming waarop de vermogensmutatiemethode wordt toegepast:** 
+## Herberekening van het bedrag van de deelneming waarop de vermogensmutatiemethode wordt toegepast:
 
 Aandeel in de winst van het boekjaar van geassocieerde vennootschap Y: 20 % van 1.500 = 300
 
@@ -315,7 +287,7 @@ Aandeel in de winst van de vennootschappen waarop vermogensmutatie is toegepast
 
 Hypothese 2: vennootschap Y maakt tijdens het volgende boekjaar een verlies van 1.500 euro.
 
-*Vennootschap X – Enkelvoudige balans op 31.12.20X2[^45] *
+*Vennootschap X – Enkelvoudige balans op 31.12.20X2[^45]* 
 
 | ACTIVA PASSIVA | 
 | *Materiële vaste activa* | | 15.000 | | *Eigen vermogen* | | | 
@@ -325,17 +297,17 @@ Hypothese 2: vennootschap Y maakt tijdens het volgende boekjaar een verlies van 
 | *Andere activa* | | 31.000 | | * * | | | 
 | **Totaal** | | **60.000** | | **Totaal** | | **60.000** | 
 
-*Vennootschap Y – Enkelvoudige balans op 31.12.20X2 *
+*Vennootschap Y – Enkelvoudige balans op 31.12.20X2* 
 
 | ACTIVA PASSIVA | 
 | *Materiële vaste activa* | | 10.000 | | *Eigen vermogen* | | | 
 | *Financiële vaste activa* | | 2.000 | | Kapitaal | | 8.000 | 
 | *Andere activa* | | 3.500 | | Reserves | | 5.000 | 
 | | | | | Resultaat van het boekjaar | | (1.500) | 
-| | | | | *Schulden * | | 4.000 | 
+| | | | | *Schulden*  | | 4.000 | 
 | **Totaal** | | **15.500** | | **Totaal** | | **15.500** | 
 
-**Herberekening van het bedrag van de deelneming waarop de vermogensmutatiemethode wordt toegepast:** 
+## Herberekening van het bedrag van de deelneming waarop de vermogensmutatiemethode wordt toegepast:
 
 Aandeel in het verlies van het boekjaar van geassocieerde vennootschap Y: 20 % van (1.500) = -300
 
@@ -390,7 +362,7 @@ Financiële kosten – Afschrijving “Consolidatieverschillen”
 
 Hypothese 3: gedurende het boekjaar dat volgt, lijdt vennootschap Y een verlies van 15.000 euro.
 
-*Vennootschap X – Enkelvoudige balans op 31.12.20X2[^49] *
+*Vennootschap X – Enkelvoudige balans op 31.12.20X2[^49]* 
 
 | ACTIVA PASSIVA | 
 | *Materiële vaste activa* | | 15.000 | | *Eigen vermogen* | | | 
@@ -400,17 +372,17 @@ Hypothese 3: gedurende het boekjaar dat volgt, lijdt vennootschap Y een verlies 
 | *Andere activa* | | 31.000 | | * * | | | 
 | **Totaal** | | **60.000** | | **Totaal** | | **60.000** | 
 
-*Vennootschap Y – Enkelvoudige balans op 31.12.20X2 *
+*Vennootschap Y – Enkelvoudige balans op 31.12.20X2* 
 
 | ACTIVA PASSIVA | 
 | *Materiële vaste activa* | | 1.900 | | *Eigen vermogen* | | | 
 | *Financiële vaste activa* | | 0 | | Kapitaal | | 8.000 | 
 | *Andere activa* | | 100 | | Reserves | | 5.000 | 
 | | | | | Resultaat van het boekjaar | | (15.000) | 
-| | | | | *Schulden * | | 4.000 | 
+| | | | | *Schulden*  | | 4.000 | 
 | **Totaal** | | **2.000** | | **Totaal** | | **2.000** | 
 
-**Herberekening van het bedrag van de deelneming waarop de vermogensmutatiemethode wordt toegepast:** 
+## Herberekening van het bedrag van de deelneming waarop de vermogensmutatiemethode wordt toegepast:
 
 Aandeel in het verlies van het boekjaar van geassocieerde vennootschap Y: 20 % van (15.000) = -3.000.
 
@@ -485,7 +457,7 @@ Veronderstel dat vennootschap M op 1 maart 20X0 4.000 euro investeert om 20 % va
 | *Materiële vaste activa* | | 17.000 | | *Eigen vermogen* | | | 
 | *Financiële vaste activa* | | 2.000 | | Kapitaal | | 20.000 | 
 | *Andere activa* | | 6.500 | | Resultaat van het boekjaar | | 1.500 | 
-| | | | | *Schulden * | | 4.000 | 
+| | | | | *Schulden*  | | 4.000 | 
 | **Totaal** | | **25.500** | | **Totaal** | | **25.500** | 
 
 *Balans opgesteld door vennootschap M op 31.12.20X0, na toepassing van de vermogensmutatiemethode en vóór consolidatie van de vennootschap Z*
@@ -541,7 +513,7 @@ In de loop van 20X1 behalen vennootschappen M en F respectievelijk een resultaat
 | *Materiële vaste activa* | | 17.000 | | Kapitaal | | 20.000 | 
 | *Financiële vaste activa* | | 2.000 | | Reserves | | 1.500 | 
 | *Andere activa* | | 7.500 | | Resultaat van het boekjaar | | 1.000 | 
-| | | | | *Schulden * | | 4.000 | 
+| | | | | *Schulden*  | | 4.000 | 
 | **Totaal** | | **26.500** | | **Totaal** | | **26.500** | 
 
 *Balans opgesteld door vennootschap M op 31.12.20X1, na toepassing van de vermogensmutatiemethode en vóór consolidatie van de vennootschap Z*
@@ -603,14 +575,13 @@ De Commissie beperkt zich in dit voorbeeld tot de verkoop van de aandelen van ve
 
 De ‘geconsolideerde’ balans kan als volgt worden weergegeven:
 
-*Balans opgesteld door vennootschap M op 31.12.20X2[^63]
- vóór consolidatie van de vennootschap Z[^64] *
+*Balans opgesteld door vennootschap M op 31.12.20X2[^63] vóór consolidatie van de vennootschap Z[^64]* 
 
 | ACTIVA PASSIVA | 
 | *Materiële vaste activa* | | 26.000 | | *Eigen vermogen* | | | 
 | *Financiële vaste activa* | | | | Kapitaal | | 30.000 | 
 | Deelnemingen in vennootschap Z | | 10.000 | | Reserves | | 17.400 | 
-| *Andere activa* | | 26.000 | | *Schulden * | | 14.600 | 
+| *Andere activa* | | 26.000 | | *Schulden*  | | 14.600 | 
 | **Totaal** | | **62.000** | | **Totaal** | | **62.000** | 
 
 In deze situatie is de Commissie van oordeel dat het volledige bedrag van het aandeel in het resultaat van vennootschap F dat werd opgenomen in de geconsolideerde jaarrekening van vennootschap M, in mindering moet worden gebracht van het geconsolideerde resultaat als gevolg van de verkoop van deze deelneming.[^65] 
@@ -649,11 +620,9 @@ Geconsolideerd resultaat
 In een vorige versie liet artikel 3:143 KB WVV (vroeger artikel 153 KB W.Venn.) vermoeden dat enkel het resultaat van het boekjaar van de vennootschap waarop de vermogensmutatiemethode is toegepast, een mutatie binnen het eigen vermogen van die vennootschap met zich kon meebrengen. Naar aanleiding van de publicatie van CBN-advies 2014/3 – *De boekhoudkundige verwerking van mutaties binnen het eigen vermogen van een geassocieerde onderneming* werd de tekst van het koninklijk besluit aangepast om rekening te houden met de *direct-to-equity* mutaties (dit zijn mutaties die onmiddellijk worden overgedragen naar het eigen vermogen). Artikel 3:143 KB WVV bepaalt het volgende:
 
 “Dit eigen vermogen omvat, naast het resultaat van het boekjaar, met uitsluiting evenwel van het gedeelte hiervan dat bij bestemming anderszins dan als dividend wordt toegekend, tevens de uitdrukking van een herwaarderingsmeerwaarde, de verkrijging van een kapitaalsubsidie, de overboeking van een gerealiseerde meerwaarde naar de belastingvrije reserves en de boeking van een uitgiftepremie naar aanleiding van de uitgifte van een converteerbare obligatielening.”
-
-In dit geval staat de verhoging van de post “Vennootschappen waarop vermogensmutatie is toegepast” niet in verband met de verhoging van het aandeel in het resultaat van de vennootschap waarop de vermogensmutatiemethode is toegepast. Dit vloeit voort uit artikel 3:146 KB WVV waarin wordt bepaald dat het aandeel in de herwaarderingsmeerwaarde (of andere *direct-to-equity *mutaties) direct moet worden opgenomen onder de geconsolideerde reserves:
+In dit geval staat de verhoging van de post “Vennootschappen waarop vermogensmutatie is toegepast” niet in verband met de verhoging van het aandeel in het resultaat van de vennootschap waarop de vermogensmutatiemethode is toegepast. Dit vloeit voort uit artikel 3:146 KB WVV waarin wordt bepaald dat het aandeel in de herwaarderingsmeerwaarde (of andere *direct-to-equity* mutaties) direct moet worden opgenomen onder de geconsolideerde reserves:
 
 “Het aandeel in de herwaarderingsmeerwaarde, de verkrijging van een kapitaalsubsidie, de overboeking van een gerealiseerde meerwaarde naar de belastingvrije reserves en de boeking van een uitgiftepremie naar aanleiding van de uitgifte van een converteerbare obligatielening van de [consoliderende] vennootschap dat aan deze deelneming kan worden toegerekend, wordt vermeld in de geconsolideerde balans onder de rubriek “Reserves”.”
-
 ### Intra-groepsverkopen (upstream & downstream sales)
 
 Het aandeel in het resultaat van de betrokken vennootschap dat aan deze deelneming kan worden toegerekend, wordt opgenomen in de geconsolideerde resultatenrekening onder een afzonderlijke post “Aandeel in het resultaat van de vennootschappen waarop vermogensmutatie is toegepast”.[^68] 
@@ -731,7 +700,7 @@ Tijdens de periode van 1 december 20X1 tot 31 december 20X1 heeft vennootschap B
 | Financiële vaste activa | | | | *Reserves vennootschap A* | | *300* | 
 | Verbonden ondernemingen | | 3.000 | | *Resultaat vennootschap A* | | *2.800* | 
 | Vennootschappen waarop vermogensmutatie is toegepast | | 290[^78] | | *Resultaat vennootschap B* | | *80* | 
-| Liquide middelen | | 1.600 | | *Afschrijving consolidatieverschil* | | *-58[^79] * | 
+| Liquide middelen | | 1.600 | | *Afschrijving consolidatieverschil* | | *-58[^79]*  | 
 | | | | | Leveranciers | | 1.160 | 
 | **Totaal** | | **5.782** | | **Totaal** | | **5.782** | 
 
@@ -796,8 +765,8 @@ Bij het opmaken van de geconsolideerde jaarrekening van vennootschap A moet de d
 | Terreinen | | 1.660 | | Geconsolideerde reserves | | 3.624 | 
 | Financiële vaste activa | | | | *Reserves vennootschap A* | | *3.100* | 
 | Verbonden ondernemingen | | 3.000 | | *Resultaat vennootschap A* | | *500* | 
-| Vennootschappen waarop vermogensmutatie is toegepast | | 350[^87] | | *Resultaat vennootschap B* | | *140[^88] * | 
-| Liquide middelen | | 1.100 | | *Afschrijving consolidatieverschil* | | *-116[^89] * | 
+| Vennootschappen waarop vermogensmutatie is toegepast | | 350[^87] | | *Resultaat vennootschap B* | | *140[^88]*  | 
+| Liquide middelen | | 1.100 | | *Afschrijving consolidatieverschil* | | *-116[^89]*  | 
 | | | | | Leveranciers | | 1.160 | 
 | **Totaal** | | **6.284** | | **Totaal** | | **6.284** | 
 
@@ -861,9 +830,9 @@ Bij het opmaken van de geconsolideerde jaarrekening van vennootschap A moet de d
 | Consolidatieverschillen | | 174[^96] | | Kapitaal | | 1.500 | 
 | Terreinen | | 510 | | Geconsolideerde reserves | | 3.704 | 
 | Financiële vaste activa | | | | *Reserves vennootschap A* | | *3.100* | 
-| Verbonden ondernemingen | | 3.000 | | *Resultaat vennootschap A* | | *540[^97] * | 
-| Vennootschappen waarop vermogensmutatie is toegepast | | 380[^98] | | *Resultaat vennootschap B[^99] * | | *180[^100] * | 
-| Liquide middelen | | 2.300 | | *Afschrijving consolidatieverschil* | | *-116[^101] * | 
+| Verbonden ondernemingen | | 3.000 | | *Resultaat vennootschap A* | | *540[^97]*  | 
+| Vennootschappen waarop vermogensmutatie is toegepast | | 380[^98] | | *Resultaat vennootschap B[^99]*  | | *180[^100]*  | 
+| Liquide middelen | | 2.300 | | *Afschrijving consolidatieverschil* | | *-116[^101]*  | 
 | | | | | Leveranciers | | 1.160 | 
 | **Totaal** | | **6.364** | | **Totaal** | | **6.364** | 
 
@@ -939,9 +908,9 @@ Bij de consolidatie moet het bedrag van de door A ontvangen dividenden (20) word
 | Consolidatieverschillen | | 174 | | Kapitaal | | 1.500 | 
 | Terreinen | | 660 | | Geconsolideerde reserves | | 3.744 | 
 | Financiële vaste activa | | | | *Reserves vennootschap A* | | *3.100* | 
-| Verbonden ondernemingen | | 3.000 | | *Resultaat vennootschap A* | | *580[^106] * | 
-| Vennootschappen waarop vermogensmutatie is toegepast | | 370[^107] | | *Resultaat vennootschap B* | | *180[^108] * | 
-| Liquide middelen | | 2.200 | | *Afschrijving consolidatieverschil* | | *-116[^109] * | 
+| Verbonden ondernemingen | | 3.000 | | *Resultaat vennootschap A* | | *580[^106]*  | 
+| Vennootschappen waarop vermogensmutatie is toegepast | | 370[^107] | | *Resultaat vennootschap B* | | *180[^108]*  | 
+| Liquide middelen | | 2.200 | | *Afschrijving consolidatieverschil* | | *-116[^109]*  | 
 | | | | | Leveranciers | | 1.160 | 
 | **Totaal** | | **6.404** | | **Totaal** | | **6.404** | 
 
@@ -1013,8 +982,8 @@ Bij de consolidatie wordt het volledige aandeel in het resultaat van vennootscha
 | Terreinen | | 660 | | Geconsolideerde reserves | | 3.764 | 
 | Financiële vaste activa | | | | *Reserves vennootschap A* | | *3.100* | 
 | Verbonden ondernemingen | | 3.000 | | *Resultaat vennootschap A* | | *600* | 
-| Vennootschappen waarop vermogensmutatie is toegepast | | 390[^113] | | *Resultaat vennootschap B[^114] * | | *180[^115] * | 
-| Liquide middelen | | 2.200 | | *Afschrijving consolidatieverschil* | | *-116[^116] * | 
+| Vennootschappen waarop vermogensmutatie is toegepast | | 390[^113] | | *Resultaat vennootschap B[^114]*  | | *180[^115]*  | 
+| Liquide middelen | | 2.200 | | *Afschrijving consolidatieverschil* | | *-116[^116]*  | 
 | | | | | Leveranciers | | 1.160 | 
 | **Totaal** | | **6.424** | | **Totaal** | | **6.424** | 
 
@@ -1078,9 +1047,9 @@ Bij de consolidatie moet de waarde van de deelneming waarop vermogensmutatie is 
 | Consolidatieverschillen | | 116 | | Kapitaal | | 1.500 | 
 | Terreinen | | 660 | | Geconsolideerde reserves | | 4.326 | 
 | Financiële vaste activa | | | | *Reserves vennootschap A* | | *3.700* | 
-| Verbonden ondernemingen | | 3.000 | | *Resultaat vennootschap A* | | *540[^122] * | 
-| Vennootschappen waarop vermogensmutatie is toegepast | | 410[^123] | | *Resultaat vennootschap B[^124] * | | *260[^125] * | 
-| Liquide middelen | | 2.800 | | *Afschrijving consolidatieverschil* | | *-174[^126] * | 
+| Verbonden ondernemingen | | 3.000 | | *Resultaat vennootschap A* | | *540[^122]*  | 
+| Vennootschappen waarop vermogensmutatie is toegepast | | 410[^123] | | *Resultaat vennootschap B[^124]*  | | *260[^125]*  | 
+| Liquide middelen | | 2.800 | | *Afschrijving consolidatieverschil* | | *-174[^126]*  | 
 | | | | | Leveranciers | | 1.160 | 
 | **Totaal** | | **6.986** | | **Totaal** | | **6.986** | 
 
@@ -1155,7 +1124,7 @@ Bij de consolidatie heeft de verhoging van de rubriek "Vennootschappen waarop ve
 | Terreinen | | 660 | | Geconsolideerde reserves | | 3.904 | 
 | Financiële vaste activa | | | | *Reserves vennootschap A* | | *3.100* | 
 | Verbonden ondernemingen | | 3.000 | | *Resultaat vennootschap A* | | *700* | 
-| Vennootschappen waarop vermogensmutatie is toegepast | | 430[^130] | | *Resultaat vennootschap B[^131] * | | *180[^132] * | 
+| Vennootschappen waarop vermogensmutatie is toegepast | | 430[^130] | | *Resultaat vennootschap B[^131]*  | | *180[^132]*  | 
 | Liquide middelen | | 2.300 | | *Afschrijving consolidatieverschil* | | *-116* | 
 | | | | | *Aandeel herwaarderingsmeerwaarden B* | | 40 | 
 | | | | | Leveranciers | | 1.160 | 

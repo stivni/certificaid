@@ -1,6 +1,70 @@
 ---
-nummer: CBN-advies 2015/1
+bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-tax-shelter-in-hoofde-van-de-investeerder
 datum: 2015-05-13
+gerelateerde_adviezen:
+  - datum: '2018-05-30'
+    titel: Tax shelter voor podiumkunsten
+    url: https://www.cbn-cnc.be/nl/adviezen/tax-shelter-voor-podiumkunsten
+  - datum: '1983-04-10'
+    titel: Verwerking in de boekhouding en de jaarrekening van de belastingbesparing ingevoerd door het K.B. nr. 16 van 9 maart 1982
+    url: https://www.cbn-cnc.be/nl/adviezen/verwerking-in-de-boekhouding-en-de-jaarrekening-van-de-belastingbesparing-ingevoerd-door
+nummer: CBN-advies 2015/1
+provenance:
+  generated_at: '2026-05-11T13:05:08Z'
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-tax-shelter-in-hoofde-van-de-investeerder
+      sha256: 67fafb8ab12a60b28c7bae3b215010737b1e7a8d288a71d0da5ef8114d159e0d
+      version:
+  stale: false
+  stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
+  trust:
+    confirmed_at: '2026-05-11T12:16:34Z'
+    confirmed_by: subagent-sonnet-4-6
+    layer1:
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:29Z'
+      heading_count: 11
+      max_section_chars: 6349
+      file_size_chars: 24470
+      flags: []
+    layer2:
+      agent: subagent-sonnet-4-6
+      concrete_problemen:
+        - categorie: B3
+          regel: 55
+          type: other
+          voorbeeld: '# **COMMISSIE VOOR BOEKHOUDKUNDIGE NORMEN**'
+        - categorie: B3
+          regel: 57
+          type: other
+          voorbeeld: '# **CBN-advies 2015/1 - Boekhoudkundige verwerking van de tax shelter...'
+        - categorie: D4
+          regel: 59
+          type: other
+          voorbeeld: '# **Advies van 13 mei 2015[^1] **'
+        - categorie: A6
+          regel: 83
+          type: other
+          voorbeeld: '*investerende vennootschap*[^7]\n (hierna: de investeerder)'
+        - categorie: D4
+          regel: 151
+          type: other
+          voorbeeld: rekening 6702 *Geraamde belastingen *wordt door de Commissie
+        - categorie: D3
+          regel: 144
+          type: other
+          voorbeeld: ' [^19]'
+      rationale: 'B3: drie duplicate #-level headings (regels 55–59) herhalen de advies-titel en datumaanduiding — typisch TOC-scrape-artefact. D4: malformed bold/italic op regels 59 en 151 (''*Geraamde belastingen *'' met spatie voor sluiter). A6: spurious line breaks na footnote-referenties (regels 83, 95, 100) waarbij de zin wordt afgebroken vóór het haakje.'
+      run_at: '2026-05-11T12:16:34Z'
+      status: needs-rework
+    rationale: 'B3: drie duplicate #-level headings (regels 55–59) herhalen de advies-titel en datumaanduiding — typisch TOC-scrape-artefact. D4: malformed bold/italic op regels 59 en 151 (''*Geraamde belastingen *'' met spatie voor sluiter). A6: spurious line breaks na footnote-referenties (regels 83, 95, 100) waarbij de zin wordt afgebroken vóór het haakje.'
+    status: needs-rework
 themas:
   - belastingbesparing
   - belastingvoordeel
@@ -8,79 +72,13 @@ themas:
   - Investeerder
   - Onaantastbaarheidsvoorwaarde
   - tax shelter
-bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-tax-shelter-in-hoofde-van-de-investeerder
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-tax-shelter-in-hoofde-van-de-investeerder
-      sha256: 67fafb8ab12a60b28c7bae3b215010737b1e7a8d288a71d0da5ef8114d159e0d
-      version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:36:47Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T12:16:34Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "B3: drie duplicate #-level headings (regels 55–59) herhalen de advies-titel en datumaanduiding — typisch TOC-scrape-artefact. D4: malformed bold/italic op regels 59 en 151 ('*Geraamde belastingen *' met spatie voor sluiter). A6: spurious line breaks na footnote-referenties (regels 83, 95, 100) waarbij de zin wordt afgebroken vóór het haakje."
-    layer1:
-      status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 11
-      max_section_chars: 6505
-      file_size_chars: 24672
-      flags: []
-    layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:16:34Z'
-      rationale: "B3: drie duplicate #-level headings (regels 55–59) herhalen de advies-titel en datumaanduiding — typisch TOC-scrape-artefact. D4: malformed bold/italic op regels 59 en 151 ('*Geraamde belastingen *' met spatie voor sluiter). A6: spurious line breaks na footnote-referenties (regels 83, 95, 100) waarbij de zin wordt afgebroken vóór het haakje."
-      concrete_problemen:
-        - regel: 55
-          categorie: B3
-          type: other
-          voorbeeld: '# **COMMISSIE VOOR BOEKHOUDKUNDIGE NORMEN**'
-        - regel: 57
-          categorie: B3
-          type: other
-          voorbeeld: '# **CBN-advies 2015/1 - Boekhoudkundige verwerking van de tax shelter...'
-        - regel: 59
-          categorie: D4
-          type: other
-          voorbeeld: '# **Advies van 13 mei 2015[^1] **'
-        - regel: 83
-          categorie: A6
-          type: other
-          voorbeeld: '*investerende vennootschap*[^7]\n (hierna: de investeerder)'
-        - regel: 151
-          categorie: D4
-          type: other
-          voorbeeld: rekening 6702 *Geraamde belastingen *wordt door de Commissie
-        - regel: 144
-          categorie: D3
-          type: other
-          voorbeeld: ' [^19]'
-gerelateerde_adviezen:
-  - titel: Tax shelter voor podiumkunsten
-    url: https://www.cbn-cnc.be/nl/adviezen/tax-shelter-voor-podiumkunsten
-    datum: '2018-05-30'
-  - titel: Verwerking in de boekhouding en de jaarrekening van de belastingbesparing ingevoerd door het K.B. nr. 16 van 9 maart 1982
-    url: https://www.cbn-cnc.be/nl/adviezen/verwerking-in-de-boekhouding-en-de-jaarrekening-van-de-belastingbesparing-ingevoerd-door
-    datum: '1983-04-10'
 ---
-
-# CBN-advies 2015/1 - Boekhoudkundige verwerking van de tax shelter in hoofde van de investeerder (raamovereenkomsten gesloten vanaf 1 januari 2015)
 
 # **COMMISSIE VOOR BOEKHOUDKUNDIGE NORMEN**
 
 # **CBN-advies 2015/1 - Boekhoudkundige verwerking van de tax shelter in hoofde van de investeerder (raamovereenkomsten gesloten vanaf 1 januari 2015)**
 
-# **Advies van 13 mei 2015[^1] **
+# **Advies van 13 mei 2015[^1]** 
 
 ## Inleiding
 
@@ -88,24 +86,20 @@ De *tax shelter* is een fiscale stimulans die in 2002 werd ingevoerd om de produ
 
 De regeling bestaat er in dat een fiscale vrijstelling wordt toegekend aan vennootschappen die financieel bijdragen aan de productie van een audiovisueel werk. In artikel 194ter van het Wetboek van de Inkomstenbelastingen 1992 (hierna: WIB 92) worden de voorwaarden, beperkingen en voorschriften van deze fiscale vrijstelling bepaald.
 
-Sinds de invoering van de tax shelter-regeling door de programmawet van 2 augustus 2002 werd deze regeling al verscheidene keren aangepast. Door de wet van 12 mei 2014 tot wijziging van artikel 194ter van het Wetboek van de inkomstenbelastingen 1992 betreffende het tax shelter-stelsel ten gunste van audiovisueel werk[^3]
- werden de voorschriften van het stelsel grondig hervormd om een einde te stellen aan een aantal vastgestelde excessen.[^4] 
+Sinds de invoering van de tax shelter-regeling door de programmawet van 2 augustus 2002 werd deze regeling al verscheidene keren aangepast. Door de wet van 12 mei 2014 tot wijziging van artikel 194ter van het Wetboek van de inkomstenbelastingen 1992 betreffende het tax shelter-stelsel ten gunste van audiovisueel werk[^3] werden de voorschriften van het stelsel grondig hervormd om een einde te stellen aan een aantal vastgestelde excessen.[^4] 
 
 Volgens de vorige regeling werd de deelname van de investerende vennootschap in de financiering van het werk voorzien in de vorm van een verwerving van rechten die verbonden zijn aan de productie en de exploitatie van het audiovisuele werk en eventueel in de vorm van leningen die werden toegekend aan de productievennootschap. Met het stelsel dat werd ingevoerd door de wet van 12 mei 2014 verwerft de investerende vennootschap een belastingvoordeel zonder daarvoor rechten te verwerven met betrekking tot de eigenlijke productie.
 
 De wet van 12 mei 2014 heeft eveneens:
 
-- een verplichte erkenning ingevoerd voor de productievennootschappen en voor de tussenpersonen (dit laatste begrip wordt voortaan omschreven in de wet);[^5]
- en 
+- een verplichte erkenning ingevoerd voor de productievennootschappen en voor de tussenpersonen (dit laatste begrip wordt voortaan omschreven in de wet);[^5] en 
 - de definities aangepast van de kwalificerende uitgaven. 
 
 Voor een volledig overzicht van de wijzigingen die door deze wet werden aangebracht in de fiscale regeling met betrekking tot de tax shelter wordt er verwezen naar de Memorie van toelichting bij de wet van 12 mei 2014.[^6] 
 
 ## Kort overzicht van het tax shelter-stelsel
 
-De *investerende vennootschap*[^7]
- (hierna: de investeerder) en de *productievennootschap*[^8]
- (hierna: de producent) sluiten een raamovereenkomst waarin de investeerder zich verbindt een bepaalde som te storten met het oog op het verkrijgen van een tax shelter-attest dat de producent belooft te verstrekken aan de investeerder. De producent meldt deze overeenkomst aan de FOD Financiën binnen de maand na de ondertekening ervan.
+De *investerende vennootschap*[^7] (hierna: de investeerder) en de* productievennootschap*[^8] (hierna: de producent) sluiten een raamovereenkomst waarin de investeerder zich verbindt een bepaalde som te storten met het oog op het verkrijgen van een tax shelter-attest dat de producent belooft te verstrekken aan de investeerder. De producent meldt deze overeenkomst aan de FOD Financiën binnen de maand na de ondertekening ervan.
 
 De investeerder verkrijgt een voorlopige fiscale vrijstelling vanaf het belastbaar tijdperk waarin de raamovereenkomst wordt ondertekend, ten belope van 310 % van de sommen waartoe hij zich heeft verbonden.[^9]
  Het bedrag dat kan worden vrijgesteld is, voor de investeerder, echter per belastbaar tijdperk beperkt tot:
@@ -116,13 +110,11 @@ De investeerder verkrijgt een voorlopige fiscale vrijstelling vanaf het belastba
 Het eventuele overschot van de vrijstelling kan achtereenvolgens worden overgedragen naar een volgend jaar tot het aanslagjaar verbonden aan het derde belastbare tijdperk dat volgt op het kalenderjaar waarin het tax shelter-attest is afgeleverd door de FOD Financiën aan de producent.[^11] 
 
 De producent kan de investeerder vergoeden door een bedrag te betalen dat berekend is op basis van de effectief uitgevoerde betalingen die worden verricht ter verkrijging van het tax shelter-attest pro rata van de verlopen dagen voor de periode vanaf de datum van de eerste betaling tot de datum van de aflevering van het tax shelter-attest, maar met een maximum van 18 maanden na de datum van de eerste betaling. Dit bedrag wordt berekend op basis van de maximumrente die gelijk is aan het gemiddelde van EURIBOR 12 maanden van de laatste dag van elke maand van het kalenderhalfjaar dat voorafgaat aan de betaling, verhoogd met 450 basispunten (hierna: vergoeding voor prefinanciering).[^12]
- De producent kan geen ander economisch of financieel voordeel[^13]
- toekennen dan een vermelding in de aftiteling van het in aanmerking komend werk.
+ De producent kan geen ander economisch of financieel voordeel[^13] toekennen dan een vermelding in de aftiteling van het in aanmerking komend werk.
 
 De waarborg tot voltooiing van het in aanmerking komend werk en de waarborg tot aflevering van het tax shelter-attest worden niet beschouwd als een economisch of financieel voordeel, voor zover de in aanmerking komende investeerder, in het geval dat hij zich beroept op deze waarborg, niet meer ontvangt dan het bedrag van de belastingen en de moratoire interesten die de investeerder verschuldigd is indien niet is voldaan aan de voorwaarden voor een definitieve vrijstelling.[^14] 
 
-Wanneer het audiovisuele werk[^15]
- is beëindigd, vraagt de producent aan de FOD Financiën om een tax shelter-attest af te leveren op basis van de kwalificerende productiekosten. Dit attest wordt slechts afgeleverd indien en in de mate dat de voorwaarden en beperkingen van het artikel 194*ter*, § 7 WIB 92 zijn nageleefd. De producent bezorgt vervolgens dit attest aan de investeerder.[^16] 
+Wanneer het audiovisuele werk[^15] is beëindigd, vraagt de producent aan de FOD Financiën om een tax shelter-attest af te leveren op basis van de kwalificerende productiekosten. Dit attest wordt slechts afgeleverd indien en in de mate dat de voorwaarden en beperkingen van het artikel 194*ter*, § 7 WIB 92 zijn nageleefd. De producent bezorgt vervolgens dit attest aan de investeerder.[^16] 
 
 De vrijstelling wordt definitief wanneer de investeerder een exemplaar van het verkregen tax shelter-attest voegt bij de aangifte van de vennootschapsbelasting of van de belasting niet-inwoners/vennootschappen. Het eventuele overschot wordt fiscaal beschouwd als een winst van het belastbaar tijdperk waarin het tax shelter-attest wordt afgeleverd.
 
@@ -165,14 +157,12 @@ Wanneer op inventarisdatum blijkt dat de investeerder voldoende winst heeft gema
 
 De boeking is dan als volgt:
 
- [^19]
-
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 6702X | Geraamde belastingen | 100 | |
 | aan | 499 | Wachtrekening | | 100 |
 
-Het gebruik van een gepaste subrekening van de rekening 6702 *Geraamde belastingen *wordt door de Commissie verantwoord als volgt:
+Het gebruik van een gepaste subrekening van de rekening 6702 *Geraamde belastingen* wordt door de Commissie verantwoord als volgt:
 
 In eerste instantie is de tax shelter-regeling een bijzonder stelsel dat de financiering van audiovisuele werken ondersteunt. Door de tax shelter-investering van 100 kan de investeerder een belastingbesparing verwezenlijken van 105,37 (33,99 % x 310). De tax shelter-investering van 100 is in economisch opzicht een soort ‘voorafbetaling van belastingen’. Bij deelname aan de tax shelter stort de investeerder namelijk een bedrag in ruil voor een vermindering van zijn te betalen inkomstenbelastingen. De tax shelter-regeling vertoont twee bijzonderheden:
 
@@ -191,8 +181,6 @@ Als de investeerder verwacht om in de nabije toekomst voldoende winst te kunnen 
 
 Indien een tax shelter-investering van bijvoorbeeld 100 ingevolge een te lage winst tijdens het belastbaar tijdperk slechts aanleiding geeft tot een belastingvrije winst van bijvoorbeeld 248 (in plaats van 310), wordt op inventarisdatum het volgende geboekt:
 
- [^21][^22]
-
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 6702X | Geraamde belastingen | 80 | |
@@ -202,8 +190,6 @@ Indien een tax shelter-investering van bijvoorbeeld 100 ingevolge een te lage wi
 Scenario 3 – Onvoldoende winst in huidig boekjaar en waarschijnlijk ook de volgende jaren
 
 Als de investeerder verwacht dat het resterende saldo van het belastingvoordeel verbonden aan de tax shelter-investering verloren zal gaan, is de investeerder verplicht om het resterende saldo geboekt op de wachtrekening, te boeken als een uitzonderlijke kost.
-
- [^23]
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
@@ -246,8 +232,6 @@ In het jaar waarin de raamovereenkomst wordt ondertekend, wordt het totale bedra
 
 Indien de investeerder een vergoeding ontvangt voor de prefinanciering, wordt het volgende geboekt:
 
- [^25]
-
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 5500 | Kredietinstellingen: rekening-courant | 5 | |
@@ -266,8 +250,7 @@ De investeerder kan in principe de belastingvrije reserves rechtstreeks overboek
 | | 132 | Belastingvrije reserves | 310 | |
 | aan | 789 | Onttrekkingen aan de belastingvrije reserves | | 310 |
 
-Vervolgens wordt de resultaatbestemming geboekt, bijvoorbeeld[^29]
- een toevoeging aan de beschikbare reserves.
+Vervolgens wordt de resultaatbestemming geboekt, bijvoorbeeld[^29] een toevoeging aan de beschikbare reserves.
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
@@ -288,8 +271,6 @@ Op het moment van het verlies van de vrijstelling, wordt het volgende geboekt[^3
 #### Ontvangst van de (eventueel) door de producent gewaarborgde bedragen
 
 Indien de producent aan de investeerder de voltooiing van het werk en de aflevering van het tax shelter-attest heeft gewaarborgd, dient hij aan de investeerder een bedrag te storten wanneer het tax shelter-attest niet wordt verkregen of voor een lager bedrag dan het in de raamovereenkomst vermelde bedrag. Dit bedrag is maximaal gelijk aan het maximum van de overeenkomstig artikel 194*ter*, § 11, eerste lid WIB 92 verschuldigde belastingen en moratoire interesten.
-
- [^31]
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|

@@ -2,60 +2,57 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/obligaties-met-warrant-0
 datum: 1990-06-01
 gerelateerde_adviezen:
-- datum: '2025-06-10'
-  titel: Financiële vaste activa - Waardering - Aanschaffingswaarde met prijstoeslag
-    (update) [ONTWERP]
-  url: https://www.cbn-cnc.be/nl/adviezen/financiele-vaste-activa-waardering-aanschaffingswaarde-met-prijstoeslag-update-ontwerp
-- datum: '2019-03-12'
-  titel: Dividenduitkering en kapitaalvermindering in natura
-  url: https://www.cbn-cnc.be/nl/adviezen/dividenduitkering-en-kapitaalvermindering-in-natura-0
-- datum: '2017-05-31'
-  titel: Opname van financiële vaste activa geboekt tegen een hoger bedrag dan hun
-    reële waarde in de toelichting van de jaarrekening
-  url: https://www.cbn-cnc.be/nl/adviezen/opname-van-financiele-vaste-activa-geboekt-tegen-een-hoger-bedrag-dan-hun-reele-waarde-in
-- datum: '2017-02-01'
-  titel: Gegeven borgtochten in contanten en effecten (update)
-  url: https://www.cbn-cnc.be/nl/adviezen/gegeven-borgtochten-in-contanten-en-effecten-update
+  - datum: '2025-06-10'
+    titel: Financiële vaste activa - Waardering - Aanschaffingswaarde met prijstoeslag (update) [ONTWERP]
+    url: https://www.cbn-cnc.be/nl/adviezen/financiele-vaste-activa-waardering-aanschaffingswaarde-met-prijstoeslag-update-ontwerp
+  - datum: '2019-03-12'
+    titel: Dividenduitkering en kapitaalvermindering in natura
+    url: https://www.cbn-cnc.be/nl/adviezen/dividenduitkering-en-kapitaalvermindering-in-natura-0
+  - datum: '2017-05-31'
+    titel: Opname van financiële vaste activa geboekt tegen een hoger bedrag dan hun reële waarde in de toelichting van de jaarrekening
+    url: https://www.cbn-cnc.be/nl/adviezen/opname-van-financiele-vaste-activa-geboekt-tegen-een-hoger-bedrag-dan-hun-reele-waarde-in
+  - datum: '2017-02-01'
+    titel: Gegeven borgtochten in contanten en effecten (update)
+    url: https://www.cbn-cnc.be/nl/adviezen/gegeven-borgtochten-in-contanten-en-effecten-update
 nummer: CBN-advies 139/5
 provenance:
-  generated_at: '2026-05-08T18:35:06Z'
+  generated_at: '2026-05-11T13:05:06Z'
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/obligaties-met-warrant-0
-    sha256: 1aee70e4105d459ef905cdaa50f31c213898395d930893f2ca763ff4304c8eda
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/obligaties-met-warrant-0
+      sha256: 1aee70e4105d459ef905cdaa50f31c213898395d930893f2ca763ff4304c8eda
+      version:
   stale: false
-  stale_reason: null
+  stale_reason:
   tooling:
-    model: null
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    prompt_version: null
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
   trust:
-    confirmed_at: '2026-05-08T19:02:29Z'
-    confirmed_by: subagent-laag2-ronde2
+    confirmed_at:
+    confirmed_by:
     layer1:
-      file_size_chars: 6406
-      flags: []
-      heading_count: 0
-      max_section_chars: 6406
-      run_at: null
-      run_id: 20260511-083333
       status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:26Z'
+      heading_count: 0
+      max_section_chars: 6404
+      file_size_chars: 6404
+      flags: []
     layer2:
-      agent: subagent-laag2-ronde2
+      agent:
       concrete_problemen: []
-      rationale: '[Laag-2-R2 2026-05-08] Volledig met drie methodes systematisch,
-        gemotiveerde conclusie voor derde (financiële) benadering.'
-      run_at: '2026-05-08T19:02:29Z'
-      status: trusted
-    rationale: Laag-2 trusted door subagent-laag2-ronde2 (zie layer2.rationale)
-    status: trusted
+      rationale:
+      run_at:
+      status: not_run
+    rationale: 'Trust gereset 2026-05-11: re-scrape met scraper-fixes, content-diff > 5%'
+    status: unreviewed
 themas:
-- financiële vaste activa
-- inschrijvingsrecht
-- obligaties
-- obligaties met warrant
-- warrant
+  - financiële vaste activa
+  - inschrijvingsrecht
+  - obligaties
+  - obligaties met warrant
+  - warrant
 ---
 
 # CBN-advies 139/5 - Obligaties met warrant
@@ -78,8 +75,7 @@ Volgens een tweede methode wordt de fractie bepaald van de aanschaffingswaarde d
 
 De boekwaarde van de warrant zal volgens de volgende formule worden berekend: 
 
-aanschaffingswaarde van de obligatie met warrant x [koers van de warrant / (koers van de obligatie ex-warrant + koers van de warrant)] 
-
+aanschaffingswaarde van de obligatie met warrant x [koers van de warrant / (koers van de obligatie ex-warrant + koers van de warrant)]
 Deze benadering, waarin wordt verondersteld dat beide effecten zijn genoteerd, kan worden gevolgd voor zover de afzondering van de warrant en de afzonderlijke notering van de twee effecten snel volg op de uitgifteperiode van de obligatie met warrant. In dat geval kan zij als extern uitgangspunt (de koers) dienen voor de volgende methode. 
 
 In een derde methode wordt ernaar gestreefd de aanschaffingswaarde van de vordering en van de warrant van bij het begin te bepalen. Bij het vaststellen van de uitgiftevoorwaarden is er immers een duidelijk onderling verband tussen de nominale rentevoet van de obligatie en de voorwaarden voor de uitoefening van de warrants. Bij voordelige uitoefeningsvoorwaarden voor de houder van de warrant, kan voor de obligaties een lagere rentevoet worden vastgesteld dan de marktrente voor gewone obligaties met dezelfde kenmerken. 

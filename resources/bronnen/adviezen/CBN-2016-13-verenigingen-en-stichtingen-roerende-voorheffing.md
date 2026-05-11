@@ -1,69 +1,69 @@
 ---
-nummer: CBN-advies 2016/13
-datum: 2016-07-06
-themas:
-  - roerende voorheffing
-  - toerekening van kosten en opbrengsten
-  - toerekeningsbeginsel
 bron: https://www.cbn-cnc.be/nl/adviezen/verenigingen-en-stichtingen-roerende-voorheffing
+datum: 2016-07-06
+gerelateerde_adviezen:
+  - datum: '2013-11-27'
+    titel: De boekhoudkundige verwerking met betrekking tot de toepassing van de overgangsregeling zoals vermeld in artikel 537 WIB 92
+    url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-met-betrekking-tot-de-toepassing-van-de-overgangsregeling
+  - datum: '1984-06-01'
+    titel: Boeking van de belastingen op het resultaat
+    url: https://www.cbn-cnc.be/nl/adviezen/boeking-van-de-belastingen-op-het-resultaat
+  - datum: '1998-03-01'
+    titel: 'Schulden uit de resultaatbestemming : dividenduitkering aan een onderneming die ten minste 25 % bezit van het kapitaal van de vennootschap die het dividend uitkeert'
+    url: https://www.cbn-cnc.be/nl/adviezen/schulden-uit-de-resultaatbestemming-dividenduitkering-aan-een-onderneming-die-ten-minste
+nummer: CBN-advies 2016/13
 provenance:
+  generated_at: '2026-05-11T13:05:08Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/verenigingen-en-stichtingen-roerende-voorheffing
       sha256: a429da8d0b7fd51c4e9fb99e3d9b487cf8cd7b50dea8dc8478aea7b801603b16
       version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:36:59Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
   trust:
-    status: needs-rework
     confirmed_at: '2026-05-11T12:16:34Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: Regels 101, 111, 121, 131 bevatten telkens een alleenstaande regel met meerdere voetnootverwijzingen aaneengesloten (' [^11][^12]', ' [^13][^14]', ' [^15][^16]', ' [^18][^19][^20][^21]') als losse alinea zonder zin — dit is het inline-footnote-artefact (G3) waarbij de PDF-voetnootmarkeringen zijn losgeraakt van hun ankerzin. Elke boekingregel in het voorbeeld heeft zijn voetnoten op een aparte lege regel boven de tabel gezet. Inhoud en tabellen zijn verder correct.
     layer1:
       status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 5
-      max_section_chars: 5932
-      file_size_chars: 9913
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:29Z'
+      heading_count: 9
+      max_section_chars: 4378
+      file_size_chars: 9842
       flags: []
     layer2:
-      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:16:34Z'
-      rationale: Regels 101, 111, 121, 131 bevatten telkens een alleenstaande regel met meerdere voetnootverwijzingen aaneengesloten (' [^11][^12]', ' [^13][^14]', ' [^15][^16]', ' [^18][^19][^20][^21]') als losse alinea zonder zin — dit is het inline-footnote-artefact (G3) waarbij de PDF-voetnootmarkeringen zijn losgeraakt van hun ankerzin. Elke boekingregel in het voorbeeld heeft zijn voetnoten op een aparte lege regel boven de tabel gezet. Inhoud en tabellen zijn verder correct.
       concrete_problemen:
-        - regel: 101
-          categorie: G3
+        - categorie: G3
+          regel: 101
           type: other
           voorbeeld: ' [^11][^12]'
-        - regel: 111
-          categorie: G3
+        - categorie: G3
+          regel: 111
           type: other
           voorbeeld: ' [^13][^14]'
-        - regel: 121
-          categorie: G3
+        - categorie: G3
+          regel: 121
           type: other
           voorbeeld: ' [^15][^16]'
-        - regel: 131
-          categorie: G3
+        - categorie: G3
+          regel: 131
           type: other
           voorbeeld: ' [^18][^19][^20][^21]'
-gerelateerde_adviezen:
-  - titel: De boekhoudkundige verwerking met betrekking tot de toepassing van de overgangsregeling zoals vermeld in artikel 537 WIB 92
-    url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-met-betrekking-tot-de-toepassing-van-de-overgangsregeling
-    datum: '2013-11-27'
-  - titel: Boeking van de belastingen op het resultaat
-    url: https://www.cbn-cnc.be/nl/adviezen/boeking-van-de-belastingen-op-het-resultaat
-    datum: '1984-06-01'
-  - titel: 'Schulden uit de resultaatbestemming : dividenduitkering aan een onderneming die ten minste 25 % bezit van het kapitaal van de vennootschap die het dividend uitkeert'
-    url: https://www.cbn-cnc.be/nl/adviezen/schulden-uit-de-resultaatbestemming-dividenduitkering-aan-een-onderneming-die-ten-minste
-    datum: '1998-03-01'
+      rationale: Regels 101, 111, 121, 131 bevatten telkens een alleenstaande regel met meerdere voetnootverwijzingen aaneengesloten (' [^11][^12]', ' [^13][^14]', ' [^15][^16]', ' [^18][^19][^20][^21]') als losse alinea zonder zin — dit is het inline-footnote-artefact (G3) waarbij de PDF-voetnootmarkeringen zijn losgeraakt van hun ankerzin. Elke boekingregel in het voorbeeld heeft zijn voetnoten op een aparte lege regel boven de tabel gezet. Inhoud en tabellen zijn verder correct.
+      run_at: '2026-05-11T12:16:34Z'
+      status: needs-rework
+    rationale: Regels 101, 111, 121, 131 bevatten telkens een alleenstaande regel met meerdere voetnootverwijzingen aaneengesloten (' [^11][^12]', ' [^13][^14]', ' [^15][^16]', ' [^18][^19][^20][^21]') als losse alinea zonder zin — dit is het inline-footnote-artefact (G3) waarbij de PDF-voetnootmarkeringen zijn losgeraakt van hun ankerzin. Elke boekingregel in het voorbeeld heeft zijn voetnoten op een aparte lege regel boven de tabel gezet. Inhoud en tabellen zijn verder correct.
+    status: needs-rework
+themas:
+  - roerende voorheffing
+  - toerekening van kosten en opbrengsten
+  - toerekeningsbeginsel
 ---
 
 # CBN-advies 2016/13 – Verenigingen en Stichtingen: roerende voorheffing
@@ -72,7 +72,8 @@ gerelateerde_adviezen:
 
 Onderhavig advies strekt ertoe te verduidelijken op welke wijze de financiële opbrengsten uit geldbeleggingen (hierna: “roerende inkomsten”) en de ingehouden roerende voorheffing op deze roerende inkomsten moeten worden opgenomen in de boekhouding van een vereniging zonder winstoogmerk, stichting of internationale vereniging zonder winstoogmerk zoals bedoeld in de artikelen 17, § 3, 37, § 3, 53, § 3 van de Wet van 27 juni 1921 betreffende de verenigingen zonder winstoogmerk, de internationale verenigingen zonder winstoogmerk en de stichtingen (hierna: grote vereniging(en) of stichting(en)).
 
-Een grote vereniging of stichting is verplicht[^2] om een boekhouding te voeren en een jaarrekening op te maken overeenkomstig de bepalingen van de Wet van 17 juli 1975 met betrekking tot de boekhouding van de ondernemingen.[^3] Een grote vereniging of stichting voert aldus haar boekhouding en maakt een jaarrekening op volgens de regels vermeld in het KB W.Venn. doch mits[^4] de aanpassingen waarin voorzien in het KB van 19 december 2003 betreffende de boekhoudkundige verplichtingen en de openbaarmaking van de jaarrekening van bepaalde verenigingen zonder winstoogmerk, internationale verenigingen zonder winstoogmerk en stichtingen.
+Een grote vereniging of stichting is verplicht[^2] om een boekhouding te voeren en een jaarrekening op te maken overeenkomstig de bepalingen van de Wet van 17 juli 1975 met betrekking tot de boekhouding van de ondernemingen.[^3]
+ Een grote vereniging of stichting voert aldus haar boekhouding en maakt een jaarrekening op volgens de regels vermeld in het KB W.Venn. doch mits[^4] de aanpassingen waarin voorzien in het KB van 19 december 2003 betreffende de boekhoudkundige verplichtingen en de openbaarmaking van de jaarrekening van bepaalde verenigingen zonder winstoogmerk, internationale verenigingen zonder winstoogmerk en stichtingen.
 
 ## Boeking van het brutobedrag
 
@@ -83,7 +84,8 @@ Het is voor een grote vereniging of stichting bijgevolg niet toegelaten om de in
 
 ## Toerekening van kosten en opbrengsten aan het boekjaar waarop zij betrekking hebben
 
-Artikel 33, tweede lid KB W.Venn. verplicht om de kosten en de opbrengsten die op een boekjaar betrekking hebben op te nemen in de jaarrekening en dit ongeacht de dag waarop deze kosten en opbrengsten worden betaald of geïnd.[^7] Bijgevolg moeten de vennootschappen voor rentedragende tegoeden de pro rata van gelopen interesten en de toepasselijke roerende voorheffing, die op vervaldag betaalbaar zijn, ten laatste op balansdatum respectievelijk in opbrengsten en in kosten boeken.[^8] 
+Artikel 33, tweede lid KB W.Venn. verplicht om de kosten en de opbrengsten die op een boekjaar betrekking hebben op te nemen in de jaarrekening en dit ongeacht de dag waarop deze kosten en opbrengsten worden betaald of geïnd.[^7]
+ Bijgevolg moeten de vennootschappen voor rentedragende tegoeden de pro rata van gelopen interesten en de toepasselijke roerende voorheffing, die op vervaldag betaalbaar zijn, ten laatste op balansdatum respectievelijk in opbrengsten en in kosten boeken.[^8] 
 
 Dit principe geldt onverkort voor een grote vereniging of stichting aangezien het voormelde KB van 19 december 2003 dienaangaande niet voorziet in een afwijkende regeling.
 
@@ -97,50 +99,44 @@ De Commissie merkt hierbij op dat wanneer de opbrengsten of de kosten in belangr
 
 Een grote vereniging of stichting die haar jaarrekening afsluit op 31 maart belegt op 1 april 2011 in een kapitalisatiebon op 5 jaar voor een bedrag van 10.000. De toegepaste interestvoet bedraagt 3 procent.
 
-**Boeking bij verwerving**
+## Boeking bij verwerving
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 520 | Vastrentende effecten | 10.000 |  |
-| aan | 5500 | Kredietinstellingen: rekening-courant |  | 10.000 |
+| | 520 | Vastrentende effecten | 10.000 | |
+| aan | 5500 | Kredietinstellingen: rekening-courant | | 10.000 |
 
-**Boeking op 31/03/2012 (tarief roerende voorheffing bedraagt 15 procent)**
+## Boeking op 31/03/2012 (tarief roerende voorheffing bedraagt 15 procent)
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 520 | Vastrentende effecten | 255 |  |
-|  | 6702 | Roerende voorheffing | 45 |  |
-| aan | 751 | Opbrengsten uit vlottende activa |  | 300 |
+| | 520 | Vastrentende effecten | 255 | |
+| | 6702 | Roerende voorheffing | 45 | |
+| aan | 751 | Opbrengsten uit vlottende activa | | 300 |
 
 **Boeking op 31/03/2013 (tarief roerende voorheffing bedraagt 25[^10] procent)**
 
- [^11][^12]
+| | Rekening | Omschrijving | Debet | Credit |
+|---|----------|--------------|-------|--------|
+| | 520 | Vastrentende effecten | 201,75 | |
+| | 6702 | Roerende voorheffing | 107,25 | |
+| aan | 751 | Opbrengsten uit vlottende activa | | 309 |
+
+## Boeking op 31/03/2014 (tarief roerende voorheffing bedraagt 25 procent)
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 520 | Vastrentende effecten | 201,75 |  |
-|  | 6702 | Roerende voorheffing | 107,25 |  |
-| aan | 751 | Opbrengsten uit vlottende activa |  | 309 |
+| | 520 | Vastrentende effecten | 238,70 | |
+| | 6702 | Roerende voorheffing | 79,57 | |
+| aan | 751 | Opbrengsten uit vlottende activa | | 318,27 |
 
-**Boeking op 31/03/2014 (tarief roerende voorheffing bedraagt 25 procent)**
-
- [^13][^14]
+## Boeking op 31/03/2015 (tarief roerende voorheffing bedraagt 25 procent)
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 520 | Vastrentende effecten | 238,70 |  |
-|  | 6702 | Roerende voorheffing | 79,57 |  |
-| aan | 751 | Opbrengsten uit vlottende activa |  | 318,27 |
-
-**Boeking op 31/03/2015 (tarief roerende voorheffing bedraagt 25 procent)**
-
- [^15][^16]
-
-| | Rekening | Omschrijving | Debet | Credit |
-|---|----------|--------------|-------|--------|
-|  | 520 | Vastrentende effecten | 245,89 |  |
-|  | 6702 | Roerende voorheffing | 81,93 |  |
-| aan | 751 | Opbrengsten uit vlottende activa |  | 327,82 |
+| | 520 | Vastrentende effecten | 245,89 | |
+| | 6702 | Roerende voorheffing | 81,93 | |
+| aan | 751 | Opbrengsten uit vlottende activa | | 327,82 |
 
 **Boeking bij afloop op 31/03/2016 (tarief roerende voorheffing bedraagt 27[^17] procent)**
 
@@ -148,10 +144,10 @@ Een grote vereniging of stichting die haar jaarrekening afsluit op 31 maart bele
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 5500 | Kredietinstellingen: rekening-courant | 11.162,70 |  |
-|  | 6702 | Roerende voorheffing | 116,27 |  |
-| aan | 751 | Opbrengsten uit vlottende activa |  | 337,65 |
-|  | 520 | Vastrentende effecten | 10.941,34 |  |
+| | 5500 | Kredietinstellingen: rekening-courant | 11.162,70 | |
+| | 6702 | Roerende voorheffing | 116,27 | |
+| aan | 751 | Opbrengsten uit vlottende activa | | 337,65 |
+| | 520 | Vastrentende effecten | 10.941,34 | |
 
 [^1]: Onderhavig advies is tot stand gekomen nadat een ontwerp van het advies op 19 mei 2016 ter consultatie werd gepubliceerd op de website van de CBN.
 

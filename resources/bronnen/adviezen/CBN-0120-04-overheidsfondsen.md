@@ -2,71 +2,68 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/overheidsfondsen
 datum: 1984-01-01
 gerelateerde_adviezen:
-- datum: '2025-06-10'
-  titel: Financiële vaste activa - Waardering - Aanschaffingswaarde met prijstoeslag
-    (update) [ONTWERP]
-  url: https://www.cbn-cnc.be/nl/adviezen/financiele-vaste-activa-waardering-aanschaffingswaarde-met-prijstoeslag-update-ontwerp
-- datum: '2019-03-12'
-  titel: Dividenduitkering en kapitaalvermindering in natura
-  url: https://www.cbn-cnc.be/nl/adviezen/dividenduitkering-en-kapitaalvermindering-in-natura-0
-- datum: '2017-05-31'
-  titel: Opname van financiële vaste activa geboekt tegen een hoger bedrag dan hun
-    reële waarde in de toelichting van de jaarrekening
-  url: https://www.cbn-cnc.be/nl/adviezen/opname-van-financiele-vaste-activa-geboekt-tegen-een-hoger-bedrag-dan-hun-reele-waarde-in
-- datum: '2017-02-01'
-  titel: Gegeven borgtochten in contanten en effecten (update)
-  url: https://www.cbn-cnc.be/nl/adviezen/gegeven-borgtochten-in-contanten-en-effecten-update
+  - datum: '2025-06-10'
+    titel: Financiële vaste activa - Waardering - Aanschaffingswaarde met prijstoeslag (update) [ONTWERP]
+    url: https://www.cbn-cnc.be/nl/adviezen/financiele-vaste-activa-waardering-aanschaffingswaarde-met-prijstoeslag-update-ontwerp
+  - datum: '2019-03-12'
+    titel: Dividenduitkering en kapitaalvermindering in natura
+    url: https://www.cbn-cnc.be/nl/adviezen/dividenduitkering-en-kapitaalvermindering-in-natura-0
+  - datum: '2017-05-31'
+    titel: Opname van financiële vaste activa geboekt tegen een hoger bedrag dan hun reële waarde in de toelichting van de jaarrekening
+    url: https://www.cbn-cnc.be/nl/adviezen/opname-van-financiele-vaste-activa-geboekt-tegen-een-hoger-bedrag-dan-hun-reele-waarde-in
+  - datum: '2017-02-01'
+    titel: Gegeven borgtochten in contanten en effecten (update)
+    url: https://www.cbn-cnc.be/nl/adviezen/gegeven-borgtochten-in-contanten-en-effecten-update
 nummer: CBN-advies 120/4
 provenance:
-  generated_at: '2026-05-08T18:34:29Z'
+  generated_at: '2026-05-11T13:05:05Z'
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/overheidsfondsen
-    sha256: 15a694b2be8548376b7e9370809fd2a0bc3a62b4af1aa92042f8652d46fd6d96
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/overheidsfondsen
+      sha256: 15a694b2be8548376b7e9370809fd2a0bc3a62b4af1aa92042f8652d46fd6d96
+      version:
   stale: false
-  stale_reason: null
+  stale_reason:
   tooling:
-    model: null
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    prompt_version: null
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
   trust:
-    confirmed_at: '2026-05-08T19:02:29Z'
-    confirmed_by: subagent-laag2-ronde2
+    confirmed_at:
+    confirmed_by:
     layer1:
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:25Z'
+      heading_count: 2
+      max_section_chars: 2776
       file_size_chars: 6801
       flags: []
-      heading_count: 0
-      max_section_chars: 6801
-      run_at: null
-      run_id: 20260511-083333
-      status: pass
     layer2:
-      agent: subagent-laag2-ronde2
+      agent:
       concrete_problemen: []
-      rationale: '[Laag-2-R2 2026-05-08] Volledig met expliciete tweedeling (gewone
-        ondernemingen vs. financiële sector), opsomming activa-categorieën.'
-      run_at: '2026-05-08T19:02:29Z'
-      status: trusted
-    rationale: Laag-2 trusted door subagent-laag2-ronde2 (zie layer2.rationale)
-    status: trusted
+      rationale:
+      run_at:
+      status: not_run
+    rationale: 'Trust gereset 2026-05-11: re-scrape met scraper-fixes, content-diff > 5%'
+    status: unreviewed
 themas:
-- financiële vaste activa
-- geldbeleggingen
-- liquide middelen
-- overheidsfondsen
-- vastrentende effecten
+  - financiële vaste activa
+  - geldbeleggingen
+  - liquide middelen
+  - overheidsfondsen
+  - vastrentende effecten
 ---
 
 # CBN-advies 120/4 - Overheidsfondsen
 
-Aan de Commissie werd de vraag gesteld of fondsen uitgegeven door de Belgische Staat, in hoofde van de ondernemingen die ze bezitten, noodzakelijk als *Geldbeleggingen *moeten worden beschouwd. 
+Aan de Commissie werd de vraag gesteld of fondsen uitgegeven door de Belgische Staat, in hoofde van de ondernemingen die ze bezitten, noodzakelijk als *Geldbeleggingen* moeten worden beschouwd. 
 
 Hoewel de vraag onrechtstreeks betrekking had op één van de voorwaarden bepaald door het koninklijk besluit nr. 15, gewijzigd door het koninklijk besluit nr. 150, tot aanmoediging van de inschrijving op of de aankoop van aandelen of bewijzen van deelgerechtigdheid in Belgische vennootschappen, heeft de Commissie deze vraag enkel onderzocht in het licht van de boekhoudwetgeving. De interpretatie van andere wettelijke of reglementaire bepalingen, zoals inzake fiscaliteit, behoort immers niet tot haar bevoegdheid. Zij heeft volgend advies verstrekt. 
 
 Er moet een onderscheid worden gemaakt naargelang het gaat om ondernemingen waarop al dan niet, rechtstreeks of krachtens een verwijzingsbepaling, het besluit van 8 oktober 1976 betreffende de jaarrekening van de ondernemingen van toepassing is. Vallen buiten de toepassingssfeer van dit besluit, de kredietinstellingen (banken, openbare kredietinstellingen, spaarkassen en ondernemingen waarvoor hoofdstuk I van de wet van 10 juni 1964 geldt) evenals de erkende verzekeringsondernemingen. 
 
-**I. ONDERNEMINGEN WAAROP HET BESLUIT VAN 8 OKTOBER 1976 TOEPASSELIJK IS **
+### I. ONDERNEMINGEN WAAROP HET BESLUIT VAN 8 OKTOBER 1976 TOEPASSELIJK IS 
 
 Voor deze ondernemingen moeten overheidsfondsen krachtens het besluit steeds worden beschouwd als geldbeleggingen, welke als dusdanig moeten worden geboekt in de actiefrubriek VIII *Geldbeleggingen*. 
 
@@ -84,11 +81,11 @@ Naast deze argumenten uit de tekst zelf is er ook het feit dat, zoals in de vier
 
 In de schema's van de vierde richtlijn van de Commissie van de Europese Gemeenschappen is de overeenstemmende rubriek D.III, *Effecten, 3° Overige effecten*. 
 
-**II. ONDERNEMINGEN WAAROP HET BESLUIT VAN 8 OKTOBER 1976 NIET TOEPASSELIJK IS **
+### II. ONDERNEMINGEN WAAROP HET BESLUIT VAN 8 OKTOBER 1976 NIET TOEPASSELIJK IS 
 
 In de ondernemingen uit de financiële sector, waarop het besluit van 8 oktober 1976 niet toepasselijk is, hebben overheidsfondsen een ander kenmerk, verbonden aan de aard van het bedrijf. In deze ondernemingen vormen zij meestal de in bepaalde gevallen wettelijk verplichte tegenwaarde van verbintenissen tegenover derden voortvloeiend uit technische voorzieningen of wiskundige voorzieningen (verzekeringsondernemingen), spaarfondsen (spaarkassen) of cliëntendeposito's (banken en openbare kredietinstellingen). Bij deze ondernemingen gaat het er niet om tijdelijke geldoverschotten te beleggen, doch hoofdzakelijk om een tegenwaarde te vormen voor verbintenissen tegenover derden. 
 
-Terzake bepaalt het koninklijk besluit van 12 november 1979 betreffende de jaarrekening van de verzekeringsondernemingen, dat vastrentende effecten worden gerangschikt in twee aparte rubrieken : enerzijds de rubriek V. *Onroerende goederen en effecten bestemd voor belegging* B. *Roerende waarden,* 2.* Vastrentende effecten; *anderzijds de rubriek IX. *Thesauriebeleggingen *A. *Genoteerde vastrentende effecten* of B. *Overige*. 
+Terzake bepaalt het koninklijk besluit van 12 november 1979 betreffende de jaarrekening van de verzekeringsondernemingen, dat vastrentende effecten worden gerangschikt in twee aparte rubrieken : enerzijds de rubriek V. *Onroerende goederen en effecten bestemd voor belegging* B. *Roerende waarden,* 2.* Vastrentende effecten; *anderzijds de rubriek IX.* Thesauriebeleggingen *A.* Genoteerde vastrentende effecten* of B. *Overige*. 
 
 Volgens de omschrijvingen in dit besluit bevat de rubriek V.B.2. *Vastrentende effecten* de vastrentende effecten, andere dan deze die geklasseerd worden onder de *Thesauriebeleggingen*. In verband hiermee zegt het besluit dat onder : 
 

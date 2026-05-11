@@ -1,6 +1,39 @@
 ---
-nummer: CBN-advies 173/8
+bron: https://www.cbn-cnc.be/nl/adviezen/aanvullende-aspecten-in-verband-met-de-boekhoudkundige-verwerking-van
 datum: 1999-02-01
+nummer: CBN-advies 173/8
+provenance:
+  generated_at: '2026-05-11T13:05:06Z'
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/aanvullende-aspecten-in-verband-met-de-boekhoudkundige-verwerking-van
+      sha256: 878ca1049fadc02cc82f266a5b5ad4227e34e1134ca9e1336da3f1a305b8c127
+      version:
+  stale: false
+  stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
+  trust:
+    confirmed_at:
+    confirmed_by:
+    layer1:
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:26Z'
+      heading_count: 6
+      max_section_chars: 7434
+      file_size_chars: 16241
+      flags: []
+    layer2:
+      agent:
+      concrete_problemen: []
+      rationale:
+      run_at:
+      status: not_run
+    rationale: 'Trust gereset 2026-05-11: re-scrape met scraper-fixes, content-diff > 5%'
+    status: unreviewed
 themas:
   - verwerking van afrondingsverschillen
   - afronding
@@ -10,63 +43,6 @@ themas:
   - invoering van de euro
   - omrekeningskoers
   - overschakeling op de euro
-bron: https://www.cbn-cnc.be/nl/adviezen/aanvullende-aspecten-in-verband-met-de-boekhoudkundige-verwerking-van
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/aanvullende-aspecten-in-verband-met-de-boekhoudkundige-verwerking-van
-      sha256: 878ca1049fadc02cc82f266a5b5ad4227e34e1134ca9e1336da3f1a305b8c127
-      version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:35:42Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T12:09:17Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "Drie problemen: (1) G1/HTML-rest: r.152 bevat '/ TD>' als ruw HTML-fragment midden in een tabelcel ('Handelsdebiteuren/ TD>'). (2) A9/tikfout: r.156 'afrondingsverchil' (ontbrekende 's'). (3) B2: heading-hiërarchie springt van # naar #### (r.66) en dan naar ###### (r.130) zonder tussenliggende ##/###-niveaus. (4) C3: de balans-tabel op r.109-128 heeft onregelmatige kolommen met inline spacing die niet als valide markdown-tabel is opgebouwd. (5) A6: r.164 heeft een losstaande regel '\\n\\nervan ook de mogelijkheid...' die een alinea-breuk toont."
-    layer1:
-      status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 3
-      max_section_chars: 7430
-      file_size_chars: 16243
-      flags: []
-    layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:09:17Z'
-      rationale: "Drie problemen: (1) G1/HTML-rest: r.152 bevat '/ TD>' als ruw HTML-fragment midden in een tabelcel ('Handelsdebiteuren/ TD>'). (2) A9/tikfout: r.156 'afrondingsverchil' (ontbrekende 's'). (3) B2: heading-hiërarchie springt van # naar #### (r.66) en dan naar ###### (r.130) zonder tussenliggende ##/###-niveaus. (4) C3: de balans-tabel op r.109-128 heeft onregelmatige kolommen met inline spacing die niet als valide markdown-tabel is opgebouwd. (5) A6: r.164 heeft een losstaande regel '\\n\\nervan ook de mogelijkheid...' die een alinea-breuk toont."
-      concrete_problemen:
-        - regel: 66
-          categorie: B2
-          type: other
-          voorbeeld: '# direct naar #### zonder ## en ### tussenniveaus'
-        - regel: 109
-          categorie: C3
-          type: pseudo-table
-          voorbeeld: '| 100 | | Kapitaal | | | | 150 | (ongelijke kolomindeling, geen markdown-tabel)'
-        - regel: 130
-          categorie: B2
-          type: other
-          voorbeeld: '###### Overschakeling van de boekhouding op de euro op 1/5/99 (6 hashes)'
-        - regel: 152
-          categorie: G1
-          type: url-plaintext
-          voorbeeld: '| | 400 | Handelsdebiteuren/ TD> | 10,61 | | (HTML-fragment)'
-        - regel: 156
-          categorie: A9
-          type: ocr-confusion
-          voorbeeld: '| | 65 | afrondingsverchil | 0,01 | |'
-        - regel: 162
-          categorie: E2
-          type: other
-          voorbeeld: '| | 71,18 | 71,18 | | | (nummers als cellen in lege tabelrij)'
 ---
 
 # CBN-advies 173/8 - Aanvullende aspecten in verband met de boekhoudkundige verwerking van afrondingsverschillen bij conversie
@@ -77,14 +53,11 @@ Het leek de Commissie daarom aangebracht om, in de vorm van een samenvatting, de
 
 - Allereerst moet worden gewezen op het feit dat de regels inzake omrekening in euro of in Belgische frank van te betalen of te boeken geldbedragen die in Belgische frank of in euro zijn uitgedrukt, verplichtend geregeld zijn in, enerzijds de artikelen 4 en 5 van de Verordening van de Raad van Europa van 17 juni 1997 over de vaststelling van sommige bepalingen betreffende de invoering van de euro en, anderzijds, de artikelen 3, 4 en 6 van de wet van 30 oktober 1998 betreffende de euro. 
 
-Artikel 3 van de wet betreffende de euro bepaalt dat "de te betalen of te boeken geldbedragen die in Belgische frank zijn uitgedrukt en in euro worden omgerekend, bij omrekening in euro worden afgerond op de tweede decimaal, overeenkomstig de artikelen 4 en 5 van de verordening van de Europese Raad van 17 juni 1997 over enkele bepalingen betreffende de invoering van de euro"[^1]. 
-
-Artikel 4 van dezelfde wet bepaalt dat "elk te betalen of te boeken geldbedrag dat in euro is uitgedrukt en moet worden omgerekend in Belgische frank, wordt omgerekend overeenkomstig artikel 4 van de bovenbedoelde Europese verordening en, na omrekening, wordt afgerond op de frank naar boven of naar beneden, naargelang het bedrag na de komma hoger of gelijk is aan vijftig centiemen, enerzijds, of lager dan vijftig centiemen, anderzijds". 
-
+Artikel 3 van de wet betreffende de euro bepaalt dat "de te betalen of te boeken geldbedragen die in Belgische frank zijn uitgedrukt en in euro worden omgerekend, bij omrekening in euro worden afgerond op de tweede decimaal, overeenkomstig de artikelen 4 en 5 van de verordening van de Europese Raad van 17 juni 1997 over enkele bepalingen betreffende de invoering van de euro"[^1].
+Artikel 4 van dezelfde wet bepaalt dat "elk te betalen of te boeken geldbedrag dat in euro is uitgedrukt en moet worden omgerekend in Belgische frank, wordt omgerekend overeenkomstig artikel 4 van de bovenbedoelde Europese verordening en, na omrekening, wordt afgerond op de frank naar boven of naar beneden, naargelang het bedrag na de komma hoger of gelijk is aan vijftig centiemen, enerzijds, of lager dan vijftig centiemen, anderzijds".
 Artikel 6 van dezelfde wet bepaalt dat "het vastgestelde verschil van één cent tussen het oorspronkelijke bedrag van een in euro uitgedrukte vordering en het resultaat van de opeenvolgende omrekening van die vordering in frank en, nadien, in euro, geen weerslag heeft op het bevrijdende karakter van de betaling of de nauwkeurigheid van de boeking van de oorspronkelijke vordering op rekening, wanneer dat verschil voortvloeit uit de normale toepassing van de in de artikelen 4 en 5 van de bovenbedoelde verordening omschreven voorschriften voor omrekening en afronding. Dat verschil geeft geen aanleiding tot vergoeding". 
 
-Die verschillende voorschriften maakten trouwens al in november 1997 het voorwerp uit van een publicatie van het Commissariaat-generaal voor de euro met als titel: "Aanbevelingen betreffende omrekeningen en afrondingen". 
-
+Die verschillende voorschriften maakten trouwens al in november 1997 het voorwerp uit van een publicatie van het Commissariaat-generaal voor de euro met als titel: "Aanbevelingen betreffende omrekeningen en afrondingen".
 - In dat kader is de Commissie van oordeel dat een onderscheid moet worden gemaakt tussen, enerzijds, de problematiek van de overschakeling van de boekhouding van de Belgische frank op de euro en, anderzijds, de verwerking van de afrondingsverschillen bij conversie die zich voordoen tijdens de overgangsperiode, (gaande van 1 januari 1999 tot uiterlijk 31 december 2001) omwille van het feit dat een onderneming verrichtingen zou afsluiten of doorvoeren in een andere monetaire uitdrukking dan BEF of EUR waarin zij haar boekhouding voert. 
 
 #### I.v.m. de verwerking van afrondingsverschillen bij conversie ingevolge de overschakeling van de boekhouding op de euro
@@ -102,7 +75,7 @@ Volgend voorbeeld kan hier aangehaald worden.
 
 Stel dat een onderneming (bij de overschakeling van haar boekhouding op de euro) vorderingen heeft geboekt op vier klanten ten belope van respectievelijk 1205, 1300, 500 en 600 BEF.
 
-Op basis van de officiële omrekeningskoers (BEF/EUR) van 40,3399, ziet de overschakeling van de MAR¬rekening 400 "Handelsdebiteuren" er als volgt uit:
+Op basis van de officiële omrekeningskoers (BEF/EUR) van 40,3399, ziet de overschakeling van de MAR-rekening 400 "Handelsdebiteuren" er als volgt uit:
 
 | | | **BEF** | | **EUR** | 
 | Klant A | | 1.205 | | 29,87 | 
@@ -118,8 +91,7 @@ Op de dag waarop een onderneming besluit haar boekhouding over te schakelen van 
 
 In dit opzicht is het aan te bevelen die overschakeling door één enkele boeking op te tekenen, waardoor: 
 
-- alle rekeningen in Belgische frank worden afgesloten en in EUR heropend. De totaalsom van de verrichtingen sinds het begin van het betrokken boekjaar wordt rubriek per rubriek tegen de officiële omrekeningskoers[^3]
- omgerekend; 
+- alle rekeningen in Belgische frank worden afgesloten en in EUR heropend. De totaalsom van de verrichtingen sinds het begin van het betrokken boekjaar wordt rubriek per rubriek tegen de officiële omrekeningskoers[^3] omgerekend; 
 - de afrondingsverschillen bij conversie en in het bijzonder de verschillen uit de afrondingen van, respectievelijk, de saldi van de afzonderlijke rekeningen, van de algemene subrekeningen en de algemene rekeningen van de totalen en van de tussentotalen worden verwerkt via een rekening of subrekening 65/75 van de resultatenrekening. Dit impliceert dat alle posten (of het nu gaat om afzonderlijke saldi, tussentotalen of eindtotalen) aan de officiële omrekeningskoers worden omgerekend en vervolgens op de dichtst bijzijnde lagere of hogere eurocent afgerond. 
 
 In overeenstemming met de voornoemde Europese verordening en de wet, moeten de saldi die een relatie met derden uitdrukken conform de omrekeningskoers en zonder enige verdere aanpassing worden omgerekend. Dit impliceert dat indien een verschil zou worden vastgesteld (tussen, enerzijds, de som van de omrekeningen van de afzonderlijke saldi en, anderzijds, de omrekening van het totaal of van het sub-totaal) laatstgenoemd bedrag zou worden aangepast. 
@@ -132,7 +104,7 @@ Vennootschap A besluit haar boekhouding op 1 mei 1999 op de euro over te schakel
 
 | 
 
-**Balans in BEF op 30/4/99** 
+## Balans in BEF op 30/4/99
 
  | | **Tegenwaarde in EUR, afgerond op de 2de decimaal** | 
 | 100 | | Kapitaal | | | | 150 | | | | 3,72 | 
@@ -153,7 +125,7 @@ Vennootschap A besluit haar boekhouding op 1 mei 1999 op de euro over te schakel
 
 ###### Overschakeling van de boekhouding op de euro op 1/5/99 
 
-*A. Afsluiting van de boekhouding in BEF *
+### *A. Afsluiting van de boekhouding in BEF* 
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
@@ -168,7 +140,7 @@ Vennootschap A besluit haar boekhouding op 1 mei 1999 op de euro over te schakel
 | | 61 | Diensten en diverse goederen | 1132 | |
 | | 6302 | Afschrijvingen op materiële vaste activa | 48 | |
 
-*B. (Her)opening van de boekhouding in EUR *
+### *B. (Her)opening van de boekhouding in EUR* 
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
@@ -187,8 +159,7 @@ Vennootschap A besluit haar boekhouding op 1 mei 1999 op de euro over te schakel
 
 Ondernemingen naar Belgisch recht hebben tijdens de gehele duur van de overgangsperiode of een gedeelte 
 
-ervan ook de mogelijkheid, overeenkomstig punt C van advies 173/1[^4]
- om hun boekhouding verder in nationale munt te blijven voeren en bij de afsluiting van elk boekjaar, de cijfers van de proef- en saldibalans waaruit de balans en de resultatenrekening en de gegevens van de toelichting voortvloeien, in euro om te rekenen, zonder toevoeging noch weglating. 
+ervan ook de mogelijkheid, overeenkomstig punt C van advies 173/1[^4] om hun boekhouding verder in nationale munt te blijven voeren en bij de afsluiting van elk boekjaar, de cijfers van de proef- en saldibalans waaruit de balans en de resultatenrekening en de gegevens van de toelichting voortvloeien, in euro om te rekenen, zonder toevoeging noch weglating. 
 
 Maakt een vennootschap dergelijke keuze, dan zou de opstelling van de verschillende betrokken jaarrekeningen in EUR tot conversieafrondingsverschillen tussen de aktief- en passieftotalen kunnen leiden. In die veronderstelling mag dit verschil niet worden ingeschreven op rekening 65/75 maar op de de meest aangewezen balansrubriek.
 

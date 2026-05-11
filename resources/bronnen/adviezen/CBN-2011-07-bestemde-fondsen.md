@@ -1,6 +1,47 @@
 ---
-nummer: CBN-advies 2011/7
+bron: https://www.cbn-cnc.be/nl/adviezen/bestemde-fondsen
 datum: 2011-04-06
+gerelateerde_adviezen:
+  - datum: '2021-11-22'
+    titel: 'Verenigingen en stichtingen: compensatie van negatieve fondsen'
+    url: https://www.cbn-cnc.be/nl/adviezen/verenigingen-en-stichtingen-compensatie-van-negatieve-fondsen
+nummer: CBN-advies 2011/7
+provenance:
+  generated_at: '2026-05-11T13:05:08Z'
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/bestemde-fondsen
+      sha256: aaf3d6eb8ebd7055b7296f9ee9efb1f17a8c0e2814922dfdda9aee7efb275a30
+      version:
+  stale: false
+  stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
+  trust:
+    confirmed_at: '2026-05-11T12:09:18Z'
+    confirmed_by: subagent-sonnet-4-6
+    layer1:
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:28Z'
+      heading_count: 3
+      max_section_chars: 2826
+      file_size_chars: 8712
+      flags: []
+    layer2:
+      agent: subagent-sonnet-4-6
+      concrete_problemen:
+        - categorie: D3
+          regel: 71
+          type: other
+          voorbeeld: ' [^4]'
+      rationale: 'D3: op regel 71 staat een orphaned `[^4]` als standalone regel tussen twee alinea''s — een losstaande voetnootreferentie zonder bijbehorende zin, typisch extractie-artefact waarbij de callout in de PDF los van de tekst stond. Verdere inhoud compleet, headings correct, tabellen in pipe-syntax.'
+      run_at: '2026-05-11T12:09:18Z'
+      status: needs-rework
+    rationale: 'D3: op regel 71 staat een orphaned `[^4]` als standalone regel tussen twee alinea''s — een losstaande voetnootreferentie zonder bijbehorende zin, typisch extractie-artefact waarbij de callout in de PDF los van de tekst stond. Verdere inhoud compleet, headings correct, tabellen in pipe-syntax.'
+    status: needs-rework
 themas:
   - bestemde fondsen
   - fondsen bestemd voor investeringen
@@ -8,50 +49,9 @@ themas:
   - stichting
   - resultatenrekening
   - vereniging zonder winstoogmerk
-bron: https://www.cbn-cnc.be/nl/adviezen/bestemde-fondsen
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/bestemde-fondsen
-      sha256: aaf3d6eb8ebd7055b7296f9ee9efb1f17a8c0e2814922dfdda9aee7efb275a30
-      version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:36:09Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T12:09:18Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "D3: op regel 71 staat een orphaned `[^4]` als standalone regel tussen twee alinea's — een losstaande voetnootreferentie zonder bijbehorende zin, typisch extractie-artefact waarbij de callout in de PDF los van de tekst stond. Verdere inhoud compleet, headings correct, tabellen in pipe-syntax."
-    layer1:
-      status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 3
-      max_section_chars: 2826
-      file_size_chars: 8719
-      flags: []
-    layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:09:18Z'
-      rationale: "D3: op regel 71 staat een orphaned `[^4]` als standalone regel tussen twee alinea's — een losstaande voetnootreferentie zonder bijbehorende zin, typisch extractie-artefact waarbij de callout in de PDF los van de tekst stond. Verdere inhoud compleet, headings correct, tabellen in pipe-syntax."
-      concrete_problemen:
-        - regel: 71
-          categorie: D3
-          type: other
-          voorbeeld: ' [^4]'
-gerelateerde_adviezen:
-  - titel: 'Verenigingen en stichtingen: compensatie van negatieve fondsen'
-    url: https://www.cbn-cnc.be/nl/adviezen/verenigingen-en-stichtingen-compensatie-van-negatieve-fondsen
-    datum: '2021-11-22'
 ---
 
-# CBN-advies 2011/7 - Bestemde fondsen
+# COMMISSIE VOOR BOEKHOUDKUNDIGE NORMEN
 
 De bestemde fondsen van een grote of zeer grote vereniging of stichting vertegenwoordigen eigen middelen van de vereniging of stichting. Bestemde fondsen worden gevormd vanuit het positief te bestemmen resultaat dat een vereniging of stichting behaalt, en waaraan zij een specifieke bestemming wenst te geven[^1]. 
 
@@ -72,8 +72,6 @@ De vereniging of stichting kan ook beslissen om het positief overgedragen result
 
 Stel dat de vereniging op het einde van het vorige boekjaar een positief resultaat behaalde van 5.000 euro. Aan dit resultaat werd geen specifieke bestemming gegeven en het werd geboekt op rekening 140 *Positief overgedragen resultaat*. Dit boekjaar behaalt de vereniging een positief resultaat van 14.000 euro. Het te bestemmen resultaat van het boekjaar bestaat uit dit positief resultaat van het boekjaar vermeerderd met het overgedragen positief resultaat van het vorige boekjaar (14.000 + 5.000). Het te bestemmen resultaat wordt volledig toegekend aan een fonds bestemd voor investeringen.
 
- [^4]
-
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 14 | Overgedragen resultaat | 5.000 | |
@@ -86,8 +84,7 @@ Stel dat de vereniging op het einde van het vorige boekjaar een positief resulta
 
 Het is belangrijk om duidelijk het verschil te maken tussen de aanleg van een bestemd fonds en de aanleg van een voorziening.
 
-Voorzieningen voor risico’s en kosten beogen naar hun aard duidelijk omschreven verliezen of kosten te dekken die op balansdatum waarschijnlijk of zeker zijn, doch waarvan het bedrag niet vaststaat[^5]. Voorzieningen moeten stelselmatig worden gevormd[^6]
- en moeten worden teruggenomen ingeval deze worden aangewend[^7].
+Voorzieningen voor risico’s en kosten beogen naar hun aard duidelijk omschreven verliezen of kosten te dekken die op balansdatum waarschijnlijk of zeker zijn, doch waarvan het bedrag niet vaststaat[^5]. Voorzieningen moeten stelselmatig worden gevormd[^6] en moeten worden teruggenomen ingeval deze worden aangewend[^7].
 
 Een bestemd fonds wordt daarentegen gevormd vanuit de ‘resultatenbestemming’ van de vereniging of stichting en kan aangelegd worden om algemeen omschreven risico’s of projecten te dekken. Bestemde fondsen behoren tot het eigen vermogen van de vereniging of stichting.
 

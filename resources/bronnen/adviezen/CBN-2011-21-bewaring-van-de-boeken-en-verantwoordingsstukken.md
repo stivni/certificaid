@@ -1,51 +1,51 @@
 ---
-nummer: CBN-advies 2011/21
-datum: 2011-10-05
-themas:
-  - bewaringstermijn
-  - boeken
-  - verantwoordingsstukken
-  - vereffening
 bron: https://www.cbn-cnc.be/nl/adviezen/bewaring-van-de-boeken-en-verantwoordingsstukken
+datum: 2011-10-05
+gerelateerde_adviezen:
+  - datum: '2016-09-28'
+    titel: Bewaring van boeken en verantwoordingsstukken bij een geïnformatiseerde boekhouding
+    url: https://www.cbn-cnc.be/nl/adviezen/bewaring-van-boeken-en-verantwoordingsstukken-bij-een-geinformatiseerde-boekhouding
+  - datum: '1997-02-01'
+    titel: Beginselen van een regelmatige boekhouding
+    url: https://www.cbn-cnc.be/nl/adviezen/beginselen-van-een-regelmatige-boekhouding
+nummer: CBN-advies 2011/21
 provenance:
+  generated_at: '2026-05-11T13:05:08Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/bewaring-van-de-boeken-en-verantwoordingsstukken
       sha256: 65f95b8699d7f9352f77c42c264b757409453a813a287d7b1a18f2499ed561c2
       version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:36:17Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
   trust:
-    status: trusted
     confirmed_at: '2026-05-11T12:09:18Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: 'Laag 1: pass, heading_count 0 — correct want het is een korte procedurenota die na de H1-titel enkel doorlopende proza bevat zonder tussenkoppen (inhoud rechtvaardigt dit). Één voetnoot [^1] correct gedefinieerd en gerefereerd. Geen extractie-artefacten. Inhoud compleet en afgerond.'
     layer1:
       status: pass
-      run_id: 20260511-083333
-      run_at:
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:28Z'
       heading_count: 0
       max_section_chars: 2211
       file_size_chars: 2211
       flags: []
     layer2:
-      status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:09:18Z'
-      rationale: 'Laag 1: pass, heading_count 0 — correct want het is een korte procedurenota die na de H1-titel enkel doorlopende proza bevat zonder tussenkoppen (inhoud rechtvaardigt dit). Één voetnoot [^1] correct gedefinieerd en gerefereerd. Geen extractie-artefacten. Inhoud compleet en afgerond.'
       concrete_problemen: []
-gerelateerde_adviezen:
-  - titel: Bewaring van boeken en verantwoordingsstukken bij een geïnformatiseerde boekhouding
-    url: https://www.cbn-cnc.be/nl/adviezen/bewaring-van-boeken-en-verantwoordingsstukken-bij-een-geinformatiseerde-boekhouding
-    datum: '2016-09-28'
-  - titel: Beginselen van een regelmatige boekhouding
-    url: https://www.cbn-cnc.be/nl/adviezen/beginselen-van-een-regelmatige-boekhouding
-    datum: '1997-02-01'
+      rationale: 'Laag 1: pass, heading_count 0 — correct want het is een korte procedurenota die na de H1-titel enkel doorlopende proza bevat zonder tussenkoppen (inhoud rechtvaardigt dit). Één voetnoot [^1] correct gedefinieerd en gerefereerd. Geen extractie-artefacten. Inhoud compleet en afgerond.'
+      run_at: '2026-05-11T12:09:18Z'
+      status: trusted
+    rationale: 'Laag 1: pass, heading_count 0 — correct want het is een korte procedurenota die na de H1-titel enkel doorlopende proza bevat zonder tussenkoppen (inhoud rechtvaardigt dit). Één voetnoot [^1] correct gedefinieerd en gerefereerd. Geen extractie-artefacten. Inhoud compleet en afgerond.'
+    status: trusted
+themas:
+  - bewaringstermijn
+  - boeken
+  - verantwoordingsstukken
+  - vereffening
 ---
 
 # CBN-advies 2011/21 - Bewaring van de boeken en verantwoordingsstukken

@@ -1,45 +1,45 @@
 ---
-nummer: CBN-advies 2018/19
+bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-winstpremies
 datum: 2018-11-21
+nummer: CBN-advies 2018/19
+provenance:
+  generated_at: '2026-05-11T13:05:08Z'
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-winstpremies
+      sha256: df789a212fd45d70f3849a8764f83decf6c1094752cfabf25775b7be0c8cc7b3
+      version:
+  stale: false
+  stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
+  trust:
+    confirmed_at: '2026-05-11T12:21:40Z'
+    confirmed_by: subagent-sonnet-4-6
+    layer1:
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:29Z'
+      heading_count: 3
+      max_section_chars: 3422
+      file_size_chars: 6468
+      flags: []
+    layer2:
+      agent: subagent-sonnet-4-6
+      concrete_problemen: []
+      rationale: Geen artefacten gevonden. Tekst is vloeiend, headings correct, voetnoten volledig aanwezig en verankerd. De enige boekhoudkundige tabel is correct in markdown pipe-syntax. Inhoud compleet en niet afgesneden.
+      run_at: '2026-05-11T12:21:40Z'
+      status: trusted
+    rationale: Geen artefacten gevonden. Tekst is vloeiend, headings correct, voetnoten volledig aanwezig en verankerd. De enige boekhoudkundige tabel is correct in markdown pipe-syntax. Inhoud compleet en niet afgesneden.
+    status: trusted
 themas:
   - winstpremie
   - winst van het boekjaar
   - identieke winstpremie
   - gecategoriseerde winstpremie
   - resultaatverwerking
-bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-winstpremies
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-winstpremies
-      sha256: df789a212fd45d70f3849a8764f83decf6c1094752cfabf25775b7be0c8cc7b3
-      version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:37:28Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: trusted
-    confirmed_at: '2026-05-11T12:21:40Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: Geen artefacten gevonden. Tekst is vloeiend, headings correct, voetnoten volledig aanwezig en verankerd. De enige boekhoudkundige tabel is correct in markdown pipe-syntax. Inhoud compleet en niet afgesneden.
-    layer1:
-      status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 3
-      max_section_chars: 3424
-      file_size_chars: 6472
-      flags: []
-    layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:21:40Z'
-      rationale: Geen artefacten gevonden. Tekst is vloeiend, headings correct, voetnoten volledig aanwezig en verankerd. De enige boekhoudkundige tabel is correct in markdown pipe-syntax. Inhoud compleet en niet afgesneden.
-      concrete_problemen: []
 ---
 
 # CBN-advies 2018/19 – Boekhoudkundige verwerking van winstpremies
@@ -48,8 +48,7 @@ provenance:
 
 Aan de Commissie werd een vraag voorgelegd met betrekking tot de nieuwe regeling voor winstpremies in de programmawet van 25 december 2017, die werd gepubliceerd in het *Belgisch Staatsblad* van 29 december 2017 en opgenomen in de wet van 22 mei 2001 betreffende de werknemersparticipatie in het kapitaal van de vennootschappen en tot instelling van een winstpremie voor de werknemers.[^2] 
 
-Deze nieuwe maatregel heeft tot doel het vennootschappen[^3]
- mogelijk te maken een deel of het geheel van hun winst toe te kennen aan hun werknemers in de vorm van een winstpremie. Dit om hen aan te moedigen en hen te belonen op een eenvoudige manier die zowel op sociaal als op fiscaal vlak interessant is.
+Deze nieuwe maatregel heeft tot doel het vennootschappen[^3] mogelijk te maken een deel of het geheel van hun winst toe te kennen aan hun werknemers in de vorm van een winstpremie. Dit om hen aan te moedigen en hen te belonen op een eenvoudige manier die zowel op sociaal als op fiscaal vlak interessant is.
 
 ## De nieuwe winstpremie
 
@@ -57,19 +56,17 @@ Sinds 1 januari 2018 kunnen de vennootschappen beslissen een deel of het geheel 
 
 Deze winstpremie kan worden gedefinieerd als “*[een] premie die wordt toegekend in speciën indien de vennootschap of de groep waarvan de vennootschap deel uitmaakt[^6], een deel of het geheel van de winst van het boekjaar wenst toe te kennen aan de werknemers[^7], met uitzondering van de bedrijfsleiders[^8], waarvan de specifieke modaliteiten overeenstemmen met de voorschriften van de wet van 22 mei 2001 en opgenomen zijn in een beslissing van de gewone of buitengewone algemene vergadering*”[^9].
 
-De premie “*mag niet worden ingevoerd ter vervanging of omzetting van loon, premies, voordelen in natura of om het even welk voordeel, of aanvulling van al wat voorafgaat *[...]”[^10]. Bovendien mag “*het totaalbedrag van de deelnames in de winst, *[...]* bij afsluiting van het boekjaar, de limiet van 30 % van de totale brutoloonmassa niet overschrijden*”[^11].
+De premie “*mag niet worden ingevoerd ter vervanging of omzetting van loon, premies, voordelen in natura of om het even welk voordeel, of aanvulling van al wat voorafgaat* [...]”[^10]. Bovendien mag “*het totaalbedrag van de deelnames in de winst,* [...]* bij afsluiting van het boekjaar, de limiet van 30 % van de totale brutoloonmassa niet overschrijden*”[^11].
 
 Er bestaan twee types winstpremies. De identieke winstpremie is een “*premie waarvan het bedrag gelijk is voor alle werknemers of waarvan het bedrag overeenkomt met een gelijk percentage van het loon van alle werknemers*”. De gecategoriseerde winstpremie is een “*premie waarvan de hoogte van het bedrag afhankelijk is van de verdeelsleutel die wordt toegepast op basis van objectieve criteria*”[^12].
 
 Op het vlak van de sociale zekerheid, is deze premie interessant voor zover er geen gewone sociale zekerheidsbijdragen verschuldigd zijn, maar enkel een solidariteitsbijdrage van 13,07 % van de premie ten laste van de werknemer.
 
-Op fiscaal vlak is deze premie onderworpen aan een aanslagvoet van 7 %[^13]
- (een met de inkomstenbelastingen gelijkgestelde belasting) voor de werknemer (en zal ze bovendien vermeld worden op het aanslagbiljet) en zal ze, voor de werkgever, niet aftrekbaar zijn in de vennootschapsbelasting, aangezien ze wordt beschouwd als een verworpen uitgave in de vennootschapsbelasting.
+Op fiscaal vlak is deze premie onderworpen aan een aanslagvoet van 7 %[^13] (een met de inkomstenbelastingen gelijkgestelde belasting) voor de werknemer (en zal ze bovendien vermeld worden op het aanslagbiljet) en zal ze, voor de werkgever, niet aftrekbaar zijn in de vennootschapsbelasting, aangezien ze wordt beschouwd als een verworpen uitgave in de vennootschapsbelasting.
 
 ## Boekhoudkundige aspecten
 
-De winstpremie komt neer op een resultaatverwerking (net zoals de regeling van dividenden en tantièmes). Het gaat om een loonbestanddeel waarmee geen rekening wordt gehouden voor de berekening van de loonnorm[^14]
- (bestanddeel dat is uitgesloten uit het begrip loonkost).
+De winstpremie komt neer op een resultaatverwerking (net zoals de regeling van dividenden en tantièmes). Het gaat om een loonbestanddeel waarmee geen rekening wordt gehouden voor de berekening van de loonnorm[^14] (bestanddeel dat is uitgesloten uit het begrip loonkost).
 
 In de boekhouding zal dit als volgt worden geboekt:
 
@@ -78,8 +75,7 @@ In de boekhouding zal dit als volgt worden geboekt:
 | | 696 | Resultaatverwerking | | |
 | aan | 473 | Andere rechthebbenden | | |
 
-De nieuwe maatregelen zijn op 1 januari 2018 in werking getreden, met dien verstande dat de premies die door deze wet werden ingevoerd, slechts kunnen worden toegekend op basis van de winst van het boekjaar dat ten vroegste op 30 september 2017[^15]
- werd afgesloten.
+De nieuwe maatregelen zijn op 1 januari 2018 in werking getreden, met dien verstande dat de premies die door deze wet werden ingevoerd, slechts kunnen worden toegekend op basis van de winst van het boekjaar dat ten vroegste op 30 september 2017[^15] werd afgesloten.
 
 [^1]: Onderhavig advies is tot stand gekomen nadat een ontwerpadvies op 19 juni 2018 ter publieke consultatie werd gepubliceerd op de website van de CBN.
 

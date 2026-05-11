@@ -2,75 +2,72 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/opstelling-goedkeuring-en-openbaarmaking-van-de-jaarrekening
 datum: 1977-10-01
 gerelateerde_adviezen:
-- datum: '2020-08-05'
-  titel: Vermelding in de jaarrekening van de gegevens van de bestuurders en de commissaris
-  url: https://www.cbn-cnc.be/nl/adviezen/vermelding-in-de-jaarrekening-van-de-gegevens-van-de-bestuurders-en-de-commissaris
-- datum: '1978-07-01'
-  titel: Bezoldigingen toegekend aan bestuurders en commissarissen -Bedoelde bezoldigingen
-  url: https://www.cbn-cnc.be/nl/adviezen/bezoldigingen-toegekend-aan-bestuurders-en-commissarissen-bedoelde-bezoldigingen
-- datum: '1980-01-01'
-  titel: Toepassing van de uitzondering waarin punt 17 van de toelichting voorziet
-  url: https://www.cbn-cnc.be/nl/adviezen/toepassing-van-de-uitzondering-waarin-punt-17-van-de-toelichting-voorziet
-- datum: '1977-08-01'
-  titel: Afwijkingen van de bepalingen van het K.B. van 8 oktober 1976 – Procedure
-  url: https://www.cbn-cnc.be/nl/adviezen/afwijkingen-van-de-bepalingen-van-het-kb-van-8-oktober-1976-procedure
+  - datum: '2020-08-05'
+    titel: Vermelding in de jaarrekening van de gegevens van de bestuurders en de commissaris
+    url: https://www.cbn-cnc.be/nl/adviezen/vermelding-in-de-jaarrekening-van-de-gegevens-van-de-bestuurders-en-de-commissaris
+  - datum: '1978-07-01'
+    titel: Bezoldigingen toegekend aan bestuurders en commissarissen -Bedoelde bezoldigingen
+    url: https://www.cbn-cnc.be/nl/adviezen/bezoldigingen-toegekend-aan-bestuurders-en-commissarissen-bedoelde-bezoldigingen
+  - datum: '1980-01-01'
+    titel: Toepassing van de uitzondering waarin punt 17 van de toelichting voorziet
+    url: https://www.cbn-cnc.be/nl/adviezen/toepassing-van-de-uitzondering-waarin-punt-17-van-de-toelichting-voorziet
+  - datum: '1977-08-01'
+    titel: Afwijkingen van de bepalingen van het K.B. van 8 oktober 1976 – Procedure
+    url: https://www.cbn-cnc.be/nl/adviezen/afwijkingen-van-de-bepalingen-van-het-kb-van-8-oktober-1976-procedure
 nummer: CBN-advies 110/5
 provenance:
-  generated_at: '2026-05-08T18:34:10Z'
+  generated_at: '2026-05-11T13:05:05Z'
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/opstelling-goedkeuring-en-openbaarmaking-van-de-jaarrekening
-    sha256: ed252b48ceaecbb9125813b4bd2c2d3c8785fbd8d4de0b2a29a12114196d279b
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/opstelling-goedkeuring-en-openbaarmaking-van-de-jaarrekening
+      sha256: ed252b48ceaecbb9125813b4bd2c2d3c8785fbd8d4de0b2a29a12114196d279b
+      version:
   stale: false
-  stale_reason: null
+  stale_reason:
   tooling:
-    model: null
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    prompt_version: null
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
   trust:
     confirmed_at: '2026-05-08T19:02:30Z'
     confirmed_by: subagent-laag2-ronde2
     layer1:
-      file_size_chars: 5682
-      flags: []
-      heading_count: 0
-      max_section_chars: 5682
-      run_at: null
-      run_id: 20260511-083333
       status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:24Z'
+      heading_count: 0
+      max_section_chars: 5680
+      file_size_chars: 5680
+      flags: []
     layer2:
       agent: subagent-laag2-ronde2
       concrete_problemen: []
-      rationale: '[Laag-2-R2 2026-05-08] Volledig met vier concrete implicaties van
-        de procedurele keten en uitwerking verkorte versie-regeling.'
+      rationale: '[Laag-2-R2 2026-05-08] Volledig met vier concrete implicaties van de procedurele keten en uitwerking verkorte versie-regeling.'
       run_at: '2026-05-08T19:02:30Z'
       status: trusted
     rationale: Laag-2 trusted door subagent-laag2-ronde2 (zie layer2.rationale)
     status: trusted
 themas:
-- commissaris
-- goedkeuring van de jaarrekening
-- jaarverslag
-- openbaarmaking
-- opstelling van de jaarrekening
-- publicatie
-- verslag van de commissaris
+  - commissaris
+  - goedkeuring van de jaarrekening
+  - jaarverslag
+  - openbaarmaking
+  - opstelling van de jaarrekening
+  - publicatie
+  - verslag van de commissaris
 ---
 
 # CBN-advies 110/5 - Opstelling, goedkeuring en openbaarmaking van de jaarrekening
 
 Artikel 77 van de Vennootschapswet bepaalt dat de bestuurders elk jaar de jaarrekening opmaken. Die jaarrekening bestaat uit de balans, de resultatenrekening en de toelichting, en vormt een geheel. Deze stukken worden opgemaakt overeenkomstig de wet van 17 juli 1975 op de boekhouding en de jaarrekening van de ondernemingen en de besluiten ter uitvoering ervan, voor zover de vennootschap daaraan is onderworpen en overeenkomstig de bijzondere wettelijke en bestuursrechtelijke bepalingen die op haar toepasselijk zijn. 
 
-Diezelfde jaarrekening die, volgens artikel 78 van de Vennootschapswet, ten minste vijftien dagen vóór de algemene vergadering aan de aandeelhouders moet worden gezonden of te hunner beschikking moet worden gehouden, moet ook ter beraadslaging aan de algemene vergadering worden voorgelegd[^1] ,[^2]
- en binnen dertig dagen nadat zij door de algemene vergadering is goedgekeurd, ter griffie van de rechtbank van koophandel worden neergelegd[^3]. 
+Diezelfde jaarrekening die, volgens artikel 78 van de Vennootschapswet, ten minste vijftien dagen vóór de algemene vergadering aan de aandeelhouders moet worden gezonden of te hunner beschikking moet worden gehouden, moet ook ter beraadslaging aan de algemene vergadering worden voorgelegd[^1] ,[^2] en binnen dertig dagen nadat zij door de algemene vergadering is goedgekeurd, ter griffie van de rechtbank van koophandel worden neergelegd[^3]. 
 
 Deze continuïteit in de procedure van opstelling, goedkeuring en openbaarmaking van de jaarrekening impliceert in het bijzonder: 
 
 1. dat de raad van bestuur de balans en de resultatenrekening niet alleen moet opmaken, ter beschikking houden van de aandeelhouders en aan de algemene vergadering ter beraadslaging voorleggen, maar daarbij tevens de toelichting moet voegen die samen hiermee een geheel vormt; 
 2. dat op de agenda van de algemene vergadering de goedkeuring van de jaarrekening moet voorkomen en niet enkel de goedkeuring van balans en resultatenrekening[^4]; 
-3. dat de jaarrekening die wordt voorgelegd aan de algemene vergadering, moet zijn opgemaakt overeenkomstig de bepalingen van de boekhoudwet en de ter uitvoering hiervan genomen besluiten[^5]; de jaarrekening mag niet worden opgemaakt en aan de algemene vergadering worden voorgelegd in een zogezegd beter verstaanbare of traditioneler vorm, noch in verkorte vorm[^6]
- om dan later te worden herwerkt ten behoeve van de neerlegging ter griffie; 
+3. dat de jaarrekening die wordt voorgelegd aan de algemene vergadering, moet zijn opgemaakt overeenkomstig de bepalingen van de boekhoudwet en de ter uitvoering hiervan genomen besluiten[^5]; de jaarrekening mag niet worden opgemaakt en aan de algemene vergadering worden voorgelegd in een zogezegd beter verstaanbare of traditioneler vorm, noch in verkorte vorm[^6] om dan later te worden herwerkt ten behoeve van de neerlegging ter griffie; 
 4. dat de jaarrekening die via neerlegging ter griffie wettelijk wordt openbaargemaakt, dezelfde moet zijn als de jaarrekening die is goedgekeurd door de algemene vergadering. Zulks impliceert evenwel niet dat zij aan de aandeelhouders moet worden voorgelegd op het standaardformulier dat bij koninklijk besluit van 21 februari 1985 verplicht is gesteld voor de neerlegging ter griffie. 
 
 Er zij tevens op het volgende gewezen. Krachtens het nieuwe artikel 80*bis* van de Vennootschapswet moet, telkens als de vennootschap haar jaarrekening in haar geheel verspreidt (zoals in de vorm van een brochure), deze worden weergegeven in dezelfde vorm en met dezelfde tekst als de stukken die aan de algemene vergadering zijn voorgelegd en op basis waarvan het verslag van de commissarissen is opgesteld.

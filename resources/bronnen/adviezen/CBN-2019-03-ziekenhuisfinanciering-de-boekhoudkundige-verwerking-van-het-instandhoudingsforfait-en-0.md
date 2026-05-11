@@ -1,6 +1,43 @@
 ---
-nummer: CBN-advies 2019/03
+bron: https://www.cbn-cnc.be/nl/adviezen/ziekenhuisfinanciering-de-boekhoudkundige-verwerking-van-het-instandhoudingsforfait-en-0
 datum: 2019-03-29
+gerelateerde_adviezen:
+  - datum: '2021-07-05'
+    titel: Boekhoudkundige verwerking van COVID-19-tegemoetkomingen en van kosten gemaakt ten gevolge van de gezondheidscrisis
+    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-covid-19-tegemoetkomingen-en-van-kosten-gemaakt-ten-gevolge
+nummer: CBN-advies 2019/03
+provenance:
+  generated_at: '2026-05-11T13:05:08Z'
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/ziekenhuisfinanciering-de-boekhoudkundige-verwerking-van-het-instandhoudingsforfait-en-0
+      sha256: 970674ee10043a7a4946bf7e3ecbcbef1a3dab0418e711b3b90a218b20bd3f97
+      version:
+  stale: false
+  stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
+  trust:
+    confirmed_at: '2026-05-11T12:21:40Z'
+    confirmed_by: subagent-sonnet-4-6
+    layer1:
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:30Z'
+      heading_count: 4
+      max_section_chars: 6942
+      file_size_chars: 12130
+      flags: []
+    layer2:
+      agent: subagent-sonnet-4-6
+      concrete_problemen: []
+      rationale: 'Geen extractie-artefacten gevonden. Italics correct gesloten (*instandhoudingsforfait*, *strategisch forfait*, *herconditioneringswerken*). Headings hiërarchisch correct (H1 > H2 > H3). Voetnoten [^1]–[^11] volledig. Inhoud compleet (beschrijving subsidies, boekhoudkundige verwerking). Laag-1: pass, geen flags.'
+      run_at: '2026-05-11T12:21:40Z'
+      status: trusted
+    rationale: 'Geen extractie-artefacten gevonden. Italics correct gesloten (*instandhoudingsforfait*, *strategisch forfait*, *herconditioneringswerken*). Headings hiërarchisch correct (H1 > H2 > H3). Voetnoten [^1]–[^11] volledig. Inhoud compleet (beschrijving subsidies, boekhoudkundige verwerking). Laag-1: pass, geen flags.'
+    status: trusted
 themas:
   - bedrijfsopbrengsten
   - exploitatiesubsidie
@@ -17,43 +54,6 @@ themas:
   - ziekenhuis
   - ziekenhuisfinanciering
   - ziekenhuisinfrastructuur
-bron: https://www.cbn-cnc.be/nl/adviezen/ziekenhuisfinanciering-de-boekhoudkundige-verwerking-van-het-instandhoudingsforfait-en-0
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/ziekenhuisfinanciering-de-boekhoudkundige-verwerking-van-het-instandhoudingsforfait-en-0
-      sha256: 970674ee10043a7a4946bf7e3ecbcbef1a3dab0418e711b3b90a218b20bd3f97
-      version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:37:36Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: trusted
-    confirmed_at: '2026-05-11T12:21:40Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: 'Geen extractie-artefacten gevonden. Italics correct gesloten (*instandhoudingsforfait*, *strategisch forfait*, *herconditioneringswerken*). Headings hiërarchisch correct (H1 > H2 > H3). Voetnoten [^1]–[^11] volledig. Inhoud compleet (beschrijving subsidies, boekhoudkundige verwerking). Laag-1: pass, geen flags.'
-    layer1:
-      status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 5
-      max_section_chars: 5407
-      file_size_chars: 12135
-      flags: []
-    layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:21:40Z'
-      rationale: 'Geen extractie-artefacten gevonden. Italics correct gesloten (*instandhoudingsforfait*, *strategisch forfait*, *herconditioneringswerken*). Headings hiërarchisch correct (H1 > H2 > H3). Voetnoten [^1]–[^11] volledig. Inhoud compleet (beschrijving subsidies, boekhoudkundige verwerking). Laag-1: pass, geen flags.'
-      concrete_problemen: []
-gerelateerde_adviezen:
-  - titel: Boekhoudkundige verwerking van COVID-19-tegemoetkomingen en van kosten gemaakt ten gevolge van de gezondheidscrisis
-    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-covid-19-tegemoetkomingen-en-van-kosten-gemaakt-ten-gevolge
-    datum: '2021-07-05'
 ---
 
 # CBN-advies 2019/03 – Ziekenhuisfinanciering: de boekhoudkundige verwerking van het instandhoudingsforfait en het strategisch forfait
@@ -62,21 +62,21 @@ gerelateerde_adviezen:
 
 Onderhavig advies verduidelijkt de boekhoudkundige verwerking in hoofde van de ziekenhuizen van de subsidiëring van de infrastructuur van ziekenhuizen ingevolge het Besluit van de Vlaamse Regering van 14 juli 2017 betreffende de subsidiëring van infrastructuur van ziekenhuizen, rekening houdend met de bestaande regelgeving op datum van 13 maart 2019.
 
-Het voormelde besluit beoogt de invoering van een nieuw financieringsmodel voor ziekenhuisinfrastructuur. Dit nieuwe financieringsmodel bestaat uit een *instandhoudingsforfait *en een *strategisch forfait* die, ten laste van het Vlaams Infrastructuurfonds voor Persoonsgebonden Aangelegenheden (hierna: VIPA), worden verleend aan exploitanten van erkende ziekenhuizen. 
+Het voormelde besluit beoogt de invoering van een nieuw financieringsmodel voor ziekenhuisinfrastructuur. Dit nieuwe financieringsmodel bestaat uit een *instandhoudingsforfait* en een *strategisch forfait* die, ten laste van het Vlaams Infrastructuurfonds voor Persoonsgebonden Aangelegenheden (hierna: VIPA), worden verleend aan exploitanten van erkende ziekenhuizen. 
 
 ## Beschrijving van de investeringssubsidies
 
-Het financieringsmodel voor ziekenhuisinfrastructuur dat het voorwerp uitmaakt van onderhavig advies bestaat uit subsidies in de vorm van een zogenaamd *instandhoudingsforfait *en een *strategisch forfait*. Deze subsidies worden verleend als compensatie voor de kosten van de ziekenhuizen die verband houden met investeringen in infrastructuur noodzakelijk voor de uitvoering van de verplichtingen die voortvloeien uit de basisziekenhuisopdracht van het erkende ziekenhuis die dient te gebeuren met naleving van de toepasselijke federale en gemeenschapsregelgeving.[^2] 
+Het financieringsmodel voor ziekenhuisinfrastructuur dat het voorwerp uitmaakt van onderhavig advies bestaat uit subsidies in de vorm van een zogenaamd *instandhoudingsforfait* en een *strategisch forfait*. Deze subsidies worden verleend als compensatie voor de kosten van de ziekenhuizen die verband houden met investeringen in infrastructuur noodzakelijk voor de uitvoering van de verplichtingen die voortvloeien uit de basisziekenhuisopdracht van het erkende ziekenhuis die dient te gebeuren met naleving van de toepasselijke federale en gemeenschapsregelgeving.[^2] 
 
-Het *instandhoudingsforfait *is bedoeld om de bestaande infrastructuur, zowel roerend als onroerend, in exploitatie te kunnen houden. Het instandhoudingsforfait wordt niet gekoppeld aan een bepaalde investering en wordt toegekend voor een onbepaalde duur. 
+Het *instandhoudingsforfait* is bedoeld om de bestaande infrastructuur, zowel roerend als onroerend, in exploitatie te kunnen houden. Het instandhoudingsforfait wordt niet gekoppeld aan een bepaalde investering en wordt toegekend voor een onbepaalde duur. 
 
-Het *strategisch forfait* is bedoeld voor de dekking van de kosten die gepaard gaan met de volledige nieuwbouw van ziekenhuizen, de uitbreiding van bestaande capaciteit, *herconditioneringswerken[^3] *en de eerste roerende investeringen die verbonden zijn met een nieuwbouw, uitbreiding of *herconditionering *van een ziekenhuis. Het strategisch forfait wordt toegekend voor een onbepaalde duur.
+Het *strategisch forfait* is bedoeld voor de dekking van de kosten die gepaard gaan met de volledige nieuwbouw van ziekenhuizen, de uitbreiding van bestaande capaciteit, *herconditioneringswerken[^3]* en de eerste roerende investeringen die verbonden zijn met een nieuwbouw, uitbreiding of *herconditionering* van een ziekenhuis. Het strategisch forfait wordt toegekend voor een onbepaalde duur.
 
 De hoogte van de forfaits wordt bepaald door de Vlaamse regering. De Vlaamse regering heeft vanuit haar regelgevende bevoegdheid de mogelijkheid (jaarlijks) alle forfaits te verhogen, te verlagen of af te schaffen.[^4]
  Zowel bij de toekenning van het instandhoudingsforfait als het strategisch forfait wordt rekening gehouden met verschillende parameters, waaronder het aantal bedden/plaatsen, operatiekwartier-zalen, het aantal bunkers radiotherapie en dergelijke. Het instandhoudingsforfait en het strategisch forfait worden in een masterplan toegekend voor een onbepaalde duur. De per parameter bepaalde bedragen voor het instandhoudingsforfait worden vervolgens jaarlijks aangepast aan de gezondheidsindex. Voor het strategisch forfait wordt nog slechts een aandeel ten belope van 16 % aangepast aan de afgevlakte gezondheidsindex.
 
-Het Instituut voor de Nationale Rekeningen (INR) heeft een advies[^5]
- uitgebracht met betrekking tot de ESR-neutraliteit (Europees systeem van nationale en regionale rekeningen) van het nieuwe financieringsmechanisme. De basisveronderstelling bij dit INR-advies is het toekennen van jaarlijkse forfaits voor onbepaalde duur en het niet toekennen van overheidsgaranties op de financiering die de ziekenhuizen zouden aangaan voor hun investeringsuitgaven.[^6] Aangezien er een jaarlijkse subsidie wordt toegekend voor onbepaalde duur ontstaat geen onvoorwaardelijke vordering voor de betrokken voorzieningen, cfr. het verstrekte advies:
+Het Instituut voor de Nationale Rekeningen (INR) heeft een advies[^5] uitgebracht met betrekking tot de ESR-neutraliteit (Europees systeem van nationale en regionale rekeningen) van het nieuwe financieringsmechanisme. De basisveronderstelling bij dit INR-advies is het toekennen van jaarlijkse forfaits voor onbepaalde duur en het niet toekennen van overheidsgaranties op de financiering die de ziekenhuizen zouden aangaan voor hun investeringsuitgaven.[^6]
+ Aangezien er een jaarlijkse subsidie wordt toegekend voor onbepaalde duur ontstaat geen onvoorwaardelijke vordering voor de betrokken voorzieningen, cfr. het verstrekte advies:
 
 “Investeringsbijdragen in geld worden geregistreerd op het moment dat de betaling verschuldigd is (ESR 4.162). Als een algemene regel geldt dat wanneer een betalingsverplichting bestaat en wanneer de bedragen zeker zijn, de investeringsbijdrage geregistreerd dient te worden wanneer de verplichting ontstaat, ongeacht van het betalingsschema. In de praktijk ontstaat een dergelijke verplichting wanneer een onvoorwaardelijke vordering ontstaat voor de begunstigde en het bedrag met zekerheid vaststaat. 
 
@@ -93,8 +93,7 @@ De gecoördineerde wet van 10 juli 2008 *op de ziekenhuizen en andere verzorging
 De Commissie merkt op dat de Koning wat betreft de toe te passen afschrijvingen bij ziekenhuizen een specifieke regeling heeft uitgewerkt die afwijkt van het KB W.Venn.[^8]
  Deze specifieke regeling heeft evenwel geen invloed op de boekhoudkundige verwerking van de subsidies die het voorwerp uitmaken van onderhavig advies.
 
-### Boekhoudkundige verwerking van het instandhoudingsforfait en het strategisch forfait: boeking op rekening 737 Exploitatiesubsidies
-
+Boekhoudkundige verwerking van het instandhoudingsforfait en het strategisch forfait: boeking op rekening 737 Exploitatiesubsidies
 Bij afwezigheid van afwijkende regels in het KB van 19 juni 2007 betreffende de jaarrekeningen van de ziekenhuizen gelden de regels van het KB W.Venn. 
 
 Wat betreft de boekhoudkundige verwerking van het instandhoudingsforfait en het strategisch forfait verwijst de Commissie in eerste instantie naar haar advies geformuleerd in het CBN-advies 2009/3 – Boekhoudkundige verwerking van kapitaalsubsidies waarvan de toekenning en/of de uitbetaling over verschillende jaren worden gespreid. In het bijzonder verwijst de Commissie naar de boekhoudkundige verwerking van de alternatieve VIPA-subsidiëring. Bij de alternatieve VIPA-subsidiëring is de Commissie van mening dat de initiatiefnemer van een project, in casu een ziekenhuis, bij de toezegging van een principieel akkoord geen enkele vordering heeft op het VIPA, doch enkel een recht om, in het kader van een goedgekeurd masterplan, een jaarlijkse gebruikstoelage te vragen gedurende twintig opeenvolgende jaren. Aldus kan de initiatiefnemer slechts een vordering boeken vanaf het ogenblik van de vaststelling van de jaarlijkse gebruikstoelage en niet vanaf de goedkeuring van het masterplan.[^9] 

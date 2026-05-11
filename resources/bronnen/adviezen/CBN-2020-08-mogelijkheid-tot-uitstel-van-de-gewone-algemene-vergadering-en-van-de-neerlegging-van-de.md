@@ -1,6 +1,43 @@
 ---
-nummer: CBN-advies 2020/08
+bron: https://www.cbn-cnc.be/nl/adviezen/mogelijkheid-tot-uitstel-van-de-gewone-algemene-vergadering-en-van-de-neerlegging-van-de
 datum: 2020-07-22
+gerelateerde_adviezen:
+  - datum: '2020-07-16'
+    titel: Mogelijkheid tot uitstel van de goedkeuring en neerlegging van de jaarrekening (VZW’s, IVZW’s en stichtingen)
+    url: https://www.cbn-cnc.be/nl/adviezen/mogelijkheid-tot-uitstel-van-de-goedkeuring-en-neerlegging-van-de-jaarrekening-vzws-0
+nummer: CBN-advies 2020/08
+provenance:
+  generated_at: '2026-05-11T13:05:08Z'
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/mogelijkheid-tot-uitstel-van-de-gewone-algemene-vergadering-en-van-de-neerlegging-van-de
+      sha256: b2dfc18f72c8b3503a034b0831a8b39e4ee7f92599fd960098276382a266cfc1
+      version:
+  stale: false
+  stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
+  trust:
+    confirmed_at: '2026-05-11T12:21:40Z'
+    confirmed_by: subagent-sonnet-4-6
+    layer1:
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:30Z'
+      heading_count: 5
+      max_section_chars: 5862
+      file_size_chars: 11311
+      flags: []
+    layer2:
+      agent: subagent-sonnet-4-6
+      concrete_problemen: []
+      rationale: 'Geen artefacten. Vijf logische ## headings, Latijnse termen correct gecursiveerd. Alle voetnoten [^1]-[^19] aanwezig en correct. Inhoud volledig (goedkeuring, neerlegging, laattijdige neerlegging, voorbeeld).'
+      run_at: '2026-05-11T12:21:40Z'
+      status: trusted
+    rationale: 'Geen artefacten. Vijf logische ## headings, Latijnse termen correct gecursiveerd. Alle voetnoten [^1]-[^19] aanwezig en correct. Inhoud volledig (goedkeuring, neerlegging, laattijdige neerlegging, voorbeeld).'
+    status: trusted
 themas:
   - uitstel algemene vergadering
   - opstelling van de jaarrekening
@@ -9,51 +46,13 @@ themas:
   - COVID-19
   - vereniging
   - laattijdige neerlegging
-bron: https://www.cbn-cnc.be/nl/adviezen/mogelijkheid-tot-uitstel-van-de-gewone-algemene-vergadering-en-van-de-neerlegging-van-de
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/mogelijkheid-tot-uitstel-van-de-gewone-algemene-vergadering-en-van-de-neerlegging-van-de
-      sha256: b2dfc18f72c8b3503a034b0831a8b39e4ee7f92599fd960098276382a266cfc1
-      version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:37:50Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: trusted
-    confirmed_at: '2026-05-11T12:21:40Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: 'Geen artefacten. Vijf logische ## headings, Latijnse termen correct gecursiveerd. Alle voetnoten [^1]-[^19] aanwezig en correct. Inhoud volledig (goedkeuring, neerlegging, laattijdige neerlegging, voorbeeld).'
-    layer1:
-      status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 5
-      max_section_chars: 5862
-      file_size_chars: 11315
-      flags: []
-    layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:21:40Z'
-      rationale: 'Geen artefacten. Vijf logische ## headings, Latijnse termen correct gecursiveerd. Alle voetnoten [^1]-[^19] aanwezig en correct. Inhoud volledig (goedkeuring, neerlegging, laattijdige neerlegging, voorbeeld).'
-      concrete_problemen: []
-gerelateerde_adviezen:
-  - titel: Mogelijkheid tot uitstel van de goedkeuring en neerlegging van de jaarrekening (VZW’s, IVZW’s en stichtingen)
-    url: https://www.cbn-cnc.be/nl/adviezen/mogelijkheid-tot-uitstel-van-de-goedkeuring-en-neerlegging-van-de-jaarrekening-vzws-0
-    datum: '2020-07-16'
 ---
 
 # CBN-advies 2020/08 – Mogelijkheid tot uitstel van de gewone algemene vergadering en van de neerlegging van de jaarrekening (vennootschappen)
 
 ## Inleiding
 
-Naar aanleiding van de publicatie van Koninklijk besluit nr. 4 van 9 april 2020 houdende diverse bepalingen inzake mede-eigendom en het vennootschaps- en verenigingsrecht in het kader van de strijd tegen de COVID-19 pandemie[^1]
- (hierna: KB nr. 4), wenst de Commissie in te gaan op bepaalde bepalingen die hierin zijn opgenomen.
+Naar aanleiding van de publicatie van Koninklijk besluit nr. 4 van 9 april 2020 houdende diverse bepalingen inzake mede-eigendom en het vennootschaps- en verenigingsrecht in het kader van de strijd tegen de COVID-19 pandemie[^1] (hierna: KB nr. 4), wenst de Commissie in te gaan op bepaalde bepalingen die hierin zijn opgenomen.
 
 Hoewel het toepassingsgebied *ratione materiae* en *ratione personae* van KB nr. 4 relatief uitgebreid is, beperkt de Commissie onderhavig advies tot de maatregelen inzake de goedkeuring en de neerlegging van de jaarrekening en geconsolideerde jaarrekening van vennootschappen. Hiermee worden enkel de vennootschappen bedoeld die onderworpen zijn aan de neerleggings- en publicatieplicht van de jaarrekening, waardoor de maatschap hier wordt uitgesloten[^2].
 
@@ -83,16 +82,13 @@ De Commissie acht het in dit verband opportuun om artikel 2:52 WVV in herinnerin
 
 Het uitstel van de algemene vergadering heeft tot gevolg dat ook de termijn van 30 dagen volgend op de datum van goedkeuring waarbinnen de jaarrekening moet worden neergelegd bij de Nationale Bank van België (hierna: NBB) mee zal verschuiven[^11].
 
-Bovendien wordt de maximale termijn van zeven maanden, te tellen vanaf de datum van afsluiting van het boekjaar, waarbinnen de neerlegging van de jaarrekening moet gebeuren bij de NBB, alsook de neerlegging van alle andere documenten die tegelijk met deze jaarrekening moeten worden neergelegd[^12] ,[^13] ,[^14], bij gebrek aan een algemene vergadering eveneens verlengd met tien weken. Hierdoor wordt de uiterste datum van neerlegging vastgesteld op 9 oktober 2020[^15]
- voor de vennootschappen waarvan het boekjaar eindigt op 31 december 2019.
+Bovendien wordt de maximale termijn van zeven maanden, te tellen vanaf de datum van afsluiting van het boekjaar, waarbinnen de neerlegging van de jaarrekening moet gebeuren bij de NBB, alsook de neerlegging van alle andere documenten die tegelijk met deze jaarrekening moeten worden neergelegd[^12] ,[^13] ,[^14], bij gebrek aan een algemene vergadering eveneens verlengd met tien weken. Hierdoor wordt de uiterste datum van neerlegging vastgesteld op 9 oktober 2020[^15] voor de vennootschappen waarvan het boekjaar eindigt op 31 december 2019.
 
 ## Laattijdige neerlegging
 
-De Commissie wenst overigens te benadrukken dat deze uitstelmaatregelen gevolgen hebben voor de aansprakelijkheid van het bestuursorgaan van de vennootschap indien de jaarrekening niet tijdig aan de algemene vergadering is voorgelegd[^16]
- of indien deze jaarrekening niet tijdig werd neergelegd[^17], alsook de stukken die eraan moeten worden toegevoegd[^18]. Aangezien er een vergelijkbare aansprakelijkheid verbonden is aan het overschrijden van de termijn van zes maanden zoals bepaald in artikel 3:1, § 1, tweede lid WVV of van zeven maanden na afsluiting van het boekjaar zoals bepaald in artikelen 3:10, tweede lid en 3:12, § 1 WVV, kan het bestuursorgaan enkel aansprakelijk worden gesteld na het verstrijken van de rechtsgeldig verlengde termijnen.
+De Commissie wenst overigens te benadrukken dat deze uitstelmaatregelen gevolgen hebben voor de aansprakelijkheid van het bestuursorgaan van de vennootschap indien de jaarrekening niet tijdig aan de algemene vergadering is voorgelegd[^16] of indien deze jaarrekening niet tijdig werd neergelegd[^17], alsook de stukken die eraan moeten worden toegevoegd[^18]. Aangezien er een vergelijkbare aansprakelijkheid verbonden is aan het overschrijden van de termijn van zes maanden zoals bepaald in artikel 3:1, § 1, tweede lid WVV of van zeven maanden na afsluiting van het boekjaar zoals bepaald in artikelen 3:10, tweede lid en 3:12, § 1 WVV, kan het bestuursorgaan enkel aansprakelijk worden gesteld na het verstrijken van de rechtsgeldig verlengde termijnen.
 
-Op grond van het uitstel dat is verleend voor de neerlegging van de jaarrekening, is de bijdrage zoals bepaald in artikel 3:13, derde tot zesde lid WVV die bedoeld is om laattijdige neerleggingen te bestraffen, slechts verschuldigd, behalve in geval van overmacht, vanaf 10 november 2020[^19]
- voor de jaarrekeningen afgesloten op 31 december 2019.
+Op grond van het uitstel dat is verleend voor de neerlegging van de jaarrekening, is de bijdrage zoals bepaald in artikel 3:13, derde tot zesde lid WVV die bedoeld is om laattijdige neerleggingen te bestraffen, slechts verschuldigd, behalve in geval van overmacht, vanaf 10 november 2020[^19] voor de jaarrekeningen afgesloten op 31 december 2019.
 
 ## Voorbeeld
 

@@ -1,6 +1,67 @@
 ---
-nummer: CBN-advies 169/1
+bron: https://www.cbn-cnc.be/nl/adviezen/verwerking-van-leningen-en-ontleningen-van-effecten-in-de-jaarrekening-van-ondernemingen
 datum: 1995-02-01
+nummer: CBN-advies 169/1
+provenance:
+  generated_at: '2026-05-11T13:05:06Z'
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/verwerking-van-leningen-en-ontleningen-van-effecten-in-de-jaarrekening-van-ondernemingen
+      sha256: becb90a513b6601dde80ef71d42c2fc123218f5918b7d032f8108f2bdcab550a
+      version:
+  stale: false
+  stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
+  trust:
+    confirmed_at: '2026-05-11T12:09:17Z'
+    confirmed_by: subagent-sonnet-4-6
+    layer1:
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:26Z'
+      heading_count: 18
+      max_section_chars: 10321
+      file_size_chars: 48487
+      flags: []
+    layer2:
+      agent: subagent-sonnet-4-6
+      concrete_problemen:
+        - categorie: A9
+          regel: 107
+          type: ocr-confusion
+          voorbeeld: Tegerlijkertijd wordt op hem ook het risico...
+        - categorie: A6
+          regel: 234
+          type: other
+          voorbeeld: '...moet worden\n\nverwerkt, wanneer :'
+        - categorie: A9
+          regel: 230
+          type: ocr-confusion
+          voorbeeld: financïele kosten waar hij normaliter...
+        - categorie: A9
+          regel: 285
+          type: ocr-confusion
+          voorbeeld: Geleende vastrentende effecten A, "effectenverordening"
+        - categorie: G3
+          regel: 478
+          type: other
+          voorbeeld: '[^6] als losstaande regel midden tussen boekingsblokken'
+        - categorie: A9
+          regel: 498
+          type: ocr-confusion
+          voorbeeld: Op balansdatrum moet de geprorateerde vergoeding...
+        - categorie: A9
+          regel: 677
+          type: ocr-confusion
+          voorbeeld: lengsovereenkomst lange tijd vóór de afwikkelingsdatum...
+      rationale: 'Meerdere A6-breuken (zin gesplitst over twee regels zonder leesteken aan het einde, r.234-236) en twee G3-instanties (voetnootinhoud in mid-tekst via [^6] en [^7] die als standalone regels verschijnen midden in de boekings-reeksen). Daarnaast D4-equivalent: ''effectenverordening'' (r.285/360) is OCR-verwarring voor ''effectenvordering'' (A9). Losse tikfouten ''financïele'' (r.230), ''balansdatrum'' (r.498), ''lengsovereenkomst'' (r.677) en ''Tegerlijkertijd'' (r.107) wijzen op onvoldoende post-processing. De tabel-structuur (markdown pipe) zelf is intact.'
+      run_at: '2026-05-11T12:09:17Z'
+      status: needs-rework
+    rationale: 'Meerdere A6-breuken (zin gesplitst over twee regels zonder leesteken aan het einde, r.234-236) en twee G3-instanties (voetnootinhoud in mid-tekst via [^6] en [^7] die als standalone regels verschijnen midden in de boekings-reeksen). Daarnaast D4-equivalent: ''effectenverordening'' (r.285/360) is OCR-verwarring voor ''effectenvordering'' (A9). Losse tikfouten ''financïele'' (r.230), ''balansdatrum'' (r.498), ''lengsovereenkomst'' (r.677) en ''Tegerlijkertijd'' (r.107) wijzen op onvoldoende post-processing. De tabel-structuur (markdown pipe) zelf is intact.'
+    status: needs-rework
 themas:
   - coupon
   - effecten
@@ -12,67 +73,6 @@ themas:
   - Waardevermindering
   - vergoeding voor ontbrekende coupon
   - aandelen
-bron: https://www.cbn-cnc.be/nl/adviezen/verwerking-van-leningen-en-ontleningen-van-effecten-in-de-jaarrekening-van-ondernemingen
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/verwerking-van-leningen-en-ontleningen-van-effecten-in-de-jaarrekening-van-ondernemingen
-      sha256: becb90a513b6601dde80ef71d42c2fc123218f5918b7d032f8108f2bdcab550a
-      version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:35:34Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T12:09:17Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "Meerdere A6-breuken (zin gesplitst over twee regels zonder leesteken aan het einde, r.234-236) en twee G3-instanties (voetnootinhoud in mid-tekst via [^6] en [^7] die als standalone regels verschijnen midden in de boekings-reeksen). Daarnaast D4-equivalent: 'effectenverordening' (r.285/360) is OCR-verwarring voor 'effectenvordering' (A9). Losse tikfouten 'financïele' (r.230), 'balansdatrum' (r.498), 'lengsovereenkomst' (r.677) en 'Tegerlijkertijd' (r.107) wijzen op onvoldoende post-processing. De tabel-structuur (markdown pipe) zelf is intact."
-    layer1:
-      status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 18
-      max_section_chars: 16033
-      file_size_chars: 48506
-      flags: []
-    layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:09:17Z'
-      rationale: "Meerdere A6-breuken (zin gesplitst over twee regels zonder leesteken aan het einde, r.234-236) en twee G3-instanties (voetnootinhoud in mid-tekst via [^6] en [^7] die als standalone regels verschijnen midden in de boekings-reeksen). Daarnaast D4-equivalent: 'effectenverordening' (r.285/360) is OCR-verwarring voor 'effectenvordering' (A9). Losse tikfouten 'financïele' (r.230), 'balansdatrum' (r.498), 'lengsovereenkomst' (r.677) en 'Tegerlijkertijd' (r.107) wijzen op onvoldoende post-processing. De tabel-structuur (markdown pipe) zelf is intact."
-      concrete_problemen:
-        - regel: 107
-          categorie: A9
-          type: ocr-confusion
-          voorbeeld: Tegerlijkertijd wordt op hem ook het risico...
-        - regel: 234
-          categorie: A6
-          type: other
-          voorbeeld: '...moet worden\n\nverwerkt, wanneer :'
-        - regel: 230
-          categorie: A9
-          type: ocr-confusion
-          voorbeeld: financïele kosten waar hij normaliter...
-        - regel: 285
-          categorie: A9
-          type: ocr-confusion
-          voorbeeld: Geleende vastrentende effecten A, "effectenverordening"
-        - regel: 478
-          categorie: G3
-          type: other
-          voorbeeld: '[^6] als losstaande regel midden tussen boekingsblokken'
-        - regel: 498
-          categorie: A9
-          type: ocr-confusion
-          voorbeeld: Op balansdatrum moet de geprorateerde vergoeding...
-        - regel: 677
-          categorie: A9
-          type: ocr-confusion
-          voorbeeld: lengsovereenkomst lange tijd vóór de afwikkelingsdatum...
 ---
 
 # CBN-advies 169/1 - Verwerking van leningen en ontleningen van effecten in de jaarrekening van ondernemingen
@@ -154,8 +154,7 @@ Evenzo mag de lener, in het tegenovergestelde geval (koers beneden de boekwaarde
 
 Wat de verhandelbare effecten betreft die zijn opgenomen in de jaarrekening van de kredietinstellingen, moet evenwel worden onderstreept dat het Koninklijk Besluit van 23 september 1992 op de jaarrekening van de kredietinstellingen[^1], bepaalt dat dergelijke verhandelbare effecten tegen marktwaarde worden gewaardeerd, met inresultaatneming van zowel de meerwaarden als de minderwaarden die daaruit voortvloeien. 
 
-### Rente en dividenden die tijdens de looptijd van de lening betaalbaar worden gesteld door de emittent van het effect 
-
+Rente en dividenden die tijdens de looptijd van de lening betaalbaar worden gesteld door de emittent van het effect
 1. Om degelijk te kunnen worden geleverd, moeten alle niet-vervallen «coupons» zijn gehecht aan de effecten die werden ontleend om aan een derde (cessionaris of waarborghouder) te worden overgedragen. Het is bijgevolg de derde, die volledig buiten de leningsverrichting staat en daarvan niet op de hoogte is, die de coupon zal innen en hem zal boeken rekening houdend met zijn kenmerken (in het bijzonder met de fiscale kenmerken). 
 
 	Daaruit vloeit voort dat de lener de inkomsten die de coupon vertegenwoordigen, met al zijn kenmerken, niet als eigen inkomsten zal kunnen beschouwen en boeken. 
@@ -216,8 +215,7 @@ In het tweede geval weet de ontlener niet hoeveel hij zal moeten uitgeven om zic
 
 #### Door de lener 
 
-Bij het verstrijken van het boekjaar worden de geleende effecten gewaardeerd zoals de effecten in portefeuille van dezelfde categorie. Zo zal wanneer de waarde van de effecten, vastgesteld op basis van de geldende criteria voor de effectencategorie waartoe zij behoren (financieel vast actief/ geldbeleggingen), onder de netto(boek)waarde ligt waartegen de geleende effecten zijn geboekt, naar verhouding een waardevermindering worden vastgesteld op dezelfde manier en op basis van dezelfde criteria als wanneer de betrokken effecten niet waren geleend. Zo ook, indien de vroeger geboekte waardevermindering op de effecten in portefeuille niet langer verantwoord blijkt, moet de waardevermindering op de geleende effecten naar verhouding worden teruggenomen. Indien, bij het verstrijken van het boekjaar, de waarde van het effect daarentegen de aanschaffingswaarde van de effecten worden geboekt, behalve indien het een kredietinstelling betreft[^2]
- en indien de geleende effecten verhandelbare effecten zijn die op balansdatum tegen marktwaarde moeten worden gewaardeerd, ongeacht of die marktwaarde onder of boven de aanschaffingswaarde ligt. 
+Bij het verstrijken van het boekjaar worden de geleende effecten gewaardeerd zoals de effecten in portefeuille van dezelfde categorie. Zo zal wanneer de waarde van de effecten, vastgesteld op basis van de geldende criteria voor de effectencategorie waartoe zij behoren (financieel vast actief/ geldbeleggingen), onder de netto(boek)waarde ligt waartegen de geleende effecten zijn geboekt, naar verhouding een waardevermindering worden vastgesteld op dezelfde manier en op basis van dezelfde criteria als wanneer de betrokken effecten niet waren geleend. Zo ook, indien de vroeger geboekte waardevermindering op de effecten in portefeuille niet langer verantwoord blijkt, moet de waardevermindering op de geleende effecten naar verhouding worden teruggenomen. Indien, bij het verstrijken van het boekjaar, de waarde van het effect daarentegen de aanschaffingswaarde van de effecten worden geboekt, behalve indien het een kredietinstelling betreft[^2] en indien de geleende effecten verhandelbare effecten zijn die op balansdatum tegen marktwaarde moeten worden gewaardeerd, ongeacht of die marktwaarde onder of boven de aanschaffingswaarde ligt. 
 
 Indien het een vastrentend effect betreft, zullen de gelopen inkomsten pro rata temporis in resultaat worden genomen als verworven opbrengsten; indien de fiscale regeling voor de inkomsten uit geleende effecten verschilt van de fiscale regeling voor de inkomsten uit effecten in portefeuille, moet het verworven prorata in afzonderlijke rekeningen (subrekeningen) worden geboekt. 
 
@@ -278,7 +276,7 @@ Rekening houdend met de verscheidenheid aan mogelijke hypotheses en met de contr
 
 Voorbeeld : Op 15/12/199n sluit een handelsonderneming na verkoop van staatsobligaties vanuit een ongedekte positie en voor een bedrag van 1 005 (tegen een vaste rentevoet van 7 %), met een andere onderneming voor een periode van 15 dagen (vervaldatum van de coupon : 15 april) een ontleningsovereenkomst met betrekking tot die staatsobligaties. In zijn boekhouding boekt de lener de effecten voor een bedrag van 1 000 onder "Geldbeleggingen" en een waardevermindering van 10. De vergoeding voor de lening bedraagt 1 (2,4 % op 15 dagen). De betrokken verrichtingen worden als volgt in de jaarrekening verwerkt : 
 
-1. *Boekingen door de lener en de ontlener vóór het afsluiten van de lenings-/ontleningsovereenkomst *
+1. *Boekingen door de lener en de ontlener vóór het afsluiten van de lenings-/ontleningsovereenkomst* 
 
 **Lener**
 
@@ -296,7 +294,7 @@ Voorbeeld : Op 15/12/199n sluit een handelsonderneming na verkoop van staatsobli
 | | 06... | Debiteuren wegens op termijn verkochte effecten | 1.005 | |
 | aan | 06... | Titres vendus à terme à livrer | | 1.005 |
 
-2. *Afsluiting van de lenings-/ontleningsverrichting met betrekking tot effecten A waarbij : *
+2. *Afsluiting van de lenings-/ontleningsverrichting met betrekking tot effecten A waarbij :* 
 
 - bij de lener het geleende effect uit de balans wordt afgeboekt en een «effectenvordering» tegen nettoboekwaarde wordt geboekt in dezelfde post als in de oorspronkelijke rekening van het geleende effect; 
 - bij de ontlener ten gevolge van de eigendomsoverdracht (die wordt geacht te hebben plaatsgevonden) : 
@@ -326,7 +324,7 @@ Aangezien de ontlener vanuit een ongedekte positie heeft verkocht, worden die be
 | | 5200 | Vastrentende effecten A | 1.010 | |
 | aan | 487 | Ontleende, terug te geven effecten | | 1.010 |
 
-3. *Levering aan cliënt van de effecten A die hij van de ontlener heeft gekocht*
+### 3. *Levering aan cliënt van de effecten A die hij van de ontlener heeft gekocht*
 
 De afwikkeling van de tegenpartijverrichting (die het afsluiten van de leningsovereenkomst voorafgaat) impliceert voor de ontlener de vaststelling van eventuele koersverschillen tussen het bedrag van de onderliggende verrichting en de «aanschaffingsprijs» van de ontleende effecten.
 
@@ -352,8 +350,7 @@ De afwikkeling van de tegenpartijverrichting (die het afsluiten van de leningsov
 | | 06... | Op termijn verkochte, te leveren effecten | 1.005 | |
 | aan | 06... | Debiteuren wegens op termijn verkochte effecten | | 1.005 |
 
-4. *Aankoop op de markt door de ontlener van de effecten die hij aan de lener moet teruggeven *
-
+4. *Aankoop op de markt door de ontlener van de effecten die hij aan de lener moet teruggeven*
 Om zijn verplichting tot teruggave van de effecten te kunnen nakomen, koopt de ontlener effecten A op de markt en boekt ze tegen aanschaffingswaarde (namelijk 1.015). Zodra deze dekkingsverrichting is uitgevoerd, wordt ervan uitgegaan dat het resultaat van alle voornoemde verrichtingen, economisch gezien, is gerealiseerd, wat de inresultaatneming impliceert van de meerwaarde of de minderwaarde die voortvloeit uit het verschil tussen : 
 
 - de nettoboekwaarde van de effecten als vastgesteld op de datum waarop de termijnverkoop wordt gesloten, enerzijds; 
@@ -376,7 +373,7 @@ Om zijn verplichting tot teruggave van de effecten te kunnen nakomen, koopt de o
 | aan | 492 | Toe te rekenen kosten | | 5 |
 | aan | 487 | Te ontlenen, terug te geven effecten A | | 5 |
 
- 5. *Afwikkeling van de effectenlening *
+ 5. *Afwikkeling van de effectenlening* 
 
 De saldi van de nog openstaande rekeningen bij de ontlener worden vereffend. De voor de ontleningsverrichting betaalde vergoeding (in dit geval 1 = 2,4 % x 1 000 op 15 dagen) wordt in resultaat genomen. 
 
@@ -410,7 +407,7 @@ De saldi van de nog openstaande rekeningen bij de ontlener worden vereffend. De 
 | | 65... | Vergoeding voor ontleende effecten | 1 | |
 | aan | 55 | Kredietinstellingen | | 1 |
 
-### Variante die rekening houdt met de verrekening van de intresten op de geleende/ontleende effecten, 
+Variante die rekening houdt met de verrekening van de intresten op de geleende/ontleende effecten,
 een tussentijdse afsluiting en de inning van een coupon tijdens de looptijd van de lening/ontlening
 
 Hierbij wordt rekening gehouden met : 
@@ -421,7 +418,7 @@ Hierbij wordt rekening gehouden met :
 
 Voorbeeld : Op 16.13.199n sluit een handelsonderneming na verkoop van staatsobligaties (met een vaste rentevoet van 7 %) vanuit een ongedekte positie voor een bedrag van 1 005, met een andere onderneming een ontleningsovereenkomst met betrekking tot die staatsobligaties voor een periode van 30 dagen (vervaldatum van de coupon : 14 januari). 
 
-In zijn boekhouding boekt de lener de effecten voor een bedrag van 1 000 onder *Geldbeleggingen *en een waardevermindering van 10. Op de datum waarop de leningsovereenkomst wordt gesloten, bedragen de op die effecten verkregen interesten 64.
+In zijn boekhouding boekt de lener de effecten voor een bedrag van 1 000 onder *Geldbeleggingen* en een waardevermindering van 10. Op de datum waarop de leningsovereenkomst wordt gesloten, bedragen de op die effecten verkregen interesten 64.
 
 De vaste termijnverkoop werd afgesloten op 26.12.199n tegen een prijs van 1 071 (de interesten bedragen 66, de koers van de onderliggende obligatie 1 005). 
 
@@ -433,7 +430,7 @@ Er wordt geen rekening gehouden met een eventuele inhouding van roerende voorhef
 
 De betrokken verrichtingen worden als volgt in de jaarrekening verwerkt : 
 
-1. *Boekingen door de lener en de ontlener vóór het afsluiten van de lenings-/ontleningsovereenkomst *
+1. *Boekingen door de lener en de ontlener vóór het afsluiten van de lenings-/ontleningsovereenkomst* 
 
 **Lener**
 
@@ -455,7 +452,7 @@ De betrokken verrichtingen worden als volgt in de jaarrekening verwerkt :
 | | 06... | Debiteuren wegens op termijn verkochte effecten | 1.071 | |
 | aan | 06... | Op termijn verkochte te leveren effecten | | 1.071 |
 
-*2. Afsluiting van de lenings-/ontleningsverrichting met betrekking tot effecten A waarbij[^5] *
+*2. Afsluiting van de lenings-/ontleningsverrichting met betrekking tot effecten A waarbij[^5]* 
 
 - bij de lener het geleende effect uit de balans wordt afgeboekt en een «effectenvordering» tegen nettoboekwaarde wordt geboekt in dezelfde post als in de oorspronkelijke rekening van het geleende effect; 
 
@@ -493,7 +490,7 @@ Aangezien ontlener vanuit een ongedekte positie heeft verkocht, wordt de effecte
 |---|----------|--------------|-------|--------|
 | aan | 487 | Ontleende, terug te geven effecten A | | 1.080 |
 
-3. *Levering aan cliënt van de effecten A die van de ontlener werden gekocht *
+3. *Levering aan cliënt van de effecten A die van de ontlener werden gekocht* 
 
 De afwikkeling van de tegenpartijverrichting (die het afsluiten van de leningsovereenkomst voorafgaat) impliceert voor de ontlener de vaststelling van eventuele koersverschillen tussen het bedrag van de onderliggende verrichting en de «aanschaffingsprijs» van de ontleende effecten (met inbegrip van gelopen interesten op de te leveren effecten).
 
@@ -502,8 +499,6 @@ De afwikkeling van de tegenpartijverrichting (die het afsluiten van de leningsov
 /
 
 **Ontlener**
-
- [^6]
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
@@ -521,7 +516,7 @@ De afwikkeling van de tegenpartijverrichting (die het afsluiten van de leningsov
 | | 06... | Op termijn verkochte, te leveren effecten | 1.005 | |
 | aan | 06... | Debiteuren wegens op termijn verkochte effecten | | 1.005 |
 
-4. *Tussentijdse balans (op 31/12/199n) *
+### 4. *Tussentijdse balans (op 31/12/199n)* 
 
 Op balansdatrum moet de geprorateerde vergoeding voor de lening van de effecten A (namelijk 2,4 % x 1 000 op 30 dagen /2 = 1) worden geboekt. 
 
@@ -545,8 +540,6 @@ De ontlener verkrijgt op zijn beurt een potentiële meerwaarde (berekend in verh
 |---|----------|--------------|-------|--------|
 | | 491 | Verkregen opbrengsten | 1 | |
 | aan | 75... | Vergoeding voor geleende effecten | | 1 |
-
-[^7]
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
@@ -653,7 +646,7 @@ Bovendien moet worden onderstreept dat enkel de in punt 4 bedoelde hypothese A (
 | | 65 | Financiële kosten | 70 | |
 | aan | 5201 | Vastrentende effecten A (gelopen intresten) | | 70 |
 
- 7. *Afwikkeling van de effectenlening *
+ 7. *Afwikkeling van de effectenlening* 
 
 De saldi van de nog geopende rekeningen bij de ontlener worden vereffend. De kosten van de voor de ontleningsverrichting betaalde vergoeding (in dit geval : 2 = 2,4 % x 1 000 op 30 dagen) worden op hun beurt in resultaat genomen voor de periode tussen 1.1.199n+1 en 15.1.199n+1.
 
@@ -694,7 +687,7 @@ De saldi van de nog geopende rekeningen bij de ontlener worden vereffend. De kos
 | | 492 | Toe te rekenen kosten | 1 | |
 | aan | 55 | Kredietinstellingen | | 2 |
 
-[^1]: De Belgische Regering heeft gebruik gemaakt van de optie in artikel 36 van de richtlijn 86/635/E.E.G. van de Raad van 8 december 1986 (betreffende de jaarrekening en de geconsolideerde jaarrekening van banken en andere financiële instellingen) die de Lid-Staten de mogeljkheid biedt om de toepassing van de «markt¬to-market» toe te staan of voor te schrijven voor verhandelbare effecten die geen financiële vaste activa zijn.
+[^1]: De Belgische Regering heeft gebruik gemaakt van de optie in artikel 36 van de richtlijn 86/635/E.E.G. van de Raad van 8 december 1986 (betreffende de jaarrekening en de geconsolideerde jaarrekening van banken en andere financiële instellingen) die de Lid-Staten de mogeljkheid biedt om de toepassing van de «markt-to-market» toe te staan of voor te schrijven voor verhandelbare effecten die geen financiële vaste activa zijn.
 
 [^2]: Hetzelfde zou gelden voor de andere categorieën van ondernemingen waarop de regel van de waardering tegen marktkoers van toepassing zou worden verklaard.
 

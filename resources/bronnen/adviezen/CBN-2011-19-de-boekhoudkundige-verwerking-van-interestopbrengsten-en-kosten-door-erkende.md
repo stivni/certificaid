@@ -1,68 +1,65 @@
 ---
-nummer: CBN-advies 2011/19
-datum: 2011-10-05
-themas:
-  - erkende kredietmaatschappij
-  - kredietmaatschappij
 bron: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-interestopbrengsten-en-kosten-door-erkende
+datum: 2011-10-05
+nummer: CBN-advies 2011/19
 provenance:
+  generated_at: '2026-05-11T13:05:08Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-interestopbrengsten-en-kosten-door-erkende
       sha256: 6e6268271b2b7aa39644cb41d0ad3b69eced439bd52ae437e23c2be5296875e9
       version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:36:16Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
   trust:
-    status: needs-rework
     confirmed_at: '2026-05-11T12:09:18Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: 'D4: regels 55–58 tonen het bekende `*term *`-patroon (spatie voor closing asterisk): `*"Een Belgische of buitenlandse onderneming: *` en `*waarvan de werkzaamheden... of * ` — malformed italic die een mens nooit zo zou typen. Het gaat om het geciteerde wetsartikel dat in italics staat maar door de spaties-voor-closing-asterisk misrendered kan worden door markdown-parsers.'
     layer1:
       status: pass
-      run_id: 20260511-083333
-      run_at:
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:28Z'
       heading_count: 2
       max_section_chars: 2386
-      file_size_chars: 5056
+      file_size_chars: 5053
       flags: []
     layer2:
-      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:09:18Z'
-      rationale: 'D4: regels 55–58 tonen het bekende `*term *`-patroon (spatie voor closing asterisk): `*"Een Belgische of buitenlandse onderneming: *` en `*waarvan de werkzaamheden... of * ` — malformed italic die een mens nooit zo zou typen. Het gaat om het geciteerde wetsartikel dat in italics staat maar door de spaties-voor-closing-asterisk misrendered kan worden door markdown-parsers.'
       concrete_problemen:
-        - regel: 55
-          categorie: D4
+        - categorie: D4
+          regel: 55
           type: other
           voorbeeld: '*"Een Belgische of buitenlandse onderneming: *'
-        - regel: 57
-          categorie: D4
+        - categorie: D4
+          regel: 57
           type: other
           voorbeeld: '*waarvan de werkzaamheden bestaan in het van het publiek... of * '
+      rationale: 'D4: regels 55–58 tonen het bekende `*term *`-patroon (spatie voor closing asterisk): `*"Een Belgische of buitenlandse onderneming: *` en `*waarvan de werkzaamheden... of * ` — malformed italic die een mens nooit zo zou typen. Het gaat om het geciteerde wetsartikel dat in italics staat maar door de spaties-voor-closing-asterisk misrendered kan worden door markdown-parsers.'
+      run_at: '2026-05-11T12:09:18Z'
+      status: needs-rework
+    rationale: 'D4: regels 55–58 tonen het bekende `*term *`-patroon (spatie voor closing asterisk): `*"Een Belgische of buitenlandse onderneming: *` en `*waarvan de werkzaamheden... of * ` — malformed italic die een mens nooit zo zou typen. Het gaat om het geciteerde wetsartikel dat in italics staat maar door de spaties-voor-closing-asterisk misrendered kan worden door markdown-parsers.'
+    status: needs-rework
+themas:
+  - erkende kredietmaatschappij
+  - kredietmaatschappij
 ---
 
 # CBN-advies 2011/19 – De boekhoudkundige verwerking van interestopbrengsten en –kosten door erkende kredietmaatschappijen in Vlaanderen
 
 Met een “erkende kredietmaatschappij” wordt de hypothecaire kredietmaatschappij voor sociaal woonkrediet bedoeld waaraan een erkenning is verleend door de Vlaamse regering overeenkomstig artikel 78, § 1, eerste lid, 1° van het decreet van 15 juli 1997 houdende de Vlaamse Wooncode[^1].
 
-De erkenning kan, onder de gestelde voorwaarden[^2]
- door de minister voor onbepaalde duur verleend worden aan elke kredietmaatschappij die wil deelnemen aan de opdracht van algemeen belang ter bevordering van het bouwen, kopen, verbouwen of behouden van bescheiden woningen. Het Vlaamse gewest waarborgt, onder de voorwaarden die de Vlaamse regering stelt, de terugbetaling van de hoofdsom en de betaling van de interest en de extra kosten van sociale leningen toegestaan door bij besluit van de Vlaamse regering erkende kredietmaatschappijen[^3].
+De erkenning kan, onder de gestelde voorwaarden[^2] door de minister voor onbepaalde duur verleend worden aan elke kredietmaatschappij die wil deelnemen aan de opdracht van algemeen belang ter bevordering van het bouwen, kopen, verbouwen of behouden van bescheiden woningen. Het Vlaamse gewest waarborgt, onder de voorwaarden die de Vlaamse regering stelt, de terugbetaling van de hoofdsom en de betaling van de interest en de extra kosten van sociale leningen toegestaan door bij besluit van de Vlaamse regering erkende kredietmaatschappijen[^3].
 
 ## Onderworpenheid aan de Boekhoudwet
 
-Artikel 15 van de wet van 17 juli 1975 op de boekhouding van de ondernemingen (hierna: Boekhoudwet) stelt dat een aantal bepalingen[^4]
- niet van toepassing zijn op kredietinstellingen die vallen onder de wet van 22 maart 1993 op het statuut van en het toezicht op kredietinstellingen. Het lijkt de Commissie dan ook noodzakelijk om na te gaan in hoeverre een erkende kredietmaatschappij onder de noemer “kredietinstelling” valt. De wet van 22 maart 1993 op het statuut van en het toezicht op de kredietinstellingen[^5]
- definieert een kredietinstelling als volgt: 
+Artikel 15 van de wet van 17 juli 1975 op de boekhouding van de ondernemingen (hierna: Boekhoudwet) stelt dat een aantal bepalingen[^4] niet van toepassing zijn op kredietinstellingen die vallen onder de wet van 22 maart 1993 op het statuut van en het toezicht op kredietinstellingen. Het lijkt de Commissie dan ook noodzakelijk om na te gaan in hoeverre een erkende kredietmaatschappij onder de noemer “kredietinstelling” valt. De wet van 22 maart 1993 op het statuut van en het toezicht op de kredietinstellingen[^5] definieert een kredietinstelling als volgt: 
 
-*“Een Belgische of buitenlandse onderneming: *
+*“Een Belgische of buitenlandse onderneming:* 
 
-1. *waarvan de werkzaamheden bestaan in het van het publiek in ontvangst nemen van gelddeposito's of van andere terugbetaalbare gelden en het verlenen van kredieten voor eigen rekening, of * 
+1. *waarvan de werkzaamheden bestaan in het van het publiek in ontvangst nemen van gelddeposito's of van andere terugbetaalbare gelden en het verlenen van kredieten voor eigen rekening, of*  
 2. *waarvan de werkzaamheden bestaan in het uitgeven van betaalinstrumenten in de vorm van elektronisch geld.”* 
 
 Het *publiek in ontvangst nemen van gelddeposito's of van andere terugbetaalbare gelden* is geen activiteit die een erkende kredietmaatschappij kan ontwikkelen. Het betreft bijgevolg geen onderneming onderworpen aan het koninklijk besluit van 23 september 1992 op de jaarrekening van de kredietinstellingen, de beleggingsondernemingen en de beheervennootschappen van instellingen voor collectieve belegging[^6]. Derhalve is de Boekhoudwet en haar uitvoeringsbesluiten van toepassing. Voor wat betreft de opmaak van de jaarrekening zijn deze ondernemingen onderworpen aan Boek II van het koninklijk besluit van 30 januari 2001 ter uitvoering van het Wetboek van Vennootschappen (hierna: KB W.Venn.).
@@ -71,7 +68,7 @@ Het *publiek in ontvangst nemen van gelddeposito's of van andere terugbetaalbare
 
 Aan de Commissie werd de vraag gesteld op welke resultatenrekeningen de door deze kredietmaatschappijen ontvangen interesten (van particuliere hypothecaire beleggers) en de door hen betaalde interesten (voor de fundingopnames) dienen geboekt te worden.
 
-Artikel 96 KB W.Venn. betreffende de inhoud van bepaalde rubrieken van de resultatenrekening definieert “omzet” als volgt: *“het bedrag van de verkoop van de goederen en de levering van diensten aan derden, in het kader van de gewone bedrijfsuitoefening van de vennootschap ...” *
+Artikel 96 KB W.Venn. betreffende de inhoud van bepaalde rubrieken van de resultatenrekening definieert “omzet” als volgt: *“het bedrag van de verkoop van de goederen en de levering van diensten aan derden, in het kader van de gewone bedrijfsuitoefening van de vennootschap ...”* 
 
 De Commissie voor Boekhoudkundige Normen is de mening toegedaan dat het verstrekken van sociale leningen ter bevordering van het bouwen, kopen, verbouwen of behouden van bescheiden woningen de hoofdactiviteit vormt van de erkende kredietmaatschappijen. Zij adviseert hen dan ook om, in navolging van de definitie van het begrip “omzet” in artikel 96 KB W.Venn. enerzijds en met het oog op de onderlinge vergelijkbaarheid van de erkende kredietmaatschappijen anderzijds, de interestopbrengsten en -kosten op te nemen onder de bedrijfsresultaten, voor wat de ontvangen interesten betreft in de rubriek *Omzet* en voor wat de betaalde interesten aangaat, de rubriek *Handelsgoederen*, grond- en hulpstoffen. Om de lezer van de jaarrekening in deze goede informatie te geven, adviseert de Commissie dat een passende verklaring zou gegeven worden van de aldus gebruikte methodiek in de toelichting bij de jaarrekening.
 

@@ -1,61 +1,61 @@
 ---
-nummer: CBN-advies 2010/3
+bron: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-stockdividenden
 datum: 2010-03-25
+gerelateerde_adviezen:
+  - datum: '1980-06-01'
+    titel: Boeking van bonusaandelen
+    url: https://www.cbn-cnc.be/nl/adviezen/boeking-van-bonusaandelen
+nummer: CBN-advies 2010/3
+provenance:
+  generated_at: '2026-05-11T13:05:07Z'
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-stockdividenden
+      sha256: c15147cac20fa5f43b85a2ac282cdc0c16a2365199873b4b4135ab42e1634a48
+      version:
+  stale: false
+  stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
+  trust:
+    confirmed_at: '2026-05-11T12:09:17Z'
+    confirmed_by: subagent-sonnet-4-6
+    layer1:
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:27Z'
+      heading_count: 3
+      max_section_chars: 4673
+      file_size_chars: 8113
+      flags: []
+    layer2:
+      agent: subagent-sonnet-4-6
+      concrete_problemen:
+        - categorie: A2
+          regel: 51
+          type: dotted-leader
+          voorbeeld: 1. Stockdividenden versus bonusaandelen \n2. Vorderingsrecht in hoofde van de aandeelhouder
+        - categorie: G3
+          regel: 90
+          type: other
+          voorbeeld: ' [^10]  (verweest voetnootanker als losse regel vóór tabel)'
+        - categorie: G3
+          regel: 118
+          type: other
+          voorbeeld: ' [^12]  (verweest voetnootanker als losse regel vóór tabel)'
+      rationale: 'A2/B7: op r51-53 staat een genummerde lijst ''1. Stockdividenden versus bonusaandelen / 2. Vorderingsrecht... / 3. Boekhoudkundige verwerking'' als plain text in de body — dit is een TOC-fragment dat niet verwijderd werd bij extractie, terwijl de echte inhoud als ## headings verder volgt. G3: r90 en r118 bevatten verweesde voetnootankers '' [^10]'' en '' [^12]'' als losse regels midden in de tekst (zonder context-zin), vermoedelijk inline footnote-content die bij PDF-extractie los raakte.'
+      run_at: '2026-05-11T12:09:17Z'
+      status: needs-rework
+    rationale: 'A2/B7: op r51-53 staat een genummerde lijst ''1. Stockdividenden versus bonusaandelen / 2. Vorderingsrecht... / 3. Boekhoudkundige verwerking'' als plain text in de body — dit is een TOC-fragment dat niet verwijderd werd bij extractie, terwijl de echte inhoud als ## headings verder volgt. G3: r90 en r118 bevatten verweesde voetnootankers '' [^10]'' en '' [^12]'' als losse regels midden in de tekst (zonder context-zin), vermoedelijk inline footnote-content die bij PDF-extractie los raakte.'
+    status: needs-rework
 themas:
   - bonusaandelen
   - dividenden
   - kapitaalverhoging
   - keuzedividend
   - stockdividend
-bron: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-stockdividenden
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-stockdividenden
-      sha256: c15147cac20fa5f43b85a2ac282cdc0c16a2365199873b4b4135ab42e1634a48
-      version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:35:57Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T12:09:17Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "A2/B7: op r51-53 staat een genummerde lijst '1. Stockdividenden versus bonusaandelen / 2. Vorderingsrecht... / 3. Boekhoudkundige verwerking' als plain text in de body — dit is een TOC-fragment dat niet verwijderd werd bij extractie, terwijl de echte inhoud als ## headings verder volgt. G3: r90 en r118 bevatten verweesde voetnootankers ' [^10]' en ' [^12]' als losse regels midden in de tekst (zonder context-zin), vermoedelijk inline footnote-content die bij PDF-extractie los raakte."
-    layer1:
-      status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 3
-      max_section_chars: 4689
-      file_size_chars: 8129
-      flags: []
-    layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:09:17Z'
-      rationale: "A2/B7: op r51-53 staat een genummerde lijst '1. Stockdividenden versus bonusaandelen / 2. Vorderingsrecht... / 3. Boekhoudkundige verwerking' als plain text in de body — dit is een TOC-fragment dat niet verwijderd werd bij extractie, terwijl de echte inhoud als ## headings verder volgt. G3: r90 en r118 bevatten verweesde voetnootankers ' [^10]' en ' [^12]' als losse regels midden in de tekst (zonder context-zin), vermoedelijk inline footnote-content die bij PDF-extractie los raakte."
-      concrete_problemen:
-        - regel: 51
-          categorie: A2
-          type: dotted-leader
-          voorbeeld: 1. Stockdividenden versus bonusaandelen \n2. Vorderingsrecht in hoofde van de aandeelhouder
-        - regel: 90
-          categorie: G3
-          type: other
-          voorbeeld: ' [^10]  (verweest voetnootanker als losse regel vóór tabel)'
-        - regel: 118
-          categorie: G3
-          type: other
-          voorbeeld: ' [^12]  (verweest voetnootanker als losse regel vóór tabel)'
-gerelateerde_adviezen:
-  - titel: Boeking van bonusaandelen
-    url: https://www.cbn-cnc.be/nl/adviezen/boeking-van-bonusaandelen
-    datum: '1980-06-01'
 ---
 
 # CBN-advies 2010/3 -De boekhoudkundige verwerking van stockdividenden Advies van 25 maart 2010
@@ -99,8 +99,6 @@ De latere aanwending van het vorderingsrecht door de aandeelhouder (al dan niet 
 
 *a) Boeking bij aandeelhouders*
 
- [^10]
-
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 416 | Diverse vorderingen | ... | |
@@ -126,8 +124,6 @@ De omzetting van het dividendrecht in nieuwe aandelen ter gelegenheid van de inb
 | aan | 471 | Dividenden over het boekjaar | | ... |
 
 - Bij betaalbaarstelling van de dividenden
-
- [^12]
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|

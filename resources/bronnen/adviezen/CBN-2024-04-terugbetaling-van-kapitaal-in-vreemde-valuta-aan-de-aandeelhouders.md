@@ -1,6 +1,46 @@
 ---
-nummer: CBN-advies 2024/04
+bron: https://www.cbn-cnc.be/nl/adviezen/terugbetaling-van-kapitaal-in-vreemde-valuta-aan-de-aandeelhouders
 datum: 2024-03-13
+gerelateerde_adviezen:
+  - datum: '2019-03-12'
+    titel: Dividenduitkering en kapitaalvermindering in natura
+    url: https://www.cbn-cnc.be/nl/adviezen/dividenduitkering-en-kapitaalvermindering-in-natura-0
+  - datum: '1995-03-01'
+    titel: Toerekening door de aandeelhouder van een terugbetaling van kapitaal of een uitgiftepremie of van een uitkering van reserves
+    url: https://www.cbn-cnc.be/nl/adviezen/toerekening-door-de-aandeelhouder-van-een-terugbetaling-van-kapitaal-of-een-uitgiftepremie
+nummer: CBN-advies 2024/04
+provenance:
+  generated_at: '2026-05-11T13:05:09Z'
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/terugbetaling-van-kapitaal-in-vreemde-valuta-aan-de-aandeelhouders
+      sha256: 935540be7b4d90a785af3089c2bcb940028d9e8241a35b78a265829bdb2743e9
+      version:
+  stale: false
+  stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
+  trust:
+    confirmed_at: '2026-05-11T12:24:34Z'
+    confirmed_by: subagent-sonnet-4-6
+    layer1:
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:31Z'
+      heading_count: 5
+      max_section_chars: 8881
+      file_size_chars: 16557
+      flags: []
+    layer2:
+      agent: subagent-sonnet-4-6
+      concrete_problemen: []
+      rationale: 'Geen zichtbare extractie-artefacten. Twee uitgewerkte voorbeelden met journaalboekingen in correcte pipe-tabellen. Voetnoten [^1]–[^16] volledig. Heading-hiërarchie correct (#, ##). Inhoud volledig voor het onderwerp (historische vs. actuele wisselkoers, hypothese 1 en 2, voorbeeld 2 met doorverkoop). Geen TOC-residu, geen malformed bold/italic.'
+      run_at: '2026-05-11T12:24:34Z'
+      status: trusted
+    rationale: 'Geen zichtbare extractie-artefacten. Twee uitgewerkte voorbeelden met journaalboekingen in correcte pipe-tabellen. Voetnoten [^1]–[^16] volledig. Heading-hiërarchie correct (#, ##). Inhoud volledig voor het onderwerp (historische vs. actuele wisselkoers, hypothese 1 en 2, voorbeeld 2 met doorverkoop). Geen TOC-residu, geen malformed bold/italic.'
+    status: trusted
 themas:
   - terugbetaling van kapitaal
   - kapitaalvermindering
@@ -17,57 +57,15 @@ themas:
   - werkelijke wisselkoers
   - actuele wisselkoers
   - wisselresultaat
-bron: https://www.cbn-cnc.be/nl/adviezen/terugbetaling-van-kapitaal-in-vreemde-valuta-aan-de-aandeelhouders
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/terugbetaling-van-kapitaal-in-vreemde-valuta-aan-de-aandeelhouders
-      sha256: 935540be7b4d90a785af3089c2bcb940028d9e8241a35b78a265829bdb2743e9
-      version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:38:20Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: trusted
-    confirmed_at: '2026-05-11T12:24:34Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: 'Geen zichtbare extractie-artefacten. Twee uitgewerkte voorbeelden met journaalboekingen in correcte pipe-tabellen. Voetnoten [^1]–[^16] volledig. Heading-hiërarchie correct (#, ##). Inhoud volledig voor het onderwerp (historische vs. actuele wisselkoers, hypothese 1 en 2, voorbeeld 2 met doorverkoop). Geen TOC-residu, geen malformed bold/italic.'
-    layer1:
-      status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 5
-      max_section_chars: 8881
-      file_size_chars: 16560
-      flags: []
-    layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:24:34Z'
-      rationale: 'Geen zichtbare extractie-artefacten. Twee uitgewerkte voorbeelden met journaalboekingen in correcte pipe-tabellen. Voetnoten [^1]–[^16] volledig. Heading-hiërarchie correct (#, ##). Inhoud volledig voor het onderwerp (historische vs. actuele wisselkoers, hypothese 1 en 2, voorbeeld 2 met doorverkoop). Geen TOC-residu, geen malformed bold/italic.'
-      concrete_problemen: []
-gerelateerde_adviezen:
-  - titel: Dividenduitkering en kapitaalvermindering in natura
-    url: https://www.cbn-cnc.be/nl/adviezen/dividenduitkering-en-kapitaalvermindering-in-natura-0
-    datum: '2019-03-12'
-  - titel: Toerekening door de aandeelhouder van een terugbetaling van kapitaal of een uitgiftepremie of van een uitkering van reserves
-    url: https://www.cbn-cnc.be/nl/adviezen/toerekening-door-de-aandeelhouder-van-een-terugbetaling-van-kapitaal-of-een-uitgiftepremie
-    datum: '1995-03-01'
 ---
 
 # CBN-advies 2024/04 – Terugbetaling van kapitaal in vreemde valuta aan de aandeelhouders
 
 ## Inleiding
 
-Wanneer een Belgische vennootschap (die haar boekhouding in euro voert) een deelneming verkrijgt in een vennootschap met een andere functionele valuta dan de euro, wordt het bedrag van de inbreng in geld in vreemde valuta omgezet in euro tegen in principe de wisselkoers van de dag van de verrichting[^2]
- (historische wisselkoers). Deze deelneming blijft steeds geboekt in de boekhouding en jaarrekening van de Belgische vennootschap tegen de historische wisselkoers.
+Wanneer een Belgische vennootschap (die haar boekhouding in euro voert) een deelneming verkrijgt in een vennootschap met een andere functionele valuta dan de euro, wordt het bedrag van de inbreng in geld in vreemde valuta omgezet in euro tegen in principe de wisselkoers van de dag van de verrichting[^2] (historische wisselkoers). Deze deelneming blijft steeds geboekt in de boekhouding en jaarrekening van de Belgische vennootschap tegen de historische wisselkoers.
 
-In onderhavig advies bespreekt de Commissie de boekhoudkundige verwerking in hoofde van een Belgische vennootschap-aandeelhouder van een (gedeeltelijke) terugbetaling van kapitaal[^3]
- door een buitenlandse vennootschap met een andere functionele valuta dan de euro die leidt tot een wisselverlies (of -winst) ingeval de historische wisselkoers van de vreemde munt t.o.v. de euro hoger (of lager) is dan de actuele koers.
+In onderhavig advies bespreekt de Commissie de boekhoudkundige verwerking in hoofde van een Belgische vennootschap-aandeelhouder van een (gedeeltelijke) terugbetaling van kapitaal[^3] door een buitenlandse vennootschap met een andere functionele valuta dan de euro die leidt tot een wisselverlies (of -winst) ingeval de historische wisselkoers van de vreemde munt t.o.v. de euro hoger (of lager) is dan de actuele koers.
 
 Onderhavig advies behandelt uitsluitend stabiele, internationaal erkende, vreemde valuta, zoals bijvoorbeeld de valuta van de OESO-landen.[^4] 
 
@@ -82,8 +80,7 @@ In CBN-advies 152/4 verduidelijkt de Commissie dat de aanschaffingswaarde waarte
 
 Zodra de aanschaffingswaarde in euro wordt bepaald, moet - en mag - er geen rekening meer gehouden worden met het gegeven dat deze aanschaffingswaarde oorspronkelijk in een andere valuta werd uitgedrukt. Bijgevolg moet de aanschaffingswaarde niet meer aangepast worden aan de latere evolutie van de wisselkoers van de vreemde munt.
 
-Door het principe zoals opgenomen in artikel 3:13 KB WVV (beginsel van boeking tegen aanschaffingswaarde) in verband te brengen met het gegeven dat de deelnemingen niet-monetaire activa zijn (waardoor de aanschaffingswaarde in principe niet kan worden aangepast aan latere wisselkoersschommelingen), moet een terugbetaling van kapitaal in vreemde valuta door een buitenlandse vennootschap (die leidt tot een vermindering[^8] van de boekwaarde van de deelneming van de vennootschap-aandeelhouder), in hoofde van de vennootschap-aandeelhouder, in euro worden omgezet tegen de *historische *wisselkoers[^9]
- en niet tegen de *actuele* wisselkoers[^10]. Zodoende zal het bedrag waarmee de boekwaarde van de deelneming zal worden gecrediteerd niet worden beïnvloed door het latere koersverloop van de valuta. De actuele wisselkoers zal wel bepalend zijn voor de boeking van de vordering die ontstaat als gevolg van de beslissing tot terugbetaling. 
+Door het principe zoals opgenomen in artikel 3:13 KB WVV (beginsel van boeking tegen aanschaffingswaarde) in verband te brengen met het gegeven dat de deelnemingen niet-monetaire activa zijn (waardoor de aanschaffingswaarde in principe niet kan worden aangepast aan latere wisselkoersschommelingen), moet een terugbetaling van kapitaal in vreemde valuta door een buitenlandse vennootschap (die leidt tot een vermindering[^8] van de boekwaarde van de deelneming van de vennootschap-aandeelhouder), in hoofde van de vennootschap-aandeelhouder, in euro worden omgezet tegen de *historische* wisselkoers[^9] en niet tegen de *actuele* wisselkoers[^10]. Zodoende zal het bedrag waarmee de boekwaarde van de deelneming zal worden gecrediteerd niet worden beïnvloed door het latere koersverloop van de valuta. De actuele wisselkoers zal wel bepalend zijn voor de boeking van de vordering die ontstaat als gevolg van de beslissing tot terugbetaling. 
 
 In geval van waardedaling van de vreemde munt t.o.v. de euro[^11], is de aanrekening (credit) op de deelneming (tegen de historische wisselkoers) groter dan de boekwaarde van de vordering die ontstaat naar aanleiding van de kapitaalvermindering (tegen de actuele wisselkoers[^12]). Aldus moet een kost (wisselverlies) geboekt worden (ten belope van het verschil tussen, enerzijds, het credit van de deelneming en, anderzijds, het debet van de vordering) op rekening 654 *Wisselresultaten*.
 

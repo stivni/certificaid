@@ -1,6 +1,76 @@
 ---
-nummer: CBN-advies 121/3
+bron: https://www.cbn-cnc.be/nl/adviezen/mutaties-binnen-het-eigen-vermogen
 datum: 1995-03-01
+gerelateerde_adviezen:
+  - datum: '1981-12-01'
+    titel: Aanwending van herwaarderingsmeerwaarden
+    url: https://www.cbn-cnc.be/nl/adviezen/aanwending-van-herwaarderingsmeerwaarden-0
+  - datum: '1981-04-01'
+    titel: Aanwending van herwaarderingsmeerwaarden
+    url: https://www.cbn-cnc.be/nl/adviezen/aanwending-van-herwaarderingsmeerwaarden
+  - datum: '1983-04-01'
+    titel: Verlies gedragen door vennoten
+    url: https://www.cbn-cnc.be/nl/adviezen/verlies-gedragen-door-vennoten
+  - datum: '1981-12-01'
+    titel: Verlies gedragen door vennoten of derden
+    url: https://www.cbn-cnc.be/nl/adviezen/verlies-gedragen-door-vennoten-of-derden
+nummer: CBN-advies 121/3
+provenance:
+  generated_at: '2026-05-11T13:05:05Z'
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/mutaties-binnen-het-eigen-vermogen
+      sha256: a494a51dc41c670cd4c09f0ab8e895eaf42e573697f0b32ef9126a0f635717da
+      version:
+  stale: false
+  stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
+  trust:
+    confirmed_at: '2026-05-11T11:57:45Z'
+    confirmed_by: subagent-sonnet-4-6
+    layer1:
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:25Z'
+      heading_count: 11
+      max_section_chars: 6114
+      file_size_chars: 13628
+      flags: []
+    layer2:
+      agent: subagent-sonnet-4-6
+      concrete_problemen:
+        - categorie: B4
+          regel: 142
+          type: other
+          voorbeeld: '**RESULTAATVERWERKING **'
+        - categorie: B4
+          regel: 149
+          type: other
+          voorbeeld: '**SAMENVATTING VAN MUTATIES BINNEN HET EIGEN VERMOGEN **'
+        - categorie: B4
+          regel: 153
+          type: other
+          voorbeeld: '**I. MUTATIES BINNEN HET EIGEN VERMOGEN MET TEGENBOEKING IN EEN BALANSPOST **'
+        - categorie: B4
+          regel: 182
+          type: other
+          voorbeeld: '**II. MUTATIES BINNEN HET EIGEN VERMOGEN MET TEGENBOEKING IN EEN RESULTATENREKENING **'
+        - categorie: B4
+          regel: 187
+          type: other
+          voorbeeld: '**III. MUTATIES BINNEN HET EIGEN VERMOGEN MET TEGENBOEKING IN EEN OF MEER POSTEN VAN D'
+        - categorie: A4
+          regel: 100
+          type: other
+          voorbeeld: eigen¬vermogensbestanddelen (U+00AC NOT SIGN i.p.v. koppelteken)
+      rationale: 'Twee categorieën problemen: (1) B4: vijf sectie-titels zijn als **BOLD** opgemaakt in plaats van als ## heading (regels 142, 149, 153, 182, 187) — dit zijn duidelijk structuurniveaus (RESULTAATVERWERKING, SAMENVATTING, I./II./III.) die als headings bedoeld zijn. (2) A4: U+00AC (NOT SIGN, ¬) op regel 100 in ''eigen¬vermogensbestanddelen'' — PDF-extractie-artefact, waarschijnlijk een koppelteken dat fout gelezen werd. Rest van de tekst inhoudelijk volledig en coherent.'
+      run_at: '2026-05-11T11:57:45Z'
+      status: needs-rework
+    rationale: 'Twee categorieën problemen: (1) B4: vijf sectie-titels zijn als **BOLD** opgemaakt in plaats van als ## heading (regels 142, 149, 153, 182, 187) — dit zijn duidelijk structuurniveaus (RESULTAATVERWERKING, SAMENVATTING, I./II./III.) die als headings bedoeld zijn. (2) A4: U+00AC (NOT SIGN, ¬) op regel 100 in ''eigen¬vermogensbestanddelen'' — PDF-extractie-artefact, waarschijnlijk een koppelteken dat fout gelezen werd. Rest van de tekst inhoudelijk volledig en coherent.'
+    status: needs-rework
 themas:
   - verlies
   - aanzuivering overgedragen verlies
@@ -27,76 +97,6 @@ themas:
   - uitgiftepremie
   - uitkering aan derden
   - uitkering aan vennoten
-bron: https://www.cbn-cnc.be/nl/adviezen/mutaties-binnen-het-eigen-vermogen
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/mutaties-binnen-het-eigen-vermogen
-      sha256: a494a51dc41c670cd4c09f0ab8e895eaf42e573697f0b32ef9126a0f635717da
-      version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:34:32Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T11:57:45Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "Twee categorieën problemen: (1) B4: vijf sectie-titels zijn als **BOLD** opgemaakt in plaats van als ## heading (regels 142, 149, 153, 182, 187) — dit zijn duidelijk structuurniveaus (RESULTAATVERWERKING, SAMENVATTING, I./II./III.) die als headings bedoeld zijn. (2) A4: U+00AC (NOT SIGN, ¬) op regel 100 in 'eigen¬vermogensbestanddelen' — PDF-extractie-artefact, waarschijnlijk een koppelteken dat fout gelezen werd. Rest van de tekst inhoudelijk volledig en coherent."
-    layer1:
-      status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 6
-      max_section_chars: 6128
-      file_size_chars: 13642
-      flags: []
-    layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T11:57:45Z'
-      rationale: "Twee categorieën problemen: (1) B4: vijf sectie-titels zijn als **BOLD** opgemaakt in plaats van als ## heading (regels 142, 149, 153, 182, 187) — dit zijn duidelijk structuurniveaus (RESULTAATVERWERKING, SAMENVATTING, I./II./III.) die als headings bedoeld zijn. (2) A4: U+00AC (NOT SIGN, ¬) op regel 100 in 'eigen¬vermogensbestanddelen' — PDF-extractie-artefact, waarschijnlijk een koppelteken dat fout gelezen werd. Rest van de tekst inhoudelijk volledig en coherent."
-      concrete_problemen:
-        - regel: 142
-          categorie: B4
-          type: other
-          voorbeeld: '**RESULTAATVERWERKING **'
-        - regel: 149
-          categorie: B4
-          type: other
-          voorbeeld: '**SAMENVATTING VAN MUTATIES BINNEN HET EIGEN VERMOGEN **'
-        - regel: 153
-          categorie: B4
-          type: other
-          voorbeeld: '**I. MUTATIES BINNEN HET EIGEN VERMOGEN MET TEGENBOEKING IN EEN BALANSPOST **'
-        - regel: 182
-          categorie: B4
-          type: other
-          voorbeeld: '**II. MUTATIES BINNEN HET EIGEN VERMOGEN MET TEGENBOEKING IN EEN RESULTATENREKENING **'
-        - regel: 187
-          categorie: B4
-          type: other
-          voorbeeld: '**III. MUTATIES BINNEN HET EIGEN VERMOGEN MET TEGENBOEKING IN EEN OF MEER POSTEN VAN D'
-        - regel: 100
-          categorie: A4
-          type: other
-          voorbeeld: eigen¬vermogensbestanddelen (U+00AC NOT SIGN i.p.v. koppelteken)
-gerelateerde_adviezen:
-  - titel: Aanwending van herwaarderingsmeerwaarden
-    url: https://www.cbn-cnc.be/nl/adviezen/aanwending-van-herwaarderingsmeerwaarden-0
-    datum: '1981-12-01'
-  - titel: Aanwending van herwaarderingsmeerwaarden
-    url: https://www.cbn-cnc.be/nl/adviezen/aanwending-van-herwaarderingsmeerwaarden
-    datum: '1981-04-01'
-  - titel: Verlies gedragen door vennoten
-    url: https://www.cbn-cnc.be/nl/adviezen/verlies-gedragen-door-vennoten
-    datum: '1983-04-01'
-  - titel: Verlies gedragen door vennoten of derden
-    url: https://www.cbn-cnc.be/nl/adviezen/verlies-gedragen-door-vennoten-of-derden
-    datum: '1981-12-01'
 ---
 
 # CBN-advies 121/3 - Mutaties binnen het eigen vermogen
@@ -121,7 +121,7 @@ De Commissie is van oordeel dat interne mutaties binnen het eigen vermogen die h
 
 Dat beginsel is echter niet van toepassing indien een specifieke regel daarvan afwijkt. Zo bij voorbeeld bij de verwerking van het overgedragen resultaat. Uit de voorstelling van de resultaatverwerking blijkt immers duidelijk dat het overgedragen resultaat van het vorige boekjaar hier samen met het resultaat van het boekjaar, het over te dragen resultaat (winst of verlies) vormt. Trouwens, het hier uitgedrukte overgedragen resultaat van het vorige boekjaar stemt uiteraard overeen met het overgedragen resultaat in de jaarrekening van dat vorige boekjaar. 
 
-Diezelfde redenering kan echter niet worden gevolgd voor onttrekkingen aan de reserves en aan andere eigen¬vermogensbestanddelen. De onttrekkingen aan die posten moeten enkel via de resultaatverwerking verlopen wanneer zij bestemd zijn om verliezen aan te zuiveren of uitkeringen aan vennoten of aan derden te dekken. 
+Diezelfde redenering kan echter niet worden gevolgd voor onttrekkingen aan de reserves en aan andere eigen-vermogensbestanddelen. De onttrekkingen aan die posten moeten enkel via de resultaatverwerking verlopen wanneer zij bestemd zijn om verliezen aan te zuiveren of uitkeringen aan vennoten of aan derden te dekken. 
 
 Toevoegingen aan die posten moeten weliswaar enkel via de rekeningen verlopen voor zover de betrokken bedragen uit te verwerken resultaten voortkomen. 
 
@@ -163,26 +163,24 @@ Het betreft in de eerste plaats de overboekingen naar en de onttrekkingen aan de
 
 Vervolgens wordt aandacht besteed aan de aanpassingen van de belastingvrije reserves ingevolge de aanpassing van de daarmee verband houdende belastinglatenties. Artikel 35, § 3 van het koninklijk besluit van 8 oktober 1976 bepaalt dat het gepassiveerde bedrag van de uitgestelde belastingen slechts worden aangepast inzover, ingevolge een wijziging in de fiscale toestand van de onderneming, het effectieve bedrag van de geraamde belasting die in een nabije toekomst op deze subsidies en meerwaarden zal zijn verschuldigd, waarschijnlijk sterk zal verschillen van het bedrag aan passiefzijde. De aanpassing van die belastinglatenties wordt rechtstreeks tegengeboekt onder de belastingvrije reserves[^1] 
 
-**RESULTAATVERWERKING ** 
+## RESULTAATVERWERKING
 
 Uit het voorgaande volgt dat in de resultaat verwerking slechts tot uitdrukking moet worden gebracht : 
 
 - de verwerking van het resultaat uit het saldo van het overgedragen resultaat en het resultaat van het boekjaar; 
 - de onttrekking aan de eigen-vermogensbestanddelen bestemd voor uitkering of voor de totale of gedeeltelijke (boekhoudkundige) aanzuivering van de verliezen. 
 
-**SAMENVATTING VAN MUTATIES BINNEN HET EIGEN VERMOGEN **
+## SAMENVATTING VAN MUTATIES BINNEN HET EIGEN VERMOGEN
 
 Mutaties tussen verschillende eigen-vermogensposten worden onderscheiden naargelang zij worden tegengeboekt in een balanspost, een resultatenrekening of een post van de resultaatverwerking. 
 
-**I. MUTATIES BINNEN HET EIGEN VERMOGEN MET TEGENBOEKING IN EEN BALANSPOST **
+## I. MUTATIES BINNEN HET EIGEN VERMOGEN MET TEGENBOEKING IN EEN BALANSPOST
 
 - Kapitaalverhoging of verhoging van de uitgiftepremie via inbreng door de vennoten, via omzetting van schuldvorderingen of ingevolge fusie 
 - Volstorting van het geplaatst kapitaal 
-- Vermindering van het kapitaal, van de uitgiftepremie of van de "reserves voor de aflossing van het kapitaal"[^2]
- bestemd als terugbetaling aan de vennoten 
+- Vermindering van het kapitaal, van de uitgiftepremie of van de "reserves voor de aflossing van het kapitaal"[^2] bestemd als terugbetaling aan de vennoten 
 - Vermindering van het kapitaal door vrijstelling van de volstorting 
-- Vermindering van de onbeschikbare reserve voor eigen aandelen of, indien geen onbeschikbare reserve is gevormd, vermindering van het kapitaal of van andere reserves[^3]
- bij vernietiging van eigen aandelen 
+- Vermindering van de onbeschikbare reserve voor eigen aandelen of, indien geen onbeschikbare reserve is gevormd, vermindering van het kapitaal of van andere reserves[^3] bij vernietiging van eigen aandelen 
 - Vaststelling van herwaarderingsmeerwaarden 
 - Afboeking van herwaarderingsmeerwaarden : 
 
@@ -203,19 +201,18 @@ Mutaties tussen verschillende eigen-vermogensposten worden onderscheiden naargel
 
 - Verkrijging en eventuele terugbetaling van kapitaalsubsidies (opgenomen onder het eigen vermogen). 
 
-**II. MUTATIES BINNEN HET EIGEN VERMOGEN MET TEGENBOEKING IN EEN RESULTATENREKENING **
+## II. MUTATIES BINNEN HET EIGEN VERMOGEN MET TEGENBOEKING IN EEN RESULTATENREKENING
 
 - Overboeking naar en onttrekking aan de belastingvrije reserves (overboeking naar de belastingvrije reserves) van gerealiseerde meerwaarden die tijdelijk van belastingen zijn vrijgesteld[^7] 
 - Gespreide toerekening aan de resultatenrekening van de kapitaalsubsidies, gelijkmatig met de afschrijving van de investeringen waarop die subsidies betrekking hebben. 
 
-**III. MUTATIES BINNEN HET EIGEN VERMOGEN MET TEGENBOEKING IN EEN OF MEER POSTEN VAN DE RESULTATENVERWERKING **
+## III. MUTATIES BINNEN HET EIGEN VERMOGEN MET TEGENBOEKING IN EEN OF MEER POSTEN VAN DE RESULTATENVERWERKING
 
 - bestemming van het overgedragen resultaat van het vorige boekjaar 
 - Verhoging van het kapitaal of van de reserves door bestemming van het resultaat 
 - Onttrekking aan het kapitaal, aan de uitgiftepremies of aan de reserves, tot aanzuivering van een te verwerken verlies 
 - Onttrekking aan de reserves voor uitkering aan de vennoten of andere begunstigden 
-- Vorming van een "reserve voor aflossing van het kapitaal"[^8]
- en afname van deze reserve bij terugbetaling van de aandelen en hun vervanging door winstbewijzen.
+- Vorming van een "reserve voor aflossing van het kapitaal"[^8] en afname van deze reserve bij terugbetaling van de aandelen en hun vervanging door winstbewijzen.
 
 [^1]: Zie Bulletin van de Commissie nr. 27, p. 32
 

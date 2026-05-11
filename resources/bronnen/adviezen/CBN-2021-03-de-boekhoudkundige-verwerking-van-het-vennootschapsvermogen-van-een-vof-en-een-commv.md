@@ -1,6 +1,39 @@
 ---
-nummer: CBN-advies 2021/03
+bron: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-het-vennootschapsvermogen-van-een-vof-en-een-commv
 datum: 2021-03-11
+nummer: CBN-advies 2021/03
+provenance:
+  generated_at: '2026-05-11T13:05:08Z'
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-het-vennootschapsvermogen-van-een-vof-en-een-commv
+      sha256: 6e31fafb6649d97e2827f0bc0eb53056734b456f97847d592d95a2a7f6f49904
+      version:
+  stale: false
+  stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
+  trust:
+    confirmed_at: '2026-05-11T12:21:40Z'
+    confirmed_by: subagent-sonnet-4-6
+    layer1:
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:30Z'
+      heading_count: 0
+      max_section_chars: 4061
+      file_size_chars: 4061
+      flags: []
+    layer2:
+      agent: subagent-sonnet-4-6
+      concrete_problemen: []
+      rationale: 'Zeer kort advies (4062 tekens) zonder tussensecties — dit weerspiegelt het originele document dat enkel een # titel heeft en dan doorlopende tekst. Geen PDF-artefacten. Rekeningnamen gecursiveerd als *Onbeschikbare inbreng buiten kapitaal* en *Beschikbare inbreng buiten kapitaal* — hier zonder trailing spatie, schoon. Voetnoten [^1]-[^4] correct. Inhoud volledig voor een kort standpuntadvies.'
+      run_at: '2026-05-11T12:21:40Z'
+      status: trusted
+    rationale: 'Zeer kort advies (4062 tekens) zonder tussensecties — dit weerspiegelt het originele document dat enkel een # titel heeft en dan doorlopende tekst. Geen PDF-artefacten. Rekeningnamen gecursiveerd als *Onbeschikbare inbreng buiten kapitaal* en *Beschikbare inbreng buiten kapitaal* — hier zonder trailing spatie, schoon. Voetnoten [^1]-[^4] correct. Inhoud volledig voor een kort standpuntadvies.'
+    status: trusted
 themas:
   - vennootschapsvermogen
   - vennootschap onder firma
@@ -9,39 +42,6 @@ themas:
   - CommV
   - beschikbare inbreng
   - onbeschikbare inbreng
-bron: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-het-vennootschapsvermogen-van-een-vof-en-een-commv
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-het-vennootschapsvermogen-van-een-vof-en-een-commv
-      sha256: 6e31fafb6649d97e2827f0bc0eb53056734b456f97847d592d95a2a7f6f49904
-      version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:37:56Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: trusted
-    confirmed_at: '2026-05-11T12:21:40Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: 'Zeer kort advies (4062 tekens) zonder tussensecties — dit weerspiegelt het originele document dat enkel een # titel heeft en dan doorlopende tekst. Geen PDF-artefacten. Rekeningnamen gecursiveerd als *Onbeschikbare inbreng buiten kapitaal* en *Beschikbare inbreng buiten kapitaal* — hier zonder trailing spatie, schoon. Voetnoten [^1]-[^4] correct. Inhoud volledig voor een kort standpuntadvies.'
-    layer1:
-      status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 0
-      max_section_chars: 4062
-      file_size_chars: 4062
-      flags: []
-    layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:21:40Z'
-      rationale: 'Zeer kort advies (4062 tekens) zonder tussensecties — dit weerspiegelt het originele document dat enkel een # titel heeft en dan doorlopende tekst. Geen PDF-artefacten. Rekeningnamen gecursiveerd als *Onbeschikbare inbreng buiten kapitaal* en *Beschikbare inbreng buiten kapitaal* — hier zonder trailing spatie, schoon. Voetnoten [^1]-[^4] correct. Inhoud volledig voor een kort standpuntadvies.'
-      concrete_problemen: []
 ---
 
 # CBN-advies 2021/03 – Boekhoudkundige verwerking van het vennootschapsvermogen van een VOF en een CommV ingevolge de inwerkingtreding van het WVV
@@ -50,8 +50,7 @@ De Commissie heeft meermaals de vraag ontvangen op welke wijze de bestanddelen v
 
 Het WVV wordt op een dergelijke vennootschap van toepassing vanaf 1 januari 2020, tenzij ze zelf kiest voor een snellere onderwerping aan het WVV. In dat laatste geval wordt het WVV op haar van toepassing vanaf de dag van de bekendmaking van deze statutenwijziging maar ten laatste op 1 januari 2020.[^2] 
 
-De wetgever heeft niet voorzien in expliciete bepalingen die gelden voor de bestanddelen van het vennootschapsvermogen van een op datum van inwerkingtreding van het WVV bestaande vennootschap onder firma of gewone commanditaire vennootschap. De boekhoudkundige verwerking van deze bestanddelen wordt aldus uitsluitend bepaald in functie van wat de statuten[^3]
- daarover vermelden. De Commissie merkt op dat voor deze vennootschappen onder het W.Venn evenwel geen minimale vereisten golden voor wat betreft het vennootschapsvermogen wat ongewijzigd is in het nieuwe WVV. 
+De wetgever heeft niet voorzien in expliciete bepalingen die gelden voor de bestanddelen van het vennootschapsvermogen van een op datum van inwerkingtreding van het WVV bestaande vennootschap onder firma of gewone commanditaire vennootschap. De boekhoudkundige verwerking van deze bestanddelen wordt aldus uitsluitend bepaald in functie van wat de statuten[^3] daarover vermelden. De Commissie merkt op dat voor deze vennootschappen onder het W.Venn evenwel geen minimale vereisten golden voor wat betreft het vennootschapsvermogen wat ongewijzigd is in het nieuwe WVV. 
 
 - Indien ingevolge statutaire bepalingen de inbrengen onbeschikbaar zijn, worden deze geboekt op de rekening 111 *Onbeschikbare inbreng buiten kapitaal*; 
 - Indien uit de statuten geen onbeschikbaarheid blijkt, worden deze geboekt op de rekening 110 *Beschikbare inbreng buiten kapitaal*.[^4] 

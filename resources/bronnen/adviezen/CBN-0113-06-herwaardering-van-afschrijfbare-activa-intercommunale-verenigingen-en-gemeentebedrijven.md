@@ -2,66 +2,59 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/herwaardering-van-afschrijfbare-activa-intercommunale-verenigingen-en-gemeentebedrijven
 datum: 1986-07-01
 gerelateerde_adviezen:
-- datum: '2024-02-08'
-  titel: 'Belgische bijkantoren van buitenlandse verenigingen en stichtingen: toepassing
-    van het Belgisch boekhoudrecht – begrip ‘bijkantoor’ – publicatieplicht – eigen
-    boekhoudkundige verplichtingen'
-  url: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-buitenlandse-verenigingen-en-stichtingen-toepassing-van-het-0
-- datum: '2022-11-08'
-  titel: 'Belgische bijkantoren van buitenlandse vennootschappen: eigen boekhoudkundige
-    verplichtingen (update)'
-  url: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-buitenlandse-vennootschappen-eigen-boekhoudkundige
-- datum: '2019-05-14'
-  titel: Adviesbeleid van de Commissie voor Boekhoudkundige Normen ten aanzien van
-    vragen tot afwijking voor Belgische bijkantoren van buitenlandse vennootschappen
-    (ONTWERP)
-  url: https://www.cbn-cnc.be/nl/adviezen/adviesbeleid-van-de-commissie-voor-boekhoudkundige-normen-ten-aanzien-van-vragen-tot
-- datum: '2019-03-26'
-  titel: 'Belgische bijkantoren van vennootschappen naar buitenlands recht: eigen
-    boekhoudkundige verplichtingen'
-  url: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-vennootschappen-naar-buitenlands-recht-eigen-boekhoudkundige-0
+  - datum: '2024-02-08'
+    titel: 'Belgische bijkantoren van buitenlandse verenigingen en stichtingen: toepassing van het Belgisch boekhoudrecht – begrip ‘bijkantoor’ – publicatieplicht – eigen boekhoudkundige verplichtingen'
+    url: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-buitenlandse-verenigingen-en-stichtingen-toepassing-van-het-0
+  - datum: '2022-11-08'
+    titel: 'Belgische bijkantoren van buitenlandse vennootschappen: eigen boekhoudkundige verplichtingen (update)'
+    url: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-buitenlandse-vennootschappen-eigen-boekhoudkundige
+  - datum: '2019-05-14'
+    titel: Adviesbeleid van de Commissie voor Boekhoudkundige Normen ten aanzien van vragen tot afwijking voor Belgische bijkantoren van buitenlandse vennootschappen (ONTWERP)
+    url: https://www.cbn-cnc.be/nl/adviezen/adviesbeleid-van-de-commissie-voor-boekhoudkundige-normen-ten-aanzien-van-vragen-tot
+  - datum: '2019-03-26'
+    titel: 'Belgische bijkantoren van vennootschappen naar buitenlands recht: eigen boekhoudkundige verplichtingen'
+    url: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-vennootschappen-naar-buitenlands-recht-eigen-boekhoudkundige-0
 nummer: CBN-advies 113/6
 provenance:
-  generated_at: '2026-05-08T18:34:17Z'
+  generated_at: '2026-05-11T13:05:05Z'
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/herwaardering-van-afschrijfbare-activa-intercommunale-verenigingen-en-gemeentebedrijven
-    sha256: 7d876ed91369d55fbd71d75e87b139ee098d870101512dfa7c7c584860a4495e
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/herwaardering-van-afschrijfbare-activa-intercommunale-verenigingen-en-gemeentebedrijven
+      sha256: 7d876ed91369d55fbd71d75e87b139ee098d870101512dfa7c7c584860a4495e
+      version:
   stale: false
-  stale_reason: null
+  stale_reason:
   tooling:
-    model: null
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    prompt_version: null
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
   trust:
     confirmed_at: '2026-05-08T19:02:29Z'
     confirmed_by: subagent-laag2-ronde2
     layer1:
-      file_size_chars: 8101
-      flags: []
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:25Z'
       heading_count: 0
       max_section_chars: 8101
-      run_at: null
-      run_id: 20260511-083333
-      status: pass
+      file_size_chars: 8101
+      flags: []
     layer2:
       agent: subagent-laag2-ronde2
       concrete_problemen: []
-      rationale: '[Laag-2-R2 2026-05-08] Volledig historisch advies met 6 genummerde
-        hoofdkenmerken van de nieuwe regeling.'
+      rationale: '[Laag-2-R2 2026-05-08] Volledig historisch advies met 6 genummerde hoofdkenmerken van de nieuwe regeling.'
       run_at: '2026-05-08T19:02:29Z'
       status: trusted
     rationale: Laag-2 trusted door subagent-laag2-ronde2 (zie layer2.rationale)
     status: trusted
 themas:
-- afwijking
-- geïndexeerde balanswaarden
-- gemeentebedrijven
-- herwaardering
-- indexering van afschrijfbare activa
-- intercommunale verenigingen
-- vervangingswaarde
+  - afwijking
+  - geïndexeerde balanswaarden
+  - gemeentebedrijven
+  - herwaardering
+  - indexering van afschrijfbare activa
+  - intercommunale verenigingen
+  - vervangingswaarde
 ---
 
 # CBN-advies 113/6 - Herwaardering van afschrijfbare activa - Intercommunale verenigingen en gemeentebedrijven - Toepassing van afschrijvingen berekend op basis van jaarlijks geïndexeerde balanswaarden
@@ -92,7 +85,7 @@ Het onderzoek en overleg waarvan sprake heeft geleid tot het opstellen van een o
 
 Gelet daarop heeft de Minister van Economische Zaken met toepassing van artikel 15 van de boekhoudwet en op gunstig advies van de Commissie, erin toegestemd dat de betrokken intercommunale verenigingen en gemeentebedrijven, binnen het raam van de door de toezichthoudende overheid uitgevaardigde onderrichtingen alsmede van de aanbevelingen van het Controlecomité voor Gas en Elektriciteit, met betrekking tot afschrijfbare vaste activa een van het gemeen recht afwijkend waarderings- en afschrijvingsbeleid zouden toepassen dat rekening houdt met de koopkrachtevolutie. 
 
-*De hoofdkenmerken daarvan zijn de volgende: *
+*De hoofdkenmerken daarvan zijn de volgende:* 
 
 1. De materiële vaste activa met beperkte gebruiksduur worden jaarlijks geherwaardeerd ten belope van de indexering van hun geherwaardeerde boekwaarde bij het begin van het boekjaar. Zulks staat in tegenstelling tot de vroegere regeling waarbij de aanschaffingswaarde werd geïndexeerd. 
 

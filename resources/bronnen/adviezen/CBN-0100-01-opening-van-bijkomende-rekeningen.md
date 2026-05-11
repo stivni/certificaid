@@ -1,42 +1,42 @@
 ---
-nummer: CBN-advies R100-1
-datum: 1979-05-01
-themas:
-  - opening van bijkomende rekeningen
-  - rekeningenstelsel
 bron: https://www.cbn-cnc.be/nl/adviezen/opening-van-bijkomende-rekeningen
+datum: 1979-05-01
+nummer: CBN-advies R100-1
 provenance:
+  generated_at: '2026-05-11T13:05:05Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/opening-van-bijkomende-rekeningen
       sha256: abca0e7e72000a14456d7ea736e7f8a6830c3a697d938749485bd8da80bacb04
       version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:33:35Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
   trust:
-    status: trusted
     confirmed_at: '2026-05-11T11:51:19Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: Eén aaneengesloten tekstblok zonder headings (heading_count=0, correct voor dit korte advies). Genummerde opsomming (1. t/m 4.) is consistent en correct. Geen PDF-artefacten, geen onzichtbare unicode, geen afgekapte zinnen. Ziet er uit als mens-geschreven markdown.
     layer1:
       status: pass
-      run_id: 20260511-083333
-      run_at:
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:24Z'
       heading_count: 0
       max_section_chars: 3892
       file_size_chars: 3892
       flags: []
     layer2:
-      status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T11:51:19Z'
-      rationale: Eén aaneengesloten tekstblok zonder headings (heading_count=0, correct voor dit korte advies). Genummerde opsomming (1. t/m 4.) is consistent en correct. Geen PDF-artefacten, geen onzichtbare unicode, geen afgekapte zinnen. Ziet er uit als mens-geschreven markdown.
       concrete_problemen: []
+      rationale: Eén aaneengesloten tekstblok zonder headings (heading_count=0, correct voor dit korte advies). Genummerde opsomming (1. t/m 4.) is consistent en correct. Geen PDF-artefacten, geen onzichtbare unicode, geen afgekapte zinnen. Ziet er uit als mens-geschreven markdown.
+      run_at: '2026-05-11T11:51:19Z'
+      status: trusted
+    rationale: Eén aaneengesloten tekstblok zonder headings (heading_count=0, correct voor dit korte advies). Genummerde opsomming (1. t/m 4.) is consistent en correct. Geen PDF-artefacten, geen onzichtbare unicode, geen afgekapte zinnen. Ziet er uit als mens-geschreven markdown.
+    status: trusted
+themas:
+  - opening van bijkomende rekeningen
+  - rekeningenstelsel
 ---
 
 # CBN-advies R100/1 - Opening van bijkomende rekeningen

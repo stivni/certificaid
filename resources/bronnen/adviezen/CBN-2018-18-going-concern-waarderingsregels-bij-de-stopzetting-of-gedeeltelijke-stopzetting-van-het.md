@@ -1,6 +1,43 @@
 ---
-nummer: CBN-advies 2018/18
+bron: https://www.cbn-cnc.be/nl/adviezen/going-concern-waarderingsregels-bij-de-stopzetting-of-gedeeltelijke-stopzetting-van-het
 datum: 2018-11-19
+gerelateerde_adviezen:
+  - datum: '2019-04-12'
+    titel: Gevolgen op gebied van financiële rapportering als gevolg van de brexit
+    url: https://www.cbn-cnc.be/nl/adviezen/gevolgen-op-gebied-van-financiele-rapportering-als-gevolg-van-de-brexit-0
+nummer: CBN-advies 2018/18
+provenance:
+  generated_at: '2026-05-11T13:05:08Z'
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/going-concern-waarderingsregels-bij-de-stopzetting-of-gedeeltelijke-stopzetting-van-het
+      sha256: 3877990133cefd4d161a28e09205d68d5a29ea2fc5360215133d617bafa6550f
+      version:
+  stale: false
+  stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
+  trust:
+    confirmed_at: '2026-05-11T12:21:40Z'
+    confirmed_by: subagent-sonnet-4-6
+    layer1:
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:29Z'
+      heading_count: 13
+      max_section_chars: 9155
+      file_size_chars: 24682
+      flags: []
+    layer2:
+      agent: subagent-sonnet-4-6
+      concrete_problemen: []
+      rationale: 'Geen significante artefacten gevonden. Tekst is vloeiend leesbaar, headings correct hiërarchisch (##, ###, **bold-subsections** als gestijlde subsecties — acceptabel voor dit adviestype), voetnoten volledig en goed verankerd. Geen tabelstructuren aanwezig. Inhoud volledig inclusief voorbeeld.'
+      run_at: '2026-05-11T12:21:40Z'
+      status: trusted
+    rationale: 'Geen significante artefacten gevonden. Tekst is vloeiend leesbaar, headings correct hiërarchisch (##, ###, **bold-subsections** als gestijlde subsecties — acceptabel voor dit adviestype), voetnoten volledig en goed verankerd. Geen tabelstructuren aanwezig. Inhoud volledig inclusief voorbeeld.'
+    status: trusted
 themas:
   - going concern
   - stopzetting
@@ -21,50 +58,14 @@ themas:
   - gebeurtenis na balansdatum
   - verslaggeving
   - rapporteringsverplichting
-bron: https://www.cbn-cnc.be/nl/adviezen/going-concern-waarderingsregels-bij-de-stopzetting-of-gedeeltelijke-stopzetting-van-het
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/going-concern-waarderingsregels-bij-de-stopzetting-of-gedeeltelijke-stopzetting-van-het
-      sha256: 3877990133cefd4d161a28e09205d68d5a29ea2fc5360215133d617bafa6550f
-      version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:37:28Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: trusted
-    confirmed_at: '2026-05-11T12:21:40Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: 'Geen significante artefacten gevonden. Tekst is vloeiend leesbaar, headings correct hiërarchisch (##, ###, **bold-subsections** als gestijlde subsecties — acceptabel voor dit adviestype), voetnoten volledig en goed verankerd. Geen tabelstructuren aanwezig. Inhoud volledig inclusief voorbeeld.'
-    layer1:
-      status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 13
-      max_section_chars: 4510
-      file_size_chars: 24712
-      flags: []
-    layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:21:40Z'
-      rationale: 'Geen significante artefacten gevonden. Tekst is vloeiend leesbaar, headings correct hiërarchisch (##, ###, **bold-subsections** als gestijlde subsecties — acceptabel voor dit adviestype), voetnoten volledig en goed verankerd. Geen tabelstructuren aanwezig. Inhoud volledig inclusief voorbeeld.'
-      concrete_problemen: []
-gerelateerde_adviezen:
-  - titel: Gevolgen op gebied van financiële rapportering als gevolg van de brexit
-    url: https://www.cbn-cnc.be/nl/adviezen/gevolgen-op-gebied-van-financiele-rapportering-als-gevolg-van-de-brexit-0
-    datum: '2019-04-12'
 ---
 
 # CBN-advies 2018/18 – Going concern - Waarderingsregels bij de stopzetting of gedeeltelijke stopzetting van het bedrijf van een onderneming
 
 ## Inleiding
 
-Bij de vaststelling en de toepassing van de waarderingsregels wordt er vanuit gegaan dat de onderneming haar bedrijf zal voortzetten (*going concern*).[^2] De waarderingsregels steunen aldus op de idee dat ondernemingen in beginsel een onbeperkte levensduur hebben. Door met deze continuïteitsveronderstelling rekening te houden wordt de onderneming in de jaarrekening voorgesteld als een dynamische entiteit die op lange termijn haar doelstellingen kan verwezenlijken. In die optiek kan zij bijgevolg niet louter worden beschouwd als een op een zeker ogenblik bestaand vermogen.[^3] 
+Bij de vaststelling en de toepassing van de waarderingsregels wordt er vanuit gegaan dat de onderneming haar bedrijf zal voortzetten (*going concern*).[^2]
+ De waarderingsregels steunen aldus op de idee dat ondernemingen in beginsel een onbeperkte levensduur hebben. Door met deze continuïteitsveronderstelling rekening te houden wordt de onderneming in de jaarrekening voorgesteld als een dynamische entiteit die op lange termijn haar doelstellingen kan verwezenlijken. In die optiek kan zij bijgevolg niet louter worden beschouwd als een op een zeker ogenblik bestaand vermogen.[^3] 
 
 Indien het bestuursorgaan van een onderneming besluit om haar bedrijf geheel of gedeeltelijk stop te zetten of indien er niet meer kan van worden uitgegaan dat de onderneming haar bedrijf zal voortzetten, moeten de waarderingsregels dienovereenkomstig worden aangepast.[^4]
  Bij een stopzetting geldt in het bijzonder dat:
@@ -75,27 +76,24 @@ Indien het bestuursorgaan van een onderneming besluit om haar bedrijf geheel of 
 
 Op die manier wordt het vermogen van de onderneming voorgesteld in de staat van discontinuïteit waarin zij zich bevindt. Dit laat belanghebbenden toe na te gaan of de onderneming op korte termijn aan haar verplichtingen zal kunnen voldoen (terugbetaling van de schulden, betaling van de opzeggingsvergoedingen, enz.).
 
-Het bestuursorgaan van de onderneming is aldus verplicht om jaarlijks, bij het opstellen[^6]
- van de jaarrekening, na te gaan of de toepassing van de waarderingsregels in een veronderstelling van continuïteit nog gerechtvaardigd is. Met onderhavig advies verduidelijkt de Commissie de elementen waarmee rekening moet worden gehouden bij deze beoordeling. Tevens licht de Commissie toe hoe de onderneming verslag moet uitbrengen over deze beoordeling. Ten slotte zal worden ingegaan op de boekhoudkundige verplichtingen van ondernemingen die zich in een situatie van discontinuïteit of gedeeltelijke discontinuïteit bevinden. Onder gedeeltelijke discontinuïteit wordt verstaan de stopzetting van een bedrijfsonderdeel of een vestiging van de onderneming. In dat geval gelden de regels vermeld in de randnummers 2 en 3 voor de activa, de passiva en de verplichtingen die betrekking hebben op dat bedrijfsonderdeel of die vestiging.[^7] 
+Het bestuursorgaan van de onderneming is aldus verplicht om jaarlijks, bij het opstellen[^6] van de jaarrekening, na te gaan of de toepassing van de waarderingsregels in een veronderstelling van continuïteit nog gerechtvaardigd is. Met onderhavig advies verduidelijkt de Commissie de elementen waarmee rekening moet worden gehouden bij deze beoordeling. Tevens licht de Commissie toe hoe de onderneming verslag moet uitbrengen over deze beoordeling. Ten slotte zal worden ingegaan op de boekhoudkundige verplichtingen van ondernemingen die zich in een situatie van discontinuïteit of gedeeltelijke discontinuïteit bevinden. Onder gedeeltelijke discontinuïteit wordt verstaan de stopzetting van een bedrijfsonderdeel of een vestiging van de onderneming. In dat geval gelden de regels vermeld in de randnummers 2 en 3 voor de activa, de passiva en de verplichtingen die betrekking hebben op dat bedrijfsonderdeel of die vestiging.[^7] 
 
 ## Stopzetting bedrijf, bedrijfsonderdeel of vestiging
 
-### Stopzetting van het bedrijf, bedrijfsonderdeel of vestiging door een vrijwillige beslissing
-
-**Vrijwillige stopzetting van de activiteiten of een deel van de activiteiten**
+Stopzetting van het bedrijf, bedrijfsonderdeel of vestiging door een vrijwillige beslissing
+## Vrijwillige stopzetting van de activiteiten of een deel van de activiteiten
 
 De eerste situatie waarin een onderneming vrijwillig, al dan niet ingevolge een beslissing tot invereffeningstelling, beslist haar bedrijf geheel of gedeeltelijk stop te zetten, zal normaal gezien weinig problemen opleveren. De beslissing tot stopzetting is immers een beslissing die toekomt aan het bestuursorgaan. Bijgevolg zal het bestuursorgaan in principe bij een dergelijke vrijwillige stopzetting bij het opstellen van de jaarrekening steeds zonder problemen kunnen oordelen of de continuïteitsveronderstelling nog gerechtvaardigd is. Op het ogenblik dat de beslissing[^8] tot stopzetting van het bedrijf is genomen, verkeert de onderneming immers in een staat van discontinuïteit en moet zij haar waarderingsregels aanpassen. 
 
-**Vrijwillige ontbinding van een vennootschap**
+## Vrijwillige ontbinding van een vennootschap
 
 De beslissing tot ontbinding van een vennootschap heeft niet steeds de onmiddellijke stopzetting van het geheel of een deel van de activiteiten van de vennootschap tot gevolg. Dergelijke verderzetting van de activiteiten blijkt ook expliciet uit de wettelijke verslaggevingsverplichtingen die het bestuursorgaan heeft bij het opmaken van een ontbindingsvoorstel. Het bestuursorgaan heeft de verplichting om aan het ontbindingsvoorstel, dat moet worden voorgelegd aan de algemene vergadering die over de ontbinding beslist, een staat van activa en passiva te voegen die niet meer dan drie maanden voordien is vastgesteld en is opgemaakt volgens de bepalingen van het KB W.Venn.[^9] 
 
-Het W.Venn. stelt hierbij expliciet: “*voor de gevallen waarin de vennootschap besluit haar activiteiten te beëindigen of indien niet langer kan worden uitgegaan dat de vennootschap haar bedrijf zal verderzetten, wordt voornoemde staat, behoudens met redenen omklede afwijking, opgesteld conform de waarderingsregels vastgesteld ter uitvoering van artikel 92[^10] *”. In het CBN-advies 2011/8 - *Verslaggeving bij ontbinding en vereffening* heeft de Commissie er reeds op gewezen dat het bestuursorgaan kan verantwoorden dat bij de ontbinding van de vennootschap een waardering in discontinuïteit op grond van artikel 28, § 2 KB W.Venn. niet wordt toegepast op het geheel of een deel van de boekhoudposten. Dit zou bijvoorbeeld het geval kunnen zijn als bepaalde onderdelen van de activiteiten nog zouden worden voortgezet gedurende verschillende jaren. Het bestuursorgaan zou ook kunnen verantwoorden dat geen enkele correctie wordt aangebracht op grond van artikel 28, § 2 KB W.Venn. als de reële mogelijkheid bestaat dat de ontbinding tot geen gehele of gedeeltelijke economische discontinuïteit van de activiteit zal leiden, bv. wanneer ernstige vooruitzichten bestaan van overdracht van het geheel of een deel van de exploitatie aan een andere onderneming die de exploitatie zal voortzetten. Deze afwijking van artikel 28, § 2 KB W.Venn. moet uiteraard worden verantwoord in de toelichting.[^11] 
+Het W.Venn. stelt hierbij expliciet: “*voor de gevallen waarin de vennootschap besluit haar activiteiten te beëindigen of indien niet langer kan worden uitgegaan dat de vennootschap haar bedrijf zal verderzetten, wordt voornoemde staat, behoudens met redenen omklede afwijking, opgesteld conform de waarderingsregels vastgesteld ter uitvoering van artikel 92[^10] *”. In het CBN-advies 2011/8 -* Verslaggeving bij ontbinding en vereffening* heeft de Commissie er reeds op gewezen dat het bestuursorgaan kan verantwoorden dat bij de ontbinding van de vennootschap een waardering in discontinuïteit op grond van artikel 28, § 2 KB W.Venn. niet wordt toegepast op het geheel of een deel van de boekhoudposten. Dit zou bijvoorbeeld het geval kunnen zijn als bepaalde onderdelen van de activiteiten nog zouden worden voortgezet gedurende verschillende jaren. Het bestuursorgaan zou ook kunnen verantwoorden dat geen enkele correctie wordt aangebracht op grond van artikel 28, § 2 KB W.Venn. als de reële mogelijkheid bestaat dat de ontbinding tot geen gehele of gedeeltelijke economische discontinuïteit van de activiteit zal leiden, bv. wanneer ernstige vooruitzichten bestaan van overdracht van het geheel of een deel van de exploitatie aan een andere onderneming die de exploitatie zal voortzetten. Deze afwijking van artikel 28, § 2 KB W.Venn. moet uiteraard worden verantwoord in de toelichting.[^11] 
 
 ### Stopzetting van het bedrijf om andere redenen
 
-Naast de vrijwillige stopzetting van het bedrijf, een bedrijfsonderdeel of een vestiging kan zich de situatie voordoen dat de onderneming haar waarderingsregels moet aanpassen doordat “*er niet meer kan van worden uitgegaan dat de* [onderneming] *haar bedrijf zal voortzetten*”[^12]
- en de onderneming zich aldus in een situatie van discontinuïteit bevindt. Hier is het minder duidelijk wanneer deze situatie van discontinuïteit precies optreedt.
+Naast de vrijwillige stopzetting van het bedrijf, een bedrijfsonderdeel of een vestiging kan zich de situatie voordoen dat de onderneming haar waarderingsregels moet aanpassen doordat “*er niet meer kan van worden uitgegaan dat de* [onderneming] *haar bedrijf zal voortzetten*”[^12] en de onderneming zich aldus in een situatie van discontinuïteit bevindt. Hier is het minder duidelijk wanneer deze situatie van discontinuïteit precies optreedt.
 
 Terwijl de vrijwillige stopzetting zowel betrekking kan hebben op een bedrijf in haar geheel, een bedrijfsonderdeel of een vestiging kan de zinssnede “*er niet meer kan van worden uitgegaan dat de* [onderneming] *haar bedrijf zal voortzetten*” volgens de Commissie uitsluitend betrekking hebben op de onderneming in haar totaliteit. Deze gedwongen stopzetting kan vooreerst het gevolg zijn van financiële of economische moeilijkheden maar kan voor een rechtspersoon daarnaast ook het gevolg zijn van een gerechtelijke ontbinding of van een ontbinding van rechtswege. Hierna wordt alleen nader ingegaan op deze eerste situatie. 
 
@@ -103,8 +101,7 @@ Naar de mening van de Commissie zal een onderneming zich pas in een situatie bev
 
 ### Minnelijk akkoord of gerechtelijke reorganisatie
 
-Een vennootschap die zich in een procedure van minnelijk akkoord of gerechtelijke reorganisatie bevindt in de zin van de artikelen 15, 16 en volgende van de wet van 31 januari 2009 betreffende de continuïteit van de ondernemingen[^13]
- (hierna: WCO), dient haar jaarrekening in beginsel op te stellen met toepassing van de waarderingsregels in de veronderstelling van continuïteit. Deze procedures hebben immers het herstel van de onderneming in moeilijkheden tot doel, en zolang er een realistische kans is op het herstel van de vennootschap moet zij een waardering in continuïteit hanteren. De door het bestuursorgaan in het kader van de WCO te nemen maatregelen ter waarborg van de continuïteit van de onderneming moeten een minimumduur dekken van twaalf maanden.[^14]
+Een vennootschap die zich in een procedure van minnelijk akkoord of gerechtelijke reorganisatie bevindt in de zin van de artikelen 15, 16 en volgende van de wet van 31 januari 2009 betreffende de continuïteit van de ondernemingen[^13] (hierna: WCO), dient haar jaarrekening in beginsel op te stellen met toepassing van de waarderingsregels in de veronderstelling van continuïteit. Deze procedures hebben immers het herstel van de onderneming in moeilijkheden tot doel, en zolang er een realistische kans is op het herstel van de vennootschap moet zij een waardering in continuïteit hanteren. De door het bestuursorgaan in het kader van de WCO te nemen maatregelen ter waarborg van de continuïteit van de onderneming moeten een minimumduur dekken van twaalf maanden.[^14]
  De Commissie merkt op dat zij reeds meerdere adviezen heeft uitgebracht met betrekking tot de WCO[^15].
 
 ## De jaarlijkse beoordeling van de continuïteitsveronderstelling
@@ -113,8 +110,7 @@ Uit de verplichting voor een onderneming om haar waarderingsregels aan te passen
 
 ### Continuïteitsveronderstelling: tijdshorizon van twaalf maanden
 
-De Belgische boekhoudreglementering bevat geen bepalingen over de in aanmerking te nemen termijn voor de beoordeling van de continuïteitsveronderstelling[^16]. Niettemin oordeelt de Commissie dat de continuïteit van de onderneming door het bestuursorgaan redelijkerwijze moet worden beoordeeld over een periode van ten minste twaalf maanden te rekenen vanaf de afsluitdatum van het boekjaar. De Commissie inspireert zich voor deze minimumperiode op de internationale financiële rapporteringsstandaarden[^17]
- die gelden dienaangaande. 
+De Belgische boekhoudreglementering bevat geen bepalingen over de in aanmerking te nemen termijn voor de beoordeling van de continuïteitsveronderstelling[^16]. Niettemin oordeelt de Commissie dat de continuïteit van de onderneming door het bestuursorgaan redelijkerwijze moet worden beoordeeld over een periode van ten minste twaalf maanden te rekenen vanaf de afsluitdatum van het boekjaar. De Commissie inspireert zich voor deze minimumperiode op de internationale financiële rapporteringsstandaarden[^17] die gelden dienaangaande. 
 
 De beoordeling of het bestuursorgaan haar onderzoek effectief kan beperken tot een periode van twaalf maanden is afhankelijk van de feitelijke omstandigheden. 
 
@@ -123,16 +119,15 @@ De beoordeling of het bestuursorgaan haar onderzoek effectief kan beperken tot e
 
 ### Continuïteitsbeoordeling op balansdatum
 
-**Toestand op de balansdatum – ook indien elementen pas gekend na balansdatum**
+## Toestand op de balansdatum – ook indien elementen pas gekend na balansdatum
 
 Bij de jaarlijkse beoordeling van de continuïteitsveronderstelling dient het bestuursorgaan in principe rekening te houden met alle gebeurtenissen, omstandigheden en feiten die haar op dat ogenblik bekend zijn en die betrekking hebben op het boekjaar dat wordt afgesloten. Dit zijn in het bijzonder de financiële, operationele en de overige omstandigheden en gebeurtenissen die een materiële invloed kunnen hebben op de continuïteitsprognose van het bestuursorgaan.
 
 Het bestuursorgaan dient hierbij rekening te houden met alle gebeurtenissen die verband houden met een bepaalde situatie die reeds op de balansdatum bestond, maar die pas bekend worden tussen de afsluitdatum en het ogenblik waarop de jaarrekening wordt opgesteld.
 
-**Gebeurtenissen na balansdatum**
+## Gebeurtenissen na balansdatum
 
-De waarderingsregels die worden voorgeschreven bij de stopzetting van het bedrijf[^18]
- mogen niet worden toegepast wanneer de stopzetting van het bedrijf te wijten is aan een gebeurtenis die zich heeft voorgedaan na balansdatum maar vóór het ogenblik waarop de jaarrekening wordt opgesteld en die geen direct verband houdt met een situatie die reeds bestond op balansdatum. 
+De waarderingsregels die worden voorgeschreven bij de stopzetting van het bedrijf[^18] mogen niet worden toegepast wanneer de stopzetting van het bedrijf te wijten is aan een gebeurtenis die zich heeft voorgedaan na balansdatum maar vóór het ogenblik waarop de jaarrekening wordt opgesteld en die geen direct verband houdt met een situatie die reeds bestond op balansdatum. 
 
 De verplichting om in de jaarrekening steeds een getrouw beeld te geven van het vermogen, de financiële positie en het resultaat van de onderneming, vereist echter wel dat het bestuursorgaan deze feiten vermeldt in de toelichting en hierin aangeeft dat deze feiten hebben geleid of zullen leiden tot het stopzetten van de activiteiten binnen een periode van twaalf maanden te rekenen vanaf de afsluitdatum van het boekjaar. De Commissie beveelt aan dat het bestuursorgaan in dit geval in de toelichting ook een staat van activa en passiva moet opnemen die is opgesteld met toepassing van de waarderingsregels die gelden in het geval van discontinuïteit[^19].
 
@@ -144,14 +139,12 @@ Zoals hierboven reeds werd gesteld, vereist de verplichting om in de jaarrekenin
 
 ## Verslaggeving over de beoordeling van continuïteitsveronderstelling
 
-### Het handhaven van de continuïteitsveronderstelling is gerechtvaardigd en bij de beoordeling werden geen materiële onzekerheden vastgesteld die aanzienlijke twijfel kunnen doen rijzen over het vermogen van de onderneming om haar continuïteit te waarborgen
-
+Het handhaven van de continuïteitsveronderstelling is gerechtvaardigd en bij de beoordeling werden geen materiële onzekerheden vastgesteld die aanzienlijke twijfel kunnen doen rijzen over het vermogen van de onderneming om haar continuïteit te waarborgen
 Indien bij de jaarlijkse beoordeling het bestuursorgaan tot de bevinding komt dat de continuïteitsveronderstelling zonder meer gerechtvaardigd is en het bestuursorgaan geen materiële onzekerheden heeft vastgesteld die verband houden met gebeurtenissen of omstandigheden die aanzienlijke twijfel doen rijzen over het vermogen van de onderneming om haar continuïteit te waarborgen, dan wordt de jaarrekening over het boekjaar opgesteld met toepassing van de gewone waarderingsregels (*going concern*). Wat betreft de te hanteren waarderingsregels bij de opstelling van de jaarrekening geldt er immers een vermoeden dat de onderneming haar bedrijf zal voortzetten[^22]. 
 
 In de toelichting bij de jaarrekening dient het bestuursorgaan in principe geen bijzondere informatie te verstrekken over deze beoordeling. De Commissie wil in dit kader echter opmerken dat deze vrijstelling van de verplichting om bijzondere informatie te verstrekken over de beoordeling van de continuïteit van de onderneming geen afbreuk doet aan de algemene verplichtingen die aan de vennootschappen worden opgelegd voor het opstellen van het jaarverslag in de artikels 94 en volgende van het W.Venn.[^23] 
 
-### Het handhaven van de continuïteitsveronderstelling is gerechtvaardigd maar bij de beoordeling werden materiële onzekerheden vastgesteld die aanzienlijke twijfel doen rijzen over het vermogen van de onderneming om haar continuïteit te waarborgen
-
+Het handhaven van de continuïteitsveronderstelling is gerechtvaardigd maar bij de beoordeling werden materiële onzekerheden vastgesteld die aanzienlijke twijfel doen rijzen over het vermogen van de onderneming om haar continuïteit te waarborgen
 Wanneer het bestuursorgaan oordeelt dat de onderneming weliswaar wordt getroffen door materiële onzekerheden die verband houden met gebeurtenissen of omstandigheden die aanzienlijke twijfel doen rijzen over het vermogen van de onderneming om haar continuïteit te waarborgen, maar zij er tevens van overtuigd is dat de onderneming in de toekomst het hoofd kan bieden aan deze onzekerheden, dan is het gerechtvaardigd dat de jaarrekening over het boekjaar wordt opgesteld met toepassing van de gewone waarderingsregels (*going concern*)[^24].
 
 Wanneer het bestuursorgaan vaststelt dat er belangrijke ontwikkelingen zijn die het verder bestaan van de onderneming mogelijk, of zelfs waarschijnlijk, ernstig in het gedrang zouden kunnen brengen, is grote voorzichtigheid geboden bij de verslaggeving teneinde te voldoen aan het getrouwe beeld.[^25]
@@ -159,8 +152,7 @@ Wanneer het bestuursorgaan vaststelt dat er belangrijke ontwikkelingen zijn die 
 
 Naar mening van de Commissie moet in de toelichting bij de jaarrekening van de onderneming, in het kader van het getrouwe beeld, steeds een omstandige verklaring worden opgenomen waarin wordt uiteengezet welke materiële onzekerheden de continuïteit van de onderneming bedreigen. De Commissie meent dat hierin in voorkomend geval tevens moet worden uiteengezet welke herstelmaatregelen de onderneming reeds heeft genomen en/of gepland om aan deze onzekerheden het hoofd te bieden.
 
-### Het handhaven van de continuïteitsveronderstelling is niet langer gerechtvaardigd
-
+Het handhaven van de continuïteitsveronderstelling is niet langer gerechtvaardigd
 Indien het bestuursorgaan bij de beoordeling van de continuïteit van de onderneming heeft vastgesteld dat het bevoegde orgaan heeft beslist het bedrijf stop te zetten ten gevolge van gebeurtenissen en omstandigheden die in een rechtstreeks verband staan met het boekjaar waarover de jaarrekening moet worden opgesteld, of indien er, ten gevolge van zulke gebeurtenissen en omstandigheden, niet langer kan van worden uitgegaan dat de onderneming haar bedrijf zal voortzetten, dan kan de jaarrekening niet langer worden opgesteld uitgaande van de hypothese in continuïteit.
 
 In deze gevallen moet de jaarrekening worden opgesteld met toepassing van waarderingsregels die worden aangepast, zodat op die manier rekening wordt gehouden met de stopzetting van het bedrijf (discontinuïteit)[^26]. In het bijzonder geldt dat:
@@ -173,9 +165,7 @@ In de toelichting wordt onder de samenvatting van de waarderingsregels vermeld d
 
 ### Bijzondere rapporteringsverplichtingen bij de vennootschappen
 
-Ten slotte wijst de Commissie erop dat de vennootschappen ook nog gehouden zijn enkele bijzondere rapporteringsverplichtingen te respecteren. Zo verplicht artikel 96, § 1, 6° W.Venn. de vennootschappen[^27]
- een verantwoording op te nemen in het jaarverslag wanneer uit de balans een overgedragen verlies blijkt of wanneer uit de resultatenrekening gedurende twee opeenvolgende boekjaren een verlies van het boekjaar blijkt. Voor de niet-genoteerde kleine[^28]
- vennootschappen moet deze verantwoording worden opgenomen in de toelichting bij de jaarrekening.[^29] 
+Ten slotte wijst de Commissie erop dat de vennootschappen ook nog gehouden zijn enkele bijzondere rapporteringsverplichtingen te respecteren. Zo verplicht artikel 96, § 1, 6° W.Venn. de vennootschappen[^27] een verantwoording op te nemen in het jaarverslag wanneer uit de balans een overgedragen verlies blijkt of wanneer uit de resultatenrekening gedurende twee opeenvolgende boekjaren een verlies van het boekjaar blijkt. Voor de niet-genoteerde kleine[^28] vennootschappen moet deze verantwoording worden opgenomen in de toelichting bij de jaarrekening.[^29] 
 
 [^1]: Onderhavig advies is tot stand gekomen nadat een ontwerpadvies op 9 mei 2018 ter publieke consultatie werd gepubliceerd op de website van de CBN.
 

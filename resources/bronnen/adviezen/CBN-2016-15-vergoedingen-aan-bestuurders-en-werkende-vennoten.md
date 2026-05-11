@@ -1,6 +1,55 @@
 ---
-nummer: CBN-advies 2016/15
+bron: https://www.cbn-cnc.be/nl/adviezen/vergoedingen-aan-bestuurders-en-werkende-vennoten
 datum: 2016-09-07
+nummer: CBN-advies 2016/15
+provenance:
+  generated_at: '2026-05-11T13:05:08Z'
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/vergoedingen-aan-bestuurders-en-werkende-vennoten
+      sha256: 286a7bf84cdb376aac13f0f8a43abd19fb274ead9a2b49c4902b4536eec9f532
+      version:
+  stale: false
+  stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
+  trust:
+    confirmed_at: '2026-05-11T12:16:34Z'
+    confirmed_by: subagent-sonnet-4-6
+    layer1:
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:29Z'
+      heading_count: 11
+      max_section_chars: 8234
+      file_size_chars: 17632
+      flags: []
+    layer2:
+      agent: subagent-sonnet-4-6
+      concrete_problemen:
+        - categorie: D4
+          regel: 79
+          type: other
+          voorbeeld: 6201 *Directiepersoneel *worden de bezoldigingen geboekt
+        - categorie: G3
+          regel: 116
+          type: other
+          voorbeeld: ' [^17][^18][^19]'
+        - categorie: E2
+          regel: 120
+          type: other
+          voorbeeld: '| | 618 | Bezoldigingen, premies voor buitenwettelijke \n\t\t\t\tverzekeringen, ouderdoms- en overlevingspensioenen \n\t\t\t\tvan bestuurders...'
+        - categorie: G3
+          regel: 144
+          type: other
+          voorbeeld: ' [^20][^21][^22]'
+      rationale: 'Drie gevallen van malformed italic (D4): (1) regel 79 ''6201 *Directiepersoneel *'' — spatie voor afsluitende asterisk; (2) regel 83 ''6201 *Directiepersoneel *'' — idem; (3) regel 116 '' [^17][^18][^19]'' als losstaande alinea (G3). Verder bevat regel 120–122 en 131–133 multi-line celinhoud in tabel (cel tekst loopt door op volgende inspringing-regels), wat markdown-tabelrendering kan breken (E2). Dit patroon zit ook in de journaalposten op regels 120–125.'
+      run_at: '2026-05-11T12:16:34Z'
+      status: needs-rework
+    rationale: 'Drie gevallen van malformed italic (D4): (1) regel 79 ''6201 *Directiepersoneel *'' — spatie voor afsluitende asterisk; (2) regel 83 ''6201 *Directiepersoneel *'' — idem; (3) regel 116 '' [^17][^18][^19]'' als losstaande alinea (G3). Verder bevat regel 120–122 en 131–133 multi-line celinhoud in tabel (cel tekst loopt door op volgende inspringing-regels), wat markdown-tabelrendering kan breken (E2). Dit patroon zit ook in de journaalposten op regels 120–125.'
+    status: needs-rework
 themas:
   - arbeidsovereenkomst
   - bestuurder
@@ -10,55 +59,6 @@ themas:
   - vergoeding aan werkende vennoten
   - werkende vennoten
   - zaakvoerder
-bron: https://www.cbn-cnc.be/nl/adviezen/vergoedingen-aan-bestuurders-en-werkende-vennoten
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/vergoedingen-aan-bestuurders-en-werkende-vennoten
-      sha256: 286a7bf84cdb376aac13f0f8a43abd19fb274ead9a2b49c4902b4536eec9f532
-      version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:37:01Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T12:16:34Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "Drie gevallen van malformed italic (D4): (1) regel 79 '6201 *Directiepersoneel *' — spatie voor afsluitende asterisk; (2) regel 83 '6201 *Directiepersoneel *' — idem; (3) regel 116 ' [^17][^18][^19]' als losstaande alinea (G3). Verder bevat regel 120–122 en 131–133 multi-line celinhoud in tabel (cel tekst loopt door op volgende inspringing-regels), wat markdown-tabelrendering kan breken (E2). Dit patroon zit ook in de journaalposten op regels 120–125."
-    layer1:
-      status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 9
-      max_section_chars: 6709
-      file_size_chars: 17696
-      flags: []
-    layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:16:34Z'
-      rationale: "Drie gevallen van malformed italic (D4): (1) regel 79 '6201 *Directiepersoneel *' — spatie voor afsluitende asterisk; (2) regel 83 '6201 *Directiepersoneel *' — idem; (3) regel 116 ' [^17][^18][^19]' als losstaande alinea (G3). Verder bevat regel 120–122 en 131–133 multi-line celinhoud in tabel (cel tekst loopt door op volgende inspringing-regels), wat markdown-tabelrendering kan breken (E2). Dit patroon zit ook in de journaalposten op regels 120–125."
-      concrete_problemen:
-        - regel: 79
-          categorie: D4
-          type: other
-          voorbeeld: 6201 *Directiepersoneel *worden de bezoldigingen geboekt
-        - regel: 116
-          categorie: G3
-          type: other
-          voorbeeld: ' [^17][^18][^19]'
-        - regel: 120
-          categorie: E2
-          type: other
-          voorbeeld: '| | 618 | Bezoldigingen, premies voor buitenwettelijke \n\t\t\t\tverzekeringen, ouderdoms- en overlevingspensioenen \n\t\t\t\tvan bestuurders...'
-        - regel: 144
-          categorie: G3
-          type: other
-          voorbeeld: ' [^20][^21][^22]'
 ---
 
 # CBN-advies 2016/15 – Vergoedingen aan bestuurders en werkende vennoten
@@ -67,8 +67,7 @@ provenance:
 
 In onderhavig advies wordt de boekhoudkundige verwerking behandeld van de vergoedingen ontvangen door een bestuurder, zaakvoerder of werkend vennoot. 
 
-Hoewel de functie van vennootschapsbestuurder niet in het kader van een arbeidsovereenkomst kan worden uitgeoefend staat het de bestuurder niettemin vrij[^2]
- een arbeidsovereenkomst met de vennootschap aan te gaan mits twee cumulatieve voorwaarden zijn voldaan. Ten eerste is vereist dat hij naast zijn functie als bestuurder nog een andere functie in de vennootschap uitoefent die activiteiten behelst die duidelijk onderscheiden zijn van de bestuursfunctie. De arbeidsovereenkomst wordt dan voor die activiteiten aangegaan en dus niet voor de bestuursactiviteiten. Ten tweede dient hij onder gezag te staan voor de taken waarvoor de arbeidsovereenkomst is aangegaan.[^3]
+Hoewel de functie van vennootschapsbestuurder niet in het kader van een arbeidsovereenkomst kan worden uitgeoefend staat het de bestuurder niettemin vrij[^2] een arbeidsovereenkomst met de vennootschap aan te gaan mits twee cumulatieve voorwaarden zijn voldaan. Ten eerste is vereist dat hij naast zijn functie als bestuurder nog een andere functie in de vennootschap uitoefent die activiteiten behelst die duidelijk onderscheiden zijn van de bestuursfunctie. De arbeidsovereenkomst wordt dan voor die activiteiten aangegaan en dus niet voor de bestuursactiviteiten. Ten tweede dient hij onder gezag te staan voor de taken waarvoor de arbeidsovereenkomst is aangegaan.[^3]
  Bijgevolg kan een bestuurder een vergoeding krijgen als bestuurder en daarnaast nog een vergoeding krijgen uit hoofde van zijn arbeidsovereenkomst. 
 
 In het Wetboek van vennootschappen (hierna: W.Venn.) wordt expliciet de mogelijkheid voorzien om een rechtspersoon aan te duiden als bestuurder of zaakvoerder van een vennootschap. In voorkomend geval moet deze rechtspersoon een vaste vertegenwoordiger benoemen die belast wordt met de uitvoering van de opdracht in naam en voor rekening van de rechtspersoon.[^4]
@@ -76,13 +75,12 @@ In het Wetboek van vennootschappen (hierna: W.Venn.) wordt expliciet de mogelijk
 
 ## Boekhoudkundige verwerking
 
-### 618 Bezoldigingen, premies voor buitenwettelijke verzekeringen, ouderdoms- en overlevingspensioenen van bestuurders, zaakvoerders en werkende vennoten, die niet worden toegekend uit hoofde van een arbeidsovereenkomst
-
+618 Bezoldigingen, premies voor buitenwettelijke verzekeringen, ouderdoms- en overlevingspensioenen van bestuurders, zaakvoerders en werkende vennoten, die niet worden toegekend uit hoofde van een arbeidsovereenkomst
 De post 618[^6] *Bezoldigingen, premies voor buitenwettelijke verzekeringen, ouderdoms- en overlevingspensioenen van bestuurders, zaakvoerders en werkende vennoten, die niet worden toegekend uit hoofde van een arbeidsovereenkomst* omvat de rechtstreekse en onrechtstreekse bezoldigingen en pensioenen van bestuurders, zaakvoerders en werkende vennoten, die niet worden toegekend uit hoofde van een arbeidsovereenkomst.
 
 Zoals hierboven vermeld kan een vergoeding voor een bestuurder of een zaakvoerder die wordt toegekend omwille van zijn mandaat nooit ontstaan in hoofde van een arbeidsovereenkomst. Bijgevolg wordt iedere vergoeding die wordt toegekend aan een bestuurder of zaakvoerder omwille van de uitvoering van zijn mandaat geboekt op de rekening 618 *Bezoldigingen, premies voor buitenwettelijke verzekeringen, ouderdoms- en overlevingspensioenen van bestuurders, zaakvoerders en werkende vennoten, die niet worden toegekend uit hoofde van een arbeidsovereenkomst*.
 
-Een bestuurder kan nog andere vergoedingen ontvangen dan de bezoldiging van zijn mandaat of het mandaat van bestuurder of zaakvoerder kan onbezoldigd zijn. Indien dergelijke vergoeding wordt toegekend uit hoofde van een arbeidsovereenkomst, wordt deze vergoeding geboekt als personeelskost op een 62-rekening (zie hierna). Indien dergelijke vergoeding wordt toegekend om een andere reden dan de vergoeding voor het bestuursmandaat of de vergoeding uit hoofde van een arbeidsovereenkomst, wordt deze vergoeding, bijvoorbeeld voor andere specifieke geleverde diensten, geboekt op een passende subrekening van de rekening 61 *Diensten en diverse goederen[^7] *.
+Een bestuurder kan nog andere vergoedingen ontvangen dan de bezoldiging van zijn mandaat of het mandaat van bestuurder of zaakvoerder kan onbezoldigd zijn. Indien dergelijke vergoeding wordt toegekend uit hoofde van een arbeidsovereenkomst, wordt deze vergoeding geboekt als personeelskost op een 62-rekening (zie hierna). Indien dergelijke vergoeding wordt toegekend om een andere reden dan de vergoeding voor het bestuursmandaat of de vergoeding uit hoofde van een arbeidsovereenkomst, wordt deze vergoeding, bijvoorbeeld voor andere specifieke geleverde diensten, geboekt op een passende subrekening van de rekening 61 *Diensten en diverse goederen[^7]* .
 
 Deze boekhoudkundige verwerking is van toepassing ongeacht het mandaat van bestuurder of zaakvoerder wordt uitgeoefend door een natuurlijke persoon of een rechtspersoon.
 
@@ -92,11 +90,11 @@ Voormelde regels zijn op overeenkomstige wijze van toepassing op grote verenigin
 
 De vergoedingen die een bestuurder, zaakvoerder of werkend vennoot ontvangt ingevolge de arbeidsovereenkomst die werd afgesloten met de vennootschap, worden in principe geboekt op de rekening 6201[^8] *Directiepersoneel*. 
 
-Op de rekening 6201 *Directiepersoneel *worden de bezoldigingen geboekt van de werknemers met een arbeidsovereenkomst die voldoen aan de beschrijving van leidinggevende zoals bedoeld in artikel 4, 4° van de wet van 4 december 2007 betreffende de sociale verkiezingen. Deze wet definieert leidinggevenden als “de personen belast met het dagelijks bestuur van de onderneming, die gemachtigd zijn om de werkgever te vertegenwoordigen en te verbinden, alsmede de personeelsleden, onmiddellijk ondergeschikt aan die personen, wanneer zij eveneens opdrachten van dagelijks bestuur vervullen”. Deze verwijzing naar de wet van 4 december 2007 betreffende de sociale verkiezingen strekt er uitsluitend toe te verduidelijken welke kosten op de rekening 6201 *Directiepersoneel* worden geboekt. De Commissie merkt op dat het gebruik van de rekening 6201 *Directiepersoneel *geldt ongeacht de vennootschap sociale verkiezingen organiseert of moet organiseren ingevolge deze wet.
+Op de rekening 6201 *Directiepersoneel* worden de bezoldigingen geboekt van de werknemers met een arbeidsovereenkomst die voldoen aan de beschrijving van leidinggevende zoals bedoeld in artikel 4, 4° van de wet van 4 december 2007 betreffende de sociale verkiezingen. Deze wet definieert leidinggevenden als “de personen belast met het dagelijks bestuur van de onderneming, die gemachtigd zijn om de werkgever te vertegenwoordigen en te verbinden, alsmede de personeelsleden, onmiddellijk ondergeschikt aan die personen, wanneer zij eveneens opdrachten van dagelijks bestuur vervullen”. Deze verwijzing naar de wet van 4 december 2007 betreffende de sociale verkiezingen strekt er uitsluitend toe te verduidelijken welke kosten op de rekening 6201 *Directiepersoneel* worden geboekt. De Commissie merkt op dat het gebruik van de rekening 6201 *Directiepersoneel* geldt ongeacht de vennootschap sociale verkiezingen organiseert of moet organiseren ingevolge deze wet.
 
 Een rechtspersoon kan nooit verbonden zijn aan een andere rechtspersoon door een arbeidsovereenkomst. Bijgevolg komt de rekening 6201 *Directiepersoneel* nooit in aanmerking voor de boeking van eender welke vergoeding betaald aan een rechtspersoon.
 
-Voormelde regels zijn op overeenkomstige wijze van toepassing op grote verenigingen en stichtingen. Het KB van 19 december 2003 betreffende de boekhoudkundige verplichtingen en de openbaarmaking van de jaarrekening van bepaalde verenigingen zonder winstoogmerk, internationale verenigingen zonder winstoogmerk en stichtingen voorziet voor het gebruik van de rekening 6201 *Directiepersoneel *immers niet in een afwijkende regeling.
+Voormelde regels zijn op overeenkomstige wijze van toepassing op grote verenigingen en stichtingen. Het KB van 19 december 2003 betreffende de boekhoudkundige verplichtingen en de openbaarmaking van de jaarrekening van bepaalde verenigingen zonder winstoogmerk, internationale verenigingen zonder winstoogmerk en stichtingen voorziet voor het gebruik van de rekening 6201 *Directiepersoneel* immers niet in een afwijkende regeling.
 
 ### 695 Bestuurders of zaakvoerders
 
@@ -127,9 +125,7 @@ Bij de resultaatsbestemming wordt aan ieder van de bestuurders nog een tantième
 
 ### Boekingen bij de toekennende vennootschap
 
-**Boekingen tijdens het boekjaar**
-
- [^17][^18][^19]
+## Boekingen tijdens het boekjaar
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
@@ -148,16 +144,14 @@ Bij de resultaatsbestemming wordt aan ieder van de bestuurders nog een tantième
 | | 454 | Rijksdienst voor Sociale Zekerheid | 27.300 | |
 | | 455 | Bezoldigingen | 32.367 | |
 
-**Boekingen bij de resultaatververwerking**
+## Boekingen bij de resultaatververwerking
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 695 | Bestuurders of zaakvoerders | 7.500 | |
 | aan | 472 | Tantièmes over het boekjaar | | 7.500 |
 
-**Boekingen bij de algemene vergadering – ontvangst factuur - Uitbetaling tantième (volgend boekjaar)**
-
- [^20][^21][^22]
+## Boekingen bij de algemene vergadering – ontvangst factuur - Uitbetaling tantième (volgend boekjaar)
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
@@ -166,11 +160,8 @@ Bij de resultaatsbestemming wordt aan ieder van de bestuurders nog een tantième
 | aan | 453 | Ingehouden voorheffingen | | 1.308 |
 | | 5500 | Bank: rekening-courant | 6.717 | |
 
-### Boeking van de tantième bij de ontvangende bestuurder-rechtspersoon indien deze een dubbele boekhouding voert
-
-**Boekingen bij de toekenning (in principe tijdens algemene vergadering) (uitreiken factuur)**
-
- [^23][^24]
+Boeking van de tantième bij de ontvangende bestuurder-rechtspersoon indien deze een dubbele boekhouding voert
+## Boekingen bij de toekenning (in principe tijdens algemene vergadering) (uitreiken factuur)
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|

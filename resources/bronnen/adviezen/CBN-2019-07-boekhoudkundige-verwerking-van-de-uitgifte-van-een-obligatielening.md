@@ -1,6 +1,47 @@
 ---
-nummer: CBN-advies 2019/07
+bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-uitgifte-van-een-obligatielening
 datum: 2019-07-11
+nummer: CBN-advies 2019/07
+provenance:
+  generated_at: '2026-05-11T13:05:08Z'
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-uitgifte-van-een-obligatielening
+      sha256: e202a1be947f8d1631a1dc4341ddb81214015a1152489e3dbfa7f684cda940ea
+      version:
+  stale: false
+  stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
+  trust:
+    confirmed_at: '2026-05-11T12:21:40Z'
+    confirmed_by: subagent-sonnet-4-6
+    layer1:
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:30Z'
+      heading_count: 36
+      max_section_chars: 6546
+      file_size_chars: 22115
+      flags: []
+    layer2:
+      agent: subagent-sonnet-4-6
+      concrete_problemen:
+        - categorie: A3
+          regel: 100
+          type: other
+          voorbeeld: -- Kosten bij uitgifte van leningen-- Agio en disagio---- Lening zonder verschil...
+        - categorie: A3
+          regel: 101
+          type: other
+          voorbeeld: '---- Vervaldag van de rente (1 april 2020)\n---- Regularisering einde boekjaar 2020--...'
+      rationale: 'A3: Grote TOC-fragmenten op regels 100-102 — de volledige geneste inhoudsopgave is aaneengeregen op twee lange regels met `--`-scheidingstekens (`-- Kosten bij uitgifte van leningen-- Agio en disagio----...`). Dit is een duidelijk extractie-artefact van een gegenereerd TOC dat mee geëxtraheerd werd. Inhoud en heading-hiërarchie (36 headings) zijn verder volledig correct.'
+      run_at: '2026-05-11T12:21:40Z'
+      status: needs-rework
+    rationale: 'A3: Grote TOC-fragmenten op regels 100-102 — de volledige geneste inhoudsopgave is aaneengeregen op twee lange regels met `--`-scheidingstekens (`-- Kosten bij uitgifte van leningen-- Agio en disagio----...`). Dit is een duidelijk extractie-artefact van een gegenereerd TOC dat mee geëxtraheerd werd. Inhoud en heading-hiërarchie (36 headings) zijn verder volledig correct.'
+    status: needs-rework
 themas:
   - obligatielening
   - obligaties
@@ -13,47 +54,6 @@ themas:
   - oprichtingskosten
   - pari
   - uitgiftewaarde
-bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-uitgifte-van-een-obligatielening
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-uitgifte-van-een-obligatielening
-      sha256: e202a1be947f8d1631a1dc4341ddb81214015a1152489e3dbfa7f684cda940ea
-      version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:37:40Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T12:21:40Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: 'A3: Grote TOC-fragmenten op regels 100-102 — de volledige geneste inhoudsopgave is aaneengeregen op twee lange regels met `--`-scheidingstekens (`-- Kosten bij uitgifte van leningen-- Agio en disagio----...`). Dit is een duidelijk extractie-artefact van een gegenereerd TOC dat mee geëxtraheerd werd. Inhoud en heading-hiërarchie (36 headings) zijn verder volledig correct.'
-    layer1:
-      status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 36
-      max_section_chars: 8025
-      file_size_chars: 23638
-      flags: []
-    layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:21:40Z'
-      rationale: 'A3: Grote TOC-fragmenten op regels 100-102 — de volledige geneste inhoudsopgave is aaneengeregen op twee lange regels met `--`-scheidingstekens (`-- Kosten bij uitgifte van leningen-- Agio en disagio----...`). Dit is een duidelijk extractie-artefact van een gegenereerd TOC dat mee geëxtraheerd werd. Inhoud en heading-hiërarchie (36 headings) zijn verder volledig correct.'
-      concrete_problemen:
-        - regel: 100
-          categorie: A3
-          type: other
-          voorbeeld: -- Kosten bij uitgifte van leningen-- Agio en disagio---- Lening zonder verschil...
-        - regel: 101
-          categorie: A3
-          type: other
-          voorbeeld: '---- Vervaldag van de rente (1 april 2020)\n---- Regularisering einde boekjaar 2020--...'
 ---
 
 # CBN-advies 2019/07 – Boekhoudkundige verwerking van de uitgifte van een obligatielening
@@ -105,10 +105,6 @@ provenance:
     1. Begin van het boekjaar 2025 (tegenboeking) 
     2. Vervaldag van de lening en terugbetaling van de obligaties (1 april 2025) 
 
--- Kosten bij uitgifte van leningen-- Agio en disagio---- Lening zonder verschil tussen de uitgifteprijs en terugbetalingswaarde---- Uitgifte onder pari en terugbetaling tegen pari-waarde---- Uitgifte tegen pari-waarde en terugbetaling boven pari ---- Uitgifte onder pari en terugbetaling boven pariVoorbeeld-- Boekhoudkundige verwerking in 2019---- Uitgifte van de obligatielening per 1 april 2019---- Regularisering einde boekjaar 2019-- Boekhoudkundige verwerking in 2020---- Begin van het boekjaar 2020 (tegenboeking)
----- Vervaldag van de rente (1 april 2020)
----- Regularisering einde boekjaar 2020-- Boekhoudkundige verwerking in 2021---- Begin van het boekjaar 2021 (tegenboeking)---- Vervaldag van de rente (1 april 2021)---- Regularisering einde boekjaar 2021-- Boekhoudkundige verwerking in 2022---- Begin van het boekjaar 2022 (tegenboeking)---- Vervaldag van de rente (1 april 2022)---- Regularisering einde boekjaar 2022-- Boekhoudkundige verwerking in 2023---- Begin van het boekjaar 2023 (tegenboeking)---- Vervaldag van de rente (1 april 2023)---- Regularisering einde boekjaar 2023-- Boekhoudkundige verwerking in 2024---- Begin van het boekjaar 2024 (tegenboeking)---- Vervaldatum van de rente (1 april 2024)---- Regularisering einde boekjaar 2024 (waaronder herclassificatie van de schuld)-- Boekhoudkundige verwerking in 2025---- Begin van het boekjaar 2025 (tegenboeking)---- Vervaldag van de lening en terugbetaling van de obligaties (1 april 2025) 
-
 ## Inleiding
 
 De Commissie werd gevraagd om advies te geven betreffende de interpretatie van de wettelijke bepalingen verbonden aan de boekhoudkundige verwerking van kosten, premies en verliezen bij de uitgifte van een obligatielening.
@@ -130,9 +126,7 @@ De inresultaatname van dit verschil geschiedt op geactualiseerde basis, uitgaand
 De vennootschappen hebben echter de mogelijkheid om:
 
 1° het verschil tussen de uitgifteprijs en de terugbetalingswaarde, op lineaire basis pro rata temporis in resultaat te nemen;
-
 2° de obligatieleningen voor hun uitgifteprijs in de balans te behouden wanneer de weerslag van de inresultaatname van het actuariële rendement van de lening ten opzichte van de inresultaatname van het louter nominale rendement, te verwaarlozen zou zijn.
-
 Het eerste en het tweede lid zijn van toepassing op obligatieleningen met een rendement dat, volgens de uitgiftevoorwaarden, uitsluitend voortkomt uit het verschil tussen de uitgifteprijs en de terugbetalingswaarde.
 
 ### Kosten bij uitgifte van leningen
@@ -147,16 +141,13 @@ De vennootschap kan ook beslissen om de kosten niet te activeren[^5].
 
 ### Agio en disagio
 
-De Commissie is van oordeel dat uitgifte- en terugbetalingspremies in hoofde van de vennootschap een kost[^6]
- of een opbrengst[^7]
- uitmaken.
+De Commissie is van oordeel dat uitgifte- en terugbetalingspremies in hoofde van de vennootschap een kost[^6] of een opbrengst[^7] uitmaken.
 
 Voor leningen die zijn aangegaan vóór 31 december 1991 werd deze kost beschouwd als “disagio” en werd het opgenomen bij rekening 201 *Kosten bij uitgifte van leningen en disagio*.
 
 Het koninklijk besluit van 30 december 1991[^8] schrapte in de titel van rekening 201 de woorden “en disagio”.
 
-Dit betekent dat voor contracten die afgesloten zijn na 31 december 1991, de uitgifte- en terugbetalingspremies niet meer geactiveerd worden op de balans[^9]
- en dus niet meer beschouwd worden als Oprichtingskosten, maar geleidelijk aan op de rekening van de lening moeten worden gecrediteerd.
+Dit betekent dat voor contracten die afgesloten zijn na 31 december 1991, de uitgifte- en terugbetalingspremies niet meer geactiveerd worden op de balans[^9] en dus niet meer beschouwd worden als Oprichtingskosten, maar geleidelijk aan op de rekening van de lening moeten worden gecrediteerd.
 
 Het behoort het bestuursorgaan toe de uitgiftevoorwaarden voor een obligatielening te bepalen. De leningen kunnen als volgt worden uitgegeven:
 
@@ -173,13 +164,13 @@ De vennootschap-emittent kent de inschrijver een vordering toe waarvan de uitgif
 
 Het bedrag (of uitgifteprijs) dat gestort is door de inschrijver is kleiner dan de nominale waarde.
 
-*Voorbeeld*: uitgifte tegen 97,50 %. Voor een nominale waarde van 10.000.000 EUR, moeten de inschrijvers slechts 9.750.000 EUR betalen. Zo ontstaat er een *uitgiftepremie *van 2,50 %.
+*Voorbeeld*: uitgifte tegen 97,50 %. Voor een nominale waarde van 10.000.000 EUR, moeten de inschrijvers slechts 9.750.000 EUR betalen. Zo ontstaat er een* uitgiftepremie *van 2,50 %.
 
 #### Uitgifte tegen pari-waarde en terugbetaling boven pari 
 
 De terugbetalingswaarde (op de vervaldag) van de a pari uitgegeven obligatie ligt hoger dan de nominale waarde.
 
-*Voorbeeld*: uitgifte tegen 100 % en terugbetaling tegen 102,50 %. Voor een nominale waarde van 10.000.000 EUR krijgen de inschrijvers 10.250.000 EUR terug op de vervaldag. Zo ontstaat er een *terugbetalingspremie* van 2,50 %.
+*Voorbeeld*: uitgifte tegen 100 % en terugbetaling tegen 102,50 %. Voor een nominale waarde van 10.000.000 EUR krijgen de inschrijvers 10.250.000 EUR terug op de vervaldag. Zo ontstaat er een* terugbetalingspremie* van 2,50 %.
 
 #### Uitgifte onder pari en terugbetaling boven pari
 
@@ -225,21 +216,15 @@ Overeenkomstig lid 3, 1° van artikel 3:51 KB WVV neemt de vennootschap het vers
 
 #### Regularisering einde boekjaar 2019
 
- [^10]
-
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 6501 | Afschrijving van de kosten bij uitgifte van leningen | 26.250,00 | |
 | aan | 201 | Kosten bij uitgifte van leningen | | 26.250,00 |
 
-[^11]
-
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 6500 | Rente, commissies en kosten verbonden aan schulden | 107.812,50 | |
 | aan | 492 | Toe te rekenen kosten | | 107.812,50 |
-
-[^12]
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
@@ -274,8 +259,6 @@ Overeenkomstig lid 3, 1° van artikel 3:51 KB WVV neemt de vennootschap het vers
 |---|----------|--------------|-------|--------|
 | | 6500 | Rente, commissies en kosten verbonden aan schulden | 107.812,50 | |
 | aan | 492 | Toe te rekenen kosten | | 107.812,50 |
-
-[^15]
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
@@ -434,14 +417,10 @@ Overeenkomstig lid 3, 1° van artikel 3:51 KB WVV neemt de vennootschap het vers
 
 #### Vervaldag van de lening en terugbetaling van de obligaties (1 april 2025)
 
- [^16]
-
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 4211 | Niet-achtergestelde en niet-converteerbare obligatieleningen | 4.166,67 | |
 | aan | 6500 | Rente, commissies en kosten verbonden aan schulden | | 4.166,67 |
-
-[^17]
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|

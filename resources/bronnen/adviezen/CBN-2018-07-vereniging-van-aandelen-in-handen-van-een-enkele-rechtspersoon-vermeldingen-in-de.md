@@ -1,6 +1,39 @@
 ---
-nummer: CBN-advies 2018/07
+bron: https://www.cbn-cnc.be/nl/adviezen/vereniging-van-aandelen-in-handen-van-een-enkele-rechtspersoon-vermeldingen-in-de
 datum: 2018-05-09
+nummer: CBN-advies 2018/07
+provenance:
+  generated_at: '2026-05-11T13:05:08Z'
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/vereniging-van-aandelen-in-handen-van-een-enkele-rechtspersoon-vermeldingen-in-de
+      sha256: 0bfff4849299f0c0eca7f7080f32ac0ae00d5919809aed787b8629fb17d28435
+      version:
+  stale: false
+  stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
+  trust:
+    confirmed_at:
+    confirmed_by:
+    layer1:
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:29Z'
+      heading_count: 4
+      max_section_chars: 2618
+      file_size_chars: 7549
+      flags: []
+    layer2:
+      agent:
+      concrete_problemen: []
+      rationale:
+      run_at:
+      status: not_run
+    rationale: 'Trust gereset 2026-05-11: re-scrape met scraper-fixes, content-diff > 5%'
+    status: unreviewed
 themas:
   - vereniging van aandelen in één hand
   - eenhoofdigheid
@@ -9,47 +42,6 @@ themas:
   - personnlijke zekerheid
   - waarborg
   - aansprakelijkheid
-bron: https://www.cbn-cnc.be/nl/adviezen/vereniging-van-aandelen-in-handen-van-een-enkele-rechtspersoon-vermeldingen-in-de
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/vereniging-van-aandelen-in-handen-van-een-enkele-rechtspersoon-vermeldingen-in-de
-      sha256: 0bfff4849299f0c0eca7f7080f32ac0ae00d5919809aed787b8629fb17d28435
-      version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:37:20Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T12:21:40Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "B3/G2: de voorbeeld-blokken op regels 59-65 worden omsloten door losse pipe-tekens (`|  ` op regel 59 en `  |` op regels 65) die een mislukte callout- of tabel-rendering zijn — een mens schrijft dit nooit zo. Hetzelfde patroon op regels 59 en 65: `|  ` als openings- en sluitingsmarkering van een 'box' die de extractor niet correct kon renderen."
-    layer1:
-      status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 4
-      max_section_chars: 2618
-      file_size_chars: 7546
-      flags: []
-    layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:21:40Z'
-      rationale: "B3/G2: de voorbeeld-blokken op regels 59-65 worden omsloten door losse pipe-tekens (`|  ` op regel 59 en `  |` op regels 65) die een mislukte callout- of tabel-rendering zijn — een mens schrijft dit nooit zo. Hetzelfde patroon op regels 59 en 65: `|  ` als openings- en sluitingsmarkering van een 'box' die de extractor niet correct kon renderen."
-      concrete_problemen:
-        - regel: 59
-          categorie: B3
-          type: other
-          voorbeeld: '|  \n\n*Voorbeeld*\n\nWanneer alle aandelen van de vennootschap...'
-        - regel: 65
-          categorie: B3
-          type: other
-          voorbeeld: '  | '
 ---
 
 # CBN-advies 2018/07 – Vereniging van aandelen in handen van één enkele rechtspersoon: vermeldingen in de toelichting
@@ -60,11 +52,13 @@ In onderhavig advies verduidelijkt de Commissie de gevolgen van de vereniging va
 
 ## Vennootschapsrechtelijke bepalingen
 
-Een vennootschap vereist in principe steeds een samenwerking tussen verschillende personen en dus meerdere aandeelhouders.[^2] Enkel voor de naamloze vennootschap (hierna: NV) en de besloten vennootschap met beperkte aansprakelijkheid (hierna: BVBA) voorzien resp. de artikelen 646 en 213 van het Wetboek van Vennootschappen (hierna: W.Venn.) in de mogelijkheid om slechts één aandeelhouder te hebben, in de praktijk vaak omschreven als “eenhoofdigheid” of een “eenhoofdige vennootschap”.
+Een vennootschap vereist in principe steeds een samenwerking tussen verschillende personen en dus meerdere aandeelhouders.[^2]
+ Enkel voor de naamloze vennootschap (hierna: NV) en de besloten vennootschap met beperkte aansprakelijkheid (hierna: BVBA) voorzien resp. de artikelen 646 en 213 van het Wetboek van Vennootschappen (hierna: W.Venn.) in de mogelijkheid om slechts één aandeelhouder te hebben, in de praktijk vaak omschreven als “eenhoofdigheid” of een “eenhoofdige vennootschap”.
 
-In bepaalde gevallen is een belangrijk gevolg gekoppeld aan de eenhoofdigheid van een NV en BVBA, nl. een hoofdelijke borgstelling door de enige aandeelhouder voor de verbintenissen van de eenhoofdige vennootschap.[^3] Artikel 646, § 1 W.Venn. schrijft meer bepaald voor dat, indien binnen het jaar geen nieuwe aandeelhouder in de vennootschap is opgenomen of deze niet geldig is omgezet in een BVBA of ontbonden, de enige aandeelhouder geacht wordt hoofdelijk borg te staan voor alle verbintenissen van de vennootschap, ontstaan na de vereniging van alle aandelen in zijn hand, tot een nieuwe aandeelhouder in de vennootschap wordt opgenomen of tot de bekendmaking van haar omzetting in een BVBA of van haar ontbinding. Artikel 213, § 2 W.Venn. bevat een gelijkaardige bepaling voor het geval waarin in de eenhoofdig geworden BVBA de enige vennoot een rechtspersoon is.[^4] 
+In bepaalde gevallen is een belangrijk gevolg gekoppeld aan de eenhoofdigheid van een NV en BVBA, nl. een hoofdelijke borgstelling door de enige aandeelhouder voor de verbintenissen van de eenhoofdige vennootschap.[^3]
+ Artikel 646, § 1 W.Venn. schrijft meer bepaald voor dat, indien binnen het jaar geen nieuwe aandeelhouder in de vennootschap is opgenomen of deze niet geldig is omgezet in een BVBA of ontbonden, de enige aandeelhouder geacht wordt hoofdelijk borg te staan voor alle verbintenissen van de vennootschap, ontstaan na de vereniging van alle aandelen in zijn hand, tot een nieuwe aandeelhouder in de vennootschap wordt opgenomen of tot de bekendmaking van haar omzetting in een BVBA of van haar ontbinding. Artikel 213, § 2 W.Venn. bevat een gelijkaardige bepaling voor het geval waarin in de eenhoofdig geworden BVBA de enige vennoot een rechtspersoon is.[^4] 
 
-|  
+| 
 
 *Voorbeeld*
 
@@ -76,11 +70,13 @@ Wanneer alle aandelen van de vennootschap op 1 januari X in handen van vennootsc
 
 De eenhoofdigheid heeft voor gevolg dat iedere rechtspersoon die de enige aandeelhouder is van een NV of van een BVBA en dus hoofdelijk borg staat, passende vermeldingen moet maken in de jaarrekening. Artikel 25 van het uitvoeringsbesluit bij het Wetboek van vennootschappen (hierna: KB W.Venn.) schrijft namelijk voor dat de toelichting per soort de rechten en verplichtingen die niet in de balans voorkomen en die het vermogen, de financiële positie of het resultaat van de vennootschap aanmerkelijk kunnen beïnvloeden, vermeldt. Belangrijke rechten en verplichtingen die niet kunnen worden becijferd, worden op passende wijze vermeld in de toelichting.
 
-In het volledig model van de jaarrekening dient het maximumbedrag, ten belope waarvan andere verplichtingen van derden door de onderneming zijn gewaarborgd, te worden vermeld onder *Door de onderneming gestelde of onherroepelijk beloofde persoonlijke zekerheden[^6] als waarborg voor schulden of verplichtingen van derden* (VOL 6.14).[^7] Bijkomend dient, onder *Betrekkingen met verbonden ondernemingen*, ook een vermelding te worden gemaakt onder de persoonlijke en zakelijke zekerheden door de onderneming gesteld of onherroepelijk beloofd als waarborg voor schulden of verplichtingen van verbonden ondernemingen (VOL 6.15).
+In het volledig model van de jaarrekening dient het maximumbedrag, ten belope waarvan andere verplichtingen van derden door de onderneming zijn gewaarborgd, te worden vermeld onder *Door de onderneming gestelde of onherroepelijk beloofde persoonlijke zekerheden[^6] als waarborg voor schulden of verplichtingen van derden* (VOL 6.14).[^7]
+ Bijkomend dient, onder *Betrekkingen met verbonden ondernemingen*, ook een vermelding te worden gemaakt onder de persoonlijke en zakelijke zekerheden door de onderneming gesteld of onherroepelijk beloofd als waarborg voor schulden of verplichtingen van verbonden ondernemingen (VOL 6.15).
 
-In het verkort model van de jaarrekening wordt dit bedrag teruggevonden onder *Door de onderneming gestelde of onherroepelijk beloofde persoonlijke zekerheden als waarborg voor schulden of verplichtingen van derden *(VKT 6.5)[^8], met daarnaast ook een vermelding onder de betrekkingen met verbonden ondernemingen, meer bepaald onder de waarborgen toegestaan in het voordeel van verbonden ondernemingen (VKT 6.6).
+In het verkort model van de jaarrekening wordt dit bedrag teruggevonden onder *Door de onderneming gestelde of onherroepelijk beloofde persoonlijke zekerheden als waarborg voor schulden of verplichtingen van derden* (VKT 6.5)[^8], met daarnaast ook een vermelding onder de betrekkingen met verbonden ondernemingen, meer bepaald onder de waarborgen toegestaan in het voordeel van verbonden ondernemingen (VKT 6.6).
 
-Hoewel in de oorspronkelijke ontwerpteksten was voorzien in een hoofdelijke en onbeperkte aansprakelijkheid van de enige aandeelhouder, werd uiteindelijk een hoofdelijke borgstelling ingevoerd, hetgeen op jaarrekeningrechtelijk vlak uitsluitend aanleiding zal geven tot een vermelding in de toelichting onder de persoonlijke zekerheden.[^9] Bijgevolg wenst de Commissie te benadrukken dat, naar aanleiding van het eenhoofdig worden van de vennootschap, de vennoot deze vennootschap niet dient te vermelden in de in de toelichting opgenomen lijst van ondernemingen waarvoor de onderneming onbeperkt aansprakelijk is in haar hoedanigheid van onbeperkt aansprakelijk vennoot (VOL 6.5.2).
+Hoewel in de oorspronkelijke ontwerpteksten was voorzien in een hoofdelijke en onbeperkte aansprakelijkheid van de enige aandeelhouder, werd uiteindelijk een hoofdelijke borgstelling ingevoerd, hetgeen op jaarrekeningrechtelijk vlak uitsluitend aanleiding zal geven tot een vermelding in de toelichting onder de persoonlijke zekerheden.[^9]
+ Bijgevolg wenst de Commissie te benadrukken dat, naar aanleiding van het eenhoofdig worden van de vennootschap, de vennoot deze vennootschap niet dient te vermelden in de in de toelichting opgenomen lijst van ondernemingen waarvoor de onderneming onbeperkt aansprakelijk is in haar hoedanigheid van onbeperkt aansprakelijk vennoot (VOL 6.5.2).
 
 ## Stuk dat tegelijk met de jaarrekening moet worden neergelegd
 

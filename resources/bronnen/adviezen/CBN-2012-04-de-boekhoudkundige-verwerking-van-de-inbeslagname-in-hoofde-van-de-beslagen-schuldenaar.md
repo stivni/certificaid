@@ -1,60 +1,44 @@
 ---
-nummer: CBN-advies 2012/4
+bron: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-inbeslagname-in-hoofde-van-de-beslagen-schuldenaar
 datum: 2012-01-11
+nummer: CBN-advies 2012/4
+provenance:
+  generated_at: '2026-05-11T13:05:08Z'
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-inbeslagname-in-hoofde-van-de-beslagen-schuldenaar
+      sha256: 4325b86bb9e88219e2116194f27bc2a303cf2a3c2f5d2e38addf25adad2bd7cc
+      version:
+  stale: false
+  stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
+  trust:
+    confirmed_at:
+    confirmed_by:
+    layer1:
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:28Z'
+      heading_count: 9
+      max_section_chars: 7110
+      file_size_chars: 16482
+      flags: []
+    layer2:
+      agent:
+      concrete_problemen: []
+      rationale:
+      run_at:
+      status: not_run
+    rationale: 'Trust gereset 2026-05-11: re-scrape met scraper-fixes, content-diff > 5%'
+    status: unreviewed
 themas:
   - bewarend beslag
   - inbeslagname
   - kantonnement
   - uitvoerend beslag
-bron: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-inbeslagname-in-hoofde-van-de-beslagen-schuldenaar
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-inbeslagname-in-hoofde-van-de-beslagen-schuldenaar
-      sha256: 4325b86bb9e88219e2116194f27bc2a303cf2a3c2f5d2e38addf25adad2bd7cc
-      version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:36:23Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T12:09:18Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "D4/B3: regel 66 heeft '### * Algemene kenmerken*' — asterisken zijn onderdeel van de heading-tekst (malformed). Regels 105 en 117 hebben '**1. Uitvoerend beslag **' en '** 2. Kantonnement**' als bold-paragrafen in plaats van subsection-headings, met extra spaties. Regels 142-144 en 152-154 bevatten gebroken tabelcellen over meerdere regels (C3/E2-patroon bij de verkoopboeking)."
-    layer1:
-      status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 8
-      max_section_chars: 7126
-      file_size_chars: 16495
-      flags: []
-    layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:09:18Z'
-      rationale: "D4/B3: regel 66 heeft '### * Algemene kenmerken*' — asterisken zijn onderdeel van de heading-tekst (malformed). Regels 105 en 117 hebben '**1. Uitvoerend beslag **' en '** 2. Kantonnement**' als bold-paragrafen in plaats van subsection-headings, met extra spaties. Regels 142-144 en 152-154 bevatten gebroken tabelcellen over meerdere regels (C3/E2-patroon bij de verkoopboeking)."
-      concrete_problemen:
-        - regel: 66
-          categorie: D4
-          type: other
-          voorbeeld: '### * Algemene kenmerken*'
-        - regel: 105
-          categorie: B5
-          type: other
-          voorbeeld: '**1. Uitvoerend beslag **'
-        - regel: 117
-          categorie: B5
-          type: other
-          voorbeeld: '** 2. Kantonnement**'
-        - regel: 142
-          categorie: E2
-          type: other
-          voorbeeld: "| | 700-707\n\t\t\t\t(of 499 | Verkopen en dienstprestaties\n\t\t\t\tVerkopen materiële vaste activa)"
 ---
 
 # CBN-advies 2012/4 - De boekhoudkundige verwerking van de inbeslagname in hoofde van de beslagen schuldenaar Advies van 11 januari 2012
@@ -72,8 +56,7 @@ provenance:
 
 Luidens de artikelen 7 en 8 van de Hypotheekwet is de schuldenaar gehouden zijn verbintenissen na te komen, *onder verband van* al zijn goederen, hetzij roerende, hetzij onroerende, zowel tegenwoordige als toekomstige, waarbij de goederen van deze laatste strekken tot gemeenschappelijke waarborg voor zijn schuldeisers.[^1] 
 
-Uit deze verplichting vloeit het recht voort voor een schuldeiser om beslag te laten leggen op een goed van zijn schuldenaar, hetzij om het te beschermen tegen bepaalde handelingen van de schuldenaar (bewarend beslag), hetzij om het te verkopen en zich de opbrengst daarvan toe te eigenen (uitvoerend beslag). Naar het object van het beslag onderscheidt men hoofdzakelijk het roerend beslag[^2], het onroerend beslag[^3]
- en het beslag onder derden.[^4] 
+Uit deze verplichting vloeit het recht voort voor een schuldeiser om beslag te laten leggen op een goed van zijn schuldenaar, hetzij om het te beschermen tegen bepaalde handelingen van de schuldenaar (bewarend beslag), hetzij om het te verkopen en zich de opbrengst daarvan toe te eigenen (uitvoerend beslag). Naar het object van het beslag onderscheidt men hoofdzakelijk het roerend beslag[^2], het onroerend beslag[^3] en het beslag onder derden.[^4] 
 
 De Commissie voor Boekhoudkundige Normen behandelt in dit advies de boekhoudkundige gevolgen van het bewarend en het uitvoerend beslag in hoofde van de beslagen schuldenaar.
 
@@ -81,14 +64,17 @@ De Commissie voor Boekhoudkundige Normen behandelt in dit advies de boekhoudkund
 
 ### * Algemene kenmerken*
 
- Het bewarend beslag wordt geregeld door het artikel 1413 e.v. van het Gerechtelijk Wetboek en heeft tot doel het geheel of een deel van de goederen van een onderneming onbeschikbaar[^5]
- te maken, teneinde deze goederen te vrijwaren van enige ontvreemding ervan door de onderneming.[^6] 
+ Het bewarend beslag wordt geregeld door het artikel 1413 e.v. van het Gerechtelijk Wetboek en heeft tot doel het geheel of een deel van de goederen van een onderneming onbeschikbaar[^5] te maken, teneinde deze goederen te vrijwaren van enige ontvreemding ervan door de onderneming.[^6] 
 
-Enerzijds brengt het bewarend beslag geen onteigening van de schuldenaar met zich mee.[^7] Het beslagen voorwerp blijft in het bezit van de onderneming die er het genot van behoudt en die er de vruchten van mag blijven plukken.[^8] 
+Enerzijds brengt het bewarend beslag geen onteigening van de schuldenaar met zich mee.[^7]
+ Het beslagen voorwerp blijft in het bezit van de onderneming die er het genot van behoudt en die er de vruchten van mag blijven plukken.[^8] 
 
-Anderzijds doet het bewarend beslag geen enkel voorrecht ontstaan in hoofde van de beslagleggende schuldeiser op het vermogen van de beslagen onderneming.[^9] Evenmin maakt het bewarend beslag een voorafgaande voorwaarde uit voor een gedwongen tenuitvoerlegging.[^10] 
+Anderzijds doet het bewarend beslag geen enkel voorrecht ontstaan in hoofde van de beslagleggende schuldeiser op het vermogen van de beslagen onderneming.[^9]
+ Evenmin maakt het bewarend beslag een voorafgaande voorwaarde uit voor een gedwongen tenuitvoerlegging.[^10] 
 
-De schuldenaar lastens wie bewarend beslag is gelegd, heeft het recht om het beslagene te bevrijden of het beslag te verhinderen door over te gaan tot kantonnement van de oorzaak van het beslag.[^11] Dit kantonnement bevrijdt het beslagene en heft de onbeschikbaarheid van het in beslag genomen goed op, doordat de gekantonneerde bedragen in de plaats worden gesteld van het in beslag genomen goed.[^12] Werd het beslag gelegd op gelden of roerende goederen die zich in handen van een derde bevinden (beslag onder derden of beslag bij een derde), dan kan door de beslaglegger, de beslagen schuldenaar, of derde-beslagene het kantonnement gevraagd worden van het voorwerp van het beslag (nl. de gelden of de roerende goederen waarop het beslag betrekking heeft).[^13] 
+De schuldenaar lastens wie bewarend beslag is gelegd, heeft het recht om het beslagene te bevrijden of het beslag te verhinderen door over te gaan tot kantonnement van de oorzaak van het beslag.[^11]
+ Dit kantonnement bevrijdt het beslagene en heft de onbeschikbaarheid van het in beslag genomen goed op, doordat de gekantonneerde bedragen in de plaats worden gesteld van het in beslag genomen goed.[^12]
+ Werd het beslag gelegd op gelden of roerende goederen die zich in handen van een derde bevinden (beslag onder derden of beslag bij een derde), dan kan door de beslaglegger, de beslagen schuldenaar, of derde-beslagene het kantonnement gevraagd worden van het voorwerp van het beslag (nl. de gelden of de roerende goederen waarop het beslag betrekking heeft).[^13] 
 
 ### Boekhoudkundige analyse
 
@@ -106,25 +92,26 @@ Het bestuursorgaan moet bovendien op inventarisdatum beoordelen of al dan niet e
 
 Bij een uitvoerend beslag (artikel 1494 e.v. Ger. W.) streeft een schuldeiser die over een uitvoerbare titel beschikt, tegenover een onderneming de effectieve betaling na van zijn vordering door middel van de gedwongen verkoop van de beslagen materiële of immateriële activa uit het vermogen van deze laatste. De schuldeiser beoogt op die manier de waarde van zijn schuldvordering te bekomen. 
 
-Het uitvoerend beslag heeft geen eigendomsoverdracht tot gevolg, en heeft dus in eerste instantie slechts een bewarend karakter.[^16] De beslagene behoudt, mits enkele beperkingen, het bezit en het gebruiksrecht van de beslagen goederen[^17]. In tegenstelling tot het bewarend beslag, vallen bij uitvoerend beslag de vruchten die de in beslag genomen zaak oplevert eveneens onder het beslag.[^18] 
+Het uitvoerend beslag heeft geen eigendomsoverdracht tot gevolg, en heeft dus in eerste instantie slechts een bewarend karakter.[^16]
+ De beslagene behoudt, mits enkele beperkingen, het bezit en het gebruiksrecht van de beslagen goederen[^17]. In tegenstelling tot het bewarend beslag, vallen bij uitvoerend beslag de vruchten die de in beslag genomen zaak oplevert eveneens onder het beslag.[^18] 
 
 Bovendien geldt, anders dan bij bewarend beslag, het kantonnement van de oorzaak van het beslag als een voorwaardelijke betaling.[^19]
   Kantonnement van het *voorwerp* van het beslag heeft daarentegen enkel een verplaatsing van het beslagene tot gevolg en geldt niet als voorwaardelijke betaling.[^20] 
 
-Ingeval de beslagen debiteur na de betekening van het bevel tot betalen niet overgaat tot betaling binnen de wettelijke termijn, voorziet het Gerechtelijk Wetboek twee verschillende procedures voor de gedwongen verkoop van de beslagen goederen, met name de onderhandse verkoop door de beslagen schuldenaar[^21] en de openbare verkoop door de gerechtsdeurwaarder[^22]
- of notaris[^23]. Aangezien in de praktijk de onderhandse verkoop maar uiterst zelden voorkomt, beperkt de Commissie zich tot de analyse van de openbare verkoop. 
+Ingeval de beslagen debiteur na de betekening van het bevel tot betalen niet overgaat tot betaling binnen de wettelijke termijn, voorziet het Gerechtelijk Wetboek twee verschillende procedures voor de gedwongen verkoop van de beslagen goederen, met name de onderhandse verkoop door de beslagen schuldenaar[^21] en de openbare verkoop door de gerechtsdeurwaarder[^22] of notaris[^23]. Aangezien in de praktijk de onderhandse verkoop maar uiterst zelden voorkomt, beperkt de Commissie zich tot de analyse van de openbare verkoop. 
 
-Wanneer met inachtneming van de procedureregels van de gedwongen openbare verkoop het goed definitief wordt toegewezen[^24], vindt de eigenlijke verkoop en dus ook de eigendomsoverdracht plaats.[^25] Het is de taak van de gerechtsdeurwaarder of de notaris om de verkoopprijs van de goederen toe te wijzen na de openbare verkoop ervan, ter terugbetaling van zijn kosten en van deze eigen aan de toewijzing. Vervolgens verdeelt hij het saldo onder de overige schuldeisers die betrokken zijn bij de procedure, met inachtname van een eventuele voorrangsbepaling waarvan bepaalde schuldeisers zouden kunnen genieten. 
+Wanneer met inachtneming van de procedureregels van de gedwongen openbare verkoop het goed definitief wordt toegewezen[^24], vindt de eigenlijke verkoop en dus ook de eigendomsoverdracht plaats.[^25]
+ Het is de taak van de gerechtsdeurwaarder of de notaris om de verkoopprijs van de goederen toe te wijzen na de openbare verkoop ervan, ter terugbetaling van zijn kosten en van deze eigen aan de toewijzing. Vervolgens verdeelt hij het saldo onder de overige schuldeisers die betrokken zijn bij de procedure, met inachtname van een eventuele voorrangsbepaling waarvan bepaalde schuldeisers zouden kunnen genieten. 
 
 ### Boekhoudkundige analyse
 
-**1. Uitvoerend beslag **
+### 1. Uitvoerend beslag 
 
 Zolang de toewijzing in het kader van de openbare verkoop niet heeft plaatsgevonden, zal er volgens de Commissie op boekhoudkundig vlak geen realisatie van de in beslag genomen goederen plaatsvinden. Het uitvoerend beslag kan evenwel, in de fase voorafgaand aan de verkoop, een aanzienlijke invloed hebben op de vermogenstoestand van de onderneming. 
 
 Het risico van de procedure tot inbeslagname voor de onderneming dient geval per geval beoordeeld te worden in functie van de impact op het vermogen, de financiële positie of de resultaten van de onderneming. Hiertoe zijn het bedrag van de schuld en de waarde van het beslagen goed waardevolle indicatoren. 
 
-Indien de procedure tot gedwongen tenuitvoerlegging een aanzienlijk risico inhoudt voor de financiële positie van de onderneming, dient dit door de onderneming boekhoudkundig verwerkt te worden via de rekening 09* Diverse rechten en verplichtingen *ten belope van het bedrag van de schuldvordering waarvan de tenuitvoerlegging vereist is en dient ze vermeld te worden in de toelichting voorbehouden aan de niet in de balans opgenomen rechten en verplichtingen onder de rubriek *Andere belangrijke verplichtingen.[^26] * De Commissie raadt bovendien aan om het uitvoerend beslag te vermelden in het jaarverslag volgens de grootte van de impact ervan op de onderneming. 
+Indien de procedure tot gedwongen tenuitvoerlegging een aanzienlijk risico inhoudt voor de financiële positie van de onderneming, dient dit door de onderneming boekhoudkundig verwerkt te worden via de rekening 09* Diverse rechten en verplichtingen *ten belope van het bedrag van de schuldvordering waarvan de tenuitvoerlegging vereist is en dient ze vermeld te worden in de toelichting voorbehouden aan de niet in de balans opgenomen rechten en verplichtingen onder de rubriek *Andere belangrijke verplichtingen.[^26]*  De Commissie raadt bovendien aan om het uitvoerend beslag te vermelden in het jaarverslag volgens de grootte van de impact ervan op de onderneming. 
 
 Het komt bovendien toe aan het bestuursorgaan om, indien nodig, een uitzonderlijke afschrijving te boeken zodat de boekwaarde van het goed wordt teruggebracht tot de potentiële realisatiewaarde van het goed bij een openbare verkoop.
 
@@ -149,8 +136,6 @@ Bij de realisatie van het goed door de gerechtsdeurwaarder, dient de onderneming
 
 Op het moment van de verkoop:
 
- [^28]
-
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 416 | Diverse vorderingen | 5.747,50 | |
@@ -160,8 +145,6 @@ Op het moment van de verkoop:
 			Verkopen materiële vaste activa) | 4.750,00 | |
 
 Bij de bepaling van het resultaat:
-
- [^29]
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|

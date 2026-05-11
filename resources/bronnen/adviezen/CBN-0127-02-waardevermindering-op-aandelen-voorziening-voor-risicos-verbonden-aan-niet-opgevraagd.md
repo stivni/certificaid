@@ -1,6 +1,56 @@
 ---
-nummer: CBN-advies 127/2
+bron: https://www.cbn-cnc.be/nl/adviezen/waardevermindering-op-aandelen-voorziening-voor-risicos-verbonden-aan-niet-opgevraagd
 datum: 1993-12-01
+gerelateerde_adviezen:
+  - datum: '2024-03-13'
+    titel: Terugbetaling van kapitaal in vreemde valuta aan de aandeelhouders
+    url: https://www.cbn-cnc.be/nl/adviezen/terugbetaling-van-kapitaal-in-vreemde-valuta-aan-de-aandeelhouders
+  - datum: '2019-03-12'
+    titel: Dividenduitkering en kapitaalvermindering in natura
+    url: https://www.cbn-cnc.be/nl/adviezen/dividenduitkering-en-kapitaalvermindering-in-natura-0
+  - datum: '2016-09-07'
+    titel: 'Verenigingen en stichtingen: certificatie van aandelen van handelsvennootschappen'
+    url: https://www.cbn-cnc.be/nl/adviezen/verenigingen-en-stichtingen-certificatie-van-aandelen-van-handelsvennootschappen
+  - datum: '2016-03-09'
+    titel: Verrichtingen met betrekking tot inschrijvingsrechten
+    url: https://www.cbn-cnc.be/nl/adviezen/verrichtingen-met-betrekking-tot-inschrijvingsrechten
+nummer: CBN-advies 127/2
+provenance:
+  generated_at: '2026-05-11T13:05:06Z'
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/waardevermindering-op-aandelen-voorziening-voor-risicos-verbonden-aan-niet-opgevraagd
+      sha256: dd176ad07335dc8869f9254b82ab3b39e8c35527699586e1bdfa3e7620dc91e6
+      version:
+  stale: false
+  stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
+  trust:
+    confirmed_at: '2026-05-11T11:57:45Z'
+    confirmed_by: subagent-sonnet-4-6
+    layer1:
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:25Z'
+      heading_count: 0
+      max_section_chars: 2723
+      file_size_chars: 2723
+      flags: []
+    layer2:
+      agent: subagent-sonnet-4-6
+      concrete_problemen:
+        - categorie: F1
+          regel: 9
+          type: other
+          voorbeeld: '- voorzieningen voor risico&#039;s en kosten (HTML-entity niet gedecodeerd)'
+      rationale: 'F1/G1: HTML-entity ''&#039;'' (apostrof) op regel 9 in frontmatter-thema (''voorzieningen voor risico&#039;s en kosten'') — dit is een HTML-escape die niet gedecodeerd werd door de ETL-pipeline. Hoewel dit in de frontmatter staat (niet de body), corrumpeert het de metadata die voor retrieval wordt gebruikt. De body zelf is schoon en volledig.'
+      run_at: '2026-05-11T11:57:45Z'
+      status: needs-rework
+    rationale: 'F1/G1: HTML-entity ''&#039;'' (apostrof) op regel 9 in frontmatter-thema (''voorzieningen voor risico&#039;s en kosten'') — dit is een HTML-escape die niet gedecodeerd werd door de ETL-pipeline. Hoewel dit in de frontmatter staat (niet de body), corrumpeert het de metadata die voor retrieval wordt gebruikt. De body zelf is schoon en volledig.'
+    status: needs-rework
 themas:
   - aandelen
   - niet-opgevraagd gedeelte van aandelen
@@ -8,56 +58,6 @@ themas:
   - voorziening
   - voorzieningen voor risico&#039;s en kosten
   - Waardevermindering
-bron: https://www.cbn-cnc.be/nl/adviezen/waardevermindering-op-aandelen-voorziening-voor-risicos-verbonden-aan-niet-opgevraagd
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/waardevermindering-op-aandelen-voorziening-voor-risicos-verbonden-aan-niet-opgevraagd
-      sha256: dd176ad07335dc8869f9254b82ab3b39e8c35527699586e1bdfa3e7620dc91e6
-      version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:34:44Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T11:57:45Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "F1/G1: HTML-entity '&#039;' (apostrof) op regel 9 in frontmatter-thema ('voorzieningen voor risico&#039;s en kosten') — dit is een HTML-escape die niet gedecodeerd werd door de ETL-pipeline. Hoewel dit in de frontmatter staat (niet de body), corrumpeert het de metadata die voor retrieval wordt gebruikt. De body zelf is schoon en volledig."
-    layer1:
-      status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 0
-      max_section_chars: 2723
-      file_size_chars: 2723
-      flags: []
-    layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T11:57:45Z'
-      rationale: "F1/G1: HTML-entity '&#039;' (apostrof) op regel 9 in frontmatter-thema ('voorzieningen voor risico&#039;s en kosten') — dit is een HTML-escape die niet gedecodeerd werd door de ETL-pipeline. Hoewel dit in de frontmatter staat (niet de body), corrumpeert het de metadata die voor retrieval wordt gebruikt. De body zelf is schoon en volledig."
-      concrete_problemen:
-        - regel: 9
-          categorie: F1
-          type: other
-          voorbeeld: '- voorzieningen voor risico&#039;s en kosten (HTML-entity niet gedecodeerd)'
-gerelateerde_adviezen:
-  - titel: Terugbetaling van kapitaal in vreemde valuta aan de aandeelhouders
-    url: https://www.cbn-cnc.be/nl/adviezen/terugbetaling-van-kapitaal-in-vreemde-valuta-aan-de-aandeelhouders
-    datum: '2024-03-13'
-  - titel: Dividenduitkering en kapitaalvermindering in natura
-    url: https://www.cbn-cnc.be/nl/adviezen/dividenduitkering-en-kapitaalvermindering-in-natura-0
-    datum: '2019-03-12'
-  - titel: 'Verenigingen en stichtingen: certificatie van aandelen van handelsvennootschappen'
-    url: https://www.cbn-cnc.be/nl/adviezen/verenigingen-en-stichtingen-certificatie-van-aandelen-van-handelsvennootschappen
-    datum: '2016-09-07'
-  - titel: Verrichtingen met betrekking tot inschrijvingsrechten
-    url: https://www.cbn-cnc.be/nl/adviezen/verrichtingen-met-betrekking-tot-inschrijvingsrechten
-    datum: '2016-03-09'
 ---
 
 # CBN-advies 127/2 - Waardevermindering op aandelen - Voorziening voor risico's verbonden aan niet-opgevraagd gedeelte

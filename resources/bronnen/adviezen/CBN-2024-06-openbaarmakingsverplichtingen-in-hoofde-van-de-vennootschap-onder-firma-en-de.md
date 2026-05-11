@@ -1,6 +1,46 @@
 ---
-nummer: CBN-advies 2024/06
+bron: https://www.cbn-cnc.be/nl/adviezen/openbaarmakingsverplichtingen-in-hoofde-van-de-vennootschap-onder-firma-en-de
 datum: 2024-06-10
+gerelateerde_adviezen:
+  - datum: '2021-03-11'
+    titel: De boekhoudkundige verwerking van het vennootschapsvermogen van een VOF en een CommV ingevolge de inwerkingtreding van het WVV
+    url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-het-vennootschapsvermogen-van-een-vof-en-een-commv
+  - datum: '2019-10-28'
+    titel: 'De vereenvoudigde boekhouding van een natuurlijke persoon, maatschap, vennootschap onder firma en commanditaire vennootschap: groottecriteria – omzetdefinitie'
+    url: https://www.cbn-cnc.be/nl/adviezen/de-vereenvoudigde-boekhouding-van-een-natuurlijke-persoon-maatschap-vennootschap-onder
+nummer: CBN-advies 2024/06
+provenance:
+  generated_at: '2026-05-11T13:05:09Z'
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/openbaarmakingsverplichtingen-in-hoofde-van-de-vennootschap-onder-firma-en-de
+      sha256: 0b3cd75f6c92a1d6d6baeebc0d4500f100c1eea75a76911222ececfb827a2bea
+      version:
+  stale: false
+  stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
+  trust:
+    confirmed_at: '2026-05-11T12:24:34Z'
+    confirmed_by: subagent-sonnet-4-6
+    layer1:
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:31Z'
+      heading_count: 0
+      max_section_chars: 3081
+      file_size_chars: 3081
+      flags: []
+    layer2:
+      agent: subagent-sonnet-4-6
+      concrete_problemen: []
+      rationale: 'Zeer kort advies (~3100 chars). Layer1 meldt heading_count: 0 — het document heeft geen ## headings, enkel de # H1-titel, wat correct is voor een advies van één alinea. Geen extractie-artefacten. Voetnoten [^1]–[^4] volledig. Inhoud volledig voor het smalle onderwerp (VOF/CommV turboliquidatie en openbaarmakingsplicht).'
+      run_at: '2026-05-11T12:24:34Z'
+      status: trusted
+    rationale: 'Zeer kort advies (~3100 chars). Layer1 meldt heading_count: 0 — het document heeft geen ## headings, enkel de # H1-titel, wat correct is voor een advies van één alinea. Geen extractie-artefacten. Voetnoten [^1]–[^4] volledig. Inhoud volledig voor het smalle onderwerp (VOF/CommV turboliquidatie en openbaarmakingsplicht).'
+    status: trusted
 themas:
   - VOF
   - openbaarmaking
@@ -13,46 +53,6 @@ themas:
   - turboliquidatie
   - jaarrekening
   - ontbinding en vereffening in één akte
-bron: https://www.cbn-cnc.be/nl/adviezen/openbaarmakingsverplichtingen-in-hoofde-van-de-vennootschap-onder-firma-en-de
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/openbaarmakingsverplichtingen-in-hoofde-van-de-vennootschap-onder-firma-en-de
-      sha256: 0b3cd75f6c92a1d6d6baeebc0d4500f100c1eea75a76911222ececfb827a2bea
-      version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:38:21Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: trusted
-    confirmed_at: '2026-05-11T12:24:34Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: 'Zeer kort advies (~3100 chars). Layer1 meldt heading_count: 0 — het document heeft geen ## headings, enkel de # H1-titel, wat correct is voor een advies van één alinea. Geen extractie-artefacten. Voetnoten [^1]–[^4] volledig. Inhoud volledig voor het smalle onderwerp (VOF/CommV turboliquidatie en openbaarmakingsplicht).'
-    layer1:
-      status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 0
-      max_section_chars: 3082
-      file_size_chars: 3082
-      flags: []
-    layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:24:34Z'
-      rationale: 'Zeer kort advies (~3100 chars). Layer1 meldt heading_count: 0 — het document heeft geen ## headings, enkel de # H1-titel, wat correct is voor een advies van één alinea. Geen extractie-artefacten. Voetnoten [^1]–[^4] volledig. Inhoud volledig voor het smalle onderwerp (VOF/CommV turboliquidatie en openbaarmakingsplicht).'
-      concrete_problemen: []
-gerelateerde_adviezen:
-  - titel: De boekhoudkundige verwerking van het vennootschapsvermogen van een VOF en een CommV ingevolge de inwerkingtreding van het WVV
-    url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-het-vennootschapsvermogen-van-een-vof-en-een-commv
-    datum: '2021-03-11'
-  - titel: 'De vereenvoudigde boekhouding van een natuurlijke persoon, maatschap, vennootschap onder firma en commanditaire vennootschap: groottecriteria – omzetdefinitie'
-    url: https://www.cbn-cnc.be/nl/adviezen/de-vereenvoudigde-boekhouding-van-een-natuurlijke-persoon-maatschap-vennootschap-onder
-    datum: '2019-10-28'
 ---
 
 # CBN-advies 2024/06 – Openbaarmakingsverplichtingen in hoofde van de vennootschap onder firma en de commanditaire vennootschap bij onmiddellijke sluiting van de vereffening
@@ -69,8 +69,7 @@ Aan de Commissie werd de vraag gesteld inzake de jaarrekeningrechtelijke gevolge
 
 De Commissie wenst erop te wijzen dat uit de bewoordingen van art. 2:80, lid 1 WVV blijkt dat de regels inzake de vrijwillige ontbinding, zoals opgenomen in art. 2:71 WVV, bij de ontbinding met onmiddellijke sluiting van de vereffening moeten worden nageleefd. Bij de procedure van de vrijwillige ontbinding overeenkomstig art. 2:71 WVV dient bovendien art. 2:70, lid 2 WVV in acht te worden genomen, wat impliceert dat de ontbinding de afsluiting van het boekjaar tot gevolg heeft. 
 
-Voor wat de toepassing van de regels inzake de openbaarmakingsverplichtingen[^3]
- betreft, is de Commissie van oordeel dat deze regels onverkort van toepassing blijven in geval van de onmiddellijke sluiting van de vereffening op grond van art. 2:80 WVV. 
+Voor wat de toepassing van de regels inzake de openbaarmakingsverplichtingen[^3] betreft, is de Commissie van oordeel dat deze regels onverkort van toepassing blijven in geval van de onmiddellijke sluiting van de vereffening op grond van art. 2:80 WVV. 
 
 Vanuit jaarrekeningrechtelijk perspectief impliceert het voorgaande dat indien een VOF of een CommV – mits voldaan is aan de voorwaarden van art. 3:9 WVV – niet onderworpen is aan de openbaarmakingsverplichtingen, dit eveneens het geval is wanneer een VOF of een CommV beslist om over te gaan tot een ontbinding en de sluiting van de vereffening in één akte.[^4] 
 

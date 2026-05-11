@@ -2,48 +2,45 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/toepassingsgebied-van-het-koninklijk-besluit-van-10-augustus-2009
 datum: 2010-06-16
 gerelateerde_adviezen:
-- datum: '2010-01-13'
-  titel: De interpretatie van de openbaarmakingsverplichting van transacties van enige
-    betekenis met verbonden partijen buiten normale marktvoorwaarden, zoals bepaald
-    in het koninklijk besluit van 10 augustus 2009
-  url: https://www.cbn-cnc.be/nl/adviezen/de-interpretatie-van-de-openbaarmakingsverplichting-van-transacties-van-enige-betekenis
+  - datum: '2010-01-13'
+    titel: De interpretatie van de openbaarmakingsverplichting van transacties van enige betekenis met verbonden partijen buiten normale marktvoorwaarden, zoals bepaald in het koninklijk besluit van 10 augustus 2009
+    url: https://www.cbn-cnc.be/nl/adviezen/de-interpretatie-van-de-openbaarmakingsverplichting-van-transacties-van-enige-betekenis
 nummer: CBN-advies 2010/9
 provenance:
-  generated_at: '2026-05-08T18:35:59Z'
+  generated_at: '2026-05-11T13:05:07Z'
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/toepassingsgebied-van-het-koninklijk-besluit-van-10-augustus-2009
-    sha256: 98e748542d61d3ab3789245576c0388f0d8dc5e3a8e1403f14f127e53d8d97bb
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/toepassingsgebied-van-het-koninklijk-besluit-van-10-augustus-2009
+      sha256: 98e748542d61d3ab3789245576c0388f0d8dc5e3a8e1403f14f127e53d8d97bb
+      version:
   stale: false
-  stale_reason: null
+  stale_reason:
   tooling:
-    model: null
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    prompt_version: null
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
   trust:
     confirmed_at: '2026-05-08T19:02:30Z'
     confirmed_by: subagent-laag2-ronde2
     layer1:
-      file_size_chars: 6149
-      flags: []
-      heading_count: 0
-      max_section_chars: 6149
-      run_at: null
-      run_id: 20260511-083333
       status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:27Z'
+      heading_count: 0
+      max_section_chars: 6148
+      file_size_chars: 6148
+      flags: []
     layer2:
       agent: subagent-laag2-ronde2
       concrete_problemen: []
-      rationale: '[Laag-2-R2 2026-05-08] Volledig met twee concrete voorbeelden (99%-structuur
-        en 40/60%-structuur), helder antwoord.'
+      rationale: '[Laag-2-R2 2026-05-08] Volledig met twee concrete voorbeelden (99%-structuur en 40/60%-structuur), helder antwoord.'
       run_at: '2026-05-08T19:02:30Z'
       status: trusted
     rationale: Laag-2 trusted door subagent-laag2-ronde2 (zie layer2.rationale)
     status: trusted
 themas:
-- transactie met verbonden partijen
-- transacties tussen verbonden ondernemingen
+  - transactie met verbonden partijen
+  - transacties tussen verbonden ondernemingen
 ---
 
 # CBN-advies 2010-9 - Toepassingsgebied van het koninklijk besluit van 10 augustus 20091 Advies van 16 juni 2010
@@ -55,8 +52,7 @@ Via het koninklijk besluit van 10 augustus 2009 worden volgende categorieën van
 Zoals bepaald in de Richtlijn 2006/46/EG, voorziet het koninklijk besluit evenwel volgende uitzondering: *“Deze informatie is niet vereist voor transacties die zijn aangegaan tussen twee of meer leden van een groep, mits de dochterondernemingen die partij zijn bij de transactie, geheel in eigendom zijn van een dergelijk lid[^3]
 ”*.
 
-In advies 2010/1[^4]
- heeft de Commissie duiding gegeven voor wat de interpretatie van deze uitzonderingsregel betreft. De Commissie is de mening toegedaan dat hier transacties worden bedoeld die plaatsvinden tussen vennootschappen van de groep die volledig in eigendom zijn van de groep of indien het bestuursorgaan van de vennootschap kan aantonen dat het belang van een eventuele minderheidsparticipatie van verwaarloosbare betekenis zou zijn (bijvoorbeeld 1 procent)[^5]. Deze transacties moeten alsdan dus niet worden opgenomen in deze staat van de toelichting. 
+In advies 2010/1[^4] heeft de Commissie duiding gegeven voor wat de interpretatie van deze uitzonderingsregel betreft. De Commissie is de mening toegedaan dat hier transacties worden bedoeld die plaatsvinden tussen vennootschappen van de groep die volledig in eigendom zijn van de groep of indien het bestuursorgaan van de vennootschap kan aantonen dat het belang van een eventuele minderheidsparticipatie van verwaarloosbare betekenis zou zijn (bijvoorbeeld 1 procent)[^5]. Deze transacties moeten alsdan dus niet worden opgenomen in deze staat van de toelichting. 
 
 De Commissie verduidelijkt deze interpretatie aan de hand van een voorbeeld. Veronderstel dat de moedervennootschap A 99 procent van de aandelen bezit van zowel dochtervennootschap X als dochtervennootschap Y. Y houdt de overige 1 procent aan van X en X houdt het restaandeel van Y aan. In dat geval behoren X en Y volledig toe aan de groep. De transacties van enige betekenis die buiten normale marktvoorwaarden zouden plaatsvinden tussen A, X en Y dienen dus niet opgenomen te worden in de nieuwe staat van de toelichting[^6]. 
 

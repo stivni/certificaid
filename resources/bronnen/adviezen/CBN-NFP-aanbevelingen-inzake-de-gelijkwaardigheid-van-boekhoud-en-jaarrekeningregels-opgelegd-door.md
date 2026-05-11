@@ -3,59 +3,54 @@ bron: https://www.cbn-cnc.be/nl/adviezen/aanbevelingen-inzake-de-gelijkwaardighe
 datum: 2007-01-01
 nummer: CBN-advies NFP
 provenance:
-  generated_at: '2026-05-08T18:38:24Z'
+  generated_at: '2026-05-11T13:05:09Z'
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/aanbevelingen-inzake-de-gelijkwaardigheid-van-boekhoud-en-jaarrekeningregels-opgelegd-door
-    sha256: f9afefc503221aa54eb11710768c07d716aacd5e1f5e6c0216584985fb2fca83
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/aanbevelingen-inzake-de-gelijkwaardigheid-van-boekhoud-en-jaarrekeningregels-opgelegd-door
+      sha256: f9afefc503221aa54eb11710768c07d716aacd5e1f5e6c0216584985fb2fca83
+      version:
   stale: false
-  stale_reason: null
+  stale_reason:
   tooling:
-    model: null
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    prompt_version: null
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
   trust:
-    confirmed_at: '2026-05-08T19:02:28Z'
-    confirmed_by: subagent-laag2-ronde2
+    confirmed_at:
+    confirmed_by:
     layer1:
-      file_size_chars: 23724
-      flags: []
-      heading_count: 0
-      max_section_chars: 23724
-      run_at: null
-      run_id: 20260511-083333
       status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:31Z'
+      heading_count: 3
+      max_section_chars: 9352
+      file_size_chars: 23500
+      flags: []
     layer2:
-      agent: subagent-laag2-ronde2
+      agent:
       concrete_problemen: []
-      rationale: '[Laag-2-R2 2026-05-08] 0-headings is een scraping-artefact: de HTML-structuur
-        gebruikte bold labels (A. INLEIDING, B. Voorwaarden..., C-D. Aanbevelingen)
-        die geen Markdown-headings werden. Inhoud volledig coherent en leesbaar. 9
-        voetnoten correct. Informatieverlies nihil.'
-      run_at: '2026-05-08T19:02:28Z'
-      status: trusted
-    rationale: Laag-2 trusted door subagent-laag2-ronde2 (zie layer2.rationale)
-    status: trusted
+      rationale:
+      run_at:
+      status: not_run
+    rationale: 'Trust gereset 2026-05-11: re-scrape met scraper-fixes, content-diff > 5%'
+    status: unreviewed
 themas:
-- gelijkwaardigheid
-- zeer grote verenigingen en stichtingen
-- grote verenigingen en stichtingen
-- internationale verenigingen zonder winstoogmerk
-- ivzw
-- kasboekhouding
-- openbaarmaking
-- patrimoniale boekhouding
-- publicatie
-- sectorale boekhoudregels
-- sectorale reglementering
-- stichting
-- vereenvoudigde boekhouding
-- vereniging zonder winstoogmerk
-- vzw
+  - gelijkwaardigheid
+  - zeer grote verenigingen en stichtingen
+  - grote verenigingen en stichtingen
+  - internationale verenigingen zonder winstoogmerk
+  - ivzw
+  - kasboekhouding
+  - openbaarmaking
+  - patrimoniale boekhouding
+  - publicatie
+  - sectorale boekhoudregels
+  - sectorale reglementering
+  - stichting
+  - vereenvoudigde boekhouding
+  - vereniging zonder winstoogmerk
+  - vzw
 ---
-
-# Aanbevelingen inzake de gelijkwaardigheid van boekhoud- en jaarrekeningregels opgelegd door sectorale regelgevingen met de gemeenrechtelijke boekhoud- en jaarrekeningregels voor vzw’s, ivzw’s en stichtingen
 
 # Aanbevelingen inzake de gelijkwaardigheid van boekhoud- en jaarrekeningregels opgelegd door sectorale regelgevingen met de gemeenrechtelijke boekhoud- en jaarrekeningregels voor vzw’s, ivzw’s en stichtingen
 
@@ -102,7 +97,7 @@ Een dergelijk harmonisatiebeleid dat reeds is ingezet door de Vlaamse Regering (
 
 De Commissie dankt de werkgroep "Not-for-profit & public sector accounting" voor zijn uiterst waardevolle bijdrage tot de opstelling van dit advies.
 
-**B. Voorwaarden en beperkingen van de gelijkwaardigheid van de sectorale boekhoudregels ten aanzien van de gemeenrechtelijke bepalingen inzake de boekhouding en de jaarrekening voor VZW’s, IVZW’s en stichtingen**
+## B. Voorwaarden en beperkingen van de gelijkwaardigheid van de sectorale boekhoudregels ten aanzien van de gemeenrechtelijke bepalingen inzake de boekhouding en de jaarrekening voor VZW’s, IVZW’s en stichtingen
 
 Vooraleer haar aanbevelingen toe te lichten, wenst de Commissie aan te geven welke voorwaarden en beperkingen aan de gelijkwaardigheid zijn verbonden:
 
@@ -113,14 +108,13 @@ Eens de jaarrekening is opgesteld, dienen niettemin de voorschriften van de wet 
 
 Als bijgevolg de raad van bestuur van een kleine VZW, gelet op de criteria van artikel 17 van de wet, van oordeel is dat de sectorale boekhoudregels die hij toepast, gelijkwaardig zijn aan de regels die het koninklijk besluit van 26 juni 2003 oplegt, zal de jaarrekening zoals opgesteld volgens die gelijkwaardig bevonden regels, ter griffie van de rechtbank van koophandel worden neergelegd, ook al leggen die sectorale boekhoudregels een dergelijke openbaarmaking niet op.
 
-Hetzelfde geldt wanneer de raad van bestuur van een zeer grote VZW, gelet op de criteria van artikel 17 van de wet, van oordeel is dat de sectorale boekhoudregels die hij toepast, gelijkwaardig zijn aan de regels die het koninklijk besluit van 19 december 2003 oplegt. In dat geval zal de jaarrekening zoals opgesteld volgens die gelijkwaardig bevonden regels, bij de Balanscentrale van de Nationale Bank van België worden neergelegd.[^6]
- en zal die jaarrekening worden gecontroleerd door de commissaris-revisor, overeenkomstig artikel 17, § 5, ook al leggen die boekhoudregels geen verplichting op tot openbaarmaking en controle van de jaarrekening.
+Hetzelfde geldt wanneer de raad van bestuur van een zeer grote VZW, gelet op de criteria van artikel 17 van de wet, van oordeel is dat de sectorale boekhoudregels die hij toepast, gelijkwaardig zijn aan de regels die het koninklijk besluit van 19 december 2003 oplegt. In dat geval zal de jaarrekening zoals opgesteld volgens die gelijkwaardig bevonden regels, bij de Balanscentrale van de Nationale Bank van België worden neergelegd.[^6] en zal die jaarrekening worden gecontroleerd door de commissaris-revisor, overeenkomstig artikel 17, § 5, ook al leggen die boekhoudregels geen verplichting op tot openbaarmaking en controle van de jaarrekening.
 
 Mocht géén gelijkwaardigheid worden vastgesteld, dan zal de vereniging geconfronteerd worden met conflicterende boekhoudregelgevingen - sectorale en gemeenrechtelijke - met als belangrijke juridische consequentie dat de vereniging zowel het gemeen recht als de betrokken sectorale regeling zal moeten toepassen[^7]. Het is evenwel duidelijk dat een dergelijke situatie niet wenselijk is en dat het derhalve aan de bevoegde overheid toekomt om in zo’n geval oplossingen te onderzoeken die het zouden mogelijk maken om het conflict tussen sectorale en gemeenrechtelijke regels op te heffen.
 
 Ten slotte, mochten verschillende sectorale regelgevingen op een VZW van toepassing zijn als gevolg van de uitgeoefende activiteiten, dan is de Commissie op het eerste gezicht van oordeel dat het gelijkwaardigheidsconcept in zo’n geval niet bruikbaar is aangezien men niet inziet hoe het - partieel – zou kunnen worden georganiseerd ten aanzien van de verschillende activiteiten.
 
-**C. Aanbevelingen voor kleine verenigingen en stichtingen inzake gelijkwaardigheid**
+## C. Aanbevelingen voor kleine verenigingen en stichtingen inzake gelijkwaardigheid
 
 Uit het grondige onderzoek van de sectorale reglementeringen dat de werkgroep "Not-for-profit & public sector accounting" heeft gevoerd, blijkt dat in meer dan 95% van de gevallen een volledige patrimoniale boekhouding (accrual principe) wordt opgelegd, zodat de vraag omtrent gelijkwaardigheid in de praktijk slechts rijst met betrekking tot de voorschriften voor grote en zeer grote verenigingen en stichtingen[^8].
 
@@ -135,7 +129,7 @@ In de veronderstelling echter dat een kleine vereniging of stichting wettelijk g
 
 Wanneer het gaat om grote of zeer grote verenigingen of stichtingen, zal de kasboekhouding die door een specifieke reglementering wordt opgelegd, nooit gelijkwaardig zijn aan de regeling die het koninklijk besluit van 19 december 2003 oplegt in verband met een volledige patrimoniale boekhouding (accrual principe).
 
-**D. Aanbevelingen voor grote en zeer grote verenigingen en stichtingen inzake gelijkwaardigheid**
+## D. Aanbevelingen voor grote en zeer grote verenigingen en stichtingen inzake gelijkwaardigheid
 
 De Commissie is van oordeel dat boekhoudkundige verplichtingen die worden opgelegd door een sectorale reglementering, enkel kunnen worden beschouwd als gelijkwaardig aan de regels opgelegd door de wet en het koninklijk besluit van 19 december 2003, voor zover de sectorale reglementering:
 
@@ -144,41 +138,31 @@ De Commissie is van oordeel dat boekhoudkundige verplichtingen die worden opgele
 1. 
 
 Een patrimoniale boekhouding voeren volgens een stelsel van boeken en rekeningen met inachtneming van de gebruikelijke regels van het dubbel boekhouden, waarin alle verrichtingen en alle bezittingen en rechten, schulden, verplichtingen en verbintenissen, kosten en opbrengsten, zonder uitstel, getrouw, volledig en naar tijdsorde worden ingeschreven.
-
 2. 
 
 Het verbod op compensatie tussen tegoeden en schulden, tussen rechten en verplichtingen en tussen kosten en opbrengsten, tenzij in de bij wet of door een sectorale reglementering bepaalde gevallen.
-
 3. 
 
 Elke boeking geschiedt aan de hand van een gedagtekend verantwoordingsstuk, waarnaar zij moet verwijzen.
-
 4. 
 
 De rekeningen die de vereniging opent om haar boekhouding te voeren, worden vastgelegd in een voor de aard van het bedrijf van de vereniging of stichting passend rekeningenstelsel.
-
 5. 
 
 De balans en de resultatenrekening vloeien zonder toevoeging of weglating voort uit de balans van de desbetreffende rekeningen, opgemaakt na het in overeenstemming brengen met de gegevens van de inventaris.
-
 6. 
 
 De toegepaste waarderingsregels stemmen overeen met de waarderingsregels voorgeschreven door het koninklijk besluit van 19 december 2003, of, gelet op het beginsel van het getrouwe beeld, zijn hiermee verenigbaar. Aldus verhinderen naar het oordeel van de Commissie het ontbreken van de mogelijkheid om herstructureringskosten op het actief van de balans te boeken of de bepaling van een afschrijvingspercentage a priori niet dat tot gelijkwaardigheid zou worden besloten. Daarentegen zouden de mogelijkheid om immateriële vaste activa te herwaarderen, het verbod om vaste activa af te schrijven naar het advies van de Commissie moeten leiden tot de vaststelling dat er géén gelijkwaardigheid is.
-
 7. 
 
 De jaarrekening omvat de balans, de resultatenrekening en de toelichting. Deze stukken vormen een geheel. De waarderingsregels worden samengevat in de toelichting ; deze samenvatting moet voldoende nauwkeurig zijn zodat inzicht wordt verkregen in de toegepaste waarderingsmethoden. Wanneer de sectorale reglementering geen keuze toestaat, moet worden verwezen naar de toegepaste waarderingsregels.
-
 8. 
 
 De voorstelling en structuur van de jaarrekening zoals vastgelegd door de sectorale reglementering, stemt overeen met de voorstelling en structuur opgelegd door het koninklijk besluit van 19 december 2003. Wanneer dit niet het geval is, zouden de boekhoudkundige verplichtingen opgelegd door de sectorale reglementering niettemin als gelijkwaardig kunnen worden beschouwd indien, gelet op het vereiste van het getrouwe beeld, de toepassing van de sectorale reglementering dezelfde of gelijkaardige gegevens verstrekt als zouden voortkomen uit een jaarrekening voorgesteld en gestructureerd overeenkomstig het gemeen boekhoudrecht voor grote en zeer grote verenigingen en stichtingen (koninklijk besluit van 19 december 2003). De Commissie is aldus van oordeel dat uitvoeriger vereisten qua voorstelling en structuur, het gebruik van een terminologie eigen aan de sector of van synoniemen, of het schrappen van voor de sector niet dienstige posten, de gelijkwaardigheid niet in de weg hoeven te staan.
-
 9. 
 
 Eventuele bepalingen uit de sectorale wetgeving die de overgang van een kasboekhouding naar een patrimoniale boekhouding regelen, zijn gelijkwaardig aan de desbetreffende bepalingen uit het koninklijk besluit van 19 december 2003.
-
-In een aantal gevallen verwijst de sectorale reglementering uitdrukkelijk en zonder voorbehoud hetzij naar de wet van 17 juli 1975 op de boekhouding van de ondernemingen (en dus naar haar uitvoeringsbesluiten van 1983) en tevens hetzij naar het (inmiddels opgeheven) koninklijk besluit van 8 oktober 1976 met betrekking tot de jaarrekening van de ondernemingen, hetzij naar de bepalingen van het koninklijk besluit van 30 januari 2001 tot uitvoering van het Wetboek van Vennootschappen[^9]
- voor het voeren van de boekhouding en het opstellen van de jaarrekening.
+In een aantal gevallen verwijst de sectorale reglementering uitdrukkelijk en zonder voorbehoud hetzij naar de wet van 17 juli 1975 op de boekhouding van de ondernemingen (en dus naar haar uitvoeringsbesluiten van 1983) en tevens hetzij naar het (inmiddels opgeheven) koninklijk besluit van 8 oktober 1976 met betrekking tot de jaarrekening van de ondernemingen, hetzij naar de bepalingen van het koninklijk besluit van 30 januari 2001 tot uitvoering van het Wetboek van Vennootschappen[^9] voor het voeren van de boekhouding en het opstellen van de jaarrekening.
 
 Met betrekking tot deze categorie merkt de Commissie op dat het gemeen boekhoudrecht voor ondernemingen verschilt van het gemeen boekhoudrecht voor verenigingen en stichtingen als gevolg van het feit dat het gemeen boekhoud- en jaarrekeningrecht inzake verenigingen, zoals gewild door de wetgever, voor een relatief beperkt aantal aspecten, aangepast werd aan de specifieke aard en het wettelijk statuut van de betrokken verenigingen (supra), hoewel het gemeen recht voor verenigingen voor het overige grotendeels werd afgeleid van het gemeen recht inzake ondernemingen.
 

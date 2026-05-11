@@ -1,55 +1,55 @@
 ---
-nummer: CBN-advies 2011/22
-datum: 2011-10-05
-themas:
-  - kmo-portefeuille
-  - ondernemerschapsportefeuille
-  - subsidies
 bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-door-de-vlaamse-regering-gecreeerde-kmo-portefeuille
+datum: 2011-10-05
+nummer: CBN-advies 2011/22
 provenance:
+  generated_at: '2026-05-11T13:05:08Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-door-de-vlaamse-regering-gecreeerde-kmo-portefeuille
       sha256: 6e925ea83ee592735035416d840b6c46af53b964cc33ac88a183f6826f4242ba
       version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:36:18Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
   trust:
-    status: needs-rework
     confirmed_at: '2026-05-11T12:09:18Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "B2: heading-hiërarchie springt op regel 60 en 67 van ## naar #### zonder tussenliggend ### niveau — een mens zou dat niet zo schrijven. D4: regel 77 bevat '*Voorbeeld *' met een spatie voor de sluitende asterisk (malformed italic). Inhoud en voetnoten zijn volledig en correct."
     layer1:
       status: pass
-      run_id: 20260511-083333
-      run_at:
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:28Z'
       heading_count: 6
-      max_section_chars: 8500
-      file_size_chars: 10395
+      max_section_chars: 8499
+      file_size_chars: 10393
       flags: []
     layer2:
-      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:09:18Z'
-      rationale: "B2: heading-hiërarchie springt op regel 60 en 67 van ## naar #### zonder tussenliggend ### niveau — een mens zou dat niet zo schrijven. D4: regel 77 bevat '*Voorbeeld *' met een spatie voor de sluitende asterisk (malformed italic). Inhoud en voetnoten zijn volledig en correct."
       concrete_problemen:
-        - regel: 60
-          categorie: B2
+        - categorie: B2
+          regel: 60
           type: other
           voorbeeld: '#### Procedure'
-        - regel: 67
-          categorie: B2
+        - categorie: B2
+          regel: 67
           type: other
           voorbeeld: '#### Boekhoudkundige verwerking'
-        - regel: 77
-          categorie: D4
+        - categorie: D4
+          regel: 77
           type: other
           voorbeeld: '*Voorbeeld *'
+      rationale: 'B2: heading-hiërarchie springt op regel 60 en 67 van ## naar #### zonder tussenliggend ### niveau — een mens zou dat niet zo schrijven. D4: regel 77 bevat ''*Voorbeeld *'' met een spatie voor de sluitende asterisk (malformed italic). Inhoud en voetnoten zijn volledig en correct.'
+      run_at: '2026-05-11T12:09:18Z'
+      status: needs-rework
+    rationale: 'B2: heading-hiërarchie springt op regel 60 en 67 van ## naar #### zonder tussenliggend ### niveau — een mens zou dat niet zo schrijven. D4: regel 77 bevat ''*Voorbeeld *'' met een spatie voor de sluitende asterisk (malformed italic). Inhoud en voetnoten zijn volledig en correct.'
+    status: needs-rework
+themas:
+  - kmo-portefeuille
+  - ondernemerschapsportefeuille
+  - subsidies
 ---
 
 # CBN-advies 2011/22 – Boekhoudkundige verwerking van de door de Vlaamse Regering gecreëerde kmo-portefeuille
@@ -64,8 +64,7 @@ provenance:
 
 De kmo-portefeuille of ondernemerschapsportefeuille betreft een steunmaatregel van de Vlaamse overheid, hoofdzakelijk gericht op het verbeteren van de huidige of toekomstige bedrijfsvoering bij kmo’s.[^1] 
 
-Door middel van deze steunmaatregel kunnen kmo’s aanspraak maken op subsidies binnen verschillende domeinen waaronder opleiding[^2], advies over ondernemen[^3], advies over internationaliseren[^4]
- en advies over innoveren[^5], telkens verstrekt door een erkende dienstverlener[^6]. Voor elk van deze domeinen gelden specifieke steunpercentages en – plafonds.[^7] 
+Door middel van deze steunmaatregel kunnen kmo’s aanspraak maken op subsidies binnen verschillende domeinen waaronder opleiding[^2], advies over ondernemen[^3], advies over internationaliseren[^4] en advies over innoveren[^5], telkens verstrekt door een erkende dienstverlener[^6]. Voor elk van deze domeinen gelden specifieke steunpercentages en – plafonds.[^7] 
 
 Zowel de aanvraag als de verwerking, de toekenning en het beheer van de subsidie gebeuren via de elektronische ondernemerschapsportefeuille of kmo-portefeuille. 
 
@@ -86,7 +85,7 @@ De eigen bijdrage van de onderneming moet binnen de dertig dagen na het akkoord 
  Dit gebeurt door storting in de kmo-portefeuille.[^12]
  De onderneming brengt dit in haar boekhouding tot uitdrukking door haar eigen bijdrage op een subrekening van de liquide middelen (bijvoorbeeld van de MAR-rekening 57 *Kassen*), te boeken.
 
-*Voorbeeld *
+*Voorbeeld* 
 
 *De heer X, werknemer van de onderneming Y, zal in de nabije toekomst een door het Vlaams Gewest erkende opleiding volgen, bij een door het Vlaams gewest erkende opleidingsverstrekker. De kostprijs van de opleiding bedraagt 160 euro (excl. btw). Het eigen aandeel van de onderneming bedraagt 80 euro.*
 
@@ -107,8 +106,7 @@ De Commissie benadrukt bovendien dat het feit dat deze subsidies worden toegeken
 
 *Voorbeeld*
 
-*Bij de bevestiging van de juistheid van de inhoud van de subsidieaanvraag[^16]
- staat het recht van de onderneming vast, en verricht de onderneming volgende boeking.*
+*Bij de bevestiging van de juistheid van de inhoud van de subsidieaanvraag[^16] staat het recht van de onderneming vast, en verricht de onderneming volgende boeking.*
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|

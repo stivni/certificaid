@@ -1,6 +1,39 @@
 ---
-nummer: CBN-advies 2011/6
+bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-aankoop-van-goud-en-kunstwerken
 datum: 2011-03-16
+nummer: CBN-advies 2011/6
+provenance:
+  generated_at: '2026-05-11T13:05:08Z'
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-aankoop-van-goud-en-kunstwerken
+      sha256: b8b176840e084369b96e16c7b04d86f0f271224a1ca2cfcb9c5d12df2a10a879
+      version:
+  stale: false
+  stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
+  trust:
+    confirmed_at:
+    confirmed_by:
+    layer1:
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:28Z'
+      heading_count: 11
+      max_section_chars: 4218
+      file_size_chars: 12624
+      flags: []
+    layer2:
+      agent:
+      concrete_problemen: []
+      rationale:
+      run_at:
+      status: not_run
+    rationale: 'Trust gereset 2026-05-11: re-scrape met scraper-fixes, content-diff > 5%'
+    status: unreviewed
 themas:
   - aankoop van goud
   - aankoop van kunstwerken
@@ -20,39 +53,6 @@ themas:
   - voorraden
   - waardering van voorraden
   - Waardevermindering
-bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-aankoop-van-goud-en-kunstwerken
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-aankoop-van-goud-en-kunstwerken
-      sha256: b8b176840e084369b96e16c7b04d86f0f271224a1ca2cfcb9c5d12df2a10a879
-      version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:36:09Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: trusted
-    confirmed_at: '2026-05-11T12:09:18Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: 'Laag 1: pass, geen flags. Volledige lezing: geen PDF-artefacten. Heading-hiërarchie correct (#, ##, ###), voetnoten [^1]–[^20] volledig gedefinieerd en inline correct gerefereerd. Tabellen afwezig (niet nodig). Inhoud compleet en afgerond.'
-    layer1:
-      status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 7
-      max_section_chars: 5249
-      file_size_chars: 12641
-      flags: []
-    layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:09:18Z'
-      rationale: 'Laag 1: pass, geen flags. Volledige lezing: geen PDF-artefacten. Heading-hiërarchie correct (#, ##, ###), voetnoten [^1]–[^20] volledig gedefinieerd en inline correct gerefereerd. Tabellen afwezig (niet nodig). Inhoud compleet en afgerond.'
-      concrete_problemen: []
 ---
 
 # CBN-advies 2011/6 - Boekhoudkundige verwerking van de aankoop van goud en kunstwerken
@@ -74,30 +74,23 @@ Afhankelijk van de achterliggende beweegreden van de aankoop kan volgens de Comm
 
 Uit de eerder vermelde bepalingen van de Vierde Richtlijn vloeit voort dat de aankoop van goud wordt opgenomen onder de vlottende activa, wanneer dit goud wordt aangekocht zonder de bedoeling het duurzaam voor de bedrijfsuitoefening te gebruiken. 
 
-**1. Voorraden**
+### 1. Voorraden
 
-Wanneer voor een onderneming de aankoop, de eventuele verwerking en vervolgens de verkoop van goud het bedrijf uitmaakt, lijkt het aangewezen om de aankopen van goud boekhoudkundig te verwerken als voorraadaankopen (rekening 60 in de minimumindeling van het algemeen rekeningenstelsel[^3]). 
-
+Wanneer voor een onderneming de aankoop, de eventuele verwerking en vervolgens de verkoop van goud het bedrijf uitmaakt, lijkt het aangewezen om de aankopen van goud boekhoudkundig te verwerken als voorraadaankopen (rekening 60 in de minimumindeling van het algemeen rekeningenstelsel[^3]).
 Het goud dat door de onderneming in voorraad wordt gehouden, kan enerzijds aangekocht zijn bij derden om het te gebruiken als belangrijk element van een transformatie- of productieproces (grondstof). Anderzijds kan het goud aangeschaft zijn om in het productieproces aan te wenden, maar dan eerder als bijkomstig element (hulpstof). Ondernemingen kunnen ook goud aankopen om zonder bewerking of na slechts een lichte bewerking door te verkopen (handelsgoed). Ten slotte kan in de loop van het productieproces binnen de onderneming als gevolg van bepaalde processen goud afgezonderd worden.
-
 De Commissie is van mening dat een permanente minimumvoorraad, die nodig is om het productieproces op gang te houden, onder de vlottende activa moet worden opgenomen.
-
 Artikel 95 van het KB W.Venn. bepaalt dat zowel grond- en hulpstoffen worden opgenomen onder de post VI.A.1 van het volledige schema van de balans. Voor aankopen van goud als handelsgoed wordt een opname onder post VI.A.4 voorgeschreven. Goederen in bewerking worden opgenomen onder post VI.A.2.
-
 Krachtens artikel 69, § 1 KB W.Venn. worden zowel grond- en hulpstoffen als handelsgoederen gewaardeerd tegen aanschaffingswaarde of tegen de marktwaarde op balansdatum als die lager is (principe *lower of cost or market*). De aanschaffingswaarde wordt hier uitgedrukt door de aanschaffingsprijs, nl. de aankoopprijs, vermeerderd met bijkomende kosten (bv. vervoer, niet-terugbetaalbare belastingen,…). Onder marktprijs moet men hier de prijs op de aankoopmarkt verstaan. Deze prijs moet op een normale wijze gevormd worden, d.w.z. bij de gewone leveranciers en volgens normaal gevraagde bestelhoeveelheden.[^4]
  Een waardering tegen lagere marktwaarde mag niet behouden blijven, indien achteraf de marktwaarde hoger komt te liggen dan de voor de waardering van de voorraden gehanteerde lagere marktwaarde[^5]. 
 
-Artikel 69, § 2 KB W.Venn. bepaalt dat goederen in bewerking gewaardeerd worden tegen vervaardigingsprijs, onverminderd de toepassing van artikel 70 KB W.Venn.[^6] 
-
+Artikel 69, § 2 KB W.Venn. bepaalt dat goederen in bewerking gewaardeerd worden tegen vervaardigingsprijs, onverminderd de toepassing van artikel 70 KB W.Venn.[^6]
 Voor een gedetailleerd overzicht van de waarderingsbeginselen van toepassing op voorraden, verwijst de Commissie naar het herziene advies 132/7 *Boeking en waardering van voorraden*[^7].
-
-**2. Geldbeleggingen**
+### 2. Geldbeleggingen
 
 Indien daarentegen een onderneming haar overtollige liquiditeiten aanwendt voor de aankoop van goud, in de hoop dit op korte of middellange termijn opnieuw te verkopen met het oog op de realisatie van een meerwaarde, beantwoordt deze aankoop eerder aan de definitie van geldbeleggingen. Geldbeleggingen kunnen namelijk omschreven worden als het binnen de onderneming aanwezig, tijdelijk vrij vermogen, dat men een zo goed mogelijke bestemming geeft qua rendement en qua realiseerbaarheid.[^8]
  Beleggingen in goud kunnen dan worden opgenomen in de rubriek VIII.B *Overige beleggingen* van het volledig schema van de balans.
 
-In tegenstelling tot vastrentende effecten, termijndeposito’s en aandelen genereren goudbeleggingen echter geen periodieke opbrengsten. Beleggingen in goud worden om deze reden bij voorkeur geboekt op een subrekening van rubriek 51 *Aandelen*. In het CBN-advies 2010/7 *Boekhoudkundige verwerking van de Tax shelter in hoofde van de investeerder* kondigde de Commissie reeds aan dat zij van plan is om aan de Regering voor te stellen de benaming en indeling van rekening 51 aan te passen naar *Aandelen en niet vastrentende beleggingen*. 
-
+In tegenstelling tot vastrentende effecten, termijndeposito’s en aandelen genereren goudbeleggingen echter geen periodieke opbrengsten. Beleggingen in goud worden om deze reden bij voorkeur geboekt op een subrekening van rubriek 51 *Aandelen*. In het CBN-advies 2010/7* Boekhoudkundige verwerking van de Tax shelter in hoofde van de investeerder* kondigde de Commissie reeds aan dat zij van plan is om aan de Regering voor te stellen de benaming en indeling van rekening 51 aan te passen naar *Aandelen en niet vastrentende beleggingen*.
 Geldbeleggingen zijn aan specifieke waarderingsregels onderhevig. Beleggingsgoederen of effecten opgenomen onder de geldbeleggingen worden gewaardeerd tegen aanschaffingswaarde.[^9]
  Bijkomende kosten van aanwerving moeten niet bij de aankoopprijs gevoegd worden maar mogen ten laste worden genomen van de resultatenrekening van het boekjaar in de loop waarvan ze werden aangegaan.[^10] 
 
@@ -118,18 +111,14 @@ Dit advies behandelt uitsluitend de aankoop van materiële kunstvoorwerpen. Efem
 
 ### Opname onder de vlottende activa
 
-**1. Voorraden **
+### 1. Voorraden 
 
-Schilderijen en andere kunstvoorwerpen die door kunsthandelaars worden aangekocht, maken in principe deel uit van hun voorraad handelsgoederen. Voorraden omvatten namelijk goederen die het voorwerp uitmaken van de bedrijfsactiviteiten van de onderneming. Onder handelsgoederen worden de materiële goederen verstaan die door de onderneming zijn ingekocht om zonder bewerking of na slechts een lichte bewerking te worden verkocht. 
-
-Ook wanneer een kunstwerk in afwachting van de definitieve verkoop wordt verhuurd, blijft het geboekt onder voorraden. 
-
+Schilderijen en andere kunstvoorwerpen die door kunsthandelaars worden aangekocht, maken in principe deel uit van hun voorraad handelsgoederen. Voorraden omvatten namelijk goederen die het voorwerp uitmaken van de bedrijfsactiviteiten van de onderneming. Onder handelsgoederen worden de materiële goederen verstaan die door de onderneming zijn ingekocht om zonder bewerking of na slechts een lichte bewerking te worden verkocht.
+Ook wanneer een kunstwerk in afwachting van de definitieve verkoop wordt verhuurd, blijft het geboekt onder voorraden.
 Voor de toepasselijke waarderingsregels verwijst de Commissie naar het herziene advies 132/7 *Boeking en waardering van voorraden*.
+### 2. Geldbeleggingen
 
-**2. Geldbeleggingen**
-
-Wanneer kunstwerken echter door de onderneming worden aangekocht als zuivere belegging, d.i. om op korte of middellange termijn te worden verkocht met de bedoeling een meerwaarde te realiseren, acht de Commissie een opname onder de geldbeleggingen aangewezen, op voorwaarde dat voor deze kunstwerken een liquide markt bestaat. In dit geval zullen dan ook de waarderingsregels voor geldbeleggingen van toepassing zijn.[^15] 
-
+Wanneer kunstwerken echter door de onderneming worden aangekocht als zuivere belegging, d.i. om op korte of middellange termijn te worden verkocht met de bedoeling een meerwaarde te realiseren, acht de Commissie een opname onder de geldbeleggingen aangewezen, op voorwaarde dat voor deze kunstwerken een liquide markt bestaat. In dit geval zullen dan ook de waarderingsregels voor geldbeleggingen van toepassing zijn.[^15]
 ### Opname onder de vaste activa
 
 Wanneer een onderneming kunstwerken aankoopt met de bedoeling deze werken duurzaam in de onderneming te houden, bijvoorbeeld als decoratie in haar ondernemingslokalen, beschouwt de Commissie dit als een investering in materiële vaste activa. Ook kunstwerken die worden aangekocht als belegging, maar waarvoor geen liquide markt bestaat, behoren volgens de Commissie tot de materiële vaste activa. De opname onder de vaste activa is in overeenstemming met artikel 15 van de Vierde Richtlijn. 

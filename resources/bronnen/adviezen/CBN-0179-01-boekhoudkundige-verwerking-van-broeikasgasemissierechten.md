@@ -1,6 +1,71 @@
 ---
-nummer: CBN-advies 179/1
+bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-broeikasgasemissierechten
 datum: 2004-11-01
+gerelateerde_adviezen:
+  - datum: '2012-01-11'
+    titel: Boekhoudkundige verwerking van een overschot aan broeikasgasemissierechten door een onderneming die de nettomethode toepast
+    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-een-overschot-aan-broeikasgasemissierechten-door-een
+nummer: CBN-advies 179/1
+provenance:
+  generated_at: '2026-05-11T13:05:06Z'
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-broeikasgasemissierechten
+      sha256: 318b60ea7b396ab94915e412a3588e4ba56412cb3fd533851ebf265b424273f2
+      version:
+  stale: false
+  stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
+  trust:
+    confirmed_at: '2026-05-11T12:09:17Z'
+    confirmed_by: subagent-sonnet-4-6
+    layer1:
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:27Z'
+      heading_count: 9
+      max_section_chars: 9190
+      file_size_chars: 25278
+      flags: []
+    layer2:
+      agent: subagent-sonnet-4-6
+      concrete_problemen:
+        - categorie: B3
+          regel: 51
+          type: other
+          voorbeeld: '# CBN-advies 179/1 van 26 november 2008 (Update november 2008) — dubbele H1'
+        - categorie: B3
+          regel: 53
+          type: other
+          voorbeeld: '# Boekhoudkundige verwerking van broeikasgasemissierechten — tweede H1'
+        - categorie: B4
+          regel: 55
+          type: other
+          voorbeeld: (Update november 2008) als plain tekst regel na H1
+        - categorie: B2
+          regel: 135
+          type: other
+          voorbeeld: '#### IFRIC Interpretation 3 Emission Rights (sprong ## → ####)'
+        - categorie: D4
+          regel: 149
+          type: other
+          voorbeeld: Bij de* Interpretation 3 Emission Rights* worden ook voorbeelden gegeven.
+        - categorie: D4
+          regel: 155
+          type: other
+          voorbeeld: de *Interpretation *en ondanks de vaststelling (trailing spatie voor sluitende *)
+        - categorie: D4
+          regel: 169
+          type: other
+          voorbeeld: ',* sui generis* rechten (opening * grenst aan komma+spatie)'
+      rationale: 'B3: twee opeenvolgende # H1-headings (regels 51 en 53) — de titel staat dubbel, plus ''(Update november 2008)'' als plain tekst op regel 55. D4: meerdere malformed italic-patronen (categorie ''*term *'' of '',* term*''), bv. regel 149 ''Bij de* Interpretation'' en regel 169 '',* sui generis*'' — opening-asterisk grenst aan een spatie of leesteken in plaats van aan de tekst. H4-headings (IFRIC, Brutomethode, Nettomethode) staan als #### terwijl de bovenliggende secties ## zijn — sprong van ## naar #### zonder ### tussenniveau (B2).'
+      run_at: '2026-05-11T12:09:17Z'
+      status: needs-rework
+    rationale: 'B3: twee opeenvolgende # H1-headings (regels 51 en 53) — de titel staat dubbel, plus ''(Update november 2008)'' als plain tekst op regel 55. D4: meerdere malformed italic-patronen (categorie ''*term *'' of '',* term*''), bv. regel 149 ''Bij de* Interpretation'' en regel 169 '',* sui generis*'' — opening-asterisk grenst aan een spatie of leesteken in plaats van aan de tekst. H4-headings (IFRIC, Brutomethode, Nettomethode) staan als #### terwijl de bovenliggende secties ## zijn — sprong van ## naar #### zonder ### tussenniveau (B2).'
+    status: needs-rework
 themas:
   - broeikasgasemissierechten
   - bruto-methode
@@ -9,74 +74,7 @@ themas:
   - immateriële vaste activa
   - netto-methode
   - toelichting
-bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-broeikasgasemissierechten
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-broeikasgasemissierechten
-      sha256: 318b60ea7b396ab94915e412a3588e4ba56412cb3fd533851ebf265b424273f2
-      version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:35:46Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T12:09:17Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "B3: twee opeenvolgende # H1-headings (regels 51 en 53) — de titel staat dubbel, plus '(Update november 2008)' als plain tekst op regel 55. D4: meerdere malformed italic-patronen (categorie '*term *' of ',* term*'), bv. regel 149 'Bij de* Interpretation' en regel 169 ',* sui generis*' — opening-asterisk grenst aan een spatie of leesteken in plaats van aan de tekst. H4-headings (IFRIC, Brutomethode, Nettomethode) staan als #### terwijl de bovenliggende secties ## zijn — sprong van ## naar #### zonder ### tussenniveau (B2)."
-    layer1:
-      status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 9
-      max_section_chars: 9258
-      file_size_chars: 25353
-      flags: []
-    layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:09:17Z'
-      rationale: "B3: twee opeenvolgende # H1-headings (regels 51 en 53) — de titel staat dubbel, plus '(Update november 2008)' als plain tekst op regel 55. D4: meerdere malformed italic-patronen (categorie '*term *' of ',* term*'), bv. regel 149 'Bij de* Interpretation' en regel 169 ',* sui generis*' — opening-asterisk grenst aan een spatie of leesteken in plaats van aan de tekst. H4-headings (IFRIC, Brutomethode, Nettomethode) staan als #### terwijl de bovenliggende secties ## zijn — sprong van ## naar #### zonder ### tussenniveau (B2)."
-      concrete_problemen:
-        - regel: 51
-          categorie: B3
-          type: other
-          voorbeeld: '# CBN-advies 179/1 van 26 november 2008 (Update november 2008) — dubbele H1'
-        - regel: 53
-          categorie: B3
-          type: other
-          voorbeeld: '# Boekhoudkundige verwerking van broeikasgasemissierechten — tweede H1'
-        - regel: 55
-          categorie: B4
-          type: other
-          voorbeeld: (Update november 2008) als plain tekst regel na H1
-        - regel: 135
-          categorie: B2
-          type: other
-          voorbeeld: '#### IFRIC Interpretation 3 Emission Rights (sprong ## → ####)'
-        - regel: 149
-          categorie: D4
-          type: other
-          voorbeeld: Bij de* Interpretation 3 Emission Rights* worden ook voorbeelden gegeven.
-        - regel: 155
-          categorie: D4
-          type: other
-          voorbeeld: de *Interpretation *en ondanks de vaststelling (trailing spatie voor sluitende *)
-        - regel: 169
-          categorie: D4
-          type: other
-          voorbeeld: ',* sui generis* rechten (opening * grenst aan komma+spatie)'
-gerelateerde_adviezen:
-  - titel: Boekhoudkundige verwerking van een overschot aan broeikasgasemissierechten door een onderneming die de nettomethode toepast
-    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-een-overschot-aan-broeikasgasemissierechten-door-een
-    datum: '2012-01-11'
 ---
-
-# CBN-advies 179/1 van 26 november 2008 (Update november 2008)
 
 # Boekhoudkundige verwerking van broeikasgasemissierechten
 
@@ -86,8 +84,7 @@ gerelateerde_adviezen:
 
 Met het Kyotoprotocol dat op 16 februari 2005 in werking is getreden en sindsdien een dwingend karakter heeft gekregen, heeft de Europese Unie zich ertoe verbonden de broeikasgassen tussen 2008 en 2012 met 8% te verminderen, ten opzichte van de uitstoot in 1990. 
 
-Daartoe beschikt Europa over de Richtlijn 2003/87/EG van het Europees Parlement en de Raad van 13 oktober 2003 tot vaststelling van een regeling voor de handel in broeikasgasemissierechten[^1]
-  binnen de Gemeenschap en tot wijziging van de Richtlijn 96/61/EG van de Raad, die op de datum van haar bekendmaking in het *Publicatieblad*[^2], in werking is getreden. 
+Daartoe beschikt Europa over de Richtlijn 2003/87/EG van het Europees Parlement en de Raad van 13 oktober 2003 tot vaststelling van een regeling voor de handel in broeikasgasemissierechten[^1] binnen de Gemeenschap en tot wijziging van de Richtlijn 96/61/EG van de Raad, die op de datum van haar bekendmaking in het *Publicatieblad*[^2], in werking is getreden. 
 
 De richtlijn organiseert een markt voor broeikasgasemissierechten, zodanig dat ondernemingen die de nationaal vastgestelde grenzen overschrijden, bij ondernemingen met een lagere uitstoot dan de hun toegewezen quota, emissierechten kunnen kopen.
 
@@ -98,8 +95,7 @@ In België werd de richtlijn omgezet met o.a. de volgende regionale wetgeving:
 - Decreet van 10 november 2004 tot invoering van een regeling voor de handel in broeikasgasemissierechten, tot oprichting van een “Fonds wallon Kyoto” (Waals Kyotofonds) en betreffende de flexibiliteitsmechanismen van het Protocol van Kyoto[^5], gewijzigd door het Decreet van 22 juni 2006[^6]. 
 - Deze teksten handelen over het verlenen van vergunningen voor de uitstoot van broeikasgassen, het opstellen van toewijzingsplannen voor emissierechten, over de aspecten verbonden aan het beheer van emissierechten (overdrachten, inlevering, annulering…), de vereisten qua emissiebewaking en rapportage, de sanctieregeling… 
 
-De federale staat heeft van zijn kant de opdracht een nationaal register bij te houden voor de noodzakelijke follow-up van de handel in emissierechten na hun toewijzing. Aan de hand van dit register zal ook de handel in het kader van het Kyotoprotocol in kaart kunnen worden gebracht. De Beschikking 280/2004/EG van het Europees Parlement en de Raad van 11 februari betreffende een bewakingssysteem voor de uitstoot van broeikasgassen in de Gemeenschap en de uitvoering van het Protocol van Kyoto[^7]
- slaat op dit register[^8]. 
+De federale staat heeft van zijn kant de opdracht een nationaal register bij te houden voor de noodzakelijke follow-up van de handel in emissierechten na hun toewijzing. Aan de hand van dit register zal ook de handel in het kader van het Kyotoprotocol in kaart kunnen worden gebracht. De Beschikking 280/2004/EG van het Europees Parlement en de Raad van 11 februari betreffende een bewakingssysteem voor de uitstoot van broeikasgassen in de Gemeenschap en de uitvoering van het Protocol van Kyoto[^7] slaat op dit register[^8]. 
 
 Dit advies heeft tot doel de betrokken ondernemingen, binnen de in punt III aangegeven beperkingen, een boekhoudkundige verwerking voor te stellen die strookt met het Belgische jaarrekeningrecht en bruikbaar is in alle etappes van het door de voornoemde bepalingen ingestelde systeem. 
 
@@ -149,8 +145,7 @@ Dit advies beperkt zich tot de boekhoudkundige verwerking van emissierechten toe
 
 Dit advies heeft derhalve niet de ambitie om op definitieve en exhaustieve wijze een boekhoudkundige verwerking vast te stellen voor alle verrichtingen waarbij broeikasgasemissierechten kunnen zijn betrokken
 
-Overigens zij erop gewezen[^12]
- dat deze materie op dit ogenblik boekhoudrechtelijk nog niet definitief is geharmoniseerd, noch door een richtlijn, noch door een Europese verordening of aanbeveling, noch door een IAS/IFRS norm of een SIC/IFRIC interpretatie.
+Overigens zij erop gewezen[^12] dat deze materie op dit ogenblik boekhoudrechtelijk nog niet definitief is geharmoniseerd, noch door een richtlijn, noch door een Europese verordening of aanbeveling, noch door een IAS/IFRS norm of een SIC/IFRIC interpretatie.
 
 Het is dan ook volkomen logisch dat dit advies zal moeten worden herzien in functie van de mogelijke latere ontwikkelingen van deze materie, onder meer op boekhoudkundig vlak. 
 
@@ -164,8 +159,7 @@ Hieronder worden die drie boekingswijzen beschreven.
 
 De IASB heeft op 2 december 2004 de *Interpretation 3 Emission Rights* uitgevaardigd, waarin emissierechten als volgt worden verwerkt: 
 
-- Emissierechten die op de markt zijn gekocht of van de overheid zijn verkregen tegen een lagere waarde dan hun reële waarde[^13]
- (bij voorbeeld, kosteloos), worden overeenkomstig de norm IAS 38 aan actiefzijde bij de immateriële vaste activa geboekt. 
+- Emissierechten die op de markt zijn gekocht of van de overheid zijn verkregen tegen een lagere waarde dan hun reële waarde[^13] (bij voorbeeld, kosteloos), worden overeenkomstig de norm IAS 38 aan actiefzijde bij de immateriële vaste activa geboekt. 
 - Werden zij op de markt gekocht, dan worden zij gewaardeerd tegen hun aanschaffingswaarde bij hun oorspronkelijke boeking. Werden zij verkregen tegen een lagere waarde dan hun reële waarde (bij voorbeeld, kosteloos), dan worden zij gewaardeerd tegen hun reële waarde. 
 - Een overheidssubsidie wordt geboekt overeenkomstig de norm IAS 20, ten belope van het verschil tussen het ten opzichte van de reële waarde lagere bedrag, waartegen de emissierechten werden verkregen (bij voorbeeld, kosteloos), en hun reële waarde. De overheidssubsidie wordt op de balans geboekt als een uitgestelde opbrengst en vervolgens op systematische basis in resultaat genomen over de periode waarin de uitstoot heeft plaats gehad waarop de emissierechten betrekking hebben. 
 - Naarmate er broeikasgassen worden uitgestoten, wordt een voorziening gevormd (IAS 37) die overeenstemt met het aantal in te leveren emissierechten naar verhouding van de effectieve uitstoot. Die dient te worden gewaardeerd op basis van de best mogelijke inschatting van de uitgaven noodzakelijk om de verplichting af te wikkelen zoals die bestond op balansdatum (afsluiting van het boekjaar). Meestal is dat de marktwaarde van het aantal emissierechten dat overeenstemt met de effectieve uitstoot op balansdatum 
@@ -180,9 +174,9 @@ In verband met de* Interpretation 3 Emission Rights* werden een aantal kritieken
 
 In zijn advies van 6 mei 2005 aan de Europese Commissie om de *Interpretation 3 Emission Rights* niet goed te keuren, stipte de EFRAG onder meer aan dat een gelijktijdige toepassing van verschillende normen en derhalve de invoering van verschillende waarderings- en voorstellingsregels voor diverse bestanddelen, een mismatch tot gevolg heeft, zowel op het vlak van de waardering, aangezien bepaalde bestanddelen tegen kostprijs en andere tegen hun reële waarde zullen worden gewaardeerd, als op het vlak van de voorstelling, omdat bepaalde winsten en verliezen in de resultatenrekening zullen worden opgenomen, terwijl andere bestanddelen in het eigen vermogen worden opgenomen.
 
-Na onderzoek van de kritiek op de *Interpretation *en ondanks de vaststelling, enerzijds, dat de IFRIC passend heeft aangegeven hoe de bestaande normen op emissierechten dienen te worden toegepast en, anderzijds, dat het bijgevolg een passende interpretatie van de bestaande normen is, heeft de IASB niettemin op 25 juni 2005 beslist om de *Interpretation 3 Emission Rights* in te trekken. De IASB was met name van oordeel dat, in de huidige stand van het Europese emissierechtensysteem, een interpretatie ter zake niet dringend noodzakelijk leek en de problematiek nog verder kon worden onderzocht, eventueel zelfs in het ruimere perspectief van een wijziging van een of meer normen. 
+Na onderzoek van de kritiek op de *Interpretation* en ondanks de vaststelling, enerzijds, dat de IFRIC passend heeft aangegeven hoe de bestaande normen op emissierechten dienen te worden toegepast en, anderzijds, dat het bijgevolg een passende interpretatie van de bestaande normen is, heeft de IASB niettemin op 25 juni 2005 beslist om de *Interpretation 3 Emission Rights* in te trekken. De IASB was met name van oordeel dat, in de huidige stand van het Europese emissierechtensysteem, een interpretatie ter zake niet dringend noodzakelijk leek en de problematiek nog verder kon worden onderzocht, eventueel zelfs in het ruimere perspectief van een wijziging van een of meer normen. 
 
-Met betrekking tot de verwerking van emissierechten in de geconsolideerde jaarrekening van genoteerde vennootschappen heeft de intrekking van de *Interpretation *tot gevolg dat de raad van bestuur van de betrokken vennootschappen zal moeten uitmaken welke de passende verwerkingswijze is, op basis van de hiërarchie vastgelegd in de norm IAS 8, *Accounting Policies, Changes *in *Accounting Estimates and Errors*, zoals goedgekeurd door de verordening van de Commissie (EG) nr 2238/2004 van 29 december 2004.
+Met betrekking tot de verwerking van emissierechten in de geconsolideerde jaarrekening van genoteerde vennootschappen heeft de intrekking van de *Interpretation* tot gevolg dat de raad van bestuur van de betrokken vennootschappen zal moeten uitmaken welke de passende verwerkingswijze is, op basis van de hiërarchie vastgelegd in de norm IAS 8, *Accounting Policies, Changes* in *Accounting Estimates and Errors*, zoals goedgekeurd door de verordening van de Commissie (EG) nr 2238/2004 van 29 december 2004.
 
 #### Brutomethode 
 
@@ -190,14 +184,10 @@ Volgens deze op het Belgische jaarrekeningrecht gebaseerde methode:
 
 - worden de toegewezen of verkregen emissierechten geboekt als immateriële vaste activa. 
 
-Weliswaar blijkt de juridische kwalificatie van broeikasgasemissierechten[^14]
- nog steeds betwist: 
+Weliswaar blijkt de juridische kwalificatie van broeikasgasemissierechten[^14] nog steeds betwist:
+Voor de enen gaat het om een eigendomsrecht op een plaats in het luchtruim waar een ton broeikasgas wordt uitgestoten[^15], voor anderen om de wijze waarop een schuld wordt betaald die door het systeem in het leven is geroepen en die enkel kan worden voldaan met behulp van emissierechten, die dus een soort van betaalmiddel vormen waarvan het bevrijdend karakter enkel geldt voor een welbepaalde schuld, zij het met een vaste speculatieve waarde[^16], onlichamelijke roerende zakelijke rechten[^17] of ook nog,* sui generis* rechten en roerende rechten van immateriële aard[^18].
 
-Voor de enen gaat het om een eigendomsrecht op een plaats in het luchtruim waar een ton broeikasgas wordt uitgestoten[^15], voor anderen om de wijze waarop een schuld wordt betaald die door het systeem in het leven is geroepen en die enkel kan worden voldaan met behulp van emissierechten, die dus een soort van betaalmiddel vormen waarvan het bevrijdend karakter enkel geldt voor een welbepaalde schuld, zij het met een vaste speculatieve waarde[^16], onlichamelijke roerende zakelijke rechten[^17]
- of ook nog,* sui generis* rechten en roerende rechten van immateriële aard[^18].
-
-Bij gebrek evenwel aan een andere balanspost die beter geschikt is om de specifieke aard en de functie van emissierechten weer te geven en omdat met name de omschrijving die artikel 95 van het Koninklijk Besluit van 30 januari 2001 tot uitvoering an het Wetboek van Vennootschappen geeft aan de inhoud van de post *Immateriële vaste activa*, er lijkt op te wijzen dat daarin ook emissierechten mogen worden opgenomen, is de Commissie van oordeel dat, in de huidige stand van het Belgisch jaarrekeningrecht, toegewezen of verkregen emissierechten in een afzonderlijke rekening onder de immateriële vaste activa horen te worden geboekt (2140). 
-
+Bij gebrek evenwel aan een andere balanspost die beter geschikt is om de specifieke aard en de functie van emissierechten weer te geven en omdat met name de omschrijving die artikel 95 van het Koninklijk Besluit van 30 januari 2001 tot uitvoering an het Wetboek van Vennootschappen geeft aan de inhoud van de post *Immateriële vaste activa*, er lijkt op te wijzen dat daarin ook emissierechten mogen worden opgenomen, is de Commissie van oordeel dat, in de huidige stand van het Belgisch jaarrekeningrecht, toegewezen of verkregen emissierechten in een afzonderlijke rekening onder de immateriële vaste activa horen te worden geboekt (2140).
 - worden de emissierechten, wanneer zij op de markt zijn verkregen, gewaardeerd tegen hun aanschaffingswaarde. Werden zij verkregen tegen een lagere waarde dan hun reële waarde (bij voorbeeld kosteloos), dan moeten zij worden gewaardeerd tegen hun reële waarde, waarbij het verschil tussen de aanschaffingsprijs en de reële prijs wordt geboekt bij de *Overige opbrengsten.* De inresultaatneming van deze opbrengst wordt zonodig op balansdatum uitgesteld via de overlopende rekeningen, om zo overeenstemming te verkrijgen met de effectieve uitstoot. 
 - vormt de onderneming ten slotte, bij de afsluiting van het boekjaar, een voorziening als uitdrukking van de verplichting ontstaan ingevolge de effectieve uitstoot van broeikasgassen tijdens dat boekjaar, om bij de gewesten een welbepaald aantal emissierechten in te leveren. Het bedrag van die voorziening stemt overeen met het aantal in te leveren emissierechten, gewaardeerd tegen de beginwaarde van de toegewezen rechten of, in voorkomend geval, voor het gedeelte dat de gehouden rechten overschrijdt, tegen de reële waarde aan het einde van de periode. Die voorziening wordt geboekt als tegenwaarde van een kost die overeenstemt met de effectieve uitstoot vastgesteld op die datum. 
 - wordt in de toelichting bij de jaarrekening, om de lezers te informeren over de aan de onderneming toegewezen emissierechten, een passende vermelding opgenomen met uitleg over de boekhoudkundige verwerking daarvan[^19]. 

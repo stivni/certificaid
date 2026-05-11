@@ -1,68 +1,67 @@
 ---
-nummer: CBN-advies 2009/4
+bron: https://www.cbn-cnc.be/nl/adviezen/model-van-ongesplitst-dagboek-zoals-bedoeld-in-artikel-2-van-het-koninklijk-besluit-van-26
 datum: 2009-02-11
+nummer: CBN-advies 2009/4
+provenance:
+  generated_at: '2026-05-11T13:05:06Z'
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/model-van-ongesplitst-dagboek-zoals-bedoeld-in-artikel-2-van-het-koninklijk-besluit-van-26
+      sha256: 6f30587cbf2f8a2ac685ed3b4a90b51536ee9416c8fa0f16d54d06a311b623e7
+      version:
+  stale: false
+  stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
+  trust:
+    confirmed_at: '2026-05-11T12:09:17Z'
+    confirmed_by: subagent-sonnet-4-6
+    layer1:
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:27Z'
+      heading_count: 3
+      max_section_chars: 3333
+      file_size_chars: 6250
+      flags: []
+    layer2:
+      agent: subagent-sonnet-4-6
+      concrete_problemen:
+        - categorie: B4
+          regel: 46
+          type: other
+          voorbeeld: '### INLEIDING (all-caps ### zonder bovenliggend ## niveau)'
+        - categorie: B4
+          regel: 53
+          type: other
+          voorbeeld: '### SCHRAPPING VAN HET WOORD « MINIMAAL » IN ARTIKEL 2 EN BIJLAGE A VAN HET BESLUIT'
+        - categorie: B4
+          regel: 67
+          type: other
+          voorbeeld: '### HET ONGESPLITSTE DAGBOEK HOUDEN DOOR MIDDEL VAN GEINFORMATISEERDE SYSTEMEN'
+        - categorie: B2
+          regel: 46
+          type: other
+          voorbeeld: 'H1 -> ### zonder tussenniveau ## (heading-hiërarchie springt)'
+      rationale: 'B4: drie ### headings in all-caps (INLEIDING, SCHRAPPING VAN HET WOORD «MINIMAAL» ..., HET ONGESPLITSTE DAGBOEK HOUDEN ...) — mens schrijft dit als ## met normale kapitalisatie. Verder is de heading-hiërarchie inconsistent: de twee inhoudelijke secties staan als ### terwijl er geen ## bovenliggend niveau is (B2). Inhoud verder volledig en geen andere artefacten.'
+      run_at: '2026-05-11T12:09:17Z'
+      status: needs-rework
+    rationale: 'B4: drie ### headings in all-caps (INLEIDING, SCHRAPPING VAN HET WOORD «MINIMAAL» ..., HET ONGESPLITSTE DAGBOEK HOUDEN ...) — mens schrijft dit als ## met normale kapitalisatie. Verder is de heading-hiërarchie inconsistent: de twee inhoudelijke secties staan als ### terwijl er geen ## bovenliggend niveau is (B2). Inhoud verder volledig en geen andere artefacten.'
+    status: needs-rework
 themas:
   - centraal boek
   - ongesplitst dagboek
   - vereenvoudigde boekhouding
   - vzw
-bron: https://www.cbn-cnc.be/nl/adviezen/model-van-ongesplitst-dagboek-zoals-bedoeld-in-artikel-2-van-het-koninklijk-besluit-van-26
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/model-van-ongesplitst-dagboek-zoals-bedoeld-in-artikel-2-van-het-koninklijk-besluit-van-26
-      sha256: 6f30587cbf2f8a2ac685ed3b4a90b51536ee9416c8fa0f16d54d06a311b623e7
-      version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:35:48Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T12:09:17Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: 'B4: drie ### headings in all-caps (INLEIDING, SCHRAPPING VAN HET WOORD «MINIMAAL» ..., HET ONGESPLITSTE DAGBOEK HOUDEN ...) — mens schrijft dit als ## met normale kapitalisatie. Verder is de heading-hiërarchie inconsistent: de twee inhoudelijke secties staan als ### terwijl er geen ## bovenliggend niveau is (B2). Inhoud verder volledig en geen andere artefacten.'
-    layer1:
-      status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 3
-      max_section_chars: 3333
-      file_size_chars: 6251
-      flags: []
-    layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:09:17Z'
-      rationale: 'B4: drie ### headings in all-caps (INLEIDING, SCHRAPPING VAN HET WOORD «MINIMAAL» ..., HET ONGESPLITSTE DAGBOEK HOUDEN ...) — mens schrijft dit als ## met normale kapitalisatie. Verder is de heading-hiërarchie inconsistent: de twee inhoudelijke secties staan als ### terwijl er geen ## bovenliggend niveau is (B2). Inhoud verder volledig en geen andere artefacten.'
-      concrete_problemen:
-        - regel: 46
-          categorie: B4
-          type: other
-          voorbeeld: '### INLEIDING (all-caps ### zonder bovenliggend ## niveau)'
-        - regel: 53
-          categorie: B4
-          type: other
-          voorbeeld: '### SCHRAPPING VAN HET WOORD « MINIMAAL » IN ARTIKEL 2 EN BIJLAGE A VAN HET BESLUIT'
-        - regel: 67
-          categorie: B4
-          type: other
-          voorbeeld: '### HET ONGESPLITSTE DAGBOEK HOUDEN DOOR MIDDEL VAN GEINFORMATISEERDE SYSTEMEN'
-        - regel: 46
-          categorie: B2
-          type: other
-          voorbeeld: 'H1 -> ### zonder tussenniveau ## (heading-hiërarchie springt)'
 ---
 
 # CBN-advies 2009/4 - Model van ongesplitst dagboek zoals bedoeld in artikel 2 van het koninklijk besluit van 26 juni 2003 betreffende de vereenvoudigde boekhouding van bepaalde VZW’s, stichtingen en IVZW’s
 
 ### INLEIDING
 
-Met het koninklijk besluit van 15 september 2006 tot wijziging van het koninklijk besluit van 26 juni 2003 betreffende de vereenvoudigde boekhouding van bepaalde verenigingen zonder winstoogmerk, stichtingen en internationale verenigingen zonder winstoogmerk, werd in artikel 2 en in bijlage A het woord “minimaal” geschrapt. Tevens werd artikel 3 van het besluit in die zin gewijzigd, dat het ongesplitste dagboek mag worden gehouden door middel van geïnformatiseerde systemen, op voorwaarde dat de voor het bewaren gebruikte drager de onveranderlijkheid en de toegankelijkheid van de gegevens die erin geregistreerd zijn, gedurende 10 jaar verzekert. Terloops wordt erop gewezen dat het woord “minimaal” niet is geschrapt in de artikelen 12[^1]
- en 13[^2], noch in de bijlagen B en C van het besluit.
+Met het koninklijk besluit van 15 september 2006 tot wijziging van het koninklijk besluit van 26 juni 2003 betreffende de vereenvoudigde boekhouding van bepaalde verenigingen zonder winstoogmerk, stichtingen en internationale verenigingen zonder winstoogmerk, werd in artikel 2 en in bijlage A het woord “minimaal” geschrapt. Tevens werd artikel 3 van het besluit in die zin gewijzigd, dat het ongesplitste dagboek mag worden gehouden door middel van geïnformatiseerde systemen, op voorwaarde dat de voor het bewaren gebruikte drager de onveranderlijkheid en de toegankelijkheid van de gegevens die erin geregistreerd zijn, gedurende 10 jaar verzekert. Terloops wordt erop gewezen dat het woord “minimaal” niet is geschrapt in de artikelen 12[^1] en 13[^2], noch in de bijlagen B en C van het besluit.
 
 De vragen die hieromtrent werden gesteld, kwamen erop neer te weten of, enerzijds, de schrapping van het woord "minimaal" in artikel 2 en bijlage A, en de handhaving daarvan in artikel 12 en 13 en bijlage B en C, geen tegenstrijdigheid vormen, en anderzijds, of een ongesplitst dagboek met behulp van een Excel-spreadsheet mag worden gehouden. 
 
@@ -74,7 +73,7 @@ Met deze wijziging is gevolg gegeven aan een aantal concrete vragen in verband m
 
 De schrapping van het woord « minimaal » in artikel 2 en bijlage A van het besluit biedt, naar het advies van de Commissie, meer soepelheid omdat zo de mogelijkheid ontstaat om het ongesplitste dagboek niet alleen complexer maar ook eenvoudiger te maken, zoals bij voorbeeld door de kolommen weg te laten die voor het voeren van de boekhouding van die verenigingen helemaal niet dienstig zijn.
 
-Die wijziging strookt overigens met het Verslag aan de Koning dat het voornoemde koninklijk besluit van 26 juni 2003 voorafgaat. Dit verslag stelt inderdaad dat het ongesplitste dagboek "*kan en moet […] in vele gevallen worden aangepast opdat de boekhouding zou aangepast zijn aan de aard en de omvang van de activiteiten van de vereniging of de stichting"*, zolang het dagboek beperkt is tot *"de registratie van de verrichtingen met betrekking tot de mutaties in contant geld of op de rekeningen en aldus het voor die verenigingen en de stichtingen vastgestelde basisbeginsel in acht neemt"*. De wijziging die met het besluit van 15 september 2006 wordt ingevoerd, is dus wel degelijk in overeenstemming met de geest van het koninklijk besluit van 26 juni 2003.
+Die wijziging strookt overigens met het Verslag aan de Koning dat het voornoemde koninklijk besluit van 26 juni 2003 voorafgaat. Dit verslag stelt inderdaad dat het ongesplitste dagboek "*kan en moet […] in vele gevallen worden aangepast opdat de boekhouding zou aangepast zijn aan de aard en de omvang van de activiteiten van de vereniging of de stichting"*, zolang het dagboek beperkt is tot* "de registratie van de verrichtingen met betrekking tot de mutaties in contant geld of op de rekeningen en aldus het voor die verenigingen en de stichtingen vastgestelde basisbeginsel in acht neemt"*. De wijziging die met het besluit van 15 september 2006 wordt ingevoerd, is dus wel degelijk in overeenstemming met de geest van het koninklijk besluit van 26 juni 2003.
 
 Wat de handhaving betreft van het woord "minimaal" in artikel 12 en 13 alsook in bijlage B en C van het besluit, die handhaving is verantwoord gelet op de specifieke aard van de staat van inkomsten en uitgaven (bijlage B bij het besluit) en van de toelichting met onder andere de vermogensstaat (bijlage C bij het besluit). Deze bijlagen horen bij de jaarrekening die een andere finaliteit heeft dan het ongesplitste dagboek. De jaarrekening moet immers door de betrokken verenigingen en stichtingen openbaar worden gemaakt. De handhaving van het woord "minimaal" heeft tot doel duidelijke, betrouwbare en vergelijkbare jaarrekeningen voor te stellen. Het feit dat bepaalde jaarrekeningposten leeg kunnen blijven, betekent niet dat zij zouden mogen worden weggelaten, want voor een lezer van die financiële staten is die informatie *in se* pertinent.
 

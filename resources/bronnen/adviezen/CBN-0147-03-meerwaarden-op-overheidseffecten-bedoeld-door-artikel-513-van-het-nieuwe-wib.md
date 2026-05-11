@@ -1,6 +1,50 @@
 ---
-nummer: CBN-advies 147/3
+bron: https://www.cbn-cnc.be/nl/adviezen/meerwaarden-op-overheidseffecten-bedoeld-door-artikel-513-van-het-nieuwe-wib
 datum: 1995-03-01
+gerelateerde_adviezen:
+  - datum: '1992-02-01'
+    titel: Gerealiseerde meerwaarden waarvoor de uitgestelde-belastingregeling geldt. Kapitaalsubsidies
+    url: https://www.cbn-cnc.be/nl/adviezen/gerealiseerde-meerwaarden-waarvoor-de-uitgestelde-belastingregeling-geldt
+  - datum: '1984-01-13'
+    titel: Invloed van een gerechtelijk akkoord op de schulden en vorderingen
+    url: https://www.cbn-cnc.be/nl/adviezen/invloed-van-een-gerechtelijk-akkoord-op-de-schulden-en-vorderingen
+nummer: CBN-advies 147/3
+provenance:
+  generated_at: '2026-05-11T13:05:06Z'
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/meerwaarden-op-overheidseffecten-bedoeld-door-artikel-513-van-het-nieuwe-wib
+      sha256: 5c683304c9ae4d4540e3f0d3a9c2cae209300d4062a50cc9d1a4c655f924ebc4
+      version:
+  stale: false
+  stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
+  trust:
+    confirmed_at: '2026-05-11T12:04:41Z'
+    confirmed_by: subagent-sonnet-4-6
+    layer1:
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:26Z'
+      heading_count: 0
+      max_section_chars: 4560
+      file_size_chars: 4560
+      flags: []
+    layer2:
+      agent: subagent-sonnet-4-6
+      concrete_problemen:
+        - categorie: D4
+          regel: 63
+          type: other
+          voorbeeld: '*Uitgestelde belastingen *van het bedrag van de belastingen'
+      rationale: 'D4: regel 63 bevat ''*Uitgestelde belastingen *van het bedrag'' — spatie vóór de sluitende asterisk, waardoor de italic niet correct sluit (bekend ETL-patroon ''*term *''). Verder is de inhoud volledig met 3 correct gedefinieerde voetnoten.'
+      run_at: '2026-05-11T12:04:41Z'
+      status: needs-rework
+    rationale: 'D4: regel 63 bevat ''*Uitgestelde belastingen *van het bedrag'' — spatie vóór de sluitende asterisk, waardoor de italic niet correct sluit (bekend ETL-patroon ''*term *''). Verder is de inhoud volledig met 3 correct gedefinieerde voetnoten.'
+    status: needs-rework
 themas:
   - gespreide taxatie
   - meerwaarde
@@ -9,62 +53,17 @@ themas:
   - uitgestelde belastingen
   - vastrentende effecten
   - belastingvrije reserves
-bron: https://www.cbn-cnc.be/nl/adviezen/meerwaarden-op-overheidseffecten-bedoeld-door-artikel-513-van-het-nieuwe-wib
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/meerwaarden-op-overheidseffecten-bedoeld-door-artikel-513-van-het-nieuwe-wib
-      sha256: 5c683304c9ae4d4540e3f0d3a9c2cae209300d4062a50cc9d1a4c655f924ebc4
-      version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:35:12Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T12:04:41Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "D4: regel 63 bevat '*Uitgestelde belastingen *van het bedrag' — spatie vóór de sluitende asterisk, waardoor de italic niet correct sluit (bekend ETL-patroon '*term *'). Verder is de inhoud volledig met 3 correct gedefinieerde voetnoten."
-    layer1:
-      status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 0
-      max_section_chars: 4561
-      file_size_chars: 4561
-      flags: []
-    layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:04:41Z'
-      rationale: "D4: regel 63 bevat '*Uitgestelde belastingen *van het bedrag' — spatie vóór de sluitende asterisk, waardoor de italic niet correct sluit (bekend ETL-patroon '*term *'). Verder is de inhoud volledig met 3 correct gedefinieerde voetnoten."
-      concrete_problemen:
-        - regel: 63
-          categorie: D4
-          type: other
-          voorbeeld: '*Uitgestelde belastingen *van het bedrag van de belastingen'
-gerelateerde_adviezen:
-  - titel: Gerealiseerde meerwaarden waarvoor de uitgestelde-belastingregeling geldt. Kapitaalsubsidies
-    url: https://www.cbn-cnc.be/nl/adviezen/gerealiseerde-meerwaarden-waarvoor-de-uitgestelde-belastingregeling-geldt
-    datum: '1992-02-01'
-  - titel: Invloed van een gerechtelijk akkoord op de schulden en vorderingen
-    url: https://www.cbn-cnc.be/nl/adviezen/invloed-van-een-gerechtelijk-akkoord-op-de-schulden-en-vorderingen
-    datum: '1984-01-13'
 ---
 
 # CBN-advies 147/3 - Meerwaarden op overheidseffecten bedoeld door artikel 513 van het (nieuwe) WIB
 
-Door de wet van 22 december 1989 werd in de fiscale wetgeving een optionele regeling ingevoerd van gespreide taxatie van de meerwaarden verwezenlijkt op immateriële en materiële vaste activa[^1], op voorwaarde o.m. dat de verwezenlijkte meerwaarde in de onderneming behouden blijft (onaantastbaarheidsvoorwaarde). Door de zelfde wet werd een soortgelijk (maar tijdelijke) regeling van (over zes jaar) gespreide taxatie ingevoerd[^2]
- voor meerwaarden verwezenlijkt op sommige overheidseffecten. 
+Door de wet van 22 december 1989 werd in de fiscale wetgeving een optionele regeling ingevoerd van gespreide taxatie van de meerwaarden verwezenlijkt op immateriële en materiële vaste activa[^1], op voorwaarde o.m. dat de verwezenlijkte meerwaarde in de onderneming behouden blijft (onaantastbaarheidsvoorwaarde). Door de zelfde wet werd een soortgelijk (maar tijdelijke) regeling van (over zes jaar) gespreide taxatie ingevoerd[^2] voor meerwaarden verwezenlijkt op sommige overheidseffecten. 
 
 Door het K.B. van 30 december 1991 tot wijziging van het K.B. van 8 oktober 1976 werd de boekhoudkundige verwerking van deze meerwaarden geregeld, met name : 
 
 1. boeking in de resultatenrekening van de verwezenlijkte meerwaarde; 
 
-2. overboeking via de resultatenrekening naar een (nieuwe) passiefpost VII. B *Uitgestelde belastingen *van het bedrag van de belastingen die tijdens de volgende boekjaren op de onderneming zullen wegen uit hoofde van deze verwezenlijkte meerwaarde; 
+2. overboeking via de resultatenrekening naar een (nieuwe) passiefpost VII. B *Uitgestelde belastingen* van het bedrag van de belastingen die tijdens de volgende boekjaren op de onderneming zullen wegen uit hoofde van deze verwezenlijkte meerwaarde; 
 
 3. overboeking, vóór bestemming van het resultaat van het boekjaar, via de post XII. *Overboeking naar de belastingvrije reserve* van het verschil tussen de verwezenlijkte meerwaarde en de daarop verschuldigde uitgestelde belastingen; 
 

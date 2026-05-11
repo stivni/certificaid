@@ -1,6 +1,46 @@
 ---
-nummer: CBN-advies 137/1
+bron: https://www.cbn-cnc.be/nl/adviezen/klassering-van-de-vorderingen-bij-faillissement-van-de-schuldenaar
 datum: 1983-04-10
+gerelateerde_adviezen:
+  - datum: '2021-05-12'
+    titel: Invloed van het buitengerechtelijk minnelijk akkoord en de gerechtelijke reorganisatie op de schulden en vorderingen (update)
+    url: https://www.cbn-cnc.be/nl/adviezen/invloed-van-het-buitengerechtelijk-minnelijk-akkoord-en-de-gerechtelijke-reorganisatie-1
+  - datum: '1984-01-13'
+    titel: Invloed van een gerechtelijk akkoord op de schulden en vorderingen
+    url: https://www.cbn-cnc.be/nl/adviezen/invloed-van-een-gerechtelijk-akkoord-op-de-schulden-en-vorderingen
+nummer: CBN-advies 137/1
+provenance:
+  generated_at: '2026-05-11T13:05:06Z'
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/klassering-van-de-vorderingen-bij-faillissement-van-de-schuldenaar
+      sha256: 7c727a106b42b295f46eb425b96664656442d4af624e28750caf8f604060b13a
+      version:
+  stale: false
+  stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
+  trust:
+    confirmed_at:
+    confirmed_by:
+    layer1:
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:26Z'
+      heading_count: 0
+      max_section_chars: 2109
+      file_size_chars: 2109
+      flags: []
+    layer2:
+      agent:
+      concrete_problemen: []
+      rationale:
+      run_at:
+      status: not_run
+    rationale: 'Trust gereset 2026-05-11: re-scrape met scraper-fixes, content-diff > 5%'
+    status: unreviewed
 themas:
   - faillissement
   - faillissement van de schuldenaar
@@ -10,53 +50,7 @@ themas:
   - vordering
   - Waardevermindering
   - waardevermindering op vorderingen
-bron: https://www.cbn-cnc.be/nl/adviezen/klassering-van-de-vorderingen-bij-faillissement-van-de-schuldenaar
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/klassering-van-de-vorderingen-bij-faillissement-van-de-schuldenaar
-      sha256: 7c727a106b42b295f46eb425b96664656442d4af624e28750caf8f604060b13a
-      version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:34:58Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T12:04:41Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "B3: duplicate H1-heading op regels 55 en 57 — exact dezelfde titel tweemaal, wat een typisch scraper-duplicaat is. Bovendien gebruikt de heading-label een koppelteken als scheidingsteken ('137-1') i.p.v. de standaard schuine streep ('137/1') die wel in het frontmatter-veld nummer staat."
-    layer1:
-      status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 0
-      max_section_chars: 2198
-      file_size_chars: 2198
-      flags: []
-    layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:04:41Z'
-      rationale: "B3: duplicate H1-heading op regels 55 en 57 — exact dezelfde titel tweemaal, wat een typisch scraper-duplicaat is. Bovendien gebruikt de heading-label een koppelteken als scheidingsteken ('137-1') i.p.v. de standaard schuine streep ('137/1') die wel in het frontmatter-veld nummer staat."
-      concrete_problemen:
-        - regel: 57
-          categorie: B3
-          type: other
-          voorbeeld: '# CBN advies 137-1 - Klassering van de vorderingen bij faillissement van de schuldenaar '
-gerelateerde_adviezen:
-  - titel: Invloed van het buitengerechtelijk minnelijk akkoord en de gerechtelijke reorganisatie op de schulden en vorderingen (update)
-    url: https://www.cbn-cnc.be/nl/adviezen/invloed-van-het-buitengerechtelijk-minnelijk-akkoord-en-de-gerechtelijke-reorganisatie-1
-    datum: '2021-05-12'
-  - titel: Invloed van een gerechtelijk akkoord op de schulden en vorderingen
-    url: https://www.cbn-cnc.be/nl/adviezen/invloed-van-een-gerechtelijk-akkoord-op-de-schulden-en-vorderingen
-    datum: '1984-01-13'
 ---
-
-# CBN advies 137-1 - Klassering van de vorderingen bij faillissement van de schuldenaar
 
 # CBN advies 137-1 - Klassering van de vorderingen bij faillissement van de schuldenaar 
 

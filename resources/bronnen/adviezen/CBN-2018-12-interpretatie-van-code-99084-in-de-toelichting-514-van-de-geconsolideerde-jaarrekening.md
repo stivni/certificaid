@@ -1,70 +1,70 @@
 ---
-nummer: CBN-advies 2018/12
+bron: https://www.cbn-cnc.be/nl/adviezen/interpretatie-van-code-99084-in-de-toelichting-514-van-de-geconsolideerde-jaarrekening
 datum: 2018-05-30
+gerelateerde_adviezen:
+  - datum: '2024-05-22'
+    titel: Boekhoudkundige verwerking van de taks tot vergoeding der successierechten
+    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-taks-tot-vergoeding-der-successierechten
+  - datum: '2019-03-05'
+    titel: Voorzieningen
+    url: https://www.cbn-cnc.be/nl/adviezen/voorzieningen
+  - datum: '2018-05-30'
+    titel: Tax shelter voor podiumkunsten
+    url: https://www.cbn-cnc.be/nl/adviezen/tax-shelter-voor-podiumkunsten
+  - datum: '2018-03-21'
+    titel: Belastingkrediet voor kosten van onderzoek en ontwikkeling
+    url: https://www.cbn-cnc.be/nl/adviezen/belastingkrediet-voor-kosten-van-onderzoek-en-ontwikkeling
+nummer: CBN-advies 2018/12
+provenance:
+  generated_at: '2026-05-11T13:05:08Z'
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/interpretatie-van-code-99084-in-de-toelichting-514-van-de-geconsolideerde-jaarrekening
+      sha256: 341e869a5772c57309a88b90943ac582d84e1ff11174619f8e67928cb20a98f7
+      version:
+  stale: false
+  stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
+  trust:
+    confirmed_at: '2026-05-11T12:21:40Z'
+    confirmed_by: subagent-sonnet-4-6
+    layer1:
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:29Z'
+      heading_count: 5
+      max_section_chars: 6637
+      file_size_chars: 13643
+      flags: []
+    layer2:
+      agent: subagent-sonnet-4-6
+      concrete_problemen:
+        - categorie: E1
+          regel: 78
+          type: pseudo-table
+          voorbeeld: '| Zevende Richtlijn | | Richtlijn 2013/34/EU | \n| Balans | \n| Art. 29 \n\n\t\t\t\t§ 4 |'
+        - categorie: E1
+          regel: 114
+          type: pseudo-table
+          voorbeeld: '| \n\nBoekhoudkundige afschrijving in 5 jaar\n\n  | \n| \n\nJaren\n\n  | | \n\nX\n\n  |'
+        - categorie: E2
+          regel: 219
+          type: other
+          voorbeeld: '| | | | | | | | | | | |  (lege separator-rijen verspreid door tabellen)'
+      rationale: 'E1/E2: de tabellen zijn volledig verminkt — elke cel staat op een aparte regel met lege regels ertussen (patroon ''| \n\nInhoud\n\n  |''), waardoor de pipe-tabel-structuur visueel én semantisch onleesbaar is voor een RAG-parser (regels 78–1348). Dit is een fundamenteel extractie-artefact dat de hele tweede helft van het document beslaat. Tekst en voetnoten zijn inhoudelijk intact.'
+      run_at: '2026-05-11T12:21:40Z'
+      status: needs-rework
+    rationale: 'E1/E2: de tabellen zijn volledig verminkt — elke cel staat op een aparte regel met lege regels ertussen (patroon ''| \n\nInhoud\n\n  |''), waardoor de pipe-tabel-structuur visueel én semantisch onleesbaar is voor een RAG-parser (regels 78–1348). Dit is een fundamenteel extractie-artefact dat de hele tweede helft van het document beslaat. Tekst en voetnoten zijn inhoudelijk intact.'
+    status: needs-rework
 themas:
   - belasting
   - uitgestelde belastingen
   - belastinglatentie
   - actieve belastinglatentie
   - passieve belastinglatentie
-bron: https://www.cbn-cnc.be/nl/adviezen/interpretatie-van-code-99084-in-de-toelichting-514-van-de-geconsolideerde-jaarrekening
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/interpretatie-van-code-99084-in-de-toelichting-514-van-de-geconsolideerde-jaarrekening
-      sha256: 341e869a5772c57309a88b90943ac582d84e1ff11174619f8e67928cb20a98f7
-      version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:37:23Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T12:21:40Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "E1/E2: de tabellen zijn volledig verminkt — elke cel staat op een aparte regel met lege regels ertussen (patroon '| \\n\\nInhoud\\n\\n  |'), waardoor de pipe-tabel-structuur visueel én semantisch onleesbaar is voor een RAG-parser (regels 78–1348). Dit is een fundamenteel extractie-artefact dat de hele tweede helft van het document beslaat. Tekst en voetnoten zijn inhoudelijk intact."
-    layer1:
-      status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 5
-      max_section_chars: 6637
-      file_size_chars: 13643
-      flags: []
-    layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:21:40Z'
-      rationale: "E1/E2: de tabellen zijn volledig verminkt — elke cel staat op een aparte regel met lege regels ertussen (patroon '| \\n\\nInhoud\\n\\n  |'), waardoor de pipe-tabel-structuur visueel én semantisch onleesbaar is voor een RAG-parser (regels 78–1348). Dit is een fundamenteel extractie-artefact dat de hele tweede helft van het document beslaat. Tekst en voetnoten zijn inhoudelijk intact."
-      concrete_problemen:
-        - regel: 78
-          categorie: E1
-          type: pseudo-table
-          voorbeeld: '| Zevende Richtlijn | | Richtlijn 2013/34/EU | \n| Balans | \n| Art. 29 \n\n\t\t\t\t§ 4 |'
-        - regel: 114
-          categorie: E1
-          type: pseudo-table
-          voorbeeld: '| \n\nBoekhoudkundige afschrijving in 5 jaar\n\n  | \n| \n\nJaren\n\n  | | \n\nX\n\n  |'
-        - regel: 219
-          categorie: E2
-          type: other
-          voorbeeld: '| | | | | | | | | | | |  (lege separator-rijen verspreid door tabellen)'
-gerelateerde_adviezen:
-  - titel: Boekhoudkundige verwerking van de taks tot vergoeding der successierechten
-    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-taks-tot-vergoeding-der-successierechten
-    datum: '2024-05-22'
-  - titel: Voorzieningen
-    url: https://www.cbn-cnc.be/nl/adviezen/voorzieningen
-    datum: '2019-03-05'
-  - titel: Tax shelter voor podiumkunsten
-    url: https://www.cbn-cnc.be/nl/adviezen/tax-shelter-voor-podiumkunsten
-    datum: '2018-05-30'
-  - titel: Belastingkrediet voor kosten van onderzoek en ontwikkeling
-    url: https://www.cbn-cnc.be/nl/adviezen/belastingkrediet-voor-kosten-van-onderzoek-en-ontwikkeling
-    datum: '2018-03-21'
 ---
 
 # CBN-advies 2018/12 - Interpretatie van code 99084 in de toelichting 5.14 van de geconsolideerde jaarrekening

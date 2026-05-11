@@ -1,61 +1,61 @@
 ---
-nummer: CBN-advies 2018/02
+bron: https://www.cbn-cnc.be/nl/adviezen/belastingkrediet-voor-kosten-van-onderzoek-en-ontwikkeling
 datum: 2018-03-21
+nummer: CBN-advies 2018/02
+provenance:
+  generated_at: '2026-05-11T13:05:08Z'
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/belastingkrediet-voor-kosten-van-onderzoek-en-ontwikkeling
+      sha256: 03181e2a0d186a99b17dcc95fb7356e567d8df51b94f9e4f9f905c617969f555
+      version:
+  stale: false
+  stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
+  trust:
+    confirmed_at: '2026-05-11T12:21:40Z'
+    confirmed_by: subagent-sonnet-4-6
+    layer1:
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:29Z'
+      heading_count: 13
+      max_section_chars: 5213
+      file_size_chars: 12892
+      flags: []
+    layer2:
+      agent: subagent-sonnet-4-6
+      concrete_problemen:
+        - categorie: D4
+          regel: 49
+          type: other
+          voorbeeld: '*Kosten van onderzoek en ontwikkeling:* *wijzigingen door het koninklijk besluit'
+        - categorie: D3
+          regel: 83
+          type: other
+          voorbeeld: ' [^8]'
+        - categorie: D3
+          regel: 125
+          type: other
+          voorbeeld: ' [^11]'
+        - categorie: A6
+          regel: 130
+          type: other
+          voorbeeld: '| aan | 67/77 | Belastingen op het resultaat/Regularisering van\n\t\t\t\tbelastingen...'
+      rationale: "Drie problemen: (1) D4: malformed italic op regel 49 (`*Kosten van onderzoek en ontwikkeling:* *wijzigingen...`) met dubbele asterisk-grens na de dubbele punt; (2) A6: regels 130-131 bevatten een regelbreuk midden in een tabelcel (`Regularisering van\n\t\t\t\tbelastingen...`) wat een extractie-artefact is; (3) twee zwevende voetnoot-referenties op regels 83 en 125 (` [^8]` en ` [^11]`) als losse regels zonder omringende tabelinhoud — vermoedelijk stonden hier oorspronkelijk tabelkopnoten die zijn weggevallen."
+      run_at: '2026-05-11T12:21:40Z'
+      status: needs-rework
+    rationale: "Drie problemen: (1) D4: malformed italic op regel 49 (`*Kosten van onderzoek en ontwikkeling:* *wijzigingen...`) met dubbele asterisk-grens na de dubbele punt; (2) A6: regels 130-131 bevatten een regelbreuk midden in een tabelcel (`Regularisering van\n\t\t\t\tbelastingen...`) wat een extractie-artefact is; (3) twee zwevende voetnoot-referenties op regels 83 en 125 (` [^8]` en ` [^11]`) als losse regels zonder omringende tabelinhoud — vermoedelijk stonden hier oorspronkelijk tabelkopnoten die zijn weggevallen."
+    status: needs-rework
 themas:
   - belastingkrediet
   - belasting
   - kosten van onderzoek en ontwikkeling
   - onderzoek en ontwikkeling
   - investeringsaftrek
-bron: https://www.cbn-cnc.be/nl/adviezen/belastingkrediet-voor-kosten-van-onderzoek-en-ontwikkeling
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/belastingkrediet-voor-kosten-van-onderzoek-en-ontwikkeling
-      sha256: 03181e2a0d186a99b17dcc95fb7356e567d8df51b94f9e4f9f905c617969f555
-      version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:37:18Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T12:21:40Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "Drie problemen: (1) D4: malformed italic op regel 49 (`*Kosten van onderzoek en ontwikkeling:* *wijzigingen...`) met dubbele asterisk-grens na de dubbele punt; (2) A6: regels 130-131 bevatten een regelbreuk midden in een tabelcel (`Regularisering van\n\t\t\t\tbelastingen...`) wat een extractie-artefact is; (3) twee zwevende voetnoot-referenties op regels 83 en 125 (` [^8]` en ` [^11]`) als losse regels zonder omringende tabelinhoud — vermoedelijk stonden hier oorspronkelijk tabelkopnoten die zijn weggevallen."
-    layer1:
-      status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 7
-      max_section_chars: 5211
-      file_size_chars: 12917
-      flags: []
-    layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:21:40Z'
-      rationale: "Drie problemen: (1) D4: malformed italic op regel 49 (`*Kosten van onderzoek en ontwikkeling:* *wijzigingen...`) met dubbele asterisk-grens na de dubbele punt; (2) A6: regels 130-131 bevatten een regelbreuk midden in een tabelcel (`Regularisering van\n\t\t\t\tbelastingen...`) wat een extractie-artefact is; (3) twee zwevende voetnoot-referenties op regels 83 en 125 (` [^8]` en ` [^11]`) als losse regels zonder omringende tabelinhoud — vermoedelijk stonden hier oorspronkelijk tabelkopnoten die zijn weggevallen."
-      concrete_problemen:
-        - regel: 49
-          categorie: D4
-          type: other
-          voorbeeld: '*Kosten van onderzoek en ontwikkeling:* *wijzigingen door het koninklijk besluit'
-        - regel: 83
-          categorie: D3
-          type: other
-          voorbeeld: ' [^8]'
-        - regel: 125
-          categorie: D3
-          type: other
-          voorbeeld: ' [^11]'
-        - regel: 130
-          categorie: A6
-          type: other
-          voorbeeld: '| aan | 67/77 | Belastingen op het resultaat/Regularisering van\n\t\t\t\tbelastingen...'
 ---
 
 # CBN-advies 2018/02 – Belastingkrediet voor kosten van onderzoek en ontwikkeling
@@ -64,13 +64,14 @@ provenance:
 
 Met onderhavig advies verduidelijkt de Commissie de wijze waarop een vennootschap het belastingkrediet voor kosten van onderzoek en ontwikkeling moet opnemen in haar jaarrekening. Wat betreft de activering van de kosten van onderzoek en ontwikkeling verwijst de Commissie naar het advies CBN-advies 2016/16 - *Kosten van onderzoek en ontwikkeling:* *wijzigingen door het koninklijk besluit van 18 december 2015*.
 
-Het belastingkrediet voor kosten van onderzoek en ontwikkeling wordt geregeld in de artikelen 289*quater *tot 289*novies* en 292*bis* van het Wetboek van de Inkomstenbelastingen 1992 (hierna: WIB 92). Het belastingkrediet voor kosten van onderzoek en ontwikkeling komt, indien de vennootschap daarvoor kiest, in de plaats van de investeringsaftrek voor kosten van onderzoek en ontwikkeling.
+Het belastingkrediet voor kosten van onderzoek en ontwikkeling wordt geregeld in de artikelen 289*quater* tot 289*novies* en 292*bis* van het Wetboek van de Inkomstenbelastingen 1992 (hierna: WIB 92). Het belastingkrediet voor kosten van onderzoek en ontwikkeling komt, indien de vennootschap daarvoor kiest, in de plaats van de investeringsaftrek voor kosten van onderzoek en ontwikkeling.
 
 Met onderhavig advies neemt de Commissie geen standpunt in over de toepasselijke fiscale bepalingen. Wat betreft de fiscale verwerking verwijst de Commissie naar de fiscale circulaire nr. Ci.RH.421/579.072 van 10 september 2010.
 
 ## Beknopte beschrijving van de modaliteiten van het belastingkrediet voor onderzoek en ontwikkeling
 
-Het belastingkrediet voor kosten van onderzoek en ontwikkeling houdt grosso modo in dat een vennootschap in haar aangifte in de vennootschapsbelasting[^2] een bedrag in functie van de gedane kosten voor onderzoek en ontwikkeling kan verrekenen met de te betalen belasting. Indien de te betalen belasting lager is dan het verrekenbaar bedrag kan de vennootschap het niet verrekende gedeelte van dit bedrag overdragen naar het volgend belastbaar tijdperk. Het saldo van het overgedragen belastingkrediet van het oudste aanslagjaar wordt het eerst verrekend.[^3] Indien het belastingkrediet na verrekening met de belasting van vijf achtereenvolgende aanslagjaren niet volledig kan worden verrekend, wordt het gedeelte dat niet kon worden verrekend, terugbetaald middels de inkohiering van de belasting met betrekking tot dat vijfde aanslagjaar.
+Het belastingkrediet voor kosten van onderzoek en ontwikkeling houdt grosso modo in dat een vennootschap in haar aangifte in de vennootschapsbelasting[^2] een bedrag in functie van de gedane kosten voor onderzoek en ontwikkeling kan verrekenen met de te betalen belasting. Indien de te betalen belasting lager is dan het verrekenbaar bedrag kan de vennootschap het niet verrekende gedeelte van dit bedrag overdragen naar het volgend belastbaar tijdperk. Het saldo van het overgedragen belastingkrediet van het oudste aanslagjaar wordt het eerst verrekend.[^3]
+ Indien het belastingkrediet na verrekening met de belasting van vijf achtereenvolgende aanslagjaren niet volledig kan worden verrekend, wordt het gedeelte dat niet kon worden verrekend, terugbetaald middels de inkohiering van de belasting met betrekking tot dat vijfde aanslagjaar.
 
 Om van het belastingkrediet te kunnen genieten moet de belastingplichtige hiervoor opteren vanaf een bepaald belastbaar tijdperk. Hiertoe moet een formulier 275W worden toegevoegd aan de aangifte.
 
@@ -80,9 +81,10 @@ Het nog niet verrekende belastingkrediet gaat verloren ingeval van een belaste f
 
 Indien er voor een bepaald aanslagjaar na verrekening met de belasting van vijf achtervolgende aanslagjaren, een gedeelte van het belastingkrediet voor onderzoek en ontwikkeling dat verband houdt met dat aanslagjaar niet kan worden verrekend, wordt dit gedeelte terugbetaald. Hiertoe dient evenwel de voorwaarde te zijn vervuld dat er nog minstens vijf belastbare tijdperken volgen na het ontstaan van het belastingkrediet.[^6] 
 
-Het belastingkrediet is *stricto sensu *geen vaststaande vordering. Er moeten immers nog een aantal voorwaarden worden vervuld vooraleer er sprake kan zijn van een terugbetaling door de overheid.
+Het belastingkrediet is *stricto sensu* geen vaststaande vordering. Er moeten immers nog een aantal voorwaarden worden vervuld vooraleer er sprake kan zijn van een terugbetaling door de overheid.
 
-Het belastingkrediet voor onderzoek en ontwikkeling werd ingesteld met het oog op een correctere voorstelling van de Belgische kostprijs inzake onderzoek en ontwikkeling in de internationale rapportering van de vennootschappen en waarbij internationale vergelijkingen duidelijker en zichtbaarder worden inzake investeringsaftrekken.[^7] De investeringsaftrek voor kosten van onderzoek en ontwikkeling geeft nooit aanleiding tot een terugbetaalbaar krediet zodat het niet verrekend gedeelte van dergelijke investeringsaftrek niet als een vordering kan worden opgenomen in de jaarrekening doch slechts als een in de toelichting te vermelden actieve belastinglatentie. Het belastingkrediet voor kosten van onderzoek en ontwikkeling komt, indien de vennootschap daarvoor kiest, in de plaats van de investeringsaftrek voor kosten van onderzoek en ontwikkeling.
+Het belastingkrediet voor onderzoek en ontwikkeling werd ingesteld met het oog op een correctere voorstelling van de Belgische kostprijs inzake onderzoek en ontwikkeling in de internationale rapportering van de vennootschappen en waarbij internationale vergelijkingen duidelijker en zichtbaarder worden inzake investeringsaftrekken.[^7]
+ De investeringsaftrek voor kosten van onderzoek en ontwikkeling geeft nooit aanleiding tot een terugbetaalbaar krediet zodat het niet verrekend gedeelte van dergelijke investeringsaftrek niet als een vordering kan worden opgenomen in de jaarrekening doch slechts als een in de toelichting te vermelden actieve belastinglatentie. Het belastingkrediet voor kosten van onderzoek en ontwikkeling komt, indien de vennootschap daarvoor kiest, in de plaats van de investeringsaftrek voor kosten van onderzoek en ontwikkeling.
 
 De Commissie leidt uit voormelde verantwoording tot instelling van een systeem van belastingkrediet voor kosten van onderzoek en ontwikkeling af dat het de bedoeling van de wetgever is om dit belastingkrediet als een actiefbestanddeel te laten uitdrukken in de jaarrekening van de onderneming.
 
@@ -94,9 +96,7 @@ De boekhoudkundige verwerking van het belastingkrediet voor kosten van onderzoek
 
 Het belastingkrediet voor het boekjaar N bedraagt 6.000 euro. Op het einde van dat boekjaar is het slechts verrekenbaar voor een bedrag van 2.500 euro.
 
-**Boeking in jaar N, het jaar van de investering die recht geeft op het belastingkrediet**
-
- [^8]
+## Boeking in jaar N, het jaar van de investering die recht geeft op het belastingkrediet
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
@@ -108,18 +108,18 @@ Het belastingkrediet voor het boekjaar N bedraagt 6.000 euro. Op het einde van d
 | | 670 | Belgische belastingen op het resultaat van het boekjaar | 2.500 | |
 | aan | 412 | Terug te vorderen belastingen en voorheffingen | | 2.500 |
 
-**Boeking in jaar N+1: het overgedragen belastingkrediet is verrekenbaar voor een bedrag van 1.500 euro**
+## Boeking in jaar N+1: het overgedragen belastingkrediet is verrekenbaar voor een bedrag van 1.500 euro
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 670 | Belgische belastingen op het resultaat van het boekjaar | 1.500 | |
 | aan | 412 | Terug te vorderen belastingen en voorheffingen | | 1.500 |
 
-**Boeking in jaren N+2 en N+3**
+## Boeking in jaren N+2 en N+3
 
 Voor de jaren N+2 en N+3 is er geen vennootschapsbelasting verschuldigd en bijgevolg vindt er geen verrekening plaats van het overgedragen belastingkrediet.
 
-**Boekingen in jaar N+4**
+## Boekingen in jaar N+4
 
 Ook voor het jaar N+4 is er geen vennootschapsbelasting verschuldigd. Op het einde van het boekjaar N+4 wordt het gedeelte van het belastingkrediet dat niet kon worden verrekend, met name een bedrag van 2.000 euro, terugbetaald[^9].
 
@@ -132,13 +132,11 @@ Ook voor het jaar N+4 is er geen vennootschapsbelasting verschuldigd. Op het ein
 
 Een vennootschap opteert voor een gespreid belastingkrediet in functie van de fiscaal aanvaarde afschrijvingen van het actiefbestanddeel waarvoor het belastingkrediet wordt verkregen. Het belastingkrediet heeft betrekking op een investering die boekhoudkundig en fiscaal wordt afgeschreven over tien jaren met vaste annuïteiten. Het totale bedrag van het gespreid belastingkrediet bedraagt, voor de eenvoud afgerond, 7.600 euro. Indien de vennootschap zou opteren voor een éénmalig belastingkrediet zou dit, afgerond, 5.000 euro bedragen.[^10] 
 
-**Boekingen in het jaar N**
+## Boekingen in het jaar N
 
 Het verrekenbaar bedrag ontstaan in het jaar N bedraagt 760 euro. Het belastingkrediet is in het jaar N slechts effectief verrekenbaar voor, bij wijze van voorbeeld, 450 euro.
 
 Op het ogenblik van de investering die recht geeft op het belastingkrediet wordt reeds een vordering geboekt voor een bedrag van 5.000 euro, zijnde het bedrag van het belastingkrediet dat zou worden verkregen bij een éénmalig belastingkrediet. Vervolgens wordt de effectieve verrekening in het jaar N voor het bedrag van 450 euro geboekt. Het verschil tussen 760 euro en 450 euro, zijnde 310 euro, wordt overgedragen naar het volgende jaar.
-
- [^11]
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
@@ -151,7 +149,7 @@ Op het ogenblik van de investering die recht geeft op het belastingkrediet wordt
 | | 670 | Belgische belastingen op het resultaat van het boekjaar | 450 | |
 | aan | 412 | Terug te vorderen belastingen en voorheffingen | | 450 |
 
-**Boekingen in het jaar N+1**
+## Boekingen in het jaar N+1
 
 Het verrekenbaar bedrag ontstaan in het jaar N+1 bedraagt 760 euro. Er is een overgedragen belastingkrediet van het voorgaande jaar voor een bedrag van 310 euro. Het bedrag van het verrekenbaar belastingkrediet tijdens het jaar N+1 bedraagt bijvoorbeeld 850 euro. Het saldo van het overgedragen belastingkrediet van het oudste aanslagjaar (310 euro van het jaar N) wordt het eerst verrekend. Het effectief verrekend bedrag[^12] is dus samengesteld uit het nog niet verrekend gedeelte van het jaar N (310 euro) en een gedeelte (540 euro, zijnde 850 euro – 310 euro) van het belastingkrediet ontstaan in het jaar N+1. De overdracht naar het jaar N+2 bedraagt aldus 220[^13] euro.
 
@@ -160,12 +158,11 @@ Het verrekenbaar bedrag ontstaan in het jaar N+1 bedraagt 760 euro. Er is een ov
 | | 670 | Belgische belastingen op het resultaat van het boekjaar | 850 | |
 | aan | 412 | Terug te vorderen belastingen en voorheffingen | | 850 |
 
-**Boekingen in de jaren N+2, N+3, N+4 en N+5**
+## Boekingen in de jaren N+2, N+3, N+4 en N+5
 
 Er is geen belasting te betalen voor de jaren N+2, N+3, N+4 en N+5 en bijgevolg vindt geen verrekening van het belastingkrediet plaats. Op het einde van het jaar N+5 is er evenwel de teruggave van het belastingkrediet met betrekking tot het jaar N+1 dat niet kon worden verrekend, met name 220 euro. Bij de ontvangst van de teruggave wordt de vordering verminderd met 220 euro.
 
-### Het bedrag van het opgebouwd gespreid belastingkrediet overtreft het bedrag van het éénmalig belastingkrediet
-
+Het bedrag van het opgebouwd gespreid belastingkrediet overtreft het bedrag van het éénmalig belastingkrediet
 De gegevens zijn dezelfde als deze vermeld onder subtitel B hierboven behalve dat een effectieve verrekening heeft plaatsgevonden van 760 euro in de jaren N tot N+5.
 
 Op het einde van het jaar N+6 wordt een nieuw belastingkrediet verworven voor een bedrag van 320 euro, zijnde (760 euro × 7) – 5.000 euro.
@@ -174,7 +171,7 @@ Voor de jaren N+7, N+8 en N+9 wordt voor elk van die jaren een nieuw belastingkr
 
 ### Verlies van het belastingkrediet voor onderzoek en ontwikkeling
 
-Wanneer het belastingkrediet verloren gaat wordt het verlies van de vordering op de overheid onmiddellijk geboekt op de rekening 67 *Belastingen op het resultaat[^14] *.
+Wanneer het belastingkrediet verloren gaat wordt het verlies van de vordering op de overheid onmiddellijk geboekt op de rekening 67 *Belastingen op het resultaat[^14]* .
 
 [^1]: Onderhavig advies is tot stand gekomen nadat een ontwerpadvies op 8 januari 2018 ter publieke consultatie werd gepubliceerd op de website van de CBN.
 

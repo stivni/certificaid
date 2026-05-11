@@ -1,6 +1,60 @@
 ---
-nummer: CBN-advies 117/2
+bron: https://www.cbn-cnc.be/nl/adviezen/munt-waarin-de-boekhouding-moet-worden-gevoerd-en-de-jaarrekening-opgesteld-de-commissie
 datum: 1980-06-01
+gerelateerde_adviezen:
+  - datum: '2024-02-08'
+    titel: 'Belgische bijkantoren van buitenlandse verenigingen en stichtingen: toepassing van het Belgisch boekhoudrecht – begrip ‘bijkantoor’ – publicatieplicht – eigen boekhoudkundige verplichtingen'
+    url: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-buitenlandse-verenigingen-en-stichtingen-toepassing-van-het-0
+  - datum: '2022-11-08'
+    titel: 'Belgische bijkantoren van buitenlandse vennootschappen: eigen boekhoudkundige verplichtingen (update)'
+    url: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-buitenlandse-vennootschappen-eigen-boekhoudkundige
+  - datum: '2019-05-14'
+    titel: Adviesbeleid van de Commissie voor Boekhoudkundige Normen ten aanzien van vragen tot afwijking voor Belgische bijkantoren van buitenlandse vennootschappen (ONTWERP)
+    url: https://www.cbn-cnc.be/nl/adviezen/adviesbeleid-van-de-commissie-voor-boekhoudkundige-normen-ten-aanzien-van-vragen-tot
+  - datum: '2019-03-26'
+    titel: 'Belgische bijkantoren van vennootschappen naar buitenlands recht: eigen boekhoudkundige verplichtingen'
+    url: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-vennootschappen-naar-buitenlands-recht-eigen-boekhoudkundige-0
+nummer: CBN-advies 117/2
+provenance:
+  generated_at: '2026-05-11T13:05:05Z'
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/munt-waarin-de-boekhouding-moet-worden-gevoerd-en-de-jaarrekening-opgesteld-de-commissie
+      sha256: bae5e73feda46fb6a5b2fc1e8076fece4ac486ba8958478ed4e6eaf1257ccbde
+      version:
+  stale: false
+  stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
+  trust:
+    confirmed_at: '2026-05-11T11:57:45Z'
+    confirmed_by: subagent-sonnet-4-6
+    layer1:
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:25Z'
+      heading_count: 0
+      max_section_chars: 4790
+      file_size_chars: 4790
+      flags: []
+    layer2:
+      agent: subagent-sonnet-4-6
+      concrete_problemen:
+        - categorie: A9
+          regel: 77
+          type: ocr-confusion
+          voorbeeld: succursalen in Belgiëë van ondernemingen — dubbel ë, hoort 'België' te zijn
+        - categorie: A6
+          regel: 89
+          type: other
+          voorbeeld: dienen zij der halve te worden omgezet — 'derhalve' gesplitst door extractie
+      rationale: 'Twee duidelijke extractie-artefacten in de body: (1) regel 77 bevat ''Belgiëë'' (dubbel ë) — OCR/extractie-artefact voor ''België''; (2) regel 89 bevat ''der halve'' (gesplitst woord) — extractiefout voor het woord ''derhalve''. Beide zijn inhoudelijk-storende artefacten die ETL kan corrigeren.'
+      run_at: '2026-05-11T11:57:45Z'
+      status: needs-rework
+    rationale: 'Twee duidelijke extractie-artefacten in de body: (1) regel 77 bevat ''Belgiëë'' (dubbel ë) — OCR/extractie-artefact voor ''België''; (2) regel 89 bevat ''der halve'' (gesplitst woord) — extractiefout voor het woord ''derhalve''. Beide zijn inhoudelijk-storende artefacten die ETL kan corrigeren.'
+    status: needs-rework
 themas:
   - afwijking
   - bedrijfszetel
@@ -12,60 +66,6 @@ themas:
   - opstelling van de jaarrekening
   - succursaal
   - vreemde munt
-bron: https://www.cbn-cnc.be/nl/adviezen/munt-waarin-de-boekhouding-moet-worden-gevoerd-en-de-jaarrekening-opgesteld-de-commissie
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/munt-waarin-de-boekhouding-moet-worden-gevoerd-en-de-jaarrekening-opgesteld-de-commissie
-      sha256: bae5e73feda46fb6a5b2fc1e8076fece4ac486ba8958478ed4e6eaf1257ccbde
-      version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:34:24Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T11:57:45Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "Twee duidelijke extractie-artefacten in de body: (1) regel 77 bevat 'Belgiëë' (dubbel ë) — OCR/extractie-artefact voor 'België'; (2) regel 89 bevat 'der halve' (gesplitst woord) — extractiefout voor het woord 'derhalve'. Beide zijn inhoudelijk-storende artefacten die ETL kan corrigeren."
-    layer1:
-      status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 0
-      max_section_chars: 4790
-      file_size_chars: 4790
-      flags: []
-    layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T11:57:45Z'
-      rationale: "Twee duidelijke extractie-artefacten in de body: (1) regel 77 bevat 'Belgiëë' (dubbel ë) — OCR/extractie-artefact voor 'België'; (2) regel 89 bevat 'der halve' (gesplitst woord) — extractiefout voor het woord 'derhalve'. Beide zijn inhoudelijk-storende artefacten die ETL kan corrigeren."
-      concrete_problemen:
-        - regel: 77
-          categorie: A9
-          type: ocr-confusion
-          voorbeeld: succursalen in Belgiëë van ondernemingen — dubbel ë, hoort 'België' te zijn
-        - regel: 89
-          categorie: A6
-          type: other
-          voorbeeld: dienen zij der halve te worden omgezet — 'derhalve' gesplitst door extractie
-gerelateerde_adviezen:
-  - titel: 'Belgische bijkantoren van buitenlandse verenigingen en stichtingen: toepassing van het Belgisch boekhoudrecht – begrip ‘bijkantoor’ – publicatieplicht – eigen boekhoudkundige verplichtingen'
-    url: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-buitenlandse-verenigingen-en-stichtingen-toepassing-van-het-0
-    datum: '2024-02-08'
-  - titel: 'Belgische bijkantoren van buitenlandse vennootschappen: eigen boekhoudkundige verplichtingen (update)'
-    url: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-buitenlandse-vennootschappen-eigen-boekhoudkundige
-    datum: '2022-11-08'
-  - titel: Adviesbeleid van de Commissie voor Boekhoudkundige Normen ten aanzien van vragen tot afwijking voor Belgische bijkantoren van buitenlandse vennootschappen (ONTWERP)
-    url: https://www.cbn-cnc.be/nl/adviezen/adviesbeleid-van-de-commissie-voor-boekhoudkundige-normen-ten-aanzien-van-vragen-tot
-    datum: '2019-05-14'
-  - titel: 'Belgische bijkantoren van vennootschappen naar buitenlands recht: eigen boekhoudkundige verplichtingen'
-    url: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-vennootschappen-naar-buitenlands-recht-eigen-boekhoudkundige-0
-    datum: '2019-03-26'
 ---
 
 # CBN-advies 117/2 - Munt waarin de boekhouding moet worden gevoerd en de jaarrekening opgesteld

@@ -1,6 +1,72 @@
 ---
-nummer: CBN-advies 2016/2
+bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-ontvangen-subsidies-voor-de-aankoop-van-activa-die-worden
 datum: 2016-03-09
+gerelateerde_adviezen:
+  - datum: '2022-07-20'
+    titel: Wijziging van het boekhoudkundig referentiestelsel
+    url: https://www.cbn-cnc.be/nl/adviezen/wijziging-van-het-boekhoudkundig-referentiestelsel
+  - datum: '2011-07-06'
+    titel: Herwaarderingsmeerwaarden
+    url: https://www.cbn-cnc.be/nl/adviezen/herwaarderingsmeerwaarden
+  - datum: '1991-03-01'
+    titel: Verwerking van verrichtingen voor de verwerving of verkoop van een recht op vruchtgebruik of van naakte eigendom op materiële vaste activa in de boekhouding van de vruchtgebruiker (de erfpachter, de opstalhouder) en van de naakte eigenaar (de grondeigenaa
+    url: https://www.cbn-cnc.be/nl/adviezen/verwerking-van-verrichtingen-voor-de-verwerving-of-verkoop-van-een-recht-op-vruchtgebruik
+  - datum: '1986-07-01'
+    titel: Bouwwerken op andermans grond
+    url: https://www.cbn-cnc.be/nl/adviezen/bouwwerken-op-andermans-grond
+nummer: CBN-advies 2016/2
+provenance:
+  generated_at: '2026-05-11T13:05:08Z'
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-ontvangen-subsidies-voor-de-aankoop-van-activa-die-worden
+      sha256: 074350628fb9f6a0648fb610e585e68c7bac08b5f35a1156be111a403d2c830a
+      version:
+  stale: false
+  stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
+  trust:
+    confirmed_at: '2026-05-11T12:16:34Z'
+    confirmed_by: subagent-sonnet-4-6
+    layer1:
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:29Z'
+      heading_count: 2
+      max_section_chars: 2264
+      file_size_chars: 3169
+      flags: []
+    layer2:
+      agent: subagent-sonnet-4-6
+      concrete_problemen:
+        - categorie: D4
+          regel: 61
+          type: other
+          voorbeeld: '# **COMMISSIE VOOR BOEKHOUDKUNDIGE NORMEN'
+        - categorie: B3
+          regel: 63
+          type: other
+          voorbeeld: '# **CBN-advies 2016/2 – Boekhoudkundige verwerking van ontvangen subsidies...'
+        - categorie: D4
+          regel: 67
+          type: other
+          voorbeeld: '## **Inleiding****'
+        - categorie: B3
+          regel: 73
+          type: other
+          voorbeeld: '## '
+        - categorie: D4
+          regel: 75
+          type: other
+          voorbeeld: '**Analyse****'
+      rationale: 'B3+D4: regels 61–65 bevatten drie duplicate #-level headings met ongesloten bold-markers (''# **COMMISSIE VOOR BOEKHOUDKUNDIGE NORMEN'' zonder sluiter-`**`). Regel 67: ''## **Inleiding****'' met dubbele sluiter — malformed heading. Regel 73: lege ## heading (''## '') gevolgd door ''**Analyse****'' als plain-text bold in de body (B3+D4). Dit zijn duidelijke scrape-artefacten.'
+      run_at: '2026-05-11T12:16:34Z'
+      status: needs-rework
+    rationale: 'B3+D4: regels 61–65 bevatten drie duplicate #-level headings met ongesloten bold-markers (''# **COMMISSIE VOOR BOEKHOUDKUNDIGE NORMEN'' zonder sluiter-`**`). Regel 67: ''## **Inleiding****'' met dubbele sluiter — malformed heading. Regel 73: lege ## heading (''## '') gevolgd door ''**Analyse****'' als plain-text bold in de body (B3+D4). Dit zijn duidelijke scrape-artefacten.'
+    status: needs-rework
 themas:
   - materiële vaste activa
   - overige materiële vaste activa
@@ -8,75 +74,7 @@ themas:
   - terbeschikkingstelling vaste activa
   - vereniging zonder winstoogmerk
   - vzw
-bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-ontvangen-subsidies-voor-de-aankoop-van-activa-die-worden
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-ontvangen-subsidies-voor-de-aankoop-van-activa-die-worden
-      sha256: 074350628fb9f6a0648fb610e585e68c7bac08b5f35a1156be111a403d2c830a
-      version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:36:53Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T12:16:34Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "B3+D4: regels 61–65 bevatten drie duplicate #-level headings met ongesloten bold-markers ('# **COMMISSIE VOOR BOEKHOUDKUNDIGE NORMEN' zonder sluiter-`**`). Regel 67: '## **Inleiding****' met dubbele sluiter — malformed heading. Regel 73: lege ## heading ('## ') gevolgd door '**Analyse****' als plain-text bold in de body (B3+D4). Dit zijn duidelijke scrape-artefacten."
-    layer1:
-      status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 2
-      max_section_chars: 2275
-      file_size_chars: 3316
-      flags: []
-    layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:16:34Z'
-      rationale: "B3+D4: regels 61–65 bevatten drie duplicate #-level headings met ongesloten bold-markers ('# **COMMISSIE VOOR BOEKHOUDKUNDIGE NORMEN' zonder sluiter-`**`). Regel 67: '## **Inleiding****' met dubbele sluiter — malformed heading. Regel 73: lege ## heading ('## ') gevolgd door '**Analyse****' als plain-text bold in de body (B3+D4). Dit zijn duidelijke scrape-artefacten."
-      concrete_problemen:
-        - regel: 61
-          categorie: D4
-          type: other
-          voorbeeld: '# **COMMISSIE VOOR BOEKHOUDKUNDIGE NORMEN'
-        - regel: 63
-          categorie: B3
-          type: other
-          voorbeeld: '# **CBN-advies 2016/2 – Boekhoudkundige verwerking van ontvangen subsidies...'
-        - regel: 67
-          categorie: D4
-          type: other
-          voorbeeld: '## **Inleiding****'
-        - regel: 73
-          categorie: B3
-          type: other
-          voorbeeld: '## '
-        - regel: 75
-          categorie: D4
-          type: other
-          voorbeeld: '**Analyse****'
-gerelateerde_adviezen:
-  - titel: Wijziging van het boekhoudkundig referentiestelsel
-    url: https://www.cbn-cnc.be/nl/adviezen/wijziging-van-het-boekhoudkundig-referentiestelsel
-    datum: '2022-07-20'
-  - titel: Herwaarderingsmeerwaarden
-    url: https://www.cbn-cnc.be/nl/adviezen/herwaarderingsmeerwaarden
-    datum: '2011-07-06'
-  - titel: Verwerking van verrichtingen voor de verwerving of verkoop van een recht op vruchtgebruik of van naakte eigendom op materiële vaste activa in de boekhouding van de vruchtgebruiker (de erfpachter, de opstalhouder) en van de naakte eigenaar (de grondeigenaa
-    url: https://www.cbn-cnc.be/nl/adviezen/verwerking-van-verrichtingen-voor-de-verwerving-of-verkoop-van-een-recht-op-vruchtgebruik
-    datum: '1991-03-01'
-  - titel: Bouwwerken op andermans grond
-    url: https://www.cbn-cnc.be/nl/adviezen/bouwwerken-op-andermans-grond
-    datum: '1986-07-01'
 ---
-
-# CBN-advies 2016/2 – Boekhoudkundige verwerking van ontvangen subsidies voor de aankoop van activa die worden ter beschikking gesteld
 
 # **COMMISSIE VOOR BOEKHOUDKUNDIGE NORMEN
 
@@ -100,23 +98,23 @@ Op het ogenblik van de toekenning van de subsidies zal VZW ABC deze als volgt bo
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 413 | Te ontvangen subsidies |  |  |
-| aan | 151 | Kapitaalsubsidies ontvangen in contanten |  |  |
+| | 413 | Te ontvangen subsidies | | |
+| aan | 151 | Kapitaalsubsidies ontvangen in contanten | | |
 
 Op het ogenblik van de ontvangst van de subsidies zal VZW ABC deze als volgt boekhoudkundig verwerken: 
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 550 | Kredietinstellingen: rekening-courant |  |  |
-| aan | 413 | Te ontvangen subsidies |  |  |
+| | 550 | Kredietinstellingen: rekening-courant | | |
+| aan | 413 | Te ontvangen subsidies | | |
 
-Vervolgens worden de desbetreffende materiële vaste activa aangekocht. Aangezien de VZW ABC deze materiële vaste activa niet voor eigen gebruik zal hanteren, dienen deze activa te worden geboekt op de rekening 232 *Overige installaties, machines en uitrusting**[^1] ***.
+Vervolgens worden de desbetreffende materiële vaste activa aangekocht. Aangezien de VZW ABC deze materiële vaste activa niet voor eigen gebruik zal hanteren, dienen deze activa te worden geboekt op de rekening 232 *Overige installaties, machines en uitrusting**[^1]** *.
 
 Artikel 19, § 1, 2° KB 19.12.2003 specifieert immers dat hieronder de materiële vaste activa worden opgenomen waarvan de vereniging de volle eigendom heeft, maar die ze niet vrij mag gebruiken of waarover zij niet vrij kan beschikken omwille van bepaalde eisen.
 
 Na aankoop zal de VZW ABC de materiële vaste activa fysiek overdragen aan VZW XYZ. Gedurende de periode van de terbeschikkingstelling zal VZW ABC deze activa afschrijven over haar economische levensduur en wordt de ontvangen kapitaalsubsidie gespreid in resultaat erkend.
 
-Op het ogenblik dat VZW XYZ deze materiële vaste activa terug fysiek overdraagt aan de VZW ABC zal laatstgenoemde een eventuele aanvullende afschrijving op deze materiële vaste activa erkennen wanneer ingevolge hun technische ontwaarding of wegens wijziging van economische of technologische omstandigheden, hun boekwaarde hoger is dan hun gebruikswaarde[^2]  voor de VZW ABC.
+Op het ogenblik dat VZW XYZ deze materiële vaste activa terug fysiek overdraagt aan de VZW ABC zal laatstgenoemde een eventuele aanvullende afschrijving op deze materiële vaste activa erkennen wanneer ingevolge hun technische ontwaarding of wegens wijziging van economische of technologische omstandigheden, hun boekwaarde hoger is dan hun gebruikswaarde[^2] voor de VZW ABC.
 
 [^1]: Afhankelijk van de aard van de activa zal de vereniging rekening 2202 Overige terreinen, 2212 Overige gebouwen, 2222 Overige bebouwde terreinen, 232 Overige installaties, machines en uitrusting, 242 Overig meubilair en rollend materieel of 262 Overige materiële vaste activa hanteren.
 

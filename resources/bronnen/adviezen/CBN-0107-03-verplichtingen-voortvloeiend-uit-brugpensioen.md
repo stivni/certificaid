@@ -2,58 +2,57 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/verplichtingen-voortvloeiend-uit-brugpensioen
 datum: 1980-01-01
 gerelateerde_adviezen:
-- datum: '2019-03-05'
-  titel: Voorzieningen
-  url: https://www.cbn-cnc.be/nl/adviezen/voorzieningen
-- datum: '1993-02-01'
-  titel: Voorzieningen voor geïndexeerde pensioenen en brugpensioenen
-  url: https://www.cbn-cnc.be/nl/adviezen/voorzieningen-voor-geindexeerde-pensioenen-en-brugpensioenen
-- datum: '1988-12-01'
-  titel: Vaststelling van het bedrag van een voorziening voor pensioenen of brugpensioenen
-  url: https://www.cbn-cnc.be/nl/adviezen/vaststelling-van-het-bedrag-van-een-voorziening-voor-pensioenen-of-brugpensioenen
-- datum: '1986-07-19'
-  titel: Verplichtingen voortvloeiend uit brugpensioen
-  url: https://www.cbn-cnc.be/nl/adviezen/verplichtingen-voortvloeiend-uit-brugpensioen-0
+  - datum: '2019-03-05'
+    titel: Voorzieningen
+    url: https://www.cbn-cnc.be/nl/adviezen/voorzieningen
+  - datum: '1993-02-01'
+    titel: Voorzieningen voor geïndexeerde pensioenen en brugpensioenen
+    url: https://www.cbn-cnc.be/nl/adviezen/voorzieningen-voor-geindexeerde-pensioenen-en-brugpensioenen
+  - datum: '1988-12-01'
+    titel: Vaststelling van het bedrag van een voorziening voor pensioenen of brugpensioenen
+    url: https://www.cbn-cnc.be/nl/adviezen/vaststelling-van-het-bedrag-van-een-voorziening-voor-pensioenen-of-brugpensioenen
+  - datum: '1986-07-19'
+    titel: Verplichtingen voortvloeiend uit brugpensioen
+    url: https://www.cbn-cnc.be/nl/adviezen/verplichtingen-voortvloeiend-uit-brugpensioen-0
 nummer: CBN-advies 107/3
 provenance:
-  generated_at: '2026-05-08T18:33:55Z'
+  generated_at: '2026-05-11T13:05:05Z'
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/verplichtingen-voortvloeiend-uit-brugpensioen
-    sha256: c7da02172dffa0ce6a538d9d681abf8cda6a17658a255ae7d424f3ce6af97c47
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/verplichtingen-voortvloeiend-uit-brugpensioen
+      sha256: c7da02172dffa0ce6a538d9d681abf8cda6a17658a255ae7d424f3ce6af97c47
+      version:
   stale: false
-  stale_reason: null
+  stale_reason:
   tooling:
-    model: null
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    prompt_version: null
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
   trust:
     confirmed_at: '2026-05-08T19:02:30Z'
     confirmed_by: subagent-laag2-ronde2
     layer1:
-      file_size_chars: 5525
-      flags: []
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:24Z'
       heading_count: 0
       max_section_chars: 5525
-      run_at: null
-      run_id: 20260511-083333
-      status: pass
+      file_size_chars: 5525
+      flags: []
     layer2:
       agent: subagent-laag2-ronde2
       concrete_problemen: []
-      rationale: '[Laag-2-R2 2026-05-08] Volledig met twee concrete rechtsvragen beantwoord,
-        grondige motivering waarom art. 45 KB 1976 niet toepasselijk.'
+      rationale: '[Laag-2-R2 2026-05-08] Volledig met twee concrete rechtsvragen beantwoord, grondige motivering waarom art. 45 KB 1976 niet toepasselijk.'
       run_at: '2026-05-08T19:02:30Z'
       status: trusted
     rationale: Laag-2 trusted door subagent-laag2-ronde2 (zie layer2.rationale)
     status: trusted
 themas:
-- brugpensioen
-- conventioneel brugpensioen
-- verplichting voortvloeiend uit brugpensioen
-- voorziening
-- voorzieningen voor brugpensioen
+  - brugpensioen
+  - conventioneel brugpensioen
+  - verplichting voortvloeiend uit brugpensioen
+  - voorziening
+  - voorzieningen voor brugpensioen
 ---
 
 # CBN-advies 107/3 - Verplichtingen voortvloeiend uit brugpensioen

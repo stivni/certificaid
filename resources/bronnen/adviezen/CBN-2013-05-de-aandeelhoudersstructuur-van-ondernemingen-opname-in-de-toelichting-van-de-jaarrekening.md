@@ -1,56 +1,56 @@
 ---
-nummer: CBN-advies 2013/5
+bron: https://www.cbn-cnc.be/nl/adviezen/de-aandeelhoudersstructuur-van-ondernemingen-opname-in-de-toelichting-van-de-jaarrekening
 datum: 2013-03-04
+nummer: CBN-advies 2013/5
+provenance:
+  generated_at: '2026-05-11T13:05:08Z'
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/de-aandeelhoudersstructuur-van-ondernemingen-opname-in-de-toelichting-van-de-jaarrekening
+      sha256: fd754b63baa9e3701702ab5cd56aec1ae9f1426254c1fd8c687f8b8201805636
+      version:
+  stale: false
+  stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
+  trust:
+    confirmed_at: '2026-05-11T12:16:34Z'
+    confirmed_by: subagent-sonnet-4-6
+    layer1:
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:28Z'
+      heading_count: 17
+      max_section_chars: 14783
+      file_size_chars: 22298
+      flags: []
+    layer2:
+      agent: subagent-sonnet-4-6
+      concrete_problemen:
+        - categorie: A3
+          regel: 71
+          type: other
+          voorbeeld: . ---- Kennisgeving van belangrijke deelnemingen in naamloze vennootschappen... [run-on TOC-residu]
+        - categorie: A3
+          regel: 72
+          type: other
+          voorbeeld: '---- Anti-witwaswetgeving-- Kruisparticipaties---- Kennisgeving op grond van...'
+        - categorie: A9
+          regel: 96
+          type: ocr-confusion
+          voorbeeld: 'stenmrechtverlenende effecten (moet: stemrechtverlenende)'
+      rationale: 'A3: een TOC-blok staat als plain-text genummerde lijst op regels 46–70 (acceptabel als inhoudsopgave), maar regels 71–72 bevatten een samengeperste duplicaat-TOC als één lange run-on tekstregel met `---- ` als separator — dit is een extractie-artefact van de tweede TOC-instantie. A9: regel 96 bevat ''stenmrechtverlenende'' — OCR-verwisseling (ontbrekende ''r'' in ''stemrecht'').'
+      run_at: '2026-05-11T12:16:34Z'
+      status: needs-rework
+    rationale: 'A3: een TOC-blok staat als plain-text genummerde lijst op regels 46–70 (acceptabel als inhoudsopgave), maar regels 71–72 bevatten een samengeperste duplicaat-TOC als één lange run-on tekstregel met `---- ` als separator — dit is een extractie-artefact van de tweede TOC-instantie. A9: regel 96 bevat ''stenmrechtverlenende'' — OCR-verwisseling (ontbrekende ''r'' in ''stemrecht'').'
+    status: needs-rework
 themas:
   - aandeelhoudersstructuur
   - kennisgevingsplicht
   - kruisparticipaties
   - openbaarmakingsplicht
-bron: https://www.cbn-cnc.be/nl/adviezen/de-aandeelhoudersstructuur-van-ondernemingen-opname-in-de-toelichting-van-de-jaarrekening
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/de-aandeelhoudersstructuur-van-ondernemingen-opname-in-de-toelichting-van-de-jaarrekening
-      sha256: fd754b63baa9e3701702ab5cd56aec1ae9f1426254c1fd8c687f8b8201805636
-      version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:36:36Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T12:16:34Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "A3: een TOC-blok staat als plain-text genummerde lijst op regels 46–70 (acceptabel als inhoudsopgave), maar regels 71–72 bevatten een samengeperste duplicaat-TOC als één lange run-on tekstregel met `---- ` als separator — dit is een extractie-artefact van de tweede TOC-instantie. A9: regel 96 bevat 'stenmrechtverlenende' — OCR-verwisseling (ontbrekende 'r' in 'stemrecht')."
-    layer1:
-      status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 18
-      max_section_chars: 14793
-      file_size_chars: 22698
-      flags: []
-    layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:16:34Z'
-      rationale: "A3: een TOC-blok staat als plain-text genummerde lijst op regels 46–70 (acceptabel als inhoudsopgave), maar regels 71–72 bevatten een samengeperste duplicaat-TOC als één lange run-on tekstregel met `---- ` als separator — dit is een extractie-artefact van de tweede TOC-instantie. A9: regel 96 bevat 'stenmrechtverlenende' — OCR-verwisseling (ontbrekende 'r' in 'stemrecht')."
-      concrete_problemen:
-        - regel: 71
-          categorie: A3
-          type: other
-          voorbeeld: . ---- Kennisgeving van belangrijke deelnemingen in naamloze vennootschappen... [run-on TOC-residu]
-        - regel: 72
-          categorie: A3
-          type: other
-          voorbeeld: '---- Anti-witwaswetgeving-- Kruisparticipaties---- Kennisgeving op grond van...'
-        - regel: 96
-          categorie: A9
-          type: ocr-confusion
-          voorbeeld: 'stenmrechtverlenende effecten (moet: stemrechtverlenende)'
 ---
 
 # CBN-advies 2013/5 - De aandeelhoudersstructuur van ondernemingen: opname in de toelichting van de jaarrekening
@@ -81,7 +81,6 @@ provenance:
   2. Specifieke regels m.b.t. de vermelding van de aandeelhoudersstructuur in de toelichting
 
 . ---- Kennisgeving van belangrijke deelnemingen in naamloze vennootschappen die niet genoteerd zijn in de zin van artikel 4 W.Venn. ------ Opt-in of vrijwillige statutaire verruiming------ Multilaterale handelsfaciliteiten (MTF)
----- Anti-witwaswetgeving-- Kruisparticipaties---- Kennisgeving op grond van artikel 631 W.Venn. ---- Kennisgeving op grond van artikel 632 W.Venn. Openbaarmaking door vermelding in de toelichting-- Wettelijke bepalingen---- Belangrijke deelnemingen (Transparantiewetgeving)---- Kruisparticipaties -- Specifieke regels m.b.t. de vermelding van de aandeelhoudersstructuur in de toelichting
 
 ## Inleiding
 
@@ -104,8 +103,7 @@ Op grond van artikel 514 W.Venn. moeten personen die overgaan tot de verwerving 
 
 ##### Wet van 2 mei 2007 op de openbaarmaking van belangrijke deelnemingen in emittenten waarvan de aandelen zijn toegelaten tot de verhandeling op een gereglementeerde markt en houdende diverse bepalingen (hierna: Transparantiewet)[^6]. 
 
-Voor wat betreft deelnemingen in emittenten[^7]
- die hun statutaire zetel in België hebben is volgens de Transparantiewet een kennisgeving vereist telkens wanneer een natuurlijke of rechtspersoon rechtstreeks of onrechtstreeks stemrechtverlenende effecten van deze emittent verwerft, wanneer de stemrechten verbonden aan de stenmrechtverlenende effecten die hij houdt 5 % of meer bereiken van het totaal van de bestaande stemrechten.[^8]
+Voor wat betreft deelnemingen in emittenten[^7] die hun statutaire zetel in België hebben is volgens de Transparantiewet een kennisgeving vereist telkens wanneer een natuurlijke of rechtspersoon rechtstreeks of onrechtstreeks stemrechtverlenende effecten van deze emittent verwerft, wanneer de stemrechten verbonden aan de stenmrechtverlenende effecten die hij houdt 5 % of meer bereiken van het totaal van de bestaande stemrechten.[^8]
  Deze kennisgeving is eveneens verplicht wanneer ten gevolge van de rechtstreekse of onrechtstreekse verwerving van stemrechtverlenende effecten het aantal stemrechten 10 %, 15 %, 20 % enz. (telkens per schijf van 5 procentpunten) van het totaal van de bestaande stemrechten bereikt of overschrijdt.[^9]
  Een zelfde kennisgeving is eveneens verplicht bij overdracht, rechtstreeks of onrechtstreeks, van stemrechtverlenende effecten, wanneer als gevolg hiervan de stemrechten dalen onder één van de bovenvermelde drempelwaarden.[^10] 
 
@@ -140,10 +138,7 @@ Voor andere multilaterale handelsfaciliteiten (bv. Vrije Markt, Trading Facility
 
 #### Anti-witwaswetgeving
 
-Naar aanleiding van de wijziging[^17]
- van de wet van 11 januari 1993 tot voorkoming van het gebruik van het financiële stelsel voor het witwassen van geld en de financiering van terrorisme[^18]
- werd in het W.Venn. een nieuwe kennisgevingsplicht ingevoerd. Artikel 515*bis* W.Venn. bepaalt sinds deze wijziging dat elke natuurlijke persoon of rechtspersoon die stemrechtverlenende effecten verwerft die al dan niet het kapitaal vertegenwoordigen van een andere naamloze vennootschap dan bedoeld in de artikelen 514 en 515[^19]
- die aandelen aan toonder of gedematerialiseerde aandelen heeft uitgegeven, ten laatste binnen de vijf werkdagen volgend op de dag van verwerving aan deze vennootschap moet kennis geven van het aantal effecten dat hij bezit, wanneer de stemrechten verbonden aan die effecten 25 % of meer bereiken van het totaal der stemrechten op het ogenblik waarop zich de verrichting voordoet op grond waarvan kennisgeving verplicht is. Deze kennisgeving is eveneens binnen dezelfde termijn verplicht bij overdracht van effecten wanneer als gevolg hiervan de stemrechten zakken onder voormelde drempel van 25 %.
+Naar aanleiding van de wijziging[^17] van de wet van 11 januari 1993 tot voorkoming van het gebruik van het financiële stelsel voor het witwassen van geld en de financiering van terrorisme[^18] werd in het W.Venn. een nieuwe kennisgevingsplicht ingevoerd. Artikel 515*bis* W.Venn. bepaalt sinds deze wijziging dat elke natuurlijke persoon of rechtspersoon die stemrechtverlenende effecten verwerft die al dan niet het kapitaal vertegenwoordigen van een andere naamloze vennootschap dan bedoeld in de artikelen 514 en 515[^19] die aandelen aan toonder of gedematerialiseerde aandelen heeft uitgegeven, ten laatste binnen de vijf werkdagen volgend op de dag van verwerving aan deze vennootschap moet kennis geven van het aantal effecten dat hij bezit, wanneer de stemrechten verbonden aan die effecten 25 % of meer bereiken van het totaal der stemrechten op het ogenblik waarop zich de verrichting voordoet op grond waarvan kennisgeving verplicht is. Deze kennisgeving is eveneens binnen dezelfde termijn verplicht bij overdracht van effecten wanneer als gevolg hiervan de stemrechten zakken onder voormelde drempel van 25 %.
 
 Voor deze gevallen wordt niet verwezen naar de verplichtingen in het kader van de transparantiewetgeving. Kennisgeving vindt dus plaats louter op basis van artikel 515*bis* W. Venn. 
 
@@ -155,8 +150,7 @@ Artikel 631 W.Venn. heeft betrekking op kruisparticipaties tussen moeder- en doc
 
 #### Kennisgeving op grond van artikel 632 W.Venn. 
 
-Voor onafhankelijke vennootschappen, waarvan ten minste één van de betrokken vennootschappen een naamloze vennootschap is met zetel in België, geldt dat de betrokken vennootschappen niet in de situatie mogen verkeren dat elke vennootschap eigenaar is van effecten met stemrecht[^21]
- in de andere vennootschap die de grens van 10 % overschrijden.[^22]
+Voor onafhankelijke vennootschappen, waarvan ten minste één van de betrokken vennootschappen een naamloze vennootschap is met zetel in België, geldt dat de betrokken vennootschappen niet in de situatie mogen verkeren dat elke vennootschap eigenaar is van effecten met stemrecht[^21] in de andere vennootschap die de grens van 10 % overschrijden.[^22]
  Dit betekent dat slechts één van de vennootschappen de grens van 10 % mag overschrijden. 
 
 Concreet houdt dit in dat, wanneer de participatie van een van beide onafhankelijke vennootschappen de grens van 10 % overschrijdt, de vennootschap die deze grens overschrijdt daarvan onmiddellijk kennis moet geven aan de andere vennootschap.[^23]
@@ -184,8 +178,7 @@ Hoewel er op basis van artikel 515*bis* W.Venn. een kennisgeving moet worden ged
 
 De regeling inzake kruisparticipaties (artikel 631, § 2, laatste lid en artikel 632, § 2, laatste lid W.Venn.) schrijft voor dat de door deze artikelen geviseerde vennootschappen (“iedere vennootschap”) in de toelichting bij hun jaarrekening met betrekking tot de staat van haar kapitaal, de structuur van hun aandeelhouderschap op de dag van de jaarafsluiting, zoals die blijkt uit de kennisgevingen die zij hebben ontvangen, moeten vermelden. 
 
-### Specifieke regels m.b.t. de vermelding van de aandeelhoudersstructuur in de toelichting[^31] 
-
+Specifieke regels m.b.t. de vermelding van de aandeelhoudersstructuur in de toelichting[^31]
 De aandeelhoudersstructuur in de toelichting geeft de situatie van de onderneming weer op datum van jaarafsluiting. 
 
 Volgens de Commissie dienen de emittenten de informatie uit de ontvangen kennisgevingen (identiteit van de aandeelhouder, aandelenpercentage) als zodanig over te nemen in de toelichting bij de jaarrekening (VOL. 5.7 en VKT 5.3) en mogen zij de stemrechtenquota dus niet aanpassen om rekening te houden met wijzigingen die dateren van na de kennisgeving (bijvoorbeeld een wijziging van het totaal aantal stemrechten). Daarom is het belangrijk de data van de kennisgevingen te vermelden. 

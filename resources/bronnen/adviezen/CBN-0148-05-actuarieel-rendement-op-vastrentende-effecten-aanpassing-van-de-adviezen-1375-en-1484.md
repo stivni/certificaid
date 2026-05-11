@@ -1,61 +1,61 @@
 ---
-nummer: CBN-advies 148/5
+bron: https://www.cbn-cnc.be/nl/adviezen/actuarieel-rendement-op-vastrentende-effecten-aanpassing-van-de-adviezen-1375-en-1484
 datum: 1993-12-01
+gerelateerde_adviezen:
+  - datum: '1992-02-01'
+    titel: Inresultaatneming van het actuariële rendement van vastrentende effecten
+    url: https://www.cbn-cnc.be/nl/adviezen/inresultaatneming-van-het-actuariele-rendement-van-vastrentende-effecten
+nummer: CBN-advies 148/5
+provenance:
+  generated_at: '2026-05-11T13:05:06Z'
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/actuarieel-rendement-op-vastrentende-effecten-aanpassing-van-de-adviezen-1375-en-1484
+      sha256: 9a05429dbe510b4e87feb0e2aabca76f9ed492da6f32da5e1fac2cd203f35761
+      version:
+  stale: false
+  stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
+  trust:
+    confirmed_at: '2026-05-11T12:04:41Z'
+    confirmed_by: subagent-sonnet-4-6
+    layer1:
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:26Z'
+      heading_count: 7
+      max_section_chars: 4403
+      file_size_chars: 9364
+      flags: []
+    layer2:
+      agent: subagent-sonnet-4-6
+      concrete_problemen:
+        - categorie: D4
+          regel: 77
+          type: other
+          voorbeeld: '**Bij uitgifte ** (spatie vóór sluitende **, patroon herhaald op r.124,175,194,202,210,221,229,239,250)'
+        - categorie: E2
+          regel: 237
+          type: other
+          voorbeeld: '| | aan 751 Opbrengsten uit vlottende activa | 13.027 | | |'
+        - categorie: E2
+          regel: 248
+          type: other
+          voorbeeld: '| | 124.553 | | | | (orphaned cijfer-rij buiten tabelverband)'
+      rationale: 'D4: talrijke bold-labels met spatie vóór sluitende ** (''**Bij uitgifte **'', ''**Bij de terugbetaling **'', etc. — 10 instanties). E2: regel 237 bevat een malformed tabelrij ''| | aan 751 Opbrengsten uit vlottende activa | 13.027 | | |'' waar de ''aan''-cel is samengevoegd met rekening+omschrijving. E2: regel 248 bevat orphaned ''| | 124.553 | | | |'' als standalone cijfer-rij buiten tabelcontext.'
+      run_at: '2026-05-11T12:04:41Z'
+      status: needs-rework
+    rationale: 'D4: talrijke bold-labels met spatie vóór sluitende ** (''**Bij uitgifte **'', ''**Bij de terugbetaling **'', etc. — 10 instanties). E2: regel 237 bevat een malformed tabelrij ''| | aan 751 Opbrengsten uit vlottende activa | 13.027 | | |'' waar de ''aan''-cel is samengevoegd met rekening+omschrijving. E2: regel 248 bevat orphaned ''| | 124.553 | | | |'' als standalone cijfer-rij buiten tabelcontext.'
+    status: needs-rework
 themas:
   - actuarieel rendement op vastrentende effecten
   - actuariële rendement
   - kapitalisatiebon
   - toerekening van kosten en opbrengsten
   - vastrentende effecten
-bron: https://www.cbn-cnc.be/nl/adviezen/actuarieel-rendement-op-vastrentende-effecten-aanpassing-van-de-adviezen-1375-en-1484
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/actuarieel-rendement-op-vastrentende-effecten-aanpassing-van-de-adviezen-1375-en-1484
-      sha256: 9a05429dbe510b4e87feb0e2aabca76f9ed492da6f32da5e1fac2cd203f35761
-      version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:35:15Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T12:04:41Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "D4: talrijke bold-labels met spatie vóór sluitende ** ('**Bij uitgifte **', '**Bij de terugbetaling **', etc. — 10 instanties). E2: regel 237 bevat een malformed tabelrij '| | aan 751 Opbrengsten uit vlottende activa | 13.027 | | |' waar de 'aan'-cel is samengevoegd met rekening+omschrijving. E2: regel 248 bevat orphaned '| | 124.553 | | | |' als standalone cijfer-rij buiten tabelcontext."
-    layer1:
-      status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 3
-      max_section_chars: 4407
-      file_size_chars: 9366
-      flags: []
-    layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:04:41Z'
-      rationale: "D4: talrijke bold-labels met spatie vóór sluitende ** ('**Bij uitgifte **', '**Bij de terugbetaling **', etc. — 10 instanties). E2: regel 237 bevat een malformed tabelrij '| | aan 751 Opbrengsten uit vlottende activa | 13.027 | | |' waar de 'aan'-cel is samengevoegd met rekening+omschrijving. E2: regel 248 bevat orphaned '| | 124.553 | | | |' als standalone cijfer-rij buiten tabelcontext."
-      concrete_problemen:
-        - regel: 77
-          categorie: D4
-          type: other
-          voorbeeld: '**Bij uitgifte ** (spatie vóór sluitende **, patroon herhaald op r.124,175,194,202,210,221,229,239,250)'
-        - regel: 237
-          categorie: E2
-          type: other
-          voorbeeld: '| | aan 751 Opbrengsten uit vlottende activa | 13.027 | | |'
-        - regel: 248
-          categorie: E2
-          type: other
-          voorbeeld: '| | 124.553 | | | | (orphaned cijfer-rij buiten tabelverband)'
-gerelateerde_adviezen:
-  - titel: Inresultaatneming van het actuariële rendement van vastrentende effecten
-    url: https://www.cbn-cnc.be/nl/adviezen/inresultaatneming-van-het-actuariele-rendement-van-vastrentende-effecten
-    datum: '1992-02-01'
 ---
 
 # CBN-advies 148/5 - Actuarieel rendement op vastrentende effecten - Aanpassing van de adviezen 137/5 en 148/4
@@ -72,7 +72,7 @@ De roerende voorheffing bedraagt 10 %.
 
 De gekapitaliseerde rente bedraagt pro rato : na
 
-1 jaar : 80 000 
+### 1 jaar : 80 000 
 
 2 jaar : 166 400 
 
@@ -86,7 +86,7 @@ Na drie jaar wordt de kapitalisatiebon overgedragen voor de prijs (kosten niet i
 
 ### BOEKINGEN BIJ DE EMITTENT 
 
-**Bij uitgifte **
+**Bij uitgifte** 
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
@@ -133,7 +133,7 @@ Na drie jaar wordt de kapitalisatiebon overgedragen voor de prijs (kosten niet i
 | | 65 | Financiële kosten | 108.839 | |
 | aan | 42 | Schulden op meer dan één jaar die binnen het jaar vervallen | | 108.839 |
 
-**Bij de terugbetaling **
+## Bij de terugbetaling
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
@@ -184,7 +184,7 @@ Na drie jaar wordt de kapitalisatiebon overgedragen voor de prijs (kosten niet i
 
 ### Boekingen bij de koper
 
-**Bij de verwerving **
+**Bij de verwerving** 
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
@@ -203,7 +203,7 @@ van het vierde jaar : 113 804
 
 van het vijfde jaar : 124 553 
 
-**Na 4 jaar **
+**Na 4 jaar** 
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
@@ -211,7 +211,7 @@ van het vijfde jaar : 124 553
 | | 6700 | Verschuldigde of gestorte belastingen en voorheffingen | 10.078 | |
 | aan | 751 | Opbrengsten uit vlottende activa | | 113.804 |
 
-**Na 5 jaar **
+**Na 5 jaar** 
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
@@ -219,7 +219,7 @@ van het vijfde jaar : 124 553
 | | 6700 | Verschuldigde of gestorte belastingen en voorheffingen | 10.884 | |
 | aan | 751 | Opbrengsten uit vlottende activa | | 124.553 |
 
-**Bij de terugbetaling **
+## Bij de terugbetaling
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
@@ -230,7 +230,7 @@ Aan de Commissie werd een alternatieve methode voorgesteld voor de boeking bij d
 
 In bovenstaand voorbeeld, zou die boeking er dan als volgt uitzien (in de boeken van de koper) : 
 
-**Bij de aankoop **
+**Bij de aankoop** 
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
@@ -238,7 +238,7 @@ In bovenstaand voorbeeld, zou die boeking er dan als volgt uitzien (in de boeken
 | aan | 52 | Kredietinstellingen | | 1.205.000 |
 | | 493 | Over te dragen opbrengsten | 28.741 | |
 
-**Na 4 jaar **
+**Na 4 jaar** 
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
@@ -248,7 +248,7 @@ In bovenstaand voorbeeld, zou die boeking er dan als volgt uitzien (in de boeken
 | | 493 | Over te dragen opbrengsten | 13.027 | |
 | | aan 751 Opbrengsten uit vlottende activa | 13.027 | | |
 
-**Na 5 jaar **
+**Na 5 jaar** 
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
@@ -259,7 +259,7 @@ In bovenstaand voorbeeld, zou die boeking er dan als volgt uitzien (in de boeken
 | aan | 751 | Opbrengsten uit vlottende activa | | 15.714 |
 | | 124.553 | | | |
 
-**Bij de terugbetaling **
+## Bij de terugbetaling
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|

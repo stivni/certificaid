@@ -1,6 +1,64 @@
 ---
-nummer: CBN-advies 2020/01
+bron: https://www.cbn-cnc.be/nl/adviezen/neerlegging-van-de-enkelvoudige-jaarrekening-bij-de-nationale-bank-van-belgie-nieuwe
 datum: 2020-01-27
+gerelateerde_adviezen:
+  - datum: '2024-11-14'
+    titel: Verslaggeving bij de heropening van de vereffening van (i)vzw’s die een dubbele boekhouding voeren
+    url: https://www.cbn-cnc.be/nl/adviezen/verslaggeving-bij-de-heropening-van-de-vereffening-van-ivzws-die-een-dubbele-boekhouding
+  - datum: '2024-11-13'
+    titel: Verslaggeving bij de heropening van de vereffening van de vennootschappen
+    url: https://www.cbn-cnc.be/nl/adviezen/verslaggeving-bij-de-heropening-van-de-vereffening-van-de-vennootschappen
+  - datum: '2024-02-08'
+    titel: 'Belgische bijkantoren van buitenlandse verenigingen en stichtingen: toepassing van het Belgisch boekhoudrecht – begrip ‘bijkantoor’ – publicatieplicht – eigen boekhoudkundige verplichtingen'
+    url: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-buitenlandse-verenigingen-en-stichtingen-toepassing-van-het-0
+  - datum: '2022-11-08'
+    titel: 'Belgische bijkantoren van buitenlandse vennootschappen: eigen boekhoudkundige verplichtingen (update)'
+    url: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-buitenlandse-vennootschappen-eigen-boekhoudkundige
+nummer: CBN-advies 2020/01
+provenance:
+  generated_at: '2026-05-11T13:05:08Z'
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/neerlegging-van-de-enkelvoudige-jaarrekening-bij-de-nationale-bank-van-belgie-nieuwe
+      sha256: 14f15fd95e33712adef5480cf5cefebadebb5694dcea904d867d50597eddc1f2
+      version:
+  stale: false
+  stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
+  trust:
+    confirmed_at: '2026-05-11T12:21:40Z'
+    confirmed_by: subagent-sonnet-4-6
+    layer1:
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:30Z'
+      heading_count: 10
+      max_section_chars: 10887
+      file_size_chars: 23769
+      flags: []
+    layer2:
+      agent: subagent-sonnet-4-6
+      concrete_problemen:
+        - categorie: A3
+          regel: 79
+          type: other
+          voorbeeld: Inwerkingtreding WVV en KB WVVDe te gebruiken modellen van de jaarrekening-- Aanpassing...
+        - categorie: A3
+          regel: 66
+          type: other
+          voorbeeld: 1. Inleiding \n2. Schema van de enkelvoudige jaarrekening... (TOC in body)
+        - categorie: D2
+          regel: 109
+          type: other
+          voorbeeld: 'Volledig, verkort en micromodel...: samenstelling van het eigen vermogen van kapitaalloze vennootschappen[^16] *'
+      rationale: 'A3: Twee TOC-fragmenten staan in de body. Regels 66-80 bevatten een geneste TOC-lijst en dan op regel 79 een aaneengesloten TOC-string (''Inwerkingtreding WVV en KB WVVDe te gebruiken modellen...-- Aanpassing...'') die niet werd opgeschoond. Tevens verwijzen regels 107-115 naar figuren via placeholder-tekst (''Volledig, verkort en micromodel van de jaarrekening: samenstelling...'') die niet als heading zijn opgemaakt maar als italic inline-tekst, zonder de eigenlijke figuur/tabel.'
+      run_at: '2026-05-11T12:21:40Z'
+      status: needs-rework
+    rationale: 'A3: Twee TOC-fragmenten staan in de body. Regels 66-80 bevatten een geneste TOC-lijst en dan op regel 79 een aaneengesloten TOC-string (''Inwerkingtreding WVV en KB WVVDe te gebruiken modellen...-- Aanpassing...'') die niet werd opgeschoond. Tevens verwijzen regels 107-115 naar figuren via placeholder-tekst (''Volledig, verkort en micromodel van de jaarrekening: samenstelling...'') die niet als heading zijn opgemaakt maar als italic inline-tekst, zonder de eigenlijke figuur/tabel.'
+    status: needs-rework
 themas:
   - neerlegging van de jaarrekening
   - publicatie
@@ -13,64 +71,6 @@ themas:
   - inbreng
   - kapitaal
   - uitgiftepremie
-bron: https://www.cbn-cnc.be/nl/adviezen/neerlegging-van-de-enkelvoudige-jaarrekening-bij-de-nationale-bank-van-belgie-nieuwe
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/neerlegging-van-de-enkelvoudige-jaarrekening-bij-de-nationale-bank-van-belgie-nieuwe
-      sha256: 14f15fd95e33712adef5480cf5cefebadebb5694dcea904d867d50597eddc1f2
-      version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:37:45Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T12:21:40Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "A3: Twee TOC-fragmenten staan in de body. Regels 66-80 bevatten een geneste TOC-lijst en dan op regel 79 een aaneengesloten TOC-string ('Inwerkingtreding WVV en KB WVVDe te gebruiken modellen...-- Aanpassing...') die niet werd opgeschoond. Tevens verwijzen regels 107-115 naar figuren via placeholder-tekst ('Volledig, verkort en micromodel van de jaarrekening: samenstelling...') die niet als heading zijn opgemaakt maar als italic inline-tekst, zonder de eigenlijke figuur/tabel."
-    layer1:
-      status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 9
-      max_section_chars: 10893
-      file_size_chars: 23772
-      flags: []
-    layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:21:40Z'
-      rationale: "A3: Twee TOC-fragmenten staan in de body. Regels 66-80 bevatten een geneste TOC-lijst en dan op regel 79 een aaneengesloten TOC-string ('Inwerkingtreding WVV en KB WVVDe te gebruiken modellen...-- Aanpassing...') die niet werd opgeschoond. Tevens verwijzen regels 107-115 naar figuren via placeholder-tekst ('Volledig, verkort en micromodel van de jaarrekening: samenstelling...') die niet als heading zijn opgemaakt maar als italic inline-tekst, zonder de eigenlijke figuur/tabel."
-      concrete_problemen:
-        - regel: 79
-          categorie: A3
-          type: other
-          voorbeeld: Inwerkingtreding WVV en KB WVVDe te gebruiken modellen van de jaarrekening-- Aanpassing...
-        - regel: 66
-          categorie: A3
-          type: other
-          voorbeeld: 1. Inleiding \n2. Schema van de enkelvoudige jaarrekening... (TOC in body)
-        - regel: 109
-          categorie: D2
-          type: other
-          voorbeeld: 'Volledig, verkort en micromodel...: samenstelling van het eigen vermogen van kapitaalloze vennootschappen[^16] *'
-gerelateerde_adviezen:
-  - titel: Verslaggeving bij de heropening van de vereffening van (i)vzw’s die een dubbele boekhouding voeren
-    url: https://www.cbn-cnc.be/nl/adviezen/verslaggeving-bij-de-heropening-van-de-vereffening-van-ivzws-die-een-dubbele-boekhouding
-    datum: '2024-11-14'
-  - titel: Verslaggeving bij de heropening van de vereffening van de vennootschappen
-    url: https://www.cbn-cnc.be/nl/adviezen/verslaggeving-bij-de-heropening-van-de-vereffening-van-de-vennootschappen
-    datum: '2024-11-13'
-  - titel: 'Belgische bijkantoren van buitenlandse verenigingen en stichtingen: toepassing van het Belgisch boekhoudrecht – begrip ‘bijkantoor’ – publicatieplicht – eigen boekhoudkundige verplichtingen'
-    url: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-buitenlandse-verenigingen-en-stichtingen-toepassing-van-het-0
-    datum: '2024-02-08'
-  - titel: 'Belgische bijkantoren van buitenlandse vennootschappen: eigen boekhoudkundige verplichtingen (update)'
-    url: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-buitenlandse-vennootschappen-eigen-boekhoudkundige
-    datum: '2022-11-08'
 ---
 
 # CBN-advies 2020/01 – Neerlegging van de enkelvoudige jaarrekening bij de Nationale Bank van België: nieuwe modellen van de jaarrekening
@@ -93,10 +93,7 @@ Inwerkingtreding WVV en KB WVVDe te gebruiken modellen van de jaarrekening-- Aan
 
 ## Inleiding
 
-Onderhavig advies legt uit op welke manier vennootschappen, verenigingen en stichtingen die hun jaarrekening verplicht moeten neerleggen bij de Nationale Bank van België[^2]
- kunnen voldoen aan deze openbaarmakingsverplichting wanneer de aan het nieuwe Wetboek van vennootschappen en verenigingen (hierna: WVV)[^3]
- en het uitvoeringsbesluit (hierna: KB WVV)[^4]
- aangepaste modellen van de enkelvoudige jaarrekening door de Nationale Bank van België nog niet beschikbaar worden gesteld. 
+Onderhavig advies legt uit op welke manier vennootschappen, verenigingen en stichtingen die hun jaarrekening verplicht moeten neerleggen bij de Nationale Bank van België[^2] kunnen voldoen aan deze openbaarmakingsverplichting wanneer de aan het nieuwe Wetboek van vennootschappen en verenigingen (hierna: WVV)[^3] en het uitvoeringsbesluit (hierna: KB WVV)[^4] aangepaste modellen van de enkelvoudige jaarrekening door de Nationale Bank van België nog niet beschikbaar worden gesteld. 
 
 ## Schema van de enkelvoudige jaarrekening voor vennootschappen met rechtspersoonlijkheid
 
@@ -107,22 +104,20 @@ Het bestuursorgaan is verplicht om elk jaar een inventaris op te maken volgens d
  De jaarrekening, waarvan de openbaarmaking door het WVV wordt voorgeschreven, moet door toedoen van het bestuursorgaan worden neergelegd bij de Nationale Bank van België.[^9]
  Deze neerlegging gebeurt binnen dertig dagen nadat de jaarrekening is goedgekeurd, en ten laatste zeven maanden na de datum van afsluiting van het boekjaar. Dit houdt in dat, als de jaarrekening zeven maand na de eindeboekjaardatum nog niet is goedgekeurd door de algemene vergadering, het bestuursorgaan van de vennootschap de jaarrekening toch moet publiceren met inachtneming van art. 3:3, § 1, tweede lid KB WVV. De neerlegging van de daarna definitief door de algemene vergadering goedgekeurde jaarrekening vormt dan een verbeterde neerlegging.
 
-De nieuwe schema’s van de jaarrekening[^10]
- verschillen op zich weinig van de schema’s die destijds waren opgenomen in het uitvoeringsbesluit bij het Wetboek van vennootschappen.[^11]
+De nieuwe schema’s van de jaarrekening[^10] verschillen op zich weinig van de schema’s die destijds waren opgenomen in het uitvoeringsbesluit bij het Wetboek van vennootschappen.[^11]
  De voornaamste wijzigingen ten opzichte van de destijds geldende schema’s van de balans en de resultatenrekening zijn de volgende[^12]:
 
-- voortaan wordt een onderscheid gemaakt tussen het schema van de balans van enerzijds de kapitaalvennootschappen[^13]
- en anderzijds de kapitaalloze vennootschappen[^14]. Zo wordt bij kapitaalloze vennootschappen niet langer het begrip ‘Kapitaal’ gebruikt, maar wordt dit vervangen door ‘Inbreng’. Voor kapitaalvennootschappen wordt in het schema van de balans een onderscheid gemaakt tussen het gedeelte van de inbreng dat bestaat uit kapitaal en het gedeelte van de inbreng buiten kapitaal. Onder inbreng buiten kapitaal wordt vervolgens nog een onderscheid gemaakt tussen de uitgiftepremies en de overige inbrengen buiten kapitaal. Onder de overige inbrengen buiten kapitaal worden onder meer de ingebrachte gelden geboekt die worden ontvangen ingevolge de uitgifte van winstbewijzen. 
+- voortaan wordt een onderscheid gemaakt tussen het schema van de balans van enerzijds de kapitaalvennootschappen[^13] en anderzijds de kapitaalloze vennootschappen[^14]. Zo wordt bij kapitaalloze vennootschappen niet langer het begrip ‘Kapitaal’ gebruikt, maar wordt dit vervangen door ‘Inbreng’. Voor kapitaalvennootschappen wordt in het schema van de balans een onderscheid gemaakt tussen het gedeelte van de inbreng dat bestaat uit kapitaal en het gedeelte van de inbreng buiten kapitaal. Onder inbreng buiten kapitaal wordt vervolgens nog een onderscheid gemaakt tussen de uitgiftepremies en de overige inbrengen buiten kapitaal. Onder de overige inbrengen buiten kapitaal worden onder meer de ingebrachte gelden geboekt die worden ontvangen ingevolge de uitgifte van winstbewijzen. 
 
 Zoals blijkt uit onderstaande figuren wordt zowel in het geval van een kapitaalvennootschap als in het geval van een kapitaalloze vennootschap als verzamelnaam voor alle inbrengen voortaan de titulatuur “Inbreng” ingevoerd.
 
-*Volledig, verkort en micromodel van de jaarrekening: samenstelling van het eigen vermogen van kapitaalvennootschappen[^15] *
+*Volledig, verkort en micromodel van de jaarrekening: samenstelling van het eigen vermogen van kapitaalvennootschappen[^15]* 
 
 Volledig, verkort en micromodel van de jaarrekening: samenstelling van het eigen vermogen van kapitaalloze vennootschappen[^16] *
 
 - in de schema’s van de balansen van de vennootschappen wordt een uitsplitsing gevraagd van de onbeschikbare reserves naargelang de reden van deze onbeschikbaarheid. Hierin is voorzien in een subrubriek ‘Overige’. Op deze subrubriek ‘Overige’ wordt onder meer de onbeschikbare reserve geboekt die ontstaat bij de omzetting van een VZW in een erkende CVSO of een coöperatieve vennootschap erkend als SO zoals bedoeld in artikel 14:37 WVV; 
 
-*Volledig model van de jaarrekening: samenstelling van de rubriek Onbeschikbare reserves van kapitaalloze vennootschappen[^17] *
+*Volledig model van de jaarrekening: samenstelling van de rubriek Onbeschikbare reserves van kapitaalloze vennootschappen[^17]* 
 
 - in het schema van de resultatenrekening worden een aantal terminologische wijzigingen aangebracht ingevolge het verdwijnen van het kapitaalbegrip bij de kapitaalloze vennootschappen. 
 
@@ -137,8 +132,7 @@ Het bestuursorgaan maakt elk jaar een inventaris op volgens de waarderingsmaatst
  Micro VZW’s, micro IVZW’s en microstichtingen kunnen hun jaarrekening opmaken volgens een microschema dat de Koning vaststelt.[^24]
  Binnen de dertig dagen na de goedkeuring ervan wordt de jaarrekening door de bestuurders neergelegd bij de Nationale Bank van België.[^25] 
 
-De nieuwe schema’s van de jaarrekening[^26]
- verschillen weinig van de schema’s die destijds waren opgenomen in het Koninklijk besluit van 19 december 2003 betreffende de boekhoudkundige verplichtingen en de openbaarmaking van de jaarrekening van bepaalde verenigingen zonder winstoogmerk, internationale verenigingen zonder winstoogmerk en stichtingen. De aanpassingen in de schema’s van de balansen en de resultatenrekeningen van de VZW’s, IVZW’s en stichtingen betreffen een aantal vereenvoudigingen[^27], de correctie van een aantal onnauwkeurigheden uit het verleden en een aantal wijzigingen zodat VZW’s, IVZW’s en stichtingen die onderworpen zijn aan de vennootschapsbelasting de daarmee gepaard gaande boekhoudkundige registratie op een duidelijke manier kunnen rapporteren.
+De nieuwe schema’s van de jaarrekening[^26] verschillen weinig van de schema’s die destijds waren opgenomen in het Koninklijk besluit van 19 december 2003 betreffende de boekhoudkundige verplichtingen en de openbaarmaking van de jaarrekening van bepaalde verenigingen zonder winstoogmerk, internationale verenigingen zonder winstoogmerk en stichtingen. De aanpassingen in de schema’s van de balansen en de resultatenrekeningen van de VZW’s, IVZW’s en stichtingen betreffen een aantal vereenvoudigingen[^27], de correctie van een aantal onnauwkeurigheden uit het verleden en een aantal wijzigingen zodat VZW’s, IVZW’s en stichtingen die onderworpen zijn aan de vennootschapsbelasting de daarmee gepaard gaande boekhoudkundige registratie op een duidelijke manier kunnen rapporteren.
 
 De VZW’s, IVZW’s en stichtingen die hun jaarrekening moeten opmaken overeenkomstig de schema’s zoals opgenomen in de bijlagen 6 en 7 bij het KB WVV volgen voor de neerlegging van hun jaarrekening een model van jaarrekening dat door de Nationale Bank van België wordt opgesteld en dat op haar website ter beschikking wordt gesteld.[^28] 
 
@@ -174,9 +168,9 @@ Zoals eerder vermeld betreft een van de belangrijkste wijzigingen het wegvallen 
 
 Het KB WVV heeft naar aanleiding hiervan in artikel 9:10 een aantal wijzigingen aangebracht aan de minimumindeling van het algemeen rekeningenstelsel zoals opgenomen in bijlage 1 bij het Koninklijk besluit van 21 oktober 2018 tot uitvoering van de artikelen III.82 tot en met III.95 van het Wetboek van economisch recht. 
 
-Zo wordt de rekening 11 *Uitgiftepremies *vervangen door de volgende rekeningen:
+Zo wordt de rekening 11 *Uitgiftepremies* vervangen door de volgende rekeningen:
 
-11 Inbreng buiten kapitaal 
+### 11 Inbreng buiten kapitaal 
 
    110 Beschikbare inbreng buiten kapitaal 
 
@@ -190,7 +184,7 @@ Zo wordt de rekening 11 *Uitgiftepremies *vervangen door de volgende rekeningen:
 
    1119 Andere
 
-Kapitaalloze vennootschappen zullen het bedrag dat werd geboekt op de rekeningen 100 *Geplaatst kapitaal* en 101 *Niet opgevraagd kapitaal (-) *moeten overboeken naar een onbeschikbare eigen vermogensrekening, zijnde de rekening 1119 *Andere onbeschikbare inbreng buiten kapitaal *met behoud van een afzonderlijke subrekening voor het gedeelte van het niet opgevraagd kapitaal. Het bedrag opgenomen op de rekening 130 Wettelijke reserve zal worden overgeboekt naar de rekening 1311 *Statutair onbeschikbare reserves*.
+Kapitaalloze vennootschappen zullen het bedrag dat werd geboekt op de rekeningen 100 *Geplaatst kapitaal* en 101 *Niet opgevraagd kapitaal (-)* moeten overboeken naar een onbeschikbare eigen vermogensrekening, zijnde de rekening 1119 *Andere onbeschikbare inbreng buiten kapitaal* met behoud van een afzonderlijke subrekening voor het gedeelte van het niet opgevraagd kapitaal. Het bedrag opgenomen op de rekening 130 Wettelijke reserve zal worden overgeboekt naar de rekening 1311 *Statutair onbeschikbare reserves*.
 
 Bij de opstelling van de jaarrekening van een kapitaalloze vennootschap door het bestuursorgaan zal het saldo van de bedragen die in de ‘oude’ modellen van de jaarrekening werden opgenomen onder code 100 *(Geplaatst kapitaal)* en 101 *(Niet-opgevraagd kapitaal)* vanaf de inwerkingtreding moeten worden opgenomen onder de code 111 *Onbeschikbare inbreng* van de nieuwe modellen van de jaarrekening.
 
@@ -202,14 +196,13 @@ Bij de opstelling van de jaarrekening van een kapitaalloze vennootschap door het
 
 De wijzigingen aan de schema’s voor de VZW’s, IVZW’s en stichtingen zoals opgenomen in bijlagen 6 en 7 bij het KB WVV zijn minder ingrijpend, hebben geen ‘herindeling’ tot gevolg en behoeven bijgevolg in het kader van onderhavig advies geen verdere commentaar. De Commissie zal evenwel niet nalaten om in andere adviezen waar nodig de voornaamste inhoudelijke wijzigingen toe te lichten. 
 
-### Gebruik van de ‘oude’ XBRL-modellen[^34]
- van de jaarrekening
+### Gebruik van de ‘oude’ XBRL-modellen[^34] van de jaarrekening
 
 Mogelijks zijn de nieuwe modellen van de Nationale Bank van België van de jaarrekening in het gewenste format nog niet beschikbaar op het ogenblik dat de nieuwe bepalingen wel al van toepassing zijn bij de neerlegging van de jaarrekening van een vennootschap, VZW, IVZW of stichting. Maken vennootschappen, in afwachting van de nieuwe modellen in de gewenste format voor de neerlegging van de jaarrekening nog gebruik van de ‘oude’ XBRL-modellen van de jaarrekening, dan rijzen een aantal vragen. 
 
-Voornamelijk voor kapitaalloze vennootschappen stelt zich bijvoorbeeld de vraag hoe ze de rubriek van het eigen vermogen moeten invullen wanneer zij van rechtswege geen kapitaal meer hebben. De Commissie is van oordeel dat, gezien het feit dat er boekhoudtechnisch wel al een overboeking zal zijn gebeurd naar de rekening 1119 *Andere onbeschikbare inbreng buiten kapitaal*, de kapitaalloze vennootschap het saldo van het bedrag van de codes 100 *Kapitaal *en 101 *Niet-opgevraagd Kapitaal (-) *in een dergelijk ‘oud’ model van de jaarrekening kan opnemen onder de code 11 *Uitgiftepremies*, mits de nodige, passende uitleg in de toelichting. In deze toelichting wordt bijkomend vermeld in hoeverre het over onbeschikbare dan wel beschikbare inbreng gaat[^35]. Het bedrag opgenomen op de rekening 130 *Wettelijke reserves* kan dan in geval van het gebruik van het ‘oude’ model van de jaarrekening, voorlopig onder de code 130 *Wettelijke reserve* worden behouden.[^36] 
+Voornamelijk voor kapitaalloze vennootschappen stelt zich bijvoorbeeld de vraag hoe ze de rubriek van het eigen vermogen moeten invullen wanneer zij van rechtswege geen kapitaal meer hebben. De Commissie is van oordeel dat, gezien het feit dat er boekhoudtechnisch wel al een overboeking zal zijn gebeurd naar de rekening 1119 *Andere onbeschikbare inbreng buiten kapitaal*, de kapitaalloze vennootschap het saldo van het bedrag van de codes 100* Kapitaal *en 101* Niet-opgevraagd Kapitaal (-) *in een dergelijk ‘oud’ model van de jaarrekening kan opnemen onder de code 11* Uitgiftepremies*, mits de nodige, passende uitleg in de toelichting. In deze toelichting wordt bijkomend vermeld in hoeverre het over onbeschikbare dan wel beschikbare inbreng gaat[^35]. Het bedrag opgenomen op de rekening 130 *Wettelijke reserves* kan dan in geval van het gebruik van het ‘oude’ model van de jaarrekening, voorlopig onder de code 130 *Wettelijke reserve* worden behouden.[^36] 
 
-Bijkomend rijst de vraag onder welke rubrieken deze bedragen vervolgens in de kolom van het vorig boekjaar moeten worden opgenomen. De Commissie acht het raadzaam om, ten einde een vergelijking mogelijk te maken enerzijds en met oog op de leesbaarheid van de jaarrekening anderzijds, ook in de kolom ‘vorig boekjaar’ de desbetreffende cijfers onder de codes 11 *Uitgiftepremies *en 130 *Wettelijke reserves* op te nemen mits aanduiding op het identificatieblad van deze jaarrekening dat de cijfers met betrekking tot vorig boekjaar niet identiek zijn met die welke eerder openbaar werden gemaakt. 
+Bijkomend rijst de vraag onder welke rubrieken deze bedragen vervolgens in de kolom van het vorig boekjaar moeten worden opgenomen. De Commissie acht het raadzaam om, ten einde een vergelijking mogelijk te maken enerzijds en met oog op de leesbaarheid van de jaarrekening anderzijds, ook in de kolom ‘vorig boekjaar’ de desbetreffende cijfers onder de codes 11 *Uitgiftepremies* en 130 *Wettelijke reserves* op te nemen mits aanduiding op het identificatieblad van deze jaarrekening dat de cijfers met betrekking tot vorig boekjaar niet identiek zijn met die welke eerder openbaar werden gemaakt. 
 
 [^1]: Onderhavig advies is tot stand gekomen nadat een ontwerpadvies op 5 juni 2019 ter publieke consultatie werd gepubliceerd op de website van de CBN.
 

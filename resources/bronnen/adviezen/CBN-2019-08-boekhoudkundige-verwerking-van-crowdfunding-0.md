@@ -1,6 +1,55 @@
 ---
-nummer: CBN-advies 2019/08
+bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-crowdfunding-0
 datum: 2019-07-31
+nummer: CBN-advies 2019/08
+provenance:
+  generated_at: '2026-05-11T13:05:08Z'
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-crowdfunding-0
+      sha256: 0619330477c4da91affa08f9ceff354dc4e9271cd86cf439ef6f1cc76ec4454e
+      version:
+  stale: false
+  stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
+  trust:
+    confirmed_at: '2026-05-11T12:21:40Z'
+    confirmed_by: subagent-sonnet-4-6
+    layer1:
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:30Z'
+      heading_count: 19
+      max_section_chars: 19466
+      file_size_chars: 31074
+      flags: []
+    layer2:
+      agent: subagent-sonnet-4-6
+      concrete_problemen:
+        - categorie: A3
+          regel: 70
+          type: other
+          voorbeeld: -- Donatie ---- Donatie zonder tegenprestatie – Donation-based crowdfunding...
+        - categorie: A3
+          regel: 71
+          type: other
+          voorbeeld: '------ Uitgifte van obligaties---- Participatory notes'
+        - categorie: D3
+          regel: 584
+          type: other
+          voorbeeld: ' [^23]'
+        - categorie: E2
+          regel: 516
+          type: other
+          voorbeeld: '| | 5500 | Kredietinstellingen – Rekening-couran | 7.000 | |'
+      rationale: 'A3: TOC-fragment op regels 70-71 — lange aaneengesloten `--`-reeks van het geneste TOC. D3: Losstaande `[^23]` op regel 584 als verweesd anker. E2: Tabelcel op regel 516 `Rekening-couran` is afgekapt (missing `t`). Max_section van 19.981 chars suggereert één zeer grote sectie zonder verdere opsplitsing, maar inhoud is volledig aanwezig.'
+      run_at: '2026-05-11T12:21:40Z'
+      status: needs-rework
+    rationale: 'A3: TOC-fragment op regels 70-71 — lange aaneengesloten `--`-reeks van het geneste TOC. D3: Losstaande `[^23]` op regel 584 als verweesd anker. E2: Tabelcel op regel 516 `Rekening-couran` is afgekapt (missing `t`). Max_section van 19.981 chars suggereert één zeer grote sectie zonder verdere opsplitsing, maar inhoud is volledig aanwezig.'
+    status: needs-rework
 themas:
   - crowdfunding
   - publieksfinanciering
@@ -11,55 +60,6 @@ themas:
   - factoring
   - profit-sharing
   - participatory notes
-bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-crowdfunding-0
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-crowdfunding-0
-      sha256: 0619330477c4da91affa08f9ceff354dc4e9271cd86cf439ef6f1cc76ec4454e
-      version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:37:40Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T12:21:40Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: 'A3: TOC-fragment op regels 70-71 — lange aaneengesloten `--`-reeks van het geneste TOC. D3: Losstaande `[^23]` op regel 584 als verweesd anker. E2: Tabelcel op regel 516 `Rekening-couran` is afgekapt (missing `t`). Max_section van 19.981 chars suggereert één zeer grote sectie zonder verdere opsplitsing, maar inhoud is volledig aanwezig.'
-    layer1:
-      status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 18
-      max_section_chars: 19981
-      file_size_chars: 31598
-      flags: []
-    layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:21:40Z'
-      rationale: 'A3: TOC-fragment op regels 70-71 — lange aaneengesloten `--`-reeks van het geneste TOC. D3: Losstaande `[^23]` op regel 584 als verweesd anker. E2: Tabelcel op regel 516 `Rekening-couran` is afgekapt (missing `t`). Max_section van 19.981 chars suggereert één zeer grote sectie zonder verdere opsplitsing, maar inhoud is volledig aanwezig.'
-      concrete_problemen:
-        - regel: 70
-          categorie: A3
-          type: other
-          voorbeeld: -- Donatie ---- Donatie zonder tegenprestatie – Donation-based crowdfunding...
-        - regel: 71
-          categorie: A3
-          type: other
-          voorbeeld: '------ Uitgifte van obligaties---- Participatory notes'
-        - regel: 584
-          categorie: D3
-          type: other
-          voorbeeld: ' [^23]'
-        - regel: 516
-          categorie: E2
-          type: other
-          voorbeeld: '| | 5500 | Kredietinstellingen – Rekening-couran | 7.000 | |'
 ---
 
 # CBN-advies 2019/08 –Boekhoudkundige verwerking van crowdfunding
@@ -83,15 +83,9 @@ provenance:
 
     4. Participatory notes 
 
--- Donatie ---- Donatie zonder tegenprestatie – Donation-based crowdfunding---- Donatie met tegenprestatie – Reward-based/Pre-sales crowdfunding-- Financiële lening – Lending-based crowdfunding-- Financiële belegging---- Invoice trading---- Profit-sharing-based crowdfunding / Royalty crowdfunding---- Investment crowdfunding (Equity-based / Security-based crowdfunding)------ Uitgifte van aandelen a pari------ Uitgifte van aandelen boven pari
------- Uitgifte van obligaties---- Participatory notes 
-
 ## Inleiding
 
-Crowdfunding[^2]
- (ook wel “publieksfinanciering” of “participatieve financiering” genoemd) bestaat erin een beroep te doen op het grote publiek (een investeerdersgemeenschap), via een interactieve website (een platform)[^3]
- en het gebruik van sociale media, teneinde (1) gelden in te zamelen voor de financiering van specifieke projecten rond filantropie, kunst of cultuur, in het kader van een vereniging[^4]
- of een onderneming[^5], (2) startende ondernemingen te financieren of (3) bij te dragen tot het ontwikkelen van innovaties of groeiende ondernemingen[^6].
+Crowdfunding[^2] (ook wel “publieksfinanciering” of “participatieve financiering” genoemd) bestaat erin een beroep te doen op het grote publiek (een investeerdersgemeenschap), via een interactieve website (een platform)[^3] en het gebruik van sociale media, teneinde (1) gelden in te zamelen voor de financiering van specifieke projecten rond filantropie, kunst of cultuur, in het kader van een vereniging[^4] of een onderneming[^5], (2) startende ondernemingen te financieren of (3) bij te dragen tot het ontwikkelen van innovaties of groeiende ondernemingen[^6].
 
 Er kunnen verschillende soorten crowdfunding worden onderscheiden: donatie, lening en investering.
 
@@ -283,8 +277,7 @@ De Commissie is van oordeel dat via dit type financiering de investeerder tegen 
 
 De Commissie wenst te benadrukken dat de boekhoudkundige verwerking in hoofde van de investeerder afhankelijk is van de specifieke aard van het project (of het nu gaat om een artistiek- of een bedrijfsproject). De betaalde bedragen zullen voor artistieke werken op rekening 21 *Immateriële vaste activa* worden geboekt en voor bedrijfsprojecten op rekening 28 *Financiële vaste activa*.
 
-Er valt op te merken dat de *Immateriële vaste activa[^14] * het voorwerp uitmaken van passende afschrijvingen (voor de immateriële vaste activa met een bepaalde levensduur) of waardeverminderingen (voor immateriële vaste activa met een onbepaalde levensduur) (zie advies 2012/13 – De boekhoudkundige verwerking van immateriële vaste activa). De *financiële vaste activa*[^15]
- maken op hun beurt het voorwerp uit van waardeverminderingen.
+Er valt op te merken dat de *Immateriële vaste activa[^14]*  het voorwerp uitmaken van passende afschrijvingen (voor de immateriële vaste activa met een bepaalde levensduur) of waardeverminderingen (voor immateriële vaste activa met een onbepaalde levensduur) (zie advies 2012/13 – De boekhoudkundige verwerking van immateriële vaste activa). De *financiële vaste activa*[^15] maken op hun beurt het voorwerp uit van waardeverminderingen.
 
 De ontvangen bedragen worden in hoofde van de begunstigde aan de passiefzijde geboekt op rekening *11 Inbreng buiten kapitaal*[^16], ongeacht de aard van het project.
 
@@ -295,8 +288,6 @@ De ontvangen bedragen worden in hoofde van de begunstigde aan de passiefzijde ge
 1. Betaling van de prijs
 
 In hoofde van de begunstigde (artiest)
-
- [^17]
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
@@ -438,7 +429,7 @@ In hoofde van de investeerder
 
 1. Betaling van de opbrengst gecreëerd door het werk
 
-**In hoofde van de begunstigde (artiest)**
+## In hoofde van de begunstigde (artiest)
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
@@ -559,8 +550,7 @@ In hoofde van de investeerder
 
 #### Participatory notes
 
-Met dit type financiering investeert het publiek in een onderneming door middel van kapitaal[^22]
- (in ruil voor aandelen) of door op onrechtstreekse wijze op obligaties in te schrijven, via een crowdfundingplatform. Het platform biedt een dienst aan waarbij investeerders in contact worden gebracht met ondernemingen die op zoek zijn naar middelen.
+Met dit type financiering investeert het publiek in een onderneming door middel van kapitaal[^22] (in ruil voor aandelen) of door op onrechtstreekse wijze op obligaties in te schrijven, via een crowdfundingplatform. Het platform biedt een dienst aan waarbij investeerders in contact worden gebracht met ondernemingen die op zoek zijn naar middelen.
 
 Participatory notes zijn schuldbewijzen die door het platform worden uitgegeven. Deze financiële instrumenten sui generis leveren een rendement op dat in de buurt ligt van het rendement van onderliggende aandelen.
 
@@ -596,8 +586,6 @@ In hoofde van de onderliggende onderneming
 | aan | 100 | Geplaatst kapitaal | | 9.700 |
 
 In hoofde van de investeerder
-
- [^23]
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|

@@ -1,6 +1,39 @@
 ---
-nummer: CBN-advies 2009/9
+bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-gevolgen-van-de-aanvaardingsplicht-inzake-afgedankte-elektrische-en
 datum: 2009-03-11
+nummer: CBN-advies 2009/9
+provenance:
+  generated_at: '2026-05-11T13:05:07Z'
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-gevolgen-van-de-aanvaardingsplicht-inzake-afgedankte-elektrische-en
+      sha256: 21e9fb5214140e5447af42694896cb77b881beec36b81428df1d6534429f19cf
+      version:
+  stale: false
+  stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
+  trust:
+    confirmed_at: '2026-05-08T21:31:11Z'
+    confirmed_by: human
+    layer1:
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:27Z'
+      heading_count: 48
+      max_section_chars: 18279
+      file_size_chars: 112190
+      flags: []
+    layer2:
+      agent:
+      concrete_problemen: []
+      rationale:
+      run_at:
+      status: not_run
+    rationale: 'Herscraped na fix select_title(): gecombineerde H1 (COMMISSIE + titel) correct gesplitst. Inhoud ongewijzigd t.o.v. vorig vertrouwd verdict. Laag 1 pass (of benign max_section warn).'
+    status: trusted
 themas:
   - aanvaardingsplicht
   - afgedankte elektrische en elektronische apparatuur
@@ -12,39 +45,6 @@ themas:
   - recupelbijdrage
   - sectorbeheersorganisme
   - voorziening
-bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-gevolgen-van-de-aanvaardingsplicht-inzake-afgedankte-elektrische-en
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-gevolgen-van-de-aanvaardingsplicht-inzake-afgedankte-elektrische-en
-      sha256: 21e9fb5214140e5447af42694896cb77b881beec36b81428df1d6534429f19cf
-      version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T21:30:05Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: trusted
-    confirmed_at: '2026-05-08T21:31:11Z'
-    confirmed_by: human
-    rationale: 'Herscraped na fix select_title(): gecombineerde H1 (COMMISSIE + titel) correct gesplitst. Inhoud ongewijzigd t.o.v. vorig vertrouwd verdict. Laag 1 pass (of benign max_section warn).'
-    layer1:
-      status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 50
-      max_section_chars: 18279
-      file_size_chars: 112222
-      flags: []
-    layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
-      concrete_problemen: []
 ---
 
 # CBN-advies 2009/9 - Boekhoudkundige gevolgen van de aanvaardingsplicht inzake afgedankte elektrische en elektronische apparaten
@@ -118,7 +118,8 @@ genoemd)---- Relevante adviezen Commissie voor Boekhoudkundige Normen---- IFRS/I
 
 ### De Europese richtlijn
 
-De Richtlijn 2002/96/EG van het Europees Parlement en de Raad betreffende afgedankte elektrische en elektronische apparaten (AEEA[^1]), zijnde de “WEEE[^2] Richtlijn”, werd aangenomen op 27 januari 2003[^3], tevens de dag van de inwerkingtreding. De WEEE Richtlijn werd kort nadien gewijzigd door de Richtlijn 2003/108/EG[^4] voor wat de financiering van AEEA van andere dan particuliere huishoudens[^5] betreft.
+De Richtlijn 2002/96/EG van het Europees Parlement en de Raad betreffende afgedankte elektrische en elektronische apparaten (AEEA[^1]), zijnde de “WEEE[^2]
+ Richtlijn”, werd aangenomen op 27 januari 2003[^3], tevens de dag van de inwerkingtreding. De WEEE Richtlijn werd kort nadien gewijzigd door de Richtlijn 2003/108/EG[^4] voor wat de financiering van AEEA van andere dan particuliere huishoudens[^5] betreft.
 
 De richtlijn is van toepassing op de elektrische en elektronische apparatuur die onder de in bijlage bij de richtlijn opgenomen categorieën vallen. De categorieën betreffen: 
 
@@ -188,7 +189,7 @@ In Vlarea II wordt de aanvaardingsplicht met betrekking tot AEEA specifiek behan
 2. Medische hulpmiddelen (met uitzondering van alle geïmplanteerde en geïnfecteerde producten); 
 3. Automaten. 
 
-De EEA bedoeld onder 3° worden beschouwd als zijnde *professionele EEA*, deze opgenomen onder 1° en 2° betreffen *huishoudelijke EEA*. Het is bij afdanking m.a.w. van belang te kijken naar de aard van het afgedankte product en niet wie het product afdankt. Zo zal een afgedankte deskcomputer steeds huishoudelijke EEA vormen, ongeacht of een particulier of een onderneming deze afdankt. Deze deskcomputer is dus steeds huishoudelijke AEEA, maar behoort tot de huishoudelijke afvalstoffen indien hij door een particulier wordt afgedankt of tot de bedrijfsafvalstoffen behoort indien hij door een onderneming wordt afgedankt. Dit betekent dat alle wettelijke verplichtingen met betrekking tot de inzameling, opslag en verwerking overeenkomstig hun respectievelijke catalogering als huishoudelijke dan wel als bedrijfsafvalstoffen dienen gevolgd te worden.
+De EEA bedoeld onder 3° worden beschouwd als zijnde *professionele EEA*, deze opgenomen onder 1° en 2° betreffen* huishoudelijke EEA*. Het is bij afdanking m.a.w. van belang te kijken naar de aard van het afgedankte product en niet wie het product afdankt. Zo zal een afgedankte deskcomputer steeds huishoudelijke EEA vormen, ongeacht of een particulier of een onderneming deze afdankt. Deze deskcomputer is dus steeds huishoudelijke AEEA, maar behoort tot de huishoudelijke afvalstoffen indien hij door een particulier wordt afgedankt of tot de bedrijfsafvalstoffen behoort indien hij door een onderneming wordt afgedankt. Dit betekent dat alle wettelijke verplichtingen met betrekking tot de inzameling, opslag en verwerking overeenkomstig hun respectievelijke catalogering als huishoudelijke dan wel als bedrijfsafvalstoffen dienen gevolgd te worden.
 
 Het inzamelsysteem georganiseerd in opdracht van het beheersorganisme (*cf.* *infra*) houdt rekening met deze juridische bepalingen. Zo kan een huishouden gebruik maken van de voor de huishoudelijke AEEA voorbehouden inzamelkanalen: eindverkopers, containerparken voor huishoudelijke afvalstoffen en kringloopcentra. Een bedrijf kan voor de inzameling van huishoudelijke AEEA o.a. gebruik maken van eindverkopers, KMO-containerparken of indien het een grotere hoeveelheid huishoudelijke AEEA betreft een eenmalige ophaling laten uitvoeren door het beheersorganisme.
 
@@ -283,10 +284,9 @@ In het Brussels Hoofdstedelijke Gewest berust de juridische basis op de Ordonnan
 
 Artikel 3 van eerder vermeld uitvoeringsbesluit stelt dat met het oog op de terugnameplicht: 
 
-- de *kleinhandelaar* van de consument elk AEEA[^40]
- kosteloos moet terugnemen, op voorwaarde dat deze consument zich een vervangproduct aanschaft of zich aangeschaft had binnen maximum dertig kalenderdagen daarvoor bij die kleinhandelaar)[^41]; 
+- de *kleinhandelaar* van de consument elk AEEA[^40] kosteloos moet terugnemen, op voorwaarde dat deze consument zich een vervangproduct aanschaft of zich aangeschaft had binnen maximum dertig kalenderdagen daarvoor bij die kleinhandelaar)[^41]; 
 - de *verdeler* op eigen kosten, regelmatig en ter plaatse, bij de kleinhandelaars alle in ontvangst genomen afvalstoffen moet terugnemen en ze bij de producent/invoerder moet inleveren; 
-- de *producent/invoerder[^42] * regelmatig en op eigen kosten bij de verdelers of bij ontstentenis, bij de kleinhandelaars, alle aanvaarde afvalstoffen moet inzamelen en ze in een hiertoe vergunde inrichting moet laten verwerken. 
+- de *producent/invoerder[^42]*  regelmatig en op eigen kosten bij de verdelers of bij ontstentenis, bij de kleinhandelaars, alle aanvaarde afvalstoffen moet inzamelen en ze in een hiertoe vergunde inrichting moet laten verwerken. 
 
 Teneinde hun terugnameplicht na te komen, kunnen de producenten of de invoerders: 
 
@@ -309,8 +309,7 @@ Samenvattend wordt in volgende tabel weergegeven wie de kosten verbonden met de 
 
 Producenten, invoerders of derden die in hun naam handelen en andere gebruikers dan particuliere huishoudens kunnen andere financieringsregelingen overeenkomen.
 
-### De ‘milieubeleidsovereenkomsten’ in het Vlaamse Gewest en de ‘milieuovereenkomsten’ in het Waalse en Brussels Hoofdstedelijk Gewest
-
+De ‘milieubeleidsovereenkomsten’ in het Vlaamse Gewest en de ‘milieuovereenkomsten’ in het Waalse en Brussels Hoofdstedelijk Gewest
 #### Wetgeving
 
 Het Afvalstoffendecreet van de *Vlaamse Regering* van 2 juli 1981 voorziet in art. 9 dat de Vlaamse Regering om de doelstellingen inzake de voorkoming en het beheer van afvalstoffen te realiseren milieubeleidsovereenkomsten (de zogenaamde MBO’s of CE in het Frans voor Conventions Environnementales) kan afsluiten.
@@ -379,7 +378,7 @@ Producenten die in België elektrische en elektronische apparaten op de markt br
 
 Voor de producenten/invoerders van EEA betekent dit dat ze verantwoordelijk zijn voor de terugname van AEEA en dat ze moeten toezien op de verwerking ervan. 
 
-Zij moeten de terugname en de milieuvriendelijke verwerking van deze apparaten organiseren en financieren. Dit kan zoals eerder vermeld *individueel* (in dat geval stelt de producent zelf een afvalpreventie- en afvalbeheerplan op) of door toe te treden tot een *collectief *systeem[^56].
+Zij moeten de terugname en de milieuvriendelijke verwerking van deze apparaten organiseren en financieren. Dit kan zoals eerder vermeld *individueel* (in dat geval stelt de producent zelf een afvalpreventie- en afvalbeheerplan op) of door toe te treden tot een *collectief* systeem[^56].
 
 ### Recupelbijdrage
 
@@ -439,8 +438,7 @@ De artikelen opgenomen in de Milieuovereenkomst van het Brussels Hoofdstedelijk 
 
 De hoogte van de milieubijdrage alsook het financieel plan moet voor het Brussels Hoofdstedelijk Gewest worden voorgelegd aan het BIM.
 
-### Vermelding van de Recupelbijdrage bij het op de markt brengen van huishoudelijke en professionele EEA[^61] 
-
+Vermelding van de Recupelbijdrage bij het op de markt brengen van huishoudelijke en professionele EEA[^61]
 #### Het Vlaamse Gewest
 
 Art. 3.1.1.3[^62], Vlarea II duidt aan dat het gedeelte van de kostprijs van een product dat wordt doorgerekend om de kosten te dekken die verbonden zijn aan de uitvoering van de aanvaardingsplicht, zichtbaar moet worden vermeld op de factuur, tenzij anders is bepaald in de milieubeleidsovereenkomst of het individueel afvalpreventie- en afvalbeheerplan. In de milieubeleidsovereenkomst wordt vermeld dat de milieubijdrage bij verkoop van huishoudelijke EEA tussen handelaars in EEA steeds per apparaat of per groep van apparaten op de factuur wordt vermeld[^63].
@@ -556,7 +554,7 @@ Luidens art. 25, § 1, K.B. W.Venn. moet “*de jaarrekening duidelijk worden op
 
 #### Relevante adviezen Commissie voor Boekhoudkundige Normen
 
-**Advies 107/7 *Risico's en verliezen waarvan de waardering aleatoir is* (Bulletin nr. 21 van C.B.N., januari 1988, p. 18-20)**
+**Advies 107/7* Risico's en verliezen waarvan de waardering aleatoir is* (Bulletin nr. 21 van C.B.N., januari 1988, p. 18-20)**
 
 De Commissie bepaalt in haar advies 107/7 dat de termen *onvermijdelijk aleatoire waardering* erop duiden dat de omvang van een wel omschreven, voorzienbaar risico of verlies niet alleen onzeker is, maar dat deze onzekere omvang bovendien volstrekt “onbepaalbaar” is bij gebreke aan objectieve beoordelingscriteria. Aangezien geen voorzieningen kunnen worden aangelegd voor voorzienbare of waarschijnlijke risico's of verliezen waarvan de grootte volstrekt onbepaalbaar is, is in dergelijke hypothese de onderneming ervan vrijgesteld een voorziening ten laste van de resultatenrekening te vormen, wat haar uiteraard niet ontslaat van een passende vermelding in de toelichting.
 
@@ -564,7 +562,7 @@ Toch wijst de Commissie erop dat, indien op balansdatum naar het oordeel van de 
 
 In zo'n geval is de Commissie integendeel van oordeel dat een voorziening moet worden gevormd ten minste ten belope van het kleinste geschatte bedrag. Aansluitend daarbij kan het aangewezen zijn - indien de betrokken bedragen belangrijk zijn - in de toelichting de aard van het betrokken risico evenals de mogelijkheid dat het verlies hoger kan uitvallen, te vermelden.
 
-**Advies 128/3 *Bijkomende aanslag na balansdatum* (Bulletin nr. 10 van C.B.N., april 1983, p. 12)**
+**Advies 128/3* Bijkomende aanslag na balansdatum* (Bulletin nr. 10 van C.B.N., april 1983, p. 12)**
 
 Het betreft hier de vraag hoe een betwiste fiscale aanslag betreffende vorige boekjaren moet worden geboekt wanneer de inkohiering van de belasting en de betekening van de aanslag plaatsvinden na de balansdatum.
 
@@ -680,8 +678,6 @@ Boeking van het op de markt brengen van huishoudelijke EEA en doorrekening van d
 
 Na het indienen van de kwartaalaangifte ontvangt de producent/invoerder de factuur van het sectorbeheersorganisme.
 
- [^80][^81]
-
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 61 | Diensten en diverse goederen | ... | |
@@ -734,8 +730,6 @@ Boeking van het aanleggen van de voorziening:
 In geval daadwerkelijk een navordering plaatsvindt zullen de kosten hiervan worden geboekt ten laste van het volgende boekjaar. De daartoe aangelegde voorziening wordt besteed.
 
 Boeking van de facturatie van de navordering:
-
- [^83]
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|

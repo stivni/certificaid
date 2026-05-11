@@ -1,45 +1,45 @@
 ---
-nummer: CBN-advies 152/5
+bron: https://www.cbn-cnc.be/nl/adviezen/verwerking-van-omrekeningsverschillen
 datum: 1991-03-01
+nummer: CBN-advies 152/5
+provenance:
+  generated_at: '2026-05-11T13:05:06Z'
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/verwerking-van-omrekeningsverschillen
+      sha256: 8c9981bfefe01ead4bbaf1eb606c3babcfe1771b4eba2bff018ef1dd8986513d
+      version:
+  stale: false
+  stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
+  trust:
+    confirmed_at: '2026-05-11T12:04:41Z'
+    confirmed_by: subagent-sonnet-4-6
+    layer1:
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:26Z'
+      heading_count: 0
+      max_section_chars: 2788
+      file_size_chars: 2788
+      flags: []
+    layer2:
+      agent: subagent-sonnet-4-6
+      concrete_problemen: []
+      rationale: 'Korte bron (2788 tekens), geen subkoppen (heading_count: 0, conform Laag-1). Inhoud compleet: vraag en advies aanwezig, voetnoot [^1] correct gedefinieerd. Geen artefacten in categorieën A-G. De verwijzing naar paginanummers (''pp. 35 tot 37'') is een interne verwijzing naar het brondocument, geen TOC-rest.'
+      run_at: '2026-05-11T12:04:41Z'
+      status: trusted
+    rationale: 'Korte bron (2788 tekens), geen subkoppen (heading_count: 0, conform Laag-1). Inhoud compleet: vraag en advies aanwezig, voetnoot [^1] correct gedefinieerd. Geen artefacten in categorieën A-G. De verwijzing naar paginanummers (''pp. 35 tot 37'') is een interne verwijzing naar het brondocument, geen TOC-rest.'
+    status: trusted
 themas:
   - negatief omrekeningsverschil
   - omrekeningsverschil
   - positieve omrekeningsverschillen
   - voorzichtigheidsbeginsel
   - wisselverrichting
-bron: https://www.cbn-cnc.be/nl/adviezen/verwerking-van-omrekeningsverschillen
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/verwerking-van-omrekeningsverschillen
-      sha256: 8c9981bfefe01ead4bbaf1eb606c3babcfe1771b4eba2bff018ef1dd8986513d
-      version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:35:22Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: trusted
-    confirmed_at: '2026-05-11T12:04:41Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "Korte bron (2788 tekens), geen subkoppen (heading_count: 0, conform Laag-1). Inhoud compleet: vraag en advies aanwezig, voetnoot [^1] correct gedefinieerd. Geen artefacten in categorieën A-G. De verwijzing naar paginanummers ('pp. 35 tot 37') is een interne verwijzing naar het brondocument, geen TOC-rest."
-    layer1:
-      status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 0
-      max_section_chars: 2788
-      file_size_chars: 2788
-      flags: []
-    layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:04:41Z'
-      rationale: "Korte bron (2788 tekens), geen subkoppen (heading_count: 0, conform Laag-1). Inhoud compleet: vraag en advies aanwezig, voetnoot [^1] correct gedefinieerd. Geen artefacten in categorieën A-G. De verwijzing naar paginanummers ('pp. 35 tot 37') is een interne verwijzing naar het brondocument, geen TOC-rest."
-      concrete_problemen: []
 ---
 
 # CBN-advies 152/5 - Verwerking van omrekeningsverschillen

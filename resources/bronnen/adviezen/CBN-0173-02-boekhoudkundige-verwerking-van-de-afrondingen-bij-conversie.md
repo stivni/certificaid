@@ -1,63 +1,62 @@
 ---
-nummer: CBN-advies 173/2
+bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-afrondingen-bij-conversie
 datum: 1998-02-01
+gerelateerde_adviezen:
+  - datum: '2020-02-10'
+    titel: Afronding van betalingen in euro
+    url: https://www.cbn-cnc.be/nl/adviezen/afronding-van-betalingen-in-euro-0
+  - datum: '2014-09-10'
+    titel: Afronding van betalingen in euro
+    url: https://www.cbn-cnc.be/nl/adviezen/afronding-van-betalingen-in-euro
+  - datum: '1999-02-01'
+    titel: Aanvullende aspecten in verband met de boekhoudkundige verwerking van afrondingsverschillen bij conversie
+    url: https://www.cbn-cnc.be/nl/adviezen/aanvullende-aspecten-in-verband-met-de-boekhoudkundige-verwerking-van
+  - datum: '1998-02-01'
+    titel: Afronding van de bedragen in de jaarrekeningen die in euro of in duizenden euro zijn opgesteld
+    url: https://www.cbn-cnc.be/nl/adviezen/afronding-van-de-bedragen-in-de-jaarrekeningen-die-in-euro-of-in-duizenden-euro-zijn
+nummer: CBN-advies 173/2
+provenance:
+  generated_at: '2026-05-11T13:05:06Z'
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-afrondingen-bij-conversie
+      sha256: 28016f3fc0c35028cd22dc3bc24fc507ebec22791830fdca82512e66e7639507
+      version:
+  stale: false
+  stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
+  trust:
+    confirmed_at: '2026-05-11T12:09:17Z'
+    confirmed_by: subagent-sonnet-4-6
+    layer1:
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:26Z'
+      heading_count: 0
+      max_section_chars: 2040
+      file_size_chars: 2040
+      flags: []
+    layer2:
+      agent: subagent-sonnet-4-6
+      concrete_problemen: []
+      rationale: 'Klein advies (2041 chars, heading_count: 0) zonder subhoofdingen — dat is conform de bron. Inhoud compleet: context, voorbeeldtabel, aanbeveling en beide voetnoten aanwezig. Geen zichtbare extractie-artefacten. De tabel op r.72-78 is in markdown pipe-syntax. Buitenstaander zou dit als mens-geschreven beschouwen.'
+      run_at: '2026-05-11T12:09:17Z'
+      status: trusted
+    rationale: 'Klein advies (2041 chars, heading_count: 0) zonder subhoofdingen — dat is conform de bron. Inhoud compleet: context, voorbeeldtabel, aanbeveling en beide voetnoten aanwezig. Geen zichtbare extractie-artefacten. De tabel op r.72-78 is in markdown pipe-syntax. Buitenstaander zou dit als mens-geschreven beschouwen.'
+    status: trusted
 themas:
   - afronding
   - afrondingen bij conversie
   - euro
   - overschakeling op de euro
-bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-afrondingen-bij-conversie
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-afrondingen-bij-conversie
-      sha256: 28016f3fc0c35028cd22dc3bc24fc507ebec22791830fdca82512e66e7639507
-      version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:35:38Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: trusted
-    confirmed_at: '2026-05-11T12:09:17Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: 'Klein advies (2041 chars, heading_count: 0) zonder subhoofdingen — dat is conform de bron. Inhoud compleet: context, voorbeeldtabel, aanbeveling en beide voetnoten aanwezig. Geen zichtbare extractie-artefacten. De tabel op r.72-78 is in markdown pipe-syntax. Buitenstaander zou dit als mens-geschreven beschouwen.'
-    layer1:
-      status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 0
-      max_section_chars: 2041
-      file_size_chars: 2041
-      flags: []
-    layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:09:17Z'
-      rationale: 'Klein advies (2041 chars, heading_count: 0) zonder subhoofdingen — dat is conform de bron. Inhoud compleet: context, voorbeeldtabel, aanbeveling en beide voetnoten aanwezig. Geen zichtbare extractie-artefacten. De tabel op r.72-78 is in markdown pipe-syntax. Buitenstaander zou dit als mens-geschreven beschouwen.'
-      concrete_problemen: []
-gerelateerde_adviezen:
-  - titel: Afronding van betalingen in euro
-    url: https://www.cbn-cnc.be/nl/adviezen/afronding-van-betalingen-in-euro-0
-    datum: '2020-02-10'
-  - titel: Afronding van betalingen in euro
-    url: https://www.cbn-cnc.be/nl/adviezen/afronding-van-betalingen-in-euro
-    datum: '2014-09-10'
-  - titel: Aanvullende aspecten in verband met de boekhoudkundige verwerking van afrondingsverschillen bij conversie
-    url: https://www.cbn-cnc.be/nl/adviezen/aanvullende-aspecten-in-verband-met-de-boekhoudkundige-verwerking-van
-    datum: '1999-02-01'
-  - titel: Afronding van de bedragen in de jaarrekeningen die in euro of in duizenden euro zijn opgesteld
-    url: https://www.cbn-cnc.be/nl/adviezen/afronding-van-de-bedragen-in-de-jaarrekeningen-die-in-euro-of-in-duizenden-euro-zijn
-    datum: '1998-02-01'
 ---
 
 # CBN-advies 173/2 - Boekhoudkundige verwerking van de afrondingen bij conversie
 
-Bij het Commissariaat-generaal voor de euro is een bijzondere werkgroep opgericht om de problemen te onderzoeken in verband met de verwerking van omrekeningsafrondingen. In de eerste conclusies en aanbevelingen van die werkgroep[^1] wordt onder meer gevraagd dat de Commissie voor Boekhoudkundige Normen zich in een advies zou uitspreken over de boekhoudkundige verwerking van die omrekeningsafrondingen. Daarom heeft de Commissie beslist het advies over de euro[^2]
- met de onderstaande tekst aan te vullen : 
+Bij het Commissariaat-generaal voor de euro is een bijzondere werkgroep opgericht om de problemen te onderzoeken in verband met de verwerking van omrekeningsafrondingen. In de eerste conclusies en aanbevelingen van die werkgroep[^1] wordt onder meer gevraagd dat de Commissie voor Boekhoudkundige Normen zich in een advies zou uitspreken over de boekhoudkundige verwerking van die omrekeningsafrondingen. Daarom heeft de Commissie beslist het advies over de euro[^2] met de onderstaande tekst aan te vullen : 
 
 «Boekhoudkundige verwerking van omrekeningsafrondingen 
 
@@ -69,7 +68,7 @@ Dergelijke verschillen zullen onder meer te wijten zijn aan het feit dat het tot
 
 Bijvoorbeeld (uitgaande van een omrekeningskoers EUR/BEF van 40,2171) : 
 
-| **BEF** | | **EUR ** | 
+| **BEF** | | **EUR**  | 
 | 1.250 | | 31,08 | 
 | 1.300 | | 32,32 | 
 | 500 | | 12,43 | 

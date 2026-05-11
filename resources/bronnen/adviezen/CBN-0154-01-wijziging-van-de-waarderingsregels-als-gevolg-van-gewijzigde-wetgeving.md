@@ -1,6 +1,43 @@
 ---
-nummer: CBN-advies 154/1
+bron: https://www.cbn-cnc.be/nl/adviezen/wijziging-van-de-waarderingsregels-als-gevolg-van-gewijzigde-wetgeving
 datum: 1988-12-01
+nummer: CBN-advies 154/1
+provenance:
+  generated_at: '2026-05-11T13:05:06Z'
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/wijziging-van-de-waarderingsregels-als-gevolg-van-gewijzigde-wetgeving
+      sha256: 7bd0173f9f8968a11d49e1fa3149526bff05b641bfc658cc599a320df4fda6b1
+      version:
+  stale: false
+  stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
+  trust:
+    confirmed_at: '2026-05-11T12:04:42Z'
+    confirmed_by: subagent-sonnet-4-6
+    layer1:
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:26Z'
+      heading_count: 0
+      max_section_chars: 4639
+      file_size_chars: 4639
+      flags: []
+    layer2:
+      agent: subagent-sonnet-4-6
+      concrete_problemen:
+        - categorie: B3
+          regel: 48
+          type: other
+          voorbeeld: CBN-advies 154/1 - Wijziging van de waarderingsregels als gevolg van gewijzigde wetgeving-Informatieverstrekking
+      rationale: 'B3: de paginatitel wordt op regel 48 herhaald als plain-text alinea (bekend duplicate-page-title-heading patroon). Geen subheadings aanwezig (layer1 heading_count=0): de volledige inhoud zit in één niet-gesegmenteerde blok. Verder inhoudelijk volledig en voetnoten correct gelinkt.'
+      run_at: '2026-05-11T12:04:42Z'
+      status: needs-rework
+    rationale: 'B3: de paginatitel wordt op regel 48 herhaald als plain-text alinea (bekend duplicate-page-title-heading patroon). Geen subheadings aanwezig (layer1 heading_count=0): de volledige inhoud zit in één niet-gesegmenteerde blok. Verder inhoudelijk volledig en voetnoten correct gelinkt.'
+    status: needs-rework
 themas:
   - bestendigheid
   - bestendigheidsplicht
@@ -8,51 +45,13 @@ themas:
   - toelichting
   - waarderingsregels
   - wijziging van de waarderingsregels
-bron: https://www.cbn-cnc.be/nl/adviezen/wijziging-van-de-waarderingsregels-als-gevolg-van-gewijzigde-wetgeving
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/wijziging-van-de-waarderingsregels-als-gevolg-van-gewijzigde-wetgeving
-      sha256: 7bd0173f9f8968a11d49e1fa3149526bff05b641bfc658cc599a320df4fda6b1
-      version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:35:24Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T12:04:42Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: 'B3: de paginatitel wordt op regel 48 herhaald als plain-text alinea (bekend duplicate-page-title-heading patroon). Geen subheadings aanwezig (layer1 heading_count=0): de volledige inhoud zit in één niet-gesegmenteerde blok. Verder inhoudelijk volledig en voetnoten correct gelinkt.'
-    layer1:
-      status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 0
-      max_section_chars: 4640
-      file_size_chars: 4640
-      flags: []
-    layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:04:42Z'
-      rationale: 'B3: de paginatitel wordt op regel 48 herhaald als plain-text alinea (bekend duplicate-page-title-heading patroon). Geen subheadings aanwezig (layer1 heading_count=0): de volledige inhoud zit in één niet-gesegmenteerde blok. Verder inhoudelijk volledig en voetnoten correct gelinkt.'
-      concrete_problemen:
-        - regel: 48
-          categorie: B3
-          type: other
-          voorbeeld: CBN-advies 154/1 - Wijziging van de waarderingsregels als gevolg van gewijzigde wetgeving-Informatieverstrekking
 ---
 
 # CBN-advies 154/1 - Wijziging van de waarderingsregels als gevolg van gewijzigde wetgeving-Informatieverstrekking
 
 CBN-advies 154/1 - Wijziging van de waarderingsregels als gevolg van gewijzigde wetgeving-Informatieverstrekking
 
-In artikel 17, eerste lid van het jaarrekeningbesluit wordt met betrekking tot de toepassing van de waarderingsregels de zgn. bestendigheidsplicht (consistency) uitgedrukt, die de boekhouddoctrine overigens als een algemeen boekhoudbeginsel erkent[^1]
- van de vierde EEG-richtlijn). De bestendigheidsplicht eist dat de waarderingsregels van het ene boekjaar op het andere identiek blijven en stelselmatig worden toegepast.
+In artikel 17, eerste lid van het jaarrekeningbesluit wordt met betrekking tot de toepassing van de waarderingsregels de zgn. bestendigheidsplicht (consistency) uitgedrukt, die de boekhouddoctrine overigens als een algemeen boekhoudbeginsel erkent[^1] van de vierde EEG-richtlijn). De bestendigheidsplicht eist dat de waarderingsregels van het ene boekjaar op het andere identiek blijven en stelselmatig worden toegepast.
 
 Bestendigheid betekent evenwel niet onveranderlijkheid. Het tweede lid van hetzelfde artikel 17 bepaalt integendeel dat de waarderingsregels moeten worden gewijzigd wanneer, onder meer uit hoofde van belangrijke veranderingen in de activiteiten van de onderneming, in de structuur van haar vermogen of in de economische dan wel technologische omstandigheden de vroeger gevolgde waarderingsregels niet langer aan het voorschrift van artikel 3 beantwoorden, dat het fundamenteel vereiste van het getrouwe beeld uitdrukt.
 

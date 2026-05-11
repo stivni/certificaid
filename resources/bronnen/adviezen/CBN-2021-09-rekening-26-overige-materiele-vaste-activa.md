@@ -1,6 +1,52 @@
 ---
-nummer: CBN-advies 2021/09
+bron: https://www.cbn-cnc.be/nl/adviezen/rekening-26-overige-materiele-vaste-activa
 datum: 2021-06-23
+gerelateerde_adviezen:
+  - datum: '2016-03-09'
+    titel: Boekhoudkundige verwerking van ontvangen subsidies voor de aankoop van activa die worden ter beschikking gesteld
+    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-ontvangen-subsidies-voor-de-aankoop-van-activa-die-worden
+  - datum: '1991-03-01'
+    titel: Verwerking van verrichtingen voor de verwerving of verkoop van een recht op vruchtgebruik of van naakte eigendom op materiële vaste activa in de boekhouding van de vruchtgebruiker (de erfpachter, de opstalhouder) en van de naakte eigenaar (de grondeigenaa
+    url: https://www.cbn-cnc.be/nl/adviezen/verwerking-van-verrichtingen-voor-de-verwerving-of-verkoop-van-een-recht-op-vruchtgebruik
+  - datum: '1991-03-01'
+    titel: Boeking van het verschuldigd bedrag om de optie te lichten of van de restwaarde aan het einde van de overeenkomst
+    url: https://www.cbn-cnc.be/nl/adviezen/boeking-van-het-verschuldigd-bedrag-om-de-optie-te-lichten-of-van-de-restwaarde-aan-het
+  - datum: '1989-07-01'
+    titel: Aansluitingskosten en installatiekosten waarbij derden de eigendom van de installatie verwerven of behouden
+    url: https://www.cbn-cnc.be/nl/adviezen/aansluitingskosten-en-installatiekosten-waarbij-derden-de-eigendom-van-de-installatie
+nummer: CBN-advies 2021/09
+provenance:
+  generated_at: '2026-05-11T13:05:08Z'
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/rekening-26-overige-materiele-vaste-activa
+      sha256: be4ebe2add6f9dadcf20b4514d83355b8ca1e178901f445fb910c8d2c410e956
+      version:
+  stale: false
+  stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
+  trust:
+    confirmed_at: '2026-05-11T12:21:41Z'
+    confirmed_by: subagent-sonnet-4-6
+    layer1:
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:30Z'
+      heading_count: 3
+      max_section_chars: 5041
+      file_size_chars: 6761
+      flags: []
+    layer2:
+      agent: subagent-sonnet-4-6
+      concrete_problemen: []
+      rationale: Alle drie categorieën (A t/m G) schoon. Drie headings correct genesteld, inhoud volledig (inleiding, rubriek-inhoud, waarderingsregels), 12 voetnootdefinities aanwezig, geen artefacten, geen orphan-footnotes, geen malformed italic. Compacte maar complete bron.
+      run_at: '2026-05-11T12:21:41Z'
+      status: trusted
+    rationale: Alle drie categorieën (A t/m G) schoon. Drie headings correct genesteld, inhoud volledig (inleiding, rubriek-inhoud, waarderingsregels), 12 voetnootdefinities aanwezig, geen artefacten, geen orphan-footnotes, geen malformed italic. Compacte maar complete bron.
+    status: trusted
 themas:
   - overige materiële vaste activa
   - onroerende reserve
@@ -16,52 +62,6 @@ themas:
   - herverkoop
   - voorraden
   - herwaarderingsmeerwaarde
-bron: https://www.cbn-cnc.be/nl/adviezen/rekening-26-overige-materiele-vaste-activa
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/rekening-26-overige-materiele-vaste-activa
-      sha256: be4ebe2add6f9dadcf20b4514d83355b8ca1e178901f445fb910c8d2c410e956
-      version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:38:00Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: trusted
-    confirmed_at: '2026-05-11T12:21:41Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: Alle drie categorieën (A t/m G) schoon. Drie headings correct genesteld, inhoud volledig (inleiding, rubriek-inhoud, waarderingsregels), 12 voetnootdefinities aanwezig, geen artefacten, geen orphan-footnotes, geen malformed italic. Compacte maar complete bron.
-    layer1:
-      status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 3
-      max_section_chars: 5042
-      file_size_chars: 6762
-      flags: []
-    layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:21:41Z'
-      rationale: Alle drie categorieën (A t/m G) schoon. Drie headings correct genesteld, inhoud volledig (inleiding, rubriek-inhoud, waarderingsregels), 12 voetnootdefinities aanwezig, geen artefacten, geen orphan-footnotes, geen malformed italic. Compacte maar complete bron.
-      concrete_problemen: []
-gerelateerde_adviezen:
-  - titel: Boekhoudkundige verwerking van ontvangen subsidies voor de aankoop van activa die worden ter beschikking gesteld
-    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-ontvangen-subsidies-voor-de-aankoop-van-activa-die-worden
-    datum: '2016-03-09'
-  - titel: Verwerking van verrichtingen voor de verwerving of verkoop van een recht op vruchtgebruik of van naakte eigendom op materiële vaste activa in de boekhouding van de vruchtgebruiker (de erfpachter, de opstalhouder) en van de naakte eigenaar (de grondeigenaa
-    url: https://www.cbn-cnc.be/nl/adviezen/verwerking-van-verrichtingen-voor-de-verwerving-of-verkoop-van-een-recht-op-vruchtgebruik
-    datum: '1991-03-01'
-  - titel: Boeking van het verschuldigd bedrag om de optie te lichten of van de restwaarde aan het einde van de overeenkomst
-    url: https://www.cbn-cnc.be/nl/adviezen/boeking-van-het-verschuldigd-bedrag-om-de-optie-te-lichten-of-van-de-restwaarde-aan-het
-    datum: '1991-03-01'
-  - titel: Aansluitingskosten en installatiekosten waarbij derden de eigendom van de installatie verwerven of behouden
-    url: https://www.cbn-cnc.be/nl/adviezen/aansluitingskosten-en-installatiekosten-waarbij-derden-de-eigendom-van-de-installatie
-    datum: '1989-07-01'
 ---
 
 # CBN-advies 2021/09 – Rekening 26 Overige materiële vaste activa
@@ -97,8 +97,7 @@ Voor wat betreft de buiten gebruik gestelde of niet meer duurzaam tot de activit
 
 Voordien geboekte herwaarderingsmeerwaarden op materiële vaste activa die werden overgeboekt naar de rubriek Overige materiële vaste activa die niet langer noodzakelijk zijn voor de voortzetting van het bedrijf van de vennootschap, VZW, IVZW of stichting worden in voorkomend geval afgeboekt tot het beloop van het nog niet afgeschreven gedeelte van de meerwaarde om rekening te houden met de waarschijnlijke realisatiewaarde.
 
-De overige materiële vaste activa kunnen desgevallend worden geherwaardeerd indien hun waarde, in functie van hun nut voor de onderneming, op vaststaande en duurzame wijze uitstijgt boven hun boekwaarde. De gebruikelijke beperkingen die gelden bij het boeken van herwaarderingsmeerwaarden[^11]
- zijn ook hier van toepassing. Dit betekent dat wanneer de betrokken activa noodzakelijk zijn voor de voortzetting van het bedrijf van de vennootschap, VZW, IVZW of stichting of van een onderdeel daarvan, zij slechts mogen worden geherwaardeerd in de mate dat de aldus uitgedrukte meerwaarde wordt verantwoord door de rentabiliteit van de vennootschap, VZW, IVZW of stichting of van het betrokken onderdeel daarvan.[^12] 
+De overige materiële vaste activa kunnen desgevallend worden geherwaardeerd indien hun waarde, in functie van hun nut voor de onderneming, op vaststaande en duurzame wijze uitstijgt boven hun boekwaarde. De gebruikelijke beperkingen die gelden bij het boeken van herwaarderingsmeerwaarden[^11] zijn ook hier van toepassing. Dit betekent dat wanneer de betrokken activa noodzakelijk zijn voor de voortzetting van het bedrijf van de vennootschap, VZW, IVZW of stichting of van een onderdeel daarvan, zij slechts mogen worden geherwaardeerd in de mate dat de aldus uitgedrukte meerwaarde wordt verantwoord door de rentabiliteit van de vennootschap, VZW, IVZW of stichting of van het betrokken onderdeel daarvan.[^12] 
 
 [^1]: Onderhavig advies is tot stand gekomen nadat het ontwerp van dit advies op 18 december 2020 ter publieke consultatie werd gepubliceerd op de website van de CBN.
 

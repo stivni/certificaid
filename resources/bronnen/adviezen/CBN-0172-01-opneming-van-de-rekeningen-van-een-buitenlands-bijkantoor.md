@@ -2,76 +2,69 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/opneming-van-de-rekeningen-van-een-buitenlands-bijkantoor
 datum: 1995-10-01
 gerelateerde_adviezen:
-- datum: '2024-02-08'
-  titel: 'Belgische bijkantoren van buitenlandse verenigingen en stichtingen: toepassing
-    van het Belgisch boekhoudrecht – begrip ‘bijkantoor’ – publicatieplicht – eigen
-    boekhoudkundige verplichtingen'
-  url: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-buitenlandse-verenigingen-en-stichtingen-toepassing-van-het-0
-- datum: '2022-11-08'
-  titel: 'Belgische bijkantoren van buitenlandse vennootschappen: eigen boekhoudkundige
-    verplichtingen (update)'
-  url: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-buitenlandse-vennootschappen-eigen-boekhoudkundige
-- datum: '2022-11-08'
-  titel: 'Belgische bijkantoren van buitenlandse vennootschappen: toepassing van het
-    Belgisch boekhoudrecht - begrip “bijkantoor” – publicatieplicht (update)'
-  url: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-buitenlandse-vennootschappen-toepassing-van-het-belgisch
-- datum: '2019-09-26'
-  titel: Boekhoudplichtige onderneming
-  url: https://www.cbn-cnc.be/nl/adviezen/boekhoudplichtige-onderneming
+  - datum: '2024-02-08'
+    titel: 'Belgische bijkantoren van buitenlandse verenigingen en stichtingen: toepassing van het Belgisch boekhoudrecht – begrip ‘bijkantoor’ – publicatieplicht – eigen boekhoudkundige verplichtingen'
+    url: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-buitenlandse-verenigingen-en-stichtingen-toepassing-van-het-0
+  - datum: '2022-11-08'
+    titel: 'Belgische bijkantoren van buitenlandse vennootschappen: eigen boekhoudkundige verplichtingen (update)'
+    url: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-buitenlandse-vennootschappen-eigen-boekhoudkundige
+  - datum: '2022-11-08'
+    titel: 'Belgische bijkantoren van buitenlandse vennootschappen: toepassing van het Belgisch boekhoudrecht - begrip “bijkantoor” – publicatieplicht (update)'
+    url: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-buitenlandse-vennootschappen-toepassing-van-het-belgisch
+  - datum: '2019-09-26'
+    titel: Boekhoudplichtige onderneming
+    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudplichtige-onderneming
 nummer: CBN-advies 172/1
 provenance:
-  generated_at: '2026-05-08T18:35:37Z'
+  generated_at: '2026-05-11T13:05:06Z'
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/opneming-van-de-rekeningen-van-een-buitenlands-bijkantoor
-    sha256: 42b0c8c639ffa81815c1cc11b8bc16a03fccc7ef9e5a15c07e5c4f9f64fcadcb
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/opneming-van-de-rekeningen-van-een-buitenlands-bijkantoor
+      sha256: 42b0c8c639ffa81815c1cc11b8bc16a03fccc7ef9e5a15c07e5c4f9f64fcadcb
+      version:
   stale: false
-  stale_reason: null
+  stale_reason:
   tooling:
-    model: null
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    prompt_version: null
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
   trust:
     confirmed_at: '2026-05-08T19:02:28Z'
     confirmed_by: subagent-laag2-ronde2
     layer1:
-      file_size_chars: 61819
-      flags: []
-      heading_count: 59
-      max_section_chars: 22406
-      run_at: null
-      run_id: 20260511-083333
       status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:26Z'
+      heading_count: 59
+      max_section_chars: 20000
+      file_size_chars: 56589
+      flags: []
     layer2:
       agent: subagent-laag2-ronde2
       concrete_problemen: []
-      rationale: '[Laag-2-R2 2026-05-08] Het advies bevat 59 headings en 108 voetnoten
-        met uitgebreide kwantitatieve voorbeeldtabellen (3 scenario''s x 3 periodes).
-        Balansen en resultatenrekening-tabellen correct als Markdown pipe-tabellen.
-        Inhoud van alle balansen en journaalposten is retrievable.'
+      rationale: '[Laag-2-R2 2026-05-08] Het advies bevat 59 headings en 108 voetnoten met uitgebreide kwantitatieve voorbeeldtabellen (3 scenario''s x 3 periodes). Balansen en resultatenrekening-tabellen correct als Markdown pipe-tabellen. Inhoud van alle balansen en journaalposten is retrievable.'
       run_at: '2026-05-08T19:02:28Z'
       status: trusted
     rationale: Laag-2 trusted door subagent-laag2-ronde2 (zie layer2.rationale)
     status: trusted
 themas:
-- bijkantoor
-- buitenlands bijkantoor
-- buitenlands centrum van werkzaamheden
-- centrum van werkzaamheden
-- geldende omrekeningskoers op aanschaffingsdatum
-- methode van de slotkoers
-- monetaire posten
-- monetaire/niet-monetaire methode
-- niet monetaire activa
-- niet-monetaire posten
-- omrekening van de rekeningen van het bijkantoor
-- omrekeningsverschil
-- Opname rekeningen buitenlands kantoor
-- rekening-courant
-- slotkoers
-- verbindingsrekening
-- weglating van resultaten uit interne verrichtingen
+  - bijkantoor
+  - buitenlands bijkantoor
+  - buitenlands centrum van werkzaamheden
+  - centrum van werkzaamheden
+  - geldende omrekeningskoers op aanschaffingsdatum
+  - methode van de slotkoers
+  - monetaire posten
+  - monetaire/niet-monetaire methode
+  - niet monetaire activa
+  - niet-monetaire posten
+  - omrekening van de rekeningen van het bijkantoor
+  - omrekeningsverschil
+  - Opname rekeningen buitenlands kantoor
+  - rekening-courant
+  - slotkoers
+  - verbindingsrekening
+  - weglating van resultaten uit interne verrichtingen
 ---
 
 # CBN-advies 172/1 - Opneming van de rekeningen van een buitenlands bijkantoor
@@ -114,42 +107,7 @@ de waarde van het £ bedraagt, aan het einde van de periode (x+1), 1 €
       5. Geïntegreerde resultatenrekening in € (periode x) 
 
     2. De plaatselijke munt verliest aan waarde ten opzichte van de munt van de zetel;
-de waarde van het £ bedraagt, aan het einde van de periode (x+1), 1 € 
-      1. Invloed van de waardedaling van het £ op de geïntegreerde rekeningen in € tijdens x 
-      2. De stromen van het bijkantoor in £ voor de periode x+1 
-      3. Balans van de zetel na opneming in € (periode x+1) 
-      4. Geïntegreerde resultatenrekening in € (periode x+1) 
-
-    3. De plaatselijke munt stijgt, in waarde ten opzichte van die van de zetel; de waarde van het £ bedraagt, aan het einde van de periode x+1, 1,2 € 
-      1. Invloed van de waardestijging van het £ op de geïntegreerde rekeningen in € tijdens x 
-      2. De stromen van het bijkantoor in £ voor de periode x+1 
-      3. Balans van de zetel na opneming in € (periode x+1) 
-      4. Geïntegreerde resultatenrekening in € (periode x+1) 
-
-  3. VOORBEELD 3 : Volledige dekking 
-    1. De waarde van het £ bedraagt, aan het einde van de eerste periode, 1,1 € 
-      1. Balans bijkantoor in £ (periode x) 
-      2. Resultatenrekening bijkantoor in £ (periode x) 
-      3. Balans van de zetel voor de opneming in € (periode x) 
-      4. Balans van de zetel na opneming in € (periode x) 
-      5. Geïntegreerde resultatenrekening in € (periode x) 
-
-    2. De plaatselijke munt verliest aan waarde ten opzichte van de munt van de zetel; de waarde van het £ bedraagt, aan het einde van de periode x+1, 1 € 
-      1. Invloed van de waardedaling van het £ op de geïntegreerde rekeningen in € tijdens x 
-      2. De stromen van het bijkantoor in £ voor de periode x+1 
-      3. Balans van de zetel na opneming in € (periode x+1) 
-      4. Geïntegreerde resultatenrekening in € (periode x+1) 
-
-    3. De plaatselijke munt stijgt, in waarde ten opzichte van die van de zetel; de waarde van het £ bedraagt, aan het einde van de periode x+1, 1,2 € 
-      1. Invloed van de waardestijging van het £ op de geïntegreerde rekeningen in € tijdens periode x 
-      2. De stromen van het bijkantoor in € voor de periode x+1 
-      3. Balans van de zetel na opneming in € (periode x+1) 
-      4. Geïntegreerde resultatenrekening in € (periode x+1) 
-
-6. Conclusie 
-
-de waarde van het £ bedraagt, aan het einde van de periode (x+1), 1 €------ Invloed van de waardedaling van het £ op de geïntegreerde rekeningen in € tijdens x------ De stromen van het bijkantoor in £ voor de periode x+1 ------ Balans van de zetel na opneming in € (periode x+1)------ Geïntegreerde resultatenrekening in € (periode x+1)---- De plaatselijke munt stijgt, in waarde ten opzichte van die van de zetel; de waarde van het £ bedraagt, aan het einde van de periode (x+1), 1,2 €------ Invloed van de waardestijging van het £ op de geïntegreerde rekeningen in € tijdens x ------ De stromen van het bijkantoor in £ voor de periode (x+1) ------ Balans van de zetel na opneming in € (periode x+1)------ Geïntegreerde resultatenrekening in € (periode x+1)-- VOORBEELD 2 : Geen dekking---- De waarde van het £ bedraagt, aan het einde van de eerste periode, 1,1 €------ Balans bijkantoor in £ (periode x)------ Resultatenrekening bijkantoor in £ (periode x) ------ Balans van de zetel voor de opneming in € (periode x) ------ Balans van de zetel na opneming in € (periode x)------ Geïntegreerde resultatenrekening in € (periode x) ---- De plaatselijke munt verliest aan waarde ten opzichte van de munt van de zetel;
-de waarde van het £ bedraagt, aan het einde van de periode (x+1), 1 €------ Invloed van de waardedaling van het £ op de geïntegreerde rekeningen in € tijdens x------ De stromen van het bijkantoor in £ voor de periode x+1------ Balans van de zetel na opneming in € (periode x+1)------ Geïntegreerde resultatenrekening in € (periode x+1)---- De plaatselijke munt stijgt, in waarde ten opzichte van die van de zetel; de waarde van het £ bedraagt, aan het einde van de periode x+1, 1,2 €------ Invloed van de waardestijging van het £ op de geïntegreerde rekeningen in € tijdens x------ De stromen van het bijkantoor in £ voor de periode x+1------ Balans van de zetel na opneming in € (periode x+1) ------ Geïntegreerde resultatenrekening in € (periode x+1) -- VOORBEELD 3 : Volledige dekking---- De waarde van het £ bedraagt, aan het einde van de eerste periode, 1,1 €------ Balans bijkantoor in £ (periode x)------ Resultatenrekening bijkantoor in £ (periode x)------ Balans van de zetel voor de opneming in € (periode x) ------ Balans van de zetel na opneming in € (periode x) ------ Geïntegreerde resultatenrekening in € (periode x) ---- De plaatselijke munt verliest aan waarde ten opzichte van de munt van de zetel; de waarde van het £ bedraagt, aan het einde van de periode x+1, 1 €------ Invloed van de waardedaling van het £ op de geïntegreerde rekeningen in € tijdens x------ De stromen van het bijkantoor in £ voor de periode x+1------ Balans van de zetel na opneming in € (periode x+1)------ Geïntegreerde resultatenrekening in € (periode x+1)---- De plaatselijke munt stijgt, in waarde ten opzichte van die van de zetel; de waarde van het £ bedraagt, aan het einde van de periode x+1, 1,2 €------ Invloed van de waardestijging van het £ op de geïntegreerde rekeningen in € tijdens periode x------ De stromen van het bijkantoor in € voor de periode x+1------ Balans van de zetel na opneming in € (periode x+1) ------ Geïntegreerde resultatenrekening in € (periode x+1)Conclusie 
+de waarde van het £ bedraagt, aan het einde van de periode (x+1), 1 €
 
 ## Inleiding
 
@@ -163,8 +121,7 @@ Vaak wordt in dergelijke gevallen een "relatierekening" geopend in de boekhoudin
 
 De relatierekening is niet te verwarren met de verbindingsrekening die, sedert het koninklijk besluit van 18 december 2015 tot omzetting van de Richtlijn 2013/34/EU[^1], de titel van de rubriek "*Geplaatst kapitaal*" vervangt met betrekking tot de interne jaarrekening van de Belgische bijkantoren van vennootschappen naar buitenlands recht. De verbindingsrekening omvat "de eigen middelen die door de vennootschap naar buitenland recht aan de bedrijfsuitoefening van hun bijkantoren in België, [...] worden besteed"[^2].
 
-Op het vlak van de boekhouding en de jaarrekening stelt zich geen enkel principieel probleem[^3]
- wanneer zetel en bijkantoor van eenzelfde onderneming in hetzelfde land zijn gevestigd.
+Op het vlak van de boekhouding en de jaarrekening stelt zich geen enkel principieel probleem[^3] wanneer zetel en bijkantoor van eenzelfde onderneming in hetzelfde land zijn gevestigd.
 
 De situatie is anders wanneer het bijkantoor in een ander land is gevestigd dan de zetel. Zeer vaak moet het bijkantoor, overeenkomstig de wetgeving van de Staat van vestiging, dan niet alleen een afzonderlijke boekhouding voeren over zijn werkzaamheden aldaar, maar bovendien moet die boekhouding worden gevoerd volgens de in dat land geldende regels en in de munt van dat land. De opneming van de rekeningen van dat buitenlands bijkantoor in de boekhouding en in de boekhoudkundige synthesestaten van de betrokken onderneming kan dan ook soms voor problemen zorgen bij de herwerking en de omrekening. 
 
@@ -200,8 +157,7 @@ In de internationale doctrine genieten de monetaire/niet-monetaire methode, ener
 
 Artikel 42 van het koninklijk besluit van 6 maart 1990 op de geconsolideerde jaarrekening van de ondernemingen[^5], staat het gebruik van beide methodes toe voor de consolidatie. Het verslag aan de Koning dat dit koninklijk besluit voorafgaat, onderstreept dat de eerste methode in het bijzonder geschikt is voor de dochterondernemingen waarvan de bedrijfsuitoefening integraal deel uitmaakt van het bedrijf van de moederonderneming, terwijl de tweede meer geschikt is wanneer de dochterondernemingen een "bepaalde autonomie" vertonen. 
 
-In verband met de opneming van verrichtingen van buitenlandse bijkantoren in de statutaire jaarrekening, blijkt uit een studie van het Europees boekhoudforum[^6]
- dat enkele Lid-Staten van de Europese Unie uitgaan van hetzelfde onderscheid tussen geïntegreerde en niet-geïntegreerde bijkantoren, met dezelfde implicaties wat de boekhoudkundige verwerking betreft, maar dat in vele Lid-Staten de monetaire/niet-monetaire methode de enige is die wordt aanvaard of toegepast in de statutaire jaarrekening. 
+In verband met de opneming van verrichtingen van buitenlandse bijkantoren in de statutaire jaarrekening, blijkt uit een studie van het Europees boekhoudforum[^6] dat enkele Lid-Staten van de Europese Unie uitgaan van hetzelfde onderscheid tussen geïntegreerde en niet-geïntegreerde bijkantoren, met dezelfde implicaties wat de boekhoudkundige verwerking betreft, maar dat in vele Lid-Staten de monetaire/niet-monetaire methode de enige is die wordt aanvaard of toegepast in de statutaire jaarrekening. 
 
 Het beginsel en de boekhoudkundige implicaties van beide methodes komen respectievelijk in § 1 en in § 2 van artikel 132 KB W.Venn. aan bod. 
 
@@ -296,7 +252,7 @@ De op te nemen boekhoudkundige stromen zijn de volgende:
 | **Activa** | | **Passiva** | 
 | Verbindingsrekening[^9] | | 7.645.000 | | Kapitaal | | 7.720.000 | 
 | Bank | | 75.000 | | | | | 
-| | | **7.720.000 ** | | | | **7.720.000** | 
+| | | **7.720.000**  | | | | **7.720.000** | 
 
 ##### Balans van de zetel na opneming in € (periode x)
 
@@ -310,7 +266,7 @@ De op te nemen boekhoudkundige stromen zijn de volgende:
 
 ##### Geïntegreerde resultatenrekening in € (x)
 
-| | | **£ ** | | ** €** | 
+| | | **£**  | | ** €** | 
 | Omzet | | 10.000.000 | | 11.000.000 | 
 | Aankoop handelsgoederen | | (7.500.000) | | (8.250.000) | 
 | Voorraadwijzigingen | | 1.000.000 | | 1.100.000 | 
@@ -333,7 +289,7 @@ de waarde van het £ bedraagt, aan het einde van de periode (x+1), 1 €
 | Omrekeningsverschillen, op financiële schulden[^19] | | | | 200.000 | 
 | Omrekeningsverschillen op andere schulden[^20] | | | | 55.000 | 
 | Handelsvorderingen | | | | 355.000 | 
-| | | **710.000 ** | | **710.000** | 
+| | | **710.000**  | | **710.000** | 
 
 *Opmerking*
 
@@ -548,7 +504,7 @@ de waarde van het £ bedraagt, aan het einde van de periode (x+1), 1 €
 | Omrekeningsverschillen op handelsschulden[^51] | | | | 100.000 | 
 | Omrekeningsverschillen op andere schulden[^52] | | | | 55.000 | 
 | Handelsvorderingen | | | | 355.000 | 
-| | | **510.000 ** | | **510.000 ** | 
+| | | **510.000**  | | **510.000**  | 
 
 Voor zover de monetaire rekeningen rekeningen van het bijkantoor niet zijn gedekt, neemt de zetel de omrekeningsverschillen ten laste die voortvloeien uit de waardedaling van het £, met andere woorden 355.000 € negatieve omrekeningsverschillen op de handelsvorderingen en 155.000 € positieve omrekeningsverschillen op de handelsschulden en de andere schulden. 
 

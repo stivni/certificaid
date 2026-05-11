@@ -1,52 +1,52 @@
 ---
-nummer: CBN-advies 169/2
+bron: https://www.cbn-cnc.be/nl/adviezen/verwerking-van-cessie-retrocessieverrichtingen-in-de-jaarrekening-van-ondernemingen
 datum: 1995-02-01
+nummer: CBN-advies 169/2
+provenance:
+  generated_at: '2026-05-11T13:05:06Z'
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/verwerking-van-cessie-retrocessieverrichtingen-in-de-jaarrekening-van-ondernemingen
+      sha256: 7bdd2ddf62dc20d396997a39b3d2ba81e680484b21ead22a1e47bc44248fb977
+      version:
+  stale: false
+  stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
+  trust:
+    confirmed_at: '2026-05-11T12:09:17Z'
+    confirmed_by: subagent-sonnet-4-6
+    layer1:
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:26Z'
+      heading_count: 19
+      max_section_chars: 18084
+      file_size_chars: 29739
+      flags: []
+    layer2:
+      agent: subagent-sonnet-4-6
+      concrete_problemen:
+        - categorie: A9
+          regel: 138
+          type: ocr-confusion
+          voorbeeld: '**(Oordpronkelijke) cedent van het aandeel**'
+        - categorie: A9
+          regel: 205
+          type: ocr-confusion
+          voorbeeld: '**(Ooorspronkelijke) cessionaris van het aandeel**'
+      rationale: 'B3: duplicate ## heading niet aanwezig maar twee tikfouten zijn structureel storend: ''Oordpronkelijke'' (r.138) en ''Ooorspronkelijke'' (r.205) zijn duidelijke extractie-artefacten. De tekst is overigens goed gestructureerd met logische heading-hiërarchie en volledige inhoud.'
+      run_at: '2026-05-11T12:09:17Z'
+      status: needs-rework
+    rationale: 'B3: duplicate ## heading niet aanwezig maar twee tikfouten zijn structureel storend: ''Oordpronkelijke'' (r.138) en ''Ooorspronkelijke'' (r.205) zijn duidelijke extractie-artefacten. De tekst is overigens goed gestructureerd met logische heading-hiërarchie en volledige inhoud.'
+    status: needs-rework
 themas:
   - cessie-retrocessieverrichtingen
   - effecten
   - portageverrichtingen
   - aandelen
-bron: https://www.cbn-cnc.be/nl/adviezen/verwerking-van-cessie-retrocessieverrichtingen-in-de-jaarrekening-van-ondernemingen
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/verwerking-van-cessie-retrocessieverrichtingen-in-de-jaarrekening-van-ondernemingen
-      sha256: 7bdd2ddf62dc20d396997a39b3d2ba81e680484b21ead22a1e47bc44248fb977
-      version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:35:35Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T12:09:17Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "B3: duplicate ## heading niet aanwezig maar twee tikfouten zijn structureel storend: 'Oordpronkelijke' (r.138) en 'Ooorspronkelijke' (r.205) zijn duidelijke extractie-artefacten. De tekst is overigens goed gestructureerd met logische heading-hiërarchie en volledige inhoud."
-    layer1:
-      status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 7
-      max_section_chars: 18104
-      file_size_chars: 29760
-      flags: []
-    layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:09:17Z'
-      rationale: "B3: duplicate ## heading niet aanwezig maar twee tikfouten zijn structureel storend: 'Oordpronkelijke' (r.138) en 'Ooorspronkelijke' (r.205) zijn duidelijke extractie-artefacten. De tekst is overigens goed gestructureerd met logische heading-hiërarchie en volledige inhoud."
-      concrete_problemen:
-        - regel: 138
-          categorie: A9
-          type: ocr-confusion
-          voorbeeld: '**(Oordpronkelijke) cedent van het aandeel**'
-        - regel: 205
-          categorie: A9
-          type: ocr-confusion
-          voorbeeld: '**(Ooorspronkelijke) cessionaris van het aandeel**'
 ---
 
 # CBN-advies 169/2 - Verwerking van cessie-retrocessieverrichtingen in de jaarrekening van ondernemingen
@@ -92,8 +92,7 @@ Bij de aanvang van deze analyse lijken twee benaderingen mogelijk, afhankelijk o
 
 ### Eerste benadering
 
-In de eerste benadering wordt de verrichting beschouwd als een financierings- of herfinancieringsverrichting, als een lening met interest gekoppeld aan een fiduciaire overdracht van de eigendom van de betrokken actiefbestanddelen. Deze benadering wordt, voor de kredietinstellingen, bevestigd door het koninklijk besluit van 23 september 1992[^3]
- dat ter zake is gebaseerd op de regel vastgelegd in de richtlijn van de Raad van de EG betreffende de jaarrekening van de kredietinstellingen. Zij ligt eveneens aan de basis van de door voornoemde wet van 2 januari 1991 ingevoerde regeling. 
+In de eerste benadering wordt de verrichting beschouwd als een financierings- of herfinancieringsverrichting, als een lening met interest gekoppeld aan een fiduciaire overdracht van de eigendom van de betrokken actiefbestanddelen. Deze benadering wordt, voor de kredietinstellingen, bevestigd door het koninklijk besluit van 23 september 1992[^3] dat ter zake is gebaseerd op de regel vastgelegd in de richtlijn van de Raad van de EG betreffende de jaarrekening van de kredietinstellingen. Zij ligt eveneens aan de basis van de door voornoemde wet van 2 januari 1991 ingevoerde regeling. 
 
 In deze optiek en wat de boekhoudkundige verwerking betreft, worden de betrokken activa, aangezien er wordt van uitgegaan dat de overdracht gewoon fiduciair gebeurt, geacht de eigendom te blijven van de oorspronkelijke cedent en worden zij bijgevolg verder door hem als eigen activa geboekt, waarop de bepalingen van het gemeen boekhoudrecht van toepassing zijn. De door hem ontvangen bedragen worden daarentegen als ontleende bedragen beschouwd. De cessie-retrocessieverrichting zal bijgevolg in de jaarrekening van de oorspronkelijke cedent, zoals ook in de jaarrekening van de oorspronkelijke cessionaris, worden verwerkt op dezelfde wijze als een lening met interest die door de betrokken actiefbestanddelen is gewaarborgd. 
 
@@ -143,14 +142,14 @@ Op 30 januari 199x+1 koopt de vennootschap B de terug te geven aandelen voor 1.5
 
 1. Boekingen in hoofde van lener en ontlener vóór het afsluiten van de cessie/retrocessieverrichting 
 
-**(Oordpronkelijke) cedent van het aandeel**
+## (Oordpronkelijke) cedent van het aandeel
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 510 | Aandelen (aandelen Y) | 1.000.000 | |
 | aan | 4... | Diverse passiva | | 1.000.000 |
 
-**(Oorspronkelijke) cessionaris van het aandeel**
+## (Oorspronkelijke) cessionaris van het aandeel
 
 /
 
@@ -164,7 +163,7 @@ In de jaarrekening van de oorspronkelijke cessionaris, impliceert het afsluiten 
 
 - een overdracht van het (fiduciair ontleende) aandeel aan een derde, die voor de cessionaris resulteert in een baissepositie. 
 
-**(Oorspronkelijke) cedent van het aandeel**
+## (Oorspronkelijke) cedent van het aandeel
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
@@ -181,14 +180,12 @@ In de jaarrekening van de oorspronkelijke cessionaris, impliceert het afsluiten 
 | | 020 | Crediteuren van de onderneming, houders van zakelijke zekerheden | 1.000.000 | |
 | aan | 021 | Zakelijke zekerheden gesteld voor eigen rekening | | 1.000.000 |
 
-**(Oorspronkelijke) cessionaris van het aandeel**
+## (Oorspronkelijke) cessionaris van het aandeel
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 416 | Diverse vorderingen | 1.500.000 | |
 | aan | 55 | Kredietinstellingen | | 1.500.000 |
-
-[^5]
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
@@ -199,20 +196,18 @@ In de jaarrekening van de oorspronkelijke cessionaris, impliceert het afsluiten 
 
 Een cessie-retrocessieverrichting (zie ter zake punt 2) wordt in de boekhouding van de oorspronkelijke cedent en in die van de oorspronkelijke cessionaris geboekt als een lening die is gewaarborgd door de betrokken actiefbestanddelen.
 
-In dit voorbeeld echter waarin de fiduciair ontvangen aandeel Y wordt overgedragen door de (oorspronkelijke) cessionaris aan een derde[^6]
- moet, vóór de overdracht wordt geboekt, de verwerving van de eigendom van het betrokken aandeel worden geboekt met als tegenboeking een aandelenschuld ten belope van hetzelfde bedrag. Dit impliceert dat :
+In dit voorbeeld echter waarin de fiduciair ontvangen aandeel Y wordt overgedragen door de (oorspronkelijke) cessionaris aan een derde[^6] moet, vóór de overdracht wordt geboekt, de verwerving van de eigendom van het betrokken aandeel worden geboekt met als tegenboeking een aandelenschuld ten belope van hetzelfde bedrag. Dit impliceert dat :
 
 - de aandelen waarop de cessie-retrocessieovereenkomst betrekking heeft, worden «opgenomen» in het vermogen van de oorspronkelijke cessionaris en teruggenomen tegen de beurskoers (namelijk 1.602.000) op de dag waarop de overeenkomst wordt afgesloten;
-
 - tegelijkertijd de overdracht van de betrokken aandelen aan een derde (voor hetzelfde bedrag van 1.602.000), in de boekhouding tot uitdrukking word gebracht.
 
-**(Oorspronkelijke) cedent van het aandeel**
+## (Oorspronkelijke) cedent van het aandeel
 
 /
 
-**(Ooorspronkelijke) cessionaris van het aandeel**
+## (Ooorspronkelijke) cessionaris van het aandeel
 
-*Voorafgaande opneming van de aandelen Y in de portefeuille[^7] *
+*Voorafgaande opneming van de aandelen Y in de portefeuille[^7]* 
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
@@ -238,14 +233,14 @@ Bij de jaarafsluiting moet bijgevolg een prorata van die vergoeding worden geboe
 
 - komen de inkomsten uit het aandeel Y toe aan de oorspronkelijke cedent als eigenaar en worden zij normaliter geïnd door de fiduciaire eigenaar van de betrokken activa of door zijn lasthebber, maar in naam en voor rekening van de oorspronkelijke cedent[^8].
 
-**(Oorspronkelijke) cedent van het aandeel**
+## (Oorspronkelijke) cedent van het aandeel
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 650 | Kosten van de schulden | 15.000 | |
 | aan | 492 | Toe te rekenen kosten | | 15.000 |
 
-**(Oorspronkelijke) cessionaris van het aandeel**
+## (Oorspronkelijke) cessionaris van het aandeel
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
@@ -258,11 +253,11 @@ De overdracht (boeking sub punt 3 in dit voorbeeld) van de aandelen aan een derd
 
 Zodra de aandelen zijn teruggekocht, wordt ervan uitgegaan dat het resultaat, economisch gezien, is gerealiseerd en bijgevolg in resultaat zal worden genomen. Deze baissepositie zal in het voorbeeld tot uiting komen in een winst die voortvloeit uit het verschil tussen de cessieprijs (1.602.000) en het bedrag van 1.540.000 dat op 30 januari 199x+1 wordt betaald door de cessionaris om zich in te dekken in het vooruitzicht van de afwikkeling van de cessie-retrocessieverrichting (die, in dit voorbeeld, zal plaatsvinden een dag na de dekkingsverrichting). 
 
-**(Oorspronkelijke) cedent van het aandeel**
+## (Oorspronkelijke) cedent van het aandeel
 
 /
 
-**(Oorspronkelijke) cessionaris van het aandeel**
+## (Oorspronkelijke) cessionaris van het aandeel
 
 *Aanschaffing van de aandelen*
 
@@ -298,7 +293,7 @@ Indien de aandelen (zoals in dit voorbeeld) aan een derde werden overgedragen vo
 
 - anderzijds, op de aandelenschuld waarvan het bedrag werd geherwaardeerd ingevolge de inresultaatneming van het verschil dat is ontstaan bij het afsluiten van de dekkingsverrichting zoals geboekt in punt 5 van het schema (1 540 000, d.i. 1 602 000 - 62 000). 
 
-**(Oorspronkelijke) cedent van het aandeel**
+## (Oorspronkelijke) cedent van het aandeel
 
 *Terugbetaling van de lening*
 
@@ -329,7 +324,7 @@ Indien de aandelen (zoals in dit voorbeeld) aan een derde werden overgedragen vo
 | | 021 | Zakelijke zekerheden gesteld voor eigen rekening | 1.000.000 | |
 | aan | 020 | Crediteuren van de onderneming, houders van zakelijke zekerheden | | 1.000.000 |
 
-**(Oorspronkelijke) cessionaris van het aandeel**
+## (Oorspronkelijke) cessionaris van het aandeel
 
 *Terugbetaling van de lening*
 

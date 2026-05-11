@@ -1,6 +1,54 @@
 ---
-nummer: CBN-advies 2009/13
+bron: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-het-stelsel-tot-gedeeltelijke-vrijstelling-van-0
 datum: 2009-11-18
+gerelateerde_adviezen:
+  - datum: '2013-04-24'
+    titel: De boekhoudkundige verwerking van de door de Waalse regering gecreëerde opleidingscheques
+    url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-door-de-waalse-regering-gecreeerde-opleidingscheques
+  - datum: '2010-09-08'
+    titel: Boekhoudkundige verwerking van loontussenkomst door de overheid in hoofde van de werkgever (update)
+    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-loontussenkomst-door-de-overheid-in-hoofde-van-de-werkgever
+nummer: CBN-advies 2009/13
+provenance:
+  generated_at: '2026-05-11T13:05:07Z'
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-het-stelsel-tot-gedeeltelijke-vrijstelling-van-0
+      sha256: da1c0f17729bbe08a1ea44d889165553e64b1cc9f8b3643ce7a53b176d16b3d2
+      version:
+  stale: false
+  stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
+  trust:
+    confirmed_at: '2026-05-11T12:09:17Z'
+    confirmed_by: subagent-sonnet-4-6
+    layer1:
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:27Z'
+      heading_count: 5
+      max_section_chars: 9839
+      file_size_chars: 15365
+      flags: []
+    layer2:
+      agent: subagent-sonnet-4-6
+      concrete_problemen:
+        - categorie: D4
+          regel: 141
+          type: other
+          voorbeeld: rekening 150 *Kapitaalsubsidie *van de vennootschap
+        - categorie: D4
+          regel: 61
+          type: other
+          voorbeeld: rekening 151 *Kapitaalsubsidies ontvangen in contanten* van de vereniging of 150 *Kapitaalsubsidie *
+      rationale: 'D4: op r141 staat ''rekening 150 *Kapitaalsubsidie *van de vennootschap'' — spatie voor de closing asterisk geeft een malformed italic-marker (patroon: ''tekst *''); dit is een bekende ETL-spatie-artefact. Zelfde patroon op r61 ''rekening 151 *Kapitaalsubsidies ontvangen in contanten* van de vereniging of 150 *Kapitaalsubsidie *van de vennootschap''. Verder is de inhoud compleet en goed gestructureerd.'
+      run_at: '2026-05-11T12:09:17Z'
+      status: needs-rework
+    rationale: 'D4: op r141 staat ''rekening 150 *Kapitaalsubsidie *van de vennootschap'' — spatie voor de closing asterisk geeft een malformed italic-marker (patroon: ''tekst *''); dit is een bekende ETL-spatie-artefact. Zelfde patroon op r61 ''rekening 151 *Kapitaalsubsidies ontvangen in contanten* van de vereniging of 150 *Kapitaalsubsidie *van de vennootschap''. Verder is de inhoud compleet en goed gestructureerd.'
+    status: needs-rework
 themas:
   - bedrijfssubsidie
   - compensatie
@@ -8,54 +56,6 @@ themas:
   - subsidies
   - vzw
   - werkingssubsidie
-bron: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-het-stelsel-tot-gedeeltelijke-vrijstelling-van-0
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-het-stelsel-tot-gedeeltelijke-vrijstelling-van-0
-      sha256: da1c0f17729bbe08a1ea44d889165553e64b1cc9f8b3643ce7a53b176d16b3d2
-      version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:35:53Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T12:09:17Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "D4: op r141 staat 'rekening 150 *Kapitaalsubsidie *van de vennootschap' — spatie voor de closing asterisk geeft een malformed italic-marker (patroon: 'tekst *'); dit is een bekende ETL-spatie-artefact. Zelfde patroon op r61 'rekening 151 *Kapitaalsubsidies ontvangen in contanten* van de vereniging of 150 *Kapitaalsubsidie *van de vennootschap'. Verder is de inhoud compleet en goed gestructureerd."
-    layer1:
-      status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 6
-      max_section_chars: 7853
-      file_size_chars: 15370
-      flags: []
-    layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:09:17Z'
-      rationale: "D4: op r141 staat 'rekening 150 *Kapitaalsubsidie *van de vennootschap' — spatie voor de closing asterisk geeft een malformed italic-marker (patroon: 'tekst *'); dit is een bekende ETL-spatie-artefact. Zelfde patroon op r61 'rekening 151 *Kapitaalsubsidies ontvangen in contanten* van de vereniging of 150 *Kapitaalsubsidie *van de vennootschap'. Verder is de inhoud compleet en goed gestructureerd."
-      concrete_problemen:
-        - regel: 141
-          categorie: D4
-          type: other
-          voorbeeld: rekening 150 *Kapitaalsubsidie *van de vennootschap
-        - regel: 61
-          categorie: D4
-          type: other
-          voorbeeld: rekening 151 *Kapitaalsubsidies ontvangen in contanten* van de vereniging of 150 *Kapitaalsubsidie *
-gerelateerde_adviezen:
-  - titel: De boekhoudkundige verwerking van de door de Waalse regering gecreëerde opleidingscheques
-    url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-door-de-waalse-regering-gecreeerde-opleidingscheques
-    datum: '2013-04-24'
-  - titel: Boekhoudkundige verwerking van loontussenkomst door de overheid in hoofde van de werkgever (update)
-    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-loontussenkomst-door-de-overheid-in-hoofde-van-de-werkgever
-    datum: '2010-09-08'
 ---
 
 # CBN-advies 2009/13 – De boekhoudkundige verwerking van het stelsel tot gedeeltelijke vrijstelling van betaling van de bedrijfsvoorheffing, zoals geregeld door artikel 275/3 van het Wetboek van de Inkomstenbelastingen 1992
@@ -84,8 +84,8 @@ Het 1ste, 2de en 3de lid van §1 van artikel 275/3, WIB 92, luiden als volgt:
 
 *2° aan vennootschappen die onder de definitie van « Young Innovative Company » vallen en die bezoldigingen uitbetalen of toekennen aan wetenschappelijk personeel dat als werknemer door deze vennootschap wordt tewerkgesteld. Onder Young Innovative Company wordt verstaan een vennootschap die onderzoeksprojecten uitvoert en, aan het einde van het belastbare tijdperk, aan de volgende voorwaarden voldoet:*
 
-1. *het gaat om een kleine vennootschap, zoals bedoeld in artikel 15, §1, van het Wetboek van Vennootschappen; * 
-2. *ze bestaat sinds minder dan 10 jaar vóór 1 januari van het jaar waarin de vrijstelling van storting van de bedrijfsvoorheffing wordt toegekend; * 
+1. *het gaat om een kleine vennootschap, zoals bedoeld in artikel 15, §1, van het Wetboek van Vennootschappen;*  
+2. *ze bestaat sinds minder dan 10 jaar vóór 1 januari van het jaar waarin de vrijstelling van storting van de bedrijfsvoorheffing wordt toegekend;*  
 3. *ze is niet opgericht in het kader van een concentratie, een herstructurering, een uitbreiding van een vroegere activiteit of een overname van dergelijke activiteiten;* 
 4. *ze heeft uitgaven gedaan op het vlak van onderzoek en ontwikkeling die minstens 15 pct. van de totale kosten van het voorgaande belastbaar tijdperk vertegenwoordigen.* 
 
@@ -105,8 +105,7 @@ De brochure *Innovatief België*[^11], uitgegeven door het Federaal wetenschapsb
 
 ## Boekhoudkundige verwerking van de vrijstelling van betaling
 
-### Boekhoudkundige aard van het stelsel tot vrijstelling van betaling, geregeld door art. 275/3, WIB 92
-
+Boekhoudkundige aard van het stelsel tot vrijstelling van betaling, geregeld door art. 275/3, WIB 92
 In het CBN-advies 145/1 heeft de Commissie de boekhoudkundige verwerking van tewerkstellingspremies onderzocht, voorzien door de wet tot economische heroriëntering van 4 augustus 1978[^12].
 
 Het mechanisme van de vrijstelling van betaling, geregeld door artikel 275/3, WIB 92, verschilt, wat de modaliteiten betreft, inderdaad van de bovenbedoelde tewerkstellingspremies. Nochtans vertoont het ook identieke eigenschappen:
@@ -144,9 +143,9 @@ De Commissie stelt de verenigingen van nu af aan voor om de rekening 73 uit te b
 | | 453 | Ingehouden voorheffingen | ... | |
 | aan | 738 | Compenserende bedragen ter vermindering van de loonkost | | ... |
 
-Wat de vennootschappen betreft, zal dit wegvallen van de schuldvordering geregistreerd moeten worden onder de bedrijfsopbrengsten, in de rubriek I.D *Andere bedrijfsopbrengsten*, door de boeking op de creditzijde van de rekening 740 *Bedrijfssubsidies en compenserende bedragen*[^17].
+Wat de vennootschappen betreft, zal dit wegvallen van de schuldvordering geregistreerd moeten worden onder de bedrijfsopbrengsten, in de rubriek I.D *Andere bedrijfsopbrengsten*, door de boeking op de creditzijde van de rekening 740* Bedrijfssubsidies en compenserende bedragen*[^17].
 
-Er dient opgemerkt te worden dat, indien alle of een deel van de bezoldigingen in kwestie geactiveerd moeten worden, het deel van de subsidies toegewezen aan de financiering van de bovengenoemde bezoldigingen zou beschouwd moeten worden als een kapitaalsubsidie en bijgevolg geboekt zou moeten worden op de creditzijde van rekening 151 *Kapitaalsubsidies ontvangen in contanten* van de vereniging of 150 *Kapitaalsubsidie *van de vennootschap (CBN-advies 125/8[^18]).
+Er dient opgemerkt te worden dat, indien alle of een deel van de bezoldigingen in kwestie geactiveerd moeten worden, het deel van de subsidies toegewezen aan de financiering van de bovengenoemde bezoldigingen zou beschouwd moeten worden als een kapitaalsubsidie en bijgevolg geboekt zou moeten worden op de creditzijde van rekening 151 *Kapitaalsubsidies ontvangen in contanten* van de vereniging of 150 *Kapitaalsubsidie* van de vennootschap (CBN-advies 125/8[^18]).
 
 In dat geval zal deze subsidie bijgevolg op het ritme van de afschrijving van de door de subsidie gefinancierde vaste activa geheel of gedeeltelijk in resultaat moeten genomen worden.
 

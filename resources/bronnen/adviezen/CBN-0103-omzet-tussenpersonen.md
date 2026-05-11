@@ -1,6 +1,47 @@
 ---
-nummer: CBN-advies 103
+bron: https://www.cbn-cnc.be/nl/adviezen/omzet-tussenpersonen
 datum: 1977-08-01
+gerelateerde_adviezen:
+  - datum: '1988-06-01'
+    titel: Omzet van expediteurs
+    url: https://www.cbn-cnc.be/nl/adviezen/omzet-van-expediteurs
+nummer: CBN-advies 103
+provenance:
+  generated_at: '2026-05-11T13:05:05Z'
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/omzet-tussenpersonen
+      sha256: 9fe8f8368372e19e030cfb6ebe21f487d98bd122381c58765b829588ca177520
+      version:
+  stale: false
+  stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
+  trust:
+    confirmed_at: '2026-05-11T11:57:44Z'
+    confirmed_by: subagent-sonnet-4-6
+    layer1:
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:24Z'
+      heading_count: 0
+      max_section_chars: 4390
+      file_size_chars: 4390
+      flags: []
+    layer2:
+      agent: subagent-sonnet-4-6
+      concrete_problemen:
+        - categorie: B3
+          regel: 54
+          type: other
+          voorbeeld: '# CBN advies 103 - Omzet - Tussenpersonen (identiek aan regel 52)'
+      rationale: 'B3: de page-title heading is volledig gedupliceerd op regels 52 en 54 — een klassiek web-scrape-artefact waarbij de paginatitel en de content-heading beide worden meegenomen. Verder is de body inhoudelijk volledig en kwalitatief goed.'
+      run_at: '2026-05-11T11:57:44Z'
+      status: needs-rework
+    rationale: 'B3: de page-title heading is volledig gedupliceerd op regels 52 en 54 — een klassiek web-scrape-artefact waarbij de paginatitel en de content-heading beide worden meegenomen. Verder is de body inhoudelijk volledig en kwalitatief goed.'
+    status: needs-rework
 themas:
   - commissionair
   - expediteur
@@ -10,50 +51,7 @@ themas:
   - omzet
   - reder
   - tussenpersoon
-bron: https://www.cbn-cnc.be/nl/adviezen/omzet-tussenpersonen
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/omzet-tussenpersonen
-      sha256: 9fe8f8368372e19e030cfb6ebe21f487d98bd122381c58765b829588ca177520
-      version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:33:45Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T11:57:44Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: 'B3: de page-title heading is volledig gedupliceerd op regels 52 en 54 — een klassiek web-scrape-artefact waarbij de paginatitel en de content-heading beide worden meegenomen. Verder is de body inhoudelijk volledig en kwalitatief goed.'
-    layer1:
-      status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 0
-      max_section_chars: 4433
-      file_size_chars: 4433
-      flags: []
-    layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T11:57:44Z'
-      rationale: 'B3: de page-title heading is volledig gedupliceerd op regels 52 en 54 — een klassiek web-scrape-artefact waarbij de paginatitel en de content-heading beide worden meegenomen. Verder is de body inhoudelijk volledig en kwalitatief goed.'
-      concrete_problemen:
-        - regel: 54
-          categorie: B3
-          type: other
-          voorbeeld: '# CBN advies 103 - Omzet - Tussenpersonen (identiek aan regel 52)'
-gerelateerde_adviezen:
-  - titel: Omzet van expediteurs
-    url: https://www.cbn-cnc.be/nl/adviezen/omzet-van-expediteurs
-    datum: '1988-06-01'
 ---
-
-# CBN advies 103 - Omzet - Tussenpersonen
 
 # CBN advies 103 - Omzet - Tussenpersonen
 

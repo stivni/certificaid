@@ -1,62 +1,62 @@
 ---
-nummer: CBN-advies 2009/16
-datum: 2009-12-16
-themas:
-  - fusie
-  - grensoverschrijdende fusie
 bron: https://www.cbn-cnc.be/nl/adviezen/omrekening-van-kapitaal-bij-grensoverschrijdende-fusies
+datum: 2009-12-16
+gerelateerde_adviezen:
+  - datum: '2022-09-23'
+    titel: Boekhoudkundige verwerking van fusies tussen verenigingen en stichtingen
+    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-fusies-tussen-verenigingen-en-stichtingen
+  - datum: '2022-02-15'
+    titel: Fusies en splitsingen van vennootschappen met een negatief nettoactief
+    url: https://www.cbn-cnc.be/nl/adviezen/fusies-en-splitsingen-van-vennootschappen-met-een-negatief-nettoactief
+  - datum: '2021-11-22'
+    titel: 'Verenigingen en stichtingen: compensatie van negatieve fondsen'
+    url: https://www.cbn-cnc.be/nl/adviezen/verenigingen-en-stichtingen-compensatie-van-negatieve-fondsen
+  - datum: '2021-07-02'
+    titel: Boekhoudkundige verwerking van fusies tussen vennootschappen
+    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-fusies-tussen-vennootschappen
+nummer: CBN-advies 2009/16
 provenance:
+  generated_at: '2026-05-11T13:05:07Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/omrekening-van-kapitaal-bij-grensoverschrijdende-fusies
       sha256: 83dc21653a6c045697a3cc20ede1abb140dfde829e847e94ef0aef58d448ddef
       version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:35:55Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
   trust:
-    status: trusted
     confirmed_at: '2026-05-11T12:09:17Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: 'Geen substantiële extractie-artefacten. Vijf secties correct als ## headings opgemaakt, voetnoten [^1]–[^18] volledig gedefinieerd, inhoud compleet. De CAPS-headings (INLEIDING, TE VOLGEN PROCEDURE, etc.) zijn de stijl van dit advies en consistent. Geen invisible unicode, geen broken tables, geen afgekapte zinnen.'
     layer1:
       status: pass
-      run_id: 20260511-083333
-      run_at:
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:27Z'
       heading_count: 5
-      max_section_chars: 4267
-      file_size_chars: 10645
+      max_section_chars: 4266
+      file_size_chars: 10643
       flags: []
     layer2:
-      status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:09:17Z'
-      rationale: 'Geen substantiële extractie-artefacten. Vijf secties correct als ## headings opgemaakt, voetnoten [^1]–[^18] volledig gedefinieerd, inhoud compleet. De CAPS-headings (INLEIDING, TE VOLGEN PROCEDURE, etc.) zijn de stijl van dit advies en consistent. Geen invisible unicode, geen broken tables, geen afgekapte zinnen.'
       concrete_problemen: []
-gerelateerde_adviezen:
-  - titel: Boekhoudkundige verwerking van fusies tussen verenigingen en stichtingen
-    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-fusies-tussen-verenigingen-en-stichtingen
-    datum: '2022-09-23'
-  - titel: Fusies en splitsingen van vennootschappen met een negatief nettoactief
-    url: https://www.cbn-cnc.be/nl/adviezen/fusies-en-splitsingen-van-vennootschappen-met-een-negatief-nettoactief
-    datum: '2022-02-15'
-  - titel: 'Verenigingen en stichtingen: compensatie van negatieve fondsen'
-    url: https://www.cbn-cnc.be/nl/adviezen/verenigingen-en-stichtingen-compensatie-van-negatieve-fondsen
-    datum: '2021-11-22'
-  - titel: Boekhoudkundige verwerking van fusies tussen vennootschappen
-    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-fusies-tussen-vennootschappen
-    datum: '2021-07-02'
+      rationale: 'Geen substantiële extractie-artefacten. Vijf secties correct als ## headings opgemaakt, voetnoten [^1]–[^18] volledig gedefinieerd, inhoud compleet. De CAPS-headings (INLEIDING, TE VOLGEN PROCEDURE, etc.) zijn de stijl van dit advies en consistent. Geen invisible unicode, geen broken tables, geen afgekapte zinnen.'
+      run_at: '2026-05-11T12:09:17Z'
+      status: trusted
+    rationale: 'Geen substantiële extractie-artefacten. Vijf secties correct als ## headings opgemaakt, voetnoten [^1]–[^18] volledig gedefinieerd, inhoud compleet. De CAPS-headings (INLEIDING, TE VOLGEN PROCEDURE, etc.) zijn de stijl van dit advies en consistent. Geen invisible unicode, geen broken tables, geen afgekapte zinnen.'
+    status: trusted
+themas:
+  - fusie
+  - grensoverschrijdende fusie
 ---
 
 # CBN-advies 2009/16 Omrekening van kapitaal bij grensoverschrijdende fusies
 
 ## INLEIDING
 
-De Belgische wetgever heeft de grensoverschrijdende fusie, voorzien in de Tiende Richtlijn[^1], geregeld in de wet van 8 juni 2008[^2], door de invoering van een nieuwe titel “Titel V*bis*. *Bijzondere regels inzake de grensoverschrijdende fusies en gelijkgestelde verrichtingen*” in Boek XI van het Wetboek van Vennootschappen. De Tiende Richtlijn is van toepassing op fusies van kapitaalvennootschappen, opgericht in overeenstemming met de wetgeving van een Europese lidstaat en die hun statutaire zetel, hoofdbestuur of hoofdvestiging binnen de Europese Gemeenschap hebben, indien ten minste twee daarvan onder de wetgeving van verschillende lidstaten ressorteren[^3]. De bepalingen inzake interne fusies van Boek XI *Herstructurering van vennootschappen* van het Wetboek van Vennootschappen blijven evenwel, behoudens uitdrukkelijke afwijking, van toepassing op grensoverschrijdende fusies[^4].
+De Belgische wetgever heeft de grensoverschrijdende fusie, voorzien in de Tiende Richtlijn[^1], geregeld in de wet van 8 juni 2008[^2], door de invoering van een nieuwe titel “Titel V*bis*.* Bijzondere regels inzake de grensoverschrijdende fusies en gelijkgestelde verrichtingen*” in Boek XI van het Wetboek van Vennootschappen. De Tiende Richtlijn is van toepassing op fusies van kapitaalvennootschappen, opgericht in overeenstemming met de wetgeving van een Europese lidstaat en die hun statutaire zetel, hoofdbestuur of hoofdvestiging binnen de Europese Gemeenschap hebben, indien ten minste twee daarvan onder de wetgeving van verschillende lidstaten ressorteren[^3]. De bepalingen inzake interne fusies van Boek XI *Herstructurering van vennootschappen* van het Wetboek van Vennootschappen blijven evenwel, behoudens uitdrukkelijke afwijking, van toepassing op grensoverschrijdende fusies[^4].
 
 Aan de Commissie wordt in deze context de casus voorgelegd van een grensoverschrijdende fusie waarbij een Belgische vennootschap een vennootschap overneemt die gevestigd is in een lidstaat die niet tot de eurozone behoort. Bij deze fusie werd voorzien dat het kapitaal van de overnemende Belgische vennootschap gelijk is aan de som van het kapitaal van beide vennootschappen vóór de fusie.
 
@@ -82,7 +82,7 @@ Dit fusievoorstel moet door elke vennootschap die bij de fusie betrokken is, uit
 
 Daarnaast stelt het bestuursorgaan van elke betrokken vennootschap een omstandig verslag op, bestemd voor de vennoten, waarin de stand van het vermogen van de te fuseren vennootschappen wordt uiteengezet en de wenselijkheid van de fusie, de voorwaarden en de wijze waarop de fusie zal geschieden vanuit juridische en economisch oogpunt worden toegelicht en verantwoord[^11].
 
-Het Wetboek van Vennootschappen stelt in artikel 772/11, § 1, dat, onder voorbehoud van strengere bepalingen in de statuten, enkel tot grensoverschrijdende fusie van de vennootschap kan worden besloten door de algemene vergadering, overeenkomstig de specifieke regels van aanwezigheid en meerderheid[^12].  
+Het Wetboek van Vennootschappen stelt in artikel 772/11, § 1, dat, onder voorbehoud van strengere bepalingen in de statuten, enkel tot grensoverschrijdende fusie van de vennootschap kan worden besloten door de algemene vergadering, overeenkomstig de specifieke regels van aanwezigheid en meerderheid[^12]. 
 
 In elke vennootschap die de fusie aangaat, worden de notulen van de algemene vergadering waarin tot de fusie wordt besloten, opgesteld bij authentieke akte[^13].
 
@@ -118,7 +118,7 @@ De Commissie is van oordeel dat, voor wat grensoverschrijdende fusies betreft, d
 
 Ter herinnering: volgens deze methode worden de bestanddelen van de niet-monetaire posten omgerekend tegen de geldende koers op het ogenblik van de transactie, terwijl de bestanddelen van de monetaire posten normaliter omgerekend worden tegen de slotkoers.
 
-Voor een meer gedetailleerde bespreking wordt verwezen naar het voornoemde advies 172/1.  
+Voor een meer gedetailleerde bespreking wordt verwezen naar het voornoemde advies 172/1. 
 
 [^1]: Richtlijn 2005/56/EG van het Europees Parlement en van de Raad van 26 oktober 2005 betreffende grensoverschrijdende fusies van kapitaalvennootschappen, P.B. L 310/1 25.11.2005.
 

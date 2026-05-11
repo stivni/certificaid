@@ -1,6 +1,47 @@
 ---
-nummer: CBN-advies 173/6
+bron: https://www.cbn-cnc.be/nl/adviezen/verrekening-van-vorderingen-en-schulden-die-oorspronkelijk-zijn-uitgedrukt-in-munten-die
 datum: 1998-02-01
+nummer: CBN-advies 173/6
+provenance:
+  generated_at: '2026-05-11T13:05:06Z'
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/verrekening-van-vorderingen-en-schulden-die-oorspronkelijk-zijn-uitgedrukt-in-munten-die
+      sha256: c41f6a3cb0ae587f1e4b5b000235dc2a3bbe9337683fe765717feeee60ab3365
+      version:
+  stale: false
+  stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
+  trust:
+    confirmed_at: '2026-05-11T12:09:17Z'
+    confirmed_by: subagent-sonnet-4-6
+    layer1:
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:26Z'
+      heading_count: 3
+      max_section_chars: 3425
+      file_size_chars: 7820
+      flags: []
+    layer2:
+      agent: subagent-sonnet-4-6
+      concrete_problemen:
+        - categorie: F1
+          regel: 8
+          type: other
+          voorbeeld: '- erfpa (afgekapt thema-label in frontmatter)'
+        - categorie: A6
+          regel: 77
+          type: other
+          voorbeeld: '...mogen dus niet\n\nlanger, voor het overeenstemmende bedrag, voorkomen...'
+      rationale: 'Twee problemen: (1) A6: zin op r.77-79 breekt na ''mogen dus niet'' met witregel, vervolgt op r.79 met ''langer...'' — duidelijke PDF-regelbreuk. (2) Frontmatter-thema ''erfpa'' op r.8 is een afgekapt label (vermoedelijk ''erfpacht'' of gerelateerd concept), wat wijst op een extractie-bug in de thema-scraping.'
+      run_at: '2026-05-11T12:09:17Z'
+      status: needs-rework
+    rationale: 'Twee problemen: (1) A6: zin op r.77-79 breekt na ''mogen dus niet'' met witregel, vervolgt op r.79 met ''langer...'' — duidelijke PDF-regelbreuk. (2) Frontmatter-thema ''erfpa'' op r.8 is een afgekapt label (vermoedelijk ''erfpacht'' of gerelateerd concept), wat wijst op een extractie-bug in de thema-scraping.'
+    status: needs-rework
 themas:
   - verrekening van vorderingen en schulden
   - vordering
@@ -11,47 +52,6 @@ themas:
   - schulden
   - schulden die oorspronkelijk zijn uitgedrukt in munten die overgaan in de euro
   - schuldvergelijking
-bron: https://www.cbn-cnc.be/nl/adviezen/verrekening-van-vorderingen-en-schulden-die-oorspronkelijk-zijn-uitgedrukt-in-munten-die
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/verrekening-van-vorderingen-en-schulden-die-oorspronkelijk-zijn-uitgedrukt-in-munten-die
-      sha256: c41f6a3cb0ae587f1e4b5b000235dc2a3bbe9337683fe765717feeee60ab3365
-      version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:35:41Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T12:09:17Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "Twee problemen: (1) A6: zin op r.77-79 breekt na 'mogen dus niet' met witregel, vervolgt op r.79 met 'langer...' — duidelijke PDF-regelbreuk. (2) Frontmatter-thema 'erfpa' op r.8 is een afgekapt label (vermoedelijk 'erfpacht' of gerelateerd concept), wat wijst op een extractie-bug in de thema-scraping."
-    layer1:
-      status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 3
-      max_section_chars: 3425
-      file_size_chars: 7820
-      flags: []
-    layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:09:17Z'
-      rationale: "Twee problemen: (1) A6: zin op r.77-79 breekt na 'mogen dus niet' met witregel, vervolgt op r.79 met 'langer...' — duidelijke PDF-regelbreuk. (2) Frontmatter-thema 'erfpa' op r.8 is een afgekapt label (vermoedelijk 'erfpacht' of gerelateerd concept), wat wijst op een extractie-bug in de thema-scraping."
-      concrete_problemen:
-        - regel: 8
-          categorie: F1
-          type: other
-          voorbeeld: '- erfpa (afgekapt thema-label in frontmatter)'
-        - regel: 77
-          categorie: A6
-          type: other
-          voorbeeld: '...mogen dus niet\n\nlanger, voor het overeenstemmende bedrag, voorkomen...'
 ---
 
 # CBN-advies 173/6 - Verrekening van vorderingen en schulden die oorspronkelijk zijn uitgedrukt in munten die overgaan in de euro

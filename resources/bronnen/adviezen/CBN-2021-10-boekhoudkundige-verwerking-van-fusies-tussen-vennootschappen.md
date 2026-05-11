@@ -2,69 +2,67 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-fusies-tussen-vennootschappen
 datum: 2021-07-02
 gerelateerde_adviezen:
-- datum: '2022-09-23'
-  titel: Boekhoudkundige verwerking van fusies tussen verenigingen en stichtingen
-  url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-fusies-tussen-verenigingen-en-stichtingen
-- datum: '2022-02-15'
-  titel: Fusies en splitsingen van vennootschappen met een negatief nettoactief
-  url: https://www.cbn-cnc.be/nl/adviezen/fusies-en-splitsingen-van-vennootschappen-met-een-negatief-nettoactief
-- datum: '2021-11-22'
-  titel: 'Verenigingen en stichtingen: compensatie van negatieve fondsen'
-  url: https://www.cbn-cnc.be/nl/adviezen/verenigingen-en-stichtingen-compensatie-van-negatieve-fondsen
-- datum: '2018-12-07'
-  titel: Begin van het boekjaar
-  url: https://www.cbn-cnc.be/nl/adviezen/begin-van-het-boekjaar
+  - datum: '2022-09-23'
+    titel: Boekhoudkundige verwerking van fusies tussen verenigingen en stichtingen
+    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-fusies-tussen-verenigingen-en-stichtingen
+  - datum: '2022-02-15'
+    titel: Fusies en splitsingen van vennootschappen met een negatief nettoactief
+    url: https://www.cbn-cnc.be/nl/adviezen/fusies-en-splitsingen-van-vennootschappen-met-een-negatief-nettoactief
+  - datum: '2021-11-22'
+    titel: 'Verenigingen en stichtingen: compensatie van negatieve fondsen'
+    url: https://www.cbn-cnc.be/nl/adviezen/verenigingen-en-stichtingen-compensatie-van-negatieve-fondsen
+  - datum: '2018-12-07'
+    titel: Begin van het boekjaar
+    url: https://www.cbn-cnc.be/nl/adviezen/begin-van-het-boekjaar
 nummer: CBN-advies 2021/10
 provenance:
-  generated_at: '2026-05-08T18:38:00Z'
+  generated_at: '2026-05-11T13:05:08Z'
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-fusies-tussen-vennootschappen
-    sha256: 3790a16041b65701836ff1734be487b952cc0233a7b050a8232a2df96c20b8e3
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-fusies-tussen-vennootschappen
+      sha256: 3790a16041b65701836ff1734be487b952cc0233a7b050a8232a2df96c20b8e3
+      version:
   stale: false
-  stale_reason: null
+  stale_reason:
   tooling:
-    model: null
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    prompt_version: null
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
   trust:
     confirmed_at: '2026-05-08T19:02:27Z'
     confirmed_by: subagent-laag2-ronde2
     layer1:
-      file_size_chars: 76921
-      flags: []
-      heading_count: 26
-      max_section_chars: 18947
-      run_at: null
-      run_id: 20260511-083333
       status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:30Z'
+      heading_count: 21
+      max_section_chars: 18941
+      file_size_chars: 76889
+      flags: []
     layer2:
       agent: subagent-laag2-ronde2
       concrete_problemen: []
-      rationale: '[Laag-2-R2 2026-05-08] 26 headings voor technisch complex advies
-        over fusies. Lange sectie bevat genummerde voorbeelden met balansen, maar
-        inhoud is volledig en correct genesteld.'
+      rationale: '[Laag-2-R2 2026-05-08] 26 headings voor technisch complex advies over fusies. Lange sectie bevat genummerde voorbeelden met balansen, maar inhoud is volledig en correct genesteld.'
       run_at: '2026-05-08T19:02:27Z'
       status: trusted
     rationale: Laag-2 trusted door subagent-laag2-ronde2 (zie layer2.rationale)
     status: trusted
 themas:
-- fusie
-- reorganisatie
-- continuïteit
-- fusie door overneming
-- fractiewaarde
-- ruilverhouding
-- ruilwaarde
-- eigen aandelen
-- nominale waarde
-- proportionele overname
-- opleg in geld
-- geldopleg
-- kapitaalsubsidie
-- herwaarderingsmeerwaarde
-- wedersamenstelling van het eigen vermogen
+  - fusie
+  - reorganisatie
+  - continuïteit
+  - fusie door overneming
+  - fractiewaarde
+  - ruilverhouding
+  - ruilwaarde
+  - eigen aandelen
+  - nominale waarde
+  - proportionele overname
+  - opleg in geld
+  - geldopleg
+  - kapitaalsubsidie
+  - herwaarderingsmeerwaarde
+  - wedersamenstelling van het eigen vermogen
 ---
 
 # CBN-advies 2021/10 – Boekhoudkundige verwerking van fusies tussen vennootschappen
@@ -85,10 +83,9 @@ Onderhavig advies vervangt CBN-advies 2009/6 – *De boekhoudkundige verwerking 
 
 ### Definitie van de fusie door overneming
 
-In vennootschapsrechtelijk opzicht wordt een fusie door overneming gedefinieerd door de overdracht van het gehele vermogen, zowel de rechten als de verplichtingen, van één of meerdere vennootschappen (hierna: ’de overgenomen vennootschap(pen)’) aan een andere bestaande vennootschap (hierna: ’de overnemende vennootschap’) ten gevolge van een ontbinding zonder vereffening, waarbij de aandeelhouders of vennoten[^3]
- van de overgenomen vennootschap(pen) aandelen in de overnemende vennootschap ontvangen en, in voorkomend geval, ook een opleg in geld[^4]. 
+In vennootschapsrechtelijk opzicht wordt een fusie door overneming gedefinieerd door de overdracht van het gehele vermogen, zowel de rechten als de verplichtingen, van één of meerdere vennootschappen (hierna: ’de overgenomen vennootschap(pen)’) aan een andere bestaande vennootschap (hierna: ’de overnemende vennootschap’) ten gevolge van een ontbinding zonder vereffening, waarbij de aandeelhouders of vennoten[^3] van de overgenomen vennootschap(pen) aandelen in de overnemende vennootschap ontvangen en, in voorkomend geval, ook een opleg in geld[^4]. 
 
-Wanneer de overnemende vennootschap een kapitaalhoudende vennootschap is, mag het bedrag van deze opleg niet meer bedragen dan een tiende van de nominale waarde of, bij gebrek hieraan, van de fractiewaarde van de toegekende aandelen[^5]. De memorie van toelichting van de wet tot invoering van het Wetboek van vennootschappen en verenigingen en houdende diverse bepalingen bepaalt dat de fractiewaarde van elk aandeel van een vennootschap kan worden berekend door het kapitaal van de vennootschap te delen door het aantal bestaande aandelen. Bij verwijzing naar de definitie van de rubriek *Kapitaal *zoals bepaald in artikel 3:89, § 2, I, 1° van het koninklijk besluit tot uitvoering van het Wetboek van vennootschappen en verenigingen (hierna: KB WVV), stemt de teller van de breuk overeen met: “*het bedrag van het kapitaal, bestaande uit het deel van het kapitaal dat werd gevormd door (a) de inbreng vanwege de aandeelhouders in het kapitaal; (b) in voorkomend geval de omzetting van uitgiftepremies; en (c) in voorkomend geval de omzetting van geboekte herwaarderingsmeerwaarden of van reserves; indien niet terugbetaald of verminderd via een kapitaalvermindering*”.
+Wanneer de overnemende vennootschap een kapitaalhoudende vennootschap is, mag het bedrag van deze opleg niet meer bedragen dan een tiende van de nominale waarde of, bij gebrek hieraan, van de fractiewaarde van de toegekende aandelen[^5]. De memorie van toelichting van de wet tot invoering van het Wetboek van vennootschappen en verenigingen en houdende diverse bepalingen bepaalt dat de fractiewaarde van elk aandeel van een vennootschap kan worden berekend door het kapitaal van de vennootschap te delen door het aantal bestaande aandelen. Bij verwijzing naar de definitie van de rubriek *Kapitaal* zoals bepaald in artikel 3:89, § 2, I, 1° van het koninklijk besluit tot uitvoering van het Wetboek van vennootschappen en verenigingen (hierna: KB WVV), stemt de teller van de breuk overeen met: “*het bedrag van het kapitaal, bestaande uit het deel van het kapitaal dat werd gevormd door (a) de inbreng vanwege de aandeelhouders in het kapitaal; (b) in voorkomend geval de omzetting van uitgiftepremies; en (c) in voorkomend geval de omzetting van geboekte herwaarderingsmeerwaarden of van reserves; indien niet terugbetaald of verminderd via een kapitaalvermindering*”.
 
 In de veronderstelling dat de overnemende vennootschap een kapitaalloze vennootschap is, wordt de fractiewaarde gelijkgesteld met “*de inbrengwaarde, zoals die blijkt uit de jaarrekening, van alle door de vennoten of aandeelhouders toegezegde inbrengen in geld of in natura, met uitzondering van de inbrengen in nijverheid, in voorkomend geval verhoogd met de reserves die op grond van een statutaire bepaling slechts aan de vennoten of aandeelhouders kunnen worden uitgekeerd met een statutenwijziging, dit alles gedeeld door het aantal aandelen*”[^6].
 
@@ -100,7 +97,7 @@ De reserves waar in artikel 12:2, tweede lid WVV naar wordt verwezen, zijn samen
 
 De teller van de breuk stemt bijgevolg overeen met de definitie van de rubriek ‘Inbreng’ zoals bepaald in artikel 3:89, § 2, I, 2° KB WVV voor BV’s en CV’s, behalve dat de reserves zoals bepaald in voormeld artikel waarop de aandeelhouders in geval van uittreding of uitsluiting geen recht hebben, niet in aanmerking worden genomen[^10]. Zo heeft de wetgever gelijkwaardigheid met het begrip ‘fractiewaarde’ weten te creëren.
 
-Aangezien deze definitie van *Inbreng *enkel betrekking heeft op BV’s en CV’s, en niet op de CommV en de VOF, is de Commissie van oordeel dat het voor de gevallen waarin de verkrijgende vennootschap de rechtsvorm aanneemt van een CommV of een VOF, aangewezen is om de samenstellende delen van de *Inbreng *zoals vermeld in artikel 3:89, § 2, I, 3° KB WVV, te nemen als basis voor de berekening. Met ‘samenstellende delen’ wordt het volgende bedoeld: “*het vennootschapsvermogen dat bestaat uit het bedongen bedrag van de in de vennootschap ingebrachte of nog in te brengen waarden, in voorkomend geval zoals statutair vastgelegd*”.
+Aangezien deze definitie van *Inbreng* enkel betrekking heeft op BV’s en CV’s, en niet op de CommV en de VOF, is de Commissie van oordeel dat het voor de gevallen waarin de verkrijgende vennootschap de rechtsvorm aanneemt van een CommV of een VOF, aangewezen is om de samenstellende delen van de *Inbreng* zoals vermeld in artikel 3:89, § 2, I, 3° KB WVV, te nemen als basis voor de berekening. Met ‘samenstellende delen’ wordt het volgende bedoeld: “*het vennootschapsvermogen dat bestaat uit het bedongen bedrag van de in de vennootschap ingebrachte of nog in te brengen waarden, in voorkomend geval zoals statutair vastgelegd*”.
 
 De overnemende vennootschap wordt geacht de rechtspersoonlijkheid van de overgenomen vennootschap verder te zetten.
 
@@ -120,8 +117,7 @@ Bij de overdracht van de bestanddelen van het eigen vermogen van de overgenomen 
 
 Indien een fusie door overneming plaatsvindt tussen twee kapitaalhoudende of twee kapitaalloze vennootschappen, worden de verschillende posten van het eigen vermogen (kapitaal/inbreng, herwaarderingsmeerwaarden, reserves, overgedragen resultaat en kapitaalsubsidies) bij elkaar opgeteld.
 
-Wanneer een kapitaalloze vennootschap een kapitaalhoudende vennootschap overneemt, worden het kapitaal en de wettelijke reserve van de kapitaalhoudende vennootschap omgezet in beschikbare of onbeschikbare inbreng[^16]
- terwijl de rubrieken die volgen gewoon worden opgeteld.
+Wanneer een kapitaalloze vennootschap een kapitaalhoudende vennootschap overneemt, worden het kapitaal en de wettelijke reserve van de kapitaalhoudende vennootschap omgezet in beschikbare of onbeschikbare inbreng[^16] terwijl de rubrieken die volgen gewoon worden opgeteld.
 
 Wanneer een kapitaalhoudende vennootschap daarentegen een kapitaalloze vennootschap overneemt, wordt de inbreng van deze kapitaalloze vennootschap niet noodzakelijk omgezet in kapitaal. De inbreng kan eveneens worden opgenomen op de balans onder de rubriek Andere bij de inbreng buiten kapitaal. In de akte van fusie moet er dus worden bepaald naar welke balanspost de inbreng van de overgenomen vennootschap moet worden overgedragen.
 
@@ -152,8 +148,7 @@ Anderzijds moet het fusieproces worden verwerkt in een continuïteitsoptiek met 
 
 Voorbeeld 1: De overnemende en overgenomen vennootschap houden geen aandelen van elkaar. Er wordt geen opleg in geld toegekend. De overgenomen vennootschap bezit geen eigen aandelen. De aandelen van de deelnemende vennootschappen hebben geen nominale waarde. Er werd niet besloten om de fractiewaarde per aandeel van de overnemende vennootschap te behouden.
 
-De balansen[^18]
- van de deelnemende vennootschappen vóór de fusie worden als volgt weergegeven:
+De balansen[^18] van de deelnemende vennootschappen vóór de fusie worden als volgt weergegeven:
 
 | Balans A | 
 | Vaste activa | | 3.080 | | Inbreng/Kapitaal[^19] | | 1.800 | 
@@ -208,8 +203,7 @@ Indien A B overneemt en 80 % van de aandelen van B vóór de fusie werden geboek
 
 ## Uitzonderingen op het boekhoudkundig continuïteitsprincipe
 
-### Overnemende en overgenomen vennootschap houden geen aandelen van elkaar. Er wordt geen opleg in geld toegekend. De overgenomen vennootschap bezit geen eigen aandelen. De verhoging van het kapitaal of van de inbreng van de overnemende vennootschap brengt een aanpassing teweeg (toepassing van artikelen 3:56, § 1 en 3:77, § 2 KB WVV).
-
+Overnemende en overgenomen vennootschap houden geen aandelen van elkaar. Er wordt geen opleg in geld toegekend. De overgenomen vennootschap bezit geen eigen aandelen. De verhoging van het kapitaal of van de inbreng van de overnemende vennootschap brengt een aanpassing teweeg (toepassing van artikelen 3:56, § 1 en 3:77, § 2 KB WVV).
 De verhoging van het kapitaal of van de inbreng van de overnemende vennootschap leidt tot een aanpassing wanneer:
 
 1. het kapitaal van de overnemende vennootschap volledig of gedeeltelijk vertegenwoordigd wordt door aandelen met nominale waarde (deze voorwaarde heeft enkel betrekking op kapitaalhoudende vennootschappen[^21]); 
@@ -260,7 +254,7 @@ Het kapitaal van A wordt dus verhoogd met 4.000 x 1,5 = 6.000 d.i. 2.000 meer da
 | Vaste activa | | | | Kapitaal | | | 
 | 3.080 + 12.660 = | | 15.740 | | 1.800 + 4.000 **+ 2.000** = | | 7.800 | 
 | Vlottende activa | | | | Reserves | | | 
-| 1.610 + 5.720 = | | 7.330 | | 1.670 + 8.900 **- 2.000 **= | | 8.570 | 
+| 1.610 + 5.720 = | | 7.330 | | 1.670 + 8.900 **- 2.000** = | | 8.570 | 
 | | | | | | | 16.370 | 
 | | | | | Voorzieningen | | | 
 | | | | | 400 + 1.680 = | | 2.080 | 
@@ -287,12 +281,10 @@ Het kapitaal van B wordt dus verhoogd met 600 x 2 = 1.200 d.i. 600 minder dan he
 | | | | | 3.800 + 820 = | | 4.620 | 
 | | | 23.070 | | | | 23.070 | 
 
-### Overnemende en overgenomen vennootschap houden geen aandelen van elkaar. Er wordt geen opleg in geld toegekend. De overgenomen vennootschap bezit eigen aandelen (toepassing van artikel 3:77, § 1 KB WVV) 
-
+Overnemende en overgenomen vennootschap houden geen aandelen van elkaar. Er wordt geen opleg in geld toegekend. De overgenomen vennootschap bezit eigen aandelen (toepassing van artikel 3:77, § 1 KB WVV)
 Artikel 12:34, § 2, 2° WVV bepaalt dat er geen aandelen van de overnemende vennootschap kunnen worden omgewisseld voor aandelen van de overgenomen vennootschap die worden gehouden door de overgenomen vennootschap zelf. 
 
-Bijgevolg verdwijnen bij fusie de eigen aandelen gehouden door de overgenomen vennootschap[^22]
- en wordt haar eigen vermogen verminderd ten belope van de boekwaarde van deze aandelen. 
+Bijgevolg verdwijnen bij fusie de eigen aandelen gehouden door de overgenomen vennootschap[^22] en wordt haar eigen vermogen verminderd ten belope van de boekwaarde van deze aandelen. 
 
 Werd bij inkoop een onbeschikbare reserve voor eigen aandelen gevormd, dan wordt de eigenvermogensvermindering toegerekend aan deze reserve. Werd met overtreding van artikelen 5:148, § 2, eerste lid en 7:217, § 2 WVV geen onbeschikbare reserve gevormd, dan moet de in artikelen 5:148, § 2, tweede lid en 7:219, § 3 WVV bepaalde toerekening worden gevolgd: eerst worden de beschikbare reserves verminderd en, bij gebrek aan dergelijke reserves, de andere bestanddelen van het eigen vermogen. 
 
@@ -327,8 +319,7 @@ Voorbeeld 3 : zelfde gegevens als in voorbeeld 1, met als verschil dat B 10 % ei
 | | | | | 820 + 3.800 = | | 4.620 | 
 | | | 21.770 | | | | 21.770 | 
 
-### Overnemende en overgenomen vennootschap houden geen aandelen van elkaar. De overgenomen vennootschap bezit geen eigen aandelen. Er wordt een opleg in geld toegekend (toepassing van artikel 3:77, § 3 KB WVV) 
-
+Overnemende en overgenomen vennootschap houden geen aandelen van elkaar. De overgenomen vennootschap bezit geen eigen aandelen. Er wordt een opleg in geld toegekend (toepassing van artikel 3:77, § 3 KB WVV)
 Artikel 12:2 WVV stelt dat een opleg in geld kan worden toegekend die niet meer mag bedragen dan een tiende van de nominale of, bij gebreke van nominale waarde, van de fractiewaarde van de toegekende aandelen. 
 
 Boekhoudkundig wordt de toegekende opleg geacht onttrokken te zijn aan het eigen vermogen van de overgenomen vennootschap. Deze onttrekking gebeurt op de wijze vastgesteld door de algemene vergadering die tot fusie besluit en kan slechts betrekking hebben op voor uitkering vatbare bedragen. Is er geen beslissing van de algemene vergadering, dan gebeurt de onttrekking, in volgorde, aan de overgedragen winst, de beschikbare reserves en de overige reserves die volgens de wet en/of de statuten kunnen uitgekeerd worden. 
@@ -355,7 +346,7 @@ Voorbeeld 4: zelfde gegevens als in voorbeeld 1. A neemt B over maar geeft 3.904
 | Vaste activa | | | | Inbreng/kapitaal | | | 
 | 3.080 + 12.660 = | | 15.740 | | 1.800 + 4.000 = | | 5.800 | 
 | Vlottende activa | | | | Reserves | | | 
-| 1.610 + 5.720 **- 300 **= | | 7.030 | | 1.670 + 8.900 **- 300 **= | | 10.270 | 
+| 1.610 + 5.720 **- 300** = | | 7.030 | | 1.670 + 8.900 **- 300** = | | 10.270 | 
 | | | | | | | 16.070 | 
 | | | | | Voorzieningen | | | 
 | | | | | 400 + 1.680 = | | 2.080 | 
@@ -365,8 +356,7 @@ Voorbeeld 4: zelfde gegevens als in voorbeeld 1. A neemt B over maar geeft 3.904
 
 In hoofde van de aandeelhouders van de overgenomen vennootschap moet de opleg afgetrokken worden van de boekwaarde, en bij voorrang van de aanschaffingswaarde, van de aandelen van de overgenomen vennootschap, inzover die opleg werd onttrokken aan het kapitaal, aan de uitgiftepremie van de overgenomen vennootschap of, in voorkomend geval, aan de inbreng. In de overige gevallen wordt dat bedrag in resultaat genomen. In bovenstaand voorbeeld wordt de opleg van 300 in opbrengsten opgenomen[^23].
 
-### Overnemende vennootschap bezit aandelen van de overgenomen vennootschap. Er wordt geen opleg in geld toegekend. De overgenomen vennootschap bezit geen eigen aandelen (toepassing van artikel 3:77, § 4 KB WVV)
-
+Overnemende vennootschap bezit aandelen van de overgenomen vennootschap. Er wordt geen opleg in geld toegekend. De overgenomen vennootschap bezit geen eigen aandelen (toepassing van artikel 3:77, § 4 KB WVV)
 Artikel 12:34, § 2, 1° WVV bepaalt dat er geen aandelen van de overnemende vennootschap kunnen worden toegekend in ruil voor aandelen van de overgenomen vennootschap die gehouden worden door de overnemende vennootschap. 
 
 De overnemende vennootschap wordt niet vergoed voor de aandelen die zij bezit in de overgenomen vennootschap. Bijgevolg worden voor haar aandelenpercentage in de overgenomen vennootschap geen nieuwe aandelen gecreëerd. 
@@ -585,7 +575,7 @@ Het deel van de belastingvrije reserves dat na de fusieverrichting nog steeds ni
 | | 689 | Overboeking naar de belastingvrije reserves | 800 | |
 | aan | 132 | Belastingvrije reserves | | 800 |
 
-Zoals vermeld in punt a) zal A het saldo van de vrijgestelde reserves ook kunnen wedersamenstellen door in haar boekhouding subrekeningen van rekening 10 *Kapitaal *of van rekening 110 *Beschikbare inbreng buiten kapitaal* te creëren, de ene voor de in het kapitaal / in de inbreng geïncorporeerde vrijgestelde reserves en de andere voor de in het kapitaal / in de inbreng geïncorporeerde negatieve belaste reserves (zie supra, randnummer 34).
+Zoals vermeld in punt a) zal A het saldo van de vrijgestelde reserves ook kunnen wedersamenstellen door in haar boekhouding subrekeningen van rekening 10 *Kapitaal* of van rekening 110 *Beschikbare inbreng buiten kapitaal* te creëren, de ene voor de in het kapitaal / in de inbreng geïncorporeerde vrijgestelde reserves en de andere voor de in het kapitaal / in de inbreng geïncorporeerde negatieve belaste reserves (zie supra, randnummer 34).
 
 Dat geeft in het voorbeeld de volgende boeking:
 
@@ -710,7 +700,7 @@ Voorbeeld 9: De gegevens zijn dezelfde als in voorbeeld 8. Er wordt geen waardec
 | | | | | Schulden | | 3.800 | 
 | | | 18.380 | | | | 18.380 | 
 
-Indien het verschil van 65 tussen de boekwaarde van de deelneming van A in B en het aandeel van het eigen vermogen dat deze deelneming vertegenwoordigt niet ten laste van de resultatenrekening wordt genomen, wordt er voor dit bedrag *goodwill *geboekt op het actief van A. De balans van A ziet er na fusie als volgt uit:
+Indien het verschil van 65 tussen de boekwaarde van de deelneming van A in B en het aandeel van het eigen vermogen dat deze deelneming vertegenwoordigt niet ten laste van de resultatenrekening wordt genomen, wordt er voor dit bedrag *goodwill* geboekt op het actief van A. De balans van A ziet er na fusie als volgt uit:
 
 | Balans A + B | 
 | Vaste activa | | | | Inbreng / Kapitaal | | | 
@@ -775,7 +765,7 @@ Het fusieverschil dat voortvloeit uit bovenvermeld verschil moet dus in resultaa
 | | | | | 1.670 + 8.900 x 80 %** + 90 **= | | 8.880 | 
 | | | | | | | 13.880 | 
 | Deelneming B | | | | Voorzieningen | | | 
-| 2.490 - 2.580 **+ 90 **= | | 0 | | 245 + 1.680 = | | 1.925 | 
+| 2.490 - 2.580 **+ 90** = | | 0 | | 245 + 1.680 = | | 1.925 | 
 | Vlottende activa | | 1.545 | | Schulden | | | 
 | | | | | 820 + 3.800 = | | 4.620 | 
 | | | 20.425 | | | | 20.425 | 
@@ -904,8 +894,7 @@ Voorbeeld 12 (vervolg):
 
 Indien de beschikbare reserves niet voldoen om de wedersamenstelling van kapitaalsubsidies of herwaarderingsmeerwaarden mogelijk te maken, mag de correctieboeking eveneens worden aangerekend op de resultatenrekening, op rekening 10 Kapitaal of op rekening 110 Beschikbare inbreng buiten kapitaal door het creëren van een in het kapitaal / in de inbreng geïncorporeerde vrijgestelde reserve en een in het kapitaal / in de inbreng geïncorporeerde negatieve reserve (cf. randnummers 34 tot 36). Net zoals het geval is bij de belastingvrije reserves, hangt het bedrag dat wordt wedersamengesteld af van het bedrag van de beschikbare reserves en van de aanrekening vóór de fusie op de beschikbare reserves van een deel van de weder samen te stellen kapitaalsubsidies / herwaarderingsmeerwaarden.
 
-### Overgenomen vennootschap bezit aandelen van de overnemende vennootschap. Er wordt geen opleg in geld toegekend. De overgenomen vennootschap bezit geen eigen aandelen 
-
+Overgenomen vennootschap bezit aandelen van de overnemende vennootschap. Er wordt geen opleg in geld toegekend. De overgenomen vennootschap bezit geen eigen aandelen
 Zoals hierboven werd vermeld (in punten 2. en 4.), bepaalt artikel 12:34, § 2 WVV dat er geen omwisseling plaatsvindt van aandelen van de overnemende vennootschap tegen aandelen van de overgenomen vennootschap die gehouden worden door de overnemende vennootschap of door de overgenomen vennootschap zelf. Dit verbod wordt geconcretiseerd door de opheffing van de aandelen van de overgenomen vennootschap.
 
 Er werd echter geen enkele regeling voorzien voor de aandelen van de overnemende vennootschap die gehouden worden door de overgenomen vennootschap in het geval er een fusie ontstaat.
@@ -960,7 +949,7 @@ Men zal opmerken dat het eigen vermogen overeenstemt met een fusie in omgekeerde
 | Vaste activa | | | | Inbreng | | | 
 | 10.660 + 3.080 = | | 13.740 | | 4.000 + 1.800 x 50 % = | | 4.900 | 
 | Deelneming A | | | | Reserves | | | 
-| 2.000 - (1.800 + 1.670) x 50 % **-** **265 **= | | 0 | | 8.900 + 1.670 x 50 % = | | 9.735 | 
+| 2.000 - (1.800 + 1.670) x 50 % **-** **265** = | | 0 | | 8.900 + 1.670 x 50 % = | | 9.735 | 
 | Vlottende activa | | | | Overgedragen resultaat | | <**265**> | 
 | 5.720 + 1.610 = | | 7.330 | | | | 14.370 | 
 | | | | | Voorzieningen | | | 

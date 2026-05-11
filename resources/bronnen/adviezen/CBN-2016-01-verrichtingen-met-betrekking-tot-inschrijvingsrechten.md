@@ -1,64 +1,64 @@
 ---
-nummer: CBN-advies 2016/1
-datum: 2016-03-09
-themas:
-  - aandelen
-  - effecten
-  - inschrijvingsrecht
 bron: https://www.cbn-cnc.be/nl/adviezen/verrichtingen-met-betrekking-tot-inschrijvingsrechten
+datum: 2016-03-09
+gerelateerde_adviezen:
+  - datum: '2024-03-13'
+    titel: Terugbetaling van kapitaal in vreemde valuta aan de aandeelhouders
+    url: https://www.cbn-cnc.be/nl/adviezen/terugbetaling-van-kapitaal-in-vreemde-valuta-aan-de-aandeelhouders
+  - datum: '2019-03-12'
+    titel: Dividenduitkering en kapitaalvermindering in natura
+    url: https://www.cbn-cnc.be/nl/adviezen/dividenduitkering-en-kapitaalvermindering-in-natura-0
+  - datum: '2016-09-07'
+    titel: 'Verenigingen en stichtingen: certificatie van aandelen van handelsvennootschappen'
+    url: https://www.cbn-cnc.be/nl/adviezen/verenigingen-en-stichtingen-certificatie-van-aandelen-van-handelsvennootschappen
+  - datum: '2011-02-25'
+    titel: 'Consolidatiekring: interpretatie van de uitsluitingsgrond van artikel 107, 4° KB W.Venn.'
+    url: https://www.cbn-cnc.be/nl/adviezen/consolidatiekring-interpretatie-van-de-uitsluitingsgrond-van-artikel-107-4deg-kb-wvenn
+nummer: CBN-advies 2016/1
 provenance:
+  generated_at: '2026-05-11T13:05:08Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/verrichtingen-met-betrekking-tot-inschrijvingsrechten
       sha256: dad4b233d963a4855c96703b21c8580530bead33ca10a1724540264c6e72f907
       version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:36:53Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
   trust:
-    status: needs-rework
     confirmed_at: '2026-05-11T12:16:34Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "E2: de tabel op regels 132–142 ('Naar gelang de boekwaarde...') is structureel gebroken — cellen bevatten geneste bullet-items (regels 135–138) waardoor de pipe-tabel syntactisch ongeldig is en renderers dit verkeerd zullen tonen. De tabel-header op regel 132 mist bovendien een correcte scheidingslijn."
     layer1:
       status: pass
-      run_id: 20260511-083333
-      run_at:
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:29Z'
       heading_count: 6
       max_section_chars: 3941
       file_size_chars: 12489
       flags: []
     layer2:
-      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:16:34Z'
-      rationale: "E2: de tabel op regels 132–142 ('Naar gelang de boekwaarde...') is structureel gebroken — cellen bevatten geneste bullet-items (regels 135–138) waardoor de pipe-tabel syntactisch ongeldig is en renderers dit verkeerd zullen tonen. De tabel-header op regel 132 mist bovendien een correcte scheidingslijn."
       concrete_problemen:
-        - regel: 132
-          categorie: E2
+        - categorie: E2
+          regel: 132
           type: other
           voorbeeld: '| **Boekwaarde van het oud effect** | | **Bedrag** | \n| \n- waarmee de boekwaarde...'
-        - regel: 135
-          categorie: E2
+        - categorie: E2
+          regel: 135
           type: other
           voorbeeld: '- waarmee de boekwaarde van het oud effect moet worden verminderd'
-gerelateerde_adviezen:
-  - titel: Terugbetaling van kapitaal in vreemde valuta aan de aandeelhouders
-    url: https://www.cbn-cnc.be/nl/adviezen/terugbetaling-van-kapitaal-in-vreemde-valuta-aan-de-aandeelhouders
-    datum: '2024-03-13'
-  - titel: Dividenduitkering en kapitaalvermindering in natura
-    url: https://www.cbn-cnc.be/nl/adviezen/dividenduitkering-en-kapitaalvermindering-in-natura-0
-    datum: '2019-03-12'
-  - titel: 'Verenigingen en stichtingen: certificatie van aandelen van handelsvennootschappen'
-    url: https://www.cbn-cnc.be/nl/adviezen/verenigingen-en-stichtingen-certificatie-van-aandelen-van-handelsvennootschappen
-    datum: '2016-09-07'
-  - titel: 'Consolidatiekring: interpretatie van de uitsluitingsgrond van artikel 107, 4° KB W.Venn.'
-    url: https://www.cbn-cnc.be/nl/adviezen/consolidatiekring-interpretatie-van-de-uitsluitingsgrond-van-artikel-107-4deg-kb-wvenn
-    datum: '2011-02-25'
+      rationale: 'E2: de tabel op regels 132–142 (''Naar gelang de boekwaarde...'') is structureel gebroken — cellen bevatten geneste bullet-items (regels 135–138) waardoor de pipe-tabel syntactisch ongeldig is en renderers dit verkeerd zullen tonen. De tabel-header op regel 132 mist bovendien een correcte scheidingslijn.'
+      run_at: '2026-05-11T12:16:34Z'
+      status: needs-rework
+    rationale: 'E2: de tabel op regels 132–142 (''Naar gelang de boekwaarde...'') is structureel gebroken — cellen bevatten geneste bullet-items (regels 135–138) waardoor de pipe-tabel syntactisch ongeldig is en renderers dit verkeerd zullen tonen. De tabel-header op regel 132 mist bovendien een correcte scheidingslijn.'
+    status: needs-rework
+themas:
+  - aandelen
+  - effecten
+  - inschrijvingsrecht
 ---
 
 # CBN-advies 2016/1 - Verrichtingen met betrekking tot inschrijvingsrechten

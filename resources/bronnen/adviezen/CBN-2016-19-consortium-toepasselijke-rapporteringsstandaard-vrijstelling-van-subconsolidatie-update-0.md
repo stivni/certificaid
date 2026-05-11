@@ -1,6 +1,56 @@
 ---
-nummer: CBN-advies 2016/19
+bron: https://www.cbn-cnc.be/nl/adviezen/consortium-toepasselijke-rapporteringsstandaard-vrijstelling-van-subconsolidatie-update-0
 datum: 2016-09-07
+gerelateerde_adviezen:
+  - datum: '2022-09-09'
+    titel: Vermogensmutatiemethode
+    url: https://www.cbn-cnc.be/nl/adviezen/vermogensmutatiemethode
+  - datum: '2022-07-27'
+    titel: Consolidatie bij de horizontale groep (consortium)
+    url: https://www.cbn-cnc.be/nl/adviezen/consolidatie-bij-de-horizontale-groep-consortium-0
+  - datum: '2017-09-13'
+    titel: Transacties onder gemeenschappelijke leiding (Common control transactions) (update)
+    url: https://www.cbn-cnc.be/nl/adviezen/transacties-onder-gemeenschappelijke-leiding-common-control-transactions-update
+  - datum: '2017-03-15'
+    titel: Consolidatie bij de horizontale groep (consortium)
+    url: https://www.cbn-cnc.be/nl/adviezen/consolidatie-bij-de-horizontale-groep-consortium
+nummer: CBN-advies 2016/19
+provenance:
+  generated_at: '2026-05-11T13:05:08Z'
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/consortium-toepasselijke-rapporteringsstandaard-vrijstelling-van-subconsolidatie-update-0
+      sha256: 65d15596052ca2d02b89fb1d796bc2ea30c852156292e7cfdeb5ef9df53c6f2c
+      version:
+  stale: false
+  stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
+  trust:
+    confirmed_at: '2026-05-11T12:16:34Z'
+    confirmed_by: subagent-sonnet-4-6
+    layer1:
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:29Z'
+      heading_count: 4
+      max_section_chars: 2104
+      file_size_chars: 5053
+      flags: []
+    layer2:
+      agent: subagent-sonnet-4-6
+      concrete_problemen:
+        - categorie: A6
+          regel: 62
+          type: other
+          voorbeeld: ', bijgewerkt op 10 september 2025 [^2]'
+      rationale: 'Regel 62: na de ##-titel staat een losstaand fragment '', bijgewerkt op 10 september 2025 [^2]'' dat begint met een komma — dit is een HTML-extractie-artefact waarbij de ''bijgewerkt''-annotatie niet in de frontmatter maar als inline tekst voor de eerste sectie belandde (categorie A6/G3). De inhoud is verder volledig en correct.'
+      run_at: '2026-05-11T12:16:34Z'
+      status: needs-rework
+    rationale: 'Regel 62: na de ##-titel staat een losstaand fragment '', bijgewerkt op 10 september 2025 [^2]'' dat begint met een komma — dit is een HTML-extractie-artefact waarbij de ''bijgewerkt''-annotatie niet in de frontmatter maar als inline tekst voor de eerste sectie belandde (categorie A6/G3). De inhoud is verder volledig en correct.'
+    status: needs-rework
 themas:
   - consolidatie
   - subconsolidatie
@@ -9,56 +59,6 @@ themas:
   - waarderingsregels
   - IFRS
   - BE GAAP
-bron: https://www.cbn-cnc.be/nl/adviezen/consortium-toepasselijke-rapporteringsstandaard-vrijstelling-van-subconsolidatie-update-0
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/consortium-toepasselijke-rapporteringsstandaard-vrijstelling-van-subconsolidatie-update-0
-      sha256: 65d15596052ca2d02b89fb1d796bc2ea30c852156292e7cfdeb5ef9df53c6f2c
-      version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:37:04Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T12:16:34Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "Regel 62: na de ##-titel staat een losstaand fragment ', bijgewerkt op 10 september 2025 [^2]' dat begint met een komma — dit is een HTML-extractie-artefact waarbij de 'bijgewerkt'-annotatie niet in de frontmatter maar als inline tekst voor de eerste sectie belandde (categorie A6/G3). De inhoud is verder volledig en correct."
-    layer1:
-      status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 4
-      max_section_chars: 2104
-      file_size_chars: 5054
-      flags: []
-    layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:16:34Z'
-      rationale: "Regel 62: na de ##-titel staat een losstaand fragment ', bijgewerkt op 10 september 2025 [^2]' dat begint met een komma — dit is een HTML-extractie-artefact waarbij de 'bijgewerkt'-annotatie niet in de frontmatter maar als inline tekst voor de eerste sectie belandde (categorie A6/G3). De inhoud is verder volledig en correct."
-      concrete_problemen:
-        - regel: 62
-          categorie: A6
-          type: other
-          voorbeeld: ', bijgewerkt op 10 september 2025 [^2]'
-gerelateerde_adviezen:
-  - titel: Vermogensmutatiemethode
-    url: https://www.cbn-cnc.be/nl/adviezen/vermogensmutatiemethode
-    datum: '2022-09-09'
-  - titel: Consolidatie bij de horizontale groep (consortium)
-    url: https://www.cbn-cnc.be/nl/adviezen/consolidatie-bij-de-horizontale-groep-consortium-0
-    datum: '2022-07-27'
-  - titel: Transacties onder gemeenschappelijke leiding (Common control transactions) (update)
-    url: https://www.cbn-cnc.be/nl/adviezen/transacties-onder-gemeenschappelijke-leiding-common-control-transactions-update
-    datum: '2017-09-13'
-  - titel: Consolidatie bij de horizontale groep (consortium)
-    url: https://www.cbn-cnc.be/nl/adviezen/consolidatie-bij-de-horizontale-groep-consortium
-    datum: '2017-03-15'
 ---
 
 # CBN-advies 2016/19 – Consortium: toepasselijke rapporteringsstandaard – vrijstelling van subconsolidatie (update)
@@ -90,8 +90,7 @@ In het geval dat NV ABC een genoteerde vennootschap zou zijn op een gereglemente
 
 De vrijstelling van subconsolidatie is voorzien in artikel 3:24 WVV.
 
-Overeenkomstig artikel 3:24 WVV[^7]
- wordt elk lid van het consortium aanzien als een consoliderende vennootschap. Van zodra het consortium een geconsolideerde jaarrekening opstelt, is de Commissie van oordeel dat ieder lid van het consortium de vrijstelling van subconsolidatie kan inroepen op voorwaarde dat artikel 3:26, § 2 WVV wordt nageleefd.
+Overeenkomstig artikel 3:24 WVV[^7] wordt elk lid van het consortium aanzien als een consoliderende vennootschap. Van zodra het consortium een geconsolideerde jaarrekening opstelt, is de Commissie van oordeel dat ieder lid van het consortium de vrijstelling van subconsolidatie kan inroepen op voorwaarde dat artikel 3:26, § 2 WVV wordt nageleefd.
 
 [^1]: Onderhavig advies is tot stand gekomen nadat een ontwerp van het advies op 20 mei 2016 ter consultatie werd gepubliceerd op de website van de CBN.
 

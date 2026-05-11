@@ -1,58 +1,58 @@
 ---
-nummer: CBN-advies 2016/26
-datum: 2016-10-26
-themas:
-  - diensten en diverse goederen
-  - kilometerheffing
 bron: https://www.cbn-cnc.be/nl/adviezen/kilometerheffing
+datum: 2016-10-26
+gerelateerde_adviezen:
+  - datum: '1988-01-21'
+    titel: Werkende vennoten
+    url: https://www.cbn-cnc.be/nl/adviezen/werkende-vennoten
+  - datum: '1988-12-01'
+    titel: Boeking van commissies
+    url: https://www.cbn-cnc.be/nl/adviezen/boeking-van-commissies
+  - datum: '1986-01-01'
+    titel: Materiële vaste activa - Onderscheid met voorraden
+    url: https://www.cbn-cnc.be/nl/adviezen/materiele-vaste-activa-onderscheid-met-voorraden
+  - datum: '1991-03-01'
+    titel: Rechten tot vertoning van films
+    url: https://www.cbn-cnc.be/nl/adviezen/rechten-tot-vertoning-van-films
+nummer: CBN-advies 2016/26
 provenance:
+  generated_at: '2026-05-11T13:05:08Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/kilometerheffing
       sha256: 8c35c5e1d99a47d6f1ece5d1ac3706232fa829b1aa58e1e2eb74712bdf2d5f93
       version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:37:07Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
   trust:
-    status: trusted
     confirmed_at: '2026-05-11T12:16:34Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: 'Kort, schoon advies zonder zichtbare artefacten. Twee ##-headings correct; vijf voetnoten volledig gedefinieerd; geen broken opmaak of extractiesporen.'
     layer1:
       status: pass
-      run_id: 20260511-083333
-      run_at:
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:29Z'
       heading_count: 2
-      max_section_chars: 3161
-      file_size_chars: 4730
+      max_section_chars: 3159
+      file_size_chars: 4728
       flags: []
     layer2:
-      status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:16:34Z'
-      rationale: 'Kort, schoon advies zonder zichtbare artefacten. Twee ##-headings correct; vijf voetnoten volledig gedefinieerd; geen broken opmaak of extractiesporen.'
       concrete_problemen: []
-gerelateerde_adviezen:
-  - titel: Werkende vennoten
-    url: https://www.cbn-cnc.be/nl/adviezen/werkende-vennoten
-    datum: '1988-01-21'
-  - titel: Boeking van commissies
-    url: https://www.cbn-cnc.be/nl/adviezen/boeking-van-commissies
-    datum: '1988-12-01'
-  - titel: Materiële vaste activa - Onderscheid met voorraden
-    url: https://www.cbn-cnc.be/nl/adviezen/materiele-vaste-activa-onderscheid-met-voorraden
-    datum: '1986-01-01'
-  - titel: Rechten tot vertoning van films
-    url: https://www.cbn-cnc.be/nl/adviezen/rechten-tot-vertoning-van-films
-    datum: '1991-03-01'
+      rationale: 'Kort, schoon advies zonder zichtbare artefacten. Twee ##-headings correct; vijf voetnoten volledig gedefinieerd; geen broken opmaak of extractiesporen.'
+      run_at: '2026-05-11T12:16:34Z'
+      status: trusted
+    rationale: 'Kort, schoon advies zonder zichtbare artefacten. Twee ##-headings correct; vijf voetnoten volledig gedefinieerd; geen broken opmaak of extractiesporen.'
+    status: trusted
+themas:
+  - diensten en diverse goederen
+  - kilometerheffing
 ---
 
-# CBN-advies 2016/26 – Kilometerheffing
+# COMMISSIE VOOR BOEKHOUDKUNDIGE NORMEN
 
 ## Algemeen
 
@@ -77,7 +77,7 @@ De kilometerheffing is een als bedrijfskost aan te merken heffing die niet gerel
 
 Gelet op wat voorafgaat, is de Commissie van mening dat de kilometerheffing moet worden geboekt op een passende grootboekrekening 61 *Diensten en diverse goederen* en in de jaarrekening moet worden opgenomen onder de post *Diensten en diverse goederen*.[^4] 
 
-De Commissie vestigt er de aandacht op dat wanneer de kilometerheffing een bijkomende kost vormt, de kilometerheffing deel uitmaakt van de aanschaffingsprijs in hoofde van de aankoper van het actiefbestanddeel (met inbegrip van de voorraden en de bestellingen in uitvoering).[^5]   
+De Commissie vestigt er de aandacht op dat wanneer de kilometerheffing een bijkomende kost vormt, de kilometerheffing deel uitmaakt van de aanschaffingsprijs in hoofde van de aankoper van het actiefbestanddeel (met inbegrip van de voorraden en de bestellingen in uitvoering).[^5] 
 
 [^1]: Onderhavig advies is tot stand gekomen nadat een ontwerp van het advies op 25 augustus 2016 ter consultatie werd gepubliceerd op de website van de CBN.
 

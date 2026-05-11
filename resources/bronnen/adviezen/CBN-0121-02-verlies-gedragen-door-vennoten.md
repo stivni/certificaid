@@ -1,6 +1,52 @@
 ---
-nummer: CBN-advies 121/2 bis
+bron: https://www.cbn-cnc.be/nl/adviezen/verlies-gedragen-door-vennoten
 datum: 1983-04-01
+gerelateerde_adviezen:
+  - datum: '2024-01-17'
+    titel: Vermogensklem bij de omzetting van een VZW in een coöperatieve vennootschap erkend als sociale onderneming
+    url: https://www.cbn-cnc.be/nl/adviezen/vermogensklem-bij-de-omzetting-van-een-vzw-in-een-cooperatieve-vennootschap-erkend-als-0
+  - datum: '2021-01-06'
+    titel: Uitgiftepremie
+    url: https://www.cbn-cnc.be/nl/adviezen/uitgiftepremie-0
+  - datum: '1981-12-01'
+    titel: Aanwending van herwaarderingsmeerwaarden
+    url: https://www.cbn-cnc.be/nl/adviezen/aanwending-van-herwaarderingsmeerwaarden-0
+  - datum: '1981-04-01'
+    titel: Aanwending van herwaarderingsmeerwaarden
+    url: https://www.cbn-cnc.be/nl/adviezen/aanwending-van-herwaarderingsmeerwaarden
+nummer: CBN-advies 121/2 bis
+provenance:
+  generated_at: '2026-05-11T13:05:05Z'
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/verlies-gedragen-door-vennoten
+      sha256: 8282fed6facf534849b18c1e63c5fa534fe5bfb1b41641fe59271df0b8295778
+      version:
+  stale: false
+  stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
+  trust:
+    confirmed_at: '2026-05-11T11:57:45Z'
+    confirmed_by: subagent-sonnet-4-6
+    layer1:
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:25Z'
+      heading_count: 0
+      max_section_chars: 1725
+      file_size_chars: 1725
+      flags: []
+    layer2:
+      agent: subagent-sonnet-4-6
+      concrete_problemen: []
+      rationale: Volledige, correcte advies-tekst (1725 tekens). Eén voetnoot [^1] correct gekoppeld. Geen artefacten aangetroffen. Frontmatter consistent met body. Laag-1 pass correct.
+      run_at: '2026-05-11T11:57:45Z'
+      status: trusted
+    rationale: Volledige, correcte advies-tekst (1725 tekens). Eén voetnoot [^1] correct gekoppeld. Geen artefacten aangetroffen. Frontmatter consistent met body. Laag-1 pass correct.
+    status: trusted
 themas:
   - aanzuiveren van verliezen
   - buitengewone algemene vergadering
@@ -9,52 +55,6 @@ themas:
   - vennoot
   - verlies
   - verlies gedragen door vennoten
-bron: https://www.cbn-cnc.be/nl/adviezen/verlies-gedragen-door-vennoten
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/verlies-gedragen-door-vennoten
-      sha256: 8282fed6facf534849b18c1e63c5fa534fe5bfb1b41641fe59271df0b8295778
-      version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:34:32Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: trusted
-    confirmed_at: '2026-05-11T11:57:45Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: Volledige, correcte advies-tekst (1725 tekens). Eén voetnoot [^1] correct gekoppeld. Geen artefacten aangetroffen. Frontmatter consistent met body. Laag-1 pass correct.
-    layer1:
-      status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 0
-      max_section_chars: 1725
-      file_size_chars: 1725
-      flags: []
-    layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T11:57:45Z'
-      rationale: Volledige, correcte advies-tekst (1725 tekens). Eén voetnoot [^1] correct gekoppeld. Geen artefacten aangetroffen. Frontmatter consistent met body. Laag-1 pass correct.
-      concrete_problemen: []
-gerelateerde_adviezen:
-  - titel: Vermogensklem bij de omzetting van een VZW in een coöperatieve vennootschap erkend als sociale onderneming
-    url: https://www.cbn-cnc.be/nl/adviezen/vermogensklem-bij-de-omzetting-van-een-vzw-in-een-cooperatieve-vennootschap-erkend-als-0
-    datum: '2024-01-17'
-  - titel: Uitgiftepremie
-    url: https://www.cbn-cnc.be/nl/adviezen/uitgiftepremie-0
-    datum: '2021-01-06'
-  - titel: Aanwending van herwaarderingsmeerwaarden
-    url: https://www.cbn-cnc.be/nl/adviezen/aanwending-van-herwaarderingsmeerwaarden-0
-    datum: '1981-12-01'
-  - titel: Aanwending van herwaarderingsmeerwaarden
-    url: https://www.cbn-cnc.be/nl/adviezen/aanwending-van-herwaarderingsmeerwaarden
-    datum: '1981-04-01'
 ---
 
 # CBN-advies 121/2bis - Verlies gedragen door vennoten

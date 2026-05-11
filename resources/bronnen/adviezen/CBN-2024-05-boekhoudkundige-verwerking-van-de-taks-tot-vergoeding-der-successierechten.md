@@ -1,6 +1,52 @@
 ---
-nummer: CBN-advies 2024/05
+bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-taks-tot-vergoeding-der-successierechten
 datum: 2024-05-22
+gerelateerde_adviezen:
+  - datum: '2019-03-05'
+    titel: Voorzieningen
+    url: https://www.cbn-cnc.be/nl/adviezen/voorzieningen
+  - datum: '2018-05-30'
+    titel: Interpretatie van code 99084 in de toelichting 5.14 van de geconsolideerde jaarrekening
+    url: https://www.cbn-cnc.be/nl/adviezen/interpretatie-van-code-99084-in-de-toelichting-514-van-de-geconsolideerde-jaarrekening
+  - datum: '2018-05-30'
+    titel: Tax shelter voor podiumkunsten
+    url: https://www.cbn-cnc.be/nl/adviezen/tax-shelter-voor-podiumkunsten
+  - datum: '2018-03-21'
+    titel: Belastingkrediet voor kosten van onderzoek en ontwikkeling
+    url: https://www.cbn-cnc.be/nl/adviezen/belastingkrediet-voor-kosten-van-onderzoek-en-ontwikkeling
+nummer: CBN-advies 2024/05
+provenance:
+  generated_at: '2026-05-11T13:05:09Z'
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-taks-tot-vergoeding-der-successierechten
+      sha256: 9afefe28e589eba3c3c1648830286c681e6ca2d7bbfe05a4ea56534a34d83b51
+      version:
+  stale: false
+  stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
+  trust:
+    confirmed_at: '2026-05-11T12:24:34Z'
+    confirmed_by: subagent-sonnet-4-6
+    layer1:
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:31Z'
+      heading_count: 4
+      max_section_chars: 3232
+      file_size_chars: 5485
+      flags: []
+    layer2:
+      agent: subagent-sonnet-4-6
+      concrete_problemen: []
+      rationale: Zeer kort advies (~5500 chars, 4 headings). Geen extractie-artefacten. Inhoud volledig voor het onderwerp (toepassingsgebied, grondslag, boekhoudkundige verwerking). Voetnoten [^1]–[^8] volledig. Geen tabellen, geen TOC.
+      run_at: '2026-05-11T12:24:34Z'
+      status: trusted
+    rationale: Zeer kort advies (~5500 chars, 4 headings). Geen extractie-artefacten. Inhoud volledig voor het onderwerp (toepassingsgebied, grondslag, boekhoudkundige verwerking). Voetnoten [^1]–[^8] volledig. Geen tabellen, geen TOC.
+    status: trusted
 themas:
   - belasting
   - successierechten
@@ -12,52 +58,6 @@ themas:
   - patrimoniumtaks
   - bezittingen
   - bedrijfsbelastingen
-bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-taks-tot-vergoeding-der-successierechten
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-taks-tot-vergoeding-der-successierechten
-      sha256: 9afefe28e589eba3c3c1648830286c681e6ca2d7bbfe05a4ea56534a34d83b51
-      version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:38:21Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: trusted
-    confirmed_at: '2026-05-11T12:24:34Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: Zeer kort advies (~5500 chars, 4 headings). Geen extractie-artefacten. Inhoud volledig voor het onderwerp (toepassingsgebied, grondslag, boekhoudkundige verwerking). Voetnoten [^1]–[^8] volledig. Geen tabellen, geen TOC.
-    layer1:
-      status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 4
-      max_section_chars: 3231
-      file_size_chars: 5484
-      flags: []
-    layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:24:34Z'
-      rationale: Zeer kort advies (~5500 chars, 4 headings). Geen extractie-artefacten. Inhoud volledig voor het onderwerp (toepassingsgebied, grondslag, boekhoudkundige verwerking). Voetnoten [^1]–[^8] volledig. Geen tabellen, geen TOC.
-      concrete_problemen: []
-gerelateerde_adviezen:
-  - titel: Voorzieningen
-    url: https://www.cbn-cnc.be/nl/adviezen/voorzieningen
-    datum: '2019-03-05'
-  - titel: Interpretatie van code 99084 in de toelichting 5.14 van de geconsolideerde jaarrekening
-    url: https://www.cbn-cnc.be/nl/adviezen/interpretatie-van-code-99084-in-de-toelichting-514-van-de-geconsolideerde-jaarrekening
-    datum: '2018-05-30'
-  - titel: Tax shelter voor podiumkunsten
-    url: https://www.cbn-cnc.be/nl/adviezen/tax-shelter-voor-podiumkunsten
-    datum: '2018-05-30'
-  - titel: Belastingkrediet voor kosten van onderzoek en ontwikkeling
-    url: https://www.cbn-cnc.be/nl/adviezen/belastingkrediet-voor-kosten-van-onderzoek-en-ontwikkeling
-    datum: '2018-03-21'
 ---
 
 # CBN-advies 2024/05 – Boekhoudkundige verwerking van de taks tot vergoeding der successierechten
@@ -84,7 +84,8 @@ De belastbare waarde van de bezittingen is in beginsel de door het bestuursorgaa
 
 ## Boekhoudkundige verwerking
 
-De hervorming van de patrimoniumtaks treedt in werking op 1 januari 2024.[^7] De taks zal dus een impact hebben op de aangifte die per 31 maart 2024 moet worden ingediend. 
+De hervorming van de patrimoniumtaks treedt in werking op 1 januari 2024.[^7]
+ De taks zal dus een impact hebben op de aangifte die per 31 maart 2024 moet worden ingediend. 
 
 Art. 151, eerste lid W. Succ. stelt dat de belastingplichtigen uiterlijk op 31 maart van het aanslagjaar, bij het bevoegde kantoor een aangifte indienen waarin de samenstelling en de waarde van hun bezittingen op de eerste januari van hetzelfde jaar worden opgegeven. 
 
@@ -94,7 +95,7 @@ Stel dat een boekjaar 2024 samenvalt met het kalenderjaar, dan zal de kost voort
 
 Stel dat een boekjaar loopt van 01.02.2023 tot 31.01.2024 dan zal de kost geboekt worden in dat boekjaar (2023 – 2024) op basis van de bezittingen op 01.01.2024 ook al moet de aangifte maar volgen uiterlijk op 31.03.2024. Voor het daaropvolgende boekjaar dat loopt van 01.02.2024 tot 31.01.2025, dan zal de kost geboekt worden in dat boekjaar (2024 – 2025) op basis van de bezittingen op 01.01.2025.
 
-De Commissie wijst erop dat, wanneer de belastingplichtige een dubbele boekhouding voert, de taks tot vergoeding der successierechten geen ‘belasting op het resultaat’ betreft en bijgevolg onder de rubriek *Andere bedrijfskosten* op de rekening 640 *Bedrijfsbelastingen *moet worden geboekt.[^8] 
+De Commissie wijst erop dat, wanneer de belastingplichtige een dubbele boekhouding voert, de taks tot vergoeding der successierechten geen ‘belasting op het resultaat’ betreft en bijgevolg onder de rubriek *Andere bedrijfskosten* op de rekening 640 *Bedrijfsbelastingen* moet worden geboekt.[^8] 
 
 [^1]: Onderhavig advies is tot stand gekomen nadat het ontwerp van dit advies op 23 februari 2024 ter openbare raadpleging werd gepubliceerd op de website van de CBN.
 

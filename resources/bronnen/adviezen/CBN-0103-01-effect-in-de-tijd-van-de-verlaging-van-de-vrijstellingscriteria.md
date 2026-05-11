@@ -3,52 +3,49 @@ bron: https://www.cbn-cnc.be/nl/adviezen/effect-in-de-tijd-van-de-verlaging-van-
 datum: 1998-06-01
 nummer: CBN-advies C103/1
 provenance:
-  generated_at: '2026-05-08T18:33:43Z'
+  generated_at: '2026-05-11T13:05:05Z'
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/effect-in-de-tijd-van-de-verlaging-van-de-vrijstellingscriteria
-    sha256: fd5087436ab3b5249b238afe2eb2b9d6955b87b2320ab6cee896f44f6817fbde
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/effect-in-de-tijd-van-de-verlaging-van-de-vrijstellingscriteria
+      sha256: fd5087436ab3b5249b238afe2eb2b9d6955b87b2320ab6cee896f44f6817fbde
+      version:
   stale: false
-  stale_reason: null
+  stale_reason:
   tooling:
-    model: null
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    prompt_version: null
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
   trust:
     confirmed_at: '2026-05-08T19:02:29Z'
     confirmed_by: subagent-laag2-ronde2
     layer1:
-      file_size_chars: 8019
-      flags: []
-      heading_count: 0
-      max_section_chars: 8019
-      run_at: null
-      run_id: 20260511-083333
       status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:24Z'
+      heading_count: 1
+      max_section_chars: 8015
+      file_size_chars: 8015
+      flags: []
     layer2:
       agent: subagent-laag2-ronde2
       concrete_problemen: []
-      rationale: '[Laag-2-R2 2026-05-08] Volledig met probleemstelling, twee interpretaties,
-        aanbeveling Contactcomité en synthesetabel.'
+      rationale: '[Laag-2-R2 2026-05-08] Volledig met probleemstelling, twee interpretaties, aanbeveling Contactcomité en synthesetabel.'
       run_at: '2026-05-08T19:02:29Z'
       status: trusted
     rationale: Laag-2 trusted door subagent-laag2-ronde2 (zie layer2.rationale)
     status: trusted
 themas:
-- verlaging vrijstellingscriteria
-- vrijstellingscriteria
-- criteria
-- geconsolideerde jaarrekening
-- omvangcriteria
-- omzet
+  - verlaging vrijstellingscriteria
+  - vrijstellingscriteria
+  - criteria
+  - geconsolideerde jaarrekening
+  - omvangcriteria
+  - omzet
 ---
 
 # CBN-advies C103/1 - Effect in de tijd van de verlaging van de vrijstellingscriteria
 
-Krachtens artikel 9 van het koninklijk besluit van 6 maart 1990 op de geconsolideerde jaarrekening van de ondernemingen, wordt een onderneming vrijgesteld van de verplichting om een geconsolideerde jaarrekening en een geconsolideerd jaarverslag op te stellen[^1]
- wanneer deze onderneming en haar dochterondernemingen, op geconsolideerde basis, niet meer dan één van de volgende criteria[^2]
- overschrijden
+Krachtens artikel 9 van het koninklijk besluit van 6 maart 1990 op de geconsolideerde jaarrekening van de ondernemingen, wordt een onderneming vrijgesteld van de verplichting om een geconsolideerde jaarrekening en een geconsolideerd jaarverslag op te stellen[^1] wanneer deze onderneming en haar dochterondernemingen, op geconsolideerde basis, niet meer dan één van de volgende criteria[^2] overschrijden
 
 - jaaromzet, exclusief belasting over de toegevoegde waarde 800 miljoen frank 
 - balanstotaal 400 miljoen frank 
@@ -101,7 +98,7 @@ Aangezien de Zevende Richtlijn expliciet voorziet in de mogelijkheid om de crite
 
 Bijgevolg is de Commissie, conform het op Europees niveau ingenomen standpunt, van oordeel dat een onderneming die de verhoogde criteria niet overschreed, voor het eerst een geconsolideerde jaarrekening moet opstellen wanneer zij de basiscriteria, sinds hun inwerkingtreding, een tweede opeenvolgende keer overschrijdt.
 
-**Bijlage bij advies C 103/1: synthesetabel** 
+## Bijlage bij advies C 103/1: synthesetabel
 
 Veronderstel: een onderneming waarvan het boekjaar loopt van 1 januari tot 31 december.
 
@@ -118,7 +115,7 @@ Drie hypotheses zijn mogelijk.
 			31/12/1999** | | **01/01/2000 - 
 
 			31/12/2000** | 
-| **1****e ****hypothese** | | < Verhoogde 
+| **1****e** **hypothese** | | < Verhoogde 
 
 			criteria | | < Verhoogde 
 
@@ -135,7 +132,7 @@ Drie hypotheses zijn mogelijk.
 
 			consolidatie** | | 
 **consolidatie** | 
-| **2e ****hypothese** | | < Verhoogde 
+| **2e** **hypothese** | | < Verhoogde 
 
 			criteria | | < Verhoogde 
 
@@ -152,7 +149,7 @@ Drie hypotheses zijn mogelijk.
 
 			consolidatie** | | 
 **consolidatie** | 
-| **3e ****hypothese** | | < Verhoogde 
+| **3e** **hypothese** | | < Verhoogde 
 
 			criteria | | > Verhoogde 
 

@@ -1,6 +1,64 @@
 ---
-nummer: CBN-advies 2013/3
+bron: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-step-acquisitions-update
 datum: 2013-02-20
+gerelateerde_adviezen:
+  - datum: '2022-09-09'
+    titel: Vermogensmutatiemethode
+    url: https://www.cbn-cnc.be/nl/adviezen/vermogensmutatiemethode
+  - datum: '2022-07-27'
+    titel: Consolidatie bij de horizontale groep (consortium)
+    url: https://www.cbn-cnc.be/nl/adviezen/consolidatie-bij-de-horizontale-groep-consortium-0
+  - datum: '2017-09-13'
+    titel: Transacties onder gemeenschappelijke leiding (Common control transactions) (update)
+    url: https://www.cbn-cnc.be/nl/adviezen/transacties-onder-gemeenschappelijke-leiding-common-control-transactions-update
+  - datum: '2017-03-15'
+    titel: Consolidatie bij de horizontale groep (consortium)
+    url: https://www.cbn-cnc.be/nl/adviezen/consolidatie-bij-de-horizontale-groep-consortium
+nummer: CBN-advies 2013/3
+provenance:
+  generated_at: '2026-05-11T13:05:08Z'
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-step-acquisitions-update
+      sha256: 416a6e032a3b9e9c52a207133ec7e93ef185e166cd850a9459913c5ebf538e62
+      version:
+  stale: false
+  stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
+  trust:
+    confirmed_at: '2026-05-11T12:16:34Z'
+    confirmed_by: subagent-sonnet-4-6
+    layer1:
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:28Z'
+      heading_count: 2
+      max_section_chars: 15042
+      file_size_chars: 15973
+      flags: []
+    layer2:
+      agent: subagent-sonnet-4-6
+      concrete_problemen:
+        - categorie: E2
+          regel: 125
+          type: other
+          voorbeeld: '| Overgedragen winst – lopend boekjaar *[Balans]* | | 16 | | | (geen |---|)'
+        - categorie: E2
+          regel: 132
+          type: other
+          voorbeeld: '| Investering 2 | | 100 | (geen header + geen |---| rij)'
+        - categorie: D4
+          regel: 69
+          type: other
+          voorbeeld: paragraaf I*I.A. Verhoging van belang...
+      rationale: 'E2: meerdere journaalboekingstabellen (regels 125–126, 132–134, 138–140, 144–147) missen de `|---|` header-separator rij — ze worden niet als markdown-tabellen herkend. D4: regel 69 bevat `I*I.A.` — de `*` is onderdeel van een italic-markup die niet gesloten wordt en tegelijk een structuurverwijd naar ''paragraaf II.A.'' verminkt.'
+      run_at: '2026-05-11T12:16:34Z'
+      status: needs-rework
+    rationale: 'E2: meerdere journaalboekingstabellen (regels 125–126, 132–134, 138–140, 144–147) missen de `|---|` header-separator rij — ze worden niet als markdown-tabellen herkend. D4: regel 69 bevat `I*I.A.` — de `*` is onderdeel van een italic-markup die niet gesloten wordt en tegelijk een structuurverwijd naar ''paragraaf II.A.'' verminkt.'
+    status: needs-rework
 themas:
   - consolidatie
   - stapsgewijze verwerving
@@ -10,64 +68,6 @@ themas:
   - vermogensmutatiemethode
   - consolidatieverschil
   - belangen van derden
-bron: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-step-acquisitions-update
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-step-acquisitions-update
-      sha256: 416a6e032a3b9e9c52a207133ec7e93ef185e166cd850a9459913c5ebf538e62
-      version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:36:35Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T12:16:34Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "E2: meerdere journaalboekingstabellen (regels 125–126, 132–134, 138–140, 144–147) missen de `|---|` header-separator rij — ze worden niet als markdown-tabellen herkend. D4: regel 69 bevat `I*I.A.` — de `*` is onderdeel van een italic-markup die niet gesloten wordt en tegelijk een structuurverwijd naar 'paragraaf II.A.' verminkt."
-    layer1:
-      status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 4
-      max_section_chars: 7409
-      file_size_chars: 15986
-      flags: []
-    layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:16:34Z'
-      rationale: "E2: meerdere journaalboekingstabellen (regels 125–126, 132–134, 138–140, 144–147) missen de `|---|` header-separator rij — ze worden niet als markdown-tabellen herkend. D4: regel 69 bevat `I*I.A.` — de `*` is onderdeel van een italic-markup die niet gesloten wordt en tegelijk een structuurverwijd naar 'paragraaf II.A.' verminkt."
-      concrete_problemen:
-        - regel: 125
-          categorie: E2
-          type: other
-          voorbeeld: '| Overgedragen winst – lopend boekjaar *[Balans]* | | 16 | | | (geen |---|)'
-        - regel: 132
-          categorie: E2
-          type: other
-          voorbeeld: '| Investering 2 | | 100 | (geen header + geen |---| rij)'
-        - regel: 69
-          categorie: D4
-          type: other
-          voorbeeld: paragraaf I*I.A. Verhoging van belang...
-gerelateerde_adviezen:
-  - titel: Vermogensmutatiemethode
-    url: https://www.cbn-cnc.be/nl/adviezen/vermogensmutatiemethode
-    datum: '2022-09-09'
-  - titel: Consolidatie bij de horizontale groep (consortium)
-    url: https://www.cbn-cnc.be/nl/adviezen/consolidatie-bij-de-horizontale-groep-consortium-0
-    datum: '2022-07-27'
-  - titel: Transacties onder gemeenschappelijke leiding (Common control transactions) (update)
-    url: https://www.cbn-cnc.be/nl/adviezen/transacties-onder-gemeenschappelijke-leiding-common-control-transactions-update
-    datum: '2017-09-13'
-  - titel: Consolidatie bij de horizontale groep (consortium)
-    url: https://www.cbn-cnc.be/nl/adviezen/consolidatie-bij-de-horizontale-groep-consortium
-    datum: '2017-03-15'
 ---
 
 # CBN-advies 2013/3 – De boekhoudkundige verwerking van step acquisitions (update)
@@ -82,10 +82,8 @@ Beide step acquisitions worden respectievelijk uitgewerkt in paragraaf I*I.A. Ve
 
 ## Praktische uitwerking
 
-### Verhoging van belang in een geassocieerde onderneming die na de verhoging nog steeds een geassocieerde onderneming blijft
-
-In de geconsolideerde jaarrekening worden deelnemingen in geassocieerde ondernemingen zoals gedefinieerd in artikel 1:21 van het Wetboek van vennootschappen en verenigingen, gewaardeerd door toepassing van de zogenaamde vermogensmutatiewaarde[^2]. Daarnaast wordt deze methode tevens toegepast voor dochterondernemingen waarover de consoliderende onderneming een controle in feite bezit en de opname als integraal geconsolideerde dochteronderneming zou indruisen tegen het principe van het getrouwe beeld[^3]
- of omdat het going-concern principe niet meer kan gejustifieerd worden[^4]. 
+Verhoging van belang in een geassocieerde onderneming die na de verhoging nog steeds een geassocieerde onderneming blijft
+In de geconsolideerde jaarrekening worden deelnemingen in geassocieerde ondernemingen zoals gedefinieerd in artikel 1:21 van het Wetboek van vennootschappen en verenigingen, gewaardeerd door toepassing van de zogenaamde vermogensmutatiewaarde[^2]. Daarnaast wordt deze methode tevens toegepast voor dochterondernemingen waarover de consoliderende onderneming een controle in feite bezit en de opname als integraal geconsolideerde dochteronderneming zou indruisen tegen het principe van het getrouwe beeld[^3] of omdat het going-concern principe niet meer kan gejustifieerd worden[^4]. 
 
 Voor gemeenschappelijke dochterondernemingen waarvan het bedrijf niet nauw geïntegreerd is in het bedrijf van de onderneming die over gezamenlijke controle beschikt, kan tevens de vermogensmutatiemethode gehanteerd worden[^5]. 
 
@@ -93,7 +91,7 @@ Artikel 3:142, § 1 en 2 van het koninklijk besluit tot uitvoering van het Wetbo
 
 In de resultatenrekening wordt het aandeel in het resultaat geboekt in plaats van de dividenden verbonden aan deze deelneming[^7]. Op de balans wordt dit aandeel geboekt in de reserves.
 
-Derhalve wordt deze consolidatiemethode ook vaak omschreven als *one-line consolidation[^8] *, daar slechts één bedrag, op één lijn gerapporteerd wordt in de geconsolideerde balans van de aandeelhouder. Met betrekking tot het resultaat van de onderneming wordt evenzo slechts één bedrag, op één lijn, gerapporteerd in de resultatenrekening.
+Derhalve wordt deze consolidatiemethode ook vaak omschreven als *one-line consolidation[^8]* , daar slechts één bedrag, op één lijn gerapporteerd wordt in de geconsolideerde balans van de aandeelhouder. Met betrekking tot het resultaat van de onderneming wordt evenzo slechts één bedrag, op één lijn, gerapporteerd in de resultatenrekening.
 
 De waarde waaraan de deelneming in de geconsolideerde jaarrekening is opgenomen wordt jaarlijks aangepast, gelet op de wijzigingen van het ene boekjaar op het andere van het eigen vermogen van de betrokken vennootschap, en wordt verminderd met het bedrag van de toegekende dividenden.
 
@@ -172,16 +170,14 @@ Samengevat kan worden gesteld dat op het einde van het boekjaar 20X2 de geconsol
 | Netto boekwaarde positieve consolidatieverschillen [*Balans*] | | 2011 | | 64 | | | | 64 | 
 | | | 2012 | | 48 | | 16 | | 64 | 
 
-### Verhoging van belang in een geassocieerde onderneming, die na de verhoging een integraal geconsolideerde dochteronderneming wordt
-
+Verhoging van belang in een geassocieerde onderneming, die na de verhoging een integraal geconsolideerde dochteronderneming wordt
 De overgang van een geassocieerde onderneming naar een integraal geconsolideerde dochteronderneming impliceert de overgang van de vermogensmutatiemethode naar de integrale consolidatiemethode. 
 
 In de geconsolideerde balans vindt er een boekhoudkundige compensatie plaats tussen de boekwaarde van de aandelen van de vennootschap waarover de moederonderneming controle heeft en het respectievelijk belang in het eigen vermogen van de betrokken dochteronderneming[^11].
 
 Hierbij hanteert de Commissie tevens het uitgangspunt zoals uiteengezet onder randnummer 4. Dit impliceert weliswaar dat op het ogenblik van de verwerving van de controle de eerste verwerving tevens volgens de integrale methode dient te worden verwerkt i.p.v. volgens de vermogensmutatiemethode[^12]. 
 
-De regels inzake boeking en verwerking van de verschillen na toepassing van de vermogensmutatiemethode[^13]
- zijn analoog aan deze die de integrale consolidatie beheersen in verband met de consolidatieverschillen. Toch is er weliswaar een belangrijke nuance[^14]. Bij de vermogensmutatie geldt immers: “Voor zover het verschil tussen de boekwaarde van de deelneming en de hiermee overeenstemmende fractie van het eigen vermogen, kan worden toegerekend aan identificeerbare actief- of passiefbestanddelen van de betrokken vennootschap…”; bij de integrale methode wordt de toerekening als volgt omschreven: ”Het verschil uit deze compensatie wordt zoveel mogelijk toegerekend…[^15]
+De regels inzake boeking en verwerking van de verschillen na toepassing van de vermogensmutatiemethode[^13] zijn analoog aan deze die de integrale consolidatie beheersen in verband met de consolidatieverschillen. Toch is er weliswaar een belangrijke nuance[^14]. Bij de vermogensmutatie geldt immers: “Voor zover het verschil tussen de boekwaarde van de deelneming en de hiermee overeenstemmende fractie van het eigen vermogen, kan worden toegerekend aan identificeerbare actief- of passiefbestanddelen van de betrokken vennootschap…”; bij de integrale methode wordt de toerekening als volgt omschreven: ”Het verschil uit deze compensatie wordt zoveel mogelijk toegerekend…[^15]
 ” Op de balans wordt het verschil dat overblijft geboekt in de rubriek consolidatieverschillen. 
 
 Bij een step acquisition is het derhalve perfect denkbaar dat de consolidatieverschillen uit de eerste verwerving, en deze uit de verwerving om tot controle over te gaan, anders werden verwerkt. Het boekhoudrecht laat immers uitschijnen dat de consolidatieverschillen bij geassocieerde ondernemingen in mindere mate moeten worden toegewezen aan de onderliggende activa- en passivabestanddelen dan bij integraal geconsolideerde dochterondernemingen omdat de consoliderende onderneming niet altijd over de noodzakelijke informatie zal beschikken om een dergelijke toewijzing getrouw te kunnen doorvoeren
@@ -190,8 +186,7 @@ De Commissie is de mening toegedaan dat het mogelijk moet zijn om, in het kader 
 
 **Voorbeeld 2**
 
-De onderneming TTT[^16]
- verwerft op 1 januari 20X1 een belang van 30 % in de onderneming UUU voor 5.000. De balans van onderneming UUU is op acquisitiedatum als volgt:
+De onderneming TTT[^16] verwerft op 1 januari 20X1 een belang van 30 % in de onderneming UUU voor 5.000. De balans van onderneming UUU is op acquisitiedatum als volgt:
 
 | Balans UUU op 1 januari 2011 | 
 | Gebouwen | | 4.000 | | Kapitaal | | 6.000 | 

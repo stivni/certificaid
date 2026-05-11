@@ -1,6 +1,55 @@
 ---
-nummer: CBN-advies C102
+bron: https://www.cbn-cnc.be/nl/adviezen/overschakeling-op-de-euro-aspecten-in-verband-met-de-geconsolideerde-jaarrekening
 datum: 1998-02-01
+gerelateerde_adviezen:
+  - datum: '1995-10-01'
+    titel: Opneming van de rekeningen van een buitenlands bijkantoor
+    url: https://www.cbn-cnc.be/nl/adviezen/opneming-van-de-rekeningen-van-een-buitenlands-bijkantoor
+nummer: CBN-advies C102
+provenance:
+  generated_at: '2026-05-11T13:05:05Z'
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/overschakeling-op-de-euro-aspecten-in-verband-met-de-geconsolideerde-jaarrekening
+      sha256: ab2bfec3e927b5ec40d7ee28060050ff1cc7740d622ffac9dde0c1ebb0dbd7d9
+      version:
+  stale: false
+  stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
+  trust:
+    confirmed_at: '2026-05-11T11:51:19Z'
+    confirmed_by: subagent-sonnet-4-6
+    layer1:
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:24Z'
+      heading_count: 6
+      max_section_chars: 15757
+      file_size_chars: 26661
+      flags: []
+    layer2:
+      agent: subagent-sonnet-4-6
+      concrete_problemen:
+        - categorie: G3
+          regel: 101
+          type: other
+          voorbeeld: te ] verantwoorden»[^8]. — spurious bracket in geciteerde passage
+        - categorie: A4
+          regel: 210
+          type: other
+          voorbeeld: niet¬monetaire actief — U+00AC NOT SIGN i.p.v. koppelstreepje
+        - categorie: D3
+          regel: 198
+          type: other
+          voorbeeld: '[^14]: ...advies 152/1 Voor een definitie...advies 152/1 (tekst tweemaal)'
+      rationale: 'Drie concrete problemen: (1) A4/G3 op regel 101: spurious ''] '' midden in een geciteerde zin (''te ] verantwoorden»'') — een bracket-artefact uit de bronpagina dat de zin verminkt; (2) A4 op regel 210: U+00AC (NOT SIGN ¬) in plaats van koppelstreepje in ''niet¬monetaire'' — onzichtbaar unicode-artefact; (3) D3 op regel 198: voetnoot [^14] bevat de volledige tekst tweemaal aaneengesloten zonder separator — scraping-duplicaat. Heading-hiërarchie (## › ### › ####) is structureel correct. Inhoud is overigens inhoudelijk volledig.'
+      run_at: '2026-05-11T11:51:19Z'
+      status: needs-rework
+    rationale: 'Drie concrete problemen: (1) A4/G3 op regel 101: spurious ''] '' midden in een geciteerde zin (''te ] verantwoorden»'') — een bracket-artefact uit de bronpagina dat de zin verminkt; (2) A4 op regel 210: U+00AC (NOT SIGN ¬) in plaats van koppelstreepje in ''niet¬monetaire'' — onzichtbaar unicode-artefact; (3) D3 op regel 198: voetnoot [^14] bevat de volledige tekst tweemaal aaneengesloten zonder separator — scraping-duplicaat. Heading-hiërarchie (## › ### › ####) is structureel correct. Inhoud is overigens inhoudelijk volledig.'
+    status: needs-rework
 themas:
   - slotkoers
   - slotkoersmethode
@@ -14,61 +63,11 @@ themas:
   - omrekeningskoers
   - omrekeningsverschil
   - overschakeling op de euro
-bron: https://www.cbn-cnc.be/nl/adviezen/overschakeling-op-de-euro-aspecten-in-verband-met-de-geconsolideerde-jaarrekening
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/overschakeling-op-de-euro-aspecten-in-verband-met-de-geconsolideerde-jaarrekening
-      sha256: ab2bfec3e927b5ec40d7ee28060050ff1cc7740d622ffac9dde0c1ebb0dbd7d9
-      version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:33:42Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T11:51:19Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "Drie concrete problemen: (1) A4/G3 op regel 101: spurious '] ' midden in een geciteerde zin ('te ] verantwoorden»') — een bracket-artefact uit de bronpagina dat de zin verminkt; (2) A4 op regel 210: U+00AC (NOT SIGN ¬) in plaats van koppelstreepje in 'niet¬monetaire' — onzichtbaar unicode-artefact; (3) D3 op regel 198: voetnoot [^14] bevat de volledige tekst tweemaal aaneengesloten zonder separator — scraping-duplicaat. Heading-hiërarchie (## › ### › ####) is structureel correct. Inhoud is overigens inhoudelijk volledig."
-    layer1:
-      status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 9
-      max_section_chars: 15769
-      file_size_chars: 26679
-      flags: []
-    layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T11:51:19Z'
-      rationale: "Drie concrete problemen: (1) A4/G3 op regel 101: spurious '] ' midden in een geciteerde zin ('te ] verantwoorden»') — een bracket-artefact uit de bronpagina dat de zin verminkt; (2) A4 op regel 210: U+00AC (NOT SIGN ¬) in plaats van koppelstreepje in 'niet¬monetaire' — onzichtbaar unicode-artefact; (3) D3 op regel 198: voetnoot [^14] bevat de volledige tekst tweemaal aaneengesloten zonder separator — scraping-duplicaat. Heading-hiërarchie (## › ### › ####) is structureel correct. Inhoud is overigens inhoudelijk volledig."
-      concrete_problemen:
-        - regel: 101
-          categorie: G3
-          type: other
-          voorbeeld: te ] verantwoorden»[^8]. — spurious bracket in geciteerde passage
-        - regel: 210
-          categorie: A4
-          type: other
-          voorbeeld: niet¬monetaire actief — U+00AC NOT SIGN i.p.v. koppelstreepje
-        - regel: 198
-          categorie: D3
-          type: other
-          voorbeeld: '[^14]: ...advies 152/1 Voor een definitie...advies 152/1 (tekst tweemaal)'
-gerelateerde_adviezen:
-  - titel: Opneming van de rekeningen van een buitenlands bijkantoor
-    url: https://www.cbn-cnc.be/nl/adviezen/opneming-van-de-rekeningen-van-een-buitenlands-bijkantoor
-    datum: '1995-10-01'
 ---
 
 # CBN-advies C102 - Overschakeling op de euro - Aspecten in verband met de geconsolideerde jaarrekening
 
-De Commissie heeft in haar[^1] advies 173/1 over de «Overschakeling op de euro : boekhoudrechtelijke aspecten» aangekondigd de specifieke problemen[^2]
- in verband met de geconsolideerde jaarrekening in een later advies te behandelen[^3]. 
+De Commissie heeft in haar[^1] advies 173/1 over de «Overschakeling op de euro : boekhoudrechtelijke aspecten» aangekondigd de specifieke problemen[^2] in verband met de geconsolideerde jaarrekening in een later advies te behandelen[^3]. 
 
 Die problematiek wordt nu in dit advies aangesneden, uitgaande van de filosofie die ten grondslag ligt aan de bepalingen van het koninklijk besluit van 6 maart 1990 op de geconsolideerde jaarrekening van de ondernemingen. Daarbij wordt een onderscheid gemaakt tussen de boekhoudkundige verwerking van de omrekeningsverschillen naargelang een moederonderneming, bij de omrekening van de financiële staten van haar in het buitenland gevestigde dochters, de zogenaamde «slotkoersmethode» dan wel de «monetaire/niet-monetaire methode» gebruikt. 
 
@@ -83,8 +82,7 @@ Bij de toepassing van de «slotkoersmethode» moet, ingevolge de overschakeling 
 - het eerste aspect - dat eigen is aan de overschakeling op de euro - betreft de gevolgen die de onherroepelijke vaststelling van de wisselkoersen tussen de aan de euro deelnemende munten heeft voor de opstelling van de geconsolideerde jaarrekening; 
 - het tweede - meer algemene - aspect betreft de inresultaatneming van de omrekeningsverschillen bij een latere overdracht van een dochter of bij de gedeeltelijke of volledige terugbetaling van het voor de consolidatie van de dochter gebruikte eigen vermogen. 
 
-### Boekhoudkundige verwerking van omrekeningsverschillen bij de invoering van de euro
-
+Boekhoudkundige verwerking van omrekeningsverschillen bij de invoering van de euro
 Met toepassing van de slotkoersmethode worden alle (zowel monetaire als niet-monetaire) actief- en passiefbestanddelen tegenover derden van de verschillende in de consolidatie opgenomen buitenlandse dochters tegen slotkoers omgerekend in de geconsolideerde jaarrekening afgesloten op 31 december 1998. 
 
 De definitieve vaststelling van zowel de omrekeningskoersen van de aan de Muntunie deelnemende munten ten aanzien van de euro, als de bilaterale wisselkoersen tussen die verschillende nationale munten, alsook de toepassing van die omrekeningskoersen in de vanaf 31 december 1998 afgesloten jaarrekeningen hebben tot gevolg dat - voor de dochters en de verbonden ondernemingen die ressorteren onder de Lid-Staten van de Muntunie - de op 31 december 1998 in de geconsolideerde jaarrekeningen vastgestelde omrekeningsverschillen definitief zijn vastgelegd. Bijgevolg zal geen enkele schommeling in de wissel- of omrekeningskoers voortaan, in de geconsolideerde jaarrekening, nog een invloed hebben op het bedrag van de op die munten vastgestelde «Omrekeningsverschillen». 
@@ -141,8 +139,7 @@ Indien bij de overschakeling op de euro een negatief omrekeningsverschil (i.e. b
 
 Qua voorstelling van die (voortaan vaststaande) omrekeningsverschillen in het geconsolideerde eigen vermogen, is het belangrijk die omrekeningsverschillen te onderscheiden van de omrekeningsverschillen op munten die niet deelnemen aan de euro. In dat verband en indien het om relevante omrekeningsverschillen gaat, is het aangewezen ze duidelijk te identificeren in de geconsolideerde toelichting (meer bijzonder in Staat VI van die toelichting). 
 
-### Boekhoudkundige verwerking van het omrekeningsverschil bij de overdracht of de (gedeeltelijke) vermindering van (het) de deelneming(spercentage) in het kapitaal van de dochter .
-
+Boekhoudkundige verwerking van het omrekeningsverschil bij de overdracht of de (gedeeltelijke) vermindering van (het) de deelneming(spercentage) in het kapitaal van de dochter .
 Omrekeningsverschillen (die ontstaan bij de toepassing van de slotkoersmethode en die in het eigen vermogen worden vastgelegd) zijn één van de elementen die het resultaat bepalen bij gehele of gedeeltelijke overdracht van de deelneming in het kapitaal van de tot dan toe geconsolideerde dochter. Met andere woorden, indien de overdrachtsprijs in theorie zou overeenstemmen met de waarde van het in euro geconverteerde eigen vermogen zoals uitgedrukt in de boekhouding van de betrokken dochter, dan zou het geconsolideerde resultaat van de overdracht overeenstemmen met de omrekeningsverschillen op het eigen vermogen van die dochter[^12]. Dit komt trouwens ook terug in paragraaf 14 van FAS 52 : «Upon sale or upon complete or substantially complete liquidation of an investment in a foreign entity, the amount attributable to that entity and accumulated in the translation adjustment component of equity shall be removed from the separate component of equity and shall be reported as part of the gain or loss on sale or liquidation of the investment for the period during which the sale or liquidation occurs.»
 
 ## Toepassing van de "monetaire/niet-monetaire methode"[^13] 
@@ -159,14 +156,12 @@ In dat geval vloeit het omrekeningsverschil voort uit de samenloop van de volgen
 
 In deze methode wordt het omrekeningsverschil in resultaat genomen[^16]. 
 
-### Verwerking van de volgens de monetaire/niet-monetaire methode omgerekende jaarrekening van buitenlandse dochters, in het kader van de overschakeling op de euro.
-
+Verwerking van de volgens de monetaire/niet-monetaire methode omgerekende jaarrekening van buitenlandse dochters, in het kader van de overschakeling op de euro.
 Kunnen bij de boekhoudkundige verwerking van aldus omgerekende financiële staten van de dochters specifieke problemen ontstaan ingevolge de overschakeling op de euro? 
 
 - Theoretisch is er geen verschil tussen de toepassing van die methode voor consolidatiedoeleinden en de traditioneel gebruikte methode voor de omrekening, in de statutaire jaarrekening, van de in vreemde munten uitgedrukte bestanddelen, welke methode trouwens ook het onderscheid tussen «monetaire» en «niet-monetaire posten» steunt. 
 
-In die optiek zou de waardering van de actief- en passiefposten (tegenover derden) van de buitenlandse dochter inderdaad hetzelfde moeten opleveren als wanneer de moederonderneming de verrichtingen van de dochter rechtstreeks in haar eigen statutaire jaarrekening zou hebben uitgedrukt). 
-
+In die optiek zou de waardering van de actief- en passiefposten (tegenover derden) van de buitenlandse dochter inderdaad hetzelfde moeten opleveren als wanneer de moederonderneming de verrichtingen van de dochter rechtstreeks in haar eigen statutaire jaarrekening zou hebben uitgedrukt).
 De aanbevelingen die de Commissie terzake heeft geformuleerd in het voornoemde advies 173/1, kunnen dus mutatis mutandis worden toegepast, wat in voorkomend geval een omrekeningsverschil oplevert dat in de geconsolideerde jaarrekening moet worden verwerkt conform de beginselen van punt C van dit advies.
 
 - Praktisch zal een moederonderneming, wanneer zij beslist om haar geconsolideerde jaarrekening voor het eerst in euro op te stellen en openbaar te maken, gebruik maken van de in deviezen opgestelde jaarrekeningen van haar dochters die zijn opgericht naar het recht van een andere Lid-Staat van de Muntunie en ze omrekenen in Belgische frank. Vervolgens zullen die jaarrekeningen mechanisch worden omgerekend in euro. Door de toepassing van de monetaire/ niet- monetaire methode zullen (in de in euro opgestelde geconsolideerde balans), onder de niet-monetaire activa (en passiva), in euro uitgedrukte bedragen verschijnen die overeenstemmen met de bedragen in de vreemde munt (die deel uitmaakt van de euro). Welnu, per definitie werkt de methode van de historische koers precies met de koers die werd gebruikt op de dag waarop die niet-monetaire post in de geconsolideerde balans werd opgenomen[^17]. 
@@ -176,8 +171,7 @@ In het kader van de overschakeling op de euro, zal die logica tot gevolg hebben 
 - enerzijds, de waarde van die (niet-monetaire) bestanddelen verbonden aan die dochter, die voortvloeien uit de omrekening van de geconsolideerde jaarrekening in euro; 
 - anderzijds, die waarde die voorkomt in de in euro uitgedrukte (niet-geconsolideerde) balans van de dochter. 
 
-Dit verschil is een gevolg van de schommeling in de tussen de beide betrokken munten vastgestelde wisselkoers tussen de aanschaffingsdatum van het niet-monetaire actief en de invoering van de euro (waarvoor duurzame bilaterale wisselkoersen tussen de verschillende deelnemende nationale munten zullen worden vastgesteld). Afgezien daarvan zou een dergelijk verschil (theoretisch) ook kunnen worden vastgesteld wanneer niet de niet- autonome dochter[^18] maar de moederonderneming de aanschaffing, in vreemde munt, van het betrokken niet-monetaire actief [^19]
-rechtstreeks in haar eigen statutaire jaarrekening zou hebben uitgedrukt. 
+Dit verschil is een gevolg van de schommeling in de tussen de beide betrokken munten vastgestelde wisselkoers tussen de aanschaffingsdatum van het niet-monetaire actief en de invoering van de euro (waarvoor duurzame bilaterale wisselkoersen tussen de verschillende deelnemende nationale munten zullen worden vastgesteld). Afgezien daarvan zou een dergelijk verschil (theoretisch) ook kunnen worden vastgesteld wanneer niet de niet- autonome dochter[^18] maar de moederonderneming de aanschaffing, in vreemde munt, van het betrokken niet-monetaire actief [^19] rechtstreeks in haar eigen statutaire jaarrekening zou hebben uitgedrukt. 
 
 De invoering van de euro kan echter niet tot gevolg hebben dat de moederonderneming daarom de waardering van de niet-monetaire activa en passiva in het bezit van haar buitenlandse dochters, zou moeten wijzigen[^20].
 
@@ -219,4 +213,4 @@ De invoering van de euro kan echter niet tot gevolg hebben dat de moederondernem
 
 [^19]: Waarvan de aanschaffingswaarde in Belgische frank het resultaat zou zijn geweest van de toepassing van de omrekeningskoers (in euro) op de in de vreemde munt uitgedrukte prijs en die in beginsel niet had kunnen worden beïnvloed door de latere evolutie van de wisselkoers van de vreemde munt ten opzichte van de Belgische frank en, vanaf 31 december 1998, ten opzichte van de euro.
 
-[^20]: Het spreekt trouwens voor zich dat, met toepassing van de gemeenrechtelijke bepalingen, moet worden nagegaan of de waarde in de geconsolideerde balans niet hoger ligt dan de «correcte waarde» van het niet-monetaire element. In het tegenovergestelde geval zou o.a. een waardevermindering of een uitzonderlijke afschrijving moeten worden geboekt conform de aard van het betrokken niet¬monetaire actief.
+[^20]: Het spreekt trouwens voor zich dat, met toepassing van de gemeenrechtelijke bepalingen, moet worden nagegaan of de waarde in de geconsolideerde balans niet hoger ligt dan de «correcte waarde» van het niet-monetaire element. In het tegenovergestelde geval zou o.a. een waardevermindering of een uitzonderlijke afschrijving moeten worden geboekt conform de aard van het betrokken niet-monetaire actief.

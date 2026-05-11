@@ -1,6 +1,49 @@
 ---
-nummer: CBN-advies 2017/11
+bron: https://www.cbn-cnc.be/nl/adviezen/opname-van-financiele-vaste-activa-geboekt-tegen-een-hoger-bedrag-dan-hun-reele-waarde-in
 datum: 2017-05-31
+gerelateerde_adviezen:
+  - datum: '2016-07-06'
+    titel: Boekhoudkundige verwerking van de cross currency swap
+    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-cross-currency-swap
+  - datum: '2013-11-27'
+    titel: Toelichting omtrent het niet-gebruik van de waarderingsgregels op basis van de waarde in het economisch verkeer voor de financiële instrumenten
+    url: https://www.cbn-cnc.be/nl/adviezen/toelichting-omtrent-het-niet-gebruik-van-de-waarderingsgregels-op-basis-van-de-waarde-in
+  - datum: '2010-09-08'
+    titel: De toepassing van de algemene boekhoudprincipes op afgeleide financiële instrumenten
+    url: https://www.cbn-cnc.be/nl/adviezen/de-toepassing-van-de-algemene-boekhoudprincipes-op-afgeleide-financiele-instrumenten
+nummer: CBN-advies 2017/11
+provenance:
+  generated_at: '2026-05-11T13:05:08Z'
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/opname-van-financiele-vaste-activa-geboekt-tegen-een-hoger-bedrag-dan-hun-reele-waarde-in
+      sha256: 2ad85c57300b2181be4df3dd43682f08b3281cf16b9618661d08f8f6fccef178
+      version:
+  stale: false
+  stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
+  trust:
+    confirmed_at:
+    confirmed_by:
+    layer1:
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:29Z'
+      heading_count: 4
+      max_section_chars: 4758
+      file_size_chars: 8361
+      flags: []
+    layer2:
+      agent:
+      concrete_problemen: []
+      rationale:
+      run_at:
+      status: not_run
+    rationale: 'Trust gereset 2026-05-11: re-scrape met scraper-fixes, content-diff > 5%'
+    status: unreviewed
 themas:
   - afgeleide financiële instrumenten
   - financiële instrumenten
@@ -9,61 +52,6 @@ themas:
   - richtlijn 2013/34/EU
   - toelichting
   - waarde in het economisch verkeer
-bron: https://www.cbn-cnc.be/nl/adviezen/opname-van-financiele-vaste-activa-geboekt-tegen-een-hoger-bedrag-dan-hun-reele-waarde-in
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/opname-van-financiele-vaste-activa-geboekt-tegen-een-hoger-bedrag-dan-hun-reele-waarde-in
-      sha256: 2ad85c57300b2181be4df3dd43682f08b3281cf16b9618661d08f8f6fccef178
-      version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:37:13Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T12:16:35Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "B5: Regel 91 begint met '11.' — dit is een randnummerlabel dat als plain tekst in de paragraaf staat in plaats van als structuurlabel te worden weggelaten of als heading te worden verwerkt; een mens zou dit nooit zo typen. D4: Regel 63 bevat '*CBN-advies 2013/16 - Toelichting ...*' met een spatie voor het sluitende asterisk. Verder is de heading 'Toelichting VOL 6.17' (regel 73) een sectiontitel zonder inhoud — de toelichting zelf (een tabel of afbeelding uit het VOL-formulier) ontbreekt volledig in de body."
-    layer1:
-      status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 4
-      max_section_chars: 4757
-      file_size_chars: 8359
-      flags: []
-    layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:16:35Z'
-      rationale: "B5: Regel 91 begint met '11.' — dit is een randnummerlabel dat als plain tekst in de paragraaf staat in plaats van als structuurlabel te worden weggelaten of als heading te worden verwerkt; een mens zou dit nooit zo typen. D4: Regel 63 bevat '*CBN-advies 2013/16 - Toelichting ...*' met een spatie voor het sluitende asterisk. Verder is de heading 'Toelichting VOL 6.17' (regel 73) een sectiontitel zonder inhoud — de toelichting zelf (een tabel of afbeelding uit het VOL-formulier) ontbreekt volledig in de body."
-      concrete_problemen:
-        - regel: 63
-          categorie: D4
-          type: other
-          voorbeeld: CBN-advies 2013/16 - *Toelichting omtrent het niet-gebruik van de waarderingsr...*
-        - regel: 73
-          categorie: D2
-          type: missing-section
-          voorbeeld: '## Toelichting VOL 6.17 (sectie zonder inhoud — toelichting-tabel/formulier ontbreekt)'
-        - regel: 91
-          categorie: B5
-          type: other
-          voorbeeld: 11. Bij gebrek aan deze invulling, is de Commissie van oordeel...
-gerelateerde_adviezen:
-  - titel: Boekhoudkundige verwerking van de cross currency swap
-    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-cross-currency-swap
-    datum: '2016-07-06'
-  - titel: Toelichting omtrent het niet-gebruik van de waarderingsgregels op basis van de waarde in het economisch verkeer voor de financiële instrumenten
-    url: https://www.cbn-cnc.be/nl/adviezen/toelichting-omtrent-het-niet-gebruik-van-de-waarderingsgregels-op-basis-van-de-waarde-in
-    datum: '2013-11-27'
-  - titel: De toepassing van de algemene boekhoudprincipes op afgeleide financiële instrumenten
-    url: https://www.cbn-cnc.be/nl/adviezen/de-toepassing-van-de-algemene-boekhoudprincipes-op-afgeleide-financiele-instrumenten
-    datum: '2010-09-08'
 ---
 
 # CBN-advies 2017/11 – Opname van financiële vaste activa geboekt tegen een hoger bedrag dan hun reële waarde in de toelichting van de jaarrekening
@@ -72,7 +60,7 @@ gerelateerde_adviezen:
 
 Aan de Commissie voor boekhoudkundige normen werd de vraag gesteld welke specifieke informatie onder de toelichting VOL 6.17 dient te worden verstrekt. In eerste instantie dient de vergelijking te worden gegeven tussen de boekwaarde en reële waarde van afgeleide financiële instrumenten die niet gewaardeerd zijn op basis van hun reële waarde. Daarnaast wordt tevens de boekwaarde van de financiële vaste activa gevraagd waarvan de reële waarde lager is dan de respectievelijke boekwaarde, de redenen waarom de boekwaarde niet werd verminderd en uiteindelijk een opsomming van de elementen die toelaten te veronderstellen dat de boekwaarde zal kunnen worden gerealiseerd.
 
-Voor wat betreft de eerste toelichting van VOL 6.17 verwijst de Commissie naar CBN-advies 2013/16 - *Toelichting omtrent het niet-gebruik van de waarderingsregels op basis van de waarde in het economisch verkeer voor de financiële instrumenten.[^2] * In hetgeen volgt, worden enkel de bijkomende toelichtingsvereisten omtrent financiële vaste activa besproken. 
+Voor wat betreft de eerste toelichting van VOL 6.17 verwijst de Commissie naar CBN-advies 2013/16 - *Toelichting omtrent het niet-gebruik van de waarderingsregels op basis van de waarde in het economisch verkeer voor de financiële instrumenten.[^2]*  In hetgeen volgt, worden enkel de bijkomende toelichtingsvereisten omtrent financiële vaste activa besproken. 
 
 ## Waarderingsbeginselen van financiële vaste activa binnen het Belgisch boekhoudrecht
 
@@ -80,7 +68,8 @@ Binnen het Belgisch boekhoudrecht kunnen financiële vaste activa enkel worden g
 
 Er wordt overgegaan tot een afwaardering bij een duurzame minderwaarde of ontwaarding.[^5] 
 
-Aandelen en deelbewijzen kunnen eventueel een meerwaarde vertonen ten opzichte van hun aanschaffingswaarde. Indien deze meerwaarde blijvend is, kan het bestuursorgaan voor de aandelen en deelbewijzen opgenomen onder de financiële vaste activa ervoor opteren om het beginsel van artikel 57 KB W.Venn. toe te passen en een herwaarderingsmeerwaarde uit te drukken.[^6] Daarnaast moet er tevens worden overwogen om eventuele waardeverminderingen in eerste instantie terug te nemen wanneer ze op balansdatum niet langer noodzakelijk blijken.[^7] 
+Aandelen en deelbewijzen kunnen eventueel een meerwaarde vertonen ten opzichte van hun aanschaffingswaarde. Indien deze meerwaarde blijvend is, kan het bestuursorgaan voor de aandelen en deelbewijzen opgenomen onder de financiële vaste activa ervoor opteren om het beginsel van artikel 57 KB W.Venn. toe te passen en een herwaarderingsmeerwaarde uit te drukken.[^6]
+ Daarnaast moet er tevens worden overwogen om eventuele waardeverminderingen in eerste instantie terug te nemen wanneer ze op balansdatum niet langer noodzakelijk blijken.[^7] 
 
 ## Toelichting VOL 6.17
 
@@ -96,9 +85,10 @@ De invulling van het begrip reële waarde werd opgenomen in artikel 97, B, KB W.
 
 Artikel 97, B, KB W.Venn. maakt een onderscheid tussen afgeleide financiële instrumenten en financiële instrumenten. Op basis van het CBN-advies 2010/12 – De toepassing van de algemene boekhoudprincipes op afgeleide financiële instrumenten[^10], wordt dit onderscheid als volgt uiteengezet:
 
-“Het dynamisch karakter van de internationale financiële markten heeft tot gevolg dat vandaag de dag niet enkel gebruik wordt gemaakt van de klassieke primaire financiële instrumenten zoals aandelen en obligaties, maar ook van verschillende soorten afgeleide financiële instrumenten, zoals gestandaardiseerde en niet-gestandaardiseerde termijncontracten (*futures*), opties en *swaps*.”.
+“Het dynamisch karakter van de internationale financiële markten heeft tot gevolg dat vandaag de dag niet enkel gebruik wordt gemaakt van de klassieke primaire financiële instrumenten zoals aandelen en obligaties, maar ook van verschillende soorten afgeleide financiële instrumenten, zoals gestandaardiseerde en niet-gestandaardiseerde termijncontracten (*futures*), opties en* swaps*.”.
 
-De samenlezing van artikel 97, B, KB W.Venn. en de beginselen van CBN-advies 2010/12 doen besluiten dat een financieel vast activum niet valt onder de definitie van een financieel instrument conform het Belgische boekhoudrecht.[^11] Dit leidt er vervolgens toe dat de beginselen van artikel 97, B, KB W. Venn. omtrent de invulling van het begrip reële waarde geen toepassing kennen voor de toelichtingsvereisten uit artikel 91, XX, tweede lid KB W.Venn. Als gevolg hiervan bestaat er geen conceptuele definitie voor de invulling van het begrip reële waarde specifiek voor de toelichtingsvereisten onder artikel 91, XX, tweede lid KB W.Venn.
+De samenlezing van artikel 97, B, KB W.Venn. en de beginselen van CBN-advies 2010/12 doen besluiten dat een financieel vast activum niet valt onder de definitie van een financieel instrument conform het Belgische boekhoudrecht.[^11]
+ Dit leidt er vervolgens toe dat de beginselen van artikel 97, B, KB W. Venn. omtrent de invulling van het begrip reële waarde geen toepassing kennen voor de toelichtingsvereisten uit artikel 91, XX, tweede lid KB W.Venn. Als gevolg hiervan bestaat er geen conceptuele definitie voor de invulling van het begrip reële waarde specifiek voor de toelichtingsvereisten onder artikel 91, XX, tweede lid KB W.Venn.
 
 11. Bij gebrek aan deze invulling, is de Commissie van oordeel dat de reëlewaardehiërarchie van artikel 97, B, KB W.Venn. tevens een leidraad kan zijn voor de toelichtingsvereisten onder artikel 91, XX, tweede lid KB W.Venn.; ook al voldoet een financieel vast actief niet aan de omschrijving van een financieel instrument overeenkomstig CBN-advies 2010/12[^12]. 
 

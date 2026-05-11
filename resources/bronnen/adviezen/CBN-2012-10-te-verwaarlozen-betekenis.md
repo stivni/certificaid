@@ -1,47 +1,47 @@
 ---
-nummer: CBN-advies 2012/10
-datum: 2012-07-04
-themas:
-  - te verwaarlozen betekenis
-  - vrijstelling
-  - geconsolideerde jaarrekening
 bron: https://www.cbn-cnc.be/nl/adviezen/te-verwaarlozen-betekenis
+datum: 2012-07-04
+nummer: CBN-advies 2012/10
 provenance:
+  generated_at: '2026-05-11T13:05:08Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/te-verwaarlozen-betekenis
       sha256: 6b99fb366e6ded06b001c98cccac8e5f1d7de48d1cd863427e16c406d60f1cf2
       version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:36:28Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
   trust:
-    status: needs-rework
     confirmed_at: '2026-05-11T12:09:18Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "A3: regel 52 bevat een duplicate TOC als aaneengesloten plain-text-blob ('CBN-advies 2010/1 De interpretatie...BesluitGevolgen van de vrijstelling') — exact dezelfde inhoud als de genummerde lijst hierboven (regels 47-49). Dit is een extractie-artefact waarbij de TOC dubbel is opgenomen."
     layer1:
       status: pass
-      run_id: 20260511-083333
-      run_at:
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:28Z'
       heading_count: 6
-      max_section_chars: 3288
-      file_size_chars: 11962
+      max_section_chars: 3284
+      file_size_chars: 11957
       flags: []
     layer2:
-      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:09:18Z'
-      rationale: "A3: regel 52 bevat een duplicate TOC als aaneengesloten plain-text-blob ('CBN-advies 2010/1 De interpretatie...BesluitGevolgen van de vrijstelling') — exact dezelfde inhoud als de genummerde lijst hierboven (regels 47-49). Dit is een extractie-artefact waarbij de TOC dubbel is opgenomen."
       concrete_problemen:
-        - regel: 52
-          categorie: A3
+        - categorie: A3
+          regel: 52
           type: other
           voorbeeld: ' CBN-advies 2010/1 De interpretatie van de openbaarmakingsverplichting...BesluitGevolgen van de vrijstelling '
+      rationale: 'A3: regel 52 bevat een duplicate TOC als aaneengesloten plain-text-blob (''CBN-advies 2010/1 De interpretatie...BesluitGevolgen van de vrijstelling'') — exact dezelfde inhoud als de genummerde lijst hierboven (regels 47-49). Dit is een extractie-artefact waarbij de TOC dubbel is opgenomen.'
+      run_at: '2026-05-11T12:09:18Z'
+      status: needs-rework
+    rationale: 'A3: regel 52 bevat een duplicate TOC als aaneengesloten plain-text-blob (''CBN-advies 2010/1 De interpretatie...BesluitGevolgen van de vrijstelling'') — exact dezelfde inhoud als de genummerde lijst hierboven (regels 47-49). Dit is een extractie-artefact waarbij de TOC dubbel is opgenomen.'
+    status: needs-rework
+themas:
+  - te verwaarlozen betekenis
+  - vrijstelling
+  - geconsolideerde jaarrekening
 ---
 
 # CBN-advies 2012/10 - Te verwaarlozen betekenis
@@ -57,15 +57,11 @@ provenance:
 
 ## Inleiding
 
-De richtlijn 2009/49/EG van het Europees Parlement en de Raad van 18 juni 2009 tot wijziging van de richtlijnen 78/660/EEG en 83/349/EEG van de Raad met betrekking tot bepaalde informatieverplichtingen van middelgrote ondernemingen en de verplichting een geconsolideerde jaarrekening op te stellen[^1]
- heeft als voornaamste doelstelling de administratieve lasten voor ondernemingen terug te dringen in een poging de Europese economie te doen heropleven. Uit de samenlezing van artikel 1 en artikel 13, 1 en 2 van de richtlijn 83/349/EEG van 13 juni 1983 betreffende de geconsolideerde jaarrekening[^2]
- (hierna: de Zevende richtlijn) blijkt echter dat een moederonderneming verplicht is een geconsolideerde jaarrekening op te stellen, zelfs indien haar enige dochteronderneming of al haar dochterondernemingen tezamen, gelet op het doel van artikel 16, lid 3[^3]
- van die richtlijn, slechts van te verwaarlozen betekenis zijn en bijgevolg niet in deze geconsolideerde jaarrekening moeten worden opgenomen. 
+De richtlijn 2009/49/EG van het Europees Parlement en de Raad van 18 juni 2009 tot wijziging van de richtlijnen 78/660/EEG en 83/349/EEG van de Raad met betrekking tot bepaalde informatieverplichtingen van middelgrote ondernemingen en de verplichting een geconsolideerde jaarrekening op te stellen[^1] heeft als voornaamste doelstelling de administratieve lasten voor ondernemingen terug te dringen in een poging de Europese economie te doen heropleven. Uit de samenlezing van artikel 1 en artikel 13, 1 en 2 van de richtlijn 83/349/EEG van 13 juni 1983 betreffende de geconsolideerde jaarrekening[^2] (hierna: de Zevende richtlijn) blijkt echter dat een moederonderneming verplicht is een geconsolideerde jaarrekening op te stellen, zelfs indien haar enige dochteronderneming of al haar dochterondernemingen tezamen, gelet op het doel van artikel 16, lid 3[^3] van die richtlijn, slechts van te verwaarlozen betekenis zijn en bijgevolg niet in deze geconsolideerde jaarrekening moeten worden opgenomen. 
 
 Uit voorbeschouwing (8) bij de richtlijn 2009/49/EG blijkt dat deze verplichting als te belastend wordt beschouwd indien een moederonderneming alleen maar dochterondernemingen van te verwaarlozen betekenis zou hebben. Een moederonderneming zou in dergelijke gevallen moeten worden vrijgesteld van de verplichting een geconsolideerde jaarrekening en een geconsolideerd jaarverslag op te stellen. Evenwel behoudt zij steeds de mogelijkheid om, op eigen initiatief, een geconsolideerde jaarrekening op te stellen en een geconsolideerd jaarverslag op te maken.
 
-Artikel 2 van de richtlijn 2009/49/EG werd in de Belgische wetgeving omgezet via de wet van 22 maart 2012[^4]
- tot wijziging van het Wetboek van Vennootschappen en van de wet van 17 juli 1975 met betrekking tot de boekhouding van de ondernemingen (hierna: de wet van 22 maart 2012).
+Artikel 2 van de richtlijn 2009/49/EG werd in de Belgische wetgeving omgezet via de wet van 22 maart 2012[^4] tot wijziging van het Wetboek van Vennootschappen en van de wet van 17 juli 1975 met betrekking tot de boekhouding van de ondernemingen (hierna: de wet van 22 maart 2012).
 
 De wet van 22 maart 2012 wijzigt artikel 110 van het Wetboek van Vennootschappen (hierna: W.Venn.): 
 
@@ -102,8 +98,7 @@ Deze regel valt, zoals tevens gesteld door de bevoegde minister tijdens de parle
 
 ## Gevolgen van de vrijstelling 
 
-De Commissie wil evenwel niet nalaten te wijzen op een direct gevolg van de vrijstelling van consolidatieplicht in de hoger aangehaalde omstandigheden. Geassocieerde ondernemingen[^11]
- worden in de geconsolideerde jaarrekening opgenomen conform de vermogensmutatiemethode. Wanneer op een deelneming de vermogensmutatiemethode wordt toegepast, wordt zij in de geconsolideerde balans opgenomen voor het bedrag dat overeenkomt met het deel van het eigen vermogen van de betrokken vennootschap, inclusief het resultaat over het boekjaar, dat deze deelneming belichaamt[^12]. Bij vrijstelling van opstelling van de geconsolideerde jaarrekening worden deze participaties in de enkelvoudige jaarrekening opgenomen aan aanschaffingswaarde, wat mogelijks een verlies aan informatie betekent.
+De Commissie wil evenwel niet nalaten te wijzen op een direct gevolg van de vrijstelling van consolidatieplicht in de hoger aangehaalde omstandigheden. Geassocieerde ondernemingen[^11] worden in de geconsolideerde jaarrekening opgenomen conform de vermogensmutatiemethode. Wanneer op een deelneming de vermogensmutatiemethode wordt toegepast, wordt zij in de geconsolideerde balans opgenomen voor het bedrag dat overeenkomt met het deel van het eigen vermogen van de betrokken vennootschap, inclusief het resultaat over het boekjaar, dat deze deelneming belichaamt[^12]. Bij vrijstelling van opstelling van de geconsolideerde jaarrekening worden deze participaties in de enkelvoudige jaarrekening opgenomen aan aanschaffingswaarde, wat mogelijks een verlies aan informatie betekent.
 
 [^1]: Pb. L 164, 26 juni 2009, blz. 42.
 

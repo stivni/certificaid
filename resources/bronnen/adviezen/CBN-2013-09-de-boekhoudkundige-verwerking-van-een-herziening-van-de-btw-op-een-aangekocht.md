@@ -1,55 +1,55 @@
 ---
-nummer: CBN-advies 2013/9
-datum: 2013-05-08
-themas:
-  - aanschaffingswaarde
-  - herziening btw
 bron: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-een-herziening-van-de-btw-op-een-aangekocht
+datum: 2013-05-08
+gerelateerde_adviezen:
+  - datum: '2021-03-15'
+    titel: Aanschaffingswaarde bij de aankoop van een goed tegen betaling van een vaste prijs, verschuldigd over een periode van meer dan één jaar
+    url: https://www.cbn-cnc.be/nl/adviezen/aanschaffingswaarde-bij-de-aankoop-van-een-goed-tegen-betaling-van-een-vaste-prijs-0
+  - datum: '2019-03-12'
+    titel: Dividenduitkering en kapitaalvermindering in natura
+    url: https://www.cbn-cnc.be/nl/adviezen/dividenduitkering-en-kapitaalvermindering-in-natura-0
+  - datum: '2017-05-31'
+    titel: Boekhoudkundige verwerking van de vergoeding voor een borg in het kader van de financiering van een voor verkoop bestemd onroerend goed
+    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-vergoeding-voor-een-borg-in-het-kader-van-de
+  - datum: '2012-10-10'
+    titel: De boekhoudkundige verwerking van immateriële vaste activa
+    url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-immateriele-vaste-activa
+nummer: CBN-advies 2013/9
 provenance:
+  generated_at: '2026-05-11T13:05:08Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-een-herziening-van-de-btw-op-een-aangekocht
       sha256: bc3681d414f97ab78630ba21a24a99b3da88dbce7299db23da0a84fdc0293fa5
       version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:36:38Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
   trust:
-    status: trusted
     confirmed_at: '2026-05-11T12:16:34Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: 'Laag 1 meldt heading_count=0 en file_size_chars=1298: het advies is inhoudelijk een enkelvoudige paragraaf zonder secties, wat overeenkomt met het originele CBN-advies (één antwoord, geen onderverdelingen). Geen extractie-artefacten, geen broken formatting, footnotes ontbreken terecht. Volledig en afgerond.'
     layer1:
       status: pass
-      run_id: 20260511-083333
-      run_at:
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:28Z'
       heading_count: 0
       max_section_chars: 1298
       file_size_chars: 1298
       flags: []
     layer2:
-      status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:16:34Z'
-      rationale: 'Laag 1 meldt heading_count=0 en file_size_chars=1298: het advies is inhoudelijk een enkelvoudige paragraaf zonder secties, wat overeenkomt met het originele CBN-advies (één antwoord, geen onderverdelingen). Geen extractie-artefacten, geen broken formatting, footnotes ontbreken terecht. Volledig en afgerond.'
       concrete_problemen: []
-gerelateerde_adviezen:
-  - titel: Aanschaffingswaarde bij de aankoop van een goed tegen betaling van een vaste prijs, verschuldigd over een periode van meer dan één jaar
-    url: https://www.cbn-cnc.be/nl/adviezen/aanschaffingswaarde-bij-de-aankoop-van-een-goed-tegen-betaling-van-een-vaste-prijs-0
-    datum: '2021-03-15'
-  - titel: Dividenduitkering en kapitaalvermindering in natura
-    url: https://www.cbn-cnc.be/nl/adviezen/dividenduitkering-en-kapitaalvermindering-in-natura-0
-    datum: '2019-03-12'
-  - titel: Boekhoudkundige verwerking van de vergoeding voor een borg in het kader van de financiering van een voor verkoop bestemd onroerend goed
-    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-vergoeding-voor-een-borg-in-het-kader-van-de
-    datum: '2017-05-31'
-  - titel: De boekhoudkundige verwerking van immateriële vaste activa
-    url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-immateriele-vaste-activa
-    datum: '2012-10-10'
+      rationale: 'Laag 1 meldt heading_count=0 en file_size_chars=1298: het advies is inhoudelijk een enkelvoudige paragraaf zonder secties, wat overeenkomt met het originele CBN-advies (één antwoord, geen onderverdelingen). Geen extractie-artefacten, geen broken formatting, footnotes ontbreken terecht. Volledig en afgerond.'
+      run_at: '2026-05-11T12:16:34Z'
+      status: trusted
+    rationale: 'Laag 1 meldt heading_count=0 en file_size_chars=1298: het advies is inhoudelijk een enkelvoudige paragraaf zonder secties, wat overeenkomt met het originele CBN-advies (één antwoord, geen onderverdelingen). Geen extractie-artefacten, geen broken formatting, footnotes ontbreken terecht. Volledig en afgerond.'
+    status: trusted
+themas:
+  - aanschaffingswaarde
+  - herziening btw
 ---
 
 # CBN-advies 2013/9 – De boekhoudkundige verwerking van een herziening van de btw op een aangekocht bedrijfsmiddel

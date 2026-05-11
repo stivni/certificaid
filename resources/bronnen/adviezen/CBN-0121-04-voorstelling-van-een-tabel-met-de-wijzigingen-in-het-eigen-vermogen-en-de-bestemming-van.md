@@ -1,6 +1,39 @@
 ---
-nummer: CBN-advies 121/4
+bron: https://www.cbn-cnc.be/nl/adviezen/voorstelling-van-een-tabel-met-de-wijzigingen-in-het-eigen-vermogen-en-de-bestemming-van
 datum: 1995-03-01
+nummer: CBN-advies 121/4
+provenance:
+  generated_at: '2026-05-11T13:05:05Z'
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/voorstelling-van-een-tabel-met-de-wijzigingen-in-het-eigen-vermogen-en-de-bestemming-van
+      sha256: d63a3c5e3ff8c274dc4649c2e281793ac45b5d16ea5ef36a1462186f3a1a3554
+      version:
+  stale: false
+  stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
+  trust:
+    confirmed_at: '2026-05-08T21:19:09Z'
+    confirmed_by: human
+    layer1:
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:25Z'
+      heading_count: 0
+      max_section_chars: 5241
+      file_size_chars: 5241
+      flags: []
+    layer2:
+      agent:
+      concrete_problemen: []
+      rationale:
+      run_at:
+      status: not_run
+    rationale: 'Bijlage-link hersteld: [Klik hier om de bijlage te raadplegen](https://www.cbn-cnc.be/nl/bijlage-bij-cbn-advies-1214). Geen ## headings maar slechts 5K chars — heading_structure warn benign voor zo''n kort advies.'
+    status: trusted
 themas:
   - wijzigingen in het eigen vermogen
   - bestemming van het resultaat van het boekjaar
@@ -10,39 +43,6 @@ themas:
   - mutaties binnen het eigen vermogen
   - resultaatverwerking
   - tabel
-bron: https://www.cbn-cnc.be/nl/adviezen/voorstelling-van-een-tabel-met-de-wijzigingen-in-het-eigen-vermogen-en-de-bestemming-van
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/voorstelling-van-een-tabel-met-de-wijzigingen-in-het-eigen-vermogen-en-de-bestemming-van
-      sha256: d63a3c5e3ff8c274dc4649c2e281793ac45b5d16ea5ef36a1462186f3a1a3554
-      version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T21:17:36Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: trusted
-    confirmed_at: '2026-05-08T21:19:09Z'
-    confirmed_by: human
-    rationale: "Bijlage-link hersteld: [Klik hier om de bijlage te raadplegen](https://www.cbn-cnc.be/nl/bijlage-bij-cbn-advies-1214). Geen ## headings maar slechts 5K chars — heading_structure warn benign voor zo'n kort advies."
-    layer1:
-      status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 0
-      max_section_chars: 5243
-      file_size_chars: 5243
-      flags: []
-    layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
-      concrete_problemen: []
 ---
 
 # CBN-advies 121/4 - Voorstelling van een tabel met de wijzigingen in het eigen vermogen en de bestemming van het resultaat van het boekjaar
@@ -51,8 +51,7 @@ Naar aanleiding van het onderzoek van de boekhoudkundige verwerking van de belan
 
 De Commissie vestigt er in dat verband de aandacht op dat talrijke vennootschappen het initiatief hebben genomen om in hun geconsolideerde jaarrekening tabellen te publiceren waarin zij toelichten (op een meer gedetailleerde wijze dan voorzien door Staat XI van de toelichting bij de geconsolideerde jaarrekening) hoe het bedrag van het eigen vermogen bij de aanvang van het boekjaar evolueert tot het bedrag bij de afsluiting van het boekjaar. Dergelijke tabellen zijn eveneens mogelijk voor de wijzigingen in het eigen vermogen en in de bestemming van het resultaat zoals die blijken uit de statutaire jaarrekening. 
 
-De Franse "Conseil National de la Comptabilité" zegt in zijn "Document n° 57"[^1]
- daarover het volgende : dikwijls worden verrichtingen geboekt die niet via de resultaatverwerking verlopen maar niettemin een rechtstreekse invloed hebben op het bedrag van het eigen vermogen, wat het onmogelijk maakt de theoretische overeenstemming terug te vinden tussen, enerzijds, het resultaat van het boekjaar en, anderzijds, het verschil tussen zowel de opbrengsten en kosten als tussen het eigen vermogen bij de aanvang en bij de afsluiting van het boekjaar. Daarom formuleerde de "Conseil National de la Comptabilité" als aanbeveling dat voor elke wijziging in het eigen vermogen die niet overeenstemde met het resultaat uit het verschil tussen de opbrengsten en de kosten, de oorzaken van dat verschil in een bijlage zouden worden toegelicht, met ten minste een onderscheid tussen : 
+De Franse "Conseil National de la Comptabilité" zegt in zijn "Document n° 57"[^1] daarover het volgende : dikwijls worden verrichtingen geboekt die niet via de resultaatverwerking verlopen maar niettemin een rechtstreekse invloed hebben op het bedrag van het eigen vermogen, wat het onmogelijk maakt de theoretische overeenstemming terug te vinden tussen, enerzijds, het resultaat van het boekjaar en, anderzijds, het verschil tussen zowel de opbrengsten en kosten als tussen het eigen vermogen bij de aanvang en bij de afsluiting van het boekjaar. Daarom formuleerde de "Conseil National de la Comptabilité" als aanbeveling dat voor elke wijziging in het eigen vermogen die niet overeenstemde met het resultaat uit het verschil tussen de opbrengsten en de kosten, de oorzaken van dat verschil in een bijlage zouden worden toegelicht, met ten minste een onderscheid tussen : 
 
 - de ontvangen inbrengen of de eigen-vermogensbestanddelen; 
 - de herwaarderingsmeerwaarden; 
@@ -62,8 +61,7 @@ Ingevolge dat advies moet volgens het Franse boekhoudrecht in het Franse rekenin
 
 In dezelfde optiek vond de Commissie het verantwoord om zo een typetabel voor te stellen. Het gebruik van die tabel zou niet alleen de financiële informatieverstrekking aan de vennoten ten goede komen, maar ook een betere naleving garanderen van een aantal fundamentele boekhoudbeginselen met betrekking tot mutaties binnen het eigen vermogen die vaak moeilijk te interpreteren zijn aan de hand van de financiële staten alleen. Bovendien biedt zo'n tabel het voordeel van een uitsplitsing van de invloed van de gezamenlijke mutaties op de evolutie van het eigen vermogen. 
 
-Die tabel geeft een synthetisch overzicht van de evolutie van het eigen vermogen[^2]
- waarbij een onderscheid wordt gemaakt tussen : 
+Die tabel geeft een synthetisch overzicht van de evolutie van het eigen vermogen[^2] waarbij een onderscheid wordt gemaakt tussen : 
 
 - de toestand van het eigen vermogen op balansdatum n-1 (na uitkering van de resultaten) (kolom A); 
 - de tijdens het boekjaar geboekte wijzigingen in het eigen vermogen die niet in de resultaatverwerking zijn opgenomen (kolom B, met onder andere - overeenkomstig advies 121/3 - de mutaties binnen het eigen vermogen die in de resultatenrekening zijn geboekt maar niet in de resultaatverwerking zijn opgenomen); 

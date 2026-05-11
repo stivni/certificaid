@@ -3,41 +3,40 @@ bron: https://www.cbn-cnc.be/nl/adviezen/aanpassing-van-het-rekeningstelsel-van-
 datum: 1979-05-01
 nummer: CBN-advies R100/2
 provenance:
-  generated_at: '2026-05-08T18:33:36Z'
+  generated_at: '2026-05-11T13:05:05Z'
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/aanpassing-van-het-rekeningstelsel-van-de-onderneming
-    sha256: 4c1e0333d19dfa08069f1dce3ba2d7919a22b6963e8b41f4044ada97b08669b9
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/aanpassing-van-het-rekeningstelsel-van-de-onderneming
+      sha256: 4c1e0333d19dfa08069f1dce3ba2d7919a22b6963e8b41f4044ada97b08669b9
+      version:
   stale: false
-  stale_reason: null
+  stale_reason:
   tooling:
-    model: null
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    prompt_version: null
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
   trust:
     confirmed_at: '2026-05-08T19:02:29Z'
     confirmed_by: subagent-laag2-ronde2
     layer1:
-      file_size_chars: 6867
-      flags: []
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:24Z'
       heading_count: 0
       max_section_chars: 6867
-      run_at: null
-      run_id: 20260511-083333
-      status: pass
+      file_size_chars: 6867
+      flags: []
     layer2:
       agent: subagent-laag2-ronde2
       concrete_problemen: []
-      rationale: '[Laag-2-R2 2026-05-08] Volledig met concrete aanpassingstechnieken
-        (onderrekeningen, conversieprogramma, klassen 8-9).'
+      rationale: '[Laag-2-R2 2026-05-08] Volledig met concrete aanpassingstechnieken (onderrekeningen, conversieprogramma, klassen 8-9).'
       run_at: '2026-05-08T19:02:29Z'
       status: trusted
     rationale: Laag-2 trusted door subagent-laag2-ronde2 (zie layer2.rationale)
     status: trusted
 themas:
-- aanpassing van het rekeningstelsel
-- rekeningenstelsel
+  - aanpassing van het rekeningstelsel
+  - rekeningenstelsel
 ---
 
 # CBN-advies R100/2 - Aanpassing van het rekeningstelsel van de onderneming
@@ -52,7 +51,7 @@ De normalisering van de rekeningstelsels werd doorgevoerd door het koninklijk be
 
 De noodzakelijke aanpassing van het genormaliseerd stelsel aan de werkzaamheden van de onderneming wordt in de algemene boekhouding bereikt door een aanpassing van de benaming van de rekeningen, door het aanleggen van onderrekeningen of nog door de toevoeging van bijkomende rekeningen. Zeer dikwijls zal deze aanpassing kunnen geschieden door de invoering van een analytische kostprijsboekhouding. Deze strekt ertoe op de diverse producten alsmede op de diverse productie- en activiteitscentra van de onderneming de betrokken kosten en opbrengsten aan te rekenen die in het genormaliseerd rekeningstelsel naar hun aard geordend zijn. 
 
-De vragen om advies die de Commissie ontving gingen hoofdzakelijk uit van ondernemingen die over een rekeningstelsel en een boekhoudkundige organisatie beschikken die ten dele op andere beginselen steunen, en meer bepaald op de rechtstreekse aanrekening van kosten en opbrengsten niet naar hun aard maar naar hun bestemming. Andere vragen gingen uit van *succursales *en dochterondernemingen van buitenlandse ondernemingen die door hun moedervennootschap verplicht worden genormaliseerde boekhoudkundige procedures na te leven met het oog op de opstelling door deze moedervennootschap van haar eigen jaarrekening of met het oog op consolidatiedoeleinden. 
+De vragen om advies die de Commissie ontving gingen hoofdzakelijk uit van ondernemingen die over een rekeningstelsel en een boekhoudkundige organisatie beschikken die ten dele op andere beginselen steunen, en meer bepaald op de rechtstreekse aanrekening van kosten en opbrengsten niet naar hun aard maar naar hun bestemming. Andere vragen gingen uit van *succursales* en dochterondernemingen van buitenlandse ondernemingen die door hun moedervennootschap verplicht worden genormaliseerde boekhoudkundige procedures na te leven met het oog op de opstelling door deze moedervennootschap van haar eigen jaarrekening of met het oog op consolidatiedoeleinden. 
 
 Verschillende aanvragen tot afwijking werden ingediend bij de Minister van Economische Zaken ten einde vrijgesteld te worden van de verplichte toepassing van het genormaliseerd rekeningstelsel. Daarbij werden verschillende redenen aangevoerd : de bestaande boekhoudkundige organisatie van de onderneming geeft voldoening; de aanpassing aan de werkzaamheden van de onderneming moet de doelstellingen van de normalisering primeren; het genormaliseerd rekeningstelsel geeft niet de kostprijs weer van de verschillende producten of werken. 
 

@@ -1,48 +1,48 @@
 ---
-nummer: CBN-advies 105-5
-datum: 1977-08-01
-themas:
-  - vennootschap behorende tot dezelfde groep
-  - aanrekening van vergoedingen door vennootschappen behorende tot dezelfde groep
-  - beheerder
-  - compensatie
 bron: https://www.cbn-cnc.be/nl/adviezen/aanrekening-van-vergoedingen-van-beheerders-of-leden-van-het-personeel-toegekend-door-0
+datum: 1977-08-01
+nummer: CBN-advies 105-5
 provenance:
+  generated_at: '2026-05-11T13:05:05Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/aanrekening-van-vergoedingen-van-beheerders-of-leden-van-het-personeel-toegekend-door-0
       sha256: 1be95bcf721b9668f270171df616a7e70c5338c8a49feb9bd492179f2356a47d
       version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:33:50Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
   trust:
-    status: needs-rework
     confirmed_at: '2026-05-11T11:57:45Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: 'F1/F3: het `nummer`-veld in frontmatter is `CBN-advies 105-5` (met koppelteken) terwijl de body-heading `CBN-advies 105/5` schrijft (met schuine streep) — inconsistentie tussen frontmatter en heading. De bestandsnaam eindigt op `-door-0.md` wat een afgekapte slug suggereert (de volledige titel was te lang). Deze twee problemen zijn ETL-fixable.'
     layer1:
       status: pass
-      run_id: 20260511-083333
-      run_at:
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:24Z'
       heading_count: 0
       max_section_chars: 1623
       file_size_chars: 1623
       flags: []
     layer2:
-      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T11:57:45Z'
-      rationale: 'F1/F3: het `nummer`-veld in frontmatter is `CBN-advies 105-5` (met koppelteken) terwijl de body-heading `CBN-advies 105/5` schrijft (met schuine streep) — inconsistentie tussen frontmatter en heading. De bestandsnaam eindigt op `-door-0.md` wat een afgekapte slug suggereert (de volledige titel was te lang). Deze twee problemen zijn ETL-fixable.'
       concrete_problemen:
-        - regel: 3
-          categorie: F1
+        - categorie: F1
+          regel: 3
           type: naam-mismatch
           voorbeeld: 'nummer: CBN-advies 105-5 (frontmatter) vs # CBN-advies 105/5 (body heading)'
+      rationale: 'F1/F3: het `nummer`-veld in frontmatter is `CBN-advies 105-5` (met koppelteken) terwijl de body-heading `CBN-advies 105/5` schrijft (met schuine streep) — inconsistentie tussen frontmatter en heading. De bestandsnaam eindigt op `-door-0.md` wat een afgekapte slug suggereert (de volledige titel was te lang). Deze twee problemen zijn ETL-fixable.'
+      run_at: '2026-05-11T11:57:45Z'
+      status: needs-rework
+    rationale: 'F1/F3: het `nummer`-veld in frontmatter is `CBN-advies 105-5` (met koppelteken) terwijl de body-heading `CBN-advies 105/5` schrijft (met schuine streep) — inconsistentie tussen frontmatter en heading. De bestandsnaam eindigt op `-door-0.md` wat een afgekapte slug suggereert (de volledige titel was te lang). Deze twee problemen zijn ETL-fixable.'
+    status: needs-rework
+themas:
+  - vennootschap behorende tot dezelfde groep
+  - aanrekening van vergoedingen door vennootschappen behorende tot dezelfde groep
+  - beheerder
+  - compensatie
 ---
 
 # CBN-advies 105/5 - Aanrekening van vergoedingen, van beheerders of leden van het personeel toegekend door vennootschappen behorende tot dezelfde groep

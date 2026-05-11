@@ -1,65 +1,62 @@
 ---
-nummer: CBN-advies 146/2
+bron: https://www.cbn-cnc.be/nl/adviezen/vooruitbetalingen-van-sociale-zekerheidsbijdragen
 datum: 1988-06-01
+gerelateerde_adviezen:
+  - datum: '2016-07-06'
+    titel: 'Schulden en vorderingen: gevolgen van de wijzigingen aan artikel 67 KB W.Venn. door het koninklijk besluit van 18 december 2015'
+    url: https://www.cbn-cnc.be/nl/adviezen/schulden-en-vorderingen-gevolgen-van-de-wijzigingen-aan-artikel-67-kb-wvenn-door-het
+  - datum: '2010-12-08'
+    titel: Boekhoudrechtelijke verwerking van betwiste schulden
+    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudrechtelijke-verwerking-van-betwiste-schulden
+  - datum: '1984-10-01'
+    titel: Vorderingen (en schulden) met forfaitair lastenpercentage
+    url: https://www.cbn-cnc.be/nl/adviezen/vorderingen-en-schulden-met-forfaitair-lastenpercentage
+  - datum: '1980-06-01'
+    titel: Betwiste fiscale aanslag
+    url: https://www.cbn-cnc.be/nl/adviezen/betwiste-fiscale-aanslag
+nummer: CBN-advies 146/2
+provenance:
+  generated_at: '2026-05-11T13:05:06Z'
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/vooruitbetalingen-van-sociale-zekerheidsbijdragen
+      sha256: a5fcb5df7d0ba93c414823187809481a053f039a0cdf6a6d49a564659e192fdb
+      version:
+  stale: false
+  stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
+  trust:
+    confirmed_at: '2026-05-11T12:04:41Z'
+    confirmed_by: subagent-sonnet-4-6
+    layer1:
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:26Z'
+      heading_count: 0
+      max_section_chars: 1773
+      file_size_chars: 1773
+      flags: []
+    layer2:
+      agent: subagent-sonnet-4-6
+      concrete_problemen: []
+      rationale: Zeer kort advies (1776 chars), 3 voetnoten volledig gedefinieerd. Geen artefacten, geen structuurfouten.
+      run_at: '2026-05-11T12:04:41Z'
+      status: trusted
+    rationale: Zeer kort advies (1776 chars), 3 voetnoten volledig gedefinieerd. Geen artefacten, geen structuurfouten.
+    status: trusted
 themas:
   - schulden
   - toelichting
   - Vooruitbetaling
   - vooruitbetaling van sociale zekerheidsbijdragen
-bron: https://www.cbn-cnc.be/nl/adviezen/vooruitbetalingen-van-sociale-zekerheidsbijdragen
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/vooruitbetalingen-van-sociale-zekerheidsbijdragen
-      sha256: a5fcb5df7d0ba93c414823187809481a053f039a0cdf6a6d49a564659e192fdb
-      version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:35:10Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: trusted
-    confirmed_at: '2026-05-11T12:04:41Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: Zeer kort advies (1776 chars), 3 voetnoten volledig gedefinieerd. Geen artefacten, geen structuurfouten.
-    layer1:
-      status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 0
-      max_section_chars: 1776
-      file_size_chars: 1776
-      flags: []
-    layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:04:41Z'
-      rationale: Zeer kort advies (1776 chars), 3 voetnoten volledig gedefinieerd. Geen artefacten, geen structuurfouten.
-      concrete_problemen: []
-gerelateerde_adviezen:
-  - titel: 'Schulden en vorderingen: gevolgen van de wijzigingen aan artikel 67 KB W.Venn. door het koninklijk besluit van 18 december 2015'
-    url: https://www.cbn-cnc.be/nl/adviezen/schulden-en-vorderingen-gevolgen-van-de-wijzigingen-aan-artikel-67-kb-wvenn-door-het
-    datum: '2016-07-06'
-  - titel: Boekhoudrechtelijke verwerking van betwiste schulden
-    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudrechtelijke-verwerking-van-betwiste-schulden
-    datum: '2010-12-08'
-  - titel: Vorderingen (en schulden) met forfaitair lastenpercentage
-    url: https://www.cbn-cnc.be/nl/adviezen/vorderingen-en-schulden-met-forfaitair-lastenpercentage
-    datum: '1984-10-01'
-  - titel: Betwiste fiscale aanslag
-    url: https://www.cbn-cnc.be/nl/adviezen/betwiste-fiscale-aanslag
-    datum: '1980-06-01'
 ---
 
 # CBN-advies 146/2 - Vooruitbetalingen van sociale zekerheidsbijdragen
 
-Aan de Commissie werd gevraagd of de verplichte vermelding in de toelichting bij de jaarrekening[^1]
- van het bedrag per einde boekjaar van de vervallen maar niet betaalde schulden tegenover de Rijksdienst voor Sociale Zekerheid[^2]
- ook geldt voor het bedrag per einde boekjaar van de vooruitbetalingen van sociale zekerheidsbijdragen die hadden moeten worden gestort[^3]
- maar niet werden gestort.
+Aan de Commissie werd gevraagd of de verplichte vermelding in de toelichting bij de jaarrekening[^1] van het bedrag per einde boekjaar van de vervallen maar niet betaalde schulden tegenover de Rijksdienst voor Sociale Zekerheid[^2] ook geldt voor het bedrag per einde boekjaar van de vooruitbetalingen van sociale zekerheidsbijdragen die hadden moeten worden gestort[^3] maar niet werden gestort.
 
 De Commissie meent hierop bevestigend te kunnen antwoorden. Uit de sociale zekerheidsregeling blijkt inderdaad dat bepaalde ondernemingen sommige bijdragen moeten vooruitbetalen, op straffe van burgerrechtelijke sancties (verhogingen en verwijlintresten). Daaruit volgt dat de datum voor storting van deze vooruitbetalingen effectief geldt als vervaldatum voor een schuld t.a.v. de Rijksdienst voor Sociale Zekerheid.
 

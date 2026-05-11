@@ -1,6 +1,51 @@
 ---
-nummer: CBN-advies 107/11
+bron: https://www.cbn-cnc.be/nl/adviezen/opbrengsten-waarover-betwisting-bestaat-update
 datum: 1989-09-01
+nummer: CBN-advies 107/11
+provenance:
+  generated_at: '2026-05-11T13:05:05Z'
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/opbrengsten-waarover-betwisting-bestaat-update
+      sha256: a825f5803d0f039826d922fc8be983950b805af35c15c92916d08be43e25f0cf
+      version:
+  stale: false
+  stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
+  trust:
+    confirmed_at: '2026-05-11T11:57:45Z'
+    confirmed_by: subagent-sonnet-4-6
+    layer1:
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:24Z'
+      heading_count: 0
+      max_section_chars: 3518
+      file_size_chars: 3518
+      flags: []
+    layer2:
+      agent: subagent-sonnet-4-6
+      concrete_problemen:
+        - categorie: A5
+          regel: 49
+          type: other
+          voorbeeld: '# CBN-advies 107/11 − Opbrengsten... (U+2212 MINUS SIGN, niet hyphen)'
+        - categorie: B3
+          regel: 51
+          type: other
+          voorbeeld: '# Advies van september 1989, bijgewerkt op 10 september 2025[^1]'
+        - categorie: G2
+          regel: 8
+          type: other
+          voorbeeld: '- voorzieningen voor risico&#039;s en kosten'
+      rationale: 'Twee problemen: (1) B3: duplicate `#`-level headings op regels 49 en 51 — een tweede `# Advies van september 1989...` direct na de paginatitel, met bovendien een `[^1]`-marker in de heading zelf (geen mens typt een footnote-referentie in een # heading). (2) A5: U+2212 MINUS SIGN (−, U+2212) in de titel-heading op regel 49 in plaats van een gewone hyphen of en-dash — inconsistent met alle andere adviezen in de batch. (3) G2: HTML-entity `&#039;` in frontmatter op regel 8.'
+      run_at: '2026-05-11T11:57:45Z'
+      status: needs-rework
+    rationale: 'Twee problemen: (1) B3: duplicate `#`-level headings op regels 49 en 51 — een tweede `# Advies van september 1989...` direct na de paginatitel, met bovendien een `[^1]`-marker in de heading zelf (geen mens typt een footnote-referentie in een # heading). (2) A5: U+2212 MINUS SIGN (−, U+2212) in de titel-heading op regel 49 in plaats van een gewone hyphen of en-dash — inconsistent met alle andere adviezen in de batch. (3) G2: HTML-entity `&#039;` in frontmatter op regel 8.'
+    status: needs-rework
 themas:
   - betwisting
   - opbrengsten waarover betwisting bestaat
@@ -11,54 +56,7 @@ themas:
   - risico
   - Waardevermindering
   - waarschijnlijkheid
-bron: https://www.cbn-cnc.be/nl/adviezen/opbrengsten-waarover-betwisting-bestaat-update
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/opbrengsten-waarover-betwisting-bestaat-update
-      sha256: a825f5803d0f039826d922fc8be983950b805af35c15c92916d08be43e25f0cf
-      version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:34:00Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T11:57:45Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: 'Twee problemen: (1) B3: duplicate `#`-level headings op regels 49 en 51 — een tweede `# Advies van september 1989...` direct na de paginatitel, met bovendien een `[^1]`-marker in de heading zelf (geen mens typt een footnote-referentie in een # heading). (2) A5: U+2212 MINUS SIGN (−, U+2212) in de titel-heading op regel 49 in plaats van een gewone hyphen of en-dash — inconsistent met alle andere adviezen in de batch. (3) G2: HTML-entity `&#039;` in frontmatter op regel 8.'
-    layer1:
-      status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 0
-      max_section_chars: 3590
-      file_size_chars: 3590
-      flags: []
-    layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T11:57:45Z'
-      rationale: 'Twee problemen: (1) B3: duplicate `#`-level headings op regels 49 en 51 — een tweede `# Advies van september 1989...` direct na de paginatitel, met bovendien een `[^1]`-marker in de heading zelf (geen mens typt een footnote-referentie in een # heading). (2) A5: U+2212 MINUS SIGN (−, U+2212) in de titel-heading op regel 49 in plaats van een gewone hyphen of en-dash — inconsistent met alle andere adviezen in de batch. (3) G2: HTML-entity `&#039;` in frontmatter op regel 8.'
-      concrete_problemen:
-        - regel: 49
-          categorie: A5
-          type: other
-          voorbeeld: '# CBN-advies 107/11 − Opbrengsten... (U+2212 MINUS SIGN, niet hyphen)'
-        - regel: 51
-          categorie: B3
-          type: other
-          voorbeeld: '# Advies van september 1989, bijgewerkt op 10 september 2025[^1]'
-        - regel: 8
-          categorie: G2
-          type: other
-          voorbeeld: '- voorzieningen voor risico&#039;s en kosten'
 ---
-
-# CBN-advies 107/11 − Opbrengsten waarover betwisting bestaat (update)
 
 # Advies van september 1989, bijgewerkt op 10 september 2025[^1] 
 

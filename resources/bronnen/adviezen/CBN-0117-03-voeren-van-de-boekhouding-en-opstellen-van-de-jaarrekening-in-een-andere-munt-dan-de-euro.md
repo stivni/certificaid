@@ -1,6 +1,64 @@
 ---
-nummer: CBN-advies 117/3
+bron: https://www.cbn-cnc.be/nl/adviezen/voeren-van-de-boekhouding-en-opstellen-van-de-jaarrekening-in-een-andere-munt-dan-de-euro
 datum: 2008-11-26
+gerelateerde_adviezen:
+  - datum: '2024-02-08'
+    titel: 'Belgische bijkantoren van buitenlandse verenigingen en stichtingen: toepassing van het Belgisch boekhoudrecht – begrip ‘bijkantoor’ – publicatieplicht – eigen boekhoudkundige verplichtingen'
+    url: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-buitenlandse-verenigingen-en-stichtingen-toepassing-van-het-0
+  - datum: '2022-11-08'
+    titel: 'Belgische bijkantoren van buitenlandse vennootschappen: eigen boekhoudkundige verplichtingen (update)'
+    url: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-buitenlandse-vennootschappen-eigen-boekhoudkundige
+  - datum: '2019-05-14'
+    titel: Adviesbeleid van de Commissie voor Boekhoudkundige Normen ten aanzien van vragen tot afwijking voor Belgische bijkantoren van buitenlandse vennootschappen (ONTWERP)
+    url: https://www.cbn-cnc.be/nl/adviezen/adviesbeleid-van-de-commissie-voor-boekhoudkundige-normen-ten-aanzien-van-vragen-tot
+  - datum: '2019-03-26'
+    titel: 'Belgische bijkantoren van vennootschappen naar buitenlands recht: eigen boekhoudkundige verplichtingen'
+    url: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-vennootschappen-naar-buitenlands-recht-eigen-boekhoudkundige-0
+nummer: CBN-advies 117/3
+provenance:
+  generated_at: '2026-05-11T13:05:05Z'
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/voeren-van-de-boekhouding-en-opstellen-van-de-jaarrekening-in-een-andere-munt-dan-de-euro
+      sha256: 31318435a29991bcbeb515e0d31d19760d5c140e282ad7e8200b3872787c2071
+      version:
+  stale: false
+  stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
+  trust:
+    confirmed_at: '2026-05-11T11:57:45Z'
+    confirmed_by: subagent-sonnet-4-6
+    layer1:
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:25Z'
+      heading_count: 3
+      max_section_chars: 3970
+      file_size_chars: 11466
+      flags: []
+    layer2:
+      agent: subagent-sonnet-4-6
+      concrete_problemen:
+        - categorie: B2
+          regel: 82
+          type: other
+          voorbeeld: '#### Definitie van de functionele valuta — H4 direct onder H1, H2/H3 ontbreken'
+        - categorie: D4
+          regel: 72
+          type: other
+          voorbeeld: '*enerzijds *volgens — spatie voor sluitende asterisk, gebrekkige italic'
+        - categorie: A6
+          regel: 85
+          type: other
+          voorbeeld: ''' Bij de opstelling van de jaarrekening...'' — zin begint met spatie, spurious line-break'
+      rationale: 'Drie problemen: (1) B2: Heading-hiërarchie springt van H1 (regel 64) direct naar H4 (regels 82, 87, 116) — H2 en H3 ontbreken volledig. (2) D4: Regel 72 heeft ''*enerzijds *'' met spatie voor sluitende asterisk — technisch gebrekkige italic-opmaak. (3) A6: Regel 85 begint met een spatie ('' Bij de opstelling...'') — spurious line-break binnen een alinea die begint direct na een vorige zin op regel 84.'
+      run_at: '2026-05-11T11:57:45Z'
+      status: needs-rework
+    rationale: 'Drie problemen: (1) B2: Heading-hiërarchie springt van H1 (regel 64) direct naar H4 (regels 82, 87, 116) — H2 en H3 ontbreken volledig. (2) D4: Regel 72 heeft ''*enerzijds *'' met spatie voor sluitende asterisk — technisch gebrekkige italic-opmaak. (3) A6: Regel 85 begint met een spatie ('' Bij de opstelling...'') — spurious line-break binnen een alinea die begint direct na een vorige zin op regel 84.'
+    status: needs-rework
 themas:
   - afwijking
   - functionele munt
@@ -13,64 +71,6 @@ themas:
   - opstelling van de jaarrekening in vreemde munt
   - voeren van de boekhouding
   - vreemde munt
-bron: https://www.cbn-cnc.be/nl/adviezen/voeren-van-de-boekhouding-en-opstellen-van-de-jaarrekening-in-een-andere-munt-dan-de-euro
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/voeren-van-de-boekhouding-en-opstellen-van-de-jaarrekening-in-een-andere-munt-dan-de-euro
-      sha256: 31318435a29991bcbeb515e0d31d19760d5c140e282ad7e8200b3872787c2071
-      version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:34:25Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T11:57:45Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "Drie problemen: (1) B2: Heading-hiërarchie springt van H1 (regel 64) direct naar H4 (regels 82, 87, 116) — H2 en H3 ontbreken volledig. (2) D4: Regel 72 heeft '*enerzijds *' met spatie voor sluitende asterisk — technisch gebrekkige italic-opmaak. (3) A6: Regel 85 begint met een spatie (' Bij de opstelling...') — spurious line-break binnen een alinea die begint direct na een vorige zin op regel 84."
-    layer1:
-      status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 3
-      max_section_chars: 3970
-      file_size_chars: 11466
-      flags: []
-    layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T11:57:45Z'
-      rationale: "Drie problemen: (1) B2: Heading-hiërarchie springt van H1 (regel 64) direct naar H4 (regels 82, 87, 116) — H2 en H3 ontbreken volledig. (2) D4: Regel 72 heeft '*enerzijds *' met spatie voor sluitende asterisk — technisch gebrekkige italic-opmaak. (3) A6: Regel 85 begint met een spatie (' Bij de opstelling...') — spurious line-break binnen een alinea die begint direct na een vorige zin op regel 84."
-      concrete_problemen:
-        - regel: 82
-          categorie: B2
-          type: other
-          voorbeeld: '#### Definitie van de functionele valuta — H4 direct onder H1, H2/H3 ontbreken'
-        - regel: 72
-          categorie: D4
-          type: other
-          voorbeeld: '*enerzijds *volgens — spatie voor sluitende asterisk, gebrekkige italic'
-        - regel: 85
-          categorie: A6
-          type: other
-          voorbeeld: "' Bij de opstelling van de jaarrekening...' — zin begint met spatie, spurious line-break"
-gerelateerde_adviezen:
-  - titel: 'Belgische bijkantoren van buitenlandse verenigingen en stichtingen: toepassing van het Belgisch boekhoudrecht – begrip ‘bijkantoor’ – publicatieplicht – eigen boekhoudkundige verplichtingen'
-    url: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-buitenlandse-verenigingen-en-stichtingen-toepassing-van-het-0
-    datum: '2024-02-08'
-  - titel: 'Belgische bijkantoren van buitenlandse vennootschappen: eigen boekhoudkundige verplichtingen (update)'
-    url: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-buitenlandse-vennootschappen-eigen-boekhoudkundige
-    datum: '2022-11-08'
-  - titel: Adviesbeleid van de Commissie voor Boekhoudkundige Normen ten aanzien van vragen tot afwijking voor Belgische bijkantoren van buitenlandse vennootschappen (ONTWERP)
-    url: https://www.cbn-cnc.be/nl/adviezen/adviesbeleid-van-de-commissie-voor-boekhoudkundige-normen-ten-aanzien-van-vragen-tot
-    datum: '2019-05-14'
-  - titel: 'Belgische bijkantoren van vennootschappen naar buitenlands recht: eigen boekhoudkundige verplichtingen'
-    url: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-vennootschappen-naar-buitenlands-recht-eigen-boekhoudkundige-0
-    datum: '2019-03-26'
 ---
 
 # CBN-advies 117/3 - Voeren van de boekhouding en opstellen van de jaarrekening in een andere munt dan de euro
@@ -81,9 +81,9 @@ Het kan voorkomen, in uitzonderlijke gevallen, dat het opstellen van een jaarrek
 
 De procedure voor het vragen van een afwijking is vastgelegd in art. 14 Wet 17.07.1975 en in art. 125, § 1 W.Venn.
 
-De Minister van Economische Zaken kan *enerzijds *volgens de Wet van 17.07.1975 in bijzondere gevallen, na een met redenen omkleed advies van de Commissie voor Boekhoudkundige Normen, toestaan dat wordt afgeweken van de regels vastgesteld op grond van artikel 4, zesde lid, van artikel 9, § 2, de artikelen 10 en 11 Wet 17.07.1975. Deze bevoegdheid wordt op dezelfde wijze door de Minister van Middenstand uitgeoefend ten aanzien van de vennootschappen en andere ondernemingen die als klein kunnen worden beschouwd in de zin van het Wetboek van vennootschappen. De Commissie wordt in kennis gesteld van het besluit van de Minister.
+De Minister van Economische Zaken kan *enerzijds* volgens de Wet van 17.07.1975 in bijzondere gevallen, na een met redenen omkleed advies van de Commissie voor Boekhoudkundige Normen, toestaan dat wordt afgeweken van de regels vastgesteld op grond van artikel 4, zesde lid, van artikel 9, § 2, de artikelen 10 en 11 Wet 17.07.1975. Deze bevoegdheid wordt op dezelfde wijze door de Minister van Middenstand uitgeoefend ten aanzien van de vennootschappen en andere ondernemingen die als klein kunnen worden beschouwd in de zin van het Wetboek van vennootschappen. De Commissie wordt in kennis gesteld van het besluit van de Minister.
 
-*Anderzijds* kan volgens het Wetboek van vennootschappen de Minister die de Economische Zaken onder zijn bevoegdheden heeft, in bijzondere gevallen, na een met redenen omkleed advies van de Commissie voor Boekhoudkundige Normen, toestaan dat wordt afgeweken van de koninklijke besluiten genomen ter uitvoering van de bepalingen gemeenschappelijk aan de rechtspersonen geregeld in het Wetboek van vennootschappen, titel *De jaarrekening en de geconsolideerde jaarrekening[^2] *. Met betrekking tot de kleine vennootschappen wordt deze bevoegdheid uitgeoefend door de Minister die de Middenstand onder zijn bevoegdheden heeft. Ook hier wordt de Commissie in kennis gesteld van het besluit van de Minister.
+*Anderzijds* kan volgens het Wetboek van vennootschappen de Minister die de Economische Zaken onder zijn bevoegdheden heeft, in bijzondere gevallen, na een met redenen omkleed advies van de Commissie voor Boekhoudkundige Normen, toestaan dat wordt afgeweken van de koninklijke besluiten genomen ter uitvoering van de bepalingen gemeenschappelijk aan de rechtspersonen geregeld in het Wetboek van vennootschappen, titel *De jaarrekening en de geconsolideerde jaarrekening[^2]* . Met betrekking tot de kleine vennootschappen wordt deze bevoegdheid uitgeoefend door de Minister die de Middenstand onder zijn bevoegdheden heeft. Ook hier wordt de Commissie in kennis gesteld van het besluit van de Minister.
 
 Krachtens art. 9, § 2 samen met art. 10, § 1 van de boekhoudwet (van 17.07.1975) en art. 22, derde lid samen met art. 27 K.B. W.Venn., moeten de balans en de resultatenrekening rechtstreeks aansluiten bij de boekhouding en de boekhoudstaten (proef- en saldibalans) die een samenvatting zijn van de boekingen. De conclusie is dan ook steeds geweest dat de (verplichte) opstelling van een jaarrekening in euro impliceerde dat ook de boekhouding in die munt zou worden gevoerd.[^3] 
 

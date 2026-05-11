@@ -1,6 +1,64 @@
 ---
-nummer: CBN-advies C105/1
+bron: https://www.cbn-cnc.be/nl/adviezen/uitgestelde-belastingvoordelen-wegens-overdraagbare-verliezen
 datum: 2000-05-01
+gerelateerde_adviezen:
+  - datum: '2018-05-09'
+    titel: 'Vereniging van aandelen in handen van één enkele rechtspersoon: vermeldingen in de toelichting'
+    url: https://www.cbn-cnc.be/nl/adviezen/vereniging-van-aandelen-in-handen-van-een-enkele-rechtspersoon-vermeldingen-in-de
+  - datum: '2017-09-13'
+    titel: 'Onbeperkt aansprakelijke vennoot: vermeldingen in de jaarrekening'
+    url: https://www.cbn-cnc.be/nl/adviezen/onbeperkt-aansprakelijke-vennoot-vermeldingen-in-de-jaarrekening
+  - datum: '2017-05-31'
+    titel: Opname van financiële vaste activa geboekt tegen een hoger bedrag dan hun reële waarde in de toelichting van de jaarrekening
+    url: https://www.cbn-cnc.be/nl/adviezen/opname-van-financiele-vaste-activa-geboekt-tegen-een-hoger-bedrag-dan-hun-reele-waarde-in
+  - datum: '2011-05-04'
+    titel: 'Afwijking inzake functionele valuta: praktische implicaties en procedure'
+    url: https://www.cbn-cnc.be/nl/adviezen/afwijking-inzake-functionele-valuta-praktische-implicaties-en-procedure
+nummer: CBN-advies C105/1
+provenance:
+  generated_at: '2026-05-11T13:05:05Z'
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/uitgestelde-belastingvoordelen-wegens-overdraagbare-verliezen
+      sha256: 41a5930b23518a778e7c593efaebc62700a8921b45e82c67adaf09d760fd5cdf
+      version:
+  stale: false
+  stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
+  trust:
+    confirmed_at: '2026-05-11T11:57:44Z'
+    confirmed_by: subagent-sonnet-4-6
+    layer1:
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:24Z'
+      heading_count: 3
+      max_section_chars: 5928
+      file_size_chars: 11216
+      flags: []
+    layer2:
+      agent: subagent-sonnet-4-6
+      concrete_problemen:
+        - categorie: A6
+          regel: 113
+          type: other
+          voorbeeld: '...bepaalt FAS 109[^5]\n dat een uitgesteld belastingvoordeel — zin breekt na voetnootmarker'
+        - categorie: B2
+          regel: 97
+          type: other
+          voorbeeld: '## **De Belgische regelgeving** — bold-markup onnodig binnen heading'
+        - categorie: B2
+          regel: 105
+          type: other
+          voorbeeld: '## **Buitenlandse regelgeving** — idem'
+      rationale: 'A6: op regel 113 breekt een zin midden na `FAS 109[^5]` af, en vervolgt op regel 114 met een leading spatie — een spurious line-break die er op wijst dat de scraper een newline midden in een zin heeft ingevoegd. B-categorie: twee subkoppen (`## **De Belgische regelgeving**` en `## **Buitenlandse regelgeving**`) hebben onnodig `**` bold-markup inside de heading — een mens zou `## De Belgische regelgeving` schrijven.'
+      run_at: '2026-05-11T11:57:44Z'
+      status: needs-rework
+    rationale: 'A6: op regel 113 breekt een zin midden na `FAS 109[^5]` af, en vervolgt op regel 114 met een leading spatie — een spurious line-break die er op wijst dat de scraper een newline midden in een zin heeft ingevoegd. B-categorie: twee subkoppen (`## **De Belgische regelgeving**` en `## **Buitenlandse regelgeving**`) hebben onnodig `**` bold-markup inside de heading — een mens zou `## De Belgische regelgeving` schrijven.'
+    status: needs-rework
 themas:
   - toelichting
   - uitgestelde belastingvoordelen
@@ -9,64 +67,6 @@ themas:
   - belastingen
   - geconsolideerde jaarrekening
   - overdraagbare verliezen
-bron: https://www.cbn-cnc.be/nl/adviezen/uitgestelde-belastingvoordelen-wegens-overdraagbare-verliezen
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/uitgestelde-belastingvoordelen-wegens-overdraagbare-verliezen
-      sha256: 41a5930b23518a778e7c593efaebc62700a8921b45e82c67adaf09d760fd5cdf
-      version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:33:48Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T11:57:44Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: 'A6: op regel 113 breekt een zin midden na `FAS 109[^5]` af, en vervolgt op regel 114 met een leading spatie — een spurious line-break die er op wijst dat de scraper een newline midden in een zin heeft ingevoegd. B-categorie: twee subkoppen (`## **De Belgische regelgeving**` en `## **Buitenlandse regelgeving**`) hebben onnodig `**` bold-markup inside de heading — een mens zou `## De Belgische regelgeving` schrijven.'
-    layer1:
-      status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 3
-      max_section_chars: 5928
-      file_size_chars: 11217
-      flags: []
-    layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T11:57:44Z'
-      rationale: 'A6: op regel 113 breekt een zin midden na `FAS 109[^5]` af, en vervolgt op regel 114 met een leading spatie — een spurious line-break die er op wijst dat de scraper een newline midden in een zin heeft ingevoegd. B-categorie: twee subkoppen (`## **De Belgische regelgeving**` en `## **Buitenlandse regelgeving**`) hebben onnodig `**` bold-markup inside de heading — een mens zou `## De Belgische regelgeving` schrijven.'
-      concrete_problemen:
-        - regel: 113
-          categorie: A6
-          type: other
-          voorbeeld: '...bepaalt FAS 109[^5]\n dat een uitgesteld belastingvoordeel — zin breekt na voetnootmarker'
-        - regel: 97
-          categorie: B2
-          type: other
-          voorbeeld: '## **De Belgische regelgeving** — bold-markup onnodig binnen heading'
-        - regel: 105
-          categorie: B2
-          type: other
-          voorbeeld: '## **Buitenlandse regelgeving** — idem'
-gerelateerde_adviezen:
-  - titel: 'Vereniging van aandelen in handen van één enkele rechtspersoon: vermeldingen in de toelichting'
-    url: https://www.cbn-cnc.be/nl/adviezen/vereniging-van-aandelen-in-handen-van-een-enkele-rechtspersoon-vermeldingen-in-de
-    datum: '2018-05-09'
-  - titel: 'Onbeperkt aansprakelijke vennoot: vermeldingen in de jaarrekening'
-    url: https://www.cbn-cnc.be/nl/adviezen/onbeperkt-aansprakelijke-vennoot-vermeldingen-in-de-jaarrekening
-    datum: '2017-09-13'
-  - titel: Opname van financiële vaste activa geboekt tegen een hoger bedrag dan hun reële waarde in de toelichting van de jaarrekening
-    url: https://www.cbn-cnc.be/nl/adviezen/opname-van-financiele-vaste-activa-geboekt-tegen-een-hoger-bedrag-dan-hun-reele-waarde-in
-    datum: '2017-05-31'
-  - titel: 'Afwijking inzake functionele valuta: praktische implicaties en procedure'
-    url: https://www.cbn-cnc.be/nl/adviezen/afwijking-inzake-functionele-valuta-praktische-implicaties-en-procedure
-    datum: '2011-05-04'
 ---
 
 # CBN-advies C105/1 - Uitgestelde belastingvoordelen wegens overdraagbare verliezen
@@ -122,8 +122,7 @@ Zo bepaalt het Franse consolidatiebesluit[^3] dat een uitgesteld belastingvoorde
 
 In het Verenigd Koninkrijk bepaalt SSAP 15[^4] dat een uitgesteld belastingvoordeel wegens overdraagbare verliezen slechts kan worden geactiveerd indien het gaat om een verlies veroorzaakt door een aanwijsbare, niet recurrente oorzaak, de onderneming sinds geruime tijd winstgevend was en er geen redelijke twijfel kan over bestaan dat er voldoende belastbare winst zal zijn gedurende de periode waarin de verliescompensatie kan toegepast worden. 
 
-Wat de Verenigde Staten betreft, bepaalt FAS 109[^5]
- dat een uitgesteld belastingvoordeel wegens overdraagbare verliezen dient geactiveerd te worden doch met toepassing van een "valuation allowance" indien op grond van de beschikbare gegevens het niet waarschijnlijk wordt geacht (een waarschijnlijkheid van minder dan 50%) dat de verliescompensatie zal gerealiseerd worden. 
+Wat de Verenigde Staten betreft, bepaalt FAS 109[^5] dat een uitgesteld belastingvoordeel wegens overdraagbare verliezen dient geactiveerd te worden doch met toepassing van een "valuation allowance" indien op grond van de beschikbare gegevens het niet waarschijnlijk wordt geacht (een waarschijnlijkheid van minder dan 50%) dat de verliescompensatie zal gerealiseerd worden. 
 
 Rekening houdend met deze gegevens is de Commissie van oordeel dat de vraag of een Belgische onderneming een uitgesteld belastingvoordeel wegens een overdraagbaar verlies kan activeren, bevestigend kan beantwoord worden, doch enkel met naleving van het voorzichtigheidsbeginsel dat één van de basisbeginselen van het Belgische en Europese boekhoudrecht is, en met toepassing van een buitenlandse of internationale norm die waarborgt dat het boeken van de uitgestelde belastingen op een coherente en uniforme wijze gebeurt. In de huidige stand van zaken is de Commissie van oordeel dat IAS 12 "Income Taxes" daartoe de meest aangewezen norm is aangezien de problematiek van de uitgestelde belastingen er exhaustief in behandeld wordt en de overeenstemming met de Europese regelgeving werd onderzocht door het Europese Contactcomité. 
 

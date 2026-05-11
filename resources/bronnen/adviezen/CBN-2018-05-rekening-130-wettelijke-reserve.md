@@ -1,52 +1,52 @@
 ---
-nummer: CBN-advies 2018/05
-datum: 2018-04-18
-themas:
-  - wettelijke reserve
-  - reservefonds
 bron: https://www.cbn-cnc.be/nl/adviezen/rekening-130-wettelijke-reserve
+datum: 2018-04-18
+gerelateerde_adviezen:
+  - datum: '2020-12-09'
+    titel: Overgang van een kapitaalhoudende coöperatieve vennootschap naar een kapitaalloze vennootschap
+    url: https://www.cbn-cnc.be/nl/adviezen/overgang-van-een-kapitaalhoudende-cooperatieve-vennootschap-naar-een-kapitaalloze
+  - datum: '2020-01-27'
+    titel: 'Neerlegging van de enkelvoudige jaarrekening bij de Nationale Bank van België: nieuwe modellen van de jaarrekening'
+    url: https://www.cbn-cnc.be/nl/adviezen/neerlegging-van-de-enkelvoudige-jaarrekening-bij-de-nationale-bank-van-belgie-nieuwe
+  - datum: '2019-11-13'
+    titel: Van een kapitaalhoudende BVBA naar een kapitaalloze BV
+    url: https://www.cbn-cnc.be/nl/adviezen/van-een-kapitaalhoudende-bvba-naar-een-kapitaalloze-bv
+nummer: CBN-advies 2018/05
 provenance:
+  generated_at: '2026-05-11T13:05:08Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/rekening-130-wettelijke-reserve
       sha256: c8b2728d90556558c16d9f39b6121f16ab151d0d0a9bb9262e99fc90de4a8f59
       version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:37:20Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-11T12:21:40Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: 'Geen ETL-artefacten gevonden. Heading-structuur correct (##, ###), tabellen in pipe-syntax correct opgemaakt, voetnoten [^1] t/m [^12] volledig gedefinieerd. Inhoud compleet: vorming reservefonds, incorporatie, afname en andere verminderingen.'
+    confirmed_at:
+    confirmed_by:
     layer1:
       status: pass
-      run_id: 20260511-083333
-      run_at:
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:29Z'
       heading_count: 6
       max_section_chars: 1705
-      file_size_chars: 5980
+      file_size_chars: 5976
       flags: []
     layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:21:40Z'
-      rationale: 'Geen ETL-artefacten gevonden. Heading-structuur correct (##, ###), tabellen in pipe-syntax correct opgemaakt, voetnoten [^1] t/m [^12] volledig gedefinieerd. Inhoud compleet: vorming reservefonds, incorporatie, afname en andere verminderingen.'
+      agent:
       concrete_problemen: []
-gerelateerde_adviezen:
-  - titel: Overgang van een kapitaalhoudende coöperatieve vennootschap naar een kapitaalloze vennootschap
-    url: https://www.cbn-cnc.be/nl/adviezen/overgang-van-een-kapitaalhoudende-cooperatieve-vennootschap-naar-een-kapitaalloze
-    datum: '2020-12-09'
-  - titel: 'Neerlegging van de enkelvoudige jaarrekening bij de Nationale Bank van België: nieuwe modellen van de jaarrekening'
-    url: https://www.cbn-cnc.be/nl/adviezen/neerlegging-van-de-enkelvoudige-jaarrekening-bij-de-nationale-bank-van-belgie-nieuwe
-    datum: '2020-01-27'
-  - titel: Van een kapitaalhoudende BVBA naar een kapitaalloze BV
-    url: https://www.cbn-cnc.be/nl/adviezen/van-een-kapitaalhoudende-bvba-naar-een-kapitaalloze-bv
-    datum: '2019-11-13'
+      rationale:
+      run_at:
+      status: not_run
+    rationale: 'Trust gereset 2026-05-11: re-scrape met scraper-fixes, content-diff > 5%'
+    status: unreviewed
+themas:
+  - wettelijke reserve
+  - reservefonds
 ---
 
 # CBN-advies 2018/05 – Rekening 130 Wettelijke reserve
@@ -67,20 +67,22 @@ Onderhavig advies is niet van toepassing op verenigingen en stichtingen.
 
 De algemene vergadering van een bvba, andere dan de S-BVBA, een CVBA en een NV[^6] houden ieder jaar een bedrag in van ten minste een twintigste van de nettowinst voor de vorming van een reservefonds. De nettowinst die in aanmerking moet worden genomen voor de stijving van het reservefonds is de te bestemmen winst van het boekjaar (code 9905 van het neerleggingsformulier van de Nationale Bank van België) verminderd met het overgedragen verlies van de voorgaande boekjaren (code 14P van het neerleggingsformulier van de Nationale Bank van België).
 
-De verplichting tot voorafname van de winst houdt op wanneer de wettelijke reserve een tiende van het maatschappelijk kapitaal heeft bereikt.[^7] Deze fractie van één tiende moet worden berekend op het bedrag van het volledige en dus geplaatste maatschappelijke kapitaal en niet enkel op het volstort gedeelte.
+De verplichting tot voorafname van de winst houdt op wanneer de wettelijke reserve een tiende van het maatschappelijk kapitaal heeft bereikt.[^7]
+ Deze fractie van één tiende moet worden berekend op het bedrag van het volledige en dus geplaatste maatschappelijke kapitaal en niet enkel op het volstort gedeelte.
 
 Ook bij de S-BVBA geldt een reserveringsplicht. De algemene vergadering van een S-BVBA houdt jaarlijks een bedrag in van ten minste een vierde van de nettowinst voor de vorming van een reservefonds. Deze reserveringsplicht is van toepassing totdat het bedrag van de wettelijke reserve, verhoogd met geplaatste kapitaal, het bedrag van het wettelijk minimumkapitaal van een bvba, zijnde 18.550 euro, heeft bereikt. Wanneer de S-BVBA wordt omgevormd tot een gewone bvba is evenwel opnieuw de algemene reserveringsverplichting vermeld in artikel 319 W.Venn. van toepassing.
 
 ### Incorporatie van de wettelijke reserve in het kapitaal
 
-In de rechtsleer bestaat er sedert lang discussie over of de wettelijke reserve van een bvba, CVBA of NV al dan niet mag worden geïncorporeerd in het kapitaal.[^8] De Commissie spreekt er zich niet over uit of dergelijke incorporatie al dan niet is toegelaten. Voor de S-BVBA daarentegen heeft de wetgever zelf expliciet voorzien in de mogelijkheid tot opname van de wettelijke reserve in het kapitaal.[^9] 
+In de rechtsleer bestaat er sedert lang discussie over of de wettelijke reserve van een bvba, CVBA of NV al dan niet mag worden geïncorporeerd in het kapitaal.[^8]
+ De Commissie spreekt er zich niet over uit of dergelijke incorporatie al dan niet is toegelaten. Voor de S-BVBA daarentegen heeft de wetgever zelf expliciet voorzien in de mogelijkheid tot opname van de wettelijke reserve in het kapitaal.[^9] 
 
 Boeking van de incorporatie van een wettelijke reserve in het kapitaal[^10]:
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 130 | Wettelijke reserve | X |  |
-| aan | 100 | Geplaatst kapitaal |  | X |
+| | 130 | Wettelijke reserve | X | |
+| aan | 100 | Geplaatst kapitaal | | X |
 
 ### Afname van de wettelijke reserve
 
@@ -90,12 +92,12 @@ Boeking van de aanwending van de wettelijke reserve:
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 130 | Wettelijke reserve | X |  |
-| aan | 792 | Onttrekking aan de reserves |  | X |
+| | 130 | Wettelijke reserve | X | |
+| aan | 792 | Onttrekking aan de reserves | | X |
 
 ### Andere verminderingen van de wettelijke reserve
 
-In de rechtsleer bestaat er geen eensgezindheid over of een vermindering van de wettelijke reserve mogelijk is in andere gevallen dan de incorporatie van de wettelijke reserve in het kapitaal van een S-BVBA of voor de aanzuivering van verliezen zoals het overschot dat rekenkundig ontstaat na een doorgevoerde kapitaalvermindering. De Commissie neemt dan ook geen enkel standpunt in over andere mogelijkheden. In voorkomend geval zijn de bepalingen vermeld in het CBN-Advies 121/3 – *Mutaties binnen het eigen vermogen *van toepassing.
+In de rechtsleer bestaat er geen eensgezindheid over of een vermindering van de wettelijke reserve mogelijk is in andere gevallen dan de incorporatie van de wettelijke reserve in het kapitaal van een S-BVBA of voor de aanzuivering van verliezen zoals het overschot dat rekenkundig ontstaat na een doorgevoerde kapitaalvermindering. De Commissie neemt dan ook geen enkel standpunt in over andere mogelijkheden. In voorkomend geval zijn de bepalingen vermeld in het CBN-Advies 121/3 – *Mutaties binnen het eigen vermogen* van toepassing.
 
 [^1]: Onderhavig advies is tot stand gekomen nadat een ontwerpadvies op 9 januari 2018 ter publieke consultatie werd gepubliceerd op de website van de CBN.
 

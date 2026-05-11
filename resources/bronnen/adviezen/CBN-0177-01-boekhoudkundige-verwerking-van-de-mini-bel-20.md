@@ -1,6 +1,76 @@
 ---
-nummer: CBN-advies 177/1
+bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-mini-bel-20
 datum: 2000-05-01
+gerelateerde_adviezen:
+  - datum: '2019-11-21'
+    titel: Pro rata-regel van artikel 18 WIB 92 bij terugbetaling van inbreng / kapitaalvermindering
+    url: https://www.cbn-cnc.be/nl/adviezen/pro-rata-regel-van-artikel-18-wib-92-bij-terugbetaling-van-inbreng-kapitaalvermindering
+  - datum: '2019-03-12'
+    titel: Dividenduitkering en kapitaalvermindering in natura
+    url: https://www.cbn-cnc.be/nl/adviezen/dividenduitkering-en-kapitaalvermindering-in-natura-0
+  - datum: '2013-11-27'
+    titel: De boekhoudkundige verwerking met betrekking tot de toepassing van de overgangsregeling zoals vermeld in artikel 537 WIB 92
+    url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-met-betrekking-tot-de-toepassing-van-de-overgangsregeling
+  - datum: '2009-01-14'
+    titel: Interimdividend versus tussentijds dividend
+    url: https://www.cbn-cnc.be/nl/adviezen/interimdividend-versus-tussentijds-dividend
+nummer: CBN-advies 177/1
+provenance:
+  generated_at: '2026-05-11T13:05:06Z'
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-mini-bel-20
+      sha256: 6d2235a17fd87aaf0a7dcf0318f20a09d38522928c5597a0786a41f8a11535eb
+      version:
+  stale: false
+  stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
+  trust:
+    confirmed_at: '2026-05-11T12:09:17Z'
+    confirmed_by: subagent-sonnet-4-6
+    layer1:
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:27Z'
+      heading_count: 16
+      max_section_chars: 9933
+      file_size_chars: 19992
+      flags: []
+    layer2:
+      agent: subagent-sonnet-4-6
+      concrete_problemen:
+        - categorie: B3
+          regel: 125
+          type: other
+          voorbeeld: '##### (lege heading zonder tekst)'
+        - categorie: B3
+          regel: 131
+          type: other
+          voorbeeld: '##### (lege heading zonder tekst)'
+        - categorie: B3
+          regel: 173
+          type: other
+          voorbeeld: '##### (lege heading zonder tekst)'
+        - categorie: B3
+          regel: 179
+          type: other
+          voorbeeld: '##### (lege heading zonder tekst)'
+        - categorie: A4
+          regel: 90
+          type: other
+          voorbeeld: IPU¬emittenten (U+00AC i.p.v. koppelteken of gewone hyphen)
+        - categorie: A4
+          regel: 105
+          type: other
+          voorbeeld: (50 jaar) ¬niet als "financiële vaste activa" (U+00AC voor woordgrens)
+      rationale: 'B3: vier lege ##### headings (regels 125, 131, 173, 179) zijn structuurlabels zonder tekst — een mens schrijft nooit een kopje zonder titel. A4: U+00AC (¬) op regel 90 en 105 als pseudo-soft-hyphen (bv. ''IPU¬emittenten'', ''(50 jaar) ¬niet'') — geen standaard markdown-teken, PDF-artefact. Beide problemen zijn ETL-fixeerbaar.'
+      run_at: '2026-05-11T12:09:17Z'
+      status: needs-rework
+    rationale: 'B3: vier lege ##### headings (regels 125, 131, 173, 179) zijn structuurlabels zonder tekst — een mens schrijft nooit een kopje zonder titel. A4: U+00AC (¬) op regel 90 en 105 als pseudo-soft-hyphen (bv. ''IPU¬emittenten'', ''(50 jaar) ¬niet'') — geen standaard markdown-teken, PDF-artefact. Beide problemen zijn ETL-fixeerbaar.'
+    status: needs-rework
 themas:
   - dividenduitkering
   - geldbeleggingen
@@ -14,76 +84,6 @@ themas:
   - sluiten van de positie
   - vorderingsrecht
   - Waardevermindering
-bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-mini-bel-20
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-mini-bel-20
-      sha256: 6d2235a17fd87aaf0a7dcf0318f20a09d38522928c5597a0786a41f8a11535eb
-      version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:35:45Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T12:09:17Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "B3: vier lege ##### headings (regels 125, 131, 173, 179) zijn structuurlabels zonder tekst — een mens schrijft nooit een kopje zonder titel. A4: U+00AC (¬) op regel 90 en 105 als pseudo-soft-hyphen (bv. 'IPU¬emittenten', '(50 jaar) ¬niet') — geen standaard markdown-teken, PDF-artefact. Beide problemen zijn ETL-fixeerbaar."
-    layer1:
-      status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 16
-      max_section_chars: 9934
-      file_size_chars: 19995
-      flags: []
-    layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:09:17Z'
-      rationale: "B3: vier lege ##### headings (regels 125, 131, 173, 179) zijn structuurlabels zonder tekst — een mens schrijft nooit een kopje zonder titel. A4: U+00AC (¬) op regel 90 en 105 als pseudo-soft-hyphen (bv. 'IPU¬emittenten', '(50 jaar) ¬niet') — geen standaard markdown-teken, PDF-artefact. Beide problemen zijn ETL-fixeerbaar."
-      concrete_problemen:
-        - regel: 125
-          categorie: B3
-          type: other
-          voorbeeld: '##### (lege heading zonder tekst)'
-        - regel: 131
-          categorie: B3
-          type: other
-          voorbeeld: '##### (lege heading zonder tekst)'
-        - regel: 173
-          categorie: B3
-          type: other
-          voorbeeld: '##### (lege heading zonder tekst)'
-        - regel: 179
-          categorie: B3
-          type: other
-          voorbeeld: '##### (lege heading zonder tekst)'
-        - regel: 90
-          categorie: A4
-          type: other
-          voorbeeld: IPU¬emittenten (U+00AC i.p.v. koppelteken of gewone hyphen)
-        - regel: 105
-          categorie: A4
-          type: other
-          voorbeeld: (50 jaar) ¬niet als "financiële vaste activa" (U+00AC voor woordgrens)
-gerelateerde_adviezen:
-  - titel: Pro rata-regel van artikel 18 WIB 92 bij terugbetaling van inbreng / kapitaalvermindering
-    url: https://www.cbn-cnc.be/nl/adviezen/pro-rata-regel-van-artikel-18-wib-92-bij-terugbetaling-van-inbreng-kapitaalvermindering
-    datum: '2019-11-21'
-  - titel: Dividenduitkering en kapitaalvermindering in natura
-    url: https://www.cbn-cnc.be/nl/adviezen/dividenduitkering-en-kapitaalvermindering-in-natura-0
-    datum: '2019-03-12'
-  - titel: De boekhoudkundige verwerking met betrekking tot de toepassing van de overgangsregeling zoals vermeld in artikel 537 WIB 92
-    url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-met-betrekking-tot-de-toepassing-van-de-overgangsregeling
-    datum: '2013-11-27'
-  - titel: Interimdividend versus tussentijds dividend
-    url: https://www.cbn-cnc.be/nl/adviezen/interimdividend-versus-tussentijds-dividend
-    datum: '2009-01-14'
 ---
 
 # CBN-advies 177/1 - Boekhoudkundige verwerking van de mini BEL-20
@@ -111,14 +111,13 @@ De juridische kwalificatie die het meest aansluit bij de IPU is dus deze van een
 In financieel en boekhoudkundig opzicht onderscheidt de IPU zich op diverse punten van de op de gereglementeerde markten verhandelde optiecontracten:
 
 - de uitoefenprijs is gelijk aan nul. Deze uitoefenprijs heeft tot gevolg dat een IPU noodzakelijk en onvermijdelijk zal worden uitgeoefend door de houder ervan. Daarin verschillen IPU’s bijvoorbeeld sterk van, de gebruikelijke reeksen van puts en calls, niet alleen op individuele aandelen, maar ook op de Bel 20 ; 
-- in de overgrote meerderheid van de gevallen zal ook de vereffeningswijze sterk verschillen. De aandelenindex op zich kan immers niet worden geleverd . Enkel de voor die index representatieve aandelenkorf is leverbaar in de vorm van de aandelen die hem samenstellen. Bovendien is het weinig waarschijnlijk dat de IPU¬emittenten de aandelenkorf zouden bezitten die de index vertegenwoordigt. Tenslotte dient de levering in aandelen beschouwd te worden als een louter juridisch- theoretische mogelijkheid daar zij wordt uitgesloten in alle contractspecificaties van de tot op heden verhandelde IPU’s ; 
+- in de overgrote meerderheid van de gevallen zal ook de vereffeningswijze sterk verschillen. De aandelenindex op zich kan immers niet worden geleverd . Enkel de voor die index representatieve aandelenkorf is leverbaar in de vorm van de aandelen die hem samenstellen. Bovendien is het weinig waarschijnlijk dat de IPU-emittenten de aandelenkorf zouden bezitten die de index vertegenwoordigt. Tenslotte dient de levering in aandelen beschouwd te worden als een louter juridisch- theoretische mogelijkheid daar zij wordt uitgesloten in alle contractspecificaties van de tot op heden verhandelde IPU’s ; 
 - er is geen hefboomeffect aangezien het bedrag van de IPU (theoretisch)[^2] steeds gelijk is aan de marktwaarde van het onderliggende actief. Het feit dat gebruik wordt gemaakt van het optiemechanisme, kan immers in hoofdzaak worden verklaard door de mogelijkheid om een index even gemakkelijk te kunnen verhandelen als een aandeel ; 
 - de uitoefenperiode is veel langer dan gebruikelijk voor aandelenopties. Met die ongebruikelijk lange looptijd wil men voorkomen dat de tijdswaarde (i.e. het positieve verschil tussen de koers en de intrinsieke waarde van de optie) een invloed zou hebben op de notering van de premie. Men stelt immers vast dat de "tijdswaarde" meer en meer naar 0 evolueert naarmate de (uiterste) uitoefendatum van de optie dichterbij komt. Op die datum moet de waarde van de optie - behalve wanneer de markt niet behoorlijk functioneert -per definitie gelijk zijn aan haar intrinsieke waarde. Bij de mini Bel-20 zal die tijdswaarde per definitie ontbreken in de samenstelling van de waarde van de optiepremie omdat die op elk ogenblik overeenstemt[^3] met een in € uitgedrukt bedrag dat gelijk is aan 1/100ste van de Bel 20 uitgedrukt in indexpunten. 
 
 ## Krachtlijnen van de boekhoudkundige verwerking
 
-Op grond van de hoger beschreven kenmerken is de Commissie van oordeel dat een IPU als een bijzonder financieel actief moet worden gekwalificeerd dat boekhoudkundig dient verwerkt te worden met toepassing van de principes die ontwikkeld werden in de adviezen over andere financiële instrumenten, in het bijzonder de adviezen de handelen over deviezen[^4], aandelenopties[^5]
- en dekkingsverrichtingen[^6].
+Op grond van de hoger beschreven kenmerken is de Commissie van oordeel dat een IPU als een bijzonder financieel actief moet worden gekwalificeerd dat boekhoudkundig dient verwerkt te worden met toepassing van de principes die ontwikkeld werden in de adviezen over andere financiële instrumenten, in het bijzonder de adviezen de handelen over deviezen[^4], aandelenopties[^5] en dekkingsverrichtingen[^6].
 
 ### In de rekeningen van de koper
 
@@ -126,7 +125,7 @@ Op grond van de hoger beschreven kenmerken is de Commissie van oordeel dat een I
 
 In advies 167/1 stelde de Commissie dat :" dit recht van de optiehouder tegenover de optieschrijver een tegoed vertegenwoordigt dat aan actiefzijde van de balans moet worden geboekt en niet een kost die in de resultatenrekening wordt erkend ." Dezelfde redenering kan worden gevolgd voor de boekhoudkundige verwerking van de aankoop van IPU’s. Daarbij moet worden nagegaan of een IPU ook in de post *Geldbeleggingen* moet worden geboekt, zoals de Commissie aanbeveelde voor aan- en verkoopopties op aandelen in het kader van handelsverrichtingen.
 
-Aangezien het duidelijk over rechten gaat die - ondanks hun relatief lange uitoefenperiode (50 jaar) ¬niet als "financiële vaste activa" kunnen worden gekwalificeerd, meent de Commissie dat dergelijke rechten in de passende post van de vlottende activa moeten worden geboekt, meer bepaald in post VIII.B. *Overige beleggingen* die, conform de desbetreffende definitie in de bijlage bij het koninklijk besluit van 8 oktober 1976, de met beleggingsdoeleinden verkregen effecten omvat die niet het kenmerk van financiële vaste activa hebben.
+Aangezien het duidelijk over rechten gaat die - ondanks hun relatief lange uitoefenperiode (50 jaar) -niet als "financiële vaste activa" kunnen worden gekwalificeerd, meent de Commissie dat dergelijke rechten in de passende post van de vlottende activa moeten worden geboekt, meer bepaald in post VIII.B. *Overige beleggingen* die, conform de desbetreffende definitie in de bijlage bij het koninklijk besluit van 8 oktober 1976, de met beleggingsdoeleinden verkregen effecten omvat die niet het kenmerk van financiële vaste activa hebben.
 
 #### Aanpassing van de waarde tijdens de looptijd
 
@@ -154,7 +153,7 @@ Eventueel vroeger geboekte waardeverminderingen dienen bij het sluiten van de po
 
 ##### 
 
-Indien de IPU zou worden uitgeoefend door levering aan de houder van de aandelen uit de korf die de index vertegenwoordigen, dient de aanschaffingswaarde van de geleverde aandelen bepaald te worden op basis van hun koersen bij het sluiten van de positie. De verkregen aandelen worden in de passende actiefpost geboekt (hetzij bij de *Geldbeleggingen*, hetzij bij de *Financiële vaste activa*). Het verschil tussen de beurswaarde van de verkregen aandelen en de aanschaffingswaarde van de IPU wordt op dezelfde wijze en in dezelfde post in resultaat genomen als bij de vereffening in contanten.
+Indien de IPU zou worden uitgeoefend door levering aan de houder van de aandelen uit de korf die de index vertegenwoordigen, dient de aanschaffingswaarde van de geleverde aandelen bepaald te worden op basis van hun koersen bij het sluiten van de positie. De verkregen aandelen worden in de passende actiefpost geboekt (hetzij bij de *Geldbeleggingen*, hetzij bij de* Financiële vaste activa*). Het verschil tussen de beurswaarde van de verkregen aandelen en de aanschaffingswaarde van de IPU wordt op dezelfde wijze en in dezelfde post in resultaat genomen als bij de vereffening in contanten.
 
 ### In de rekeningen van de emittent
 
@@ -169,8 +168,7 @@ Als tegenprestatie verbindt hij zich ertoe :
 
 De verbintenis om - op verzoek van de IPU-houder - de waarde van de index te leveren, zou kunnen worden erkend bij de niet in de balans opgenomen verplichtingen door een boeking van het type : 
 
-09.. 
-
+09..
 aan 09.. Opties op een index 
 
 Daarbij rijst de vraag welke bedragen in de buiten-balansrekeningen zouden moeten geboekt worden. In advies 167/1 stelde de Commissie dat de waardering dient te gebeuren tegen de uitoefenwaarde van de optie. Welnu, in het geval van een IPU waarvan de uitoefenprijs per definitie gelijk is aan nul, is deze waardering niet mogelijk. Enkel de waarde van de IPU bij de uitgifte ervan, nadien aangepast op elke afsluitingsdatum, kan in aanmerking worden genomen. Een boeking bij de buiten-balansverplichtingen zou echter geen relevante toegevoegde waarde opleveren ten opzichte van de informatie die de emittent in de balans moet opnemen[^9]. In het bijzondere geval van IPU’s worden dan ook geen buiten-balansboekingen voorgesteld. 

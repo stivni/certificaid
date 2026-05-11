@@ -1,6 +1,47 @@
 ---
-nummer: CBN-advies 2018/04
+bron: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-derdenrekeningen-0
 datum: 2018-04-18
+gerelateerde_adviezen:
+  - datum: '2011-07-06'
+    titel: De boekhoudkundige verwerking van derdenrekeningen
+    url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-derdenrekeningen
+nummer: CBN-advies 2018/04
+provenance:
+  generated_at: '2026-05-11T13:05:08Z'
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-derdenrekeningen-0
+      sha256: a366f879a7345a1d8665d99dce6b52b517921b7e86c9660a386e51fb72df8ce5
+      version:
+  stale: false
+  stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
+  trust:
+    confirmed_at: '2026-05-11T12:21:40Z'
+    confirmed_by: subagent-sonnet-4-6
+    layer1:
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:29Z'
+      heading_count: 3
+      max_section_chars: 18601
+      file_size_chars: 20255
+      flags: []
+    layer2:
+      agent: subagent-sonnet-4-6
+      concrete_problemen:
+        - categorie: A6
+          regel: 72
+          type: other
+          voorbeeld: is een rekening waarbij bij de  \n\ntenaamstelling wordt aangegeven
+      rationale: 'A6: regel 72-74 bevat een gebroken zin midden in een alinea — ''is een rekening waarbij bij de  \n\ntenaamstelling'' met twee spaties aan het einde van regel 72 en een blanco regel voor de volgende zin begint, wat een spurious line-break is binnen één logische zin. Verder is de inhoud volledig en de structuur correct.'
+      run_at: '2026-05-11T12:21:40Z'
+      status: needs-rework
+    rationale: 'A6: regel 72-74 bevat een gebroken zin midden in een alinea — ''is een rekening waarbij bij de  \n\ntenaamstelling'' met twee spaties aan het einde van regel 72 en een blanco regel voor de volgende zin begint, wat een spurious line-break is binnen één logische zin. Verder is de inhoud volledig en de structuur correct.'
+    status: needs-rework
 themas:
   - derdenrekening
   - advocaat
@@ -12,47 +53,6 @@ themas:
   - rubriekrekening
   - carpa-rekening
   - niet in de balans opgenomen rechten en verplichtingen
-bron: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-derdenrekeningen-0
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-derdenrekeningen-0
-      sha256: a366f879a7345a1d8665d99dce6b52b517921b7e86c9660a386e51fb72df8ce5
-      version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:37:19Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T12:21:40Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "A6: regel 72-74 bevat een gebroken zin midden in een alinea — 'is een rekening waarbij bij de  \\n\\ntenaamstelling' met twee spaties aan het einde van regel 72 en een blanco regel voor de volgende zin begint, wat een spurious line-break is binnen één logische zin. Verder is de inhoud volledig en de structuur correct."
-    layer1:
-      status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 4
-      max_section_chars: 13060
-      file_size_chars: 20262
-      flags: []
-    layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:21:40Z'
-      rationale: "A6: regel 72-74 bevat een gebroken zin midden in een alinea — 'is een rekening waarbij bij de  \\n\\ntenaamstelling' met twee spaties aan het einde van regel 72 en een blanco regel voor de volgende zin begint, wat een spurious line-break is binnen één logische zin. Verder is de inhoud volledig en de structuur correct."
-      concrete_problemen:
-        - regel: 72
-          categorie: A6
-          type: other
-          voorbeeld: is een rekening waarbij bij de  \n\ntenaamstelling wordt aangegeven
-gerelateerde_adviezen:
-  - titel: De boekhoudkundige verwerking van derdenrekeningen
-    url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-derdenrekeningen
-    datum: '2011-07-06'
 ---
 
 # CBN-advies 2018/04 - De boekhoudkundige verwerking van derdenrekeningen
@@ -71,11 +71,10 @@ Zoals verder zal blijken, komt de Commissie tot de conclusie dat deze specifieke
 
 ## Analyse
 
-### Verplichtingen van advocaten, notarissen, gerechtsdeurwaarders en vastgoedmakelaars met betrekking tot het houden van derdenrekeningen
+Verplichtingen van advocaten, notarissen, gerechtsdeurwaarders en vastgoedmakelaars met betrekking tot het houden van derdenrekeningen
+De derdenrekening, ook wel “kwaliteitsrekening” genoemd, is een rekening waarbij bij de 
 
-De derdenrekening, ook wel “kwaliteitsrekening” genoemd, is een rekening waarbij bij de  
-
-tenaamstelling wordt aangegeven dat de titularis de rekening houdt in een bepaalde hoedanigheid of kwaliteit (*qualitate qua[^10] *).
+tenaamstelling wordt aangegeven dat de titularis de rekening houdt in een bepaalde hoedanigheid of kwaliteit (*qualitate qua[^10]* ).
 
 De kwaliteitsrekening vermijdt dat het erop geplaatste geld deel zal uitmaken van het eigen vermogen van de advocaat, notaris, gerechtsdeurwaarder of vastgoedmakelaar. De gelden worden niet in eigen naam en voor eigen rekening gehouden, maar worden beheerd ten voordele van derden. De beroepsbeoefenaar die het geld op een kwaliteitsrekening plaatst, is dus geen eigenaar van deze gelden, wel is hij volmachthebber en heeft hij een inningsbevoegdheid.
 
@@ -87,13 +86,13 @@ De derdenrekening en de rubriekrekening moeten worden geopend bij een door de Na
 2. op een derdenrekening of een rubriekrekening mag geen krediet in welke vorm ook, worden toegestaan; die rekeningen kunnen nooit tot zekerheid dienen; 
 3. elke compensatie, fusie of bepaling van eenheid van rekening tussen de derdenrekening, de rubriekrekening en andere bankrekeningen is uitgesloten; nettingovereenkomsten[^12] kunnen op deze rekeningen geen toepassing vinden. 
 
-De verplichting voor advocaten om een collectieve derdenrekening te houden, “Carpa”-rekening genaamd, werd ingevoerd door het Reglement van de Nationale orde van advocaten van 19 januari 1989. Deze verplichting vloeit voort uit het reglement van de Orde van Vlaamse Balies (OVB) van 21 november 2012 en het reglement van de *Ordre des barreaux francophones et germanophone *(OBFG, Orde van Franstalige en Duitstalige Balies) van 16 januari 2006 inzake de verhandeling van gelden van cliënten of van derden, vastgesteld krachtens het artikel 496 van het Gerechtelijk Wetboek. Het is de bedoeling om het geld dat advocaten ontvangen van hun cliënten en van derden op een afzonderlijke rekening te plaatsen, om te vermijden dat eigen vermogen en schulden van de advocaat vermengd worden.
+De verplichting voor advocaten om een collectieve derdenrekening te houden, “Carpa”-rekening genaamd, werd ingevoerd door het Reglement van de Nationale orde van advocaten van 19 januari 1989. Deze verplichting vloeit voort uit het reglement van de Orde van Vlaamse Balies (OVB) van 21 november 2012 en het reglement van de *Ordre des barreaux francophones et germanophone* (OBFG, Orde van Franstalige en Duitstalige Balies) van 16 januari 2006 inzake de verhandeling van gelden van cliënten of van derden, vastgesteld krachtens het artikel 496 van het Gerechtelijk Wetboek. Het is de bedoeling om het geld dat advocaten ontvangen van hun cliënten en van derden op een afzonderlijke rekening te plaatsen, om te vermijden dat eigen vermogen en schulden van de advocaat vermengd worden.
 
 In de rechtsleer bestond er reeds geruime tijd discussie over het burgerrechtelijk statuut van derdenrekeningen (en, ruimer nog, van rekeningen die « in een bijzondere hoedanigheid » worden gehouden door hun titularis). De discussie betrof voornamelijk de vraag of derdenrekeningen al dan niet deel uitmaken van het vermogen van hun titularis[^13]. Men had zich in de rechtspraak ook nog niet expliciet uitgesproken over deze kwestie.
 
 In zijn arrest van 27 januari 2011, meende het Hof van Cassatie dat een specifieke wettelijke basis noodzakelijk was om het geld op de derdenrekeningen van advocaten te beschermen[^14].
 
-De wetgever heeft een einde gemaakt aan deze rechtsonzekerheid met de wet van 23 december 2013 tot wijziging van het Gerechtelijk Wetboek wat de kwaliteitsrekening van advocaten betreft. Sinds 1 juni 2014 is elke advocaat verplicht een onderscheid te maken tussen zijn eigen gelden en derdengelden. Met andere woorden: de gelden die advocaten in de uitoefening van hun beroep ontvangen ten behoeve van cliënten of derden moeten worden gestort op een of meer rekeningen geopend op hun naam of op naam van hun advocatenvennootschap met vermelding van hun of haar hoedanigheid - deze rekeningen moeten worden geopend overeenkomstig de door de Orde van Vlaamse Balies (OVB) en de *Ordre des barreaux francophones et germanophone *(OBFG) vast te stellen regels[^15].
+De wetgever heeft een einde gemaakt aan deze rechtsonzekerheid met de wet van 23 december 2013 tot wijziging van het Gerechtelijk Wetboek wat de kwaliteitsrekening van advocaten betreft. Sinds 1 juni 2014 is elke advocaat verplicht een onderscheid te maken tussen zijn eigen gelden en derdengelden. Met andere woorden: de gelden die advocaten in de uitoefening van hun beroep ontvangen ten behoeve van cliënten of derden moeten worden gestort op een of meer rekeningen geopend op hun naam of op naam van hun advocatenvennootschap met vermelding van hun of haar hoedanigheid - deze rekeningen moeten worden geopend overeenkomstig de door de Orde van Vlaamse Balies (OVB) en de *Ordre des barreaux francophones et germanophone* (OBFG) vast te stellen regels[^15].
 
 Voor de notarissen, is de verplichting om gelden van cliënten of van derden over te maken op een derdenrekening (of op een rubriekrekening), opgenomen in de wet van 16 maart 1803 – wet van 25 ventôse jaar XI op het notarisambt[^16]. Op basis van deze wet is het over het algemeen toegelaten dat de gelden die worden overgemaakt op de rubriekrekening[^17] van notarissen juridisch worden gescheiden van het vermogen van de notaris[^18], of dat ze minstens, volgens een minderheidsdoctrine, worden afgeschermd tegen zijn schuldeisers[^19].
 
@@ -103,17 +102,17 @@ Voor de vastgoedmakelaars ten slotte, voert de wet van 21 december 2017 (BS 22 j
 
 ### Boekhoudrechtelijke analyse
 
-De jaarrekening moet “*een getrouw beeld geven van het vermogen, de financiële positie en het resultaat van de *[onderneming]”[^22] en moet voldoen aan de beginselen van overeenstemming[^23] en voorzichtigheid[^24].
+De jaarrekening moet “*een getrouw beeld geven van het vermogen, de financiële positie en het resultaat van de* [onderneming]”[^22] en moet voldoen aan de beginselen van overeenstemming[^23] en voorzichtigheid[^24].
 
 Het Wetboek van economisch recht[^25] en het KB W.Venn.[^26] leggen op dat in de balans van de onderneming haar bezittingen en rechten van welke aard dan ook dienen voor te komen. Bovendien worden de rechten die niet in de balans voorkomen en die het vermogen, de financiële positie of het resultaat van de vennootschap aanmerkelijk kunnen beïnvloeden, in de toelichting vermeld[^27].
 
-Rekening houdend met wat voorafgaat, is de Commissie voor Boekhoudkundige Normen de mening toegedaan dat derdenrekeningen niet opgenomen dienen te worden in de balans van de vennootschap, maar teneinde enige vorm van transparantie en controle te verzekeren, moeten voorkomen in de toelichting, onder de niet in de balans opgenomen rechten en verplichtingen[^28] (Rekeningen van de klasse 07: Goederen en waarden van derden gehouden door de vennootschap)[^29], en meer bepaald onder de rubriek *’Andere niet in de balans opgenomen rechten en verplichtingen (met inbegrip van deze die niet kunnen worden becijferd)‘.[^30] *
+Rekening houdend met wat voorafgaat, is de Commissie voor Boekhoudkundige Normen de mening toegedaan dat derdenrekeningen niet opgenomen dienen te worden in de balans van de vennootschap, maar teneinde enige vorm van transparantie en controle te verzekeren, moeten voorkomen in de toelichting, onder de niet in de balans opgenomen rechten en verplichtingen[^28] (Rekeningen van de klasse 07: Goederen en waarden van derden gehouden door de vennootschap)[^29], en meer bepaald onder de rubriek *’Andere niet in de balans opgenomen rechten en verplichtingen (met inbegrip van deze die niet kunnen worden becijferd)‘.[^30]* 
 
-Meer bepaald op de rekeningen 074 *Goederen en waarden gehouden voor rekening of ten bate en voor risico van derden *en rekening 075 *Crediteuren wegens goederen en waarden gehouden voor rekening of ten bate en voor risico van derden *of, in voorkomend geval, op rekening 072 *Goederen en waarden door derden in bewaring, in consignatie of in bewerking gegeven* en rekening 073 *Committenten en deponenten van goederen en waarden*. Deze rekeningen zullen in subrekeningen onderverdeeld worden teneinde de verschillende derdenrekeningen te kunnen identificeren, evenals de verschillende (mogelijke) begunstigden van de sommen die op deze rekeningen worden gestort.
+Meer bepaald op de rekeningen 074 *Goederen en waarden gehouden voor rekening of ten bate en voor risico van derden* en rekening 075 *Crediteuren wegens goederen en waarden gehouden voor rekening of ten bate en voor risico van derden* of, in voorkomend geval, op rekening 072 *Goederen en waarden door derden in bewaring, in consignatie of in bewerking gegeven* en rekening 073 *Committenten en deponenten van goederen en waarden*. Deze rekeningen zullen in subrekeningen onderverdeeld worden teneinde de verschillende derdenrekeningen te kunnen identificeren, evenals de verschillende (mogelijke) begunstigden van de sommen die op deze rekeningen worden gestort.
 
 Voor de (eventuele[^31]) interesten die voortvloeien uit de sommen die werden gestort op een derdenrekening, wordt dezelfde boekhoudkundige verwerking als het hoofdbedrag aanbevolen – de interesten zouden bijvoorbeeld opgenomen worden in de rekeningen 074 en 075. De boekhoudkundige verwerking van een verrichting, in dit geval de storting en het bewaren van sommen op een derdenrekening, blijft in principe zonder invloed op de burgerrechtelijke gevolgen van deze verrichting.
 
-Tenslotte wenst de Commissie te benadrukken dat er moet worden toegezien op de naleving van artikel 86 KB W.Venn., waarbij wordt bepaald dat de voorstelling van de jaarrekening identiek moet zijn van het ene jaar tot het andere. Indien de voorstellingswijze wordt aangepast, moet dit vermeld en verantwoord worden in de toelichting bij de jaarrekening over het boekjaar waarin de wijziging wordt ingevoerd.  
+Tenslotte wenst de Commissie te benadrukken dat er moet worden toegezien op de naleving van artikel 86 KB W.Venn., waarbij wordt bepaald dat de voorstelling van de jaarrekening identiek moet zijn van het ene jaar tot het andere. Indien de voorstellingswijze wordt aangepast, moet dit vermeld en verantwoord worden in de toelichting bij de jaarrekening over het boekjaar waarin de wijziging wordt ingevoerd. 
 
 De bedragen van het boekjaar die niet vergelijkbaar zijn met die van het voorafgaande boekjaar, mogen worden aangepast met het oog op hun vergelijkbaarheid. In dat geval worden deze aanpassingen, behalve indien zij onbelangrijk zijn, in de toelichting bij de waarderingsregels vermeld en onder verwijzing naar de betrokken rubrieken, toegelicht.[^32] 
 

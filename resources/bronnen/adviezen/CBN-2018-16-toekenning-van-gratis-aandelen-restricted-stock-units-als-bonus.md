@@ -1,6 +1,47 @@
 ---
-nummer: CBN-advies 2018/16
+bron: https://www.cbn-cnc.be/nl/adviezen/toekenning-van-gratis-aandelen-restricted-stock-units-als-bonus
 datum: 2018-11-14
+nummer: CBN-advies 2018/16
+provenance:
+  generated_at: '2026-05-11T13:05:08Z'
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/toekenning-van-gratis-aandelen-restricted-stock-units-als-bonus
+      sha256: 1a9f3240acadc2fb454cb3eff60fdbf3d4c1a4809610431cba5f163fdc28958b
+      version:
+  stale: false
+  stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
+  trust:
+    confirmed_at: '2026-05-11T12:21:40Z'
+    confirmed_by: subagent-sonnet-4-6
+    layer1:
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:29Z'
+      heading_count: 4
+      max_section_chars: 7597
+      file_size_chars: 20176
+      flags: []
+    layer2:
+      agent: subagent-sonnet-4-6
+      concrete_problemen:
+        - categorie: F1
+          regel: 9
+          type: other
+          voorbeeld: '- voorziening voor risico&#039;s en kosten'
+        - categorie: E1
+          regel: 298
+          type: pseudo-table
+          voorbeeld: '| \n\n  | | \n\nBeurskoers\n\n  | | \n\nVerwachte retentiegraad\n\n  |'
+      rationale: 'F1/G2: HTML-entity ''&#039;'' in frontmatter op regel 9 (''voorziening voor risico&#039;s en kosten'') — dit is een niet-gedecodeerde HTML-escape die in de frontmatter-thema-tag terechtgekomen is. De tabellen voor methode B (regels 298–386) herhalen het verminkende cel-per-regel patroon (zelfde als CBN-2018-12 maar minder ernstig). Verder structureel intact.'
+      run_at: '2026-05-11T12:21:40Z'
+      status: needs-rework
+    rationale: 'F1/G2: HTML-entity ''&#039;'' in frontmatter op regel 9 (''voorziening voor risico&#039;s en kosten'') — dit is een niet-gedecodeerde HTML-escape die in de frontmatter-thema-tag terechtgekomen is. De tabellen voor methode B (regels 298–386) herhalen het verminkende cel-per-regel patroon (zelfde als CBN-2018-12 maar minder ernstig). Verder structureel intact.'
+    status: needs-rework
 themas:
   - restricted stock unit
   - RSU
@@ -8,47 +49,6 @@ themas:
   - aandelenoptieplan
   - voorziening voor risico&#039;s en kosten
   - voorziening
-bron: https://www.cbn-cnc.be/nl/adviezen/toekenning-van-gratis-aandelen-restricted-stock-units-als-bonus
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/toekenning-van-gratis-aandelen-restricted-stock-units-als-bonus
-      sha256: 1a9f3240acadc2fb454cb3eff60fdbf3d4c1a4809610431cba5f163fdc28958b
-      version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:37:26Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T12:21:40Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "F1/G2: HTML-entity '&#039;' in frontmatter op regel 9 ('voorziening voor risico&#039;s en kosten') — dit is een niet-gedecodeerde HTML-escape die in de frontmatter-thema-tag terechtgekomen is. De tabellen voor methode B (regels 298–386) herhalen het verminkende cel-per-regel patroon (zelfde als CBN-2018-12 maar minder ernstig). Verder structureel intact."
-    layer1:
-      status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 6
-      max_section_chars: 14259
-      file_size_chars: 20186
-      flags: []
-    layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:21:40Z'
-      rationale: "F1/G2: HTML-entity '&#039;' in frontmatter op regel 9 ('voorziening voor risico&#039;s en kosten') — dit is een niet-gedecodeerde HTML-escape die in de frontmatter-thema-tag terechtgekomen is. De tabellen voor methode B (regels 298–386) herhalen het verminkende cel-per-regel patroon (zelfde als CBN-2018-12 maar minder ernstig). Verder structureel intact."
-      concrete_problemen:
-        - regel: 9
-          categorie: F1
-          type: other
-          voorbeeld: '- voorziening voor risico&#039;s en kosten'
-        - regel: 298
-          categorie: E1
-          type: pseudo-table
-          voorbeeld: '| \n\n  | | \n\nBeurskoers\n\n  | | \n\nVerwachte retentiegraad\n\n  |'
 ---
 
 # CBN-advies 2018/16 – Toekenning van gratis aandelen (Restricted Stock Units) als bonus
@@ -63,7 +63,7 @@ In dit advies zal de Commissie zich beperken tot het analyseren van de boekhoudk
 
 ## Boekhoudkundige verwerking
 
-De Commissie is van mening dat de boekhoudprincipes in haar advies 2012/3 - *De boekhoudkundige verwerking van aandelenoptieplannen[^3] *eveneens toepasbaar zijn op de RSU, gezien de sterke gelijkenis tussen de twee vergoedingsmethoden. Ter herinnering: een aandelenoptie wordt gedefinieerd als het recht om, gedurende een welbepaalde termijn, een bepaald aantal aandelen aan te kopen, tegen een vastgestelde of een nog vast te stellen prijs[^4]. De opties worden doorgaans ten kosteloze titel toegekend aan de begunstigden.
+De Commissie is van mening dat de boekhoudprincipes in haar advies 2012/3 - *De boekhoudkundige verwerking van aandelenoptieplannen[^3]* eveneens toepasbaar zijn op de RSU, gezien de sterke gelijkenis tussen de twee vergoedingsmethoden. Ter herinnering: een aandelenoptie wordt gedefinieerd als het recht om, gedurende een welbepaalde termijn, een bepaald aantal aandelen aan te kopen, tegen een vastgestelde of een nog vast te stellen prijs[^4]. De opties worden doorgaans ten kosteloze titel toegekend aan de begunstigden.
 
 Wanneer een onderneming beslist RSU aan haar werknemers toe te kennen, zal ze inherent worden blootgesteld aan het toekomstige verschil tussen enerzijds de beurskoers (voor genoteerde aandelen op een gereglementeerde of een niet-gereglementeerde markt) of de reële waarde (voor niet-genoteerde aandelen) van het onderliggend aandeel op de datum van toekenning (*Grant Date*) en anderzijds de koers of de reële waarde van het onderliggend aandeel op het ogenblik van zijn terbeschikkingstelling (*Vesting Date*)[^5].
 
@@ -75,8 +75,7 @@ Zoals in haar advies 2012/3, onderscheidt de Commissie twee benaderingen: de eer
 
 De onderneming zal dus een provisie moeten boeken waarvan het bedrag gelijk is aan de (verwachte of reële) waarde van het aandeel vermenigvuldigd met het aantal toegekende aandelen dat nog moet worden uitgevoerd; indien nodig, moet deze provisie elk jaar worden aangepast.
 
-### Erkenning van de kost op basis van de verwachte beurskoers of verwachte reële waarde op de datum van terbeschikkingstelling van de aandelen (methode A)
-
+Erkenning van de kost op basis van de verwachte beurskoers of verwachte reële waarde op de datum van terbeschikkingstelling van de aandelen (methode A)
 Het voorzichtigheidsbeginsel indachtig, moet elke onderneming (genoteerd of niet-genoteerd) op de datum van toekenning van de RSU een inschatting maken van de beurskoers of de reële waarde van de onderliggende aandelen bij hun terbeschikkingstelling.
 
 Een evenredige verdeling wordt toegepast om de evolutie van de verwachte koers (of van de verwachte reële waarde) bij uitoefening aan elk jaar tussen het moment van toekenning en het moment van terbeschikkingstelling van de aandelen, toe te wijzen. 
@@ -91,8 +90,7 @@ Daarnaast heeft de toepassing van deze benadering ook tot gevolg dat de ondernem
 
 De Commissie vestigt tevens de aandacht op het feit dat het voorspellen van een toekomstige koers of toekomstige reële waarde in de meeste gevallen eerder complex is, en de werkelijke koers of reële waarde significant kan verschillen van de geschatte koers of verwachte reële waarde.
 
-### Erkenning van de kost op basis van de effectieve beurskoers of reële waarde per balansdatum (methode B)
-
+Erkenning van de kost op basis van de effectieve beurskoers of reële waarde per balansdatum (methode B)
 De toepassing van deze methode bestaat erin de toekenningsprijs te berekenen door middel van de werkelijke beurskoers (voor genoteerde ondernemingen op gereglementeerde of niet-gereglementeerde markten) of de reële waarde (voor niet-genoteerde ondernemingen) van het onderliggend aandeel op balansdatum. Daar deze tweede benadering een vaststaande beurskoers of reële waarde als uitgangspunt heeft, dient elk jaar een aanpassing te worden doorgevoerd naar de actueel geldende koers of reële waarde per balansdatum. 
 
 ## Voorbeeld (methode A)

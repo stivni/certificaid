@@ -1,6 +1,52 @@
 ---
-nummer: CBN-advies 2011/12
+bron: https://www.cbn-cnc.be/nl/adviezen/afwijking-inzake-functionele-valuta-praktische-implicaties-en-procedure
 datum: 2011-05-04
+gerelateerde_adviezen:
+  - datum: '2024-02-08'
+    titel: 'Belgische bijkantoren van buitenlandse verenigingen en stichtingen: toepassing van het Belgisch boekhoudrecht – begrip ‘bijkantoor’ – publicatieplicht – eigen boekhoudkundige verplichtingen'
+    url: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-buitenlandse-verenigingen-en-stichtingen-toepassing-van-het-0
+  - datum: '2022-11-08'
+    titel: 'Belgische bijkantoren van buitenlandse vennootschappen: eigen boekhoudkundige verplichtingen (update)'
+    url: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-buitenlandse-vennootschappen-eigen-boekhoudkundige
+  - datum: '2019-05-14'
+    titel: Adviesbeleid van de Commissie voor Boekhoudkundige Normen ten aanzien van vragen tot afwijking voor Belgische bijkantoren van buitenlandse vennootschappen (ONTWERP)
+    url: https://www.cbn-cnc.be/nl/adviezen/adviesbeleid-van-de-commissie-voor-boekhoudkundige-normen-ten-aanzien-van-vragen-tot
+  - datum: '2019-03-26'
+    titel: 'Belgische bijkantoren van vennootschappen naar buitenlands recht: eigen boekhoudkundige verplichtingen'
+    url: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-vennootschappen-naar-buitenlands-recht-eigen-boekhoudkundige-0
+nummer: CBN-advies 2011/12
+provenance:
+  generated_at: '2026-05-11T13:05:08Z'
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/afwijking-inzake-functionele-valuta-praktische-implicaties-en-procedure
+      sha256: c2257273e04e873a3695a27be7117365919032c17a63a1102ff1ae3817652f12
+      version:
+  stale: false
+  stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
+  trust:
+    confirmed_at:
+    confirmed_by:
+    layer1:
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:28Z'
+      heading_count: 4
+      max_section_chars: 3161
+      file_size_chars: 8819
+      flags: []
+    layer2:
+      agent:
+      concrete_problemen: []
+      rationale:
+      run_at:
+      status: not_run
+    rationale: 'Trust gereset 2026-05-11: re-scrape met scraper-fixes, content-diff > 5%'
+    status: unreviewed
 themas:
   - afwijking
   - afwijkingsaanvraag
@@ -17,56 +63,6 @@ themas:
   - voeren van de boekhouding
   - wisselkoers
   - wisselkoersverschil
-bron: https://www.cbn-cnc.be/nl/adviezen/afwijking-inzake-functionele-valuta-praktische-implicaties-en-procedure
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/afwijking-inzake-functionele-valuta-praktische-implicaties-en-procedure
-      sha256: c2257273e04e873a3695a27be7117365919032c17a63a1102ff1ae3817652f12
-      version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:36:11Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T12:09:18Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: 'A3/B7: regels 70–72 bevatten een genummerde TOC-lijst (1. Omrekening..., 2. Afwijkingsaanvragen..., 3. Aanvragen tot verlenging...) midden in de body vóór de ##Inleiding-heading — een gefragmenteerde inhoudsopgave die door extractie in de body is terechtgekomen. De drie TOC-items komen identiek terug als ## headings op regels 84, 101 en 107; dit zijn duplicaten van dezelfde structuur. Overige inhoud clean.'
-    layer1:
-      status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 4
-      max_section_chars: 3162
-      file_size_chars: 8820
-      flags: []
-    layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:09:18Z'
-      rationale: 'A3/B7: regels 70–72 bevatten een genummerde TOC-lijst (1. Omrekening..., 2. Afwijkingsaanvragen..., 3. Aanvragen tot verlenging...) midden in de body vóór de ##Inleiding-heading — een gefragmenteerde inhoudsopgave die door extractie in de body is terechtgekomen. De drie TOC-items komen identiek terug als ## headings op regels 84, 101 en 107; dit zijn duplicaten van dezelfde structuur. Overige inhoud clean.'
-      concrete_problemen:
-        - regel: 70
-          categorie: A3
-          type: other
-          voorbeeld: 1. Omrekening van activa, passiva, kosten en opbrengsten naar aanleiding van het verkrijgen van de afwijking inzake functionele valuta tijdens het boekjaar
-gerelateerde_adviezen:
-  - titel: 'Belgische bijkantoren van buitenlandse verenigingen en stichtingen: toepassing van het Belgisch boekhoudrecht – begrip ‘bijkantoor’ – publicatieplicht – eigen boekhoudkundige verplichtingen'
-    url: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-buitenlandse-verenigingen-en-stichtingen-toepassing-van-het-0
-    datum: '2024-02-08'
-  - titel: 'Belgische bijkantoren van buitenlandse vennootschappen: eigen boekhoudkundige verplichtingen (update)'
-    url: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-buitenlandse-vennootschappen-eigen-boekhoudkundige
-    datum: '2022-11-08'
-  - titel: Adviesbeleid van de Commissie voor Boekhoudkundige Normen ten aanzien van vragen tot afwijking voor Belgische bijkantoren van buitenlandse vennootschappen (ONTWERP)
-    url: https://www.cbn-cnc.be/nl/adviezen/adviesbeleid-van-de-commissie-voor-boekhoudkundige-normen-ten-aanzien-van-vragen-tot
-    datum: '2019-05-14'
-  - titel: 'Belgische bijkantoren van vennootschappen naar buitenlands recht: eigen boekhoudkundige verplichtingen'
-    url: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-vennootschappen-naar-buitenlands-recht-eigen-boekhoudkundige-0
-    datum: '2019-03-26'
 ---
 
 # CBN-advies 2011/12 - Afwijking inzake functionele valuta: praktische implicaties en procedure
@@ -97,8 +93,7 @@ Aan de Commissie werd bijkomend de vraag gesteld om enige verduidelijking te gev
 
 Wat betreft de omrekening van de overige bestanddelen van de balans en de resultatenrekening, is de Commissie in dergelijk geval van mening dat in beginsel de gevolgen van de wijziging van de functionele valuta prospectief moeten worden verwerkt. Ondernemingen die in de loop van het boekjaar een afwijking krijgen, dienen bijgevolg alle reeds bestaande posten van de balans en resultatenrekening om te rekenen naar de nieuwe functionele valuta op basis van de wisselkoers op de datum waarop de wijziging van functionele valuta heeft plaatsgevonden.[^5] 
 
-De Commissie staat toe dat de omzetting gebeurt op datum van de openingsbalans en tegen de koers die op dat moment van kracht is (slotkoers), op voorwaarde dat op die datum voldaan is aan de voorwaarden voor het verkrijgen van de afwijking[^6]
- en mits inachtneming van het principe van onveranderlijkheid zoals geformuleerd in artikel 7, § 2 van de Boekhoudwet van 17 juli 1975.[^7] 
+De Commissie staat toe dat de omzetting gebeurt op datum van de openingsbalans en tegen de koers die op dat moment van kracht is (slotkoers), op voorwaarde dat op die datum voldaan is aan de voorwaarden voor het verkrijgen van de afwijking[^6] en mits inachtneming van het principe van onveranderlijkheid zoals geformuleerd in artikel 7, § 2 van de Boekhoudwet van 17 juli 1975.[^7] 
 
 Voor de verrichtingen die in het lopende boekjaar, maar vóór het verkrijgen van de afwijking, reeds plaatsvonden in de nieuwe functionele valuta, dient geen omzetting meer gedaan te worden. Zij worden opgenomen in de rekeningen aan de oorspronkelijke waarde, aangezien door de Commissie wordt aangenomen dat de boekhouding vanaf de eerste dag van het boekjaar, waarvoor de afwijking werd verkregen, wordt gevoerd in de nieuwe functionele valuta. De overige verrichtingen die tijdens het boekjaar werden uitgevoerd in euro worden geconverteerd tegen de wisselkoers op datum van de transactie.[^8] 
 

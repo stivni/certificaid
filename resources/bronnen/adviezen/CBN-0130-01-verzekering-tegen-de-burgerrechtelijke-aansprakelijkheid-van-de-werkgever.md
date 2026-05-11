@@ -1,55 +1,55 @@
 ---
-nummer: CBN-advies 130/1
-datum: 1981-12-01
-themas:
-  - diensten en diverse goederen
-  - verzekering burgerlijke aansprakelijkheid werkgever
 bron: https://www.cbn-cnc.be/nl/adviezen/verzekering-tegen-de-burgerrechtelijke-aansprakelijkheid-van-de-werkgever
+datum: 1981-12-01
+gerelateerde_adviezen:
+  - datum: '2016-10-26'
+    titel: Kilometerheffing
+    url: https://www.cbn-cnc.be/nl/adviezen/kilometerheffing
+  - datum: '1988-01-21'
+    titel: Werkende vennoten
+    url: https://www.cbn-cnc.be/nl/adviezen/werkende-vennoten
+  - datum: '1988-12-01'
+    titel: Boeking van commissies
+    url: https://www.cbn-cnc.be/nl/adviezen/boeking-van-commissies
+  - datum: '1986-01-01'
+    titel: Materiële vaste activa - Onderscheid met voorraden
+    url: https://www.cbn-cnc.be/nl/adviezen/materiele-vaste-activa-onderscheid-met-voorraden
+nummer: CBN-advies 130/1
 provenance:
+  generated_at: '2026-05-11T13:05:06Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/verzekering-tegen-de-burgerrechtelijke-aansprakelijkheid-van-de-werkgever
       sha256: bff0a8c136dc3c77347799a331afb3f53187d03222cf535e0064cfd66a1c08ec
       version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:34:48Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
   trust:
-    status: trusted
     confirmed_at: '2026-05-11T12:04:41Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: Volledig leesbaar advies zonder detecteerbare artefacten. Twee alinea's met heldere redenering, één footnote [^1] correct gedefinieerd. Geen heading-hiërarchie vereist (één blok tekst). Geen unicode-problemen, geen broken markdown.
     layer1:
       status: pass
-      run_id: 20260511-083333
-      run_at:
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:25Z'
       heading_count: 0
       max_section_chars: 1768
       file_size_chars: 1768
       flags: []
     layer2:
-      status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:04:41Z'
-      rationale: Volledig leesbaar advies zonder detecteerbare artefacten. Twee alinea's met heldere redenering, één footnote [^1] correct gedefinieerd. Geen heading-hiërarchie vereist (één blok tekst). Geen unicode-problemen, geen broken markdown.
       concrete_problemen: []
-gerelateerde_adviezen:
-  - titel: Kilometerheffing
-    url: https://www.cbn-cnc.be/nl/adviezen/kilometerheffing
-    datum: '2016-10-26'
-  - titel: Werkende vennoten
-    url: https://www.cbn-cnc.be/nl/adviezen/werkende-vennoten
-    datum: '1988-01-21'
-  - titel: Boeking van commissies
-    url: https://www.cbn-cnc.be/nl/adviezen/boeking-van-commissies
-    datum: '1988-12-01'
-  - titel: Materiële vaste activa - Onderscheid met voorraden
-    url: https://www.cbn-cnc.be/nl/adviezen/materiele-vaste-activa-onderscheid-met-voorraden
-    datum: '1986-01-01'
+      rationale: Volledig leesbaar advies zonder detecteerbare artefacten. Twee alinea's met heldere redenering, één footnote [^1] correct gedefinieerd. Geen heading-hiërarchie vereist (één blok tekst). Geen unicode-problemen, geen broken markdown.
+      run_at: '2026-05-11T12:04:41Z'
+      status: trusted
+    rationale: Volledig leesbaar advies zonder detecteerbare artefacten. Twee alinea's met heldere redenering, één footnote [^1] correct gedefinieerd. Geen heading-hiërarchie vereist (één blok tekst). Geen unicode-problemen, geen broken markdown.
+    status: trusted
+themas:
+  - diensten en diverse goederen
+  - verzekering burgerlijke aansprakelijkheid werkgever
 ---
 
 # CBN-advies 130/1 - Verzekering tegen de burgerrechtelijke aansprakelijkheid van de werkgever

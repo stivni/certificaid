@@ -1,58 +1,58 @@
 ---
-nummer: CBN-advies 2011/20
+bron: https://www.cbn-cnc.be/nl/adviezen/verbonden-ondernemingen
 datum: 2011-10-05
+gerelateerde_adviezen:
+  - datum: '2022-03-15'
+    titel: Beoordeling van de groottecriteria overeenkomstig artikelen 1:24 en 1:25 van het Wetboek van vennootschappen en verenigingen
+    url: https://www.cbn-cnc.be/nl/adviezen/beoordeling-van-de-groottecriteria-overeenkomstig-artikelen-124-en-125-van-het-wetboek-van
+  - datum: '2018-12-03'
+    titel: Groottecriteria – Alternatieve berekening van de omzet op geconsolideerde of geaggregeerde basis
+    url: https://www.cbn-cnc.be/nl/adviezen/groottecriteria-alternatieve-berekening-van-de-omzet-op-geconsolideerde-of-geaggregeerde
+  - datum: '2016-04-13'
+    titel: Beoordeling groottecriteria artikelen 15 en 15/1 W.Venn.
+    url: https://www.cbn-cnc.be/nl/adviezen/beoordeling-groottecriteria-artikelen-15-en-151-wvenn
+  - datum: '2010-05-19'
+    titel: Berekening criteria artikel 15 W.Venn.
+    url: https://www.cbn-cnc.be/nl/adviezen/berekening-criteria-artikel-15-wvenn
+nummer: CBN-advies 2011/20
+provenance:
+  generated_at: '2026-05-11T13:05:08Z'
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/verbonden-ondernemingen
+      sha256: 58b980c3a3de0f06d8dd374311a2d68742227957040e8d80495d4d538a4310a0
+      version:
+  stale: false
+  stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
+  trust:
+    confirmed_at: '2026-05-11T12:09:18Z'
+    confirmed_by: subagent-sonnet-4-6
+    layer1:
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:28Z'
+      heading_count: 6
+      max_section_chars: 1527
+      file_size_chars: 5032
+      flags: []
+    layer2:
+      agent: subagent-sonnet-4-6
+      concrete_problemen: []
+      rationale: 'Laag 1: pass, geen flags. Volledige lezing: geen PDF-artefacten. Heading-hiërarchie correct (#, ##, ###). Gebruik van *cursief* voor nadruk op wettelijke termen is stijlconform. Voetnoten [^1] correct. Inhoud compleet: groepsstructuur + exclusieve controle + gezamenlijke controle + artikel 15 gevolgen volledig behandeld.'
+      run_at: '2026-05-11T12:09:18Z'
+      status: trusted
+    rationale: 'Laag 1: pass, geen flags. Volledige lezing: geen PDF-artefacten. Heading-hiërarchie correct (#, ##, ###). Gebruik van *cursief* voor nadruk op wettelijke termen is stijlconform. Voetnoten [^1] correct. Inhoud compleet: groepsstructuur + exclusieve controle + gezamenlijke controle + artikel 15 gevolgen volledig behandeld.'
+    status: trusted
 themas:
   - berekening op geconsolideerde basis
   - controle
   - gezamenlijke controle
   - exclusieve controle
   - verbonden onderneming
-bron: https://www.cbn-cnc.be/nl/adviezen/verbonden-ondernemingen
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/verbonden-ondernemingen
-      sha256: 58b980c3a3de0f06d8dd374311a2d68742227957040e8d80495d4d538a4310a0
-      version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:36:17Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: trusted
-    confirmed_at: '2026-05-11T12:09:18Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: 'Laag 1: pass, geen flags. Volledige lezing: geen PDF-artefacten. Heading-hiërarchie correct (#, ##, ###). Gebruik van *cursief* voor nadruk op wettelijke termen is stijlconform. Voetnoten [^1] correct. Inhoud compleet: groepsstructuur + exclusieve controle + gezamenlijke controle + artikel 15 gevolgen volledig behandeld.'
-    layer1:
-      status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 6
-      max_section_chars: 1527
-      file_size_chars: 5032
-      flags: []
-    layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:09:18Z'
-      rationale: 'Laag 1: pass, geen flags. Volledige lezing: geen PDF-artefacten. Heading-hiërarchie correct (#, ##, ###). Gebruik van *cursief* voor nadruk op wettelijke termen is stijlconform. Voetnoten [^1] correct. Inhoud compleet: groepsstructuur + exclusieve controle + gezamenlijke controle + artikel 15 gevolgen volledig behandeld.'
-      concrete_problemen: []
-gerelateerde_adviezen:
-  - titel: Beoordeling van de groottecriteria overeenkomstig artikelen 1:24 en 1:25 van het Wetboek van vennootschappen en verenigingen
-    url: https://www.cbn-cnc.be/nl/adviezen/beoordeling-van-de-groottecriteria-overeenkomstig-artikelen-124-en-125-van-het-wetboek-van
-    datum: '2022-03-15'
-  - titel: Groottecriteria – Alternatieve berekening van de omzet op geconsolideerde of geaggregeerde basis
-    url: https://www.cbn-cnc.be/nl/adviezen/groottecriteria-alternatieve-berekening-van-de-omzet-op-geconsolideerde-of-geaggregeerde
-    datum: '2018-12-03'
-  - titel: Beoordeling groottecriteria artikelen 15 en 15/1 W.Venn.
-    url: https://www.cbn-cnc.be/nl/adviezen/beoordeling-groottecriteria-artikelen-15-en-151-wvenn
-    datum: '2016-04-13'
-  - titel: Berekening criteria artikel 15 W.Venn.
-    url: https://www.cbn-cnc.be/nl/adviezen/berekening-criteria-artikel-15-wvenn
-    datum: '2010-05-19'
 ---
 
 # CBN-advies 2011/20 – Verbonden ondernemingen
@@ -99,7 +99,7 @@ Onder g*ezamenlijke* controle moet worden verstaan “de controle die een beperk
 
 De vennootschap X bezit in het aan de Commissie voorgelegde voorbeeld 50 % van de aandelen van de BVBA A en 50 % van de aandelen van BVBA B. Hetzelfde geldt voor vennootschap Y. Op basis van de aan de Commissie overgemaakte informatie blijkt dat de vennootschappen A en B gemeenschappelijke dochterondernemingen zijn van de vennootschappen X en Y, die deze gezamenlijk controleren.
 
-*BVBA A is bijgevolg een verbonden vennootschap van zowel NV X als van BVBA Y. Hetzelfde geldt voor de BVBA B. *
+*BVBA A is bijgevolg een verbonden vennootschap van zowel NV X als van BVBA Y. Hetzelfde geldt voor de BVBA B.* 
 
 ### De vennootschappen A en B 
 

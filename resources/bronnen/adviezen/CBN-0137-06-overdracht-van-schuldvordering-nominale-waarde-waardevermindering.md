@@ -1,66 +1,66 @@
 ---
-nummer: CBN-advies 137/6
+bron: https://www.cbn-cnc.be/nl/adviezen/overdracht-van-schuldvordering-nominale-waarde-waardevermindering
 datum: 1988-01-01
+gerelateerde_adviezen:
+  - datum: '2025-07-14'
+    titel: Waardeverminderingen op handelsvorderingen, gedekt door een kredietverzekering (update) [ONTWERP]
+    url: https://www.cbn-cnc.be/nl/adviezen/waardeverminderingen-op-handelsvorderingen-gedekt-door-een-kredietverzekering-update
+  - datum: '2021-07-05'
+    titel: Boekhoudkundige verwerking van COVID-19-tegemoetkomingen en van kosten gemaakt ten gevolge van de gezondheidscrisis
+    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-covid-19-tegemoetkomingen-en-van-kosten-gemaakt-ten-gevolge
+  - datum: '2012-10-10'
+    titel: De boekhoudkundige verwerking van immateriële vaste activa
+    url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-immateriele-vaste-activa
+  - datum: '2011-10-05'
+    titel: De boekhoudkundige verwerking van factoringovereenkomsten
+    url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-factoringovereenkomsten
+nummer: CBN-advies 137/6
+provenance:
+  generated_at: '2026-05-11T13:05:06Z'
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/overdracht-van-schuldvordering-nominale-waarde-waardevermindering
+      sha256: 25fd1bb0d0ab515b3701d5cd67f1da2fb53847742ea2754c819febb7703658ab
+      version:
+  stale: false
+  stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
+  trust:
+    confirmed_at: '2026-05-11T12:04:41Z'
+    confirmed_by: subagent-sonnet-4-6
+    layer1:
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:26Z'
+      heading_count: 2
+      max_section_chars: 1418
+      file_size_chars: 3516
+      flags: []
+    layer2:
+      agent: subagent-sonnet-4-6
+      concrete_problemen:
+        - categorie: D4
+          regel: 91
+          type: other
+          voorbeeld: '### Op de vervandag'
+        - categorie: E2
+          regel: 100
+          type: other
+          voorbeeld: '| 6331 | Handelsvorderingen op meer dan 1 jaar -terugneming van waardeverminderingen 1 | 10 |'
+      rationale: 'Twee problemen: (1) D4/andere: heading ''### Op de vervandag'' (regel 91) bevat een typefout ''vervandag'' i.p.v. ''vervaldag'' — consistent met een OCR- of scraper-artefact. (2) E2: tabelcel op regel 100 bevat ''6331 | Handelsvorderingen op meer dan 1 jaar -terugneming van waardeverminderingen 1 |'' — het cijfer ''1'' is een voetnootlabel dat in de cel gelekt is.'
+      run_at: '2026-05-11T12:04:41Z'
+      status: needs-rework
+    rationale: 'Twee problemen: (1) D4/andere: heading ''### Op de vervandag'' (regel 91) bevat een typefout ''vervandag'' i.p.v. ''vervaldag'' — consistent met een OCR- of scraper-artefact. (2) E2: tabelcel op regel 100 bevat ''6331 | Handelsvorderingen op meer dan 1 jaar -terugneming van waardeverminderingen 1 |'' — het cijfer ''1'' is een voetnootlabel dat in de cel gelekt is.'
+    status: needs-rework
 themas:
   - Waardevermindering
   - waardevermindering op vorderingen
   - nominale waarde
   - overdracht van schuldvordering
   - vordering
-bron: https://www.cbn-cnc.be/nl/adviezen/overdracht-van-schuldvordering-nominale-waarde-waardevermindering
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/overdracht-van-schuldvordering-nominale-waarde-waardevermindering
-      sha256: 25fd1bb0d0ab515b3701d5cd67f1da2fb53847742ea2754c819febb7703658ab
-      version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:35:00Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T12:04:41Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "Twee problemen: (1) D4/andere: heading '### Op de vervandag' (regel 91) bevat een typefout 'vervandag' i.p.v. 'vervaldag' — consistent met een OCR- of scraper-artefact. (2) E2: tabelcel op regel 100 bevat '6331 | Handelsvorderingen op meer dan 1 jaar -terugneming van waardeverminderingen 1 |' — het cijfer '1' is een voetnootlabel dat in de cel gelekt is."
-    layer1:
-      status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 3
-      max_section_chars: 1159
-      file_size_chars: 3522
-      flags: []
-    layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:04:41Z'
-      rationale: "Twee problemen: (1) D4/andere: heading '### Op de vervandag' (regel 91) bevat een typefout 'vervandag' i.p.v. 'vervaldag' — consistent met een OCR- of scraper-artefact. (2) E2: tabelcel op regel 100 bevat '6331 | Handelsvorderingen op meer dan 1 jaar -terugneming van waardeverminderingen 1 |' — het cijfer '1' is een voetnootlabel dat in de cel gelekt is."
-      concrete_problemen:
-        - regel: 91
-          categorie: D4
-          type: other
-          voorbeeld: '### Op de vervandag'
-        - regel: 100
-          categorie: E2
-          type: other
-          voorbeeld: '| 6331 | Handelsvorderingen op meer dan 1 jaar -terugneming van waardeverminderingen 1 | 10 |'
-gerelateerde_adviezen:
-  - titel: Waardeverminderingen op handelsvorderingen, gedekt door een kredietverzekering (update) [ONTWERP]
-    url: https://www.cbn-cnc.be/nl/adviezen/waardeverminderingen-op-handelsvorderingen-gedekt-door-een-kredietverzekering-update
-    datum: '2025-07-14'
-  - titel: Boekhoudkundige verwerking van COVID-19-tegemoetkomingen en van kosten gemaakt ten gevolge van de gezondheidscrisis
-    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-covid-19-tegemoetkomingen-en-van-kosten-gemaakt-ten-gevolge
-    datum: '2021-07-05'
-  - titel: De boekhoudkundige verwerking van immateriële vaste activa
-    url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-immateriele-vaste-activa
-    datum: '2012-10-10'
-  - titel: De boekhoudkundige verwerking van factoringovereenkomsten
-    url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-factoringovereenkomsten
-    datum: '2011-10-05'
 ---
 
 # CBN-advies 137/6 - Overdracht van schuldvordering - Nominale waarde - Waardevermindering
@@ -87,8 +87,7 @@ De sub 2909 geboekte "waardevermindering" stemt overeen met het bedrag waarvoor 
 
 Deze "waardevermindering" werd niet ten laste genomen door de resultatenrekening van X, maar tesamen met de betrokken vordering van Y "verworven". 
 
-### Ingeval van de verbetering van de solvabiliteit van Z : de vordering word op 60 geschat. 
-
+Ingeval van de verbetering van de solvabiliteit van Z : de vordering word op 60 geschat.
 (toepassing van artikel 19, zesde lid K.B. van 8 oktober 1976) 
 
 | | Rekening | Omschrijving | Debet | Credit |

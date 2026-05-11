@@ -1,6 +1,56 @@
 ---
-nummer: CBN-advies 2011/5
+bron: https://www.cbn-cnc.be/nl/adviezen/consolidatiekring-interpretatie-van-de-uitsluitingsgrond-van-artikel-107-4deg-kb-wvenn
 datum: 2011-02-25
+gerelateerde_adviezen:
+  - datum: '2024-03-13'
+    titel: Terugbetaling van kapitaal in vreemde valuta aan de aandeelhouders
+    url: https://www.cbn-cnc.be/nl/adviezen/terugbetaling-van-kapitaal-in-vreemde-valuta-aan-de-aandeelhouders
+  - datum: '2019-03-12'
+    titel: Dividenduitkering en kapitaalvermindering in natura
+    url: https://www.cbn-cnc.be/nl/adviezen/dividenduitkering-en-kapitaalvermindering-in-natura-0
+  - datum: '2016-09-07'
+    titel: 'Verenigingen en stichtingen: certificatie van aandelen van handelsvennootschappen'
+    url: https://www.cbn-cnc.be/nl/adviezen/verenigingen-en-stichtingen-certificatie-van-aandelen-van-handelsvennootschappen
+  - datum: '2016-03-09'
+    titel: Verrichtingen met betrekking tot inschrijvingsrechten
+    url: https://www.cbn-cnc.be/nl/adviezen/verrichtingen-met-betrekking-tot-inschrijvingsrechten
+nummer: CBN-advies 2011/5
+provenance:
+  generated_at: '2026-05-11T13:05:08Z'
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/consolidatiekring-interpretatie-van-de-uitsluitingsgrond-van-artikel-107-4deg-kb-wvenn
+      sha256: 19ae099a4947ba1cd38dcf0fb2668319275361ee3938d1510602b6969f3f99af
+      version:
+  stale: false
+  stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
+  trust:
+    confirmed_at: '2026-05-11T12:09:18Z'
+    confirmed_by: subagent-sonnet-4-6
+    layer1:
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:28Z'
+      heading_count: 4
+      max_section_chars: 3637
+      file_size_chars: 5734
+      flags: []
+    layer2:
+      agent: subagent-sonnet-4-6
+      concrete_problemen:
+        - categorie: B5
+          regel: 69
+          type: other
+          voorbeeld: artikel 107, 4° KB W.Venn.
+      rationale: 'Regel 69: ''artikel 107, 4° KB W.Venn.'' staat als plain text na de H1-titel maar vóór de eerste ## heading — dit is een losse sub-titelregel die als heading had moeten worden opgenomen of als inleiding-alinea, niet als zweefzin (B5/B1-patroon). Inhoud en vijf headings zijn overigens correct en volledig.'
+      run_at: '2026-05-11T12:09:18Z'
+      status: needs-rework
+    rationale: 'Regel 69: ''artikel 107, 4° KB W.Venn.'' staat als plain text na de H1-titel maar vóór de eerste ## heading — dit is een losse sub-titelregel die als heading had moeten worden opgenomen of als inleiding-alinea, niet als zweefzin (B5/B1-patroon). Inhoud en vijf headings zijn overigens correct en volledig.'
+    status: needs-rework
 themas:
   - aandelen
   - aandelen uitsluitend gehouden met het oog op latere vervreemding
@@ -16,56 +66,6 @@ themas:
   - uitsluitingsgrond
   - verkoop aandelen
   - vervreemding
-bron: https://www.cbn-cnc.be/nl/adviezen/consolidatiekring-interpretatie-van-de-uitsluitingsgrond-van-artikel-107-4deg-kb-wvenn
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/consolidatiekring-interpretatie-van-de-uitsluitingsgrond-van-artikel-107-4deg-kb-wvenn
-      sha256: 19ae099a4947ba1cd38dcf0fb2668319275361ee3938d1510602b6969f3f99af
-      version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:36:08Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T12:09:18Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "Regel 69: 'artikel 107, 4° KB W.Venn.' staat als plain text na de H1-titel maar vóór de eerste ## heading — dit is een losse sub-titelregel die als heading had moeten worden opgenomen of als inleiding-alinea, niet als zweefzin (B5/B1-patroon). Inhoud en vijf headings zijn overigens correct en volledig."
-    layer1:
-      status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 5
-      max_section_chars: 2869
-      file_size_chars: 5740
-      flags: []
-    layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:09:18Z'
-      rationale: "Regel 69: 'artikel 107, 4° KB W.Venn.' staat als plain text na de H1-titel maar vóór de eerste ## heading — dit is een losse sub-titelregel die als heading had moeten worden opgenomen of als inleiding-alinea, niet als zweefzin (B5/B1-patroon). Inhoud en vijf headings zijn overigens correct en volledig."
-      concrete_problemen:
-        - regel: 69
-          categorie: B5
-          type: other
-          voorbeeld: artikel 107, 4° KB W.Venn.
-gerelateerde_adviezen:
-  - titel: Terugbetaling van kapitaal in vreemde valuta aan de aandeelhouders
-    url: https://www.cbn-cnc.be/nl/adviezen/terugbetaling-van-kapitaal-in-vreemde-valuta-aan-de-aandeelhouders
-    datum: '2024-03-13'
-  - titel: Dividenduitkering en kapitaalvermindering in natura
-    url: https://www.cbn-cnc.be/nl/adviezen/dividenduitkering-en-kapitaalvermindering-in-natura-0
-    datum: '2019-03-12'
-  - titel: 'Verenigingen en stichtingen: certificatie van aandelen van handelsvennootschappen'
-    url: https://www.cbn-cnc.be/nl/adviezen/verenigingen-en-stichtingen-certificatie-van-aandelen-van-handelsvennootschappen
-    datum: '2016-09-07'
-  - titel: Verrichtingen met betrekking tot inschrijvingsrechten
-    url: https://www.cbn-cnc.be/nl/adviezen/verrichtingen-met-betrekking-tot-inschrijvingsrechten
-    datum: '2016-03-09'
 ---
 
 # CBN-advies 2011/5 - Consolidatiekring: interpretatie van de uitsluitingsgrond van artikel 107, 4° KB W.Venn.
@@ -85,8 +85,7 @@ Artikel 110 van het Wetboek van Vennootschappen schrijft voor dat elke moederven
 Als criterium wordt het controlebegrip uit het Wetboek van Vennootschappen gehanteerd.[^1]
  Artikel 5 van het Wetboek van Vennootschappen bepaalt dat een vennootschap een andere vennootschap controleert wanneer zij een beslissende invloed kan uitoefenen op de aanstelling van de meerderheid van de bestuurders of zaakvoerders van laatstgenoemde onderneming of op de oriëntatie van haar beleid. Deze controle kan zowel in rechte als in feite bestaan en kan exclusief of samen met een of meerdere niet verbonden ondernemingen worden uitgeoefend. 
 
-Artikel 107, 4° KB W.Venn. laat evenwel toe dat een dochteronderneming buiten de consolidatie wordt gelaten indien haar aandelen uitsluitend met het oog op latere vervreemding worden gehouden. Specifiek met betrekking tot deze uitzondering, bepaalt het Verslag aan de Koning bij het koninklijk besluit van 6 maart 1990 op de geconsolideerde jaarrekening van de ondernemingen[^2]
- uitdrukkelijk dat zij slechts strikt kan geïnterpreteerd worden. De uitzonderingsgevallen mogen namelijk niet worden ingeroepen om het beeld van het groepsgeheel te beïnvloeden dat de geconsolideerde jaarrekening oplevert. 
+Artikel 107, 4° KB W.Venn. laat evenwel toe dat een dochteronderneming buiten de consolidatie wordt gelaten indien haar aandelen uitsluitend met het oog op latere vervreemding worden gehouden. Specifiek met betrekking tot deze uitzondering, bepaalt het Verslag aan de Koning bij het koninklijk besluit van 6 maart 1990 op de geconsolideerde jaarrekening van de ondernemingen[^2] uitdrukkelijk dat zij slechts strikt kan geïnterpreteerd worden. De uitzonderingsgevallen mogen namelijk niet worden ingeroepen om het beeld van het groepsgeheel te beïnvloeden dat de geconsolideerde jaarrekening oplevert. 
 
 ## Interpretatie van de uitsluitingsgrond
 
@@ -102,8 +101,7 @@ Met betrekking tot de aandelen waarop is ingeschreven met het oog op de wederafs
 2. Bovendien moet de vervreemding van de aandelen plaatsvinden *binnen de twaalf maanden na verwerving*. Volgens de Commissie houdt deze voorwaarde in dat de verwerving van de aandelen en de daarmee gepaard gaande beslissing tot vervreemding, resulteert in een koop-verkoopovereenkomst met effectieve uitwerking binnen de twaalf maanden. Indien de vervreemding niet is gebeurd binnen de twaalf maanden na verwerving, moet de participatie opgenomen worden in de consolidatie. 
 3. Ten slotte wenst de Commissie te benadrukken dat de onderneming het gebruik van artikel 107, 4° KB W.Venn. dient te motiveren in de toelichting.[^4] 
 
-### Aandelen die krachtens een beslissing van de vennootschap bestemd zijn om binnen het jaar te worden vervreemd
-
+Aandelen die krachtens een beslissing van de vennootschap bestemd zijn om binnen het jaar te worden vervreemd
 Ingeval het bestuursorgaan van de vennootschap daarentegen beslist om een participatie te verkopen die zij jarenlang duurzaam heeft aangehouden, moet deze participatie geconsolideerd worden tot op de datum van verkoop. In dit geval kan geen beroep gedaan worden op de uitsluitingsgrond van artikel 107, 4° KB W.Venn.
 
 Volgens de Commissie moet voor participaties die niet aan de hierboven opgesomde voorwaarden voldoen, de datum van deconsolidatie immers op dezelfde wijze worden vastgesteld als de datum van hun opname in de consolidatie. Hiervoor moet, volgens de terzake geldende regel, worden uitgegaan van de datum waarop de effecten van de dochteronderneming (en derhalve de controle) zijn verworven of van een nabijzijnde datum. Zolang de controle wordt uitgeoefend, en dus tot de datum van overdracht van de aandelen of een nabijzijnde datum, moet geconsolideerd worden.[^5] 

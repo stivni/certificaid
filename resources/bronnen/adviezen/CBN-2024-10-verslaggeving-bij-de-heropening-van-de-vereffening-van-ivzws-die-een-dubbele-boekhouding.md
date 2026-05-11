@@ -1,6 +1,52 @@
 ---
-nummer: CBN-advies 2024/10
+bron: https://www.cbn-cnc.be/nl/adviezen/verslaggeving-bij-de-heropening-van-de-vereffening-van-ivzws-die-een-dubbele-boekhouding
 datum: 2024-11-14
+gerelateerde_adviezen:
+  - datum: '2024-11-13'
+    titel: Verslaggeving bij de heropening van de vereffening van de vennootschappen
+    url: https://www.cbn-cnc.be/nl/adviezen/verslaggeving-bij-de-heropening-van-de-vereffening-van-de-vennootschappen
+  - datum: '2024-06-10'
+    titel: Openbaarmakingsverplichtingen in hoofde van de vennootschap onder firma en de commanditaire vennootschap bij onmiddellijke sluiting van de vereffening
+    url: https://www.cbn-cnc.be/nl/adviezen/openbaarmakingsverplichtingen-in-hoofde-van-de-vennootschap-onder-firma-en-de
+  - datum: '2022-06-10'
+    titel: Verslaggeving bij onmiddellijke sluiting van de vereffening van een VZW of IVZW
+    url: https://www.cbn-cnc.be/nl/adviezen/verslaggeving-bij-onmiddellijke-sluiting-van-de-vereffening-van-een-vzw-of-ivzw
+  - datum: '2022-06-07'
+    titel: Verslaggeving bij onmiddellijke sluiting van de vereffening van een vennootschap
+    url: https://www.cbn-cnc.be/nl/adviezen/verslaggeving-bij-onmiddellijke-sluiting-van-de-vereffening-van-een-vennootschap
+nummer: CBN-advies 2024/10
+provenance:
+  generated_at: '2026-05-11T13:05:09Z'
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/verslaggeving-bij-de-heropening-van-de-vereffening-van-ivzws-die-een-dubbele-boekhouding
+      sha256: d890612ad02a0fd7aceb09a037b130b54c0b9dcb02864b8735cc43a03bac28d8
+      version:
+  stale: false
+  stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
+  trust:
+    confirmed_at:
+    confirmed_by:
+    layer1:
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:31Z'
+      heading_count: 5
+      max_section_chars: 9537
+      file_size_chars: 18553
+      flags: []
+    layer2:
+      agent:
+      concrete_problemen: []
+      rationale:
+      run_at:
+      status: not_run
+    rationale: 'Trust gereset 2026-05-11: re-scrape met scraper-fixes, content-diff > 5%'
+    status: unreviewed
 themas:
   - vereffening
   - vereniging
@@ -13,85 +59,15 @@ themas:
   - vereffeningsperiode
   - vergeten actief
   - heropening vereffening
-bron: https://www.cbn-cnc.be/nl/adviezen/verslaggeving-bij-de-heropening-van-de-vereffening-van-ivzws-die-een-dubbele-boekhouding
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/verslaggeving-bij-de-heropening-van-de-vereffening-van-ivzws-die-een-dubbele-boekhouding
-      sha256: d890612ad02a0fd7aceb09a037b130b54c0b9dcb02864b8735cc43a03bac28d8
-      version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:38:24Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T12:24:34Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: 'A6: op meerdere plaatsen in de Inleiding en het hoofdtekstblok staan voetnootmarkers gevolgd door een harde regelafbreking midden in een zin (bv. regel 68-69, 72-74, 87-88, 92-93, 128-129, 180, 182-184), wat resulteert in gebroken `[^N]`-zinnen die een mens nooit zo zou typen. Regel 141 en 165 bevatten losstaande voetnootmarkers (` [^19]` en ` [^20][^21]`) op een blanco regel midden tussen twee tabellen — PDF-extractie-artefacten. Tabellen zijn inhoudelijk correct in pipe-syntax mét separator, maar de boekingsrijen zijn asymmetrisch (sommige hebben 4, andere 5 kolommen).'
-    layer1:
-      status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 5
-      max_section_chars: 9544
-      file_size_chars: 18601
-      flags: []
-    layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:24:34Z'
-      rationale: 'A6: op meerdere plaatsen in de Inleiding en het hoofdtekstblok staan voetnootmarkers gevolgd door een harde regelafbreking midden in een zin (bv. regel 68-69, 72-74, 87-88, 92-93, 128-129, 180, 182-184), wat resulteert in gebroken `[^N]`-zinnen die een mens nooit zo zou typen. Regel 141 en 165 bevatten losstaande voetnootmarkers (` [^19]` en ` [^20][^21]`) op een blanco regel midden tussen twee tabellen — PDF-extractie-artefacten. Tabellen zijn inhoudelijk correct in pipe-syntax mét separator, maar de boekingsrijen zijn asymmetrisch (sommige hebben 4, andere 5 kolommen).'
-      concrete_problemen:
-        - regel: 68
-          categorie: A6
-          type: other
-          voorbeeld: heropening van de vereffening van een vzw of ivzw[^2]\n geregeld met de invoering van het nieuwe
-        - regel: 72
-          categorie: A6
-          type: other
-          voorbeeld: In navolging van het CBN-advies[^6]\n inzake de verslaggeving bij de ontbinding
-        - regel: 87
-          categorie: A6
-          type: other
-          voorbeeld: vereffende vzw of ivzw opnieuw rechtspersoonlijkheid verkrijgt[^10]\n en van rechtswege eigenaar
-        - regel: 141
-          categorie: G3
-          type: other
-          voorbeeld: ' [^19]  (losstaande voetnootmarker op blanco regel tussen twee tabellen)'
-        - regel: 165
-          categorie: G3
-          type: other
-          voorbeeld: ' [^20][^21]  (twee gestapelde losstaande voetnootmarkers op blanco regel)'
-gerelateerde_adviezen:
-  - titel: Verslaggeving bij de heropening van de vereffening van de vennootschappen
-    url: https://www.cbn-cnc.be/nl/adviezen/verslaggeving-bij-de-heropening-van-de-vereffening-van-de-vennootschappen
-    datum: '2024-11-13'
-  - titel: Openbaarmakingsverplichtingen in hoofde van de vennootschap onder firma en de commanditaire vennootschap bij onmiddellijke sluiting van de vereffening
-    url: https://www.cbn-cnc.be/nl/adviezen/openbaarmakingsverplichtingen-in-hoofde-van-de-vennootschap-onder-firma-en-de
-    datum: '2024-06-10'
-  - titel: Verslaggeving bij onmiddellijke sluiting van de vereffening van een VZW of IVZW
-    url: https://www.cbn-cnc.be/nl/adviezen/verslaggeving-bij-onmiddellijke-sluiting-van-de-vereffening-van-een-vzw-of-ivzw
-    datum: '2022-06-10'
-  - titel: Verslaggeving bij onmiddellijke sluiting van de vereffening van een vennootschap
-    url: https://www.cbn-cnc.be/nl/adviezen/verslaggeving-bij-onmiddellijke-sluiting-van-de-vereffening-van-een-vennootschap
-    datum: '2022-06-07'
 ---
 
 # CBN-advies 2024/10 – Verslaggeving bij de heropening van de vereffening van (i)vzw’s die een dubbele boekhouding voeren
 
 ## Inleiding
 
-Met de inwerkingtreding van het Wetboek van vennootschappen en verenigingen (hierna: WVV) wordt de heropening van de vereffening van een vzw of ivzw[^2]
- geregeld met de invoering van het nieuwe art. 2:138 WVV[^3], waarin wordt bepaald onder welke voorwaarden het vergeten actiefbestanddeel kan leiden tot de toepassing van deze procedure. Deze bepaling dient te worden samengelezen met de algemene regels inzake de bestemming van het actief bij de vereffening van een vzw of ivzw[^4] enerzijds en inzake de uitkering van het vereffeningssaldo[^5]
- anderzijds.
+Met de inwerkingtreding van het Wetboek van vennootschappen en verenigingen (hierna: WVV) wordt de heropening van de vereffening van een vzw of ivzw[^2] geregeld met de invoering van het nieuwe art. 2:138 WVV[^3], waarin wordt bepaald onder welke voorwaarden het vergeten actiefbestanddeel kan leiden tot de toepassing van deze procedure. Deze bepaling dient te worden samengelezen met de algemene regels inzake de bestemming van het actief bij de vereffening van een vzw of ivzw[^4] enerzijds en inzake de uitkering van het vereffeningssaldo[^5] anderzijds.
 
-In navolging van het CBN-advies[^6]
- inzake de verslaggeving bij de ontbinding en vereffening van een vzw of ivzw, acht de Commissie het nuttig om eveneens stil te staan bij de verslaggevingsverplichtingen in hoofde van deze entiteiten[^7]
- die gepaard gaan met de heropening van de vereffening overeenkomstig art. 2:138 WVV.
+In navolging van het CBN-advies[^6] inzake de verslaggeving bij de ontbinding en vereffening van een vzw of ivzw, acht de Commissie het nuttig om eveneens stil te staan bij de verslaggevingsverplichtingen in hoofde van deze entiteiten[^7] die gepaard gaan met de heropening van de vereffening overeenkomstig art. 2:138 WVV.
 
 ## Heropening van de vereffening
 
@@ -99,31 +75,21 @@ In navolging van het CBN-advies[^6]
 
 Als algemene regel stelt art. 2:130 WVV dat het actief bij de vereffening van een vzw of ivzw slechts kan worden aangewend na aanzuivering van het passief en dat de bestemming van desbetreffend actief, overeenkomstig art. 2:131 WVV, de rechten van derden niet mag schaden. 
 
-Voorts wordt in art. 2:132, lid 1 WVV opgenomen dat het vereffeningssaldo noch rechtstreeks, noch onrechtstreeks mag worden uitgekeerd aan de leden of aan de bestuurders van een vzw of ivzw. Bij ontstentenis van statutaire bepalingen wordt, o.g.v. art. 2:132, lid 2 WVV, de bestemming van het vereffeningssaldo vastgesteld door de algemene vergadering van een vzw, respectievelijk het in de statuten aangewezen orgaan[^8]
- van een ivzw. Bij ontstentenis van een besluit van de algemene vergadering van een vzw, respectievelijk van het in de statuten aangewezen orgaan van een ivzw, geven de vereffenaars aan het vereffeningssaldo een bestemming die zoveel mogelijk overeenkomt met het doel waarvoor de vereniging is opgericht[^9]. 
+Voorts wordt in art. 2:132, lid 1 WVV opgenomen dat het vereffeningssaldo noch rechtstreeks, noch onrechtstreeks mag worden uitgekeerd aan de leden of aan de bestuurders van een vzw of ivzw. Bij ontstentenis van statutaire bepalingen wordt, o.g.v. art. 2:132, lid 2 WVV, de bestemming van het vereffeningssaldo vastgesteld door de algemene vergadering van een vzw, respectievelijk het in de statuten aangewezen orgaan[^8] van een ivzw. Bij ontstentenis van een besluit van de algemene vergadering van een vzw, respectievelijk van het in de statuten aangewezen orgaan van een ivzw, geven de vereffenaars aan het vereffeningssaldo een bestemming die zoveel mogelijk overeenkomt met het doel waarvoor de vereniging is opgericht[^9]. 
 
 De Commissie verwijst naar art. 2:9, § 2, 9° WVV, waarin wordt aangegeven dat het uittreksel van de oprichtingsakte van een vzw of ivzw het belangeloos doel moet bevatten waaraan een vzw of ivzw, bij haar ontbinding, het vermogen moet bestemmen. Het nettoactief – dit is wat overblijft na de betaling van de schulden, alsook de vereffeningskosten van desbetreffende vzw of ivzw – kan bijgevolg enkel voor een belangeloze doelstelling worden aangewend. Indien er sprake is van een claim na de sluiting van de vereffening, dan gaan hiermee in hoofde van de vereffende vzw of ivzw op jaarrekeningrechtelijk vlak geen verslaggevingsverplichtingen mee gepaard, aangezien desbetreffende vereniging in kwestie niet langer bestaat.
 
-Naast de algemene regels van art. 2:130-2:132 WVV voorziet het WVV in een bijzondere regeling van de heropening van de vereffening van een vzw of ivzw. Deze nieuwe regeling houdt concreet in dat de rechtbank de vereffening heropent, waardoor de vereffende vzw of ivzw opnieuw rechtspersoonlijkheid verkrijgt[^10]
- en van rechtswege eigenaar wordt van één of meerdere vergeten actieve vermogensbestanddelen. 
+Naast de algemene regels van art. 2:130-2:132 WVV voorziet het WVV in een bijzondere regeling van de heropening van de vereffening van een vzw of ivzw. Deze nieuwe regeling houdt concreet in dat de rechtbank de vereffening heropent, waardoor de vereffende vzw of ivzw opnieuw rechtspersoonlijkheid verkrijgt[^10] en van rechtswege eigenaar wordt van één of meerdere vergeten actieve vermogensbestanddelen. 
 
 De voorwaarden voor de heropening van de vereffening zijn opgenomen in art. 2:138 WVV:
 
-“§ 1. Indien[^11]
- na de sluiting van de vereffening blijkt dat één of meerdere actieve vermogensbestanddelen van de VZW of van de IVZW werden vergeten, kan elke schuldeiser wiens schuldvordering niet integraal werd voldaan de heropening van de vereffening vorderen.
-
+“§ 1. Indien[^11] na de sluiting van de vereffening blijkt dat één of meerdere actieve vermogensbestanddelen van de VZW of van de IVZW werden vergeten, kan elke schuldeiser wiens schuldvordering niet integraal werd voldaan de heropening van de vereffening vorderen.
 De vordering tot heropening van de vereffening wordt ingesteld tegen de vereffenaar die laatst in functie was.
-
 De rechtbank beveelt slechts de heropening van de vereffening indien de waarde van het vergeten actieve vermogensbestanddeel de kosten van de heropening overschrijdt. De rechtbank kan de vereffenaar vervangen.
-
 § 2. Onverminderd de rechten van derden te goeder trouw, verkrijgt de VZW of de IVZW door de heropening opnieuw rechtspersoonlijkheid en wordt zij van rechtswege eigenaar van het vergeten actieve vermogensbestanddeel. De vereffenaar die laatst in functie was verkrijgt opnieuw deze hoedanigheid.
-
 § 3. Tussen partijen heeft de heropening gevolgen vanaf de dag dat zij is uitgesproken. Aan derden kan zij slechts worden tegengeworpen vanaf de bekendmaking bedoeld in paragraaf 4 en de artikelen 2:7 en 2:13.
-
 § 4. Het uittreksel uit de in kracht van gewijsde gegane of bij voorraad uitvoerbare rechterlijke beslissing waarbij de heropening van de vereffening wordt uitgesproken, alsook het uittreksel uit de rechterlijke beslissing waarbij voornoemd vonnis wordt tenietgedaan, worden neergelegd en bekendgemaakt overeenkomstig de artikelen 2:9 en 2:15 of 2:10 en 2:16.
-
-Dat uittreksel vermeldt: 
-
+Dat uittreksel vermeldt:
 1° de naam en de zetel van de VZW of van de IVZW; 
 
 2° de datum van de beslissing en de rechter die ze heeft gewezen; 
@@ -131,22 +97,17 @@ Dat uittreksel vermeldt:
 3° de naam, de voornaam en de woonplaats van de vereffenaars en ingeval de vereffenaar een rechtspersoon is, de vaste vertegenwoordiger.
 
 § 5. Alle bepalingen van deze afdeling zijn van toepassing op de aldus heropende vereffening”.
-
 ### Enkele aandachtspunten
 
-Rekening houdend met het feit dat de heropening van de vereffening slechts beperkt blijft tot de vergeten actiefbestanddelen, is de Commissie van oordeel dat de toepassing van art. 2:138 WVV niet resulteert in de aanpassing van de stukken die bij de sluiting van de oorspronkelijke vereffening werden opgemaakt. Zo zal het cijfermatig verslag, houdende de vereffeningsrekeningen en de stavingstukken, dat bij de sluiting van de vereffening in het kader van art. 2:134 WVV door de vereffenaar werd opgesteld, niet worden aangepast[^12]
- als gevolg van de heropening van de vereffening van een vzw of ivzw.
+Rekening houdend met het feit dat de heropening van de vereffening slechts beperkt blijft tot de vergeten actiefbestanddelen, is de Commissie van oordeel dat de toepassing van art. 2:138 WVV niet resulteert in de aanpassing van de stukken die bij de sluiting van de oorspronkelijke vereffening werden opgemaakt. Zo zal het cijfermatig verslag, houdende de vereffeningsrekeningen en de stavingstukken, dat bij de sluiting van de vereffening in het kader van art. 2:134 WVV door de vereffenaar werd opgesteld, niet worden aangepast[^12] als gevolg van de heropening van de vereffening van een vzw of ivzw.
 
-De Commissie is van oordeel dat, eenmaal de vereffening wordt heropend, er in hoofde van betrokken vzw of ivzw opnieuw een boekhouding moet worden gevoerd waarbij alle verrichtingen zonder uitstel, getrouw, volledig en naar tijdsorde worden ingeschreven[^13]
- en elke boeking aan de hand van een gedagtekend verantwoordingsstuk, waarnaar zij moet verwijzen[^14], geschiedt.
+De Commissie is van oordeel dat, eenmaal de vereffening wordt heropend, er in hoofde van betrokken vzw of ivzw opnieuw een boekhouding moet worden gevoerd waarbij alle verrichtingen zonder uitstel, getrouw, volledig en naar tijdsorde worden ingeschreven[^13] en elke boeking aan de hand van een gedagtekend verantwoordingsstuk, waarnaar zij moet verwijzen[^14], geschiedt.
 
-De Commissie is van oordeel dat de waardering van de vergeten activa in de zin van art. 2:138 WVV moet voldoen aan de eisen van voorzichtigheid, oprechtheid en goede trouw[^15]. Evenwel zal dit vergeten actief in hoofde van de vereffende vzw of ivzw – die opnieuw rechtspersoonlijkheid heeft verkregen – geboekt worden conform de toepasselijke regels wat inhoudt dat dit in beginsel dient te gebeuren tegen de aanschaffingswaarde met de vereiste correcties zoals voorzien in het KB WVV. De, voorafgaand aan de vereffening van de vzw of ivzw, gebruikte waarderingsregels zullen in beginsel terug van toepassing zijn. Tevens zullen de schulden moeten geboekt worden. Naar het oordeel van de Commissie zijn deze schulden niet beperkt tot de schulden van de schuldeiser die, overeenkomstig art. 2:138 WVV, de heropening van de vereffening heeft gevorderd en bekomen. Vervolgens zal de toebedeling geboekt dienen te worden tegen in beginsel de werkelijke waarde[^16]
- met inachtneming van alle eventuele fiscale verplichtingen.
+De Commissie is van oordeel dat de waardering van de vergeten activa in de zin van art. 2:138 WVV moet voldoen aan de eisen van voorzichtigheid, oprechtheid en goede trouw[^15]. Evenwel zal dit vergeten actief in hoofde van de vereffende vzw of ivzw – die opnieuw rechtspersoonlijkheid heeft verkregen – geboekt worden conform de toepasselijke regels wat inhoudt dat dit in beginsel dient te gebeuren tegen de aanschaffingswaarde met de vereiste correcties zoals voorzien in het KB WVV. De, voorafgaand aan de vereffening van de vzw of ivzw, gebruikte waarderingsregels zullen in beginsel terug van toepassing zijn. Tevens zullen de schulden moeten geboekt worden. Naar het oordeel van de Commissie zijn deze schulden niet beperkt tot de schulden van de schuldeiser die, overeenkomstig art. 2:138 WVV, de heropening van de vereffening heeft gevorderd en bekomen. Vervolgens zal de toebedeling geboekt dienen te worden tegen in beginsel de werkelijke waarde[^16] met inachtneming van alle eventuele fiscale verplichtingen.
 
 **Voorbeeld 1**
 
-Veronderstel dat er na de sluiting van de vereffening van een vzw een vergeten actief opduikt met een boekwaarde van 100. Er is een onbetaalde schuldeiser met een schuldvordering van 80, die de heropening[^17]
- van de vzw vordert en bekomt[^18]. De vereffenaar die laatst in functie was, wordt door de rechtbank opnieuw benoemd. Dit vergeten actief wordt vervolgens gerealiseerd voor 120.
+Veronderstel dat er na de sluiting van de vereffening van een vzw een vergeten actief opduikt met een boekwaarde van 100. Er is een onbetaalde schuldeiser met een schuldvordering van 80, die de heropening[^17] van de vzw vordert en bekomt[^18]. De vereffenaar die laatst in functie was, wordt door de rechtbank opnieuw benoemd. Dit vergeten actief wordt vervolgens gerealiseerd voor 120.
 
 In een dergelijk geval zullen de boekingen in hoofde van desbetreffende vzw er als volgt uitzien:
 
@@ -157,8 +118,6 @@ In een dergelijk geval zullen de boekingen in hoofde van desbetreffende vzw er a
 | | 489 | Andere diverse schulden | 20 | |
 
 *Boeking realisatie vergeten actief voor 120*
-
- [^19]
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
@@ -182,8 +141,6 @@ In een dergelijk geval zullen de boekingen in hoofde van desbetreffende vzw er a
 
 *Boeking toewijzing van vereffeningssaldo aan het belangeloos doel*
 
- [^20][^21]
-
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 69X | Andere rechthebbenden | 20 | |
@@ -192,17 +149,13 @@ In een dergelijk geval zullen de boekingen in hoofde van desbetreffende vzw er a
 
 ### Verslaggevingsverplichtingen
 
-Zoals hierboven reeds aangegeven, bepaalt art. 2:138, § 5 WVV dat alle bepalingen van de afdeling[^22]
- over de vereffening van vzw’s en van ivzw’s van toepassing zijn op de heropende vereffening. Naar het oordeel van de Commissie is dit ook het geval inzake de verslaggeving die gepaard gaat met de heropening van de vereffening van de reeds voorheen ontbonden vzw of ivzw.
+Zoals hierboven reeds aangegeven, bepaalt art. 2:138, § 5 WVV dat alle bepalingen van de afdeling[^22] over de vereffening van vzw’s en van ivzw’s van toepassing zijn op de heropende vereffening. Naar het oordeel van de Commissie is dit ook het geval inzake de verslaggeving die gepaard gaat met de heropening van de vereffening van de reeds voorheen ontbonden vzw of ivzw.
 
 Voor de verslaggevings- en publicatieverplichtingen naar aanleiding van de heropening van de vereffening verwijst de Commissie naar de verplichtingen zoals uiteengezet in het CBN-advies 2022/05 – Verslaggeving bij ontbinding en vereffening van een vzw of ivzw met betrekking tot de klassieke vereffening[^23]:
 
-- in de vzw’s en de ivzw’s die overeenkomstig art. 3:47, § 6 WVV één of meer commissarissen moeten aanstellen: het opstellen van een omstandige staat[^24]
- van de toestand van de vereffening tijdens de looptijd van de vereffening – neer te leggen bij de griffie van de ondernemingsrechtbank[^25]; 
-- voor elk boekjaar: het opstellen van een jaarrekening[^26]
-  tijdens de looptijd van de vereffening – voor te leggen aan de algemene vergadering van de vzw of aan het in de statuten aangewezen orgaan van de ivzw. Deze jaarrekening moet niet worden openbaar gemaakt[^27]. De begindatum van de eerste jaarrekening die na de heropening wordt opgesteld, stemt in beginsel overeen met de datum waarop de heropening van de vereffening wordt uitgesproken[^28]. 
-- het opstellen van een cijfermatig verslag over de looptijd van de heropende vereffening zelf, houdende de vereffeningsrekeningen[^29]
- en de stukken tot staving bij de nieuwe sluiting van de vereffening. De sluiting van de heropende vereffening dient bekend te worden gemaakt in de Bijlagen bij het Belgisch Staatsblad[^30]. 
+- in de vzw’s en de ivzw’s die overeenkomstig art. 3:47, § 6 WVV één of meer commissarissen moeten aanstellen: het opstellen van een omstandige staat[^24] van de toestand van de vereffening tijdens de looptijd van de vereffening – neer te leggen bij de griffie van de ondernemingsrechtbank[^25]; 
+- voor elk boekjaar: het opstellen van een jaarrekening[^26] tijdens de looptijd van de vereffening – voor te leggen aan de algemene vergadering van de vzw of aan het in de statuten aangewezen orgaan van de ivzw. Deze jaarrekening moet niet worden openbaar gemaakt[^27]. De begindatum van de eerste jaarrekening die na de heropening wordt opgesteld, stemt in beginsel overeen met de datum waarop de heropening van de vereffening wordt uitgesproken[^28]. 
+- het opstellen van een cijfermatig verslag over de looptijd van de heropende vereffening zelf, houdende de vereffeningsrekeningen[^29] en de stukken tot staving bij de nieuwe sluiting van de vereffening. De sluiting van de heropende vereffening dient bekend te worden gemaakt in de Bijlagen bij het Belgisch Staatsblad[^30]. 
 
 **Voorbeeld 2**
 
@@ -210,9 +163,7 @@ Een vereniging zonder winstoogmerk Z (hierna: vzw Z) voerde haar boekhouding per
 
 Vervolgens wordt door een schuldeiser de heropening van de vereffening van de vzw Z gevorderd omwille van één opgedoken vergeten actiefbestanddeel. Op 30 september 20N2 beveelt de rechtbank de heropening van de vereffening overeenkomstig art. 2:138, § 1, lid 3 WVV en verkrijgt de vereffenaar die laatst in functie was opnieuw zijn hoedanigheid[^31]. Op 5 oktober 20N2 wordt deze rechterlijke beslissing bekendgemaakt overeenkomstig de art. 2:7 en 2:13 WVV[^32]. Op 1 maart 20N3 wordt de vereffening afgesloten. 
 
-Gelet op art. 2:138, § 5 WVV dient de vereffenaar vanaf het ogenblik dat de vereffening wordt heropend, in beginsel alle relevante[^33]
- bepalingen inzake de verslaggeving bij de klassieke vereffening in acht te nemen. De vereffenaar zal een boekhouding dienen te voeren voor de nieuwe vereffeningsperiode na de heropening. De vereffenaar zal conform art. 2:126 WVV een jaarrekening dienen op te maken voor de periode 30 september 20N2 tot 31 december 20N2 en deze, voorafgaand aan de sluiting van de heropende vereffening op 1 maart 20N3, voorleggen aan de algemene vergadering. Bij de nieuwe sluiting van de vereffening op 1 maart 20N3 zal de vereffenaar, overeenkomstig art. 2:134 WVV, een cijfermatig verslag opmaken over de vereffening, houdende de vereffeningsrekeningen, dat samen met de stukken tot staving bij de sluiting van de heropende vereffening wordt neergelegd[^34]
- in het dossier van de rechtspersoon bij de ondernemingsrechtbank. De sluiting van de heropende vereffening zal tevens bekend moeten worden gemaakt in de Bijlagen bij het Belgisch Staatsblad[^35].
+Gelet op art. 2:138, § 5 WVV dient de vereffenaar vanaf het ogenblik dat de vereffening wordt heropend, in beginsel alle relevante[^33] bepalingen inzake de verslaggeving bij de klassieke vereffening in acht te nemen. De vereffenaar zal een boekhouding dienen te voeren voor de nieuwe vereffeningsperiode na de heropening. De vereffenaar zal conform art. 2:126 WVV een jaarrekening dienen op te maken voor de periode 30 september 20N2 tot 31 december 20N2 en deze, voorafgaand aan de sluiting van de heropende vereffening op 1 maart 20N3, voorleggen aan de algemene vergadering. Bij de nieuwe sluiting van de vereffening op 1 maart 20N3 zal de vereffenaar, overeenkomstig art. 2:134 WVV, een cijfermatig verslag opmaken over de vereffening, houdende de vereffeningsrekeningen, dat samen met de stukken tot staving bij de sluiting van de heropende vereffening wordt neergelegd[^34] in het dossier van de rechtspersoon bij de ondernemingsrechtbank. De sluiting van de heropende vereffening zal tevens bekend moeten worden gemaakt in de Bijlagen bij het Belgisch Staatsblad[^35].
 
 [^1]: Onderhavig advies is tot stand gekomen nadat het ontwerpadvies op 17 juli 2024 ter publieke consultatie werd gepubliceerd op de website van de CBN.
 

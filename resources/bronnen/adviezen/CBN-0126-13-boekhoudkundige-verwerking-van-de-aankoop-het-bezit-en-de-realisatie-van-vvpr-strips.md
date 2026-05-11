@@ -1,6 +1,72 @@
 ---
-nummer: CBN-advies 126/13
+bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-aankoop-het-bezit-en-de-realisatie-van-vvpr-strips
 datum: 1997-01-01
+gerelateerde_adviezen:
+  - datum: '2024-03-13'
+    titel: Terugbetaling van kapitaal in vreemde valuta aan de aandeelhouders
+    url: https://www.cbn-cnc.be/nl/adviezen/terugbetaling-van-kapitaal-in-vreemde-valuta-aan-de-aandeelhouders
+  - datum: '2019-03-12'
+    titel: Dividenduitkering en kapitaalvermindering in natura
+    url: https://www.cbn-cnc.be/nl/adviezen/dividenduitkering-en-kapitaalvermindering-in-natura-0
+  - datum: '2016-09-07'
+    titel: 'Verenigingen en stichtingen: certificatie van aandelen van handelsvennootschappen'
+    url: https://www.cbn-cnc.be/nl/adviezen/verenigingen-en-stichtingen-certificatie-van-aandelen-van-handelsvennootschappen
+  - datum: '2016-03-09'
+    titel: Verrichtingen met betrekking tot inschrijvingsrechten
+    url: https://www.cbn-cnc.be/nl/adviezen/verrichtingen-met-betrekking-tot-inschrijvingsrechten
+nummer: CBN-advies 126/13
+provenance:
+  generated_at: '2026-05-11T13:05:06Z'
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-aankoop-het-bezit-en-de-realisatie-van-vvpr-strips
+      sha256: 0d6a48c52faec16cb2f9a9dfdd10fd5b8637def5f098e159716dd410db165dea
+      version:
+  stale: false
+  stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
+  trust:
+    confirmed_at: '2026-05-11T11:57:45Z'
+    confirmed_by: subagent-sonnet-4-6
+    layer1:
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:25Z'
+      heading_count: 9
+      max_section_chars: 8720
+      file_size_chars: 20993
+      flags: []
+    layer2:
+      agent: subagent-sonnet-4-6
+      concrete_problemen:
+        - categorie: A3
+          regel: 77
+          type: other
+          voorbeeld: '------ Boekhoudrechtelijke kwalificatie...------ Vragen in verband... (nav-blob dubbelt TOC)'
+        - categorie: A4
+          regel: 183
+          type: other
+          voorbeeld: VVPR¬aandelen (U+00AC NOT SIGN als koppelstreep)
+        - categorie: A5
+          regel: 107
+          type: other
+          voorbeeld: '#### Juridisch statuut van de "VVPS-strip" (typo + ASCII-quotes naast «»-guillemets)'
+        - categorie: G3
+          regel: 139
+          type: other
+          voorbeeld: '...beurswaarde[^8]\n van de strip daalt. (footnote-marker breekt regel)'
+        - categorie: B1
+          regel: 81
+          type: other
+          voorbeeld: '#### Beschrijving van het mechanisme van de «VVPR-strips (ontbrekend sluitend »)'
+      rationale: 'Meerdere problemen: A3: dubbele TOC (regel 65-75 als genummerde lijst + regel 77 als aaneengesloten nav-blob met ''------''-separatoren). A4: U+00AC (NOT SIGN) op regels 183 en 185 als pseudo-koppelstreep in ''VVPR¬aandelen'' — duidelijk OCR/extractie-artefact. A5: inconsistente quotes (''VVPS-strip'' met ASCII-aanhalingstekens naast «VVPR-strips» met guillemets). G3: footnote [^8] breekt de zin op regel 139 (de footnote-marker staat als losse regel met een spatie ervoor). B1/woordfout: de heading op regel 107 bevat typo ''VVPS-strip'' i.p.v. ''VVPR-strip''.'
+      run_at: '2026-05-11T11:57:45Z'
+      status: needs-rework
+    rationale: 'Meerdere problemen: A3: dubbele TOC (regel 65-75 als genummerde lijst + regel 77 als aaneengesloten nav-blob met ''------''-separatoren). A4: U+00AC (NOT SIGN) op regels 183 en 185 als pseudo-koppelstreep in ''VVPR¬aandelen'' — duidelijk OCR/extractie-artefact. A5: inconsistente quotes (''VVPS-strip'' met ASCII-aanhalingstekens naast «VVPR-strips» met guillemets). G3: footnote [^8] breekt de zin op regel 139 (de footnote-marker staat als losse regel met een spatie ervoor). B1/woordfout: de heading op regel 107 bevat typo ''VVPS-strip'' i.p.v. ''VVPR-strip''.'
+    status: needs-rework
 themas:
   - aandelen
   - aanschaffingswaarde
@@ -12,72 +78,6 @@ themas:
   - VVPR-aandelen
   - VVPR-strips
   - warrant
-bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-aankoop-het-bezit-en-de-realisatie-van-vvpr-strips
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-aankoop-het-bezit-en-de-realisatie-van-vvpr-strips
-      sha256: 0d6a48c52faec16cb2f9a9dfdd10fd5b8637def5f098e159716dd410db165dea
-      version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:34:40Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T11:57:45Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "Meerdere problemen: A3: dubbele TOC (regel 65-75 als genummerde lijst + regel 77 als aaneengesloten nav-blob met '------'-separatoren). A4: U+00AC (NOT SIGN) op regels 183 en 185 als pseudo-koppelstreep in 'VVPR¬aandelen' — duidelijk OCR/extractie-artefact. A5: inconsistente quotes ('VVPS-strip' met ASCII-aanhalingstekens naast «VVPR-strips» met guillemets). G3: footnote [^8] breekt de zin op regel 139 (de footnote-marker staat als losse regel met een spatie ervoor). B1/woordfout: de heading op regel 107 bevat typo 'VVPS-strip' i.p.v. 'VVPR-strip'."
-    layer1:
-      status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 9
-      max_section_chars: 9272
-      file_size_chars: 21548
-      flags: []
-    layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T11:57:45Z'
-      rationale: "Meerdere problemen: A3: dubbele TOC (regel 65-75 als genummerde lijst + regel 77 als aaneengesloten nav-blob met '------'-separatoren). A4: U+00AC (NOT SIGN) op regels 183 en 185 als pseudo-koppelstreep in 'VVPR¬aandelen' — duidelijk OCR/extractie-artefact. A5: inconsistente quotes ('VVPS-strip' met ASCII-aanhalingstekens naast «VVPR-strips» met guillemets). G3: footnote [^8] breekt de zin op regel 139 (de footnote-marker staat als losse regel met een spatie ervoor). B1/woordfout: de heading op regel 107 bevat typo 'VVPS-strip' i.p.v. 'VVPR-strip'."
-      concrete_problemen:
-        - regel: 77
-          categorie: A3
-          type: other
-          voorbeeld: '------ Boekhoudrechtelijke kwalificatie...------ Vragen in verband... (nav-blob dubbelt TOC)'
-        - regel: 183
-          categorie: A4
-          type: other
-          voorbeeld: VVPR¬aandelen (U+00AC NOT SIGN als koppelstreep)
-        - regel: 107
-          categorie: A5
-          type: other
-          voorbeeld: '#### Juridisch statuut van de "VVPS-strip" (typo + ASCII-quotes naast «»-guillemets)'
-        - regel: 139
-          categorie: G3
-          type: other
-          voorbeeld: '...beurswaarde[^8]\n van de strip daalt. (footnote-marker breekt regel)'
-        - regel: 81
-          categorie: B1
-          type: other
-          voorbeeld: '#### Beschrijving van het mechanisme van de «VVPR-strips (ontbrekend sluitend »)'
-gerelateerde_adviezen:
-  - titel: Terugbetaling van kapitaal in vreemde valuta aan de aandeelhouders
-    url: https://www.cbn-cnc.be/nl/adviezen/terugbetaling-van-kapitaal-in-vreemde-valuta-aan-de-aandeelhouders
-    datum: '2024-03-13'
-  - titel: Dividenduitkering en kapitaalvermindering in natura
-    url: https://www.cbn-cnc.be/nl/adviezen/dividenduitkering-en-kapitaalvermindering-in-natura-0
-    datum: '2019-03-12'
-  - titel: 'Verenigingen en stichtingen: certificatie van aandelen van handelsvennootschappen'
-    url: https://www.cbn-cnc.be/nl/adviezen/verenigingen-en-stichtingen-certificatie-van-aandelen-van-handelsvennootschappen
-    datum: '2016-09-07'
-  - titel: Verrichtingen met betrekking tot inschrijvingsrechten
-    url: https://www.cbn-cnc.be/nl/adviezen/verrichtingen-met-betrekking-tot-inschrijvingsrechten
-    datum: '2016-03-09'
 ---
 
 # CBN-advies 126/13 - Boekhoudkundige verwerking van de aankoop, het bezit en de realisatie van «VVPR-strips»
@@ -94,15 +94,13 @@ gerelateerde_adviezen:
 
   3. Vragen in verband met de realisatie van "VVPR-strips" 
 
------- Boekhoudrechtelijke kwalificatie van «VVPR-strips»------ Vragen in verband met de vaststelling van de «aanschaffingswaarde» van «VVPR-strips» -------- Strips afzonderlijk verworven op de secundaire markt -------- Bepaling van de respectieve aanschaffingswaarde van het gewone aandeel en van de strip ontstaan uit de splitsing van een VVPR-aandeel-------- Strips verkregen samen met nieuwe gewone aandelen waarop is ingeschreven ingevolge een openbaar beroep op het spaarderspubliek ------ Vragen in verband met de realisatie van "VVPR-strips" 
-
 De Commissie werd om advies gevraagd over diverse aspecten van de boekhoudkundige verwerking van «VVPR-strips», waarvan het mechanisme hieronder wordt toegelicht. 
 
 #### Beschrijving van het mechanisme van de «VVPR-strips 
 
 «VVPR»-aandelen (Verlaagde Voorheffing/Précompte Réduit) vallen onder de regeling van artikel 269 W.I.B. 92[^1]. Krachtens deze bijzondere belastingregeling geldt een verlaagde roerende voorheffing (thans 15 %[^2]) o.a. voor : 
 
-- dividenden van genoteerde AFV-aandelen ten aanzien waarvan de emittent heeft afgezien van de AFV¬kenmerken; en 
+- dividenden van genoteerde AFV-aandelen ten aanzien waarvan de emittent heeft afgezien van de AFV-kenmerken; en 
 - dividenden van aandelen die vanaf 1 januari 1994 zijn uitgegeven door het openbaar aantrekken van spaargelden. 
 
 In de oorspronkelijke regeling - bij de lancering van de eerste VVPR-aandelen - moesten die aandelen de vermelding «VVPR» dragen om tot de notering te worden toegelaten en, net als de AFV-aandelen, dan ook afzonderlijk worden genoteerd.
@@ -156,8 +154,7 @@ Drie gevallen lijken te moeten worden onderscheiden :
 
 ###### Strips afzonderlijk verworven op de secundaire markt 
 
-Wanneer de strip afzonderlijk is verworven op de secundaire markt, kan de koper de aanschaffingswaarde zonder problemen bepalen. De aanschaffingswaarde is immers gelijk aan de aankoopprijs, verhoogd met de bijkomende kosten, behalve wanneer die kosten onmiddellijk in resultaat worden genomen met toepassing van artikel 29, § 3 van het Koninklijk Besluit van 8 oktober 1976. Bovendien zullen op de aanschaffingswaarde van de strip, in voorkomend geval, waardeverminderingen moeten worden toegepast wanneer de afzonderlijke beurswaarde[^8]
- van de strip daalt. 
+Wanneer de strip afzonderlijk is verworven op de secundaire markt, kan de koper de aanschaffingswaarde zonder problemen bepalen. De aanschaffingswaarde is immers gelijk aan de aankoopprijs, verhoogd met de bijkomende kosten, behalve wanneer die kosten onmiddellijk in resultaat worden genomen met toepassing van artikel 29, § 3 van het Koninklijk Besluit van 8 oktober 1976. Bovendien zullen op de aanschaffingswaarde van de strip, in voorkomend geval, waardeverminderingen moeten worden toegepast wanneer de afzonderlijke beurswaarde[^8] van de strip daalt. 
 
 In de overige twee gevallen rijst de vraag hoe de aanschaffingswaarde van het gewone aandeel, enerzijds, en de strip, anderzijds, moet worden bepaald. In beide gevallen hebben beide afzonderlijke stukken immers aanvankelijk een gezamenlijke aanschaffingswaarde.
 
@@ -172,9 +169,7 @@ Om de aan die twee stukken toe te wijzen aanschaffingswaarde te bepalen, lijken 
 
 *Toepassing van de regels voor aandelen uitgegeven met aangehecht inschrijvingsrecht*
 
-In haar advies 139/6 over aandelen met warrants[^9]
- heeft de Commissie onderzocht hoe de aanschaffingswaarde van dergelijke aandelen moet worden verdeeld over het aandeel en de strip, wanneer die kunnen worden gesplitst en dus een afzonderlijk financieel bestaan gaan leiden. In aansluiting op een benadering vooropgesteld door het Hof van Beroep te Gent in een arrest van 30 juni 1961[^10]
- en aanvaard door het Bestuur der Directe Belastingen, heeft de Commissie aanbevolen de aanschaffingswaarde van het aandeel cum warrant uit te splitsen over het aandeel ex-warrant en de warrant, in functie van hun respectieve beurskoers bij de eerste afzonderlijke notering of tijdens een eerste afzonderlijke noteringsperiode. 
+In haar advies 139/6 over aandelen met warrants[^9] heeft de Commissie onderzocht hoe de aanschaffingswaarde van dergelijke aandelen moet worden verdeeld over het aandeel en de strip, wanneer die kunnen worden gesplitst en dus een afzonderlijk financieel bestaan gaan leiden. In aansluiting op een benadering vooropgesteld door het Hof van Beroep te Gent in een arrest van 30 juni 1961[^10] en aanvaard door het Bestuur der Directe Belastingen, heeft de Commissie aanbevolen de aanschaffingswaarde van het aandeel cum warrant uit te splitsen over het aandeel ex-warrant en de warrant, in functie van hun respectieve beurskoers bij de eerste afzonderlijke notering of tijdens een eerste afzonderlijke noteringsperiode. 
 
 Wanneer deze benadering wordt toegepast op de verdeling van de waarde van een VVPR-aandeel, bij de splitsing van dat aandeel in een gewoon aandeel en een strip, zou de «aanschaffingswaarde» van de strip of de waarde waartegen die in het vermogen van de houder wordt opgenomen, als volgt worden bepaald : 
 
@@ -196,13 +191,13 @@ Door toepassing van die formule kan de aanschaffingswaarde voor beide stukken in
 
 «Gewoon» aandeel (ex-VVPR-aandeel) : 958,4 VVPR-strip : 41,6 
 
-*Toewijzing van de totale aanschaffingswaarde aan het gewone aandeel en boeking van de strip «pro memorie» *
+*Toewijzing van de totale aanschaffingswaarde aan het gewone aandeel en boeking van de strip «pro memorie»* 
 
 De eerste methode gaat uit van het vermoeden dat de markt van de VVPR-aandelen de waarde van het «gewone» aandeel én het voordeel van de verlaagde voorheffing volledig en correct kapitaliseert. In die optiek is de splitsing niet meer dan de materialisatie van die totaalwaarde in twee afzonderlijke stukken. 
 
-Uit een onderzoek van het respectieve koersverloop tijdens de laatste jaren van, enerzijds, gewone aandelen en, anderzijds, VVPR-aandelen, blijkt dat dit vermoeden in werkelijkheid zelden bewaarheid werd. Over het algemeen lag het positieve verschil tussen de koers van VVPR¬aandelen en die van gewone aandelen aanzienlijk onder de geactualiseerde waarde van de toekomstige voordelen verbonden aan de verlaagde voorheffing. In bepaalde gevallen noteerde het VVPR-aandeel zelfs lager dan het gewone aandeel. 
+Uit een onderzoek van het respectieve koersverloop tijdens de laatste jaren van, enerzijds, gewone aandelen en, anderzijds, VVPR-aandelen, blijkt dat dit vermoeden in werkelijkheid zelden bewaarheid werd. Over het algemeen lag het positieve verschil tussen de koers van VVPR-aandelen en die van gewone aandelen aanzienlijk onder de geactualiseerde waarde van de toekomstige voordelen verbonden aan de verlaagde voorheffing. In bepaalde gevallen noteerde het VVPR-aandeel zelfs lager dan het gewone aandeel. 
 
-Die gang van zaken werd toegeschreven aan de relatieve marktkrapte voor VVPR-aandelen, die de koersen veel elastischer deed reageren op het verschil in vraag en aanbod, met als gevolg dus een kleinere vraag. Naast die technische oorzaak was er ook het feit dat ondernemingen die aan de vennootschapsbelasting zijn onderworpen, er geen enkel fiscaal voordeel bij hadden VVPR¬aandelen veeleer dan gewone aandelen in portefeuille te houden. Daardoor waren die ondernemingen eerder geneigd hun VVPR-aandelen te verkopen en er zelf geen meer te kopen, of ook nog arbitrage-verrichtingen op te zetten tussen VVPR-aandelen en gewone aandelen. De vraag naar VVPR-aandelen was dus eigenlijk bijna uitsluitend afkomstig van partijen waarvoor de belasting - althans optioneel - overeenstemt met de ingehouden voorheffing. 
+Die gang van zaken werd toegeschreven aan de relatieve marktkrapte voor VVPR-aandelen, die de koersen veel elastischer deed reageren op het verschil in vraag en aanbod, met als gevolg dus een kleinere vraag. Naast die technische oorzaak was er ook het feit dat ondernemingen die aan de vennootschapsbelasting zijn onderworpen, er geen enkel fiscaal voordeel bij hadden VVPR-aandelen veeleer dan gewone aandelen in portefeuille te houden. Daardoor waren die ondernemingen eerder geneigd hun VVPR-aandelen te verkopen en er zelf geen meer te kopen, of ook nog arbitrage-verrichtingen op te zetten tussen VVPR-aandelen en gewone aandelen. De vraag naar VVPR-aandelen was dus eigenlijk bijna uitsluitend afkomstig van partijen waarvoor de belasting - althans optioneel - overeenstemt met de ingehouden voorheffing. 
 
 Precies om deze toestand te verhelpen werd een regeling voor VVPR-strips ingevoerd. Het doel was : 
 

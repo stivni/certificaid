@@ -3,43 +3,42 @@ bron: https://www.cbn-cnc.be/nl/adviezen/herstructureringskosten-verwerking-in-d
 datum: 2011-11-09
 nummer: CBN-advies 2011/24
 provenance:
-  generated_at: '2026-05-08T18:36:20Z'
+  generated_at: '2026-05-11T13:05:08Z'
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/herstructureringskosten-verwerking-in-de-jaarrekening
-    sha256: 8a486b86c5b96214843fa82ca23a90b0cbf88fe1f636d2fb093ab86a1f9d582d
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/herstructureringskosten-verwerking-in-de-jaarrekening
+      sha256: 8a486b86c5b96214843fa82ca23a90b0cbf88fe1f636d2fb093ab86a1f9d582d
+      version:
   stale: false
-  stale_reason: null
+  stale_reason:
   tooling:
-    model: null
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    prompt_version: null
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
   trust:
     confirmed_at: '2026-05-08T19:02:29Z'
     confirmed_by: subagent-laag2-ronde2
     layer1:
-      file_size_chars: 7610
-      flags: []
-      heading_count: 0
-      max_section_chars: 7610
-      run_at: null
-      run_id: 20260511-083333
       status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:28Z'
+      heading_count: 0
+      max_section_chars: 7596
+      file_size_chars: 7596
+      flags: []
     layer2:
       agent: subagent-laag2-ronde2
       concrete_problemen: []
-      rationale: '[Laag-2-R2 2026-05-08] Volledig met wetsartikelcitaat, 5 journaalposten
-        en afschrijvingspost. Kleine OCR-typefout (''itzonderlijke'').'
+      rationale: '[Laag-2-R2 2026-05-08] Volledig met wetsartikelcitaat, 5 journaalposten en afschrijvingspost. Kleine OCR-typefout (''itzonderlijke'').'
       run_at: '2026-05-08T19:02:29Z'
       status: trusted
     rationale: Laag-2 trusted door subagent-laag2-ronde2 (zie layer2.rationale)
     status: trusted
 themas:
-- activering van kosten
-- herstructureringskosten
-- uitzonderlijke afschrijving
-- voorziening
+  - activering van kosten
+  - herstructureringskosten
+  - uitzonderlijke afschrijving
+  - voorziening
 ---
 
 # CBN-advies 2011/24 - Herstructureringskosten - Verwerking in de jaarrekening
@@ -64,8 +63,6 @@ De uitstippeling van een afschrijvingsplan voor deze kosten moet rechtstreeks st
 De te verrichten boekingen kunnen als volgt geïllustreerd worden. Laten we, bij wijze van voorbeeld, ervan uitgaan dat een onderneming in het kader van een herstructurering van haar activiteiten, een afzonderlijke afschrijving van 1000 dient te boeken op een machine die zij besluit buiten gebruik te stellen, en dit om de boekwaarde van deze machine af te stemmen op haar waarschijnlijke realisatiewaarde (artikel 65 KB W.Venn.). Bovendien bedragen de te maken kosten voor het ontslag van werknemers (arbeiders) in totaal 675 en voor een studie van een consultancybureau met betrekking tot de herstructurering 100 (btw niet inbegrepen). Tevens dient de onderneming 200 (btw niet inbegrepen) te betalen voor bankkosten ten gevolge van een toegestane schuldherschikking. De onderneming beslist om deze kosten als herstructureringskosten op te nemen onder haar activa en om deze af te schrijven ten belope van 20 % per jaar. 
 
 De onderneming zal aanvankelijk overgaan tot de boeking van de kosten:
-
- [^3]
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
@@ -104,8 +101,6 @@ De opname van de kosten aan de actiefzijde wordt als volgt tot uitdrukking gebra
 | | onder de activa (-) | 1.100 | | |
 
 De jaarlijkse afschrijving van de herstructureringskosten wordt als volgt opgenomen in de boekhouding:
-
- [^4]
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|

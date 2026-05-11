@@ -1,6 +1,64 @@
 ---
-nummer: CBN-advies 2017/14
+bron: https://www.cbn-cnc.be/nl/adviezen/verenigingen-en-stichtingen-verwerving-door-de-erfpacht-houder-van-het-met-een-erfpacht
 datum: 2017-06-21
+gerelateerde_adviezen:
+  - datum: '2021-06-23'
+    titel: Rekening 26 Overige materiële vaste activa
+    url: https://www.cbn-cnc.be/nl/adviezen/rekening-26-overige-materiele-vaste-activa
+  - datum: '2015-07-08'
+    titel: 'Zakelijke rechten op onroerende goederen: vruchtgebruik - opstalrecht - erfpachtrecht - erfdienstbaarheid'
+    url: https://www.cbn-cnc.be/nl/adviezen/zakelijke-rechten-op-onroerende-goederen-vruchtgebruik-opstalrecht-erfpachtrecht
+  - datum: '1991-03-01'
+    titel: Verwerking van verrichtingen voor de verwerving of verkoop van een recht op vruchtgebruik of van naakte eigendom op materiële vaste activa in de boekhouding van de vruchtgebruiker (de erfpachter, de opstalhouder) en van de naakte eigenaar (de grondeigenaa
+    url: https://www.cbn-cnc.be/nl/adviezen/verwerking-van-verrichtingen-voor-de-verwerving-of-verkoop-van-een-recht-op-vruchtgebruik
+  - datum: '2008-07-23'
+    titel: Boekhoudkundige verwerking van erfpachtcontracten in not-for-profit-organisaties
+    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-erfpachtcontracten-in-not-for-profit-organisaties
+nummer: CBN-advies 2017/14
+provenance:
+  generated_at: '2026-05-11T13:05:08Z'
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/verenigingen-en-stichtingen-verwerving-door-de-erfpacht-houder-van-het-met-een-erfpacht
+      sha256: 5cbd681fd8472fc6e422e3e7abbf6654d621e4aa16abd64891dfe87a8c086955
+      version:
+  stale: false
+  stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
+  trust:
+    confirmed_at: '2026-05-11T12:16:35Z'
+    confirmed_by: subagent-sonnet-4-6
+    layer1:
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:29Z'
+      heading_count: 14
+      max_section_chars: 12022
+      file_size_chars: 19369
+      flags: []
+    layer2:
+      agent: subagent-sonnet-4-6
+      concrete_problemen:
+        - categorie: D3
+          regel: 157
+          type: other
+          voorbeeld: ' [^18]  (orphan footnote-referentie zonder omringende zin)'
+        - categorie: E2
+          regel: 161
+          type: other
+          voorbeeld: '| | 2201 | Terreinen die volle eigendom\n zijn van de vereniging | 100 | |'
+        - categorie: D4
+          regel: 113
+          type: other
+          voorbeeld: '*getrapte[^8] * overdracht van de volle eigendom'
+      rationale: 'E2: Eerste tabel (regels 159-164) heeft een gebroken rij — de omschrijving ''Terreinen die volle eigendom'' staat op regel 161 en '' zijn van de vereniging | 100 | |'' loopt door op regel 162 door een spurious line-break midden in een tabelcel; dit breekt de markdown-tabel. Verder: regel 157 bevat '' [^18]'' als enige celinhoud vóór de tabel — een orphan footnote-referentie zonder context. D4: regel 113 bevat ''*getrapte[^8] *'' met spatie voor het sluitende asterisk.'
+      run_at: '2026-05-11T12:16:35Z'
+      status: needs-rework
+    rationale: 'E2: Eerste tabel (regels 159-164) heeft een gebroken rij — de omschrijving ''Terreinen die volle eigendom'' staat op regel 161 en '' zijn van de vereniging | 100 | |'' loopt door op regel 162 door een spurious line-break midden in een tabelcel; dit breekt de markdown-tabel. Verder: regel 157 bevat '' [^18]'' als enige celinhoud vóór de tabel — een orphan footnote-referentie zonder context. D4: regel 113 bevat ''*getrapte[^8] *'' met spatie voor het sluitende asterisk.'
+    status: needs-rework
 themas:
   - erfpacht
   - onroerende goederen
@@ -8,64 +66,6 @@ themas:
   - symbolische vergoeding
   - tréfonds
   - zakelijke rechten
-bron: https://www.cbn-cnc.be/nl/adviezen/verenigingen-en-stichtingen-verwerving-door-de-erfpacht-houder-van-het-met-een-erfpacht
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/verenigingen-en-stichtingen-verwerving-door-de-erfpacht-houder-van-het-met-een-erfpacht
-      sha256: 5cbd681fd8472fc6e422e3e7abbf6654d621e4aa16abd64891dfe87a8c086955
-      version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:37:14Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T12:16:35Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "E2: Eerste tabel (regels 159-164) heeft een gebroken rij — de omschrijving 'Terreinen die volle eigendom' staat op regel 161 en ' zijn van de vereniging | 100 | |' loopt door op regel 162 door een spurious line-break midden in een tabelcel; dit breekt de markdown-tabel. Verder: regel 157 bevat ' [^18]' als enige celinhoud vóór de tabel — een orphan footnote-referentie zonder context. D4: regel 113 bevat '*getrapte[^8] *' met spatie voor het sluitende asterisk."
-    layer1:
-      status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 10
-      max_section_chars: 12041
-      file_size_chars: 19392
-      flags: []
-    layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:16:35Z'
-      rationale: "E2: Eerste tabel (regels 159-164) heeft een gebroken rij — de omschrijving 'Terreinen die volle eigendom' staat op regel 161 en ' zijn van de vereniging | 100 | |' loopt door op regel 162 door een spurious line-break midden in een tabelcel; dit breekt de markdown-tabel. Verder: regel 157 bevat ' [^18]' als enige celinhoud vóór de tabel — een orphan footnote-referentie zonder context. D4: regel 113 bevat '*getrapte[^8] *' met spatie voor het sluitende asterisk."
-      concrete_problemen:
-        - regel: 157
-          categorie: D3
-          type: other
-          voorbeeld: ' [^18]  (orphan footnote-referentie zonder omringende zin)'
-        - regel: 161
-          categorie: E2
-          type: other
-          voorbeeld: '| | 2201 | Terreinen die volle eigendom\n zijn van de vereniging | 100 | |'
-        - regel: 113
-          categorie: D4
-          type: other
-          voorbeeld: '*getrapte[^8] * overdracht van de volle eigendom'
-gerelateerde_adviezen:
-  - titel: Rekening 26 Overige materiële vaste activa
-    url: https://www.cbn-cnc.be/nl/adviezen/rekening-26-overige-materiele-vaste-activa
-    datum: '2021-06-23'
-  - titel: 'Zakelijke rechten op onroerende goederen: vruchtgebruik - opstalrecht - erfpachtrecht - erfdienstbaarheid'
-    url: https://www.cbn-cnc.be/nl/adviezen/zakelijke-rechten-op-onroerende-goederen-vruchtgebruik-opstalrecht-erfpachtrecht
-    datum: '2015-07-08'
-  - titel: Verwerking van verrichtingen voor de verwerving of verkoop van een recht op vruchtgebruik of van naakte eigendom op materiële vaste activa in de boekhouding van de vruchtgebruiker (de erfpachter, de opstalhouder) en van de naakte eigenaar (de grondeigenaa
-    url: https://www.cbn-cnc.be/nl/adviezen/verwerking-van-verrichtingen-voor-de-verwerving-of-verkoop-van-een-recht-op-vruchtgebruik
-    datum: '1991-03-01'
-  - titel: Boekhoudkundige verwerking van erfpachtcontracten in not-for-profit-organisaties
-    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-erfpachtcontracten-in-not-for-profit-organisaties
-    datum: '2008-07-23'
 ---
 
 # CBN-advies 2017/14 – Verenigingen en Stichtingen – Verwerving door de erfpacht-houder van het met een erfpacht bezwaard onroerend goed (verwerving tréfonds) – Hereniging van het eigendomsrecht
@@ -84,8 +84,7 @@ De Commissie neemt geen standpunt in over de fiscale gevolgen van de beschreven 
 
 Bij de verwerving van de tréfonds kunnen grosso modo de volgende situaties voorkomen.
 
-5.1 De verwerving van de tréfonds vindt plaats tegen een marktconforme vergoeding waarbij: 
-
+5.1 De verwerving van de tréfonds vindt plaats tegen een marktconforme vergoeding waarbij:
 a. de symbolische erfpachtvergoeding integraal werd vooruitbetaald; 
 
 b. de symbolische erfpachtvergoeding periodiek wordt betaald; 
@@ -94,8 +93,7 @@ c. een marktconforme erfpachtvergoeding integraal werd vooruitbetaald;
 
 d. een marktconforme erfpachtvergoeding periodiek wordt betaald.
 
-5.2 De verwerving van de tréfonds vindt plaats tegen een symbolische vergoeding waarbij: 
-
+5.2 De verwerving van de tréfonds vindt plaats tegen een symbolische vergoeding waarbij:
 a. de symbolische erfpachtvergoeding integraal werd vooruitbetaald; 
 
 b. de symbolische erfpachtvergoeding periodiek wordt betaald; 
@@ -122,13 +120,13 @@ De Commissie brengt in herinnering dat iedere waardering moet gebeuren met inach
 
 #### Invloed van de vooraf bestaande erfpachtovereenkomst die is afgesloten voor een symbolische waarde of voor een waarde die lager is dan de marktwaarde op de waardering van de verworven tréfonds
 
-De verwerving van de tréfonds moet, behoudens in het geval waarin sprake is van een *getrapte[^8] * overdracht van de volle eigendom, afzonderlijk van de voorafgaande vestiging van het erfpachtrecht worden beoordeeld. De verwerving van de tréfonds staat aldus los van de voorafgaande vestiging van het erfpachtrecht en wordt ook in boekhoudkundig opzicht afzonderlijk beoordeeld.
+De verwerving van de tréfonds moet, behoudens in het geval waarin sprake is van een *getrapte[^8]*  overdracht van de volle eigendom, afzonderlijk van de voorafgaande vestiging van het erfpachtrecht worden beoordeeld. De verwerving van de tréfonds staat aldus los van de voorafgaande vestiging van het erfpachtrecht en wordt ook in boekhoudkundig opzicht afzonderlijk beoordeeld.
 
 Het eigendomsrecht, nadat het werd gesplitst over de erfpachthouder en de erfpachtgever wordt gevolgd door een latere hereniging in de handen van de erfpachthouder wegens uitdoving[^9] van het erfpachtrecht door vermenging. De hereniging van het eigendomsrecht wordt hierbij verklaard als het gevolg van de uitdoving van het erfpachtrecht zonder dat sprake is van een getrapte verwerving van de volle eigendom.
 
 Aangezien de verwerving van de tréfonds en de vestiging van het erfpachtrecht als twee afzonderlijke verrichtingen moeten worden beschouwd, moet ook in boekhoudkundig opzicht een verschillende verwerking worden toegepast bij het sluiten van de erfpachtovereenkomst enerzijds, en bij de latere verwerving van de tréfonds anderzijds. Dientengevolge wordt, volgens de Commissie, voor de boekhoudkundige waardering bij de verwerving van de tréfonds geen rekening gehouden met de waarde van het erfpachtrecht en dit ongeacht of een vergoeding werd betaald aan marktvoorwaarden of aan een zeer lage of symbolische waarde.
 
-De erfpachtvergoeding - eenmalig of periodiek - die wordt betaald in uitvoering van de erfpachtovereenkomst, is immers enkel een vergoeding voor het gebruik van het goed en vormt *a priori *geen voorschot op de prijs die moet worden betaald ingeval van een latere verwerving van de tréfonds. De waardering van de tréfonds moet bijgevolg plaatsvinden zonder aftrek van het al dan niet symbolische bedrag dat wordt betaald als vergoeding.
+De erfpachtvergoeding - eenmalig of periodiek - die wordt betaald in uitvoering van de erfpachtovereenkomst, is immers enkel een vergoeding voor het gebruik van het goed en vormt *a priori* geen voorschot op de prijs die moet worden betaald ingeval van een latere verwerving van de tréfonds. De waardering van de tréfonds moet bijgevolg plaatsvinden zonder aftrek van het al dan niet symbolische bedrag dat wordt betaald als vergoeding.
 
 De Commissie merkt hierbij op dat indien de tréfonds zou worden verworven door een vzw die niet de hoedanigheid heeft van erfpachthouder[^10], bij de waardering van de tréfonds in hoofde van deze vzw zeker rekening zou moeten worden gehouden met de bezwaring die op het onroerend goed rust door het verderlopen van de erfpachtovereenkomst ten gunste van een derde.
 
@@ -164,9 +162,7 @@ De gebouwen die daarentegen reeds bestonden[^16] bij de afsluiting van de erfpac
 
 Een vzw heeft destijds een erfpacht op een terrein verworven tegen een symbolische vergoeding die in kosten[^17] werd geboekt. Deze vzw verwerft vervolgens de tréfonds mits een symbolische betaling van 5. De tréfonds heeft een marktwaarde van 100.
 
-**Boeking bij de verwerving van de tréfonds**
-
- [^18]
+## Boeking bij de verwerving van de tréfonds
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
@@ -192,14 +188,14 @@ Een vzw heeft destijds een erfpachtrecht op een terrein verworven tegen een éé
 | | 2230 | Overige zakelijke rechten op onroerende goederen: Aanschaffingswaarde | 100 | |
 | aan | 5500 | Kredietinstellingen: rekening-courant | | 100 |
 
-**Boeking van de jaarlijkse afschrijving**
+## Boeking van de jaarlijkse afschrijving
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 6302 | Afschrijvingen op materiële vaste activa | x | |
 | aan | 2239 | Overige zakelijke rechten op onroerende goederen: Geb. afschr. | | x |
 
-**Boekingen bij de verwerving van de tréfonds**
+## Boekingen bij de verwerving van de tréfonds
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
@@ -228,14 +224,12 @@ Een vzw heeft destijds een erfpacht op een terrein verworven tegen betaling van 
 
 Deze vzw heeft gebouwen opgericht voor een aanschaffingswaarde van 200. Deze gebouwen worden lineair afgeschreven over een periode van 20 jaar. Na vijf jaar bedraagt de restwaarde van deze gebouwen in hoofde van de erfpachthouder aldus 150. De vzw verwerft na deze vijf jaar (dus tijdens de looptijd van de erfpacht) de tréfonds tegen een symbolische vergoeding van 5. De tréfonds heeft een marktwaarde van 100.
 
-**Boekingen bij de verwerving van de tréfonds**
+## Boekingen bij de verwerving van de tréfonds
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 22110 | Gebouwen die volle eigendom zijn van de vereniging | 200 | |
 | aan | 22120 | Overige gebouwen | | 200 |
-
-[^22]
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|

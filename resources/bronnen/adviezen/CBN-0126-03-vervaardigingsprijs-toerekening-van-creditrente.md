@@ -1,64 +1,64 @@
 ---
-nummer: CBN-advies 126/3
-datum: 1986-01-01
-themas:
-  - toerekening van kosten en opbrengsten
-  - vervaardigingsprijs
-  - voorschot
 bron: https://www.cbn-cnc.be/nl/adviezen/vervaardigingsprijs-toerekening-van-creditrente
+datum: 1986-01-01
+gerelateerde_adviezen:
+  - datum: '2016-07-06'
+    titel: 'Verenigingen en Stichtingen: roerende voorheffing'
+    url: https://www.cbn-cnc.be/nl/adviezen/verenigingen-en-stichtingen-roerende-voorheffing
+  - datum: '1995-03-01'
+    titel: Boekhoudkundige verwerking van verrichtingen afgesloten onder opschortende voorwaarde
+    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-verrichtingen-afgesloten-onder-opschortende-voorwaarde
+  - datum: '1990-06-01'
+    titel: Boeking van de prorata van gelopen interest op obligaties en kasbons
+    url: https://www.cbn-cnc.be/nl/adviezen/boeking-van-de-prorata-van-gelopen-interest-op-obligaties-en-kasbons
+  - datum: '1993-12-01'
+    titel: Actuarieel rendement op vastrentende effecten - Aanpassing van de adviezen 137/5 en 148/4
+    url: https://www.cbn-cnc.be/nl/adviezen/actuarieel-rendement-op-vastrentende-effecten-aanpassing-van-de-adviezen-1375-en-1484
+nummer: CBN-advies 126/3
 provenance:
+  generated_at: '2026-05-11T13:05:05Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/vervaardigingsprijs-toerekening-van-creditrente
       sha256: c0be8b50c0783a49b530949e9774a323bc28b67bbc3d68f1f7c3ece3584e95ac
       version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:34:36Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
   trust:
-    status: needs-rework
     confirmed_at: '2026-05-11T11:57:45Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "D4: twee regels (65 en 71) bevatten malgevormde italic-opmaak waarbij de sluitende asterisk wordt voorafgegaan door een spatie ('*Wijziging in de voorraad... *, zonder' en '*Wijziging in de bestellingen in uitvoering *(717)') — in CommonMark sluit dit de italic niet. De gebruikte termen zijn boekhoudkundige rubrieksnamen die italics verdienen, maar de opmaak is fout. Eén voetnoot correct. Rest inhoudelijk volledig."
     layer1:
       status: pass
-      run_id: 20260511-083333
-      run_at:
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:25Z'
       heading_count: 0
       max_section_chars: 4208
       file_size_chars: 4208
       flags: []
     layer2:
-      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T11:57:45Z'
-      rationale: "D4: twee regels (65 en 71) bevatten malgevormde italic-opmaak waarbij de sluitende asterisk wordt voorafgegaan door een spatie ('*Wijziging in de voorraad... *, zonder' en '*Wijziging in de bestellingen in uitvoering *(717)') — in CommonMark sluit dit de italic niet. De gebruikte termen zijn boekhoudkundige rubrieksnamen die italics verdienen, maar de opmaak is fout. Eén voetnoot correct. Rest inhoudelijk volledig."
       concrete_problemen:
-        - regel: 65
-          categorie: D4
+        - categorie: D4
+          regel: 65
           type: other
           voorbeeld: via de rubriek *Wijziging in de voorraad goederen in bewerking en gereed produkt...*, zonder
-        - regel: 71
-          categorie: D4
+        - categorie: D4
+          regel: 71
           type: other
           voorbeeld: via de rekening *Wijziging in de bestellingen in uitvoering *(717)
-gerelateerde_adviezen:
-  - titel: 'Verenigingen en Stichtingen: roerende voorheffing'
-    url: https://www.cbn-cnc.be/nl/adviezen/verenigingen-en-stichtingen-roerende-voorheffing
-    datum: '2016-07-06'
-  - titel: Boekhoudkundige verwerking van verrichtingen afgesloten onder opschortende voorwaarde
-    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-verrichtingen-afgesloten-onder-opschortende-voorwaarde
-    datum: '1995-03-01'
-  - titel: Boeking van de prorata van gelopen interest op obligaties en kasbons
-    url: https://www.cbn-cnc.be/nl/adviezen/boeking-van-de-prorata-van-gelopen-interest-op-obligaties-en-kasbons
-    datum: '1990-06-01'
-  - titel: Actuarieel rendement op vastrentende effecten - Aanpassing van de adviezen 137/5 en 148/4
-    url: https://www.cbn-cnc.be/nl/adviezen/actuarieel-rendement-op-vastrentende-effecten-aanpassing-van-de-adviezen-1375-en-1484
-    datum: '1993-12-01'
+      rationale: 'D4: twee regels (65 en 71) bevatten malgevormde italic-opmaak waarbij de sluitende asterisk wordt voorafgegaan door een spatie (''*Wijziging in de voorraad... *, zonder'' en ''*Wijziging in de bestellingen in uitvoering *(717)'') — in CommonMark sluit dit de italic niet. De gebruikte termen zijn boekhoudkundige rubrieksnamen die italics verdienen, maar de opmaak is fout. Eén voetnoot correct. Rest inhoudelijk volledig.'
+      run_at: '2026-05-11T11:57:45Z'
+      status: needs-rework
+    rationale: 'D4: twee regels (65 en 71) bevatten malgevormde italic-opmaak waarbij de sluitende asterisk wordt voorafgegaan door een spatie (''*Wijziging in de voorraad... *, zonder'' en ''*Wijziging in de bestellingen in uitvoering *(717)'') — in CommonMark sluit dit de italic niet. De gebruikte termen zijn boekhoudkundige rubrieksnamen die italics verdienen, maar de opmaak is fout. Eén voetnoot correct. Rest inhoudelijk volledig.'
+    status: needs-rework
+themas:
+  - toerekening van kosten en opbrengsten
+  - vervaardigingsprijs
+  - voorschot
 ---
 
 # CBN-advies 126/3 - Vervaardigingsprijs : toerekening van creditrente
@@ -76,7 +76,7 @@ De Commissie is evenwel van oordeel dat, indien de onderneming bij de bepaling v
 
 In dat geval kan deze rente niet zonder meer als een opbrengst worden geboekt zonder enig verband met het resultaat op de bestelling en met het ogenblik waarop dit resultaat als gerealiseerd wordt beschouwd. Het boeken van deze rente als een financiële opbrengst zonder meer zou inderdaad neerkomen op een winstanticipatie ten aanzien van het resultaat op de bestelling, ongeacht overigens de methode die de onderneming toepast bij de inwinstneming op de bestellingen in uitvoering (gespreide inwinstneming of uitstel van de winst tot bij de voltooiing van het werk). 
 
-In zulk geval lijkt het haar derhalve toelaatbaar dat, met toepassing van artikel 16 van het koninklijk besluit van 8 oktober 1976, krachtens hetwelk in uitzonderlijke gevallen van de in het besluit bepaalde waarderingsregels kan worden afgeweken wanneer het vereiste van het getrouwe beeld zulks vergt, de onderneming met de op de resultatenrekening (rekening 75) geboekte creditrente zou rekening houden bij de bepaling van de waarde van de voorraden of van de bestellingen in uitvoering. Zulks zou geschieden door overboeking van eenzelfde bedrag ten laste van de resultatenrekening, via de rekening *Wijziging in de bestellingen in uitvoering *(717). 
+In zulk geval lijkt het haar derhalve toelaatbaar dat, met toepassing van artikel 16 van het koninklijk besluit van 8 oktober 1976, krachtens hetwelk in uitzonderlijke gevallen van de in het besluit bepaalde waarderingsregels kan worden afgeweken wanneer het vereiste van het getrouwe beeld zulks vergt, de onderneming met de op de resultatenrekening (rekening 75) geboekte creditrente zou rekening houden bij de bepaling van de waarde van de voorraden of van de bestellingen in uitvoering. Zulks zou geschieden door overboeking van eenzelfde bedrag ten laste van de resultatenrekening, via de rekening *Wijziging in de bestellingen in uitvoering* (717). 
 
 De beperking van artikel 16 van het koninklijk besluit van 8 oktober 1976 tot de «uitzonderingsgevallen» heeft tot gevolg dat daarvan slechts mag worden gebruik gemaakt mits een aantal voorwaarden vervuld zijn, zoals de omvang van de bestelling en de duur van de uitvoering ervan; ook moet de creditrente voortvloeien uit de belegging van de bekomen voorschotten en dus rechtstreeks toerekenbaar zijn aan de betrokken bestelling. 
 

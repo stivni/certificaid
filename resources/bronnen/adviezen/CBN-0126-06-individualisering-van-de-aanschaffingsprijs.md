@@ -1,65 +1,63 @@
 ---
-nummer: CBN-advies 126/6
+bron: https://www.cbn-cnc.be/nl/adviezen/individualisering-van-de-aanschaffingsprijs
 datum: 1988-12-01
+gerelateerde_adviezen:
+  - datum: '2025-06-06'
+    titel: 'Aanschaffingsprijs : bijkomende kosten (update) [ONTWERP]'
+    url: https://www.cbn-cnc.be/nl/adviezen/aanschaffingsprijs-bijkomende-kosten-update-ontwerp
+  - datum: '2017-02-01'
+    titel: 'Invoer: douanerechten en verlegging van de heffing van de btw'
+    url: https://www.cbn-cnc.be/nl/adviezen/invoer-douanerechten-en-verlegging-van-de-heffing-van-de-btw
+  - datum: '2012-10-10'
+    titel: De boekhoudkundige verwerking van immateriële vaste activa
+    url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-immateriele-vaste-activa
+  - datum: '2002-05-01'
+    titel: Bepaling van de aanschaffingswaarde van activa verkregen onder bezwarende titel of om niet
+    url: https://www.cbn-cnc.be/nl/adviezen/bepaling-van-de-aanschaffingswaarde-van-activa-verkregen-onder-bezwarende-titel-of-om-niet
+nummer: CBN-advies 126/6
+provenance:
+  generated_at: '2026-05-11T13:05:05Z'
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/individualisering-van-de-aanschaffingsprijs
+      sha256: 6e700565eb112f2c86e015c9db3299cb25a551c4e7743f73c7274ecbba23ba17
+      version:
+  stale: false
+  stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
+  trust:
+    confirmed_at: '2026-05-11T11:57:45Z'
+    confirmed_by: subagent-sonnet-4-6
+    layer1:
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:25Z'
+      heading_count: 0
+      max_section_chars: 3053
+      file_size_chars: 3053
+      flags: []
+    layer2:
+      agent: subagent-sonnet-4-6
+      concrete_problemen:
+        - categorie: B3
+          regel: 58
+          type: other
+          voorbeeld: '# CBN advies 126-6 - Individualisering van de aanschaffingsprijs (dubbel op regel 58+60)'
+      rationale: 'B3: dubbele page-title-heading op regels 58 en 60 (identieke tekst, duplicate-title-patroon). De rest van de inhoud is correct en volledig afgesloten — enkel de heading-duplicatie is een ETL-bug die eenvoudig te fixen is.'
+      run_at: '2026-05-11T11:57:45Z'
+      status: needs-rework
+    rationale: 'B3: dubbele page-title-heading op regels 58 en 60 (identieke tekst, duplicate-title-patroon). De rest van de inhoud is correct en volledig afgesloten — enkel de heading-duplicatie is een ETL-bug die eenvoudig te fixen is.'
+    status: needs-rework
 themas:
   - aanschaffingsprijs
   - individualisering van de aanschaffingsprijs
   - voorraden
   - waardering
   - waardering van voorraden
-bron: https://www.cbn-cnc.be/nl/adviezen/individualisering-van-de-aanschaffingsprijs
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/individualisering-van-de-aanschaffingsprijs
-      sha256: 6e700565eb112f2c86e015c9db3299cb25a551c4e7743f73c7274ecbba23ba17
-      version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:34:37Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T11:57:45Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: 'B3: dubbele page-title-heading op regels 58 en 60 (identieke tekst, duplicate-title-patroon). De rest van de inhoud is correct en volledig afgesloten — enkel de heading-duplicatie is een ETL-bug die eenvoudig te fixen is.'
-    layer1:
-      status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 0
-      max_section_chars: 3119
-      file_size_chars: 3119
-      flags: []
-    layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T11:57:45Z'
-      rationale: 'B3: dubbele page-title-heading op regels 58 en 60 (identieke tekst, duplicate-title-patroon). De rest van de inhoud is correct en volledig afgesloten — enkel de heading-duplicatie is een ETL-bug die eenvoudig te fixen is.'
-      concrete_problemen:
-        - regel: 58
-          categorie: B3
-          type: other
-          voorbeeld: '# CBN advies 126-6 - Individualisering van de aanschaffingsprijs (dubbel op regel 58+60)'
-gerelateerde_adviezen:
-  - titel: 'Aanschaffingsprijs : bijkomende kosten (update) [ONTWERP]'
-    url: https://www.cbn-cnc.be/nl/adviezen/aanschaffingsprijs-bijkomende-kosten-update-ontwerp
-    datum: '2025-06-06'
-  - titel: 'Invoer: douanerechten en verlegging van de heffing van de btw'
-    url: https://www.cbn-cnc.be/nl/adviezen/invoer-douanerechten-en-verlegging-van-de-heffing-van-de-btw
-    datum: '2017-02-01'
-  - titel: De boekhoudkundige verwerking van immateriële vaste activa
-    url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-immateriele-vaste-activa
-    datum: '2012-10-10'
-  - titel: Bepaling van de aanschaffingswaarde van activa verkregen onder bezwarende titel of om niet
-    url: https://www.cbn-cnc.be/nl/adviezen/bepaling-van-de-aanschaffingswaarde-van-activa-verkregen-onder-bezwarende-titel-of-om-niet
-    datum: '2002-05-01'
 ---
-
-# CBN advies 126-6 - Individualisering van de aanschaffingsprijs
 
 # CBN advies 126-6 - Individualisering van de aanschaffingsprijs
 

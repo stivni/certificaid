@@ -1,63 +1,62 @@
 ---
-nummer: CBN-advies 2016/20 – UPDATE
-datum: 2020-03-12
-themas:
-  - schulden aan de overheid
 bron: https://www.cbn-cnc.be/nl/adviezen/leveranciersschulden-en-schulden-aan-de-overheid-in-het-kader-van-boek-xx-insolventie-van
+datum: 2020-03-12
+gerelateerde_adviezen:
+  - datum: '2016-09-07'
+    titel: Leveranciersschulden en schulden aan de overheid in het kader van een WCO
+    url: https://www.cbn-cnc.be/nl/adviezen/leveranciersschulden-en-schulden-aan-de-overheid-in-het-kader-van-een-wco
+nummer: CBN-advies 2016/20 – UPDATE
 provenance:
+  generated_at: '2026-05-11T13:05:08Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/leveranciersschulden-en-schulden-aan-de-overheid-in-het-kader-van-boek-xx-insolventie-van
       sha256: 419a282ec29b37329a6bff8f40a70c1205c9500b9e4de3465addbc4c32628165
       version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:37:04Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
   trust:
-    status: needs-rework
     confirmed_at: '2026-05-11T12:16:34Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "Twee extractie-artefacten: (1) regel 50 heeft een spurious line-break midden in een zin na '[^2]' gevolgd door een spatie en kleine letter (A6); (2) regel 52 heeft '*' met spatie na '[^3]' waardoor de italic-markering niet sluit — het patroon '[^3] * is' is een broken italic (D4). Inhoud is compleet."
     layer1:
       status: pass
-      run_id: 20260511-083333
-      run_at:
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:29Z'
       heading_count: 2
       max_section_chars: 2669
-      file_size_chars: 3807
+      file_size_chars: 3806
       flags: []
     layer2:
-      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:16:34Z'
-      rationale: "Twee extractie-artefacten: (1) regel 50 heeft een spurious line-break midden in een zin na '[^2]' gevolgd door een spatie en kleine letter (A6); (2) regel 52 heeft '*' met spatie na '[^3]' waardoor de italic-markering niet sluit — het patroon '[^3] * is' is een broken italic (D4). Inhoud is compleet."
       concrete_problemen:
-        - regel: 50
-          categorie: A6
+        - categorie: A6
+          regel: 50
           type: other
           voorbeeld: "van het Wetboek van economisch recht[^2]\n kan worden besloten"
-        - regel: 52
-          categorie: D4
+        - categorie: D4
+          regel: 52
           type: other
           voorbeeld: vorderingen[^3] * is duidelijk omtrent de classificatie
-gerelateerde_adviezen:
-  - titel: Leveranciersschulden en schulden aan de overheid in het kader van een WCO
-    url: https://www.cbn-cnc.be/nl/adviezen/leveranciersschulden-en-schulden-aan-de-overheid-in-het-kader-van-een-wco
-    datum: '2016-09-07'
+      rationale: 'Twee extractie-artefacten: (1) regel 50 heeft een spurious line-break midden in een zin na ''[^2]'' gevolgd door een spatie en kleine letter (A6); (2) regel 52 heeft ''*'' met spatie na ''[^3]'' waardoor de italic-markering niet sluit — het patroon ''[^3] * is'' is een broken italic (D4). Inhoud is compleet.'
+      run_at: '2026-05-11T12:16:34Z'
+      status: needs-rework
+    rationale: 'Twee extractie-artefacten: (1) regel 50 heeft een spurious line-break midden in een zin na ''[^2]'' gevolgd door een spatie en kleine letter (A6); (2) regel 52 heeft ''*'' met spatie na ''[^3]'' waardoor de italic-markering niet sluit — het patroon ''[^3] * is'' is een broken italic (D4). Inhoud is compleet.'
+    status: needs-rework
+themas:
+  - schulden aan de overheid
 ---
 
 # CBN-advies 2016/20 – Leveranciersschulden en schulden aan de overheid in het kader van boek XX “Insolventie van ondernemingen” van het Wetboek van economisch recht
 
 ## Inleiding
 
-In het kader van boek XX “Insolventie van ondernemingen” van het Wetboek van economisch recht[^2]
- kan worden besloten dat de leveranciersschulden over meerdere jaren zullen terugbetaald worden. Daarnaast bestaat de mogelijkheid dat tevens de schulden aan de overheid (o.a. btw, bedrijfsvoorheffing, sociale bijdragen, vennootschapsbelasting, …) over meerdere jaren terugbetaald worden.
+In het kader van boek XX “Insolventie van ondernemingen” van het Wetboek van economisch recht[^2] kan worden besloten dat de leveranciersschulden over meerdere jaren zullen terugbetaald worden. Daarnaast bestaat de mogelijkheid dat tevens de schulden aan de overheid (o.a. btw, bedrijfsvoorheffing, sociale bijdragen, vennootschapsbelasting, …) over meerdere jaren terugbetaald worden.
 
-CBN-advies 2011/9 - *Invloed van het buitengerechtelijk minnelijk akkoord en de gerechtelijke reorganisatie op de schulden en vorderingen[^3] * is duidelijk omtrent de classificatie van de handelsschulden tot renteloze schulden die al dan niet terugbetaalbaar zijn over meerdere jaren. Voor wat betreft de schulden met betrekking tot belastingen en sociale lasten werd aan de Commissie gevraagd of deze ook op de lange-termijn dienen te worden gepresenteerd indien deze over verschillende jaren zullen worden terugbetaald ten gevolge een WCO procedure[^4].
+CBN-advies 2011/9 - *Invloed van het buitengerechtelijk minnelijk akkoord en de gerechtelijke reorganisatie op de schulden en vorderingen[^3]*  is duidelijk omtrent de classificatie van de handelsschulden tot renteloze schulden die al dan niet terugbetaalbaar zijn over meerdere jaren. Voor wat betreft de schulden met betrekking tot belastingen en sociale lasten werd aan de Commissie gevraagd of deze ook op de lange-termijn dienen te worden gepresenteerd indien deze over verschillende jaren zullen worden terugbetaald ten gevolge een WCO procedure[^4].
 
 ## Analyse
 

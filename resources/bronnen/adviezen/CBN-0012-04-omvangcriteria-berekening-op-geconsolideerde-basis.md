@@ -2,55 +2,53 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/omvangcriteria-berekening-op-geconsolideerde-basis
 datum: 1985-04-01
 gerelateerde_adviezen:
-- datum: '1986-07-01'
-  titel: Condominium
-  url: https://www.cbn-cnc.be/nl/adviezen/condominium
-- datum: '1986-01-01'
-  titel: Over het begrip verbonden onderneming
-  url: https://www.cbn-cnc.be/nl/adviezen/over-het-begrip-verbonden-onderneming
-- datum: '1979-05-01'
-  titel: Toepassingsgebied van de uitvoeringsbesluiten - Gemiddeld aantal jaarlijks
-    tewerkgestelde personen
-  url: https://www.cbn-cnc.be/nl/adviezen/toepassingsgebied-van-de-uitvoeringsbesluiten-gemiddeld-aantal-jaarlijks-tewerkgestelde
-- datum: '1998-06-01'
-  titel: Effect in de tijd van de verlaging van de vrijstellingscriteria
-  url: https://www.cbn-cnc.be/nl/adviezen/effect-in-de-tijd-van-de-verlaging-van-de-vrijstellingscriteria
+  - datum: '1986-07-01'
+    titel: Condominium
+    url: https://www.cbn-cnc.be/nl/adviezen/condominium
+  - datum: '1986-01-01'
+    titel: Over het begrip verbonden onderneming
+    url: https://www.cbn-cnc.be/nl/adviezen/over-het-begrip-verbonden-onderneming
+  - datum: '1979-05-01'
+    titel: Toepassingsgebied van de uitvoeringsbesluiten - Gemiddeld aantal jaarlijks tewerkgestelde personen
+    url: https://www.cbn-cnc.be/nl/adviezen/toepassingsgebied-van-de-uitvoeringsbesluiten-gemiddeld-aantal-jaarlijks-tewerkgestelde
+  - datum: '1998-06-01'
+    titel: Effect in de tijd van de verlaging van de vrijstellingscriteria
+    url: https://www.cbn-cnc.be/nl/adviezen/effect-in-de-tijd-van-de-verlaging-van-de-vrijstellingscriteria
 nummer: CBN-advies 12/4
 provenance:
-  generated_at: '2026-05-08T18:33:32Z'
+  generated_at: '2026-05-11T13:05:05Z'
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/omvangcriteria-berekening-op-geconsolideerde-basis
-    sha256: 5423d4abd1986e840ece123e53d1deb40b5f016942649440833c0e9be91328be
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/omvangcriteria-berekening-op-geconsolideerde-basis
+      sha256: 5423d4abd1986e840ece123e53d1deb40b5f016942649440833c0e9be91328be
+      version:
   stale: false
-  stale_reason: null
+  stale_reason:
   tooling:
-    model: null
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    prompt_version: null
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
   trust:
     confirmed_at: '2026-05-08T19:02:29Z'
     confirmed_by: subagent-laag2-ronde2
     layer1:
-      file_size_chars: 6814
-      flags: []
-      heading_count: 0
-      max_section_chars: 6814
-      run_at: null
-      run_id: 20260511-083333
       status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:24Z'
+      heading_count: 0
+      max_section_chars: 6812
+      file_size_chars: 6812
+      flags: []
     layer2:
       agent: subagent-laag2-ronde2
       concrete_problemen: []
-      rationale: '[Laag-2-R2 2026-05-08] Volledig met expliciete verouderdheidsmelding
-        — inhoud compleet, geen stille misleiding.'
+      rationale: '[Laag-2-R2 2026-05-08] Volledig met expliciete verouderdheidsmelding — inhoud compleet, geen stille misleiding.'
       run_at: '2026-05-08T19:02:29Z'
       status: trusted
     rationale: Laag-2 trusted door subagent-laag2-ronde2 (zie layer2.rationale)
     status: trusted
 themas:
-- omvangcriteria
+  - omvangcriteria
 ---
 
 # CBN-advies 12-4 - Omvangcriteria ‐ Berekening op geconsolideerde basis
@@ -63,9 +61,9 @@ Op grond van dezelfde criteria werd een onderscheid ingevoerd:
 
 1. inzake de openbaarmakingsregeling voor de jaarrekening van bepaalde categorieën van ondernemingen bedoeld in artikel 10 van het koninklijk besluit van 12 september 1983 tot uitvoering van artikel 10, § 2, van de boekhoudwet; 
 
-2. inzake de verplichting voor de kapitaalvennootschappen om een commissaris‐revisor aan te stellen (nieuw artikel 64, § 2 van de gecoördineerde wetten op de handelsvennootschappen, ingevoegd bij de wet van 21 februari 1985 tot hervorming van het bedrijfsrevisoraat); 
+2. inzake de verplichting voor de kapitaalvennootschappen om een commissaris-revisor aan te stellen (nieuw artikel 64, § 2 van de gecoördineerde wetten op de handelsvennootschappen, ingevoegd bij de wet van 21 februari 1985 tot hervorming van het bedrijfsrevisoraat); 
 
-3. inzake de openbaarmaking van de controle‐ en jaarverslagen bedoeld in de artikelen 65 en 77 van de gecoördineerde wetten op de handelsvennootschappen (gewijzigd bij de wet van 5 december 1984). 
+3. inzake de openbaarmaking van de controle- en jaarverslagen bedoeld in de artikelen 65 en 77 van de gecoördineerde wetten op de handelsvennootschappen (gewijzigd bij de wet van 5 december 1984). 
 
 De criteria die de wet hanteert om een onderneming als klein en middelgroot te beschouwen zijn : het personeelsbestand (50), de jaaromzet, exclusief de belasting over de toegevoegde waarde, (80 miljoen frank) en het balanstotaal (40 miljoen frank). Zodra een onderneming niet meer dan één der voornoemde criteria overschrijdt, wordt zij beschouwd als klein en middelgroot, tenzij het jaargemiddelde van het personeelsbestand meer dan 100 bedraagt (artikel 12, § 2 van de wet van 17 juli 1975). 
 
@@ -73,23 +71,22 @@ De wet geeft de Koning bovendien de bevoegdheid te bepalen op welke wijze deze c
 
 Artikel 12, § 2 van dit besluit zegt : «Als de onderneming met één of meer andere ondernemingen verbonden is in de zin van het koninklijk besluit van 8 oktober 1976 opde jaarrekening van de ondernemingen, worden de criteria inzake omzet en balanstotaal bedoeld in artikel 12, § 2 (van hogergenoemde wet), berekend op geconsolideerde basis. Wat het criterium personeelsbestand betreft wordt het aantal werknemers opgeteld dat door elk van de betrokken verbonden onderemingen jaarlijks gemiddeld wordt tewerkgesteld». 
 
-Deze bepaling is de bestuursrechtelijke uitvoering van de intentie van de Regering (cf. Memorie van toelichting bij het wetsontwerp tot wijziging van de boekhoudwet ‐ Doc. Kamer van Volksvertegenwoordigers, zittijd 1980‐1981, nr. 925/1, p. 6) om, in verband met de soepeler regeling ten gunste van kleine en middelgrote ondernemingen, eerder oog te hebben voor de echte kleine en middelgrote ondernemingen, met uitsluiting van kleine ondernemingen opgericht of geïntegreerd in een grote groep van vennootschappen (cf. Verslag aan de Koning dat het voornoemde besluit van 12 september 1983 voorafgaat, p. 2). 
+Deze bepaling is de bestuursrechtelijke uitvoering van de intentie van de Regering (cf. Memorie van toelichting bij het wetsontwerp tot wijziging van de boekhoudwet - Doc. Kamer van Volksvertegenwoordigers, zittijd 1980-1981, nr. 925/1, p. 6) om, in verband met de soepeler regeling ten gunste van kleine en middelgrote ondernemingen, eerder oog te hebben voor de echte kleine en middelgrote ondernemingen, met uitsluiting van kleine ondernemingen opgericht of geïntegreerd in een grote groep van vennootschappen (cf. Verslag aan de Koning dat het voornoemde besluit van 12 september 1983 voorafgaat, p. 2). 
 
 Over de interpretatie van deze regel werden aan de Commissie verschillende vragen gesteld, in het bijzonder over de ondernemingen die bedoeld worden en over de berekeningswijze op geconsolideerde basis. 
 
-1. In verband met de bedoelde ondernemingen zij er vooreerst op gewezen dat de bepaling over de berekening van de criteria op gconsolideerde basis, geldt voor elke door de boekhoudwet bedoelde onderneming die een verbonden onderneming is. Bijgevolg is zij niet alleen van toepassing op elke ‐ in België of in het buitenland gevestigde ‐ toponderneming van een groep, maar ook op de dochtervennootschappen. Voor het begrip verbonden onderneming moet, krachtens voornoemd artikel 12, § 2, worden verwezen naar de omschrijving in het koninklijk besluit van 8 oktober 1976. Over dit begrip verschenen reeds twee adviezen van de Commissie, in het Bulletin nr. 4, p. 20 en nr. 6, p. 11. In dit verband zij erop gewezen dat een onderneming naar buitenlandse recht ten overstaan van haar in België gevestigde bijkatoren en centra van werkzaamheden, met een verbonden onderneming wordt gelijkgesteld. 
+1. In verband met de bedoelde ondernemingen zij er vooreerst op gewezen dat de bepaling over de berekening van de criteria op gconsolideerde basis, geldt voor elke door de boekhoudwet bedoelde onderneming die een verbonden onderneming is. Bijgevolg is zij niet alleen van toepassing op elke - in België of in het buitenland gevestigde - toponderneming van een groep, maar ook op de dochtervennootschappen. Voor het begrip verbonden onderneming moet, krachtens voornoemd artikel 12, § 2, worden verwezen naar de omschrijving in het koninklijk besluit van 8 oktober 1976. Over dit begrip verschenen reeds twee adviezen van de Commissie, in het Bulletin nr. 4, p. 20 en nr. 6, p. 11. In dit verband zij erop gewezen dat een onderneming naar buitenlandse recht ten overstaan van haar in België gevestigde bijkatoren en centra van werkzaamheden, met een verbonden onderneming wordt gelijkgesteld. 
 
 2. Wat de berekeningswijze van de criteria betreft blijkt de optelling van het aantal werknemers dat door alle verbonden ondernmingen jaarlijks gemiddeld wordt tewerkgesteld, geen interpretatiemoeilijkheden op te leveren. 
 
-Wat de berekening op geconsolideerde basis van omzet en balanstotaal betreft moet, naar het oordeel van de Commissie, verwezen worden naar de algemeen aanvaarde consolidatiebeginselen, zoals zij met name in de zevende E.G.‐richtlijn zijn verwoord. 
+Wat de berekening op geconsolideerde basis van omzet en balanstotaal betreft moet, naar het oordeel van de Commissie, verwezen worden naar de algemeen aanvaarde consolidatiebeginselen, zoals zij met name in de zevende E.G.-richtlijn zijn verwoord. 
 
 Krachtens deze beginselen hoort, bij een deelneming van meer dan 50 %, volledig te worden geconsolideerd; dit betekent dat, onder voorbehoud van het «wegvallen» van onderlinge vorderingen en schulden, kosten en opbrengsten uit transacties tussen in de consolidatie opgenomen ondernemingen en de interne relaties op het vlak vandeelneming en eigen vermogen, alle activa en passiva, alle opbrengsten, worden opgeteld. Bijgevolg wordt bij een deelneming van 60 % de omzet van de dochter volledig, dus niet naar rato van 60 %, in de consolidatie opgenomen, onverminderd uiteraard de aftrek van de intergroepsomzet. 
 
 Evenredige consolidatie is evenwel toegestaan, wanneer een onderneming gezamenlijk wordt bestuurd door een in de consolidatie opgenomen onderneming en een onderneming die nit tot de groep behoort. In dit geval mag zij in de geconsolideerde jaarrekening worden opgenomen naar rato van de deelneming van de in de consolidatieopgenomen vennootschap in het kapitaal van de betrokken onderneming (artikel 32 van de zevende richtlijn). 
 
-Bij deelnemingen van minder dan 50 %, geldt als regel de equivalentieberekening. De beginselen van deze methode worden uiteengezet in artikel 59 van de vierde richtlijn en in artikel 33 van de zevende richtljn, waarnaar dan ook wordt verwezen. Er zij op gewezen dat de equivalentieberekening van dergelijke minderheidsdeelnemingen in beginsel[^1]
-  geen weerslag heeft op de geconsolideerde omzet, wel op het geconsolideerde balanstotaal inzover de waarde van de deelneming na equivalentieberekening, verschilt van de waarde waarvoor zij geboekt staat ten aanzien van de vennootschap die ze bezit. 
+Bij deelnemingen van minder dan 50 %, geldt als regel de equivalentieberekening. De beginselen van deze methode worden uiteengezet in artikel 59 van de vierde richtlijn en in artikel 33 van de zevende richtljn, waarnaar dan ook wordt verwezen. Er zij op gewezen dat de equivalentieberekening van dergelijke minderheidsdeelnemingen in beginsel[^1] geen weerslag heeft op de geconsolideerde omzet, wel op het geconsolideerde balanstotaal inzover de waarde van de deelneming na equivalentieberekening, verschilt van de waarde waarvoor zij geboekt staat ten aanzien van de vennootschap die ze bezit. 
 
 Ten slotte weze eraan herinnerd dat de berekening op geconsolideerde basis van de criteria inzake kleine en middelgrote onderneingen, pas voor het eerst van toepassing is bij het begin van het boekjaar dat na 31 december 1983 aanvangt.
 
-[^1]: Men raadplege evenwel artikel 59, § 7 van de vierde en artikel 33, § 7 van de zevende E.G.‐richtlijn.
+[^1]: Men raadplege evenwel artikel 59, § 7 van de vierde en artikel 33, § 7 van de zevende E.G.-richtlijn.

@@ -1,6 +1,55 @@
 ---
-nummer: CBN-advies 2013/17
+bron: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-met-betrekking-tot-de-toepassing-van-de-overgangsregeling
 datum: 2013-11-27
+gerelateerde_adviezen:
+  - datum: '2022-09-19'
+    titel: Boekhoudkundige verwerking van splitsingen van vennootschappen
+    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-splitsingen-van-vennootschappen
+nummer: CBN-advies 2013/17
+provenance:
+  generated_at: '2026-05-11T13:05:08Z'
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-met-betrekking-tot-de-toepassing-van-de-overgangsregeling
+      sha256: 1a6411054d36a7a026011c946b13ba3d5f0e4b599782ecd7277c8c295fbb3907
+      version:
+  stale: false
+  stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
+  trust:
+    confirmed_at: '2026-05-11T12:16:34Z'
+    confirmed_by: subagent-sonnet-4-6
+    layer1:
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:29Z'
+      heading_count: 12
+      max_section_chars: 8747
+      file_size_chars: 16903
+      flags: []
+    layer2:
+      agent: subagent-sonnet-4-6
+      concrete_problemen:
+        - categorie: D4
+          regel: 93
+          type: other
+          voorbeeld: 489X *Ontvangen voorschotten op kapitaal *plaatsvinden.
+        - categorie: D4
+          regel: 126
+          type: other
+          voorbeeld: '*Boeking bij de betaalbaarstelling[^8] *'
+        - categorie: D4
+          regel: 89
+          type: other
+          voorbeeld: 489X O*ntvangen voorschotten op kapitaal* (open-asterisk zonder spatie voor 'n')
+      rationale: 'D4: meerdere malformed italic-markers met spatie vóór sluit-asterisk op regels 93, 126 en 89 (''489X *Ontvangen voorschotten op kapitaal *'', ''*Boeking bij de betaalbaarstelling[^8] *''). Dit is het bekende ''*term *''-patroon. De inhoud is volledig en de tabellen zijn correct.'
+      run_at: '2026-05-11T12:16:34Z'
+      status: needs-rework
+    rationale: 'D4: meerdere malformed italic-markers met spatie vóór sluit-asterisk op regels 93, 126 en 89 (''489X *Ontvangen voorschotten op kapitaal *'', ''*Boeking bij de betaalbaarstelling[^8] *''). Dit is het bekende ''*term *''-patroon. De inhoud is volledig en de tabellen zijn correct.'
+    status: needs-rework
 themas:
   - belaste reserves
   - belastingen op het resultaat
@@ -10,55 +59,6 @@ themas:
   - kapitaalverhoging
   - liquidatiebonus
   - roerende voorheffing
-bron: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-met-betrekking-tot-de-toepassing-van-de-overgangsregeling
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-met-betrekking-tot-de-toepassing-van-de-overgangsregeling
-      sha256: 1a6411054d36a7a026011c946b13ba3d5f0e4b599782ecd7277c8c295fbb3907
-      version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:36:43Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T12:16:34Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "D4: meerdere malformed italic-markers met spatie vóór sluit-asterisk op regels 93, 126 en 89 ('489X *Ontvangen voorschotten op kapitaal *', '*Boeking bij de betaalbaarstelling[^8] *'). Dit is het bekende '*term *'-patroon. De inhoud is volledig en de tabellen zijn correct."
-    layer1:
-      status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 12
-      max_section_chars: 8755
-      file_size_chars: 16912
-      flags: []
-    layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:16:34Z'
-      rationale: "D4: meerdere malformed italic-markers met spatie vóór sluit-asterisk op regels 93, 126 en 89 ('489X *Ontvangen voorschotten op kapitaal *', '*Boeking bij de betaalbaarstelling[^8] *'). Dit is het bekende '*term *'-patroon. De inhoud is volledig en de tabellen zijn correct."
-      concrete_problemen:
-        - regel: 93
-          categorie: D4
-          type: other
-          voorbeeld: 489X *Ontvangen voorschotten op kapitaal *plaatsvinden.
-        - regel: 126
-          categorie: D4
-          type: other
-          voorbeeld: '*Boeking bij de betaalbaarstelling[^8] *'
-        - regel: 89
-          categorie: D4
-          type: other
-          voorbeeld: 489X O*ntvangen voorschotten op kapitaal* (open-asterisk zonder spatie voor 'n')
-gerelateerde_adviezen:
-  - titel: Boekhoudkundige verwerking van splitsingen van vennootschappen
-    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-splitsingen-van-vennootschappen
-    datum: '2022-09-19'
 ---
 
 # CBN-advies 2013/17 - De boekhoudkundige verwerking met betrekking tot de toepassing van de overgangsregeling zoals vermeld in artikel 537 WIB 92
@@ -67,8 +67,7 @@ gerelateerde_adviezen:
 
 De Commissie beoogt met onderhavig advies een uniforme boekhoudkundige verwerking uit te werken voor de overgangsregeling vermeld in artikel 537 WIB 92. Met betrekking tot deze overgangsregeling werd door de Federale overheidsdienst Financiën een circulaire Ci.RH.233/629.295 van 01.10.2013 en een addendum van 13.11.2013 bij deze circulaire van Ci.RH.233/629.295 uitgebracht. 
 
-Deze in artikel 537 WIB 92 vermelde regeling bestaat uit een dividenduitkering die overeenkomt met de vermindering van de belaste reserves[^2]
- zoals die ten laatste op 31 maart 2013 zijn goedgekeurd door de algemene vergadering op voorwaarde en in de mate dat minstens het verkregen bedrag (i) onmiddellijk wordt opgenomen in het kapitaal, en (ii) dat deze opneming plaatsvindt tijdens het belastbaar tijdperk dat afsluit vóór 1 oktober 2014 (hierna Verrichting). 
+Deze in artikel 537 WIB 92 vermelde regeling bestaat uit een dividenduitkering die overeenkomt met de vermindering van de belaste reserves[^2] zoals die ten laatste op 31 maart 2013 zijn goedgekeurd door de algemene vergadering op voorwaarde en in de mate dat minstens het verkregen bedrag (i) onmiddellijk wordt opgenomen in het kapitaal, en (ii) dat deze opneming plaatsvindt tijdens het belastbaar tijdperk dat afsluit vóór 1 oktober 2014 (hierna Verrichting). 
 
 De Commissie wenst te benadrukken dat onderhavig advies strikt beperkt is tot de boekhoudkundige aspecten van de Verrichting en geenszins betrekking heeft op de fiscale aspecten. 
 
@@ -90,19 +89,19 @@ De eis tot onmiddellijke volstorting moet worden voldaan rekening houdend met de
 
 De Commissie meent dat de aanwezigheid van bovenvermeld bewijskrachtig element (zie supra, randnummer 6) rechtvaardigt dat de rekening 471 *Dividenden over het boekjaar* wordt gedebiteerd en een subrekening van 489 *Andere diverse schulden* voor hetzelfde bedrag worden gecrediteerd. Aan deze laatste subrekening wordt dan een gepaste benaming gegeven, bijvoorbeeld 489X *Ontvangen voorschotten op kapitaal*.
 
-Bij de latere formele kapitaalverhoging zal vervolgens de rekening 489X *Ontvangen voorschotten op kapitaal* worden gedebiteerd en zal de rekening 100 *Geplaatst kapitaal[^3] * gecrediteerd worden.
+Bij de latere formele kapitaalverhoging zal vervolgens de rekening 489X *Ontvangen voorschotten op kapitaal* worden gedebiteerd en zal de rekening 100 *Geplaatst kapitaal[^3]*  gecrediteerd worden.
 
 De onmiddellijke creditering van de rekening 489X *Ontvangen voorschotten op kapitaal* is de boekhoudkundige uitdrukking van de onvoorwaardelijke en onherroepelijke beslissing van de aandeelhouder om het verkregen bedrag aan te wenden voor de volstorting van een inbreng in kapitaal[^4].
 
 ### Onmiddellijke inbreng in geld
 
-De vennootschap kan, op vraag van en mits de onvoorwaardelijke en onherroepelijke beslissing van de aandeelhouder, het netto uit te betalen bedrag rechtstreeks storten op een geblokkeerde rekening van de vennootschap in naam en voor rekening van die aandeelhouder. Indien een uitbetaling heeft plaatsgevonden door storting op deze geblokkeerde bankrekening van de vennootschap, dan wordt de rekening 471 *Dividenden over het boekjaar* gedebiteerd ten opzichte van de creditering van de rekening 5500 *Kredietinstellingen: Rekening-courant*. Vervolgens wordt een rekening 5500X *Kredietinstellingen: geblokkeerde bankrekening* gedebiteerd ten opzichte van een rekening 489X *Ontvangen voorschotten op kapitaal*. 
+De vennootschap kan, op vraag van en mits de onvoorwaardelijke en onherroepelijke beslissing van de aandeelhouder, het netto uit te betalen bedrag rechtstreeks storten op een geblokkeerde rekening van de vennootschap in naam en voor rekening van die aandeelhouder. Indien een uitbetaling heeft plaatsgevonden door storting op deze geblokkeerde bankrekening van de vennootschap, dan wordt de rekening 471 *Dividenden over het boekjaar* gedebiteerd ten opzichte van de creditering van de rekening 5500 *Kredietinstellingen: Rekening-courant*. Vervolgens wordt een rekening 5500X* Kredietinstellingen: geblokkeerde bankrekening* gedebiteerd ten opzichte van een rekening 489X *Ontvangen voorschotten op kapitaal*. 
 
 Bij de latere formele kapitaalverhoging zal vervolgens de rekening 489X O*ntvangen voorschotten op kapitaal* worden gedebiteerd en zal de rekening 100* Geplaatst kapitaal[^5] * gecrediteerd worden.
 
 Ook hier is de creditering van de rekening 489X *Ontvangen voorschotten op kapitaal* de boekhoudkundige uitdrukking van de onherroepelijke en onvoorwaardelijke beslissing van de aandeelhouder om het verkregen bedrag aan te wenden voor de volstorting van een inbreng in kapitaal.
 
-Indien de aandeelhouder niet binnen een gepaste termijn zijn onvoorwaardelijke en onherroepelijke beslissing kenbaar maakt om de dividenduitkering aan te wenden om in tekenen op de kapitaalverhoging, zal geen boeking op een rekening 489X *Ontvangen voorschotten op kapitaal *plaatsvinden.
+Indien de aandeelhouder niet binnen een gepaste termijn zijn onvoorwaardelijke en onherroepelijke beslissing kenbaar maakt om de dividenduitkering aan te wenden om in tekenen op de kapitaalverhoging, zal geen boeking op een rekening 489X *Ontvangen voorschotten op kapitaal* plaatsvinden.
 
 ## Antimisbruikbepalingen vermeld in artikel 537 WIB 92
 
@@ -113,8 +112,6 @@ Als de onderneming binnen een bepaalde periode na de Verrichting overgaat tot ee
 ## Voorbeelden
 
 Hierna volgen een aantal voorbeelden waarbij wordt uitgegaan van verschillende gevallen. Bij deze boekingen wordt de onttrekking aan het eigen vermogen voorafgaand aan de eigenlijke resultaatbestemming buiten beschouwing gelaten[^6]. Het betreft de boekingen van het type:
-
- [^7]
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
@@ -135,7 +132,7 @@ De vennootschap beslist tot een uitkering in contanten. De vennootschap stort he
 | | 694 | Vergoeding van het kapitaal | | |
 | aan | 471 | Dividenden over het boekjaar | | |
 
-*Boeking bij de betaalbaarstelling[^8] *
+*Boeking bij de betaalbaarstelling[^8]* 
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
@@ -240,8 +237,7 @@ Aangezien de bedoelde belaste reserves vervat zitten in het maatschappelijk kapi
 | | 133 | Beschikbare reserves | | |
 | aan | 792 | Onttrekking aan de reserves | | |
 
-Evenwel, aangezien er enige tijd zal zijn verlopen tussen enerzijds de datum van de balans die ten laatste op 31 maart 2013 is goedgekeurd door de algemene vergadering en anderzijds de datum waarop de Verrichting wordt uitgevoerd, bestaat de mogelijkheid dat de vennootschap op het moment van de Verrichting beschikt over voldoende beschikbare eigenvermogensbestanddelen[^9]
- om de Verrichting uit te voeren zonder eerst te moeten overgaan tot een kapitaalvermindering. Voor het boeken van de Verrichting wordt verwezen naar de voorgaande titels II. en III. 
+Evenwel, aangezien er enige tijd zal zijn verlopen tussen enerzijds de datum van de balans die ten laatste op 31 maart 2013 is goedgekeurd door de algemene vergadering en anderzijds de datum waarop de Verrichting wordt uitgevoerd, bestaat de mogelijkheid dat de vennootschap op het moment van de Verrichting beschikt over voldoende beschikbare eigenvermogensbestanddelen[^9] om de Verrichting uit te voeren zonder eerst te moeten overgaan tot een kapitaalvermindering. Voor het boeken van de Verrichting wordt verwezen naar de voorgaande titels II. en III. 
 
 [^1]: Onderhavig advies is tot stand gekomen nadat een ontwerp van het advies op 14 november 2013 ter consultatie werd gepubliceerd op de website van de CBN.
 

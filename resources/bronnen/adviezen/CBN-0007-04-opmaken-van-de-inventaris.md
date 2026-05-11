@@ -2,56 +2,55 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/opmaken-van-de-inventaris
 datum: 1981-12-01
 gerelateerde_adviezen:
-- datum: '2010-07-14'
-  titel: Duur van het boekjaar
-  url: https://www.cbn-cnc.be/nl/adviezen/duur-van-het-boekjaar
-- datum: '1997-02-01'
-  titel: Beginselen van een regelmatige boekhouding
-  url: https://www.cbn-cnc.be/nl/adviezen/beginselen-van-een-regelmatige-boekhouding
-- datum: '1996-11-01'
-  titel: Boeking en waardering van voorraden
-  url: https://www.cbn-cnc.be/nl/adviezen/boeking-en-waardering-van-voorraden
-- datum: '1977-12-01'
-  titel: Duur van het boekjaar
-  url: https://www.cbn-cnc.be/nl/adviezen/duur-van-het-boekjaar-0
+  - datum: '2010-07-14'
+    titel: Duur van het boekjaar
+    url: https://www.cbn-cnc.be/nl/adviezen/duur-van-het-boekjaar
+  - datum: '1997-02-01'
+    titel: Beginselen van een regelmatige boekhouding
+    url: https://www.cbn-cnc.be/nl/adviezen/beginselen-van-een-regelmatige-boekhouding
+  - datum: '1996-11-01'
+    titel: Boeking en waardering van voorraden
+    url: https://www.cbn-cnc.be/nl/adviezen/boeking-en-waardering-van-voorraden
+  - datum: '1977-12-01'
+    titel: Duur van het boekjaar
+    url: https://www.cbn-cnc.be/nl/adviezen/duur-van-het-boekjaar-0
 nummer: CBN-advies 7/4
 provenance:
-  generated_at: '2026-05-08T18:33:29Z'
+  generated_at: '2026-05-11T13:05:05Z'
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/opmaken-van-de-inventaris
-    sha256: d6557b9b2f689f105306b8478a04372b0df6df19ebe1e71eddae39f4e8720efc
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/opmaken-van-de-inventaris
+      sha256: d6557b9b2f689f105306b8478a04372b0df6df19ebe1e71eddae39f4e8720efc
+      version:
   stale: false
-  stale_reason: null
+  stale_reason:
   tooling:
-    model: null
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    prompt_version: null
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
   trust:
     confirmed_at: '2026-05-08T19:02:29Z'
     confirmed_by: subagent-laag2-ronde2
     layer1:
-      file_size_chars: 6603
-      flags: []
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:24Z'
       heading_count: 0
       max_section_chars: 6603
-      run_at: null
-      run_id: 20260511-083333
-      status: pass
+      file_size_chars: 6603
+      flags: []
     layer2:
       agent: subagent-laag2-ronde2
       concrete_problemen: []
-      rationale: '[Laag-2-R2 2026-05-08] Volledig met drie categorieën ondernemingen,
-        timing fysieke opname vs. balansdatum helder behandeld.'
+      rationale: '[Laag-2-R2 2026-05-08] Volledig met drie categorieën ondernemingen, timing fysieke opname vs. balansdatum helder behandeld.'
       run_at: '2026-05-08T19:02:29Z'
       status: trusted
     rationale: Laag-2 trusted door subagent-laag2-ronde2 (zie layer2.rationale)
     status: trusted
 themas:
-- inventaris
-- jaarafsluiting
-- opmaak van de inventaris
+  - inventaris
+  - jaarafsluiting
+  - opmaak van de inventaris
 ---
 
 # CBN-advies 7-4 - Opmaken van de inventaris
@@ -62,7 +61,7 @@ Deze tekst wijst zeer duidelijk op het verband tussen de inventaris en de jaarre
 
 Bij de ondernemingen die wettelijk verplicht zijn een volledige boekhouding te voeren of die *de facto* een dergelijke boekhouding voeren, heeft de inventaris tot doel het getrouwe karakter na te gaan van de saldi van de rekeningen zoals deze voortspruiten uit de inschrijving tijdens het boekjaar van alle verrichtingen van de onderneming en dit vooraleer deze saldi worden verwerkt in de jaarrekening. In deze ondernemingen moet dus worden nagegaan of er op de datum van de jaarafsluiting overeenstemming bestaat tussen de gegevens uit de boekhouding, de inventaris en de jaarrekening. 
 
-De saldi van de rekeningen die zijn vervat in de jaarrekening vinden hun verantwoording zowel in de inventarisopnemingen en ‐waarderingen als in de verantwoordingsstukken. Bij deze ondernemingen zou het dus niet opgaan dat de jaarrekening eenvoudig een samenvatting zou zijn van de gegevens uit de boekhouding zonder gesteund te zijn op een inventaris. Anderzijds mag de jaarrekening ook geen synthese zijn van de inventaris alleen, zonder verband met de boekhouding en dit met al de gestrengheid eigen aan de boekhouddiscipline. 
+De saldi van de rekeningen die zijn vervat in de jaarrekening vinden hun verantwoording zowel in de inventarisopnemingen en -waarderingen als in de verantwoordingsstukken. Bij deze ondernemingen zou het dus niet opgaan dat de jaarrekening eenvoudig een samenvatting zou zijn van de gegevens uit de boekhouding zonder gesteund te zijn op een inventaris. Anderzijds mag de jaarrekening ook geen synthese zijn van de inventaris alleen, zonder verband met de boekhouding en dit met al de gestrengheid eigen aan de boekhouddiscipline. 
 
 Bij de zeer kleine ondernemingen bedoeld bij artikel 5 van de wet (de natuurlijke personen die koopman zijn, de vennootschappen onder gemeenschappelijke naam of de eenvoudige commanditaire vennootschappen met een jaaromzet die 500.000 euro of 620.000 euro niet overschrijdt) is de toestand verschillend. Maken zij gebruik van de hun door de wet geboden mogelijkheid een eenvoudige boekhouding te voeren beperkt tot drie dagboeken zonder rekeningenstelsel, dan vloeit de jaarrekening rechtstreeks voort uit de inventarisopname. Deze zal uiteraard steunen op de in de dagboeken opgenomen gegevens. 
 

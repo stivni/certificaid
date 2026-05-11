@@ -3,61 +3,59 @@ bron: https://www.cbn-cnc.be/nl/adviezen/overschakeling-op-de-euro-boekhoudrecht
 datum: 1997-01-01
 nummer: CBN-advies 173/1
 provenance:
-  generated_at: '2026-05-08T18:35:37Z'
+  generated_at: '2026-05-11T13:05:06Z'
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/overschakeling-op-de-euro-boekhoudrechtelijke-aspecten
-    sha256: c54803fef2d4b5cf579399080be7b80ab1c66071b61078183734c59958df0cbd
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/overschakeling-op-de-euro-boekhoudrechtelijke-aspecten
+      sha256: c54803fef2d4b5cf579399080be7b80ab1c66071b61078183734c59958df0cbd
+      version:
   stale: false
-  stale_reason: null
+  stale_reason:
   tooling:
-    model: null
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    prompt_version: null
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
   trust:
     confirmed_at: '2026-05-08T19:02:28Z'
     confirmed_by: subagent-laag2-ronde2
     layer1:
-      file_size_chars: 46360
-      flags: []
-      heading_count: 22
-      max_section_chars: 18041
-      run_at: null
-      run_id: 20260511-083333
       status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:26Z'
+      heading_count: 17
+      max_section_chars: 18026
+      file_size_chars: 46335
+      flags: []
     layer2:
       agent: subagent-laag2-ronde2
       concrete_problemen: []
-      rationale: '[Laag-2-R2 2026-05-08] 22 headings met vierniveaux hiërarchie, volledig
-        coherent advies. Lange sectie is inherent aan dense juridisch-technische inhoud.
-        Één scraping-artefact in H2-tekst maar inhoud volledig.'
+      rationale: '[Laag-2-R2 2026-05-08] 22 headings met vierniveaux hiërarchie, volledig coherent advies. Lange sectie is inherent aan dense juridisch-technische inhoud. Één scraping-artefact in H2-tekst maar inhoud volledig.'
       run_at: '2026-05-08T19:02:28Z'
       status: trusted
     rationale: Laag-2 trusted door subagent-laag2-ronde2 (zie layer2.rationale)
     status: trusted
 themas:
-- conversie in euro
-- eigen vermogen
-- euro
-- gerealiseerd wisselresultaat
-- kosten verbonden aan overschakeling op de euro
-- lening
-- leningen in deviezen
-- monetaire posten
-- niet monetaire activa
-- niet-monetaire posten
-- omrekeningskoers
-- omrekeningsverschil
-- openbaarmaking
-- opstelling van de jaarrekening
-- opstelling van de jaarrekening in euro
-- overschakeling op de euro
-- publicatie
-- termijnwisselverrichting
-- voorziening
-- wisselrisico
-- wisselverschil
+  - conversie in euro
+  - eigen vermogen
+  - euro
+  - gerealiseerd wisselresultaat
+  - kosten verbonden aan overschakeling op de euro
+  - lening
+  - leningen in deviezen
+  - monetaire posten
+  - niet monetaire activa
+  - niet-monetaire posten
+  - omrekeningskoers
+  - omrekeningsverschil
+  - openbaarmaking
+  - opstelling van de jaarrekening
+  - opstelling van de jaarrekening in euro
+  - overschakeling op de euro
+  - publicatie
+  - termijnwisselverrichting
+  - voorziening
+  - wisselrisico
+  - wisselverschil
 ---
 
 # CBN-advies 173/1 - Overschakeling op de euro: boekhoudrechtelijke aspecten
@@ -83,8 +81,7 @@ Voor industriële en commerciële ondernemingen[^1] hebben de voornoemde beginse
 
 Daarover is op Europees niveau overleg gepleegd in het Contactcomité voor de boekhoudrichtlijnen op 16 juli, 11 oktober en 12 november 1996.
 
-### I.v.m. de opstelling van de statutaire en de geconsolideerde jaarrekening in Euro
-
+I.v.m. de opstelling van de statutaire en de geconsolideerde jaarrekening in Euro
 1. 1. De Lid-Staten moeten de ondernemingen die naar hun recht zijn opgericht, toestaan hun statutaire en hun geconsolideerde jaarrekening hetzij in nationale munt, hetzij in Euro op te stellen. 
 
 	In België impliceert dit een aanpassing van de besluiten van 8 oktober 1976 en 6 maart 1990, omdat die thans voorschrijven dat zowel de statutaire als de geconsolideerde jaarrekening in Belgische franken worden opgesteld. 
@@ -105,8 +102,7 @@ Daarover is op Europees niveau overleg gepleegd in het Contactcomité voor de bo
 	Voor de geconsolideerde jaarrekening speelt die factor niet - of nauwelijks. Er lijkt dan ook geen bezwaar te bestaan om de ondernemingen toe te staan hun geconsolideerde jaarrekening afgesloten vanaf 31 december 1998, in Euro op te stellen en openbaar te maken. Aangezien de datum voor de vaststelling van de muntpariteiten echter nog niet bekend is, lijkt het op dit ogenblik niet raadzaam hierop te anticiperen voor de geconsolideerde jaarrekeningen afgesloten vóór 31 december 1998. 
 5. Op parallelle wijze lijkt het vanzelfsprekend dat ondernemingen verder de nationale munt mogen blijven hanteren voor het opstellen van hun jaarrekening, tot en met de jaarrekening over het boekjaar dat afsluit op 31 december 2001, zelfs al wordt die jaarrekening goedgekeurd en openbaar gemaakt na die datum. Zonder de beslissingsautonomie van de ondernemingen in verband hiermee ook maar enigszins te willen beperken, meent de Commissie als aanbeveling te moeten formuleren, niet te wachten op die uiterste datum om over te schakelen op de Euro. 
 
-### I.v.m. de conversie van de oorspronkelijk in nationale munt uitgedrukte cijfers over het voorgaande boekjaar in de eerste jaarrekening in Euro
-
+I.v.m. de conversie van de oorspronkelijk in nationale munt uitgedrukte cijfers over het voorgaande boekjaar in de eerste jaarrekening in Euro
 Overeenkomstig de vierde richtlijn schrijft het besluit van 8 oktober 1976 voor dat, voor alle posten van de balans en de resultatenrekening en voor bepaalde posten van de toelichting, overeenstemmende cijfers van het voorgaande boekjaar moeten worden vermeld. Een gelijkaardig voorschrift vindt men in het besluit van 6 maart 1990 voor de geconsolideerde jaarrekening.
 
 Wanneer nu de jaarrekening voor het eerst in Euro wordt opgesteld, is de vraag tegen welke koers de jaarrekening over het voorgaande boekjaar, uitgedrukt in Belgische frank, in Euro moet worden omgerekend om een vergelijking mogelijk te maken.
@@ -133,8 +129,7 @@ Jaarrekeningen in Euro zijn - onder voorbehoud van de toepassing van een vermeni
 
 Om dezelfde redenen lijkt er geen bezwaar dat ondernemingen waarvan de verkopen grotendeels contant, met gereed geld worden geregeld, verder hun boekhouding in Belgische frank zouden voeren, zolang hun verkopen grotendeels in muntinstrumenten in Belgische frank worden betaald, tot uiterlijk 30 juni 2002.
 
-### I.v.m. wisselverschillen ingevolge het verschil tussen de gehanteerde wisselkoersen bij verrichtingen voor 1 januari 1999 in een munt van een van de andere lid-staten van de Muntunie, en de koers voor de omrekening van de nationale munt in Euro van deze munt
-
+I.v.m. wisselverschillen ingevolge het verschil tussen de gehanteerde wisselkoersen bij verrichtingen voor 1 januari 1999 in een munt van een van de andere lid-staten van de Muntunie, en de koers voor de omrekening van de nationale munt in Euro van deze munt
 #### Voorafgaande opmerking
 
 Vooraf zij erop gewezen dat wisselverschillen, althans voor statutaire jaarrekeningen, enkel het gevolg kunnen zijn van het feit dat bepaalde monetaire posten in een andere munt luiden dan de referentiemunt van de betrokken onderneming. De omrekening in Euro van oorspronkelijk in Belgische frank uitgedrukte monetaire posten, kan geen wisselverschillen opleveren. Niet-monetaire posten kunnen, althans voor statutaire jaarrekeningen, evenmin wisselverschillen opleveren.
@@ -270,8 +265,7 @@ De hierboven beschreven beginselen gelden ook voor de andere financiële instrum
 
 Bij de invoering van de Euro verdwijnt de Ecu. Tenzij anders overeengekomen komt de Euro in de plaats van de Ecu in alle contractuele relaties, in de verhouding van één tegen één. Wanneer tegoeden en verplichtingen in Ecu in de boekhouding van een onderneming worden omgerekend tegen een andere koers dan die voor de omrekening van de nationale munt in Euro, zal hieruit een definitief wisselverschil ontstaan, van dezelfde aard als het wisselverschil ingevolge de vaststelling van de respectieve koersen van de verschillende nationale munten van de lidstaten van de Muntunie. Dit wisselverschil moet op dezelfde manier worden verwerkt.
 
-### Omrekeningsverschillen met betrekking tot monetaire posten in de munt van een land dat geen lid is van de Muntunie
-
+Omrekeningsverschillen met betrekking tot monetaire posten in de munt van een land dat geen lid is van de Muntunie
 Voor tegoeden en verplichtingen in dergelijke munten spelen bij de invoering van de Euro twee factoren :
 
 enerzijds, de evolutie van de wisselkoers van deze munten ten opzichte van de nationale munt vóór de invoering van de Euro, 
@@ -282,8 +276,7 @@ Vermits deze tweede factor geen aanleiding geeft tot wisselkoersverschillen, hee
 
 De thans geldende beginselen voor de boekhoudkundige verwerking van deviezenverrichtingen, omrekeningsverschillen en wisselverschillen, blijven van toepassing bij de invoering van de Euro en ook later.
 
-### Verwerking van de kosten verbonden aan de overschakeling op de Euro, in de boekhouding
-
+Verwerking van de kosten verbonden aan de overschakeling op de Euro, in de boekhouding
 Voor vele ondernemingen zijn aan de vervanging van de nationale munt door de Euro en de overschakeling van ene op andere munt, grote kosten verbonden. Die kosten betreffen de organisatie- en computerinfrastructuur, de vervanging, aanpassing of verandering van machines, uitrusting en software, de informatieverstrekking aan het publiek, de opleiding van personeel, enz. In vele gevallen overigens is de overschakeling op de Euro een voorbereiding van lange adem, langer dan de termijn tussen de beslissing omtrent de toelating van lidstaten tot de Muntunie en de datum van 1 januari 1999. Die ondernemingen mogen dan ook niet wachten op een formele beslissing in verband met de toelating van de deelnemende landen vooraleer de nodige uitgaven voor die overschakeling te doen. In dat geval zou het voor hen wel eens onmogelijk kunnen worden om de nieuwe manier van werken ingevolge de overschakeling op de Euro, over te nemen, met alle schadelijke gevolgen vandien.
 
 De vraag is gesteld, hoe dergelijke uitgaven ten laste moeten worden genomen. Meer bepaald, in welke mate, op welke voorwaarden en op welke wijze dergelijke uitgaven mogen worden geactiveerd en afgeschreven over een welbepaalde periode dan wel voortijdig ten laste genomen via de vorming van voorzieningen.

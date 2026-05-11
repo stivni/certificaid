@@ -1,56 +1,55 @@
 ---
-nummer: CBN-advies 2012/17
-datum: 2012-11-07
-themas:
-  - opbrengsterkenning
 bron: https://www.cbn-cnc.be/nl/adviezen/erkenning-van-opbrengsten-en-kosten
+datum: 2012-11-07
+gerelateerde_adviezen:
+  - datum: '2021-04-06'
+    titel: Boekhoudrechtelijke behandeling van kwijtschelding van huur ten gevolge van de COVID-19-pandemie
+    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudrechtelijke-behandeling-van-kwijtschelding-van-huur-ten-gevolge-van-de-covid-19
+  - datum: '2013-09-04'
+    titel: Erkenning van de opbrengsten en kosten die overeenstemmen met interesten en royalty&#039;s, evenals de toewijzing van de resultaten in de vorm van dividenden en tantièmes en de opbrengsten die overeenstemmen met dividenden en tantièmes
+    url: https://www.cbn-cnc.be/nl/adviezen/erkenning-van-de-opbrengsten-en-kosten-die-overeenstemmen-met-interesten-en-royaltys
+nummer: CBN-advies 2012/17
 provenance:
+  generated_at: '2026-05-11T13:05:08Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/erkenning-van-opbrengsten-en-kosten
       sha256: 7aa254cb895d2315323f4ef39d185018e68c7c55911c7f208030a21eb4bd0fed
       version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:36:31Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
   trust:
-    status: trusted
     confirmed_at: '2026-05-11T12:16:33Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: 'Geen artefacten gevonden. Heading-hiërarchie klopt (H1 → H2 → H3), alle 9 voetnoten correct gelinkt met [^N]-syntax, proza vloeit als mens-geschreven tekst. Inhoud compleet: onderwerp, analyse met twee subsecties, voorbeelden voor goederen en diensten.'
     layer1:
       status: pass
-      run_id: 20260511-083333
-      run_at:
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:28Z'
       heading_count: 7
       max_section_chars: 6346
-      file_size_chars: 15748
+      file_size_chars: 15747
       flags: []
     layer2:
-      status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:16:33Z'
-      rationale: 'Geen artefacten gevonden. Heading-hiërarchie klopt (H1 → H2 → H3), alle 9 voetnoten correct gelinkt met [^N]-syntax, proza vloeit als mens-geschreven tekst. Inhoud compleet: onderwerp, analyse met twee subsecties, voorbeelden voor goederen en diensten.'
       concrete_problemen: []
-gerelateerde_adviezen:
-  - titel: Boekhoudrechtelijke behandeling van kwijtschelding van huur ten gevolge van de COVID-19-pandemie
-    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudrechtelijke-behandeling-van-kwijtschelding-van-huur-ten-gevolge-van-de-covid-19
-    datum: '2021-04-06'
-  - titel: Erkenning van de opbrengsten en kosten die overeenstemmen met interesten en royalty&#039;s, evenals de toewijzing van de resultaten in de vorm van dividenden en tantièmes en de opbrengsten die overeenstemmen met dividenden en tantièmes
-    url: https://www.cbn-cnc.be/nl/adviezen/erkenning-van-de-opbrengsten-en-kosten-die-overeenstemmen-met-interesten-en-royaltys
-    datum: '2013-09-04'
+      rationale: 'Geen artefacten gevonden. Heading-hiërarchie klopt (H1 → H2 → H3), alle 9 voetnoten correct gelinkt met [^N]-syntax, proza vloeit als mens-geschreven tekst. Inhoud compleet: onderwerp, analyse met twee subsecties, voorbeelden voor goederen en diensten.'
+      run_at: '2026-05-11T12:16:33Z'
+      status: trusted
+    rationale: 'Geen artefacten gevonden. Heading-hiërarchie klopt (H1 → H2 → H3), alle 9 voetnoten correct gelinkt met [^N]-syntax, proza vloeit als mens-geschreven tekst. Inhoud compleet: onderwerp, analyse met twee subsecties, voorbeelden voor goederen en diensten.'
+    status: trusted
+themas:
+  - opbrengsterkenning
 ---
 
 # CBN-advies 2012/17 - Erkenning van opbrengsten en kosten
 
 ## Onderwerp van het advies
 
-In het artikel 31, § 1 van de Vierde Europese Richtlijn betreffende de jaarrekening van bepaalde vennootschapsvormen[^1]
- wordt het volgende bepaald: “c ) het voorzichtigheidsbeginsel moet steeds in acht worden genomen en in het bijzonder geldt het volgende: aa ) winsten mogen slechts worden opgenomen voor zover zij op de balansdatum gerealiseerd zijn” en “d ) lasten en baten betreffende het boekjaar waarop de jaarrekening betrekking heeft, moeten in aanmerking worden genomen, ongeacht het tijdstip van betaling van deze lasten of ontvangst van deze baten”.
+In het artikel 31, § 1 van de Vierde Europese Richtlijn betreffende de jaarrekening van bepaalde vennootschapsvormen[^1] wordt het volgende bepaald: “c ) het voorzichtigheidsbeginsel moet steeds in acht worden genomen en in het bijzonder geldt het volgende: aa ) winsten mogen slechts worden opgenomen voor zover zij op de balansdatum gerealiseerd zijn” en “d ) lasten en baten betreffende het boekjaar waarop de jaarrekening betrekking heeft, moeten in aanmerking worden genomen, ongeacht het tijdstip van betaling van deze lasten of ontvangst van deze baten”.
 
 In het artikel 33, tweede lid, van het Koninklijk besluit tot uitvoering van het wetboek van vennootschappen (KB W. Venn.) wordt het volgende bepaald: “Er moet rekening worden gehouden met de kosten en de opbrengsten die betrekking hebben op het boekjaar of op voorgaande boekjaren, ongeacht de dag waarop deze kosten en opbrengsten worden betaald of geïnd, behalve indien de effectieve inning van deze opbrengsten onzeker is.”
 
@@ -120,7 +119,7 @@ Naar het oordeel van de CBN moet de opbrengst die voortvloeit uit de verkoop van
 
 De kosten van het jaar X die rechtstreeks voortvloeien uit de organisatie van het concert zullen worden geboekt in het jaar X maar worden overgedragen naar het jaar X+1 via de overlopende rekening van het actief 490 *Over te dragen kosten.*
 
-In het jaar X+1 wordt de opbrengst uit de verkoop van de plaatsen daadwerkelijk geboekt (door debet van de rekening 493* Over te dragen opbrengsten*) alsook de kosten die worden gemaakt om het concert te organiseren, in het jaar X (door credit van de rekening 490 *Over te dragen kosten*) en in het jaar X+1.
+In het jaar X+1 wordt de opbrengst uit de verkoop van de plaatsen daadwerkelijk geboekt (door debet van de rekening 493* Over te dragen opbrengsten*) alsook de kosten die worden gemaakt om het concert te organiseren, in het jaar X (door credit van de rekening 490* Over te dragen kosten*) en in het jaar X+1.
 
 Laten we ook het geval beschouwen waarin een onderneming in het jaar X voor 5 jaar het uitsluitend gebruik overdraagt van een merk waarvan zij eigenaar is. Merk op dat dit merk niet wordt opgenomen in de activa van de balans van de onderneming.
 

@@ -1,6 +1,39 @@
 ---
-nummer: CBN-advies 148/3
+bron: https://www.cbn-cnc.be/nl/adviezen/toerekenen-van-kosten-als-gevolg-van-een-waarborgovereenkomst
 datum: 1986-01-01
+nummer: CBN-advies 148/3
+provenance:
+  generated_at: '2026-05-11T13:05:06Z'
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/toerekenen-van-kosten-als-gevolg-van-een-waarborgovereenkomst
+      sha256: efb93cfc2a9357d8f712b25b834397f1b49619bbdae0e6ad2b41edf3342d272f
+      version:
+  stale: false
+  stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
+  trust:
+    confirmed_at: '2026-05-11T12:04:41Z'
+    confirmed_by: subagent-sonnet-4-6
+    layer1:
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:26Z'
+      heading_count: 0
+      max_section_chars: 3630
+      file_size_chars: 3630
+      flags: []
+    layer2:
+      agent: subagent-sonnet-4-6
+      concrete_problemen: []
+      rationale: 'Één voetnoot aanwezig en correct. Inhoud volledig: probleem, twee methodieken, standpunt Commissie. Geen artefacten, geen structuurfouten.'
+      run_at: '2026-05-11T12:04:41Z'
+      status: trusted
+    rationale: 'Één voetnoot aanwezig en correct. Inhoud volledig: probleem, twee methodieken, standpunt Commissie. Geen artefacten, geen structuurfouten.'
+    status: trusted
 themas:
   - kosten als gevolg van een waarborgovereenkomst
   - toerekenen van kosten als gevolg van waarborgovereenkomst
@@ -8,39 +41,6 @@ themas:
   - voorziening
   - waarborg
   - waarborgovereenkomst
-bron: https://www.cbn-cnc.be/nl/adviezen/toerekenen-van-kosten-als-gevolg-van-een-waarborgovereenkomst
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/toerekenen-van-kosten-als-gevolg-van-een-waarborgovereenkomst
-      sha256: efb93cfc2a9357d8f712b25b834397f1b49619bbdae0e6ad2b41edf3342d272f
-      version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:35:14Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: trusted
-    confirmed_at: '2026-05-11T12:04:41Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: 'Één voetnoot aanwezig en correct. Inhoud volledig: probleem, twee methodieken, standpunt Commissie. Geen artefacten, geen structuurfouten.'
-    layer1:
-      status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 0
-      max_section_chars: 3630
-      file_size_chars: 3630
-      flags: []
-    layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:04:41Z'
-      rationale: 'Één voetnoot aanwezig en correct. Inhoud volledig: probleem, twee methodieken, standpunt Commissie. Geen artefacten, geen structuurfouten.'
-      concrete_problemen: []
 ---
 
 # CBN-advies 148/3 - Toerekenen van kosten als gevolg van een waarborgovereenkomst

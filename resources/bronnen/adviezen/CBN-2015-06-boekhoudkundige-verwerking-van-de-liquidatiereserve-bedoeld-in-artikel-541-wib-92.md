@@ -1,70 +1,70 @@
 ---
-nummer: CBN-advies 2015/6
+bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-liquidatiereserve-bedoeld-in-artikel-541-wib-92
 datum: 2015-09-30
+gerelateerde_adviezen:
+  - datum: '2021-07-12'
+    titel: Boekhoudrechtelijke verwerking van de wederopbouwreserve
+    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudrechtelijke-verwerking-van-de-wederopbouwreserve
+  - datum: '2015-05-13'
+    titel: Boekhoudkundige verwerking van de tax shelter in hoofde van de investeerder (raamovereenkomsten gesloten vanaf 1 januari 2015)
+    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-tax-shelter-in-hoofde-van-de-investeerder
+  - datum: '2013-11-27'
+    titel: De boekhoudkundige verwerking van de verhoogde aftrek van bepaalde kosten die fiscaal wordt aanvaard boven het bedrag van de werkelijk gedane of gedragen kosten mits naleving van de onaantastbaarheidsvoorwaarde
+    url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-verhoogde-aftrek-van-bepaalde-kosten-die-fiscaal
+  - datum: '1981-12-01'
+    titel: Aanwending van herwaarderingsmeerwaarden
+    url: https://www.cbn-cnc.be/nl/adviezen/aanwending-van-herwaarderingsmeerwaarden-0
+nummer: CBN-advies 2015/6
+provenance:
+  generated_at: '2026-05-11T13:05:08Z'
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-liquidatiereserve-bedoeld-in-artikel-541-wib-92
+      sha256: f75947a777e67970e2d3551b28d529ee94c0c42cdd01b6cf19a7e08704e40481
+      version:
+  stale: false
+  stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
+  trust:
+    confirmed_at: '2026-05-11T12:16:34Z'
+    confirmed_by: subagent-sonnet-4-6
+    layer1:
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:29Z'
+      heading_count: 6
+      max_section_chars: 10344
+      file_size_chars: 18731
+      flags: []
+    layer2:
+      agent: subagent-sonnet-4-6
+      concrete_problemen:
+        - categorie: D4
+          regel: 58
+          type: other
+          voorbeeld: '...en de bijzondere aanslag op deze liquidatiereserve1'
+        - categorie: D4
+          regel: 152
+          type: other
+          voorbeeld: artikel 184*quater *WIB 92)[^21]
+        - categorie: D3
+          regel: 200
+          type: other
+          voorbeeld: ' [^23]'
+      rationale: 'D4: regel 152 bevat ''artikel 184*quater *WIB 92'' — spatie vóór sluitende `*` is een malformed italic (D4). Regel 58: de H1-titel eindigt op een loshangende ''1'' (het footnote-cijfer is niet als [^1] geparsed maar als literal karakter). Regel 200: losse ''[^23]'' op een aparte lege regel zonder omringende zin (D3-achtig: broken footnote-anchor).'
+      run_at: '2026-05-11T12:16:34Z'
+      status: needs-rework
+    rationale: 'D4: regel 152 bevat ''artikel 184*quater *WIB 92'' — spatie vóór sluitende `*` is een malformed italic (D4). Regel 58: de H1-titel eindigt op een loshangende ''1'' (het footnote-cijfer is niet als [^1] geparsed maar als literal karakter). Regel 200: losse ''[^23]'' op een aparte lege regel zonder omringende zin (D3-achtig: broken footnote-anchor).'
+    status: needs-rework
 themas:
   - Onaantastbaarheidsvoorwaarde
   - bijzondere aanslag
   - belastingen
   - liquidatiereserve
   - bijzondere liquidatiereserve
-bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-liquidatiereserve-bedoeld-in-artikel-541-wib-92
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-liquidatiereserve-bedoeld-in-artikel-541-wib-92
-      sha256: f75947a777e67970e2d3551b28d529ee94c0c42cdd01b6cf19a7e08704e40481
-      version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:36:50Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T12:16:34Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "D4: regel 152 bevat 'artikel 184*quater *WIB 92' — spatie vóór sluitende `*` is een malformed italic (D4). Regel 58: de H1-titel eindigt op een loshangende '1' (het footnote-cijfer is niet als [^1] geparsed maar als literal karakter). Regel 200: losse '[^23]' op een aparte lege regel zonder omringende zin (D3-achtig: broken footnote-anchor)."
-    layer1:
-      status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 5
-      max_section_chars: 10354
-      file_size_chars: 18744
-      flags: []
-    layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:16:34Z'
-      rationale: "D4: regel 152 bevat 'artikel 184*quater *WIB 92' — spatie vóór sluitende `*` is een malformed italic (D4). Regel 58: de H1-titel eindigt op een loshangende '1' (het footnote-cijfer is niet als [^1] geparsed maar als literal karakter). Regel 200: losse '[^23]' op een aparte lege regel zonder omringende zin (D3-achtig: broken footnote-anchor)."
-      concrete_problemen:
-        - regel: 58
-          categorie: D4
-          type: other
-          voorbeeld: '...en de bijzondere aanslag op deze liquidatiereserve1'
-        - regel: 152
-          categorie: D4
-          type: other
-          voorbeeld: artikel 184*quater *WIB 92)[^21]
-        - regel: 200
-          categorie: D3
-          type: other
-          voorbeeld: ' [^23]'
-gerelateerde_adviezen:
-  - titel: Boekhoudrechtelijke verwerking van de wederopbouwreserve
-    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudrechtelijke-verwerking-van-de-wederopbouwreserve
-    datum: '2021-07-12'
-  - titel: Boekhoudkundige verwerking van de tax shelter in hoofde van de investeerder (raamovereenkomsten gesloten vanaf 1 januari 2015)
-    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-tax-shelter-in-hoofde-van-de-investeerder
-    datum: '2015-05-13'
-  - titel: De boekhoudkundige verwerking van de verhoogde aftrek van bepaalde kosten die fiscaal wordt aanvaard boven het bedrag van de werkelijk gedane of gedragen kosten mits naleving van de onaantastbaarheidsvoorwaarde
-    url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-verhoogde-aftrek-van-bepaalde-kosten-die-fiscaal
-    datum: '2013-11-27'
-  - titel: Aanwending van herwaarderingsmeerwaarden
-    url: https://www.cbn-cnc.be/nl/adviezen/aanwending-van-herwaarderingsmeerwaarden-0
-    datum: '1981-12-01'
 ---
 
 # CBN-advies 2015/6 - Boekhoudkundige verwerking van de liquidatiereserve bedoeld in artikel 541 WIB 92 (Programmawet van 10 augustus 2015) en de bijzondere aanslag op deze liquidatiereserve1
@@ -77,13 +77,11 @@ De Commissie heeft op 13 mei 2015 een advies uitgebracht over de boekhoudkundige
 
 De mogelijkheid om deze bijzondere liquidatiereserve aan te leggen is voorbehouden voor vennootschappen die op grond van artikel 15 van het Wetboek van vennootschappen (hierna: W.Venn.) als een kleine vennootschap werden aangemerkt voor het boekjaar dat verbonden is met het aanslagjaar 2013 respectievelijk 2014.[^4]
  Een vennootschap kan de bijzondere liquidatiereserve slechts aanleggen indien de jaarrekening met betrekking tot het boekjaar verbonden aan het aanslagjaar 2013 respectievelijk 2014 neergelegd is ten laatste op 31 maart 2015.[^5]
- Voor de in artikel 97 W.Venn. bedoelde vennootschappen[^6]
- geldt geen neerleggingsverplichting. Voor deze vennootschappen geldt als voorwaarde voor het aanleggen van de bijzondere liquidatiereserve dat de jaarrekening werd goedgekeurd door de algemene vergadering overeenkomstig artikel 92 W.Venn. en samen met de aangifte in de vennootschapsbelasting werd ingediend voor het betrokken aanslagjaar.[^7] 
+ Voor de in artikel 97 W.Venn. bedoelde vennootschappen[^6] geldt geen neerleggingsverplichting. Voor deze vennootschappen geldt als voorwaarde voor het aanleggen van de bijzondere liquidatiereserve dat de jaarrekening werd goedgekeurd door de algemene vergadering overeenkomstig artikel 92 W.Venn. en samen met de aangifte in de vennootschapsbelasting werd ingediend voor het betrokken aanslagjaar.[^7] 
 
 Deze bijzondere liquidatiereserve wordt gevormd door een gedeelte of het geheel van de boekhoudkundige winst na belasting van het boekjaar verbonden aan het aanslagjaar 2013 respectievelijk 2014 over te boeken naar één of meerdere afzonderlijke rekeningen van het passief. De aanleg van de bijzondere liquidatiereserve is het gevolg van de invoering van een systeem van facultatieve anticipatieve heffing van 10 procent op de boekhoudkundige winst na belastingen die is verwezenlijkt in de loop van het boekjaar verbonden aan het aanslagjaar 2013 en op de boekhoudkundige winst na belastingen die is verwezenlijkt in de loop van het boekjaar verbonden aan het aanslagjaar 2014.[^8]
  Onder “boekhoudkundige winst na belasting” dient te worden verstaan: de te bestemmen winst van het boekjaar zoals vermeld bij code 9905 in de modellen van de jaarrekening van de Nationale Bank.[^9]
- De liquidatiereserve moet op één of meer afzonderlijke rekeningen van het passief worden geboekt en blijven en mag niet tot grondslag dienen voor enige beloning of toekenning. De anticipatieve heffing vindt plaats door de indiening van een bijzondere aangifte[^10]
- en een betaling van een bijzondere aanslag van 10 procent.
+ De liquidatiereserve moet op één of meer afzonderlijke rekeningen van het passief worden geboekt en blijven en mag niet tot grondslag dienen voor enige beloning of toekenning. De anticipatieve heffing vindt plaats door de indiening van een bijzondere aangifte[^10] en een betaling van een bijzondere aanslag van 10 procent.
 
 De bijzondere aanslag moet worden betaald ten laatste op 30 november 2015 voor de liquidatiereserve die wordt aangelegd uit de boekhoudkundige winst na belastingen van het boekjaar dat verbonden is aan het aanslagjaar 2013. De liquidatiereserve die wordt aangelegd uit de boekhoudkundige winst na belastingen van het boekjaar dat verbonden is aan het aanslagjaar 2014 moet ten laatste op 30 november 2016 worden betaald. De overeenstemmende bijzondere liquidatiereserve moet vervolgens worden geboekt ten laatste op de datum van afsluiten van het boekjaar waarin voormelde bijzondere aanslag is betaald. De betaalde bijzondere aanslagen zijn definitief verworven door de Staat: ze worden niet verrekend met de vennootschapsbelasting en de eventuele overschotten zijn niet terugbetaalbaar.[^11] 
 
@@ -95,7 +93,7 @@ De bijzondere aanslag is een anticipatieve heffing op de boekhoudkundige winst v
 
 De betaalde bijzondere aanslag is definitief verworven door de Staat, kan niet worden verrekend met de vennootschapsbelasting en het eventuele overschot is niet terugbetaalbaar.
 
-Naar analogie met de boeking van de afzonderlijke aanslag op de liquidatiereserve beveelt de Commissie aan om deze bijzondere aanslag te boeken op een passende subrekening van de rekening 67 *Belastingen op het resultaat*, meer bepaald om de rekening 6710 *Verschuldigde of gestorte belastingsupplementen* te gebruiken.[^12] 
+Naar analogie met de boeking van de afzonderlijke aanslag op de liquidatiereserve beveelt de Commissie aan om deze bijzondere aanslag te boeken op een passende subrekening van de rekening 67 *Belastingen op het resultaat*, meer bepaald om de rekening 6710* Verschuldigde of gestorte belastingsupplementen* te gebruiken.[^12] 
 
 ### Vorming van de bijzondere liquidatiereserve
 
@@ -106,16 +104,15 @@ Indien wordt beslist[^14] om de in artikel 541 WIB 92 vermelde regeling toe te p
 
 1. Het bedrag van de bijzondere liquidatiereserve die tijdens het boekjaar wordt aangelegd overschrijdt het bedrag van de boekhoudkundige winst na belastingen voor het belastbaar tijdperk verbonden met het aanslagjaar 2013 respectievelijk 2014 niet. 
 2. Het bedrag van de bijzondere liquidatiereserve die tijdens het boekjaar wordt aangelegd, is beperkt tot het in a) vermelde bedrag dat nog steeds in de reserves is geboekt bij het begin van het boekjaar waarin de respectieve bijzondere aanslagen werden betaald. 
-3. Bij de bestemming van het resultaat moet uiteraard ook rekening worden gehouden met de wettelijke[^15]
- en de eventuele statutaire verplichtingen. 
+3. Bij de bestemming van het resultaat moet uiteraard ook rekening worden gehouden met de wettelijke[^15] en de eventuele statutaire verplichtingen. 
 
 Terwijl de liquidatiereserve zoals bedoeld in artikel 184*quater* WIB 92 wordt opgebouwd door een gedeelte of het geheel van de boekhoudkundige winst na belasting te boeken naar één of meerdere afzonderlijke rekeningen van het passief, vindt de vorming van de bijzondere liquidatiereserve haar oorsprong in de boekhoudkundige winst van een voorgaand boekjaar. Voor het aanleggen van een bijzondere liquidatiereserve geldt eveneens de voorwaarde dat deze liquidatiereserve op één of meerdere afzonderlijke rekeningen van het passief wordt geboekt.[^16]
- Dit impliceert dat voor de vorming van de bijzondere liquidatiereserve steeds[^17]
- een boeking nodig zal zijn om te voldoen aan deze voorwaarde, als is het maar om deze liquidatiereserve op een afzonderlijke subrekening te boeken van de rekening waarop de winst van het betreffende boekjaar werd geboekt.
+ Dit impliceert dat voor de vorming van de bijzondere liquidatiereserve steeds[^17] een boeking nodig zal zijn om te voldoen aan deze voorwaarde, als is het maar om deze liquidatiereserve op een afzonderlijke subrekening te boeken van de rekening waarop de winst van het betreffende boekjaar werd geboekt.
 
 De Commissie is van oordeel dat interne mutaties binnen het eigen vermogen die het totaal eigen vermogen niet beïnvloeden, over het algemeen rechtstreeks moeten worden overgeboekt van de ene post naar de andere. Dit beginsel is echter niet van toepassing indien een specifieke regel daarvan afwijkt, bijvoorbeeld bij de verwerking van het overgedragen resultaat. Uit de voorstelling van de resultaatverwerking blijkt immers duidelijk dat het overgedragen resultaat van het vorige boekjaar hier samen met het overgedragen resultaat van het boekjaar, het over te dragen resultaat (winst of verlies) vormt.[^18] 
 
-De Commissie beveelt aan om de bijzondere liquidatiereserve op afzonderlijke subrekeningen te boeken per jaar van aanleg van de liquidatiereserve. Indien een gedeelte van de liquidatiereserve (waaronder de bijzondere liquidatiereserve) wordt aangetast, worden de oudst gevormde reserves immers geacht eerst te zijn aangetast.[^19] Het tarief van de te hanteren roerende voorheffing bij een eventuele uitkering is verschillend naargelang de aangetaste liquidatiereserve al dan niet ouder is dan 5 jaar.[^20] 
+De Commissie beveelt aan om de bijzondere liquidatiereserve op afzonderlijke subrekeningen te boeken per jaar van aanleg van de liquidatiereserve. Indien een gedeelte van de liquidatiereserve (waaronder de bijzondere liquidatiereserve) wordt aangetast, worden de oudst gevormde reserves immers geacht eerst te zijn aangetast.[^19]
+ Het tarief van de te hanteren roerende voorheffing bij een eventuele uitkering is verschillend naargelang de aangetaste liquidatiereserve al dan niet ouder is dan 5 jaar.[^20] 
 
 De Commissie beveelt aan dat de vennootschap in haar jaarrekening toelichting geeft over de toestand van de liquidatiereserves en over de ouderdom van de deze reserves.
 
@@ -140,7 +137,7 @@ Het bedrag van 1.000 is bijgevolg nog steeds in de reserves geboekt op de eerste
 
 *Boeking van de vorming van de bijzondere liquidatiereserve ten laatste op de inventarisdatum en boeking van de resultaatverwerking*
 
-**Eerste variant: Er wordt beslist om al de winst van het boekjaar 2015 over te dragen naar het volgend boekjaar**
+## Eerste variant: Er wordt beslist om al de winst van het boekjaar 2015 over te dragen naar het volgend boekjaar
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
@@ -161,7 +158,7 @@ Het bedrag van 1.000 is bijgevolg nog steeds in de reserves geboekt op de eerste
 | aan | 14 | Overgedragen winst | | 2.300 |
 | | 133X | Beschikbare reserves – artikel 541 WIB 92 (31/12/2015) | 1.000 | |
 
-**Derde variant: Er wordt beslist om naast de aanleg van een bijzondere liquidatiereserve ook de volledige winst van het boekjaar 2015 (na belasting) aan te wenden voor de aanleg van een liquidatiereserve (artikel 184*quater *WIB 92)[^21] **
+**Derde variant: Er wordt beslist om naast de aanleg van een bijzondere liquidatiereserve ook de volledige winst van het boekjaar 2015 (na belasting) aan te wenden voor de aanleg van een liquidatiereserve (artikel 184*quater* WIB 92)[^21] **
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
@@ -187,8 +184,7 @@ De winst na belastingen tijdens het boekjaar dat afsluit op 31 december 2012 bed
 - er werd een dividend uitgekeerd van 1.500; 
 - 150 werd toegevoegd aan de beschikbare reserves (de beschikbare reserves nemen toe van 600 tot 750); 
 - 50 werd toegevoegd aan de wettelijke reserves (de wettelijke reserves nemen toe van 400 tot 450); en 
-- 300[^22]
- werd, samen met het overgedragen resultaat van het voorgaande jaar, overgedragen naar het volgend boekjaar (het overgedragen resultaat neemt toe van 250 tot 550). 
+- 300[^22] werd, samen met het overgedragen resultaat van het voorgaande jaar, overgedragen naar het volgend boekjaar (het overgedragen resultaat neemt toe van 250 tot 550). 
 
 In het boekjaar dat afsluit op 31 december 2013 heeft de vennootschap een boekhoudkundige winst gemaakt van 3.000 (code 9905 in de modellen van jaarrekening van de Nationale Bank). De winstbestemming van dat jaar was als volgt:
 
@@ -208,8 +204,6 @@ De bijzondere aanslag van 10 procent wordt betaald op 28 november 2015. De venno
 | aan | 5500 | Kredietinstellingen: rekening-courant | | 50 |
 
 *Boeking van de vorming van de bijzondere liquidatiereserve ten laatste op de inventarisdatum en boeking van de resultaatverwerking*
-
- [^23]
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|

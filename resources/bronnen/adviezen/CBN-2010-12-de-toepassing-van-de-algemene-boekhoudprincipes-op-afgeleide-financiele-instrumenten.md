@@ -1,6 +1,61 @@
 ---
-nummer: CBN-advies 2010/12
+bron: https://www.cbn-cnc.be/nl/adviezen/de-toepassing-van-de-algemene-boekhoudprincipes-op-afgeleide-financiele-instrumenten
 datum: 2010-09-08
+gerelateerde_adviezen:
+  - datum: '2017-05-31'
+    titel: Opname van financiële vaste activa geboekt tegen een hoger bedrag dan hun reële waarde in de toelichting van de jaarrekening
+    url: https://www.cbn-cnc.be/nl/adviezen/opname-van-financiele-vaste-activa-geboekt-tegen-een-hoger-bedrag-dan-hun-reele-waarde-in
+  - datum: '2016-07-06'
+    titel: Boekhoudkundige verwerking van de cross currency swap
+    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-cross-currency-swap
+  - datum: '2013-11-27'
+    titel: Toelichting omtrent het niet-gebruik van de waarderingsgregels op basis van de waarde in het economisch verkeer voor de financiële instrumenten
+    url: https://www.cbn-cnc.be/nl/adviezen/toelichting-omtrent-het-niet-gebruik-van-de-waarderingsgregels-op-basis-van-de-waarde-in
+nummer: CBN-advies 2010/12
+provenance:
+  generated_at: '2026-05-11T13:05:07Z'
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/de-toepassing-van-de-algemene-boekhoudprincipes-op-afgeleide-financiele-instrumenten
+      sha256: c9f6f8f0f467c420a15edda62e9915a8a8db08424d27efbe262d4331fcff25ef
+      version:
+  stale: false
+  stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
+  trust:
+    confirmed_at: '2026-05-11T12:09:17Z'
+    confirmed_by: subagent-sonnet-4-6
+    layer1:
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:27Z'
+      heading_count: 6
+      max_section_chars: 8987
+      file_size_chars: 17405
+      flags: []
+    layer2:
+      agent: subagent-sonnet-4-6
+      concrete_problemen:
+        - categorie: B1
+          regel: 58
+          type: other
+          voorbeeld: '# CBN-advies 2010/12 -De toepassing...instrumenten1 Advies van 8 september 2010'
+        - categorie: B2
+          regel: 62
+          type: other
+          voorbeeld: '### ***Het ontbreken van een conceptueel kader...***'
+        - categorie: D4
+          regel: 106
+          type: other
+          voorbeeld: '### ***Voorrang van het boekhoudkundig realisatiebeginsel op het overeenstemmingsprincipe ***'
+      rationale: 'B1: H1-titel (r58) bevat ''2010/12 -De toepassing...'' zonder spatie na de koppelstreep en eindigt op ''instrumenten1'' (superscript voetnootnummer niet geparsed als [^1]). B2: H3-subkoppen gebruiken ''### ***tekst***'' — triple-asterisk bold-italic binnen een heading is ongebruikelijk en een extractie-artefact van de PDF (dikgedrukte koppen in PDF). De heading ''### ***Voorrang... ***'' op r106 heeft ook een spatie voor de closing *** (malformed). Verder is de inhoud volledig en inhoudelijk goed.'
+      run_at: '2026-05-11T12:09:17Z'
+      status: needs-rework
+    rationale: 'B1: H1-titel (r58) bevat ''2010/12 -De toepassing...'' zonder spatie na de koppelstreep en eindigt op ''instrumenten1'' (superscript voetnootnummer niet geparsed als [^1]). B2: H3-subkoppen gebruiken ''### ***tekst***'' — triple-asterisk bold-italic binnen een heading is ongebruikelijk en een extractie-artefact van de PDF (dikgedrukte koppen in PDF). De heading ''### ***Voorrang... ***'' op r106 heeft ook een spatie voor de closing *** (malformed). Verder is de inhoud volledig en inhoudelijk goed.'
+    status: needs-rework
 themas:
   - afgeleide financiële instrumenten
   - boekhoudprincipes
@@ -10,78 +65,18 @@ themas:
   - overeenstemmingsprincipe
   - realisatiebeginsel
   - voorzichtigheidsbeginsel
-bron: https://www.cbn-cnc.be/nl/adviezen/de-toepassing-van-de-algemene-boekhoudprincipes-op-afgeleide-financiele-instrumenten
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/de-toepassing-van-de-algemene-boekhoudprincipes-op-afgeleide-financiele-instrumenten
-      sha256: c9f6f8f0f467c420a15edda62e9915a8a8db08424d27efbe262d4331fcff25ef
-      version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:36:01Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T12:09:17Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "B1: H1-titel (r58) bevat '2010/12 -De toepassing...' zonder spatie na de koppelstreep en eindigt op 'instrumenten1' (superscript voetnootnummer niet geparsed als [^1]). B2: H3-subkoppen gebruiken '### ***tekst***' — triple-asterisk bold-italic binnen een heading is ongebruikelijk en een extractie-artefact van de PDF (dikgedrukte koppen in PDF). De heading '### ***Voorrang... ***' op r106 heeft ook een spatie voor de closing *** (malformed). Verder is de inhoud volledig en inhoudelijk goed."
-    layer1:
-      status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 8
-      max_section_chars: 8988
-      file_size_chars: 17420
-      flags: []
-    layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:09:17Z'
-      rationale: "B1: H1-titel (r58) bevat '2010/12 -De toepassing...' zonder spatie na de koppelstreep en eindigt op 'instrumenten1' (superscript voetnootnummer niet geparsed als [^1]). B2: H3-subkoppen gebruiken '### ***tekst***' — triple-asterisk bold-italic binnen een heading is ongebruikelijk en een extractie-artefact van de PDF (dikgedrukte koppen in PDF). De heading '### ***Voorrang... ***' op r106 heeft ook een spatie voor de closing *** (malformed). Verder is de inhoud volledig en inhoudelijk goed."
-      concrete_problemen:
-        - regel: 58
-          categorie: B1
-          type: other
-          voorbeeld: '# CBN-advies 2010/12 -De toepassing...instrumenten1 Advies van 8 september 2010'
-        - regel: 62
-          categorie: B2
-          type: other
-          voorbeeld: '### ***Het ontbreken van een conceptueel kader...***'
-        - regel: 106
-          categorie: D4
-          type: other
-          voorbeeld: '### ***Voorrang van het boekhoudkundig realisatiebeginsel op het overeenstemmingsprincipe ***'
-gerelateerde_adviezen:
-  - titel: Opname van financiële vaste activa geboekt tegen een hoger bedrag dan hun reële waarde in de toelichting van de jaarrekening
-    url: https://www.cbn-cnc.be/nl/adviezen/opname-van-financiele-vaste-activa-geboekt-tegen-een-hoger-bedrag-dan-hun-reele-waarde-in
-    datum: '2017-05-31'
-  - titel: Boekhoudkundige verwerking van de cross currency swap
-    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-cross-currency-swap
-    datum: '2016-07-06'
-  - titel: Toelichting omtrent het niet-gebruik van de waarderingsgregels op basis van de waarde in het economisch verkeer voor de financiële instrumenten
-    url: https://www.cbn-cnc.be/nl/adviezen/toelichting-omtrent-het-niet-gebruik-van-de-waarderingsgregels-op-basis-van-de-waarde-in
-    datum: '2013-11-27'
 ---
 
 # CBN-advies 2010/12 -De toepassing van de algemene boekhoudprincipes op afgeleide financiële instrumenten1 Advies van 8 september 2010
 
 ## Inleiding
 
-### ***Het ontbreken van een conceptueel kader inzake de boekhoudkundige verwerking van afgeleide financiële instrumenten ***
-
+***Het ontbreken van een conceptueel kader inzake de boekhoudkundige verwerking van afgeleide financiële instrumenten** *
 Het dynamisch karakter van de internationale financiële markten heeft tot gevolg dat vandaag de dag niet enkel gebruik wordt gemaakt van de klassieke primaire financiële instrumenten zoals aandelen en obligaties, maar ook van verschillende soorten afgeleide financiële instrumenten, zoals gestandaardiseerde en niet-gestandaardiseerde termijncontracten (futures), opties en swaps. 
 
 De tijd dat deze producten enkel door professionals werden gebruikt, ligt ver achter ons. Hun toepassing heeft zich geleidelijk aan verspreid over de hele economische sector om zo beter te kunnen inspelen op de meest uiteenlopende dekkings- of investeringsbehoeften. Tegelijkertijd dient er gewezen te worden op de vaststelling dat het Belgische boekhoudrecht, met uitzondering van de referentiesystemen van toepassing op de financiële sector (bankwezen/verzekeringen), zich niet heeft aangepast aan deze evoluties.
 
-De Richtlijnen 2001/65/EG[^2], 2003/51/EG[^3]
- en 2006/46/EG[^4]
- hebben in de Vierde Richtlijn[^5]
- de mogelijkheid geïntroduceerd om financiële instrumenten, met inbegrip van derivaten (artikels 42*bis* tot 42*septies*), op basis van de reële waarde te waarderen. Deze machtiging (of verplichting naargelang de keuze van de lidstaten) kan volgens de Zevende Richtlijn[^6]
- beperkt worden tot de geconsolideerde jaarrekening.
+De Richtlijnen 2001/65/EG[^2], 2003/51/EG[^3] en 2006/46/EG[^4] hebben in de Vierde Richtlijn[^5] de mogelijkheid geïntroduceerd om financiële instrumenten, met inbegrip van derivaten (artikels 42*bis* tot 42*septies*), op basis van de reële waarde te waarderen. Deze machtiging (of verplichting naargelang de keuze van de lidstaten) kan volgens de Zevende Richtlijn[^6] beperkt worden tot de geconsolideerde jaarrekening.
 
 Zoals echter wordt uiteengezet in het Verslag aan de Koning bij het koninklijk besluit van 10 augustus 2009[^7], dat de voornoemde Richtlijn 2006/46/EG omzet in Belgisch recht,* “heeft de regering geen gebruik gemaakt van de mogelijkheid geboden door de geciteerde richtlijn om een waardering van financiële instrumenten toe te staan of voor te schrijven samen met de daarmee verband houdende openbaarmakingverplichtingen conform de internationale standaarden voor jaarrekeningen zoals vastgelegd bij Verordening (EG) nr. 1725/2003 van de Commissie van 29 september 2003 (…)”*. De regering is immers van mening dat het op dit moment nog steeds niet opportuun zou zijn om deze mogelijkheid te introduceren in ons nationaal recht.
 
@@ -115,8 +110,7 @@ Vallen echter niet binnen het toepassingsveld van dit advies: de instrumenten ui
 
 ## Hiërarchische rangschikking van de waarderingsprincipes
 
-### ***Voorrang van het boekhoudkundig realisatiebeginsel op het overeenstemmingsprincipe ***
-
+***Voorrang van het boekhoudkundig realisatiebeginsel op het overeenstemmingsprincipe** *
 De gelijktijdige toepassing van het voorzichtigheidsbeginsel (historische kostprijs en realisatie) en het overeenstemmingsprincipe kan voor zekere spanningen zorgen, voornamelijk indien de toepassing van deze beginselen de boeking van een opbrengst betreft. 
 
 In feite gaat de toepassing van het realisatiebeginsel in tegen een simultane en ongedifferentieerde vergelijking van kosten en opbrengsten gegenereerd door een afgeleid financieel instrument, vanaf het ogenblik dat de boeking van de opbrengsten vereist dat deze zeker zijn, ook al volstaat het dat de kosten slechts waarschijnlijk zijn.
@@ -163,8 +157,7 @@ De waarderingsregels moeten de boekhoudkundige verwerking vermelden van afgeleid
 
 De toelichting moet tevens (onder de “Niet in balans opgenomen rechten en verplichtingen”) een juist beeld geven van de lopende derivaatcontracten, voor zover deze steunen op significante bedragen. 
 
-Tot slot dient er, voor zover bepaalde afgeleide financiële instrumenten in de balans niet gewaardeerd worden op basis van de reële waarde, voor elke categorie van afgeleide financiële instrumenten, in de staat “Afgeleide financiële instrumenten die niet gewaardeerd zijn op basis van de reële waarde”, een melding te worden gemaakt van de reële waarde van de instrumenten indien deze waarde bepaald kan worden dankzij één van de door artikel 97, C K.B. W.Venn.[^13]
- beschreven methodes, met opgave van hun omvang en hun aard. Indien nodig, kunnen de vennootschappen, omwille van de transparantie, tevens het verschil tussen de boekhoudkundige en de reële waarde van de betrokken afgeleide financiële instrumenten weergeven. 
+Tot slot dient er, voor zover bepaalde afgeleide financiële instrumenten in de balans niet gewaardeerd worden op basis van de reële waarde, voor elke categorie van afgeleide financiële instrumenten, in de staat “Afgeleide financiële instrumenten die niet gewaardeerd zijn op basis van de reële waarde”, een melding te worden gemaakt van de reële waarde van de instrumenten indien deze waarde bepaald kan worden dankzij één van de door artikel 97, C K.B. W.Venn.[^13] beschreven methodes, met opgave van hun omvang en hun aard. Indien nodig, kunnen de vennootschappen, omwille van de transparantie, tevens het verschil tussen de boekhoudkundige en de reële waarde van de betrokken afgeleide financiële instrumenten weergeven. 
 
 [^1]: De Commissie wenst te beklemtonen dat, gezien haar bevoegdheid, dit advies niet geldt voor de boekhoudkundige verwerking van afgeleide financiële instrumenten door ondernemingen uit de financiële sector zoals banken, kredietinstellingen en verzekeringsondernemingen.
 

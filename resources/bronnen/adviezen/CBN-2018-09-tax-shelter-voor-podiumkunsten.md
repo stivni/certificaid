@@ -1,6 +1,52 @@
 ---
-nummer: CBN-advies 2018/09
+bron: https://www.cbn-cnc.be/nl/adviezen/tax-shelter-voor-podiumkunsten
 datum: 2018-05-30
+gerelateerde_adviezen:
+  - datum: '2015-09-09'
+    titel: Boekhoudkundige verwerking van de tax shelter in hoofde van de productievennootschap (raamovereenkomsten getekend vanaf 1 januari 2015)
+    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-tax-shelter-in-hoofde-van-de-productievennootschap
+  - datum: '2015-05-13'
+    titel: Boekhoudkundige verwerking van de tax shelter in hoofde van de investeerder (raamovereenkomsten gesloten vanaf 1 januari 2015)
+    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-tax-shelter-in-hoofde-van-de-investeerder
+  - datum: '2012-04-17'
+    titel: De boekhoudkundige verwerking van de tax shelter in hoofde van de investeerder
+    url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-tax-shelter-in-hoofde-van-de-investeerder
+  - datum: '2012-03-21'
+    titel: De boekhoudkundige verwerking van de tax shelter in hoofde van de productievennootschap
+    url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-tax-shelter-in-hoofde-van-de-productievennootschap
+nummer: CBN-advies 2018/09
+provenance:
+  generated_at: '2026-05-11T13:05:08Z'
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/tax-shelter-voor-podiumkunsten
+      sha256: 107a8e48d1e0b3908d231bf190f771cb4ca5e58dc8a2ad683c52910874450f8b
+      version:
+  stale: false
+  stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
+  trust:
+    confirmed_at: '2026-05-11T12:21:40Z'
+    confirmed_by: subagent-sonnet-4-6
+    layer1:
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:29Z'
+      heading_count: 3
+      max_section_chars: 3340
+      file_size_chars: 4913
+      flags: []
+    layer2:
+      agent: subagent-sonnet-4-6
+      concrete_problemen: []
+      rationale: Geen ETL-artefacten gevonden. Kort advies (3 headings, heading_count klopt) met correcte structuur, complete voetnoten [^1] t/m [^8], en inhoud volledig (inleiding + verwerking investeerder + verwerking producent). Geen malformed italic, geen TOC-residu, geen gebroken zinnen.
+      run_at: '2026-05-11T12:21:40Z'
+      status: trusted
+    rationale: Geen ETL-artefacten gevonden. Kort advies (3 headings, heading_count klopt) met correcte structuur, complete voetnoten [^1] t/m [^8], en inhoud volledig (inleiding + verwerking investeerder + verwerking producent). Geen malformed italic, geen TOC-residu, geen gebroken zinnen.
+    status: trusted
 themas:
   - tax shelter
   - belasting
@@ -11,60 +57,13 @@ themas:
   - immateriële vaste activa
   - kapitaalsubsidie
   - uitgestelde belasting
-bron: https://www.cbn-cnc.be/nl/adviezen/tax-shelter-voor-podiumkunsten
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/tax-shelter-voor-podiumkunsten
-      sha256: 107a8e48d1e0b3908d231bf190f771cb4ca5e58dc8a2ad683c52910874450f8b
-      version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:37:21Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: trusted
-    confirmed_at: '2026-05-11T12:21:40Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: Geen ETL-artefacten gevonden. Kort advies (3 headings, heading_count klopt) met correcte structuur, complete voetnoten [^1] t/m [^8], en inhoud volledig (inleiding + verwerking investeerder + verwerking producent). Geen malformed italic, geen TOC-residu, geen gebroken zinnen.
-    layer1:
-      status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 3
-      max_section_chars: 3341
-      file_size_chars: 4915
-      flags: []
-    layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:21:40Z'
-      rationale: Geen ETL-artefacten gevonden. Kort advies (3 headings, heading_count klopt) met correcte structuur, complete voetnoten [^1] t/m [^8], en inhoud volledig (inleiding + verwerking investeerder + verwerking producent). Geen malformed italic, geen TOC-residu, geen gebroken zinnen.
-      concrete_problemen: []
-gerelateerde_adviezen:
-  - titel: Boekhoudkundige verwerking van de tax shelter in hoofde van de productievennootschap (raamovereenkomsten getekend vanaf 1 januari 2015)
-    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-tax-shelter-in-hoofde-van-de-productievennootschap
-    datum: '2015-09-09'
-  - titel: Boekhoudkundige verwerking van de tax shelter in hoofde van de investeerder (raamovereenkomsten gesloten vanaf 1 januari 2015)
-    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-tax-shelter-in-hoofde-van-de-investeerder
-    datum: '2015-05-13'
-  - titel: De boekhoudkundige verwerking van de tax shelter in hoofde van de investeerder
-    url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-tax-shelter-in-hoofde-van-de-investeerder
-    datum: '2012-04-17'
-  - titel: De boekhoudkundige verwerking van de tax shelter in hoofde van de productievennootschap
-    url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-tax-shelter-in-hoofde-van-de-productievennootschap
-    datum: '2012-03-21'
 ---
 
 # CBN-advies 2018/09 – Tax shelter voor podiumkunsten
 
 ## Inleiding
 
-De tax shelter voor de productie van podiumwerken[^2]
- is een uitbreiding van de tax shelterregeling voor audiovisuele werken[^3]. Deze uitbreiding is van toepassing op de raamovereenkomsten ondertekend vanaf 1 februari 2017.[^4] 
+De tax shelter voor de productie van podiumwerken[^2] is een uitbreiding van de tax shelterregeling voor audiovisuele werken[^3]. Deze uitbreiding is van toepassing op de raamovereenkomsten ondertekend vanaf 1 februari 2017.[^4] 
 
 De regeling bestaat erin dat een fiscale vrijstelling wordt toegekend aan investeerders die financieel bijdragen aan de productie van een podiumwerk. In artikel 194*ter* en 19*4ter/*1 van het Wetboek van de Inkomstenbelastingen 1992 (hierna: WIB 92) worden de voorwaarden, beperkingen en voorschriften van deze vrijstelling bepaald.
 
@@ -80,10 +79,9 @@ De boekhoudkundige verwerking in hoofde van de producent van een podiumwerk loop
 
 Net zoals bij de productie van een audiovisueel werk moet de producent bij de evaluatie van een zelf geproduceerd werk rekening houden met artikel 60 KB W.Venn. dat verbiedt dat een immaterieel vast actief op het actief wordt geboekt voor een waarde, bepaald op basis van de vervaardigingsprijs, die hoger is dan een voorzichtige raming van de gebruikswaarde of het toekomstig rendement voor de vennootschap van dit vast actief.[^6] 
 
-Wanneer de uitgaven die werden gemaakt voor de productie van het podiumwerk in aanmerking komen voor activering zal, net zoals voor een audiovisueel werk, het actief worden geboekt op de rekening 211 *Immateriële vaste activa *en dient een passende afschrijving[^7]
- te worden toegepast.
+Wanneer de uitgaven die werden gemaakt voor de productie van het podiumwerk in aanmerking komen voor activering zal, net zoals voor een audiovisueel werk, het actief worden geboekt op de rekening 211 *Immateriële vaste activa* en dient een passende afschrijving[^7] te worden toegepast.
 
-Afhankelijk van de wijze waarop de onderneming de uitgaven voor het podiumwerk boekhoudkundig zal verwerken, zullen de door de investeerders ingetekende bedragen, net zoals bij de tax shelterregeling voor audiovisuele werken, worden geboekt met als tegenpost de rekening 15 Kapitaalsubsidies (en 1680* Uitgestelde belastingen*) of de rekening 499 *Wachtrekening*.[^8] 
+Afhankelijk van de wijze waarop de onderneming de uitgaven voor het podiumwerk boekhoudkundig zal verwerken, zullen de door de investeerders ingetekende bedragen, net zoals bij de tax shelterregeling voor audiovisuele werken, worden geboekt met als tegenpost de rekening 15 Kapitaalsubsidies (en 1680* Uitgestelde belastingen*) of de rekening 499* Wachtrekening*.[^8] 
 
 [^1]: Onderhavig advies is tot stand gekomen nadat een ontwerpadvies op 11 januari 2018 ter publieke consultatie werd gepubliceerd op de website van de CBN
 

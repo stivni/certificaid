@@ -1,48 +1,48 @@
 ---
-nummer: CBN-advies 103/3
-datum: 1988-06-01
-themas:
-  - lijnagent
-  - omzet
-  - reder
-  - tussenpersoon
 bron: https://www.cbn-cnc.be/nl/adviezen/omzet-van-lijnagenten
+datum: 1988-06-01
+gerelateerde_adviezen:
+  - datum: '1977-08-01'
+    titel: Omzet - Tussenpersonen
+    url: https://www.cbn-cnc.be/nl/adviezen/omzet-tussenpersonen
+nummer: CBN-advies 103/3
 provenance:
+  generated_at: '2026-05-11T13:05:05Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/omzet-van-lijnagenten
       sha256: 2648f6d828657e492f73a3dd5ae3dd9e826af14e97235075369a52161c3df90d
       version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:33:44Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
   trust:
-    status: trusted
     confirmed_at: '2026-05-11T11:51:19Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: Correct opgebouwd advies zonder headings (terecht voor deze lengte). Technische term *agency fee* correct gecursiveerd. Twee voetnoten correct gedefinieerd en gekoppeld. Geen artefacten.
     layer1:
       status: pass
-      run_id: 20260511-083333
-      run_at:
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:24Z'
       heading_count: 0
       max_section_chars: 1996
       file_size_chars: 1996
       flags: []
     layer2:
-      status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T11:51:19Z'
-      rationale: Correct opgebouwd advies zonder headings (terecht voor deze lengte). Technische term *agency fee* correct gecursiveerd. Twee voetnoten correct gedefinieerd en gekoppeld. Geen artefacten.
       concrete_problemen: []
-gerelateerde_adviezen:
-  - titel: Omzet - Tussenpersonen
-    url: https://www.cbn-cnc.be/nl/adviezen/omzet-tussenpersonen
-    datum: '1977-08-01'
+      rationale: Correct opgebouwd advies zonder headings (terecht voor deze lengte). Technische term *agency fee* correct gecursiveerd. Twee voetnoten correct gedefinieerd en gekoppeld. Geen artefacten.
+      run_at: '2026-05-11T11:51:19Z'
+      status: trusted
+    rationale: Correct opgebouwd advies zonder headings (terecht voor deze lengte). Technische term *agency fee* correct gecursiveerd. Twee voetnoten correct gedefinieerd en gekoppeld. Geen artefacten.
+    status: trusted
+themas:
+  - lijnagent
+  - omzet
+  - reder
+  - tussenpersoon
 ---
 
 # CBN-advies 103/3 - Omzet van lijnagenten

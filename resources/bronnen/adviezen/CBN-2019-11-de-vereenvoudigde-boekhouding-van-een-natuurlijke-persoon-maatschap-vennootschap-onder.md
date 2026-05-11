@@ -1,6 +1,52 @@
 ---
-nummer: CBN-advies 2019/11
+bron: https://www.cbn-cnc.be/nl/adviezen/de-vereenvoudigde-boekhouding-van-een-natuurlijke-persoon-maatschap-vennootschap-onder
 datum: 2019-10-28
+gerelateerde_adviezen:
+  - datum: '2020-04-30'
+    titel: Verenigingen en stichtingen – Vereenvoudigde boekhouding - Waarderingsregels
+    url: https://www.cbn-cnc.be/nl/adviezen/verenigingen-en-stichtingen-vereenvoudigde-boekhouding-waarderingsregels
+  - datum: '2019-11-06'
+    titel: Groottecriteria verenigingen en stichtingen - schema van de jaarrekening - begroting
+    url: https://www.cbn-cnc.be/nl/adviezen/groottecriteria-verenigingen-en-stichtingen-schema-van-de-jaarrekening-begroting
+  - datum: '2019-09-30'
+    titel: De boekhoudkundige en jaarrekeningrechtelijke verplichtingen van een beoefenaar van een vrij beroep
+    url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-en-jaarrekeningrechtelijke-verplichtingen-van-een-beoefenaar-van-een-0
+  - datum: '2009-02-11'
+    titel: Model van ongesplitst dagboek zoals bedoeld in artikel 2 van het koninklijk besluit van 26 juni 2003 betreffende de vereenvoudigde boekhouding van bepaalde VZW’s, stichtingen en IVZW’s
+    url: https://www.cbn-cnc.be/nl/adviezen/model-van-ongesplitst-dagboek-zoals-bedoeld-in-artikel-2-van-het-koninklijk-besluit-van-26
+nummer: CBN-advies 2019/11
+provenance:
+  generated_at: '2026-05-11T13:05:08Z'
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/de-vereenvoudigde-boekhouding-van-een-natuurlijke-persoon-maatschap-vennootschap-onder
+      sha256: 3c04ef6d99ed0ab7b0f356366bbe3e31bd0434fcdcddeef4b7e86c115df5f0cc
+      version:
+  stale: false
+  stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
+  trust:
+    confirmed_at: '2026-05-11T12:21:40Z'
+    confirmed_by: subagent-sonnet-4-6
+    layer1:
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:30Z'
+      heading_count: 14
+      max_section_chars: 9540
+      file_size_chars: 13811
+      flags: []
+    layer2:
+      agent: subagent-sonnet-4-6
+      concrete_problemen: []
+      rationale: 'Geen zichtbare extractie-artefacten. Heading-hiërarchie correct (# → ## → ### → ####), alle voetnoten gedefinieerd en aanwezig, inhoud compleet van inleiding tot publicatieverplichting. Laag-1 pass bevestigd.'
+      run_at: '2026-05-11T12:21:40Z'
+      status: trusted
+    rationale: 'Geen zichtbare extractie-artefacten. Heading-hiërarchie correct (# → ## → ### → ####), alle voetnoten gedefinieerd en aanwezig, inhoud compleet van inleiding tot publicatieverplichting. Laag-1 pass bevestigd.'
+    status: trusted
 themas:
   - vereenvoudigde boekhouding
   - omzet
@@ -16,52 +62,6 @@ themas:
   - VOF
   - CommV
   - niet-recurrente ontvangsten
-bron: https://www.cbn-cnc.be/nl/adviezen/de-vereenvoudigde-boekhouding-van-een-natuurlijke-persoon-maatschap-vennootschap-onder
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/de-vereenvoudigde-boekhouding-van-een-natuurlijke-persoon-maatschap-vennootschap-onder
-      sha256: 3c04ef6d99ed0ab7b0f356366bbe3e31bd0434fcdcddeef4b7e86c115df5f0cc
-      version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:37:42Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: trusted
-    confirmed_at: '2026-05-11T12:21:40Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: 'Geen zichtbare extractie-artefacten. Heading-hiërarchie correct (# → ## → ### → ####), alle voetnoten gedefinieerd en aanwezig, inhoud compleet van inleiding tot publicatieverplichting. Laag-1 pass bevestigd.'
-    layer1:
-      status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 14
-      max_section_chars: 9532
-      file_size_chars: 13804
-      flags: []
-    layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:21:40Z'
-      rationale: 'Geen zichtbare extractie-artefacten. Heading-hiërarchie correct (# → ## → ### → ####), alle voetnoten gedefinieerd en aanwezig, inhoud compleet van inleiding tot publicatieverplichting. Laag-1 pass bevestigd.'
-      concrete_problemen: []
-gerelateerde_adviezen:
-  - titel: Verenigingen en stichtingen – Vereenvoudigde boekhouding - Waarderingsregels
-    url: https://www.cbn-cnc.be/nl/adviezen/verenigingen-en-stichtingen-vereenvoudigde-boekhouding-waarderingsregels
-    datum: '2020-04-30'
-  - titel: Groottecriteria verenigingen en stichtingen - schema van de jaarrekening - begroting
-    url: https://www.cbn-cnc.be/nl/adviezen/groottecriteria-verenigingen-en-stichtingen-schema-van-de-jaarrekening-begroting
-    datum: '2019-11-06'
-  - titel: De boekhoudkundige en jaarrekeningrechtelijke verplichtingen van een beoefenaar van een vrij beroep
-    url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-en-jaarrekeningrechtelijke-verplichtingen-van-een-beoefenaar-van-een-0
-    datum: '2019-09-30'
-  - titel: Model van ongesplitst dagboek zoals bedoeld in artikel 2 van het koninklijk besluit van 26 juni 2003 betreffende de vereenvoudigde boekhouding van bepaalde VZW’s, stichtingen en IVZW’s
-    url: https://www.cbn-cnc.be/nl/adviezen/model-van-ongesplitst-dagboek-zoals-bedoeld-in-artikel-2-van-het-koninklijk-besluit-van-26
-    datum: '2009-02-11'
 ---
 
 # CBN-advies 2019/11 – De vereenvoudigde boekhouding van een natuurlijke persoon, maatschap, vennootschap onder firma en commanditaire vennootschap: groottecriteria – omzetdefinitie
@@ -96,11 +96,10 @@ Een besloten vennootschap (BV), een coöperatieve vennootschap (CV), een naamloz
 
 #### Probleemstelling
 
-De mogelijkheid tot het voeren van een vereenvoudigde boekhouding is uitsluitend voorbehouden voor de hoger vermelde boekhoudplichtige ondernemingen mits het bedrag van de omzet, exclusief btw, over het laatste boekjaar kleiner is dan of gelijk is aan 500.000[^3]
- euro.
+De mogelijkheid tot het voeren van een vereenvoudigde boekhouding is uitsluitend voorbehouden voor de hoger vermelde boekhoudplichtige ondernemingen mits het bedrag van de omzet, exclusief btw, over het laatste boekjaar kleiner is dan of gelijk is aan 500.000[^3] euro.
 
-Tot vóór de inwerkingtreding van de wet van 15 april 2018 *houdende hervorming van het ondernemingsrecht* viseerde het boekhoudrecht uitsluitend de personen die daden van koophandel stelden of de rechtsvorm hadden aangenomen van een handelsvennootschap.[^4] Bijgevolg was er geen twijfel over wat begrepen moest worden onder het begrip omzet geformuleerd in artikel 1 van het KB van 12 september 1983 (I) *tot uitvoering van de wet van 17 juli 1975 op de boekhouding van de ondernemingen*. Ingevolge de verruiming van het ondernemingsbegrip[^5]
- en de overeenkomstige uitbreiding van het toepassingsgebied van de ondernemingen die onderworpen zijn aan het boekhoudrecht, is een verduidelijking van het omzetbegrip voor de toepassing van artikel III.85, § 1 WER noodzakelijk gebleken.
+Tot vóór de inwerkingtreding van de wet van 15 april 2018 *houdende hervorming van het ondernemingsrecht* viseerde het boekhoudrecht uitsluitend de personen die daden van koophandel stelden of de rechtsvorm hadden aangenomen van een handelsvennootschap.[^4]
+ Bijgevolg was er geen twijfel over wat begrepen moest worden onder het begrip omzet geformuleerd in artikel 1 van het KB van 12 september 1983 (I) *tot uitvoering van de wet van 17 juli 1975 op de boekhouding van de ondernemingen*. Ingevolge de verruiming van het ondernemingsbegrip[^5] en de overeenkomstige uitbreiding van het toepassingsgebied van de ondernemingen die onderworpen zijn aan het boekhoudrecht, is een verduidelijking van het omzetbegrip voor de toepassing van artikel III.85, § 1 WER noodzakelijk gebleken.
 
 De Commissie merkt op dat ook de aansprakelijkheidsbeperking zoals bepaald in artikel 2:57 WVV, geplafonneerd wordt in functie van onder meer de *omzet*. 
 
@@ -110,21 +109,19 @@ Voor ondernemingen die een boekhouding voeren volgens de gebruikelijke regels va
 
 #### Omzetdefinitie bij een vereenvoudigde boekhouding
 
-Voor de ondernemingen die een vereenvoudigde boekhouding voeren, moet op grond van artikel I.1, eerste lid, 16° WER[^7]
- onder *omzet *worden verstaan het bedrag van de *andere dan niet-recurrente ontvangsten*, exclusief btw. In dat geval wordt met ontvangsten bedoeld alle ontvangsten ongeacht of deze een opbrengst uitmaken in de zin van een boekhouding gevoerd volgens de regels van het dubbel boekhouden. 
+Voor de ondernemingen die een vereenvoudigde boekhouding voeren, moet op grond van artikel I.1, eerste lid, 16° WER[^7] onder *omzet* worden verstaan het bedrag van de *andere dan niet-recurrente ontvangsten*, exclusief btw. In dat geval wordt met ontvangsten bedoeld alle ontvangsten ongeacht of deze een opbrengst uitmaken in de zin van een boekhouding gevoerd volgens de regels van het dubbel boekhouden. 
 
-## Voorbeeld 1
+### *Voorbeeld 1* 
 
-Zo betekent de verkoop van een machine die duurzaam wordt gebruikt voor de bedrijfsuitoefening voor een bedrag van 100 een *ontvangst *van 100 ongeacht de boekwaarde die deze machine zou hebben gehad indien een boekhouding zou zijn gevoerd volgens de regels van het dubbel boekhouden. In een boekhouding die gevoerd wordt volgens de regels van het dubbel boekhouden wordt slechts het verschil tussen de boekwaarde en de verkoopprijs in de resultatenrekening als opbrengst geboekt. Als evenwel de verkoop van zo’n machine niet recurrent is, wat veelal het geval zal zijn, moet deze niet meegeteld worden in de berekening van het bedoelde criterium. Met recurrent wordt bedoeld dat het gaat om courant voorkomende ontvangsten voor de betrokken entiteit die dus niet uitzonderlijk zijn.
+Zo betekent de verkoop van een machine die duurzaam wordt gebruikt voor de bedrijfsuitoefening voor een bedrag van 100 een *ontvangst* van 100 ongeacht de boekwaarde die deze machine zou hebben gehad indien een boekhouding zou zijn gevoerd volgens de regels van het dubbel boekhouden. In een boekhouding die gevoerd wordt volgens de regels van het dubbel boekhouden wordt slechts het verschil tussen de boekwaarde en de verkoopprijs in de resultatenrekening als opbrengst geboekt. Als evenwel de verkoop van zo’n machine niet recurrent is, wat veelal het geval zal zijn, moet deze niet meegeteld worden in de berekening van het bedoelde criterium. Met recurrent wordt bedoeld dat het gaat om courant voorkomende ontvangsten voor de betrokken entiteit die dus niet uitzonderlijk zijn.
 
-## Voorbeeld 2
+### *Voorbeeld 2* 
 
-Een vennootschap onder firma koopt en verkoopt regelmatig individuele aandelen via euronext. De verkoop van een aandeel voor een bedrag van 100 betekent aldus een *ontvangst *van 100 ongeacht de boekwaarde die dit aandeel zou hebben gehad indien een boekhouding zou zijn gevoerd volgens de regels van het dubbel boekhouden. In een boekhouding die gevoerd wordt volgens de regels van het dubbel boekhouden wordt slechts het verschil tussen de boekwaarde en de verkoopprijs in de resultatenrekening als opbrengst geboekt.
+Een vennootschap onder firma koopt en verkoopt regelmatig individuele aandelen via euronext. De verkoop van een aandeel voor een bedrag van 100 betekent aldus een *ontvangst* van 100 ongeacht de boekwaarde die dit aandeel zou hebben gehad indien een boekhouding zou zijn gevoerd volgens de regels van het dubbel boekhouden. In een boekhouding die gevoerd wordt volgens de regels van het dubbel boekhouden wordt slechts het verschil tussen de boekwaarde en de verkoopprijs in de resultatenrekening als opbrengst geboekt.
 
-## Voorbeeld 3
+### *Voorbeeld 3* 
 
-Het vermogen van een maatschap bestaat uit een aandelenparticipatie en een bankrekening, de maatschap heeft geen schulden. De maatschap houdt deze aandelenparticipatie, die bestaat uit 9 procent van de aandelen van een naamloze vennootschap, reeds vele jaren ongewijzigd aan en ontvangt hieruit een jaarlijks dividend van 130.000 euro. Tijdens het boekjaar wordt opnieuw een dividend ontvangen van 130.000 euro, wordt een superdividend ontvangen van 400.000 euro en wordt vervolgens 1 procent van de aandelenparticipatie verkocht voor een bedrag van 300.000 euro. De bankrekening genereert tijdens het boekjaar een interest van 300 euro. Het bedrag van de *andere dan niet-recurrente ontvangsten* bedraagt in dit geval 130.300[^8]
- euro.
+Het vermogen van een maatschap bestaat uit een aandelenparticipatie en een bankrekening, de maatschap heeft geen schulden. De maatschap houdt deze aandelenparticipatie, die bestaat uit 9 procent van de aandelen van een naamloze vennootschap, reeds vele jaren ongewijzigd aan en ontvangt hieruit een jaarlijks dividend van 130.000 euro. Tijdens het boekjaar wordt opnieuw een dividend ontvangen van 130.000 euro, wordt een superdividend ontvangen van 400.000 euro en wordt vervolgens 1 procent van de aandelenparticipatie verkocht voor een bedrag van 300.000 euro. De bankrekening genereert tijdens het boekjaar een interest van 300 euro. Het bedrag van de *andere dan niet-recurrente ontvangsten* bedraagt in dit geval 130.300[^8] euro.
 
 ### Prorata wanneer het boekjaar korter of langer is dan 12 maanden 
 
@@ -134,8 +131,7 @@ De berekening van het aantal maanden dat een boekjaar bestrijkt wanneer het boek
 
 ### Eerste boekjaar 
 
-De boekhoudplichtige onderneming mag tijdens het eerste boekjaar dat zij boekhoudplichtig wordt een vereenvoudigde boekhouding voeren indien uit vooruitzichten te goeder trouw blijkt dat het grensbedrag van 500.000[^11]
- euro tijdens dit eerste boekjaar niet zal worden overschreden.[^12] 
+De boekhoudplichtige onderneming mag tijdens het eerste boekjaar dat zij boekhoudplichtig wordt een vereenvoudigde boekhouding voeren indien uit vooruitzichten te goeder trouw blijkt dat het grensbedrag van 500.000[^11] euro tijdens dit eerste boekjaar niet zal worden overschreden.[^12] 
 
 ## Jaarlijkse keuze
 
@@ -153,8 +149,7 @@ De Commissie merkt op dat de:
 - natuurlijke personen die zelfstandig een beroepsactiviteit uitoefenen hun jaarrekening niet openbaar moeten maken;[^16] 
 - organisaties zonder rechtspersoonlijkheid hun jaarrekening niet openbaar moeten maken;[^17] 
 - VOF en de CommV hun jaarrekening niet openbaar moeten maken indien alle onbeperkt aansprakelijke vennoten natuurlijke personen zijn;[^18] 
-- VOF en de CommV hun jaarrekening niet openbaar moeten maken indien deze worden aangemerkt als een kleine[^19]
- vennootschap[^20]. 
+- VOF en de CommV hun jaarrekening niet openbaar moeten maken indien deze worden aangemerkt als een kleine[^19] vennootschap[^20]. 
 
 [^1]: Onderhavig advies is tot stand gekomen nadat een ontwerpadvies op 7 juni 2019 ter publieke consultatie werd gepubliceerd op de website van de CBN.
 

@@ -1,6 +1,60 @@
 ---
-nummer: CBN-advies R101/1
+bron: https://www.cbn-cnc.be/nl/adviezen/zakelijke-waarborgen-gesteld-voor-rekening-van-derden
 datum: 1980-06-01
+gerelateerde_adviezen:
+  - datum: '2021-05-12'
+    titel: Invloed van het buitengerechtelijk minnelijk akkoord en de gerechtelijke reorganisatie op de schulden en vorderingen (update)
+    url: https://www.cbn-cnc.be/nl/adviezen/invloed-van-het-buitengerechtelijk-minnelijk-akkoord-en-de-gerechtelijke-reorganisatie-1
+  - datum: '2020-12-11'
+    titel: Boekhoudkundige verwerking van de aan-/verkoop van een actief via een geblokkeerde rekening
+    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-aan-verkoop-van-een-actief-via-een-geblokkeerde-0
+  - datum: '2018-11-16'
+    titel: Schulden gewaarborgd door een zakelijke zekerheid – Niet in de balans opgenomen rechten en verplichtingen
+    url: https://www.cbn-cnc.be/nl/adviezen/schulden-gewaarborgd-door-een-zakelijke-zekerheid-niet-in-de-balans-opgenomen-rechten-en
+  - datum: '2018-05-09'
+    titel: Gebeurtenissen na afsluitingsdatum van het boekjaar
+    url: https://www.cbn-cnc.be/nl/adviezen/gebeurtenissen-na-afsluitingsdatum-van-het-boekjaar
+nummer: CBN-advies R101/1
+provenance:
+  generated_at: '2026-05-11T13:05:05Z'
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/zakelijke-waarborgen-gesteld-voor-rekening-van-derden
+      sha256: dd346a1d84ea751247cf3d70d6316785147f7a5e680b36ea1ceb22e549ac5e51
+      version:
+  stale: false
+  stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
+  trust:
+    confirmed_at: '2026-05-11T11:51:19Z'
+    confirmed_by: subagent-sonnet-4-6
+    layer1:
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:24Z'
+      heading_count: 0
+      max_section_chars: 3525
+      file_size_chars: 3525
+      flags: []
+    layer2:
+      agent: subagent-sonnet-4-6
+      concrete_problemen:
+        - categorie: E2
+          regel: 66
+          type: pseudo-table
+          voorbeeld: '| 01 | | Waarborgen gesteld voor rekening van derden | (3 cols vs 5 cols sub-rijen)'
+        - categorie: D3
+          regel: 82
+          type: other
+          voorbeeld: '[^2] en [^3] identieke tekst, enkel ''cfr.'' vs ''cf.'' verschil — duplicate scrape'
+      rationale: 'E2: de twee pipe-tabellen (regels 66-68 en 70-72) hebben inconsistente kolomaantallen — de ''moeder''-rijen hebben 3 kolommen (4 pipes) terwijl de ''kind''-rijen 5 kolommen hebben (6 pipes). Dit rendert als gebroken tabel in elke markdown-parser. D3: voetnoot [^2] en [^3] zijn inhoudelijk bijna identiek (duplicaat tekst, alleen kleine stijlverschillen), wat wijst op een scraping-artefact waarbij dezelfde noot tweemaal werd gevangen.'
+      run_at: '2026-05-11T11:51:19Z'
+      status: needs-rework
+    rationale: 'E2: de twee pipe-tabellen (regels 66-68 en 70-72) hebben inconsistente kolomaantallen — de ''moeder''-rijen hebben 3 kolommen (4 pipes) terwijl de ''kind''-rijen 5 kolommen hebben (6 pipes). Dit rendert als gebroken tabel in elke markdown-parser. D3: voetnoot [^2] en [^3] zijn inhoudelijk bijna identiek (duplicaat tekst, alleen kleine stijlverschillen), wat wijst op een scraping-artefact waarbij dezelfde noot tweemaal werd gevangen.'
+    status: needs-rework
 themas:
   - niet in de balans opgenomen rechten en verplichtingen
   - rekeningenstelsel
@@ -11,60 +65,6 @@ themas:
   - zakelijke waarborgen gesteld voor rekening van derden
   - zakelijke zekerheden
   - zekerheden
-bron: https://www.cbn-cnc.be/nl/adviezen/zakelijke-waarborgen-gesteld-voor-rekening-van-derden
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/zakelijke-waarborgen-gesteld-voor-rekening-van-derden
-      sha256: dd346a1d84ea751247cf3d70d6316785147f7a5e680b36ea1ceb22e549ac5e51
-      version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:33:38Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T11:51:19Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "E2: de twee pipe-tabellen (regels 66-68 en 70-72) hebben inconsistente kolomaantallen — de 'moeder'-rijen hebben 3 kolommen (4 pipes) terwijl de 'kind'-rijen 5 kolommen hebben (6 pipes). Dit rendert als gebroken tabel in elke markdown-parser. D3: voetnoot [^2] en [^3] zijn inhoudelijk bijna identiek (duplicaat tekst, alleen kleine stijlverschillen), wat wijst op een scraping-artefact waarbij dezelfde noot tweemaal werd gevangen."
-    layer1:
-      status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 0
-      max_section_chars: 3525
-      file_size_chars: 3525
-      flags: []
-    layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T11:51:19Z'
-      rationale: "E2: de twee pipe-tabellen (regels 66-68 en 70-72) hebben inconsistente kolomaantallen — de 'moeder'-rijen hebben 3 kolommen (4 pipes) terwijl de 'kind'-rijen 5 kolommen hebben (6 pipes). Dit rendert als gebroken tabel in elke markdown-parser. D3: voetnoot [^2] en [^3] zijn inhoudelijk bijna identiek (duplicaat tekst, alleen kleine stijlverschillen), wat wijst op een scraping-artefact waarbij dezelfde noot tweemaal werd gevangen."
-      concrete_problemen:
-        - regel: 66
-          categorie: E2
-          type: pseudo-table
-          voorbeeld: '| 01 | | Waarborgen gesteld voor rekening van derden | (3 cols vs 5 cols sub-rijen)'
-        - regel: 82
-          categorie: D3
-          type: other
-          voorbeeld: "[^2] en [^3] identieke tekst, enkel 'cfr.' vs 'cf.' verschil — duplicate scrape"
-gerelateerde_adviezen:
-  - titel: Invloed van het buitengerechtelijk minnelijk akkoord en de gerechtelijke reorganisatie op de schulden en vorderingen (update)
-    url: https://www.cbn-cnc.be/nl/adviezen/invloed-van-het-buitengerechtelijk-minnelijk-akkoord-en-de-gerechtelijke-reorganisatie-1
-    datum: '2021-05-12'
-  - titel: Boekhoudkundige verwerking van de aan-/verkoop van een actief via een geblokkeerde rekening
-    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-aan-verkoop-van-een-actief-via-een-geblokkeerde-0
-    datum: '2020-12-11'
-  - titel: Schulden gewaarborgd door een zakelijke zekerheid – Niet in de balans opgenomen rechten en verplichtingen
-    url: https://www.cbn-cnc.be/nl/adviezen/schulden-gewaarborgd-door-een-zakelijke-zekerheid-niet-in-de-balans-opgenomen-rechten-en
-    datum: '2018-11-16'
-  - titel: Gebeurtenissen na afsluitingsdatum van het boekjaar
-    url: https://www.cbn-cnc.be/nl/adviezen/gebeurtenissen-na-afsluitingsdatum-van-het-boekjaar
-    datum: '2018-05-09'
 ---
 
 # CBN-advies R101/1 - Zakelijke waarborgen gesteld voor rekening van derden

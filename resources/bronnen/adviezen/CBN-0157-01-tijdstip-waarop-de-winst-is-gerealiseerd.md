@@ -1,6 +1,56 @@
 ---
-nummer: CBN-advies 157/1
+bron: https://www.cbn-cnc.be/nl/adviezen/tijdstip-waarop-de-winst-is-gerealiseerd
 datum: 1988-12-01
+gerelateerde_adviezen:
+  - datum: '2019-04-12'
+    titel: Gevolgen op gebied van financiële rapportering als gevolg van de brexit
+    url: https://www.cbn-cnc.be/nl/adviezen/gevolgen-op-gebied-van-financiele-rapportering-als-gevolg-van-de-brexit-0
+  - datum: '2016-09-07'
+    titel: 'Bestellingen in uitvoering: wijzigingen door het koninklijk besluit van 18 december 2015'
+    url: https://www.cbn-cnc.be/nl/adviezen/bestellingen-in-uitvoering-wijzigingen-door-het-koninklijk-besluit-van-18-december-2015
+  - datum: '2015-09-30'
+    titel: Boekhoudkundige verwerking van de aankoop van een onroerend goed bestemd voor verkoop
+    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-aankoop-van-een-onroerend-goed-bestemd-voor-verkoop
+  - datum: '2012-10-10'
+    titel: Bestellingen in uitvoering
+    url: https://www.cbn-cnc.be/nl/adviezen/bestellingen-in-uitvoering
+nummer: CBN-advies 157/1
+provenance:
+  generated_at: '2026-05-11T13:05:06Z'
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/tijdstip-waarop-de-winst-is-gerealiseerd
+      sha256: 947de518276cc54f43cb9d8fc1f073c58445cbd6a249cd913dcdacb205927dc1
+      version:
+  stale: false
+  stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
+  trust:
+    confirmed_at: '2026-05-11T12:04:42Z'
+    confirmed_by: subagent-sonnet-4-6
+    layer1:
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:26Z'
+      heading_count: 0
+      max_section_chars: 1603
+      file_size_chars: 1603
+      flags: []
+    layer2:
+      agent: subagent-sonnet-4-6
+      concrete_problemen:
+        - categorie: B3
+          regel: 62
+          type: other
+          voorbeeld: 'CBN-advies 157/1 - Tijdstip waarop de winst is gerealiseerd '
+      rationale: 'B3: regel 62 herhaalt de paginatitel als plain-text alinea direct onder de # heading (duplicate-page-title-heading patroon, identiek aan CBN-0154). Inhoud volledig en voetnoten afwezig (geen citaties in de body), wat klopt voor dit korte advies.'
+      run_at: '2026-05-11T12:04:42Z'
+      status: needs-rework
+    rationale: 'B3: regel 62 herhaalt de paginatitel als plain-text alinea direct onder de # heading (duplicate-page-title-heading patroon, identiek aan CBN-0154). Inhoud volledig en voetnoten afwezig (geen citaties in de body), wat klopt voor dit korte advies.'
+    status: needs-rework
 themas:
   - bestellingen in uitvoering
   - realisatie
@@ -9,56 +59,6 @@ themas:
   - tijdstip waarop winst is gerealiseerd
   - winstrealisatie
   - bestellingen in uitvoering
-bron: https://www.cbn-cnc.be/nl/adviezen/tijdstip-waarop-de-winst-is-gerealiseerd
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/tijdstip-waarop-de-winst-is-gerealiseerd
-      sha256: 947de518276cc54f43cb9d8fc1f073c58445cbd6a249cd913dcdacb205927dc1
-      version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:35:26Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T12:04:42Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: 'B3: regel 62 herhaalt de paginatitel als plain-text alinea direct onder de # heading (duplicate-page-title-heading patroon, identiek aan CBN-0154). Inhoud volledig en voetnoten afwezig (geen citaties in de body), wat klopt voor dit korte advies.'
-    layer1:
-      status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 0
-      max_section_chars: 1603
-      file_size_chars: 1603
-      flags: []
-    layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:04:42Z'
-      rationale: 'B3: regel 62 herhaalt de paginatitel als plain-text alinea direct onder de # heading (duplicate-page-title-heading patroon, identiek aan CBN-0154). Inhoud volledig en voetnoten afwezig (geen citaties in de body), wat klopt voor dit korte advies.'
-      concrete_problemen:
-        - regel: 62
-          categorie: B3
-          type: other
-          voorbeeld: 'CBN-advies 157/1 - Tijdstip waarop de winst is gerealiseerd '
-gerelateerde_adviezen:
-  - titel: Gevolgen op gebied van financiële rapportering als gevolg van de brexit
-    url: https://www.cbn-cnc.be/nl/adviezen/gevolgen-op-gebied-van-financiele-rapportering-als-gevolg-van-de-brexit-0
-    datum: '2019-04-12'
-  - titel: 'Bestellingen in uitvoering: wijzigingen door het koninklijk besluit van 18 december 2015'
-    url: https://www.cbn-cnc.be/nl/adviezen/bestellingen-in-uitvoering-wijzigingen-door-het-koninklijk-besluit-van-18-december-2015
-    datum: '2016-09-07'
-  - titel: Boekhoudkundige verwerking van de aankoop van een onroerend goed bestemd voor verkoop
-    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-aankoop-van-een-onroerend-goed-bestemd-voor-verkoop
-    datum: '2015-09-30'
-  - titel: Bestellingen in uitvoering
-    url: https://www.cbn-cnc.be/nl/adviezen/bestellingen-in-uitvoering
-    datum: '2012-10-10'
 ---
 
 # CBN-advies 157/1 - Tijdstip waarop de winst is gerealiseerd

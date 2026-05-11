@@ -1,6 +1,39 @@
 ---
-nummer: CBN-advies 2019/14
+bron: https://www.cbn-cnc.be/nl/adviezen/van-een-kapitaalhoudende-bvba-naar-een-kapitaalloze-bv
 datum: 2019-11-13
+nummer: CBN-advies 2019/14
+provenance:
+  generated_at: '2026-05-11T13:05:08Z'
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/van-een-kapitaalhoudende-bvba-naar-een-kapitaalloze-bv
+      sha256: 317be01978f6d7661cb8f62f4084a59221307bf02a12f6e9eea3814bb9fe71ad
+      version:
+  stale: false
+  stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
+  trust:
+    confirmed_at: '2026-05-11T12:21:40Z'
+    confirmed_by: subagent-sonnet-4-6
+    layer1:
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:30Z'
+      heading_count: 13
+      max_section_chars: 5783
+      file_size_chars: 13851
+      flags: []
+    layer2:
+      agent: subagent-sonnet-4-6
+      concrete_problemen: []
+      rationale: Geen extractie-artefacten. Heading-hiërarchie correct, rekeningschema correct als ingesprongen blok, journaalboekingen als pipe-tabellen goed weergegeven. Inhoud compleet van inleiding tot opt-in en statutenaanpassing.
+      run_at: '2026-05-11T12:21:40Z'
+      status: trusted
+    rationale: Geen extractie-artefacten. Heading-hiërarchie correct, rekeningschema correct als ingesprongen blok, journaalboekingen als pipe-tabellen goed weergegeven. Inhoud compleet van inleiding tot opt-in en statutenaanpassing.
+    status: trusted
 themas:
   - besloten vennootschap
   - kapitaal
@@ -14,39 +47,6 @@ themas:
   - omvorming kapitaal
   - wettelijke reserve
   - opt-in
-bron: https://www.cbn-cnc.be/nl/adviezen/van-een-kapitaalhoudende-bvba-naar-een-kapitaalloze-bv
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/van-een-kapitaalhoudende-bvba-naar-een-kapitaalloze-bv
-      sha256: 317be01978f6d7661cb8f62f4084a59221307bf02a12f6e9eea3814bb9fe71ad
-      version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:37:44Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: trusted
-    confirmed_at: '2026-05-11T12:21:40Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: Geen extractie-artefacten. Heading-hiërarchie correct, rekeningschema correct als ingesprongen blok, journaalboekingen als pipe-tabellen goed weergegeven. Inhoud compleet van inleiding tot opt-in en statutenaanpassing.
-    layer1:
-      status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 7
-      max_section_chars: 5784
-      file_size_chars: 13835
-      flags: []
-    layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:21:40Z'
-      rationale: Geen extractie-artefacten. Heading-hiërarchie correct, rekeningschema correct als ingesprongen blok, journaalboekingen als pipe-tabellen goed weergegeven. Inhoud compleet van inleiding tot opt-in en statutenaanpassing.
-      concrete_problemen: []
 ---
 
 # CBN-advies 2019/14 – Van een kapitaalhoudende BVBA naar een kapitaalloze BV
@@ -55,18 +55,15 @@ provenance:
 
 Met de wet van 23 maart 2019 tot invoering van het Wetboek van vennootschappen en verenigingen en houdende diverse bepalingen wordt het concept ‘maatschappelijk kapitaal’ afgeschaft voor de besloten vennootschap.[^2] 
 
-Met onderhavig advies verduidelijkt de Commissie de wijze waarop een inbreng buiten kapitaal[^3]
- boekhoudkundig moet worden verwerkt. Hierbij wordt in het bijzonder aandacht besteed aan de overgang van een BVBA mét een kapitaal naar een kapitaalloze BV. Onderhavig advies heeft geen betrekking op de boekhoudkundige verwerking van de inbreng in een (I)VZW of een stichting.
+Met onderhavig advies verduidelijkt de Commissie de wijze waarop een inbreng buiten kapitaal[^3] boekhoudkundig moet worden verwerkt. Hierbij wordt in het bijzonder aandacht besteed aan de overgang van een BVBA mét een kapitaal naar een kapitaalloze BV. Onderhavig advies heeft geen betrekking op de boekhoudkundige verwerking van de inbreng in een (I)VZW of een stichting.
 
 ## Nieuwe benaming en onderverdeling van de rekening 11 *Inbreng buiten kapitaal*
 
-De minimumindeling van het algemeen rekeningenstelsel (hierna: MAR) werd aangepast[^4]
- opdat passende rekeningen voorhanden zouden zijn voor de inbrengen in kapitaalloze vennootschappen zonder het gebruik van de rekening 100 *Kapitaal*. Voor kapitaalhoudende[^5]
- vennootschappen blijft het gebruik van de rekening 100 *Kapitaal *en de rekening 101 *Niet-opgevraagd kapitaal* ongewijzigd.
+De minimumindeling van het algemeen rekeningenstelsel (hierna: MAR) werd aangepast[^4] opdat passende rekeningen voorhanden zouden zijn voor de inbrengen in kapitaalloze vennootschappen zonder het gebruik van de rekening 100 *Kapitaal*. Voor kapitaalhoudende[^5] vennootschappen blijft het gebruik van de rekening 100* Kapitaal *en de rekening 101* Niet-opgevraagd kapitaal* ongewijzigd.
 
 Voor de kapitaalloze boekhoudplichtige ondernemingen, andere dan de (I)VZW’s en de stichtingen, wordt voortaan de rekening 11 van het MAR gebruikt voor de ontvangen of toegekende inbrengen. De rekening 11 heeft een nieuwe benaming gekregen - *Inbreng buiten kapitaal* - en wordt verder onderverdeeld als volgt:
 
-**11 Inbreng buiten kapitaal** 
+## 11 Inbreng buiten kapitaal
 
      110 Beschikbare inbreng buiten kapitaal 
 
@@ -85,15 +82,15 @@ In de jaarrekening van een kapitaalloze vennootschap worden de bedragen geboekt 
 
 ## Inbreng in een vanaf 1 mei 2019 opgerichte BV of in een vennootschap overgegaan in een BV
 
-Een BV opgericht na 1 mei 2019 heeft geen kapitaal. De rubriek I. *Inbreng *bevat het ingebrachte vermogen, dat bestaat uit de bedongen waarde van alle door de aandeelhouders toegezegde inbrengen in geld of in natura[^7], voor zover niet terug uitgekeerd. Iedere nieuwe uitgifte van aandelen vereist een statutenwijziging.[^8]
+Een BV opgericht na 1 mei 2019 heeft geen kapitaal. De rubriek I. *Inbreng* bevat het ingebrachte vermogen, dat bestaat uit de bedongen waarde van alle door de aandeelhouders toegezegde inbrengen in geld of in natura[^7], voor zover niet terug uitgekeerd. Iedere nieuwe uitgifte van aandelen vereist een statutenwijziging.[^8]
  Een verhoging van de inbreng kan echter ook plaatsvinden zonder uitgifte van bijkomende aandelen. In dergelijk geval heeft de verhoging van de inbreng niet noodzakelijk een statutenwijziging tot gevolg.[^9]
  In dat geval aanvaardt de algemene vergadering de verhoging van de inbreng zonder uitgifte van nieuwe aandelen bij een gewoon meerderheidsbesluit. Dit besluit wordt vastgesteld bij authentieke akte[^10], doch zonder dat daaraan bijzondere bekendmakingsverplichtingen zijn verbonden aangezien dergelijke verrichting geen nadeel aan derden kan toebrengen en in de jaarrekening van de vennootschap moet worden weergegeven.[^11] 
 
-Het ingebrachte eigen vermogen, bij oprichting of bij een latere verhoging van de inbreng, wordt in principe geboekt onder 110 *Beschikbare inbreng buiten kapitaal* en meer in het bijzonder op de rekening 1109 *Andere*. Wanneer het ingebrachte eigen vermogen krachtens de statuten onbeschikbaar is, wordt het ingebrachte vermogen evenwel geboekt op de passende subrekening van de rekening 111 *Onbeschikbare inbreng buiten kapitaal*.
+Het ingebrachte eigen vermogen, bij oprichting of bij een latere verhoging van de inbreng, wordt in principe geboekt onder 110 *Beschikbare inbreng buiten kapitaal* en meer in het bijzonder op de rekening 1109 *Andere*. Wanneer het ingebrachte eigen vermogen krachtens de statuten onbeschikbaar is, wordt het ingebrachte vermogen evenwel geboekt op de passende subrekening van de rekening 111* Onbeschikbare inbreng buiten kapitaal*.
 
 Behoudens andersluidende statutaire bepalingen wordt het ingebrachte vermogen onmiddellijk volledig volstort.[^12]
  In voorkomend geval wordt het niet-opgevraagde gedeelte geboekt op het debet van een overeenstemmende subrekening van de rekening waarop het ingebrachte vermogen wordt geboekt. Op deze wijze wordt het in de jaarrekening uitgedrukte eigen vermogen gecorrigeerd met de bedragen die nog niet werden opgevraagd. De vordering op de aandeelhouder die slechts opeisbaar wordt vanaf de opvraging door het bestuursorgaan wordt aldus op een correcte wijze in de boekhouding opgenomen. Deze boekings- en voorstellingswijze is volledig in overeenstemming met het reeds gekende gebruik van de rekening 101 *Niet-opgevraagd kapitaal* bij een kapitaalhoudende vennootschap.[^13]
- Op het ogenblik van het opvragen van de nog niet gestorte inbreng wordt vervolgens voormelde subrekening gecrediteerd en wordt de vordering op de aandeelhouder geboekt aan debetzijde op de rekening 410 *Opgevraagd, niet gestort kapitaal of inbreng[^14] *. De Commissie merkt op dat met de jaarrekening een lijst moet worden neergelegd bij de Nationale Bank van België met opgave van het aantal geplaatste aandelen, de gedane stortingen en de lijst van de aandeelhouders die hun aandelen niet hebben volgestort, met vermelding van het bedrag dat zij nog verschuldigd zijn.[^15] 
+ Op het ogenblik van het opvragen van de nog niet gestorte inbreng wordt vervolgens voormelde subrekening gecrediteerd en wordt de vordering op de aandeelhouder geboekt aan debetzijde op de rekening 410 *Opgevraagd, niet gestort kapitaal of inbreng[^14]* . De Commissie merkt op dat met de jaarrekening een lijst moet worden neergelegd bij de Nationale Bank van België met opgave van het aantal geplaatste aandelen, de gedane stortingen en de lijst van de aandeelhouders die hun aandelen niet hebben volgestort, met vermelding van het bedrag dat zij nog verschuldigd zijn.[^15] 
 
 ## Inbreng bij een bestaande BVBA die een BV wordt
 
@@ -105,7 +102,7 @@ Het niet-gestorte gedeelte van het kapitaal wordt op dezelfde wijze omgevormd in
 
 Ingevolge de omvorming vinden aldus de volgende boekingen plaats:
 
-Omvorming kapitaal
+### Omvorming kapitaal
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
@@ -114,21 +111,23 @@ Omvorming kapitaal
 | aan | 1119 | Andere onbeschikbare inbreng buiten kapitaal | | XXX |
 | | 101 | Niet-opgevraagd kapitaal | XXX | |
 
-Omvorming wettelijke reserve
+### Omvorming wettelijke reserve
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 130 | Wettelijke reserves | XXX | |
 | aan | 1311 | Statutair onbeschikbare reserves | | XXX |
 
-Opvraging niet-gestorte inbreng
+### 
+
+### Opvraging niet-gestorte inbreng
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 410 | Opgevraagd, niet gestort kapitaal of inbreng | XXX | |
 | aan | 11901 | Niet-opgevraagde andere onbeschikbare inbreng buiten kapitaal | | XXX |
 
-Storting van de opgevraagde inbreng
+### Storting van de opgevraagde inbreng
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
@@ -141,8 +140,7 @@ Een BVBA kan zich evenwel vrijwillig vroeger onderwerpen aan de bepalingen van h
 
 ### Aanpassing van de statuten 
 
-De formele aanpassing van de statuten[^19]
- van een BVBA die een BV wordt, vindt plaats op een datum die bepaald wordt in functie van de toestand waarin de vennootschap zich bevindt:
+De formele aanpassing van de statuten[^19] van een BVBA die een BV wordt, vindt plaats op een datum die bepaald wordt in functie van de toestand waarin de vennootschap zich bevindt:
 
 - indien de BVBA zich vrijwillig vóór 1 januari 2020 aan de bepalingen van het WVV wil onderwerpen, moet zij verplicht haar statuten aanpassen aan het WVV en zijn deze bepalingen van toepassing vanaf de bekendmaking van deze statutenwijziging, maar ten vroegste op 1 mei 2019; 
 

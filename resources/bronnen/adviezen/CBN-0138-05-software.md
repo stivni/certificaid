@@ -1,6 +1,49 @@
 ---
-nummer: CBN-advies 138/5
+bron: https://www.cbn-cnc.be/nl/adviezen/software
 datum: 1995-10-01
+gerelateerde_adviezen:
+  - datum: '1995-03-01'
+    titel: Boekhoudkundige verwerking van afvalstoffen
+    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-afvalstoffen
+  - datum: '1996-11-01'
+    titel: Boeking en waardering van voorraden
+    url: https://www.cbn-cnc.be/nl/adviezen/boeking-en-waardering-van-voorraden
+  - datum: '1986-01-01'
+    titel: 'Vervaardigingsprijs : correctie van de Nederlandse tekst van artikel 22 van het Koninklijk Besluit van 8 oktober 1976'
+    url: https://www.cbn-cnc.be/nl/adviezen/vervaardigingsprijs-correctie-van-de-nederlandse-tekst-van-artikel-22-van-het-koninklijk
+nummer: CBN-advies 138/5
+provenance:
+  generated_at: '2026-05-11T13:05:06Z'
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/software
+      sha256: ebff870067b0ffe7325d9400ce25b349b5144743046d2d6da127a68f34c820c3
+      version:
+  stale: false
+  stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
+  trust:
+    confirmed_at:
+    confirmed_by:
+    layer1:
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:26Z'
+      heading_count: 11
+      max_section_chars: 4536
+      file_size_chars: 12721
+      flags: []
+    layer2:
+      agent:
+      concrete_problemen: []
+      rationale:
+      run_at:
+      status: not_run
+    rationale: 'Trust gereset 2026-05-11: re-scrape met scraper-fixes, content-diff > 5%'
+    status: unreviewed
 themas:
   - gereed produkt
   - immateriële vaste activa
@@ -13,69 +56,6 @@ themas:
   - toepassings- of applicatiesoftware
   - toepassingssoftware bestemd voor commercialisatie
   - toepassingssoftware voor intern gebruik
-bron: https://www.cbn-cnc.be/nl/adviezen/software
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/software
-      sha256: ebff870067b0ffe7325d9400ce25b349b5144743046d2d6da127a68f34c820c3
-      version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:35:03Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T12:04:41Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: 'D4/A5: meerdere malformed italics waarbij een spatie voor de sluitende * staat (bv. *Standaardsoftware *, *testing *, *maintenance *, **A.2 Toepassingssoftware bestemd voor commercialisatie **). Regel 146 heeft een losse * * (spatie-italic) als artefact. Inhoud is volledig en inhoudelijk correct; alle vier voetnoten gekoppeld.'
-    layer1:
-      status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 5
-      max_section_chars: 6699
-      file_size_chars: 12715
-      flags: []
-    layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:04:41Z'
-      rationale: 'D4/A5: meerdere malformed italics waarbij een spatie voor de sluitende * staat (bv. *Standaardsoftware *, *testing *, *maintenance *, **A.2 Toepassingssoftware bestemd voor commercialisatie **). Regel 146 heeft een losse * * (spatie-italic) als artefact. Inhoud is volledig en inhoudelijk correct; alle vier voetnoten gekoppeld.'
-      concrete_problemen:
-        - regel: 98
-          categorie: D4
-          type: other
-          voorbeeld: a) *Standaardsoftware *
-        - regel: 116
-          categorie: D4
-          type: other
-          voorbeeld: '**A.2 Toepassingssoftware bestemd voor commercialisatie **'
-        - regel: 146
-          categorie: D4
-          type: other
-          voorbeeld: Met toepassing van artikel 37 en 38 KB W.Venn.* *omvat deze vervaardigingsprijs...
-        - regel: 155
-          categorie: D4
-          type: other
-          voorbeeld: '...de uitgaven van *coding*, *testing *en - in bepaalde gevallen - van *maintenance *die...'
-        - regel: 167
-          categorie: D4
-          type: other
-          voorbeeld: a) *Ten behoeve van derden ontwikkelde specifieke software *
-gerelateerde_adviezen:
-  - titel: Boekhoudkundige verwerking van afvalstoffen
-    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-afvalstoffen
-    datum: '1995-03-01'
-  - titel: Boeking en waardering van voorraden
-    url: https://www.cbn-cnc.be/nl/adviezen/boeking-en-waardering-van-voorraden
-    datum: '1996-11-01'
-  - titel: 'Vervaardigingsprijs : correctie van de Nederlandse tekst van artikel 22 van het Koninklijk Besluit van 8 oktober 1976'
-    url: https://www.cbn-cnc.be/nl/adviezen/vervaardigingsprijs-correctie-van-de-nederlandse-tekst-van-artikel-22-van-het-koninklijk
-    datum: '1986-01-01'
 ---
 
 # CBN-advies 138/5 - Software
@@ -111,11 +91,10 @@ Hierna wordt voor de meest voorkomende type-gevallen van softwarecreatie of -ver
 
 ## Type-gevallen voor de activering de activering en rubricering van software-uitgaven
 
-### Bij derden aangekochte, of via gebruiksrecht (tegen éénmalige vergoeding) verkregen toepassingssoftware
+Bij derden aangekochte, of via gebruiksrecht (tegen éénmalige vergoeding) verkregen toepassingssoftware
+### A.1 Toepassingssoftware bestemd voor intern gebruik
 
-**A.1 Toepassingssoftware bestemd voor intern gebruik**
-
-a) *Standaardsoftware *
+### a) *Standaardsoftware* 
 
 Voor activering is vereist dat de software gedurende een aantal boekjaren in de onderneming wordt toegepast en bijdraagt tot het verwezenlijken van het ondernemingsdoel of tot een verbeterde concurrentiepositie (bijv. via kostenbesparing, betere service,...).
 
@@ -123,7 +102,7 @@ Gaat het om standaardsoftware, dan zal in de meeste gevallen de softwareleveranc
 
 De geactiveerde kosten worden, overeenkomstig hun nuttigheids- of gebruiksduur, via afschrijvingen ten laste genomen.
 
-b) *Specifieke software* 
+### b) *Specifieke software* 
 
 In dit geval wordt de software ontwikkeld "op maat" van de onderneming. Meestal zal de softwareleverancier zijn auteursrecht op de maatprogrammatuur dan overdragen en verkrijgt de afnemer een intellectueel recht. 
 
@@ -133,7 +112,7 @@ De verwerking in de jaarrekening gebeurt dan zoals hierboven sub a).
 
 Wanneer de onderneming die de software levert, uitsluitend of in belangrijke mate op de verkrijgende onderneming is afgestemd of ermee verbonden is, is de Commissie van oordeel dat voor het bepalen van de aanschaffingsprijs ook toepassing moet worden gemaakt van de bijzondere voorzorg die vervat ligt in artikel 60, eerste lid van het koninklijk besluit van 30 januari 2001 tot uitvoering van het Wetboek van Vennootschappen (hierna: KB W.Venn.)[^4]. 
 
-**A.2 Toepassingssoftware bestemd voor commercialisatie **
+### A.2 Toepassingssoftware bestemd voor commercialisatie 
 
 Het gebeurt dat software bij derden wordt aangeschaft om, al dan niet na het doorvoeren van wijzigingen of aanpassingen, verder te worden gecommercialiseerd. 
 
@@ -145,8 +124,7 @@ Wordt de verkregen software vermenigvuldigd, dan worden de nog niet verkochte re
 
 ### Door de onderneming zelf ontwikkelde toepassingssoftware 
 
-**B.1 Toepassingssoftware voor intern gebruik (in beginsel uitsluitend specifieke software)**
-
+B.1 Toepassingssoftware voor intern gebruik (in beginsel uitsluitend specifieke software)
 Gaat het om intern ontwikkelde software, dan moet bijzondere aandacht worden besteed aan artikel 60 eerste lid KB W.Venn. waarin gesteld wordt dat : "Andere dan van derden verworven immateriële vaste activa worden slechts tegen vervaardigingsprijs op het actief geboekt voor zover die niet hoger is dan een voorzichtige raming van de gebruikswaarde of van het toekomstig rendement voor de onderneming van deze vaste activa."
 
 De immateriële vaste activa dienen identificeerbaar te zijn en toekomstige economische voordelen op te leveren. Bovendien dient de betrokken entiteit er de zeggenschap over te hebben.
@@ -172,25 +150,25 @@ Deze criteria kunnen nu toegepast worden op het ontwikkelingsproces van software
 - de programmering en beschrijving en het invoeren van controles (*coding*); 
 - het onderzoek naar de betrouwbaarheid bij het functioneren van het geprogrammeerde concept en naar de effectiviteit van de ingevoerde controles (*testing*); - het onderhoud van het programma en de opleiding van de gebruiker (*maintenance*). 
 
-In dit ontwikkelingsproces zijn het slechts de uitgaven van *coding*, *testing *en - in bepaalde gevallen - van *maintenance *die voor activering in aanmerking komen vanaf het ogenblik waarop de onderneming beslist te investeren in een vaststaand en afgebakend project waarvan de technologische en financiële haalbaarheid is aangetoond. 
+In dit ontwikkelingsproces zijn het slechts de uitgaven van *coding*,* testing *en - in bepaalde gevallen - van* maintenance *die voor activering in aanmerking komen vanaf het ogenblik waarop de onderneming beslist te investeren in een vaststaand en afgebakend project waarvan de technologische en financiële haalbaarheid is aangetoond. 
 
 Uiteraard veronderstelt dit onderscheid tussen kosten die in verband staan met de verschillende fasen van het ontwikkelingsproces, een aangepast rapporteringssysteem met de creatie van verantwoordingsstukken die de activering ondersteunen. 
 
-De uitgaven voor *maintenance *zijn de uitgaven gedaan na voltooiing van het project en de effectieve ingebruikname ervan zoals de kosten van onderhoud, documentatie en opleiding van de gebruiker. Met betrekking tot deze kosten is volgend onderscheid aangewezen. Het louter onderhoud en aanpassen van een programma zonder de aard van de toepassing zelf te wijzigen zal een in resultaat te nemen kost meebrengen; het gaat immers niet om een kost met een investeringskarakter. 
+De uitgaven voor *maintenance* zijn de uitgaven gedaan na voltooiing van het project en de effectieve ingebruikname ervan zoals de kosten van onderhoud, documentatie en opleiding van de gebruiker. Met betrekking tot deze kosten is volgend onderscheid aangewezen. Het louter onderhoud en aanpassen van een programma zonder de aard van de toepassing zelf te wijzigen zal een in resultaat te nemen kost meebrengen; het gaat immers niet om een kost met een investeringskarakter. 
 
 Indien daarentegen een fundamentele wijziging in het programma wordt aangebracht teneinde de toepassing zelf te veranderen of uit te breiden, dan is activering van de ermee gepaard gaande uitgaven wel mogelijk. 
 
-Bij activering worden deze uitgaven opgenomen in de rubriek "concessies, octrooien, licenties, *know-how*, merken en soortgelijke rechten" via het credit van rekening 72 *Geactiveerde interne productie*. De aanmaak van software binnen de onderneming is immers een verwerving van *know-how* en wordt derhalve als zodanig geboekt. De geactiveerde uitgaven dienen te worden afgeschreven overeenkomstig het door het bestuursorgaan opgemaakte afschrijvingsplan. 
+Bij activering worden deze uitgaven opgenomen in de rubriek "concessies, octrooien, licenties, *know-how*, merken en soortgelijke rechten" via het credit van rekening 72* Geactiveerde interne productie*. De aanmaak van software binnen de onderneming is immers een verwerving van* know-how* en wordt derhalve als zodanig geboekt. De geactiveerde uitgaven dienen te worden afgeschreven overeenkomstig het door het bestuursorgaan opgemaakte afschrijvingsplan. 
 
-**B.2 Software bestemd voor commercialisatie**
+### B.2 Software bestemd voor commercialisatie
 
-a) *Ten behoeve van derden ontwikkelde specifieke software *
+### a) *Ten behoeve van derden ontwikkelde specifieke software* 
 
 Het gaat hier om software die ontwikkeld wordt op contractuele basis en volledig gespecificeerd is op aanwijzingen van de klant. 
 
 Daar er meestal sprake zal zijn van een overdracht van het auteursrecht, zijn hierop de regels met betrekking tot de "bestellingen in uitvoering" van toepassing. 
 
-b) *Intern ontwikkelde standaardsoftware*
+### b) *Intern ontwikkelde standaardsoftware*
 
 In dit geval kan verwezen worden naar wat werd gesteld onder A.1. hierboven. 
 

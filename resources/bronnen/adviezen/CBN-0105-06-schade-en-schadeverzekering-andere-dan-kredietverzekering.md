@@ -1,43 +1,43 @@
 ---
-nummer: CBN-advies 105/6
-datum: 1978-07-03
-themas:
-  - schade
-  - schadeverzekering
-  - compensatie
 bron: https://www.cbn-cnc.be/nl/adviezen/schade-en-schadeverzekering-andere-dan-kredietverzekering
+datum: 1978-07-03
+nummer: CBN-advies 105/6
 provenance:
+  generated_at: '2026-05-11T13:05:05Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/schade-en-schadeverzekering-andere-dan-kredietverzekering
       sha256: cb2e6eb082f7814be3e4ca194a7922d183fcb2f83c1eb63d891641d6de97daf6
       version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:33:51Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
   trust:
-    status: trusted
     confirmed_at: '2026-05-11T11:57:45Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "Geen artefacten. Bestand is inhoudelijk volledig (vier alinea's die alle gevallen uit het advies behandelen). De `mec. nr.`-referenties zijn plain text in de body maar dat is correct: dit zijn geen URLs, maar rekeningnummer-aanduidingen uit het origineel. Italic-markup correct gesloten."
     layer1:
       status: pass
-      run_id: 20260511-083333
-      run_at:
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:24Z'
       heading_count: 0
       max_section_chars: 1971
       file_size_chars: 1971
       flags: []
     layer2:
-      status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T11:57:45Z'
-      rationale: "Geen artefacten. Bestand is inhoudelijk volledig (vier alinea's die alle gevallen uit het advies behandelen). De `mec. nr.`-referenties zijn plain text in de body maar dat is correct: dit zijn geen URLs, maar rekeningnummer-aanduidingen uit het origineel. Italic-markup correct gesloten."
       concrete_problemen: []
+      rationale: 'Geen artefacten. Bestand is inhoudelijk volledig (vier alinea''s die alle gevallen uit het advies behandelen). De `mec. nr.`-referenties zijn plain text in de body maar dat is correct: dit zijn geen URLs, maar rekeningnummer-aanduidingen uit het origineel. Italic-markup correct gesloten.'
+      run_at: '2026-05-11T11:57:45Z'
+      status: trusted
+    rationale: 'Geen artefacten. Bestand is inhoudelijk volledig (vier alinea''s die alle gevallen uit het advies behandelen). De `mec. nr.`-referenties zijn plain text in de body maar dat is correct: dit zijn geen URLs, maar rekeningnummer-aanduidingen uit het origineel. Italic-markup correct gesloten.'
+    status: trusted
+themas:
+  - schade
+  - schadeverzekering
+  - compensatie
 ---
 
 # CBN-advies 105/6 - Schade en schadeverzekering (andere dan kredietverzekering)

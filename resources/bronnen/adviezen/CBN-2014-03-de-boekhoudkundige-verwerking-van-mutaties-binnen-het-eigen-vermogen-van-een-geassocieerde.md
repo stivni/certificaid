@@ -1,6 +1,50 @@
 ---
-nummer: CBN-advies 2014/3
+bron: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-mutaties-binnen-het-eigen-vermogen-van-een-geassocieerde
 datum: 2014-04-02
+gerelateerde_adviezen:
+  - datum: '1995-03-01'
+    titel: Toerekening door de aandeelhouder van een terugbetaling van kapitaal of een uitgiftepremie of van een uitkering van reserves
+    url: https://www.cbn-cnc.be/nl/adviezen/toerekening-door-de-aandeelhouder-van-een-terugbetaling-van-kapitaal-of-een-uitgiftepremie
+  - datum: '2008-01-31'
+    titel: Advies inzake de boekhoudkundige verwerking van verrichtingen van tijdelijk vennootschappen
+    url: https://www.cbn-cnc.be/nl/adviezen/advies-inzake-de-boekhoudkundige-verwerking-van-verrichtingen-van-tijdelijk
+nummer: CBN-advies 2014/3
+provenance:
+  generated_at: '2026-05-11T13:05:08Z'
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-mutaties-binnen-het-eigen-vermogen-van-een-geassocieerde
+      sha256: dfeb550b2cb94ee3571ce6b1aa301cb8ad20d7a65283f1bbc78e5798432fb03e
+      version:
+  stale: false
+  stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
+  trust:
+    confirmed_at: '2026-05-11T12:16:34Z'
+    confirmed_by: subagent-sonnet-4-6
+    layer1:
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:29Z'
+      heading_count: 2
+      max_section_chars: 7436
+      file_size_chars: 9595
+      flags: []
+    layer2:
+      agent: subagent-sonnet-4-6
+      concrete_problemen:
+        - categorie: B5
+          regel: 57
+          type: other
+          voorbeeld: ', bijgewerkt op 25 juni 2025[^2]'
+      rationale: 'Regel 57: '', bijgewerkt op 25 juni 2025[^2]'' staat als losse tekstregel direct na de H1-titel, zonder heading of verklarende context. Dit is een extractie-artefact van een updatevermelding die door de scraper als body-tekst werd opgenomen. Hoort verwerkt te worden in de frontmatter of als cursieve subkop. Verder is het advies inhoudelijk volledig.'
+      run_at: '2026-05-11T12:16:34Z'
+      status: needs-rework
+    rationale: 'Regel 57: '', bijgewerkt op 25 juni 2025[^2]'' staat als losse tekstregel direct na de H1-titel, zonder heading of verklarende context. Dit is een extractie-artefact van een updatevermelding die door de scraper als body-tekst werd opgenomen. Hoort verwerkt te worden in de frontmatter of als cursieve subkop. Verder is het advies inhoudelijk volledig.'
+    status: needs-rework
 themas:
   - geassocieerde onderneming
   - mutaties binnen het eigen vermogen
@@ -10,50 +54,6 @@ themas:
   - kapitaalsubsidies
   - uitgiftepremie
   - reservebeweging
-bron: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-mutaties-binnen-het-eigen-vermogen-van-een-geassocieerde
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-mutaties-binnen-het-eigen-vermogen-van-een-geassocieerde
-      sha256: dfeb550b2cb94ee3571ce6b1aa301cb8ad20d7a65283f1bbc78e5798432fb03e
-      version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:36:44Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T12:16:34Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "Regel 57: ', bijgewerkt op 25 juni 2025[^2]' staat als losse tekstregel direct na de H1-titel, zonder heading of verklarende context. Dit is een extractie-artefact van een updatevermelding die door de scraper als body-tekst werd opgenomen. Hoort verwerkt te worden in de frontmatter of als cursieve subkop. Verder is het advies inhoudelijk volledig."
-    layer1:
-      status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 2
-      max_section_chars: 7436
-      file_size_chars: 9595
-      flags: []
-    layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:16:34Z'
-      rationale: "Regel 57: ', bijgewerkt op 25 juni 2025[^2]' staat als losse tekstregel direct na de H1-titel, zonder heading of verklarende context. Dit is een extractie-artefact van een updatevermelding die door de scraper als body-tekst werd opgenomen. Hoort verwerkt te worden in de frontmatter of als cursieve subkop. Verder is het advies inhoudelijk volledig."
-      concrete_problemen:
-        - regel: 57
-          categorie: B5
-          type: other
-          voorbeeld: ', bijgewerkt op 25 juni 2025[^2]'
-gerelateerde_adviezen:
-  - titel: Toerekening door de aandeelhouder van een terugbetaling van kapitaal of een uitgiftepremie of van een uitkering van reserves
-    url: https://www.cbn-cnc.be/nl/adviezen/toerekening-door-de-aandeelhouder-van-een-terugbetaling-van-kapitaal-of-een-uitgiftepremie
-    datum: '1995-03-01'
-  - titel: Advies inzake de boekhoudkundige verwerking van verrichtingen van tijdelijk vennootschappen
-    url: https://www.cbn-cnc.be/nl/adviezen/advies-inzake-de-boekhoudkundige-verwerking-van-verrichtingen-van-tijdelijk
-    datum: '2008-01-31'
 ---
 
 # CBN-advies 2014/3 – De boekhoudkundige verwerking van mutaties binnen het eigen vermogen van een geassocieerde onderneming (update)
@@ -64,13 +64,13 @@ gerelateerde_adviezen:
 
 In hetgeen volgt wenst de Commissie aan de hand van een praktisch voorbeeld te illustreren hoe wijzigingen binnen het eigen vermogen van een geassocieerde onderneming, andere dan wijzigingen ten gevolge van het resultaat van het boekjaar met uitsluiting van het gedeelte hiervan dat bij bestemming anderszins dan als dividend wordt toegekend, dienen te worden verwerkt in de geconsolideerde jaarrekening.
 
-De Commissie denkt in dit kader concreet aan de uitdrukking van een herwaarderingsmeerwaarde, de verkrijging van een kapitaalsubsidie, de overboeking van een gerealiseerde meerwaarde naar de belastingvrije reserves en het boeken van een uitgiftepremie naar aanleiding van de uitgifte van een converteerbare obligatielening. Dit zijn zogenaamde *direct-to-equity *mutaties die een wijziging van het eigen vermogen tot gevolg hebben zonder de tussenkomst van een resultaatverwerking.
+De Commissie denkt in dit kader concreet aan de uitdrukking van een herwaarderingsmeerwaarde, de verkrijging van een kapitaalsubsidie, de overboeking van een gerealiseerde meerwaarde naar de belastingvrije reserves en het boeken van een uitgiftepremie naar aanleiding van de uitgifte van een converteerbare obligatielening. Dit zijn zogenaamde *direct-to-equity* mutaties die een wijziging van het eigen vermogen tot gevolg hebben zonder de tussenkomst van een resultaatverwerking.
 
 In artikel 3:142, § 1 van het koninklijk besluit tot uitvoering van het Wetboek van vennootschappen en verenigingen (hierna: KB WVV) wordt gesteld dat volgens de vermogensmutatiemethode (verder VMM) een deelneming in de geconsolideerde balans opgenomen wordt voor het bedrag dat overeenkomt met het deel van het eigen vermogen van de geassocieerde onderneming dat deze deelneming belichaamt.
 
 Artikel 3:143 KB WVV lijkt te laten uitschijnen dat enkel het resultaat van het boekjaar, met uitsluiting van het gedeelte hiervan dat bij bestemming anderszins dan als dividend wordt toegekend, het voorwerp kan uitmaken van een wijziging aan het eigen vermogen van een geassocieerde onderneming. 
 
-Daarnaast wenst de Commissie tevens te wijzen op toelichting CONSO 5 van het model van de geconsolideerde jaarrekening, waar de consoliderende moeder een aansluiting dient te verstrekken van de geconsolideerde reserves. De impact van zogenaamde *direct-to-equity *mutaties bij de geassocieerde ondernemingen zal ook hier op een passende wijze moeten toegelicht worden.
+Daarnaast wenst de Commissie tevens te wijzen op toelichting CONSO 5 van het model van de geconsolideerde jaarrekening, waar de consoliderende moeder een aansluiting dient te verstrekken van de geconsolideerde reserves. De impact van zogenaamde *direct-to-equity* mutaties bij de geassocieerde ondernemingen zal ook hier op een passende wijze moeten toegelicht worden.
 
 ## Praktische uitwerking
 

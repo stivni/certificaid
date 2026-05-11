@@ -1,53 +1,53 @@
 ---
-nummer: CBN-advies 2016/7
+bron: https://www.cbn-cnc.be/nl/adviezen/verwerving-van-een-bedrijfstak-tegen-een-symbolische-euro
 datum: 2016-06-15
+nummer: CBN-advies 2016/7
+provenance:
+  generated_at: '2026-05-11T13:05:08Z'
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/verwerving-van-een-bedrijfstak-tegen-een-symbolische-euro
+      sha256: 8714c2cb098402345c61501cc36ea0f46964f8f7631755557c65da7e7798f5ef
+      version:
+  stale: false
+  stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
+  trust:
+    confirmed_at: '2026-05-11T12:16:34Z'
+    confirmed_by: subagent-sonnet-4-6
+    layer1:
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:29Z'
+      heading_count: 20
+      max_section_chars: 5021
+      file_size_chars: 24401
+      flags: []
+    layer2:
+      agent: subagent-sonnet-4-6
+      concrete_problemen:
+        - categorie: G3
+          regel: 395
+          type: other
+          voorbeeld: ' [^8]'
+        - categorie: A9
+          regel: 301
+          type: ocr-confusion
+          voorbeeld: Materiële vaste avtiva
+      rationale: 'Twee concrete problemen: (1) Regel 395 bevat een losstaande voetnootverwijzing '' [^8]'' als hele alinea, zonder voorafgaande zin — dit is een inline-footnote-artefact (G3/D3) waarbij de voetnootinhoud in de body belandde zonder contextzin. (2) Regel 301 bevat een typfout in de tabel (''Materiële vaste avtiva'' ipv ''activa''), wat waarschijnlijk een OCR-letterverwarring of kopieer-fout uit de bron is (A9). Verder is het bestand kwalitatief goed: 21 headings correct genest, alle voetnoten [^1]–[^9] aanwezig, tabellen in pipe-syntax.'
+      run_at: '2026-05-11T12:16:34Z'
+      status: needs-rework
+    rationale: 'Twee concrete problemen: (1) Regel 395 bevat een losstaande voetnootverwijzing '' [^8]'' als hele alinea, zonder voorafgaande zin — dit is een inline-footnote-artefact (G3/D3) waarbij de voetnootinhoud in de body belandde zonder contextzin. (2) Regel 301 bevat een typfout in de tabel (''Materiële vaste avtiva'' ipv ''activa''), wat waarschijnlijk een OCR-letterverwarring of kopieer-fout uit de bron is (A9). Verder is het bestand kwalitatief goed: 21 headings correct genest, alle voetnoten [^1]–[^9] aanwezig, tabellen in pipe-syntax.'
+    status: needs-rework
 themas:
   - badwill
   - bedrijfstak
   - goodwill
   - symbolische euro
   - voorziening
-bron: https://www.cbn-cnc.be/nl/adviezen/verwerving-van-een-bedrijfstak-tegen-een-symbolische-euro
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/verwerving-van-een-bedrijfstak-tegen-een-symbolische-euro
-      sha256: 8714c2cb098402345c61501cc36ea0f46964f8f7631755557c65da7e7798f5ef
-      version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:36:56Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T12:16:34Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "Twee concrete problemen: (1) Regel 395 bevat een losstaande voetnootverwijzing ' [^8]' als hele alinea, zonder voorafgaande zin — dit is een inline-footnote-artefact (G3/D3) waarbij de voetnootinhoud in de body belandde zonder contextzin. (2) Regel 301 bevat een typfout in de tabel ('Materiële vaste avtiva' ipv 'activa'), wat waarschijnlijk een OCR-letterverwarring of kopieer-fout uit de bron is (A9). Verder is het bestand kwalitatief goed: 21 headings correct genest, alle voetnoten [^1]–[^9] aanwezig, tabellen in pipe-syntax."
-    layer1:
-      status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 21
-      max_section_chars: 5020
-      file_size_chars: 24414
-      flags: []
-    layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:16:34Z'
-      rationale: "Twee concrete problemen: (1) Regel 395 bevat een losstaande voetnootverwijzing ' [^8]' als hele alinea, zonder voorafgaande zin — dit is een inline-footnote-artefact (G3/D3) waarbij de voetnootinhoud in de body belandde zonder contextzin. (2) Regel 301 bevat een typfout in de tabel ('Materiële vaste avtiva' ipv 'activa'), wat waarschijnlijk een OCR-letterverwarring of kopieer-fout uit de bron is (A9). Verder is het bestand kwalitatief goed: 21 headings correct genest, alle voetnoten [^1]–[^9] aanwezig, tabellen in pipe-syntax."
-      concrete_problemen:
-        - regel: 395
-          categorie: G3
-          type: other
-          voorbeeld: ' [^8]'
-        - regel: 301
-          categorie: A9
-          type: ocr-confusion
-          voorbeeld: Materiële vaste avtiva
 ---
 
 # CBN-advies 2016/7 – Verwerving van een bedrijfstak tegen een symbolische euro
@@ -70,7 +70,8 @@ De Commissie wenst te benadrukken dat enkel marktconforme transacties worden beo
 
 Volgens het Belgisch boekhoudrecht primeert weliswaar het historisch kostprijsbeginsel waardoor een initiële opname tegen marktconforme voorwaarden van de respectievelijke activa en passiva van de overgenomen bedrijfstak niet is toegelaten.
 
-In eerste instantie zal vanuit het standpunt van de overnemer de overnameprijs moeten worden bepaald. Logischerwijze vormt de symbolische euro de eerste component van de overnameprijs, daarnaast zullen tevens de overgenomen schulden worden beschouwd als een gedeelte van de overnameprijs.[^4] Als gevolg van de overname zal de overlater deze schulden niet meer dienen te betalen, hetgeen mogelijks een reden zou kunnen zijn voor de symbolische overnameprijs.
+In eerste instantie zal vanuit het standpunt van de overnemer de overnameprijs moeten worden bepaald. Logischerwijze vormt de symbolische euro de eerste component van de overnameprijs, daarnaast zullen tevens de overgenomen schulden worden beschouwd als een gedeelte van de overnameprijs.[^4]
+ Als gevolg van de overname zal de overlater deze schulden niet meer dienen te betalen, hetgeen mogelijks een reden zou kunnen zijn voor de symbolische overnameprijs.
 
 Van zodra de elementen van de overnameprijs zijn vastgesteld, is de Commissie van oordeel dat deze overnameprijs in beginsel het maximale bedrag kan uitmaken van de boekwaarde van de overgenomen activa. Er mag bijgevolg geen hogere waarde aan de overgenomen activa worden toegekend. De grondslag van deze zienswijze vinden we terug in het historisch kostprijsbeginsel. Daar de verwerving geschiedt tegen een symbolische euro en niet in aandelen, zijn de bepalingen van artikel 81 KB W.Venn. niet van toepassing waardoor de Commissie van oordeel is dat het boekhoudkundig continuïteitsbeginsel niet kan worden ingeroepen.
 
@@ -224,8 +225,7 @@ De balans na verwerving door de NV XYZ en na het aanleggen van de voorziening, k
 | Liquide middelen | | 19 | | Voorziening | | 60 | 
 | | | 80 | | | | 80 | 
 
-### Voorbeeld 3: overname van niet erkende activa (kosten van ontwikkeling) en passiva zonder bijkomende voorziening – al dan niet activeerbaar bij de overnemer
-
+Voorbeeld 3: overname van niet erkende activa (kosten van ontwikkeling) en passiva zonder bijkomende voorziening – al dan niet activeerbaar bij de overnemer
 #### Balans van de overlater
 
 De balans van de overlater, NV ABC, wordt op overnamedatum als volgt voorgesteld:
@@ -376,8 +376,7 @@ In dit voorbeeld zal de NV ABC zich terugtrekken uit een bepaalde markt aangezie
 | | Boekwaarde netto-passief | (10) | | |
 | | Overnameprijs | 1 | | |
 
-Als gevolg van de beslissing om de activiteit af te stoten, worden de betrokken activa afgewaardeerd, wordt de schuld overgelaten[^7]
-  en boekt de NV ABC een vordering van 1 EUR ten opzichte van NV XYZ.
+Als gevolg van de beslissing om de activiteit af te stoten, worden de betrokken activa afgewaardeerd, wordt de schuld overgelaten[^7] en boekt de NV ABC een vordering van 1 EUR ten opzichte van NV XYZ.
 
 De balans van de NV ABC kan dan ook als volgt worden voorgesteld:
 
@@ -399,8 +398,6 @@ De balans van de overnemer, NV XYZ, wordt vóór de overname als volgt voorgeste
 | | | 40 | | | | 40 | 
 
 In het geval van een goodwill dient als uitgangspunt het netto-passief te worden vergeleken met de overnameprijs. Het netto-passief kan als volgt worden weergegeven:
-
- [^8]
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|

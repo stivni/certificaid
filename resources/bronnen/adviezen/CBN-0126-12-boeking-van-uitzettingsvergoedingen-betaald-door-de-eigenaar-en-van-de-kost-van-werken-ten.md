@@ -1,57 +1,57 @@
 ---
-nummer: CBN-advies 126/12
+bron: https://www.cbn-cnc.be/nl/adviezen/boeking-van-uitzettingsvergoedingen-betaald-door-de-eigenaar-en-van-de-kost-van-werken-ten
 datum: 1993-02-01
+nummer: CBN-advies 126/12
+provenance:
+  generated_at: '2026-05-11T13:05:06Z'
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/boeking-van-uitzettingsvergoedingen-betaald-door-de-eigenaar-en-van-de-kost-van-werken-ten
+      sha256: dee182c834e178d07ddd553ef3a8fc93f6f80ff886fcb9e7c324449e9e02c9d0
+      version:
+  stale: false
+  stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
+  trust:
+    confirmed_at: '2026-05-11T11:57:45Z'
+    confirmed_by: subagent-sonnet-4-6
+    layer1:
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:25Z'
+      heading_count: 6
+      max_section_chars: 2587
+      file_size_chars: 7877
+      flags: []
+    layer2:
+      agent: subagent-sonnet-4-6
+      concrete_problemen:
+        - categorie: B7
+          regel: 45
+          type: other
+          voorbeeld: '# ...kost van werken ten laste van de verkoper1'
+        - categorie: B2
+          regel: 58
+          type: other
+          voorbeeld: '# (niveau 1) -> #### DE BETALING... (niveau 4), geen ## of ### ertussen'
+        - categorie: G3
+          regel: 87
+          type: other
+          voorbeeld: ' [^4][^5] (losstaande footnote-markers als paragraaf vóór tabel)'
+      rationale: 'B7: de H1-title op regel 45 eindigt op ''...ten laste van de verkoper1'' — het cijfer ''1'' is een losgekoppeld voetnootmarker die in de heading terecht is gekomen. B2: heading-hiërarchie springt van # (niveau 1) naar #### (niveau 4) zonder ## of ### ertussen. G3: inline-footnote-markers ''[^4][^5]'' en ''[^7]'' staan als losstaande blokregel vóór de tabel (regels 87 en 103) in plaats van in de tekst.'
+      run_at: '2026-05-11T11:57:45Z'
+      status: needs-rework
+    rationale: 'B7: de H1-title op regel 45 eindigt op ''...ten laste van de verkoper1'' — het cijfer ''1'' is een losgekoppeld voetnootmarker die in de heading terecht is gekomen. B2: heading-hiërarchie springt van # (niveau 1) naar #### (niveau 4) zonder ## of ### ertussen. G3: inline-footnote-markers ''[^4][^5]'' en ''[^7]'' staan als losstaande blokregel vóór de tabel (regels 87 en 103) in plaats van in de tekst.'
+    status: needs-rework
 themas:
   - kost van werken ten laste van de verkoper
   - materiële vaste activa
   - uitzettingsvergoeding
   - vergoeding wegens uitzetting
   - voorziening
-bron: https://www.cbn-cnc.be/nl/adviezen/boeking-van-uitzettingsvergoedingen-betaald-door-de-eigenaar-en-van-de-kost-van-werken-ten
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/boeking-van-uitzettingsvergoedingen-betaald-door-de-eigenaar-en-van-de-kost-van-werken-ten
-      sha256: dee182c834e178d07ddd553ef3a8fc93f6f80ff886fcb9e7c324449e9e02c9d0
-      version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:34:39Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T11:57:45Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "B7: de H1-title op regel 45 eindigt op '...ten laste van de verkoper1' — het cijfer '1' is een losgekoppeld voetnootmarker die in de heading terecht is gekomen. B2: heading-hiërarchie springt van # (niveau 1) naar #### (niveau 4) zonder ## of ### ertussen. G3: inline-footnote-markers '[^4][^5]' en '[^7]' staan als losstaande blokregel vóór de tabel (regels 87 en 103) in plaats van in de tekst."
-    layer1:
-      status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 6
-      max_section_chars: 2594
-      file_size_chars: 7895
-      flags: []
-    layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T11:57:45Z'
-      rationale: "B7: de H1-title op regel 45 eindigt op '...ten laste van de verkoper1' — het cijfer '1' is een losgekoppeld voetnootmarker die in de heading terecht is gekomen. B2: heading-hiërarchie springt van # (niveau 1) naar #### (niveau 4) zonder ## of ### ertussen. G3: inline-footnote-markers '[^4][^5]' en '[^7]' staan als losstaande blokregel vóór de tabel (regels 87 en 103) in plaats van in de tekst."
-      concrete_problemen:
-        - regel: 45
-          categorie: B7
-          type: other
-          voorbeeld: '# ...kost van werken ten laste van de verkoper1'
-        - regel: 58
-          categorie: B2
-          type: other
-          voorbeeld: '# (niveau 1) -> #### DE BETALING... (niveau 4), geen ## of ### ertussen'
-        - regel: 87
-          categorie: G3
-          type: other
-          voorbeeld: ' [^4][^5] (losstaande footnote-markers als paragraaf vóór tabel)'
 ---
 
 # CBN-advies 126/12 - Boeking van uitzettingsvergoedingen betaald door de eigenaar en van de kost van werken ten laste van de verkoper1
@@ -96,8 +96,6 @@ Voor de analyse van dit bijzonder geval moet het volgende onderscheid worden gem
 
 De boeking moet als volgt worden verricht (voor een gebouw met een netto-boekwaarde van 1 000 000 dat wordt verkocht voor 2 000 000 en waaraan de eigenaar voor 150 000 werken liet uitvoeren) : 
 
- [^4][^5]
-
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 61 | Diensten en diverse goederen | 150.000 | |
@@ -111,8 +109,6 @@ De boeking moet als volgt worden verricht (voor een gebouw met een netto-boekwaa
 ##### De verkoopakte vermeldt dat werken zullen worden uitgevoerd ten laste ven de verkoper 
 
 In dit geval moet een voorziening worden gevormd[^6] en de boeking moet als volgt worden verricht (op basis van de gegevens uit het voorbeeld *sub* a)) : 
-
- [^7]
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|

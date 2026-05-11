@@ -2,58 +2,55 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/niet-in-de-balans-opgenomen-rechten-en-verplichtingen-0
 datum: 1988-01-01
 gerelateerde_adviezen:
-- datum: '2017-03-15'
-  titel: Niet in de balans opgenomen rechten en verplichtingen
-  url: https://www.cbn-cnc.be/nl/adviezen/niet-in-de-balans-opgenomen-rechten-en-verplichtingen
+  - datum: '2017-03-15'
+    titel: Niet in de balans opgenomen rechten en verplichtingen
+    url: https://www.cbn-cnc.be/nl/adviezen/niet-in-de-balans-opgenomen-rechten-en-verplichtingen
 nummer: CBN-advies 3/2
 provenance:
-  generated_at: '2026-05-08T18:33:22Z'
+  generated_at: '2026-05-11T13:05:05Z'
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/niet-in-de-balans-opgenomen-rechten-en-verplichtingen-0
-    sha256: 9cb5fc236fcf116896c53d7729c5102ef151474280391fee0125c0d5949753e8
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/niet-in-de-balans-opgenomen-rechten-en-verplichtingen-0
+      sha256: 9cb5fc236fcf116896c53d7729c5102ef151474280391fee0125c0d5949753e8
+      version:
   stale: false
-  stale_reason: null
+  stale_reason:
   tooling:
-    model: null
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    prompt_version: null
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
   trust:
     confirmed_at: '2026-05-08T19:02:28Z'
     confirmed_by: subagent-laag2-ronde2
     layer1:
-      file_size_chars: 9297
-      flags: []
-      heading_count: 0
-      max_section_chars: 9297
-      run_at: null
-      run_id: 20260511-083333
       status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:24Z'
+      heading_count: 0
+      max_section_chars: 9295
+      file_size_chars: 9295
+      flags: []
     layer2:
       agent: subagent-laag2-ronde2
       concrete_problemen: []
-      rationale: '[Laag-2-R2 2026-05-08] Compleet advies over klasse 0-rekeningen.
-        OCR-artefacten (dubbele spaties, typo ''janari'') maar inhoud volledig leesbaar
-        en coherent.'
+      rationale: '[Laag-2-R2 2026-05-08] Compleet advies over klasse 0-rekeningen. OCR-artefacten (dubbele spaties, typo ''janari'') maar inhoud volledig leesbaar en coherent.'
       run_at: '2026-05-08T19:02:28Z'
       status: trusted
     rationale: Laag-2 trusted door subagent-laag2-ronde2 (zie layer2.rationale)
     status: trusted
 themas:
-- buiten balans
-- goederen en waarden gehouden door derden in hun naam, maar ten bate en op risico
-  van de onderneming
-- goederen en waarden van derden gehouden door de onderneming
-- niet in de balans opgenomen rechten en verplichtingen
-- ontvangen zekerheden
-- persoonlijke zekerheden gesteld voor rekening van derden
-- termijn
-- termijnovereenkomst
-- verplichting tot aan- en verkoop van vaste activa
-- zakelijke zekerheden
-- zekerheden
-- zekerheden door derden gesteld voor rekening van de onderneming
+  - buiten balans
+  - goederen en waarden gehouden door derden in hun naam, maar ten bate en op risico van de onderneming
+  - goederen en waarden van derden gehouden door de onderneming
+  - niet in de balans opgenomen rechten en verplichtingen
+  - ontvangen zekerheden
+  - persoonlijke zekerheden gesteld voor rekening van derden
+  - termijn
+  - termijnovereenkomst
+  - verplichting tot aan- en verkoop van vaste activa
+  - zakelijke zekerheden
+  - zekerheden
+  - zekerheden door derden gesteld voor rekening van de onderneming
 ---
 
 # CBN-advies 3-2 - Niet in de balans opgenomen rechten en verplichtingen
@@ -62,8 +59,7 @@ Zowel in de bepalingen zelf als in de verantwoording van de wet van 17 juli 1975
 
 Zulks betekent geenszins dat deze rechten en verplichtingen buiten het bestek vielen van de wetgeving die gold vóór de wet van 975. 
 
-Krachtens de vroegere wetsbepalingen inzake de boeken van koophandel moesten deze verplichtingen of althans sommige ervan[^1]
-  dag na dag worden geregistreerd. Bovendien schreef de vennootschapswet (thans Wetboek van vennootschappen) voor dat bij de inventaris een bijlage moest worden gevoegd, met een samenvatting van alle verplichtingen van de vennootschap[^2]. 
+Krachtens de vroegere wetsbepalingen inzake de boeken van koophandel moesten deze verplichtingen of althans sommige ervan[^1] dag na dag worden geregistreerd. Bovendien schreef de vennootschapswet (thans Wetboek van vennootschappen) voor dat bij de inventaris een bijlage moest worden gevoegd, met een samenvatting van alle verplichtingen van de vennootschap[^2]. 
 
 Het is onbetwistbaar dat de wetgeving van 1975 zeer uitdrukkelijk het belang heeft willen onderstrepen van dergelijke rechten e verplichtingen en derhalve van hun boekhoudkundige verwerking alsmede van hun integratie in de informatieverstrekking aan vennoten en derden, via de jaarrekening. 
 
@@ -87,7 +83,7 @@ Zoals aangekondigd tijdens de parlementaire werkzaamheden, bevat het koninklijk 
 
 04 Goederen en waarden gehouden door derden in hun naam, maar ten bate en op risico van de onderneming 
 
-05 Verplichtingen tot aan‐ en verkoop van vaste activa[^4] 
+05 Verplichtingen tot aan- en verkoop van vaste activa[^4] 
 
 06 Termijnovereenkomsten 
 
@@ -101,7 +97,7 @@ Het belang dat de wetgever hecht aan de boekhoudkundige registratie van rechten 
 
 Zelfs nu nog overheerst de indruk dat de boekhoudkundige registratie van dergelijke rechten en verplichtingen te weinig aandach krijgt bij de verantwoordelijken voor het administratief en boekhoudkundig beheer van de ondernemingen alsook vanwege de persoen die de jaarrekening moeten controleren en certificeren dat de boekhoudkundige voorschriften werden nageleefd (artikel 144, 2° en 3° van het Wetboek van vennootschappen). 
 
-De rekeningen van klasse 0 in het algemeen rekeningenstelsel drukken nochtans allemaal betrekkingen met derden uit, met een potentiële ‐ gunstige dan wel ongunstige ‐ weerslag op de positie van de onderneming of haar schuldeisers. 
+De rekeningen van klasse 0 in het algemeen rekeningenstelsel drukken nochtans allemaal betrekkingen met derden uit, met een potentiële - gunstige dan wel ongunstige - weerslag op de positie van de onderneming of haar schuldeisers. 
 
 Op het vlak van de boekhouding mogen deze betrekkingen met derden uiteraard niet buiten beschouwing worden gelaten. 
 
@@ -117,7 +113,7 @@ Het besluit schrijft weliswaar niet voor dat in het kader van de gewone bedrijfs
 
 Wat deze rechten en verplichtingen betreft die niet voorkomen in de rekeningen 00 tot 07 van het algemeen rekeningenstelsel, is de Commissie van oordeel dat de boekhoudkundige registratie ervan evenals de vermelding en waardering ervan in de inventari noodzakelijk zijn, althans voor zover, naar het voorschrift van artikel 25 §3 koninklijk besluit van 30 januari 2001, zij een aanmerkelijke invloed hebben op het vermogen, de financiële positie of het resultaat van de onderneming. 
 
-Vaak openen ondernemingen, om administratieve of statistische redenen, rekeningen «voor order» die geen betrekkingen met derden weergeven of die reeds in de balans‐ en resultatenrekeningen uitgedrukte betrekkingen met derden anders rangschikken. Op deze boekingen zijn voornoemde regels ‐ en de onderliggende verantwoording ‐ niet van toepassing.
+Vaak openen ondernemingen, om administratieve of statistische redenen, rekeningen «voor order» die geen betrekkingen met derden weergeven of die reeds in de balans- en resultatenrekeningen uitgedrukte betrekkingen met derden anders rangschikken. Op deze boekingen zijn voornoemde regels - en de onderliggende verantwoording - niet van toepassing.
 
 [^1]: Artikel 16 (Boek I, Titel III W.Kh.) «Elke koopman is verplicht een dagboek te hebben waarin dag na dag worden opgetekend zijn schuldvorderingen en schulden, de verrichtingen van zijn handel, zijn verhandelingen, acceptatiën of rugtekeningen van effecten, en in het algemeen al zijn ontvangsten en uitgaven van welke aard ook, ...»
 
@@ -125,4 +121,4 @@ Vaak openen ondernemingen, om administratieve of statistische redenen, rekeninge
 
 [^3]: De natuurlijke personen die koopman zijn en vennootschappen met onbeperkte aansprakelijkheid die, krachtens artikel 5 van de wet, een vereenvoudigde boekhouding mogen voeren, zijn niet verplicht deze rechten en verplichtingen te boeken. Zij moeten deze wel vermelden in hun inventaris en jaarrekening, ook al hoeven deze stukken niet te worden opgemaakt volgens de regels van het koninklijk besluit van 30 januari 2001.
 
-[^4]: Verplichtingen tot aan‐ en verkoop van vaste activa die tot de gewone bedrijfsuitoefening van de onderneming behoren en haar vermogen of resultaat nie aanmerkelijk beïnvloeden behoeven niet te worden geboekt (omschrijving van rubriek 05 in het koninklijk besluit van 12 september 1983 en artikel 97 van het koninklijk besluit van 30 janari 2001).
+[^4]: Verplichtingen tot aan- en verkoop van vaste activa die tot de gewone bedrijfsuitoefening van de onderneming behoren en haar vermogen of resultaat nie aanmerkelijk beïnvloeden behoeven niet te worden geboekt (omschrijving van rubriek 05 in het koninklijk besluit van 12 september 1983 en artikel 97 van het koninklijk besluit van 30 janari 2001).

@@ -1,6 +1,39 @@
 ---
-nummer: CBN-advies 2012/3
+bron: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-aandelenoptieplannen
 datum: 2012-01-11
+nummer: CBN-advies 2012/3
+provenance:
+  generated_at: '2026-05-11T13:05:08Z'
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-aandelenoptieplannen
+      sha256: 399b266a78e82a58dfe86c10f0f704477290e4f602384e593dc0e14cd1f56a5f
+      version:
+  stale: false
+  stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
+  trust:
+    confirmed_at: '2026-05-08T21:31:11Z'
+    confirmed_by: human
+    layer1:
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:28Z'
+      heading_count: 12
+      max_section_chars: 10646
+      file_size_chars: 24032
+      flags: []
+    layer2:
+      agent:
+      concrete_problemen: []
+      rationale:
+      run_at:
+      status: not_run
+    rationale: 'Herscraped na fix select_title(): gecombineerde H1 (COMMISSIE + titel) correct gesplitst. Inhoud ongewijzigd t.o.v. vorig vertrouwd verdict. Laag 1 pass (of benign max_section warn).'
+    status: trusted
 themas:
   - aandelenoptieplannen
   - aandelenopties
@@ -8,39 +41,6 @@ themas:
   - put-optie
   - voorziening
   - voorzieningen voor andere risico’s en kosten
-bron: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-aandelenoptieplannen
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-aandelenoptieplannen
-      sha256: 399b266a78e82a58dfe86c10f0f704477290e4f602384e593dc0e14cd1f56a5f
-      version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T21:30:08Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: trusted
-    confirmed_at: '2026-05-08T21:31:11Z'
-    confirmed_by: human
-    rationale: 'Herscraped na fix select_title(): gecombineerde H1 (COMMISSIE + titel) correct gesplitst. Inhoud ongewijzigd t.o.v. vorig vertrouwd verdict. Laag 1 pass (of benign max_section warn).'
-    layer1:
-      status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 14
-      max_section_chars: 11483
-      file_size_chars: 24059
-      flags: []
-    layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
-      concrete_problemen: []
 ---
 
 # CBN-advies 2012/3 – De boekhoudkundige verwerking van aandelenoptieplannen
@@ -55,7 +55,7 @@ De uitgifte van aandelenopties biedt de ondernemingen een instrument om bekwame 
 
 Voor de uitwerking van een dergelijk aandelenoptieplan zal de onderneming gebruik maken van *opties of warranten.* In dit advies zal de Commissie enkel de boekhoudkundige verwerkingswijze analyseren voor de toekenning van opties, die een levering van bestaande aandelen tot gevolg hebben, en die binnen de bepalingen van de Optiewet vallen.
 
-Een **aandelenoptie **is een verkoopbelofte waarbij de uitgever er zich toe verbindt aandelen te verkopen tegen een op het ogenblik van de uitgifte van de optie bepaalde prijs. Een onderscheid wordt gemaakt tussen een call-optie en een put-optie.
+Een **aandelenoptie** is een verkoopbelofte waarbij de uitgever er zich toe verbindt aandelen te verkopen tegen een op het ogenblik van de uitgifte van de optie bepaalde prijs. Een onderscheid wordt gemaakt tussen een call-optie en een put-optie.
 
 Een call-optie geeft de houder het recht om gedurende een periode of op een welbepaald ogenblik een bepaalde hoeveelheid aandelen tegen een vooraf vastgestelde prijs (de uitoefenprijs) te kopen. De verkoper verbindt er zich toe de overeengekomen hoeveelheid aandelen tegen de uitoefenprijs te leveren als de houder zijn recht wenst uit te oefenen.
 
@@ -63,7 +63,7 @@ Een put-optie geeft aan de houder het recht om over te gaan tot de verkoop van e
 
 In het kader van de werkgever-werknemer relatie zal er in hoofde van de werknemer een call-optie bestaan. De verkoopbelofte van de werkgever zal de werknemer ertoe aanzetten om aandeelhouder in de vennootschap-werkgever te worden.
 
-Het verkrijgen van een optie wordt vaak gekoppeld aan zogenaamde prestatiegerelateerde opschortende voorwaarden[^4], bijvoorbeeld een minimale periode van tewerkstelling. De periode waarbinnen deze voorwaarden moeten vervuld worden, wordt binnen de internationale financiële rapporteringspraktijk de “*vesting periode*” genoemd. Vanaf het ogenblik dat de opties *gevested *zijn*,* zijn deze verworven en kunnen deze uitgeoefend worden binnen de uitoefenperiode. Het is mogelijk dat de uitoefenperiode niet onmiddellijk aansluit op de *“vesting periode”* maar een tijdspanne wordt voorzien waarbinnen de opties niet kunnen uitgeoefend worden ook al werden deze na de *“vesting periode”* reeds definitief verworven. Tevens kunnen verschillende uitoefenperioden voorzien worden. Deze verschillende perioden worden in het volgende schema geïllustreerd: 
+Het verkrijgen van een optie wordt vaak gekoppeld aan zogenaamde prestatiegerelateerde opschortende voorwaarden[^4], bijvoorbeeld een minimale periode van tewerkstelling. De periode waarbinnen deze voorwaarden moeten vervuld worden, wordt binnen de internationale financiële rapporteringspraktijk de “*vesting periode*” genoemd. Vanaf het ogenblik dat de opties* gevested *zijn*,* zijn deze verworven en kunnen deze uitgeoefend worden binnen de uitoefenperiode. Het is mogelijk dat de uitoefenperiode niet onmiddellijk aansluit op de *“vesting periode”* maar een tijdspanne wordt voorzien waarbinnen de opties niet kunnen uitgeoefend worden ook al werden deze na de *“vesting periode”* reeds definitief verworven. Tevens kunnen verschillende uitoefenperioden voorzien worden. Deze verschillende perioden worden in het volgende schema geïllustreerd: 
 
 ## De uitgifte van aandelenopties
 
@@ -81,10 +81,9 @@ De voornaamste karakteristieken van deze toegekende aandelenopties zijn vanuit e
 
 De Commissie is van oordeel dat ondernemingen, dewelke gebruik maken van aandelenopties, inherent worden blootgesteld aan het toekomstige prijsverschil dat ontstaat tussen de uitoefenprijs van de optie en de beurskoers (voor genoteerde aandelen op een gereglementeerde of een niet-gereglementeerde markt) of reële waarde (voor niet-genoteerde aandelen) van het onderliggend aandeel op het ogenblik van de uitoefening van de optie. Daarnaast meent de Commissie te kunnen stellen dat dit toekomstig prijsverschil reeds in het jaar van de toekenning van de opties zal aanleiding geven tot een boekhoudkundige registratie. 
 
-De kost, zijnde het toekomstig prijsverschil bij uitoefening, zal worden geregistreerd op de rekening 637 *Voorzieningen voor andere risico’s en kosten.* Artikel 50 KB W. Venn. e.v. bepaalt immers dat een voorziening[^9]
- voor risico’s en kosten dient te worden erkend voor het dekken van kosten die op de balansdatum waarschijnlijk of zeker zijn, doch waarvan het bedrag niet vaststaat. De inschatting van deze toekomstige kost is een bevoegdheid die toekomt aan het bestuursorgaan van de vennootschap.
+De kost, zijnde het toekomstig prijsverschil bij uitoefening, zal worden geregistreerd op de rekening 637 *Voorzieningen voor andere risico’s en kosten.* Artikel 50 KB W. Venn. e.v. bepaalt immers dat een voorziening[^9] voor risico’s en kosten dient te worden erkend voor het dekken van kosten die op de balansdatum waarschijnlijk of zeker zijn, doch waarvan het bedrag niet vaststaat. De inschatting van deze toekomstige kost is een bevoegdheid die toekomt aan het bestuursorgaan van de vennootschap.
 
-Daarnaast bevestigt de Commissie in haar advies 173/1 *Overschakeling op de euro: boek-houdrechtelijke aspecten[^10] dat alle opbrengsten *en kosten van het boekjaar of van de voorgaande boekjaren (ingeval niet in voorgaande boekjaren in resultaat genomen), worden uitgedrukt in de resultatenrekening van het boekjaar (respectievelijk onder de opbrengsten en de kosten); anderzijds mogen opbrengsten en kosten van latere boekjaren niet aan het lopende boekjaar worden toegerekend; zij moeten worden verbonden aan het boekjaar waarop zij betrekking hebben.
+Daarnaast bevestigt de Commissie in haar advies 173/1 *Overschakeling op de euro: boek-houdrechtelijke aspecten[^10] dat alle opbrengsten* en kosten van het boekjaar of van de voorgaande boekjaren (ingeval niet in voorgaande boekjaren in resultaat genomen), worden uitgedrukt in de resultatenrekening van het boekjaar (respectievelijk onder de opbrengsten en de kosten); anderzijds mogen opbrengsten en kosten van latere boekjaren niet aan het lopende boekjaar worden toegerekend; zij moeten worden verbonden aan het boekjaar waarop zij betrekking hebben.
 
 In tegenstelling tot de erkenning als kost bestaan er tevens indekkingsstrategieën dewelke conform de principes van [advies 2010/12](De toepassing van de algemene boekhoudprincipes op afgeleide financiële instrumenten)* De toepassing van de algemene boekhoudprincipes op afgeleide financiële instrumenten[^11] * dienen te worden verwerkt (bv. de aankoop van identieke call-opties die een effectieve dekking beogen).
 
@@ -94,8 +93,7 @@ De Commissie wenst erop te wijzen dat indien een onderneming een dergelijk finan
 
 De Commissie werkt in hetgeen volgt een financieel economische benadering uit, op basis van de verwachte koers of verwachte reële waarde op het eerste moment van mogelijke uitoefening (paragraaf b); en daarnaast een benadering, op basis van de werkelijke beurskoers of reële waarde per balansdatum (paragraaf c).
 
-### b. Financieel-economische benadering op basis van de verwachte koers of verwachte reële waarde op het eerste moment van mogelijke uitoefening
-
+b. Financieel-economische benadering op basis van de verwachte koers of verwachte reële waarde op het eerste moment van mogelijke uitoefening
 In hetgeen volgt gaat de Commissie ervan uit dat de onderneming-toekenner consistent gebruik maakt van een algemeen aanvaarde methodologie dewelke courant wordt toegepast voor de bepaling van de verwachte koers of verwachte reële waarde van het onderliggend aandeel, rekening houdend met de aard van de activiteiten van de toekennende onderneming. 
 
 De Commissie is van oordeel, het voorzichtigheidsbeginsel indachtig, dat een beursgenoteerde onderneming (genoteerd op een gereglementeerde of een niet-gereglementeerde markt) op de datum van toekenning van de opties een inschatting dient te maken van het verschil tussen de verwachte beurskoers van de onderliggende aandelen op het eerste moment van mogelijke uitoefening en de vastgestelde uitoefenprijs van de opties. Dit betekent dat, indien op datum van toekenning, of later op elke balansdatum, de uitoefenprijs van de opties zich beneden de verwachte beurskoers van het onderliggende aandeel op het eerste moment van mogelijke uitoefening bevindt (m.a.w. voor zover zij *“in the money”* zijn), er een voorziening voor het prijsverschil dient te worden opgebouwd, gespreid over de periode tussen het moment van toekenning van de opties en het eerste moment van mogelijke uitoefening. 
@@ -118,8 +116,7 @@ Daarnaast heeft de toepassing van deze benadering ook tot gevolg dat de ondernem
 
 De Commissie vestigt de aandacht op het feit dat het voorspellen van een toekomstige koers of verwachte reële waarde in de meeste gevallen eerder complex is, en de werkelijke koers of reële waarde significant kan verschillen van de geschatte koers of verwachte reële waarde.
 
-### c. De erkenning van de kost op basis van de effectieve beurskoers of reële waarde per balansdatum
-
+c. De erkenning van de kost op basis van de effectieve beurskoers of reële waarde per balansdatum
 Naast de eerste benadering, is de Commissie de mening toegedaan dat een tweede methodiek op basis van de effectieve beurskoers (voor genoteerde ondernemingen op gereglementeerde of niet-gereglementeerde markten) of reële waarde (voor niet-genoteerde ondernemingen) per balansdatum, eveneens justifieerbaar is. 
 
 Daar bij de toepassing van deze methode, de werkelijke beurskoers of reële waarde van het onderliggend aandeel op balansdatum wordt vergeleken met de uitoefenprijs van de optie is er geen proratering vereist. Daar de tweede benadering een vaststaande beurskoers of reële waarde als uitgangspunt heeft, dient elk jaar een aanpassing te worden doorgevoerd naar de actueel geldende koers of reële waarde per balansdatum.
@@ -132,7 +129,7 @@ Op 1 januari 20X1 kent de NV XYZ, beursgenoteerd, 100 opties toe aan 5 kaderlede
 
 Het recht tot uitoefening van deze opties ontstaat indien de kaderleden in dienst blijven voor een periode van 5 opeenvolgende jaren na toekenning van de opties (*vesting periode*). 
 
-Echter, nadat de opties *gevested *zijn, kunnen deze pas in de eerste jaarhelft van 20X8 uitgeoefend worden.
+Echter, nadat de opties *gevested* zijn, kunnen deze pas in de eerste jaarhelft van 20X8 uitgeoefend worden.
 
 De beurskoers van het onderliggende aandeel en de verwachte uitoefeningsgraad evolueren als volgt per respectievelijke balansdatum:
 
@@ -229,16 +226,12 @@ Gedurende de uitoefenperiode in 20X8 beslissen de optiehouders hun opties te lic
 
 Aankoop van de onderliggende aandelen:
 
- [^15]
-
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 50 | Eigen aandelen | 1.200 | |
 | aan | 550 | Kredietinstellingen: rekening-courant | | 1.200 |
 
 Verkoop van de aandelen aan de optiehouders n.a.v. het lichten van zijn optie:
-
- [^16]
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|

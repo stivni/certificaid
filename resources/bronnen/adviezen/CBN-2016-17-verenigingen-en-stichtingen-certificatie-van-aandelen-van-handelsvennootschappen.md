@@ -1,65 +1,66 @@
 ---
-nummer: CBN-advies 2016/17
+bron: https://www.cbn-cnc.be/nl/adviezen/verenigingen-en-stichtingen-certificatie-van-aandelen-van-handelsvennootschappen
 datum: 2016-09-07
+gerelateerde_adviezen:
+  - datum: '2024-03-13'
+    titel: Terugbetaling van kapitaal in vreemde valuta aan de aandeelhouders
+    url: https://www.cbn-cnc.be/nl/adviezen/terugbetaling-van-kapitaal-in-vreemde-valuta-aan-de-aandeelhouders
+  - datum: '2019-03-12'
+    titel: Dividenduitkering en kapitaalvermindering in natura
+    url: https://www.cbn-cnc.be/nl/adviezen/dividenduitkering-en-kapitaalvermindering-in-natura-0
+  - datum: '2016-03-09'
+    titel: Verrichtingen met betrekking tot inschrijvingsrechten
+    url: https://www.cbn-cnc.be/nl/adviezen/verrichtingen-met-betrekking-tot-inschrijvingsrechten
+  - datum: '2011-02-25'
+    titel: 'Consolidatiekring: interpretatie van de uitsluitingsgrond van  artikel 107, 4° KB W.Venn.'
+    url: https://www.cbn-cnc.be/nl/adviezen/consolidatiekring-interpretatie-van-de-uitsluitingsgrond-van-artikel-107-4deg-kb-wvenn
+nummer: CBN-advies 2016/17
+provenance:
+  generated_at: '2026-05-11T13:05:08Z'
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/verenigingen-en-stichtingen-certificatie-van-aandelen-van-handelsvennootschappen
+      sha256: 72e8ba1e43c6167b2d3a6758e6876c39c537df510ed6b9bd77f5f8351ef3cd4a
+      version:
+  stale: false
+  stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
+  trust:
+    confirmed_at:
+    confirmed_by:
+    layer1:
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:29Z'
+      heading_count: 4
+      max_section_chars: 4526
+      file_size_chars: 9787
+      flags: []
+    layer2:
+      agent:
+      concrete_problemen: []
+      rationale:
+      run_at:
+      status: not_run
+    rationale: 'Trust gereset 2026-05-11: re-scrape met scraper-fixes, content-diff > 5%'
+    status: unreviewed
 themas:
   - aandelen
   - certificatie
   - certificering
   - gecertificeerde aandelen
   - economische eigendom
-bron: https://www.cbn-cnc.be/nl/adviezen/verenigingen-en-stichtingen-certificatie-van-aandelen-van-handelsvennootschappen
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/verenigingen-en-stichtingen-certificatie-van-aandelen-van-handelsvennootschappen
-      sha256: 72e8ba1e43c6167b2d3a6758e6876c39c537df510ed6b9bd77f5f8351ef3cd4a
-      version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:37:02Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: trusted
-    confirmed_at: '2026-05-11T12:16:34Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: 'Alle categorieën schoon. Drie niveaus headings (##, ###) correct gebruikt; 14 voetnoten volledig gedefinieerd; geen extractie-artefacten, geen gebroken opmaak. De en-dash in de titel is consistent en intentioneel.'
-    layer1:
-      status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 5
-      max_section_chars: 5700
-      file_size_chars: 9789
-      flags: []
-    layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:16:34Z'
-      rationale: 'Alle categorieën schoon. Drie niveaus headings (##, ###) correct gebruikt; 14 voetnoten volledig gedefinieerd; geen extractie-artefacten, geen gebroken opmaak. De en-dash in de titel is consistent en intentioneel.'
-      concrete_problemen: []
-gerelateerde_adviezen:
-  - titel: Terugbetaling van kapitaal in vreemde valuta aan de aandeelhouders
-    url: https://www.cbn-cnc.be/nl/adviezen/terugbetaling-van-kapitaal-in-vreemde-valuta-aan-de-aandeelhouders
-    datum: '2024-03-13'
-  - titel: Dividenduitkering en kapitaalvermindering in natura
-    url: https://www.cbn-cnc.be/nl/adviezen/dividenduitkering-en-kapitaalvermindering-in-natura-0
-    datum: '2019-03-12'
-  - titel: Verrichtingen met betrekking tot inschrijvingsrechten
-    url: https://www.cbn-cnc.be/nl/adviezen/verrichtingen-met-betrekking-tot-inschrijvingsrechten
-    datum: '2016-03-09'
-  - titel: 'Consolidatiekring: interpretatie van de uitsluitingsgrond van  artikel 107, 4° KB W.Venn.'
-    url: https://www.cbn-cnc.be/nl/adviezen/consolidatiekring-interpretatie-van-de-uitsluitingsgrond-van-artikel-107-4deg-kb-wvenn
-    datum: '2011-02-25'
 ---
 
 # CBN-advies 2016/17 – Verenigingen en stichtingen: certificatie van aandelen van handelsvennootschappen
 
 ## Inleiding
 
-De certificatie van effecten is een techniek die werd geregeld bij de wet van 15 juli 1998 betreffende de certificatie van effecten uitgegeven door handelsvennootschappen. In het kader van de aan Commissie voor boekhoudkundige normen toegekende adviesbevoegdheid met betrekking tot de boekhoudkundige bepalingen van toepassing op ondernemingen[^2], heeft de Commissie op 21 februari 2002 een advies uitgebracht met betrekking tot de jaarrekeningrechtelijke aspecten van de certificatie van aandelen van handelsvennootschappen.[^3] Het voormelde advies is *mutatis mutandis* van toepassing op verenigingen zonder winstoogmerk, stichtingen en internationale verenigingen zonder winstoogmerk.[^4] 
+De certificatie van effecten is een techniek die werd geregeld bij de wet van 15 juli 1998 betreffende de certificatie van effecten uitgegeven door handelsvennootschappen. In het kader van de aan Commissie voor boekhoudkundige normen toegekende adviesbevoegdheid met betrekking tot de boekhoudkundige bepalingen van toepassing op ondernemingen[^2], heeft de Commissie op 21 februari 2002 een advies uitgebracht met betrekking tot de jaarrekeningrechtelijke aspecten van de certificatie van aandelen van handelsvennootschappen.[^3]
+ Het voormelde advies is *mutatis mutandis* van toepassing op verenigingen zonder winstoogmerk, stichtingen en internationale verenigingen zonder winstoogmerk.[^4] 
 
 Onderhavig advies strekt ertoe een aantal elementen te verduidelijken die specifiek gelden voor verenigingen of stichtingen. Hierbij wordt een onderscheid gemaakt tussen een vereniging zonder winstoogmerk, stichting of internationale vereniging zonder winstoogmerk zoals bedoeld in de artikelen 17, § 3, 37, § 3, 53, § 3 van de Wet van 27 juni 1921 betreffende de verenigingen zonder winstoogmerk, de internationale verenigingen zonder winstoogmerk en de stichtingen (hierna: grote vereniging(en) of stichting(en)) en deze die niet zijn bedoeld in de respectievelijke artikelen 17, § 3, 37, § 3 en 53, § 3 van voormelde wet (hierna: kleine vereniging(en) of stichting(en)).
 
@@ -71,21 +72,22 @@ Een kleine vereniging of stichting voert haar boekhouding volgens de bepalingen 
 
 De gecertificeerde aandelen worden in de boekhouding van de emittent buiten de balans gehouden wanneer de emittent van de certificaten volledig en onherroepelijk afstand heeft gedaan van de economische eigendom van de aandelen ten gunste van de houders van de certificaten.
 
-Het behoort inderdaad tot de essentie van het certificaat dat het in de toekomst economische voordelen aan de houder ervan zal verschaffen aangezien het certificaat de “economische eigendom” van de aandelen vertegenwoordigt. Wat de gecertificeerde aandelen betreft, ook al vertegenwoordigen ze een bepaald economisch belang en ook al kunnen ze een belangrijke invloed hebben op het vermogen, de financiële positie of het resultaat van de onderneming, hun louter aleatoire waardering doet de Commissie besluiten dat ze best buiten balans worden geboekt.[^6] Dit impliceert dat deze certificatie van de aandelen op een passende wijze in de toelichting, die integraal deel uitmaakt van de verplicht neer te leggen jaarrekening, moet[^7] worden vermeld.
+Het behoort inderdaad tot de essentie van het certificaat dat het in de toekomst economische voordelen aan de houder ervan zal verschaffen aangezien het certificaat de “economische eigendom” van de aandelen vertegenwoordigt. Wat de gecertificeerde aandelen betreft, ook al vertegenwoordigen ze een bepaald economisch belang en ook al kunnen ze een belangrijke invloed hebben op het vermogen, de financiële positie of het resultaat van de onderneming, hun louter aleatoire waardering doet de Commissie besluiten dat ze best buiten balans worden geboekt.[^6]
+ Dit impliceert dat deze certificatie van de aandelen op een passende wijze in de toelichting, die integraal deel uitmaakt van de verplicht neer te leggen jaarrekening, moet[^7] worden vermeld.
 
 De gecertificeerde aandelen zullen aldus niet voorkomen in het genormaliseerd minimaal schema van de staat van het vermogen zoals bedoeld in Bijlage C bij het KB van 26 juni 2003 betreffende de vereenvoudigde boekhouding van bepaalde verenigingen zonder winstoogmerk, internationale verenigingen zonder winstoogmerk en stichtingen. Wel moet een passende vermelding worden opgenomen in rubriek 5. *Belangrijke rechten en verplichtingen die niet in cijfers kunnen worden weergegeven* (art. 14) van het schema van de bijlage C bij het KB van 26 juni 2003 betreffende de vereenvoudigde boekhouding van bepaalde verenigingen zonder winstoogmerk, internationale verenigingen zonder winstoogmerk en stichtingen.
 
 Mocht uit de certificatieovereenkomst evenwel blijken dat de emittent van de certificaten niet volledig en onherroepelijk afstand heeft gedaan van de economische eigendom van de aandelen ten gunste van de houders van de certificaten, dan moeten de respectievelijke rechten van de bij de verrichting betrokken partijen boekhoudkundig verwerkt worden door rekening te houden met de economische realiteit.[^8] 
 
-### Boekhoudkundige verwerking van de opbrengsten en inkomsten van de gecertificeerde aandelen
-
-Indien de storting van de door de emittent ontvangen bedragen aan de houder van de certificaten onmiddellijk en na een korte periode gebeurt[^9], is de Commissie van oordeel dat de emittent van de certificaten de opbrengsten van de aandelen ontvangt voor rekening van de houder van de certificaten, wat ertoe leidt dat de ontvangen opbrengsten (bruto of netto na voorheffing naargelang deze al of niet wordt ingehouden door de uitkerende vennootschap) in het dagboek[^10] van de emittent, moeten worden geregistreerd, in voorkomend geval na aftrek van eventueel gemaakte kosten. Deze ontvangsten worden ingeschreven onder de post *Andere ontvangsten*. De doorgestorte bedragen worden in het voormelde dagboek ingeschreven onder de post *Andere uitgaven*.
+Boekhoudkundige verwerking van de opbrengsten en inkomsten van de gecertificeerde aandelen
+Indien de storting van de door de emittent ontvangen bedragen aan de houder van de certificaten onmiddellijk en na een korte periode gebeurt[^9], is de Commissie van oordeel dat de emittent van de certificaten de opbrengsten van de aandelen ontvangt voor rekening van de houder van de certificaten, wat ertoe leidt dat de ontvangen opbrengsten (bruto of netto na voorheffing naargelang deze al of niet wordt ingehouden door de uitkerende vennootschap) in het dagboek[^10] van de emittent, moeten worden geregistreerd, in voorkomend geval na aftrek van eventueel gemaakte kosten. Deze ontvangsten worden ingeschreven onder de post *Andere ontvangsten*. De doorgestorte bedragen worden in het voormelde dagboek ingeschreven onder de post* Andere uitgaven*.
 
 Als echter, zoals in de voormelde wet van 15 juli 1998 wordt toegestaan, de partijen andere betalingsmodaliteiten voor de inkomsten zijn overeengekomen (betaling op lange of middellange termijn, eventuele kapitalisatie, enz.), moet de boekhoudkundige verwerking ervan worden bepaald op basis van een onderzoek van de wil van de partijen zoals deze is vastgelegd in de certificatieovereenkomst.
 
 ## Dubbele boekhouding
 
-Een grote vereniging of stichting is verplicht[^11] om een boekhouding te voeren en een jaarrekening op te maken overeenkomstig de bepalingen van de Wet van 17 juli 1975 met betrekking tot de boekhouding van de ondernemingen.[^12] Een grote vereniging of stichting voert aldus haar boekhouding en maakt een jaarrekening op volgens de regels vermeld in het KB W.Venn. doch mits[^13] de aanpassingen waarin voorzien is in het KB van 19 december 2003 betreffende de boekhoudkundige verplichtingen en de openbaarmaking van de jaarrekening van bepaalde verenigingen zonder winstoogmerk, internationale verenigingen zonder winstoogmerk en stichtingen.
+Een grote vereniging of stichting is verplicht[^11] om een boekhouding te voeren en een jaarrekening op te maken overeenkomstig de bepalingen van de Wet van 17 juli 1975 met betrekking tot de boekhouding van de ondernemingen.[^12]
+ Een grote vereniging of stichting voert aldus haar boekhouding en maakt een jaarrekening op volgens de regels vermeld in het KB W.Venn. doch mits[^13] de aanpassingen waarin voorzien is in het KB van 19 december 2003 betreffende de boekhoudkundige verplichtingen en de openbaarmaking van de jaarrekening van bepaalde verenigingen zonder winstoogmerk, internationale verenigingen zonder winstoogmerk en stichtingen.
 
 Bij afwezigheid van andersluidende bepalingen of aanpassingen met betrekking tot de boekhoudkundige verwerking van de certificatie van aandelen, wordt verwezen naar het voormelde CBN-advies 178/1 dat onverkort geldt voor grote verenigingen en stichtingen.
 

@@ -1,53 +1,53 @@
 ---
-nummer: CBN-advies 2017/17
+bron: https://www.cbn-cnc.be/nl/adviezen/reverse-factoring
 datum: 2017-09-13
+nummer: CBN-advies 2017/17
+provenance:
+  generated_at: '2026-05-11T13:05:08Z'
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/reverse-factoring
+      sha256: 7d0d3618b625430845800efb1502ad04dde9ffe0a8eedc32deb3f511d81ad5a0
+      version:
+  stale: false
+  stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
+  trust:
+    confirmed_at: '2026-05-11T12:21:40Z'
+    confirmed_by: subagent-sonnet-4-6
+    layer1:
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:29Z'
+      heading_count: 2
+      max_section_chars: 3510
+      file_size_chars: 4590
+      flags: []
+    layer2:
+      agent: subagent-sonnet-4-6
+      concrete_problemen:
+        - categorie: D4
+          regel: 57
+          type: other
+          voorbeeld: factoringovereenkomsten[^2] * behandelt de relatie
+        - categorie: D4
+          regel: 65
+          type: other
+          voorbeeld: '*Financiële schulden – Overige leningen moet worden gereclasseerd.*'
+      rationale: 'D4: twee gevallen van malformed italic met spatie voor sluitende asterisk op regel 57 (`factoringovereenkomsten[^2] *`) en regel 65 (`*Financiële schulden – Overige leningen moet worden gereclasseerd.*` sluit italic te laat, omvat ook prose-tekst). Klein advies (heading_count 2), maar de italic-fouten zijn zichtbare ETL-artefacten.'
+      run_at: '2026-05-11T12:21:40Z'
+      status: needs-rework
+    rationale: 'D4: twee gevallen van malformed italic met spatie voor sluitende asterisk op regel 57 (`factoringovereenkomsten[^2] *`) en regel 65 (`*Financiële schulden – Overige leningen moet worden gereclasseerd.*` sluit italic te laat, omvat ook prose-tekst). Klein advies (heading_count 2), maar de italic-fouten zijn zichtbare ETL-artefacten.'
+    status: needs-rework
 themas:
   - factor
   - factoring
   - financiële schuld
   - handelsschuld
   - reverse factoring
-bron: https://www.cbn-cnc.be/nl/adviezen/reverse-factoring
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/reverse-factoring
-      sha256: 7d0d3618b625430845800efb1502ad04dde9ffe0a8eedc32deb3f511d81ad5a0
-      version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:37:16Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T12:21:40Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: 'D4: twee gevallen van malformed italic met spatie voor sluitende asterisk op regel 57 (`factoringovereenkomsten[^2] *`) en regel 65 (`*Financiële schulden – Overige leningen moet worden gereclasseerd.*` sluit italic te laat, omvat ook prose-tekst). Klein advies (heading_count 2), maar de italic-fouten zijn zichtbare ETL-artefacten.'
-    layer1:
-      status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 2
-      max_section_chars: 3510
-      file_size_chars: 4590
-      flags: []
-    layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:21:40Z'
-      rationale: 'D4: twee gevallen van malformed italic met spatie voor sluitende asterisk op regel 57 (`factoringovereenkomsten[^2] *`) en regel 65 (`*Financiële schulden – Overige leningen moet worden gereclasseerd.*` sluit italic te laat, omvat ook prose-tekst). Klein advies (heading_count 2), maar de italic-fouten zijn zichtbare ETL-artefacten.'
-      concrete_problemen:
-        - regel: 57
-          categorie: D4
-          type: other
-          voorbeeld: factoringovereenkomsten[^2] * behandelt de relatie
-        - regel: 65
-          categorie: D4
-          type: other
-          voorbeeld: '*Financiële schulden – Overige leningen moet worden gereclasseerd.*'
 ---
 
 # CBN-advies 2017/17 – Reverse factoring
@@ -62,7 +62,7 @@ Schematisch kan dit als volgt voorgesteld worden:
 
 ## Verwerking van reverse factoring
 
-Het CBN-advies 2011/23 - *De boekhoudkundige verwerking van factoringovereenkomsten[^2] * behandelt de relatie in een factoringovereenkomst tussen de leverancier en de factormaatschappij. Daar er binnen een reverse factoringprogramma tevens wordt gebruik gemaakt van een klassieke factoring (i.e. tussen de factor en de leverancier – stap 6B. Cessie van de handelsvordering) verwijst de Commissie voor de boekhoudkundige behandeling van deze overeenkomst naar haar eerder advies hieromtrent.
+Het CBN-advies 2011/23 - *De boekhoudkundige verwerking van factoringovereenkomsten[^2]*  behandelt de relatie in een factoringovereenkomst tussen de leverancier en de factormaatschappij. Daar er binnen een reverse factoringprogramma tevens wordt gebruik gemaakt van een klassieke factoring (i.e. tussen de factor en de leverancier – stap 6B. Cessie van de handelsvordering) verwijst de Commissie voor de boekhoudkundige behandeling van deze overeenkomst naar haar eerder advies hieromtrent.
 
 Voor wat betreft de debiteur (initiatiefnemer) zal de classificatie van de schuld als gevolg van het reverse factoring programma verschuiven van een leveranciersschuld naar een financiële schuld. Immers zal de cessie van de handelsvordering tot gevolg hebben dat de factor (financiële instelling) de rechtmatige schuldeiser wordt. De cessie van schuldvordering wordt door het Burgerlijk Wetboek artikelen 1689 e.v. als een koop-verkoop beschouwd. De oorspronkelijke schuldvordering blijft derhalve bestaan, alleen de houder van de vordering wijzigt. Tussen de leverancier en de factor komt de overdracht tot stand *solo consensu*, d.w.z. door de loutere wilsovereenstemming tussen de overdrager (d.i. de leverancier) en de overnemer (d.i. de factor), zonder dat enige formaliteit dient nageleefd te worden (zie stap 6B in het schematisch overzicht). Binnen een klassieke factoringtransactie is er geen toestemming van de debiteur vereist voor de overdracht, doch in het geval van een reverse factoring zal deze weliswaar expliciet worden verstrekt daar laatstgenoemde de initiatiefnemer is. Als gevolg van de goedkeuring van de factuur (stap 6A in het schematisch overzicht) aanvaardt de koper de geleverde goederen / diensten en erkent hij tevens dat de onderliggende facturen het voorwerp zullen uitmaken van het reverse factoring programma (zie stap 2 en 3 in het schematisch overzicht).
 

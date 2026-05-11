@@ -1,44 +1,44 @@
 ---
-nummer: CBN-advies 2012/8
+bron: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-inbreng-in-eigendom-in-een-belgische-burgerlijke
 datum: 2012-06-06
+nummer: CBN-advies 2012/8
+provenance:
+  generated_at: '2026-05-11T13:05:08Z'
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-inbreng-in-eigendom-in-een-belgische-burgerlijke
+      sha256: cf24aa3f760d50dc1b488d09cc2327fdf8077a89461654915c14c249c627b655
+      version:
+  stale: false
+  stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
+  trust:
+    confirmed_at:
+    confirmed_by:
+    layer1:
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:28Z'
+      heading_count: 6
+      max_section_chars: 4883
+      file_size_chars: 12672
+      flags: []
+    layer2:
+      agent:
+      concrete_problemen: []
+      rationale:
+      run_at:
+      status: not_run
+    rationale: 'Trust gereset 2026-05-11: re-scrape met scraper-fixes, content-diff > 5%'
+    status: unreviewed
 themas:
   - burgerlijke maatschap
   - inbreng
   - proportionele integratiemethode
   - realisatie
-bron: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-inbreng-in-eigendom-in-een-belgische-burgerlijke
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-inbreng-in-eigendom-in-een-belgische-burgerlijke
-      sha256: cf24aa3f760d50dc1b488d09cc2327fdf8077a89461654915c14c249c627b655
-      version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:36:27Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: trusted
-    confirmed_at: '2026-05-11T12:09:18Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: 'Geen merkbare extractie-artefacten. Heading-hiërarchie (##, ###) correct en proportioneel. Voetnoten 1-14 aanwezig en volledig. Tabel op regel 113-117 is afwijkend opgemaakt maar leesbaar als pseudo-tabel voor een balansoverzicht. Inhoud compleet.'
-    layer1:
-      status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 3
-      max_section_chars: 9135
-      file_size_chars: 12682
-      flags: []
-    layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:09:18Z'
-      rationale: 'Geen merkbare extractie-artefacten. Heading-hiërarchie (##, ###) correct en proportioneel. Voetnoten 1-14 aanwezig en volledig. Tabel op regel 113-117 is afwijkend opgemaakt maar leesbaar als pseudo-tabel voor een balansoverzicht. Inhoud compleet.'
-      concrete_problemen: []
 ---
 
 # CBN-advies 2012/8 – De boekhoudkundige verwerking van de inbreng in eigendom in een Belgische burgerlijke maatschap die niet de rechtsvorm heeft aangenomen van een handelsvennootschap
@@ -56,8 +56,7 @@ Dit advies behandelt de inbrengen die de vorm aannemen van een inbreng in eigend
 
 De burgerlijke maatschap wordt beheerst door de bepalingen van het Wetboek van Vennootschappen (hierna: W.Venn.) en door haar statuten. 
 
-Gelet op het feit dat een burgerlijke maatschap geen rechtspersoonlijkheid heeft en dus niet over een afgescheiden vermogen beschikt[^2], worden de ingebrachte goederen[^3]
- geen eigendom van de maatschap, maar komen deze daarentegen in mede-eigendom tussen de verschillende vennoten.[^4]
+Gelet op het feit dat een burgerlijke maatschap geen rechtspersoonlijkheid heeft en dus niet over een afgescheiden vermogen beschikt[^2], worden de ingebrachte goederen[^3] geen eigendom van de maatschap, maar komen deze daarentegen in mede-eigendom tussen de verschillende vennoten.[^4]
  Een rechtspersoon die een goed (in eigendom) inbrengt in een burgerlijke maatschap, blijft dus eigenaar voor zijn onverdeeld aandeel, voor zover in de maatschapsovereenkomst niet anders is bepaald.[^5] 
 
 De Commissie voor Boekhoudkundige Normen omschrijft in advies 157/2 – Realisatiebeginsel (behalve bij fusie) het realisatiebeginsel ingeval van inbreng in een vennootschap *met rechtspersoonlijkheid*. Volgens de Commissie wordt niet betwist dat een goed dat ingebracht wordt, gerealiseerd is. Dit goed wordt immers uit het vermogen van de inbrenger gehaald en toegevoegd aan het vermogen van de vennootschap waarin het wordt ingebracht, terwijl de inbrenger meestal een actiefbestanddeel krijgt van een volledig andere aard dan het ingebrachte goed.[^6] 
@@ -71,10 +70,11 @@ Dit wijst er volgens de Commissie op dat wel degelijk een eigendomsoverdracht, e
 
 ## Boekhoudkundige verwerking: proportionele integratie conform het CBN-advies 3/3 inzake tijdelijke handelsvennootschappen
 
-Aangezien de burgerlijke maatschap, net zoals de tijdelijke handelsvennootschap en de stille handelsvennootschap, niet over rechtspersoonlijkheid en dus ook niet over een afgescheiden vermogen beschikt, is de Commissie van mening dat het aandeel in de burgerlijke maatschap niet geboekt kan worden als financieel vast actief[^9]
- op de balans van de inbrengende rechtspersoon.
+Aangezien de burgerlijke maatschap, net zoals de tijdelijke handelsvennootschap en de stille handelsvennootschap, niet over rechtspersoonlijkheid en dus ook niet over een afgescheiden vermogen beschikt, is de Commissie van mening dat het aandeel in de burgerlijke maatschap niet geboekt kan worden als financieel vast actief[^9] op de balans van de inbrengende rechtspersoon.
 
-Ook de boekhoudkundige verwerkingsmethode van de inbreng in de burgerlijke maatschap dient volgens de Commissie gebaseerd te worden op de principes die werden uiteengezet in het advies omtrent de boekhoudkundige verwerking van de verrichtingen van tijdelijke handelsvennootschappen.[^10] Verrichtingen van geïntegreerde tijdelijke handelsvennootschappen worden bij voorkeur verwerkt volgens de proportionele integratiemethode. Bij deze methode wordt elke rubriek van de balans en van de resultatenrekening geïntegreerd in verhouding tot het aandeel dat de partner in kwestie heeft in de desbetreffende tijdelijke handelsvennootschap, waarna de nodige correcties en eliminaties worden verricht.[^11] Volgens de Commissie dient men ingeval van inbreng in een burgerlijke maatschap op analoge wijze tewerk te gaan. Op die manier zal in de balans van de inbrengende rechtspersoon, de inbrenger als eigenaar van zijn aandeel in de activa en passiva van de burgerlijke maatschap (en dus niet als onverdeeld eigenaar in de totaliteit) komen.[^12] 
+Ook de boekhoudkundige verwerkingsmethode van de inbreng in de burgerlijke maatschap dient volgens de Commissie gebaseerd te worden op de principes die werden uiteengezet in het advies omtrent de boekhoudkundige verwerking van de verrichtingen van tijdelijke handelsvennootschappen.[^10]
+ Verrichtingen van geïntegreerde tijdelijke handelsvennootschappen worden bij voorkeur verwerkt volgens de proportionele integratiemethode. Bij deze methode wordt elke rubriek van de balans en van de resultatenrekening geïntegreerd in verhouding tot het aandeel dat de partner in kwestie heeft in de desbetreffende tijdelijke handelsvennootschap, waarna de nodige correcties en eliminaties worden verricht.[^11]
+ Volgens de Commissie dient men ingeval van inbreng in een burgerlijke maatschap op analoge wijze tewerk te gaan. Op die manier zal in de balans van de inbrengende rechtspersoon, de inbrenger als eigenaar van zijn aandeel in de activa en passiva van de burgerlijke maatschap (en dus niet als onverdeeld eigenaar in de totaliteit) komen.[^12] 
 
 Aangezien de zeggenschap over activa in onverdeeldheid niet dezelfde is als de zeggenschap over activa in volle eigendom, beveelt de Commissie aan dat de inbrengende vennootschap in de toelichting bij haar jaarrekening, meer bepaald onder de algemene waarderingsregels, een opsplitsing maakt tussen de activa in volle eigendom en de activa in onverdeeldheid. 
 
@@ -84,8 +84,7 @@ In totaal worden door drie deelgenoten (vennootschappen A, B en C) voor 700.000 
 
 Artikel 39 KB W.Venn. bepaalt het volgende:
 
-*“ De inbrengwaarde stemt overeen met de bedongen waarde van de inbreng. 
-
+*“ De inbrengwaarde stemt overeen met de bedongen waarde van de inbreng.
 In geval van bestemming voor of inbreng in een onderneming die geen vennootschap met eigen rechtspersoonlijkheid is, moet onder inbrengwaarde worden verstaan de waarde van de goederen bij de inbreng of de bestemming. De inbrengwaarde mag niet hoger zijn dan de prijs die op het ogenblik van de inbreng of de bestemming voor de aankoop van de betrokken goederen op de markt zou moeten worden betaald."*
 
 Vennootschap A brengt een gebouw in met boekwaarde 300.000 euro. Er wordt overeengekomen dat de inbreng gebeurt tegen 400.000 euro. 
@@ -96,8 +95,7 @@ Vennootschap C brengt een pakket aandelen in met een boekwaarde van 200.000 euro
 
 De statuten van de maatschap bepalen het volgende :
 
-*“Het aandeel van vennootschap A in de maatschap bedraagt 4/7. 
-
+*“Het aandeel van vennootschap A in de maatschap bedraagt 4/7.
 Het aandeel van vennootschap B in de maatschap bedraagt 1/7. 
 
 Het aandeel van vennootschap C in de maatschap bedraagt 2/7." *
@@ -116,19 +114,19 @@ Na de inbreng in de burgerlijke maatschap zullen volgende bedragen op de balans 
 | | | | | Gerealiseerde meerwaarde | | 42.857,14 | 
 | Financiële vaste activa | | 114.285,71 | | | | | 
 
-**Terreinen en gebouwen** 
+## Terreinen en gebouwen
 
 Vennootschap A blijft eigenaar van haar onverdeeld aandeel, nl. 4/7 van 400.000 (de werkelijke waarde van de eigen inbreng). 
 
 4/7 * 400.000 = 228.571,43
 
-**Meubilair en rollend materieel** 
+## Meubilair en rollend materieel
 
 N.a.v. haar eigen inbreng verkrijgt vennootschap A 4/7 van de inbreng door vennootschap B. 
 
 4/7 * 100.000 = 57.142,86
 
-**Financiële vaste activa** 
+## Financiële vaste activa
 
 N.a.v. haar eigen inbreng verkrijgt vennootschap A tevens 4/7 van de inbreng door vennootschap C. 
 

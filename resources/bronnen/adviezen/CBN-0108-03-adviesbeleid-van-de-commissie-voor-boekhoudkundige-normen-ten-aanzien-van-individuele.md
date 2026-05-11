@@ -1,6 +1,52 @@
 ---
-nummer: CBN-advies 108/3
+bron: https://www.cbn-cnc.be/nl/adviezen/adviesbeleid-van-de-commissie-voor-boekhoudkundige-normen-ten-aanzien-van-individuele
 datum: 1986-01-01
+gerelateerde_adviezen:
+  - datum: '2024-02-08'
+    titel: 'Belgische bijkantoren van buitenlandse verenigingen en stichtingen: toepassing van het Belgisch boekhoudrecht – begrip ‘bijkantoor’ – publicatieplicht – eigen boekhoudkundige verplichtingen'
+    url: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-buitenlandse-verenigingen-en-stichtingen-toepassing-van-het-0
+  - datum: '2022-11-08'
+    titel: 'Belgische bijkantoren van buitenlandse vennootschappen: eigen boekhoudkundige verplichtingen (update)'
+    url: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-buitenlandse-vennootschappen-eigen-boekhoudkundige
+  - datum: '2019-05-14'
+    titel: Adviesbeleid van de Commissie voor Boekhoudkundige Normen ten aanzien van vragen tot afwijking voor Belgische bijkantoren van buitenlandse vennootschappen (ONTWERP)
+    url: https://www.cbn-cnc.be/nl/adviezen/adviesbeleid-van-de-commissie-voor-boekhoudkundige-normen-ten-aanzien-van-vragen-tot
+  - datum: '2019-03-26'
+    titel: 'Belgische bijkantoren van vennootschappen naar buitenlands recht: eigen boekhoudkundige verplichtingen'
+    url: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-vennootschappen-naar-buitenlands-recht-eigen-boekhoudkundige-0
+nummer: CBN-advies 108/3
+provenance:
+  generated_at: '2026-05-11T13:05:05Z'
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/adviesbeleid-van-de-commissie-voor-boekhoudkundige-normen-ten-aanzien-van-individuele
+      sha256: c0b9519477900e6821c5330d92c6b8fecda78ba46a6c7dea270f2cbe45c93bd6
+      version:
+  stale: false
+  stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
+  trust:
+    confirmed_at: '2026-05-08T21:31:10Z'
+    confirmed_by: human
+    layer1:
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:24Z'
+      heading_count: 3
+      max_section_chars: 3604
+      file_size_chars: 8882
+      flags: []
+    layer2:
+      agent:
+      concrete_problemen: []
+      rationale:
+      run_at:
+      status: not_run
+    rationale: 'Herscraped na fix select_title(): gecombineerde H1 (COMMISSIE + titel) correct gesplitst. Inhoud ongewijzigd t.o.v. vorig vertrouwd verdict. Laag 1 pass (of benign max_section warn).'
+    status: trusted
 themas:
   - afwijking
   - concurrentieverstoring
@@ -8,60 +54,13 @@ themas:
   - middelgrote onderneming
   - omzetcijfer
   - verstoring van de mededingingsvoorwaarden
-bron: https://www.cbn-cnc.be/nl/adviezen/adviesbeleid-van-de-commissie-voor-boekhoudkundige-normen-ten-aanzien-van-individuele
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/adviesbeleid-van-de-commissie-voor-boekhoudkundige-normen-ten-aanzien-van-individuele
-      sha256: c0b9519477900e6821c5330d92c6b8fecda78ba46a6c7dea270f2cbe45c93bd6
-      version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T21:30:01Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: trusted
-    confirmed_at: '2026-05-08T21:31:10Z'
-    confirmed_by: human
-    rationale: 'Herscraped na fix select_title(): gecombineerde H1 (COMMISSIE + titel) correct gesplitst. Inhoud ongewijzigd t.o.v. vorig vertrouwd verdict. Laag 1 pass (of benign max_section warn).'
-    layer1:
-      status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 3
-      max_section_chars: 3605
-      file_size_chars: 8887
-      flags: []
-    layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
-      concrete_problemen: []
-gerelateerde_adviezen:
-  - titel: 'Belgische bijkantoren van buitenlandse verenigingen en stichtingen: toepassing van het Belgisch boekhoudrecht – begrip ‘bijkantoor’ – publicatieplicht – eigen boekhoudkundige verplichtingen'
-    url: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-buitenlandse-verenigingen-en-stichtingen-toepassing-van-het-0
-    datum: '2024-02-08'
-  - titel: 'Belgische bijkantoren van buitenlandse vennootschappen: eigen boekhoudkundige verplichtingen (update)'
-    url: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-buitenlandse-vennootschappen-eigen-boekhoudkundige
-    datum: '2022-11-08'
-  - titel: Adviesbeleid van de Commissie voor Boekhoudkundige Normen ten aanzien van vragen tot afwijking voor Belgische bijkantoren van buitenlandse vennootschappen (ONTWERP)
-    url: https://www.cbn-cnc.be/nl/adviezen/adviesbeleid-van-de-commissie-voor-boekhoudkundige-normen-ten-aanzien-van-vragen-tot
-    datum: '2019-05-14'
-  - titel: 'Belgische bijkantoren van vennootschappen naar buitenlands recht: eigen boekhoudkundige verplichtingen'
-    url: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-vennootschappen-naar-buitenlands-recht-eigen-boekhoudkundige-0
-    datum: '2019-03-26'
 ---
 
 # CBN-advies 108/3 - Adviesbeleid van de Commissie voor Boekhoudkundige Normen ten aanzien van individuele vragen om afwijking wegens verstoring van de mededingingsvoorwaarden
 
 Deze bijdrage behandelt - na de aanpassing van de Belgische wetgeving aan de vereisten van de Vierde EEG-Richtlijn - het adviesbeleid dat de Commissie toepast ten aanzien van individuele afwijkingsverzoeken van ondernemingen die gemotiveerd zijn door ontwrichting of scheeftrekking in de mededingingsvoorwaarden. In de meeste gevallen komt dergelijke vraag om afwijking neer op een verzoek tot vrijstelling van publikatie van het omzetcijfer of op een verzoek tot vrijstelling van uitsplitsing van het omzetcijfer naar geografische markten en categorieën bedrijfsactiviteit[^1]. Vermits kleine en middelgrote ondernemingen - die beantwoorden aan de omvangcriteria opgenomen in artikel 12, § 2 van de boekhoudwet - er niet toe verplicht zijn hun omzetcijfer openbaar te maken, zijn dergelijke verzoeken in hun geval niet dienstig.
 
-Vragen om afwijking gemotiveerd door andere gronden[^2]
- blijven hier buiten beschouwing.
+Vragen om afwijking gemotiveerd door andere gronden[^2] blijven hier buiten beschouwing.
 
 Het relatieve belang van deze vragen om afwijking wordt duidelijk wanneer bedacht wordt dat in de loop van 1985 op 34 ingediende vragen om afwijking er 12 betrekking hadden op de omzetpublikatie of de uitsplitsing van het omzetcijfer. Daarvan werden er 9 op gunstig advies van de Commissie door de Minister van Economische Zaken toegestaan. Deze cijfers moeten worden gerelateerd aan de zowat 15 000 grote ondernemingen die, gemeten naar de vroegere omvangcriteria bedoeld in artikel 12, § 2 van de boekhoudwet (40-80-50), als «groot» moesten worden aangemerkt.
 
@@ -69,15 +68,13 @@ De rechtsgrond voor het verlenen van individuele afwijkingen is artikel 15 van d
 
 Hieruit vloeit voort dat:
 
-1. voor «grote» ondernemingen de Minister van Economische Zaken bevoegd is tot het verlenen van afwijkingen; voor kleine en middelgrote ondernemingen[^3]
- de Minister van Middenstand daartoe bevoegd is; 
+1. voor «grote» ondernemingen de Minister van Economische Zaken bevoegd is tot het verlenen van afwijkingen; voor kleine en middelgrote ondernemingen[^3] de Minister van Middenstand daartoe bevoegd is; 
 2. slechts vrijstelling kan worden verleend van de toepassing van de bepalingen opgenomen in de uitvoeringsbesluiten van de wet en niet van bepalingen opgenomen in de wet zelf; 
 3. in alle gevallen het gemotiveerd (niet bindend) advies van de Commissie voor Boekhoudkundige Normen moet worden ingewonnen. Zulks is een substantieel vormvereiste. Dit advies is echter niet bindend voor de Minister. 
 
 #### INVLOED VAN DE VIERDE EEG-RICHTLIJN
 
-Als gevolg van de aanpassing van het boekhoud- en jaarrekeningenrecht aan de Vierde EEG-Richtlijn[^4]
- zijn de mogelijkheden tot het verlenen van individuele afwijkingen ingeperkt geworden. De Minister van Economische Zaken respectievelijk Minister van Middenstand zouden supranationale regels schenden, mochten afwijkingen worden toegestaan die strijdig zijn met de bepalingen van de richtlijn[^5].
+Als gevolg van de aanpassing van het boekhoud- en jaarrekeningenrecht aan de Vierde EEG-Richtlijn[^4] zijn de mogelijkheden tot het verlenen van individuele afwijkingen ingeperkt geworden. De Minister van Economische Zaken respectievelijk Minister van Middenstand zouden supranationale regels schenden, mochten afwijkingen worden toegestaan die strijdig zijn met de bepalingen van de richtlijn[^5].
 
 De gebruikte uitdrukking «strijdigheid met de vierde richtlijn» vergt evenwel nader onderzoek. Vooreerst is het evident dat de betrokken Ministers hun volle bevoegdheid behouden om vrijstelling te verlenen van de toepassing van normen die geen weergave zijn in het Belgisch recht van een Europeesrechtelijke verplichting. De verplichte naleving in België van een algemeen rekeningenstelsel bijvoorbeeld is géén Europeesrechtelijk vereiste. Het onderzoek van vragen om afwijking daaromtrent wordt dus in geen enkel opzicht beïnvloed door de inwerkingtreding van de vierde E.E.G.-richtlijn.
 
@@ -97,13 +94,11 @@ Anderzijds zou het uiteraard strijdig zijn met de richtlijn aan ondernemingen wa
 
 #### ALGEMENE BENADERINGSWIJZE INDIVIDUELE AFWIJKINGEN
 
-In zijn advies bij het wetsontwerp met betrekking tot de boekhouding en de jaarrekeningen van de ondernemingen[^9]
- heeft de Raad van State erop gewezen dat het grondwettelijk beginsel dat de Belgen gelijk zijn voor de wet kan worden geschonden als de toegestane afwijking de betrokken onderneming een stellig voordeel mocht opleveren op het gebied van de handelsconcurrentie en dat op beslissingen tot individuele afwijking praktisch geen rechterlijke controle zal kunnen worden uitgeoefend, want deze worden niet gepubliceerd en kunnen dus niet worden aangevochten door hen die zich benadeeld achten als zij er kennis van hadden.
+In zijn advies bij het wetsontwerp met betrekking tot de boekhouding en de jaarrekeningen van de ondernemingen[^9] heeft de Raad van State erop gewezen dat het grondwettelijk beginsel dat de Belgen gelijk zijn voor de wet kan worden geschonden als de toegestane afwijking de betrokken onderneming een stellig voordeel mocht opleveren op het gebied van de handelsconcurrentie en dat op beslissingen tot individuele afwijking praktisch geen rechterlijke controle zal kunnen worden uitgeoefend, want deze worden niet gepubliceerd en kunnen dus niet worden aangevochten door hen die zich benadeeld achten als zij er kennis van hadden.
 
 Deze en andere overwegingen hebben de Commissie aangespoord tot grote voorzichtigheid bij het uitoefenen van haar adviesbevoegdheid inzake vragen om afwijking. Zij heeft als gevolg daarvan bepaalde beleidslijnen vastgesteld die het mogelijk moeten maken elke (positieve of negatieve) beslissing op passende wijze te motiveren. Hogervernoemde cijfers over de concrete toepassingsgevallen bevestigen dat deze restrictieve benadering met de werkelijkheid strookt.
 
-In adviezen 108/1 en 108/2[^10]
- werd de adviespraktijk van de Commissie beschreven.
+In adviezen 108/1 en 108/2[^10] werd de adviespraktijk van de Commissie beschreven.
 
 #### PROCEDURE
 

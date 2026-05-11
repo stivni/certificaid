@@ -1,6 +1,52 @@
 ---
-nummer: CBN-advies 2011/2
+bron: https://www.cbn-cnc.be/nl/adviezen/zetelverplaatsing-naar-belgie-van-een-vennootschap-opgericht-naar-buitenlands-recht
 datum: 2010-12-08
+gerelateerde_adviezen:
+  - datum: '2024-01-17'
+    titel: Vermogensklem bij de omzetting van een VZW in een coöperatieve vennootschap erkend als sociale onderneming
+    url: https://www.cbn-cnc.be/nl/adviezen/vermogensklem-bij-de-omzetting-van-een-vzw-in-een-cooperatieve-vennootschap-erkend-als-0
+  - datum: '2022-09-23'
+    titel: Boekhoudkundige verwerking van fusies tussen verenigingen en stichtingen
+    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-fusies-tussen-verenigingen-en-stichtingen
+  - datum: '2022-09-19'
+    titel: Boekhoudkundige verwerking van splitsingen van vennootschappen
+    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-splitsingen-van-vennootschappen
+  - datum: '2022-07-20'
+    titel: Wijziging van het boekhoudkundig referentiestelsel
+    url: https://www.cbn-cnc.be/nl/adviezen/wijziging-van-het-boekhoudkundig-referentiestelsel
+nummer: CBN-advies 2011/2
+provenance:
+  generated_at: '2026-05-11T13:05:08Z'
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/zetelverplaatsing-naar-belgie-van-een-vennootschap-opgericht-naar-buitenlands-recht
+      sha256: 778baa7300874c205e3ad65417b3d6738770463aebdffd38c29c48ba4dfce218
+      version:
+  stale: false
+  stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
+  trust:
+    confirmed_at: '2026-05-11T12:09:18Z'
+    confirmed_by: subagent-sonnet-4-6
+    layer1:
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:28Z'
+      heading_count: 3
+      max_section_chars: 4186
+      file_size_chars: 7333
+      flags: []
+    layer2:
+      agent: subagent-sonnet-4-6
+      concrete_problemen: []
+      rationale: 'Drie ## headings correct. Voetnoten 1–7 volledig. Geen inhoudsopgave als plain text, geen extractie-artefacten. Inhoud beknopt maar compleet voor dit advies.'
+      run_at: '2026-05-11T12:09:18Z'
+      status: trusted
+    rationale: 'Drie ## headings correct. Voetnoten 1–7 volledig. Geen inhoudsopgave als plain text, geen extractie-artefacten. Inhoud beknopt maar compleet voor dit advies.'
+    status: trusted
 themas:
   - continuïteit
   - concordantietabel
@@ -8,52 +54,6 @@ themas:
   - eerste boekjaar
   - vergelijkende cijfers
   - zetelverplaatsing
-bron: https://www.cbn-cnc.be/nl/adviezen/zetelverplaatsing-naar-belgie-van-een-vennootschap-opgericht-naar-buitenlands-recht
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/zetelverplaatsing-naar-belgie-van-een-vennootschap-opgericht-naar-buitenlands-recht
-      sha256: 778baa7300874c205e3ad65417b3d6738770463aebdffd38c29c48ba4dfce218
-      version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:36:07Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: trusted
-    confirmed_at: '2026-05-11T12:09:18Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: 'Drie ## headings correct. Voetnoten 1–7 volledig. Geen inhoudsopgave als plain text, geen extractie-artefacten. Inhoud beknopt maar compleet voor dit advies.'
-    layer1:
-      status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 3
-      max_section_chars: 4187
-      file_size_chars: 7335
-      flags: []
-    layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:09:18Z'
-      rationale: 'Drie ## headings correct. Voetnoten 1–7 volledig. Geen inhoudsopgave als plain text, geen extractie-artefacten. Inhoud beknopt maar compleet voor dit advies.'
-      concrete_problemen: []
-gerelateerde_adviezen:
-  - titel: Vermogensklem bij de omzetting van een VZW in een coöperatieve vennootschap erkend als sociale onderneming
-    url: https://www.cbn-cnc.be/nl/adviezen/vermogensklem-bij-de-omzetting-van-een-vzw-in-een-cooperatieve-vennootschap-erkend-als-0
-    datum: '2024-01-17'
-  - titel: Boekhoudkundige verwerking van fusies tussen verenigingen en stichtingen
-    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-fusies-tussen-verenigingen-en-stichtingen
-    datum: '2022-09-23'
-  - titel: Boekhoudkundige verwerking van splitsingen van vennootschappen
-    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-splitsingen-van-vennootschappen
-    datum: '2022-09-19'
-  - titel: Wijziging van het boekhoudkundig referentiestelsel
-    url: https://www.cbn-cnc.be/nl/adviezen/wijziging-van-het-boekhoudkundig-referentiestelsel
-    datum: '2022-07-20'
 ---
 
 # CBN-advies 2011/2 - Zetelverplaatsing naar België van een vennootschap opgericht naar buitenlands recht: gevolgen voor het voeren van de boekhouding en het opstellen van de jaarrekening
@@ -73,8 +73,7 @@ De jaarrekening met betrekking tot het boekjaar waarin de zetelverplaatsing plaa
 De Commissie benadrukt dat de feitelijke verplaatsing van de hoofdzetel van de vennootschap geen enkele invloed heeft op de duur van het boekjaar, zoals in de statuten bepaald.[^3]
  De betrokken vennootschap is er toe gehouden haar jaarrekening overeenkomstig het Belgische recht op te stellen en eventueel bekend te maken. Deze jaarrekening heeft betrekking op het volledige boekjaar. 
 
-Wat betreft de verrichtingen die dateren van vóór de zetelverplaatsing, meent de Commissie dat deze in de rekeningen moeten worden verwerkt volgens de toepasselijke boekhoudregels in het land van oprichting. Ze worden desgevallend in de boekhouding omgerekend[^4]
- tegen de omrekeningskoers van toepassing op de datum van de zetelverplaatsing, dit is het moment vanaf wanneer de onderneming onder de Belgische wetgeving valt. Verrichtingen die, onder het Belgisch boekhoudrecht, op de balans een impact hebben die zich over verschillende boekjaren uitstrekt, moeten, zelfs al werden zij gerealiseerd vóór de zetelverplaatsing, uitgedrukt worden in de boekhouding conform de Belgische regelgeving. 
+Wat betreft de verrichtingen die dateren van vóór de zetelverplaatsing, meent de Commissie dat deze in de rekeningen moeten worden verwerkt volgens de toepasselijke boekhoudregels in het land van oprichting. Ze worden desgevallend in de boekhouding omgerekend[^4] tegen de omrekeningskoers van toepassing op de datum van de zetelverplaatsing, dit is het moment vanaf wanneer de onderneming onder de Belgische wetgeving valt. Verrichtingen die, onder het Belgisch boekhoudrecht, op de balans een impact hebben die zich over verschillende boekjaren uitstrekt, moeten, zelfs al werden zij gerealiseerd vóór de zetelverplaatsing, uitgedrukt worden in de boekhouding conform de Belgische regelgeving. 
 
 De verrichtingen na de zetelverplaatsing worden in de boekhouding opgenomen conform de regels van het Belgisch boekhoudrecht. 
 
@@ -82,11 +81,10 @@ De verrichtingen na de zetelverplaatsing worden in de boekhouding opgenomen conf
 
 In het bijzonder stelt zich de vraag of in deze eerste jaarrekening vergelijkende cijfers moeten worden opgenomen, en zo ja, of de vennootschap deze cijfers dient aan te passen met het oog op hun vergelijkbaarheid in de tijd. 
 
-Zowel de Vierde Richtlijn[^5]
- als artikel 83, lid 1 van het KB W.Venn. bepalen dat bij elke rubriek en onderrubriek van de balans en van de resultatenrekening het bedrag van de overeenkomstige post van het voorafgaande boekjaar wordt vermeld.
+Zowel de Vierde Richtlijn[^5] als artikel 83, lid 1 van het KB W.Venn. bepalen dat bij elke rubriek en onderrubriek van de balans en van de resultatenrekening het bedrag van de overeenkomstige post van het voorafgaande boekjaar wordt vermeld.
 
 Voorts bepaalt de Vierde Richtlijn dat lidstaten kunnen voorschrijven dat, wanneer deze bedragen niet vergelijkbaar zijn, het bedrag van het voorafgaande boekjaar moet worden aangepast. In elk geval moet het ontbreken van vergelijkbaarheid en de aanpassing van de bedragen in de toelichting worden vermeld en naar behoren verklaard.[^6]
- De Belgische wetgever bepaalt in artikel 83, tweede lid KB W.Venn. dat de bedragen van het boekjaar die niet vergelijkbaar zijn met die van het voorafgaande boekjaar, *mogen *worden aangepast met het oog op hun vergelijkbaarheid. Worden de bedragen van het voorafgaande boekjaar niet aangepast, dan moet de toelichting de nodige gegevens bevatten om een vergelijking mogelijk te maken. 
+ De Belgische wetgever bepaalt in artikel 83, tweede lid KB W.Venn. dat de bedragen van het boekjaar die niet vergelijkbaar zijn met die van het voorafgaande boekjaar, *mogen* worden aangepast met het oog op hun vergelijkbaarheid. Worden de bedragen van het voorafgaande boekjaar niet aangepast, dan moet de toelichting de nodige gegevens bevatten om een vergelijking mogelijk te maken. 
 
 De Commissie is evenwel van oordeel dat, met het oog op het verschaffen van meer betekenisvolle informatie aan de lezer, het *hoogst aangewezen* is de vergelijkende cijfers van het voorgaande boekjaar aan te passen, gezien het beginsel van de continuïteit van de vennootschap die haar hoofdzetel verplaatst. 
 

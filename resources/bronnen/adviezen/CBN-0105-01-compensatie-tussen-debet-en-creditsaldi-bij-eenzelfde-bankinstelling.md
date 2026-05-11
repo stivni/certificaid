@@ -1,54 +1,54 @@
 ---
-nummer: CBN-advies 105/1
-datum: 1977-08-01
-themas:
-  - compensatie
 bron: https://www.cbn-cnc.be/nl/adviezen/compensatie-tussen-debet-en-creditsaldi-bij-eenzelfde-bankinstelling
+datum: 1977-08-01
+gerelateerde_adviezen:
+  - datum: '2021-11-22'
+    titel: 'Verenigingen en stichtingen: compensatie van negatieve fondsen'
+    url: https://www.cbn-cnc.be/nl/adviezen/verenigingen-en-stichtingen-compensatie-van-negatieve-fondsen
+  - datum: '2018-11-23'
+    titel: Boekhoudkundig niet-compensatiebeginsel
+    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundig-niet-compensatiebeginsel
+  - datum: '2018-05-30'
+    titel: Omzet – RIZIV-heffingen op de omzet van terugbetaalbare geneesmiddelen
+    url: https://www.cbn-cnc.be/nl/adviezen/omzet-riziv-heffingen-op-de-omzet-van-terugbetaalbare-geneesmiddelen
+  - datum: '2016-09-07'
+    titel: 'Bestellingen in uitvoering: wijzigingen door het koninklijk besluit van 18 december 2015'
+    url: https://www.cbn-cnc.be/nl/adviezen/bestellingen-in-uitvoering-wijzigingen-door-het-koninklijk-besluit-van-18-december-2015
+nummer: CBN-advies 105/1
 provenance:
+  generated_at: '2026-05-11T13:05:05Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/compensatie-tussen-debet-en-creditsaldi-bij-eenzelfde-bankinstelling
       sha256: efcb0de695d8b8a23cbd4477e144e838a996eb39774b5775e6b7b807d3977663
       version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:33:47Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
   trust:
-    status: trusted
     confirmed_at: '2026-05-11T11:57:44Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: 'Geen artefacten gevonden. Bestand is kort (1 298 chars, 1 alinea advies), maar dat klopt met de bron: dit is een kort CBN-advies. Inhoud compleet, markdown schoon, frontmatter consistent.'
     layer1:
       status: pass
-      run_id: 20260511-083333
-      run_at:
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:24Z'
       heading_count: 0
       max_section_chars: 1298
       file_size_chars: 1298
       flags: []
     layer2:
-      status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T11:57:44Z'
-      rationale: 'Geen artefacten gevonden. Bestand is kort (1 298 chars, 1 alinea advies), maar dat klopt met de bron: dit is een kort CBN-advies. Inhoud compleet, markdown schoon, frontmatter consistent.'
       concrete_problemen: []
-gerelateerde_adviezen:
-  - titel: 'Verenigingen en stichtingen: compensatie van negatieve fondsen'
-    url: https://www.cbn-cnc.be/nl/adviezen/verenigingen-en-stichtingen-compensatie-van-negatieve-fondsen
-    datum: '2021-11-22'
-  - titel: Boekhoudkundig niet-compensatiebeginsel
-    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundig-niet-compensatiebeginsel
-    datum: '2018-11-23'
-  - titel: Omzet – RIZIV-heffingen op de omzet van terugbetaalbare geneesmiddelen
-    url: https://www.cbn-cnc.be/nl/adviezen/omzet-riziv-heffingen-op-de-omzet-van-terugbetaalbare-geneesmiddelen
-    datum: '2018-05-30'
-  - titel: 'Bestellingen in uitvoering: wijzigingen door het koninklijk besluit van 18 december 2015'
-    url: https://www.cbn-cnc.be/nl/adviezen/bestellingen-in-uitvoering-wijzigingen-door-het-koninklijk-besluit-van-18-december-2015
-    datum: '2016-09-07'
+      rationale: 'Geen artefacten gevonden. Bestand is kort (1 298 chars, 1 alinea advies), maar dat klopt met de bron: dit is een kort CBN-advies. Inhoud compleet, markdown schoon, frontmatter consistent.'
+      run_at: '2026-05-11T11:57:44Z'
+      status: trusted
+    rationale: 'Geen artefacten gevonden. Bestand is kort (1 298 chars, 1 alinea advies), maar dat klopt met de bron: dit is een kort CBN-advies. Inhoud compleet, markdown schoon, frontmatter consistent.'
+    status: trusted
+themas:
+  - compensatie
 ---
 
 # CBN-advies 105/1 - Compensatie tussen debet- en creditsaldi bij eenzelfde bankinstelling

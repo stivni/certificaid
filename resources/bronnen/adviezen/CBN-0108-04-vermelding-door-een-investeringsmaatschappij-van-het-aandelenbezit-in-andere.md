@@ -1,63 +1,61 @@
 ---
-nummer: CBN-advies 108/4
-datum: 1986-01-01
-themas:
-  - afwijking
-  - investeringsmaatschappij
-  - tijdelijk minderheidsbelang
 bron: https://www.cbn-cnc.be/nl/adviezen/vermelding-door-een-investeringsmaatschappij-van-het-aandelenbezit-in-andere
+datum: 1986-01-01
+gerelateerde_adviezen:
+  - datum: '2024-02-08'
+    titel: 'Belgische bijkantoren van buitenlandse verenigingen en stichtingen: toepassing van het Belgisch boekhoudrecht – begrip ‘bijkantoor’ – publicatieplicht – eigen boekhoudkundige verplichtingen'
+    url: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-buitenlandse-verenigingen-en-stichtingen-toepassing-van-het-0
+  - datum: '2022-11-08'
+    titel: 'Belgische bijkantoren van buitenlandse vennootschappen: eigen boekhoudkundige verplichtingen (update)'
+    url: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-buitenlandse-vennootschappen-eigen-boekhoudkundige
+  - datum: '2019-05-14'
+    titel: Adviesbeleid van de Commissie voor Boekhoudkundige Normen ten aanzien van vragen tot afwijking voor Belgische bijkantoren van buitenlandse vennootschappen (ONTWERP)
+    url: https://www.cbn-cnc.be/nl/adviezen/adviesbeleid-van-de-commissie-voor-boekhoudkundige-normen-ten-aanzien-van-vragen-tot
+  - datum: '2019-03-26'
+    titel: 'Belgische bijkantoren van vennootschappen naar buitenlands recht: eigen boekhoudkundige verplichtingen'
+    url: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-vennootschappen-naar-buitenlands-recht-eigen-boekhoudkundige-0
+nummer: CBN-advies 108/4
 provenance:
+  generated_at: '2026-05-11T13:05:05Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/vermelding-door-een-investeringsmaatschappij-van-het-aandelenbezit-in-andere
       sha256: e8e26aebdfa259af3f84e339148d5413ad6999b4ac2064923e9c9bd4cdf25c74
       version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:34:05Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
   trust:
-    status: trusted
     confirmed_at: '2026-05-11T11:57:45Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: Kort advies (2010 tekens) zonder interne headings — structureel correct voor dit type enkelvoudige vraag-antwoord advies. Voetnoten [^1], [^2], [^3] aanwezig en goed gedefineerd. Bullets op regels 64-65 correct. Geen artefacten.
     layer1:
       status: pass
-      run_id: 20260511-083333
-      run_at:
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:24Z'
       heading_count: 0
-      max_section_chars: 2010
-      file_size_chars: 2010
+      max_section_chars: 2008
+      file_size_chars: 2008
       flags: []
     layer2:
-      status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T11:57:45Z'
-      rationale: Kort advies (2010 tekens) zonder interne headings — structureel correct voor dit type enkelvoudige vraag-antwoord advies. Voetnoten [^1], [^2], [^3] aanwezig en goed gedefineerd. Bullets op regels 64-65 correct. Geen artefacten.
       concrete_problemen: []
-gerelateerde_adviezen:
-  - titel: 'Belgische bijkantoren van buitenlandse verenigingen en stichtingen: toepassing van het Belgisch boekhoudrecht – begrip ‘bijkantoor’ – publicatieplicht – eigen boekhoudkundige verplichtingen'
-    url: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-buitenlandse-verenigingen-en-stichtingen-toepassing-van-het-0
-    datum: '2024-02-08'
-  - titel: 'Belgische bijkantoren van buitenlandse vennootschappen: eigen boekhoudkundige verplichtingen (update)'
-    url: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-buitenlandse-vennootschappen-eigen-boekhoudkundige
-    datum: '2022-11-08'
-  - titel: Adviesbeleid van de Commissie voor Boekhoudkundige Normen ten aanzien van vragen tot afwijking voor Belgische bijkantoren van buitenlandse vennootschappen (ONTWERP)
-    url: https://www.cbn-cnc.be/nl/adviezen/adviesbeleid-van-de-commissie-voor-boekhoudkundige-normen-ten-aanzien-van-vragen-tot
-    datum: '2019-05-14'
-  - titel: 'Belgische bijkantoren van vennootschappen naar buitenlands recht: eigen boekhoudkundige verplichtingen'
-    url: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-vennootschappen-naar-buitenlands-recht-eigen-boekhoudkundige-0
-    datum: '2019-03-26'
+      rationale: Kort advies (2010 tekens) zonder interne headings — structureel correct voor dit type enkelvoudige vraag-antwoord advies. Voetnoten [^1], [^2], [^3] aanwezig en goed gedefineerd. Bullets op regels 64-65 correct. Geen artefacten.
+      run_at: '2026-05-11T11:57:45Z'
+      status: trusted
+    rationale: Kort advies (2010 tekens) zonder interne headings — structureel correct voor dit type enkelvoudige vraag-antwoord advies. Voetnoten [^1], [^2], [^3] aanwezig en goed gedefineerd. Bullets op regels 64-65 correct. Geen artefacten.
+    status: trusted
+themas:
+  - afwijking
+  - investeringsmaatschappij
+  - tijdelijk minderheidsbelang
 ---
 
 # CBN-advies 108/4 - Vermelding door een investeringsmaatschappij van het aandelenbezit in andere vennootschappen
 
-Met toepassing van de Vierde EEG-Richtlijn[^1]
- vereist het koninklijk besluit van 8 oktober 1976 de vermelding in de toelichting van de vennootschappen waarin de onderneming een aandeel in het kapitaal bezit dat ten minste 10 %[^2]
- van het geplaatste kapitaal beloopt. De richtlijn bepaalt echter dat de Lid-Staten kunnen toestaan - gebeurlijk mits toestemming van overheid of rechter - dat deze gegevens achterwege worden gelaten indien het vermelden ervan aan een van de betrokken ondernemingen ernstig nadeel kan berokkenen[^3].
+Met toepassing van de Vierde EEG-Richtlijn[^1] vereist het koninklijk besluit van 8 oktober 1976 de vermelding in de toelichting van de vennootschappen waarin de onderneming een aandeel in het kapitaal bezit dat ten minste 10 %[^2] van het geplaatste kapitaal beloopt. De richtlijn bepaalt echter dat de Lid-Staten kunnen toestaan - gebeurlijk mits toestemming van overheid of rechter - dat deze gegevens achterwege worden gelaten indien het vermelden ervan aan een van de betrokken ondernemingen ernstig nadeel kan berokkenen[^3].
 
 Op basis van deze bepaling werd bij de Minister van Economische Zaken een verzoek tot afwijking ingediend door een investeringsmaatschappij waarvan de hoofdactiviteit bestaat in het financieren van ondernemingen via het opnemen van een tijdelijk minderheidsbelang in hun kapitaal, dit:
 

@@ -1,6 +1,47 @@
 ---
-nummer: CBN-advies 2011/4
+bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-leveringontvangst-van-handelsgoederen-om-niet-update-0
 datum: 2011-01-12
+nummer: CBN-advies 2011/4
+provenance:
+  generated_at: '2026-05-11T13:05:08Z'
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-leveringontvangst-van-handelsgoederen-om-niet-update-0
+      sha256: 72aa22e5a94a24cef31611e115d2507720b175904234b657608a618a50f5119c
+      version:
+  stale: false
+  stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
+  trust:
+    confirmed_at: '2026-05-11T12:09:18Z'
+    confirmed_by: subagent-sonnet-4-6
+    layer1:
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:28Z'
+      heading_count: 2
+      max_section_chars: 1351
+      file_size_chars: 2041
+      flags: []
+    layer2:
+      agent: subagent-sonnet-4-6
+      concrete_problemen:
+        - categorie: D4
+          regel: 53
+          type: other
+          voorbeeld: '***Voorbeeld***'
+        - categorie: D4
+          regel: 66
+          type: other
+          voorbeeld: '***Voorbeeld***'
+      rationale: 'Regel 53: ''***Voorbeeld***'' gebruikt drievoudige asterisk (bold+italic gecombineerd) terwijl regel 66 hetzelfde patroon herhaalt. Dit is een inconsistentie tov de andere adviezen die ''*Voorbeeld*'' of ''*Voorbeeld'' gebruiken (D4/stijl-inconsistentie). Anderzijds is dit een zeer kort advies (2042 chars) met slechts twee headings en één tabel — laag 1 meldt heading_count 2 wat klopt. Voetnoot [^1] is gedefinieerd maar er is geen [^1]-referentie in de body (de footnote is een redactionele noot over de publieke consultatie, wat in orde is). Toch wijst het triple-asterisk patroon op een ETL-stijlinconsistentie ten opzichte van de rest van de batch.'
+      run_at: '2026-05-11T12:09:18Z'
+      status: needs-rework
+    rationale: 'Regel 53: ''***Voorbeeld***'' gebruikt drievoudige asterisk (bold+italic gecombineerd) terwijl regel 66 hetzelfde patroon herhaalt. Dit is een inconsistentie tov de andere adviezen die ''*Voorbeeld*'' of ''*Voorbeeld'' gebruiken (D4/stijl-inconsistentie). Anderzijds is dit een zeer kort advies (2042 chars) met slechts twee headings en één tabel — laag 1 meldt heading_count 2 wat klopt. Voetnoot [^1] is gedefinieerd maar er is geen [^1]-referentie in de body (de footnote is een redactionele noot over de publieke consultatie, wat in orde is). Toch wijst het triple-asterisk patroon op een ETL-stijlinconsistentie ten opzichte van de rest van de batch.'
+    status: needs-rework
 themas:
   - gratis handelsgoederen
   - levering handelsgoederen om niet
@@ -9,47 +50,6 @@ themas:
   - voorraad
   - voorraadwijziging
   - aankoopverplichting
-bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-leveringontvangst-van-handelsgoederen-om-niet-update-0
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-leveringontvangst-van-handelsgoederen-om-niet-update-0
-      sha256: 72aa22e5a94a24cef31611e115d2507720b175904234b657608a618a50f5119c
-      version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:36:08Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T12:09:18Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "Regel 53: '***Voorbeeld***' gebruikt drievoudige asterisk (bold+italic gecombineerd) terwijl regel 66 hetzelfde patroon herhaalt. Dit is een inconsistentie tov de andere adviezen die '*Voorbeeld*' of '*Voorbeeld' gebruiken (D4/stijl-inconsistentie). Anderzijds is dit een zeer kort advies (2042 chars) met slechts twee headings en één tabel — laag 1 meldt heading_count 2 wat klopt. Voetnoot [^1] is gedefinieerd maar er is geen [^1]-referentie in de body (de footnote is een redactionele noot over de publieke consultatie, wat in orde is). Toch wijst het triple-asterisk patroon op een ETL-stijlinconsistentie ten opzichte van de rest van de batch."
-    layer1:
-      status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 2
-      max_section_chars: 1351
-      file_size_chars: 2042
-      flags: []
-    layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:09:18Z'
-      rationale: "Regel 53: '***Voorbeeld***' gebruikt drievoudige asterisk (bold+italic gecombineerd) terwijl regel 66 hetzelfde patroon herhaalt. Dit is een inconsistentie tov de andere adviezen die '*Voorbeeld*' of '*Voorbeeld' gebruiken (D4/stijl-inconsistentie). Anderzijds is dit een zeer kort advies (2042 chars) met slechts twee headings en één tabel — laag 1 meldt heading_count 2 wat klopt. Voetnoot [^1] is gedefinieerd maar er is geen [^1]-referentie in de body (de footnote is een redactionele noot over de publieke consultatie, wat in orde is). Toch wijst het triple-asterisk patroon op een ETL-stijlinconsistentie ten opzichte van de rest van de batch."
-      concrete_problemen:
-        - regel: 53
-          categorie: D4
-          type: other
-          voorbeeld: '***Voorbeeld***'
-        - regel: 66
-          categorie: D4
-          type: other
-          voorbeeld: '***Voorbeeld***'
 ---
 
 # CBN-advies 2011/4 - Boekhoudkundige verwerking van levering/ontvangst van handelsgoederen om niet (update)
@@ -60,8 +60,7 @@ Een onderneming die aan een derde handelsgoederen om niet levert, dient in zijn 
 
 ***Voorbeeld***
 
-Een onderneming levert handelsgoederen ter waarde van 500 euro[^2]
- gratis aan haar klant. Op inventarisdatum zal de rekening 340 *Handelsgoederen*, via het boeken van de voorraadwijzigingen, voor 500 euro worden beïnvloed. 
+Een onderneming levert handelsgoederen ter waarde van 500 euro[^2] gratis aan haar klant. Op inventarisdatum zal de rekening 340 *Handelsgoederen*, via het boeken van de voorraadwijzigingen, voor 500 euro worden beïnvloed. 
 
 De Commissie spreekt zich niet uit over de BTW-implicaties van de levering van goederen om niet.
 

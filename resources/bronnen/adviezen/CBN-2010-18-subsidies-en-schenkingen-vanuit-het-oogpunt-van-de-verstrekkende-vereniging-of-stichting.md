@@ -1,6 +1,43 @@
 ---
-nummer: CBN-advies 2010/18
+bron: https://www.cbn-cnc.be/nl/adviezen/subsidies-en-schenkingen-vanuit-het-oogpunt-van-de-verstrekkende-vereniging-of-stichting
 datum: 2010-11-10
+nummer: CBN-advies 2010/18
+provenance:
+  generated_at: '2026-05-11T13:05:08Z'
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/subsidies-en-schenkingen-vanuit-het-oogpunt-van-de-verstrekkende-vereniging-of-stichting
+      sha256: c7b39235700056bc5c9e144ded0d7577e9a7c51b767eb849ff0fc187fb8e6cb7
+      version:
+  stale: false
+  stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
+  trust:
+    confirmed_at: '2026-05-11T12:09:18Z'
+    confirmed_by: subagent-sonnet-4-6
+    layer1:
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:28Z'
+      heading_count: 13
+      max_section_chars: 3838
+      file_size_chars: 7105
+      flags: []
+    layer2:
+      agent: subagent-sonnet-4-6
+      concrete_problemen:
+        - categorie: A3
+          regel: 51
+          type: other
+          voorbeeld: 1. Subsidies \n  1. Subsidies in contanten \n  2. Subsidies in natura ...
+      rationale: 'Regels 51–60: plain-text inhoudsopgave in de body (A3). De overige inhoud (dertien headings, zes voorbeelden, voetnoot 1) is structureel correct en leesbaar. Geen andere artefacten gevonden.'
+      run_at: '2026-05-11T12:09:18Z'
+      status: needs-rework
+    rationale: 'Regels 51–60: plain-text inhoudsopgave in de body (A3). De overige inhoud (dertien headings, zes voorbeelden, voetnoot 1) is structureel correct en leesbaar. Geen andere artefacten gevonden.'
+    status: needs-rework
 themas:
   - gratis verstrekte dienst
   - om niet
@@ -11,43 +48,6 @@ themas:
   - subsidies in natura
   - vereniging zonder winstoogmerk
   - vrijwilligersprestatie
-bron: https://www.cbn-cnc.be/nl/adviezen/subsidies-en-schenkingen-vanuit-het-oogpunt-van-de-verstrekkende-vereniging-of-stichting
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/subsidies-en-schenkingen-vanuit-het-oogpunt-van-de-verstrekkende-vereniging-of-stichting
-      sha256: c7b39235700056bc5c9e144ded0d7577e9a7c51b767eb849ff0fc187fb8e6cb7
-      version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:36:04Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T12:09:18Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: 'Regels 51–60: plain-text inhoudsopgave in de body (A3). De overige inhoud (dertien headings, zes voorbeelden, voetnoot 1) is structureel correct en leesbaar. Geen andere artefacten gevonden.'
-    layer1:
-      status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 13
-      max_section_chars: 3838
-      file_size_chars: 7105
-      flags: []
-    layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:09:18Z'
-      rationale: 'Regels 51–60: plain-text inhoudsopgave in de body (A3). De overige inhoud (dertien headings, zes voorbeelden, voetnoot 1) is structureel correct en leesbaar. Geen andere artefacten gevonden.'
-      concrete_problemen:
-        - regel: 51
-          categorie: A3
-          type: other
-          voorbeeld: 1. Subsidies \n  1. Subsidies in contanten \n  2. Subsidies in natura ...
 ---
 
 # CBN-advies 2010/18 - Subsidies en schenkingen vanuit het oogpunt van de verstrekkende vereniging of stichting

@@ -1,6 +1,52 @@
 ---
-nummer: CBN-advies 2018/01
+bron: https://www.cbn-cnc.be/nl/adviezen/aftrek-voor-innovatie-inkomsten
 datum: 2018-03-21
+gerelateerde_adviezen:
+  - datum: '2024-05-22'
+    titel: Boekhoudkundige verwerking van de taks tot vergoeding der successierechten
+    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-taks-tot-vergoeding-der-successierechten
+  - datum: '2019-03-05'
+    titel: Voorzieningen
+    url: https://www.cbn-cnc.be/nl/adviezen/voorzieningen
+  - datum: '2018-05-30'
+    titel: Interpretatie van code 99084 in de toelichting 5.14 van de geconsolideerde jaarrekening
+    url: https://www.cbn-cnc.be/nl/adviezen/interpretatie-van-code-99084-in-de-toelichting-514-van-de-geconsolideerde-jaarrekening
+  - datum: '2018-05-30'
+    titel: Tax shelter voor podiumkunsten
+    url: https://www.cbn-cnc.be/nl/adviezen/tax-shelter-voor-podiumkunsten
+nummer: CBN-advies 2018/01
+provenance:
+  generated_at: '2026-05-11T13:05:08Z'
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/aftrek-voor-innovatie-inkomsten
+      sha256: 1b7cc8df2f34d523e05e807e2be7905931917b5a0aaa761884bb042b96fcb6e6
+      version:
+  stale: false
+  stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
+  trust:
+    confirmed_at:
+    confirmed_by:
+    layer1:
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:29Z'
+      heading_count: 14
+      max_section_chars: 10608
+      file_size_chars: 16319
+      flags: []
+    layer2:
+      agent:
+      concrete_problemen: []
+      rationale:
+      run_at:
+      status: not_run
+    rationale: 'Trust gereset 2026-05-11: re-scrape met scraper-fixes, content-diff > 5%'
+    status: unreviewed
 themas:
   - belasting
   - aftrek innovatie-inkomsten
@@ -12,76 +58,19 @@ themas:
   - immateriële vaste activa
   - belastingvrije reserves
   - beschikbare reserves
-bron: https://www.cbn-cnc.be/nl/adviezen/aftrek-voor-innovatie-inkomsten
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/aftrek-voor-innovatie-inkomsten
-      sha256: 1b7cc8df2f34d523e05e807e2be7905931917b5a0aaa761884bb042b96fcb6e6
-      version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:37:17Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T12:21:40Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: 'D4: recurrent patroon van malformed italic met spatie voor sluitende asterisk op minstens drie plaatsen: regel 67 (`*aftrek voor innovatie-inkomsten[^2] *`), regel 70 (`*gecorrigeerde netto-inkomsten[^4] *`) en regel 101 (`*De boekhoudkundige verwerking van immateriële vaste activa *`). Het patroon is structureel en dus ETL-gerelateerd.'
-    layer1:
-      status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 14
-      max_section_chars: 10604
-      file_size_chars: 16308
-      flags: []
-    layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:21:40Z'
-      rationale: 'D4: recurrent patroon van malformed italic met spatie voor sluitende asterisk op minstens drie plaatsen: regel 67 (`*aftrek voor innovatie-inkomsten[^2] *`), regel 70 (`*gecorrigeerde netto-inkomsten[^4] *`) en regel 101 (`*De boekhoudkundige verwerking van immateriële vaste activa *`). Het patroon is structureel en dus ETL-gerelateerd.'
-      concrete_problemen:
-        - regel: 67
-          categorie: D4
-          type: other
-          voorbeeld: de *aftrek voor innovatie-inkomsten[^2] * in de vennootschapsbelasting
-        - regel: 70
-          categorie: D4
-          type: other
-          voorbeeld: 85 procent van de *gecorrigeerde netto-inkomsten[^4] *uit bepaalde
-        - regel: 101
-          categorie: D4
-          type: other
-          voorbeeld: '*De boekhoudkundige verwerking van immateriële vaste activa *en het'
-gerelateerde_adviezen:
-  - titel: Boekhoudkundige verwerking van de taks tot vergoeding der successierechten
-    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-taks-tot-vergoeding-der-successierechten
-    datum: '2024-05-22'
-  - titel: Voorzieningen
-    url: https://www.cbn-cnc.be/nl/adviezen/voorzieningen
-    datum: '2019-03-05'
-  - titel: Interpretatie van code 99084 in de toelichting 5.14 van de geconsolideerde jaarrekening
-    url: https://www.cbn-cnc.be/nl/adviezen/interpretatie-van-code-99084-in-de-toelichting-514-van-de-geconsolideerde-jaarrekening
-    datum: '2018-05-30'
-  - titel: Tax shelter voor podiumkunsten
-    url: https://www.cbn-cnc.be/nl/adviezen/tax-shelter-voor-podiumkunsten
-    datum: '2018-05-30'
 ---
 
 # CBN-advies 2018/01 – Aftrek voor innovatie-inkomsten
 
 ## Inleiding
 
-Onderhavig advies geeft toelichting over de boekhoudkundige verwerking van de *aftrek voor innovatie-inkomsten[^2] * in de vennootschapsbelasting en de belasting van niet-inwoners.
+Onderhavig advies geeft toelichting over de boekhoudkundige verwerking van de *aftrek voor innovatie-inkomsten[^2]*  in de vennootschapsbelasting en de belasting van niet-inwoners.
 
 Het Wetboek van de inkomstenbelastingen 1992 (hierna: WIB 92) bepaalt dat vanaf 1 juli 2016 vennootschappen of bijkantoren van buitenlandse vennootschappen[^3]
- 85 procent van de *gecorrigeerde netto-inkomsten[^4] *uit bepaalde intellectuele eigendomsrechten[^5] in mindering kunnen brengen van hun winst van het belastbare tijdperk.
+ 85 procent van de *gecorrigeerde netto-inkomsten[^4]* uit bepaalde intellectuele eigendomsrechten[^5] in mindering kunnen brengen van hun winst van het belastbare tijdperk.
 
-De aftrek voor innovatie-inkomsten komt in de plaats van het stelsel van de aftrek voor octrooi-inkomsten.[^6] Het nieuwe regime werd ingevoerd om de competitiviteit van het fiscale kader voor innovatie te behouden op een wijze die in overeenstemming is met de richtlijnen uit het door de OESO opgestelde BEPS-actieplan (*Base Erosion and Profit Shifting*).[^7] 
+De aftrek voor innovatie-inkomsten komt in de plaats van het stelsel van de aftrek voor octrooi-inkomsten.[^6]
+ Het nieuwe regime werd ingevoerd om de competitiviteit van het fiscale kader voor innovatie te behouden op een wijze die in overeenstemming is met de richtlijnen uit het door de OESO opgestelde BEPS-actieplan (*Base Erosion and Profit Shifting*).[^7] 
 
 De Commissie benadrukt dat ze met onderhavig advies geen uitspraak doet over de fiscale aspecten van de aftrek voor innovatie-inkomsten.
 
@@ -98,9 +87,11 @@ De netto-inkomsten[^8] van de volgende intellectuele eigendomsrechten[^9] komen 
 - weesgeneesmiddelen; 
 - data- en/of marktexclusiviteit voor gewasbeschermingsmiddelen, geneesmiddelen voor menselijk of dierlijk gebruik. 
 
-De bepaling van het bedrag van innovatie-inkomsten dat voor aftrek tijdens een belastbaar tijdperk in aanmerking komt, vindt in principe[^10] plaats voor ieder kwalificerend eigendomsrecht afzonderlijk.[^11] Indien de bepaling van de innovatie-inkomsten een negatief resultaat oplevert, wordt dit negatief resultaat achtereenvolgens in mindering gebracht van de netto innovatie-inkomsten van het betreffende intellectueel eigendomsrecht van elk volgend belastbaar tijdperk.[^12] 
+De bepaling van het bedrag van innovatie-inkomsten dat voor aftrek tijdens een belastbaar tijdperk in aanmerking komt, vindt in principe[^10] plaats voor ieder kwalificerend eigendomsrecht afzonderlijk.[^11]
+ Indien de bepaling van de innovatie-inkomsten een negatief resultaat oplevert, wordt dit negatief resultaat achtereenvolgens in mindering gebracht van de netto innovatie-inkomsten van het betreffende intellectueel eigendomsrecht van elk volgend belastbaar tijdperk.[^12] 
 
-Het bedrag van de aftrek wordt bepaald op 85 procent van de netto innovatie-inkomsten vermenigvuldigd met een breuk.[^13] Deze breuk wordt toegepast teneinde de aftrek toe te kennen in functie van de door de vennootschap zelf uitgevoerde activiteiten van onderzoek en ontwikkeling (O&O) waarbij het uiteindelijke doel erin bestaat enkel nog inkomsten voortkomend uit de eigenlijke O&O-activiteiten door de vennootschap zelf uitgevoerd, in aanmerking te laten komen.[^14] 
+Het bedrag van de aftrek wordt bepaald op 85 procent van de netto innovatie-inkomsten vermenigvuldigd met een breuk.[^13]
+ Deze breuk wordt toegepast teneinde de aftrek toe te kennen in functie van de door de vennootschap zelf uitgevoerde activiteiten van onderzoek en ontwikkeling (O&O) waarbij het uiteindelijke doel erin bestaat enkel nog inkomsten voortkomend uit de eigenlijke O&O-activiteiten door de vennootschap zelf uitgevoerd, in aanmerking te laten komen.[^14] 
 
 ### Overdracht van de aftrek
 
@@ -110,13 +101,17 @@ Wanneer een belastbaar tijdperk onvoldoende (fiscale) winst oplevert voor de int
 
 #### Het intellectueel eigendomsrecht is reeds ontstaan
 
-Op het ogenblik dat het intellectueel eigendomsrecht is ontstaan[^16], kunnen de netto-inkomsten die hieruit ontstaan in mindering worden gebracht van de (fiscale) winst. Deze aftrek voor innovatie-inkomsten wordt toegepast door een aftrek in de fiscale aangifte.[^17] Wat betreft de boeking van een intellectueel eigendomsrecht als actiefbestanddeel verwijst de Commissie naar het CBN-advies 2012/13 – *De boekhoudkundige verwerking van immateriële vaste activa *en het CBN-advies 2016/16 - *Kosten van onderzoek en ontwikkeling: wijzigingen door het koninklijk besluit van 18 december 2015.* Dit zal het geval zijn indien bijvoorbeeld het octrooi reeds is toegekend of indien het gaat om software.
+Op het ogenblik dat het intellectueel eigendomsrecht is ontstaan[^16], kunnen de netto-inkomsten die hieruit ontstaan in mindering worden gebracht van de (fiscale) winst. Deze aftrek voor innovatie-inkomsten wordt toegepast door een aftrek in de fiscale aangifte.[^17]
+ Wat betreft de boeking van een intellectueel eigendomsrecht als actiefbestanddeel verwijst de Commissie naar het CBN-advies 2012/13 – *De boekhoudkundige verwerking van immateriële vaste activa* en het CBN-advies 2016/16 - *Kosten van onderzoek en ontwikkeling: wijzigingen door het koninklijk besluit van 18 december 2015.* Dit zal het geval zijn indien bijvoorbeeld het octrooi reeds is toegekend of indien het gaat om software.
 
 #### Het intellectueel eigendomsrecht is in aanvraag maar is nog niet ontstaan
 
-De aftrek voor innovatie-inkomsten is reeds mogelijk vanaf het ogenblik dat een in aanmerking komend intellectueel eigendomsrecht[^18] wordt aangevraagd.[^19] Omdat echter op het moment van de aanvraag nog niet kan worden gegarandeerd dat deze aanvraag uiteindelijk zal worden goedgekeurd, wordt in de periode dat de aanvraag lopende is enkel een tijdelijke vrijstelling toegekend. De voorlopige vrijstelling wordt slechts verleend mits voldaan is aan de voorwaarde dat het vrijgestelde gedeelte van de (fiscale) winst op één of meer afzonderlijke rekeningen van het passief geboekt is en blijft en niet tot grondslag dient voor de berekening van de jaarlijkse dotatie aan de wettelijke reserve of van enige beloning of toekenning (de zogenaamde onaantastbaarheidsvoorwaarde).[^20] Om aanspraak te kunnen maken op de vrijgestelde reserve zal de vennootschap een opgave[^21] bij haar aangifte in de vennootschapsbelasting of belasting van niet-inwoners moeten voegen.
+De aftrek voor innovatie-inkomsten is reeds mogelijk vanaf het ogenblik dat een in aanmerking komend intellectueel eigendomsrecht[^18] wordt aangevraagd.[^19]
+ Omdat echter op het moment van de aanvraag nog niet kan worden gegarandeerd dat deze aanvraag uiteindelijk zal worden goedgekeurd, wordt in de periode dat de aanvraag lopende is enkel een tijdelijke vrijstelling toegekend. De voorlopige vrijstelling wordt slechts verleend mits voldaan is aan de voorwaarde dat het vrijgestelde gedeelte van de (fiscale) winst op één of meer afzonderlijke rekeningen van het passief geboekt is en blijft en niet tot grondslag dient voor de berekening van de jaarlijkse dotatie aan de wettelijke reserve of van enige beloning of toekenning (de zogenaamde onaantastbaarheidsvoorwaarde).[^20]
+ Om aanspraak te kunnen maken op de vrijgestelde reserve zal de vennootschap een opgave[^21] bij haar aangifte in de vennootschapsbelasting of belasting van niet-inwoners moeten voegen.
 
-Vanaf het ogenblik dat het intellectueel eigendomsrecht effectief is verleend, wordt de aftrek voor innovatie-inkomsten toegepast door een aftrek in de fiscale aangifte.[^22] De in het verleden aangelegde tijdelijk vrijgestelde reserve zal definitief worden vrijgesteld, via een verhoging van de begintoestand van de belaste reserves. In het geval de vennootschap op het moment dat het intellectueel eigendomsrecht wordt verleend, nog met een overdracht aan vrijgestelde inkomsten zit, kan zij deze, rekening houdend met de grensbedragen voor die belastbare tijdperken, nog steeds vrijstellen in dat of in een van de daaropvolgende belastbare tijdperken. Aangezien er op dat moment geen twijfel meer is of de aanvraag effectief zal worden goedgekeurd, zal de vrijstelling niet langer tijdelijk plaatsvinden via de vrijgestelde reserves, maar rechtstreeks via een verhoging van de begintoestand van de belaste reserves.[^23] 
+Vanaf het ogenblik dat het intellectueel eigendomsrecht effectief is verleend, wordt de aftrek voor innovatie-inkomsten toegepast door een aftrek in de fiscale aangifte.[^22]
+ De in het verleden aangelegde tijdelijk vrijgestelde reserve zal definitief worden vrijgesteld, via een verhoging van de begintoestand van de belaste reserves. In het geval de vennootschap op het moment dat het intellectueel eigendomsrecht wordt verleend, nog met een overdracht aan vrijgestelde inkomsten zit, kan zij deze, rekening houdend met de grensbedragen voor die belastbare tijdperken, nog steeds vrijstellen in dat of in een van de daaropvolgende belastbare tijdperken. Aangezien er op dat moment geen twijfel meer is of de aanvraag effectief zal worden goedgekeurd, zal de vrijstelling niet langer tijdelijk plaatsvinden via de vrijgestelde reserves, maar rechtstreeks via een verhoging van de begintoestand van de belaste reserves.[^23] 
 
 #### Het intellectueel eigendomsrecht zal niet ontstaan
 
@@ -132,17 +127,21 @@ De aftrek voor innovatie-inkomsten die voortvloeien uit een toegekend intellectu
 
 De aftrek voor innovatie-inkomsten die slechts tijdelijk is in afwachting van het al dan niet effectief bekomen van het intellectueel eigendomsrecht kan slechts worden bekomen wanneer het vrijgestelde gedeelte van de innovatie-inkomsten voldoet aan de onaantastbaarheidsvoorwaarde. Dergelijke vrijstelling impliceert aldus een boeking met als debet de rekening 689 *Overboeking naar de belastingvrije reserves* en een creditering van (een afzonderlijke subrekening binnen) de rekening 132 *Belastingvrije reserves*.
 
-Wanneer nadien het intellectueel eigendomsrecht effectief is ontstaan en de tijdelijke vrijstelling een definitieve vrijstelling wordt, kan in principe de belastingvrije reserve rechtstreeks worden overgeboekt van de rekening 132 *Belastingvrije reserves* naar de rekening 133 *Beschikbare reserves*.[^25] Een rechtstreekse overboeking van de belastingvrije reserves naar de beschikbare reserves houdt echter in dat het bedrag dat overeenstemt met de definitieve vrijstelling nooit wordt opgenomen in het te bestemmen resultaat. Om die reden is de Commissie van mening dat het meer aangewezen is de rekening 132 *Belastingvrije reserves* te debiteren en de rekening 789 *Onttrekkingen aan de belastingvrije reserves* te crediteren en vervolgens een bestemming te geven aan het aldus bekomen resultaat.
+Wanneer nadien het intellectueel eigendomsrecht effectief is ontstaan en de tijdelijke vrijstelling een definitieve vrijstelling wordt, kan in principe de belastingvrije reserve rechtstreeks worden overgeboekt van de rekening 132 *Belastingvrije reserves* naar de rekening 133 *Beschikbare reserves*.[^25]
+ Een rechtstreekse overboeking van de belastingvrije reserves naar de beschikbare reserves houdt echter in dat het bedrag dat overeenstemt met de definitieve vrijstelling nooit wordt opgenomen in het te bestemmen resultaat. Om die reden is de Commissie van mening dat het meer aangewezen is de rekening 132 *Belastingvrije reserves* te debiteren en de rekening 789 *Onttrekkingen aan de belastingvrije reserves* te crediteren en vervolgens een bestemming te geven aan het aldus bekomen resultaat.
 
 ### Het intellectueel eigendomsrecht wordt niet bekomen
 
-Wanneer de aanvraag voor het bekomen van het intellectueel eigendomsrecht is beëindigd zonder dat een intellectueel eigendomsrecht werd bekomen, wordt de voorheen aangelegde belastingvrije reserve belastbaar. De belastingvrije reserve kan rechtstreeks worden overgeboekt van de rekening 132* Belastingvrije reserves *naar de rekening 133 *Beschikbare reserves*.[^26] Een rechtstreekse overboeking van de belastingvrije reserves naar de beschikbare reserves houdt echter in dat het bedrag van de voorheen vrijgestelde reserve nooit wordt opgenomen in het te bestemmen resultaat. Om die reden is de Commissie van mening dat het meer aangewezen is de rekening 132 *Belastingvrije reserves* te debiteren en de rekening 789 *Onttrekkingen aan de belastingvrije reserves* te crediteren en vervolgens een bestemming te geven aan het aldus bekomen resultaat.
+Wanneer de aanvraag voor het bekomen van het intellectueel eigendomsrecht is beëindigd zonder dat een intellectueel eigendomsrecht werd bekomen, wordt de voorheen aangelegde belastingvrije reserve belastbaar. De belastingvrije reserve kan rechtstreeks worden overgeboekt van de rekening 132* Belastingvrije reserves *naar de rekening 133* Beschikbare reserves*.[^26]
+ Een rechtstreekse overboeking van de belastingvrije reserves naar de beschikbare reserves houdt echter in dat het bedrag van de voorheen vrijgestelde reserve nooit wordt opgenomen in het te bestemmen resultaat. Om die reden is de Commissie van mening dat het meer aangewezen is de rekening 132 *Belastingvrije reserves* te debiteren en de rekening 789 *Onttrekkingen aan de belastingvrije reserves* te crediteren en vervolgens een bestemming te geven aan het aldus bekomen resultaat.
 
 ### Toelichting
 
-De Commissie merkt op dat met betrekking tot de aftrek voor innovatie-inkomsten in voorkomend geval passende vermeldingen in de toelichting moeten worden opgenomen. De vennootschappen die hun jaarrekening opstellen volgens het volledig schema moeten met betrekking tot de aftrek innovatie-inkomsten de invloed vermelden op de verschuldigde belastingen op het resultaat[^27] en de aanwezigheid van belastinglatenties.[^28] Deze latenties kunnen zowel actieve belastinglatenties zijn, bijvoorbeeld ingeval van een overgedragen aftrek indien er onvoldoende (fiscale) winst is in een bepaald belastbaar tijdperk, als passieve belastinglatenties, bijvoorbeeld wanneer kosten uit het verleden met betrekking tot innovatie-inkomsten fiscaal slechts tijdens latere jaren worden verrekend in de formule tot vaststelling van de aftrek innovatie-inkomsten.[^29] 
+De Commissie merkt op dat met betrekking tot de aftrek voor innovatie-inkomsten in voorkomend geval passende vermeldingen in de toelichting moeten worden opgenomen. De vennootschappen die hun jaarrekening opstellen volgens het volledig schema moeten met betrekking tot de aftrek innovatie-inkomsten de invloed vermelden op de verschuldigde belastingen op het resultaat[^27] en de aanwezigheid van belastinglatenties.[^28]
+ Deze latenties kunnen zowel actieve belastinglatenties zijn, bijvoorbeeld ingeval van een overgedragen aftrek indien er onvoldoende (fiscale) winst is in een bepaald belastbaar tijdperk, als passieve belastinglatenties, bijvoorbeeld wanneer kosten uit het verleden met betrekking tot innovatie-inkomsten fiscaal slechts tijdens latere jaren worden verrekend in de formule tot vaststelling van de aftrek innovatie-inkomsten.[^29] 
 
-Voor de vennootschappen die hun jaarrekening opstellen volgens het microschema of het verkorte schema geldt deze specifieke verplichting tot vermelding in de toelichting niet. De Commissie wijst evenwel op het algemene beginsel dat stelt dat de jaarrekening een getrouw beeld moet geven van het vermogen, de financiële positie en het resultaat van de vennootschap. Wanneer de toepassing van de bepalingen van Boek II, titel I van het KB W.Venn. aldus niet volstaat om te voldoen aan dit voorschrift moeten aanvullende inlichtingen worden verstrekt in de toelichting.[^30] Dergelijke toelichtingen worden opgenomen in het volledig model, het verkort model en het micromodel op de respectievelijke pagina’s VOL 6.20, VKT 6.9, MIC 6.6.
+Voor de vennootschappen die hun jaarrekening opstellen volgens het microschema of het verkorte schema geldt deze specifieke verplichting tot vermelding in de toelichting niet. De Commissie wijst evenwel op het algemene beginsel dat stelt dat de jaarrekening een getrouw beeld moet geven van het vermogen, de financiële positie en het resultaat van de vennootschap. Wanneer de toepassing van de bepalingen van Boek II, titel I van het KB W.Venn. aldus niet volstaat om te voldoen aan dit voorschrift moeten aanvullende inlichtingen worden verstrekt in de toelichting.[^30]
+ Dergelijke toelichtingen worden opgenomen in het volledig model, het verkort model en het micromodel op de respectievelijke pagina’s VOL 6.20, VKT 6.9, MIC 6.6.
 
 ## Fiscale documentatieverplichting
 

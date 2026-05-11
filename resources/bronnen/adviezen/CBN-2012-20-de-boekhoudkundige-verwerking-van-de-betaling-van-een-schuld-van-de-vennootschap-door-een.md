@@ -1,45 +1,45 @@
 ---
-nummer: CBN-advies 2012/20
-datum: 2012-12-05
-themas:
-  - borgstelling
 bron: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-betaling-van-een-schuld-van-de-vennootschap-door-een
+datum: 2012-12-05
+gerelateerde_adviezen:
+  - datum: '2017-05-31'
+    titel: Boekhoudkundige verwerking van de vergoeding voor een borg in het kader van de financiering van een voor verkoop bestemd onroerend goed
+    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-vergoeding-voor-een-borg-in-het-kader-van-de
+nummer: CBN-advies 2012/20
 provenance:
+  generated_at: '2026-05-11T13:05:08Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-betaling-van-een-schuld-van-de-vennootschap-door-een
       sha256: 562a1c28c786fd477a0487784ccacbfb68b4f129ce310cd55d6a3b62fa7e9364
       version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:36:33Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
   trust:
-    status: trusted
     confirmed_at: '2026-05-11T12:16:34Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: 'Zeer kort advies (3489 chars) zonder subkopjes — dat weerspiegelt de bron: de originele tekst heeft geen subsecties. Geen artefacten gevonden; voetnoten correct; proza correct afgerond. Heading_count=0 is conform de bron.'
     layer1:
       status: pass
-      run_id: 20260511-083333
-      run_at:
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:28Z'
       heading_count: 0
       max_section_chars: 3489
       file_size_chars: 3489
       flags: []
     layer2:
-      status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:16:34Z'
-      rationale: 'Zeer kort advies (3489 chars) zonder subkopjes — dat weerspiegelt de bron: de originele tekst heeft geen subsecties. Geen artefacten gevonden; voetnoten correct; proza correct afgerond. Heading_count=0 is conform de bron.'
       concrete_problemen: []
-gerelateerde_adviezen:
-  - titel: Boekhoudkundige verwerking van de vergoeding voor een borg in het kader van de financiering van een voor verkoop bestemd onroerend goed
-    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-vergoeding-voor-een-borg-in-het-kader-van-de
-    datum: '2017-05-31'
+      rationale: 'Zeer kort advies (3489 chars) zonder subkopjes — dat weerspiegelt de bron: de originele tekst heeft geen subsecties. Geen artefacten gevonden; voetnoten correct; proza correct afgerond. Heading_count=0 is conform de bron.'
+      run_at: '2026-05-11T12:16:34Z'
+      status: trusted
+    rationale: 'Zeer kort advies (3489 chars) zonder subkopjes — dat weerspiegelt de bron: de originele tekst heeft geen subsecties. Geen artefacten gevonden; voetnoten correct; proza correct afgerond. Heading_count=0 is conform de bron.'
+    status: trusted
+themas:
+  - borgstelling
 ---
 
 # CBN-advies 2012/20 – De boekhoudkundige verwerking van de betaling van een schuld van de vennootschap door een derde die zich hiertoe als borg heeft verbonden ten aanzien van de schuldeiser

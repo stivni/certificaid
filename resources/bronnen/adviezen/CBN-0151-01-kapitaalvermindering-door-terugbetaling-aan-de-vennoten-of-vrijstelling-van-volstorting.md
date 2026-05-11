@@ -1,6 +1,60 @@
 ---
-nummer: CBN-advies 151/1
+bron: https://www.cbn-cnc.be/nl/adviezen/kapitaalvermindering-door-terugbetaling-aan-de-vennoten-of-vrijstelling-van-volstorting
 datum: 1986-07-01
+gerelateerde_adviezen:
+  - datum: '2024-03-13'
+    titel: Terugbetaling van kapitaal in vreemde valuta aan de aandeelhouders
+    url: https://www.cbn-cnc.be/nl/adviezen/terugbetaling-van-kapitaal-in-vreemde-valuta-aan-de-aandeelhouders
+  - datum: '2020-12-09'
+    titel: Overgang van een kapitaalhoudende coöperatieve vennootschap naar een kapitaalloze vennootschap
+    url: https://www.cbn-cnc.be/nl/adviezen/overgang-van-een-kapitaalhoudende-cooperatieve-vennootschap-naar-een-kapitaalloze
+  - datum: '2020-01-27'
+    titel: 'Neerlegging van de enkelvoudige jaarrekening bij de Nationale Bank van België: nieuwe modellen van de jaarrekening'
+    url: https://www.cbn-cnc.be/nl/adviezen/neerlegging-van-de-enkelvoudige-jaarrekening-bij-de-nationale-bank-van-belgie-nieuwe
+  - datum: '2019-11-13'
+    titel: Van een kapitaalhoudende BVBA naar een kapitaalloze BV
+    url: https://www.cbn-cnc.be/nl/adviezen/van-een-kapitaalhoudende-bvba-naar-een-kapitaalloze-bv
+nummer: CBN-advies 151/1
+provenance:
+  generated_at: '2026-05-11T13:05:06Z'
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/kapitaalvermindering-door-terugbetaling-aan-de-vennoten-of-vrijstelling-van-volstorting
+      sha256: 2c34d7979e80bfbd6561058adfafea05e047e5a8132eff5aa7e6653a664220fc
+      version:
+  stale: false
+  stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
+  trust:
+    confirmed_at: '2026-05-11T12:04:41Z'
+    confirmed_by: subagent-sonnet-4-6
+    layer1:
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:26Z'
+      heading_count: 1
+      max_section_chars: 3764
+      file_size_chars: 3764
+      flags: []
+    layer2:
+      agent: subagent-sonnet-4-6
+      concrete_problemen:
+        - categorie: E2
+          regel: 71
+          type: other
+          voorbeeld: '| | 100 | Geplaatst kapitaal | | | (debet/credit leeg)'
+        - categorie: E2
+          regel: 92
+          type: other
+          voorbeeld: '| aan | | 101 | | Niet-opgevraagd kapitaal | (cel-offset)'
+      rationale: 'E2: de journaalboekingstabellen zijn structureel incompleet — debet- en creditkolommen zijn leeg voor alle boekingsregels (regels 71-72, 84-85, 91-92), wat niet de opzet van het brondocument is (cijfers ontbreken). Bovendien staat op regel 92 ''aan | | 101 | | Niet-opgevraagd kapitaal'' met een extra lege cel, wat een tabelstructuurfout is (cel verschoven ten opzichte van de header). Inhoud en argumentatie wel compleet.'
+      run_at: '2026-05-11T12:04:41Z'
+      status: needs-rework
+    rationale: 'E2: de journaalboekingstabellen zijn structureel incompleet — debet- en creditkolommen zijn leeg voor alle boekingsregels (regels 71-72, 84-85, 91-92), wat niet de opzet van het brondocument is (cijfers ontbreken). Bovendien staat op regel 92 ''aan | | 101 | | Niet-opgevraagd kapitaal'' met een extra lege cel, wat een tabelstructuurfout is (cel verschoven ten opzichte van de header). Inhoud en argumentatie wel compleet.'
+    status: needs-rework
 themas:
   - kapitaal
   - kapitaalvermindering
@@ -8,60 +62,6 @@ themas:
   - terugbetaling aan vennoten
   - vrijstelling
   - vrijstelling van volstorting
-bron: https://www.cbn-cnc.be/nl/adviezen/kapitaalvermindering-door-terugbetaling-aan-de-vennoten-of-vrijstelling-van-volstorting
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/kapitaalvermindering-door-terugbetaling-aan-de-vennoten-of-vrijstelling-van-volstorting
-      sha256: 2c34d7979e80bfbd6561058adfafea05e047e5a8132eff5aa7e6653a664220fc
-      version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:35:18Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T12:04:41Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "E2: de journaalboekingstabellen zijn structureel incompleet — debet- en creditkolommen zijn leeg voor alle boekingsregels (regels 71-72, 84-85, 91-92), wat niet de opzet van het brondocument is (cijfers ontbreken). Bovendien staat op regel 92 'aan | | 101 | | Niet-opgevraagd kapitaal' met een extra lege cel, wat een tabelstructuurfout is (cel verschoven ten opzichte van de header). Inhoud en argumentatie wel compleet."
-    layer1:
-      status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 2
-      max_section_chars: 2796
-      file_size_chars: 3770
-      flags: []
-    layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:04:41Z'
-      rationale: "E2: de journaalboekingstabellen zijn structureel incompleet — debet- en creditkolommen zijn leeg voor alle boekingsregels (regels 71-72, 84-85, 91-92), wat niet de opzet van het brondocument is (cijfers ontbreken). Bovendien staat op regel 92 'aan | | 101 | | Niet-opgevraagd kapitaal' met een extra lege cel, wat een tabelstructuurfout is (cel verschoven ten opzichte van de header). Inhoud en argumentatie wel compleet."
-      concrete_problemen:
-        - regel: 71
-          categorie: E2
-          type: other
-          voorbeeld: '| | 100 | Geplaatst kapitaal | | | (debet/credit leeg)'
-        - regel: 92
-          categorie: E2
-          type: other
-          voorbeeld: '| aan | | 101 | | Niet-opgevraagd kapitaal | (cel-offset)'
-gerelateerde_adviezen:
-  - titel: Terugbetaling van kapitaal in vreemde valuta aan de aandeelhouders
-    url: https://www.cbn-cnc.be/nl/adviezen/terugbetaling-van-kapitaal-in-vreemde-valuta-aan-de-aandeelhouders
-    datum: '2024-03-13'
-  - titel: Overgang van een kapitaalhoudende coöperatieve vennootschap naar een kapitaalloze vennootschap
-    url: https://www.cbn-cnc.be/nl/adviezen/overgang-van-een-kapitaalhoudende-cooperatieve-vennootschap-naar-een-kapitaalloze
-    datum: '2020-12-09'
-  - titel: 'Neerlegging van de enkelvoudige jaarrekening bij de Nationale Bank van België: nieuwe modellen van de jaarrekening'
-    url: https://www.cbn-cnc.be/nl/adviezen/neerlegging-van-de-enkelvoudige-jaarrekening-bij-de-nationale-bank-van-belgie-nieuwe
-    datum: '2020-01-27'
-  - titel: Van een kapitaalhoudende BVBA naar een kapitaalloze BV
-    url: https://www.cbn-cnc.be/nl/adviezen/van-een-kapitaalhoudende-bvba-naar-een-kapitaalloze-bv
-    datum: '2019-11-13'
 ---
 
 # CBN-advies 151/1 - Kapitaalvermindering door terugbetaling aan de vennoten of vrijstelling van volstorting
@@ -92,8 +92,7 @@ In dit geval worden bijgevolg onderstaande boekingen verricht :
 | | 100 | Geplaatst kapitaal | | |
 | aan | 48 | Diverse schulden | | |
 
-### Voorlopig behoud van de vordering op de aandeelhouders: 
-
+Voorlopig behoud van de vordering op de aandeelhouders:
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 410 | Diverse vorderingen | | |

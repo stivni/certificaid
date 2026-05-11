@@ -1,64 +1,64 @@
 ---
-nummer: CBN-advies 148/2
-datum: 1985-04-01
-themas:
-  - toerekening van kosten en opbrengsten
-  - vakentiegeld
 bron: https://www.cbn-cnc.be/nl/adviezen/vakantiegeld
+datum: 1985-04-01
+gerelateerde_adviezen:
+  - datum: '2016-07-06'
+    titel: 'Verenigingen en Stichtingen: roerende voorheffing'
+    url: https://www.cbn-cnc.be/nl/adviezen/verenigingen-en-stichtingen-roerende-voorheffing
+  - datum: '1995-03-01'
+    titel: Boekhoudkundige verwerking van verrichtingen afgesloten onder opschortende voorwaarde
+    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-verrichtingen-afgesloten-onder-opschortende-voorwaarde
+  - datum: '1990-06-01'
+    titel: Boeking van de prorata van gelopen interest op obligaties en kasbons
+    url: https://www.cbn-cnc.be/nl/adviezen/boeking-van-de-prorata-van-gelopen-interest-op-obligaties-en-kasbons
+  - datum: '1993-12-01'
+    titel: Actuarieel rendement op vastrentende effecten - Aanpassing van de adviezen 137/5 en 148/4
+    url: https://www.cbn-cnc.be/nl/adviezen/actuarieel-rendement-op-vastrentende-effecten-aanpassing-van-de-adviezen-1375-en-1484
+nummer: CBN-advies 148/2
 provenance:
+  generated_at: '2026-05-11T13:05:06Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/vakantiegeld
       sha256: 741d030d6b6ba24bf9ad15b73181dc19b7d0f11020739f2638d999710c7bc4a6
       version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:35:13Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
   trust:
-    status: needs-rework
     confirmed_at: '2026-05-11T12:04:41Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "D4: regel 57 bevat '*littera *d)' — spatie vóór de sluitende asterisk (bekend ETL-patroon '*term *'). Geen voetnoten in dit advies, inhoud verder volledig."
     layer1:
       status: pass
-      run_id: 20260511-083333
-      run_at:
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:26Z'
       heading_count: 0
       max_section_chars: 2224
       file_size_chars: 2224
       flags: []
     layer2:
-      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:04:41Z'
-      rationale: "D4: regel 57 bevat '*littera *d)' — spatie vóór de sluitende asterisk (bekend ETL-patroon '*term *'). Geen voetnoten in dit advies, inhoud verder volledig."
       concrete_problemen:
-        - regel: 57
-          categorie: D4
+        - categorie: D4
+          regel: 57
           type: other
           voorbeeld: artikel 31, § 1, *littera *d), van de vierde EEG-richtlijn
-gerelateerde_adviezen:
-  - titel: 'Verenigingen en Stichtingen: roerende voorheffing'
-    url: https://www.cbn-cnc.be/nl/adviezen/verenigingen-en-stichtingen-roerende-voorheffing
-    datum: '2016-07-06'
-  - titel: Boekhoudkundige verwerking van verrichtingen afgesloten onder opschortende voorwaarde
-    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-verrichtingen-afgesloten-onder-opschortende-voorwaarde
-    datum: '1995-03-01'
-  - titel: Boeking van de prorata van gelopen interest op obligaties en kasbons
-    url: https://www.cbn-cnc.be/nl/adviezen/boeking-van-de-prorata-van-gelopen-interest-op-obligaties-en-kasbons
-    datum: '1990-06-01'
-  - titel: Actuarieel rendement op vastrentende effecten - Aanpassing van de adviezen 137/5 en 148/4
-    url: https://www.cbn-cnc.be/nl/adviezen/actuarieel-rendement-op-vastrentende-effecten-aanpassing-van-de-adviezen-1375-en-1484
-    datum: '1993-12-01'
+      rationale: 'D4: regel 57 bevat ''*littera *d)'' — spatie vóór de sluitende asterisk (bekend ETL-patroon ''*term *''). Geen voetnoten in dit advies, inhoud verder volledig.'
+      run_at: '2026-05-11T12:04:41Z'
+      status: needs-rework
+    rationale: 'D4: regel 57 bevat ''*littera *d)'' — spatie vóór de sluitende asterisk (bekend ETL-patroon ''*term *''). Geen voetnoten in dit advies, inhoud verder volledig.'
+    status: needs-rework
+themas:
+  - toerekening van kosten en opbrengsten
+  - vakentiegeld
 ---
 
 # CBN-advies 148/2 - Vakantiegeld
 
-Overeenkomstig artikel 31, § 1, *littera *d), van de vierde EEG-richtlijn bepaalt artikel 19, vierde lid van het jaarrekeningbesluit van 8 oktober 1976 zoals gewijzigd door het koninklijk besluit van 12 september 1983 dat "er moet rekening worden gehouden met de kosten en opbrengsten die betrekking hebben op het boekjaar of op voorgaande boekjaren, ongeacht de dag waarop deze kosten en opbrengsten worden betaald of geïnd". Dit lid preciseert verder : "ten laste van het boekjaar moeten inzonderheid worden geboekt ... de bezoldigingen, uitkeringen en andere sociale voordelen die in de loop van een volgend boekjaar zullen worden betaald voor diensten die tijdens het boekjaar of tijdens voorgaande boekjaren zijn verricht.".
+Overeenkomstig artikel 31, § 1, *littera* d), van de vierde EEG-richtlijn bepaalt artikel 19, vierde lid van het jaarrekeningbesluit van 8 oktober 1976 zoals gewijzigd door het koninklijk besluit van 12 september 1983 dat "er moet rekening worden gehouden met de kosten en opbrengsten die betrekking hebben op het boekjaar of op voorgaande boekjaren, ongeacht de dag waarop deze kosten en opbrengsten worden betaald of geïnd". Dit lid preciseert verder : "ten laste van het boekjaar moeten inzonderheid worden geboekt ... de bezoldigingen, uitkeringen en andere sociale voordelen die in de loop van een volgend boekjaar zullen worden betaald voor diensten die tijdens het boekjaar of tijdens voorgaande boekjaren zijn verricht.".
 
 Ten gevolge van de toevoeging van deze laatste zin door het koninklijk besluit van 12 september 1983, werd de vraag gesteld of de hiervoor door de ondernemingen te boeken kosten, in het bijzonder wat het vakantiegeld voor bedienden betreft, alleen betrekking heeft op het (enkelvoudig en dubbel) vakantiegeld dat tijdens het volgende boekjaar aan de werknemers dient te worden betaald, of zo het tevens de werkgeversbijdragen op het enkelvoudig vakantiegeld omvat alsook de werkgeversbijdrage van 1,6 % zoals ingevoerd door artikel 1, 3° van het koninklijk besluit nr. 124 van 4 oktober 1983.
 

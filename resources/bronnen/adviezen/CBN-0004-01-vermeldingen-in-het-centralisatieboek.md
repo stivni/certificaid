@@ -1,67 +1,67 @@
 ---
-nummer: CBN-advies 4/1
-datum: 1977-08-01
-themas:
-  - boeken
 bron: https://www.cbn-cnc.be/nl/adviezen/vermeldingen-in-het-centralisatieboek
+datum: 1977-08-01
+gerelateerde_adviezen:
+  - datum: '2011-10-05'
+    titel: Bewaring van de boeken en verantwoordingsstukken
+    url: https://www.cbn-cnc.be/nl/adviezen/bewaring-van-de-boeken-en-verantwoordingsstukken
+  - datum: '2010-09-24'
+    titel: Bewaring van boeken en verantwoordingsstukken
+    url: https://www.cbn-cnc.be/nl/adviezen/bewaring-van-boeken-en-verantwoordingsstukken
+  - datum: '1981-04-01'
+    titel: Over het centraal boek
+    url: https://www.cbn-cnc.be/nl/adviezen/over-het-centraal-boek
+nummer: CBN-advies 4/1
 provenance:
+  generated_at: '2026-05-11T13:05:05Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/vermeldingen-in-het-centralisatieboek
       sha256: 8a7a28268d29da0fe3a1111a6ecb81357935da4c8cf8d0c1e63356b3cc2e3153
       version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:33:24Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
   trust:
-    status: needs-rework
     confirmed_at: '2026-05-11T11:51:19Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "Meerdere typefouten in de body die waarschijnlijk al in de web-bron aanwezig waren maar door de scraper niet gecorrigeerd zijn: 'dee vermelding' (r63), 'centraisatieboek' (r65), 'wttelijke' (r63), 'berokken' (r55), 'angegeven' (r67), 'bewegingn' (r67). Daarnaast A4: 4 gevallen van U+2010 HYPHEN in r65 en r67. De typefouten zijn geen ETL-artefact in de strikte zin maar verlagen de tekst-kwaliteit voor RAG. Categorie D1 (tekstkwaliteit) is aangetast."
     layer1:
       status: pass
-      run_id: 20260511-083333
-      run_at:
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:24Z'
       heading_count: 0
       max_section_chars: 2831
       file_size_chars: 2831
       flags: []
     layer2:
-      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T11:51:19Z'
-      rationale: "Meerdere typefouten in de body die waarschijnlijk al in de web-bron aanwezig waren maar door de scraper niet gecorrigeerd zijn: 'dee vermelding' (r63), 'centraisatieboek' (r65), 'wttelijke' (r63), 'berokken' (r55), 'angegeven' (r67), 'bewegingn' (r67). Daarnaast A4: 4 gevallen van U+2010 HYPHEN in r65 en r67. De typefouten zijn geen ETL-artefact in de strikte zin maar verlagen de tekst-kwaliteit voor RAG. Categorie D1 (tekstkwaliteit) is aangetast."
       concrete_problemen:
-        - regel: 55
-          categorie: D1
+        - categorie: D1
+          regel: 55
           type: other
           voorbeeld: diverse berokken rekeningen gecentraliseerd
-        - regel: 63
-          categorie: D1
+        - categorie: D1
+          regel: 63
           type: other
           voorbeeld: dee vermelding betrekking moet hebben ... wttelijke vereisten
-        - regel: 65
-          categorie: D1
+        - categorie: D1
+          regel: 65
           type: other
           voorbeeld: tot het totaal ... centraisatieboek
-        - regel: 67
-          categorie: A4
+        - categorie: A4
+          regel: 67
           type: other
           voorbeeld: ondergaan ‐gelet op de moeilijkheid ... register ‐ kan niet
-gerelateerde_adviezen:
-  - titel: Bewaring van de boeken en verantwoordingsstukken
-    url: https://www.cbn-cnc.be/nl/adviezen/bewaring-van-de-boeken-en-verantwoordingsstukken
-    datum: '2011-10-05'
-  - titel: Bewaring van boeken en verantwoordingsstukken
-    url: https://www.cbn-cnc.be/nl/adviezen/bewaring-van-boeken-en-verantwoordingsstukken
-    datum: '2010-09-24'
-  - titel: Over het centraal boek
-    url: https://www.cbn-cnc.be/nl/adviezen/over-het-centraal-boek
-    datum: '1981-04-01'
+      rationale: 'Meerdere typefouten in de body die waarschijnlijk al in de web-bron aanwezig waren maar door de scraper niet gecorrigeerd zijn: ''dee vermelding'' (r63), ''centraisatieboek'' (r65), ''wttelijke'' (r63), ''berokken'' (r55), ''angegeven'' (r67), ''bewegingn'' (r67). Daarnaast A4: 4 gevallen van U+2010 HYPHEN in r65 en r67. De typefouten zijn geen ETL-artefact in de strikte zin maar verlagen de tekst-kwaliteit voor RAG. Categorie D1 (tekstkwaliteit) is aangetast.'
+      run_at: '2026-05-11T11:51:19Z'
+      status: needs-rework
+    rationale: 'Meerdere typefouten in de body die waarschijnlijk al in de web-bron aanwezig waren maar door de scraper niet gecorrigeerd zijn: ''dee vermelding'' (r63), ''centraisatieboek'' (r65), ''wttelijke'' (r63), ''berokken'' (r55), ''angegeven'' (r67), ''bewegingn'' (r67). Daarnaast A4: 4 gevallen van U+2010 HYPHEN in r65 en r67. De typefouten zijn geen ETL-artefact in de strikte zin maar verlagen de tekst-kwaliteit voor RAG. Categorie D1 (tekstkwaliteit) is aangetast.'
+    status: needs-rework
+themas:
+  - boeken
 ---
 
 # CBN-advies 4-1 - Vermeldingen in het centralisatieboek
@@ -78,8 +78,8 @@ Het is evident dat de wetgever niet het overschrijven in het centralisatieboek h
 
 De verplichting om in het centralisatieboek de gegevens over te nemen die in de hulpdagboeken zijn ingeschreven houdt in dat dee vermelding betrekking moet hebben op de geregistreerde bewegingen. De eenvoudige vermelding van de saldi van de rekeningen die door deze boekingen beïnvloed werden beantwoordt dus niet aan de wttelijke vereisten. 
 
-Doordat de tekst de vermelding voorschrijft van de diverse betrokken rekeningen volstaat het niet de inschrijving in het centraisatieboek te beperken tot het totaal van de debet‐ en creditbewegingen van de diverse hulpdagboeken, en minder nog ze te beperken tot een boeking «diversen aan diversen». 
+Doordat de tekst de vermelding voorschrijft van de diverse betrokken rekeningen volstaat het niet de inschrijving in het centraisatieboek te beperken tot het totaal van de debet- en creditbewegingen van de diverse hulpdagboeken, en minder nog ze te beperken tot een boeking «diversen aan diversen». 
 
-De centralisatie moet gehecht zijn aan het rekeningstelsel van de onderneming en derhalve verricht worden voor de rekeningen warin dat stelsel voorziet. In vele gevallen echter bevat het rekeningstelsel een groot aantal rekeningen en het overschrijven met de hand van de bewegingn die elk ervan hebben ondergaan ‐gelet op de moeilijkheid om mechanische middelen te gebruiken voor het inschrijven in een register ‐ kan niet alleen een aanzienlijk werkvolume vertegenwoordigen, het kan ook een bron van vergissingen zijn. Er mag worden aangenomen dat de bedoeling van de wetgever ‐ veilig stellen dat de boekingen niet achteraf gewijzigd kunnen worden ‐ niet uitsluit dat de vermeldingen in het centralisatieboek betrekking hebben op de syntheserekeningen van het rekeningstelsel van de onderneming, voor zover deze boeking wordt gestaafd door een verantwoordingsstuk van de centralisatieverrichtingen. Onder syntheserekening moeten de posten worden verstaan die in het als minimum geldend genormaliseerd rekeningstelsel worden angegeven met een getal van twee cijfers.
+De centralisatie moet gehecht zijn aan het rekeningstelsel van de onderneming en derhalve verricht worden voor de rekeningen warin dat stelsel voorziet. In vele gevallen echter bevat het rekeningstelsel een groot aantal rekeningen en het overschrijven met de hand van de bewegingn die elk ervan hebben ondergaan -gelet op de moeilijkheid om mechanische middelen te gebruiken voor het inschrijven in een register - kan niet alleen een aanzienlijk werkvolume vertegenwoordigen, het kan ook een bron van vergissingen zijn. Er mag worden aangenomen dat de bedoeling van de wetgever - veilig stellen dat de boekingen niet achteraf gewijzigd kunnen worden - niet uitsluit dat de vermeldingen in het centralisatieboek betrekking hebben op de syntheserekeningen van het rekeningstelsel van de onderneming, voor zover deze boeking wordt gestaafd door een verantwoordingsstuk van de centralisatieverrichtingen. Onder syntheserekening moeten de posten worden verstaan die in het als minimum geldend genormaliseerd rekeningstelsel worden angegeven met een getal van twee cijfers.
 
 [^1]: Zie: Advies over bepaalde wijzigingen aan de wet van 17 juli 1975.

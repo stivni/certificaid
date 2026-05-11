@@ -1,6 +1,59 @@
 ---
-nummer: CBN-advies 171
+bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-afvalstoffen
 datum: 1995-03-01
+nummer: CBN-advies 171
+provenance:
+  generated_at: '2026-05-11T13:05:06Z'
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-afvalstoffen
+      sha256: ef019e5fa8d5ff93cfeecf2422b2fa22e0858ffe7d0bbce9d35b95e64f9dcf00
+      version:
+  stale: false
+  stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
+  trust:
+    confirmed_at: '2026-05-11T12:09:17Z'
+    confirmed_by: subagent-sonnet-4-6
+    layer1:
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:26Z'
+      heading_count: 9
+      max_section_chars: 4182
+      file_size_chars: 12052
+      flags: []
+    layer2:
+      agent: subagent-sonnet-4-6
+      concrete_problemen:
+        - categorie: B3
+          regel: 54
+          type: other
+          voorbeeld: '# CBN advies 171 - Boekhoudkundige verwerking van afvalstoffen (duplicate H1)'
+        - categorie: B2
+          regel: 62
+          type: other
+          voorbeeld: '# direct naar #### zonder tussenniveaus ## en ###'
+        - categorie: C3
+          regel: 72
+          type: pseudo-table
+          voorbeeld: '    Voor die onderneming vormt de kost... (4-spatie indent → code-blok)'
+        - categorie: A9
+          regel: 92
+          type: ocr-confusion
+          voorbeeld: '| | 602 | AAankopen van diensten of | | |'
+        - categorie: A6
+          regel: 197
+          type: other
+          voorbeeld: '...enkel voor de tweede benadering kunnen worden\n\ngeopteerd.'
+      rationale: 'Drie problemen: (1) B3: duplicate H1 op r.52 en r.54. (2) B2: heading-hiërarchie springt van # direct naar #### en ##### — geen ## of ### aanwezig in de volledige body (heading_count: 8 zijn allemaal ####/##### niveau). (3) C3: twee alinea''s op r.72 en r.74 zijn 4-spaties ingesprongen waardoor ze als code-blok worden gerenderd in markdown. (4) Tikfout ''AAankopen'' (r.92) in tabellabel. (5) Zin op r.197-199 breekt ''kan worden'' en ''geopteerd'' over een alinea-grens.'
+      run_at: '2026-05-11T12:09:17Z'
+      status: needs-rework
+    rationale: 'Drie problemen: (1) B3: duplicate H1 op r.52 en r.54. (2) B2: heading-hiërarchie springt van # direct naar #### en ##### — geen ## of ### aanwezig in de volledige body (heading_count: 8 zijn allemaal ####/##### niveau). (3) C3: twee alinea''s op r.72 en r.74 zijn 4-spaties ingesprongen waardoor ze als code-blok worden gerenderd in markdown. (4) Tikfout ''AAankopen'' (r.92) in tabellabel. (5) Zin op r.197-199 breekt ''kan worden'' en ''geopteerd'' over een alinea-grens.'
+    status: needs-rework
 themas:
   - afvaldienstenonderneming
   - afvalstoffen
@@ -14,62 +67,7 @@ themas:
   - vervaardigingsprijs
   - Voorraad afvalstoffen
   - voorraden
-bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-afvalstoffen
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-afvalstoffen
-      sha256: ef019e5fa8d5ff93cfeecf2422b2fa22e0858ffe7d0bbce9d35b95e64f9dcf00
-      version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:35:36Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T12:09:17Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "Drie problemen: (1) B3: duplicate H1 op r.52 en r.54. (2) B2: heading-hiërarchie springt van # direct naar #### en ##### — geen ## of ### aanwezig in de volledige body (heading_count: 8 zijn allemaal ####/##### niveau). (3) C3: twee alinea's op r.72 en r.74 zijn 4-spaties ingesprongen waardoor ze als code-blok worden gerenderd in markdown. (4) Tikfout 'AAankopen' (r.92) in tabellabel. (5) Zin op r.197-199 breekt 'kan worden' en 'geopteerd' over een alinea-grens."
-    layer1:
-      status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 8
-      max_section_chars: 4182
-      file_size_chars: 12114
-      flags: []
-    layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:09:17Z'
-      rationale: "Drie problemen: (1) B3: duplicate H1 op r.52 en r.54. (2) B2: heading-hiërarchie springt van # direct naar #### en ##### — geen ## of ### aanwezig in de volledige body (heading_count: 8 zijn allemaal ####/##### niveau). (3) C3: twee alinea's op r.72 en r.74 zijn 4-spaties ingesprongen waardoor ze als code-blok worden gerenderd in markdown. (4) Tikfout 'AAankopen' (r.92) in tabellabel. (5) Zin op r.197-199 breekt 'kan worden' en 'geopteerd' over een alinea-grens."
-      concrete_problemen:
-        - regel: 54
-          categorie: B3
-          type: other
-          voorbeeld: '# CBN advies 171 - Boekhoudkundige verwerking van afvalstoffen (duplicate H1)'
-        - regel: 62
-          categorie: B2
-          type: other
-          voorbeeld: '# direct naar #### zonder tussenniveaus ## en ###'
-        - regel: 72
-          categorie: C3
-          type: pseudo-table
-          voorbeeld: '    Voor die onderneming vormt de kost... (4-spatie indent → code-blok)'
-        - regel: 92
-          categorie: A9
-          type: ocr-confusion
-          voorbeeld: '| | 602 | AAankopen van diensten of | | |'
-        - regel: 197
-          categorie: A6
-          type: other
-          voorbeeld: '...enkel voor de tweede benadering kunnen worden\n\ngeopteerd.'
 ---
-
-# CBN advies 171 - Boekhoudkundige verwerking van afvalstoffen
 
 # CBN advies 171 - Boekhoudkundige verwerking van afvalstoffen 
 
@@ -127,15 +125,14 @@ De verworven maar nog niet afgevoerde afvalstoffen vormen geen voorraden als bed
 | | 70 | Verkopen en dienstprestaties | | |
 | aan | 493 | Over te dragen opbrengsten | | |
 
-wanneer de "voorraad" toeneemt, en 
+### wanneer de "voorraad" toeneemt, en 
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 493 | Over te dragen opbrengsten | | |
 | aan | 70 | Verkopen en dienstprestaties | | |
 
-wanneer de "voorraad" afneemt. 
-
+wanneer de "voorraad" afneemt.
 ##### De onderneming verwerft de afvalstoffen om ze (a) te vernietigen, (b) in haar eigen produktieproces te gebruiken of (c) te recycleren 
 
 Zoals in beide voornoemde gevallen, zal de facturatie van de ophaling en de ontvangst van de afvalstoffen als volgt worden geboekt : 
@@ -157,14 +154,14 @@ Zoals in beide voornoemde gevallen, zal de facturatie van de ophaling en de ontv
 
 	Het is echter niet uitgesloten en wellicht waarschijnlijk dat het gebruik van afvalstoffen in plaats van andere producten in het productieproces, over het algemeen zal leiden tot een stijging van de bedrijfskosten, die wordt gecompenseerd door de inkomsten verworven bij de ophaling van de betrokken afvalstoffen. De kosten die voortvloeien uit het gebruik van de afvalstoffen zullen bijgevolg in de resultatenrekening worden geboekt als diverse kosten naar hun aard. Als dat het geval is voor de betrokken onderneming, zal het als omzet geboekte bedrag aan het einde van de boekhoudperiode volgens de voornoemde regels moeten worden gecorrigeerd naar verhouding van de wijziging in de voorraad afvalstoffen die de onderneming op die datum bezit. 
 3. De afvalstoffen worden gerecycleerd en vervolgens doorverkocht De recyclage van afvalstoffen zal als volgt worden geboekt: 
-- *Verwerkingskosten * 
+- *Verwerkingskosten*  
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 6.. | Diverse kosten naar hun aard | | |
 | aan | ... | Verschillende passief- of creditrekeningen | | |
 
-- *Verkoop van gerecycleerde producten * 
+- *Verkoop van gerecycleerde producten*  
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|

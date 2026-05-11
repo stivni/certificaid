@@ -1,56 +1,56 @@
 ---
-nummer: CBN-advies 2013/4
-datum: 2013-02-20
-themas:
-  - consolidatie
-  - stapsgewijze vervreemding
-  - step disposals
 bron: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-step-disposals
+datum: 2013-02-20
+gerelateerde_adviezen:
+  - datum: '2022-09-09'
+    titel: Vermogensmutatiemethode
+    url: https://www.cbn-cnc.be/nl/adviezen/vermogensmutatiemethode
+  - datum: '2022-07-27'
+    titel: Consolidatie bij de horizontale groep (consortium)
+    url: https://www.cbn-cnc.be/nl/adviezen/consolidatie-bij-de-horizontale-groep-consortium-0
+  - datum: '2017-09-13'
+    titel: Transacties onder gemeenschappelijke leiding (Common control transactions) (update)
+    url: https://www.cbn-cnc.be/nl/adviezen/transacties-onder-gemeenschappelijke-leiding-common-control-transactions-update
+  - datum: '2017-03-15'
+    titel: Consolidatie bij de horizontale groep (consortium)
+    url: https://www.cbn-cnc.be/nl/adviezen/consolidatie-bij-de-horizontale-groep-consortium
+nummer: CBN-advies 2013/4
 provenance:
+  generated_at: '2026-05-11T13:05:08Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-step-disposals
       sha256: 83db802d1f6c90ddba9a3a688e9306ab5885d26588cccedbe433728b7d68ce91
       version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T21:30:11Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
   trust:
-    status: trusted
     confirmed_at: '2026-05-08T21:31:11Z'
     confirmed_by: human
-    rationale: 'Herscraped na fix select_title(): gecombineerde H1 (COMMISSIE + titel) correct gesplitst. Inhoud ongewijzigd t.o.v. vorig vertrouwd verdict. Laag 1 pass (of benign max_section warn).'
     layer1:
       status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 4
-      max_section_chars: 7234
-      file_size_chars: 12337
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:28Z'
+      heading_count: 2
+      max_section_chars: 11292
+      file_size_chars: 12314
       flags: []
     layer2:
-      status: not_run
       agent:
-      run_at:
-      rationale:
       concrete_problemen: []
-gerelateerde_adviezen:
-  - titel: Vermogensmutatiemethode
-    url: https://www.cbn-cnc.be/nl/adviezen/vermogensmutatiemethode
-    datum: '2022-09-09'
-  - titel: Consolidatie bij de horizontale groep (consortium)
-    url: https://www.cbn-cnc.be/nl/adviezen/consolidatie-bij-de-horizontale-groep-consortium-0
-    datum: '2022-07-27'
-  - titel: Transacties onder gemeenschappelijke leiding (Common control transactions) (update)
-    url: https://www.cbn-cnc.be/nl/adviezen/transacties-onder-gemeenschappelijke-leiding-common-control-transactions-update
-    datum: '2017-09-13'
-  - titel: Consolidatie bij de horizontale groep (consortium)
-    url: https://www.cbn-cnc.be/nl/adviezen/consolidatie-bij-de-horizontale-groep-consortium
-    datum: '2017-03-15'
+      rationale:
+      run_at:
+      status: not_run
+    rationale: 'Herscraped na fix select_title(): gecombineerde H1 (COMMISSIE + titel) correct gesplitst. Inhoud ongewijzigd t.o.v. vorig vertrouwd verdict. Laag 1 pass (of benign max_section warn).'
+    status: trusted
+themas:
+  - consolidatie
+  - stapsgewijze vervreemding
+  - step disposals
 ---
 
 # CBN-advies 2013/4 – De boekhoudkundige verwerking van step disposals
@@ -67,8 +67,7 @@ Beide vormen van step disposals zullen in wat volgt verder worden geïllustreerd
 
 ## Praktische uitwerking .
 
-### Afbouw van een belang in een integraal geconsolideerde dochteronderneming die als gevolg hiervan nog steeds een integraal geconsolideerde dochteronderneming blijft 
-
+Afbouw van een belang in een integraal geconsolideerde dochteronderneming die als gevolg hiervan nog steeds een integraal geconsolideerde dochteronderneming blijft
 Indien een belang in een integraal geconsolideerde dochteronderneming wordt afgebouwd, en als gevolg hiervan nog steeds wordt geconsolideerd volgens de integrale methode, vindt er geen wijziging van consolidatiemethode plaats. Echter geeft de gedeeltelijke realisatie van een integraal geconsolideerde dochteronderneming wel aanleiding tot een aantal consolidatietechnische herwerkingen noodzakelijk voor de opmaak van de geconsolideerde jaarrekening. 
 
 **Voorbeeld 1**
@@ -95,8 +94,6 @@ De geconsolideerde balans per 31 december 20N0 is als volgt:
 | | | 514 | | | | 514 | 
 
 De verwerving van de 80 % investering in onderneming BBB wordt als volgt verwerkt in de geconsolideerde balans van AAA: 
-
-[^1]
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
@@ -154,8 +151,6 @@ Mocht de moederonderneming per 1 januari 20N2 (na de gedeeltelijke vervreemding)
 
 Als gevolg van de step disposal is er op geconsolideerd niveau een gedeeltelijke realisatie van de goodwill die per 31 december 20N1 werd erkend. De Commissie is de mening toegedaan dat er als gevolg van de gedeeltelijke realisatie de initiële goodwill zal moeten worden herzien. Het belangenpercentage is immers gedaald van 80 % naar 60 %: 
 
-[^3]
-
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | Initiële investering na gedeeltelijke vervreemding | 150 | | |
@@ -192,8 +187,7 @@ De reconciliatie van de belangen van derden van 31 december 20N1 naar 1 januari 
 
 De toewijzing van de bijkomende reserves van BBB werd hierboven reeds uitvoerig besproken; daarnaast zullen de belangen van derden ook nog een bijkomende aangroei kennen door de toevoeging van een bijkomende 20 % van het kapitaal (ofwel 150 x 20 %).
 
-### Afbouw van een belang in een integraal geconsolideerde dochteronderneming die als gevolg hiervan een geassocieerde onderneming wordt
-
+Afbouw van een belang in een integraal geconsolideerde dochteronderneming die als gevolg hiervan een geassocieerde onderneming wordt
 Het is tevens denkbaar dat een moederonderneming, als gevolg van een step disposal, een dochteronderneming vervreemdt zodat deze dochteronderneming niet langer als een integraal geconsolideerde entiteit dient te worden opgenomen. 
 
 De wijziging van consolidatiemethode (van integrale methode naar vermogensmutatiemethode) wordt in voorbeeld 2 verder uitgewerkt. We gaan ervan uit dat het vermogen van de geconsolideerde groep per 31 december 20N1 hetzelfde is, als het vermogen van onderneming AAA uit voorbeeld 1.

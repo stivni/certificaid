@@ -1,55 +1,47 @@
 ---
-nummer: CBN-advies 128/5
-datum: 1983-04-01
-themas:
-  - investeringreserve
-  - leasing
-  - vrijstelling
 bron: https://www.cbn-cnc.be/nl/adviezen/vrijstelling-investeringsreserves-controle-op-de-toepassing-van-het-boekhoudrecht
+datum: 1983-04-01
+gerelateerde_adviezen:
+  - datum: '1981-12-01'
+    titel: Overboeking van winsten naar de belastingvrije reserves - Verwerking in de jaarrekening van de investeringsreserve
+    url: https://www.cbn-cnc.be/nl/adviezen/overboeking-van-winsten-naar-de-belastingvrije-reserves-verwerking-in-de-jaarrekening-van
+nummer: CBN-advies 128/5
 provenance:
+  generated_at: '2026-05-11T13:05:06Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/vrijstelling-investeringsreserves-controle-op-de-toepassing-van-het-boekhoudrecht
       sha256: 1f6cbbb2dc9091c13e3acd7ca6db923a1d5098e683b5a6f341ec91c68ac30ab7
       version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:34:45Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T12:04:41Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "A6 op L55-56: de footnote [^1] midden in een zin breekt de lopende tekst over twee regels, waarbij L56 begint met een leading space — een klassiek scraping-artefact. A6 op L58: 'niet- naleving' (hyphen gevolgd door spatie) is een word-split-artefact. Verder is de inhoud volledig en de structuur correct."
+    confirmed_at:
+    confirmed_by:
     layer1:
       status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 0
-      max_section_chars: 3916
-      file_size_chars: 3916
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:25Z'
+      heading_count: 1
+      max_section_chars: 3913
+      file_size_chars: 3913
       flags: []
     layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:04:41Z'
-      rationale: "A6 op L55-56: de footnote [^1] midden in een zin breekt de lopende tekst over twee regels, waarbij L56 begint met een leading space — een klassiek scraping-artefact. A6 op L58: 'niet- naleving' (hyphen gevolgd door spatie) is een word-split-artefact. Verder is de inhoud volledig en de structuur correct."
-      concrete_problemen:
-        - regel: 55
-          categorie: A6
-          type: other
-          voorbeeld: Graag vernam ik van de geachte Minister[^1]\n of zijn administratie...
-        - regel: 58
-          categorie: A6
-          type: other
-          voorbeeld: '...alsmede de niet- naleving van de voorschriften...'
-gerelateerde_adviezen:
-  - titel: Overboeking van winsten naar de belastingvrije reserves - Verwerking in de jaarrekening van de investeringsreserve
-    url: https://www.cbn-cnc.be/nl/adviezen/overboeking-van-winsten-naar-de-belastingvrije-reserves-verwerking-in-de-jaarrekening-van
-    datum: '1981-12-01'
+      agent:
+      concrete_problemen: []
+      rationale:
+      run_at:
+      status: not_run
+    rationale: 'Trust gereset 2026-05-11: re-scrape met scraper-fixes, content-diff > 5%'
+    status: unreviewed
+themas:
+  - investeringreserve
+  - leasing
+  - vrijstelling
 ---
 
 # CBN-advies 128/5 - Vrijstelling investeringsreserves - Controle op de toepassing van het boekhoudrecht
@@ -60,14 +52,13 @@ De artikelen 23*bis* en 107*bis* van het W.I.B., zoals ingevoerd door de herstel
 
 In § 5 van artikel 23*bis* wordt echter voorzien dat van deze gunstmaatregel uitgesloten worden, de belastingplichtigen die de verplichtingen opgelegd door de wet van 17 juli 1975 met betrekking tot de boekhouding en de jaarrekening van de ondernemingen en door de ter uitvoering van die wet genomen besluiten niet naleven. 
 
-Graag vernam ik van de geachte Minister[^1]
- of zijn administratie de toepassing van het boekhoudrecht streng zal controleren om eventueel de vrijstelling van de investeringsreserves te weigeren. 
+Graag vernam ik van de geachte Minister[^1] of zijn administratie de toepassing van het boekhoudrecht streng zal controleren om eventueel de vrijstelling van de investeringsreserves te weigeren. 
 
 In concreto denk ik aan de verkeerde toepassing van bijvoorbeeld hetgeen voorzien wordt inzake het boeken van leasingoperaties, alsmede de niet- naleving van de voorschriften inzake het boeken van voorafbetaalde belastingen (boeking die de berekeningsbasis van de investeringsreserve kan beïnvloeden). 
 
 Zal in deze gevallen de vrijstelling van de investeringsreserve afgewezen worden? 
 
-**Antwoord van de Minister van Economische Zaken **
+## Antwoord van de Minister van Economische Zaken
 
 Ter aanvulling van het antwoord van de Vice-Eerste Minister en Minister van Financiën en Buitenlandse Handel op de vraag van het geachte Lid en na het advies van de Commissie voor Boekhoudkundige Normen te hebben ingewonnen, wil ik het volgende verduidelijken : 
 
@@ -79,8 +70,7 @@ Ter aanvulling van het antwoord van de Vice-Eerste Minister en Minister van Fina
 
 	Slechts in zover deze voorheffingen en voorafbetalingen groter zijn dan het geraamde bedrag van de verschuldigde belastingen, mag en moet het overschot als schuldvordering op de actiefzijde worden geboekt. Hieruit volgt dat een onderneming die, om de berekeningsbasis van de investeringsreserve te verruimen, op de actiefzijde de aanrekenbare voorheffingen en de voorafbetalingen zou boeken, en op de passiefzijde, de geraamde belastingschuld, de dwingende bepalingen van de boekhoudreglementering niet zou naleven. 
 
-3. De verwerking van leasingverrichtingen in de boekhouding en de jaarrekening van de ondernemingen wordt geregeld door voornoemd koninklijk besluit van 8 oktober 1976. Zoals voor de andere bepalingen van dit besluit moeten ook de ter zake voorgeschreven regels worden nageleefd.
+3. De verwerking van leasingverrichtingen in de boekhouding en de jaarrekening van de ondernemingen wordt geregeld door voornoemd koninklijk besluit van 8 oktober 1976. Zoals voor de andere bepalingen van dit besluit moeten ook de ter zake voorgeschreven regels worden nageleefd. 
 
 [^1]: Parlementaire vraag van Senator Weckx d.d. 10 februari 1982, Vragen en Antwoorden, Senaat d.d. 1 juni 1982.
-
 [^2]: Cf. verslag opgemaakt in naam van de Verenigde commissies voor Economische Zaken en Justitie door de H. Fallon, Doc. Senaat, Zittijd 1974-1975, 12 juni 1975, nr. 436, 2, p. 9.

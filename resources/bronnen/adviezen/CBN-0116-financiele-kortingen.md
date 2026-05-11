@@ -1,45 +1,45 @@
 ---
-nummer: CBN-advies 116
-datum: 1979-05-01
-themas:
-  - financiële korting
 bron: https://www.cbn-cnc.be/nl/adviezen/financiele-kortingen
+datum: 1979-05-01
+gerelateerde_adviezen:
+  - datum: '2022-08-29'
+    titel: Boekhoudkundige verwerking van interesten en andere bedragen verschuldigd wegens betalingsachterstand
+    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-interesten-en-andere-bedragen-verschuldigd-wegens
+nummer: CBN-advies 116
 provenance:
+  generated_at: '2026-05-11T13:05:05Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/financiele-kortingen
       sha256: a267635240227b1356f102bc544cb9ce1610a55c29d3aa9413dd786800b7e24a
       version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:34:22Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
   trust:
-    status: trusted
     confirmed_at: '2026-05-11T11:57:45Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: Advies van 2759 chars, vier inhoudelijke alinea's. Geen detecteerbare extractie-artefacten. Geen headings vereist (lopende tekst). Geen italic-markers, geen broken bullets, geen unicode-anomalieën. Inhoud volledig.
     layer1:
       status: pass
-      run_id: 20260511-083333
-      run_at:
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:25Z'
       heading_count: 0
       max_section_chars: 2759
       file_size_chars: 2759
       flags: []
     layer2:
-      status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T11:57:45Z'
-      rationale: Advies van 2759 chars, vier inhoudelijke alinea's. Geen detecteerbare extractie-artefacten. Geen headings vereist (lopende tekst). Geen italic-markers, geen broken bullets, geen unicode-anomalieën. Inhoud volledig.
       concrete_problemen: []
-gerelateerde_adviezen:
-  - titel: Boekhoudkundige verwerking van interesten en andere bedragen verschuldigd wegens betalingsachterstand
-    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-interesten-en-andere-bedragen-verschuldigd-wegens
-    datum: '2022-08-29'
+      rationale: Advies van 2759 chars, vier inhoudelijke alinea's. Geen detecteerbare extractie-artefacten. Geen headings vereist (lopende tekst). Geen italic-markers, geen broken bullets, geen unicode-anomalieën. Inhoud volledig.
+      run_at: '2026-05-11T11:57:45Z'
+      status: trusted
+    rationale: Advies van 2759 chars, vier inhoudelijke alinea's. Geen detecteerbare extractie-artefacten. Geen headings vereist (lopende tekst). Geen italic-markers, geen broken bullets, geen unicode-anomalieën. Inhoud volledig.
+    status: trusted
+themas:
+  - financiële korting
 ---
 
 # CBN-advies 116 - Financiële kortingen

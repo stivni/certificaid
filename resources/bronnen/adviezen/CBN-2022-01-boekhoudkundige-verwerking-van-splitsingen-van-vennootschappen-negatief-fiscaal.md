@@ -1,66 +1,66 @@
 ---
-nummer: CBN-advies 2025/01
-datum: 2025-04-15
-themas:
-  - splitsing
 bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-splitsingen-van-vennootschappen-negatief-fiscaal
+datum: 2025-04-15
+gerelateerde_adviezen:
+  - datum: '2022-09-19'
+    titel: Boekhoudkundige verwerking van splitsingen van vennootschappen
+    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-splitsingen-van-vennootschappen
+  - datum: '2022-02-15'
+    titel: Fusies en splitsingen van vennootschappen met een negatief nettoactief
+    url: https://www.cbn-cnc.be/nl/adviezen/fusies-en-splitsingen-van-vennootschappen-met-een-negatief-nettoactief
+  - datum: '2021-11-22'
+    titel: 'Verenigingen en stichtingen: compensatie van negatieve fondsen'
+    url: https://www.cbn-cnc.be/nl/adviezen/verenigingen-en-stichtingen-compensatie-van-negatieve-fondsen
+  - datum: '2018-12-07'
+    titel: Begin van het boekjaar
+    url: https://www.cbn-cnc.be/nl/adviezen/begin-van-het-boekjaar
+nummer: CBN-advies 2025/01
 provenance:
+  generated_at: '2026-05-11T13:05:08Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-splitsingen-van-vennootschappen-negatief-fiscaal
       sha256: 54c11456d0480a715274c3e22199ab824c1c3b0ff0ab0fd4355b45dc67f1fdc4
       version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:38:06Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
   trust:
-    status: needs-rework
     confirmed_at: '2026-05-11T12:24:33Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: 'E1/E2: alle balansen zijn als pseudo-pipe-tabellen zonder correcte markdown header+separator-rij — elke tabelrij heeft enkel data-cellen zonder scheidingslijn. De tabellen zijn niet parseerbaar als echte markdown-tabellen. Verder is de inhoud compleet en zijn de footnotes correct.'
     layer1:
       status: pass
-      run_id: 20260511-083333
-      run_at:
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:30Z'
       heading_count: 6
-      max_section_chars: 4678
-      file_size_chars: 15665
+      max_section_chars: 4674
+      file_size_chars: 15659
       flags: []
     layer2:
-      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:24:33Z'
-      rationale: 'E1/E2: alle balansen zijn als pseudo-pipe-tabellen zonder correcte markdown header+separator-rij — elke tabelrij heeft enkel data-cellen zonder scheidingslijn. De tabellen zijn niet parseerbaar als echte markdown-tabellen. Verder is de inhoud compleet en zijn de footnotes correct.'
       concrete_problemen:
-        - regel: 74
-          categorie: E1
+        - categorie: E1
+          regel: 74
           type: pseudo-table
           voorbeeld: "| Vennootschap A (te splitsen vennootschap) | \n| Activum 1 | | 130 | | Kapitaal/Inbreng | | 60 |"
-        - regel: 88
-          categorie: E1
+        - categorie: E1
+          regel: 88
           type: pseudo-table
           voorbeeld: "| Vennootschap B | \n| Activum 1 | | 130 | | *Eigen vermogen* | | *130* |"
-        - regel: 129
-          categorie: E1
+        - categorie: E1
+          regel: 129
           type: pseudo-table
           voorbeeld: '| | | Eigen vermogen van vennootschap A | | Aan vennootschap B fiscaal... zonder separator-rij'
-gerelateerde_adviezen:
-  - titel: Boekhoudkundige verwerking van splitsingen van vennootschappen
-    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-splitsingen-van-vennootschappen
-    datum: '2022-09-19'
-  - titel: Fusies en splitsingen van vennootschappen met een negatief nettoactief
-    url: https://www.cbn-cnc.be/nl/adviezen/fusies-en-splitsingen-van-vennootschappen-met-een-negatief-nettoactief
-    datum: '2022-02-15'
-  - titel: 'Verenigingen en stichtingen: compensatie van negatieve fondsen'
-    url: https://www.cbn-cnc.be/nl/adviezen/verenigingen-en-stichtingen-compensatie-van-negatieve-fondsen
-    datum: '2021-11-22'
-  - titel: Begin van het boekjaar
-    url: https://www.cbn-cnc.be/nl/adviezen/begin-van-het-boekjaar
-    datum: '2018-12-07'
+      rationale: 'E1/E2: alle balansen zijn als pseudo-pipe-tabellen zonder correcte markdown header+separator-rij — elke tabelrij heeft enkel data-cellen zonder scheidingslijn. De tabellen zijn niet parseerbaar als echte markdown-tabellen. Verder is de inhoud compleet en zijn de footnotes correct.'
+      run_at: '2026-05-11T12:24:33Z'
+      status: needs-rework
+    rationale: 'E1/E2: alle balansen zijn als pseudo-pipe-tabellen zonder correcte markdown header+separator-rij — elke tabelrij heeft enkel data-cellen zonder scheidingslijn. De tabellen zijn niet parseerbaar als echte markdown-tabellen. Verder is de inhoud compleet en zijn de footnotes correct.'
+    status: needs-rework
+themas:
+  - splitsing
 ---
 
 # CBN-advies 2025/01 – Boekhoudkundige verwerking van splitsingen van vennootschappen – negatief fiscaal nettoactief – herwaarderingsmeerwaarde (addendum bij CBN-advies 2022/01 en 2022/12)
@@ -90,8 +90,7 @@ De balans van de te splitsen vennootschap A wordt vóór de splitsing als volgt 
 | | | | | Schulden | | 60 | 
 | Totaal | | 280 | | | | 280 | 
 
-Er wordt verondersteld dat de hierboven opgenomen bedragen van het boekhoudkundig kapitaal/inbreng en de beschikbare reserves overeenstemmen met, respectievelijk, het fiscaal kapitaal[^4]
- en de belaste reserves.
+Er wordt verondersteld dat de hierboven opgenomen bedragen van het boekhoudkundig kapitaal/inbreng en de beschikbare reserves overeenstemmen met, respectievelijk, het fiscaal kapitaal[^4] en de belaste reserves.
 
 De fiscale nettowaarde van vennootschap A, die gesplitst wordt in twee nieuwe vennootschappen B en C, bedraagt 100[^5]. De boekhoudkundige nettowaarde bedraagt 220[^6].
 
@@ -126,8 +125,7 @@ Dienovereenkomstig wordt in randnummer 19 van CBN-advies 2022/12 – Boekhoudkun
 Bijgevolg dient de overdracht van het boekhoudkundig eigen vermogen (waaronder het kapitaal/inbreng, beschikbare reserves, onbeschikbare reserves, belastingvrije reserves) te worden afgestemd op de overdracht van het fiscaal eigen vermogen (fiscaal gestort kapitaal, belaste reserves, vrijgestelde reserves).[^11]
  De Commissie brengt evenwel in herinnering dat deze verschillende bestanddelen van het eigen vermogen niet noodzakelijk overeenstemmen”.
 
-De herwaarderingsmeerwaarden hebben, in tegenstelling tot de belastingvrije reserves die niet uit de fiscale waarde worden uitgesloten, geen fiscale waarde[^12]
- en worden op fiscaal vlak dus niet verdeeld op basis van de ratio bedoeld in artikel 213 WIB 92. Ze moeten fiscaal worden toegewezen aan de vennootschap die het onderliggende, geherwaardeerde actief verkrijgt[^13].
+De herwaarderingsmeerwaarden hebben, in tegenstelling tot de belastingvrije reserves die niet uit de fiscale waarde worden uitgesloten, geen fiscale waarde[^12] en worden op fiscaal vlak dus niet verdeeld op basis van de ratio bedoeld in artikel 213 WIB 92. Ze moeten fiscaal worden toegewezen aan de vennootschap die het onderliggende, geherwaardeerde actief verkrijgt[^13].
 
 Wanneer het totaal van het eigen vermogen dat wordt overgedragen aan een verkrijgende vennootschap zoals blijkt uit de fiscale verdeling van het eigen vermogen, niet overeenstemt met het bedrag van het aan deze verkrijgende vennootschap overgedragen boekhoudkundig nettoactief, dienen via de belastingaangifte de noodzakelijke aanpassingen aangebracht te worden.[^14]
  In CBN-advies 2022/01 – Fusies en splitsingen van vennootschappen met een negatief nettoactief beveelt de Commissie aan om dit verschil aan te rekenen op het overgedragen resultaat.
@@ -146,8 +144,7 @@ Volgens de Commissie zou de verdeling van het eigen vermogen van vennootschap A,
 | Herwaarderingsmeer-waarden | | 120 | | 0 (2) | | 120 (2) | 
 | Totaal eigen vermogen na fiscale verdeling | | 220 | | 100 | | 120 | 
 
-(1) Ratio artikel 213 WIB 92: aan vennootschap B overgedragen fiscale nettowaarde = 130. Aan vennootschap C overgedragen fiscale nettowaarde = 0 (-30). Aan vennootschap B overgedragen eigen vermogen (met fiscale waarde – art. 213 WIB 92): 100 % en aan vennootschap C: 0 % 
-
+(1) Ratio artikel 213 WIB 92: aan vennootschap B overgedragen fiscale nettowaarde = 130. Aan vennootschap C overgedragen fiscale nettowaarde = 0 (-30). Aan vennootschap B overgedragen eigen vermogen (met fiscale waarde – art. 213 WIB 92): 100 % en aan vennootschap C: 0 %
 (2) De herwaarderingsmeerwaarde wordt op fiscaal vlak toegewezen aan de vennootschap die het geherwaardeerde actief (activum 2) verkrijgt (nr. 211/55 Com.IB 92, zie ook CBN-advies 2022/12 – Boekhoudkundige verwerking van splitsingen van vennootschappen).
 
 Op basis van het hierboven opgenomen schema kan er via het aan vennootschap B toegekende boekhoudkundig eigen vermogen geen gelijkheid worden gevonden tussen actief en passief. Er bestaat immers een verschil tussen het boekhoudkundig eigen vermogen dat voortkomt uit de fiscale verdeling zoals bedoeld in artikel 213 WIB 92 en het aan de verkrijgende vennootschappen overgedragen boekhoudkundig nettoactief. 
@@ -168,8 +165,7 @@ Deze ongelijkheid wordt boekhoudkundig gecorrigeerd via de onbeschikbare reserve
 | Totaal boekhoudkundig eigen vermogen | | 220 | | 130 | | 90 | 
 | *p.m.: fiscale nettowaarden* | | *100* | | *130* | | *0 (-30)* | 
 
-(1) Hetzij een onbeschikbare reserve van 0 op basis van artikel 213 WIB 92 en een boekhoudkundige correctie van + 30. 
-
+(1) Hetzij een onbeschikbare reserve van 0 op basis van artikel 213 WIB 92 en een boekhoudkundige correctie van + 30.
 (2) Hetzij een overgedragen resultaat van 0 op basis van artikel 213 WIB 92 en een boekhoudkundige correctie van - 30. 
 
 De som van de boekwaarde van de eigenvermogensbestanddelen die aan elk van de verkrijgende vennootschappen werden overgedragen, blijft wel degelijk gelijk aan het totale eigen vermogen van de gesplitste vennootschap. Het boekhoudkundig continuïteitsbeginsel wordt aldus nageleefd.

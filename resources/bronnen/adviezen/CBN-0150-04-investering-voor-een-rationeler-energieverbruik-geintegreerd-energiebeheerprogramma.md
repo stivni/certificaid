@@ -1,6 +1,43 @@
 ---
-nummer: CBN-advies 150/4
+bron: https://www.cbn-cnc.be/nl/adviezen/investering-voor-een-rationeler-energieverbruik-geintegreerd-energiebeheerprogramma
 datum: 1988-06-01
+nummer: CBN-advies 150/4
+provenance:
+  generated_at: '2026-05-11T13:05:06Z'
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/investering-voor-een-rationeler-energieverbruik-geintegreerd-energiebeheerprogramma
+      sha256: 1fc7b7bd9e51b597389bca924c94891da92c68a7424020649eeecab3bd0a68d9
+      version:
+  stale: false
+  stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
+  trust:
+    confirmed_at: '2026-05-11T12:04:41Z'
+    confirmed_by: subagent-sonnet-4-6
+    layer1:
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:26Z'
+      heading_count: 0
+      max_section_chars: 2951
+      file_size_chars: 2951
+      flags: []
+    layer2:
+      agent: subagent-sonnet-4-6
+      concrete_problemen:
+        - categorie: A6
+          regel: 56
+          type: other
+          voorbeeld: werkelijke kost van de energie- aankopen is bestemd voor de verkoper
+      rationale: 'A6: ''energie- aankopen'' op regel 56 toont een PDF-afbreekstreepje dat niet is samengevoegd — de zin bevat ''energie-aankopen'' correct op regel 54 maar ''energie- aankopen'' (met extra spatie) op regel 56, een typisch hyphenation-artefact van de scraper. Verder inhoud volledig en geen andere issues.'
+      run_at: '2026-05-11T12:04:41Z'
+      status: needs-rework
+    rationale: 'A6: ''energie- aankopen'' op regel 56 toont een PDF-afbreekstreepje dat niet is samengevoegd — de zin bevat ''energie-aankopen'' correct op regel 54 maar ''energie- aankopen'' (met extra spatie) op regel 56, een typisch hyphenation-artefact van de scraper. Verder inhoud volledig en geen andere issues.'
+    status: needs-rework
 themas:
   - energiebesparende investeringen
   - geïntegreerd energiebeheerprogramma
@@ -10,43 +47,6 @@ themas:
   - rationeler energieverbuik
   - schulden
   - vordering
-bron: https://www.cbn-cnc.be/nl/adviezen/investering-voor-een-rationeler-energieverbruik-geintegreerd-energiebeheerprogramma
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/investering-voor-een-rationeler-energieverbruik-geintegreerd-energiebeheerprogramma
-      sha256: 1fc7b7bd9e51b597389bca924c94891da92c68a7424020649eeecab3bd0a68d9
-      version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:35:17Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T12:04:41Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "A6: 'energie- aankopen' op regel 56 toont een PDF-afbreekstreepje dat niet is samengevoegd — de zin bevat 'energie-aankopen' correct op regel 54 maar 'energie- aankopen' (met extra spatie) op regel 56, een typisch hyphenation-artefact van de scraper. Verder inhoud volledig en geen andere issues."
-    layer1:
-      status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 0
-      max_section_chars: 2951
-      file_size_chars: 2951
-      flags: []
-    layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:04:41Z'
-      rationale: "A6: 'energie- aankopen' op regel 56 toont een PDF-afbreekstreepje dat niet is samengevoegd — de zin bevat 'energie-aankopen' correct op regel 54 maar 'energie- aankopen' (met extra spatie) op regel 56, een typisch hyphenation-artefact van de scraper. Verder inhoud volledig en geen andere issues."
-      concrete_problemen:
-        - regel: 56
-          categorie: A6
-          type: other
-          voorbeeld: werkelijke kost van de energie- aankopen is bestemd voor de verkoper
 ---
 
 # CBN-advies 150/4 - Investering voor een rationeler energieverbruik -Geïntegreerd energiebeheerprogramma

@@ -1,47 +1,47 @@
 ---
-nummer: CBN-advies 2021/17
-datum: 2021-12-22
-themas:
-  - groepsbijdrage
-  - belastingen
-  - fiscale consolidatie
 bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-vergoeding-voor-de-groepsbijdrage-in-hoofde-van-de
+datum: 2021-12-22
+gerelateerde_adviezen:
+  - datum: '2019-07-02'
+    titel: Groepsbijdrage
+    url: https://www.cbn-cnc.be/nl/adviezen/groepsbijdrage
+nummer: CBN-advies 2021/17
 provenance:
+  generated_at: '2026-05-11T13:05:08Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-vergoeding-voor-de-groepsbijdrage-in-hoofde-van-de
       sha256: b8c4ff7e98d3fd00c4ccc9afa7d75b8f401e8924f500d455a9633b0d6ede595b
       version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:38:05Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
   trust:
-    status: trusted
     confirmed_at: '2026-05-11T12:24:33Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "Klein advies (4261 chars, 3 headings), volledig leesbaar en inhoudelijk compleet. Tabellen correct in pipe-syntax met header en separator. Footnotes aanwezig en correct gekoppeld ([^1] en [^2]). De boldgedrukte tussentitels 'In hoofde van vennootschap B/A' zonder ##-prefix reflecteren de originele tekststructuur en zijn niet storend voor retrieval."
     layer1:
       status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 3
-      max_section_chars: 2217
-      file_size_chars: 4261
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:30Z'
+      heading_count: 7
+      max_section_chars: 1363
+      file_size_chars: 4257
       flags: []
     layer2:
-      status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:24:33Z'
-      rationale: "Klein advies (4261 chars, 3 headings), volledig leesbaar en inhoudelijk compleet. Tabellen correct in pipe-syntax met header en separator. Footnotes aanwezig en correct gekoppeld ([^1] en [^2]). De boldgedrukte tussentitels 'In hoofde van vennootschap B/A' zonder ##-prefix reflecteren de originele tekststructuur en zijn niet storend voor retrieval."
       concrete_problemen: []
-gerelateerde_adviezen:
-  - titel: Groepsbijdrage
-    url: https://www.cbn-cnc.be/nl/adviezen/groepsbijdrage
-    datum: '2019-07-02'
+      rationale: 'Klein advies (4261 chars, 3 headings), volledig leesbaar en inhoudelijk compleet. Tabellen correct in pipe-syntax met header en separator. Footnotes aanwezig en correct gekoppeld ([^1] en [^2]). De boldgedrukte tussentitels ''In hoofde van vennootschap B/A'' zonder ##-prefix reflecteren de originele tekststructuur en zijn niet storend voor retrieval.'
+      run_at: '2026-05-11T12:24:33Z'
+      status: trusted
+    rationale: 'Klein advies (4261 chars, 3 headings), volledig leesbaar en inhoudelijk compleet. Tabellen correct in pipe-syntax met header en separator. Footnotes aanwezig en correct gekoppeld ([^1] en [^2]). De boldgedrukte tussentitels ''In hoofde van vennootschap B/A'' zonder ##-prefix reflecteren de originele tekststructuur en zijn niet storend voor retrieval.'
+    status: trusted
+themas:
+  - groepsbijdrage
+  - belastingen
+  - fiscale consolidatie
 ---
 
 # CBN-advies 2021/17 – Boekhoudkundige verwerking van de vergoeding voor de groepsbijdrage in hoofde van de overdragende vennootschap bij gebrek aan Belgische belastingen op het resultaat op rekening 4500 (addendum bij advies 2019/06)
@@ -50,7 +50,7 @@ gerelateerde_adviezen:
 
 Naar aanleiding van een vraag aan de Commissie voor boekhoudkundige normen werd vastgesteld dat een bepaalde situatie niet wordt behandeld in CBN-advies 2019/06 – *Groepsbijdrage*, meer bepaald het boeken van de vergoeding voor de groepsbijdrage in hoofde van de overdragende vennootschap.
 
-In voormeld advies wordt gesteld dat de groepsbijdrage-overeenkomst boekhoudkundig als volgt moet worden verwerkt: op balansdatum van boekjaar N wordt de geraamde belastingschuld geboekt door debitering van rekening 6702 Geraamde belastingen met als tegenpost rekening 4500 *Belgische winstbelastingen*. In het volgende boekjaar (N+1), bij de afsluiting van de groepsbijdrage-overeenkomst, wordt rekening 4500 *Belgische winstbelastingen* gedebiteerd met als tegenpost de boeking van een schuld (rekening 489 *Diverse schulden*) aan de groepsvennootschap waarmee de groepsbijdrage-overeenkomst werd gesloten.
+In voormeld advies wordt gesteld dat de groepsbijdrage-overeenkomst boekhoudkundig als volgt moet worden verwerkt: op balansdatum van boekjaar N wordt de geraamde belastingschuld geboekt door debitering van rekening 6702 Geraamde belastingen met als tegenpost rekening 4500 *Belgische winstbelastingen*. In het volgende boekjaar (N+1), bij de afsluiting van de groepsbijdrage-overeenkomst, wordt rekening 4500* Belgische winstbelastingen* gedebiteerd met als tegenpost de boeking van een schuld (rekening 489 *Diverse schulden*) aan de groepsvennootschap waarmee de groepsbijdrage-overeenkomst werd gesloten.
 
 Deze boekhoudkundige verwerking kan evenwel niet worden toegepast indien rekening 4500 *Belgische winstbelastingen* niet voldoende werd gecrediteerd op balansdatum van boekjaar N. Dit kan bijvoorbeeld voorvallen wanneer de overdragende vennootschap winst boekt en tegelijk recupereerbare fiscale verliezen heeft.
 
@@ -78,11 +78,11 @@ De vergoeding voor de groepsbijdrage wordt als volgt verwerkt:
 
 In hoofde van vennootschap B
 
-**Bij de eindejaarsverrichtingen op 31/12/N**
+## Bij de eindejaarsverrichtingen op 31/12/N
 
 Vennootschap B boekt geen geraamde belastingen op rekening 6702.
 
-**Bij het sluiten van de groepsbijdrage-overeenkomst (in boekjaar N+1)**
+## Bij het sluiten van de groepsbijdrage-overeenkomst (in boekjaar N+1)
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
@@ -91,11 +91,11 @@ Vennootschap B boekt geen geraamde belastingen op rekening 6702.
 
 In hoofde van vennootschap A
 
-**Bij de eindejaarsverrichtingen op 31/12/N**
+## Bij de eindejaarsverrichtingen op 31/12/N
 
 Er vindt geen boeking plaats.
 
-**Bij het sluiten van de groepsbijdrage-overeenkomst (in boekjaar N+1)**
+## Bij het sluiten van de groepsbijdrage-overeenkomst (in boekjaar N+1)
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|

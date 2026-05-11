@@ -2,53 +2,51 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/omrekeningsverschillen-ontstaan-bij-omrekening-van-het-kapitaal-naar-aanleiding-van-het
 datum: 2010-04-21
 gerelateerde_adviezen:
-- datum: '2009-09-16'
-  titel: Bepaling van de functionele valuta bij financieringsvennootschappen
-  url: https://www.cbn-cnc.be/nl/adviezen/bepaling-van-de-functionele-valuta-bij-financieringsvennootschappen
-- datum: '2008-11-26'
-  titel: Voeren van de boekhouding en opstellen van de jaarrekening in een andere
-    munt dan de euro
-  url: https://www.cbn-cnc.be/nl/adviezen/voeren-van-de-boekhouding-en-opstellen-van-de-jaarrekening-in-een-andere-munt-dan-de-euro
+  - datum: '2009-09-16'
+    titel: Bepaling van de functionele valuta bij financieringsvennootschappen
+    url: https://www.cbn-cnc.be/nl/adviezen/bepaling-van-de-functionele-valuta-bij-financieringsvennootschappen
+  - datum: '2008-11-26'
+    titel: Voeren van de boekhouding en opstellen van de jaarrekening in een andere munt dan de euro
+    url: https://www.cbn-cnc.be/nl/adviezen/voeren-van-de-boekhouding-en-opstellen-van-de-jaarrekening-in-een-andere-munt-dan-de-euro
 nummer: CBN-advies 2010/4
 provenance:
-  generated_at: '2026-05-08T18:35:57Z'
+  generated_at: '2026-05-11T13:05:07Z'
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/omrekeningsverschillen-ontstaan-bij-omrekening-van-het-kapitaal-naar-aanleiding-van-het
-    sha256: 11a931f8df073fd3e894e1f3203b0b4bda80b7d8ed85d68db8f1b8524f54b970
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/omrekeningsverschillen-ontstaan-bij-omrekening-van-het-kapitaal-naar-aanleiding-van-het
+      sha256: 11a931f8df073fd3e894e1f3203b0b4bda80b7d8ed85d68db8f1b8524f54b970
+      version:
   stale: false
-  stale_reason: null
+  stale_reason:
   tooling:
-    model: null
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    prompt_version: null
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
   trust:
     confirmed_at: '2026-05-08T19:02:29Z'
     confirmed_by: subagent-laag2-ronde2
     layer1:
-      file_size_chars: 7441
-      flags: []
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:27Z'
       heading_count: 0
       max_section_chars: 7441
-      run_at: null
-      run_id: 20260511-083333
-      status: pass
+      file_size_chars: 7441
+      flags: []
     layer2:
       agent: subagent-laag2-ronde2
       concrete_problemen: []
-      rationale: '[Laag-2-R2 2026-05-08] Volledig met twee situaties, motivering voor
-        toerekening aan rekening 100, numeriek voorbeeld met balans.'
+      rationale: '[Laag-2-R2 2026-05-08] Volledig met twee situaties, motivering voor toerekening aan rekening 100, numeriek voorbeeld met balans.'
       run_at: '2026-05-08T19:02:29Z'
       status: trusted
     rationale: Laag-2 trusted door subagent-laag2-ronde2 (zie layer2.rationale)
     status: trusted
 themas:
-- functionele munt
-- functionele valuta
-- geplaatst kapitaal
-- kapitaal
-- omrekeningsverschil
+  - functionele munt
+  - functionele valuta
+  - geplaatst kapitaal
+  - kapitaal
+  - omrekeningsverschil
 ---
 
 # CBN-advies 2010/4 - Omrekeningsverschillen ontstaan bij omrekening van het kapitaal naar aanleiding van het verkrijgen van de afwijking inzake functionele valuta Advies van 21 april 2010
@@ -99,7 +97,7 @@ Uiteraard worden ook positieve omrekeningsverschillen op dezelfde wijze verwerkt
 
 Zoals de Commissie in het eerder geciteerd advies 117/3 benadrukt, is de functionele valuta de munteenheid waarin het merendeel van de transacties van de onderneming plaatsvindt[^6]. Het is evenwel niet uitgesloten dat een beperkt aantal transacties niet in deze munteenheid plaatsvindt. De Commissie wenst evenwel te benadrukken dat dergelijke transacties bijkomstig moeten zijn, zoniet dient de keuze van de functionele valuta in vraag te worden gesteld. 
 
-Van zodra de onderneming haar boekhouding in de functionele valuta voert, zal, voor de opname en de verwerking van transacties die niet plaatsvinden in de functionele valuta van de onderneming ,advies 152/1 *Boekingen van deviezenverrichtingen en verwerking van tegoeden en verplichtingen in deviezen in de jaarrekening[^7] * van toepassing zijn. Dit advies biedt een antwoord op de vraag hoe de in verschillende (vreemde) valuta’s uitgedrukte bestanddelen tot de functionele valuta van de onderneming moeten worden herleid. 
+Van zodra de onderneming haar boekhouding in de functionele valuta voert, zal, voor de opname en de verwerking van transacties die niet plaatsvinden in de functionele valuta van de onderneming ,advies 152/1 *Boekingen van deviezenverrichtingen en verwerking van tegoeden en verplichtingen in deviezen in de jaarrekening[^7]*  van toepassing zijn. Dit advies biedt een antwoord op de vraag hoe de in verschillende (vreemde) valuta’s uitgedrukte bestanddelen tot de functionele valuta van de onderneming moeten worden herleid. 
 
 [^1]: Advies 117/2, Bulletin CBN nr. 7, juni 1980, p. 2-4.
 

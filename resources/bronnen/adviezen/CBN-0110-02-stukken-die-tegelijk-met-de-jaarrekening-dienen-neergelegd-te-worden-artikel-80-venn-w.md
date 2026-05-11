@@ -1,6 +1,51 @@
 ---
-nummer: CBN-advies 110/2
+bron: https://www.cbn-cnc.be/nl/adviezen/stukken-die-tegelijk-met-de-jaarrekening-dienen-neergelegd-te-worden-artikel-80-venn-w
 datum: 1978-12-01
+nummer: CBN-advies 110/2
+provenance:
+  generated_at: '2026-05-11T13:05:05Z'
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/stukken-die-tegelijk-met-de-jaarrekening-dienen-neergelegd-te-worden-artikel-80-venn-w
+      sha256: a859f50e1d95639cecf3850a874ab41a26e0173bc95ecf7d0a8f404af3224c6c
+      version:
+  stale: false
+  stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
+  trust:
+    confirmed_at: '2026-05-11T11:57:45Z'
+    confirmed_by: subagent-sonnet-4-6
+    layer1:
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:24Z'
+      heading_count: 2
+      max_section_chars: 3093
+      file_size_chars: 5989
+      flags: []
+    layer2:
+      agent: subagent-sonnet-4-6
+      concrete_problemen:
+        - categorie: B3
+          regel: 50
+          type: other
+          voorbeeld: '## '
+        - categorie: B3
+          regel: 75
+          type: other
+          voorbeeld: '## '
+        - categorie: D4
+          regel: 52
+          type: other
+          voorbeeld: '*sexto *van het tweede lid'
+      rationale: 'B3: twee lege headings op regels 50 en 75 (enkel ''## '' zonder tekst) die de twee secties van het advies zouden moeten labelen. Mens schrijft nooit een lege heading. D4: italic markers zoals ''*sexto *'' (met spatie voor sluitende asterisk) zijn technisch gesloten maar inconsistent met standaard markdown-conventie; kan rendering-problemen geven in sommige parsers. Inhoud verder volledig.'
+      run_at: '2026-05-11T11:57:45Z'
+      status: needs-rework
+    rationale: 'B3: twee lege headings op regels 50 en 75 (enkel ''## '' zonder tekst) die de twee secties van het advies zouden moeten labelen. Mens schrijft nooit een lege heading. D4: italic markers zoals ''*sexto *'' (met spatie voor sluitende asterisk) zijn technisch gesloten maar inconsistent met standaard markdown-conventie; kan rendering-problemen geven in sommige parsers. Inhoud verder volledig.'
+    status: needs-rework
 themas:
   - achterstallig
   - bijkantoor
@@ -10,58 +55,13 @@ themas:
   - publicatie
   - schulden
   - schulden jegens fiscale besturen en jegens de Rijksdienst voor Sociale Zekerheid
-bron: https://www.cbn-cnc.be/nl/adviezen/stukken-die-tegelijk-met-de-jaarrekening-dienen-neergelegd-te-worden-artikel-80-venn-w
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/stukken-die-tegelijk-met-de-jaarrekening-dienen-neergelegd-te-worden-artikel-80-venn-w
-      sha256: a859f50e1d95639cecf3850a874ab41a26e0173bc95ecf7d0a8f404af3224c6c
-      version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:34:07Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T11:57:45Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "B3: twee lege headings op regels 50 en 75 (enkel '## ' zonder tekst) die de twee secties van het advies zouden moeten labelen. Mens schrijft nooit een lege heading. D4: italic markers zoals '*sexto *' (met spatie voor sluitende asterisk) zijn technisch gesloten maar inconsistent met standaard markdown-conventie; kan rendering-problemen geven in sommige parsers. Inhoud verder volledig."
-    layer1:
-      status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 2
-      max_section_chars: 3094
-      file_size_chars: 5991
-      flags: []
-    layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T11:57:45Z'
-      rationale: "B3: twee lege headings op regels 50 en 75 (enkel '## ' zonder tekst) die de twee secties van het advies zouden moeten labelen. Mens schrijft nooit een lege heading. D4: italic markers zoals '*sexto *' (met spatie voor sluitende asterisk) zijn technisch gesloten maar inconsistent met standaard markdown-conventie; kan rendering-problemen geven in sommige parsers. Inhoud verder volledig."
-      concrete_problemen:
-        - regel: 50
-          categorie: B3
-          type: other
-          voorbeeld: '## '
-        - regel: 75
-          categorie: B3
-          type: other
-          voorbeeld: '## '
-        - regel: 52
-          categorie: D4
-          type: other
-          voorbeeld: '*sexto *van het tweede lid'
 ---
 
 # CBN-advies 110/2 - Stukken die tegelijk met de jaarrekening dienen neergelegd te worden (artikel 80 W. Venn.)
 
 ## 
 
-Het nieuw artikel 80 van de gecoördineerde wetten op de handelsvennootschappen, ingelast door de wet van 24 maart 1978, bepaalt in het *sexto *van het tweede lid dat tegelijk met de jaarrekening een stuk wordt neergelegd met de volgende gegevens tenzij, die reeds afzonderlijk in de jaarrekening worden vermeld:
+Het nieuw artikel 80 van de gecoördineerde wetten op de handelsvennootschappen, ingelast door de wet van 24 maart 1978, bepaalt in het *sexto* van het tweede lid dat tegelijk met de jaarrekening een stuk wordt neergelegd met de volgende gegevens tenzij, die reeds afzonderlijk in de jaarrekening worden vermeld:
 
 1. ... 
 2. Het bedrag, op dezelfde datum, (bij jaarafsluiting) van de opeisbare schulden, ongeacht of uitstel van betaling is verkregen, jegens fiscale besturen en jegens de Rijksdienst voor Sociale Zekerheid; 
@@ -71,12 +71,11 @@ In verband met deze bepaling is de vraag gerezen of zij een andere, ruimere draa
 
 Dit koninklijk besluit verplicht de ondernemingen die eraan onderworpen zijn in de toelichting te vermelden, het bedrag van de schulden waarvan de datum van opeisbaarheid vervallen is - dus niet alle opeisbare schulden, maar slechts de achterstallige - ongeacht of uitstel van betaling werd bekomen, tegenover fiscale besturen en tegenover de Rijksdienst voor Sociale Zekerheid. 
 
-Uit een tweetal passages uit de voorbereidende werken van de wet van 24 maart 1978 moet de duidelijke wil van de wetgever afgeleid worden om aan *littera *b) van het *sexto *van artikel 80 dezelfde draagwijdte en betekenis toe te kennen als aan voornoemde bepaling van het koninklijk besluit van 8 oktober 1976.
+Uit een tweetal passages uit de voorbereidende werken van de wet van 24 maart 1978 moet de duidelijke wil van de wetgever afgeleid worden om aan *littera* b) van het *sexto* van artikel 80 dezelfde draagwijdte en betekenis toe te kennen als aan voornoemde bepaling van het koninklijk besluit van 8 oktober 1976.
 
-Na eraan herinnerd te hebben dat het stuk bedoeld in het tweede lid, *sexto *slechts neergelegd moet worden indien de drie rubrieken die erin voorkomen nog niet afzonderlijk in de rekeningen werden opgenomen, voegt het verslag van de Senaatscommissie voor Justitie[^1]
- daaraan toe dat de ondernemingen onderworpen aan het koninklijk besluit van 8 oktober 1976 met betrekking tot de jaarrekening van de ondernemingen reeds verplicht zijn de in artikel 80, lid 2, 6° bedoelde gegevens te vermelden, zodat deze bepaling wat die ondernemingen betreft overbodig is en dus betrekking heeft op ondernemingen die buiten het toepassingsveld van hogergenoemd koninklijk besluit vallen.
+Na eraan herinnerd te hebben dat het stuk bedoeld in het tweede lid, *sexto* slechts neergelegd moet worden indien de drie rubrieken die erin voorkomen nog niet afzonderlijk in de rekeningen werden opgenomen, voegt het verslag van de Senaatscommissie voor Justitie[^1] daaraan toe dat de ondernemingen onderworpen aan het koninklijk besluit van 8 oktober 1976 met betrekking tot de jaarrekening van de ondernemingen reeds verplicht zijn de in artikel 80, lid 2, 6° bedoelde gegevens te vermelden, zodat deze bepaling wat die ondernemingen betreft overbodig is en dus betrekking heeft op ondernemingen die buiten het toepassingsveld van hogergenoemd koninklijk besluit vallen.
 
-Daarenboven preciseert hetzelfde document (p. 26) dat *littera *b) slaat op het bedrag van de opeisbare schulden «waarvan de vervaldag verstreken is», ongeacht of uitstel van betaling is bekomen, jegens fiscale besturen en jegens de Rijksdienst voor Sociale Zekerheid. 
+Daarenboven preciseert hetzelfde document (p. 26) dat *littera* b) slaat op het bedrag van de opeisbare schulden «waarvan de vervaldag verstreken is», ongeacht of uitstel van betaling is bekomen, jegens fiscale besturen en jegens de Rijksdienst voor Sociale Zekerheid. 
 
 Uit wat voorafgaat, moet onder meer afgeleid worden dat voor ondernemingen waarvan de afsluiting van het boekjaar samenvalt met het einde van het kwartaal, de voor dat kwartaal verschuldigde RSZ- bijdragen niet moeten worden vermeld, daar deze uiterlijk op de laatste dag van de maand volgend op het kwartaal moeten worden betaald. 
 
@@ -92,18 +91,17 @@ Artikel 198 betreft de openbaarmaking van de jaarrekening van de vreemde vennoot
 
 Sinds de inwerkingtreding van de wet van 24 maart 1978 heeft artikel 198 voor gevolg dat het nieuw artikel 80 op de jaarrekening van de vreemde vennootschap toepasselijk wordt. 
 
-Wat de tweede alinea van dit artikel betreft, is de vraag gerezen of de wetgever de vreemde vennootschap ook de neerlegging van de inlichtingen bedoeld in het *sexto *heeft willen opleggen? 
+Wat de tweede alinea van dit artikel betreft, is de vraag gerezen of de wetgever de vreemde vennootschap ook de neerlegging van de inlichtingen bedoeld in het *sexto* heeft willen opleggen? 
 
 Deze inlichtingen slaan op :
 
 1. het bedrag bij de jaarafsluiting van de schulden gewaarborgd door de Belgische overheid; 
-2. het bedrag bij de jaarafsluiting van de opeisbare schulden[^3]
- jegens fiscale besturen en jegens de Rijksdienst voor Sociale Zekerheid; 
+2. het bedrag bij de jaarafsluiting van de opeisbare schulden[^3] jegens fiscale besturen en jegens de Rijksdienst voor Sociale Zekerheid; 
 3. het bedrag over het afgesloten boekjaar van de kapitaal- of interestsubsidies uitbetaald of toegekend door openbare besturen of instellingen. 
 
-Naar het oordeel van de Commissie wijst niets erop dat toen het Parlement, op eigen initiatief, bij artikel 80 het voornoemde *sexto *inlaste, het de bedoeling had de vermeldingen die deze bepaling voorschrijft enkel op te leggen aan vennootschappen naar Belgisch recht. 
+Naar het oordeel van de Commissie wijst niets erop dat toen het Parlement, op eigen initiatief, bij artikel 80 het voornoemde *sexto* inlaste, het de bedoeling had de vermeldingen die deze bepaling voorschrijft enkel op te leggen aan vennootschappen naar Belgisch recht. 
 
-Alles pleit er integendeel voor, zowel in rechte als in feite, dat de vreemde vennootschappen met een bedrijfszetel in België en die uit dien hoofde van de waarborg der overheid kunnen genieten (*littera *a), schulden kunnen hebben zoals bedoeld in *littera *b) en kapitaal- of interestsubsidies kunnen bekomen zoals bedoeld in *littera *c), deze inlichtingen zouden publiceren op dezelfde wijze als de vennootschappen naar Belgisch recht. Vanuit het oogpunt van de buitenlandse balans is de toepassing van deze bepaling niet van aard om moeilijkheden te veroorzaken, rekening houdend met het feit dat hoewel het document tegelijk met de jaarrekening dient verspreid te worden, het niettemin een apart stuk vormt.
+Alles pleit er integendeel voor, zowel in rechte als in feite, dat de vreemde vennootschappen met een bedrijfszetel in België en die uit dien hoofde van de waarborg der overheid kunnen genieten (*littera* a), schulden kunnen hebben zoals bedoeld in *littera* b) en kapitaal- of interestsubsidies kunnen bekomen zoals bedoeld in *littera* c), deze inlichtingen zouden publiceren op dezelfde wijze als de vennootschappen naar Belgisch recht. Vanuit het oogpunt van de buitenlandse balans is de toepassing van deze bepaling niet van aard om moeilijkheden te veroorzaken, rekening houdend met het feit dat hoewel het document tegelijk met de jaarrekening dient verspreid te worden, het niettemin een apart stuk vormt.
 
 [^1]: Cfr. P.B. Senaat B.Z. 1977, 131, nr. 2, Verslag Cooreman, p. 25.
 

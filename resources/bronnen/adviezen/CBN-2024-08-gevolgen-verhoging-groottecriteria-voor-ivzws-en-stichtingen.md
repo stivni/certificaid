@@ -1,6 +1,72 @@
 ---
-nummer: CBN-advies 2024/08
+bron: https://www.cbn-cnc.be/nl/adviezen/gevolgen-verhoging-groottecriteria-voor-ivzws-en-stichtingen
 datum: 2024-09-19
+gerelateerde_adviezen:
+  - datum: '2025-07-14'
+    titel: Groottecriteria verenigingen en stichtingen - schema van de jaarrekening – begroting (update) [ONTWERP]
+    url: https://www.cbn-cnc.be/nl/adviezen/groottecriteria-verenigingen-en-stichtingen-schema-van-de-jaarrekening-begroting-update
+  - datum: '2025-07-16'
+    titel: Beoordeling van de groottecriteria overeenkomstig artikelen 1:24 en 1:25 van het Wetboek van vennootschappen en verenigingen (update) [ONTWERP]
+    url: https://www.cbn-cnc.be/nl/adviezen/beoordeling-van-de-groottecriteria-overeenkomstig-artikelen-124-en-125-van-het-wetboek-0
+  - datum: '2024-09-19'
+    titel: Gevolgen verhoging groottecriteria voor vennootschappen
+    url: https://www.cbn-cnc.be/nl/adviezen/gevolgen-verhoging-groottecriteria-voor-vennootschappen
+  - datum: '2022-07-27'
+    titel: Consolidatie bij de horizontale groep (consortium)
+    url: https://www.cbn-cnc.be/nl/adviezen/consolidatie-bij-de-horizontale-groep-consortium-0
+nummer: CBN-advies 2024/08
+provenance:
+  generated_at: '2026-05-11T13:05:09Z'
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/gevolgen-verhoging-groottecriteria-voor-ivzws-en-stichtingen
+      sha256: 6de1272699f26002e279dc23b8980b5366bd9173ebd3e64b7c543a252fb2a982
+      version:
+  stale: false
+  stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
+  trust:
+    confirmed_at: '2026-05-11T12:24:34Z'
+    confirmed_by: subagent-sonnet-4-6
+    layer1:
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:31Z'
+      heading_count: 8
+      max_section_chars: 4799
+      file_size_chars: 16428
+      flags: []
+    layer2:
+      agent: subagent-sonnet-4-6
+      concrete_problemen:
+        - categorie: D4
+          regel: 77
+          type: other
+          voorbeeld: verhoogd van 9.000.000 euro naar **11.250.000 **euro en het bedrag van het balanstotaal
+        - categorie: D4
+          regel: 79
+          type: other
+          voorbeeld: verhoogd van 700.000 euro naar **900.000 **euro en het bedrag van het balanstotaal
+        - categorie: D4
+          regel: 83
+          type: other
+          voorbeeld: wordt verhoogd van 334.500 euro naar **391.000 **euro, en de bedragen van de schulden
+        - categorie: E1
+          regel: 101
+          type: pseudo-table
+          voorbeeld: '| | | 31/12/2023 | | 31/12/2024 | | 31/12/2025 | (geen separator-rij, ghost-kolommen)'
+        - categorie: A7
+          regel: 193
+          type: other
+          voorbeeld: 22. Veronderstel een stichting met een einde boekjaardatum van 31 december.
+      rationale: 'D4: op regels 77, 79 en 83 staan malformed bold-markers `**getal **euro` met een spatie vóór de sluitende `**` — een mens schrijft nooit `**11.250.000 **euro`. E1: alle tabellen (regels 101-104, 158-161, 195-199) missen de `|---|---|` separator na de headerrij en bevatten alternerende lege ghost-kolommen, identiek aan het patroon in CBN-2024-07. Bovendien staat op regel 193 een stray randnummer `22.` als prefix vóór een alinea (PDF-nummering-artefact).'
+      run_at: '2026-05-11T12:24:34Z'
+      status: needs-rework
+    rationale: 'D4: op regels 77, 79 en 83 staan malformed bold-markers `**getal **euro` met een spatie vóór de sluitende `**` — een mens schrijft nooit `**11.250.000 **euro`. E1: alle tabellen (regels 101-104, 158-161, 195-199) missen de `|---|---|` separator na de headerrij en bevatten alternerende lege ghost-kolommen, identiek aan het patroon in CBN-2024-07. Bovendien staat op regel 193 een stray randnummer `22.` als prefix vóór een alinea (PDF-nummering-artefact).'
+    status: needs-rework
 themas:
   - groottecriteria
   - verenigingen en stichtingen
@@ -14,72 +80,6 @@ themas:
   - balanstotaal
   - personeelsbestand
   - gebroken boekjaar
-bron: https://www.cbn-cnc.be/nl/adviezen/gevolgen-verhoging-groottecriteria-voor-ivzws-en-stichtingen
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/gevolgen-verhoging-groottecriteria-voor-ivzws-en-stichtingen
-      sha256: 6de1272699f26002e279dc23b8980b5366bd9173ebd3e64b7c543a252fb2a982
-      version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:38:23Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T12:24:34Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: 'D4: op regels 77, 79 en 83 staan malformed bold-markers `**getal **euro` met een spatie vóór de sluitende `**` — een mens schrijft nooit `**11.250.000 **euro`. E1: alle tabellen (regels 101-104, 158-161, 195-199) missen de `|---|---|` separator na de headerrij en bevatten alternerende lege ghost-kolommen, identiek aan het patroon in CBN-2024-07. Bovendien staat op regel 193 een stray randnummer `22.` als prefix vóór een alinea (PDF-nummering-artefact).'
-    layer1:
-      status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 8
-      max_section_chars: 4798
-      file_size_chars: 16426
-      flags: []
-    layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:24:34Z'
-      rationale: 'D4: op regels 77, 79 en 83 staan malformed bold-markers `**getal **euro` met een spatie vóór de sluitende `**` — een mens schrijft nooit `**11.250.000 **euro`. E1: alle tabellen (regels 101-104, 158-161, 195-199) missen de `|---|---|` separator na de headerrij en bevatten alternerende lege ghost-kolommen, identiek aan het patroon in CBN-2024-07. Bovendien staat op regel 193 een stray randnummer `22.` als prefix vóór een alinea (PDF-nummering-artefact).'
-      concrete_problemen:
-        - regel: 77
-          categorie: D4
-          type: other
-          voorbeeld: verhoogd van 9.000.000 euro naar **11.250.000 **euro en het bedrag van het balanstotaal
-        - regel: 79
-          categorie: D4
-          type: other
-          voorbeeld: verhoogd van 700.000 euro naar **900.000 **euro en het bedrag van het balanstotaal
-        - regel: 83
-          categorie: D4
-          type: other
-          voorbeeld: wordt verhoogd van 334.500 euro naar **391.000 **euro, en de bedragen van de schulden
-        - regel: 101
-          categorie: E1
-          type: pseudo-table
-          voorbeeld: '| | | 31/12/2023 | | 31/12/2024 | | 31/12/2025 | (geen separator-rij, ghost-kolommen)'
-        - regel: 193
-          categorie: A7
-          type: other
-          voorbeeld: 22. Veronderstel een stichting met een einde boekjaardatum van 31 december.
-gerelateerde_adviezen:
-  - titel: Groottecriteria verenigingen en stichtingen - schema van de jaarrekening – begroting (update) [ONTWERP]
-    url: https://www.cbn-cnc.be/nl/adviezen/groottecriteria-verenigingen-en-stichtingen-schema-van-de-jaarrekening-begroting-update
-    datum: '2025-07-14'
-  - titel: Beoordeling van de groottecriteria overeenkomstig artikelen 1:24 en 1:25 van het Wetboek van vennootschappen en verenigingen (update) [ONTWERP]
-    url: https://www.cbn-cnc.be/nl/adviezen/beoordeling-van-de-groottecriteria-overeenkomstig-artikelen-124-en-125-van-het-wetboek-0
-    datum: '2025-07-16'
-  - titel: Gevolgen verhoging groottecriteria voor vennootschappen
-    url: https://www.cbn-cnc.be/nl/adviezen/gevolgen-verhoging-groottecriteria-voor-vennootschappen
-    datum: '2024-09-19'
-  - titel: Consolidatie bij de horizontale groep (consortium)
-    url: https://www.cbn-cnc.be/nl/adviezen/consolidatie-bij-de-horizontale-groep-consortium-0
-    datum: '2022-07-27'
 ---
 
 # CBN-advies 2024/08 – Gevolgen verhoging groottecriteria voor (I)VZW’s en stichtingen
@@ -94,13 +94,14 @@ De Belgische regelgever besliste ook om de groottecriteria voor de verenigingen 
 
 ## Verhoging drempelwaarden
 
-Bij de drempelwaarden met betrekking tot de kleine (I)VZW’s (art. 1:28 WVV) en de kleine stichtingen (art. 1:30 WVV) wordt het bedrag van de jaaromzet exclusief btw verhoogd van 9.000.000 euro naar **11.250.000 **euro en het bedrag van het balanstotaal van 4.500.000 euro naar **6.000.000 **euro.[^7] 
+Bij de drempelwaarden met betrekking tot de kleine (I)VZW’s (art. 1:28 WVV) en de kleine stichtingen (art. 1:30 WVV) wordt het bedrag van de jaaromzet exclusief btw verhoogd van 9.000.000 euro naar **11.250.000** euro en het bedrag van het balanstotaal van 4.500.000 euro naar **6.000.000** euro.[^7] 
 
-Bij de drempelwaarden met betrekking tot de micro-(I)VZW’s (art. 1:29 WVV) en de microstichtingen (art. 1:31 WVV) wordt het bedrag van de jaaromzet exclusief btw verhoogd van 700.000 euro naar **900.000 **euro en het bedrag van het balanstotaal van 350.000 euro naar **450.000 **euro.[^8] 
+Bij de drempelwaarden met betrekking tot de micro-(I)VZW’s (art. 1:29 WVV) en de microstichtingen (art. 1:31 WVV) wordt het bedrag van de jaaromzet exclusief btw verhoogd van 700.000 euro naar **900.000** euro en het bedrag van het balanstotaal van 350.000 euro naar **450.000** euro.[^8] 
 
 De drempelwaarden in verband met het jaargemiddelde van het aantal werknemers worden niet aangepast in de artikelen 1:28, § 1, 1:29, § 1, 1:30, § 1, en 1:31, § 1, van het WVV.
 
-Naast de drempelwaarden met betrekking tot de groottecriteria in boek 1 van het WVV, werden ook de drempelwaarden verhoogd die bepalen wanneer een (I)VZW (art. 3:47, § 2 WVV) of stichting (art. 3:51, § 2 WVV) een vereenvoudigde boekhouding kan voeren en een jaarrekening kan opstellen volgens een vereenvoudigd model. Het bedrag van de andere dan niet-recurrente ontvangsten exclusief btw wordt verhoogd van 334.500 euro naar **391.000 **euro, en de bedragen van de schulden en bezittingen worden elk verhoogd van 1.337.000 euro naar **1.562.000 **euro.[^9] Ook bij deze wetsbepalingen wordt de drempelwaarde met betrekking tot het jaargemiddelde van het aantal werknemers niet aangepast.
+Naast de drempelwaarden met betrekking tot de groottecriteria in boek 1 van het WVV, werden ook de drempelwaarden verhoogd die bepalen wanneer een (I)VZW (art. 3:47, § 2 WVV) of stichting (art. 3:51, § 2 WVV) een vereenvoudigde boekhouding kan voeren en een jaarrekening kan opstellen volgens een vereenvoudigd model. Het bedrag van de andere dan niet-recurrente ontvangsten exclusief btw wordt verhoogd van 334.500 euro naar **391.000** euro, en de bedragen van de schulden en bezittingen worden elk verhoogd van 1.337.000 euro naar **1.562.000** euro.[^9]
+ Ook bij deze wetsbepalingen wordt de drempelwaarde met betrekking tot het jaargemiddelde van het aantal werknemers niet aangepast.
 
 ## Inwerkingtreding
 
@@ -210,7 +211,8 @@ Op balansdatum 30 juni 2026 werd opnieuw meer dan één van de criteria overschr
 
 ### Voorbeeld 4: impact van de verhoging van de criteria op langere termijn 
 
-22. Veronderstel een stichting met een einde boekjaardatum van 31 december. De cijfers in het rood geven aan wanneer de criteria[^17] werden overschreden.[^18] Om de grootte van de stichting te bepalen in boekjaren die aanvatten na 31 december 2023 moet men de verhoogde drempelwaarden gebruiken. 
+22. Veronderstel een stichting met een einde boekjaardatum van 31 december. De cijfers in het rood geven aan wanneer de criteria[^17] werden overschreden.[^18]
+ Om de grootte van de stichting te bepalen in boekjaren die aanvatten na 31 december 2023 moet men de verhoogde drempelwaarden gebruiken. 
 
 | **Einde 31.12** | | | | **31.12.2021** | | | | | | **31.12.2022** | | | | **31.12.2023** | | | | | | **31.12.2024** | | | | | | **31.12.2025** | | | | | | **31.12.2026** | | | 
 | Personeel | | 60 | | 60 | | 60 | | 60 | | 60 | | 60 | 

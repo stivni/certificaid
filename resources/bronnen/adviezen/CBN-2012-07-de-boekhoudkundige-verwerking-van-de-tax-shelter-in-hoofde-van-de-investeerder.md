@@ -1,60 +1,60 @@
 ---
-nummer: CBN-advies 2012/7
-datum: 2012-04-17
-themas:
-  - tax shelter
-  - belastingvrije reserves
-  - geldbeleggingen
 bron: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-tax-shelter-in-hoofde-van-de-investeerder
+datum: 2012-04-17
+gerelateerde_adviezen:
+  - datum: '2018-05-30'
+    titel: Tax shelter voor podiumkunsten
+    url: https://www.cbn-cnc.be/nl/adviezen/tax-shelter-voor-podiumkunsten
+  - datum: '2015-09-09'
+    titel: Boekhoudkundige verwerking van de tax shelter in hoofde van de productievennootschap (raamovereenkomsten getekend vanaf 1 januari 2015)
+    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-tax-shelter-in-hoofde-van-de-productievennootschap
+  - datum: '2015-05-13'
+    titel: Boekhoudkundige verwerking van de tax shelter in hoofde van de investeerder (raamovereenkomsten gesloten vanaf 1 januari 2015)
+    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-tax-shelter-in-hoofde-van-de-investeerder
+  - datum: '2012-03-21'
+    titel: De boekhoudkundige verwerking van de tax shelter in hoofde van de productievennootschap
+    url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-tax-shelter-in-hoofde-van-de-productievennootschap
+nummer: CBN-advies 2012/7
 provenance:
+  generated_at: '2026-05-11T13:05:08Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-tax-shelter-in-hoofde-van-de-investeerder
       sha256: dc95420e9c652b744e721087806cdbf2d4fac9f260be6e391e05124393bf9444
       version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:36:26Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
   trust:
-    status: needs-rework
     confirmed_at: '2026-05-11T12:09:18Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "A3: regel 82 bevat een duplicate TOC als aaneengesloten plain-text-blob ('-- Toepassingsvoorwaarden-- Fiscaal voordeel-- Procedure---- Eerste fase...') — dit is een tweede inhoudstafel die verspreid in de body terechtkwam na extractie. De genummerde TOC bovenaan (regels 58-81) is correct; dit tweede blok had verwijderd moeten worden."
     layer1:
       status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 20
-      max_section_chars: 15316
-      file_size_chars: 30963
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:28Z'
+      heading_count: 19
+      max_section_chars: 15315
+      file_size_chars: 30947
       flags: []
     layer2:
-      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:09:18Z'
-      rationale: "A3: regel 82 bevat een duplicate TOC als aaneengesloten plain-text-blob ('-- Toepassingsvoorwaarden-- Fiscaal voordeel-- Procedure---- Eerste fase...') — dit is een tweede inhoudstafel die verspreid in de body terechtkwam na extractie. De genummerde TOC bovenaan (regels 58-81) is correct; dit tweede blok had verwijderd moeten worden."
       concrete_problemen:
-        - regel: 82
-          categorie: A3
+        - categorie: A3
+          regel: 82
           type: other
           voorbeeld: -- Toepassingsvoorwaarden-- Fiscaal voordeel-- Procedure---- Eerste fase---- Tweede faseBoekhoudkundige verwerking...
-gerelateerde_adviezen:
-  - titel: Tax shelter voor podiumkunsten
-    url: https://www.cbn-cnc.be/nl/adviezen/tax-shelter-voor-podiumkunsten
-    datum: '2018-05-30'
-  - titel: Boekhoudkundige verwerking van de tax shelter in hoofde van de productievennootschap (raamovereenkomsten getekend vanaf 1 januari 2015)
-    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-tax-shelter-in-hoofde-van-de-productievennootschap
-    datum: '2015-09-09'
-  - titel: Boekhoudkundige verwerking van de tax shelter in hoofde van de investeerder (raamovereenkomsten gesloten vanaf 1 januari 2015)
-    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-tax-shelter-in-hoofde-van-de-investeerder
-    datum: '2015-05-13'
-  - titel: De boekhoudkundige verwerking van de tax shelter in hoofde van de productievennootschap
-    url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-tax-shelter-in-hoofde-van-de-productievennootschap
-    datum: '2012-03-21'
+      rationale: 'A3: regel 82 bevat een duplicate TOC als aaneengesloten plain-text-blob (''-- Toepassingsvoorwaarden-- Fiscaal voordeel-- Procedure---- Eerste fase...'') — dit is een tweede inhoudstafel die verspreid in de body terechtkwam na extractie. De genummerde TOC bovenaan (regels 58-81) is correct; dit tweede blok had verwijderd moeten worden.'
+      run_at: '2026-05-11T12:09:18Z'
+      status: needs-rework
+    rationale: 'A3: regel 82 bevat een duplicate TOC als aaneengesloten plain-text-blob (''-- Toepassingsvoorwaarden-- Fiscaal voordeel-- Procedure---- Eerste fase...'') — dit is een tweede inhoudstafel die verspreid in de body terechtkwam na extractie. De genummerde TOC bovenaan (regels 58-81) is correct; dit tweede blok had verwijderd moeten worden.'
+    status: needs-rework
+themas:
+  - tax shelter
+  - belastingvrije reserves
+  - geldbeleggingen
 ---
 
 # CBN-advies 2012/7 - De boekhoudkundige verwerking van de tax shelter in hoofde van de investeerder Advies van 17 april 2012
@@ -97,9 +97,7 @@ Voor alle duidelijkheid worden in dit advies eerst de voornaamste beginselen van
 
 ### Toepassingsvoorwaarden
 
-De tax shelter laat vennootschappen[^4]
- toe om te genieten van een vrijstelling van hun winst van 150 % van de sommen aangewend[^5]
- ter financiering van de productie van een “in aanmerking komend werk”[^6]. De in aanmerking komende werken worden op zeer ruime wijze gedefinieerd en betreffen met name fictiefilms, documentaires of animatiefilms, bestemd om in de bioscoop te worden vertoond, lange fictiefilms of animatiereeksen voor televisie en series bestemd voor kinderen en jongeren, zoals educatieve, culturele en informatieve fictieseries bedoeld voor kinderen en jongeren van 0 tot 16 jaar[^7]. 
+De tax shelter laat vennootschappen[^4] toe om te genieten van een vrijstelling van hun winst van 150 % van de sommen aangewend[^5] ter financiering van de productie van een “in aanmerking komend werk”[^6]. De in aanmerking komende werken worden op zeer ruime wijze gedefinieerd en betreffen met name fictiefilms, documentaires of animatiefilms, bestemd om in de bioscoop te worden vertoond, lange fictiefilms of animatiereeksen voor televisie en series bestemd voor kinderen en jongeren, zoals educatieve, culturele en informatieve fictieseries bedoeld voor kinderen en jongeren van 0 tot 16 jaar[^7]. 
 
 De investering die een Belgische productievennootschap van audiovisuele werken (of een Belgische inrichting van een buitenlandse vennootschap) tot voordeel dient te strekken, dient geregeld te worden door een raamovereenkomst, gesloten tussen de investeerder en de productievennootschap[^8]. 
 
@@ -107,12 +105,10 @@ De wet voorziet daarenboven in een aantal andere voorwaarden die meer bepaald be
 
 - de investering kan gerealiseerd worden door de toekenning van leningen en door het verwerven van rechten verbonden aan de productie en de exploitatie van het werk[^9]. De leningen mogen echter niet meer bedragen dan 40 % van het in een raamovereenkomst geïnvesteerde bedrag[^10]; 
 - het totaal van de door het geheel van de investeerders die deze raamovereenkomst hebben gesloten daadwerkelijk gestorte sommen ter uitvoering van de raamovereenkomst met vrijstelling van winst in de hoedanigheid van de tax shelter mag niet meer bedragen dan 50 % van het totale budget van de productie- en exploitatiekosten van het in aanmerking komend werk. Deze sommen moeten daadwerkelijk aangewend worden voor de uitvoering van dit budget[^11]; 
-- de partijen kunnen aan de investeerder een optie toekennen die hem toelaat om na afloop van de wettelijke termijn van onoverdraagbaarheid van maximaal 18 maanden (en minder indien de film wordt afgewerkt alvorens deze termijn afloopt) [^12]
- zijn rechten op het werk te verkopen voor een vooraf afgesproken prijs; 
+- de partijen kunnen aan de investeerder een optie toekennen die hem toelaat om na afloop van de wettelijke termijn van onoverdraagbaarheid van maximaal 18 maanden (en minder indien de film wordt afgewerkt alvorens deze termijn afloopt) [^12] zijn rechten op het werk te verkopen voor een vooraf afgesproken prijs; 
 - de investeerder dient de vrijgestelde winst op een afzonderlijke rekening van het passief van zijn balans te boeken. Deze winst kan niet tot grondslag dienen voor de berekening van enige beloning of toekenning (“onaantastbaarheidsvoorwaarde”)[^13]. 
 
-Deze voorwaarden dienen nageleefd te worden gedurende de volledige fase van tijdelijke vrijstelling van de winst[^14]
- (met betrekking tot dit begrip van tijdelijke vrijstelling zie *infra*, nr. 6). Indien deze voorwaarden daadwerkelijk worden nageleefd, dienen zij opgenomen te worden in attesten waardoor nadien een definitieve vrijstelling van de winst bekomen kan worden (zie *infra*, nr. 7).
+Deze voorwaarden dienen nageleefd te worden gedurende de volledige fase van tijdelijke vrijstelling van de winst[^14] (met betrekking tot dit begrip van tijdelijke vrijstelling zie *infra*, nr. 6). Indien deze voorwaarden daadwerkelijk worden nageleefd, dienen zij opgenomen te worden in attesten waardoor nadien een definitieve vrijstelling van de winst bekomen kan worden (zie* infra*, nr. 7).
 
 Als tegenprestatie voor zijn investering, verkrijgt de investeerder productie- en exploitatierechten van het werk (met name het gedeelte dat in de praktijk het “equity-deel” wordt genoemd). In het kader van de lening ontvangt hij tevens een vorderingsrecht jegens de productievennootschap[^15]. Wat de rechten betreft die verbonden zijn aan de productie en de exploitatie van het werk, wordt in dit advies enkel het bijzondere, maar het in de praktijk meest voorkomende geval behandeld waarbij de rechten enkel betrekking hebben op een deel van de netto-opbrengst die het werk oplevert. Deze rechten worden meestal APNI-rechten genoemd (aandeel van de producent in de netto-inkomsten). 
 
@@ -141,8 +137,7 @@ Indien tijdens de tijdelijke vrijstellingsfase één van de door de wet voorzien
 
 #### Tweede fase
 
-Indien alle door de wet voorziene voorwaarden ononderbroken[^20]
- werden vervuld tijdens de eerste fase, kan de definitieve vrijstelling worden toegekend op basis van de twee attesten die voorgelegd dienen te worden aan de fiscale administratie. In het ene attest, dat wordt uitgegeven door de taxatiedienst van de producerende vennootschap, wordt met name het in aanmerking komend karakter van het werk bevestigd, evenals de aanwending van de geïnvesteerde sommen. In het andere attest, dat wordt uitgegeven door de Gemeenschap waarvan het werk afhangt, wordt de voltooiing van het werk bevestigd[^21]. 
+Indien alle door de wet voorziene voorwaarden ononderbroken[^20] werden vervuld tijdens de eerste fase, kan de definitieve vrijstelling worden toegekend op basis van de twee attesten die voorgelegd dienen te worden aan de fiscale administratie. In het ene attest, dat wordt uitgegeven door de taxatiedienst van de producerende vennootschap, wordt met name het in aanmerking komend karakter van het werk bevestigd, evenals de aanwending van de geïnvesteerde sommen. In het andere attest, dat wordt uitgegeven door de Gemeenschap waarvan het werk afhangt, wordt de voltooiing van het werk bevestigd[^21]. 
 
 De investerende vennootschap geniet van de definitieve vrijstelling voor het boekjaar waarin zij haar laatste attest naar haar taxatiedienst stuurt, op voorwaarde dat de verzending plaatsvindt binnen de vier jaar na het sluiten van de raamovereenkomst[^22]. 
 
@@ -150,8 +145,7 @@ Vanaf het bekomen van deze definitieve vrijstelling, dienen de voornoemde voorwa
 
 ## Boekhoudkundige verwerking in hoofde van de investeerder
 
-### Boekhoudkundige kwalificatie van de rechten verbonden aan de productie en de exploitatie van het audiovisueel werk
-
+Boekhoudkundige kwalificatie van de rechten verbonden aan de productie en de exploitatie van het audiovisueel werk
 Zoals eerder is aangehaald, heeft dit advies betrekking op de in de praktijk meest voorkomende hypothese dat de productie- en de exploitatierechten van het audiovisueel werk enkel bestaan uit de rechten op de (toekomstige) opbrengst die het werk oplevert, waarbij de investeerder geen auteursrechten op het werk bekomt. 
 
 De rechten die werden overgedragen aan de investeerder zijn geen immateriële vaste activa zoals is bepaald door artikel 95, § 1, KB W.Venn., punt II, met name: a) kosten van onderzoek en ontwikkeling; b) concessies, octrooien, licenties, know-how, merken en andere gelijkaardige rechten; c) goodwill; d) vooruitbetalingen op immateriële vaste activa. 
@@ -168,8 +162,7 @@ De vennootschap die investeert in een in aanmerking komend werk, ondersteunt nam
 
 De opbrengstrechten worden gekwalificeerd als vlottende actiefbestanddelen die worden geboekt onder de geldbeleggingen (rubriek VIII.B. Overige beleggingen). Aangezien de opbrengstrechten noch aan vastrentende effecten noch aan termijndeposito’s kunnen worden gelijkgesteld, dienen zij bij voorkeur te worden geboekt op een subrekening 51 Aandelen. De Commissie is van plan om aan de Regering voor te stellen om de benaming en indeling van rekening 51 te wijzigen in * Aandelen en geldbeleggingen andere dan vastrentende beleggingen.*
 
-### Te verrichten boekingen tijdens de verschillende fasen van het vrijstellingsmechanisme van de tax shelter
-
+Te verrichten boekingen tijdens de verschillende fasen van het vrijstellingsmechanisme van de tax shelter
 De volgende analyse wordt geïllustreerd door een voorbeeld waarbij een investerende vennootschap een investering doet ten belope van 100, waarvan 40 in de vorm van leningen en 60 in de vorm van verwerving van de rechten op het in aanmerking komend werk.
 
 #### Bij de ondertekening van de raamovereenkomst
@@ -359,7 +352,7 @@ Als de investerende vennootschap enkel heeft kunnen genieten van een vrijstellin
 | aan | 789 | Onttrekkingen aan de belastingvrije reserves | | 30 |
 | | 133 | Beschikbare reserves | 120 | |
 
-**Dit advies vervangt CBN-advies 2010/7**
+## Dit advies vervangt CBN-advies 2010/7
 
 [^1]: Art. 128 Programmawet van 2 augustus 2002, dat « Onderafdeling 4. – Ondernemingen die investeren in een raamovereenkomst voor de productie van een audiovisueel werk » en artikel 194ter invoegt in titel III, hoofdstuk II, afdeling 3 van het Wetboek van de Inkomstenbelastingen 1992, B.S. 29 augustus 2002.
 

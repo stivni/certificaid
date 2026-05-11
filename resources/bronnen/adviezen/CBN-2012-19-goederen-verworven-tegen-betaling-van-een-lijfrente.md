@@ -1,78 +1,78 @@
 ---
-nummer: CBN-advies 2012/19
-datum: 2012-11-07
-themas:
-  - lijfrente
 bron: https://www.cbn-cnc.be/nl/adviezen/goederen-verworven-tegen-betaling-van-een-lijfrente
+datum: 2012-11-07
+gerelateerde_adviezen:
+  - datum: '2019-03-05'
+    titel: Voorzieningen
+    url: https://www.cbn-cnc.be/nl/adviezen/voorzieningen
+  - datum: '1999-02-01'
+    titel: Aanpassing van het bedrag van de voorziening die nodig is om de rente te betalen in functie van een verandering van de sterftetafel en/of van de evolutie van de wisselkoers van de in vreemde munt uitgedrukte rente
+    url: https://www.cbn-cnc.be/nl/adviezen/aanpassing-van-het-bedrag-van-de-voorziening-die-nodig-is-om-de-rente-te-betalen-in
+  - datum: '1988-06-01'
+    titel: Lijfrente gevestigd op twee hoofden
+    url: https://www.cbn-cnc.be/nl/adviezen/lijfrente-gevestigd-op-twee-hoofden
+  - datum: '1986-01-01'
+    titel: Inwerkingtreding van artikel 26, paragraaf 2 van het Koninklijk Besluit van 8 oktober 1976 m.b.t. de lijfrente
+    url: https://www.cbn-cnc.be/nl/adviezen/inwerkingtreding-van-artikel-26-paragraaf-2-van-het-koninklijk-besluit-van-8-oktober-1976
+nummer: CBN-advies 2012/19
 provenance:
+  generated_at: '2026-05-11T13:05:08Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/goederen-verworven-tegen-betaling-van-een-lijfrente
       sha256: 2cd8f92de27086cad9c9aba0626d18cf297100f0dafb460f69a62c8c50cb4e49
       version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:36:32Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
   trust:
-    status: needs-rework
     confirmed_at: '2026-05-11T12:16:34Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "A3: een genummerde inhoudsopgave (regels 56–70) staat als plain-text blok vóór de body in plaats van als markdown-TOC of weggelaten; regel 72 'Inleiding' is een structuurlabel als plain text (B5). A4: U+00AC (NOT SIGN) op regel 106 in 'bruto¬marktrentevoet' — vermoedelijk foutief geconverteerd koppelteken. E2: gebroken tabelrij op regels 235–237 waarbij celinhoud over twee regels loopt (tab-insprong '\\t\\t\\t 472.685,12'). C3: actuariële formule op regels 158–160 als pseudo-tabel met spatie-uitlijning. Regel 241 'Tweede methode' is een structuurlabel als plain text (B5)."
     layer1:
       status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 14
-      max_section_chars: 13214
-      file_size_chars: 23533
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:28Z'
+      heading_count: 18
+      max_section_chars: 13218
+      file_size_chars: 23547
       flags: []
     layer2:
-      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:16:34Z'
-      rationale: "A3: een genummerde inhoudsopgave (regels 56–70) staat als plain-text blok vóór de body in plaats van als markdown-TOC of weggelaten; regel 72 'Inleiding' is een structuurlabel als plain text (B5). A4: U+00AC (NOT SIGN) op regel 106 in 'bruto¬marktrentevoet' — vermoedelijk foutief geconverteerd koppelteken. E2: gebroken tabelrij op regels 235–237 waarbij celinhoud over twee regels loopt (tab-insprong '\\t\\t\\t 472.685,12'). C3: actuariële formule op regels 158–160 als pseudo-tabel met spatie-uitlijning. Regel 241 'Tweede methode' is een structuurlabel als plain text (B5)."
       concrete_problemen:
-        - regel: 56
-          categorie: A3
+        - categorie: A3
+          regel: 56
           type: other
           voorbeeld: 1. Vaststelling van het initiële kapitaal...\n2. Aanpassing van de voorziening...
-        - regel: 72
-          categorie: B5
+        - categorie: B5
+          regel: 72
           type: other
           voorbeeld: 'Inleiding '
-        - regel: 106
-          categorie: A4
+        - categorie: A4
+          regel: 106
           type: other
           voorbeeld: bruto¬marktrentevoet (U+00AC in plaats van koppelteken)
-        - regel: 158
-          categorie: C3
+        - categorie: C3
+          regel: 158
           type: pseudo-table
           voorbeeld: an/i = 1- (1 + i)-n \n\n       i
-        - regel: 235
-          categorie: E2
+        - categorie: E2
+          regel: 235
           type: other
           voorbeeld: '| lijfrentebetaling... | - 14.888,08\n\n\t\t\t 472.685,12 | | |'
-        - regel: 241
-          categorie: B5
+        - categorie: B5
+          regel: 241
           type: other
           voorbeeld: Tweede methode
-gerelateerde_adviezen:
-  - titel: Voorzieningen
-    url: https://www.cbn-cnc.be/nl/adviezen/voorzieningen
-    datum: '2019-03-05'
-  - titel: Aanpassing van het bedrag van de voorziening die nodig is om de rente te betalen in functie van een verandering van de sterftetafel en/of van de evolutie van de wisselkoers van de in vreemde munt uitgedrukte rente
-    url: https://www.cbn-cnc.be/nl/adviezen/aanpassing-van-het-bedrag-van-de-voorziening-die-nodig-is-om-de-rente-te-betalen-in
-    datum: '1999-02-01'
-  - titel: Lijfrente gevestigd op twee hoofden
-    url: https://www.cbn-cnc.be/nl/adviezen/lijfrente-gevestigd-op-twee-hoofden
-    datum: '1988-06-01'
-  - titel: Inwerkingtreding van artikel 26, paragraaf 2 van het Koninklijk Besluit van 8 oktober 1976 m.b.t. de lijfrente
-    url: https://www.cbn-cnc.be/nl/adviezen/inwerkingtreding-van-artikel-26-paragraaf-2-van-het-koninklijk-besluit-van-8-oktober-1976
-    datum: '1986-01-01'
+      rationale: 'A3: een genummerde inhoudsopgave (regels 56–70) staat als plain-text blok vóór de body in plaats van als markdown-TOC of weggelaten; regel 72 ''Inleiding'' is een structuurlabel als plain text (B5). A4: U+00AC (NOT SIGN) op regel 106 in ''bruto¬marktrentevoet'' — vermoedelijk foutief geconverteerd koppelteken. E2: gebroken tabelrij op regels 235–237 waarbij celinhoud over twee regels loopt (tab-insprong ''\t\t\t 472.685,12''). C3: actuariële formule op regels 158–160 als pseudo-tabel met spatie-uitlijning. Regel 241 ''Tweede methode'' is een structuurlabel als plain text (B5).'
+      run_at: '2026-05-11T12:16:34Z'
+      status: needs-rework
+    rationale: 'A3: een genummerde inhoudsopgave (regels 56–70) staat als plain-text blok vóór de body in plaats van als markdown-TOC of weggelaten; regel 72 ''Inleiding'' is een structuurlabel als plain text (B5). A4: U+00AC (NOT SIGN) op regel 106 in ''bruto¬marktrentevoet'' — vermoedelijk foutief geconverteerd koppelteken. E2: gebroken tabelrij op regels 235–237 waarbij celinhoud over twee regels loopt (tab-insprong ''\t\t\t 472.685,12''). C3: actuariële formule op regels 158–160 als pseudo-tabel met spatie-uitlijning. Regel 241 ''Tweede methode'' is een structuurlabel als plain text (B5).'
+    status: needs-rework
+themas:
+  - lijfrente
 ---
 
 # CBN-advies 2012/19 - Goederen verworven tegen betaling van een lijfrente
@@ -95,8 +95,7 @@ gerelateerde_adviezen:
 
 Inleiding 
 
-Artikel 40 van het koninklijk besluit tot uitvoering van het Wetboek van Vennootschappen[^1]
- (hierna : KB W.Venn.) luidt als volgt : 
+Artikel 40 van het koninklijk besluit tot uitvoering van het Wetboek van Vennootschappen[^1] (hierna : KB W.Venn.) luidt als volgt : 
 
 “Wat de goederen betreft die worden verkregen tegen betaling van een lijfrente : 
 
@@ -121,13 +120,12 @@ Het bedrag van het kapitaal wordt bepaald door de volgende factoren:
 - het sterfterisico[^2], dat afhankelijk is van de leeftijd en het geslacht van de persoon op wiens hoofd de lijfrente is gevestigd (de “rechthebbende”); en 
 - de rentevoet. 
 
-De keuze van de rentevoet is belangrijk. De structuur van de resultaten uit de verrichting en het ogenblik waarop zij een positieve of negatieve weerslag hebben op de resultatenrekening worden hierdoor immers sterk beïnvloed. Noch het KB W.Venn., noch het Verslag aan de Koning bij het koninklijk besluit van 12 september 1983[^3]
- spreken zich uit over de aan te rekenen rentevoet. Terzake geldt het beginsel van een autonome waardering door het bestuursorgaan. Het is dus aan het bestuursorgaan om een verantwoorde keuze te maken. Gaat het om een belangrijke verrichting, dan is het raadzaam om de gemaakte keuze net zoals de andere toegepaste waarderingregels te verantwoorden in de toelichting bij de jaarrekening. 
+De keuze van de rentevoet is belangrijk. De structuur van de resultaten uit de verrichting en het ogenblik waarop zij een positieve of negatieve weerslag hebben op de resultatenrekening worden hierdoor immers sterk beïnvloed. Noch het KB W.Venn., noch het Verslag aan de Koning bij het koninklijk besluit van 12 september 1983[^3] spreken zich uit over de aan te rekenen rentevoet. Terzake geldt het beginsel van een autonome waardering door het bestuursorgaan. Het is dus aan het bestuursorgaan om een verantwoorde keuze te maken. Gaat het om een belangrijke verrichting, dan is het raadzaam om de gemaakte keuze net zoals de andere toegepaste waarderingregels te verantwoorden in de toelichting bij de jaarrekening. 
 
 De Commissie meent evenwel toch een aantal richtsnoeren te kunnen formuleren met betrekking tot de bepaling van de rentevoet. 
 
 1. Wordt het bedrag van de lijfrente bekomen door conversie tegen een overeengekomen percentage van de onder de partijen bedongen verkoopprijs, dan wordt logischerwijze dit percentage gebruikt om het nodige kapitaal vast te stellen; in dit geval stemt dit overeen met de onder partijen bedongen verkoopprijs, na aftrek van het contant betaalde bedrag. 
-2. Bij de berekening van de voorziening is het verantwoord een bruto¬marktrentevoet te hanteren die representatief is voor langlopende leningen, veeleer dan een beleggingsrentevoet na belastingen voor een particulier. Gelet op het feit dat de voorziening het karakter heeft van een schuld (zie infra), wordt de rentevoet vastgelegd bij het sluiten van de lijfrenteovereenkomst. 
+2. Bij de berekening van de voorziening is het verantwoord een bruto-marktrentevoet te hanteren die representatief is voor langlopende leningen, veeleer dan een beleggingsrentevoet na belastingen voor een particulier. Gelet op het feit dat de voorziening het karakter heeft van een schuld (zie infra), wordt de rentevoet vastgelegd bij het sluiten van de lijfrenteovereenkomst. 
 3. Men moet enerzijds vermijden door de keuze van een te lage of een te hoge rentevoet aan het betrokken goed een waarde toe te kennen die redelijkerwijze onverantwoord zou zijn. Anderzijds mag de rentevoet niet arbitrair worden bepaald en moet deze verantwoord zijn in het licht van de economische omstandigheden op het ogenblik van het sluiten van het contract. 
 
 Door te stellen dat de waarde waartegen het goed op de actiefzijde moet worden geboekt, het kapitaal is dat nodig is om de rente te betalen (verhoogd met de kosten), gaat voornoemd artikel 40 ervan uit dat de aanschaffingswaarde van het goed wordt vastgesteld op het ogenblik dat de overeenkomst wordt gesloten en dat die overeenstemt met de - op dat ogenblik - geraamde kostprijs op actuariële basis van de lijfrentebetalingen. De aanschaffingswaarde zal na het afsluiten van de lijfrenteovereenkomst niet meer aangepast worden. Het feit dat het goed op lijfrente werd gekocht heeft immers niets te maken met de boeking ervan op de actiefzijde van de balans. Die boeking gebeurt op grond van de aard van het goed en de bestemming die er in de onderneming aan wordt gegeven. 
@@ -143,7 +141,7 @@ Enerzijds wordt het initiële kapitaal dat nodig is om de rente te betalen, vast
 
 Anderzijds is het zo dat de gemiddelde levensverwachting van de rechthebbende vermindert wanneer hij ouder wordt, zij het verhoudingsgewijze minder snel. Volgens de meest recente sterftetafels gepubliceerd op de website van de FOD Economie (België 1997-2010) evolueert de gemiddelde levensverwachting als volgt : 
 
-op 60 jaar : 20,83 jaar 
+### op 60 jaar : 20,83 jaar 
 
 op 65 jaar : 17,03 jaar 
 
@@ -165,7 +163,7 @@ Aan de hand van een voorbeeld worden bovenstaande principes geïllustreerd.[^5]
 
 Een onderneming koopt in het jaar N op lijfrente een gebouw, waarin zij op duurzame wijze haar bedrijfsactiviteiten gaat onderbrengen. Daarbij gelden volgende voorwaarden[^6]: 
 
-o Afschrijfbaar gedeelte onroerend goed: 80 % 
+### o Afschrijfbaar gedeelte onroerend goed: 80 % 
 
 o Afschrijving: lineair op 20 jaar 
 
@@ -191,8 +189,7 @@ In bovenstaand voorbeeld bedraagt het kapitaal 36.000 euro X a20/4,33 = 36.000 e
 | N | | 60 | | 20,83 | | 4,33% | | 487.573,20 | 
 | N+1 | | 61 | | 20,05 | | 4,33% | | 476.014,85 | 
 
-o De bijkomende kosten bedragen 15 % van het kapitaalbedrag dat noodzakelijk is om de lijfrente te betalen of 73.135,98 euro (15 % van 487.573,20 euro) 
-
+o De bijkomende kosten bedragen 15 % van het kapitaalbedrag dat noodzakelijk is om de lijfrente te betalen of 73.135,98 euro (15 % van 487.573,20 euro)
 o Afloop van de overeenkomst (overlijden): na 15 jaar
 
 ### Het sluiten van een overeenkomst voor de aankoop van een goed op lijfrente
@@ -226,7 +223,7 @@ De lijfrentebetaling gebeurt in de vorm van een periodieke uitgave ten gunste va
 
 Wat de lijfrentebetaling en de aanpassing van de voorziening betreft, komen in de praktijk twee boekhoudkundige verwerkingswijzen voor. De Commissie is evenwel van mening dat voor nieuw afgesloten lijfrentecontracten enkel de eerste methode aanvaardbaar is. 
 
-Eerste methode 
+### Eerste methode 
 
 De Commissie beveelt aan dat een duidelijk onderscheid wordt gemaakt tussen de diverse betrokken bestanddelen van de lijfrentebetaling en dat de voorziening wordt behandeld als zijnde een rentedragende schuld, waarvan het bedrag jaarlijks wordt aangepast om rekening te houden met de relatieve verlenging van de gemiddelde levensverwachting van de rechthebbende. Hierbij worden de interest op het geprovisioneerde bedrag alsook de jaarlijkse aanpassing van de voorziening op basis van de conversietabellen bij de financiële kosten geboekt. Dit geeft aanleiding tot de volgende boekingen in het jaar N+1. 
 
@@ -282,6 +279,8 @@ Voor lopende lijfrentecontracten kunnen ondernemingen evenwel als volgt blijven 
 				(bestedingen en terugnemingen (-)) | | 11.558,35 |
 
 De aanpassing van de voorziening ten belope van 11.558,35 euro om rekening te houden met de relatieve verlenging van de gemiddelde levensverwachting van de rechthebbende, wordt als volgt verantwoord:
+
+### 
 
 - Nodige kapitaal bij het begin van periode N: 487.573,20 
 

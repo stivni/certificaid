@@ -1,68 +1,68 @@
 ---
-nummer: CBN-advies 2013/14
-datum: 2013-10-23
-themas:
-  - gerealiseerde meerwaarde
-  - kapitaalsubsidie
-  - uitgestelde belastingen
 bron: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-uitgestelde-belastingen-bij-gerealiseerde-meerwaarden
+datum: 2013-10-23
+gerelateerde_adviezen:
+  - datum: '2016-09-28'
+    titel: Actualisatie van uitgestelde belastingen (update)
+    url: https://www.cbn-cnc.be/nl/adviezen/actualisatie-van-uitgestelde-belastingen-update
+  - datum: '2013-10-23'
+    titel: De boekhoudkundige verwerking van de uitgestelde belastingen bij gerealiseerde meerwaarden waarvoor de uitgestelde-belastingregeling geldt en bij kapitaalsubsidies
+    url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-uitgestelde-belastingen-bij-gerealiseerde-0
+  - datum: '1992-02-01'
+    titel: Gerealiseerde meerwaarden waarvoor de uitgestelde-belastingregeling geldt. Kapitaalsubsidies
+    url: https://www.cbn-cnc.be/nl/adviezen/gerealiseerde-meerwaarden-waarvoor-de-uitgestelde-belastingregeling-geldt
+  - datum: '1979-05-01'
+    titel: Herwaarderingen verricht met toepassing van de Wet van 20 augustus 1947
+    url: https://www.cbn-cnc.be/nl/adviezen/herwaarderingen-verricht-met-toepassing-van-de-wet-van-20-augustus-1947
+nummer: CBN-advies 2013/14
 provenance:
+  generated_at: '2026-05-11T13:05:08Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-uitgestelde-belastingen-bij-gerealiseerde-meerwaarden
       sha256: 1797f2099973db21019f401c77a91e8d1096ae56217d8dc0e573e7ac01d20547
       version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:36:42Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
   trust:
-    status: needs-rework
     confirmed_at: '2026-05-11T12:16:34Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "A3/A7: regels 58–87 bevatten een genummerde TOC-lijst gevolgd door een scrambled-text versie van dezelfde TOC als aaneengeregen string ('-- Gegevens-- Boekingschema----...'). Dit is een duidelijk extractie-artefact: de inhoudsopgave van het originele PDF is tweemaal in de body terechtgekomen, waarvan één keer als onleesbare aaneengesloten string. Verder is het advies inhoudelijk volledig met correcte tabellen en footnotes."
     layer1:
       status: pass
-      run_id: 20260511-083333
-      run_at:
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:28Z'
       heading_count: 21
-      max_section_chars: 16341
-      file_size_chars: 23636
+      max_section_chars: 15877
+      file_size_chars: 23172
       flags: []
     layer2:
-      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:16:34Z'
-      rationale: "A3/A7: regels 58–87 bevatten een genummerde TOC-lijst gevolgd door een scrambled-text versie van dezelfde TOC als aaneengeregen string ('-- Gegevens-- Boekingschema----...'). Dit is een duidelijk extractie-artefact: de inhoudsopgave van het originele PDF is tweemaal in de body terechtgekomen, waarvan één keer als onleesbare aaneengesloten string. Verder is het advies inhoudelijk volledig met correcte tabellen en footnotes."
       concrete_problemen:
-        - regel: 58
-          categorie: A3
+        - categorie: A3
+          regel: 58
           type: other
           voorbeeld: 1. Inleiding \n2. Boekhoudkundige verwerking...\n3. Voorbeeld (TOC-fragment in body)
-        - regel: 86
-          categorie: A7
+        - categorie: A7
+          regel: 86
           type: scrambled-words
           voorbeeld: -- Gegevens-- Boekingschema---- Jaar 20X1------ Meerwaarde op materieel vast actief...
-        - regel: 87
-          categorie: A7
+        - categorie: A7
+          regel: 87
           type: scrambled-words
           voorbeeld: '---- Jaar 20X2------ Balans op 31 december 20X2-------- In geval van een meerwaarde...'
-gerelateerde_adviezen:
-  - titel: Actualisatie van uitgestelde belastingen (update)
-    url: https://www.cbn-cnc.be/nl/adviezen/actualisatie-van-uitgestelde-belastingen-update
-    datum: '2016-09-28'
-  - titel: De boekhoudkundige verwerking van de uitgestelde belastingen bij gerealiseerde meerwaarden waarvoor de uitgestelde-belastingregeling geldt en bij kapitaalsubsidies
-    url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-uitgestelde-belastingen-bij-gerealiseerde-0
-    datum: '2013-10-23'
-  - titel: Gerealiseerde meerwaarden waarvoor de uitgestelde-belastingregeling geldt. Kapitaalsubsidies
-    url: https://www.cbn-cnc.be/nl/adviezen/gerealiseerde-meerwaarden-waarvoor-de-uitgestelde-belastingregeling-geldt
-    datum: '1992-02-01'
-  - titel: Herwaarderingen verricht met toepassing van de Wet van 20 augustus 1947
-    url: https://www.cbn-cnc.be/nl/adviezen/herwaarderingen-verricht-met-toepassing-van-de-wet-van-20-augustus-1947
-    datum: '1979-05-01'
+      rationale: 'A3/A7: regels 58–87 bevatten een genummerde TOC-lijst gevolgd door een scrambled-text versie van dezelfde TOC als aaneengeregen string (''-- Gegevens-- Boekingschema----...''). Dit is een duidelijk extractie-artefact: de inhoudsopgave van het originele PDF is tweemaal in de body terechtgekomen, waarvan één keer als onleesbare aaneengesloten string. Verder is het advies inhoudelijk volledig met correcte tabellen en footnotes.'
+      run_at: '2026-05-11T12:16:34Z'
+      status: needs-rework
+    rationale: 'A3/A7: regels 58–87 bevatten een genummerde TOC-lijst gevolgd door een scrambled-text versie van dezelfde TOC als aaneengeregen string (''-- Gegevens-- Boekingschema----...''). Dit is een duidelijk extractie-artefact: de inhoudsopgave van het originele PDF is tweemaal in de body terechtgekomen, waarvan één keer als onleesbare aaneengesloten string. Verder is het advies inhoudelijk volledig met correcte tabellen en footnotes.'
+    status: needs-rework
+themas:
+  - gerealiseerde meerwaarde
+  - kapitaalsubsidie
+  - uitgestelde belastingen
 ---
 
 # CBN-advies 2013/14 – De boekhoudkundige verwerking van de uitgestelde belastingen bij gerealiseerde meerwaarden waarvoor de uitgestelde belastingregeling geldt en bij kapitaalsubsidies
@@ -95,14 +95,10 @@ gerelateerde_adviezen:
 
     3. Jaar 20X4 
 
--- Gegevens-- Boekingschema---- Jaar 20X1------ Meerwaarde op materieel vast actief------ Kapitaalsubsidie------ Balans op 31 december 20X1-------- In geval van een meerwaarde-------- In geval van een kapitaalsubsidie------ Resultatenrekening op 31 december 20X1
- ---- Jaar 20X2------ Balans op 31 december 20X2-------- In geval van een meerwaarde-------- In geval van een kapitaalsubsidie------ Resultatenrekening op 31 december 20X2---- Jaar 20X4 
-
 ## Inleiding
 
 In het Wetboek van de inkomstenbelastingen 1992 (hierna: WIB 92) heeft de wetgever voorzien in de mogelijkheid voor ondernemingen om de door hen gerealiseerde meerwaarden op materiële en immateriële vaste activa gespreid te laten belasten.[^1]
- Op voorwaarde dat het bij de realisatie verkregen bedrag opnieuw wordt geïnvesteerd[^2]
- en dat de meerwaarde in het vermogen van de onderneming blijft behouden, mogen de ondernemingen de belasting op de meerwaarde gelijkmatig spreiden volgens het ritme van de fiscaal in aanmerking genomen afschrijvingen van de verworven vaste activa.
+ Op voorwaarde dat het bij de realisatie verkregen bedrag opnieuw wordt geïnvesteerd[^2] en dat de meerwaarde in het vermogen van de onderneming blijft behouden, mogen de ondernemingen de belasting op de meerwaarde gelijkmatig spreiden volgens het ritme van de fiscaal in aanmerking genomen afschrijvingen van de verworven vaste activa.
 
 Wanneer een onderneming bijgevolg opteert voor de regeling van de uitgestelde belasting, zal deze belasting op de meerwaarde die tijdens een bepaald boekjaar werd verkregen grotendeels of zelfs volledig ten laste komen van de latere boekjaren. Het vermogen van deze ondernemingen zal dan ook worden bezwaard met een belastingschuld die, hoewel geen onmiddellijk vaststaande noch liquide schuld, zal komen vast te staan in de loop van de volgende jaren tenzij er externe factoren bestaan of optreden zoals fiscale verliezen.[^3] 
 
@@ -112,22 +108,19 @@ Vermits ook voor kapitaalsubsidies voor afschrijfbare vaste activa een analoge f
 
 Naar aanleiding van de publicatie van voornoemd koninklijk besluit van 30 december 1991 heeft de Commissie in februari 1992 haar advies 165/1 - Gerealiseerde meerwaarden waarvoor de uitgestelde belastingregeling geldt. Kapitaalsubsidies[^5], gepubliceerd waarin de boekhoudkundige verwerking van deze nieuwe balanspost van de *Uitgestelde belastingen* werd verduidelijkt aan de hand van een door de Centrale Raad voor Bedrijfsleven uitgewerkt voorbeeld. 
 
-Onderhavig advies van de Commissie vervangt voornoemd advies 165/1. Het uitgewerkte voorbeeld blijft in dit advies behouden in een geactualiseerde vorm. Bovendien bespreekt de Commissie in onderhavig advies op meer uitvoerige wijze de boekhoudkundige verwerking van de balanspost van de *Uitgestelde belastingen*, en dit hoofdzakelijk op grond van artikel 76 van het koninklijk besluit van 30 januari 2001 tot uitvoering van het Wetboek van Vennootschappen (KB W.Venn.)[^6]
- en het Verslag aan de Koning bij het hierboven vermelde koninklijk besluit van 30 december 1991.
+Onderhavig advies van de Commissie vervangt voornoemd advies 165/1. Het uitgewerkte voorbeeld blijft in dit advies behouden in een geactualiseerde vorm. Bovendien bespreekt de Commissie in onderhavig advies op meer uitvoerige wijze de boekhoudkundige verwerking van de balanspost van de *Uitgestelde belastingen*, en dit hoofdzakelijk op grond van artikel 76 van het koninklijk besluit van 30 januari 2001 tot uitvoering van het Wetboek van Vennootschappen (KB W.Venn.)[^6] en het Verslag aan de Koning bij het hierboven vermelde koninklijk besluit van 30 december 1991.
 
 ## Boekhoudkundige verwerking van de uitgestelde belastingen
 
 ### Initiële waardering van de uitgestelde belastingen
 
-Artikel 76, § 1 KB W.Venn. bepaalt dat de uitgestelde belastingen op kapitaalsubsidies en gerealiseerde meerwaarden oorspronkelijk worden gewaardeerd tegen het normale bedrag van de belasting die erop zou zijn geheven indien die subsidies en meerwaarden zouden zijn belast ten laste van het boekjaar waarin zij werden geboekt. Zij worden evenwel gewaardeerd na aftrek van de weerslag van de belastingverminderingen en vrijstellingen waarvan op het ogenblik dat deze subsidies en meerwaarden worden geboekt kan worden vermoed dat zij, in een nabije toekomst, zullen leiden tot een lagere belasting op deze subsidies en meerwaarden. Wanneer de kapitaalsubsidie definitief van belasting wordt vrijgesteld,[^7]
- worden er geen uitgestelde belastingen op het passief van de balans weerhouden.
+Artikel 76, § 1 KB W.Venn. bepaalt dat de uitgestelde belastingen op kapitaalsubsidies en gerealiseerde meerwaarden oorspronkelijk worden gewaardeerd tegen het normale bedrag van de belasting die erop zou zijn geheven indien die subsidies en meerwaarden zouden zijn belast ten laste van het boekjaar waarin zij werden geboekt. Zij worden evenwel gewaardeerd na aftrek van de weerslag van de belastingverminderingen en vrijstellingen waarvan op het ogenblik dat deze subsidies en meerwaarden worden geboekt kan worden vermoed dat zij, in een nabije toekomst, zullen leiden tot een lagere belasting op deze subsidies en meerwaarden. Wanneer de kapitaalsubsidie definitief van belasting wordt vrijgesteld,[^7] worden er geen uitgestelde belastingen op het passief van de balans weerhouden.
 
 Uit het Verslag aan de Koning bij het koninklijk besluit van 30 december 1991 blijkt dat de regering met artikel 76, § 1 KB W.Venn. heeft proberen te vermijden dat er in de praktijk moeilijke problemen zouden ontstaan met betrekking tot de waardering van de uitgestelde belastingen, vooral wanneer de effectieve belasting op de ontvangen kapitaalsubsidies of de gerealiseerde meerwaarden over een bijzonder lange periode zou worden gespreid. 
 
 Om deze moeilijkheden op te vangen of te vermijden, heeft de regering er destijds voor geopteerd om als basismethode voor te schrijven dat de initiële waardering van de uitgestelde belastingen, dit is met andere woorden de waardering op het ogenblik waarop de subsidie of de gerealiseerde meerwaarde wordt geboekt, dient te gebeuren tegen het normale bedrag van de belasting die op de subsidie of de meerwaarde zou zijn geheven, mocht die niet zijn uitgesteld (zie ook artikel 76, § 1, eerste zin KB W.Venn.).[^8] 
 
-In de tweede zin van artikel 76, § 1 KB W.Venn. heeft de regering echter een correctie aangebracht op deze basismethode om rekening te houden met de vermoedelijke effectieve belasting op de ontvangen kapitaalsubsidie of de gerealiseerde meerwaarden. Wanneer op het ogenblik dat deze subsidies en meerwaarden worden geboekt, kan worden vermoed dat de effectieve belasting in een nabije toekomst lager zal zijn als gevolg van een belastingvermindering of -vrijstelling (zoals aftrekbare, overgedragen verliezen, aftrek voor risicokapitaal, …) dan moet de uitgestelde belasting worden gewaardeerd na aftrek van de weerslag van deze belastingverminderingen of -vrijstellingen. Het verslag aan de Koning bij het KB van 30 december 1991 vermeldt nog dat dergelijke correctie in de waardering van de uitgestelde belastingen maar hoeft te worden doorgevoerd voor betekenisvolle bedragen, met andere woorden, wanneer het bedrag aan passiefzijde voor uitgestelde belastingen misleidend zou kunnen zijn, mocht het niet worden gecorrigeerd. Het Verslag aan de Koning vermeldt ten slotte ook nog dat de effectieve geraamde belasting slechts met naleving van het voorzichtigheidsbeginsel tegen een geringer bedrag in resultaat[^9]
- mag worden genomen.[^10] 
+In de tweede zin van artikel 76, § 1 KB W.Venn. heeft de regering echter een correctie aangebracht op deze basismethode om rekening te houden met de vermoedelijke effectieve belasting op de ontvangen kapitaalsubsidie of de gerealiseerde meerwaarden. Wanneer op het ogenblik dat deze subsidies en meerwaarden worden geboekt, kan worden vermoed dat de effectieve belasting in een nabije toekomst lager zal zijn als gevolg van een belastingvermindering of -vrijstelling (zoals aftrekbare, overgedragen verliezen, aftrek voor risicokapitaal, …) dan moet de uitgestelde belasting worden gewaardeerd na aftrek van de weerslag van deze belastingverminderingen of -vrijstellingen. Het verslag aan de Koning bij het KB van 30 december 1991 vermeldt nog dat dergelijke correctie in de waardering van de uitgestelde belastingen maar hoeft te worden doorgevoerd voor betekenisvolle bedragen, met andere woorden, wanneer het bedrag aan passiefzijde voor uitgestelde belastingen misleidend zou kunnen zijn, mocht het niet worden gecorrigeerd. Het Verslag aan de Koning vermeldt ten slotte ook nog dat de effectieve geraamde belasting slechts met naleving van het voorzichtigheidsbeginsel tegen een geringer bedrag in resultaat[^9] mag worden genomen.[^10] 
 
 ### Geleidelijke inresultaatname van de uitgestelde belastingen
 
@@ -143,8 +136,7 @@ Artikel 76, § 3 KB W.Venn. voorziet ten slotte in de mogelijkheid voor de onder
 
 Het Verslag aan de Koning bij het KB van 30 december 1991 verduidelijkt nog dat de latere aanpassingen van het bedrag van de uitgestelde belastingen op de kapitaalsubsidies rechtstreeks aan de post *Kapitaalsubsidies* zullen worden toegerekend, en dat de latere aanpassingen van het bedrag van de uitgestelde belastingen op gerealiseerde meerwaarden rechtstreeks aan de post *Belastingvrije reserves* zullen worden toegerekend.
 
-Ook voor deze latere aanpassingen aan het bedrag van de uitgestelde belastingen geldt dat deze aanpassingen slechts hoeven te worden doorgevoerd voor betekenisvolle bedragen, met andere woorden, wanneer het bedrag aan passiefzijde voor uitgestelde belastingen misleidend zou kunnen zijn, mocht het niet worden gecorrigeerd. Eveneens geldt ook voor deze latere aanpassingen dat een effectieve geraamde belasting slechts met naleving van het voorzichtigheidsbeginsel tegen een geringer bedrag in resultaat[^12]
- mag worden genomen.[^13] 
+Ook voor deze latere aanpassingen aan het bedrag van de uitgestelde belastingen geldt dat deze aanpassingen slechts hoeven te worden doorgevoerd voor betekenisvolle bedragen, met andere woorden, wanneer het bedrag aan passiefzijde voor uitgestelde belastingen misleidend zou kunnen zijn, mocht het niet worden gecorrigeerd. Eveneens geldt ook voor deze latere aanpassingen dat een effectieve geraamde belasting slechts met naleving van het voorzichtigheidsbeginsel tegen een geringer bedrag in resultaat[^12] mag worden genomen.[^13] 
 
 ## Voorbeeld[^14] 
 
@@ -163,8 +155,6 @@ In 20X4 wordt het belastingtarief door de wetgever verlaagd naar 29 % per 1 janu
 ##### Meerwaarde op materieel vast actief
 
 Realisatie van de meerwaarde op 1 februari 20X1:
-
- [^16]
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|

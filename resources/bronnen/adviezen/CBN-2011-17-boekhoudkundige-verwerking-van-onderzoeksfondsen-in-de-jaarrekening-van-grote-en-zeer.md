@@ -1,6 +1,64 @@
 ---
-nummer: CBN-advies 2011/17
+bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-onderzoeksfondsen-in-de-jaarrekening-van-grote-en-zeer
 datum: 2011-07-20
+gerelateerde_adviezen:
+  - datum: '2019-04-12'
+    titel: Gevolgen op gebied van financiële rapportering als gevolg van de brexit
+    url: https://www.cbn-cnc.be/nl/adviezen/gevolgen-op-gebied-van-financiele-rapportering-als-gevolg-van-de-brexit-0
+  - datum: '2016-09-07'
+    titel: 'Bestellingen in uitvoering: wijzigingen door het koninklijk besluit van 18 december 2015'
+    url: https://www.cbn-cnc.be/nl/adviezen/bestellingen-in-uitvoering-wijzigingen-door-het-koninklijk-besluit-van-18-december-2015
+  - datum: '2015-09-30'
+    titel: Boekhoudkundige verwerking van de aankoop van een onroerend goed bestemd voor verkoop
+    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-aankoop-van-een-onroerend-goed-bestemd-voor-verkoop
+  - datum: '2012-10-10'
+    titel: Bestellingen in uitvoering
+    url: https://www.cbn-cnc.be/nl/adviezen/bestellingen-in-uitvoering
+nummer: CBN-advies 2011/17
+provenance:
+  generated_at: '2026-05-11T13:05:08Z'
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-onderzoeksfondsen-in-de-jaarrekening-van-grote-en-zeer
+      sha256: b28435f5f77a0ad5b6b19eb05ff737fafd55d49bf2953afc6c1b8ffb6e617a0f
+      version:
+  stale: false
+  stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
+  trust:
+    confirmed_at: '2026-05-11T12:09:18Z'
+    confirmed_by: subagent-sonnet-4-6
+    layer1:
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:28Z'
+      heading_count: 7
+      max_section_chars: 5056
+      file_size_chars: 18931
+      flags: []
+    layer2:
+      agent: subagent-sonnet-4-6
+      concrete_problemen:
+        - categorie: D3
+          regel: 92
+          type: other
+          voorbeeld: '[^3]'
+        - categorie: D3
+          regel: 119
+          type: other
+          voorbeeld: '[^4]'
+        - categorie: E2
+          regel: 224
+          type: pseudo-table
+          voorbeeld: '| | 6620 | Voorzieningen voor uitzonderlijke risico''s | | |\n| | en kosten | 100.000 | | |'
+      rationale: 'D3: acht orphaned `[^N]`-markers (regels 92, 119, 146, 162, 178, 194, 211, 220) staan als losse regels tussen tabel-introductie en de bijbehorende tabel — callouts zonder ankerzin. C/E: in tabel op regels 224–228 en 244–248 lopen rij-labels over meerdere regels buiten de tabelcellen (`6620`, `en kosten`, `met terugnemingsrecht`), wat tabelstructuur breekt.'
+      run_at: '2026-05-11T12:09:18Z'
+      status: needs-rework
+    rationale: 'D3: acht orphaned `[^N]`-markers (regels 92, 119, 146, 162, 178, 194, 211, 220) staan als losse regels tussen tabel-introductie en de bijbehorende tabel — callouts zonder ankerzin. C/E: in tabel op regels 224–228 en 244–248 lopen rij-labels over meerdere regels buiten de tabelcellen (`6620`, `en kosten`, `met terugnemingsrecht`), wat tabelstructuur breekt.'
+    status: needs-rework
 themas:
   - bestellingen in uitvoering
   - completed contract method
@@ -10,64 +68,6 @@ themas:
   - ontvangen vooruitbetalingen op bestellingen
   - over te dragen opbrengsten
   - percentage of completion method
-bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-onderzoeksfondsen-in-de-jaarrekening-van-grote-en-zeer
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-onderzoeksfondsen-in-de-jaarrekening-van-grote-en-zeer
-      sha256: b28435f5f77a0ad5b6b19eb05ff737fafd55d49bf2953afc6c1b8ffb6e617a0f
-      version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:36:15Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T12:09:18Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: 'D3: acht orphaned `[^N]`-markers (regels 92, 119, 146, 162, 178, 194, 211, 220) staan als losse regels tussen tabel-introductie en de bijbehorende tabel — callouts zonder ankerzin. C/E: in tabel op regels 224–228 en 244–248 lopen rij-labels over meerdere regels buiten de tabelcellen (`6620`, `en kosten`, `met terugnemingsrecht`), wat tabelstructuur breekt.'
-    layer1:
-      status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 7
-      max_section_chars: 5093
-      file_size_chars: 18981
-      flags: []
-    layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:09:18Z'
-      rationale: 'D3: acht orphaned `[^N]`-markers (regels 92, 119, 146, 162, 178, 194, 211, 220) staan als losse regels tussen tabel-introductie en de bijbehorende tabel — callouts zonder ankerzin. C/E: in tabel op regels 224–228 en 244–248 lopen rij-labels over meerdere regels buiten de tabelcellen (`6620`, `en kosten`, `met terugnemingsrecht`), wat tabelstructuur breekt.'
-      concrete_problemen:
-        - regel: 92
-          categorie: D3
-          type: other
-          voorbeeld: '[^3]'
-        - regel: 119
-          categorie: D3
-          type: other
-          voorbeeld: '[^4]'
-        - regel: 224
-          categorie: E2
-          type: pseudo-table
-          voorbeeld: "| | 6620 | Voorzieningen voor uitzonderlijke risico's | | |\\n| | en kosten | 100.000 | | |"
-gerelateerde_adviezen:
-  - titel: Gevolgen op gebied van financiële rapportering als gevolg van de brexit
-    url: https://www.cbn-cnc.be/nl/adviezen/gevolgen-op-gebied-van-financiele-rapportering-als-gevolg-van-de-brexit-0
-    datum: '2019-04-12'
-  - titel: 'Bestellingen in uitvoering: wijzigingen door het koninklijk besluit van 18 december 2015'
-    url: https://www.cbn-cnc.be/nl/adviezen/bestellingen-in-uitvoering-wijzigingen-door-het-koninklijk-besluit-van-18-december-2015
-    datum: '2016-09-07'
-  - titel: Boekhoudkundige verwerking van de aankoop van een onroerend goed bestemd voor verkoop
-    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-aankoop-van-een-onroerend-goed-bestemd-voor-verkoop
-    datum: '2015-09-30'
-  - titel: Bestellingen in uitvoering
-    url: https://www.cbn-cnc.be/nl/adviezen/bestellingen-in-uitvoering
-    datum: '2012-10-10'
 ---
 
 # CBN-advies 2011/17 - Boekhoudkundige verwerking van “onderzoeksfondsen” in de jaarrekening van grote en zeer grote verenigingen en stichtingen
@@ -81,8 +81,7 @@ De boekhoudkundige verwerking van dergelijke onderzoeksfondsen is afhankelijk va
 
 ## Onderzoeksfondsen zonder exclusief gebruiksrecht
 
-Een eerste mogelijkheid is dat de toekennende instantie[^2]
- middelen ter beschikking stelt met het oog op het voeren van een onderzoek waarvan de resultaten vrij verspreid mogen worden. 
+Een eerste mogelijkheid is dat de toekennende instantie[^2] middelen ter beschikking stelt met het oog op het voeren van een onderzoek waarvan de resultaten vrij verspreid mogen worden. 
 
 De vereniging of stichting mag de gelden die zij ontvangt onmiddellijk in resultaat boeken als ‘exploitatiesubsidies’, maar dient in de toelichting wel te vermelden aan welke voorwaarden het behoud van deze subsidie gebonden is. 
 
@@ -100,8 +99,6 @@ Op 1 april van het jaar x ontvangt een vereniging 300.000 euro voor de uitvoerin
 | aan | 737 | Exploitatiesubsidies | | 300.000 |
 
 - Boeking op 31/12/x (de vereniging heeft in jaar x 225.000 euro kosten gemaakt in het kader van het onderzoek): 
-
-[^3]
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
@@ -128,8 +125,6 @@ Op 1 april van het jaar x ontvangt een vereniging 350.000 euro voor de uitvoerin
 
 - Boeking op 31/12/x (de vereniging heeft in jaar x 225.000 euro kosten gemaakt in het kader van het onderzoek en rekent 37.500 van het geschatte positieve resultaat toe aan het boekjaar): 
 
-[^4]
-
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 737 | Exploitatiesubsidies | 87.500 | |
@@ -155,8 +150,6 @@ Een vereniging krijgt op 1 juli van het jaar x een onderzoeksfonds van 500.000 e
 
 - Boeking op 31/12/x (we veronderstellen dat de vereniging in jaar x 50.000 euro kosten heeft gemaakt in het kader van het onderzoek): 
 
-[^5]
-
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 737 | Exploitatiesubsidies | 450.000 | |
@@ -170,8 +163,6 @@ Een vereniging krijgt op 1 juli van het jaar x een onderzoeksfonds van 500.000 e
 | aan | 737 | Exploitatiesubsidies | | 450.000 |
 
 - Boeking op 31/12/x+1 (we veronderstellen dat de vereniging in jaar x+1 100.000 euro kosten heeft gemaakt in het kader van het onderzoek): 
-
-[^6]
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
@@ -187,8 +178,6 @@ Een vereniging krijgt op 1 juli van het jaar x een onderzoeksfonds van 500.000 e
 
 - Boeking op 31/12/x+2 (we veronderstellen dat de vereniging in jaar x+2 100.000 euro kosten heeft gemaakt in het kader van het onderzoek): 
 
-[^7]
-
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 737 | Exploitatiesubsidies | 250.000 | |
@@ -202,8 +191,6 @@ Een vereniging krijgt op 1 juli van het jaar x een onderzoeksfonds van 500.000 e
 | aan | 737 | Exploitatiesubsidies | | 250.000 |
 
 - Boeking op 31/12/x+3 (we veronderstellen dat de vereniging in jaarx+3 100.000 euro kosten heeft gemaakt in het kader van het onderzoek): 
-
-[^8]
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
@@ -220,16 +207,12 @@ Een vereniging krijgt op 1 juli van het jaar x een onderzoeksfonds van 500.000 e
 - Boekingen op 31/12/x+4: 
 - Overdracht deel exploitatiesubsidies naar volgend boekjaar (we veronderstellen dat de vereniging in jaar x+4 100.000 euro kosten heeft gemaakt in het kader van het onderzoek): 
 
-[^9]
-
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 737 | Exploitatiesubsidies | 50.000 | |
 | aan | 493 | Over te dragen opbrengsten | | 50.000 |
 
 - Aanleg voorziening: 
-
-[^10]
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|

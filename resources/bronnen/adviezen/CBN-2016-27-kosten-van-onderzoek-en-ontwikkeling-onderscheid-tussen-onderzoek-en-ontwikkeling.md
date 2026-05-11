@@ -1,57 +1,57 @@
 ---
-nummer: CBN-advies 2016/27
-datum: 2016-12-14
-themas:
-  - immateriële vaste activa
-  - kosten van onderzoek en ontwikkeling
-  - onderzoekskost
-  - ontwikkelingskost
 bron: https://www.cbn-cnc.be/nl/adviezen/kosten-van-onderzoek-en-ontwikkeling-onderscheid-tussen-onderzoek-en-ontwikkeling
+datum: 2016-12-14
+gerelateerde_adviezen:
+  - datum: '2025-07-14'
+    titel: De boekhoudkundige verwerking van immateriële vaste activa (update) [ONTWERP]
+    url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-immateriele-vaste-activa-update-ontwerp
+  - datum: '2018-05-30'
+    titel: Tax shelter voor podiumkunsten
+    url: https://www.cbn-cnc.be/nl/adviezen/tax-shelter-voor-podiumkunsten
+  - datum: '2018-03-21'
+    titel: Aftrek voor innovatie-inkomsten
+    url: https://www.cbn-cnc.be/nl/adviezen/aftrek-voor-innovatie-inkomsten
+  - datum: '2016-09-07'
+    titel: 'Kosten van onderzoek en ontwikkeling: wijzigingen door het koninklijk besluit van 18 december 2015'
+    url: https://www.cbn-cnc.be/nl/adviezen/kosten-van-onderzoek-en-ontwikkeling-wijzigingen-door-het-koninklijk-besluit-van-18
+nummer: CBN-advies 2016/27
 provenance:
+  generated_at: '2026-05-11T13:05:08Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/kosten-van-onderzoek-en-ontwikkeling-onderscheid-tussen-onderzoek-en-ontwikkeling
       sha256: 1b50873b4577c325e2182ab7060fa5d90cf7a0099b0c48dd815d76dae81f2ecf
       version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:37:08Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
   trust:
-    status: trusted
     confirmed_at: '2026-05-11T12:16:34Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: 'Zeer kort advies (1144 chars) maar volledig en schoon. Twee ##-headings correct; geen voetnoten nodig; geen extractie-artefacten.'
     layer1:
       status: pass
-      run_id: 20260511-083333
-      run_at:
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:29Z'
       heading_count: 2
       max_section_chars: 754
       file_size_chars: 1144
       flags: []
     layer2:
-      status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:16:34Z'
-      rationale: 'Zeer kort advies (1144 chars) maar volledig en schoon. Twee ##-headings correct; geen voetnoten nodig; geen extractie-artefacten.'
       concrete_problemen: []
-gerelateerde_adviezen:
-  - titel: De boekhoudkundige verwerking van immateriële vaste activa (update) [ONTWERP]
-    url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-immateriele-vaste-activa-update-ontwerp
-    datum: '2025-07-14'
-  - titel: Tax shelter voor podiumkunsten
-    url: https://www.cbn-cnc.be/nl/adviezen/tax-shelter-voor-podiumkunsten
-    datum: '2018-05-30'
-  - titel: Aftrek voor innovatie-inkomsten
-    url: https://www.cbn-cnc.be/nl/adviezen/aftrek-voor-innovatie-inkomsten
-    datum: '2018-03-21'
-  - titel: 'Kosten van onderzoek en ontwikkeling: wijzigingen door het koninklijk besluit van 18 december 2015'
-    url: https://www.cbn-cnc.be/nl/adviezen/kosten-van-onderzoek-en-ontwikkeling-wijzigingen-door-het-koninklijk-besluit-van-18
-    datum: '2016-09-07'
+      rationale: 'Zeer kort advies (1144 chars) maar volledig en schoon. Twee ##-headings correct; geen voetnoten nodig; geen extractie-artefacten.'
+      run_at: '2026-05-11T12:16:34Z'
+      status: trusted
+    rationale: 'Zeer kort advies (1144 chars) maar volledig en schoon. Twee ##-headings correct; geen voetnoten nodig; geen extractie-artefacten.'
+    status: trusted
+themas:
+  - immateriële vaste activa
+  - kosten van onderzoek en ontwikkeling
+  - onderzoekskost
+  - ontwikkelingskost
 ---
 
 # CBN-advies 2016/27 – Kosten van onderzoek en ontwikkeling: onderscheid tussen onderzoek en ontwikkeling - verduidelijking

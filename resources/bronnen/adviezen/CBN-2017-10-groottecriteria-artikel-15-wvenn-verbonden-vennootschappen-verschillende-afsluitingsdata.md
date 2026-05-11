@@ -1,6 +1,46 @@
 ---
-nummer: CBN-advies 2017/10
+bron: https://www.cbn-cnc.be/nl/adviezen/groottecriteria-artikel-15-wvenn-verbonden-vennootschappen-verschillende-afsluitingsdata
 datum: 2017-04-19
+gerelateerde_adviezen:
+  - datum: '2022-12-21'
+    titel: 'Omzetting van een vennootschap: gevolgen voor de jaarrekening'
+    url: https://www.cbn-cnc.be/nl/adviezen/omzetting-van-een-vennootschap-gevolgen-voor-de-jaarrekening
+  - datum: '2018-05-09'
+    titel: Gebeurtenissen na afsluitingsdatum van het boekjaar
+    url: https://www.cbn-cnc.be/nl/adviezen/gebeurtenissen-na-afsluitingsdatum-van-het-boekjaar
+nummer: CBN-advies 2017/10
+provenance:
+  generated_at: '2026-05-11T13:05:08Z'
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/groottecriteria-artikel-15-wvenn-verbonden-vennootschappen-verschillende-afsluitingsdata
+      sha256: 8127dbd2686b09042a052daebefc4c2f3d9dbf73237678837d7436bd6e1c7fb4
+      version:
+  stale: false
+  stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
+  trust:
+    confirmed_at:
+    confirmed_by:
+    layer1:
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:29Z'
+      heading_count: 3
+      max_section_chars: 7249
+      file_size_chars: 10734
+      flags: []
+    layer2:
+      agent:
+      concrete_problemen: []
+      rationale:
+      run_at:
+      status: not_run
+    rationale: 'Trust gereset 2026-05-11: re-scrape met scraper-fixes, content-diff > 5%'
+    status: unreviewed
 themas:
   - afsluitdatum
   - artikel 15 W.Venn.
@@ -8,46 +48,6 @@ themas:
   - criteria
   - groottecriteria
   - verbonden onderneming
-bron: https://www.cbn-cnc.be/nl/adviezen/groottecriteria-artikel-15-wvenn-verbonden-vennootschappen-verschillende-afsluitingsdata
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/groottecriteria-artikel-15-wvenn-verbonden-vennootschappen-verschillende-afsluitingsdata
-      sha256: 8127dbd2686b09042a052daebefc4c2f3d9dbf73237678837d7436bd6e1c7fb4
-      version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:37:12Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: trusted
-    confirmed_at: '2026-05-11T12:16:35Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: 'Geen significante artefacten gevonden. Structuur schoon (Algemeen / In aanmerking te nemen balansdata / Wijziging verbondenheid als ## headings). Voetnoten volledig. Bold-italic combinaties correct gesloten. Inhoud volledig.'
-    layer1:
-      status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 3
-      max_section_chars: 7248
-      file_size_chars: 10730
-      flags: []
-    layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:16:35Z'
-      rationale: 'Geen significante artefacten gevonden. Structuur schoon (Algemeen / In aanmerking te nemen balansdata / Wijziging verbondenheid als ## headings). Voetnoten volledig. Bold-italic combinaties correct gesloten. Inhoud volledig.'
-      concrete_problemen: []
-gerelateerde_adviezen:
-  - titel: 'Omzetting van een vennootschap: gevolgen voor de jaarrekening'
-    url: https://www.cbn-cnc.be/nl/adviezen/omzetting-van-een-vennootschap-gevolgen-voor-de-jaarrekening
-    datum: '2022-12-21'
-  - titel: Gebeurtenissen na afsluitingsdatum van het boekjaar
-    url: https://www.cbn-cnc.be/nl/adviezen/gebeurtenissen-na-afsluitingsdatum-van-het-boekjaar
-    datum: '2018-05-09'
 ---
 
 # CBN-advies 2017/10 – Groottecriteria artikel 15 W.Venn. – Verbonden vennootschappen – Verschillende afsluitingsdata - Wijziging van consolidatiekring
@@ -60,11 +60,14 @@ In het bijzonder wordt eerst toegelicht welke jaarrekeningen (balansdata) van de
 
 De Commissie brengt in herinnering dat ter bepaling van de geconsolideerde (of geaggregeerde) omzet geen proratering plaatsvindt in functie van de periode dat de vennootschap tot een groep behoort.[^2] 
 
-De beoordeling van de groottecriteria vindt plaats op de balansdatum van de vennootschap waarvan de grootte wordt vastgesteld.[^3] Als de vennootschap op deze balansdatum met één of meer andere vennootschappen verbonden is in de zin van artikel 11 W.Venn., worden de groottecriteria beoordeeld op geconsolideerde (of op geaggregeerde) basis.[^4] Dit geldt ongeacht wanneer de verbondenheid is ontstaan. De beoordeling op geconsolideerde (of op geaggregeerde) basis vindt evenwel uitsluitend plaats voor vennootschappen die op de balansdatum van het boekjaar waarvoor de groottecriteria onderzocht worden moedervennootschappen zijn.[^5] 
+De beoordeling van de groottecriteria vindt plaats op de balansdatum van de vennootschap waarvan de grootte wordt vastgesteld.[^3]
+ Als de vennootschap op deze balansdatum met één of meer andere vennootschappen verbonden is in de zin van artikel 11 W.Venn., worden de groottecriteria beoordeeld op geconsolideerde (of op geaggregeerde) basis.[^4]
+ Dit geldt ongeacht wanneer de verbondenheid is ontstaan. De beoordeling op geconsolideerde (of op geaggregeerde) basis vindt evenwel uitsluitend plaats voor vennootschappen die op de balansdatum van het boekjaar waarvoor de groottecriteria onderzocht worden moedervennootschappen zijn.[^5] 
 
 ## In aanmerking te nemen balansdata
 
-Wanneer de balansdata van de verbonden vennootschappen van elkaar verschillen, vindt de beoordeling van de groottecriteria plaats op basis van de laatst opgemaakte jaarrekeningen van de verbonden vennootschappen.[^6] Met de* laatst opgemaakte jaarrekening* kan uitsluitend worden bedoeld de *jaarrekening met betrekking tot het laatst afgesloten boekjaar*.
+Wanneer de balansdata van de verbonden vennootschappen van elkaar verschillen, vindt de beoordeling van de groottecriteria plaats op basis van de laatst opgemaakte jaarrekeningen van de verbonden vennootschappen.[^6]
+ Met de* laatst opgemaakte jaarrekening* kan uitsluitend worden bedoeld de *jaarrekening met betrekking tot het laatst afgesloten boekjaar*.
 
 ***Voorbeeld*** 
 
@@ -89,12 +92,13 @@ De beoordeling van de grootte van TOPCO op 31/03/N vindt plaats op basis van:
 
 De beoordeling van de grootte van MIDCO op 31/12/N vindt plaats op basis van:
 
-1. de geconsolideerde cijfers van TOPCO op **31/12/N[^7] ** (consolidatie TOPCO, MIDCO, SUBCO1, SUBCO2, SUBCO3, rekening houdend met de gegevens op 31/12/N voor elke vennootschap); of 
+1. de geconsolideerde cijfers van TOPCO op **31/12/N[^7]**  (consolidatie TOPCO, MIDCO, SUBCO1, SUBCO2, SUBCO3, rekening houdend met de gegevens op 31/12/N voor elke vennootschap); of 
 2. de geaggregeerde cijfers (+20%-methode) van TOPCO 31/03/N; MIDCO 31/12/N; SUBCO1 31/12/N; SUBCO2 30/11/N; SUBCO3 31/01/N. 
 
 ## Wijziging verbondenheid
 
-De beoordeling van de groottecriteria vindt voor moedervennootschappen plaats op geconsolideerde (of geaggregeerde) basis.[^8] De Commissie benadrukt dat voor de beoordeling van de grootte van een vennootschap de verbondenheid principieel moet worden beoordeeld op de balansdatum van het betreffende boekjaar. Indien een wijziging van de verbondenheid heeft plaatsgevonden tijdens het boekjaar, heeft dit aldus gevolgen voor de wijze waarop de groottecriteria voor deze vennootschap moeten worden beoordeeld voor dat boekjaar.
+De beoordeling van de groottecriteria vindt voor moedervennootschappen plaats op geconsolideerde (of geaggregeerde) basis.[^8]
+ De Commissie benadrukt dat voor de beoordeling van de grootte van een vennootschap de verbondenheid principieel moet worden beoordeeld op de balansdatum van het betreffende boekjaar. Indien een wijziging van de verbondenheid heeft plaatsgevonden tijdens het boekjaar, heeft dit aldus gevolgen voor de wijze waarop de groottecriteria voor deze vennootschap moeten worden beoordeeld voor dat boekjaar.
 
 Indien een vennootschap op balansdatum niet verbonden is, vindt de toetsing van de groottecriteria, ook voor de voorgaande jaren, plaats op enkelvoudige basis. Indien een vennootschap op balansdatum een moedervennootschap is, vindt de toetsing van de groottecriteria, ook voor de voorgaande jaren, plaats op geconsolideerde (of geaggregeerde) basis ongeacht of deze vennootschap zelf tijdens die voorgaande jaren een moedervennootschap is. Hierbij worden de geconsolideerde (of geaggregeerde) cijfers in aanmerking genomen van de vennootschappen waarmee deze vennootschap in de voorgaande jaren verbonden was.
 
@@ -112,7 +116,7 @@ Legende:
 
 Een microvennootschap A verwerft tijdens het boekjaar N een kleine vennootschap B. Op geconsolideerde basis overschrijden (A+B) in het boekjaar N meer dan één van de criteria van artikel 15, § 1 W.Venn.
 
-Vennootschap A is op 31/12/N een moedervennootschap. Bijgevolg kan de vennootschap A geen microvennootschap zijn tijdens het jaar N. De groottecriteria voor de vennootschap A moeten op geconsolideerde basis worden beoordeeld. Op 31/12/N-1 en 31/12/N-2 is de vennootschap A met geen enkele andere vennootschap verbonden en overschreed niet meer dan één van de criteria vermeld in artikel 15, § 1 W.Venn. Bijgevolg is de vennootschap A een kleine vennootschap tijdens het boekjaar N. Wanneer alle gegevens hetzelfde blijven wordt vennootschap A voor het eerst een *grote[^9] * vennootschap in boekjaar N+2.
+Vennootschap A is op 31/12/N een moedervennootschap. Bijgevolg kan de vennootschap A geen microvennootschap zijn tijdens het jaar N. De groottecriteria voor de vennootschap A moeten op geconsolideerde basis worden beoordeeld. Op 31/12/N-1 en 31/12/N-2 is de vennootschap A met geen enkele andere vennootschap verbonden en overschreed niet meer dan één van de criteria vermeld in artikel 15, § 1 W.Venn. Bijgevolg is de vennootschap A een kleine vennootschap tijdens het boekjaar N. Wanneer alle gegevens hetzelfde blijven wordt vennootschap A voor het eerst een *grote[^9]*  vennootschap in boekjaar N+2.
 
 **Voorbeeld 2: moedervennootschap A wordt een niet-verbonden vennootschap in N. Op geconsolideerde basis overschrijden (A + A1 + A2) zowel in N-2 als in N-1 de groottecriteria van artikel 15 W.Venn.**
 
@@ -122,7 +126,7 @@ Op 31/12/N is de vennootschap A geen moedervennootschap. Bijgevolg worden de gro
 
 **Voorbeeld 3: een dochtervennootschap A wordt een moedervennootschap in N. Op geconsolideerde basis overschrijden (A + X) op 31/12/N de groottecriteria van artikel 15 W.Venn. niet. Op 31/12/N-2 en 31/12/N-1 overschrijden (B + A) op geconsolideerde basis de groottecriteria van artikel 15 W.Venn. wel.**
 
-De vennootschap A is een verbonden vennootschap doch is geen moedervennootschap in N-2 en N-1. Tijdens het boekjaar N wordt de vennootschap A een moedervennootschap. De groottecriteria voor de vennootschap A moeten aldus op geconsolideerde basis worden beoordeeld. Op 31/12/N-1 en 31/12/N-2 is de vennootschap A verbonden met de vennootschap B[^12] en op geconsolideerde basis overschrijden de vennootschappen A en B meer dan één van de criteria vermeld in artikel 15, § 1 W.Venn. Bijgevolg is de vennootschap A een *grote[^13] * vennootschap tijdens het boekjaar N. Wanneer alle gegevens hetzelfde blijven, wordt vennootschap A voor het eerst een kleine vennootschap in boekjaar N+2. 
+De vennootschap A is een verbonden vennootschap doch is geen moedervennootschap in N-2 en N-1. Tijdens het boekjaar N wordt de vennootschap A een moedervennootschap. De groottecriteria voor de vennootschap A moeten aldus op geconsolideerde basis worden beoordeeld. Op 31/12/N-1 en 31/12/N-2 is de vennootschap A verbonden met de vennootschap B[^12] en op geconsolideerde basis overschrijden de vennootschappen A en B meer dan één van de criteria vermeld in artikel 15, § 1 W.Venn. Bijgevolg is de vennootschap A een *grote[^13]*  vennootschap tijdens het boekjaar N. Wanneer alle gegevens hetzelfde blijven, wordt vennootschap A voor het eerst een kleine vennootschap in boekjaar N+2. 
 
 [^1]: Onderhavig advies is tot stand gekomen nadat een ontwerp van het advies op 28 februari 2017 ter consultatie werd gepubliceerd op de website van de CBN.
 

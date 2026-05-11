@@ -1,6 +1,61 @@
 ---
-nummer: CBN-advies 2016/11
+bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-cross-currency-swap
 datum: 2016-07-06
+gerelateerde_adviezen:
+  - datum: '2017-05-31'
+    titel: Opname van financiële vaste activa geboekt tegen een hoger bedrag dan hun reële waarde in de toelichting van de jaarrekening
+    url: https://www.cbn-cnc.be/nl/adviezen/opname-van-financiele-vaste-activa-geboekt-tegen-een-hoger-bedrag-dan-hun-reele-waarde-in
+  - datum: '2013-11-27'
+    titel: Toelichting omtrent het niet-gebruik van de waarderingsgregels op basis van de waarde in het economisch verkeer voor de financiële instrumenten
+    url: https://www.cbn-cnc.be/nl/adviezen/toelichting-omtrent-het-niet-gebruik-van-de-waarderingsgregels-op-basis-van-de-waarde-in
+  - datum: '2010-09-08'
+    titel: De toepassing van de algemene boekhoudprincipes op afgeleide financiële instrumenten
+    url: https://www.cbn-cnc.be/nl/adviezen/de-toepassing-van-de-algemene-boekhoudprincipes-op-afgeleide-financiele-instrumenten
+nummer: CBN-advies 2016/11
+provenance:
+  generated_at: '2026-05-11T13:05:08Z'
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-cross-currency-swap
+      sha256: 45282a2c7d1f6bcf5611098b6a097f274c6b2775b2ffb4aa47162f5f96ad7dec
+      version:
+  stale: false
+  stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
+  trust:
+    confirmed_at: '2026-05-11T12:16:34Z'
+    confirmed_by: subagent-sonnet-4-6
+    layer1:
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:29Z'
+      heading_count: 11
+      max_section_chars: 10031
+      file_size_chars: 24694
+      flags: []
+    layer2:
+      agent: subagent-sonnet-4-6
+      concrete_problemen:
+        - categorie: A3
+          regel: 81
+          type: other
+          voorbeeld: '----Fixed-to-fixed cross currency swap----Fixed-to-floating cross currency swap----De floating-to-floating cross currency swap...'
+        - categorie: G3
+          regel: 227
+          type: other
+          voorbeeld: ' [^14]'
+        - categorie: D4
+          regel: 342
+          type: other
+          voorbeeld: '*Op vervaldag 31 december 2015 *'
+      rationale: 'Drie duidelijke problemen: (1) Regel 81: een aaneengeregen TOC-fragment (''----Fixed-to-fixed cross currency swap----Fixed-to-floating...'') dat verdubbeld is in de body direct na de gestructureerde inhoudstafel (regels 64–80) — klassiek TOC-duplicaat (A3). (2) Regels 227, 241, 248, 256, 307, 330, 352 bevatten telkens een losstaande voetnootverwijzing als alleenstaande alinea ('' [^14]'', '' [^15]'', etc.) zonder omringende zin — inline footnote-artefact (G3/D3). (3) Regel 342: '' *Op vervaldag 31 december 2015 *'' heeft een trailing spatie voor de afsluitende asterisk — malformed italic (D4). Inhoud is verder volledig en tabellen correct.'
+      run_at: '2026-05-11T12:16:34Z'
+      status: needs-rework
+    rationale: 'Drie duidelijke problemen: (1) Regel 81: een aaneengeregen TOC-fragment (''----Fixed-to-fixed cross currency swap----Fixed-to-floating...'') dat verdubbeld is in de body direct na de gestructureerde inhoudstafel (regels 64–80) — klassiek TOC-duplicaat (A3). (2) Regels 227, 241, 248, 256, 307, 330, 352 bevatten telkens een losstaande voetnootverwijzing als alleenstaande alinea ('' [^14]'', '' [^15]'', etc.) zonder omringende zin — inline footnote-artefact (G3/D3). (3) Regel 342: '' *Op vervaldag 31 december 2015 *'' heeft een trailing spatie voor de afsluitende asterisk — malformed italic (D4). Inhoud is verder volledig en tabellen correct.'
+    status: needs-rework
 themas:
   - afgeleide financiële instrumenten
   - cross currency swap
@@ -14,61 +69,6 @@ themas:
   - valutaswap
   - vreemde valuta
   - wisselrisico
-bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-cross-currency-swap
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-cross-currency-swap
-      sha256: 45282a2c7d1f6bcf5611098b6a097f274c6b2775b2ffb4aa47162f5f96ad7dec
-      version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:36:58Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T12:16:34Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "Drie duidelijke problemen: (1) Regel 81: een aaneengeregen TOC-fragment ('----Fixed-to-fixed cross currency swap----Fixed-to-floating...') dat verdubbeld is in de body direct na de gestructureerde inhoudstafel (regels 64–80) — klassiek TOC-duplicaat (A3). (2) Regels 227, 241, 248, 256, 307, 330, 352 bevatten telkens een losstaande voetnootverwijzing als alleenstaande alinea (' [^14]', ' [^15]', etc.) zonder omringende zin — inline footnote-artefact (G3/D3). (3) Regel 342: ' *Op vervaldag 31 december 2015 *' heeft een trailing spatie voor de afsluitende asterisk — malformed italic (D4). Inhoud is verder volledig en tabellen correct."
-    layer1:
-      status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 13
-      max_section_chars: 10089
-      file_size_chars: 24759
-      flags: []
-    layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:16:34Z'
-      rationale: "Drie duidelijke problemen: (1) Regel 81: een aaneengeregen TOC-fragment ('----Fixed-to-fixed cross currency swap----Fixed-to-floating...') dat verdubbeld is in de body direct na de gestructureerde inhoudstafel (regels 64–80) — klassiek TOC-duplicaat (A3). (2) Regels 227, 241, 248, 256, 307, 330, 352 bevatten telkens een losstaande voetnootverwijzing als alleenstaande alinea (' [^14]', ' [^15]', etc.) zonder omringende zin — inline footnote-artefact (G3/D3). (3) Regel 342: ' *Op vervaldag 31 december 2015 *' heeft een trailing spatie voor de afsluitende asterisk — malformed italic (D4). Inhoud is verder volledig en tabellen correct."
-      concrete_problemen:
-        - regel: 81
-          categorie: A3
-          type: other
-          voorbeeld: '----Fixed-to-fixed cross currency swap----Fixed-to-floating cross currency swap----De floating-to-floating cross currency swap...'
-        - regel: 227
-          categorie: G3
-          type: other
-          voorbeeld: ' [^14]'
-        - regel: 342
-          categorie: D4
-          type: other
-          voorbeeld: '*Op vervaldag 31 december 2015 *'
-gerelateerde_adviezen:
-  - titel: Opname van financiële vaste activa geboekt tegen een hoger bedrag dan hun reële waarde in de toelichting van de jaarrekening
-    url: https://www.cbn-cnc.be/nl/adviezen/opname-van-financiele-vaste-activa-geboekt-tegen-een-hoger-bedrag-dan-hun-reele-waarde-in
-    datum: '2017-05-31'
-  - titel: Toelichting omtrent het niet-gebruik van de waarderingsgregels op basis van de waarde in het economisch verkeer voor de financiële instrumenten
-    url: https://www.cbn-cnc.be/nl/adviezen/toelichting-omtrent-het-niet-gebruik-van-de-waarderingsgregels-op-basis-van-de-waarde-in
-    datum: '2013-11-27'
-  - titel: De toepassing van de algemene boekhoudprincipes op afgeleide financiële instrumenten
-    url: https://www.cbn-cnc.be/nl/adviezen/de-toepassing-van-de-algemene-boekhoudprincipes-op-afgeleide-financiele-instrumenten
-    datum: '2010-09-08'
 ---
 
 # CBN-advies 2016/11 - Boekhoudkundige verwerking van de cross currency swap
@@ -145,7 +145,8 @@ Vennootschap A en B besluiten de cross currency swap aan te gaan aan volgende re
 
 De eerste stap van de cross currency swap is de uitwisseling van de hoofdsommen:
 
-De wisselkoers is gewoonlijk gebaseerd op de koers van de contantmarkt, hoewel in de praktijk ook de termijnkoers kan worden gebruikt die werd vastgelegd voor de uitwerking van de cross currency swap.[^8] Daarnaast kan de uitwisseling van de hoofdsom op een notionele basis plaatsvinden, net zoals bij de renteswap. De Commissie verwijst hiervoor naar CBN-advies 2011/18 - De boekhoudkundige verwerking van de renteswap (IRS)[^9].
+De wisselkoers is gewoonlijk gebaseerd op de koers van de contantmarkt, hoewel in de praktijk ook de termijnkoers kan worden gebruikt die werd vastgelegd voor de uitwerking van de cross currency swap.[^8]
+ Daarnaast kan de uitwisseling van de hoofdsom op een notionele basis plaatsvinden, net zoals bij de renteswap. De Commissie verwijst hiervoor naar CBN-advies 2011/18 - De boekhoudkundige verwerking van de renteswap (IRS)[^9].
 
 De volgende stap van de cross currency swap is de periodieke, in dit geval jaarlijkse, uitwisseling van het rentebestanddeel:
 
@@ -164,16 +165,16 @@ De boekhoudkundige verwerking van de resultaten van de cross currency swap zal v
 - indekkingsverrichtingen van toekomstige verrichtingen; en 
 - speculatieve verrichtingen. 
 
-In de praktijk wordt vastgesteld dat niet-bancaire ondernemingen cross currency swaps hoofdzakelijk aanwenden voor het indekken van monetaire balansposten die interestdragend zijn.[^12] Het hefboomeffect van valuataswaps is anderzijds dermate groot dat er slechts zelden gebruik wordt gemaakt van dergelijke instrumenten voor speculatieve doeleinden.[^13] Om die reden behandelt de Commissie in dit advies enkel de boekhoudkundige verwerking van specifieke en niet-specifieke indekkingsverrichtingen van monetaire activa en passiva.
+In de praktijk wordt vastgesteld dat niet-bancaire ondernemingen cross currency swaps hoofdzakelijk aanwenden voor het indekken van monetaire balansposten die interestdragend zijn.[^12]
+ Het hefboomeffect van valuataswaps is anderzijds dermate groot dat er slechts zelden gebruik wordt gemaakt van dergelijke instrumenten voor speculatieve doeleinden.[^13]
+ Om die reden behandelt de Commissie in dit advies enkel de boekhoudkundige verwerking van specifieke en niet-specifieke indekkingsverrichtingen van monetaire activa en passiva.
 
-### Cross currency swap voor specifieke indekkingsverrichting van monetaire activa en passiva
-
+Cross currency swap voor specifieke indekkingsverrichting van monetaire activa en passiva
 In advies 152/1, omschrijft de Commissie een specifieke indekkingsverrichting, ofwel een micro-indekking, als dekkingsverrichtingen die specifiek verbonden zijn aan bepaalde posten in deviezen. Ze dienen om de koers waartegen een bepaalde vordering of schuld in deviezen zal worden terugbetaald, definitief vast te leggen. In dit advies stelt de Commissie ook dat via specifieke dekkingsverrichtingen het wisselrisico verdwijnt omdat economisch gezien een vordering of een schuld in EUR in de plaats wordt gesteld van een vordering of schuld in deviezen.
 
 De ingedekte balanspost zal op basis van CBN-advies 152/1 worden gewaardeerd aan de termijnkoers die is opgenomen in de cross currency swap en niet meer aan de contantkoers op balansdatum. In dit geval levert de verrichting geen wisselresultaat of omrekeningsverschil op, noch op het ogenblik waarop die verrichting wordt afgesloten, noch op een later tijdstip.
 
-### Cross currency swap voor niet-specifieke indekkingsverrichting van monetaire activa en passiva
-
+Cross currency swap voor niet-specifieke indekkingsverrichting van monetaire activa en passiva
 Indien een onderneming veel vorderingen en schulden in deviezen bezit, dan kan het voorkomen dat haar wisselrisicobeheer niet meer bedoeld is om welbepaalde verrichtingen te dekken, maar wel om via één der voornoemde technieken de “positie” resulterend uit een geheel van vorderingen en/of schulden in deviezen te dekken. In CBN-advies 152/1 - Boekingen van deviezenverrichtingen en verwerking van tegoeden en verplichtingen in deviezen in de jaarrekening omschrijft de Commissie dit als een niet-specifieke indekkingsverrichting, ofwel een macro-indekking. 
 
 De boekhoudkundige verwerking bestaat er dan in om op afsluitdatum de te ontvangen of te leveren (betalen) deviezen te herwaarderen aan contantkoers.
@@ -236,8 +237,6 @@ Het afsluiten van de cross currency swap wordt geboekt door de verplichtingen op
 
 Op 31 december 2013 worden de lening en de cross currency swap geherwaardeerd aan de contantslotkoers. Deze boekingen zijn gelijkwaardig aan de boekingen bij een termijnwisselovereenkomst.
 
- [^14]
-
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 174 | Andere leningen op meer dan één jaar | 50.000 | |
@@ -250,22 +249,16 @@ Op 31 december 2013 worden de lening en de cross currency swap geherwaardeerd aa
 
 De ontvangen en betaalde interesten op de cross currency swap en de lening worden geprorateerd als onderdeel van de afsluiting per 31 december 2013.
 
- [^15]
-
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 650 | Kosten van schulden | 3.791,67 | |
 | aan | 492 | Toe te rekenen kosten | | 3.791,67 |
-
-[^16]
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 491 | Verkregen opbrengsten | 3.500 | |
 | aan | 756 | Diverse financiële opbrengsten
 			(Cross currency swap – vlottend) | | 3.500 |
-
-[^17]
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
@@ -316,8 +309,6 @@ Op 1 januari 2014 worden de journaalposten met betrekking tot de interestprorate
 
 Op 31 december 2014 worden de lening en de cross currency swap geherwaardeerd aan de contantslotkoers. Deze boekingen zijn gelijkwaardig aan de boekingen bij een termijnwisselovereenkomst
 
- [^18]
-
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 655 | Omrekeningsverschillen | 100.000 | |
@@ -339,8 +330,6 @@ Uiteindelijk wordt de lange termijn schuld ook naar de korte termijn overgeboekt
 
 Op 1 januari 2015 worden de journaalposten met betrekking tot de omrekeningsverschillen tegengeboekt:
 
- [^19]
-
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 424 | Schulden op meer dan 1 jaar die binnen het jaar vervallen | 100.000 | |
@@ -351,7 +340,7 @@ Op 1 januari 2015 worden de journaalposten met betrekking tot de omrekeningsvers
 | | 755 | Omrekeningsverschillen | 100.000 | |
 | aan | 416 | Herberekening tegen slotomrekeningskoers USD | | 100.000 |
 
-*Op vervaldag 31 december 2015 *
+*Op vervaldag 31 december 2015* 
 
 De volgende boeking betreft de terugbetaling op vervaldag van de lening, die inmiddels als korte termijnlening geboekt staat, evenals de vereffening van de cross currency swap:
 
@@ -360,8 +349,6 @@ De volgende boeking betreft de terugbetaling op vervaldag van de lening, die inm
 | | 551 | Bank USD | 875.000 | |
 | aan | 550 | Bank EUR | | 750.000 |
 | | 754 | Wisselresultaat | 125.000 | |
-
-[^20][^21]
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|

@@ -1,43 +1,43 @@
 ---
-nummer: CBN-advies 2018/20
-datum: 2018-11-23
-themas:
-  - niet-compensatie
-  - compensatie
-  - schuldvergelijking
 bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundig-niet-compensatiebeginsel
+datum: 2018-11-23
+nummer: CBN-advies 2018/20
 provenance:
+  generated_at: '2026-05-11T13:05:08Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundig-niet-compensatiebeginsel
       sha256: 568d1613dc26b400815af270a80f04670188bb30393feef47a163c9c9d37c243
       version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:37:29Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
   trust:
-    status: trusted
     confirmed_at: '2026-05-11T12:21:40Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: 'Geen significante artefacten gevonden. Tekst is vloeiend leesbaar, vier ## headings correct aanwezig, alle 12 voetnoten volledig en verankerd. Geen tabellen. Inhoud compleet.'
     layer1:
       status: pass
-      run_id: 20260511-083333
-      run_at:
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:30Z'
       heading_count: 4
       max_section_chars: 2848
-      file_size_chars: 7719
+      file_size_chars: 7717
       flags: []
     layer2:
-      status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:21:40Z'
-      rationale: 'Geen significante artefacten gevonden. Tekst is vloeiend leesbaar, vier ## headings correct aanwezig, alle 12 voetnoten volledig en verankerd. Geen tabellen. Inhoud compleet.'
       concrete_problemen: []
+      rationale: 'Geen significante artefacten gevonden. Tekst is vloeiend leesbaar, vier ## headings correct aanwezig, alle 12 voetnoten volledig en verankerd. Geen tabellen. Inhoud compleet.'
+      run_at: '2026-05-11T12:21:40Z'
+      status: trusted
+    rationale: 'Geen significante artefacten gevonden. Tekst is vloeiend leesbaar, vier ## headings correct aanwezig, alle 12 voetnoten volledig en verankerd. Geen tabellen. Inhoud compleet.'
+    status: trusted
+themas:
+  - niet-compensatie
+  - compensatie
+  - schuldvergelijking
 ---
 
 # CBN-advies 2018/20 – Boekhoudkundig niet-compensatiebeginsel
@@ -66,11 +66,9 @@ Dit niet-compensatiebeginsel is afkomstig van de richtlijn 2013/34/EU van het Eu
 
 De Commissie heeft in het verleden verschillende vragen over het niet-compensatiebeginsel ontvangen en beantwoord.
 
-In haar advies 105/1[^7]
- heeft de Commissie te kennen gegeven dat een compensatie tussen debet- en creditsaldi bij eenzelfde bankinstelling slechts in overeenstemming kan zijn met artikel 25, § 2 KB W.Venn. indien in de betrekkingen tussen de onderneming en de bankinstelling overeengekomen zou zijn dat het gaat om ondergeschikte rekeningen van eenzelfde rekening, wat impliceert dat de interesten worden berekend op de algebraïsche som van de debet- en creditsaldi.
+In haar advies 105/1[^7] heeft de Commissie te kennen gegeven dat een compensatie tussen debet- en creditsaldi bij eenzelfde bankinstelling slechts in overeenstemming kan zijn met artikel 25, § 2 KB W.Venn. indien in de betrekkingen tussen de onderneming en de bankinstelling overeengekomen zou zijn dat het gaat om ondergeschikte rekeningen van eenzelfde rekening, wat impliceert dat de interesten worden berekend op de algebraïsche som van de debet- en creditsaldi.
 
-Verder antwoordt de Commissie in CBN-advies 105/6[^8]
- op de vraag of de van een verzekeringsmaatschappij ontvangen vergoeding voor geleden schade door een onderneming in mindering mag worden gebracht van de verliezen of van de kosten die voor haar uit dit schadegeval zijn voortgevloeid. De Commissie oordeelde toen dat het hier gaat om een compensatie verboden door artikel 25 § 2 KB W.Venn.
+Verder antwoordt de Commissie in CBN-advies 105/6[^8] op de vraag of de van een verzekeringsmaatschappij ontvangen vergoeding voor geleden schade door een onderneming in mindering mag worden gebracht van de verliezen of van de kosten die voor haar uit dit schadegeval zijn voortgevloeid. De Commissie oordeelde toen dat het hier gaat om een compensatie verboden door artikel 25 § 2 KB W.Venn.
 
 Tot slot moet opgemerkt worden dat, voor wat betreft bestellingen in uitvoering, artikel 71 KB W.Venn. bepaalt dat deze rechtstreeks mogen worden gecompenseerd met de ontvangen vooruitbetalingen per overeenkomst, waarbij ofwel het debetsaldo wordt gepresenteerd als bestelling in uitvoering ofwel het creditsaldo wordt gepresenteerd als ontvangen vooruitbetaling. Bij het begin van elk boekjaar wordt de saldering tegengeboekt. In geval gebruik wordt gemaakt van deze mogelijkheid tot compensatie worden de bedragen vóór saldering in de toelichting vermeld.[^9] 
 

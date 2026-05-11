@@ -1,6 +1,39 @@
 ---
-nummer: CBN-advies 139/7
+bron: https://www.cbn-cnc.be/nl/adviezen/verwerking-van-uitgegeven-inschrijvingsrechten-in-de-jaarrekening
 datum: 1995-03-01
+nummer: CBN-advies 139/7
+provenance:
+  generated_at: '2026-05-11T13:05:06Z'
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/verwerking-van-uitgegeven-inschrijvingsrechten-in-de-jaarrekening
+      sha256: d7cc7231e7ba165a07ecdb818bfd59a4691c760209f111e9bb6bd2a2d13576e0
+      version:
+  stale: false
+  stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
+  trust:
+    confirmed_at:
+    confirmed_by:
+    layer1:
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:26Z'
+      heading_count: 5
+      max_section_chars: 2085
+      file_size_chars: 4283
+      flags: []
+    layer2:
+      agent:
+      concrete_problemen: []
+      rationale:
+      run_at:
+      status: not_run
+    rationale: 'Trust gereset 2026-05-11: re-scrape met scraper-fixes, content-diff > 5%'
+    status: unreviewed
 themas:
   - converteerbare obligatie
   - inschrijvingsrecht
@@ -14,60 +47,13 @@ themas:
   - uitgegeven inschrijvingsrechten
   - warrant
   - uitgiftepremie
-bron: https://www.cbn-cnc.be/nl/adviezen/verwerking-van-uitgegeven-inschrijvingsrechten-in-de-jaarrekening
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/verwerking-van-uitgegeven-inschrijvingsrechten-in-de-jaarrekening
-      sha256: d7cc7231e7ba165a07ecdb818bfd59a4691c760209f111e9bb6bd2a2d13576e0
-      version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:35:07Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T12:04:41Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: 'B3: duplicate page-title-heading op regels 52 en 54 (identieke H1 tweemaal). D4: *Bull. CNC * op regel 58 heeft spatie voor sluitende * (malformed italic). Inhoud volledig aanwezig met drie secties correct als H2/H3 opgebouwd.'
-    layer1:
-      status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 5
-      max_section_chars: 2085
-      file_size_chars: 4371
-      flags: []
-    layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:04:41Z'
-      rationale: 'B3: duplicate page-title-heading op regels 52 en 54 (identieke H1 tweemaal). D4: *Bull. CNC * op regel 58 heeft spatie voor sluitende * (malformed italic). Inhoud volledig aanwezig met drie secties correct als H2/H3 opgebouwd.'
-      concrete_problemen:
-        - regel: 52
-          categorie: B3
-          type: other
-          voorbeeld: '# CBN advies 139-7 - Verwerking van uitgegeven inschrijvingsrechten in de jaarrekening'
-        - regel: 54
-          categorie: B3
-          type: other
-          voorbeeld: '# CBN advies 139-7 - Verwerking van uitgegeven inschrijvingsrechten in de jaarrekening '
-        - regel: 58
-          categorie: D4
-          type: other
-          voorbeeld: '...gepubliceerd in de adviezen die de Commissie in haar *Bull. CNC *nr. 28 en 29 van november 1992...'
 ---
-
-# CBN advies 139-7 - Verwerking van uitgegeven inschrijvingsrechten in de jaarrekening
 
 # CBN advies 139-7 - Verwerking van uitgegeven inschrijvingsrechten in de jaarrekening 
 
 De adviezen 139/1, 139/4, 139/5 en 139/6 van de Commissie handelden over de wijze waarop converteerbare obligaties of obligaties met voorkeurrecht alsook autonome warrants (inschrijvingsrechten), moeten worden verwerkt in de jaarrekening van de onderneming die ze heeft verworven en die ze in bezit heeft.
 
-De Commissie werd verzocht die adviezen aan te vullen met een advies over de wijze waarop warrants (inschrijvingsrechten) en converteerbare obligaties moeten worden geboekt door de vennootschap die ze heeft uitgegeven. Dit advies betreft enkel de rechten tot omzetting in aandelen van de betrokken vennootschap of tot inschrijving op dergelijke aandelen, ongeacht of die obligaties of warrants door de vennootschap zelf of door een verwante vennootschap zijn uitgegeven. Het heeft bijgevolg geen betrekking op de optierechten in het kader van de verwerving of de overdracht van bestaande aandelen; in verband met die opties wordt verwezen naar de adviezen die de Commissie in haar *Bull. CNC *nr. 28 en 29 van november 1992 heeft gepubliceerd.
+De Commissie werd verzocht die adviezen aan te vullen met een advies over de wijze waarop warrants (inschrijvingsrechten) en converteerbare obligaties moeten worden geboekt door de vennootschap die ze heeft uitgegeven. Dit advies betreft enkel de rechten tot omzetting in aandelen van de betrokken vennootschap of tot inschrijving op dergelijke aandelen, ongeacht of die obligaties of warrants door de vennootschap zelf of door een verwante vennootschap zijn uitgegeven. Het heeft bijgevolg geen betrekking op de optierechten in het kader van de verwerving of de overdracht van bestaande aandelen; in verband met die opties wordt verwezen naar de adviezen die de Commissie in haar *Bull. CNC* nr. 28 en 29 van november 1992 heeft gepubliceerd.
 
 Krachtens het koninklijk besluit van 8 oktober 1976 moeten "de verplichtingen tot uitgifte van aandelen als gevolg van de uitoefening van conversie- of inschrijvingsrechten, met vermelding van het bedrag van de lopende converteerbare leningen, van het aantal inschrijvingsrechten in omloop, van het maximum aantal uit te geven aandelen en van het overeenstemmende bedrag te plaatsen kapitaal" in de toelichting worden vermeld in de staat met betrekking tot het kapitaal en de samenstelling ervan.
 

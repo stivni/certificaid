@@ -1,6 +1,43 @@
 ---
-nummer: CBN-advies 2020/07
+bron: https://www.cbn-cnc.be/nl/adviezen/mogelijkheid-tot-uitstel-van-de-goedkeuring-en-neerlegging-van-de-jaarrekening-vzws-0
 datum: 2020-07-16
+gerelateerde_adviezen:
+  - datum: '2020-07-22'
+    titel: Mogelijkheid tot uitstel van de gewone algemene vergadering en van de neerlegging van de jaarrekening (vennootschappen)
+    url: https://www.cbn-cnc.be/nl/adviezen/mogelijkheid-tot-uitstel-van-de-gewone-algemene-vergadering-en-van-de-neerlegging-van-de
+nummer: CBN-advies 2020/07
+provenance:
+  generated_at: '2026-05-11T13:05:08Z'
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/mogelijkheid-tot-uitstel-van-de-goedkeuring-en-neerlegging-van-de-jaarrekening-vzws-0
+      sha256: 85bbe53d42be82044bc266c72e572b9bd5fa70312a9353605961126a807aacb4
+      version:
+  stale: false
+  stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
+  trust:
+    confirmed_at: '2026-05-11T12:21:40Z'
+    confirmed_by: subagent-sonnet-4-6
+    layer1:
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:30Z'
+      heading_count: 8
+      max_section_chars: 7992
+      file_size_chars: 12866
+      flags: []
+    layer2:
+      agent: subagent-sonnet-4-6
+      concrete_problemen: []
+      rationale: 'Geen PDF-artefacten zichtbaar. Heading-hiërarchie correct (# → ## → ###). Alle voetnoten [^2]-[^24] hebben een corresponderende definitie onderaan; [^1] staat als consultatie-noot enkel onderaan (CBN-conventie, geen bug). Inhoud volledig: inleiding, (I)VZW-sectie, stichtingen-sectie, voorbeelden.'
+      run_at: '2026-05-11T12:21:40Z'
+      status: trusted
+    rationale: 'Geen PDF-artefacten zichtbaar. Heading-hiërarchie correct (# → ## → ###). Alle voetnoten [^2]-[^24] hebben een corresponderende definitie onderaan; [^1] staat als consultatie-noot enkel onderaan (CBN-conventie, geen bug). Inhoud volledig: inleiding, (I)VZW-sectie, stichtingen-sectie, voorbeelden.'
+    status: trusted
 themas:
   - uitstel algemene vergadering
   - goedkeuring van de jaarrekening
@@ -8,51 +45,13 @@ themas:
   - opstelling van de jaarrekening
   - verenigingen en stichtingen
   - COVID-19
-bron: https://www.cbn-cnc.be/nl/adviezen/mogelijkheid-tot-uitstel-van-de-goedkeuring-en-neerlegging-van-de-jaarrekening-vzws-0
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/mogelijkheid-tot-uitstel-van-de-goedkeuring-en-neerlegging-van-de-jaarrekening-vzws-0
-      sha256: 85bbe53d42be82044bc266c72e572b9bd5fa70312a9353605961126a807aacb4
-      version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:37:49Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: trusted
-    confirmed_at: '2026-05-11T12:21:40Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: 'Geen PDF-artefacten zichtbaar. Heading-hiërarchie correct (# → ## → ###). Alle voetnoten [^2]-[^24] hebben een corresponderende definitie onderaan; [^1] staat als consultatie-noot enkel onderaan (CBN-conventie, geen bug). Inhoud volledig: inleiding, (I)VZW-sectie, stichtingen-sectie, voorbeelden.'
-    layer1:
-      status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 8
-      max_section_chars: 7994
-      file_size_chars: 12872
-      flags: []
-    layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:21:40Z'
-      rationale: 'Geen PDF-artefacten zichtbaar. Heading-hiërarchie correct (# → ## → ###). Alle voetnoten [^2]-[^24] hebben een corresponderende definitie onderaan; [^1] staat als consultatie-noot enkel onderaan (CBN-conventie, geen bug). Inhoud volledig: inleiding, (I)VZW-sectie, stichtingen-sectie, voorbeelden.'
-      concrete_problemen: []
-gerelateerde_adviezen:
-  - titel: Mogelijkheid tot uitstel van de gewone algemene vergadering en van de neerlegging van de jaarrekening (vennootschappen)
-    url: https://www.cbn-cnc.be/nl/adviezen/mogelijkheid-tot-uitstel-van-de-gewone-algemene-vergadering-en-van-de-neerlegging-van-de
-    datum: '2020-07-22'
 ---
 
 # CBN-advies 2020/07 – Mogelijkheid tot uitstel van de goedkeuring en neerlegging van de jaarrekening (VZW’s, IVZW’s en stichtingen)
 
 ## Inleiding
 
-In onderhavig advies wil de Commissie ingaan op de maatregelen die zijn genomen inzake het uitstel van de goedkeuring van de jaarrekening van verenigingen en stichtingen, opgenomen in Koninklijk besluit nr. 4 van 9 april 2020 houdende diverse bepalingen inzake mede-eigendom en het vennootschaps- en verenigingsrecht in het kader van de strijd tegen de COVID-19 pandemie[^2]
- (hierna: KB nr. 4), alsook op de impact van deze maatregelen op de neerlegging van de jaarrekening.
+In onderhavig advies wil de Commissie ingaan op de maatregelen die zijn genomen inzake het uitstel van de goedkeuring van de jaarrekening van verenigingen en stichtingen, opgenomen in Koninklijk besluit nr. 4 van 9 april 2020 houdende diverse bepalingen inzake mede-eigendom en het vennootschaps- en verenigingsrecht in het kader van de strijd tegen de COVID-19 pandemie[^2] (hierna: KB nr. 4), alsook op de impact van deze maatregelen op de neerlegging van de jaarrekening.
 
 ## (Internationale) verenigingen zonder winstoogmerk
 
@@ -62,15 +61,13 @@ Krachtens KB nr. 4 kan het bestuursorgaan van de (internationale) vereniging zon
 
  Dit uitstel is eveneens toegestaan indien de vergadering reeds werd of had moeten worden bijeengeroepen binnen bovenvermeld tijdsbestek[^4]. In dit geval is het van geen belang dat de vergadering wordt of zou worden gehouden na 30 juni 2020[^5]. 
 
-Indien het bestuursorgaan van de betrokken vereniging gebruik maakt van deze mogelijkheid, wordt de termijn van zes maanden, te tellen vanaf de datum van afsluiting van het boekjaar waarbinnen de jaarrekening, alsook de begroting van het boekjaar dat volgt op het boekjaar waarop deze jaarrekening betrekking heeft, moet worden voorgelegd ter goedgekeurd door de algemene vergadering van de leden[^6], met tien weken verlengd[^7]. Deze vergadering wordt hierdoor uiterlijk op 8 september 2020[^8]
- gehouden voor boekjaren eindigend op 31 december 2019.
+Indien het bestuursorgaan van de betrokken vereniging gebruik maakt van deze mogelijkheid, wordt de termijn van zes maanden, te tellen vanaf de datum van afsluiting van het boekjaar waarbinnen de jaarrekening, alsook de begroting van het boekjaar dat volgt op het boekjaar waarop deze jaarrekening betrekking heeft, moet worden voorgelegd ter goedgekeurd door de algemene vergadering van de leden[^6], met tien weken verlengd[^7]. Deze vergadering wordt hierdoor uiterlijk op 8 september 2020[^8] gehouden voor boekjaren eindigend op 31 december 2019.
 
 De Commissie wijst erop dat de andere dan de gewone algemene vergaderingen die de goedkeuring van de jaarrekening op de agenda hebben staan, eveneens kunnen worden uitgesteld tot een later tijdstip, met uitzondering van de algemene vergaderingen bijeengeroepen door of op verzoek van de commissaris, alsook de vergaderingen bijeengeroepen op verzoek van 20 % van de leden, die niet kunnen worden uitgesteld[^9]. Deze vergaderingen kunnen echter wel vanop afstand plaatsvinden[^10]. De Commissie herinnert er aan dat het WVV voor verenigingen niet in een alarmbelprocedure heeft voorzien[^11].
 
 ### Neerlegging van de jaarrekening
 
- Het bestuursorgaan dient de jaarrekening van (I)VZW’s die op balansdatum van het laatst afgesloten boekjaar meer dan één van de in artikel 3:47, § 2 WVV[^12]
- opgenomen criteria overschrijden, binnen dertig dagen na goedkeuring ervan door de algemene vergadering neer te leggen bij de Nationale Bank van België (hierna: NBB). Volgende stukken dienen bij de jaarrekening te worden gevoegd: 
+ Het bestuursorgaan dient de jaarrekening van (I)VZW’s die op balansdatum van het laatst afgesloten boekjaar meer dan één van de in artikel 3:47, § 2 WVV[^12] opgenomen criteria overschrijden, binnen dertig dagen na goedkeuring ervan door de algemene vergadering neer te leggen bij de Nationale Bank van België (hierna: NBB). Volgende stukken dienen bij de jaarrekening te worden gevoegd: 
 
 - een stuk met de naam en voornaam van de bestuurders en van de eventuele commissarissen; 
 - in voorkomend geval, het verslag van de commissaris; 
@@ -84,13 +81,11 @@ KB nr. 4 houdt geen wijzigingen in wat betreft de in het WVV voorziene regels in
 
 ### Opstellen van de jaarrekening door het bestuursorgaan
 
-Voor stichtingen[^16]
- wordt de termijn van zes maanden die volgt op de datum van afsluiting van het boekjaar waarbinnen het bestuursorgaan van de stichting de jaarrekening alsook de begroting van het boekjaar dat volgt op het boekjaar waarop deze jaarrekening betrekking heeft[^17], dient op te maken en goed te keuren, eveneens met tien weken verlengd[^18],[^19]. De hierboven vermelde jaarrekening en begroting dienen uiterlijk op 8 september 2020 te worden opgesteld door stichtingen waarvan het boekjaar eindigt op 31 december 2019. 
+Voor stichtingen[^16] wordt de termijn van zes maanden die volgt op de datum van afsluiting van het boekjaar waarbinnen het bestuursorgaan van de stichting de jaarrekening alsook de begroting van het boekjaar dat volgt op het boekjaar waarop deze jaarrekening betrekking heeft[^17], dient op te maken en goed te keuren, eveneens met tien weken verlengd[^18],[^19]. De hierboven vermelde jaarrekening en begroting dienen uiterlijk op 8 september 2020 te worden opgesteld door stichtingen waarvan het boekjaar eindigt op 31 december 2019. 
 
 ### Neerlegging van de jaarrekening
 
-Het bestuursorgaan dient de jaarrekening van stichtingen die op de balansdatum van het laatst afgesloten boekjaar meer dan één van de in artikel 3:51, § 2 WVV[^20]
- opgenomen criteria overschrijden, binnen dertig dagen na goedkeuring ervan door het bestuursorgaan neer te leggen bij de NBB. Volgende stukken dienen bij de jaarrekening te worden gevoegd: 
+Het bestuursorgaan dient de jaarrekening van stichtingen die op de balansdatum van het laatst afgesloten boekjaar meer dan één van de in artikel 3:51, § 2 WVV[^20] opgenomen criteria overschrijden, binnen dertig dagen na goedkeuring ervan door het bestuursorgaan neer te leggen bij de NBB. Volgende stukken dienen bij de jaarrekening te worden gevoegd: 
 
 - een stuk met de naam en voornaam van de bestuurders en van de eventuele commissarissen; 
 - in voorkomend geval, het verslag van de commissaris; 
@@ -98,8 +93,7 @@ Het bestuursorgaan dient de jaarrekening van stichtingen die op de balansdatum v
 
 De jaarrekening van de kleine stichtingen die niet meer dan één van de in artikel 3:51, § 2 opgenomen criteria overschrijden, wordt binnen de dertig dagen na goedkeuring ervan neergelegd bij de griffie van de ondernemingsrechtbank van de zetel van de betrokken stichtingen, om in het stichtingsdossier te worden opgenomen[^22].
 
-KB nr. 4 houdt geen wijzigingen in wat betreft de in het WVV voorziene regels inzake neerlegging van de jaarrekening. Desalniettemin is het evident dat naar aanleiding van de verlengde termijn van tien weken voor de goedkeuring van de jaarrekening door het bestuursorgaan, de termijn van 30 dagen, die voor stichtingen die hun boekhouding per kalenderjaar voeren normaal gezien uiterlijk eind juli moet plaatsvinden, eveneens wordt verschoven. De neerlegging van de jaarrekening voor stichtingen die hun boekhouding per kalenderjaar voeren, wordt dus uitgesteld naar 8 oktober 2020[^23]
- voor zover de jaarrekening uiterlijk op 8 september 2020 door het bestuursorgaan werd goedgekeurd.
+KB nr. 4 houdt geen wijzigingen in wat betreft de in het WVV voorziene regels inzake neerlegging van de jaarrekening. Desalniettemin is het evident dat naar aanleiding van de verlengde termijn van tien weken voor de goedkeuring van de jaarrekening door het bestuursorgaan, de termijn van 30 dagen, die voor stichtingen die hun boekhouding per kalenderjaar voeren normaal gezien uiterlijk eind juli moet plaatsvinden, eveneens wordt verschoven. De neerlegging van de jaarrekening voor stichtingen die hun boekhouding per kalenderjaar voeren, wordt dus uitgesteld naar 8 oktober 2020[^23] voor zover de jaarrekening uiterlijk op 8 september 2020 door het bestuursorgaan werd goedgekeurd.
 
 ## Voorbeelden
 

@@ -1,66 +1,66 @@
 ---
-nummer: CBN-advies 2010/10
+bron: https://www.cbn-cnc.be/nl/adviezen/duur-van-het-boekjaar
 datum: 2010-07-14
+gerelateerde_adviezen:
+  - datum: '2025-04-30'
+    titel: Duur van het boekjaar (update) [ONTWERP]
+    url: https://www.cbn-cnc.be/nl/adviezen/duur-van-het-boekjaar-update-ontwerp
+  - datum: '2022-03-15'
+    titel: Beoordeling van de groottecriteria overeenkomstig artikelen 1:24 en 1:25 van het Wetboek van vennootschappen en verenigingen
+    url: https://www.cbn-cnc.be/nl/adviezen/beoordeling-van-de-groottecriteria-overeenkomstig-artikelen-124-en-125-van-het-wetboek-van
+  - datum: '2016-04-13'
+    titel: Beoordeling groottecriteria artikelen 15 en 15/1 W.Venn.
+    url: https://www.cbn-cnc.be/nl/adviezen/beoordeling-groottecriteria-artikelen-15-en-151-wvenn
+  - datum: '1977-12-01'
+    titel: Duur van het boekjaar
+    url: https://www.cbn-cnc.be/nl/adviezen/duur-van-het-boekjaar-0
+nummer: CBN-advies 2010/10
+provenance:
+  generated_at: '2026-05-11T13:05:07Z'
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/duur-van-het-boekjaar
+      sha256: 06050656a1a3287d47038c77e015d2b4d7685e4e667224bca541c077d305380a
+      version:
+  stale: false
+  stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
+  trust:
+    confirmed_at: '2026-05-11T12:09:17Z'
+    confirmed_by: subagent-sonnet-4-6
+    layer1:
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:27Z'
+      heading_count: 0
+      max_section_chars: 4201
+      file_size_chars: 4201
+      flags: []
+    layer2:
+      agent: subagent-sonnet-4-6
+      concrete_problemen:
+        - categorie: B2
+          regel: 58
+          type: other
+          voorbeeld: 'Enkel H1, geen enkele ## subsectie in het gehele document'
+        - categorie: A4
+          regel: 67
+          type: other
+          voorbeeld: niet‐naleving (U+2010 HYPHEN ipv ASCII-koppelteken)
+      rationale: 'B2: heading_count is 0 via Laag 1 — het bestand heeft geen ## subheadings, enkel één # H1-titel. Het volledige advies is één doorlopend tekstblok zonder markdown-sectieindeling, terwijl de inhoud meerdere logische kwesties bespreekt (verlenging, verkorting, procedure). A4: r67 bevat U+2010 (Unicode HYPHEN) in ''niet‐naleving'' — typisch web-scraping-artefact van de CBN-website.'
+      run_at: '2026-05-11T12:09:17Z'
+      status: needs-rework
+    rationale: 'B2: heading_count is 0 via Laag 1 — het bestand heeft geen ## subheadings, enkel één # H1-titel. Het volledige advies is één doorlopend tekstblok zonder markdown-sectieindeling, terwijl de inhoud meerdere logische kwesties bespreekt (verlenging, verkorting, procedure). A4: r67 bevat U+2010 (Unicode HYPHEN) in ''niet‐naleving'' — typisch web-scraping-artefact van de CBN-website.'
+    status: needs-rework
 themas:
   - duur van het boekjaar
   - inventaris
   - uitzonderlijke omstandigheden
   - verkorting van het boekjaar
   - verlenging van het boekjaar
-bron: https://www.cbn-cnc.be/nl/adviezen/duur-van-het-boekjaar
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/duur-van-het-boekjaar
-      sha256: 06050656a1a3287d47038c77e015d2b4d7685e4e667224bca541c077d305380a
-      version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:35:59Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T12:09:17Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "B2: heading_count is 0 via Laag 1 — het bestand heeft geen ## subheadings, enkel één # H1-titel. Het volledige advies is één doorlopend tekstblok zonder markdown-sectieindeling, terwijl de inhoud meerdere logische kwesties bespreekt (verlenging, verkorting, procedure). A4: r67 bevat U+2010 (Unicode HYPHEN) in 'niet‐naleving' — typisch web-scraping-artefact van de CBN-website."
-    layer1:
-      status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 0
-      max_section_chars: 4202
-      file_size_chars: 4202
-      flags: []
-    layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:09:17Z'
-      rationale: "B2: heading_count is 0 via Laag 1 — het bestand heeft geen ## subheadings, enkel één # H1-titel. Het volledige advies is één doorlopend tekstblok zonder markdown-sectieindeling, terwijl de inhoud meerdere logische kwesties bespreekt (verlenging, verkorting, procedure). A4: r67 bevat U+2010 (Unicode HYPHEN) in 'niet‐naleving' — typisch web-scraping-artefact van de CBN-website."
-      concrete_problemen:
-        - regel: 58
-          categorie: B2
-          type: other
-          voorbeeld: 'Enkel H1, geen enkele ## subsectie in het gehele document'
-        - regel: 67
-          categorie: A4
-          type: other
-          voorbeeld: niet‐naleving (U+2010 HYPHEN ipv ASCII-koppelteken)
-gerelateerde_adviezen:
-  - titel: Duur van het boekjaar (update) [ONTWERP]
-    url: https://www.cbn-cnc.be/nl/adviezen/duur-van-het-boekjaar-update-ontwerp
-    datum: '2025-04-30'
-  - titel: Beoordeling van de groottecriteria overeenkomstig artikelen 1:24 en 1:25 van het Wetboek van vennootschappen en verenigingen
-    url: https://www.cbn-cnc.be/nl/adviezen/beoordeling-van-de-groottecriteria-overeenkomstig-artikelen-124-en-125-van-het-wetboek-van
-    datum: '2022-03-15'
-  - titel: Beoordeling groottecriteria artikelen 15 en 15/1 W.Venn.
-    url: https://www.cbn-cnc.be/nl/adviezen/beoordeling-groottecriteria-artikelen-15-en-151-wvenn
-    datum: '2016-04-13'
-  - titel: Duur van het boekjaar
-    url: https://www.cbn-cnc.be/nl/adviezen/duur-van-het-boekjaar-0
-    datum: '1977-12-01'
 ---
 
 # CBN-advies 2010-10 Duur van het boekjaar Advies van 14 juli 2010
@@ -71,8 +71,7 @@ Aan de Commissie werd de vraag gesteld of uit deze verplichting, bekrachtigd doo
 
 Voor zover de Commissie bekend, bestaat er geen rechtspraak over de overeenstemming met de wet van een uitzonderlijke verlenging of verkorting van een boekjaar. In de rechtsleer worden als mogelijke uitzonderlijke omstandigheden meestal vermeld: het eerste of laatste boekjaar, een herstructurering van de vennootschap of de harmonisatie van de afsluitdata binnen een groep[^1]. 
 
-Uit de commentaar die in de Memorie van Toelichting bij de Boekhoudwet aan artikel 7[^2]
- wordt gewijd, blijkt duidelijk de bedoeling van de wetgever om, onder voorbehoud van de sanctie bij niet‐naleving, niets fundamenteels te wijzigen aan de verplichting die elke handelaar krachtens artikel 17 van het Wetboek van Koophandel sedert lange tijd heeft, om elk jaar een inventaris op te maken. Indien de wetgever nieuwe regels had willen invoeren in verband met het jaarlijks karakter van de inventaris en van de jaarrekening, dan zou dat zeer zeker expliciet uit de voorbereidende werkzaamheden zijn gebleken. 
+Uit de commentaar die in de Memorie van Toelichting bij de Boekhoudwet aan artikel 7[^2] wordt gewijd, blijkt duidelijk de bedoeling van de wetgever om, onder voorbehoud van de sanctie bij niet-naleving, niets fundamenteels te wijzigen aan de verplichting die elke handelaar krachtens artikel 17 van het Wetboek van Koophandel sedert lange tijd heeft, om elk jaar een inventaris op te maken. Indien de wetgever nieuwe regels had willen invoeren in verband met het jaarlijks karakter van de inventaris en van de jaarrekening, dan zou dat zeer zeker expliciet uit de voorbereidende werkzaamheden zijn gebleken. 
 
 De Commissie is evenwel van oordeel dat een uitzonderlijke verlenging of verkorting van het boekjaar tot een duur van meer of minder dan twaalf maanden geoorloofd is. Dit volgt uit artikel 15, § 3 van het Wetboek van Vennootschappen dat de mogelijkheid voorziet van een boekjaar met een duur van meer of minder dan twaalf maanden.[^3] 
 

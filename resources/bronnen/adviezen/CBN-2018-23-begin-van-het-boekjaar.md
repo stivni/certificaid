@@ -1,6 +1,68 @@
 ---
-nummer: CBN-advies 2018/23
+bron: https://www.cbn-cnc.be/nl/adviezen/begin-van-het-boekjaar
 datum: 2018-12-07
+gerelateerde_adviezen:
+  - datum: '2024-09-19'
+    titel: Gevolgen verhoging groottecriteria voor (I)VZW’s en stichtingen
+    url: https://www.cbn-cnc.be/nl/adviezen/gevolgen-verhoging-groottecriteria-voor-ivzws-en-stichtingen
+  - datum: '2024-09-19'
+    titel: Gevolgen verhoging groottecriteria voor vennootschappen
+    url: https://www.cbn-cnc.be/nl/adviezen/gevolgen-verhoging-groottecriteria-voor-vennootschappen
+  - datum: '2022-04-27'
+    titel: Verslaggeving bij ontbinding en vereffening van een VZW of IVZW
+    url: https://www.cbn-cnc.be/nl/adviezen/verslaggeving-bij-ontbinding-en-vereffening-van-een-vzw-of-ivzw
+  - datum: '2022-04-01'
+    titel: Verslaggeving bij ontbinding en vereffening van BV, CV, NV, SE en SCE
+    url: https://www.cbn-cnc.be/nl/adviezen/verslaggeving-bij-ontbinding-en-vereffening-van-bv-cv-nv-se-en-sce
+nummer: CBN-advies 2018/23
+provenance:
+  generated_at: '2026-05-11T13:05:08Z'
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/begin-van-het-boekjaar
+      sha256: b442dbac8ff7b7731072ff57be43236eeeae2d8e535166126b18c96d96018a75
+      version:
+  stale: false
+  stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
+  trust:
+    confirmed_at: '2026-05-11T12:21:40Z'
+    confirmed_by: subagent-sonnet-4-6
+    layer1:
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:30Z'
+      heading_count: 7
+      max_section_chars: 13207
+      file_size_chars: 28430
+      flags: []
+    layer2:
+      agent: subagent-sonnet-4-6
+      concrete_problemen:
+        - categorie: A3
+          regel: 67
+          type: other
+          voorbeeld: '1. Inleiding \n2. Het principe: het boekjaar start op de datum...'
+        - categorie: A3
+          regel: 78
+          type: other
+          voorbeeld: -- Inbreng van algemeenheid en inbreng van bedrijfstak tijdens de oprichting van een nieuwe vennootschap
+        - categorie: D3
+          regel: 227
+          type: other
+          voorbeeld: ' [^23]'
+        - categorie: D3
+          regel: 244
+          type: other
+          voorbeeld: ' [^24]'
+      rationale: 'A3: TOC-blok op regels 67-78 staat als plain-text nummering in de body (geen heading-prefix), met een extra gedupliceerde en afgebroken TOC-regel op lijn 78 (`-- Inbreng van algemeenheid...`). D3: Losstaande `[^23]` en `[^24]` op respectievelijk regels 227 en 244 zonder voorgaande aankondigingstekst — worden als verweesd anker gerenderd vóór de tabel. Tabellen en inhoud zijn verder volledig en goed opgemaakt.'
+      run_at: '2026-05-11T12:21:40Z'
+      status: needs-rework
+    rationale: 'A3: TOC-blok op regels 67-78 staat als plain-text nummering in de body (geen heading-prefix), met een extra gedupliceerde en afgebroken TOC-regel op lijn 78 (`-- Inbreng van algemeenheid...`). D3: Losstaande `[^23]` en `[^24]` op respectievelijk regels 227 en 244 zonder voorgaande aankondigingstekst — worden als verweesd anker gerenderd vóór de tabel. Tabellen en inhoud zijn verder volledig en goed opgemaakt.'
+    status: needs-rework
 themas:
   - boekjaar
   - begin van het boekjaar
@@ -14,68 +76,6 @@ themas:
   - promotor
   - Inbreng van een algemeenheid
   - periodiciteit
-bron: https://www.cbn-cnc.be/nl/adviezen/begin-van-het-boekjaar
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/begin-van-het-boekjaar
-      sha256: b442dbac8ff7b7731072ff57be43236eeeae2d8e535166126b18c96d96018a75
-      version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:37:31Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T12:21:40Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: 'A3: TOC-blok op regels 67-78 staat als plain-text nummering in de body (geen heading-prefix), met een extra gedupliceerde en afgebroken TOC-regel op lijn 78 (`-- Inbreng van algemeenheid...`). D3: Losstaande `[^23]` en `[^24]` op respectievelijk regels 227 en 244 zonder voorgaande aankondigingstekst — worden als verweesd anker gerenderd vóór de tabel. Tabellen en inhoud zijn verder volledig en goed opgemaakt.'
-    layer1:
-      status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 8
-      max_section_chars: 13209
-      file_size_chars: 28458
-      flags: []
-    layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:21:40Z'
-      rationale: 'A3: TOC-blok op regels 67-78 staat als plain-text nummering in de body (geen heading-prefix), met een extra gedupliceerde en afgebroken TOC-regel op lijn 78 (`-- Inbreng van algemeenheid...`). D3: Losstaande `[^23]` en `[^24]` op respectievelijk regels 227 en 244 zonder voorgaande aankondigingstekst — worden als verweesd anker gerenderd vóór de tabel. Tabellen en inhoud zijn verder volledig en goed opgemaakt.'
-      concrete_problemen:
-        - regel: 67
-          categorie: A3
-          type: other
-          voorbeeld: '1. Inleiding \n2. Het principe: het boekjaar start op de datum...'
-        - regel: 78
-          categorie: A3
-          type: other
-          voorbeeld: -- Inbreng van algemeenheid en inbreng van bedrijfstak tijdens de oprichting van een nieuwe vennootschap
-        - regel: 227
-          categorie: D3
-          type: other
-          voorbeeld: ' [^23]'
-        - regel: 244
-          categorie: D3
-          type: other
-          voorbeeld: ' [^24]'
-gerelateerde_adviezen:
-  - titel: Gevolgen verhoging groottecriteria voor (I)VZW’s en stichtingen
-    url: https://www.cbn-cnc.be/nl/adviezen/gevolgen-verhoging-groottecriteria-voor-ivzws-en-stichtingen
-    datum: '2024-09-19'
-  - titel: Gevolgen verhoging groottecriteria voor vennootschappen
-    url: https://www.cbn-cnc.be/nl/adviezen/gevolgen-verhoging-groottecriteria-voor-vennootschappen
-    datum: '2024-09-19'
-  - titel: Verslaggeving bij ontbinding en vereffening van een VZW of IVZW
-    url: https://www.cbn-cnc.be/nl/adviezen/verslaggeving-bij-ontbinding-en-vereffening-van-een-vzw-of-ivzw
-    datum: '2022-04-27'
-  - titel: Verslaggeving bij ontbinding en vereffening van BV, CV, NV, SE en SCE
-    url: https://www.cbn-cnc.be/nl/adviezen/verslaggeving-bij-ontbinding-en-vereffening-van-bv-cv-nv-se-en-sce
-    datum: '2022-04-01'
 ---
 
 # CBN-advies 2018/23 - Begin van het boekjaar
@@ -109,8 +109,7 @@ Hoewel de vennootschap bestaat vanaf haar oprichting[^4], verwerft ze pas een ei
 
 De Commissie wijst er echter op dat een bepaalde praktijk als aanvang van het boekjaar de datum van de oprichting van de vennootschap neemt, m.a.w. de datum van het verlijden van de authentieke akte voor de vennootschappen met beperkte aansprakelijkheid en de datum van het verlijden van de authentieke akte of de ondertekening van de onderhandse akte voor de vennootschappen met onbeperkte aansprakelijkheid.[^5] 
 
-De Commissie is van oordeel dat dit geen geschikte praktijk is. Voor zover het uittreksel uit de oprichtingsakte moet worden neergelegd binnen vijftien dagen na de dagtekening van de definitieve akte[^6]
- en binnen deze termijn wordt neergelegd, aanvaardt de Commissie als een tolerantie dat het begin van het boekjaar kan worden vastgelegd op de datum waarop de vennootschap wordt opgericht. De Commissie benadrukt hierbij dat deze termijn van vijftien dagen in de praktijk stilaan verdwijnt, omdat de notarissen gebruik maken van de elektronische neerlegging van het uittreksel uit de oprichtingsakte.
+De Commissie is van oordeel dat dit geen geschikte praktijk is. Voor zover het uittreksel uit de oprichtingsakte moet worden neergelegd binnen vijftien dagen na de dagtekening van de definitieve akte[^6] en binnen deze termijn wordt neergelegd, aanvaardt de Commissie als een tolerantie dat het begin van het boekjaar kan worden vastgelegd op de datum waarop de vennootschap wordt opgericht. De Commissie benadrukt hierbij dat deze termijn van vijftien dagen in de praktijk stilaan verdwijnt, omdat de notarissen gebruik maken van de elektronische neerlegging van het uittreksel uit de oprichtingsakte.
 
 De Commissie herinnert eraan dat de nieuwe vennootschap, die haar jaarrekening voor de eerste keer neerlegt[^7], de datum van neerlegging van het uittreksel uit haar oprichtingsakte ter griffie moet aanduiden op de eerste pagina van de neer te leggen jaarrekening bij de Balanscentrale en niet de datum van het verlijden of de ondertekening van haar oprichtingsakte noch de datum van publicatie in de Bijlagen bij het Belgisch Staatsblad.
 
@@ -148,8 +147,7 @@ Het bestuursorgaan van de nieuwe vennootschap kan, indien het dit relevant acht,
 
 Een promotor die zijn boekjaar afsluit per kalenderjaar verwerft op 1 september 20X0 een onroerend goed voor 100.000 EUR namens een vennootschap in oprichting en neemt dit onmiddellijk in gebruik voor de vennootschap in oprichting. Het onroerend goed wordt afgeschreven over een periode van 33 jaar. Deze verwerving wordt gefinancierd door middel van een banklening, gecontracteerd op 31 augustus 20X0, van 100.000 EUR met een looptijd van 15 jaar en een maandelijkse rente van 100 EUR. Vanaf 1 november 20X0 verhuurt de promotor een deel van het onroerend goed aan een derde tegen een maandelijkse huur van 300 EUR. Op 1 december 20X0 neemt de promotor onderhoudskosten voor het onroerend goed van 500 EUR ten laste.
 
-De kosten van het boekjaar 20X0 voor het onroerend goed[^19]
- bedragen meer dan de ontvangen huurprijs voor datzelfde boekjaar[^20]. Het overschot van de kosten ten opzichte van de opbrengsten van boekjaar 20X0 bedraagt 1.310,10 EUR[^21].
+De kosten van het boekjaar 20X0 voor het onroerend goed[^19] bedragen meer dan de ontvangen huurprijs voor datzelfde boekjaar[^20]. Het overschot van de kosten ten opzichte van de opbrengsten van boekjaar 20X0 bedraagt 1.310,10 EUR[^21].
 
 De jaarrekening over het boekjaar 20X0 wordt goedgekeurd door de algemene vergadering van de promotor op 15 mei 20X1.
 
@@ -240,8 +238,6 @@ Afschrijving van het onroerend goed tijdens acht maanden
 
 **Overname**
 
- [^23]
-
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 1730 | Kredietinstellingen – Schulden in rekening | 93.333,33 | |
@@ -256,8 +252,6 @@ Afschrijving van het onroerend goed tijdens acht maanden
 ### In hoofde van de nieuwe vennootschap
 
 **20X1 – Overname**
-
- [^24]
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
@@ -274,11 +268,9 @@ Afschrijving van het onroerend goed tijdens acht maanden
 
 ### Fusie en splitsing door oprichting van nieuwe vennootschap(pen)[^25] 
 
-De fusie door oprichting van een nieuwe vennootschap en de splitsing door oprichting van nieuwe vennootschappen zijn respectievelijk voltrokken zodra de nieuwe vennootschap is opgericht[^26]
- en zodra de nieuwe vennootschappen zijn opgericht[^27].
+De fusie door oprichting van een nieuwe vennootschap en de splitsing door oprichting van nieuwe vennootschappen zijn respectievelijk voltrokken zodra de nieuwe vennootschap is opgericht[^26] en zodra de nieuwe vennootschappen zijn opgericht[^27].
 
-Boekhoudkundig worden de fusie en splitsing echter van kracht op de datum, respectievelijk vermeld in het fusievoorstel “*vanaf welke de handelingen van de te ontbinden vennootschappen boekhoudkundig geacht worden te zijn verricht voor rekening van de nieuwe vennootschap*”[^28]
- en in het splitsingsvoorstel “*vanaf welke de handelingen van de te splitsen vennootschap boekhoudkundig geacht worden te zijn verricht voor rekening van een van de nieuwe vennootschappen*”[^29].
+Boekhoudkundig worden de fusie en splitsing echter van kracht op de datum, respectievelijk vermeld in het fusievoorstel “*vanaf welke de handelingen van de te ontbinden vennootschappen boekhoudkundig geacht worden te zijn verricht voor rekening van de nieuwe vennootschap*”[^28] en in het splitsingsvoorstel “*vanaf welke de handelingen van de te splitsen vennootschap boekhoudkundig geacht worden te zijn verricht voor rekening van een van de nieuwe vennootschappen*”[^29].
 
 Zoals het Hof van Cassatie er heeft aan herinnerd in zijn arrest van 12 juni 2014, “de krachtens deze wetsbepalingen te vermelden datum beoogt enkel een boekhoudkundige en niet een verbintenisrechtelijke retroactiviteit van de fusie of splitsing”[^30].
 
@@ -288,12 +280,9 @@ Naar het oordeel van de Commissie kan dergelijke retroactiviteit niet verder rei
  Bovendien mag de duur van het boekjaar, krachtens het periodiciteitsbeginsel, nooit langer zijn dan vierentwintig maanden min één kalenderdag.[^32] 
 
 De Commissie meent dat deze boekhoudkundige retroactiviteit zorgt voor een beter begrip van de fusie/splitsing in de jaarrekening. De jaarrekening van de nieuwe vennootschap(pen) start immers op de datum dat de fusie/splitsing boekhoudkundig van kracht wordt en de jaarrekening van de overgenomen vennootschappen of van de gesplitste vennootschap wordt de dag hiervoor afgesloten. Bovendien kan de boekhoudkundige neutraliteit van de fusie/splitsing het best gerespecteerd worden door de retroactieve start van het boekjaar.[^33]
- De Commissie verwijst in dit verband naar haar adviezen 2009/6[^34]
- en 2009/8[^35]
- m.b.t. de boekhoudkundige verwerking van respectievelijk fusies en splitsingen.
+ De Commissie verwijst in dit verband naar haar adviezen 2009/6[^34] en 2009/8[^35] m.b.t. de boekhoudkundige verwerking van respectievelijk fusies en splitsingen.
 
-### Inbreng van algemeenheid en inbreng van bedrijfstak tijdens de oprichting van een nieuwe vennootschap[^36] 
-
+Inbreng van algemeenheid en inbreng van bedrijfstak tijdens de oprichting van een nieuwe vennootschap[^36]
 In navolging van de fusies en splitsingen, vermeldt het voorstel van inbreng van algemeenheid of bedrijfstak de “<i>datum vanaf welke de verrichtingen van de vennootschap die de inbreng doet, boekhoudkundig geacht worden te zijn verricht voor rekening van een van de verkrijgende vennootschappen</i>”[^37].
 
 De Commissie is van mening dat hieruit volgt dat het boekjaar van de vennootschap(pen) opgericht naar aanleiding van de inbreng van een algemeenheid of een bedrijfstak van start gaat op de datum dat de inbreng boekhoudkundig van kracht wordt en niet, in afwijking van het bovenvermelde principe, randnr. 3, op de datum waarop de rechtspersoonlijkheid wordt verworven. Bovendien mag de duur van het boekjaar, krachtens het periodiciteitsbeginsel, nooit langer zijn dan vierentwintig maanden min één kalenderdag.[^38] 

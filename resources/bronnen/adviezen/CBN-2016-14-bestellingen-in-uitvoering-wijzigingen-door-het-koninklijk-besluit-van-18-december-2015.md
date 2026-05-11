@@ -1,56 +1,56 @@
 ---
-nummer: CBN-advies 2016/14
-datum: 2016-09-07
-themas:
-  - bestellingen in uitvoering
-  - compensatie
-  - ontvangen vooruitbetalingen op bestellingen
 bron: https://www.cbn-cnc.be/nl/adviezen/bestellingen-in-uitvoering-wijzigingen-door-het-koninklijk-besluit-van-18-december-2015
+datum: 2016-09-07
+gerelateerde_adviezen:
+  - datum: '2019-04-12'
+    titel: Gevolgen op gebied van financiële rapportering als gevolg van de brexit
+    url: https://www.cbn-cnc.be/nl/adviezen/gevolgen-op-gebied-van-financiele-rapportering-als-gevolg-van-de-brexit-0
+  - datum: '2015-09-30'
+    titel: Boekhoudkundige verwerking van de aankoop van een onroerend goed bestemd voor verkoop
+    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-aankoop-van-een-onroerend-goed-bestemd-voor-verkoop
+  - datum: '2012-10-10'
+    titel: Bestellingen in uitvoering
+    url: https://www.cbn-cnc.be/nl/adviezen/bestellingen-in-uitvoering
+  - datum: '2011-07-20'
+    titel: Boekhoudkundige verwerking van “onderzoeksfondsen” in de jaarrekening van grote en zeer grote verenigingen en stichtingen
+    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-onderzoeksfondsen-in-de-jaarrekening-van-grote-en-zeer
+nummer: CBN-advies 2016/14
 provenance:
+  generated_at: '2026-05-11T13:05:08Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/bestellingen-in-uitvoering-wijzigingen-door-het-koninklijk-besluit-van-18-december-2015
       sha256: b7f3b132d8a0aa0c0e8a09c62f4e9ae308e6357e47ff23fcb87d2ceba75cb368
       version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:37:00Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
   trust:
-    status: trusted
     confirmed_at: '2026-05-11T12:16:34Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: Schoon bestand. Zes headings correct genest (inclusief italic-geneste subheadings *Algemeen* en *Toepassingsvoorwaarden*). Genummerde randnummers (1–14) zijn als lopende tekst opgenomen, wat de stijl van het CBN-bronadvies weerspiegelt — dit is een bewuste opmaakkeuze, geen artefact. Voetnoten [^1]–[^15] volledig gedefinieerd. Geen tabellen in dit advies (correct, want geen boekingsvoorbeelden). Inhoud compleet.
     layer1:
       status: pass
-      run_id: 20260511-083333
-      run_at:
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:29Z'
       heading_count: 6
       max_section_chars: 2780
-      file_size_chars: 8890
+      file_size_chars: 8889
       flags: []
     layer2:
-      status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:16:34Z'
-      rationale: Schoon bestand. Zes headings correct genest (inclusief italic-geneste subheadings *Algemeen* en *Toepassingsvoorwaarden*). Genummerde randnummers (1–14) zijn als lopende tekst opgenomen, wat de stijl van het CBN-bronadvies weerspiegelt — dit is een bewuste opmaakkeuze, geen artefact. Voetnoten [^1]–[^15] volledig gedefinieerd. Geen tabellen in dit advies (correct, want geen boekingsvoorbeelden). Inhoud compleet.
       concrete_problemen: []
-gerelateerde_adviezen:
-  - titel: Gevolgen op gebied van financiële rapportering als gevolg van de brexit
-    url: https://www.cbn-cnc.be/nl/adviezen/gevolgen-op-gebied-van-financiele-rapportering-als-gevolg-van-de-brexit-0
-    datum: '2019-04-12'
-  - titel: Boekhoudkundige verwerking van de aankoop van een onroerend goed bestemd voor verkoop
-    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-aankoop-van-een-onroerend-goed-bestemd-voor-verkoop
-    datum: '2015-09-30'
-  - titel: Bestellingen in uitvoering
-    url: https://www.cbn-cnc.be/nl/adviezen/bestellingen-in-uitvoering
-    datum: '2012-10-10'
-  - titel: Boekhoudkundige verwerking van “onderzoeksfondsen” in de jaarrekening van grote en zeer grote verenigingen en stichtingen
-    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-onderzoeksfondsen-in-de-jaarrekening-van-grote-en-zeer
-    datum: '2011-07-20'
+      rationale: Schoon bestand. Zes headings correct genest (inclusief italic-geneste subheadings *Algemeen* en *Toepassingsvoorwaarden*). Genummerde randnummers (1–14) zijn als lopende tekst opgenomen, wat de stijl van het CBN-bronadvies weerspiegelt — dit is een bewuste opmaakkeuze, geen artefact. Voetnoten [^1]–[^15] volledig gedefinieerd. Geen tabellen in dit advies (correct, want geen boekingsvoorbeelden). Inhoud compleet.
+      run_at: '2026-05-11T12:16:34Z'
+      status: trusted
+    rationale: Schoon bestand. Zes headings correct genest (inclusief italic-geneste subheadings *Algemeen* en *Toepassingsvoorwaarden*). Genummerde randnummers (1–14) zijn als lopende tekst opgenomen, wat de stijl van het CBN-bronadvies weerspiegelt — dit is een bewuste opmaakkeuze, geen artefact. Voetnoten [^1]–[^15] volledig gedefinieerd. Geen tabellen in dit advies (correct, want geen boekingsvoorbeelden). Inhoud compleet.
+    status: trusted
+themas:
+  - bestellingen in uitvoering
+  - compensatie
+  - ontvangen vooruitbetalingen op bestellingen
 ---
 
 # CBN-advies 2016/14 – Bestellingen in uitvoering: wijzigingen door het koninklijk besluit van 18 december 2015
@@ -88,8 +88,7 @@ gerelateerde_adviezen:
 2. de goederen in bewerking die voor rekening van een derde op bestelling worden gemaakt en die nog niet werden geleverd, tenzij het gaat om seriewerk; 
 3. dienstprestaties die voor rekening van een derde op bestelling worden uitgevoerd en die nog niet werden geleverd, tenzij het gaat om een standaardtype van dienstprestaties.” 
 
-9. De Commissie benadrukt dat de toegelaten compensatie enkel *de balansvoorstelling* betreft van de posten *Bestellingen in uitvoering* en *Ontvangen vooruitbetalingen op bestellingen*. Dit houdt in dat per afzonderlijk project[^10]
- na opmaak van de eindinventaris een rechtstreekse (door afboeking en dus niet via resultatenrekening) saldering wordt toegepast van de bestellingen in uitvoering en de daarop ontvangen vooruitbetalingen, ongeacht de toegepaste winsttoerekeningsmethode (met name de *completed contract* methode of de *percentage of completion* methode).[^11] 
+9. De Commissie benadrukt dat de toegelaten compensatie enkel *de balansvoorstelling* betreft van de posten *Bestellingen in uitvoering* en *Ontvangen vooruitbetalingen op bestellingen*. Dit houdt in dat per afzonderlijk project[^10] na opmaak van de eindinventaris een rechtstreekse (door afboeking en dus niet via resultatenrekening) saldering wordt toegepast van de bestellingen in uitvoering en de daarop ontvangen vooruitbetalingen, ongeacht de toegepaste winsttoerekeningsmethode (met name de *completed contract* methode of de *percentage of completion* methode).[^11] 
 
 10. De Commissie wenst te benadrukken dat de compensatie per project dient te gebeuren en niet voor de globaliteit als loutere compensatie tussen de totale post Bestellingen in uitvoering op het actief en Ontvangen vooruitbetalingen op het passief van de balans.
 

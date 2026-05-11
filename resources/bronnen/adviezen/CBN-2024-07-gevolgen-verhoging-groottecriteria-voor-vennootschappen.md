@@ -1,6 +1,52 @@
 ---
-nummer: CBN-advies 2024/07
+bron: https://www.cbn-cnc.be/nl/adviezen/gevolgen-verhoging-groottecriteria-voor-vennootschappen
 datum: 2024-09-19
+gerelateerde_adviezen:
+  - datum: '2025-07-14'
+    titel: Groottecriteria verenigingen en stichtingen - schema van de jaarrekening – begroting (update) [ONTWERP]
+    url: https://www.cbn-cnc.be/nl/adviezen/groottecriteria-verenigingen-en-stichtingen-schema-van-de-jaarrekening-begroting-update
+  - datum: '2025-07-16'
+    titel: Beoordeling van de groottecriteria overeenkomstig artikelen 1:24 en 1:25 van het Wetboek van vennootschappen en verenigingen (update) [ONTWERP]
+    url: https://www.cbn-cnc.be/nl/adviezen/beoordeling-van-de-groottecriteria-overeenkomstig-artikelen-124-en-125-van-het-wetboek-0
+  - datum: '2024-09-19'
+    titel: Gevolgen verhoging groottecriteria voor (I)VZW’s en stichtingen
+    url: https://www.cbn-cnc.be/nl/adviezen/gevolgen-verhoging-groottecriteria-voor-ivzws-en-stichtingen
+  - datum: '2022-07-27'
+    titel: Consolidatie bij de horizontale groep (consortium)
+    url: https://www.cbn-cnc.be/nl/adviezen/consolidatie-bij-de-horizontale-groep-consortium-0
+nummer: CBN-advies 2024/07
+provenance:
+  generated_at: '2026-05-11T13:05:09Z'
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/gevolgen-verhoging-groottecriteria-voor-vennootschappen
+      sha256: 299811b111c18f8c8ab27667595381f3bb927885bed18c9fd42286b366236b9e
+      version:
+  stale: false
+  stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
+  trust:
+    confirmed_at:
+    confirmed_by:
+    layer1:
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:31Z'
+      heading_count: 7
+      max_section_chars: 9443
+      file_size_chars: 25645
+      flags: []
+    layer2:
+      agent:
+      concrete_problemen: []
+      rationale:
+      run_at:
+      status: not_run
+    rationale: 'Trust gereset 2026-05-11: re-scrape met scraper-fixes, content-diff > 5%'
+    status: unreviewed
 themas:
   - groottecriteria
   - drempels
@@ -10,68 +56,6 @@ themas:
   - balanstotaal
   - personeelsbestand
   - gebroken boekjaar
-bron: https://www.cbn-cnc.be/nl/adviezen/gevolgen-verhoging-groottecriteria-voor-vennootschappen
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/gevolgen-verhoging-groottecriteria-voor-vennootschappen
-      sha256: 299811b111c18f8c8ab27667595381f3bb927885bed18c9fd42286b366236b9e
-      version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:38:22Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T12:24:34Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: 'E1/E2: alle vier tabellen (regels 107-110, 138-141, 175-179, 196-200) missen de verplichte `|---|---|` scheidingsregel na de headerrij, waardoor het geen geldige markdown-tabellen zijn. Bovendien bevatten de tabellen structureel lege tussencellen (alternerende lege kolommen) die typisch zijn voor een PDF-extractie-artefact waarbij de kleur-highlight-kolommen als lege cellen werden meegenomen. Inhoud en voetnoten zijn volledig en correct.'
-    layer1:
-      status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 9
-      max_section_chars: 9444
-      file_size_chars: 25650
-      flags: []
-    layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:24:34Z'
-      rationale: 'E1/E2: alle vier tabellen (regels 107-110, 138-141, 175-179, 196-200) missen de verplichte `|---|---|` scheidingsregel na de headerrij, waardoor het geen geldige markdown-tabellen zijn. Bovendien bevatten de tabellen structureel lege tussencellen (alternerende lege kolommen) die typisch zijn voor een PDF-extractie-artefact waarbij de kleur-highlight-kolommen als lege cellen werden meegenomen. Inhoud en voetnoten zijn volledig en correct.'
-      concrete_problemen:
-        - regel: 107
-          categorie: E1
-          type: pseudo-table
-          voorbeeld: '| | | 31/12/2023 | | 31/12/2024 | | 31/12/2025 | (geen separator-rij, lege ghost-kolommen)'
-        - regel: 108
-          categorie: E2
-          type: pseudo-table
-          voorbeeld: '| Jaargemiddelde personeelsbestand | | 60 | | 60 | | 60 | (lege kolommen door PDF-kleur-extractie)'
-        - regel: 175
-          categorie: E1
-          type: pseudo-table
-          voorbeeld: '| **Einde 31.12** | | | | **31.12.2021** | | | | | | **31.12.2022** | ... (geen separator, veelvuldige lege cellen)'
-        - regel: 196
-          categorie: E1
-          type: pseudo-table
-          voorbeeld: '| **Einde 31.03** | | | | **31.03.2021** | | | | | | **31.03.2022** | ... (idem)'
-gerelateerde_adviezen:
-  - titel: Groottecriteria verenigingen en stichtingen - schema van de jaarrekening – begroting (update) [ONTWERP]
-    url: https://www.cbn-cnc.be/nl/adviezen/groottecriteria-verenigingen-en-stichtingen-schema-van-de-jaarrekening-begroting-update
-    datum: '2025-07-14'
-  - titel: Beoordeling van de groottecriteria overeenkomstig artikelen 1:24 en 1:25 van het Wetboek van vennootschappen en verenigingen (update) [ONTWERP]
-    url: https://www.cbn-cnc.be/nl/adviezen/beoordeling-van-de-groottecriteria-overeenkomstig-artikelen-124-en-125-van-het-wetboek-0
-    datum: '2025-07-16'
-  - titel: Gevolgen verhoging groottecriteria voor (I)VZW’s en stichtingen
-    url: https://www.cbn-cnc.be/nl/adviezen/gevolgen-verhoging-groottecriteria-voor-ivzws-en-stichtingen
-    datum: '2024-09-19'
-  - titel: Consolidatie bij de horizontale groep (consortium)
-    url: https://www.cbn-cnc.be/nl/adviezen/consolidatie-bij-de-horizontale-groep-consortium-0
-    datum: '2022-07-27'
 ---
 
 # CBN-advies 2024/07 – Gevolgen verhoging groottecriteria voor vennootschappen
@@ -80,7 +64,8 @@ gerelateerde_adviezen:
 
 De Europese Commissie verhoogde eind 2023 de drempelwaarden van de groottecriteria voor ondernemingen en groepen. Hiertoe nam ze de Gedelegeerde Richtlijn 2023/2775 van 17 oktober 2023 aan tot wijziging van Richtlijn 2013/34/EU van het Europees Parlement en de Raad wat betreft de aanpassingen van de groottecriteria voor micro-ondernemingen, kleine, middelgrote en grote ondernemingen of groepen[^2]. Deze verhoging werd doorgevoerd om rekening te houden met de hoge inflatiecijfers van de afgelopen jaren.[^3] 
 
-De Gedelegeerde Richtlijn 2023/2775 werd in België in eerste instantie omgezet door de Wet van 28 maart 2024 houdende bepalingen inzake digitalisering van justitie en diverse bepalingen Ibis[^4].[^5] Deze wet behandelt enkel de verhoging van de drempelwaarden in de artikelen 1:24, § 1, 1:25, § 1, en 1:26, § 1, van het Wetboek van vennootschappen en verenigingen (hierna: WVV), en betreft dus enkel de groottecriteria bij de vennootschappen en de groepen van beperkte omvang. De wet verhoogt daarnaast ook de drempelwaarden omvat in de artikelen 3:47 en 3:51 WVV die betrekking hebben op de mogelijkheid van verenigingen en stichtingen om een jaarrekening op te stellen naar een vereenvoudigd model. De Wet van 28 maart 2024 werd geamendeerd door de Wet van 15 mei 2024 houdende bepalingen inzake digitalisering van justitie en diverse bepalingen II[^6], waarbij er een overgangsregeling werd toegevoegd aan de inwerkingtreding van de verhoogde criteria.
+De Gedelegeerde Richtlijn 2023/2775 werd in België in eerste instantie omgezet door de Wet van 28 maart 2024 houdende bepalingen inzake digitalisering van justitie en diverse bepalingen Ibis[^4].[^5]
+ Deze wet behandelt enkel de verhoging van de drempelwaarden in de artikelen 1:24, § 1, 1:25, § 1, en 1:26, § 1, van het Wetboek van vennootschappen en verenigingen (hierna: WVV), en betreft dus enkel de groottecriteria bij de vennootschappen en de groepen van beperkte omvang. De wet verhoogt daarnaast ook de drempelwaarden omvat in de artikelen 3:47 en 3:51 WVV die betrekking hebben op de mogelijkheid van verenigingen en stichtingen om een jaarrekening op te stellen naar een vereenvoudigd model. De Wet van 28 maart 2024 werd geamendeerd door de Wet van 15 mei 2024 houdende bepalingen inzake digitalisering van justitie en diverse bepalingen II[^6], waarbij er een overgangsregeling werd toegevoegd aan de inwerkingtreding van de verhoogde criteria.
 
 De groottecriteria voor de verenigingen en stichtingen werden verhoogd door het koninklijk besluit van 25 mei 2024 tot wijziging van het Wetboek van vennootschappen en verenigingen wat betreft de groottecriteria voor micro- en kleine verenigingen en stichtingen[^7]. De verhoging van de groottecriteria bij verenigingen en stichtingen wordt in een afzonderlijk advies behandeld.
 
@@ -96,15 +81,18 @@ De drempelwaarden in verband met het jaargemiddelde van het aantal werknemers wo
 
 ## Inwerkingtreding
 
-De Gedelegeerde Richtlijn 2023/2775 draagt de lidstaten op om de wetsbepalingen die de richtlijn omzetten uiterlijk van toepassing te maken op boekjaren die beginnen op of na 1 januari 2024, opdat ondernemingen of groepen zo spoedig mogelijk kunnen gebruik maken van de bijgestelde drempelwaarden.[^11] De richtlijn laat de lidstaten bovendien de ruimte om de verhoogde criteria toe te passen op boekjaren die beginnen op of na 1 januari 2023.[^12] 
+De Gedelegeerde Richtlijn 2023/2775 draagt de lidstaten op om de wetsbepalingen die de richtlijn omzetten uiterlijk van toepassing te maken op boekjaren die beginnen op of na 1 januari 2024, opdat ondernemingen of groepen zo spoedig mogelijk kunnen gebruik maken van de bijgestelde drempelwaarden.[^11]
+ De richtlijn laat de lidstaten bovendien de ruimte om de verhoogde criteria toe te passen op boekjaren die beginnen op of na 1 januari 2023.[^12] 
 
-De Wet van 28 maart 2024 stelt dat de verhoogde groottecriteria bij de vennootschappen “*van toepassing [zijn] op de boekjaren die een aanvang nemen na 31 december 2023*”.[^13] Het zijn dus de nieuwe, verhoogde drempelwaarden die gebruikt moeten worden om de grootte te bepalen van een vennootschap met betrekking tot diens eerste boekjaar dat aanvang heeft genomen na 31 december 2023. 
+De Wet van 28 maart 2024 stelt dat de verhoogde groottecriteria bij de vennootschappen “*van toepassing [zijn] op de boekjaren die een aanvang nemen na 31 december 2023*”.[^13]
+ Het zijn dus de nieuwe, verhoogde drempelwaarden die gebruikt moeten worden om de grootte te bepalen van een vennootschap met betrekking tot diens eerste boekjaar dat aanvang heeft genomen na 31 december 2023. 
 
 De Wet van 15 mei 2024 voegde hier de volgende overgangsbepaling aan toe:
 
 “De regels die zijn opgenomen in de artikelen 1:24, § 2, 1:25, § 2, en 1:26, § 2, van het Wetboek van vennootschappen en verenigingen, zijn voor één keer niet van toepassing op de opstelling en de openbaarmaking van de jaarrekeningen die de ondernemingen afsluiten na 31 december 2023. Voor die afsluiting wordt enkel rekening gehouden met de in de artikelen 147, 148 en 149 bedoelde verhoogde bedragen voor de jaaromzet en het balanstotaal van het betrokken boekjaar.”[^14] 
 
-Om te bepalen of een vennootschap[^15] in een boekjaar dat is aangevangen na 31 december 2023 klein dan wel ‘groot’[^16] is, moet men enkel de cijfers van het boekjaar met betrekking tot de eerst op te stellen jaarrekening die een eindeboekjaardatum heeft na 31 december 2023 toetsen aan de (thans verhoogde) groottecriteria.[^17] De uitgestelde werking wordt bij deze afsluiting eenmalig uitgesloten, waardoor de cijfers van de twee voorgaande boekjaren uitzonderlijk niet aan de groottecriteria moeten worden getoetst. 
+Om te bepalen of een vennootschap[^15] in een boekjaar dat is aangevangen na 31 december 2023 klein dan wel ‘groot’[^16] is, moet men enkel de cijfers van het boekjaar met betrekking tot de eerst op te stellen jaarrekening die een eindeboekjaardatum heeft na 31 december 2023 toetsen aan de (thans verhoogde) groottecriteria.[^17]
+ De uitgestelde werking wordt bij deze afsluiting eenmalig uitgesloten, waardoor de cijfers van de twee voorgaande boekjaren uitzonderlijk niet aan de groottecriteria moeten worden getoetst. 
 
 De precieze bewoordingen van de overgangsbepaling uit artikel 170 van de Wet van 28 maart 2024 zorgen ervoor dat er een verschil in werking is tussen een vennootschap die een boekjaar hanteert die gelijkloopt met een kalenderjaar, en een vennootschap die een gebroken boekjaar hanteert.
 
@@ -137,7 +125,8 @@ Bijgevolg wordt de vennootschap voor het boekjaar 2024 meteen aangemerkt als een
 
 Vanaf het daaropvolgende boekjaar, met name het boekjaar dat aanvangt op 1 januari 2025, geldt opnieuw de gewone regeling, met name dat wanneer meer dan één van de criteria vermeld in artikel 1:24 WVV worden overschreden of niet meer worden overschreden, dit slechts gevolgen heeft wanneer dit zich gedurende twee opeenvolgende boekjaren voordoet. De gevolgen hiervan gaan in dat geval in vanaf het boekjaar dat volgt op het boekjaar gedurende hetwelk, op balansdatum, meer dan één van de criteria voor de tweede keer werden overschreden of niet meer werden overschreden. 
 
-Op balansdatum 31 december 2024 heeft de vennootschap maar één van de criteria overschreden. Ook op balansdatum 31 december 2023 werd er maar één van de (verhoogde) drempelwaarden overschreden.[^22] De vennootschap blijft klein in boekjaar 2025. 
+Op balansdatum 31 december 2024 heeft de vennootschap maar één van de criteria overschreden. Ook op balansdatum 31 december 2023 werd er maar één van de (verhoogde) drempelwaarden overschreden.[^22]
+ De vennootschap blijft klein in boekjaar 2025. 
 
 Op balansdatum 31 december 2025 heeft de vennootschap meer dan één van de criteria overschreden:
 
@@ -184,9 +173,9 @@ Op balansdatum 31 maart 2026 heeft de vennootschap meer dan één van de criteri
 
 Op balansdatum 31 maart 2026 werd opnieuw meer dan één van de criteria overschreden. Bijgevolg wordt de vennootschap nog steeds als een “grote” vennootschap aangemerkt voor het boekjaar dat aanvangt op 1 april 2026. 
 
-### Voorbeeld 3: impact van de verhoging van de criteria op langere termijn waarbij het boekjaar gelijk loopt met het kalenderjaar
-
-Veronderstel een vennootschap met een einde boekjaardatum van 31 december. De cijfers in het rood geven aan wanneer de criteria[^25] werden overschreden.[^26] Om de grootte van de vennootschap te bepalen in boekjaren die aanvatten na 31 december 2023 moet men de verhoogde drempelwaarden gebruiken. 
+Voorbeeld 3: impact van de verhoging van de criteria op langere termijn waarbij het boekjaar gelijk loopt met het kalenderjaar
+Veronderstel een vennootschap met een einde boekjaardatum van 31 december. De cijfers in het rood geven aan wanneer de criteria[^25] werden overschreden.[^26]
+ Om de grootte van de vennootschap te bepalen in boekjaren die aanvatten na 31 december 2023 moet men de verhoogde drempelwaarden gebruiken. 
 
 | **Einde 31.12** | | | | **31.12.2021** | | | | | | **31.12.2022** | | | | **31.12.2023** | | | | | | **31.12.2024** | | | | | | **31.12.2025** | | | | | | **31.12.2026** | | | 
 | Personeel | | 60 | | 60 | | 60 | | 60 | | 60 | | 60 | 
@@ -204,8 +193,7 @@ De vennootschap zal in boekjaar 2026 worden gekwalificeerd als zijnde een kleine
 
 De vennootschap zal in boekjaar 2027 worden gekwalificeerd als zijnde een ‘grote’ vennootschap (wegens het overschrijden van meer dan één van de verhoogde drempelwaarden op balansdata 31 december 2025 en 31 december 2026).
 
-### Voorbeeld 4: impact van de verhoging van de criteria op langere termijn waarbij het boekjaar niet gelijk loopt met het kalenderjaar
-
+Voorbeeld 4: impact van de verhoging van de criteria op langere termijn waarbij het boekjaar niet gelijk loopt met het kalenderjaar
 Veronderstel een vennootschap met een einde boekjaardatum van 31 maart. De cijfers in het rood geven aan wanneer de criteria werden overschreden.[^29]
  Om de grootte van de vennootschap te bepalen in boekjaren die aanvatten na 31 december 2023 moet men de verhoogde drempelwaarden gebruiken.
 
@@ -237,13 +225,12 @@ SUBCO1: dochtervennootschap van MIDCO; afsluitingsdatum boekjaar 31/12
 
 SUBCO2: dochtervennootschap van MIDCO; afsluitingsdatum boekjaar 31/03
 
-Bij moedervennootschappen[^30], zoals in dit voorbeeld TOPCO en MIDCO, gebeurt de beoordeling van de grootte niet op enkelvoudige basis, maar op geconsolideerde of geaggregeerde basis.[^31] SUBCO1 en SUBCO2 zijn geen moedervennootschappen, dus bij deze vennootschappen gebeurt de beoordeling van de groottecriteria op enkelvoudige basis.
+Bij moedervennootschappen[^30], zoals in dit voorbeeld TOPCO en MIDCO, gebeurt de beoordeling van de grootte niet op enkelvoudige basis, maar op geconsolideerde of geaggregeerde basis.[^31]
+ SUBCO1 en SUBCO2 zijn geen moedervennootschappen, dus bij deze vennootschappen gebeurt de beoordeling van de groottecriteria op enkelvoudige basis.
 
 De beoordeling van de grootte van TOPCO voor het boekjaar dat start op 01/07/2024[^32] gebeurt aldus op basis van:
 
-1. de geconsolideerde cijfers van TOPCO op 30/06/2024[^33]
- (consolidatie TOPCO, MIDCO, SUBCO1 en SUBCO2, rekening houdend met de gegevens op 30/06/2024[^34]
- voor elke vennootschap); of 
+1. de geconsolideerde cijfers van TOPCO op 30/06/2024[^33] (consolidatie TOPCO, MIDCO, SUBCO1 en SUBCO2, rekening houdend met de gegevens op 30/06/2024[^34] voor elke vennootschap); of 
 2. de geaggregeerde cijfers (+ 20%-methode) van TOPCO 30/06/2024; MIDCO 31/12/2023; SUBCO1 31/12/2023; SUBCO2 31/03/2024. 
 
 De beoordeling van de grootte van MIDCO voor het boekjaar dat start op 01/01/2024[^35] gebeurt op basis van:

@@ -1,68 +1,68 @@
 ---
-nummer: CBN-advies 2017/13
-datum: 2017-05-31
-themas:
-  - aanschaffingswaarde
-  - borgstelling
-  - intercalaire interesten
 bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-vergoeding-voor-een-borg-in-het-kader-van-de
+datum: 2017-05-31
+gerelateerde_adviezen:
+  - datum: '2021-03-15'
+    titel: Aanschaffingswaarde bij de aankoop van een goed tegen betaling van een vaste prijs, verschuldigd over een periode van meer dan één jaar
+    url: https://www.cbn-cnc.be/nl/adviezen/aanschaffingswaarde-bij-de-aankoop-van-een-goed-tegen-betaling-van-een-vaste-prijs-0
+  - datum: '2019-03-12'
+    titel: Dividenduitkering en kapitaalvermindering in natura
+    url: https://www.cbn-cnc.be/nl/adviezen/dividenduitkering-en-kapitaalvermindering-in-natura-0
+  - datum: '2013-05-08'
+    titel: De boekhoudkundige verwerking van een herziening van de btw op een aangekocht bedrijfsmiddel
+    url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-een-herziening-van-de-btw-op-een-aangekocht
+  - datum: '2012-10-10'
+    titel: De boekhoudkundige verwerking van  immateriële vaste activa
+    url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-immateriele-vaste-activa
+nummer: CBN-advies 2017/13
 provenance:
+  generated_at: '2026-05-11T13:05:08Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-vergoeding-voor-een-borg-in-het-kader-van-de
       sha256: a5072da0a6f51c6e36822312fb6e24f53efabd76b5b4c74bf8b5e87ad25b178c
       version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:37:13Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
   trust:
-    status: needs-rework
     confirmed_at: '2026-05-11T12:16:35Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "B1/B2: heading_count = 0 — het volledige advies heeft geen enkele ## heading. Inhoud staat als één ongestructureerde blok, wat RAG-chunking ernstig bemoeilijkt. A4: Regel 76 bevat U+2010 (non-breaking hyphen) in '2015/9 ‐ Boekhoudkundige' — onzichtbaar unicode-artefact. D4: Regel 66 bevat '*rente *op vreemd vermogen' met spatie voor sluitende asterisk."
     layer1:
       status: pass
-      run_id: 20260511-083333
-      run_at:
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:29Z'
       heading_count: 0
-      max_section_chars: 3156
-      file_size_chars: 3156
+      max_section_chars: 3155
+      file_size_chars: 3155
       flags: []
     layer2:
-      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:16:35Z'
-      rationale: "B1/B2: heading_count = 0 — het volledige advies heeft geen enkele ## heading. Inhoud staat als één ongestructureerde blok, wat RAG-chunking ernstig bemoeilijkt. A4: Regel 76 bevat U+2010 (non-breaking hyphen) in '2015/9 ‐ Boekhoudkundige' — onzichtbaar unicode-artefact. D4: Regel 66 bevat '*rente *op vreemd vermogen' met spatie voor sluitende asterisk."
       concrete_problemen:
-        - regel: 56
-          categorie: B1
+        - categorie: B1
+          regel: 56
           type: other
           voorbeeld: 'Volledig advies zonder ## headings (heading_count=0); inhoud als één blok'
-        - regel: 66
-          categorie: D4
+        - categorie: D4
+          regel: 66
           type: other
           voorbeeld: '"*rente *op vreemd vermogen"[^5] beoogd'
-        - regel: 76
-          categorie: A4
+        - categorie: A4
+          regel: 76
           type: other
           voorbeeld: CBN-advies 2015/9 ‐ Boekhoudkundige verwerking (U+2010 non-breaking hyphen)
-gerelateerde_adviezen:
-  - titel: Aanschaffingswaarde bij de aankoop van een goed tegen betaling van een vaste prijs, verschuldigd over een periode van meer dan één jaar
-    url: https://www.cbn-cnc.be/nl/adviezen/aanschaffingswaarde-bij-de-aankoop-van-een-goed-tegen-betaling-van-een-vaste-prijs-0
-    datum: '2021-03-15'
-  - titel: Dividenduitkering en kapitaalvermindering in natura
-    url: https://www.cbn-cnc.be/nl/adviezen/dividenduitkering-en-kapitaalvermindering-in-natura-0
-    datum: '2019-03-12'
-  - titel: De boekhoudkundige verwerking van een herziening van de btw op een aangekocht bedrijfsmiddel
-    url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-een-herziening-van-de-btw-op-een-aangekocht
-    datum: '2013-05-08'
-  - titel: De boekhoudkundige verwerking van  immateriële vaste activa
-    url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-immateriele-vaste-activa
-    datum: '2012-10-10'
+      rationale: 'B1/B2: heading_count = 0 — het volledige advies heeft geen enkele ## heading. Inhoud staat als één ongestructureerde blok, wat RAG-chunking ernstig bemoeilijkt. A4: Regel 76 bevat U+2010 (non-breaking hyphen) in ''2015/9 ‐ Boekhoudkundige'' — onzichtbaar unicode-artefact. D4: Regel 66 bevat ''*rente *op vreemd vermogen'' met spatie voor sluitende asterisk.'
+      run_at: '2026-05-11T12:16:35Z'
+      status: needs-rework
+    rationale: 'B1/B2: heading_count = 0 — het volledige advies heeft geen enkele ## heading. Inhoud staat als één ongestructureerde blok, wat RAG-chunking ernstig bemoeilijkt. A4: Regel 76 bevat U+2010 (non-breaking hyphen) in ''2015/9 ‐ Boekhoudkundige'' — onzichtbaar unicode-artefact. D4: Regel 66 bevat ''*rente *op vreemd vermogen'' met spatie voor sluitende asterisk.'
+    status: needs-rework
+themas:
+  - aanschaffingswaarde
+  - borgstelling
+  - intercalaire interesten
 ---
 
 # CBN-advies 2017/13 – Boekhoudkundige verwerking van de vergoeding voor een borg in het kader van de financiering van een voor verkoop bestemd onroerend goed
@@ -75,9 +75,9 @@ Voorts verwijst de Commissie naar de CBN-adviezen 2015/8 over de boekhoudkundige
 
 De Commissie is van mening dat de vergoeding die de vennootschap betaalt aan de derde om zich borg stellen ten opzichte van de bank niet op overeenkomstige wijze kan worden geboekt als de intercalaire interesten.
 
-In artikel 38 van het KB W.Venn. wordt uitsluitend de “*rente *op vreemd vermogen”[^5] beoogd en niet elke financiële kost die verbonden is aan het vreemd vermogen; aangezien het artikel een uitzondering betreft, moet het beperkend worden geïnterpreteerd.[^6] 
+In artikel 38 van het KB W.Venn. wordt uitsluitend de “*rente* op vreemd vermogen”[^5] beoogd en niet elke financiële kost die verbonden is aan het vreemd vermogen; aangezien het artikel een uitzondering betreft, moet het beperkend worden geïnterpreteerd.[^6] 
 
-Bijgevolg dient de vennootschap overeenkomstig artikel 33, tweede lid, KB W.Venn. de aan de derde betaalde vergoeding in resultaat te nemen gedurende het boekjaar waarop de vergoeding betrekking heeft en mag deze vergoeding niet worden opgenomen in de vervaardigingsprijs van het onroerend goed.  
+Bijgevolg dient de vennootschap overeenkomstig artikel 33, tweede lid, KB W.Venn. de aan de derde betaalde vergoeding in resultaat te nemen gedurende het boekjaar waarop de vergoeding betrekking heeft en mag deze vergoeding niet worden opgenomen in de vervaardigingsprijs van het onroerend goed. 
 
 [^1]: Onderhavig advies is tot stand gekomen nadat een ontwerp van het advies op 30 maart 2017 ter consultatie werd gepubliceerd op de website van de CBN.
 
@@ -85,7 +85,7 @@ Bijgevolg dient de vennootschap overeenkomstig artikel 33, tweede lid, KB W.Venn
 
 [^3]: CBN-advies 132/7 – Boeking en waardering van voorraden, Bulletin CBN, nr. 36, november 1996, 2-37, herzien op 6 oktober 2010.
 
-[^4]: CBN-advies 2015/9 ‐ Boekhoudkundige verwerking van geactiveerde intercalaire interesten, 9 december 2015.
+[^4]: CBN-advies 2015/9 - Boekhoudkundige verwerking van geactiveerde intercalaire interesten, 9 december 2015.
 
 [^5]: Zie ook de Richtlijn 2013/34/EU van 26 juni 2013 van het Europees Parlement en van de Raad betreffende de jaarlijkse financiële overzichten, geconsolideerde financiële overzichten en aanverwante verslagen van bepaalde ondernemingsvormen, tot wijziging van Richtlijn 2006/43/EG van het Europees Parlement en de Raad en tot intrekking van Richtlijnen 78/660/EEG en 83/349/EEG van de Raad, P.B.E.U., L 182/19, 29 juni 2013, art. 12, § 8.
 

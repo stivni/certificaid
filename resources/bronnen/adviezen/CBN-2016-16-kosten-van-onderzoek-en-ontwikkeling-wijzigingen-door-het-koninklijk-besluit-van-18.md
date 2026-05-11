@@ -1,57 +1,57 @@
 ---
-nummer: CBN-advies 2016/16
+bron: https://www.cbn-cnc.be/nl/adviezen/kosten-van-onderzoek-en-ontwikkeling-wijzigingen-door-het-koninklijk-besluit-van-18
 datum: 2016-09-07
+gerelateerde_adviezen:
+  - datum: '2025-07-14'
+    titel: De boekhoudkundige verwerking van immateriële vaste activa (update) [ONTWERP]
+    url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-immateriele-vaste-activa-update-ontwerp
+  - datum: '2018-05-30'
+    titel: Tax shelter voor podiumkunsten
+    url: https://www.cbn-cnc.be/nl/adviezen/tax-shelter-voor-podiumkunsten
+  - datum: '2018-03-21'
+    titel: Aftrek voor innovatie-inkomsten
+    url: https://www.cbn-cnc.be/nl/adviezen/aftrek-voor-innovatie-inkomsten
+  - datum: '2016-12-14'
+    titel: 'Kosten van onderzoek en ontwikkeling: onderscheid tussen onderzoek en ontwikkeling - verduidelijking'
+    url: https://www.cbn-cnc.be/nl/adviezen/kosten-van-onderzoek-en-ontwikkeling-onderscheid-tussen-onderzoek-en-ontwikkeling
+nummer: CBN-advies 2016/16
+provenance:
+  generated_at: '2026-05-11T13:05:08Z'
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/kosten-van-onderzoek-en-ontwikkeling-wijzigingen-door-het-koninklijk-besluit-van-18
+      sha256: c009b0557cab54eeb87dd8a0583fc25602cfbfeecfbfd754605bcced159abb57
+      version:
+  stale: false
+  stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
+  trust:
+    confirmed_at:
+    confirmed_by:
+    layer1:
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:29Z'
+      heading_count: 10
+      max_section_chars: 10103
+      file_size_chars: 17046
+      flags: []
+    layer2:
+      agent:
+      concrete_problemen: []
+      rationale:
+      run_at:
+      status: not_run
+    rationale: 'Trust gereset 2026-05-11: re-scrape met scraper-fixes, content-diff > 5%'
+    status: unreviewed
 themas:
   - immateriële vaste activa
   - kosten van onderzoek en ontwikkeling
   - onderzoekskost
   - ontwikkelingskost
-bron: https://www.cbn-cnc.be/nl/adviezen/kosten-van-onderzoek-en-ontwikkeling-wijzigingen-door-het-koninklijk-besluit-van-18
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/kosten-van-onderzoek-en-ontwikkeling-wijzigingen-door-het-koninklijk-besluit-van-18
-      sha256: c009b0557cab54eeb87dd8a0583fc25602cfbfeecfbfd754605bcced159abb57
-      version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:37:01Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: trusted
-    confirmed_at: '2026-05-11T12:16:34Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: 'Kwalitatief sterk bestand. Tien headings correct genest over drie niveaus. Voetnoten [^1]–[^12] volledig gedefinieerd. Geen tabellen (correct voor dit type advies). Tekst doorlopend en coherent. Geen extractie-artefacten, TOC-residu, form-feed of malformed italic aangetroffen. Inhoud volledig: algemene principes, kosten van onderzoek, kosten van ontwikkeling en overgangsbepaling alle aanwezig.'
-    layer1:
-      status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 10
-      max_section_chars: 10102
-      file_size_chars: 17042
-      flags: []
-    layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:16:34Z'
-      rationale: 'Kwalitatief sterk bestand. Tien headings correct genest over drie niveaus. Voetnoten [^1]–[^12] volledig gedefinieerd. Geen tabellen (correct voor dit type advies). Tekst doorlopend en coherent. Geen extractie-artefacten, TOC-residu, form-feed of malformed italic aangetroffen. Inhoud volledig: algemene principes, kosten van onderzoek, kosten van ontwikkeling en overgangsbepaling alle aanwezig.'
-      concrete_problemen: []
-gerelateerde_adviezen:
-  - titel: De boekhoudkundige verwerking van immateriële vaste activa (update) [ONTWERP]
-    url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-immateriele-vaste-activa-update-ontwerp
-    datum: '2025-07-14'
-  - titel: Tax shelter voor podiumkunsten
-    url: https://www.cbn-cnc.be/nl/adviezen/tax-shelter-voor-podiumkunsten
-    datum: '2018-05-30'
-  - titel: Aftrek voor innovatie-inkomsten
-    url: https://www.cbn-cnc.be/nl/adviezen/aftrek-voor-innovatie-inkomsten
-    datum: '2018-03-21'
-  - titel: 'Kosten van onderzoek en ontwikkeling: onderscheid tussen onderzoek en ontwikkeling - verduidelijking'
-    url: https://www.cbn-cnc.be/nl/adviezen/kosten-van-onderzoek-en-ontwikkeling-onderscheid-tussen-onderzoek-en-ontwikkeling
-    datum: '2016-12-14'
 ---
 
 # CBN-advies 2016/16 – Kosten van onderzoek en ontwikkeling: wijzigingen door het koninklijk besluit van 18 december 2015
@@ -62,9 +62,11 @@ De Commissie beoogt in dit advies de wijzigingen te verduidelijken met betrekkin
 
 In zowel het volledige als het verkorte schema van de jaarrekening wordt op het actief van de balans een post *II. Immateriële vaste activa* voorzien. Onder de immateriële vaste activa moet worden verstaan, de ondernemingsmiddelen van onlichamelijke aard die bestemd zijn om duurzaam voor de bedrijfsactiviteit te worden gebruikt, en waaruit naar verwachting toekomstige economische voordelen naar de onderneming zullen vloeien. De algemene beginselen inzake de immateriële vaste activa en de boekhoudkundige verwerking daarvan worden uitvoerig uiteengezet in CBN-advies 2012/13 – De boekhoudkundige verwerking van immateriële vaste activa.
 
-Het koninklijk besluit van 18 december 2015 tot omzetting van Richtlijn 2013/34/EU van 26 juni 2013 van het Europees Parlement en van de Raad betreffende de jaarlijkse financiële overzichten, geconsolideerde financiële overzichten en aanverwante verslagen van bepaalde ondernemingsvormen, tot wijziging van Richtlijn 2006/43/EG van het Europees Parlement en de Raad en tot intrekking van Richtlijnen 78/660/EEG en 83/349/EEG van de Raad[^2], heeft een aantal wijzigingen aangebracht aan het schema van de balans en de indeling van de post *Immateriële vaste activa*. Meer bepaald mogen ingevolge de nieuwe wettelijke bepalingen en bijgevolg de nieuwe schema’s van de balans die als bijlage bij de richtlijn zijn opgenomen, de kosten van onderzoek niet meer op de balans komen.[^3] Voortaan[^4] kunnen dus enkel nog de kosten van ontwikkeling op de balans geactiveerd worden. 
+Het koninklijk besluit van 18 december 2015 tot omzetting van Richtlijn 2013/34/EU van 26 juni 2013 van het Europees Parlement en van de Raad betreffende de jaarlijkse financiële overzichten, geconsolideerde financiële overzichten en aanverwante verslagen van bepaalde ondernemingsvormen, tot wijziging van Richtlijn 2006/43/EG van het Europees Parlement en de Raad en tot intrekking van Richtlijnen 78/660/EEG en 83/349/EEG van de Raad[^2], heeft een aantal wijzigingen aangebracht aan het schema van de balans en de indeling van de post *Immateriële vaste activa*. Meer bepaald mogen ingevolge de nieuwe wettelijke bepalingen en bijgevolg de nieuwe schema’s van de balans die als bijlage bij de richtlijn zijn opgenomen, de kosten van onderzoek niet meer op de balans komen.[^3]
+ Voortaan[^4] kunnen dus enkel nog de kosten van ontwikkeling op de balans geactiveerd worden. 
 
-De Commissie stelt vast dat het Verslag aan de Koning bij het koninklijk besluit van 18 december 2015 een boekingswijze voorstelt voor wat betreft de kosten van onderzoek gemaakt tijdens een boekjaar dat ten vroegste aanvangt op 1 januari 2016 en die vóór de omzetting van de Richtlijn wel zouden voldaan hebben aan de voorwaarden om te worden opgenomen onder de immateriële vaste activa.[^5] De Commissie benadrukt hierbij dat het niet de bedoeling is dat uitgaven die voorheen niet in aanmerking kwamen voor activering op grond van onderstaande definitie van immaterieel vast actief (zie *infra*, randnummer 5)[^6], nu zouden worden geactiveerd als kosten van onderzoek.
+De Commissie stelt vast dat het Verslag aan de Koning bij het koninklijk besluit van 18 december 2015 een boekingswijze voorstelt voor wat betreft de kosten van onderzoek gemaakt tijdens een boekjaar dat ten vroegste aanvangt op 1 januari 2016 en die vóór de omzetting van de Richtlijn wel zouden voldaan hebben aan de voorwaarden om te worden opgenomen onder de immateriële vaste activa.[^5]
+ De Commissie benadrukt hierbij dat het niet de bedoeling is dat uitgaven die voorheen niet in aanmerking kwamen voor activering op grond van onderstaande definitie van immaterieel vast actief (zie *infra*, randnummer 5)[^6], nu zouden worden geactiveerd als kosten van onderzoek.
 
 Daarnaast voert het voormelde koninklijk besluit een wijziging door met betrekking tot de afschrijvingen van geactiveerde kosten van ontwikkeling.[^7] 
 
@@ -84,11 +86,12 @@ Wanneer niet aan deze voorwaarden is voldaan, impliceert dit dat het investering
 
 ### Toepassingsgebied
 
-Voor kosten gemaakt tijdens het boekjaar dat aanvangt op 1 januari 2016 of later moet rekening worden gehouden met de voorwaarde die Richtlijn 2013/34/EU (cfr. *supra*) stelt, namelijk dat kosten van onderzoek niet meer op de balans mogen voorkomen. Het voormelde koninklijk besluit van 18 december 2015 wijzigt dan ook de inhoud van de rubriek *Immateriële vaste activa* in die zin.
+Voor kosten gemaakt tijdens het boekjaar dat aanvangt op 1 januari 2016 of later moet rekening worden gehouden met de voorwaarde die Richtlijn 2013/34/EU (cfr. *supra*) stelt, namelijk dat kosten van onderzoek niet meer op de balans mogen voorkomen. Het voormelde koninklijk besluit van 18 december 2015 wijzigt dan ook de inhoud van de rubriek* Immateriële vaste activa* in die zin.
 
 Onder “onderzoek” moet worden verstaan, de originele, systematisch uitgevoerde werkzaamheden, in de hoop inzicht te verkrijgen en nieuwe wetenschappelijke of technische kennis te verwerven.[^8] 
 
-Het voormelde KB van 18 december 2015 heeft daarentegen geen wijzigingen aangebracht aan het stelsel van de activering van de kosten van ontwikkeling.[^9] Onder “ontwikkeling” wordt verstaan de concrete uitvoering van ontwerpen of studies voor de productie van nieuwe of aanzienlijk verbeterde materialen, werktuigen, producten, procedés, systemen of diensten door gebruik te maken van ontdekkingen of verworven kennis alvorens een productie te starten die kan worden gecommercialiseerd.
+Het voormelde KB van 18 december 2015 heeft daarentegen geen wijzigingen aangebracht aan het stelsel van de activering van de kosten van ontwikkeling.[^9]
+ Onder “ontwikkeling” wordt verstaan de concrete uitvoering van ontwerpen of studies voor de productie van nieuwe of aanzienlijk verbeterde materialen, werktuigen, producten, procedés, systemen of diensten door gebruik te maken van ontdekkingen of verworven kennis alvorens een productie te starten die kan worden gecommercialiseerd.
 
 ### Leidraad m.b.t. het onderscheid tussen onderzoek en ontwikkeling
 
@@ -150,7 +153,7 @@ De kostprijs om een immaterieel actief intern te genereren, zoals salarissen en 
 
 In het volledig schema (VOL 6.2.2) moeten ondernemingen een gedetailleerde opgave doen van de kosten van onderzoek en ontwikkeling die worden geactiveerd. Bovendien geldt voor deze vennootschappen de verplichting om in het jaarverslag informatie toe te voegen omtrent de werkzaamheden op het gebied van onderzoek en ontwikkeling (verplichting op basis van artikel 96, § 1, 4° W.Venn. en artikel 100, 6° W.Venn.).
 
-In het verkort schema (VKT 6.1.1) wordt een globaal overzicht gegeven van de immateriële vaste activa die worden geboekt op de rekening 21 *Immateriële vaste activa*. Voor kleine vennootschappen geldt geen verplichting om een verdere opsplitsing mee te delen van de immateriële vaste activa zodat de kosten van onderzoek en ontwikkeling, geboekt op rekening 210 *Kosten van onderzoek en ontwikkeling*, niet afzonderlijk terug te vinden zijn in de gepubliceerde jaarrekening. De vennootschappen die een jaarrekening opstellen volgens het verkort schema moeten in de toelichting wel het bedrag vermelden van de onder de immateriële vaste activa opgenomen kosten van onderzoek en ontwikkeling (artikel 60 KB W.Venn.). Met betrekking tot de kosten van onderzoek en ontwikkeling die onmiddellijk in kosten werden genomen, geldt voor kleine vennootschappen geen verplichting gelijkaardig aan de verplichting vermeld in artikel 96, § 1, 4° W.Venn. en artikel 100, 6° W.Venn.
+In het verkort schema (VKT 6.1.1) wordt een globaal overzicht gegeven van de immateriële vaste activa die worden geboekt op de rekening 21 *Immateriële vaste activa*. Voor kleine vennootschappen geldt geen verplichting om een verdere opsplitsing mee te delen van de immateriële vaste activa zodat de kosten van onderzoek en ontwikkeling, geboekt op rekening 210* Kosten van onderzoek en ontwikkeling*, niet afzonderlijk terug te vinden zijn in de gepubliceerde jaarrekening. De vennootschappen die een jaarrekening opstellen volgens het verkort schema moeten in de toelichting wel het bedrag vermelden van de onder de immateriële vaste activa opgenomen kosten van onderzoek en ontwikkeling (artikel 60 KB W.Venn.). Met betrekking tot de kosten van onderzoek en ontwikkeling die onmiddellijk in kosten werden genomen, geldt voor kleine vennootschappen geen verplichting gelijkaardig aan de verplichting vermeld in artikel 96, § 1, 4° W.Venn. en artikel 100, 6° W.Venn.
 
 Indien gebruik wordt gemaakt van de regeling vermeld in het Verslag aan de Koning (cfr. voetnoot 5 van onderhavig advies) is het, hoewel daaromtrent geen expliciete verplichting is opgenomen in het koninklijk besluit, volgens de Commissie hoogst aangewezen om de aanschaffingswaarde en geboekte afschrijving afzonderlijk te vermelden in de toelichting teneinde de band te verduidelijken tussen de in de boekhouding opgenomen bedragen (aanschaffingswaarde – geboekte afschrijving) en de weergave ervan in de jaarrekening.
 
@@ -158,7 +161,8 @@ De Commissie wenst tot slot in herinnering te brengen dat desgevallend in de toe
 
 ### Overgangsbepaling
 
-Artikel 57 van het koninklijk besluit van 18 december 2015 bevat een overgangsbepaling, zodat vennootschappen de kosten van onderzoek die zij op de balans hebben geactiveerd en nog niet volledig hebben afgeschreven bij de inwerkingtreding van dit besluit, op de actiefzijde kunnen behouden bij de immateriële vaste activa.[^11] Dit impliceert dat voor kosten van onderzoek die werden gemaakt tijdens een boekjaar dat een aanvang heeft genomen vóór 1 januari 2016 het oude regime van toepassing blijft.
+Artikel 57 van het koninklijk besluit van 18 december 2015 bevat een overgangsbepaling, zodat vennootschappen de kosten van onderzoek die zij op de balans hebben geactiveerd en nog niet volledig hebben afgeschreven bij de inwerkingtreding van dit besluit, op de actiefzijde kunnen behouden bij de immateriële vaste activa.[^11]
+ Dit impliceert dat voor kosten van onderzoek die werden gemaakt tijdens een boekjaar dat een aanvang heeft genomen vóór 1 januari 2016 het oude regime van toepassing blijft.
 
 Naar de mening van de Commissie laat de nieuwe wettelijke bepaling niet toe om zondermeer de boekwaarde van voorheen geactiveerde kosten van onderzoek in één keer ten laste te nemen in het eerste boekjaar dat onderworpen is aan de nieuwe wettelijke bepaling inzake kosten voor onderzoek om redenen van de wetswijziging. De voorheen door het bestuursorgaan vastgelegde waarderingsregels dienen verder onverkort te worden toegepast.
 

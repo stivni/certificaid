@@ -1,60 +1,60 @@
 ---
-nummer: CBN-advies 2019/13
+bron: https://www.cbn-cnc.be/nl/adviezen/pro-rata-regel-van-artikel-18-wib-92-bij-terugbetaling-van-inbreng-kapitaalvermindering
 datum: 2019-11-21
+nummer: CBN-advies 2019/13
+provenance:
+  generated_at: '2026-05-11T13:05:08Z'
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/pro-rata-regel-van-artikel-18-wib-92-bij-terugbetaling-van-inbreng-kapitaalvermindering
+      sha256: 693c54c6facd7de15d4aa790eaee7926680f1bab37510af71555627545a6f0db
+      version:
+  stale: false
+  stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
+  trust:
+    confirmed_at: '2026-05-11T12:21:40Z'
+    confirmed_by: subagent-sonnet-4-6
+    layer1:
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:30Z'
+      heading_count: 9
+      max_section_chars: 11083
+      file_size_chars: 24013
+      flags: []
+    layer2:
+      agent: subagent-sonnet-4-6
+      concrete_problemen:
+        - categorie: A3
+          regel: 58
+          type: other
+          voorbeeld: -- Voorbeeld
+        - categorie: E1
+          regel: 143
+          type: other
+          voorbeeld: '| \n\n  | | \n\nSamenstelling van het eigen vermogen op boekhoudkundig vlak\n\n  | | \n\nSamenstelling...'
+        - categorie: E1
+          regel: 405
+          type: other
+          voorbeeld: 'Tabel dividenduitkering 2019: cellen elk op aparte lege rij, onleesbare pipe-structuur'
+        - categorie: E1
+          regel: 741
+          type: other
+          voorbeeld: 'Tabel vrijwillige toepassing: zelfde patroon, ~160 gefragmenteerde rijen voor 5 datakolommen'
+      rationale: 'E1/E2: De HTML-tabellen zijn geëxtraheerd als sterk gefragmenteerde markdown-pipe-tabellen waarbij elke cel op een aparte lege rij staat (bijv. regels 143-388 en 405-651). Dit maakt de tabel onleesbaar als markdown — een mens zou de tabel in één blok schrijven. Daarnaast bevat de TOC (regels 46-58) een artefact-regel ''-- Voorbeeld'' die niet werd opgeschoond (A3).'
+      run_at: '2026-05-11T12:21:40Z'
+      status: needs-rework
+    rationale: 'E1/E2: De HTML-tabellen zijn geëxtraheerd als sterk gefragmenteerde markdown-pipe-tabellen waarbij elke cel op een aparte lege rij staat (bijv. regels 143-388 en 405-651). Dit maakt de tabel onleesbaar als markdown — een mens zou de tabel in één blok schrijven. Daarnaast bevat de TOC (regels 46-58) een artefact-regel ''-- Voorbeeld'' die niet werd opgeschoond (A3).'
+    status: needs-rework
 themas:
   - terugbetaling inbreng
   - kapitaalvermindering
   - dividend
   - dividenduitkering
-bron: https://www.cbn-cnc.be/nl/adviezen/pro-rata-regel-van-artikel-18-wib-92-bij-terugbetaling-van-inbreng-kapitaalvermindering
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/pro-rata-regel-van-artikel-18-wib-92-bij-terugbetaling-van-inbreng-kapitaalvermindering
-      sha256: 693c54c6facd7de15d4aa790eaee7926680f1bab37510af71555627545a6f0db
-      version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:37:43Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T12:21:40Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "E1/E2: De HTML-tabellen zijn geëxtraheerd als sterk gefragmenteerde markdown-pipe-tabellen waarbij elke cel op een aparte lege rij staat (bijv. regels 143-388 en 405-651). Dit maakt de tabel onleesbaar als markdown — een mens zou de tabel in één blok schrijven. Daarnaast bevat de TOC (regels 46-58) een artefact-regel '-- Voorbeeld' die niet werd opgeschoond (A3)."
-    layer1:
-      status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 9
-      max_section_chars: 11083
-      file_size_chars: 24027
-      flags: []
-    layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:21:40Z'
-      rationale: "E1/E2: De HTML-tabellen zijn geëxtraheerd als sterk gefragmenteerde markdown-pipe-tabellen waarbij elke cel op een aparte lege rij staat (bijv. regels 143-388 en 405-651). Dit maakt de tabel onleesbaar als markdown — een mens zou de tabel in één blok schrijven. Daarnaast bevat de TOC (regels 46-58) een artefact-regel '-- Voorbeeld' die niet werd opgeschoond (A3)."
-      concrete_problemen:
-        - regel: 58
-          categorie: A3
-          type: other
-          voorbeeld: -- Voorbeeld
-        - regel: 143
-          categorie: E1
-          type: other
-          voorbeeld: '| \n\n  | | \n\nSamenstelling van het eigen vermogen op boekhoudkundig vlak\n\n  | | \n\nSamenstelling...'
-        - regel: 405
-          categorie: E1
-          type: other
-          voorbeeld: 'Tabel dividenduitkering 2019: cellen elk op aparte lege rij, onleesbare pipe-structuur'
-        - regel: 741
-          categorie: E1
-          type: other
-          voorbeeld: 'Tabel vrijwillige toepassing: zelfde patroon, ~160 gefragmenteerde rijen voor 5 datakolommen'
 ---
 
 # CBN-advies 2019/13 - Pro rata-regel van artikel 18 WIB 92 bij terugbetaling van inbreng / kapitaalvermindering
@@ -107,7 +107,7 @@ Onverminderd de toepassing van artikel 537 WIB 92 en van het zevende lid van art
 
 - uit het gestort kapitaal en uit de met gestort kapitaal gelijkgestelde bedragen vermeld in artikel 18, lid 1, 2° bis WIB 92, ten belope van een percentage dat de verhouding uitdrukt tussen, in de teller, de som van het gestort kapitaal en van de voormelde bedragen die met gestort kapitaal worden gelijkgesteld, en, in de noemer, de som van de belaste reserves, de in het kapitaal geïncorporeerde vrijgestelde reserves en het bedrag bepaald in de teller; 
 
-          Gestort kapitaal + ‘gelijkgestelde bedragen’ **(T) ** 
+          Gestort kapitaal + ‘gelijkgestelde bedragen’ **(T)**  
 
 Belaste reserves + in het kapitaal geïncorporeerde vrijgestelde reserves + **(T)**
 
@@ -704,8 +704,6 @@ De boekingen worden als volgt verricht:
 
 *Bij de toekenning of betaalbaarstelling van het tussentijds dividend:*
 
- [^11]
-
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 471 | Dividenden over het boekjaar | 196,5 | |
@@ -729,7 +727,8 @@ De wetgever heeft voorzien in de mogelijkheid van een ꞌvrijwilligeꞌ toepassi
 - die wijze van aanrekening als zodanig wordt geboekt; en 
 - die leidt tot de bepaling van een bedrag aan dividenden gelijk aan of hoger dan het bedrag aan dividenden dat zou voortvloeien uit een vermindering van gestort kapitaal (of van ermee gelijkgestelde bedragen) voor eenzelfde totaal bedrag, waarop de nieuwe regels zouden zijn toegepast. 
 
-Het bedrag van de dividenden wordt in dit geval op basis van deze beslissing bepaald. Een dergelijke situatie heeft het voordeel dat de fiscale- en boekhoudkundige toestand blijft overeenstemmen zonder dat correcties hoeven aangebracht te worden. Hierdoor ontstaan er geen discrepanties tussen beide bestanddelen.[^13] De vennootschap zal hiertoe quasi altijd moeten gebruikmaken van de techniek van de tussentijdse dividenden[^14].
+Het bedrag van de dividenden wordt in dit geval op basis van deze beslissing bepaald. Een dergelijke situatie heeft het voordeel dat de fiscale- en boekhoudkundige toestand blijft overeenstemmen zonder dat correcties hoeven aangebracht te worden. Hierdoor ontstaan er geen discrepanties tussen beide bestanddelen.[^13]
+ De vennootschap zal hiertoe quasi altijd moeten gebruikmaken van de techniek van de tussentijdse dividenden[^14].
 
 Bovendien raadt de Commissie aan expliciet in de akte op te nemen dat de terugbetaling van inbreng alsook de terugbetaling van de daaruit voortvloeiende dividenduitkering werden uitgevoerd overeenkomstig artikel 18 WIB 92, zevende lid en in overeenstemming met circulaire 2018/C/103.
 
@@ -927,8 +926,6 @@ De boekingen zijn als volgt:
 |---|----------|--------------|-------|--------|
 | | 694 | Vergoeding van de inbreng | 800 | |
 | aan | 471 | Dividenden over het boekjaar | | 800 |
-
-[^15]
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|

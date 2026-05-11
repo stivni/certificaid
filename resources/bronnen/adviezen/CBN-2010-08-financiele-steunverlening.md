@@ -1,6 +1,39 @@
 ---
-nummer: CBN-advies 2010/8
+bron: https://www.cbn-cnc.be/nl/adviezen/financiele-steunverlening
 datum: 2010-06-16
+nummer: CBN-advies 2010/8
+provenance:
+  generated_at: '2026-05-11T13:05:07Z'
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/financiele-steunverlening
+      sha256: 98c92f3867505770312107fa899f81320ce9a695177f32151e75e09f3caa7d6a
+      version:
+  stale: false
+  stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
+  trust:
+    confirmed_at: '2026-05-11T12:09:17Z'
+    confirmed_by: subagent-sonnet-4-6
+    layer1:
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:27Z'
+      heading_count: 2
+      max_section_chars: 6074
+      file_size_chars: 8524
+      flags: []
+    layer2:
+      agent: subagent-sonnet-4-6
+      concrete_problemen: []
+      rationale: 'Geen extractie-artefacten. Twee ## secties correct opgemaakt, journaalpost-tabellen in pipe-syntax aanwezig en compleet, voetnoten [^1]–[^10] volledig gedefinieerd. Inhoud sluit logisch af. Geen invisible unicode, geen HTML-entities, geen broken tables.'
+      run_at: '2026-05-11T12:09:17Z'
+      status: trusted
+    rationale: 'Geen extractie-artefacten. Twee ## secties correct opgemaakt, journaalpost-tabellen in pipe-syntax aanwezig en compleet, voetnoten [^1]–[^10] volledig gedefinieerd. Inhoud sluit logisch af. Geen invisible unicode, geen HTML-entities, geen broken tables.'
+    status: trusted
 themas:
   - financiële bijstand
   - financiële steunverlening
@@ -9,49 +42,13 @@ themas:
   - onbeschikbare reserve
   - uitkeerbare winst
   - zekerheid
-bron: https://www.cbn-cnc.be/nl/adviezen/financiele-steunverlening
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/financiele-steunverlening
-      sha256: 98c92f3867505770312107fa899f81320ce9a695177f32151e75e09f3caa7d6a
-      version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:35:58Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: trusted
-    confirmed_at: '2026-05-11T12:09:17Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: 'Geen extractie-artefacten. Twee ## secties correct opgemaakt, journaalpost-tabellen in pipe-syntax aanwezig en compleet, voetnoten [^1]–[^10] volledig gedefinieerd. Inhoud sluit logisch af. Geen invisible unicode, geen HTML-entities, geen broken tables.'
-    layer1:
-      status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 2
-      max_section_chars: 6074
-      file_size_chars: 8527
-      flags: []
-    layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:09:17Z'
-      rationale: 'Geen extractie-artefacten. Twee ## secties correct opgemaakt, journaalpost-tabellen in pipe-syntax aanwezig en compleet, voetnoten [^1]–[^10] volledig gedefinieerd. Inhoud sluit logisch af. Geen invisible unicode, geen HTML-entities, geen broken tables.'
-      concrete_problemen: []
 ---
 
 # CBN-advies 2010/8 - Financiële steunverlening Advies van 16 juni 2010
 
-In overeenstemming met artikel 23 van de gewijzigde Tweede Vennootschapsrichtlijn[^1]
- bepaalt het Wetboek van Vennootschappen dat het vanaf 1 januari 2009 een vennootschap is toegestaan om middelen voor te schieten, leningen toe te staan of zekerheden te stellen met het oog op de verkrijging van haar effecten door een derde[^2]. 
+In overeenstemming met artikel 23 van de gewijzigde Tweede Vennootschapsrichtlijn[^1] bepaalt het Wetboek van Vennootschappen dat het vanaf 1 januari 2009 een vennootschap is toegestaan om middelen voor te schieten, leningen toe te staan of zekerheden te stellen met het oog op de verkrijging van haar effecten door een derde[^2]. 
 
-Deze financiële steunverlening moet evenwel voldoen aan een aantal voorwaarden[^3]. Zo moet het voor die verrichting uitgetrokken bedrag overeenkomstig artikel 617 W.Venn.[^4]
- voor uitkering vatbaar zijn en moet de vennootschap aan de passiefzijde van haar balans een niet voor uitkering beschikbare reserve[^5]
- opnemen ten bedrage van de totale financiële bijstand[^6].
+Deze financiële steunverlening moet evenwel voldoen aan een aantal voorwaarden[^3]. Zo moet het voor die verrichting uitgetrokken bedrag overeenkomstig artikel 617 W.Venn.[^4] voor uitkering vatbaar zijn en moet de vennootschap aan de passiefzijde van haar balans een niet voor uitkering beschikbare reserve[^5] opnemen ten bedrage van de totale financiële bijstand[^6].
 
 Wat betreft de waardering van deze “totale financiële bijstand” dient een onderscheid gemaakt te worden tussen de situatie waarin de onderneming middelen ter beschikking stelt van een derde, en de situatie waarin de onderneming een zekerheid stelt ten voordele van een derde.
 

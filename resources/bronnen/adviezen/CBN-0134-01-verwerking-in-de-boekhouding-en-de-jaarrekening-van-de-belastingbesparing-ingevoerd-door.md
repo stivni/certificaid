@@ -1,51 +1,51 @@
 ---
-nummer: CBN-advies 134/1
-datum: 1983-04-10
-themas:
-  - belastingbesparing
-  - belastingen
-  - fiscale steunmaatregel
-  - niet beschikbare reserves
 bron: https://www.cbn-cnc.be/nl/adviezen/verwerking-in-de-boekhouding-en-de-jaarrekening-van-de-belastingbesparing-ingevoerd-door
+datum: 1983-04-10
+gerelateerde_adviezen:
+  - datum: '2018-05-30'
+    titel: Tax shelter voor podiumkunsten
+    url: https://www.cbn-cnc.be/nl/adviezen/tax-shelter-voor-podiumkunsten
+  - datum: '2015-05-13'
+    titel: Boekhoudkundige verwerking van de tax shelter in hoofde van de investeerder (raamovereenkomsten gesloten vanaf 1 januari 2015)
+    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-tax-shelter-in-hoofde-van-de-investeerder
+nummer: CBN-advies 134/1
 provenance:
+  generated_at: '2026-05-11T13:05:06Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/verwerking-in-de-boekhouding-en-de-jaarrekening-van-de-belastingbesparing-ingevoerd-door
       sha256: 7c3e29861fb8eb30848322506bebeedda9d4fa62a07459bd370df45874310f77
       version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:34:55Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
   trust:
-    status: trusted
     confirmed_at: '2026-05-11T12:04:41Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: Kort advies (2658 tekens), enkel lopende tekst zonder voetnoten of tabellen. Geen extractie-artefacten aangetroffen. Inhoud volledig en afgerond.
     layer1:
       status: pass
-      run_id: 20260511-083333
-      run_at:
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:25Z'
       heading_count: 0
       max_section_chars: 2658
       file_size_chars: 2658
       flags: []
     layer2:
-      status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:04:41Z'
-      rationale: Kort advies (2658 tekens), enkel lopende tekst zonder voetnoten of tabellen. Geen extractie-artefacten aangetroffen. Inhoud volledig en afgerond.
       concrete_problemen: []
-gerelateerde_adviezen:
-  - titel: Tax shelter voor podiumkunsten
-    url: https://www.cbn-cnc.be/nl/adviezen/tax-shelter-voor-podiumkunsten
-    datum: '2018-05-30'
-  - titel: Boekhoudkundige verwerking van de tax shelter in hoofde van de investeerder (raamovereenkomsten gesloten vanaf 1 januari 2015)
-    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-tax-shelter-in-hoofde-van-de-investeerder
-    datum: '2015-05-13'
+      rationale: Kort advies (2658 tekens), enkel lopende tekst zonder voetnoten of tabellen. Geen extractie-artefacten aangetroffen. Inhoud volledig en afgerond.
+      run_at: '2026-05-11T12:04:41Z'
+      status: trusted
+    rationale: Kort advies (2658 tekens), enkel lopende tekst zonder voetnoten of tabellen. Geen extractie-artefacten aangetroffen. Inhoud volledig en afgerond.
+    status: trusted
+themas:
+  - belastingbesparing
+  - belastingen
+  - fiscale steunmaatregel
+  - niet beschikbare reserves
 ---
 
 # CBN-advies 134/1 - Verwerking in de boekhouding en de jaarrekening van de belastingbesparing ingevoerd door het KB nr. 16 van 9 maart 1982

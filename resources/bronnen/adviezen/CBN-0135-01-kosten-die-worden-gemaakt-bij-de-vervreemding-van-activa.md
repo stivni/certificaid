@@ -1,51 +1,51 @@
 ---
-nummer: CBN-advies 135/1
-datum: 1983-04-10
-themas:
-  - bijkomende kost
-  - compensatie
-  - kosten bij vervreemding van activa
-  - vervreemding
 bron: https://www.cbn-cnc.be/nl/adviezen/kosten-die-worden-gemaakt-bij-de-vervreemding-van-activa
+datum: 1983-04-10
+gerelateerde_adviezen:
+  - datum: '1988-12-01'
+    titel: Boeking van commissies
+    url: https://www.cbn-cnc.be/nl/adviezen/boeking-van-commissies
+  - datum: '1980-06-01'
+    titel: 'Aanschaffingsprijs : bijkomende kosten'
+    url: https://www.cbn-cnc.be/nl/adviezen/aanschaffingsprijs-bijkomende-kosten
+nummer: CBN-advies 135/1
 provenance:
+  generated_at: '2026-05-11T13:05:06Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/kosten-die-worden-gemaakt-bij-de-vervreemding-van-activa
       sha256: b5cada4573c21bf3796e8b0e3d996d6bf619d4af92184ada684335af4e28511f
       version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:34:57Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
   trust:
-    status: trusted
     confirmed_at: '2026-05-11T12:04:41Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: Kort advies (1476 tekens), geen structuurproblemen, geen artefacten. Inhoud volledig.
     layer1:
       status: pass
-      run_id: 20260511-083333
-      run_at:
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:25Z'
       heading_count: 0
       max_section_chars: 1476
       file_size_chars: 1476
       flags: []
     layer2:
-      status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:04:41Z'
-      rationale: Kort advies (1476 tekens), geen structuurproblemen, geen artefacten. Inhoud volledig.
       concrete_problemen: []
-gerelateerde_adviezen:
-  - titel: Boeking van commissies
-    url: https://www.cbn-cnc.be/nl/adviezen/boeking-van-commissies
-    datum: '1988-12-01'
-  - titel: 'Aanschaffingsprijs : bijkomende kosten'
-    url: https://www.cbn-cnc.be/nl/adviezen/aanschaffingsprijs-bijkomende-kosten
-    datum: '1980-06-01'
+      rationale: Kort advies (1476 tekens), geen structuurproblemen, geen artefacten. Inhoud volledig.
+      run_at: '2026-05-11T12:04:41Z'
+      status: trusted
+    rationale: Kort advies (1476 tekens), geen structuurproblemen, geen artefacten. Inhoud volledig.
+    status: trusted
+themas:
+  - bijkomende kost
+  - compensatie
+  - kosten bij vervreemding van activa
+  - vervreemding
 ---
 
 # CBN-advies 135/1 - Kosten die worden gemaakt bij de vervreemding van activa

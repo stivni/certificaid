@@ -1,43 +1,43 @@
 ---
-nummer: CBN-advies 126/4
-datum: 1986-01-01
-themas:
-  - fabrikaten
-  - gereed produkt
-  - vervaardigingsprijs
 bron: https://www.cbn-cnc.be/nl/adviezen/vervaardigingsprijs-correctie-van-de-nederlandse-tekst-van-artikel-22-van-het-koninklijk
+datum: 1986-01-01
+nummer: CBN-advies 126/4
 provenance:
+  generated_at: '2026-05-11T13:05:05Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/vervaardigingsprijs-correctie-van-de-nederlandse-tekst-van-artikel-22-van-het-koninklijk
       sha256: fa9980bf60756ad14415af326b0f34768c54639aabea7f774475290d4444a570
       version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:34:36Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
   trust:
-    status: trusted
     confirmed_at: '2026-05-11T11:57:45Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: 'Kort advies (2095 tekens, geen headings), inhoud volledig en coherent afgesloten. Geen extractie-artefacten gevonden: geen HTML-entities, geen ongewone unicode, geen spurious line-breaks. Layer1 pass zonder flags bevestigd.'
     layer1:
       status: pass
-      run_id: 20260511-083333
-      run_at:
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:25Z'
       heading_count: 0
       max_section_chars: 2095
       file_size_chars: 2095
       flags: []
     layer2:
-      status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T11:57:45Z'
-      rationale: 'Kort advies (2095 tekens, geen headings), inhoud volledig en coherent afgesloten. Geen extractie-artefacten gevonden: geen HTML-entities, geen ongewone unicode, geen spurious line-breaks. Layer1 pass zonder flags bevestigd.'
       concrete_problemen: []
+      rationale: 'Kort advies (2095 tekens, geen headings), inhoud volledig en coherent afgesloten. Geen extractie-artefacten gevonden: geen HTML-entities, geen ongewone unicode, geen spurious line-breaks. Layer1 pass zonder flags bevestigd.'
+      run_at: '2026-05-11T11:57:45Z'
+      status: trusted
+    rationale: 'Kort advies (2095 tekens, geen headings), inhoud volledig en coherent afgesloten. Geen extractie-artefacten gevonden: geen HTML-entities, geen ongewone unicode, geen spurious line-breaks. Layer1 pass zonder flags bevestigd.'
+    status: trusted
+themas:
+  - fabrikaten
+  - gereed produkt
+  - vervaardigingsprijs
 ---
 
 # CBN-advies 126/4 - Vervaardigingsprijs : correctie van de Nederlandse tekst van artikel 22 van het Koninklijk Besluit van 8 oktober 1976

@@ -1,6 +1,51 @@
 ---
-nummer: CBN-advies 2022/02
+bron: https://www.cbn-cnc.be/nl/adviezen/uittreding-en-uitsluiting-lastens-het-vennootschapsvermogen-bij-de-bv-en-cv
 datum: 2022-02-18
+gerelateerde_adviezen:
+  - datum: '2020-12-09'
+    titel: Overgang van een kapitaalhoudende coöperatieve vennootschap naar een kapitaalloze vennootschap
+    url: https://www.cbn-cnc.be/nl/adviezen/overgang-van-een-kapitaalhoudende-cooperatieve-vennootschap-naar-een-kapitaalloze
+nummer: CBN-advies 2022/02
+provenance:
+  generated_at: '2026-05-11T13:05:08Z'
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/uittreding-en-uitsluiting-lastens-het-vennootschapsvermogen-bij-de-bv-en-cv
+      sha256: afa832f20d1fea68e50cdedd0168f13361f755a0f7ff1b8f83e4fbfcf4012b5a
+      version:
+  stale: false
+  stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
+  trust:
+    confirmed_at: '2026-05-11T12:24:33Z'
+    confirmed_by: subagent-sonnet-4-6
+    layer1:
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:30Z'
+      heading_count: 8
+      max_section_chars: 8652
+      file_size_chars: 22391
+      flags: []
+    layer2:
+      agent: subagent-sonnet-4-6
+      concrete_problemen:
+        - categorie: A3
+          regel: 53
+          type: other
+          voorbeeld: "1. Inleiding \n2. Uittreding en uitsluiting lastens het vennootschapsvermogen bij de BV \n  1. Vrijwillige uittreding..."
+        - categorie: A3
+          regel: 67
+          type: other
+          voorbeeld: -- Vrijwillige uittreding (artikel 6:120 WVV)-- Uittreding van rechtswege...Boekhoudkundige verwerking...
+      rationale: 'A3: de inhoudsopgave van het advies staat als plaintext in de body (regels 53-67) vóór de inhoudelijke secties, inclusief een tweede aaneengesloten TOC-restant op regel 67 met ''--''-scheiders in plaats van markdown-bullets. Dit is een TOC-fragment in de body dat niet verwijderd werd. Tabellen correct. Footnotes correct.'
+      run_at: '2026-05-11T12:24:33Z'
+      status: needs-rework
+    rationale: 'A3: de inhoudsopgave van het advies staat als plaintext in de body (regels 53-67) vóór de inhoudelijke secties, inclusief een tweede aaneengesloten TOC-restant op regel 67 met ''--''-scheiders in plaats van markdown-bullets. Dit is een TOC-fragment in de body dat niet verwijderd werd. Tabellen correct. Footnotes correct.'
+    status: needs-rework
 themas:
   - uittreding
   - scheidingsaandeel
@@ -9,51 +54,6 @@ themas:
   - uittreding van rechtswege
   - vrijwillige uittreding
   - uitkeringstesten
-bron: https://www.cbn-cnc.be/nl/adviezen/uittreding-en-uitsluiting-lastens-het-vennootschapsvermogen-bij-de-bv-en-cv
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/uittreding-en-uitsluiting-lastens-het-vennootschapsvermogen-bij-de-bv-en-cv
-      sha256: afa832f20d1fea68e50cdedd0168f13361f755a0f7ff1b8f83e4fbfcf4012b5a
-      version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:38:07Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T12:24:33Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "A3: de inhoudsopgave van het advies staat als plaintext in de body (regels 53-67) vóór de inhoudelijke secties, inclusief een tweede aaneengesloten TOC-restant op regel 67 met '--'-scheiders in plaats van markdown-bullets. Dit is een TOC-fragment in de body dat niet verwijderd werd. Tabellen correct. Footnotes correct."
-    layer1:
-      status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 10
-      max_section_chars: 8653
-      file_size_chars: 22409
-      flags: []
-    layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:24:33Z'
-      rationale: "A3: de inhoudsopgave van het advies staat als plaintext in de body (regels 53-67) vóór de inhoudelijke secties, inclusief een tweede aaneengesloten TOC-restant op regel 67 met '--'-scheiders in plaats van markdown-bullets. Dit is een TOC-fragment in de body dat niet verwijderd werd. Tabellen correct. Footnotes correct."
-      concrete_problemen:
-        - regel: 53
-          categorie: A3
-          type: other
-          voorbeeld: "1. Inleiding \n2. Uittreding en uitsluiting lastens het vennootschapsvermogen bij de BV \n  1. Vrijwillige uittreding..."
-        - regel: 67
-          categorie: A3
-          type: other
-          voorbeeld: -- Vrijwillige uittreding (artikel 6:120 WVV)-- Uittreding van rechtswege...Boekhoudkundige verwerking...
-gerelateerde_adviezen:
-  - titel: Overgang van een kapitaalhoudende coöperatieve vennootschap naar een kapitaalloze vennootschap
-    url: https://www.cbn-cnc.be/nl/adviezen/overgang-van-een-kapitaalhoudende-cooperatieve-vennootschap-naar-een-kapitaalloze
-    datum: '2020-12-09'
 ---
 
 # CBN-advies 2022/02 – Uittreding en uitsluiting lastens het vennootschapsvermogen bij de BV en CV - Scheidingsaandeel
@@ -76,15 +76,13 @@ gerelateerde_adviezen:
 
 ## Inleiding
 
-Het Wetboek van vennootschappen en verenigingen (WVV) voorziet dat de besloten vennootschap (BV) in haar statuten een uittredings- en uitsluitingsmogelijkheid ten laste van het vennootschapsvermogen kan uitwerken[^2]
- naar analogie met wat geldt voor de coöperatieve vennootschap (CV). Een belangrijk verschilpunt ten opzichte van de CV is dat dit voor een BV slechts mogelijk is indien de statuten een uittreding of uitsluiting lastens het vennootschapsvermogen expliciet voorzien, terwijl dit voor de CV altijd mogelijk is, zelfs als de statuten dit zouden verbieden.[^3] 
+Het Wetboek van vennootschappen en verenigingen (WVV) voorziet dat de besloten vennootschap (BV) in haar statuten een uittredings- en uitsluitingsmogelijkheid ten laste van het vennootschapsvermogen kan uitwerken[^2] naar analogie met wat geldt voor de coöperatieve vennootschap (CV). Een belangrijk verschilpunt ten opzichte van de CV is dat dit voor een BV slechts mogelijk is indien de statuten een uittreding of uitsluiting lastens het vennootschapsvermogen expliciet voorzien, terwijl dit voor de CV altijd mogelijk is, zelfs als de statuten dit zouden verbieden.[^3] 
 
 Onderhavig advies verduidelijkt de boekhoudkundige verwerking in hoofde van de BV en CV in geval dat een aandeelhouder uittreedt of uitgesloten wordt lastens het vennootschapsvermogen.
 
 ## Uittreding en uitsluiting lastens het vennootschapsvermogen bij de BV
 
-Bij de BV is de uittredings- en uitsluitingsregeling lastens het vennootschapsvermogen[^4]
- steeds een facultatieve regeling. Dat wil zeggen dat wanneer de statuten die modaliteit niet voorzien een uittreding of uitsluiting lastens het vennootschapsvermogen niet mogelijk is. Het WVV regelt daarentegen wel een aantal modaliteiten die van toepassing zijn indien een uittredings- of uitsluitingsregeling lastens het vennootschapsvermogen statutair is opgenomen doch niet in detail geregeld is (default-regeling).
+Bij de BV is de uittredings- en uitsluitingsregeling lastens het vennootschapsvermogen[^4] steeds een facultatieve regeling. Dat wil zeggen dat wanneer de statuten die modaliteit niet voorzien een uittreding of uitsluiting lastens het vennootschapsvermogen niet mogelijk is. Het WVV regelt daarentegen wel een aantal modaliteiten die van toepassing zijn indien een uittredings- of uitsluitingsregeling lastens het vennootschapsvermogen statutair is opgenomen doch niet in detail geregeld is (default-regeling).
 
 ### Vrijwillige uittreding (artikel 5:154 WVV)
 
@@ -95,11 +93,10 @@ Daarnaast gelden de volgende regels tenzij statutaire bepalingen anders luiden:
 - de aandeelhouders kunnen slechts uittreden gedurende de eerste zes maanden van het boekjaar; 
 - een aandeelhouder treedt met al zijn aandelen uit, waarbij deze aandelen worden vernietigd; 
 - de uittreding heeft uitwerking op de laatste dag van de zesde maand van het boekjaar waarbij het bedrag van het scheidingsaandeel ten laatste één maand nadien moet worden betaald; 
-- het bedrag van het scheidingsaandeel is per aandeel gelijk aan het bedrag dat voor dat aandeel werkelijk werd gestort en nog niet werd terugbetaald met een maximum van de nettoactiefwaarde[^5]
- van dit aandeel zoals die blijkt uit de laatste goedgekeurde jaarrekening. 
+- het bedrag van het scheidingsaandeel is per aandeel gelijk aan het bedrag dat voor dat aandeel werkelijk werd gestort en nog niet werd terugbetaald met een maximum van de nettoactiefwaarde[^5] van dit aandeel zoals die blijkt uit de laatste goedgekeurde jaarrekening. 
 
-De uitkering van het bedrag van het scheidingsaandeel waarop een aandeelhouder recht heeft ingevolge zijn uittreding, wordt aangemerkt als een uitkering waarop de uitkeringstesten[^6]
- van toepassing zijn.[^7] Indien in toepassing van voormelde uitkeringstesten het scheidingsaandeel niet of niet geheel kan worden uitgekeerd, wordt het recht op betaling ervan opgeschort totdat uitkeringen opnieuw zijn toegelaten. Hiervan kan statutair niet worden afgeweken. Het op het scheidingsaandeel nog verschuldigde bedrag wordt uitgekeerd vóór iedere andere uitkering aan aandeelhouders.[^8] 
+De uitkering van het bedrag van het scheidingsaandeel waarop een aandeelhouder recht heeft ingevolge zijn uittreding, wordt aangemerkt als een uitkering waarop de uitkeringstesten[^6] van toepassing zijn.[^7]
+ Indien in toepassing van voormelde uitkeringstesten het scheidingsaandeel niet of niet geheel kan worden uitgekeerd, wordt het recht op betaling ervan opgeschort totdat uitkeringen opnieuw zijn toegelaten. Hiervan kan statutair niet worden afgeweken. Het op het scheidingsaandeel nog verschuldigde bedrag wordt uitgekeerd vóór iedere andere uitkering aan aandeelhouders.[^8] 
 
 **Procedure**
 
@@ -114,11 +111,9 @@ Het bestuursorgaan moet op datum van iedere uittreding het aandelenregister bijw
  Op die wijze geeft het aandelenregister op ieder ogenblik de correcte toestand weer van de aandeelhouders van de BV.[^10] 
 
 De uittreding leidt tot een verandering van het aantal aandelen. De daaruit voortvloeiende statutenwijzigingen worden, vóór het einde van het boekjaar waarin wordt uitgetreden, vastgesteld bij een authentieke akte verleden op verzoek van het bestuursorgaan.[^11]
- De Commissie merkt op dat dit een statutenwijziging betreft waarvoor de tussenkomst van de algemene vergadering niet is vereist. De gebruikelijke neerleggings- en publiciteitsverplichting (publicatie in het *Belgisch Staatsblad*)[^12]
- bij statutenwijzigingen zijn onverminderd van toepassing. 
+ De Commissie merkt op dat dit een statutenwijziging betreft waarvoor de tussenkomst van de algemene vergadering niet is vereist. De gebruikelijke neerleggings- en publiciteitsverplichting (publicatie in het *Belgisch Staatsblad*)[^12] bij statutenwijzigingen zijn onverminderd van toepassing. 
 
-### Uittreding van rechtswege of wegens het verlies van de statutair vereiste hoedanigheid (artikel 5:156 WVV) 
-
+Uittreding van rechtswege of wegens het verlies van de statutair vereiste hoedanigheid (artikel 5:156 WVV)
 Naast de vrijwillige uittreding op initiatief van de individuele aandeelhouder kunnen de statuten van een BV ook voorzien in een regeling waarbij geacht wordt dat de aandeelhouder van rechtswege is uitgetreden lastens het vermogen van de BV in geval van: 
 
 - overlijden, faillissement, kennelijk onvermogen, vereffening of onbekwaamverklaring van een aandeelhouder[^13]; 
@@ -132,8 +127,8 @@ De uitsluiting van een aandeelhouder lastens het vermogen van de BV vindt niet v
 
 Tenzij de statuten anders bepalen heeft de uitgesloten aandeelhouder recht op de uitbetaling van een scheidingsaandeel dat per aandeel gelijk is aan het bedrag dat voor dat aandeel werkelijk werd gestort en nog niet werd terugbetaald, met een maximum van de nettoactiefwaarde van dit aandeel zoals die blijkt uit de laatste goedgekeurde jaarrekening. 
 
-De uitkering van het bedrag van het scheidingsaandeel waarop een aandeelhouder recht heeft ingevolge zijn uitsluiting, wordt aangemerkt als een uitkering waarop de uitkeringstesten[^15]
- van toepassing zijn.[^16] Indien in toepassing van voormelde uitkeringstesten het scheidingsaandeel niet of niet geheel kan worden uitgekeerd, wordt het recht op betaling ervan opgeschort totdat uitkeringen opnieuw zijn toegelaten. Hiervan kan statutair niet worden afgeweken. Het op het scheidingsaandeel nog verschuldigde bedrag wordt uitgekeerd vóór iedere andere uitkering aan aandeelhouders. 
+De uitkering van het bedrag van het scheidingsaandeel waarop een aandeelhouder recht heeft ingevolge zijn uitsluiting, wordt aangemerkt als een uitkering waarop de uitkeringstesten[^15] van toepassing zijn.[^16]
+ Indien in toepassing van voormelde uitkeringstesten het scheidingsaandeel niet of niet geheel kan worden uitgekeerd, wordt het recht op betaling ervan opgeschort totdat uitkeringen opnieuw zijn toegelaten. Hiervan kan statutair niet worden afgeweken. Het op het scheidingsaandeel nog verschuldigde bedrag wordt uitgekeerd vóór iedere andere uitkering aan aandeelhouders. 
 
 De aandelen van de uitgesloten aandeelhouder worden vernietigd.
 
@@ -148,8 +143,7 @@ Uitsluitend de algemene vergadering is bevoegd om een uitsluiting uit te spreken
 Het bestuursorgaan deelt binnen de vijftien dagen het gemotiveerd besluit van de algemene vergadering mee aan de aandeelhouder en schrijft de uitsluiting in het aandelenregister met vermelding van de datum van de uitsluiting, en de bedragen betaald aan de betrokken aandeelhouder. 
 
 De uitsluitingen en de daaruit voortvloeiende statutenwijziging, ingevolge de wijziging van het aantal aandelen, worden, vóór het einde van het boekjaar waarin wordt uitgetreden, vastgesteld bij een authentieke akte verleden op verzoek van het bestuursorgaan.[^17]
- De Commissie merkt op dat dit een statutenwijziging betreft waarvoor de tussenkomst van de algemene vergadering niet is vereist. De gebruikelijke neerleggings- en publiciteitsverplichting (publicatie in het *Belgisch Staatsblad*)[^18]
- bij statutenwijzigingen zijn onverminderd van toepassing. 
+ De Commissie merkt op dat dit een statutenwijziging betreft waarvoor de tussenkomst van de algemene vergadering niet is vereist. De gebruikelijke neerleggings- en publiciteitsverplichting (publicatie in het *Belgisch Staatsblad*)[^18] bij statutenwijzigingen zijn onverminderd van toepassing. 
 
 ## Uittreding en uitsluiting lastens het vennootschapsvermogen bij de CV[^19] 
 
@@ -164,11 +158,10 @@ Daarnaast gelden de volgende regels tenzij statutaire bepalingen anders luiden:
 - de aandeelhouders kunnen slechts uittreden gedurende de eerste zes maanden van het boekjaar; 
 - een aandeelhouder treedt met al zijn aandelen uit, waarbij deze aandelen worden vernietigd; 
 - de uittreding heeft uitwerking op de laatste dag van de zesde maand van het boekjaar waarbij het bedrag van het scheidingsaandeel ten laatste één maand nadien moet worden betaald; 
-- het bedrag van het scheidingsaandeel is per aandeel gelijk aan het bedrag dat voor dat aandeel werkelijk werd gestort en nog niet werd terugbetaald met een maximum van de nettoactiefwaarde[^20]
- van dit aandeel zoals die blijkt uit de laatste goedgekeurde jaarrekening. 
+- het bedrag van het scheidingsaandeel is per aandeel gelijk aan het bedrag dat voor dat aandeel werkelijk werd gestort en nog niet werd terugbetaald met een maximum van de nettoactiefwaarde[^20] van dit aandeel zoals die blijkt uit de laatste goedgekeurde jaarrekening. 
 
-De uitkering van het bedrag van het scheidingsaandeel waarop een aandeelhouder recht heeft ingevolge zijn uittreding wordt aangemerkt als een uitkering waarop de uitkeringstesten[^21]
- van toepassing zijn.[^22] Indien in toepassing van voormelde uitkeringstesten het scheidingsaandeel niet of niet geheel kan worden uitgekeerd, wordt het recht op betaling ervan opgeschort totdat uitkeringen opnieuw zijn toegelaten. Hiervan kan statutair niet worden afgeweken. Het op het scheidingsaandeel nog verschuldigde bedrag wordt uitgekeerd vóór iedere andere uitkering aan aandeelhouders.[^23] 
+De uitkering van het bedrag van het scheidingsaandeel waarop een aandeelhouder recht heeft ingevolge zijn uittreding wordt aangemerkt als een uitkering waarop de uitkeringstesten[^21] van toepassing zijn.[^22]
+ Indien in toepassing van voormelde uitkeringstesten het scheidingsaandeel niet of niet geheel kan worden uitgekeerd, wordt het recht op betaling ervan opgeschort totdat uitkeringen opnieuw zijn toegelaten. Hiervan kan statutair niet worden afgeweken. Het op het scheidingsaandeel nog verschuldigde bedrag wordt uitgekeerd vóór iedere andere uitkering aan aandeelhouders.[^23] 
 
 **Procedure**
 
@@ -185,8 +178,7 @@ Het bestuursorgaan moet op datum van iedere uittreding het aandelenregister bijw
 
 Terwijl voor een BV ten laatste voor het einde van het boekjaar waarin de uittreding of de uitsluiting heeft plaatsgevonden een authentieke akte vereist is op verzoek van het bestuursorgaan voor de authentieke vaststelling van de statutenwijziging die het gevolg is van de wijziging van het aantal aandelen, geldt dergelijke vereiste niet voor de CV. Daartegenover staat dat voor een CV het jaarverslag, of, bij gebrek daaraan, een stuk dat samen met de jaarrekening moet worden neergelegd (en gepubliceerd), per soort het aantal uitstaande aandelen per einde van het boekjaar moet vermelden.[^26] 
 
-### Uittreding van rechtswege of wegens het verlies van de statutair vereiste hoedanigheid (artikel 6:121 en 6:122 WVV)
-
+Uittreding van rechtswege of wegens het verlies van de statutair vereiste hoedanigheid (artikel 6:121 en 6:122 WVV)
 Naast de vrijwillige uittreding op initiatief van de individuele aandeelhouder kan in de volgende gevallen sprake zijn van een uittreding lastens het vennootschapsvermogen van rechtswege:
 
 - tenzij de statuten anders bepalen, bij overlijden, faillissement, kennelijk onvermogen, vereffening of onbekwaamverklaring van een aandeelhouder[^27]; 
@@ -200,8 +192,8 @@ De uitsluiting van een aandeelhouder lastens het vermogen van de CV vindt niet v
 
 Tenzij de statuten anders bepalen heeft de uitgesloten aandeelhouder recht op de uitbetaling van een scheidingsaandeel dat per aandeel gelijk is aan het bedrag dat voor dat aandeel werkelijk werd gestort en nog niet werd terugbetaald, met een maximum van de nettoactief waarde van dit aandeel zoals die blijkt uit de laatste goedgekeurde jaarrekening. 
 
-De uitkering van het bedrag van het scheidingsaandeel waarop een aandeelhouder recht heeft ingevolge zijn uitsluiting, wordt aangemerkt als een uitkering waarop de uitkeringstesten[^29]
- van toepassing zijn .[^30] Indien in toepassing van voormelde uitkeringstesten het scheidingsaandeel niet of niet geheel kan worden uitgekeerd, wordt het recht op betaling ervan opgeschort totdat uitkeringen opnieuw zijn toegelaten. Hiervan kan statutair niet worden afgeweken. Het op het scheidingsaandeel nog verschuldigde bedrag wordt uitgekeerd vóór iedere andere uitkering aan aandeelhouders. 
+De uitkering van het bedrag van het scheidingsaandeel waarop een aandeelhouder recht heeft ingevolge zijn uitsluiting, wordt aangemerkt als een uitkering waarop de uitkeringstesten[^29] van toepassing zijn .[^30]
+ Indien in toepassing van voormelde uitkeringstesten het scheidingsaandeel niet of niet geheel kan worden uitgekeerd, wordt het recht op betaling ervan opgeschort totdat uitkeringen opnieuw zijn toegelaten. Hiervan kan statutair niet worden afgeweken. Het op het scheidingsaandeel nog verschuldigde bedrag wordt uitgekeerd vóór iedere andere uitkering aan aandeelhouders. 
 
 De aandelen van de uitgesloten aandeelhouder worden vernietigd.
 
@@ -219,8 +211,7 @@ Net zoals voor een uittreding lastens het vennootschapsvermogen volstaat bij een
 
 ## Boekhoudkundige verwerking in hoofde van de uitkerende vennootschap
 
-Bij de uittreding of de uitsluiting bepaalt het bestuursorgaan op welke bestanddelen van het eigen vermogen de benodigde bedragen voor de uitbetaling van het scheidingsaandeel[^31]
- boekhoudkundig zullen worden aangerekend. De aanrekening moet uiteraard plaatsvinden binnen de aan het bestuursorgaan toegemeten bevoegdheden. In het bijzonder moet onder meer rekening worden gehouden met de bestanddelen van het eigen vermogen die wettelijk of statutair onbeschikbaar zijn. De Commissie merkt op dat een fiscale analyse van de problematiek van de roerende voorheffing bij uittreding of uitsluiting niet tot haar bevoegdheden behoort. In de volgende randnummers wordt bijgevolg abstractie gemaakt van de roerende voorheffing die verschuldigd kan zijn. 
+Bij de uittreding of de uitsluiting bepaalt het bestuursorgaan op welke bestanddelen van het eigen vermogen de benodigde bedragen voor de uitbetaling van het scheidingsaandeel[^31] boekhoudkundig zullen worden aangerekend. De aanrekening moet uiteraard plaatsvinden binnen de aan het bestuursorgaan toegemeten bevoegdheden. In het bijzonder moet onder meer rekening worden gehouden met de bestanddelen van het eigen vermogen die wettelijk of statutair onbeschikbaar zijn. De Commissie merkt op dat een fiscale analyse van de problematiek van de roerende voorheffing bij uittreding of uitsluiting niet tot haar bevoegdheden behoort. In de volgende randnummers wordt bijgevolg abstractie gemaakt van de roerende voorheffing die verschuldigd kan zijn. 
 
 In de mate de terugbetaling van het scheidingsbestanddeel wordt aangerekend op de inbreng buiten kapitaal, vindt de volgende boeking plaats op het ogenblik van de uittreding of uitsluiting:
 

@@ -2,66 +2,64 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/herwaardering-van-vaste-activa-voor-het-begin-van-het-boekjaar-dat-aanvangt-na-31-december
 datum: 1984-01-01
 gerelateerde_adviezen:
-- datum: '2025-04-25'
-  titel: Afschrijvingsmethoden (update) [ONTWERP]
-  url: https://www.cbn-cnc.be/nl/adviezen/afschrijvingsmethoden-update-ontwerp
-- datum: '2017-12-13'
-  titel: Afschrijving van materiële vaste activa in aanbouw en vooruitbetalingen -
-    Inresultaatname van kapitaalsubsidies
-  url: https://www.cbn-cnc.be/nl/adviezen/afschrijving-van-materiele-vaste-activa-in-aanbouw-en-vooruitbetalingen-inresultaatname
-- datum: '2012-10-10'
-  titel: De boekhoudkundige verwerking van immateriële vaste activa
-  url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-immateriele-vaste-activa
-- datum: '2010-10-06'
-  titel: Afschrijvingsmethoden
-  url: https://www.cbn-cnc.be/nl/adviezen/afschrijvingsmethoden
+  - datum: '2025-04-25'
+    titel: Afschrijvingsmethoden (update) [ONTWERP]
+    url: https://www.cbn-cnc.be/nl/adviezen/afschrijvingsmethoden-update-ontwerp
+  - datum: '2017-12-13'
+    titel: Afschrijving van materiële vaste activa in aanbouw en vooruitbetalingen - Inresultaatname van kapitaalsubsidies
+    url: https://www.cbn-cnc.be/nl/adviezen/afschrijving-van-materiele-vaste-activa-in-aanbouw-en-vooruitbetalingen-inresultaatname
+  - datum: '2012-10-10'
+    titel: De boekhoudkundige verwerking van immateriële vaste activa
+    url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-immateriele-vaste-activa
+  - datum: '2010-10-06'
+    titel: Afschrijvingsmethoden
+    url: https://www.cbn-cnc.be/nl/adviezen/afschrijvingsmethoden
 nummer: CBN-advies 113/5
 provenance:
-  generated_at: '2026-05-08T18:34:17Z'
+  generated_at: '2026-05-11T13:05:05Z'
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/herwaardering-van-vaste-activa-voor-het-begin-van-het-boekjaar-dat-aanvangt-na-31-december
-    sha256: 1cf5aff861f5346d111cb0f8bcb4bed221f788d17e89713f24e56a69581dac4a
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/herwaardering-van-vaste-activa-voor-het-begin-van-het-boekjaar-dat-aanvangt-na-31-december
+      sha256: 1cf5aff861f5346d111cb0f8bcb4bed221f788d17e89713f24e56a69581dac4a
+      version:
   stale: false
-  stale_reason: null
+  stale_reason:
   tooling:
-    model: null
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    prompt_version: null
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
   trust:
     confirmed_at: '2026-05-08T19:02:29Z'
     confirmed_by: subagent-laag2-ronde2
     layer1:
-      file_size_chars: 7307
-      flags: []
-      heading_count: 0
-      max_section_chars: 7307
-      run_at: null
-      run_id: 20260511-083333
       status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:24Z'
+      heading_count: 1
+      max_section_chars: 7304
+      file_size_chars: 7304
+      flags: []
     layer2:
       agent: subagent-laag2-ronde2
       concrete_problemen: []
-      rationale: '[Laag-2-R2 2026-05-08] Volledig met twee hoofdvragen en drie subcases
-        voor afboeking. Inhaalafschrijvingen afzonderlijk.'
+      rationale: '[Laag-2-R2 2026-05-08] Volledig met twee hoofdvragen en drie subcases voor afboeking. Inhaalafschrijvingen afzonderlijk.'
       run_at: '2026-05-08T19:02:29Z'
       status: trusted
     rationale: Laag-2 trusted door subagent-laag2-ronde2 (zie layer2.rationale)
     status: trusted
 themas:
-- afschrijvingen
-- gebruiksduur
-- herwaardering
-- herwaarderingsmeerwaarde
-- immateriële vaste activa
-- materiële vaste activa
-- vaste activa
+  - afschrijvingen
+  - gebruiksduur
+  - herwaardering
+  - herwaarderingsmeerwaarde
+  - immateriële vaste activa
+  - materiële vaste activa
+  - vaste activa
 ---
 
 # CBN-advies 113/5 - Herwaardering van vaste activa vóór het begin van het boekjaar dat aanvangt na 31 december 1983
 
-**Weerslag van het koninklijk besluit van 12 september 1983**
+## Weerslag van het koninklijk besluit van 12 september 1983
 
 Met het koninklijk besluit van 12 september 1983 werd de regeling voor de herwaardering van vaste activa grondig gewijzigd. Artikel 34 van het koninklijk besluit van 8 oktober 1976 werd in een nieuwe vorm gegoten. Bovendien werd de mogelijkheid opgeheven om deze activa te waarderen tegen vervangingswaarde, zoals bepaald in artikel 35 van het koninklijk besluit van 8 oktober 1976. De redenen daartoe en de gevolgen daarvan werden uiteengezet in het Verslag aan de Koning bij het besluit van 12 september 1983. Deze wijzigingen worden van kracht bij het begin van het boekjaar dat aanvangt na 31 december 1983. 
 
@@ -69,17 +67,15 @@ De eerste wijziging aan artikel 34 van het besluit van 8 oktober 1976 bestaat hi
 
 In verband met de vroeger, in overeenstemming met de toen geldende bepalingen geboekte meerwaarden, die niet meer voldoen aan de door het gewijzigde artikel 34 bepaalde criteria en voorwaarden, rijzen twee vragen : 
 
-**a) Mogen deze meerwaarden worden behouden ? **
+**a) Mogen deze meerwaarden worden behouden ?** 
 
-**b) Moeten deze meerwaarden worden afgeboekt ? **
+**b) Moeten deze meerwaarden worden afgeboekt ?** 
 
-Het antwoord op de eerste vraag ligt in de tekst van het besluit zelf[^1]: «Zijn door een onderneming meerwaarden geboekt tijdens een boekjaar dat vooraf gaat aan het boekjaar dat ingaat na 31 december 1983, dan mogen deze meerwaarden in rubriek III *herwaarderingsmeerwaarden* behouden blijven.». Deze bepaling geldt zowel voor meerwaarden op immateriële vaste activa[^2]
- als voor meerwaarden uitgedrukt als vervangingswaarde en voor meerwaarden op materiële vaste activa, zelfs indien deze laatste niet meer zouden voldoen aan de strengere voorwaarden ingevoerd door het besluit van 12 september 1983. Deze mogelijkheid is bedoeld om te vermijden dat bij onmiddellijk dwingende invoering van dit voorschrift de balansstructuur van vele ondernemingen zou worden verstoord. 
+Het antwoord op de eerste vraag ligt in de tekst van het besluit zelf[^1]: «Zijn door een onderneming meerwaarden geboekt tijdens een boekjaar dat vooraf gaat aan het boekjaar dat ingaat na 31 december 1983, dan mogen deze meerwaarden in rubriek III *herwaarderingsmeerwaarden* behouden blijven.». Deze bepaling geldt zowel voor meerwaarden op immateriële vaste activa[^2] als voor meerwaarden uitgedrukt als vervangingswaarde en voor meerwaarden op materiële vaste activa, zelfs indien deze laatste niet meer zouden voldoen aan de strengere voorwaarden ingevoerd door het besluit van 12 september 1983. Deze mogelijkheid is bedoeld om te vermijden dat bij onmiddellijk dwingende invoering van dit voorschrift de balansstructuur van vele ondernemingen zou worden verstoord. 
 
 In verband met de tweede vraag, namelijk of meerwaarden op materiële vaste activa op grond van de wijziging van artikel 34 van het koninklijk besluit van 8 oktober 1976 door het besluit van 12 september 1983, mogen worden afgeboekt, moet een onderscheid worden gemaakt tussen volgende gevallen : 
 
-1) Zo de herwaarderingsmeerwaarde betrekking had op materiële vaste activa en de geboekte meerwaarde groter is dan de mogelijk aan deze activa toe te kennen waarde op grond van de bij het nieuwe artikel 34 bepaalde voorwaarden en criteria, met andere woorden, indien er volgens deze nieuwe voorwaarden en criteria geen meerwaarde meer bestaat of kan worden verantwoord, dan mag de geboekte meerwaarde zonder bezwaar zowel aan actief- als passiefzijde[^3]
- worden afgeboekt; het besluit voorziet uitdrukkelijk in een dergelijke hypothese onder de organieke regeling, wanneer achteraf een meerwaarde verdwijnt (artikel 34, vierde lid, 3°). 
+1) Zo de herwaarderingsmeerwaarde betrekking had op materiële vaste activa en de geboekte meerwaarde groter is dan de mogelijk aan deze activa toe te kennen waarde op grond van de bij het nieuwe artikel 34 bepaalde voorwaarden en criteria, met andere woorden, indien er volgens deze nieuwe voorwaarden en criteria geen meerwaarde meer bestaat of kan worden verantwoord, dan mag de geboekte meerwaarde zonder bezwaar zowel aan actief- als passiefzijde[^3] worden afgeboekt; het besluit voorziet uitdrukkelijk in een dergelijke hypothese onder de organieke regeling, wanneer achteraf een meerwaarde verdwijnt (artikel 34, vierde lid, 3°). 
 
 2) Zo de herwaardering gebeurde in toepassing van het oude artikel 35 van het koninklijk besluit van 8 oktober 1976, op grond van de keuze van een waarderingsmethode tegen vervangingswaarde, en zo, overeenkomstig dit artikel, de afschrijvingen op deze vervangingswaarde werden berekend, of ook nog, zo de onderneming als regel zou hebben gekozen vaste activa met een beperkte gebruiksduur, geherwaardeerd in toepassing van het vroegere artikel 34, af te schrijven, dan kan het op grond van het beginsel van de stelselmatigheid inzake waarderingsmethodes raadzaam zijn om de uitgedrukte meerwaarde niet af te boeken, zelfs indien zij niet voldoet aan de criteria van het nieuwe artikel 34, en de afschrijving ervan over de vermoedelijke residuele gebruiksduur voort te zetten. 
 

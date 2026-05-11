@@ -1,6 +1,43 @@
 ---
-nummer: CBN-advies 159/1
+bron: https://www.cbn-cnc.be/nl/adviezen/schulden-op-meer-dan-een-jaar-waarvoor-geen-of-slechts-een-abnormaal-lage-rente
 datum: 1988-12-01
+gerelateerde_adviezen:
+  - datum: '2021-03-15'
+    titel: Aanschaffingswaarde bij de aankoop van een goed tegen betaling van een vaste prijs, verschuldigd over een periode van meer dan één jaar
+    url: https://www.cbn-cnc.be/nl/adviezen/aanschaffingswaarde-bij-de-aankoop-van-een-goed-tegen-betaling-van-een-vaste-prijs-0
+nummer: CBN-advies 159/1
+provenance:
+  generated_at: '2026-05-11T13:05:06Z'
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/schulden-op-meer-dan-een-jaar-waarvoor-geen-of-slechts-een-abnormaal-lage-rente
+      sha256: d4afec32799a95bf94f4a6b3d109271f899c33a7cb9a0e57737ab0f3f7044673
+      version:
+  stale: false
+  stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
+  trust:
+    confirmed_at: '2026-05-11T12:04:42Z'
+    confirmed_by: subagent-sonnet-4-6
+    layer1:
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:26Z'
+      heading_count: 0
+      max_section_chars: 4425
+      file_size_chars: 4425
+      flags: []
+    layer2:
+      agent: subagent-sonnet-4-6
+      concrete_problemen: []
+      rationale: 'Geen zichtbare ETL-artefacten. Italics voor ''artikel 27*bis*'' en ''25*bis*'' zijn Belgische wetgevingsstijl (geen malformed markdown). Voetnoten correct gelinkt. Genummerde lijst (1./2.) en bulletlijst correct. Inhoud volledig: vraag, boekhoudkundig antwoord met cijfervoorbeeld en fiscaal-rechtelijk commentaar aanwezig.'
+      run_at: '2026-05-11T12:04:42Z'
+      status: trusted
+    rationale: 'Geen zichtbare ETL-artefacten. Italics voor ''artikel 27*bis*'' en ''25*bis*'' zijn Belgische wetgevingsstijl (geen malformed markdown). Voetnoten correct gelinkt. Genummerde lijst (1./2.) en bulletlijst correct. Inhoud volledig: vraag, boekhoudkundig antwoord met cijfervoorbeeld en fiscaal-rechtelijk commentaar aanwezig.'
+    status: trusted
 themas:
   - abnormaal lage rente
   - geen rente verschuldigd
@@ -10,49 +47,11 @@ themas:
   - schulden
   - schulden met een abnormaal lage rente
   - schulden op meer dan één jaar
-bron: https://www.cbn-cnc.be/nl/adviezen/schulden-op-meer-dan-een-jaar-waarvoor-geen-of-slechts-een-abnormaal-lage-rente
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/schulden-op-meer-dan-een-jaar-waarvoor-geen-of-slechts-een-abnormaal-lage-rente
-      sha256: d4afec32799a95bf94f4a6b3d109271f899c33a7cb9a0e57737ab0f3f7044673
-      version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:35:28Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: trusted
-    confirmed_at: '2026-05-11T12:04:42Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "Geen zichtbare ETL-artefacten. Italics voor 'artikel 27*bis*' en '25*bis*' zijn Belgische wetgevingsstijl (geen malformed markdown). Voetnoten correct gelinkt. Genummerde lijst (1./2.) en bulletlijst correct. Inhoud volledig: vraag, boekhoudkundig antwoord met cijfervoorbeeld en fiscaal-rechtelijk commentaar aanwezig."
-    layer1:
-      status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 0
-      max_section_chars: 4426
-      file_size_chars: 4426
-      flags: []
-    layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:04:42Z'
-      rationale: "Geen zichtbare ETL-artefacten. Italics voor 'artikel 27*bis*' en '25*bis*' zijn Belgische wetgevingsstijl (geen malformed markdown). Voetnoten correct gelinkt. Genummerde lijst (1./2.) en bulletlijst correct. Inhoud volledig: vraag, boekhoudkundig antwoord met cijfervoorbeeld en fiscaal-rechtelijk commentaar aanwezig."
-      concrete_problemen: []
-gerelateerde_adviezen:
-  - titel: Aanschaffingswaarde bij de aankoop van een goed tegen betaling van een vaste prijs, verschuldigd over een periode van meer dan één jaar
-    url: https://www.cbn-cnc.be/nl/adviezen/aanschaffingswaarde-bij-de-aankoop-van-een-goed-tegen-betaling-van-een-vaste-prijs-0
-    datum: '2021-03-15'
 ---
 
 # CBN-advies 159/1 - Schulden op meer dan één jaar waarvoor geen of slechts een abnormaal lage rente verschuldigd is - Fiscale impact
 
-Het koninklijk besluit van 6 november 1987 tot wijziging van het koninklijk besluit van 8 oktober 1976 ter zake[^1]
- wijzigde onder meer artikel 27*bis* van voormeld besluit. 
+Het koninklijk besluit van 6 november 1987 tot wijziging van het koninklijk besluit van 8 oktober 1976 ter zake[^1] wijzigde onder meer artikel 27*bis* van voormeld besluit. 
 
 De bepalingen inzake de boeking van schuldvorderingen die geen intrest of een abnormaal lage intrest opbrengen[^2],zijn nu toepasselijk op de schulden van overeenstemmende aard en duur. 
 

@@ -1,44 +1,44 @@
 ---
-nummer: CBN-advies 2009/12
-datum: 2009-10-14
-themas:
-  - dimona
-  - personeelsregister
-  - sociale balans
-  - statutaire werknemers
 bron: https://www.cbn-cnc.be/nl/adviezen/de-sociale-balans-en-de-statutaire-werknemers
+datum: 2009-10-14
+nummer: CBN-advies 2009/12
 provenance:
+  generated_at: '2026-05-11T13:05:07Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/de-sociale-balans-en-de-statutaire-werknemers
       sha256: 8b84092b1fd2d33b748a4d77317c8d9f60a53215a661f2da5d2d1b780f2b0948
       version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:35:52Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
   trust:
-    status: trusted
     confirmed_at: '2026-05-11T12:09:17Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: 'Geen extractie-artefacten gevonden. Vier secties correct hiërarchisch als ## headings opgemaakt, voetnoten [^1]–[^12] volledig gedefinieerd, geen afgekapte zinnen, geen invisible unicode of HTML-entities. Body kort en inhoudelijk compleet.'
     layer1:
       status: pass
-      run_id: 20260511-083333
-      run_at:
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:27Z'
       heading_count: 4
       max_section_chars: 3482
       file_size_chars: 7056
       flags: []
     layer2:
-      status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:09:17Z'
-      rationale: 'Geen extractie-artefacten gevonden. Vier secties correct hiërarchisch als ## headings opgemaakt, voetnoten [^1]–[^12] volledig gedefinieerd, geen afgekapte zinnen, geen invisible unicode of HTML-entities. Body kort en inhoudelijk compleet.'
       concrete_problemen: []
+      rationale: 'Geen extractie-artefacten gevonden. Vier secties correct hiërarchisch als ## headings opgemaakt, voetnoten [^1]–[^12] volledig gedefinieerd, geen afgekapte zinnen, geen invisible unicode of HTML-entities. Body kort en inhoudelijk compleet.'
+      run_at: '2026-05-11T12:09:17Z'
+      status: trusted
+    rationale: 'Geen extractie-artefacten gevonden. Vier secties correct hiërarchisch als ## headings opgemaakt, voetnoten [^1]–[^12] volledig gedefinieerd, geen afgekapte zinnen, geen invisible unicode of HTML-entities. Body kort en inhoudelijk compleet.'
+    status: trusted
+themas:
+  - dimona
+  - personeelsregister
+  - sociale balans
+  - statutaire werknemers
 ---
 
 # CBN-advies 2009/12 – De sociale balans en de statutaire werknemers
@@ -68,7 +68,7 @@ De wet van 24 januari 2003[^6] heeft het KB nr. 5 als volgt gewijzigd:
 - vooreerst werd het personeelsregister afgeschaft en vervangen door het algemeen personeelsregister en het speciaal personeelsregister;[^7] 
 - voorts werd de Koning de mogelijkheid toegekend om werkgevers vrij te stellen van de verplichting een algemeen personeelsregister bij te houden voor de werknemers van wie gegevens doorgegeven zijn aan de Rijksdienst voor Sociale Zekerheid (***RSZ***).[^8] 
 
-Het is binnen deze context dat het KB van 5 november 2002[^9] op 1 januari 2003 van kracht is geworden. Deze heeft de onmiddellijke aangifte van tewerkstelling geïntroduceerd: de *“**D**éclaration **im**médiate/**on**middellijke **a**angifte”* (***DIMONA***), een elektronisch bericht waarin de werkgever iedere aanwerving en iedere uitdiensttreding van een werknemer onmiddellijk meldt aan de RSZ.
+Het is binnen deze context dat het KB van 5 november 2002[^9] op 1 januari 2003 van kracht is geworden. Deze heeft de onmiddellijke aangifte van tewerkstelling geïntroduceerd: de *“**D**éclaration** im**médiate/**on**middellijke** a**angifte”* (***DIMONA***), een elektronisch bericht waarin de werkgever iedere aanwerving en iedere uitdiensttreding van een werknemer onmiddellijk meldt aan de RSZ.
 
 Het toepassingsgebied van de DIMONA-verplichting is zeer ruim en stelt gelijk met de werknemers “*personen die, anders dan krachtens een arbeidsovereenkomst, arbeid verrichten onder het gezag van een ander persoon*”[^10]. Van het toepassingsgebied zijn enkel uitzonderlijke categorieën van werknemers uitgesloten zoals mijnwerkers, zeelieden ter koopvaardij, werknemers die occasionele arbeid verrichten, werknemers die arbeidsprestaties verrichten in het kader van een PWA-arbeidsovereenkomst, vrijwilligers...[^11] 
 

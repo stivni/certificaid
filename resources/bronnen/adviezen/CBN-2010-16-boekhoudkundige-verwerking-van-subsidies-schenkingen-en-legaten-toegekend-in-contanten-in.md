@@ -1,6 +1,55 @@
 ---
-nummer: CBN-advies 2010/16
+bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-subsidies-schenkingen-en-legaten-toegekend-in-contanten-in
 datum: 2010-11-10
+nummer: CBN-advies 2010/16
+provenance:
+  generated_at: '2026-05-11T13:05:08Z'
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-subsidies-schenkingen-en-legaten-toegekend-in-contanten-in
+      sha256: b66cf497d0127797f6e2ad5f488d4a6171e035dbf5fe77f441d95017d0a9090c
+      version:
+  stale: false
+  stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
+  trust:
+    confirmed_at: '2026-05-11T12:09:17Z'
+    confirmed_by: subagent-sonnet-4-6
+    layer1:
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:27Z'
+      heading_count: 14
+      max_section_chars: 11054
+      file_size_chars: 27530
+      flags: []
+    layer2:
+      agent: subagent-sonnet-4-6
+      concrete_problemen:
+        - categorie: A3
+          regel: 56
+          type: other
+          voorbeeld: 1. Basisbeginselen \n2. Soorten subsidies \n  1. Subsidies, ...
+        - categorie: D4
+          regel: 83
+          type: other
+          voorbeeld: Lidgeld, schenkingen, legaten en subsidies[^6] *;
+        - categorie: D4
+          regel: 84
+          type: other
+          voorbeeld: de post VI. *Kapitaalsubsidies* in artikel 19, § 2, 3°
+        - categorie: D4
+          regel: 106
+          type: other
+          voorbeeld: (1)** oorzaak:** het gaat om de reden
+      rationale: 'Regel 56–64: plain-text genummerde inhoudsopgave in de body (A3-patroon, net als 2010/15). Regel 83: malformed italic met spatie vóór sluit-asterisk: ''Lidgeld, schenkingen, legaten en subsidies[^6] *'' (D4). Regel 84: zelfde patroon ''Kapitaalsubsidies* in artikel''. Regel 106: bold/italic gecombineerd mislopen: ''(1)** oorzaak:**'' — de bold-marker staat ná de haakjes in plaats van eromheen. Inhoud en tabellen overigens volledig.'
+      run_at: '2026-05-11T12:09:17Z'
+      status: needs-rework
+    rationale: 'Regel 56–64: plain-text genummerde inhoudsopgave in de body (A3-patroon, net als 2010/15). Regel 83: malformed italic met spatie vóór sluit-asterisk: ''Lidgeld, schenkingen, legaten en subsidies[^6] *'' (D4). Regel 84: zelfde patroon ''Kapitaalsubsidies* in artikel''. Regel 106: bold/italic gecombineerd mislopen: ''(1)** oorzaak:**'' — de bold-marker staat ná de haakjes in plaats van eromheen. Inhoud en tabellen overigens volledig.'
+    status: needs-rework
 themas:
   - compenserende bedragen ter vermindering van de loonkost
   - exploitatiesubsidie
@@ -16,55 +65,6 @@ themas:
   - stichting
   - subsidies
   - vereniging zonder winstoogmerk
-bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-subsidies-schenkingen-en-legaten-toegekend-in-contanten-in
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-subsidies-schenkingen-en-legaten-toegekend-in-contanten-in
-      sha256: b66cf497d0127797f6e2ad5f488d4a6171e035dbf5fe77f441d95017d0a9090c
-      version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:36:03Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T12:09:17Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "Regel 56–64: plain-text genummerde inhoudsopgave in de body (A3-patroon, net als 2010/15). Regel 83: malformed italic met spatie vóór sluit-asterisk: 'Lidgeld, schenkingen, legaten en subsidies[^6] *' (D4). Regel 84: zelfde patroon 'Kapitaalsubsidies* in artikel'. Regel 106: bold/italic gecombineerd mislopen: '(1)** oorzaak:**' — de bold-marker staat ná de haakjes in plaats van eromheen. Inhoud en tabellen overigens volledig."
-    layer1:
-      status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 16
-      max_section_chars: 7145
-      file_size_chars: 27543
-      flags: []
-    layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:09:17Z'
-      rationale: "Regel 56–64: plain-text genummerde inhoudsopgave in de body (A3-patroon, net als 2010/15). Regel 83: malformed italic met spatie vóór sluit-asterisk: 'Lidgeld, schenkingen, legaten en subsidies[^6] *' (D4). Regel 84: zelfde patroon 'Kapitaalsubsidies* in artikel'. Regel 106: bold/italic gecombineerd mislopen: '(1)** oorzaak:**' — de bold-marker staat ná de haakjes in plaats van eromheen. Inhoud en tabellen overigens volledig."
-      concrete_problemen:
-        - regel: 56
-          categorie: A3
-          type: other
-          voorbeeld: 1. Basisbeginselen \n2. Soorten subsidies \n  1. Subsidies, ...
-        - regel: 83
-          categorie: D4
-          type: other
-          voorbeeld: Lidgeld, schenkingen, legaten en subsidies[^6] *;
-        - regel: 84
-          categorie: D4
-          type: other
-          voorbeeld: de post VI. *Kapitaalsubsidies* in artikel 19, § 2, 3°
-        - regel: 106
-          categorie: D4
-          type: other
-          voorbeeld: (1)** oorzaak:** het gaat om de reden
 ---
 
 # CBN-advies 2010/16 - Boekhoudkundige verwerking van subsidies, schenkingen en legaten, toegekend in contanten, in de jaarrekening van begunstigde grote en zeer grote verenigingen en stichtingen
@@ -80,9 +80,7 @@ provenance:
 
 ## Inleiding
 
-Grote[^1]
- en zeer grote[^2]
- verenigingen en stichtingen zijn gehouden hun boekhouding te voeren en hun jaarrekening op te stellen overeenkomstig de bepalingen van toepassing op handels- en industriële vennootschappen, meer bepaald overeenkomstig de wet van 17 juli 1975 met betrekking tot de boekhouding van de ondernemingen en haar uitvoeringsbesluiten, evenals het koninklijk besluit van 30 januari 2001 tot uitvoering van het Wetboek van Vennootschappen (hierna KB W.Venn.). Deze bepalingen werden aangepast aan de bijzondere aard van hun werkzaamheden en hun wettelijk statuut door het koninklijk besluit van 19 december 2003 betreffende de boekhoudkundige verplichtingen en de openbaarmaking van de jaarrekening van bepaalde verenigingen zonder winstoogmerk, internationale verenigingen zonder winstoogmerk en stichtingen (hierna KB van 19 december 2003)[^3].
+Grote[^1] en zeer grote[^2] verenigingen en stichtingen zijn gehouden hun boekhouding te voeren en hun jaarrekening op te stellen overeenkomstig de bepalingen van toepassing op handels- en industriële vennootschappen, meer bepaald overeenkomstig de wet van 17 juli 1975 met betrekking tot de boekhouding van de ondernemingen en haar uitvoeringsbesluiten, evenals het koninklijk besluit van 30 januari 2001 tot uitvoering van het Wetboek van Vennootschappen (hierna KB W.Venn.). Deze bepalingen werden aangepast aan de bijzondere aard van hun werkzaamheden en hun wettelijk statuut door het koninklijk besluit van 19 december 2003 betreffende de boekhoudkundige verplichtingen en de openbaarmaking van de jaarrekening van bepaalde verenigingen zonder winstoogmerk, internationale verenigingen zonder winstoogmerk en stichtingen (hierna KB van 19 december 2003)[^3].
 
 Verenigingen en stichtingen verkrijgen dikwijls geldmiddelen en goederen om niet met het oog op het realiseren van bepaalde vormen van dienstverlening of het uitvoeren van bepaalde programma’s. Het kan bijvoorbeeld gaan om:
 
@@ -91,12 +89,11 @@ Verenigingen en stichtingen verkrijgen dikwijls geldmiddelen en goederen om niet
 - legaten (zowel in contanten als in natura) ontvangen ten gevolge van een erfenis, al dan niet gepaard gaande met een bepaalde doelstelling of voorwaarden die aan de vereniging worden opgelegd[^4]; of 
 - subsidies in de vorm van een kwijtschelding van schulden. 
 
-Het verschil tussen een schenking[^5]
- en een subsidie is niet steeds duidelijk, aangezien deze juridische begrippen bij verenigingen en stichtingen dicht bij elkaar aanleunen.
+Het verschil tussen een schenking[^5] en een subsidie is niet steeds duidelijk, aangezien deze juridische begrippen bij verenigingen en stichtingen dicht bij elkaar aanleunen.
 
 Naar de mening van de Commissie wou de wetgever het begrip subsidie in feite een ruimere draagwijdte toekennen bij verenigingen en stichtingen dan bij handels- en industriële vennootschappen. Deze interpretatie berust op twee elementen:
 
-- de subsidies die in resultaat worden genomen, worden geboekt als bedrijfsopbrengsten onder de post I.D. *Lidgeld, schenkingen, legaten en subsidies[^6] *; 
+- de subsidies die in resultaat worden genomen, worden geboekt als bedrijfsopbrengsten onder de post I.D. *Lidgeld, schenkingen, legaten en subsidies[^6]* ; 
 - de woorden “van overheidswege” worden weggelaten in de definitie van de inhoud van de post VI. *Kapitaalsubsidies* in artikel 95, § 2 KB W.Venn., zoals van toepassing op verenigingen en stichtingen bedoeld in het KB van 19 december 2003[^7]. 
 
 Subsidies, in de zin van dit advies, kunnen dus toegekend worden door de overheid, door privépersonen of door elke andere entiteit[^8].
@@ -133,8 +130,7 @@ In dit opzicht wenst de Commissie in het bijzonder de verantwoordelijkheid van h
 
 ## Soorten subsidies
 
-### Subsidies, schenkingen en legaten in contanten bestemd voor de duurzame ondersteuning van de activiteit van de vereniging of stichting
-
+Subsidies, schenkingen en legaten in contanten bestemd voor de duurzame ondersteuning van de activiteit van de vereniging of stichting
 Indien de subsidies, schenkingen of legaten voorzien in de permanente financiering ter duurzame ondersteuning van de activiteit van de vereniging of stichting, dan dienen deze geboekt te worden in de passiefpost I. *Fondsen van de vereniging*. Deze permanente bron van vermogen wordt niet gespreid in resultaat genomen.
 
 Artikel 19, § 2, 1° van het KB van 19 december 2003 definieert de inhoud van de post *Fondsen van de vereniging* (ter vervanging van de post *Geplaatst kapitaal* van toepassing bij vennootschappen) als volgt:
@@ -145,7 +141,7 @@ De Commissie is de mening toegedaan dat het gebruik van de term “uitsluitend�
 
 De post I. *Fondsen van de vereniging* moet bijgevolg, wat de subsidies betreft, voorbehouden blijven voor subsidies die noch beantwoorden aan het begrip kapitaalsubsidie[^12], noch aan het begrip exploitatie- of interestsubsidie en die ondubbelzinnig tot doel hebben de fondsen van de vereniging of stichting permanent te vergroten, met uitsluiting van elke andere besteding.
 
-Volgens de Commissie dient begrepen te worden onder “duurzame ondersteuning”, een ondersteuning die op lange termijn het vermogen van de vereniging of stichting beïnvloedt, *a fortiori *langer dan één jaar. Dit duurzaam karakter gaat gepaard met een structurele aanpassing van de financiële basis van de vereniging of stichting. Het mag niet enkel strekken tot de financiering van de lopende werkingskosten van het boekjaar tijdens hetwelk de subsidie werd bekomen, zelfs indien deze vorm van subsidie recurrent is. 
+Volgens de Commissie dient begrepen te worden onder “duurzame ondersteuning”, een ondersteuning die op lange termijn het vermogen van de vereniging of stichting beïnvloedt, *a fortiori* langer dan één jaar. Dit duurzaam karakter gaat gepaard met een structurele aanpassing van de financiële basis van de vereniging of stichting. Het mag niet enkel strekken tot de financiering van de lopende werkingskosten van het boekjaar tijdens hetwelk de subsidie werd bekomen, zelfs indien deze vorm van subsidie recurrent is. 
 
 In het geval dat een subsidie, schenking of legaat de vorm aanneemt van een kwijtschelding van schulden, wordt de rekening 1011 *Permanente financiering ontvangen in contanten*, gecrediteerd door het debiteren van de desbetreffende schuldrekening(en).
 
@@ -185,7 +181,7 @@ Artikel 19, § 2, 3° van het KB van 19 december 2003 voorziet in een aanpassing
 
 Deze subsidies worden geleidelijk afgeboekt via overboeking naar post I.D ‘Lidgeld, schenkingen, legaten en subsidies’, volgens hetzelfde ritme als de afschrijvingen op de vaste activa voor de verwerving waarvan ze werden verkregen of, in voorkomend geval, ten belope van het saldo, bij realisatie of buitengebruikstelling van de betrokken vaste activa. *
 
-In het Verslag aan de Koning bij het koninklijk besluit van 19 december 2003 lezen we dat schenkingen, legaten en subsidies die tot doel hebben een vast actief te vormen dat op duurzame wijze wordt bestemd voor de activiteit van de vereniging moeten geboekt worden onder de post *Kapitaalsubsidies[^14] *.
+In het Verslag aan de Koning bij het koninklijk besluit van 19 december 2003 lezen we dat schenkingen, legaten en subsidies die tot doel hebben een vast actief te vormen dat op duurzame wijze wordt bestemd voor de activiteit van de vereniging moeten geboekt worden onder de post *Kapitaalsubsidies[^14]* .
 
 Investeert de vereniging of stichting in vaste activa waarvan de gebruiksduur niet beperkt is (zoals terreinen) of waarvan de functionaliteit constant is[^15], dan is de Commissie van oordeel dat, omwille van het duurzame karakter ervan, de subsidie kan worden opgenomen onder de permanente fondsen van de vereniging of stichting. Aangezien deze vaste activa niet worden afgeschreven, is, naar de mening van de Commissie, ook de in opbrengstname van de kapitaalsubsidie van minder belang. Bijgevolg zal de Commissie voorstellen om de omschrijving van de post *Kapitaalsubsidies* in artikel 19, § 2, 3° van het KB van 19 december 2003 aan te passen als volgt: “Deze post omvat de kapitaalsubsidies die werden verkregen voor investeringen in vaste activa waarvan de gebruiksduur beperkt is”.
 
@@ -232,10 +228,9 @@ De inresultaatneming van de subsidie, volgens het ritme van de afschrijving van 
 | | 151 | Kapitaalsubsidies ontvangen in contanten | 3.000 | |
 | aan | 736 | Kapitaal- en interestsubsidie | | 3.000 |
 
-Indien de kapitaalsubsidie de vorm aanneemt van een kwijtschelding van schulden, wordt de rekening 151 *Kapitaalsubsidies ontvangen in contanten *gecrediteerd door het debiteren van de desbetreffende schuldrekening(en). Er zal uiteraard in de beweegreden van de kwijtschelding van schulden gezocht moeten worden naar de rechtvaardiging van de boeking van deze subsidie als een kapitaalsubsidie.
+Indien de kapitaalsubsidie de vorm aanneemt van een kwijtschelding van schulden, wordt de rekening 151 *Kapitaalsubsidies ontvangen in contanten* gecrediteerd door het debiteren van de desbetreffende schuldrekening(en). Er zal uiteraard in de beweegreden van de kwijtschelding van schulden gezocht moeten worden naar de rechtvaardiging van de boeking van deze subsidie als een kapitaalsubsidie.
 
-### Subsidies, schenkingen en legaten in contanten met het oog op de ondersteuning van de lopende verrichtingen van de vereniging of stichting
-
+Subsidies, schenkingen en legaten in contanten met het oog op de ondersteuning van de lopende verrichtingen van de vereniging of stichting
 Van zodra een subsidie, schenking of legaat niet beantwoordt aan de definitie van permanente financiering of kapitaalsubsidies, wat wil zeggen dat deze niet werden verkregen met het oog op permanente financiële ondersteuning of investering in vaste activa, dienen deze rechtstreeks in de resultatenrekening opgenomen te worden als opbrengst.
 
 Artikel 95, § 2, VI, laatste lid KB W.Venn., zoals van toepassing op verenigingen en stichtingen, bepaalt dat de subsidies waarvan de verkrijging niet afhankelijk is van een investering in vaste activa, bij de verkrijging geboekt worden in de postI.D. *Lidgeld, schenkingen, legaten en subsidies* van de resultatenrekening.
@@ -291,7 +286,7 @@ De notaris verantwoordelijk voor een successie informeert een hulpvereniging voo
 
 ### Interestsubsidies
 
-In artikel 96 KB W.Venn. wordt, voor de toepassing door verenigingen en stichtingen, punt “2° de als opbrengst geboekte kapitaal-en interestsubsidies” weggelaten uit de definitie van de post IV.C. *Overige financiële opbrengsten[^23] *. 
+In artikel 96 KB W.Venn. wordt, voor de toepassing door verenigingen en stichtingen, punt “2° de als opbrengst geboekte kapitaal-en interestsubsidies” weggelaten uit de definitie van de post IV.C. *Overige financiële opbrengsten[^23]* . 
 
 De kapitaal- en interestsubsidies die in resultaat worden genomen door verenigingen of stichtingen worden, met andere woorden, niet opgenomen in deze post.
 

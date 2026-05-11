@@ -2,89 +2,84 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/voorzieningen
 datum: 2019-03-05
 gerelateerde_adviezen:
-- datum: '2021-07-05'
-  titel: Boekhoudkundige verwerking van COVID-19-tegemoetkomingen en van kosten gemaakt
-    ten gevolge van de gezondheidscrisis
-  url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-covid-19-tegemoetkomingen-en-van-kosten-gemaakt-ten-gevolge
-- datum: '2019-04-12'
-  titel: Gevolgen op gebied van financiële rapportering als gevolg van de brexit
-  url: https://www.cbn-cnc.be/nl/adviezen/gevolgen-op-gebied-van-financiele-rapportering-als-gevolg-van-de-brexit-0
-- datum: '2018-11-14'
-  titel: Toekenning van gratis aandelen (Restricted Stock Units) als bonus
-  url: https://www.cbn-cnc.be/nl/adviezen/toekenning-van-gratis-aandelen-restricted-stock-units-als-bonus
-- datum: '2018-06-20'
-  titel: Boekhoudkundige verwerking van onder meer de rendementswaarborg voor werkgeversbijdragen
-    in het kader van een aanvullende pensioentoezegging
-  url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-onder-meer-de-rendementswaarborg-voor-werkgeversbijdragen
+  - datum: '2021-07-05'
+    titel: Boekhoudkundige verwerking van COVID-19-tegemoetkomingen en van kosten gemaakt ten gevolge van de gezondheidscrisis
+    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-covid-19-tegemoetkomingen-en-van-kosten-gemaakt-ten-gevolge
+  - datum: '2019-04-12'
+    titel: Gevolgen op gebied van financiële rapportering als gevolg van de brexit
+    url: https://www.cbn-cnc.be/nl/adviezen/gevolgen-op-gebied-van-financiele-rapportering-als-gevolg-van-de-brexit-0
+  - datum: '2018-11-14'
+    titel: Toekenning van gratis aandelen (Restricted Stock Units) als bonus
+    url: https://www.cbn-cnc.be/nl/adviezen/toekenning-van-gratis-aandelen-restricted-stock-units-als-bonus
+  - datum: '2018-06-20'
+    titel: Boekhoudkundige verwerking van onder meer de rendementswaarborg voor werkgeversbijdragen in het kader van een aanvullende pensioentoezegging
+    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-onder-meer-de-rendementswaarborg-voor-werkgeversbijdragen
 nummer: CBN-advies 2018/25
 provenance:
-  generated_at: '2026-05-08T18:37:32Z'
+  generated_at: '2026-05-11T13:05:08Z'
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/voorzieningen
-    sha256: fae8917bafe5586d4249c28f83de7d7832fe70ecfb8ef4148a3b0d3d54ce2689
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/voorzieningen
+      sha256: fae8917bafe5586d4249c28f83de7d7832fe70ecfb8ef4148a3b0d3d54ce2689
+      version:
   stale: false
-  stale_reason: null
+  stale_reason:
   tooling:
-    model: null
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    prompt_version: null
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
   trust:
     confirmed_at: '2026-05-08T19:02:27Z'
     confirmed_by: subagent-laag2-ronde2
     layer1:
-      file_size_chars: 82460
-      flags: []
-      heading_count: 33
-      max_section_chars: 16401
-      run_at: null
-      run_id: 20260511-083333
       status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:30Z'
+      heading_count: 36
+      max_section_chars: 16400
+      file_size_chars: 82352
+      flags: []
     layer2:
       agent: subagent-laag2-ronde2
       concrete_problemen: []
-      rationale: '[Laag-2-R2 2026-05-08] 33 headings, 12 praktische toepassingen elk
-        met eigen subheading. Inhoud volledig coherent.'
+      rationale: '[Laag-2-R2 2026-05-08] 33 headings, 12 praktische toepassingen elk met eigen subheading. Inhoud volledig coherent.'
       run_at: '2026-05-08T19:02:27Z'
       status: trusted
     rationale: Laag-2 trusted door subagent-laag2-ronde2 (zie layer2.rationale)
     status: trusted
 themas:
-- voorziening
-- waarschijnlijke kost
-- reserve
-- risico en kost
-- risico en verlies
-- overeenstemming
-- overeenstemmingsprincipe
-- matching principe
-- toerekeningsbeginsel
-- waardecorrectie
-- schuld
-- herstellings- en onderhoudswerken
-- prijsschommelingen voorraden en bestellingen in uitvoering
-- werkloosheid met bedrijfstoeslag
-- SWT
-- pensioen
-- brugpensioen
-- sluiting van de onderneming
-- waarborg
-- herstel onroerend goed
-- opleiding
-- belasting
-- lijfrente
-- milieu
-- aleatoire waardering
+  - voorziening
+  - waarschijnlijke kost
+  - reserve
+  - risico en kost
+  - risico en verlies
+  - overeenstemming
+  - overeenstemmingsprincipe
+  - matching principe
+  - toerekeningsbeginsel
+  - waardecorrectie
+  - schuld
+  - herstellings- en onderhoudswerken
+  - prijsschommelingen voorraden en bestellingen in uitvoering
+  - werkloosheid met bedrijfstoeslag
+  - SWT
+  - pensioen
+  - brugpensioen
+  - sluiting van de onderneming
+  - waarborg
+  - herstel onroerend goed
+  - opleiding
+  - belasting
+  - lijfrente
+  - milieu
+  - aleatoire waardering
 ---
-
-# CBN-advies 2018/25 – Voorzieningen
 
 # **COMMISSIE VOOR BOEKHOUDKUNDIGE NORMEN**
 
 # **CBN-advies 2018/25 – Voorzieningen**
 
-# **Advies van 12 september 2018[^1] **
+# **Advies van 12 september 2018[^1]** 
 
 1. Inleiding 
 2. Juridische basis 
@@ -130,7 +125,8 @@ Afwijkend standpunt van de heer Michel De Wolf, lid van de Commissie op voordrac
 
 De jaarrekening moet een getrouw beeld geven van het vermogen, de financiële positie en het resultaat van de vennootschap.[^2]
  De jaarrekening moet duidelijk worden opgesteld en stelselmatig weergeven, enerzijds, de aard en het bedrag, op de dag waarop het boekjaar wordt afgesloten, van de bezittingen en rechten van de vennootschap, van haar schulden en verplichtingen evenals van haar eigen middelen, en anderzijds, voor het op die dag afgesloten boekjaar, de aard en het bedrag van haar kosten en opbrengsten.[^3]
- Hierbij moet rekening worden gehouden met alle voorzienbare risico’s, mogelijke verliezen en ontwaardingen ontstaan tijdens het boekjaar waarop de jaarrekening betrekking heeft of tijdens voorgaande boekjaren.[^4] De kosten en opbrengsten die betrekking hebben op het boekjaar of op voorgaande boekjaren moeten worden uitgedrukt in de resultatenrekening van het boekjaar ongeacht de dag waarop deze kosten en opbrengsten worden betaald of geïnd.[^5] ,[^6] 
+ Hierbij moet rekening worden gehouden met alle voorzienbare risico’s, mogelijke verliezen en ontwaardingen ontstaan tijdens het boekjaar waarop de jaarrekening betrekking heeft of tijdens voorgaande boekjaren.[^4]
+ De kosten en opbrengsten die betrekking hebben op het boekjaar of op voorgaande boekjaren moeten worden uitgedrukt in de resultatenrekening van het boekjaar ongeacht de dag waarop deze kosten en opbrengsten worden betaald of geïnd.[^5] ,[^6] 
 
 Om te voldoen aan voormelde basisbeginselen is bijgevolg de techniek van het boeken van voorzieningen onontbeerlijk. 
 
@@ -138,7 +134,7 @@ De beslissing om een voorziening voor risico’s of kosten aan te leggen is een 
 
 De Commissie benadrukt hierbij dat de voorzieningen voor risico’s en kosten moeten voldoen aan de eisen van voorzichtigheid, oprechtheid en goede trouw.[^7] 
 
-Met onderhavig advies verduidelijkt de Commissie de vorming, de besteding en de terugname van voorzieningen en worden een aantal algemene principes dienaangaande in herinnering gebracht. Behoudens expliciet anders vermeld, geldt onderhavig advies eveneens voor *grote*[^8] *ondernemingen* en *grote*[^9] *verenigingen en stichtingen*. Het advies gaat niet in op de behandeling van de voorzieningen naar aanleiding van een fusie/splitsing/inbreng.
+Met onderhavig advies verduidelijkt de Commissie de vorming, de besteding en de terugname van voorzieningen en worden een aantal algemene principes dienaangaande in herinnering gebracht. Behoudens expliciet anders vermeld, geldt onderhavig advies eveneens voor *grote*[^8]* ondernemingen* en *grote*[^9]* verenigingen en stichtingen*. Het advies gaat niet in op de behandeling van de voorzieningen naar aanleiding van een fusie/splitsing/inbreng.
 
 ## Juridische basis
 
@@ -148,11 +144,9 @@ In de artikelen 50 tot 55 KB W.Venn. worden de voorzieningen voor risico’s en 
 
 ## Voorziening voor risico’s en kosten: begripsomschrijving en algemene beginselen
 
-Overeenkomstig het KB W.Venn.[^10]
- moet rekening worden gehouden met alle risico’s, mogelijke verliezen en ontwaardingen ontstaan tijdens het boekjaar of een voorgaand boekjaar. 
+Overeenkomstig het KB W.Venn.[^10] moet rekening worden gehouden met alle risico’s, mogelijke verliezen en ontwaardingen ontstaan tijdens het boekjaar of een voorgaand boekjaar. 
 
-Naast het aanleggen van een voorziening voor de op de balansdatum reeds bestaande verplichtingen waarvan het bedrag enkel geraamd kan worden, voorziet het KB W.Venn. tevens in de vorming van passende voorzieningen voor kosten[^11]
- die op de balansdatum waarschijnlijk of zeker zijn.[^12] 
+Naast het aanleggen van een voorziening voor de op de balansdatum reeds bestaande verplichtingen waarvan het bedrag enkel geraamd kan worden, voorziet het KB W.Venn. tevens in de vorming van passende voorzieningen voor kosten[^11] die op de balansdatum waarschijnlijk of zeker zijn.[^12] 
 
 Het KB W.Venn. stipuleert dat voorzieningen voor risico's en kosten naar hun aard duidelijk omschreven verliezen of kosten beogen te dekken die op de balansdatum waarschijnlijk of zeker zijn, doch waarvan het bedrag niet vaststaat.[^13] 
 
@@ -168,7 +162,7 @@ Al deze elementen moeten samen aanwezig zijn vooraleer er sprake kan zijn van he
 
 Een voorziening kan slechts worden aangelegd voor een specifiek omschreven risico of kost. Indien het risico of de kost naar aard niet duidelijk omschreven is, is niet voldaan aan de voorwaarden tot het aanleggen van een voorziening. Om zich in te dekken tegen een algemeen risico kan het bestuursorgaan voorstellen om (een deel van) de te bestemmen winst te reserveren als beschikbare reserve of er kan in de statuten voorzien zijn om hiervoor een statutair onbeschikbare reserve te vormen.
 
-De vorming of het behoud van voorzieningen met een algemeen karakter of van voorzieningen voor algemene risico’s is niet toegelaten. Voorzieningen die niet gevormd worden voor geïndividualiseerde risico's die verband houden met het afgelopen boekjaar of met voorgaande boekjaren hebben het karakter van gereserveerde winsten. Dergelijke *voorzieningen *moeten bijgevolg ook als zodanig in de jaarrekening worden behandeld. Om dezelfde redenen is het uitgesloten voorzieningen aan te leggen tot dekking van derwijze onnauwkeurig omschreven risico's of waarvan de regels inzake stijving en aanwending op zo'n vage wijze zijn vastgesteld dat dit eigenlijk zou neerkomen op een volledig gebrek aan regels dienaangaande. Het is inderdaad belangrijk dat de bepaling van de door het bestuursorgaan vastgestelde waarderingsregels van dien aard is dat het mogelijk is de toepassing van de weerhouden criteria in concreto te toetsen. 
+De vorming of het behoud van voorzieningen met een algemeen karakter of van voorzieningen voor algemene risico’s is niet toegelaten. Voorzieningen die niet gevormd worden voor geïndividualiseerde risico's die verband houden met het afgelopen boekjaar of met voorgaande boekjaren hebben het karakter van gereserveerde winsten. Dergelijke *voorzieningen* moeten bijgevolg ook als zodanig in de jaarrekening worden behandeld. Om dezelfde redenen is het uitgesloten voorzieningen aan te leggen tot dekking van derwijze onnauwkeurig omschreven risico's of waarvan de regels inzake stijving en aanwending op zo'n vage wijze zijn vastgesteld dat dit eigenlijk zou neerkomen op een volledig gebrek aan regels dienaangaande. Het is inderdaad belangrijk dat de bepaling van de door het bestuursorgaan vastgestelde waarderingsregels van dien aard is dat het mogelijk is de toepassing van de weerhouden criteria in concreto te toetsen. 
 
 De onzekerheden en de risico's van algemene aard waarmee de onderneming wordt geconfronteerd, kunnen worden gedekt door de vorming van algemene of bijzondere reserves. In dat geval gaat het om dotaties die, ten aanzien van de resultatenrekening, hun oorsprong vinden in beslissingen tot winstbesteding. De onzekerheden betreffende de algemene voorwaarden waaronder de onderneming haar activiteit zal uitoefenen tijdens de volgende boekjaren zijn geen risico's waarvoor een voorziening voor risico's en lasten kan worden aangelegd. Het betreft onzekerheden die geen betrekking hebben op afgelopen boekjaren maar op toekomstige boekjaren en die, mede wat betreft hun mogelijk voorval, nauwelijks definieerbaar zijn.
 
@@ -215,14 +209,13 @@ Een vennootschap moet de op balansdatum geboekte voorziening voor risico’s en 
 
 Een retroactieve herwaardering van de balansposten op basis van elementen ontstaan na de balansdatum strookt niet met het principe van de periodiciteit. Op de balansdatum waren de voorwaarden voor het boeken van een voorziening immers vervuld zodat de toepassing van het voorzichtigheidsbeginsel en het beginsel van het getrouw beeld van de jaarrekening vereist dat de geboekte voorziening behouden blijft. Teneinde te voldoen aan de vereisten van het getrouwe beeld moet in voorkomend geval de verdwijning van het risico of het verlies op een passende wijze worden vermeld in de jaarrekening bij de gebeurtenissen na balansdatum.[^18] 
 
-*Voorbeeld * 
+*Voorbeeld*  
 
 Een vennootschap heeft in het jaar N-2 ten gunste van een andere onderneming een garantie gesteld. De financiële toestand van deze laatste was in het jaar N-1 verslechterd en derhalve heeft de vennootschap op de balansdatum van het jaar N-1 een voorziening geboekt die overeenstemt met de geschatte kosten die het beroep op deze garantie met zich meebrengt.
 
 Op basis van informatie verkregen tussen de balansdatum van jaar N en de datum waarop het bestuursorgaan de jaarrekening heeft opgesteld, wordt het bestuursorgaan op de hoogte gebracht van de aanzienlijke verbetering van de financiële toestand op balansdatum van het jaar N van de onderneming waarvan de verplichtingen werden gedekt. Deze verbetering van de financiële toestand is het gevolg van gebeurtenissen die plaatsvonden voor de balansdatum van het jaar N. Het bestuursorgaan van de vennootschap moet bijgevolg bij de schatting van haar voorziening op de balansdatum van het jaar N rekening houden met deze gebeurtenissen. Indien de verbetering van de financiële toestand daarentegen het gevolg is van gebeurtenissen die hebben plaatsgevonden tussen de balansdatum van het jaar N en de datum waarop het bestuursorgaan de jaarrekening heeft opgesteld, wordt met deze verbetering geen rekening gehouden voor de raming van de voorziening.
 
-### Overeenstemmingsbeginsel: de kosten waarvoor de voorziening wordt gevormd moeten toerekenbaar zijn aan het boekjaar 
-
+Overeenstemmingsbeginsel: de kosten waarvoor de voorziening wordt gevormd moeten toerekenbaar zijn aan het boekjaar
 De kosten waarvoor een voorziening wordt gevormd, moeten toerekenbaar zijn aan het boekjaar waarin de voorziening wordt gevormd. De kosten dienen met andere woorden het gevolg te zijn van de in dat boekjaar of in voorgaande boekjaren uitgeoefende activiteiten of van in dat boekjaar of in voorgaande boekjaren voorgekomen gebeurtenissen.
 
 Bijgevolg moeten kosten die betrekking hebben op opbrengsten van het boekjaar, maar waarvan het bedrag nog niet gekend is, door het boeken van een voorziening voor risico’s en kosten, worden toegerekend aan het boekjaar waarin de overeenstemmende opbrengsten werden gerealiseerd.[^19] 
@@ -246,10 +239,10 @@ Een opbrengst of een kost moet in de regel weliswaar verbonden worden aan de per
 
 Er kunnen geen voorzieningen worden geboekt voor te betalen kosten die in de loop van het boekjaar of van een vorig boekjaar zijn ontstaan en waarvoor nog geen titel bestaat maar waarvan het bedrag vaststaat of met nauwkeurigheid kan worden geschat.[^21] 
 
-Indien het verlies of de kost zeker is en het bedrag staat vast of kan met nauwkeurigheid worden geschat, is geen sprake van een *voorziening *maar van een *schuld*.[^22]
+Indien het verlies of de kost zeker is en het bedrag staat vast of kan met nauwkeurigheid worden geschat, is geen sprake van een *voorziening* maar van een *schuld*.[^22]
  Hetzelfde geldt voor de naar hun aard en bedrag duidelijk omschreven kosten waarvoor vast staat dat deze zullen worden gemaakt maar nog niet vast staat wanneer deze zullen worden gemaakt.[^23] 
 
-Typevoorbeelden zijn de rekening 456 *Vakantiegeld *en de rekening 450 *Geraamd bedrag der belastingschulden*. Deze worden reeds geboekt als schuld ook al bestaat er hiervoor op de balansdatum nog geen titel.[^24]
+Typevoorbeelden zijn de rekening 456 *Vakantiegeld* en de rekening 450 *Geraamd bedrag der belastingschulden*. Deze worden reeds geboekt als schuld ook al bestaat er hiervoor op de balansdatum nog geen titel.[^24]
  In concreto is voor wat betreft het te betalen vakantiegeld nog niet vastgesteld wanneer dit moet worden uitbetaald en is voor wat betreft de belastingschulden de winstbelasting nog niet ingekohierd.
 
 ## Waardecorrectie van een actiefbestanddeel
@@ -268,15 +261,13 @@ Een werknemer veroorzaakt op 1 december van het jaar N met een vrachtwagen van z
 
 - De vrachtwagen heeft een boekwaarde van 40.000. De verkoopwaarde van de beschadigde, niet-herstelde vrachtwagen wordt geraamd op 10.000. 
 
-Indien wordt beslist om de vrachtwagen te herstellen, dan zal de onderneming op balansdatum een voorziening moeten boeken voor een bedrag gelijk aan de geschatte herstellingskost, d.i. 12.000. Als gevolg van de herstelling van de schade zal de gebruikswaarde van de vrachtwagen in principe terug op peil komen en wordt geen bijkomende *uitzonderlijke *afschrijving geboekt. Blijft de gebruikswaarde na de herstelling evenwel lager dan de boekwaarde[^27], dan zal een passende *uitzonderlijke[^28] *afschrijving moeten worden geboekt.
+Indien wordt beslist om de vrachtwagen te herstellen, dan zal de onderneming op balansdatum een voorziening moeten boeken voor een bedrag gelijk aan de geschatte herstellingskost, d.i. 12.000. Als gevolg van de herstelling van de schade zal de gebruikswaarde van de vrachtwagen in principe terug op peil komen en wordt geen bijkomende *uitzonderlijke* afschrijving geboekt. Blijft de gebruikswaarde na de herstelling evenwel lager dan de boekwaarde[^27], dan zal een passende *uitzonderlijke[^28]* afschrijving moeten worden geboekt.
 
-Indien wordt beslist om de vrachtwagen niet te herstellen, dan daalt de gebruikswaarde van de vrachtwagen voor de onderneming tot de ‘restwaarde’ ervan en moet in voorkomend geval een passende *uitzonderlijke[^29] *afschrijving[^30]
- worden geboekt indien de vrachtwagen op de balansdatum nog aanwezig is.
+Indien wordt beslist om de vrachtwagen niet te herstellen, dan daalt de gebruikswaarde van de vrachtwagen voor de onderneming tot de ‘restwaarde’ ervan en moet in voorkomend geval een passende *uitzonderlijke[^29]* afschrijving[^30] worden geboekt indien de vrachtwagen op de balansdatum nog aanwezig is.
 
 ## Waardering en opbouw van de voorziening
 
-### Stelselmatige vorming – onafhankelijk van het resultaat van het boekjaar – rekening houdend met het overeenstemmingsbeginsel
-
+Stelselmatige vorming – onafhankelijk van het resultaat van het boekjaar – rekening houdend met het overeenstemmingsbeginsel
 Voorzieningen moeten stelselmatig worden gevormd volgens de door de het bestuursorgaan overeenkomstig artikel 28, § 1 KB W.Venn. vastgelegde methoden en mogen niet afhangen van het resultaat van de vennootschap.[^31] 
 
 De waarderingsregels moeten voldoende concreet zijn om inzicht te verkrijgen in de toegepaste waarderingsmethoden.[^32]
@@ -294,7 +285,8 @@ Schattingen dienen te berusten op een op het voorzichtigheidsbeginsel gebaseerde
 
 Een voorziening moet aldus op balansdatum de beste schatting van de kosten vertegenwoordigen die als waarschijnlijk worden beschouwd of, in geval van een verplichting, de beste schatting van het bedrag dat vereist is om die verplichting op de balansdatum na te komen.[^35] 
 
-De voorzieningen voor risico’s en kosten mogen niet worden gehandhaafd in die mate waarin ze op het einde van het boekjaar hoger zijn dan wat vereist is volgens een actuele beoordeling conform de eisen van voorzichtigheid, oprechtheid en goede trouw van de risico’s en kosten waarvoor ze werden gevormd.[^36] Hierbij dient het bestuursorgaan, net zoals bij de vorming van de voorziening, op de balansdatum rekening te houden met de beste schatting van de kosten die als waarschijnlijk worden beschouwd of, in geval van een verplichting, de beste schatting van het bedrag dat vereist is om die verplichting op de balansdatum na te komen. 
+De voorzieningen voor risico’s en kosten mogen niet worden gehandhaafd in die mate waarin ze op het einde van het boekjaar hoger zijn dan wat vereist is volgens een actuele beoordeling conform de eisen van voorzichtigheid, oprechtheid en goede trouw van de risico’s en kosten waarvoor ze werden gevormd.[^36]
+ Hierbij dient het bestuursorgaan, net zoals bij de vorming van de voorziening, op de balansdatum rekening te houden met de beste schatting van de kosten die als waarschijnlijk worden beschouwd of, in geval van een verplichting, de beste schatting van het bedrag dat vereist is om die verplichting op de balansdatum na te komen. 
 
 De Commissie merkt op dat sommige ondernemingen jaarlijks de totaliteit van de voorziening terugnemen om vervolgens opnieuw een voorziening aan te leggen ten belope van het nieuw ingeschatte bedrag op balansdatum. Deze methode is volgens de Commissie niet de aangewezen methode .
 
@@ -316,7 +308,7 @@ De vorming van een voorziening is een verrichting die tot doel heeft een verantw
 
 Onderstaande voorbeelden illustreren de hiervoor vermelde principes van de wijze waarop een voorziening wordt opgebouwd. De onderstaande toepassingen strekken slechts tot voorbeeld. Uiteindelijk is het uitsluitend het bestuursorgaan dat verantwoordelijk is voor de vorming van een passende voorziening. 
 
-**Inherente verplichting bij de verwerving van een actief bestanddeel voor een vast bedrag** 
+## Inherente verplichting bij de verwerving van een actief bestanddeel voor een vast bedrag
 
 Een vennootschap heeft een machine aangekocht voor de som van 1.000 met de verplichting om daarnaast gedurende drie jaar een som te betalen van 200 aan een vzw. Deze nominale verplichting van 3 x 200 = 600, bedraagt actuarieel[^39]
  576,77 (200/1,02 = 196,08; 200/1,02^2 = 192,23; 200/1,02^3 = 188,46) in de hypothese van een marktrente (artikel 67, § 2, tweede lid KB W.Venn.) van 2%.
@@ -342,7 +334,7 @@ De boekingen zijn hierbij als volgt:
 | | 230 | Installaties, machines en uitrusting: Aanschaffingswaarde | 1.000 | |
 | aan | 440 | Leveranciers | | 1.000 |
 
-**Na 1 jaar (de output bedraagt 9.900: 9.900 x 2% = 198) **
+## Na 1 jaar (de output bedraagt 9.900: 9.900 x 2% = 198)
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
@@ -365,7 +357,7 @@ De boekingen zijn hierbij als volgt:
 | aan | 489 | Andere diverse schulden | | 1.000 |
 | | 164 | Voorzieningen voor overige risico’s en kosten | 600 | |
 
-**Tijdens het boekjaar** 
+## Tijdens het boekjaar
 
 Het eerste jaar bedroegen de opleidingskosten 195[^40].
 
@@ -424,8 +416,7 @@ Het behoort tot verantwoordelijkheid van het bestuursorgaan om passende voorzien
 Het KB W.Venn. bevat een exemplatieve lijst van verplicht aan te leggen voorzieningen.[^41]
  Voorzieningen moeten, onder meer, gevormd worden met het oog op:
 
-a) de verplichtingen die op de vennootschap rusten inzake rust- en overlevingspensioenen, werkloosheid met bedrijfstoeslag en andere gelijkaardige pensioenen of renten; 
-
+a) de verplichtingen die op de vennootschap rusten inzake rust- en overlevingspensioenen, werkloosheid met bedrijfstoeslag en andere gelijkaardige pensioenen of renten;
 b) de kosten van grote herstellings- of onderhoudswerken; 
 
 c) de verlies- of kostenrisico's die voor de vennootschap voortvloeien uit persoonlijke of zakelijke zekerheden, verstrekt tot waarborg van schulden of verbintenissen van derden, uit verbintenissen tot aan- of verkoop van vaste activa, uit de uitvoering van gedane of ontvangen bestellingen, uit termijnposities of overeenkomsten in deviezen, termijnposities of overeenkomsten op goederen, uit technische waarborgen verbonden aan reeds door de vennootschap verrichte verkopen of diensten, uit hangende geschillen; 
@@ -449,23 +440,21 @@ De Commissie benadrukt hierbij dat een voorziening niet kan worden aangelegd voo
 
 Een gebouw wordt om de vijf jaar opnieuw geschilderd. Per 31.12.N schat de onderneming dat deze schilderwerken 25.000 zullen kosten. Per 31.12.N+1 en 31.12.N+2 meent de onderneming nog steeds dat dit 25.000 zal kosten. Per 31.12.N+3 schat men de kost van de schilderwerken op 26.000. Per 31.12.N+4 meent de onderneming nog steeds dat de schilderwerken 26.000 zullen kosten. In N+5 laat de onderneming de werken uitvoeren en krijgt zij de afrekening van de uitgevoerde werken ten bedrage van 26.500 (exclusief 21 % btw).
 
-**Boeking per 31.12.N; 31.12.N+1 en 31.12.N+2 **
+## Boeking per 31.12.N; 31.12.N+1 en 31.12.N+2
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 6360 | Voorzieningen voor grote herstellingswerken en grote onderhoudswerken: Toevoeging | 5.000 | |
 | aan | 162 | Voorzieningen voor grote herstellingswerken en grote onderhoudswerken | | 5.000 |
 
-**Boeking per 31.12.N+3**
-
- [^43]
+## Boeking per 31.12.N+3
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 6360 | Voorzieningen voor grote herstellingswerken en grote onderhoudswerken: Toevoeging | 5.800 | |
 | aan | 162 | Voorzieningen voor grote herstellingswerken en grote onderhoudswerken | | 5.800 |
 
-**Boeking per 31.12.N+4**
+## Boeking per 31.12.N+4
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
@@ -473,7 +462,7 @@ Een gebouw wordt om de vijf jaar opnieuw geschilderd. Per 31.12.N schat de onder
 | aan | 162 | Voorzieningen voor grote herstellingswerken 
 			             en grote onderhoudswerken | | 5.200 |
 
-**Boeking bij de ontvangst van de factuur in N+5**
+## Boeking bij de ontvangst van de factuur in N+5
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
@@ -482,26 +471,22 @@ Een gebouw wordt om de vijf jaar opnieuw geschilderd. Per 31.12.N schat de onder
 | aan | 440 | Leveranciers | | 26.500 |
 | | 451 | Te betalen btw | 5.565 | |
 
-**Boeking bij de aanwending van de voorziening in N+5**
+## Boeking bij de aanwending van de voorziening in N+5
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 162 | Voorzieningen voor grote herstellingswerken en grote onderhoudswerken | 26.000 | |
 | aan | 6361 | Voorzieningen voor grote herstellingswerken en grote onderhoudswerken: Besteding en terugneming (-) | | 26.000 |
 
-**Boeking van de vorming van een nieuwe voorziening voor de volgende onderhoudsbeurt**
-
- [^44]
+## Boeking van de vorming van een nieuwe voorziening voor de volgende onderhoudsbeurt
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 6360 | Voorzieningen voor grote herstellingswerken en grote onderhoudswerken: Toevoeging | 5.300 | |
 | aan | 162 | Voorzieningen voor grote herstellingswerken en grote onderhoudswerken | | 5.300 |
 
-### Voorzieningen voor prijsschommelingen van de voorraden en bestellingen in uitvoering
-
-Met betrekking tot eventuele prijsschommelingen van de aanwezige voorraad[^45]
- kunnen geen voorzieningen worden gevormd. Voorraden worden immers gewaardeerd tegen hun aanschaffingsprijs of tegen de marktprijs op de balansdatum indien deze laatste lager is. Er worden aanvullende waardeverminderingen geboekt om rekening te houden hetzij met de evolutie van hun realisatie- of marktwaarde, hetzij met de risico's die inherent zijn aan de aard van de betrokken goederen of van de uitgeoefende activiteit. 
+Voorzieningen voor prijsschommelingen van de voorraden en bestellingen in uitvoering
+Met betrekking tot eventuele prijsschommelingen van de aanwezige voorraad[^45] kunnen geen voorzieningen worden gevormd. Voorraden worden immers gewaardeerd tegen hun aanschaffingsprijs of tegen de marktprijs op de balansdatum indien deze laatste lager is. Er worden aanvullende waardeverminderingen geboekt om rekening te houden hetzij met de evolutie van hun realisatie- of marktwaarde, hetzij met de risico's die inherent zijn aan de aard van de betrokken goederen of van de uitgeoefende activiteit. 
 
 Wanneer een onderneming goederen op termijn heeft gekocht of verkocht, moeten, wanneer naar het oordeel van het bestuursorgaan uit deze verrichting vermoedelijk een verlies zal voortvloeien, passende voorzieningen worden gevormd.[^46] 
 
@@ -513,8 +498,7 @@ De onzekerheden betreffende de algemene voorwaarden waaronder de onderneming haa
 
 De boekhoudkundige verwerking van de verplichtingen die voortvloeien uit een extra-wettelijke pensioentoezegging zal het voorwerp uitmaken van een later advies. 
 
-### Verplichtingen voortvloeiend uit het stelsel van werkloosheid met bedrijfstoeslag afgekort tot SWT, voorheen brugpensioen
-
+Verplichtingen voortvloeiend uit het stelsel van werkloosheid met bedrijfstoeslag afgekort tot SWT, voorheen brugpensioen
 Het stelsel van werkloosheid met bedrijfstoeslag is een stelsel waarbij werknemers van een zekere leeftijd die worden ontslagen, recht hebben op een vaste werkloosheidsuitkering en op een aanvullende vergoeding (bedrijfstoeslag) verschuldigd door de voormalige werkgever. Over het algemeen ontvangt de werkloze met bedrijfstoeslag iedere maand het bedrag van de bedrijfstoeslag tot aan de pensioengerechtigde leeftijd. De schuldenaar van de bedrijfstoeslag is in principe de voormalige werkgever, al is het mogelijk dat deze verplichting overgenomen wordt door een sectoraal fonds. Het is eveneens mogelijk dat het totale bedrag van de bedrijfstoeslag in één enkele keer uitbetaald wordt.
 
 Het stelsel van werkloosheid met bedrijfstoeslag is gebaseerd op de volgende reglementaire teksten:
@@ -533,8 +517,7 @@ Voormelde voorziening moet worden gevormd vanaf het ogenblik waarop in hoofde va
 
 Wat betreft de mogelijkheid tot spreiding van deze kosten over meerdere jaren wanneer deze kosten kaderen in een herstructurering van de onderneming wordt verwezen naar het CBN-advies 2011/24 - *Herstructureringskosten - Verwerking in de jaarrekening*. 
 
-### Voorzieningen voor de schulden ten opzichte van het personeel bij sluiting van de onderneming 
-
+Voorzieningen voor de schulden ten opzichte van het personeel bij sluiting van de onderneming
 Wanneer een beslissing tot sluiting van de onderneming of een belangrijk gedeelte daarvan is genomen of die beslissing nakend is, dan is de boeking van een voorziening, voor de kosten die verbonden zijn aan de beëindiging van de werkzaamheden, inzonderheid voor de aan het personeel uit te keren vergoedingen, verplicht.[^49] 
 
 Zolang echter het bevoegde orgaan geen beslissing heeft genomen tot sluiting van de onderneming of een belangrijk gedeelte daarvan, of zolang een dergelijke beslissing niet als waarschijnlijk voorkomt, staat het een onderneming niet vrij een voorziening te boeken voor de schulden die daaruit zouden kunnen ontstaan. De vorming van voorzieningen heeft immers tot doel om naar hun aard duidelijk omschreven verliezen of lasten te dekken, die op balansdatum als waarschijnlijk moeten worden beschouwd dan wel vaststaan doch waarvan de omvang slechts kan worden geraamd. De Commissie is van mening dat ten laatste op het ogenblik dat de procedure in toepassing van de Wet Renault wordt opgestart een voorziening moet worden geboekt. De boeking van deze voorziening impliceert niet dat de beslissing tot collectief ontslag reeds genomen is. Een loutere mogelijkheid kan evenwel niet de basis zijn voor de boeking van een voorziening. Zoals in het geval van algemene risico's kan daaraan slechts worden tegemoet gekomen door de vorming van reserves. 
@@ -565,14 +548,14 @@ Wanneer een concessieovereenkomst, waarbij een publieke overheid een onderneming
 
 Gesteld dat in de concessie- of huurovereenkomst wordt bepaald dat de gebouwen aan het einde van de overeenkomst moeten worden gesloopt, dan beveelt de Commissie aan om met de tijd een voorziening te vormen om de kosten te dekken voor de sloping van het gebouw en het herstel van de grond in zijn oorspronkelijk staat, aan het einde van de overeenkomst.[^54] 
 
-Een dergelijke voorziening wordt in principe lineair opgebouwd over de looptijd van de overeenkomst of over de gebruiksduur van het recht indien deze gebruiksduur korter is.[^55] Indien omstandigheden of elementen aanwezig zijn die een andere dan een lineaire opbouw rechtvaardigen, kan het bestuursorgaan evenwel oordelen dat een andere dan een lineaire opbouw meer passend is.
+Een dergelijke voorziening wordt in principe lineair opgebouwd over de looptijd van de overeenkomst of over de gebruiksduur van het recht indien deze gebruiksduur korter is.[^55]
+ Indien omstandigheden of elementen aanwezig zijn die een andere dan een lineaire opbouw rechtvaardigen, kan het bestuursorgaan evenwel oordelen dat een andere dan een lineaire opbouw meer passend is.
 
 Indien ze de financiële situatie en de resultaten van de onderneming aanzienlijk kan beïnvloeden, moet de verplichting om het goed in zijn oorspronkelijke staat te herstellen ook worden opgenomen onder de buiten de balans opgenomen rechten en verplichtingen, voor een waarde gelijk aan de totale geraamde kosten voor het herstel in de oorspronkelijke toestand.
 
 De Commissie merkt hierbij op dat het boeken van een voorziening voortvloeit uit de toepassing van het voorzichtigheidsbeginsel. Dit neemt niet weg dat de beoordeling of een voorziening moet worden aangelegd te goeder trouw moet gebeuren, en dat de voorziening moet stroken met de realiteit en dus niet uitsluitend mag gebaseerd zijn op de letterlijke bewoordingen van de overeenkomst. Dit impliceert dat in het geval waarin de overeenkomst stipuleert dat de gebruiker op het einde van het gebruiksrecht het goed in zijn oorspronkelijke staat moet herstellen, de gebruiker in beginsel een passende voorziening zal moeten aanleggen op grond van het voorzichtigheidsbeginsel. Kan de gebruiker evenwel te goeder trouw ervan uitgaan dat hij, ondanks andersluidende contractuele bepalingen, de verbeteringswerken niet zal moeten verwijderen bij afloop van de overeenkomst, dan zal hij logischerwijs in dit concrete geval geen voorziening aanleggen voor de verwijdering ervan. 
 
-### Verplichtingen die voortvloeien uit een tijdens het boekjaar verkregen verkavelingsvergunning 
-
+Verplichtingen die voortvloeien uit een tijdens het boekjaar verkregen verkavelingsvergunning
 Een onderneming heeft een verkavelingsvergunning verkregen, doch onder de verplichting om bepaalde werken uit te voeren. In casu betreft de verplichting de aanleg van een park. Het park moet worden aangelegd na de oprichting van appartementsgebouwen. Eens het park is aangelegd, wordt dit park zonder vergoeding aan de overheid overgedragen ten algemenen nutte. Aan de gemeente zal veelal een borg moeten worden gestort om te waarborgen dat de opgelegde verplichtingen effectief zullen worden uitgevoerd.
 
 De verkregen verkavelingsvergunning heeft op zich een bepaalde waarde. Deze waarde stemt enerzijds overeen met de kosten om dergelijke verkavelingsvergunning te bekomen en daarnaast tevens met het winstpotentieel dat vervat zit in de verkavelingsvergunning. Zolang deze verkavelingsvergunning niet te gelde wordt gemaakt, mag dit winstpotentieel niet als een gerealiseerde winst in de jaarrekening worden opgenomen. 
@@ -581,21 +564,18 @@ De verkregen verkavelingsvergunning brengt, zoals hoger beschreven, echter ook e
 
 De verkavelingsvergunning kan worden te gelde gemaakt ofwel door de overdracht van deze verkavelingsvergunning aan een projectontwikkelaar ofwel door de uitvoering van het bouwproject. Naarmate het bouwproject wordt uitgevoerd wordt tevens de opbrengst hieruit te gelde gemaakt; daarnaast blijft echter de verplichting bestaan om een park aan te leggen en bij realisatie over te dragen aan de overheid. Voor deze verplichting moeten passende voorzieningen worden aangelegd. Indien uitsluitend de opbrengsten worden geboekt die voortvloeien uit de realisatie van de bouwprojecten zou dit bij een verkoop van kavels resulteren in een overschatting van het eigen vermogen. Immers al de winst op de projecten is dan reeds genomen terwijl de last, met name de aanleg van het park, zich nog niet heeft vertaald in de resultaten. Het eigen vermogen zou aldus overschat zijn ten bedrage van de geraamde kosten voor het aanleggen en overdragen van het te realiseren park. 
 
-Teneinde een zo realistisch mogelijke voorstelling te geven van het vermogen van de betreffende onderneming is de Commissie van mening dat met betrekking tot de geraamde kosten voor het verplicht aan te leggen en over te dragen park, de onderneming passende voorzieningen moet aanleggen. De Commissie is van mening dat aan deze voorwaarde best kan worden voldaan door tijdens de realisatie van het project een voortschrijdende prorata[^56]
- van de kosten voor het aan te leggen park te provisioneren. De winst die in de verkavelingsvergunning schuilt, wordt immers gerealiseerd hetzij door een overdracht aan een derde die dan ook verplichting tot aanleg van het park overneemt, hetzij door de individuele verkopen van de kavels. In de verkoopprijs van deze kavels is de facto ook een bedrag begrepen dat de kostprijs moet dekken voor de aanleg van het park.
+Teneinde een zo realistisch mogelijke voorstelling te geven van het vermogen van de betreffende onderneming is de Commissie van mening dat met betrekking tot de geraamde kosten voor het verplicht aan te leggen en over te dragen park, de onderneming passende voorzieningen moet aanleggen. De Commissie is van mening dat aan deze voorwaarde best kan worden voldaan door tijdens de realisatie van het project een voortschrijdende prorata[^56] van de kosten voor het aan te leggen park te provisioneren. De winst die in de verkavelingsvergunning schuilt, wordt immers gerealiseerd hetzij door een overdracht aan een derde die dan ook verplichting tot aanleg van het park overneemt, hetzij door de individuele verkopen van de kavels. In de verkoopprijs van deze kavels is de facto ook een bedrag begrepen dat de kostprijs moet dekken voor de aanleg van het park.
 
 De Commissie is van mening dat bijvoorbeeld als volgt tewerk kan worden gegaan: 
 
-a. In de mate dat de lasten die voortvloeien uit de verkavelingsvergunning groter zijn dan de verwachte inkomsten uit deze verkavelingsvergunning (uitzonderlijke situatie) moet het waarschijnlijke verlies dat voor de onderneming hieruit voortvloeit onmiddellijk en voor het volledige bedrag als voorziening voor een waarschijnlijk verlies of een verplichting in de balans tot uiting worden gebracht. 
-
+a. In de mate dat de lasten die voortvloeien uit de verkavelingsvergunning groter zijn dan de verwachte inkomsten uit deze verkavelingsvergunning (uitzonderlijke situatie) moet het waarschijnlijke verlies dat voor de onderneming hieruit voortvloeit onmiddellijk en voor het volledige bedrag als voorziening voor een waarschijnlijk verlies of een verplichting in de balans tot uiting worden gebracht.
 b. In de mate dat de lasten die voortvloeien uit de verkavelingsvergunning (waaronder de aanleg van het park) kleiner zijn dan de te verwachten opbrengsten uit de verdere realisatie van de verkavelingsvergunning is de Commissie van mening dat slechts een voorziening tot uiting dient te worden gebracht in de mate dat de waarde van de verkavelingsvergunning gedaald is ingevolge de gedeeltelijke realisatie van het project. In diezelfde mate dient dan een voorziening te worden aangelegd om de kosten te dekken voor de aanleg van het park. Op die wijze is er een overeenstemming tussen de inkomsten die voortvloeien uit het te realiseren project en de kosten die hieruit voortvloeien.
 
 ### Opleidingskosten
 
 Een onderneming besluit om volgend boekjaar haar personeel een opleiding te laten volgen in het kader van een recent opgestarte verkoopscampagne. De kosten van deze opleiding kunnen niet via de vorming van een voorziening aan het huidige boekjaar worden toegerekend, aangezien deze kosten niet het gevolg zijn van de in dat boekjaar uitgeoefende activiteiten of van in dat boekjaar voorgekomen gebeurtenissen. Daarenboven zullen deze opleidingskosten waarschijnlijk een meeromzet teweeg brengen in latere boekjaren.
 
-Een nieuwe regelgeving brengt verplichtingen met zich mee waarvoor het bestaande personeel een herscholingsopleiding dient te volgen om aan deze nieuwe verplichtingen te kunnen voldoen. De onderneming dient een voorziening aan te leggen voor de supplementaire[^57]
- kosten die deze opleiding met zich zal meebrengen voor zover deze opleiding in een later boekjaar zal worden gegeven. 
+Een nieuwe regelgeving brengt verplichtingen met zich mee waarvoor het bestaande personeel een herscholingsopleiding dient te volgen om aan deze nieuwe verplichtingen te kunnen voldoen. De onderneming dient een voorziening aan te leggen voor de supplementaire[^57] kosten die deze opleiding met zich zal meebrengen voor zover deze opleiding in een later boekjaar zal worden gegeven. 
 
 ### Voorzieningen voor belastingen
 
@@ -614,8 +594,7 @@ Zie advies 2012/19 Goederen verworven tegen betaling van een lijfrente.
 
 ### Voorzieningen voor milieuverplichtingen[^59] 
 
-De niet-limitatieve opsomming van de aan te leggen voorzieningen bevat sedert kort[^60]
- ook de expliciete verplichting om een voorziening aan te leggen voor de kosten van een milieuverplichting. Met de invoering van deze verplichting, die geïnspireerd is op de Aanbeveling van de Europese Commissie 2001/453/EG, L 156/33 van 30 mei 2001 betreffende de verantwoording, waardering en vermelding van milieuaangelegenheden in de jaarrekeningen en jaarverslagen van ondernemingen kreeg een belangrijk onderdeel van Maatschappelijk Verantwoord Ondernemen (MVO) een expliciete plaats binnen de jaarrekening. 
+De niet-limitatieve opsomming van de aan te leggen voorzieningen bevat sedert kort[^60] ook de expliciete verplichting om een voorziening aan te leggen voor de kosten van een milieuverplichting. Met de invoering van deze verplichting, die geïnspireerd is op de Aanbeveling van de Europese Commissie 2001/453/EG, L 156/33 van 30 mei 2001 betreffende de verantwoording, waardering en vermelding van milieuaangelegenheden in de jaarrekeningen en jaarverslagen van ondernemingen kreeg een belangrijk onderdeel van Maatschappelijk Verantwoord Ondernemen (MVO) een expliciete plaats binnen de jaarrekening. 
 
 Een voorziening voor milieuverplichtingen moet worden aangelegd zowel voor de wettelijke of contractuele verplichtingen als voor de feitelijke verplichtingen. Onder wettelijke of contractuele verplichting wordt verstaan: de onderneming is wettelijk of contractueel verplicht om milieuschade te voorkomen, te beperken of ongedaan te maken. Onder feitelijke verplichtingen wordt begrepen: een verplichting die feitelijk voortvloeit uit gedragingen van de onderneming zelf, wanneer zij zich ertoe heeft verbonden om milieuschade te voorkomen, te beperken of ongedaan te maken, en zij niet van deze maatregelen kan afzien omdat zij, op basis van verklaringen over haar beleid, haar voorgenomen handelwijze of in het kader van de vaste bedrijfspraktijken, aan derden bekend heeft gemaakt dat zij de verantwoordelijkheid voor het voorkomen, beperken of ongedaan maken van milieuschade, op zich neemt.
 

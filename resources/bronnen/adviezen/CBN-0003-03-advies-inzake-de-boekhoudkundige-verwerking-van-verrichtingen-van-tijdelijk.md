@@ -3,54 +3,50 @@ bron: https://www.cbn-cnc.be/nl/adviezen/advies-inzake-de-boekhoudkundige-verwer
 datum: 2008-01-31
 nummer: CBN-advies 3/3
 provenance:
-  generated_at: '2026-05-08T18:33:22Z'
+  generated_at: '2026-05-11T13:05:05Z'
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/advies-inzake-de-boekhoudkundige-verwerking-van-verrichtingen-van-tijdelijk
-    sha256: ce71fe8e4f9b9100e75abec5685775f52a3886600e87139cabfc6a58c9a1d4e5
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/advies-inzake-de-boekhoudkundige-verwerking-van-verrichtingen-van-tijdelijk
+      sha256: ce71fe8e4f9b9100e75abec5685775f52a3886600e87139cabfc6a58c9a1d4e5
+      version:
   stale: false
-  stale_reason: null
+  stale_reason:
   tooling:
-    model: null
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    prompt_version: null
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
   trust:
     confirmed_at: '2026-05-08T19:02:27Z'
     confirmed_by: subagent-laag2-ronde2
     layer1:
-      file_size_chars: 82702
-      flags: []
-      heading_count: 51
-      max_section_chars: 16268
-      run_at: null
-      run_id: 20260511-083333
       status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:24Z'
+      heading_count: 53
+      max_section_chars: 16263
+      file_size_chars: 82578
+      flags: []
     layer2:
       agent: subagent-laag2-ronde2
       concrete_problemen: []
-      rationale: '[Laag-2-R2 2026-05-08] 51 headings met duidelijke hiërarchie per
-        integratiemethode. De grote sectie bevat geneste voorbeelden maar alle methoden
-        zijn volledig uitgewerkt.'
+      rationale: '[Laag-2-R2 2026-05-08] 51 headings met duidelijke hiërarchie per integratiemethode. De grote sectie bevat geneste voorbeelden maar alle methoden zijn volledig uitgewerkt.'
       run_at: '2026-05-08T19:02:27Z'
       status: trusted
     rationale: Laag-2 trusted door subagent-laag2-ronde2 (zie layer2.rationale)
     status: trusted
 themas:
-- eliminatie
-- geassocieerde onderneming
-- globale integratiemethode
-- integratie methode
-- proportionele integratiemethode
-- rekening-courant
-- tijdelijk handelsvennootschap
-- tijdelijke handelsvereniging
-- uitgebreide equivalentiemethode
-- waarderingsregels
-- waarderingsregels in de tijdelijke handelsvennootschap
+  - eliminatie
+  - geassocieerde onderneming
+  - globale integratiemethode
+  - integratie methode
+  - proportionele integratiemethode
+  - rekening-courant
+  - tijdelijk handelsvennootschap
+  - tijdelijke handelsvereniging
+  - uitgebreide equivalentiemethode
+  - waarderingsregels
+  - waarderingsregels in de tijdelijke handelsvennootschap
 ---
-
-# ADVIES 3-3 - INZAKE DE BOEKHOUDKUNDIGE VERWERKING VAN VERRICHTINGEN VAN TIJDELIJKE HANDELSVENNOOTSCHAPPEN
 
 # ADVIES 3-3 - INZAKE DE BOEKHOUDKUNDIGE VERWERKING VAN VERRICHTINGEN VAN TIJDELIJKE HANDELSVENNOOTSCHAPPEN
 
@@ -82,7 +78,7 @@ De Commissie wenst ook de heer H. Vanmeerbeek te danken, thans erelid van de Com
 
 De Commissie heeft beslist om over een termijn van drie tot vijf jaar na te gaan hoe dit advies in de praktijk wordt toegepast en dan te evalueren of het wenselijk is aan het Parlement en de Regering specifieke wettelijke of reglementaire bepalingen voor de boekhoudkundige verwerking van verrichtingen van tijdelijke handelsvennootschappen voor te stellen.
 
-**BESCHOUWINGEN VOORAF**
+## BESCHOUWINGEN VOORAF
 
 Artikel 47 van het Wetboek van vennootschappen luidt als volgt: de tijdelijke handelsvennootschap is een vennootschap zonder rechtspersoonlijkheid, zonder firmanaam die één of meer bepaalde handelsverrichtingen tot doel heeft. 
 
@@ -127,8 +123,7 @@ De volgende argumenten onderbouwen deze stelling:
 1. Een afzonderlijke boekhouding is niet in strijd met de wettelijke bepalingen. 
 *Integendeel, zowel artikel 3 van de Wet van 17 juli 1975 als de Memorie van Toelichting suggereren op min of meer impliciete wijze dat de boekhouding autonoom kan bestaan.* 
 2. Een afzonderlijke boekhouding vereenvoudigt de rapportering op fiscaal- en sociaalrechtelijk vlak. 
-*Men denke hier meer bepaald aan geïntegreerde tijdelijke handelsvennootschappen die, voor zover zij een voldoende gedetailleerde eigen boekhouding voeren, een apart B.T.W.-nummer[^2]
- hebben, maar ook aan de handelsvennootschappen die eigen personeel in loondienst hebben.* 
+*Men denke hier meer bepaald aan geïntegreerde tijdelijke handelsvennootschappen die, voor zover zij een voldoende gedetailleerde eigen boekhouding voeren, een apart B.T.W.-nummer[^2] hebben, maar ook aan de handelsvennootschappen die eigen personeel in loondienst hebben.* 
 3. Een afzonderlijke boekhouding bevordert de confidentialiteit. 
 *Het is niet ongebruikelijk dat de deelgenoten van een tijdelijke handelsvennootschap inzage vragen in de boekhouding. In dit geval is het wenselijk dat de deelgenoten enkel toegang krijgen tot de boekhoudkundige stukken van de tijdelijke handelsvennootschap zelf, en niet tot de administratie van de boekhouder.* 
 
@@ -300,8 +295,7 @@ Het Belgisch Centrum voor Normalisatie van de Accountancy en het Revisoraat (BCN
 
 De publicatie van de afzonderlijke rekeningen van tijdelijke handelsvennootschappen lijkt de meest transparante en correcte benadering, maar is in de praktijk niet toepasbaar indien men opteert voor de openbaarmaking van de informatie op individuele basis. 
 
-De afzonderlijke voorstelling van de (al dan niet) samengevoegde rekeningen van tijdelijke handelsvennootschappen genoot sinds 1981[^6]
- ook de voorkeur in de rechtsleer. Indien men alle bestaande integratiemethoden en hun gebreken in acht neemt, lijkt dit de meest getrouwe voorstellingsmethode. 
+De afzonderlijke voorstelling van de (al dan niet) samengevoegde rekeningen van tijdelijke handelsvennootschappen genoot sinds 1981[^6] ook de voorkeur in de rechtsleer. Indien men alle bestaande integratiemethoden en hun gebreken in acht neemt, lijkt dit de meest getrouwe voorstellingsmethode. 
 
 In dit geval zal de onderneming haar jaarrekening opstellen volgens één van de voorgaande methoden, en in de toelichting de enkelvoudige of samengevoegde rekeningen van de tijdelijke handelsvennootschappen opnemen. Men beschikt dan evenwel enkel over een getrouw en volledig beeld indien men het jaarrekeningschema van de onderneming en de rekeningen van de tijdelijke handelsvennootschappen samenneemt. 
 
@@ -367,8 +361,7 @@ Deze kritiek kan worden ondervangen door hetzij voor de activa en passiva waarva
 
 ##### Beschrijving van de methode
 
-Deze methode sluit aan bij de integrale consolidatiemethode, zoals voorgeschreven door het koninklijk besluit van 30 januari 2001 tot uitvoering van het Wetboek van vennootschappen[^8]
- en die erin bestaat de activa en passiva integraal op te nemen in de balans van de onderneming, en de minderheidsbelangen uit te drukken in de vorm van een schuld tegenover derden. Deze techniek kan enkel worden toegepast door de partner met een overheersend of meerderheidsbelang.
+Deze methode sluit aan bij de integrale consolidatiemethode, zoals voorgeschreven door het koninklijk besluit van 30 januari 2001 tot uitvoering van het Wetboek van vennootschappen[^8] en die erin bestaat de activa en passiva integraal op te nemen in de balans van de onderneming, en de minderheidsbelangen uit te drukken in de vorm van een schuld tegenover derden. Deze techniek kan enkel worden toegepast door de partner met een overheersend of meerderheidsbelang.
 
 Andermaal worden de eliminatie- en herwerkingstechnieken toegepast om te komen tot een coherent geheel.
 
@@ -406,7 +399,7 @@ Nochtans kan de integratie van het resultaat wel worden aanvaard in de uitzonder
 
 De eenvoudige integratie van de kosten en opbrengsten bestaat erin dat de deelgenoot in zijn eigen resultatenrekening diens aandeel opneemt in het totaal van de kosten enerzijds en in het totaal van de opbrengsten anderzijds.
 
-Er is hier geen sprake van compensatie tussen kosten en opbrengsten. Nochtans geeft ook hier de resultatenrekening geen passend beeld omdat de kosten in hun geheel worden ondergebracht in één enkele rubriek (meestal de rubriek *“andere bedrijfskosten”*, maar dit kan ook de rubriek *“60” of “61”* zijn) terwijl het aandeel in de opbrengsten wordt ondergebracht in de rubriek Omzet of in de rubriek *Andere bedrijfsopbrengsten.* 
+Er is hier geen sprake van compensatie tussen kosten en opbrengsten. Nochtans geeft ook hier de resultatenrekening geen passend beeld omdat de kosten in hun geheel worden ondergebracht in één enkele rubriek (meestal de rubriek *“andere bedrijfskosten”*, maar dit kan ook de rubriek* “60” of “61”* zijn) terwijl het aandeel in de opbrengsten wordt ondergebracht in de rubriek Omzet of in de rubriek *Andere bedrijfsopbrengsten.* 
 
 Vooral langs de kostenzijde stuit deze werkwijze op bezwaren, omdat deze techniek leidt tot het artificieel opkrikken van de toegevoegde waarde. De groepering van alle kosten van de tijdelijke handelsvennootschap in de rubriek “64” leidt er immers toe dat kosten van intermediair verbruik (zoals de kosten van onderaanneming, van aankoop van goederen en van diensten) worden ondergebracht onder de andere bedrijfskosten en aldus worden beschouwd als een component van de toegevoegde waarde.
 
@@ -426,7 +419,7 @@ De lijn per lijn integratie is de meest complexe vorm van integratie van kosten 
 
 2. De rekeningen van de personeelskosten zullen zowel de kosten van het eigen personeel van de onderneming, als het proportioneel aandeel in de personeelskosten van de tijdelijke handelsvennootschap opnemen, terwijl de informatie in de sociale balans enkel slaat op het personeel dat in het personeelsregister van de onderneming is ingeschreven. 
 
-**Integratiemethoden: standpunt van de Commissie voor boekhoudkundige normen**
+## Integratiemethoden: standpunt van de Commissie voor boekhoudkundige normen
 
 Gelet op wat voorafgaat, is volgens de Commissie de proportionele integratiemethode zowel op balansniveau als op het niveau van de resultatenrekening, de methode waarmee de bedrijfseconomische realiteit van een geïntegreerde tijdelijke handelsvennootschap in de meeste gevallen het best kan worden weergegeven. De praktijk leert overigens dat die methode nu al zeer vaak wordt toegepast.
 
@@ -434,8 +427,7 @@ In sommige - weliswaar uitzonderlijke - gevallen, wanneer één van de deelgenot
 
 Zoals eerder aangestipt, veronderstelt de toepassing van deze methoden onvermijdelijk dat op balansniveau en op het niveau van de resultatenrekening de nodige eliminaties worden verricht. Deze problematiek wordt hierna toegelicht.
 
-Inzover het gebruik van deze echte integratiemethoden echter niet te verwaarlozen administratieve kosten met zich mee brengt, is de Commissie van oordeel, wanneer de omvang van een tijdelijke handelsvennootschap - niet de omvang van de geassocieerde vennootschappen - geen van de drie criteria van artikel 15[^9]
- van het Wetboek van vennootschappen overschrijdt, dat een eenvoudiger methode mag worden gebruikt, op voorwaarde dat hierdoor op het niveau van de rekeningen van de geassocieerde onderneming geen afbreuk wordt gedaan aan het beginsel van het getrouw beeld zoals omschreven in artikel 24 van het koninklijk besluit tot uitvoering van het Wetboek van vennootschappen. 
+Inzover het gebruik van deze echte integratiemethoden echter niet te verwaarlozen administratieve kosten met zich mee brengt, is de Commissie van oordeel, wanneer de omvang van een tijdelijke handelsvennootschap - niet de omvang van de geassocieerde vennootschappen - geen van de drie criteria van artikel 15[^9] van het Wetboek van vennootschappen overschrijdt, dat een eenvoudiger methode mag worden gebruikt, op voorwaarde dat hierdoor op het niveau van de rekeningen van de geassocieerde onderneming geen afbreuk wordt gedaan aan het beginsel van het getrouw beeld zoals omschreven in artikel 24 van het koninklijk besluit tot uitvoering van het Wetboek van vennootschappen. 
 
 Volgens de Commissie is het raadzaam, wanneer het gaat om vennootschappen die participeren in een tijdelijke handelsvennootschap die één van de drie criteria van artikel 15 van het Wetboek van vennootschappen overschrijdt, om de methode van de rekening-courant of van de eenvoudige equivalentie enkel bij uitzondering toe te passen, in specifieke gevallen (bvb. in de opstartfase of de afloopfase van een tijdelijke handelsvennootschap), en mits passende verantwoording in de toelichting wordt gegeven. 
 
@@ -634,7 +626,7 @@ Wordt het vraagstuk bedrijfseconomisch benaderd, dan is de conclusie dat het re�
 4. Het vierde scenario waarbij de kostprijs wordt geëlimineerd die staat tegenover de door de deelgenoten aangerekende omzet, leunt dicht aan bij het derde scenario.[^10]
  In dit geval stemt de uitgedrukte omzet overeen met de omzet gegenereerd door de tijdelijke handelsvennootschap, vermeerderd met de winst die de deelgenoten hebben gegenereerd op hun facturatie aan de tijdelijke handelsvennootschap. 
 
-**Eliminatiemethoden: standpunt van de Commissie voor boekhoudkundige normen**
+## Eliminatiemethoden: standpunt van de Commissie voor boekhoudkundige normen
 
 Gelet op wat voorafgaat, is de Commissie van oordeel dat ingeval de proportionele integratie, zoals hierboven beschreven en waaraan de Commissie de voorkeur geeft, wordt toegepast, de dubbeltellingen waartoe deze methode leidt, alleszins op passende wijze dienen te worden geëlimineerd.
 
@@ -658,7 +650,7 @@ De problematiek van de waarderingsregels bij tijdelijke handelsvennootschappen h
 
 De waardering binnen een tijdelijke handelsvennootschap kan in theorie gebeuren volgens de regels bepaald in het contract van tijdelijke handelsvennootschap, of via de keuze van de zaakvoerder van de tijdelijke handelsvennootschap die voor de boekhouding instaat. De praktijk leert dat de waarderingsbeginselen zelden formeel in het contract van tijdelijke handelsvennootschap worden vastgelegd. Dat wordt overgelaten aan de zaakvoerder die zijn eigen waarderingsprincipes toepast, die evenwel meestal niet overeenstemmen met die van de andere deelgenoten. Voor hen vormt dit natuurlijk een probleem : zij moeten deze regels afstemmen op hun eigen waarderingsregels en de verkregen gegevens herwerken bij integratie.
 
-Maar zulke herwerkingen kunnen zeer delicaat zijn, vooral wanneer ze leiden tot een toename van kosten of een vermindering van opbrengsten. Ook op het vlak van de winstopname geeft dit problemen. Als voorbeeld geldt de verwarring die kan ontstaan wanneer het contract van tijdelijke handelsvennootschap de voorkeur geeft aan de *percentage of completion method*, terwijl de winstopname bij de deelgenoot gebeurt volgens de *completed contract method*.
+Maar zulke herwerkingen kunnen zeer delicaat zijn, vooral wanneer ze leiden tot een toename van kosten of een vermindering van opbrengsten. Ook op het vlak van de winstopname geeft dit problemen. Als voorbeeld geldt de verwarring die kan ontstaan wanneer het contract van tijdelijke handelsvennootschap de voorkeur geeft aan de *percentage of completion method*, terwijl de winstopname bij de deelgenoot gebeurt volgens de* completed contract method*.
 
 Bovendien vereisen deze onderlinge afstemmingen bijkomend administratief werk : de boekingen in verband met afschrijvingen, waardeverminderingen en voorzieningen moeten worden geëlimineerd en vervolgens vervangen worden door nieuwe.
 
@@ -705,16 +697,13 @@ Dit betekent dat niet verbruikte voorraden in de balans worden opgenomen via de 
 
 Dit betekent ook dat nog niet aangerekende kosten moeten worden geboekt via de rekeningen *Te ontvangen facturen* of *Toe te rekenen kosten*.
 
-De volledige bedrijfseconomische aansluiting tussen deze twee balansposten[^11]
- is daarbij van essentieel belang, maar de voorstellingswijze wijkt af van het gemeen recht.
+De volledige bedrijfseconomische aansluiting tussen deze twee balansposten[^11] is daarbij van essentieel belang, maar de voorstellingswijze wijkt af van het gemeen recht.
 
 Volgens het Belgisch boekhoudrecht worden in de passiefrubriek 46 immers de *Ontvangen vooruitbetalingen op bestellingen* uitgedrukt zonder rekening te houden met het feit of deze geïnde en/of gefactureerde bedragen overeenstemmen met het economisch gerealiseerde omzetcijfer.
 
 Een zuiver financiële voorschotfactuur, waar geen prestaties tegenover staan, komt dus terecht in de* rubriek “46”* maar heeft geen uitstaans met het economisch gerealiseerde omzetcijfer.
 
-Volgens de hoger uiteengezette benadering dient de rubriek 46 gecorrigeerd te worden om het economisch gerealiseerde omzetcijfer uit te drukken. Zulke correctie kan erin bestaan het overschot[^12]
- over te boeken naar de handelsschulden[^13], of het tekort[^14]
- te corrigeren door een op te stellen factuur op te nemen in de boeken.
+Volgens de hoger uiteengezette benadering dient de rubriek 46 gecorrigeerd te worden om het economisch gerealiseerde omzetcijfer uit te drukken. Zulke correctie kan erin bestaan het overschot[^12] over te boeken naar de handelsschulden[^13], of het tekort[^14] te corrigeren door een op te stellen factuur op te nemen in de boeken.
 
 In de hoogst uitzonderlijke gevallen waarin op de afsluitdatum niet de nodige correcties werden verricht, zal de zaakvoerder-boekhouder die instaat voor de boekhouding alle bijkomende toelichtingen verschaffen om de partners in staat te stellen de nodige correcties te berekenen. 
 
@@ -734,7 +723,7 @@ De doorrekening van de financiële resultaten is eerder een praktische aangelege
 
 Het lijkt passend dat alle financiële resultaten op een zelfde wijze worden behandeld. Dit houdt in dat deze verrekening zal slaan op alle financiële opbrengsten en kosten, zodat de rubrieken “65” en “75” als het ware op nul worden geplaatst. 
 
-| **Vijfde principe: De toepassing van het waarderingsprincipe *« Lower of Cost or Market » *wordt overgelaten aan de individuele partners.** | 
+| **Vijfde principe: De toepassing van het waarderingsprincipe* « Lower of Cost or Market » *wordt overgelaten aan de individuele partners.** | 
 
 In het kader van het beheer van het project zullen de verantwoordelijken periodiek de technische kostprijs moeten toetsen aan de technische verkoopprijs.
 
@@ -783,7 +772,7 @@ Indien alle partners het erover eens zijn om de financiële opbrengsten en koste
 
 | 
 
-**Vijfde principe: De toepassing van het waarderingsprincipe *Lower of Cost or Market* wordt toegewezen aan het bestuur van de tijdelijke handelsvennootschap.**
+**Vijfde principe: De toepassing van het waarderingsprincipe* Lower of Cost or Market* wordt toegewezen aan het bestuur van de tijdelijke handelsvennootschap.**
 
   | 
 
@@ -799,8 +788,7 @@ De praktijk leert inderdaad dat één van de fundamentele recurrente gebreken va
 
 Daarom is de Commissie van oordeel dat ondernemingen die in een tijdelijke handelsvennootschap participeren, comform de principes zoals opgenomen in het koninklijk besluit van 30 januari 2001 tot uitvoering van het Weboek van vennootschappen, zouden moeten zorgen voor een coherentere en alleszins transparantere informatie van hun activiteiten uitgeoefend via tijdelijke handelsvennootschappen.
 
-### Aanbevelingen inzake informatieverstrekking over tijdelijke handelsvennootschappen (3 principes)
-
+Aanbevelingen inzake informatieverstrekking over tijdelijke handelsvennootschappen (3 principes)
 Volgens de Commissie zou de publicatie van gegevens door geassocieerde ondernemingen aan de volgende principes moeten beantwoorden: 
 
 | 

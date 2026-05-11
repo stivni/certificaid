@@ -1,6 +1,39 @@
 ---
-nummer: CBN-advies 176/1
+bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudrechtelijke-aspecten-met-betrekking-tot-het-jaar-2000
 datum: 1999-02-01
+nummer: CBN-advies 176/1
+provenance:
+  generated_at: '2026-05-11T13:05:06Z'
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudrechtelijke-aspecten-met-betrekking-tot-het-jaar-2000
+      sha256: 1b5d482fa1c89c87bcf7de36433ca0a9d3d2620f3c17f6156617a13f91dc898a
+      version:
+  stale: false
+  stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
+  trust:
+    confirmed_at: '2026-05-11T12:09:17Z'
+    confirmed_by: subagent-sonnet-4-6
+    layer1:
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:26Z'
+      heading_count: 2
+      max_section_chars: 10829
+      file_size_chars: 17143
+      flags: []
+    layer2:
+      agent: subagent-sonnet-4-6
+      concrete_problemen: []
+      rationale: 'Laag-1 pass, geen flags. Twee ## headings met volledige titels, 11 voetnoten correct aangelegd, opsommingen via ''-'' consistent, sub-bullets via ''-'' correct genest. Groot document maar inhoud compleet en lopend. Geen PDF-artefacten.'
+      run_at: '2026-05-11T12:09:17Z'
+      status: trusted
+    rationale: 'Laag-1 pass, geen flags. Twee ## headings met volledige titels, 11 voetnoten correct aangelegd, opsommingen via ''-'' consistent, sub-bullets via ''-'' correct genest. Groot document maar inhoud compleet en lopend. Geen PDF-artefacten.'
+    status: trusted
 themas:
   - informaticasysteem
   - jaar 2000 problematiek
@@ -10,39 +43,6 @@ themas:
   - overgang naar het jaar 2000
   - software
   - voorziening
-bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudrechtelijke-aspecten-met-betrekking-tot-het-jaar-2000
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudrechtelijke-aspecten-met-betrekking-tot-het-jaar-2000
-      sha256: 1b5d482fa1c89c87bcf7de36433ca0a9d3d2620f3c17f6156617a13f91dc898a
-      version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:35:44Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: trusted
-    confirmed_at: '2026-05-11T12:09:17Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "Laag-1 pass, geen flags. Twee ## headings met volledige titels, 11 voetnoten correct aangelegd, opsommingen via '-' consistent, sub-bullets via '-' correct genest. Groot document maar inhoud compleet en lopend. Geen PDF-artefacten."
-    layer1:
-      status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 2
-      max_section_chars: 10829
-      file_size_chars: 17144
-      flags: []
-    layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:09:17Z'
-      rationale: "Laag-1 pass, geen flags. Twee ## headings met volledige titels, 11 voetnoten correct aangelegd, opsommingen via '-' consistent, sub-bullets via '-' correct genest. Groot document maar inhoud compleet en lopend. Geen PDF-artefacten."
-      concrete_problemen: []
 ---
 
 # CBN-advies 176/1 - Boekhoudrechtelijke aspecten met betrekking tot het jaar 2000
@@ -53,8 +53,7 @@ Alle ondernemingen kunnen door dit probleem worden getroffen. Het heeft een pote
 
 Talrijke nationale én internationale instellingen en organisaties hebben aanbevelingen[^1] gepubliceerd om zowel in de openbare sector als in de bedrijfswereld de aanpassing van de informaticasystemen aan de overgang naar het jaar 2000 aan te moedigen en te begeleiden. Daartoe werden controlelijsten of "check-lists" over het millenniumprobleem gepubliceerd.
 
-In België hebben verscheidene instellingen voor boekhoudkundigen in publicaties en technische nota’s[^2]
- de aandacht gevestigd op de problemen die terzake zouden kunnen rijzen in de administratieve organisatie en in de boekhouding. In die verschillende nota’s werden in het bijzonder de mogelijke gevolgen onderzocht van de overgang naar het jaar 2000 voor de opstelling, de controle en de revisie van de financiële staten en werden tegelijkertijd de respectieve verantwoordelijkheden verduidelijkt van de bestuursorganen van de ondernemingen en van de betrokken boekhoudkundigen. 
+In België hebben verscheidene instellingen voor boekhoudkundigen in publicaties en technische nota’s[^2] de aandacht gevestigd op de problemen die terzake zouden kunnen rijzen in de administratieve organisatie en in de boekhouding. In die verschillende nota’s werden in het bijzonder de mogelijke gevolgen onderzocht van de overgang naar het jaar 2000 voor de opstelling, de controle en de revisie van de financiële staten en werden tegelijkertijd de respectieve verantwoordelijkheden verduidelijkt van de bestuursorganen van de ondernemingen en van de betrokken boekhoudkundigen. 
 
 Wat de boekhoudrechtelijke aspecten van de overgang naar het jaar 2000 betreft, dienen twee luiken te worden onderscheiden die elkaar aanvullen.
 
@@ -90,7 +89,7 @@ In dit verband moet worden onderstreept dat dit advies niet beoogt alle technisc
 Het gaat: 
 
 - enerzijds, om de zogenaamde datumuitbreidingsmethode waarbij de twee jaarcijfers (JJ) worden uitgebreid met de twee eeuwcijfers. Deze methode heeft tot gevolg alle programma’s en bestanden onvermijdelijk massaal moeten worden geconverteerd. Zij vormt echter de meest logische en de meest voor de hand liggende oplossing, zelfs indien deze gelijktijdige aanpassing van de meeste programma’s en bestanden gepaard zou gaan met aanzienlijke kosten; 
-- anderzijds, om de zogenaamde venstermethode die impliceert dat de twee jaarcijfers (JJ) behouden blijven, waarbij terwijl de eeuw wordt afgeleid van de twee jaarcijfers volgens de volgende regel: is JJ kleiner dan wat als "spiljaar" zou worden gedefinieerd (bij voorbeeld: 50), dan is de automatisch geactiveerde datum 20JJ. De jaren 50 tot 99 stemmen dan overeen met de jaren 1950 tot 1999. Deze methode heeft als voordeel dat geen enkel informaticaveld hoeft te worden veranderd. Trouwens enkel de programma’s die datums omvatten, dienen te worden geconverteerd (elk geconverteerd programma blijft trouwens compatibel met zijn niet¬geconverteerde versie). De (talrijke) programma’s waarin datums enkel worden afgebeeld of afgedrukt, hoeven niet te worden geconverteerd. Daartegenover staat dat bij deze methode problemen kunnen rijzen voor historische data zoals geboortedatums, …. 
+- anderzijds, om de zogenaamde venstermethode die impliceert dat de twee jaarcijfers (JJ) behouden blijven, waarbij terwijl de eeuw wordt afgeleid van de twee jaarcijfers volgens de volgende regel: is JJ kleiner dan wat als "spiljaar" zou worden gedefinieerd (bij voorbeeld: 50), dan is de automatisch geactiveerde datum 20JJ. De jaren 50 tot 99 stemmen dan overeen met de jaren 1950 tot 1999. Deze methode heeft als voordeel dat geen enkel informaticaveld hoeft te worden veranderd. Trouwens enkel de programma’s die datums omvatten, dienen te worden geconverteerd (elk geconverteerd programma blijft trouwens compatibel met zijn niet-geconverteerde versie). De (talrijke) programma’s waarin datums enkel worden afgebeeld of afgedrukt, hoeven niet te worden geconverteerd. Daartegenover staat dat bij deze methode problemen kunnen rijzen voor historische data zoals geboortedatums, …. 
 
 Hierdoor zal het de taak zijn van het betrokken bestuursorgaan om te beoordelen of het gebruik van deze of gene methode (die een technische oplossing biedt voor de overgang naar het jaar 2000) al dan niet een fundamentele wijziging van het betrokken programma inhoudt. De Commissie wenst er nochtans op te wijzen (naar het voorbeeld van de Conseil National de la Comptabilité in Frankrijk) dat bepaalde programma’s of de geringe aanpassingen ervan, of snel verbruikte programma’s, kunnen worden beschouwd als volledig verbruikt tijdens het boekjaar waarin ze in gebruik worden genomen en in dat geval dus niet hoeven opgenomen te worden in de volgens de aard van het betrokken programma meest aangewezen rubriek van het actief[^8]. 
 

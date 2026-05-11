@@ -1,67 +1,65 @@
 ---
-nummer: CBN-advies 2013/14 NT
-datum: 2013-10-23
-themas:
-  - gerealiseerde meerwaarde
-  - kapitaalsubsidie
-  - uitgestelde belastingen
 bron: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-uitgestelde-belastingen-bij-gerealiseerde-0
+datum: 2013-10-23
+gerelateerde_adviezen:
+  - datum: '2016-09-28'
+    titel: Actualisatie van uitgestelde belastingen (update)
+    url: https://www.cbn-cnc.be/nl/adviezen/actualisatie-van-uitgestelde-belastingen-update
+  - datum: '2013-10-23'
+    titel: De boekhoudkundige verwerking van de uitgestelde belastingen bij gerealiseerde meerwaarden waarvoor de uitgestelde belastingregeling geldt en bij kapitaalsubsidies
+    url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-uitgestelde-belastingen-bij-gerealiseerde-meerwaarden
+  - datum: '1992-02-01'
+    titel: Gerealiseerde meerwaarden waarvoor de uitgestelde-belastingregeling geldt. Kapitaalsubsidies
+    url: https://www.cbn-cnc.be/nl/adviezen/gerealiseerde-meerwaarden-waarvoor-de-uitgestelde-belastingregeling-geldt
+  - datum: '1979-05-01'
+    titel: Herwaarderingen verricht met toepassing van de Wet van 20 augustus 1947
+    url: https://www.cbn-cnc.be/nl/adviezen/herwaarderingen-verricht-met-toepassing-van-de-wet-van-20-augustus-1947
+nummer: CBN-advies 2013/14 NT
 provenance:
+  generated_at: '2026-05-11T13:05:08Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-uitgestelde-belastingen-bij-gerealiseerde-0
       sha256: cece8804e52dd038152c883b88548a1e1db6bfaf5a6e420cc76d109c6bd23d88
       version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:36:41Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
   trust:
-    status: needs-rework
     confirmed_at: '2026-05-11T12:16:34Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "B2/B3: twee opeenvolgende H1-headings op regels 57–58 ('# CBN-advies 2013/14 – ...' en '# Technische nota bij') — een H1 mag slechts één keer voorkomen. De tweede H1 had een H2 moeten zijn. Verder is de tekst van de technische nota inhoudelijk compleet en zonder verdere artefacten."
     layer1:
       status: pass
-      run_id: 20260511-083333
-      run_at:
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:28Z'
       heading_count: 14
       max_section_chars: 5282
-      file_size_chars: 20355
+      file_size_chars: 20167
       flags: []
     layer2:
-      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:16:34Z'
-      rationale: "B2/B3: twee opeenvolgende H1-headings op regels 57–58 ('# CBN-advies 2013/14 – ...' en '# Technische nota bij') — een H1 mag slechts één keer voorkomen. De tweede H1 had een H2 moeten zijn. Verder is de tekst van de technische nota inhoudelijk compleet en zonder verdere artefacten."
       concrete_problemen:
-        - regel: 58
-          categorie: B2
+        - categorie: B2
+          regel: 58
           type: other
           voorbeeld: '# Technische nota bij'
-        - regel: 60
-          categorie: B2
+        - categorie: B2
+          regel: 60
           type: other
           voorbeeld: '## Inleiding (direct na tweede H1, heading-hiërarchie inconsistent met document)'
-gerelateerde_adviezen:
-  - titel: Actualisatie van uitgestelde belastingen (update)
-    url: https://www.cbn-cnc.be/nl/adviezen/actualisatie-van-uitgestelde-belastingen-update
-    datum: '2016-09-28'
-  - titel: De boekhoudkundige verwerking van de uitgestelde belastingen bij gerealiseerde meerwaarden waarvoor de uitgestelde belastingregeling geldt en bij kapitaalsubsidies
-    url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-uitgestelde-belastingen-bij-gerealiseerde-meerwaarden
-    datum: '2013-10-23'
-  - titel: Gerealiseerde meerwaarden waarvoor de uitgestelde-belastingregeling geldt. Kapitaalsubsidies
-    url: https://www.cbn-cnc.be/nl/adviezen/gerealiseerde-meerwaarden-waarvoor-de-uitgestelde-belastingregeling-geldt
-    datum: '1992-02-01'
-  - titel: Herwaarderingen verricht met toepassing van de Wet van 20 augustus 1947
-    url: https://www.cbn-cnc.be/nl/adviezen/herwaarderingen-verricht-met-toepassing-van-de-wet-van-20-augustus-1947
-    datum: '1979-05-01'
+      rationale: 'B2/B3: twee opeenvolgende H1-headings op regels 57–58 (''# CBN-advies 2013/14 – ...'' en ''# Technische nota bij'') — een H1 mag slechts één keer voorkomen. De tweede H1 had een H2 moeten zijn. Verder is de tekst van de technische nota inhoudelijk compleet en zonder verdere artefacten.'
+      run_at: '2026-05-11T12:16:34Z'
+      status: needs-rework
+    rationale: 'B2/B3: twee opeenvolgende H1-headings op regels 57–58 (''# CBN-advies 2013/14 – ...'' en ''# Technische nota bij'') — een H1 mag slechts één keer voorkomen. De tweede H1 had een H2 moeten zijn. Verder is de tekst van de technische nota inhoudelijk compleet en zonder verdere artefacten.'
+    status: needs-rework
+themas:
+  - gerealiseerde meerwaarde
+  - kapitaalsubsidie
+  - uitgestelde belastingen
 ---
-
-# CBN-advies 2013/14 – De boekhoudkundige verwerking van de uitgestelde belastingen bij gerealiseerde meerwaarden waarvoor de uitgestelde-belastingregeling geldt en bij kapitaalsubsidies
 
 # Technische nota bij
 
@@ -110,7 +108,7 @@ De Standaard vereist dat er voor alle belastbare tijdelijke verschillen een uitg
 
 Voor alle verrekenbare tijdelijke verschillen moet een uitgestelde belastingvordering worden opgenomen, in zoverre het waarschijnlijk is dat er fiscale winst beschikbaar zal zijn waarmee het verrekenbare tijdelijke verschil kan worden verrekend, tenzij de uitgestelde belastingvordering voortvloeit uit de eerste opname van een vordering of verplichting in een transactie die geen bedrijfscombinatie is, en op het moment van de transactie geen invloed heeft op de boekhoudkundige winst of de fiscale winst (het fiscaal verlies).
 
-#### *De initial recognition exception *
+#### *De initial recognition exception* 
 
 *Ontstaan bij eerste opname van een actief- of passiefbestanddeel of goodwill*
 

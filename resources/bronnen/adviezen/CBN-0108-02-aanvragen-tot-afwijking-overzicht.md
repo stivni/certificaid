@@ -1,6 +1,51 @@
 ---
-nummer: CBN-advies 108/2
+bron: https://www.cbn-cnc.be/nl/adviezen/aanvragen-tot-afwijking-overzicht
 datum: 1978-12-01
+nummer: CBN-advies 108/2
+provenance:
+  generated_at: '2026-05-11T13:05:05Z'
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/aanvragen-tot-afwijking-overzicht
+      sha256: ba3a343ddfa87e81faaa7171277264e63ed339d662ec9109a0ca6d56e85ac63b
+      version:
+  stale: false
+  stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
+  trust:
+    confirmed_at: '2026-05-11T11:57:45Z'
+    confirmed_by: subagent-sonnet-4-6
+    layer1:
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:24Z'
+      heading_count: 3
+      max_section_chars: 6783
+      file_size_chars: 12815
+      flags: []
+    layer2:
+      agent: subagent-sonnet-4-6
+      concrete_problemen:
+        - categorie: B2
+          regel: 57
+          type: other
+          voorbeeld: '#### AANVRAGEN TOT AFWIJKING DIE EEN AANPASSING BEOGEN VAN HET SCHEMA...'
+        - categorie: B2
+          regel: 79
+          type: other
+          voorbeeld: '#### EIGENLIJKE AFWIJKINGEN VAN HET K.B. VAN 8 OKTOBER 1976'
+        - categorie: B2
+          regel: 114
+          type: other
+          voorbeeld: '#### PROCEDURE'
+      rationale: 'B2: heading-hiërarchie springt van # (regel 51) direct naar #### (regels 57, 79, 114) — ##-niveau en ###-niveau ontbreken volledig. Mens-geschreven markdown zou #### nooit als eerste sub-niveau gebruiken na #. Inhoud is verder volledig en vlot leesbaar; voetnoten correct met definitie.'
+      run_at: '2026-05-11T11:57:45Z'
+      status: needs-rework
+    rationale: 'B2: heading-hiërarchie springt van # (regel 51) direct naar #### (regels 57, 79, 114) — ##-niveau en ###-niveau ontbreken volledig. Mens-geschreven markdown zou #### nooit als eerste sub-niveau gebruiken na #. Inhoud is verder volledig en vlot leesbaar; voetnoten correct met definitie.'
+    status: needs-rework
 themas:
   - aanpassing schema van de jaarrekening
   - aanvragen tot afwijking
@@ -13,51 +58,6 @@ themas:
   - schema van de jaarrekening
   - steenkoolmijn
   - verzekeringsonderneming
-bron: https://www.cbn-cnc.be/nl/adviezen/aanvragen-tot-afwijking-overzicht
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/aanvragen-tot-afwijking-overzicht
-      sha256: ba3a343ddfa87e81faaa7171277264e63ed339d662ec9109a0ca6d56e85ac63b
-      version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:34:04Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T11:57:45Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: 'B2: heading-hiërarchie springt van # (regel 51) direct naar #### (regels 57, 79, 114) — ##-niveau en ###-niveau ontbreken volledig. Mens-geschreven markdown zou #### nooit als eerste sub-niveau gebruiken na #. Inhoud is verder volledig en vlot leesbaar; voetnoten correct met definitie.'
-    layer1:
-      status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 3
-      max_section_chars: 6785
-      file_size_chars: 12817
-      flags: []
-    layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T11:57:45Z'
-      rationale: 'B2: heading-hiërarchie springt van # (regel 51) direct naar #### (regels 57, 79, 114) — ##-niveau en ###-niveau ontbreken volledig. Mens-geschreven markdown zou #### nooit als eerste sub-niveau gebruiken na #. Inhoud is verder volledig en vlot leesbaar; voetnoten correct met definitie.'
-      concrete_problemen:
-        - regel: 57
-          categorie: B2
-          type: other
-          voorbeeld: '#### AANVRAGEN TOT AFWIJKING DIE EEN AANPASSING BEOGEN VAN HET SCHEMA...'
-        - regel: 79
-          categorie: B2
-          type: other
-          voorbeeld: '#### EIGENLIJKE AFWIJKINGEN VAN HET K.B. VAN 8 OKTOBER 1976'
-        - regel: 114
-          categorie: B2
-          type: other
-          voorbeeld: '#### PROCEDURE'
 ---
 
 # CBN-advies 108/2 - Aanvragen tot afwijking : overzicht
@@ -98,7 +98,7 @@ Wat de aanvragen betreft met betrekking tot het publiceren van de bestanddelen o
 
 In 28 gevallen werd een afwijking door de Minister geweigerd. De beslissingen werden getroffen overeenkomstig het advies van de Commissie, behalve in twee gevallen. In één geval werd de afwijking toch verleend en in een ander geval werd deze geweigerd.
 
-Bij het onderzoek van de aanvragen tot afwijking die haar door de Minister voor advies werden overgemaakt, heeft de Commissie rekening gehouden met het reëel karakter en de specificiteit van de schade die zou voortvloeien uit het bekendmaken van sommige inlichtingen. Om deze reden hadden de afwijkingen slechts betrekking op de te publiceren jaarrekening en niet op de jaarrekening die, krachtens artikel 7 van de wet van 17 juli 1975, moet opgesteld worden voor intern gebruik.  
+Bij het onderzoek van de aanvragen tot afwijking die haar door de Minister voor advies werden overgemaakt, heeft de Commissie rekening gehouden met het reëel karakter en de specificiteit van de schade die zou voortvloeien uit het bekendmaken van sommige inlichtingen. Om deze reden hadden de afwijkingen slechts betrekking op de te publiceren jaarrekening en niet op de jaarrekening die, krachtens artikel 7 van de wet van 17 juli 1975, moet opgesteld worden voor intern gebruik. 
 
 Het reëel karakter en de specificiteit van de schade die zou veroorzaakt worden door de verspreiding van sommige gegevens, dienden noodzakelijkerwijze per geval, in concreto onderzocht te worden. Het essentieel criterium dat daartoe in aanmerking genomen werd is de kwetsbaarheid van de onderneming, voornamelijk wanneer op dezelfde markt concurrerende ondernemingen aan ongelijke verplichtingen inzake bekendmaking onderworpen zijn. Het geval - dat aangehaald wordt in het Verslag aan de Koning - waarin een onderneming slechts één enkel homogeen produkt vervaardigt en geconfronteerd wordt met andere ondernemingen met een gediversifieerde produktie is slechts een voorbeeld van deze distorsie. Inderdaad kan dezelfde situatie zich voordoen wanneer ondernemingen naar Belgisch recht in concurrentie staan op buitenlandse markten, ja zelfs op de binnenlandse markt, met buitenlandse ondernemingen die niet aan gelijkaardige publiciteitsregels onderworpen zijn. Deze kwetsbaarheid kan eveneens voortvloeien uit het feit dat het volume der aan- of verkopen van een onderneming in zeer grote mate afhankelijk is van het omzetcijfer gerealiseerd met een beperkt aantal klanten of leveranciers, of zelfs met één enkele klant of leverancier; in dit geval zou het publiceren van het bedrag der aan- of verkopen deze commerciële afhankelijkheid aan het licht brengen.
 
@@ -109,7 +109,7 @@ De kwetsbaarheid van de onderneming werd beoordeeld volgens van elkaar verschill
 - om een onderneming die haar activiteiten uitoefent op zeer concurrerende markten, of om een onderneming die haar activiteiten uitoefent op sterk gesloten markten of zelfs op markten gekenmerkt door een toestand van monopolie of oligopolie; 
 - om een kleine onderneming, voornamelijk wanneer één der criteria waarin voorzien wordt door artikel 39 van het koninklijk besluit van 8 oktober 1976 overschreden werd, of integendeel, om een grote onderneming. 
 
-In de gevallen waarin de afwijking werd toegekend, bestond ze uit de samenvoeging van bepaalde rubrieken uit de exploitatierekening. Ze werd echter afhankelijk gemaakt van de mededeling aan de Nationale Bank van België - Balanscentrale, met het oog op de statistische verwerking, van  
+In de gevallen waarin de afwijking werd toegekend, bestond ze uit de samenvoeging van bepaalde rubrieken uit de exploitatierekening. Ze werd echter afhankelijk gemaakt van de mededeling aan de Nationale Bank van België - Balanscentrale, met het oog op de statistische verwerking, van 
 
 het bedrag der verschillende samengevoegde rubrieken.
 

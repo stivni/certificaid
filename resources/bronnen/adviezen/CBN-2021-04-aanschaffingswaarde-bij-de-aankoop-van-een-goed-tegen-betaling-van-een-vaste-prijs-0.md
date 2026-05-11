@@ -1,6 +1,80 @@
 ---
-nummer: CBN-advies 2021/04
+bron: https://www.cbn-cnc.be/nl/adviezen/aanschaffingswaarde-bij-de-aankoop-van-een-goed-tegen-betaling-van-een-vaste-prijs-0
 datum: 2021-03-15
+gerelateerde_adviezen:
+  - datum: '2019-03-12'
+    titel: Dividenduitkering en kapitaalvermindering in natura
+    url: https://www.cbn-cnc.be/nl/adviezen/dividenduitkering-en-kapitaalvermindering-in-natura-0
+  - datum: '2017-05-31'
+    titel: Boekhoudkundige verwerking van de vergoeding voor een borg in het kader van de financiering van een voor verkoop bestemd onroerend goed
+    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-vergoeding-voor-een-borg-in-het-kader-van-de
+  - datum: '2013-05-08'
+    titel: De boekhoudkundige verwerking van een herziening van de btw op een aangekocht bedrijfsmiddel
+    url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-een-herziening-van-de-btw-op-een-aangekocht
+  - datum: '2012-10-10'
+    titel: De boekhoudkundige verwerking van immateriële vaste activa
+    url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-immateriele-vaste-activa
+nummer: CBN-advies 2021/04
+provenance:
+  generated_at: '2026-05-11T13:05:08Z'
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/aanschaffingswaarde-bij-de-aankoop-van-een-goed-tegen-betaling-van-een-vaste-prijs-0
+      sha256: c4e6106b615995e9ac67c66426827f415bfb5b91cf0f66808d2b180c1b720ad6
+      version:
+  stale: false
+  stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
+  trust:
+    confirmed_at: '2026-05-11T12:21:40Z'
+    confirmed_by: subagent-sonnet-4-6
+    layer1:
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:30Z'
+      heading_count: 7
+      max_section_chars: 4853
+      file_size_chars: 11956
+      flags: []
+    layer2:
+      agent: subagent-sonnet-4-6
+      concrete_problemen:
+        - categorie: D3
+          regel: 116
+          type: other
+          voorbeeld: ' [^6]'
+        - categorie: D3
+          regel: 123
+          type: other
+          voorbeeld: '[^7]'
+        - categorie: D3
+          regel: 132
+          type: other
+          voorbeeld: ' [^8]'
+        - categorie: D3
+          regel: 139
+          type: other
+          voorbeeld: '[^9]'
+        - categorie: D3
+          regel: 153
+          type: other
+          voorbeeld: ' [^10]'
+        - categorie: D3
+          regel: 160
+          type: other
+          voorbeeld: '[^11]'
+        - categorie: A6
+          regel: 91
+          type: other
+          voorbeeld: De financiële component[^4]\n van de verrichting wordt gespreid…
+      rationale: 'D3: zes orphan footnote-markers ([^6], [^7], [^8], [^9], [^10], [^11]) staan als losstaande regels tussen de boekingstabellen (L116, L123, L132, L139, L153, L160); ze zijn anchor-verwijzingen die de tabel-contextuele noot aanduiden maar er is geen bijbehorende voetnootdefinitie op dezelfde plek — een mens zou dat nooit zo typen. A6: footnote-anker splitst een zin over twee regels (L91–L92: ''De financiële component[^4]\n van de verrichting…''). Inhoud is volledig en correct gestructureerd.'
+      run_at: '2026-05-11T12:21:40Z'
+      status: needs-rework
+    rationale: 'D3: zes orphan footnote-markers ([^6], [^7], [^8], [^9], [^10], [^11]) staan als losstaande regels tussen de boekingstabellen (L116, L123, L132, L139, L153, L160); ze zijn anchor-verwijzingen die de tabel-contextuele noot aanduiden maar er is geen bijbehorende voetnootdefinitie op dezelfde plek — een mens zou dat nooit zo typen. A6: footnote-anker splitst een zin over twee regels (L91–L92: ''De financiële component[^4]\n van de verrichting…''). Inhoud is volledig en correct gestructureerd.'
+    status: needs-rework
 themas:
   - aanschaffingswaarde
   - abnormaal lage rente
@@ -8,80 +82,6 @@ themas:
   - renteloze vorderingen
   - financieringskost
   - disconto
-bron: https://www.cbn-cnc.be/nl/adviezen/aanschaffingswaarde-bij-de-aankoop-van-een-goed-tegen-betaling-van-een-vaste-prijs-0
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/aanschaffingswaarde-bij-de-aankoop-van-een-goed-tegen-betaling-van-een-vaste-prijs-0
-      sha256: c4e6106b615995e9ac67c66426827f415bfb5b91cf0f66808d2b180c1b720ad6
-      version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:37:57Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T12:21:40Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "D3: zes orphan footnote-markers ([^6], [^7], [^8], [^9], [^10], [^11]) staan als losstaande regels tussen de boekingstabellen (L116, L123, L132, L139, L153, L160); ze zijn anchor-verwijzingen die de tabel-contextuele noot aanduiden maar er is geen bijbehorende voetnootdefinitie op dezelfde plek — een mens zou dat nooit zo typen. A6: footnote-anker splitst een zin over twee regels (L91–L92: 'De financiële component[^4]\\n van de verrichting…'). Inhoud is volledig en correct gestructureerd."
-    layer1:
-      status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 6
-      max_section_chars: 4853
-      file_size_chars: 12002
-      flags: []
-    layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:21:40Z'
-      rationale: "D3: zes orphan footnote-markers ([^6], [^7], [^8], [^9], [^10], [^11]) staan als losstaande regels tussen de boekingstabellen (L116, L123, L132, L139, L153, L160); ze zijn anchor-verwijzingen die de tabel-contextuele noot aanduiden maar er is geen bijbehorende voetnootdefinitie op dezelfde plek — een mens zou dat nooit zo typen. A6: footnote-anker splitst een zin over twee regels (L91–L92: 'De financiële component[^4]\\n van de verrichting…'). Inhoud is volledig en correct gestructureerd."
-      concrete_problemen:
-        - regel: 116
-          categorie: D3
-          type: other
-          voorbeeld: ' [^6]'
-        - regel: 123
-          categorie: D3
-          type: other
-          voorbeeld: '[^7]'
-        - regel: 132
-          categorie: D3
-          type: other
-          voorbeeld: ' [^8]'
-        - regel: 139
-          categorie: D3
-          type: other
-          voorbeeld: '[^9]'
-        - regel: 153
-          categorie: D3
-          type: other
-          voorbeeld: ' [^10]'
-        - regel: 160
-          categorie: D3
-          type: other
-          voorbeeld: '[^11]'
-        - regel: 91
-          categorie: A6
-          type: other
-          voorbeeld: De financiële component[^4]\n van de verrichting wordt gespreid…
-gerelateerde_adviezen:
-  - titel: Dividenduitkering en kapitaalvermindering in natura
-    url: https://www.cbn-cnc.be/nl/adviezen/dividenduitkering-en-kapitaalvermindering-in-natura-0
-    datum: '2019-03-12'
-  - titel: Boekhoudkundige verwerking van de vergoeding voor een borg in het kader van de financiering van een voor verkoop bestemd onroerend goed
-    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-vergoeding-voor-een-borg-in-het-kader-van-de
-    datum: '2017-05-31'
-  - titel: De boekhoudkundige verwerking van een herziening van de btw op een aangekocht bedrijfsmiddel
-    url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-een-herziening-van-de-btw-op-een-aangekocht
-    datum: '2013-05-08'
-  - titel: De boekhoudkundige verwerking van immateriële vaste activa
-    url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-immateriele-vaste-activa
-    datum: '2012-10-10'
 ---
 
 # CBN-advies 2021/04 – Aanschaffingswaarde bij de aankoop van een goed tegen betaling van een vaste prijs, verschuldigd over een periode van meer dan één jaar
@@ -96,11 +96,9 @@ Dit advies geldt zowel voor vennootschappen als voor verenigingen en stichtingen
 
 ## Wettelijk kader
 
-Artikel 3:45, § 2 van het koninklijk besluit van 29 april 2019[^2]
- (hierna: KB WVV) luidt als volgt: 
+Artikel 3:45, § 2 van het koninklijk besluit van 29 april 2019[^2] (hierna: KB WVV) luidt als volgt: 
 
-“Bij de boeking van een vordering in de balans voor haar nominale waarde worden in voorkomend geval in de overlopende rekeningen van het passief geboekt en *pro rata temporis* in resultaat genomen op grond van de samengestelde interesten: [...] het disconto[^3]
- op renteloze of abnormaal laag rentende vorderingen, wanneer deze vorderingen: 
+“Bij de boeking van een vordering in de balans voor haar nominale waarde worden in voorkomend geval in de overlopende rekeningen van het passief geboekt en *pro rata temporis* in resultaat genomen op grond van de samengestelde interesten: [...] het disconto[^3] op renteloze of abnormaal laag rentende vorderingen, wanneer deze vorderingen: 
 
 1° terugbetaalbaar zijn na meer dan één jaar te rekenen vanaf het ogenblik waarop zij in het vermogen van de vennootschap, VZW, IVZW of stichting zijn opgenomen, en 
 
@@ -116,14 +114,13 @@ Deze bepalingen vertrekken van een boekhoudkundige opsplitsing tussen, enerzijds
 
 Dit betekent echter niet dat de actiefbestanddelen zouden moeten worden geboekt tegen werkelijke waarde (of “*fair value*”) – het Belgisch boekhoudrecht stelt immers een boeking tegen historische kostprijs voorop –, maar houdt in dat de verrichting moet worden geboekt op een zodanige wijze dat zij overeenstemt met de realiteit van de verrichting.
 
-De financiële component[^4]
- van de verrichting wordt gespreid in resultaat genomen middels de overlopende rekeningen in functie van de looptijd van de betalingstermijn. 
+De financiële component[^4] van de verrichting wordt gespreid in resultaat genomen middels de overlopende rekeningen in functie van de looptijd van de betalingstermijn. 
 
 ## Voorbeeld
 
 Stel dat een materieel vast actief op 1 september 20N0 werd verworven voor 100.000 EUR, betaling voorzien op 31 december 20N2. De marktrente bedraagt 6 %.
 
-**Bepaling van de actuele waarde en het disconto**
+## Bepaling van de actuele waarde en het disconto
 
 - actuele waarde op 01/09/20N0: 100.000 EUR x 0,8728768[^5]
  = 87.287,69 EUR 
@@ -141,14 +138,10 @@ Stel dat een materieel vast actief op 1 september 20N0 werd verworven voor 100.0
 
 *Op 31/12/20N0*
 
- [^6]
-
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 6500 | Rente, commissies en kosten verbonden aan schulden | 1.711,96 | |
 | aan | 490 | Over te dragen kosten | | 1.711,96 |
-
-[^7]
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
@@ -157,14 +150,10 @@ Stel dat een materieel vast actief op 1 september 20N0 werd verworven voor 100.0
 
 *Op 31/12/20N1*
 
- [^8]
-
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 6500 | Rente, commissies en kosten verbonden aan schulden | 5.339,98 | |
 | aan | 490 | Over te dragen kosten | | 5.339,98 |
-
-[^9]
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
@@ -178,14 +167,10 @@ Stel dat een materieel vast actief op 1 september 20N0 werd verworven voor 100.0
 
 *Op 31/12/20N2*
 
- [^10]
-
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 6500 | Rente, commissies en kosten verbonden aan schulden | 5.660,38 | |
 | aan | 490 | Over te dragen kosten | | 5.660,38 |
-
-[^11]
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
@@ -197,8 +182,7 @@ Stel dat een materieel vast actief op 1 september 20N0 werd verworven voor 100.0
 | | 42 | Schulden op meer dan één jaar die binnen het jaar vervallen | 100.000 | |
 | aan | 55 | Kredietinstellingen: rekening-courant | | 100.000 |
 
-De Commissie benadrukt dat de bepalingen van artikelen 3:45, § 2 & 3:55 KB WVV slechts gelden wanneer de aankoopverrichting *ab initio* een impliciete rente bevat. In CBN-advies 137/8[^12], werd inderdaad aan de Commissie de vraag gesteld of oud artikel 27bis, § 2, littera c van het koninklijk besluit van 8 oktober 1976[^13]
- dat tot de actualisering van langlopende renteloze vorderingen verplicht, moet worden toegepast op een vordering wegens levering van goederen en diensten (i.e. wegens een verrichting die geleid heeft tot de boeking van een resultaat), die bij wijze van tegemoetkoming aan de schuldenaar die in financiële moeilijkheden verkeert, wordt omgevormd tot een renteloze vordering, terugbetaalbaar over verschillende jaren. De Commissie bevestigt met onderhavig advies haar standpunt ingenomen in CBN-advies 137/8, dat artikel 27bis, § 2, littera c *in casu* niet van toepassing is. Er is immers geen sprake van een impliciete financieringskost bij het ontstaan *ab initio* van de vordering. 
+De Commissie benadrukt dat de bepalingen van artikelen 3:45, § 2 & 3:55 KB WVV slechts gelden wanneer de aankoopverrichting *ab initio* een impliciete rente bevat. In CBN-advies 137/8[^12], werd inderdaad aan de Commissie de vraag gesteld of oud artikel 27bis, § 2, littera c van het koninklijk besluit van 8 oktober 1976[^13] dat tot de actualisering van langlopende renteloze vorderingen verplicht, moet worden toegepast op een vordering wegens levering van goederen en diensten (i.e. wegens een verrichting die geleid heeft tot de boeking van een resultaat), die bij wijze van tegemoetkoming aan de schuldenaar die in financiële moeilijkheden verkeert, wordt omgevormd tot een renteloze vordering, terugbetaalbaar over verschillende jaren. De Commissie bevestigt met onderhavig advies haar standpunt ingenomen in CBN-advies 137/8, dat artikel 27bis, § 2, littera c *in casu* niet van toepassing is. Er is immers geen sprake van een impliciete financieringskost bij het ontstaan *ab initio* van de vordering. 
 
 Een voorbeeld hiervan is de aankoop van een goed in december 2019 waarvan de factuur ten laatste op 30 april 2020 moet worden betaald. Door de COVID-19-epidemie aanvaardt de verkoper op 20 april 2020 een betalingsuitstel van twee jaar. De schuld op ten hoogste één jaar wordt hier omgezet in een schuld op meer dan één jaar. De aanschaffingswaarde van het goed wordt hierdoor niet aangepast.
 

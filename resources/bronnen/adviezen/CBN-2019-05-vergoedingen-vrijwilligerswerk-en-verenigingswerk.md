@@ -1,6 +1,39 @@
 ---
-nummer: CBN-advies 2019/05
+bron: https://www.cbn-cnc.be/nl/adviezen/vergoedingen-vrijwilligerswerk-en-verenigingswerk
 datum: 2019-06-14
+nummer: CBN-advies 2019/05
+provenance:
+  generated_at: '2026-05-11T13:05:08Z'
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/vergoedingen-vrijwilligerswerk-en-verenigingswerk
+      sha256: af5055b9bac4417d6f7c9ae95333d8d0fa0334ed88b6a5f79771e2b511c029be
+      version:
+  stale: false
+  stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
+  trust:
+    confirmed_at: '2026-05-11T12:21:40Z'
+    confirmed_by: subagent-sonnet-4-6
+    layer1:
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:30Z'
+      heading_count: 4
+      max_section_chars: 2506
+      file_size_chars: 5320
+      flags: []
+    layer2:
+      agent: subagent-sonnet-4-6
+      concrete_problemen: []
+      rationale: Kort advies, volledig schoon. Vier headings correct (H1 > H2). Geen artefacten, geen broken italics, geen TOC-fragmenten, geen open-brackets. Voetnoten [^1]–[^8] aanwezig en gesloten. Inhoud volledig.
+      run_at: '2026-05-11T12:21:40Z'
+      status: trusted
+    rationale: Kort advies, volledig schoon. Vier headings correct (H1 > H2). Geen artefacten, geen broken italics, geen TOC-fragmenten, geen open-brackets. Voetnoten [^1]–[^8] aanwezig en gesloten. Inhoud volledig.
+    status: trusted
 themas:
   - vrijwilligersvergoeding
   - vrijwilliger
@@ -8,39 +41,6 @@ themas:
   - vrijwilligerswerk
   - bezoldiging
   - vergoeding aan bestuurders
-bron: https://www.cbn-cnc.be/nl/adviezen/vergoedingen-vrijwilligerswerk-en-verenigingswerk
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/vergoedingen-vrijwilligerswerk-en-verenigingswerk
-      sha256: af5055b9bac4417d6f7c9ae95333d8d0fa0334ed88b6a5f79771e2b511c029be
-      version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:37:38Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: trusted
-    confirmed_at: '2026-05-11T12:21:40Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: Kort advies, volledig schoon. Vier headings correct (H1 > H2). Geen artefacten, geen broken italics, geen TOC-fragmenten, geen open-brackets. Voetnoten [^1]–[^8] aanwezig en gesloten. Inhoud volledig.
-    layer1:
-      status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 4
-      max_section_chars: 2506
-      file_size_chars: 5320
-      flags: []
-    layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:21:40Z'
-      rationale: Kort advies, volledig schoon. Vier headings correct (H1 > H2). Geen artefacten, geen broken italics, geen TOC-fragmenten, geen open-brackets. Voetnoten [^1]–[^8] aanwezig en gesloten. Inhoud volledig.
-      concrete_problemen: []
 ---
 
 # CBN-advies 2019/05 – Vergoedingen vrijwilligerswerk en verenigingswerk

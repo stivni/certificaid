@@ -1,6 +1,56 @@
 ---
-nummer: CBN-advies 120/3
+bron: https://www.cbn-cnc.be/nl/adviezen/waardering-van-liquide-middelen-bij-de-jaarafsluiting-criterium-voor-de-toerekening-aan
 datum: 1981-12-01
+gerelateerde_adviezen:
+  - datum: '2021-12-06'
+    titel: Waarderen en boeken van cryptomunten gebruikt als betaalmiddel
+    url: https://www.cbn-cnc.be/nl/adviezen/waarderen-en-boeken-van-cryptomunten-gebruikt-als-betaalmiddel
+  - datum: '2008-12-01'
+    titel: Verwerking in de jaarrekening van de door de Vlaamse regering gecreëerde opleidingscheques
+    url: https://www.cbn-cnc.be/nl/adviezen/verwerking-in-de-jaarrekening-van-de-door-de-vlaamse-regering-gecreeerde-opleidingscheques
+  - datum: '1984-01-01'
+    titel: Overheidsfondsen
+    url: https://www.cbn-cnc.be/nl/adviezen/overheidsfondsen
+  - datum: '1980-01-01'
+    titel: Het begrip &quot;financiële instelling&quot;
+    url: https://www.cbn-cnc.be/nl/adviezen/het-begrip-financiele-instelling
+nummer: CBN-advies 120/3
+provenance:
+  generated_at: '2026-05-11T13:05:05Z'
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/waardering-van-liquide-middelen-bij-de-jaarafsluiting-criterium-voor-de-toerekening-aan
+      sha256: 9b228a02403c5f83e9d2b075be3d077a4325cade444337b1ec1b217fd3a814d8
+      version:
+  stale: false
+  stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
+  trust:
+    confirmed_at: '2026-05-11T11:57:45Z'
+    confirmed_by: subagent-sonnet-4-6
+    layer1:
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:25Z'
+      heading_count: 0
+      max_section_chars: 2839
+      file_size_chars: 2839
+      flags: []
+    layer2:
+      agent: subagent-sonnet-4-6
+      concrete_problemen:
+        - categorie: G2
+          regel: 54
+          type: other
+          voorbeeld: '  - titel: Het begrip &quot;financiële instelling&quot;'
+      rationale: 'G-categorie: frontmatter regel 54 bevat een ongedecodeërd HTML-entity (&quot;) in het titel-veld van gerelateerde_adviezen. Body is verder inhoudelijk volledig en vrij van extractie-artefacten, maar de HTML-entity maakt de metadata onbetrouwbaar voor downstream verwerking. Laag-1 pass is terecht: geen structurele flags.'
+      run_at: '2026-05-11T11:57:45Z'
+      status: needs-rework
+    rationale: 'G-categorie: frontmatter regel 54 bevat een ongedecodeërd HTML-entity (&quot;) in het titel-veld van gerelateerde_adviezen. Body is verder inhoudelijk volledig en vrij van extractie-artefacten, maar de HTML-entity maakt de metadata onbetrouwbaar voor downstream verwerking. Laag-1 pass is terecht: geen structurele flags.'
+    status: needs-rework
 themas:
   - liquide middelen
   - thesauriebelegging
@@ -8,56 +58,6 @@ themas:
   - waardering
   - waardering bij jaarafsluiting
   - jaarafsluiting
-bron: https://www.cbn-cnc.be/nl/adviezen/waardering-van-liquide-middelen-bij-de-jaarafsluiting-criterium-voor-de-toerekening-aan
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/waardering-van-liquide-middelen-bij-de-jaarafsluiting-criterium-voor-de-toerekening-aan
-      sha256: 9b228a02403c5f83e9d2b075be3d077a4325cade444337b1ec1b217fd3a814d8
-      version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:34:28Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T11:57:45Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: 'G-categorie: frontmatter regel 54 bevat een ongedecodeërd HTML-entity (&quot;) in het titel-veld van gerelateerde_adviezen. Body is verder inhoudelijk volledig en vrij van extractie-artefacten, maar de HTML-entity maakt de metadata onbetrouwbaar voor downstream verwerking. Laag-1 pass is terecht: geen structurele flags.'
-    layer1:
-      status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 0
-      max_section_chars: 2839
-      file_size_chars: 2839
-      flags: []
-    layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T11:57:45Z'
-      rationale: 'G-categorie: frontmatter regel 54 bevat een ongedecodeërd HTML-entity (&quot;) in het titel-veld van gerelateerde_adviezen. Body is verder inhoudelijk volledig en vrij van extractie-artefacten, maar de HTML-entity maakt de metadata onbetrouwbaar voor downstream verwerking. Laag-1 pass is terecht: geen structurele flags.'
-      concrete_problemen:
-        - regel: 54
-          categorie: G2
-          type: other
-          voorbeeld: '  - titel: Het begrip &quot;financiële instelling&quot;'
-gerelateerde_adviezen:
-  - titel: Waarderen en boeken van cryptomunten gebruikt als betaalmiddel
-    url: https://www.cbn-cnc.be/nl/adviezen/waarderen-en-boeken-van-cryptomunten-gebruikt-als-betaalmiddel
-    datum: '2021-12-06'
-  - titel: Verwerking in de jaarrekening van de door de Vlaamse regering gecreëerde opleidingscheques
-    url: https://www.cbn-cnc.be/nl/adviezen/verwerking-in-de-jaarrekening-van-de-door-de-vlaamse-regering-gecreeerde-opleidingscheques
-    datum: '2008-12-01'
-  - titel: Overheidsfondsen
-    url: https://www.cbn-cnc.be/nl/adviezen/overheidsfondsen
-    datum: '1984-01-01'
-  - titel: Het begrip &quot;financiële instelling&quot;
-    url: https://www.cbn-cnc.be/nl/adviezen/het-begrip-financiele-instelling
-    datum: '1980-01-01'
 ---
 
 # CBN-advies 120/3 - Waardering van liquide middelen bij de jaarafsluiting : criterium voor de toerekening aan een bepaald boekjaar

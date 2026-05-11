@@ -1,6 +1,59 @@
 ---
-nummer: CBN-advies 137/4
+bron: https://www.cbn-cnc.be/nl/adviezen/renteloze-vorderingen-schulden-en-vorderingen-schulden-met-een-abnormaal-lage-rente-op
 datum: 1986-09-01
+gerelateerde_adviezen:
+  - datum: '1993-02-28'
+    titel: Actualisering van vorderingen en schulden op korte termijn (update)
+    url: https://www.cbn-cnc.be/nl/adviezen/actualisering-van-vorderingen-en-schulden-op-korte-termijn-update
+nummer: CBN-advies 137/4
+provenance:
+  generated_at: '2026-05-11T13:05:06Z'
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/renteloze-vorderingen-schulden-en-vorderingen-schulden-met-een-abnormaal-lage-rente-op
+      sha256: 83a65bba87ad55a209a297397675381773d2a0fa8645a76b1147c23efa2f0782
+      version:
+  stale: false
+  stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
+  trust:
+    confirmed_at: '2026-05-11T12:04:41Z'
+    confirmed_by: subagent-sonnet-4-6
+    layer1:
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:26Z'
+      heading_count: 12
+      max_section_chars: 7707
+      file_size_chars: 8375
+      flags: []
+    layer2:
+      agent: subagent-sonnet-4-6
+      concrete_problemen:
+        - categorie: D2
+          regel: 70
+          type: missing-section
+          voorbeeld: '### Renteloze vordering, éénmalig terugbetaalbaar na n jaar\n\n### Vordering met een abnormaal lage rente'
+        - categorie: E2
+          regel: 116
+          type: other
+          voorbeeld: '| | 493 | Over te dragen opbrengsten | | |'
+        - categorie: A6
+          regel: 100
+          type: other
+          voorbeeld: '...als\n\nzodanig geboekt.'
+        - categorie: D2
+          regel: 147
+          type: missing-section
+          voorbeeld: '#### Vaststelling van de actuele waarde en van het disconto\n\n### Actuele waarde...'
+      rationale: 'Meerdere problemen: (1) D2: ### heading ''Renteloze vordering, éénmalig terugbetaalbaar na n jaar'' (regel 70) heeft geen body — de formule ontbreekt volledig, waarschijnlijk een afbeelding in de PDF die niet geëxtraheerd kon worden; zelfde voor headings op regels 72, 76, 80. (2) E2: boekingstabellen (regels 114-125) hebben lege Debet/Credit-cellen — waarden ontbreken. (3) A6: spurious line-break midden in een zin op regels 100-102 (''als \n\n zodanig geboekt''). (4) D2: voorbeeld-sectie (regels 147-175) heeft losstaande berekeningen zonder de bijhorende tabellen die in de PDF stonden.'
+      run_at: '2026-05-11T12:04:41Z'
+      status: needs-rework
+    rationale: 'Meerdere problemen: (1) D2: ### heading ''Renteloze vordering, éénmalig terugbetaalbaar na n jaar'' (regel 70) heeft geen body — de formule ontbreekt volledig, waarschijnlijk een afbeelding in de PDF die niet geëxtraheerd kon worden; zelfde voor headings op regels 72, 76, 80. (2) E2: boekingstabellen (regels 114-125) hebben lege Debet/Credit-cellen — waarden ontbreken. (3) A6: spurious line-break midden in een zin op regels 100-102 (''als \n\n zodanig geboekt''). (4) D2: voorbeeld-sectie (regels 147-175) heeft losstaande berekeningen zonder de bijhorende tabellen die in de PDF stonden.'
+    status: needs-rework
 themas:
   - Vorderingen met een abnormaal lage rente
   - disconto
@@ -10,64 +63,11 @@ themas:
   - schulden
   - schulden met een abnormaal lage rente
   - vordering
-bron: https://www.cbn-cnc.be/nl/adviezen/renteloze-vorderingen-schulden-en-vorderingen-schulden-met-een-abnormaal-lage-rente-op
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/renteloze-vorderingen-schulden-en-vorderingen-schulden-met-een-abnormaal-lage-rente-op
-      sha256: 83a65bba87ad55a209a297397675381773d2a0fa8645a76b1147c23efa2f0782
-      version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:34:59Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T12:04:41Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "Meerdere problemen: (1) D2: ### heading 'Renteloze vordering, éénmalig terugbetaalbaar na n jaar' (regel 70) heeft geen body — de formule ontbreekt volledig, waarschijnlijk een afbeelding in de PDF die niet geëxtraheerd kon worden; zelfde voor headings op regels 72, 76, 80. (2) E2: boekingstabellen (regels 114-125) hebben lege Debet/Credit-cellen — waarden ontbreken. (3) A6: spurious line-break midden in een zin op regels 100-102 ('als \\n\\n zodanig geboekt'). (4) D2: voorbeeld-sectie (regels 147-175) heeft losstaande berekeningen zonder de bijhorende tabellen die in de PDF stonden."
-    layer1:
-      status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 14
-      max_section_chars: 7718
-      file_size_chars: 8386
-      flags: []
-    layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:04:41Z'
-      rationale: "Meerdere problemen: (1) D2: ### heading 'Renteloze vordering, éénmalig terugbetaalbaar na n jaar' (regel 70) heeft geen body — de formule ontbreekt volledig, waarschijnlijk een afbeelding in de PDF die niet geëxtraheerd kon worden; zelfde voor headings op regels 72, 76, 80. (2) E2: boekingstabellen (regels 114-125) hebben lege Debet/Credit-cellen — waarden ontbreken. (3) A6: spurious line-break midden in een zin op regels 100-102 ('als \\n\\n zodanig geboekt'). (4) D2: voorbeeld-sectie (regels 147-175) heeft losstaande berekeningen zonder de bijhorende tabellen die in de PDF stonden."
-      concrete_problemen:
-        - regel: 70
-          categorie: D2
-          type: missing-section
-          voorbeeld: '### Renteloze vordering, éénmalig terugbetaalbaar na n jaar\n\n### Vordering met een abnormaal lage rente'
-        - regel: 116
-          categorie: E2
-          type: other
-          voorbeeld: '| | 493 | Over te dragen opbrengsten | | |'
-        - regel: 100
-          categorie: A6
-          type: other
-          voorbeeld: '...als\n\nzodanig geboekt.'
-        - regel: 147
-          categorie: D2
-          type: missing-section
-          voorbeeld: '#### Vaststelling van de actuele waarde en van het disconto\n\n### Actuele waarde...'
-gerelateerde_adviezen:
-  - titel: Actualisering van vorderingen en schulden op korte termijn (update)
-    url: https://www.cbn-cnc.be/nl/adviezen/actualisering-van-vorderingen-en-schulden-op-korte-termijn-update
-    datum: '1993-02-28'
 ---
 
 # CBN-advies 137/4 - Renteloze vorderingen (schulden) en vorderingen (schulden) met een abnormaal lage rente, op meer dan één jaar
 
-Overeenkomstig artikel 27*bis*, § 2, eerste lid, *litt*. c) van het koninklijk besluit van 8 oktober 1976 wordt bij boeking voor haar nominale waarde van een vordering op meer dan één jaar, een disconto geboekt wanneer het gaat om een renteloze vordering of een vordering met een abnormaal lage rente. Dit disconto wordt in de overlopende rekeningen van het passief geboekt en pro rata temporis in resultaat genomen.
+Overeenkomstig artikel 27*bis*, § 2, eerste lid,* litt*. c) van het koninklijk besluit van 8 oktober 1976 wordt bij boeking voor haar nominale waarde van een vordering op meer dan één jaar, een disconto geboekt wanneer het gaat om een renteloze vordering of een vordering met een abnormaal lage rente. Dit disconto wordt in de overlopende rekeningen van het passief geboekt en pro rata temporis in resultaat genomen.
 
 Artikel 27*bis*, § 4, stelt dat deze bepaling op overeenkomstige wijze van toepassing is op de renteloze schulden en schulden met een abnormaal lage rente op meer dan één jaar. 
 
@@ -85,16 +85,14 @@ In dit advies wordt enkel ingegaan op de boekhoudtechnische implicaties terzake.
 
 ### Renteloze vordering, éénmalig terugbetaalbaar na n jaar 
 
-### Vordering met een abnormaal lage rente (i'), éénmalig terugbetaalbaar na n jaar.
-
+Vordering met een abnormaal lage rente (i'), éénmalig terugbetaalbaar na n jaar.
 De actuele waarde is hier gelijk aan het totaal van de geactualiseerde waarde van de vordering op de vervaldag en de actuele waarde van een annuïteit overeenstemmend met de rentevergoeding :
 
 ### Vordering terugbetaalbaar via vaste annuïteiten 
 
 De actuele waarde van de vordering is gelijk aan de geactualiseerde waarde van de annuïteiten, ongeacht de vordering renteloos of tegen een abnormaal lage rente is aangegaan.
 
-### Renteloze vordering of vordering met een abnormaal lage rente, terugbetaalbaar anders dan op vaste termijn of tegen constante annuïteiten 
-
+Renteloze vordering of vordering met een abnormaal lage rente, terugbetaalbaar anders dan op vaste termijn of tegen constante annuïteiten
 In dit geval dienen alle kasstromen (V1 ... Vk) afzonderlijk te worden geactualiseerd tegen de marktrente naar hun respectievelijke looptijden (n 1 ... n k). Hun som geeft de actuele waarde van de vordering weer. 
 
 Wanneer de resterende looptijd van de vordering niet in volle jaren is uitgedrukt, bestaat de factor "n" uit een decimale fractie van een jaar. Het is een gangbare praktijk in dergelijk geval de actuele waarde zoals berekend voor een volledig jaar te vermenigvuldigen met 1 / (1 + i)t.

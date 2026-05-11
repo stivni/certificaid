@@ -1,6 +1,62 @@
 ---
-nummer: CBN-advies 173/5
+bron: https://www.cbn-cnc.be/nl/adviezen/toelichting-bij-de-boekhoudkundige-verwerking-van-termijnwisselverrichtingen-tussen-de
 datum: 1998-02-01
+gerelateerde_adviezen:
+  - datum: '1998-02-01'
+    titel: 'Vervroegde vaststelling van de bilaterale wisselkoersen in mei 1998 : gevolgen voor het advies nr. 173/1 : «Overschakeling op de euro : boekhoudrechtelijke aspecten»'
+    url: https://www.cbn-cnc.be/nl/adviezen/vervroegde-vaststelling-van-de-bilaterale-wisselkoersen-in-mei-1998-gevolgen-voor-het
+  - datum: '1998-02-01'
+    titel: Overschakeling op de euro - Aspecten in verband met de geconsolideerde jaarrekening
+    url: https://www.cbn-cnc.be/nl/adviezen/overschakeling-op-de-euro-aspecten-in-verband-met-de-geconsolideerde-jaarrekening
+nummer: CBN-advies 173/5
+provenance:
+  generated_at: '2026-05-11T13:05:06Z'
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/toelichting-bij-de-boekhoudkundige-verwerking-van-termijnwisselverrichtingen-tussen-de
+      sha256: 1590a40d3e4a3e9423ec4a2ad25bbb84ad2d65d6c11eee4f0d14b9d61cfb9337
+      version:
+  stale: false
+  stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
+  trust:
+    confirmed_at: '2026-05-11T12:09:17Z'
+    confirmed_by: subagent-sonnet-4-6
+    layer1:
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:26Z'
+      heading_count: 3
+      max_section_chars: 7318
+      file_size_chars: 11729
+      flags: []
+    layer2:
+      agent: subagent-sonnet-4-6
+      concrete_problemen:
+        - categorie: F1
+          regel: 12
+          type: other
+          voorbeeld: '- termijnaanko (afgekapt thema-label in frontmatter)'
+        - categorie: A8
+          regel: 119
+          type: column-bleed
+          voorbeeld: A la conclusion de cette opération au premier avril 1998
+        - categorie: C3
+          regel: 162
+          type: pseudo-table
+          voorbeeld: '| 60.000 | | 47.872,3\n\t\t\t15.000 |'
+        - categorie: D1
+          regel: 180
+          type: abrupt-cutoff
+          voorbeeld: '[^4]: ...de Commissie, conform voetnoot (definitie onvolledig)'
+      rationale: 'Vier problemen: (1) A8/kolom-bleed: op r.119 staat een Franse zin ''A la conclusion de cette opération au premier avril 1998'' als plain-text regel, vermoedelijk een fragment uit de tweetalige bron dat niet is weggefilterd. (2) C3: de resultatenrekening-samenvatting op r.162-168 is geen geldige markdown-tabel maar een defecte pipe-reeks met inline tabs (r.165 toont ingesprongen ''15.000 |''). (3) D4: voetnoot [^4] definitie op r.180 eindigt abrupt met ''conform voetnoot'' zonder verdere tekst — de inhoud is weggesneden. (4) Frontmatter-thema ''termijnaanko'' is afgekapt (r.12).'
+      run_at: '2026-05-11T12:09:17Z'
+      status: needs-rework
+    rationale: 'Vier problemen: (1) A8/kolom-bleed: op r.119 staat een Franse zin ''A la conclusion de cette opération au premier avril 1998'' als plain-text regel, vermoedelijk een fragment uit de tweetalige bron dat niet is weggefilterd. (2) C3: de resultatenrekening-samenvatting op r.162-168 is geen geldige markdown-tabel maar een defecte pipe-reeks met inline tabs (r.165 toont ingesprongen ''15.000 |''). (3) D4: voetnoot [^4] definitie op r.180 eindigt abrupt met ''conform voetnoot'' zonder verdere tekst — de inhoud is weggesneden. (4) Frontmatter-thema ''termijnaanko'' is afgekapt (r.12).'
+    status: needs-rework
 themas:
   - bilaterale wisselkoersen
   - contantrentevoet
@@ -18,71 +74,13 @@ themas:
   - bilaterale wisselkoersen
   - contantrentevoet
   - contantwisselkoers
-bron: https://www.cbn-cnc.be/nl/adviezen/toelichting-bij-de-boekhoudkundige-verwerking-van-termijnwisselverrichtingen-tussen-de
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/toelichting-bij-de-boekhoudkundige-verwerking-van-termijnwisselverrichtingen-tussen-de
-      sha256: 1590a40d3e4a3e9423ec4a2ad25bbb84ad2d65d6c11eee4f0d14b9d61cfb9337
-      version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:35:40Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T12:09:17Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "Vier problemen: (1) A8/kolom-bleed: op r.119 staat een Franse zin 'A la conclusion de cette opération au premier avril 1998' als plain-text regel, vermoedelijk een fragment uit de tweetalige bron dat niet is weggefilterd. (2) C3: de resultatenrekening-samenvatting op r.162-168 is geen geldige markdown-tabel maar een defecte pipe-reeks met inline tabs (r.165 toont ingesprongen '15.000 |'). (3) D4: voetnoot [^4] definitie op r.180 eindigt abrupt met 'conform voetnoot' zonder verdere tekst — de inhoud is weggesneden. (4) Frontmatter-thema 'termijnaanko' is afgekapt (r.12)."
-    layer1:
-      status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 3
-      max_section_chars: 7319
-      file_size_chars: 11730
-      flags: []
-    layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:09:17Z'
-      rationale: "Vier problemen: (1) A8/kolom-bleed: op r.119 staat een Franse zin 'A la conclusion de cette opération au premier avril 1998' als plain-text regel, vermoedelijk een fragment uit de tweetalige bron dat niet is weggefilterd. (2) C3: de resultatenrekening-samenvatting op r.162-168 is geen geldige markdown-tabel maar een defecte pipe-reeks met inline tabs (r.165 toont ingesprongen '15.000 |'). (3) D4: voetnoot [^4] definitie op r.180 eindigt abrupt met 'conform voetnoot' zonder verdere tekst — de inhoud is weggesneden. (4) Frontmatter-thema 'termijnaanko' is afgekapt (r.12)."
-      concrete_problemen:
-        - regel: 12
-          categorie: F1
-          type: other
-          voorbeeld: '- termijnaanko (afgekapt thema-label in frontmatter)'
-        - regel: 119
-          categorie: A8
-          type: column-bleed
-          voorbeeld: A la conclusion de cette opération au premier avril 1998
-        - regel: 162
-          categorie: C3
-          type: pseudo-table
-          voorbeeld: '| 60.000 | | 47.872,3\n\t\t\t15.000 |'
-        - regel: 180
-          categorie: D1
-          type: abrupt-cutoff
-          voorbeeld: '[^4]: ...de Commissie, conform voetnoot (definitie onvolledig)'
-gerelateerde_adviezen:
-  - titel: 'Vervroegde vaststelling van de bilaterale wisselkoersen in mei 1998 : gevolgen voor het advies nr. 173/1 : «Overschakeling op de euro : boekhoudrechtelijke aspecten»'
-    url: https://www.cbn-cnc.be/nl/adviezen/vervroegde-vaststelling-van-de-bilaterale-wisselkoersen-in-mei-1998-gevolgen-voor-het
-    datum: '1998-02-01'
-  - titel: Overschakeling op de euro - Aspecten in verband met de geconsolideerde jaarrekening
-    url: https://www.cbn-cnc.be/nl/adviezen/overschakeling-op-de-euro-aspecten-in-verband-met-de-geconsolideerde-jaarrekening
-    datum: '1998-02-01'
 ---
 
 # CBN-advies 173/5 - Toelichting bij de boekhoudkundige verwerking van termijnwisselverrichtingen tussen de munten van Lid-Staten van de Muntunie
 
-Gelet op de vragen en opmerkingen over de laatste twee leden van punt D.4. van advies 173/1[^1]
- over termijnwisselverrichtingen tussen munten van de Lid-Staten van de Muntunie, leek het opportuun om, net als in het (in bulletin nr. 20 gepubliceerde) advies 152/1 over verrichtingen, tegoeden en verplichtingen in deviezen, bij de verwerking van termijnverrichtingen, een duidelijker onderscheid te maken tussen, enerzijds, de component «contantwisselkoers» en, anderzijds, de component «rente» die het report/ deport vormt. Die twee leden dienen te worden vervangen door de volgende tekst : 
+Gelet op de vragen en opmerkingen over de laatste twee leden van punt D.4. van advies 173/1[^1] over termijnwisselverrichtingen tussen munten van de Lid-Staten van de Muntunie, leek het opportuun om, net als in het (in bulletin nr. 20 gepubliceerde) advies 152/1 over verrichtingen, tegoeden en verplichtingen in deviezen, bij de verwerking van termijnverrichtingen, een duidelijker onderscheid te maken tussen, enerzijds, de component «contantwisselkoers» en, anderzijds, de component «rente» die het report/ deport vormt. Die twee leden dienen te worden vervangen door de volgende tekst : 
 
-«Ook werd de vraag gesteld of het niet-gelopen gedeelte van de «rente» die het report/deport vormt[^2]
-onmiddellijk in resultaat moet worden genomen dan wel pro rata temporis gespreid over de resternde looptijd van het termijnwisselcontract. 
+«Ook werd de vraag gesteld of het niet-gelopen gedeelte van de «rente» die het report/deport vormt[^2] onmiddellijk in resultaat moet worden genomen dan wel pro rata temporis gespreid over de resternde looptijd van het termijnwisselcontract. 
 
 Door de vaststelling van de omrekeningskoersen van de betrokken munten verdwijnt, vanaf 1 januari 1999, elk later wisselrisico en wordt de component «contantwisselkoers» van de termijnverrichting bijgevolg definitief vastgelegd. Het wisselverschil is definitief verworven en moet, ongeacht of het positief dan wel negatief is, in resultaat worden genomen in de boekhouding eind 1998. 
 
@@ -175,7 +173,7 @@ De invloed van de voornoemde termijnwisselverrichting op de door de betrokken on
 
 Dit komt neer op een totaalresultaat (met inbegrip van de samenstellende delen «wissel» en «rente») van (12.127,7) dat in resultaat moet worden genomen : 
 
-| **RESULTATENREKENING OP 31/12/1998 ** | 
+| **RESULTATENREKENING OP 31/12/1998**  | 
 | 60.000 | | 47.872,3 
 
 			15.000 | 

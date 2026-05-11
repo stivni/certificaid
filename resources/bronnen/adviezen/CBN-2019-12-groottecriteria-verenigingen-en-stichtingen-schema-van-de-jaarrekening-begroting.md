@@ -1,6 +1,52 @@
 ---
-nummer: CBN-advies 2019/12
+bron: https://www.cbn-cnc.be/nl/adviezen/groottecriteria-verenigingen-en-stichtingen-schema-van-de-jaarrekening-begroting
 datum: 2019-11-06
+gerelateerde_adviezen:
+  - datum: '2025-07-14'
+    titel: Groottecriteria verenigingen en stichtingen - schema van de jaarrekening – begroting (update) [ONTWERP]
+    url: https://www.cbn-cnc.be/nl/adviezen/groottecriteria-verenigingen-en-stichtingen-schema-van-de-jaarrekening-begroting-update
+  - datum: '2025-07-16'
+    titel: Beoordeling van de groottecriteria overeenkomstig artikelen 1:24 en 1:25 van het Wetboek van vennootschappen en verenigingen (update) [ONTWERP]
+    url: https://www.cbn-cnc.be/nl/adviezen/beoordeling-van-de-groottecriteria-overeenkomstig-artikelen-124-en-125-van-het-wetboek-0
+  - datum: '2024-09-19'
+    titel: Gevolgen verhoging groottecriteria voor (I)VZW’s en stichtingen
+    url: https://www.cbn-cnc.be/nl/adviezen/gevolgen-verhoging-groottecriteria-voor-ivzws-en-stichtingen
+  - datum: '2024-09-19'
+    titel: Gevolgen verhoging groottecriteria voor vennootschappen
+    url: https://www.cbn-cnc.be/nl/adviezen/gevolgen-verhoging-groottecriteria-voor-vennootschappen
+nummer: CBN-advies 2019/12
+provenance:
+  generated_at: '2026-05-11T13:05:08Z'
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/groottecriteria-verenigingen-en-stichtingen-schema-van-de-jaarrekening-begroting
+      sha256: 52bbb3f0bad6eab43de279dab9b10784e68d1b580b429143c7d60413ab061c56
+      version:
+  stale: false
+  stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
+  trust:
+    confirmed_at:
+    confirmed_by:
+    layer1:
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:30Z'
+      heading_count: 23
+      max_section_chars: 13188
+      file_size_chars: 23875
+      flags: []
+    layer2:
+      agent:
+      concrete_problemen: []
+      rationale:
+      run_at:
+      status: not_run
+    rationale: 'Trust gereset 2026-05-11: re-scrape met scraper-fixes, content-diff > 5%'
+    status: unreviewed
 themas:
   - groottecriteria
   - verenigingen en stichtingen
@@ -19,56 +65,6 @@ themas:
   - jokeradvies
   - vereniging
   - stichting
-bron: https://www.cbn-cnc.be/nl/adviezen/groottecriteria-verenigingen-en-stichtingen-schema-van-de-jaarrekening-begroting
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/groottecriteria-verenigingen-en-stichtingen-schema-van-de-jaarrekening-begroting
-      sha256: 52bbb3f0bad6eab43de279dab9b10784e68d1b580b429143c7d60413ab061c56
-      version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:37:43Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: trusted
-    confirmed_at: '2026-05-11T12:21:40Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "Inhoud volledig en goed gestructureerd. Kleine cosmetische onnauwkeurigheid: de 'Schematische voorstelling'-sectie (regels 250-255) bevat drie plain-text regels die de structuur van de bijlagen weergeven, maar dit is inhoudelijk bedoeld als opsomming, niet als headings. Geen structurele extractie-artefacten."
-    layer1:
-      status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 20
-      max_section_chars: 13183
-      file_size_chars: 23867
-      flags: []
-    layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:21:40Z'
-      rationale: "Inhoud volledig en goed gestructureerd. Kleine cosmetische onnauwkeurigheid: de 'Schematische voorstelling'-sectie (regels 250-255) bevat drie plain-text regels die de structuur van de bijlagen weergeven, maar dit is inhoudelijk bedoeld als opsomming, niet als headings. Geen structurele extractie-artefacten."
-      concrete_problemen:
-        - regel: 251
-          categorie: C2
-          type: other
-          voorbeeld: 'Volledig schema van de jaarrekening: Bijlage 6 bij het KB WVV'
-gerelateerde_adviezen:
-  - titel: Groottecriteria verenigingen en stichtingen - schema van de jaarrekening – begroting (update) [ONTWERP]
-    url: https://www.cbn-cnc.be/nl/adviezen/groottecriteria-verenigingen-en-stichtingen-schema-van-de-jaarrekening-begroting-update
-    datum: '2025-07-14'
-  - titel: Beoordeling van de groottecriteria overeenkomstig artikelen 1:24 en 1:25 van het Wetboek van vennootschappen en verenigingen (update) [ONTWERP]
-    url: https://www.cbn-cnc.be/nl/adviezen/beoordeling-van-de-groottecriteria-overeenkomstig-artikelen-124-en-125-van-het-wetboek-0
-    datum: '2025-07-16'
-  - titel: Gevolgen verhoging groottecriteria voor (I)VZW’s en stichtingen
-    url: https://www.cbn-cnc.be/nl/adviezen/gevolgen-verhoging-groottecriteria-voor-ivzws-en-stichtingen
-    datum: '2024-09-19'
-  - titel: Gevolgen verhoging groottecriteria voor vennootschappen
-    url: https://www.cbn-cnc.be/nl/adviezen/gevolgen-verhoging-groottecriteria-voor-vennootschappen
-    datum: '2024-09-19'
 ---
 
 # CBN-advies 2019/12 – Groottecriteria verenigingen en stichtingen - schema van de jaarrekening - begroting
@@ -109,7 +105,8 @@ De Commissie benadrukt dat een vzw nooit een geconsolideerde jaarrekening moet o
 
 Het jaargemiddelde van het personeelsbestand is één van de criteria vermeld in artikel 1:28 WVV.
 
-De Commissie merkt op dat sedert de inwerkingtreding van het WVV niet langer de determinerende grens van 100 werknemers van toepassing is ter beoordeling of een vzw een jaarrekening moet opstellen en neerleggen volgens het volledig schema.[^10] Ook hier is er aldus een harmonisering met wat geldt voor vennootschappen. Voor vennootschappen werd deze determinerende grens van 100 werknemers geschrapt door de wet van 18 december 2015 tot omzetting van de Richtlijn 2013/34/EU van 26 juni 2013 van het Europees Parlement en van de Raad betreffende de jaarlijkse financiële overzichten, geconsolideerde financiële overzichten en aanverwante verslagen van bepaalde ondernemingsvormen, tot wijziging van Richtlijn 2006/43/EG van het Europees Parlement en de Raad en tot intrekking van Richtlijnen 78/660/EEG van de Raad.
+De Commissie merkt op dat sedert de inwerkingtreding van het WVV niet langer de determinerende grens van 100 werknemers van toepassing is ter beoordeling of een vzw een jaarrekening moet opstellen en neerleggen volgens het volledig schema.[^10]
+ Ook hier is er aldus een harmonisering met wat geldt voor vennootschappen. Voor vennootschappen werd deze determinerende grens van 100 werknemers geschrapt door de wet van 18 december 2015 tot omzetting van de Richtlijn 2013/34/EU van 26 juni 2013 van het Europees Parlement en van de Raad betreffende de jaarlijkse financiële overzichten, geconsolideerde financiële overzichten en aanverwante verslagen van bepaalde ondernemingsvormen, tot wijziging van Richtlijn 2006/43/EG van het Europees Parlement en de Raad en tot intrekking van Richtlijnen 78/660/EEG van de Raad.
 
 #### Berekeningswijze van het personeelsbestand
 
@@ -123,20 +120,18 @@ Het aantal voltijdse equivalenten is gelijk aan het arbeidsvolume teruggebracht 
 
 #### Algemene regel
 
-Artikel 3:172, I.A. van het uitvoeringsbesluit bij het WVV omschrijft *omzet[^13] *als het bedrag van de verkoop van goederen en de levering van diensten aan derden, in het kader van de gewone bedrijfsuitoefening van de vzw, ivzw of stichting, onder aftrek van de op de verkoopprijs in de handel toegestane kortingen (afslag, ristorno, rabat). Dit bedrag omvat niet de belasting over de toegevoegde waarde, noch enige andere rechtstreeks met de omzet verbonden belasting. Onder omzet worden bijgevolg onder meer opgenomen: de tegemoetkomingen van de overheid in het kader van een al dan niet forfaitaire tariferingspolitiek als compensatie voor lagere ontvangsten.
+Artikel 3:172, I.A. van het uitvoeringsbesluit bij het WVV omschrijft *omzet[^13]* als het bedrag van de verkoop van goederen en de levering van diensten aan derden, in het kader van de gewone bedrijfsuitoefening van de vzw, ivzw of stichting, onder aftrek van de op de verkoopprijs in de handel toegestane kortingen (afslag, ristorno, rabat). Dit bedrag omvat niet de belasting over de toegevoegde waarde, noch enige andere rechtstreeks met de omzet verbonden belasting. Onder omzet worden bijgevolg onder meer opgenomen: de tegemoetkomingen van de overheid in het kader van een al dan niet forfaitaire tariferingspolitiek als compensatie voor lagere ontvangsten.
 
-De M.A.R.[^14] voorziet binnen de rubriek 70 *Omzet *de volgende onderverdeling:
+De M.A.R.[^14] voorziet binnen de rubriek 70 *Omzet* de volgende onderverdeling:
 
 700 *Verkopen en dienstprestaties* 
 
 708 *Toegekende kortingen, ristorno’s en rabatten (-)*
 
-*Voorbeeld*
+### *Voorbeeld*
 
 De resultatenrekening bevat de volgende gegevens:
-
-- omzet: 3.300.000 euro; 
-
+- omzet: 3.300.000 euro;
 - andere bedrijfsopbrengsten: 200.000 euro; 
 
 - financiële opbrengsten: 700.000 euro; en 
@@ -144,21 +139,19 @@ De resultatenrekening bevat de volgende gegevens:
 - niet-recurrente financiële opbrengsten: 550.000 euro.
 
 Volgens de algemene regel, vervat in artikel 3:172, I.A. KB WVV, bedraagt de omzet 3.300.000 euro.
-
 #### Afwijkende regeling
 
-Wanneer de opbrengsten die voortspruiten uit het gewoon bedrijf van een vzw voor meer dan de helft bestaan uit opbrengsten die niet beantwoorden aan de omschrijving van de post “Omzet” moet voor de beoordeling van de grootte van een vzw onder “Omzet” worden verstaan: het totaal van de bedrijfs- en financiële opbrengsten met uitsluiting van de niet-recurrente opbrengsten.[^15] Met recurrent wordt bedoeld dat het gaat om courant voorkomende opbrengsten voor de betrokken vzw die dus niet uitzonderlijk zijn. Met andere woorden, alle opbrengsten die worden geboekt op de subrekeningen van de rekeningen 70, 71, 72, 73, 74 en 75.
+Wanneer de opbrengsten die voortspruiten uit het gewoon bedrijf van een vzw voor meer dan de helft bestaan uit opbrengsten die niet beantwoorden aan de omschrijving van de post “Omzet” moet voor de beoordeling van de grootte van een vzw onder “Omzet” worden verstaan: het totaal van de bedrijfs- en financiële opbrengsten met uitsluiting van de niet-recurrente opbrengsten.[^15]
+ Met recurrent wordt bedoeld dat het gaat om courant voorkomende opbrengsten voor de betrokken vzw die dus niet uitzonderlijk zijn. Met andere woorden, alle opbrengsten die worden geboekt op de subrekeningen van de rekeningen 70, 71, 72, 73, 74 en 75.
 
 Wat de bedrijfsopbrengsten, met uitzondering van de niet-recurrente bedrijfsopbrengsten, betreft, houdt dit in, dat voor de afwijkende regeling naast de klassieke omzet tevens de toename of afname van de voorraad goederen in bewerking, gereed product, onroerende goederen bestemd voor verkoop en bestellingen in uitvoering in rekening moet worden gebracht samen met de geactiveerde intern geproduceerde vaste activa, de lidgelden, schenkingen, legaten, subsidies en de overige bedrijfsopbrengsten.
 
 Wat de financiële opbrengsten, met uitzondering van de niet-recurrente financiële opbrengsten, betreft, worden voor de afwijkende regeling hieronder tevens de “Diverse financiële opbrengsten” begrepen en bestaan zij onder meer uit de meerwaarden verwezenlijkt bij de realisatie van vorderingen, andere dan handelsvorderingen, van geldbeleggingen en van liquide middelen, de als opbrengst geboekte kapitaal- en interestsubsidies, de wisselresultaten en de resultaten uit de omrekening van vreemde valuta tenzij deze specifiek verbonden zijn met een andere post van de resultatenrekening, in welk geval ze onder die post mogen worden opgenomen, en alle opbrengsten van financiële aard, die geen verband houden met welbepaalde activa.
 
-*Voorbeeld*
+### *Voorbeeld*
 
 Uit de resultatenrekening blijken de volgende cijfers:
-
-- omzet: 300.000 euro; 
-
+- omzet: 300.000 euro;
 - andere bedrijfsopbrengsten (met uitzondering van de niet-recurrente): 850.000 euro; 
 
 - financiële opbrengsten (met uitzondering van de niet-recurrente): 270.000 euro; en 
@@ -166,10 +159,10 @@ Uit de resultatenrekening blijken de volgende cijfers:
 - niet-recurrente financiële en bedrijfsopbrengsten: 550.000 euro.
 
 De eerste drie posten komen voort uit het gewoon bedrijf van de vzw. Samen vormen zij een totaal van 1.420.000 euro, waarvan meer dan de helft is samengesteld door opbrengsten buiten “Omzet” (omzet in de zin van artikel 3:172, I.A. KB WVV). In dit geval wordt voor de toepassing van de artikelen 1:28 en 1:29 WVV het cijfer van 1.420.000[^16] euro als omzet beschouwd.
-
 #### Duur van het boekjaar van meer of minder dan twaalf maanden
 
-In de regel heeft een boekjaar een duur van twaalf maanden. Het ontbreken van een expliciete toelating dat een boekjaar uit meer of minder dan twaalf maanden kan bestaan, getuigt er volgens de Commissie van dat de wetgever zich ertegen verzet dat het boekjaar stelselmatig een duur zou hebben die verschilt van twaalf maanden. Een uitzonderlijke verlenging of verkorting van het boekjaar tot een duur van meer of minder dan twaalf maanden kan geoorloofd zijn.[^17] De duur van een boekjaar kan evenwel nooit langer zijn dan vierentwintig maanden min één kalenderdag.[^18] 
+In de regel heeft een boekjaar een duur van twaalf maanden. Het ontbreken van een expliciete toelating dat een boekjaar uit meer of minder dan twaalf maanden kan bestaan, getuigt er volgens de Commissie van dat de wetgever zich ertegen verzet dat het boekjaar stelselmatig een duur zou hebben die verschilt van twaalf maanden. Een uitzonderlijke verlenging of verkorting van het boekjaar tot een duur van meer of minder dan twaalf maanden kan geoorloofd zijn.[^17]
+ De duur van een boekjaar kan evenwel nooit langer zijn dan vierentwintig maanden min één kalenderdag.[^18] 
 
 Indien een boekjaar aldus uitzonderlijk een duur van minder of meer dan twaalf maanden heeft, wordt, voor de beoordeling van het omzetcriterium, het bedrag van de omzet vermenigvuldigd met een breuk waarvan de noemer twaalf is en de teller het aantal maanden van het boekjaar, waarbij elke begonnen[^19] maand voor een volle maand wordt geteld.[^20] 
 
@@ -198,7 +191,8 @@ Kleine vzw’s, met inbegrip van de micro-vzw’s, die op de balansdatum van het
 3. In totaal 1.337.000 euro aan bezittingen; 
 4. In totaal 1.337.000 euro aan schulden. 
 
-Het voeren van een vereenvoudigde boekhouding is een optie die door het bestuursorgaan ieder jaar kan worden gelicht mits aan voormelde voorwaarde is voldaan en dit ongeacht welke boekhouding het jaar voordien werd gevoerd.[^24] Deze categorie van vzw’s en stichtingen dient dus geen boekhouding te voeren conform de principes van de dubbele boekhouding.
+Het voeren van een vereenvoudigde boekhouding is een optie die door het bestuursorgaan ieder jaar kan worden gelicht mits aan voormelde voorwaarde is voldaan en dit ongeacht welke boekhouding het jaar voordien werd gevoerd.[^24]
+ Deze categorie van vzw’s en stichtingen dient dus geen boekhouding te voeren conform de principes van de dubbele boekhouding.
 
 ## Vorm van de jaarrekening
 
@@ -208,7 +202,9 @@ De vzw’s die een dubbele boekhouding voeren, gebruiken het schema van de balan
 
 ## Neerlegging van de jaarrekening
 
-De jaarrekening van de vzw moet binnen de dertig dagen na haar goedkeuring worden neergelegd door de bestuurders met het oog op de opname ervan in het verenigingsdossier.[^27] Het verenigingsdossier wordt gehouden op de griffie van de ondernemingsrechtbank van de zetel van de vzw.[^28] De jaarrekening wordt ontvangen op voormelde griffie hetzij rechtstreeks, hetzij middels tussenkomst van de Nationale Bank van België. Hierna verduidelijkt de Commissie op welke wijze deze neerlegging geschiedt. De wijze van neerlegging is afhankelijk van de grootte van de vzw.
+De jaarrekening van de vzw moet binnen de dertig dagen na haar goedkeuring worden neergelegd door de bestuurders met het oog op de opname ervan in het verenigingsdossier.[^27]
+ Het verenigingsdossier wordt gehouden op de griffie van de ondernemingsrechtbank van de zetel van de vzw.[^28]
+ De jaarrekening wordt ontvangen op voormelde griffie hetzij rechtstreeks, hetzij middels tussenkomst van de Nationale Bank van België. Hierna verduidelijkt de Commissie op welke wijze deze neerlegging geschiedt. De wijze van neerlegging is afhankelijk van de grootte van de vzw.
 
 **Bij de griffie**
 
@@ -223,7 +219,7 @@ Indien een vzw ervoor kiest om een dubbele boekhouding te voeren hoewel deze de 
 
 De bestuursorganen van de hier bedoelde vzw’s zijn niet verplicht om een jaarverslag op te stellen.[^30] 
 
-**Bij de Nationale Bank van België**
+## Bij de Nationale Bank van België
 
 De jaarrekening moet bij de Nationale Bank van België worden neergelegd indien op de balansdatum van het laatst afgesloten boekjaar meer dan één van de volgende criteria worden overschreden:
 
@@ -238,9 +234,12 @@ De bestuursorganen van de vzw’s die geen kleine vzw zijn zoals gedefinieerd in
 
 ## Financieel plan - begroting
 
-De oprichters van een besloten vennootschap, een coöperatieve vennootschap of een naamloze vennootschap moeten vóór de oprichting een financieel plan overhandigen aan de bij de oprichting optredende notaris waarin zij het bedrag van het aanvangsvermogen verantwoorden in het licht van de voorgenomen bedrijvigheid van de vennootschap over een periode van ten minste twee jaar.[^33] Er bestaat geen equivalente verplichting voor de oprichting van een vzw.
+De oprichters van een besloten vennootschap, een coöperatieve vennootschap of een naamloze vennootschap moeten vóór de oprichting een financieel plan overhandigen aan de bij de oprichting optredende notaris waarin zij het bedrag van het aanvangsvermogen verantwoorden in het licht van de voorgenomen bedrijvigheid van de vennootschap over een periode van ten minste twee jaar.[^33]
+ Er bestaat geen equivalente verplichting voor de oprichting van een vzw.
 
-Niettemin moet iedere vzw jaarlijks een begroting opmaken. Deze begroting moet binnen de zes maanden te rekenen vanaf de balansdatum van het laatst afgesloten boekjaar ter goedkeuring worden voorgelegd aan de algemene vergadering.[^34] Er gelden geen vormvoorschriften voor de opmaak van deze begroting. De Commissie merkt op dat het bestuursorgaan van iedere vzw, ongeacht haar grootte, tijdens de gewone algemene vergadering de financiële toestand en de uitvoering van de begroting moet toelichten.[^35] Het kan hiervoor nuttig zijn dat de begroting in dezelfde vorm opgemaakt wordt als de jaarrekening van de vzw. 
+Niettemin moet iedere vzw jaarlijks een begroting opmaken. Deze begroting moet binnen de zes maanden te rekenen vanaf de balansdatum van het laatst afgesloten boekjaar ter goedkeuring worden voorgelegd aan de algemene vergadering.[^34]
+ Er gelden geen vormvoorschriften voor de opmaak van deze begroting. De Commissie merkt op dat het bestuursorgaan van iedere vzw, ongeacht haar grootte, tijdens de gewone algemene vergadering de financiële toestand en de uitvoering van de begroting moet toelichten.[^35]
+ Het kan hiervoor nuttig zijn dat de begroting in dezelfde vorm opgemaakt wordt als de jaarrekening van de vzw. 
 
 ## Voorbeelden
 

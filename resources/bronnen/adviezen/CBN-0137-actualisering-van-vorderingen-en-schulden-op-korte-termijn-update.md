@@ -1,6 +1,51 @@
 ---
-nummer: CBN-advies 137/9
+bron: https://www.cbn-cnc.be/nl/adviezen/actualisering-van-vorderingen-en-schulden-op-korte-termijn-update
 datum: 1993-02-28
+gerelateerde_adviezen:
+  - datum: '1986-09-01'
+    titel: Renteloze vorderingen (schulden) en vorderingen (schulden) met een abnormaal lage rente, op meer dan één jaar
+    url: https://www.cbn-cnc.be/nl/adviezen/renteloze-vorderingen-schulden-en-vorderingen-schulden-met-een-abnormaal-lage-rente-op
+nummer: CBN-advies 137/9
+provenance:
+  generated_at: '2026-05-11T13:05:06Z'
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/actualisering-van-vorderingen-en-schulden-op-korte-termijn-update
+      sha256: f80fc19159bc3be038cb0b293c47843b630ae221af7b778a1e39123a9f3af147
+      version:
+  stale: false
+  stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
+  trust:
+    confirmed_at: '2026-05-11T12:04:41Z'
+    confirmed_by: subagent-sonnet-4-6
+    layer1:
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:26Z'
+      heading_count: 0
+      max_section_chars: 1759
+      file_size_chars: 1759
+      flags: []
+    layer2:
+      agent: subagent-sonnet-4-6
+      concrete_problemen:
+        - categorie: B3
+          regel: 53
+          type: other
+          voorbeeld: '# CBN advies 137/9 - Actualisering van vorderingen en schulden op korte termijn (update)'
+        - categorie: B3
+          regel: 55
+          type: other
+          voorbeeld: '# CBN advies 137/9 - Actualisering van vorderingen en schulden op korte termijn (update)'
+      rationale: 'B3: duplicate page-title-heading op regels 53 en 55 (identieke H1 twee keer). Inhoud is volledig en correct; de tekst is kort maar afgerond met voetnoot. Enkel het dubbele heading-artefact moet gefixed worden door ETL.'
+      run_at: '2026-05-11T12:04:41Z'
+      status: needs-rework
+    rationale: 'B3: duplicate page-title-heading op regels 53 en 55 (identieke H1 twee keer). Inhoud is volledig en correct; de tekst is kort maar afgerond met voetnoot. Enkel het dubbele heading-artefact moet gefixed worden door ETL.'
+    status: needs-rework
 themas:
   - Vorderingen met een abnormaal lage rente
   - waardering
@@ -11,54 +56,7 @@ themas:
   - renteloze vorderingen
   - schulden
   - vordering
-bron: https://www.cbn-cnc.be/nl/adviezen/actualisering-van-vorderingen-en-schulden-op-korte-termijn-update
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/actualisering-van-vorderingen-en-schulden-op-korte-termijn-update
-      sha256: f80fc19159bc3be038cb0b293c47843b630ae221af7b778a1e39123a9f3af147
-      version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:35:00Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T12:04:41Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: 'B3: duplicate page-title-heading op regels 53 en 55 (identieke H1 twee keer). Inhoud is volledig en correct; de tekst is kort maar afgerond met voetnoot. Enkel het dubbele heading-artefact moet gefixed worden door ETL.'
-    layer1:
-      status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 0
-      max_section_chars: 1849
-      file_size_chars: 1849
-      flags: []
-    layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:04:41Z'
-      rationale: 'B3: duplicate page-title-heading op regels 53 en 55 (identieke H1 twee keer). Inhoud is volledig en correct; de tekst is kort maar afgerond met voetnoot. Enkel het dubbele heading-artefact moet gefixed worden door ETL.'
-      concrete_problemen:
-        - regel: 53
-          categorie: B3
-          type: other
-          voorbeeld: '# CBN advies 137/9 - Actualisering van vorderingen en schulden op korte termijn (update)'
-        - regel: 55
-          categorie: B3
-          type: other
-          voorbeeld: '# CBN advies 137/9 - Actualisering van vorderingen en schulden op korte termijn (update)'
-gerelateerde_adviezen:
-  - titel: Renteloze vorderingen (schulden) en vorderingen (schulden) met een abnormaal lage rente, op meer dan één jaar
-    url: https://www.cbn-cnc.be/nl/adviezen/renteloze-vorderingen-schulden-en-vorderingen-schulden-met-een-abnormaal-lage-rente-op
-    datum: '1986-09-01'
 ---
-
-# CBN advies 137/9 - Actualisering van vorderingen en schulden op korte termijn (update)
 
 # CBN advies 137/9 - Actualisering van vorderingen en schulden op korte termijn (update)
 

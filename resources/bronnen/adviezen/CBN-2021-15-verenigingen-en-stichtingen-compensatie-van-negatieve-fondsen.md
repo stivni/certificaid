@@ -1,6 +1,43 @@
 ---
-nummer: CBN-advies 2021/15
+bron: https://www.cbn-cnc.be/nl/adviezen/verenigingen-en-stichtingen-compensatie-van-negatieve-fondsen
 datum: 2021-11-22
+gerelateerde_adviezen:
+  - datum: '2008-01-23'
+    titel: Negatieve fondsen in de beginbalans van een vereniging zonder winstoogmerk
+    url: https://www.cbn-cnc.be/nl/adviezen/negatieve-fondsen-in-de-beginbalans-van-een-vereniging-zonder-winstoogmerk
+nummer: CBN-advies 2021/15
+provenance:
+  generated_at: '2026-05-11T13:05:08Z'
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/verenigingen-en-stichtingen-compensatie-van-negatieve-fondsen
+      sha256: f0474628f8efb15438554003a161662d28e56c8e131df30eeb2092d50cf6321b
+      version:
+  stale: false
+  stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
+  trust:
+    confirmed_at:
+    confirmed_by:
+    layer1:
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:30Z'
+      heading_count: 14
+      max_section_chars: 11180
+      file_size_chars: 21732
+      flags: []
+    layer2:
+      agent:
+      concrete_problemen: []
+      rationale:
+      run_at:
+      status: not_run
+    rationale: 'Trust gereset 2026-05-11: re-scrape met scraper-fixes, content-diff > 5%'
+    status: unreviewed
 themas:
   - negatieve fondsen
   - beginvermogen
@@ -13,55 +50,6 @@ themas:
   - compensatie
   - positief resultaat
   - bestemde fondsen
-bron: https://www.cbn-cnc.be/nl/adviezen/verenigingen-en-stichtingen-compensatie-van-negatieve-fondsen
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/verenigingen-en-stichtingen-compensatie-van-negatieve-fondsen
-      sha256: f0474628f8efb15438554003a161662d28e56c8e131df30eeb2092d50cf6321b
-      version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:38:04Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T12:21:41Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "A3: TOC-fragment verdubbeld in de body op L70 — een geconcateneerde regel '---- Omzetting van een vennootschap in een VZW of IVZW-- Mogelijkheid tot compensatie…' is een extractie-artefact waarbij twee TOC-entries samengevoegd zijn en als plain-tekstregel in de body terechtkwamen. D4: malformed italic op L75 — '*Beginvermogen *' en '*Permanente financiering[^3] *' hebben spaties vóór de afsluitende asterisk. A6: L74–L75 is een zin gesplitst over twee regels door een footnote-anker op L74."
-    layer1:
-      status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 15
-      max_section_chars: 11188
-      file_size_chars: 21745
-      flags: []
-    layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:21:41Z'
-      rationale: "A3: TOC-fragment verdubbeld in de body op L70 — een geconcateneerde regel '---- Omzetting van een vennootschap in een VZW of IVZW-- Mogelijkheid tot compensatie…' is een extractie-artefact waarbij twee TOC-entries samengevoegd zijn en als plain-tekstregel in de body terechtkwamen. D4: malformed italic op L75 — '*Beginvermogen *' en '*Permanente financiering[^3] *' hebben spaties vóór de afsluitende asterisk. A6: L74–L75 is een zin gesplitst over twee regels door een footnote-anker op L74."
-      concrete_problemen:
-        - regel: 70
-          categorie: A3
-          type: other
-          voorbeeld: '---- Omzetting van een vennootschap in een VZW of IVZW-- Mogelijkheid tot compensatie van negatieve fondsen…'
-        - regel: 75
-          categorie: D4
-          type: other
-          voorbeeld: rekening 100 *Beginvermogen *en rekening 101 *Permanente financiering[^3] *
-        - regel: 74
-          categorie: A6
-          type: other
-          voorbeeld: "…(hierna: KB WVV)[^2]\\n waren de VZW's, IVZW's…"
-gerelateerde_adviezen:
-  - titel: Negatieve fondsen in de beginbalans van een vereniging zonder winstoogmerk
-    url: https://www.cbn-cnc.be/nl/adviezen/negatieve-fondsen-in-de-beginbalans-van-een-vereniging-zonder-winstoogmerk
-    datum: '2008-01-23'
 ---
 
 # CBN-advies 2021/15 – Verenigingen en stichtingen: compensatie van negatieve fondsen
@@ -83,14 +71,11 @@ gerelateerde_adviezen:
 
 ## Inleiding
 
-Vóór de inwerkingtreding van het koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen (hierna: KB WVV)[^2]
- waren de VZW’s, IVZW’s en stichtingen die een dubbele boekhouding voerden er toe gehouden hun fondsen (rekening 10) op het passief van de balans uit te splitsen in twee subrekeningen: rekening 100 *Beginvermogen *en rekening 101 *Permanente financiering*. Rekening 100 *Beginvermogen *kon, in tegenstelling tot rekening 101 *Permanente financiering[^3] *, bij de opstelling van de openingsbalans een debetsaldo vertonen en bijgevolg negatief zijn[^4].
+Vóór de inwerkingtreding van het koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen (hierna: KB WVV)[^2] waren de VZW’s, IVZW’s en stichtingen die een dubbele boekhouding voerden er toe gehouden hun fondsen (rekening 10) op het passief van de balans uit te splitsen in twee subrekeningen: rekening 100 *Beginvermogen* en rekening 101 *Permanente financiering*. Rekening 100* Beginvermogen *kon, in tegenstelling tot rekening 101* Permanente financiering[^3] *, bij de opstelling van de openingsbalans een debetsaldo vertonen en bijgevolg negatief zijn[^4].
 
 Dit negatief beginvermogen kon bijgevolg leiden tot negatieve fondsen in de jaarrekening neergelegd door VZW’s, IVZW’s of stichtingen. 
 
-Sedert de inwerkingtreding van het KB WVV is deze uitsplitsing[^5]
- niet meer terug te vinden op het passief van de balans maar enkel nog in de toelichting[^6]
- bij de jaarrekening. 
+Sedert de inwerkingtreding van het KB WVV is deze uitsplitsing[^5] niet meer terug te vinden op het passief van de balans maar enkel nog in de toelichting[^6] bij de jaarrekening. 
 
 Het KB WVV biedt sedert de inwerkingtreding van het KB WVV aan het bestuursorgaan van VZW’s, IVZW’s en stichtingen die een dubbele boekhouding voeren de mogelijkheid om negatieve fondsen te compenseren met een positief resultaat van de VZW, IVZW of stichting[^7]. In onderhavig advies wordt de boekhoudkundige verwerking van een dergelijke compensatie behandeld.
 
@@ -106,19 +91,14 @@ Hierna bespreekt de Commissie verschillende situaties waarin negatieve fondsen k
 
 #### VZW’s, IVZW’s en stichtingen zoals bedoeld in artikel 3:175, § 2 KB WVV 
 
-Hier worden de VZW’s, IVZW’s of stichtingen bedoeld die, naar de mening van het bestuursorgaan[^9], voordien al een boekhouding voerden die ten minste overeenstemt met de bepalingen van titel 1[^10]
- en 3[^11]
- van boek 3 KB WVV die gelden bij het voeren van een dubbele boekhouding. 
+Hier worden de VZW’s, IVZW’s of stichtingen bedoeld die, naar de mening van het bestuursorgaan[^9], voordien al een boekhouding voerden die ten minste overeenstemt met de bepalingen van titel 1[^10] en 3[^11] van boek 3 KB WVV die gelden bij het voeren van een dubbele boekhouding. 
 
 In dit geval stemt de openingsbalans van het eerste boekjaar waarvoor de bepalingen van het KB WVV gelden overeen met de afsluitingsbalans van het vorige boekjaar[^12]. Bijgevolg kunnen deze VZW’s, IVZW’s of stichtingen negatieve fondsen hebben indien deze negatieve fondsen reeds voorkwamen op de afsluitingsbalans van het vorige boekjaar van de VZW, IVZW of stichting.
 
-## Voorbeeld 1
+### *Voorbeeld 1*
 
-Een VZW werd op 5 januari 1999 opgericht en voert haar boekhouding per kalenderjaar. Bij de inwerkingtreding van het KB van 19 december 2003, heeft deze VZW voor -100.000 euro aan negatieve fondsen geboekt op rekening 100 *Beginvermogen*. 
-
-Vanaf het boekjaar dat start op 1 januari 2020 past deze VZW de bepalingen van het KB WVV[^13]
- toe. Krachtens artikel 3:175, § 2 eerste lid KB WVV stemt de openingsbalans van het eerste boekjaar (d.i. de openingsbalans van boekjaar 2020) overeen met de afsluitingsbalans van het vorige boekjaar, d.i. de afsluitingsbalans van boekjaar 2019. Bijgevolg zal de VZW bij het opstellen van de openingsbalans per 1 januari 2020 -100.000 euro aan negatieve fondsen hebben.
-
+Een VZW werd op 5 januari 1999 opgericht en voert haar boekhouding per kalenderjaar. Bij de inwerkingtreding van het KB van 19 december 2003, heeft deze VZW voor -100.000 euro aan negatieve fondsen geboekt op rekening 100 *Beginvermogen*.
+Vanaf het boekjaar dat start op 1 januari 2020 past deze VZW de bepalingen van het KB WVV[^13] toe. Krachtens artikel 3:175, § 2 eerste lid KB WVV stemt de openingsbalans van het eerste boekjaar (d.i. de openingsbalans van boekjaar 2020) overeen met de afsluitingsbalans van het vorige boekjaar, d.i. de afsluitingsbalans van boekjaar 2019. Bijgevolg zal de VZW bij het opstellen van de openingsbalans per 1 januari 2020 -100.000 euro aan negatieve fondsen hebben.
 #### VZW’s, IVZW’s en stichtingen zoals bedoeld in artikel 3:175, § 3 KB WVV
 
 Voerden de VZW’s, IVZW’s en stichtingen, naar de mening van het bestuursorgaan, geen boekhouding die ten minste overeenstemt met de bepalingen van titel 1 en 3 van boek 3 KB WVV die gelden bij het voeren van een dubbele boekhouding, dan worden de bestanddelen van de activa voor de opstelling van de openingsbalans van het eerste boekjaar waarvoor de bepalingen van het KB WVV gelden, gewaardeerd tegen de aanschaffingswaarde, verminderd met de afschrijvingen die zouden zijn geboekt alsof de bepalingen het KB WVV van bij het begin zouden zijn toegepast of aan de waarde nul indien de aanschaffingswaarde niet wordt teruggevonden. 
@@ -128,14 +108,12 @@ Het bestuursorgaan van deze VZW’s, IVZW’s en stichtingen kan, mits melding e
 
 Bij ontstentenis van een betrouwbare werkelijke waarde, marktwaarde of gebruikswaarde, worden de activa in de toelichting bij de jaarrekening opgenomen met de vermelding dat er geen betrouwbare werkelijke waarde, marktwaarde of gebruikswaarde aan kan worden gekoppeld. 
 
-Door de opname van financiële verplichtingen op de passiefzijde van de beginbalans, zal in voorkomend geval de rekening 10 *Fondsen van de vereniging of stichting *een negatief saldo vertonen. 
+Door de opname van financiële verplichtingen op de passiefzijde van de beginbalans, zal in voorkomend geval de rekening 10 *Fondsen van de vereniging of stichting* een negatief saldo vertonen. 
 
-## Voorbeeld 2
+### *Voorbeeld 2*
 
-Veronderstel een VZW die niet langer voldoet aan de voorwaarden voor het voeren van een vereenvoudigde boekhouding. Het bestuursorgaan kent noch de aanschaffingswaarde, noch de betrouwbare werkelijke waarde, marktwaarde of gebruikswaarde van de in de VZW aanwezige activa en zal deze enkel in de toelichting bij de jaarrekening opnemen. Deze VZW beschikt eveneens over 15.600 euro aan schulden. Rekening houdend met deze financiële verplichtingen, zal in de openingsbalans rekening 10 *Fondsen van de vereniging *het evenwicht moeten herstellen en bijgevolg een negatief saldo vertonen. 
-
-De openingsbalans van de VZW ziet er als volgt uit: 
-
+Veronderstel een VZW die niet langer voldoet aan de voorwaarden voor het voeren van een vereenvoudigde boekhouding. Het bestuursorgaan kent noch de aanschaffingswaarde, noch de betrouwbare werkelijke waarde, marktwaarde of gebruikswaarde van de in de VZW aanwezige activa en zal deze enkel in de toelichting bij de jaarrekening opnemen. Deze VZW beschikt eveneens over 15.600 euro aan schulden. Rekening houdend met deze financiële verplichtingen, zal in de openingsbalans rekening 10 *Fondsen van de vereniging* het evenwicht moeten herstellen en bijgevolg een negatief saldo vertonen.
+De openingsbalans van de VZW ziet er als volgt uit:
 | Balans VZW | 
 | Vaste activa | | 0 | | Fondsen van de vereniging | | -15.600 | 
 | | | | | Schulden | | 15.600 | 
@@ -147,10 +125,9 @@ Ook ingeval er intussen actiefbestanddelen werden vernield, gestolen of weggesch
 
 Ook naar aanleiding van een herstructurering (splitsing of fusie) kan voor de opstelling van de openingsbalans van de VZW’s of IVZW’s of stichtingen, via de rekening 10 *Fondsen van de vereniging of stichting* het evenwicht worden hersteld.
 
-## Voorbeeld 3
+### *Voorbeeld 3*
 
-Het balanstotaal van een VZW bedraagt 200.000 euro. Deze VZW wordt in twee gesplitst waarbij de activa en de schulden worden verdeeld over VZW A & VZW B. VZW A ontvangt naar aanleiding van de splitsing voor 120.000 euro aan actiefbestanddelen en voor 80.000 euro aan schulden, terwijl VZW B voor 80.000 euro aan activa en voor 120.000 euro aan schulden toegewezen krijgt. In dit geval zal rekening 100 *Fondsen van de vereniging: beginvermogen* de balans van VZW B opnieuw in evenwicht moeten brengen: 
-
+Het balanstotaal van een VZW bedraagt 200.000 euro. Deze VZW wordt in twee gesplitst waarbij de activa en de schulden worden verdeeld over VZW A & VZW B. VZW A ontvangt naar aanleiding van de splitsing voor 120.000 euro aan actiefbestanddelen en voor 80.000 euro aan schulden, terwijl VZW B voor 80.000 euro aan activa en voor 120.000 euro aan schulden toegewezen krijgt. In dit geval zal rekening 100 *Fondsen van de vereniging: beginvermogen* de balans van VZW B opnieuw in evenwicht moeten brengen:
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | XX | Activa | 80.000 | |
@@ -159,10 +136,9 @@ Het balanstotaal van een VZW bedraagt 200.000 euro. Deze VZW wordt in twee gespl
 
 Hetzelfde geldt voor fusies: indien één van de bij de fusie betrokken VZW’s, IVZW’s of stichtingen negatieve fondsen heeft, kunnen deze fondsen, ook wanneer zij vermeerderd worden met die van de bij de fusie betrokken VZW’s, IVZW’s of stichtingen, negatief blijven. 
 
-## Voorbeeld 4
+### *Voorbeeld 4*
 
 Twee VZW’s brengen een fusie tot stand. Beide VZW’s voeren een dubbele boekhouding. Vóór de fusie zien de balansen van de te ontbinden VZW en van de verkrijgende VZW er als volgt uit:
-
 | Balans te ontbinden VZW vóór de fusie | 
 | Vaste activa | | 100.000 | | Fondsen van de vereniging | | -80.000 | 
 | Vlottende activa | | 20.000 | | Overgedragen winst | | 60.000 | 
@@ -178,7 +154,6 @@ Twee VZW’s brengen een fusie tot stand. Beide VZW’s voeren een dubbele boekh
 | | | 200.000 | | | | 200.000 | 
 
 Na de fusie ziet de balans van de verkrijgende VZW er als volgt uit.
-
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | XX | Vaste activa | 100.000 | |
@@ -201,18 +176,16 @@ Na de fusie ziet de balans van de verkrijgende VZW er als volgt uit.
 Een vennootschap met rechtspersoonlijkheid kan worden omgezet in een VZW of IVZW.[^16]
  Deze omzetting kan negatieve startfondsen voor de VZW of IVZW tot gevolg hebben. Dit is bijvoorbeeld het geval wanneer een vennootschap onder firma die voordien een vereenvoudigde boekhouding voerde, wordt omgezet in een VZW die een dubbele boekhouding zal voeren. Worden in de openingsbalans niet alle activa geboekt (wegens bijvoorbeeld niet waardeerbaar) daar waar er wel financiële verplichtingen op de passiefzijde moeten worden uitgedrukt, dan zal een negatief startfonds ontstaan.
 
-### Mogelijkheid tot compensatie van negatieve fondsen met een positief resultaat van een VZW, IVZW of stichting
-
+Mogelijkheid tot compensatie van negatieve fondsen met een positief resultaat van een VZW, IVZW of stichting
 Op grond van artikel 3:171, § 2, I KB WVV kan het bestuursorgaan beslissen om gerealiseerde (overgedragen) middelen permanent als vaste financiering aan te wenden door boekhoudtechnisch, naar aanleiding van de resultaatverwerking[^17], negatieve fondsen te compenseren met een positief resultaat. 
 
 De Commissie is van oordeel dat met ‘positief resultaat’ zowel het positief resultaat van het boekjaar als het overgedragen positief resultaat van vorige boekjaren bedoeld worden. 
 
-Beslist het bestuursorgaan in de loop van het boekjaar om de negatieve fondsen te compenseren met een overgedragen (positief) resultaat van vorige boekjaren, dan zal deze mutatie verlopen via twee rekeningen van de resultaatverwerking[^18], namelijk rekening 790 *Overgedragen positief resultaat van het vorige boekjaar *en rekening 69X *Overdracht aan het beginvermogen*[^19]. 
+Beslist het bestuursorgaan in de loop van het boekjaar om de negatieve fondsen te compenseren met een overgedragen (positief) resultaat van vorige boekjaren, dan zal deze mutatie verlopen via twee rekeningen van de resultaatverwerking[^18], namelijk rekening 790 *Overgedragen positief resultaat van het vorige boekjaar* en rekening 69X *Overdracht aan het beginvermogen*[^19]. 
 
-## Voorbeeld 5
+### *Voorbeeld 5*
 
 Op 1 januari 2020 ziet de balans van een VZW er als volgt uit:
-
 | Balans VZW | 
 | Activa | | 100.000 | | Fondsen van de vereniging | | -80.000 | 
 | | | | | Overgedragen winst | | 100.000 | 
@@ -220,7 +193,6 @@ Op 1 januari 2020 ziet de balans van een VZW er als volgt uit:
 | | | 100.000 | | | | 100.000 | 
 
 Om de reële vermogenstoestand beter weer te geven, beslist het bestuursorgaan om naar aanleiding van de resultaatverwerking eind 2020 de negatieve fondsen van de VZW te compenseren met 80.000 van de overgedragen winst van het vorige boekjaar. Tijdens het boekjaar 2020 werd er geen bijkomende winst gerealiseerd.
-
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 14 | Overgedragen resultaat | 80.000 | |
@@ -231,8 +203,7 @@ Om de reële vermogenstoestand beter weer te geven, beslist het bestuursorgaan o
 | | 69X | Overdracht aan het beginvermogen | 80.000 | |
 | aan | 10 | Fondsen van de vereniging: beginvermogen | | 80.000 |
 
-Na de verrichting ziet de balans van de VZW er als volgt uit: 
-
+Na de verrichting ziet de balans van de VZW er als volgt uit:
 | Balans VZW | 
 | Diverse activa | | 100.000 | | Fondsen van de vereniging | | 0 | 
 | | | | | Overgedragen winst | | 20.000 | 
@@ -241,10 +212,9 @@ Na de verrichting ziet de balans van de VZW er als volgt uit:
 
 Aan het einde van het boekjaar kan het bestuursorgaan, indien zij over een positief resultaat van het boekjaar beschikt, dit positief resultaat aanwenden ter compensatie van haar negatieve fondsen. Aangezien het de bestemming van het resultaat van het boekjaar betreft, zal de mutatie verlopen via rekening 69X *Overdracht aan het beginvermogen*. 
 
-## Voorbeeld 6
+### *Voorbeeld 6*
 
 Op 31 december 2020 ziet de balans vóór resultaatbestemming van een VZW er als volgt uit:
-
 | Balans VZW | 
 | Diverse activa | | 80.000 | | Fondsen van de vereniging | | -80.000 | 
 | Kredietinstellingen | | 160.000 | | Overgedragen winst | | 20.000 | 
@@ -252,8 +222,7 @@ Op 31 december 2020 ziet de balans vóór resultaatbestemming van een VZW er als
 | | | | | Schulden | | 140.000 | 
 | | | 240.000 | | | | 240.000 | 
 
-Bij de afsluiting van dat boekjaar beslist het bestuursorgaan om de negatieve fondsen te compenseren met de overgedragen winst van het vorige boekjaar (20.000 euro) en 60.000 euro van de winst van het boekjaar. 
-
+Bij de afsluiting van dat boekjaar beslist het bestuursorgaan om de negatieve fondsen te compenseren met de overgedragen winst van het vorige boekjaar (20.000 euro) en 60.000 euro van de winst van het boekjaar.
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 14 | Overgedragen resultaat | 20.000 | |
@@ -265,14 +234,12 @@ Bij de afsluiting van dat boekjaar beslist het bestuursorgaan om de negatieve fo
 | aan | 10 | Fondsen van de vereniging: beginvermogen | | 80.000 |
 
 Het saldo van de winst van het boekjaar (160.000 – 60.000) wordt overgedragen:
-
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 692 | Over te dragen positief resultaat | 100.000 | |
 | aan | 14 | Overgedragen resultaat | | 100.000 |
 
 De balans van de VZW ziet er na de bestemming als volgt uit:
-
 | Balans VZW | 
 | Diverse activa | | 80.000 | | Fondsen van de vereniging | | 0 | 
 | Kredietinstellingen | | 160.000 | | Overgedragen winst | | 100.000 | 

@@ -2,62 +2,59 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-grensoverschrijdende-splitsingen
 datum: 2011-04-16
 gerelateerde_adviezen:
-- datum: '2021-07-12'
-  titel: Boekhoudrechtelijke verwerking van de wederopbouwreserve
-  url: https://www.cbn-cnc.be/nl/adviezen/boekhoudrechtelijke-verwerking-van-de-wederopbouwreserve
-- datum: '2021-05-12'
-  titel: Invloed van het buitengerechtelijk minnelijk akkoord en de gerechtelijke
-    reorganisatie op de schulden en vorderingen (update)
-  url: https://www.cbn-cnc.be/nl/adviezen/invloed-van-het-buitengerechtelijk-minnelijk-akkoord-en-de-gerechtelijke-reorganisatie-1
-- datum: '2018-05-30'
-  titel: Tax shelter voor podiumkunsten
-  url: https://www.cbn-cnc.be/nl/adviezen/tax-shelter-voor-podiumkunsten
-- datum: '2018-03-21'
-  titel: Aftrek voor innovatie-inkomsten
-  url: https://www.cbn-cnc.be/nl/adviezen/aftrek-voor-innovatie-inkomsten
+  - datum: '2021-07-12'
+    titel: Boekhoudrechtelijke verwerking van de wederopbouwreserve
+    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudrechtelijke-verwerking-van-de-wederopbouwreserve
+  - datum: '2021-05-12'
+    titel: Invloed van het buitengerechtelijk minnelijk akkoord en de gerechtelijke reorganisatie op de schulden en vorderingen (update)
+    url: https://www.cbn-cnc.be/nl/adviezen/invloed-van-het-buitengerechtelijk-minnelijk-akkoord-en-de-gerechtelijke-reorganisatie-1
+  - datum: '2018-05-30'
+    titel: Tax shelter voor podiumkunsten
+    url: https://www.cbn-cnc.be/nl/adviezen/tax-shelter-voor-podiumkunsten
+  - datum: '2018-03-21'
+    titel: Aftrek voor innovatie-inkomsten
+    url: https://www.cbn-cnc.be/nl/adviezen/aftrek-voor-innovatie-inkomsten
 nummer: CBN-advies 2011/10
 provenance:
-  generated_at: '2026-05-08T18:36:10Z'
+  generated_at: '2026-05-11T13:05:08Z'
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-grensoverschrijdende-splitsingen
-    sha256: 4b61e0649ce780e830cb4940928d119883539180dc3ed49c08918c7562e0199a
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-grensoverschrijdende-splitsingen
+      sha256: 4b61e0649ce780e830cb4940928d119883539180dc3ed49c08918c7562e0199a
+      version:
   stale: false
-  stale_reason: null
+  stale_reason:
   tooling:
-    model: null
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    prompt_version: null
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
   trust:
     confirmed_at: '2026-05-08T19:02:28Z'
     confirmed_by: subagent-laag2-ronde2
     layer1:
-      file_size_chars: 52019
-      flags: []
-      heading_count: 12
-      max_section_chars: 14303
-      run_at: null
-      run_id: 20260511-083333
       status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:28Z'
+      heading_count: 10
+      max_section_chars: 14287
+      file_size_chars: 51905
+      flags: []
     layer2:
       agent: subagent-laag2-ronde2
       concrete_problemen: []
-      rationale: '[Laag-2-R2 2026-05-08] Het advies bevat 12 headings en behandelt
-        grensoverschrijdende splitsingen met correct juridisch kader en voorbeelden.
-        Geen tabelcorruptie vastgesteld.'
+      rationale: '[Laag-2-R2 2026-05-08] Het advies bevat 12 headings en behandelt grensoverschrijdende splitsingen met correct juridisch kader en voorbeelden. Geen tabelcorruptie vastgesteld.'
       run_at: '2026-05-08T19:02:28Z'
       status: trusted
     rationale: Laag-2 trusted door subagent-laag2-ronde2 (zie layer2.rationale)
     status: trusted
 themas:
-- belastingvrije reserves
-- belgische inrichting
-- boekhoudkundige continuïteit
-- buitenlandse onderneming
-- grensoverschrijdende partiële splitsing
-- dotatie
-- kapitaal
+  - belastingvrije reserves
+  - belgische inrichting
+  - boekhoudkundige continuïteit
+  - buitenlandse onderneming
+  - grensoverschrijdende partiële splitsing
+  - dotatie
+  - kapitaal
 ---
 
 # CBN-advies 2011/10 De boekhoudkundige verwerking van grensoverschrijdende splitsingen
@@ -66,8 +63,7 @@ themas:
 
 Dit advies strekt ertoe de boekhoudkundige verwerking van grensoverschrijdende splitsingen te behandelen, inzonderheid van splitsingen die vanaf 12 januari 2009 in België in beginsel belastingneutraal kunnen worden gerealiseerd, i.e. “intra-Europese” splitsingen. 
 
-1. Door de wet van 8 juni 2008[^1]
- werd in Boek XI van het Wetboek van Vennootschappen (hierna: W.Venn.) een nieuwe “Titel V*bis*” ingevoegd houdende “Bijzondere regels inzake grensoverschrijdende fusies en gelijkgestelde verrichtingen”. Voor grensoverschrijdende splitsingen werd in het Wetboek van Vennootschappen daarentegen geen specifieke procedure voorzien. 
+1. Door de wet van 8 juni 2008[^1] werd in Boek XI van het Wetboek van Vennootschappen (hierna: W.Venn.) een nieuwe “Titel V*bis*” ingevoegd houdende “Bijzondere regels inzake grensoverschrijdende fusies en gelijkgestelde verrichtingen”. Voor grensoverschrijdende splitsingen werd in het Wetboek van Vennootschappen daarentegen geen specifieke procedure voorzien. 
 
 Dit betekent evenwel niet dat een grensoverschrijdende splitsing onrealiseerbaar zou zijn. 
 
@@ -99,15 +95,12 @@ Wat het begrip “dotatie” betreft, wordt verwezen naar de inleiding van het C
 
 In een eerste afdeling wordt de situatie behandeld waarbij een Belgische vennootschap, zonder buitenlandse inrichting, wordt gesplitst in een Belgische vennootschap en een vennootschap gevestigd in een andere EU-lidstaat. In een tweede afdeling wordt de situatie behandeld waarbij een vennootschap gevestigd in een andere EU-lidstaat wordt gesplitst in een Belgische vennootschap en een vennootschap gevestigd in een andere EU-lidstaat.
 
-### * Splitsing van een Belgische vennootschap, zonder buitenlandse inrichting, in een Belgische vennootschap en een vennootschap gevestigd in een andere EU-lidstaat*
-
+* Splitsing van een Belgische vennootschap, zonder buitenlandse inrichting, in een Belgische vennootschap en een vennootschap gevestigd in een andere EU-lidstaat*
 #### *Een Belgische vennootschap A, zonder buitenlandse inrichting, wordt gesplitst door oprichting van een Belgische vennootschap B en door overname door een in een andere EU-lidstaat gevestigde vennootschap C. Vennootschap C bezit geen A-aandelen en bezit geen Belgische inrichting; vennootschap A bezit geen eigen aandelen.*
 
 Voorbeeld 1
 
 Onderstel dat onderstaande vennootschap A (belastingneutraal) wordt gesplitst door oprichting van een Belgische vennootschap B en door overname door een in een andere EU-lidstaat gevestigde vennootschap C.
-
- [^8][^9]
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
@@ -204,8 +197,6 @@ Op het niveau van de Belgische inrichting van vennootschap C, worden de A-aandel
 
 Voorbeeld 2
 
- [^10][^11]
-
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | A (Belgische te splitsen vennootschap) | | | |
@@ -214,8 +205,6 @@ Voorbeeld 2
 | | Beschikbare reserves | 5.000 | | |
 | | Schulden | 4.000 | | |
 | | 14.000 | 14.000 | | |
-
-[^12]
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
@@ -279,8 +268,6 @@ In toepassing van artikel 78, § 6, in fine, KB W.Venn. kan boekhoudkundig afgew
 
 Rekening houdend met al het bovenstaande, zal de balans van de Belgische inrichting van C er na de splitsing als volgt uitzien:
 
- [^13][^14]
-
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | Belgische inrichting van C (na de splitsing) | | | |
@@ -305,8 +292,6 @@ Naar analogie van het gestelde in het advies 2009/6 (zie voorbeeld 6) en om rede
 
 De openingsbalans na de splitsing is dan als volgt :
 
- [^15]
-
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | Belgische inrichting van C (na de splitsing) | | | |
@@ -330,8 +315,6 @@ De Belgische inrichting van C zal evenwel de aan haar toegewezen belastingvrije 
 #### *Een Belgische vennootschap A, zonder buitenlandse inrichting, wordt gesplitst door oprichting van een Belgische vennootschap B en door overname door een in een andere EU-lidstaat gevestigde vennootschap C. Vennootschap C bezit A-aandelen maar heeft vóór de splitsing geen Belgische inrichting; vennootschap A bezit geen eigen aandelen.*
 
 Voorbeeld 3
-
- [^16][^17]
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
@@ -379,8 +362,6 @@ Na de splitsing zullen B en de Belgische inrichting van C er dan als volgt uitzi
 | | Schulden | 1.500 | | |
 | | 5.500 | 5.500 | | |
 
-[^18]
-
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | Belgische inrichting van C | | | |
@@ -390,8 +371,7 @@ Na de splitsing zullen B en de Belgische inrichting van C er dan als volgt uitzi
 | | Schulden | 2.500 | | |
 | | 8.500 | 8.500 | | |
 
-### *Splitsing van een vennootschap gevestigd in een andere EU-lidstaat, in een Belgische vennootschap en een vennootschap gevestigd in een andere EU-lidstaat*
-
+*Splitsing van een vennootschap gevestigd in een andere EU-lidstaat, in een Belgische vennootschap en een vennootschap gevestigd in een andere EU-lidstaat*
 #### *Een in een andere EU-lidstaat gevestigde vennootschap C wordt gesplitst door overname door een Belgische vennootschap A en door oprichting van een in een andere EU-lidstaat gevestigde vennootschap B. De Belgische vennootschap A bezit geen aandelen in de gesplitste vennootschap C en de gesplitste vennootschap C heeft geen Belgische inrichting.*
 
 ## Voorbeeld 4
@@ -407,8 +387,6 @@ Onderstel dat onderstaande in een andere EU-lidstaat gevestigde vennootschap C w
 | | Voorzieningen | 900 | | |
 | | Schulden | 1.100 | | |
 | | 10.000 | 10.000 | | |
-
-[^19]
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
@@ -473,8 +451,6 @@ Bij vennootschap A wordt het gedeelte van de C-aandelen dat overeenstemt met het
 Het gedeelte van de C-aandelen dat overeenstemt met het aan A overgedragen vermogen (boekwaarde 1.305) wordt bij vennootschap A ingetrokken. De boekhoudkundige verwerking van het aan A overgedragen vermogen gebeurt volgens de regels van een (belastingneutrale) moeder/dochter fusie.
 
 Na de splitsing zal vennootschap A er als volgt uitzien:
-
- [^22]
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
@@ -597,8 +573,6 @@ Het gedeelte van de C-aandelen dat overeenstemt met het aan A overgedragen vermo
 
 Na de splitsing zal vennootschap A er als volgt uitzien:
 
- [^24]
-
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | A (Belgische verkrijgende vennootschap na de splitsing) | | | |
@@ -615,8 +589,6 @@ Na de splitsing zal vennootschap A er als volgt uitzien:
 In dit voorbeeld zijn de andere dan de belastingvrije reserves die bij de splitsing aan A worden toegewezen toereikend om de vermindering van de belastingvrije reserves volledig op te vangen. Mocht dit niet het geval zijn dan kan het gedeelte van de belastingvrije reserves dat, na de toerekening aan die andere reserves, nog steeds niet is weder samengesteld na de splitsing worden heraangelegd via het debet van de resultatenrekening.
 
 Naar analogie van het gestelde in het advies 2009/6 (zie voorbeeld 6) en om redenen van praktische aard is de Commissie ook hier van mening dat teneinde rekening te houden met de fiscale kwalificatie van alle aan A toegewezen reserves, de reserves proportioneel mogen worden overgenomen en de volledige wedersamenstelling van de belastingvrije reserves van de Belgische inrichting van C bij A lastens het resultaat mag gebeuren. De openingsbalans na de splitsing is dan als volgt :
-
- [^25]
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|

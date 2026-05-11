@@ -3,52 +3,50 @@ bron: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-facto
 datum: 2011-10-05
 nummer: CBN-advies 2011/23
 provenance:
-  generated_at: '2026-05-08T18:36:19Z'
+  generated_at: '2026-05-11T13:05:08Z'
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-factoringovereenkomsten
-    sha256: f9f408af8346f92956d05b367918d33f55a545bfdd5e0bf4d868809655a2cb28
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-factoringovereenkomsten
+      sha256: f9f408af8346f92956d05b367918d33f55a545bfdd5e0bf4d868809655a2cb28
+      version:
   stale: false
-  stale_reason: null
+  stale_reason:
   tooling:
-    model: null
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    prompt_version: null
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
   trust:
     confirmed_at: '2026-05-08T19:02:28Z'
     confirmed_by: subagent-laag2-ronde2
     layer1:
-      file_size_chars: 32378
-      flags: []
-      heading_count: 14
-      max_section_chars: 13247
-      run_at: null
-      run_id: 20260511-083333
       status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:28Z'
+      heading_count: 11
+      max_section_chars: 13236
+      file_size_chars: 32362
+      flags: []
     layer2:
       agent: subagent-laag2-ronde2
       concrete_problemen: []
-      rationale: '[Laag-2-R2 2026-05-08] 14 headings voor 6 factoringvarianten, inhoudelijk
-        volledig. Sectiegrootte inherent aan groot aantal verwerkingsvarianten. Journaalpostentabellen
-        correct als Markdown-tabellen.'
+      rationale: '[Laag-2-R2 2026-05-08] 14 headings voor 6 factoringvarianten, inhoudelijk volledig. Sectiegrootte inherent aan groot aantal verwerkingsvarianten. Journaalpostentabellen correct als Markdown-tabellen.'
       run_at: '2026-05-08T19:02:28Z'
       status: trusted
     rationale: Laag-2 trusted door subagent-laag2-ronde2 (zie layer2.rationale)
     status: trusted
 themas:
-- cessie van schuldvordering
-- discontokosten op vorderingen
-- dubieuze debiteuren
-- factoring
-- financiering
-- handelsvorderingen
-- insolventiedekking
-- niet in de balans opgenomen rechten en verplichtingen
-- overdracht van schuldvordering
-- schulden in rekening-courant
-- vordering
-- Waardevermindering
+  - cessie van schuldvordering
+  - discontokosten op vorderingen
+  - dubieuze debiteuren
+  - factoring
+  - financiering
+  - handelsvorderingen
+  - insolventiedekking
+  - niet in de balans opgenomen rechten en verplichtingen
+  - overdracht van schuldvordering
+  - schulden in rekening-courant
+  - vordering
+  - Waardevermindering
 ---
 
 # CBN-advies 2011/23 - De boekhoudkundige verwerking van factoringovereenkomsten
@@ -137,13 +135,12 @@ Het factorloon komt veelal overeen met een bepaald percentage van de door de ove
 
 Daarnaast worden door de factor discontokosten aangerekend aan de onderneming, als vergoeding voor de door de factor verstrekte financiering. De discontokosten bestaan uit de interest die de factor aanrekent voor het aantal dagen tussen betaling aan de onderneming en de vervaldag van de vordering op de klant. Het disconto ten laste van de onderneming bij het verhandelen van vorderingen wordt door de onderneming geboekt onder de Andere financiële kosten (MAR 653 *Discontokosten op vorderingen*)[^16].
 
-### Factoringovereenkomst zonder insolventiedekking en zonder financiering (service factoring)
-
+Factoringovereenkomst zonder insolventiedekking en zonder financiering (service factoring)
 Bij *service factoring* komen de partijen overeen dat de factor enkel het beheer van de debiteurenportefeuille, d.w.z. de debiteurenadministratie en de bewaking en de inning van de vordering, verzorgt. 
 
 Er vindt geen financiering door de factor plaats, wat impliceert dat de factor de onderneming pas zal betalen nadat de koper aan de factor heeft betaald. 
 
-Het insolventierisico blijft ten laste van de leverancier. Wanneer tussen de onderneming en de factor overeengekomen wordt dat de factor het insolvabiliteitsrisico niet op zich neemt, betreft dit een geval van factoring met verhaal (*factoring with recourse*). Indien de debiteur niet betaalt op de vervaldag, zal de factor namelijk de vorderingen terug overdragen aan zijn factorklant (*in casu *de onderneming). 
+Het insolventierisico blijft ten laste van de leverancier. Wanneer tussen de onderneming en de factor overeengekomen wordt dat de factor het insolvabiliteitsrisico niet op zich neemt, betreft dit een geval van factoring met verhaal (*factoring with recourse*). Indien de debiteur niet betaalt op de vervaldag, zal de factor namelijk de vorderingen terug overdragen aan zijn factorklant (*in casu* de onderneming). 
 
 Vindt de inning door de factor plaats vóór de vervaldag, dan wordt het bedrag van de vordering doorgestort aan de onderneming, na aftrek van het factorloon. Vindt de inning niet plaats op vervaldatum, dan worden de vorderingen geretrocedeerd aan de onderneming, volgens de afgesproken procedure. 
 
@@ -182,8 +179,7 @@ Vindt de inning door de factor plaats vóór de vervaldag, dan wordt het bedrag 
 
 5) Bestaat er onzekerheid over de inning van de vorderingen, dan wordt deze vorderingen (met inbegrip van het btw-bedrag) door de onderneming overgeboekt naar de rekening 407 *Dubieuze debiteuren en wordt* een passende waardevermindering geboekt. 
 
-### Factoringovereenkomst met insolventiedekking, zonder financiering (maturity factoring)
-
+Factoringovereenkomst met insolventiedekking, zonder financiering (maturity factoring)
 Bij deze factoringvariant neemt de factor het risico van insolventie van de debiteur over. De factor verbindt zich ertoe om op vervaldag of een bepaald aantal dagen na de vervaldag de leverancier te betalen tot de toegestane kredietlimiet.[^18] 
 
 *Voorbeeld* 
@@ -214,8 +210,7 @@ Bij deze factoringvariant neemt de factor het risico van insolventie van de debi
 
 ### Factoringovereenkomst met financiering, zonder insolventiedekking
 
-Vaak verlenen factoringmaatschappijen voorschotten of financiering aan hun cliënten. Bij deze factoringvariant draagt de leverancier dus eigenlijk zijn vordering over aan de factor, die hiervoor een bedrag ter beschikking stelt zonder de vervaldag van de vordering af te wachten. Uit veiligheidsoverwegingen beperkt men dit meestal tot een percentage van de ingediende vorderingen. Het verschil met de totale vordering houdt de factor achter als waarborg voor de betaling door de leverancier van alle schulden die hij zou kunnen hebben t.o.v. de factor,[^20]
- en wordt aan de leverancier betaald wanneer de debiteur zijn factuur heeft betaald.
+Vaak verlenen factoringmaatschappijen voorschotten of financiering aan hun cliënten. Bij deze factoringvariant draagt de leverancier dus eigenlijk zijn vordering over aan de factor, die hiervoor een bedrag ter beschikking stelt zonder de vervaldag van de vordering af te wachten. Uit veiligheidsoverwegingen beperkt men dit meestal tot een percentage van de ingediende vorderingen. Het verschil met de totale vordering houdt de factor achter als waarborg voor de betaling door de leverancier van alle schulden die hij zou kunnen hebben t.o.v. de factor,[^20] en wordt aan de leverancier betaald wanneer de debiteur zijn factuur heeft betaald.
 
 #### Voorkeursbenadering
 
@@ -302,8 +297,7 @@ De Commissie is van oordeel dat factoring met financiering en zonder risicodekki
 | | 040 | Derden, houders in hun naam, maar ten bate en voor risico van de onderneming van goederen en waarden | | |
 | aan | 041 | Goederen en waarden gehouden door derden in hun naam, maar ten bate en voor risico van de onderneming | | |
 
-### Factoringovereenkomst met financiering en insolventiedekking (old line factorin g)
-
+Factoringovereenkomst met financiering en insolventiedekking (old line factorin g)
 Bij deze factoringvariant financiert de factor de overgenomen vorderingen en neemt tevens het insolventierisico over. 
 
 #### Voorkeursbenadering

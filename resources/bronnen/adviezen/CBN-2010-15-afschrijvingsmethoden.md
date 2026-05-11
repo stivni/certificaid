@@ -1,6 +1,55 @@
 ---
-nummer: CBN-advies 2010/15
+bron: https://www.cbn-cnc.be/nl/adviezen/afschrijvingsmethoden
 datum: 2010-10-06
+nummer: CBN-advies 2010/15
+provenance:
+  generated_at: '2026-05-11T13:05:08Z'
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/afschrijvingsmethoden
+      sha256: 05e9e21fba9ce48c9b7b4a9124423c7ed3139d641800094a23c7b2e73604d6d0
+      version:
+  stale: false
+  stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
+  trust:
+    confirmed_at: '2026-05-11T12:09:17Z'
+    confirmed_by: subagent-sonnet-4-6
+    layer1:
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:27Z'
+      heading_count: 13
+      max_section_chars: 6418
+      file_size_chars: 23989
+      flags: []
+    layer2:
+      agent: subagent-sonnet-4-6
+      concrete_problemen:
+        - categorie: A3
+          regel: 61
+          type: other
+          voorbeeld: 1. Waarderingsregels \n  1. Algemeen \n  2. Oprichtingskosten ...
+        - categorie: A3
+          regel: 76
+          type: other
+          voorbeeld: -- Lineaire afschrijvingsmethoden-- Boekhoudkundige degressieve afschrijvingsmethoden-- ...
+        - categorie: D4
+          regel: 190
+          type: other
+          voorbeeld: '*Voorbeeld '
+        - categorie: D4
+          regel: 204
+          type: other
+          voorbeeld: '- *Gemengde bedrijfsdrukte * '
+      rationale: 'Regel 61–76: een genummerde inhoudsopgave staat als plain text in de body, inclusief een samengeperste dubbele TOC-regel op regel 76 (''-- Lineaire afschrijvingsmethoden-- Boekhoudkundige...''). Dit is een A3/A2-artefact (TOC-fragment verdubbeld en als plain text gerenderd). Regel 190: opening italic-marker ''*Voorbeeld'' zonder sluit-asterisk op diezelfde regel (D4). Regel 204: ''*Gemengde bedrijfsdrukte *'' — spatie voor sluit-asterisk geeft malformed italic. Inhoud zelf compleet.'
+      run_at: '2026-05-11T12:09:17Z'
+      status: needs-rework
+    rationale: 'Regel 61–76: een genummerde inhoudsopgave staat als plain text in de body, inclusief een samengeperste dubbele TOC-regel op regel 76 (''-- Lineaire afschrijvingsmethoden-- Boekhoudkundige...''). Dit is een A3/A2-artefact (TOC-fragment verdubbeld en als plain text gerenderd). Regel 190: opening italic-marker ''*Voorbeeld'' zonder sluit-asterisk op diezelfde regel (D4). Regel 204: ''*Gemengde bedrijfsdrukte *'' — spatie voor sluit-asterisk geeft malformed italic. Inhoud zelf compleet.'
+    status: needs-rework
 themas:
   - af te schrijven waarde
   - afschrijvingen
@@ -21,55 +70,6 @@ themas:
   - vaste activa
   - versnelde afschrijvingsmethode
   - waarderingsregels
-bron: https://www.cbn-cnc.be/nl/adviezen/afschrijvingsmethoden
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/afschrijvingsmethoden
-      sha256: 05e9e21fba9ce48c9b7b4a9124423c7ed3139d641800094a23c7b2e73604d6d0
-      version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:36:02Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T12:09:17Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "Regel 61–76: een genummerde inhoudsopgave staat als plain text in de body, inclusief een samengeperste dubbele TOC-regel op regel 76 ('-- Lineaire afschrijvingsmethoden-- Boekhoudkundige...'). Dit is een A3/A2-artefact (TOC-fragment verdubbeld en als plain text gerenderd). Regel 190: opening italic-marker '*Voorbeeld' zonder sluit-asterisk op diezelfde regel (D4). Regel 204: '*Gemengde bedrijfsdrukte *' — spatie voor sluit-asterisk geeft malformed italic. Inhoud zelf compleet."
-    layer1:
-      status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 13
-      max_section_chars: 6419
-      file_size_chars: 24171
-      flags: []
-    layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:09:17Z'
-      rationale: "Regel 61–76: een genummerde inhoudsopgave staat als plain text in de body, inclusief een samengeperste dubbele TOC-regel op regel 76 ('-- Lineaire afschrijvingsmethoden-- Boekhoudkundige...'). Dit is een A3/A2-artefact (TOC-fragment verdubbeld en als plain text gerenderd). Regel 190: opening italic-marker '*Voorbeeld' zonder sluit-asterisk op diezelfde regel (D4). Regel 204: '*Gemengde bedrijfsdrukte *' — spatie voor sluit-asterisk geeft malformed italic. Inhoud zelf compleet."
-      concrete_problemen:
-        - regel: 61
-          categorie: A3
-          type: other
-          voorbeeld: 1. Waarderingsregels \n  1. Algemeen \n  2. Oprichtingskosten ...
-        - regel: 76
-          categorie: A3
-          type: other
-          voorbeeld: -- Lineaire afschrijvingsmethoden-- Boekhoudkundige degressieve afschrijvingsmethoden-- ...
-        - regel: 190
-          categorie: D4
-          type: other
-          voorbeeld: '*Voorbeeld '
-        - regel: 204
-          categorie: D4
-          type: other
-          voorbeeld: '- *Gemengde bedrijfsdrukte * '
 ---
 
 # CBN-advies 2010/15 - Afschrijvingsmethoden Advies van 6 oktober 2010
@@ -89,11 +89,9 @@ provenance:
   3. Progressieve afschrijvingsmethoden 
   4. Versnelde (fiscaal aanvaarde) afschrijvingsmethoden 
 
--- Lineaire afschrijvingsmethoden-- Boekhoudkundige degressieve afschrijvingsmethoden-- Progressieve afschrijvingsmethoden-- Versnelde (fiscaal aanvaarde) afschrijvingsmethoden 
-
 ## Inleiding
 
-Bij de vaste activa worden die vermogensbestanddelen ingedeeld die bestemd zijn om duurzaam voor de bedrijfsuitoefening te worden gebruikt[^1]. Men kan ook zeggen dat vaste activa worden *ge*bruikt, waartegenover vlottende activa worden *ver*bruikt. Vele vaste activa hebben echter een beperkte economische levensduur. Beperkte economische levensduur duidt op een tenietgaan in de tijd van het nut van het vast actief als ondernemingsmiddel. De daling van het nut wordt stelselmatig uitgedrukt via afschrijvingen. Afschrijvingen dienen om de kost van investeringen met beperkte levensduur gespreid ten laste te nemen.
+Bij de vaste activa worden die vermogensbestanddelen ingedeeld die bestemd zijn om duurzaam voor de bedrijfsuitoefening te worden gebruikt[^1]. Men kan ook zeggen dat vaste activa worden *ge*bruikt, waartegenover vlottende activa worden* ver*bruikt. Vele vaste activa hebben echter een beperkte economische levensduur. Beperkte economische levensduur duidt op een tenietgaan in de tijd van het nut van het vast actief als ondernemingsmiddel. De daling van het nut wordt stelselmatig uitgedrukt via afschrijvingen. Afschrijvingen dienen om de kost van investeringen met beperkte levensduur gespreid ten laste te nemen.
 
 ## Waarderingsregels
 
@@ -175,9 +173,7 @@ Ten slotte, als de gebruikswaarde van het goed op blijvende wijze de waarde waar
 
 ## Afschrijvingsperiode
 
-Afschrijvingen verdelen de kosten van verwerving van het vast actief over hun waarschijnlijke nuttigheids- of gebruiksduur, of nog de economische levensduur van het actief. Deze levensduur moet geschat worden. De nuttigheids- of gebruiksduur wordt beïnvloed door technische[^21]
- en economische[^22]
- slijtage.
+Afschrijvingen verdelen de kosten van verwerving van het vast actief over hun waarschijnlijke nuttigheids- of gebruiksduur, of nog de economische levensduur van het actief. Deze levensduur moet geschat worden. De nuttigheids- of gebruiksduur wordt beïnvloed door technische[^21] en economische[^22] slijtage.
 
 Deze economische levensduur kan uitgedrukt worden in tijdseenheden, verbruikseenheden of een combinatie van beide:
 
@@ -217,7 +213,7 @@ Bij afschrijvingen volgens zuivere bedrijfsdrukte wordt de levensduur van het ac
 
 *Een drukkerij koopt een drukpers voor 100.000 euro (aankoopprijs, inclusief alle bijkomende kosten). Men schat dat met deze drukpers 10.000.000 kranten kunnen gedrukt worden. De afschrijvingskost per krant bedraagt dan 100.000 / 10.000.000 = 0,01 euro. In jaar X worden 2.300.000 kranten gedrukt, bijgevolg moet er een afschrijving van 23.000 euro geboekt worden.* 
 
-- *Gemengde bedrijfsdrukte * 
+- *Gemengde bedrijfsdrukte*  
 
 De basis voor de afschrijvingen is dubbel bij deze afschrijvingsmethode. Het actief wordt gelijkmatig naar gebruik afgeschreven, voor zover dit gebruik leidt tot een afschrijving die hoger is dan het* pro rata* van het gebruik over de maximale duurtijd. Is het kwantitatief gebruik over een tijdsperiode lager dan dat pro rata, dan zal men de tijd als basis voor de afschrijving nemen. 
 
@@ -249,8 +245,7 @@ De Commissie is van oordeel dat het uitwerken van een progressief afschrijvingsp
 
 ### Versnelde (fiscaal aanvaarde) afschrijvingsmethoden
 
-Ten tijde van de uitvaardiging van het koninklijk besluit van 8 oktober 1976[^29], waren er twee gekende fiscale stelsels van versnelde afschrijvingen, meer bepaald de degressieve afschrijving[^30]
- en de dubbele lineaire afschrijving[^31]. De tekst van artikel 28 van het KB van 8 oktober 1976 verwees echter niet uitdrukkelijk naar deze twee regimes. De tekst werd zeer algemeen opgesteld om de diverse technieken te kunnen omvatten van fiscaal aanvaarde versnelde afschrijvingen die in de fiscale reglementering opgenomen zouden kunnen worden[^32]. Bijgevolg zijn alle fiscaal aanvaarde versnelde afschrijvingssystemen toegelaten op grond van de artikelen 61, § 1, eerste lid en 64, §1, eerste lid KB W.Venn[^33].
+Ten tijde van de uitvaardiging van het koninklijk besluit van 8 oktober 1976[^29], waren er twee gekende fiscale stelsels van versnelde afschrijvingen, meer bepaald de degressieve afschrijving[^30] en de dubbele lineaire afschrijving[^31]. De tekst van artikel 28 van het KB van 8 oktober 1976 verwees echter niet uitdrukkelijk naar deze twee regimes. De tekst werd zeer algemeen opgesteld om de diverse technieken te kunnen omvatten van fiscaal aanvaarde versnelde afschrijvingen die in de fiscale reglementering opgenomen zouden kunnen worden[^32]. Bijgevolg zijn alle fiscaal aanvaarde versnelde afschrijvingssystemen toegelaten op grond van de artikelen 61, § 1, eerste lid en 64, §1, eerste lid KB W.Venn[^33].
 
 Wanneer de toepassing van een plan voor versnelde afschrijving met zich zou brengen dat aanzienlijk vlugger wordt afgeschreven dan economisch verantwoord, moet er in de toelichting melding gemaakt worden van het verschil tussen het gecumuleerd bedrag van de geboekte afschrijvingen en dat van de economisch verantwoorde afschrijvingen. Tevens moet de invloed worden aangegeven van de tijdens het boekjaar of tijdens vorige boekjaren geboekte versnelde afschrijvingen op het bedrag van de afschrijvingen in de resultatenrekening van het boekjaar[^34], in vergelijking met de economisch verantwoorde afschrijvingen.
 

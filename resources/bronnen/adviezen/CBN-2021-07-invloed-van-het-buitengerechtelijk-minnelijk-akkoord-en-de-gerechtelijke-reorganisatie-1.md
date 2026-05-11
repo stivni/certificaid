@@ -1,6 +1,81 @@
 ---
-nummer: CBN-advies 2021/07
+bron: https://www.cbn-cnc.be/nl/adviezen/invloed-van-het-buitengerechtelijk-minnelijk-akkoord-en-de-gerechtelijke-reorganisatie-1
 datum: 2021-05-12
+gerelateerde_adviezen:
+  - datum: '2018-11-19'
+    titel: Going concern - Waarderingsregels bij de stopzetting of gedeeltelijke stopzetting van het bedrijf van een onderneming
+    url: https://www.cbn-cnc.be/nl/adviezen/going-concern-waarderingsregels-bij-de-stopzetting-of-gedeeltelijke-stopzetting-van-het
+  - datum: '2011-04-06'
+    titel: Invloed van het buitengerechtelijk minnelijk akkoord en de gerechtelijke reorganisatie op de schulden en vorderingen
+    url: https://www.cbn-cnc.be/nl/adviezen/invloed-van-het-buitengerechtelijk-minnelijk-akkoord-en-de-gerechtelijke-reorganisatie-op
+  - datum: '1998-03-01'
+    titel: '- Verwerking in de jaarrekening over het boekjaar 1996 en de daaropvolgende boekjaren, van de «Maribel bis en ter»-steun toegekend voor de boekjaren 1993, 1994, 1995 en 1996'
+    url: https://www.cbn-cnc.be/nl/adviezen/verwerking-in-de-jaarrekening-over-het-boekjaar-1996-en-de-daaropvolgende-boekjaren-van-de
+nummer: CBN-advies 2021/07
+provenance:
+  generated_at: '2026-05-11T13:05:08Z'
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/invloed-van-het-buitengerechtelijk-minnelijk-akkoord-en-de-gerechtelijke-reorganisatie-1
+      sha256: 8f62b9e08b4b1a75a1c78cf20f4d3129914beca349cf84250a3c634991e376e7
+      version:
+  stale: false
+  stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
+  trust:
+    confirmed_at: '2026-05-11T12:21:40Z'
+    confirmed_by: subagent-sonnet-4-6
+    layer1:
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:30Z'
+      heading_count: 29
+      max_section_chars: 23710
+      file_size_chars: 40177
+      flags: []
+    layer2:
+      agent: subagent-sonnet-4-6
+      concrete_problemen:
+        - categorie: D3
+          regel: 101
+          type: other
+          voorbeeld: ' [^13]'
+        - categorie: D3
+          regel: 288
+          type: other
+          voorbeeld: '[^39]'
+        - categorie: D3
+          regel: 295
+          type: other
+          voorbeeld: '[^40]'
+        - categorie: D3
+          regel: 368
+          type: other
+          voorbeeld: '[^42]'
+        - categorie: D3
+          regel: 375
+          type: other
+          voorbeeld: '[^43]'
+        - categorie: D3
+          regel: 440
+          type: other
+          voorbeeld: '[^46]'
+        - categorie: D3
+          regel: 449
+          type: other
+          voorbeeld: ' [^47]'
+        - categorie: A6
+          regel: 72
+          type: other
+          voorbeeld: wet van 11 augustus 2017 heeft Boek XX … toegevoegd[^2]\n samenhangender te maken…
+      rationale: 'D3: zeven orphan footnote-markers als losstaande regels tussen boekingstabellen (L101, L288, L295, L368, L375, L440, L449) — dezelfde extractie-artefact als in CBN-2021-04, waarbij anchor-verwijzingen naar tabel-contextuele noten op een eigen lege regel staan. A6: footnote-anker op L72 splitst een zin over twee regels. De rest van het advies is inhoudelijk compleet en correct met 29 headings en alle 47 voetnootdefinities aanwezig.'
+      run_at: '2026-05-11T12:21:40Z'
+      status: needs-rework
+    rationale: 'D3: zeven orphan footnote-markers als losstaande regels tussen boekingstabellen (L101, L288, L295, L368, L375, L440, L449) — dezelfde extractie-artefact als in CBN-2021-04, waarbij anchor-verwijzingen naar tabel-contextuele noten op een eigen lege regel staan. A6: footnote-anker op L72 splitst een zin over twee regels. De rest van het advies is inhoudelijk compleet en correct met 29 headings en alle 47 voetnootdefinities aanwezig.'
+    status: needs-rework
 themas:
   - minnelijk akkoord
   - gerechtelijke reorganisatie
@@ -20,89 +95,13 @@ themas:
   - conventionele waarde
   - omzetting schuldvordering
   - inbreng schuldvordering
-bron: https://www.cbn-cnc.be/nl/adviezen/invloed-van-het-buitengerechtelijk-minnelijk-akkoord-en-de-gerechtelijke-reorganisatie-1
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/invloed-van-het-buitengerechtelijk-minnelijk-akkoord-en-de-gerechtelijke-reorganisatie-1
-      sha256: 8f62b9e08b4b1a75a1c78cf20f4d3129914beca349cf84250a3c634991e376e7
-      version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:37:58Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T12:21:40Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: 'D3: zeven orphan footnote-markers als losstaande regels tussen boekingstabellen (L101, L288, L295, L368, L375, L440, L449) — dezelfde extractie-artefact als in CBN-2021-04, waarbij anchor-verwijzingen naar tabel-contextuele noten op een eigen lege regel staan. A6: footnote-anker op L72 splitst een zin over twee regels. De rest van het advies is inhoudelijk compleet en correct met 29 headings en alle 47 voetnootdefinities aanwezig.'
-    layer1:
-      status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 29
-      max_section_chars: 23743
-      file_size_chars: 40222
-      flags: []
-    layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:21:40Z'
-      rationale: 'D3: zeven orphan footnote-markers als losstaande regels tussen boekingstabellen (L101, L288, L295, L368, L375, L440, L449) — dezelfde extractie-artefact als in CBN-2021-04, waarbij anchor-verwijzingen naar tabel-contextuele noten op een eigen lege regel staan. A6: footnote-anker op L72 splitst een zin over twee regels. De rest van het advies is inhoudelijk compleet en correct met 29 headings en alle 47 voetnootdefinities aanwezig.'
-      concrete_problemen:
-        - regel: 101
-          categorie: D3
-          type: other
-          voorbeeld: ' [^13]'
-        - regel: 288
-          categorie: D3
-          type: other
-          voorbeeld: '[^39]'
-        - regel: 295
-          categorie: D3
-          type: other
-          voorbeeld: '[^40]'
-        - regel: 368
-          categorie: D3
-          type: other
-          voorbeeld: '[^42]'
-        - regel: 375
-          categorie: D3
-          type: other
-          voorbeeld: '[^43]'
-        - regel: 440
-          categorie: D3
-          type: other
-          voorbeeld: '[^46]'
-        - regel: 449
-          categorie: D3
-          type: other
-          voorbeeld: ' [^47]'
-        - regel: 72
-          categorie: A6
-          type: other
-          voorbeeld: wet van 11 augustus 2017 heeft Boek XX … toegevoegd[^2]\n samenhangender te maken…
-gerelateerde_adviezen:
-  - titel: Going concern - Waarderingsregels bij de stopzetting of gedeeltelijke stopzetting van het bedrijf van een onderneming
-    url: https://www.cbn-cnc.be/nl/adviezen/going-concern-waarderingsregels-bij-de-stopzetting-of-gedeeltelijke-stopzetting-van-het
-    datum: '2018-11-19'
-  - titel: Invloed van het buitengerechtelijk minnelijk akkoord en de gerechtelijke reorganisatie op de schulden en vorderingen
-    url: https://www.cbn-cnc.be/nl/adviezen/invloed-van-het-buitengerechtelijk-minnelijk-akkoord-en-de-gerechtelijke-reorganisatie-op
-    datum: '2011-04-06'
-  - titel: '- Verwerking in de jaarrekening over het boekjaar 1996 en de daaropvolgende boekjaren, van de «Maribel bis en ter»-steun toegekend voor de boekjaren 1993, 1994, 1995 en 1996'
-    url: https://www.cbn-cnc.be/nl/adviezen/verwerking-in-de-jaarrekening-over-het-boekjaar-1996-en-de-daaropvolgende-boekjaren-van-de
-    datum: '1998-03-01'
 ---
 
 # CBN-advies 2021/07 - Invloed van het buitengerechtelijk minnelijk akkoord en de gerechtelijke reorganisatie op de schulden en vorderingen (update)
 
 ## Inleiding
 
-De wet van 11 augustus 2017 heeft Boek XX “Insolventie van ondernemingen” toegevoegd aan het Wetboek van economisch recht. De bedoeling hiervan is om de wetten inzake insolventie[^2]
- samenhangender te maken en ze als een rationeel geheel in het Wetboek van economisch recht te voegen[^3]. 
+De wet van 11 augustus 2017 heeft Boek XX “Insolventie van ondernemingen” toegevoegd aan het Wetboek van economisch recht. De bedoeling hiervan is om de wetten inzake insolventie[^2] samenhangender te maken en ze als een rationeel geheel in het Wetboek van economisch recht te voegen[^3]. 
 
 De wetgever heeft overigens in de wet van 15 april 2018 het begrip “onderneming” bepaald. Er bestonden immers uiteenlopende definities van een onderneming in verschillende wetteksten[^4]. Het begrip “onderneming” is nu te vinden in artikel I.1 van het Wetboek van economisch recht. De bedoeling is dat met deze definitie alle actoren die economisch actief zijn, worden gedekt[^5].
 
@@ -130,8 +129,6 @@ Onderhavig advies vervangt *CBN-advies 2011/9 - Invloed van het buitengerechteli
 
 Wanneer het buitengerechtelijk minnelijk akkoord of de gerechtelijk reorganisatie voorziet in een kwijtschelding van alle of een deel van de schulden, dan betekent zulks dat, ook al is deze kwijtschelding gebonden aan een ontbindende voorwaarde[^12], deze schuld niet langer het vermogen van de schuldenaar effectief bezwaart. De betrokken schuld moet bijgevolg van het passief van de schuldenaar worden afgeboekt, wat leidt tot een vermogensaangroei. Deze wijziging in de toestand moet in de resultatenrekening tot uiting worden gebracht onder de *Andere niet-recurrente bedrijfsopbrengsten*; de aard van deze opbrengst wordt in de toelichting besproken.
 
- [^13]
-
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 44 of 175 | Handelsschulden | | |
@@ -141,9 +138,7 @@ Deze boeking dient bij een buitengerechtelijk minnelijk akkoord te gebeuren op h
 
 Artikel 48/1 van het Wetboek van de inkomstenbelastingen 1992 (hierna: WIB 92) stelt dat de winst die voortvloeit uit de minderwaarden die door de schuldenaar zijn opgetekend op bestanddelen van het passief ten gevolge van de homologatie van een reorganisatieplan door de rechtbank of ten gevolge van de vaststelling door de rechtbank van een minnelijk akkoord krachtens boek XX, titel V van het Wetboek van economisch recht, wordt vrijgesteld volgens de nadere toepassingsregels die de Koning vaststelt[^14]. Deze vrijstelling is evenwel enkel van toepassing voor de gerechtelijke reorganisaties (minnelijk en collectief akkoord). Deze vrijstelling wordt niet verleend binnen het kader van een buitengerechtelijk minnelijk akkoord.
 
-De in artikel 48/1 WIB 92 bedoelde vrijstelling wordt pas definitief verleend in het aanslagjaar dat verbonden is aan het belastbare tijdperk tijdens hetwelk het door de rechtbank gehomologeerd reorganisatieplan of het door de rechtbank vastgesteld minnelijk akkoord[^15]
- volledig is uitgevoerd[^16]. Vóór de volledige tenuitvoerlegging van het plan of akkoord kan evenwel onder bepaalde voorwaarden reeds een tijdelijke, voorwaardelijke vrijstelling van de opbrengst uit de vermindering van de schuld worden genoten. Eén van de voorwaarden is dat de vrijgestelde winst op een afzonderlijke rekening van het passief moet worden geboekt tot op de datum waarop het reorganisatieplan of minnelijk akkoord[^17]
- volledig is uitgevoerd[^18].
+De in artikel 48/1 WIB 92 bedoelde vrijstelling wordt pas definitief verleend in het aanslagjaar dat verbonden is aan het belastbare tijdperk tijdens hetwelk het door de rechtbank gehomologeerd reorganisatieplan of het door de rechtbank vastgesteld minnelijk akkoord[^15] volledig is uitgevoerd[^16]. Vóór de volledige tenuitvoerlegging van het plan of akkoord kan evenwel onder bepaalde voorwaarden reeds een tijdelijke, voorwaardelijke vrijstelling van de opbrengst uit de vermindering van de schuld worden genoten. Eén van de voorwaarden is dat de vrijgestelde winst op een afzonderlijke rekening van het passief moet worden geboekt tot op de datum waarop het reorganisatieplan of minnelijk akkoord[^17] volledig is uitgevoerd[^18].
 
 Indien de schuldenaar van deze tijdelijke vrijstelling wil genieten, zal hij naar het oordeel van de Commissie een belastingvrije reserve moeten aanleggen ten belope van het bedrag van de niet-recurrente opbrengst.
 
@@ -154,7 +149,7 @@ Indien de schuldenaar van deze tijdelijke vrijstelling wil genieten, zal hij naa
 
 Als gevolg van de definitieve fiscale vrijstelling kan de schuldenaar in principe het bedrag van de belastingvrije reserves rechtstreeks overboeken naar de beschikbare reserves[^19]. De Commissie is echter van mening dat het meer aangewezen is om eerst een onttrekking aan de belastingvrije reserves te boeken en vervolgens een bestemming te geven aan het resultaat, bijvoorbeeld via een toevoeging aan de beschikbare reserves. Een rechtstreekse overboeking van de belastingvrije reserves naar de beschikbare reserves zou er immers voor zorgen dat het bedrag dat overeenstemt met de definitieve vrijstelling nooit wordt opgenomen in het te bestemmen resultaat. Tevens zou dit indruisen tegen de werking van de 68 en 78 rekeningen die opgenomen zijn in het minimum algemeen rekeningenstelsel.
 
-Indien de vermindering van de schuld gebonden is aan een ontbindende voorwaarde, wordt dit in de toelichting opgenomen en in de boekhouding in klasse 0 vermeld. Bij de eventuele vervulling van de ontbindende voorwaarde zal de terug effectief geworden latente schuld weer op het passief tot uitdrukking moeten worden gebracht. Deze wijziging in de toestand moet in de resultatenrekening tot uiting worden gebracht onder de *Andere niet-recurrente bedrijfskosten[^20] *; de aard van deze kost wordt in de toelichting besproken.
+Indien de vermindering van de schuld gebonden is aan een ontbindende voorwaarde, wordt dit in de toelichting opgenomen en in de boekhouding in klasse 0 vermeld. Bij de eventuele vervulling van de ontbindende voorwaarde zal de terug effectief geworden latente schuld weer op het passief tot uitdrukking moeten worden gebracht. Deze wijziging in de toestand moet in de resultatenrekening tot uiting worden gebracht onder de *Andere niet-recurrente bedrijfskosten[^20]* ; de aard van deze kost wordt in de toelichting besproken.
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
@@ -168,8 +163,7 @@ De belastingvrije reserve wordt vervolgens teruggenomen gebruik makende van een 
 | | 132 | Belastingvrije reserves | | |
 | aan | 789 | Onttrekking aan de belastingvrije reserves | | |
 
-Wordt het buitengerechtelijk minnelijk of gerechtelijk minnelijk/collectief akkoord voortijdig beëindigd[^21]
- of ingetrokken, dan moeten desgevallend de hiermee verband houdende eerder verrichte boekingen ook worden tegengeboekt. 
+Wordt het buitengerechtelijk minnelijk of gerechtelijk minnelijk/collectief akkoord voortijdig beëindigd[^21] of ingetrokken, dan moeten desgevallend de hiermee verband houdende eerder verrichte boekingen ook worden tegengeboekt. 
 
 Deze tegenboekingen dienen te gebeuren op het ogenblik waarop de voorwaarde is vervuld of het akkoord voortijdig wordt beëindigd of ingetrokken.
 
@@ -266,8 +260,7 @@ De Commissie verwijst naar punt III.A.
 
 ## Boekhoudkundige verwerking van de omzetting van (een deel van) de schuldvordering in kapitaal, in inbreng of in eigen vermogen
 
-De schuldeiser kan ook met een schuldenaar overeenkomen dat (een gedeelte van) zijn vordering zal worden omgezet in kapitaal voor kapitaalhoudende vennootschappen, in inbreng voor kapitaalloze vennootschappen of in eigen vermogen voor VZW’s, IVZW’s en stichtingen. Indien een deel van de schuld kwijtgescholden wordt, dan moet dat deel van het passief van de schuldenaar worden afgeboekt[^32]
- en dient de schuldeiser een waardevermindering op zijn schuldvordering te boeken[^33]. 
+De schuldeiser kan ook met een schuldenaar overeenkomen dat (een gedeelte van) zijn vordering zal worden omgezet in kapitaal voor kapitaalhoudende vennootschappen, in inbreng voor kapitaalloze vennootschappen of in eigen vermogen voor VZW’s, IVZW’s en stichtingen. Indien een deel van de schuld kwijtgescholden wordt, dan moet dat deel van het passief van de schuldenaar worden afgeboekt[^32] en dient de schuldeiser een waardevermindering op zijn schuldvordering te boeken[^33]. 
 
 ### Kapitaalhoudende vennootschappen
 
@@ -283,7 +276,7 @@ De Commissie is, op basis van de rechtsleer, van oordeel dat de schuldvordering 
 
 De operatie heeft voor de vennootschap in ieder geval tot gevolg dat haar netto-actief stijgt ten belope van de nominale waarde van de schuldvordering, aangezien de ingebrachte schuldvordering niet langer een opeisbare schuld vormt, maar werd omgezet in eigen vermogen.
 
-## Voorbeeld 1
+### *Voorbeeld 1*
 
 Een kapitaalhoudende vennootschap verkeert in financiële problemen en een van de schuldeisers gaat akkoord om een schuld met nominale waarde van 100.000 euro om te zetten in kapitaal.
 
@@ -317,14 +310,10 @@ De economische waarde van deze vordering wordt geschat op 80.000 euro. De schuld
 | | 44 of 175 | Handelsschulden | 80.000 | |
 | aan | 100 | Geplaatst kapitaal | | 80.000 |
 
-[^39]
-
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 44 of 175 | Handelsschulden | 20.000 | |
 | aan | 764-768 | Andere niet-recurrente bedrijfsopbrengsten | | 20.000 |
-
-[^40]
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
@@ -343,7 +332,7 @@ De balans van de vennootschap ziet er, na de inbreng van de schuldvordering, als
 
 Artikel 3:19, § 1 KB WVV bepaalt dat de aanschaffingswaarde van deelnemingen of aandelen ontvangen als vergoeding voor inbrengen die niet bestaan in contanten of die voortkomen uit de omzetting van vorderingen, overeenstemt met de conventionele waarde van de ingebrachte goederen en waarden of van de omgezette vorderingen. 
 
-## Voorbeeld 2
+### *Voorbeeld 2*
 
 Stel dat de schuldeiser reeds een waardevermindering van 10.000 euro boekte op zijn vordering en dat hij voor de inbreng van zijn schuldvordering aandelen ontvangt met een werkelijke waarde van 80.000 euro, dan zal hij bijgevolg de volgende boeking dienen te verrichten:
 
@@ -363,7 +352,7 @@ De boekhoudkundige verwerking is vergelijkbaar met die van de omzetting van een 
 
 Gezien de verschillende strekkingen in de rechtsleer over de waarde waartegen een schuldvordering moet worden ingebracht, dient er tevens een onderscheid te worden gemaakt tussen het waarderen van de schuldvordering tegen de nominale waarde en tegen de economische waarde. 
 
-## Voorbeeld 3
+### *Voorbeeld 3*
 
 Een kapitaalloze vennootschap verkeert in financiële problemen en een van de schuldeisers gaat akkoord om een schuld met nominale waarde van 100.000 euro om te zetten in een inbreng.
 
@@ -397,14 +386,10 @@ De economische waarde van deze vordering wordt geschat op 80.000 euro. De schuld
 | | 44 of 175 | Handelsschulden | 80.000 | |
 | aan | 1109 | Andere beschikbare inbreng buiten kapitaal | | 80.000 |
 
-[^42]
-
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 44 of 175 | Handelsschulden | 20.000 | |
 | aan | 764-768 | Andere niet-recurrente bedrijfsopbrengsten | | 20.000 |
-
-[^43]
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
@@ -427,13 +412,11 @@ De boekhoudkundige verwerking is vergelijkbaar met die van de omzetting van een 
 
 #### Bij de schuldenaar 
 
-De boekhoudkundige verwerking is vergelijkbaar met die van de omzetting van een schuldvordering in kapitaal[^44]
- bij de schuldenaar (zoals uitgelegd in punt IV.A.1.). Er worden wel andere rekeningen gebruikt.
+De boekhoudkundige verwerking is vergelijkbaar met die van de omzetting van een schuldvordering in kapitaal[^44] bij de schuldenaar (zoals uitgelegd in punt IV.A.1.). Er worden wel andere rekeningen gebruikt.
 
-Gezien de verschillende strekkingen in de rechtsleer over de waarde waartegen een schuldvordering[^45]
- moet worden ingebracht, dient er tevens een onderscheid te worden gemaakt tussen het waarderen van de schuldvordering tegen de nominale waarde en tegen de economische waarde. 
+Gezien de verschillende strekkingen in de rechtsleer over de waarde waartegen een schuldvordering[^45] moet worden ingebracht, dient er tevens een onderscheid te worden gemaakt tussen het waarderen van de schuldvordering tegen de nominale waarde en tegen de economische waarde. 
 
-## Voorbeeld 4
+### *Voorbeeld 4* 
 
 Een vereniging verkeert in financiële problemen en een van de schuldeisers gaat akkoord om een schuld met nominale waarde van 100.000 euro om te zetten in fondsen.
 
@@ -469,16 +452,12 @@ De economische waarde van deze vordering wordt geschat op 80.000 euro. De schuld
 | | XX | Schulden | 80.000 | |
 | aan | 10 | Fondsen van de vereniging of stichting | | 80.000 |
 
-[^46]
-
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | XX | Schulden | 20.000 | |
 | aan | 764-768 | Andere niet-recurrente bedrijfsopbrengsten | | 20.000 |
 
 En voor zover de vereniging geen rechtspersoon is die onderworpen is aan de rechtspersonenbelasting maar aan de vennootschapsbelasting:
-
- [^47]
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|

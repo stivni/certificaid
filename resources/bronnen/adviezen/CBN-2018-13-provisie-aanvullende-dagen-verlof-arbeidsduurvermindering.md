@@ -1,6 +1,47 @@
 ---
-nummer: CBN-advies 2018/13
+bron: https://www.cbn-cnc.be/nl/adviezen/provisie-aanvullende-dagen-verlof-arbeidsduurvermindering
 datum: 2018-05-30
+nummer: CBN-advies 2018/13
+provenance:
+  generated_at: '2026-05-11T13:05:08Z'
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/provisie-aanvullende-dagen-verlof-arbeidsduurvermindering
+      sha256: b628cdfb65bc905f228c256ec3eeaec820ce3d97ccddc11bc7973be31a7556d8
+      version:
+  stale: false
+  stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
+  trust:
+    confirmed_at: '2026-05-11T12:21:40Z'
+    confirmed_by: subagent-sonnet-4-6
+    layer1:
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:29Z'
+      heading_count: 2
+      max_section_chars: 2519
+      file_size_chars: 5162
+      flags: []
+    layer2:
+      agent: subagent-sonnet-4-6
+      concrete_problemen:
+        - categorie: D4
+          regel: 66
+          type: other
+          voorbeeld: Voor werknemers die* in vast dienstverband[^4] * werken
+        - categorie: D4
+          regel: 68
+          type: other
+          voorbeeld: rekening 444 *Te ontvangen facturen. *
+      rationale: 'D4: drie gevallen van malformed italic op regels 66 en 68 (''die* in vast dienstverband[^4] *'', ''*Te ontvangen facturen. *'') waarbij de spatie vóór de sluitende asterisk staat. Regel 66 heeft ook een asterisk vóór de tekst (opens middenin een zin). Verder inhoud structureel compleet en correct.'
+      run_at: '2026-05-11T12:21:40Z'
+      status: needs-rework
+    rationale: 'D4: drie gevallen van malformed italic op regels 66 en 68 (''die* in vast dienstverband[^4] *'', ''*Te ontvangen facturen. *'') waarbij de spatie vóór de sluitende asterisk staat. Regel 66 heeft ook een asterisk vóór de tekst (opens middenin een zin). Verder inhoud structureel compleet en correct.'
+    status: needs-rework
 themas:
   - arbeidsduurvermindering
   - adv-dagen
@@ -9,47 +50,6 @@ themas:
   - interimpersoneel
   - interimkracht
   - vakantiegeld
-bron: https://www.cbn-cnc.be/nl/adviezen/provisie-aanvullende-dagen-verlof-arbeidsduurvermindering
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/provisie-aanvullende-dagen-verlof-arbeidsduurvermindering
-      sha256: b628cdfb65bc905f228c256ec3eeaec820ce3d97ccddc11bc7973be31a7556d8
-      version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:37:23Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T12:21:40Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "D4: drie gevallen van malformed italic op regels 66 en 68 ('die* in vast dienstverband[^4] *', '*Te ontvangen facturen. *') waarbij de spatie vóór de sluitende asterisk staat. Regel 66 heeft ook een asterisk vóór de tekst (opens middenin een zin). Verder inhoud structureel compleet en correct."
-    layer1:
-      status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 2
-      max_section_chars: 2519
-      file_size_chars: 5162
-      flags: []
-    layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:21:40Z'
-      rationale: "D4: drie gevallen van malformed italic op regels 66 en 68 ('die* in vast dienstverband[^4] *', '*Te ontvangen facturen. *') waarbij de spatie vóór de sluitende asterisk staat. Regel 66 heeft ook een asterisk vóór de tekst (opens middenin een zin). Verder inhoud structureel compleet en correct."
-      concrete_problemen:
-        - regel: 66
-          categorie: D4
-          type: other
-          voorbeeld: Voor werknemers die* in vast dienstverband[^4] * werken
-        - regel: 68
-          categorie: D4
-          type: other
-          voorbeeld: rekening 444 *Te ontvangen facturen. *
 ---
 
 # CBN-advies 2018/13 – Provisie aanvullende dagen verlof – Arbeidsduurvermindering
@@ -73,7 +73,7 @@ Gelet op het voorgaande is de Commissie van mening dat, in lijn met het CBN-advi
 
 Voor werknemers die* in vast dienstverband[^4] * werken, wordt ter voldoening van het door deze werknemers opgebouwde vakantiegeld dat op de balansdatum nog niet werd uitbetaald een provisie geboekt op de rekening 456 *Vakantiegeld*. De verplichting om een dergelijke provisie te boeken, geldt eveneens voor de door de werknemers tijdens het verstreken boekjaar opgebouwde aanvullende vakantiedagen die nog niet werden opgenomen op de balansdatum van het verstreken boekjaar.
 
-De bezoldiging van een uitzendkracht wordt niet rechtstreeks aan de tewerkgestelde uitzendkracht betaald. De onderneming ontvangt voor de prestaties van een uitzendkracht facturen van een uitzendkantoor. Dergelijke lasten worden geboekt op de rekening 617 *Uitzendkrachten en personen ter beschikking gesteld van de onderneming.* De door deze uitzendkrachten opgebouwde aanvullende vakantiedagen die op de balansdatum nog niet werden gefactureerd door het uitzendkantoor worden in afwachting van de ontvangst van de factuur waarin deze vergoeding vervat zit, geboekt op de rekening 444 *Te ontvangen facturen. *
+De bezoldiging van een uitzendkracht wordt niet rechtstreeks aan de tewerkgestelde uitzendkracht betaald. De onderneming ontvangt voor de prestaties van een uitzendkracht facturen van een uitzendkantoor. Dergelijke lasten worden geboekt op de rekening 617 *Uitzendkrachten en personen ter beschikking gesteld van de onderneming.* De door deze uitzendkrachten opgebouwde aanvullende vakantiedagen die op de balansdatum nog niet werden gefactureerd door het uitzendkantoor worden in afwachting van de ontvangst van de factuur waarin deze vergoeding vervat zit, geboekt op de rekening 444 *Te ontvangen facturen.* 
 
 [^1]: Onderhavig advies is tot stand gekomen nadat een ontwerpadvies op 4 april 2018 ter publieke consultatie werd gepubliceerd op de website van de CBN.
 

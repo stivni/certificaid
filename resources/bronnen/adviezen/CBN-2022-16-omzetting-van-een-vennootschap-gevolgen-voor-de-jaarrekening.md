@@ -1,6 +1,43 @@
 ---
-nummer: CBN-advies 2022/16
+bron: https://www.cbn-cnc.be/nl/adviezen/omzetting-van-een-vennootschap-gevolgen-voor-de-jaarrekening
 datum: 2022-12-21
+gerelateerde_adviezen:
+  - datum: '2021-11-22'
+    titel: 'Verenigingen en stichtingen: compensatie van negatieve fondsen'
+    url: https://www.cbn-cnc.be/nl/adviezen/verenigingen-en-stichtingen-compensatie-van-negatieve-fondsen
+nummer: CBN-advies 2022/16
+provenance:
+  generated_at: '2026-05-11T13:05:09Z'
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/omzetting-van-een-vennootschap-gevolgen-voor-de-jaarrekening
+      sha256: 3340dd01809e7f96942593815b28e17a7f8370d39f3a02cd4a3e2dd3acd9025b
+      version:
+  stale: false
+  stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
+  trust:
+    confirmed_at: '2026-05-11T12:24:34Z'
+    confirmed_by: subagent-sonnet-4-6
+    layer1:
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:31Z'
+      heading_count: 5
+      max_section_chars: 3142
+      file_size_chars: 7630
+      flags: []
+    layer2:
+      agent: subagent-sonnet-4-6
+      concrete_problemen: []
+      rationale: 'Kort advies (7 headings, ~7600 chars). Geen zichtbare extractie-artefacten: geen TOC-duplicaten, geen gebroken tabelcellen, geen malformed bold/italic, geen floating footnotes. Voetnoten [^1]–[^13] volledig gedefinieerd. Drie concrete voorbeelden correct als ### subsecties. Inhoud compleet voor het onderwerp (omzetting VOF→BV, BV→CommV, NV→BV).'
+      run_at: '2026-05-11T12:24:34Z'
+      status: trusted
+    rationale: 'Kort advies (7 headings, ~7600 chars). Geen zichtbare extractie-artefacten: geen TOC-duplicaten, geen gebroken tabelcellen, geen malformed bold/italic, geen floating footnotes. Voetnoten [^1]–[^13] volledig gedefinieerd. Drie concrete voorbeelden correct als ### subsecties. Inhoud compleet voor het onderwerp (omzetting VOF→BV, BV→CommV, NV→BV).'
+    status: trusted
 themas:
   - omzetting vennootschap
   - omzetting
@@ -13,51 +50,13 @@ themas:
   - publicatieverplichting
   - openbaarmakingsplicht
   - openbaarmakingsverplichting
-bron: https://www.cbn-cnc.be/nl/adviezen/omzetting-van-een-vennootschap-gevolgen-voor-de-jaarrekening
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/omzetting-van-een-vennootschap-gevolgen-voor-de-jaarrekening
-      sha256: 3340dd01809e7f96942593815b28e17a7f8370d39f3a02cd4a3e2dd3acd9025b
-      version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:38:17Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: trusted
-    confirmed_at: '2026-05-11T12:24:34Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: 'Kort advies (7 headings, ~7600 chars). Geen zichtbare extractie-artefacten: geen TOC-duplicaten, geen gebroken tabelcellen, geen malformed bold/italic, geen floating footnotes. Voetnoten [^1]–[^13] volledig gedefinieerd. Drie concrete voorbeelden correct als ### subsecties. Inhoud compleet voor het onderwerp (omzetting VOF→BV, BV→CommV, NV→BV).'
-    layer1:
-      status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 7
-      max_section_chars: 3709
-      file_size_chars: 7641
-      flags: []
-    layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:24:34Z'
-      rationale: 'Kort advies (7 headings, ~7600 chars). Geen zichtbare extractie-artefacten: geen TOC-duplicaten, geen gebroken tabelcellen, geen malformed bold/italic, geen floating footnotes. Voetnoten [^1]–[^13] volledig gedefinieerd. Drie concrete voorbeelden correct als ### subsecties. Inhoud compleet voor het onderwerp (omzetting VOF→BV, BV→CommV, NV→BV).'
-      concrete_problemen: []
-gerelateerde_adviezen:
-  - titel: 'Verenigingen en stichtingen: compensatie van negatieve fondsen'
-    url: https://www.cbn-cnc.be/nl/adviezen/verenigingen-en-stichtingen-compensatie-van-negatieve-fondsen
-    datum: '2021-11-22'
 ---
 
 # CBN-advies 2022/16 – Omzetting van een vennootschap: gevolgen voor de jaarrekening
 
 ## Inleiding
 
-De omzetting van een vennootschap[^2]
- kan worden gedefinieerd als de aanname van een nieuwe rechtsvorm met behoud van de rechtspersoonlijkheid van de vennootschap.[^3] 
+De omzetting van een vennootschap[^2] kan worden gedefinieerd als de aanname van een nieuwe rechtsvorm met behoud van de rechtspersoonlijkheid van de vennootschap.[^3] 
 
 ## Toestand op de afsluitingsdatum
 
@@ -71,8 +70,7 @@ De omzetting wordt bij authentieke akte vastgesteld.[^6] ,[^7]
 
 ## Voorbeelden
 
-### Omzetting van een vennootschap onder firma (VOF) in een besloten vennootschap (BV)
-
+Omzetting van een vennootschap onder firma (VOF) in een besloten vennootschap (BV)
 Een kleine VOF, waarvan het boekjaar loopt van 1 januari 20X1 tot 31 december 20X1, beslist zich om te vormen in een BV.[^9]
  De omzetting vindt plaats op 5 januari 20X2. De (oude) VOF moest een jaarrekening opstellen maar was overeenkomstig artikel 3:9 WVV niet onderworpen aan de neerleggingsplicht. Kleine Belgische vennootschappen die de vorm van een VOF hebben aangenomen, moeten de jaarrekening immers niet neerleggen.[^10] 
 
@@ -80,8 +78,7 @@ De datum die in rekening moet worden genomen om te bepalen welke jaarrekeningrec
 
 Indien de omzetting van een VOF in een BV zou hebben plaatsgevonden op 15 december 20X1, d.i. vóór het einde van het boekjaar (31 december 20X1), zou de BV de jaarrekening van dat boekjaar wel al moeten hebben neergelegd.
 
-### Omzetting van een besloten vennootschap (BV) in een commanditaire vennootschap (CommV)
-
+Omzetting van een besloten vennootschap (BV) in een commanditaire vennootschap (CommV)
 Een BV[^11], waarvan het boekjaar loopt van 1 januari 20X1 tot 31 december 20X1, beslist zich om te vormen in een CommV nog vóór de afsluitingsdatum van het boekjaar. De omzetting vindt plaats op 1 december 20X1. De (oude) BV moest een jaarrekening opstellen en neerleggen bij de Nationale Bank van België (NBB).
 
 De datum die in rekening moet worden genomen om te bepalen welke jaarrekeningrechtelijke verplichtingen van toepassing zijn, is de afsluitingsdatum van het boekjaar, d.i. 31 december 20X1. Op deze datum is de rechtsvorm van de vennootschap reeds die van een CommV. De vennootschap is niet meer verplicht de jaarrekening van boekjaar 20X1 neer te leggen ingeval het een kleine CommV betreft.[^12]

@@ -1,6 +1,64 @@
 ---
-nummer: CBN-advies 2015/8
+bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-aankoop-van-een-onroerend-goed-bestemd-voor-verkoop
 datum: 2015-09-30
+gerelateerde_adviezen:
+  - datum: '2019-04-12'
+    titel: Gevolgen op gebied van financiële rapportering als gevolg van de brexit
+    url: https://www.cbn-cnc.be/nl/adviezen/gevolgen-op-gebied-van-financiele-rapportering-als-gevolg-van-de-brexit-0
+  - datum: '2016-09-07'
+    titel: 'Bestellingen in uitvoering: wijzigingen door het koninklijk besluit van 18 december 2015'
+    url: https://www.cbn-cnc.be/nl/adviezen/bestellingen-in-uitvoering-wijzigingen-door-het-koninklijk-besluit-van-18-december-2015
+  - datum: '2012-10-10'
+    titel: Bestellingen in uitvoering
+    url: https://www.cbn-cnc.be/nl/adviezen/bestellingen-in-uitvoering
+  - datum: '2011-07-20'
+    titel: Boekhoudkundige verwerking van “onderzoeksfondsen” in de jaarrekening van grote en zeer grote verenigingen en stichtingen
+    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-onderzoeksfondsen-in-de-jaarrekening-van-grote-en-zeer
+nummer: CBN-advies 2015/8
+provenance:
+  generated_at: '2026-05-11T13:05:08Z'
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-aankoop-van-een-onroerend-goed-bestemd-voor-verkoop
+      sha256: 953d75e99ef043526de7c91c7e325638643e154c2d56c484308010f4b0891eda
+      version:
+  stale: false
+  stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
+  trust:
+    confirmed_at: '2026-05-11T12:16:34Z'
+    confirmed_by: subagent-sonnet-4-6
+    layer1:
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:29Z'
+      heading_count: 7
+      max_section_chars: 5928
+      file_size_chars: 12534
+      flags: []
+    layer2:
+      agent: subagent-sonnet-4-6
+      concrete_problemen:
+        - categorie: B3
+          regel: 60
+          type: other
+          voorbeeld: '# CBN-advies 2015/8 Boekhoudkundige verwerking...bestemd voor verkoop1'
+        - categorie: B3
+          regel: 62
+          type: other
+          voorbeeld: '# Advies 30 september 2015'
+        - categorie: D4
+          regel: 83
+          type: other
+          voorbeeld: post *Onroerende goederen bestemd voor verkoop *is dus niet toegestaan
+      rationale: 'B3: twee opeenvolgende #-level headings op regels 60–62 (''# CBN-advies 2015/8 ...1'' en ''# Advies 30 september 2015'') zijn duplicate body-titels, typisch scrape-artefact. Tevens eindigt de eerste H1 op een literal ''1'' (voetnoot niet geparsed als [^1]). D4: regel 83 bevat ''Onroerende goederen bestemd voor verkoop *'' met spatie voor sluitende `*` (malformed italic).'
+      run_at: '2026-05-11T12:16:34Z'
+      status: needs-rework
+    rationale: 'B3: twee opeenvolgende #-level headings op regels 60–62 (''# CBN-advies 2015/8 ...1'' en ''# Advies 30 september 2015'') zijn duplicate body-titels, typisch scrape-artefact. Tevens eindigt de eerste H1 op een literal ''1'' (voetnoot niet geparsed als [^1]). D4: regel 83 bevat ''Onroerende goederen bestemd voor verkoop *'' met spatie voor sluitende `*` (malformed italic).'
+    status: needs-rework
 themas:
   - bestellingen in uitvoering
   - bouwprojecten
@@ -9,67 +67,7 @@ themas:
   - voorraden
   - winsttoerekening
   - onroerende goederen bestemd voor verkoop
-bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-aankoop-van-een-onroerend-goed-bestemd-voor-verkoop
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-aankoop-van-een-onroerend-goed-bestemd-voor-verkoop
-      sha256: 953d75e99ef043526de7c91c7e325638643e154c2d56c484308010f4b0891eda
-      version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:36:51Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T12:16:34Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "B3: twee opeenvolgende #-level headings op regels 60–62 ('# CBN-advies 2015/8 ...1' en '# Advies 30 september 2015') zijn duplicate body-titels, typisch scrape-artefact. Tevens eindigt de eerste H1 op een literal '1' (voetnoot niet geparsed als [^1]). D4: regel 83 bevat 'Onroerende goederen bestemd voor verkoop *' met spatie voor sluitende `*` (malformed italic)."
-    layer1:
-      status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 3
-      max_section_chars: 5930
-      file_size_chars: 12648
-      flags: []
-    layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:16:34Z'
-      rationale: "B3: twee opeenvolgende #-level headings op regels 60–62 ('# CBN-advies 2015/8 ...1' en '# Advies 30 september 2015') zijn duplicate body-titels, typisch scrape-artefact. Tevens eindigt de eerste H1 op een literal '1' (voetnoot niet geparsed als [^1]). D4: regel 83 bevat 'Onroerende goederen bestemd voor verkoop *' met spatie voor sluitende `*` (malformed italic)."
-      concrete_problemen:
-        - regel: 60
-          categorie: B3
-          type: other
-          voorbeeld: '# CBN-advies 2015/8 Boekhoudkundige verwerking...bestemd voor verkoop1'
-        - regel: 62
-          categorie: B3
-          type: other
-          voorbeeld: '# Advies 30 september 2015'
-        - regel: 83
-          categorie: D4
-          type: other
-          voorbeeld: post *Onroerende goederen bestemd voor verkoop *is dus niet toegestaan
-gerelateerde_adviezen:
-  - titel: Gevolgen op gebied van financiële rapportering als gevolg van de brexit
-    url: https://www.cbn-cnc.be/nl/adviezen/gevolgen-op-gebied-van-financiele-rapportering-als-gevolg-van-de-brexit-0
-    datum: '2019-04-12'
-  - titel: 'Bestellingen in uitvoering: wijzigingen door het koninklijk besluit van 18 december 2015'
-    url: https://www.cbn-cnc.be/nl/adviezen/bestellingen-in-uitvoering-wijzigingen-door-het-koninklijk-besluit-van-18-december-2015
-    datum: '2016-09-07'
-  - titel: Bestellingen in uitvoering
-    url: https://www.cbn-cnc.be/nl/adviezen/bestellingen-in-uitvoering
-    datum: '2012-10-10'
-  - titel: Boekhoudkundige verwerking van “onderzoeksfondsen” in de jaarrekening van grote en zeer grote verenigingen en stichtingen
-    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-onderzoeksfondsen-in-de-jaarrekening-van-grote-en-zeer
-    datum: '2011-07-20'
 ---
-
-# CBN-advies 2015/8 Boekhoudkundige verwerking van de aankoop van een onroerend goed bestemd voor verkoop1
 
 # Advies 30 september 2015
 
@@ -88,11 +86,9 @@ In de minimumindeling van een algemeen rekeningstelsel is binnen de klasse 3. *V
 
 De Commissie is van mening dat de rekening 35 *Onroerende goederen bestemd voor verkoop* zowel de onroerende goederen bevat die zonder verdere wijzigingen verkocht zullen worden, als de onroerende goederen die voor ze worden verkocht een aantal bewerkingen ondergaan zoals het bouwrijp maken van een bouwgrond, het slopen van een gebouw op een bebouwd terrein, de aankoop van een bouwgrond om vervolgens een gebouw op te trekken op dit terrein, de verkaveling van een aangekocht terrein, en dergelijke.
 
-De voor verkoop bestemde onroerende goederen, inclusief kijkwoningen,[^6]
- worden gewaardeerd tegen de aanschaffingswaarde of tegen de marktwaarde op de balansdatum als die lager is.[^7]
+De voor verkoop bestemde onroerende goederen, inclusief kijkwoningen,[^6] worden gewaardeerd tegen de aanschaffingswaarde of tegen de marktwaarde op de balansdatum als die lager is.[^7]
  Het beginsel dat voorraden tegen aanschaffingswaarde in de balans worden opgenomen impliceert in regel dat alle kosten die worden gemaakt om de voorraden in hun huidige staat te brengen op de plaats waar ze zich bevinden, moeten worden opgenomen in de waarde waartegen die voorraden in de balans voorkomen. Andere kosten dan die om de voorraden in hun huidige staat te brengen op de plaats waar ze zich bevinden, mogen niet in de aanschaffingswaarde worden opgenomen; zij moeten ten laste worden gebracht van de periode waarin zij werden gemaakt.[^8]
- De Commissie wijst er op dat de regel die een mogelijkheid biedt om voor bestellingen in uitvoering een gedeelte van de te verwachten winst op te nemen in de boekwaarde[^9]
- niet geldt voor onroerende goederen bestemd voor verkoop. Het toerekenen van winst aan de post *Onroerende goederen bestemd voor verkoop *is dus niet toegestaan.
+ De Commissie wijst er op dat de regel die een mogelijkheid biedt om voor bestellingen in uitvoering een gedeelte van de te verwachten winst op te nemen in de boekwaarde[^9] niet geldt voor onroerende goederen bestemd voor verkoop. Het toerekenen van winst aan de post *Onroerende goederen bestemd voor verkoop* is dus niet toegestaan.
 
 De kosten gemaakt voor het bouwrijp of het verkoopbaar maken van een onroerend goed dat werd aangekocht met het oog op verkoop, maken aldus deel uit van de aanschaffingswaarde van het onroerend goed. Onder deze kosten worden onder meer begrepen:
 
@@ -117,21 +113,21 @@ Elk bestanddeel van het vermogen wordt afzonderlijk gewaardeerd.[^15]
 
 ## Voorbeeldboekingen[^16] 
 
-**Boeking van de aankoop van het voor verkoop bestemd onroerend goed en de bijkomende kosten**
+## Boeking van de aankoop van het voor verkoop bestemd onroerend goed en de bijkomende kosten
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 605 | Aankopen van onroerende goederen bestemd voor verkoop | | |
 | aan | 440 | Leveranciers | | |
 
-**Boeking van de eventuele kosten van architecten, landmeters en andere ontwikkelingskosten**
+## Boeking van de eventuele kosten van architecten, landmeters en andere ontwikkelingskosten
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 602 | Aankopen van diensten, werk en studies | | |
 | aan | 440 | Leveranciers | | |
 
-**Boeking op inventarisdatum (of, bij een permanent voorraadsysteem, bij iedere transactie)**
+## Boeking op inventarisdatum (of, bij een permanent voorraadsysteem, bij iedere transactie)
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
@@ -145,7 +141,7 @@ of bij een afname van de voorraad
 | | 6095 | Voorraadwijzigingen van gekochte gebouwen bestemd voor verkoop | | |
 | aan | 350 | Onroerende goederen bestemd voor verkoop: aanschaffingswaarde | | |
 
-**Boeking van intercalaire interesten**
+## Boeking van intercalaire interesten
 
 Het bestuursorgaan van de vennootschap kan, onder de voorwaarden vermeld onder artikel 38, tweede lid KB W.Venn., beslissen om in de aanschaffingswaarde van de onroerende goederen bestemd voor verkoop, de rente op vreemd vermogen dat wordt gebruikt voor de financiering van de voorraden, op te nemen. Dit opnemen is slechts mogelijk voor zover deze rente voorraden betreft waarvan de productie meer dan één jaar bestrijkt en zij op de normale productieperiode van deze voorraden betrekking heeft. In dergelijk geval verloopt deze activering niet via de rekening 6095 *Voorraadwijzigingen van gekochte gebouwen bestemd voor verkoop* maar via een creditering van de rekening 6503 *Geactiveerde intercalaire intresten*.
 

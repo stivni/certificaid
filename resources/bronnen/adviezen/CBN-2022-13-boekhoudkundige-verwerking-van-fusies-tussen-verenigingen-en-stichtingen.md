@@ -1,6 +1,52 @@
 ---
-nummer: CBN-advies 2022/13
+bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-fusies-tussen-verenigingen-en-stichtingen
 datum: 2022-09-23
+gerelateerde_adviezen:
+  - datum: '2022-02-15'
+    titel: Fusies en splitsingen van vennootschappen met een negatief nettoactief
+    url: https://www.cbn-cnc.be/nl/adviezen/fusies-en-splitsingen-van-vennootschappen-met-een-negatief-nettoactief
+  - datum: '2021-11-22'
+    titel: 'Verenigingen en stichtingen: compensatie van negatieve fondsen'
+    url: https://www.cbn-cnc.be/nl/adviezen/verenigingen-en-stichtingen-compensatie-van-negatieve-fondsen
+  - datum: '2021-07-02'
+    titel: Boekhoudkundige verwerking van fusies tussen vennootschappen
+    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-fusies-tussen-vennootschappen
+  - datum: '2018-12-07'
+    titel: Begin van het boekjaar
+    url: https://www.cbn-cnc.be/nl/adviezen/begin-van-het-boekjaar
+nummer: CBN-advies 2022/13
+provenance:
+  generated_at: '2026-05-11T13:05:09Z'
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-fusies-tussen-verenigingen-en-stichtingen
+      sha256: c58fc7633ae3984e4b62ea0f13577d3e0332f79efb9c0cf8c2a3fd747d8f5873
+      version:
+  stale: false
+  stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
+  trust:
+    confirmed_at:
+    confirmed_by:
+    layer1:
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:30Z'
+      heading_count: 29
+      max_section_chars: 14805
+      file_size_chars: 33169
+      flags: []
+    layer2:
+      agent:
+      concrete_problemen: []
+      rationale:
+      run_at:
+      status: not_run
+    rationale: 'Trust gereset 2026-05-11: re-scrape met scraper-fixes, content-diff > 5%'
+    status: unreviewed
 themas:
   - fusie
   - verenigingen en stichtingen
@@ -14,64 +60,6 @@ themas:
   - herstructurering
   - reorganisatie
   - negatief beginvermogen
-bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-fusies-tussen-verenigingen-en-stichtingen
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-fusies-tussen-verenigingen-en-stichtingen
-      sha256: c58fc7633ae3984e4b62ea0f13577d3e0332f79efb9c0cf8c2a3fd747d8f5873
-      version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:38:15Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T12:24:34Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "A7: in alle balansvoorbeelden (regels 136–144, 146–155, 159–170, etc.) staat 'Beginvermogen' als aparte regel buiten de pipe-tabel, gevolgd door het bedrag op de volgende regel buiten de tabel — de tabelcel is gebroken in plain text door een extractie-fout. Dit patroon herhaalt zich door het hele document (Voorbeeld 1, 2, 3, 4). De boekhouding-journalen (regels 313–322) zijn correct in pipe-syntax. Voetnoten volledig."
-    layer1:
-      status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 16
-      max_section_chars: 14757
-      file_size_chars: 33110
-      flags: []
-    layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:24:34Z'
-      rationale: "A7: in alle balansvoorbeelden (regels 136–144, 146–155, 159–170, etc.) staat 'Beginvermogen' als aparte regel buiten de pipe-tabel, gevolgd door het bedrag op de volgende regel buiten de tabel — de tabelcel is gebroken in plain text door een extractie-fout. Dit patroon herhaalt zich door het hele document (Voorbeeld 1, 2, 3, 4). De boekhouding-journalen (regels 313–322) zijn correct in pipe-syntax. Voetnoten volledig."
-      concrete_problemen:
-        - regel: 136
-          categorie: A7
-          type: scrambled-words
-          voorbeeld: "| Vlottende activa | | 4.000 | |\n\nBeginvermogen\n\n  | | 5.000 |"
-        - regel: 146
-          categorie: A7
-          type: scrambled-words
-          voorbeeld: "| Vlottende activa | | 9.500 | |\n\nBeginvermogen\n\n  | | 8.000 |"
-        - regel: 231
-          categorie: A7
-          type: scrambled-words
-          voorbeeld: "| Vlottende activa | | 2.000 | |\n\nBeginvermogen\n\n  | | -2.000 |"
-gerelateerde_adviezen:
-  - titel: Fusies en splitsingen van vennootschappen met een negatief nettoactief
-    url: https://www.cbn-cnc.be/nl/adviezen/fusies-en-splitsingen-van-vennootschappen-met-een-negatief-nettoactief
-    datum: '2022-02-15'
-  - titel: 'Verenigingen en stichtingen: compensatie van negatieve fondsen'
-    url: https://www.cbn-cnc.be/nl/adviezen/verenigingen-en-stichtingen-compensatie-van-negatieve-fondsen
-    datum: '2021-11-22'
-  - titel: Boekhoudkundige verwerking van fusies tussen vennootschappen
-    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-fusies-tussen-vennootschappen
-    datum: '2021-07-02'
-  - titel: Begin van het boekjaar
-    url: https://www.cbn-cnc.be/nl/adviezen/begin-van-het-boekjaar
-    datum: '2018-12-07'
 ---
 
 # CBN-advies 2022/13 – Boekhoudkundige verwerking van fusies tussen verenigingen en stichtingen
@@ -94,11 +82,8 @@ Sinds de samenvoeging in het WVV van de bepalingen m.b.t. vennootschappen, veren
  Indien de voorwaarden zoals bepaald in titel 1, boek 13 WVV worden nageleefd, heeft de fusie de volgende uitwerkingen[^5]: 
 
 1° het gehele vermogen van de ontbonden rechtspersoon, zowel rechten als verplichtingen, gaat over op de verkrijgende rechtspersoon[^6];
-
 2° de ontbonden rechtspersoon houdt van rechtswege op te bestaan; evenwel wordt hij geacht te bestaan gedurende de in artikel 2:143, § 4 WVV bepaalde termijn van zes maanden en, als een vordering tot nietigverklaring wordt ingesteld, voor de duur van het geding tot op het ogenblik waarop over die vordering tot nietigverklaring uitspraak is gedaan bij een in kracht van gewijsde gegane beslissing;
-
 3° de leden van de ontbonden vereniging verliezen hun hoedanigheid tenzij het verrichtingsvoorstel bepaalt dat zij van rechtswege lid worden van de verkrijgende VZW of IVZW.
-
 In de context van een fusie die voldoet aan de hierboven gegeven definitie, wordt de inbreng van het volledige vermogen noodzakelijkerwijs om niet uitgevoerd: er is geen vergoeding in maatschappelijke rechten (deze zijn onbestaand bij verenigingen en stichtingen), noch in geld. Het is niettemin mogelijk te bepalen dat de leden van de ontbonden rechtspersoon lid kunnen worden van de verkrijgende rechtspersoon. 
 
 Net zoals bij fusies tussen vennootschappen met rechtspersoonlijkheid (boek 12 WVV), vindt de gehele overdracht van het vermogen aan een andere vereniging of stichting plaats in het kader van een ontbinding zonder vereffening. Dit vormt een afwijking op de gewone regels van de ontbinding van verenigingen en stichtingen opgenomen in boek 2, titel 8, hoofdstuk 2 WVV. Dit is het grote verschil tussen de regeling van de pseudo-fusie die voorheen werd toegepast en de nieuwe fusieregeling ingevoerd door het WVV.[^7] 
@@ -121,7 +106,6 @@ Een stichting van openbaar nut kan op haar beurt slechts overgaan tot een fusie 
 Fusies tussen (internationale) verenigingen en stichtingen worden voltrokken in boekhoudkundige continuïteit. De tekst van artikel 3:56 van het koninklijk besluit tot uitvoering van het Wetboek van vennootschappen en verenigingen (hierna: KB WVV) die zonder onderscheid van toepassing is op vennootschappen, verenigingen en stichtingen bepaalt immers het volgende:
 
 [...] alle actief- en passiefbestanddelen van de overgenomen vennootschap, VZW, IVZW of stichting, inclusief de verschillende bestanddelen van het eigen vermogen, de afschrijvingen, waardeverminderingen en gevormde voorzieningen, de rechten en verplichtingen alsook de opbrengsten en kosten van het boekjaar, onverminderd de toepassing van artikel 3:77 voor vennootschappen, [worden] opgenomen in de boekhouding van de overnemende vennootschap, VZW, IVZW of stichting tegen de waarde waarvoor zij in de boekhouding van de overgenomen vennootschap, VZW, IVZW of stichting voorkwamen op de datum vanaf wanneer de handelingen van de overgenomen vennootschap, VZW, IVZW of stichting boekhoudkundig geacht worden te zijn verricht voor rekening van de overnemende vennootschap, VZW, IVZW of stichting.
-
 Het spreekt voor zich dat de overdracht van de verschillende bestanddelen van het eigen vermogen met de nodige voorzichtigheid dient te gebeuren. Daar het begrip ‘eigen vermogen’ in de Franstalige versie van het schema van de jaarrekening onbestaand is voor verenigingen en stichtingen, moet er worden verduidelijkt dat het ‘de bestanddelen van het eigen vermogen’ zijn die bij een fusie tussen verenigingen en stichtingen in boekhoudkundige continuïteit worden overgedragen. Het gebruik van het begrip ‘eigen vermogen’ wordt dus voorbehouden aan fusies tussen vennootschappen. De Commissie zal in deze zin een wijziging aan het schema van de jaarrekening voor verenigingen en stichtingen voorstellen aan de regering.
 
 In dit opzicht wenst de Commissie eraan te herinneren dat het eigen vermogen van verenigingen en stichtingen die een dubbele boekhouding voeren, bestaat uit de volgende bestanddelen: fondsen van de vereniging of stichting, samengesteld uit het beginvermogen en uit de permanente financiering, herwaarderingsmeerwaarden, bestemde fondsen en andere reserves, overgedragen resultaat en kapitaalsubsidies. In het kader van een fusie heeft deze overdracht tevens meer zin dan in geval van een inbreng om niet van een algemeenheid.
@@ -133,20 +117,19 @@ Het boekhoudkundig continuïteitsbeginsel is van toepassing wanneer de verrichti
 
 Het boekhoudkundig continuïteitsbeginsel kan via het volgende voorbeeld worden toegelicht:
 
-## Voorbeeld 1 – Standaardvoorbeeld
+### *Voorbeeld 1 – Standaardvoorbeeld* 
 
 Tenzij anders vermeld, wordt er in dit en de volgende voorbeelden vanuit gegaan dat de rechtspersonen die betrokken zijn in de fusie een dubbele boekhouding voeren.
 
 Een te ontbinden rechtspersoon (A) brengt in het kader van een fusie zijn vermogen in bij rechtspersoon B.
 
-De balansen[^13]
- van de deelnemende rechtspersonen vóór de fusie worden hieronder weergegeven:
+De balansen[^13] van de deelnemende rechtspersonen vóór de fusie worden hieronder weergegeven:
 
 | A | 
 | Vaste activa | | 6.000[^14] | | Fondsen van de vereniging of stichting | | | 
 | Vlottende activa | | 4.000 | | 
 
-Beginvermogen
+### Beginvermogen
 
   | | 5.000 | 
 | | | | | Bestemde fondsen | | 3.500 | 
@@ -159,7 +142,7 @@ Beginvermogen
 | Vaste activa | | 5.500[^15] | | Fondsen van de vereniging of stichting | | | 
 | Vlottende activa | | 9.500 | | 
 
-Beginvermogen
+### Beginvermogen
 
   | | 8.000 | 
 | | | | | Bestemde fondsen | | 5.000 | 
@@ -172,7 +155,7 @@ Na afloop van de fusie ziet de balans van de verkrijgende rechtspersoon (B) er a
 | Vaste activa | | 11.500 | | Fondsen van de vereniging of stichting | | | 
 | Vlottende activa | | 13.500 | | 
 
-Beginvermogen
+### Beginvermogen
 
   | | 13.000 | 
 | | | | | Bestemde fondsen | | 8.500 | 
@@ -216,23 +199,20 @@ De staat van activa en passiva bedoeld in artikel 13:3, § 1, derde lid WVV moet
 
 #### Overdracht van het vermogen van de vereniging of stichting
 
-Op grond van het boekhoudkundig continuïteitsbeginsel wordt het *Beginvermogen* van de ontbonden vereniging of stichting (opgenomen op rekening 100)[^26]
- over het algemeen als dusdanig opgenomen door de verkrijgende vereniging of stichting.
+Op grond van het boekhoudkundig continuïteitsbeginsel wordt het *Beginvermogen* van de ontbonden vereniging of stichting (opgenomen op rekening 100)[^26] over het algemeen als dusdanig opgenomen door de verkrijgende vereniging of stichting.
 
-Het kan evenwel gebeuren dat bepaalde schenkingen, legaten of subsidies die zijn opgenomen onder de *Permanente financiering* van de ontbonden vereniging of stichting (rekening 101)[^27]
- gepaard gaan met specifieke voorwaarden vanwege de schenker, de erflater of de subsidiërende overheid. Ingeval de verkrijgende vereniging of stichting niet langer voldoet aan deze voorwaarden, zal zij voor de terugbetaling van de schenking, het legaat of de subsidie in kwestie een voorziening of een schuld moeten boeken. Hetzelfde geldt voor schenkingen, legaten of subsidies waarvan de overdracht gesanctioneerd wordt met een terugnemingsrecht vanwege de schenker, de erflater of de subsidiërende overheid.
+Het kan evenwel gebeuren dat bepaalde schenkingen, legaten of subsidies die zijn opgenomen onder de *Permanente financiering* van de ontbonden vereniging of stichting (rekening 101)[^27] gepaard gaan met specifieke voorwaarden vanwege de schenker, de erflater of de subsidiërende overheid. Ingeval de verkrijgende vereniging of stichting niet langer voldoet aan deze voorwaarden, zal zij voor de terugbetaling van de schenking, het legaat of de subsidie in kwestie een voorziening of een schuld moeten boeken. Hetzelfde geldt voor schenkingen, legaten of subsidies waarvan de overdracht gesanctioneerd wordt met een terugnemingsrecht vanwege de schenker, de erflater of de subsidiërende overheid.
 
 Met *Bestemde fondsen* (rekeningen 130 tot 132) die in het kader van een fusie worden overgedragen, worden de fondsen bedoeld die in hoofde van de ontbonden vereniging of stichting bij beslissing van de algemene vergadering van de vereniging of van bestuursorgaan van de stichting zijn bestemd.[^28]
  Na de fusie dient bij de verkrijgende vereniging of stichting te worden nagegaan of de nieuwe situatie strookt met de initiële bestemmingsbeslissing. Het is immers mogelijk dat bepaalde bestemde fondsen ten gevolge van de fusie niet langer een voorwerp hebben. In dit geval kunnen deze fondsen rechtstreeks naar de reserves worden overgeboekt (rekening 139 *Andere bestemde fondsen en andere reserves*).
 
 ### Negatief beginvermogen
 
-Ingeval het *Beginvermogen *van de ontbonden vereniging of stichting of van de verkrijgende vereniging of stichting negatief is, kan dit worden opgeteld bij het *Beginvermogen *van de andere partij. Het negatieve beginvermogen zou eventueel ook kunnen worden gecompenseerd via het *Overgedragen resultaat*.[^29] 
+Ingeval het *Beginvermogen* van de ontbonden vereniging of stichting of van de verkrijgende vereniging of stichting negatief is, kan dit worden opgeteld bij het *Beginvermogen* van de andere partij. Het negatieve beginvermogen zou eventueel ook kunnen worden gecompenseerd via het *Overgedragen resultaat*.[^29] 
 
-De Commissie is van oordeel dat er een compensatie zou moeten kunnen plaatsvinden met de *Bestemde fondsen* van de andere partij[^30]
- indien dit zo wordt beslist door de algemene vergadering die uitspraak doet over de fusie.[^31] 
+De Commissie is van oordeel dat er een compensatie zou moeten kunnen plaatsvinden met de *Bestemde fondsen* van de andere partij[^30] indien dit zo wordt beslist door de algemene vergadering die uitspraak doet over de fusie.[^31] 
 
-## Voorbeeld 2 – Negatief beginvermogen wordt na de fusie positief
+### *Voorbeeld 2 – Negatief beginvermogen wordt na de fusie positief* 
 
 Het beginvermogen van de te ontbinden vereniging A is negatief. Vereniging A beschikt niet over winst voor het lopende boekjaar, noch voor de voorafgaande boekjaren. A brengt haar vermogen in bij vereniging B. B beschikt over een beginvermogen van 8.000. Dit volstaat om het negatieve beginvermogen van de ontbonden vennootschap A te compenseren.
 
@@ -240,7 +220,7 @@ Het beginvermogen van de te ontbinden vereniging A is negatief. Vereniging A bes
 | Vaste activa | | 3.500[^32] | | Fondsen van de vereniging of stichting | | | 
 | Vlottende activa | | 2.000 | | 
 
-Beginvermogen
+### Beginvermogen
 
   | | -2.000 | 
 | | | | | Bestemde fondsen | | 3.500 | 
@@ -253,7 +233,7 @@ Beginvermogen
 | Vaste activa | | 5.500[^33] | | Fondsen van de vereniging of stichting | | | 
 | Vlottende activa | | 7.500 | | 
 
-Beginvermogen
+### Beginvermogen
 
   | | 8.000 | 
 | | | | | Bestemde fondsen | | 2.000 | 
@@ -267,7 +247,7 @@ Na afloop van de fusie ziet de balans van de verkrijgende vereniging B er als vo
 | Vaste activa | | 9.000 | | Fondsen van de vereniging of stichting | | | 
 | Vlottende activa | | 9.500 | | 
 
-Beginvermogen
+### Beginvermogen
 
   | | 6.000 | 
 | | | | | Bestemde fondsen | | 5.500 | 
@@ -276,7 +256,7 @@ Beginvermogen
 | | | | | Schulden | | 5.000 | 
 | | | 18.500 | | | | 18.500 | 
 
-## Voorbeeld 3 – Negatief beginvermogen blijft na de fusie negatief
+### *Voorbeeld 3 – Negatief beginvermogen blijft na de fusie negatief* 
 
 Het beginvermogen van te ontbinden vereniging A is negatief. De vereniging beschikt niet over overgedragen winst. Vereniging A brengt haar vermogen in bij vereniging B. Het vermogen van B is niet voldoende groot om het negatieve beginvermogen van A volledig te compenseren. Het vermogen van B wordt bijgevolg negatief. Dit kan echter gecompenseerd worden met de overgedragen winst van B:
 
@@ -284,7 +264,7 @@ Het beginvermogen van te ontbinden vereniging A is negatief. De vereniging besch
 | Vaste activa | | 3.500[^34] | | Fondsen van de vereniging of stichting | | | 
 | Vlottende activa | | 2.000 | | 
 
-Beginvermogen
+### Beginvermogen
 
   | | -2.000 | 
 | | | | | Bestemde fondsen | | 3.500 | 
@@ -296,7 +276,7 @@ Beginvermogen
 | Vaste activa | | 5.500[^35] | | Fondsen van de vereniging of stichting | | | 
 | Vlottende activa | | 9.500 | | 
 
-Beginvermogen
+### Beginvermogen
 
   | | 1.000 | 
 | | | | | Bestemde fondsen | | 9.000 | 
@@ -310,7 +290,7 @@ Na afloop van de fusie ziet de balans van de verkrijgende vereniging B er als vo
 | Vaste activa | | 9.000 | | Fondsen van de vereniging of stichting | | | 
 | Vlottende activa | | 11.500 | | 
 
-Beginvermogen
+### Beginvermogen
 
   | | -1.000 | 
 | | | | | Bestemde fondsen | | 12.500 | 
@@ -319,8 +299,7 @@ Beginvermogen
 | | | | | Schulden | | 5.000 | 
 | | | 20.500 | | | | 20.500 | 
 
-Sedert de inwerkingtreding van het WVV is het toegestaan om negatieve fondsen van een vereniging te compenseren[^36]
- met de overgedragen winst via de volgende boekingen: 
+Sedert de inwerkingtreding van het WVV is het toegestaan om negatieve fondsen van een vereniging te compenseren[^36] met de overgedragen winst via de volgende boekingen: 
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
@@ -336,7 +315,7 @@ Sedert de inwerkingtreding van het WVV is het toegestaan om negatieve fondsen va
 | Vaste activa | | 9.000 | | Fondsen van de vereniging of stichting | | | 
 | Vlottende activa | | 11.500 | | 
 
-Beginvermogen
+### Beginvermogen
 
   | | 0 | 
 | | | | | Bestemde fondsen | | 12.500 | 
@@ -347,9 +326,9 @@ Beginvermogen
 
 ### Overgedragen verlies
 
-Indien de balans van de ontbonden vereniging of stichting vóór de fusie een overgedragen verlies aantoont (rekening 14(1) – *Overgedragen verlies*), kan dit verlies in het kader van de fusie niet worden toegerekend aan het beginvermogen (rekening 100 – *Beginvermogen*). Bij een fusie door overneming wordt het *Overgedragen verlies* van de ontbonden vereniging of stichting opgeteld bij de *Overgedragen winst*, indien aanwezig, van de verkrijgende vereniging of stichting. Bij een fusie door oprichting van een nieuwe vereniging of stichting wordt het *Overgedragen verlies* van de ontbonden vereniging of stichting in hoofde van de nieuwe vereniging of stichting opgeteld bij de *Overgedragen winst*, indien aanwezig, van een andere ontbonden vereniging of stichting.
+Indien de balans van de ontbonden vereniging of stichting vóór de fusie een overgedragen verlies aantoont (rekening 14(1) – *Overgedragen verlies*), kan dit verlies in het kader van de fusie niet worden toegerekend aan het beginvermogen (rekening 100 –* Beginvermogen*). Bij een fusie door overneming wordt het* Overgedragen verlies* van de ontbonden vereniging of stichting opgeteld bij de *Overgedragen winst*, indien aanwezig, van de verkrijgende vereniging of stichting. Bij een fusie door oprichting van een nieuwe vereniging of stichting wordt het* Overgedragen verlies* van de ontbonden vereniging of stichting in hoofde van de nieuwe vereniging of stichting opgeteld bij de *Overgedragen winst*, indien aanwezig, van een andere ontbonden vereniging of stichting.
 
-## Voorbeeld 4 – Samenvoeging van overgedragen verlies en overgedragen winst
+### *Voorbeeld 4 – Samenvoeging van overgedragen verlies en overgedragen winst* 
 
 De balans van vereniging A vertoont een overgedragen verlies van 2.500. Deze vereniging brengt haar volledige vermogen in bij vereniging B die beschikt over een overgedragen winst van 500. De overgedragen winst van B is niet voldoende om het verlies van vereniging A te compenseren. Het bedrag van de verliezen kan evenwel niet worden weggewerkt door het beginvermogen.
 
@@ -357,7 +336,7 @@ De balans van vereniging A vertoont een overgedragen verlies van 2.500. Deze ver
 | Vaste activa | | 6.000[^37] | | Fondsen van de vereniging of stichting | | | 
 | Vlottende activa | | 4.000 | | 
 
-Beginvermogen
+### Beginvermogen
 
   | | 5.000 | 
 | | | | | Bestemde fondsen | | 3.500 | 
@@ -370,7 +349,7 @@ Beginvermogen
 | Vaste activa | | 5.500[^38] | | Fondsen van de vereniging of stichting | | | 
 | Vlottende activa | | 9.000 | | 
 
-Beginvermogen
+### Beginvermogen
 
   | | 8.000 | 
 | | | | | Bestemde fondsen | | 2.000 | 
@@ -384,7 +363,7 @@ Na afloop van de fusie ziet de balans van de verkrijgende vereniging er als volg
 | Vaste activa | | 11.500 | | Fondsen van de vereniging of stichting | | | 
 | Vlottende activa | | 13.000 | | 
 
-Beginvermogen
+### Beginvermogen
 
   | | 13.000 | 
 | | | | | Bestemde fondsen | | 5.500 | 

@@ -1,43 +1,43 @@
 ---
-nummer: CBN-advies 2012/16
-datum: 2012-11-07
-themas:
-  - wentelkredieten
-  - revolving krediet
-  - roll-over krediet
 bron: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-wentelkredieten
+datum: 2012-11-07
+nummer: CBN-advies 2012/16
 provenance:
+  generated_at: '2026-05-11T13:05:08Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-wentelkredieten
       sha256: 7013e5464299052fde76798683ffe4624bacba1c24fde624e8e7cc98f671ea1d
       version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:36:31Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
   trust:
-    status: trusted
     confirmed_at: '2026-05-11T12:09:18Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: 'Geen merkbare extractie-artefacten. Eenvoudige maar correcte structuur met twee ## headings. Inhoud volledig: definitie wentelkrediet, voorbeeld, revolving krediet en boekhoudkundige verwerking. Voetnoten aanwezig. Een buitenstaander zou de markdown voor mens-geschreven kunnen aanzien.'
     layer1:
       status: pass
-      run_id: 20260511-083333
-      run_at:
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:28Z'
       heading_count: 2
-      max_section_chars: 3800
-      file_size_chars: 6852
+      max_section_chars: 3798
+      file_size_chars: 6850
       flags: []
     layer2:
-      status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:09:18Z'
-      rationale: 'Geen merkbare extractie-artefacten. Eenvoudige maar correcte structuur met twee ## headings. Inhoud volledig: definitie wentelkrediet, voorbeeld, revolving krediet en boekhoudkundige verwerking. Voetnoten aanwezig. Een buitenstaander zou de markdown voor mens-geschreven kunnen aanzien.'
       concrete_problemen: []
+      rationale: 'Geen merkbare extractie-artefacten. Eenvoudige maar correcte structuur met twee ## headings. Inhoud volledig: definitie wentelkrediet, voorbeeld, revolving krediet en boekhoudkundige verwerking. Voetnoten aanwezig. Een buitenstaander zou de markdown voor mens-geschreven kunnen aanzien.'
+      run_at: '2026-05-11T12:09:18Z'
+      status: trusted
+    rationale: 'Geen merkbare extractie-artefacten. Eenvoudige maar correcte structuur met twee ## headings. Inhoud volledig: definitie wentelkrediet, voorbeeld, revolving krediet en boekhoudkundige verwerking. Voetnoten aanwezig. Een buitenstaander zou de markdown voor mens-geschreven kunnen aanzien.'
+    status: trusted
+themas:
+  - wentelkredieten
+  - revolving krediet
+  - roll-over krediet
 ---
 
 # CBN-advies 2012/16 – De boekhoudkundige verwerking van wentelkredieten
@@ -46,8 +46,7 @@ provenance:
 
 Aan de Commissie werd de vraag gesteld of een *wentelkrediet* boekhoudkundig moet worden beschouwd als een schuld op meer dan één jaar of als een schuld op ten hoogste één jaar.
 
-In wat volgt wordt verstaan onder een wentelkrediet, een kredietvorm op middellange tot lange termijn dat opneembaar is in opeenvolgende vaste voorschotten op korte termijn en waarbij de kredietverstrekker zich contractueel reeds heeft verbonden de voorschotten te verstrekken. Het krediet wordt zo ter beschikking van de onderneming gesteld in de vorm van opeenvolgende, kortlopende leningen[^1]
- (*straight loans* of voorschotten) waarbij de modaliteiten van deze toekomstige voorschotten reeds bepaald zijn bij het afsluiten van de kredietovereenkomst en geen bijkomende negotiaties vergen.
+In wat volgt wordt verstaan onder een wentelkrediet, een kredietvorm op middellange tot lange termijn dat opneembaar is in opeenvolgende vaste voorschotten op korte termijn en waarbij de kredietverstrekker zich contractueel reeds heeft verbonden de voorschotten te verstrekken. Het krediet wordt zo ter beschikking van de onderneming gesteld in de vorm van opeenvolgende, kortlopende leningen[^1] (*straight loans* of voorschotten) waarbij de modaliteiten van deze toekomstige voorschotten reeds bepaald zijn bij het afsluiten van de kredietovereenkomst en geen bijkomende negotiaties vergen.
 
 Een straight loan of voorschot op vaste termijn is een kredietvorm op korte termijn die vergelijkbaar is met een kaskrediet maar waarbij de termijn en de te betalen interestvergoeding van bij de aanvang vastliggen. Het krediet wordt in één keer opgenomen en op vervaldag integraal terugbetaald, samen met de voor die periode verschuldigde interest. Wanneer de kredietovereenkomst voorziet in opeenvolgende straight loans, wordt vaak de term wentelkrediet *(roll-over krediet)* gehanteerd. 
 
@@ -55,8 +54,7 @@ Bij een wentelkrediet wordt het toegestane krediet in principe stelselmatig afge
 
 **Voorbeeld**
 
-Een onderneming kan een bedrag van 100.000 euro opnemen voor een periode van drie maanden. Daarna moet ze dit bedrag terugbetalen maar kan ze opnieuw voor hetzelfde of voor een lager bedrag opnemen *(wentelen).* Veronderstel dat de onderneming gedurende vijf jaar om de drie maanden kan wentelen. Het voordeel is dat de onderneming van de kortetermijnrente geniet. In de eurozone zal deze kortetermijnrente bijvoorbeeld veelal gebaseerd zijn op de LIBOR of de EURIBOR, in dit voorbeeld op drie maanden, te verhogen met een vooraf afgesproken spread. De contractueel verschuldigde interest is gelijk aan de EURIBOR op drie maanden op het moment van de opname van het bedrag van 100.000 euro, verhoogd met een marge voor de bank van 2 procentpunten. De onderneming betaalt na drie maanden het bedrag van 100.000 euro terug, vermeerderd met 564,21[^2]
- euro, zijnde de intresten verschuldigd over deze periode van drie maanden. De onderneming neemt onmiddellijk opnieuw 95.000 euro op waarbij de verschuldigde interest voor de volgende drie maanden gelijk zal zijn aan EURIBOR op drie maanden op het moment van deze heropname van 95.000 euro, verhoogd met een marge voor de bank ten belope van de afgesproken 2 procentpunten. Na drie maanden zal de onderneming 95.000 euro terugbetalen, vermeerderd met 536,70[^3] euro, zijnde de verschuldigde interest. De onderneming neemt vervolgens opnieuw 90.000 euro op enzovoort. 
+Een onderneming kan een bedrag van 100.000 euro opnemen voor een periode van drie maanden. Daarna moet ze dit bedrag terugbetalen maar kan ze opnieuw voor hetzelfde of voor een lager bedrag opnemen *(wentelen).* Veronderstel dat de onderneming gedurende vijf jaar om de drie maanden kan wentelen. Het voordeel is dat de onderneming van de kortetermijnrente geniet. In de eurozone zal deze kortetermijnrente bijvoorbeeld veelal gebaseerd zijn op de LIBOR of de EURIBOR, in dit voorbeeld op drie maanden, te verhogen met een vooraf afgesproken spread. De contractueel verschuldigde interest is gelijk aan de EURIBOR op drie maanden op het moment van de opname van het bedrag van 100.000 euro, verhoogd met een marge voor de bank van 2 procentpunten. De onderneming betaalt na drie maanden het bedrag van 100.000 euro terug, vermeerderd met 564,21[^2] euro, zijnde de intresten verschuldigd over deze periode van drie maanden. De onderneming neemt onmiddellijk opnieuw 95.000 euro op waarbij de verschuldigde interest voor de volgende drie maanden gelijk zal zijn aan EURIBOR op drie maanden op het moment van deze heropname van 95.000 euro, verhoogd met een marge voor de bank ten belope van de afgesproken 2 procentpunten. Na drie maanden zal de onderneming 95.000 euro terugbetalen, vermeerderd met 536,70[^3] euro, zijnde de verschuldigde interest. De onderneming neemt vervolgens opnieuw 90.000 euro op enzovoort. 
 
 De vraag stelt zich of de onderneming dat krediet al dan niet mag boeken als een schuld op meer dan één jaar tot in het jaar voordat het krediet afloopt. 
 

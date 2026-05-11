@@ -1,64 +1,64 @@
 ---
-nummer: CBN-advies 139/2
-datum: 1988-06-01
-themas:
-  - obligaties
-  - obligaties met warrant
-  - warrant
 bron: https://www.cbn-cnc.be/nl/adviezen/obligaties-met-warrant
+datum: 1988-06-01
+gerelateerde_adviezen:
+  - datum: '2019-07-11'
+    titel: Boekhoudkundige verwerking van de uitgifte van een obligatielening
+    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-uitgifte-van-een-obligatielening
+  - datum: '1991-03-01'
+    titel: Passende boekhoudkundige verwerking van de tegenwaarde van participatiecertificaten CPC&#039;s
+    url: https://www.cbn-cnc.be/nl/adviezen/passende-boekhoudkundige-verwerking-van-de-tegenwaarde-van-participatiecertificaten-cpcs
+  - datum: '1990-06-01'
+    titel: Boeking van de prorata van gelopen interest op obligaties en kasbons
+    url: https://www.cbn-cnc.be/nl/adviezen/boeking-van-de-prorata-van-gelopen-interest-op-obligaties-en-kasbons
+  - datum: '1984-10-01'
+    titel: 'Vastrentende effecten : financiële vaste activa of geldbeleggingen ? Criteria'
+    url: https://www.cbn-cnc.be/nl/adviezen/vastrentende-effecten-financiele-vaste-activa-of-geldbeleggingen-criteria
+nummer: CBN-advies 139/2
 provenance:
+  generated_at: '2026-05-11T13:05:06Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/obligaties-met-warrant
       sha256: b62f014465cf143e0fa22c5f4b0c68c37d7e64724a3b959597911a6abe560eeb
       version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:35:04Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
   trust:
-    status: needs-rework
     confirmed_at: '2026-05-11T12:04:41Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "G1/F1: HTML-entity &#039; in frontmatter (regel 45: 'CPC&#039;s') — dit is een scraper-artefact dat niet gedecodeeerd werd. D4: *Bull. CBN * op regel 62 heeft spatie voor sluitende * (malformed italic). Tabel op regels 84-88 is correct pipe-syntax. Inhoud volledig."
     layer1:
       status: pass
-      run_id: 20260511-083333
-      run_at:
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:26Z'
       heading_count: 0
       max_section_chars: 3657
       file_size_chars: 3657
       flags: []
     layer2:
-      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:04:41Z'
-      rationale: "G1/F1: HTML-entity &#039; in frontmatter (regel 45: 'CPC&#039;s') — dit is een scraper-artefact dat niet gedecodeeerd werd. D4: *Bull. CBN * op regel 62 heeft spatie voor sluitende * (malformed italic). Tabel op regels 84-88 is correct pipe-syntax. Inhoud volledig."
       concrete_problemen:
-        - regel: 45
-          categorie: G1
+        - categorie: G1
+          regel: 45
           type: other
           voorbeeld: '- titel: Passende boekhoudkundige verwerking van de tegenwaarde van participatiecertificaten CPC&#039;s'
-        - regel: 62
-          categorie: D4
+        - categorie: D4
+          regel: 62
           type: other
           voorbeeld: '...naar advies 139/1 gepubliceerd in *Bull. CBN *nr. 13 van januari 1984 (pp. 14-18).'
-gerelateerde_adviezen:
-  - titel: Boekhoudkundige verwerking van de uitgifte van een obligatielening
-    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-uitgifte-van-een-obligatielening
-    datum: '2019-07-11'
-  - titel: Passende boekhoudkundige verwerking van de tegenwaarde van participatiecertificaten CPC&#039;s
-    url: https://www.cbn-cnc.be/nl/adviezen/passende-boekhoudkundige-verwerking-van-de-tegenwaarde-van-participatiecertificaten-cpcs
-    datum: '1991-03-01'
-  - titel: Boeking van de prorata van gelopen interest op obligaties en kasbons
-    url: https://www.cbn-cnc.be/nl/adviezen/boeking-van-de-prorata-van-gelopen-interest-op-obligaties-en-kasbons
-    datum: '1990-06-01'
-  - titel: 'Vastrentende effecten : financiële vaste activa of geldbeleggingen ? Criteria'
-    url: https://www.cbn-cnc.be/nl/adviezen/vastrentende-effecten-financiele-vaste-activa-of-geldbeleggingen-criteria
-    datum: '1984-10-01'
+      rationale: 'G1/F1: HTML-entity &#039; in frontmatter (regel 45: ''CPC&#039;s'') — dit is een scraper-artefact dat niet gedecodeeerd werd. D4: *Bull. CBN * op regel 62 heeft spatie voor sluitende * (malformed italic). Tabel op regels 84-88 is correct pipe-syntax. Inhoud volledig.'
+      run_at: '2026-05-11T12:04:41Z'
+      status: needs-rework
+    rationale: 'G1/F1: HTML-entity &#039; in frontmatter (regel 45: ''CPC&#039;s'') — dit is een scraper-artefact dat niet gedecodeeerd werd. D4: *Bull. CBN * op regel 62 heeft spatie voor sluitende * (malformed italic). Tabel op regels 84-88 is correct pipe-syntax. Inhoud volledig.'
+    status: needs-rework
+themas:
+  - obligaties
+  - obligaties met warrant
+  - warrant
 ---
 
 # CBN-advies 139/2 - Obligaties met warrant
@@ -67,7 +67,7 @@ De Commissie werd ondervraagd over de boekingswijze van obligaties uitgegeven me
 
 Zij heeft deze vraagstelling onderzocht redenerend op het meest voorkomende geval waarin de warrant aan zijn titularis het recht geeft om tegen een van bij de aanvang vastgestelde, vaste prijs, in te schrijven op aandelen hetzij van de vennootschap die de obligaties uitgeeft, hetzij van een derde, verwante vennootschap. De vastgestelde beginselen zijn evenwel op analogische wijze van toepassing wanneer, zoals recent het geval was, de uitoefeningsprijs van de warrant vastgesteld is door verwijzing naar de beurskoers van de aandelen waarop kan worden ingeschreven, op het ogenblik van de inschrijving of gedurende een periode die deze voorafgaat (in dat geval is de waarde van de warrant in beginsel nihil of onbelangrijk), of wanneer de warrant recht geeft op de aanschaffing van een goed van een andere aard (bijvoorbeeld goud). 
 
-Naar het oordeel van de Commissie bezit een warrant in se het karakter van een inschrijvingsrecht van hetzelfde type als bij uitgifte van nieuwe aandelen. De Commissie verwijst derhalve naar advies 139/1 gepubliceerd in *Bull. CBN *nr. 13 van januari 1984 (pp. 14-18). 
+Naar het oordeel van de Commissie bezit een warrant in se het karakter van een inschrijvingsrecht van hetzelfde type als bij uitgifte van nieuwe aandelen. De Commissie verwijst derhalve naar advies 139/1 gepubliceerd in *Bull. CBN* nr. 13 van januari 1984 (pp. 14-18). 
 
 Uit dit advies blijkt wat volgt : 
 

@@ -1,6 +1,75 @@
 ---
-nummer: CBN-advies 2009/3
+bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-kapitaalsubsidies-waarvan-de-toekenning-enof-de-uitbetaling
 datum: 2009-02-11
+gerelateerde_adviezen:
+  - datum: '2014-05-14'
+    titel: De boekhoudkundige verwerking van subsidies waarvan de toekenning niet gegarandeerd is (eventuele rechten)
+    url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-subsidies-waarvan-de-toekenning-niet-gegarandeerd-is
+nummer: CBN-advies 2009/3
+provenance:
+  generated_at: '2026-05-11T13:05:06Z'
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-kapitaalsubsidies-waarvan-de-toekenning-enof-de-uitbetaling
+      sha256: 0d2e9abf1e2373b5da82f777a4eb4ecb1d4cbe61ee161a4f7847c6d2f1c1a0e5
+      version:
+  stale: false
+  stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
+  trust:
+    confirmed_at: '2026-05-11T12:09:17Z'
+    confirmed_by: subagent-sonnet-4-6
+    layer1:
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:27Z'
+      heading_count: 12
+      max_section_chars: 11793
+      file_size_chars: 19652
+      flags: []
+    layer2:
+      agent: subagent-sonnet-4-6
+      concrete_problemen:
+        - categorie: B4
+          regel: 52
+          type: other
+          voorbeeld: '#### INLEIDING (all-caps #### i.p.v. ## Inleiding)'
+        - categorie: B4
+          regel: 60
+          type: other
+          voorbeeld: '#### OVERZICHT VAN DE ALGEMENE BEGINSELEN'
+        - categorie: B4
+          regel: 71
+          type: other
+          voorbeeld: '#### BEOORDELING VAN HET VASTSTAAND KARAKTER VAN HET RECHT OP EEN SUBSIDIE'
+        - categorie: B4
+          regel: 118
+          type: other
+          voorbeeld: '#### VOORBEELDEN'
+        - categorie: D4
+          regel: 154
+          type: other
+          voorbeeld: '*Kapitaalsubsidies *en a rato van 25% (spatie voor sluitende *)'
+        - categorie: E2
+          regel: 157
+          type: other
+          voorbeeld: Tabel 1 (placeholder zonder tabelinhoud — numerieke tabel ontbreekt)
+        - categorie: E2
+          regel: 163
+          type: other
+          voorbeeld: Tabel 2 (placeholder zonder tabelinhoud)
+        - categorie: E2
+          regel: 236
+          type: other
+          voorbeeld: Tabel 3 (placeholder zonder tabelinhoud)
+      rationale: 'B4: vier #### headings in all-caps (INLEIDING, OVERZICHT VAN DE ALGEMENE BEGINSELEN, BEOORDELING VAN HET VASTSTAAND KARAKTER, VOORBEELDEN) zonder onderliggende ##/### niveau — mens schrijft dit als ## of ###, niet als ####. D4: regel 154 heeft ''*Kapitaalsubsidies *'' met spatie voor sluitende asterisk (malformed italic). Structureel: tabellen zijn afwezig (vervangen door ''Tabel 1 / Tabel 2 / Tabel 3'' als plain text op regels 157, 163, 236) — de eigenlijke numerieke tabellen ontbreken in de extractie.'
+      run_at: '2026-05-11T12:09:17Z'
+      status: needs-rework
+    rationale: 'B4: vier #### headings in all-caps (INLEIDING, OVERZICHT VAN DE ALGEMENE BEGINSELEN, BEOORDELING VAN HET VASTSTAAND KARAKTER, VOORBEELDEN) zonder onderliggende ##/### niveau — mens schrijft dit als ## of ###, niet als ####. D4: regel 154 heeft ''*Kapitaalsubsidies *'' met spatie voor sluitende asterisk (malformed italic). Structureel: tabellen zijn afwezig (vervangen door ''Tabel 1 / Tabel 2 / Tabel 3'' als plain text op regels 157, 163, 236) — de eigenlijke numerieke tabellen ontbreken in de extractie.'
+    status: needs-rework
 themas:
   - eventuele rechten
   - kapitaalsubsidie
@@ -8,75 +77,6 @@ themas:
   - uitgestelde belastingen
   - vipa
   - vlaams infrastructuurfonds voor persoonsgebonden aangelegenheden
-bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-kapitaalsubsidies-waarvan-de-toekenning-enof-de-uitbetaling
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-kapitaalsubsidies-waarvan-de-toekenning-enof-de-uitbetaling
-      sha256: 0d2e9abf1e2373b5da82f777a4eb4ecb1d4cbe61ee161a4f7847c6d2f1c1a0e5
-      version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:35:48Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T12:09:17Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "B4: vier #### headings in all-caps (INLEIDING, OVERZICHT VAN DE ALGEMENE BEGINSELEN, BEOORDELING VAN HET VASTSTAAND KARAKTER, VOORBEELDEN) zonder onderliggende ##/### niveau — mens schrijft dit als ## of ###, niet als ####. D4: regel 154 heeft '*Kapitaalsubsidies *' met spatie voor sluitende asterisk (malformed italic). Structureel: tabellen zijn afwezig (vervangen door 'Tabel 1 / Tabel 2 / Tabel 3' als plain text op regels 157, 163, 236) — de eigenlijke numerieke tabellen ontbreken in de extractie."
-    layer1:
-      status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 7
-      max_section_chars: 11799
-      file_size_chars: 19658
-      flags: []
-    layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:09:17Z'
-      rationale: "B4: vier #### headings in all-caps (INLEIDING, OVERZICHT VAN DE ALGEMENE BEGINSELEN, BEOORDELING VAN HET VASTSTAAND KARAKTER, VOORBEELDEN) zonder onderliggende ##/### niveau — mens schrijft dit als ## of ###, niet als ####. D4: regel 154 heeft '*Kapitaalsubsidies *' met spatie voor sluitende asterisk (malformed italic). Structureel: tabellen zijn afwezig (vervangen door 'Tabel 1 / Tabel 2 / Tabel 3' als plain text op regels 157, 163, 236) — de eigenlijke numerieke tabellen ontbreken in de extractie."
-      concrete_problemen:
-        - regel: 52
-          categorie: B4
-          type: other
-          voorbeeld: '#### INLEIDING (all-caps #### i.p.v. ## Inleiding)'
-        - regel: 60
-          categorie: B4
-          type: other
-          voorbeeld: '#### OVERZICHT VAN DE ALGEMENE BEGINSELEN'
-        - regel: 71
-          categorie: B4
-          type: other
-          voorbeeld: '#### BEOORDELING VAN HET VASTSTAAND KARAKTER VAN HET RECHT OP EEN SUBSIDIE'
-        - regel: 118
-          categorie: B4
-          type: other
-          voorbeeld: '#### VOORBEELDEN'
-        - regel: 154
-          categorie: D4
-          type: other
-          voorbeeld: '*Kapitaalsubsidies *en a rato van 25% (spatie voor sluitende *)'
-        - regel: 157
-          categorie: E2
-          type: other
-          voorbeeld: Tabel 1 (placeholder zonder tabelinhoud — numerieke tabel ontbreekt)
-        - regel: 163
-          categorie: E2
-          type: other
-          voorbeeld: Tabel 2 (placeholder zonder tabelinhoud)
-        - regel: 236
-          categorie: E2
-          type: other
-          voorbeeld: Tabel 3 (placeholder zonder tabelinhoud)
-gerelateerde_adviezen:
-  - titel: De boekhoudkundige verwerking van subsidies waarvan de toekenning niet gegarandeerd is (eventuele rechten)
-    url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-subsidies-waarvan-de-toekenning-niet-gegarandeerd-is
-    datum: '2014-05-14'
 ---
 
 # CBN-advies 2009/3 - Boekhoudkundige verwerking van kapitaalsubsidies waarvan de toekenning en/of de uitbetaling over verschillende jaren wordt gespreid
@@ -169,13 +169,13 @@ Marginale tarief (bij wijze van voorbeeld) in de vennootschapsbelasting : **25 %
 
   | 
 
-***a) Voorbeeld 1 : Subsidie verkregen om de aanschaffing te financieren van materiële vaste activa, met gespreide uitbetaling over 20 jaar ***
+***a) Voorbeeld 1 : Subsidie verkregen om de aanschaffing te financieren van materiële vaste activa, met gespreide uitbetaling over 20 jaar** *
 
 **i. Principes**
 
 Na onderzoek is het bestuursorgaan van oordeel dat hij een zuivere schuldvordering heeft op de subsidiërende overheid (of een redelijke zekerheid omtrent de effectieve uitbetaling van de subsidie(s)) voor een bedrag dat overeenstemt met de totale stroom verwachte betalingen.
 
-**ii. Inresultaatneming van de kapitaalsubsidie**
+## ii. Inresultaatneming van de kapitaalsubsidie
 
 De kapitaalsubsidie – die overeenstemt met de som van de uit te betalen bedragen (20 x 270.249 €, hetzij 5.404.980 €) – wordt gelijkmatig met de afschrijving van de gesubsidieerde vaste activa in resultaat genomen.
 
@@ -183,12 +183,11 @@ In het voorliggende geval financiert de subsidie 35% van de investering. 70% van
 
 Onderstaande tabel 1 geeft per jaar de inresultaatneming van de kapitaalsubsidie weer. De bedragen in de tabel werden gecorrigeerd om rekening te houden met de investeringsdatum (1 april) en de afschrijving* pro rata temporis* tijdens het eerste boekjaar.
 
-De te ontvangen subsidie wordt a rato van 75% opgenomen in de rubriek *Kapitaalsubsidies *en a rato van 25%[^10]
- in de rubriek *Uitgestelde belastingen*.
+De te ontvangen subsidie wordt a rato van 75% opgenomen in de rubriek *Kapitaalsubsidies* en a rato van 25%[^10] in de rubriek *Uitgestelde belastingen*.
 
 Tabel 1 
 
-**iii. Schuldaflossingsplan**
+## iii. Schuldaflossingsplan
 
 Onderstaande tabel 2 geeft het aflossingsplan weer voor een krediet van 3.500.000 €, tegen 5%, terugbetaald in 20 vaste jaarlijkse aflossingen.
 
@@ -241,7 +240,7 @@ Voor de toekenning van dergelijke subsidies gelden de volgende principes:
 - het jaarlijkse bedrag van de jaarlijkse gebruikstoelage wordt berekend door een coëfficiënt toe te passen op het basisbedrag dat wordt berekend en vastgesteld op de datum van het oorspronkelijk principieel akkoord; 
 - ieder jaar gelden de voorwaarden zowel voor het principe voor de toekenning van een gebruikstoelage, als voor het bedrag hiervan. 
 
-**ii. Aard van het principieel akkoord**
+## ii. Aard van het principieel akkoord
 
 Een principieel akkoord houdt in dat het project van de initiatiefnemer gedurende twintig opeenvolgende jaren in aanmerking komt voor een gebruikstoelage[^12]. Die jaarlijkse gebruikstoelage wordt berekend door een coëfficiënt toe te passen op het totale bedrag (basisbedrag) dat wordt berekend en vastgesteld, in functie van het project, op de datum van het oorspronkelijk principieel akkoord[^13].
 
@@ -251,7 +250,7 @@ Naar het oordeel van de Commissie zou de datum waarop het recht op een VIPA-gebr
 
 In casu vertoont het recht op een subsidie veel gelijkenis met een eventueel recht.
 
-**iii. Aard van de jaarlijkse gebruikstoelagen**
+## iii. Aard van de jaarlijkse gebruikstoelagen
 
 De jaarlijkse gebruikstoelagen van het Fonds zijn bestemd om in de verzorgingssector, met het oog op een wijziging of uitbreiding van de bestaande infrastructuur, bouwwerken te financieren.
 
@@ -261,7 +260,7 @@ Het bedrag van de jaarlijkse gebruikstoelage wordt berekend door een coëfficië
 
 De Commissie is dan ook van oordeel dat de jaarlijkse gebruikstoelagen integraal als kapitaalsubsidies dienen te worden beschouwd.
 
-**iv. Inresultaatneming van de kapitaalsubsidie**
+## iv. Inresultaatneming van de kapitaalsubsidie
 
 De subsidie wordt gelijkmatig met de afschrijving van de gesubsidieerde vaste activa in resultaat genomen. Aangezien echter de meeste subsidies pas komen vast te staan nadat men met de afschrijving van de gesubsidieerde investeringen is kunnen beginnen, dient in de resultatenrekening van het boekjaar waarin elke subsidie definitief is verworven, het gedeelte van de subsidies te worden opgenomen dat overeenstemt met de reeds verrichte afschrijving. In de onderstaande tabel 3 wordt dit principe toegelicht.
 

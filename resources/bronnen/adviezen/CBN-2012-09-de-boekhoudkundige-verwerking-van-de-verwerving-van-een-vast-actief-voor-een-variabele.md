@@ -1,61 +1,59 @@
 ---
-nummer: CBN-advies 2012/9
-datum: 2012-06-06
-themas:
-  - variabele prijs
-  - financiële vaste activa
-  - immateriële vaste activa
 bron: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-verwerving-van-een-vast-actief-voor-een-variabele
+datum: 2012-06-06
+gerelateerde_adviezen:
+  - datum: '1993-02-01'
+    titel: Verwerving van een vast actief voor een variabele prijs die afhankelijk is van de toekomstige winst van de koper
+    url: https://www.cbn-cnc.be/nl/adviezen/verwerving-van-een-vast-actief-voor-een-variabele-prijs-die-afhankelijk-is-van-de
+  - datum: '1990-06-01'
+    titel: Verwerving van een vast actief voor een prijs die bestaat uit een vast contant te betalen gedeelte en een variabel gedeelte dat afhankelijk is van de gerealiseerde bedrijfswinst
+    url: https://www.cbn-cnc.be/nl/adviezen/verwerving-van-een-vast-actief-voor-een-prijs-die-bestaat-uit-een-vast-contant-te-betalen
+nummer: CBN-advies 2012/9
 provenance:
+  generated_at: '2026-05-11T13:05:08Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-verwerving-van-een-vast-actief-voor-een-variabele
       sha256: bf4eeb3bbe53a79b3ed20c981361938a3d6d79fa6d298ad2bdd8a0bdfa8f723d
       version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:36:28Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
   trust:
-    status: needs-rework
     confirmed_at: '2026-05-11T12:09:18Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "B2: regel 52 heeft een tweede '#'-level heading ('# Advies 6 juni 2012, bijgewerkt...') midden in het document — een mens zou dit nooit als tweede H1 schrijven. E1/E2: Voorbeeld 4 (regels 149-290) heeft een volledig kapotte tabel waarbij elke cel als losstaande regel is weergegeven met lege pipe-rijen ertussen — onleesbaar als markdown-tabel."
     layer1:
       status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 9
-      max_section_chars: 16020
-      file_size_chars: 20361
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:28Z'
+      heading_count: 7
+      max_section_chars: 16010
+      file_size_chars: 20060
       flags: []
     layer2:
-      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:09:18Z'
-      rationale: "B2: regel 52 heeft een tweede '#'-level heading ('# Advies 6 juni 2012, bijgewerkt...') midden in het document — een mens zou dit nooit als tweede H1 schrijven. E1/E2: Voorbeeld 4 (regels 149-290) heeft een volledig kapotte tabel waarbij elke cel als losstaande regel is weergegeven met lege pipe-rijen ertussen — onleesbaar als markdown-tabel."
       concrete_problemen:
-        - regel: 52
-          categorie: B2
+        - categorie: B2
+          regel: 52
           type: other
           voorbeeld: '# Advies 6 juni 2012, bijgewerkt op 10 september 2025[^1]'
-        - regel: 149
-          categorie: E1
+        - categorie: E1
+          regel: 149
           type: pseudo-table
           voorbeeld: "| | | \n\nVaste betaalde prijs: 300\n\n  | | \n\nVariabele \n\nprijs jaar \n\n20X1: 27"
-gerelateerde_adviezen:
-  - titel: Verwerving van een vast actief voor een variabele prijs die afhankelijk is van de toekomstige winst van de koper
-    url: https://www.cbn-cnc.be/nl/adviezen/verwerving-van-een-vast-actief-voor-een-variabele-prijs-die-afhankelijk-is-van-de
-    datum: '1993-02-01'
-  - titel: Verwerving van een vast actief voor een prijs die bestaat uit een vast contant te betalen gedeelte en een variabel gedeelte dat afhankelijk is van de gerealiseerde bedrijfswinst
-    url: https://www.cbn-cnc.be/nl/adviezen/verwerving-van-een-vast-actief-voor-een-prijs-die-bestaat-uit-een-vast-contant-te-betalen
-    datum: '1990-06-01'
+      rationale: 'B2: regel 52 heeft een tweede ''#''-level heading (''# Advies 6 juni 2012, bijgewerkt...'') midden in het document — een mens zou dit nooit als tweede H1 schrijven. E1/E2: Voorbeeld 4 (regels 149-290) heeft een volledig kapotte tabel waarbij elke cel als losstaande regel is weergegeven met lege pipe-rijen ertussen — onleesbaar als markdown-tabel.'
+      run_at: '2026-05-11T12:09:18Z'
+      status: needs-rework
+    rationale: 'B2: regel 52 heeft een tweede ''#''-level heading (''# Advies 6 juni 2012, bijgewerkt...'') midden in het document — een mens zou dit nooit als tweede H1 schrijven. E1/E2: Voorbeeld 4 (regels 149-290) heeft een volledig kapotte tabel waarbij elke cel als losstaande regel is weergegeven met lege pipe-rijen ertussen — onleesbaar als markdown-tabel.'
+    status: needs-rework
+themas:
+  - variabele prijs
+  - financiële vaste activa
+  - immateriële vaste activa
 ---
-
-# CBN-advies 2012/9 – De boekhoudkundige verwerking van de verwerving van een vast actief voor een variabele prijs die afhankelijk is van een toekomstige en onzekere gebeurtenis die een rechtstreeks verband houdt met het nut dat het verworven actief heeft voor de vennootschap (update)
 
 # Advies 6 juni 2012, bijgewerkt op 10 september 2025[^1]
 
@@ -65,9 +63,7 @@ In dit advies behandelt de Commissie voor boekhoudkundige normen de boekhoudkund
 
 Wanneer een onderneming vaste activa verwerft waarvoor een prijs wordt betaald die enerzijds bestaat uit een vast gedeelte dat moet worden betaald bij het sluiten van de overeenkomst, en anderzijds uit een variabel gedeelte dat later moet worden betaald en afhankelijk is van een toekomstige en onzekere gebeurtenis (bv. een bepaald percentage van het aan het overgenomen actief toe te wijzen deel van de bedrijfswinst), dan kunnen hierbij enkele vragen worden gesteld. Moet het variabel gedeelte van de prijs geactiveerd worden of daarentegen onmiddellijk als kost ten laste worden genomen van het boekjaar? En indien het variabel gedeelte van de prijs geactiveerd moet worden, op welke wijze moet dit variabel gedeelte van de prijs dan worden afgeschreven?
 
-In de CBN-adviezen 126/9[^3]
- en 126/10[^4]
-  heeft de Commissie reeds enkele principes met betrekking tot de bovengenoemde problematiek uiteengezet. In onderhavig advies, dat de adviezen 126/9 en 126/10 opheft en vervangt, worden deze principes overgenomen en verder gepreciseerd.
+In de CBN-adviezen 126/9[^3] en 126/10[^4] heeft de Commissie reeds enkele principes met betrekking tot de bovengenoemde problematiek uiteengezet. In onderhavig advies, dat de adviezen 126/9 en 126/10 opheft en vervangt, worden deze principes overgenomen en verder gepreciseerd.
 
 ## Draagwijdte van het advies 
 
@@ -87,8 +83,7 @@ Vervolgens wenst de Commissie te benadrukken dat de in dit advies beschreven boe
 
 #### Algemeen
 
-Naar mening van de Commissie zijn vaste activa die vermogensbestanddelen van een onderneming die bestemd zijn om duurzaam voor de bedrijfsuitoefening te worden gebruikt[^5]
- en waarvan een toekomstig economisch nut kan worden verwacht[^6]. Bijgevolg kunnen enkel die kosten waarvan het investeringskarakter vaststaat worden geactiveerd. 
+Naar mening van de Commissie zijn vaste activa die vermogensbestanddelen van een onderneming die bestemd zijn om duurzaam voor de bedrijfsuitoefening te worden gebruikt[^5] en waarvan een toekomstig economisch nut kan worden verwacht[^6]. Bijgevolg kunnen enkel die kosten waarvan het investeringskarakter vaststaat worden geactiveerd. 
 
 Kosten die daarentegen rechtstreeks gerelateerd zijn aan onmiddellijke opbrengsten van een bepaald boekjaar moeten overeenkomstig het matchingbeginsel ten laste van dat boekjaar worden genomen. Deze kosten leiden immers niet tot een toekomstig economisch nut voor de onderneming. Vermits voor deze kosten het investeringskarakter ontbreekt, kan hier geen activatie plaatsvinden. 
 
@@ -113,7 +108,7 @@ Contractueel is bovendien bedongen dat het totaal van de in mei 20X1 en in mei 2
 Naar het oordeel van de Commissie moet men als volgt te werk gaan: 
 
 - het vast bedrag dat bij de ondertekening van de koopovereenkomst wordt betaald, wordt aan de actiefzijde van de balans geboekt bij de financiële vaste activa; 
-- het bedrag dat in vier schijven wordt betaald op 31 december 20X0, 20X1, 20X2 en 20X3 wordt eveneens meteen aan actiefzijde van de balans geboekt in dezelfde post. Aan passiefzijde wordt gelijktijdig een schuld geboekt met dezelfde nominale waarde. Met toepassing van artikel 3:55 *juncto *artikel 3:45 KB WVV wordt in voorkomend geval een op basis van de marktrente berekend disconto in de overlopende rekeningen van het actief geboekt en *prorata temporis in resultaat genomen. * 
+- het bedrag dat in vier schijven wordt betaald op 31 december 20X0, 20X1, 20X2 en 20X3 wordt eveneens meteen aan actiefzijde van de balans geboekt in dezelfde post. Aan passiefzijde wordt gelijktijdig een schuld geboekt met dezelfde nominale waarde. Met toepassing van artikel 3:55 *juncto* artikel 3:45 KB WVV wordt in voorkomend geval een op basis van de marktrente berekend disconto in de overlopende rekeningen van het actief geboekt en *prorata temporis in resultaat genomen.*  
 
 Wat de betaling in mei 20X1 en 20X2 van 30 % van de aan de overgenomen vennootschap toe te wijzen bedrijfswinst van de respectieve boekjaren 20X0 en 20X1 betreft, is de Commissie van oordeel dat het hier gaat om kosten waarvan het investeringskarakter ondubbelzinnig vaststaat. Deze variabele gedeelten van de prijs worden immers betaald indien aan een opschortende voorwaarde is voldaan, nl. de realisatie van een bedrijfswinst door de overgenomen vennootschap. Dit betekent dat, bij realisatie van een bedrijfswinst, tegenover deze kosten ontegensprekelijk toekomstige economische voordelen staan. Bijgevolg moeten deze kosten geactiveerd worden. De variabele gedeelten van de prijs zijn evenwel pas verschuldigd als aan een opschortende voorwaarde is voldaan, nl. de realisatie van een bedrijfswinst door de overgenomen vennootschap. Naar het oordeel van de Commissie moet er bijgevolg geen schuld worden geboekt en moet de aanschaffingsprijs van de verworven aandelen niet worden verhoogd zolang deze voorwaarde niet is vervuld. Op grond van artikel 3:2, § 3 KB WVV. moet het bestaan van een dergelijke voorwaardelijke schuld op passende wijze in de toelichting bij de jaarrekening worden vermeld. 
 
@@ -134,8 +129,7 @@ Een vennootschap A verwerft alle aandelen van een vennootschap B die actief is h
 
 In dit voorbeeld is duidelijk dat de betaalde variabele prijs een investeringskarakter heeft. Deze variabele prijs vergoedt de verkoper immers voor het economisch potentieel van de overgenomen vennootschap B dat op het ogenblik van de overname van de aandelen reeds in de vennootschap aanwezig is en dat bij het verkrijgen van de vergunning wordt gerealiseerd. Tegenover de door vennootschap A te betalen variabele prijs staan bovendien toekomstige inkomsten die zullen voortkomen uit de verwerving van de vergunning (bv. reclame-inkomsten). De variabele prijs van 1.400.000 euro dient bijgevolg te worden geactiveerd onder de financiële vaste activa wanneer de overgenomen vennootschap B de radiovergunning verkrijgt.
 
-### Afschrijven van vaste activa met beperkte levensduur die zijn verworven voor een prijs die (deels) bestaat uit een variabele gedeelte dat afhankelijk is van een toekomstige en onzekere gebeurtenis
-
+Afschrijven van vaste activa met beperkte levensduur die zijn verworven voor een prijs die (deels) bestaat uit een variabele gedeelte dat afhankelijk is van een toekomstige en onzekere gebeurtenis
 Wat de afschrijving betreft van vaste activa die zijn verworven voor een variabele prijs, moet er op worden gewezen dat artikel 3:23, eerste lid, artikel 3:37, artikel 3:39, § 1, eerste lid en artikel 3:42, § 1, eerste lid KB WVV voorschrijven dat de kosten van investeringen met een beperkte gebruiksduur volgens een gepast plan gespreid ten laste moeten worden genomen over de vermoedelijke gebruiksduur van de betrokken goederen. Op grond van deze bepalingen en het beginsel dat activa tegen aanschaffingswaarde worden geboekt, is het dus uitgesloten dat de kosten van deze investeringen naarmate zij vast komen te staan, volledig ten laste zouden worden genomen. 
 
 Voorts is het duidelijk dat de onderneming over het betrokken vast actief beschikt zodra zij er het genot van heeft. De raming van de vermoedelijke gebruiksduur moet dus worden berekend vanaf dit ogenblik en precies over deze gebruiksduur moet de tenlasteneming van de kosten van dit vast actief via afschrijvingen worden gespreid. Deze gebruiksduur is inherent aan het betrokken actief en staat over het algemeen los van de betaalde prijs en van de eventuele spreiding van die betaling. Een gespreide afschrijving over een vast aantal jaren waarbij steeds zou worden uitgegaan van de datum waarop de verbintenis is ontstaan om de prijs gespreid te betalen, zou bijgevolg niet stroken met de omschrijving van het begrip “afschrijving” uit het KB WVV. 
@@ -297,8 +291,7 @@ Jaar 20X9
 
   | | | | | | | | | | **409** | 
 
-### Overeenstemming tussen de boekhoudkundige verwerking van goederen verworven tegen betaling van een lijfrente en de activatie van de variabele prijs betaald naar aanleiding van de verwerving van een vast actief
-
+Overeenstemming tussen de boekhoudkundige verwerking van goederen verworven tegen betaling van een lijfrente en de activatie van de variabele prijs betaald naar aanleiding van de verwerving van een vast actief
 Aan de Commissie werd gevraagd of de activering van de variabele gedeelten van de prijs die worden betaald naar aanleiding van de verwerving van een vast actief en die een investeringskarakter vertonen, wel strookt met de boekhoudkundige verwerking van goederen die worden verworven tegen betaling van een lijfrente, zoals voorgeschreven door artikel 3:18 KB WVV. 
 
 Krachtens dit artikel wordt door de aanschaffingswaarde van goederen verworven tegen betaling van een lijfrente verstaan, het kapitaal dat op het ogenblik van de aanschaffing nodig is om de rente te betalen, in voorkomend geval verhoogd met het bedrag dat bij de aanschaffing werd betaald en met de kosten.

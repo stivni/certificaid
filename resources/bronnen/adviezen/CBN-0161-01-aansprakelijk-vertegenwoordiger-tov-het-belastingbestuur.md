@@ -1,56 +1,55 @@
 ---
-nummer: CBN-advies 161/1
+bron: https://www.cbn-cnc.be/nl/adviezen/aansprakelijk-vertegenwoordiger-tov-het-belastingbestuur
 datum: 1990-06-01
+nummer: CBN-advies 161/1
+provenance:
+  generated_at: '2026-05-11T13:05:06Z'
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/aansprakelijk-vertegenwoordiger-tov-het-belastingbestuur
+      sha256: abcb28ece9c7beefc6ee0c4d39c2bdf237de35986da436f53e7af5c569f1a11c
+      version:
+  stale: false
+  stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
+  trust:
+    confirmed_at: '2026-05-11T12:04:42Z'
+    confirmed_by: subagent-sonnet-4-6
+    layer1:
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:26Z'
+      heading_count: 0
+      max_section_chars: 3630
+      file_size_chars: 3630
+      flags: []
+    layer2:
+      agent: subagent-sonnet-4-6
+      concrete_problemen:
+        - categorie: A9
+          regel: 53
+          type: ocr-confusion
+          voorbeeld: Volgens boekingen geven een beeld van de relaties...
+      rationale: 'D1/D4: Regel 53 bevat ''Volgens boekingen geven een beeld...'' — vermoedelijk ontbreekt ''Volgende'' (brontext-artefact of OCR-fout). Tabellen in markdown pipe-syntax aanwezig maar de Debet/Credit kolommen zijn leeg (geen bedragen), wat in dit advies intentioneel is (illustratieve schema''s zonder cijfers). Voetnoot correct.'
+      run_at: '2026-05-11T12:04:42Z'
+      status: needs-rework
+    rationale: 'D1/D4: Regel 53 bevat ''Volgens boekingen geven een beeld...'' — vermoedelijk ontbreekt ''Volgende'' (brontext-artefact of OCR-fout). Tabellen in markdown pipe-syntax aanwezig maar de Debet/Credit kolommen zijn leeg (geen bedragen), wat in dit advies intentioneel is (illustratieve schema''s zonder cijfers). Voetnoot correct.'
+    status: needs-rework
 themas:
   - aansprakelijk vertegenwoordiger
   - aansprakelijk vertegenwoordiger t.o.v. het belastingbestuur
   - lasthebber van de buitenlandse BTW-plichtige
   - medecontractant
-bron: https://www.cbn-cnc.be/nl/adviezen/aansprakelijk-vertegenwoordiger-tov-het-belastingbestuur
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/aansprakelijk-vertegenwoordiger-tov-het-belastingbestuur
-      sha256: abcb28ece9c7beefc6ee0c4d39c2bdf237de35986da436f53e7af5c569f1a11c
-      version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:35:30Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T12:04:42Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "D1/D4: Regel 53 bevat 'Volgens boekingen geven een beeld...' — vermoedelijk ontbreekt 'Volgende' (brontext-artefact of OCR-fout). Tabellen in markdown pipe-syntax aanwezig maar de Debet/Credit kolommen zijn leeg (geen bedragen), wat in dit advies intentioneel is (illustratieve schema's zonder cijfers). Voetnoot correct."
-    layer1:
-      status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 0
-      max_section_chars: 3631
-      file_size_chars: 3631
-      flags: []
-    layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:04:42Z'
-      rationale: "D1/D4: Regel 53 bevat 'Volgens boekingen geven een beeld...' — vermoedelijk ontbreekt 'Volgende' (brontext-artefact of OCR-fout). Tabellen in markdown pipe-syntax aanwezig maar de Debet/Credit kolommen zijn leeg (geen bedragen), wat in dit advies intentioneel is (illustratieve schema's zonder cijfers). Voetnoot correct."
-      concrete_problemen:
-        - regel: 53
-          categorie: A9
-          type: ocr-confusion
-          voorbeeld: Volgens boekingen geven een beeld van de relaties...
 ---
 
 # CBN-advies 161/1 - Aansprakelijk vertegenwoordiger t.o.v. het belastingbestuur
 
 Aan de Commissie werd de vraag gesteld op welke wijze de onderneming die aansprakelijk vertegenwoordiger is t.a.v. het belastingbestuur zulks boekhoudkundig moet tot uiting brengen. 
 
-Rekening houdend met de wettelijke voorschriften inzake de aansprakelijk vertegenwoordiger[^1]
- en met de administratieve circulaire nr. 30/1975 van 5 december 1975, moet de onderneming die aansprakelijk vertegenwoordiger is, worden beschouwd als lasthebber van de buitenlandse btw-plichtige.
+Rekening houdend met de wettelijke voorschriften inzake de aansprakelijk vertegenwoordiger[^1] en met de administratieve circulaire nr. 30/1975 van 5 december 1975, moet de onderneming die aansprakelijk vertegenwoordiger is, worden beschouwd als lasthebber van de buitenlandse btw-plichtige.
 
 Aangezien de aansprakelijk vertegenwoordiger een voor de aard van zijn bedrijf passende boekhouding moet voeren, moet hieruit blijken dat de B.T.W. verschuldigd is door de buitenlandse belastingplichtige en niet door hem. 
 

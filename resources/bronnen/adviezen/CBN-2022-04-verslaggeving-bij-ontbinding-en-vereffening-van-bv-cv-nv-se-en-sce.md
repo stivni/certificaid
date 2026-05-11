@@ -1,6 +1,60 @@
 ---
-nummer: CBN-advies 2022/04
+bron: https://www.cbn-cnc.be/nl/adviezen/verslaggeving-bij-ontbinding-en-vereffening-van-bv-cv-nv-se-en-sce
 datum: 2022-04-01
+gerelateerde_adviezen:
+  - datum: '2024-11-14'
+    titel: Verslaggeving bij de heropening van de vereffening van (i)vzw’s die een dubbele boekhouding voeren
+    url: https://www.cbn-cnc.be/nl/adviezen/verslaggeving-bij-de-heropening-van-de-vereffening-van-ivzws-die-een-dubbele-boekhouding
+  - datum: '2024-11-13'
+    titel: Verslaggeving bij de heropening van de vereffening van de vennootschappen
+    url: https://www.cbn-cnc.be/nl/adviezen/verslaggeving-bij-de-heropening-van-de-vereffening-van-de-vennootschappen
+  - datum: '2022-04-27'
+    titel: Verslaggeving bij ontbinding en vereffening van een VZW of IVZW
+    url: https://www.cbn-cnc.be/nl/adviezen/verslaggeving-bij-ontbinding-en-vereffening-van-een-vzw-of-ivzw
+  - datum: '2018-11-19'
+    titel: Going concern - Waarderingsregels bij de stopzetting of gedeeltelijke stopzetting van het bedrijf van een onderneming
+    url: https://www.cbn-cnc.be/nl/adviezen/going-concern-waarderingsregels-bij-de-stopzetting-of-gedeeltelijke-stopzetting-van-het
+nummer: CBN-advies 2022/04
+provenance:
+  generated_at: '2026-05-11T13:05:08Z'
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/verslaggeving-bij-ontbinding-en-vereffening-van-bv-cv-nv-se-en-sce
+      sha256: 60fddc17498aa2acf9fb6b1937ec85208cc2d26dae275d8514e5543466c0f5ce
+      version:
+  stale: false
+  stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
+  trust:
+    confirmed_at: '2026-05-11T12:24:33Z'
+    confirmed_by: subagent-sonnet-4-6
+    layer1:
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:30Z'
+      heading_count: 13
+      max_section_chars: 16267
+      file_size_chars: 30681
+      flags: []
+    layer2:
+      agent: subagent-sonnet-4-6
+      concrete_problemen:
+        - categorie: A3
+          regel: 86
+          type: other
+          voorbeeld: "1. Ontbinding \n  1. Vrijwillige ontbinding \n  2. Ontbinding van rechtswege  (TOC-fragment in body)"
+        - categorie: D2
+          regel: 225
+          type: missing-section
+          voorbeeld: 'Schematisch kunnen de volgende termijnen worden onderscheiden: [schema/afbeelding ontbreekt]'
+      rationale: 'A3: de inhoudsopgave van het advies staat als genummerde lijst in de body (regels 86-101) vóór de inhoudelijke secties. D2: op regel 225 wordt verwezen naar ''Schematisch kunnen de volgende termijnen worden onderscheiden:'' maar het schema ontbreekt (was waarschijnlijk een afbeelding in het origineel). 75 footnotes correct. Inhoud overigens volledig.'
+      run_at: '2026-05-11T12:24:33Z'
+      status: needs-rework
+    rationale: 'A3: de inhoudsopgave van het advies staat als genummerde lijst in de body (regels 86-101) vóór de inhoudelijke secties. D2: op regel 225 wordt verwezen naar ''Schematisch kunnen de volgende termijnen worden onderscheiden:'' maar het schema ontbreekt (was waarschijnlijk een afbeelding in het origineel). 75 footnotes correct. Inhoud overigens volledig.'
+    status: needs-rework
 themas:
   - verslaggeving
   - ontbinding
@@ -33,60 +87,6 @@ themas:
   - inzagerecht
   - stukken tot staving
   - dossier van de rechtspersoon
-bron: https://www.cbn-cnc.be/nl/adviezen/verslaggeving-bij-ontbinding-en-vereffening-van-bv-cv-nv-se-en-sce
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/verslaggeving-bij-ontbinding-en-vereffening-van-bv-cv-nv-se-en-sce
-      sha256: 60fddc17498aa2acf9fb6b1937ec85208cc2d26dae275d8514e5543466c0f5ce
-      version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:38:08Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T12:24:33Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "A3: de inhoudsopgave van het advies staat als genummerde lijst in de body (regels 86-101) vóór de inhoudelijke secties. D2: op regel 225 wordt verwezen naar 'Schematisch kunnen de volgende termijnen worden onderscheiden:' maar het schema ontbreekt (was waarschijnlijk een afbeelding in het origineel). 75 footnotes correct. Inhoud overigens volledig."
-    layer1:
-      status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 13
-      max_section_chars: 16268
-      file_size_chars: 30703
-      flags: []
-    layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:24:33Z'
-      rationale: "A3: de inhoudsopgave van het advies staat als genummerde lijst in de body (regels 86-101) vóór de inhoudelijke secties. D2: op regel 225 wordt verwezen naar 'Schematisch kunnen de volgende termijnen worden onderscheiden:' maar het schema ontbreekt (was waarschijnlijk een afbeelding in het origineel). 75 footnotes correct. Inhoud overigens volledig."
-      concrete_problemen:
-        - regel: 86
-          categorie: A3
-          type: other
-          voorbeeld: "1. Ontbinding \n  1. Vrijwillige ontbinding \n  2. Ontbinding van rechtswege  (TOC-fragment in body)"
-        - regel: 225
-          categorie: D2
-          type: missing-section
-          voorbeeld: 'Schematisch kunnen de volgende termijnen worden onderscheiden: [schema/afbeelding ontbreekt]'
-gerelateerde_adviezen:
-  - titel: Verslaggeving bij de heropening van de vereffening van (i)vzw’s die een dubbele boekhouding voeren
-    url: https://www.cbn-cnc.be/nl/adviezen/verslaggeving-bij-de-heropening-van-de-vereffening-van-ivzws-die-een-dubbele-boekhouding
-    datum: '2024-11-14'
-  - titel: Verslaggeving bij de heropening van de vereffening van de vennootschappen
-    url: https://www.cbn-cnc.be/nl/adviezen/verslaggeving-bij-de-heropening-van-de-vereffening-van-de-vennootschappen
-    datum: '2024-11-13'
-  - titel: Verslaggeving bij ontbinding en vereffening van een VZW of IVZW
-    url: https://www.cbn-cnc.be/nl/adviezen/verslaggeving-bij-ontbinding-en-vereffening-van-een-vzw-of-ivzw
-    datum: '2022-04-27'
-  - titel: Going concern - Waarderingsregels bij de stopzetting of gedeeltelijke stopzetting van het bedrijf van een onderneming
-    url: https://www.cbn-cnc.be/nl/adviezen/going-concern-waarderingsregels-bij-de-stopzetting-of-gedeeltelijke-stopzetting-van-het
-    datum: '2018-11-19'
 ---
 
 # CBN-advies 2022/04 - Verslaggeving bij ontbinding en vereffening van BV, CV, NV, SE en SCE
@@ -108,8 +108,7 @@ gerelateerde_adviezen:
 
 4. Voorbeeld 
 
-Aan de Commissie werd de vraag gesteld welke verslaggevingsverplichtingen moeten worden nageleefd bij de ontbinding, gedurende de vereffening en bij de sluiting van de vereffening van BV, CV, NV, SE en SCE onder het Wetboek van vennootschappen en verenigingen[^2]
- (hierna: het WVV). In dit advies wordt bijgevolg de ontbinding van een vennootschap behandeld die gevolgd wordt door een daadwerkelijke vereffeningsperiode. De ontbinding en vereffening van een vennootschap in één akte maakt het voorwerp uit van een afzonderlijk advies van de Commissie.[^3]
+Aan de Commissie werd de vraag gesteld welke verslaggevingsverplichtingen moeten worden nageleefd bij de ontbinding, gedurende de vereffening en bij de sluiting van de vereffening van BV, CV, NV, SE en SCE onder het Wetboek van vennootschappen en verenigingen[^2] (hierna: het WVV). In dit advies wordt bijgevolg de ontbinding van een vennootschap behandeld die gevolgd wordt door een daadwerkelijke vereffeningsperiode. De ontbinding en vereffening van een vennootschap in één akte maakt het voorwerp uit van een afzonderlijk advies van de Commissie.[^3]
 
 ## Ontbinding
 
@@ -125,28 +124,19 @@ In wat volgt, bespreekt de Commissie welke verslaggevingsplichten gekoppeld word
 
 De beslissing tot ontbinding van een vennootschap kan vrijwillig zijn en op elk ogenblik worden genomen door een besluit van de algemene vergadering, met inachtneming van de bij het WVV bepaalde vormvereisten, aanwezigheidsquorum en meerderheid[^5]. 
 
-Overeenkomstig artikel 2:71, § 2, lid 1 WVV wordt het voorstel tot vrijwillige ontbinding van een vennootschap[^6]
- toegelicht in een verslag dat door het bestuursorgaan wordt opgemaakt en dat vermeld wordt in de agenda van de algemene vergadering die zich over de ontbinding[^7]
- moet uitspreken.
+Overeenkomstig artikel 2:71, § 2, lid 1 WVV wordt het voorstel tot vrijwillige ontbinding van een vennootschap[^6] toegelicht in een verslag dat door het bestuursorgaan wordt opgemaakt en dat vermeld wordt in de agenda van de algemene vergadering die zich over de ontbinding[^7] moet uitspreken.
 
-Bij dat verslag wordt een staat van activa en passiva[^8]
- gevoegd, die niet meer dan drie maanden, voorafgaand aan de algemene vergadering die over het voorstel tot ontbinding moet besluiten, is vastgesteld. Voornoemde staat wordt opgesteld conform de waarderingsregels[^9]
- vastgesteld in het koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen[^10]
- (hierna: KB WVV). Deze staat moet niet worden neergelegd bij de Nationale Bank van België, doch moet wel worden gevoegd bij het ontbindingsverslag[^11]
- van het bestuursorgaan, dat ter griffie deel zal uitmaken van het vennootschapsdossier[^12].
+Bij dat verslag wordt een staat van activa en passiva[^8] gevoegd, die niet meer dan drie maanden, voorafgaand aan de algemene vergadering die over het voorstel tot ontbinding moet besluiten, is vastgesteld. Voornoemde staat wordt opgesteld conform de waarderingsregels[^9] vastgesteld in het koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen[^10] (hierna: KB WVV). Deze staat moet niet worden neergelegd bij de Nationale Bank van België, doch moet wel worden gevoegd bij het ontbindingsverslag[^11] van het bestuursorgaan, dat ter griffie deel zal uitmaken van het vennootschapsdossier[^12].
 
 Artikel 3:6, § 2, lid 2 KB WVV bepaalt dat indien de vennootschap besluit haar bedrijf stop te zetten of indien er niet meer kan worden uitgegaan dat de vennootschap haar bedrijf zal voortzetten, de waarderingsregels dienovereenkomstig aangepast moeten worden[^13]. In het bijzonder geldt het volgende:
 
 - de oprichtingskosten moeten volledig worden afgeschreven; 
-- voor de vaste en de vlottende activa[^14]
- moet zo nodig tot aanvullende afschrijvingen of waardeverminderingen worden overgegaan om de boekwaarde terug te brengen tot de vermoedelijke realisatiewaarde; 
+- voor de vaste en de vlottende activa[^14] moet zo nodig tot aanvullende afschrijvingen of waardeverminderingen worden overgegaan om de boekwaarde terug te brengen tot de vermoedelijke realisatiewaarde; 
 - een voorziening moet worden gevormd voor de kosten die verbonden zijn aan de beëindiging van de werkzaamheden, inzonderheid voor de aan het personeel uit te keren vergoedingen. 
 
 De commissaris of, bij zijn ontstentenis, een bedrijfsrevisor of een gecertificeerd, accountant die door het bestuursorgaan wordt aangewezen, controleert deze staat en brengt daarover verslag uit en vermeldt inzonderheid of daarin een getrouw beeld wordt gegeven van de toestand van de vennootschap[^15].
 
-Onder het WVV geldt voortaan als regel dat de ontbinding de afsluiting van het boekjaar tot gevolg heeft[^16], wat *in concreto* betekent dat er in hoofde van de vennootschap een jaarrekening moet worden opgesteld voor het boekjaar dat met de datum van de ontbinding van de vennootschap eindigt. De Commissie raadt het bestuursorgaan[^17]
- aan om voor desbetreffend boekjaar[^18]
- een jaarrekening op te stellen met het oog op het verkrijgen van een kwijting door de algemene vergadering. 
+Onder het WVV geldt voortaan als regel dat de ontbinding de afsluiting van het boekjaar tot gevolg heeft[^16], wat *in concreto* betekent dat er in hoofde van de vennootschap een jaarrekening moet worden opgesteld voor het boekjaar dat met de datum van de ontbinding van de vennootschap eindigt. De Commissie raadt het bestuursorgaan[^17] aan om voor desbetreffend boekjaar[^18] een jaarrekening op te stellen met het oog op het verkrijgen van een kwijting door de algemene vergadering. 
 
 De jaarrekening van zowel het laatste boekjaar, als van het boekjaar dat eindigt door de ontbinding kan ook ná de ontbinding worden behandeld om, in voorkomend geval, ter goedkeuring te worden voorgelegd aan de algemene vergadering[^19]. De termijn van art. 3:1, § 1, lid 2 WVV is daarbij van toepassing, wat tot gevolg heeft dat de jaarrekening binnen zes maanden na de afsluitingsdatum van het boekjaar ter goedkeuring moet worden voorgelegd aan de algemene vergadering.
 
@@ -154,34 +144,23 @@ De jaarrekening van zowel het laatste boekjaar, als van het boekjaar dat eindigt
 
 De vennootschap wordt, overeenkomstig artikel 2:72 WVV, van rechtswege ontbonden door het verstrijken van de duur waarvoor zij werd aangegaan of door een uitdrukkelijke ontbindende voorwaarde waaraan de aandeelhouders de vennootschap in de statuten hebben onderworpen. 
 
-Deze ontbindingsvorm impliceert aldus dat de ontbinding van de vennootschap reeds intreedt van zodra een bepaalde gebeurtenis heeft plaatsgevonden, zonder dat hiervoor een ontbindingsbesluit door de aandeelhouders[^20]
- of van de rechtbank[^21]
- vereist is. De vennootschap die van rechtswege wordt ontbonden, treedt bijgevolg onmiddellijk in de vereffening[^22]. Bij niet-benoeming of aanwijzing van een vereffenaar, worden de leden van de raad van bestuur of de leden van directieraad in een Europese vennootschap of Europese coöperatieve vennootschap alsook de bestuurders in de besloten vennootschap, de coöperatieve vennootschap, en de naamloze vennootschap ten aanzien van derden, als vereffenaars van rechtswege beschouwd[^23].
+Deze ontbindingsvorm impliceert aldus dat de ontbinding van de vennootschap reeds intreedt van zodra een bepaalde gebeurtenis heeft plaatsgevonden, zonder dat hiervoor een ontbindingsbesluit door de aandeelhouders[^20] of van de rechtbank[^21] vereist is. De vennootschap die van rechtswege wordt ontbonden, treedt bijgevolg onmiddellijk in de vereffening[^22]. Bij niet-benoeming of aanwijzing van een vereffenaar, worden de leden van de raad van bestuur of de leden van directieraad in een Europese vennootschap of Europese coöperatieve vennootschap alsook de bestuurders in de besloten vennootschap, de coöperatieve vennootschap, en de naamloze vennootschap ten aanzien van derden, als vereffenaars van rechtswege beschouwd[^23].
 
-Ook de ontbinding van rechtswege heeft de afsluiting van het boekjaar tot gevolg[^24], wat *in concreto* betekent dat er in hoofde van de vennootschap een jaarrekening moet worden opgesteld voor het boekjaar dat met de datum van de ontbinding van de vennootschap eindigt. De Commissie raadt het bestuursorgaan[^25]
- aan om voor desbetreffend boekjaar een jaarrekening op te stellen met het oog op het verkrijgen van een kwijting door de algemene vergadering. 
+Ook de ontbinding van rechtswege heeft de afsluiting van het boekjaar tot gevolg[^24], wat *in concreto* betekent dat er in hoofde van de vennootschap een jaarrekening moet worden opgesteld voor het boekjaar dat met de datum van de ontbinding van de vennootschap eindigt. De Commissie raadt het bestuursorgaan[^25] aan om voor desbetreffend boekjaar een jaarrekening op te stellen met het oog op het verkrijgen van een kwijting door de algemene vergadering. 
 
 ### Gerechtelijke ontbinding 
 
-Onder het WVV[^26]
- kan de vennootschap door de ondernemingsrechtbank gerechtelijk worden ontbonden[^27]
- bij de aanwezigheid van wettige redenen[^28]; indien blijkt dat de vennootschap haar verplichting om een jaarrekening neer te leggen[^29]
- overeenkomstig artikelen 3:10 en 3:12 WVV niet is nagekomen[^30]; ingeval van de situaties opgesomd in artikel 2:74, § 2 WVV[^31]
- of, specifiek voor de naamloze vennootschappen, op verzoek van iedere belanghebbende of het openbaar ministerie, wanneer het nettoactief gedaald is tot beneden 61.500 euro[^32].
+Onder het WVV[^26] kan de vennootschap door de ondernemingsrechtbank gerechtelijk worden ontbonden[^27] bij de aanwezigheid van wettige redenen[^28]; indien blijkt dat de vennootschap haar verplichting om een jaarrekening neer te leggen[^29] overeenkomstig artikelen 3:10 en 3:12 WVV niet is nagekomen[^30]; ingeval van de situaties opgesomd in artikel 2:74, § 2 WVV[^31] of, specifiek voor de naamloze vennootschappen, op verzoek van iedere belanghebbende of het openbaar ministerie, wanneer het nettoactief gedaald is tot beneden 61.500 euro[^32].
 
-De gerechtelijke ontbinding heeft uitwerking vanaf de datum waarop zij is uitgesproken[^33]
- en kan aan derden slechts worden tegengeworpen vanaf de bekendmaking van de beslissingen voorgeschreven door artikel 2:14 WVV in de Bijlagen bij het Belgisch Staatsblad, behalve indien de vennootschap kan bewijzen dat die derden voordien ervan op de hoogte waren[^34].
+De gerechtelijke ontbinding heeft uitwerking vanaf de datum waarop zij is uitgesproken[^33] en kan aan derden slechts worden tegengeworpen vanaf de bekendmaking van de beslissingen voorgeschreven door artikel 2:14 WVV in de Bijlagen bij het Belgisch Staatsblad, behalve indien de vennootschap kan bewijzen dat die derden voordien ervan op de hoogte waren[^34].
 
-Ook de gerechtelijke ontbinding heeft de afsluiting van het boekjaar tot gevolg[^35], wat *in concreto* betekent dat er in hoofde van de vennootschap een jaarrekening moet worden opgesteld voor het boekjaar dat loopt tot de datum waarop de gerechtelijke ontbinding wordt uitgesproken. De Commissie raadt het bestuursorgaan[^36]
- aan om voor desbetreffend boekjaar een jaarrekening op te stellen met het oog op het verkrijgen van een kwijting door de algemene vergadering. 
+Ook de gerechtelijke ontbinding heeft de afsluiting van het boekjaar tot gevolg[^35], wat *in concreto* betekent dat er in hoofde van de vennootschap een jaarrekening moet worden opgesteld voor het boekjaar dat loopt tot de datum waarop de gerechtelijke ontbinding wordt uitgesproken. De Commissie raadt het bestuursorgaan[^36] aan om voor desbetreffend boekjaar een jaarrekening op te stellen met het oog op het verkrijgen van een kwijting door de algemene vergadering. 
 
 ## Vereffening
 
 ### Vereffening na vrijwillige ontbinding
 
-De vereffenaar[^37]
- zendt in de zevende en de dertiende maand na de invereffeningstelling een omstandige staat van de toestand van de vereffening, opgesteld aan het einde van de zesde en de twaalfde maand van het eerste vereffeningsjaar, over aan de griffie van de ondernemingsrechtbank waar de zetel van de vennootschap is gevestigd[^38]. Die omstandige staat, die onder meer de ontvangsten, de uitgaven en de uitkeringen vermeldt en die aangeeft wat nog moet worden vereffend, wordt bij het vennootschapsdossier[^39]
- gevoegd[^40]. Vanaf het tweede jaar van de vereffening wordt die omstandige staat slechts om het jaar aan de griffie overgezonden en bij het vennootschapsdossier gevoegd[^41].
+De vereffenaar[^37] zendt in de zevende en de dertiende maand na de invereffeningstelling een omstandige staat van de toestand van de vereffening, opgesteld aan het einde van de zesde en de twaalfde maand van het eerste vereffeningsjaar, over aan de griffie van de ondernemingsrechtbank waar de zetel van de vennootschap is gevestigd[^38]. Die omstandige staat, die onder meer de ontvangsten, de uitgaven en de uitkeringen vermeldt en die aangeeft wat nog moet worden vereffend, wordt bij het vennootschapsdossier[^39] gevoegd[^40]. Vanaf het tweede jaar van de vereffening wordt die omstandige staat slechts om het jaar aan de griffie overgezonden en bij het vennootschapsdossier gevoegd[^41].
 
 De vereffenaar moet daarnaast ook jaarlijks een jaarrekening opstellen overeenkomstig artikel 3:1 WVV en deze jaarrekening voorleggen aan de algemene vergadering met vermelding van de redenen waarom de vereffening niet kon worden voltooid[^42]. Deze jaarlijkse verslaggeving wordt opgelegd teneinde te vermijden dat de vereffeningsverrichtingen al te zeer zouden aanslepen en is louter informatief. De algemene vergadering wordt niet bijeengeroepen om de jaarrekening goed of af te keuren of op grond daarvan kwijting te verlenen aan de vereffenaars[^43]. Het is immers pas na afloop van de vereffening dat de algemene vergadering in de regel beslist over de goedkeuring van de rekeningen en, bij afzonderlijke stemming, over de kwijting aan de vereffenaars en, in voorkomend geval, aan de commissaris en over de sluiting van de vereffening[^44].
 
@@ -236,8 +215,7 @@ De Commissie licht hierna toe welke verslaggevingsplichten gepaard gaan met de v
 - Periode 01/01/20N1 – 30/04/20N1: aangezien de ontbinding van de vennootschap de afsluiting van het boekjaar tot gevolg heeft[^64], dient er voor de periode tussen de aanvang van het lopende boekjaar (*in casu* 01/01/20N1) en de datum waarop de vennootschap ontbonden wordt (*in casu* 30/04/20N1) een jaarrekening te worden opgemaakt[^65]. De Commissie raadt het bestuursorgaan aan om voor het boekjaar dat met de datum van de ontbinding van de BV Z eindigt een jaarrekening op te stellen met het oog op het verkrijgen van een kwijting door de algemene vergadering[^66]. De Commissie wijst erop dat de jaarrekening voor het boekjaar dat eindigt door de ontbinding niet bij de ontbinding zelf reeds moet zijn goedgekeurd[^67]. Deze jaarrekening dient binnen de 30 dagen na de goedkeuring neergelegd te worden bij de NBB[^68]. 
 - Periode 30/04/20N1[^69]
  – 31/10/20N1[^70] : de vereffenaar dient op het einde van de zesde maand na de ontbinding (*in casu* per 31/10/20N1) een omstandige staat op te stellen. Deze staat moet vervolgens in de zevende maand na de ontbinding (*in casu* in november 20N1) aan de griffie van de ondernemingsrechtbank te worden overgemaakt[^71]. Deze staat wordt aan het vennootschapsdossier gevoegd. 
-- Periode 30/04/20N1 – 31/12/20N1: de jaarrekening met betrekking tot de periode na de ontbinding (*in casu* 30/04/20N1) tot het einde van het boekjaar *(in casu* 31/12/20N1) wordt door de vereffenaar voorgelegd aan de eerstvolgende jaarlijkse algemene vergadering[^72]. *In casu* zou dit betekenen dat de vereffenaar deze jaarrekening in principe[^73]
- op 30 mei 20N2 moet voorleggen aan de algemene vergadering. Deze jaarrekening moet niet worden goedgekeurd door de algemene vergadering en dient, binnen de 30 dagen na de datum van de algemene vergadering, te worden neergelegd bij de Nationale Bank van België[^74]. 
+- Periode 30/04/20N1 – 31/12/20N1: de jaarrekening met betrekking tot de periode na de ontbinding (*in casu* 30/04/20N1) tot het einde van het boekjaar *(in casu* 31/12/20N1) wordt door de vereffenaar voorgelegd aan de eerstvolgende jaarlijkse algemene vergadering[^72]. *In casu* zou dit betekenen dat de vereffenaar deze jaarrekening in principe[^73] op 30 mei 20N2 moet voorleggen aan de algemene vergadering. Deze jaarrekening moet niet worden goedgekeurd door de algemene vergadering en dient, binnen de 30 dagen na de datum van de algemene vergadering, te worden neergelegd bij de Nationale Bank van België[^74]. 
 - Periode 01/01/20N2 – 20/04/20N2: aangezien de datum van de sluiting van de vereffening (*in casu* 20/04/20N2) de datum van de jaarlijkse algemene vergadering (*in casu* 30/05/20N2) voorafgaat, zal de vereffenaar de jaarrekening voor de periode na de ontbinding (*in casu* 30/04/20N1) tot het einde van dat boekjaar (*in casu* 31/12/20N1) aan de algemene vergadering op 20/04/20N2 moeten voorleggen[^75]. 
 
 Dit advies vervangt CBN-advies 2011/8 - *Verslaggeving bij ontbinding en vereffening*.

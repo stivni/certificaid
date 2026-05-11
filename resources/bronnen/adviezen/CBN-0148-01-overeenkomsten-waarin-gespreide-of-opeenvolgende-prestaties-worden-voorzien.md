@@ -1,6 +1,39 @@
 ---
-nummer: CBN-advies 148/1
+bron: https://www.cbn-cnc.be/nl/adviezen/overeenkomsten-waarin-gespreide-of-opeenvolgende-prestaties-worden-voorzien
 datum: 1984-10-01
+nummer: CBN-advies 148/1
+provenance:
+  generated_at: '2026-05-11T13:05:06Z'
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/overeenkomsten-waarin-gespreide-of-opeenvolgende-prestaties-worden-voorzien
+      sha256: c010bda2afe42e6eeff2a45fd07e56fd1d50f6cdcfb556cd4dec47b8be9ef48e
+      version:
+  stale: false
+  stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
+  trust:
+    confirmed_at: '2026-05-11T12:04:41Z'
+    confirmed_by: subagent-sonnet-4-6
+    layer1:
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:26Z'
+      heading_count: 0
+      max_section_chars: 3798
+      file_size_chars: 3798
+      flags: []
+    layer2:
+      agent: subagent-sonnet-4-6
+      concrete_problemen: []
+      rationale: 'Geen voetnootverwijzingen in body (verwijzing naar advies 148/1 is gewone tekst). Geen PDF-artefacten. Inhoud volledig: definitie, voorbeeld, boekhoudkundige behandeling, onderscheid voorschot vs overlopende rekening, matching principle.'
+      run_at: '2026-05-11T12:04:41Z'
+      status: trusted
+    rationale: 'Geen voetnootverwijzingen in body (verwijzing naar advies 148/1 is gewone tekst). Geen PDF-artefacten. Inhoud volledig: definitie, voorbeeld, boekhoudkundige behandeling, onderscheid voorschot vs overlopende rekening, matching principle.'
+    status: trusted
 themas:
   - gespreide of opeenvolgende prestaties
   - accijns
@@ -9,39 +42,6 @@ themas:
   - toerekening opbrengsten bij overeenkomsten met gespreide of opeenvolgende prestaties
   - toerekening van kosten en opbrengsten
   - abonnement
-bron: https://www.cbn-cnc.be/nl/adviezen/overeenkomsten-waarin-gespreide-of-opeenvolgende-prestaties-worden-voorzien
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/overeenkomsten-waarin-gespreide-of-opeenvolgende-prestaties-worden-voorzien
-      sha256: c010bda2afe42e6eeff2a45fd07e56fd1d50f6cdcfb556cd4dec47b8be9ef48e
-      version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:35:12Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: trusted
-    confirmed_at: '2026-05-11T12:04:41Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: 'Geen voetnootverwijzingen in body (verwijzing naar advies 148/1 is gewone tekst). Geen PDF-artefacten. Inhoud volledig: definitie, voorbeeld, boekhoudkundige behandeling, onderscheid voorschot vs overlopende rekening, matching principle.'
-    layer1:
-      status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 0
-      max_section_chars: 3798
-      file_size_chars: 3798
-      flags: []
-    layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:04:41Z'
-      rationale: 'Geen voetnootverwijzingen in body (verwijzing naar advies 148/1 is gewone tekst). Geen PDF-artefacten. Inhoud volledig: definitie, voorbeeld, boekhoudkundige behandeling, onderscheid voorschot vs overlopende rekening, matching principle.'
-      concrete_problemen: []
 ---
 
 # CBN-advies 148/1 - Overeenkomsten waarin gespreide of opeenvolgende prestaties worden voorzien

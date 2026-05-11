@@ -1,6 +1,39 @@
 ---
-nummer: CBN-advies 2016/24
+bron: https://www.cbn-cnc.be/nl/adviezen/uitzonderlijke-resultaten-wijzigingen-door-het-koninklijk-besluit-van-18-december-2015
 datum: 2016-10-26
+nummer: CBN-advies 2016/24
+provenance:
+  generated_at: '2026-05-11T13:05:08Z'
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/uitzonderlijke-resultaten-wijzigingen-door-het-koninklijk-besluit-van-18-december-2015
+      sha256: 47168dbcf84b23ac15058c02ea32c39d3c630a6666dd441455dcc6fa521caf50
+      version:
+  stale: false
+  stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
+  trust:
+    confirmed_at:
+    confirmed_by:
+    layer1:
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:29Z'
+      heading_count: 3
+      max_section_chars: 4922
+      file_size_chars: 11112
+      flags: []
+    layer2:
+      agent:
+      concrete_problemen: []
+      rationale:
+      run_at:
+      status: not_run
+    rationale: 'Trust gereset 2026-05-11: re-scrape met scraper-fixes, content-diff > 5%'
+    status: unreviewed
 themas:
   - niet-recurrente kosten
   - niet-recurrente opbrengsten
@@ -8,59 +41,6 @@ themas:
   - uitzonderlijke kosten
   - uitzonderlijke opbrengsten
   - uitzonderlijke resultaten
-bron: https://www.cbn-cnc.be/nl/adviezen/uitzonderlijke-resultaten-wijzigingen-door-het-koninklijk-besluit-van-18-december-2015
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/uitzonderlijke-resultaten-wijzigingen-door-het-koninklijk-besluit-van-18-december-2015
-      sha256: 47168dbcf84b23ac15058c02ea32c39d3c630a6666dd441455dcc6fa521caf50
-      version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:37:06Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T12:16:34Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "Markdown-tabel (MAR-overzicht, regels 68–96) bevat systematisch broken bold/italic: '*term * |' met spatie voor sluitende markering (D4) op minstens 5 regels. Ook is de tabelstructuur inconsistent: de header-rijen hebben 1 kolom terwijl data-rijen 3 kolommen hebben (E2). Inhoud en tekst zijn inhoudelijk compleet."
-    layer1:
-      status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 3
-      max_section_chars: 4919
-      file_size_chars: 11106
-      flags: []
-    layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:16:34Z'
-      rationale: "Markdown-tabel (MAR-overzicht, regels 68–96) bevat systematisch broken bold/italic: '*term * |' met spatie voor sluitende markering (D4) op minstens 5 regels. Ook is de tabelstructuur inconsistent: de header-rijen hebben 1 kolom terwijl data-rijen 3 kolommen hebben (E2). Inhoud en tekst zijn inhoudelijk compleet."
-      concrete_problemen:
-        - regel: 68
-          categorie: E2
-          type: other
-          voorbeeld: '| **Niet-recurrente bedrijfsopbrengsten** | (1 kolom vs 3 in data-rijen)'
-        - regel: 73
-          categorie: D4
-          type: other
-          voorbeeld: '*Andere niet-recurrente bedrijfsopbrengsten * |'
-        - regel: 74
-          categorie: D4
-          type: other
-          voorbeeld: '**Niet-recurrente bedrijfskosten ** |'
-        - regel: 86
-          categorie: D4
-          type: other
-          voorbeeld: "| * Terugneming van voorzieningen voor niet-recurrente financiële risico's"
-        - regel: 96
-          categorie: D4
-          type: other
-          voorbeeld: '*Als herstructureringskosten geactiveerde niet-recurrente financiële kosten (-) * |'
 ---
 
 # CBN-advies 2016/24 – Uitzonderlijke resultaten: wijzigingen door het koninklijk besluit van 18 december 2015
@@ -75,9 +55,12 @@ De Commissie beoogt in onderhavig advies de wijzigingen met betrekking tot de ui
 
 Als gevolg van het nieuwe schema van de resultatenrekening dat is opgenomen als bijlage bij de Richtlijn, is bij de omzetting van deze richtlijn de indeling van de resultatenrekening[^4] aangepast. De nieuwe schema’s van de resultatenrekening bij de Richtlijn voorzien namelijk geen rubrieken meer voor de uitzonderlijke opbrengsten en de uitzonderlijke kosten. Deze resultaten moeten dus voortaan worden gekwalificeerd, naargelang hun aard, als zijnde bedrijfsresultaten of financiële resultaten.[^5] 
 
-Zowel het volledig schema[^6] als het verkort schema[^7] van de resultatenrekening ondergaan bijgevolg enkele noodzakelijke aanpassingen aangezien het op basis van de Richtlijn niet langer mogelijk is om het uitzonderlijk resultaat afzonderlijk in de resultatenrekening te vermelden. Om de opbrengsten en kosten met uitzonderlijk karakter te onderscheiden van andere bedrijfsopbrengsten en -kosten of andere financiële opbrengsten en kosten die voortvloeien uit de gewone bedrijfsactiviteit van de vennootschap en opdat de uitzonderlijke resultaten blijvend zichtbaar zouden zijn in de resultatenrekening, worden nieuwe rubrieken ingevoegd die de niet-recurrente aard van deze opbrengsten en kosten benadrukken. Teneinde het onderscheid met het vorige systeem duidelijk te maken, werd bij de omzetting van de richtlijn geopteerd om voortaan de terminologie *niet-recurrent* in plaats van *uitzonderlijk *te hanteren.[^8] Dit geldt *mutatis mutandis* voor het microschema van de resultatenrekening.[^9] Ook het schema van de resultatenrekening van de geconsolideerde jaarrekening wordt op overeenstemmende wijze aangepast.[^10] 
+Zowel het volledig schema[^6] als het verkort schema[^7] van de resultatenrekening ondergaan bijgevolg enkele noodzakelijke aanpassingen aangezien het op basis van de Richtlijn niet langer mogelijk is om het uitzonderlijk resultaat afzonderlijk in de resultatenrekening te vermelden. Om de opbrengsten en kosten met uitzonderlijk karakter te onderscheiden van andere bedrijfsopbrengsten en -kosten of andere financiële opbrengsten en kosten die voortvloeien uit de gewone bedrijfsactiviteit van de vennootschap en opdat de uitzonderlijke resultaten blijvend zichtbaar zouden zijn in de resultatenrekening, worden nieuwe rubrieken ingevoegd die de niet-recurrente aard van deze opbrengsten en kosten benadrukken. Teneinde het onderscheid met het vorige systeem duidelijk te maken, werd bij de omzetting van de richtlijn geopteerd om voortaan de terminologie *niet-recurrent* in plaats van *uitzonderlijk* te hanteren.[^8]
+ Dit geldt *mutatis mutandis* voor het microschema van de resultatenrekening.[^9]
+ Ook het schema van de resultatenrekening van de geconsolideerde jaarrekening wordt op overeenstemmende wijze aangepast.[^10] 
 
-De Commissie merkt op dat deze wijziging, net zoals ook werd gemotiveerd in het Verslag aan de Koning, slechts de indeling van de resultatenrekening betreft, waarbij de uitzonderlijke resultaten voortaan dienen te worden gekwalificeerd ofwel als bedrijfsresultaat ofwel als financieel resultaat.[^11] De Commissie meent dus dat in deze context in de praktijk geen verschil moet worden gezocht tussen de bewoordingen *uitzonderlijk *en *niet-recurrent*.
+De Commissie merkt op dat deze wijziging, net zoals ook werd gemotiveerd in het Verslag aan de Koning, slechts de indeling van de resultatenrekening betreft, waarbij de uitzonderlijke resultaten voortaan dienen te worden gekwalificeerd ofwel als bedrijfsresultaat ofwel als financieel resultaat.[^11]
+ De Commissie meent dus dat in deze context in de praktijk geen verschil moet worden gezocht tussen de bewoordingen *uitzonderlijk* en *niet-recurrent*.
 
 *Voorbeeld*
 
@@ -90,8 +73,8 @@ Herstructureringskosten kunnen van verschillende aard zijn: uitzonderlijke afsch
 | *7601* | | *Terugneming van afschrijvingen op materiële vaste activa* | 
 | *7620* | | *Terugneming van voorzieningen voor niet-recurrente bedrijfsrisico’s en kosten* | 
 | *7630* | | *Meerwaarde op de realisatie van immateriële en materiële vaste activa* | 
-| *764 > 768* | | *Andere niet-recurrente bedrijfsopbrengsten * | 
-| **Niet-recurrente bedrijfskosten ** | 
+| *764 > 768* | | *Andere niet-recurrente bedrijfsopbrengsten*  | 
+| **Niet-recurrente bedrijfskosten**  | 
 | *6600* | | *Niet-recurrente afschrijvingen en waardeverminderingen op oprichtingskosten* | 
 | *6601* | | *Niet-recurrente afschrijvingen en waardeverminderingen op immateriële vaste activa* | 
 | *6602* | | *Niet-recurrente afschrijvingen en waardeverminderingen op materiële vaste activa* | 
@@ -106,20 +89,23 @@ Herstructureringskosten kunnen van verschillende aard zijn: uitzonderlijke afsch
 | *7621* | | * Terugneming van voorzieningen voor niet-recurrente financiële risico’s en kosten* | 
 | *7631* | | *Meerwaarde op de realisatie van financiële vaste activa* | 
 | *769* | | *Andere niet-recurrente financiële opbrengsten* | 
-| **Niet-recurrente financiële kosten ** | 
+| **Niet-recurrente financiële kosten**  | 
 | *661* | | *Waardeverminderingen op financiële vaste activa (toevoeging)* | 
 | *6621* | | *Voorzieningen voor niet-recurrente financiële risico’s en kosten* | 
 | | | *66210 Toevoeging* | 
 | | | *66211 Besteding (-)* | 
 | *6631* | | *Minderwaarde op de realisatie van financiële vaste activa* | 
 | *668* | | *Andere niet-recurrente financiële kosten* | 
-| *6691* | | *Als herstructureringskosten geactiveerde niet-recurrente financiële kosten (-) * | 
+| *6691* | | *Als herstructureringskosten geactiveerde niet-recurrente financiële kosten (-)*  | 
 
 ## Vermelding in de toelichting
 
-Ook in de toelichting van zowel het volledig[^13] als het verkort schema[^14] van de jaarrekening moeten voortaan het bedrag en de aard van de opbrengsten en kosten van uitzonderlijke omvang of uitzonderlijke mate van voorkomen worden opgenomen op een meer opgedeelde wijze aangepast aan de structuur waarop deze in het aangepaste schema van de resultatenrekening zijn opgenomen onder de niet-recurrente bedrijfs- of financiële resultaten.[^15] De Commissie wijst erop dat een uitzonderlijk hoge omzet, bijvoorbeeld tengevolge van een eenmalige zeer grote bestelling, nog steeds onder de rekening 70 *Omzet *moet worden opgenomen.[^16] Net zoals voorheen blijft evenwel de verplichting bestaan om, in voorkomend geval, wanneer dit noodzakelijk is om te voldoen aan de vereiste van het getrouwe beeld, aanvullende inlichtingen te verstrekken in de toelichting (hetgeen in principe het geval zal zijn bij een uitzonderlijk hoge omzet).[^17] 
+Ook in de toelichting van zowel het volledig[^13] als het verkort schema[^14] van de jaarrekening moeten voortaan het bedrag en de aard van de opbrengsten en kosten van uitzonderlijke omvang of uitzonderlijke mate van voorkomen worden opgenomen op een meer opgedeelde wijze aangepast aan de structuur waarop deze in het aangepaste schema van de resultatenrekening zijn opgenomen onder de niet-recurrente bedrijfs- of financiële resultaten.[^15]
+ De Commissie wijst erop dat een uitzonderlijk hoge omzet, bijvoorbeeld tengevolge van een eenmalige zeer grote bestelling, nog steeds onder de rekening 70 *Omzet* moet worden opgenomen.[^16]
+ Net zoals voorheen blijft evenwel de verplichting bestaan om, in voorkomend geval, wanneer dit noodzakelijk is om te voldoen aan de vereiste van het getrouwe beeld, aanvullende inlichtingen te verstrekken in de toelichting (hetgeen in principe het geval zal zijn bij een uitzonderlijk hoge omzet).[^17] 
 
-De Commissie wenst tot slot in herinnering te brengen dat bij de eerste toepassing, in voorkomend geval, bovendien moet worden toegezien op de naleving van artikel 86 KB W.Venn. waarin wordt bepaald dat een wijziging van voorstellingswijze vermeld en verantwoord moet worden in de toelichting van de jaarrekening over het boekjaar waarin de wijziging wordt ingevoerd. Bovendien mogen, wanneer de bedragen van het boekjaar niet vergelijkbaar zijn met die van het voorafgaande boekjaar, de bedragen van het voorafgaande boekjaar worden aangepast met het oog op hun vergelijkbaarheid; in dat geval worden deze aanpassingen, behalve indien zij onbelangrijk zijn, in de toelichting bij de waarderingsregels vermeld en onder verwijzing naar de betrokken rubriek toegelicht.[^18] In dit verband overweegt de Commissie een advies waarbij zal aangegeven worden hoe desgevallend de kolom “Vorig boekjaar” dient te worden aangepast bij de eerste toepassing van de nieuwe wettelijke bepalingen ingevolge het hierboven geciteerde koninklijk besluit van 18 december 2015.
+De Commissie wenst tot slot in herinnering te brengen dat bij de eerste toepassing, in voorkomend geval, bovendien moet worden toegezien op de naleving van artikel 86 KB W.Venn. waarin wordt bepaald dat een wijziging van voorstellingswijze vermeld en verantwoord moet worden in de toelichting van de jaarrekening over het boekjaar waarin de wijziging wordt ingevoerd. Bovendien mogen, wanneer de bedragen van het boekjaar niet vergelijkbaar zijn met die van het voorafgaande boekjaar, de bedragen van het voorafgaande boekjaar worden aangepast met het oog op hun vergelijkbaarheid; in dat geval worden deze aanpassingen, behalve indien zij onbelangrijk zijn, in de toelichting bij de waarderingsregels vermeld en onder verwijzing naar de betrokken rubriek toegelicht.[^18]
+ In dit verband overweegt de Commissie een advies waarbij zal aangegeven worden hoe desgevallend de kolom “Vorig boekjaar” dient te worden aangepast bij de eerste toepassing van de nieuwe wettelijke bepalingen ingevolge het hierboven geciteerde koninklijk besluit van 18 december 2015.
 
 ***Voorbeeld***
 

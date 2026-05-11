@@ -1,51 +1,51 @@
 ---
-nummer: CBN-advies 2016/25
-datum: 2016-11-16
-themas:
-  - voorzienbaar verlies
-  - kapitaalvermindering
-  - onbeschikbare reserve
 bron: https://www.cbn-cnc.be/nl/adviezen/kapitaalvermindering-voor-vorming-van-een-reserve-voor-een-voorzienbaar-verlies
+datum: 2016-11-16
+nummer: CBN-advies 2016/25
 provenance:
+  generated_at: '2026-05-11T13:05:08Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/kapitaalvermindering-voor-vorming-van-een-reserve-voor-een-voorzienbaar-verlies
       sha256: a323708d78caf2ee9141cb9671a5de95cd86d4b34ceb78162f913b715816dbc4
       version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:37:07Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
   trust:
-    status: needs-rework
     confirmed_at: '2026-05-11T12:16:34Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "A3: regels 45–56 bevatten een TOC-fragment in de body — een genummerde inhoudsopgave direct na de #-titel, vóór de echte ## Inleiding op regel 58. Dit is een klassiek extractie-artefact waarbij de HTML-TOC niet werd verwijderd. Regel 56 heeft bovendien een '------'-lijn met tekst ('------ Opvolging van de reserve voor voorzienbaar verlies') die een B6-artefact is (HR als pagina-scheiding/TOC-rest). Inhoud na de TOC is structureel correct."
     layer1:
       status: pass
-      run_id: 20260511-083333
-      run_at:
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:29Z'
       heading_count: 9
       max_section_chars: 3537
       file_size_chars: 9131
       flags: []
     layer2:
-      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:16:34Z'
-      rationale: "A3: regels 45–56 bevatten een TOC-fragment in de body — een genummerde inhoudsopgave direct na de #-titel, vóór de echte ## Inleiding op regel 58. Dit is een klassiek extractie-artefact waarbij de HTML-TOC niet werd verwijderd. Regel 56 heeft bovendien een '------'-lijn met tekst ('------ Opvolging van de reserve voor voorzienbaar verlies') die een B6-artefact is (HR als pagina-scheiding/TOC-rest). Inhoud na de TOC is structureel correct."
       concrete_problemen:
-        - regel: 45
-          categorie: A3
+        - categorie: A3
+          regel: 45
           type: other
           voorbeeld: "1. Inleiding \n2. Analyse \n  1. Wettelijk en reglementair kader ..."
-        - regel: 56
-          categorie: B6
+        - categorie: B6
+          regel: 56
           type: other
           voorbeeld: '------ Opvolging van de reserve voor voorzienbaar verlies'
+      rationale: 'A3: regels 45–56 bevatten een TOC-fragment in de body — een genummerde inhoudsopgave direct na de #-titel, vóór de echte ## Inleiding op regel 58. Dit is een klassiek extractie-artefact waarbij de HTML-TOC niet werd verwijderd. Regel 56 heeft bovendien een ''------''-lijn met tekst (''------ Opvolging van de reserve voor voorzienbaar verlies'') die een B6-artefact is (HR als pagina-scheiding/TOC-rest). Inhoud na de TOC is structureel correct.'
+      run_at: '2026-05-11T12:16:34Z'
+      status: needs-rework
+    rationale: 'A3: regels 45–56 bevatten een TOC-fragment in de body — een genummerde inhoudsopgave direct na de #-titel, vóór de echte ## Inleiding op regel 58. Dit is een klassiek extractie-artefact waarbij de HTML-TOC niet werd verwijderd. Regel 56 heeft bovendien een ''------''-lijn met tekst (''------ Opvolging van de reserve voor voorzienbaar verlies'') die een B6-artefact is (HR als pagina-scheiding/TOC-rest). Inhoud na de TOC is structureel correct.'
+    status: needs-rework
+themas:
+  - voorzienbaar verlies
+  - kapitaalvermindering
+  - onbeschikbare reserve
 ---
 
 # CBN-advies 2016/25 – Kapitaalvermindering voor vorming van een reserve voor een voorzienbaar verlies
@@ -77,15 +77,15 @@ Het Wetboek van vennootschappen (hierna: W.Venn.) regelt de vorming van een rese
 
 Het betreft een onbeschikbare reserve[^3], die niet mag worden uitgekeerd aan de aandeelhouders en die slechts mag worden aangewend om geleden verliezen aan te zuiveren of om het kapitaal te verhogen door omzetting van reserves.[^4] 
 
-De Commissie beveelt aan om deze reserve op te nemen onder een subrekening van de onbeschikbare reserves met als omschrijving *Reserve voor voorzienbaar verlies[^5] * om na te gaan of de wettelijke voorwaarden voor de vorming en de aanwending van deze reserve worden nageleefd. 
+De Commissie beveelt aan om deze reserve op te nemen onder een subrekening van de onbeschikbare reserves met als omschrijving *Reserve voor voorzienbaar verlies[^5]*  om na te gaan of de wettelijke voorwaarden voor de vorming en de aanwending van deze reserve worden nageleefd. 
 
-Voor het bedrag van deze reserve gelden twee beperkingen: het bedrag van de reserve mag niet hoger zijn dan 10 % van het geplaatst kapitaal *na *kapitaalvermindering *én *de reserve moet worden gevormd binnen de grenzen van het minimale kapitaal naargelang de rechtsvorm van de betrokken vennootschap.[^6] 
+Voor het bedrag van deze reserve gelden twee beperkingen: het bedrag van de reserve mag niet hoger zijn dan 10 % van het geplaatst kapitaal *na* kapitaalvermindering *én* de reserve moet worden gevormd binnen de grenzen van het minimale kapitaal naargelang de rechtsvorm van de betrokken vennootschap.[^6] 
 
 ### Boekhoudkundige principes
 
 #### Kapitaalvermindering door aanzuivering van het overgedragen verlies: principes
 
-De voornaamste boekhoudkundige principes die van toepassing zijn op een kapitaalvermindering ter aanzuivering van het *overgedragen *verlies werden reeds behandeld in CBN-advies 121/3 - Mutaties binnen het eigen vermogen.[^7] 
+De voornaamste boekhoudkundige principes die van toepassing zijn op een kapitaalvermindering ter aanzuivering van het *overgedragen* verlies werden reeds behandeld in CBN-advies 121/3 - Mutaties binnen het eigen vermogen.[^7] 
 
 In dit advies heeft de Commissie gesteld om de interne mutaties binnen het eigen vermogen die het totaalbedrag van het eigen vermogen niet beïnvloeden, over het algemeen rechtstreeks van de ene betrokken post naar de andere over te boeken in plaats van deze verrichtingen te boeken via de overeenstemmende 69- en 79-rekeningen van de minimumindeling van het algemeen rekeningenstelsel met betrekking tot de overeenstemmende rekeningen van de resultaatverwerking.
 

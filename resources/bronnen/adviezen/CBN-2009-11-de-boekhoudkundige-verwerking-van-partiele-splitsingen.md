@@ -1,60 +1,60 @@
 ---
-nummer: CBN-advies 2009/11
-datum: 2009-09-16
-themas:
-  - partiële splitsing
 bron: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-partiele-splitsingen
+datum: 2009-09-16
+gerelateerde_adviezen:
+  - datum: '2022-02-15'
+    titel: Fusies en splitsingen van vennootschappen met een negatief nettoactief
+    url: https://www.cbn-cnc.be/nl/adviezen/fusies-en-splitsingen-van-vennootschappen-met-een-negatief-nettoactief
+  - datum: '2012-09-05'
+    titel: Overdracht van eigen vermogen in het kader van een fusie, splitsing of partiële splitsing in boekhoudkundige continuïteit en fiscale continuïteit en artikel 78, § 8 van het koninklijk besluit tot uitvoering van het Wetboek van vennootschappen
+    url: https://www.cbn-cnc.be/nl/adviezen/overdracht-van-eigen-vermogen-in-het-kader-van-een-fusie-splitsing-of-partiele-splitsing
+nummer: CBN-advies 2009/11
 provenance:
+  generated_at: '2026-05-11T13:05:07Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-partiele-splitsingen
       sha256: 6bed029a7b84487dfafe91c768ee462d42a9123ae5f14f16a1bddabc7c1fad22
       version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:35:52Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
   trust:
-    status: needs-rework
     confirmed_at: '2026-05-11T12:09:17Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "E2: tabel in Voorbeeld 3 is gebroken op r288-292: de afsluitende cel '9.500' staat op een aparte lege regel gevolgd door een verweesde pipe-rij, vermoedelijk een extractie-artefact waarbij een getalswaarde uit de tabelcel gelicht werd. B3: lege heading 'In hoofde van A en B wordt dan als volgt gehandeld' (r96) en 'In hoofde van aandeelhouder D wordt als volgt gehandeld' (r143) zijn plain-text tussenkopjes zonder heading-markup. Inhoud verder compleet en goed gestructureerd."
     layer1:
       status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 2
-      max_section_chars: 19632
-      file_size_chars: 26780
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:27Z'
+      heading_count: 6
+      max_section_chars: 8510
+      file_size_chars: 26776
       flags: []
     layer2:
-      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:09:17Z'
-      rationale: "E2: tabel in Voorbeeld 3 is gebroken op r288-292: de afsluitende cel '9.500' staat op een aparte lege regel gevolgd door een verweesde pipe-rij, vermoedelijk een extractie-artefact waarbij een getalswaarde uit de tabelcel gelicht werd. B3: lege heading 'In hoofde van A en B wordt dan als volgt gehandeld' (r96) en 'In hoofde van aandeelhouder D wordt als volgt gehandeld' (r143) zijn plain-text tussenkopjes zonder heading-markup. Inhoud verder compleet en goed gestructureerd."
       concrete_problemen:
-        - regel: 288
-          categorie: E2
+        - categorie: E2
+          regel: 288
           type: other
           voorbeeld: '| | | \n\n9.500\n\n  | | | | 9.500 |'
-        - regel: 96
-          categorie: B5
+        - categorie: B5
+          regel: 96
           type: other
           voorbeeld: In hoofde van A en B wordt dan als volgt gehandeld
-        - regel: 143
-          categorie: B5
+        - categorie: B5
+          regel: 143
           type: other
           voorbeeld: In hoofde van aandeelhouder D wordt als volgt gehandeld
-gerelateerde_adviezen:
-  - titel: Fusies en splitsingen van vennootschappen met een negatief nettoactief
-    url: https://www.cbn-cnc.be/nl/adviezen/fusies-en-splitsingen-van-vennootschappen-met-een-negatief-nettoactief
-    datum: '2022-02-15'
-  - titel: Overdracht van eigen vermogen in het kader van een fusie, splitsing of partiële splitsing in boekhoudkundige continuïteit en fiscale continuïteit en artikel 78, § 8 van het koninklijk besluit tot uitvoering van het Wetboek van vennootschappen
-    url: https://www.cbn-cnc.be/nl/adviezen/overdracht-van-eigen-vermogen-in-het-kader-van-een-fusie-splitsing-of-partiele-splitsing
-    datum: '2012-09-05'
+      rationale: 'E2: tabel in Voorbeeld 3 is gebroken op r288-292: de afsluitende cel ''9.500'' staat op een aparte lege regel gevolgd door een verweesde pipe-rij, vermoedelijk een extractie-artefact waarbij een getalswaarde uit de tabelcel gelicht werd. B3: lege heading ''In hoofde van A en B wordt dan als volgt gehandeld'' (r96) en ''In hoofde van aandeelhouder D wordt als volgt gehandeld'' (r143) zijn plain-text tussenkopjes zonder heading-markup. Inhoud verder compleet en goed gestructureerd.'
+      run_at: '2026-05-11T12:09:17Z'
+      status: needs-rework
+    rationale: 'E2: tabel in Voorbeeld 3 is gebroken op r288-292: de afsluitende cel ''9.500'' staat op een aparte lege regel gevolgd door een verweesde pipe-rij, vermoedelijk een extractie-artefact waarbij een getalswaarde uit de tabelcel gelicht werd. B3: lege heading ''In hoofde van A en B wordt dan als volgt gehandeld'' (r96) en ''In hoofde van aandeelhouder D wordt als volgt gehandeld'' (r143) zijn plain-text tussenkopjes zonder heading-markup. Inhoud verder compleet en goed gestructureerd.'
+    status: needs-rework
+themas:
+  - partiële splitsing
 ---
 
 # CBN-advies 2009/11 - De boekhoudkundige verwerking van partiële splitsingen Advies van 16 september 2009
@@ -88,7 +88,7 @@ Het is de bovenstaande methodologie die in de uitgewerkte voorbeelden wordt aang
 
 ## BOEKHOUDKUNDIGE VERWERKING
 
-**Voorbeeld 1 - Basisvoorbeeld**
+## Voorbeeld 1 - Basisvoorbeeld
 
 De algemene principes die hierboven werden beschreven, kunnen worden geïllustreerd aan de hand van volgend basisvoorbeeld.
 
@@ -169,7 +169,7 @@ Naar aanleiding van de partiële splitsing wordt bij D het volgende geboekt:
 
 In hoofde van D bedraagt de boekwaarde van de participatie A na de partiële splitsing 3.375.
 
-**Voorbeeld 2 – Gespreid te belasten meerwaarden of kapitaalsubsidies**
+## Voorbeeld 2 – Gespreid te belasten meerwaarden of kapitaalsubsidies
 
 Veronderstel dat onderstaande vennootschap A (belastingneutraal) partieel wordt gesplitst waarbij een gedeelte van haar vermogen wordt overgedragen aan een nieuw op te richten vennootschap B.
 
@@ -234,7 +234,7 @@ Na de partiële splitsing zullen A en B er dan als volgt uitzien:
 | | | | | Schulden | | 2.500 | 
 | | | 8.500 | | | | 8.500 | 
 
-**Voorbeeld 3 - Herwaarderingsmeerwaarde**
+## Voorbeeld 3 - Herwaarderingsmeerwaarde
 
 Veronderstel dat onderstaande vennootschap A (belastingneutraal) partieel wordt gesplitst waarbij een gedeelte van haar vermogen wordt overgedragen aan een nieuw op te richten vennootschap B.
 
@@ -303,7 +303,7 @@ Na de partiële splitsing zullen A en B er dan als volgt uitzien:
 
   | | | | 9.500 | 
 
-**Voorbeeld 4 – Partiële splitsing waarbij de verkrijgende vennootschap aandeelhouder is van de partieel te splitsen vennootschap**
+## Voorbeeld 4 – Partiële splitsing waarbij de verkrijgende vennootschap aandeelhouder is van de partieel te splitsen vennootschap
 
 Onderstaande vennootschap A wordt (belastingneutraal) partieel gesplitst, waarbij het afgesplitst vermogen wordt overgedragen aan een bestaande vennootschap B, welke 80% van de aandelen van A bezit.
 

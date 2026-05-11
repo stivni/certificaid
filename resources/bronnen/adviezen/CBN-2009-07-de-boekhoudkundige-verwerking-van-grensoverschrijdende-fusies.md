@@ -1,6 +1,64 @@
 ---
-nummer: CBN-advies 2009/7
+bron: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-grensoverschrijdende-fusies
 datum: 2009-07-15
+gerelateerde_adviezen:
+  - datum: '2021-07-12'
+    titel: Boekhoudrechtelijke verwerking van de wederopbouwreserve
+    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudrechtelijke-verwerking-van-de-wederopbouwreserve
+  - datum: '2021-05-12'
+    titel: Invloed van het buitengerechtelijk minnelijk akkoord en de gerechtelijke reorganisatie op de schulden en vorderingen (update)
+    url: https://www.cbn-cnc.be/nl/adviezen/invloed-van-het-buitengerechtelijk-minnelijk-akkoord-en-de-gerechtelijke-reorganisatie-1
+  - datum: '2018-05-30'
+    titel: Tax shelter voor podiumkunsten
+    url: https://www.cbn-cnc.be/nl/adviezen/tax-shelter-voor-podiumkunsten
+  - datum: '2018-03-21'
+    titel: Aftrek voor innovatie-inkomsten
+    url: https://www.cbn-cnc.be/nl/adviezen/aftrek-voor-innovatie-inkomsten
+nummer: CBN-advies 2009/7
+provenance:
+  generated_at: '2026-05-11T13:05:06Z'
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-grensoverschrijdende-fusies
+      sha256: a16ec48ec2d1eaf87fef3210eb3df4a5df458952af1726a2701f0734072812d8
+      version:
+  stale: false
+  stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
+  trust:
+    confirmed_at: '2026-05-11T12:09:17Z'
+    confirmed_by: subagent-sonnet-4-6
+    layer1:
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:27Z'
+      heading_count: 2
+      max_section_chars: 19589
+      file_size_chars: 23498
+      flags: []
+    layer2:
+      agent: subagent-sonnet-4-6
+      concrete_problemen:
+        - categorie: B4
+          regel: 62
+          type: other
+          voorbeeld: '## INLEIDING (all-caps H2)'
+        - categorie: B4
+          regel: 78
+          type: other
+          voorbeeld: '## BOEKHOUDKUNDIGE VERWERKING (all-caps H2)'
+        - categorie: E1
+          regel: 90
+          type: other
+          voorbeeld: '| A (Belgische overgenomen vennootschap) | — geen |---|---| scheidingsrij na header'
+      rationale: 'B4: twee ## headings in all-caps (INLEIDING, BOEKHOUDKUNDIGE VERWERKING op regels 62 en 78) — mens schrijft Inleiding niet in caps. E1/E2: 127 tabelregels aanwezig maar slechts 2 scheidingsregels (|---|) — de meeste balans-tabellen hebben geen markdown header-separator, wat technisch geen geldige markdown-tabellen zijn. Inhoud volledig en voetnoten correct.'
+      run_at: '2026-05-11T12:09:17Z'
+      status: needs-rework
+    rationale: 'B4: twee ## headings in all-caps (INLEIDING, BOEKHOUDKUNDIGE VERWERKING op regels 62 en 78) — mens schrijft Inleiding niet in caps. E1/E2: 127 tabelregels aanwezig maar slechts 2 scheidingsregels (|---|) — de meeste balans-tabellen hebben geen markdown header-separator, wat technisch geen geldige markdown-tabellen zijn. Inhoud volledig en voetnoten correct.'
+    status: needs-rework
 themas:
   - belastingvrije reserves
   - dotatie van een belgische inrichting
@@ -9,64 +67,6 @@ themas:
   - kapitaal
   - onderneming naar buitenlands recht
   - vrijgestelde reserves
-bron: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-grensoverschrijdende-fusies
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-grensoverschrijdende-fusies
-      sha256: a16ec48ec2d1eaf87fef3210eb3df4a5df458952af1726a2701f0734072812d8
-      version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:35:49Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T12:09:17Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: 'B4: twee ## headings in all-caps (INLEIDING, BOEKHOUDKUNDIGE VERWERKING op regels 62 en 78) — mens schrijft Inleiding niet in caps. E1/E2: 127 tabelregels aanwezig maar slechts 2 scheidingsregels (|---|) — de meeste balans-tabellen hebben geen markdown header-separator, wat technisch geen geldige markdown-tabellen zijn. Inhoud volledig en voetnoten correct.'
-    layer1:
-      status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 4
-      max_section_chars: 12317
-      file_size_chars: 23508
-      flags: []
-    layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:09:17Z'
-      rationale: 'B4: twee ## headings in all-caps (INLEIDING, BOEKHOUDKUNDIGE VERWERKING op regels 62 en 78) — mens schrijft Inleiding niet in caps. E1/E2: 127 tabelregels aanwezig maar slechts 2 scheidingsregels (|---|) — de meeste balans-tabellen hebben geen markdown header-separator, wat technisch geen geldige markdown-tabellen zijn. Inhoud volledig en voetnoten correct.'
-      concrete_problemen:
-        - regel: 62
-          categorie: B4
-          type: other
-          voorbeeld: '## INLEIDING (all-caps H2)'
-        - regel: 78
-          categorie: B4
-          type: other
-          voorbeeld: '## BOEKHOUDKUNDIGE VERWERKING (all-caps H2)'
-        - regel: 90
-          categorie: E1
-          type: other
-          voorbeeld: '| A (Belgische overgenomen vennootschap) | — geen |---|---| scheidingsrij na header'
-gerelateerde_adviezen:
-  - titel: Boekhoudrechtelijke verwerking van de wederopbouwreserve
-    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudrechtelijke-verwerking-van-de-wederopbouwreserve
-    datum: '2021-07-12'
-  - titel: Invloed van het buitengerechtelijk minnelijk akkoord en de gerechtelijke reorganisatie op de schulden en vorderingen (update)
-    url: https://www.cbn-cnc.be/nl/adviezen/invloed-van-het-buitengerechtelijk-minnelijk-akkoord-en-de-gerechtelijke-reorganisatie-1
-    datum: '2021-05-12'
-  - titel: Tax shelter voor podiumkunsten
-    url: https://www.cbn-cnc.be/nl/adviezen/tax-shelter-voor-podiumkunsten
-    datum: '2018-05-30'
-  - titel: Aftrek voor innovatie-inkomsten
-    url: https://www.cbn-cnc.be/nl/adviezen/aftrek-voor-innovatie-inkomsten
-    datum: '2018-03-21'
 ---
 
 # CBN-advies 2009/7 - De boekhoudkundige verwerking van grensoverschrijdende fusies Advies van 15 juli 2009
@@ -91,8 +91,7 @@ Zoals in het CBN advies 2009/6 zullen telkens voorbeelden worden gegeven van een
 
 In een eerste afdeling wordt de situatie behandeld waarbij een Belgische vennootschap, zonder buitenlandse inrichting, wordt overgenomen door een vennootschap gevestigd in een andere Lidstaat van de Europese Unie en in een tweede afdeling wordt de situatie behandeld waarbij een Belgische vennootschap een vennootschap gevestigd in een andere Lidstaat van de Europese Unie overneemt.
 
-### Overname van een Belgische vennootschap, zonder buitenlandse inrichting, door een vennootschap gevestigd in een andere EU-lidstaat
-
+Overname van een Belgische vennootschap, zonder buitenlandse inrichting, door een vennootschap gevestigd in een andere EU-lidstaat
 *1. Een Belgische vennootschap A, zonder buitenlandse inrichting, wordt overgenomen door een vennootschap B gevestigd in een andere EU-Lidstaat. Vennootschap B bezit geen A-aandelen en bezit geen Belgische inrichting; vennootschap A bezit geen eigen aandelen.*
 
 Naar aanleiding van de fusie ontstaat normalerwijze een Belgische inrichting van de overnemende vennootschap B. Het boekhoudkundig continuïteitsprincipe houdt dan in dat in de rekeningen van deze Belgische inrichting de actiefbestanddelen, de voorzieningen en de schulden worden opgenomen tegen de boekwaarde die deze elementen hadden in de rekeningen van de overgenomen vennootschap. De eigen vermogensrekeningen van de overgenomen Belgische vennootschap worden in principe ook als dusdanig aan dezelfde boekwaarde als eigen vermogensrekeningen van de Belgische inrichting van de overnemende vennootschap opgenomen, met dien verstande dat het verschil tussen het boekhoudkundig eigen vermogen en het bedrag aan reserves, herwaarderingsmeerwaarden en kapitaalsubsidies in de balans van de Belgische inrichting wordt ingeschreven als dotatie, zijnde het maatschappelijk kapitaal en, in voorkomend geval, de uitgiftepremies van de overgenomen Belgische vennootschap A.
@@ -176,8 +175,7 @@ Tengevolge van de fusie ontstaat in principe een Belgische inrichting van de ove
 | | | | | Schulden | | 4.000 | 
 | | | 15.000 | | | | 15.000 | 
 
-### Overname van een vennootschap gevestigd in een andere EU-lidstaat door een Belgische vennootschap
-
+Overname van een vennootschap gevestigd in een andere EU-lidstaat door een Belgische vennootschap
 *1. Een Belgische vennootschap A neemt een vennootschap B gevestigd in een andere EU-Lidstaat over; de overnemende Belgische vennootschap A bezit geen aandelen in de overgenomen vennootschap B en de overgenomen vennootschap B heeft geen Belgische inrichting.*
 
 Voorbeeld 4
@@ -283,7 +281,7 @@ Na de fusie zal de balans van A er als volgt uitzien:
 | A (na de fusie) | 
 | Vaste activa (230 + 5.500) | | 5.730 | | Kapitaal (2.000 + 3.000 x 10%) | | 2.300 | 
 | Vlottende activa (6.800 + 9.500) | | 16.300 | | Belastingvrije reserves (1.500 + 1.650 x 10%[^10]
- + **535[^11] **) | | 2.200 | 
+ + **535[^11]** ) | | 2.200 | 
 | | | | | Beschikbare reserves 4.500 + (7.000 – 1.650) x 10% - **535**12 | | 4.500 | 
 | | | | | Overgedragen winst[^12] | | 6.030 | 
 | | | | | Voorzieningen (900 + 1.000) | | 1.900 | 

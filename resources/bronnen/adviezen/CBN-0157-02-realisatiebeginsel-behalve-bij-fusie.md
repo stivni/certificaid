@@ -2,55 +2,53 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/realisatiebeginsel-behalve-bij-fusie
 datum: 1991-03-01
 gerelateerde_adviezen:
-- datum: '2021-05-12'
-  titel: Invloed van het buitengerechtelijk minnelijk akkoord en de gerechtelijke
-    reorganisatie op de schulden en vorderingen (update)
-  url: https://www.cbn-cnc.be/nl/adviezen/invloed-van-het-buitengerechtelijk-minnelijk-akkoord-en-de-gerechtelijke-reorganisatie-1
-- datum: '2002-05-10'
-  titel: Aanschaffingswaarde bij inbreng in natura
-  url: https://www.cbn-cnc.be/nl/adviezen/aanschaffingswaarde-bij-inbreng-in-natura
+  - datum: '2021-05-12'
+    titel: Invloed van het buitengerechtelijk minnelijk akkoord en de gerechtelijke reorganisatie op de schulden en vorderingen (update)
+    url: https://www.cbn-cnc.be/nl/adviezen/invloed-van-het-buitengerechtelijk-minnelijk-akkoord-en-de-gerechtelijke-reorganisatie-1
+  - datum: '2002-05-10'
+    titel: Aanschaffingswaarde bij inbreng in natura
+    url: https://www.cbn-cnc.be/nl/adviezen/aanschaffingswaarde-bij-inbreng-in-natura
 nummer: CBN-advies 157/2
 provenance:
-  generated_at: '2026-05-08T18:35:27Z'
+  generated_at: '2026-05-11T13:05:06Z'
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/realisatiebeginsel-behalve-bij-fusie
-    sha256: 0dad0668e893106bf5c90402abce3c09d65d07fca22325b2ccf1b0c140dacae1
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/realisatiebeginsel-behalve-bij-fusie
+      sha256: 0dad0668e893106bf5c90402abce3c09d65d07fca22325b2ccf1b0c140dacae1
+      version:
   stale: false
-  stale_reason: null
+  stale_reason:
   tooling:
-    model: null
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    prompt_version: null
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
   trust:
     confirmed_at: '2026-05-08T19:02:30Z'
     confirmed_by: subagent-laag2-ronde2
     layer1:
-      file_size_chars: 5482
-      flags: []
-      heading_count: 0
-      max_section_chars: 5482
-      run_at: null
-      run_id: 20260511-083333
       status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:26Z'
+      heading_count: 0
+      max_section_chars: 5481
+      file_size_chars: 5481
+      flags: []
     layer2:
       agent: subagent-laag2-ronde2
       concrete_problemen: []
-      rationale: '[Laag-2-R2 2026-05-08] Volledig met drie juridische/economische
-        argumenten pro realisatie en genuanceerde behandeling gelieerde vennootschappen.'
+      rationale: '[Laag-2-R2 2026-05-08] Volledig met drie juridische/economische argumenten pro realisatie en genuanceerde behandeling gelieerde vennootschappen.'
       run_at: '2026-05-08T19:02:30Z'
       status: trusted
     rationale: Laag-2 trusted door subagent-laag2-ronde2 (zie layer2.rationale)
     status: trusted
 themas:
-- conventionele waarde
-- financiële vaste activa
-- inbreng
-- realisatie
-- realisatiebeginsel
-- winstrealisatie
-- aandelen
+  - conventionele waarde
+  - financiële vaste activa
+  - inbreng
+  - realisatie
+  - realisatiebeginsel
+  - winstrealisatie
+  - aandelen
 ---
 
 # CBN-advies 157/2 - Realisatiebeginsel (behalve bij fusie)
@@ -61,8 +59,7 @@ De Commissie meent van wel.
 
 1. Niemand betwist dat een goed dat ingebracht wordt, gerealiseerd is (onder voorbehoud van wat volgt); dit goed wordt immers uit het vermogen van de inbrenger gehaald en toegevoegd aan het vermogen van de vennootschap waarin het wordt ingebracht terwijl de inbrenger meestal een actiefbestanddeel krijgt van een volledig andere aard dan het ingebracht goed. Zowel in juridisch opzicht als in de economische werkelijkheid is er sprake van een onderbreking in de continuïteit, wat kenmerkend is voor het begrip realisatie. Ook in boekhoudkundig opzicht wordt de continuïteit verbroken. Het volstaat hierbij aan te stippen dat indien materiële of immateriële vaste activa worden ingebracht, deze volgens een bepaald plan moesten worden afgeschreven, wat niet het geval zal zijn voor de aandelen die als tegenwaarde werden ontvangen. 
 
-2. Op grond van het algemene beginsel dat de activa in de jaarrekening moeten worden opgenomen tegen hun aanschaffingswaarde[^1]
- en van de bepaling van hetgeen moet worden verstaan onder de aanschaffingsprijs, de vervaardigingsprijs en de inbrengwaarde, kan worden gesteld dat wanneer een goed of een waarde aan het vermogen van een onderneming wordt toegevoegd op grond van een overeenkomst met een derde, de conventionele waarde hierbij in aanmerking moet worden genomen, zulks onder voorbehoud van latere wijzigingen van die waarde ingevolge waardeverminderingen, afschrijvingen of herwaarderingen. Niet uitgaan van deze conventionele waarde zou betekenen dat in de boekhouding en in de jaarrekening geen rekening wordt gehouden met een relatie met een derde, misschien niet principieel, maar dan toch wat de waarden betreft waarop zij betrekking heeft. 
+2. Op grond van het algemene beginsel dat de activa in de jaarrekening moeten worden opgenomen tegen hun aanschaffingswaarde[^1] en van de bepaling van hetgeen moet worden verstaan onder de aanschaffingsprijs, de vervaardigingsprijs en de inbrengwaarde, kan worden gesteld dat wanneer een goed of een waarde aan het vermogen van een onderneming wordt toegevoegd op grond van een overeenkomst met een derde, de conventionele waarde hierbij in aanmerking moet worden genomen, zulks onder voorbehoud van latere wijzigingen van die waarde ingevolge waardeverminderingen, afschrijvingen of herwaarderingen. Niet uitgaan van deze conventionele waarde zou betekenen dat in de boekhouding en in de jaarrekening geen rekening wordt gehouden met een relatie met een derde, misschien niet principieel, maar dan toch wat de waarden betreft waarop zij betrekking heeft. 
 
 3. Er is geen enkele reden om de overeengekomen waarde te vervangen door de vroegere boekwaarde van de goederen die niet langer deel uitmaken van het vermogen van de onderneming. Deze goederen werden uit het vermogen gehaald tegen dezelfde overeengekomen waarde. Het verschil tussen deze overeengekomen realisatiewaarde en de vroeger boekwaarde is een resultaat dat als dusdanig in de jaarrekening moet worden verwerkt. 
 

@@ -1,48 +1,48 @@
 ---
-nummer: CBN-advies 2018/21
+bron: https://www.cbn-cnc.be/nl/adviezen/vrijstelling-mbt-het-sociaal-passief-ingevolge-het-eenheidsstatuut
 datum: 2018-11-28
+gerelateerde_adviezen:
+  - datum: '1983-04-10'
+    titel: Belastingvrije provisie voor sociaal passief
+    url: https://www.cbn-cnc.be/nl/adviezen/belastingvrije-provisie-voor-sociaal-passief
+nummer: CBN-advies 2018/21
+provenance:
+  generated_at: '2026-05-11T13:05:08Z'
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/vrijstelling-mbt-het-sociaal-passief-ingevolge-het-eenheidsstatuut
+      sha256: c71ec7d9c8f537088d54151d46dea7a11d4210e362c8b7e4ea7ea4a8398c69dc
+      version:
+  stale: false
+  stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
+  trust:
+    confirmed_at: '2026-05-11T12:21:40Z'
+    confirmed_by: subagent-sonnet-4-6
+    layer1:
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:30Z'
+      heading_count: 3
+      max_section_chars: 4073
+      file_size_chars: 6589
+      flags: []
+    layer2:
+      agent: subagent-sonnet-4-6
+      concrete_problemen: []
+      rationale: 'Geen artefacten gevonden. Tekst vloeiend, drie ## headings correct, alle 14 voetnoten volledig verankerd. Geen tabellen. De cursief-opmaak van artikelnummers (67*quater*) is correcte markdown-weergave van de wettelijke schrijfwijze. Inhoud volledig.'
+      run_at: '2026-05-11T12:21:40Z'
+      status: trusted
+    rationale: 'Geen artefacten gevonden. Tekst vloeiend, drie ## headings correct, alle 14 voetnoten volledig verankerd. Geen tabellen. De cursief-opmaak van artikelnummers (67*quater*) is correcte markdown-weergave van de wettelijke schrijfwijze. Inhoud volledig.'
+    status: trusted
 themas:
   - sociaal passief
   - eenheidsstatuut
   - fiscale vrijstelling
   - belastinglatentie
-bron: https://www.cbn-cnc.be/nl/adviezen/vrijstelling-mbt-het-sociaal-passief-ingevolge-het-eenheidsstatuut
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/vrijstelling-mbt-het-sociaal-passief-ingevolge-het-eenheidsstatuut
-      sha256: c71ec7d9c8f537088d54151d46dea7a11d4210e362c8b7e4ea7ea4a8398c69dc
-      version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:37:30Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: trusted
-    confirmed_at: '2026-05-11T12:21:40Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: 'Geen artefacten gevonden. Tekst vloeiend, drie ## headings correct, alle 14 voetnoten volledig verankerd. Geen tabellen. De cursief-opmaak van artikelnummers (67*quater*) is correcte markdown-weergave van de wettelijke schrijfwijze. Inhoud volledig.'
-    layer1:
-      status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 3
-      max_section_chars: 4074
-      file_size_chars: 6590
-      flags: []
-    layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:21:40Z'
-      rationale: 'Geen artefacten gevonden. Tekst vloeiend, drie ## headings correct, alle 14 voetnoten volledig verankerd. Geen tabellen. De cursief-opmaak van artikelnummers (67*quater*) is correcte markdown-weergave van de wettelijke schrijfwijze. Inhoud volledig.'
-      concrete_problemen: []
-gerelateerde_adviezen:
-  - titel: Belastingvrije provisie voor sociaal passief
-    url: https://www.cbn-cnc.be/nl/adviezen/belastingvrije-provisie-voor-sociaal-passief
-    datum: '1983-04-10'
 ---
 
 # CBN-advies 2018/21 – Vrijstelling m.b.t. het sociaal passief ingevolge het eenheidsstatuut
@@ -77,8 +77,7 @@ Er is geen boeking nodig. Volgens de Commissie kan de vennootschap de vrijstelli
 
 De terugname van deze vrijstelling wanneer de werknemer de onderneming verlaat, zal een verhoging van de belastbare winst van de vennootschap tot gevolg hebben. Ook op dat ogenblik is geen boeking vereist. Deze verhoging zal verminderd worden met “*de kosten die met het ontslag gepaard gaan (verbrekingsvergoeding, loon tijdens de opzegtermijn, …)*”[^12]. 
 
-Het bestuursorgaan moet oordelen of het bedrag van de vrijstelling een passieve belastinglatentie van materieel belang[^13]
- vormt die in de toelichting van het volledig schema moet worden vermeld, tussen de passieve belastinglatenties.[^14] 
+Het bestuursorgaan moet oordelen of het bedrag van de vrijstelling een passieve belastinglatentie van materieel belang[^13] vormt die in de toelichting van het volledig schema moet worden vermeld, tussen de passieve belastinglatenties.[^14] 
 
 [^1]: Onderhavig advies is tot stand gekomen nadat een ontwerpadvies op 18 juni 2018 ter publieke consultatie werd gepubliceerd op de website van de CBN.
 

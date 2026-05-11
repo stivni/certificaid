@@ -2,73 +2,63 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/schulden-gewaarborgd-door-een-zakelijke-zekerheid-niet-in-de-balans-opgenomen-rechten-en
 datum: 2018-11-16
 gerelateerde_adviezen:
-- datum: '1991-03-01'
-  titel: Verwerking van verrichtingen voor de verwerving of verkoop van een recht
-    op vruchtgebruik of van naakte eigendom op materiële vaste activa in de boekhouding
-    van de vruchtgebruiker (de erfpachter, de opstalhouder) en van de naakte eigenaar
-    (de grondeigenaa
-  url: https://www.cbn-cnc.be/nl/adviezen/verwerking-van-verrichtingen-voor-de-verwerving-of-verkoop-van-een-recht-op-vruchtgebruik
+  - datum: '1991-03-01'
+    titel: Verwerking van verrichtingen voor de verwerving of verkoop van een recht op vruchtgebruik of van naakte eigendom op materiële vaste activa in de boekhouding van de vruchtgebruiker (de erfpachter, de opstalhouder) en van de naakte eigenaar (de grondeigenaa
+    url: https://www.cbn-cnc.be/nl/adviezen/verwerking-van-verrichtingen-voor-de-verwerving-of-verkoop-van-een-recht-op-vruchtgebruik
 nummer: CBN-advies 2018/17
 provenance:
-  generated_at: '2026-05-08T18:37:27Z'
+  generated_at: '2026-05-11T13:05:08Z'
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/schulden-gewaarborgd-door-een-zakelijke-zekerheid-niet-in-de-balans-opgenomen-rechten-en
-    sha256: 84aa2320b4231304ec94ca9ec3cb7b1c27ff343e76901d581e87eb837894b6b8
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/schulden-gewaarborgd-door-een-zakelijke-zekerheid-niet-in-de-balans-opgenomen-rechten-en
+      sha256: 84aa2320b4231304ec94ca9ec3cb7b1c27ff343e76901d581e87eb837894b6b8
+      version:
   stale: false
-  stale_reason: null
+  stale_reason:
   tooling:
-    model: null
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    prompt_version: null
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
   trust:
     confirmed_at: '2026-05-08T19:02:28Z'
     confirmed_by: subagent-laag2-ronde2
     layer1:
-      file_size_chars: 52446
-      flags:
-      - detail: 'langste sectie op ##-niveau: 30190 chars (>24000); chunker splitst
-          auto op alinea-grenzen via split_long_chunk'
-        name: max_section_size
-        samples: []
-        status: warn
-      heading_count: 17
-      max_section_chars: 30190
-      run_at: null
-      run_id: 20260511-083333
-      status: warn
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:29Z'
+      heading_count: 28
+      max_section_chars: 19101
+      file_size_chars: 52436
+      flags: []
     layer2:
       agent: subagent-laag2-ronde2
       concrete_problemen: []
-      rationale: '[Laag-2-R2 2026-05-08] Het advies heeft 17 headings en is volledig
-        aanwezig. De langste sectie omvat de uitgebreide samenvattende tabellen in
-        de bijlagen. Journaalpost-voorbeeld correct als Markdown-tabel.'
+      rationale: '[Laag-2-R2 2026-05-08] Het advies heeft 17 headings en is volledig aanwezig. De langste sectie omvat de uitgebreide samenvattende tabellen in de bijlagen. Journaalpost-voorbeeld correct als Markdown-tabel.'
       run_at: '2026-05-08T19:02:28Z'
       status: trusted
     rationale: Laag-2 trusted door subagent-laag2-ronde2 (zie layer2.rationale)
     status: trusted
 themas:
-- zakelijk recht
-- niet in de balans opgenomen rechten en verplichtingen
-- zakelijke zekerheden
-- waarborg
-- gewaarborgde schuld
-- eigendomsvoorbehoud
-- pandrecht
-- pandovereenkomst
-- hypotheek
-- gewaarborgde schuldvordering
-- onherroepelijk mandaat tot verpanding
-- onherroepelijk beloofde zekerheid
-- voorrecht
-- onherroepelijk hypotheekmandaat
-- pand op het handelsfonds
-- staat van de schulden
-- pandrecht op een handelszaak
-- pandrecht op nog te verwerven activa
-- pandrecht op activa
-- voorrecht van de verkoper
+  - zakelijk recht
+  - niet in de balans opgenomen rechten en verplichtingen
+  - zakelijke zekerheden
+  - waarborg
+  - gewaarborgde schuld
+  - eigendomsvoorbehoud
+  - pandrecht
+  - pandovereenkomst
+  - hypotheek
+  - gewaarborgde schuldvordering
+  - onherroepelijk mandaat tot verpanding
+  - onherroepelijk beloofde zekerheid
+  - voorrecht
+  - onherroepelijk hypotheekmandaat
+  - pand op het handelsfonds
+  - staat van de schulden
+  - pandrecht op een handelszaak
+  - pandrecht op nog te verwerven activa
+  - pandrecht op activa
+  - voorrecht van de verkoper
 ---
 
 # CBN-advies 2018/17 – Schulden gewaarborgd door een zakelijke zekerheid – Niet in de balans opgenomen rechten en verplichtingen
@@ -81,17 +71,13 @@ De Commissie analyseert hierin meer bepaald de rapporteringsverplichtingen m.b.t
 
 De schulden die gepaard gaan met waarborgen worden opgenomen op het passief van de balans van de vennootschap onder de rubrieken *VIII. Schulden op meer dan één jaar* en *IX. Schulden op ten hoogste één jaar*. 
 
-De toelichting bij het volledig en het verkort schema[^3]
- moet, indien de informatie van materieel belang is in de zin van artikel 82 § 3/1, lid 2 van het KB W.Venn., een staat van de schulden bevatten met het bedrag van de schulden (of het gedeelte van de schulden) die gewaarborgd zijn door Belgische overheidsinstellingen of door zakelijke zekerheden gesteld of onherroepelijk beloofd op activa van de vennootschap.[^4] 
+De toelichting bij het volledig en het verkort schema[^3] moet, indien de informatie van materieel belang is in de zin van artikel 82 § 3/1, lid 2 van het KB W.Venn., een staat van de schulden bevatten met het bedrag van de schulden (of het gedeelte van de schulden) die gewaarborgd zijn door Belgische overheidsinstellingen of door zakelijke zekerheden gesteld of onherroepelijk beloofd op activa van de vennootschap.[^4] 
 
 Indien de informatie van materieel belang is, moet de vennootschap in de toelichting van de drie schema’s[^5], onder de niet in de balans opgenomen rechten en verplichtingen[^6] eveneens het volgende opnemen: “*het bedrag van de zakelijke zekerheden die door de vennootschap werden gesteld of onherroepelijk beloofd op haar eigen activa als waarborg voor eigen schulden en verplichtingen* [...]”[^7]. 
 
-Ze moet tevens op de rekening 00 de “zekerheden door derden gesteld voor rekening van de vennootschap” en op de rekening 02 de “zakelijke zekerheden gesteld [of onherroepelijk beloofd][^8]
- op eigen activa”[^9]
- opnemen.
+Ze moet tevens op de rekening 00 de “zekerheden door derden gesteld voor rekening van de vennootschap” en op de rekening 02 de “zakelijke zekerheden gesteld [of onherroepelijk beloofd][^8] op eigen activa”[^9] opnemen.
 
-Indien de informatie van materieel belang is, moet de toelichting van het volledig schema, een staat opnemen over de betrekkingen met verbonden[^10], geassocieerde[^11]
- ondernemingen en ondernemingen waarmee een deelnemingsverhouding bestaat[^12].[^13]
+Indien de informatie van materieel belang is, moet de toelichting van het volledig schema, een staat opnemen over de betrekkingen met verbonden[^10], geassocieerde[^11] ondernemingen en ondernemingen waarmee een deelnemingsverhouding bestaat[^12].[^13]
  De gewaarborgde schulden voor deze drie types van ondernemingen worden hierin opgenomen onder de schulden verdeeld in functie van hun duur.[^14]
  De staat neemt eveneens het volgende op: “*het bedrag van de persoonlijke en zakelijke zekerheden die door verbonden [of geassocieerde] ondernemingen werden gesteld of onherroepelijk beloofd als waarborg voor schulden of verplichtingen van de vennootschap*”[^15].
 
@@ -102,14 +88,12 @@ De toelichting van het microschema bevat niet zulke staat.[^17]
 
 ## Begrip
 
-### De zakelijke zekerheden bedoeld in KB W.Venn.
-
+De zakelijke zekerheden bedoeld in KB W.Venn.
 De zakelijke zekerheid is het ‘zakelijk zekerheidsrecht’ dat een bescherming biedt op het voorkeursrecht op de prijs die de schuldeiser zal opeisen tijdens de samenloop op het vermogen van de schuldenaar[^18]. (vrije vertaling)
 
 Ze slaat in de regel op één of verschillende bepaalde of bepaalbare, actuele of toekomstige goederen uit het patrimonium van de schuldenaar. Ze heeft tot gevolg dat het of de betrokken goed(eren) bestemd wordt/worden tot voldoening van de door haar gewaarborgde vordering. Aldus wordt de schuldeiser in staat gesteld af te wijken van de regel van de gelijkheid van de schuldeisers, bepaald bij artikel 8 van de hypotheekwet, en een voorkeursrecht uit te oefenen op de prijs van de zaak waarop de zekerheid slaat. De uitoefening van dit voorkeursrecht wordt in de regel vergemakkelijkt doordat de schuldeiser over een volgrecht beschikt of de buitenbezitstelling van de schuldenaar.
 
-Het KB W.Venn. heeft niet alleen betrekking op de gestelde zakelijke zekerheden, maar tevens op degene die onherroepelijk beloofd werden. Er moet dus rekening worden gehouden met de onherroepelijke mandaten tot hypothekeren of borgstellen, want de effectieve stelling van de zekerheid hangt niet meer af van de schuldenaar, maar van zijn schuldeiser. Daarentegen wordt hier niet de eenvoudige belofte om te hypothekeren[^19]
- beoogd, al dan niet vergezeld van een verplichting om het betreffende goed niet te vervreemden en/of van een verplichting om het niet te belasten met zakelijke rechten ten voordele van een derde.
+Het KB W.Venn. heeft niet alleen betrekking op de gestelde zakelijke zekerheden, maar tevens op degene die onherroepelijk beloofd werden. Er moet dus rekening worden gehouden met de onherroepelijke mandaten tot hypothekeren of borgstellen, want de effectieve stelling van de zekerheid hangt niet meer af van de schuldenaar, maar van zijn schuldeiser. Daarentegen wordt hier niet de eenvoudige belofte om te hypothekeren[^19] beoogd, al dan niet vergezeld van een verplichting om het betreffende goed niet te vervreemden en/of van een verplichting om het niet te belasten met zakelijke rechten ten voordele van een derde.
 
 Er moet tevens rekening worden gehouden met het voorrecht van de verkoper[^20], in tegenstelling tot de andere voorrechten[^21].[^22] 
 
@@ -122,9 +106,7 @@ Samengevat: wanneer de vennootschappen de hierboven vermelde staten, nr. 3 tot 5
 - het pandrecht op een handelszaak;[^26] 
 - het pandrecht voor bestaande en/of toekomstige schuldvorderingen;[^27] 
 - het onherroepelijk mandaat om een bepaald of bepaalbaar goed te verpanden, inclusief een handelszaak; 
-- de wettelijke[^28]
- en bedongen[^29]
- ingeschreven hypotheken, met inbegrip van de hypotheken op alle sommen[^30]; 
+- de wettelijke[^28] en bedongen[^29] ingeschreven hypotheken, met inbegrip van de hypotheken op alle sommen[^30]; 
 - het onherroepelijk mandaat tot hypothekeren; 
 - het voorrecht van de verkoper;[^31] 
 - het eigendomsvoorbehoud.[^32] 
@@ -143,8 +125,7 @@ Ze moeten daarentegen geen rekening houden met:
 De hervorming van de roerende zakelijke zekerheden, voorzien door de wet van 11 juli 2013 tot wijziging van het Burgerlijk Wetboek wat de zakelijke zekerheden op roerende goederen betreft en tot opheffing van diverse bepalingen ter zake[^33], is op 1 januari 2018 in werking getreden.
 
 Eén van de voornaamste nieuwigheden is de afschaffing van het vereiste van buitenbezitstelling tijdens de totstandkoming van het pandrecht. De pandovereenkomst is voortaan een consensueel contract[^34], d.w.z. dat het pandrecht tot stand komt door de overeenkomst tussen pandgever en pandhouder.[^35]
- De inpandgeving moet worden bewezen door een geschrift dat “de door het pand bezwaarde goederen, de gewaarborgde schuldvorderingen en het maximaal bedrag tot beloop waarvan de schuldvorderingen gewaarborgd zijn, nauwkeurig aanduidt”[^36]
- (eigen onderlijning).
+ De inpandgeving moet worden bewezen door een geschrift dat “de door het pand bezwaarde goederen, de gewaarborgde schuldvorderingen en het maximaal bedrag tot beloop waarvan de schuldvorderingen gewaarborgd zijn, nauwkeurig aanduidt”[^36] (eigen onderlijning).
 
 Een andere fundamentele wijziging is de verplichte registratie van het pandrecht. Voortaan is het pandrecht, inclusief het pandrecht op een handelszaak, in de regel tegenwerpelijk aan derden indien het geregistreerd is in het Nationaal Pandregister.[^37] 
 
@@ -167,8 +148,7 @@ Het pandrecht op lichamelijke goederen is facultatief eveneens tegenwerpelijk aa
 Indien de informatie van materieel belang is, neemt de *staat van de schulden* in de toelichting bij het volledig en het verkort schema het bedrag van de schulden op (of van het gedeelte van die schulden) die gewaarborgd zijn door zakelijke zekerheden gesteld of onherroepelijk beloofd op activa van de vennootschap.[^47]
  Dit bedrag wordt uitgesplitst per post voorzien in de rubrieken VIII (*schulden op meer dan één jaar*) en IX (*schulden op ten hoogste één jaar*) van de passiva, maar zonder onderscheid naar gelang van de termijn van de gewaarborgde schulden. 
 
-Deze informatie en tevens de informatie m.b.t. het bedrag van de zakelijke zekerheden die door de vennootschap werden gesteld of onherroepelijk beloofd op haar eigen activa als waarborg voor eigen schulden en verplichtingen, opgenomen onder haar niet in de balans opgenomen rechten en verplichtingen[^48], “[mogen] *worden verstrekt in de vorm van een opsomming* […] *van de gewaarborgde schulden[^49]
- met de vermelding voor elke schuld van haar aard overeenkomstig de balansposten, haar vervaldag en de verstrekte waarborgen*”[^50].
+Deze informatie en tevens de informatie m.b.t. het bedrag van de zakelijke zekerheden die door de vennootschap werden gesteld of onherroepelijk beloofd op haar eigen activa als waarborg voor eigen schulden en verplichtingen, opgenomen onder haar niet in de balans opgenomen rechten en verplichtingen[^48], “[mogen] *worden verstrekt in de vorm van een opsomming* […] *van de gewaarborgde schulden[^49] met de vermelding voor elke schuld van haar aard overeenkomstig de balansposten, haar vervaldag en de verstrekte waarborgen*”[^50].
 
 ### Niet in de balans opgenomen rechten en verplichtingen
 
@@ -188,9 +168,7 @@ Het bedrag van de inschrijving komt overeen met het bedrag van de hoofdsom en he
 
 Voor de onherroepelijke mandaten tot hypothekeren, komt het bedrag van de inschrijving, volgens de Commissie, overeen met het bedrag waarvoor de volmachthebber krachtens het mandaat inschrijving mag nemen. 
 
-Zolang de inschrijving van de hypotheek blijft bestaan, moet de vennootschap deze twee gegevens vermelden, ongeacht het bedrag van de gewaarborgde schuld, zelfs indien deze is aangezuiverd. De doorhaling[^56]
- van de inschrijving van de hypotheek is immers onafhankelijk van het tenietgaan[^57]
- van de hypotheek zelf door het tenietgaan van de gewaarborgde schuldvordering. Bovendien kan het in het geval van een hypotheek voor alle sommen gebeuren dat op het moment van inschrijving geen enkele schuld bestaat, maar dat de vennootschap deze twee gegevens moet aanduiden in de niet in de balans opgenomen rechten en verplichtingen.
+Zolang de inschrijving van de hypotheek blijft bestaan, moet de vennootschap deze twee gegevens vermelden, ongeacht het bedrag van de gewaarborgde schuld, zelfs indien deze is aangezuiverd. De doorhaling[^56] van de inschrijving van de hypotheek is immers onafhankelijk van het tenietgaan[^57] van de hypotheek zelf door het tenietgaan van de gewaarborgde schuldvordering. Bovendien kan het in het geval van een hypotheek voor alle sommen gebeuren dat op het moment van inschrijving geen enkele schuld bestaat, maar dat de vennootschap deze twee gegevens moet aanduiden in de niet in de balans opgenomen rechten en verplichtingen.
 
 ##### Wat het pand op het handelsfonds (inclusief het onherroepelijke mandaat tot verpanding) betreft, het bedrag van de inschrijving
 
@@ -202,15 +180,13 @@ Voor de onherroepelijke mandaten tot verpanding, komt het bedrag van de inschrij
 
 ##### Wat de zekerheden betreft op nog door de onderneming te verwerven activa (inclusief het onherroepelijke mandaat tot verpanding), het bedrag van de betrokken activa
 
-De Commissie is van oordeel dat het bedrag van de betrokken activa, desgevallend, overeenkomt met de boekwaarde in de rekeningen betreffende de vooruitbetalingen en activa in aanbouw[^59]
- of met de door de vennootschap geraamde waarde volgens de eisen van voorzichtigheid, oprechtheid en goede trouw[^60].
+De Commissie is van oordeel dat het bedrag van de betrokken activa, desgevallend, overeenkomt met de boekwaarde in de rekeningen betreffende de vooruitbetalingen en activa in aanbouw[^59] of met de door de vennootschap geraamde waarde volgens de eisen van voorzichtigheid, oprechtheid en goede trouw[^60].
 
 Indien de vennootschap dit relevant acht, mag ze in het vrij gedeelte van de toelichting tevens het maximumbedrag aanduiden waarvoor de schuld gewaarborgd is.
 
 De Commissie meent bovendien dat indien de zekerheid een hypotheek betreft op begonnen of ontworpen oprichting, de vennootschap deze moet vermelden in de hypotheken. 
 
-Hoewel de artikelen met betrekking tot niet in de balans opgenomen rechten en verplichtingen[^61]
- slechts de “*zekerheden op nog door de onderneming te verwerven activa*” lijken te betreffen, bevelen het voorzichtigheidsbeginsel en het beginsel van het getrouw beeld, volgens de Commissie aan om zowel de gestelde als de onherroepelijk beloofde zekerheden op te nemen. Op deze manier zal er ook een betere samenhang en overeenstemming zijn met de *staat van de schulden[^62] * en de boeking buiten balans op de rekening 02 van de zakelijke zekerheden die door de vennootschap gesteld of onherroepelijk beloofd worden op haar eigen bezittingen (zie in dat opzicht, *infra*, randnr. 35).
+Hoewel de artikelen met betrekking tot niet in de balans opgenomen rechten en verplichtingen[^61] slechts de “*zekerheden op nog door de onderneming te verwerven activa*” lijken te betreffen, bevelen het voorzichtigheidsbeginsel en het beginsel van het getrouw beeld, volgens de Commissie aan om zowel de gestelde als de onherroepelijk beloofde zekerheden op te nemen. Op deze manier zal er ook een betere samenhang en overeenstemming zijn met de *staat van de schulden[^62]*  en de boeking buiten balans op de rekening 02 van de zakelijke zekerheden die door de vennootschap gesteld of onherroepelijk beloofd worden op haar eigen bezittingen (zie in dat opzicht, *infra*, randnr. 35).
 
 ##### Wat het pand betreft op andere activa (inclusief het onherroepelijke mandaat tot verpanding), de boekwaarde van de in pand gegeven activa
 
@@ -229,7 +205,7 @@ Wanneer het eigendomsvoorbehoud gelijkgesteld wordt met een zakelijke zekerheid,
 
 ##### Wat het voorrecht van de verkoper betreft
 
-Hoewel de artikelen uit het KB W.Venn. aangaande de *staat van de schulden[^65] * het voorrecht van de verkoper gelijkstellen met een zakelijke zekerheid, beogen de artikelen van het KB W.Venn. aangaande de niet in de balans opgenomen rechten en verplichtingen dit niet uitdrukkelijk onder het bedrag van de zakelijke zekerheden die door de vennootschap werden gesteld of onherroepelijk beloofd op haar eigen activa[^66]. 
+Hoewel de artikelen uit het KB W.Venn. aangaande de *staat van de schulden[^65]*  het voorrecht van de verkoper gelijkstellen met een zakelijke zekerheid, beogen de artikelen van het KB W.Venn. aangaande de niet in de balans opgenomen rechten en verplichtingen dit niet uitdrukkelijk onder het bedrag van de zakelijke zekerheden die door de vennootschap werden gesteld of onherroepelijk beloofd op haar eigen activa[^66]. 
 
 De Commissie is bijgevolg van mening dat de boekwaarde van de activa bedoeld in het voorrecht van de verkoper moet worden opgenomen onder de *andere niet in de balans opgenomen rechten en verplichtingen* in de toelichting van de drie modellen opgesteld door de Balanscentrale. Indien de vennootschap dit bovendien relevant acht, mag ze in het vrij gedeelte van de toelichting het bedrag aanduiden van de niet betaalde prijs.
 
@@ -239,21 +215,16 @@ Indien de informatie bovendien van materieel belang is, moet de vennootschap ond
 
 #### Boeking van de niet in de balans opgenomen rechten en verplichtingen
 
-De vennootschap moet tevens op de rekening 00 de “zekerheden door derden gesteld voor rekening van de vennootschap” opnemen en op de rekening 02 de “zakelijke zekerheden gesteld op eigen activa”[^68]
- opnemen.
+De vennootschap moet tevens op de rekening 00 de “zekerheden door derden gesteld voor rekening van de vennootschap” opnemen en op de rekening 02 de “zakelijke zekerheden gesteld op eigen activa”[^68] opnemen.
 
-De rekening 00 *Zekerheden door derden gesteld voor rekening van de onderneming* herneemt “*de zakelijke of persoonlijke zekerheden die door derden ten behoeve van de crediteuren van de vennootschap zijn gesteld, als waarborg voor de voldoening van actuele of potentiële schulden of verplichtingen die de vennootschap jegens hen heeft aangegaan*”[^69]
- (eigen onderlijning). Op deze rekening staan niet de onherroepelijk beloofde zekerheden.
+De rekening 00 *Zekerheden door derden gesteld voor rekening van de onderneming* herneemt “*de zakelijke of persoonlijke zekerheden die door derden ten behoeve van de crediteuren van de vennootschap zijn gesteld, als waarborg voor de voldoening van actuele of potentiële schulden of verplichtingen die de vennootschap jegens hen heeft aangegaan*”[^69] (eigen onderlijning). Op deze rekening staan niet de onherroepelijk beloofde zekerheden.
 
-De rekening 02 *Zakelijke zekerheden gesteld op eigen activa* herneemt “*de zakelijke zekerheden waarmee de vennootschap haar eigen activa heeft bezwaard of die ze onherroepelijk heeft beloofd voor de voldoening van actuele of potentiële schulden en verplichtingen van zichzelf of van derden*”[^70]
- (eigen onderlijning). 
+De rekening 02 *Zakelijke zekerheden gesteld op eigen activa* herneemt “*de zakelijke zekerheden waarmee de vennootschap haar eigen activa heeft bezwaard of die ze onherroepelijk heeft beloofd voor de voldoening van actuele of potentiële schulden en verplichtingen van zichzelf of van derden*”[^70] (eigen onderlijning). 
 
 In tegenstelling tot wat haar titel doet vermoeden, neemt deze rekening niet alleen de gestelde, maar ook de onherroepelijk beloofde zakelijke zekerheden op. Op deze rekening zullen dus in het bijzonder de onherroepelijke mandaten tot hypothekeren worden geboekt.
 
-### De staat over de betrekkingen met verbonden, geassocieerde ondernemingen en ondernemingen waarmee een deelnemingsverhouding bestaat
-
-Indien de informatie van materieel belang is, moet de toelichting van het volledig schema een staat opnemen over de betrekkingen met verbonden[^71], geassocieerde[^72]
- ondernemingen en ondernemingen waarmee een deelnemingsverhouding bestaat[^73].[^74]
+De staat over de betrekkingen met verbonden, geassocieerde ondernemingen en ondernemingen waarmee een deelnemingsverhouding bestaat
+Indien de informatie van materieel belang is, moet de toelichting van het volledig schema een staat opnemen over de betrekkingen met verbonden[^71], geassocieerde[^72] ondernemingen en ondernemingen waarmee een deelnemingsverhouding bestaat[^73].[^74]
  De gewaarborgde schulden voor deze drie types van ondernemingen worden hierin opgenomen onder de schulden verdeeld in functie van hun duur.[^75] 
 
 Volgens de Commissie vermeldt deze staat ook de zakelijke of persoonlijke zekerheden gesteld of onherroepelijk beloofd in het voordeel van de verbonden of geassocieerde ondernemingen, onder de “*andere betekenisvolle financiële verplichtingen*”[^76], alsook “*het bedrag van de persoonlijke en zakelijke zekerheden die door verbonden* [of geassocieerde] *ondernemingen werden gesteld of onherroepelijk beloofd als waarborg voor schulden of verplichtingen van de vennootschap*”[^77] 
@@ -280,7 +251,7 @@ Deze twee staten moeten ook in verband worden gebracht:
 
 *Voorbeeld*
 
-Een vennootschap gaat een lening aan bij een kredietinstelling voor een bedrag van 100. Ze waarborgt de lening door het in pand geven van schuldvorderingen die voor een bedrag van 150 in haar jaarrekening zijn opgenomen. Indien deze informatie van materieel belang is, moet de vennootschap in de *staat van de schulden*, de schuld opnemen voor 100, en in de *staat van de niet in de balans opgenomen rechten en verplichtingen*, de verpande schuldvorderingen voor 150. De vennootschap moet eveneens de volgende boekingen doorvoeren: 
+Een vennootschap gaat een lening aan bij een kredietinstelling voor een bedrag van 100. Ze waarborgt de lening door het in pand geven van schuldvorderingen die voor een bedrag van 150 in haar jaarrekening zijn opgenomen. Indien deze informatie van materieel belang is, moet de vennootschap in de *staat van de schulden*, de schuld opnemen voor 100, en in de* staat van de niet in de balans opgenomen rechten en verplichtingen*, de verpande schuldvorderingen voor 150. De vennootschap moet eveneens de volgende boekingen doorvoeren: 
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
@@ -295,15 +266,14 @@ Dat kan het geval zijn wanneer een vennootschap een kredietopening waarborgt bij
 
 Een andere mogelijkheid is dat hoewel de gewaarborgde schuld aangezuiverd wordt, de inschrijving van de hypotheek of de registratie van het pandrecht nog niet werd verwijderd. 
 
-**Onderhavig advies vervangt de volgende adviezen:**
+## Onderhavig advies vervangt de volgende adviezen:
 
-**CBN-advies 106 - Verbintenissen en zekerheden, *Bull. CBN*, nr. 1, augustus 1977, 20; 
-
+CBN-advies 106 - Verbintenissen en zekerheden, *Bull. CBN*, nr. 1, augustus 1977, 20;
 CBN-advies 106/1 - Onherroepelijk mandaat tot hypothekeren, *Bull. CBN*, nr. 1, augustus 1977, 20; 
 
 CBN-advies 106/2 - Verbintenis om bepaalde goederen niet te verkopen, *Bull. CBN*, nr. 1, augustus 1977, 20; 
 
-CBN-advies 106/5 - Gewaarborgde schulden - Niet in de balans opgenomen rechten en verplichtingen, *Bull. CBN*, nr. 17, september 1985, 17-18.**
+CBN-advies 106/5 - Gewaarborgde schulden - Niet in de balans opgenomen rechten en verplichtingen, *Bull. CBN*, nr. 17, september 1985, 17-18.
 
 Bijlagen:
 
@@ -312,7 +282,7 @@ Bijlagen:
 
 1. Samenvattende tabel over de zekerheden die door de vennootschap werden gesteld of onherroepelijk beloofd op haar eigen activa als waarborg voor eigen schulden
 
-1.1. *Volledig schema*
+### 1.1. *Volledig schema*
 
 | 
 
@@ -320,7 +290,7 @@ Bijlagen:
 
   | | 
 
-**Onherroepelijk beloofd of gesteld**
+## Onherroepelijk beloofd of gesteld
 
   | | 
 
@@ -376,8 +346,7 @@ Bedrag van de gewaarborgde schulden voor deze drie types van ondernemingen
 
   | | 
 
-Rekening 02 Zakelijke zekerheden gesteld[^85]
- op eigen activa
+Rekening 02 Zakelijke zekerheden gesteld[^85] op eigen activa
 
   | 
 | 
@@ -474,7 +443,9 @@ Boekwaarde van het verkochte goed
 
   | 
 
-1.2. *Verkort schema*
+### 
+
+### 1.2. *Verkort schema*
 
 | 
 
@@ -482,7 +453,7 @@ Boekwaarde van het verkochte goed
 
   | | 
 
-**Onherroepelijk beloofd of gesteld**
+## Onherroepelijk beloofd of gesteld
 
   | | 
 
@@ -534,8 +505,7 @@ Bedrag waarvoor de volmachthebber krachtens het mandaat inschrijving mag nemen
 
   | | 
 
-Rekening 02 Zakelijke zekerheden gesteld[^89]
- op eigen activa
+Rekening 02 Zakelijke zekerheden gesteld[^89] op eigen activa
 
   | 
 | 
@@ -632,7 +602,9 @@ Boekwaarde van het verkochte goed
 
   | 
 
-1.3. *Microschema*
+### 
+
+### 1.3. *Microschema*
 
 | 
 
@@ -640,7 +612,7 @@ Boekwaarde van het verkochte goed
 
   | | 
 
-**Onherroepelijk beloofd of gesteld**
+## Onherroepelijk beloofd of gesteld
 
   | | 
 
@@ -676,8 +648,7 @@ Boekwaarde van de bezwaarde activa en bedrag waarvoor de volmachthebber krachten
 
   | | 
 
-Rekening 02 Zakelijke zekerheden gesteld[^92]
- op eigen activa
+Rekening 02 Zakelijke zekerheden gesteld[^92] op eigen activa
 
   | 
 | 
@@ -772,7 +743,7 @@ Boekwaarde van het verkochte goed
 
 2. Samenvattende tabel over de zekerheden die door de derden werden gesteld of onherroepelijk beloofd ten behoeve van de crediteuren van de vennootschap
 
-2.1. *Volledig schema*
+### 2.1. *Volledig schema*
 
 | 
 
@@ -780,7 +751,7 @@ Boekwaarde van het verkochte goed
 
   | | 
 
-**Onherroepelijk beloofd of gesteld**
+## Onherroepelijk beloofd of gesteld
 
   | | 
 
@@ -909,7 +880,7 @@ Boekwaarde van het verkochte goed
 
   | 
 
-2.2. *Verkort schema en microschema*
+### 2.2. *Verkort schema en microschema*
 
 | 
 
@@ -917,7 +888,7 @@ Boekwaarde van het verkochte goed
 
   | | 
 
-**Onherroepelijk beloofd of gesteld**
+## Onherroepelijk beloofd of gesteld
 
   | | 
 

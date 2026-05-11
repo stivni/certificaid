@@ -1,6 +1,43 @@
 ---
-nummer: CBN-advies 2021/16
+bron: https://www.cbn-cnc.be/nl/adviezen/waarderen-en-boeken-van-cryptomunten-gebruikt-als-betaalmiddel
 datum: 2021-12-06
+gerelateerde_adviezen:
+  - datum: '2019-05-17'
+    titel: Boekhoudkundige verwerking van virtuele munten (ONTWERP)
+    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-virtuele-munten-ontwerp
+nummer: CBN-advies 2021/16
+provenance:
+  generated_at: '2026-05-11T13:05:08Z'
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/waarderen-en-boeken-van-cryptomunten-gebruikt-als-betaalmiddel
+      sha256: 93817b0a58155c7cf3900e7005139b5fa9fdce3a655d921559deef8a09c48bc0
+      version:
+  stale: false
+  stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
+  trust:
+    confirmed_at: '2026-05-11T12:21:41Z'
+    confirmed_by: subagent-sonnet-4-6
+    layer1:
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:30Z'
+      heading_count: 2
+      max_section_chars: 6084
+      file_size_chars: 7410
+      flags: []
+    layer2:
+      agent: subagent-sonnet-4-6
+      concrete_problemen: []
+      rationale: 'Geen extractie-artefacten. De italic-hits uit de analyse zijn false positives: ''*blockchain*'', ''*Liquide middelen*'', ''*Overige vorderingen*'' zijn correcte markdown-italics zonder spaties. Twee headings correct, inhoud volledig, alle vier voetnootdefinities aanwezig. Compact maar compleet advies.'
+      run_at: '2026-05-11T12:21:41Z'
+      status: trusted
+    rationale: 'Geen extractie-artefacten. De italic-hits uit de analyse zijn false positives: ''*blockchain*'', ''*Liquide middelen*'', ''*Overige vorderingen*'' zijn correcte markdown-italics zonder spaties. Twee headings correct, inhoud volledig, alle vier voetnootdefinities aanwezig. Compact maar compleet advies.'
+    status: trusted
 themas:
   - cryptocurrency
   - cryptomunt
@@ -12,43 +49,6 @@ themas:
   - geldbelegging
   - vordering
   - overige vorderingen
-bron: https://www.cbn-cnc.be/nl/adviezen/waarderen-en-boeken-van-cryptomunten-gebruikt-als-betaalmiddel
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/waarderen-en-boeken-van-cryptomunten-gebruikt-als-betaalmiddel
-      sha256: 93817b0a58155c7cf3900e7005139b5fa9fdce3a655d921559deef8a09c48bc0
-      version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:38:04Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: trusted
-    confirmed_at: '2026-05-11T12:21:41Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "Geen extractie-artefacten. De italic-hits uit de analyse zijn false positives: '*blockchain*', '*Liquide middelen*', '*Overige vorderingen*' zijn correcte markdown-italics zonder spaties. Twee headings correct, inhoud volledig, alle vier voetnootdefinities aanwezig. Compact maar compleet advies."
-    layer1:
-      status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 2
-      max_section_chars: 6084
-      file_size_chars: 7410
-      flags: []
-    layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:21:41Z'
-      rationale: "Geen extractie-artefacten. De italic-hits uit de analyse zijn false positives: '*blockchain*', '*Liquide middelen*', '*Overige vorderingen*' zijn correcte markdown-italics zonder spaties. Twee headings correct, inhoud volledig, alle vier voetnootdefinities aanwezig. Compact maar compleet advies."
-      concrete_problemen: []
-gerelateerde_adviezen:
-  - titel: Boekhoudkundige verwerking van virtuele munten (ONTWERP)
-    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-virtuele-munten-ontwerp
-    datum: '2019-05-17'
 ---
 
 # CBN-advies 2021/16 – Waarderen en boeken van cryptomunten gebruikt als betaalmiddel
@@ -67,7 +67,7 @@ De Commissie benadrukt dat zij zich niet uitspreekt over de fiscale aspecten van
 
 Neem bij wijze van voorbeeld een vennootschap A (werkzaam in de wereld van online gaming) die een factuur dient te betalen aan vennootschap B. Met de toestemming van vennootschap B beslist A deze factuur in bitcoin te betalen.
 
-Bij cryptomunten gebaseerd op de *blockchain*-technologie wordt, in tegenstelling tot bij traditionele valuta, niet gewerkt met een centrale beheerder of centrale overheid, maar geldt wel een systeem van autoregulering. Cryptomunten worden immers in *real time* gedeeld en bijgehouden door alle personen die deel uitmaken van een (*peer-to-peer*) cryptomuntennetwerk. Cryptomunten worden aldus verhandeld of uitgewisseld via een *peer-to-peer*-netwerk: computers en smartphones die via het internet rechtstreeks met elkaar verbonden zijn.[^3] 
+Bij cryptomunten gebaseerd op de *blockchain*-technologie wordt, in tegenstelling tot bij traditionele valuta, niet gewerkt met een centrale beheerder of centrale overheid, maar geldt wel een systeem van autoregulering. Cryptomunten worden immers in *real time* gedeeld en bijgehouden door alle personen die deel uitmaken van een (*peer-to-peer*) cryptomuntennetwerk. Cryptomunten worden aldus verhandeld of uitgewisseld via een* peer-to-peer*-netwerk: computers en smartphones die via het internet rechtstreeks met elkaar verbonden zijn.[^3] 
 
 De voor de hand liggende keuze zou zijn om deze cryptomunten te boeken onder de *Liquide middelen* op het actief van de vennootschap. Evenwel bepaalt art. 3:89, § 1, IX van het koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen (hierna: KB WVV) dat de liquide middelen, behalve de kasmiddelen en de te incasseren vervallen waarden, alleen de tegoeden op zicht bij kredietinstellingen omvatten. Zoals hierboven vermeld komt een kredietinstelling niet tussen om de cryptomunten bij te houden en is naar de letterlijke lezing van de toepasselijke wettelijke bepalingen de erkenning van cryptomunten als liquide middelen niet mogelijk. Tevens is het voor de Commissie belangrijk deze rubriek uit te sluiten omdat cryptomunten geen algemeen aanvaarde middelen zijn om transacties af te wikkelen. De voorstelling als liquide middelen laat de lezer van de jaarrekening veronderstellen dat de cryptomunten op balansdatum zouden kunnen worden gebruikt om betalingen te uit te voeren naar om het even welke schuldeiser, wat hier echter niet het geval is.
 
@@ -75,7 +75,7 @@ Evenmin acht de Commissie het passend de cryptomunten voor te stellen als geldbe
 
 Om deze redenen is de Commissie de mening toegedaan dat een cryptomunt best wordt geboekt onder de *Overige vorderingen* op het actief van de balans. Het betreft hier in wezen een vordering op een toekomstige tegenpartij die, tegen de levering van een hoeveelheid cryptomunten, op zijn beurt bereid is goederen te leveren of diensten te verlenen (en zo deelneemt aan het systeem van cryptomunten). De boeking onder de *Overige vorderingen* geeft aan dat dit geen vordering is op bijvoorbeeld een kredietinstelling, maar op een op vandaag beperkt aantal partijen. Een cryptomunt is geen wettelijk aanvaard betaalmiddel. Het is een methode om een transactie af te wikkelen tussen partijen die bereid zijn dit zo te doen. Anderzijds heeft de boeking onder de *Overige vorderingen* als voordeel dat aangegeven wordt dat een individuele tegenpartij nog moet instemmen met de afwikkeling in cryptomunt. Dit is veel minder het geval bij de kwalificatie *Geldbelegging* en al helemaal niet bij *Liquide middelen*.
 
-Tevens wil de Commissie de aandacht vestigen op de waarderingsregel opgenomen in art. 3:46 KB WVV: “*Op de vorderingen terugbetaalbaar op meer dan een jaar en op ten hoogste een jaar worden waardeverminderingen toegepast, zo er voor het geheel of een gedeelte van de vordering onzekerheid bestaat over de betaling hiervan op de vervaldag.*” Op deze vorderingen mogen eveneens waardeverminderingen worden toegepast wanneer hun realisatiewaarde op de datum van de jaarafsluiting lager is dan hun boekwaarde. *A-fortiori* dient in elk geval de waardering op balansdatum overeen te stemmen met de laatste prijs van de cryptomunt op dat ogenblik. De Commissie wijst erop dat in het specifieke geval van cryptomunten gebruikt als betaalmiddel, er in principe waardeverminderingen (overeenkomstig het voorzichtigheidsbeginsel) moeten (eigen onderlijning) worden uitgedrukt wanneer de realisatiewaarde van een cryptomunt op balansdatum lager ligt dan de boekwaarde ervan.[^4]
+Tevens wil de Commissie de aandacht vestigen op de waarderingsregel opgenomen in art. 3:46 KB WVV: “*Op de vorderingen terugbetaalbaar op meer dan een jaar en op ten hoogste een jaar worden waardeverminderingen toegepast, zo er voor het geheel of een gedeelte van de vordering onzekerheid bestaat over de betaling hiervan op de vervaldag.*” Op deze vorderingen mogen eveneens waardeverminderingen worden toegepast wanneer hun realisatiewaarde op de datum van de jaarafsluiting lager is dan hun boekwaarde.* A-fortiori* dient in elk geval de waardering op balansdatum overeen te stemmen met de laatste prijs van de cryptomunt op dat ogenblik. De Commissie wijst erop dat in het specifieke geval van cryptomunten gebruikt als betaalmiddel, er in principe waardeverminderingen (overeenkomstig het voorzichtigheidsbeginsel) moeten (eigen onderlijning) worden uitgedrukt wanneer de realisatiewaarde van een cryptomunt op balansdatum lager ligt dan de boekwaarde ervan.[^4]
  Omgekeerd is de herwaardering van de vorderingen niet toegestaan wanneer de prijs van de cryptomunt hoger ligt (daar de vorderingen niet in aanmerking komen voor het uitdrukken van de herwaarderingsmeerwaarden).
 
 Er wordt opgemerkt dat overeenkomstig artikel 3:27 KB WVV “de waardeverminderingen niet mogen worden gehandhaafd in die mate waarin ze op het einde van het boekjaar hoger zijn dan wat vereist is volgens een actuele beoordeling van de minderwaarden waarvoor ze werden gevormd”.

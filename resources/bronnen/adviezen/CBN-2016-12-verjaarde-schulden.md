@@ -1,42 +1,42 @@
 ---
-nummer: CBN-advies 2016/12
-datum: 2016-06-15
-themas:
-  - verjaarde schulden
-  - verjaring
 bron: https://www.cbn-cnc.be/nl/adviezen/verjaarde-schulden
+datum: 2016-06-15
+nummer: CBN-advies 2016/12
 provenance:
+  generated_at: '2026-05-11T13:05:08Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/verjaarde-schulden
       sha256: c2692b2e27047b708c2eb1052e23363aad897dee552d1671cfbc1976a2fd5291
       version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:36:59Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-11T12:16:34Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "Schoon bestand zonder extractie-artefacten. Vijf headings correct genest, voetnoten [^1]–[^15] volledig aanwezig en correct gerefereerd. Tekst doorlopend zonder spurious line-breaks. Geen tabellen aanwezig (niet vereist voor dit type advies). Inhoud compleet: burgerrechtelijke bepalingen + twee boekhoudkundige scenario's behandeld."
+    confirmed_at:
+    confirmed_by:
     layer1:
       status: pass
-      run_id: 20260511-083333
-      run_at:
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:29Z'
       heading_count: 5
       max_section_chars: 5398
-      file_size_chars: 8176
+      file_size_chars: 8181
       flags: []
     layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:16:34Z'
-      rationale: "Schoon bestand zonder extractie-artefacten. Vijf headings correct genest, voetnoten [^1]–[^15] volledig aanwezig en correct gerefereerd. Tekst doorlopend zonder spurious line-breaks. Geen tabellen aanwezig (niet vereist voor dit type advies). Inhoud compleet: burgerrechtelijke bepalingen + twee boekhoudkundige scenario's behandeld."
+      agent:
       concrete_problemen: []
+      rationale:
+      run_at:
+      status: not_run
+    rationale: 'Trust gereset 2026-05-11: re-scrape met scraper-fixes, content-diff > 5%'
+    status: unreviewed
+themas:
+  - verjaarde schulden
+  - verjaring
 ---
 
 # CBN-advies 2016/12 - Verjaarde schulden
@@ -49,9 +49,14 @@ In onderhavig advies worden door de Commissie geen standpunten ingenomen over de
 
 ## Burgerrechtelijke bepalingen (naar Belgisch recht)
 
-Ofschoon de bevrijdende verjaring in artikel 1234 BW wordt gerangschikt onder de wijzen van tenietgaan van verbintenissen, wordt in de doctrine meestal aangenomen dat deze rangschikking niet helemaal correct is, omdat de bevrijdende verjaring het bestaan[^4] van de schuld niet aantast, maar wel de opeisbaarheid ervan.[^5] De verbintenis waarvan het vorderingsrecht van de schuldeiser is verjaard, blijft bestaan als een natuurlijke verbintenis.[^6] Ten opzichte van natuurlijke verbintenissen kan geen terugvordering plaatshebben wanneer men ze vrijwillig voldaan heeft, maar wel als men ze niet vrijwillig voldaan heeft.[^7] De betaling van een verjaarde schuld, zelfs indien deze vrijwillig gebeurt, sluit het recht op terugvordering niet uit wanneer zij, blijkens de omstandigheden, niet kan worden opgevat als de voldoening van een door de betaler erkende schuld.[^8] 
+Ofschoon de bevrijdende verjaring in artikel 1234 BW wordt gerangschikt onder de wijzen van tenietgaan van verbintenissen, wordt in de doctrine meestal aangenomen dat deze rangschikking niet helemaal correct is, omdat de bevrijdende verjaring het bestaan[^4] van de schuld niet aantast, maar wel de opeisbaarheid ervan.[^5]
+ De verbintenis waarvan het vorderingsrecht van de schuldeiser is verjaard, blijft bestaan als een natuurlijke verbintenis.[^6]
+ Ten opzichte van natuurlijke verbintenissen kan geen terugvordering plaatshebben wanneer men ze vrijwillig voldaan heeft, maar wel als men ze niet vrijwillig voldaan heeft.[^7]
+ De betaling van een verjaarde schuld, zelfs indien deze vrijwillig gebeurt, sluit het recht op terugvordering niet uit wanneer zij, blijkens de omstandigheden, niet kan worden opgevat als de voldoening van een door de betaler erkende schuld.[^8] 
 
-Men kan vooraf geen afstand doen van de verjaring; men kan wel afstand doen van een verkregen verjaring.[^9] Een rechter kan het middel van de verjaring niet ambtshalve toepassen.[^10] De beslissing over het al dan niet gebruiken van dit middel berust in laatste instantie in het geweten van de betrokkene.[^11] 
+Men kan vooraf geen afstand doen van de verjaring; men kan wel afstand doen van een verkregen verjaring.[^9]
+ Een rechter kan het middel van de verjaring niet ambtshalve toepassen.[^10]
+ De beslissing over het al dan niet gebruiken van dit middel berust in laatste instantie in het geweten van de betrokkene.[^11] 
 
 ## Boekhoudkundige verwerking
 

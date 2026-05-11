@@ -1,59 +1,59 @@
 ---
-nummer: CBN-advies 158/1
-datum: 1988-12-01
-themas:
-  - concessie
-  - materiële vaste activa
-  - Natuurlijke rijkdom
 bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-aankoop-afschrijving-en-ontginning-in-concessie-van
+datum: 1988-12-01
+gerelateerde_adviezen:
+  - datum: '2012-10-10'
+    titel: De boekhoudkundige verwerking van immateriële vaste activa
+    url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-immateriele-vaste-activa
+nummer: CBN-advies 158/1
 provenance:
+  generated_at: '2026-05-11T13:05:06Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-aankoop-afschrijving-en-ontginning-in-concessie-van
       sha256: 08e46100637031f687700017facf7e19aed6f6f370c0da7b2d8a08fc11f758d4
       version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:35:28Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
   trust:
-    status: needs-rework
     confirmed_at: '2026-05-11T12:04:42Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "D4: regel 53 heeft '#### *Aanschaffingswaarde *' — malformed italic met spatie vóór sluitende asterisk in een heading. Regel 94 idem: '*Aankopen van grondstoffen of handelsgoederen *'. B2: heading-hiërarchie springt van ## (regel 51) naar #### (regel 53) zonder tussenliggend ###. Sterke punten: subheadings correct aanwezig, voetnoot correct gelinkt."
     layer1:
       status: pass
-      run_id: 20260511-083333
-      run_at:
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:26Z'
       heading_count: 8
       max_section_chars: 3169
       file_size_chars: 5840
       flags: []
     layer2:
-      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:04:42Z'
-      rationale: "D4: regel 53 heeft '#### *Aanschaffingswaarde *' — malformed italic met spatie vóór sluitende asterisk in een heading. Regel 94 idem: '*Aankopen van grondstoffen of handelsgoederen *'. B2: heading-hiërarchie springt van ## (regel 51) naar #### (regel 53) zonder tussenliggend ###. Sterke punten: subheadings correct aanwezig, voetnoot correct gelinkt."
       concrete_problemen:
-        - regel: 53
-          categorie: D4
+        - categorie: D4
+          regel: 53
           type: other
           voorbeeld: '#### *Aanschaffingswaarde *'
-        - regel: 53
-          categorie: B2
+        - categorie: B2
+          regel: 53
           type: other
           voorbeeld: '## Verwerving in eigendom... → #### *Aanschaffingswaarde * (overgeslagen ###)'
-        - regel: 94
-          categorie: D4
+        - categorie: D4
+          regel: 94
           type: other
           voorbeeld: '*Aankopen van grondstoffen of handelsgoederen *'
-gerelateerde_adviezen:
-  - titel: De boekhoudkundige verwerking van immateriële vaste activa
-    url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-immateriele-vaste-activa
-    datum: '2012-10-10'
+      rationale: 'D4: regel 53 heeft ''#### *Aanschaffingswaarde *'' — malformed italic met spatie vóór sluitende asterisk in een heading. Regel 94 idem: ''*Aankopen van grondstoffen of handelsgoederen *''. B2: heading-hiërarchie springt van ## (regel 51) naar #### (regel 53) zonder tussenliggend ###. Sterke punten: subheadings correct aanwezig, voetnoot correct gelinkt.'
+      run_at: '2026-05-11T12:04:42Z'
+      status: needs-rework
+    rationale: 'D4: regel 53 heeft ''#### *Aanschaffingswaarde *'' — malformed italic met spatie vóór sluitende asterisk in een heading. Regel 94 idem: ''*Aankopen van grondstoffen of handelsgoederen *''. B2: heading-hiërarchie springt van ## (regel 51) naar #### (regel 53) zonder tussenliggend ###. Sterke punten: subheadings correct aanwezig, voetnoot correct gelinkt.'
+    status: needs-rework
+themas:
+  - concessie
+  - materiële vaste activa
+  - Natuurlijke rijkdom
 ---
 
 # CBN-advies 158/1 - Boekhoudkundige verwerking van de aankoop, afschrijving en ontginning in concessie van natuurlijke rijkdommen
@@ -62,7 +62,7 @@ Meestal wordt een natuurlijke rijkdom in eigendom verworven of in concessie ontv
 
 ## Verwerving in eigendom van het terrein met de natuurlijke rijkdom
 
-#### *Aanschaffingswaarde *
+#### *Aanschaffingswaarde* 
 
 Rekening houdend met het meestal duurzame karakter van de ontginning moet de verwerving van het terrein met de natuurlijke rijkdom niet worden beschouwd als de aanschaffing van een voorraad grondstoffen of goederen, maar als de aanschaffing van een materieel vast actief[^1]. De aanschaffingswaarde omvat behalve de prijs voor de verwerving van het terrein, ook de kosten om het effectief bedrijfsklaar te maken.
 
@@ -103,7 +103,7 @@ Wanneer het contract, als tegenprestatie voor de verleende concessie, bepaalt da
 
 Om dezelfde reden wenst de Commissie zich niet in abstracto uit te spreken over de kwalificatie van dergelijke contracten en de hierin vastgestelde vergoedingen. Uitgaande van de idee dat de jaarrekening de economische realiteit moet weergeven zoals die blijkt uit de opzet en draagwijdte van de door de onderneming gesloten contracten, is het naar het oordeel van de Commissie evenwel aangewezen om, voor de boekhoudkundige uitdrukking van de verrichting, na te gaan of partijen de bedoeling hadden grondstoffen te kopen/verkopen dan wel tegen vergoeding een ontginningsrecht te verlenen. 
 
-Naargelang de verrichting neerkomt op een huurovereenkomst dan wel op een overeenkomst voor de aankoop van goederen of grondstoffen, moet het bedrag van de periodieke vergoeding, of zij nu vast of variabel is, ten laste worden genomen onder *Diensten en diverse goederen* (rekening 61) of onder *Aankopen van grondstoffen of handelsgoederen *(rekening 600 of 604). 
+Naargelang de verrichting neerkomt op een huurovereenkomst dan wel op een overeenkomst voor de aankoop van goederen of grondstoffen, moet het bedrag van de periodieke vergoeding, of zij nu vast of variabel is, ten laste worden genomen onder *Diensten en diverse goederen* (rekening 61) of onder *Aankopen van grondstoffen of handelsgoederen* (rekening 600 of 604). 
 
 In een en ander geval moet in de toename van de grondstoffenvoorraad rekening worden gehouden met de kost van deze toename. 
 

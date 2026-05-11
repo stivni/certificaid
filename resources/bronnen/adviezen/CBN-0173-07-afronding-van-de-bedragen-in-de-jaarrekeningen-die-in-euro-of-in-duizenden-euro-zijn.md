@@ -1,6 +1,56 @@
 ---
-nummer: CBN-advies 173/7
+bron: https://www.cbn-cnc.be/nl/adviezen/afronding-van-de-bedragen-in-de-jaarrekeningen-die-in-euro-of-in-duizenden-euro-zijn
 datum: 1998-02-01
+gerelateerde_adviezen:
+  - datum: '2020-02-10'
+    titel: Afronding van betalingen in euro
+    url: https://www.cbn-cnc.be/nl/adviezen/afronding-van-betalingen-in-euro-0
+  - datum: '2014-09-10'
+    titel: Afronding van betalingen in euro
+    url: https://www.cbn-cnc.be/nl/adviezen/afronding-van-betalingen-in-euro
+  - datum: '1999-02-01'
+    titel: Aanvullende aspecten in verband met de boekhoudkundige verwerking van afrondingsverschillen bij conversie
+    url: https://www.cbn-cnc.be/nl/adviezen/aanvullende-aspecten-in-verband-met-de-boekhoudkundige-verwerking-van
+  - datum: '1998-02-01'
+    titel: Boekhoudkundige verwerking van de afrondingen bij conversie
+    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-afrondingen-bij-conversie
+nummer: CBN-advies 173/7
+provenance:
+  generated_at: '2026-05-11T13:05:06Z'
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/afronding-van-de-bedragen-in-de-jaarrekeningen-die-in-euro-of-in-duizenden-euro-zijn
+      sha256: 38d2f4a0c0a1b68ad4a3c68bd738ca5c7b4307a74e4a7615e65b0d588c244993
+      version:
+  stale: false
+  stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
+  trust:
+    confirmed_at: '2026-05-11T12:09:17Z'
+    confirmed_by: subagent-sonnet-4-6
+    layer1:
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:26Z'
+      heading_count: 0
+      max_section_chars: 2636
+      file_size_chars: 2636
+      flags: []
+    layer2:
+      agent: subagent-sonnet-4-6
+      concrete_problemen:
+        - categorie: F1
+          regel: 9
+          type: naam-mismatch
+          voorbeeld: '- opslag van afvalstoffen (thema hoort niet bij dit advies over afronding in euro)'
+      rationale: 'F1: frontmatter bevat thema ''opslag van afvalstoffen'' (r.9) dat inhoudelijk niets met dit advies over afronding van jaarrekeningen in euro te maken heeft — vermoedelijk een scraping-artefact waarbij een thema van een ander advies is ingeslopen. De body zelf is inhoudelijk correct en volledig.'
+      run_at: '2026-05-11T12:09:17Z'
+      status: needs-rework
+    rationale: 'F1: frontmatter bevat thema ''opslag van afvalstoffen'' (r.9) dat inhoudelijk niets met dit advies over afronding van jaarrekeningen in euro te maken heeft — vermoedelijk een scraping-artefact waarbij een thema van een ander advies is ingeslopen. De body zelf is inhoudelijk correct en volledig.'
+    status: needs-rework
 themas:
   - afronding
   - euro
@@ -9,56 +59,6 @@ themas:
   - opslag van afvalstoffen
   - opstelling van de jaarrekening
   - overschakeling op de euro
-bron: https://www.cbn-cnc.be/nl/adviezen/afronding-van-de-bedragen-in-de-jaarrekeningen-die-in-euro-of-in-duizenden-euro-zijn
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/afronding-van-de-bedragen-in-de-jaarrekeningen-die-in-euro-of-in-duizenden-euro-zijn
-      sha256: 38d2f4a0c0a1b68ad4a3c68bd738ca5c7b4307a74e4a7615e65b0d588c244993
-      version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:35:41Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T12:09:17Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "F1: frontmatter bevat thema 'opslag van afvalstoffen' (r.9) dat inhoudelijk niets met dit advies over afronding van jaarrekeningen in euro te maken heeft — vermoedelijk een scraping-artefact waarbij een thema van een ander advies is ingeslopen. De body zelf is inhoudelijk correct en volledig."
-    layer1:
-      status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 0
-      max_section_chars: 2636
-      file_size_chars: 2636
-      flags: []
-    layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:09:17Z'
-      rationale: "F1: frontmatter bevat thema 'opslag van afvalstoffen' (r.9) dat inhoudelijk niets met dit advies over afronding van jaarrekeningen in euro te maken heeft — vermoedelijk een scraping-artefact waarbij een thema van een ander advies is ingeslopen. De body zelf is inhoudelijk correct en volledig."
-      concrete_problemen:
-        - regel: 9
-          categorie: F1
-          type: naam-mismatch
-          voorbeeld: '- opslag van afvalstoffen (thema hoort niet bij dit advies over afronding in euro)'
-gerelateerde_adviezen:
-  - titel: Afronding van betalingen in euro
-    url: https://www.cbn-cnc.be/nl/adviezen/afronding-van-betalingen-in-euro-0
-    datum: '2020-02-10'
-  - titel: Afronding van betalingen in euro
-    url: https://www.cbn-cnc.be/nl/adviezen/afronding-van-betalingen-in-euro
-    datum: '2014-09-10'
-  - titel: Aanvullende aspecten in verband met de boekhoudkundige verwerking van afrondingsverschillen bij conversie
-    url: https://www.cbn-cnc.be/nl/adviezen/aanvullende-aspecten-in-verband-met-de-boekhoudkundige-verwerking-van
-    datum: '1999-02-01'
-  - titel: Boekhoudkundige verwerking van de afrondingen bij conversie
-    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-afrondingen-bij-conversie
-    datum: '1998-02-01'
 ---
 
 # CBN-advies 173/7 - Afronding van de bedragen in de jaarrekeningen die in euro of in duizenden euro zijn opgesteld

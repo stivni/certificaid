@@ -2,69 +2,68 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-buitenlandse-vennootschappen-toepassing-van-het-belgisch
 datum: 2022-11-08
 gerelateerde_adviezen:
-- datum: '2024-02-08'
-  titel: 'Belgische bijkantoren van buitenlandse verenigingen en stichtingen: toepassing
-    van het Belgisch boekhoudrecht – begrip ‘bijkantoor’ – publicatieplicht – eigen
-    boekhoudkundige verplichtingen'
-  url: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-buitenlandse-verenigingen-en-stichtingen-toepassing-van-het-0
-- datum: '2022-11-08'
-  titel: 'Belgische bijkantoren van buitenlandse vennootschappen: eigen boekhoudkundige
-    verplichtingen (update)'
-  url: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-buitenlandse-vennootschappen-eigen-boekhoudkundige
-- datum: '2019-09-26'
-  titel: Boekhoudplichtige onderneming
-  url: https://www.cbn-cnc.be/nl/adviezen/boekhoudplichtige-onderneming
-- datum: '2019-04-12'
-  titel: Gevolgen op gebied van financiële rapportering als gevolg van de brexit
-  url: https://www.cbn-cnc.be/nl/adviezen/gevolgen-op-gebied-van-financiele-rapportering-als-gevolg-van-de-brexit-0
+  - datum: '2024-02-08'
+    titel: 'Belgische bijkantoren van buitenlandse verenigingen en stichtingen: toepassing van het Belgisch boekhoudrecht – begrip ‘bijkantoor’ – publicatieplicht – eigen boekhoudkundige verplichtingen'
+    url: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-buitenlandse-verenigingen-en-stichtingen-toepassing-van-het-0
+  - datum: '2022-11-08'
+    titel: 'Belgische bijkantoren van buitenlandse vennootschappen: eigen boekhoudkundige verplichtingen (update)'
+    url: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-buitenlandse-vennootschappen-eigen-boekhoudkundige
+  - datum: '2019-09-26'
+    titel: Boekhoudplichtige onderneming
+    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudplichtige-onderneming
+  - datum: '2019-04-12'
+    titel: Gevolgen op gebied van financiële rapportering als gevolg van de brexit
+    url: https://www.cbn-cnc.be/nl/adviezen/gevolgen-op-gebied-van-financiele-rapportering-als-gevolg-van-de-brexit-0
 nummer: CBN-advies 2022/14
 provenance:
-  generated_at: '2026-05-08T18:38:16Z'
+  generated_at: '2026-05-11T13:05:09Z'
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-buitenlandse-vennootschappen-toepassing-van-het-belgisch
-    sha256: d41d0979eb9bc4640e7cd0c24f7f7ece0dd843e247c441092e9df3d00ae43a7b
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-buitenlandse-vennootschappen-toepassing-van-het-belgisch
+      sha256: d41d0979eb9bc4640e7cd0c24f7f7ece0dd843e247c441092e9df3d00ae43a7b
+      version:
   stale: false
-  stale_reason: null
+  stale_reason:
   tooling:
-    model: null
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    prompt_version: null
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
   trust:
     confirmed_at: '2026-05-08T19:02:28Z'
     confirmed_by: subagent-laag2-ronde2
     layer1:
-      file_size_chars: 56508
-      flags: []
-      heading_count: 27
-      max_section_chars: 22323
-      run_at: null
-      run_id: 20260511-083333
-      status: pass
+      status: warn
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:30Z'
+      heading_count: 23
+      max_section_chars: 26808
+      file_size_chars: 56460
+      flags:
+        - name: max_section_size
+          status: warn
+          detail: 'langste sectie op ####-niveau: 26808 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
+          samples: []
     layer2:
       agent: subagent-laag2-ronde2
       concrete_problemen: []
-      rationale: '[Laag-2-R2 2026-05-08] Het advies heeft 27 headings en 73 voetnoten.
-        De langste sectie bevat drie samenvattende tabellen (België, EU, buiten EU)
-        met complexe cel-inhoud als Markdown pipe-tabellen. Informatie volledig aanwezig.'
+      rationale: '[Laag-2-R2 2026-05-08] Het advies heeft 27 headings en 73 voetnoten. De langste sectie bevat drie samenvattende tabellen (België, EU, buiten EU) met complexe cel-inhoud als Markdown pipe-tabellen. Informatie volledig aanwezig.'
       run_at: '2026-05-08T19:02:28Z'
       status: trusted
     rationale: Laag-2 trusted door subagent-laag2-ronde2 (zie layer2.rationale)
     status: trusted
 themas:
-- bijkantoor
-- publicatieplicht
-- publicatieverplichting
-- openbaarmaking
-- buitenlandse vennootschap
-- centrum van werkzaamheden
-- jaarrekening
-- geconsolideerde jaarrekening
-- sociale balans
-- jaarverslag
-- verslag van de commissaris
-- commissarisverslag
+  - bijkantoor
+  - publicatieplicht
+  - publicatieverplichting
+  - openbaarmaking
+  - buitenlandse vennootschap
+  - centrum van werkzaamheden
+  - jaarrekening
+  - geconsolideerde jaarrekening
+  - sociale balans
+  - jaarverslag
+  - verslag van de commissaris
+  - commissarisverslag
 ---
 
 # CBN-advies 2022/14 - Belgische bijkantoren van buitenlandse vennootschappen: toepassing van het Belgisch boekhoudrecht - begrip “bijkantoor” – publicatieplicht (update)
@@ -84,11 +83,7 @@ Onderhavig advies behandelt slechts de toepassing van het Belgisch boekhoudrecht
 Voor buitenlandse vennootschappen is het Belgisch boekhoudrecht alleen van toepassing “op hun in België gevestigde bijkantoren en centra van werkzaamheden”[^3]. Hun gezamenlijke bijkantoren en centra van werkzaamheden in België worden in boekhoudrechtelijke zin als één onderneming beschouwd.[^4]
  Ze vormen boekhoudkundig (maar niet juridisch[^5]) dus een afzonderlijke entiteit, te onderscheiden van de boekhoudkundige (en niet juridische) entiteit van de buitenlandse vennootschap (het moederbedrijf).
 
-De buitenlandse vennootschappen moeten bijgevolg een boekhouding[^6]
- voeren en een inventaris[^7]
- en jaarrekening opmaken[^8]
- eigen aan de verrichtingen en de situatie van hun bijkantoren en centra van werkzaamheden in België die samen als één onderneming worden beschouwd. Ze moeten hierbij de bepalingen van het Wetboek van economisch recht (hierna: WER) en zijn uitvoeringsbesluiten naleven, alsook de bepalingen van het Wetboek van vennootschappen en verenigingen (hierna: WVV)[^9]
- en van zijn koninklijk uitvoeringsbesluit (hierna: KB WVV)[^10]. Ze moeten de jaarrekening van hun Belgisch bijkantoor evenwel niet openbaar maken, behalve in het geval van een “bijkantoor van een vennootschap die niet is onderworpen aan het boekhoudrecht van een andere lidstaat van de Europese Economische Ruimte, en waarvan het boekhoudrecht ook niet gelijkwaardig is aan het Europese boekhoudstelsel neergelegd in Richtlijn 2013/34/EU van het Europees Parlement en van de Raad van 26 juni 2013, opgemaakt overeenkomstig artikel 3:1, § 2 [WVV]”.[^11] 
+De buitenlandse vennootschappen moeten bijgevolg een boekhouding[^6] voeren en een inventaris[^7] en jaarrekening opmaken[^8] eigen aan de verrichtingen en de situatie van hun bijkantoren en centra van werkzaamheden in België die samen als één onderneming worden beschouwd. Ze moeten hierbij de bepalingen van het Wetboek van economisch recht (hierna: WER) en zijn uitvoeringsbesluiten naleven, alsook de bepalingen van het Wetboek van vennootschappen en verenigingen (hierna: WVV)[^9] en van zijn koninklijk uitvoeringsbesluit (hierna: KB WVV)[^10]. Ze moeten de jaarrekening van hun Belgisch bijkantoor evenwel niet openbaar maken, behalve in het geval van een “bijkantoor van een vennootschap die niet is onderworpen aan het boekhoudrecht van een andere lidstaat van de Europese Economische Ruimte, en waarvan het boekhoudrecht ook niet gelijkwaardig is aan het Europese boekhoudstelsel neergelegd in Richtlijn 2013/34/EU van het Europees Parlement en van de Raad van 26 juni 2013, opgemaakt overeenkomstig artikel 3:1, § 2 [WVV]”.[^11] 
 
 Los van de verplichtingen eigen aan hun bijkantoren en centra van werkzaamheden in België, moeten de buitenlandse vennootschappen, in toepassing van artikelen 2:23, 2:24, 2:27, 2:28, 2:29 en 3:20 WVV[^12], sommige van hun akten en hun jaarrekening en geconsolideerde jaarrekening openbaar maken “in de vorm waarin deze rekeningen zijn opgesteld, gecontroleerd en openbaar gemaakt volgens het recht van de Staat waaronder de vennootschap valt” (zie *infra*, randnummer 20). In tegenstelling tot de jaarrekening eigen aan hun bijkantoren en centra van werkzaamheden in België, moeten hun eigen jaarrekening en geconsolideerde jaarrekening bijgevolg de bepalingen van het KB WVV niet naleven. 
 
@@ -98,20 +93,14 @@ Los van de verplichtingen eigen aan hun bijkantoren en centra van werkzaamheden 
 
 De Commissie is van mening dat de begrippen “bijkantoren en centra van werkzaamheden” gebruikt in artikel III.82, § 1, derde lid van het WER overeenstemmen met dezelfde termen gebruikt in het vroegere artikel 198 van de gecoördineerde wetten op de handelsvennootschappen (hierna: GWHV), dat in de verplichting tot openbaarmaking voorzag van toepassing op de buitenlandse vennootschappen die in België een bijkantoor of een centrum van werkzaamheden oprichten.
 
-Tot de wet van 7 mei 1999 houdende het Wetboek van Vennootschappen[^13]
- van kracht werd, gebruikten het Belgisch boekhoudrecht en de GWHV de termen “bijkantoren” en “centra van werkzaamheden” door elkaar.[^14] 
+Tot de wet van 7 mei 1999 houdende het Wetboek van Vennootschappen[^13] van kracht werd, gebruikten het Belgisch boekhoudrecht en de GWHV de termen “bijkantoren” en “centra van werkzaamheden” door elkaar.[^14] 
 
-De wet van 7 mei 1999 schrapt de term “centrum van werkzaamheden” en laat enkel de term “bijkantoor” voortbestaan in de artikelen van het Wetboek van Vennootschappen[^15]
- die het vroegere artikel 198 GWHV opnemen.[^16]
+De wet van 7 mei 1999 schrapt de term “centrum van werkzaamheden” en laat enkel de term “bijkantoor” voortbestaan in de artikelen van het Wetboek van Vennootschappen[^15] die het vroegere artikel 198 GWHV opnemen.[^16]
  Volgens de voorbereidende werken, werden “de woorden ‘centrum van werkzaamheden’ weggelaten aangezien zij ook niet voorkomen in de richtlijn van 21 december 1989 [elfde richtlijn], in uitvoering waarvan artikel 198 Venn.W. werd ingevoerd”.[^17] 
 
-Ook al bekritiseerde de Afdeling Wetgeving van de Raad van State deze uniformisering die “een vereenvoudiging van de bestaande regels”[^18]
- beoogde, aangezien de twee begrippen verschillend zouden zijn voor zover het centrum van werkzaamheden “une installation moins importante que la succursale”[^19]
- (een minder belangrijke inrichting dan een bijkantoor) tot doel zou hebben, heeft de wetgever deze uniformisering daarna (gedeeltelijk[^20]) uitgebreid naar het Belgisch boekhoudrecht[^21]
- zonder nieuwe opmerking van de Raad van State[^22]. 
+Ook al bekritiseerde de Afdeling Wetgeving van de Raad van State deze uniformisering die “een vereenvoudiging van de bestaande regels”[^18] beoogde, aangezien de twee begrippen verschillend zouden zijn voor zover het centrum van werkzaamheden “une installation moins importante que la succursale”[^19] (een minder belangrijke inrichting dan een bijkantoor) tot doel zou hebben, heeft de wetgever deze uniformisering daarna (gedeeltelijk[^20]) uitgebreid naar het Belgisch boekhoudrecht[^21] zonder nieuwe opmerking van de Raad van State[^22]. 
 
-De Commissie neemt kennis van de rechtsleer volgens dewelke deze terminologische uniformisering op geen enkele wijze afbreuk doet “aan de draagwijdte van eerdere rechtspraak”[^23]
- (vrije vertaling) betreffende bijkantoren en centra van werkzaamheden (zie *infra*, randnummers 11 tot 14).
+De Commissie neemt kennis van de rechtsleer volgens dewelke deze terminologische uniformisering op geen enkele wijze afbreuk doet “aan de draagwijdte van eerdere rechtspraak”[^23] (vrije vertaling) betreffende bijkantoren en centra van werkzaamheden (zie *infra*, randnummers 11 tot 14).
 
 Omwille van de coherentie met het vennootschapsrecht en Richtlijn 2017/1132 van het Europees Parlement en van de Raad van 14 juni 2017 aangaande bepaalde aspecten van het vennootschapsrecht, P.B., L 169, 30 juni 2017 (hierna: Richtlijn 2017/1132), zal de Commissie hierna de “bijkantoren en centra van werkzaamheden” onder één term “bijkantoren” aanduiden in de zin van artikel III.82, § 1, derde lid van het WER. 
 
@@ -119,15 +108,12 @@ Omwille van de coherentie met het vennootschapsrecht en Richtlijn 2017/1132 van 
 
 Noch het WER, noch zijn uitvoeringsbesluiten definiëren het begrip bijkantoor. Hun voorbereidende werken bevatten evenmin een definitie.
 
-Hetzelfde geldt voor het vennootschapsrecht. Enkel de voorbereidende werken van de wet van 13 april 1995[^24]
- tot omzetting van de elfde richtlijn analyseren het begrip bijkantoor. Ze herinneren er vooreerst aan dat de elfde richtlijn geen enkele definitie geeft van het begrip bijkantoor. Ze verwijzen vervolgens naar de definitie van het Hof van Justitie van de Europese Unie (HvJ-EU)[^25]
- betreffende artikel 5, 5° van het Verdrag van 27 september 1968 betreffende de rechterlijke bevoegdheid en de tenuitvoerlegging van beslissingen in burgerlijke en handelszaken (Verdrag van Brussel).[^26]
+Hetzelfde geldt voor het vennootschapsrecht. Enkel de voorbereidende werken van de wet van 13 april 1995[^24] tot omzetting van de elfde richtlijn analyseren het begrip bijkantoor. Ze herinneren er vooreerst aan dat de elfde richtlijn geen enkele definitie geeft van het begrip bijkantoor. Ze verwijzen vervolgens naar de definitie van het Hof van Justitie van de Europese Unie (HvJ-EU)[^25] betreffende artikel 5, 5° van het Verdrag van 27 september 1968 betreffende de rechterlijke bevoegdheid en de tenuitvoerlegging van beslissingen in burgerlijke en handelszaken (Verdrag van Brussel).[^26]
  Ze sluiten af met de analyse van de door het Hof van Cassatie aangenomen definitie met betrekking tot het vroegere artikel 198 GWHV.[^27] 
 
 ##### Rechtspraak van het Hof van Justitie van de Europese Unie
 
-Volgens het Hof[^28]
- vereist het autonoom begrip van bijkantoor de vier volgende cumulatieve voorwaarden:
+Volgens het Hof[^28] vereist het autonoom begrip van bijkantoor de vier volgende cumulatieve voorwaarden:
 
 1. “het bestaan een centrum van werkzaamheid, dat zich naar buiten toe duurzaam manifesteert als het verlengstuk van een moederbedrijf. 
 2. dat centrum moet beschikken over een eigen directie [onderworpen aan het toezicht en de leiding van het moederbedrijf] 
@@ -172,11 +158,9 @@ Om de publicatieverplichtingen opgelegd aan de buitenlandse vennootschappen die 
 
 1. tussen de (statutaire) jaarrekening en de geconsolideerde jaarrekening; 
 2. volgens de rechtsvorm van de betrokken vennootschappen; 
-3. tussen vennootschappen die ressorteren onder het recht van een andere Lidstaat van de Europese Unie[^35]
- (Europese vennootschappen) en vennootschappen die ressorteren onder het recht van een andere Staat dan een Lidstaat van de Europese Unie (niet-Europese vennootschappen). 
+3. tussen vennootschappen die ressorteren onder het recht van een andere Lidstaat van de Europese Unie[^35] (Europese vennootschappen) en vennootschappen die ressorteren onder het recht van een andere Staat dan een Lidstaat van de Europese Unie (niet-Europese vennootschappen). 
 
-### Samenvattende tabellen van de publicatieverplichtingen van Belgische vennootschappen en van buitenlandse vennootschappen met een Belgisch bijkantoor
-
+Samenvattende tabellen van de publicatieverplichtingen van Belgische vennootschappen en van buitenlandse vennootschappen met een Belgisch bijkantoor
 | Staat van herkomst | | België | 
 | Rechtsvorm | | NV, BV, CV | | VOF, CommV | 
 | Neerlegging van de jaarrekening, het jaarverslag, verslag van de commissaris | | “Grote” vennootschappen 
@@ -210,7 +194,7 @@ tenzij van te verwaarlozen betekenis (art. 3:23 WVV), groep van beperkte omvang 
 
 			(artikel 3:12, 8° WVV) | | Niet onderworpen 
 
-behalve indien niet klein *en *indien alle of een deel van hun onbeperkt aansprakelijke vennoten geen natuurlijke personen zijn 
+behalve indien niet klein *en* indien alle of een deel van hun onbeperkt aansprakelijke vennoten geen natuurlijke personen zijn 
 
 			(artikel 44 van de wet van 22.12.1995)[^40] | 
 
@@ -232,21 +216,20 @@ tenzij vrijstellingen
 
 			(art. 36, 37 en 39 accounting-richtlijn) | | Niet onderworpen* * 
 
-behalve indien niet klein[^41]
- en indien alle directe of indirecte vennoten die onbeperkt aansprakelijk zijn, vennootschappen met beperkte aansprakelijkheid zijn (maar vrijstellingen art. 30, § 2, 31, 36, 37, 38 en 39 van de accountingrichtlijn) | 
+behalve indien niet klein[^41] en indien alle directe of indirecte vennoten die onbeperkt aansprakelijk zijn, vennootschappen met beperkte aansprakelijkheid zijn (maar vrijstellingen art. 30, § 2, 31, 36, 37, 38 en 39 van de accountingrichtlijn) | 
 | Neerlegging van de geconsolideerde jaarrekening, het geconsolideerde jaarverslag, verslag van de commissaris | | Onderworpen 
 
 indien verplicht te publiceren in de Lidstaat van herkomst 
 
 tenzij vrijstelling van subconsolidatie: op een hoger niveau opgestelde geconsolideerde jaarrekening, geconsolideerd jaarverslag en verslag van de commissaris die moeten worden neergelegd (art. 23 accountingrichtlijn) | | Niet onderworpen* * 
 
-behalve indien alle directe of indirecte vennoten die onbeperkt aansprakelijk zijn, vennootschappen met beperkte aansprakelijkheid zijn *en *indien Lidstaat van herkomst publicatieplicht voorziet | 
+behalve indien alle directe of indirecte vennoten die onbeperkt aansprakelijk zijn, vennootschappen met beperkte aansprakelijkheid zijn *en* indien Lidstaat van herkomst publicatieplicht voorziet | 
 | Indien geen consolidatie voor consortium in Lidstaat van herkomst: geen geconsolideerde jaarrekening neer te leggen | 
 | Neerlegging sociale balans | | Onderworpen 
 
 			(artikel 18, eerste lid van het KB van 04.08.1996[^42]) | | Niet onderworpen 
 
-behalve indien niet klein *en *indien alle of een deel van hun onbeperkt aansprakelijke vennoten geen natuurlijke personen zijn[^43] 
+behalve indien niet klein *en* indien alle of een deel van hun onbeperkt aansprakelijke vennoten geen natuurlijke personen zijn[^43] 
 
 			(artikel 18, vierde lid van het KB van 04.08.1996 en artikel 44 van de wet van 22.12.1995) | 
 
@@ -256,23 +239,22 @@ behalve indien niet klein *en *indien alle of een deel van hun onbeperkt aanspra
 
 tenzij vrijstellingen analoog aan de accountingrichtlijn | | Niet onderworpen* * 
 
-behalve indien niet klein[^44] *en *indien alle directe of indirecte vennoten die onbeperkt aansprakelijk zijn, vennootschappen met beperkte aansprakelijkheid zijn (*maar *vrijstellingen analoog aan de accountingrichtlijn) | 
+behalve indien niet klein[^44] *en* indien alle directe of indirecte vennoten die onbeperkt aansprakelijk zijn, vennootschappen met beperkte aansprakelijkheid zijn (*maar* vrijstellingen analoog aan de accountingrichtlijn) | 
 | Neerlegging van de geconsolideerde jaarrekening, het geconsolideerde jaarverslag, verslag van de commissaris | | Onderworpen 
 
 indien ze dochterondernemingen controleren en voldoen aan de groottecriteria van de accountingrichtlijn | | Niet onderworpen* * 
 
-behalve indien (1) ze dochterondernemingen controleren en voldoen aan de groottecriteria van de accountingrichtlijn, (2) alle directe of indirecte vennoten die onbeperkt aansprakelijk zijn, vennootschappen met beperkte aansprakelijkheid zijn *en *(3) Staat van herkomst publicatieplicht voorziet | 
+behalve indien (1) ze dochterondernemingen controleren en voldoen aan de groottecriteria van de accountingrichtlijn, (2) alle directe of indirecte vennoten die onbeperkt aansprakelijk zijn, vennootschappen met beperkte aansprakelijkheid zijn *en* (3) Staat van herkomst publicatieplicht voorziet | 
 | Indien geen consolidatie voor consortium in Staat van herkomst: geen geconsolideerde jaarrekening neer te leggen | 
 | Neerlegging sociale balans | | Onderworpen 
 
 			(artikel 18, eerste lid van het KB van 04.08.1996) | | Niet onderworpen 
 
-behalve indien niet klein *en *indien alle of een deel van hun onbeperkt aansprakelijke vennoten geen natuurlijke personen zijn[^45] 
+behalve indien niet klein *en* indien alle of een deel van hun onbeperkt aansprakelijke vennoten geen natuurlijke personen zijn[^45] 
 
 			(artikel 18, vierde lid van het KB van 04.08.1996 en artikel 44 van de wet van 22.12.1995) | 
 
-### Toelichting bij de samenvattende tabellen: verplichte openbaarmaking van de (statutaire) jaarrekening 
-
+Toelichting bij de samenvattende tabellen: verplichte openbaarmaking van de (statutaire) jaarrekening
 #### Vennootschappen die, gelet op hun rechtsvorm, wettelijk verplicht zijn hun jaarrekening zowel in België als in hun Staat van herkomst openbaar te maken
 
 ##### Bedoelde vennootschappen
@@ -283,8 +265,7 @@ Tot deze categorie behoren:
 
   1. de naamloze vennootschappen (NV’s), 
   2. de besloten vennootschappen (BV’s), en 
-  3. de vennootschappen die krachtens artikel 1, § 1, b van de accountingrichtlijn gelijkgesteld zijn met een vennootschap met beperkte aansprakelijkheid, namelijk de vennootschappen met onbeperkte aansprakelijkheid[^46]
- waarvan “alle directe of indirecte vennoten die anders onbeperkt aansprakelijk zouden zijn, de facto beperkt aansprakelijk zijn omdat die vennoten [vennootschappen zijn als bedoeld onder a of b][^47]
+  3. de vennootschappen die krachtens artikel 1, § 1, b van de accountingrichtlijn gelijkgesteld zijn met een vennootschap met beperkte aansprakelijkheid, namelijk de vennootschappen met onbeperkte aansprakelijkheid[^46] waarvan “alle directe of indirecte vennoten die anders onbeperkt aansprakelijk zouden zijn, de facto beperkt aansprakelijk zijn omdat die vennoten [vennootschappen zijn als bedoeld onder a of b][^47]
 ”; 
 
 2. de andere Europese vennootschappen dan die bedoeld onder (i), die, krachtens hun nationaal recht, verplicht zijn om hun jaarrekening openbaar te maken en die zijn opgericht in een vorm die hen in België publicatieplichtig zou maken. 
@@ -294,21 +275,16 @@ Tot deze categorie behoren:
 
 ###### Verplichting 
 
-Wanneer buitenlandse vennootschappen in België werkzaam zijn via een bijkantoor, moeten deze vennootschappen vóór de opening van dit bijkantoor[^48]
- hun jaarrekening neerleggen ter griffie van de ondernemingsrechtbank van het rechtsgebied waarbinnen het bijkantoor zal worden gevestigd en daarna jaarlijks[^49]
- bij de Balanscentrale van de Nationale Bank van België[^50]. 
+Wanneer buitenlandse vennootschappen in België werkzaam zijn via een bijkantoor, moeten deze vennootschappen vóór de opening van dit bijkantoor[^48] hun jaarrekening neerleggen ter griffie van de ondernemingsrechtbank van het rechtsgebied waarbinnen het bijkantoor zal worden gevestigd en daarna jaarlijks[^49] bij de Balanscentrale van de Nationale Bank van België[^50]. 
 
 Ze moeten, vóór de opening van het bijkantoor, tevens overgaan tot neerlegging van de documenten opgesomd in de artikelen 2:24, § 1 en 2 WVV (Europese en niet-Europese vennootschappen) ter griffie van de ondernemingsrechtbank van het rechtsgebied waarbinnen het bijkantoor zal worden gevestigd (of ingeval verscheidene bijkantoren worden geopend, ter griffie van de ondernemingsrechtbank van het rechtsgebied waarbinnen een bijkantoor zal worden gevestigd, naar keuze van de vennootschap).[^51]
  De griffie schrijft hen in in het rechtspersonenregister, onderdeel van de Kruispuntbank van Ondernemingen, en ze krijgen een ondernemingsnummer toegekend.[^52] 
 
-De buitenlandse vennootschappen dienen zich vervolgens tot het ondernemingsloket van hun keuze te richten, en dit vóór de aanvang van hun activiteiten in België, om in de hoedanigheid van inschrijvingsplichtige onderneming[^53]
- ingeschreven te worden in de Kruispuntbank van Ondernemingen en om een vestigingsnummer[^54]
- aan het Belgisch bijkantoor toegekend te krijgen. 
+De buitenlandse vennootschappen dienen zich vervolgens tot het ondernemingsloket van hun keuze te richten, en dit vóór de aanvang van hun activiteiten in België, om in de hoedanigheid van inschrijvingsplichtige onderneming[^53] ingeschreven te worden in de Kruispuntbank van Ondernemingen en om een vestigingsnummer[^54] aan het Belgisch bijkantoor toegekend te krijgen. 
 
 ###### Vorm van de jaarrekening 
 
-De jaarrekening wordt ter griffie van de ondernemingsrechtbank van het rechtsgebied waarbinnen het bijkantoor zal worden gevestigd, neergelegd en daarna jaarlijks bij de Balanscentrale in de vorm waarin zij in de Staat van herkomst is opgesteld, gecontroleerd en openbaar gemaakt[^55]. Die vennootschappen moeten, met andere woorden, geen andere (nieuwe of herwerkte) jaarrekening of aanvullende informatie openbaar maken dan die welke zij in hun Staat van herkomst moeten publiceren. Ze leggen er hun jaarrekening dus neer in de originele versie, met andere woorden desgevallend uitgedrukt in een vreemde munt[^56]
- en niet voorgesteld volgens een standaardschema van de Nationale Bank van België[^57]. Ze dienen zich echter wel te houden aan de wettelijke bepalingen inzake het taalgebruik. 
+De jaarrekening wordt ter griffie van de ondernemingsrechtbank van het rechtsgebied waarbinnen het bijkantoor zal worden gevestigd, neergelegd en daarna jaarlijks bij de Balanscentrale in de vorm waarin zij in de Staat van herkomst is opgesteld, gecontroleerd en openbaar gemaakt[^55]. Die vennootschappen moeten, met andere woorden, geen andere (nieuwe of herwerkte) jaarrekening of aanvullende informatie openbaar maken dan die welke zij in hun Staat van herkomst moeten publiceren. Ze leggen er hun jaarrekening dus neer in de originele versie, met andere woorden desgevallend uitgedrukt in een vreemde munt[^56] en niet voorgesteld volgens een standaardschema van de Nationale Bank van België[^57]. Ze dienen zich echter wel te houden aan de wettelijke bepalingen inzake het taalgebruik. 
 
 Hieruit volgt onder meer dat: 
 
@@ -352,23 +328,20 @@ Deze vennootschappen vallen noch onder het toepassingsgebied van Richtlijn 2017/
 
 De bescherming van derden en meer bepaald van schuldeisers die via een bijkantoor in zakelijk contact treden met dergelijke buitenlandse vennootschappen, wordt verzekerd door de onbeperkte aansprakelijkheid van hun vennoten. Voor zover deze aansprakelijkheid de facto beperkt zou zijn, in geval alle directe of indirecte vennoten die onbeperkt aansprakelijk zijn vennootschappen met beperkte aansprakelijkheid zouden zijn, zouden de bedoelde vennootschappen onder het toepassingsgebied van de accountingrichtlijn vallen en zouden ze zo verplicht worden hun jaarrekening in België te publiceren (zie hierboven, nr. 22). 
 
-De Commissie is bijgevolg van mening dat de bedoelde vennootschappen[^63]
- hun jaarrekening niet moeten publiceren in België, zelfs indien ze zijn opgericht in een vorm en met een omvang die hen, indien zij als vennootschappen naar Belgisch recht waren opgericht, publicatieplichtig zou maken.[^64] 
+De Commissie is bijgevolg van mening dat de bedoelde vennootschappen[^63] hun jaarrekening niet moeten publiceren in België, zelfs indien ze zijn opgericht in een vorm en met een omvang die hen, indien zij als vennootschappen naar Belgisch recht waren opgericht, publicatieplichtig zou maken.[^64] 
 
 #### Buitenlandse vennootschappen die - indien zij vennootschappen naar Belgisch recht zouden zijn - op grond van hun rechtsvorm of hun geringe omvang, niet verplicht zouden zijn hun jaarrekening openbaar te maken
 
 Tot deze categorie behoren: de buitenlandse vennootschappen die een rechtsvorm hebben vergelijkbaar met VOF en CommV:
 
-1. voor zover ze klein zijn zoals bedoeld in artikel 1:24 WVV;[^65]
- of 
+1. voor zover ze klein zijn zoals bedoeld in artikel 1:24 WVV;[^65] of 
 2. voor zover al hun onbeperkt aansprakelijke vennoten natuurlijke personen zijn.[^66] 
 
 Hoewel er in de aanhef van de artikelen 2:24 en 3:20 WVV sprake is van "elke” buitenlandse vennootschap, lijkt het moeilijk te verantwoorden dat de Belgische wetgever zonder ernstige en verantwoorde gronden meer zou eisen van buitenlandse vennootschappen dan van vennootschappen naar Belgisch recht met een vergelijkbare rechtsvorm. Toegepast op Europese vennootschappen, zou dergelijke discriminatie daarenboven strijdig zijn met het beginsel van de vrijheid van vestiging. 
 
 Er moet derhalve gesteld worden dat voor deze vennootschappen uit hoofde van de artikelen 2:24 en 3:20 WVV geen verplichting bestaat om de jaarrekening openbaar te maken. Ze moeten zich daarentegen houden aan de andere publicatieverplichtingen voorzien in deze artikelen, waaronder in het bijzonder de verplichting rond hun vennootschapsakten. 
 
-### Toelichting bij de samenvattende tabellen: verplichting tot openbaarmaking van de geconsolideerde jaarrekening
-
+Toelichting bij de samenvattende tabellen: verplichting tot openbaarmaking van de geconsolideerde jaarrekening
 Conform de Richtlijn 2017/1132, schrijven de artikelen 2:24 en 3:20 WVV de publicatie voor van zowel de geconsolideerde jaarrekening als de (statutaire) jaarrekening van de buitenlandse vennootschap die in België een bijkantoor opricht. 
 
 De toepassing van voornoemde beginselen leidt tot volgende conclusies:
@@ -381,18 +354,14 @@ De toepassing van voornoemde beginselen leidt tot volgende conclusies:
 4. De verwijzing naar het nationaal recht van de vennootschap houdt eveneens een verwijzing naar de definitie van de consolidatiekring in. Het nationaal recht is namelijk van toepassing wat de consolidatie in geval van een consortium betreft, wat slechts door een beperkt aantal lidstaten als consolidatiecriterium is ingevoerd. 
 5. De hierboven ontwikkelde principes met betrekking tot de publicatie van de (statutaire) jaarrekening door de buitenlandse vennootschappen met onbeperkte aansprakelijkheid gelden, ingeval van Belgisch bijkantoor, *mutatis mutandis* voor hun publicatie van de geconsolideerde jaarrekening zoals opgesteld en gecontroleerd volgens de regels die gelden in hun Staat van herkomst. 
 
-### Toelichting bij de samenvattende tabellen: verplichting tot openbaarmaking van het jaarverslag, van het geconsolideerde jaarverslag en het verslag van de commissaris
-
+Toelichting bij de samenvattende tabellen: verplichting tot openbaarmaking van het jaarverslag, van het geconsolideerde jaarverslag en het verslag van de commissaris
 Letterlijk genomen, heeft de verplichting tot publicatie voorzien in de artikelen 2:24 en 3:20 WVV enkel betrekking op de (statutaire) jaarrekening en de geconsolideerde jaarrekening. 
 
-De Commissie is echter van oordeel dat deze verplichting eveneens het jaarverslag, het geconsolideerde jaarverslag en het verslag van de commissaris beoogt en deelt zo het standpunt van de rechtsleer[^67]
- en van de Balanscentrale[^68].
+De Commissie is echter van oordeel dat deze verplichting eveneens het jaarverslag, het geconsolideerde jaarverslag en het verslag van de commissaris beoogt en deelt zo het standpunt van de rechtsleer[^67] en van de Balanscentrale[^68].
 
-Deze interpretatie is volgens de Commissie de enige die conform is aan de *ratio legis *van de artikelen 2:24 en 3:20 WVV[^69]
-  en van Richtlijn 2017/1132[^70]. De publicatieverplichting voorzien in Richtlijn 2017/1132 betreft immers alle boekhoudstukken die worden opgesteld, gecontroleerd en gepubliceerd volgens de accountingrichtlijn. Deze verplichting beoogt dus niet alleen de jaarlijkse financiële overzichten en de geconsolideerde financiële overzichten, maar ook het jaarverslag, het geconsolideerde jaarverslag en het verslag van de wettelijke auditor of het auditkantoor.[^71] 
+Deze interpretatie is volgens de Commissie de enige die conform is aan de *ratio legis* van de artikelen 2:24 en 3:20 WVV[^69] en van Richtlijn 2017/1132[^70]. De publicatieverplichting voorzien in Richtlijn 2017/1132 betreft immers alle boekhoudstukken die worden opgesteld, gecontroleerd en gepubliceerd volgens de accountingrichtlijn. Deze verplichting beoogt dus niet alleen de jaarlijkse financiële overzichten en de geconsolideerde financiële overzichten, maar ook het jaarverslag, het geconsolideerde jaarverslag en het verslag van de wettelijke auditor of het auditkantoor.[^71] 
 
-Door deze interpretatie kan ook de verwijzing van artikel 3:20, § 2 WVV[^72]
- naar artikel 3:12, § 1 WVV begrepen worden. Dit laatste bepaalt immers dat:
+Door deze interpretatie kan ook de verwijzing van artikel 3:20, § 2 WVV[^72] naar artikel 3:12, § 1 WVV begrepen worden. Dit laatste bepaalt immers dat:
 
 “Binnen de dertig dagen nadat de jaarrekening is goedgekeurd en ten laatste zeven maanden na de datum van afsluiting van het boekjaar, worden door toedoen van het bestuursorgaan neergelegd bij de Nationale Bank van België: […] 4° het verslag van de commissaris […] 6° een stuk dat de vermeldingen bevat van het jaarverslag […]”.
 

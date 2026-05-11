@@ -1,6 +1,46 @@
 ---
-nummer: CBN-advies 126/18
+bron: https://www.cbn-cnc.be/nl/adviezen/aanschaffingswaarde-bij-inbreng-in-natura
 datum: 2002-05-10
+gerelateerde_adviezen:
+  - datum: '2021-05-12'
+    titel: Invloed van het buitengerechtelijk minnelijk akkoord en de gerechtelijke reorganisatie op de schulden en vorderingen (update)
+    url: https://www.cbn-cnc.be/nl/adviezen/invloed-van-het-buitengerechtelijk-minnelijk-akkoord-en-de-gerechtelijke-reorganisatie-1
+  - datum: '1991-03-01'
+    titel: Realisatiebeginsel (behalve bij fusie)
+    url: https://www.cbn-cnc.be/nl/adviezen/realisatiebeginsel-behalve-bij-fusie
+nummer: CBN-advies 126/18
+provenance:
+  generated_at: '2026-05-11T13:05:06Z'
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/aanschaffingswaarde-bij-inbreng-in-natura
+      sha256: 23e1efd01eadba87708da24edf79b754185f1d53522d69efec6051aef29e037b
+      version:
+  stale: false
+  stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
+  trust:
+    confirmed_at: '2026-05-08T21:19:09Z'
+    confirmed_by: human
+    layer1:
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:25Z'
+      heading_count: 4
+      max_section_chars: 12818
+      file_size_chars: 31016
+      flags: []
+    layer2:
+      agent:
+      concrete_problemen: []
+      rationale:
+      run_at:
+      status: not_run
+    rationale: 'Heading-structuur hersteld: 3 ongenummerde ## sectietitels via context-aware bold-only promotie. Laag 1 geeft PASS. Inhoud volledig (inbreng in natura, werkelijke waarde, 4 hypothesen).'
+    status: trusted
 themas:
   - conventionele waarde
   - inbreng
@@ -9,46 +49,6 @@ themas:
   - kapitaalvermindering
   - uitgiftepremie
   - werkelijke waarde
-bron: https://www.cbn-cnc.be/nl/adviezen/aanschaffingswaarde-bij-inbreng-in-natura
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/aanschaffingswaarde-bij-inbreng-in-natura
-      sha256: 23e1efd01eadba87708da24edf79b754185f1d53522d69efec6051aef29e037b
-      version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T21:17:25Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: trusted
-    confirmed_at: '2026-05-08T21:19:09Z'
-    confirmed_by: human
-    rationale: 'Heading-structuur hersteld: 3 ongenummerde ## sectietitels via context-aware bold-only promotie. Laag 1 geeft PASS. Inhoud volledig (inbreng in natura, werkelijke waarde, 4 hypothesen).'
-    layer1:
-      status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 4
-      max_section_chars: 12819
-      file_size_chars: 31018
-      flags: []
-    layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
-      concrete_problemen: []
-gerelateerde_adviezen:
-  - titel: Invloed van het buitengerechtelijk minnelijk akkoord en de gerechtelijke reorganisatie op de schulden en vorderingen (update)
-    url: https://www.cbn-cnc.be/nl/adviezen/invloed-van-het-buitengerechtelijk-minnelijk-akkoord-en-de-gerechtelijke-reorganisatie-1
-    datum: '2021-05-12'
-  - titel: Realisatiebeginsel (behalve bij fusie)
-    url: https://www.cbn-cnc.be/nl/adviezen/realisatiebeginsel-behalve-bij-fusie
-    datum: '1991-03-01'
 ---
 
 # CBN-advies 126/18 - Aanschaffingswaarde bij inbreng in natura1
@@ -76,8 +76,7 @@ De "werkelijke waarde" van de uitgegeven aandelen kan, met verwijzing naar buite
 
 Conform de beoordeling van de bij de inbreng betrokken vennootschappen zullen beide waarden met elkaar overeenstemmen. De aanschaffingswaarde van de ingebrachte goederen in hoofde van de inbreng ontvangende vennootschap stemt dan ook principieel overeen met de aanschaffingswaarde van de verkregen aandelen in hoofde van de inbrengende vennootschap en omgekeerd. 
 
-Wat de inbrengende vennootschap betreft, heeft de Commissie reeds in een vorig advies[^7]
- gesteld dat de inbrengwaarde dient begrepen te worden als de overeengekomen realisatiewaarde: " ... Niemand betwist dat een goed dat ingebracht wordt, gerealiseerd is (...) Dit goed wordt immers uit het vermogen van de inbrenger gehaald en toegevoegd aan het vermogen van de vennootschap waarin het wordt ingebracht terwijl de inbrenger meestal een actiefbestanddeel krijgt van een volledig andere aard dan het ingebrachte goed. Zowel in juridisch opzicht als in de economische werkelijkheid is er sprake van een onderbreking in de continuïteit, wat kenmerkend is voor het begrip realisatie (...). Op grond van het algemeen beginsel dat de activa in de jaarrekening moeten worden opgenomen tegen hun aanschaffingswaarde en van de bepaling van hetgeen moet worden verstaan onder de aanschaffingsprijs, de vervaardigingsprijs en de inbrengwaarde, kan worden gesteld dat wanneer een goed of een waarde aan het vermogen van een onderneming wordt toegevoegd op grond van een overeenkomst met een derde, de conventionele waarde hierbij in aanmerking moet worden genomen, zulks onder voorbehoud van latere wijzigingen van die waarde ingevolge waardeverminderingen, afschrijvingen of herwaarderingen. Niet uitgaan van deze conventionele waarde zou betekenen dat in de boekhouding en in de jaarrekening geen rekening wordt gehouden met een relatie met een derde, misschien niet principieel maar dan toch wat betreft de waarden waarop zij betrekking heeft..." 
+Wat de inbrengende vennootschap betreft, heeft de Commissie reeds in een vorig advies[^7] gesteld dat de inbrengwaarde dient begrepen te worden als de overeengekomen realisatiewaarde: " ... Niemand betwist dat een goed dat ingebracht wordt, gerealiseerd is (...) Dit goed wordt immers uit het vermogen van de inbrenger gehaald en toegevoegd aan het vermogen van de vennootschap waarin het wordt ingebracht terwijl de inbrenger meestal een actiefbestanddeel krijgt van een volledig andere aard dan het ingebrachte goed. Zowel in juridisch opzicht als in de economische werkelijkheid is er sprake van een onderbreking in de continuïteit, wat kenmerkend is voor het begrip realisatie (...). Op grond van het algemeen beginsel dat de activa in de jaarrekening moeten worden opgenomen tegen hun aanschaffingswaarde en van de bepaling van hetgeen moet worden verstaan onder de aanschaffingsprijs, de vervaardigingsprijs en de inbrengwaarde, kan worden gesteld dat wanneer een goed of een waarde aan het vermogen van een onderneming wordt toegevoegd op grond van een overeenkomst met een derde, de conventionele waarde hierbij in aanmerking moet worden genomen, zulks onder voorbehoud van latere wijzigingen van die waarde ingevolge waardeverminderingen, afschrijvingen of herwaarderingen. Niet uitgaan van deze conventionele waarde zou betekenen dat in de boekhouding en in de jaarrekening geen rekening wordt gehouden met een relatie met een derde, misschien niet principieel maar dan toch wat betreft de waarden waarop zij betrekking heeft..." 
 
 Dezelfde overwegingen gelden *mutatis mutandis* in hoofde van de inbreng ontvangende vennootschap in die zin dat de realisatiewaarde in hoofde van de inbrengende vennootschap evenzeer dient te gelden als aanschaffingswaarde in hoofde van de inbreng ontvangende vennootschap. 
 
@@ -115,7 +114,7 @@ Toepassing van dit principe is o.m.terug te vinden in:
 
 FAS No.123, Accounting for Stock-Based Compensation, § 8 : " Except for transactions that are within the scope of Opinion 25, all transactions in which goods or services are the consideration received for the issuance of equity instruments to acquire goods or services shall be accounted for based on the fair value of the consideration received or the fair value of the equity instruments issued, whichever is more reliably measurable (...)". 
 
-Gelet op de draagwijdte van dit advies, wordt advies 126/14 "Boekhoudkundige verwerking van een ruilverrichting en een aanbod tot inschrijving door inbreng in natura", *Bull. CBN *43, ingetrokken en zal het later in een aangepaste versie opnieuw gepubliceerd worden. 
+Gelet op de draagwijdte van dit advies, wordt advies 126/14 "Boekhoudkundige verwerking van een ruilverrichting en een aanbod tot inschrijving door inbreng in natura", *Bull. CBN* 43, ingetrokken en zal het later in een aangepaste versie opnieuw gepubliceerd worden. 
 
 ***Ontvangen reacties op ontwerp-advies 126/18 "Aanschaffingswaarde bij inbreng in natura"***
 
@@ -133,8 +132,7 @@ Gelden de in advies 126/17 *Bepaling van de aanschaffingswaarde van activa verkr
 
 Naar het oordeel van de Commissie is dit in beginsel het geval. Juridisch zijn inbrengverrichtingen rechtshandelingen onder bezwarende titel. De inbrengende vennootschap draagt immers een vermogensbestanddeel over in ruil voor de toekenning van maatschappelijke rechten van de inbreng ontvangende vennootschap. In principe geldt voor de bepaling van de aanschaffingswaarde bij inbreng dan ook de tussen partijen overeengekomen prijs, in casu de conventionele inbrengwaarde, gewaardeerd als de werkelijke waarde van de toegekende maatschappelijke rechten. 
 
-Is er echter geen tegenprestatie[^11]
- of is er een belangrijk onevenwicht tussen de waarde van de toegekende maatschappelijke rechten en de waarde van de ingebrachte goederen samen met een gewilde bevoordeling, dan is er sprake van een verkrijging geheel of gedeeltelijk om niet en moet de aanschaffingswaarde worden bepaald met verwijzing naar de "werkelijke waarde" van de ingebrachte goederen met overeenstemmende resultaaterkenning.
+Is er echter geen tegenprestatie[^11] of is er een belangrijk onevenwicht tussen de waarde van de toegekende maatschappelijke rechten en de waarde van de ingebrachte goederen samen met een gewilde bevoordeling, dan is er sprake van een verkrijging geheel of gedeeltelijk om niet en moet de aanschaffingswaarde worden bepaald met verwijzing naar de "werkelijke waarde" van de ingebrachte goederen met overeenstemmende resultaaterkenning.
 
 ## Coherentie van het advies met de jaarrekeningrechtelijke continuïteit bij fusie, splitsing, inbreng van een bedrijfsafdeling of van een algemeenheid van goederen
 
@@ -166,7 +164,7 @@ Ook in het kader van inbrengverrichtingen kan er wel degelijk sprake zijn van ee
 
 In een aantal reacties werd erop gewezen dat het advies rekening zou moeten houden met de hypothese waarin de bedoelde transacties plaatsvinden tussen ondernemingen die tot eenzelfde groep behoren. 
 
-Terzake wordt verwezen naar de standpunten in volgende adviezen: advies 114/3 *Resultaten uit verrichtingen met dochterondernemingen*, *Bull CBN *8, april 1981 en advies 157/2 *Realisatiebeginsel (behalve bij fusie)*, *Bull. CBN *26, maart 1991. In deze adviezen wordt er nadrukkelijk op gewezen dat indien de inbrengende vennootschap als gevolg van de inbreng aandeelhouder wordt van de vennootschap waarin de inbreng gebeurt, zij via deze vennootschap en a rato van haar deelnemingspercentage onrechtstreeks nog steeds belang heeft bij de waarde en het rendement van de ingebrachte goederen en de eraan verbonden risico's. 
+Terzake wordt verwezen naar de standpunten in volgende adviezen: advies 114/3 *Resultaten uit verrichtingen met dochterondernemingen*,* Bull CBN *8, april 1981 en advies 157/2* Realisatiebeginsel (behalve bij fusie)*,* Bull. CBN *26, maart 1991. In deze adviezen wordt er nadrukkelijk op gewezen dat indien de inbrengende vennootschap als gevolg van de inbreng aandeelhouder wordt van de vennootschap waarin de inbreng gebeurt, zij via deze vennootschap en a rato van haar deelnemingspercentage onrechtstreeks nog steeds belang heeft bij de waarde en het rendement van de ingebrachte goederen en de eraan verbonden risico's. 
 
 Daarbij werd, wat de enkelvoudige jaarrekening betreft, het volgende onderscheid gemaakt : 
 
@@ -179,7 +177,7 @@ De Commissie neemt zich voor om in een latere fase advies uit te brengen over de
 
 Een gebouw met boekwaarde 100 en "werkelijke waarde" 200 wordt door vennootschap A ingebracht in vennootschap B. De "werkelijke waarde" van 1 aandeel B bedraagt 20. 
 
-***Eerste hypothese *** 
+***Eerste hypothese** * 
 
 Vennootschap B vergoedt de inbreng van het gebouw door vennootschap A door de toekenning van 10 aandelen. In de inbrengakte wordt de conventionele inbrengwaarde op 200 bepaald. 
 
@@ -188,7 +186,7 @@ In deze hypothese zullen de inbrengwaarden als volgt bepaald worden :
 - in hoofde van de inbrengende vennootschap A: de toegekende aandelen B worden gewaardeerd tegen 200 d.i. gelijk aan hun "werkelijke waarde"; 
 - in hoofde van de inbreng ontvangende vennootschap B: het gebouw wordt gewaardeerd tegen 200 d.i. gelijk aan de "werkelijke waarde" van de toegekende aandelen. 
 
-***Tweede hypothese *** 
+***Tweede hypothese** * 
 
 Zelfde gegevens als de eerste hypothese, maar de conventionele inbrengwaarde wordt in de inbrengakte op 140 bepaald. 
 
@@ -197,7 +195,7 @@ In deze hypothese zullen de inbrengwaarden als volgt bepaald worden :
 - in hoofde van de inbrengende vennootschap A: met toepassing van de in het advies aanbevolen interpretatie van artikel 41 §1 worden de toegekende aandelen B gewaardeerd tegen 200 d.i. gelijk aan de "werkelijke waarde" ervan; 
 - in hoofde van de inbreng ontvangende vennootschap B: het gebouw wordt gewaardeerd tegen 200 d.i. gelijk aan de werkelijke waarde van de toegekende aandelen. Het verschil tussen de in de inbrengakte bepaalde conventionele waarde (140) en de "werkelijke waarde" (200) van de toegekende aandelen zal geboekt worden als uitgiftepremie. 
 
-***Derde hypothese *** 
+***Derde hypothese** * 
 
 Vennootschap B vergoedt de inbreng van het gebouw door de toekenning van 9 aandelen. In de inbrengakte wordt de conventionele inbrengwaarde op 180 bepaald. 
 
@@ -206,7 +204,7 @@ In deze hypothese zullen de inbrengwaarden als volgt bepaald worden :
 - in hoofde van de inbrengende vennootschap A : de toegekende aandelen worden gewaardeerd tegen 180 d.i. gelijk aan hun "werkelijke waarde". Artikel 41, §1 mag dus niet worden begrepen als zou het een correctie eisen van de werkelijk tussen partijen overeengekomen waarde van de ingebrachte goederen als deze lager zou zijn dan hun marktwaarde. Dergelijke interpretatie zou er in het voorbeeld immers toe leiden dat de toegekende aandelen worden gewaardeerd tegen 200, wat. een niet te verantwoorden overwaardering van hun "werkelijke waarde"zou zijn. 
 - in hoofde van de inbreng ontvangende vennootschap B : het gebouw wordt gewaardeerd tegen 180 d.i. gelijk aan de "werkelijke waarde" van de toegekende aandelen. 
 
-***Vierde hypothese *** 
+***Vierde hypothese** * 
 
 Vennootschap B vergoedt de inbreng door de toekenning van 2 aandelen. In de inbrengakte wordt de conventionele inbrengwaarde op 40 bepaald. Vennootschap A wil vennootschap B bewust bevoordelen. 
 

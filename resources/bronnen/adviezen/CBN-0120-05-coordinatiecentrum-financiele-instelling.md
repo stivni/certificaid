@@ -1,46 +1,46 @@
 ---
-nummer: CBN-advies 120/5
-datum: 1988-06-01
-themas:
-  - coördinatiecentrum
-  - financiële instelling
 bron: https://www.cbn-cnc.be/nl/adviezen/coordinatiecentrum-financiele-instelling
+datum: 1988-06-01
+gerelateerde_adviezen:
+  - datum: '1988-12-01'
+    titel: Boeking van het financiële bedrijf van een coördinatiecentrum binnen een groep
+    url: https://www.cbn-cnc.be/nl/adviezen/boeking-van-het-financiele-bedrijf-van-een-coordinatiecentrum-binnen-een-groep
+nummer: CBN-advies 120/5
 provenance:
+  generated_at: '2026-05-11T13:05:05Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/coordinatiecentrum-financiele-instelling
       sha256: 3294cfde4a1ec82b435797011d5592935defe9cecea0149b70007446120b0c9f
       version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:34:29Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
   trust:
-    status: trusted
     confirmed_at: '2026-05-11T11:57:45Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: Geen artefacten gevonden in body of frontmatter. Korte advies-tekst (1580 tekens) met twee alinea's, correct als lopende proza gepresenteerd, geen headings nodig. Laag-1 pass correct. Frontmatter volledig en consistent met inhoud.
     layer1:
       status: pass
-      run_id: 20260511-083333
-      run_at:
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:25Z'
       heading_count: 0
       max_section_chars: 1580
       file_size_chars: 1580
       flags: []
     layer2:
-      status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T11:57:45Z'
-      rationale: Geen artefacten gevonden in body of frontmatter. Korte advies-tekst (1580 tekens) met twee alinea's, correct als lopende proza gepresenteerd, geen headings nodig. Laag-1 pass correct. Frontmatter volledig en consistent met inhoud.
       concrete_problemen: []
-gerelateerde_adviezen:
-  - titel: Boeking van het financiële bedrijf van een coördinatiecentrum binnen een groep
-    url: https://www.cbn-cnc.be/nl/adviezen/boeking-van-het-financiele-bedrijf-van-een-coordinatiecentrum-binnen-een-groep
-    datum: '1988-12-01'
+      rationale: Geen artefacten gevonden in body of frontmatter. Korte advies-tekst (1580 tekens) met twee alinea's, correct als lopende proza gepresenteerd, geen headings nodig. Laag-1 pass correct. Frontmatter volledig en consistent met inhoud.
+      run_at: '2026-05-11T11:57:45Z'
+      status: trusted
+    rationale: Geen artefacten gevonden in body of frontmatter. Korte advies-tekst (1580 tekens) met twee alinea's, correct als lopende proza gepresenteerd, geen headings nodig. Laag-1 pass correct. Frontmatter volledig en consistent met inhoud.
+    status: trusted
+themas:
+  - coördinatiecentrum
+  - financiële instelling
 ---
 
 # CBN-advies 120/5 - Coördinatiecentrum - Financiële instelling

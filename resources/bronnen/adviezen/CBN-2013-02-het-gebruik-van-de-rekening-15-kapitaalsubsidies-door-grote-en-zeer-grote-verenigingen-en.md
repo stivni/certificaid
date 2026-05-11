@@ -1,54 +1,54 @@
 ---
-nummer: CBN-advies 2013/2
-datum: 2013-02-20
-themas:
-  - kapitaalsubsidie
 bron: https://www.cbn-cnc.be/nl/adviezen/het-gebruik-van-de-rekening-15-kapitaalsubsidies-door-grote-en-zeer-grote-verenigingen-en
+datum: 2013-02-20
+gerelateerde_adviezen:
+  - datum: '2022-09-19'
+    titel: Boekhoudkundige verwerking van splitsingen van vennootschappen
+    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-splitsingen-van-vennootschappen
+  - datum: '2021-07-02'
+    titel: Boekhoudkundige verwerking van fusies tussen vennootschappen
+    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-fusies-tussen-vennootschappen
+  - datum: '2020-09-17'
+    titel: Schenkingen en legaten voor VZW’s, IVZW’s en stichtingen die een dubbele boekhouding voeren
+    url: https://www.cbn-cnc.be/nl/adviezen/schenkingen-en-legaten-voor-vzws-ivzws-en-stichtingen-die-een-dubbele-boekhouding-voeren
+  - datum: '2019-03-29'
+    titel: 'Ziekenhuisfinanciering: de boekhoudkundige verwerking van het instandhoudingsforfait en het strategisch forfait'
+    url: https://www.cbn-cnc.be/nl/adviezen/ziekenhuisfinanciering-de-boekhoudkundige-verwerking-van-het-instandhoudingsforfait-en-0
+nummer: CBN-advies 2013/2
 provenance:
+  generated_at: '2026-05-11T13:05:08Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/het-gebruik-van-de-rekening-15-kapitaalsubsidies-door-grote-en-zeer-grote-verenigingen-en
       sha256: fc1c5e4c4def5750d73db528721f40d665cb8d84abd956ac123dcc6b75452629
       version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:36:35Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
   trust:
-    status: trusted
     confirmed_at: '2026-05-11T12:16:34Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: Geen artefacten gevonden. Kort advies (6860 chars) met twee correcte H2-kopjes. Voetnoten correct. Drie beschrijvende voorbeelden als lopende tekst, geen tabellen nodig. Inhoud compleet.
     layer1:
       status: pass
-      run_id: 20260511-083333
-      run_at:
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:28Z'
       heading_count: 2
-      max_section_chars: 4030
-      file_size_chars: 6860
+      max_section_chars: 4029
+      file_size_chars: 6859
       flags: []
     layer2:
-      status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:16:34Z'
-      rationale: Geen artefacten gevonden. Kort advies (6860 chars) met twee correcte H2-kopjes. Voetnoten correct. Drie beschrijvende voorbeelden als lopende tekst, geen tabellen nodig. Inhoud compleet.
       concrete_problemen: []
-gerelateerde_adviezen:
-  - titel: Boekhoudkundige verwerking van splitsingen van vennootschappen
-    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-splitsingen-van-vennootschappen
-    datum: '2022-09-19'
-  - titel: Boekhoudkundige verwerking van fusies tussen vennootschappen
-    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-fusies-tussen-vennootschappen
-    datum: '2021-07-02'
-  - titel: Schenkingen en legaten voor VZW’s, IVZW’s en stichtingen die een dubbele boekhouding voeren
-    url: https://www.cbn-cnc.be/nl/adviezen/schenkingen-en-legaten-voor-vzws-ivzws-en-stichtingen-die-een-dubbele-boekhouding-voeren
-    datum: '2020-09-17'
-  - titel: 'Ziekenhuisfinanciering: de boekhoudkundige verwerking van het instandhoudingsforfait en het strategisch forfait'
-    url: https://www.cbn-cnc.be/nl/adviezen/ziekenhuisfinanciering-de-boekhoudkundige-verwerking-van-het-instandhoudingsforfait-en-0
-    datum: '2019-03-29'
+      rationale: Geen artefacten gevonden. Kort advies (6860 chars) met twee correcte H2-kopjes. Voetnoten correct. Drie beschrijvende voorbeelden als lopende tekst, geen tabellen nodig. Inhoud compleet.
+      run_at: '2026-05-11T12:16:34Z'
+      status: trusted
+    rationale: Geen artefacten gevonden. Kort advies (6860 chars) met twee correcte H2-kopjes. Voetnoten correct. Drie beschrijvende voorbeelden als lopende tekst, geen tabellen nodig. Inhoud compleet.
+    status: trusted
+themas:
+  - kapitaalsubsidie
 ---
 
 # CBN-advies 2013/2 – Het gebruik van de rekening 15 Kapitaalsubsidies door grote en zeer grote verenigingen en stichtingen
@@ -57,18 +57,17 @@ gerelateerde_adviezen:
 
 Schenkingen, legaten en subsidies in natura of in geld (hierna: *subsidies*) moeten worden geboekt respectievelijk onder permanente financiering, kapitaalsubsidies of op de resultatenrekening naargelang zij ertoe leiden de fondsen van de vereniging permanent te vergroten, tot doel hebben een vast actief te verwerven dat op duurzame manier wordt bestemd voor de activiteit van de vereniging dan wel deel uitmaakt van de courante activiteit van de vereniging[^1]. Het komt in het bijzonder toe aan het bestuursorgaan om de regels vast te leggen die toelaten een onderscheid te maken tussen de verschillende vormen van subsidies waarvan de vereniging of stichting geniet. Bij deze beoordeling moet het bestuursorgaan rekening houden met het doel van de subsidies, veeleer dan met de effectieve aanwending ervan. In de praktijk zullen beiden veelal samenvallen.
 
-Het koninklijk besluit van 18 december 2012 tot wijziging van het koninklijk besluit van 19 december 2003 betreffende de boekhoudkundige verplichtingen en de openbaarmaking van de jaarrekening van bepaalde verenigingen zonder winstoogmerk, internationale verenigingen zonder winstoogmerk en stichtingen[^2]
- heeft de inhoud van de post *Kapitaalsubsidies* gewijzigd, zodat deze voortaan uitsluitend de kapitaalsubsidies omvat die werden verkregen voor investeringen in vaste activa waarvan de gebruiksduur beperkt is. De Commissie heeft het nuttig gevonden enige verduidelijking te verstrekken over het gebruik van de rekening 15 *Kapitaalsubsidies *door grote en zeer grote verenigingen en stichtingen. 
+Het koninklijk besluit van 18 december 2012 tot wijziging van het koninklijk besluit van 19 december 2003 betreffende de boekhoudkundige verplichtingen en de openbaarmaking van de jaarrekening van bepaalde verenigingen zonder winstoogmerk, internationale verenigingen zonder winstoogmerk en stichtingen[^2] heeft de inhoud van de post *Kapitaalsubsidies* gewijzigd, zodat deze voortaan uitsluitend de kapitaalsubsidies omvat die werden verkregen voor investeringen in vaste activa waarvan de gebruiksduur beperkt is. De Commissie heeft het nuttig gevonden enige verduidelijking te verstrekken over het gebruik van de rekening 15 *Kapitaalsubsidies* door grote en zeer grote verenigingen en stichtingen. 
 
-Subsidies die voorzien in een permanente financiering ter duurzame ondersteuning van de activiteit van de vereniging of stichting worden geboekt in de passiefpost I. *Fondsen van de vereniging *ongeacht of de subsidies worden ontvangen in geld of in natura. Wanneer deze subsidies in natura werden ontvangen, wordt evenmin een onderscheid gemaakt tussen enerzijds, activa waarvan de gebruiksduur beperkt is en anderzijds, activa waarvan de gebruiksduur niet beperkt is. Het betreft subsidies in geld of in natura (al dan niet afschrijfbaar) die onvoorwaardelijk worden toegekend. De begunstigde van de subsidies is aldus volledig vrij te beschikken over deze middelen. Indien (al dan niet afschrijfbare) activa worden ontvangen, staat het de begunstigde vrij om deze bijvoorbeeld te verkopen en de opbrengsten naar eigen goeddunken aan te wenden. 
+Subsidies die voorzien in een permanente financiering ter duurzame ondersteuning van de activiteit van de vereniging of stichting worden geboekt in de passiefpost I. *Fondsen van de vereniging* ongeacht of de subsidies worden ontvangen in geld of in natura. Wanneer deze subsidies in natura werden ontvangen, wordt evenmin een onderscheid gemaakt tussen enerzijds, activa waarvan de gebruiksduur beperkt is en anderzijds, activa waarvan de gebruiksduur niet beperkt is. Het betreft subsidies in geld of in natura (al dan niet afschrijfbaar) die onvoorwaardelijk worden toegekend. De begunstigde van de subsidies is aldus volledig vrij te beschikken over deze middelen. Indien (al dan niet afschrijfbare) activa worden ontvangen, staat het de begunstigde vrij om deze bijvoorbeeld te verkopen en de opbrengsten naar eigen goeddunken aan te wenden. 
 
 Voor subsidies die werden verkregen voor investeringen in vaste activa wordt een onderscheid gemaakt naargelang de subsidies ofwel betrekking hebben op vaste activa waarvan de gebruiksduur onbeperkt is, ofwel betrekking hebben op vaste activa waarvan de gebruiksduur beperkt is. 
 
 Wat betreft de subsidies die verkregen zijn voor de investering in vaste activa met een onbeperkte gebruiksduur (hetzij in contanten, hetzij in natura), wordt de subsidie geboekt op de passiefpost I. *Fondsen van de vereniging*. Een dergelijke subsidie wordt gelijkgesteld met een permanente bron van vermogen die aldus niet gespreid in resultaat wordt genomen, maar rechtstreeks wordt toegevoegd aan de fondsen van de vereniging. 
 
-De subsidies verkregen voor de investering in vaste activa met een beperkte gebruiksduur (hetzij in contanten, hetzij in natura) worden geboekt op de passiefpost VI. *Kapitaalsubsidies*. De inresultaatname van de kapitaalsubsidie loopt parallel met de afschrijvingen van de vaste activa voor de verwerving waarvan de subsidie werd verkregen middels de rekening 736 *Kapitaal- en intrestsubsidies*.
+De subsidies verkregen voor de investering in vaste activa met een beperkte gebruiksduur (hetzij in contanten, hetzij in natura) worden geboekt op de passiefpost VI. *Kapitaalsubsidies*. De inresultaatname van de kapitaalsubsidie loopt parallel met de afschrijvingen van de vaste activa voor de verwerving waarvan de subsidie werd verkregen middels de rekening 736* Kapitaal- en intrestsubsidies*.
 
-Voormeld koninklijk besluit van 18 december 2012 heeft tevens twee nieuwe opbrengstrekeningen geïntroduceerd: de rekening 737 *Exploitatiesubsidies* en de rekening 738 *Compenserende bedragen ter vermindering van de loonkost*. Voor wat betreft het gebruik van deze rekeningen verwijst de Commissie naar het advies 2010/16 *Boekhoudkundige verwerking van subsidies, schenkingen en legaten, toegekend in contanten, in de jaarrekening van begunstigde grote en zeer grote verenigingen en stichtingen.*
+Voormeld koninklijk besluit van 18 december 2012 heeft tevens twee nieuwe opbrengstrekeningen geïntroduceerd: de rekening 737 *Exploitatiesubsidies* en de rekening 738 *Compenserende bedragen ter vermindering van de loonkost*. Voor wat betreft het gebruik van deze rekeningen verwijst de Commissie naar het advies 2010/16* Boekhoudkundige verwerking van subsidies, schenkingen en legaten, toegekend in contanten, in de jaarrekening van begunstigde grote en zeer grote verenigingen en stichtingen.*
 
 ## Voorbeelden
 

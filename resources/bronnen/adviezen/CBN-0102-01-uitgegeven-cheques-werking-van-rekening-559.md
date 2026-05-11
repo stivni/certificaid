@@ -2,66 +2,64 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/uitgegeven-cheques-werking-van-rekening-559
 datum: 1980-06-01
 gerelateerde_adviezen:
-- datum: '1980-06-01'
-  titel: 'Te innen cheques : rekening 53'
-  url: https://www.cbn-cnc.be/nl/adviezen/te-innen-cheques-rekening-53
+  - datum: '1980-06-01'
+    titel: 'Te innen cheques : rekening 53'
+    url: https://www.cbn-cnc.be/nl/adviezen/te-innen-cheques-rekening-53
 nummer: CBN-advies R102/1
 provenance:
-  generated_at: '2026-05-08T18:33:39Z'
+  generated_at: '2026-05-11T13:05:05Z'
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/uitgegeven-cheques-werking-van-rekening-559
-    sha256: 70b071a96560b388ad774dbc0e108ed5683420ec698e8cdd573883ade65c9e1a
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/uitgegeven-cheques-werking-van-rekening-559
+      sha256: 70b071a96560b388ad774dbc0e108ed5683420ec698e8cdd573883ade65c9e1a
+      version:
   stale: false
-  stale_reason: null
+  stale_reason:
   tooling:
-    model: null
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    prompt_version: null
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
   trust:
     confirmed_at: '2026-05-08T19:02:30Z'
     confirmed_by: subagent-laag2-ronde2
     layer1:
-      file_size_chars: 5248
-      flags: []
-      heading_count: 0
-      max_section_chars: 5248
-      run_at: null
-      run_id: 20260511-083333
       status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:24Z'
+      heading_count: 0
+      max_section_chars: 5247
+      file_size_chars: 5247
+      flags: []
     layer2:
       agent: subagent-laag2-ronde2
       concrete_problemen: []
-      rationale: '[Laag-2-R2 2026-05-08] Volledig met twee concrete rechtsvragen,
-        journaalboekingen voor beide werkwijzen, conclusie aanvaardt beide werkwijzen.'
+      rationale: '[Laag-2-R2 2026-05-08] Volledig met twee concrete rechtsvragen, journaalboekingen voor beide werkwijzen, conclusie aanvaardt beide werkwijzen.'
       run_at: '2026-05-08T19:02:30Z'
       status: trusted
     rationale: Laag-2 trusted door subagent-laag2-ronde2 (zie layer2.rationale)
     status: trusted
 themas:
-- cheque
-- in omloop zijnde cheques
-- kredietinstelling
-- liquide middelen
-- rekeningenstelsel
-- uitgegeven cheque
+  - cheque
+  - in omloop zijnde cheques
+  - kredietinstelling
+  - liquide middelen
+  - rekeningenstelsel
+  - uitgegeven cheque
 ---
 
 # CBN-advies R102/1 - Uitgegeven cheques : werking van rekening 559
 
 rekening 559
 
-Het genormaliseerd rekeningstelsel voorziet bij de rekening 55 *Kredietinstellingen *in een afzonderlijke subrekening 559 *Uitgegeven cheques* waarin worden ingeschreven, uitgegeven in omloop zijnde cheques die derhalve nog niet aan de financiële instelling waarop zij werden getrokken, ter inning werden aangeboden. 
+Het genormaliseerd rekeningstelsel voorziet bij de rekening 55 *Kredietinstellingen* in een afzonderlijke subrekening 559 *Uitgegeven cheques* waarin worden ingeschreven, uitgegeven in omloop zijnde cheques die derhalve nog niet aan de financiële instelling waarop zij werden getrokken, ter inning werden aangeboden. 
 
 Het besluit van 7 maart 1978 heeft aldus de verplichting opgelegd om cheques in te schrijven in een balansrekening vanaf hun uitgifte, dit wil zeggen van zodra zij aan de beneficiaris worden overhandigd. De emittent van de cheque mag er zich niet toe beperkten de cheque slechts in een balansrekening in te schrijven op het ogenblik waarop hij door de financiële instelling in kennis wordt gesteld van de effectieve betaling van de cheque. 
 
-Wat de werking van de rekening *Uitgegeven cheques* betreft, werd aan de Commissie gevraagd of een onderneming gerechtigd is, als tegenpost voor de boeking in deze rekening en zodra de cheque aan de beneficiaris werd overhandigd, diens rekening voor de tegenwaarde van de cheque te debiteren, om op die wijze haar schuld te zijnen opzichte voor hetzelfde bedrag in haar boekhouding aan te zuiveren. Rechtspraak en rechtsleer zijn het er in België[^1]
- immers over eens dat de overhandiging van een cheque op zichzelf geen betaling uitmaakt en dat de debiteur slechts van zijn schuld wordt bevrijd op het ogenblik van de effectieve uitbetaling van de cheque door de bank. 
+Wat de werking van de rekening *Uitgegeven cheques* betreft, werd aan de Commissie gevraagd of een onderneming gerechtigd is, als tegenpost voor de boeking in deze rekening en zodra de cheque aan de beneficiaris werd overhandigd, diens rekening voor de tegenwaarde van de cheque te debiteren, om op die wijze haar schuld te zijnen opzichte voor hetzelfde bedrag in haar boekhouding aan te zuiveren. Rechtspraak en rechtsleer zijn het er in België[^1] immers over eens dat de overhandiging van een cheque op zichzelf geen betaling uitmaakt en dat de debiteur slechts van zijn schuld wordt bevrijd op het ogenblik van de effectieve uitbetaling van de cheque door de bank. 
 
 Naar het oordeel van de Commissie heeft de emittent van een cheque het recht om - uiteraard voor zover de nodige provisie voorhanden is - de rekening van zijn schuldeiser te debiteren zodra hij hem de cheque heeft overhandigd. Vanaf het ogenblik dat de beneficiaris de cheque als betaalmiddel heeft ontvangen, kan hij immers nog alleen betaling van de cheque vorderen en niet meer van de onderliggende schuldvordering. Slechts wanneer de cheque niet wordt uitbetaald kan hij opnieuw betaling eisen van zijn onderliggende schuldvordering. 
 
-Een tweede vraag is de volgende. Dienen de uitgegeven cheques in de betrokken rekening heel het jaar door en naargelang van hun uitgifte te worden ingeschreven, of is de onderneming gerechtigd de uitgegeven cheques in haar boeken rechtstreeks aan te rekenen op de rekening *Kredietinstellingen*. In dat laatste geval zou de onderneming de rekening *Uitgegeven cheques* slechts periodiek - desnoods slechts eenmaal per jaar - gebruiken ten einde de rekening *Kredietinstellingen* uit haar boekhouding af te stemmen op haar rekening bij de betrokken kredietinstelling, gelet op het bedrag der nog in omloop zijnde cheques.
+Een tweede vraag is de volgende. Dienen de uitgegeven cheques in de betrokken rekening heel het jaar door en naargelang van hun uitgifte te worden ingeschreven, of is de onderneming gerechtigd de uitgegeven cheques in haar boeken rechtstreeks aan te rekenen op de rekening *Kredietinstellingen*. In dat laatste geval zou de onderneming de rekening* Uitgegeven cheques* slechts periodiek - desnoods slechts eenmaal per jaar - gebruiken ten einde de rekening *Kredietinstellingen* uit haar boekhouding af te stemmen op haar rekening bij de betrokken kredietinstelling, gelet op het bedrag der nog in omloop zijnde cheques.
 
 In de eerste veronderstelling wordt de uitgifte van de cheque op de volgende wijze geboekt : 
 

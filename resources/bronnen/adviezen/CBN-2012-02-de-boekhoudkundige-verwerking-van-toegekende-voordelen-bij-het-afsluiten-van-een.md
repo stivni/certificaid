@@ -1,54 +1,54 @@
 ---
-nummer: CBN-advies 2012/2
-datum: 2012-01-11
-themas:
-  - Huur
 bron: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-toegekende-voordelen-bij-het-afsluiten-van-een
+datum: 2012-01-11
+gerelateerde_adviezen:
+  - datum: '2021-06-23'
+    titel: Rekening 26 Overige materiële vaste activa
+    url: https://www.cbn-cnc.be/nl/adviezen/rekening-26-overige-materiele-vaste-activa
+  - datum: '2021-04-06'
+    titel: Boekhoudrechtelijke behandeling van kwijtschelding van huur ten gevolge van de COVID-19-pandemie
+    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudrechtelijke-behandeling-van-kwijtschelding-van-huur-ten-gevolge-van-de-covid-19
+  - datum: '2015-06-24'
+    titel: Leasing
+    url: https://www.cbn-cnc.be/nl/adviezen/leasing
+  - datum: '1986-07-01'
+    titel: Bouwwerken op andermans grond
+    url: https://www.cbn-cnc.be/nl/adviezen/bouwwerken-op-andermans-grond
+nummer: CBN-advies 2012/2
 provenance:
+  generated_at: '2026-05-11T13:05:08Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-toegekende-voordelen-bij-het-afsluiten-van-een
       sha256: 8f3bec9b11104de4d4cb27cc100283f8a19ad102e8e8e7e0e9d28be37fdd5830
       version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T21:30:08Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
   trust:
-    status: trusted
     confirmed_at: '2026-05-08T21:31:11Z'
     confirmed_by: human
-    rationale: 'Herscraped na fix select_title(): gecombineerde H1 (COMMISSIE + titel) correct gesplitst. Inhoud ongewijzigd t.o.v. vorig vertrouwd verdict. Laag 1 pass (of benign max_section warn).'
     layer1:
       status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 19
-      max_section_chars: 2404
-      file_size_chars: 6423
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:28Z'
+      heading_count: 9
+      max_section_chars: 2377
+      file_size_chars: 6369
       flags: []
     layer2:
-      status: not_run
       agent:
-      run_at:
-      rationale:
       concrete_problemen: []
-gerelateerde_adviezen:
-  - titel: Rekening 26 Overige materiële vaste activa
-    url: https://www.cbn-cnc.be/nl/adviezen/rekening-26-overige-materiele-vaste-activa
-    datum: '2021-06-23'
-  - titel: Boekhoudrechtelijke behandeling van kwijtschelding van huur ten gevolge van de COVID-19-pandemie
-    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudrechtelijke-behandeling-van-kwijtschelding-van-huur-ten-gevolge-van-de-covid-19
-    datum: '2021-04-06'
-  - titel: Leasing
-    url: https://www.cbn-cnc.be/nl/adviezen/leasing
-    datum: '2015-06-24'
-  - titel: Bouwwerken op andermans grond
-    url: https://www.cbn-cnc.be/nl/adviezen/bouwwerken-op-andermans-grond
-    datum: '1986-07-01'
+      rationale:
+      run_at:
+      status: not_run
+    rationale: 'Herscraped na fix select_title(): gecombineerde H1 (COMMISSIE + titel) correct gesplitst. Inhoud ongewijzigd t.o.v. vorig vertrouwd verdict. Laag 1 pass (of benign max_section warn).'
+    status: trusted
+themas:
+  - Huur
 ---
 
 # CBN-advies 2012/2 – De boekhoudkundige verwerking van toegekende voordelen bij het afsluiten van een huurovereenkomst
@@ -83,12 +83,9 @@ De verhuurder zal de totale kost verbonden aan de voordelen gedurende de huurper
 
 ### *Voorbeeld*
 
-### Bij het afsluiten van een huurovereenkomst biedt de verhuurder aan de huurder bij wijze van compensatie voor de gemaakte kosten gedurende de verhuis gratuïteiten aan. Dit voordeel houdt in dat de huurder gedurende de eerste twee maanden geen huur dient te betalen. De huurperiode bedraagt 3 jaren. Als gevolg van dit voordeel realiseert de huurder een besparing van 36.000 €. 
-
-### Het voordeel zal als volgt boekhoudkundig worden verwerkt.
-
-### De huurovereenkomst heeft een looptijd van 36 maanden. De maandelijkse huur bedraagt normalerwijze 18.000 €. Gezien de gratuïteiten over de looptijd in resultaat zullen worden genomen, zal de verhuurder maandelijks slechts een opbrengst van 17.000 € in zijn resultatenrekening erkennen. 
-
+Bij het afsluiten van een huurovereenkomst biedt de verhuurder aan de huurder bij wijze van compensatie voor de gemaakte kosten gedurende de verhuis gratuïteiten aan. Dit voordeel houdt in dat de huurder gedurende de eerste twee maanden geen huur dient te betalen. De huurperiode bedraagt 3 jaren. Als gevolg van dit voordeel realiseert de huurder een besparing van 36.000 €.
+Het voordeel zal als volgt boekhoudkundig worden verwerkt.
+De huurovereenkomst heeft een looptijd van 36 maanden. De maandelijkse huur bedraagt normalerwijze 18.000 €. Gezien de gratuïteiten over de looptijd in resultaat zullen worden genomen, zal de verhuurder maandelijks slechts een opbrengst van 17.000 € in zijn resultatenrekening erkennen.
 Gedurende de eerste twee maanden zal de verhuurder dus de volgende boeking verrichten:
 
 | | Rekening | Omschrijving | Debet | Credit |
@@ -96,16 +93,14 @@ Gedurende de eerste twee maanden zal de verhuurder dus de volgende boeking verri
 | | 491 | Verkregen opbrengsten | 17.000 | |
 | aan | 744 | Huuropbrengsten | | 17.000 |
 
-### Gedurende de daaropvolgende maanden zal de verhuurder maandelijks de volgende boeking verrichten:
-
+Gedurende de daaropvolgende maanden zal de verhuurder maandelijks de volgende boeking verrichten:
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 550 | Kredietinstelling: rekening-courant | 18.000 | |
 | aan | 491 | Verkregen opbrengsten | | 1.000 |
 | | 744 | Huuropbrengsten | 17.000 | |
 
-### Indien de overeenkomst vroegtijdig zou worden ontbonden, wordt het saldo van de overlopende rekening onmiddellijk als periodekost erkend.
-
+Indien de overeenkomst vroegtijdig zou worden ontbonden, wordt het saldo van de overlopende rekening onmiddellijk als periodekost erkend.
 #### De huurder
 
 De huurder zal de opbrengst verbonden aan de voordelen gedurende de huurperiode lineair (tenzij een andere systematische basis representatief is voor het tijdspatroon volgens hetwelk het voordeel van het gehuurde actief afneemt) in resultaat boeken als een vermindering van de huurkosten. De Commissie is de mening toegedaan dat, gezien de huurkosten en de verkregen voordelen hun oorsprong vinden in dezelfde contractuele overeenkomst, deze tevens vanuit een boekhoudkundig standpunt samen moeten verwerkt worden. 
@@ -114,12 +109,9 @@ Andere kosten die werden gemaakt als gevolg van het aangaan van de huurovereenko
 
 ### *Voorbeeld*
 
-### Bij het afsluiten van een huurovereenkomst biedt de verhuurder aan de huurder, bij wijze van compensatie voor de gemaakte kosten gedurende de verhuis, gratuïteiten aan. Dit voordeel houdt in dat de huurder gedurende de eerste twee maanden geen huur dient te betalen. De huurperiode bedraagt 3 jaren. Als gevolg van dit voordeel realiseert de huurder een besparing van 36.000 €. 
-
-### Het voordeel zal als volgt boekhoudkundig worden verwerkt.
-
-### De huurovereenkomst heeft een looptijd van 36 maanden. De maandelijkse huur bedraagt normalerwijze 18.000 €. Gezien de gratuïteiten over de looptijd in resultaat zullen worden genomen, zal de huurder maandelijks slechts een kost van 17.000 € in zijn resultatenrekening boeken. 
-
+Bij het afsluiten van een huurovereenkomst biedt de verhuurder aan de huurder, bij wijze van compensatie voor de gemaakte kosten gedurende de verhuis, gratuïteiten aan. Dit voordeel houdt in dat de huurder gedurende de eerste twee maanden geen huur dient te betalen. De huurperiode bedraagt 3 jaren. Als gevolg van dit voordeel realiseert de huurder een besparing van 36.000 €.
+Het voordeel zal als volgt boekhoudkundig worden verwerkt.
+De huurovereenkomst heeft een looptijd van 36 maanden. De maandelijkse huur bedraagt normalerwijze 18.000 €. Gezien de gratuïteiten over de looptijd in resultaat zullen worden genomen, zal de huurder maandelijks slechts een kost van 17.000 € in zijn resultatenrekening boeken.
 Gedurende de eerste twee maanden zal de huurder dus de volgende boeking verrichten:
 
 | | Rekening | Omschrijving | Debet | Credit |
@@ -127,14 +119,12 @@ Gedurende de eerste twee maanden zal de huurder dus de volgende boeking verricht
 | | 610 | Huur en huurlasten | 17.000 | |
 | aan | 492 | Toe te rekenen kosten | | 17.000 |
 
-### Gedurende de daaropvolgende maanden zal de huurder maandelijks de volgende boeking verrichten:
-
+Gedurende de daaropvolgende maanden zal de huurder maandelijks de volgende boeking verrichten:
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 610 | Huur en huurlasten | 17.000 | |
 | | 492 | Toe te rekenen kosten | 1.000 | |
 | aan | 550 | Kredietinstelling: rekening-courant | | 18.000 |
 
-### Indien de overeenkomst vroegtijdig zou worden ontbonden, wordt het saldo van de overlopende rekening onmiddellijk als opbrengst van de periode erkend.
-
+Indien de overeenkomst vroegtijdig zou worden ontbonden, wordt het saldo van de overlopende rekening onmiddellijk als opbrengst van de periode erkend.
 ###

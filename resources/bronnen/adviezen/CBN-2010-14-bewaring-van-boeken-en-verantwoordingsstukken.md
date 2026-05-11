@@ -1,6 +1,46 @@
 ---
-nummer: CBN-advies 2010/14
+bron: https://www.cbn-cnc.be/nl/adviezen/bewaring-van-boeken-en-verantwoordingsstukken
 datum: 2010-09-24
+gerelateerde_adviezen:
+  - datum: '2016-09-28'
+    titel: Bewaring van boeken en verantwoordingsstukken bij een geïnformatiseerde boekhouding
+    url: https://www.cbn-cnc.be/nl/adviezen/bewaring-van-boeken-en-verantwoordingsstukken-bij-een-geinformatiseerde-boekhouding
+  - datum: '1981-04-10'
+    titel: Bewaring van de verantwoordingsstukken
+    url: https://www.cbn-cnc.be/nl/adviezen/bewaring-van-de-verantwoordingsstukken
+nummer: CBN-advies 2010/14
+provenance:
+  generated_at: '2026-05-11T13:05:08Z'
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/bewaring-van-boeken-en-verantwoordingsstukken
+      sha256: cc3dc16756036705ba3ff4dc69f8573d60aeb6ad8fa0314939d527bac08266d0
+      version:
+  stale: false
+  stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
+  trust:
+    confirmed_at: '2026-05-11T12:09:17Z'
+    confirmed_by: subagent-sonnet-4-6
+    layer1:
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:27Z'
+      heading_count: 7
+      max_section_chars: 5184
+      file_size_chars: 10529
+      flags: []
+    layer2:
+      agent: subagent-sonnet-4-6
+      concrete_problemen: []
+      rationale: 'Geen zichtbare extractie-artefacten. Zeven ## en ### headings correct hiërarchisch. Voetnoten 1–18 volledig. Zinnen lopen door zonder spurious line-breaks. Tabellen ontbreken (dit advies heeft geen voorbeeldboekingen) — dat is inhoudelijk juist, geen artefact.'
+      run_at: '2026-05-11T12:09:17Z'
+      status: trusted
+    rationale: 'Geen zichtbare extractie-artefacten. Zeven ## en ### headings correct hiërarchisch. Voetnoten 1–18 volledig. Zinnen lopen door zonder spurious line-breaks. Tabellen ontbreken (dit advies heeft geen voorbeeldboekingen) — dat is inhoudelijk juist, geen artefact.'
+    status: trusted
 themas:
   - bewaring
   - bewaring van verantwoordingsstukken
@@ -10,46 +50,6 @@ themas:
   - elektronische facturering
   - plaats van bewaring
   - verantwoordingsstuk
-bron: https://www.cbn-cnc.be/nl/adviezen/bewaring-van-boeken-en-verantwoordingsstukken
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/bewaring-van-boeken-en-verantwoordingsstukken
-      sha256: cc3dc16756036705ba3ff4dc69f8573d60aeb6ad8fa0314939d527bac08266d0
-      version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:36:02Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: trusted
-    confirmed_at: '2026-05-11T12:09:17Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: 'Geen zichtbare extractie-artefacten. Zeven ## en ### headings correct hiërarchisch. Voetnoten 1–18 volledig. Zinnen lopen door zonder spurious line-breaks. Tabellen ontbreken (dit advies heeft geen voorbeeldboekingen) — dat is inhoudelijk juist, geen artefact.'
-    layer1:
-      status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 7
-      max_section_chars: 5188
-      file_size_chars: 10533
-      flags: []
-    layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:09:17Z'
-      rationale: 'Geen zichtbare extractie-artefacten. Zeven ## en ### headings correct hiërarchisch. Voetnoten 1–18 volledig. Zinnen lopen door zonder spurious line-breaks. Tabellen ontbreken (dit advies heeft geen voorbeeldboekingen) — dat is inhoudelijk juist, geen artefact.'
-      concrete_problemen: []
-gerelateerde_adviezen:
-  - titel: Bewaring van boeken en verantwoordingsstukken bij een geïnformatiseerde boekhouding
-    url: https://www.cbn-cnc.be/nl/adviezen/bewaring-van-boeken-en-verantwoordingsstukken-bij-een-geinformatiseerde-boekhouding
-    datum: '2016-09-28'
-  - titel: Bewaring van de verantwoordingsstukken
-    url: https://www.cbn-cnc.be/nl/adviezen/bewaring-van-de-verantwoordingsstukken
-    datum: '1981-04-10'
 ---
 
 # CBN-advies 2010/14 - Bewaring van boeken en verantwoordingsstukken
@@ -63,8 +63,7 @@ Verscheidene Belgische ondernemingen centraliseren de boekhouding van over versc
 
 ## Elektronische boekhouding
 
-Met ingang van 2005 is het houden van een elektronische boekhouding wettelijk erkend in de Boekhoudwet. Artikel 2 van het koninklijk besluit van 25 januari 2005[^3]
- stelt namelijk als beginsel dat alle wettelijk voorgeschreven boeken ofwel op een papieren drager, ofwel door middel van een geïnformatiseerd systeem mogen worden bijgehouden. De elektronisch gevoerde boekhouding dient uiteraard te voldoen aan de voorwaarden en vereisten gesteld door de Boekhoudwet. 
+Met ingang van 2005 is het houden van een elektronische boekhouding wettelijk erkend in de Boekhoudwet. Artikel 2 van het koninklijk besluit van 25 januari 2005[^3] stelt namelijk als beginsel dat alle wettelijk voorgeschreven boeken ofwel op een papieren drager, ofwel door middel van een geïnformatiseerd systeem mogen worden bijgehouden. De elektronisch gevoerde boekhouding dient uiteraard te voldoen aan de voorwaarden en vereisten gesteld door de Boekhoudwet. 
 
 Specifiek betreffende de verplichting tot waarborging van de materiële continuïteit, regelmatigheid en onveranderlijkheid (artikel 7, § 2 Boekhoudwet), bepaalt artikel 5, § 2 van het koninklijk besluit van 12 september 1983 dat de informaticasystemen die worden gebruikt (vb. boekhoudprogramma’s) er steeds moeten voor zorgen dat de onderneming haar boekhouding kan voeren in overeenstemming met de wettelijke en reglementaire bepalingen ter zake.[^4] 
 
@@ -79,8 +78,7 @@ In het licht van de btw-wetgeving is het elektronisch verzenden en ontvangen van
  Sedert 1 januari 2010 hebben Belgische ondernemingen de vrijheid om te kiezen hoe ze de authenticiteit en integriteit waarborgen.[^10]
  Daarvoor kunnen ze zowel beroep doen op IT-technische middelen (zoals elektronische handtekeningen of EDI), als op andere oplossingen of procedures, zoals bijvoorbeeld het aansluiten van de factuur met een betaling, een bestelbon, een leveringsbon,...
 
-De Belgische factureringsregels zijn slechts van toepassing op handelingen die in België plaatsvinden. Op Europees niveau werd recent de Richtlijn 2010/45/EU van de Raad van 13 juli 2010 tot wijziging van Richtlijn 2006/112/EG[^11]
- betreffende het gemeenschappelijk stelsel van belasting over de toegevoegde waarde wat de factureringsregels betreft, aangenomen. Deze richtlijn beoogt een afschaffing van de formele vereisten en een maximale harmonisatie, hetgeen concreet inhoudt dat de lidstaten geen andere factureringsverplichtingen of formaliteiten kunnen opleggen dan wat in de btw-richtlijn staat. De hoofddoelstelling van de richtlijn is de gelijke behandeling van papieren en elektronische facturen.[^12]
+De Belgische factureringsregels zijn slechts van toepassing op handelingen die in België plaatsvinden. Op Europees niveau werd recent de Richtlijn 2010/45/EU van de Raad van 13 juli 2010 tot wijziging van Richtlijn 2006/112/EG[^11] betreffende het gemeenschappelijk stelsel van belasting over de toegevoegde waarde wat de factureringsregels betreft, aangenomen. Deze richtlijn beoogt een afschaffing van de formele vereisten en een maximale harmonisatie, hetgeen concreet inhoudt dat de lidstaten geen andere factureringsverplichtingen of formaliteiten kunnen opleggen dan wat in de btw-richtlijn staat. De hoofddoelstelling van de richtlijn is de gelijke behandeling van papieren en elektronische facturen.[^12]
  Tegen uiterlijk 1 januari 2013 dienen de 27 lidstaten hun wetgeving aangepast te hebben.
 
 ## Archivering
@@ -92,9 +90,7 @@ Wordt de boekhouding elektronisch gevoerd, dan houdt dit in dat de onderneming n
 Verantwoordingsstukken worden bewaard in origineel of in afschrift.[^14]
  Deze laatste mogelijkheid impliceert dat volgens het Belgisch boekhoudrecht de bewaring van verantwoordingsstukken ook op elektronische wijze kan plaatsvinden. 
 
-Zowel voor de elektronische als voor de papieren facturen, geldt op fiscaal vlak dat bedrijven moeten kunnen aantonen dat gedurende de archiveringstermijn niet is geraakt aan de authenticiteit[^15]
- en integriteit[^16]
- van de verzonden of ontvangen facturen.[^17] 
+Zowel voor de elektronische als voor de papieren facturen, geldt op fiscaal vlak dat bedrijven moeten kunnen aantonen dat gedurende de archiveringstermijn niet is geraakt aan de authenticiteit[^15] en integriteit[^16] van de verzonden of ontvangen facturen.[^17] 
 
 ## Plaats van bewaring
 

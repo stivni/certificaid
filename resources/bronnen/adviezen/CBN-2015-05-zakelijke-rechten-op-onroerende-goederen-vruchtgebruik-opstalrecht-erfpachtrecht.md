@@ -3,49 +3,47 @@ bron: https://www.cbn-cnc.be/nl/adviezen/zakelijke-rechten-op-onroerende-goedere
 datum: 2015-07-08
 nummer: CBN-advies 2015/5
 provenance:
-  generated_at: '2026-05-08T18:36:50Z'
+  generated_at: '2026-05-11T13:05:08Z'
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/zakelijke-rechten-op-onroerende-goederen-vruchtgebruik-opstalrecht-erfpachtrecht
-    sha256: e42d98ea9631d91fa32198a5fc40f1dba0e70b80b63a615042de95c134542e01
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/zakelijke-rechten-op-onroerende-goederen-vruchtgebruik-opstalrecht-erfpachtrecht
+      sha256: e42d98ea9631d91fa32198a5fc40f1dba0e70b80b63a615042de95c134542e01
+      version:
   stale: false
-  stale_reason: null
+  stale_reason:
   tooling:
-    model: null
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    prompt_version: null
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
   trust:
     confirmed_at: '2026-05-08T19:02:27Z'
     confirmed_by: subagent-laag2-ronde2
     layer1:
-      file_size_chars: 81434
-      flags: []
-      heading_count: 42
-      max_section_chars: 23724
-      run_at: null
-      run_id: 20260511-083333
       status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:29Z'
+      heading_count: 42
+      max_section_chars: 23704
+      file_size_chars: 81363
+      flags: []
     layer2:
       agent: subagent-laag2-ronde2
       concrete_problemen: []
-      rationale: '[Laag-2-R2 2026-05-08] 42 headings voor 4 zakelijke rechten elk
-        met verwerving, looptijd en beëindiging. Alle scenario''s volledig uitgewerkt
-        met voorbeeldboekingen als Markdown-tabellen.'
+      rationale: '[Laag-2-R2 2026-05-08] 42 headings voor 4 zakelijke rechten elk met verwerving, looptijd en beëindiging. Alle scenario''s volledig uitgewerkt met voorbeeldboekingen als Markdown-tabellen.'
       run_at: '2026-05-08T19:02:27Z'
       status: trusted
     rationale: Laag-2 trusted door subagent-laag2-ronde2 (zie layer2.rationale)
     status: trusted
 themas:
-- blote eigendom
-- bouwwerken op andermans eigendom
-- erfdienstbaarheid
-- erfpacht
-- gebouw
-- onroerend goed
-- opstal
-- vruchtgebruik
-- zakelijke rechten
+  - blote eigendom
+  - bouwwerken op andermans eigendom
+  - erfdienstbaarheid
+  - erfpacht
+  - gebouw
+  - onroerend goed
+  - opstal
+  - vruchtgebruik
+  - zakelijke rechten
 ---
 
 # CBN-advies 2015/5 - Zakelijke rechten op onroerende goederen: vruchtgebruik - opstalrecht - erfpachtrecht - erfdienstbaarheid
@@ -201,8 +199,7 @@ Aangezien het recht van vruchtgebruik per definitie tijdelijk is - ook al heeft 
 
 *Boekingen bij afloop van het vruchtgebruik*
 
-Aangezien het recht in principe volledig afgeschreven zal zijn bij de afloop[^9]
- van het vruchtgebruik, moet het recht enkel nog worden uitgeboekt. 
+Aangezien het recht in principe volledig afgeschreven zal zijn bij de afloop[^9] van het vruchtgebruik, moet het recht enkel nog worden uitgeboekt. 
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
@@ -228,8 +225,7 @@ Het bestaan en het bedrag van het zakelijk recht wordt opgenomen in de ordereken
 
 *Boekingen bij afloop*
 
-Aangezien de uitgaven niet werden geactiveerd zal bij afloop geen enkele boeking[^12]
- meer plaatsvinden.
+Aangezien de uitgaven niet werden geactiveerd zal bij afloop geen enkele boeking[^12] meer plaatsvinden.
 
 #### Verwerving vruchtgebruik: combinatie van vooruitbetalingen en periodieke vergoedingen
 
@@ -239,17 +235,15 @@ De Commissie is van mening dat het bestuursorgaan verantwoordelijk is voor de op
 
 #### Vruchtgebruiker: verbeterings- of uitbreidingswerken 
 
-Wanneer een vruchtgebruiker uitbreidings- of verbeteringswerken heeft aangebracht, worden deze werken in principe geboekt op de rekening 26 *Andere materiële vaste activa[^14] * en volgens een passend afschrijvingsplan afgeschreven.
+Wanneer een vruchtgebruiker uitbreidings- of verbeteringswerken heeft aangebracht, worden deze werken in principe geboekt op de rekening 26 *Andere materiële vaste activa[^14]*  en volgens een passend afschrijvingsplan afgeschreven.
 
-Met betrekking tot deze werken beschikt de vruchtgebruiker krachtens artikel 599 BW over een keuzerecht: hij kan de verbeteringen verwijderen of laten staan. In dit laatste geval kan van de blote eigenaar geen vergoeding worden geëist, ook niet wanneer de waarde van de zaak vermeerderd zou zijn door de uitbreidings- of verbeteringswerken. De vruchtgebruiker en de blote eigenaar kunnen echter afwijken van de wettelijke bepalingen en onderling een vergoedingsregeling afspreken. Aangezien in dit advies uitsluitend marktconforme verrichtingen worden beoogd,[^15]
- is het waarschijnlijk dat er bij ingrijpende uitbreidings- of verbeteringswerken inderdaad afspraken worden gemaakt tussen de blote eigenaar en de vruchtgebruiker.
+Met betrekking tot deze werken beschikt de vruchtgebruiker krachtens artikel 599 BW over een keuzerecht: hij kan de verbeteringen verwijderen of laten staan. In dit laatste geval kan van de blote eigenaar geen vergoeding worden geëist, ook niet wanneer de waarde van de zaak vermeerderd zou zijn door de uitbreidings- of verbeteringswerken. De vruchtgebruiker en de blote eigenaar kunnen echter afwijken van de wettelijke bepalingen en onderling een vergoedingsregeling afspreken. Aangezien in dit advies uitsluitend marktconforme verrichtingen worden beoogd,[^15] is het waarschijnlijk dat er bij ingrijpende uitbreidings- of verbeteringswerken inderdaad afspraken worden gemaakt tussen de blote eigenaar en de vruchtgebruiker.
 
 In het geval de vruchtgebruiker uitbreidings- of verbeteringswerken heeft uitgevoerd waarvoor hij van de blote eigenaar een vergoeding krijgt bij afloop van het vruchtgebruik, zal, naargelang het geval, een meerwaarde of een minderwaarde worden geboekt bij afloop van het vruchtgebruik, indien de onderneming de kosten voor deze uitbreidings- of verbeteringswerken heeft geactiveerd. 
 
 **Voorbeeld 1**
 
-De vennootschap is de vruchtgebruiker van een onroerend goed en heeft in het jaar N voor een bedrag van 100.000 euro verbeteringswerken uitgevoerd. De vruchtgebruiker heeft met de blote eigenaar afgesproken dat de blote eigenaar de werkelijke waarde van de door de werken ontstane waardevermeerdering zal vergoeden bij het einde van het vruchtgebruik. De vruchtgebruiker schrijft deze werken af over een economische levensduur van 10 jaar. Op het ogenblik van de activering van de werken heeft het vruchtgebruik nog een resterende looptijd van 7 jaar. Bij afloop van het vruchtgebruik hebben deze werken nog een boekwaarde van 30.000 euro terwijl de waardevermeerdering van het onroerend goed ingevolge de uitgevoerde werken op dat ogenblik 50.000 euro bedraagt. De vennootschap boekt aldus een meerwaarde van 20.000[^16]
- euro bij afloop van het vruchtgebruik[^17]. 
+De vennootschap is de vruchtgebruiker van een onroerend goed en heeft in het jaar N voor een bedrag van 100.000 euro verbeteringswerken uitgevoerd. De vruchtgebruiker heeft met de blote eigenaar afgesproken dat de blote eigenaar de werkelijke waarde van de door de werken ontstane waardevermeerdering zal vergoeden bij het einde van het vruchtgebruik. De vruchtgebruiker schrijft deze werken af over een economische levensduur van 10 jaar. Op het ogenblik van de activering van de werken heeft het vruchtgebruik nog een resterende looptijd van 7 jaar. Bij afloop van het vruchtgebruik hebben deze werken nog een boekwaarde van 30.000 euro terwijl de waardevermeerdering van het onroerend goed ingevolge de uitgevoerde werken op dat ogenblik 50.000 euro bedraagt. De vennootschap boekt aldus een meerwaarde van 20.000[^16] euro bij afloop van het vruchtgebruik[^17]. 
 
 In het geval de vruchtgebruiker uitbreidings- of verbeteringswerken heeft uitgevoerd waarvoor hij van de blote eigenaar geen vergoeding krijgt bij afloop van het vruchtgebruik, zijn deze werken in principe volledig ten laste genomen volgens een passend afschrijvingsplan en moeten deze werken bij afloop van het zakelijk recht nog enkel worden uitgeboekt. 
 
@@ -281,8 +275,6 @@ De onderneming verkoopt de blote eigendom van een onroerend goed en behoudt zich
 
 *Boeking van de verrichting*
 
- [^18]
-
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 416 | Diverse vorderingen | 200.000 | |
@@ -294,8 +286,6 @@ De onderneming verkoopt de blote eigendom van een onroerend goed en behoudt zich
 | | 763 | Meerwaarden op de realisatie van vaste activa | 132.800 | |
 
 *Boeking van de jaarlijkse afschrijving*
-
- [^19]
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
@@ -325,8 +315,6 @@ Een onroerend goed wordt verkocht voor de prijs van 300.000 euro. Onderneming A 
 
 *Boeking bij de verwerving in hoofde van onderneming A (blote eigenaar)*
 
- [^21]
-
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 26X0 | Andere materiële vaste activa: aanschaffingswaarde | 138.000 | |
@@ -334,8 +322,7 @@ Een onroerend goed wordt verkocht voor de prijs van 300.000 euro. Onderneming A 
 
 *Boekingen tijdens de looptijd van het vruchtgebruik in hoofde van onderneming A (blote eigenaar)*
 
-Indien de blote eigenaar geen periodieke vergoedingen ontvangt, mag het blote eigendomsrecht tijdens de periode waarin de eigendom is bezwaard met een vruchtgebruik slechts worden afgeschreven[^22]
- in de veronderstelling dat de aanschaffingswaarde, ingevolge een nieuw feit of een onverwachte gebeurtenis, hoger zou liggen dan de gebruikswaarde na het verstrijken van het vruchtgebruik. In dit geval zou een uitzonderlijke afschrijving worden geboekt krachtens artikel 64, § 1, tweede lid van het KB W.Venn. Het systematisch boeken van afschrijvingen lijkt in dit geval echter uitgesloten.
+Indien de blote eigenaar geen periodieke vergoedingen ontvangt, mag het blote eigendomsrecht tijdens de periode waarin de eigendom is bezwaard met een vruchtgebruik slechts worden afgeschreven[^22] in de veronderstelling dat de aanschaffingswaarde, ingevolge een nieuw feit of een onverwachte gebeurtenis, hoger zou liggen dan de gebruikswaarde na het verstrijken van het vruchtgebruik. In dit geval zou een uitzonderlijke afschrijving worden geboekt krachtens artikel 64, § 1, tweede lid van het KB W.Venn. Het systematisch boeken van afschrijvingen lijkt in dit geval echter uitgesloten.
 
 De Commissie baseert haar standpunt op volgende gegevens: 
 
@@ -352,17 +339,15 @@ Als gevolg van het voornamelijk tijdelijke karakter van het vruchtgebruik, zal d
 
 De Commissie meent dat het verantwoord kan zijn het actief te herwaarderen naarmate de eindtermijn van het vruchtgebruik nadert. De Commissie wenst te benadrukken dat een dergelijke herwaardering niet verplicht is.
 
-Bij de verwerving van de blote eigendom werd de aanschaffingswaarde van de blote eigendom geboekt op de rekening 26 *Andere materiële vaste activa*. Bij afloop van het vruchtgebruik zal in principe een overboeking plaatsvinden naar de rekeningen van rubriek *III.A Terreinen en gebouwen.*
+Bij de verwerving van de blote eigendom werd de aanschaffingswaarde van de blote eigendom geboekt op de rekening 26 *Andere materiële vaste activa*. Bij afloop van het vruchtgebruik zal in principe een overboeking plaatsvinden naar de rekeningen van rubriek* III.A Terreinen en gebouwen.*
 
-Nadat het vruchtgebruik afloopt, zal de aanschaffingswaarde van het goed met een beperkte gebruiksduur[^25]
-  worden afgeschreven over de nog resterende gebruiksduur van het betrokken goed. Dit is de resterende termijn tussen de normale gebruiksduur van het betrokken goed en de duur van het vruchtgebruik. 
+Nadat het vruchtgebruik afloopt, zal de aanschaffingswaarde van het goed met een beperkte gebruiksduur[^25] worden afgeschreven over de nog resterende gebruiksduur van het betrokken goed. Dit is de resterende termijn tussen de normale gebruiksduur van het betrokken goed en de duur van het vruchtgebruik. 
 
 ##### Vruchtgebruiker betaalt uitsluitend periodieke vergoedingen 
 
 Een onderneming verwerft de blote eigendom van een onroerend goed. De vruchtgebruiker is uitsluitend periodieke vergoedingen verschuldigd aan de blote eigenaar.
 
-Indien de vergoedingen niet werden vooruitbetaald, zal de verwervingsprijs van de blote eigendom de waarde van het goed in volle eigendom dicht benaderen. In dergelijk geval zullen de boekingen weinig verschillen ten opzichte van de boekingen bij verwerving van het onroerend goed in volle eigendom. Het onroerend goed wordt geboekt tegen de aanschaffingswaarde van deze blote eigendom. De blote eigenaar zal periodiek vergoedingen ontvangen net zoals wanneer hij een verhuurder zou zijn. De blote eigenaar zal deze vergoedingen in resultaat nemen en de aanschaffingswaarde van het onroerende goed[^26]
- volgens een passend plan afschrijven. 
+Indien de vergoedingen niet werden vooruitbetaald, zal de verwervingsprijs van de blote eigendom de waarde van het goed in volle eigendom dicht benaderen. In dergelijk geval zullen de boekingen weinig verschillen ten opzichte van de boekingen bij verwerving van het onroerend goed in volle eigendom. Het onroerend goed wordt geboekt tegen de aanschaffingswaarde van deze blote eigendom. De blote eigenaar zal periodiek vergoedingen ontvangen net zoals wanneer hij een verhuurder zou zijn. De blote eigenaar zal deze vergoedingen in resultaat nemen en de aanschaffingswaarde van het onroerende goed[^26] volgens een passend plan afschrijven. 
 
 #### Volle eigenaar: vestiging vruchtgebruik
 
@@ -404,12 +389,9 @@ Als de onderneming het vruchtgebruik niet had gevestigd, zou zij het onroerend g
 
 Voor de bepaling van het bedrag van de afschrijvingen dat moet worden geboekt bij de vestiging van het vruchtgebruik, stelt de Commissie voor dat rekening wordt gehouden met de boekwaarde van het onroerend goed in de veronderstelling dat de onderneming geen recht van vruchtgebruik zou hebben verleend (100.000 euro). 
 
-In dit voorbeeld wordt de vestiging van het vruchtgebruik bijgevolg in de boekhouding van de onderneming uitgedrukt door een uitzonderlijke afschrijving ten belope van 300.000 euro. De onderneming behaalt met de verrichting een boekhoudkundig resultaat van 100.000[^29]
- euro. De blote eigendom van het onroerend goed wordt vervolgens overgeboekt naar de rekening 26 Andere *materiële vaste activa.*
+In dit voorbeeld wordt de vestiging van het vruchtgebruik bijgevolg in de boekhouding van de onderneming uitgedrukt door een uitzonderlijke afschrijving ten belope van 300.000 euro. De onderneming behaalt met de verrichting een boekhoudkundig resultaat van 100.000[^29] euro. De blote eigendom van het onroerend goed wordt vervolgens overgeboekt naar de rekening 26 Andere *materiële vaste activa.*
 
 *Boeking van de vestiging van het vruchtgebruik*
-
- [^30]
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
@@ -454,8 +436,6 @@ Voor de bepaling van het bedrag van de afschrijvingen die moeten worden geboekt 
 In dit voorbeeld wordt de vestiging van het vruchtgebruik in de boekhouding van de onderneming uitgedrukt door een uitzonderlijke afschrijving ten belope van 15 x 13.000 of 195.000 euro en per saldo een resultaat ten belope van 205.000 euro (400.000 – 195.000). De blote eigendom van het onroerend goed wordt vervolgens overgeboekt naar de rekening 26 *Andere materiële vaste activa*.
 
 *Boeking van de vestiging van het vruchtgebruik*
-
- [^31][^32][^33]
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
@@ -520,7 +500,7 @@ De onderneming heeft het vruchtgebruik verworven van een loods voor een periode 
 
 Na 2 jaar heeft het zakelijk recht een boekwaarde van 520.000 euro (600.000 – 40.000 – 40.000). 
 
-*Boekingen bij de verwerving van de blote eigendom *
+*Boekingen bij de verwerving van de blote eigendom* 
 
 Twee jaar na de verwerving van het vruchtgebruik, verwerft de onderneming de blote eigendom van deze loods voor een bedrag van 550.000 euro.
 
@@ -537,7 +517,7 @@ Vervolgens moeten een aantal correctieboekingen plaatsvinden om zo de huidige to
 | | 2210 | Gebouwen: aanschaffingswaarde | 750.000 | |
 | aan | 2230 | Overige zakelijke rechten op onroerende goederen: aanschaffingswaarde | | 1.150.000 |
 
-*Overboeking van de reeds geboekte afschrijvingen[^38] *
+*Overboeking van de reeds geboekte afschrijvingen[^38]* 
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
@@ -561,16 +541,14 @@ Gelet op de zeer diverse mogelijke omstandigheden, vindt de Commissie het niet o
 
 ### Definitie en kenmerken
 
-In de wet van 10 januari 1824 over het recht van opstal (hierna: “Opstalwet”) wordt het opstalrecht gedefinieerd als een zakelijk recht dat voor een periode van maximum vijftig jaar mag worden bepaald[^39]
- om gebouwen, werken of beplantingen te hebben voor het geheel of een deel, op, boven of onder andermans grond.[^40]
+In de wet van 10 januari 1824 over het recht van opstal (hierna: “Opstalwet”) wordt het opstalrecht gedefinieerd als een zakelijk recht dat voor een periode van maximum vijftig jaar mag worden bepaald[^39] om gebouwen, werken of beplantingen te hebben voor het geheel of een deel, op, boven of onder andermans grond.[^40]
  Het opstalrecht kan worden gevestigd door elke titularis van een onroerend zakelijk recht, binnen de grenzen van zijn recht.
 
 Om de juridische aspecten van de bouwwerken die worden opgericht door anderen dan de grondeigenaar te verduidelijken, wordt hierna kort ingegaan op de meest voorkomende gevallen. 
 
 #### Opstalrecht en onzelfstandig opstalrecht
 
-Het opstalrecht (steeds een zakelijk recht) verschilt van het onzelfstandig opstalrecht dat in een ander (al dan niet zakelijk) recht vervat zit. Van een onzelfstandig opstalrecht, ook wel accessoir opstalrecht genoemd, is bijvoorbeeld sprake in een huurovereenkomst, een handelshuurovereenkomst, een erfpachtrecht of een vruchtgebruik. Het accessoir opstalrecht is accessoir aan een hoofdrecht. Dat is vaak een zakelijk recht, soms een obligatoir recht (bijvoorbeeld een huurrecht). Meestal is dat hoofdrecht ook contractueel verkregen, maar niet altijd (zo impliceert een erfdienstbaarheid van rechtswege een accessoir opstalrecht op het lijdend erf voor de werken vereist voor het gebruik. Sinds het Cassatiearrest van 19 mei 1988[^41]
- wordt algemeen aangenomen dat een expliciete verzaking aan het recht van natrekking op een onroerend goed een zelfstandig opstalrecht doet ontstaan waarop de bepalingen van de Opstalwet van toepassing zijn[^42]. 
+Het opstalrecht (steeds een zakelijk recht) verschilt van het onzelfstandig opstalrecht dat in een ander (al dan niet zakelijk) recht vervat zit. Van een onzelfstandig opstalrecht, ook wel accessoir opstalrecht genoemd, is bijvoorbeeld sprake in een huurovereenkomst, een handelshuurovereenkomst, een erfpachtrecht of een vruchtgebruik. Het accessoir opstalrecht is accessoir aan een hoofdrecht. Dat is vaak een zakelijk recht, soms een obligatoir recht (bijvoorbeeld een huurrecht). Meestal is dat hoofdrecht ook contractueel verkregen, maar niet altijd (zo impliceert een erfdienstbaarheid van rechtswege een accessoir opstalrecht op het lijdend erf voor de werken vereist voor het gebruik. Sinds het Cassatiearrest van 19 mei 1988[^41] wordt algemeen aangenomen dat een expliciete verzaking aan het recht van natrekking op een onroerend goed een zelfstandig opstalrecht doet ontstaan waarop de bepalingen van de Opstalwet van toepassing zijn[^42]. 
 
 De eigenaar van het goed waarop het opstalrecht betrekking heeft, bezit na het verstrijken van het opstalrecht opnieuw de volledige gebruiksrechten van het betrokken goed, samen met alle andere hieraan verbonden rechten. Wat betreft de eigendomsrechten met betrekking tot de gebouwen, werken of beplantingen wordt verwezen naar de artikelen 5 tot 8 Opstalwet. 
 
@@ -588,8 +566,7 @@ De natrekking vindt in principe onmiddellijk plaats, behalve indien de partijen 
 
 #### Kostenleer: verrijking zonder oorzaak
 
-Indien de bouwwerken bestaan uit bestanddelen die niet kunnen worden weggenomen, is de regeling van artikel 555 BW niet van toepassing. Uiteraard kunnen de partijen onderling een vergoedingsregeling afspreken. Deze vergoedingsregeling kan bijvoorbeeld geïnspireerd zijn op de kostenleer[^46]
- die een onderscheid maakt tussen noodzakelijke kosten, nuttige kosten en luxekosten, of op het principe van het verbod van verrijking zonder oorzaak waarbij geldt dat een vergoeding moet worden betaald ten belope van het kleinste bedrag tussen de verarming van de benadeelde en de vermogensvermeerdering van de bevoordeelde.
+Indien de bouwwerken bestaan uit bestanddelen die niet kunnen worden weggenomen, is de regeling van artikel 555 BW niet van toepassing. Uiteraard kunnen de partijen onderling een vergoedingsregeling afspreken. Deze vergoedingsregeling kan bijvoorbeeld geïnspireerd zijn op de kostenleer[^46] die een onderscheid maakt tussen noodzakelijke kosten, nuttige kosten en luxekosten, of op het principe van het verbod van verrijking zonder oorzaak waarbij geldt dat een vergoeding moet worden betaald ten belope van het kleinste bedrag tussen de verarming van de benadeelde en de vermogensvermeerdering van de bevoordeelde.
 
 Wat betreft de loutere verbeteringswerken die werden uitgevoerd door een opstalhouder, kan worden verwezen naar de expliciete bepalingen in artikel 599 BW en naar de bovenvermelde boekhoudkundige verwerking over het vruchtgebruik in randnummers 18 tot 21.
 
@@ -618,8 +595,7 @@ Bijgevolg zal de opstalhouder het gebouw boeken op de rekening 221 *Gebouwen*. V
 
 ##### De duur van het opstalrecht of onzelfstandig opstalrecht is onvoldoende lang om de uitgaven economisch volledig af te schrijven – (ernstige) vergoedingsregeling 
 
-In artikel 6 van de Opstalwet[^48]
- wordt bepaald dat de grondeigenaar bij het eindigen van het opstalrecht een vergoeding verschuldigd is ten bedrage van de waarde van de door de opstalhouder opgerichte gebouwen, werken of beplantingen. Deze waarde is de werkelijke waarde van de gebouwen, werken of beplantingen op het moment dat het recht verstrijkt. Bijgevolg kan worden aangenomen dat de gewone afschrijvingen over de economische levensduur van het onroerend goed zullen volstaan en dat dus niet over een kortere termijn moet worden afgeschreven om te voldoen aan de vereisten van het getrouwe beeld van de jaarrekening.
+In artikel 6 van de Opstalwet[^48] wordt bepaald dat de grondeigenaar bij het eindigen van het opstalrecht een vergoeding verschuldigd is ten bedrage van de waarde van de door de opstalhouder opgerichte gebouwen, werken of beplantingen. Deze waarde is de werkelijke waarde van de gebouwen, werken of beplantingen op het moment dat het recht verstrijkt. Bijgevolg kan worden aangenomen dat de gewone afschrijvingen over de economische levensduur van het onroerend goed zullen volstaan en dat dus niet over een kortere termijn moet worden afgeschreven om te voldoen aan de vereisten van het getrouwe beeld van de jaarrekening.
 
 Bij een onzelfstandig opstalrecht zal in de regel de houder van dit recht geen vergoeding kunnen eisen van de opstalgever bij afloop van het opstalrecht. Uiteraard kunnen de partijen wel overeenkomen om een vergoeding te betalen bij de beëindiging van het onzelfstandig opstalrecht. Indien een ernstige vergoedingsregeling werd overeengekomen, kan eveneens worden aangenomen dat om te voldoen aan de vereisten van het getrouwe beeld van de jaarrekening, het volstaat om het goed af te schrijven over zijn economische levensduur en dat het goed niet moet worden afgeschreven over de eventueel kortere looptijd van het onzelfstandig opstalrecht. 
 
@@ -636,8 +612,7 @@ Indien in de overeenkomst wordt bepaald dat aan het einde van de overeengekomen 
 
 ##### De overeenkomst bepaalt niet op welk tijdstip de natrekking uitwerking heeft
 
-Indien een overeenkomst een onzelfstandig opstalrecht inhoudt en er niet wordt bepaald op welk tijdstip de natrekking uitwerking heeft, mag worden verondersteld dat de natrekking pas aan het einde van de overeenkomst[^51]
- plaatsvindt.[^52]
+Indien een overeenkomst een onzelfstandig opstalrecht inhoudt en er niet wordt bepaald op welk tijdstip de natrekking uitwerking heeft, mag worden verondersteld dat de natrekking pas aan het einde van de overeenkomst[^51] plaatsvindt.[^52]
  Tot op het moment van de natrekking worden de bouwwerken geacht eigendom te zijn van de oprichter van de bouwwerken en zijn de in randnummers 77 tot 82 vermelde boekhoudregels van toepassing. 
 
 ##### Onderneming-bouwheer heeft geen zakelijk recht
@@ -683,8 +658,6 @@ Tijdens het boekjaar wordt een opstalrecht gevestigd voor een periode van 11 jaa
 |---|----------|--------------|-------|--------|
 | | 416 | Diverse vorderingen | 300.000 | |
 | aan | 764 | Andere uitzonderlijke opbrengsten | | 300.000 |
-
-[^58]
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
@@ -743,7 +716,7 @@ Het belangrijkste verschil tussen het erfpachtrecht en het opstalrecht is de loo
 
 Wat betreft de juridische eigendomsrechten met betrekking tot de door de erfpachthouder opgerichte of overgenomen gebouwen, wordt verwezen naar de artikelen 7, 8 en 17 van de Erfpachtwet. 
 
-Wat betreft de boekhoudkundige verwerking van een erfpachtrecht wordt verwezen naar de voorgaande hoofdstukken *III. Vruchtgebruik - Blote eigendom *en *IV. Opstalrecht.*
+Wat betreft de boekhoudkundige verwerking van een erfpachtrecht wordt verwezen naar de voorgaande hoofdstukken *III. Vruchtgebruik - Blote eigendom* en *IV. Opstalrecht.*
 
 ## Erfdienstbaarheid
 

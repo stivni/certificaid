@@ -1,51 +1,51 @@
 ---
-nummer: CBN-advies 2018/03
+bron: https://www.cbn-cnc.be/nl/adviezen/zetelverplaatsing-naar-belgie-inbound-verschil-in-waarderingsregels-ten-opzichte-van-het
 datum: 2018-04-18
+gerelateerde_adviezen:
+  - datum: '2020-12-16'
+    titel: 'Zetelverplaatsing naar België: model van staat van activa en passiva bij immigrerende vennootschappen'
+    url: https://www.cbn-cnc.be/nl/adviezen/zetelverplaatsing-naar-belgie-model-van-staat-van-activa-en-passiva-bij-immigrerende
+  - datum: '2010-12-08'
+    titel: 'Zetelverplaatsing naar België van een vennootschap opgericht naar buitenlands recht: gevolgen voor het voeren van de boekhouding en het opstellen van de jaarrekening'
+    url: https://www.cbn-cnc.be/nl/adviezen/zetelverplaatsing-naar-belgie-van-een-vennootschap-opgericht-naar-buitenlands-recht
+nummer: CBN-advies 2018/03
+provenance:
+  generated_at: '2026-05-11T13:05:08Z'
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/zetelverplaatsing-naar-belgie-inbound-verschil-in-waarderingsregels-ten-opzichte-van-het
+      sha256: 5cd6c2076ef528eaec67cf364366f3046355af5cc49943164d886f6599fa0018
+      version:
+  stale: false
+  stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
+  trust:
+    confirmed_at: '2026-05-11T12:21:40Z'
+    confirmed_by: subagent-sonnet-4-6
+    layer1:
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:29Z'
+      heading_count: 5
+      max_section_chars: 16859
+      file_size_chars: 21730
+      flags: []
+    layer2:
+      agent: subagent-sonnet-4-6
+      concrete_problemen: []
+      rationale: 'Geen zichtbare ETL-artefacten. Heading-hiërarchie correct (##, ###), voetnoten [^1] t/m [^24] volledig gedefinieerd en gerefereerd, inhoud compleet (inleiding, juridische continuïteit, boekhoudkundige continuïteit, uitzondering, voorbeeld). Geen TOC-residu, geen malformed italic, geen gebroken zinnen.'
+      run_at: '2026-05-11T12:21:40Z'
+      status: trusted
+    rationale: 'Geen zichtbare ETL-artefacten. Heading-hiërarchie correct (##, ###), voetnoten [^1] t/m [^24] volledig gedefinieerd en gerefereerd, inhoud compleet (inleiding, juridische continuïteit, boekhoudkundige continuïteit, uitzondering, voorbeeld). Geen TOC-residu, geen malformed italic, geen gebroken zinnen.'
+    status: trusted
 themas:
   - zetelverplaatsing
   - waarderingsregels
   - boekhoudkundige continuïteit
   - juridische continuiteit
-bron: https://www.cbn-cnc.be/nl/adviezen/zetelverplaatsing-naar-belgie-inbound-verschil-in-waarderingsregels-ten-opzichte-van-het
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/zetelverplaatsing-naar-belgie-inbound-verschil-in-waarderingsregels-ten-opzichte-van-het
-      sha256: 5cd6c2076ef528eaec67cf364366f3046355af5cc49943164d886f6599fa0018
-      version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:37:18Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: trusted
-    confirmed_at: '2026-05-11T12:21:40Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: 'Geen zichtbare ETL-artefacten. Heading-hiërarchie correct (##, ###), voetnoten [^1] t/m [^24] volledig gedefinieerd en gerefereerd, inhoud compleet (inleiding, juridische continuïteit, boekhoudkundige continuïteit, uitzondering, voorbeeld). Geen TOC-residu, geen malformed italic, geen gebroken zinnen.'
-    layer1:
-      status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 6
-      max_section_chars: 15026
-      file_size_chars: 21732
-      flags: []
-    layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:21:40Z'
-      rationale: 'Geen zichtbare ETL-artefacten. Heading-hiërarchie correct (##, ###), voetnoten [^1] t/m [^24] volledig gedefinieerd en gerefereerd, inhoud compleet (inleiding, juridische continuïteit, boekhoudkundige continuïteit, uitzondering, voorbeeld). Geen TOC-residu, geen malformed italic, geen gebroken zinnen.'
-      concrete_problemen: []
-gerelateerde_adviezen:
-  - titel: 'Zetelverplaatsing naar België: model van staat van activa en passiva bij immigrerende vennootschappen'
-    url: https://www.cbn-cnc.be/nl/adviezen/zetelverplaatsing-naar-belgie-model-van-staat-van-activa-en-passiva-bij-immigrerende
-    datum: '2020-12-16'
-  - titel: 'Zetelverplaatsing naar België van een vennootschap opgericht naar buitenlands recht: gevolgen voor het voeren van de boekhouding en het opstellen van de jaarrekening'
-    url: https://www.cbn-cnc.be/nl/adviezen/zetelverplaatsing-naar-belgie-van-een-vennootschap-opgericht-naar-buitenlands-recht
-    datum: '2010-12-08'
 ---
 
 # CBN-advies 2018/03 – Zetelverplaatsing naar België (inbound) – Verschil in waarderingsregels ten opzichte van het boekhoudkundig referentiestelsel van de Staat van herkomst
@@ -76,7 +76,8 @@ Een zetelverplaatsing wijzigt in geen enkel opzicht de vermogenssituatie van de 
 
 Het bestuursorgaan zal echter, in voorkomend geval, de waarderingsregels van de vennootschap moeten aanpassen om ze in overeenstemming te brengen met de Belgische boekhoudrechtelijke bepalingen van het uitvoeringsbesluit van het Wetboek van vennootschappen (hierna: KB W.Venn.).[^8],[^9] 
 
-Indien de vennootschap, vóór de zetelverplaatsing, de boekhouding voerde en de jaarrekening opstelde in een andere valuta dan de euro, moet de vennootschap in principe de boekhouding en de jaarrekening omzetten in euro.[^10] De Commissie is van mening dat de vennootschap de wisselkoers moet toepassen die geldt op de datum van de zetelverplaatsing, en niet de wisselkoers die geldt op de datum van de notariële akte die de zetelverplaatsing vaststelt, indien deze twee data niet samenvallen. 
+Indien de vennootschap, vóór de zetelverplaatsing, de boekhouding voerde en de jaarrekening opstelde in een andere valuta dan de euro, moet de vennootschap in principe de boekhouding en de jaarrekening omzetten in euro.[^10]
+ De Commissie is van mening dat de vennootschap de wisselkoers moet toepassen die geldt op de datum van de zetelverplaatsing, en niet de wisselkoers die geldt op de datum van de notariële akte die de zetelverplaatsing vaststelt, indien deze twee data niet samenvallen. 
 
 Om de toepasbare wisselkoers te bepalen, verwijst de Commissie naar haar CBN-advies 172/1[^11] dat enerzijds de monetaire/niet-monetaire methode, en anderzijds de methode van de slotkoers/netto-investeringen beschouwt. In het kader van een zetelverplaatsing, meent de Commissie dat de monetaire/niet-monetaire methode de voorkeur moet genieten.
 
@@ -96,9 +97,9 @@ Als voorbeeld wordt het geval van de kosten van uitgifte van een lening met loop
 
 De Commissie doet opmerken dat, indien de wetgeving van de Staat van herkomst een keuze biedt tussen twee waarderingsmethodes waarvan er één overeenstemt met de Belgische regels, de vennootschap kan beslissen om haar waarderingsregels aan te passen vóór de zetelverplaatsing om zo de methode toe te passen die verenigbaar is met de Belgische wetgeving. Op die manier kan de vennootschap de bovengenoemde waarderingsverschillen en moeilijkheden met betrekking tot de vergelijkbaarheid beperken of vermijden.
 
-### Uitzondering in geval van verschil in waarderingsregels dat een schending van het Belgisch boekhoudrecht kan inhouden
-
-Bij uitzondering op het beginsel van de boekhoudkundige continuïteit is de Commissie van mening dat bepaalde waarderingsverschillen tussen het buitenlands en het Belgisch boekhoudkundig referentiestelsel het nodig maken om de balansen op basis van de openingsbalans aan te passen.[^13] De bedoeling is dan om deze balansen in overeenstemming te brengen met de balansen zoals die eruit zouden hebben gezien indien de Belgische boekhoudregels van meet af aan waren toegepast.
+Uitzondering in geval van verschil in waarderingsregels dat een schending van het Belgisch boekhoudrecht kan inhouden
+Bij uitzondering op het beginsel van de boekhoudkundige continuïteit is de Commissie van mening dat bepaalde waarderingsverschillen tussen het buitenlands en het Belgisch boekhoudkundig referentiestelsel het nodig maken om de balansen op basis van de openingsbalans aan te passen.[^13]
+ De bedoeling is dan om deze balansen in overeenstemming te brengen met de balansen zoals die eruit zouden hebben gezien indien de Belgische boekhoudregels van meet af aan waren toegepast.
 
 De Commissie verwijst in dit verband naar haar voormeld advies 2011/2:
 
@@ -115,7 +116,7 @@ De Commissie meent dat een dergelijke uitzondering op het beginsel van de boekho
 
 De Commissie meent dat de daaropvolgende boekhoudkundige herwerkingen rechtstreeks moeten worden uitgevoerd door, desgevallend, naar de keuze van de vennootschap, het kapitaal, de uitgiftepremies, de belastingvrije reserves en/of de beschikbare reserves[^16] te crediteren of te debiteren.[^17] , [^18] 
 
-Indien het verschil in waardering voortvloeit uit een herwaarderingsmeerwaarde, geboekt overeenkomstig het buitenlandse boekhoudrecht die niet mag worden behouden overeenkomstig het Belgische boekhoudrecht (wanneer niet werd voldaan aan de voorwaarden uit artikel 57 of 100 KB W.Venn.[^19]), gebeurt de daaropvolgende boekhoudkundige herwerking evenwel door het debiteren van de rekening 12* Herwaarderingsmeerwaarden *tot een bedrag van het nog niet afgeschreven gedeelte[^20] en/of als de herwaarderingsmeerwaarde in het kapitaal werd opgenomen, door het debiteren van de rekening 10 *Kapitaal *voor het nog niet afschreven gedeelte[^21].
+Indien het verschil in waardering voortvloeit uit een herwaarderingsmeerwaarde, geboekt overeenkomstig het buitenlandse boekhoudrecht die niet mag worden behouden overeenkomstig het Belgische boekhoudrecht (wanneer niet werd voldaan aan de voorwaarden uit artikel 57 of 100 KB W.Venn.[^19]), gebeurt de daaropvolgende boekhoudkundige herwerking evenwel door het debiteren van de rekening 12* Herwaarderingsmeerwaarden *tot een bedrag van het nog niet afgeschreven gedeelte[^20] en/of als de herwaarderingsmeerwaarde in het kapitaal werd opgenomen, door het debiteren van de rekening 10* Kapitaal *voor het nog niet afschreven gedeelte[^21].
 
 De Commissie merkt op dat, in een Europese context, de boekhoudkundige herwerkingen zeer beperkt zullen zijn als gevolg van de harmonisering van de waarderingsregels door voornoemde Richtlijn 2013/34/EU.
 
@@ -123,9 +124,10 @@ Het voorbeeld kan worden aangehaald van een deelneming die als financieel vast a
 
 Er wordt verondersteld dat de Staat van herkomst het *fair value*-model toepast voor een dergelijk actief en dat de reële waarde van het vast actief hoger is dan de aanschaffingswaarde ervan. Er wordt eveneens verondersteld dat het actief wordt geboekt tegen reële waarde zonder dat een herwaarderingsmeerwaarde werd geboekt.
 
-Naar Belgisch boekhoudrecht dient het financieel vast actief in beginsel te worden geboekt tegen aanschaffingswaarde.[^23] De vennootschap kan evenwel een herwaarderingsmeerwaarde boeken met naleving van artikel 57 KB W.Venn.
+Naar Belgisch boekhoudrecht dient het financieel vast actief in beginsel te worden geboekt tegen aanschaffingswaarde.[^23]
+ De vennootschap kan evenwel een herwaarderingsmeerwaarde boeken met naleving van artikel 57 KB W.Venn.
 
-Zou *in casu *niet worden voldaan aan de voorwaarden van artikel 57 KB W.Venn., dan zou het behoud van het financieel vast actief tegen reële waarde in de openingsbalans een schending van het Belgisch boekhoudrecht betekenen. De vennootschap zou bijgevolg, naar mening van de Commissie, de boekwaarde van het financieel vast actief moeten herwerken zodat dit actief wordt geboekt tegen aanschaffingswaarde, namelijk (i) een bedrag boeken op de creditzijde van de relevante rekening van de rubriek 28 *Financiële vaste activa *dat overeenstemt met het verschil tussen de reële waarde van het financieel vast actief en de aanschaffingswaarde ervan en (ii) naar haar keuze[^24] de rekening(en) 10 *Kapitaal*, 11 *Uitgiftepremies*, 132 *Belastingvrije reserves *en/of 133 *Beschikbare reserves* dienovereenkomstig debiteren.
+Zou *in casu* niet worden voldaan aan de voorwaarden van artikel 57 KB W.Venn., dan zou het behoud van het financieel vast actief tegen reële waarde in de openingsbalans een schending van het Belgisch boekhoudrecht betekenen. De vennootschap zou bijgevolg, naar mening van de Commissie, de boekwaarde van het financieel vast actief moeten herwerken zodat dit actief wordt geboekt tegen aanschaffingswaarde, namelijk (i) een bedrag boeken op de creditzijde van de relevante rekening van de rubriek 28 *Financiële vaste activa* dat overeenstemt met het verschil tussen de reële waarde van het financieel vast actief en de aanschaffingswaarde ervan en (ii) naar haar keuze[^24] de rekening(en) 10 *Kapitaal*, 11* Uitgiftepremies*, 132* Belastingvrije reserves *en/of 133* Beschikbare reserves* dienovereenkomstig debiteren.
 
 [^1]: Onderhavig advies is tot stand gekomen nadat een ontwerp van het advies op 15 januari 2018 ter consultatie werd gepubliceerd op de website van de CBN.
 

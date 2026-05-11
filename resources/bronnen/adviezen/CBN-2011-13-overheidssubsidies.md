@@ -1,6 +1,39 @@
 ---
-nummer: CBN-advies 2011/13
+bron: https://www.cbn-cnc.be/nl/adviezen/overheidssubsidies
 datum: 2011-05-04
+nummer: CBN-advies 2011/13
+provenance:
+  generated_at: '2026-05-11T13:05:08Z'
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/overheidssubsidies
+      sha256: f994ee22711e985d88df6a643db5ad06c0f9102fb6dcbdaeb8dfcd2296467fab
+      version:
+  stale: false
+  stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
+  trust:
+    confirmed_at:
+    confirmed_by:
+    layer1:
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:28Z'
+      heading_count: 25
+      max_section_chars: 13822
+      file_size_chars: 41804
+      flags: []
+    layer2:
+      agent:
+      concrete_problemen: []
+      rationale:
+      run_at:
+      status: not_run
+    rationale: 'Trust gereset 2026-05-11: re-scrape met scraper-fixes, content-diff > 5%'
+    status: unreviewed
 themas:
   - administratieve overheid
   - exploitatiesubsidie
@@ -22,51 +55,6 @@ themas:
   - subsidies in natura
   - subsidies voor kosten van onderzoek en ontwikkeling
   - uitgestelde belastingen
-bron: https://www.cbn-cnc.be/nl/adviezen/overheidssubsidies
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/overheidssubsidies
-      sha256: f994ee22711e985d88df6a643db5ad06c0f9102fb6dcbdaeb8dfcd2296467fab
-      version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:36:12Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T12:09:18Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "D3: regels 220 en 238 bevatten orphaned `[^19]` en `[^20]` als standalone regels voor boekingtabellen — callouts zonder ankerzin. D4: in tabel op regel 354 staat `| aan | 414 | innen opbrengsten | | |` — het woord 'Te' is weggevallen (moet 'Te innen opbrengsten' zijn), wat een extractie-truncatie is. Verdere structuur (25 headings, markdown tabellen) correct."
-    layer1:
-      status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 25
-      max_section_chars: 13822
-      file_size_chars: 41842
-      flags: []
-    layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:09:18Z'
-      rationale: "D3: regels 220 en 238 bevatten orphaned `[^19]` en `[^20]` als standalone regels voor boekingtabellen — callouts zonder ankerzin. D4: in tabel op regel 354 staat `| aan | 414 | innen opbrengsten | | |` — het woord 'Te' is weggevallen (moet 'Te innen opbrengsten' zijn), wat een extractie-truncatie is. Verdere structuur (25 headings, markdown tabellen) correct."
-      concrete_problemen:
-        - regel: 220
-          categorie: D3
-          type: other
-          voorbeeld: ' [^19]'
-        - regel: 238
-          categorie: D3
-          type: other
-          voorbeeld: ' [^20]'
-        - regel: 354
-          categorie: D1
-          type: other
-          voorbeeld: '| aan | 414 | innen opbrengsten | | |'
 ---
 
 # CBN-advies 2011/13 – Overheidssubsidies
@@ -120,12 +108,10 @@ De Commissie is van oordeel dat het begrip “overheid” betrekking heeft op de
 
 Voor de kwalificatie als openbare instelling dient zowel aan organieke als aan functionele vereisten voldaan te zijn. Deze criteria worden tevens door de Raad van State en het Hof van Cassatie vooropgesteld. Organieke criteria hebben betrekking op de onderzochte organismen in hun geheel. Zo beogen de criteria “oprichting door de overheid”, “bestuurlijk toezicht”, “wil van de wetgever” en “rechtsvorm” personen in hun geheel als administratieve overheid aan te merken. De functionele criteria slaan op de taken en bevoegdheden van de onderzochte instellingen. Het betreft het vervullen van een taak van algemeen belang of een openbare dienst en de bevoegdheid om gezagshandelingen te stellen. 
 
-Zich deels baserend op de rechtspraak van de Raad van State en het Hof van Cassatie omtrent het begrip administratieve overheid[^3], en rekening houdende met de eerder aangehaalde organieke en functionele vereisten, zijn voor de Commissie volgende beoordelingscriteria[^4]
- van belang:
+Zich deels baserend op de rechtspraak van de Raad van State en het Hof van Cassatie omtrent het begrip administratieve overheid[^3], en rekening houdende met de eerder aangehaalde organieke en functionele vereisten, zijn voor de Commissie volgende beoordelingscriteria[^4] van belang:
 
 - het nastreven van een opdracht van algemeen belang, op continue en regelmatige basis; 
-- opgericht of als dusdanig erkend[^5]
- zijn door de federale overheid, de overheid van de gemeenschappen en gewesten, de provincies of gemeenten; 
+- opgericht of als dusdanig erkend[^5] zijn door de federale overheid, de overheid van de gemeenschappen en gewesten, de provincies of gemeenten; 
 - rechtspersoonlijkheid bezitten overeenkomstig een wet, een decreet, ordonnantie, enz.; en 
 - aan een administratieve en financiële controle van de openbare machten onderworpen zijn. 
 
@@ -190,18 +176,17 @@ Het bedrag van de geboekte kapitaal- en interestsubsidies door de overheid toege
 
 #### **Begrip en voorstelling in de jaarrekening (artikel 95 KB W.Venn.)**
 
-Het KB W.Venn. definieert het begrip kapitaalsubsidie niet. Artikel 95 KB W.Venn. bepaalt enkel dat de passiefpost VI. *Kapitaalsubsidies* de kapitaalsubsidies omvat die van overheidswege[^13]
- werden verkregen voor investeringen in vaste activa, na aftrek van de uitgestelde belastingen op deze subsidies. Deze uitgestelde belastingen worden, voor zover van toepassing[^14], opgenomen in de passiefpost VII.B. *Uitgestelde belastingen*.
+Het KB W.Venn. definieert het begrip kapitaalsubsidie niet. Artikel 95 KB W.Venn. bepaalt enkel dat de passiefpost VI. *Kapitaalsubsidies* de kapitaalsubsidies omvat die van overheidswege[^13] werden verkregen voor investeringen in vaste activa, na aftrek van de uitgestelde belastingen op deze subsidies. Deze uitgestelde belastingen worden, voor zover van toepassing[^14], opgenomen in de passiefpost VII.B. *Uitgestelde belastingen*.
 
 Met subsidies die “van overheidswege” worden verkregen, doelde de Regering destijds hoofdzakelijk op de subsidies verstrekt in het kader van de wetgeving op de economische expansie. Het is evenwel evident dat in de boekhouding het begrip kapitaalsubsidie niet mag worden beperkt tot het domein van de economische expansiewetgeving. 
 
-De Commissie wenst te benadrukken dat de kapitaalsubsidies afkomstig moeten zijn van de overheid waaraan door de wetgevende macht de bevoegdheid is toegekend om subsidies te verlenen, en die bovendien de controle uitoefent op het respecteren van de voorwaarden gekoppeld aan het verkrijgen van de subsidie. Bijgevolg mogen kapitaalsubsidies, ontvangen door een onderneming die deel uitmaakt van een groep, en die overgemaakt worden aan een andere entiteit van deze groep, in principe bij deze laatste entiteit niet worden opgenomen onder de post *Kapitaalsubsidies*. Herdistribueren binnen een groep kan slechts leiden tot een opname onder de post *Kapitaalsubsidies*, indien de onderneming die de subsidie overmaakt zelf het recht heeft om middelen ter beschikking te stellen, met andere woorden indien zij voldoet aan de onder hoofdstuk I uiteengezette criteria.
+De Commissie wenst te benadrukken dat de kapitaalsubsidies afkomstig moeten zijn van de overheid waaraan door de wetgevende macht de bevoegdheid is toegekend om subsidies te verlenen, en die bovendien de controle uitoefent op het respecteren van de voorwaarden gekoppeld aan het verkrijgen van de subsidie. Bijgevolg mogen kapitaalsubsidies, ontvangen door een onderneming die deel uitmaakt van een groep, en die overgemaakt worden aan een andere entiteit van deze groep, in principe bij deze laatste entiteit niet worden opgenomen onder de post *Kapitaalsubsidies*. Herdistribueren binnen een groep kan slechts leiden tot een opname onder de post* Kapitaalsubsidies*, indien de onderneming die de subsidie overmaakt zelf het recht heeft om middelen ter beschikking te stellen, met andere woorden indien zij voldoet aan de onder hoofdstuk I uiteengezette criteria.
 
 De kapitaalsubsidies worden geleidelijk afgeboekt via overboeking naar post IV.C. *Andere financiële opbrengsten* van de resultatenrekening, volgens hetzelfde ritme als de afschrijvingen op de vaste activa voor de verwerving waarvan ze werden verkregen of, in voorkomend geval, ten belope van het saldo, bij realisatie of buitengebruikstelling van de betrokken vaste activa[^15].
 
 De eventuele uitgestelde belastingen op deze kapitaalsubsidies worden oorspronkelijk gewaardeerd tegen het normale bedrag van de belasting die erop zou zijn geheven indien die subsidies zouden zijn belast ten laste van het boekjaar waarin zij werden geboekt. Zij worden evenwel gewaardeerd na aftrek van de weerslag van de belastingverminderingen en vrijstellingen (zoals aftrekbare, overgedragen verliezen, overgedragen notionele interestaftrek, ...) waarvan op het ogenblik dat deze subsidies worden geboekt, kan worden vermoed dat zij, in een nabije toekomst, zullen leiden tot een lagere belasting op deze subsidies[^16].
 
-De uitgestelde belastingen op de *kapitaalsubsidies *worden eveneens geleidelijk afgeboekt, gelijkmatig met de *kapitaalsubsidies* waarop ze betrekking hebben. Dit gebeurt via overboeking naar de post *Onttrekkingen aan de uitgestelde belastingen van de resultatenrekening*[^17]. 
+De uitgestelde belastingen op de *kapitaalsubsidies* worden eveneens geleidelijk afgeboekt, gelijkmatig met de *kapitaalsubsidies* waarop ze betrekking hebben. Dit gebeurt via overboeking naar de post *Onttrekkingen aan de uitgestelde belastingen van de resultatenrekening*[^17]. 
 
 #### **Toerekening van de subsidie aan de resultatenrekening**
 
@@ -228,9 +213,6 @@ Bij realisatie of buitengebruikstelling van de gesubsidieerde vaste activa, dien
 *Boekingen*
 
 Boeking op het ogenblik dat het recht op de kapitaalsubsidie komt vast te staan:
-
- [^19]
-
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 414 | Te innen opbrengsten | | |
@@ -239,16 +221,12 @@ Boeking op het ogenblik dat het recht op de kapitaalsubsidie komt vast te staan:
 | | [1680 | Uitgestelde belastingen op kapitaalsubsidies] | | |
 
 Boeking bij ontvangst:
-
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 550 | Kredietinstellingen | | |
 | aan | 414 | Te innen opbrengsten | | |
 
 Boeking bij toerekening van de subsidie aan de resultatenrekening:
-
- [^20]
-
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 15 | Kapitaalsubsidies | | |
@@ -260,29 +238,25 @@ Boeking bij toerekening van de subsidie aan de resultatenrekening:
 
 Indien de onderneming (een deel van) de kapitaalsubsidie dient terug te betalen (bijvoorbeeld omdat de voorwaarden niet langer worden nageleefd), zal dit in de boekhouding tot uitdrukking moeten worden gebracht.
 
-Het terug te betalen percentage van de kapitaalsubsidies die nog niet in resultaat werden genomen, dient afgeboekt te worden. Het terug te betalen percentage van de kapitaalsubsidies die reeds in het resultaat werden opgenomen, dient geboekt te worden als *Diverse* *financiële kosten* (rekening 657), tenzij het om bijzondere redenen[^21]
- verantwoord zou zijn ze als *Andere uitzonderlijke kosten* (rekening 664) te boeken. De terug te betalen subsidies mogen in geen geval in mindering worden gebracht van de subsidies ontvangen tijdens of toegerekend tot het boekjaar, aangezien artikel 25, §2 KB W.Venn. elke vorm van compensatie uitsluit, ook al wordt ze in de toelichting uitgesplitst.
+Het terug te betalen percentage van de kapitaalsubsidies die nog niet in resultaat werden genomen, dient afgeboekt te worden. Het terug te betalen percentage van de kapitaalsubsidies die reeds in het resultaat werden opgenomen, dient geboekt te worden als *Diverse* *financiële kosten* (rekening 657), tenzij het om bijzondere redenen[^21] verantwoord zou zijn ze als *Andere uitzonderlijke kosten* (rekening 664) te boeken. De terug te betalen subsidies mogen in geen geval in mindering worden gebracht van de subsidies ontvangen tijdens of toegerekend tot het boekjaar, aangezien artikel 25, §2 KB W.Venn. elke vorm van compensatie uitsluit, ook al wordt ze in de toelichting uitgesplitst.
 
 *Voorbeeld*
 
 De overheid kent in jaar N onder welbepaalde voorwaarden aan een onderneming een kapitaalsubsidie van 5.000 euro toe voor een investering van 25.000 euro. Deze kapitaalsubsidie is vrijgesteld van belastingen. De onderneming investeert in een machine, afschrijfbaar over 5 jaar. In het jaar N+2 blijkt dat de onderneming niet alle langer alle voorwaarden naleeft en de overheid vordert de helft van de kapitaalsubsidie terug. Op dat moment werd reeds 2.000 euro van de kapitaalsubsidie in resultaat genomen. 
 
 Boeking op het ogenblik dat het recht op de kapitaalsubsidie komt vast te staan:
-
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 414 | Te innen opbrengsten | 5.000 | |
 | aan | 15 | Kapitaalsubsidies | | 5.000 |
 
 Boeking bij ontvangst kapitaalsubsidie:
-
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 550 | Kredietinstellingen | 5.000 | |
 | aan | 414 | Te innen opbrengsten | | 5.000 |
 
-Boekingen op inventarisdatum jaar N: 
-
+Boekingen op inventarisdatum jaar N:
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 6302 | Afschrijvingen op materiële vaste activa | 5.000 | |
@@ -294,7 +268,6 @@ Boekingen op inventarisdatum jaar N:
 | aan | 753 | Kapitaal- en interestsubsidies | | 1.000 |
 
 Boekingen op inventarisdatum jaar N+1:
-
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 6302 | Afschrijvingen op materiële vaste activa | 5.000 | |
@@ -306,15 +279,13 @@ Boekingen op inventarisdatum jaar N+1:
 | aan | 753 | Kapitaal- en interestsubsidies | | 1.000 |
 
 Boeking op het ogenblik dat de subsidie wordt teruggevorderd in jaar N+2:
-
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 15 | Kapitaalsubsidies | 1.500 | |
 | | 657 | Diverse financiële kosten | 1.000 | |
 | aan | 489 | Andere diverse schulden | | 2.500 |
 
-Boeking op het ogenblik van de terugbetaling van de helft van de kapitaalsubsidie: 
-
+Boeking op het ogenblik van de terugbetaling van de helft van de kapitaalsubsidie:
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 489 | Andere diverse schulden | 2.500 | |
@@ -324,21 +295,14 @@ Boeking op het ogenblik van de terugbetaling van de helft van de kapitaalsubsidi
 
 *Fusies en (partiële) splitsingen*
 
-Voor de boekhoudkundige verwerking van kapitaalsubsidies bij fusies en (partiële) splitsingen, zie adviezen 2009/6[^22], 2009/8[^23]
- en 2009/11[^24].
-
+Voor de boekhoudkundige verwerking van kapitaalsubsidies bij fusies en (partiële) splitsingen, zie adviezen 2009/6[^22], 2009/8[^23] en 2009/11[^24].
 *Inbreng van een algemeenheid van goederen of een bedrijfstak*
 
 Voor de boekhoudkundige verwerking van kapitaalsubsidies bij inbreng van een algemeenheid van goederen of een bedrijfstak, zie advies 2009/15[^25].
-
 Een vennootschap die een algemeenheid van goederen of een bedrijfstak inbrengt, dient de nog niet in resultaat genomen kapitaalsubsidies die betrekking hebben op de ingebrachte activa, uit te boeken en in resultaat te nemen in de post Andere financiële opbrengsten[^26].
-
 Artikel 81 KB W.Venn. bepaalt dat bij inbreng van een bedrijfsafdeling of een algemeenheid van goederen zoals gedefinieerd in de artikelen 678 en 679 van het Wetboek van Vennootschappen, de ingebrachte activa, passiva, rechten en verplichtingen in de boekhouding worden opgenomen van de vennootschap waarin de inbreng gebeurt, tegen de waarde waarvoor zij op het tijdstip van de inbreng in de boekhouding van de inbrengende vennootschap voorkwamen.
-
 Indien een gesubsidieerd actief deel uitmaakt van een inbreng van een bedrijfsafdeling of van een algemeenheid van goederen, dient de kapitaalsubsidie bijgevolg uitgeboekt te worden bij de inbrengende vennootschap en voor hetzelfde bedrag terug te worden aangelegd bij de vennootschap waarin de inbreng gebeurt[^27].
-
 Deze kapitaalsubsidie dient in resultaat genomen te worden bij de verkrijgende vennootschap pro rata de afschrijvingen van het gesubsidieerde actief.
-
 ### ***Interestsubidies***
 
 #### **Begrip en voorstelling in de jaarrekening**
@@ -376,7 +340,7 @@ Indien de geboekte interestsubsidie gedeeltelijk betrekking heeft op volgende bo
 
 ## **Exploitatiesubsidies**
 
-### ***Begrip en voorstelling in de jaarrekening ***
+### ***Begrip en voorstelling in de jaarrekening** *
 
 Exploitatiesubsidies zijn subsidies die niet afhankelijk zijn van een investering in vaste activa. Het betreft bedragen die door de overheid aan een entiteit worden toegekend om bepaalde exploitatiekosten te compenseren of te dekken. Artikel 95 KB W.Venn. bepaalt dat de kapitaalsubsidies die niet afhankelijk zijn van een investering in vaste activa worden geboekt als bedrijfsopbrengsten of financiële opbrengsten in de resultatenrekening. 
 

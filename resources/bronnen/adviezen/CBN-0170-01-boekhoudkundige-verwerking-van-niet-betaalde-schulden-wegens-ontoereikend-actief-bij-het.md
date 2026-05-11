@@ -1,6 +1,46 @@
 ---
-nummer: CBN-advies 170/1
+bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-niet-betaalde-schulden-wegens-ontoereikend-actief-bij-het
 datum: 1995-03-01
+gerelateerde_adviezen:
+  - datum: '1984-01-13'
+    titel: Invloed van een gerechtelijk akkoord op de schulden en vorderingen
+    url: https://www.cbn-cnc.be/nl/adviezen/invloed-van-een-gerechtelijk-akkoord-op-de-schulden-en-vorderingen
+  - datum: '1988-12-23'
+    titel: Vordering wegens levering van goederen en diensten omgevormd tot renteloze leningen op meer dan 1 jaar (update)
+    url: https://www.cbn-cnc.be/nl/adviezen/vordering-wegens-levering-van-goederen-en-diensten-omgevormd-tot-renteloze-leningen-op
+nummer: CBN-advies 170/1
+provenance:
+  generated_at: '2026-05-11T13:05:06Z'
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-niet-betaalde-schulden-wegens-ontoereikend-actief-bij-het
+      sha256: 0b4dd10124011858567a0519d041f6ebede941ff81ccfb1a9148225c85908b25
+      version:
+  stale: false
+  stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
+  trust:
+    confirmed_at:
+    confirmed_by:
+    layer1:
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:26Z'
+      heading_count: 0
+      max_section_chars: 1888
+      file_size_chars: 1888
+      flags: []
+    layer2:
+      agent:
+      concrete_problemen: []
+      rationale:
+      run_at:
+      status: not_run
+    rationale: 'Trust gereset 2026-05-11: re-scrape met scraper-fixes, content-diff > 5%'
+    status: unreviewed
 themas:
   - gerechtelijk akkoord
   - niet-betaalde schulden wegens ontoereikend actief bij sluiten vereffening
@@ -8,58 +48,11 @@ themas:
   - schulden
   - vereffening
   - vordering
-bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-niet-betaalde-schulden-wegens-ontoereikend-actief-bij-het
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-niet-betaalde-schulden-wegens-ontoereikend-actief-bij-het
-      sha256: 0b4dd10124011858567a0519d041f6ebede941ff81ccfb1a9148225c85908b25
-      version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:35:36Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T12:09:17Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: 'B3: duplicate H1-heading op r.53 en r.55 — de tweede is bovendien vetgedrukt (**...**), wat een duidelijk extractie-artefact is. De body zelf is inhoudelijk compleet en correct (heading_count: 0 na de duplicaat is ook logisch want er zijn geen subheadings). Kleine maar duidelijk zichtbaar artefact.'
-    layer1:
-      status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 0
-      max_section_chars: 2027
-      file_size_chars: 2027
-      flags: []
-    layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:09:17Z'
-      rationale: 'B3: duplicate H1-heading op r.53 en r.55 — de tweede is bovendien vetgedrukt (**...**), wat een duidelijk extractie-artefact is. De body zelf is inhoudelijk compleet en correct (heading_count: 0 na de duplicaat is ook logisch want er zijn geen subheadings). Kleine maar duidelijk zichtbaar artefact.'
-      concrete_problemen:
-        - regel: 55
-          categorie: B3
-          type: other
-          voorbeeld: '# **CBN advies 170-1 - Boekhoudkundige verwerking...** (duplicate bold H1)'
-gerelateerde_adviezen:
-  - titel: Invloed van een gerechtelijk akkoord op de schulden en vorderingen
-    url: https://www.cbn-cnc.be/nl/adviezen/invloed-van-een-gerechtelijk-akkoord-op-de-schulden-en-vorderingen
-    datum: '1984-01-13'
-  - titel: Vordering wegens levering van goederen en diensten omgevormd tot renteloze leningen op meer dan 1 jaar (update)
-    url: https://www.cbn-cnc.be/nl/adviezen/vordering-wegens-levering-van-goederen-en-diensten-omgevormd-tot-renteloze-leningen-op
-    datum: '1988-12-23'
 ---
-
-# CBN advies 170-1 - Boekhoudkundige verwerking van niet-betaalde schulden wegens ontoereikend actief bij het sluiten van de vereffening
 
 # **CBN advies 170-1 - Boekhoudkundige verwerking van niet-betaalde schulden wegens ontoereikend actief bij het sluiten van de vereffening**
 
-In haar advies 143/1[^1]
- onderzocht de Commissie de invloed van een gerechtelijk akkoord op de schulden en de vorderingen. 
+In haar advies 143/1[^1] onderzocht de Commissie de invloed van een gerechtelijk akkoord op de schulden en de vorderingen. 
 
 Zij kwam daarbij tot het besluit dat wanneer een gerechtelijk akkoord voorziet in een kwijtschelding van al of een deel van de schulden, de betrokken schuld van het passief van de debiteur moet worden afgeboekt en deze vermogensmutatie in de resultatenrekening tot uitdrukking moet worden gebracht ook al is de schuldenaar verplicht, indien hij later daartoe in staat is, deze concordataire schulden te betalen. 
 

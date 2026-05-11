@@ -1,34 +1,34 @@
 ---
-nummer: CBN-advies 2009/14
-datum: 2009-12-16
-themas:
-  - certificaten
-  - groenestroomcertificaten
-  - immateriële vaste activa
-  - warmtekrachtcertificaten
 bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-groenestroom-en-warmtekrachtcertificaten
+datum: 2009-12-16
+gerelateerde_adviezen:
+  - datum: '2002-05-02'
+    titel: Advies met betrekking tot de jaarrekeningrechtelijke aspecten van de certificatie van aandelen van handelsvennootschappen(1)
+    url: https://www.cbn-cnc.be/nl/adviezen/advies-met-betrekking-tot-de-jaarrekeningrechtelijke-aspecten-van-de-certificatie-van
+  - datum: '2008-10-29'
+    titel: Advies horizontale consolidatie in combinatie met administratiekantoren
+    url: https://www.cbn-cnc.be/nl/adviezen/advies-horizontale-consolidatie-in-combinatie-met-administratiekantoren
+nummer: CBN-advies 2009/14
 provenance:
+  generated_at: '2026-05-11T13:05:07Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-groenestroom-en-warmtekrachtcertificaten
       sha256: 85136cbdeddd74f045516293aabbc109e971c34503da8aee4b443e3d933d8c60
       version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T21:17:24Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
   trust:
-    status: trusted
     confirmed_at: '2026-05-08T21:19:09Z'
     confirmed_by: human
-    rationale: "Heading-structuur hersteld: <p class='indented'> → ### headings. 18 headings op H3/H4-niveau over 71K chars. max_section_size warn is benign (meting op ## niveau, chunking op H4 niveau aanbevolen). Inhoud volledig."
     layer1:
       status: warn
-      run_id: 20260511-083333
-      run_at:
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:27Z'
       heading_count: 18
       max_section_chars: 30136
       file_size_chars: 71732
@@ -38,18 +38,18 @@ provenance:
           detail: 'langste sectie op ####-niveau: 30136 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
           samples: []
     layer2:
-      status: not_run
       agent:
-      run_at:
-      rationale:
       concrete_problemen: []
-gerelateerde_adviezen:
-  - titel: Advies met betrekking tot de jaarrekeningrechtelijke aspecten van de certificatie van aandelen van handelsvennootschappen(1)
-    url: https://www.cbn-cnc.be/nl/adviezen/advies-met-betrekking-tot-de-jaarrekeningrechtelijke-aspecten-van-de-certificatie-van
-    datum: '2002-05-02'
-  - titel: Advies horizontale consolidatie in combinatie met administratiekantoren
-    url: https://www.cbn-cnc.be/nl/adviezen/advies-horizontale-consolidatie-in-combinatie-met-administratiekantoren
-    datum: '2008-10-29'
+      rationale:
+      run_at:
+      status: not_run
+    rationale: 'Heading-structuur hersteld: <p class=''indented''> → ### headings. 18 headings op H3/H4-niveau over 71K chars. max_section_size warn is benign (meting op ## niveau, chunking op H4 niveau aanbevolen). Inhoud volledig.'
+    status: trusted
+themas:
+  - certificaten
+  - groenestroomcertificaten
+  - immateriële vaste activa
+  - warmtekrachtcertificaten
 ---
 
 # CBN-advies 2009/14 - Boekhoudkundige verwerking van groenestroom- en warmtekrachtcertificaten
@@ -105,7 +105,7 @@ Voor de groene stroom waarvan de producent (de certificaatgerechtigde) aantoont 
 
 Het is de aanvrager van de aansluiting van productie-installaties van elektriciteit uit hernieuwbare energiebronnen die de noodzakelijke kosten draagt voor de aansluiting op het distributienet[^32]. De netbeheerder draagt alle overige kosten voor de uitbouw van het distributienet voor de opname en het transport van de geleverde energie.
 
-*b) Het gebruik van de groenestroomcertificaten in het kader van de certificatenverplichting[^33] *
+*b) Het gebruik van de groenestroomcertificaten in het kader van de certificatenverplichting[^33]* 
 
 Elektriciteitsleveranciers zijn verplicht om een minimumaandeel van hun, aan de eindverbruikers aangesloten op het distributienet, geleverde elektriciteit te halen uit hernieuwbare energiebronnen. Beschikken zij enkel over *grijze stroom* (elektriciteit die niet werd opgewekt uit hernieuwbare energiebronnen), dan zullen zij bijgevolg een minimumaandeel van de door hen geleverde elektriciteit *groen kleuren* door een daarmee overeenstemmende hoeveelheid groenestroomcertificaten aan te kopen[^34]. Iedere leverancier (de certificaatplichtige) die elektriciteit levert aan eindafnemers in het Vlaamse Gewest aangesloten op het distributienet legt, om aan deze quotumplicht te voldoen, jaarlijks, vóór 31 maart van het daaropvolgende jaar, een overeenstemmend aantal groenestroomcertificaten voor aan de VREG[^35]. In die zin is het aantal in te leveren groenestroomcertificaten afhankelijk van het marktaandeel van de leverancier tijdens het jaar voorafgaand aan het jaar waarop de leverancier de certificaten moet overmaken aan de regulator.
 
@@ -113,7 +113,7 @@ Leveranciers die niet zelf elektriciteit produceren moeten aan groenestroomcerti
 
 Het aantal groenestroomcertificaten dat in een bepaald jaar moet worden voorgelegd, wordt vastgesteld met een welbepaalde formule, uiteengezet in art. 23 §2 van het Elektriciteitsdecreet. De groenstroomcertificaten kunnen daartoe worden gebruikt in het jaar waarin ze werden toegekend en in de vijf daaropvolgende boekjaren[^37]. Eens een groenestroomcertificaat werd ingeleverd, is het certificaat niet meer verhandelbaar en kan het niet meer worden gebruikt[^38].
 
-*c) Het gebruik van groenestroomcertificaten als garantie van oorsprong[^39] *
+*c) Het gebruik van groenestroomcertificaten als garantie van oorsprong[^39]* 
 
 Het systeem van de labels van garantie van oorsprong werd geïmplementeerd op Europees niveau door de Richtlijn 2001/77/EG en maakt de *naspeurbaarheid* van elektriciteit afkomstig uit hernieuwbare energiebronnen mogelijk. Een garantie van oorsprong kan worden beschouwd als een soort etiket dat aan een bepaalde hoeveelheid elektriciteit, afkomstig uit een hernieuwbare energiebron, is verbonden.
 
@@ -153,11 +153,11 @@ In het Waalse Gewest kunnen vanaf 1 januari 2007 alle afnemers[^60] vrij een ele
 
 #### Het systeem van groene certificaten
 
-*a) Label van garantie van oorsprong[^63] *
+*a) Label van garantie van oorsprong[^63]* 
 
 Om de identificatie van de elektriciteit uit hernieuwbare energiebronnen[^64] en/of hoogrenderende warmtekrachtkoppeling[^65] te vergemakkelijken, wordt door de Waalse regering een systeem van labels van garantie van oorsprong[^66] opgezet.
 
-Om labels van garantie van oorsprong (en ook groene certificaten, cfr. infra) te verkrijgen, heeft de producent van elektriciteit uit hernieuwbare energiebronnen en/of hoogrenderende warmtekrachtkoppeling voor zijn productiesite[^67] een *certificaat van garantie van oorsprong* nodig, dat door een erkend controleorgaan wordt afgegeven[^68]. Dergelijk certificaat bewijst dat de hoeveelheden elektriciteit geproduceerd op basis van hernieuwbare energiebronnen of van hoogrenderende warmtekrachtkoppeling door die site duidelijk kunnen worden geïdentificeerd en gemeten, en dat die elektriciteit, desgevallend, gekwalificeerd en verkocht mag worden onder het label *électricité garantie d'origine renouvelable et/ou de cogénération à haut rendement[^69] *.
+Om labels van garantie van oorsprong (en ook groene certificaten, cfr. infra) te verkrijgen, heeft de producent van elektriciteit uit hernieuwbare energiebronnen en/of hoogrenderende warmtekrachtkoppeling voor zijn productiesite[^67] een *certificaat van garantie van oorsprong* nodig, dat door een erkend controleorgaan wordt afgegeven[^68]. Dergelijk certificaat bewijst dat de hoeveelheden elektriciteit geproduceerd op basis van hernieuwbare energiebronnen of van hoogrenderende warmtekrachtkoppeling door die site duidelijk kunnen worden geïdentificeerd en gemeten, en dat die elektriciteit, desgevallend, gekwalificeerd en verkocht mag worden onder het label *électricité garantie d'origine renouvelable et/ou de cogénération à haut rendement[^69]* .
 
 Het is de Waalse regulator, CWaPE, die de labels van garantie van oorsprong toekent. Er wordt een label van garantie van oorsprong toegekend per welbepaalde geproduceerde energiehoeveelheid. Deze labels zijn overdraagbaar[^70] en hebben een geldigheidsduur die ingaat op de einddatum van bedoelde productieperiode en afloopt aan het einde van het eerstvolgende kalenderjaar.
 
@@ -223,7 +223,7 @@ Aan de hand van de gegevens die door de meetinstrumenten van de gecertificeerde 
 
 De toekenning van groenestroomcertificaten geschiedt geïnformatiseerd en bijgevolg onder immateriële vorm, door inschrijving van een titel voor groenestroomcertificaten op het krediet van de rekening die overeenkomt met de installatie in een gegevensbank die door BRUGEL wordt beheerd. Elk groenestroomcertificaat heeft een geldigheidsduur van vijf jaar vanaf de dag waarop het werd toegekend[^105].
 
-*b) Het gebruik van de groenestroomcertificaten in het kader van de certificatenverplichting[^106] *
+*b) Het gebruik van de groenestroomcertificaten in het kader van de certificatenverplichting[^106]* 
 
 Iedere leverancier levert aan BRUGEL een aantal groenestroomcertificaten af, dat afhankelijk is van het geheel van leveringen in de loop van het jaar aan in aanmerking komende afnemers gevestigd op het grondgebied van het Brussels Hoofdstedelijk Gewest[^107]. Elke leverancier deelt hiertoe ten laatste op 31 januari van elk jaar aan BRUGEL de cijfers mee betreffende de leveringen die hij tijdens het voorgaande jaar heeft verricht. De leveranciers duiden daarbij aan welke eindafnemers werden bevoorraad met groene electriciteit (aan de hand van de labels van garantie van oorsprong (cfr. infra) die in dit kader door de leverancier moeten worden voorgelegd). Op basis van deze gegevens berekent en deelt BRUGEL aan iedere leverancier ten laatste op 28 februari mee hoeveel certificaten deze moet afgeven. De leverancier duidt vervolgens aan welke van de groenestroomcertificaten die op zijn rekening staan in rekening moeten worden gebracht tot naleving van deze verplichting. Elk in rekening gebracht certificaat wordt vervolgens in de gegevensbank geannuleerd. In geval van niet naleving van deze verplichting, legt BRUGEL aan de leverancier een administratieve boete[^108] op. Leveranciers die zelf geen producent zijn van groene elektriciteit, zullen de groenestroomcertificaten moeten aankopen.
 
@@ -261,13 +261,13 @@ Aangezien de Noordzee onder de federale bevoegdheid valt (cfr. supra), werd voor
 
 ### 3. BOEKHOUDKUNDIGE VERWERKING
 
-Alhoewel er grote gelijkenissen zijn met advies 179/1 *Boekhoudkundige verwerking van broeikasgasemissierechten[^121] *, wijst de Commissie evenwel op een aantal belangrijke verschillen tussen de groenestroom- en warmtekrachtcertificaten en de broeikasgasemissierechten. Het belangrijkste verschil is dat de partijen die certificaatgerechtigd zijn (de producenten), niet (altijd) dezelfde zijn als degenen die de certificaten moet indienen om aan de quotumverplichting te voldoen (de certificaatplichtingen, zijnde de leveranciers). Dit is wel het geval voor broeikasgasemissierechten, waar de rollen van certificaatgerechtigde en quotumplichtige partij altijd samenvallen. Toch hebben beide systemen gemeenschappelijk dat de certificaten en broeikasgasemissierechten kunnen verhandeld worden als onderdeel van het proces gericht op het inleveren van een voldoende aantal certificaten/broeikasgasemissierechten.
+Alhoewel er grote gelijkenissen zijn met advies 179/1 *Boekhoudkundige verwerking van broeikasgasemissierechten[^121]* , wijst de Commissie evenwel op een aantal belangrijke verschillen tussen de groenestroom- en warmtekrachtcertificaten en de broeikasgasemissierechten. Het belangrijkste verschil is dat de partijen die certificaatgerechtigd zijn (de producenten), niet (altijd) dezelfde zijn als degenen die de certificaten moet indienen om aan de quotumverplichting te voldoen (de certificaatplichtingen, zijnde de leveranciers). Dit is wel het geval voor broeikasgasemissierechten, waar de rollen van certificaatgerechtigde en quotumplichtige partij altijd samenvallen. Toch hebben beide systemen gemeenschappelijk dat de certificaten en broeikasgasemissierechten kunnen verhandeld worden als onderdeel van het proces gericht op het inleveren van een voldoende aantal certificaten/broeikasgasemissierechten.
 
 #### Boekhoudkundige verwerking bij de producent
 
 De toekenning van de groenestroomcertificaten[^122] betreft een soort van tegemoetkoming van de overheid voor de aanzienlijke investering verricht door de producent ter productie van energie uit hernieuwbare energiebronnen[^123].
 
-De certificaten vormen, zoals tevens in het eerder verschenen advies 179/1[^124] werd gesteld, een soort van betaalmiddel en kunnen worden beschouwd als onlichamelijk roerende zakelijke rechten[^125] of roerende rechten van immateriële aard[^126]. Gezien de omschrijving die art. 95 K.B. W.Venn. geeft aan de inhoud van de post *Immateriële vaste activa*, lijkt het de Commissie aangewezen de aan de producent toegekende certificaten onder de *Immateriële vaste activa* op te nemen. Hiertoe kan de in advies 179/1 voorgestelde rekening ‘2140[^127]
+De certificaten vormen, zoals tevens in het eerder verschenen advies 179/1[^124] werd gesteld, een soort van betaalmiddel en kunnen worden beschouwd als onlichamelijk roerende zakelijke rechten[^125] of roerende rechten van immateriële aard[^126]. Gezien de omschrijving die art. 95 K.B. W.Venn. geeft aan de inhoud van de post *Immateriële vaste activa*, lijkt het de Commissie aangewezen de aan de producent toegekende certificaten onder de* Immateriële vaste activa* op te nemen. Hiertoe kan de in advies 179/1 voorgestelde rekening ‘2140[^127]
 ’ eventueel verder worden onderverdeeld.
 
 Op moment van toekenning van de certificaten (maandelijks) door de gewestelijke regulator aan de producent, worden deze certificaten in de boekhouding van de producent opgenomen aan aanschaffingswaarde[^128]. Het voorzichtigheidsprincipe[^129] in acht nemende, kan de minimumsteun die de netbeheerder zou betalen in het kader van zijn verplichte overname worden beschouwd als de aanschaffingswaarde, aangezien dit de waarde betreft waartegen de producent de certificaten steeds kan realiseren. Op hetzelfde moment wordt dit bedrag opgenomen onder de *Overige Opbrengsten*. Op deze manier worden de opbrengsten in resultaat genomen in de periode waarin ook de productiekosten worden gedragen (overeenstemmingsprincipe).

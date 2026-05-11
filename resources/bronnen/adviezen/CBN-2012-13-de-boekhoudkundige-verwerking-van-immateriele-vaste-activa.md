@@ -1,6 +1,60 @@
 ---
-nummer: CBN-advies 2012/13
+bron: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-immateriele-vaste-activa
 datum: 2012-10-10
+gerelateerde_adviezen:
+  - datum: '2025-06-06'
+    titel: 'Aanschaffingsprijs : bijkomende kosten (update) [ONTWERP]'
+    url: https://www.cbn-cnc.be/nl/adviezen/aanschaffingsprijs-bijkomende-kosten-update-ontwerp
+  - datum: '2017-02-01'
+    titel: 'Invoer: douanerechten en verlegging van de heffing van de btw'
+    url: https://www.cbn-cnc.be/nl/adviezen/invoer-douanerechten-en-verlegging-van-de-heffing-van-de-btw
+  - datum: '2002-05-01'
+    titel: Bepaling van de aanschaffingswaarde van activa verkregen onder bezwarende titel of om niet
+    url: https://www.cbn-cnc.be/nl/adviezen/bepaling-van-de-aanschaffingswaarde-van-activa-verkregen-onder-bezwarende-titel-of-om-niet
+  - datum: '1996-11-01'
+    titel: Boeking en waardering van voorraden
+    url: https://www.cbn-cnc.be/nl/adviezen/boeking-en-waardering-van-voorraden
+nummer: CBN-advies 2012/13
+provenance:
+  generated_at: '2026-05-11T13:05:08Z'
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-immateriele-vaste-activa
+      sha256: 67a3d88a28e5f96ab6003fd3e7c83b626e8511afd470d5ff4def5332c7710318
+      version:
+  stale: false
+  stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
+  trust:
+    confirmed_at: '2026-05-11T12:09:18Z'
+    confirmed_by: subagent-sonnet-4-6
+    layer1:
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:28Z'
+      heading_count: 26
+      max_section_chars: 18890
+      file_size_chars: 32463
+      flags: []
+    layer2:
+      agent: subagent-sonnet-4-6
+      concrete_problemen:
+        - categorie: A3
+          regel: 102
+          type: other
+          voorbeeld: '---- Aanschaffingsprijs---- Vervaardigingsprijs---- Inbrengwaarde-- Afschrijvingen en waardeverminderingen...'
+        - categorie: G3
+          regel: 246
+          type: other
+          voorbeeld: ' [^13][^14][^15][^16]'
+      rationale: 'A3: regel 102 bevat een duplicate TOC als lange aaneengesloten plain-text-blob (''---- Aanschaffingsprijs---- Vervaardigingsprijs---- Inbrengwaarde-- Afschrijvingen...Goodwill-- Inleiding en begrippen -- Afschrijvingen op goodwill'') die de volledige TOC herhaalt als extractie-artefact. D4: regel 246 heeft ''[^13][^14][^15][^16]'' als vier aaneengeplakte footnote-markers zonder tussenliggende tekst — dit zijn inline footnote-markers die normaal verspreid zouden staan.'
+      run_at: '2026-05-11T12:09:18Z'
+      status: needs-rework
+    rationale: 'A3: regel 102 bevat een duplicate TOC als lange aaneengesloten plain-text-blob (''---- Aanschaffingsprijs---- Vervaardigingsprijs---- Inbrengwaarde-- Afschrijvingen...Goodwill-- Inleiding en begrippen -- Afschrijvingen op goodwill'') die de volledige TOC herhaalt als extractie-artefact. D4: regel 246 heeft ''[^13][^14][^15][^16]'' als vier aaneengeplakte footnote-markers zonder tussenliggende tekst — dit zijn inline footnote-markers die normaal verspreid zouden staan.'
+    status: needs-rework
 themas:
   - aanschaffingsprijs
   - aanschaffingswaarde
@@ -18,60 +72,6 @@ themas:
   - vervaardigingsprijs
   - Vooruitbetaling
   - Waardevermindering
-bron: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-immateriele-vaste-activa
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-immateriele-vaste-activa
-      sha256: 67a3d88a28e5f96ab6003fd3e7c83b626e8511afd470d5ff4def5332c7710318
-      version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:36:29Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T12:09:18Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "A3: regel 102 bevat een duplicate TOC als lange aaneengesloten plain-text-blob ('---- Aanschaffingsprijs---- Vervaardigingsprijs---- Inbrengwaarde-- Afschrijvingen...Goodwill-- Inleiding en begrippen -- Afschrijvingen op goodwill') die de volledige TOC herhaalt als extractie-artefact. D4: regel 246 heeft '[^13][^14][^15][^16]' als vier aaneengeplakte footnote-markers zonder tussenliggende tekst — dit zijn inline footnote-markers die normaal verspreid zouden staan."
-    layer1:
-      status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 24
-      max_section_chars: 18885
-      file_size_chars: 32459
-      flags: []
-    layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:09:18Z'
-      rationale: "A3: regel 102 bevat een duplicate TOC als lange aaneengesloten plain-text-blob ('---- Aanschaffingsprijs---- Vervaardigingsprijs---- Inbrengwaarde-- Afschrijvingen...Goodwill-- Inleiding en begrippen -- Afschrijvingen op goodwill') die de volledige TOC herhaalt als extractie-artefact. D4: regel 246 heeft '[^13][^14][^15][^16]' als vier aaneengeplakte footnote-markers zonder tussenliggende tekst — dit zijn inline footnote-markers die normaal verspreid zouden staan."
-      concrete_problemen:
-        - regel: 102
-          categorie: A3
-          type: other
-          voorbeeld: '---- Aanschaffingsprijs---- Vervaardigingsprijs---- Inbrengwaarde-- Afschrijvingen en waardeverminderingen...'
-        - regel: 246
-          categorie: G3
-          type: other
-          voorbeeld: ' [^13][^14][^15][^16]'
-gerelateerde_adviezen:
-  - titel: 'Aanschaffingsprijs : bijkomende kosten (update) [ONTWERP]'
-    url: https://www.cbn-cnc.be/nl/adviezen/aanschaffingsprijs-bijkomende-kosten-update-ontwerp
-    datum: '2025-06-06'
-  - titel: 'Invoer: douanerechten en verlegging van de heffing van de btw'
-    url: https://www.cbn-cnc.be/nl/adviezen/invoer-douanerechten-en-verlegging-van-de-heffing-van-de-btw
-    datum: '2017-02-01'
-  - titel: Bepaling van de aanschaffingswaarde van activa verkregen onder bezwarende titel of om niet
-    url: https://www.cbn-cnc.be/nl/adviezen/bepaling-van-de-aanschaffingswaarde-van-activa-verkregen-onder-bezwarende-titel-of-om-niet
-    datum: '2002-05-01'
-  - titel: Boeking en waardering van voorraden
-    url: https://www.cbn-cnc.be/nl/adviezen/boeking-en-waardering-van-voorraden
-    datum: '1996-11-01'
 ---
 
 # CBN-advies 2012/13 – De boekhoudkundige verwerking van immateriële vaste activa
@@ -115,8 +115,7 @@ Zowel in het volledige, als in het verkorte schema van de jaarrekening wordt op 
 
 Onder de immateriële vaste activa moet worden verstaan, de ondernemingsmiddelen van onlichamelijke aard die bestemd zijn om duurzaam voor de bedrijfsactiviteit te worden gebruikt, en waaruit naar verwachting toekomstige economische voordelen naar de onderneming zullen vloeien. 
 
-De rubriek immateriële vaste activa wordt overeenkomstig artikel 95 van het koninklijk besluit van 30 januari 2001 tot uitvoering van het Wetboek van Vennootschappen[^1]
- (hierna: KB W.Venn.) uitgesplitst in: 
+De rubriek immateriële vaste activa wordt overeenkomstig artikel 95 van het koninklijk besluit van 30 januari 2001 tot uitvoering van het Wetboek van Vennootschappen[^1] (hierna: KB W.Venn.) uitgesplitst in: 
 
 - kosten van onderzoek en ontwikkeling; 
 - concessies, octrooien, licenties, know-how, merken en soortgelijke rechten; 
@@ -213,7 +212,7 @@ De jaarlijkse weerkerende kosten van reclame en marketing ter ondersteuning en v
 
 De immateriële vaste activa komen niet in aanmerking voor herwaardering. 
 
-Tot vóór de inwerkingtreding van het koninklijk besluit van 12 september 1983 tot wijziging van het koninklijk besluit van 8 oktober 1976 met betrekking tot de jaarrekening van de ondernemingen[^9], hadden ondernemingen de mogelijkheid om de immateriële vaste activa te herwaarderen. Deze mogelijkheid tot herwaardering werd evenwel afgeschaft door voornoemd koninklijk besluit van 12 september 1983. Artikel 42 van het koninklijk besluit van 12 september 1983 laat echter toe dat dat de ondernemingen die meerwaarden op immateriële vaste activa hebben geboekt tijdens een boekjaar dat vooraf gaat aan het boekjaar dat ingaat na 31 december 1983, deze meerwaarden op het passief van de balans mogen behouden onder de rubriek *III herwaarderingsmeerwaarden[^10] *.
+Tot vóór de inwerkingtreding van het koninklijk besluit van 12 september 1983 tot wijziging van het koninklijk besluit van 8 oktober 1976 met betrekking tot de jaarrekening van de ondernemingen[^9], hadden ondernemingen de mogelijkheid om de immateriële vaste activa te herwaarderen. Deze mogelijkheid tot herwaardering werd evenwel afgeschaft door voornoemd koninklijk besluit van 12 september 1983. Artikel 42 van het koninklijk besluit van 12 september 1983 laat echter toe dat dat de ondernemingen die meerwaarden op immateriële vaste activa hebben geboekt tijdens een boekjaar dat vooraf gaat aan het boekjaar dat ingaat na 31 december 1983, deze meerwaarden op het passief van de balans mogen behouden onder de rubriek *III herwaarderingsmeerwaarden[^10]* .
 
 Ten slotte moet nog worden opgemerkt dat onder post III van de passiefzijde “Herwaarderingsmeerwaarden” de terugnemingen mogen worden geboekt van waardeverminderingen geboekt op immateriële vaste activa zonder beperkte gebruiksduur (art. 100 KB W.Venn.).
 
@@ -237,7 +236,7 @@ Hierboven onder randnummer 8 werd door de Commissie op uitvoerige wijze uiteenge
 
 De kosten van onderzoek en ontwikkeling worden evenwel slechts op het actief van de balans geboekt voor zover hun kostprijs niet hoger is dan een voorzichtige raming van hun gebruikswaarde of hun toekomstig rendement voor de onderneming (artikel 60, eerste lid KB W.Venn.)[^11]. 
 
-Een onderneming die kosten maakt in het kader van door haar verricht onderzoek moet deze kosten (lonen en wedden - kosten voor het gebruik van materiaal - diensten en diverse goederen, enz.) in beginsel naar hun aard boeken in de resultatenrekening van het boekjaar waarin deze kosten werden gemaakt. Bij het afsluiten van het boekjaar worden de door de onderneming gemaakte kosten van onderzoek en ontwikkeling die beantwoorden aan de door het KB W.Venn. gestelde voorwaarden voor activatie, geactiveerd door het debiteren van de journaalpost “210 *Kosten van onderzoek en ontwikkeling*” en creditering van de journaalpost “72 *Geproduceerde vaste activa*”
+Een onderneming die kosten maakt in het kader van door haar verricht onderzoek moet deze kosten (lonen en wedden - kosten voor het gebruik van materiaal - diensten en diverse goederen, enz.) in beginsel naar hun aard boeken in de resultatenrekening van het boekjaar waarin deze kosten werden gemaakt. Bij het afsluiten van het boekjaar worden de door de onderneming gemaakte kosten van onderzoek en ontwikkeling die beantwoorden aan de door het KB W.Venn. gestelde voorwaarden voor activatie, geactiveerd door het debiteren van de journaalpost “210 *Kosten van onderzoek en ontwikkeling*” en creditering van de journaalpost “72* Geproduceerde vaste activa*”
 
 Anderzijds worden de in het kader van dit onderzoek verworven materiële vaste activa (gebouwen, laboratoria, materiaal, enz.), veelal met een beperkte gebruiksduur, volgens de normale regels rechtstreeks op de desbetreffende actiefpost van de materiële vaste activa geboekt en wordt hun kostprijs ten laste genomen via afschrijvingen. 
 
@@ -245,7 +244,7 @@ Anderzijds worden de in het kader van dit onderzoek verworven materiële vaste a
 
 Geactiveerde kosten van onderzoek en ontwikkeling moeten worden afgeschreven volgens de normale regels (artikel 61, § 1, eerste en tweede lid KB W.Venn.).
 
-*Voorbeeld[^12] *
+*Voorbeeld[^12]* 
 
 Een onderneming maakt tijdens het boekjaar 20X0 voor 91.200 euro aan kosten van onderzoek en ontwikkeling (voor 12.000 euro diensten en diverse goederen en voor 79.200 euro personeelskosten). Deze kosten van onderzoek en ontwikkeling worden geactiveerd en volgens een daartoe door het bestuursorgaan opgesteld plan afgeschreven over een periode van 5 jaar. 
 
@@ -263,7 +262,7 @@ Een onderneming maakt tijdens het boekjaar 20X0 voor 91.200 euro aan kosten van 
 | | 453 | Ingehouden voorheffingen | 21.000 | |
 | | 454 | Rijksdienst voor Sociale Zekerheid | 27.000 | |
 
-Einde boekjaar 20X0 
+### Einde boekjaar 20X0 
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
@@ -277,7 +276,7 @@ Einde boekjaar 20X0
 
 In jaar 20X1 zet de onderneming haar onderzoek en ontwikkeling voort en wordt voor 160.000 euro aan kosten van onderzoek en ontwikkeling gespendeerd: voor 30.000 euro leveringen aan de onderneming, voor 105.000 euro personeelskosten en voor 25.000 euro aan diensten en diverse goederen. De onderneming beslist opnieuw om deze kosten van onderzoek en ontwikkeling af te schrijven over een periode van 5 jaar[^17].
 
-   Op het ogenblik van het onderzoek en ontwikkeling jaar 20X1 
+### Op het ogenblik van het onderzoek en ontwikkeling jaar 20X1 
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|

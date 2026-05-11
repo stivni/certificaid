@@ -1,68 +1,66 @@
 ---
-nummer: CBN-advies 112/5
+bron: https://www.cbn-cnc.be/nl/adviezen/progressieve-afschrijvingsmethode
 datum: 1981-04-01
+gerelateerde_adviezen:
+  - datum: '2025-04-25'
+    titel: Afschrijvingsmethoden (update) [ONTWERP]
+    url: https://www.cbn-cnc.be/nl/adviezen/afschrijvingsmethoden-update-ontwerp
+  - datum: '2017-12-13'
+    titel: Afschrijving van materiële vaste activa in aanbouw en vooruitbetalingen - Inresultaatname van kapitaalsubsidies
+    url: https://www.cbn-cnc.be/nl/adviezen/afschrijving-van-materiele-vaste-activa-in-aanbouw-en-vooruitbetalingen-inresultaatname
+  - datum: '2012-10-10'
+    titel: De boekhoudkundige verwerking van immateriële vaste activa
+    url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-immateriele-vaste-activa
+  - datum: '2010-10-06'
+    titel: Afschrijvingsmethoden
+    url: https://www.cbn-cnc.be/nl/adviezen/afschrijvingsmethoden
+nummer: CBN-advies 112/5
+provenance:
+  generated_at: '2026-05-11T13:05:05Z'
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/progressieve-afschrijvingsmethode
+      sha256: e755a65edaf94c50284ba2ae6d610d7d90eac6f75714c7e81936b93780882a67
+      version:
+  stale: false
+  stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
+  trust:
+    confirmed_at: '2026-05-11T11:57:45Z'
+    confirmed_by: subagent-sonnet-4-6
+    layer1:
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:24Z'
+      heading_count: 0
+      max_section_chars: 4476
+      file_size_chars: 4476
+      flags: []
+    layer2:
+      agent: subagent-sonnet-4-6
+      concrete_problemen:
+        - categorie: B3
+          regel: 57
+          type: other
+          voorbeeld: '# CBN advies 112/5 - Progressieve afschrijvingsmethode'
+        - categorie: B3
+          regel: 59
+          type: other
+          voorbeeld: '# CBN advies 112/5 - Progressieve afschrijvingsmethode'
+      rationale: 'B3: duplicate page-title heading op regels 57 en 59 (''# CBN advies 112/5 - Progressieve afschrijvingsmethode'' tweemaal identiek). Typisch B3-patroon dat bij scrapen ontstaat als de title-tag en de H1 beide worden overgenomen. Inhoud verder volledig en kwalitatief.'
+      run_at: '2026-05-11T11:57:45Z'
+      status: needs-rework
+    rationale: 'B3: duplicate page-title heading op regels 57 en 59 (''# CBN advies 112/5 - Progressieve afschrijvingsmethode'' tweemaal identiek). Typisch B3-patroon dat bij scrapen ontstaat als de title-tag en de H1 beide worden overgenomen. Inhoud verder volledig en kwalitatief.'
+    status: needs-rework
 themas:
   - afschrijvingen
   - afschrijvingsplan
   - gebruiksduur
   - progressieve afschrijvingsmethode
-bron: https://www.cbn-cnc.be/nl/adviezen/progressieve-afschrijvingsmethode
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/progressieve-afschrijvingsmethode
-      sha256: e755a65edaf94c50284ba2ae6d610d7d90eac6f75714c7e81936b93780882a67
-      version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:34:16Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T11:57:45Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "B3: duplicate page-title heading op regels 57 en 59 ('# CBN advies 112/5 - Progressieve afschrijvingsmethode' tweemaal identiek). Typisch B3-patroon dat bij scrapen ontstaat als de title-tag en de H1 beide worden overgenomen. Inhoud verder volledig en kwalitatief."
-    layer1:
-      status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 0
-      max_section_chars: 4532
-      file_size_chars: 4532
-      flags: []
-    layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T11:57:45Z'
-      rationale: "B3: duplicate page-title heading op regels 57 en 59 ('# CBN advies 112/5 - Progressieve afschrijvingsmethode' tweemaal identiek). Typisch B3-patroon dat bij scrapen ontstaat als de title-tag en de H1 beide worden overgenomen. Inhoud verder volledig en kwalitatief."
-      concrete_problemen:
-        - regel: 57
-          categorie: B3
-          type: other
-          voorbeeld: '# CBN advies 112/5 - Progressieve afschrijvingsmethode'
-        - regel: 59
-          categorie: B3
-          type: other
-          voorbeeld: '# CBN advies 112/5 - Progressieve afschrijvingsmethode'
-gerelateerde_adviezen:
-  - titel: Afschrijvingsmethoden (update) [ONTWERP]
-    url: https://www.cbn-cnc.be/nl/adviezen/afschrijvingsmethoden-update-ontwerp
-    datum: '2025-04-25'
-  - titel: Afschrijving van materiële vaste activa in aanbouw en vooruitbetalingen - Inresultaatname van kapitaalsubsidies
-    url: https://www.cbn-cnc.be/nl/adviezen/afschrijving-van-materiele-vaste-activa-in-aanbouw-en-vooruitbetalingen-inresultaatname
-    datum: '2017-12-13'
-  - titel: De boekhoudkundige verwerking van immateriële vaste activa
-    url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-immateriele-vaste-activa
-    datum: '2012-10-10'
-  - titel: Afschrijvingsmethoden
-    url: https://www.cbn-cnc.be/nl/adviezen/afschrijvingsmethoden
-    datum: '2010-10-06'
 ---
-
-# CBN advies 112/5 - Progressieve afschrijvingsmethode
 
 # CBN advies 112/5 - Progressieve afschrijvingsmethode
 

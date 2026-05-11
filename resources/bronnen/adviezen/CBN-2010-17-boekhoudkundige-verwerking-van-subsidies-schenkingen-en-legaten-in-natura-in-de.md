@@ -1,6 +1,64 @@
 ---
-nummer: CBN-advies 2010/17
+bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-subsidies-schenkingen-en-legaten-in-natura-in-de
 datum: 2010-11-10
+gerelateerde_adviezen:
+  - datum: '2019-03-29'
+    titel: 'Ziekenhuisfinanciering: de boekhoudkundige verwerking van het instandhoudingsforfait en het strategisch forfait'
+    url: https://www.cbn-cnc.be/nl/adviezen/ziekenhuisfinanciering-de-boekhoudkundige-verwerking-van-het-instandhoudingsforfait-en-0
+  - datum: '2011-07-20'
+    titel: Boekhoudkundige verwerking van “onderzoeksfondsen” in de jaarrekening van grote en zeer grote verenigingen en stichtingen
+    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-onderzoeksfondsen-in-de-jaarrekening-van-grote-en-zeer
+  - datum: '2011-05-04'
+    titel: Overheidssubsidies
+    url: https://www.cbn-cnc.be/nl/adviezen/overheidssubsidies
+  - datum: '2010-11-10'
+    titel: Boekhoudkundige verwerking van subsidies, schenkingen en legaten, toegekend in contanten, in de jaarrekening van begunstigde grote en zeer grote verenigingen en stichtingen
+    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-subsidies-schenkingen-en-legaten-toegekend-in-contanten-in
+nummer: CBN-advies 2010/17
+provenance:
+  generated_at: '2026-05-11T13:05:08Z'
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-subsidies-schenkingen-en-legaten-in-natura-in-de
+      sha256: 279c3bba870d7298015aae568c39c23e8ca58504e4df0819d27b7b6f09a50f79
+      version:
+  stale: false
+  stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
+  trust:
+    confirmed_at: '2026-05-11T12:09:18Z'
+    confirmed_by: subagent-sonnet-4-6
+    layer1:
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:27Z'
+      heading_count: 12
+      max_section_chars: 3433
+      file_size_chars: 20943
+      flags: []
+    layer2:
+      agent: subagent-sonnet-4-6
+      concrete_problemen:
+        - categorie: A3
+          regel: 69
+          type: other
+          voorbeeld: 1. Goederen \n  1. Subsidies, schenkingen en legaten bestemd om duurzaam...
+        - categorie: G3
+          regel: 173
+          type: other
+          voorbeeld: ' [^12]'
+        - categorie: E2
+          regel: 288
+          type: other
+          voorbeeld: '| | 22119 | 751 | Gebouwen die volle eigendom zijn van de vereniging -\n\t\t\t\tGeboekte afschrijvingen | 1.515,15 |'
+      rationale: 'Regel 69–73: plain-text inhoudsopgave in de body (A3). Regel 173: losstaande voetnootreferentie ''[^12]'' op een lege regel net boven een tabel — zelfde patroon als 2010/13 (G3). Regels 288–289: verbrokkelde tabelrij — de omschrijving ''Gebouwen die volle eigendom zijn van de vereniging - Geboekte afschrijvingen'' staat verspreid over twee regels en de pipe-structuur is gebroken (E2).'
+      run_at: '2026-05-11T12:09:18Z'
+      status: needs-rework
+    rationale: 'Regel 69–73: plain-text inhoudsopgave in de body (A3). Regel 173: losstaande voetnootreferentie ''[^12]'' op een lege regel net boven een tabel — zelfde patroon als 2010/13 (G3). Regels 288–289: verbrokkelde tabelrij — de omschrijving ''Gebouwen die volle eigendom zijn van de vereniging - Geboekte afschrijvingen'' staat verspreid over twee regels en de pipe-structuur is gebroken (E2).'
+    status: needs-rework
 themas:
   - exploitatiesubsidie
   - fondsen van de vereniging
@@ -16,64 +74,6 @@ themas:
   - terbeschikkingstelling vaste activa
   - vereniging zonder winstoogmerk
   - vrijwilligersprestatie
-bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-subsidies-schenkingen-en-legaten-in-natura-in-de
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-subsidies-schenkingen-en-legaten-in-natura-in-de
-      sha256: 279c3bba870d7298015aae568c39c23e8ca58504e4df0819d27b7b6f09a50f79
-      version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:36:04Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T12:09:18Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "Regel 69–73: plain-text inhoudsopgave in de body (A3). Regel 173: losstaande voetnootreferentie '[^12]' op een lege regel net boven een tabel — zelfde patroon als 2010/13 (G3). Regels 288–289: verbrokkelde tabelrij — de omschrijving 'Gebouwen die volle eigendom zijn van de vereniging - Geboekte afschrijvingen' staat verspreid over twee regels en de pipe-structuur is gebroken (E2)."
-    layer1:
-      status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 15
-      max_section_chars: 10200
-      file_size_chars: 20968
-      flags: []
-    layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:09:18Z'
-      rationale: "Regel 69–73: plain-text inhoudsopgave in de body (A3). Regel 173: losstaande voetnootreferentie '[^12]' op een lege regel net boven een tabel — zelfde patroon als 2010/13 (G3). Regels 288–289: verbrokkelde tabelrij — de omschrijving 'Gebouwen die volle eigendom zijn van de vereniging - Geboekte afschrijvingen' staat verspreid over twee regels en de pipe-structuur is gebroken (E2)."
-      concrete_problemen:
-        - regel: 69
-          categorie: A3
-          type: other
-          voorbeeld: 1. Goederen \n  1. Subsidies, schenkingen en legaten bestemd om duurzaam...
-        - regel: 173
-          categorie: G3
-          type: other
-          voorbeeld: ' [^12]'
-        - regel: 288
-          categorie: E2
-          type: other
-          voorbeeld: '| | 22119 | 751 | Gebouwen die volle eigendom zijn van de vereniging -\n\t\t\t\tGeboekte afschrijvingen | 1.515,15 |'
-gerelateerde_adviezen:
-  - titel: 'Ziekenhuisfinanciering: de boekhoudkundige verwerking van het instandhoudingsforfait en het strategisch forfait'
-    url: https://www.cbn-cnc.be/nl/adviezen/ziekenhuisfinanciering-de-boekhoudkundige-verwerking-van-het-instandhoudingsforfait-en-0
-    datum: '2019-03-29'
-  - titel: Boekhoudkundige verwerking van “onderzoeksfondsen” in de jaarrekening van grote en zeer grote verenigingen en stichtingen
-    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-onderzoeksfondsen-in-de-jaarrekening-van-grote-en-zeer
-    datum: '2011-07-20'
-  - titel: Overheidssubsidies
-    url: https://www.cbn-cnc.be/nl/adviezen/overheidssubsidies
-    datum: '2011-05-04'
-  - titel: Boekhoudkundige verwerking van subsidies, schenkingen en legaten, toegekend in contanten, in de jaarrekening van begunstigde grote en zeer grote verenigingen en stichtingen
-    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-subsidies-schenkingen-en-legaten-toegekend-in-contanten-in
-    datum: '2010-11-10'
 ---
 
 # CBN-advies 2010/17 - Boekhoudkundige verwerking van subsidies, schenkingen en legaten in natura in de jaarrekening van begunstigde grote en zeer grote verenigingen en stichtingen
@@ -103,15 +103,13 @@ De goederen die aan de vereniging worden geschonken of nagelaten en die ze voor 
 
 De goederen die kosteloos ter beschikking worden gesteld van de vereniging, worden enkel geboekt indien de vereniging ze tegen betaling mag uitbaten[^3]. In dat geval worden deze goederen eveneens geboekt tegen hun marktwaarde of, bij ontstentenis, tegen hun gebruikswaarde[^4]. 
 
-De andere goederen (met andere woorden de goederen die de vereniging niet voor haar activiteit bestemt) die aan de vereniging worden geschonken of nagelaten, worden enkel geboekt als ze bestemd zijn om te worden gerealiseerd. In dat geval worden ze geregistreerd op het ogenblik van het opmaken van de inventaris of op het ogenblik van hun realisatie indien deze aan de inventaris voorafgaat[^5]. De vereniging of stichting waardeert deze goederen tegen hun waarschijnlijke realisatiewaarde op het ogenblik van het opmaken van de inventaris of tegen hun realisatiewaarde indien de realisatie plaatsvindt vóór het opmaken van de inventaris[^6]. Indien de vermoedelijke realisatiewaarde nihil is, worden deze goederen pro memoria[^7]
- vermeld om zodoende derden correct te informeren over de toestand van de vereniging op het ogenblik dat de inventaris is opgemaakt[^8].
+De andere goederen (met andere woorden de goederen die de vereniging niet voor haar activiteit bestemt) die aan de vereniging worden geschonken of nagelaten, worden enkel geboekt als ze bestemd zijn om te worden gerealiseerd. In dat geval worden ze geregistreerd op het ogenblik van het opmaken van de inventaris of op het ogenblik van hun realisatie indien deze aan de inventaris voorafgaat[^5]. De vereniging of stichting waardeert deze goederen tegen hun waarschijnlijke realisatiewaarde op het ogenblik van het opmaken van de inventaris of tegen hun realisatiewaarde indien de realisatie plaatsvindt vóór het opmaken van de inventaris[^6]. Indien de vermoedelijke realisatiewaarde nihil is, worden deze goederen pro memoria[^7] vermeld om zodoende derden correct te informeren over de toestand van de vereniging op het ogenblik dat de inventaris is opgemaakt[^8].
 
 Op grond van artikel 23 van het KB van 19 december 2003 zijn deze boekings- en waarderingsregels ook van toepassing op stichtingen en internationale verenigingen zonder winstoogmerk.
 
 Zich baserend op het Verslag aan de Koning bij het KB van 19 december 2003 gelden deze regels, naar het oordeel van de Commissie, eveneens voor de subsidies die de vereniging of stichting verkrijgt.
 
-### Subsidies, schenkingen en legaten bestemd om duurzaam bij te dragen tot de activiteit van de vereniging of stichting
-
+Subsidies, schenkingen en legaten bestemd om duurzaam bij te dragen tot de activiteit van de vereniging of stichting
 Artikel 19, § 2, 1° van het koninklijk besluit van 19 december 2003 voorziet volgende definitie van de post *Fondsen van de vereniging* (dit ter vervanging van de post *Geplaatst kapitaal* van toepassing bij de boekhoudwetgeving voor vennootschappen): 
 
 *“Onder fondsen van de vereniging moet het totaal worden verstaan van, enerzijds, het beginvermogen, met name het vermogen van de vereniging op de eerste dag van het boekjaar waarop de bepalingen van het besluit gelden, en, anderzijds, de permanente financiering, met name de schenkingen, de legaten en subsidies die uitsluitend bestemd zijn om duurzaam bij te dragen tot de activiteit van de vereniging”[^9].*
@@ -131,8 +129,7 @@ Een vereniging verkrijgt van een onderneming aandelen (met een marktwaarde van 5
 | | 51 | Aandelen | 50.000 | |
 | aan | 1012 | Permanente financiering ontvangen in natura | | 50.000 |
 
-### Subsidies in natura bestaande uit het schenken van een vast actief of het ter beschikking stellen van vaste activa
-
+Subsidies in natura bestaande uit het schenken van een vast actief of het ter beschikking stellen van vaste activa
 Artikel 19, § 2, 3° van het KB van 19 december 2003 voorziet in een aanpassing van de omschrijving van een kapitaalsubsidie zoals opgenomen in artikel 95, § 2 van het KB van 30 januari 2001 tot uitvoering van het Wetboek van Vennootschappen. 
 
 Het aangepast artikel 95 KB W.Venn. luidt als volgt: 
@@ -182,8 +179,6 @@ Indien de marktwaarde van het bos niet beschikbaar is, dan dient men de gebruiks
 
 - Boeking op moment van de overeenkomst:
 
- [^12]
-
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 2202 | Overige terreinen | 200.000 | |
@@ -205,8 +200,7 @@ Indien de marktwaarde van het bos niet beschikbaar is, dan dient men de gebruiks
 | | 152 | Kapitaalsubsidies ontvangen in natura | 10.000 | |
 | aan | 736 | Kapitaal-en interestsubsidie | | 10.000 |
 
-### Subsidies, schenkingen en legaten in natura bestemd voor de eenvoudige, dagelijkse ondersteuning van de werking van de vereniging
-
+Subsidies, schenkingen en legaten in natura bestemd voor de eenvoudige, dagelijkse ondersteuning van de werking van de vereniging
 Subsidies, schenkingen en legaten in natura, in de vorm van activa die niet op duurzame wijze worden bestemd voor de activiteit van de vereniging of stichting dienen, wanneer ze geboekt moeten worden[^13], rechtstreeks op de resultatenrekening te worden geboekt onder de post I.D. *Lidgeld, schenkingen, legaten en subsidies.*
 
 Indien de ontvangen goederen van geringe waarde zijn, dient er, naar het oordeel van de Commissie, geen boekhoudkundige registratie te gebeuren.
@@ -256,8 +250,7 @@ Het Verslag aan de Koning bij het KB van 19 december 2003 bepaalt immers dat een
 
 De diensten die vrijwillig voor de vereniging of stichting worden gepresteerd, worden enkel geboekt als ze bestemd zijn om te worden gerealiseerd. In dat geval worden ze geregistreerd op het ogenblik van het opmaken van de inventaris of op het ogenblik van hun realisatie indien deze aan de inventaris voorafgaat[^15]. 
 
-De vereniging of stichting waardeert deze diensten die vrijwillig worden gepresteerd en bestemd zijn om te worden gerealiseerd tegen hun waarschijnlijke realisatiewaarde op het ogenblik van het opmaken van de inventaris of tegen hun realisatiewaarde indien de realisatie plaatsvindt vóór het opmaken van de inventaris[^16]. Indien de vermoedelijke realisatiewaarde nihil is, worden deze diensten vermeld pro memoria[^17]
- om zodoende derden correct te informeren over de toestand van de vereniging of stichting op het ogenblik dat de inventaris is opgemaakt[^18].
+De vereniging of stichting waardeert deze diensten die vrijwillig worden gepresteerd en bestemd zijn om te worden gerealiseerd tegen hun waarschijnlijke realisatiewaarde op het ogenblik van het opmaken van de inventaris of tegen hun realisatiewaarde indien de realisatie plaatsvindt vóór het opmaken van de inventaris[^16]. Indien de vermoedelijke realisatiewaarde nihil is, worden deze diensten vermeld pro memoria[^17] om zodoende derden correct te informeren over de toestand van de vereniging of stichting op het ogenblik dat de inventaris is opgemaakt[^18].
 
 De Commissie is van oordeel dat vrijwilligersprestaties nooit als kapitaalsubsidies kunnen geboekt worden.
 

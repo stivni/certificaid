@@ -1,69 +1,70 @@
 ---
-nummer: CBN-advies 2019/06
+bron: https://www.cbn-cnc.be/nl/adviezen/groepsbijdrage
 datum: 2019-07-02
+gerelateerde_adviezen:
+  - datum: '2021-12-22'
+    titel: Boekhoudkundige verwerking van de vergoeding voor de groepsbijdrage in hoofde van de overdragende vennootschap bij gebrek aan Belgische belastingen op het resultaat op rekening 4500 (addendum bij advies 2019/06)
+    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-vergoeding-voor-de-groepsbijdrage-in-hoofde-van-de
+nummer: CBN-advies 2019/06
+provenance:
+  generated_at: '2026-05-11T13:05:08Z'
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/groepsbijdrage
+      sha256: 23705bc5a0cc0c91cfed3d7152f078d8b8915286af9c9a392d809d9d1c9bd7bf
+      version:
+  stale: false
+  stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
+  trust:
+    confirmed_at: '2026-05-11T12:21:40Z'
+    confirmed_by: subagent-sonnet-4-6
+    layer1:
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:30Z'
+      heading_count: 12
+      max_section_chars: 4497
+      file_size_chars: 13873
+      flags: []
+    layer2:
+      agent: subagent-sonnet-4-6
+      concrete_problemen:
+        - categorie: D3
+          regel: 112
+          type: other
+          voorbeeld: ' [^17]'
+        - categorie: D3
+          regel: 134
+          type: other
+          voorbeeld: ' [^18]'
+        - categorie: D4
+          regel: 52
+          type: other
+          voorbeeld: de *groepsbijdrage*regeling[^2] in de statutaire jaarrekening
+      rationale: 'D3: Losstaande `[^17]` op regel 112 en `[^18]` op regel 134 staan als verweesd anker direct boven de tabel, zonder voorgaande tekst — identiek patroon als in batch-23. A6: `groepsbijdrage*`regeling` op regel 52 (ontbrekende spatie tussen italic close en volgende woord) is een mild opmaakartefact. Inhoud en structuur zijn verder volledig correct.'
+      run_at: '2026-05-11T12:21:40Z'
+      status: needs-rework
+    rationale: 'D3: Losstaande `[^17]` op regel 112 en `[^18]` op regel 134 staan als verweesd anker direct boven de tabel, zonder voorgaande tekst — identiek patroon als in batch-23. A6: `groepsbijdrage*`regeling` op regel 52 (ontbrekende spatie tussen italic close en volgende woord) is een mild opmaakartefact. Inhoud en structuur zijn verder volledig correct.'
+    status: needs-rework
 themas:
   - groepsbijdrage
   - fiscale consolidatie
   - winstverschuiving
   - belastingen
-bron: https://www.cbn-cnc.be/nl/adviezen/groepsbijdrage
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/groepsbijdrage
-      sha256: 23705bc5a0cc0c91cfed3d7152f078d8b8915286af9c9a392d809d9d1c9bd7bf
-      version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:37:39Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T12:21:40Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: 'D3: Losstaande `[^17]` op regel 112 en `[^18]` op regel 134 staan als verweesd anker direct boven de tabel, zonder voorgaande tekst — identiek patroon als in batch-23. A6: `groepsbijdrage*`regeling` op regel 52 (ontbrekende spatie tussen italic close en volgende woord) is een mild opmaakartefact. Inhoud en structuur zijn verder volledig correct.'
-    layer1:
-      status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 8
-      max_section_chars: 4510
-      file_size_chars: 13898
-      flags: []
-    layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:21:40Z'
-      rationale: 'D3: Losstaande `[^17]` op regel 112 en `[^18]` op regel 134 staan als verweesd anker direct boven de tabel, zonder voorgaande tekst — identiek patroon als in batch-23. A6: `groepsbijdrage*`regeling` op regel 52 (ontbrekende spatie tussen italic close en volgende woord) is een mild opmaakartefact. Inhoud en structuur zijn verder volledig correct.'
-      concrete_problemen:
-        - regel: 112
-          categorie: D3
-          type: other
-          voorbeeld: ' [^17]'
-        - regel: 134
-          categorie: D3
-          type: other
-          voorbeeld: ' [^18]'
-        - regel: 52
-          categorie: D4
-          type: other
-          voorbeeld: de *groepsbijdrage*regeling[^2] in de statutaire jaarrekening
-gerelateerde_adviezen:
-  - titel: Boekhoudkundige verwerking van de vergoeding voor de groepsbijdrage in hoofde van de overdragende vennootschap bij gebrek aan Belgische belastingen op het resultaat op rekening 4500 (addendum bij advies 2019/06)
-    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-vergoeding-voor-de-groepsbijdrage-in-hoofde-van-de
-    datum: '2021-12-22'
 ---
 
-# CBN-advies 2019/06 – Groepsbijdrage
+# COMMISSIE VOOR BOEKHOUDKUNDIGE NORMEN
 
 ## Algemeen
 
 Met onderhavig advies verduidelijkt de Commissie de boekhoudkundige verwerking van de *groepsbijdrage*regeling[^2] in de statutaire jaarrekening.
 
-De groepsbijdrageregeling steunt op het beginsel van de fiscale neutraliteit volgens hetwelk de fiscale behandeling van de winst en het verlies moet afgestemd zijn op de economische entiteit die de activiteiten uitoefent, ongeacht de manier waarop die economische entiteit gestructureerd en georganiseerd is en of het om één enkele entiteit of om een groep van vennootschappen gaat.[^3] De groepsbijdrageregeling is een vorm van fiscale consolidatie.
+De groepsbijdrageregeling steunt op het beginsel van de fiscale neutraliteit volgens hetwelk de fiscale behandeling van de winst en het verlies moet afgestemd zijn op de economische entiteit die de activiteiten uitoefent, ongeacht de manier waarop die economische entiteit gestructureerd en georganiseerd is en of het om één enkele entiteit of om een groep van vennootschappen gaat.[^3]
+ De groepsbijdrageregeling is een vorm van fiscale consolidatie.
 
 ## Beknopte beschrijving van de groepsbijdrageregeling
 
@@ -75,7 +76,8 @@ De groepsbijdrage-regeling wordt evenwel gekenmerkt door een nagestreefde vermog
 
 Voor de toepassing van de groepsbijdrage-regeling moeten de twee in aanmerking komende groepsvennootschappen met elkaar een overeenkomst sluiten waarin de modaliteiten van de groepsbijdrage-regeling zijn beschreven.
 
-De toepassing van de groepsbijdrageregeling is beperkt tot groepsvennootschappen die gedurende een onafgebroken periode van vijf jaar[^9] met elkaar verbonden zijn.[^10] Voor de toepassing van de groepsbijdrageregeling wordt verstaan onder een *verbonden vennootschap*: een vennootschap
+De toepassing van de groepsbijdrageregeling is beperkt tot groepsvennootschappen die gedurende een onafgebroken periode van vijf jaar[^9] met elkaar verbonden zijn.[^10]
+ Voor de toepassing van de groepsbijdrageregeling wordt verstaan onder een *verbonden vennootschap*: een vennootschap
 
 - die beschikt over een rechtstreekse deelneming van ten minste 90 procent in het kapitaal van de belastingplichtige die de aftrek van de groepsbijdrage toepast; of 
 - waarvan het kapitaal rechtstreeks voor ten minste 90 procent wordt aangehouden door de belastingplichtige die de aftrek van de groepsbijdrage toepast; of 
@@ -85,7 +87,7 @@ De toepassing van de groepsbijdrageregeling is beperkt tot groepsvennootschappen
 
 Enerzijds bestaat de groepsbijdrageregeling uit een verschuiving van belastbare materie van de ene groepsvennootschap naar een andere groepsvennootschap. Deze verschuiving vindt plaats door een passende opname in de fiscale aangiften van de betrokken vennootschappen voor het betreffende aanslagjaar (zie hoger). Deze fiscale verschuiving vindt aldus plaats buiten de boekhouding en vergt op boekhoudrechtelijk gebied geen verdere verduidelijking[^11] van de Commissie.
 
-Anderzijds wordt een vergoeding betaald door de vennootschap die een bepaald bedrag onttrekt aan haar *fiscaal resultaat *en verschuift naar een andere groepsvennootschap die dit zelfde bedrag in haar *fiscaal resultaat* moet opnemen. De betaalde vergoeding is gelijk aan het bedrag van de belasting die wordt uitgespaard door de vennootschap die de *aftrek van de groepsbijdrage* heeft toegepast. Hierna verduidelijkt de Commissie de boekhoudkundige verwerking[^12] van deze vergoeding.
+Anderzijds wordt een vergoeding betaald door de vennootschap die een bepaald bedrag onttrekt aan haar *fiscaal resultaat* en verschuift naar een andere groepsvennootschap die dit zelfde bedrag in haar *fiscaal resultaat* moet opnemen. De betaalde vergoeding is gelijk aan het bedrag van de belasting die wordt uitgespaard door de vennootschap die de *aftrek van de groepsbijdrage* heeft toegepast. Hierna verduidelijkt de Commissie de boekhoudkundige verwerking[^12] van deze vergoeding.
 
 ### In hoofde van de betaler van de vergoeding voor de groepsbijdrage
 
@@ -95,13 +97,13 @@ De rekening 67 *Belastingen op het resultaat* wordt gebruikt voor alle uitgaven 
 
 In de meeste gevallen wordt de groepsbijdrage-overeenkomst slechts gesloten na de afsluiting van het boekjaar (N). De groepsbijdrage-overeenkomst is in regel dus een overeenkomst die moet worden verwerkt in het volgende boekjaar (N+1). Aldus worden op de inventarisdatum van het boekjaar N de geraamde belastingen geboekt zonder rekening te houden met een groepsbijdrage-overeenkomst die in een volgend boekjaar wordt gesloten.
 
-Naar de mening van de Commissie wordt de groepsbijdrage-overeenkomst boekhoudkundig als volgt verwerkt: de geraamde belastingschuld wordt in het boekjaar N geboekt door een debitering van de rekening 6702 *Geraamde belastingen*[^14] met als tegenpost de rekening 4500 *Belgische winstbelastingen*. In het volgende boekjaar (N+1), bij de afsluiting van de groepsbijdrage-overeenkomst, wordt vervolgens de rekening 4500 *Belgische winstbelastingen* gedebiteerd met als tegenpost de boeking van een schuld aan de groepsvennootschap waarmee de groepsbijdrage-overeenkomst werd gesloten.[^15] 
+Naar de mening van de Commissie wordt de groepsbijdrage-overeenkomst boekhoudkundig als volgt verwerkt: de geraamde belastingschuld wordt in het boekjaar N geboekt door een debitering van de rekening 6702 *Geraamde belastingen*[^14] met als tegenpost de rekening 4500* Belgische winstbelastingen*. In het volgende boekjaar (N+1), bij de afsluiting van de groepsbijdrage-overeenkomst, wordt vervolgens de rekening 4500* Belgische winstbelastingen* gedebiteerd met als tegenpost de boeking van een schuld aan de groepsvennootschap waarmee de groepsbijdrage-overeenkomst werd gesloten.[^15] 
 
 ### In hoofde van de ontvanger van de vergoeding voor de groepsbijdrage
 
 In hoofde van de ontvanger van de vergoeding vormt het ontvangen bedrag, in principe, de vergoeding voor de aanwending van een actieve belastinglatentie. Een actieve belastinglatentie wordt in het Belgisch boekhoudrecht echter niet als een actiefbestanddeel uitgedrukt op de balans. Bovendien is de vergoeding niet in functie van het bedrag van het fiscale verlies van de vennootschap die de vergoeding ontvangt doch uitsluitend in functie van de belastingbesparing door de vennootschap die de *aftrek van de groepsbijdrage* toepast. In praktijk bestaat zelfs de mogelijkheid dat de vennootschap die als tegenpartij optreedt van de vennootschap die de aftrek van de groepsbijdrage toepast, haar belastbare basis verhoogt en daardoor onmiddellijk belasting moet betalen.
 
-De ontvangen (of te ontvangen) vergoeding is aldus niet het gevolg van een voorheen reeds betaalde belasting noch aan te merken als een belastingkrediet. Bijgevolg kan de ontvangen vergoeding niet worden geboekt als een regularisering van voorheen betaalde belasting en wordt deze niet geboekt op de rekening 77 *Regularisering van belastingen en terugneming van fiscale voorzieningen*. De vergoeding wordt geboekt op de rekening 764 *Andere niet-recurrente bedrijfsopbrengsten*.
+De ontvangen (of te ontvangen) vergoeding is aldus niet het gevolg van een voorheen reeds betaalde belasting noch aan te merken als een belastingkrediet. Bijgevolg kan de ontvangen vergoeding niet worden geboekt als een regularisering van voorheen betaalde belasting en wordt deze niet geboekt op de rekening 77 *Regularisering van belastingen en terugneming van fiscale voorzieningen*. De vergoeding wordt geboekt op de rekening 764* Andere niet-recurrente bedrijfsopbrengsten*.
 
 ## Voorbeelden
 
@@ -119,36 +121,32 @@ De boeking van de vergoeding in het kader van de groepsbijdrage-regeling is als 
 
 ### In hoofde van vennootschap B (betaler van de vergoeding)
 
-**Bij de eindejaarsverrichtingen op 31/12/N**
-
- [^17]
+## Bij de eindejaarsverrichtingen op 31/12/N
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 6702 | Geraamde belastingen | 120.000 |  |
-| aan | 4500 | Belgische winstbelastingen |  | 120.000 |
+| | 6702 | Geraamde belastingen | 120.000 | |
+| aan | 4500 | Belgische winstbelastingen | | 120.000 |
 
-**Bij het sluiten van de groepsbijdrage-overeenkomst (in boekjaar N+1)**
+## Bij het sluiten van de groepsbijdrage-overeenkomst (in boekjaar N+1)
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 4500 | Belgische winstbelastingen | 25.000 |  |
-| aan | 489 | Diverse schulden |  | 25.000 |
+| | 4500 | Belgische winstbelastingen | 25.000 | |
+| aan | 489 | Diverse schulden | | 25.000 |
 
 ### In hoofde van vennootschap A (ontvanger van de vergoeding)
 
-**Bij de eindejaarsverrichtingen op 31/12/N**
+## Bij de eindejaarsverrichtingen op 31/12/N
 
 Geen boeking
 
-**Bij het sluiten van de groepsbijdrage-overeenkomst (in boekjaar N+1)**
-
- [^18]
+## Bij het sluiten van de groepsbijdrage-overeenkomst (in boekjaar N+1)
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
-|  | 2810 | Vorderingen op rekening | 25.000 |  |
-| aan | 764 | Andere niet-recurrente bedrijfsopbrengsten |  | 25.000 |
+| | 2810 | Vorderingen op rekening | 25.000 | |
+| aan | 764 | Andere niet-recurrente bedrijfsopbrengsten | | 25.000 |
 
 [^1]: Onderhavig advies is tot stand gekomen nadat een ontwerpadvies op 2 april 2019 ter publieke consultatie werd gepubliceerd op de website van de CBN.
 

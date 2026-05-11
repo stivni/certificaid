@@ -1,6 +1,65 @@
 ---
-nummer: CBN-advies 2017/02
+bron: https://www.cbn-cnc.be/nl/adviezen/gezamenlijke-controle-over-een-vennootschap-groottecriteria-update
 datum: 2017-02-01
+gerelateerde_adviezen:
+  - datum: '2011-10-05'
+    titel: Verbonden ondernemingen
+    url: https://www.cbn-cnc.be/nl/adviezen/verbonden-ondernemingen
+  - datum: '2011-02-25'
+    titel: 'Consolidatiekring: interpretatie van de uitsluitingsgrond van artikel 107, 4° KB W.Venn.'
+    url: https://www.cbn-cnc.be/nl/adviezen/consolidatiekring-interpretatie-van-de-uitsluitingsgrond-van-artikel-107-4deg-kb-wvenn
+  - datum: '2002-05-02'
+    titel: Advies met betrekking tot de jaarrekeningrechtelijke aspecten van de certificatie van aandelen van handelsvennootschappen(1)
+    url: https://www.cbn-cnc.be/nl/adviezen/advies-met-betrekking-tot-de-jaarrekeningrechtelijke-aspecten-van-de-certificatie-van
+nummer: CBN-advies 2017/02
+provenance:
+  generated_at: '2026-05-11T13:05:08Z'
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/gezamenlijke-controle-over-een-vennootschap-groottecriteria-update
+      sha256: 23569f6d8d8f426a4e3878ef9b3499a08fea2d3154af13436086d01edb07dcb3
+      version:
+  stale: false
+  stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
+  trust:
+    confirmed_at: '2026-05-11T12:16:34Z'
+    confirmed_by: subagent-sonnet-4-6
+    layer1:
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:29Z'
+      heading_count: 4
+      max_section_chars: 5356
+      file_size_chars: 16210
+      flags: []
+    layer2:
+      agent: subagent-sonnet-4-6
+      concrete_problemen:
+        - categorie: A6
+          regel: 58
+          type: other
+          voorbeeld: ', bijgewerkt op 10 september 2025[^2]'
+        - categorie: A6
+          regel: 62
+          type: other
+          voorbeeld: groottecriteria[^3]\n wanneer sprake is van een gezamenlijke controle
+        - categorie: A6
+          regel: 67
+          type: other
+          voorbeeld: geldt een wettelijk en onweerlegbaar vermoeden[^5]\n Bijgevolg zijn
+        - categorie: A6
+          regel: 101
+          type: other
+          voorbeeld: 'Aldus heeft de vennootschap A op geconsolideerde[^15]\n basis:'
+      rationale: 'A6: Talrijke spurious line-breaks midden in zinnen — voetnootreferentie [^N] staat aan het eind van een regel, de zin loopt door op de volgende regel met een spatie-inspringing (bv. regel 62-63, 67-68, 101-102, 110-111). Dit is een PDF-extractie-artefact dat rendering breekt. Verder: regel 58 bevat '', bijgewerkt op 10 september 2025[^2]'' als los fragment direct na de H1, zonder eigen heading of context. Inhoud en structuur zijn volledig; headings en tabellen zijn correct.'
+      run_at: '2026-05-11T12:16:34Z'
+      status: needs-rework
+    rationale: 'A6: Talrijke spurious line-breaks midden in zinnen — voetnootreferentie [^N] staat aan het eind van een regel, de zin loopt door op de volgende regel met een spatie-inspringing (bv. regel 62-63, 67-68, 101-102, 110-111). Dit is een PDF-extractie-artefact dat rendering breekt. Verder: regel 58 bevat '', bijgewerkt op 10 september 2025[^2]'' als los fragment direct na de H1, zonder eigen heading of context. Inhoud en structuur zijn volledig; headings en tabellen zijn correct.'
+    status: needs-rework
 themas:
   - controle
   - gemeenschappelijke dochtervennootschap
@@ -8,65 +67,6 @@ themas:
   - groottecriteria
   - verbonden vennootschap
   - consolidatie
-bron: https://www.cbn-cnc.be/nl/adviezen/gezamenlijke-controle-over-een-vennootschap-groottecriteria-update
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/gezamenlijke-controle-over-een-vennootschap-groottecriteria-update
-      sha256: 23569f6d8d8f426a4e3878ef9b3499a08fea2d3154af13436086d01edb07dcb3
-      version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:37:09Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T12:16:34Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "A6: Talrijke spurious line-breaks midden in zinnen — voetnootreferentie [^N] staat aan het eind van een regel, de zin loopt door op de volgende regel met een spatie-inspringing (bv. regel 62-63, 67-68, 101-102, 110-111). Dit is een PDF-extractie-artefact dat rendering breekt. Verder: regel 58 bevat ', bijgewerkt op 10 september 2025[^2]' als los fragment direct na de H1, zonder eigen heading of context. Inhoud en structuur zijn volledig; headings en tabellen zijn correct."
-    layer1:
-      status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 2
-      max_section_chars: 13237
-      file_size_chars: 16225
-      flags: []
-    layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:16:34Z'
-      rationale: "A6: Talrijke spurious line-breaks midden in zinnen — voetnootreferentie [^N] staat aan het eind van een regel, de zin loopt door op de volgende regel met een spatie-inspringing (bv. regel 62-63, 67-68, 101-102, 110-111). Dit is een PDF-extractie-artefact dat rendering breekt. Verder: regel 58 bevat ', bijgewerkt op 10 september 2025[^2]' als los fragment direct na de H1, zonder eigen heading of context. Inhoud en structuur zijn volledig; headings en tabellen zijn correct."
-      concrete_problemen:
-        - regel: 58
-          categorie: A6
-          type: other
-          voorbeeld: ', bijgewerkt op 10 september 2025[^2]'
-        - regel: 62
-          categorie: A6
-          type: other
-          voorbeeld: groottecriteria[^3]\n wanneer sprake is van een gezamenlijke controle
-        - regel: 67
-          categorie: A6
-          type: other
-          voorbeeld: geldt een wettelijk en onweerlegbaar vermoeden[^5]\n Bijgevolg zijn
-        - regel: 101
-          categorie: A6
-          type: other
-          voorbeeld: 'Aldus heeft de vennootschap A op geconsolideerde[^15]\n basis:'
-gerelateerde_adviezen:
-  - titel: Verbonden ondernemingen
-    url: https://www.cbn-cnc.be/nl/adviezen/verbonden-ondernemingen
-    datum: '2011-10-05'
-  - titel: 'Consolidatiekring: interpretatie van de uitsluitingsgrond van artikel 107, 4° KB W.Venn.'
-    url: https://www.cbn-cnc.be/nl/adviezen/consolidatiekring-interpretatie-van-de-uitsluitingsgrond-van-artikel-107-4deg-kb-wvenn
-    datum: '2011-02-25'
-  - titel: Advies met betrekking tot de jaarrekeningrechtelijke aspecten van de certificatie van aandelen van handelsvennootschappen(1)
-    url: https://www.cbn-cnc.be/nl/adviezen/advies-met-betrekking-tot-de-jaarrekeningrechtelijke-aspecten-van-de-certificatie-van
-    datum: '2002-05-02'
 ---
 
 # CBN-advies 2017/02 – Gezamenlijke controle over een vennootschap - groottecriteria (update)
@@ -75,16 +75,14 @@ gerelateerde_adviezen:
 
 ## Algemeen
 
-Onderhavig advies verduidelijkt de berekening van de groottecriteria[^3]
- wanneer sprake is van een gezamenlijke controle over een vennootschap.
+Onderhavig advies verduidelijkt de berekening van de groottecriteria[^3] wanneer sprake is van een gezamenlijke controle over een vennootschap.
 
-Onder *gezamenlijke controle* wordt verstaan, de controle die een beperkt aantal vennoten samen uitoefenen, wanneer zij zijn overeengekomen dat beslissingen omtrent de oriëntatie van het beleid niet zonder hun gemeenschappelijke instemming kunnen worden genomen. De *gemeenschappelijke dochtervennootschap *is dan de vennootschap ten opzichte waarvan een gezamenlijke controle bestaat.[^4] 
+Onder *gezamenlijke controle* wordt verstaan, de controle die een beperkt aantal vennoten samen uitoefenen, wanneer zij zijn overeengekomen dat beslissingen omtrent de oriëntatie van het beleid niet zonder hun gemeenschappelijke instemming kunnen worden genomen. De *gemeenschappelijke dochtervennootschap* is dan de vennootschap ten opzichte waarvan een gezamenlijke controle bestaat.[^4] 
 
 In geval van een gezamenlijke controle over een gemeenschappelijke dochtervennootschap geldt een wettelijk en onweerlegbaar vermoeden van controle door de vennoten die de gezamenlijke controle uitoefenen.[^5]
  Bijgevolg zijn de vennootschap die een gezamenlijke controle uitoefent over een gemeenschappelijke dochtervennootschap en die gemeenschappelijke dochtervennootschap verbonden vennootschappen. Dit wil niet zeggen dat de vennoten die de gezamenlijke controle uitoefenen onderling verbonden zijn. Uit geen enkele bepaling van het Wetboek van vennootschappen en verenigingen (hierna: WVV) volgt immers dat de vennootschappen die een gezamenlijke controle uitoefenen over een gemeenschappelijke dochtervennootschap daardoor ook zelf verbonden vennootschappen worden.
 
-Een vennootschap die een gemeenschappelijke dochtervennootschap heeft of een vennootschap die een gemeenschappelijke dochtervennootschap is van een moedervennootschap kan geen microvennootschap[^6]
- zijn.
+Een vennootschap die een gemeenschappelijke dochtervennootschap heeft of een vennootschap die een gemeenschappelijke dochtervennootschap is van een moedervennootschap kan geen microvennootschap[^6] zijn.
 
 Het meest voorkomende geval van gezamenlijke controle betreft de gezamenlijk bestuurde ondernemingen. De definitie van een gezamenlijke controle heeft evenwel niet tot gevolg dat het controlepercentage van elk van de gezamenlijk besturende personen gelijk[^7] moet zijn. Opdat er sprake zou zijn van een gezamenlijke controle is een overeenkomst noodzakelijk waarbij de gezamenlijke uitoefening van de controlebevoegdheid wordt georganiseerd.[^8]
  Het spreekt voor zich dat een overeenkomst niet noodzakelijk een schriftelijke overeenkomst moet zijn.
@@ -106,16 +104,13 @@ Op enkelvoudige basis overschrijden noch de vennootschap A noch de vennootschap 
 
 De vennootschap X overschrijdt op enkelvoudige basis meer dan één van de criteria vermeld in artikel 1:24, § 1 WVV. Er zijn geen verrichtingen tussen de onderlinge vennootschappen die bij een consolidatie aanleiding zouden geven tot verrekeningen of weglatingen zoals bedoeld in de artikelen 3:134 en 3:136 KB WVV met uitzondering van een omzet van 600.000 euro en 500.000 euro gerealiseerd door de vennootschap X door een facturatie aan de vennootschap A respectievelijk de vennootschap B. Overeenkomstig artikel 3:127 KB WVV wordt het eigen vermogen van de geconsolideerde dochtervennootschap ten belope van het deel van haar eigen vermogen dat de aandelen belichaamt in bezit van de consoliderende vennootschap en van de in de consolidatie opgenomen dochtervennootschap gecompenseerd met de boekwaarde van deze aandelen in de boekhouding van de consoliderende vennootschap en van de dochteronderneming die ze bezit.
 
-**Geval 1: De vennootschap A en de vennootschap B hebben een overeenkomst[^10]
- waarin een gezamenlijke uitoefening van de controlebevoegdheid over de vennootschap X wordt georganiseerd**
+**Geval 1: De vennootschap A en de vennootschap B hebben een overeenkomst[^10] waarin een gezamenlijke uitoefening van de controlebevoegdheid over de vennootschap X wordt georganiseerd**
 
 De vennootschap X staat onder een gezamenlijke controle van de vennootschap A en de vennootschap B. Bijgevolg geldt het onweerlegbaar vermoeden dat de vennootschap A, respectievelijk de vennootschap B, controle uitoefent over de vennootschap X.[^11]
- Hieruit volgt dat de vennootschap A en de vennootschap X verbonden vennootschappen zijn en dat de vennootschap B en de vennootschap X verbonden vennootschappen zijn.[^12] De vennootschap A en de vennootschap B zijn geen verbonden vennootschappen. De vennootschap X is een, weliswaar gemeenschappelijke, dochtervennootschap van de vennootschap A, respectievelijk de vennootschap B. De vennootschap A en de vennootschap B zijn aldus moedervennootschappen zodat de beoordeling van de groottecriteria vermeld in artikel 1:24, § 1 WVV in hoofde van de vennootschap A en de vennootschap B, op geconsolideerde basis plaatsvindt. In principe[^13]
- wordt een gemeenschappelijke dochtervennootschap, in casu de vennootschap X, in de consolidatie opgenomen[^14]
- volgens de methode van de evenredige consolidatie. 
+ Hieruit volgt dat de vennootschap A en de vennootschap X verbonden vennootschappen zijn en dat de vennootschap B en de vennootschap X verbonden vennootschappen zijn.[^12]
+ De vennootschap A en de vennootschap B zijn geen verbonden vennootschappen. De vennootschap X is een, weliswaar gemeenschappelijke, dochtervennootschap van de vennootschap A, respectievelijk de vennootschap B. De vennootschap A en de vennootschap B zijn aldus moedervennootschappen zodat de beoordeling van de groottecriteria vermeld in artikel 1:24, § 1 WVV in hoofde van de vennootschap A en de vennootschap B, op geconsolideerde basis plaatsvindt. In principe[^13] wordt een gemeenschappelijke dochtervennootschap, in casu de vennootschap X, in de consolidatie opgenomen[^14] volgens de methode van de evenredige consolidatie. 
 
-Aldus heeft de vennootschap A op geconsolideerde[^15]
- basis:
+Aldus heeft de vennootschap A op geconsolideerde[^15] basis:
 
 - een netto-omzet van 7.000.000 + 50 % x (20.000.000 – 600.000) = 16.700.000; 
 - een balanstotaal van (2.000.000 – 300.000[^16]) + 50 % x 18.000.000 = 10.700.000; 
@@ -123,8 +118,7 @@ Aldus heeft de vennootschap A op geconsolideerde[^15]
 
 Bijgevolg worden bij de vennootschap A de drie groottecriteria vermeld in artikel 1:24, § 1 WVV op geconsolideerde basis overschreden.
 
-De vennootschap B heeft op geconsolideerde[^17]
- basis:
+De vennootschap B heeft op geconsolideerde[^17] basis:
 
 - een netto-omzet van 3.800.000 + 50 % x (20.000.000 – 500.000) = 13.550.000; 
 - een balanstotaal van (1.300.000 - 300.000[^18]) + 50 % x 18.000.000 = 10.000.000; 
@@ -132,7 +126,7 @@ De vennootschap B heeft op geconsolideerde[^17]
 
 Bijgevolg worden bij de vennootschap B de drie groottecriteria vermeld in artikel 1:24, § 1 WVV op geconsolideerde basis overschreden.
 
-**Geval 2: De vennootschap A en de vennootschap B hebben geen overeenkomst met betrekking tot een gezamenlijke uitoefening van de controle over de vennootschap X**
+## Geval 2: De vennootschap A en de vennootschap B hebben geen overeenkomst met betrekking tot een gezamenlijke uitoefening van de controle over de vennootschap X
 
 Indien er geen overeenkomst bestaat tussen de vennootschap A en de vennootschap B met betrekking tot een gezamenlijke uitoefening van de controle over de vennootschap X is er geen sprake van een gezamenlijke controle. In dergelijk geval waarbij zowel de vennootschap A als de vennootschap B 50 procent van de aandelen bezit, heeft noch de vennootschap A, noch de vennootschap B de controle over de vennootschap X. De vennootschap X is bijgevolg geen dochtervennootschap van de vennootschap A en evenmin van de vennootschap B. In deze omstandigheden worden de groottecriteria van de vennootschap A, de vennootschap B en de vennootschap X op enkelvoudige basis beoordeeld.
 
@@ -143,20 +137,15 @@ We hernemen de gegevens van het voorbeeld hiervoor, doch de vennootschap A heeft
 De verrekeningen en weglatingen zoals bedoeld in de artikelen 3:127, 3:134 en 3:136 KB WVV kunnen als volgt worden samengevat:
 
 - er heeft geen enkele verrichting plaatsgevonden tussen de vennootschappen B, X en Y; 
-- bij een integrale consolidatie van (vennootschap A en vennootschap Y) wordt de omzet beïnvloed[^19]
- voor een bedrag van 1.000.000 euro en het balanstotaal voor een bedrag van 750.000 euro. 
+- bij een integrale consolidatie van (vennootschap A en vennootschap Y) wordt de omzet beïnvloed[^19] voor een bedrag van 1.000.000 euro en het balanstotaal voor een bedrag van 750.000 euro. 
 
-**Geval 1: De vennootschap A en de vennootschap B hebben een overeenkomst[^20]
- waarin een gezamenlijke uitoefening van de controlebevoegdheid over de vennootschap X wordt georganiseerd**
+**Geval 1: De vennootschap A en de vennootschap B hebben een overeenkomst[^20] waarin een gezamenlijke uitoefening van de controlebevoegdheid over de vennootschap X wordt georganiseerd**
 
 De vennootschap X staat onder gezamenlijke controle van de vennootschap A en de vennootschap B. Bijgevolg geldt het onweerlegbaar vermoeden dat de vennootschap A, respectievelijk de vennootschap B, controle uitoefent over de vennootschap X.[^21]
  Hieruit volgt dat de vennootschap A en de vennootschap X verbonden vennootschappen zijn en de vennootschap B en de vennootschap X verbonden vennootschappen zijn[^22]
- De vennootschap X is een, weliswaar gemeenschappelijke, dochtervennootschap van de vennootschap A en de vennootschap B. De vennootschap A en de vennootschap B zijn aldus moedervennootschappen zodat de beoordeling van de groottecriteria vermeld in artikel 1:24, § 1 WVV in hoofde van de vennootschap A en de vennootschap B op geconsolideerde basis plaatsvindt. In principe[^23]
- wordt de gemeenschappelijke dochtervennootschap, de vennootschap X, in de consolidatie opgenomen[^24]
- volgens de methode van de evenredige consolidatie. 
+ De vennootschap X is een, weliswaar gemeenschappelijke, dochtervennootschap van de vennootschap A en de vennootschap B. De vennootschap A en de vennootschap B zijn aldus moedervennootschappen zodat de beoordeling van de groottecriteria vermeld in artikel 1:24, § 1 WVV in hoofde van de vennootschap A en de vennootschap B op geconsolideerde basis plaatsvindt. In principe[^23] wordt de gemeenschappelijke dochtervennootschap, de vennootschap X, in de consolidatie opgenomen[^24] volgens de methode van de evenredige consolidatie. 
 
-Aldus heeft de vennootschap A op geconsolideerde[^25]
- basis:
+Aldus heeft de vennootschap A op geconsolideerde[^25] basis:
 
 - een netto-omzet van 7.000.000 + 50 % x (20.000.000 – 600.000) + (15.000.000 – 1.000.000) = 30.700.000; 
 - een balanstotaal van (2.000.000 – 200.000 – 300.000) + 50 % x 18.000.000 + (5.000.000 – 750.000) = 14.750.000; 
@@ -164,8 +153,7 @@ Aldus heeft de vennootschap A op geconsolideerde[^25]
 
 Bijgevolg worden bij de vennootschap A de drie groottecriteria vermeld in artikel 1:24, § 1 WVV op geconsolideerde basis overschreden.
 
-De vennootschap B heeft op geconsolideerde[^26]
- basis:
+De vennootschap B heeft op geconsolideerde[^26] basis:
 
 - een netto-omzet van 3.800.000 + 50 % x (20.000.000 – 500.000) = 13.550.000; 
 - een balanstotaal van (1.300.000 – 300.000) + 50 % x 18.000.000 = 10.000.000; 
@@ -173,12 +161,11 @@ De vennootschap B heeft op geconsolideerde[^26]
 
 Bijgevolg worden bij de vennootschap B de drie groottecriteria vermeld in artikel 1:24, § 1 WVV op geconsolideerde basis overschreden.
 
-**Geval 2: De vennootschap A en de vennootschap B hebben geen overeenkomst met betrekking tot een gezamenlijke uitoefening van de controle over de vennootschap X**
+## Geval 2: De vennootschap A en de vennootschap B hebben geen overeenkomst met betrekking tot een gezamenlijke uitoefening van de controle over de vennootschap X
 
 Indien er geen overeenkomst bestaat tussen de vennootschap A en de vennootschap B met betrekking tot een gezamenlijke uitoefening van de controle over de vennootschap X is er geen sprake van een gezamenlijke controle. In deze omstandigheden, waarbij zowel de vennootschap A als de vennootschap B 50 procent van de aandelen bezit, heeft noch de vennootschap A, noch de vennootschap B de controle over de vennootschap X. De vennootschap X is bijgevolg noch een dochtervennootschap van de vennootschap A, noch een dochtervennootschap van de vennootschap B. Bijgevolg worden de groottecriteria van de vennootschap B, de vennootschap X en de vennootschap Y op enkelvoudige basis beoordeeld. De vennootschap A daarentegen is een moedervennootschap omwille van haar participatie in de vennootschap Y. Bijgevolg worden de groottecriteria voor de vennootschap A beoordeeld op geconsolideerde basis. Dit wil zeggen dat in hoofde van de vennootschap A een integrale consolidatie plaatsvindt wat betreft de vennootschap Y, die een dochtervennootschap is van de vennootschap A, terwijl de deelneming in de vennootschap X opgenomen wordt volgens de vermogensmutatiemethode[^27].
 
-Aldus heeft de vennootschap A op geconsolideerde[^28]
- basis:
+Aldus heeft de vennootschap A op geconsolideerde[^28] basis:
 
 - een netto-omzet van 7.000.000 + (15.000.000 – 1.000.000) = 21.000.000; 
 - een balanstotaal van (2.000.000 – 300.000 – 200.000) + (50 % x 1.900.000) + (5.000.000 – 750.000) = 6.700.000; 

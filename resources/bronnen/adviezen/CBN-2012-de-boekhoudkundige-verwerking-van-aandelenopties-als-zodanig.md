@@ -1,68 +1,66 @@
 ---
-nummer: CBN-advies 2012/18
-datum: 2012-11-07
-themas:
-  - aandelenopties
-  - call-optie
-  - put-optie
 bron: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-aandelenopties-als-zodanig
+datum: 2012-11-07
+gerelateerde_adviezen:
+  - datum: '2012-01-11'
+    titel: De boekhoudkundige verwerking van aandelenoptieplannen
+    url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-aandelenoptieplannen
+  - datum: '1992-11-01'
+    titel: Boekhoudkundige verwerking van aandelenopties (als zodanig) (Err., Bull. C.B. N., nr. 30, februari 1993, p. 8)
+    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-aandelenopties-als-zodanig-err-bull-cb-n-nr-30-februari
+  - datum: '1992-11-01'
+    titel: Boekhoudkundige verwerking van dekkingsverrichtingen en gedekte posities in aandelen
+    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-dekkingsverrichtingen-en-gedekte-posities-in-aandelen
+nummer: CBN-advies 2012/18
 provenance:
+  generated_at: '2026-05-11T13:05:08Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-aandelenopties-als-zodanig
       sha256: fc78f1e6b4713cd70bf6ff7237844f6824545cbb67521c65005f9e111f846db1
       version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:36:33Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
   trust:
-    status: needs-rework
     confirmed_at: '2026-05-11T12:16:34Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: 'B3: de H1-titel wordt dubbel herhaald op regels 53 en 55 (twee opeenvolgende identieke `# CBN advies 2012/18 ...` regels). D4: heading-labels op regels 264 en 274 bevatten malformed italic (`###### * Uitoefening van een call-optie*` resp. `###### * Uitoefening van een put-optie *`) — spatie na/voor de `*` maakt de italic syntactisch incorrect.'
     layer1:
       status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 33
-      max_section_chars: 19984
-      file_size_chars: 39181
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:28Z'
+      heading_count: 32
+      max_section_chars: 19888
+      file_size_chars: 39083
       flags: []
     layer2:
-      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:16:34Z'
-      rationale: 'B3: de H1-titel wordt dubbel herhaald op regels 53 en 55 (twee opeenvolgende identieke `# CBN advies 2012/18 ...` regels). D4: heading-labels op regels 264 en 274 bevatten malformed italic (`###### * Uitoefening van een call-optie*` resp. `###### * Uitoefening van een put-optie *`) — spatie na/voor de `*` maakt de italic syntactisch incorrect.'
       concrete_problemen:
-        - regel: 53
-          categorie: B3
+        - categorie: B3
+          regel: 53
           type: other
           voorbeeld: '# CBN advies 2012/18 – De boekhoudkundige verwerking van aandelenopties (als zodanig) [dubbel op r53 en r55]'
-        - regel: 264
-          categorie: D4
+        - categorie: D4
+          regel: 264
           type: other
           voorbeeld: '###### * Uitoefening van een call-optie*'
-        - regel: 274
-          categorie: D4
+        - categorie: D4
+          regel: 274
           type: other
           voorbeeld: '###### * Uitoefening van een put-optie *'
-gerelateerde_adviezen:
-  - titel: De boekhoudkundige verwerking van aandelenoptieplannen
-    url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-aandelenoptieplannen
-    datum: '2012-01-11'
-  - titel: Boekhoudkundige verwerking van aandelenopties (als zodanig) (Err., Bull. C.B. N., nr. 30, februari 1993, p. 8)
-    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-aandelenopties-als-zodanig-err-bull-cb-n-nr-30-februari
-    datum: '1992-11-01'
-  - titel: Boekhoudkundige verwerking van dekkingsverrichtingen en gedekte posities in aandelen
-    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-dekkingsverrichtingen-en-gedekte-posities-in-aandelen
-    datum: '1992-11-01'
+      rationale: 'B3: de H1-titel wordt dubbel herhaald op regels 53 en 55 (twee opeenvolgende identieke `# CBN advies 2012/18 ...` regels). D4: heading-labels op regels 264 en 274 bevatten malformed italic (`###### * Uitoefening van een call-optie*` resp. `###### * Uitoefening van een put-optie *`) — spatie na/voor de `*` maakt de italic syntactisch incorrect.'
+      run_at: '2026-05-11T12:16:34Z'
+      status: needs-rework
+    rationale: 'B3: de H1-titel wordt dubbel herhaald op regels 53 en 55 (twee opeenvolgende identieke `# CBN advies 2012/18 ...` regels). D4: heading-labels op regels 264 en 274 bevatten malformed italic (`###### * Uitoefening van een call-optie*` resp. `###### * Uitoefening van een put-optie *`) — spatie na/voor de `*` maakt de italic syntactisch incorrect.'
+    status: needs-rework
+themas:
+  - aandelenopties
+  - call-optie
+  - put-optie
 ---
-
-# CBN advies 2012/18 – De boekhoudkundige verwerking van aandelenopties (als zodanig)
 
 # CBN advies 2012/18 – De boekhoudkundige verwerking van aandelenopties (als zodanig)
 
@@ -116,7 +114,7 @@ Over het algemeen koopt iemand een put als hij verwacht:
 - dat op de vervaldag de koers van het effect lager zal liggen dan de uitoefenprijs min de optiepremie; tegelijkertijd wil hij zijn risico beperken tot de optiepremie, zo de koers op de vervaldag hoger zou liggen dan de uitoefenprijs min de optiepremie (of: “out of the money”, *cfr.* infra), 
 - of dat hij de optie vóór de vervaldag met winst zal kunnen verkopen aan een operator die bij voorbeeld een extra prijsdaling verwacht. 
 
-Meestal zal de houder de put uitoefenen als de marktwaarde van het beleggingseffect kleiner is dan de uitoefenprijs op het ogenblik of op de uiterste datum waarop de optie mag worden uitgeoefend (de optie is dan “in the money”, *cfr*. *infra*). 
+Meestal zal de houder de put uitoefenen als de marktwaarde van het beleggingseffect kleiner is dan de uitoefenprijs op het ogenblik of op de uiterste datum waarop de optie mag worden uitgeoefend (de optie is dan “in the money”, *cfr*.* infra*). 
 
 #### Rechten en verplichtingen van de optieschrijver 
 
@@ -126,8 +124,7 @@ Voor een operator is een van de redenen om het risico te nemen een optie te schr
 
 Zo een optiehouder zijn optie steeds kan verkopen, kan een optieschrijver zich juridisch gezien niet ontdoen van zijn verbintenis. Economisch kan hij dit wel, zij het dan enkel door een dekkingsverrichting af te sluiten, namelijk door een identieke optie te kopen, met dezelfde uitoefenprijs en dezelfde vervaldag. 
 
-### Onderliggende doelstellingen van optiecontracten.
-
+Onderliggende doelstellingen van optiecontracten.
 Verschillende strategieën kunnen aan de basis liggen van het werken met opties. 
 
 Er moet een onderscheid worden gemaakt naargelang: 
@@ -139,9 +136,7 @@ In het eerste geval beïnvloedt elke schommeling van de optiewaarde inderdaad po
 
 In het tweede geval hebben de waardeschommelingen van het onderliggend actief een tegengestelde invloed op het vermogen en kunnen zij dus potentieel geheel of ten dele worden geneutraliseerd. Dat is het geval met: 
 
-a) Als dekking bestemde verrichtingen[^3]
- met opties, die de onderneming beschermen tegen de ongunstige invloed van koersschommelingen maar waarbij de winst van een gunstige koersevolutie geheel of ten dele behouden blijft.
-
+a) Als dekking bestemde verrichtingen[^3] met opties, die de onderneming beschermen tegen de ongunstige invloed van koersschommelingen maar waarbij de winst van een gunstige koersevolutie geheel of ten dele behouden blijft.
 Verrichtingen die als dekking kunnen dienen, zijn verrichtingen die erin bestaan: 
 
 - een put-optie kopen op effecten die men reeds in portefeuille heeft of die men vast heeft overgenomen; 
@@ -150,7 +145,6 @@ Verrichtingen die als dekking kunnen dienen, zijn verrichtingen die erin bestaan
 In beginsel kan enkel het kopen van een optie als dekkingsverrichting beschouwd worden. Geschreven opties kunnen per definitie geen dekkingsverrichting vormen: het al dan niet uitoefenen hangt immers af van de beslissing van de optiehouder. De beslissing van deze laatste hangt af van het voor hem gunstige - en dus voor de schrijver ongunstige - koersverloop van het onderliggend actief. 
 
 b) Gezamenlijke situaties en verrichtingen in tegengestelde zin op een zelfde onderliggend bestanddeel, buiten de hierboven bedoelde dekkingsverrichtingen.
-
 Bij deze laatste categorie horen strategieën zoals:
 
 - het gelijktijdig kopen en schrijven van put-opties dan wel het gelijktijdig kopen en schrijven van call-opties tegen dezelfde prijzen en met verschillende vervaldata; of 
@@ -160,8 +154,7 @@ Bij deze laatste categorie horen strategieën zoals:
 
 Waardeschommelingen hebben dus een verschillende invloed op het vermogen van de onderneming, naar gelang de optie een alleenstaande verrichting vormt dan wel een onderdeel is van een reeks verrichtingen in verschillende zin. Op grond van dit onderscheid zal hun boekhoudkundige verwerking dan ook verschillend zijn, inzonderheid voor de resultaatbepaling. 
 
-Dit advies behandelt enkel de boekhoudkundige verwerking van het kopen of schrijven van aandelenopties[^4]
- wanneer deze verrichtingen kunnen worden beschouwd als alleenstaande verrichtingen[^5]. 
+Dit advies behandelt enkel de boekhoudkundige verwerking van het kopen of schrijven van aandelenopties[^4] wanneer deze verrichtingen kunnen worden beschouwd als alleenstaande verrichtingen[^5]. 
 
 Dit advies handelt in hoofdzaak over aandelenopties die op een gestandaardiseerde wijze worden verhandeld op een georganiseerde en liquide markt, dit is:
 
@@ -359,8 +352,7 @@ a) het bedrag van de (via de overlopende rekening) uitgestelde premie alsook de 
 | | 6560 | Voorzieningen met financieel karakter: toevoegingen | | |
 | aan | 498 | Resultaten uit lopende geschreven opties | | |
 
-b) met toepassing van het KB W.Venn., in de toelichting, in de staat met betrekking tot de "Overlopende rekeningen” aan de passiefzijde, het bedrag te vermelden van de uitgestelde en/of geprovisioneerde resultaten uit geschreven opties, uiteraard voor zover deze bedragen relevant zijn. 
-
+b) met toepassing van het KB W.Venn., in de toelichting, in de staat met betrekking tot de "Overlopende rekeningen” aan de passiefzijde, het bedrag te vermelden van de uitgestelde en/of geprovisioneerde resultaten uit geschreven opties, uiteraard voor zover deze bedragen relevant zijn.
 ##### Afwikkeling van de verrichting 
 
 Bij de afwikkeling moeten de boekingen met betrekking tot de aangegane verbintenis worden tegengeboekt: 
@@ -409,7 +401,7 @@ Behalve wanneer het gaat om gedekte verrichtingen of dekkingsverrichtingen, of w
 
 1. Geschreven call- en put-opties worden tot hun vervaldag tegen uitoefenprijs geboekt op de rekeningen *Niet in de balans opgenomen rechten en verplichtingen*. 
 2. De premie die wordt ontvangen als tegenprestatie voor het schrijven van de optie en de verwerking van het risico dat is verbonden aan de geschreven optie, wordt beschouwd als een uitgestelde opbrengst - tot de vervaldag van de optie - en wordt bijgevolg geboekt als "over te dragen opbrengst". Vervolgens is het aangewezen om, in een zelfde rekening de netto bedragen (na aftrek van de terugnemingen) te boeken die aan de resultatenrekening worden onttrokken om de risico's van grotere verliezen dan de ontvangen premie op te vangen. 
-3. Op de vervaldag, ongeacht of de optie wordt uitgeoefend of niet, wordt de ontvangen premie in resultaat genomen en wordt de boeking op de rekeningen *Niet in de balans opgenomen rechten en verplichtingen tegengeboekt. * 
+3. Op de vervaldag, ongeacht of de optie wordt uitgeoefend of niet, wordt de ontvangen premie in resultaat genomen en wordt de boeking op de rekeningen *Niet in de balans opgenomen rechten en verplichtingen tegengeboekt.*  
 4. Als de optie wordt uitgeoefend : 
 - call-optie: het verschil tussen de aanschaffingswaarde van de te leveren effecten en hun verkoopprijs bij uitoefening van de call is een financiële kost; 
 - put-optie: op de verworven effecten moet een waardevermindering worden geboekt ten belope van het verschil tussen hun aanschaffingswaarde bij uitoefening van de geschreven optie en hun marktwaarde. 

@@ -1,63 +1,62 @@
 ---
-nummer: CBN-advies 2021/12
+bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudrechtelijke-verwerking-van-de-wederopbouwreserve
 datum: 2021-07-12
+nummer: CBN-advies 2021/12
+provenance:
+  generated_at: '2026-05-11T13:05:08Z'
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudrechtelijke-verwerking-van-de-wederopbouwreserve
+      sha256: 3feb5c08df659031ce4ad5a7979f068cea92f3e4bb5854713c6db51fef10d85b
+      version:
+  stale: false
+  stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
+  trust:
+    confirmed_at: '2026-05-11T12:21:41Z'
+    confirmed_by: subagent-sonnet-4-6
+    layer1:
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:30Z'
+      heading_count: 6
+      max_section_chars: 6995
+      file_size_chars: 17538
+      flags: []
+    layer2:
+      agent: subagent-sonnet-4-6
+      concrete_problemen:
+        - categorie: D4
+          regel: 49
+          type: other
+          voorbeeld: '*Wet van 19 november 2020 houdende de invoering van een wederopbouwreserve voor vennootschappen[^2] *'
+      rationale: 'D4: malformed italic op L49 — ''*Wet van 19 november 2020 … [^2] *'' heeft een spatie vóór de afsluitende asterisk doordat een footnote-anker binnen de italic-span staat; extractie-artefact. Inhoud is volledig en de zes headings zijn correct met alle 24 voetnootdefinities aanwezig.'
+      run_at: '2026-05-11T12:21:41Z'
+      status: needs-rework
+    rationale: 'D4: malformed italic op L49 — ''*Wet van 19 november 2020 … [^2] *'' heeft een spatie vóór de afsluitende asterisk doordat een footnote-anker binnen de italic-span staat; extractie-artefact. Inhoud is volledig en de zes headings zijn correct met alle 24 voetnootdefinities aanwezig.'
+    status: needs-rework
 themas:
   - wederopbouwreserve
   - COVID-19
   - vrijgestelde reserves
   - Onaantastbaarheidsvoorwaarde
   - belastingvrije reserves
-bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudrechtelijke-verwerking-van-de-wederopbouwreserve
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudrechtelijke-verwerking-van-de-wederopbouwreserve
-      sha256: 3feb5c08df659031ce4ad5a7979f068cea92f3e4bb5854713c6db51fef10d85b
-      version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:38:02Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T12:21:41Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "D4: malformed italic op L49 — '*Wet van 19 november 2020 … [^2] *' heeft een spatie vóór de afsluitende asterisk doordat een footnote-anker binnen de italic-span staat; extractie-artefact. Inhoud is volledig en de zes headings zijn correct met alle 24 voetnootdefinities aanwezig."
-    layer1:
-      status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 6
-      max_section_chars: 6995
-      file_size_chars: 17541
-      flags: []
-    layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:21:41Z'
-      rationale: "D4: malformed italic op L49 — '*Wet van 19 november 2020 … [^2] *' heeft een spatie vóór de afsluitende asterisk doordat een footnote-anker binnen de italic-span staat; extractie-artefact. Inhoud is volledig en de zes headings zijn correct met alle 24 voetnootdefinities aanwezig."
-      concrete_problemen:
-        - regel: 49
-          categorie: D4
-          type: other
-          voorbeeld: '*Wet van 19 november 2020 houdende de invoering van een wederopbouwreserve voor vennootschappen[^2] *'
 ---
 
 # CBN-advies 2021/12 – Boekhoudrechtelijke verwerking van de wederopbouwreserve
 
 ## Inleiding
 
-Middels de *Wet van 19 november 2020 houdende de invoering van een wederopbouwreserve voor vennootschappen[^2] * is een bijkomende maatregel genomen binnen de vennootschapsbelasting. De aan de vennootschapsbelasting onderworpen ondernemingen kunnen hun solvabiliteitspositie terug geleidelijk aan herstellen door voor drie belastbare tijdperken een “wederopbouwreserve” aan te leggen op het einde van het boekjaar met betrekking tot de aanslagjaren 2022, 2023 of 2024.[^3] 
+Middels de *Wet van 19 november 2020 houdende de invoering van een wederopbouwreserve voor vennootschappen[^2]*  is een bijkomende maatregel genomen binnen de vennootschapsbelasting. De aan de vennootschapsbelasting onderworpen ondernemingen kunnen hun solvabiliteitspositie terug geleidelijk aan herstellen door voor drie belastbare tijdperken een “wederopbouwreserve” aan te leggen op het einde van het boekjaar met betrekking tot de aanslagjaren 2022, 2023 of 2024.[^3] 
 
 Deze wederopbouwreserve laat toe om toekomstige winsten, vanaf aanslagjaar 2022, fiscaal gunstig in de aan de vennootschapsbelasting onderworpen onderneming te behouden door deze vrij te stellen om zo deze onderneming, mits ze haar eigen vermogen en haar tewerkstellingspeil behoudt, zo snel mogelijk terug over een gelijkwaardig eigen vermogen te laten beschikken van vóór het COVID-19-tijdperk. 
 
 ## Het in aanmerking te nemen bedrijfsverlies als basis
 
-Het bedrag van de wederopbouwreserve is in principe beperkt tot het bedrijfsverlies[^4]
- van het boekjaar op de afsluitdatum van het boekjaar in 2020, met als maximum 20 miljoen euro. Met andere woorden, een onderneming waarvan het bedrijfsresultaat van het betrokken boekjaar niet in verlies is, kan niet genieten van de regeling.
+Het bedrag van de wederopbouwreserve is in principe beperkt tot het bedrijfsverlies[^4] van het boekjaar op de afsluitdatum van het boekjaar in 2020, met als maximum 20 miljoen euro. Met andere woorden, een onderneming waarvan het bedrijfsresultaat van het betrokken boekjaar niet in verlies is, kan niet genieten van de regeling.
 
 Met bedrijfsverlies wordt het negatief verschil tussen de bedrijfsopbrengsten en bedrijfskosten bedoeld, zoals dit voortspruit uit het model van de bij de Nationale Bank van België neergelegde jaarrekening in code 9901[^5]. Dientengevolge wordt geen rekening gehouden met de overige resultaten van de onderneming die onder meer de financiële opbrengsten, de financiële kosten en het belastingresultaat omvatten.
 
@@ -69,18 +68,16 @@ Binnen het maximale bedrag van de vrijstelling zoals voorheen omschreven, wordt 
 
 Het bedrag van de belastbare gereserveerde winst van het belastbaar tijdperk vastgesteld vóór de samenstelling van de vrijgestelde reserve bedoeld in artikel 194*quater*/1 WIB 1992 valt niet af te lezen uit de jaarrekening van de betrokken onderneming maar wordt bepaald in de aangifte in de vennootschapsbelasting. Daarmee wordt het gereserveerde resultaat bedoeld, verminderd met een aantal bestanddelen[^7], dat gemeenzaam resulteert in de reservebeweging binnen de aangifte in de vennootschapsbelasting.
 
-De wederopbouwreserve wordt alleen vrijgesteld in zoverre zij *enerzijds *op één of meer afzonderlijke rekeningen van het passief geboekt is en blijft en niet tot grondslag dient voor de berekening van de jaarlijkse dotatie aan de wettelijke reserve of van enige beloning of toekenning.[^8]
- De betrokken onderneming mag *anderzijds*, te rekenen vanaf 12 maart 2020 tot de laatste dag van het belastbaar tijdperk waarin de wederopbouwreserve wordt genoten, geen rechtstreekse deelneming hebben in een vennootschap gevestigd in een belastingparadijs[^9]
- en geen betalingen gedaan hebben aan dergelijke vennootschappen voor een totaalbedrag van ten minste 100.000 euro voor het belastbare tijdperk, tenzij is aangetoond dat deze betalingen zijn verricht in het kader van werkelijke en oprechte verrichtingen als gevolg van rechtmatige financiële of economische behoeften.[^10] 
+De wederopbouwreserve wordt alleen vrijgesteld in zoverre zij *enerzijds* op één of meer afzonderlijke rekeningen van het passief geboekt is en blijft en niet tot grondslag dient voor de berekening van de jaarlijkse dotatie aan de wettelijke reserve of van enige beloning of toekenning.[^8]
+ De betrokken onderneming mag *anderzijds*, te rekenen vanaf 12 maart 2020 tot de laatste dag van het belastbaar tijdperk waarin de wederopbouwreserve wordt genoten, geen rechtstreekse deelneming hebben in een vennootschap gevestigd in een belastingparadijs[^9] en geen betalingen gedaan hebben aan dergelijke vennootschappen voor een totaalbedrag van ten minste 100.000 euro voor het belastbare tijdperk, tenzij is aangetoond dat deze betalingen zijn verricht in het kader van werkelijke en oprechte verrichtingen als gevolg van rechtmatige financiële of economische behoeften.[^10] 
 
 ## De terugname van de wederopbouwreserve
 
 De aangelegde wederopbouwreserve wordt evenwel maar behouden op voorwaarde dat de betrokken onderneming een aantal verrichtingen niet stelt. Anders uitgedrukt worden de bedragen die aangelegd werden als wederopbouwreserve, geheel of gedeeltelijk aangemerkt als winst van het belastbare tijdperk indien de onderneming in dat belastbare tijdperk de volgende verrichtingen doorvoert.
 
-Als de vennootschap een inkoop van eigen aandelen verricht, moet de wederopbouwreserve teruggenomen worden ten belope van de waarde of aanschaffingsprijs van de inkoop. Als de vennootschap dividenden uitkeert die fiscaalrechtelijke kwalificeren als dividend[^11]
- met inbegrip van de uitkering van een liquidatiereserve[^12], moet evenzeer ten belope van het bedrag van het dividend de wederopbouwreserve belastbaar worden gesteld. Hetzelfde geldt bij een kapitaalvermindering[^13], of elke andere vermindering of verdeling van het eigen vermogen, ten belope van het bedrag van de kapitaalvermindering of verdeling.[^14] 
+Als de vennootschap een inkoop van eigen aandelen verricht, moet de wederopbouwreserve teruggenomen worden ten belope van de waarde of aanschaffingsprijs van de inkoop. Als de vennootschap dividenden uitkeert die fiscaalrechtelijke kwalificeren als dividend[^11] met inbegrip van de uitkering van een liquidatiereserve[^12], moet evenzeer ten belope van het bedrag van het dividend de wederopbouwreserve belastbaar worden gesteld. Hetzelfde geldt bij een kapitaalvermindering[^13], of elke andere vermindering of verdeling van het eigen vermogen, ten belope van het bedrag van de kapitaalvermindering of verdeling.[^14] 
 
-Het belastbaar stellen van de wederopbouwreserve dient evenzeer te gebeuren als binnen de resultatenrekening van de onderneming onder de post 620 *Bezoldigingen en rechtstreekse sociale voordelen[^15] * een bedrag is opgenomen onder een drempel van 85 procent van het bedrag dat voor deze zelfde post is vastgesteld op de afsluitdatum van het boekjaar dat is geëindigd in 2019 als voor het eerst tijdens het belastbare tijdperk aan deze voorwaarde wordt voldaan, of onder deze zelfde post een bedrag is opgenomen onder de drempel die voorheen de laagste was als aan dezelfde voorwaarde is voldaan in een vorig belastbaar tijdperk, ten belope van het verschil tussen: enerzijds het bedrag van de eerder genoemde drempel van 85 procent respectievelijk het bedrag van de voorheen laagste drempel, en anderzijds het bovengenoemde bedrag van de post 620 Bezoldigingen en rechtstreekse sociale voordelen voor het belastbare tijdperk dat respectievelijk onder de bovengenoemde drempel van 85 procent ligt, of dat onder de voorheen laagste drempel ligt.[^16]
+Het belastbaar stellen van de wederopbouwreserve dient evenzeer te gebeuren als binnen de resultatenrekening van de onderneming onder de post 620 *Bezoldigingen en rechtstreekse sociale voordelen[^15]*  een bedrag is opgenomen onder een drempel van 85 procent van het bedrag dat voor deze zelfde post is vastgesteld op de afsluitdatum van het boekjaar dat is geëindigd in 2019 als voor het eerst tijdens het belastbare tijdperk aan deze voorwaarde wordt voldaan, of onder deze zelfde post een bedrag is opgenomen onder de drempel die voorheen de laagste was als aan dezelfde voorwaarde is voldaan in een vorig belastbaar tijdperk, ten belope van het verschil tussen: enerzijds het bedrag van de eerder genoemde drempel van 85 procent respectievelijk het bedrag van de voorheen laagste drempel, en anderzijds het bovengenoemde bedrag van de post 620 Bezoldigingen en rechtstreekse sociale voordelen voor het belastbare tijdperk dat respectievelijk onder de bovengenoemde drempel van 85 procent ligt, of dat onder de voorheen laagste drempel ligt.[^16]
  Met de post 620 *Bezoldigingen en rechtstreekse sociale voordelen* worden de brutobezoldigingen en de rechtstreekse sociale bijdragen bedoeld, toegekend aan bestuurders of zaakvoerder[^17], aan directiepersoneel, aan bedienden, aan arbeiders en aan andere personeelsleden.
 
 Onder directiepersoneel moet worden verstaan, de werknemers “belast met het dagelijks beheer van de onderneming, die gemachtigd zijn om de werkgever te vertegenwoordigen en te verbinden, alsmede de personeelsleden, onmiddellijk ondergeschikt aan die personen, wanneer zij eveneens opdrachten van dagelijks beheer vervullen".[^18] 

@@ -1,6 +1,60 @@
 ---
-nummer: CBN-advies 150/1
+bron: https://www.cbn-cnc.be/nl/adviezen/materiele-vaste-activa-onderscheid-met-voorraden
 datum: 1986-01-01
+gerelateerde_adviezen:
+  - datum: '2016-10-26'
+    titel: Kilometerheffing
+    url: https://www.cbn-cnc.be/nl/adviezen/kilometerheffing
+  - datum: '1988-01-21'
+    titel: Werkende vennoten
+    url: https://www.cbn-cnc.be/nl/adviezen/werkende-vennoten
+  - datum: '1988-12-01'
+    titel: Boeking van commissies
+    url: https://www.cbn-cnc.be/nl/adviezen/boeking-van-commissies
+  - datum: '1991-03-01'
+    titel: Rechten tot vertoning van films
+    url: https://www.cbn-cnc.be/nl/adviezen/rechten-tot-vertoning-van-films
+nummer: CBN-advies 150/1
+provenance:
+  generated_at: '2026-05-11T13:05:06Z'
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/materiele-vaste-activa-onderscheid-met-voorraden
+      sha256: 6da50ea2d8309abf067107fdc8cb41cc0da5a41fb9ed4b4e54574eefb073a1c2
+      version:
+  stale: false
+  stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
+  trust:
+    confirmed_at: '2026-05-11T12:04:41Z'
+    confirmed_by: subagent-sonnet-4-6
+    layer1:
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:26Z'
+      heading_count: 4
+      max_section_chars: 1913
+      file_size_chars: 7474
+      flags: []
+    layer2:
+      agent: subagent-sonnet-4-6
+      concrete_problemen:
+        - categorie: D4
+          regel: 88
+          type: other
+          voorbeeld: via rekening 609 *Voorraadwijziging *(bv. 6096)
+        - categorie: D4
+          regel: 88
+          type: other
+          voorbeeld: via de rekening *Voorraadwijziging *ten laste genomen
+      rationale: 'D4: twee gevallen van malformed italic op regel 88 — ''*Voorraadwijziging *(bv. 6096)'' en ''*Voorraadwijziging *ten laste genomen'': sluitende asterisk staat direct vóór een spatie in plaats van na het woord, waardoor Markdown de italic niet correct sluit. Verder inhoud compleet en structuur in orde.'
+      run_at: '2026-05-11T12:04:41Z'
+      status: needs-rework
+    rationale: 'D4: twee gevallen van malformed italic op regel 88 — ''*Voorraadwijziging *(bv. 6096)'' en ''*Voorraadwijziging *ten laste genomen'': sluitende asterisk staat direct vóór een spatie in plaats van na het woord, waardoor Markdown de italic niet correct sluit. Verder inhoud compleet en structuur in orde.'
+    status: needs-rework
 themas:
   - diensten en diverse goederen
   - dieren
@@ -13,60 +67,6 @@ themas:
   - vaste activa
   - vlottende activa
   - voorraden
-bron: https://www.cbn-cnc.be/nl/adviezen/materiele-vaste-activa-onderscheid-met-voorraden
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/materiele-vaste-activa-onderscheid-met-voorraden
-      sha256: 6da50ea2d8309abf067107fdc8cb41cc0da5a41fb9ed4b4e54574eefb073a1c2
-      version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:35:16Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T12:04:41Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "D4: twee gevallen van malformed italic op regel 88 — '*Voorraadwijziging *(bv. 6096)' en '*Voorraadwijziging *ten laste genomen': sluitende asterisk staat direct vóór een spatie in plaats van na het woord, waardoor Markdown de italic niet correct sluit. Verder inhoud compleet en structuur in orde."
-    layer1:
-      status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 4
-      max_section_chars: 1913
-      file_size_chars: 7474
-      flags: []
-    layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:04:41Z'
-      rationale: "D4: twee gevallen van malformed italic op regel 88 — '*Voorraadwijziging *(bv. 6096)' en '*Voorraadwijziging *ten laste genomen': sluitende asterisk staat direct vóór een spatie in plaats van na het woord, waardoor Markdown de italic niet correct sluit. Verder inhoud compleet en structuur in orde."
-      concrete_problemen:
-        - regel: 88
-          categorie: D4
-          type: other
-          voorbeeld: via rekening 609 *Voorraadwijziging *(bv. 6096)
-        - regel: 88
-          categorie: D4
-          type: other
-          voorbeeld: via de rekening *Voorraadwijziging *ten laste genomen
-gerelateerde_adviezen:
-  - titel: Kilometerheffing
-    url: https://www.cbn-cnc.be/nl/adviezen/kilometerheffing
-    datum: '2016-10-26'
-  - titel: Werkende vennoten
-    url: https://www.cbn-cnc.be/nl/adviezen/werkende-vennoten
-    datum: '1988-01-21'
-  - titel: Boeking van commissies
-    url: https://www.cbn-cnc.be/nl/adviezen/boeking-van-commissies
-    datum: '1988-12-01'
-  - titel: Rechten tot vertoning van films
-    url: https://www.cbn-cnc.be/nl/adviezen/rechten-tot-vertoning-van-films
-    datum: '1991-03-01'
 ---
 
 # CBN-advies 150/1 - Materiële vaste activa - Onderscheid met voorraden
@@ -93,7 +93,7 @@ Gaat het evenwel om onderdelen die geregeld worden vervangen, dan heeft dergelij
 
 Worden dergelijke onderdelen na de ingebruikname van de installatie gekocht, dan gaat het, in de regel, om een aankoop die als *Diverse goederen en diensten* (rekening 61) wordt geboekt en tijdens het jaar van aankoop ten laste genomen. 
 
-Legt de onderneming een voorraad van zulke onderdelen aan dan mogen deze ook boekhoudrechtelijk als een *Voorraad* worden beschouwd en geboekt, bij voorkeur onder afzonderlijke balans- en resultatenrekeningen. Hun aanschaffing verloopt derhalve via rekening 60 (bv. 606) en hun opname in voorraad via rekening 609 *Voorraadwijziging *(bv. 6096). Bij gebruik van het onderdeel wordt de kostprijs ervan via de rekening *Voorraadwijziging *ten laste genomen, zonder evenredige aanpassing van de boekwaarde van de installatie waarvan het onderdeel werd vervangen. 
+Legt de onderneming een voorraad van zulke onderdelen aan dan mogen deze ook boekhoudrechtelijk als een *Voorraad* worden beschouwd en geboekt, bij voorkeur onder afzonderlijke balans- en resultatenrekeningen. Hun aanschaffing verloopt derhalve via rekening 60 (bv. 606) en hun opname in voorraad via rekening 609 *Voorraadwijziging* (bv. 6096). Bij gebruik van het onderdeel wordt de kostprijs ervan via de rekening *Voorraadwijziging* ten laste genomen, zonder evenredige aanpassing van de boekwaarde van de installatie waarvan het onderdeel werd vervangen. 
 
 ### Ontginningsgronden 
 

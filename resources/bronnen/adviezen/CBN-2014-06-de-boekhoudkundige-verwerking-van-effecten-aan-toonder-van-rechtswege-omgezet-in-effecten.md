@@ -1,6 +1,43 @@
 ---
-nummer: CBN-advies 2014/6
+bron: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-effecten-aan-toonder-van-rechtswege-omgezet-in-effecten
 datum: 2014-04-23
+nummer: CBN-advies 2014/6
+provenance:
+  generated_at: '2026-05-11T13:05:08Z'
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-effecten-aan-toonder-van-rechtswege-omgezet-in-effecten
+      sha256: 96a637b0198c56439326c067bc3fa16af11e8354f95f69eb043dfc588197858f
+      version:
+  stale: false
+  stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
+  trust:
+    confirmed_at: '2026-05-11T12:16:34Z'
+    confirmed_by: subagent-sonnet-4-6
+    layer1:
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:29Z'
+      heading_count: 5
+      max_section_chars: 3101
+      file_size_chars: 7553
+      flags: []
+    layer2:
+      agent: subagent-sonnet-4-6
+      concrete_problemen:
+        - categorie: B5
+          regel: 48
+          type: other
+          voorbeeld: op 1 januari 2014
+      rationale: 'Regel 48: ''op 1 januari 2014'' staat als losstaande tekstregel direct na de H1-titel — dit is een fragment van de volledige originele titel dat door de scraper gesplitst werd en als body-tekst terechtkwam. Hoort ofwel onderdeel te zijn van de H1-heading ofwel verwijderd te worden. Verdere inhoud is volledig.'
+      run_at: '2026-05-11T12:16:34Z'
+      status: needs-rework
+    rationale: 'Regel 48: ''op 1 januari 2014'' staat als losstaande tekstregel direct na de H1-titel — dit is een fragment van de volledige originele titel dat door de scraper gesplitst werd en als body-tekst terechtkwam. Hoort ofwel onderdeel te zijn van de H1-heading ofwel verwijderd te worden. Verdere inhoud is volledig.'
+    status: needs-rework
 themas:
   - aandelen aan toonder
   - aandelen op naam
@@ -8,43 +45,6 @@ themas:
   - effecten aan toonder
   - effecten op naam
   - gedematerialiseerde effecten
-bron: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-effecten-aan-toonder-van-rechtswege-omgezet-in-effecten
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-effecten-aan-toonder-van-rechtswege-omgezet-in-effecten
-      sha256: 96a637b0198c56439326c067bc3fa16af11e8354f95f69eb043dfc588197858f
-      version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:36:45Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T12:16:34Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "Regel 48: 'op 1 januari 2014' staat als losstaande tekstregel direct na de H1-titel — dit is een fragment van de volledige originele titel dat door de scraper gesplitst werd en als body-tekst terechtkwam. Hoort ofwel onderdeel te zijn van de H1-heading ofwel verwijderd te worden. Verdere inhoud is volledig."
-    layer1:
-      status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 5
-      max_section_chars: 3101
-      file_size_chars: 7554
-      flags: []
-    layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:16:34Z'
-      rationale: "Regel 48: 'op 1 januari 2014' staat als losstaande tekstregel direct na de H1-titel — dit is een fragment van de volledige originele titel dat door de scraper gesplitst werd en als body-tekst terechtkwam. Hoort ofwel onderdeel te zijn van de H1-heading ofwel verwijderd te worden. Verdere inhoud is volledig."
-      concrete_problemen:
-        - regel: 48
-          categorie: B5
-          type: other
-          voorbeeld: op 1 januari 2014
 ---
 
 # CBN-advies 2014/6 – De boekhoudkundige verwerking van effecten aan toonder van rechtswege omgezet in effecten op naam of in gedematerialiseerde effecten op 1 januari 2014
@@ -90,8 +90,7 @@ De wet van 14 december 2005 verduidelijkt uitdrukkelijk dat deze inschrijving de
 
 Bovendien, zoals hierboven werd gesteld, wordt de uitoefening van alle rechten die worden belichaamd door deze op naam van de emittent ingeschreven effecten, opgeschort totdat de rechthebbende de inschrijving van de effecten op zijn naam verkrijgt.[^7] 
 
-Ten slotte beschermt de wet van 14 december 2005, zoals gewijzigd door de wet van 21 december 2013,[^8]
- de effecten die van rechtswege zijn ingeschreven op naam van de emittent tegen de schuldeisers van de emittent of tegen derden: “De inbeslagneming, sekwestratie of blokkering van een op naam van de emittent geopende effectenrekening of van een inschrijving op naam van de emittent overeenkomstig dit artikel, is niet toegelaten.”[^9] 
+Ten slotte beschermt de wet van 14 december 2005, zoals gewijzigd door de wet van 21 december 2013,[^8] de effecten die van rechtswege zijn ingeschreven op naam van de emittent tegen de schuldeisers van de emittent of tegen derden: “De inbeslagneming, sekwestratie of blokkering van een op naam van de emittent geopende effectenrekening of van een inschrijving op naam van de emittent overeenkomstig dit artikel, is niet toegelaten.”[^9] 
 
 Vanaf 1 januari 2015 zal voor de effecten waarvan de rechthebbende zich nog niet heeft bekendgemaakt, de inschrijving op naam van de emittent aflopen ten gevolge van de gedwongen verkoop van de effecten (behalve indien de emittent zelf zijn eigen effecten koopt, zie *supra*) of ten gevolge van de overdracht van de onverkochte effecten aan de Deposito- en Consignatiekas.
 

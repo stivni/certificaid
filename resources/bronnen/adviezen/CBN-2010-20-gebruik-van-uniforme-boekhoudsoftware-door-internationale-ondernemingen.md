@@ -1,6 +1,43 @@
 ---
-nummer: CBN-advies 2010/20
+bron: https://www.cbn-cnc.be/nl/adviezen/gebruik-van-uniforme-boekhoudsoftware-door-internationale-ondernemingen
 datum: 2010-11-10
+gerelateerde_adviezen:
+  - datum: '1984-01-01'
+    titel: Overeenstemming tussen de boekhouding en de jaarrekening
+    url: https://www.cbn-cnc.be/nl/adviezen/overeenstemming-tussen-de-boekhouding-en-de-jaarrekening
+nummer: CBN-advies 2010/20
+provenance:
+  generated_at: '2026-05-11T13:05:08Z'
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/gebruik-van-uniforme-boekhoudsoftware-door-internationale-ondernemingen
+      sha256: 07041df6efac5d52376c66e78adaa33de0519e3008490ad523f5b7dcea3b4b87
+      version:
+  stale: false
+  stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
+  trust:
+    confirmed_at:
+    confirmed_by:
+    layer1:
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:28Z'
+      heading_count: 5
+      max_section_chars: 11034
+      file_size_chars: 12476
+      flags: []
+    layer2:
+      agent:
+      concrete_problemen: []
+      rationale:
+      run_at:
+      status: not_run
+    rationale: 'Trust gereset 2026-05-11: re-scrape met scraper-fixes, content-diff > 5%'
+    status: unreviewed
 themas:
   - algemeen rekeningenstelsel
   - belgische bijkantoren
@@ -19,43 +56,6 @@ themas:
   - mar
   - proef- en saldibalans
   - taal
-bron: https://www.cbn-cnc.be/nl/adviezen/gebruik-van-uniforme-boekhoudsoftware-door-internationale-ondernemingen
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/gebruik-van-uniforme-boekhoudsoftware-door-internationale-ondernemingen
-      sha256: 07041df6efac5d52376c66e78adaa33de0519e3008490ad523f5b7dcea3b4b87
-      version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:36:05Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: trusted
-    confirmed_at: '2026-05-11T12:09:18Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: Vijf headings correct hiërarchisch. Voetnoten 1–15 volledig. Geen inhoudsopgave als plain text in body, geen malformed italic, geen extractie-artefacten zichtbaar. Langere secties (max 11034 chars) lopen vloeiend door zonder spurious breaks.
-    layer1:
-      status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 5
-      max_section_chars: 11034
-      file_size_chars: 12476
-      flags: []
-    layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:09:18Z'
-      rationale: Vijf headings correct hiërarchisch. Voetnoten 1–15 volledig. Geen inhoudsopgave als plain text in body, geen malformed italic, geen extractie-artefacten zichtbaar. Langere secties (max 11034 chars) lopen vloeiend door zonder spurious breaks.
-      concrete_problemen: []
-gerelateerde_adviezen:
-  - titel: Overeenstemming tussen de boekhouding en de jaarrekening
-    url: https://www.cbn-cnc.be/nl/adviezen/overeenstemming-tussen-de-boekhouding-en-de-jaarrekening
-    datum: '1984-01-01'
 ---
 
 # CBN-advies 2010/20 - Gebruik van uniforme boekhoudsoftware door internationale ondernemingen

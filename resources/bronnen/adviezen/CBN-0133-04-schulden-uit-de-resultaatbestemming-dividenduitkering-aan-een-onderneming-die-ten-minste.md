@@ -1,6 +1,46 @@
 ---
-nummer: CBN-advies 133/4
+bron: https://www.cbn-cnc.be/nl/adviezen/schulden-uit-de-resultaatbestemming-dividenduitkering-aan-een-onderneming-die-ten-minste
 datum: 1998-03-01
+gerelateerde_adviezen:
+  - datum: '1985-04-01'
+    titel: Schulden voortvloeiend uit de bestemming van het resultaat
+    url: https://www.cbn-cnc.be/nl/adviezen/schulden-voortvloeiend-uit-de-bestemming-van-het-resultaat
+  - datum: '1995-03-01'
+    titel: Voorstelling van een tabel met de wijzigingen in het eigen vermogen en de bestemming van het resultaat van het boekjaar
+    url: https://www.cbn-cnc.be/nl/adviezen/voorstelling-van-een-tabel-met-de-wijzigingen-in-het-eigen-vermogen-en-de-bestemming-van
+nummer: CBN-advies 133/4
+provenance:
+  generated_at: '2026-05-11T13:05:06Z'
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/schulden-uit-de-resultaatbestemming-dividenduitkering-aan-een-onderneming-die-ten-minste
+      sha256: 91e4ca11a7177d32fb69fb0526c84ed29cae2683cb3bdb8c0797556e9eb8e5f7
+      version:
+  stale: false
+  stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
+  trust:
+    confirmed_at: '2026-05-11T12:04:41Z'
+    confirmed_by: subagent-sonnet-4-6
+    layer1:
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:25Z'
+      heading_count: 0
+      max_section_chars: 4625
+      file_size_chars: 4625
+      flags: []
+    layer2:
+      agent: subagent-sonnet-4-6
+      concrete_problemen: []
+      rationale: Volledig leesbaar advies met correct opgemaakte markdown-tabellen, gedefineerde voetnoten en coherente lopende tekst. Geen zichtbare PDF-extractie-artefacten. Een buitenstaander zou dit voor mens-geschreven markdown houden.
+      run_at: '2026-05-11T12:04:41Z'
+      status: trusted
+    rationale: Volledig leesbaar advies met correct opgemaakte markdown-tabellen, gedefineerde voetnoten en coherente lopende tekst. Geen zichtbare PDF-extractie-artefacten. Een buitenstaander zou dit voor mens-geschreven markdown houden.
+    status: trusted
 themas:
   - bestemming van het resultaat van het boekjaar
   - deelneming
@@ -10,46 +50,6 @@ themas:
   - roerende voorheffing
   - schulden
   - schulden uit bestemming van het resultaat
-bron: https://www.cbn-cnc.be/nl/adviezen/schulden-uit-de-resultaatbestemming-dividenduitkering-aan-een-onderneming-die-ten-minste
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/schulden-uit-de-resultaatbestemming-dividenduitkering-aan-een-onderneming-die-ten-minste
-      sha256: 91e4ca11a7177d32fb69fb0526c84ed29cae2683cb3bdb8c0797556e9eb8e5f7
-      version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:34:54Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: trusted
-    confirmed_at: '2026-05-11T12:04:41Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: Volledig leesbaar advies met correct opgemaakte markdown-tabellen, gedefineerde voetnoten en coherente lopende tekst. Geen zichtbare PDF-extractie-artefacten. Een buitenstaander zou dit voor mens-geschreven markdown houden.
-    layer1:
-      status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 0
-      max_section_chars: 4625
-      file_size_chars: 4625
-      flags: []
-    layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:04:41Z'
-      rationale: Volledig leesbaar advies met correct opgemaakte markdown-tabellen, gedefineerde voetnoten en coherente lopende tekst. Geen zichtbare PDF-extractie-artefacten. Een buitenstaander zou dit voor mens-geschreven markdown houden.
-      concrete_problemen: []
-gerelateerde_adviezen:
-  - titel: Schulden voortvloeiend uit de bestemming van het resultaat
-    url: https://www.cbn-cnc.be/nl/adviezen/schulden-voortvloeiend-uit-de-bestemming-van-het-resultaat
-    datum: '1985-04-01'
-  - titel: Voorstelling van een tabel met de wijzigingen in het eigen vermogen en de bestemming van het resultaat van het boekjaar
-    url: https://www.cbn-cnc.be/nl/adviezen/voorstelling-van-een-tabel-met-de-wijzigingen-in-het-eigen-vermogen-en-de-bestemming-van
-    datum: '1995-03-01'
 ---
 
 # CBN-advies 133/4 - Schulden uit de resultaatbestemming : dividenduitkering aan een onderneming die ten minste 25 % bezit van het kapitaal van de vennootschap die het dividend uitkeert

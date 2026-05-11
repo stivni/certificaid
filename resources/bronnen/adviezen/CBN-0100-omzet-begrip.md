@@ -1,54 +1,52 @@
 ---
-nummer: CBN-advies 100
-datum: 1977-08-01
-themas:
-  - verwerking van vermogensbestanddelen
-  - voordelen bovenop het loon
-  - omzet
 bron: https://www.cbn-cnc.be/nl/adviezen/omzet-begrip
+datum: 1977-08-01
+gerelateerde_adviezen:
+  - datum: '1991-03-01'
+    titel: Verwerking in de geconsolideerde jaarrekening van de vermogensbestanddelen en de resultaten op de datum waarop de geconsolideerde jaarrekening wordt afgesloten
+    url: https://www.cbn-cnc.be/nl/adviezen/verwerking-in-de-geconsolideerde-jaarrekening-van-de-vermogensbestanddelen-en-de
+nummer: CBN-advies 100
 provenance:
+  generated_at: '2026-05-11T13:05:05Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/omzet-begrip
       sha256: 0651a46284667473bcb25099b0a2a168d21a95975e629ef2f6a6dbe5efa8c061
       version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:33:36Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
   trust:
-    status: needs-rework
     confirmed_at: '2026-05-11T11:51:19Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "B3: de hoofd-heading is gedupliceerd op regels 47 en 49 ('# CBN advies 100 - Omzet – Begrip' twee keer). Scraper heeft de paginatitel en de article-heading als twee aparte regels gepakt. Inhoudelijk verder volledig en correct."
     layer1:
       status: pass
-      run_id: 20260511-083333
-      run_at:
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:24Z'
       heading_count: 0
-      max_section_chars: 854
-      file_size_chars: 854
+      max_section_chars: 819
+      file_size_chars: 819
       flags: []
     layer2:
-      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T11:51:19Z'
-      rationale: "B3: de hoofd-heading is gedupliceerd op regels 47 en 49 ('# CBN advies 100 - Omzet – Begrip' twee keer). Scraper heeft de paginatitel en de article-heading als twee aparte regels gepakt. Inhoudelijk verder volledig en correct."
       concrete_problemen:
-        - regel: 49
-          categorie: B3
+        - categorie: B3
+          regel: 49
           type: other
           voorbeeld: '# CBN advies 100 - Omzet – Begrip (duplicate van regel 47)'
-gerelateerde_adviezen:
-  - titel: Verwerking in de geconsolideerde jaarrekening van de vermogensbestanddelen en de resultaten op de datum waarop de geconsolideerde jaarrekening wordt afgesloten
-    url: https://www.cbn-cnc.be/nl/adviezen/verwerking-in-de-geconsolideerde-jaarrekening-van-de-vermogensbestanddelen-en-de
-    datum: '1991-03-01'
+      rationale: 'B3: de hoofd-heading is gedupliceerd op regels 47 en 49 (''# CBN advies 100 - Omzet – Begrip'' twee keer). Scraper heeft de paginatitel en de article-heading als twee aparte regels gepakt. Inhoudelijk verder volledig en correct.'
+      run_at: '2026-05-11T11:51:19Z'
+      status: needs-rework
+    rationale: 'B3: de hoofd-heading is gedupliceerd op regels 47 en 49 (''# CBN advies 100 - Omzet – Begrip'' twee keer). Scraper heeft de paginatitel en de article-heading als twee aparte regels gepakt. Inhoudelijk verder volledig en correct.'
+    status: needs-rework
+themas:
+  - verwerking van vermogensbestanddelen
+  - voordelen bovenop het loon
+  - omzet
 ---
-
-# CBN advies 100 - Omzet – Begrip
 
 # CBN advies 100 - Omzet – Begrip
 

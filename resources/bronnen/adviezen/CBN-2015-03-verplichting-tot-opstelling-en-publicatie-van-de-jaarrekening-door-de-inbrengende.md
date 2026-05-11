@@ -1,6 +1,55 @@
 ---
-nummer: CBN-advies 2015/3
+bron: https://www.cbn-cnc.be/nl/adviezen/verplichting-tot-opstelling-en-publicatie-van-de-jaarrekening-door-de-inbrengende
 datum: 2015-07-08
+gerelateerde_adviezen:
+  - datum: '2018-12-07'
+    titel: Begin van het boekjaar
+    url: https://www.cbn-cnc.be/nl/adviezen/begin-van-het-boekjaar
+nummer: CBN-advies 2015/3
+provenance:
+  generated_at: '2026-05-11T13:05:08Z'
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/verplichting-tot-opstelling-en-publicatie-van-de-jaarrekening-door-de-inbrengende
+      sha256: 51d0a7ca555ba03fa07a8ae71f03ce700531508f625947a1472d123f16fc1587
+      version:
+  stale: false
+  stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
+  trust:
+    confirmed_at: '2026-05-11T12:16:34Z'
+    confirmed_by: subagent-sonnet-4-6
+    layer1:
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:29Z'
+      heading_count: 4
+      max_section_chars: 3897
+      file_size_chars: 11022
+      flags: []
+    layer2:
+      agent: subagent-sonnet-4-6
+      concrete_problemen:
+        - categorie: B3
+          regel: 52
+          type: other
+          voorbeeld: '# COMMISIE VOOR BOEKHOUDKUNDIGE NORMEN'
+        - categorie: A3
+          regel: 54
+          type: other
+          voorbeeld: 1. Periode tot de datum van boekhoudkundige retroactiviteit
+        - categorie: A3
+          regel: 59
+          type: other
+          voorbeeld: Periode na de datum van boekhoudkundige retroactiviteitOpenbaarmakingsformaliteiten
+      rationale: 'A3+B3: TOC-fragmenten verspreid in de body op regels 52–59: na de body-titel verschijnt ''# COMMISIE VOOR BOEKHOUDKUNDIGE NORMEN'' (typo in heading) gevolgd door een gesplitste genummerde inhoudsopgave (''1. Periode tot...'', ''2. Periode na...'', ''3. Openbaarmakingsformaliteiten'') en een samengestelde restlijn ''Periode na de datum van boekhoudkundige retroactiviteitOpenbaarmakingsformaliteiten'' zonder witruimte. Dit zijn duidelijke TOC-scrape-artefacten die in de body terechtgekomen zijn.'
+      run_at: '2026-05-11T12:16:34Z'
+      status: needs-rework
+    rationale: 'A3+B3: TOC-fragmenten verspreid in de body op regels 52–59: na de body-titel verschijnt ''# COMMISIE VOOR BOEKHOUDKUNDIGE NORMEN'' (typo in heading) gevolgd door een gesplitste genummerde inhoudsopgave (''1. Periode tot...'', ''2. Periode na...'', ''3. Openbaarmakingsformaliteiten'') en een samengestelde restlijn ''Periode na de datum van boekhoudkundige retroactiviteitOpenbaarmakingsformaliteiten'' zonder witruimte. Dit zijn duidelijke TOC-scrape-artefacten die in de body terechtgekomen zijn.'
+    status: needs-rework
 themas:
   - Inbreng van een algemeenheid
   - openbaarmaking
@@ -8,58 +57,7 @@ themas:
   - publicatie
   - vereniging
   - vzw
-bron: https://www.cbn-cnc.be/nl/adviezen/verplichting-tot-opstelling-en-publicatie-van-de-jaarrekening-door-de-inbrengende
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/verplichting-tot-opstelling-en-publicatie-van-de-jaarrekening-door-de-inbrengende
-      sha256: 51d0a7ca555ba03fa07a8ae71f03ce700531508f625947a1472d123f16fc1587
-      version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:36:48Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T12:16:34Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "A3+B3: TOC-fragmenten verspreid in de body op regels 52–59: na de body-titel verschijnt '# COMMISIE VOOR BOEKHOUDKUNDIGE NORMEN' (typo in heading) gevolgd door een gesplitste genummerde inhoudsopgave ('1. Periode tot...', '2. Periode na...', '3. Openbaarmakingsformaliteiten') en een samengestelde restlijn 'Periode na de datum van boekhoudkundige retroactiviteitOpenbaarmakingsformaliteiten' zonder witruimte. Dit zijn duidelijke TOC-scrape-artefacten die in de body terechtgekomen zijn."
-    layer1:
-      status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 3
-      max_section_chars: 3898
-      file_size_chars: 11175
-      flags: []
-    layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:16:34Z'
-      rationale: "A3+B3: TOC-fragmenten verspreid in de body op regels 52–59: na de body-titel verschijnt '# COMMISIE VOOR BOEKHOUDKUNDIGE NORMEN' (typo in heading) gevolgd door een gesplitste genummerde inhoudsopgave ('1. Periode tot...', '2. Periode na...', '3. Openbaarmakingsformaliteiten') en een samengestelde restlijn 'Periode na de datum van boekhoudkundige retroactiviteitOpenbaarmakingsformaliteiten' zonder witruimte. Dit zijn duidelijke TOC-scrape-artefacten die in de body terechtgekomen zijn."
-      concrete_problemen:
-        - regel: 52
-          categorie: B3
-          type: other
-          voorbeeld: '# COMMISIE VOOR BOEKHOUDKUNDIGE NORMEN'
-        - regel: 54
-          categorie: A3
-          type: other
-          voorbeeld: 1. Periode tot de datum van boekhoudkundige retroactiviteit
-        - regel: 59
-          categorie: A3
-          type: other
-          voorbeeld: Periode na de datum van boekhoudkundige retroactiviteitOpenbaarmakingsformaliteiten
-gerelateerde_adviezen:
-  - titel: Begin van het boekjaar
-    url: https://www.cbn-cnc.be/nl/adviezen/begin-van-het-boekjaar
-    datum: '2018-12-07'
 ---
-
-# CBN-advies 2015/3 - Verplichting tot opstelling en publicatie van de jaarrekening door de inbrengende vereniging in het kader van een pseudo-fusie
 
 # COMMISIE VOOR BOEKHOUDKUNDIGE NORMEN
 
@@ -83,15 +81,13 @@ In het CBN-advies 2013/1 - De boekhoudkundige verwerking van (pseudo-)fusies van
 In het Wetboek van vennootschappen wordt de “inbreng van een algemeenheid” omschreven als een rechtshandeling waarbij een vennootschap haar gehele vermogen, zowel de activa als de passiva, zonder ontbinding overdraagt aan één of meer bestaande of nieuwe vennootschappen tegen een vergoeding die uitsluitend bestaat in aandelen van de verkrijgende vennootschap of vennootschappen.[^4] 
 
 Bij een pseudo-fusie tussen verenigingen wordt de algemeenheid overgedragen om niet. De inbrengende vereniging ontvangt m.a.w. geen enkele vergoeding.[^5]
- De vereniging die in het kader van de pseudo-fusie haar volledige vermogen heeft overgedragen, heeft bijgevolg geen middelen meer om haar maatschappelijk doel te verwezenlijken; de algemene vergadering[^6]
- van de inbrengende vereniging kan zich uitspreken over de ontbinding van deze vereniging.
+ De vereniging die in het kader van de pseudo-fusie haar volledige vermogen heeft overgedragen, heeft bijgevolg geen middelen meer om haar maatschappelijk doel te verwezenlijken; de algemene vergadering[^6] van de inbrengende vereniging kan zich uitspreken over de ontbinding van deze vereniging.
 
 ## Periode tot de datum van boekhoudkundige retroactiviteit[^7] 
 
-Ook al bestaat hiertoe geen wettelijke verplichting, omwille van het belang van continuïteit van informatie beveelt de Commissie aan dat de inbrengende vereniging desgevallend[^8]
- een jaarrekening opstelt en openbaar maakt voor de periode tussen de afsluitingsdatum van het laatste boekjaar waarvan de jaarrekening werd goedgekeurd en de datum vanaf dewelke de verrichtingen boekhoudkundig worden beschouwd als zijnde verricht voor rekening van de verkrijgende vereniging.
+Ook al bestaat hiertoe geen wettelijke verplichting, omwille van het belang van continuïteit van informatie beveelt de Commissie aan dat de inbrengende vereniging desgevallend[^8] een jaarrekening opstelt en openbaar maakt voor de periode tussen de afsluitingsdatum van het laatste boekjaar waarvan de jaarrekening werd goedgekeurd en de datum vanaf dewelke de verrichtingen boekhoudkundig worden beschouwd als zijnde verricht voor rekening van de verkrijgende vereniging.
 
-**Voorbeeld 1**
+### Voorbeeld 1
 
 Naar aanleiding van een pseudo-fusie worden de verrichtingen van een inbrengende vereniging met een boekjaar dat loopt van 1 januari tot 31 december vanaf 1 september 2015 beschouwd als zijnde verricht voor rekening van de verkrijgende vereniging. De jaarrekening over het boekjaar 2014 wordt neergelegd op 15 juli 2015.
 
@@ -121,8 +117,7 @@ Ook indien de datum van ontbinding en vereffening van de vereniging zou vallen n
 
 De enige openbaarmakingsformaliteit die wordt voorgeschreven in artikel 26novies van de wet van 27 juni 1921 met betrekking tot de ontbinding van een vereniging heeft betrekking op de neerlegging ter griffie van de rechtbank van koophandel en de bekendmaking bij uittreksel in de bijlagen bij het Belgisch Staatsblad van de beslissing betreffende de ontbinding en vereffening van de vereniging en de benoeming en ambtsbeëindiging van de vereffenaars zoals bedoeld in artikel 23, eerste lid van de wet.
 
-Indien de inbreng van een algemeenheid wordt verricht terwijl de algemene vergadering[^14]
- de jaarrekening van het vorige boekjaar nog niet heeft goedgekeurd, volstaat het dat het bestuursorgaan deze jaarrekening ter goedkeuring voorlegt aan de algemene vergadering[^15] die beslist tot de ontbinding, dat er wordt gestemd over de kwijting van de bestuurders en dat de jaarrekening wordt neergelegd bij de Nationale Bank van België of bij de griffie van de rechtbank van Koophandel, waarbij de naam van de vereniging wordt voorafgegaan of gevolgd door de woorden “in vereffening”.[^16] 
+Indien de inbreng van een algemeenheid wordt verricht terwijl de algemene vergadering[^14] de jaarrekening van het vorige boekjaar nog niet heeft goedgekeurd, volstaat het dat het bestuursorgaan deze jaarrekening ter goedkeuring voorlegt aan de algemene vergadering[^15] die beslist tot de ontbinding, dat er wordt gestemd over de kwijting van de bestuurders en dat de jaarrekening wordt neergelegd bij de Nationale Bank van België of bij de griffie van de rechtbank van Koophandel, waarbij de naam van de vereniging wordt voorafgegaan of gevolgd door de woorden “in vereffening”.[^16] 
 
 [^1]: Onderhavig advies is tot stand gekomen nadat een ontwerp van het advies op 7 mei 2015 ter consultatie werd gepubliceerd op de website van de CBN.
 

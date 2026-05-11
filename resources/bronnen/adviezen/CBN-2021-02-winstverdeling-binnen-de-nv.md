@@ -3,47 +3,45 @@ bron: https://www.cbn-cnc.be/nl/adviezen/winstverdeling-binnen-de-nv
 datum: 2021-03-09
 nummer: CBN-advies 2021/02
 provenance:
-  generated_at: '2026-05-08T18:37:56Z'
+  generated_at: '2026-05-11T13:05:08Z'
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/winstverdeling-binnen-de-nv
-    sha256: 0db24257c2c89ef51c46bc7347b9aee620d224f716aaa7e1f506923e22527b31
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/winstverdeling-binnen-de-nv
+      sha256: 0db24257c2c89ef51c46bc7347b9aee620d224f716aaa7e1f506923e22527b31
+      version:
   stale: false
-  stale_reason: null
+  stale_reason:
   tooling:
-    model: null
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    prompt_version: null
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
   trust:
     confirmed_at: '2026-05-08T19:02:28Z'
     confirmed_by: subagent-laag2-ronde2
     layer1:
-      file_size_chars: 45511
-      flags: []
-      heading_count: 16
-      max_section_chars: 21673
-      run_at: null
-      run_id: 20260511-083333
       status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:30Z'
+      heading_count: 18
+      max_section_chars: 21672
+      file_size_chars: 45473
+      flags: []
     layer2:
       agent: subagent-laag2-ronde2
       concrete_problemen: []
-      rationale: '[Laag-2-R2 2026-05-08] 16 headings, 81 voetnoten. De grote sectie
-        (35.032 chars) bevat rijke voetnotenstructuur die de bestandsgrootte verklaart.
-        Journaalposten voor tussentijds dividend als schone Markdown-tabellen.'
+      rationale: '[Laag-2-R2 2026-05-08] 16 headings, 81 voetnoten. De grote sectie (35.032 chars) bevat rijke voetnotenstructuur die de bestandsgrootte verklaart. Journaalposten voor tussentijds dividend als schone Markdown-tabellen.'
       run_at: '2026-05-08T19:02:28Z'
       status: trusted
     rationale: Laag-2 trusted door subagent-laag2-ronde2 (zie layer2.rationale)
     status: trusted
 themas:
-- winstverdeling
-- uitkeerbare winst
-- tussentijdse dividenden
-- interimdividend
-- staat van activa en passiva
-- nettoactief
-- nettoactieftest
+  - winstverdeling
+  - uitkeerbare winst
+  - tussentijdse dividenden
+  - interimdividend
+  - staat van activa en passiva
+  - nettoactief
+  - nettoactieftest
 ---
 
 # CBN-advies 2021/02 – Winstverdeling binnen de NV
@@ -59,7 +57,7 @@ Gezien het kapitaalconcept binnen de naamloze vennootschappen (hierna: de NV) be
 
 Onderhavig advies bespreekt de grenzen waarbinnen de winsten door de daartoe bevoegde organen binnen de NV kunnen worden uitgekeerd, daarbij rekening houdend met de dwingende bepalingen van het WVV.
 
-CBN-advies 2009/1 – *Interimdividend versus tussentijds dividend *wordt door de Commissie opgeheven bij het uitbrengen van onderhavig advies.
+CBN-advies 2009/1 – *Interimdividend versus tussentijds dividend* wordt door de Commissie opgeheven bij het uitbrengen van onderhavig advies.
 
 ## De grenzen van de uitkeerbare winsten binnen de NV: nettoactieftest
 
@@ -79,8 +77,7 @@ Voor de toepassing van de nettoactieftest worden bij de NV de volgende eigen ver
 - Wettelijke reserves (rekening 130 MAR)[^9]; 
 - Andere onbeschikbare reserves (rekening 131 MAR)[^10], te weten: 
 
-          o Statutair onbeschikbare reserves (rekening 1311 MAR); 
-
+o Statutair onbeschikbare reserves (rekening 1311 MAR);
           o Reserve voor eigen aandelen (rekening 1312 MAR); 
 
           o Financiële steunverlening (rekening 1313 MAR); 
@@ -91,9 +88,7 @@ Voor de toepassing van de nettoactieftest worden bij de NV de volgende eigen ver
 
 Vaststelling nettoactief
 
-Onder het nettoactief wordt het totaalbedrag van de activa verstaan, verminderd met de voorzieningen[^12], de schulden en, behoudens in uitzonderlijke gevallen te vermelden en te motiveren in de toelichting bij de jaarrekening[^13], de nog niet afgeschreven bedragen van de oprichtings- en uitbreidingskosten[^14]
- en de kosten voor onderzoek[^15]
- en ontwikkeling. De Commissie kan zich in de praktijk moeilijk voorstellen wat een uitzonderlijk geval zou kunnen zijn om bij de bedoelde berekening de nog niet afgeschreven bedragen van de oprichtings- en uitbreidingskosten en de kosten voor onderzoek en ontwikkeling niét in mindering te brengen. De Commissie merkt op dat als de activeringsvoorwaarde voor het op de balans plaatsen van deze kosten niet meer zou aanwezig zijn, zijnde het genereren van toekomstige economische voordelen voor de vennootschap, deze activering moet ongedaan gemaakt worden.
+Onder het nettoactief wordt het totaalbedrag van de activa verstaan, verminderd met de voorzieningen[^12], de schulden en, behoudens in uitzonderlijke gevallen te vermelden en te motiveren in de toelichting bij de jaarrekening[^13], de nog niet afgeschreven bedragen van de oprichtings- en uitbreidingskosten[^14] en de kosten voor onderzoek[^15] en ontwikkeling. De Commissie kan zich in de praktijk moeilijk voorstellen wat een uitzonderlijk geval zou kunnen zijn om bij de bedoelde berekening de nog niet afgeschreven bedragen van de oprichtings- en uitbreidingskosten en de kosten voor onderzoek en ontwikkeling niét in mindering te brengen. De Commissie merkt op dat als de activeringsvoorwaarde voor het op de balans plaatsen van deze kosten niet meer zou aanwezig zijn, zijnde het genereren van toekomstige economische voordelen voor de vennootschap, deze activering moet ongedaan gemaakt worden.
 
 Het bedrag van het berekend nettoactief dient vervolgens te worden vergeleken met het bedrag van gestorte of, indien dit hoger is, van het opgevraagde kapitaal[^16], vermeerderd met alle reserves die volgens de wet of de statuten niet mogen worden uitgekeerd. Indien dit verschil positief is, kunnen er – maximaal – ten belope van dit verschil uitkeringen plaatsvinden.
 
@@ -109,12 +104,11 @@ Totaalbedrag van de activa
 
 - nog niet afgeschreven bedragen voor kosten voor onderzoek en ontwikkeling 
 
-= **Nettoactief**
+### = Nettoactief
 
 - wettelijk/statutair onbeschikbare eigen vermogensbestanddelen, zijnde:
 
-o het gestort kapitaal of, indien hoger, het opgevraagd kapitaal; 
-
+o het gestort kapitaal of, indien hoger, het opgevraagd kapitaal;
 o onbeschikbare inbreng buiten kapitaal; 
 
 o het niet afgeschreven gedeelte van de herwaarderingsmeerwaarden; 
@@ -132,37 +126,29 @@ o andere onbeschikbare reserves, te weten:
            o overige onbeschikbare reserves;
 
 o kapitaalsubsidies.
-
-= **MAXIMUM UITKEERBAAR BEDRAG**
+### = MAXIMUM UITKEERBAAR BEDRAG
 
 ### Toepassingsgebied 
 
-De regel van art. 7:212 WVV inzake de nettoactieftest geldt voor alle uitkeringen[^18]
- zonder onderscheid tussen dividenden, tantièmes of andere gelijkgestelde verrichtingen, zoals de inkoop van eigen aandelen[^19]; het verlenen van financiële steunverlening[^20]
- of in kader van een statutaire “aflossing” van het kapitaal[^21]. Daarnaast dient de nettoactieftest ook toegepast te worden bij de uitkeringen aan anderen dan aandeelhouders of bestuurders, wat m.n. het geval kan zijn bij de conventionele, dan wel statutaire, toekenning van winstdeelnemingen of -premies aan het personeel van de vennootschap[^22]. Van belang hierbij is dat de (variabele) verloning van het personeel niet onderhevig is aan de nettoactieftest. Dit is echter wel het geval bij de eigenlijke winstdeelnemingen[^23], waarvan de toekenning niet alleen in functie staat van de behaalde winsten, maar ook van de winstbestemmingspolitiek van de vennootschap[^24].
+De regel van art. 7:212 WVV inzake de nettoactieftest geldt voor alle uitkeringen[^18] zonder onderscheid tussen dividenden, tantièmes of andere gelijkgestelde verrichtingen, zoals de inkoop van eigen aandelen[^19]; het verlenen van financiële steunverlening[^20] of in kader van een statutaire “aflossing” van het kapitaal[^21]. Daarnaast dient de nettoactieftest ook toegepast te worden bij de uitkeringen aan anderen dan aandeelhouders of bestuurders, wat m.n. het geval kan zijn bij de conventionele, dan wel statutaire, toekenning van winstdeelnemingen of -premies aan het personeel van de vennootschap[^22]. Van belang hierbij is dat de (variabele) verloning van het personeel niet onderhevig is aan de nettoactieftest. Dit is echter wel het geval bij de eigenlijke winstdeelnemingen[^23], waarvan de toekenning niet alleen in functie staat van de behaalde winsten, maar ook van de winstbestemmingspolitiek van de vennootschap[^24].
 
 ## De uitkeringen door de algemene vergadering binnen de NV: tussentijdse dividenden
 
 ### Omschrijving
 
-Sinds het principearrest van het Hof van Cassatie van 23 januari 2003[^25]
- wordt algemeen aanvaard dat de algemene vergadering over een bevoegdheid beschikt om, naast de beslissing tot het toekennen van een jaarlijks dividend in het kader van de goedkeuring van de jaarrekening, ook een tussentijds dividend uit te keren. 
+Sinds het principearrest van het Hof van Cassatie van 23 januari 2003[^25] wordt algemeen aanvaard dat de algemene vergadering over een bevoegdheid beschikt om, naast de beslissing tot het toekennen van een jaarlijks dividend in het kader van de goedkeuring van de jaarrekening, ook een tussentijds dividend uit te keren. 
 
-Een dergelijke tussentijdse dividenduitkering kan door de bijzondere algemene vergadering geput worden uit de beschikbare reserves en uit de overgedragen winst, zoals blijkt uit de laatst goedgekeurde jaarrekening van de vennootschap[^26]
- en overeenkomstig de grenzen van de nettoactieftest, zoals hierboven[^27]
- beschreven. 
+Een dergelijke tussentijdse dividenduitkering kan door de bijzondere algemene vergadering geput worden uit de beschikbare reserves en uit de overgedragen winst, zoals blijkt uit de laatst goedgekeurde jaarrekening van de vennootschap[^26] en overeenkomstig de grenzen van de nettoactieftest, zoals hierboven[^27] beschreven. 
 
 Het voorgaande impliceert dat een tussentijds dividend door de algemene vergadering aldus niet gebaseerd kan worden uit de gerealiseerde winsten van het lopende boekjaar.
 
-De algemene vergadering kan op elk ogenblik van het boekjaar beslissen om aan de aandeelhouders een tussentijds dividend uit te keren[^28], doch is de Commissie van oordeel dat een dergelijke uitkering slechts aangewezen is indien de jaarrekening is goedgekeurd[^29]
- en bovendien actueel is[^30]. Zo zijn de krijtlijnen van art. 7:212 WVV – de nettoactieftest – van toepassing op het tussentijds dividend. Dit houdt in dat er rekening moet worden gehouden met het nettoactief zoals dat blijkt uit de jaarrekening[^31]. Naar de mening van de Commissie moet het gaan om de laatst goedgekeurde jaarrekening.
+De algemene vergadering kan op elk ogenblik van het boekjaar beslissen om aan de aandeelhouders een tussentijds dividend uit te keren[^28], doch is de Commissie van oordeel dat een dergelijke uitkering slechts aangewezen is indien de jaarrekening is goedgekeurd[^29] en bovendien actueel is[^30]. Zo zijn de krijtlijnen van art. 7:212 WVV – de nettoactieftest – van toepassing op het tussentijds dividend. Dit houdt in dat er rekening moet worden gehouden met het nettoactief zoals dat blijkt uit de jaarrekening[^31]. Naar de mening van de Commissie moet het gaan om de laatst goedgekeurde jaarrekening.
 
 Dit blijkt onder meer uit de voorbereidende werken aan het WVV, waarin duidelijk wordt gesteld dat de algemene vergadering slechts tot de uitkering van de tussentijdse dividenden mag overgaan op grond van de gegevens van de laatst goedgekeurde jaarrekening[^32]. Daarbij wordt verwezen naar het cassatiearrest van 23 januari 2003[^33], waarin de stelling van de Commissie wordt bevestigd. 
 
 ### Boekhoudkundige verwerking
 
-Net zoals in de eerdere CBN-adviezen[^34]
- vermeld, is de Commissie van oordeel dat de uitkering van de tussentijdse dividenden via de verwerking der resultaten moet gebeuren: het gaat immers over een afname van een vermogensrekening die niet tot doel heeft de vennoten of andere begunstigden terug te betalen of ze van hun verbintenis tot volstorting te ontslaan. 
+Net zoals in de eerdere CBN-adviezen[^34] vermeld, is de Commissie van oordeel dat de uitkering van de tussentijdse dividenden via de verwerking der resultaten moet gebeuren: het gaat immers over een afname van een vermogensrekening die niet tot doel heeft de vennoten of andere begunstigden terug te betalen of ze van hun verbintenis tot volstorting te ontslaan. 
 
 Qua journaalposten, is de Commissie de mening toegedaan dat volgende boekingen dienen te gebeuren: 
 
@@ -196,8 +182,7 @@ Qua journaalposten, is de Commissie de mening toegedaan dat volgende boekingen d
 
 ### Sancties
 
-Overeenkomstig art. 7:214 WVV[^36]
- moeten de aandeelhouders en alle andere personen de ten onrechte gedane uitkeringen terugstorten indien de vennootschap kan bewijzen dat de aandeelhouders of alle andere personen ten behoeve van wie de uitkering is beslist, van de onregelmatigheid op de hoogte waren of daarvan, gezien de omstandigheden, niet onkundig konden zijn. 
+Overeenkomstig art. 7:214 WVV[^36] moeten de aandeelhouders en alle andere personen de ten onrechte gedane uitkeringen terugstorten indien de vennootschap kan bewijzen dat de aandeelhouders of alle andere personen ten behoeve van wie de uitkering is beslist, van de onregelmatigheid op de hoogte waren of daarvan, gezien de omstandigheden, niet onkundig konden zijn. 
 
 ## De uitkeringen door het bestuursorgaan binnen de NV: interimdividenden
 
@@ -205,25 +190,20 @@ Overeenkomstig art. 7:214 WVV[^36]
 
 De mogelijkheid van de toekenning van een interimdividend veronderstelt een uitkering uit het resultaat van het boekjaar door het bestuursorgaan dat nog niet is opgenomen in een definitief goedgekeurde jaarrekening van de NV. Derhalve wordt de uitkering van dergelijke dividenden door de wetgever onderworpen aan een hele reeks voorwaarden:
 
-- zo is een dergelijke uitkering slechts mogelijk indien de statuten daartoe de bevoegdheid verlenen aan het bestuursorgaan. Zonder een statutaire machtiging[^37]
- van het bestuursorgaan is bijgevolg geen uitkering van een interimdividend mogelijk (punt 1 hierna); 
-- daarnaast wordt de in aanmerking te nemen winst beperkt tot welbepaalde resultaten van de vennootschap[^38]
- (punt 2 hierna); 
-- bovendien is het bestuursorgaan gehouden om de grenzen van de interimdividenden te bepalen overeenkomstig een op te stellen staat van activa en passiva die niet ouder mag zijn dan twee maanden. Deze staat moet door de commissaris, indien deze in functie is in de betrokken vennootschap, worden beoordeeld[^39]
- en zijn beoordelingsverslag dient te worden gevoegd bij het controleverslag (punt 3 hierna); 
+- zo is een dergelijke uitkering slechts mogelijk indien de statuten daartoe de bevoegdheid verlenen aan het bestuursorgaan. Zonder een statutaire machtiging[^37] van het bestuursorgaan is bijgevolg geen uitkering van een interimdividend mogelijk (punt 1 hierna); 
+- daarnaast wordt de in aanmerking te nemen winst beperkt tot welbepaalde resultaten van de vennootschap[^38] (punt 2 hierna); 
+- bovendien is het bestuursorgaan gehouden om de grenzen van de interimdividenden te bepalen overeenkomstig een op te stellen staat van activa en passiva die niet ouder mag zijn dan twee maanden. Deze staat moet door de commissaris, indien deze in functie is in de betrokken vennootschap, worden beoordeeld[^39] en zijn beoordelingsverslag dient te worden gevoegd bij het controleverslag (punt 3 hierna); 
 - tot slot voorziet het WVV in een bijzondere regeling voor de hypothese waarin het uitgekeerd bedrag van een interimdividend hoger[^40] blijkt te zijn dan het later door de algemene vergadering vastgestelde jaardividend (punt 4 hierna). 
 
 #### Statutaire machtiging
 
-In de eerste plaats wordt de uitkering van een interimdividend afhankelijk gemaakt van een statutaire bepaling die deze bevoegdheid aan het bestuursorgaan verleent. In voorkomend geval betreft het een statutaire machtiging die geen betrekking heeft op de delegatie van een bevoegdheid die oorspronkelijk bij de algemene vergadering ligt. Het gaat bijgevolg om een exclusieve bevoegdheid[^41]
- die aan het bestuursorgaan wordt geboden om, onder strikte voorwaarden, te anticiperen op het uiteindelijke besluit van de algemene vergadering aangaande de winstuitkering[^42]. 
+In de eerste plaats wordt de uitkering van een interimdividend afhankelijk gemaakt van een statutaire bepaling die deze bevoegdheid aan het bestuursorgaan verleent. In voorkomend geval betreft het een statutaire machtiging die geen betrekking heeft op de delegatie van een bevoegdheid die oorspronkelijk bij de algemene vergadering ligt. Het gaat bijgevolg om een exclusieve bevoegdheid[^41] die aan het bestuursorgaan wordt geboden om, onder strikte voorwaarden, te anticiperen op het uiteindelijke besluit van de algemene vergadering aangaande de winstuitkering[^42]. 
 
 Het dividend verkrijgt met andere woorden slechts een definitief karakter door de beslissing van de algemene vergadering inzake de goedkeuring van de jaarrekening, waarin de uitkering van een interimdividend heeft plaatsgevonden[^43]. 
 
 De algemene vergadering is geenszins verplicht om aan het bestuursorgaan de bevoegdheid inzake de toekenning van een interimdividend te verlenen. 
 
-Hoewel de bevoegdheid van het bestuursorgaan inzake de uitkering van een interimdividend van exclusieve aard is, beschikt de algemene vergadering steeds over de mogelijkheden[^44]
- om de grenzen van de statutaire machtiging verder te verfijnen of aan bepaalde voorwaarden te onderwerpen, bv.:
+Hoewel de bevoegdheid van het bestuursorgaan inzake de uitkering van een interimdividend van exclusieve aard is, beschikt de algemene vergadering steeds over de mogelijkheden[^44] om de grenzen van de statutaire machtiging verder te verfijnen of aan bepaalde voorwaarden te onderwerpen, bv.:
 
 - de uitkering van een interimdividend te beperken in de tijd; 
 - de toekenning van een interimdividend afhankelijk te stellen van het behalen van bepaalde doelstellingen; 
@@ -242,26 +222,21 @@ Hieruit blijkt het belang van de resultaatsbestemming door de algemene vergaderi
 - beslist de algemene vergadering om een bepaald resultaat als een “overgedragen winst” te boeken, dan kan het bestuursorgaan dit bedrag meenemen voor de berekening van de interimdividenden; 
 - beslist de algemene vergadering om bepaald resultaat daarentegen als een “beschikbare reserve” te boeken, dan zullen de toekomstige interimdividenden door het bestuursorgaan worden beperkt aangezien dit bedrag niet in aanmerking komt voor een uitkering van een interimdividend. 
 
-Aangezien een gewone – jaarlijkse – dividenduitkering mogelijk is in een verliesjaar[^48], is de Commissie van oordeel dat ook een interimdividend kan worden uitgekeerd in een jaar waarin verlies wordt geleden, louter door de afname van het overgedragen resultaat[^49]
- dat in dat geval een overgedragen winst dient te zijn dat het verlies overstijgt. Er kan immers niet worden afgeleid dat de wetgever de aanwending van overgedragen winsten afhankelijk wenste maken van de aanwezigheid van de winst in het lopende jaar[^50].
+Aangezien een gewone – jaarlijkse – dividenduitkering mogelijk is in een verliesjaar[^48], is de Commissie van oordeel dat ook een interimdividend kan worden uitgekeerd in een jaar waarin verlies wordt geleden, louter door de afname van het overgedragen resultaat[^49] dat in dat geval een overgedragen winst dient te zijn dat het verlies overstijgt. Er kan immers niet worden afgeleid dat de wetgever de aanwending van overgedragen winsten afhankelijk wenste maken van de aanwezigheid van de winst in het lopende jaar[^50].
 
 Het negatief resultaat van het lopende boekjaar zal de grenzen van de uitkering van een interimdividend uiteraard beperken. Het bestuursorgaan zal een dergelijke uitkering in ieder geval met de nodige voorzichtigheid benaderen[^51].
 
 Inzake de vraag of bij de berekening van het uitkeerbaar bedrag van het interimdividend rekening moet gehouden worden met de algemene berekening van de nettoactieftest, zoals opgenomen in art. 7:212 WVV[^52], is de Commissie de mening toegedaan dat voor de bepaling van de uitkeerbare winst in het kader van de interimdividenden overeenkomstig art. 7:213 WVV, dit artikel samen met art. 7:212 WVV moet worden gelezen[^53]. 
 
-Het voorgaande impliceert dat naast de geëigende berekening ingebed in art. 7:213 WVV[^54]
- ook de uitkeerbare winst conform art. 7:212 WVV becijferd moet worden. Dit heeft concreet tot gevolg dat indien de uitkeerbare ruimte conform art. 7:212 WVV kleiner is dan de grenzen van het interimdividend op basis van art. 7:213 WVV, enkel[^55]
- het kleinere bedrag berekend conform art. 7:212 WVV voor uitkering in aanmerking kan komen.
+Het voorgaande impliceert dat naast de geëigende berekening ingebed in art. 7:213 WVV[^54] ook de uitkeerbare winst conform art. 7:212 WVV becijferd moet worden. Dit heeft concreet tot gevolg dat indien de uitkeerbare ruimte conform art. 7:212 WVV kleiner is dan de grenzen van het interimdividend op basis van art. 7:213 WVV, enkel[^55] het kleinere bedrag berekend conform art. 7:212 WVV voor uitkering in aanmerking kan komen.
 
 #### Tussentijdse staat van activa en passiva 
 
-Het bedrag van een interimdividend dient door het bestuursorgaan te worden vastgesteld op basis van de tussentijdse cijfers over het vermogen van de vennootschap[^56]. Zo moet uit deze cijfers blijken dat de voor uitkering vatbare sommen toereikend zijn om een interimdividend effectief uit te keren. Bovenstaande gegevens moeten worden afgeleid uit een verplicht op te stellen tussentijdse staat van activa en passiva van de vennootschap die ten hoogste twee maanden[^57]
- vóór de beslissing tot uitkering moet zijn opgesteld. Hiermee moet worden aangenomen dat de afsluitdatum van deze staat niet meer dan twee maanden vóór de beslissing tot een uitkering van een interimdividend mag liggen[^58].
+Het bedrag van een interimdividend dient door het bestuursorgaan te worden vastgesteld op basis van de tussentijdse cijfers over het vermogen van de vennootschap[^56]. Zo moet uit deze cijfers blijken dat de voor uitkering vatbare sommen toereikend zijn om een interimdividend effectief uit te keren. Bovenstaande gegevens moeten worden afgeleid uit een verplicht op te stellen tussentijdse staat van activa en passiva van de vennootschap die ten hoogste twee maanden[^57] vóór de beslissing tot uitkering moet zijn opgesteld. Hiermee moet worden aangenomen dat de afsluitdatum van deze staat niet meer dan twee maanden vóór de beslissing tot een uitkering van een interimdividend mag liggen[^58].
 
 Hoewel de tussentijdse staat van actief en passief niet noodzakelijk opgemaakt dient te worden naar het schema dat voor de opstelling van de balans is voorgeschreven[^59], wordt dit in de praktijk wel zo gedaan[^60]. De beginselen van het boekhoudrecht dienen hierbij in acht te worden genomen[^61]. 
 
-De tussentijdse staat moet in ieder geval een juist en getrouw beeld geven van de toestand van de vennootschap. Dit sluit onder meer in dat er rekening moet worden gehouden met o.a. de waardecorrecties, afschrijvingen, voorzieningen voor risico’s en kosten, aan te leggen reserves[^62]
- en te betalen vennootschapsbelasting op het tussentijds resultaat[^63].
+De tussentijdse staat moet in ieder geval een juist en getrouw beeld geven van de toestand van de vennootschap. Dit sluit onder meer in dat er rekening moet worden gehouden met o.a. de waardecorrecties, afschrijvingen, voorzieningen voor risico’s en kosten, aan te leggen reserves[^62] en te betalen vennootschapsbelasting op het tussentijds resultaat[^63].
 
 Gelet op het gegeven dat de tussentijdse staat van activa en passiva opgesteld moet worden ten hoogste twee maanden vóór de beslissing tot uitkering[^64], mag hieruit, in de regel, worden afgeleid dat deze staat de meest recente cijfers van de vennootschap bevat[^65]. Het bestuursorgaan is overigens het best geplaatst om de financiële en bedrijfseconomische toestand van de vennootschap in te schatten met het oog op de uitkering van een interimdividend[^66]. 
 
@@ -269,8 +244,7 @@ Dit neemt uiteraard niet weg dat zich vooralsnog wijzigingen kunnen voordoen die
 
 De tussentijdse staat dient, voorafgaand aan de uitkering, te worden beoordeeld door de commissaris voor zover deze in functie is binnen de vennootschap. Het beoordelingsverslag van de commissaris wordt gevoegd bij zijn controleverslag[^68].
 
-Voor de vennootschappen die geen commissaris hebben aangesteld[^69]
- is er in geen enkele wettelijke controle voorzien: de uitkering van een interimdividend kan bij dergelijke vennootschappen derhalve zonder bijkomende controle geschieden[^70]. Niets belet het bestuursorgaan om – voorzichtigheidshalve en op vrijwillige basis – de tussentijdse staat te laten nazien door een bedrijfsrevisor of een gecertifieerde accountant[^71]. Dit betreft echter geen wettelijke verplichting.
+Voor de vennootschappen die geen commissaris hebben aangesteld[^69] is er in geen enkele wettelijke controle voorzien: de uitkering van een interimdividend kan bij dergelijke vennootschappen derhalve zonder bijkomende controle geschieden[^70]. Niets belet het bestuursorgaan om – voorzichtigheidshalve en op vrijwillige basis – de tussentijdse staat te laten nazien door een bedrijfsrevisor of een gecertifieerde accountant[^71]. Dit betreft echter geen wettelijke verplichting.
 
 #### Excedent 
 
@@ -278,8 +252,7 @@ Indien het bedrag van het interimdividend hoger ligt dan het door de algemene ve
 
 De aanrekening als een voorschot op het volgende dividend is uiteraard niet beperkt tot het eerstvolgende dividend, maar zal in voorkomend geval worden overgedragen naar het dividend voor de volgende boekjaren tot het uitgekeerde interimdividend volledig werd opgesoupeerd[^74]. 
 
-Werd de tussentijdse staat naar behoren opgesteld, dan ligt er in principe geen schending van art. 7:213 WVV voor, ook al wordt het “overtollige” interimdividend niet vastgesteld door de algemene vergadering. De uitkering is in voorkomend geval definitief verworven door de aandeelhouders[^75]
- en de vennootschap beschikt niet over een mogelijkheid om dit saldo terug te vorderen. Vandaar dat de Commissie de mening is toegedaan dat dit saldo niet mag gepresenteerd worden als actief: het is immers geen vordering die de vennootschap in de regel kan innen. 
+Werd de tussentijdse staat naar behoren opgesteld, dan ligt er in principe geen schending van art. 7:213 WVV voor, ook al wordt het “overtollige” interimdividend niet vastgesteld door de algemene vergadering. De uitkering is in voorkomend geval definitief verworven door de aandeelhouders[^75] en de vennootschap beschikt niet over een mogelijkheid om dit saldo terug te vorderen. Vandaar dat de Commissie de mening is toegedaan dat dit saldo niet mag gepresenteerd worden als actief: het is immers geen vordering die de vennootschap in de regel kan innen. 
 
 Dit saldo wordt in mindering gebracht van het eigen vermogen van de vennootschap via het overgedragen resultaat[^76]. Dit zal aanleiding geven tot volgende journaalpost:
 
@@ -331,8 +304,7 @@ Wat de boeking van het interimdividend betreft, stelt de Commissie de volgende j
 
 ### Sancties
 
-Overeenkomstig art. 7:214 WVV[^79]
- moeten de aandeelhouders en alle andere personen de ten onrechte ontvangen uitkeringen terugstorten indien de vennootschap kan bewijzen dat de aandeelhouders of alle andere personen ten behoeve van wie de uitkering is beslist, van de onregelmatigheid op de hoogte waren of daarvan, gezien de omstandigheden, niet onkundig konden zijn. 
+Overeenkomstig art. 7:214 WVV[^79] moeten de aandeelhouders en alle andere personen de ten onrechte ontvangen uitkeringen terugstorten indien de vennootschap kan bewijzen dat de aandeelhouders of alle andere personen ten behoeve van wie de uitkering is beslist, van de onregelmatigheid op de hoogte waren of daarvan, gezien de omstandigheden, niet onkundig konden zijn. 
 
 Het bestuursorgaan mag bovendien niet uit het oog verliezen dat de niet-naleving van art. 7:212 WVV of art. 7:213 WVV strafrechtelijk kan worden gesanctioneerd[^80]. Een schending van de genoemde artikelen kan tot slot ook aanleiding geven tot bestuurdersaansprakelijkheid: dit zal het geval zijn indien blijkt dat de uitkering van een interimdividend gepaard ging met een overtreding van de bepalingen van het WVV of van de statuten van de vennootschap[^81].
 

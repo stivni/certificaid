@@ -3,48 +3,45 @@ bron: https://www.cbn-cnc.be/nl/adviezen/risicos-en-verliezen-waarvan-de-waarder
 datum: 1988-01-01
 nummer: CBN-advies 107/7
 provenance:
-  generated_at: '2026-05-08T18:33:58Z'
+  generated_at: '2026-05-11T13:05:05Z'
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/risicos-en-verliezen-waarvan-de-waardering-aleatoir-is
-    sha256: 1af9677f73da4bfeca988d20212ee89f19fa6e3dd247e6c4aa1da377b9667a7c
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/risicos-en-verliezen-waarvan-de-waardering-aleatoir-is
+      sha256: 1af9677f73da4bfeca988d20212ee89f19fa6e3dd247e6c4aa1da377b9667a7c
+      version:
   stale: false
-  stale_reason: null
+  stale_reason:
   tooling:
-    model: null
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    prompt_version: null
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
   trust:
     confirmed_at: '2026-05-08T19:02:29Z'
     confirmed_by: subagent-laag2-ronde2
     layer1:
-      file_size_chars: 7135
-      flags: []
-      heading_count: 0
-      max_section_chars: 7135
-      run_at: null
-      run_id: 20260511-083333
       status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:24Z'
+      heading_count: 0
+      max_section_chars: 7056
+      file_size_chars: 7056
+      flags: []
     layer2:
       agent: subagent-laag2-ronde2
       concrete_problemen: []
-      rationale: '[Laag-2-R2 2026-05-08] Volledig met twee interpretaties, gemotiveerde
-        keuze met IAS 10 en praktijksituatie (range van bedragen).'
+      rationale: '[Laag-2-R2 2026-05-08] Volledig met twee interpretaties, gemotiveerde keuze met IAS 10 en praktijksituatie (range van bedragen).'
       run_at: '2026-05-08T19:02:29Z'
       status: trusted
     rationale: Laag-2 trusted door subagent-laag2-ronde2 (zie layer2.rationale)
     status: trusted
 themas:
-- aleatoir
-- onvermijdelijk aleatoir
-- toelichting
-- voorziening
-- voorzieningen voor risico&#039;s en kosten
-- waardering
+  - aleatoir
+  - onvermijdelijk aleatoir
+  - toelichting
+  - voorziening
+  - voorzieningen voor risico&#039;s en kosten
+  - waardering
 ---
-
-# CBN advies 107-7 - Risico's en verliezen waarvan de waardering aleatoir is
 
 # CBN advies 107-7 - Risico's en verliezen waarvan de waardering aleatoir is
 
@@ -64,8 +61,7 @@ De termen «onvermijdelijk aleatoire waardering» gebruikt in artikel 19, derde 
 
 Deze interpretatie strookt ook met wat daaromtrent is bepaald in de internationale norm I.A.S. 10 d.d. oktober 1978 «Contingencies and events occurring after the balance sheet date». Voor de vorming van een voorziening ten laste van de resultatenrekening is niet enkel vereist dat op balansdatum de waarschijnlijkheid van het verlies of van de kost zou vaststaan, maar ook dat de omvang ervan «redelijk» kan worden geschat. Indien aan één of beide voorwaarden niet is voldaan, moet de onderneming er zich toe beperken het bestaan van het voorwaardelijke verlies in de toelichting te vermelden, zoniet zou de getrouwheid van de jaarrekening in het gedrang kunnen komen.
 
-Aansluitend daarbij bepaalt het Nederlandse jaarrekeningrecht[^2]
- dat men geen voorziening kan opnemen voor verliezen of verplichtingen waarvan de grootte volkomen onbepaalbaar is. De Nederlandse wetgeving eist integendeel voor de opname van voorzieningen op de balans dat de omvang van de verliezen of verplichtingen «redelijkerwijs is te schatten». Is zulks niet het geval dan dient te worden volstaan met een vermelding in de toelichting[^3].
+Aansluitend daarbij bepaalt het Nederlandse jaarrekeningrecht[^2] dat men geen voorziening kan opnemen voor verliezen of verplichtingen waarvan de grootte volkomen onbepaalbaar is. De Nederlandse wetgeving eist integendeel voor de opname van voorzieningen op de balans dat de omvang van de verliezen of verplichtingen «redelijkerwijs is te schatten». Is zulks niet het geval dan dient te worden volstaan met een vermelding in de toelichting[^3].
 
 In de praktijk komt volgende situatie veelvuldig voor. Op balansdatum staat naar het oordeel van de bedrijfsleiding (met inachtneming van de eisen van voorzichtigheid, oprechtheid en goede trouw), de waarschijnlijkheid van een bepaald risico vast, doch tevens blijkt dat de waardering ervan een reeks bedragen oplevert, alle even aanvaardbaar. Dergelijke toestand heeft naar het oordeel van de Commissie niet tot gevolg dat de waardering van het voorzienbaar risico of verlies «onvermijdelijk aleatoir» is zodat de onderneming ervan vrijgesteld zou zijn ook maar de minste voorziening te vormen en zich te mogen beperken tot een mededeling in de toelichting. In zo'n geval is de Commissie integendeel van oordeel dat, bij toepassing van het algemeen beginsel verwoord in artikel 3 van het jaarrekeningenbesluit en gelet op het bepaalde in de artikelen 13 en 19 van hetzelfde besluit, een voorziening moet worden gevormd ten minste ten belope van het kleinste geschatte bedrag. Aansluitend daarbij kan het aangewezen zijn - indien de betrokken bedragen belangrijk zijn - in de toelichting de aard van het betrokken risico evenals de mogelijkheid dat het verlies hoger kan uitvallen te vermelden.
 

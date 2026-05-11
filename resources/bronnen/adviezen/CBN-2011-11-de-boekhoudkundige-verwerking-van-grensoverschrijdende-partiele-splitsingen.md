@@ -2,63 +2,60 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-grensoverschrijdende-partiele-splitsingen
 datum: 2011-03-16
 gerelateerde_adviezen:
-- datum: '2021-07-12'
-  titel: Boekhoudrechtelijke verwerking van de wederopbouwreserve
-  url: https://www.cbn-cnc.be/nl/adviezen/boekhoudrechtelijke-verwerking-van-de-wederopbouwreserve
-- datum: '2021-05-12'
-  titel: Invloed van het buitengerechtelijk minnelijk akkoord en de gerechtelijke
-    reorganisatie op de schulden en vorderingen (update)
-  url: https://www.cbn-cnc.be/nl/adviezen/invloed-van-het-buitengerechtelijk-minnelijk-akkoord-en-de-gerechtelijke-reorganisatie-1
-- datum: '2018-05-30'
-  titel: Tax shelter voor podiumkunsten
-  url: https://www.cbn-cnc.be/nl/adviezen/tax-shelter-voor-podiumkunsten
-- datum: '2018-03-21'
-  titel: Aftrek voor innovatie-inkomsten
-  url: https://www.cbn-cnc.be/nl/adviezen/aftrek-voor-innovatie-inkomsten
+  - datum: '2021-07-12'
+    titel: Boekhoudrechtelijke verwerking van de wederopbouwreserve
+    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudrechtelijke-verwerking-van-de-wederopbouwreserve
+  - datum: '2021-05-12'
+    titel: Invloed van het buitengerechtelijk minnelijk akkoord en de gerechtelijke reorganisatie op de schulden en vorderingen (update)
+    url: https://www.cbn-cnc.be/nl/adviezen/invloed-van-het-buitengerechtelijk-minnelijk-akkoord-en-de-gerechtelijke-reorganisatie-1
+  - datum: '2018-05-30'
+    titel: Tax shelter voor podiumkunsten
+    url: https://www.cbn-cnc.be/nl/adviezen/tax-shelter-voor-podiumkunsten
+  - datum: '2018-03-21'
+    titel: Aftrek voor innovatie-inkomsten
+    url: https://www.cbn-cnc.be/nl/adviezen/aftrek-voor-innovatie-inkomsten
 nummer: CBN-advies 2011/11
 provenance:
-  generated_at: '2026-05-08T18:36:11Z'
+  generated_at: '2026-05-11T13:05:08Z'
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-grensoverschrijdende-partiele-splitsingen
-    sha256: ae9135f6917773d242aac947508f930823041bbac56ee7ceddfbde13190b8ea3
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-grensoverschrijdende-partiele-splitsingen
+      sha256: ae9135f6917773d242aac947508f930823041bbac56ee7ceddfbde13190b8ea3
+      version:
   stale: false
-  stale_reason: null
+  stale_reason:
   tooling:
-    model: null
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    prompt_version: null
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
   trust:
     confirmed_at: '2026-05-08T19:02:28Z'
     confirmed_by: subagent-laag2-ronde2
     layer1:
-      file_size_chars: 48534
-      flags: []
-      heading_count: 11
-      max_section_chars: 10878
-      run_at: null
-      run_id: 20260511-083333
       status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:28Z'
+      heading_count: 9
+      max_section_chars: 10854
+      file_size_chars: 48401
+      flags: []
     layer2:
       agent: subagent-laag2-ronde2
       concrete_problemen: []
-      rationale: '[Laag-2-R2 2026-05-08] Het advies heeft 11 headings en behandelt
-        grensoverschrijdende partiële splitsingen volledig. Juridisch kader correct
-        en verwijst naar CBN-advies 2011/10.'
+      rationale: '[Laag-2-R2 2026-05-08] Het advies heeft 11 headings en behandelt grensoverschrijdende partiële splitsingen volledig. Juridisch kader correct en verwijst naar CBN-advies 2011/10.'
       run_at: '2026-05-08T19:02:28Z'
       status: trusted
     rationale: Laag-2 trusted door subagent-laag2-ronde2 (zie layer2.rationale)
     status: trusted
 themas:
-- belastingvrije reserves
-- belgische inrichting
-- beschikbare reserves
-- boekhoudkundige continuïteit
-- buitenlandse onderneming
-- dotatie
-- grensoverschrijdende partiële splitsing
-- kapitaal
+  - belastingvrije reserves
+  - belgische inrichting
+  - beschikbare reserves
+  - boekhoudkundige continuïteit
+  - buitenlandse onderneming
+  - dotatie
+  - grensoverschrijdende partiële splitsing
+  - kapitaal
 ---
 
 # CBN-advies 2011/11 - De boekhoudkundige verwerking van grensoverschrijdende partiële splitsingen
@@ -71,15 +68,13 @@ Dit advies strekt ertoe de boekhoudkundige verwerking van grensoverschrijdende p
 
 De partiële splitsingen, die in het Wetboek van Vennootschappen (hierna : W.Venn.) worden aangemerkt als “met splitsing gelijkgestelde verrichtingen”, worden hier gedefinieerd als de verrichtingen omschreven in de artikelen 673 tot 675, zonder dat alle overdragende vennootschappen ophouden te bestaan (artikel 677 W.Venn.).
 
-2. Door de wet van 8 juni 2008[^2]
- werd in Boek XI van het W.Venn. een nieuwe “Titel Vbis” ingevoerd houdende “Bijzondere regels inzake grensoverschrijdende fusies en gelijkgestelde verrichtingen”. Voor grensoverschrijdende (partiële) splitsingen werd in het W.Venn. daarentegen geen specifieke procedure voorzien. 
+2. Door de wet van 8 juni 2008[^2] werd in Boek XI van het W.Venn. een nieuwe “Titel Vbis” ingevoerd houdende “Bijzondere regels inzake grensoverschrijdende fusies en gelijkgestelde verrichtingen”. Voor grensoverschrijdende (partiële) splitsingen werd in het W.Venn. daarentegen geen specifieke procedure voorzien. 
 
 Dit betekent evenwel niet dat een grensoverschrijdende splitsing, of een grensoverschrijdende partiële splitsing, onrealiseerbaar zou zijn, althans vanuit het standpunt van de Belgische wetgeving. 
 
 We verwijzen in dit opzicht, *mutatis mutandis*, naar de bepalingen van het CBN-advies 2011/10 met betrekking tot de boekhoudkundige verwerking van grensoverschrijdende splitsingen (Inleiding). 
 
-3. Naar de mening van de Commissie dienen partiële splitsingen, zoals gedefinieerd door het artikel 677 W.Venn., behandeld te worden volgens het boekhoudkundig continuïteitsbeginsel, zoals voorzien voor fusies door de artikelen 78 en 79 van het koninklijk besluit van 30 januari 2001 tot uitvoering van het W.Venn. (hierna: KB W.Venn.) en voor splitsingen door artikel 80 van hetzelfde besluit[^3]
- (zie advies 2009/11 met betrekking tot de boekhoudkundige verwerking van partiële splitsingen[^4], Inleiding). 
+3. Naar de mening van de Commissie dienen partiële splitsingen, zoals gedefinieerd door het artikel 677 W.Venn., behandeld te worden volgens het boekhoudkundig continuïteitsbeginsel, zoals voorzien voor fusies door de artikelen 78 en 79 van het koninklijk besluit van 30 januari 2001 tot uitvoering van het W.Venn. (hierna: KB W.Venn.) en voor splitsingen door artikel 80 van hetzelfde besluit[^3] (zie advies 2009/11 met betrekking tot de boekhoudkundige verwerking van partiële splitsingen[^4], Inleiding). 
 
 Indien de grensoverschrijdende partiële splitsing beantwoordt aan het begrip “partiële splitsing”, zoals gedefinieerd door het W.Venn., dient deze bijgevolg verwerkt te worden overeenkomstig het boekhoudkundig continuïteitsbeginsel, t.t.z. rekening houdend met de artikelen 78, 79 en 80 KB W.Venn. en artikel 41, § 1, tweede lid van hetzelfde besluit.
 
@@ -95,22 +90,18 @@ Verder wordt uitgegaan van de hypothese dat de in België gevestigde bijkantoren
 
 Wat het begrip “dotatie” betreft, wordt verwezen naar de bepalingen van het CBN-advies 2009/7 met betrekking tot grensoverschrijdende fusies. Dit begrip stemt niet noodzakelijk overeen met het fiscaal begrip “kapitaaldotatie” in het WIB 1992.
 
-7. Zoals in de CBN-adviezen 2009/7 en 2011/10, met betrekking tot respectievelijk grensoverschrijdende fusies[^5]
- en splitsingen, zullen telkens voorbeelden worden gegeven van een grensoverschrijdende partiële splitsing, waarbij de bij de verrichting betrokken vennootschappen hun boekhouding in euro voeren.
+7. Zoals in de CBN-adviezen 2009/7 en 2011/10, met betrekking tot respectievelijk grensoverschrijdende fusies[^5] en splitsingen, zullen telkens voorbeelden worden gegeven van een grensoverschrijdende partiële splitsing, waarbij de bij de verrichting betrokken vennootschappen hun boekhouding in euro voeren.
 
 ## BOEKHOUDKUNDIGE VERWERKING
 
 In een eerste afdeling wordt de situatie behandeld waarbij een Belgische vennootschap, zonder buitenlandse inrichting, partieel wordt gesplitst en waarbij een deel van haar maatschappelijk vermogen overgaat op een vennootschap gevestigd in een andere EU-lidstaat. In een tweede afdeling wordt de situatie behandeld waarbij een vennootschap gevestigd in een andere EU-lidstaat partieel wordt gesplitst en waarbij een deel van haar maatschappelijk vermogen overgaat op een Belgische vennootschap.
 
-### Partiële splitsing van een Belgische vennootschap, zonder buitenlandse inrichting, waarbij een deel van haar maatschappelijk vermogen overgaat op een vennootschap gevestigd in een andere EU-lidstaat
-
+Partiële splitsing van een Belgische vennootschap, zonder buitenlandse inrichting, waarbij een deel van haar maatschappelijk vermogen overgaat op een vennootschap gevestigd in een andere EU-lidstaat
 #### *Een Belgische vennootschap A, zonder buitenlandse inrichting, wordt partieel gesplitst waarbij een deel van haar maatschappelijk vermogen overgaat op een in een andere EU-lidstaat gevestigde vennootschap B. Vennootschap B bezit geen A aandelen en bezit geen Belgische inrichting.*
 
 Voorbeeld 1
 
 Onderstel dat onderstaande vennootschap A (belastingneutraal) partieel wordt gesplitst waarbij 8.500 activa en 2.500 schulden worden overgedragen aan een in een andere EU-lidstaat gevestigde vennootschap B. A behoudt 5.500 activa en 1.500 schulden. 
-
- [^6][^7]
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
@@ -210,8 +201,6 @@ Voorbeeld 2
 
 Onderstaande vennootschap A wordt (belastingneutraal) partieel gesplitst waarbij het afgesplitst vermogen wordt overgedragen aan een in een andere EU-lidstaat gevestigde vennootschap B. 
 
- [^8][^9]
-
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | A (Belgische partieel te splitsen vennootschap) | | | |
@@ -222,8 +211,6 @@ Onderstaande vennootschap A wordt (belastingneutraal) partieel gesplitst waarbij
 | | 14.000 | 14.000 | | |
 
 Vennootschap B heeft 90 % van de aandelen van A aangeschaft voor 10.800. Deze aandelen zijn belegd in de Belgische inrichting van B.
-
- [^10]
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
@@ -290,8 +277,6 @@ De vermindering van de reserves mag dan ook bij voorrang worden toegekend aan de
 
 Rekening houdend met al het bovenstaande, zal de balans van de Belgische inrichting van B er na de partiële splitsing als volgt uitzien:
 
- [^12]
-
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | Belgische inrichting van B (na de partiële splitsing) | | | |
@@ -312,8 +297,6 @@ Aangezien in dit voorbeeld de andere dan de belastingvrije reserves ontoereikend
 | aan | 132 | Overboeking naar de belastingvrije reserves | | 780 |
 
 Naar analogie van het gestelde in het advies 2009/6 (zie voorbeeld 6) en om redenen van praktische aard is de Commissie ook hier van mening dat teneinde rekening te houden met de fiscale kwalificatie van alle toegewezen reserves van de partieel gesplitste vennootschap de reserves proportioneel mogen worden overgenomen en de volledige wedersamenstelling van de belastingvrije reserves bij de Belgische inrichting van B lastens het resultaat mag gebeuren. De openingsbalans na de partiële splitsing is dan als volgt :
-
- [^13]
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
@@ -337,8 +320,6 @@ De Belgische inrichting van de verkrijgende vennootschap B zal evenwel de aan ha
 #### *Een Belgische vennootschap A, zonder buitenlandse inrichting, wordt partieel gesplitst waarbij een deel van haar maatschappelijk vermogen overgaat op een in een andere EU-lidstaat gevestigde vennootschap B. Vennootschap B bezit A aandelen maar heeft vóór de partiële splitsing geen Belgische inrichting.*
 
 Voorbeeld 3
-
- [^14][^15]
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
@@ -386,8 +367,6 @@ Na de partiële splitsing zullen A en de Belgische inrichting van B er dan als v
 | | Schulden | 1.500 | | |
 | | 5.500 | 5.500 | | |
 
-[^16]
-
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | Belgische inrichting van B | | | |
@@ -397,8 +376,7 @@ Na de partiële splitsing zullen A en de Belgische inrichting van B er dan als v
 | | Schulden | 2.500 | | |
 | | 8.500 | 8.500 | | |
 
-### Partiële splitsing van een vennootschap gevestigd in een andere EU-lidstaat, waarbij een deel van haar maatschappelijk vermogen overgaat op een Belgische vennootschap
-
+Partiële splitsing van een vennootschap gevestigd in een andere EU-lidstaat, waarbij een deel van haar maatschappelijk vermogen overgaat op een Belgische vennootschap
 #### *Een in een andere EU-lidstaat gevestigde vennootschap B wordt partieel gesplitst waarbij een deel van haar maatschappelijk vermogen overgaat op een Belgische vennootschap A. De Belgische vennootschap A bezit geen aandelen in de partieel gesplitste vennootschap B en de partieel gesplitste vennootschap B heeft geen Belgische inrichting.*
 
 Voorbeeld 4
@@ -414,8 +392,6 @@ Onderstel dat onderstaande in een andere EU-lidstaat gevestigde vennootschap B p
 | | Voorzieningen | 900 | | |
 | | Schulden | 1.100 | | |
 | | 10.000 | 10.000 | | |
-
-[^17]
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
@@ -450,8 +426,6 @@ De bestanddelen van het boekhoudkundig eigen vermogen die aan de verkrijgende ve
 
 Voorbeeld 5
 
- [^19]
-
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | A (Belgische verkrijgende vennootschap vóór de partiële splitsing) | | | |
@@ -461,8 +435,6 @@ Voorbeeld 5
 | | Vlottende activa | 6.800 | Voorzieningen | 900 |
 | | Schulden | 1.100 | | |
 | | 10.000 | 10.000 | | |
-
-[^20]
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
@@ -481,8 +453,6 @@ In hoofde van vennootschap A dient de boekwaarde van de B-participatie (2.900) t
 Bijgevolg stemt in hoofde van A de boekwaarde van de B-participatie (2.900) voor 1.305 (2.900 x 9.000/20.000) overeen met het aan A overgedragen vermogen en voor 1.595 (2.900 x 11.000/20.000) met het door B behouden vermogen. Het gedeelte van de boekwaarde van de B-aandelen (1.305) dat overeenstemt met het aan A overgedragen vermogen wordt afgeboekt. De B-participatie blijft bij A behouden en na de partiële splitsing bedraagt haar boekwaarde 1.595 (2.900 – 1.305).
 
 Na de partiële splitsing zal vennootschap A er als volgt uitzien:
-
- [^21]
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
@@ -558,8 +528,6 @@ Deze situatie is een combinatie van de gevallen behandeld onder 2. en 3.
 
 Voorbeeld 7
 
- [^22]
-
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | A (Belgische verkrijgende vennootschap vóór de partiële splitsing) | | | |
@@ -603,8 +571,6 @@ Het gedeelte van de boekwaarde van de B-aandelen (203) dat overeenstemt met het 
 
 Rekening houdend met al het bovenstaande, zal de balans van A er na de partiële splitsing als volgt uitzien:
 
- [^23]
-
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | A (Belgische verkrijgende vennootschap na de partiële splitsing) | | | |
@@ -626,8 +592,6 @@ Aangezien in dit voorbeeld de andere dan de belastingvrije reserves ontoereikend
 | aan | 132 | Belastingvrije reserves | | 147,50 |
 
 Naar analogie van het gestelde in het advies 2009/6 (zie voorbeeld 6) en om redenen van praktische aard is de Commissie ook hier van mening dat teneinde rekening te houden met de fiscale kwalificatie van alle toegewezen reserves, de reserves proportioneel mogen worden overgenomen en de volledige wedersamenstelling van de belastingvrije reserves van de Belgische inrichting van B bij A lastens het resultaat mag gebeuren. De openingsbalans na de partiële splitsing is dan als volgt:
-
- [^24]
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|

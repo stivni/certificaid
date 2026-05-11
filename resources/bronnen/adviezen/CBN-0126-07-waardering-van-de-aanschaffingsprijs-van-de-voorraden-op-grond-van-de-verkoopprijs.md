@@ -1,6 +1,60 @@
 ---
-nummer: CBN-advies 126/7
+bron: https://www.cbn-cnc.be/nl/adviezen/waardering-van-de-aanschaffingsprijs-van-de-voorraden-op-grond-van-de-verkoopprijs
 datum: 1989-09-01
+gerelateerde_adviezen:
+  - datum: '2025-06-06'
+    titel: 'Aanschaffingsprijs : bijkomende kosten (update) [ONTWERP]'
+    url: https://www.cbn-cnc.be/nl/adviezen/aanschaffingsprijs-bijkomende-kosten-update-ontwerp
+  - datum: '2017-02-01'
+    titel: 'Invoer: douanerechten en verlegging van de heffing van de btw'
+    url: https://www.cbn-cnc.be/nl/adviezen/invoer-douanerechten-en-verlegging-van-de-heffing-van-de-btw
+  - datum: '2012-10-10'
+    titel: De boekhoudkundige verwerking van immateriële vaste activa
+    url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-immateriele-vaste-activa
+  - datum: '2002-05-01'
+    titel: Bepaling van de aanschaffingswaarde van activa verkregen onder bezwarende titel of om niet
+    url: https://www.cbn-cnc.be/nl/adviezen/bepaling-van-de-aanschaffingswaarde-van-activa-verkregen-onder-bezwarende-titel-of-om-niet
+nummer: CBN-advies 126/7
+provenance:
+  generated_at: '2026-05-11T13:05:05Z'
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/waardering-van-de-aanschaffingsprijs-van-de-voorraden-op-grond-van-de-verkoopprijs
+      sha256: a116e35af0dd89b793235e46cdd8b2a8b8bdfc379ce3aee5c522c23738e79043
+      version:
+  stale: false
+  stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
+  trust:
+    confirmed_at: '2026-05-11T11:57:45Z'
+    confirmed_by: subagent-sonnet-4-6
+    layer1:
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:25Z'
+      heading_count: 2
+      max_section_chars: 2159
+      file_size_chars: 4670
+      flags: []
+    layer2:
+      agent: subagent-sonnet-4-6
+      concrete_problemen:
+        - categorie: E2
+          regel: 80
+          type: other
+          voorbeeld: '| | Theoretische eindinventaris\n\t\t\t(tegen detailprijs) | 22.000 | | |'
+        - categorie: C3
+          regel: 73
+          type: pseudo-table
+          voorbeeld: '| | --------- | ------------- | | | (ASCII-art scheidingsrij als tabelcel)'
+      rationale: 'E2: twee tabelrijen zijn gesplitst over twee markdown-regels met tab-inspringing (regels 80-81 en 83-84 — ''Theoretische eindinventaris\n\t\t\t(tegen detailprijs)''), wat de markdown-tabel breekt en RAG-parsing verstoort. C3: de tabel bevat ASCII-art scheidingsrijen (''--------- | -------------'') als table-body-cellen in plaats van als echte tabel-rijen.'
+      run_at: '2026-05-11T11:57:45Z'
+      status: needs-rework
+    rationale: 'E2: twee tabelrijen zijn gesplitst over twee markdown-regels met tab-inspringing (regels 80-81 en 83-84 — ''Theoretische eindinventaris\n\t\t\t(tegen detailprijs)''), wat de markdown-tabel breekt en RAG-parsing verstoort. C3: de tabel bevat ASCII-art scheidingsrijen (''--------- | -------------'') als table-body-cellen in plaats van als echte tabel-rijen.'
+    status: needs-rework
 themas:
   - aanschaffingsprijs
   - aftrekmethode
@@ -8,60 +62,6 @@ themas:
   - voorraden
   - waardering
   - waardering van voorraden
-bron: https://www.cbn-cnc.be/nl/adviezen/waardering-van-de-aanschaffingsprijs-van-de-voorraden-op-grond-van-de-verkoopprijs
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/waardering-van-de-aanschaffingsprijs-van-de-voorraden-op-grond-van-de-verkoopprijs
-      sha256: a116e35af0dd89b793235e46cdd8b2a8b8bdfc379ce3aee5c522c23738e79043
-      version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:34:38Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T11:57:45Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "E2: twee tabelrijen zijn gesplitst over twee markdown-regels met tab-inspringing (regels 80-81 en 83-84 — 'Theoretische eindinventaris\\n\\t\\t\\t(tegen detailprijs)'), wat de markdown-tabel breekt en RAG-parsing verstoort. C3: de tabel bevat ASCII-art scheidingsrijen ('--------- | -------------') als table-body-cellen in plaats van als echte tabel-rijen."
-    layer1:
-      status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 2
-      max_section_chars: 2159
-      file_size_chars: 4670
-      flags: []
-    layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T11:57:45Z'
-      rationale: "E2: twee tabelrijen zijn gesplitst over twee markdown-regels met tab-inspringing (regels 80-81 en 83-84 — 'Theoretische eindinventaris\\n\\t\\t\\t(tegen detailprijs)'), wat de markdown-tabel breekt en RAG-parsing verstoort. C3: de tabel bevat ASCII-art scheidingsrijen ('--------- | -------------') als table-body-cellen in plaats van als echte tabel-rijen."
-      concrete_problemen:
-        - regel: 80
-          categorie: E2
-          type: other
-          voorbeeld: '| | Theoretische eindinventaris\n\t\t\t(tegen detailprijs) | 22.000 | | |'
-        - regel: 73
-          categorie: C3
-          type: pseudo-table
-          voorbeeld: '| | --------- | ------------- | | | (ASCII-art scheidingsrij als tabelcel)'
-gerelateerde_adviezen:
-  - titel: 'Aanschaffingsprijs : bijkomende kosten (update) [ONTWERP]'
-    url: https://www.cbn-cnc.be/nl/adviezen/aanschaffingsprijs-bijkomende-kosten-update-ontwerp
-    datum: '2025-06-06'
-  - titel: 'Invoer: douanerechten en verlegging van de heffing van de btw'
-    url: https://www.cbn-cnc.be/nl/adviezen/invoer-douanerechten-en-verlegging-van-de-heffing-van-de-btw
-    datum: '2017-02-01'
-  - titel: De boekhoudkundige verwerking van immateriële vaste activa
-    url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-immateriele-vaste-activa
-    datum: '2012-10-10'
-  - titel: Bepaling van de aanschaffingswaarde van activa verkregen onder bezwarende titel of om niet
-    url: https://www.cbn-cnc.be/nl/adviezen/bepaling-van-de-aanschaffingswaarde-van-activa-verkregen-onder-bezwarende-titel-of-om-niet
-    datum: '2002-05-01'
 ---
 
 # CBN-advies 126/7 - Waardering van de aanschaffingsprijs van de voorraden op grond van de verkoopprijs

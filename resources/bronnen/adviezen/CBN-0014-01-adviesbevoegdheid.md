@@ -3,41 +3,39 @@ bron: https://www.cbn-cnc.be/nl/adviezen/adviesbevoegdheid
 datum: 1993-02-01
 nummer: CBN-advies 14/1
 provenance:
-  generated_at: '2026-05-08T18:33:33Z'
+  generated_at: '2026-05-11T13:05:05Z'
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/adviesbevoegdheid
-    sha256: 72834f4392f7bc816901069023a454a7bcced93b915604902aa3d4f94cd378dc
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/adviesbevoegdheid
+      sha256: 72834f4392f7bc816901069023a454a7bcced93b915604902aa3d4f94cd378dc
+      version:
   stale: false
-  stale_reason: null
+  stale_reason:
   tooling:
-    model: null
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    prompt_version: null
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
   trust:
     confirmed_at: '2026-05-08T19:02:28Z'
     confirmed_by: subagent-laag2-ronde2
     layer1:
-      file_size_chars: 8187
-      flags: []
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:24Z'
       heading_count: 0
       max_section_chars: 8187
-      run_at: null
-      run_id: 20260511-083333
-      status: pass
+      file_size_chars: 8187
+      flags: []
     layer2:
       agent: subagent-laag2-ronde2
       concrete_problemen: []
-      rationale: '[Laag-2-R2 2026-05-08] Volledig en coherent advies over juridische
-        aard en reikwijdte CBN-adviezen. Wettelijke grondslag, niet-bindend karakter,
-        grens bij geschillen/fiscale vragen helder uitgewerkt.'
+      rationale: '[Laag-2-R2 2026-05-08] Volledig en coherent advies over juridische aard en reikwijdte CBN-adviezen. Wettelijke grondslag, niet-bindend karakter, grens bij geschillen/fiscale vragen helder uitgewerkt.'
       run_at: '2026-05-08T19:02:28Z'
       status: trusted
     rationale: Laag-2 trusted door subagent-laag2-ronde2 (zie layer2.rationale)
     status: trusted
 themas:
-- adviesbevoegdheid van de CBN
+  - adviesbevoegdheid van de CBN
 ---
 
 # CBN-advies 14/1 – Adviesbevoegdheid

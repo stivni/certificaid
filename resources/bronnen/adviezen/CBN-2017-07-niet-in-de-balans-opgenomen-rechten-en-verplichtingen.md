@@ -1,6 +1,59 @@
 ---
-nummer: CBN-advies 2017/07
+bron: https://www.cbn-cnc.be/nl/adviezen/niet-in-de-balans-opgenomen-rechten-en-verplichtingen
 datum: 2017-03-15
+nummer: CBN-advies 2017/07
+provenance:
+  generated_at: '2026-05-11T13:05:08Z'
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/niet-in-de-balans-opgenomen-rechten-en-verplichtingen
+      sha256: f6470ed1e68c46c270e00f166224818bc6700a337a8f39ddfb0840dc88b5f528
+      version:
+  stale: false
+  stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
+  trust:
+    confirmed_at: '2026-05-11T12:16:34Z'
+    confirmed_by: subagent-sonnet-4-6
+    layer1:
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:29Z'
+      heading_count: 14
+      max_section_chars: 11917
+      file_size_chars: 27048
+      flags: []
+    layer2:
+      agent: subagent-sonnet-4-6
+      concrete_problemen:
+        - categorie: A3
+          regel: 49
+          type: other
+          voorbeeld: 1. Hypothese en vraag \n2. Wetgevend en reglementair kader \n  1. Vermelding van rechten...
+        - categorie: A2
+          regel: 60
+          type: dotted-leader
+          voorbeeld: ', 15'
+        - categorie: A2
+          regel: 66
+          type: dotted-leader
+          voorbeeld: ', 15'
+        - categorie: A3
+          regel: 67
+          type: other
+          voorbeeld: '  -- Boeking van rechten en verplichtingen onder de rekeningen van de klasse 0---- Boeking door...'
+        - categorie: D4
+          regel: 169
+          type: other
+          voorbeeld: met *inlichtingen *betreffende belangrijke hangende geschillen
+      rationale: 'A2/A3: De inhoudsopgave is aanwezig bovenaan (regels 49-66) maar is niet verwijderd uit de body; bovendien bevat regel 67 een TOC-fragmentregel die direct voor de eerste ## heading staat: ''-- Boeking van rechten en verplichtingen onder de rekeningen van de klasse 0---- Boeking door de onderneming...''. Regels 60 en 66 bevatten '', 15'' als paginanummer-rest (dotted-leader artefact zonder dots). D4: regel 169 bevat ''*inlichtingen *'' met spatie voor sluitende asterisk.'
+      run_at: '2026-05-11T12:16:34Z'
+      status: needs-rework
+    rationale: 'A2/A3: De inhoudsopgave is aanwezig bovenaan (regels 49-66) maar is niet verwijderd uit de body; bovendien bevat regel 67 een TOC-fragmentregel die direct voor de eerste ## heading staat: ''-- Boeking van rechten en verplichtingen onder de rekeningen van de klasse 0---- Boeking door de onderneming...''. Regels 60 en 66 bevatten '', 15'' als paginanummer-rest (dotted-leader artefact zonder dots). D4: regel 169 bevat ''*inlichtingen *'' met spatie voor sluitende asterisk.'
+    status: needs-rework
 themas:
   - rechten
   - verplichtingen
@@ -9,59 +62,6 @@ themas:
   - gewaarborgde schulden
   - buiten balans
   - niet in de balans opgenomen rechten en verplichtingen
-bron: https://www.cbn-cnc.be/nl/adviezen/niet-in-de-balans-opgenomen-rechten-en-verplichtingen
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/niet-in-de-balans-opgenomen-rechten-en-verplichtingen
-      sha256: f6470ed1e68c46c270e00f166224818bc6700a337a8f39ddfb0840dc88b5f528
-      version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:37:11Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T12:16:34Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "A2/A3: De inhoudsopgave is aanwezig bovenaan (regels 49-66) maar is niet verwijderd uit de body; bovendien bevat regel 67 een TOC-fragmentregel die direct voor de eerste ## heading staat: '-- Boeking van rechten en verplichtingen onder de rekeningen van de klasse 0---- Boeking door de onderneming...'. Regels 60 en 66 bevatten ', 15' als paginanummer-rest (dotted-leader artefact zonder dots). D4: regel 169 bevat '*inlichtingen *' met spatie voor sluitende asterisk."
-    layer1:
-      status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 13
-      max_section_chars: 11917
-      file_size_chars: 27244
-      flags: []
-    layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:16:34Z'
-      rationale: "A2/A3: De inhoudsopgave is aanwezig bovenaan (regels 49-66) maar is niet verwijderd uit de body; bovendien bevat regel 67 een TOC-fragmentregel die direct voor de eerste ## heading staat: '-- Boeking van rechten en verplichtingen onder de rekeningen van de klasse 0---- Boeking door de onderneming...'. Regels 60 en 66 bevatten ', 15' als paginanummer-rest (dotted-leader artefact zonder dots). D4: regel 169 bevat '*inlichtingen *' met spatie voor sluitende asterisk."
-      concrete_problemen:
-        - regel: 49
-          categorie: A3
-          type: other
-          voorbeeld: 1. Hypothese en vraag \n2. Wetgevend en reglementair kader \n  1. Vermelding van rechten...
-        - regel: 60
-          categorie: A2
-          type: dotted-leader
-          voorbeeld: ', 15'
-        - regel: 66
-          categorie: A2
-          type: dotted-leader
-          voorbeeld: ', 15'
-        - regel: 67
-          categorie: A3
-          type: other
-          voorbeeld: '  -- Boeking van rechten en verplichtingen onder de rekeningen van de klasse 0---- Boeking door...'
-        - regel: 169
-          categorie: D4
-          type: other
-          voorbeeld: met *inlichtingen *betreffende belangrijke hangende geschillen
 ---
 
 # CBN-advies 2017/07 - Niet in de balans opgenomen rechten en verplichtingen
@@ -84,7 +84,6 @@ provenance:
     2. Welk bedrag moet er worden geboekt? 
 
 , 15
-  -- Boeking van rechten en verplichtingen onder de rekeningen van de klasse 0---- Boeking door de onderneming van door een derde gewaarborgde verplichtingen---- Welk bedrag moet er worden geboekt? 
 
 ## Hypothese en vraag
 
@@ -126,7 +125,7 @@ Na de omschrijving van de rechten en verplichtingen die moeten worden opgenomen 
 
 In artikel 97 is een beknopte omschrijving opgenomen van de hierna opgesomde rekeningen 00 tot 07:
 
- 00. Zekerheden door derden gesteld voor rekening van de vennootschap 
+### 00. Zekerheden door derden gesteld voor rekening van de vennootschap 
 
  01. Persoonlijke zekerheden gesteld voor rekening van derden 
 
@@ -186,7 +185,7 @@ De artikelen 91 en 94 van het KB W.Venn. starten met een verwijzing naar het mat
 
 In artikel 91 KB W.Venn. waarin de inhoud van de toelichting bij het volledig schema van de jaarrekening wordt behandeld, brengt het KB van 18 december 2015 de volgende aanpassingen in staat XVII. aan:
 
-- onder punt C. wordt verduidelijkt dat met *inlichtingen *betreffende belangrijke hangende geschillen en andere belangrijke verplichtingen het bedrag, de aard en de vorm van deze belangrijke hangende geschillen en andere belangrijke verplichtingen wordt bedoeld; en 
+- onder punt C. wordt verduidelijkt dat met *inlichtingen* betreffende belangrijke hangende geschillen en andere belangrijke verplichtingen het bedrag, de aard en de vorm van deze belangrijke hangende geschillen en andere belangrijke verplichtingen wordt bedoeld; en 
 - voortaan moeten ook de aard en de financiële gevolgen van materiële gebeurtenissen die zich na balansdatum hebben voorgedaan en die niet in de balans of resultatenrekening worden weergegeven, worden opgenomen (punt E.) , alsook de verplichtingen betreffende de aan- of verkoopverbintenissen die de vennootschap als optieschrijver van call- en putopties heeft (punt F).[^16] 
 
 In de staat bevattende de aard en het zakelijk doel van de buitenbalans regelingen[^17] moeten voortaan ook de financiële gevolgen van deze regelingen voor de vennootschap worden vermeld (staat XVII*bis*).[^18] 
@@ -202,7 +201,7 @@ Zoals reeds werd vermeld, heeft het KB van 18 december 2015 ook een nieuw artike
 
 De rekeningen van de klasse 0[^19], met inbegrip van de talrijke subrekeningen die zijn opgenomen in de minimumindeling van het algemeen rekeningenstelsel, bevatten een aanzienlijke lijst van rechten en verplichtingen waarvan de bewoording niet systematisch overeenstemt met de bewoording van de rechten en verplichtingen die zijn opgesomd in de voormelde artikelen 91 of 94 van het KB W.Venn.
 
-In dat opzicht dient het bestaan te worden gemeld van de rekening 09 *Diverse rechten en verplichtingen *als aanvullende categorie waardoor eventuele belangrijke rechten en verplichtingen kunnen worden geboekt die niet vervat zitten in de rekeningen 00 tot 07.
+In dat opzicht dient het bestaan te worden gemeld van de rekening 09 *Diverse rechten en verplichtingen* als aanvullende categorie waardoor eventuele belangrijke rechten en verplichtingen kunnen worden geboekt die niet vervat zitten in de rekeningen 00 tot 07.
 
 De Commissie is van mening dat onder de voormelde rekening 09 de rechten en verplichtingen moeten worden geboekt die gelijkaardig zijn aan de rechten en verplichtingen die zijn opgesomd in de rekeningen 00 tot 07, namelijk rechten en verplichtingen die door hun aard berekenbaar zijn en die voornamelijk betrekking hebben op de gestelde of ontvangen persoonlijke of zakelijke zekerheden.[^20] 
 

@@ -2,70 +2,66 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/toerekening-door-de-aandeelhouder-van-een-terugbetaling-van-kapitaal-of-een-uitgiftepremie
 datum: 1995-03-01
 gerelateerde_adviezen:
-- datum: '2024-03-13'
-  titel: Terugbetaling van kapitaal in vreemde valuta aan de aandeelhouders
-  url: https://www.cbn-cnc.be/nl/adviezen/terugbetaling-van-kapitaal-in-vreemde-valuta-aan-de-aandeelhouders
-- datum: '2002-05-02'
-  titel: Advies met betrekking tot de jaarrekeningrechtelijke aspecten van de certificatie
-    van aandelen van handelsvennootschappen(1)
-  url: https://www.cbn-cnc.be/nl/adviezen/advies-met-betrekking-tot-de-jaarrekeningrechtelijke-aspecten-van-de-certificatie-van
-- datum: '1993-12-01'
-  titel: Boekhoudkundige verwerking van deelnemingen in vennootschappen naar buitenlands
-    recht, die niet alle kenmerken van de rechtspersoonlijkheid hebben
-  url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-deelnemingen-in-vennootschappen-naar-buitenlands-recht-die
-- datum: '1992-11-01'
-  titel: Boekhoudkundige verwerking van dekkingsverrichtingen en gedekte posities
-    in aandelen
-  url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-dekkingsverrichtingen-en-gedekte-posities-in-aandelen
+  - datum: '2024-03-13'
+    titel: Terugbetaling van kapitaal in vreemde valuta aan de aandeelhouders
+    url: https://www.cbn-cnc.be/nl/adviezen/terugbetaling-van-kapitaal-in-vreemde-valuta-aan-de-aandeelhouders
+  - datum: '2002-05-02'
+    titel: Advies met betrekking tot de jaarrekeningrechtelijke aspecten van de certificatie van aandelen van handelsvennootschappen(1)
+    url: https://www.cbn-cnc.be/nl/adviezen/advies-met-betrekking-tot-de-jaarrekeningrechtelijke-aspecten-van-de-certificatie-van
+  - datum: '1993-12-01'
+    titel: Boekhoudkundige verwerking van deelnemingen in vennootschappen naar buitenlands recht, die niet alle kenmerken van de rechtspersoonlijkheid hebben
+    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-deelnemingen-in-vennootschappen-naar-buitenlands-recht-die
+  - datum: '1992-11-01'
+    titel: Boekhoudkundige verwerking van dekkingsverrichtingen en gedekte posities in aandelen
+    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-dekkingsverrichtingen-en-gedekte-posities-in-aandelen
 nummer: CBN-advies 151/2
 provenance:
-  generated_at: '2026-05-08T18:35:18Z'
+  generated_at: '2026-05-11T13:05:06Z'
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/toerekening-door-de-aandeelhouder-van-een-terugbetaling-van-kapitaal-of-een-uitgiftepremie
-    sha256: 8c2007001e437847254de171c8f00eb996ea682a5abfe87cc015de5b022de0b1
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/toerekening-door-de-aandeelhouder-van-een-terugbetaling-van-kapitaal-of-een-uitgiftepremie
+      sha256: 8c2007001e437847254de171c8f00eb996ea682a5abfe87cc015de5b022de0b1
+      version:
   stale: false
-  stale_reason: null
+  stale_reason:
   tooling:
-    model: null
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    prompt_version: null
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
   trust:
     confirmed_at: '2026-05-08T19:02:28Z'
     confirmed_by: subagent-laag2-ronde2
     layer1:
-      file_size_chars: 11727
-      flags: []
-      heading_count: 0
-      max_section_chars: 11727
-      run_at: null
-      run_id: 20260511-083333
       status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:26Z'
+      heading_count: 0
+      max_section_chars: 11726
+      file_size_chars: 11726
+      flags: []
     layer2:
       agent: subagent-laag2-ronde2
       concrete_problemen: []
-      rationale: '[Laag-2-R2 2026-05-08] Inhoudelijk volledig met heldere tweedeling,
-        genummerde paragrafen en concrete conclusie. Past perfect als één RAG-chunk.'
+      rationale: '[Laag-2-R2 2026-05-08] Inhoudelijk volledig met heldere tweedeling, genummerde paragrafen en concrete conclusie. Past perfect als één RAG-chunk.'
       run_at: '2026-05-08T19:02:28Z'
       status: trusted
     rationale: Laag-2 trusted door subagent-laag2-ronde2 (zie layer2.rationale)
     status: trusted
 themas:
-- deelneming
-- dividenden
-- dochteronderneming
-- geassocieerde onderneming
-- geldbeleggingen
-- kapitaal
-- reserves
-- terugbetaling van kapitaal
-- terugbetaling van uitgiftepremies
-- uitgiftepremie
-- uitkering van reserves
-- Waardevermindering
-- aandelen
-- financiële vaste activa
+  - deelneming
+  - dividenden
+  - dochteronderneming
+  - geassocieerde onderneming
+  - geldbeleggingen
+  - kapitaal
+  - reserves
+  - terugbetaling van kapitaal
+  - terugbetaling van uitgiftepremies
+  - uitgiftepremie
+  - uitkering van reserves
+  - Waardevermindering
+  - aandelen
+  - financiële vaste activa
 ---
 
 # CBN-advies 151/2 - Toerekening door de aandeelhouder van een terugbetaling van kapitaal of een uitgiftepremie of van een uitkering van reserves
@@ -100,12 +96,11 @@ Twee benaderingen lijken mogelijk.
 
 	In de tweede benadering zouden de ontvangen dividenden die niet zijn onttrokken aan na de verwerving van de aandelen gerealiseerde winst, niet in resultaat worden genomen maar ten belope van hun bruto-bedrag afgetrokken van de aanschaffingswaarde van de deelneming. 
 
-	De eventuele belasting (de voorheffing) zou ten laste worden gebracht van de resultatenrekening onder *Belastingen op het resultaat*. A contrario zal een terugbetaling van kapitaal dat is gevormd door toevoeging van na de aanschaffingsdatum gerealiseerde winst, in de resultatenrekening worden geboekt onder *Opbrengsten uit financiële vaste activa*. 
+	De eventuele belasting (de voorheffing) zou ten laste worden gebracht van de resultatenrekening onder *Belastingen op het resultaat*. A contrario zal een terugbetaling van kapitaal dat is gevormd door toevoeging van na de aanschaffingsdatum gerealiseerde winst, in de resultatenrekening worden geboekt onder* Opbrengsten uit financiële vaste activa*. 
 
 Voor welke benadering moet worden geopteerd ? 
 
-In de eerste plaats wordt eraan herinnerd dat in beide benaderingen de fiscale kwalificatie van het door de aandeelhouder ontvangen bedrag[^1]
- in bepaalde, ongetwijfeld relatief vaak voorkomende gevallen kan afwijken van de boekhoudkundige kwalificatie. Het zal immers vaak voorkomen dat het bedrag dat in de jaarrekening van de betrokken vennootschap onder kapitaal en uitgiftepremie voorkomt, niet overeenstemt met het begrip "werkelijk gestort kapitaal" als vastgelegd door het Wetboek van de Inkomstenbelastingen.[^2] 
+In de eerste plaats wordt eraan herinnerd dat in beide benaderingen de fiscale kwalificatie van het door de aandeelhouder ontvangen bedrag[^1] in bepaalde, ongetwijfeld relatief vaak voorkomende gevallen kan afwijken van de boekhoudkundige kwalificatie. Het zal immers vaak voorkomen dat het bedrag dat in de jaarrekening van de betrokken vennootschap onder kapitaal en uitgiftepremie voorkomt, niet overeenstemt met het begrip "werkelijk gestort kapitaal" als vastgelegd door het Wetboek van de Inkomstenbelastingen.[^2] 
 
 Bovendien zij erop gewezen dat het Wetboek van de Inkomstenbelastingen ter zake specifieke regels bevat en dat bijgevolg de fiscale kwalificatie van het door de aandeelhouder ontvangen bedrag niet wordt beïnvloed door de wijze waarop hij dit boekhoudkundig heeft verwerkt. 
 

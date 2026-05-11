@@ -1,6 +1,60 @@
 ---
-nummer: CBN-advies 152/6
+bron: https://www.cbn-cnc.be/nl/adviezen/risicos-verbonden-aan-bestellingen-van-vaste-activa
 datum: 1993-02-01
+gerelateerde_adviezen:
+  - datum: '2024-03-13'
+    titel: Terugbetaling van kapitaal in vreemde valuta aan de aandeelhouders
+    url: https://www.cbn-cnc.be/nl/adviezen/terugbetaling-van-kapitaal-in-vreemde-valuta-aan-de-aandeelhouders
+  - datum: '1988-12-01'
+    titel: Niet-monetaire financiële activa in deviezen (deelnemingen en aandelen)
+    url: https://www.cbn-cnc.be/nl/adviezen/niet-monetaire-financiele-activa-in-deviezen-deelnemingen-en-aandelen
+  - datum: '1988-12-01'
+    titel: Boekhoudkundige verwerking van een kapitaalverhoging als gevolg van de inbreng van een schuldvordering uitgedrukt in vreemde valuta
+    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-een-kapitaalverhoging-als-gevolg-van-de-inbreng-van-een
+  - datum: '1988-12-01'
+    titel: Boekhoudkundige verwerking van een kapitaalverhoging als gevolg van de conversie in aandelen van obligaties uitgedrukt in Ecu of in andere vreemde valuta
+    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-een-kapitaalverhoging-als-gevolg-van-de-conversie-in
+nummer: CBN-advies 152/6
+provenance:
+  generated_at: '2026-05-11T13:05:06Z'
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/risicos-verbonden-aan-bestellingen-van-vaste-activa
+      sha256: 25fc0b1d69db719c2d234e8a5832b6351e473457cc683784b39671fa707277c7
+      version:
+  stale: false
+  stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
+  trust:
+    confirmed_at: '2026-05-11T12:04:41Z'
+    confirmed_by: subagent-sonnet-4-6
+    layer1:
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:26Z'
+      heading_count: 0
+      max_section_chars: 2433
+      file_size_chars: 2433
+      flags: []
+    layer2:
+      agent: subagent-sonnet-4-6
+      concrete_problemen:
+        - categorie: G1
+          regel: 6
+          type: other
+          voorbeeld: '- risico&#039;s verbonden aan bestellingen van vaste activa'
+        - categorie: G1
+          regel: 48
+          type: other
+          voorbeeld: 'titel: Risico&#039;s verbonden aan bestellingen van vaste activa'
+      rationale: 'G1/F1: HTML-entiteit ''&#039;'' in het themas-veld op regel 6 (''risico&#039;s verbonden aan bestellingen'') en in het gerelateerde advies-veld op regel 48 — HTML-escape niet gedecodeeerd door de scraper. Schaadt YAML-correctheid in frontmatter. Body zelf is volledig en schoon.'
+      run_at: '2026-05-11T12:04:41Z'
+      status: needs-rework
+    rationale: 'G1/F1: HTML-entiteit ''&#039;'' in het themas-veld op regel 6 (''risico&#039;s verbonden aan bestellingen'') en in het gerelateerde advies-veld op regel 48 — HTML-escape niet gedecodeeerd door de scraper. Schaadt YAML-correctheid in frontmatter. Body zelf is volledig en schoon.'
+    status: needs-rework
 themas:
   - deviezen
   - risico&#039;s verbonden aan bestellingen van vaste activa
@@ -9,60 +63,6 @@ themas:
   - voorziening
   - wisselverschil
   - bestellingen van vaste activa in vreemde valuta
-bron: https://www.cbn-cnc.be/nl/adviezen/risicos-verbonden-aan-bestellingen-van-vaste-activa
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/risicos-verbonden-aan-bestellingen-van-vaste-activa
-      sha256: 25fc0b1d69db719c2d234e8a5832b6351e473457cc683784b39671fa707277c7
-      version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:35:23Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T12:04:41Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "G1/F1: HTML-entiteit '&#039;' in het themas-veld op regel 6 ('risico&#039;s verbonden aan bestellingen') en in het gerelateerde advies-veld op regel 48 — HTML-escape niet gedecodeeerd door de scraper. Schaadt YAML-correctheid in frontmatter. Body zelf is volledig en schoon."
-    layer1:
-      status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 0
-      max_section_chars: 2433
-      file_size_chars: 2433
-      flags: []
-    layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:04:41Z'
-      rationale: "G1/F1: HTML-entiteit '&#039;' in het themas-veld op regel 6 ('risico&#039;s verbonden aan bestellingen') en in het gerelateerde advies-veld op regel 48 — HTML-escape niet gedecodeeerd door de scraper. Schaadt YAML-correctheid in frontmatter. Body zelf is volledig en schoon."
-      concrete_problemen:
-        - regel: 6
-          categorie: G1
-          type: other
-          voorbeeld: '- risico&#039;s verbonden aan bestellingen van vaste activa'
-        - regel: 48
-          categorie: G1
-          type: other
-          voorbeeld: 'titel: Risico&#039;s verbonden aan bestellingen van vaste activa'
-gerelateerde_adviezen:
-  - titel: Terugbetaling van kapitaal in vreemde valuta aan de aandeelhouders
-    url: https://www.cbn-cnc.be/nl/adviezen/terugbetaling-van-kapitaal-in-vreemde-valuta-aan-de-aandeelhouders
-    datum: '2024-03-13'
-  - titel: Niet-monetaire financiële activa in deviezen (deelnemingen en aandelen)
-    url: https://www.cbn-cnc.be/nl/adviezen/niet-monetaire-financiele-activa-in-deviezen-deelnemingen-en-aandelen
-    datum: '1988-12-01'
-  - titel: Boekhoudkundige verwerking van een kapitaalverhoging als gevolg van de inbreng van een schuldvordering uitgedrukt in vreemde valuta
-    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-een-kapitaalverhoging-als-gevolg-van-de-inbreng-van-een
-    datum: '1988-12-01'
-  - titel: Boekhoudkundige verwerking van een kapitaalverhoging als gevolg van de conversie in aandelen van obligaties uitgedrukt in Ecu of in andere vreemde valuta
-    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-een-kapitaalverhoging-als-gevolg-van-de-conversie-in
-    datum: '1988-12-01'
 ---
 
 # CBN-advies 152/6 - Risico's verbonden aan bestellingen van vaste activa

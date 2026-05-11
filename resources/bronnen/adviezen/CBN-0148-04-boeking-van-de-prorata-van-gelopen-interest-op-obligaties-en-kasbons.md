@@ -1,6 +1,67 @@
 ---
-nummer: CBN-advies 148/4
+bron: https://www.cbn-cnc.be/nl/adviezen/boeking-van-de-prorata-van-gelopen-interest-op-obligaties-en-kasbons
 datum: 1990-06-01
+gerelateerde_adviezen:
+  - datum: '1993-12-01'
+    titel: Actuarieel rendement op vastrentende effecten - Aanpassing van de adviezen 137/5 en 148/4
+    url: https://www.cbn-cnc.be/nl/adviezen/actuarieel-rendement-op-vastrentende-effecten-aanpassing-van-de-adviezen-1375-en-1484
+nummer: CBN-advies 148/4
+provenance:
+  generated_at: '2026-05-11T13:05:06Z'
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/boeking-van-de-prorata-van-gelopen-interest-op-obligaties-en-kasbons
+      sha256: 271cb09439663de1bf18f686e3ae538c62fcc7f80f360d78bad5764e2d849ceb
+      version:
+  stale: false
+  stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
+  trust:
+    confirmed_at: '2026-05-11T12:04:41Z'
+    confirmed_by: subagent-sonnet-4-6
+    layer1:
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:26Z'
+      heading_count: 4
+      max_section_chars: 6728
+      file_size_chars: 11430
+      flags: []
+    layer2:
+      agent: subagent-sonnet-4-6
+      concrete_problemen:
+        - categorie: B3
+          regel: 59
+          type: other
+          voorbeeld: '# CBN advies 148-4 - Boeking van de prorata... (identiek herhaald op r.57 en r.59)'
+        - categorie: E2
+          regel: 223
+          type: other
+          voorbeeld: '| aan | | 52 | Vastrentende effecten | 1.000.000 |'
+        - categorie: D3
+          regel: 118
+          type: other
+          voorbeeld: ' [^3] (standalone regel als caption, geen inline referentie)'
+        - categorie: D3
+          regel: 199
+          type: other
+          voorbeeld: "\t[^4] (standalone regel als caption, geen inline referentie)"
+        - categorie: D4
+          regel: 114
+          type: other
+          voorbeeld: '**Voor de verkoper ** (spatie vóór sluitende **)'
+        - categorie: A9
+          regel: 269
+          type: ocr-confusion
+          voorbeeld: '| | 55 | Kreditinstellingen | 1.351.975 | |'
+      rationale: 'B3: regels 57-59 bevatten een exacte duplicate page-title-heading (bekend patroon). E2: regel 223 heeft een malformed tabelrij ''aan | | 52'' met een extra pipe. D3: regels 118 en 199 bevatten orphaned '' [^3]'' en ''[^4]'' als standalone regels midden in de body in plaats van inline in de zin. D4: regel 114 heeft ''**Voor de verkoper **'' met spatie vóór sluitende **. A9: regel 269 ''Kreditinstellingen'' vs ''Kredietinstellingen'' elders.'
+      run_at: '2026-05-11T12:04:41Z'
+      status: needs-rework
+    rationale: 'B3: regels 57-59 bevatten een exacte duplicate page-title-heading (bekend patroon). E2: regel 223 heeft een malformed tabelrij ''aan | | 52'' met een extra pipe. D3: regels 118 en 199 bevatten orphaned '' [^3]'' en ''[^4]'' als standalone regels midden in de body in plaats van inline in de zin. D4: regel 114 heeft ''**Voor de verkoper **'' met spatie vóór sluitende **. A9: regel 269 ''Kreditinstellingen'' vs ''Kredietinstellingen'' elders.'
+    status: needs-rework
 themas:
   - kapitalisatiebon
   - kasbon
@@ -15,70 +76,7 @@ themas:
   - toerekeningsbeginsel
   - verworven opbrengsten
   - zero-bond
-bron: https://www.cbn-cnc.be/nl/adviezen/boeking-van-de-prorata-van-gelopen-interest-op-obligaties-en-kasbons
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/boeking-van-de-prorata-van-gelopen-interest-op-obligaties-en-kasbons
-      sha256: 271cb09439663de1bf18f686e3ae538c62fcc7f80f360d78bad5764e2d849ceb
-      version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:35:14Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T12:04:41Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "B3: regels 57-59 bevatten een exacte duplicate page-title-heading (bekend patroon). E2: regel 223 heeft een malformed tabelrij 'aan | | 52' met een extra pipe. D3: regels 118 en 199 bevatten orphaned ' [^3]' en '[^4]' als standalone regels midden in de body in plaats van inline in de zin. D4: regel 114 heeft '**Voor de verkoper **' met spatie vóór sluitende **. A9: regel 269 'Kreditinstellingen' vs 'Kredietinstellingen' elders."
-    layer1:
-      status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 2
-      max_section_chars: 7726
-      file_size_chars: 11526
-      flags: []
-    layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:04:41Z'
-      rationale: "B3: regels 57-59 bevatten een exacte duplicate page-title-heading (bekend patroon). E2: regel 223 heeft een malformed tabelrij 'aan | | 52' met een extra pipe. D3: regels 118 en 199 bevatten orphaned ' [^3]' en '[^4]' als standalone regels midden in de body in plaats van inline in de zin. D4: regel 114 heeft '**Voor de verkoper **' met spatie vóór sluitende **. A9: regel 269 'Kreditinstellingen' vs 'Kredietinstellingen' elders."
-      concrete_problemen:
-        - regel: 59
-          categorie: B3
-          type: other
-          voorbeeld: '# CBN advies 148-4 - Boeking van de prorata... (identiek herhaald op r.57 en r.59)'
-        - regel: 223
-          categorie: E2
-          type: other
-          voorbeeld: '| aan | | 52 | Vastrentende effecten | 1.000.000 |'
-        - regel: 118
-          categorie: D3
-          type: other
-          voorbeeld: ' [^3] (standalone regel als caption, geen inline referentie)'
-        - regel: 199
-          categorie: D3
-          type: other
-          voorbeeld: "\t[^4] (standalone regel als caption, geen inline referentie)"
-        - regel: 114
-          categorie: D4
-          type: other
-          voorbeeld: '**Voor de verkoper ** (spatie vóór sluitende **)'
-        - regel: 269
-          categorie: A9
-          type: ocr-confusion
-          voorbeeld: '| | 55 | Kreditinstellingen | 1.351.975 | |'
-gerelateerde_adviezen:
-  - titel: Actuarieel rendement op vastrentende effecten - Aanpassing van de adviezen 137/5 en 148/4
-    url: https://www.cbn-cnc.be/nl/adviezen/actuarieel-rendement-op-vastrentende-effecten-aanpassing-van-de-adviezen-1375-en-1484
-    datum: '1993-12-01'
 ---
-
-# CBN advies 148-4 - Boeking van de prorata van gelopen interest op obligaties en kasbons
 
 # CBN advies 148-4 - Boeking van de prorata van gelopen interest op obligaties en kasbons 
 
@@ -86,7 +84,7 @@ Krachtens de boekhoudwetgeving moeten de kosten en opbrengsten steeds worden toe
 
 Dit beginsel krijgt in het algemeen rekeningenstelsel gestalte met volgende overlopende rekeningen : 
 
-490 Over te dragen kosten 
+### 490 Over te dragen kosten 
 
 491 Verkregen opbrengsten 
 
@@ -135,11 +133,9 @@ Overdracht/verwerving van obligaties met een nominale waarde van 1 000 000, met 
   - van 31.03.1988 tot 30.09.1988 40 000 
   - van 30.09.1988 tot 31.12.1988 20 000 
 
-**Voor de verkoper ** 
+**Voor de verkoper**  
 
 (In de veronderstelling dat de boekwaarde van de obligaties de nominale waarde was, nl. 1 000 000). 
-
- [^3]
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
@@ -198,7 +194,7 @@ Hypothese : Een kapitalisatiebon wordt uitgegeven en er wordt aanvankelijk op in
 
 Op grond hiervan wordt de prorata van de gekapitaliseerde rente op :
 
-31.12.1987 : 80 000 
+### 31.12.1987 : 80 000 
 
 31.12.1988 : 166 400 
 
@@ -220,7 +216,6 @@ De kapitalisatiebon wordt op 31 december 1989 aan een andere vennootschap overge
 | aan | 55 | Kredietinstellingen | | 1.000.000 |
 
 2. Elk jaar op balansdatum (of telkens na een kortere periode), boeking van de gelopen prorata 
-	[^4]
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|

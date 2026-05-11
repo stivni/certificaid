@@ -1,55 +1,55 @@
 ---
-nummer: CBN-advies 2010/21
-datum: 2010-11-10
-themas:
-  - immateriële vaste activa
-  - transfervergoeding
 bron: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-transfervergoedingen-betaald-bij-de-mutatie-van
+datum: 2010-11-10
+gerelateerde_adviezen:
+  - datum: '2025-07-14'
+    titel: De boekhoudkundige verwerking van immateriële vaste activa (update) [ONTWERP]
+    url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-immateriele-vaste-activa-update-ontwerp
+  - datum: '2018-05-30'
+    titel: Tax shelter voor podiumkunsten
+    url: https://www.cbn-cnc.be/nl/adviezen/tax-shelter-voor-podiumkunsten
+  - datum: '2018-03-21'
+    titel: Aftrek voor innovatie-inkomsten
+    url: https://www.cbn-cnc.be/nl/adviezen/aftrek-voor-innovatie-inkomsten
+  - datum: '2016-12-14'
+    titel: 'Kosten van onderzoek en ontwikkeling: onderscheid tussen onderzoek en ontwikkeling - verduidelijking'
+    url: https://www.cbn-cnc.be/nl/adviezen/kosten-van-onderzoek-en-ontwikkeling-onderscheid-tussen-onderzoek-en-ontwikkeling
+nummer: CBN-advies 2010/21
 provenance:
+  generated_at: '2026-05-11T13:05:08Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-transfervergoedingen-betaald-bij-de-mutatie-van
       sha256: d5c4088c75aa9d7cfeaf1bb264a52c517c6968c3cdceecdaaf4bd8e7de8e9a69
       version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T21:30:07Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
   trust:
-    status: trusted
     confirmed_at: '2026-05-08T21:31:11Z'
     confirmed_by: human
-    rationale: 'Herscraped na fix select_title(): gecombineerde H1 (COMMISSIE + titel) correct gesplitst. Inhoud ongewijzigd t.o.v. vorig vertrouwd verdict. Laag 1 pass (of benign max_section warn).'
     layer1:
       status: pass
-      run_id: 20260511-083333
-      run_at:
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:28Z'
       heading_count: 6
-      max_section_chars: 7746
-      file_size_chars: 18662
+      max_section_chars: 7743
+      file_size_chars: 18658
       flags: []
     layer2:
-      status: not_run
       agent:
-      run_at:
-      rationale:
       concrete_problemen: []
-gerelateerde_adviezen:
-  - titel: De boekhoudkundige verwerking van immateriële vaste activa (update) [ONTWERP]
-    url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-immateriele-vaste-activa-update-ontwerp
-    datum: '2025-07-14'
-  - titel: Tax shelter voor podiumkunsten
-    url: https://www.cbn-cnc.be/nl/adviezen/tax-shelter-voor-podiumkunsten
-    datum: '2018-05-30'
-  - titel: Aftrek voor innovatie-inkomsten
-    url: https://www.cbn-cnc.be/nl/adviezen/aftrek-voor-innovatie-inkomsten
-    datum: '2018-03-21'
-  - titel: 'Kosten van onderzoek en ontwikkeling: onderscheid tussen onderzoek en ontwikkeling - verduidelijking'
-    url: https://www.cbn-cnc.be/nl/adviezen/kosten-van-onderzoek-en-ontwikkeling-onderscheid-tussen-onderzoek-en-ontwikkeling
-    datum: '2016-12-14'
+      rationale:
+      run_at:
+      status: not_run
+    rationale: 'Herscraped na fix select_title(): gecombineerde H1 (COMMISSIE + titel) correct gesplitst. Inhoud ongewijzigd t.o.v. vorig vertrouwd verdict. Laag 1 pass (of benign max_section warn).'
+    status: trusted
+themas:
+  - immateriële vaste activa
+  - transfervergoeding
 ---
 
 # CBN-advies 2010/21 - De boekhoudkundige verwerking van transfervergoedingen betaald bij de mutatie van voetbalspelers (niet-amateurs en profspelers)
@@ -76,14 +76,11 @@ Een gewone nationale transfer komt tot stand met het akkoord van de twee betrokk
 
 Heeft de nationale transfer een tijdelijk karakter, dan betekent dit dat de aangeslotene voor een bepaalde duur gekwalificeerd wordt voor een andere club maar toegewezen blijft aan zijn club van herkomst. Bij het verstrijken van een tijdelijke transfer, keert de speler van rechtswege terug naar zijn club van herkomst. De duur van deze tijdelijke transfer mag de duur van het contract met de afstanddoende club niet overschrijden. 
 
-Wat de internationale transfers betreft is de FIFA-reglementering[^8]
- van kracht. 
+Wat de internationale transfers betreft is de FIFA-reglementering[^8] van kracht. 
 
-Het Bosmanarrest[^9]
- had in 1995 verstrekkende gevolgen in het Europees transferlandschap. *Enerzijds* kan voor spelers van wie het contract afgelopen is, sindsdien niet langer een transfersom worden gevraagd. *Anderzijds* werden de beperkingen voor het aantal buitenlandse spelers opgeheven, voor zover het spelers uit de andere Europese lidstaten betrof. 
+Het Bosmanarrest[^9] had in 1995 verstrekkende gevolgen in het Europees transferlandschap. *Enerzijds* kan voor spelers van wie het contract afgelopen is, sindsdien niet langer een transfersom worden gevraagd. *Anderzijds* werden de beperkingen voor het aantal buitenlandse spelers opgeheven, voor zover het spelers uit de andere Europese lidstaten betrof. 
 
-Aan de CBN werd de vraag gesteld op welke wijze de vergoeding, betaald voor een speler naar aanleiding van een transferovereenkomst, in de boekhouding van een club[^10]
- moet worden verwerkt[^11].
+Aan de CBN werd de vraag gesteld op welke wijze de vergoeding, betaald voor een speler naar aanleiding van een transferovereenkomst, in de boekhouding van een club[^10] moet worden verwerkt[^11].
 
 ## Belgische wetgeving
 
@@ -115,8 +112,7 @@ Wat de identificatie en erkenning betreft van bepaalde vaardigheden van personee
 
 Op basis van bovenstaande argumenten meent de Commissie te kunnen besluiten dat de vergoeding, betaald voor de verwerving van de exclusieve rechten op de sportieve prestaties van een speler, boekhoudkundig kan worden opgenomen onder de immateriële vaste activa. Het is de bedoeling van de verwervende club deze spelers in te zetten tijdens wedstrijden. De band die bijgevolg ontstaat tussen deze spelers en de club zorgt voor toekomstige opbrengsten uit ticketten, abonnementen, het aantrekken van (nieuwe) sponsors, inkomsten uit merchandising, tv-rechten, enz. 
 
-Elke betaalde transfervergoeding, opgenomen onder de immateriële vaste activa, zal afzonderlijk[^17]
- worden gewaardeerd aan aanschaffingswaarde en voor dat bedrag in de balans worden opgenomen, onder aftrek van de desbetreffende afschrijvingen[^18]. 
+Elke betaalde transfervergoeding, opgenomen onder de immateriële vaste activa, zal afzonderlijk[^17] worden gewaardeerd aan aanschaffingswaarde en voor dat bedrag in de balans worden opgenomen, onder aftrek van de desbetreffende afschrijvingen[^18]. 
 
 Onder de aanschaffingswaarde wordt verstaan: de aanschaffingsprijs zoals bepaald in artikel 36 KB W.Venn., de vervaardigingsprijs zoals bepaald in artikel 37 KB W.Venn., of de inbrengwaarde zoals bepaald in artikel 39 KB W.Venn. 
 

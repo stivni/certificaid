@@ -1,43 +1,43 @@
 ---
-nummer: CBN-advies 106/3
-datum: 1977-08-01
-themas:
-  - verbintenis van een moedervennootschap met betrekking tot de solvabiliteit van haar dochter
-  - waarborg
-  - zekerheden
 bron: https://www.cbn-cnc.be/nl/adviezen/verbintenissen-van-een-moedervennootschap-met-betrekking-tot-de-solvabiliteit-van-haar
+datum: 1977-08-01
+nummer: CBN-advies 106/3
 provenance:
+  generated_at: '2026-05-11T13:05:05Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/verbintenissen-van-een-moedervennootschap-met-betrekking-tot-de-solvabiliteit-van-haar
       sha256: 9f3851dc7ad19a708f07fa6a1ea41ade1494ba86f29fd6a71bf411a977032b7a
       version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:33:52Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
   trust:
-    status: trusted
     confirmed_at: '2026-05-11T11:57:45Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: Geen artefacten. Zeer kort advies (722 chars, 1 alinea) dat correct de volledige inhoud van dit korte CBN-advies weergeeft. Frontmatter consistent, markdown schoon.
     layer1:
       status: pass
-      run_id: 20260511-083333
-      run_at:
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:24Z'
       heading_count: 0
       max_section_chars: 722
       file_size_chars: 722
       flags: []
     layer2:
-      status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T11:57:45Z'
-      rationale: Geen artefacten. Zeer kort advies (722 chars, 1 alinea) dat correct de volledige inhoud van dit korte CBN-advies weergeeft. Frontmatter consistent, markdown schoon.
       concrete_problemen: []
+      rationale: Geen artefacten. Zeer kort advies (722 chars, 1 alinea) dat correct de volledige inhoud van dit korte CBN-advies weergeeft. Frontmatter consistent, markdown schoon.
+      run_at: '2026-05-11T11:57:45Z'
+      status: trusted
+    rationale: Geen artefacten. Zeer kort advies (722 chars, 1 alinea) dat correct de volledige inhoud van dit korte CBN-advies weergeeft. Frontmatter consistent, markdown schoon.
+    status: trusted
+themas:
+  - verbintenis van een moedervennootschap met betrekking tot de solvabiliteit van haar dochter
+  - waarborg
+  - zekerheden
 ---
 
 # CBN-advies 106/3 - Verbintenissen van een moedervennootschap met betrekking tot de solvabiliteit van haar dochter

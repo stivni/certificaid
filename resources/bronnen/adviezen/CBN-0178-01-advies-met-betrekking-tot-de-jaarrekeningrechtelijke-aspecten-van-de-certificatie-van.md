@@ -2,60 +2,57 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/advies-met-betrekking-tot-de-jaarrekeningrechtelijke-aspecten-van-de-certificatie-van
 datum: 2002-05-02
 gerelateerde_adviezen:
-- datum: '2019-03-29'
-  titel: 'Ziekenhuisfinanciering: de boekhoudkundige verwerking van het instandhoudingsforfait
-    en het strategisch forfait'
-  url: https://www.cbn-cnc.be/nl/adviezen/ziekenhuisfinanciering-de-boekhoudkundige-verwerking-van-het-instandhoudingsforfait-en-0
-- datum: '2000-05-01'
-  titel: Boekhoudkundige verwerking van de mini BEL-20
-  url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-mini-bel-20
+  - datum: '2019-03-29'
+    titel: 'Ziekenhuisfinanciering: de boekhoudkundige verwerking van het instandhoudingsforfait en het strategisch forfait'
+    url: https://www.cbn-cnc.be/nl/adviezen/ziekenhuisfinanciering-de-boekhoudkundige-verwerking-van-het-instandhoudingsforfait-en-0
+  - datum: '2000-05-01'
+    titel: Boekhoudkundige verwerking van de mini BEL-20
+    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-mini-bel-20
 nummer: CBN-advies 178/1
 provenance:
-  generated_at: '2026-05-08T18:35:46Z'
+  generated_at: '2026-05-11T13:05:06Z'
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/advies-met-betrekking-tot-de-jaarrekeningrechtelijke-aspecten-van-de-certificatie-van
-    sha256: 04afdcb126a2343ef1d3e80d715762bcc4ec8a9373b222253ea9020277927ee1
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/advies-met-betrekking-tot-de-jaarrekeningrechtelijke-aspecten-van-de-certificatie-van
+      sha256: 04afdcb126a2343ef1d3e80d715762bcc4ec8a9373b222253ea9020277927ee1
+      version:
   stale: false
-  stale_reason: null
+  stale_reason:
   tooling:
-    model: null
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    prompt_version: null
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
   trust:
     confirmed_at: '2026-05-08T19:02:28Z'
     confirmed_by: subagent-laag2-ronde2
     layer1:
-      file_size_chars: 35763
-      flags: []
-      heading_count: 10
-      max_section_chars: 17591
-      run_at: null
-      run_id: 20260511-083333
       status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:27Z'
+      heading_count: 8
+      max_section_chars: 17584
+      file_size_chars: 35751
+      flags: []
     layer2:
       agent: subagent-laag2-ronde2
       concrete_problemen: []
-      rationale: '[Laag-2-R2 2026-05-08] 10 headings, volledige inhoudelijke kern
-        aanwezig: vijf verwerkingspunten volledig, IAS 39-verwijzingen, vier toepassingssituaties.
-        Voetnootnummer in titeltekst is cosmetisch.'
+      rationale: '[Laag-2-R2 2026-05-08] 10 headings, volledige inhoudelijke kern aanwezig: vijf verwerkingspunten volledig, IAS 39-verwijzingen, vier toepassingssituaties. Voetnootnummer in titeltekst is cosmetisch.'
       run_at: '2026-05-08T19:02:28Z'
       status: trusted
     rationale: Laag-2 trusted door subagent-laag2-ronde2 (zie layer2.rationale)
     status: trusted
 themas:
-- vorderingsrecht
-- certificaathouder
-- certificaten
-- certificatie van aandelen
-- certificatieovereenkomst
-- controle
-- deelneming
-- emittent
-- financiële vaste activa
-- geldbeleggingen
-- inkomsten uit gecertificeerde effecten
+  - vorderingsrecht
+  - certificaathouder
+  - certificaten
+  - certificatie van aandelen
+  - certificatieovereenkomst
+  - controle
+  - deelneming
+  - emittent
+  - financiële vaste activa
+  - geldbeleggingen
+  - inkomsten uit gecertificeerde effecten
 ---
 
 # CBN-advies 178/1 - Advies met betrekking tot de jaarrekeningrechtelijke aspecten van de certificatie van aandelen van handelsvennootschappen1
@@ -74,8 +71,7 @@ Tot slot verduidelijkt de Commissie dat zij, in voorkomend geval, later een aanv
 
 ## Inleiding
 
-De wet van 15 juli 1998 betreffende de certificatie van effecten uitgegeven door handelsvennootschappen[^2]
- heeft in de Belgische wetgeving de mogelijkheid geïntroduceerd om certificaten uit te geven die betrekking hebben op aandelen, winstbewijzen, converteerbare obligaties of warrants. De uitgifte gebeurt door een rechtspersoon die eigenaar blijft of de eigendom verkrijgt van de effecten waarop de certificaten slaan en die zich ertoe verbindt alle opbrengsten of inkomsten uit die effecten voor te behouden aan de houder van de certificaten[^3]. In de Memorie van toelichting van deze wet wordt aangegeven dat het met de invoering van de certificatie in het Belgisch recht de bedoeling is in een techniek te voorzien die de continuïteit van het management van een onderneming mogelijk maakt, zelfs ingeval van versnippering van de aandeelhouderskring, en aldus het "ondernemerschap te bevorderen". 
+De wet van 15 juli 1998 betreffende de certificatie van effecten uitgegeven door handelsvennootschappen[^2] heeft in de Belgische wetgeving de mogelijkheid geïntroduceerd om certificaten uit te geven die betrekking hebben op aandelen, winstbewijzen, converteerbare obligaties of warrants. De uitgifte gebeurt door een rechtspersoon die eigenaar blijft of de eigendom verkrijgt van de effecten waarop de certificaten slaan en die zich ertoe verbindt alle opbrengsten of inkomsten uit die effecten voor te behouden aan de houder van de certificaten[^3]. In de Memorie van toelichting van deze wet wordt aangegeven dat het met de invoering van de certificatie in het Belgisch recht de bedoeling is in een techniek te voorzien die de continuïteit van het management van een onderneming mogelijk maakt, zelfs ingeval van versnippering van de aandeelhouderskring, en aldus het "ondernemerschap te bevorderen". 
 
 Op verzoek van de Minister van Economie heeft de Commissie voor Boekhoudkundige Normen de boekhoudkundige aspecten van de certificatie van aandelen van handelsvennootschappen onderzocht. 
 
@@ -148,8 +144,7 @@ Bij wijze van voorbeeld kan men zich verschillende clausules of situaties voorst
 
 Het spreekt voor zich dat bij het onderzoek van de vraag aan wie de controlebevoegdheid toekomt, rekening moet worden gehouden met de algemene opzet van de certificatieverrichting en dat daarbij geen enkele clausule op zich bepalend is. 
 
-### Leidt de certificatie tot de realisatie van de gecertificeerde aandelen en in voorkomend geval tot het uitdrukken van een resultaat ? 
-
+Leidt de certificatie tot de realisatie van de gecertificeerde aandelen en in voorkomend geval tot het uitdrukken van een resultaat ?
 De Commissie is van oordeel dat twee hypothesen moeten worden onderscheiden: 
 
 - de verrichting waarbij de eigenaar van de aandelen zijn aandelen omwisselt tegen certificaten (de emittent verwerft in dat geval de eigendom van de aandelen) 
@@ -212,14 +207,13 @@ Het behoort inderdaad tot de essentie van het certificaat dat het in de toekomst
 
 Mocht uit de certificatieovereenkomst evenwel blijken dat de emittent van de certificaten niet volledig en onherroepelijk afstand heeft gedaan van de economische eigendom van de aandelen ten gunste van de houders van de certificaten, dan moeten de respectievelijke rechten van de bij de verrichting betrokken partijen boekhoudkundig verwerkt worden door rekening te houden met de economische realiteit[^21].
 
-De Commissie is van oordeel dat de gecertificeerde aandelen en de certificaten moeten geboekt worden in de post die het best beantwoordt aan de gecreëerde toestand en de bedoeling van de partijen. De certificaten zullen dan ook meestal[^22] geboekt worden in de posten *Deelnemingen*, *Andere financiële vaste activa* of *Geldbeleggingen* afhankelijk van de band die de houder van de certificaten tot stand wenst te brengen met de vennootschap waarvan de aandelen zijn gecertificeerd.
+De Commissie is van oordeel dat de gecertificeerde aandelen en de certificaten moeten geboekt worden in de post die het best beantwoordt aan de gecreëerde toestand en de bedoeling van de partijen. De certificaten zullen dan ook meestal[^22] geboekt worden in de posten *Deelnemingen*,* Andere financiële vaste activa* of *Geldbeleggingen* afhankelijk van de band die de houder van de certificaten tot stand wenst te brengen met de vennootschap waarvan de aandelen zijn gecertificeerd.
 
 De gecertificeerde aandelen zelf zullen in de regel[^23] buiten de balans worden geboekt in de rekening "Goederen en waarden gehouden voor rekening of ten bate en voor risico van derden".
 
 De Commissie is niettemin van oordeel dat het aangewezen zou zijn om aan de regering een wijziging van de benaming van de betrokken posten voor te stellen evenals van de betrokken rekeningen van het algemeen rekeningenstelsel teneinde aandelencertificaten er expressis verbis in op te nemen.
 
-### De boekhoudkundige verwerking van opbrengsten en inkomsten van de gecertificeerde aandelen
-
+De boekhoudkundige verwerking van opbrengsten en inkomsten van de gecertificeerde aandelen
 Tenslotte rijst de vraag hoe de inkomsten en opbrengsten van de gecertificeerde aandelen die de emittent ontvangt voor rekening van de houder van de certificaten, geboekt moeten worden door de emittent en de houder van de certificaten. Het antwoord op deze vraag moet andermaal worden gezocht in de door de partijen gecrëerde toestand na certificatie.
 
 Omtrent het omzetbegrip wordt verwezen naar CBN-advies 103[^24].

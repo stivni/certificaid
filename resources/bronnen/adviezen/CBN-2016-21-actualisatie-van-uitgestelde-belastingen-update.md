@@ -1,6 +1,51 @@
 ---
-nummer: CBN-advies 2016/21
+bron: https://www.cbn-cnc.be/nl/adviezen/actualisatie-van-uitgestelde-belastingen-update
 datum: 2016-09-28
+nummer: CBN-advies 2016/21
+provenance:
+  generated_at: '2026-05-11T13:05:08Z'
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/actualisatie-van-uitgestelde-belastingen-update
+      sha256: 06f83943967c5156ac3f0fd9e5a8010d8afed43963a2eb67364d2ad85afabfe2
+      version:
+  stale: false
+  stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
+  trust:
+    confirmed_at: '2026-05-11T12:16:34Z'
+    confirmed_by: subagent-sonnet-4-6
+    layer1:
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:29Z'
+      heading_count: 0
+      max_section_chars: 4563
+      file_size_chars: 4563
+      flags: []
+    layer2:
+      agent: subagent-sonnet-4-6
+      concrete_problemen:
+        - categorie: A6
+          regel: 52
+          type: other
+          voorbeeld: ', bijgewerkt op 10 september 2025[^2] '
+        - categorie: B2
+          regel: 51
+          type: other
+          voorbeeld: 'heading_count=0: gehele body is één platte sectie zonder ##-subheadings'
+        - categorie: A6
+          regel: 63
+          type: other
+          voorbeeld: "meer dan één[^3]\n jaar niet in aanmerking"
+      rationale: 'Twee problemen: (1) heading_count=0 — de volledige body na de ##-titel heeft geen subheadings; één platte sectie van 4564 tekens is geen goede RAG-segmentatie en contrasteert met andere adviezen van vergelijkbare omvang (B2); (2) regel 52 heeft hetzelfde ''bijgewerkt''-fragment als artefact direct na de titel (A6); (3) regel 63 heeft een spurious line-break na ''[^3]'' midden in de zin (A6).'
+      run_at: '2026-05-11T12:16:34Z'
+      status: needs-rework
+    rationale: 'Twee problemen: (1) heading_count=0 — de volledige body na de ##-titel heeft geen subheadings; één platte sectie van 4564 tekens is geen goede RAG-segmentatie en contrasteert met andere adviezen van vergelijkbare omvang (B2); (2) regel 52 heeft hetzelfde ''bijgewerkt''-fragment als artefact direct na de titel (A6); (3) regel 63 heeft een spurious line-break na ''[^3]'' midden in de zin (A6).'
+    status: needs-rework
 themas:
   - actualisatie
   - gerealiseerde meerwaarde
@@ -12,51 +57,6 @@ themas:
   - opeisbaarheid van belastingen
   - getrouw beeld
   - voorziening
-bron: https://www.cbn-cnc.be/nl/adviezen/actualisatie-van-uitgestelde-belastingen-update
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/actualisatie-van-uitgestelde-belastingen-update
-      sha256: 06f83943967c5156ac3f0fd9e5a8010d8afed43963a2eb67364d2ad85afabfe2
-      version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:37:05Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T12:16:34Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "Twee problemen: (1) heading_count=0 — de volledige body na de ##-titel heeft geen subheadings; één platte sectie van 4564 tekens is geen goede RAG-segmentatie en contrasteert met andere adviezen van vergelijkbare omvang (B2); (2) regel 52 heeft hetzelfde 'bijgewerkt'-fragment als artefact direct na de titel (A6); (3) regel 63 heeft een spurious line-break na '[^3]' midden in de zin (A6)."
-    layer1:
-      status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 0
-      max_section_chars: 4564
-      file_size_chars: 4564
-      flags: []
-    layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:16:34Z'
-      rationale: "Twee problemen: (1) heading_count=0 — de volledige body na de ##-titel heeft geen subheadings; één platte sectie van 4564 tekens is geen goede RAG-segmentatie en contrasteert met andere adviezen van vergelijkbare omvang (B2); (2) regel 52 heeft hetzelfde 'bijgewerkt'-fragment als artefact direct na de titel (A6); (3) regel 63 heeft een spurious line-break na '[^3]' midden in de zin (A6)."
-      concrete_problemen:
-        - regel: 52
-          categorie: A6
-          type: other
-          voorbeeld: ', bijgewerkt op 10 september 2025[^2] '
-        - regel: 51
-          categorie: B2
-          type: other
-          voorbeeld: 'heading_count=0: gehele body is één platte sectie zonder ##-subheadings'
-        - regel: 63
-          categorie: A6
-          type: other
-          voorbeeld: "meer dan één[^3]\n jaar niet in aanmerking"
 ---
 
 # CBN-advies 2016/21 – Actualisatie van uitgestelde belastingen (update)
@@ -72,8 +72,7 @@ Aan de Commissie werd de vraag gesteld of de uitgestelde belastingen op kapitaal
 
 Luidens artikel 3:54, § 1 van het koninklijk besluit tot uitvoering van het Wetboek van vennootschappen en verenigingen (hierna: KB WVV) worden de uitgestelde belastingen op kapitaalsubsidies en gerealiseerde meerwaarden oorspronkelijk gewaardeerd tegen het normale bedrag van de belasting die erop zou zijn geheven indien die subsidies en meerwaarden zouden zijn belast ten laste van het boekjaar waarin zij werden geboekt. Het bedrag van de uitgestelde belastingen wordt evenwel gewaardeerd na aftrek van de weerslag van de belastingverminderingen en vrijstellingen waarvan op het ogenblik dat deze subsidies en meerwaarden worden geboekt kan worden vermoed dat zij, in een nabije toekomst, zullen leiden tot een lagere belasting op deze subsidies en meerwaarden. De Commissie verwijst voor de boekhoudkundige verwerking naar CBN-advies 2013/14 - *De boekhoudkundige verwerking van de uitgestelde belastingen bij gerealiseerde meerwaarden waarvoor de uitgestelde belastingregeling geldt en bij kapitaalsubsidies.* 
 
-De uitgestelde belastingen worden op het moment van de realisatie van de verkrijging van de kapitaalsubsidie of bij de realisatie van de meerwaarde nog niet aangemerkt als een effectief te betalen belasting. Deze uitgestelde belastingen zijn de geraamde belastingen die in latere boekjaren ten laste van het resultaat zullen worden gelegd. Vooreerst merkt de Commissie op dat om de verdisconteerde waarde van de uitgestelde belastingen te kennen het tijdstip waarop deze uitgestelde belasting moet worden betaald in detail moet kunnen worden gepland. Gelet op de bepalingen uit het Wetboek van de inkomstenbelastingen 1992 dienaangaande is deze planning praktisch niet haalbaar. Daarom is de Commissie van mening dat het niet aangewezen is om de uitgestelde belastingen te verdisconteren. Bovendien voorziet artikel 3:54 KB WVV niet in de mogelijkheid tot een actualisatie van het bedrag van de uitgestelde belastingen. Hieruit besluit de Commissie dat een actualisatie van het bedrag geboekt op de post *Uitgestelde belastingen*, in tegenstelling tot de renteloze schulden op meer dan één[^3]
- jaar niet in aanmerking kan komen voor een actualisatie.
+De uitgestelde belastingen worden op het moment van de realisatie van de verkrijging van de kapitaalsubsidie of bij de realisatie van de meerwaarde nog niet aangemerkt als een effectief te betalen belasting. Deze uitgestelde belastingen zijn de geraamde belastingen die in latere boekjaren ten laste van het resultaat zullen worden gelegd. Vooreerst merkt de Commissie op dat om de verdisconteerde waarde van de uitgestelde belastingen te kennen het tijdstip waarop deze uitgestelde belasting moet worden betaald in detail moet kunnen worden gepland. Gelet op de bepalingen uit het Wetboek van de inkomstenbelastingen 1992 dienaangaande is deze planning praktisch niet haalbaar. Daarom is de Commissie van mening dat het niet aangewezen is om de uitgestelde belastingen te verdisconteren. Bovendien voorziet artikel 3:54 KB WVV niet in de mogelijkheid tot een actualisatie van het bedrag van de uitgestelde belastingen. Hieruit besluit de Commissie dat een actualisatie van het bedrag geboekt op de post *Uitgestelde belastingen*, in tegenstelling tot de renteloze schulden op meer dan één[^3] jaar niet in aanmerking kan komen voor een actualisatie.
 
 [^1]: Onderhavig advies is tot stand gekomen nadat een ontwerp van het advies op 6 juli 2016 ter consultatie werd gepubliceerd op de website van de CBN.
 

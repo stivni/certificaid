@@ -1,60 +1,56 @@
 ---
-nummer: CBN-advies 2020/02
-datum: 2020-02-10
-themas:
-  - afronding
-  - betaling
-  - betaling in speciën
 bron: https://www.cbn-cnc.be/nl/adviezen/afronding-van-betalingen-in-euro-0
+datum: 2020-02-10
+gerelateerde_adviezen:
+  - datum: '2014-09-10'
+    titel: Afronding van betalingen in euro
+    url: https://www.cbn-cnc.be/nl/adviezen/afronding-van-betalingen-in-euro
+  - datum: '1999-02-01'
+    titel: Aanvullende aspecten in verband met de boekhoudkundige verwerking van afrondingsverschillen bij conversie
+    url: https://www.cbn-cnc.be/nl/adviezen/aanvullende-aspecten-in-verband-met-de-boekhoudkundige-verwerking-van
+  - datum: '1998-02-01'
+    titel: Afronding van de bedragen in de jaarrekeningen die in euro of in duizenden euro zijn opgesteld
+    url: https://www.cbn-cnc.be/nl/adviezen/afronding-van-de-bedragen-in-de-jaarrekeningen-die-in-euro-of-in-duizenden-euro-zijn
+  - datum: '1998-02-01'
+    titel: Boekhoudkundige verwerking van de afrondingen bij conversie
+    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-afrondingen-bij-conversie
+nummer: CBN-advies 2020/02
 provenance:
+  generated_at: '2026-05-11T13:05:08Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/afronding-van-betalingen-in-euro-0
       sha256: a2ed168cbce2a03f05d3b93a39aa870ad77ec4cd1bed60eb13e2f785ce36c0ce
       version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:37:46Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T12:21:40Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "A3: Inline TOC-blok op regels 58-67 met daarin op regel 67 een niet-opgeschoonde TOC-artefact-regel '-- Tweede methode' die na de geneste lijst overblijft als losse tekstregel in de body. Verder is het document schoon en inhoudelijk volledig."
+    confirmed_at:
+    confirmed_by:
     layer1:
       status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 7
-      max_section_chars: 5767
-      file_size_chars: 11999
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:30Z'
+      heading_count: 10
+      max_section_chars: 5095
+      file_size_chars: 12003
       flags: []
     layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:21:40Z'
-      rationale: "A3: Inline TOC-blok op regels 58-67 met daarin op regel 67 een niet-opgeschoonde TOC-artefact-regel '-- Tweede methode' die na de geneste lijst overblijft als losse tekstregel in de body. Verder is het document schoon en inhoudelijk volledig."
-      concrete_problemen:
-        - regel: 67
-          categorie: A3
-          type: other
-          voorbeeld: -- Tweede methode
-gerelateerde_adviezen:
-  - titel: Afronding van betalingen in euro
-    url: https://www.cbn-cnc.be/nl/adviezen/afronding-van-betalingen-in-euro
-    datum: '2014-09-10'
-  - titel: Aanvullende aspecten in verband met de boekhoudkundige verwerking van afrondingsverschillen bij conversie
-    url: https://www.cbn-cnc.be/nl/adviezen/aanvullende-aspecten-in-verband-met-de-boekhoudkundige-verwerking-van
-    datum: '1999-02-01'
-  - titel: Afronding van de bedragen in de jaarrekeningen die in euro of in duizenden euro zijn opgesteld
-    url: https://www.cbn-cnc.be/nl/adviezen/afronding-van-de-bedragen-in-de-jaarrekeningen-die-in-euro-of-in-duizenden-euro-zijn
-    datum: '1998-02-01'
-  - titel: Boekhoudkundige verwerking van de afrondingen bij conversie
-    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-afrondingen-bij-conversie
-    datum: '1998-02-01'
+      agent:
+      concrete_problemen: []
+      rationale:
+      run_at:
+      status: not_run
+    rationale: 'Trust gereset 2026-05-11: re-scrape met scraper-fixes, content-diff > 5%'
+    status: unreviewed
+themas:
+  - afronding
+  - betaling
+  - betaling in speciën
 ---
 
 # CBN-advies 2020/02 – Afronding van betalingen in euro
@@ -72,13 +68,11 @@ gerelateerde_adviezen:
 
 ## Inleiding
 
-Sedert 1 oktober 2014 biedt het Wetboek van economisch recht aan ondernemers de mogelijkheid om voor consumenten die het te betalen totaalbedrag in speciën betalen, vrijwillig een regeling in te voeren waarmee betalingen worden afgerond naar een bedrag dat een veelvoud is van vijf eurocent[^2]. Dit systeem werd echter tot tweemaal toe gewijzigd, namelijk door de wet van 18 december 2015[^3]
- en door die van 2 mei 2019[^4].
+Sedert 1 oktober 2014 biedt het Wetboek van economisch recht aan ondernemers de mogelijkheid om voor consumenten die het te betalen totaalbedrag in speciën betalen, vrijwillig een regeling in te voeren waarmee betalingen worden afgerond naar een bedrag dat een veelvoud is van vijf eurocent[^2]. Dit systeem werd echter tot tweemaal toe gewijzigd, namelijk door de wet van 18 december 2015[^3] en door die van 2 mei 2019[^4].
 
-Ingevolge voornoemde wet van 18 december 2015[^5]
- werd het onderscheid tussen betalingen in speciën en andere betalingen dan in speciën afgeschaft.[^6]
- De afrondingsregeling werd tot 7 januari 2016 enkel op de betalingen in speciën[^7]
- toegepast en bijgevolg niet op andere betalingen dan in speciën. Vanaf 8 januari 2016 werd de afronding van toepassing op elke betaalwijze.[^8] De afrondingsregeling bleef echter altijd facultatief.
+Ingevolge voornoemde wet van 18 december 2015[^5] werd het onderscheid tussen betalingen in speciën en andere betalingen dan in speciën afgeschaft.[^6]
+ De afrondingsregeling werd tot 7 januari 2016 enkel op de betalingen in speciën[^7] toegepast en bijgevolg niet op andere betalingen dan in speciën. Vanaf 8 januari 2016 werd de afronding van toepassing op elke betaalwijze.[^8]
+ De afrondingsregeling bleef echter altijd facultatief.
 
 De wet van 2 mei 2019, die op 1 december 2019 in werking trad, bepaalt dat de voorheen nog facultatieve afrondingsregeling voor betalingen in speciën, verplicht gemaakt wordt. De ondernemingen hebben echter nog steeds de mogelijkheid om de afronding ook toe te passen op andere betalingen dan in speciën[^9], zoals bepaald in de wet van 18 december 2015[^10]. Indien de onderneming kiest om de afrondingsregeling ook toe te passen op andere betalingen dan in speciën, moet zij de regeling ook toepassen op alle andere betaalmethoden[^11].
 
@@ -88,24 +82,20 @@ Het bedrag dat wordt afgerond is altijd het te betalen totaalbedrag en niet de s
 
 Ingevolge de inwerkingtreding op 8 januari 2016 van de wet van 18 december 2015, kan elk bedrag worden afgerond, ongeacht het betaalmiddel dat werd gebruikt. De afronding gebeurt op het te betalen totaalbedrag.
 
-## Voorbeeld 1
+### *Voorbeeld 1*
 
 Een klant koopt vier artikelen. Deze artikelen kosten respectievelijk 3,98 euro, 2,98 euro, 3,98 euro en 10,98 euro. Het totaalbedrag bedraagt 21,92 euro. Indien de onderneming de afrondingsregeling toepast, zal het totaalbedrag van de aankoop 21,90 euro bedragen, ongeacht het betaalmiddel.
-
 ### Afronding van het te betalen bedrag vanaf 1 december 2019
 
 Vanaf 1 december 2019 is elke onderneming verplicht de afrondingsregeling toe te passen op betalingen in speciën.
 
-*Voorbeeld 2*: Betaling in speciën 
+### *Voorbeeld 2*: Betaling in speciën 
 
-Een klant koopt vier artikelen en betaalt in speciën. Deze artikelen kosten respectievelijk 4,27 euro, 3,06 euro, 10,56 euro en 2,67 euro. Het totaalbedrag bedraagt 20,56 euro. De onderneming moet het bedrag verplicht afronden. Het totaalbedrag na afronding bedraagt 20,55 euro. 
-
+Een klant koopt vier artikelen en betaalt in speciën. Deze artikelen kosten respectievelijk 4,27 euro, 3,06 euro, 10,56 euro en 2,67 euro. Het totaalbedrag bedraagt 20,56 euro. De onderneming moet het bedrag verplicht afronden. Het totaalbedrag na afronding bedraagt 20,55 euro.
 Indien de klant opteert voor een andere betaling dan in speciën, kiest de onderneming zelf of ze de afrondingsregeling wel of niet toepast.
 
 *Voorbeeld 3*: Andere betaling dan in speciën (debet- of kredietkaart, elektronische betaling, overschrijving)
-
 We hernemen de gegevens van voorbeeld 2, met als enige verschil dat de klant nu met een kredietkaart betaalt. Indien de onderneming de afrondingsregeling toepast op andere betalingen dan in speciën, zal de klant nu 20,55 euro betalen. Indien de onderneming deze regeling niet toepast op andere betalingen dan in speciën, zal het totaalbedrag van de aankoop 20,56 euro bedragen.
-
 De ondernemingen die er voor kiezen de afrondingsregeling ook toe te passen op andere betalingen dan in speciën, zijn onderworpen aan een verplichting tot voorlichting. Deze verplichting geldt niet meer voor de afronding van betalingen in speciën, aangezien het hier gaat om de wettelijk verplichte afronding[^13].
 
 De afrondingsregels gelden eveneens voor de onderneming bij de terugbetalingen aan de consumenten. Hierbij vallen twee situaties te onderscheiden. Ten eerste wordt de afrondingsregeling verplicht toegepast bij terugbetalingen op totaalbedragen betaald in speciën. En ten tweede wordt de afrondingsregeling toegepast bij de terugbetalingen op totaalbedragen die anders dan in speciën betaald zijn, indien de onderneming ervoor kiest de totaalbedragen van andere betalingen dan in speciën afrondt[^14].
@@ -120,20 +110,16 @@ De Commissie is van mening dat het totale verschil tussen het totaalbedrag van d
 
 Het bedrag dat de onderneming die een vereenvoudigde boekhouding voert, inschrijft in het verkoopdagboek is het bedrag dat de consument heeft betaald. De samenstellende bestanddelen die zijn vermeld op het uitgereikte document worden niet verder uitgesplitst in het verkoopdagboek. Indien er een afronding heeft plaatsgevonden zoals hiervoor wordt beschreven, zal de onderneming dit afrondingsverschil niet afzonderlijk boeken.
 
-*Voorbeeld 4*: Betaling in speciën
+### *Voorbeeld 4*: Betaling in speciën
 
-Een klant koopt twee artikelen. Het eerste artikel kost 10,04[^17]
- euro. De prijs van het tweede artikel bedraagt 12,03[^18]
- euro. Het te betalen bedrag na afronding bedraagt 22,05 euro. De onderneming schrijft in het verkoopdagboek een opbrengst in van 22,05 euro.
-
+Een klant koopt twee artikelen. Het eerste artikel kost 10,04[^17] euro. De prijs van het tweede artikel bedraagt 12,03[^18] euro. Het te betalen bedrag na afronding bedraagt 22,05 euro. De onderneming schrijft in het verkoopdagboek een opbrengst in van 22,05 euro.
 ### Tweede methode[^19] 
 
-Voor de ondernemingen die een dubbele boekhouding voeren, splitst het boekhoudregistratiesysteem de verschillende bestanddelen die zijn vermeld op het uitgereikte document. Het eventuele verschil tussen de som van de samenstellende bestanddelen en het totaalbedrag dat het gevolg is van het afrondingsverschil wordt geboekt op rekening 700 *Verkopen en dienstprestaties*. Indien dit afrondingsverschil negatief is, wordt dit verschil geboekt op het debet van rekening 700 *Verkopen en dienstprestaties*. Indien dit verschil echter positief is, wordt het verschil geboekt op het credit van rekening 700 *Verkopen en dienstprestaties*.
+Voor de ondernemingen die een dubbele boekhouding voeren, splitst het boekhoudregistratiesysteem de verschillende bestanddelen die zijn vermeld op het uitgereikte document. Het eventuele verschil tussen de som van de samenstellende bestanddelen en het totaalbedrag dat het gevolg is van het afrondingsverschil wordt geboekt op rekening 700 *Verkopen en dienstprestaties*. Indien dit afrondingsverschil negatief is, wordt dit verschil geboekt op het debet van rekening 700* Verkopen en dienstprestaties*. Indien dit verschil echter positief is, wordt het verschil geboekt op het credit van rekening 700* Verkopen en dienstprestaties*.
 
-*Voorbeeld 5*: Betaling in speciën
+### *Voorbeeld 5*: Betaling in speciën
 
 Een klant koopt twee artikelen in een warenhuis. Het eerste artikel kost 9,47 euro waarop een btw-tarief van 6% wordt geheven. De prijs van het tweede artikel bedraagt 9,94 euro waarop 21 % btw wordt geheven. Het te betalen bedrag (na afronding) bedraagt 22,05 euro.
-
 Ondernemingen die deze methode hanteren, dienen deze verrichting als volgt te boeken:
 
 | | Rekening | Omschrijving | Debet | Credit |

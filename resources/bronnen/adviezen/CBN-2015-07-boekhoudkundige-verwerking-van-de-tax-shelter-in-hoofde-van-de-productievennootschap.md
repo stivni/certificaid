@@ -2,58 +2,56 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-tax-shelter-in-hoofde-van-de-productievennootschap
 datum: 2015-09-09
 gerelateerde_adviezen:
-- datum: '2025-07-14'
-  titel: De boekhoudkundige verwerking van immateriële vaste activa (update) [ONTWERP]
-  url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-immateriele-vaste-activa-update-ontwerp
-- datum: '2018-05-30'
-  titel: Tax shelter voor podiumkunsten
-  url: https://www.cbn-cnc.be/nl/adviezen/tax-shelter-voor-podiumkunsten
-- datum: '2018-03-21'
-  titel: Aftrek voor innovatie-inkomsten
-  url: https://www.cbn-cnc.be/nl/adviezen/aftrek-voor-innovatie-inkomsten
-- datum: '2016-12-14'
-  titel: 'Kosten van onderzoek en ontwikkeling: onderscheid tussen onderzoek en ontwikkeling
-    - verduidelijking'
-  url: https://www.cbn-cnc.be/nl/adviezen/kosten-van-onderzoek-en-ontwikkeling-onderscheid-tussen-onderzoek-en-ontwikkeling
+  - datum: '2025-07-14'
+    titel: De boekhoudkundige verwerking van immateriële vaste activa (update) [ONTWERP]
+    url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-immateriele-vaste-activa-update-ontwerp
+  - datum: '2018-05-30'
+    titel: Tax shelter voor podiumkunsten
+    url: https://www.cbn-cnc.be/nl/adviezen/tax-shelter-voor-podiumkunsten
+  - datum: '2018-03-21'
+    titel: Aftrek voor innovatie-inkomsten
+    url: https://www.cbn-cnc.be/nl/adviezen/aftrek-voor-innovatie-inkomsten
+  - datum: '2016-12-14'
+    titel: 'Kosten van onderzoek en ontwikkeling: onderscheid tussen onderzoek en ontwikkeling - verduidelijking'
+    url: https://www.cbn-cnc.be/nl/adviezen/kosten-van-onderzoek-en-ontwikkeling-onderscheid-tussen-onderzoek-en-ontwikkeling
 nummer: CBN-advies 2015/7
 provenance:
-  generated_at: '2026-05-08T18:36:51Z'
+  generated_at: '2026-05-11T13:05:08Z'
   inputs:
-  - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-tax-shelter-in-hoofde-van-de-productievennootschap
-    sha256: 7e2eccfbb2400c51b122e8869b2d760e5e08df92b45a714e9c4b43696a59b852
-    version: null
+    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-tax-shelter-in-hoofde-van-de-productievennootschap
+      sha256: 7e2eccfbb2400c51b122e8869b2d760e5e08df92b45a714e9c4b43696a59b852
+      version:
   stale: false
-  stale_reason: null
+  stale_reason:
   tooling:
-    model: null
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    prompt_version: null
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
   trust:
     confirmed_at: '2026-05-08T19:02:28Z'
     confirmed_by: subagent-laag2-ronde2
     layer1:
-      file_size_chars: 33432
-      flags: []
-      heading_count: 17
-      max_section_chars: 11446
-      run_at: null
-      run_id: 20260511-083333
       status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:29Z'
+      heading_count: 16
+      max_section_chars: 11442
+      file_size_chars: 33391
+      flags: []
     layer2:
       agent: subagent-laag2-ronde2
       concrete_problemen: []
-      rationale: '[Laag-2-R2 2026-05-08] 17 headings, alle verwerkingsstappen correct
-        als ### of #### headings. Inhoudsopgave-artefact is cosmetisch. RAG-bruikbaar.'
+      rationale: '[Laag-2-R2 2026-05-08] 17 headings, alle verwerkingsstappen correct als ### of #### headings. Inhoudsopgave-artefact is cosmetisch. RAG-bruikbaar.'
       run_at: '2026-05-08T19:02:28Z'
       status: trusted
     rationale: Laag-2 trusted door subagent-laag2-ronde2 (zie layer2.rationale)
     status: trusted
 themas:
-- immateriële vaste activa
-- kapitaalsubsidie
-- productievennootschap
-- tax shelter
+  - immateriële vaste activa
+  - kapitaalsubsidie
+  - productievennootschap
+  - tax shelter
 ---
 
 # CBN-advies 2015/7 - Boekhoudkundige verwerking van de tax shelter in hoofde van de productievennootschap (raamovereenkomsten getekend vanaf 1 januari 2015)
@@ -88,15 +86,13 @@ De *tax shelter* is een fiscale stimulans die in 2002 werd ingevoerd om de produ
 
 De regeling bestaat er in dat een fiscale vrijstelling wordt toegekend aan vennootschappen die financieel bijdragen aan de productie van een audiovisueel werk. In artikel 194*ter* van het Wetboek van de Inkomstenbelastingen 1992 (hierna: WIB 92) worden de voorwaarden, beperkingen en voorschriften van deze fiscale vrijstelling bepaald.
 
-Sinds de invoering van de tax shelter-regeling door de programmawet van 2 augustus 2002 werd deze regeling al verscheidene keren aangepast. Door de wet van 12 mei 2014 tot wijziging van artikel 194*ter* van het Wetboek van de inkomstenbelastingen 1992 betreffende het tax shelter-stelsel ten gunste van audiovisueel werk[^4]
- werden de voorschriften van het stelsel grondig hervormd om een einde te stellen aan een aantal vastgestelde excessen.[^5] 
+Sinds de invoering van de tax shelter-regeling door de programmawet van 2 augustus 2002 werd deze regeling al verscheidene keren aangepast. Door de wet van 12 mei 2014 tot wijziging van artikel 194*ter* van het Wetboek van de inkomstenbelastingen 1992 betreffende het tax shelter-stelsel ten gunste van audiovisueel werk[^4] werden de voorschriften van het stelsel grondig hervormd om een einde te stellen aan een aantal vastgestelde excessen.[^5] 
 
 Volgens de vorige regeling werd de deelname van de investerende vennootschap in de financiering van het werk voorzien in de vorm van een verwerving van rechten die verbonden zijn aan de productie en de exploitatie van het audiovisuele werk en eventueel in de vorm van leningen die werden toegekend aan de productievennootschap. Met het stelsel dat werd ingevoerd door de wet van 12 mei 2014 verwerft de investerende vennootschap een belastingvoordeel zonder daarvoor rechten te verwerven met betrekking tot de eigenlijke productie.
 
 De wet van 12 mei 2014 heeft eveneens:
 
-- een verplichte erkenning ingevoerd voor de productievennootschappen en voor de tussenpersonen;[^6]
- en 
+- een verplichte erkenning ingevoerd voor de productievennootschappen en voor de tussenpersonen;[^6] en 
 - de definities aangepast van de kwalificerende uitgaven. 
 
 Voor een volledig overzicht van de wijzigingen die door deze wet werden aangebracht in de fiscale regeling met betrekking tot de tax shelter wordt er verwezen naar de Memorie van toelichting bij de wet van 12 mei 2014.[^7]
@@ -104,7 +100,7 @@ Voor een volledig overzicht van de wijzigingen die door deze wet werden aangebra
 
 ## Kort overzicht van het tax shelter-stelsel
 
-De *investerende vennootschap[^8] * (hierna: de investeerder) en de *productievennootschap[^9] * (hierna: de producent) sluiten een raamovereenkomst waarin de investeerder zich verbindt een bepaalde som te storten met het oog op het verkrijgen van een tax shelter-attest dat de producent belooft te verstrekken aan de investeerder. De producent meldt deze overeenkomst aan de FOD Financiën binnen de maand na de ondertekening ervan.
+De *investerende vennootschap[^8]*  (hierna: de investeerder) en de *productievennootschap[^9]*  (hierna: de producent) sluiten een raamovereenkomst waarin de investeerder zich verbindt een bepaalde som te storten met het oog op het verkrijgen van een tax shelter-attest dat de producent belooft te verstrekken aan de investeerder. De producent meldt deze overeenkomst aan de FOD Financiën binnen de maand na de ondertekening ervan.
 
 De investeerder verkrijgt een voorlopige fiscale vrijstelling. Deze vrijstelling wordt definitief wanneer de investeerder een kopie van het tax shelter-attest voegt bij de aangifte van de vennootschapsbelasting of van de belasting van niet-inwoners/vennootschappen.[^10] 
 
@@ -112,8 +108,7 @@ De producent kan de investeerder vergoeden door een bedrag te betalen dat bereke
  De producent kan geen ander voordeel toekennen dan een vermelding in de aftiteling van het in aanmerking komend werk.[^12]
  De waarborg tot voltooiing van het in aanmerking komend werk en de waarborg tot aflevering van het tax shelter-attest worden niet beschouwd als een economisch of financieel voordeel, voor zover de in aanmerking komende investeerder, in het geval dat hij zich beroept op deze waarborg, niet meer ontvangt dan het bedrag van de belastingen en de moratoire interesten die de investeerder verschuldigd is indien hij niet aan de vrijstellingsvoorwaarde voldoet.[^13] 
 
-Wanneer het audiovisuele werk[^14]
- is beëindigd, vraagt de producent aan de FOD Financiën om een tax shelter-attest af te leveren op basis van de kwalificerende productiekosten. Dit attest wordt slechts afgeleverd indien en in de mate dat de voorwaarden en beperkingen van het artikel 194*ter*, § 7 WIB 92 zijn nageleefd. De producent bezorgt dit attest aan de investeerder zodat de investeerder de definitieve vrijstelling kan krijgen.[^15] 
+Wanneer het audiovisuele werk[^14] is beëindigd, vraagt de producent aan de FOD Financiën om een tax shelter-attest af te leveren op basis van de kwalificerende productiekosten. Dit attest wordt slechts afgeleverd indien en in de mate dat de voorwaarden en beperkingen van het artikel 194*ter*, § 7 WIB 92 zijn nageleefd. De producent bezorgt dit attest aan de investeerder zodat de investeerder de definitieve vrijstelling kan krijgen.[^15] 
 
 De fiscale waarde van het tax shelter-attest wordt overeenkomstig artikel 194*ter*, § 8 WIB 92 vastgelegd op 70 % van het bedrag van de in aanmerking komende productie- en exploitatieuitgaven verricht in de Europese Economische ruimte (EER) die zijn uitgevoerd voor de productie van het werk en die uitgaven zijn die rechtstreeks verbonden zijn met de productie (met een maximum van 10/9 van het bedrag dat betrekking heeft op de productie- en exploitatiekosten die in België werden gedaan). Indien het totaal van de uitgaven verricht in België die rechtstreeks verbonden zijn met de productie minder is dan 70 % van de productie- en exploitatiekosten die in België werden gedaan, zal de fiscale waarde van het tax shelter-attest proportioneel worden verminderd a rato van het percentage van de uitgaven die rechtstreeks verbonden zijn met de productie in verhouding tot de vereiste 70 %. De totale fiscale waarde van de tax shelter-attesten mogen per werk niet hoger zijn dan 15.000.000 EUR.[^16]
  De definitieve vrijstelling is bovendien beperkt tot 150 % van de (definitieve) fiscale waarde van het tax shelter-attest.[^17] 
@@ -138,8 +133,7 @@ De audiovisuele werken waarvan de producent de productie verzekert, worden in de
 
 In het algemeen zal de producent, voor het beheersgemak, een subrekening 211 *Concessies, octrooien, licenties, know-how, merken en soortgelijke rechten* openen per audiovisueel werk en zal hij het werk daaronder boeken tegen de waarde die overeenkomt met de vervaardigingsprijs (of, in voorkomend geval, tegen de aanschaffingsprijs voor wat betreft de verworven auteursrechten op het werk), conform de algemene principes van artikel 35 en volgende van het koninklijk besluit tot uitvoering van het Wetboek van Vennootschappen (KB W.Venn.).
 
-De productiekosten van het werk worden, tot aan de voltooiing ervan aan de actiefzijde opgenomen en maken aldus deel uit van de vervaardigingsprijs. De producent kan er voor opteren om de onrechtstreekse productiekosten[^21]
- met betrekking tot de productie van het in aanmerking komend audiovisuele werk niet of slechts gedeeltelijk op te nemen in de aanschaffingswaarde van het audiovisuele werk. In geval van deze mogelijkheid gebruik wordt gemaakt, moet dit in de toelichting worden vermeld.[^22] 
+De productiekosten van het werk worden, tot aan de voltooiing ervan aan de actiefzijde opgenomen en maken aldus deel uit van de vervaardigingsprijs. De producent kan er voor opteren om de onrechtstreekse productiekosten[^21] met betrekking tot de productie van het in aanmerking komend audiovisuele werk niet of slechts gedeeltelijk op te nemen in de aanschaffingswaarde van het audiovisuele werk. In geval van deze mogelijkheid gebruik wordt gemaakt, moet dit in de toelichting worden vermeld.[^22] 
 
 De rentelasten van het kapitaal dat is geleend om het werk te financieren[^23], kunnen eveneens worden geactiveerd, maar slechts voor zover deze lasten betrekking hebben op de periode die aan de bedrijfsklaarheid van deze vaste activa voorafgaat. Wanneer deze rentelasten worden opgenomen in de aanschaffingswaarde van de vaste activa, wordt dit bij de waarderingsregels in de toelichting vermeld.[^24] 
 
@@ -210,16 +204,11 @@ Daarnaast stelt de Commissie vast dat de Europese Commissie de bijzondere method
 
 Om deze redenen worden de bedragen waartoe de investeerder zich heeft verbonden aan de producent te betalen, in hoofde van deze producent, boekhoudkundig beschouwd als een overheidssubsidie.
 
-Gelet op wat voorafgaat beveelt de Commissie de onderstaande boekhoudkundige verwerking in hoofde van de producent aan bij de ondertekening van de raamovereenkomst. De methode is verschillend naargelang de producent ervoor opteert[^29]
- om de onrechtstreekse productiekosten[^30]
- met betrekking tot de productie van het in aanmerking komend audiovisuele werk al dan niet op te nemen in de aanschaffingswaarde van het audiovisuele werk.
+Gelet op wat voorafgaat beveelt de Commissie de onderstaande boekhoudkundige verwerking in hoofde van de producent aan bij de ondertekening van de raamovereenkomst. De methode is verschillend naargelang de producent ervoor opteert[^29] om de onrechtstreekse productiekosten[^30] met betrekking tot de productie van het in aanmerking komend audiovisuele werk al dan niet op te nemen in de aanschaffingswaarde van het audiovisuele werk.
 
-#### De producent neemt alle productiekosten[^31]
- op in de aanschaffingswaarde
+#### De producent neemt alle productiekosten[^31] op in de aanschaffingswaarde
 
 Bij het afsluiten van de raamovereenkomst wordt het door de investeerder vastgelegde bedrag als volgt geboekt:
-
- [^32][^33]
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
@@ -227,20 +216,16 @@ Bij het afsluiten van de raamovereenkomst wordt het door de investeerder vastgel
 | aan | 15 | Kapitaalsubsidies | | 66 |
 | | 1680 | Uitgestelde belastingen op kapitaalsubsidies | 34 | |
 
-Deze kapitaalsubsidies en uitgestelde belastingen worden geleidelijk afgeboekt via overboeking naar post IV.C. Andere financiële opbrengsten, respectievelijk IX*bis*. Onttrekkingen aan de uitgestelde belastingen, volgens hetzelfde ritme als de afschrijvingen op de vaste activa voor de verwerving waarvan ze werden verkregen of, in voorkomend geval, ten belope van het saldo, bij realisatie of buitengebruikstelling[^34]
- van de betrokken vaste activa.[^35]
+Deze kapitaalsubsidies en uitgestelde belastingen worden geleidelijk afgeboekt via overboeking naar post IV.C. Andere financiële opbrengsten, respectievelijk IX*bis*. Onttrekkingen aan de uitgestelde belastingen, volgens hetzelfde ritme als de afschrijvingen op de vaste activa voor de verwerving waarvan ze werden verkregen of, in voorkomend geval, ten belope van het saldo, bij realisatie of buitengebruikstelling[^34] van de betrokken vaste activa.[^35]
  De mate waarin de geactiveerde immateriële vaste activa worden gefinancierd door de bijdragen van de investeerders is een verplichte vermelding in de raamovereenkomst.[^36] 
 
 #### De producent neemt uitsluitend de rechtstreekse productiekosten op in de aanschaffingswaarde
 
-Wanneer de producent echter opteert om uitsluitend de rechtstreekse productiekosten[^37]
- op te nemen in de aanschaffingswaarde van het audiovisuele werk, wordt slechts een gedeelte van het door de producent ontvangen bedrag geboekt als kapitaalsubsidie, met name het geraamde pro rata gedeelte van de geraamde productiekosten zoals vermeld in de raamovereenkomst, dat wordt geactiveerd.
+Wanneer de producent echter opteert om uitsluitend de rechtstreekse productiekosten[^37] op te nemen in de aanschaffingswaarde van het audiovisuele werk, wordt slechts een gedeelte van het door de producent ontvangen bedrag geboekt als kapitaalsubsidie, met name het geraamde pro rata gedeelte van de geraamde productiekosten zoals vermeld in de raamovereenkomst, dat wordt geactiveerd.
 
 Het gedeelte van het van de investeerders ontvangen bedrag dat evenredig betrekking heeft op toekomstige uitgaven die niet worden geactiveerd, wordt in afwachting van deze uitgaven geboekt op een wachtrekening. In het onderstaande voorbeeld wordt vertrokken van de hypothese dat de producent verwacht dat de niet te activeren productiekosten[^38]
  20 % zullen vertegenwoordigen van de totale productie- en exploitatiekosten.[^39]
  Bij het afsluiten van de raamovereenkomst wordt het door de investeerder vastgelegde bedrag als volgt geboekt:
-
- [^40][^41]
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
@@ -282,8 +267,7 @@ Zodra het werk is voltooid, vraagt de producent aan de FOD Financiën om een tax
 
 #### Afschrijving van het werk
 
-Aangezien het audiovisuele werk een beperkte gebruiksduur heeft, wordt het werk afgeschreven overeenkomstig artikel 61, § 1 KB W.Venn.[^46]
- volgens het afschrijvingsplan dat wordt opgesteld door het bestuursorgaan van de producent.[^47]
+Aangezien het audiovisuele werk een beperkte gebruiksduur heeft, wordt het werk afgeschreven overeenkomstig artikel 61, § 1 KB W.Venn.[^46] volgens het afschrijvingsplan dat wordt opgesteld door het bestuursorgaan van de producent.[^47]
  De Commissie merkt op dat de kapitaalsubsidies volgens hetzelfde ritme in opbrengsten worden geboekt als het ritme van de afschrijvingen.[^48] 
 
 De afschrijving van het audiovisueel werk zal in principe aanvangen op het ogenblik dat de producent de effectieve exploitatie ervan kan starten, met andere woorden, wanneer het voltooide werk vorm heeft gekregen door de standaardkopie. Deze hypothese wordt in het vervolg van dit advies aangehouden. Het is echter niet uitgesloten dat de afschrijving vóór deze datum kan aanvangen.
@@ -307,8 +291,7 @@ Op het ogenblik dat de producent wordt geïnformeerd door de distributeurs over 
 | | 400 | Handelsvorderingen | 4 | |
 | aan | 70 | Omzet | | 4 |
 
-### Geen tax shelter-attest binnen de termijn of attest van een lagere fiscale waarde dan de geschatte waarde
-
+Geen tax shelter-attest binnen de termijn of attest van een lagere fiscale waarde dan de geschatte waarde
 Indien het werk niet is voltooid binnen de termijn of indien de fiscale waarde van het afgeleverde tax shelter-attest lager is dan de geschatte waarde op het ogenblik dat de raamovereenkomst wordt getekend, terwijl de producent dit heeft gewaarborgd aan de investeerder en de producent dit risico niet heeft gedekt door een verzekering, dient de producent het gewaarborgde bedrag te betalen aan de investeerder.
 
 Indien de producent het risico voor de verstrekte waarborg volledig heeft ingedekt door een verzekering, dient hij niet tussen te komen in de schadevergoeding aan de investeerder.

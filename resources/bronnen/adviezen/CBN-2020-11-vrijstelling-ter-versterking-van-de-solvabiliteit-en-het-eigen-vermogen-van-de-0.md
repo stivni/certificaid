@@ -1,88 +1,85 @@
 ---
-nummer: CBN-advies 2020/11
+bron: https://www.cbn-cnc.be/nl/adviezen/vrijstelling-ter-versterking-van-de-solvabiliteit-en-het-eigen-vermogen-van-de-0
 datum: 2020-10-08
+gerelateerde_adviezen:
+  - datum: '2021-07-12'
+    titel: Boekhoudrechtelijke verwerking van de wederopbouwreserve
+    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudrechtelijke-verwerking-van-de-wederopbouwreserve
+  - datum: '2021-07-05'
+    titel: Boekhoudkundige verwerking van COVID-19-tegemoetkomingen en van kosten gemaakt ten gevolge van de gezondheidscrisis
+    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-covid-19-tegemoetkomingen-en-van-kosten-gemaakt-ten-gevolge
+  - datum: '2021-04-06'
+    titel: Boekhoudrechtelijke behandeling van kwijtschelding van huur ten gevolge van de COVID-19-pandemie
+    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudrechtelijke-behandeling-van-kwijtschelding-van-huur-ten-gevolge-van-de-covid-19
+  - datum: '2020-07-22'
+    titel: Mogelijkheid tot uitstel van de gewone algemene vergadering en van de neerlegging van de jaarrekening (vennootschappen)
+    url: https://www.cbn-cnc.be/nl/adviezen/mogelijkheid-tot-uitstel-van-de-gewone-algemene-vergadering-en-van-de-neerlegging-van-de
+nummer: CBN-advies 2020/11
+provenance:
+  generated_at: '2026-05-11T13:05:08Z'
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/vrijstelling-ter-versterking-van-de-solvabiliteit-en-het-eigen-vermogen-van-de-0
+      sha256: a4e4fa6047464374dcdd9f99e415b10e78c57870f32dce88f69b63bcd9375be2
+      version:
+  stale: false
+  stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
+  trust:
+    confirmed_at: '2026-05-11T12:21:40Z'
+    confirmed_by: subagent-sonnet-4-6
+    layer1:
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:30Z'
+      heading_count: 6
+      max_section_chars: 5775
+      file_size_chars: 15126
+      flags: []
+    layer2:
+      agent: subagent-sonnet-4-6
+      concrete_problemen:
+        - categorie: D4
+          regel: 77
+          type: other
+          voorbeeld: Indien *enerzijds *het tarief van de vennootschapsbelasting...
+        - categorie: D4
+          regel: 79
+          type: other
+          voorbeeld: Indien *anderzijds *het effectief gerealiseerde verlies...
+        - categorie: D4
+          regel: 78
+          type: other
+          voorbeeld: belast aan het '*flat'* tarief
+        - categorie: D3
+          regel: 111
+          type: other
+          voorbeeld: ' [^16] (orphaned voetnoot-referentie op eigen regel na sectie-label)'
+      rationale: 'D4: Malformed italic op regels 77 en 79: `*enerzijds *` en `*anderzijds *` hebben een spatie vóór het sluit-asterisk — geen mens typt dit zo. Ook `*flat''*` (regel 78) combineert een smart-quote binnen een italic span. Verder zijn er orphaned footnote-referenties op eigen regels (bijv. regel 111 `[^16]`, regel 131 `[^18][^19]`) die syntactisch correct zijn maar door de scraper los van hun anker zijn gezet.'
+      run_at: '2026-05-11T12:21:40Z'
+      status: needs-rework
+    rationale: 'D4: Malformed italic op regels 77 en 79: `*enerzijds *` en `*anderzijds *` hebben een spatie vóór het sluit-asterisk — geen mens typt dit zo. Ook `*flat''*` (regel 78) combineert een smart-quote binnen een italic span. Verder zijn er orphaned footnote-referenties op eigen regels (bijv. regel 111 `[^16]`, regel 131 `[^18][^19]`) die syntactisch correct zijn maar door de scraper los van hun anker zijn gezet.'
+    status: needs-rework
 themas:
   - COVID-19
   - tijdelijke vrijstelling
   - vervroegde verliesaftrek
   - carry back
   - fiscale steunmaatregel
-bron: https://www.cbn-cnc.be/nl/adviezen/vrijstelling-ter-versterking-van-de-solvabiliteit-en-het-eigen-vermogen-van-de-0
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/vrijstelling-ter-versterking-van-de-solvabiliteit-en-het-eigen-vermogen-van-de-0
-      sha256: a4e4fa6047464374dcdd9f99e415b10e78c57870f32dce88f69b63bcd9375be2
-      version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:37:52Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T12:21:40Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "D4: Malformed italic op regels 77 en 79: `*enerzijds *` en `*anderzijds *` hebben een spatie vóór het sluit-asterisk — geen mens typt dit zo. Ook `*flat'*` (regel 78) combineert een smart-quote binnen een italic span. Verder zijn er orphaned footnote-referenties op eigen regels (bijv. regel 111 `[^16]`, regel 131 `[^18][^19]`) die syntactisch correct zijn maar door de scraper los van hun anker zijn gezet."
-    layer1:
-      status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 7
-      max_section_chars: 6972
-      file_size_chars: 15185
-      flags: []
-    layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:21:40Z'
-      rationale: "D4: Malformed italic op regels 77 en 79: `*enerzijds *` en `*anderzijds *` hebben een spatie vóór het sluit-asterisk — geen mens typt dit zo. Ook `*flat'*` (regel 78) combineert een smart-quote binnen een italic span. Verder zijn er orphaned footnote-referenties op eigen regels (bijv. regel 111 `[^16]`, regel 131 `[^18][^19]`) die syntactisch correct zijn maar door de scraper los van hun anker zijn gezet."
-      concrete_problemen:
-        - regel: 77
-          categorie: D4
-          type: other
-          voorbeeld: Indien *enerzijds *het tarief van de vennootschapsbelasting...
-        - regel: 79
-          categorie: D4
-          type: other
-          voorbeeld: Indien *anderzijds *het effectief gerealiseerde verlies...
-        - regel: 78
-          categorie: D4
-          type: other
-          voorbeeld: belast aan het '*flat'* tarief
-        - regel: 111
-          categorie: D3
-          type: other
-          voorbeeld: ' [^16] (orphaned voetnoot-referentie op eigen regel na sectie-label)'
-gerelateerde_adviezen:
-  - titel: Boekhoudrechtelijke verwerking van de wederopbouwreserve
-    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudrechtelijke-verwerking-van-de-wederopbouwreserve
-    datum: '2021-07-12'
-  - titel: Boekhoudkundige verwerking van COVID-19-tegemoetkomingen en van kosten gemaakt ten gevolge van de gezondheidscrisis
-    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-covid-19-tegemoetkomingen-en-van-kosten-gemaakt-ten-gevolge
-    datum: '2021-07-05'
-  - titel: Boekhoudrechtelijke behandeling van kwijtschelding van huur ten gevolge van de COVID-19-pandemie
-    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudrechtelijke-behandeling-van-kwijtschelding-van-huur-ten-gevolge-van-de-covid-19
-    datum: '2021-04-06'
-  - titel: Mogelijkheid tot uitstel van de gewone algemene vergadering en van de neerlegging van de jaarrekening (vennootschappen)
-    url: https://www.cbn-cnc.be/nl/adviezen/mogelijkheid-tot-uitstel-van-de-gewone-algemene-vergadering-en-van-de-neerlegging-van-de
-    datum: '2020-07-22'
 ---
 
 # CBN-advies 2020/11 – Vrijstelling ter versterking van de solvabiliteit en het eigen vermogen van de vennootschappen ten gevolge van de COVID-19-pandemie in de vennootschapsbelasting
 
 ## Inleiding
 
-De wet van 23 juni 2020[^2]
- houdende fiscale bepalingen ter bevordering van de liquiditeit en solvabiliteit van ondernemingen in het kader van de bestrijding van de economische gevolgen van de COVID-19-pandemie (hierna: de wet van 23 juni 2020), in samenlezing met de wet van 15 juli 2020 houdende diverse dringende bepalingen ten gevolge van de COVID-19-pandemie (Corona III) (hierna: de wet van 15 juli 2020)[^3], laat vennootschappen toe om vroegtijdig fiscale verliezen aan te rekenen op een vorig aanslagjaar door middel van het treffen van een tijdelijke vrijstelling.
+De wet van 23 juni 2020[^2] houdende fiscale bepalingen ter bevordering van de liquiditeit en solvabiliteit van ondernemingen in het kader van de bestrijding van de economische gevolgen van de COVID-19-pandemie (hierna: de wet van 23 juni 2020), in samenlezing met de wet van 15 juli 2020 houdende diverse dringende bepalingen ten gevolge van de COVID-19-pandemie (Corona III) (hierna: de wet van 15 juli 2020)[^3], laat vennootschappen toe om vroegtijdig fiscale verliezen aan te rekenen op een vorig aanslagjaar door middel van het treffen van een tijdelijke vrijstelling.
 
 ## Beschrijving van de maatregel
 
-De wet van 23 juni 2020, in samenlezing met de wet met van 15 juli 2020, stelt dat voor het aanslagjaar 2019 of 2020 dat verband houdt met een boekjaar dat afgesloten werd tussen 13 maart 2019 tot 31 juli 2020, een vennootschap aanspraak kan maken op een tijdelijke vrijstelling[^4]
- van het geheel of een deel van het resultaat van het belastbare tijdperk[^5]
- vanwege eventuele verliezen die worden geleden in de loop van het volgende belastbare tijdperk dat verbonden is met, naar gelang het geval het aanslagjaar 2020 of 2021. Er geldt een maximumbedrag van vrijstelling die kan worden toegepast. De eventuele verliezen kunnen slechts worden vrijgesteld ten belope van maximaal het bedrag van het resultaat van het belastbare tijdperk (ook wel ‘fiscaal resultaat’ genoemd als optelsom van de reservebeweging, de verworpen uitgaven en de uitgekeerde dividenden), vastgesteld alsof de bedoelde vrijstelling niet werd gevraagd, en verminderd met de overeenkomstig art. 202 (Definitief Belast Inkomen) tot 205/1 (aftrek voor innovatie-inkomsten) en 543 (overgangsstelsel aftrek voor octrooi-inkomsten) WIB 1992 bedoelde aftrekbare inkomsten die in de loop van het belastbare tijdperk werden verkregen. De bedoelde vrijstelling wordt verleend door de vorming van een tijdelijke vrijgestelde reserve die in mindering wordt gebracht op het totale bedrag van de belastbare gereserveerde winst van het belastbare tijdperk dat wordt afgesloten in de periode van 13 maart 2019 tot 31 juli 2020. De tijdelijk vrijgestelde reserve mag voor slechts één belastbaar tijdperk dat wordt afgesloten in de periode van 13 maart 2019 tot 31 juli 2020 worden gevormd.[^6] 
+De wet van 23 juni 2020, in samenlezing met de wet met van 15 juli 2020, stelt dat voor het aanslagjaar 2019 of 2020 dat verband houdt met een boekjaar dat afgesloten werd tussen 13 maart 2019 tot 31 juli 2020, een vennootschap aanspraak kan maken op een tijdelijke vrijstelling[^4] van het geheel of een deel van het resultaat van het belastbare tijdperk[^5] vanwege eventuele verliezen die worden geleden in de loop van het volgende belastbare tijdperk dat verbonden is met, naar gelang het geval het aanslagjaar 2020 of 2021. Er geldt een maximumbedrag van vrijstelling die kan worden toegepast. De eventuele verliezen kunnen slechts worden vrijgesteld ten belope van maximaal het bedrag van het resultaat van het belastbare tijdperk (ook wel ‘fiscaal resultaat’ genoemd als optelsom van de reservebeweging, de verworpen uitgaven en de uitgekeerde dividenden), vastgesteld alsof de bedoelde vrijstelling niet werd gevraagd, en verminderd met de overeenkomstig art. 202 (Definitief Belast Inkomen) tot 205/1 (aftrek voor innovatie-inkomsten) en 543 (overgangsstelsel aftrek voor octrooi-inkomsten) WIB 1992 bedoelde aftrekbare inkomsten die in de loop van het belastbare tijdperk werden verkregen. De bedoelde vrijstelling wordt verleend door de vorming van een tijdelijke vrijgestelde reserve die in mindering wordt gebracht op het totale bedrag van de belastbare gereserveerde winst van het belastbare tijdperk dat wordt afgesloten in de periode van 13 maart 2019 tot 31 juli 2020. De tijdelijk vrijgestelde reserve mag voor slechts één belastbaar tijdperk dat wordt afgesloten in de periode van 13 maart 2019 tot 31 juli 2020 worden gevormd.[^6] 
 
 Zo kan bij wijze van voorbeeld in geval van een boekjaar dat samenvalt met het kalenderjaar een vennootschap het geraamd fiscaal verlies voor boekjaar 2020 in mindering brengen van de belastbare gereserveerde winst van boekjaar 2019. Nog steeds bij wijze van voorbeeld kan een vennootschap met een eindeboekjaardatum per 30 juni ervoor kiezen het geraamd fiscaal verlies van het boekjaar eindigend op 30 juni 2020 in mindering te brengen van de belastbare gereserveerde winst van het boekjaar eindigend op 30 juni 2019. Maar hier kan dezelfde vennootschap opteren om het geraamd verlies van het boekjaar eindigend op 30 juni 2021 in mindering te brengen van de belastbare gereserveerde winst van het boekjaar eindigend op 30 juni 2020.
 
@@ -90,14 +87,12 @@ Niet elke vennootschap kan gebruik maken van de maatregel. Zo worden bijvoorbeel
 
 Voor zover de aangifte in de vennootschapsbelasting met betrekking tot het boekjaar in hetwelk de tijdelijke vrijgestelde reserve wordt in rekening gebracht in min van het resultaat van het belastbaar tijdperk reeds is ingediend op het ogenblik van de inwerkingtreding van deze wet, moet een opgave samen met de aangifte uiterlijk op 30 november 2020 toegezonden worden volgens nadere regels die worden bepaald door de Koning.
 
-In het boekjaar volgend op het in rekening brengen van het geraamd bedrag moet de belastbare grondslag aanvullend verhoogd worden met het in het vorige boekjaar in rekening gebrachte vrijgestelde reserve. Daarbij worden twee verrekeningen doorgevoerd. Indien *enerzijds *het tarief van de vennootschapsbelasting voor het boekjaar waarin de vrijgestelde reserve in mindering wordt gebracht van de belastbare gereserveerde winst verschilt van het tarief van het daaropvolgende boekjaar, dient de tariefsprong betaald te worden op het bedrag van de vrijgestelde reserve.[^8]
- Indien bij wijze van voorbeeld een vennootschap onderworpen is aan het '*flat'* tarief en de bedoelde tijdelijk vrijgestelde reserve in mindering is gebracht in boekjaar 2019 dat samenvalt met het kalenderjaar zal in daaropvolgende boekjaar 2020 op het bedrag van de tijdelijk vrijgestelde reserve de tariefsprong van 4,58 procent[^9]
- moeten betaald worden. Indien *anderzijds *het effectief gerealiseerde verlies kleiner uitvalt dan de in rekening gebrachte tijdelijke reserve dient een afzonderlijke aanslag betaald te worden die in een afzonderlijke aanslag voorziet van 2 tot 40 procent afhankelijk van de mate van afwijking.[^10] 
+In het boekjaar volgend op het in rekening brengen van het geraamd bedrag moet de belastbare grondslag aanvullend verhoogd worden met het in het vorige boekjaar in rekening gebrachte vrijgestelde reserve. Daarbij worden twee verrekeningen doorgevoerd. Indien *enerzijds* het tarief van de vennootschapsbelasting voor het boekjaar waarin de vrijgestelde reserve in mindering wordt gebracht van de belastbare gereserveerde winst verschilt van het tarief van het daaropvolgende boekjaar, dient de tariefsprong betaald te worden op het bedrag van de vrijgestelde reserve.[^8]
+ Indien bij wijze van voorbeeld een vennootschap onderworpen is aan het '*flat'* tarief en de bedoelde tijdelijk vrijgestelde reserve in mindering is gebracht in boekjaar 2019 dat samenvalt met het kalenderjaar zal in daaropvolgende boekjaar 2020 op het bedrag van de tijdelijk vrijgestelde reserve de tariefsprong van 4,58 procent[^9] moeten betaald worden. Indien *anderzijds* het effectief gerealiseerde verlies kleiner uitvalt dan de in rekening gebrachte tijdelijke reserve dient een afzonderlijke aanslag betaald te worden die in een afzonderlijke aanslag voorziet van 2 tot 40 procent afhankelijk van de mate van afwijking.[^10] 
 
 ## Boekhoudrechtelijke analyse
 
-De vraag van boekhoudrechtelijk belang is vooreerst of deze fiscaalrechtelijke tijdelijke reserve[^11]
- dient geboekt te worden in de met de betrokken boekjaren overeenstemmende jaarrekeningen en bijkomend of in het boekjaar waarin het geraamd verlies in mindering wordt gebracht van de belastbare basis daarmee rekening moet worden gehouden bij de berekening van de belasting die in de regel als kost dient opgenomen te worden in de overeenstemmende jaarrekening.
+De vraag van boekhoudrechtelijk belang is vooreerst of deze fiscaalrechtelijke tijdelijke reserve[^11] dient geboekt te worden in de met de betrokken boekjaren overeenstemmende jaarrekeningen en bijkomend of in het boekjaar waarin het geraamd verlies in mindering wordt gebracht van de belastbare basis daarmee rekening moet worden gehouden bij de berekening van de belasting die in de regel als kost dient opgenomen te worden in de overeenstemmende jaarrekening.
 
 ### In het boekjaar waarin de belastbare gereserveerde winst wordt verminderd
 
@@ -111,20 +106,16 @@ Deze benadering kadert tevens in het voorzichtigheidsprincipe ingeschreven in he
 
 Het ingenomen standpunt impliceert dat jaarrekeningen over het boekjaar voorafgaand aan het boekjaar waarin het verlies wordt geleden, niet kunnen worden aangepast. Wat betekent dat de reeds neergelegde jaarrekeningen bij de Balanscentrale, de reeds door de bevoegde algemene vergadering goedgekeurde jaarrekeningen evenals de reeds door het bestuursorgaan met het oog op de goedkeuring door de algemene vergadering vastgestelde jaarrekeningen van de vennootschap, niet dienen gewijzigd te worden. 
 
-### In het boekjaar volgend op datgene waarin de belastbare gereserveerde winst wordt verminderd
-
+In het boekjaar volgend op datgene waarin de belastbare gereserveerde winst wordt verminderd
 In het boekjaar volgend op datgene waarin de belastbare gereserveerde winst wordt verminderd zal dan de uiteindelijk verschuldigde vennootschapsbelasting dienen geboekt te worden waarbij de bespaarde belasting zal geboekt worden al dan niet samen met de kost van de hoger uiteengezette tariefsprong en de eventueel verschuldigde afzonderlijke aanslag[^13].
 
-## Voorbeeld 1
+### *Voorbeeld 1*
 
-Een kleine vennootschap met een boekjaar gelijk aan het kalenderjaar, belast aan het gemene tarief[^14], vrijgesteld van het verrichten van voorafbetalingen[^15]
- en met voor boekjaar 2019 een belastbare grondslag van 2 mln. EUR, raamt voor het boekjaar 2020 een verlies van 1,2 mln. EUR en brengt dit bedrag ook in mindering van de belastbare gereserveerde winst van aanslagjaar 2020. Het effectief gerealiseerde verlies in boekjaar 2020, aanslagjaar 2021 bedraagt 1 mln. EUR.
+Een kleine vennootschap met een boekjaar gelijk aan het kalenderjaar, belast aan het gemene tarief[^14], vrijgesteld van het verrichten van voorafbetalingen[^15] en met voor boekjaar 2019 een belastbare grondslag van 2 mln. EUR, raamt voor het boekjaar 2020 een verlies van 1,2 mln. EUR en brengt dit bedrag ook in mindering van de belastbare gereserveerde winst van aanslagjaar 2020. Het effectief gerealiseerde verlies in boekjaar 2020, aanslagjaar 2021 bedraagt 1 mln. EUR.
 
 Boekjaar 2019 
 
 - Bij de raming van de belastingschuld voor het boekjaar 2019
-
- [^16]
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
@@ -134,8 +125,6 @@ Boekjaar 2019
 Boekjaar 2020
 
 - Bij ontvangst van het aanslagbiljet aanslagjaar 2020
-
- [^17]
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
@@ -144,24 +133,19 @@ Boekjaar 2020
 
 - Bij raming belastingschuld voor het boekjaar 2020
 
- [^18][^19]
-
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 4500 | Geraamde Belgische winstbelastingen | 354.960,00 | |
 | aan | 4500 | Geraamde Belgische winstbelastingen | | 111.676,64 |
 | | 7711 | Regularisering geraamde Belgische winstbelastingen | 243.283,36 | |
 
-## Voorbeeld 2
+### *Voorbeeld 2*
 
-Een kleine vennootschap met een boekjaar gelijk aan het kalenderjaar, belast aan het gemene tarief[^20], vrijgesteld van het verrichten van voorafbetalingen[^21]
- en met voor boekjaar 2019 een belastbare grondslag van 2 mln. EUR, raamt voor het boekjaar 2020 een verlies van 0,8 mln. EUR en brengt dit bedrag ook in mindering van de belastbare gereserveerde winst van aanslagjaar 2020. Het effectief gerealiseerde verlies in boekjaar 2020, aanslagjaar 2021 bedraagt 1 mln. EUR.
+Een kleine vennootschap met een boekjaar gelijk aan het kalenderjaar, belast aan het gemene tarief[^20], vrijgesteld van het verrichten van voorafbetalingen[^21] en met voor boekjaar 2019 een belastbare grondslag van 2 mln. EUR, raamt voor het boekjaar 2020 een verlies van 0,8 mln. EUR en brengt dit bedrag ook in mindering van de belastbare gereserveerde winst van aanslagjaar 2020. Het effectief gerealiseerde verlies in boekjaar 2020, aanslagjaar 2021 bedraagt 1 mln. EUR.
 
 Boekjaar 2019 
 
 - Bij de raming van de belastingschuld voor het boekjaar 2019
-
- [^22]
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
@@ -172,16 +156,12 @@ Boekjaar 2020
 
 - Bij ontvangst van het aanslagbiljet aanslagjaar 2020
 
- [^23]
-
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 4500 | Geraamde Belgische winstbelastingen | 354.960,00 | |
 | aan | 4520 | Te betalen Belgische winstbelasting | | 354.960,00 |
 
 - Bij raming belastingschuld voor het boekjaar 2020
-
- [^24]
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|

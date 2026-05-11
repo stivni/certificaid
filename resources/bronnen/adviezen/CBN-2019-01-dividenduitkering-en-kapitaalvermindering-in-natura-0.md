@@ -1,6 +1,43 @@
 ---
-nummer: CBN-advies 2019/01
+bron: https://www.cbn-cnc.be/nl/adviezen/dividenduitkering-en-kapitaalvermindering-in-natura-0
 datum: 2019-03-12
+gerelateerde_adviezen:
+  - datum: '2019-11-21'
+    titel: Pro rata-regel van artikel 18 WIB 92 bij terugbetaling van inbreng / kapitaalvermindering
+    url: https://www.cbn-cnc.be/nl/adviezen/pro-rata-regel-van-artikel-18-wib-92-bij-terugbetaling-van-inbreng-kapitaalvermindering
+nummer: CBN-advies 2019/01
+provenance:
+  generated_at: '2026-05-11T13:05:08Z'
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/dividenduitkering-en-kapitaalvermindering-in-natura-0
+      sha256: 2a27321595711abf20073bd1a09dce17d12ae08358e12ff0a6bf1872bd2a8f58
+      version:
+  stale: false
+  stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
+  trust:
+    confirmed_at: '2026-05-08T21:31:12Z'
+    confirmed_by: human
+    layer1:
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:30Z'
+      heading_count: 19
+      max_section_chars: 11666
+      file_size_chars: 25125
+      flags: []
+    layer2:
+      agent:
+      concrete_problemen: []
+      rationale:
+      run_at:
+      status: not_run
+    rationale: 'Herscraped na fix select_title(): gecombineerde H1 (COMMISSIE + titel) correct gesplitst. Inhoud ongewijzigd t.o.v. vorig vertrouwd verdict. Laag 1 pass (of benign max_section warn).'
+    status: trusted
 themas:
   - dividend
   - uitkering
@@ -18,43 +55,6 @@ themas:
   - inbetalinggeving
   - uitbreng
   - aanschaffingswaarde
-bron: https://www.cbn-cnc.be/nl/adviezen/dividenduitkering-en-kapitaalvermindering-in-natura-0
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/dividenduitkering-en-kapitaalvermindering-in-natura-0
-      sha256: 2a27321595711abf20073bd1a09dce17d12ae08358e12ff0a6bf1872bd2a8f58
-      version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T21:30:14Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: trusted
-    confirmed_at: '2026-05-08T21:31:12Z'
-    confirmed_by: human
-    rationale: 'Herscraped na fix select_title(): gecombineerde H1 (COMMISSIE + titel) correct gesplitst. Inhoud ongewijzigd t.o.v. vorig vertrouwd verdict. Laag 1 pass (of benign max_section warn).'
-    layer1:
-      status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 19
-      max_section_chars: 11742
-      file_size_chars: 25226
-      flags: []
-    layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
-      concrete_problemen: []
-gerelateerde_adviezen:
-  - titel: Pro rata-regel van artikel 18 WIB 92 bij terugbetaling van inbreng / kapitaalvermindering
-    url: https://www.cbn-cnc.be/nl/adviezen/pro-rata-regel-van-artikel-18-wib-92-bij-terugbetaling-van-inbreng-kapitaalvermindering
-    datum: '2019-11-21'
 ---
 
 # CBN-advies 2019/01 – Dividenduitkering en kapitaalvermindering in natura
@@ -74,8 +74,6 @@ CBN-advies 2019/01 – Dividenduitkering en kapitaalvermindering in natura
   4. Voorbeeld 4 
   5. Voorbeeld 5 
 
--- Voorbeeld 1-- Voorbeeld 2-- Voorbeeld 3-- Voorbeeld 4-- Voorbeeld 5 
-
 ## Algemeen
 
 In onderhavig advies verduidelijkt de Commissie de boekhoudkundige verwerking van een uitkering of toekenning in natura. Het advies heeft betrekking op uitkeringen die het gevolg zijn van een toekenning van een dividend of van een kapitaalvermindering. Bij dat laatste wordt een onderscheid gemaakt naargelang de terugbetaling van kapitaal het gevolg is van een gewone kapitaalvermindering versus het gevolg is van de gehele of gedeeltelijke verdeling van het eigen vermogen. 
@@ -87,13 +85,12 @@ Een schuldeiser kan niet verplicht worden om een andere zaak aan te nemen dan di
 
 Een schuld aan een aandeelhouder die is ontstaan ingevolge een dividendtoekenning of een kapitaalvermindering in contanten kan bijgevolg rechtsgeldig worden ingelost door de toekenning van een andere zaak dan diegene waartoe de algemene vergadering heeft besloten mits de betrokken aandeelhouder deze betaling in natura aanvaardt. Dergelijke inbetalinggeving behoort tot de uitvoeringsmodaliteiten, die behoren tot de bevoegdheden van het bestuursorgaan, van het door het bevoegde orgaan genomen besluit tot dividendtoekenning of kapitaalvermindering. De Commissie heeft in het verleden reeds een advies uitgebracht over de boekhoudkundige verwerking van een inbetalinggeving.[^3] 
 
-Vennootschapsrechtelijk is de situatie waarbij het bevoegde vennootschapsorgaan beslist tot een dividenduitkering in natura of een kapitaalvermindering in natura, minder vanzelfsprekend. In wat volgt gaat de Commissie er vanuit dat, wanneer sprake is van een toekenning van een dividend in natura of van een kapitaalvermindering[^4]
- in natura, alle begunstigden van de toekenning of kapitaalvermindering unaniem hebben ingestemd met de wijze van toekenning of toebedeling. 
+Vennootschapsrechtelijk is de situatie waarbij het bevoegde vennootschapsorgaan beslist tot een dividenduitkering in natura of een kapitaalvermindering in natura, minder vanzelfsprekend. In wat volgt gaat de Commissie er vanuit dat, wanneer sprake is van een toekenning van een dividend in natura of van een kapitaalvermindering[^4] in natura, alle begunstigden van de toekenning of kapitaalvermindering unaniem hebben ingestemd met de wijze van toekenning of toebedeling. 
 
 ## Dividenduitkering in natura
 
 De jaarrekening van een vennootschap wordt opgesteld rekening houdend met de beslissingen tot bestemming van het te bestemmen resultaat.[^5]
- Indien de voorgestelde bestemming van het resultaat ook een uitkering van dividenden omvat, dan worden deze dividenden op de balans geboekt in de rubriek IX.F *Overige schulden*. Voor dergelijke schulden uit de bestemming van het resultaat worden in de minimumindeling van het algemeen rekeningstelsel afzonderlijke rekeningen voorzien (rekening 47 *Schulden uit de bestemming van het resultaat*). De bedragen op deze rekeningen worden geboekt voor hun bruto-bedrag, dus zonder aftrek van belastingen of voorheffingen.[^6]
+ Indien de voorgestelde bestemming van het resultaat ook een uitkering van dividenden omvat, dan worden deze dividenden op de balans geboekt in de rubriek IX.F *Overige schulden*. Voor dergelijke schulden uit de bestemming van het resultaat worden in de minimumindeling van het algemeen rekeningstelsel afzonderlijke rekeningen voorzien (rekening 47* Schulden uit de bestemming van het resultaat*). De bedragen op deze rekeningen worden geboekt voor hun bruto-bedrag, dus zonder aftrek van belastingen of voorheffingen.[^6]
  Indien het bevoegde orgaan een dividend in natura heeft toegekend moet voor de boekhoudkundige verwerking bij de resultaatbestemming dit toegekende dividend worden gewaardeerd teneinde de jaarrekening op te stellen. 
 
 Wat betreft de boekhoudkundige verwerking van interimdividenden en tussentijdse dividenden wordt verwezen naar het CBN-advies 2009/1 - *Interimdividend versus tussentijds dividend*.
@@ -112,7 +109,7 @@ In hoofde van de verkrijgende onderneming stemt de aanschaffingswaarde van het o
 
 ## Kapitaalvermindering in natura
 
-In het CBN-advies 151/2 – *Toerekening door de aandeelhouder van een terugbetaling van kapitaal of een uitgiftepremie of van een uitkering van reserves*, behandelt de Commissie de boekhoudkundige verwerking van een kapitaalvermindering in hoofde van een onderneming-aandeelhouder. In voormeld advies wordt een onderscheid gemaakt naargelang de aangehouden aandelen kwalificeren als geldbelegging (rekening 51 *Aandelen*) dan wel als deelneming (rekening 28 *Financiële vaste activa*).
+In het CBN-advies 151/2 – *Toerekening door de aandeelhouder van een terugbetaling van kapitaal of een uitgiftepremie of van een uitkering van reserves*, behandelt de Commissie de boekhoudkundige verwerking van een kapitaalvermindering in hoofde van een onderneming-aandeelhouder. In voormeld advies wordt een onderscheid gemaakt naargelang de aangehouden aandelen kwalificeren als geldbelegging (rekening 51 *Aandelen*) dan wel als deelneming (rekening 28* Financiële vaste activa*).
 
 Indien de aandelen in hoofde van de aandeelhouder als geldbelegging kwalificeren, wordt, ongeacht de fiscale kwalificatie, het uit een kapitaalvermindering ontvangen bedrag in mindering geboekt van de aanschaffingswaarde van deze aandelen. Indien het ontvangen bedrag van de kapitaalvermindering de boekwaarde zou overstijgen, wordt het saldo als een financiële opbrengst geboekt.
 
@@ -120,8 +117,7 @@ Indien de aandelen in hoofde van de aandeelhouder als deelneming kwalificeren, g
 
 Indien een terugbetaling van kapitaal niet in contanten plaatsvindt maar in goederen in natura kan ook hier het onderscheid worden gemaakt tussen een inbetalinggeving en een werkelijke kapitaalvermindering in natura. Zoals reeds hoger werd toegelicht is het onderscheid tussen beiden niet zo relevant voor de boekhoudkundige verwerking. Bij een inbetalinggeving vindt de waardering van het toegekende goed plaats op het ogenblik dat ingestemd wordt met dergelijke inbetalinggeving. Bij een kapitaalvermindering in natura vindt de waardebepaling plaats op het moment van toekenning van het goed. 
 
-De Commissie merkt op dat wanneer de kapitaalvermindering fiscaal geheel of gedeeltelijk aan te merken is als een dividend er gebeurlijk[^10]
- roerende voorheffing moet worden ingehouden. Wanneer de vennootschap beslist deze roerende voorheffing, na brutering[^11], zelf ten laste te nemen, wordt deze geboekt op de rekening 64 *Andere bedrijfskosten*.
+De Commissie merkt op dat wanneer de kapitaalvermindering fiscaal geheel of gedeeltelijk aan te merken is als een dividend er gebeurlijk[^10] roerende voorheffing moet worden ingehouden. Wanneer de vennootschap beslist deze roerende voorheffing, na brutering[^11], zelf ten laste te nemen, wordt deze geboekt op de rekening 64 *Andere bedrijfskosten*.
 
 In hoofde van de uitkerende vennootschap wordt de meerwaarde of de minderwaarde op het toegekende goed vastgesteld en gerealiseerd op het moment van de kapitaalvermindering, in casu de beslissingsdatum van het bevoegde orgaan en dus in functie van de waarde van het toegekende goed op dat ogenblik of op datum van de inbetalinggeving. De Commissie merkt op dat wanneer er nog een tijd verloopt tussen de formele beslissing tot kapitaalvermindering en de effectieve terugbetaling, bijvoorbeeld in het kader van de verplichte wachtperiode van twee maanden vermeld in de artikelen 317, 426 en 613 W.Venn., dit geen invloed heeft op de vaststelling van de eventuele meer- of minderwaarde die gerealiseerd wordt op het toegekende goed.
 
@@ -137,8 +133,7 @@ In hoofde van de vennootschap in vereffening wordt een voorschot op de verdeling
 
 Indien de toebedeling van het goed in natura plaatsvindt bij de sluiting van de vereffening dan wordt de realisatie van de meer- of minderwaarde op het toegekende goed boekhoudkundig uitgedrukt op het ogenblik van de sluiting van de vereffening. De Commissie merkt hierbij op dat wel nog een jaarrekening moet worden opgesteld met betrekking tot het boekjaar dat wordt afgesloten door de sluiting van de vereffening doch dat deze jaarrekening niet meer moet worden neergelegd bij de Nationale Bank van België.[^14] 
 
-In hoofde van de onderneming-aandeelhouder is de aanschaffingswaarde van het ontvangen goed de waarde die wordt vastgesteld op het moment van de toekenning van het goed. In principe[^15]
- wordt de ontvangen uitkering afgeboekt van de boekwaarde van de aandelen. Ingeval dit bedrag de boekwaarde van de aandelen overschrijdt, dan moet dat bedrag ten belope van deze overschrijding in resultaat worden genomen. 
+In hoofde van de onderneming-aandeelhouder is de aanschaffingswaarde van het ontvangen goed de waarde die wordt vastgesteld op het moment van de toekenning van het goed. In principe[^15] wordt de ontvangen uitkering afgeboekt van de boekwaarde van de aandelen. Ingeval dit bedrag de boekwaarde van de aandelen overschrijdt, dan moet dat bedrag ten belope van deze overschrijding in resultaat worden genomen. 
 
 ## Voorbeelden[^16] 
 
@@ -224,8 +219,7 @@ Bij toekenning of betaalbaarstelling (20/03/N+1)
 
 ### Voorbeeld 3
 
-Op 20/03/N+1 beslist de jaarlijkse algemene vergadering van een naamloze vennootschap om een aandelenportefeuille (een participatie in een dochtervennootschap) die de vennootschap reeds jaren in eigendom heeft, uit te keren. Deze beslissing maakt deel uit van de resultaatverwerking van het boekjaar dat eindigt op 31/12/N. In dit voorbeeld gaan we er van uit dat de vennootschap een dermate groot netto-actief heeft dat met de dividenduitkering geen schending van artikel 617 W.Venn. plaatsvindt. De aandelenportefeuille heeft een aanschaffingswaarde van 20.000 euro. De vennootschap heeft geen waardeverminderingen noch herwaarderingswaarden geboekt op deze aandelenportefeuille zodat de boekwaarde gelijk is aan de aanschaffingswaarde. Op 31/12/N is deze portefeuille 110.000 euro waard. Op 20/03/N+1 is de portefeuille 97.500 euro waard. Het tarief van de roerende voorheffing bedraagt 30 procent. De vennootschap vraagt, in toepassing van de fiscale regels dienaangaande,[^17]
- aan de aandeelhouder die de toekenning in natura verkrijgt om het bedrag van de verschuldigde roerende voorheffing te storten op de bankrekening van de vennootschap.
+Op 20/03/N+1 beslist de jaarlijkse algemene vergadering van een naamloze vennootschap om een aandelenportefeuille (een participatie in een dochtervennootschap) die de vennootschap reeds jaren in eigendom heeft, uit te keren. Deze beslissing maakt deel uit van de resultaatverwerking van het boekjaar dat eindigt op 31/12/N. In dit voorbeeld gaan we er van uit dat de vennootschap een dermate groot netto-actief heeft dat met de dividenduitkering geen schending van artikel 617 W.Venn. plaatsvindt. De aandelenportefeuille heeft een aanschaffingswaarde van 20.000 euro. De vennootschap heeft geen waardeverminderingen noch herwaarderingswaarden geboekt op deze aandelenportefeuille zodat de boekwaarde gelijk is aan de aanschaffingswaarde. Op 31/12/N is deze portefeuille 110.000 euro waard. Op 20/03/N+1 is de portefeuille 97.500 euro waard. Het tarief van de roerende voorheffing bedraagt 30 procent. De vennootschap vraagt, in toepassing van de fiscale regels dienaangaande,[^17] aan de aandeelhouder die de toekenning in natura verkrijgt om het bedrag van de verschuldigde roerende voorheffing te storten op de bankrekening van de vennootschap.
 
 ## Boekingen in hoofde van de uitkerende vennootschap
 
@@ -245,8 +239,6 @@ Toekenning of betaalbaarstelling (20/03/N+1)
 | | 7631 | Meerwaarden op de realisatie van financiële vaste activa | 77.500 | |
 
 Ontvangst bedrag roerende voorheffing
-
- [^18]
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
@@ -278,8 +270,6 @@ Aangezien het terrein wordt uitgekeerd aan de aandeelhouder wordt dit terrein ui
 
 Bij de beslissing van de algemene vergadering
 
- [^20]
-
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 220 | Terreinen - Aanschaffingswaarde | 10.000 | |
@@ -287,8 +277,7 @@ Bij de beslissing van de algemene vergadering
 
 ### Voorbeeld 5
 
-Een patrimoniumvennootschap met twee onroerende goederen (terreinen) wordt ontbonden op 10/04/N. Op 30/04/N wordt aan de aandeelhouder een voorschot in natura toegekend in de vorm van de toekenning van één van beide terreinen. Dit terrein heeft een boekwaarde van 1.000 euro en een waarde van 3.400 euro op 30/04/N. De vennootschap heeft bij het begin van het boekjaar N geen fiscaal werkelijk gestort kapitaal zodat alle uitkeringen fiscaal kwalificeren als een dividend. Het tarief van 30 procent roerende voorheffing is van toepassing. De vennootschap vraagt, in toepassing van de fiscale regels dienaangaande,[^21]
- aan de aandeelhouder die de toekenning in natura verkrijgt om het bedrag van de verschuldigde roerende voorheffing te storten op de bankrekening van de vennootschap.
+Een patrimoniumvennootschap met twee onroerende goederen (terreinen) wordt ontbonden op 10/04/N. Op 30/04/N wordt aan de aandeelhouder een voorschot in natura toegekend in de vorm van de toekenning van één van beide terreinen. Dit terrein heeft een boekwaarde van 1.000 euro en een waarde van 3.400 euro op 30/04/N. De vennootschap heeft bij het begin van het boekjaar N geen fiscaal werkelijk gestort kapitaal zodat alle uitkeringen fiscaal kwalificeren als een dividend. Het tarief van 30 procent roerende voorheffing is van toepassing. De vennootschap vraagt, in toepassing van de fiscale regels dienaangaande,[^21] aan de aandeelhouder die de toekenning in natura verkrijgt om het bedrag van de verschuldigde roerende voorheffing te storten op de bankrekening van de vennootschap.
 
 ## Boekingen in hoofde van de ontbonden vennootschap
 
@@ -299,8 +288,6 @@ Boekingen op 30/04/N
 | | 19 | Voorschot aan de vennoten op de verdeling van het netto-actief (-) | 3.400 | |
 | aan | 220 | Terreinen – Aanschaffingswaarde | | 1.000 |
 | | 763 | Meerwaarden op de realisatie van vaste activa | 2.400 | |
-
-[^22]
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|

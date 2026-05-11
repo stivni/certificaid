@@ -1,71 +1,71 @@
 ---
-nummer: CBN-advies 131/2
-datum: 1985-09-01
-themas:
-  - belastingvrije reserves
-  - onttrekking aan de belastingvrije reserves
-  - toevoeging aan de belastingvrije reserves
 bron: https://www.cbn-cnc.be/nl/adviezen/toevoegingen-en-onttrekkingen-boekhoudkundige-verwerking
+datum: 1985-09-01
+gerelateerde_adviezen:
+  - datum: '2021-07-12'
+    titel: Boekhoudrechtelijke verwerking van de wederopbouwreserve
+    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudrechtelijke-verwerking-van-de-wederopbouwreserve
+  - datum: '2021-05-12'
+    titel: Invloed van het buitengerechtelijk minnelijk akkoord en de gerechtelijke reorganisatie op de schulden en vorderingen (update)
+    url: https://www.cbn-cnc.be/nl/adviezen/invloed-van-het-buitengerechtelijk-minnelijk-akkoord-en-de-gerechtelijke-reorganisatie-1
+  - datum: '2018-05-30'
+    titel: Tax shelter voor podiumkunsten
+    url: https://www.cbn-cnc.be/nl/adviezen/tax-shelter-voor-podiumkunsten
+  - datum: '2018-03-21'
+    titel: Aftrek voor innovatie-inkomsten
+    url: https://www.cbn-cnc.be/nl/adviezen/aftrek-voor-innovatie-inkomsten
+nummer: CBN-advies 131/2
 provenance:
+  generated_at: '2026-05-11T13:05:06Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/toevoegingen-en-onttrekkingen-boekhoudkundige-verwerking
       sha256: e5d9c1109c84f82c4e79ce025649017333d189c32af26b16f1980baf13296ab2
       version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:34:48Z'
   stale: false
   stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
   trust:
-    status: needs-rework
     confirmed_at: '2026-05-11T12:04:41Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: 'B2 op L64 en L70: heading-hiërarchie springt van H1 direct naar H4 (#### Over de stijving... / #### Over onttrekkingen...) zonder tussenliggende H2/H3 — onnatuurlijk voor mens-geschreven MD. D4 op L60: *Winst (verlies) van het boekjaar* is wél correct gesloten (false positive in checker); geen echt D4-probleem. De B2-sprong is echter reëel.'
     layer1:
       status: pass
-      run_id: 20260511-083333
-      run_at:
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:25Z'
       heading_count: 2
       max_section_chars: 2629
       file_size_chars: 4060
       flags: []
     layer2:
-      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:04:41Z'
-      rationale: 'B2 op L64 en L70: heading-hiërarchie springt van H1 direct naar H4 (#### Over de stijving... / #### Over onttrekkingen...) zonder tussenliggende H2/H3 — onnatuurlijk voor mens-geschreven MD. D4 op L60: *Winst (verlies) van het boekjaar* is wél correct gesloten (false positive in checker); geen echt D4-probleem. De B2-sprong is echter reëel.'
       concrete_problemen:
-        - regel: 64
-          categorie: B2
+        - categorie: B2
+          regel: 64
           type: other
           voorbeeld: '#### Over de stijving van de belastingvrije reserves (H1 → H4, geen H2/H3)'
-        - regel: 70
-          categorie: B2
+        - categorie: B2
+          regel: 70
           type: other
           voorbeeld: '#### Over onttrekkingen aan de belastingvrije reserves (idem)'
-gerelateerde_adviezen:
-  - titel: Boekhoudrechtelijke verwerking van de wederopbouwreserve
-    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudrechtelijke-verwerking-van-de-wederopbouwreserve
-    datum: '2021-07-12'
-  - titel: Invloed van het buitengerechtelijk minnelijk akkoord en de gerechtelijke reorganisatie op de schulden en vorderingen (update)
-    url: https://www.cbn-cnc.be/nl/adviezen/invloed-van-het-buitengerechtelijk-minnelijk-akkoord-en-de-gerechtelijke-reorganisatie-1
-    datum: '2021-05-12'
-  - titel: Tax shelter voor podiumkunsten
-    url: https://www.cbn-cnc.be/nl/adviezen/tax-shelter-voor-podiumkunsten
-    datum: '2018-05-30'
-  - titel: Aftrek voor innovatie-inkomsten
-    url: https://www.cbn-cnc.be/nl/adviezen/aftrek-voor-innovatie-inkomsten
-    datum: '2018-03-21'
+      rationale: 'B2 op L64 en L70: heading-hiërarchie springt van H1 direct naar H4 (#### Over de stijving... / #### Over onttrekkingen...) zonder tussenliggende H2/H3 — onnatuurlijk voor mens-geschreven MD. D4 op L60: *Winst (verlies) van het boekjaar* is wél correct gesloten (false positive in checker); geen echt D4-probleem. De B2-sprong is echter reëel.'
+      run_at: '2026-05-11T12:04:41Z'
+      status: needs-rework
+    rationale: 'B2 op L64 en L70: heading-hiërarchie springt van H1 direct naar H4 (#### Over de stijving... / #### Over onttrekkingen...) zonder tussenliggende H2/H3 — onnatuurlijk voor mens-geschreven MD. D4 op L60: *Winst (verlies) van het boekjaar* is wél correct gesloten (false positive in checker); geen echt D4-probleem. De B2-sprong is echter reëel.'
+    status: needs-rework
+themas:
+  - belastingvrije reserves
+  - onttrekking aan de belastingvrije reserves
+  - toevoeging aan de belastingvrije reserves
 ---
 
 # CBN-advies 131/2 - Toevoegingen en onttrekkingen - Boekhoudkundige verwerking
 
 Krachtens het koninklijk besluit van 8 oktober 1976 moeten belastingvrije reserves, dat zijn de gerealiseerde meerwaarden en de winsten die belastingvrij zijn indien ze in het vermogen van de onderneming blijven, in een afzonderlijke rubriek op de passiefzijde van de balans worden geboekt. 
 
-Het schema van de resultatenrekening bevat, onder de rubriek *Winst (verlies) van het boekjaar*, een speciale rubriek *Overboeking naar de belastingvrije reserves*. Daarin opgenomen bedragen worden afgetrokken van het bedrag van de winst (het verlies) van het boekjaar om de te bestemmen winst (het te verwerken verlies) vast te stellen. 
+Het schema van de resultatenrekening bevat, onder de rubriek *Winst (verlies) van het boekjaar*, een speciale rubriek* Overboeking naar de belastingvrije reserves*. Daarin opgenomen bedragen worden afgetrokken van het bedrag van de winst (het verlies) van het boekjaar om de te bestemmen winst (het te verwerken verlies) vast te stellen. 
 
 In dit verband rezen twee vragen : 
 

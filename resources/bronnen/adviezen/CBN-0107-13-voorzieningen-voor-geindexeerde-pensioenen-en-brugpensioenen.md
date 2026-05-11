@@ -1,6 +1,39 @@
 ---
-nummer: CBN-advies 107/13
+bron: https://www.cbn-cnc.be/nl/adviezen/voorzieningen-voor-geindexeerde-pensioenen-en-brugpensioenen
 datum: 1993-02-01
+nummer: CBN-advies 107/13
+provenance:
+  generated_at: '2026-05-11T13:05:05Z'
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/voorzieningen-voor-geindexeerde-pensioenen-en-brugpensioenen
+      sha256: 07c6349b2dff4577463d3bc6f20e24e63b681e1f854709296f100561a7a5fc1c
+      version:
+  stale: false
+  stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
+  trust:
+    confirmed_at: '2026-05-11T11:57:45Z'
+    confirmed_by: subagent-sonnet-4-6
+    layer1:
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:24Z'
+      heading_count: 0
+      max_section_chars: 2777
+      file_size_chars: 2777
+      flags: []
+    layer2:
+      agent: subagent-sonnet-4-6
+      concrete_problemen: []
+      rationale: 'Laag-1 pass (2777 chars). Geen extractie-artefacten: prose vloeit correct, geen gebroken footnote-regels, geen HTML-entities, geen unicode-problemen. Italic correct op *bis*. Footnote op regel 68 heeft omvangrijke inhoud (3 internationale normen) maar is correct opgemaakt. Inhoud inhoudelijk compleet.'
+      run_at: '2026-05-11T11:57:45Z'
+      status: trusted
+    rationale: 'Laag-1 pass (2777 chars). Geen extractie-artefacten: prose vloeit correct, geen gebroken footnote-regels, geen HTML-entities, geen unicode-problemen. Italic correct op *bis*. Footnote op regel 68 heeft omvangrijke inhoud (3 internationale normen) maar is correct opgemaakt. Inhoud inhoudelijk compleet.'
+    status: trusted
 themas:
   - actuele waarde
   - brugpensioen
@@ -16,39 +49,6 @@ themas:
   - voorzieningen voor pensioenen
   - waardering
   - waardering tegen actuele waarde
-bron: https://www.cbn-cnc.be/nl/adviezen/voorzieningen-voor-geindexeerde-pensioenen-en-brugpensioenen
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/voorzieningen-voor-geindexeerde-pensioenen-en-brugpensioenen
-      sha256: 07c6349b2dff4577463d3bc6f20e24e63b681e1f854709296f100561a7a5fc1c
-      version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:34:02Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: trusted
-    confirmed_at: '2026-05-11T11:57:45Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: 'Laag-1 pass (2777 chars). Geen extractie-artefacten: prose vloeit correct, geen gebroken footnote-regels, geen HTML-entities, geen unicode-problemen. Italic correct op *bis*. Footnote op regel 68 heeft omvangrijke inhoud (3 internationale normen) maar is correct opgemaakt. Inhoud inhoudelijk compleet.'
-    layer1:
-      status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 0
-      max_section_chars: 2777
-      file_size_chars: 2777
-      flags: []
-    layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T11:57:45Z'
-      rationale: 'Laag-1 pass (2777 chars). Geen extractie-artefacten: prose vloeit correct, geen gebroken footnote-regels, geen HTML-entities, geen unicode-problemen. Italic correct op *bis*. Footnote op regel 68 heeft omvangrijke inhoud (3 internationale normen) maar is correct opgemaakt. Inhoud inhoudelijk compleet.'
-      concrete_problemen: []
 ---
 
 # CBN-advies 107/13 - Voorzieningen voor geïndexeerde pensioenen en brugpensioenen

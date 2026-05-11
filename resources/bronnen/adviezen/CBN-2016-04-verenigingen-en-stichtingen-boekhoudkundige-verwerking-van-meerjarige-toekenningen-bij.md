@@ -1,6 +1,52 @@
 ---
-nummer: CBN-advies 2016/4
+bron: https://www.cbn-cnc.be/nl/adviezen/verenigingen-en-stichtingen-boekhoudkundige-verwerking-van-meerjarige-toekenningen-bij
 datum: 2016-04-13
+gerelateerde_adviezen:
+  - datum: '2020-09-17'
+    titel: Schenkingen en legaten voor VZW’s, IVZW’s en stichtingen die een dubbele boekhouding voeren
+    url: https://www.cbn-cnc.be/nl/adviezen/schenkingen-en-legaten-voor-vzws-ivzws-en-stichtingen-die-een-dubbele-boekhouding-voeren
+  - datum: '2018-12-10'
+    titel: Duolegaat – Vereniging en stichting
+    url: https://www.cbn-cnc.be/nl/adviezen/duolegaat-vereniging-en-stichting
+  - datum: '2010-11-10'
+    titel: Boekhoudkundige verwerking van subsidies, schenkingen en legaten in natura in de jaarrekening van begunstigde grote en zeer grote verenigingen en stichtingen
+    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-subsidies-schenkingen-en-legaten-in-natura-in-de
+  - datum: '2010-11-10'
+    titel: Boekhoudkundige verwerking van subsidies, schenkingen en legaten, toegekend in contanten, in de jaarrekening van begunstigde grote en zeer grote verenigingen en stichtingen
+    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-subsidies-schenkingen-en-legaten-toegekend-in-contanten-in
+nummer: CBN-advies 2016/4
+provenance:
+  generated_at: '2026-05-11T13:05:08Z'
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/verenigingen-en-stichtingen-boekhoudkundige-verwerking-van-meerjarige-toekenningen-bij
+      sha256: b5b6831d4910ee12494fe88b705196852c0afd9d02d642847e82d5fe4b6e5783
+      version:
+  stale: false
+  stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
+  trust:
+    confirmed_at:
+    confirmed_by:
+    layer1:
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:29Z'
+      heading_count: 3
+      max_section_chars: 3489
+      file_size_chars: 7917
+      flags: []
+    layer2:
+      agent:
+      concrete_problemen: []
+      rationale:
+      run_at:
+      status: not_run
+    rationale: 'Trust gereset 2026-05-11: re-scrape met scraper-fixes, content-diff > 5%'
+    status: unreviewed
 themas:
   - legaat
   - meerjarige toekenningen
@@ -9,73 +55,13 @@ themas:
   - subsidies
   - vereniging zonder winstoogmerk
   - vzw
-bron: https://www.cbn-cnc.be/nl/adviezen/verenigingen-en-stichtingen-boekhoudkundige-verwerking-van-meerjarige-toekenningen-bij
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/verenigingen-en-stichtingen-boekhoudkundige-verwerking-van-meerjarige-toekenningen-bij
-      sha256: b5b6831d4910ee12494fe88b705196852c0afd9d02d642847e82d5fe4b6e5783
-      version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:36:54Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T12:16:34Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "B3+D4: regels 62–66 bevatten drie duplicate #-level headings ('# **COMMISSIE VOOR BOEKHOUDKUNDIGE NORMEN**', '# **CBN-advies 2016/4...** ' en '# **Advies van 13 april 2016**[^1] ****') — de derde heading heeft een ongesloten bold-marker met vier asterisken ('****'). Dit is hetzelfde scrape-patroon als CBN-2016-02. D4: de sluiter '****' op regel 66 is malformed."
-    layer1:
-      status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 3
-      max_section_chars: 3488
-      file_size_chars: 8074
-      flags: []
-    layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:16:34Z'
-      rationale: "B3+D4: regels 62–66 bevatten drie duplicate #-level headings ('# **COMMISSIE VOOR BOEKHOUDKUNDIGE NORMEN**', '# **CBN-advies 2016/4...** ' en '# **Advies van 13 april 2016**[^1] ****') — de derde heading heeft een ongesloten bold-marker met vier asterisken ('****'). Dit is hetzelfde scrape-patroon als CBN-2016-02. D4: de sluiter '****' op regel 66 is malformed."
-      concrete_problemen:
-        - regel: 62
-          categorie: B3
-          type: other
-          voorbeeld: '# **COMMISSIE VOOR BOEKHOUDKUNDIGE NORMEN**'
-        - regel: 64
-          categorie: B3
-          type: other
-          voorbeeld: '# **CBN-advies 2016/4 - Verenigingen en stichtingen...'
-        - regel: 66
-          categorie: D4
-          type: other
-          voorbeeld: '# **Advies van 13 april 2016**[^1] ****'
-gerelateerde_adviezen:
-  - titel: Schenkingen en legaten voor VZW’s, IVZW’s en stichtingen die een dubbele boekhouding voeren
-    url: https://www.cbn-cnc.be/nl/adviezen/schenkingen-en-legaten-voor-vzws-ivzws-en-stichtingen-die-een-dubbele-boekhouding-voeren
-    datum: '2020-09-17'
-  - titel: Duolegaat – Vereniging en stichting
-    url: https://www.cbn-cnc.be/nl/adviezen/duolegaat-vereniging-en-stichting
-    datum: '2018-12-10'
-  - titel: Boekhoudkundige verwerking van subsidies, schenkingen en legaten in natura in de jaarrekening van begunstigde grote en zeer grote verenigingen en stichtingen
-    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-subsidies-schenkingen-en-legaten-in-natura-in-de
-    datum: '2010-11-10'
-  - titel: Boekhoudkundige verwerking van subsidies, schenkingen en legaten, toegekend in contanten, in de jaarrekening van begunstigde grote en zeer grote verenigingen en stichtingen
-    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-subsidies-schenkingen-en-legaten-toegekend-in-contanten-in
-    datum: '2010-11-10'
 ---
-
-# CBN-advies 2016/4 - Verenigingen en stichtingen: boekhoudkundige verwerking van meerjarige toekenningen bij grote en zeer grote verenigingen en stichtingen
 
 # **COMMISSIE VOOR BOEKHOUDKUNDIGE NORMEN**
 
 # **CBN-advies 2016/4 - Verenigingen en stichtingen: boekhoudkundige verwerking van meerjarige toekenningen bij grote en zeer grote verenigingen en stichtingen**
 
-# **Advies van 13 april 2016**[^1] ****
+# **Advies van 13 april 2016**[^1]** **
 
 ## Inleiding
 
@@ -83,7 +69,8 @@ De aan de Commissie voorgelegde vraag betreft het geval waarin een vereniging of
 
 ## Boekhoudkundige verwerking in hoofde van de ontvangende vereniging of stichting
 
-Met betrekking tot schenkingen en subsidies merkt de Commissie voorafgaand op dat het verschil tussen een schenking en een subsidie niet steeds duidelijk is, aangezien deze juridische begrippen bij verenigingen en stichtingen zeer dicht bij elkaar aanleunen.[^2] Voor de boekhoudkundige verwerking is dit onderscheid niet relevant. 
+Met betrekking tot schenkingen en subsidies merkt de Commissie voorafgaand op dat het verschil tussen een schenking en een subsidie niet steeds duidelijk is, aangezien deze juridische begrippen bij verenigingen en stichtingen zeer dicht bij elkaar aanleunen.[^2]
+ Voor de boekhoudkundige verwerking is dit onderscheid niet relevant. 
 
 De Commissie wenst vooreerst te benadrukken dat de aard en de boekhoudkundige verwerking van de hieronder omschreven meerjarige toekenningen fundamenteel verschilt van het geval waarin er sprake is van een loutere belofte tot toekenning. Wat schenkingen betreft, vloeit uit artikel 932 B.W. voort dat een loutere belofte tot schenking of een louter aanbod tot schenking, zelfs indien vastgelegd in een notariële akte, geen schenking is: ze kan steeds worden ingetrokken door de “schenker”, zelfs stilzwijgend, en heeft geen enkele uitwerking in geval van overlijden of onbekwaamheid van de “schenker”. Zolang er geen wilsovereenstemming is tussen de partijen, is er geen schenking. Op boekhoudkundig vlak impliceert dit dat het ontstaan van een aanbod of belofte tot schenking geen aanleiding zal geven tot het boeken van een opbrengst in hoofde van de begunstigde vereniging of stichting.
 
@@ -103,7 +90,8 @@ In het aan de Commissie ter advies voorgelegde geval, gaat de vereniging of stic
 
 Het komt toe aan het bestuursorgaan van de verstrekkende vereniging of stichting toe om in deze gevallen, op basis van de concrete omstandigheden en de kenmerken van het contract, te oordelen over het ontstaan van de schuld. 
 
-In geval de bedragen slechts verschuldigd zijn zodra een opschortende voorwaarde is vervuld, moet er worden vanuit gegaan dat, zolang deze voorwaarde niet is vervuld, er geen aanleiding bestaat tot het boeken van een kost met een overeenstemmende schuld of een voorziening op het passief.[^6] Wel moet met toepassing van artikel 25, §3 KB W.Venn. in de toelichting een passende vermelding worden opgenomen.[^7] Is daarentegen de voorwaarde vervuld, dan moet de daardoor ontstane schuld ook als zodanig worden geboekt.[^8] Op die manier zal een toekenning die afhankelijk is van het jaarlijks vervuld zijn van een bepaalde opschortende voorwaarde, jaar na jaar als schuld geboekt worden.
+In geval de bedragen slechts verschuldigd zijn zodra een opschortende voorwaarde is vervuld, moet er worden vanuit gegaan dat, zolang deze voorwaarde niet is vervuld, er geen aanleiding bestaat tot het boeken van een kost met een overeenstemmende schuld of een voorziening op het passief.[^6] Wel moet met toepassing van artikel 25, §3 KB W.Venn. in de toelichting een passende vermelding worden opgenomen.[^7] Is daarentegen de voorwaarde vervuld, dan moet de daardoor ontstane schuld ook als zodanig worden geboekt.[^8]
+ Op die manier zal een toekenning die afhankelijk is van het jaarlijks vervuld zijn van een bepaalde opschortende voorwaarde, jaar na jaar als schuld geboekt worden.
 
 In geval het een schuld betreft die is aangegaan onder ontbindende voorwaarde, moet ondanks het bestaan van dergelijke voorwaarde de schuld onmiddellijk geboekt worden. 
 

@@ -1,51 +1,51 @@
 ---
-nummer: CBN-advies 2014/7
+bron: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-subsidies-waarvan-de-toekenning-niet-gegarandeerd-is
 datum: 2014-05-14
+gerelateerde_adviezen:
+  - datum: '2014-03-12'
+    titel: De boekhoudkundige verwerking van ontvangen overheidssteun in de vorm van een terugvorderbaar voorschot
+    url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-ontvangen-overheidssteun-in-de-vorm-van-een
+  - datum: '2011-05-04'
+    titel: Overheidssubsidies
+    url: https://www.cbn-cnc.be/nl/adviezen/overheidssubsidies
+nummer: CBN-advies 2014/7
+provenance:
+  generated_at: '2026-05-11T13:05:08Z'
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-subsidies-waarvan-de-toekenning-niet-gegarandeerd-is
+      sha256: 129dce5ffd8bae1274c5c90703f3a21c45b14d1e92c28e39261279fbedb589d9
+      version:
+  stale: false
+  stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
+  trust:
+    confirmed_at: '2026-05-11T12:16:34Z'
+    confirmed_by: subagent-sonnet-4-6
+    layer1:
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:29Z'
+      heading_count: 2
+      max_section_chars: 4325
+      file_size_chars: 7753
+      flags: []
+    layer2:
+      agent: subagent-sonnet-4-6
+      concrete_problemen: []
+      rationale: 2 H2-secties, geen extractie-artefacten, footnotes correct gedefinieerd, tekst leest als mens-geschreven markdown. Inhoudelijk volledig advies met correcte verwijzingen naar andere CBN-adviezen.
+      run_at: '2026-05-11T12:16:34Z'
+      status: trusted
+    rationale: 2 H2-secties, geen extractie-artefacten, footnotes correct gedefinieerd, tekst leest als mens-geschreven markdown. Inhoudelijk volledig advies met correcte verwijzingen naar andere CBN-adviezen.
+    status: trusted
 themas:
   - overheidssteun
   - eventuele rechten
   - subsidies
   - overheidssubsidies
-bron: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-subsidies-waarvan-de-toekenning-niet-gegarandeerd-is
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-subsidies-waarvan-de-toekenning-niet-gegarandeerd-is
-      sha256: 129dce5ffd8bae1274c5c90703f3a21c45b14d1e92c28e39261279fbedb589d9
-      version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:36:46Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: trusted
-    confirmed_at: '2026-05-11T12:16:34Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: 2 H2-secties, geen extractie-artefacten, footnotes correct gedefinieerd, tekst leest als mens-geschreven markdown. Inhoudelijk volledig advies met correcte verwijzingen naar andere CBN-adviezen.
-    layer1:
-      status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 2
-      max_section_chars: 4326
-      file_size_chars: 7755
-      flags: []
-    layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:16:34Z'
-      rationale: 2 H2-secties, geen extractie-artefacten, footnotes correct gedefinieerd, tekst leest als mens-geschreven markdown. Inhoudelijk volledig advies met correcte verwijzingen naar andere CBN-adviezen.
-      concrete_problemen: []
-gerelateerde_adviezen:
-  - titel: De boekhoudkundige verwerking van ontvangen overheidssteun in de vorm van een terugvorderbaar voorschot
-    url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-ontvangen-overheidssteun-in-de-vorm-van-een
-    datum: '2014-03-12'
-  - titel: Overheidssubsidies
-    url: https://www.cbn-cnc.be/nl/adviezen/overheidssubsidies
-    datum: '2011-05-04'
 ---
 
 # CBN-advies 2014/7 – De boekhoudkundige verwerking van subsidies waarvan de toekenning niet gegarandeerd is (eventuele rechten)
@@ -54,8 +54,7 @@ gerelateerde_adviezen:
 
 De Commissie voor Boekhoudkundige Normen werd om advies gevraagd over de boekhoudkundige verwerking van subsidies waarvan de toekenning door de subsidiërende overheid niet gegarandeerd is maar die van dag tot dag worden toegekend.
 
-In het geval dat werd voorgelegd aan de Commissie is de gesubsidieerde vereniging een zorgcentrum en de subsidiërende overheid[^2]
- het RIZIV: volgens de raamovereenkomst kent het RIZIV een subsidie toe aan het centrum per opgevangen dag of verpleegdag.
+In het geval dat werd voorgelegd aan de Commissie is de gesubsidieerde vereniging een zorgcentrum en de subsidiërende overheid[^2] het RIZIV: volgens de raamovereenkomst kent het RIZIV een subsidie toe aan het centrum per opgevangen dag of verpleegdag.
 
 Elke opgevangen dag of verpleegdag wordt deels doorgerekend aan de patiënten (tot het bedrag van hun persoonlijke bijdrage) en de rest aan het RIZIV (via de ziekenfondsen). Het betreft hier dus een exploitatiesubsidie.
 
@@ -77,8 +76,7 @@ Het is meer bepaald de vraag of het bedrag van de subsidie (dat overeenstemt met
 
 In het CBN-advies 2012/17 betreffende de erkenning van opbrengsten en kosten[^3], heeft de CBN verduidelijkt dat wat de opbrengsten betreft, de toepassing van het boekhoudkundig realisatiebeginsel primeert op de toepassing van het boekhoudkundig principe van overeenstemming tussen de opbrengsten en de kosten. Daaruit volgt dat een opbrengst niet eerder kan worden geboekt dan het ogenblik waarop dit mogelijk is volgens het voorzichtigheidsbeginsel en, in het bijzonder, een opbrengst niet kan worden geanticipeerd om de opbrengst te laten overeenstemmen met de bijhorende kosten.
 
-In het CBN-advies 2011/13 over overheidssubsidies[^4]
- wordt bovendien bepaald dat een subsidie niet op datum van de effectieve uitbetaling ervan moet worden ingeschreven, doch wel op het ogenblik waarop het recht van de onderneming op deze subsidie komt vast te staan en de subsidie redelijkerwijze gewaardeerd kan worden. Pas na onderzoek van de aard van de verbintenis van de subsidiërende overheid zal men kunnen uitmaken of het recht op een subsidie al dan niet vaststaat.
+In het CBN-advies 2011/13 over overheidssubsidies[^4] wordt bovendien bepaald dat een subsidie niet op datum van de effectieve uitbetaling ervan moet worden ingeschreven, doch wel op het ogenblik waarop het recht van de onderneming op deze subsidie komt vast te staan en de subsidie redelijkerwijze gewaardeerd kan worden. Pas na onderzoek van de aard van de verbintenis van de subsidiërende overheid zal men kunnen uitmaken of het recht op een subsidie al dan niet vaststaat.
 
 In het onderhavige geval wordt de subsidie jaarlijks toegekend door het RIZIV, in functie van de opgevangen dagen of verpleegdagen die door het centrum effectief werden gepresteerd en doorgerekend. Het vorderingsrecht op de subsidie is bijgevolg een eventueel vorderingsrecht, namelijk een recht waarvan de afloop afhangt van een toekomstige en intrinsiek onzekere gebeurtenis die bepalend is voor een essentieel aspect of bestanddeel van het recht zelf, zoals uiteengezet in het CBN-advies 2009/3 betreffende de boekhoudkundige verwerking van kapitaalsubsidies waarvan de toekenning en/of de uitbetaling over verschillende jaren wordt gespreid.[^5] 
 

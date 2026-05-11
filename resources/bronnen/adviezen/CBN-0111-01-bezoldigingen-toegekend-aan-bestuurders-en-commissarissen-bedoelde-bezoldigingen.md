@@ -1,58 +1,58 @@
 ---
-nummer: CBN-advies 111/1
+bron: https://www.cbn-cnc.be/nl/adviezen/bezoldigingen-toegekend-aan-bestuurders-en-commissarissen-bedoelde-bezoldigingen
 datum: 1978-07-01
+gerelateerde_adviezen:
+  - datum: '2020-08-05'
+    titel: Vermelding in de jaarrekening van de gegevens van de bestuurders en de commissaris
+    url: https://www.cbn-cnc.be/nl/adviezen/vermelding-in-de-jaarrekening-van-de-gegevens-van-de-bestuurders-en-de-commissaris
+  - datum: '2019-09-26'
+    titel: Boekhoudplichtige onderneming
+    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudplichtige-onderneming
+  - datum: '2016-09-07'
+    titel: Vergoedingen aan bestuurders en werkende vennoten
+    url: https://www.cbn-cnc.be/nl/adviezen/vergoedingen-aan-bestuurders-en-werkende-vennoten
+  - datum: '1995-03-01'
+    titel: Loonmatiging (bezoldigingen van bestuurders)
+    url: https://www.cbn-cnc.be/nl/adviezen/loonmatiging-bezoldigingen-van-bestuurders
+nummer: CBN-advies 111/1
+provenance:
+  generated_at: '2026-05-11T13:05:05Z'
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/bezoldigingen-toegekend-aan-bestuurders-en-commissarissen-bedoelde-bezoldigingen
+      sha256: 1fd5a084f02de977a3750e07d9e78909d8790a4c3597cea96439159545d07cc2
+      version:
+  stale: false
+  stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
+  trust:
+    confirmed_at: '2026-05-11T11:57:45Z'
+    confirmed_by: subagent-sonnet-4-6
+    layer1:
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:24Z'
+      heading_count: 0
+      max_section_chars: 1401
+      file_size_chars: 1401
+      flags: []
+    layer2:
+      agent: subagent-sonnet-4-6
+      concrete_problemen: []
+      rationale: Zeer kort advies (1401 tekens) zonder interne headings — past bij enkelvoudige interpretatie-vraag. Geen artefacten. De afkorting 'mec. nr. 4659' op regel 64 is een authentieke verwijzing uit het originele advies, geen extractie-bug. Frontmatter volledig.
+      run_at: '2026-05-11T11:57:45Z'
+      status: trusted
+    rationale: Zeer kort advies (1401 tekens) zonder interne headings — past bij enkelvoudige interpretatie-vraag. Geen artefacten. De afkorting 'mec. nr. 4659' op regel 64 is een authentieke verwijzing uit het originele advies, geen extractie-bug. Frontmatter volledig.
+    status: trusted
 themas:
   - bestuurder
   - bezoldiging
   - bezoldigingen aan bestuurders en commissarissen
   - commissaris
   - zaakvoerder
-bron: https://www.cbn-cnc.be/nl/adviezen/bezoldigingen-toegekend-aan-bestuurders-en-commissarissen-bedoelde-bezoldigingen
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/bezoldigingen-toegekend-aan-bestuurders-en-commissarissen-bedoelde-bezoldigingen
-      sha256: 1fd5a084f02de977a3750e07d9e78909d8790a4c3597cea96439159545d07cc2
-      version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:34:13Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: trusted
-    confirmed_at: '2026-05-11T11:57:45Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: Zeer kort advies (1401 tekens) zonder interne headings — past bij enkelvoudige interpretatie-vraag. Geen artefacten. De afkorting 'mec. nr. 4659' op regel 64 is een authentieke verwijzing uit het originele advies, geen extractie-bug. Frontmatter volledig.
-    layer1:
-      status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 0
-      max_section_chars: 1401
-      file_size_chars: 1401
-      flags: []
-    layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T11:57:45Z'
-      rationale: Zeer kort advies (1401 tekens) zonder interne headings — past bij enkelvoudige interpretatie-vraag. Geen artefacten. De afkorting 'mec. nr. 4659' op regel 64 is een authentieke verwijzing uit het originele advies, geen extractie-bug. Frontmatter volledig.
-      concrete_problemen: []
-gerelateerde_adviezen:
-  - titel: Vermelding in de jaarrekening van de gegevens van de bestuurders en de commissaris
-    url: https://www.cbn-cnc.be/nl/adviezen/vermelding-in-de-jaarrekening-van-de-gegevens-van-de-bestuurders-en-de-commissaris
-    datum: '2020-08-05'
-  - titel: Boekhoudplichtige onderneming
-    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudplichtige-onderneming
-    datum: '2019-09-26'
-  - titel: Vergoedingen aan bestuurders en werkende vennoten
-    url: https://www.cbn-cnc.be/nl/adviezen/vergoedingen-aan-bestuurders-en-werkende-vennoten
-    datum: '2016-09-07'
-  - titel: Loonmatiging (bezoldigingen van bestuurders)
-    url: https://www.cbn-cnc.be/nl/adviezen/loonmatiging-bezoldigingen-van-bestuurders
-    datum: '1995-03-01'
 ---
 
 # CBN-advies 111/1 - Bezoldigingen toegekend aan bestuurders en commissarissen -Bedoelde bezoldigingen

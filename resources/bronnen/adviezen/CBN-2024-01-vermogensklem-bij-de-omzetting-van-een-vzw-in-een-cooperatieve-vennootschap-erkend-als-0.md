@@ -1,6 +1,43 @@
 ---
-nummer: CBN-advies 2024/01
+bron: https://www.cbn-cnc.be/nl/adviezen/vermogensklem-bij-de-omzetting-van-een-vzw-in-een-cooperatieve-vennootschap-erkend-als-0
 datum: 2024-01-17
+gerelateerde_adviezen:
+  - datum: '2021-05-07'
+    titel: Vermogensklem bij de omzetting van een VZW in een coöperatieve vennootschap erkend als sociale onderneming
+    url: https://www.cbn-cnc.be/nl/adviezen/vermogensklem-bij-de-omzetting-van-een-vzw-in-een-cooperatieve-vennootschap-erkend-als
+nummer: CBN-advies 2024/01
+provenance:
+  generated_at: '2026-05-11T13:05:09Z'
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/vermogensklem-bij-de-omzetting-van-een-vzw-in-een-cooperatieve-vennootschap-erkend-als-0
+      sha256: 5575df12a9bbe6f93803184ffd4066df548821de9ef02f078e4c552989ee70d5
+      version:
+  stale: false
+  stale_reason:
+  tooling:
+    model:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 3b788cd
+    prompt_version:
+  trust:
+    confirmed_at: '2026-05-11T12:24:34Z'
+    confirmed_by: subagent-sonnet-4-6
+    layer1:
+      status: pass
+      run_id: 20260511-130524
+      run_at: '2026-05-11T13:05:31Z'
+      heading_count: 6
+      max_section_chars: 15034
+      file_size_chars: 22981
+      flags: []
+    layer2:
+      agent: subagent-sonnet-4-6
+      concrete_problemen: []
+      rationale: Geen zichtbare extractie-artefacten. Balansvoorbeelden in pipe-tabellen zijn correct opgemaakt met meerregelige cellen als subrekeningen (bv. '1319.0 Overige...' en '1319.1 Latente...' als afzonderlijke rijen), wat inhoudelijk correct is en niet het 'gebroken cel'-patroon van 2022/13. Voetnoten [^1]–[^27] volledig. Drie situaties (materiële vaste activa, geldbeleggingen, onbeschikbare reserve) volledig uitgewerkt.
+      run_at: '2026-05-11T12:24:34Z'
+      status: trusted
+    rationale: Geen zichtbare extractie-artefacten. Balansvoorbeelden in pipe-tabellen zijn correct opgemaakt met meerregelige cellen als subrekeningen (bv. '1319.0 Overige...' en '1319.1 Latente...' als afzonderlijke rijen), wat inhoudelijk correct is en niet het 'gebroken cel'-patroon van 2022/13. Voetnoten [^1]–[^27] volledig. Drie situaties (materiële vaste activa, geldbeleggingen, onbeschikbare reserve) volledig uitgewerkt.
+    status: trusted
 themas:
   - vermogensklem
   - vereniging
@@ -20,50 +57,15 @@ themas:
   - aanzuiveren van verliezen
   - aanzuivering van verlies
   - omzetting
-bron: https://www.cbn-cnc.be/nl/adviezen/vermogensklem-bij-de-omzetting-van-een-vzw-in-een-cooperatieve-vennootschap-erkend-als-0
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/vermogensklem-bij-de-omzetting-van-een-vzw-in-een-cooperatieve-vennootschap-erkend-als-0
-      sha256: 5575df12a9bbe6f93803184ffd4066df548821de9ef02f078e4c552989ee70d5
-      version:
-  tooling:
-    pipeline: tools/etl/scrape_cbn_advies.py
-    pipeline_version: uncommitted
-    model:
-    prompt_version:
-  generated_at: '2026-05-08T18:38:18Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: trusted
-    confirmed_at: '2026-05-11T12:24:34Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: Geen zichtbare extractie-artefacten. Balansvoorbeelden in pipe-tabellen zijn correct opgemaakt met meerregelige cellen als subrekeningen (bv. '1319.0 Overige...' en '1319.1 Latente...' als afzonderlijke rijen), wat inhoudelijk correct is en niet het 'gebroken cel'-patroon van 2022/13. Voetnoten [^1]–[^27] volledig. Drie situaties (materiële vaste activa, geldbeleggingen, onbeschikbare reserve) volledig uitgewerkt.
-    layer1:
-      status: pass
-      run_id: 20260511-083333
-      run_at:
-      heading_count: 7
-      max_section_chars: 12031
-      file_size_chars: 22983
-      flags: []
-    layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T12:24:34Z'
-      rationale: Geen zichtbare extractie-artefacten. Balansvoorbeelden in pipe-tabellen zijn correct opgemaakt met meerregelige cellen als subrekeningen (bv. '1319.0 Overige...' en '1319.1 Latente...' als afzonderlijke rijen), wat inhoudelijk correct is en niet het 'gebroken cel'-patroon van 2022/13. Voetnoten [^1]–[^27] volledig. Drie situaties (materiële vaste activa, geldbeleggingen, onbeschikbare reserve) volledig uitgewerkt.
-      concrete_problemen: []
-gerelateerde_adviezen:
-  - titel: Vermogensklem bij de omzetting van een VZW in een coöperatieve vennootschap erkend als sociale onderneming
-    url: https://www.cbn-cnc.be/nl/adviezen/vermogensklem-bij-de-omzetting-van-een-vzw-in-een-cooperatieve-vennootschap-erkend-als
-    datum: '2021-05-07'
 ---
 
 # CBN-advies 2024/01 – Vermogensklem bij de omzetting van een VZW in een coöperatieve vennootschap erkend als sociale onderneming
 
 ## Inleiding
 
-In onderhavig advies verduidelijkt de Commissie de boekhoudkundige verwerking van het nettoactief van een vereniging zonder winstoogmerk (hierna: VZW) die omgezet wordt in een coöperatieve vennootschap. De wetgever heeft expliciet voorzien in de mogelijkheid tot omzetting, in juridische continuïteit[^2], van een VZW in een vennootschap. Omwille van mogelijke risico’s op misbruik wat de bestemming van het vermogen van de VZW betreft, is de omzetting van een VZW in een vennootschap uitsluitend mogelijk wanneer de VZW de vorm aanneemt van een coöperatieve vennootschap die erkend is als sociale onderneming.[^3] Dergelijke omzetting kan zowel in een *CV erkend als SO* als in een *erkende CVSO*.[^4] Onderhavig ontwerpadvies vervangt CBN-advies 2021/06 – *Vermogensklem bij de omzetting van een VZW in een coöperatieve vennootschap erkend als sociale onderneming*.
+In onderhavig advies verduidelijkt de Commissie de boekhoudkundige verwerking van het nettoactief van een vereniging zonder winstoogmerk (hierna: VZW) die omgezet wordt in een coöperatieve vennootschap. De wetgever heeft expliciet voorzien in de mogelijkheid tot omzetting, in juridische continuïteit[^2], van een VZW in een vennootschap. Omwille van mogelijke risico’s op misbruik wat de bestemming van het vermogen van de VZW betreft, is de omzetting van een VZW in een vennootschap uitsluitend mogelijk wanneer de VZW de vorm aanneemt van een coöperatieve vennootschap die erkend is als sociale onderneming.[^3]
+ Dergelijke omzetting kan zowel in een *CV erkend als SO* als in een *erkende CVSO*.[^4]
+ Onderhavig ontwerpadvies vervangt CBN-advies 2021/06 – *Vermogensklem bij de omzetting van een VZW in een coöperatieve vennootschap erkend als sociale onderneming*.
 
 ## Omzetting van een VZW in een erkende CVSO of een CV erkend als SO
 
@@ -72,12 +74,12 @@ De procedure tot omzetting van een VZW in een CV erkend als SO of in een erkende
 De omzettingsprocedure houdt onder meer in dat het bestuursorgaan een staat van activa en passiva van de VZW moet opmaken en toevoegen aan het verslag van het bestuursorgaan dat moet worden vermeld in de agenda van de algemene vergadering die over de omzetting beslist. Deze staat van activa en passiva:
 
 - mag maximaal drie maanden oud zijn[^5]; 
-- waardeert de bezittingen en schulden[^6]
- tegen werkelijke waarde[^7]; 
+- waardeert de bezittingen en schulden[^6] tegen werkelijke waarde[^7]; 
 - moet vergezeld zijn van een verslag van de commissaris van de VZW of, als er geen commissaris is, een door het bestuursorgaan aangewezen bedrijfsrevisor of gecertificeerd accountant waarin wordt aangegeven of er een overwaardering van het nettoactief heeft plaatsgehad. 
 
 Het nettoactief van de VZW zoals dat blijkt uit voormelde staat van activa en passiva moet in de jaarrekening van de CV worden uitgedrukt en moet op een onbeschikbare reserverekening worden geboekt[^8]. Bij een latere vereffening moet aan het eventuele batige saldo een bestemming worden gegeven die zo nauw mogelijk aansluit bij het voorwerp van de CV als erkende sociale onderneming.[^9]
-  Deze onbeschikbare reserve kan, gelet op haar oorsprong, niet bij beslissing tot statutenwijziging beschikbaar worden gemaakt.[^10] De onbeschikbaarheid van het nettoactief op de datum van de omzetting is als het ware een klem die op het vermogen wordt geplaatst. De wetgever wil hiermee beletten dat eenmaal de VZW vennootschap is geworden dit vermogen, opgebouwd binnen de VZW, zou worden uitgekeerd.
+  Deze onbeschikbare reserve kan, gelet op haar oorsprong, niet bij beslissing tot statutenwijziging beschikbaar worden gemaakt.[^10]
+ De onbeschikbaarheid van het nettoactief op de datum van de omzetting is als het ware een klem die op het vermogen wordt geplaatst. De wetgever wil hiermee beletten dat eenmaal de VZW vennootschap is geworden dit vermogen, opgebouwd binnen de VZW, zou worden uitgekeerd.
 
 ## Boekhoudkundige verwerking
 
@@ -103,8 +105,7 @@ Een gebouw is reeds tien jaar in het bezit van een VZW[^16] op het ogenblik van 
 | 5500 Kredietinstellingen: rekening-courant | | 100.000 | | | | | 
 | | | 790.000 | | | | 790.000 | 
 
-Op het ogenblik van de omzetting is het gebouw 510.000 euro meer waard dan de uitgedrukte boekwaarde. Dit bedrag van 510.000 euro wordt op een afzonderlijke subrekening van het betreffende actief tot uitdrukking gebracht. Naar aanleiding van de omzetting van de VZW in een erkende CVSO wordt in toepassing van artikel 14:42 WVV een bedrag van 1.100.000[^18]
- euro op een onbeschikbare reserverekening geboekt.[^19] 
+Op het ogenblik van de omzetting is het gebouw 510.000 euro meer waard dan de uitgedrukte boekwaarde. Dit bedrag van 510.000 euro wordt op een afzonderlijke subrekening van het betreffende actief tot uitdrukking gebracht. Naar aanleiding van de omzetting van de VZW in een erkende CVSO wordt in toepassing van artikel 14:42 WVV een bedrag van 1.100.000[^18] euro op een onbeschikbare reserverekening geboekt.[^19] 
 
 | Balans na omzetting | 
 | 2210.0 Gebouwen: aanschaffingswaarde | | 990.000 | | 1319 Overige onbeschikbare reserves | | 1.100.000 | 
@@ -135,10 +136,11 @@ Op het ogenblik van de omzetting van de VZW in een erkende CVSO bedraagt de werk
 | 5500 Kredietinstellingen: rekening-courant | | 100.000 | | 44 Handelsschulden | | 200.000 | 
 | | | 1.050.000 | | | | 1.050.000 | 
 
-De geherwaardeerde nettowaarde van deze geldbeleggingen maakt vervolgens, in voorkomend geval, het voorwerp uit van waardeverminderingen (indien de waarde ervan, naar aanleiding van de vermindering van de waarde van deze activa[^22], lager ligt dan de aanschaffingswaarde) en van terugnemingen van deze waardeverminderingen wanneer deze niet langer verantwoord zijn.[^23] Indien een herwaardering niet langer verantwoord is, maakt deze het voorwerp uit van een terugneming.[^24] Deze mogelijke waardevermindering wordt niet ten laste gelegd van de onbeschikbare reserve. 
+De geherwaardeerde nettowaarde van deze geldbeleggingen maakt vervolgens, in voorkomend geval, het voorwerp uit van waardeverminderingen (indien de waarde ervan, naar aanleiding van de vermindering van de waarde van deze activa[^22], lager ligt dan de aanschaffingswaarde) en van terugnemingen van deze waardeverminderingen wanneer deze niet langer verantwoord zijn.[^23]
+ Indien een herwaardering niet langer verantwoord is, maakt deze het voorwerp uit van een terugneming.[^24]
+ Deze mogelijke waardevermindering wordt niet ten laste gelegd van de onbeschikbare reserve. 
 
-### Onbeschikbare reserve kan niet worden aangewend om verliezen boekhoudkundig aan te zuiveren
-
+Onbeschikbare reserve kan niet worden aangewend om verliezen boekhoudkundig aan te zuiveren
 Een VZW wordt in boekjaar N omgezet in een CV erkend als SO. Het nettoactief dat blijkt uit de staat van activa en passiva (gewaardeerd tegen werkelijke waarde) van die VZW bedraagt 100. Dit bedrag wordt geboekt op een onbeschikbare reserve in toepassing van artikel 14:42 WVV. 
 
 *Eerste situatie*
