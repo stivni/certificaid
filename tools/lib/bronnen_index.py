@@ -14,7 +14,7 @@ Eén commando, één bron van waarheid:
 
     python3 tools/lib/bronnen_index.py --force
 
-Schema per JSON-entry:
+Schema per JSON-entry (nieuw schema ADR-004 2026-05-11):
 
     {
       "bestand": "Antiwitwaswet-2017.md",
@@ -23,10 +23,9 @@ Schema per JSON-entry:
       "korte_naam": "Antiwitwaswet 2017",
       "tags": ["XVII", "4.0"],
       "trust_status": "trusted" | "unreviewed" | "needs-rework" | "rejected",
-      "trust_confirmed_by": "human" | "subagent-..." | "qa-laag1-auto" | ...,
-      "trust_qa_version": "trust-rework-2",
-      "layer1_verdict": "pass" | "warn" | "fail" | None,
-      "layer2_verdict": "trusted" | "needs-rework" | "rejected" | None,
+      "trust_confirmed_by": "human" | "subagent-..." | null,
+      "layer1_status": "not_run" | "pass" | "warn" | "fail" | null,
+      "layer2_status": "not_run" | "trusted" | "needs-rework" | "rejected" | null,
       "stem": "Antiwitwaswet-2017"
     }
 
@@ -108,8 +107,10 @@ def build_index() -> list[dict]:
             prov = fm.get("provenance") or {}
             trust = prov.get("trust") or {}
             trust_status = trust.get("status") or "unknown"
+            # Nieuw schema (ADR-004 2026-05-11): layer1.status en layer2.status.
+            # Fallback op "layer2_content" voor bronnen die nog niet gemigreerd zijn.
             layer1 = trust.get("layer1") or {}
-            layer2 = trust.get("layer2_content") or {}
+            layer2 = trust.get("layer2") or trust.get("layer2_content") or {}
             titel = (
                 fm.get("wet")
                 or fm.get("norm")
@@ -126,9 +127,10 @@ def build_index() -> list[dict]:
                 "tags": list(fm.get("tags") or []),
                 "trust_status": trust_status,
                 "trust_confirmed_by": trust.get("confirmed_by"),
-                "trust_qa_version": trust.get("qa_version"),
-                "layer1_verdict": layer1.get("verdict"),
-                "layer2_verdict": layer2.get("verdict"),
+                # layer1_status: lees .status; fallback op .verdict (pre-migratie bronnen)
+                "layer1_status": layer1.get("status") or layer1.get("verdict"),
+                # layer2_status: lees .status; fallback op .verdict (pre-migratie bronnen)
+                "layer2_status": layer2.get("status") or layer2.get("verdict"),
             }
             entries.append(entry)
     return entries
@@ -226,8 +228,8 @@ def _render_rol_table(rol: str, entries: list[dict]) -> str:
         rows.append(
             f"| `{e['bestand']}` "
             f"| {_trust_badge(e['trust_status'])} "
-            f"| {_verdict_short(e.get('layer1_verdict'))} "
-            f"| {_verdict_short(e.get('layer2_verdict'))} "
+            f"| {_verdict_short(e.get('layer1_status'))} "
+            f"| {_verdict_short(e.get('layer2_status'))} "
             f"| {confirmed} "
             f"| {titel} |"
         )

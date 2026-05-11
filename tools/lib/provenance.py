@@ -86,28 +86,28 @@ TRUST_VALID_STATUSES = ("unreviewed", "trusted", "needs-rework", "rejected")
 class Trust:
     """QA-uitkomst per bron-MD; bepaalt of rag_index.py de bron oppakt.
 
+    Schema conform ADR-004 (2026-05-11). Trust-regel:
+      status = trusted ⟺ (layer2.status == "trusted") OR (confirmed_by == "human")
+      Anders ⟹ status = unreviewed.
+
     - unreviewed: default; nog niet beoordeeld → niet geïndexeerd
     - trusted:    bevestigd OK voor RAG → geïndexeerd
     - needs-rework: ETL-fix nodig voor we het in de index willen
     - rejected:   structureel niet bruikbaar; weglaten
+
+    Vervallen velden (2026-05-11 — migratie_trust_schema_2026_05_11.py):
+      qa_version, agent_verdict_at, sample_pick, sample_reviewed_at,
+      sample_reviewed_by, layer1_5_diff, layer2_content.
+    from_dict() negeert deze velden (forward-compat) zodat bronnen die nog
+    niet gemigreerd zijn geen crash veroorzaken.
     """
     status: str = "unreviewed"
-    qa_version: Optional[str] = None
     confirmed_at: Optional[str] = None
-    confirmed_by: Optional[str] = None
+    confirmed_by: Optional[str] = None   # "human" | "<agent-naam>" | None
     rationale: Optional[str] = None
-    # Agent-trust workflow (ADR-005 §5, promote_staging.py): tracking-velden voor
-    # automatische agent-promoties + optionele sample-review door mens.
-    agent_verdict_at: Optional[str] = None
-    sample_pick: Optional[bool] = None
-    sample_reviewed_at: Optional[str] = None
-    sample_reviewed_by: Optional[str] = None
-    # Per-laag QA-detail (ADR-005 §5). Tot mei 2026 leefden deze in losse
-    # `data/qa/*.json`-bestanden; nu inline in frontmatter zodat elke bron-MD
-    # zijn volledige QA-historie meedraagt en aggregaten via grep ontstaan.
-    layer1: Optional[dict] = None         # qa_bron.py output (deterministisch)
-    layer1_5_diff: Optional[dict] = None  # diff vs vorige resources/-versie
-    layer2_content: Optional[dict] = None # content-judgment subagent
+    # Per-laag QA-detail (ADR-005 §5, ADR-004 §trust).
+    layer1: Optional[dict] = None  # qa_bron.py output — status: not_run|pass|warn|fail
+    layer2: Optional[dict] = None  # agent content-judgment — status: not_run|trusted|needs-rework|rejected
 
     def __post_init__(self) -> None:
         if self.status not in TRUST_VALID_STATUSES:
@@ -118,14 +118,19 @@ class Trust:
 
     @classmethod
     def from_dict(cls, data: dict) -> "Trust":
-        """Lees Trust uit dict; onbekende velden worden genegeerd (forward-compat)."""
+        """Lees Trust uit dict; onbekende/vervallen velden worden genegeerd.
+
+        Verouderde velden die genegeerd worden (backwards-compat voor niet-gemigreerde
+        bronnen): qa_version, agent_verdict_at, sample_pick, sample_reviewed_at,
+        sample_reviewed_by, layer1_5_diff, layer2_content.
+        """
         known = {f for f in cls.__dataclass_fields__}
         return cls(**{k: v for k, v in data.items() if k in known})
 
 
 def default_trust() -> Trust:
     """Default trust voor bronnen zonder expliciete trust-marking."""
-    return Trust(status="unreviewed", confirmed_by="default")
+    return Trust(status="unreviewed")
 
 
 @dataclass
@@ -339,12 +344,17 @@ def mark_trust(
     *,
     confirmed_by: str = "human",
     rationale: Optional[str] = None,
-    qa_version: Optional[str] = None,
 ) -> Trust:
     """Update het trust-blok op een bron-MD. Schrijft naar provenance.trust.
 
     Vereist dat het bestand al een provenance-blok heeft (run
     `tools/etl/backfill_trust_unreviewed.py` of `tools/etl/add_provenance.py` eerst).
+
+    Trust-regel (ADR-004): status=trusted is alleen geldig als:
+      (a) confirmed_by == "human", of
+      (b) layer2.status == "trusted"
+    mark_trust() is de mens-override-tool: confirmed_by default "human".
+    layer2 wordt NIET aangeraakt — blijft not_run als mens overrulet.
 
     Returnt de nieuwe Trust.
     """
@@ -354,12 +364,15 @@ def mark_trust(
             f"{path}: geen provenance-blok aanwezig. "
             f"Run eerst tools/etl/backfill_trust_unreviewed.py of add_provenance.py."
         )
+    # Behoud bestaande layer1/layer2-data; update alleen top-level trust-velden.
+    existing = prov.trust or Trust()
     new_trust = Trust(
         status=status,
-        qa_version=qa_version,
         confirmed_at=now_iso(),
         confirmed_by=confirmed_by,
         rationale=rationale,
+        layer1=existing.layer1,
+        layer2=existing.layer2,
     )
     prov.trust = new_trust
     write_provenance(path, prov)

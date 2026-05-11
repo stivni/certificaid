@@ -289,19 +289,21 @@ def _now_iso() -> str:
 def _set_trust(
     data: dict,
     *,
-    qa_version: str,
     confirmed_by: str,
     rationale: str,
-    sample_pick: bool,
     timestamp: str,
     qa_entry: Optional[dict] = None,
-    diff_entry: Optional[dict] = None,
     content_entry: Optional[dict] = None,
 ) -> None:
+    """Schrijf trust-blok naar frontmatter-dict conform nieuw schema (ADR-004 2026-05-11).
+
+    Trust-derivation-regel (ADR-004): status=trusted ⟺ layer2.status=trusted.
+    confirmed_by wordt de agent-naam die Laag 2 heeft uitgevoerd.
+    Geen qa_version, geen agent_verdict_at, geen sample_*, geen layer1_5_diff.
+    layer1 en layer2 krijgen het nieuwe schema met .status (niet .verdict).
+    """
     prov = data.setdefault("provenance", {})
     if not isinstance(prov, dict):
-        # Vervang met dict — frontmatter zonder provenance is een gebroken bron,
-        # maar we willen niet hard crashen tijdens promotie.
         data["provenance"] = {}
         prov = data["provenance"]
     trust = prov.get("trust")
@@ -309,20 +311,13 @@ def _set_trust(
         trust = {}
         prov["trust"] = trust
 
+    # Top-level trust-velden (nieuw schema)
     trust["status"] = "trusted"
-    trust["qa_version"] = qa_version
-    trust["agent_verdict_at"] = timestamp
-    # confirmed_at houden we naast agent_verdict_at gelijk (legacy-veld).
     trust["confirmed_at"] = timestamp
     trust["confirmed_by"] = confirmed_by
     trust["rationale"] = rationale
-    trust["sample_pick"] = sample_pick
-    trust["sample_reviewed_at"] = None
-    trust["sample_reviewed_by"] = None
 
-    # Embed de drie laag-detail-blokken (ADR-005 §5). Tot mei 2026 leefden deze
-    # in losse `data/qa/*.json`; nu inline in de bron-MD zodat elke bron zijn
-    # volledige QA-historie meedraagt en aggregatie via grep mogelijk is.
+    # Laag 1 (deterministisch) — schrijf naar layer1.status (niet .verdict)
     if qa_entry:
         flags = []
         for c in qa_entry.get("checks", []):
@@ -331,29 +326,24 @@ def _set_trust(
                 flags.append({"name": c.get("name"), "status": st,
                               "detail": c.get("detail"), "samples": c.get("samples", []) or []})
         trust["layer1"] = {
-            "verdict": qa_entry.get("verdict"),
+            "status": qa_entry.get("verdict") or qa_entry.get("status"),  # pass|warn|fail
+            "run_id": qa_entry.get("run_id"),
+            "run_at": timestamp,
             "heading_count": qa_entry.get("heading_count"),
             "max_section_chars": qa_entry.get("max_section_chars"),
             "file_size_chars": qa_entry.get("file_size_chars"),
             "flags": flags,
-            "run_id": qa_entry.get("run_id") or qa_version,
         }
-    if diff_entry:
-        trust["layer1_5_diff"] = {
-            "verdict": diff_entry.get("diff_verdict") or diff_entry.get("verdict"),
-            "rationale": diff_entry.get("rationale"),
-            "kritieke_observaties": diff_entry.get("kritieke_observaties") or [],
-            "auto": bool(diff_entry.get("auto", False)),
-            "run_id": qa_version,
-        }
+
+    # Laag 2 (inhoudelijke beoordeling) — schrijf naar layer2 (niet layer2_content)
     if content_entry:
-        trust["layer2_content"] = {
-            "verdict": content_entry.get("aanbevolen_status") or content_entry.get("verdict"),
+        l2_status = content_entry.get("aanbevolen_status") or content_entry.get("status") or content_entry.get("verdict")
+        trust["layer2"] = {
+            "status": l2_status,  # trusted|needs-rework|rejected
+            "agent": confirmed_by,
+            "run_at": timestamp,
             "rationale": content_entry.get("rationale"),
-            "problemen": content_entry.get("concrete_problemen") or content_entry.get("problemen") or [],
-            "sterkte": content_entry.get("concrete_sterke_punten") or content_entry.get("sterkte") or [],
-            "auto": bool(content_entry.get("auto", False)),
-            "run_id": qa_version,
+            "concrete_problemen": content_entry.get("concrete_problemen") or content_entry.get("problemen") or [],
         }
 
 
@@ -362,9 +352,15 @@ def _build_rationale(
     diff_entry: Optional[dict],
     content_entry: Optional[dict],
 ) -> str:
+    """Bouw rationale-samenvatting uit de beschikbare verdict-bronnen.
+
+    Laag 1.5 (diff) wordt nog meegenomen als context-string maar niet meer
+    als apart blok in het trust-schema opgeslagen (ADR-004 2026-05-11).
+    """
     parts: list[str] = []
     if qa_entry:
-        parts.append(f"L1={qa_entry.get('verdict', '?')}")
+        l1_status = qa_entry.get("verdict") or qa_entry.get("status", "?")
+        parts.append(f"L1={l1_status}")
     if diff_entry:
         d = diff_entry.get("diff_verdict", "?")
         rat = (diff_entry.get("rationale") or "").strip()
@@ -469,19 +465,15 @@ def promote(
             project_root=project_root,
         )
 
-        sample_pick = (result == "review-pending")
         rationale = _build_rationale(qa_entry, diff_entry, content_entry)
         confirmed_by = _confirmed_by_from_verdicts(diff_entry, content_entry)
 
         _set_trust(
             data,
-            qa_version=run_id,
             confirmed_by=confirmed_by,
             rationale=rationale,
-            sample_pick=sample_pick,
             timestamp=timestamp,
             qa_entry=qa_entry,
-            diff_entry=diff_entry,
             content_entry=content_entry,
         )
 
@@ -529,7 +521,7 @@ def _print_summary(rapport: dict, total: int, dry_run: bool, qa_dir: Path) -> No
     prefix = "(DRY-RUN) " if dry_run else ""
     print(f"{prefix}Run {rid}: {total} staging-bronnen")
     print(f"  → {n_auto} auto-trusted (gepromoot)")
-    print(f"  → {n_review} review-pending (gepromoot, sample_pick=true)")
+    print(f"  → {n_review} review-pending (gepromoot, wacht op mens-review)")
     if n_blocked:
         if dry_run:
             print(f"  → {n_blocked} blocked (in staging gebleven)")

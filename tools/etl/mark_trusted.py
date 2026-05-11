@@ -104,10 +104,14 @@ def apply_one(
     *,
     confirmed_by: str,
     rationale: Optional[str],
-    qa_version: Optional[str],
     dry_run: bool,
 ) -> str:
-    """Pas trust toe op één bestand. Returnt status-string voor rapport."""
+    """Pas trust toe op één bestand. Returnt status-string voor rapport.
+
+    Trust-regel (ADR-004): status=trusted vereist confirmed_by="human" of
+    layer2.status="trusted". mark_trusted.py is de mens-override-tool:
+    --confirmed-by default "human". layer2 wordt NIET aangeraakt door dit script.
+    """
     try:
         existing = read_trust(path)
     except Exception as exc:
@@ -117,7 +121,7 @@ def apply_one(
         return "unchanged"
 
     if dry_run:
-        return f"would-change ({existing.status} → {status})"
+        return f"would-change ({existing.status} -> {status})"
 
     try:
         mark_trust(
@@ -125,9 +129,8 @@ def apply_one(
             status,
             confirmed_by=confirmed_by,
             rationale=rationale,
-            qa_version=qa_version,
         )
-        return f"changed ({existing.status} → {status})"
+        return f"changed ({existing.status} -> {status})"
     except ValueError as exc:
         return f"error: {exc}"
 
@@ -140,7 +143,6 @@ def cmd_single(args: argparse.Namespace) -> None:
         args.status,
         confirmed_by=confirmed_by,
         rationale=args.rationale,
-        qa_version=args.qa_version,
         dry_run=args.dry_run,
     )
     print(f"{path.relative_to(ROOT)}: {result}")
@@ -164,7 +166,6 @@ def cmd_scope(args: argparse.Namespace) -> None:
             args.status,
             confirmed_by=confirmed_by,
             rationale=args.rationale,
-            qa_version=args.qa_version,
             dry_run=args.dry_run,
         )
         # Tel categorie van resultaat
@@ -236,7 +237,6 @@ def cmd_apply_from_verdicts(args: argparse.Namespace) -> None:
             recommended,
             confirmed_by=confirmed_by,
             rationale=rationale,
-            qa_version=args.qa_version,
             dry_run=args.dry_run,
         )
         bucket = result.split(" ")[0]
@@ -257,8 +257,9 @@ def main() -> None:
     p.add_argument("--status", choices=TRUST_VALID_STATUSES,
                    help="te zetten trust-status (vereist behalve bij --apply-from-verdicts)")
     p.add_argument("--rationale", help="optionele toelichting bij de status-wijziging")
-    p.add_argument("--qa-version", help="run-id van qa_bron.py / verdicts-bestand (provenance-trail)")
-    p.add_argument("--confirmed-by", help="override van confirmed_by (default: human bij CLI, subagent-* bij verdicts)")
+    p.add_argument("--confirmed-by", default=None,
+                   help="wie bevestigt: 'human' (default bij CLI) of '<agent-naam>' bij verdicts. "
+                        "Alleen 'human' of een agent-naam zijn geldig (ADR-004).")
     p.add_argument("--dry-run", action="store_true", help="toon zonder schrijven")
     p.add_argument("--verbose", "-v", action="store_true", help="ook unchanged regels tonen")
 

@@ -141,12 +141,22 @@ Tabellen als markdown-tabellen. Schema's als losse PNG's in `<bron>-img/` (pymup
 
 Stuurt confidence (ADR-010) en retrieval-filtering (ADR-006).
 
-### 5. Kwaliteits-gate en auto-trust workflow
+### 5. Kwaliteits-gate (Laag 1 + Laag 2 + optionele mens-override)
+
+> **Status 2026-05-11**: vereenvoudigd na praktijkbevinding. De vorige v2-flow met
+> Laag 1.5 (regressie-diff) en mens-steekproef is vervallen. Het canonical schema
+> per bron staat in **ADR-004 §trust:**. Hieronder de operationele werking.
 
 Bij ~580 bronnen is handmatig elk MD-bestand controleren niet realistisch, maar
 blind alles indexeren ondermijnt RAG-precisie. De gate werkt op de **staging-MD**
-uit §2 stap 5 en bestaat uit drie lagen met een agent-gestuurde auto-trust-flow.
-De mens komt enkel tussen voor een steekproef.
+uit §2 stap 5 en bestaat uit twee verplichte lagen plus een optionele
+mens-override:
+
+- **Laag 1**: deterministische checks — produceert `layer1.status: pass|warn|fail` data, bevestigt nooit trust.
+- **Laag 2**: agent leest inhoud + Laag-1-rapport, geeft `layer2.status: trusted|needs-rework|rejected`.
+- **Mens-override** (optioneel): `mark_trusted.py --status trusted --confirmed-by human` overruled Laag 2 expliciet.
+
+**Afgeleide regel** (uit ADR-004): `trust.status = trusted` ⇔ `layer2.status = trusted` OR `confirmed_by = human`. Anders ⇒ `unreviewed`.
 
 **Laag 1 — Deterministische checks** (`tools/etl/qa_bron.py`)
 
@@ -160,32 +170,9 @@ Per staging-MD machine-controleerbare criteria:
   `[A-Z][a-z]+\s{20,}[A-Z]` kolom-bleed, runs van >5 lege regels, OCR-flags
   (`lAB`, `lBR`, l/I-verwarring op verdachte plekken)
 
-Output: `data/qa/<run-id>.json` met per bron `pass | warn | fail` + concrete
-vindplaatsen.
-
-**Laag 1.5 — Regressie-diff** (nieuw 2026-05-09; `tools/etl/diff_review.py`)
-
-Voor elke bron die al een vorige versie heeft (`resources/bronnen/<bron>.md`
-bestaat in HEAD), genereert de gate een **git-diff** tussen staging en HEAD.
-Een Claude Code subagent (Sonnet, lokaal — geen externe API per ADR-008 §0)
-beoordeelt de diff en produceert per bron:
-
-```json
-{
-  "bestand": "...",
-  "diff_verdict": "improvement | regression | structural_change | no_op",
-  "rationale": "1-3 zinnen — wat veranderde, is het beter/slechter/equivalent",
-  "kritieke_observaties": ["bv. juridische tekst gewijzigd; bv. articles weggevallen"]
-}
-```
-
-`diff_verdict`:
-- `improvement` — duidelijke verbetering (artefacten weg, headings beter, ...)
-- `no_op` — niets verandert behalve provenance-timestamp
-- `structural_change` — grote herstructurering; mens moet kijken
-- `regression` — slechter dan HEAD; auto-trust geblokkeerd
-
-Voor nieuwe bronnen (geen HEAD-versie): laag 1.5 wordt overgeslagen.
+Output: schrijft naar `provenance.trust.layer1` in de bron-MD (+ legacy JSON-rapport
+in `data/qa/<run-id>.json`). Per bron `pass | warn | fail` met concrete vindplaatsen
+in `flags`.
 
 **Laag 2 — Inhoudelijke beoordeling** (`tools/etl/qa_subagent_prompt.md`)
 
@@ -203,57 +190,39 @@ lokaal) leest de gemarkeerde bronnen plus het Laag-1-rapport en produceert:
 }
 ```
 
-Heuristiek: conservatief — bij twijfel `needs-rework`, niet `trusted`.
+Heuristiek: conservatief — bij twijfel `needs-rework`, niet `trusted`. Output schrijft
+naar `provenance.trust.layer2` in de bron-MD (`status`, `agent`, `run_at`, `rationale`,
+optioneel `concrete_problemen`).
 
-**Auto-trust verdict-combinatie**:
+**Verdict-combinatie** (`tools/etl/promote_staging.py`):
 
-| Laag 1 | Laag 1.5 | Laag 2 | Resultaat |
-|---|---|---|---|
-| `pass` | `improvement` of `no_op` | `trusted` | **auto-trust** → promote naar resources/bronnen/, trust=trusted |
-| `pass` | `structural_change` | `trusted` | **review-pending** → promote, trust=trusted, sample-pick verplicht |
-| `pass` | `regression` | * | **blocked** → blijft in staging, trust=needs-rework |
-| `warn` | * | `trusted` | **review-pending** → promote, trust=trusted, sample-pick verplicht |
-| `fail` | * | * | **blocked** → blijft in staging, trust=needs-rework |
-| * | * | `needs-rework` of `rejected` | **blocked** → blijft in staging |
+| Laag 1 | Laag 2 | Resultaat |
+|---|---|---|
+| `pass` of `warn` | `trusted` | promote → `trust.status = trusted`, `confirmed_by = <agent>` |
+| `pass` of `warn` | `needs-rework` of `rejected` | blocked — blijft in staging, `trust.status = needs-rework` resp `rejected` |
+| `fail` | * | blocked — Laag 2 wordt niet eens gedraaid |
 
-`promote_staging.py` voert de promotie uit en schrijft naar `provenance.trust`:
+Geen "auto-trust zonder Laag 2" meer. Een bron die enkel `layer1.status: pass` heeft
+en géén `layer2.status: trusted` blijft `unreviewed`.
 
-```yaml
-trust:
-  status: trusted
-  qa_version: <run-id>
-  agent_verdict_at: 2026-05-09T14:00:00Z
-  confirmed_by: subagent-sonnet-4-6
-  rationale: "..."
-  sample_pick: false   # zie Laag 3
-  sample_reviewed_at:  # leeg tot mens steekproef doet
-  sample_reviewed_by:
+**Mens-override** (`tools/etl/mark_trusted.py`)
+
+Voor bronnen waar Laag 2 niet praktisch is (bv. legacy bulk, of een bron waar
+de agent het oneens is met de mens), kan de mens expliciet `status: trusted`
+zetten:
+
+```bash
+python tools/etl/mark_trusted.py --bron resources/bronnen/wetteksten/X.md \
+    --status trusted \
+    --confirmed-by human \
+    --rationale "Handmatig geverifieerd 2026-05-11"
 ```
 
-**Laag 3 — Mens-steekproef** (`tools/etl/sample_review.py`)
+Dit zet `confirmed_by: human`, laat `layer2.status: not_run` onaangeroerd, en is
+de enige manier waarop een bron zonder `layer2.status = trusted` toch in de
+RAG-index komt.
 
-Na elke conversie-batch trekt de tool een random steekproef (default 10%) uit
-de auto-trusted bronnen en zet hun `provenance.trust.sample_pick: true`. De
-mens bewerkt die bestanden in zijn editor; de tool toont een lijst:
-
-```
-$ python tools/etl/sample_review.py --status
-Steekproef batch <run-id>:
-  ⏳ resources/bronnen/wetteksten/WIB92.md         (gepickt, niet beoordeeld)
-  ✓  resources/bronnen/wetteksten/Antiwitwaswet... (OK, 2026-05-09)
-  ✗  resources/bronnen/normen/ITAA-norm-X.md       (problemen, 2026-05-09)
-```
-
-Detectie of de mens een bestand bewerkt heeft: vergelijk `mtime` met
-`agent_verdict_at`. Als mtime > agent_verdict_at en het bestand is in
-sample-pick: vul automatisch `sample_reviewed_at` in en vraag oordeel
-(`--mark-ok` of `--mark-not-ok`).
-
-Bij `--mark-not-ok` op één bron: alle auto-trusted bronnen in dezelfde batch
-gaan terug naar `unreviewed` (de mens zal die ook willen herzien). Ook bronnen
-met `review-pending` blijven `trusted` maar krijgen verplichte `sample_pick: true`.
-
-**Vier trust-statussen** (zie ADR-004 §"Trust-schema-uitbreiding"):
+**Vier trust-statussen** (zie ADR-004 §"trust:"):
 
 | Status | Betekenis | rag_index gedrag |
 |---|---|---|
@@ -263,7 +232,8 @@ met `review-pending` blijven `trusted` maar krijgen verplichte `sample_pick: tru
 | `rejected` | Niet bruikbaar; weglaten | Geskipt |
 
 **Default-state strict**: bij introductie krijgen alle nieuwe bronnen
-`unreviewed`. Niets in de RAG-index tot de auto-trust-flow ze op `trusted` zet.
+`unreviewed`. Niets in de RAG-index tot Laag 2 of een mens-override ze op
+`trusted` zet.
 
 ### 6. Indexering filtert op trust
 

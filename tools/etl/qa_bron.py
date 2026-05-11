@@ -768,13 +768,18 @@ def _write_layer1_to_frontmatter(report: BronReport, run_id_str: str) -> bool:
             flags.append({"name": c.name, "status": c.status,
                           "detail": c.detail, "samples": c.samples or []})
 
+    # Nieuw schema (ADR-004 2026-05-11): layer1.status (niet .verdict), + run_at.
+    # qa_bron.py raakt trust.status en trust.confirmed_by NIET aan — Laag 1
+    # bevestigt nooit trust zelfstandig (zie ADR-005 §5, trust-derivation-regel).
+    from datetime import datetime, timezone as _tz
     layer1 = {
-        "verdict": report.verdict,
+        "status": report.verdict,   # pass | warn | fail
+        "run_id": run_id_str,
+        "run_at": datetime.now(_tz.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
         "heading_count": report.heading_count,
         "max_section_chars": report.max_section_chars,
         "file_size_chars": report.file_size_chars,
         "flags": flags,
-        "run_id": run_id_str,
     }
 
     prov = fm.setdefault("provenance", {})
@@ -784,8 +789,12 @@ def _write_layer1_to_frontmatter(report: BronReport, run_id_str: str) -> bool:
     if not isinstance(trust, dict):
         trust = {}
         prov["trust"] = trust
-    if trust.get("layer1") == layer1:
-        return False  # idempotent
+    # Idempotentie: vergelijk zonder run_at (die verandert altijd).
+    existing_l1 = trust.get("layer1") or {}
+    existing_comparable = {k: v for k, v in existing_l1.items() if k != "run_at"}
+    new_comparable = {k: v for k, v in layer1.items() if k != "run_at"}
+    if existing_comparable == new_comparable:
+        return False  # idempotent (zelfde resultaat, andere timestamp)
     trust["layer1"] = layer1
 
     buf = io.StringIO()
